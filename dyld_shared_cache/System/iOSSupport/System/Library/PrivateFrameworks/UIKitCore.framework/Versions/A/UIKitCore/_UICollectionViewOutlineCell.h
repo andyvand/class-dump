@@ -6,33 +6,24 @@
 
 #import <UIKitCore/_UICollectionViewListCell.h>
 
-@class UIImageView, UILabel, UIView, _UICollectionViewOutlineCellDisclosureConfiguration;
-
 @interface _UICollectionViewOutlineCell : _UICollectionViewListCell
 {
     _Bool _automaticallyTogglesExpansionState;
-    _Bool _selectionFollowsTintColor;
-    UIView *_outlineContentView;
-    UILabel *_textLabel;
-    UIImageView *_imageView;
-    _UICollectionViewOutlineCellDisclosureConfiguration *_disclosureConfiguration;
-    CDUnknownBlockType _disclosureWasTappedHandler;
-    double _highlightCornerRadius;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (CDUnknownBlockType);
+- (void)"NSString"32@"IMSenderContext"40;
+- (void)syndicationIdentifier;
+- (void)retractPostedNotificationsForMessagesMatchingChatGUIDs:(CDUnknownBlockType)arg1;
+- (void)retractNotificationsForReadMessagesWithGUIDs:(id)arg1;
+- (void)participantChangeGUIDs;
+- (_Bool)localizedStringForKey:value:table:localization: /* Error: Ran out of types for this method. */;
+- (id)cloudKitChatIDForServiceName: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType);
 - (id);
 - (_Bool);
 - (id)!àEùñYÐ1Â0@ù
 × ;
-- (void)Tracking:(id)arg1;
+- (void)_setupAnimationTracking:(id)arg1;
 - (id)V_primaryPlatterPreview;
 - (id);
 - (void)PZzÿXZ;
@@ -40,15 +31,7 @@
 - (void)Áb;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyTogglesExpansionState; // @synthesize automaticallyTogglesExpansionState=_automaticallyTogglesExpansionState;
-@property(copy, nonatomic) _UICollectionViewOutlineCellDisclosureConfiguration *disclosureConfiguration; // @synthesize disclosureConfiguration=_disclosureConfiguration;
-@property(copy, nonatomic) CDUnknownBlockType disclosureWasTappedHandler; // @synthesize disclosureWasTappedHandler=_disclosureWasTappedHandler;
-@property(nonatomic) double highlightCornerRadius; // @synthesize highlightCornerRadius=_highlightCornerRadius;
 @property(retain, nonatomic) id identifier;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) UIView *outlineContentView; // @synthesize outlineContentView=_outlineContentView;
-@property(nonatomic) _Bool selectionFollowsTintColor; // @synthesize selectionFollowsTintColor=_selectionFollowsTintColor;
-@property(readonly, nonatomic) UILabel *textLabel; // @synthesize textLabel=_textLabel;
 
 @end
 

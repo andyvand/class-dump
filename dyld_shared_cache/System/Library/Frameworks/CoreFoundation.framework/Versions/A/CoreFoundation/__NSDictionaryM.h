@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface __NSDictionaryM : NSMutableDictionary
 {
     CDStruct_bc24fd1e storage;
-    _Atomic struct __cow_state_t *cow;
 }
 
 + (_Bool);
@@ -24,13 +23,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (void);
-- (id);
+- (void)exture:(id)arg1 destinationSlice:destinationLevel:destinationOrigin:] /* Error: Ran out of types for this method. */;
+- (id)led:fullApplicationInstalled: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)6@"NSArray"24@?<v@?@"NSArray"@"NSError">32;
 - (void)@"NSError">24;
-- (void);
+- (void)characterIsMember: /* Error: Ran out of types for this method. */;
 - (void)d;
 - (void)/Library/PrivateFrameworks/CommonAuth.framework/;
 - (double);

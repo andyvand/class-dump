@@ -6,7 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, SAUIDecoratedText, SAUINanoImageResource;
 @protocol SASTTemplateAction;
 
 @interface SASTColumnDataListItem : AceObject
@@ -26,21 +25,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)v;
 
 // Remaining properties
 @property(retain, nonatomic) id <SASTTemplateAction> action; // @dynamic action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSArray *decoratedRows;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUINanoImageResource *imageResource;
-@property(copy, nonatomic) NSString *rowLayout;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SAUIDecoratedText *title;
 
 @end
 

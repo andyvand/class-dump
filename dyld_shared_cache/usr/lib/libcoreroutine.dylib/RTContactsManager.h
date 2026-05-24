@@ -6,22 +6,18 @@
 
 #import <coreroutine/RTService.h>
 
-@class CNContact, RTDataProtectionManager, RTDistanceCalculator, RTMapServiceManager;
+@class RTDataProtectionManager;
 
 @interface RTContactsManager : RTService
 {
     _Bool _available;
-    RTDataProtectionManager *_dataProtectionManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTDistanceCalculator *_distanceCalculator;
-    CNContact *_meCard;
 }
 
 + (unsigned long long);
++ (id)nvalid ciphertext length;
 + (id);
 + (id);
 + (id);
-+ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -31,60 +27,56 @@
 - (void);
 - (_Bool);
 - (id);
+- (void)ysExist:(CDUnknownBlockType)arg1 could not recover existing DBR record with wrapping key:%@ /* Error: Ran out of types for this method. */;
+- (void)eys:(CDUnknownBlockType)arg1 %@;
+- (void)%@;
+- (void)%@;
+- (void)e:(id)arg1 %@;
+- (void)assertion;
+- (void)syrup;
+- (id)ince %@ have the service %@ (%@) in it;
+- (id)tee service:(id)arg1 %@;
+- (id)keys;
+- (id)modern;
+- (id)zi8/hDBsjgxjoQPf+o=;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)A;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
+- (id)!;
 - (id);
 - (void)
 × ;
-- (void)LOIs;
+- (void)numberOfStartingLOIs;
 - (void)ache,Initiator,%@,%@,Active Session Zone fetch successful;
 - (void)}@;
 - (_Bool)ce threshold, %.1f;
 - (void)gøÿ0í-á ;
 
 // Remaining properties
-@property(nonatomic) _Bool available; // @synthesize available=_available;
 @property(retain, nonatomic) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) CNContact *meCard; // @synthesize meCard=_meCard;
 
 @end
 

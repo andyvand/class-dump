@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface _GPURawCounterSourceGroup
 {
     unsigned int _acceleratorPort;
-    NSString *_name;
-    NSArray *_sourceList;
-    NSDictionary *_options;
-    NSDictionary *_features;
 }
 
 - (id);
@@ -31,19 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned int acceleratorPort; // @synthesize acceleratorPort=_acceleratorPort;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSDictionary *features; // @synthesize features=_features;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
-@property(readonly) unsigned long long sampleMarker;
-@property(readonly) NSArray *sourceList; // @synthesize sourceList=_sourceList;
-@property(readonly) Class superclass;
 
 @end
 

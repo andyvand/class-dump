@@ -8,7 +8,6 @@
 {
     id _currentTemperatureUnit;
     id _observer;
-    id _$observationRegistrar;
 }
 
 @end

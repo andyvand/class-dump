@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TSClockManager, TSgPTPClock, TSgPTPManager;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface SSTimebase
 {
     _Bool _isActive;
-    unsigned long long _clockIdentifier;
-    struct sockaddr *_targetAddress;
-    NSString *_interface;
-    CDUnknownBlockType _interruptionBlock;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    unsigned long long _timerIntervalInSeconds;
-    NSObject<OS_dispatch_source> *_heartBeatTimer;
-    TSClockManager *_clockManager;
-    TSgPTPManager *_tsManager;
-    TSgPTPClock *_tsClock;
 }
 
 + (id);
@@ -34,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -48,15 +35,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (unsigned long long);
+- (void);
+- (unsigned long long);
+- (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void)registerCoalescingBlockWhenGraphAnalysisFinishes:(CDUnknownBlockType)arg1;
+- (id)_overallAppleRating;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -65,25 +52,7 @@ __attribute__((visibility("hidden")))
 - (void)Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/ScreenSharingFramework/Source/SSIDSFirewallUtils.m;
 
 // Remaining properties
-@property(nonatomic) unsigned long long clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(retain) TSClockManager *clockManager; // @synthesize clockManager=_clockManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long grandMasterIdentifier;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_dispatch_source> *heartBeatTimer; // @synthesize heartBeatTimer=_heartBeatTimer;
-@property(retain) NSString *interface; // @synthesize interface=_interface;
-@property(copy) CDUnknownBlockType interruptionBlock; // @synthesize interruptionBlock=_interruptionBlock;
-@property _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly) Class superclass;
 @property struct sockaddr *targetAddress; // @synthesize targetAddress=_targetAddress;
-@property unsigned long long timerIntervalInSeconds; // @synthesize timerIntervalInSeconds=_timerIntervalInSeconds;
-@property(retain) TSgPTPClock *tsClock; // @synthesize tsClock=_tsClock;
-@property(retain) TSgPTPManager *tsManager; // @synthesize tsManager=_tsManager;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

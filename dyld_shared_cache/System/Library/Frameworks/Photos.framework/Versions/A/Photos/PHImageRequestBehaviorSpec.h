@@ -7,32 +7,14 @@
 @interface PHImageRequestBehaviorSpec
 {
     _Bool _synchronous;
-    _Bool _networkAccessAllowed;
-    _Bool _allowPlaceholder;
-    _Bool _onlyUseFetchedAssetPropertiesDuringChoosing;
-    _Bool _includeHDRGainMap;
-    _Bool _includeHDRGainMapInIntermediateImage;
-    _Bool _decodeAsHDR;
-    _Bool _disableImageIOForHDR;
-    _Bool _useLowMemoryMode;
-    _Bool _useLimitedLibraryMode;
-    _Bool _cannotReturnSmallerImage;
-    long long _choosingPolicy;
-    unsigned long long _loadingOptions;
-    long long _version;
-    long long _resizeMode;
-    double _targetHDRHeadroom;
-    double _minimumTableThumbnailLongSide;
-    long long _downloadIntent;
-    long long _downloadPriority;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id)URLQueryAllowedCharacterSet;
++ (_Bool)onError:(long long)arg1 %{public}@ payload=%{public}@;
 + (unsigned long long);
-+ (id);
++ (id)L ;
 + (_Bool);
 + (id);
 + (id);
@@ -41,14 +23,14 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)NanoMusic;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)ic}@] dispatch | ignoring [timed out before dispatch];
 - (void);
 - (long long);
 - (_Bool);
@@ -62,21 +44,21 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)deleteAllWebApplicationHistory:profileIdentifier:clientBundleURLWrapper:replyHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)transaction due to author;
+- (id)eason:(struct _NSZone *)arg1;
 - (double);
-- (long long);
+- (long long)initialize() - data block too small for header;
+- (void)B;
 - (void);
 - (void);
-- (void);
-- (_Bool):error: /* Error: Ran out of types for this method. */;
-- (void)g;
-- (void)dSetAudioClassification;
+- (_Bool)resourceInfoForSharingAsset:asUnmodifiedOriginal:error: /* Error: Ran out of types for this method. */;
+- (void)isDeleting;
+- (void)_didSetAudioClassification;
 - (_Bool)leContributorsEnabled,V_cloudMultipleContributorsEnabled;
-- (void)talAccuracy;
+- (void)gpsHorizontalAccuracy;
 - (void)Recent Highlights;
 - (void)ùÿ;
 - (_Bool)¤;
@@ -84,25 +66,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) _Bool allowPlaceholder; // @synthesize allowPlaceholder=_allowPlaceholder;
-@property(nonatomic) _Bool cannotReturnSmallerImage; // @synthesize cannotReturnSmallerImage=_cannotReturnSmallerImage;
 @property(nonatomic) long long choosingPolicy; // @synthesize choosingPolicy=_choosingPolicy;
-@property(nonatomic) _Bool decodeAsHDR; // @synthesize decodeAsHDR=_decodeAsHDR;
-@property(nonatomic) _Bool disableImageIOForHDR; // @synthesize disableImageIOForHDR=_disableImageIOForHDR;
-@property(nonatomic) long long downloadIntent; // @synthesize downloadIntent=_downloadIntent;
-@property(nonatomic) long long downloadPriority; // @synthesize downloadPriority=_downloadPriority;
-@property(nonatomic) _Bool includeHDRGainMap; // @synthesize includeHDRGainMap=_includeHDRGainMap;
-@property(nonatomic) _Bool includeHDRGainMapInIntermediateImage; // @synthesize includeHDRGainMapInIntermediateImage=_includeHDRGainMapInIntermediateImage;
-@property(nonatomic) unsigned long long loadingOptions; // @synthesize loadingOptions=_loadingOptions;
-@property(nonatomic) double minimumTableThumbnailLongSide; // @synthesize minimumTableThumbnailLongSide=_minimumTableThumbnailLongSide;
-@property(nonatomic, getter=isNetworkAccessAllowed) _Bool networkAccessAllowed; // @synthesize networkAccessAllowed=_networkAccessAllowed;
-@property(nonatomic) _Bool onlyUseFetchedAssetPropertiesDuringChoosing; // @synthesize onlyUseFetchedAssetPropertiesDuringChoosing=_onlyUseFetchedAssetPropertiesDuringChoosing;
-@property(nonatomic) long long resizeMode; // @synthesize resizeMode=_resizeMode;
-@property(nonatomic, getter=isSynchronous) _Bool synchronous; // @synthesize synchronous=_synchronous;
-@property(nonatomic) double targetHDRHeadroom; // @synthesize targetHDRHeadroom=_targetHDRHeadroom;
-@property(nonatomic) _Bool useLimitedLibraryMode; // @synthesize useLimitedLibraryMode=_useLimitedLibraryMode;
-@property(nonatomic) _Bool useLowMemoryMode; // @synthesize useLowMemoryMode=_useLowMemoryMode;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

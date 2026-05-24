@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBOpenAppClipCommand
 {
@@ -12,28 +12,20 @@
 }
 
 - (void);
-- (id);
+- (id)+;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)pl_startOfDayForDate:(id)arg1;
+- (id)ch asset %@ for %s;
 - (id);
 - (id);
 - (void)?="category"b1"shouldClearWholeSection"b1};
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clipIdentifier; // @synthesize clipIdentifier=_clipIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

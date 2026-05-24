@@ -7,9 +7,6 @@
 @interface Network.NWFile1
 {
     id lock;
-    id stateContinuations;
-    id result;
-    id fileURL;
 }
 
 @end

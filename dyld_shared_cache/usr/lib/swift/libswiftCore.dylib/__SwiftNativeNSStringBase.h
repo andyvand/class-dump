@@ -16,10 +16,10 @@
 - (void);
 - (id);
 - (oneway void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
+- (_Bool);
+- (_Bool));
+- (id)d}24;
 - (_Bool)¼;
 - (_Bool)IGH LIGATURE ALEF WITH YEH BARREE;
 

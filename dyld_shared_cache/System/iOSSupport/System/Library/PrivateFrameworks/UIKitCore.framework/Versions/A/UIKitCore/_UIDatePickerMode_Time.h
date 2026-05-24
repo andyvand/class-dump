@@ -6,28 +6,22 @@
 
 #import <UIKitCore/_UIDatePickerMode.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerMode_Time : _UIDatePickerMode
 {
     double _timeHourWidth;
-    double _timeMinuteWidth;
-    double _timeAMPMWidth;
-    NSString *_hourFormat;
-    NSString *_minuteFormat;
 }
 
 + (unsigned long long);
 + (long long);
 - (double);
-- (void);
-- (long long);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (long long);
-- (id);
+- (void)removeObjectFromAnalyticSyncDatesDictionaryForKey: /* Error: Ran out of types for this method. */;
+- (long long)initForReindexing:(unsigned long long)arg1 reason: /* Error: Ran out of types for this method. */;
+- (void)im_enqueuSMSBlock:withTimeout:description: /* Error: Ran out of types for this method. */;
+- (unsigned long long)hideAttachment;
+- (unsigned long long)haveSeenReceiptsWithQOIThisBatchSet;
+- (long long)&,N,V_pendingMessages;
+- (id)_enableStrictSecureDecodingMode;
 - (void);
 - (_Bool);
 - (id);

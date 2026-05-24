@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface OADImageRecolorInfo
 {
     NSDictionary *mColors;
-    NSDictionary *mFills;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (id);
 - (_Bool);
 - (void);

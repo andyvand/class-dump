@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol TMStructureProtocol
+- (void);
 
 // Remaining properties
 @property(readonly) NSArray *children;

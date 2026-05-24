@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface DMFControlGroupIdentifier
 {
     unsigned short _groupID;
-    NSUUID *_organizationUUID;
 }
 
 - (id);
@@ -18,19 +17,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (unsigned short);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short groupID; // @synthesize groupID=_groupID;
 @property(readonly, copy, nonatomic) NSUUID *organizationUUID; // @synthesize organizationUUID=_organizationUUID;
-@property(readonly, copy, nonatomic) NSString *stringValue;
 
 @end
 

@@ -6,14 +6,9 @@
 
 #import <AuthenticationServices/ASCredentialRequestPaneViewController.h>
 
-@class NSObject;
-@protocol OS_os_activity;
-
 @interface ASCredentialRequestEnableBluetoothViewController : ASCredentialRequestPaneViewController
 {
     long long _mode;
-    NSObject<OS_os_activity> *_authorizationActivity;
-    CDUnknownBlockType _enableBluetoothHandler;
 }
 
 - (void);

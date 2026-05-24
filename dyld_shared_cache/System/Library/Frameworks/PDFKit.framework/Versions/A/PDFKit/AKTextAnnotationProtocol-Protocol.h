@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDictionary, NSString, NSTextStorage;
+@class NSColor, NSDictionary, NSTextStorage;
 
 @protocol AKTextAnnotationProtocol
+- (_Bool);
+- (void)8^{__CVBuffer=}16^{__CVBuffer=}24{?={?=QQQ}{?=QQQ}}32{?={?=QQQ}{?=QQQ}}80i128;
+- (void)r=}16^{__CVBuffer=}24i32B36;
+- (void)_CVBuffer=}16i24;
+- (unsigned long long)_resizeDestinationBuffer;
+- (_Bool)Total:sadTotal:variance:forRegion:blockStride:unitStride:method:log2UnitSize:calcVar: /* Error: Ran out of types for this method. */;
+- (_Bool)SpatialSumSadVar:sumBlockArray:sadBlockArray:sumUnitArray:sumSquareUnitArray:sumTotal:sadTotal:variance:forRegion:blockStride:unitStride:method:log2UnitSize:calcVar: /* Error: Ran out of types for this method. */;
+- (unsigned long long)PropertyKey_MLVideoEnhance=%d;
 - (void)1Â0@ù
 × ;
-- (void)lue:(NSColor *)arg1;
+- (void)_boolValueForAnnotationFlag:(NSColor *)arg1 withDefaultValue: /* Error: Ran out of types for this method. */;
 - (NSColor *)th;
 - (NSDictionary *);
 
 // Remaining properties
 @property(retain) NSTextStorage *annotationText;
-@property(copy) NSColor *foregroundColor;
-@property(retain) NSColor *foregroundColorHDR;
-@property(retain) NSColor *foregroundColorSDR;
-@property unsigned long long formContentType;
-@property(getter=isHighlighted) _Bool highlighted;
-@property _Bool isDetectedSignature;
-@property _Bool isEditingText;
-@property unsigned long long maximumNumberOfCharacters;
-@property _Bool shouldUsePlaceholderText;
-@property NSString *textContentType;
-@property _Bool textIsClipped;
-@property _Bool textIsFixedHeight;
-@property _Bool textIsFixedWidth;
-@property(copy) NSDictionary *typingAttributes;
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol FilesFinderWriteConfigSync
+
+@optional
+- (oneway void);
+- (oneway void)C;
 @end
 

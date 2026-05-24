@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface _NSASCIIArtFramesRenderer
 {
     NSArray *_frames;
-    double _outputLineWidth;
 }
 
 - (struct CGRect);
 - (id);
-- (id);
+- (id)8@0:(id)arg1 8^v16Q24{?=qi}32;
 - (id);
 - (double);
 - (id);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *frames;
-@property(readonly, nonatomic) double outputLineWidth;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol CLSMutableAssetAdopter
+- (void)h;
+- (void)ror = 0x%x
+;
 @end
 

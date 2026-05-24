@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKTransactionAmount;
+@class NSString;
 
 @interface PKPaymentTransactionAmountModifier
 {
     long long _type;
-    long long _order;
-    PKTransactionAmount *_amount;
-    NSString *_modifierDescription;
-    NSString *_typeString;
 }
 
 + (_Bool)0@ù
 × ;
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -27,21 +23,17 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)r"b1"relayConnectDuration"b1"relayError"b1"remoteNatType"b1"remoteNetworkConnection"b1"usesRelay"b1"viceroyError"b1};
+- (void)V_cellSinr;
 - (id);
 - (void);
 - (id);
-- (id)msTitle;
+- (id)hasLocalizedSummaryItemsTitle;
 - (long long)n;
-- (void)bledKey;
-- (void)tMetadata;
+- (void)PKMerchantTokensDemoModeEnabledKey;
+- (void)NearbyPeerPaymentSenderRequestMetadata;
 
 // Remaining properties
-@property(copy, nonatomic) PKTransactionAmount *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *modifierDescription; // @synthesize modifierDescription=_modifierDescription;
-@property(nonatomic) long long order; // @synthesize order=_order;
-@property(nonatomic) long long type; // @synthesize type=_type;
 @property(copy, nonatomic) NSString *typeString; // @synthesize typeString=_typeString;
 
 @end

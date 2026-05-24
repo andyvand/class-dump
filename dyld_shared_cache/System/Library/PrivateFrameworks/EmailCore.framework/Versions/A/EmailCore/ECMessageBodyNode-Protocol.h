@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol ECMessageBodyNode;
 
 @protocol ECMessageBodyNode
 
 // Remaining properties
 @property(readonly) id <ECMessageBodyNode> parentNode;
-@property(readonly) NSString *tagName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
 @end
 

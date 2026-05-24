@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSURL;
+@class NSString;
 
 @interface KCSharingGroupInvite
 {
     NSString *_groupID;
-    NSURL *_shareURL;
-    NSData *_inviteToken;
-    NSString *_senderHandle;
-    NSString *_inviteeHandle;
-    NSDate *_sentTime;
-    NSString *_displayName;
 }
 
 + (_Bool);
@@ -28,18 +22,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)J;
 - (void)¼	È$è
 ¸!ÔÈ ´%%Ôô%ü°#¨" À#À è!è ô%à<¸%¼È%Ø¬"üè¨ØÀÀô¬"¼¨¬Ôø¨ôÀÜ¸ìÜÐ #´ä%Ä|;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, copy, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(readonly, copy, nonatomic) NSData *inviteToken; // @synthesize inviteToken=_inviteToken;
-@property(readonly, copy, nonatomic) NSString *inviteeHandle; // @synthesize inviteeHandle=_inviteeHandle;
-@property(readonly, copy, nonatomic) NSString *senderHandle; // @synthesize senderHandle=_senderHandle;
-@property(readonly, copy, nonatomic) NSDate *sentTime; // @synthesize sentTime=_sentTime;
-@property(readonly, copy, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
 
 @end
 

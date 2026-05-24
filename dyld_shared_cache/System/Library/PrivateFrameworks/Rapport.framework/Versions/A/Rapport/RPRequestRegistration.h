@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface RPRequestRegistration
 {
     NSString *_requestID;
-    NSDictionary *_options;
-    CDUnknownBlockType _handler;
-    CDUnknownBlockType _cnxHandler;
 }
 
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)B;
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cnxHandler; // @synthesize cnxHandler=_cnxHandler;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
 @property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
 
 @end

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPCaptionButtonPresentationProperties, LPCaptionPresentationProperties;
+@class LPCaptionPresentationProperties;
 
 @interface LPCaptionRowPresentationProperties
 {
     LPCaptionPresentationProperties *_leading;
-    LPCaptionPresentationProperties *_trailing;
-    LPCaptionButtonPresentationProperties *_button;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)systemMinimumLayoutMargins;
+- (void)switcherViewControllerWillDisappear:(id)arg1;
+- (_Bool)stickerBundleIDFromFileTransfer: /* Error: Ran out of types for this method. */;
+- (void)splitViewController:(CDUnknownBlockType)arg1 willHideViewController:withBarButtonItem:forPopoverController: /* Error: Ran out of types for this method. */;
+- (id)secondaryText;
 - (id);
 - (id);
 - (id);
@@ -27,10 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) LPCaptionButtonPresentationProperties *button; // @synthesize button=_button;
 @property(readonly, nonatomic) _Bool hasAnyContent;
-@property(retain, nonatomic) LPCaptionPresentationProperties *leading; // @synthesize leading=_leading;
-@property(retain, nonatomic) LPCaptionPresentationProperties *trailing; // @synthesize trailing=_trailing;
 
 @end
 

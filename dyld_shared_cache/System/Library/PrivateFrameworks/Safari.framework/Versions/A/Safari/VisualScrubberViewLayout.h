@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VisualScrubberViewLayout
 {
     long long _numberOfItems;
-    long long _selectedIndex;
-    struct _NSRange _uncollapsedIndexRange;
-    struct CGSize _contentSize;
-    double _itemWidth;
-    double _selectedItemWidth;
-    long long _numberOfLeadingItemsWithExtraPixel;
-    _Bool _collapsed;
 }
 
 - (_Bool);

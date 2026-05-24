@@ -5,12 +5,12 @@
 //
 
 @interface UnknownClass (RTCalendarEvent)
++ (id)resetCurrentMirrorKey;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)entity; cannot generate pppcs signature;
++ (id)CSShareProtection missing signing identity; cannot generate pppcs signature;
++ (id)ERSION1_5;
 - (id);
-- (id);
+- (id)ag:%@):%@ /* Error: Ran out of types for this method. */;
 @end
 

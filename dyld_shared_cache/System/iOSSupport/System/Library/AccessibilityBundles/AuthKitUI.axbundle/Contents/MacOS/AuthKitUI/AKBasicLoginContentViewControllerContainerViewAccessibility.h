@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)q5;
 - (void);
 - (id);
 

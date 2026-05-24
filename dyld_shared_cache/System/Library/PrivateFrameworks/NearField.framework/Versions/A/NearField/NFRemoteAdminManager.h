@@ -4,40 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface NFRemoteAdminManager
 {
     NSXPCConnection *_connection;
-    _Bool _hasEventListener;
-    NSMutableSet *_eventListeners;
-    NSObject<OS_dispatch_queue> *_xpcQueue;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)-[%@ %@] instead;
+- (id);
+- (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)m;
+- (_Bool);
+- (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)SchemaINFERENCEContactCandidatesInfoGenerated",&,N,V_contactCandidatesInfoGenerated;
 - (id);
 - (id);
 - (void);
@@ -48,13 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

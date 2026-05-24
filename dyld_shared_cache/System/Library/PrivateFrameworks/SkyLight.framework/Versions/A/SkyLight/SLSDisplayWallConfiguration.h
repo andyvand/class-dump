@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface SLSDisplayWallConfiguration
 {
     NSNumber *_gridWidth;
-    NSNumber *_gridHeight;
-    NSArray *_displayIDs;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)bs/TemporaryDirectory.aLAJrA/Sources/Persistence/NSCloudKitMirroringDelegate.m;
+- (void)/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/NSCloudKitMirroringDelegate.m;
+- (void)p;
+- (id)rror:] /* Error: Ran out of types for this method. */;
+- (id)text:andObservedStore:error:] /* Error: Ran out of types for this method. */;
+- (id)eopen sqlite3_snapshot_open failed %d;
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *displayIDs; // @synthesize displayIDs=_displayIDs;
-@property(copy, nonatomic) NSNumber *gridHeight; // @synthesize gridHeight=_gridHeight;
 @property(copy, nonatomic) NSNumber *gridWidth; // @synthesize gridWidth=_gridWidth;
 
 @end

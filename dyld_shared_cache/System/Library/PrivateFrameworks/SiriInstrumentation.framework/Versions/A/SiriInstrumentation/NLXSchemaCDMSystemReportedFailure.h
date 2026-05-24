@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID, USOSchemaUSOGraph;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMSystemReportedFailure : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_taskId;
-    USOSchemaUSOGraph *_reason;
-    USOSchemaUSOGraph *_task;
-    _Bool _hasTaskId;
-    _Bool _hasReason;
-    _Bool _hasTask;
 }
 
 - (void);
@@ -23,16 +18,16 @@
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id)V;
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509/x509_lu.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -48,12 +43,6 @@
 - (void)ANCSchemaANCClientEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason; // @synthesize hasReason=_hasReason;
-@property(nonatomic) _Bool hasTask; // @synthesize hasTask=_hasTask;
-@property(nonatomic) _Bool hasTaskId; // @synthesize hasTaskId=_hasTaskId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) USOSchemaUSOGraph *reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) USOSchemaUSOGraph *task; // @synthesize task=_task;
 @property(retain, nonatomic) SISchemaUUID *taskId; // @synthesize taskId=_taskId;
 
 @end

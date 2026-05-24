@@ -10,17 +10,14 @@ __attribute__((visibility("hidden")))
 @interface NSFilePresenterOperationRecord
 {
     NSString *operationDescription;
-    long long state;
-    id reactor;
-    NSString *reactorID;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)MaxFontCompatibilityVersion;
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (id);
@@ -29,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSString *operationDescription; // @synthesize operationDescription;
-@property(readonly) __weak id reactor; // @synthesize reactor;
-@property(readonly) long long state; // @synthesize state;
 
 @end
 

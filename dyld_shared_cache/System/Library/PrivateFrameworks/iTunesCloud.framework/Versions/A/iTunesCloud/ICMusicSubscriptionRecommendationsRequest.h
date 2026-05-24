@@ -6,18 +6,14 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICStoreRequestContext, NSArray;
+@class ICStoreRequestContext;
 
 @interface ICMusicSubscriptionRecommendationsRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    long long _seedItemID;
-    _Bool _isLibraryID;
-    long long _maxResultCount;
-    NSArray *_resultsList;
 }
 
-- (id);
+- (id)ion"b1"supportsAccessCodes"b1"supportsCHIP"b1"supportsThreadBorderRouter"b1"supportsSiriEndpointSetup"b1"supportsCustomMediaApplicationDestination"b1"supportsUnifiedMediaNotifications"b1"supportsHomeHub"b1"supportsResidentFirstAccessoryCommunication"b1"supportsThreadNetworkCredentialSharing"b1"supportsMatterSharedAdminPairing"b1"supportsEventLog"b1"supportsMatterTTU"b1"supportsDistributedExecutionOnPrimary"b1"supportsResidentActionSetStateEvaluation"b1"supportsUWB"b1"supportsRestrictedGuest"b1"supportsMatterOwnerCertFetch"b1"supportsDistributedExecutionOnAppleMediaAccessories"b1"supportsResidentSelection"b1"supportsNativeMatter"b1"supportsHomeActivityState"b1"supportsUWBUnlock"b1"supportsNativeMatterPlugin"b1"supportsHKSV3"b1"supportsHEVC"b1"supportsDedicatedStatusChannel"b1};
 - (void);
 - (void);
 - (void)_bagProfile;

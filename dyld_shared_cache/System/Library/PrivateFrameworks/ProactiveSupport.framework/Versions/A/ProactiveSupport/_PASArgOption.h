@@ -9,31 +9,22 @@
 @interface _PASArgOption
 {
     int _longOptionFlag;
-    _Bool _required;
-    NSString *_name;
-    NSString *_shortName;
-    NSString *_helpDescription;
-    NSString *_argMetavar;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)hange asset location;
++ (id)er.xpcConnection;
++ (id)eyboard;
+- (id)oryID:(id)arg1 assetID:(id)arg2 ]_block_invoke;
+- (id)uarpAccessory;
+- (id)invoke;
 - (id);
 - (id);
+- (_Bool)unsigned long long, EXT = false, STORE_HASH = true, USE_ACTIVITY_JOURNAL = false];
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)rdate;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *argMetavar; // @synthesize argMetavar=_argMetavar;
-@property(readonly, copy, nonatomic) NSString *helpDescription; // @synthesize helpDescription=_helpDescription;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool required; // @synthesize required=_required;
-@property(readonly, copy, nonatomic) NSString *shortName; // @synthesize shortName=_shortName;
 
 @end
 

@@ -4,67 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMDocument, DOMRange, NSData, NSDictionary, NSMutableArray, NSMutableAttributedString, NSMutableDictionary, NSString, NSURL, WebDataSource, WebView;
+@class NSMutableAttributedString;
 
 @interface NSHTMLReader
 {
     NSMutableAttributedString *_attrStr;
-    NSMutableDictionary *_documentAttrs;
-    NSData *_data;
-    NSURL *_baseURL;
-    NSDictionary *_options;
-    WebView *_webView;
-    id _webDelegate;
-    DOMDocument *_document;
-    DOMRange *_domRange;
-    NSMutableArray *_domStartAncestors;
-    WebDataSource *_dataSource;
-    NSString *_standardFontFamily;
-    double _textSizeMultiplier;
-    double _webViewTextSizeMultiplier;
-    double _defaultTabInterval;
-    double _defaultFontSize;
-    double _minimumFontSize;
-    NSMutableArray *_textLists;
-    NSMutableArray *_textBlocks;
-    NSMutableArray *_textTables;
-    NSMutableDictionary *_textTableFooters;
-    NSMutableArray *_textTableSpacings;
-    NSMutableArray *_textTablePaddings;
-    NSMutableArray *_textTableRows;
-    NSMutableArray *_textTableRowArrays;
-    NSMutableArray *_textTableRowBackgroundColors;
-    NSMutableDictionary *_computedStylesForElements;
-    NSMutableDictionary *_specifiedStylesForElements;
-    NSMutableDictionary *_stringsForNodes;
-    NSMutableDictionary *_floatsForNodes;
-    NSMutableDictionary *_colorsForNodes;
-    NSMutableDictionary *_attributesForElements;
-    NSMutableDictionary *_elementIsBlockLevel;
-    NSMutableDictionary *_fontCache;
-    NSMutableArray *_writingDirectionArray;
-    long long _domRangeStartIndex;
-    long long _indexingLimit;
-    long long _thumbnailLimit;
-    long long _errorCode;
-    long long _quoteLevel;
-    struct {
-        unsigned int isSoft:1;
-        unsigned int reachedStart:1;
-        unsigned int reachedEnd:1;
-        unsigned int isIndexing:1;
-        unsigned int isTesting:1;
-        unsigned int hasTrailingNewline:1;
-        unsigned int pad:26;
-    } _flags;
-    _Bool _includesTextListMarkers;
 }
 
 + (_Bool);
 + (_Bool);
-+ (void)lyToGraphicsContext: /* Error: Ran out of types for this method. */;
++ (void)applyToGraphicsContext: /* Error: Ran out of types for this method. */;
 + (id)list;
-- (void);
+- (void)R;
 - (id);
 - (id);
 - (id);
@@ -89,8 +40,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -99,17 +50,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void);
@@ -128,7 +79,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)olvedURL failed for %{public}@ with %@;
 - (_Bool);
 - (void)háöÿ;
 

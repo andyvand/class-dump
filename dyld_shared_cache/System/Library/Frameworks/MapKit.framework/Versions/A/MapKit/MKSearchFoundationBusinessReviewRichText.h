@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     _Bool _reviewResolved;
 }
 
-- (void);
+- (void)externaldata;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(getter=isReviewResolved) _Bool reviewResolved; // @synthesize reviewResolved=_reviewResolved;

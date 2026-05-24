@@ -12,18 +12,18 @@
 }
 
 + (void);
-+ (id);
++ (id)ge->base.descriptor == &pg_query__close_portal_stmt__descriptor;
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)te reply block for -%{public}@, got type %{public}s;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)DMetricTypeIMessageDeliveredHotShip is %@ on this config;
 - (id);
 - (id);
 - (void)à´úÿµúÿ(µúÿLµúÿpµúÿµúÿ¸µúÿÜµúÿ;

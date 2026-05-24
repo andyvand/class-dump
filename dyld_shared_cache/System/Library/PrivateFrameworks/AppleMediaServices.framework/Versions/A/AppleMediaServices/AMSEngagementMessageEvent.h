@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface AMSEngagementMessageEvent
 {
     NSArray *_placementInfo;
-    NSString *_serviceType;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)setValue: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (id)ueFromRadioType:(id)arg1;
+- (id)ageProtobuf";
+- (id)_radioTypeStringValueFromRadioType:(id)arg1;
 - (void)·ä.FÌÆ,£¸h¹}ÎmaÑ÷ÚºûSêÇ_ûÕÐ$è|ý²ãûC;yã¦æ4Ò°ß>Ú&üñ}Óß¤Áæ¾ÐO;Ô²ZhUE\2âmjSÔ(zÊñ}ì#"Ô¨ëg?èífOE´cJ¬táXjs¼½ò2Æî(¿hás=ÔÝÄêÛFºeµÃóïyÕ¶!õÑõªZuSa/ASÆÛWï³nEª%L;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *engagementData; // @dynamic engagementData;
-@property(readonly) unsigned long long hash;
 @property(copy) NSArray *placementInfo; // @synthesize placementInfo=_placementInfo;
-@property(copy) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly) Class superclass;
 
 @end
 

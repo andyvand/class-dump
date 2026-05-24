@@ -7,6 +7,7 @@
 @class SXRenderingConfiguration;
 
 @protocol SXRenderingConfigurationProvider
+- (SXRenderingConfiguration *)setupWithTexture:particleTextureSize:reverseDrawOrder:capabilities: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) SXRenderingConfiguration *configuration;

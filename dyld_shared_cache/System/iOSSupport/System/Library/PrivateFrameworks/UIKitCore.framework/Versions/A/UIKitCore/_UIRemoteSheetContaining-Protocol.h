@@ -7,6 +7,7 @@
 @protocol _UIRemoteSheet;
 
 @protocol _UIRemoteSheetContaining
+- (id <_UIRemoteSheet>)localizedCaseInsensitiveCompare: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIRemoteSheet> _remoteSheet;

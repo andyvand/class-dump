@@ -6,20 +6,11 @@
 
 #import <PhotosUICore/PXCollectionsDataSource.h>
 
-@class NSArray, NSDictionary, PHCollectionList, PHFetchResult, PXPhotoKitCollectionsDataSourceManagerConfiguration;
+@class NSArray;
 
 @interface PXPhotoKitCollectionsDataSource : PXCollectionsDataSource
 {
     unsigned short _sharingFilter;
-    PHCollectionList *_collectionList;
-    NSArray *__collectionListBySection;
-    NSArray *__collectionsFetchResultBySection;
-    NSDictionary *__keyAssetsFetchResultsByCollection;
-    NSDictionary *__collectionsIndexPathsByCollection;
-    NSDictionary *_itemFetchResultByCollection;
-    NSArray *__virtualCollections;
-    PHFetchResult *_collectionsFetchResult;
-    PXPhotoKitCollectionsDataSourceManagerConfiguration *_configuration;
 }
 
 + (long long);
@@ -52,24 +43,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned short);
+- (unsigned short)spaceKeyCommandsRegistered;
 - (id);
-- (long long)tedMemoryReference: /* Error: Ran out of types for this method. */;
-- (id)lPopoverInfoPanel;
+- (long long)setHighlightedMemoryReference: /* Error: Ran out of types for this method. */;
+- (id)PXPlacesThumbnailPopoverInfoPanel;
 - (long long);
-- (void)veStoryHeaderAndSuggestionView;
+- (void)GenerativeStoryHeaderAndSuggestionView;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *_collectionListBySection; // @synthesize _collectionListBySection=__collectionListBySection;
-@property(readonly, nonatomic) NSArray *_collectionsFetchResultBySection; // @synthesize _collectionsFetchResultBySection=__collectionsFetchResultBySection;
-@property(readonly, nonatomic) NSDictionary *_collectionsIndexPathsByCollection; // @synthesize _collectionsIndexPathsByCollection=__collectionsIndexPathsByCollection;
-@property(readonly, nonatomic) NSDictionary *_keyAssetsFetchResultsByCollection; // @synthesize _keyAssetsFetchResultsByCollection=__keyAssetsFetchResultsByCollection;
-@property(readonly, nonatomic) NSArray *_virtualCollections; // @synthesize _virtualCollections=__virtualCollections;
-@property(readonly, nonatomic) PHCollectionList *collectionList; // @synthesize collectionList=_collectionList;
-@property(readonly, nonatomic) PHFetchResult *collectionsFetchResult; // @synthesize collectionsFetchResult=_collectionsFetchResult;
-@property(readonly, nonatomic) PXPhotoKitCollectionsDataSourceManagerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) NSDictionary *itemFetchResultByCollection; // @synthesize itemFetchResultByCollection=_itemFetchResultByCollection;
-@property(readonly, nonatomic) unsigned short sharingFilter; // @synthesize sharingFilter=_sharingFilter;
 
 @end
 

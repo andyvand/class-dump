@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDWoLANInvalidConfigurationLogEvent
 {
     long long _logType;
-    NSUUID *_accessoryUUID;
-    NSNumber *_maxSupportedWoLANVersion;
-    NSNumber *_wolanVersion;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)didPostNotificationType:(id)arg1 forState:(id)arg2;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)ion delegateCursorImageUpdated:hotSpot:pixelMap:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long)h error:%@ /* Error: Ran out of types for this method. */;
@@ -28,28 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly, nonatomic) long long logType; // @synthesize logType=_logType;
-@property(readonly, nonatomic) NSNumber *maxSupportedWoLANVersion; // @synthesize maxSupportedWoLANVersion=_maxSupportedWoLANVersion;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSNumber *wolanVersion; // @synthesize wolanVersion=_wolanVersion;
 
 @end
 

@@ -6,21 +6,9 @@
 
 #import <CloudPhotoLibrary/CPLEngineSyncTask.h>
 
-@class CPLEngineScopeStorage, CPLEngineStore, NSError, NSString;
-@protocol CPLEngineTransportFetchScopeListChangesTask;
-
 @interface CPLPullScopesTask : CPLEngineSyncTask
 {
     _Bool _ignoreNewChanges;
-    CPLEngineStore *_store;
-    CPLEngineScopeStorage *_scopes;
-    NSString *_clientCacheIdentifier;
-    id <CPLEngineTransportFetchScopeListChangesTask> _fetchChangesTask;
-    NSError *_badError;
-    unsigned long long _deletedScopeCount;
-    unsigned long long _newScopeCount;
-    unsigned long long _modifiedScopeCount;
-    _Bool _hasSeenSomeChanges;
 }
 
 - (void);
@@ -28,11 +16,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)°;
+- (void);
 - (void);
 - (void)! BùÑð1Â0@ù
 × ;
-- (id)ntBaseVideo;
+- (id)CPLResourceTypeAdjustmentBaseVideo;
 
 @end
 

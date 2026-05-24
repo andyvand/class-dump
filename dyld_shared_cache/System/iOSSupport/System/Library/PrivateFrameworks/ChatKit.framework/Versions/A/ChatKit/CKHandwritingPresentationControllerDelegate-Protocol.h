@@ -5,5 +5,11 @@
 //
 
 @protocol CKHandwritingPresentationControllerDelegate
+
+@optional
+- (void)on;
+- (void)supportsPlainLink;
+- (void)pHit;
+- (void)entView;
 @end
 

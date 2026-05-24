@@ -9,16 +9,12 @@
 @interface NSTextTable : NSTextBlock
 {
     unsigned long long _numCols;
-    unsigned long long _tableFlags;
-    id _lcache;
-    void *_tablePrimary;
-    void *_tableSecondary;
 }
 
 + (_Bool);
-+ (void)ion;
++ (void)beginEditingTransaction;
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -29,11 +25,11 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -41,9 +37,6 @@
 - (unsigned long long)reak:expansionRatio:mustSucceed:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool collapsesBorders;
-@property _Bool hidesEmptyCells;
-@property unsigned long long layoutAlgorithm;
 @property unsigned long long numberOfColumns;
 
 @end

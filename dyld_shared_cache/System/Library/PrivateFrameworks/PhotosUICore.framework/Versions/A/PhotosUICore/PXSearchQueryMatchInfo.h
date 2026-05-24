@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, _CSEmbedding;
+@class NSString;
 
 @interface PXSearchQueryMatchInfo
 {
     NSString *_localizedQueryString;
-    NSSet *_sceneIdentifiers;
-    NSSet *_personLocalIdentifiers;
-    NSSet *_audioIdentifiers;
-    NSSet *_humanActionIdentifiers;
-    NSArray *_ocrTexts;
-    NSArray *_ocrAssetUUIDs;
-    _CSEmbedding *_queryEmbedding;
-    unsigned long long _countOfQueryTerms;
-    NSString *_identifier;
 }
 
 - (id);
@@ -26,28 +17,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)�R;
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (id);
-- (id)e:(struct _NSZone *)arg1;
-- (id)nPlayMovieActionPerformer;
+- (id)setApplicationActive:(struct _NSZone *)arg1;
+- (id)PXPhotoKitAssetCollectionPlayMovieActionPerformer;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *audioIdentifiers; // @synthesize audioIdentifiers=_audioIdentifiers;
-@property(readonly, nonatomic) unsigned long long countOfQueryTerms; // @synthesize countOfQueryTerms=_countOfQueryTerms;
-@property(readonly, copy, nonatomic) NSSet *humanActionIdentifiers; // @synthesize humanActionIdentifiers=_humanActionIdentifiers;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *localizedQueryString; // @synthesize localizedQueryString=_localizedQueryString;
-@property(readonly, copy, nonatomic) NSArray *ocrAssetUUIDs; // @synthesize ocrAssetUUIDs=_ocrAssetUUIDs;
-@property(readonly, copy, nonatomic) NSArray *ocrTexts; // @synthesize ocrTexts=_ocrTexts;
-@property(readonly, copy, nonatomic) NSSet *personLocalIdentifiers; // @synthesize personLocalIdentifiers=_personLocalIdentifiers;
-@property(readonly, nonatomic) _CSEmbedding *queryEmbedding; // @synthesize queryEmbedding=_queryEmbedding;
-@property(readonly, copy, nonatomic) NSSet *sceneIdentifiers; // @synthesize sceneIdentifiers=_sceneIdentifiers;
 
 @end
 

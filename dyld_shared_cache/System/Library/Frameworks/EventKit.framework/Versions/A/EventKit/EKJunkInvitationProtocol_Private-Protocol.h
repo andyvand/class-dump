@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSString;
+@class NSString;
 
 @protocol EKJunkInvitationProtocol_Private
-- (_Bool)tionOfInterest;
+- (NSString *);
+- (_Bool)c;
+- (_Bool)rtPredictedLocationOfInterest;
 
 // Remaining properties
-@property(readonly, nonatomic) EKEventStore *eventStore;
 @property(readonly, nonatomic) NSString *sendersEmail;
-@property(readonly, nonatomic) NSString *sendersPhoneNumber;
-@property(readonly, nonatomic) _Bool supportsJunkReporting;
 @end
 

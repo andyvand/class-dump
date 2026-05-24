@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatRulerIndicatorView.Component__priv_205CD4915512C8964E202ADB13D001EA
 {
     id view;
-    id label;
-    id isHidden;
 }
 
 @end

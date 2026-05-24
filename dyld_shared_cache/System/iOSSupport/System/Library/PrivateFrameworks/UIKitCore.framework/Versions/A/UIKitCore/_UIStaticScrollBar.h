@@ -6,53 +6,39 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSInvocation, UIButton, UIScrollView, _UIScrollPocketInteraction;
+@class UIButton;
 
 @interface _UIStaticScrollBar : UIView
 {
     UIView *_dividerLine;
-    NSInvocation *_invocation;
-    NSArray *_constraints;
-    _UIScrollPocketInteraction *_scrollPocketInteraction;
-    _Bool _shouldInsetButtonsForIndex;
-    UIScrollView *_scrollView;
-    long long _edge;
-    UIButton *_upButton;
-    UIButton *_downButton;
 }
 
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long)8@16Q24Q32Q40;
 - (void);
-- (void);
+- (void)_shouldCheckSMSForCategoryFromFirstPartyFilter;
 - (id);
-- (unsigned long long);
-- (struct CGRect);
+- (unsigned long long)eMembers (%@);
+- (struct CGRect)gn nil groupID from all chats.;
 - (void);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)EnableLocallySatisfiedGets;
 - (void);
 - (void);
 - (void)1Â0@ù
 × ;
 - (void)Controller";
-- (id)rollerFullWidth;
-- (id)spectRuleMajorDimensionThreshold;
-- (void)esentingModally;
+- (id)_isViewControllerFullWidth;
+- (id)narrowAspectRuleMajorDimensionThreshold;
+- (void)UIViewControllerPerformsActionsWhilePresentingModally;
 - (void);
 - (long long);
 - (void)Ü2\;
 
 // Remaining properties
-@property(readonly, nonatomic) long long desiredAccessoryEdge;
-@property(readonly, nonatomic) UIButton *downButton; // @synthesize downButton=_downButton;
-@property(nonatomic) long long edge; // @synthesize edge=_edge;
-@property(readonly, nonatomic) _Bool overlay;
-@property(nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(nonatomic) _Bool shouldInsetButtonsForIndex; // @synthesize shouldInsetButtonsForIndex=_shouldInsetButtonsForIndex;
 @property(readonly, nonatomic) UIButton *upButton; // @synthesize upButton=_upButton;
 
 @end

@@ -7,17 +7,15 @@
 #import <PhotosUICore/PXPhotoKitCollectionListActionPerformer.h>
 
 @class PHCollectionList;
-@protocol PXFastEnumeration;
 
 @interface PXPhotoKitCollectionListMoveActionPerformer : PXPhotoKitCollectionListActionPerformer
 {
     PHCollectionList *_collectionList;
-    id <PXFastEnumeration> _sourceCollections;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void)_;
 - (void)øÃùþÕµøÃùþõµJÿ;
 
 @end

@@ -6,51 +6,45 @@
 
 #import <ChatKit/CKMessageTypeSearchController.h>
 
-@class NSString;
-
 @interface CKPhotosSearchController : CKMessageTypeSearchController
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool)fontSize;
++ (_Bool)hidden;
++ (id)l;
 + (id);
 + (id);
 + (Class);
++ (id)=;
 + (id);
-+ (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)setExpansionStateContext: /* Error: Ran out of types for this method. */;
+- (void)savedSelectionWithSelectionAffinity:(id)arg1;
+- (void)registerShareForObject:(id)arg1 itemProvider:generateThumbnails: /* Error: Ran out of types for this method. */;
+- (void)ICEditingTextViewWillSetMarkedTextNotificationSelectedRangeKey;
 - (id);
 - (id);
 - (Class);
 - (void);
-- (id);
-- (struct NSDirectionalEdgeInsets);
-- (double);
+- (id)ed thumbnail {key:(id)arg1 %@, error:(id)arg2 %s};
+- (struct NSDirectionalEdgeInsets)** renamed a note;
+- (double)d note from string;
 - (void);
 - (id);
-- (id);
+- (id)?H>
+;
 - (id);
 - (_Bool);
-- (id);
+- (id)[
+;
 - (void);
 - (double);
-- (id);
+- (id)t;
 - (unsigned long long);
 - (long long)service with CKPendingConversationStatusRefreshContext after adding recipient.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

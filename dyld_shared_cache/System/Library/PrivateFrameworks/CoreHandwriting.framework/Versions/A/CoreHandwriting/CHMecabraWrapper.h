@@ -11,7 +11,7 @@
 
 - (void);
 - (struct __Mecabra *);
-- (void);
+- (void)RUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportLegacyLibrarySource.m;
 - (id);
 
 // Remaining properties

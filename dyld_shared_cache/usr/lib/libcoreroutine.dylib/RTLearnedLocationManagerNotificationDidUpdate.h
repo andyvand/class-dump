@@ -9,8 +9,6 @@
 @interface RTLearnedLocationManagerNotificationDidUpdate : RTNotification
 {
     double _intervalSinceLastUpdate;
-    unsigned long long _trainMode;
-    unsigned long long _trainResult;
 }
 
 - (unsigned long long);
@@ -20,12 +18,10 @@
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)o realloc list.;
 
 // Remaining properties
 @property(nonatomic) double intervalSinceLastUpdate; // @synthesize intervalSinceLastUpdate=_intervalSinceLastUpdate;
-@property(nonatomic) unsigned long long trainMode; // @synthesize trainMode=_trainMode;
-@property(nonatomic) unsigned long long trainResult; // @synthesize trainResult=_trainResult;
 
 @end
 

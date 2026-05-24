@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHIdentityBridgeRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -24,16 +21,14 @@
 - (id);
 - (id)
 × ;
-- (id)ateHistoryCounts;
+- (id)_candidateHistoryCounts;
 - (id)RequestFailed",&,N,V_failed;
-- (_Bool)YLISTSUBTYPE_EDITORIAL;
-- (_Bool)delAppEntityStatus;
+- (_Bool)FLOWMEDIAPLAYERPLAYLISTSUBTYPE_EDITORIAL;
+- (_Bool)STSchemaSTLLMQUModelAppEntityStatus;
 - (void)A%;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

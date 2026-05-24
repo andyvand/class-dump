@@ -6,42 +6,30 @@
 
 #import <AppKit/NSFinderSavePanelBase.h>
 
-@class NSArray, NSError, NSLayoutConstraint, NSMutableDictionary, NSString, NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface NSFinderSavePanel : NSFinderSavePanelBase
 {
     _Bool _expanded;
-    _Bool _completed;
-    NSArray *allowedFileTypes;
-    CDUnknownBlockType _modelessCompletionHandler;
-    NSMutableDictionary *_sandboxExtensions;
-    NSWindow *_accessoryWindow;
-    NSError *_beginError;
-    NSLayoutConstraint *_constraintMinWidth;
-    NSLayoutConstraint *_constraintMaxWidth;
-    NSLayoutConstraint *_constraintMinHeight;
-    NSLayoutConstraint *_constraintMaxHeight;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)_activity;
++ (id)eption while trying to encode metric stream report:%@ (error %@) /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (CDStruct_4c969caf);
++ (CDStruct_6ad76789);
+- (void);
+- (void)parent_opcode = %{public, signpost.description:(id)arg1 attribute}u sub_component = %{public}u sub_opcode = %{public}u sub_activation_id = %{public}lu;
+- (void)session fd result %d;
+- (void)ESocket failed:(CDUnknownBlockType)arg1 [%d] %s;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,74 +41,95 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
-- (void);
+- (_Bool)_establishment_report>";
+- (void)Set;
+- (id)dhd;
+- (id)a;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
+- (void)|6;
 - (void);
+- (id)`m;
+- (void);
+- (_Bool)HTTPS instead or add this domain to Exception Domains in your Info.plist.%{xcode:text-backtrace}.*P /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)modified;
+- (void)_allowsTLSFalseStart;
+- (void)_kCFNTimingDataNStatMinRTT;
+- (void)r Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)length;
+- (void), CONNECTProperties=%@, transparent=%s};
+- (void)NSURLSessionTaskStateCanceling;
+- (void)for HTTP3ConnectionCacheEntry<@%p>;
+- (void)cookies (        name text NOT NULL,        value text NOT NULL,        domain text NOT NULL,        path text NOT NULL,        partition text NOT NULL,        is_secure int NOT NULL,        is_hostOnly int NOT NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
+- (void)partition = ?;
+- (void)is_httpOnly, same_site, creation_time, expires_time, last_access_time)     values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+- (id)or item:%@ /* Error: Ran out of types for this method. */;
 - (void);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void):NI /* Error: Ran out of types for this method. */;
+- (void)6Ir;
+- (long long)2Is;
+- (void):(id)arg1 mX;
 - (void);
 - (void);
 - (id);
+- (void)supportedApplicationContext;
+- (void);
+- (void);
+- (id)!;
 - (void);
 - (id);
 - (_Bool);
 - (void)SetTabViewItems"b1"preventInsertAndRemoveChildViewControllersFromSendingKVO"b1"_reserved"b28};
 - (id)0@0:8{CGPoint=dd}16@?<v@?Q>32 /* Error: Ran out of types for this method. */;
-- (void)ssHandle:(id)arg1;
-- (_Bool)ty;
+- (void)setClientProcessHandle:(id)arg1;
+- (_Bool)NSAccessibilityReparentingCellProxyTextAttributesAccessibility;
 - (id)À;
 - (id)ÿÿ;
 - (id)tGroupCustomItem"8Q16^B24;
-- (_Bool)bAlpha;
+- (_Bool)overlayScrollerKnobAlpha;
 - (void)t:(id)arg1 setting layoutDataIsValid=NO;
 - (void)¸8WÿÝ6A;
 - (id)LC;
@@ -129,27 +138,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ~>JH;
 
 // Remaining properties
-@property(copy, setter=_setNewDocumentButtonTitle:) NSString *_newDocumentButtonTitle;
-@property __weak NSWindow *accessoryWindow; // @synthesize accessoryWindow=_accessoryWindow;
-@property(retain) NSError *beginError; // @synthesize beginError=_beginError;
 @property _Bool completed; // @synthesize completed=_completed;
-@property __weak NSLayoutConstraint *constraintMaxHeight; // @synthesize constraintMaxHeight=_constraintMaxHeight;
-@property __weak NSLayoutConstraint *constraintMaxWidth; // @synthesize constraintMaxWidth=_constraintMaxWidth;
-@property __weak NSLayoutConstraint *constraintMinHeight; // @synthesize constraintMinHeight=_constraintMinHeight;
-@property __weak NSLayoutConstraint *constraintMinWidth; // @synthesize constraintMinWidth=_constraintMinWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isExpanded) _Bool expanded; // @synthesize expanded=_expanded;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *message;
-@property(copy) CDUnknownBlockType modelessCompletionHandler; // @synthesize modelessCompletionHandler=_modelessCompletionHandler;
-@property(copy) NSString *nameFieldLabel;
-@property(copy) NSString *prompt;
-@property(retain) NSMutableDictionary *sandboxExtensions; // @synthesize sandboxExtensions=_sandboxExtensions;
-@property(readonly) Class superclass;
 
 @end
 

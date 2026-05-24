@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDRelatedCollectionSection
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_collectionIds;
 }
 
 - (id);
-- (void);
+- (void)R;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)d_shield"b1"read_signposts"b1"wrote_anyField"b1};
-- (id)iousRouteMatch: /* Error: Ran out of types for this method. */;
+- (id)_modifiedCourseAccuracyForLocation:previousRouteMatch: /* Error: Ran out of types for this method. */;
 - (id)ØK;
 - (void)Ù=yXÔF@;
 

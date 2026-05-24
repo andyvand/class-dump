@@ -4,36 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface IDSRegistrationRenewCredentialsCompletedMetric
 {
     long long _renewResult;
-    NSString *_errorDomain;
-    long long _errorCode;
 }
 
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)cannot be handled:%ld /* Error: Ran out of types for this method. */;
 - (id);
 - (void)und for %@;
 - (long long)ðªÒÿm&âWd­Ðÿ&âWøªÒÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(readonly, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
 @property(readonly, nonatomic) long long renewResult; // @synthesize renewResult=_renewResult;
-@property(readonly) Class superclass;
 
 @end
 

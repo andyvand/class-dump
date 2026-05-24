@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKBezelFreeButton_Mac, NSVisualEffectView;
-
 @interface AKGridViewBox
 {
     _Bool _showsSelectionState;
-    _Bool _transparent;
-    _Bool _lastItem;
 }
 
 - (_Bool);
@@ -24,11 +20,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) AKBezelFreeButton_Mac *button;
 @property(nonatomic) _Bool lastItem; // @synthesize lastItem=_lastItem;
-@property(readonly, nonatomic) NSVisualEffectView *selectionIndicator;
-@property _Bool showsSelectionState; // @synthesize showsSelectionState=_showsSelectionState;
-@property(nonatomic) _Bool transparent; // @synthesize transparent=_transparent;
 
 @end
 

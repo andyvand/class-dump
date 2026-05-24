@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSString;
 
 @interface BlastDoorSMSCTPartSMIL
 {
@@ -14,13 +14,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)E;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSAttributedString *contentBody;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *orderedParts;
 
 @end
 

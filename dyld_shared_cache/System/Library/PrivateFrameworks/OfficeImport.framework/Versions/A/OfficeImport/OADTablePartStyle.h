@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADTableCellStyle, OADTableTextStyle;
+@class OADTableTextStyle;
 
 __attribute__((visibility("hidden")))
 @interface OADTablePartStyle
 {
     OADTableTextStyle *mTextStyle;
-    OADTableCellStyle *mCellStyle;
 }
 
 + (id);
 - (void);
 - (void);
+- (id)^!@a"`bDH;
 - (id);
-- (id);
-- (id);
+- (id)AnisotropicCenteringStrategy;
 - (void);
 - (void)<;
 - (id)@;

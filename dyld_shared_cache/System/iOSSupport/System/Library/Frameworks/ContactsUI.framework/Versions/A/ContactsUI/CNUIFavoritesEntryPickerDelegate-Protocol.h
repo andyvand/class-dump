@@ -5,5 +5,6 @@
 //
 
 @protocol CNUIFavoritesEntryPickerDelegate
+- (void)	;
 @end
 

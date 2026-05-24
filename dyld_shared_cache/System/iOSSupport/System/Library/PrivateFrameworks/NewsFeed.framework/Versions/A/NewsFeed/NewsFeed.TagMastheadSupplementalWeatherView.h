@@ -7,11 +7,6 @@
 @interface NewsFeed.TagMastheadSupplementalWeatherView
 {
     id onTap;
-    id locationLabel;
-    id temperatureLabel;
-    id conditionsIcon;
-    id weatherURL;
-    id delegate;
 }
 
 - (id);

@@ -7,13 +7,6 @@
 @interface SoundAnalysis.SNSoundClassifier
 {
     id graphStorage;
-    id overlapFactor;
-    id windowDuration;
-    id classifierIdentifier;
-    id model;
-    id modelBlockSize;
-    id resultsToDiscardCount;
-    id classLabelsDenylist;
 }
 
 @end

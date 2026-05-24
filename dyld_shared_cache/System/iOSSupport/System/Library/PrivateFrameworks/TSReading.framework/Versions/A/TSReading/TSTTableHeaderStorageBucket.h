@@ -6,44 +6,34 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSString;
-
 @interface TSTTableHeaderStorageBucket : TSPObject
 {
     void *mMap;
-    double mHorizontalScaleFactor;
 }
 
+- (unsigned int)ss cannot be the abstract type MPModelObject] for identifiers:(unsigned int)arg1 %@;
+- (void)te-changed;
+- (void)%3.2f,%d;
+- (void)rController:- Prewarming  /* Error: Ran out of types for this method. */;
+- (id)le to overlap;
 - (unsigned int);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (unsigned int);
 - (double);
-- (id);
-- (id);
+- (id)MPCExternalContentError;
+- (id)NMPCAssistantXSchemeURLErrorCode;
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long)1Â0@ù
 × ;
 - (id)@0:(id)arg1 8@16^B24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double horizontalScaleFactor; // @synthesize horizontalScaleFactor=mHorizontalScaleFactor;
-@property(readonly) Class superclass;
 
 @end
 

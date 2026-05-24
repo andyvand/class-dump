@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface SUUpdateServiceClient
 {
     NSXPCConnection *_connection;
-    int _clientPID;
-    int _clientAuditIdentifier;
-    unsigned int _clientUID;
-    NSString *_clientPath;
-    struct AuthorizationOpaqueRef *_installAuth;
-    NSMutableArray *_acquiredRights;
-    unsigned long long _transactionsStarted;
-    NSObject<OS_dispatch_queue> *_transactionQueue;
-    NSObject<OS_dispatch_queue> *_lockQueue;
-    _Bool _appleSigned;
-    _Bool _isPreventingScans;
-    _Bool _entitledToModifyPreferences;
 }
 
 + (void);
@@ -33,6 +20,41 @@
 - (void);
 - (void);
 - (void);
+- (void)j;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)*;
+- (void);
+- (void);
+- (void);
+- (void)B;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)W;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ܛ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)p;
 - (void);
 - (void);
 - (void);
@@ -45,13 +67,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,46 +86,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)T;
 - (void);
 - (id);
 - (id);
@@ -112,13 +99,6 @@
 
 // Remaining properties
 @property(readonly, retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

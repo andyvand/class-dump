@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageFlagChange;
 @protocol EDPersistedMessage;
 
 @interface _EDMessageChangeManagerFlagChange
 {
     id <EDPersistedMessage> _message;
-    ECMessageFlagChange *_serverChange;
-    ECMessageFlagChange *_localChange;
 }
 
 - (void);
@@ -29,9 +26,7 @@
        (:account, 24, 0, 0, 0, :started_at, NULL) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) ECMessageFlagChange *localChange; // @synthesize localChange=_localChange;
 @property(retain, nonatomic) id <EDPersistedMessage> message; // @synthesize message=_message;
-@property(retain, nonatomic) ECMessageFlagChange *serverChange; // @synthesize serverChange=_serverChange;
 
 @end
 

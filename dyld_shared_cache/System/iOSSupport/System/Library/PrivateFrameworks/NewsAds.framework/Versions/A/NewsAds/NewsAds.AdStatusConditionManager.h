@@ -7,7 +7,6 @@
 @interface NewsAds.AdStatusConditionManager
 {
     id reporter;
-    id providers;
 }
 
 @end

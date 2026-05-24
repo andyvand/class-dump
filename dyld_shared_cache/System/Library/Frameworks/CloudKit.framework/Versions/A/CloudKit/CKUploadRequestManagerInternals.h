@@ -4,50 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAssetRepairScheduler, CKContainer, CKSchedulerActivity, CKSyncEngine, CKUploadRequestConfiguration, CKUploadRequestManagerResponseActionThrottler, CKUploadRequestManagerStateMachine, CKUploadRequestPersistentStore, NSMutableDictionary, NSObject, NSString;
-@protocol NSObject, OS_dispatch_queue;
-
 @interface CKUploadRequestManagerInternals
 {
     _Bool _hasRegisteredActivity;
-    int _fetchAllToken;
-    CKUploadRequestManagerStateMachine *_stateMachine;
-    NSString *_machServiceName;
-    double _recurringFetchPeriod;
-    double _tryAgainLaterRetryTime;
-    double _retryableErrorRetryTime;
-    double _cancelledErrorRetryTime;
-    double _retryableErrorMaxRetryCount;
-    double _notificationDebouncePeriod;
-    long long _assetRepairSchedulerRepairBatchCountLimit;
-    double _assetRepairSchedulerDefaultSuspensionTime;
-    long long _assetRepairSchedulerRepairRetryCount;
-    CKContainer *_container;
-    CKContainer *_repairContainer;
-    CKUploadRequestConfiguration *_repairContainerOverrides;
-    CKSyncEngine *_repairZoneSyncEngine;
-    NSString *_assignedMachServiceName;
-    CKAssetRepairScheduler *_repairProcessor;
-    CKUploadRequestPersistentStore *_database;
-    NSString *_deviceID;
-    NSString *_cachesDirectory;
-    struct __SCNetworkReachability *_reachability;
-    id <NSObject> _accountChangeObserver;
-    CDUnknownBlockType _scheduledAccountStatusCheck;
-    CDUnknownBlockType _repairActivityHandler;
-    CKSchedulerActivity *_observedRepairActivity;
-    CKUploadRequestManagerResponseActionThrottler *_responseActionThrottler;
-    NSObject<OS_dispatch_queue> *_stateMachineQueue;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSMutableDictionary *_callbackForOverridePoint;
-    CDUnknownBlockType _assetRequestCallback;
-    CDUnknownBlockType _packageRequestCallback;
 }
 
+- (void)1;
 - (void);
-- (void);
-- (id);
+- (id))yS	,;
 - (id);
 - (double);
 - (void);
@@ -57,11 +21,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (double);
+- (double)C;
 - (void);
 - (void);
 - (void);
@@ -70,17 +34,17 @@
 - (double);
 - (void);
 - (void);
+- (void)9;
+- (void);
+- (void);
+- (_Bool)M;
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)N6CoreML13Specification27ArrayFeatureType_ShapeRangeE;
 - (void);
 - (void);
 - (double);
@@ -96,14 +60,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (CDUnknownBlockType);
 - (id);
@@ -129,18 +93,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)5;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)24;
+- (void)br_isSymbolicLinkType;
 - (double);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -151,15 +115,15 @@
 - (CDUnknownBlockType)1Â0@ù
 × ;
 - (id)markRecordNameUnrecoverable: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)k;
+- (CDUnknownBlockType)_shouldSkipFileBlock;
 - (id),&,N,V_recordErrorsBySourceRecordID;
-- (void)ithBlock:(id)arg1;
+- (void)performCodeOperation:(id)arg1 withBlock:(unsigned long long)arg2;
 - (id)CKSQLiteUniquedStringTable;
-- (void)QLiteCompiledStatementDecoder;
+- (void)CKSQLiteCompiledStatementDecoder;
 - (void)ðÎÿÿÿÿÿ(;
-- (void)haviorOptions;
-- (id)ail;
-- (id)AssetContentInMemory;
+- (void)BehaviorOptions;
+- (id)CKAccountPrimaryEmail;
+- (id)AssetTransferOptionShouldFetchAssetContentInMemory;
 - (void)t;
 - (void);
 - (double);
@@ -167,48 +131,7 @@
 - (id)áÏÿ;
 
 // Remaining properties
-@property(retain, nonatomic) id <NSObject> accountChangeObserver; // @synthesize accountChangeObserver=_accountChangeObserver;
-@property(readonly, nonatomic) NSString *activityIdentifierForSchedulingRepairs;
-@property(nonatomic) double assetRepairSchedulerDefaultSuspensionTime; // @synthesize assetRepairSchedulerDefaultSuspensionTime=_assetRepairSchedulerDefaultSuspensionTime;
-@property(nonatomic) long long assetRepairSchedulerRepairBatchCountLimit; // @synthesize assetRepairSchedulerRepairBatchCountLimit=_assetRepairSchedulerRepairBatchCountLimit;
-@property(nonatomic) long long assetRepairSchedulerRepairRetryCount; // @synthesize assetRepairSchedulerRepairRetryCount=_assetRepairSchedulerRepairRetryCount;
-@property(copy) CDUnknownBlockType assetRequestCallback; // @synthesize assetRequestCallback=_assetRequestCallback;
-@property(retain, nonatomic) NSString *assignedMachServiceName; // @synthesize assignedMachServiceName=_assignedMachServiceName;
-@property(retain, nonatomic) NSString *cachesDirectory; // @synthesize cachesDirectory=_cachesDirectory;
-@property(retain, nonatomic) NSMutableDictionary *callbackForOverridePoint; // @synthesize callbackForOverridePoint=_callbackForOverridePoint;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(nonatomic) double cancelledErrorRetryTime; // @synthesize cancelledErrorRetryTime=_cancelledErrorRetryTime;
-@property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(retain, nonatomic) CKUploadRequestPersistentStore *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(nonatomic) int fetchAllToken; // @synthesize fetchAllToken=_fetchAllToken;
-@property(nonatomic) _Bool hasRegisteredActivity; // @synthesize hasRegisteredActivity=_hasRegisteredActivity;
 @property(readonly) unsigned long long hash;
-@property(copy) NSString *machServiceName; // @synthesize machServiceName=_machServiceName;
-@property(nonatomic) double notificationDebouncePeriod; // @synthesize notificationDebouncePeriod=_notificationDebouncePeriod;
-@property(retain, nonatomic) CKSchedulerActivity *observedRepairActivity; // @synthesize observedRepairActivity=_observedRepairActivity;
-@property(copy) CDUnknownBlockType packageRequestCallback; // @synthesize packageRequestCallback=_packageRequestCallback;
-@property(nonatomic) struct __SCNetworkReachability *reachability; // @synthesize reachability=_reachability;
-@property(nonatomic) double recurringFetchPeriod; // @synthesize recurringFetchPeriod=_recurringFetchPeriod;
-@property(copy, nonatomic) CDUnknownBlockType repairActivityHandler; // @synthesize repairActivityHandler=_repairActivityHandler;
-@property(readonly, nonatomic) CKContainer *repairContainer; // @synthesize repairContainer=_repairContainer;
-@property(readonly, nonatomic) CKUploadRequestConfiguration *repairContainerOverrides; // @synthesize repairContainerOverrides=_repairContainerOverrides;
-@property(retain, nonatomic) CKAssetRepairScheduler *repairProcessor; // @synthesize repairProcessor=_repairProcessor;
-@property(retain, nonatomic) CKSyncEngine *repairZoneSyncEngine; // @synthesize repairZoneSyncEngine=_repairZoneSyncEngine;
-@property(readonly, nonatomic) CKUploadRequestManagerResponseActionThrottler *responseActionThrottler; // @synthesize responseActionThrottler=_responseActionThrottler;
-@property(nonatomic) double retryableErrorMaxRetryCount; // @synthesize retryableErrorMaxRetryCount=_retryableErrorMaxRetryCount;
-@property(nonatomic) double retryableErrorRetryTime; // @synthesize retryableErrorRetryTime=_retryableErrorRetryTime;
-@property(copy, nonatomic) CDUnknownBlockType scheduledAccountStatusCheck; // @synthesize scheduledAccountStatusCheck=_scheduledAccountStatusCheck;
-@property(retain, nonatomic) CKUploadRequestManagerStateMachine *stateMachine; // @synthesize stateMachine=_stateMachine;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateMachineQueue; // @synthesize stateMachineQueue=_stateMachineQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
-@property(readonly) Class superclass;
-@property(nonatomic) double tryAgainLaterRetryTime; // @synthesize tryAgainLaterRetryTime=_tryAgainLaterRetryTime;
 
 @end
 

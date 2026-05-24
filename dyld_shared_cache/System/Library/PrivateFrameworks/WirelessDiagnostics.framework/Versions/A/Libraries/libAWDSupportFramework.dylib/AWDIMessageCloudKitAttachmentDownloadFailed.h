@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIMessageCloudKitAttachmentDownloadFailed
 {
     unsigned long long _timestamp;
-    NSString *_attachmentGuid;
-    unsigned int _attachmentSize;
-    unsigned int _connectionType;
-    int _errorCode;
-    NSString *_errorDomain;
-    int _linkQuality;
-    NSString *_messageGuid;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int attachmentSize:1;
-        unsigned int connectionType:1;
-        unsigned int errorCode:1;
-        unsigned int linkQuality:1;
-    } _has;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)&;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -40,9 +24,9 @@
 - (unsigned int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (id);
-- (void);
+- (void)ySkc;
 - (void);
 - (void);
 - (unsigned long long);
@@ -56,32 +40,17 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (int);
 - (void);
 - (void);
-- (void)nLpas;
+- (void)_beaconReceivedInLpas;
 - (int)$	;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *attachmentGuid; // @synthesize attachmentGuid=_attachmentGuid;
-@property(nonatomic) unsigned int attachmentSize; // @synthesize attachmentSize=_attachmentSize;
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(readonly, nonatomic) _Bool hasAttachmentGuid;
-@property(nonatomic) _Bool hasAttachmentSize;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasLinkQuality;
-@property(readonly, nonatomic) _Bool hasMessageGuid;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int linkQuality; // @synthesize linkQuality=_linkQuality;
-@property(retain, nonatomic) NSString *messageGuid; // @synthesize messageGuid=_messageGuid;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -11,9 +11,6 @@
 @interface TLKEnlargedTitleView : TLKView
 {
     TLKMultilineText *_title;
-    TLKMultilineText *_subtitle;
-    TLKLabel *_titleLabel;
-    TLKLabel *_subtitleLabel;
 }
 
 - (id);
@@ -22,18 +19,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)AMFDREncodeRepairConfigurationAddSequence;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)SNKShotFeaturizationStreamResult;
+- (id)mEnergySaverDeclaration_PowerSettings";
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) TLKMultilineText *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) TLKLabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(retain, nonatomic) TLKMultilineText *title; // @synthesize title=_title;
 @property(retain, nonatomic) TLKLabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

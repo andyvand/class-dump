@@ -7,37 +7,25 @@
 @interface IFGraphicSymbolOverride
 {
     _Bool _isDefault;
-    int _enclosureDimension;
-    float _pointSizeAdjuster;
-    long long _shape;
-    unsigned long long _symbolWeight;
-    unsigned long long _symbolSize;
-    struct CGSize _offset;
 }
 
-- (void);
-- (float);
-- (id);
+- (void)�3*'F;
+- (float)4F1E1/'F;
+- (id)*;
 - (int);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (long long);
-- (void);
+- (void)P;
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly) int enclosureDimension; // @synthesize enclosureDimension=_enclosureDimension;
-@property _Bool isDefault; // @synthesize isDefault=_isDefault;
-@property struct CGSize offset; // @synthesize offset=_offset;
-@property float pointSizeAdjuster; // @synthesize pointSizeAdjuster=_pointSizeAdjuster;
 @property(readonly) long long shape; // @synthesize shape=_shape;
-@property unsigned long long symbolSize; // @synthesize symbolSize=_symbolSize;
-@property unsigned long long symbolWeight; // @synthesize symbolWeight=_symbolWeight;
 
 @end
 

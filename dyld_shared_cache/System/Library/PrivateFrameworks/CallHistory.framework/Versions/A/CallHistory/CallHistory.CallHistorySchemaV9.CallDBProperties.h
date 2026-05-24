@@ -7,12 +7,6 @@
 @interface CallHistory.CallHistorySchemaV9.CallDBProperties
 {
     id _timer_all;
-    id _timer_incoming;
-    id _timer_last;
-    id _timer_lifetime;
-    id _timer_outgoing;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

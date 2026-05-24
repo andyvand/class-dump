@@ -7,25 +7,6 @@
 @interface AWDCoreRoutineFMCDailyAssessment
 {
     unsigned long long _timestamp;
-    int _assistances;
-    int _assistedParkingEvents;
-    int _duration;
-    int _engagedParkingEvents;
-    int _engagements;
-    int _locationType;
-    int _parkingEvents;
-    int _suppressedParkingEvents;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int assistances:1;
-        unsigned int assistedParkingEvents:1;
-        unsigned int duration:1;
-        unsigned int engagedParkingEvents:1;
-        unsigned int engagements:1;
-        unsigned int locationType:1;
-        unsigned int parkingEvents:1;
-        unsigned int suppressedParkingEvents:1;
-    } _has;
 }
 
 @end

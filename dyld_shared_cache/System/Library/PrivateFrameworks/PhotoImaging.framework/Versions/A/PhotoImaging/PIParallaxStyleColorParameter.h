@@ -11,9 +11,6 @@
 @interface PIParallaxStyleColorParameter : PIParallaxStyleParameter
 {
     NSNumber *_redValue;
-    NSNumber *_greenValue;
-    NSNumber *_blueValue;
-    NSNumber *_alphaValue;
 }
 
 - (_Bool);
@@ -23,15 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)dURL];
 - (id);
 - (void)setPreserveSourceColorSpace: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *alphaValue; // @synthesize alphaValue=_alphaValue;
-@property(readonly, nonatomic) NSNumber *blueValue; // @synthesize blueValue=_blueValue;
-@property(readonly, nonatomic) NSNumber *greenValue; // @synthesize greenValue=_greenValue;
 @property(readonly, nonatomic) NSNumber *redValue; // @synthesize redValue=_redValue;
 
 @end

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEIKEv2Packet, NSMutableArray;
-
 @interface NEIKEv2FragmentMap
 {
     unsigned short _currentCount;
-    unsigned short _expectedCount;
-    unsigned int _aggregatedPayloadsLength;
-    NEIKEv2Packet *_firstFragment;
-    NSMutableArray *_fragments;
 }
 
-- (void)blicKeyRef: /* Error: Ran out of types for this method. */;
+- (void)setRemotePublicKeyRef: /* Error: Ran out of types for this method. */;
 
 @end
 

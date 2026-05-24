@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface _MDHTMLParsing
 {
     unsigned short *uniChars;
-    unsigned long long uniCharLen;
-    unsigned long long uniCharSize;
-    unsigned char newLineBuffer[8];
-    unsigned long long newLineLength;
-    NSMutableDictionary *attributes;
-    NSString *metaName;
-    NSString *metaHttpEquiv;
-    NSString *metaContent;
-    unsigned long long sourceEncoding;
-    unsigned int sourceCFEncoding;
-    unsigned long long indexingLimit;
-    const char *titleStart;
-    unsigned int titleLength;
-    _Bool inHead;
-    _Bool inTitle;
-    _Bool inScript;
-    _Bool inStyle;
-    const char *hiddenElementName;
-    unsigned long long hiddenElementNameLength;
-    unsigned long long hiddenCount;
-    _Bool hiddenAttr;
 }
 
 + (void)stName:locale: /* Error: Ran out of types for this method. */;
@@ -37,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 
 @end

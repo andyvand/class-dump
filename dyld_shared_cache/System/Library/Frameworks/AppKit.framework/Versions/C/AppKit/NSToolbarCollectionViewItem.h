@@ -6,27 +6,16 @@
 
 #import <AppKit/NSCollectionViewItem.h>
 
-@class NSGlassEffectView, NSImage, NSLayoutConstraint, NSMutableArray, NSString, NSToolbarLabelStack, NSToolbarSnapshotWindow;
+@class NSToolbarLabelStack, NSToolbarSnapshotWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSToolbarCollectionViewItem : NSCollectionViewItem
 {
     NSToolbarLabelStack *_labelStack;
-    NSMutableArray *_labelViews;
-    NSLayoutConstraint *_labelWidthConstraint;
-    NSLayoutConstraint *_imageCenterConstraint;
-    NSMutableArray *_hiddenItemDecorationViews;
-    NSToolbarSnapshotWindow *_snapshotWindow;
-    NSGlassEffectView *_glassView;
-    NSImage *_activeImage;
-    NSImage *_inactiveImage;
-    NSString *_accessibilityLabel;
-    _Bool _snapshotInProgress;
-    _Bool _deemphasized;
 }
 
++ (id)ain of the inURL. Cookie ignored = %@;
 + (id);
-+ (id);
 - (id);
 - (id);
 - (void);
@@ -40,19 +29,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)d.;
 - (void);
-- (id);
+- (id)6Xa;
 - (void);
 - (void);
 - (void);
-- (void)IndicatorSize;
+- (void)effectiveIndicatorSize;
 - (void);
 - (void)criptor matchingFontDescriptorsWithMandatoryKeys:] instead. /* Error: Ran out of types for this method. */;
 - (void)separatedOptions.clippingExtents.outsetMaxZ;
 
 // Remaining properties
-@property _Bool deemphasized;
 @property(retain) NSToolbarSnapshotWindow *snapshotWindow;
 
 @end

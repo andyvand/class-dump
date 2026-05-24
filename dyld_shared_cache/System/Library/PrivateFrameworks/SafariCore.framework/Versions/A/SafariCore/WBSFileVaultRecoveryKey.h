@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface WBSFileVaultRecoveryKey
 {
     _Bool _isSharedInGroup;
-    _Bool _isSavedInPasswordsApp;
-    NSString *_volumeID;
-    NSString *_serialNumber;
-    NSString *_recoveryKey;
-    NSString *_displayName;
-    NSDate *_creationDate;
-    NSString *_deviceModel;
-    NSString *_deviceVariant;
 }
 
 + (id);
@@ -25,7 +17,7 @@
 + (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -36,7 +28,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)	׋;
 - (id);
 - (void)A×Ð!°GùÑX1Â0@ù
 × ;
@@ -44,14 +36,6 @@
 - (id)e.SafariBookmarksSync.CloudBookmarksErrorDomain;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(copy, nonatomic) NSString *deviceVariant; // @synthesize deviceVariant=_deviceVariant;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool isSavedInPasswordsApp; // @synthesize isSavedInPasswordsApp=_isSavedInPasswordsApp;
-@property(nonatomic) _Bool isSharedInGroup; // @synthesize isSharedInGroup=_isSharedInGroup;
-@property(readonly, copy, nonatomic) NSString *recoveryKey; // @synthesize recoveryKey=_recoveryKey;
-@property(readonly, copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 @property(readonly, copy, nonatomic) NSString *volumeID; // @synthesize volumeID=_volumeID;
 
 @end

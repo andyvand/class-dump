@@ -11,13 +11,12 @@
 @interface AppKit._NSSuggestionsMenuWindowController : NSWindowController
 {
     id $__lazy_storage_$_menuViewController;
-    id visualEffectView;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (void)ualActionContext;
+- (void)WFContextualActionContext;
 - (id)tive to current mouse:%@ /* Error: Ran out of types for this method. */;
 - (void)gate.m;
 - (void)GImageSource=%p;

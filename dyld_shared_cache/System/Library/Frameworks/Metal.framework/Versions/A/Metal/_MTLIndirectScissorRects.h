@@ -7,9 +7,6 @@
 @interface _MTLIndirectScissorRects
 {
     CDStruct_33dcf794 *scissorRects;
-    unsigned long long count;
-    CDStruct_33dcf794 *_scissorRects;
-    unsigned long long _count;
 }
 
 - (void);
@@ -20,7 +17,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(nonatomic) CDStruct_33dcf794 *scissorRects; // @synthesize scissorRects=_scissorRects;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSURL;
+@class NSURL;
 
 @interface NDAnalyticsPayloadInfo
 {
     NSURL *_endpointURL;
-    NSDictionary *_valuesByHTTPHeaderField;
-    NSArray *_entriesToUpload;
-    NSDictionary *_droppedEntriesByReason;
 }
 
 - (id);
@@ -22,15 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *droppedEntriesByReason; // @synthesize droppedEntriesByReason=_droppedEntriesByReason;
 @property(copy, nonatomic) NSURL *endpointURL; // @synthesize endpointURL=_endpointURL;
-@property(copy, nonatomic) NSArray *entriesToUpload; // @synthesize entriesToUpload=_entriesToUpload;
-@property(copy, nonatomic) NSDictionary *valuesByHTTPHeaderField; // @synthesize valuesByHTTPHeaderField=_valuesByHTTPHeaderField;
 
 @end
 

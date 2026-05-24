@@ -4,39 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDFeaturesDataSource, HMDHome, HMDResidentStatus, HMDResidentStatusChannelManager, HMDStatusChannelPayloadManager, HMDUnpublishedResidentStatus, HMFFuture, HMFPromise, HMFTimer, NSHashTable, NSMutableDictionary, NSNotificationCenter, NSObject, NSSet, NSString;
-@protocol HMDIdsIdentifierProvider, HMDStatusChannelProtocolV2, HMFTimerProvider, HMMLogEventSubmitting, OS_dispatch_queue;
+@class NSMutableDictionary, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentStatusChannelV2
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _lock;
-    HMDResidentStatus *_currentPrimaryResident;
-    _Bool _connected;
-    _Bool _domainPublishAllowed;
-    _Bool _receivedInitialChannelState;
-    _Bool _started;
-    _Bool _domainDataCached;
-    HMDHome *_home;
-    HMDResidentStatusChannelManager *_manager;
-    HMFFuture *_initialConnectedToStatusKitFuture;
-    HMDStatusChannelPayloadManager *_payloadManager;
-    NSMutableDictionary *_residentStatusMap;
-    NSHashTable *_observers;
-    NSNotificationCenter *_notificationCenter;
-    id <HMFTimerProvider> _timerProvider;
-    HMFTimer *_debounceTimer;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    HMFPromise *_initialConnectedToStatusKitPromise;
-    HMDFeaturesDataSource *_featuresDataSource;
-    HMDUnpublishedResidentStatus *_localResidentStatus;
-    NSMutableDictionary *_domainDataStatusMap;
-    NSMutableDictionary *_domainDataPairs;
-    unsigned long long _domainPublishCount;
-    HMFTimer *_domainPublishRateLimitingTimer;
-    id <HMDStatusChannelProtocolV2> _dedicatedChannel;
-    id <HMDIdsIdentifierProvider> _idsIdentifierProvider;
 }
 
 + (id)OB;
@@ -50,20 +24,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ivateFrameworks/WebPrivacy.framework/Versions/A/WebPrivacy;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)__objc_imageinfo__DATA_CONST;
 - (void);
 - (id);
+- (id);
+- (id)48@56@64@72d80@88{?=dd}96;
+- (id)originalImmutableObjects;
+- (id)originalIdentifierForObject: /* Error: Ran out of types for this method. */;
+- (id)MSPContainerEditAddition;
+- (id)MSPSharedTripGroupSessionDelegate;
+- (id)tController] shareWithContactValue timed out waiting for pending contact %{private}@. falling back to messages;
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -81,18 +55,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Rgl;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
@@ -100,54 +74,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)Mode:sessionID: /* Error: Ran out of types for this method. */;
+- (id)createSecureStreamWithPeerDevice:clientMode:sessionID: /* Error: Ran out of types for this method. */;
 - (_Bool)õþÿÿÿÿ;
 - (id)for %f percent of Home:%@ /* Error: Ran out of types for this method. */;
 - (void)cel the HOLD as there is none in place;
 - (void)d properly;
 - (void)led to open bulk send session:(id)arg1 %@;
 - (void)uture"16@?0@"HMDCameraClipModel"8;
-- (void)ontrollers;
+- (void)numTargetControllers;
 - (_Bool)neral.accessibility.interaction.holdDuration.enabled;
 - (id);
 - (id)R&¬­èþéR&{æþ;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isConnected) _Bool connected; // @synthesize connected=_connected;
-@property(readonly, nonatomic) HMDResidentStatus *currentPrimaryResident;
-@property(retain) HMFTimer *debounceTimer; // @synthesize debounceTimer=_debounceTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <HMDStatusChannelProtocolV2> dedicatedChannel; // @synthesize dedicatedChannel=_dedicatedChannel;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool domainDataCached; // @synthesize domainDataCached=_domainDataCached;
-@property(readonly, nonatomic) NSMutableDictionary *domainDataPairs; // @synthesize domainDataPairs=_domainDataPairs;
-@property(readonly, nonatomic) NSMutableDictionary *domainDataStatusMap; // @synthesize domainDataStatusMap=_domainDataStatusMap;
-@property(readonly, nonatomic) NSSet *domainDataStatuses;
-@property(nonatomic) _Bool domainPublishAllowed; // @synthesize domainPublishAllowed=_domainPublishAllowed;
-@property(nonatomic) unsigned long long domainPublishCount; // @synthesize domainPublishCount=_domainPublishCount;
-@property(retain) HMFTimer *domainPublishRateLimitingTimer; // @synthesize domainPublishRateLimitingTimer=_domainPublishRateLimitingTimer;
-@property(readonly) HMDFeaturesDataSource *featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) id <HMDIdsIdentifierProvider> idsIdentifierProvider; // @synthesize idsIdentifierProvider=_idsIdentifierProvider;
-@property(readonly, nonatomic) HMFFuture *initialConnectedToStatusKitFuture; // @synthesize initialConnectedToStatusKitFuture=_initialConnectedToStatusKitFuture;
-@property(readonly, nonatomic) HMFPromise *initialConnectedToStatusKitPromise; // @synthesize initialConnectedToStatusKitPromise=_initialConnectedToStatusKitPromise;
-@property(readonly, nonatomic) HMDUnpublishedResidentStatus *localResidentStatus; // @synthesize localResidentStatus=_localResidentStatus;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(nonatomic) __weak HMDResidentStatusChannelManager *manager; // @synthesize manager=_manager;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) HMDStatusChannelPayloadManager *payloadManager; // @synthesize payloadManager=_payloadManager;
-@property(readonly, nonatomic) NSSet *presentResidentStatuses;
-@property(nonatomic) _Bool receivedInitialChannelState; // @synthesize receivedInitialChannelState=_receivedInitialChannelState;
 @property(readonly, nonatomic) NSMutableDictionary *residentStatusMap; // @synthesize residentStatusMap=_residentStatusMap;
-@property(nonatomic) _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HMFTimerProvider> timerProvider; // @synthesize timerProvider=_timerProvider;
 
 @end
 

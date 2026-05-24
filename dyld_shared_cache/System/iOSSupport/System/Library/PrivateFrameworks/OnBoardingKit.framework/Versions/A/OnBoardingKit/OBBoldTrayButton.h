@@ -6,13 +6,9 @@
 
 #import <OnBoardingKit/OBTrayButton.h>
 
-@class CAGradientLayer;
-
 @interface OBBoldTrayButton : OBTrayButton
 {
     _Bool _masqueradeAsMacIdiom;
-    _Bool _buttonBackgroundInheritsTint;
-    CAGradientLayer *_gradientLayer;
 }
 
 + (id);
@@ -21,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,13 +30,11 @@
 - (struct CGSize);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool buttonBackgroundInheritsTint; // @synthesize buttonBackgroundInheritsTint=_buttonBackgroundInheritsTint;
-@property(retain, nonatomic) CAGradientLayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;
 @property(nonatomic) _Bool masqueradeAsMacIdiom; // @synthesize masqueradeAsMacIdiom=_masqueradeAsMacIdiom;
 
 @end

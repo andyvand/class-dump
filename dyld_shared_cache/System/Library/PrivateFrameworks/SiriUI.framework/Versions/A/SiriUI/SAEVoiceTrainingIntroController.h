@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SiriUI.LoopedVideoPlayerView, _NSKeyValueObservation;
-@protocol SiriUISAEVoiceTrainingControllerDelegate;
+@class SiriUI.LoopedVideoPlayerView;
 
 @interface SAEVoiceTrainingIntroController
 {
     SiriUI.LoopedVideoPlayerView *videoPlayerView;
-    _NSKeyValueObservation *appearanceObservation;
-    void delegate;
 }
 
 - (void);
@@ -19,26 +16,24 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)xa;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, retain) _NSKeyValueObservation *appearanceObservation; // @synthesize appearanceObservation;
-@property(nonatomic) __weak id <SiriUISAEVoiceTrainingControllerDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, retain) SiriUI.LoopedVideoPlayerView *videoPlayerView; // @synthesize videoPlayerView;
 
 @end

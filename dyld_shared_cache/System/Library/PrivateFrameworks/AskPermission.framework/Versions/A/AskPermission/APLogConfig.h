@@ -5,14 +5,11 @@
 //
 
 @class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_os_log;
+@protocol OS_os_log;
 
 @interface APLogConfig
 {
     NSString *_category;
-    NSString *_subsystem;
-    NSObject<OS_os_log> *_backingOSLogObject;
-    NSObject<OS_dispatch_queue> *_propertyAccessQueue;
 }
 
 + (id);
@@ -24,8 +21,8 @@
 + (id);
 + (id);
 + (id);
-- (id);
-- (void);
+- (id);
+- (void)_isMinor;
 - (id);
 - (id);
 - (id);
@@ -34,7 +31,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)Ԙ;
 - (id);
 - (id);
 - (void);
@@ -42,11 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSObject<OS_os_log> *OSLogObject;
 @property(retain) NSObject<OS_os_log> *backingOSLogObject; // @synthesize backingOSLogObject=_backingOSLogObject;
-@property(copy) NSString *category; // @synthesize category=_category;
-@property(retain) NSObject<OS_dispatch_queue> *propertyAccessQueue; // @synthesize propertyAccessQueue=_propertyAccessQueue;
-@property(copy) NSString *subsystem; // @synthesize subsystem=_subsystem;
 
 @end
 

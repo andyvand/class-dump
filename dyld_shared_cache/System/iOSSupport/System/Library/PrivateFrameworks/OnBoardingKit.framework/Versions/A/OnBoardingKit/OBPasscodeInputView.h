@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)(;
+- (void);
 - (_Bool)7à;
 
 // Remaining properties

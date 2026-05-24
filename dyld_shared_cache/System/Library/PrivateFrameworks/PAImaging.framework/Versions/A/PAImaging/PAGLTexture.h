@@ -9,48 +9,39 @@
 @interface PAGLTexture : PAGLObject
 {
     unsigned int _target;
-    unsigned int _wrapMode;
-    unsigned int _magFilter;
-    unsigned int _minFilter;
-    unsigned int _format;
-    unsigned int _type;
-    unsigned int _internalFormat;
 }
 
 + (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (void);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
+- (void)_HUDContentProvidersByType;
+- (unsigned int)feAreaInsets;
+- (unsigned int)ubCollectionsKeyAssetsFetchQueue-shared;
+- (unsigned int);
+- (unsigned int);
+- (unsigned int);
+- (void);
+- (void);
+- (unsigned int))
+*	*)@9
+@9)
+J	*);
 - (id);
 - (void);
 - (unsigned int);
 - (void)J*Ã;
 
 // Remaining properties
-@property(nonatomic) unsigned int format; // @synthesize format=_format;
-@property(nonatomic) unsigned int internalFormat; // @synthesize internalFormat=_internalFormat;
-@property(nonatomic) unsigned int magFilter; // @synthesize magFilter=_magFilter;
-@property(nonatomic) unsigned int minFilter; // @synthesize minFilter=_minFilter;
 @property(readonly, nonatomic) unsigned int target; // @synthesize target=_target;
-@property(nonatomic) unsigned int type; // @synthesize type=_type;
-@property(nonatomic) unsigned int wrapMode; // @synthesize wrapMode=_wrapMode;
 
 @end
 

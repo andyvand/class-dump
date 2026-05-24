@@ -6,31 +6,30 @@
 
 #import <CoreSuggestionsInternals/SGPipelineDissector.h>
 
-@class NSMutableDictionary, NSString, RTRoutineManager;
+@class NSMutableDictionary;
 
 @interface SGReminderDissector : SGPipelineDissector
 {
     NSMutableDictionary *_conversations;
-    RTRoutineManager *_rtRoutineManager;
 }
 
 + (id);
-+ (id);
++ (id)StandardTimeZoneNameForEntourageTimeZoneName:(id)arg1;
 + (id);
 + (_Bool);
 + (id)ð;
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (id)eout;
+- (id);
+- (id);
+- (void)msv_reduceIntoFloat:(id)arg1 by:(id)arg2;
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)change notification;
+- (id)imeInterval *, TSUDurationUnits *, TSUDurationStyle *, TSUDurationUnits, OITSULocale *);
 - (id);
 - (_Bool);
 - (void);
@@ -47,13 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

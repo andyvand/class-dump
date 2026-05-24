@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFColor;
+@class NSString;
 
 @interface RFSymbolImage
 {
@@ -15,22 +15,13 @@
         unsigned int vibrancy:1;
         unsigned int corner_rounding_mode:1;
     } _has;
-    _Bool _punches_through_background;
-    int _image_style;
-    int _symbol_rendering_mode;
-    int _vibrancy;
-    int _corner_rounding_mode;
-    NSString *_name;
-    RFColor *_primary_color;
-    RFColor *_secondary_color;
-    RFColor *_background_color;
 }
 
 + (_Bool);
 - (int);
+- (void),;
 - (void);
-- (void);
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (void);
@@ -48,37 +39,20 @@
 - (void);
 - (void);
 - (int);
-- (id);
-- (id);
+- (id)modifyTopologyWithRequest:(id)arg1 withReplyQueue:completion: /* Error: Ran out of types for this method. */;
+- (id)_passwordWithoutShiftedCharacters:shiftMap:outShiftedCharacterIndexSet: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)&;
+- (id);
+- (id)isPinned;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)P;
 - (void)FPreviewList",&,N,V_preview_list;
 
 // Remaining properties
-@property(retain, nonatomic) RFColor *background_color; // @synthesize background_color=_background_color;
-@property(nonatomic) int corner_rounding_mode; // @synthesize corner_rounding_mode=_corner_rounding_mode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int image_style; // @synthesize image_style=_image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) RFColor *primary_color; // @synthesize primary_color=_primary_color;
-@property(nonatomic) _Bool punches_through_background; // @synthesize punches_through_background=_punches_through_background;
-@property(retain, nonatomic) RFColor *secondary_color; // @synthesize secondary_color=_secondary_color;
-@property(readonly) Class superclass;
-@property(nonatomic) int symbol_rendering_mode; // @synthesize symbol_rendering_mode=_symbol_rendering_mode;
-@property(nonatomic) int vibrancy; // @synthesize vibrancy=_vibrancy;
 
 @end
 

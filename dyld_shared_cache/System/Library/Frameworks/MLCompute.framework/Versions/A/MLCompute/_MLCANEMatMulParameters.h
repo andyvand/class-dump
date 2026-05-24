@@ -9,14 +9,10 @@
 @interface _MLCANEMatMulParameters
 {
     NSDictionary *_matMulParams;
-    NSDictionary *_transposeXParams;
-    NSDictionary *_transposeYParams;
-    NSDictionary *_finalTransposeParams;
-    NSDictionary *_gocParams;
 }
 
 + (id);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -25,11 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDictionary *finalTransposeParams; // @synthesize finalTransposeParams=_finalTransposeParams;
-@property(readonly, retain, nonatomic) NSDictionary *gocParams; // @synthesize gocParams=_gocParams;
 @property(readonly, retain, nonatomic) NSDictionary *matMulParams; // @synthesize matMulParams=_matMulParams;
-@property(readonly, retain, nonatomic) NSDictionary *transposeXParams; // @synthesize transposeXParams=_transposeXParams;
-@property(readonly, retain, nonatomic) NSDictionary *transposeYParams; // @synthesize transposeYParams=_transposeYParams;
 
 @end
 

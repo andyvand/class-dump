@@ -8,6 +8,8 @@
 @protocol _UISceneUIWindowEventRouting;
 
 @protocol _UISceneUIWindowEventRouting
++ (_Bool)serviceNamesSupportingCapability: /* Error: Ran out of types for this method. */;
+- (UIScene<_UISceneUIWindowEventRouting> *)reparentableMessagesStartingAtRowID:limit:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _allowsEventUIWindowRouting;

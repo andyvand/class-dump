@@ -4,41 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, HMDAccount, HMDAccountChangeObserver, HMDAccountRegistry, HMDAppleAccountContext, HMDAppleAccountSettings, HMDBackingStore, HMDCloudCache, HMDDevice, HMDIDSActivityMonitorBroadcaster, HMFExponentialBackoffTimer, HMFFuture, HMFPromise, HMFTimer, NSData, NSNotificationCenter, NSObject, NSString;
-@protocol HMDACAccountStore, HMDAPSConnection, HMDIDSService, OS_dispatch_queue, OS_os_log;
+@protocol HMDAPSConnection;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleAccountManager
 {
     struct os_unfair_recursive_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMDBackingStore *_backingStore;
-    id <HMDACAccountStore> _accountStore;
-    NSObject<OS_os_log> *_logger;
-    _Bool _loggedIn;
-    _Bool _didProcessAccountSignOut;
-    _Bool _monitoring;
-    _Bool _rapportIdentitiesChangedNotificationTokenValid;
-    int _rapportIdentitiesChangedNotificationToken;
-    HMDAccount *_account;
-    HMDAppleAccountContext *_accountContext;
-    HMDAccount *_lastSignedOutAccount;
-    HMDAccountRegistry *_accountRegistry;
-    id <HMDAPSConnection> _pushConnection;
-    NSNotificationCenter *_notificationCenter;
-    HMDAccountChangeObserver *_accountChangeObserver;
-    HMFExponentialBackoffTimer *_accountChangeBackoffTimer;
-    HMFTimer *_devicesChangeBackoffTimer;
-    NSData *_pendingPushToken;
-    id <HMDIDSService> _service;
-    HMDIDSActivityMonitorBroadcaster *_activityBroadcaster;
-    HMFPromise *_deviceAccountSettledPromise;
-    HMFPromise *_currentDeviceSettledPromise;
-    HMFPromise *_idsDevicesUpdatedPromise;
-    HMDCloudCache *_cloudCache;
-    HMFFuture *_deviceAccountSettled;
-    HMFFuture *_currentDeviceSettled;
-    HMFFuture *_idsDevicesUpdated;
 }
 
 + (id)to fetch local camera reachability registrations, error:%@ /* Error: Ran out of types for this method. */;
@@ -47,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)systemCapability;
 - (id);
-- (long long);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (long long)setAccessibilitySelected: /* Error: Ran out of types for this method. */;
+- (void)makeAdjustmentsPostResizeWithZoomFactorChanged:(id)arg1;
+- (id)initWithImage:tintColor: /* Error: Ran out of types for this method. */;
+- (_Bool)_serverSupportsDynamicDrag;
+- (void)llu,  swipeMask %llx  progress %f  positionX %f  positionY %f  velocityX %f  velocityY %f  velocityZ %f   flagBits %llx  flavor %llu mouseX %u  mouseY %u;
 - (id);
 - (id);
 - (_Bool);
@@ -74,18 +45,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)iguate.;
+- (id)of Substrings - ;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)";
+- (id);
 - (id)!4GùÑ°1Â0@ù
 × ;
 - (_Bool)ð!¨CùÑð1Â0@ù
@@ -95,14 +66,14 @@ __attribute__((visibility("hidden")))
 - (void)¡ã°! Dùð1Â0@ù
 × ;
 - (void)teEventAccessControllerDataSource>";
-- (id)ce: /* Error: Ran out of types for this method. */;
-- (void)er:(id)arg1 threadClient:completion: /* Error: Ran out of types for this method. */;
+- (id)initWithStorage:dataSource: /* Error: Ran out of types for this method. */;
+- (void)_retrievePreferredNetworkOnThreadCapableController:(id)arg1 threadClient:completion: /* Error: Ran out of types for this method. */;
 - (void)ionHandler:(id)arg1;
 - (_Bool)ble;
 - (void)ictionary",&,V_registrationsByAccessoryUUID;
 - (void)Info",R,N,V_processInfo;
 - (_Bool)meraMetricsSnapshotLogEvent",R,N,V_cameraSnapshotMetricsLogEvent;
-- (void)lysisEventBulletinRegistrationDatabaseID;
+- (void)MKFAnalysisEventBulletinRegistrationDatabaseID;
 - (id)ÿ;
 - (void)¨ÒÔ;
 - (void)à;
@@ -128,41 +99,7 @@ __attribute__((visibility("hidden")))
 - (id)D;
 
 // Remaining properties
-@property(retain) HMDAccount *account;
-@property(readonly, nonatomic) HMFExponentialBackoffTimer *accountChangeBackoffTimer; // @synthesize accountChangeBackoffTimer=_accountChangeBackoffTimer;
-@property(readonly, nonatomic) HMDAccountChangeObserver *accountChangeObserver; // @synthesize accountChangeObserver=_accountChangeObserver;
-@property(readonly) HMDAppleAccountContext *accountContext;
-@property(readonly, nonatomic) HMDAccountRegistry *accountRegistry;
-@property(readonly) ACAccountStore *accountStore;
-@property(readonly, nonatomic) HMDIDSActivityMonitorBroadcaster *activityBroadcaster;
-@property(readonly) HMDBackingStore *backingStore;
-@property(retain, nonatomic) HMDCloudCache *cloudCache;
-@property(readonly, nonatomic) HMFFuture *currentDeviceSettled;
-@property(readonly, nonatomic) HMFPromise *currentDeviceSettledPromise;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDDevice *device;
-@property(readonly, nonatomic) HMFFuture *deviceAccountSettled;
-@property(readonly, nonatomic) HMFPromise *deviceAccountSettledPromise;
-@property(readonly, nonatomic) HMFTimer *devicesChangeBackoffTimer; // @synthesize devicesChangeBackoffTimer=_devicesChangeBackoffTimer;
-@property(readonly, nonatomic) _Bool didProcessAccountSignOut;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMFFuture *idsDevicesUpdated;
-@property(readonly, nonatomic) HMFPromise *idsDevicesUpdatedPromise;
-@property(readonly, nonatomic) HMDAccount *lastSignedOutAccount;
-@property(readonly, getter=isLoggedInToPrimaryAccount) _Bool loggedIn; // @synthesize loggedIn=_loggedIn;
-@property(nonatomic, getter=isMonitoring) _Bool monitoring; // @synthesize monitoring=_monitoring;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain, nonatomic) NSData *pendingPushToken; // @synthesize pendingPushToken=_pendingPushToken;
 @property(readonly, nonatomic) id <HMDAPSConnection> pushConnection; // @synthesize pushConnection=_pushConnection;
-@property(nonatomic) int rapportIdentitiesChangedNotificationToken; // @synthesize rapportIdentitiesChangedNotificationToken=_rapportIdentitiesChangedNotificationToken;
-@property(nonatomic, getter=isRapportIdentitiesChangedNotificationTokenValid) _Bool rapportIdentitiesChangedNotificationTokenValid; // @synthesize rapportIdentitiesChangedNotificationTokenValid=_rapportIdentitiesChangedNotificationTokenValid;
-@property(readonly, nonatomic) id <HMDIDSService> service;
-@property(readonly, nonatomic) HMDAppleAccountSettings *settings;
-@property(readonly) Class superclass;
 
 @end
 

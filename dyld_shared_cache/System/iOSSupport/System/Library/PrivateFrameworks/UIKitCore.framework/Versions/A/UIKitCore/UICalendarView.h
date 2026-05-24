@@ -6,9 +6,6 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSCalendar, NSDateComponents, NSDateFormatter, NSDateInterval, NSLocale, NSString, NSTimeZone, UICalendarSelection, UICollectionView, UICollectionViewDiffableDataSource, _UICalendarDataModel, _UICalendarHeaderView, _UICalendarMonthYearSelector, _UICalendarViewDataSourceController, _UICalendarViewDecorationSystem, _UICalendarWeekdayView, _UIDatePickerLinkedLabel;
-@protocol UICalendarViewDelegate;
-
 @interface UICalendarView : UIView
 {
     struct {
@@ -21,41 +18,21 @@
         unsigned int implementsDidChangeVisibleDateDelegate:1;
         unsigned int hasDecorations:1;
     } _flags;
-    NSDateFormatter *_cellFormatter;
-    UICollectionViewDiffableDataSource *_dataSource;
-    _UICalendarViewDataSourceController *_dataSourceController;
-    long long _stateUpdatesInFlight;
-    _UICalendarMonthYearSelector *_monthYearSelector;
-    struct CGSize _lastKnownSize;
-    struct CGPoint _frozenContentOffset;
-    double _lastWeekdayLabelWidth;
-    double _collectionViewAspectRatio;
-    double _collectionViewDecorationsTotalHeight;
-    _UIDatePickerLinkedLabel *_daySizingLabel;
-    _UICalendarDataModel *_dataModel;
-    long long _viewState;
-    id <UICalendarViewDelegate> _delegate;
-    UICalendarSelection *_selectionBehavior;
-    UIView *_contentView;
-    _UICalendarHeaderView *_headerView;
-    _UICalendarWeekdayView *_weekdayView;
-    UICollectionView *_collectionView;
-    _UICalendarViewDecorationSystem *_decorationSystem;
 }
 
 + (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)able to convert input into PostDeliveryReceiptProcessingParameter. Bailing and passing input to next pipeline;
+- (_Bool)kSwitch we could not create zip file;
+- (id)e do not expect file to already exist. Clearing it.;
+- (void)ing last message as hint message is a user scheduled message;
+- (void)ntifier:(id)arg1 %@ displayName:(_Bool)arg2 %@ participants:%@ sortedIdentifiers:%@ /* Error: Ran out of types for this method. */;
+- (void)oup chat with toIdentifier:(id)arg1 %@ fromIdentifier:%@ displayName:%@ participants:%@ sortedIdentifiers:%@ /* Error: Ran out of types for this method. */;
+- (void)iving the nickname object %@;
+- (void)ind message matching GUID=%@;
+- (void)downgrading to NotScheduled;
+- (id)scode HQ asset %@ to LQ for watch relay with error %@;
+- (void)********* We couldn't find an IMDAccount for the IDSAccount, please file a radar ********** State:(id)arg1 service session = %@, IDSAccount = %@, accounts = %@;
+- (void)id;
 - (void);
 - (void);
 - (void);
@@ -97,7 +74,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -111,11 +88,11 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)z;
 - (struct CGSize);
 - (id);
-- (void);
-- (void);
+- (void)set_sourceApplicationSecondaryIdentifier:(id)arg1;
+- (void)ath"24@"NSIndexPath"32;
 - (void);
 - (_Bool)Á;
 - (id)
@@ -124,8 +101,8 @@
 × ;
 - (void);
 - (void)ctDriving>"16d24^d32^d40^d48;
-- (id)ly;
-- (id);
+- (id)transformAppliedExternally;
+- (id)blackKeycapColor;
 - (void)tusBar:(id)arg1;
 - (void)tate;
 - (id)rLineColor,S_setMagnifierLineColor:(struct CGRect)arg1;
@@ -135,7 +112,7 @@
 - (void);
 - (struct CGSize)checklist;
 - (void)rovidingDelegate;
-- (_Bool)ing;
+- (_Bool)marginsWhenFloating;
 - (void)ì¾R0y43Lz;
 - (void)¼`;
 - (_Bool)`Èùþx;
@@ -150,27 +127,7 @@
 - (id)°¯p;
 
 // Remaining properties
-@property(copy, nonatomic) NSDateInterval *availableDateRange;
-@property(copy, nonatomic) NSCalendar *calendar;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) _UICalendarViewDecorationSystem *decorationSystem; // @synthesize decorationSystem=_decorationSystem;
-@property(nonatomic) __weak id <UICalendarViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *fontDesign;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UICalendarHeaderView *headerView; // @synthesize headerView=_headerView;
-@property(retain, nonatomic) NSLocale *locale;
-@property(retain, nonatomic) UICalendarSelection *selectionBehavior; // @synthesize selectionBehavior=_selectionBehavior;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTimeZone *timeZone;
-@property(copy, nonatomic) NSDateComponents *visibleDateComponents;
-@property(nonatomic) _Bool wantsDateDecorations;
-@property(retain, nonatomic) _UICalendarWeekdayView *weekdayView; // @synthesize weekdayView=_weekdayView;
 
 @end
 

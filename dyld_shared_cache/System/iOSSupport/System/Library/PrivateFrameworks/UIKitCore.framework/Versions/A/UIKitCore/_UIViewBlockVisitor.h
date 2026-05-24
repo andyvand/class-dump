@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
-- (void)animationCurve:(CDUnknownBlockType)arg1 animationConfigurator: /* Error: Ran out of types for this method. */;
-- (id)lpha;
+- (void)_setContentOffset:(CDUnknownBlockType)arg1 duration:animationCurve:animationConfigurator: /* Error: Ran out of types for this method. */;
+- (id)_alpha;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType visitorBlock; // @synthesize visitorBlock=_visitorBlock;

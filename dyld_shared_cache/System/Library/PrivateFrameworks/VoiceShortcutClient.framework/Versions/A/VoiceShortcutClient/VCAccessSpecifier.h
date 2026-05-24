@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAuditToken, NSString;
+@class NSString;
 
 @interface VCAccessSpecifier
 {
     NSString *_bundleIdentifier;
-    NSString *_associatedAppBundleIdentifier;
-    BSAuditToken *_auditToken;
-    struct __SecTask *_task;
-    long long _entitlements;
-    long long _sandboxCapabilities;
 }
 
 + (id);
++ (id){;
++ (id);
++ (id)e;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct __SecTask *);
@@ -41,35 +36,36 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool)P;
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)CT:CloudKit-2360.120.2
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)pg;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -79,11 +75,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *associatedAppBundleIdentifier; // @synthesize associatedAppBundleIdentifier=_associatedAppBundleIdentifier;
-@property(readonly, nonatomic) BSAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) long long entitlements; // @synthesize entitlements=_entitlements;
-@property(readonly, nonatomic) long long sandboxCapabilities; // @synthesize sandboxCapabilities=_sandboxCapabilities;
 @property(readonly, nonatomic) struct __SecTask *task; // @synthesize task=_task;
 
 @end

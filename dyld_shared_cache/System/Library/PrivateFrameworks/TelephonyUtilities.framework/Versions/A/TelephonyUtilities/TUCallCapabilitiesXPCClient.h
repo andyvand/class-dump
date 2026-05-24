@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSString, NSXPCConnection, TUCallCapabilitiesState;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TUCallCapabilitiesXPCClient
 {
     int _token;
-    TUCallCapabilitiesState *_state;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_xpcConnection;
-    NSMapTable *_delegateToQueue;
 }
 
++ (id);
++ (void);
++ (id)	;
++ (id);
 + (id);
 + (void);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
 - (oneway void);
 - (void);
 - (void);
-- (void);
+- (void)70;
 - (void);
 - (oneway void);
 - (oneway void);
@@ -34,15 +30,15 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
+- (oneway void)T;
 - (id);
 - (id);
 - (void);
+- (oneway void);
+- (void);
 - (oneway void);
 - (void);
-- (oneway void);
-- (void);
-- (oneway void);
+- (oneway void)V헡;
 - (void);
 - (id);
 - (oneway void);
@@ -52,27 +48,15 @@
 - (id);
 - (void);
 - (oneway void);
-- (void)toViewingAppURL;
+- (void)photoViewingAppURL;
 - (id)e:(CDUnknownBlockType)arg1 %ld preferredCallProvider:%ld /* Error: Ran out of types for this method. */;
-- (void)ng_tone_cept;
-- (id)eters;
-- (void)howSiriSuggestionsBlacklist;
+- (void)call_waiting_tone_cept;
+- (id)_TelephonyUtilities_telURLQueryParameters;
+- (void)AppCanShowSiriSuggestionsBlacklist;
 - (void *)¨¸5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSMapTable *delegateToQueue; // @synthesize delegateToQueue=_delegateToQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) void *queueContext;
-@property(retain, nonatomic) TUCallCapabilitiesState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int token; // @synthesize token=_token;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TSDFill
 {
     int mInterest;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
+- (void)Result;
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)/configs/tag-feed-config.jinja.yaml;
 - (void);
 - (void);
 - (_Bool);
@@ -33,13 +31,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

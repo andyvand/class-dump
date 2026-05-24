@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class AppStoreKit.OnDevicePersonalizationDataContainer, NSNumber, NSString;
 
 @protocol AppStoreKit.JSUserObjectExports__priv_8FC66B30E604F9835E1C3CBA5211B915
+- (NSNumber *)o;
+- (AppStoreKit.OnDevicePersonalizationDataContainer *);
+- (_Bool);
+- (_Bool)Ro;
 - (NSString *)p¥;
 - (NSString *)²søÿbùÿ;
 - (NSString *)8±øÿÆmøÿ°ªøÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *accountIdentifier;
-@property(nonatomic, readonly) NSString *dsid;
 @property(nonatomic, readonly) NSString *firstName;
-@property(nonatomic, readonly) _Bool isFitnessAppInstallationAllowed;
-@property(nonatomic, readonly) _Bool isManagedAppleID;
-@property(nonatomic, readonly) _Bool isOnDevicePersonalizationEnabled;
-@property(nonatomic, readonly) _Bool isUnderThirteen;
-@property(nonatomic, readonly) NSString *lastName;
-@property(nonatomic, readonly) NSNumber *userAgeIfAvailable;
 @end
 

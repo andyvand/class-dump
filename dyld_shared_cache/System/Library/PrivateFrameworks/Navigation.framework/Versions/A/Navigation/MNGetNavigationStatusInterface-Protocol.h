@@ -5,5 +5,6 @@
 //
 
 @protocol MNGetNavigationStatusInterface
+- (void);
 @end
 

@@ -10,20 +10,10 @@ __attribute__((visibility("hidden")))
 @interface LKNSValueCodingProxy : CACodingProxy
 {
     int _kind;
-    union {
-        struct CGPoint point;
-        struct CGSize size;
-        struct CGRect rect;
-        struct CATransform3D transform;
-        struct CAPoint3D point3d;
-        struct CACornerRadii corner_radii;
-        struct CAColorMatrix color_matrix;
-        struct CGAffineTransform affine_transform;
-    } _u;
 }
 
 + (_Bool);
-- (id);
+- (id)k;
 - (id);
 - (void);
 - (id);

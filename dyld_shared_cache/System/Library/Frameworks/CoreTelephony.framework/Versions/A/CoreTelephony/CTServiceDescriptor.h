@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CTServiceDescriptor
 {
     NSString *_identifier;
-    long long _domain;
-    NSNumber *_instance;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ext sample buffer before adding this output to an instance of AVAssetReader (using -addOutput:) and calling -startReading on that asset reader /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)h"@9h;
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)(;
+- (void)initWithUuid:(id)arg1 externalDataUUID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (long long);
+- (long long)ntifiers;
 - (id);
 - (id);
 - (void)a&ð!;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ct_shortDescription;
-@property(readonly, nonatomic) NSString *ct_shortName;
 @property(nonatomic) long long domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSNumber *instance; // @synthesize instance=_instance;
 
 @end
 

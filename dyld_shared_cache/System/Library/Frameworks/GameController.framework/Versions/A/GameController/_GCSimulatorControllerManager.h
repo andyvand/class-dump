@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSSet, NSString, _GCHIDEventSubject;
-@protocol GCHIDSystemServiceProviding, OS_dispatch_queue;
+@class NSObject, NSSet;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _GCSimulatorControllerManager
 {
     NSObject<OS_dispatch_queue> *_sessionQueue;
-    id <GCHIDSystemServiceProviding> _hidServiceProviding;
-    _GCHIDEventSubject *_hidEventSource;
-    NSMutableDictionary *_devices;
 }
 
 - (void);
@@ -27,14 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSSet *devices;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

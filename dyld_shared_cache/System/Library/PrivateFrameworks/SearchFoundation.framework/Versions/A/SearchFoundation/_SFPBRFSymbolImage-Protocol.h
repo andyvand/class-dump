@@ -7,17 +7,14 @@
 @class NSData, NSString, _SFPBRFColor;
 
 @protocol _SFPBRFSymbolImage
+- (void)v";
+- (void);
+- (_SFPBRFColor *)R";
+- (_SFPBRFColor *)R%;
+- (void)P;
+- (NSData *)thNegativeFeedback;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFColor *background_color;
-@property(nonatomic) int corner_rounding_mode;
-@property(nonatomic) int image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) _SFPBRFColor *primary_color;
-@property(nonatomic) _Bool punches_through_background;
-@property(retain, nonatomic) _SFPBRFColor *secondary_color;
-@property(nonatomic) int symbol_rendering_mode;
-@property(nonatomic) int vibrancy;
 @end
 

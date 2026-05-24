@@ -8,8 +8,10 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)al inconsistency - playback speed menu item count does not equal the speed collection count. 
+%@
+%@;
++ (id)ate %ld;
 
 @end
 

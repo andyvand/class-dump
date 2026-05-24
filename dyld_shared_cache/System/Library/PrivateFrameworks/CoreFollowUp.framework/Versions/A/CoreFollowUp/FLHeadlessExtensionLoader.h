@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FLExtensionContext, NSExtension, NSString, NSUUID;
-@protocol FLExtensionHostContextInterface;
+@class FLExtensionContext, NSExtension;
 
 @interface FLHeadlessExtensionLoader
 {
     FLExtensionContext *_extensionContext;
-    id <FLExtensionHostContextInterface> _delegate;
-    NSExtension *_extension;
-    CDUnknownBlockType _requestInterruptionBlock;
-    NSString *_identifier;
-    NSUUID *_sessionID;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)R>&;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)place item, %{sensitive}@;
+- (void);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)leted has been relaunched;
+- (id)_CompatibilityVersion;
 - (id);
-- (id);
-- (id);
+- (id)entID:deviceID:propertyValues:reply:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSExtension *extension;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) CDUnknownBlockType requestInterruptionBlock; // @synthesize requestInterruptionBlock=_requestInterruptionBlock;
-@property(retain, nonatomic) NSUUID *sessionID; // @synthesize sessionID=_sessionID;
 
 @end
 

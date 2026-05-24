@@ -10,12 +10,12 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
+- (id)bluetoothDeviceEntityRelevanceUserFocusModeAndTimeOfDayFeatures;
+- (id)bluetoothDeviceEntityRelevanceUserFocusModeAndDayOfWeekFeatures;
+- (id)appEntityRelevanceMicroLocationAndTimeOfDayFeatures;
+- (void)ching_CNContact_person;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);

@@ -6,30 +6,25 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRRecognitionMetrics, NSData;
-
 @interface ASRSchemaASRCancelled : SISchemaInstrumentationMessage
 {
     int _reason;
-    ASRSchemaASRRecognitionMetrics *_metrics;
-    CDStruct_6555f803 _has;
-    _Bool _hasMetrics;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)_isAvailableOverBonjour;
 - (int);
 - (_Bool);
 - (id);
-- (void);
+- (void)ndWindowDataForHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef, uint16_t, uint16_t);
 - (void);
 - (unsigned long long);
+- (_Bool)P;
+- (id)H;
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (id)setUnderUnderlyingError: /* Error: Ran out of types for this method. */;
 - (id)Hç;
@@ -39,10 +34,6 @@
 - (void)ìê;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMetrics; // @synthesize hasMetrics=_hasMetrics;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ASRSchemaASRRecognitionMetrics *metrics; // @synthesize metrics=_metrics;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

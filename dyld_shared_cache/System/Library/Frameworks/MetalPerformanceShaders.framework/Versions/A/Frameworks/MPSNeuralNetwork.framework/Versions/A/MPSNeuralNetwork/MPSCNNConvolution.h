@@ -6,42 +6,16 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@class MPSCNNNeuron, MPSNNNeuronDescriptor, NSData;
-@protocol MPSCNNConvolutionDataSource, MTLBuffer;
-
 @interface MPSCNNConvolution : MPSCNNKernel
 {
     unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    unsigned long long _layout;
-    unsigned long long _groups;
-    MPSCNNNeuron *_neuron_deprecated;
-    id <MTLBuffer> _weights;
-    id <MTLBuffer> _bias;
-    unsigned long long _flags;
-    _Bool _fullyConnected;
-    _Bool _convolutionTranspose;
-    _Bool _convertFloat32Weights;
-    id <MTLBuffer> _qWts;
-    int _qType;
-    unsigned long long _scaleFactor;
-    unsigned long long _channelMultiplier;
-    unsigned int _weightsDataType;
-    unsigned int _weightsLayout;
-    NSData *_biasOriginal;
-    id <MTLBuffer> _neuronABuffer;
-    unsigned long long _accumulatorPrecisionOption;
-    id <MPSCNNConvolutionDataSource> _dataSource;
-    NSData *_batchNormalizationData;
-    MPSNNNeuronDescriptor *_fusedNeuronDescriptor;
-    unsigned long long _featureChannelsLayout;
 }
 
 + (const struct MPSLibraryInfo *);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)# ;
 - (id);
 - (_Bool);
 - (id);
@@ -49,17 +23,17 @@
 - (id);
 - (id);
 - (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (_Bool)INInteractionClass;
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
-- (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (unsigned int);
 - (id);
@@ -74,8 +48,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)(;
+- (unsigned long long)e:%s C Datatype:%s
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -90,29 +65,15 @@
 - (id);
 - (float);
 - (unsigned long long);
-- (float)onDescriptor: /* Error: Ran out of types for this method. */;
-- (unsigned long long)PSCNNBinaryWeightFullyConnectedPixelFC_2d_2dArray_float;
+- (float)initWithDevice:fusedNeuronDescriptor: /* Error: Ran out of types for this method. */;
+- (unsigned long long)MPSCNNBinaryWeightFullyConnectedPixelFC_2d_2dArray_float;
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long)PE;
 
 // Remaining properties
-@property(nonatomic) unsigned long long accumulatorPrecisionOption;
-@property(readonly, nonatomic) unsigned long long channelMultiplier; // @synthesize channelMultiplier=_channelMultiplier;
-@property(readonly, retain, nonatomic) id <MPSCNNConvolutionDataSource> dataSource; // @synthesize dataSource=_dataSource;
 @property(readonly, nonatomic) unsigned long long featureChannelsLayout; // @synthesize featureChannelsLayout=_featureChannelsLayout;
-@property(readonly, nonatomic) MPSNNNeuronDescriptor *fusedNeuronDescriptor; // @synthesize fusedNeuronDescriptor=_fusedNeuronDescriptor;
-@property(readonly, nonatomic) unsigned long long groups; // @synthesize groups=_groups;
-@property(readonly, nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
-@property(readonly, nonatomic) MPSCNNNeuron *neuron; // @synthesize neuron=_neuron_deprecated;
-@property(readonly, nonatomic) float neuronParameterA;
-@property(readonly, nonatomic) float neuronParameterB;
-@property(readonly, nonatomic) float neuronParameterC;
-@property(readonly, nonatomic) int neuronType;
-@property(readonly, nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
-@property(readonly, nonatomic) unsigned long long subPixelScaleFactor; // @synthesize subPixelScaleFactor=_scaleFactor;
-@property(readonly, nonatomic) unsigned long long weightsBufferLength;
 
 @end
 

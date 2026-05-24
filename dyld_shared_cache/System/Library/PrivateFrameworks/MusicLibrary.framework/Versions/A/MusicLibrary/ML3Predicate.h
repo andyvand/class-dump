@@ -9,18 +9,18 @@
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (_Bool)},N,V_contactsAuthorizationUpdateLock;
+- (_Bool)mbnailDataStoreKeyStruct_V1=b2b3b1b27},N,V_keyStruct;
+- (id)laceholderConstructor _initWithSource:(id)arg1 byPreservingFullInfoPlist:forBundleType:error:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)h;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)PrivateFrameworks/OSPersonalization.framework/Versions/A/OSPersonalization;
 - (id);
 - (_Bool);
-- (_Bool);
-- (void)WithPersistentID:(id)arg1 albumArtistPID:(Class)arg2;
+- (_Bool)ibility;
+- (void)initWithPersistentID:(id)arg1 albumArtistPID:(Class)arg2;
 - (id)em.item_pid = item_store.item_pid);
 - (id)data:(Class)arg1 track id = %llu, ;
 

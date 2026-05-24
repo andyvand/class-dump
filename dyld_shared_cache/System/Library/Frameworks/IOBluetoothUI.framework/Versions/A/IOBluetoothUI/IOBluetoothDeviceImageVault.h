@@ -9,7 +9,6 @@
 @interface IOBluetoothDeviceImageVault
 {
     NSMutableDictionary *mImageMajorDict;
-    NSMutableDictionary *mMacImageMajorDict;
 }
 
 + (id);

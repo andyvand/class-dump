@@ -7,7 +7,6 @@
 @interface SafariSharedUI.WBSExtensionsOnboardingIconProvider
 {
     id downloadTask;
-    id inMemoryProcessedArtworkCache;
 }
 
 @end

@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableString, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface VCCaptionsTranscription
 {
     NSMutableArray *_segments;
-    NSMutableString *_formattedText;
-    unsigned int _utteranceNumber;
-    unsigned int _updateNumber;
-    _Bool _isLocal;
-    _Bool _isFinal;
-    long long _streamToken;
-    double _utteranceStartTimestamp;
-    double _utteranceDuration;
-    _Bool _isTranslated;
 }
 
 + (_Bool)rVideo";
-- (void);
+- (void)8;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (double);
 - (double);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (void);
 - (_Bool);
@@ -52,16 +43,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *formattedText;
-@property(nonatomic) _Bool isFinal; // @synthesize isFinal=_isFinal;
-@property(nonatomic) _Bool isLocal; // @synthesize isLocal=_isLocal;
-@property(nonatomic) _Bool isTranslated; // @synthesize isTranslated=_isTranslated;
-@property(readonly, nonatomic) NSArray *segments; // @synthesize segments=_segments;
-@property(readonly, nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
-@property(nonatomic) unsigned int updateNumber; // @synthesize updateNumber=_updateNumber;
-@property(readonly, nonatomic) double utteranceDuration; // @synthesize utteranceDuration=_utteranceDuration;
 @property(nonatomic) unsigned int utteranceNumber; // @synthesize utteranceNumber=_utteranceNumber;
-@property(readonly, nonatomic) double utteranceStartTimestamp; // @synthesize utteranceStartTimestamp=_utteranceStartTimestamp;
 
 @end
 

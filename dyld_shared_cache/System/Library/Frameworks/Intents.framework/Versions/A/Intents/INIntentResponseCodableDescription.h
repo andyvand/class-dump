@@ -6,19 +6,20 @@
 
 #import <Intents/INRootCodableDescription.h>
 
-@class INCodableAttribute, NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface INIntentResponseCodableDescription : INRootCodableDescription
 {
     NSMutableDictionary *_intentResponseCodableCodes;
-    NSString *_outputAttributeName;
-    NSArray *_responseCodes;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -28,24 +29,21 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id)(;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -54,6 +52,7 @@
 + (id);
 + (_Bool);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -62,13 +61,12 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)<;
 + (id);
 + (id)1Â0@ù
 × ;
@@ -77,28 +75,28 @@
 + (id)
 × ;
 + (id)24@0:8Q16 /* Error: Ran out of types for this method. */;
-+ (id)ortedReason;
-+ (id);
-+ (id)mpletion: /* Error: Ran out of types for this method. */;
-+ (id)ations;
-+ (id)earchResults:(id)arg1;
-+ (id)ocabularyIdentifier;
++ (id)shareETAIntentRecipientUnsupportedReason;
++ (id)setAccountNickname: /* Error: Ran out of types for this method. */;
++ (id)resolveQuestionTypeForQueryHealthSample:completion: /* Error: Ran out of types for this method. */;
++ (id)payloadWorkoutCustomizations;
++ (id)initWithPrivateMediaIntentData:(id)arg1 audioSearchResults:(id *)arg2;
++ (id)hasVocabularyIdentifier;
 + (id)clearPayloadFinancialAccountValues;
-+ (id)atusCode;
-+ (id)adMessageTypes;
++ (id)_statusCode;
++ (id)_payloadMessageTypes;
 + (id)_INPBCondition",&,N;
 + (id)ations;
-+ (id)ngAsAccountType: /* Error: Ran out of types for this method. */;
-+ (id)terConfigurable;
++ (id)StringAsAccountType: /* Error: Ran out of types for this method. */;
++ (id)__INCodableAttributeINIntentResponseParameterConfigurable;
 + (id)#;
 + (id)è<;
 + (id)Unable to find class %s;
-+ (id)ageText;
++ (id)outgoingMessageText;
 + (id)koutNameIdentifier.Move;
-+ (id)eMediaShowTitle;
-+ (id)t:withCompletion: /* Error: Ran out of types for this method. */;
-+ (id)ForFindDeviceAndPlaySound:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
-+ (id)Alarm: /* Error: Ran out of types for this method. */;
++ (id)INVocabularyStringTypeMediaShowTitle;
++ (id)provideNoteOptionsCollectionForRequestPayment:withCompletion: /* Error: Ran out of types for this method. */;
++ (id)provideDevicesOptionsForFindDeviceAndPlaySound:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
++ (id)defaultProposedLabelForUpdateAlarm: /* Error: Ran out of types for this method. */;
 + (id)ocab %@ to %@;
 + (id)9i;
 + (id)EûPÌï;
@@ -113,28 +111,26 @@
 + (id)¬k;
 + (id)·;
 + (id) );
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
+- (id)@C;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)_filterConnectionInvalidationRegistration;
+- (id)addCancellationHandler:(id)arg1 onQueue:(id *)arg2;
+- (long long);
 - (id);
-- (void);
+- (id)niqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('click', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox' && event.target.value == '') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:true}); }); await p; return p; /* Error: Ran out of types for this method. */;
+- (void)] = value; } resolve(capturedData); }, { once:(id)arg1 true }); document.addEventListener('input', function(event){ let target = event.target; let selector = getSelectorPathForElement(target); let value = target.value; var capturedData = {}; if (selector && value && (target.type.toLowerCase() != 'checkbox' || target.checked)){ capturedData[selector] = value; } resolve(capturedData); }, { once:true }); }); await p; return p; /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void)t;
 - (void)"INCodableEnumValue";
-- (void)letion: /* Error: Ran out of types for this method. */;
+- (void)provideEntityTypeOptionsCollectionForOpenFile:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setOutputAttributeName:) NSString *_outputAttributeName; // @synthesize _outputAttributeName;
-@property(readonly, nonatomic) INCodableAttribute *outputAttribute;
-@property(copy, nonatomic) NSArray *responseCodes; // @synthesize responseCodes=_responseCodes;
 
 @end
 

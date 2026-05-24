@@ -5,5 +5,7 @@
 //
 
 @protocol TRITaskQueueControlling
+- (_Bool);
+- (_Bool)t multiple devices;
 @end
 

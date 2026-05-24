@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactContentViewController, NSString;
+@class CNContactContentViewController;
 
 __attribute__((visibility("hidden")))
 @interface CNContactViewServiceViewController
@@ -20,27 +20,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)qa;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)i;
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void)wTopConstraint;
+- (id)failedUpdateAttempts;
+- (void);
+- (void)_avatarViewTopConstraint;
 
 // Remaining properties
 @property(retain, nonatomic) CNContactContentViewController *contactContentVC; // @synthesize contactContentVC=_contactContentVC;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

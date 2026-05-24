@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface TPPBPolicyDocument
 {
     unsigned long long _policyVersion;
-    NSMutableArray *_categoriesByViews;
-    NSMutableArray *_inheritedExcludedViews;
-    NSMutableArray *_introducersByCategorys;
-    NSMutableArray *_keyViewMappings;
-    NSMutableArray *_modelToCategorys;
-    NSMutableArray *_piggybackViews;
-    NSMutableArray *_priorityViews;
-    NSMutableArray *_redactions;
-    NSMutableArray *_userControllableViews;
-    CDStruct_0e29c504 _has;
 }
 
 + (Class);
@@ -32,8 +20,8 @@
 + (Class);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)%{public}@:...next command sequence:%lld /* Error: Ran out of types for this method. */;
+- (id){public}s;
 - (void);
 - (void);
 - (void);
@@ -47,19 +35,19 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)ocked;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)P;
+- (void)applePhoneCall_PhoneCallAttribute_Group;
 - (id);
 - (_Bool);
 - (void);
@@ -79,9 +67,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)led to read 0xA8:(id)arg1 %@;
 - (void);
-- (void);
-- (id);
+- (id)ptr}] Retained transport event stream [%{ptr}]
+;
 - (id);
 - (void);
 - (void);
@@ -100,17 +89,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *categoriesByViews; // @synthesize categoriesByViews=_categoriesByViews;
 @property(nonatomic) _Bool hasPolicyVersion;
-@property(retain, nonatomic) NSMutableArray *inheritedExcludedViews; // @synthesize inheritedExcludedViews=_inheritedExcludedViews;
-@property(retain, nonatomic) NSMutableArray *introducersByCategorys; // @synthesize introducersByCategorys=_introducersByCategorys;
-@property(retain, nonatomic) NSMutableArray *keyViewMappings; // @synthesize keyViewMappings=_keyViewMappings;
-@property(retain, nonatomic) NSMutableArray *modelToCategorys; // @synthesize modelToCategorys=_modelToCategorys;
-@property(retain, nonatomic) NSMutableArray *piggybackViews; // @synthesize piggybackViews=_piggybackViews;
-@property(nonatomic) unsigned long long policyVersion; // @synthesize policyVersion=_policyVersion;
-@property(retain, nonatomic) NSMutableArray *priorityViews; // @synthesize priorityViews=_priorityViews;
-@property(retain, nonatomic) NSMutableArray *redactions; // @synthesize redactions=_redactions;
-@property(retain, nonatomic) NSMutableArray *userControllableViews; // @synthesize userControllableViews=_userControllableViews;
 
 @end
 

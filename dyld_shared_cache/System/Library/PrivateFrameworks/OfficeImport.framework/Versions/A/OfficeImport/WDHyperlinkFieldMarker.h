@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface WDHyperlinkFieldMarker : WDFieldMarker
 {
     NSString *mLink;
-    NSString *mFragment;
-    unsigned int mInternalLink:1;
 }
 
 - (void);
@@ -21,14 +19,12 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/sf/SFUDataRepresentation.m;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fragment; // @synthesize fragment=mFragment;
-@property(nonatomic) _Bool internalLink; // @synthesize internalLink=mInternalLink;
 @property(retain, nonatomic) NSString *link; // @synthesize link=mLink;
 
 @end

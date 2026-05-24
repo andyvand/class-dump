@@ -5,5 +5,7 @@
 //
 
 @protocol CSBenchmarkXPCProtocol
+- (void)uq!;
+- (void);
 @end
 

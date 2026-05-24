@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPendingProvisioning;
-
 @interface PKPendingProvisioningChange
 {
     unsigned long long _type;
-    PKPendingProvisioning *_pendingProvisioning;
 }
 
 + (_Bool);
@@ -19,11 +16,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (void)umber;
+- (void)rxCRSErrs;
+- (void)deviceMLBSerialNumber;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPendingProvisioning *pendingProvisioning; // @synthesize pendingProvisioning=_pendingProvisioning;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

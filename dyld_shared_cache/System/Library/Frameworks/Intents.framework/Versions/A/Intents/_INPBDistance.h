@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBDistance
 {
     struct _has;
-    NSArray *_values;
 }
 
-+ (Class);
++ (Class);
 + (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)orized for WiFi Network Sharing (clientID=%{public}@);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void)escriptiveText;
+- (void)descriptiveText;
 - (void);
 - (id)ÿ4N¢@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *values; // @synthesize values=_values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 
 @end
 

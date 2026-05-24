@@ -7,6 +7,7 @@
 @protocol SGMessagesSuggestionsServiceDelegate;
 
 @protocol SGSuggestionsServiceMessagesProtocol
+- (void)iF;
 
 // Remaining properties
 @property __weak id <SGMessagesSuggestionsServiceDelegate> delegate;

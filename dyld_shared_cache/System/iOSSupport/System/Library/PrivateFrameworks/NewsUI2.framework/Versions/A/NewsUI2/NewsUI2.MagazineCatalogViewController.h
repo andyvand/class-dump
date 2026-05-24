@@ -7,9 +7,6 @@
 @interface NewsUI2.MagazineCatalogViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id presentation;
 }
 
 - (id);

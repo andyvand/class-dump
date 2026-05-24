@@ -6,16 +6,12 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSData, NSMutableDictionary, NSObject, NSString, NSTimer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface HMFKeyValueDatabase : HMFObject
 {
     double _syncDelayInSeconds;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_inMemoryDictionary;
-    NSData *_diskRepresentation;
-    NSTimer *_syncTimer;
 }
 
 - (id);
@@ -37,26 +33,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (id);
+- (void)donateClipsWithUUIDs:(id)arg1 completion:(long long)arg2;
+- (_Bool)NSNumber",C,V_productID;
+- (id)soryPayload;
 - (id);
 - (void);
 - (_Bool)7öÿD7öÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSData *diskRepresentation; // @synthesize diskRepresentation=_diskRepresentation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *inMemoryDictionary; // @synthesize inMemoryDictionary=_inMemoryDictionary;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(nonatomic) double syncDelayInSeconds; // @synthesize syncDelayInSeconds=_syncDelayInSeconds;
-@property(retain, nonatomic) NSTimer *syncTimer; // @synthesize syncTimer=_syncTimer;
 
 @end
 

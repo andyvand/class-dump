@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, _NSQuickActionAutovalidationScheduler;
 @protocol _NSQuickActionItemSource, _NSQuickActionValidatorObserver;
 
 @interface _NSQuickActionValidator
 {
     id <_NSQuickActionValidatorObserver> _observer;
-    NSMutableSet *_activeValidations;
-    _NSQuickActionAutovalidationScheduler *_autovalidationScheduler;
-    id <_NSQuickActionItemSource> _itemSource;
-    NSSet *_unvalidatedQuickActions;
-    NSMutableSet *_validQuickActions;
 }
 
 + (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)%f - %f;
+- (void)Image4Supported;
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id)hase=%@ behavior:(id)arg1 %@ stage:%ld pressure:%.3f /* Error: Ran out of types for this method. */;
-- (void)TabBarNewTabButtonPressedLeadingBorderColor;
+- (void)_NSTabBarNewTabButtonPressedLeadingBorderColor;
 
 // Remaining properties
 @property(retain) id <_NSQuickActionItemSource> itemSource;
-@property(copy) NSSet *unvalidatedQuickActions;
-@property(readonly, copy) NSSet *validQuickActions;
 
 @end
 

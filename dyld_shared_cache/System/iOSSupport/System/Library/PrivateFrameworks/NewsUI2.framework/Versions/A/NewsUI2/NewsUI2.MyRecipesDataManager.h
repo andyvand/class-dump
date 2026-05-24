@@ -7,12 +7,6 @@
 @interface NewsUI2.MyRecipesDataManager
 {
     id recipeHistory;
-    id recipeBox;
-    id recipeService;
-    id subscriptionService;
-    id config;
-    id recipeAccessProvider;
-    id delegate;
 }
 
 @end

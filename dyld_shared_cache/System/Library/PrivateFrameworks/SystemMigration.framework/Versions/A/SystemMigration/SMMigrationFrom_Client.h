@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSXPCConnection, NSXPCInterface;
-@protocol SMDMigrateFromProtocol;
+@class NSXPCInterface;
 
 @interface SMMigrationFrom_Client
 {
     _Bool _usingSharedSecretPassword;
-    _Bool _paired;
-    _Bool _serving;
-    _Bool _daemonCrashed;
-    NSNumber *_passcode;
-    unsigned long long _unableToStartServerReason;
-    NSXPCInterface *_daemonInterface;
-    NSXPCInterface *_exportedInterface;
-    NSXPCConnection *_daemonConnection;
-    id <SMDMigrateFromProtocol> _daemonProxy;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -33,8 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -52,21 +42,12 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)s;
+- (id)systemListsAndQueues;
 - (_Bool)gForUID:] /* Error: Ran out of types for this method. */;
 - (id)m with result [%d];
 
 // Remaining properties
-@property(retain) NSXPCConnection *daemonConnection; // @synthesize daemonConnection=_daemonConnection;
-@property _Bool daemonCrashed; // @synthesize daemonCrashed=_daemonCrashed;
 @property(retain) NSXPCInterface *daemonInterface; // @synthesize daemonInterface=_daemonInterface;
-@property(retain) id <SMDMigrateFromProtocol> daemonProxy; // @synthesize daemonProxy=_daemonProxy;
-@property(retain) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
-@property _Bool paired; // @synthesize paired=_paired;
-@property(retain) NSNumber *passcode; // @synthesize passcode=_passcode;
-@property _Bool serving; // @synthesize serving=_serving;
-@property unsigned long long unableToStartServerReason; // @synthesize unableToStartServerReason=_unableToStartServerReason;
-@property _Bool usingSharedSecretPassword; // @synthesize usingSharedSecretPassword=_usingSharedSecretPassword;
 
 @end
 

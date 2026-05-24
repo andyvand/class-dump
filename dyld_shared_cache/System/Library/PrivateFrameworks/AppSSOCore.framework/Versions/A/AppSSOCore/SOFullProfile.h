@@ -6,43 +6,37 @@
 
 #import <AppSSOCore/SOProfile.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SOFullProfile : SOProfile
 {
     NSString *_extensionTeamIdentifier;
-    NSDictionary *_extensionData;
-    NSString *_pssoRegistrationToken;
-    NSDictionary *_platformSSO;
 }
 
++ (long long)';
++ (long long)n;
 + (long long);
-+ (long long);
-+ (long long);
-+ (_Bool);
++ (_Bool)r Background Material;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)6@9@9;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *extensionData; // @synthesize extensionData=_extensionData;
 @property(retain, nonatomic) NSString *extensionTeamIdentifier; // @synthesize extensionTeamIdentifier=_extensionTeamIdentifier;
-@property(retain, nonatomic) NSDictionary *platformSSO; // @synthesize platformSSO=_platformSSO;
-@property(retain, nonatomic) NSString *pssoRegistrationToken; // @synthesize pssoRegistrationToken=_pssoRegistrationToken;
 
 @end
 

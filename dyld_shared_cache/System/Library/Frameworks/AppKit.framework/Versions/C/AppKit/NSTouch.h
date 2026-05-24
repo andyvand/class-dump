@@ -4,63 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-@protocol NSObject><NSCopying;
-
 @interface NSTouch
 {
     long long _index;
-    id _identity;
-    unsigned long long _phase;
-    struct CGPoint _pos1;
-    struct {
-        unsigned int _resting:1;
-        unsigned int _locIsPixels:1;
-    } _flags;
-    NSView *_view;
-    double _force;
-    struct CGPoint _pos0;
-    long long _touchType;
-    id _device;
-    struct CGSize _deviceSize;
-    long long _contextId;
-    double _timestamp;
 }
 
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGSize);
+- (id)+;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
+- (id)6;
+- (id)0l6;
 - (long long);
-- (double);
+- (double)lling symptoms. The number of transactions are %u;
 - (long long);
 - (unsigned long long);
 - (void);
 - (id);
 - (double);
-- (long long);
-- (struct CGPoint);
+- (long long)0:8^f16q24@32 /* Error: Ran out of types for this method. */;
+- (struct CGPoint)fiers;
 - (id)1Â0@ù
 × ;
 - (id)áì/ð!øFùQâ3Ð1Â0@ù
 × ;
-- (id)ier:(struct _NSZone *)arg1 inWindow: /* Error: Ran out of types for this method. */;
+- (id)addObjectInBackgroundForKeyedState:(struct _NSZone *)arg1 underKey:forIdentifier:inWindow: /* Error: Ran out of types for this method. */;
 - (_Bool)bDC;
 
 // Remaining properties
-@property(readonly) id device; // @synthesize device=_device;
-@property(readonly) struct CGSize deviceSize; // @synthesize deviceSize=_deviceSize;
-@property(readonly) id <NSObject><NSCopying> identity; // @synthesize identity=_identity;
-@property(readonly) struct CGPoint normalizedPosition;
-@property(readonly) unsigned long long phase; // @synthesize phase=_phase;
 @property(readonly) struct CGPoint previousNormalizedPosition;
-@property(readonly, getter=isResting) _Bool resting;
-@property(readonly) double timestamp;
 
 @end
 

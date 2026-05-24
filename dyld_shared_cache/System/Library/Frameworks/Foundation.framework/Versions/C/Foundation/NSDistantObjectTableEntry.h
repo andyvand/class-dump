@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConnection, NSDistantObject;
+@class NSConnection;
 
 __attribute__((visibility("hidden")))
 @interface NSDistantObjectTableEntry
 {
     NSConnection *_conn;
-    NSDistantObject *_proxy;
-    id _localObject;
-    unsigned int _wireID;
 }
 
 - (void);
-- (id);
+- (id)'prop' Table In %@;
 
 @end
 

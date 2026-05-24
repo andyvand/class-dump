@@ -6,21 +6,14 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSImage, NSString;
-
 @interface AKImageAnnotation : AKAnnotation
 {
     _Bool _hasShadow;
-    _Bool _verticallyFlipped;
-    _Bool _horizontallyFlipped;
-    NSImage *_image;
-    double _rotationAngle;
-    struct CGRect _rectangle;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (_Bool);
 - (void);
@@ -28,10 +21,10 @@
 - (id);
 - (_Bool);
 - (struct CGRect);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)[by] {BuiltInLM.TextSegmentCardinalNumber} words;
+- (void)Flow:(struct CGPoint)arg1 %@ {"Feature":"Restricted Guest"}] Updating restricted guest settings:%@ for userID:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGRect);
 - (void);
@@ -43,22 +36,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)s;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasShadow; // @synthesize hasShadow=_hasShadow;
-@property(readonly) unsigned long long hash;
-@property _Bool horizontallyFlipped; // @synthesize horizontallyFlipped=_horizontallyFlipped;
-@property(retain) NSImage *image; // @synthesize image=_image;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(readonly) Class superclass;
-@property _Bool verticallyFlipped; // @synthesize verticallyFlipped=_verticallyFlipped;
 
 @end
 

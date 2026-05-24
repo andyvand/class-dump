@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface XCTSpindumpRequestSpecification
 {
     int _processID;
-    unsigned long long _durationMilliseconds;
-    unsigned long long _intervalMicroseconds;
-    unsigned long long _spindumpFlags;
-    NSString *_reason;
-    NSString *_signature;
-    NSString *_filename;
 }
 
++ (unsigned long long)(i68i"A);
 + (unsigned long long);
-+ (unsigned long long);
-+ (_Bool);
++ (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -30,19 +22,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@@?;
 - (id);
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly) unsigned long long durationMilliseconds; // @synthesize durationMilliseconds=_durationMilliseconds;
-@property(readonly) NSString *filename; // @synthesize filename=_filename;
-@property(readonly) unsigned long long intervalMicroseconds; // @synthesize intervalMicroseconds=_intervalMicroseconds;
 @property(readonly) int processID; // @synthesize processID=_processID;
-@property(readonly) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) NSString *signature; // @synthesize signature=_signature;
-@property(readonly) unsigned long long spindumpFlags; // @synthesize spindumpFlags=_spindumpFlags;
 
 @end
 

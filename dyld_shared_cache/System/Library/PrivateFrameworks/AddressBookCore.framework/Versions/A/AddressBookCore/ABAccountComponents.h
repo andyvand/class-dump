@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABACAccount, NSNumber, NSString;
-@protocol ABACAccountStore;
+@class ABACAccount, NSString;
 
 @interface ABAccountComponents
 {
     NSString *_identifier;
-    NSString *_path;
-    ABACAccount *_account;
-    id <ABACAccountStore> _store;
-    ABACAccount *_parentAccount;
-    NSNumber *_dsid;
-    NSString *_altDSID;
 }
 
 + (id);
@@ -24,9 +17,9 @@
 - (id);
 - (id);
 - (id);
+- (id)!;
 - (id);
-- (id);
-- (id);
+- (id)CN_UNIT_TESTING;
 - (id);
 - (id);
 - (void);
@@ -34,12 +27,6 @@
 
 // Remaining properties
 @property(readonly) ABACAccount *account; // @synthesize account=_account;
-@property(readonly) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly) NSNumber *dsid; // @synthesize dsid=_dsid;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) ABACAccount *parentAccount; // @synthesize parentAccount=_parentAccount;
-@property(readonly) NSString *path; // @synthesize path=_path;
-@property(readonly) id <ABACAccountStore> store; // @synthesize store=_store;
 
 @end
 

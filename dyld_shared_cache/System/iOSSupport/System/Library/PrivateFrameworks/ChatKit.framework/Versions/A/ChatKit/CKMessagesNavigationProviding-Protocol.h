@@ -4,18 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCoreChatController, UIViewController;
+@class CKConversation, CKCoreChatController, NSString, UIViewController;
 @protocol CKConversationListControllerProtocol;
 
 @protocol CKMessagesNavigationProviding
+- (void);
+- (void);
+- (_Bool)oint=dd}{CGSize=dd}}24@"NSString"56@"NSURL"64;
+- (void)derObject>"16@0:(_Bool)arg1 8;
+- (void)writingToolsIgnoredRangesForTextStorage:(_Bool)arg1 inEnclosingRange:note: /* Error: Ran out of types for this method. */;
+- (void)setManagedObjectChangeController:(void (^)(void))arg1;
+- (void)setLocalizedDateFormatFromTemplate:(void (^)(void))arg1;
+- (_Bool)oldPasswordContainer;
+- (void)initWithCache:(_Bool)arg1 attachment:attachmentType:forceFullSizeImage:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ic_fittingHeight;
+- (_Bool)_setUseSystemAppearance:(CKConversation *)arg1;
+- (_Bool)_setInvisibleAutoplayNotPermitted: /* Error: Ran out of types for this method. */;
+- (CKConversation *)registerDataProvider:(NSString *)arg1 forCIDURL: /* Error: Ran out of types for this method. */;
+- (void)ICMClickableTextViewDelegate;
+- (void)ICTTTextController;
+- (_Bool);
+- (CKCoreChatController *)_showsConfirmationDialog;
+- (void);
+- (void)0;
 
 // Remaining properties
-@property(readonly, nonatomic) CKCoreChatController *chatController;
 @property(readonly, nonatomic) UIViewController<CKConversationListControllerProtocol> *conversationListController;
-@property(copy, nonatomic) CDUnknownBlockType deferredConversationListDidShowBlock;
-@property(copy, nonatomic) CDUnknownBlockType deferredHandleURLBlock;
-@property(readonly, nonatomic) UIViewController *presentedViewController;
-@property(nonatomic) _Bool shouldIgnoreRestoreState;
-@property(nonatomic) _Bool showingConversationFromOpenURL;
 @end
 

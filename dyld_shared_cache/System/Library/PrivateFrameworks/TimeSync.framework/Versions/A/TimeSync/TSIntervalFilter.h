@@ -4,28 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface TSIntervalFilter
 {
     unsigned long long _expectedInterval;
-    unsigned int _multiIntervalCount;
-    unsigned long long _filterCount;
-    unsigned long long *_filteredTimestamps;
-    unsigned int _timestampIndex;
-    unsigned long long _timestampCount[8];
-    unsigned long long _timestampIntervals[8];
-    long long _validEntry;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    unsigned char _filterSize;
-    unsigned long long _filterOffset;
-    struct IOTS_U128 _filteredSnapshot;
-    struct IOTS_U128 _filteredOffset;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)_sessionDownlinkActualBitrateCounter;
 - (void);
 - (id);
 - (unsigned long long);
@@ -41,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long filterCount; // @dynamic filterCount;
 @property(readonly, nonatomic) unsigned long long multiIntervalTime; // @dynamic multiIntervalTime;
 
 @end

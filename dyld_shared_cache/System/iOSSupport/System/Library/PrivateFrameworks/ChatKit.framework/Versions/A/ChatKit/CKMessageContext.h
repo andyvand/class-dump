@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChatContext, NSString;
+@class IMChatContext;
 
 @interface CKMessageContext
 {
     IMChatContext *_chatContext;
-    NSString *_serviceName;
-    _Bool _fromMe;
-    _Bool _spam;
-    _Bool _senderUnknown;
-    _Bool _senderUnauthenticated;
-    _Bool _audioMessage;
 }
 
-+ (id);
++ (id)r;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -33,13 +27,7 @@
 - (void)0	%ÿ¸«;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAudioMessage) _Bool audioMessage; // @synthesize audioMessage=_audioMessage;
 @property(readonly, copy, nonatomic) IMChatContext *chatContext; // @synthesize chatContext=_chatContext;
-@property(readonly, nonatomic, getter=isFromMe) _Bool fromMe; // @synthesize fromMe=_fromMe;
-@property(readonly, nonatomic, getter=isSenderUnauthenticated) _Bool senderUnauthenticated; // @synthesize senderUnauthenticated=_senderUnauthenticated;
-@property(readonly, nonatomic, getter=isSenderUnknown) _Bool senderUnknown; // @synthesize senderUnknown=_senderUnknown;
-@property(readonly, copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly, nonatomic, getter=isSpam) _Bool spam; // @synthesize spam=_spam;
 
 @end
 

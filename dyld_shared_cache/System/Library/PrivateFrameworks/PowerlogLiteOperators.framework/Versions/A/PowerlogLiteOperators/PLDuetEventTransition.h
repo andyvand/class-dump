@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface PLDuetEventTransition
 {
     _Bool _isStart;
-    NSDate *_date;
-    NSString *_bundleID;
 }
 
 - (_Bool);
@@ -23,9 +21,7 @@
 - (void)(üdüÿ¼ÿ;
 
 // Remaining properties
-@property(retain) NSString *bundleID; // @synthesize bundleID=_bundleID;
 @property(retain) NSDate *date; // @synthesize date=_date;
-@property _Bool isStart; // @synthesize isStart=_isStart;
 
 @end
 

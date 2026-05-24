@@ -6,7 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SAUIDecoratedText, SAUILocalImageResource;
 @protocol SASTTemplateAction;
 
 @interface SASTButtonItem : AceObject
@@ -16,7 +15,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)_;
 - (id);
 - (id);
 - (_Bool);
@@ -25,22 +24,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) id <SASTTemplateAction> action; // @dynamic action;
-@property(nonatomic) _Bool centered;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) SAUIDecoratedText *decoratedLabel;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUILocalImageResource *localImageResource;
-@property(copy, nonatomic) NSString *position;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,12 +11,10 @@
     struct {
         unsigned long long s[2];
     } _rng;
-    NSString *_language;
-    long long _windowLength;
 }
 
-- (id);
-- (id);
+- (id)componentsWithString:(id)arg1;
+- (id)_lp_similarityToString:(id)arg1;
 - (_Bool);
 - (id);
 - (id);
@@ -29,15 +27,7 @@
 - (void)Change;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSString *language; // @synthesize language=_language;
-@property(readonly) Class superclass;
-@property long long windowLength; // @synthesize windowLength=_windowLength;
 
 @end
 

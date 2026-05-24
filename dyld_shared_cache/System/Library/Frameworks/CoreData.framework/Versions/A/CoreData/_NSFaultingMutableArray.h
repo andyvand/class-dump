@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObject, NSMutableArray, NSPropertyDescription;
+@class NSManagedObject;
 
 __attribute__((visibility("hidden")))
 @interface _NSFaultingMutableArray
 {
     int _cd_rc;
-    NSMutableArray *_realArray;
-    NSManagedObject *_source;
-    NSPropertyDescription *_relationship;
-    struct _NSFaultingMutableArrayFlags _flags;
 }
 
 + (id)ternal error occurred while configuring migration functions in the SQLite database.;
@@ -28,11 +24,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (void);
@@ -42,20 +38,18 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)_currentSystemVersion;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (id)ionAuthor;
+- (id)NSCoreDataXPCMessageContextTransactionAuthor;
 - (unsigned long long)d with error:(CDStruct_70511ce9 *)arg1 %@;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFault) _Bool fault;
-@property(readonly, nonatomic) NSPropertyDescription *relationship;
 @property(readonly, nonatomic) NSManagedObject *source;
 
 @end

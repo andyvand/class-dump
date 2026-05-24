@@ -6,36 +6,21 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWMotionDataPreserver;
-
 @interface BWFrameRateGovernorNode : BWNode
 {
     _Bool _dropsStillBracketFramesToMaintainConsistentFrameRate;
-    _Bool _dropsStartupFramesWithUnstableAE;
-    int _aeStabilityTuning;
-    _Bool _preservesMotionDataFromDroppedFrames;
-    CDStruct_1b6d18a9 _lastEmittedPTS;
-    CDStruct_1b6d18a9 _lastEmittedStreamingFrameDuration;
-    int _activeBracketSequenceRate;
-    BWMotionDataPreserver *_motionDataPreserver;
-    long long _frameCount;
-    int _invalidFrameCount;
-    _Bool _aeStableAfterStartStreaming;
-    int _aeStableTimeoutFrameCount;
-    int _ltmStableTimeoutFrameCount;
-    int _numFramesSinceAEBecameStable;
 }
 
-+ (void)moviefilesinknode_trace;
-- (void);
++ (void)bwquicktimemoviefilesinknode_trace;
+- (void)copyCircularArrowWithTransform:(_Bool)arg1 andAspectRatio: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (int);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)setWithSet: /* Error: Ran out of types for this method. */;
+- (void)predictedSaliencyAsString:(_Bool)arg1;
 - (void);
 - (void);
 - (void);

@@ -6,25 +6,15 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFMACAddress, NSString;
+@class HMFMACAddress;
 
 @interface HMFWifiNetworkAssociation : HMFObject
 {
     _Bool _requiresPassword;
-    HMFMACAddress *_MACAddress;
-    NSString *_SSID;
-    HMFMACAddress *_BSSID;
-    NSString *_gatewayIPAddress;
-    HMFMACAddress *_gatewayMACAddress;
 }
 
 
 // Remaining properties
-@property(readonly) HMFMACAddress *BSSID; // @synthesize BSSID=_BSSID;
 @property(readonly) HMFMACAddress *MACAddress; // @synthesize MACAddress=_MACAddress;
-@property(readonly) NSString *SSID; // @synthesize SSID=_SSID;
-@property(readonly) NSString *gatewayIPAddress; // @synthesize gatewayIPAddress=_gatewayIPAddress;
-@property(readonly) HMFMACAddress *gatewayMACAddress; // @synthesize gatewayMACAddress=_gatewayMACAddress;
-@property(readonly) _Bool requiresPassword; // @synthesize requiresPassword=_requiresPassword;
 @end
 

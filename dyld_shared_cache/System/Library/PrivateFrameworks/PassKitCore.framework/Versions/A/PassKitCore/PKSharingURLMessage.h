@@ -16,10 +16,10 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)__objc_classlist__DATA_CONST;
 - (id);
 - (id);
-- (void)ProgressDate;
+- (void)inProgressDate;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;

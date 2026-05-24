@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SLMicroBlogStatus
 {
     NSString *_statusText;
-    NSArray *_imageData;
-    NSArray *_imageAssetURLs;
-    NSString *_maskedApplicationID;
-    NSString *_inReplyToStatusID;
 }
 
 + (_Bool);
@@ -24,17 +20,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)iddenAccount:(id)arg1 %{public}@ -> %@;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *imageAssetURLs; // @synthesize imageAssetURLs=_imageAssetURLs;
-@property(retain, nonatomic) NSArray *imageData; // @synthesize imageData=_imageData;
-@property(retain, nonatomic) NSString *inReplyToStatusID; // @synthesize inReplyToStatusID=_inReplyToStatusID;
-@property(retain, nonatomic) NSString *maskedApplicationID; // @synthesize maskedApplicationID=_maskedApplicationID;
 @property(retain, nonatomic) NSString *statusText; // @synthesize statusText=_statusText;
 
 @end

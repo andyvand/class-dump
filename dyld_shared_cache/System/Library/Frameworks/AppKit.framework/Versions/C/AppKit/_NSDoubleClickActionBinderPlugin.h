@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)should only have gotten here once as a SocketStream client;
 
 @end
 

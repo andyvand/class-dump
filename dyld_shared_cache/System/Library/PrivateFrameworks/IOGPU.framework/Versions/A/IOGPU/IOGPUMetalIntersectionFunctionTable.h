@@ -6,24 +6,23 @@
 
 #import <IOGPU/IOGPUMetalResource.h>
 
-@class NSString;
-@protocol MTLBuffer, MTLDevice, MTLHeap, MTLVisibleFunctionTableSPI;
+@protocol MTLBuffer, MTLVisibleFunctionTableSPI;
 
 @interface IOGPUMetalIntersectionFunctionTable : IOGPUMetalResource
 {
     IOGPUMetalResource<MTLVisibleFunctionTableSPI> *_visibleFunctionTable;
 }
 
-- (id);
-- (id);
+- (id)<;
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)escapedPatternForString:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -32,35 +31,13 @@
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (struct MTLResourceID);
-- (void);
+- (struct MTLResourceID)ze;
+- (void)EWSCalendarItemType;
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
 @property(retain, nonatomic) id <MTLBuffer> globalBuffer;
-@property(nonatomic) unsigned long long globalBufferOffset;
-@property(readonly, nonatomic) unsigned long long gpuHandle;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long uniqueIdentifier;
-@property(readonly, nonatomic) IOGPUMetalResource<MTLVisibleFunctionTableSPI> *visibleFunctionTable;
 
 @end
 

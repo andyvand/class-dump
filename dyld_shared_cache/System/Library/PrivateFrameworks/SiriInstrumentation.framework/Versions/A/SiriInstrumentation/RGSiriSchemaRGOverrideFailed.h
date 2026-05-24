@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGError;
-
 @interface RGSiriSchemaRGOverrideFailed : SISchemaInstrumentationMessage
 {
     int _fatalError;
-    RGSiriSchemaRGError *_error;
-    CDStruct_bed9e062 _has;
-    _Bool _hasError;
 }
 
 - (void);
@@ -25,25 +20,21 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)s/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDExternalManifestRequest_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)date_retracted;
+- (_Bool)MessageRecord;
 - (void);
 - (id);
 - (id);
-- (id)andidates:(id)arg1;
+- (id)addTupleCandidates:(id)arg1;
 - (id)stMobileAssetDownloadErrorInSeconds;
-- (void)stingSpanId;
-- (void)ER;
+- (void)postingSpanId;
+- (void)LRDATAKIND_OTHER;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGError *error; // @synthesize error=_error;
 @property(nonatomic) int fatalError; // @synthesize fatalError=_fatalError;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasFatalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

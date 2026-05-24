@@ -13,8 +13,8 @@
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)p0;
+- (id)!b;
 - (void);
 - (id);
 - (long long);
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *array; // @synthesize array=_array;
-@property(readonly, nonatomic) long long count;
 
 @end
 

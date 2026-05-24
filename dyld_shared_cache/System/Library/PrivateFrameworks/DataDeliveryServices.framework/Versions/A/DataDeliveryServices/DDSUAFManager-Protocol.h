@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class DDSAssetQuery, NSString;
+
 @protocol DDSUAFManager
+- (void)setHasDeviceMetadata:(NSString *)arg1;
+- (void)setHasCurrencyAmount:(DDSAssetQuery *)arg1;
 @end
 

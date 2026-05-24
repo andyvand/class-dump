@@ -6,37 +6,25 @@
 
 #import <coreroutine/RTNotifier.h>
 
-@class NSString, RTLocationStore, RTMotionActivityManager, RTPlatform, RTSettledStateTransitionStore, RTWiFiFootprintMonitor;
-
 @interface RTScenarioTriggerManager : RTNotifier
 {
     unsigned long long _interestedInConstantFootprint;
-    unsigned long long _interestedInSettledState;
-    RTLocationStore *_locationStore;
-    RTMotionActivityManager *_motionActivityManager;
-    unsigned long long _motionSettledState;
-    RTPlatform *_platform;
-    unsigned long long _settledState;
-    unsigned long long _monitoredScenarioTriggerTypes;
-    RTSettledStateTransitionStore *_settledStateTransitionStore;
-    RTWiFiFootprintMonitor *_wifiFootprintMonitor;
-    long long _wiFiFootprintState;
 }
 
-+ (long long);
++ (long long);
 + (long long);
 + (id);
 + (id);
 - (void);
+- (unsigned long long)I;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)/A/UniformTypeIdentifiers;
 - (id);
 - (void);
-- (void);
+- (void));
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)רC;
 - (void);
 - (long long);
 - (void);
@@ -49,15 +37,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)_TtC16NetworkExtension39NEURLFilterControlProviderConfiguration;
+- (id)control socket:%s /* Error: Ran out of types for this method. */;
+- (void)X;
+- (void)EAPOnlyAuthentication;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (void)ionRouteSummary;
+- (void)RTNavigationRouteSummary;
 - (void)er:(id)arg1 ];
 - (void)ot supported;
 - (void)cation;
@@ -66,24 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long interestedInConstantFootprint; // @synthesize interestedInConstantFootprint=_interestedInConstantFootprint;
-@property(readonly, nonatomic) unsigned long long interestedInSettledState; // @synthesize interestedInSettledState=_interestedInSettledState;
-@property(readonly, nonatomic) RTLocationStore *locationStore; // @synthesize locationStore=_locationStore;
-@property(nonatomic) unsigned long long monitoredScenarioTriggerTypes; // @synthesize monitoredScenarioTriggerTypes=_monitoredScenarioTriggerTypes;
-@property(readonly, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(readonly, nonatomic) unsigned long long motionSettledState; // @synthesize motionSettledState=_motionSettledState;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(nonatomic) unsigned long long settledState; // @synthesize settledState=_settledState;
-@property(readonly, nonatomic) RTSettledStateTransitionStore *settledStateTransitionStore; // @synthesize settledStateTransitionStore=_settledStateTransitionStore;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long wiFiFootprintState; // @synthesize wiFiFootprintState=_wiFiFootprintState;
-@property(readonly, nonatomic) RTWiFiFootprintMonitor *wifiFootprintMonitor; // @synthesize wifiFootprintMonitor=_wifiFootprintMonitor;
 
 @end
 

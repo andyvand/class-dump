@@ -7,33 +7,23 @@
 @interface CKMessageEntryViewLayoutMetrics
 {
     double _defaultEntryContentViewHeight;
-    double _defaultSubjectEntryContentViewHeight;
-    double _defaultEntryViewHeight;
-    double _defaultSubjectEntryViewHeight;
-    struct UIEdgeInsets _entryViewContentInsets;
-    struct UIEdgeInsets _entryViewTextAlignmentInsets;
 }
 
 + (id);
 + (_Bool)continueWithSendMessageInteraction:chatRegistry:navigationProvider:conversationList:chatController: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)t;
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
+- (double)m;
+- (double);;
 - (double);
-- (double);
-- (double);
-- (double);
-- (void);
+- (double)t;
+- (void)on();
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double defaultEntryContentViewHeight; // @synthesize defaultEntryContentViewHeight=_defaultEntryContentViewHeight;
-@property(readonly, nonatomic) double defaultEntryViewHeight; // @synthesize defaultEntryViewHeight=_defaultEntryViewHeight;
-@property(readonly, nonatomic) double defaultSubjectEntryContentViewHeight; // @synthesize defaultSubjectEntryContentViewHeight=_defaultSubjectEntryContentViewHeight;
-@property(readonly, nonatomic) double defaultSubjectEntryViewHeight; // @synthesize defaultSubjectEntryViewHeight=_defaultSubjectEntryViewHeight;
 @property(readonly, nonatomic) struct UIEdgeInsets entryViewContentInsets; // @synthesize entryViewContentInsets=_entryViewContentInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets entryViewTextAlignmentInsets; // @synthesize entryViewTextAlignmentInsets=_entryViewTextAlignmentInsets;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSImage;
+@class NSImage;
 
 @interface ICAttachmentPreviewImageLoader
 {
     _Bool _delayLoadingURLs;
-    CDUnknownBlockType _imageDidLoadBlock;
-    NSImage *_image;
-    NSImage *_originalImage;
-    NSImage *_orientedImage;
-    NSData *_data;
-    double _scale;
-    NSArray *_previewImageURLs;
-    struct CGAffineTransform _orientedImageTransform;
 }
 
 + (id);
@@ -47,15 +39,7 @@
 - (void)alculateResultAttachmentView;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) _Bool delayLoadingURLs; // @synthesize delayLoadingURLs=_delayLoadingURLs;
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) CDUnknownBlockType imageDidLoadBlock; // @synthesize imageDidLoadBlock=_imageDidLoadBlock;
-@property(retain, nonatomic) NSImage *orientedImage; // @synthesize orientedImage=_orientedImage;
-@property(nonatomic) struct CGAffineTransform orientedImageTransform; // @synthesize orientedImageTransform=_orientedImageTransform;
-@property(retain, nonatomic) NSImage *originalImage; // @synthesize originalImage=_originalImage;
-@property(copy, nonatomic) NSArray *previewImageURLs; // @synthesize previewImageURLs=_previewImageURLs;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 
 @end
 

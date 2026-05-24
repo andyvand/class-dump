@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void);
-+ (_Bool);
++ (void)c;
++ (_Bool)(;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 

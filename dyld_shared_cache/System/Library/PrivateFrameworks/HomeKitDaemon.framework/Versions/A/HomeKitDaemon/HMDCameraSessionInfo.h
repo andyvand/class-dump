@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSessionInfo
 {
     _Bool _spiClient;
-    NSString *_description;
-    NSUUID *_UUID;
-    NSString *_hostProcessBundleIdentifier;
-    NSMutableDictionary *_milestones;
-    NSString *_deviceSectionName;
-    NSMutableDictionary *_deviceMilestones;
 }
 
 + (id);
 + (long long);
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)er:(id)arg1 %{public}@, context:(id)arg2 %@ fromID %@};
+- (void)Message hasBeenDelivered {identifier:(id)arg1 %{public}@, context:(id)arg2 %@ fromID %@};
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)c;
 - (id);
 - (id);
 - (unsigned long long);
@@ -39,16 +33,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)0@ù
 × ;
-- (id)thModelID:(struct _NSZone *)arg1;
+- (id)findSunriseSunsetTimeSpecificationWithModelID:(struct _NSZone *)arg1;
 - (void)µÿ;
 
 // Remaining properties
 @property(readonly) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly) NSMutableDictionary *deviceMilestones; // @synthesize deviceMilestones=_deviceMilestones;
-@property(readonly) NSString *deviceSectionName; // @synthesize deviceSectionName=_deviceSectionName;
-@property(readonly, copy) NSString *hostProcessBundleIdentifier; // @synthesize hostProcessBundleIdentifier=_hostProcessBundleIdentifier;
-@property(readonly) NSMutableDictionary *milestones; // @synthesize milestones=_milestones;
-@property(readonly, getter=isSPIClient) _Bool spiClient; // @synthesize spiClient=_spiClient;
 
 @end
 

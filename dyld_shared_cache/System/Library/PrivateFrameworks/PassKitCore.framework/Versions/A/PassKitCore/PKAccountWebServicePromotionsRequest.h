@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServicePromotionsRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    NSDate *_addedSinceDate;
 }
 
 - (void);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSDate *addedSinceDate; // @synthesize addedSinceDate=_addedSinceDate;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 
 @end
 

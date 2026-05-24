@@ -5,6 +5,8 @@
 //
 
 @protocol _SGSuggestionsServiceMetricsProtocol
-- (void)a;
+- (void);
+- (void);
+- (void)_keepData;
 @end
 

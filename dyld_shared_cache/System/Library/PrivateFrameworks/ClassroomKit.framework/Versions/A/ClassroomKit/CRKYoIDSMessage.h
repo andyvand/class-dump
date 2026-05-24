@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CRKYoIDSMessage
 {
@@ -13,15 +13,13 @@
 
 + (id);
 - (id);
-- (long long);
+- (long long)ntifiersFromBundle, count:%d bundleID:%@, client:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)Ì<=p=@>;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, nonatomic) long long messageType;
 
 @end
 

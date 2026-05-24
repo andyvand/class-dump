@@ -6,21 +6,20 @@
 
 #import <PhotosUICore/PXSmartAlbumCondition.h>
 
-@class NSArray, PXLabeledValue;
+@class NSArray;
 
 @interface PXSmartAlbumFlashCondition : PXSmartAlbumCondition
 {
     NSArray *_flashFiredValues;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (void)LemonadeFeaturedPhotosFeature;
 
 // Remaining properties
-@property(retain, nonatomic) PXLabeledValue *flashFiredValue;
 @property(readonly, nonatomic) NSArray *flashFiredValues;
 
 @end

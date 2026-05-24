@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKLTrafficLogMessageFragment
 {
     unsigned long long _type;
-    NSString *_uuid;
-    long long _seqNum;
-    NSString *_dataString;
 }
 
 - (long long);
@@ -19,14 +14,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)FICLOUDSYNC] %s (%s:%u)Open network, not adding to waiting list /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *dataString; // @synthesize dataString=_dataString;
-@property(readonly, nonatomic) long long seqNum; // @synthesize seqNum=_seqNum;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

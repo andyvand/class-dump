@@ -14,9 +14,9 @@
 }
 
 + (_Bool);
-- (id);
-- (void);
-- (id);
+- (id)rces/Persistence/NSSQLAttributeTrigger.m;
+- (void)@;
+- (id)another operation with a fetch already in progress;
 - (id);
 - (void);
 - (void)x;

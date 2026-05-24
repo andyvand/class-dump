@@ -6,28 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CAARSchemaCAARProactiveFeatures : SISchemaInstrumentationMessage
 {
     _Bool _isAppInTopOneRelevance;
-    _Bool _isAppInTopFiveRelevance;
-    _Bool _isAppInTopTenRelevance;
-    _Bool _isIntentInTopOneRelevance;
-    _Bool _isIntentInTopFiveRelevance;
-    _Bool _isIntentInTopTenRelevance;
-    double _appRelevanceScore;
-    double _intentRelevanceScore;
-    struct {
-        unsigned int isAppInTopOneRelevance:1;
-        unsigned int isAppInTopFiveRelevance:1;
-        unsigned int isAppInTopTenRelevance:1;
-        unsigned int isIntentInTopOneRelevance:1;
-        unsigned int isIntentInTopFiveRelevance:1;
-        unsigned int isIntentInTopTenRelevance:1;
-        unsigned int appRelevanceScore:1;
-        unsigned int intentRelevanceScore:1;
-    } _has;
 }
 
 - (void);
@@ -40,25 +21,25 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -70,7 +51,7 @@
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)3;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -82,23 +63,7 @@
 - (id)tq÷ÿ;
 
 // Remaining properties
-@property(nonatomic) double appRelevanceScore; // @synthesize appRelevanceScore=_appRelevanceScore;
-@property(nonatomic) _Bool hasAppRelevanceScore;
-@property(nonatomic) _Bool hasIntentRelevanceScore;
-@property(nonatomic) _Bool hasIsAppInTopFiveRelevance;
-@property(nonatomic) _Bool hasIsAppInTopOneRelevance;
-@property(nonatomic) _Bool hasIsAppInTopTenRelevance;
-@property(nonatomic) _Bool hasIsIntentInTopFiveRelevance;
-@property(nonatomic) _Bool hasIsIntentInTopOneRelevance;
-@property(nonatomic) _Bool hasIsIntentInTopTenRelevance;
-@property(nonatomic) double intentRelevanceScore; // @synthesize intentRelevanceScore=_intentRelevanceScore;
-@property(nonatomic) _Bool isAppInTopFiveRelevance; // @synthesize isAppInTopFiveRelevance=_isAppInTopFiveRelevance;
 @property(nonatomic) _Bool isAppInTopOneRelevance; // @synthesize isAppInTopOneRelevance=_isAppInTopOneRelevance;
-@property(nonatomic) _Bool isAppInTopTenRelevance; // @synthesize isAppInTopTenRelevance=_isAppInTopTenRelevance;
-@property(nonatomic) _Bool isIntentInTopFiveRelevance; // @synthesize isIntentInTopFiveRelevance=_isIntentInTopFiveRelevance;
-@property(nonatomic) _Bool isIntentInTopOneRelevance; // @synthesize isIntentInTopOneRelevance=_isIntentInTopOneRelevance;
-@property(nonatomic) _Bool isIntentInTopTenRelevance; // @synthesize isIntentInTopTenRelevance=_isIntentInTopTenRelevance;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

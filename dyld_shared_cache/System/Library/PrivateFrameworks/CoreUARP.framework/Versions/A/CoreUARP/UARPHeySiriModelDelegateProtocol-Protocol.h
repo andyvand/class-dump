@@ -5,5 +5,8 @@
 //
 
 @protocol UARPHeySiriModelDelegateProtocol
+
+@optional
+- (void);
 @end
 

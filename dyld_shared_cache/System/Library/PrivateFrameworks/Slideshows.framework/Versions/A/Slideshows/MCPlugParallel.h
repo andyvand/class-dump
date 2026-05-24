@@ -6,26 +6,20 @@
 
 #import <Slideshows/MCPlug.h>
 
-@class MCContainerParallelizer, NSString;
+@class NSString;
 
 @interface MCPlugParallel : MCPlug
 {
     void *mGeometry;
-    short mZIndex;
-    short mAudioPriority;
-    NSString *mIDInSupercontainer;
-    MCContainerParallelizer *mSupercontainer;
-    double mTimeIn;
-    double mOpacity;
 }
 
 + (id);
-- (double);
-- (double);
-- (double);
-- (id);
+- (double)ray<NSString *> * _Nonnull NDAnalyticsEnvelopeStoreStringRepresentationsOfEntries(NSArray<id<NDAnalyticsEnvelopeStoreEntry>> *__strong _Nonnull);
+- (double)contentType;
+- (double)y/BuildRoots/4~CNrLugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeStore.m;
+- (id)orks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeManager.m;
 - (struct CGSize);
-- (void);
+- (void)8E;
 - (void);
 - (void);
 - (void);
@@ -53,7 +47,7 @@
 - (void);
 - (short);
 - (void);
-- (void);
+- (void)9;
 - (double);
 - (double);
 - (id);
@@ -64,9 +58,9 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (id);
-- (double);
+- (double);
 - (struct CGSize);
 - (double);
 - (double);
@@ -81,33 +75,7 @@
 - (double)ÿ.ë=Eh;
 
 // Remaining properties
-@property(readonly) double aspectRatio;
-@property(nonatomic) short audioPriority; // @synthesize audioPriority=mAudioPriority;
-@property(nonatomic) _Bool clipsContainer;
-@property(readonly) unsigned char countOfLayouts;
-@property(nonatomic) unsigned char currentLayoutIndex;
-@property(readonly) _Bool hasAbsoluteAspectRatio;
-@property(readonly) _Bool hasValidWidth;
-@property(readonly) double height;
 @property(copy, getter=idInSupercontainer, setter=setIDInSupercontainer:) NSString *idInSupercontainer; // @synthesize idInSupercontainer=mIDInSupercontainer;
-@property(nonatomic) _Bool isTriggered;
-@property(nonatomic) double opacity; // @synthesize opacity=mOpacity;
-@property(nonatomic) struct CGPoint position;
-@property(nonatomic) double positionZ;
-@property(nonatomic) _Bool resetsTimeOnTrigger;
-@property(nonatomic) double rotation;
-@property(nonatomic) double rotationAngle;
-@property(nonatomic) double rotationX;
-@property(nonatomic) double rotationY;
-@property(nonatomic) double scale;
-@property(nonatomic) struct CGSize size;
-@property MCContainerParallelizer *supercontainer; // @synthesize supercontainer=mSupercontainer;
-@property(nonatomic) double timeIn; // @synthesize timeIn=mTimeIn;
-@property(readonly) double width;
-@property(nonatomic) double xRotationAngle;
-@property(nonatomic) double yRotationAngle;
-@property(nonatomic) short zIndex; // @synthesize zIndex=mZIndex;
-@property(nonatomic) double zPosition;
 
 @end
 

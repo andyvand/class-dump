@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKCalendarItem, EKUIGadget, EKViewController, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface EKUICalendarPopUpButton
 {
     _Bool _showCalendarName;
-    _Bool _showCalendarSwatch;
-    _Bool _showButtonBorder;
-    _Bool _isReadOnly;
-    _Bool _populated;
-    _Bool _menuIsOpen;
-    _Bool _needsUpdateAfterDismiss;
-    EKCalendarItem *_item;
-    EKUIGadget *_gadget;
-    NSMutableArray *_allowedItemCache;
-    long long _sourceCount;
-    EKViewController *_viewController;
-    unsigned long long _entityType;
 }
 
 + (id);
@@ -28,23 +16,23 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)Á;
+- (void);
+- (void);
+- (id)a;
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)-;
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -55,14 +43,14 @@
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -73,26 +61,6 @@
 
 // Remaining properties
 @property(retain) NSMutableArray *allowedItemCache; // @synthesize allowedItemCache=_allowedItemCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned long long entityType; // @synthesize entityType=_entityType;
-@property __weak EKUIGadget *gadget; // @synthesize gadget=_gadget;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isReadOnly; // @synthesize isReadOnly=_isReadOnly;
-@property(nonatomic) __weak EKCalendarItem *item; // @synthesize item=_item;
-@property(nonatomic) _Bool menuIsOpen; // @synthesize menuIsOpen=_menuIsOpen;
-@property(nonatomic) _Bool needsUpdateAfterDismiss; // @synthesize needsUpdateAfterDismiss=_needsUpdateAfterDismiss;
-@property _Bool populated; // @synthesize populated=_populated;
-@property(readonly) EKCalendar *selectedCalendar;
-@property _Bool showButtonBorder; // @synthesize showButtonBorder=_showButtonBorder;
-@property _Bool showCalendarName; // @synthesize showCalendarName=_showCalendarName;
-@property _Bool showCalendarSwatch; // @synthesize showCalendarSwatch=_showCalendarSwatch;
-@property long long sourceCount; // @synthesize sourceCount=_sourceCount;
-@property(readonly) Class superclass;
-@property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

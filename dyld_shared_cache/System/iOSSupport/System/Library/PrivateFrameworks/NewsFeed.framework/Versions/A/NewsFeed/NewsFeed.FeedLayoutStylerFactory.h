@@ -7,8 +7,6 @@
 @interface NewsFeed.FeedLayoutStylerFactory
 {
     id fontBookProvider;
-    id colorPaletteProvider;
-    id scaleFactor;
 }
 
 @end

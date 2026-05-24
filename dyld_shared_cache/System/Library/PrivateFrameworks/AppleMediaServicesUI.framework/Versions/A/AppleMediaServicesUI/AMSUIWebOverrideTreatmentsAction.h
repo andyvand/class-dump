@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSDictionary *_treatmentOverrides;
 }
 
-- (id);
-- (id);
+- (id)for LinguisticData assets = %ld;
+- (id)Default;
 - (void);
-- (id);
+- (id)p;
 - (void)ntroller"16;
 
 // Remaining properties

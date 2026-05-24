@@ -6,18 +6,12 @@
 
 #import <PackageKit/PKSignedContainer.h>
 
-@class NSArray, NSMutableArray;
-
 @interface PKMutableSignedContainer : PKSignedContainer
 {
     struct __SecIdentity *_identity;
-    NSArray *_intermediateCertificates;
-    NSMutableArray *_pathsToAdd;
-    _Bool _useTSA;
-    unsigned long long _fileSystemCompressionFormat;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -26,10 +20,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property unsigned long long fileSystemCompressionFormat;
 @property _Bool useTSA; // @synthesize useTSA=_useTSA;
 
 @end

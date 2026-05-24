@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface UICollectionViewCompositionalLayoutConfiguration
 {
     long long _scrollDirection;
-    double _interSectionSpacing;
-    NSArray *_boundarySupplementaryItems;
-    long long _contentInsetsReference;
 }
 
 + (id)²Ýþÿ;
-- (unsigned long long);
+- (unsigned long long)htInternetResults;
 - (id);
 - (void);
 - (void)Aù±Z°1Â0@ù
 × ;
 - (void)@ù
 × ;
-- (id)dowOffset;
+- (id)shadowOffset;
 - (long long)able;
 - (id)Ì	4d;
 - (double)²èÿ ²èÿ³èÿ,³èÿ¨³èÿä³èÿ´èÿD´èÿh´èÿ¤´èÿÈ´èÿì´èÿ(µèÿdµèÿè¶èÿô¶èÿ;
@@ -32,9 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *boundarySupplementaryItems; // @synthesize boundarySupplementaryItems=_boundarySupplementaryItems;
-@property(nonatomic) long long contentInsetsReference; // @synthesize contentInsetsReference=_contentInsetsReference;
-@property(nonatomic) double interSectionSpacing; // @synthesize interSectionSpacing=_interSectionSpacing;
 @property(nonatomic) long long scrollDirection; // @synthesize scrollDirection=_scrollDirection;
 
 @end

@@ -7,8 +7,6 @@
 @interface NewsFeed.DebugFormatCanvasViewResult
 {
     id bindResult;
-    id debugView;
-    id viewMap;
 }
 
 @end

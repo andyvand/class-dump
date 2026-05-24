@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface RTUserNotificationAction
 {
     NSString *_actionIdentifier;
-    NSString *_title;
-    NSURL *_url;
-    NSString *_iconWithSystemImageName;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
-- (id);
+- (id)shine;
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)ddressLabelType:addressFromMapItem:error: /* Error: Ran out of types for this method. */;
+- (id)F;
+- (id)addAddressToMeCardWithAddressLabelType:addressFromMapItem:error: /* Error: Ran out of types for this method. */;
 - (void)oudKit schema update failed with error %@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(readonly, copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, copy, nonatomic) NSString *iconWithSystemImageName; // @synthesize iconWithSystemImageName=_iconWithSystemImageName;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

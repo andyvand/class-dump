@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFileCoordinatedTodayDropbox, FCFileCoordinatedTodayPrivateDataTransactionQueue, NSString;
+@class FCFileCoordinatedTodayDropbox;
 
 @interface FCWritablePrivateDataStorage
 {
     FCFileCoordinatedTodayDropbox *_dropbox;
-    FCFileCoordinatedTodayPrivateDataTransactionQueue *_transactionQueue;
 }
 
 - (id);
@@ -17,21 +16,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id)fair_lock_opaque"I};
-- (void)tVersion:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)ption_groups;
+- (void)fetchMagazinesConfigurationIfNeededWithCompletionQueue:(id)arg1 formatVersion:completion: /* Error: Ran out of types for this method. */;
+- (void)unlimited_backfill_subscription_groups;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) FCFileCoordinatedTodayDropbox *dropbox; // @synthesize dropbox=_dropbox;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) FCFileCoordinatedTodayPrivateDataTransactionQueue *transactionQueue; // @synthesize transactionQueue=_transactionQueue;
 
 @end
 

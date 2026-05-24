@@ -11,15 +11,14 @@
 @interface FCCurfewTimeControl : FCTimeControl
 {
     FCTime *_start;
-    FCTime *_end;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (_Bool);
++ (id)initWithStatementIdentifier:transactionDate:transactionAmount:suggestedAmountCategory: /* Error: Ran out of types for this method. */;
++ (id)initWithStatementIdentifier:transactionDate:transactionAmount:suggestedAmountCategory: /* Error: Ran out of types for this method. */;
++ (id)initWithSessionIdentifier:(long long)arg1 deviceIdentifier:(id)arg2;
++ (id)bService:(id)arg1 remoteDeviceWebService: /* Error: Ran out of types for this method. */;
+- (id)initWithState:(long long)arg1 country:(id)arg2 target:(id)arg3 credentialIdentifier:status:productIdentifier:accountKeyIdentifier:idType:learnMoreURL:proofingErrorMessage: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithShapeLayer:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -30,7 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) FCTime *end; // @synthesize end=_end;
 @property(retain) FCTime *start; // @synthesize start=_start;
 
 @end

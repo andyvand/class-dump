@@ -8,8 +8,6 @@
 {
     id recipeID;
     id _recipeToken;
-    id rawRecipe;
-    id dataSource;
 }
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCDeviceCPU, NSArray;
+@class MLCDeviceCPU;
 
 @interface _MLCCPULayer
 {
     MLCDeviceCPU *_device;
-    void **_filter;
-    void **_secondaryFilter;
-    NSArray *_deviceOps;
 }
 
 + (_Bool);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MLCDeviceCPU *device; // @synthesize device=_device;
-@property(retain, nonatomic) NSArray *deviceOps; // @synthesize deviceOps=_deviceOps;
-@property(nonatomic) void **filter; // @synthesize filter=_filter;
-@property(nonatomic) void **secondaryFilter; // @synthesize secondaryFilter=_secondaryFilter;
 
 @end
 

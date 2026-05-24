@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliMessageChatBotCardStyle, CTLazuliMessageChatBotDescriptionStyle, CTLazuliMessageChatBotTitleStyle;
-
 @interface CTLazuliChatBotCardLayout
 {
     long long _cardOrientation;
-    long long _imageAlignment;
-    CTLazuliMessageChatBotTitleStyle *_titleStyle;
-    CTLazuliMessageChatBotDescriptionStyle *_descriptionStyle;
-    CTLazuliMessageChatBotCardStyle *_cardStyle;
 }
 
-+ (_Bool);
++ (_Bool)tionary"16;
 - (id);
-- (void);
-- (void);
+- (void)9	;
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -38,10 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) long long cardOrientation; // @synthesize cardOrientation=_cardOrientation;
-@property(retain, nonatomic) CTLazuliMessageChatBotCardStyle *cardStyle; // @synthesize cardStyle=_cardStyle;
-@property(retain, nonatomic) CTLazuliMessageChatBotDescriptionStyle *descriptionStyle; // @synthesize descriptionStyle=_descriptionStyle;
-@property(nonatomic) long long imageAlignment; // @synthesize imageAlignment=_imageAlignment;
-@property(retain, nonatomic) CTLazuliMessageChatBotTitleStyle *titleStyle; // @synthesize titleStyle=_titleStyle;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface FACacheImageMarqueeOperation
 {
     id familyCircle;
-    id imageExtension;
-    id pictureStore;
-    id userDefaults;
-    id fileManager;
-    id rootURL;
-    id deviceScale;
 }
 
 - (void);

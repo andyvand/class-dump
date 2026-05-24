@@ -6,28 +6,22 @@
 
 #import <CloudPhotoLibrary/CPLScopeChange.h>
 
-@class NSData;
-
 @interface CPLStagingScopeChange : CPLScopeChange
 {
     CPLScopeChange *_stagedScopeChange;
-    NSData *_stagedTransportScope;
-    long long _stagedScopeFlags;
 }
 
-- (id);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)appEntityRelevanceCoarseTimeOfDayFeatures;
+- (long long)appEntityRelevanceCoarseTimeOfDayFeatures;
+- (id)appEntityRelevanceCoarseTimeOfDayAndDayOfWeekFeatures;
+- (void)biomeSqlStructuredFeature;
+- (void)longitudinalBehaviorsSignal;
+- (void)soundAnalysisSignal;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(copy, nonatomic) CPLScopeChange *stagedScopeChange; // @synthesize stagedScopeChange=_stagedScopeChange;
-@property(nonatomic) long long stagedScopeFlags; // @synthesize stagedScopeFlags=_stagedScopeFlags;
-@property(copy, nonatomic) NSData *stagedTransportScope; // @synthesize stagedTransportScope=_stagedTransportScope;
 
 @end
 

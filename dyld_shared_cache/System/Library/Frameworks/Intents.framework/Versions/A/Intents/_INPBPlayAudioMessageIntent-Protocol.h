@@ -7,12 +7,10 @@
 @class NSString, _INPBIntentMetadata;
 
 @protocol _INPBPlayAudioMessageIntent
-- (_Bool)ompletion: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (_Bool)handleJoinCall:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasMessageIdentifier;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSString *messageIdentifier;
 @end
 

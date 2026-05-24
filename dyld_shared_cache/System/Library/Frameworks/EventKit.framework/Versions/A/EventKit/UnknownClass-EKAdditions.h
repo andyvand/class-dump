@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (EKAdditions)
-- (_Bool);
-- (_Bool);
+- (_Bool)n.m;
+- (_Bool)rong, NSNumber *__strong _Nonnull);
 @end
 

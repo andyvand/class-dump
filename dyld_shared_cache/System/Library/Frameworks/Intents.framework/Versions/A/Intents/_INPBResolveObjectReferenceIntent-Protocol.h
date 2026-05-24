@@ -7,12 +7,12 @@
 @class NSData, _INPBIntentMetadata;
 
 @protocol _INPBResolveObjectReferenceIntent
-- (_Bool)leepAlarm;
+- (void);
+- (_INPBIntentMetadata *);
+- (NSData *)(u;
+- (_Bool)hasIncludeSleepAlarm;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasReference;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSData *reference;
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HTTPServer, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HTTPServer;
 
 @interface HTTPConfig
 {
     HTTPServer *server;
-    NSString *documentRoot;
-    NSObject<OS_dispatch_queue> *queue;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -23,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *documentRoot; // @synthesize documentRoot;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue;
 @property(readonly, nonatomic) HTTPServer *server; // @synthesize server;
 
 @end

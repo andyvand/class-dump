@@ -5,10 +5,9 @@
 //
 
 @protocol CHConfiguration
-- (_Bool)availability;
+- (_Bool)_number_availability;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCloudKitEnabled) _Bool cloudKitEnabled;
-@property(readonly, nonatomic) long long keepCallsTimeIntervalType;
 @end
 

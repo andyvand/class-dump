@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString, NSURL, SAUIImageResource;
+@class NSURL;
 
 @interface SAAnswerObjectLine : AceObject
 {
@@ -21,22 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSURL *image;
-@property(copy, nonatomic) NSNumber *imageInverted;
-@property(retain, nonatomic) SAUIImageResource *imageResource;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

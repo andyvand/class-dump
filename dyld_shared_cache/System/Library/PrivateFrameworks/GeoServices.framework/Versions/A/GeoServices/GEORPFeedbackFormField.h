@@ -4,44 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackFieldValue, GEORPFeedbackFormFieldAnnotations, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPFeedbackFormField
 {
     PBDataReader *_reader;
-    GEORPFeedbackFormFieldAnnotations *_annotations;
-    NSString *_fieldId;
-    NSString *_formId;
-    NSString *_parentFieldId;
-    NSMutableArray *_tags;
-    GEORPFeedbackFieldValue *_value;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _name;
-    struct {
-        unsigned int has_name:1;
-        unsigned int read_annotations:1;
-        unsigned int read_fieldId:1;
-        unsigned int read_formId:1;
-        unsigned int read_parentFieldId:1;
-        unsigned int read_tags:1;
-        unsigned int read_value:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ceShown:(id)arg1;
++ (_Bool)setIsVenueExperienceShown:(id)arg1;
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (void)setLastRepairCheckTimestamp:(_Bool)arg1;
+- (void)customPropertyValues;
+- (void)createHashedMigrationDirectoryForDatabasePath:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)database:%{public}@ %{public}@ /* Error: Ran out of types for this method. */;
+- (id)scription>"8;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -56,20 +36,20 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)setState: /* Error: Ran out of types for this method. */;
 - (void);
-- (int);
+- (int)ocessSecondPassInExclave:rejectBlock:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)_considerAddingDrawable:inAddRect:level: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (id)"b1"has_arrivalDetected"b1"has_displayed"b1"has_triggered"b1};
 - (id);
-- (id)ageValuesCount;
+- (id)analyticsMessageValuesCount;
 - (id)ü<ýÔý¤þpÿ;
-- (id)pe;
+- (id)routeType;
 - (void);
 - (void);
 - (void);
@@ -79,19 +59,7 @@
 - (void)þ;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPFeedbackFormFieldAnnotations *annotations;
-@property(retain, nonatomic) NSString *fieldId;
-@property(retain, nonatomic) NSString *formId;
-@property(readonly, nonatomic) _Bool hasAnnotations;
-@property(readonly, nonatomic) _Bool hasFieldId;
-@property(readonly, nonatomic) _Bool hasFormId;
 @property(nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasParentFieldId;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(nonatomic) int name;
-@property(retain, nonatomic) NSString *parentFieldId;
-@property(retain, nonatomic) NSMutableArray *tags;
-@property(retain, nonatomic) GEORPFeedbackFieldValue *value;
 
 @end
 

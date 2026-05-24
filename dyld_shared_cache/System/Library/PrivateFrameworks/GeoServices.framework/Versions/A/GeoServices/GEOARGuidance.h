@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOARGuidance
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_arrowLabel;
-    NSMutableArray *_gapRanges;
-    GEOFormattedString *_instruction;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_arrowLabel:1;
-        unsigned int read_gapRanges:1;
-        unsigned int read_instruction:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)abled:(id)arg1;
-- (void);
-- (void);
++ (_Bool)setHasMapSettingsPauseSpokenAudioEnabled:(id)arg1;
+- (void)expandAliasedDomainsInAddress:(id)arg1;
+- (void)_message;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -45,22 +29,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_isPhraseSpotterEnabled;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (int);
+- (_Bool)Tirhuta;
+- (int)ToShowCallout;
 - (_Bool);
 - (id);
 - (void)0@ù
 × ;
-- (id);
-- (void)EOPDSSearchAutoRedoThreshold;
+- (id)logMessageTypeAsString:(struct _NSZone *)arg1;
+- (void)GEOPDSSearchAutoRedoThreshold;
 - (id)}Ph	Ü	¥ ¥|§0©¼©,²à³¬º» ¼H¾¤¿ÁèÂ0Ã;
-- (int)fficUpdateResponse;
-- (id)abled;
+- (int)_etaTrafficUpdateResponse;
+- (id)__perf_DestinationdTapewormEnabled;
 - (id);
 - (id);
 - (_Bool)Û%;
@@ -68,14 +52,7 @@
 - (void)ª7;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *arrowLabel;
-@property(retain, nonatomic) NSMutableArray *gapRanges;
-@property(readonly, nonatomic) _Bool hasArrowLabel;
-@property(readonly, nonatomic) _Bool hasInstruction;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) GEOFormattedString *instruction;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

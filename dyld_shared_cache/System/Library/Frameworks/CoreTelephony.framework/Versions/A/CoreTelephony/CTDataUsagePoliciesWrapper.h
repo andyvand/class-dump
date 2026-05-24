@@ -11,12 +11,12 @@
     NSSet *_policies;
 }
 
-+ (_Bool);
++ (_Bool)ge;
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)0@ù

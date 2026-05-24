@@ -6,14 +6,10 @@
 
 #import <XQuery/XQueryExpr.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface XQueryOperatorExpr : XQueryExpr
 {
     long long _type;
-    id _left;
-    id _right;
 }
 
 + (id);
@@ -31,20 +27,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Ew;
 - (id);
 - (id);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

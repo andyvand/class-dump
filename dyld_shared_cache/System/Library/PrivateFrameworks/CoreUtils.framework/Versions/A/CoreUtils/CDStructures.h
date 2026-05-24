@@ -4,9 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#pragma mark Function Pointers and Blocks
-
-typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
+#pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
 
@@ -36,8 +34,8 @@ struct LogCategoryPrivate;
 struct LogOutput;
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct __SecKey {
@@ -49,11 +47,6 @@ struct __SecKey {
     void *_field3;
 };
 
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
-
 struct buffer {
     char *x;
     unsigned int p;
@@ -61,29 +54,6 @@ struct buffer {
     int fd;
     CDUnknownFunctionPointerType op;
 };
-
-struct ccdigest_ctx {
-    unsigned char _field1[1];
-};
-
-struct ccrng_state;
-
-struct ccspake_cp;
-
-struct ccspake_ctx {
-    struct ccspake_cp *_field1;
-    struct ccspake_mac *_field2;
-    struct ccrng_state *_field3;
-    _Bool _field4;
-    unsigned long long _field5;
-    unsigned char _field6[20];
-    unsigned char _field7;
-    struct ccdigest_ctx _field8[26];
-    unsigned char _field9[64];
-    unsigned long long _field10[0];
-};
-
-struct ccspake_mac;
 
 struct cdb {
     char *map;
@@ -129,8 +99,8 @@ struct in_addr {
 };
 
 struct iovec {
-    void *iov_base;
-    unsigned long long iov_len;
+    void *_field1;
+    unsigned long long _field2;
 };
 
 struct os_state_data_decoder_s {
@@ -175,19 +145,19 @@ struct sockaddr_in6 {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned char bytes[3];
-} CDStruct_ae2970c9;
+    unsigned char _field1[3];
+} CDStruct_8356e4f6;
 
 typedef struct {
     unsigned char bytes[6];
 } CDStruct_83abfce7;
 
 typedef struct {
-    int callCountIncomingConnected;
-    int callCountIncomingUnconnected;
-    int callCountOutgoingConnected;
-    int callCountOutgoingUnconnected;
-} CDStruct_8b281280;
+    int _field1;
+    int _field2;
+    int _field3;
+    int _field4;
+} CDStruct_a734b2e2;
 
 #pragma mark Typedef'd Unions
 

@@ -6,19 +6,17 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICIAMSynchronizeMessagesResponse, ICStoreRequestContext;
+@class ICStoreRequestContext;
 
 @interface ICInAppMessageSyncRequest : ICRequestOperation
 {
     ICStoreRequestContext *_storeRequestContext;
-    ICIAMSynchronizeMessagesResponse *_syncResponse;
-    unsigned long long _fromRevision;
 }
 
 - (id);
 - (void);
 - (void);
-- (void)ponse;
+- (void)ICUserCredentialResponse;
 
 @end
 

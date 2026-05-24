@@ -5,5 +5,10 @@
 //
 
 @protocol CNAutocompleteResultWindowDelegate
+
+@optional
+- (void);
+- (void)l;
+- (void)setHasSearchLocation:(id)arg1;
 @end
 

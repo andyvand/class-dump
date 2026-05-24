@@ -7,7 +7,6 @@
 @interface FamilyCircle.FAResendChildTransferRequest
 {
     id familyCircleRequest;
-    id email;
 }
 
 @end

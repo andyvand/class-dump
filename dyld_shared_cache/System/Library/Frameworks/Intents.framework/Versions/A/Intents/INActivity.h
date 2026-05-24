@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface INActivity
 {
     NSString *_activityType;
-    NSArray *_activityDescriptors;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long)LL;
+- (_Bool)C,N,V_autoHotspotBrowseError;
+- (void)Pinger;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_arrivalBoatTerminalLocation;
 - (void)ock_invoke;
 - (id)µPN;
 
 // Remaining properties
-@property(readonly, copy) NSArray *activityDescriptors; // @synthesize activityDescriptors=_activityDescriptors;
 @property(readonly, copy) NSString *activityType; // @synthesize activityType=_activityType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

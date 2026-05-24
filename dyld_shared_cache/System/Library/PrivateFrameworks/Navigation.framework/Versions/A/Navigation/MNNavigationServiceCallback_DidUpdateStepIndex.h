@@ -9,7 +9,6 @@
 @interface MNNavigationServiceCallback_DidUpdateStepIndex : MNNavigationServiceCallbackParameters
 {
     unsigned long long _stepIndex;
-    unsigned long long _segmentIndex;
 }
 
 + (_Bool);
@@ -19,10 +18,9 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)ityDescription;
 
 // Remaining properties
-@property(nonatomic) unsigned long long segmentIndex; // @synthesize segmentIndex=_segmentIndex;
 @property(nonatomic) unsigned long long stepIndex; // @synthesize stepIndex=_stepIndex;
 
 @end

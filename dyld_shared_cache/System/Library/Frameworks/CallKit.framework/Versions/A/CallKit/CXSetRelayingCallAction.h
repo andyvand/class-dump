@@ -11,14 +11,14 @@
     _Bool _relaying;
 }
 
-+ (_Bool);
++ (_Bool)7;
 - (void);
 - (id);
-- (void);
+- (void)QMI_ERR_INVALID_DATA_FORMAT;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)MPStoreItemMetadataHasOverrideChildStorePlatformDictionaries;
 - (id);
 
 // Remaining properties

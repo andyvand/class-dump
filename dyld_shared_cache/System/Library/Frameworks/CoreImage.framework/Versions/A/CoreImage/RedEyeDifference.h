@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface RedEyeDifference : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputSubtractedImage;
 }
 
 - (id);

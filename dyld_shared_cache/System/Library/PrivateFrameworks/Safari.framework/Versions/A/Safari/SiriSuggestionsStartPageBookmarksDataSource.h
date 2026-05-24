@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BookmarksSearcher, NSMutableDictionary;
+@class BookmarksSearcher;
 
 __attribute__((visibility("hidden")))
 @interface SiriSuggestionsStartPageBookmarksDataSource
 {
     BookmarksSearcher *_searcher;
-    NSMutableDictionary *_topicsCache;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)J!ɚ	;
 - (id);
 - (void);
 

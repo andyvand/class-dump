@@ -6,17 +6,9 @@
 
 #import <MessageUI/MFDimmableButton.h>
 
-@class NSString, UIImage;
-
 @interface MFConfirmationButton : MFDimmableButton
 {
     _Bool _hasPresentedConfirmation;
-    unsigned long long _confirmationType;
-    unsigned long long _confirmationSelectionMode;
-    NSString *_confirmationMessage;
-    NSString *_confirmationLabel;
-    UIImage *_confirmationIcon;
-    CDUnknownBlockType _handlerBlock;
 }
 
 + (id);
@@ -38,19 +30,13 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)_ASWebAuthenticationSessionRequestServer;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *confirmationIcon; // @synthesize confirmationIcon=_confirmationIcon;
-@property(copy, nonatomic) NSString *confirmationLabel; // @synthesize confirmationLabel=_confirmationLabel;
-@property(copy, nonatomic) NSString *confirmationMessage; // @synthesize confirmationMessage=_confirmationMessage;
-@property(nonatomic) unsigned long long confirmationSelectionMode; // @synthesize confirmationSelectionMode=_confirmationSelectionMode;
-@property(nonatomic) unsigned long long confirmationType; // @synthesize confirmationType=_confirmationType;
 @property(copy, nonatomic) CDUnknownBlockType handlerBlock; // @synthesize handlerBlock=_handlerBlock;
-@property(nonatomic) _Bool hasPresentedConfirmation; // @synthesize hasPresentedConfirmation=_hasPresentedConfirmation;
 
 @end
 

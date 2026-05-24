@@ -6,53 +6,10 @@
 
 #import <AVConference/VCVideoTransmitterBase.h>
 
-@class AVCStatisticsCollector, NSObject, VCMediaStreamStats;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoStreamTransmitter : VCVideoTransmitterBase
 {
     struct tagHANDLE *_videoRTP;
-    NSObject<OS_dispatch_queue> *_transmitterQueue;
-    struct tagVCRealTimeThread *_encoderThread;
-    _Bool _terminateEncoderThread;
-    NSObject<OS_dispatch_semaphore> *_bufferQueueSemaphore;
-    struct opaqueCMBufferQueue *_bufferQueue;
-    char *_buffer;
-    unsigned long long _bufferSize;
-    int _maxPacketCount;
-    int *_packetSizes;
-    int *_packetFlags;
-    unsigned long long _lastKeyFrameSampleBufferSize;
-    int _iSMBCount;
-    unsigned int _keyFrameIntervalDuration;
-    unsigned short _recommendedMTU;
-    long long _videoCodecType;
-    int _videoSource;
-    unsigned int _dwRefreshFrameCounter;
-    struct _opaque_pthread_mutex_t _xMBs;
-    int _shouldGenerateKeyFrame;
-    VCMediaStreamStats *_stats;
-    double _reportingIntervalStartTime;
-    double _reportingLastUpdateTime;
-    unsigned char _lastCameraStatusBits;
-    _Bool _enableCVO;
-    unsigned long long _cvoExtensionID;
-    struct opaqueRTCReporting *_reportingAgent;
-    int _reportingModuleID;
-    struct {
-        struct *encoderVTable;
-        int type;
-        struct tagHANDLE *encoderHandle;
-    } _encoder;
-    struct tagVCMemoryPool *_encodingArgPool;
-    _Bool _forceDisableBitrateCap;
-    AVCStatisticsCollector *_statisticsCollector;
-    unsigned int _totalPacketsSent;
-    unsigned long long _totalBytesSent;
-    unsigned int _tilesPerFrame;
-    unsigned int _totalKeyFramesSent;
-    struct __CFAllocator *_videoPacketAllocator;
 }
 
 - (void);
@@ -60,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (int);
+- (int);
 - (int);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (unsigned int);
 - (void);
@@ -79,11 +36,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct __CFDictionary *);
+- (struct __CFDictionary *);
 - (void);
 - (void);
 - (void);
-- (id)mprovedThreshold;
+- (id)videoImprovedThreshold;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)setAllowedApplicationBundleIDs:(struct _NSZone *)arg1;
 @end
 

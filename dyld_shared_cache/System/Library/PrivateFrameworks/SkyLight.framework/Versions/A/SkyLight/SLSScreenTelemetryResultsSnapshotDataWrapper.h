@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
     shared_ptr_c08bdd19 _data;
 }
 
-+ (id);
-+ (id);
-- (float);
-- (float);
-- (float);
-- (float);
++ (id)eneration failed %@);
++ (id)te optimized model (sql model generation failed %@);
+- (float)e busy;
+- (float)L checkpoint:Database busy /* Error: Ran out of types for this method. */;
+- (float)checkpointed:%d /* Error: Ran out of types for this method. */;
+- (float)NSArray"8Q16^B24;
 - (id);
 - (unsigned long long);
 - (const float *);
@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (shared_ptr_c08bdd19);
 - (unsigned long long);
-- (id)ssEvent;
+- (id)_shouldProcessEvent;
 - (void)ÿÿ	X¤;
-- (id)tType;
+- (id)kDisplayTransportType;
 
 // Remaining properties
 @property(readonly, nonatomic) shared_ptr_c08bdd19 data; // @synthesize data=_data;

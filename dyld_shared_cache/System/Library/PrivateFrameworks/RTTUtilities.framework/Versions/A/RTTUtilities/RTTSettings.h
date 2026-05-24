@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLock, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSLock, NSMutableSet;
 
 @interface RTTSettings
 {
     NSLock *_synchronizeDomainsLock;
-    NSMutableDictionary *_cachedSettings;
-    NSMutableSet *_registeredNotifications;
-    NSMutableSet *_synchronizePreferences;
-    NSMutableDictionary *_updateBlocks;
-    NSObject<OS_dispatch_queue> *_nanoSynchronizeQueue;
 }
 
 + (id);
@@ -31,11 +25,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)$;
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (_Bool);
 - (void);
@@ -44,28 +38,28 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void)3;
+- (_Bool);
+- (void)runBlockWhenDefaultsSynced:(_Bool)arg1 onQueue:(id)arg2;
+- (void);
+- (void);
+- (double)landscapeLayerStack;
+- (void);
+- (_Bool)N5boost12interprocess9ipcdetail17placement_destroyINS_9container12basic_stringIcNSt3__111char_traitsIcEENS0_9allocatorIcNS0_15segment_managerIcNS0_15rbtree_best_fitINS0_17null_mutex_familyENS0_10offset_ptrIvlmLm0EEELm0EEENS0_10iset_indexEEEEEEEEE;
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
 - (void);
+- (void)=Q;
 - (_Bool);
-- (void);
 - (void);
 - (void);
 - (double);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (double);
-- (void);
+- (void)setSummary:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -77,7 +71,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ted type (got %@);
 - (id);
 - (long long);
 - (id);
@@ -86,8 +80,8 @@
 - (_Bool);
 - (long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)currentOSIdentifier;
+- (void)selectedSpeed;
 - (id);
 - (void);
 - (id);
@@ -95,7 +89,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)s/RunningBoardServices.framework/Versions/A/RunningBoardServices;
 - (void);
 - (_Bool);
 - (SEL);
@@ -105,32 +99,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)aractersInRange:withString: /* Error: Ran out of types for this method. */;
+- (id)stringByReplacingCharactersInRange:withString: /* Error: Ran out of types for this method. */;
 - (void)ding data:(CDUnknownBlockType)arg1 %@;
 
 // Remaining properties
-@property(nonatomic) _Bool TTYHardwareEnabled;
-@property(nonatomic) _Bool TTYSoftwareEnabled;
-@property(retain, nonatomic) NSArray *cannedResponses;
-@property(nonatomic) _Bool continuityEmergencyRTTIsSupported;
-@property(nonatomic) _Bool continuityRTTIsSupported;
-@property(nonatomic) _Bool hasReceivedRTTCall;
-@property(nonatomic) _Bool incomingCallsTTY;
-@property(nonatomic) long long incomingTTYCallCount;
-@property(nonatomic) _Bool internalOverrideTTYAvailability;
-@property(nonatomic) _Bool isRelayCallingEnabled;
-@property(nonatomic) double lastCallCountReset;
-@property(nonatomic) double lastDBVacuum;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *nanoSynchronizeQueue; // @synthesize nanoSynchronizeQueue=_nanoSynchronizeQueue;
-@property(nonatomic) long long outgoingTTYCallCount;
-@property(retain, nonatomic) NSString *preferredRelayNumber;
 @property(retain, nonatomic) NSMutableSet *registeredNotifications; // @synthesize registeredNotifications=_registeredNotifications;
-@property(readonly, nonatomic) _Bool rttLiveTranscriptionsEnabled;
-@property(readonly, nonatomic) _Bool showsRTTNotifications;
-@property(nonatomic) _Bool supportsRelayCalling;
-@property(retain, nonatomic) NSMutableSet *synchronizePreferences; // @synthesize synchronizePreferences=_synchronizePreferences;
-@property(nonatomic) _Bool ttyShouldBeRealtime;
-@property(retain, nonatomic) NSMutableDictionary *updateBlocks; // @synthesize updateBlocks=_updateBlocks;
 
 @end
 

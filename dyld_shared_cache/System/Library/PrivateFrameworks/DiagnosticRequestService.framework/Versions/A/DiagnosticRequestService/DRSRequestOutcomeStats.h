@@ -6,7 +6,7 @@
 
 #import <DiagnosticRequestService/DRSRequestStats.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface DRSRequestOutcomeStats : DRSRequestStats
 {
@@ -19,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *perStateStats;
 @property(readonly, nonatomic) NSString *requestOutcome;
 
 @end

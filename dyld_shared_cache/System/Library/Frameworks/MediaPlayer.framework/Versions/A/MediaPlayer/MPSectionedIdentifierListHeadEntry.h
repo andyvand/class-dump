@@ -6,17 +6,12 @@
 
 #import <MediaPlayer/MPSectionedIdentifierListEntry.h>
 
-@class MPSectionedIdentifierListItemEntry, MPSectionedIdentifierListTailEntry, NSMutableDictionary, NSString;
-@protocol MPSectionedIdentifierListDataSource;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MPSectionedIdentifierListHeadEntry : MPSectionedIdentifierListEntry
 {
     _Bool _shuffledHead;
-    NSMutableDictionary *_identifiersItemEntryMap;
-    MPSectionedIdentifierListTailEntry *_tailEntry;
-    MPSectionedIdentifierListItemEntry *_lastItemEntry;
-    id <MPSectionedIdentifierListDataSource> _dataSource;
 }
 
 + (id);
@@ -36,25 +31,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)otificationWithDeltaBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)_postItemChangedNotificationWithDeltaBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long branchDepth;
-@property(retain, nonatomic) id <MPSectionedIdentifierListDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long entryType;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableDictionary *identifiersItemEntryMap; // @synthesize identifiersItemEntryMap=_identifiersItemEntryMap;
-@property(retain, nonatomic) MPSectionedIdentifierListItemEntry *lastItemEntry; // @synthesize lastItemEntry=_lastItemEntry;
-@property(readonly, nonatomic) NSString *sectionIdentifier;
-@property(nonatomic, getter=isShuffledHead) _Bool shuffledHead; // @synthesize shuffledHead=_shuffledHead;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) MPSectionedIdentifierListTailEntry *tailEntry; // @synthesize tailEntry=_tailEntry;
 
 @end
 

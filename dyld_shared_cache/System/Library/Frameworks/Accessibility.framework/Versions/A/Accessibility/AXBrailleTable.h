@@ -4,43 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BRLTTable, NSSet, NSString;
+@class BRLTTable;
 
 @interface AXBrailleTable
 {
     BRLTTable *_brltTable;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)REverting=%d CONverting=%d;
++ (id)plCrypt=%d PassReq=%d EnDe=%d ENcrypting=%d DEcrypting=%d ACT=%d DoMnt=%d DoBoot=%d REposs=%d REverting=%d CONverting=%d;
++ (id)set here) and exit;
++ (id)nline=(or damaged, etc)=%d;
++ (_Bool)_processGradingDataFetchCommandWithRequest:fromSenderID:withReply: /* Error: Ran out of types for this method. */;
+- (void)vt/2=quickrvt/3=err)=%d;
+- (id);
+- (_Bool)forward;
+- (id)lu;
+- (id)et parent LVG;
+- (id)outErr=%d;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)*;
+- (id))s;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) BRLTTable *brltTable; // @synthesize brltTable=_brltTable;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isEightDot;
-@property(readonly, nonatomic) NSString *language;
-@property(readonly, nonatomic) NSSet *locales;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSString *localizedProviderName;
-@property(readonly, nonatomic) NSString *providerIdentifier;
 
 @end
 

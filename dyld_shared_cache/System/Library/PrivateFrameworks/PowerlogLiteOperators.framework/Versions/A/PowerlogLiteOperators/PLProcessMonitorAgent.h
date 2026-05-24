@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableSet, PLEntryNotificationOperatorComposition, PLMonotonicTimer, PLNSNotificationOperatorComposition, PLThreadStats;
+@class NSDate;
 
 @interface PLProcessMonitorAgent
 {
     _Bool _firstBoot;
-    _Bool _launchServiceStatsEnabled;
-    NSDate *_currentCachedDate;
-    NSDate *_previousCacheDate;
-    double _currentCachedTotalCPUTime;
-    PLMonotonicTimer *_logTimer;
-    PLEntryNotificationOperatorComposition *_batteryLevelChanged;
-    PLNSNotificationOperatorComposition *_asertionNotifications;
-    NSMutableSet *_processes;
-    NSDictionary *_lastCPUTimeDict;
-    NSDictionary *_lastThreadIdToKTMonitorEntryDict;
-    NSDate *_lastEntryDate;
-    long long _processExitSummaryCount;
-    NSDictionary *_lastFreezerProcs;
-    NSDictionary *_diffFreezerProcs;
-    PLThreadStats *_threadStats;
 }
 
 + (id);
@@ -33,15 +18,15 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
++ (id)A;
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)=;
 + (id);
 + (_Bool);
 + (unsigned long long);
@@ -99,7 +84,7 @@
 - (int);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (void);
@@ -117,27 +102,12 @@
 - (void);
 - (id);
 - (void);
-- (void)loadedXPCListener;
+- (void)DACalendarItemsUploadedXPCListener;
 - (id)ext;
 - (void)oCxt:raidReconstructFailBandFlowHost(472) cannot add 1 element to context /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) PLNSNotificationOperatorComposition *asertionNotifications; // @synthesize asertionNotifications=_asertionNotifications;
-@property(retain) PLEntryNotificationOperatorComposition *batteryLevelChanged; // @synthesize batteryLevelChanged=_batteryLevelChanged;
 @property(retain) NSDate *currentCachedDate; // @synthesize currentCachedDate=_currentCachedDate;
-@property double currentCachedTotalCPUTime; // @synthesize currentCachedTotalCPUTime=_currentCachedTotalCPUTime;
-@property(retain) NSDictionary *diffFreezerProcs; // @synthesize diffFreezerProcs=_diffFreezerProcs;
-@property _Bool firstBoot; // @synthesize firstBoot=_firstBoot;
-@property(retain) NSDictionary *lastCPUTimeDict; // @synthesize lastCPUTimeDict=_lastCPUTimeDict;
-@property(retain) NSDate *lastEntryDate; // @synthesize lastEntryDate=_lastEntryDate;
-@property(retain) NSDictionary *lastFreezerProcs; // @synthesize lastFreezerProcs=_lastFreezerProcs;
-@property(retain) NSDictionary *lastThreadIdToKTMonitorEntryDict; // @synthesize lastThreadIdToKTMonitorEntryDict=_lastThreadIdToKTMonitorEntryDict;
-@property _Bool launchServiceStatsEnabled; // @synthesize launchServiceStatsEnabled=_launchServiceStatsEnabled;
-@property(retain) PLMonotonicTimer *logTimer; // @synthesize logTimer=_logTimer;
-@property(retain) NSDate *previousCacheDate; // @synthesize previousCacheDate=_previousCacheDate;
-@property long long processExitSummaryCount; // @synthesize processExitSummaryCount=_processExitSummaryCount;
-@property(retain) NSMutableSet *processes; // @synthesize processes=_processes;
-@property(retain) PLThreadStats *threadStats; // @synthesize threadStats=_threadStats;
 
 @end
 

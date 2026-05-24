@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsManagementDetailTracker
 {
     id appTracker;
-    id sportsTracker;
 }
 
 @end

@@ -8,8 +8,6 @@
 {
     id stateChangeHandler;
     id stateController;
-    id package;
-    id currentState;
 }
 
 @end

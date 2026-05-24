@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeHistoryTitleViewProvider
 {
     id titleView;
-    id renderer;
 }
 
 @end

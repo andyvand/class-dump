@@ -9,8 +9,6 @@
 @interface AXVBorderedWindowController
 {
     AXVBorderedWindow *_borderedWindow;
-    AXKElementController *__elementController;
-    AXKElementController *__windowElementController;
 }
 
 - (void);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) AXKElementController *_elementController; // @synthesize _elementController=__elementController;
-@property(retain, nonatomic) AXKElementController *_windowElementController; // @synthesize _windowElementController=__windowElementController;
-@property(readonly, nonatomic) AXVBorderedWindow *borderedWindow; // @synthesize borderedWindow=_borderedWindow;
 
 @end
 

@@ -4,42 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextDropProposal, UITextPosition, UITextRange;
-@protocol UIDropSession;
+@class UITextDropProposal;
 
 __attribute__((visibility("hidden")))
 @interface UITextDropRequest
 {
     _Bool _sameView;
-    id <UIDropSession> _dropSession;
-    UITextPosition *_dropPosition;
-    UITextRange *_dropRange;
-    UITextDropProposal *_suggestedProposal;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)collaborationHighlightForIdentifier:error: /* Error: Ran out of types for this method. */;
+- (void)_messageItemsForMessageRecords:(id)arg1 handleID:useAttachmentCache:shouldLoadAttachments:reverseOrder: /* Error: Ran out of types for this method. */;
+- (void)_executeSMSRelayBlockForMessageWithGUID:(_Bool)arg1 category:subCategory: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
+- (id)D;
 - (id);
 - (id);
 - (void)XÂa;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UITextPosition *dropPosition; // @synthesize dropPosition=_dropPosition;
-@property(readonly, nonatomic) UITextRange *dropRange; // @synthesize dropRange=_dropRange;
-@property(readonly, nonatomic) id <UIDropSession> dropSession; // @synthesize dropSession=_dropSession;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isSameView) _Bool sameView; // @synthesize sameView=_sameView;
 @property(retain, nonatomic) UITextDropProposal *suggestedProposal; // @synthesize suggestedProposal=_suggestedProposal;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (id);
++ (id)state;
 + (id);
 + (id);
 

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
+@class NSDictionary;
 
 @protocol CMCaptureLocalSessionOutputStreamSampleBufferReceiver
+- (NSDictionary *);
 - (_Bool)§ûÜÿµûÜÿÂûÜÿÐûÝÿÞúÞÿíùàÿ÷øâÿÿöàÿÿõÞÿÿõÞÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;
 @property(readonly, nonatomic) unsigned long long receiverType;
-@property(readonly, nonatomic, getter=isStreaming) _Bool streaming;
 @end
 

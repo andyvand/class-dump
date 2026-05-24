@@ -5,5 +5,6 @@
 //
 
 @protocol PKPaletteViewInteractionDelegate
+- (void);
 @end
 

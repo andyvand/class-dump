@@ -10,7 +10,6 @@
 @interface SLWebTokenHandlerController
 {
     NSObject<OS_dispatch_queue> *_webClientQueue;
-    id <SLWebClient> _webClient;
 }
 
 + (id);

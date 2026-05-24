@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData, NSString;
+
 @protocol SPAKE2ProtocolWeb
+- (NSData *) ;
+- (NSString *)_;
 @end
 

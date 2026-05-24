@@ -5,13 +5,14 @@
 //
 
 @protocol _UIKeyboardArbitrationClient
+- (void);
+- (void));
 - (void)Á;
 - (void)
 × ;
 - (void)dateFormatterForCalendarUnit:(double)arg1;
-- (void)ransitionToWillBegin;
-- (void)aseView;
-- (void);
+- (void)_transitionToWillBegin;
+- (void)_showcaseView;
 - (void)Èì;
 @end
 

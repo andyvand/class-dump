@@ -9,7 +9,6 @@
 @interface AppStoreKit.FramedVideo : AppStoreKit.FramedMedia
 {
     id artwork;
-    id video;
 }
 
 @end

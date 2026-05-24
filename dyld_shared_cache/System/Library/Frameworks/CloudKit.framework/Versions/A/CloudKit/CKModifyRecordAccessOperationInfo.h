@@ -11,7 +11,6 @@
 @interface CKModifyRecordAccessOperationInfo : CKDatabaseOperationInfo
 {
     NSArray *_recordIDsToGrant;
-    NSArray *_recordIDsToRevoke;
 }
 
 + (_Bool);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *recordIDsToGrant; // @synthesize recordIDsToGrant=_recordIDsToGrant;
-@property(retain, nonatomic) NSArray *recordIDsToRevoke; // @synthesize recordIDsToRevoke=_recordIDsToRevoke;
 
 @end
 

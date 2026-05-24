@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet;
-
 __attribute__((visibility("hidden")))
 @interface TSUZipArchive
 {
     unsigned long long _options;
-    NSMutableDictionary *_entriesMap;
-    NSMutableOrderedSet *_entries;
-    long long _endOfLastEntry;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)	;
 - (void);
 - (void);
 - (void);
@@ -31,12 +26,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (long long);
 - (id);
@@ -48,17 +43,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id)1Â0@ù
 × ;
 - (void)ions) tsu_stringByRemovingCharactersInSet:options:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long archiveLength;
-@property(readonly, nonatomic) long long endOfLastEntry; // @synthesize endOfLastEntry=_endOfLastEntry;
-@property(readonly, nonatomic) unsigned long long entriesCount;
-@property(readonly, nonatomic) _Bool hasNonEmptyEntries;
-@property(readonly, nonatomic) _Bool isValid;
 
 @end
 

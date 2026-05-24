@@ -7,12 +7,6 @@
 @interface NewsFeed.DebugFormatCanvasLayoutResult
 {
     id group;
-    id workspaceGroup;
-    id inventory;
-    id debugGroupLayoutAttributes;
-    id groupLayoutContext;
-    id groupLayoutBindings;
-    id boundLayoutFactory;
 }
 
 @end

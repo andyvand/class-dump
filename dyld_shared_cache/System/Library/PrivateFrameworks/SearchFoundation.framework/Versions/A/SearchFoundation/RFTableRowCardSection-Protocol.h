@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray;
 
 @protocol RFTableRowCardSection
+- (void);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cells;
-@property(copy, nonatomic) NSArray *compact_cells;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool scale_to_fit;
-@property(nonatomic) int vertical_alignment;
 @end
 

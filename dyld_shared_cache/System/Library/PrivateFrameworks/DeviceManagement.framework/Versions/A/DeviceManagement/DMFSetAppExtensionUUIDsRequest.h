@@ -11,14 +11,10 @@
 @interface DMFSetAppExtensionUUIDsRequest : DMFAppRequest
 {
     NSString *_VPNUUIDString;
-    NSString *_cellularSliceUUIDString;
-    NSString *_contentFilterUUIDString;
-    NSString *_DNSProxyUUIDString;
-    NSString *_relayUUIDString;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)`;
 + (_Bool);
 + (id);
 - (void);
@@ -27,20 +23,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)+;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)collectionView:didEndDisplayingSupplementaryView:forElementOfKind:atIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *DNSProxyUUIDString; // @synthesize DNSProxyUUIDString=_DNSProxyUUIDString;
 @property(copy, nonatomic) NSString *VPNUUIDString; // @synthesize VPNUUIDString=_VPNUUIDString;
-@property(copy, nonatomic) NSString *cellularSliceUUIDString; // @synthesize cellularSliceUUIDString=_cellularSliceUUIDString;
-@property(copy, nonatomic) NSString *contentFilterUUIDString; // @synthesize contentFilterUUIDString=_contentFilterUUIDString;
-@property(copy, nonatomic) NSString *relayUUIDString; // @synthesize relayUUIDString=_relayUUIDString;
 
 @end
 

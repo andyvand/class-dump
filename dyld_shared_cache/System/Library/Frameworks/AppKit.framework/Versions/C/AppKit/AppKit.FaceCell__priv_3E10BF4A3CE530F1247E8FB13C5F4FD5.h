@@ -9,17 +9,13 @@
 @interface AppKit.FaceCell__priv_3E10BF4A3CE530F1247E8FB13C5F4FD5 : NSTableCellView
 {
     id _textField;
-    id favoritesToggle;
-    id favoriteToggleVisible;
-    id font;
-    id padding;
 }
 
-- (void);
+- (void)ntialStorage=^^?^{__CFAllocator}i}16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)ViewContainsTrailingFullHeightSidebar:(struct CGRect)arg1;
-- (void)dicatorForGlyphRange:(id)arg1 rectCount: /* Error: Ran out of types for this method. */;
+- (id)_splitViewContainsTrailingFullHeightSidebar:(struct CGRect)arg1;
+- (void)_createRectArrayForFindIndicatorForGlyphRange:(id)arg1 rectCount: /* Error: Ran out of types for this method. */;
 - (void)|<`E;
 
 @end

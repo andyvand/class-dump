@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDManagedObject.h>
 
-@class NSSet, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MKFLocalPersonClassificationSettings : HMDManagedObject
@@ -17,7 +17,6 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *classificationRegistrations; // @dynamic classificationRegistrations;
 @property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
 
 @end

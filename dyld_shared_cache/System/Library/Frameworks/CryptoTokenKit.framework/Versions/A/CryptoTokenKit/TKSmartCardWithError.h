@@ -6,20 +6,17 @@
 
 #import <CryptoTokenKit/TKSmartCard.h>
 
-@class NSError;
-
 __attribute__((visibility("hidden")))
 @interface TKSmartCardWithError : TKSmartCard
 {
     TKSmartCard *_parentCard;
-    NSError *_error;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ate;
 
 @end
 

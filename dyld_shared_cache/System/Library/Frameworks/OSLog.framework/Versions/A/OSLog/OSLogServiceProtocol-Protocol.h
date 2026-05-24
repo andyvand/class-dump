@@ -5,5 +5,6 @@
 //
 
 @protocol OSLogServiceProtocol
+- (void);
 @end
 

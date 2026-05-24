@@ -4,55 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, TSDCommentStorage, TSKAnnotationAuthor, TSWPChange;
-@protocol TSKModel;
+@class NSString, TSWPChange;
 
 @interface TSWPChangeDetails
 {
     NSString *mChangeString;
-    id <TSKModel> model;
-    TSWPChange *_change;
 }
 
 - (_Bool);
-- (id);
+- (id)WaitingReason;
 - (void);
 - (id);
 - (int);
 - (void);
 - (int);
 - (id);
-- (void);
-- (void);
+- (void)4;
+- (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)nvalidating cache:(id)arg1;
 - (id);
 - (id);
 - (id)ÿÂmW;
 
 // Remaining properties
-@property(readonly, nonatomic) int annotationDisplayStringType;
-@property(readonly, nonatomic) int annotationType;
-@property(retain, nonatomic) TSKAnnotationAuthor *author;
 @property(retain, nonatomic) TSWPChange *change; // @synthesize change=_change;
-@property(readonly, nonatomic) NSString *changeTrackingString;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSDate *date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) id <TSKModel> model; // @synthesize model;
-@property(copy, nonatomic) TSDCommentStorage *storage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSDCommentStorage",?,C,N
-
-@property(readonly) Class superclass;
 
 @end
 

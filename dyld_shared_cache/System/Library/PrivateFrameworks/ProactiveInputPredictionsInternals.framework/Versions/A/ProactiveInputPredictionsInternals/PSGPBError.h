@@ -9,44 +9,12 @@
 @interface PSGPBError
 {
     NSString *_bundleIdentifier;
-    int _errorType;
-    NSString *_experimentId;
-    NSString *_initiatingProcess;
-    NSString *_localeIdentifier;
-    unsigned int _maxPredictionItems;
-    unsigned int _maxStructuredInfoItems;
-    unsigned int _maxTextualResponseItems;
-    NSString *_textContentType;
-    NSString *_treatmentId;
-    NSString *_treatmentName;
-    NSString *_triggerAttributeField;
-    NSString *_triggerAttributeSubtype;
-    NSString *_triggerAttributeType;
-    NSString *_triggerCategory;
-    int _triggerSourceType;
-    _Bool _hasContextBeforeInput;
-    _Bool _hasRecipientNames;
-    _Bool _hasResponseContext;
-    _Bool _isDocumentEmpty;
-    _Bool _isResponseContextBlacklisted;
-    struct {
-        unsigned int errorType:1;
-        unsigned int maxPredictionItems:1;
-        unsigned int maxStructuredInfoItems:1;
-        unsigned int maxTextualResponseItems:1;
-        unsigned int triggerSourceType:1;
-        unsigned int hasContextBeforeInput:1;
-        unsigned int hasRecipientNames:1;
-        unsigned int hasResponseContext:1;
-        unsigned int isDocumentEmpty:1;
-        unsigned int isResponseContextBlacklisted:1;
-    } _has;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -54,20 +22,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
@@ -101,8 +69,9 @@
 - (_Bool);
 - (id);
 - (int);
-- (void);
-- (int);
+- (void)streamConnectedInfo
+;
+- (int)eCreateWithRoutingContextUUID(CFAllocatorRef, CFStringRef, APMetadataSourceRef *);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -125,55 +94,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)errorWithCode:description:underlyingError: /* Error: Ran out of types for this method. */;
+- (void)Tokens:tokenizeNewlines:idVectorLength:extraIdOptions:vectorizerStrategy:vectorNormalization:vocab: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) int errorType; // @synthesize errorType=_errorType;
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(nonatomic) _Bool hasContextBeforeInput; // @synthesize hasContextBeforeInput=_hasContextBeforeInput;
-@property(nonatomic) _Bool hasErrorType;
 @property(readonly, nonatomic) _Bool hasExperimentId;
-@property(nonatomic) _Bool hasHasContextBeforeInput;
-@property(nonatomic) _Bool hasHasRecipientNames;
-@property(nonatomic) _Bool hasHasResponseContext;
-@property(readonly, nonatomic) _Bool hasInitiatingProcess;
-@property(nonatomic) _Bool hasIsDocumentEmpty;
-@property(nonatomic) _Bool hasIsResponseContextBlacklisted;
-@property(readonly, nonatomic) _Bool hasLocaleIdentifier;
-@property(nonatomic) _Bool hasMaxPredictionItems;
-@property(nonatomic) _Bool hasMaxStructuredInfoItems;
-@property(nonatomic) _Bool hasMaxTextualResponseItems;
-@property(nonatomic) _Bool hasRecipientNames; // @synthesize hasRecipientNames=_hasRecipientNames;
-@property(nonatomic) _Bool hasResponseContext; // @synthesize hasResponseContext=_hasResponseContext;
-@property(readonly, nonatomic) _Bool hasTextContentType;
-@property(readonly, nonatomic) _Bool hasTreatmentId;
-@property(readonly, nonatomic) _Bool hasTreatmentName;
-@property(readonly, nonatomic) _Bool hasTriggerAttributeField;
-@property(readonly, nonatomic) _Bool hasTriggerAttributeSubtype;
-@property(readonly, nonatomic) _Bool hasTriggerAttributeType;
-@property(readonly, nonatomic) _Bool hasTriggerCategory;
-@property(nonatomic) _Bool hasTriggerSourceType;
-@property(retain, nonatomic) NSString *initiatingProcess; // @synthesize initiatingProcess=_initiatingProcess;
-@property(nonatomic) _Bool isDocumentEmpty; // @synthesize isDocumentEmpty=_isDocumentEmpty;
-@property(nonatomic) _Bool isResponseContextBlacklisted; // @synthesize isResponseContextBlacklisted=_isResponseContextBlacklisted;
-@property(retain, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(nonatomic) unsigned int maxPredictionItems; // @synthesize maxPredictionItems=_maxPredictionItems;
-@property(nonatomic) unsigned int maxStructuredInfoItems; // @synthesize maxStructuredInfoItems=_maxStructuredInfoItems;
-@property(nonatomic) unsigned int maxTextualResponseItems; // @synthesize maxTextualResponseItems=_maxTextualResponseItems;
-@property(retain, nonatomic) NSString *textContentType; // @synthesize textContentType=_textContentType;
-@property(retain, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
-@property(retain, nonatomic) NSString *treatmentName; // @synthesize treatmentName=_treatmentName;
-@property(retain, nonatomic) NSString *triggerAttributeField; // @synthesize triggerAttributeField=_triggerAttributeField;
-@property(retain, nonatomic) NSString *triggerAttributeSubtype; // @synthesize triggerAttributeSubtype=_triggerAttributeSubtype;
-@property(retain, nonatomic) NSString *triggerAttributeType; // @synthesize triggerAttributeType=_triggerAttributeType;
-@property(retain, nonatomic) NSString *triggerCategory; // @synthesize triggerCategory=_triggerCategory;
-@property(nonatomic) int triggerSourceType; // @synthesize triggerSourceType=_triggerSourceType;
 
 @end
 

@@ -6,18 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class NSString, PHCollectionList, PXMovingCollectionsUndoContext;
-@protocol PXFastEnumeration;
+@class NSString, PHCollectionList;
 
 @interface PXCreateCollectionListAction : PXPhotosAction
 {
     PHCollectionList *_createdCollectionList;
-    NSString *_title;
-    PHCollectionList *_parentCollectionList;
-    unsigned long long _indexInParentCollectionList;
-    id <PXFastEnumeration> _childCollections;
-    PXMovingCollectionsUndoContext *_undoContext;
-    NSString *_createdCollectionIdentifier;
 }
 
 - (id);
@@ -39,13 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXFastEnumeration> childCollections; // @synthesize childCollections=_childCollections;
-@property(copy, nonatomic) NSString *createdCollectionIdentifier; // @synthesize createdCollectionIdentifier=_createdCollectionIdentifier;
-@property(readonly, nonatomic) PHCollectionList *createdCollectionList; // @synthesize createdCollectionList=_createdCollectionList;
-@property(readonly, nonatomic) unsigned long long indexInParentCollectionList; // @synthesize indexInParentCollectionList=_indexInParentCollectionList;
-@property(readonly, nonatomic) PHCollectionList *parentCollectionList; // @synthesize parentCollectionList=_parentCollectionList;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) PXMovingCollectionsUndoContext *undoContext; // @synthesize undoContext=_undoContext;
 
 @end
 

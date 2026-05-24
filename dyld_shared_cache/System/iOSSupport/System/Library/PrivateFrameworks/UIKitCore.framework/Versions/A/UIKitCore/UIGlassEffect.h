@@ -6,21 +6,18 @@
 
 #import <UIKitCore/UIVisualEffect.h>
 
-@class UIColor, _UIViewGlass;
+@class _UIViewGlass;
 
 @interface UIGlassEffect : UIVisualEffect
 {
     _UIViewGlass *_explicitGlass;
-    _Bool _interactive;
-    UIColor *_tintColor;
-    long long _style;
 }
 
 + (id);
 + (id);
 - (id);
 - (void);
-- (long long);
+- (long long)_payloadCalDAVPort;
 - (void)guration"16;
 - (id);
 - (id)H;
@@ -29,10 +26,7 @@
 - (void)Â±n;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIViewGlass *glass;
-@property(nonatomic, getter=isInteractive) _Bool interactive; // @synthesize interactive=_interactive;
 @property(nonatomic) long long style; // @synthesize style=_style;
-@property(copy, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

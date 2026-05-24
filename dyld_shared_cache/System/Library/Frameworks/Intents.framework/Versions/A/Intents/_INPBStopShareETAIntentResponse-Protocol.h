@@ -7,13 +7,11 @@
 @class NSArray;
 
 @protocol _INPBStopShareETAIntentResponse
-- (void)yIntentData;
-- (NSArray *)asCallIdentifier;
+- (void)_failOverVolumeStoreNameForVolumeRelativePath:volumeName:volumeUUID:currentDataVolumeName:currentDataVolumeUUID:currentSystemVolumeName:currentSystemVolumeUUID:firmLinkMap: /* Error: Ran out of types for this method. */;
+- (void)hasPrivateUpdateMediaAffinityIntentData;
+- (NSArray *)hasCallIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) int *mediums;
-@property(readonly, nonatomic) unsigned long long mediumsCount;
-@property(copy, nonatomic) NSArray *recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSDate, NSDateFormatter, NSString;
+@class NSDateFormatter, NSString;
 
 @interface PKAutoFillCardCredential
 {
     NSDateFormatter *_expirationDateFormatter;
-    NSDate *_expirationDate;
-    NSString *_cardholderName;
-    NSString *_primaryAccountNumber;
-    NSString *_securityCode;
-    CNContact *_billingAddress;
 }
 
 + (_Bool);
@@ -21,7 +16,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)7
+;
 - (_Bool);
 - (id);
 - (void);
@@ -30,30 +26,24 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)8;
 - (void);
-- (id);
-- (id);
+- (id)4;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)hasBtWiFiCoexState;
 - (void);
 - (id);
 - (id)0@ù
 × ;
-- (void)nimalURL;
+- (void)registerServiceAnimalURL;
 - (id)?ñ?®Gázî?É?oÇ¦.Ð=Ú?;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CNContact *billingAddress; // @synthesize billingAddress=_billingAddress;
-@property(readonly, nonatomic) _Bool canCheckEligibility;
 @property(readonly, copy, nonatomic) NSString *cardholderName; // @synthesize cardholderName=_cardholderName;
-@property(readonly, copy, nonatomic) NSString *expiration;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, copy, nonatomic) NSString *primaryAccountNumber; // @synthesize primaryAccountNumber=_primaryAccountNumber;
-@property(readonly, copy, nonatomic) NSString *securityCode; // @synthesize securityCode=_securityCode;
 
 @end
 

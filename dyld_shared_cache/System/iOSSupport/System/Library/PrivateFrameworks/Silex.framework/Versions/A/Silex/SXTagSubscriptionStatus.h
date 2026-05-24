@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface SXTagSubscriptionStatus
 {
     _Bool _following;
-    NSArray *_tags;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (void)ïð1Â0@ù
 × ;
-- (_Bool)jectProvider:viewport:presentationDelegate:componentStyleRendererFactory:analyticsReporting:appStateMonitor:mediaSharingPolicyProvider:imageViewFactory:canvasControllerFactory: /* Error: Ran out of types for this method. */;
-- (id)ighlightManager;
+- (_Bool)initWithDOMObjectProvider:viewport:presentationDelegate:componentStyleRendererFactory:analyticsReporting:appStateMonitor:mediaSharingPolicyProvider:imageViewFactory:canvasControllerFactory: /* Error: Ran out of types for this method. */;
+- (id)_highlightManager;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool following; // @synthesize following=_following;
-@property(readonly, copy, nonatomic) NSArray *tags; // @synthesize tags=_tags;
 
 @end
 

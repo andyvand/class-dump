@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessory, NSArray, NSMutableSet, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDTargetControllerManager
 {
     struct os_unfair_lock_s _lock;
-    unsigned char _maximumTargets;
-    _Bool _configurationRefreshed;
-    HMDHAPAccessory *_controller;
-    NSMutableSet *_configuredTargets;
-    unsigned long long _ticksPerSecond;
-    NSArray *_buttonConfiguration;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSString *_logID;
 }
 
 + (id)úMÿsxB;
@@ -41,14 +33,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned char);
 - (id);
-- (id);
+- (id)"GEOStyleAttributes"16@0:(id)arg1 8;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)5;
 - (void);
 - (void);
 - (void);
@@ -61,8 +53,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)8hjh8i;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -70,7 +62,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -88,21 +80,6 @@ __attribute__((visibility("hidden")))
 - (void)ry.identifier;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *buttonConfiguration; // @synthesize buttonConfiguration=_buttonConfiguration;
-@property(nonatomic) _Bool configurationRefreshed; // @synthesize configurationRefreshed=_configurationRefreshed;
-@property(retain, nonatomic) NSMutableSet *configuredTargets; // @synthesize configuredTargets=_configuredTargets;
-@property(readonly, nonatomic) __weak HMDHAPAccessory *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *logID; // @synthesize logID=_logID;
-@property(nonatomic) unsigned char maximumTargets; // @synthesize maximumTargets=_maximumTargets;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *targetUUIDs;
-@property(nonatomic) unsigned long long ticksPerSecond; // @synthesize ticksPerSecond=_ticksPerSecond;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

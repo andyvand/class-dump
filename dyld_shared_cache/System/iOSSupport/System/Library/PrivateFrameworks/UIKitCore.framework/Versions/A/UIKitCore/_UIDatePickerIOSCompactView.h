@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class NSArray, NSDateFormatter, NSDictionary, NSString, UIDatePicker, UILayoutGuide, UIPanGestureRecognizer, _UIDatePickerCompactDateLabel, _UIDatePickerCompactTimeLabel, _UIDatePickerDataModel, _UIDatePickerOverlayPresentation;
+@class _UIDatePickerCompactDateLabel;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerIOSCompactView : UIControl
@@ -15,38 +15,24 @@ __attribute__((visibility("hidden")))
         unsigned int isEnabled:1;
         unsigned int implementsCustomDidSelectComponent:1;
     } _flags;
-    NSDateFormatter *_dateFormatterMedium;
-    NSDateFormatter *_dateFormatterShort;
-    UILayoutGuide *_timeViewLayoutGuide;
-    UILayoutGuide *_contentLayoutGuide;
-    NSDateFormatter *_layoutFormatter;
-    _Bool _dateOnLeadingSide;
-    NSArray *_dateTimeConstraints;
-    _UIDatePickerOverlayPresentation *_presentation;
-    long long _activeComponent;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    UIDatePicker *_datePicker;
-    _UIDatePickerDataModel *_data;
-    _UIDatePickerCompactDateLabel *_dateView;
-    _UIDatePickerCompactTimeLabel *_timeView;
 }
 
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)ring"32;
+- (id)initWithAccountID:service:guid:groupID:chatIdentifier:participants:roomName:displayName:lastAddressedLocalHandle:lastAddressedSIMID:properties:state:style:isFiltered:hasHadSuccessfulQuery:engramID:serverChangeToken:cloudKitSyncState:originalGroupID:lastReadMessageTimeStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
+- (_Bool)_fmlSession;
+- (void)eagerUploadTransfer:(_Bool)arg1 recipients: /* Error: Ran out of types for this method. */;
+- (void)setUpdateTimer: /* Error: Ran out of types for this method. */;
+- (void)setUnreadCount: /* Error: Ran out of types for this method. */;
+- (void)setTranscriptBackgroundVersion: /* Error: Ran out of types for this method. */;
+- (void)",C,N;
+- (void)setTimingComingBackFromStorage: /* Error: Ran out of types for this method. */;
+- (void)setSyncResumer: /* Error: Ran out of types for this method. */;
+- (void)",&,V_lastModificationStamp;
+- (void)setServiceName: /* Error: Ran out of types for this method. */;
+- (void)setScreenTimeAskReponseHandler: /* Error: Ran out of types for this method. */;
+- (id)IMDAvailabilityAutoReplier;
+- (id)IMDChatDisplayNameChangeContext;
 - (void);
 - (void);
 - (void);
@@ -59,14 +45,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGSize);
+- (void)not be converted to CKRecord, marking it as clean and moving on.;
+- (void)final size (%llu);
+- (void)r.TotalRecords.chatManateeZone;
+- (void)tory %@ pendingIncomingSatelliteMessageCount:(id)arg1 %d];
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -81,41 +67,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)0@ù
 × ;
-- (id)ion:didChangeOffset: /* Error: Ran out of types for this method. */;
-- (void)deUseCustomPresentation;
+- (id)sheetInteraction:didChangeOffset: /* Error: Ran out of types for this method. */;
+- (void)overrideUseCustomPresentation;
 - (_Bool)isZoomBouncing;
-- (struct CGSize)itionAnimatedWithCompletion: /* Error: Ran out of types for this method. */;
-- (id);
+- (struct CGSize)_restorePlatterToInitialStatePositionAnimatedWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)_clipPath;
 - (_Bool)itudeAngle,V_hoverAltitudeAngle;
 - (id)ystemBackgroundView.m;
 - (void);
-- (void)ute;
+- (void)ParagraphStyleAttribute;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alignConstraintsToLayoutGuide;
-@property(readonly, nonatomic) struct UIEdgeInsets appliedInsetsToEdgeOfContent;
-@property(readonly, nonatomic) double contentWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(retain, nonatomic) _UIDatePickerDataModel *data; // @synthesize data=_data;
-@property(nonatomic) __weak UIDatePicker *datePicker; // @synthesize datePicker=_datePicker;
-@property(readonly, nonatomic) long long datePickerStyle;
 @property(readonly, nonatomic) _UIDatePickerCompactDateLabel *dateView; // @synthesize dateView=_dateView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *overrideAttributes;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
-@property(readonly, nonatomic) _UIDatePickerCompactTimeLabel *timeView; // @synthesize timeView=_timeView;
 
 @end
 

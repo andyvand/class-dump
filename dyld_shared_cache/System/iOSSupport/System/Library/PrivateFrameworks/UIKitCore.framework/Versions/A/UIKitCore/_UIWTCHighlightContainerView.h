@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id)ssoryView;
+- (id)_ownsInputAccessoryView;
 - (void)wCSgG;
 
 // Remaining properties

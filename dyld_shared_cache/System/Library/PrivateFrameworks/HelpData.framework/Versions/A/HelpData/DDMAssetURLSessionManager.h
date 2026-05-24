@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSOperationQueue, NSString, NSURLSession, NSURLSessionConfiguration;
-@protocol OS_dispatch_queue;
+@class NSOperationQueue, NSURLSessionConfiguration;
 
 @interface DDMAssetURLSessionManager
 {
     NSURLSessionConfiguration *_configuration;
-    NSURLSession *_session;
-    NSOperationQueue *_sessionDelegateQueue;
-    NSMutableDictionary *_activeTasks;
-    NSObject<OS_dispatch_queue> *_activeTasksQueue;
 }
 
 - (void);
@@ -29,11 +24,11 @@
 - (id);
 - (id);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)s;
 - (void);
 - (void);
 - (void)VersionSystem;
@@ -62,18 +57,7 @@
 ;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *activeTasks; // @synthesize activeTasks=_activeTasks;
-@property(retain) NSObject<OS_dispatch_queue> *activeTasksQueue; // @synthesize activeTasksQueue=_activeTasksQueue;
-@property(readonly, copy) NSURLSessionConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSURLSession *session; // @synthesize session=_session;
 @property(retain) NSOperationQueue *sessionDelegateQueue; // @synthesize sessionDelegateQueue=_sessionDelegateQueue;
-@property(readonly) Class superclass;
 
 @end
 

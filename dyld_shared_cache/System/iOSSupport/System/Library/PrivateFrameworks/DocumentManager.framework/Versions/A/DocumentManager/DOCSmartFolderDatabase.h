@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, PQLConnection, RBSAssertion;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSURL;
 
 @interface DOCSmartFolderDatabase
 {
     NSURL *_url;
-    PQLConnection *_connection;
-    NSObject<OS_dispatch_source> *_watcher;
-    RBSAssertion *_batchingAssertion;
-    RBSAssertion *_openAssertion;
-    NSObject<OS_dispatch_queue> *_workingQueue;
 }
 
 - (void);
@@ -24,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)Hcn9ka;
 - (id);
 - (void);
 - (void);
@@ -46,22 +40,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)GG;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RBSAssertion *batchingAssertion; // @synthesize batchingAssertion=_batchingAssertion;
-@property(readonly, nonatomic) PQLConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) RBSAssertion *openAssertion; // @synthesize openAssertion=_openAssertion;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *watcher; // @synthesize watcher=_watcher;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workingQueue; // @synthesize workingQueue=_workingQueue;
 
 @end
 

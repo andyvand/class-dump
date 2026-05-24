@@ -5,5 +5,7 @@
 //
 
 @protocol PPEventServerProtocol
+- (void)pm;
+- (void);
 @end
 

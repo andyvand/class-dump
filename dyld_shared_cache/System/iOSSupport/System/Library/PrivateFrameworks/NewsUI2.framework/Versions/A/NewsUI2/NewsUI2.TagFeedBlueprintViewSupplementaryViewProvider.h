@@ -7,7 +7,6 @@
 @interface NewsUI2.TagFeedBlueprintViewSupplementaryViewProvider
 {
     id delegate;
-    id feedItemSupplementaryRenderer;
 }
 
 @end

@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol IMReadReceiptProcessingParameter
+- (void);
+- (_Bool)ge]_block_invoke;
 - (NSString *)0@ù
 × ;
 @end

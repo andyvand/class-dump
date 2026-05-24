@@ -11,8 +11,6 @@
 @interface ASAuthorizationSingleSignOnRequest : ASAuthorizationOpenIDRequest
 {
     NSArray *_authorizationOptions;
-    _Bool _userInterfaceEnabled;
-    struct os_unfair_lock_s _internalLock;
 }
 
 - (_Bool);
@@ -25,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *authorizationOptions;
-@property(nonatomic, getter=isUserInterfaceEnabled) _Bool userInterfaceEnabled;
 
 @end
 

@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface TKLocalSEPRefKey : TKLocalSEPKey
 {
     unsigned long long _debugID;
-    struct aks_ref_key_s *_AKSRefKey;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,8 +25,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct aks_ref_key_s *);
 - (_Bool);
-- (id);
-- (id);
+- (id)SharingPrefServiceRemoteAppleEvent;
+- (id)NSArray";
 - (id);
 - (id);
 

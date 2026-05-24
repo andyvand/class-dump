@@ -13,11 +13,11 @@
 
 - (void);
 - (void);
-- (id);
+- (id)ent %@.;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_removeKVOForOverlayRenderer:(id)arg1;
 - (void);
 - (id);
 - (void);

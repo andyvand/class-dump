@@ -9,13 +9,13 @@
     id requestController;
 }
 
-+ (id);
++ (id)�hV;
 + (long long);
 + (id)UyfU³8;
 - (void);
 - (void);
 - (id);
-- (void)gr_;
+- (void)SiIegr_;
 
 @end
 

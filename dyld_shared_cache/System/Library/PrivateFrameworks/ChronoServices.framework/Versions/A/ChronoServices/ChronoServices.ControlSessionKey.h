@@ -7,8 +7,6 @@
 @interface ChronoServices.ControlSessionKey
 {
     id identifier;
-    id identity;
-    id loggingIdentifier;
 }
 
 @end

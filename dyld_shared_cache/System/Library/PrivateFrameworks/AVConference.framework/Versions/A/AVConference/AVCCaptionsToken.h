@@ -9,20 +9,16 @@
 @interface AVCCaptionsToken
 {
     NSString *_text;
-    double _confidence;
-    struct _NSRange _range;
 }
 
 - (id);
-- (void);
+- (void)";
 - (id);
 - (id);
-- (struct _NSRange);
-- (double)ss;
+- (struct _NSRange)f][3[3i]][3f][3f][3f]}}}16*24*32;
+- (double)mostBurstLoss;
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 @property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

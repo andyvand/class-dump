@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _PKPackageCreationFileDigest
 {
     NSString *_filePath;
-    NSData *_fileData;
-    NSString *_digest;
-    unsigned long long _readOptions;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)answerWithRequest:(id)arg1;
 
 @end
 

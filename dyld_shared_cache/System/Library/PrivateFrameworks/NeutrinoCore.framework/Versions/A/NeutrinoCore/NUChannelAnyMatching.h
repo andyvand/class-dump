@@ -13,12 +13,12 @@
     NSArray *_predicates;
 }
 
-- (_Bool);
+- (_Bool)02d %d%s;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)nfo;
+- (id)!;
+- (void)videoCorruptionInfo;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *predicates; // @synthesize predicates=_predicates;

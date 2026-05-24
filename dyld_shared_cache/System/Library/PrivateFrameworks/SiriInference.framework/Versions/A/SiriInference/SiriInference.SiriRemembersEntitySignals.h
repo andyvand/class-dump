@@ -7,7 +7,6 @@
 @interface SiriInference.SiriRemembersEntitySignals
 {
     id candidateAppBundleIds;
-    id dataSource;
 }
 
 @end

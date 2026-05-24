@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface SFPairedUnlockWatchEvent
 {
     unsigned int _motionCheckDurationMs;
-    float _timeSinceLastWristRaiseSec;
-    float _timeSinceLastOnWristSec;
-    float _timeSinceBootMin;
-    long long _onWristConfidence;
 }
 
 + (id);
@@ -30,19 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *eventPayload;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned int motionCheckDurationMs; // @synthesize motionCheckDurationMs=_motionCheckDurationMs;
-@property(nonatomic) long long onWristConfidence; // @synthesize onWristConfidence=_onWristConfidence;
-@property(readonly) Class superclass;
-@property(nonatomic) float timeSinceBootMin; // @synthesize timeSinceBootMin=_timeSinceBootMin;
-@property(nonatomic) float timeSinceLastOnWristSec; // @synthesize timeSinceLastOnWristSec=_timeSinceLastOnWristSec;
-@property(nonatomic) float timeSinceLastWristRaiseSec; // @synthesize timeSinceLastWristRaiseSec=_timeSinceLastWristRaiseSec;
 
 @end
 

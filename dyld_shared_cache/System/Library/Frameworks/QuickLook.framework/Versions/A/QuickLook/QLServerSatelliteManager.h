@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSUUID;
+@class NSObject, NSUUID;
 @protocol OS_dispatch_queue;
 
 @interface QLServerSatelliteManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_satellites;
-    NSMutableDictionary *_identifiers;
-    NSMutableDictionary *_sandboxVariants;
-    NSUUID *_previewsIdentifier;
-    NSUUID *_generalIdentifier;
-    NSUUID *_personalIdentifier;
-    NSUUID *_unsandboxedIdentifier;
 }
 
 + (id);
@@ -24,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (id);
 - (id);
 - (id);
@@ -36,9 +29,6 @@
 
 // Remaining properties
 @property(retain) NSUUID *generalIdentifier; // @synthesize generalIdentifier=_generalIdentifier;
-@property(retain) NSUUID *personalIdentifier; // @synthesize personalIdentifier=_personalIdentifier;
-@property(retain) NSUUID *previewsIdentifier; // @synthesize previewsIdentifier=_previewsIdentifier;
-@property(retain) NSUUID *unsandboxedIdentifier; // @synthesize unsandboxedIdentifier=_unsandboxedIdentifier;
 
 @end
 

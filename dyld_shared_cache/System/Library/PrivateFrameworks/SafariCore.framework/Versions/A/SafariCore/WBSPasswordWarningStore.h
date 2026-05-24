@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSPasswordWarningStore
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct unique_ptr<SafariShared::SuddenTerminationDisabler, std::default_delete<SafariShared::SuddenTerminationDisabler>> _suddenTerminationDisabler;
-    _Bool _hasPendingChanges;
-    NSURL *_backingStoreURL;
-    NSMutableDictionary *_lastWarningDatesByPersistentIdentifier;
 }
 
-+ (id);
++ (id)J;
 - (void);
 - (void);
 - (void);
@@ -26,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)SURLSession"16;
 - (void);
 - (void)
 × ;

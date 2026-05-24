@@ -6,46 +6,32 @@
 
 #import <UIKitCore/UILayoutGuide.h>
 
-@class NSLayoutConstraint, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIWindowSafeAreaAspectFitLayoutGuide : UILayoutGuide
 {
     _Bool _layoutFrameDirty;
-    NSLayoutConstraint *_leftConstraint;
-    NSLayoutConstraint *_topConstraint;
-    NSLayoutConstraint *_widthConstraint;
-    NSLayoutConstraint *_heightConstraint;
-    double _aspectRatio;
 }
 
+- (void)ber"44;
+- (void)2@0:(id)arg1 8@"IMDRelayPushHandler"16@"NSString"24B32@"NSNumber"36@"NSNumber"44;
+- (void)ose.dylib;
+- (void)h;
+- (void)s;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)ld not send file over to gizmo. Bailing;
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (void)A°!¬Bùqa1Â0@ù
 × ;
-- (void)nceDisplayModeStatus:(id)arg1 withName:skipIfNotSupported: /* Error: Ran out of types for this method. */;
-- (void)eaderFooterPinningBehavior:(id)arg1;
+- (void)ui_appendReferenceDisplayModeStatus:(id)arg1 withName:skipIfNotSupported: /* Error: Ran out of types for this method. */;
+- (void)_addSupplementaryItemsToLayout:(id)arg1 headerFooterPinningBehavior: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 
 // Remaining properties
-@property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

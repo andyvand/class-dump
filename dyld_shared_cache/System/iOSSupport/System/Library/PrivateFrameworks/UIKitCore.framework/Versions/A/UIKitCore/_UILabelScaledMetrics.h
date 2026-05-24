@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, _UILabelConfiguration;
+@class _UILabelConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface _UILabelScaledMetrics
 {
     struct CGSize _sourceSize;
-    struct CGSize _scaledSize;
-    double _actualScaleFactor;
-    double _baselineOffset;
-    double _scaledBaselineOffset;
-    double _scaledLineHeight;
-    long long _measuredNumberOfLines;
-    NSAttributedString *_scaledAttributedText;
-    struct CGSize _unscaledAndPossiblyTooLargeSize;
-    double _scaledFirstBaselineOffset;
-    struct {
-        unsigned int calculated:1;
-    } _scaledMetricsFlags;
-    _UILabelConfiguration *_configuration;
-    _UILabelScaledMetrics *_associatedScaledMetrics;
-    struct CGRect _totalBounds;
 }
 
+- (id)securityLevelForAccount:(id)arg1;
+- (id)searchableItemsMediaAnalysisComplete:(id)arg1;
+- (_Bool)handler:localFileResponse:storageContext: /* Error: Ran out of types for this method. */;
+- (id)_serviceDefaultsForDomain: /* Error: Ran out of types for this method. */;
+- (void)lds called on object %@ %@;
+- (void)***Error _populateCKRecordWithIMGroupTitleChangeItemFields called on object %@ %@;
+- (void)ChangeItem called on object %@ %@;
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct CGRect);
+- (struct CGRect)CloudClientIsAuthenticatedDidChangeNotification;
 - (struct CGSize);
 - (double)Bù^1Â0@ù
 × ;
@@ -44,26 +29,14 @@ __attribute__((visibility("hidden")))
 - (id)á°!¬Fù_Ð1Â0@ù
 × ;
 - (double);
-- (double)er;
+- (double)_UISceneHostingViewController;
 - (long long);
 - (double);
 - (double)earchBarVisualProviderBase *__strong);
 - (void),ÿ~þ@;
 
 // Remaining properties
-@property(readonly, nonatomic) double actualScaleFactor;
-@property(readonly, nonatomic) _UILabelScaledMetrics *associatedScaledMetrics; // @synthesize associatedScaledMetrics=_associatedScaledMetrics;
-@property(readonly, nonatomic) double baselineOffset;
 @property(readonly, copy, nonatomic) _UILabelConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) _Bool didScale;
-@property(readonly, nonatomic) long long measuredNumberOfLines;
-@property(readonly, nonatomic) NSAttributedString *scaledAttributedText;
-@property(readonly, nonatomic) double scaledBaselineOffset;
-@property(readonly, nonatomic) double scaledFirstBaselineOffset;
-@property(readonly, nonatomic) double scaledLineHeight;
-@property(readonly, nonatomic) struct CGSize scaledSize;
-@property(readonly, nonatomic) struct CGRect totalBounds; // @synthesize totalBounds=_totalBounds;
-@property(readonly, nonatomic) struct CGSize unscaledAndPossiblyTooLargeSize;
 
 @end
 

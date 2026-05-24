@@ -5,5 +5,6 @@
 //
 
 @protocol SFSpeechRecognitionBufferDelegate
+- (void)Q;
 @end
 

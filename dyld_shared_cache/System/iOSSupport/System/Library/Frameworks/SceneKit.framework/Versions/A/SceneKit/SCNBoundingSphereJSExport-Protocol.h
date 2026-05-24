@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(nonatomic) struct SCNVector3 center;
-@property(nonatomic) double radius;
 @end
 

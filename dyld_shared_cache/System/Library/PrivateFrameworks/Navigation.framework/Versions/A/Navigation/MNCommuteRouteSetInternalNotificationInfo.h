@@ -7,14 +7,13 @@
 @interface MNCommuteRouteSetInternalNotificationInfo
 {
     id bannerID;
-    id eventInfo;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)ueuing;
+- (void)useTriggerPointRangeBannerQueuing;
 
 @end
 

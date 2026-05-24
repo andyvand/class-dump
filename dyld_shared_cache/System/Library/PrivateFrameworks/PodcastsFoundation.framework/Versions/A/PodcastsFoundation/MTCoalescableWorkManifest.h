@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MTCoalescableWorkManifest
 {
     CDUnknownBlockType _workBlock;
-    NSArray *_completions;
 }
 
 - (id);
@@ -23,7 +20,6 @@
 - (void)gyn_;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *completions; // @synthesize completions=_completions;
 @property(copy, nonatomic) CDUnknownBlockType workBlock; // @synthesize workBlock=_workBlock;
 
 @end

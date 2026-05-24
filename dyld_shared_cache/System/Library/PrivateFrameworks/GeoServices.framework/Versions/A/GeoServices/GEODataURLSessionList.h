@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface GEODataURLSessionList
 {
     NSMutableArray *_urlSessions;
-    NSMutableArray *_lastUsedDates;
-    NSMapTable *_pendingInvalidationGroups;
 }
 
-- (id);
+- (id)age:] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)<;
 - (id), rolloutFactorpackId:(id)arg1 %@];
 - (void);
 - (unsigned long long)t;

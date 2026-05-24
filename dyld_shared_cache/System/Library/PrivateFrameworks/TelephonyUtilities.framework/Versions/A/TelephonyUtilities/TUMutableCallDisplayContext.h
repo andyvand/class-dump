@@ -6,7 +6,7 @@
 
 #import <TelephonyUtilities/TUCallDisplayContext.h>
 
-@class NSArray, NSPersonNameComponents, NSString, NSURL;
+@class NSString;
 
 @interface TUMutableCallDisplayContext : TUCallDisplayContext
 {
@@ -16,25 +16,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *callDirectoryExtensionIdentifier; // @dynamic callDirectoryExtensionIdentifier;
-@property(nonatomic) long long callDirectoryIdentityType; // @dynamic callDirectoryIdentityType;
-@property(copy, nonatomic) NSString *callDirectoryLabel; // @dynamic callDirectoryLabel;
-@property(copy, nonatomic) NSString *callDirectoryLocalizedExtensionContainingAppName; // @dynamic callDirectoryLocalizedExtensionContainingAppName;
-@property(copy, nonatomic) NSString *companyDepartment; // @dynamic companyDepartment;
-@property(copy, nonatomic) NSURL *companyLogoURL; // @dynamic companyLogoURL;
-@property(copy, nonatomic) NSString *companyName; // @dynamic companyName;
-@property(copy, nonatomic) NSString *contactIdentifier; // @dynamic contactIdentifier;
-@property(copy, nonatomic) NSArray *contactIdentifiers; // @dynamic contactIdentifiers;
-@property(copy, nonatomic) NSString *contactLabel; // @dynamic contactLabel;
-@property(copy, nonatomic) NSString *contactName; // @dynamic contactName;
-@property(copy, nonatomic) NSString *firstName; // @dynamic firstName;
-@property(copy, nonatomic) NSString *label; // @dynamic label;
-@property(nonatomic) int legacyAddressBookIdentifier; // @dynamic legacyAddressBookIdentifier;
-@property(copy, nonatomic) NSString *location; // @dynamic location;
-@property(copy, nonatomic) NSString *mapName; // @dynamic mapName;
 @property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSPersonNameComponents *personNameComponents; // @dynamic personNameComponents;
-@property(copy, nonatomic) NSString *suggestedName; // @dynamic suggestedName;
 
 @end
 

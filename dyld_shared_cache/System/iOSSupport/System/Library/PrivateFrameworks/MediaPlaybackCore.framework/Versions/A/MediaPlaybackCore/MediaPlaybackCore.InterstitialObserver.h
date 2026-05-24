@@ -7,13 +7,6 @@
 @interface MediaPlaybackCore.InterstitialObserver
 {
     id player;
-    id observedIntegratedTimeline;
-    id monitor;
-    id snapshotObserver;
-    id currentItemObservation;
-    id observerNumber;
-    id currentSegmentObservers;
-    id segmentsObservers;
 }
 
 @end

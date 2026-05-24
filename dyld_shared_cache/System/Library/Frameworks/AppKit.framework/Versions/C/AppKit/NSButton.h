@@ -6,17 +6,11 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSSymbolContentTransition, NSSymbolEffectOptions, NSView;
+@class NSView;
 
 @interface NSButton : NSControl
 {
     NSView *_contentView;
-    long long _material;
-    unsigned int _observingInTableSelection:1;
-    unsigned int _observingToolbarRolloverState:1;
-    unsigned int _hasExplicitMaterialSet:1;
-    NSSymbolContentTransition *_symbolContentTransition;
-    NSSymbolEffectOptions *_symbolContentTransitionOptions;
 }
 
 @end

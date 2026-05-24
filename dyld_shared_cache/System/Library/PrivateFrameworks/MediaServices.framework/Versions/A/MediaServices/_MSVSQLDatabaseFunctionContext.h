@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MSVSQLDatabaseFunctionContext
 {
     struct sqlite3_context *_context;
-    int _argc;
-    struct sqlite3_value **_argv;
 }
 
 - (unsigned long long);
@@ -20,24 +16,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)an;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)m;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)*J;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)D9;
 - (long long);
 - (id);
 - (float);
-- (double);
+- (double);
 - (id);
 - (id);
 - (_Bool);
@@ -48,14 +44,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long numberOfArguments;
-@property(readonly) Class superclass;
 
 @end
 

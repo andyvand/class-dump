@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol GEOMapServiceAllCollectionsViewTicket
+- (void)T4;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

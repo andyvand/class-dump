@@ -4,19 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSConversation, UIViewController;
-@protocol _MSMessageComposeExtensionImplProtocol, _MSMessageComposeHostImplProtocol;
+@class MSConversation;
 
 @protocol _MSMessageComposeExtensionImplProtocol
+- (void);
+- (void)U;
+- (void)y	;
+- (void);
+- (void);
+- (void);
+- (void) `I;
+- (unsigned long long)l;
+
+@optional
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) MSConversation *activeConversation;
-@property(nonatomic) _Bool becomeActiveShouldDispatchAsyncMainQueue;
-@property(retain, nonatomic) id <_MSMessageComposeExtensionImplProtocol> containingContext;
-@property(retain, nonatomic) id <_MSMessageComposeHostImplProtocol> hostContext;
-@property(nonatomic) unsigned long long presentationContext;
-@property(nonatomic) unsigned long long presentationStyle;
-@property(readonly, nonatomic) __weak UIViewController *stickerViewController;
-@property(readonly, nonatomic) __weak UIViewController *viewController;
 @end
 

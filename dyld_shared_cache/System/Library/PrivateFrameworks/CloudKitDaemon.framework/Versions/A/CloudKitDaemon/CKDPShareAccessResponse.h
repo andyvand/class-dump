@@ -11,8 +11,9 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)r}] (%@) err = %d flushPendingCount = %d
+;
+- (_Bool)! ;
 - (_Bool);
 - (void);
 - (id);

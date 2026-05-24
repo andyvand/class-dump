@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SPMVolume
 {
     NSURL *_URL;
-    NSString *_name;
 }
 
 - (id);
-- (id);
+- (id)timeIntervalSinceDate: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly) NSString *name; // @synthesize name=_name;
 
 @end
 

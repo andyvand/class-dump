@@ -16,7 +16,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void)itrationFeedbackEnabled;
 

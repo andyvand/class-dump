@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ASCredentialRequestAuthenticationSheetDetails
 {
     long long _preferredMechanism;
-    NSString *_authenticationTitle;
-    NSString *_authenticationMessage;
-    NSString *_callerName;
-    NSString *_callerIconPath;
-    NSString *_submitButtonTitle;
-    NSString *_companionPrompt;
 }
 
 - (id);
 - (void);
-- (void);
+- (void).;
 - (long long);
 - (id);
 - (id);
@@ -29,18 +21,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)browserWindowTabViewController:willSelectTabViewItem: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *authenticationMessage; // @synthesize authenticationMessage=_authenticationMessage;
-@property(copy, nonatomic) NSString *authenticationTitle; // @synthesize authenticationTitle=_authenticationTitle;
-@property(copy, nonatomic) NSString *callerIconPath; // @synthesize callerIconPath=_callerIconPath;
-@property(copy, nonatomic) NSString *callerName; // @synthesize callerName=_callerName;
-@property(copy, nonatomic) NSString *companionPrompt; // @synthesize companionPrompt=_companionPrompt;
 @property(nonatomic) long long preferredMechanism; // @synthesize preferredMechanism=_preferredMechanism;
-@property(copy, nonatomic) NSString *submitButtonTitle; // @synthesize submitButtonTitle=_submitButtonTitle;
 
 @end
 

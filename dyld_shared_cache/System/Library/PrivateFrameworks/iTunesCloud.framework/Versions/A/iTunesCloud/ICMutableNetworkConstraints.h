@@ -10,10 +10,10 @@
 {
 }
 
+- (void)oordinates;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)`B;
 - (void);
 - (void);
 - (id);

@@ -6,7 +6,7 @@
 
 #import <SystemMigrationUtils/SMSystem_FileManager_macOS.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SMSystem_FileManager_DiskBased : SMSystem_FileManager_macOS
 {
@@ -16,12 +16,12 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id){;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -31,13 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *buildVersion;
-@property(readonly, getter=isFileSystemReady) _Bool fileSystemReady;
-@property(readonly) NSString *productVersion;
 @property(retain) NSURL *root; // @synthesize root=_root;
-@property(readonly) NSURL *slash;
-@property(readonly) NSURL *userContentRoot;
-@property(readonly) NSURL *userHomeRoot;
 
 @end
 

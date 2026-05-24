@@ -10,9 +10,9 @@
 {
 }
 
-+ (id);
++ (id)s account doesn't support it {note:(_Bool)arg1 %@};
 - (id);
-- (struct CGSize);
+- (struct CGSize)_edgesToRemoveEndPoint;
 - (Class);
 
 @end

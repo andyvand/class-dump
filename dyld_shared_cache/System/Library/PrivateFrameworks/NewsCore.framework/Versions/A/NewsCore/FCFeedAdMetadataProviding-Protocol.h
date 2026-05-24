@@ -7,15 +7,10 @@
 @class NSArray, NSString;
 
 @protocol FCFeedAdMetadataProviding
-- (NSArray *)dioAccessTechnology;
+- (NSArray *)rayOffset = vec2(grayI, grayQ) ; vec3 result = pix.rgb; float newStrength = 1.0 + (strength-1.0)*(1.0-pix.r) ; result.gb = pix.gb + newStrength*grayOffset ; float damp = max(min(1.0, pix.r/(lum+0.00001)),0.0) ; result.rgb = mix(pix.rgb, result.rgb, damp) ; pix.rgb = result.r * vec3(1.0) + result.g * vec3(0.956296, -0.272122, -1.10699) + result.b * vec3(0.621024, -0.647381, 1.70461); pix.rgb = clamp(pix.rgb, 0.0, 1.0); pix.rgb *= pix.rgb*pix.rgb*pix.rgb; pix.rgb += min(im.rgb, 0.0) + max(im.rgb,1.0) -1.0; return pix; };
+- (NSArray *)cellularRadioAccessTechnology;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *iAdCategories;
-@property(readonly, nonatomic) long long iAdContentProvider;
-@property(readonly, nonatomic) NSString *iAdFeedID;
 @property(readonly, nonatomic) NSString *iAdIdentifier;
-@property(readonly, nonatomic) NSArray *iAdKeywords;
-@property(readonly, nonatomic) NSString *iAdPrimaryAudience;
-@property(readonly, nonatomic) NSString *iAdSectionID;
 @end
 

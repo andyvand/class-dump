@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutXAxisAnchor, NSLayoutYAxisAnchor;
+@class NSLayoutXAxisAnchor;
 
 @interface NSLayoutPoint
 {
     NSLayoutXAxisAnchor *_xAxisAnchor;
-    NSLayoutYAxisAnchor *_yAxisAnchor;
 }
 
 + (id);
 + (id);
+- (id)q;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (struct CGPoint);
 - (id);
-- (void);
+- (void)MLE5StaticShapeExecutionStreamOperationPool;
 - (id);
 - (_Bool);
-- (void);
+- (void)_hasIsCloudKitSupportOperation;
 - (id);
 
 // Remaining properties
 @property(readonly, copy) NSLayoutXAxisAnchor *xAxisAnchor; // @synthesize xAxisAnchor=_xAxisAnchor;
-@property(readonly, copy) NSLayoutYAxisAnchor *yAxisAnchor; // @synthesize yAxisAnchor=_yAxisAnchor;
 
 @end
 

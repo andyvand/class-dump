@@ -12,8 +12,8 @@
 {
 }
 
-- (void);
-- (CDUnknownBlockType);
+- (void)36;
+- (CDUnknownBlockType)_allowedIDSDevicesforSMSRelay;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType dragItemProvider;

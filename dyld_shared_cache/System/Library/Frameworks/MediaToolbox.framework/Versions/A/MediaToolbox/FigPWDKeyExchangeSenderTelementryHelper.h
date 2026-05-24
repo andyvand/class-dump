@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock;
-
 @interface FigPWDKeyExchangeSenderTelementryHelper
 {
     struct __CFDictionary *_telemetryDict;
-    NSLock *_telemetryLock;
 }
 
 - (void);

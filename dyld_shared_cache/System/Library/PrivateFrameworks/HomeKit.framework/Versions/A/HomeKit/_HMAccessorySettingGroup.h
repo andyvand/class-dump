@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessorySettings, NSArray, NSMutableSet, NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue, _HMAccessorySettingGroupDelegate;
+@class HMAccessorySettings;
 
 @interface _HMAccessorySettingGroup
 {
     struct os_unfair_lock_s _lock;
-    NSMutableSet *_settings;
-    NSMutableSet *_groups;
-    id <_HMAccessorySettingGroupDelegate> _delegate;
-    NSUUID *_identifier;
-    NSString *_name;
-    _HMContext *_context;
-    HMAccessorySettings *_accessorySettings;
 }
 
 + (id);
@@ -24,23 +16,23 @@
 + (id);
 + (_Bool);
 + (id)t) fetchWalleKeyExpressEnablementConflictingPassDescription:] /* Error: Ran out of types for this method. */;
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void));
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)Q;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (id);
 - (id);
 - (id);
@@ -52,14 +44,14 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)awestruck;
 - (void);
 - (id);
 - (void);
+- (id)calWeightTplIfEEEEEENS1_IS8_EEEEE2TNILi4EEEEE;
 - (id);
 - (id);
-- (id);
-- (_Bool)ftwareUpdateWithCompletion:(id)arg1;
+- (_Bool)clearUserNotifiedOfSoftwareUpdateWithCompletion:(id)arg1;
 - (id)lerDatas;
 - (void)diaSystemTimerManager;
 - (id)Error %@;
@@ -67,24 +59,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak HMAccessorySettings *accessorySettings; // @synthesize accessorySettings=_accessorySettings;
-@property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <_HMAccessorySettingGroupDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *groups;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSArray *settings;
-@property(readonly) Class superclass;
 
 @end
 

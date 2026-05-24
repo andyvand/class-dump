@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id)accessibilityLabel;
 + (void);
 - (_Bool);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)iSo17AXChartDescriptorCSgIegpr_;
 
 @end
 

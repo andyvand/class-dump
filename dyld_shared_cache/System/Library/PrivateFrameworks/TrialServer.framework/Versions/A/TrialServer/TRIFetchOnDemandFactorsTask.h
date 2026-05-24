@@ -6,29 +6,11 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSSet, NSString, TRIRolloutDeployment, TRITaskCapabilityModifier, TRITrialSystemTelemetry, _PASLock;
-@protocol TRIArtifactProvider, TRITaskAttributing, TRITaskQueueStateProviding;
+@class NSDictionary, TRIRolloutDeployment;
 
 @interface TRIFetchOnDemandFactorsTask : TRIBaseTask
 {
     NSDictionary *_assetIndexesByTreatment;
-    NSDictionary *_assetIdsByFactorPack;
-    NSSet *_rolloutFactorNames;
-    NSString *_namespaceName;
-    id <TRITaskAttributing> _taskAttributing;
-    int _retryCount;
-    NSString *_notificationKey;
-    TRITaskCapabilityModifier *_capabilityModifier;
-    _Atomic _Bool _isCurrentlyExecuting;
-    TRITrialSystemTelemetry *_trialSystemTelemetry;
-    NSMutableArray *_metrics;
-    NSMutableArray *_dimensions;
-    id <TRIArtifactProvider> _artifactProvider;
-    _PASLock *_lock;
-    NSMutableDictionary *_factorNameByAssetId;
-    _Bool wasDeferred;
-    TRIRolloutDeployment *_deployment;
-    NSString *_experimentId;
 }
 
 + (id);
@@ -36,21 +18,21 @@
 + (_Bool);
 - (_Bool);
 - (id);
+- (void)setProhibitCaching:(id)arg1;
+- (id)ry died;
+- (void)identifier=%@, targetAverageBitrate=%@, sampleRate=%@, bitDepth=%@, packetTime=%@, numberOfChannels=%@>;
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)ecorder flushing %{public}ld entries for reason:(id)arg1 %{public}s;
 - (CDStruct_6b48f683);
 - (unsigned long long);
 - (void);
 - (CDStruct_6b48f683);
-- (unsigned long long);
+- (unsigned long long)hasSuperConnections;
 - (id);
 - (id);
 - (id);
@@ -60,7 +42,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
@@ -68,7 +50,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (id)1Â0@ù
 × ;
@@ -76,32 +58,14 @@
 - (id)l is NULL;
 - (id)ve low level namespace;
 - (unsigned long long)e dropping the shadow evaluation column from the experiments table upon migration to DB version 25;
-- (id)undleId: /* Error: Ran out of types for this method. */;
+- (id)tri_versionStringForBundleId: /* Error: Ran out of types for this method. */;
 - (int)nil;
 - (void)URL"8^B16;
 - (int)targetedTargetingRuleIndex = :rule_index WHERE         rolloutId = :rollout_id     AND deploymentId = :deployment_id; /* Error: Ran out of types for this method. */;
 - (id)ÿ/ôÅ±;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
 @property(readonly, nonatomic) TRIRolloutDeployment *deployment; // @synthesize deployment=_deployment;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCurrentlyExecuting;
-@property(nonatomic) int retryCount;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) id <TRITaskAttributing> taskAttribution;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

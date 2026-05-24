@@ -9,9 +9,6 @@
 @interface CLFindMyAccessoryWildConfiguration
 {
     unsigned short _keysRemaining;
-    unsigned short _keyCount;
-    unsigned int _keyRollInterval;
-    NSDate *_desiredKeyRollDate;
 }
 
 + (_Bool);
@@ -21,17 +18,15 @@
 - (id);
 - (unsigned int);
 - (unsigned short);
-- (void);
+- (void)humbnail:[session:%p]  img:%d  err=%d
+ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)?;
 
 // Remaining properties
 @property(readonly) NSDate *desiredKeyRollDate; // @synthesize desiredKeyRollDate=_desiredKeyRollDate;
-@property(readonly) unsigned short keyCount; // @synthesize keyCount=_keyCount;
-@property(readonly) unsigned int keyRollInterval; // @synthesize keyRollInterval=_keyRollInterval;
-@property(readonly) unsigned short keysRemaining; // @synthesize keysRemaining=_keysRemaining;
 
 @end
 

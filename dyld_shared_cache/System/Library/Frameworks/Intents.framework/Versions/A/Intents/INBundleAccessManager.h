@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface INBundleAccessManager
 {
@@ -15,15 +15,12 @@
         unsigned int _cacheMissCount;
         unsigned int _imageServiceLoadCount;
     } _stats;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_securityScopedURLs;
-    NSMutableSet *_accessibleBundleIDs;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)brary/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics;
 - (id);
 - (id);
 - (id);
@@ -31,7 +28,6 @@
 - (void)it.intent.car_commands.SetClimateSettingsInCarIntent;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableSet *accessibleBundleIDs; // @synthesize accessibleBundleIDs=_accessibleBundleIDs;
 @property(readonly, nonatomic) NSMutableDictionary *securityScopedURLs; // @synthesize securityScopedURLs=_securityScopedURLs;
 
 @end

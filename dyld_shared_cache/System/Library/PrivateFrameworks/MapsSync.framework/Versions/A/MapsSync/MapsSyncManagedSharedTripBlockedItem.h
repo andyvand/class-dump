@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedSharedTripBlockedItem
@@ -16,10 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *createTime; // @dynamic createTime;
-@property(nonatomic) long long expiryTime; // @dynamic expiryTime;
-@property(nonatomic, copy) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic, copy) NSDate *modificationTime; // @dynamic modificationTime;
-@property(nonatomic, copy) NSString *sharedTripIdentifier; // @dynamic sharedTripIdentifier;
 
 @end
 

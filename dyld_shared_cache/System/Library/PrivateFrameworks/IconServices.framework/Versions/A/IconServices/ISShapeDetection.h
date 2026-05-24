@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (double);
-+ (unsigned long long);
++ (unsigned long long)imperialPints;
 - (_Bool);
 - (_Bool);
 

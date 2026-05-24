@@ -11,12 +11,11 @@
 @interface QCQuadricUI : QCInspector
 {
     NSTextField *slicesField;
-    NSTextField *stacksField;
 }
 
 + (id);
 - (void);
-- (void)terColor;
+- (void)filterColor;
 
 @end
 

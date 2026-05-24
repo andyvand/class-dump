@@ -5,5 +5,6 @@
 //
 
 @protocol ABMetadataManager
+- (void);
 @end
 

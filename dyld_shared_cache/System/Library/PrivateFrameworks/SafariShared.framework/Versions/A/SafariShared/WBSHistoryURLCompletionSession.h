@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, WBSHistoryService, WBSHistoryServiceDatabase, WBSURLCompletionDatabase;
-@protocol OS_dispatch_queue;
+@class WBSHistoryService;
 
 @interface WBSHistoryURLCompletionSession
 {
     WBSHistoryService *_historyService;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    WBSHistoryServiceDatabase *_database;
-    WBSURLCompletionDatabase *_urlCompletionDatabase;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -28,15 +24,7 @@
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic, getter=isEnumeratingBookmarkMatches) _Bool enumeratingBookmarkMatches;
-@property(readonly, nonatomic, getter=isEnumeratingHistoryMatches) _Bool enumeratingHistoryMatches;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

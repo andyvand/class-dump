@@ -9,7 +9,6 @@
 @interface ICIAMParameter
 {
     NSString *_key;
-    NSString *_value;
 }
 
 - (void);
@@ -21,20 +20,17 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void)!´FùÑ!°1Â0@ù
 × ;
-- (void)ying;
+- (void)NSCopying;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

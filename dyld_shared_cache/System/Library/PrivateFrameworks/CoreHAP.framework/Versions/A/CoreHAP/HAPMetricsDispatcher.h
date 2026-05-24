@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol HMMLogEventSubmitting;
 
 @interface HAPMetricsDispatcher
@@ -20,14 +19,7 @@
 - (void)eUtilsHTTPClient>"24@0:8@"NSObject<OS_dispatch_queue>"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <HMMLogEventSubmitting> logDispatcher; // @synthesize logDispatcher=_logDispatcher;
-@property(readonly) Class superclass;
 
 @end
 

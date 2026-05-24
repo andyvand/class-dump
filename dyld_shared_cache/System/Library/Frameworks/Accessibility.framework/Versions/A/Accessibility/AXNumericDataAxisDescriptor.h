@@ -4,61 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXScale, NSArray, NSAttributedString, NSString;
+@class AXScale, NSString;
 
 @interface AXNumericDataAxisDescriptor
 {
     NSString *_title;
-    NSAttributedString *_attributedTitle;
-    long long _scaleType;
-    double _lowerBound;
-    double _upperBound;
-    CDUnknownBlockType _valueDescriptionProvider;
-    NSArray *_gridlinePositions;
-    AXScale *_scale;
 }
 
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (CDUnknownBlockType)t;
+- (void)invoke, retErrFromDMT=%d;
+- (void)@;
+- (void)=%@ inEntireDisk=%d inForce=%d inTimeout=%.4f;
+- (void)@;
+- (long long)ight inVolumePath;
+- (double)error:STOP because (the first) unsuccessful mount /* Error: Ran out of types for this method. */;
+- (id)uling and releasing DA session %p;
+- (id)waitForDACallBack;
+- (id)DissenterStatusString;
+- (void)IsRevertInProgressOrPlanned;
 - (double);
+- (void);
+- (id)ple.xbs/TemporaryDirectory.BCIcGs/Sources/AddressBook/Framework/AddressBookUI/ABAllGroup.m;
+- (id)_attributedString;
+- (void)@;
+- (id)}+;
+- (id);
+- (void)_analyzeForChannel:(id)arg1 keywordDetectorResult:losingPhraseResults: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (double);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)aaaaaaaaaaaaaaaaaaaaaaaaaaa^ar;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *gridlinePositions; // @synthesize gridlinePositions=_gridlinePositions;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double lowerBound; // @synthesize lowerBound=_lowerBound;
 @property(retain, nonatomic) AXScale *scale; // @synthesize scale=_scale;
-@property(nonatomic) long long scaleType; // @synthesize scaleType=_scaleType;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) double upperBound; // @synthesize upperBound=_upperBound;
-@property(copy, nonatomic) CDUnknownBlockType valueDescriptionProvider; // @synthesize valueDescriptionProvider=_valueDescriptionProvider;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <OfficeImport/EDCollection.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface EDColorsCollection : EDCollection
 {
@@ -17,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (unsigned int);
 + (int);
 + (_Bool);
-+ (int);
++ (int);
 - (void);
 - (id);
 - (const unsigned int *);
@@ -30,13 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol JEMediaPlaylistItem
 
+@optional
+- (unsigned long long);
+- (unsigned long long)Response";
+
 // Remaining properties
-@property(readonly, nonatomic) NSArray *eventData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
 @property(readonly, nonatomic) unsigned long long startOverallPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) unsigned long long startPosition;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R,N
 

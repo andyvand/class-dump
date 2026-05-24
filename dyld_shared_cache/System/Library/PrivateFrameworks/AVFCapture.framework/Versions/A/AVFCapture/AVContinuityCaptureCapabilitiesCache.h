@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)xml:(id)arg1 id;
 + (id);
 + (void);
 

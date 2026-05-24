@@ -9,7 +9,6 @@
 @interface AVTAvatarAttributeEditorSectionSupplementalPicker
 {
     NSString *_localizedTitle;
-    NSArray *_choices;
 }
 
 + (id);
@@ -18,19 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)berWithInteger: /* Error: Ran out of types for this method. */;
+- (void)x;
+- (id)numberWithInteger: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *choices; // @synthesize choices=_choices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly) Class superclass;
 
 @end
 

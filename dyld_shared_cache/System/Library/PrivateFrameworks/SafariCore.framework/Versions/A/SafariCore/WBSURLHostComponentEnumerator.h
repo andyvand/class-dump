@@ -9,21 +9,6 @@
 @interface WBSURLHostComponentEnumerator
 {
     NSMutableString *_accumulatorString;
-    NSString *_topLevelDomainSubstring;
-    unsigned long long _length;
-    unsigned long long _numberOfAccummulatedComponents;
-    struct _NSRange _nextSearchRange;
-    _Bool _didCheckTopLevelDomain;
-    _Bool _didFindTopLevelDomain;
-    _Bool _didGenerateFullHighLevelDomain;
-    _Bool _didBeginConsumingCharacters;
-    _Bool _containsEmptyComponents;
-    _Bool _isSpeculative;
-    unsigned int _ipv4Address;
-    NSString *_host;
-    unsigned long long _options;
-    long long _kind;
-    struct in6_addr _ipv6Address;
 }
 
 - (id);
@@ -34,22 +19,16 @@
 - (_Bool);
 - (struct in6_addr);
 - (unsigned int);
+- (id)#;
 - (id);
+- (unsigned long long)Q32^@40;
 - (id);
-- (unsigned long long);
-- (id);
-- (long long);
+- (long long);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsEmptyComponents; // @synthesize containsEmptyComponents=_containsEmptyComponents;
 @property(readonly, copy, nonatomic) NSString *host; // @synthesize host=_host;
-@property(readonly, nonatomic) unsigned int ipv4Address; // @synthesize ipv4Address=_ipv4Address;
-@property(readonly, nonatomic) struct in6_addr ipv6Address; // @synthesize ipv6Address=_ipv6Address;
-@property(readonly, nonatomic) _Bool isSpeculative; // @synthesize isSpeculative=_isSpeculative;
-@property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 
 @end
 

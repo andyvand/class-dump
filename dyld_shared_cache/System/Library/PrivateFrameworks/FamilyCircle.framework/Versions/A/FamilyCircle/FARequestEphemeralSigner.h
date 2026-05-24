@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSDictionary;
+@class ACAccount;
 
 @interface FARequestEphemeralSigner
 {
     void ephemeralAuthResults;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)sharedUserIdFromPlayableMusicAccount;
+- (id)xpAbCookie;
+- (id)Server;
+- (id)calendarId;
 - (id);
 - (id);
 - (void);
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) ACAccount *account;
-@property(nonatomic, copy) NSDictionary *ephemeralAuthResults;
 
 @end
 

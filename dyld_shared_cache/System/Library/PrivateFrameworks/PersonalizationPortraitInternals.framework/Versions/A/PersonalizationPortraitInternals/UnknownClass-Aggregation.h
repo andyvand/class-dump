@@ -9,10 +9,10 @@
 - (unsigned char);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -23,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 @end
 

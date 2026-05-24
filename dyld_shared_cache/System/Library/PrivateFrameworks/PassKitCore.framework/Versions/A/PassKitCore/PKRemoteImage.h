@@ -9,38 +9,32 @@
 @interface PKRemoteImage
 {
     NSURL *_remoteURL;
-    unsigned long long _scaleFactor;
-    double _width;
-    double _height;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (id)(;
+- (unsigned long long)?	;
 - (double);
 - (double);
 - (_Bool);
-- (void);
+- (void)_isiCloudSignedIn;
 - (void);
 - (id);
 - (void);
 - (unsigned long long)6@64@72@80B88Q92@100q108@116;
-- (id)ier;
+- (id)keyReferenceIdentifier;
 - (void)»¼ ¼<½8ÆÆÀÆÊÀÊ;
 - (void)stem/Library/Frameworks/HomeKit.framework/HomeKit;
 
 // Remaining properties
-@property(nonatomic) double height; // @synthesize height=_height;
 @property(retain, nonatomic) NSURL *remoteURL; // @synthesize remoteURL=_remoteURL;
-@property(nonatomic) unsigned long long scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

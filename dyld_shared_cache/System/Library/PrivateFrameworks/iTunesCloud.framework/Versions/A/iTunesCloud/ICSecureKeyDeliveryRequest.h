@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetResourceLoadingRequest, AVContentKeyRequest, ICRequestContext, NSData, NSNumber, NSString, NSURL;
+@class NSURL;
 
 @interface ICSecureKeyDeliveryRequest
 {
     _Bool _skippedRentalCheckout;
-    _Bool _ITunesStoreRequest;
-    _Bool _shouldIncludeDeviceGUID;
-    _Bool _isOfflineDownload;
-    NSURL *_certificateURL;
-    NSString *_contentURI;
-    NSURL *_keyServerURL;
-    long long _leaseActionType;
-    ICRequestContext *_requestContext;
-    long long _rentalID;
-    long long _qualityOfService;
-    CDUnknownBlockType _serverPlaybackContextDataCreationHandler;
-    CDUnknownBlockType _asyncServerPlaybackContextDataCreationHandler;
-    long long _requestProtocolType;
-    NSNumber *_adamID;
-    NSNumber *_accountDSID;
-    NSData *_serverPlaybackContextData;
-    AVAssetResourceLoadingRequest *_resourceLoadingRequest;
-    AVContentKeyRequest *_contentKeyRequest;
 }
 
 - (_Bool);
@@ -57,18 +39,18 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)?;
 - (long long);
-- (id);
+- (id) A95;
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)tWithCompletion:(id)arg1;
+- (id);
+- (void)resultWithCompletion:(id)arg1;
 - (void),N,V_sessionToken;
 - (void)quest;
 - (id)ken for user token request.;
@@ -76,25 +58,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic, getter=isITunesStoreRequest) _Bool ITunesStoreRequest; // @synthesize ITunesStoreRequest=_ITunesStoreRequest;
-@property(copy, nonatomic) NSNumber *accountDSID; // @synthesize accountDSID=_accountDSID;
-@property(copy, nonatomic) NSNumber *adamID; // @synthesize adamID=_adamID;
-@property(copy, nonatomic) CDUnknownBlockType asyncServerPlaybackContextDataCreationHandler; // @synthesize asyncServerPlaybackContextDataCreationHandler=_asyncServerPlaybackContextDataCreationHandler;
 @property(copy, nonatomic) NSURL *certificateURL; // @synthesize certificateURL=_certificateURL;
-@property(readonly, retain, nonatomic) AVContentKeyRequest *contentKeyRequest; // @synthesize contentKeyRequest=_contentKeyRequest;
-@property(copy, nonatomic) NSString *contentURI; // @synthesize contentURI=_contentURI;
-@property(nonatomic) _Bool isOfflineDownload; // @synthesize isOfflineDownload=_isOfflineDownload;
-@property(copy, nonatomic) NSURL *keyServerURL; // @synthesize keyServerURL=_keyServerURL;
-@property(nonatomic) long long leaseActionType; // @synthesize leaseActionType=_leaseActionType;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(nonatomic) long long rentalID; // @synthesize rentalID=_rentalID;
-@property(copy, nonatomic) ICRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(nonatomic) long long requestProtocolType; // @synthesize requestProtocolType=_requestProtocolType;
-@property(readonly, retain, nonatomic) AVAssetResourceLoadingRequest *resourceLoadingRequest; // @synthesize resourceLoadingRequest=_resourceLoadingRequest;
-@property(readonly, copy, nonatomic) NSData *serverPlaybackContextData; // @synthesize serverPlaybackContextData=_serverPlaybackContextData;
-@property(copy, nonatomic) CDUnknownBlockType serverPlaybackContextDataCreationHandler; // @synthesize serverPlaybackContextDataCreationHandler=_serverPlaybackContextDataCreationHandler;
-@property(nonatomic) _Bool shouldIncludeDeviceGUID; // @synthesize shouldIncludeDeviceGUID=_shouldIncludeDeviceGUID;
-@property(nonatomic) _Bool skippedRentalCheckout; // @synthesize skippedRentalCheckout=_skippedRentalCheckout;
 
 @end
 

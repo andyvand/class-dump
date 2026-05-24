@@ -16,8 +16,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)_updateLineIndexForElement:(id)arg1 withElementInfo:(id)arg2;
+- (unsigned long long)y visited items;
 - (void)e!!!
 ;
 

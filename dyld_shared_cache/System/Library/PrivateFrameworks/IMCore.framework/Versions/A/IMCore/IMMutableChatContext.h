@@ -6,33 +6,23 @@
 
 #import <IMCore/IMChatContext.h>
 
-@class NSArray, NSUUID;
-
 @interface IMMutableChatContext : IMChatContext
 {
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)uring audio stream;
+- (void)e to one rate config;
+- (void)nfiguration;
+- (void)g;
+- (void)d %@(%p) Failed to setup the audio stream config;
+- (void)ream [%s] %s:(long long)arg1 %d stream=%@, didResumeStream=%d, error=%@;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *activeTelephonyConversationUUID; // @dynamic activeTelephonyConversationUUID;
-@property(nonatomic) long long filterCategory; // @dynamic filterCategory;
-@property(nonatomic, getter=isChatBot) _Bool isChatBot; // @dynamic isChatBot;
-@property(nonatomic, getter=hasResponded) _Bool responded; // @dynamic responded;
-@property(nonatomic, getter=areSendersUnknown) _Bool sendersUnknown; // @dynamic sendersUnknown;
 @property(nonatomic) long long serviceType; // @dynamic serviceType;
-@property(nonatomic) _Bool showTranslationAlternateText; // @dynamic showTranslationAlternateText;
-@property(retain, nonatomic) NSArray *showingEditHistoryForChatItemGUIDs; // @dynamic showingEditHistoryForChatItemGUIDs;
-@property(nonatomic, getter=isSpam) _Bool spam; // @dynamic spam;
 
 @end
 

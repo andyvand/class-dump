@@ -5,5 +5,7 @@
 //
 
 @protocol HMDCameraRecordingSessionVideoAnalyzerDelegate
+- (void);
+- (void);
 @end
 

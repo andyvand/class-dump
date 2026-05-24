@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PGGraphBuilder, PGGraphIngestPersonAgeCategoryProcessorHelper;
+@class PGGraphBuilder;
 
 @interface PGGraphIngestPersonAgeCategoryProcessor
 {
     PGGraphBuilder *_graphBuilder;
-    PGGraphIngestPersonAgeCategoryProcessorHelper *_helper;
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void)set_didRegisterWindowDidMiniaturizeNotification:(id)arg1;
+- (void)focusedApplication;
 - (id);
 - (void);
 - (void)Ingest/Ingest Processing/PGGraphIngestMemoryProcessor.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

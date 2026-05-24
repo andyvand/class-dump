@@ -6,33 +6,19 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface DGEnhanceOperation : DGOperation
 {
     int _contrastLegacyVersion;
-    int _saturationLegacyVersion;
-    int _vibranceLegacyVersion;
-    int _definitionLegacyVersion;
-    NSNumber *_inputContrast;
-    NSNumber *_inputDefinition;
-    NSNumber *_inputSaturation;
-    NSNumber *_inputVibrancy;
-    NSNumber *_inputWhiteUOffset;
-    NSNumber *_inputWhiteVOffset;
-    NSNumber *_inputGrayUOffset;
-    NSNumber *_inputGrayVOffset;
-    NSNumber *_inputGrayBrightness;
-    NSNumber *_inputBlackUOffset;
-    NSNumber *_inputBlackVOffset;
 }
 
 + (_Bool);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -43,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (id);
 - (id);
@@ -59,10 +45,10 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)LemonadeShelvesScrollDisabledKey;
 - (id);
 - (id);
 - (id);
@@ -71,28 +57,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *inputBlackUOffset; // @synthesize inputBlackUOffset=_inputBlackUOffset;
-@property(copy, nonatomic) NSNumber *inputBlackVOffset; // @synthesize inputBlackVOffset=_inputBlackVOffset;
 @property(copy, nonatomic) NSNumber *inputContrast; // @synthesize inputContrast=_inputContrast;
-@property(nonatomic) int inputContrastLegacyVersion; // @synthesize inputContrastLegacyVersion=_contrastLegacyVersion;
-@property(copy, nonatomic) NSNumber *inputDefinition; // @synthesize inputDefinition=_inputDefinition;
-@property(nonatomic) int inputDefinitionLegacyVersion; // @synthesize inputDefinitionLegacyVersion=_definitionLegacyVersion;
-@property(copy, nonatomic) NSNumber *inputGrayBrightness; // @synthesize inputGrayBrightness=_inputGrayBrightness;
-@property(copy, nonatomic) NSNumber *inputGrayUOffset; // @synthesize inputGrayUOffset=_inputGrayUOffset;
-@property(copy, nonatomic) NSNumber *inputGrayVOffset; // @synthesize inputGrayVOffset=_inputGrayVOffset;
-@property(copy, nonatomic) NSNumber *inputSaturation; // @synthesize inputSaturation=_inputSaturation;
-@property(nonatomic) int inputSaturationLegacyVersion; // @synthesize inputSaturationLegacyVersion=_saturationLegacyVersion;
-@property(nonatomic) int inputVibranceLegacyVersion; // @synthesize inputVibranceLegacyVersion=_vibranceLegacyVersion;
-@property(copy, nonatomic) NSNumber *inputVibrancy; // @synthesize inputVibrancy=_inputVibrancy;
-@property(copy, nonatomic) NSNumber *inputWhiteUOffset; // @synthesize inputWhiteUOffset=_inputWhiteUOffset;
-@property(copy, nonatomic) NSNumber *inputWhiteVOffset; // @synthesize inputWhiteVOffset=_inputWhiteVOffset;
-@property(readonly) Class superclass;
 
 @end
 

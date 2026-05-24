@@ -6,23 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHIntelligenceFlowRequestEnded, ORCHSchemaORCHIntelligenceFlowRequestFailed, ORCHSchemaORCHIntelligenceFlowRequestStarted, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHIntelligenceFlowRequestContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_trpId;
-    SISchemaUUID *_subRequestId;
-    SISchemaUUID *_traceId;
-    ORCHSchemaORCHIntelligenceFlowRequestStarted *_startedOrChanged;
-    ORCHSchemaORCHIntelligenceFlowRequestFailed *_failed;
-    ORCHSchemaORCHIntelligenceFlowRequestEnded *_ended;
-    _Bool _hasTrpId;
-    _Bool _hasSubRequestId;
-    _Bool _hasTraceId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasFailed;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -34,21 +22,21 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void)y_5;
 - (void);
 - (void);
 - (id);
@@ -56,33 +44,20 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)$;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)yLangaugeMismatched;
+- (id)_carPlayLangaugeMismatched;
 - (id)SUSSchemaPEGASUSAlternateQuerySuggestionTier1",&,N,V_alternateQuerySuggestionTier1;
 - (void)bundleId;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) ORCHSchemaORCHIntelligenceFlowRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ORCHSchemaORCHIntelligenceFlowRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ORCHSchemaORCHIntelligenceFlowRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
 @property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

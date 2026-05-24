@@ -11,7 +11,6 @@
 @interface NUCompositionSchema : NUSchema
 {
     NSSet *_requiredContents;
-    NSDictionary *_contents;
 }
 
 + (id);
@@ -22,30 +21,29 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)_prevGridView;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
 - (_Bool);
+- (id)getAssociatedControllerKeyForAccessory: /* Error: Ran out of types for this method. */;
+- (_Bool)o retrieve a CBPeripheral for accessory:(out id *)arg1 %{public}@;
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)gP;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void)mageMetadataTag=}16;
-- (_Bool)xtendedLinearGrayColorSpace;
+- (_Bool)extendedLinearGrayColorSpace;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *contents; // @synthesize contents=_contents;
-@property(readonly, nonatomic) NSSet *requiredContents;
 
 @end
 

@@ -10,7 +10,6 @@
 @interface LASecureIO
 {
     LASecureIOCommunication *_client;
-    NSObject<LASecureIODelegate> *_delegate;
 }
 
 + (id);
@@ -29,7 +28,7 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
 
 // Remaining properties

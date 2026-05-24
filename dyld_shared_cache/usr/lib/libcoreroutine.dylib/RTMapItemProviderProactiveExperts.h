@@ -6,13 +6,11 @@
 
 #import <coreroutine/RTMapItemProviderBase.h>
 
-@class NSString, RTMapItemProviderProactiveExpertsParameters, RTMapServiceManager, RTPersonalizationPortraitManager;
+@class RTPersonalizationPortraitManager;
 
 @interface RTMapItemProviderProactiveExperts : RTMapItemProviderBase
 {
     RTPersonalizationPortraitManager *_personalizationPortraitManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTMapItemProviderProactiveExpertsParameters *_parameters;
 }
 
 - (id);
@@ -23,24 +21,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void)Ô;
 - (void)sensitive}@, loiIdentifier, %@, entry, %@, prior visit count, %lu, timeWindowHalfWidthSeconds:%f /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(readonly, copy, nonatomic) RTMapItemProviderProactiveExpertsParameters *parameters; // @synthesize parameters=_parameters;
 @property(retain, nonatomic) RTPersonalizationPortraitManager *personalizationPortraitManager; // @synthesize personalizationPortraitManager=_personalizationPortraitManager;
-@property(readonly) Class superclass;
 
 @end
 

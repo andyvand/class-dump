@@ -7,10 +7,6 @@
 @interface AppStoreKit.NewToAppStoreCardTrigger
 {
     id numberOfPurchasesThreshold;
-    id purchaseHistory;
-    id identifier;
-    id adamId;
-    id shouldRecur;
 }
 
 @end

@@ -6,15 +6,12 @@
 
 #import <MapsSync/MapsSync.MapsSyncObject.h>
 
-@class NSString;
-
 @interface MSSharedTripBlockedItem : MapsSync.MapsSyncObject
 {
     id _expiryTime;
-    id _sharedTripIdentifier;
 }
 
-+ (Class);
++ (Class)�;
 - (id);
 - (void);
 - (void);
@@ -23,11 +20,10 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(nonatomic) long long expiryTime;
-@property(nonatomic, copy) NSString *sharedTripIdentifier;
 
 @end
 

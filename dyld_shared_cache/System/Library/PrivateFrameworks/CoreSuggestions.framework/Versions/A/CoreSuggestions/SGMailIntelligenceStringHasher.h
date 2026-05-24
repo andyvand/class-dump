@@ -9,17 +9,16 @@
 @interface SGMailIntelligenceStringHasher
 {
     NSData *_salt;
-    NSData *_rotatingSalt;
 }
 
 + (long long);
-+ (id);
++ (id);
 + (long long);
 - (void);
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (long long);
 - (long long);

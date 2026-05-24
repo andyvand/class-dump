@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink;
-
 __attribute__((visibility("hidden")))
 @interface AVDisplayLink
 {
     CDUnknownBlockType _linkFired;
-    CADisplayLink *_displayLink;
-    id _observer;
-    double _startTime;
 }
 
 - (void);
 - (void);
 - (double);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void)
 × ;
 - (void)bXc@eLeHh;
-- (id)ScreenConnectionActiveDidChangeNotification;
+- (id)AVSecondScreenConnectionActiveDidChangeNotification;
 - (id)Ðñÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
 @property(copy, nonatomic) CDUnknownBlockType linkFired; // @synthesize linkFired=_linkFired;
-@property(nonatomic) __weak id observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) double runningTime;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 
 @end
 

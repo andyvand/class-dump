@@ -9,9 +9,6 @@
 @interface IOBluetoothObject
 {
     unsigned int mIOService;
-    unsigned int mIOConnection;
-    unsigned int mIONotification;
-    NSUUID *_identifier;
 }
 
 + (id);
@@ -29,7 +26,7 @@
 - (int);
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (unsigned int);
 - (int);

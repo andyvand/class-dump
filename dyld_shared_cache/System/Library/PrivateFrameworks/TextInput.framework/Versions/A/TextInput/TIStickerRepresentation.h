@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, UTType;
+@class NSData;
 
 @interface TIStickerRepresentation
 {
     NSData *_data;
-    UTType *_uti;
-    NSString *_role;
-    long long _effect;
-    struct CGSize _size;
 }
 
 + (_Bool);
@@ -26,7 +22,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (id)¤¿°ÍµÀÍÁ;
 - (void)¦
 ¾
@@ -36,10 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) long long effect; // @synthesize effect=_effect;
-@property(retain, nonatomic) NSString *role; // @synthesize role=_role;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(retain, nonatomic) UTType *uti; // @synthesize uti=_uti;
 
 @end
 

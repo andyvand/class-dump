@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CUICatalog, NSData;
-
 @interface IFImage
 {
     _Bool _largest;
-    CALayer *_CALayer;
-    NSData *_data;
-    CUICatalog *_catalog;
 }
 
 @end

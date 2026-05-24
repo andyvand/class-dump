@@ -11,11 +11,10 @@
 @interface FACancelInvitationRequest : FAFamilyCircleRequest
 {
     NSString *_email;
-    NSString *_familyID;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)ari.rcs.chatbot.sa;
 - (void);
 
 @end

@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIWindow;
-@protocol TSKKeyboardObserver;
+@class UIWindow;
 
 @interface TSKKeyboardMonitor
 {
     UIWindow *_rootWindow;
-    _Bool _keyboardIsVisibleAndDocked;
-    _Bool _keyboardIsAnimatingInOrDocking;
-    _Bool _keyboardIsAnimatingOutOrUndocking;
-    _Bool _weAreFakingAHideEvent;
-    _Bool _lastHideWasFake;
-    _Bool _suppressDidHide;
-    struct CGRect _keyboardFrame;
-    double _onScreenHeight;
-    struct __CFArray *_keyboardObservers;
-    NSMutableArray *_completionBlocks;
-    id <TSKKeyboardObserver> _exclusiveKeyboardObserver;
-    double _keyboardAnimationDuration;
 }
 
-+ (id);
++ (id);
 + (void);
-+ (void);
++ (void);
 + (void);
 + (_Bool);
 + (_Bool);
@@ -36,25 +23,25 @@
 + (id);
 + (void);
 + (id)§[ V;
+- (void)roller - resetQueue [End] - keepCurrentItem:(id)arg1;
+- (void)eted - AVPlayer current rate:(id)arg1;
+- (void)opping playback;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)PlayingState;
+- (void);
+- (void);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)AssetReaderError;
+- (_Bool);
 - (_Bool);
 - (double);
 - (double);
@@ -72,13 +59,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) double keyboardAnimationDuration; // @synthesize keyboardAnimationDuration=_keyboardAnimationDuration;
-@property(readonly) struct CGRect keyboardFrame; // @synthesize keyboardFrame=_keyboardFrame;
-@property(readonly) _Bool keyboardIsAnimating;
-@property(readonly) _Bool keyboardIsAnimatingInOrDocking; // @synthesize keyboardIsAnimatingInOrDocking=_keyboardIsAnimatingInOrDocking;
-@property(readonly) _Bool keyboardIsAnimatingOutOrUndocking; // @synthesize keyboardIsAnimatingOutOrUndocking=_keyboardIsAnimatingOutOrUndocking;
-@property(readonly) _Bool keyboardIsVisibleAndDocked; // @synthesize keyboardIsVisibleAndDocked=_keyboardIsVisibleAndDocked;
-@property(readonly) double onScreenHeight; // @synthesize onScreenHeight=_onScreenHeight;
 @property(nonatomic) UIWindow *rootWindow; // @synthesize rootWindow=_rootWindow;
 
 @end

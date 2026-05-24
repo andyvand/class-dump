@@ -6,14 +6,11 @@
 
 #import <SystemMigration/SMSystem_Daemon.h>
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface SMSystem_Daemon_TimeMachineDisk : SMSystem_Daemon
 {
     NSMutableArray *availableBackups;
-    NSString *humanName;
-    NSObject<OS_dispatch_queue> *backupsQueue;
 }
 
 - (void);
@@ -32,12 +29,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)AboutThisMacRoundel;
 
 // Remaining properties
 @property(retain) NSMutableArray *availableBackups; // @synthesize availableBackups;
-@property(retain) NSObject<OS_dispatch_queue> *backupsQueue; // @synthesize backupsQueue;
-@property(retain) NSString *humanName; // @synthesize humanName;
 
 @end
 

@@ -4,10 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCBundleSubscription;
-@protocol FCEntitlementsOverrideProviderType;
+@class FCBundleSubscription, FCBundleSubscriptionLookUpEntry;
 
 @protocol FCBundleSubscriptionManagerType
+- (FCBundleSubscriptionLookUpEntry *)d cached contents for context %s;
 - (void);
 - (void)q;
 - (FCBundleSubscription *)÷ÿ;
@@ -15,7 +15,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) FCBundleSubscription *cachedSubscription;
-@property(retain, nonatomic) id <FCEntitlementsOverrideProviderType> entitlementsOverrideProvider;
-@property(readonly, nonatomic) FCBundleSubscription *validatedCachedSubscription;
 @end
 

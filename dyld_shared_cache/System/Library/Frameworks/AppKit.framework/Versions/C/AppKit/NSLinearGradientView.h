@@ -6,46 +6,30 @@
 
 #import <AppKit/NSView.h>
 
-@class NSGradient, NSLayoutPoint;
+@class NSGradient;
 
 @interface NSLinearGradientView : NSView
 {
     NSGradient *gradient;
-    NSLayoutPoint *gradientStartPoint;
-    NSLayoutPoint *gradientEndPoint;
-    id _displayLink;
-    id _speedApplicationTime;
-    double speed;
-    double offset;
-    unsigned long long startEdgeMode;
-    unsigned long long endEdgeMode;
-    id _normalizedGradientStartPointXConstraint;
-    id _normalizedGradientStartPointYConstraint;
-    id _normalizedGradientEndPointXConstraint;
-    id _normalizedGradientEndPointYConstraint;
-    id _observations;
-    id _effectiveGradientStartPoint;
-    id _effectiveGradientEndPoint;
-    float normalizedPointHoldingPriority;
 }
 
-+ (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (float);
-- (struct CGPoint);
-- (struct CGPoint);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
++ (id)r>:(id)arg1:GET() [OBJTYPE = CFNACOAuthSigner] /* Error: Ran out of types for this method. */;
+- (unsigned long long)setInitializedWithAVAsset: /* Error: Ran out of types for this method. */;
+- (void)_sendCloseCode:(unsigned long long)arg1 reason: /* Error: Ran out of types for this method. */;
+- (void)__skipsStackTraceCapture;
+- (void)__shouldSkipPreferredClientCertificateLookup;
+- (void)__overrideSessionCookieAcceptPolicy;
+- (void)sedAutoAddedHTTPHeaders;
+- (void)henticatorStatusCodes;
+- (float)me sub-class failed to implement setIsDownload. File a bug!;
+- (struct CGPoint)tion space;
+- (struct CGPoint)rdBasedChallenge called with nil protection space;
+- (id)Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics;
+- (id)ounts.framework/Versions/A/Accounts;
+- (unsigned long long)ervice name='%@', type='%@', port=%@> };
+- (void)r ;
+- (void)6zm;
+- (void)h;
 - (id);
 - (void);
 - (void);
@@ -53,23 +37,14 @@
 - (id)1á3°1Â0@ù
 × ;
 - (void);
-- (id)shouldShowDropGapForDragInfo:(struct CGRect)arg1;
+- (id)_shouldShowDropGapForDragInfo:(struct CGRect)arg1;
 - (void)outName:(double)arg1 Should not be called from a background thread!;
 - (void)ss:(id)arg1 [NSWindow class]];
 - (void)9¸0E;
 - (double);
 
 // Remaining properties
-@property(nonatomic) unsigned long long endEdgeMode; // @synthesize endEdgeMode;
 @property(nonatomic, retain) NSGradient *gradient; // @synthesize gradient;
-@property(nonatomic, retain) NSLayoutPoint *gradientEndPoint; // @synthesize gradientEndPoint;
-@property(nonatomic, retain) NSLayoutPoint *gradientStartPoint; // @synthesize gradientStartPoint;
-@property(nonatomic) struct CGPoint normalizedGradientEndPoint;
-@property(nonatomic) struct CGPoint normalizedGradientStartPoint;
-@property(nonatomic) float normalizedPointHoldingPriority; // @synthesize normalizedPointHoldingPriority;
-@property(nonatomic) double offset; // @synthesize offset;
-@property(nonatomic) double speed; // @synthesize speed;
-@property(nonatomic) unsigned long long startEdgeMode; // @synthesize startEdgeMode;
 
 @end
 

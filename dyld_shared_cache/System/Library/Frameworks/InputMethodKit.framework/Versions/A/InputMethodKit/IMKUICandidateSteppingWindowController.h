@@ -6,24 +6,18 @@
 
 #import <InputMethodKit/IMKUICandidateWindowController.h>
 
-@class IMKUICandidateBarView, IMKUICandidateLineLayout, IMKUICandidateLineLayoutIterator, IMKUICandidateStepperView, NSMutableDictionary;
+@class IMKUICandidateBarView;
 
 @interface IMKUICandidateSteppingWindowController : IMKUICandidateWindowController
 {
     IMKUICandidateBarView *_candidateBar;
-    NSMutableDictionary *_candidateIdentifierToViewMap;
-    long long _lineIndex;
-    IMKUICandidateLineLayoutIterator *_lineLayoutIterator;
-    IMKUICandidateLineLayout *_lineLayout;
-    _Bool _showsStepper;
-    IMKUICandidateStepperView *_stepperView;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)u!;
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)T;
 - (void);
 - (id);
 - (_Bool);
@@ -35,17 +29,17 @@
 - (void);
 - (void);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)!;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (struct CGRect);
@@ -53,33 +47,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)C;
+- (void)0B8@"NSError"12;
 - (long long);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)audioCodecBandwidthForVCAudioCodecBandwidth: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)^;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canMoveDownward;
-@property(readonly, nonatomic) _Bool canMoveUpward;
 @property(retain, nonatomic) IMKUICandidateBarView *candidateBar; // @synthesize candidateBar=_candidateBar;
-@property(retain, nonatomic) NSMutableDictionary *candidateIdentifierToViewMap; // @synthesize candidateIdentifierToViewMap=_candidateIdentifierToViewMap;
-@property(nonatomic) long long lineIndex; // @synthesize lineIndex=_lineIndex;
-@property(retain, nonatomic) IMKUICandidateLineLayout *lineLayout; // @synthesize lineLayout=_lineLayout;
-@property(retain, nonatomic) IMKUICandidateLineLayoutIterator *lineLayoutIterator; // @synthesize lineLayoutIterator=_lineLayoutIterator;
-@property(nonatomic) _Bool showsStepper; // @synthesize showsStepper=_showsStepper;
-@property(retain, nonatomic) IMKUICandidateStepperView *stepperView; // @synthesize stepperView=_stepperView;
 
 @end
 

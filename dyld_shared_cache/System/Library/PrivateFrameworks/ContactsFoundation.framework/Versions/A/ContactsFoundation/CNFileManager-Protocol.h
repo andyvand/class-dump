@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNFuture, CNResult;
+
 @protocol CNFileManager
+- (_Bool)h;
+- (CNResult *);
+- (CNResult *);
+- (CNFuture *);
 @end
 

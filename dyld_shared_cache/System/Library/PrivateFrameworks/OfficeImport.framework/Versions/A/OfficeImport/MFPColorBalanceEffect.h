@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MFPColorBalanceEffect : MFPEffect
 {
     int mCyanRed;
-    int mMagentaGreen;
-    int mYellowBlue;
 }
 
 + (id);

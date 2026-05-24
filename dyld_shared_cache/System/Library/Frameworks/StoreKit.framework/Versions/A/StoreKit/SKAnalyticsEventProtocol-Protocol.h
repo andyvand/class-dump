@@ -7,9 +7,10 @@
 @class NSString;
 
 @protocol SKAnalyticsEventProtocol
+- (_Bool);
+- (NSString *)6@?<v@?@"NSError">24;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canCreatePayload;
 @property(readonly, nonatomic) NSString *eventName;
 @end
 

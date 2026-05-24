@@ -6,20 +6,19 @@
 
 #import <CoreData/PFHistoryAnalyzer.h>
 
-@class NSManagedObjectContext, NSPersistentHistoryToken;
+@class NSManagedObjectContext;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitHistoryAnalyzer : PFHistoryAnalyzer
 {
     NSManagedObjectContext *_managedObjectContext;
-    NSPersistentHistoryToken *_lastProcessedToken;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)E;
 - (_Bool);
 - (id);
 

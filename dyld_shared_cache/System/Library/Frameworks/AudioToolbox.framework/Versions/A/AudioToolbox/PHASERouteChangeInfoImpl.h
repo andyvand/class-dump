@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     NSDictionary *_description;
 }
 
+- (id)T;
 - (id);
-- (id);
-- (void);
+- (void)`";
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *description;

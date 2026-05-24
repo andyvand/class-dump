@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)createPixelBufferFromAuxiliaryImageInfo:(id)arg1;
 
 @end
 

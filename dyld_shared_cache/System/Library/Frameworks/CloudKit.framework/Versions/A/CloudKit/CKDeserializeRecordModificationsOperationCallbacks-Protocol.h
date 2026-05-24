@@ -5,5 +5,6 @@
 //
 
 @protocol CKDeserializeRecordModificationsOperationCallbacks
+- (void);
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol IDSXPCPhoneNumberCredentialVendor
+- (void);
 @end
 

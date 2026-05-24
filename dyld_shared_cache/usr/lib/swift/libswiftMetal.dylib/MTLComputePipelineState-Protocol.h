@@ -5,21 +5,13 @@
 //
 
 @class MTLComputePipelineReflection, NSString;
-@protocol MTLDevice;
 
 @protocol MTLComputePipelineState
-- (long long)arycentricCoordsSupported;
+- (unsigned long long);
+- (MTLComputePipelineReflection *)1;
+- (long long)barycentricCoordsSupported;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly) NSString *label;
-@property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
-@property(readonly) MTLComputePipelineReflection *reflection;
-@property(readonly) struct requiredThreadsPerThreadgroup;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly) unsigned long long staticThreadgroupMemoryLength;
-@property(readonly) _Bool supportIndirectCommandBuffers;
-@property(readonly) unsigned long long threadExecutionWidth;
 @end
 

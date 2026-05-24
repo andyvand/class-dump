@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIAppearanceCustomizableClassInfo
 {
     _Bool _isGuideClassRoot;
-    _Bool _isCustomizableViewClassRoot;
-    NSString *_classReferenceKey;
-    unsigned long long _hash;
-    Class _customizableViewClass;
-    Class _guideClass;
 }
 
 + (id)0@ù
 × ;
 + (id)erer to avoid this assert.;
 - (void);
-- (id);
+- (id):%s ref:%s len:%llu /* Error: Ran out of types for this method. */;
 - (Class);
 - (id);
 - (Class);
 - (unsigned long long);
-- (_Bool):(id)arg1;
-- (id)ectionSnapshotState;
+- (_Bool)setParentFocusEnvironment:(id)arg1;
+- (id)_NSDiffableDataSourceSectionSnapshotState;
 - (unsigned long long)ôe;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *_classReferenceKey; // @synthesize _classReferenceKey;
 @property(readonly, nonatomic) Class _customizableViewClass; // @synthesize _customizableViewClass;
-@property(readonly, nonatomic) Class _guideClass; // @synthesize _guideClass;
-@property(readonly, nonatomic) unsigned long long _hash; // @synthesize _hash;
 
 @end
 

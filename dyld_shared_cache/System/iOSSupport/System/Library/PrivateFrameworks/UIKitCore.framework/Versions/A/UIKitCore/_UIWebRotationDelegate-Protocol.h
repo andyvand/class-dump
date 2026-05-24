@@ -7,7 +7,12 @@
 @class UIScrollView, UIView;
 
 @protocol _UIWebRotationDelegate
+- (void)I;
+- (double)';
 - (UIScrollView *);
 - (UIView *),¸;
+
+@optional
+- (double)h;
 @end
 

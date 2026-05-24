@@ -6,21 +6,19 @@
 
 #import <AXMediaUtilities/AXMAudioDataSource.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface AXMAudioDataSourceMixer : AXMAudioDataSource
 {
     NSString *_name;
-    double _panning;
-    NSSet *_dataSources;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void);
+- (void);
+- (void)z;
+- (_Bool);
+- (id);
 - (double);
 - (void);
 - (id);
@@ -28,14 +26,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)(;
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *dataSources; // @synthesize dataSources=_dataSources;
-@property(readonly, nonatomic) _Bool isMonoOutput;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) double panning; // @synthesize panning=_panning;
 
 @end
 

@@ -5,7 +5,10 @@
 //
 
 @protocol PLManagedObjectJournalEntryPayloadClass
-+ (id)ed;
++ (_Complex);
++ (id);
++ (id);
++ (long long)PLSearchIndexCategoryAnimated;
 + (id)erImageFileWithSize is only safe from inside of assetsd!;
 @end
 

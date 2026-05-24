@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface WBSMetadataDictionaryReaderDelegate
 {
     unsigned long long _level;
-    NSString *_lastKey;
-    _Bool _insideMetadata;
-    NSSet *_validKeys;
-    NSSet *_stringKeys;
-    NSSet *_numberKeys;
-    NSMutableDictionary *_metadataDictionary;
-    NSError *_error;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -27,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)
@@ -35,7 +28,6 @@ __attribute__((visibility("hidden")))
 - (id)hortcuts.droplet;
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
 @property(retain) NSMutableDictionary *metadataDictionary; // @synthesize metadataDictionary=_metadataDictionary;
 
 @end

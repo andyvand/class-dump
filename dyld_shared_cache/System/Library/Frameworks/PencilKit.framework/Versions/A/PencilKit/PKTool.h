@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKInk, PKToolConfiguration;
+@class NSString, PKToolConfiguration;
 
 @interface PKTool
 {
     PKToolConfiguration *_configuration;
-    NSString *__toolPickerItemIdentifier;
-    PKInk *_ink;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (double);
-- (id);
+- (id);
 - (double);
-- (void);
+- (void)m;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,14 +28,12 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)#;
 - (id);
 - (id)std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, std::equal_to<(anonymous namespace)::PKMetalKernelKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) PKToolConfiguration *_configuration; // @synthesize _configuration;
 @property(copy, nonatomic, setter=_setToolPickerItemIdentifier:) NSString *_toolPickerItemIdentifier; // @synthesize _toolPickerItemIdentifier=__toolPickerItemIdentifier;
-@property(readonly, nonatomic) PKInk *ink; // @synthesize ink=_ink;
 
 @end
 

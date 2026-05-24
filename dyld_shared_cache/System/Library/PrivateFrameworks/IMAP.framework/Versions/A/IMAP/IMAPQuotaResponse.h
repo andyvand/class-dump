@@ -6,12 +6,11 @@
 
 #import <IMAP/IMAPResponse.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IMAPQuotaResponse : IMAPResponse
 {
     NSString *_quotaRootName;
-    NSArray *_quotas;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *quotaRootName; // @synthesize quotaRootName=_quotaRootName;
-@property(copy, nonatomic) NSArray *quotas; // @synthesize quotas=_quotas;
 
 @end
 

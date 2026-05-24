@@ -6,12 +6,9 @@
 
 #import <XCTAutomationSupport/XCTElementSetCodableTransformer.h>
 
-@class XCTIndexingTransformerIterator;
-
 @interface XCTElementIndexingTransformer : XCTElementSetCodableTransformer
 {
     unsigned long long _elementIndex;
-    XCTIndexingTransformerIterator *_currentIterator;
 }
 
 + (void);
@@ -23,17 +20,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)@@?;
 - (void);
 
 // Remaining properties
-@property(retain) XCTIndexingTransformerIterator *currentIterator; // @synthesize currentIterator=_currentIterator;
 @property(readonly) unsigned long long elementIndex; // @synthesize elementIndex=_elementIndex;
 
 @end

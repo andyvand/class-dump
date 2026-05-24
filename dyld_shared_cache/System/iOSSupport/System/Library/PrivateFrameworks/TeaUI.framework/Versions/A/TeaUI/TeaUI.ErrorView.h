@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface TeaUI.ErrorView
 {
     id errorPosition;
-    id model;
-    id styler;
-    id label;
-    id scrollView;
-    id visualEffectView;
-    id keyboardObserver;
 }
 
 - (void);
@@ -22,15 +14,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)P;
+- (void)ation validateOperation];
+- (id)OOLConversionStats";
 - (void)ÿüÿ°ÿüÿÈÿüÿl;
-- (id);
+- (id)failed;
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *accessibilityElements;
-@property(nonatomic, copy) NSString *accessibilityLabel;
 @property(nonatomic) _Bool isAccessibilityElement;
 
 @end

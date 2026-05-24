@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSWebProcessPlugIn, WKWebProcessPlugInBrowserContextController, WKWebProcessPlugInFrame;
+@class WKWebProcessPlugInBrowserContextController, WKWebProcessPlugInFrame;
 
 @interface WBSWebProcessPlugInPageController
 {
     WKWebProcessPlugInBrowserContextController *_browserContextController;
-    WBSWebProcessPlugIn *_webProcessPlugIn;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)equest:knownImageState: /* Error: Ran out of types for this method. */;
+- (void)_blockOperationForRequest:knownImageState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) WKWebProcessPlugInBrowserContextController *browserContextController; // @synthesize browserContextController=_browserContextController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) WKWebProcessPlugInFrame *mainFrame;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) WBSWebProcessPlugIn *webProcessPlugIn; // @synthesize webProcessPlugIn=_webProcessPlugIn;
 
 @end
 

@@ -6,32 +6,27 @@
 
 #import <ChatKit/CKPinnedConversationTailedActivityItemView.h>
 
-@class CKPinnedConversationMediaObjectActivityItem, NSLayoutConstraint, UIImageView;
+@class UIImageView;
 
 @interface CKPinnedConversationMediaObjectBubble : CKPinnedConversationTailedActivityItemView
 {
     double _pillCornerRadius;
-    long long _activityItemViewContentScale;
-    CKPinnedConversationMediaObjectActivityItem *_mediaObjectActivityItem;
-    UIImageView *_imageView;
-    NSLayoutConstraint *_imageViewWidthConstraint;
-    NSLayoutConstraint *_imageViewHeightConstraint;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)initWithRootRecord:shareID: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithRed:green:blue:alpha: /* Error: Ran out of types for this method. */;
+- (void)_undoneHeightConstraint;
+- (void)dMove;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (double);
+- (double)s;
+- (long long)n;
 - (long long);
-- (long long);
+- (void)ithout your login password—not even Apple.;
 - (void);
-- (void);
-- (id);
+- (id)ote may lose it.;
 - (struct CGSize);
 - (void);
 - (void);
@@ -44,14 +39,11 @@
 - (void);
 - (id)¡û°!,Gùñ1Â0@ù
 × ;
-- (void)yle:(id)arg1;
+- (void)applyPayCashSendButtonColorForEntryViewStyle:(id)arg1;
 - (void)Ô;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) NSLayoutConstraint *imageViewHeightConstraint; // @synthesize imageViewHeightConstraint=_imageViewHeightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *imageViewWidthConstraint; // @synthesize imageViewWidthConstraint=_imageViewWidthConstraint;
-@property(readonly, nonatomic) CKPinnedConversationMediaObjectActivityItem *mediaObjectActivityItem; // @synthesize mediaObjectActivityItem=_mediaObjectActivityItem;
 
 @end
 

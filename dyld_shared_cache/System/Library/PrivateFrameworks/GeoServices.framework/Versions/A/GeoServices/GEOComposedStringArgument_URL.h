@@ -6,15 +6,11 @@
 
 #import <GeoServices/GEOComposedStringArgument.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface GEOComposedStringArgument_URL : GEOComposedStringArgument
 {
     NSString *_defaultDisplayTitle;
-    NSURL *_defaultURL;
-    NSString *_overrideDisplayTitle;
-    NSURL *_overrideURL;
-    NSString *_linkAttributeName;
 }
 
 + (_Bool)e to set etag on temporary path "%@" - %@;
@@ -22,8 +18,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)stringValue;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -31,13 +27,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)ectionsResponseWaypointIndex:(struct _NSZone *)arg1;
+- (id)setDirectionsResponseWaypointIndex:(struct _NSZone *)arg1;
 - (void)Þ5;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *linkAttributeName; // @synthesize linkAttributeName=_linkAttributeName;
 @property(copy, nonatomic) NSString *overrideDisplayTitle; // @synthesize overrideDisplayTitle=_overrideDisplayTitle;
-@property(copy, nonatomic) NSURL *overrideURL; // @synthesize overrideURL=_overrideURL;
 
 @end
 

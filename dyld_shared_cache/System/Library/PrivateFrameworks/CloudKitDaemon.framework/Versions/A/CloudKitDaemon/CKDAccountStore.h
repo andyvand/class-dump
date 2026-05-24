@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountStore, NSArray, NSCache, NSString;
+@class ACAccountStore;
 @protocol CKDAccountStoreDelegate;
 
 @interface CKDAccountStore
 {
     ACAccountStore *_accountStore;
-    NSCache *_cache;
-    id <CKDAccountStoreDelegate> _delegate;
 }
 
 + (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)noVerb:(unsigned long long)arg1:common_PersonName /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (id);
@@ -35,18 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, copy) NSArray *cachedAccounts;
-@property unsigned long long countLimit;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <CKDAccountStoreDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) ACAccount *primaryAccount;
-@property(readonly) Class superclass;
 
 @end
 

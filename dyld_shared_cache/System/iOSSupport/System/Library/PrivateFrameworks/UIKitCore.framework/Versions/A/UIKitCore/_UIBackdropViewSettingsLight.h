@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)omNode:toNode:alongsideAnimations:completion: /* Error: Ran out of types for this method. */;
+- (void)navigateDownFromNode:toNode:alongsideAnimations:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

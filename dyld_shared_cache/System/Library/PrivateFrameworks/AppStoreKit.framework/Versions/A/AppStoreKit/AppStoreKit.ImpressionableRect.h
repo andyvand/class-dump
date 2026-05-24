@@ -7,14 +7,6 @@
 @interface AppStoreKit.ImpressionableRect
 {
     id impressionId;
-    id metricsFields;
-    id customFields;
-    id impressionState;
-    id childReporter;
-    id isContainer;
-    id itemFrame;
-    id threshold;
-    id impressionPoints;
 }
 
 @end

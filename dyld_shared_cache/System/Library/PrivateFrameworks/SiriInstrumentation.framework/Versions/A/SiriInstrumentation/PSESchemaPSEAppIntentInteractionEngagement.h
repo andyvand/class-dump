@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PSESchemaPSEAppIntentInteractionEngagement : SISchemaInstrumentationMessage
 {
     NSString *_appIntentName;
-    int _followUpActionType;
-    int _followUpEntityComparison;
-    _Bool _isSiriResultUseful;
-    _Bool _isFirstPartyApp;
-    struct {
-        unsigned int followUpActionType:1;
-        unsigned int followUpEntityComparison:1;
-        unsigned int isSiriResultUseful:1;
-        unsigned int isFirstPartyApp:1;
-    } _has;
-    _Bool _hasAppIntentName;
 }
 
 - (void);
@@ -33,12 +22,12 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (int);
 - (int);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (void);
@@ -51,27 +40,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ManagerOptions_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)pting connection from PID %d;
 - (id);
 - (id);
-- (id)atchScore;
+- (id)_speakerMatchScore;
 - (id)nRequired;
-- (void);
+- (void)FLOWSTATETYPE_HIDDEN_PROTECTED_APP;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appIntentName; // @synthesize appIntentName=_appIntentName;
-@property(nonatomic) int followUpActionType; // @synthesize followUpActionType=_followUpActionType;
-@property(nonatomic) int followUpEntityComparison; // @synthesize followUpEntityComparison=_followUpEntityComparison;
-@property(nonatomic) _Bool hasAppIntentName; // @synthesize hasAppIntentName=_hasAppIntentName;
-@property(nonatomic) _Bool hasFollowUpActionType;
-@property(nonatomic) _Bool hasFollowUpEntityComparison;
-@property(nonatomic) _Bool hasIsFirstPartyApp;
-@property(nonatomic) _Bool hasIsSiriResultUseful;
-@property(nonatomic) _Bool isFirstPartyApp; // @synthesize isFirstPartyApp=_isFirstPartyApp;
-@property(nonatomic) _Bool isSiriResultUseful; // @synthesize isSiriResultUseful=_isSiriResultUseful;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

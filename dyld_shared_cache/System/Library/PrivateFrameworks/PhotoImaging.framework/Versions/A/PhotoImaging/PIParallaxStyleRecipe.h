@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface PIParallaxStyleRecipe
 {
     NSDictionary *_parameters;
-    NSArray *_foregroundFilters;
-    NSArray *_backgroundFilters;
-    NSArray *_matteFilters;
 }
 
 - (id);
@@ -21,14 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)lysis.PublicEventCacheInvalidationTask;
 - (id);
-- (void)nBackground: /* Error: Ran out of types for this method. */;
+- (void)setSegmentationBackground: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *backgroundFilters; // @synthesize backgroundFilters=_backgroundFilters;
-@property(readonly, copy, nonatomic) NSArray *foregroundFilters; // @synthesize foregroundFilters=_foregroundFilters;
-@property(readonly, copy, nonatomic) NSArray *matteFilters; // @synthesize matteFilters=_matteFilters;
 @property(readonly, copy, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
 
 @end

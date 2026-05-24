@@ -6,14 +6,9 @@
 
 #import <CoreSpotlight/CSSearchQueryContext.h>
 
-@class NSDictionary;
-
 @interface CSUserQueryContext : CSSearchQueryContext
 {
     _Bool _enableSuggestionTokens;
-    NSDictionary *_queryParserOptions;
-    _Bool _enableRankedResults;
-    long long _maxResultCount;
 }
 
 + (id);
@@ -24,14 +19,10 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)3sPSn;
 
 // Remaining properties
-@property(nonatomic) _Bool disableSemanticSearch;
 @property(nonatomic) _Bool enableRankedResults; // @synthesize enableRankedResults=_enableRankedResults;
-@property(nonatomic) long long maxRankedResultCount;
-@property(nonatomic) long long maxResultCount; // @synthesize maxResultCount=_maxResultCount;
-@property(nonatomic) long long maxSuggestionCount;
 
 @end
 

@@ -4,47 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, geo_isolater;
-
 @interface GEOMapsAuthServiceHelper
 {
     struct atomic_flag _isRenewing;
-    NSString *_currentToken;
-    geo_isolater *_currentEnvironmentStateIsolater;
-    unsigned long long _currentEnvironmentState;
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
+- (void)C;
+- (void)!;
+- (id)te;
+- (void)setDucking]_block_invoke;
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)t to %@;
 - (void);
 - (void);
 - (void)d_waypointTypeds"b1"read_xpcUuid"b1"wrote_anyField"b1};
-- (void)teGEODaemonToNanoMapsGateDaemonConnection;
-- (void)s_opted_into_familiar_route_preservation;
+- (void)geo_createGEODaemonToNanoMapsGateDaemonConnection;
+- (void)is_opted_into_familiar_route_preservation;
 - (void);
 - (void)õ(\Âå?ìQ¸@;
 - (void)F2;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

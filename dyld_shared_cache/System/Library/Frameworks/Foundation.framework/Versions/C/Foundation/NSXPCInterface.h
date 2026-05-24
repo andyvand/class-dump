@@ -9,12 +9,6 @@
 @interface NSXPCInterface
 {
     Protocol *_protocol;
-    unsigned long long _remoteVersion;
-    struct __CFDictionary *_knownSelectors;
-    struct __CFDictionary *_methodInfo;
-    Class _xpcDOSubclass;
-    struct os_unfair_lock_s _knownSelectorsLock;
-    _Bool _specialCaseObject;
 }
 
 

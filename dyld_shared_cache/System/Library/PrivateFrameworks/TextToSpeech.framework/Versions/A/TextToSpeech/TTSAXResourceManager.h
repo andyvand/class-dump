@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSSet;
+@class NSSet;
 
 @interface TTSAXResourceManager
 {
     NSSet *_allAvailableLanguages;
-    NSHashTable *__observers;
 }
 
 + (id)d¡íÿÿÿÿÿ,;
-- (void);
+- (void)_trafficMetricCollector;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)nce.VCTestMonitorManager.xpcNotificationQueue;
+- (id)Um&;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -39,7 +38,6 @@
 - (id)<;
 
 // Remaining properties
-@property(retain, nonatomic) NSHashTable *_observers; // @synthesize _observers=__observers;
 @property(retain, nonatomic) NSSet *allAvailableLanguages; // @synthesize allAvailableLanguages=_allAvailableLanguages;
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSData;
 
 @interface IDSQuickRelayFixedTokenAllocator
 {
     NSData *_relayIP;
-    NSNumber *_relayPort;
-    NSData *_relaySessionToken;
-    NSData *_relaySessionKey;
-    NSData *_relaySessionID;
-    NSNumber *_relayCombinedSoftwareID;
-    NSData *_appleID;
-    NSData *_relayIPv6;
 }
 
 - (void);
@@ -26,8 +19,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -37,20 +30,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (void),1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy) NSData *appleID; // @synthesize appleID=_appleID;
-@property(copy) NSNumber *relayCombinedSoftwareID; // @synthesize relayCombinedSoftwareID=_relayCombinedSoftwareID;
 @property(copy) NSData *relayIP; // @synthesize relayIP=_relayIP;
-@property(copy) NSData *relayIPv6; // @synthesize relayIPv6=_relayIPv6;
-@property(copy) NSNumber *relayPort; // @synthesize relayPort=_relayPort;
-@property(copy) NSData *relaySessionID; // @synthesize relaySessionID=_relaySessionID;
-@property(copy) NSData *relaySessionKey; // @synthesize relaySessionKey=_relaySessionKey;
-@property(copy) NSData *relaySessionToken; // @synthesize relaySessionToken=_relaySessionToken;
 
 @end
 

@@ -8,15 +8,15 @@
 {
 }
 
++ (_Bool)ue to have this problem.);
++ (_Bool)ortToLocalKeychain returned:%d /* Error: Ran out of types for this method. */;
++ (id)tKeychainData Duplicate cert found:%s /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
 + (_Bool);
-+ (_Bool);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
++ (id)G;
 + (id);
 + (id);
 + (id);
@@ -32,25 +32,25 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)?;
+- (id)h";
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)t:device:hsaCode: /* Error: Ran out of types for this method. */;
-- (id)chesIdMS;
-- (id)_CONTACT;
+- (id)initWithAccount:device:hsaCode: /* Error: Ran out of types for this method. */;
+- (id)pdpPrimaryRecordPasswordVersionMatchesIdMS;
+- (id)SET_UP_RECOVERY_CONTACT;
 - (id)rCreateAccount  AccountType=%{public,signpost.telemetry:string2,name=AccountType}@  enableTelemetry=YES  /* Error: Ran out of types for this method. */;
 - (id)óõ8¢@.Jmò6­­~xÞ)\ê¥¥R§leÞéÌÍ+Ö^µzRO4ò<ZüÖÏtG!ë­¥3ôúÔ4vª«áÙ&åAªqÁ¦jýÇÑ
 :tbÑPg¢]<	¼ÛÎò{½ÒÖ}^	ýÆ©-%cºurG]µþI"mhX®#È+ù/ëuØNPü©²	ãYî#ÕpzQ!ºÝo7ÉKÐ	±²ñ°Vr}þö*ÚÁ¦ÔÃìzð$,ö¾_¡c-E$ÚaåäV/E¢WB´;fst·(Óà4ÇlÓU|÷²¼¹Ï@õÌ'"·Àâù`ËÝQGæê°&*<h¡YkLFçßØÀcû? /* Error: Ran out of types for this method. */;

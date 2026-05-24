@@ -6,7 +6,6 @@
 
 #import <PencilKit/PKDetectionItem.h>
 
-@class DDScannerResult;
 @protocol PKDataDetectorItemDelegate;
 
 @interface PKDataDetectorItem : PKDetectionItem
@@ -17,20 +16,18 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)bindInt64Value:toParameterNamed: /* Error: Ran out of types for this method. */;
 - (struct __DDResult *);
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)NewXPCConnection:] /* Error: Ran out of types for this method. */;
 - (void)![Ð!ÌCùqß1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __DDResult *coreResult;
 @property(nonatomic) __weak id <PKDataDetectorItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) DDScannerResult *scannerResult;
 
 @end
 

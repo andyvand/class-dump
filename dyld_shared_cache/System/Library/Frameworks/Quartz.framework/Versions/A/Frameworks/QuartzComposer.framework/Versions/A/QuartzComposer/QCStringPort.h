@@ -11,22 +11,20 @@
 @interface QCStringPort : QCPort
 {
     NSString *_string;
-    int _editorType;
-    void *_unused3[3];
 }
 
 + (Class);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (CDStruct_bdcb2b0d);
+- (CDStruct_60067b7e);
 - (id);
 - (int);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);

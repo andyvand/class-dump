@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGCascadeWritebackAdapter
 {
 }
 
-+ (id);
++ (id)ler",&,V_webLoginVC;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)TableColumn"32q40;
+- (void)lumn"24q32;
+- (void):(id)arg1 8@16;
+- (void):(id)arg1 8;
+- (id)drawInRect:(id)arg1 angle: /* Error: Ran out of types for this method. */;
+- (void)beginSheetForWindow:modalDelegate:didEndSelector:contextInfo:trust:message: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

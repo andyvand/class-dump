@@ -5,5 +5,6 @@
 //
 
 @protocol PDFPasswordViewControllerDelegate
+- (_Bool);
 @end
 

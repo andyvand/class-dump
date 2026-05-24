@@ -11,37 +11,25 @@
 @interface MAMsuDownloadOptions : MADownloadOptions
 {
     _Bool _supervised;
-    _Bool _allowSameVersion;
-    _Bool _prerequisiteReleaseTypeIsOverridden;
-    NSString *_requestedProductVersion;
-    NSString *_requestedBuildVersion;
-    long long _delayPeriod;
-    long long _minorDelayPeriod;
-    long long _majorDelayPeriod;
-    NSString *_prerequisiteBuildVersion;
-    NSString *_prerequisiteProductVersion;
-    NSString *_prerequisiteReleaseType;
-    NSString *_liveAssetAudienceUUID;
-    NSString *_purpose;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (id);
-- (id);
+- (id)setStopStateMachineByIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(C;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)removeAppRuleByID:(id)arg1;
+- (void)rClientConnection called, but failed to create client crypto key for pid %d;
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)photosAttribution;
 - (void);
 - (void);
 - (long long);
@@ -55,25 +43,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (long long);
-- (long long);
+- (long long)TerminationResistanceNotRunning;
+- (long long)unable to enumerate apps!;
 - (void);
-- (void)Download;
+- (void)_userInitiatedDownload;
 
 // Remaining properties
-@property(nonatomic) _Bool allowSameVersion; // @synthesize allowSameVersion=_allowSameVersion;
-@property(nonatomic) long long delayPeriod; // @synthesize delayPeriod=_delayPeriod;
-@property(retain, nonatomic) NSString *liveAssetAudienceUUID; // @synthesize liveAssetAudienceUUID=_liveAssetAudienceUUID;
-@property(nonatomic) long long majorDelayPeriod; // @synthesize majorDelayPeriod=_majorDelayPeriod;
-@property(nonatomic) long long minorDelayPeriod; // @synthesize minorDelayPeriod=_minorDelayPeriod;
-@property(retain, nonatomic) NSString *prerequisiteBuildVersion; // @synthesize prerequisiteBuildVersion=_prerequisiteBuildVersion;
-@property(retain, nonatomic) NSString *prerequisiteProductVersion; // @synthesize prerequisiteProductVersion=_prerequisiteProductVersion;
-@property(retain, nonatomic) NSString *prerequisiteReleaseType; // @synthesize prerequisiteReleaseType=_prerequisiteReleaseType;
-@property(nonatomic) _Bool prerequisiteReleaseTypeIsOverridden; // @synthesize prerequisiteReleaseTypeIsOverridden=_prerequisiteReleaseTypeIsOverridden;
-@property(retain, nonatomic) NSString *purpose; // @synthesize purpose=_purpose;
-@property(retain, nonatomic) NSString *requestedBuildVersion; // @synthesize requestedBuildVersion=_requestedBuildVersion;
 @property(retain, nonatomic) NSString *requestedProductVersion; // @synthesize requestedProductVersion=_requestedProductVersion;
-@property(nonatomic) _Bool supervised; // @synthesize supervised=_supervised;
 
 @end
 

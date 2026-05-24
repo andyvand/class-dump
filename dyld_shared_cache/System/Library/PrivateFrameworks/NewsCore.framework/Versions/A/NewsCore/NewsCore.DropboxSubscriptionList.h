@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 @interface NewsCore.DropboxSubscriptionList
 {
     id todayDropbox;
-    id lazyDropboxData;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)igurations;
+- (void)campaignReferralConfigurations;
 - (id)^B24;
 
 // Remaining properties
-@property(nonatomic, readonly) NSSet *autoFavoriteTagIDs;
-@property(nonatomic, readonly) NSSet *mutedTagIDs;
 @property(nonatomic, readonly) NSArray *rankedAllSubscribedTagIDs;
 
 @end

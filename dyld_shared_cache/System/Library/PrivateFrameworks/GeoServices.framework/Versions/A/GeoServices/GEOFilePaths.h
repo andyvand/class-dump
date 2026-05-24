@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, geo_state_capture_handle;
+@class geo_state_capture_handle;
 
 @interface GEOFilePaths
 {
     geo_state_capture_handle *_stateCaptureHandle;
 }
 
++ (id)RCٻr;
++ (id);
++ (id);
++ (_Bool)ry"16;
 + (id);
 + (id);
 + (id);
-+ (_Bool);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)d"left"d"bottom"d"right"d}};
 + (id);
 + (id);
 + (id)TC;
-+ (id)E_STATUS_MODEL_INIT_ERROR;
++ (id)MIF_RESPONSE_STATUS_MODEL_INIT_ERROR;
 + (id);
 + (id)ò5;
 + (id)5ç6;
 - (id);
-- (id);
+- (id)atedUserSpeakingEndedHostTime];
 - (void)i{7¾5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

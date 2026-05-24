@@ -9,19 +9,17 @@
 @interface SearchUIAsyncSectionLoaderRequest
 {
     NSString *_identifier;
-    CDUnknownBlockType _computeBlock;
 }
 
 - (void);
 - (CDUnknownBlockType);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType computeBlock; // @synthesize computeBlock=_computeBlock;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

@@ -4,48 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVContentKeySession, ICContentKeySessionPrefetchKeyConfiguration, ICFileContentKeyStore, ICStoreRequestContext, NSMutableArray, NSMutableDictionary, NSMutableSet, NSNumber, NSObject, NSString, NSURL;
-@protocol ICContentKeySessionDelegateProtocol, ICContentKeyStoreProtocol, OS_dispatch_queue, OS_dispatch_semaphore, OS_dispatch_source;
+@class ICStoreRequestContext, NSURL;
 
 @interface ICContentKeySession
 {
     NSURL *_keyServerURL;
-    NSURL *_keyCertificateURL;
-    AVContentKeySession *_contentKeySession;
-    ICStoreRequestContext *_requestContext;
-    NSNumber *_adamID;
-    id <ICContentKeyStoreProtocol> _keyStore;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSMutableSet *_pendingKeyIdentifiers;
-    NSMutableSet *_pendingRenewalKeyIdentifiers;
-    NSMutableSet *_pendingPersistentKeyRenewalIdentifiers;
-    NSMutableArray *_renewalCompletionBlocks;
-    NSObject<OS_dispatch_semaphore> *_waitForKeysSemaphore;
-    ICContentKeySessionPrefetchKeyConfiguration *_prefetchKeyConfiguration;
-    ICFileContentKeyStore *_prefetchedContentKeyStore;
-    NSMutableDictionary *_keyRenewalDates;
-    NSMutableDictionary *_completedKeyRequests;
-    NSMutableDictionary *_keyResponses;
-    NSObject<OS_dispatch_source> *_keyRenewalTimer;
-    _Bool _automaticKeyRenewalPaused;
-    _Bool _active;
-    id <ICContentKeySessionDelegateProtocol> _delegate;
-    struct os_unfair_lock_s _lock;
-    _Bool _bypassCache;
-    _Bool _requestOfflineKeys;
-    _Bool _allowFallbackToStreamingKeys;
-    _Bool _isStoreKeyServer;
-    _Bool _refreshExpiredPersistentKeys;
-    long long _keyServerProtocolType;
-    NSURL *_streamingleaseStopURL;
-    NSURL *_offlineLeaseStartURL;
-    NSURL *_offlineLeaseStopNonceURL;
-    NSURL *_offlineLeaseStopURL;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)areUpdateUrlSession>"16@"NSURLSessionTask"24@"NSError"32;
 - (void);
 - (void);
 - (void);
@@ -87,15 +55,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (long long);
-- (id);
+- (long long)updateBooleanSettingWithKeyPath:value: /* Error: Ran out of types for this method. */;
+- (id)updateBooleanSettingWithKeyPath:value: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -108,28 +76,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *adamID; // @synthesize adamID=_adamID;
-@property(nonatomic) _Bool allowFallbackToStreamingKeys; // @synthesize allowFallbackToStreamingKeys=_allowFallbackToStreamingKeys;
-@property(nonatomic) _Bool bypassCache; // @synthesize bypassCache=_bypassCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isStoreKeyServer; // @synthesize isStoreKeyServer=_isStoreKeyServer;
-@property(copy, nonatomic) NSURL *keyCertificateURL; // @synthesize keyCertificateURL=_keyCertificateURL;
-@property(nonatomic) long long keyServerProtocolType; // @synthesize keyServerProtocolType=_keyServerProtocolType;
-@property(copy, nonatomic) NSURL *keyServerURL; // @synthesize keyServerURL=_keyServerURL;
-@property(readonly, nonatomic) id <ICContentKeyStoreProtocol> keyStore; // @synthesize keyStore=_keyStore;
-@property(copy, nonatomic) NSURL *offlineLeaseStartURL; // @synthesize offlineLeaseStartURL=_offlineLeaseStartURL;
-@property(copy, nonatomic) NSURL *offlineLeaseStopNonceURL; // @synthesize offlineLeaseStopNonceURL=_offlineLeaseStopNonceURL;
-@property(copy, nonatomic) NSURL *offlineLeaseStopURL; // @synthesize offlineLeaseStopURL=_offlineLeaseStopURL;
-@property(nonatomic) _Bool refreshExpiredPersistentKeys; // @synthesize refreshExpiredPersistentKeys=_refreshExpiredPersistentKeys;
 @property(readonly, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(nonatomic) _Bool requestOfflineKeys; // @synthesize requestOfflineKeys=_requestOfflineKeys;
-@property(copy, nonatomic) NSURL *streamingleaseStopURL; // @synthesize streamingleaseStopURL=_streamingleaseStopURL;
-@property(readonly) Class superclass;
 
 @end
 

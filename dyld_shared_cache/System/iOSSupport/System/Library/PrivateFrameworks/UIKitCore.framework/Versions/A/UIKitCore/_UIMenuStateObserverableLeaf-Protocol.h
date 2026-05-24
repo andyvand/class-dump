@@ -5,8 +5,14 @@
 //
 
 @class NSPointerArray;
+@protocol _UIMenuElementStateObserver;
 
 @protocol _UIMenuStateObserverableLeaf
+- (void)updateProperties:(NSPointerArray *)arg1 shouldBroadcast: /* Error: Ran out of types for this method. */;
+- (void)updateProperties:(long long)arg1 chat:(_Bool)arg2 style: /* Error: Ran out of types for this method. */;
+- (void)logMessageSentWithGUID:(id <_UIMenuElementStateObserver>)arg1 fromIdentifier:toIdentifier:conversationType:messageType:sendDuration:errorCode:messageProtocol: /* Error: Ran out of types for this method. */;
+- (NSPointerArray *)__message_iterateFileTransferUserInfoWithCompletion: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, getter=_getStateObservers, setter=_setStateObservers:) NSPointerArray *stateObservers;

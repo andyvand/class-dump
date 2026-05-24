@@ -4,43 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCompilerNeuralNetworkOutput, MLModelDescription, MLNeuralNetworksCompileTimeParams, MLVersionInfo, NSArray, NSDictionary, NSString;
-
 @interface MLNeuralNetworkContainer
 {
     struct map<std::string, int, std::less<std::string>, std::allocator<std::pair<const std::string, int>>> widths;
-    struct map<std::string, int, std::less<std::string>, std::allocator<std::pair<const std::string, int>>> heights;
-    struct map<std::string, int, std::less<std::string>, std::allocator<std::pair<const std::string, int>>> ks;
-    struct map<std::string, int, std::less<std::string>, std::allocator<std::pair<const std::string, int>>> batches;
-    struct map<std::string, int, std::less<std::string>, std::allocator<std::pair<const std::string, int>>> sequences;
-    struct map<std::string, int, std::less<std::string>, std::allocator<std::pair<const std::string, int>>> ranks;
-    _Bool _hasBidirectionalLayer;
-    _Bool _hasOptionalInputSequenceConcat;
-    _Bool _hasDynamicLayer;
-    _Bool _ndArrayInterpretation;
-    _Bool _modelIsEncrypted;
-    _Bool _modelIsMIL;
-    _Bool _modelIsTrainingProgram;
-    int _precision;
-    int _engine;
-    NSString *_modelFilePath;
-    NSArray *_inputLayerNames;
-    NSArray *_outputLayerNames;
-    NSString *_name;
-    NSDictionary *_inputDescription;
-    NSDictionary *_outputDescription;
-    NSDictionary *_imageParameters;
-    NSDictionary *_imagePreprocessingParams;
-    NSArray *_configurationList;
-    NSArray *_classLabels;
-    NSString *_classScoreVectorName;
-    MLModelDescription *_modelDescription;
-    MLNeuralNetworksCompileTimeParams *_updatableModelCompiledParams;
-    NSDictionary *_optionalInputDefaultValues;
-    MLVersionInfo *_modelVersionInfo;
-    NSDictionary *_optionalInputTypes;
-    MLVersionInfo *_compilerVersionInfo;
-    MLCompilerNeuralNetworkOutput *_compilerOutput;
 }
 
 + (id);
@@ -56,14 +22,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)9(CA9;
 - (int);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -73,16 +39,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id),oU,o(,o(U,o;
 - (_Bool)0@ù
 × ;
 - (void);
 - (id);
 - (void):(id)arg1 8q16q24Q32;
-- (void)RequiresPlugin:(id)arg1;
-- (void)lusion_feature_name;
-- (void)NoCopy:(id)arg1 length:freeWhenDone: /* Error: Ran out of types for this method. */;
-- (void)dictionFromFeatures:(id)arg1 usingState:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)setRequiresPlugin:(id)arg1;
+- (void)m_item_exclusion_feature_name;
+- (void)dataWithBytesNoCopy:(id)arg1 length:freeWhenDone: /* Error: Ran out of types for this method. */;
+- (void)_predictionFromFeatures:(id)arg1 usingState:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)m`n;
 - (_Bool)|;
 - (void)<z;
@@ -95,12 +61,12 @@
 - (_Bool)del from %@ (%@):%@ /* Error: Ran out of types for this method. */;
 - (_Bool)%s (%d);
 - (_Bool)cision.;
-- (id)y;
+- (id)kUpdateParametersKey;
 - (void)nvalid shapes of input tensors.;
 - (void)@ with error:%@ /* Error: Ran out of types for this method. */;
 - (id)tensor range collection cannot be empty.;
 - (int)efore_Si5aftertG;
-- (id)rParamsE;
+- (id)N6CoreML13Specification18ScatterLayerParamsE;
 - (id)° P° s° ° 3° à° °  ° Ã± P± s± ± 3± à± ±  ± Ã¥ P¥ s¥ ¥ 3¥ à¥ ¥  ¥ Ã¤ P¤ s¤ ¤ 3¤ à¤ ¤  ¤ Ã£ P£ s£ £ 3£ à£ £  £ Ã¢ P¢ s¢ ¢ 3¢ à¢ ¢  ¢ Ã© P© s© © 3© à© ©  © Ã¨ P¨ s¨ ¨ 3¨ à¨ ¨  ¨ Ã§ P§ s§ § 3§ à§ §  § Ã¦ P¦ s¦ ¦ 3¦ à¦ ¦  ¦ Ã P s  3 à    Ã P s  3 à    Ã P s  3 à    Ã P s  3 à    Ã  P  s    3  à       Ã¡ P¡ s¡ ¡ 3¡ à¡ ¡  ¡ Ã P s  3 à    Ã P s  3 à    Ã/K®å°}4Ì-}ÿÈnÃLSÝúè3³Úé(íàù«\¢dÛÃ1½M!ï©½G]{ÌáÈÃQÞÀÂYÀÆ]^ÀÊUÀÎqÞÁÒyÁÖ}^ÁÚuÁÞÞÂâÂæ^ÂêÂî1ÞÃò9Ãö=^Ãú5Ãþ±ÞÄ¹Ä½^ÄµÄÞÅÅ^ÅÅñÞÆ¢ùÆ¦ý^ÆªõÆ®ÑÞÇ²ÙÇ¶Ý^ÇºÕÇ¾QßÈBYÈF]_ÈJUÈNqßÉRyÉV}_ÉZuÉ^ßÊbÊf_ÊjÊn1ßËr9Ëv=_Ëz5Ë~±ßÌ¹Ì½_Ì
 µÌßÍÍ_ÍÍñßÎ"ùÎ&ý_Î*õÎ.ÑßÏ2ÙÏ6Ý_Ï:ÕÏ>ÐßÐÂØÐÆÜ_ÐÊÔÐÎðßÑÒøÑÖü_ÑÚôÑÞßÒâÒæ_ÒêÒî°ßÓò¸Óö¼_Óú´Óþ0ßÔ8Ô<_Ô4ÔßÕÕ_ÕÕpßÖ¢xÖ¦|_ÖªtÖ®Pß×²X×¶\_×ºT×¾ÐÞØBØØFÜ^ØJÔØNðÞÙRøÙVü^ÙZôÙ^ÞÚbÚf^ÚjÚn°ÞÛr¸Ûv¼^Ûz´Û~0ÞÜ8Ü<^Ü
 4ÜÞÝÝ^ÝÝpÞÞ"xÞ&|^Þ*tÞ.PÞß2Xß6\^ß:Tß>SÚàÂ[àÆ_ZàÊWàÎsÚáÒ{áÖZáÚwáÞÚâââæZâêâî3Úãò;ãö?Zãú7ãþ³Úä»ä¿Zä·äÚååZååóÚæ¢ûæ¦ÿZæª÷æ®ÓÚç²Ûç¶ßZçº×ç¾SÛèB[èF_[èJWèNsÛéR{éV[éZwé^Ûêbêf[êjên3Ûër;ëv?[ëz7ë~³Ûì»ì¿[ì
@@ -114,34 +80,7 @@ DHH=çamýàþg¶(¿0ëwùÞ(XåRm1}ü½UKÑÏâaÌÁøT
 - (id)Jô;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *activeFunction;
-@property(retain) NSArray *classLabels; // @synthesize classLabels=_classLabels;
-@property(retain) NSString *classScoreVectorName; // @synthesize classScoreVectorName=_classScoreVectorName;
-@property(retain, nonatomic) MLCompilerNeuralNetworkOutput *compilerOutput; // @synthesize compilerOutput=_compilerOutput;
-@property(retain, nonatomic) MLVersionInfo *compilerVersionInfo; // @synthesize compilerVersionInfo=_compilerVersionInfo;
-@property(retain, nonatomic) NSArray *configurationList; // @synthesize configurationList=_configurationList;
-@property(nonatomic) int engine; // @synthesize engine=_engine;
-@property(nonatomic) _Bool hasBidirectionalLayer; // @synthesize hasBidirectionalLayer=_hasBidirectionalLayer;
-@property(nonatomic) _Bool hasDynamicLayer; // @synthesize hasDynamicLayer=_hasDynamicLayer;
-@property(nonatomic) _Bool hasOptionalInputSequenceConcat; // @synthesize hasOptionalInputSequenceConcat=_hasOptionalInputSequenceConcat;
-@property(retain, nonatomic) NSDictionary *imageParameters; // @synthesize imageParameters=_imageParameters;
-@property(retain, nonatomic) NSDictionary *imagePreprocessingParams; // @synthesize imagePreprocessingParams=_imagePreprocessingParams;
-@property(retain, nonatomic) NSDictionary *inputDescription; // @synthesize inputDescription=_inputDescription;
-@property(retain, nonatomic) NSArray *inputLayerNames; // @synthesize inputLayerNames=_inputLayerNames;
-@property(readonly, copy, nonatomic) MLModelDescription *modelDescription; // @synthesize modelDescription=_modelDescription;
-@property(retain, nonatomic) NSString *modelFilePath; // @synthesize modelFilePath=_modelFilePath;
-@property(nonatomic) _Bool modelIsEncrypted; // @synthesize modelIsEncrypted=_modelIsEncrypted;
-@property(nonatomic) _Bool modelIsMIL; // @synthesize modelIsMIL=_modelIsMIL;
-@property(nonatomic) _Bool modelIsTrainingProgram; // @synthesize modelIsTrainingProgram=_modelIsTrainingProgram;
-@property(retain, nonatomic) MLVersionInfo *modelVersionInfo; // @synthesize modelVersionInfo=_modelVersionInfo;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property _Bool ndArrayInterpretation; // @synthesize ndArrayInterpretation=_ndArrayInterpretation;
-@property(retain, nonatomic) NSDictionary *optionalInputDefaultValues; // @synthesize optionalInputDefaultValues=_optionalInputDefaultValues;
-@property(retain, nonatomic) NSDictionary *optionalInputTypes; // @synthesize optionalInputTypes=_optionalInputTypes;
-@property(retain, nonatomic) NSDictionary *outputDescription; // @synthesize outputDescription=_outputDescription;
-@property(retain, nonatomic) NSArray *outputLayerNames; // @synthesize outputLayerNames=_outputLayerNames;
 @property(nonatomic) int precision; // @synthesize precision=_precision;
-@property(retain, nonatomic) MLNeuralNetworksCompileTimeParams *updatableModelCompiledParams; // @synthesize updatableModelCompiledParams=_updatableModelCompiledParams;
 
 @end
 

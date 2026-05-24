@@ -7,9 +7,9 @@
 @class NSSet;
 
 @protocol FCOfflineArticleManagerType
+- (NSSet *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *listenableArticleIDs;
 @property(readonly, nonatomic) NSSet *readableArticleIDs;
 @end
 

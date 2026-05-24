@@ -9,16 +9,16 @@
     _Bool _faceClassificationEnabled;
 }
 
-+ (_Bool);
++ (_Bool)	;
 - (void);
 - (_Bool);
-- (id);
+- (id)(;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)toryItem *>:(struct _NSZone *)arg1:KeyValuePairTraits, WTF::HashTraits<WTF::WeakRef<WebCore::HistoryItem>>>::validateKey(const ValueType &) [Key = WTF::WeakRef<WebCore::HistoryItem>, Value = WTF::KeyValuePair<WTF::WeakRef<WebCore::HistoryItem>, WebHistoryItem *>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakRef<WebCore::HistoryItem>, WebHistoryItem *>>, HashFunctions = WTF::DefaultHash<WTF::WeakRef<WebCore::HistoryItem>>, Traits = WTF::HashMap<WTF::WeakRef<WebCore::HistoryItem>, WebHistoryItem *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakRef<WebCore::HistoryItem>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)(;
 
 // Remaining properties
 @property(getter=isFaceClassificationEnabled) _Bool faceClassificationEnabled; // @synthesize faceClassificationEnabled=_faceClassificationEnabled;

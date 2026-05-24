@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UITextPasteItem.h>
 
-@class NSDictionary, NSItemProvider, NSString, UISearchToken;
+@class UISearchToken;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchTextFieldPasteItem : UITextPasteItem
@@ -15,21 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)ataTag:avatarRecipeDataTag:hasWallpaperUpdate:dropNicknameForUnknownContacts:withCompletionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=setSearchTokenResult:) UISearchToken *_searchTokenResult; // @synthesize _searchTokenResult;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSDictionary *defaultAttributes;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSItemProvider *itemProvider;
-@property(readonly, nonatomic) id localObject;
-@property(readonly) Class superclass;
 
 @end
 

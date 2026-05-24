@@ -6,6 +6,6 @@
 
 @protocol NSLocking
 - (void)hContext:error: /* Error: Ran out of types for this method. */;
-- (void)MigrationMetadata: /* Error: Ran out of types for this method. */;
+- (void)_setAnnotatesMigrationMetadata: /* Error: Ran out of types for this method. */;
 @end
 

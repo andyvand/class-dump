@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATStateMachine, CATTransport, CRKRemoteEndpoint, CRKTransportPreflightOperation, NSDictionary;
-@protocol CRKGrowthFunction, CRKSessionDelegate;
+@class CATStateMachine;
+@protocol CRKGrowthFunction;
 
 @interface CRKSession
 {
     CATStateMachine *mFSM;
-    double mCurrentBackoffInterval;
-    _Bool _requiresBeacon;
-    id <CRKSessionDelegate> _delegate;
-    CRKRemoteEndpoint *_endpoint;
-    id <CRKGrowthFunction> _backoffGrowthFunction;
-    CATTransport *_transport;
-    double _lostBeaconTimeout;
-    double _willLoseBeaconWarningTimeout;
-    CRKTransportPreflightOperation *_transportPreflightOperation;
 }
 
 - (double);
@@ -35,10 +26,10 @@
 - (_Bool);
 - (void);
 - (double);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -59,8 +50,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)8;
 - (id);
 - (id);
 - (void);
@@ -68,22 +59,13 @@
 - (id);
 - (id);
 - (id);
+- (void)_recognizersRequiredToFail;
 - (void);
-- (void);
-- (void)ns: /* Error: Ran out of types for this method. */;
+- (void)setInstalledApplications: /* Error: Ran out of types for this method. */;
 - (id)ZÿÁ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKGrowthFunction> backoffGrowthFunction; // @synthesize backoffGrowthFunction=_backoffGrowthFunction;
-@property(nonatomic) __weak id <CRKSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) CRKRemoteEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(nonatomic) double lostBeaconTimeout; // @synthesize lostBeaconTimeout=_lostBeaconTimeout;
-@property(nonatomic) _Bool requiresBeacon; // @synthesize requiresBeacon=_requiresBeacon;
-@property(readonly, copy, nonatomic) NSDictionary *stateDictionary;
-@property(retain, nonatomic) CATStateMachine *stateMachine; // @synthesize stateMachine=mFSM;
-@property(retain, nonatomic) CATTransport *transport; // @synthesize transport=_transport;
-@property(retain, nonatomic) CRKTransportPreflightOperation *transportPreflightOperation; // @synthesize transportPreflightOperation=_transportPreflightOperation;
-@property(nonatomic) double willLoseBeaconWarningTimeout; // @synthesize willLoseBeaconWarningTimeout=_willLoseBeaconWarningTimeout;
 
 @end
 

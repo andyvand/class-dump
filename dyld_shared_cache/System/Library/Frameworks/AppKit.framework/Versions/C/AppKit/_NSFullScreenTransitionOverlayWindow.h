@@ -6,53 +6,38 @@
 
 #import <AppKit/NSPanel.h>
 
-@class CALayer;
-
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenTransitionOverlayWindow : NSPanel
 {
     struct CGRect _transitionedWindowTargetFrame;
-    id _transitionedWindowBeforeContents;
-    id _transitionedWindowAfterContents;
-    struct CGRect _windowSnapshotStartFrame;
-    struct CGRect shadowDeltaRect;
-    struct CGRect _shadowAfterDeltaRect;
-    CALayer *rootLayer;
-    CALayer *_transitionedWindowBeforeLayer;
-    CALayer *_transitionedWindowAfterLayer;
 }
 
 - (struct CGRect);
 - (struct CGRect);
 - (id);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void));
 - (void);
 - (struct CGRect);
-- (struct CGRect);
-- (void);
-- (_Bool);
-- (struct CGRect);
-- (id);
-- (struct CGRect);
 - (void);
 - (void);
-- (id):(id)arg1;
+- (void);
+- (void);
+- (void):(struct CGRect)arg1 CommCenter failed to provide info but returned no error;
+- (void)lish connection to CommCenter;
+- (void);
+- (struct CGRect);
+- (struct CGRect);
+- (void);
+- (_Bool)"NSInputStream"24@32;
+- (struct CGRect)for reporting;
+- (id)ic}@ RetryReason::Permit_ConnectionLost fNumConnectionLossRetries=%d, fNumRetries=%d /* Error: Ran out of types for this method. */;
+- (struct CGRect)since it does not conform to ATS policy;
+- (void).T(%{public}@) T(%p) T.FW(%p);
+- (void);
+- (id)localizedStringFromNumber:(id)arg1 numberStyle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct CGRect shadowAfterDeltaRect; // @synthesize shadowAfterDeltaRect=_shadowAfterDeltaRect;
-@property(nonatomic) struct CGRect shadowDeltaRect; // @synthesize shadowDeltaRect;
-@property(retain, nonatomic) id transitionedWindowAfterContents; // @synthesize transitionedWindowAfterContents=_transitionedWindowAfterContents;
-@property(retain, nonatomic) id transitionedWindowBeforeContents; // @synthesize transitionedWindowBeforeContents=_transitionedWindowBeforeContents;
 @property(nonatomic) struct CGRect transitionedWindowTargetFrame; // @synthesize transitionedWindowTargetFrame=_transitionedWindowTargetFrame;
-@property(nonatomic) struct CGRect windowSnapshotStartFrame; // @synthesize windowSnapshotStartFrame=_windowSnapshotStartFrame;
 
 @end
 

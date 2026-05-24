@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAccountManager, FMXPCServiceDescription, FMXPCSession, NSObject, NSString;
+@class AKAccountManager, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SearchPartyAccountNotificationPlugin
 {
     AKAccountManager *_akAccountManager;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    FMXPCServiceDescription *_userAgentServiceDescription;
-    FMXPCSession *_userAgentSession;
 }
 
 - (id);
@@ -24,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -39,18 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) FMXPCServiceDescription *userAgentServiceDescription; // @synthesize userAgentServiceDescription=_userAgentServiceDescription;
-@property(retain, nonatomic) FMXPCSession *userAgentSession; // @synthesize userAgentSession=_userAgentSession;
 
 @end
 

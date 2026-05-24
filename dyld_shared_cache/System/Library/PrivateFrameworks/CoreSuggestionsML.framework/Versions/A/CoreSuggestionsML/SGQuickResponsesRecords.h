@@ -9,17 +9,12 @@
 @interface SGQuickResponsesRecords
 {
     NSArray *_replyRecords;
-    double _totalOpportunities;
-    double _totalDisplayed;
-    double _totalSelected;
-    double _totalMatched;
-    double _totalUnmatched;
 }
 
 - (double);
 - (double);
-- (double);
-- (double);
+- (double);
+- (double)�;
 - (double);
 - (id);
 - (id);
@@ -27,11 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *replyRecords; // @synthesize replyRecords=_replyRecords;
-@property(readonly, nonatomic) double totalDisplayed; // @synthesize totalDisplayed=_totalDisplayed;
-@property(readonly, nonatomic) double totalMatched; // @synthesize totalMatched=_totalMatched;
-@property(readonly, nonatomic) double totalOpportunities; // @synthesize totalOpportunities=_totalOpportunities;
-@property(readonly, nonatomic) double totalSelected; // @synthesize totalSelected=_totalSelected;
-@property(readonly, nonatomic) double totalUnmatched; // @synthesize totalUnmatched=_totalUnmatched;
 
 @end
 

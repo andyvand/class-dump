@@ -7,18 +7,14 @@
 #import <PhotosUICore/PXPhotosAction.h>
 
 @class NSArray;
-@protocol PXFastEnumeration;
 
 @interface PXDeleteCollectionsAction : PXPhotosAction
 {
     NSArray *_assetCollections;
-    NSArray *_sharedCollections;
-    NSArray *_collectionLists;
-    id <PXFastEnumeration> _collections;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);

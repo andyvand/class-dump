@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, WFIcon;
+@class NSURL, WFIcon;
 
 @interface WFContextualActionIcon
 {
     NSURL *_imageURL;
-    NSData *_imageData;
-    double _imageScale;
-    unsigned long long _displayStyle;
-    NSString *_systemName;
-    NSString *_applicationBundleIdentifier;
-    NSString *_lnPropertyIdentifier;
-    NSString *_imageName;
 }
 
 + (id);
-+ (id);
++ (id)m;
 + (id);
 + (void);
 + (id);
@@ -27,8 +20,8 @@
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)Nfz;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -37,7 +30,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)7;
 - (id);
 - (id);
 - (id);
@@ -51,14 +44,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, nonatomic) unsigned long long displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(readonly, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(readonly, copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(readonly, nonatomic) double imageScale; // @synthesize imageScale=_imageScale;
-@property(readonly, copy, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(readonly, copy, nonatomic) NSString *lnPropertyIdentifier; // @synthesize lnPropertyIdentifier=_lnPropertyIdentifier;
-@property(readonly, nonatomic) NSString *systemName; // @synthesize systemName=_systemName;
 @property(readonly, nonatomic) WFIcon *wfIcon;
 
 @end

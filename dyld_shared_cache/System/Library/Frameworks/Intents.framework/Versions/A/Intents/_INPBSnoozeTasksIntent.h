@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRange, _INPBIntentMetadata;
-
 @interface _INPBSnoozeTasksIntent
 {
     CDStruct_eff9c538 _has;
-    _Bool _all;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDateTimeRange *_nextTriggerTime;
-    NSArray *_tasks;
 }
 
-+ (Class);
++ (Class)l;
 + (_Bool);
 - (unsigned long long);
 - (id);
@@ -27,17 +21,17 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)ing account with altDSID %{mask}@, but we're running in the enterprise persona.;
+- (id)tem/Library/Frameworks/QuickLookThumbnailing.framework/Versions/A/QuickLookThumbnailing;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)`;
+- (_Bool);
+- (id)#;
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (void)undetermined;
+- (id)(7;
 - (id);
 - (void);
 - (_Bool),V_itemLabel;
@@ -45,20 +39,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool all; // @synthesize all=_all;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAll;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasNextTriggerTime;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBDateTimeRange *nextTriggerTime; // @synthesize nextTriggerTime=_nextTriggerTime;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *tasks; // @synthesize tasks=_tasks;
-@property(readonly, nonatomic) unsigned long long tasksCount;
 
 @end
 

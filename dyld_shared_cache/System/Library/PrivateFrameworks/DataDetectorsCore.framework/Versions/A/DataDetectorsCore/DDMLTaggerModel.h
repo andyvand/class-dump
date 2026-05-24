@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSLocale, NSObject;
-@protocol OS_dispatch_queue;
+@class NSLocale;
 
 __attribute__((visibility("hidden")))
 @interface DDMLTaggerModel
 {
     struct MontrealNeuralNetwork *_taggerModel;
-    NSDictionary *_tokenLabelMap;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSLocale *_embeddingLocale;
-    NSError *_error;
-    NSArray *_supportedTypes;
 }
 
 + (void);
@@ -25,17 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)kFZPersonProfileAttributedString;
 - (id);
-- (id);
-- (void);
+- (void)�C;
 - (_Bool);
-- (void);
+- (void)encodedUserInfoError;
 
 // Remaining properties
 @property(readonly) NSLocale *embeddingLocale; // @synthesize embeddingLocale=_embeddingLocale;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) _Bool isValid;
-@property(readonly) NSArray *supportedTypes; // @synthesize supportedTypes=_supportedTypes;
 
 @end
 

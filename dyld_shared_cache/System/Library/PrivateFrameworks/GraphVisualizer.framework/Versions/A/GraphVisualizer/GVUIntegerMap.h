@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)H;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -28,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSArray *allKeys;
-@property(readonly) unsigned long long count;
 
 @end
 

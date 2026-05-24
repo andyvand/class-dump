@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *attributeName;
-@property(copy, nonatomic) NSString *attributeValue;
 
 @end
 

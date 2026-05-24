@@ -6,31 +6,18 @@
 
 #import <AppKit/NSWindow.h>
 
-@class NSLayoutConstraint, NSStatusBarContentView, NSStatusItem, NSView;
+@class NSStatusItem;
 
 __attribute__((visibility("hidden")))
 @interface NSStatusBarWindow : NSWindow
 {
     NSStatusItem *_statusItem;
-    NSStatusBarContentView *_windowContentView;
-    NSView *_itemContentView;
-    NSView *_statusView;
-    NSLayoutConstraint *_windowContentViewWidthConstraint;
-    NSLayoutConstraint *_windowContentViewHeightConstraint;
-    double _internalItemContentPadding;
-    NSLayoutConstraint *_itemContentViewDefaultWidthConstraint;
-    NSLayoutConstraint *_itemContentViewDefaultHeightConstraint;
-    _Bool _variableLength;
-    _Bool _selected;
-    id _retargetingEventMonitor;
-    _Bool _editMode;
-    _Bool _viewFillsWindow;
 }
 
-+ (id);
++ (id)ed-replace;
 - (_Bool);
-- (void *);
-- (void);
+- (void *)t;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -46,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool)e code directory hash for %d:%s /* Error: Ran out of types for this method. */;
 - (double);
 - (_Bool);
 - (double);
@@ -58,30 +45,30 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)URL}"fCachePolicy"Q"fTimeout"d"fMainDocumentURL"^{__CFURL}"fProtocolProperties"^{__CFDictionary}"fProxyDict"^{__CFDictionary}"fHTTPRequest"^{HTTPRequest}"fFlags"{Flags="_flag_SHOULD_HANDLE_HTTP_COOKIES"b1"_flag_IS_MUTABLE"b1"_flag_SHOULD_START_SYNCHRONOUSLY"b1"_flag_ALLOW_CELLULAR"b1"_flag_PREVENTSIDLESYSTEMSLEEP"b1"_flag_SET_EXPLICIT_SHOULD_HANDLE_COOKIES"b1"_flag_SET_EXPLICIT_NETWORK_SERVICE_TYPE"b1"_flag_SET_EXPLICIT_ALLOWS_CELLULAR"b1"_flag_SET_EXPLICIT_PREVENTS_IDLE_SYSTEM_SLEEP"b1"_flag_SET_EXPLICIT_SHOULD_PIPELINE"b1"_flag_SET_EXPLICIT_CACHE_POLICY"b1"_flag_SET_EXPLICIT_TIMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (_Bool)}16^{__CFArray=}24Q32d40^{__CFURL=}48C56;
+- (void)connection:didReceiveInformationalResponse: /* Error: Ran out of types for this method. */;
+- (_Bool)_filename;
+- (void)Data}^{HTTPResponse}{os_unfair_lock_s=I}},V__cf_resp_data;
+- (void)Dictionary}i^{__CFData}^{HTTPResponse}{os_unfair_lock_s=I}},R,D;
 - (long long);
+- (id)Q6;
+- (id)@ with identifier %@ outstanding auth tasks %@;
+- (void)<%{public}@> error moving resume file:(id)arg1 %@;
+- (void)o trim entries from alt_service db. Error= %s;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool):%@ /* Error: Ran out of types for this method. */;
+- (id)oo)o8osstt;
+- (void)@;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -92,16 +79,7 @@ __attribute__((visibility("hidden")))
 - (void)ØÕÿrC;
 
 // Remaining properties
-@property double defaultItemLength;
-@property _Bool editMode; // @synthesize editMode=_editMode;
-@property double externalItemContentPadding;
-@property _Bool hasCAShadow;
-@property double internalItemContentPadding;
-@property(readonly) NSView *itemContentView;
-@property double menuBarHeight;
 @property(readonly) __weak NSStatusItem *statusItem;
-@property _Bool variableLength;
-@property _Bool viewFillsWindow; // @synthesize viewFillsWindow=_viewFillsWindow;
 
 @end
 

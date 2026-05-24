@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)utput stream that is not open.;
 - (id),;
 
 @end

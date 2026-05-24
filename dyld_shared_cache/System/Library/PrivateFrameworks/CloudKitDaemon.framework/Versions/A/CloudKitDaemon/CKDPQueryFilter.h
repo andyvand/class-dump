@@ -4,53 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPLocationBound, CKDPRecordFieldIdentifier, CKDPRecordFieldValue;
+@class CKDPLocationBound;
 
 @interface CKDPQueryFilter
 {
     CKDPLocationBound *_bounds;
-    CKDPRecordFieldIdentifier *_fieldName;
-    CKDPRecordFieldValue *_fieldValue;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
 - (void);
 - (id);
+- (void)@40;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)tHost:%1.10f
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (int);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (int);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (int);
-- (id);
+- (id);
 - (void);
 - (_Bool)qÛ1Â0@ù
 × ;
-- (id)baseScope:(int)arg1;
-- (_Bool)coverIdentitiesWithLookupInfos:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)initWithContainer:(int)arg1 databaseScope: /* Error: Ran out of types for this method. */;
+- (_Bool)_discoverIdentitiesWithLookupInfos:completionBlock: /* Error: Ran out of types for this method. */;
 - (_Bool)ilityWatcher>",W,N,V_delegate;
 - (void);
-- (void)KDFetchRecordsOperation;
+- (void)CKDFetchRecordsOperation;
 - (id)create publicCloudDBURL url";
 
 // Remaining properties
-@property(retain, nonatomic) CKDPLocationBound *bounds; // @synthesize bounds=_bounds;
-@property(retain, nonatomic) CKDPRecordFieldIdentifier *fieldName; // @synthesize fieldName=_fieldName;
-@property(retain, nonatomic) CKDPRecordFieldValue *fieldValue; // @synthesize fieldValue=_fieldValue;
-@property(readonly, nonatomic) _Bool hasBounds;
 @property(readonly, nonatomic) _Bool hasFieldName;
-@property(readonly, nonatomic) _Bool hasFieldValue;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -4,39 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSError;
-@protocol NSSecureCoding><NSObject;
-
 @interface DTXMessage
 {
     unsigned int _messageType;
-    int _compressionType;
-    unsigned int _status;
-    NSData *_payloadData;
-    unsigned long long _cost;
-    NSData *_serializedData;
-    id <NSSecureCoding><NSObject> _payloadObject;
-    void *_auxiliary;
-    _Atomic _Bool _immutable;
-    _Bool _deserialized;
-    _Bool _expectsReply;
-    unsigned int _identifier;
-    unsigned int _channelCode;
-    unsigned int _conversationIndex;
-    NSDictionary *_auxiliaryPromoted;
 }
 
 + (void);
 + (id);
 + (id);
-+ (id);
++ (id) ;
 + (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)";
 + (id);
 + (id);
 + (void);
@@ -84,9 +67,9 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)nguage_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<quasar::language_detector::Locale>=(?=c{Locale={basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -97,26 +80,12 @@
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)GetResponseAlternatives;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int channelCode; // @synthesize channelCode=_channelCode;
-@property(nonatomic) unsigned int conversationIndex; // @synthesize conversationIndex=_conversationIndex;
-@property(readonly, nonatomic) unsigned long long cost; // @synthesize cost=_cost;
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_payloadData;
-@property(readonly, nonatomic) _Bool deserialized; // @synthesize deserialized=_deserialized;
-@property(retain, nonatomic) NSError *error;
-@property(nonatomic) unsigned int errorStatus; // @synthesize errorStatus=_status;
-@property(nonatomic) _Bool expectsReply; // @synthesize expectsReply=_expectsReply;
-@property(nonatomic) unsigned int identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isBarrier;
-@property(readonly, nonatomic) _Bool isDispatch;
 @property(nonatomic) unsigned int messageType;
-@property(readonly, nonatomic) id <NSSecureCoding><NSObject> object;
-@property(copy, nonatomic) id <NSSecureCoding><NSObject> payloadObject;
-@property(readonly, nonatomic) unsigned long long serializedLength;
 
 @end
 

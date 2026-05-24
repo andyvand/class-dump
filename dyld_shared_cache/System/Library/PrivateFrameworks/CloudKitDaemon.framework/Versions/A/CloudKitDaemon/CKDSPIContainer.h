@@ -10,6 +10,22 @@
 {
 }
 
+- (void)setMeasurement:(CDUnknownBlockType)arg1:common_Setting /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)	k;
+- (void);
+- (void);
+- (void)APSenderSessionNotification_Disconnected;
+- (void)peRef);
 - (void);
 - (void);
 - (void);
@@ -19,43 +35,30 @@
 - (void);
 - (void);
 - (void);
+- (void)searchableIndexSchedulable:(id)arg1 didGenerateImportantPowerEventWithIdentifier:(CDUnknownBlockType)arg2 eventData: /* Error: Ran out of types for this method. */;
+- (void)WHERE is_redonation AND NOT is_donated
+    ),
+    undonated_redonation_percentiles AS (
+        SELECT age, NTILE(20) OVER (ORDER BY ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)QuotaUsage:(id)arg1;
+- (void)mutableBytes;
+- (void)setHasMetadataQuotaUsage:(id)arg1;
 - (void)",&,N,V_identifier;
 - (void);
 - (void)ìí;
 - (void)d0K;
 - (void);
 - (void)ary/Frameworks/CloudKitTesting.framework/CloudKitTesting;
-- (void)d;
-- (void)MissingIdentitiesErrorOnDecryptionRetry;
+- (void)CKAssetsDownloaded;
+- (void)ForceMissingIdentitiesErrorOnDecryptionRetry;
 - (void);
 - (void)already finished;
 - (void)tasks:(CDUnknownBlockType)arg1 %@;
-- (void)ndleIsAppleExecutable;
+- (void)clientBundleIsAppleExecutable;
 - (void)e;
 - (void)ackageSectionState:(id)arg1 progress:(CDUnknownBlockType)arg2 results:] /* Error: Ran out of types for this method. */;
 - (void)hedButNotRegisteredMMCSItems:(id)arg1 error:(long long)arg2 ];

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTextStyleRuleInternal, NSDictionary, NSString;
+@class AVTextStyleRuleInternal, NSDictionary;
 
 @interface AVTextStyleRule
 {
@@ -12,13 +12,13 @@
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)Yh;
+- (id)clientSilenceFramesCountMs;
+- (id)characterDirectionForLanguage: /* Error: Ran out of types for this method. */;
+- (id)erances;
+- (id)_emojiFormatter;
 - (id);
 - (void);
 - (id);
@@ -28,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *textMarkupAttributes;
-@property(readonly, nonatomic) NSString *textSelector;
 
 @end
 

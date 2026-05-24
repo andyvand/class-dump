@@ -13,7 +13,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)onnection interrupted;
 
 @end
 

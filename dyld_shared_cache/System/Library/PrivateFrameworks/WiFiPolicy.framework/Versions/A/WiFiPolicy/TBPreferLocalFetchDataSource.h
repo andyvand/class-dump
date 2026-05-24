@@ -5,19 +5,16 @@
 //
 
 @class TBDataSource;
-@protocol TBCacheProvider;
 
 @interface TBPreferLocalFetchDataSource
 {
     TBDataSource *_localDataSource;
-    TBDataSource *_remoteDataSource;
-    id <TBCacheProvider> _cacheProvider;
 }
 
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)db;
+- (id)UsoEntityBuilderProtocol_common_LocalisedString;
 - (id);
 - (void);
 - (void);
@@ -25,9 +22,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <TBCacheProvider> cacheProvider; // @synthesize cacheProvider=_cacheProvider;
 @property(retain, nonatomic) TBDataSource *localDataSource; // @synthesize localDataSource=_localDataSource;
-@property(retain, nonatomic) TBDataSource *remoteDataSource; // @synthesize remoteDataSource=_remoteDataSource;
 
 @end
 

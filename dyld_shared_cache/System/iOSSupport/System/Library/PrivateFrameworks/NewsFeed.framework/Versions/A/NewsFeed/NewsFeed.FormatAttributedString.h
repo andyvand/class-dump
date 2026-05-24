@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatAttributedString
 {
     id attributedString;
-    id styles;
-    id baseStyle;
-    id buildType;
 }
 
 @end

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedStringArgument_Artwork, GEOComposedStringArgument_Countdown, GEOComposedStringArgument_Distance, GEOComposedStringArgument_Duration, GEOComposedStringArgument_Frequency, GEOComposedStringArgument_Maneuver, GEOComposedStringArgument_Percentage, GEOComposedStringArgument_Power, GEOComposedStringArgument_Price, GEOComposedStringArgument_String, GEOComposedStringArgument_Substitution, GEOComposedStringArgument_Timestamp, GEOComposedStringArgument_TimestampList, GEOComposedStringArgument_URL, NSDictionary, NSString;
+@class NSString;
 
 @interface GEOComposedStringArgument
 {
     NSString *_token;
-    int _type;
-    _Bool _hasDefaultValue;
-    _Bool _hasOverrideValue;
-    NSDictionary *_stringAttributes;
 }
 
 + (id);
@@ -28,49 +24,31 @@
 - (id);
 - (id);
 - (id);
+- (id)@0:8@?16 /* Error: Ran out of types for this method. */;
+- (id)timeWithDelay:fromClock: /* Error: Ran out of types for this method. */;
+- (_Bool)dressingGrammarAccessGrantedCachedValue;
+- (id)havior may follow:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)u;
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (int);
+- (int)_setAttributionBadgeClickable: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
-- (id)DeploymentId:(struct _NSZone *)arg1;
+- (id)setDeploymentId:(struct _NSZone *)arg1;
 - (void)ÄÊ®ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOComposedStringArgument_Artwork *artworkFormat;
-@property(readonly, nonatomic) GEOComposedStringArgument_Countdown *countdownFormat;
-@property(readonly, nonatomic) GEOComposedStringArgument_Distance *distanceFormat;
-@property(readonly, nonatomic) GEOComposedStringArgument_Duration *durationFormat;
-@property(readonly, nonatomic) GEOComposedStringArgument_Frequency *frequencyFormat;
 @property(nonatomic) _Bool hasDefaultValue; // @synthesize hasDefaultValue=_hasDefaultValue;
-@property(nonatomic) _Bool hasOverrideValue; // @synthesize hasOverrideValue=_hasOverrideValue;
-@property(readonly, nonatomic) GEOComposedStringArgument_Maneuver *maneuverFormat;
-@property(readonly, nonatomic) GEOComposedStringArgument_Percentage *percentageFormat;
-@property(readonly, nonatomic) GEOComposedStringArgument_Power *powerFormat;
-@property(readonly, nonatomic) GEOComposedStringArgument_Price *priceFormat;
-@property(copy, nonatomic) NSDictionary *stringAttributes; // @synthesize stringAttributes=_stringAttributes;
-@property(readonly, nonatomic) GEOComposedStringArgument_String *stringFormat;
-@property(readonly, nonatomic) GEOComposedStringArgument_Substitution *substitutionFormat;
-@property(readonly, nonatomic) GEOComposedStringArgument_Timestamp *timestampFormat;
-@property(readonly, nonatomic) GEOComposedStringArgument_TimestampList *timestampListFormat;
-@property(readonly, nonatomic) NSString *token; // @synthesize token=_token;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
-@property(readonly, nonatomic) GEOComposedStringArgument_URL *urlFormat;
 
 @end
 

@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INModifyRelationship, NSArray;
+@class NSArray;
 
 @protocol INSetRelationshipIntentExport
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy) NSArray *contactIdentifiers;
-@property(copy) INModifyRelationship *targetRelationship;
 @end
 

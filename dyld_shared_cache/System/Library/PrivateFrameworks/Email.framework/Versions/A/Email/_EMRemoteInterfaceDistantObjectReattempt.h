@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSInvocation;
+@class NSInvocation;
 
 __attribute__((visibility("hidden")))
 @interface _EMRemoteInterfaceDistantObjectReattempt
 {
     NSInvocation *_invocation;
-    NSError *_error;
 }
 
 + (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)accessControl;
 - (void);
 - (id)× ;
 
 // Remaining properties
-@property(readonly) NSError *error; // @synthesize error=_error;
 @property(readonly) NSInvocation *invocation; // @synthesize invocation=_invocation;
 
 @end

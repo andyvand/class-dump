@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudSyncingObject, NSString;
+@class NSString;
 
 @interface ICAssetSignature
 {
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (id);
 + (id);
@@ -26,11 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *cloudKitRecordKey; // @dynamic cloudKitRecordKey;
-@property(retain, nonatomic) ICCloudSyncingObject *cloudSyncingObject; // @dynamic cloudSyncingObject;
-@property(retain, nonatomic) NSString *fetchedLocalAssetSignatureHash; // @dynamic fetchedLocalAssetSignatureHash;
-@property(nonatomic) _Bool isUserSpecificRecordKey; // @dynamic isUserSpecificRecordKey;
-@property(retain, nonatomic) NSString *lastKnownServerAssetSignatureHash; // @dynamic lastKnownServerAssetSignatureHash;
-@property(readonly, nonatomic) _Bool outOfDate;
 
 @end
 

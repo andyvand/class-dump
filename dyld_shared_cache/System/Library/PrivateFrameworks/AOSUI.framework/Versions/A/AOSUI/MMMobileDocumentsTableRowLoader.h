@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMMobileDocumentsTableRow, NSArray;
+@class MMMobileDocumentsTableRow;
 
 @interface MMMobileDocumentsTableRowLoader
 {
     MMMobileDocumentsTableRow *_rowView;
-    NSArray *_topLevelObjects;
 }
 
 - (id);

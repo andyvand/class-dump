@@ -5,6 +5,7 @@
 //
 
 @protocol SGSeekable
+- (const void *);
 - (unsigned long long)0@ù
 × ;
 - (void)l interactions from %{public}@;

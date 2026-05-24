@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface IMOrderingTools
 {
     NSString *_jsonFilePath;
-    NSMutableArray *_jsonArray;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)s] %s:(id)arg1 %d %@(%p) Cannot add remote endpoint=%p;
+- (void)ceEnabled=%u became audioClockDeviceEnabled=%u;
+- (void)%@;
+- (void)%s:(id)arg1 %d Missing media blob entry in particiant info. ParticipantInfo=%@;
+- (void)t in particiant info;
+- (void)%@(%p) Session[%@] received callback for didUpdateConfig didSucceed=%{BOOL}d;
+- (void)onfig didSucceed=%{BOOL}d;
+- (id)[%s] %s:%d failed transportToken[%@] /* Error: Ran out of types for this method. */;
+- (id)ot retrieve main screen width;
+- (id)ed state;
+- (id)only allowed in created state;
+- (id)s:%d ARPLSessionRelease:delete... /* Error: Ran out of types for this method. */;
 - (void)l®¼¯à°P¶T·¸øÄôÅÇ|ËÐÒ8ÒÔtØôÚ¤Ü@åôåXçhéLë°ì;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *jsonArray; // @synthesize jsonArray=_jsonArray;
 @property(retain, nonatomic) NSString *jsonFilePath; // @synthesize jsonFilePath=_jsonFilePath;
 
 @end

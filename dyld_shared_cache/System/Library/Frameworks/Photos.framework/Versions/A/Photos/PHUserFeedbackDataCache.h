@@ -4,61 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSObject, NSSet, PHPhotoLibrary;
+@class NSArray, NSObject;
 @protocol OS_os_log;
 
 @interface PHUserFeedbackDataCache
 {
     NSObject<OS_os_log> *_userFeedbackLogging;
-    PHPhotoLibrary *_photoLibrary;
-    NSArray *_importantPersons;
-    NSDictionary *_userFeedbackTypeByPersonUUID;
-    NSSet *_holidayNamesWithNegativeFeedback;
-    NSSet *_areaNamesWithNegativeFeedback;
-    NSSet *_datesWithNegativeFeedback;
-    NSSet *_dateIntervalsWithNegativeFeedback;
-    NSSet *_locationsWithNegativeFeedback;
-    NSSet *_deniedFeaturedPhotoUUIDs;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
+- (id)tableView:(id)arg1 viewForTableColumn:(id)arg2 row: /* Error: Ran out of types for this method. */;
+- (id)EditingOnDragEnd;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)K=;
+- (void)heroArtworkCatalogBlock;
+- (void)addItemsWithIdentifiers:(id)arg1 toPlaylistWithIdentifier:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
+- (void)localized name for URL:(id)arg1 %{public}@;
 - (void);
+- (id);
+- (id)tC14ScreenTimeCore13AccessRequest"16@?<v@?@"NSError">24;
+- (void)B,N,GwillInject,V_inject;
 - (void);
 - (id);
 - (void)Ð1Â0@ù
 × ;
-- (void)ameraMetadataURLForPrimaryAssetURL:photoLibrary: /* Error: Ran out of types for this method. */;
+- (void)_cameraMetadataURLForPrimaryAssetURL:photoLibrary: /* Error: Ran out of types for this method. */;
 - (id)eo complement of %@ (%@);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *areaNamesWithNegativeFeedback; // @synthesize areaNamesWithNegativeFeedback=_areaNamesWithNegativeFeedback;
-@property(retain, nonatomic) NSSet *dateIntervalsWithNegativeFeedback; // @synthesize dateIntervalsWithNegativeFeedback=_dateIntervalsWithNegativeFeedback;
-@property(retain, nonatomic) NSSet *datesWithNegativeFeedback; // @synthesize datesWithNegativeFeedback=_datesWithNegativeFeedback;
-@property(retain, nonatomic) NSSet *deniedFeaturedPhotoUUIDs; // @synthesize deniedFeaturedPhotoUUIDs=_deniedFeaturedPhotoUUIDs;
-@property(retain, nonatomic) NSSet *holidayNamesWithNegativeFeedback; // @synthesize holidayNamesWithNegativeFeedback=_holidayNamesWithNegativeFeedback;
 @property(retain, nonatomic) NSArray *importantPersons; // @synthesize importantPersons=_importantPersons;
-@property(retain, nonatomic) NSSet *locationsWithNegativeFeedback; // @synthesize locationsWithNegativeFeedback=_locationsWithNegativeFeedback;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary;
-@property(retain, nonatomic) NSDictionary *userFeedbackTypeByPersonUUID; // @synthesize userFeedbackTypeByPersonUUID=_userFeedbackTypeByPersonUUID;
 
 @end
 

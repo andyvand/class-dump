@@ -7,9 +7,6 @@
 @interface TSWPPadding
 {
     double _topInset;
-    double _leftInset;
-    double _bottomInset;
-    double _rightInset;
 }
 
 + (id);
@@ -25,14 +22,11 @@
 - (void);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)ublic}@;
 - (id);
 - (double);
 
 // Remaining properties
-@property(nonatomic) double bottomInset; // @synthesize bottomInset=_bottomInset;
-@property(nonatomic) double leftInset; // @synthesize leftInset=_leftInset;
-@property(nonatomic) double rightInset; // @synthesize rightInset=_rightInset;
 @property(nonatomic) double topInset; // @synthesize topInset=_topInset;
 
 @end

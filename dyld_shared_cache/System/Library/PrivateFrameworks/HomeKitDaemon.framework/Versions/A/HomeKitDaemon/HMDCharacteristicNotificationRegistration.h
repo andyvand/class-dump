@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicNotificationRegistration
 {
     _Bool _enabled;
-    NSUUID *_accessoryUUID;
-    NSNumber *_characteristicInstanceID;
-    NSString *_deviceIdsDestination;
-    NSUUID *_userUUID;
-    NSDate *_lastModified;
-    NSNumber *_notificationThreshold;
 }
 
 - (id);
@@ -25,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id)ceTypeAlias:(struct _NSZone *)arg1;
+- (id)getServiceTypeAlias:(struct _NSZone *)arg1;
 - (id)d to create snapshot file from IDS data:failed to unarchive allowed IDS session options from relay data:%@ /* Error: Ran out of types for this method. */;
 - (id)%@)/%@ of accessory:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)ings = %@;
@@ -34,12 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly) NSNumber *characteristicInstanceID; // @synthesize characteristicInstanceID=_characteristicInstanceID;
-@property(readonly, copy) NSString *deviceIdsDestination; // @synthesize deviceIdsDestination=_deviceIdsDestination;
-@property(readonly) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) NSDate *lastModified; // @synthesize lastModified=_lastModified;
-@property(readonly, copy) NSNumber *notificationThreshold; // @synthesize notificationThreshold=_notificationThreshold;
-@property(readonly) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 
 @end
 

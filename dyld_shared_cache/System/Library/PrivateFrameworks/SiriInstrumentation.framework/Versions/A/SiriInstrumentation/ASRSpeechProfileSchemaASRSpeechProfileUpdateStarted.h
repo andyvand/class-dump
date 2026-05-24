@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSpeechProfileSchemaASRSpeechProfileUpdateStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -21,8 +18,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)neof_Expression;
+- (id)P;
+- (id)whichOneof_Expression;
 - (id)	
 ;
 - (id);
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) BSSimpleAssertion *assertion;
-@property(readonly, nonatomic) _Bool wasExplicit;
 @end
 

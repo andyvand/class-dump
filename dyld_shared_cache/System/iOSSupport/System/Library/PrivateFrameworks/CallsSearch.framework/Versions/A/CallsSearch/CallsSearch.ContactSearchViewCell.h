@@ -8,26 +8,6 @@
 {
     id logger;
     id contactSummarizer;
-    id avatarViewControllerSettings;
-    id avatarViewController;
-    id avatarView;
-    id titleLabel;
-    id detailLabel;
-    id searchType;
-    id searchText;
-    id $__lazy_storage_$_textContainer;
-    id callButton;
-    id videoButton;
-    id callProviderManager;
-    id senderIdentityProvider;
-    id $__lazy_storage_$_commonConstraints;
-    id $__lazy_storage_$_axConstraints;
-    id $__lazy_storage_$_nonAXConstraints;
-    id $__lazy_storage_$_videoButtonVisibleConstraints;
-    id contact;
-    id matchedPhoneNumber;
-    id videoCapableHandle;
-    id idsStatusSubscription;
 }
 
 - (void);

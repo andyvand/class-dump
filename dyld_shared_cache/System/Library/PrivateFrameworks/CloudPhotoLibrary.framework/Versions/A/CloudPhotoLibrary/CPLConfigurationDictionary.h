@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface CPLConfigurationDictionary
 {
     NSDictionary *_configuration;
-    NSString *_refreshIntervalKey;
-    double _minRefreshInterval;
-    NSDate *_lastUpdateDate;
 }
 
 - (id);
@@ -25,21 +22,17 @@
 - (double);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (double);
 - (_Bool);
 - (void)11Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastUpdateDate; // @synthesize lastUpdateDate=_lastUpdateDate;
-@property(readonly, nonatomic) double minRefreshInterval; // @synthesize minRefreshInterval=_minRefreshInterval;
-@property(readonly, nonatomic) double refreshInterval;
 @property(readonly, nonatomic) NSString *refreshIntervalKey; // @synthesize refreshIntervalKey=_refreshIntervalKey;
-@property(readonly, nonatomic, getter=isStale) _Bool stale;
 
 @end
 

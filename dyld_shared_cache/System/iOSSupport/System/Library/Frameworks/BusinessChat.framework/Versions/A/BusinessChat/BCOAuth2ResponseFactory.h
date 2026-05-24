@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)localizedStringWithFormat:(id)arg1;
++ (id)localizedStandardCompare:(id)arg1;
 
 @end
 

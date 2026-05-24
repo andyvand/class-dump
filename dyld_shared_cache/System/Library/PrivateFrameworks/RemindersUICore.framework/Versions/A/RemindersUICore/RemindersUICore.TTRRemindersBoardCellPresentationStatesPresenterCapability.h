@@ -7,17 +7,6 @@
 @interface RemindersUICore.TTRRemindersBoardCellPresentationStatesPresenterCapability
 {
     id isMultiSelectMode;
-    id hasActiveDragAndDrop;
-    id hasActiveColumnReordering;
-    id itemIDWithAnchoredPopover;
-    id itemIDsWithContextMenu;
-    id mouseOverItemID;
-    id itemIDsWithPonderingTextEffect;
-    id isMultiSelected;
-    id cellPresentationStates;
-    id cellPresentationStatesDidChange;
-    id showsInfoButtonWhenSelected;
-    id internalEditingItemID;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLRegion, NSCalendar, NSDate, NSDictionary, NSString, NSTimeZone;
+@class NSDate;
 
 @interface UILocalNotification
 {
@@ -12,35 +12,21 @@
 
 + (id))T;
 + (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
+- (id)me:(id)arg1 %@;
+- (id)ice %@;
+- (_Bool)nsfer we don't have on disk transfer:%@ record:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)clear the sync state for a transfer we don't have on disk transfer:%@ record:%@ /* Error: Ran out of types for this method. */;
+- (long long)time from storage that was slower than our predetermined threshold.;
+- (id)4;
 - (id);
 - (_Bool)!lFùñbÐ1Â0@ù
 × ;
 - (void)controller;
-- (id)ransformerExtension;
+- (id)_UISceneHostingPlatformAppearanceTransformerExtension;
 - (void)i;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *alertAction; // @dynamic alertAction;
-@property(copy, nonatomic) NSString *alertBody; // @dynamic alertBody;
-@property(copy, nonatomic) NSString *alertLaunchImage; // @dynamic alertLaunchImage;
-@property(copy, nonatomic) NSString *alertTitle; // @dynamic alertTitle;
-@property(nonatomic) long long applicationIconBadgeNumber; // @dynamic applicationIconBadgeNumber;
-@property(copy, nonatomic) NSString *category; // @dynamic category;
 @property(copy, nonatomic) NSDate *fireDate; // @dynamic fireDate;
-@property(nonatomic) _Bool hasAction; // @dynamic hasAction;
-@property(copy, nonatomic) CLRegion *region; // @dynamic region;
-@property(nonatomic) _Bool regionTriggersOnce; // @dynamic regionTriggersOnce;
-@property(copy, nonatomic) NSCalendar *repeatCalendar; // @dynamic repeatCalendar;
-@property(nonatomic) unsigned long long repeatInterval; // @dynamic repeatInterval;
-@property(copy, nonatomic) NSString *soundName; // @dynamic soundName;
-@property(copy, nonatomic) NSTimeZone *timeZone; // @dynamic timeZone;
-@property(copy, nonatomic) NSDictionary *userInfo; // @dynamic userInfo;
 
 @end
 

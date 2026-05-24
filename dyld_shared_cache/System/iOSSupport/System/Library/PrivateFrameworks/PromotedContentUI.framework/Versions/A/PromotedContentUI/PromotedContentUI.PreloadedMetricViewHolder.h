@@ -7,13 +7,6 @@
 @interface PromotedContentUI.PreloadedMetricViewHolder
 {
     id cleanupTimeout;
-    id locks;
-    id views;
-    id vendedViews;
-    id cleanupTimers;
-    id viewsLock;
-    id cleanupTimersLock;
-    id diagnostics;
 }
 
 @end

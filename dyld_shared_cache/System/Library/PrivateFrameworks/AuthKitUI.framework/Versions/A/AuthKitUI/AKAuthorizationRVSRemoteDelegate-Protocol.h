@@ -5,5 +5,6 @@
 //
 
 @protocol AKAuthorizationRVSRemoteDelegate
+- (void);
 @end
 

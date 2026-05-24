@@ -6,37 +6,9 @@
 
 #import <WiFiPolicy/WiFiUsageSession.h>
 
-@class NSDate, NSString;
-
 @interface WiFiUsageRealTimeCoexSession : WiFiUsageSession
 {
     _Bool _lastRequestDifferentSSID;
-    _Bool _isSplitSSID;
-    _Bool _hasCandidates;
-    _Bool _hasDifferentIpv4DetailsAfterSSIDTransition;
-    _Bool _hasDifferentIpv6DetailsAfterSSIDTransition;
-    _Bool _isRtCoexOptimal;
-    int _lastRequestPreferredBand;
-    unsigned long long _rtCoexType;
-    NSString *_rtCoexSubType;
-    unsigned long long _lastRequestType;
-    unsigned long long _lastRequestPreferredChannel;
-    NSString *_lastRequestPreferredSSID;
-    NSString *_lastRequestPreferredBSS;
-    NSDate *_firstRtCoexOptimal;
-    NSDate *_lastRtCoexOptimalStatusChange;
-    double _rtCoexInOptimalDuration;
-    NSDate *_lastEnterPreferredChannel;
-    double _preferredChannelDuration;
-    NSDate *_lastEnterPreferredBand;
-    double _preferredBandDuration;
-    NSDate *_firstSSIDTransition;
-    NSDate *_firstIPUpdateAfterSSIDTransition;
-    NSDate *_firstManualJoin;
-    NSDate *_firstManualJoinAfterSSIDTransition;
-    unsigned long long _requestSteerToPreferredChannelCount;
-    unsigned long long _requestSteerCount;
-    unsigned long long _requestDisconnectCount;
 }
 
 - (void);
@@ -75,7 +47,7 @@
 - (double);
 - (double);
 - (id);
-- (id);
+- (id)64;
 - (unsigned long long);
 - (int);
 - (id);
@@ -92,13 +64,13 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -108,42 +80,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)Warning:(struct _NSZone *)arg1 EventResult (%@) indicates transaction failure. Skipping.;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)C;
 - (id);
 - (void)!fÐ!àGùÑ¤Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSDate *firstIPUpdateAfterSSIDTransition; // @synthesize firstIPUpdateAfterSSIDTransition=_firstIPUpdateAfterSSIDTransition;
-@property(retain) NSDate *firstManualJoin; // @synthesize firstManualJoin=_firstManualJoin;
-@property(retain) NSDate *firstManualJoinAfterSSIDTransition; // @synthesize firstManualJoinAfterSSIDTransition=_firstManualJoinAfterSSIDTransition;
-@property(retain) NSDate *firstRtCoexOptimal; // @synthesize firstRtCoexOptimal=_firstRtCoexOptimal;
-@property(retain) NSDate *firstSSIDTransition; // @synthesize firstSSIDTransition=_firstSSIDTransition;
-@property _Bool hasCandidates; // @synthesize hasCandidates=_hasCandidates;
-@property _Bool hasDifferentIpv4DetailsAfterSSIDTransition; // @synthesize hasDifferentIpv4DetailsAfterSSIDTransition=_hasDifferentIpv4DetailsAfterSSIDTransition;
-@property _Bool hasDifferentIpv6DetailsAfterSSIDTransition; // @synthesize hasDifferentIpv6DetailsAfterSSIDTransition=_hasDifferentIpv6DetailsAfterSSIDTransition;
-@property _Bool isRtCoexOptimal; // @synthesize isRtCoexOptimal=_isRtCoexOptimal;
-@property _Bool isSplitSSID; // @synthesize isSplitSSID=_isSplitSSID;
-@property(retain) NSDate *lastEnterPreferredBand; // @synthesize lastEnterPreferredBand=_lastEnterPreferredBand;
-@property(retain) NSDate *lastEnterPreferredChannel; // @synthesize lastEnterPreferredChannel=_lastEnterPreferredChannel;
-@property _Bool lastRequestDifferentSSID; // @synthesize lastRequestDifferentSSID=_lastRequestDifferentSSID;
-@property(retain) NSString *lastRequestPreferredBSS; // @synthesize lastRequestPreferredBSS=_lastRequestPreferredBSS;
-@property int lastRequestPreferredBand; // @synthesize lastRequestPreferredBand=_lastRequestPreferredBand;
-@property unsigned long long lastRequestPreferredChannel; // @synthesize lastRequestPreferredChannel=_lastRequestPreferredChannel;
-@property(retain) NSString *lastRequestPreferredSSID; // @synthesize lastRequestPreferredSSID=_lastRequestPreferredSSID;
-@property unsigned long long lastRequestType; // @synthesize lastRequestType=_lastRequestType;
-@property(retain) NSDate *lastRtCoexOptimalStatusChange; // @synthesize lastRtCoexOptimalStatusChange=_lastRtCoexOptimalStatusChange;
-@property double preferredBandDuration; // @synthesize preferredBandDuration=_preferredBandDuration;
-@property double preferredChannelDuration; // @synthesize preferredChannelDuration=_preferredChannelDuration;
-@property unsigned long long requestDisconnectCount; // @synthesize requestDisconnectCount=_requestDisconnectCount;
-@property unsigned long long requestSteerCount; // @synthesize requestSteerCount=_requestSteerCount;
-@property unsigned long long requestSteerToPreferredChannelCount; // @synthesize requestSteerToPreferredChannelCount=_requestSteerToPreferredChannelCount;
-@property double rtCoexInOptimalDuration; // @synthesize rtCoexInOptimalDuration=_rtCoexInOptimalDuration;
-@property(retain) NSString *rtCoexSubType; // @synthesize rtCoexSubType=_rtCoexSubType;
 @property unsigned long long rtCoexType; // @synthesize rtCoexType=_rtCoexType;
 
 @end

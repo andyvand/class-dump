@@ -12,7 +12,7 @@
 + (Class);
 + (Class);
 - (id);
-- (id)ype:(id)arg1;
+- (id)StringAsAlarmSearchType:(id)arg1;
 
 @end
 

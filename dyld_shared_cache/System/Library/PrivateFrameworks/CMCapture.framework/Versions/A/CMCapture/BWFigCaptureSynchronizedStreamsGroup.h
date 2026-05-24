@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFigCaptureStream, BWFigCaptureStreamsMapper, NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface BWFigCaptureSynchronizedStreamsGroup
 {
     struct OpaqueFigCaptureSynchronizedStreamsGroup *_syncGroup;
-    NSDictionary *_supportedProperties;
-    BWFigCaptureStream *_synchronizationMaster;
-    BWFigCaptureStream *_defaultSynchronizationMaster;
-    _Bool _invalidated;
-    NSArray *_streams;
-    BWFigCaptureStreamsMapper *_streamsMapper;
-    NSArray *_activeStreams;
-    struct os_unfair_lock_s _lock;
-    _Bool _stopSupported;
-    unsigned int _ktraceCodePrefix;
-    _Bool _synchronizationMasterIsConfigurable;
 }
 
 + (void)uffer:forInput:] /* Error: Ran out of types for this method. */;
-- (void);
+- (void)@[;
 - (int);
-- (int);
+- (int)H;
 - (_Bool);
 - (void);
-- (id);
+- (id)useCase;
 - (int);
 - (id);
 - (void)reason changed from %d to %d for %@.;
@@ -42,11 +31,7 @@
 - (id)tTime:(struct __CFString *)arg1 withSettings:(int *)arg2 ];
 
 // Remaining properties
-@property(readonly) _Bool stopSupported; // @synthesize stopSupported=_stopSupported;
-@property(readonly) NSArray *streams; // @synthesize streams=_streams;
 @property(readonly) NSDictionary *supportedProperties; // @synthesize supportedProperties=_supportedProperties;
-@property(retain) BWFigCaptureStream *synchronizationMaster;
-@property(readonly) _Bool synchronizationMasterIsConfigurable; // @synthesize synchronizationMasterIsConfigurable=_synchronizationMasterIsConfigurable;
 
 @end
 

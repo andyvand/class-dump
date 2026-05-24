@@ -5,5 +5,9 @@
 //
 
 @protocol MapsSuggestionsFullResourceDepot
+- (void);
+- (void)9h*;
+- (void)$j;
+- (void);
 @end
 

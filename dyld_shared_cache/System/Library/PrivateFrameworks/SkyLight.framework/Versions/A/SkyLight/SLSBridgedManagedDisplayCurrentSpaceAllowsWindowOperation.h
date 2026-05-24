@@ -11,22 +11,20 @@
 @interface SLSBridgedManagedDisplayCurrentSpaceAllowsWindowOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     unsigned int _windowID;
-    NSString *_displayIdentifier;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)Y, TYPE,  group_concat(ATTRIBUTENAME) FROM %@ GROUP BY ENTITYID, PRIMEKEY;
+- (id)digest { %@ }%@;
+- (id)%@ SET %@ = ? WHERE %@ = ? AND %@ = ?;
 - (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void)o;
 - (void)Ü;
 
 // Remaining properties
 @property(readonly, copy) NSString *displayIdentifier; // @synthesize displayIdentifier=_displayIdentifier;
-@property(readonly) unsigned int windowID; // @synthesize windowID=_windowID;
 
 @end
 

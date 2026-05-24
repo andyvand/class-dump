@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)teMultipleValue:forKeyPath:atIndex:error: /* Error: Ran out of types for this method. */;
+- (void)_validateMultipleValue:forKeyPath:atIndex:error: /* Error: Ran out of types for this method. */;
 
 @end
 

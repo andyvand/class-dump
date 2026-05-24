@@ -4,63 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHIPresentationInstance, NSMutableArray, NSPointerArray, NSScreen, _NSFullScreenBackdropController, _NSFullScreenContentController, _NSFullScreenCreateTileDropTargetController, _NSFullScreenModalStackController, _NSFullScreenTileDividerWindow, _NSFullScreenTileOverlayWindow, _NSFullScreenTileResizeCrossfadeOverlayWindow;
+@class NSHIPresentationInstance;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenSpace
 {
     _Bool _modelInvalidated;
-    unsigned long long _tileSpaceID;
-    unsigned long long _parentSpaceID;
-    unsigned long long _wallSpaceID;
-    struct CGRect _tileRect;
-    double _tileDividerSize;
-    NSScreen *_screen;
-    _NSFullScreenContentController *_contentController;
-    _NSFullScreenBackdropController *_backdropController;
-    _NSFullScreenModalStackController *_modalStackController;
-    _NSFullScreenCreateTileDropTargetController *_createTileDropTargetController;
-    NSPointerArray *_activeTransitions;
-    long long _liveResizeCount;
-    unsigned long long _dividerDirections;
-    _NSFullScreenTileDividerWindow *_westDividerWindow;
-    _NSFullScreenTileDividerWindow *_eastDividerWindow;
-    _Bool _isDoingExternalCloseAnimation;
-    unsigned int _exitReplacementWindowID;
-    _Bool _hasSiblings;
-    _Bool _suppressFetchingNewTileSize;
-    _NSFullScreenTileResizeCrossfadeOverlayWindow *_resizeCrossfadeOverlay;
-    double _resizeCrossfadeDuration;
-    long long _tileOverlayShowCount;
-    _Bool _tileHadLimitedClipping;
-    _NSFullScreenTileOverlayWindow *_tileOverlayWindow;
-    _NSFullScreenTileOverlayWindow *_siblingTileOverlayWindow;
-    _Bool _siblingOverlayNeedsBeginPresentation;
-    NSMutableArray *_animatingOverlayWindows;
-    double _bottomReservedSpace;
-    double _leftReservedSpace;
-    double _rightReservedSpace;
-    _Bool _presentationInstanceHasInitializedSpace;
-    NSHIPresentationInstance *_presentationInstance;
-    unsigned long long _presentationOptions;
 }
 
 + (id);
 + (struct CGRect);
 + (id);
 + (id);
-+ (void);
++ (void)leartext HTTP connection to %@ since it is insecure. Use HTTPS instead or add this domain to Exception Domains in your Info.plist.%{xcode:text-backtrace}.*P /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (id)d;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
-+ (void);
++ (_Bool)^?}8;
++ (void)B=%@, error-code:(CDUnknownBlockType)arg1 %d.;
 + (void);
 + (void);
 + (void);
@@ -88,16 +55,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)dH;
+- (void)ropertyData(kFDRTag_inst) failed.;
+- (void)ching dictionary for %d:(double)arg1 %s
+;
+- (double)press;
+- (void)CurrentCapacityKey in power source dictionary;
+- (void)tYqUcLmLfhmk7vOgdFvURg;
+- (void)inECTnNyR97XWxm7jU8uqA;
+- (id)okup %@ from system version dictionary;
 - (void);
 - (void);
 - (_Bool);
@@ -125,7 +93,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ٴ;
 - (id);
 - (struct CGImage *);
 - (void);
@@ -134,49 +102,40 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)I6;
 - (void);
 - (void);
+- (void)40@0:8@16@24Q32 /* Error: Ran out of types for this method. */;
+- (void)bodyData;
+- (void)_atsStateCache;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (id)enabling TLS for terminal delegate;
+- (void)andshake failed (%d -> %d);
+- (_Bool)TCP Conn %p timed out :error %ld %d /* Error: Ran out of types for this method. */;
+- (void)not invalidated;
+- (void)tiate stall recovery;
+- (_Bool)}d;
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void)elineOriginProvider:(id)arg1;
+- (void)showDefinitionForAttributedString:(id)arg1 range:options:baselineOriginProvider: /* Error: Ran out of types for this method. */;
 - (id)n;
 
 // Remaining properties
-@property(readonly, nonatomic) _NSFullScreenBackdropController *backdropController; // @synthesize backdropController=_backdropController;
-@property(nonatomic) double bottomReservedSpace; // @synthesize bottomReservedSpace=_bottomReservedSpace;
-@property(nonatomic) _NSFullScreenContentController *contentController; // @synthesize contentController=_contentController;
-@property(readonly, nonatomic) _NSFullScreenCreateTileDropTargetController *createTileDropTargetController; // @synthesize createTileDropTargetController=_createTileDropTargetController;
-@property(readonly, nonatomic) unsigned int exitReplacementWindowID; // @synthesize exitReplacementWindowID=_exitReplacementWindowID;
-@property(nonatomic) double leftReservedSpace; // @synthesize leftReservedSpace=_leftReservedSpace;
-@property(readonly, nonatomic) _NSFullScreenModalStackController *modalStackController; // @synthesize modalStackController=_modalStackController;
 @property(readonly) NSHIPresentationInstance *presentationInstance;
-@property(nonatomic) double rightReservedSpace; // @synthesize rightReservedSpace=_rightReservedSpace;
-@property(readonly, nonatomic) unsigned long long tileSpaceID; // @synthesize tileSpaceID=_tileSpaceID;
 
 @end
 

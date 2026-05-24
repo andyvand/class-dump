@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FCUserEventsManager
 {
     NSString *_userName;
-    NSData *_authData;
-    _Bool _registeredWithServer;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)initWithSupportedNetworks:(id)arg1;
+- (id)initWithStrokeStartT0:(id)arg1 strokeStartT1:(id)arg2 strokeEndT0:strokeEndT1: /* Error: Ran out of types for this method. */;
+- (id)gory:(id)arg1;
 - (void);
 - (void);
 

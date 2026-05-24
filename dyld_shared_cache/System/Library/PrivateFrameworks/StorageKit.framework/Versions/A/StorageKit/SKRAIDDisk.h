@@ -6,22 +6,18 @@
 
 #import <StorageKit/SKDisk.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface SKRAIDDisk : SKDisk
 {
     NSString *_raidUUID;
-    NSArray *_setMemberUUIDs;
-    NSArray *_setSpareUUIDs;
-    NSString *_status;
-    NSDictionary *_contentDiskDictionary;
 }
 
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (void);
@@ -31,29 +27,23 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)ARPL packet is UNENCRYPTED in TPSendUDPPacketARPL (in Transport) <<<<<;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, retain) SKDisk *contentDisk;
-@property(retain) NSDictionary *contentDiskDictionary; // @synthesize contentDiskDictionary=_contentDiskDictionary;
-@property _Bool isRAIDSet;
 @property(retain) NSString *raidUUID; // @synthesize raidUUID=_raidUUID;
-@property(retain) NSArray *setMemberUUIDs; // @synthesize setMemberUUIDs=_setMemberUUIDs;
-@property(retain) NSArray *setSpareUUIDs; // @synthesize setSpareUUIDs=_setSpareUUIDs;
-@property(retain) NSString *status; // @synthesize status=_status;
 
 @end
 

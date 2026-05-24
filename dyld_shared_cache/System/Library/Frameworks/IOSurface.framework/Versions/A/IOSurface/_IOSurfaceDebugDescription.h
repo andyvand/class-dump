@@ -6,44 +6,29 @@
 
 #import <IOSurface/IOSurfaceDebugDescription.h>
 
-@class NSString;
-
 @interface _IOSurfaceDebugDescription : IOSurfaceDebugDescription
 {
     CDStruct_aa8f11db _basicInfo;
-    CDStruct_c62edc0d _layoutInfo;
-    NSString *_name;
 }
 
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)oreAnalytics.framework/CoreAnalytics;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned int);
-- (id);
+- (id)olPointIndexBufferOffset:instanceCount:baseInstance:tessellationFactorBuffer:tessellationFactorBufferOffset:tessellationFactorBufferInstanceStride: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)!;
 
 // Remaining properties
-@property(readonly) unsigned long long allocationSize;
-@property(readonly) unsigned long long dirtySize;
-@property(readonly) unsigned long long height;
-@property(readonly) _Bool isWired;
-@property(readonly) NSString *name;
-@property(readonly) unsigned int pixelFormat;
-@property(readonly) NSString *pixelFormatString;
-@property(readonly) unsigned long long residentSize;
-@property(readonly) unsigned int surfaceID;
-@property(readonly) unsigned long long traceID;
 @property(readonly) unsigned long long virtualAddress;
-@property(readonly) unsigned long long width;
 
 @end
 

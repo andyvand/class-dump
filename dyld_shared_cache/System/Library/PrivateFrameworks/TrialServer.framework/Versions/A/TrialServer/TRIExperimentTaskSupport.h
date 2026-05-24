@@ -9,14 +9,13 @@
 @interface TRIExperimentTaskSupport
 {
     _PASLock *_lock;
-    TRIExperimentDeployment *_experimentDeployment;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)nce"16q24B32@"NSError"36;
 - (void);
 - (id);
 - (void)1Â0@ù

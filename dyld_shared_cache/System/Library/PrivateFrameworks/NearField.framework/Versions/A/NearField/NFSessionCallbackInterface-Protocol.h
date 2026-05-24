@@ -5,5 +5,7 @@
 //
 
 @protocol NFSessionCallbackInterface
+- (void)__kIMPersonStatusChangedNotification;
+- (void)ABAllSmartGroup;
 @end
 

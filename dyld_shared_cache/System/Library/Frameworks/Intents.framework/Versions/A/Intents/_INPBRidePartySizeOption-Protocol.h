@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBPriceRangeValue, _INPBRangeValue;
+@class _INPBPriceRangeValue, _INPBRangeValue;
 
 @protocol _INPBRidePartySizeOption
+- (_INPBRangeValue *)h";
+- (_Bool)6;
+- (_INPBPriceRangeValue *);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPartySizeRange;
-@property(readonly, nonatomic) _Bool hasPriceRange;
-@property(readonly, nonatomic) _Bool hasSizeDescription;
 @property(retain, nonatomic) _INPBRangeValue *partySizeRange;
-@property(retain, nonatomic) _INPBPriceRangeValue *priceRange;
-@property(copy, nonatomic) NSString *sizeDescription;
 @end
 

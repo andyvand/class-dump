@@ -7,13 +7,12 @@
 @interface MSVPair
 {
     id _first;
-    id _second;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)(	?נ;
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -21,11 +20,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)IASPickerViewController;
 
 // Remaining properties
 @property(readonly, nonatomic) id first; // @synthesize first=_first;
-@property(readonly, nonatomic) id second; // @synthesize second=_second;
 
 @end
 

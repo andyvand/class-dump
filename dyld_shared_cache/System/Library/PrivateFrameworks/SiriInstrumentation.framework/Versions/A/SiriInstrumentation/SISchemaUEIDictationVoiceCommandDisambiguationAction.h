@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaUEIDictationVoiceCommandDisambiguationAction : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_voiceCommandId;
-    int _disambiguationType;
-    unsigned int _disambiguationIndex;
-    unsigned int _totalDisambiguationAlternatives;
-    struct {
-        unsigned int disambiguationType:1;
-        unsigned int disambiguationIndex:1;
-        unsigned int totalDisambiguationAlternatives:1;
-    } _has;
-    _Bool _hasVoiceCommandId;
 }
 
 - (id);
@@ -45,24 +36,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)clipBundleID;
 - (_Bool);
-- (_Bool);
+- (_Bool)rt_index) SELECT c.guid, m.guid, rmp.part_index  FROM recoverable_message_part AS rmp  JOIN chat AS c   ON c.ROWID=rmp.chat_id  JOIN message AS m   ON m.ROWID=rmp.message_id AND m.guid=? AND rmp.ck_sync_state=1;;
 - (id);
-- (id);
-- (id)g;
-- (id);
-- (void)NKNOWN;
+- (id)sO;
+- (id)deleteErrorDomainString;
+- (id)_hasAssistantDaemonAudioRecordingLastBufferContext;
+- (void)NLROUTERTRIGGEREDHEURISTICRULE_UNKNOWN;
 
 // Remaining properties
-@property(nonatomic) unsigned int disambiguationIndex; // @synthesize disambiguationIndex=_disambiguationIndex;
-@property(nonatomic) int disambiguationType; // @synthesize disambiguationType=_disambiguationType;
-@property(nonatomic) _Bool hasDisambiguationIndex;
-@property(nonatomic) _Bool hasDisambiguationType;
-@property(nonatomic) _Bool hasTotalDisambiguationAlternatives;
-@property(nonatomic) _Bool hasVoiceCommandId; // @synthesize hasVoiceCommandId=_hasVoiceCommandId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int totalDisambiguationAlternatives; // @synthesize totalDisambiguationAlternatives=_totalDisambiguationAlternatives;
 @property(retain, nonatomic) SISchemaUUID *voiceCommandId; // @synthesize voiceCommandId=_voiceCommandId;
 
 @end

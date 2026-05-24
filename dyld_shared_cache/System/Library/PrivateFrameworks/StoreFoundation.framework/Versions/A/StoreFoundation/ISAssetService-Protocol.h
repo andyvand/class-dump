@@ -5,5 +5,12 @@
 //
 
 @protocol ISAssetService
+- (void);
+- (void)9U;
+- (void);
+- (void)?;
+- (void)>^;
+- (void);
+- (void);
 @end
 

@@ -9,14 +9,11 @@
 @interface _ASPasswordManagerDeleteAlertConfiguration
 {
     _Bool _isPermanentlyRemovingFromRecentlyDeleted;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_buttonTitle;
-    NSString *_cancelButtonTitle;
 }
 
 + (id);
 + (id);
++ (id)T;
 + (id);
 + (id);
 + (id);
@@ -30,12 +27,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id);
++ (id)c;
 + (id);
 + (id);
 + (id);
@@ -46,16 +42,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)cachedVisibleStrokesWithAdditionalStrokesForDirtyDrawing;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
-@property(readonly, copy, nonatomic) NSString *cancelButtonTitle; // @synthesize cancelButtonTitle=_cancelButtonTitle;
-@property(readonly, nonatomic) _Bool isPermanentlyRemovingFromRecentlyDeleted; // @synthesize isPermanentlyRemovingFromRecentlyDeleted=_isPermanentlyRemovingFromRecentlyDeleted;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

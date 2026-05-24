@@ -9,17 +9,15 @@
 @interface PKPencilTextInputElement
 {
     id <NSObject><NSCopying> _identifier;
-    struct CGRect _frame;
 }
 
 - (id);
-- (id);
+- (id)CommunicationAddress;
 - (struct CGRect);
 - (id);
 - (void)n>",&,N,V_updatedLocationForRecycledViewProvider;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
 @property(readonly, copy, nonatomic) id <NSObject><NSCopying> identifier; // @synthesize identifier=_identifier;
 
 @end

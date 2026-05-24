@@ -9,7 +9,6 @@
 @interface SWPresentationDatastore
 {
     NSString *_type;
-    NSString *_identifier;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

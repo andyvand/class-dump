@@ -9,9 +9,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long globalTraceObjectID;
-@property(readonly) unsigned int vnioID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R
-
 @end
 

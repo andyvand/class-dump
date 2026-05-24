@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol _INPBJSONDictionary
+- (NSString *)6;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasJsonString;
 @property(copy, nonatomic) NSString *jsonString;
 @end
 

@@ -9,7 +9,6 @@
 @interface CLSSummaryClusteringItem
 {
     PLDataCluster *_cluster;
-    unsigned long long _numberOfItemsToElect;
 }
 
 - (unsigned long long);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly) PLDataCluster *cluster; // @synthesize cluster=_cluster;
-@property(readonly) unsigned long long numberOfItemsToElect; // @synthesize numberOfItemsToElect=_numberOfItemsToElect;
 
 @end
 

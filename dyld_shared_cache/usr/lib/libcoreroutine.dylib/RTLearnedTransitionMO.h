@@ -6,22 +6,18 @@
 
 #import <coreroutine/RTCloudManagedObject.h>
 
-@class NSDate, NSNumber, RTLearnedVisitMO;
+@class NSDate;
 
 @interface RTLearnedTransitionMO : RTCloudManagedObject
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)restoreHSM;
++ (id)requireIdentityInHSM;
++ (id)ortunistic topics to:%@ nonWaking topics to:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) RTLearnedVisitMO *destination; // @dynamic destination;
-@property(retain, nonatomic) RTLearnedVisitMO *origin; // @dynamic origin;
-@property(copy, nonatomic) NSNumber *predominantMotionActivityType; // @dynamic predominantMotionActivityType;
 @property(copy, nonatomic) NSDate *startDate; // @dynamic startDate;
-@property(copy, nonatomic) NSDate *stopDate; // @dynamic stopDate;
 
 @end
 

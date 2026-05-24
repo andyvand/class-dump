@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHPhotoLibrary, PLAppPrivateData;
+@class PLAppPrivateData;
 
 @interface PHPhotoLibraryAppPrivateData
 {
     PLAppPrivateData *_impl;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 + (_Bool)Ü;
@@ -22,18 +21,18 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)̼
+;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (void)yType;
 - (id)esult Thumbnails;
 - (void);
 
 // Remaining properties
 @property(retain) PLAppPrivateData *impl; // @synthesize impl=_impl;
-@property __weak PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end
 

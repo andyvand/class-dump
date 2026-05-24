@@ -4,27 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIBeamPointerSettings, _UIButtonBehaviorSettings, _UIFreeformPointerSettings, _UILinkPointerSettings, _UINavigationAndToolbarBehaviorSettings, _UIPointerEffectSizeRuleSettings, _UIPointerHighlightEffectSettings, _UIPointerHoverEffectSettings, _UIPointerLiftEffectSettings, _UIPointerSBAppIconEffectSettings, _UIPointerTextBehaviorSettings, _UISearchBarBehaviorSettings, _UITabBarBehaviorSettings;
-
 __attribute__((visibility("hidden")))
 @interface _UIPointerSettings
 {
     _Bool _showRegions;
-    _Bool _showEffectPlatter;
-    _Bool _showMenuPressDuration;
-    _UIPointerEffectSizeRuleSettings *_sizeRuleSettings;
-    _UIFreeformPointerSettings *_freeformPointerSettings;
-    _UIBeamPointerSettings *_beamSettings;
-    _UILinkPointerSettings *_linkPointerSettings;
-    _UIPointerHighlightEffectSettings *_highlightEffectSettings;
-    _UIPointerLiftEffectSettings *_liftEffectSettings;
-    _UIPointerHoverEffectSettings *_hoverEffectSettings;
-    _UIPointerSBAppIconEffectSettings *_SBAppIconEffectSettings;
-    _UIPointerTextBehaviorSettings *_textSettings;
-    _UIButtonBehaviorSettings *_buttonSettings;
-    _UINavigationAndToolbarBehaviorSettings *_navigationAndToolbarSettings;
-    _UITabBarBehaviorSettings *_tabBarSettings;
-    _UISearchBarBehaviorSettings *_searchBarSettings;
 }
 
 + (id);
@@ -33,17 +16,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void)A
+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)__kIMPersonScreenNameKey;
 - (void);
 - (void);
 - (void);
@@ -53,33 +37,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)rdinateSpace: /* Error: Ran out of types for this method. */;
+- (id)wallpaperMetadataTag;
+- (id)updateStateForChat:hintMessage:shouldRebuildFailedMessageDate: /* Error: Ran out of types for this method. */;
+- (id)rXOffset:stickerYOffset:stickerScale:stickerRotation:stickerBundleID:stickerIsReaction:stickerPositionVersion:stickerExternalURI: /* Error: Ran out of types for this method. */;
+- (id)iCloudAccountMatchesiMessageAccount;
+- (id)handleIncomingNoticeProtobuf:service:account:fromID:context: /* Error: Ran out of types for this method. */;
+- (id)@;
+- (void)t using SMS chat fallback search.;
+- (void)setOriginalCenterInCoordinateSpace: /* Error: Ran out of types for this method. */;
 - (void)P|R0½ë23üª;
 
 // Remaining properties
-@property(retain, nonatomic) _UIPointerSBAppIconEffectSettings *SBAppIconEffectSettings; // @synthesize SBAppIconEffectSettings=_SBAppIconEffectSettings;
-@property(retain, nonatomic) _UIBeamPointerSettings *beamSettings; // @synthesize beamSettings=_beamSettings;
-@property(retain, nonatomic) _UIButtonBehaviorSettings *buttonSettings; // @synthesize buttonSettings=_buttonSettings;
-@property(retain, nonatomic) _UIFreeformPointerSettings *freeformPointerSettings; // @synthesize freeformPointerSettings=_freeformPointerSettings;
-@property(retain, nonatomic) _UIPointerHighlightEffectSettings *highlightEffectSettings; // @synthesize highlightEffectSettings=_highlightEffectSettings;
-@property(retain, nonatomic) _UIPointerHoverEffectSettings *hoverEffectSettings; // @synthesize hoverEffectSettings=_hoverEffectSettings;
-@property(retain, nonatomic) _UIPointerLiftEffectSettings *liftEffectSettings; // @synthesize liftEffectSettings=_liftEffectSettings;
-@property(retain, nonatomic) _UILinkPointerSettings *linkPointerSettings; // @synthesize linkPointerSettings=_linkPointerSettings;
-@property(retain, nonatomic) _UINavigationAndToolbarBehaviorSettings *navigationAndToolbarSettings; // @synthesize navigationAndToolbarSettings=_navigationAndToolbarSettings;
-@property(retain, nonatomic) _UISearchBarBehaviorSettings *searchBarSettings; // @synthesize searchBarSettings=_searchBarSettings;
-@property(nonatomic) _Bool showEffectPlatter; // @synthesize showEffectPlatter=_showEffectPlatter;
-@property(nonatomic) _Bool showMenuPressDuration; // @synthesize showMenuPressDuration=_showMenuPressDuration;
 @property(nonatomic) _Bool showRegions; // @synthesize showRegions=_showRegions;
-@property(retain, nonatomic) _UIPointerEffectSizeRuleSettings *sizeRuleSettings; // @synthesize sizeRuleSettings=_sizeRuleSettings;
-@property(retain, nonatomic) _UITabBarBehaviorSettings *tabBarSettings; // @synthesize tabBarSettings=_tabBarSettings;
-@property(retain, nonatomic) _UIPointerTextBehaviorSettings *textSettings; // @synthesize textSettings=_textSettings;
 
 @end
 

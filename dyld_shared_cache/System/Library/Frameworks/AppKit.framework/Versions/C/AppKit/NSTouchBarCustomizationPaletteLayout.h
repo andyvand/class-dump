@@ -12,17 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPaletteLayout : NSCollectionViewLayout
 {
     NSDictionary *_cachedAttributes;
-    NSDictionary *_cachedDecorationAttributes;
-    double _cachedHeight;
-    double _scaleFactor;
-    long long _numberOfColumns;
-    double _columnWidth;
-    double _columnSpacing;
-    double _rowSpacing;
-    double _rowHeight;
-    double _minItemSpacing;
-    long long _flexibleColumnSpan;
-    struct NSEdgeInsets _edgeInsets;
 }
 
 + (Class)ß3ð1Â0@ù
@@ -40,15 +29,15 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (CDStruct_5e3db82b);
-- (void);
-- (double);
+- (void)o Content;
+- (double)T() [OBJTYPE = HTTPServerResponse];
 - (struct NSEdgeInsets);
 - (id);
 - (id);
 - (double);
 - (double);
 - (void)ze=dd}@?{CGSize=dd}>48;
-- (struct CGSize)heetLogicallyDetachSheet;
+- (struct CGSize)_closeSheetLogicallyDetachSheet;
 - (void);
 - (double);
 - (_Bool),ä;
@@ -56,21 +45,13 @@ __attribute__((visibility("hidden")))
 - (void)Event until activation %@;
 - (double)Sg;
 - (void);
-- (void)iedChanges;
+- (void)hasUnappliedChanges;
 - (id);
 - (void);
 - (long long)þßB\þB;
 - (id)k¬\<C;
 
 // Remaining properties
-@property double columnSpacing; // @synthesize columnSpacing=_columnSpacing;
-@property double columnWidth; // @synthesize columnWidth=_columnWidth;
-@property struct NSEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property long long flexibleColumnSpan; // @synthesize flexibleColumnSpan=_flexibleColumnSpan;
-@property double minItemSpacing; // @synthesize minItemSpacing=_minItemSpacing;
-@property long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
-@property double rowHeight; // @synthesize rowHeight=_rowHeight;
-@property double rowSpacing; // @synthesize rowSpacing=_rowSpacing;
 @property double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
 
 @end

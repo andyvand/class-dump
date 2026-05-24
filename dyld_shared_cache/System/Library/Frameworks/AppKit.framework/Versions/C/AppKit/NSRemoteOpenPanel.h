@@ -11,25 +11,25 @@
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)R;
+- (void)";
+- (void)3;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)invalid result code [%lld] for Wi-Fi information request;
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool){SessionResponseOptions=BBBBBQQ}>32;
+- (_Bool)onTime"d"fDownloadAssessment"^{__CFDictionary}"fSSLCertContext"^{__CFDictionary}"fRecommendedPolicy"i"fPeerAddress"^{__CFData}"fHTTP"^{HTTPResponse}"fLock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}};
+- (_Bool)ssion";
+- (_Bool)RLSessionConfiguration";
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id)SUSE:Resuming an NSURLSessionTask with nil URL. /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (id)coalescingConnectionKeyForHostWithDNSRecord;
 - (void);
 - (_Bool);
 - (_Bool);

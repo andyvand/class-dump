@@ -9,24 +9,18 @@
 @interface MTLArchitecture
 {
     NSString *_name;
-    NSString *_revision;
-    int _cpuType;
-    int _cpuSubtype;
 }
 
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)i;
 - (id);
 - (int);
 - (int);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly) int cpuSubtype; // @synthesize cpuSubtype=_cpuSubtype;
-@property(readonly) int cpuType; // @synthesize cpuType=_cpuType;
-@property(readonly) NSString *name; // @synthesize name=_name;
 @property(readonly) NSString *revision; // @synthesize revision=_revision;
 
 @end

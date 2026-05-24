@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, TUHandle;
+@class NSUUID;
 
 @interface TUSenderIdentity
 {
     NSUUID *_UUID;
-    NSUUID *_accountUUID;
-    TUHandle *_handle;
-    NSString *_ISOCountryCode;
-    NSString *_localizedName;
-    NSString *_localizedShortName;
-    NSString *_localizedServiceName;
 }
 
 + (_Bool);
@@ -22,30 +16,24 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)h"9t;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)	;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)C;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)ent: /* Error: Ran out of types for this method. */;
+- (id)_;
+- (id)qa;
+- (void)valueForEntitlement: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *ISOCountryCode; // @synthesize ISOCountryCode=_ISOCountryCode;
 @property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) NSUUID *accountUUID; // @synthesize accountUUID=_accountUUID;
-@property(readonly, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
-@property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, copy, nonatomic) NSString *localizedServiceName; // @synthesize localizedServiceName=_localizedServiceName;
-@property(readonly, copy, nonatomic) NSString *localizedShortName; // @synthesize localizedShortName=_localizedShortName;
 
 @end
 

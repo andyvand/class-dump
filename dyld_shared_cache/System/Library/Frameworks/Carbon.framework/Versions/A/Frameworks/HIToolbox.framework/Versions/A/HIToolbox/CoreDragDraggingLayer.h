@@ -8,15 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CoreDragDraggingLayer
 {
     unsigned int dragItemRef;
-    struct CGPoint originalPosition;
-    struct CGPoint originalOffset;
-    struct CGPoint offset;
-    struct CGPoint animationPosition;
-    double animationDuration;
-    double animationEndTime;
-    struct CGPoint animationToOffset;
-    struct CGPoint animationFromOffset;
-    long long shadowStyle;
 }
 
 - (void);
@@ -47,16 +38,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint)Up;
 
 // Remaining properties
-@property double animationDuration; // @synthesize animationDuration;
-@property double animationEndTime; // @synthesize animationEndTime;
-@property struct CGPoint animationFromOffset; // @synthesize animationFromOffset;
-@property struct CGPoint animationToOffset; // @synthesize animationToOffset;
-@property(readonly) struct CGRect compositeBounds;
 @property unsigned int dragItemRef; // @synthesize dragItemRef;
-@property struct CGPoint offset; // @synthesize offset;
-@property struct CGPoint originalOffset; // @synthesize originalOffset;
-@property struct CGPoint originalPosition; // @synthesize originalPosition;
-@property long long shadowStyle;
 
 @end
 

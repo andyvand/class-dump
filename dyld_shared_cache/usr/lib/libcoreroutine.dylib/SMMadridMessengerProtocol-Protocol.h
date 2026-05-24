@@ -5,5 +5,10 @@
 //
 
 @protocol SMMadridMessengerProtocol
+- (void);
+- (void);
+
+@optional
+- (void)fallbackSerializedEscrowRecord;
 @end
 

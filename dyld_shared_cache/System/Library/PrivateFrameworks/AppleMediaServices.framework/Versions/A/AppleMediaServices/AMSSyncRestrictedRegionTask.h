@@ -6,14 +6,12 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSSyncRestrictedRegionTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
 }
 
 + (_Bool);
@@ -44,14 +42,6 @@ wÕÉ¬kÉVÅ&âáäÃ{Dì6(YnTÅïËKé hìG«Y(ûÑK¹z
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_regionOfInterestConfigurations;
 }
 
-+ (id);
++ (id)q`;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void)entElementIdentifierText;
+- (void)VNRecognizeDocumentElementIdentifierText;
 
 @end
 

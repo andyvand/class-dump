@@ -9,15 +9,6 @@
 @interface SwiftUI.PlatformTextFieldCoordinator : SwiftUI.PlatformViewCoordinator
 {
     id configuration;
-    id suggestionsView;
-    id trailingAccessory;
-    id borderStyle;
-    id environment;
-    id label;
-    id lastText;
-    id nsTextField;
-    id isViewUpdating;
-    id isUserEditing;
 }
 
 - (void);
@@ -25,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (void)onContainerIsBorderedInput;
+- (void)ButtonContainerIsBorderedInput;
 - (void);
 
 @end

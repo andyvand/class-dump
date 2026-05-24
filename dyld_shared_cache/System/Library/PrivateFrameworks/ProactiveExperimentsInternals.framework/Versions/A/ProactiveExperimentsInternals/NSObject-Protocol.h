@@ -7,14 +7,14 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (oneway void)_shareModificationDate;
+- (NSString *)ifyRecordsOperation",&,N,V_modifyOperation;
+- (_Bool)dler;
+- (id)finishRadarUploadSession;
+- (struct _NSZone *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

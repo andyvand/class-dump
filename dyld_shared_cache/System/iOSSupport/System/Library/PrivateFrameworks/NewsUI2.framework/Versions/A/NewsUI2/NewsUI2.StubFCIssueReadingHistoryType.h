@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NewsUI2.StubFCIssueReadingHistoryType
 {
 }
 
-- (void);
+- (void)res a function;
 - (_Bool);
 - (void);
 - (id);
@@ -26,17 +26,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id)àûÿ;
 - (id);
-- (void)gDislikedDataManager;
+- (void)FollowingDislikedDataManager;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *allEngagedIssueIDs;
 @property(nonatomic, readonly) NSString *mostRecentlyVisitedIssueID;
-@property(nonatomic, readonly) NSArray *recentlyEngagedIssueIDs;
-@property(nonatomic, readonly) NSArray *recentlyVisitedIssueIDs;
 
 @end
 

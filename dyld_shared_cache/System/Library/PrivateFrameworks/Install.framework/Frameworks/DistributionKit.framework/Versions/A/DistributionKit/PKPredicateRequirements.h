@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void);
++ (void)hhK;
 - (_Bool);
 - (_Bool);
 

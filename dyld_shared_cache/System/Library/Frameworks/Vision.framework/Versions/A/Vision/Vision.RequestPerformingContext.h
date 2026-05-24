@@ -7,9 +7,6 @@
 @interface Vision.RequestPerformingContext
 {
     id imageBuffer;
-    id timeRange;
-    id session;
-    id vnImageBuffer;
 }
 
 @end

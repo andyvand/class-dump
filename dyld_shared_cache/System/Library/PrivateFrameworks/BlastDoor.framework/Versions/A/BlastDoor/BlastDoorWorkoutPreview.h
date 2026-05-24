@@ -16,17 +16,12 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)(;
+- (unsigned long long)@;
 - (void)96`: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long activityType;
-@property(nonatomic, readonly) NSString *configurationName;
-@property(nonatomic, readonly) long long configurationType;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) unsigned long long goalTypeIdentifier;
-@property(nonatomic, readonly) _Bool isIndoor;
 
 @end
 

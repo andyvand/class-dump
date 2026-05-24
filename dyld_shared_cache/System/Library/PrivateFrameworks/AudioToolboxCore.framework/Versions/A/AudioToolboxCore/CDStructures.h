@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AUAudioUnit, AUAudioUnit_XPC, NSXPCConnection;
-
 #pragma mark Function Pointers and Blocks
 
 typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
@@ -15,22 +13,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct APComponent;
-
-struct AUAudioUnitV2Bridge_Renderer;
-
-struct AUAudioUnit_XPC_PropListener;
-
-struct AUEventSchedule {
-    struct AUv2GetParameterSynchronizer *mAUv2GetParameterSynchronizer;
-    struct AURenderEventAllocator *mAllocator;
-    struct AUScheduledParameterRefresher2 *mScheduledParameterRefresher;
-    struct lf_mpsc_queue<AURenderEventNode, caulk::concurrent::intrusive_single_link_member<AURenderEventNode, &AURenderEventNode::next>, true> mAddedEventQueue;
-    struct atomic<bool> mHavePendingSetParameter;
-    union AURenderEvent *mScheduleHead;
-    void *mOwningAU;
-    CDUnknownBlockType mRenderBlock;
-    struct PreviousRenderTime mPreviousRenderTime;
-};
 
 struct AUHostingServiceClient;
 
@@ -52,34 +34,6 @@ struct AUMIDIEventList {
     unsigned char _field5;
     struct MIDIEventList _field6;
 };
-
-struct AUOOPRenderClientUser {
-    AUAudioUnit_XPC *au;
-    NSXPCConnection *xpcConnection;
-    CDUnknownBlockType musicalContextBlock;
-    CDUnknownBlockType transportStateBlock;
-    CDUnknownBlockType MIDIOutputEventBlock;
-    CDUnknownBlockType MIDIOutputEventListBlock;
-    unsigned int serviceProcessAUInstanceToken;
-    _Bool isOffline;
-    _Bool isMIDIProcessor;
-};
-
-struct AUOOPRenderingServerUser {
-    CDUnknownFunctionPointerType *_vptr$CAPrint;
-    unsigned int mSerialNum;
-    AUAudioUnit *mAUAudioUnit;
-    CDUnknownBlockType mRetainedRenderBlock;
-    CDUnknownBlockType mRenderBlock;
-    _Bool mCanProcessInPlace;
-    _Bool mIsV2AudioUnit;
-    long long mMIDIOutBaseSampleTime;
-    struct AUEventSchedule *mEventSchedule;
-    struct AUOOPSharedMemory *mSharedBuffers;
-    struct optional<std::__thread_id> mRenderThreadId;
-};
-
-struct AUOOPSharedMemory;
 
 struct AUObserverController;
 
@@ -108,14 +62,10 @@ struct AUParameterObserverExtendedToken {
     unsigned long long _field1;
 };
 
-struct AUProcAndUserData;
-
 struct AUProcessingBlock {
     struct AUPBMethods _field1;
     void *_field2;
 };
-
-struct AURenderEventAllocator;
 
 struct AURenderEventHeader {
     union AURenderEvent *_field1;
@@ -124,25 +74,9 @@ struct AURenderEventHeader {
     unsigned char _field4;
 };
 
-struct AURenderEventNode;
-
-struct AUScheduledParameterRefresher2;
-
-struct AUv2GetParameterSynchronizer {
-    struct atomic<AUv2GetParameterSynchronizer::SeqNumPair> mSeqNums;
-    struct semaphore {
-        struct semaphore {
-            unsigned int mMachSem;
-            _Bool mOwned;
-        } mImpl;
-        struct atomic<int> mCounter;
-        int mOriginalCounter;
-    } mSyncGetParamSema;
-};
-
 struct AVHapticPlayerFixedParameter {
-    unsigned long long type;
-    float value;
+    unsigned long long _field1;
+    float _field2;
 };
 
 struct AddressToParameter;
@@ -168,11 +102,11 @@ struct AudioChannelLayout {
 };
 
 struct AudioComponentDescription {
-    unsigned int componentType;
-    unsigned int componentSubType;
-    unsigned int componentManufacturer;
-    unsigned int componentFlags;
-    unsigned int componentFlagsMask;
+    unsigned int _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+    unsigned int _field5;
 };
 
 struct AudioComponentVector {
@@ -203,18 +137,6 @@ struct CGSize {
     double _field2;
 };
 
-struct ConnectionInfo {
-    NSXPCConnection *mConnection;
-    int mExtUsePermission;
-    _Bool mLinkedSDKRequiresEntitlement;
-};
-
-struct CountAndSema;
-
-struct KVOAggregator {
-    struct vector<KVOAggregator::Record, std::allocator<KVOAggregator::Record>> mRecords;
-};
-
 struct MIDIEventList {
     int _field1;
     unsigned int _field2;
@@ -227,135 +149,14 @@ struct MIDIEventPacket {
     unsigned int _field3[64];
 };
 
-struct NewServerListener;
-
-struct Node;
-
-struct NodeStack {
-    struct Node *mHead;
-};
-
-struct PipeSubPool;
-
-struct PreviousRenderTime {
-    double mSampleRate;
-    struct atomic<PreviousRenderTime::Snapshot> mLastRender;
-};
-
-struct PropertyListener;
-
-struct RealtimeState {
-    struct pooled_semaphore_mutex mMultipleRenderMutex;
-    struct pooled_semaphore_mutex mResetVsRenderMutex;
-    struct RenderObserverList renderObserverList;
-    struct AUEventSchedule eventSchedule;
-    struct AUv2GetParameterSynchronizer auv2GetParameterSynchronizer;
-    struct optional<RenderContextChangeGenerator> contextChangeGenerator;
-    int renderBlockType;
-    int cachedMIDIProtocol;
-};
-
-struct Record;
-
-struct RenderContextChangeGenerator {
-    void *mLastWorkgroup;
-    CDUnknownBlockType mObserver;
-};
-
-struct RenderObserverList {
-    struct TThreadSafeList<RenderObserver> mObservers;
-    _Bool mTouched;
-};
-
-struct RenderPipeUser {
-    struct PipeSubPool *mPipeSubPool;
-    struct AUOOPRenderClientUser mRenderClientUser;
-    struct atomic<bool> mInvalidated;
-};
-
-struct SeqNumPair;
-
-struct Snapshot;
-
-struct TThreadSafeList<RenderObserver> {
-    struct NodeStack mActiveList;
-    struct NodeStack mPendingList;
-    struct NodeStack mFreeList;
-};
-
-struct TestAUProcessingBlock;
-
-struct WorkgroupMirror;
-
-struct XOSTransactor;
-
 struct __CFData;
 
 struct __shared_weak_count;
-
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
-
-struct atomic<AURenderEventNode *> {
-    struct __cxx_atomic_impl<AURenderEventNode *, std::__cxx_atomic_base_impl<AURenderEventNode *>> {
-        _Atomic struct AURenderEventNode *__a_value;
-    } __a_;
-};
-
-struct atomic<AUv2GetParameterSynchronizer::SeqNumPair> {
-    struct __cxx_atomic_impl<AUv2GetParameterSynchronizer::SeqNumPair, std::__cxx_atomic_base_impl<AUv2GetParameterSynchronizer::SeqNumPair>> {
-        _Atomic struct SeqNumPair __a_value;
-    } __a_;
-};
-
-struct atomic<PreviousRenderTime::Snapshot> {
-    struct __cxx_atomic_impl<PreviousRenderTime::Snapshot, std::__cxx_atomic_base_impl<PreviousRenderTime::Snapshot>> {
-        _Atomic struct Snapshot __a_value;
-    } __a_;
-};
 
 struct atomic<bool> {
     struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
         _Atomic _Bool __a_value;
     } __a_;
-};
-
-struct atomic<caulk::pooled_semaphore_mutex::CountAndSema> {
-    struct __cxx_atomic_impl<caulk::pooled_semaphore_mutex::CountAndSema, std::__cxx_atomic_base_impl<caulk::pooled_semaphore_mutex::CountAndSema>> {
-        _Atomic struct CountAndSema __a_value;
-    } __a_;
-};
-
-struct atomic<int> {
-    struct __cxx_atomic_impl<int, std::__cxx_atomic_base_impl<int>> {
-        _Atomic int __a_value;
-    } __a_;
-};
-
-struct atomic<unsigned int> {
-    struct __cxx_atomic_impl<unsigned int, std::__cxx_atomic_base_impl<unsigned int>> {
-        _Atomic unsigned int __a_value;
-    } __a_;
-};
-
-struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
-    struct {
-        union __rep {
-            struct __short {
-                char __data_[23];
-                unsigned int __size_:7;
-                unsigned int __is_long_:1;
-            } __s;
-            struct __long {
-                char *__data_;
-                unsigned long long __size_;
-                unsigned int __cap_:63;
-                unsigned int __is_long_:1;
-            } __l;
-        } __rep_;
-    } ;
 };
 
 struct function<NSXPCConnection *(NSUUID *)> {
@@ -367,107 +168,9 @@ struct function<NSXPCConnection *(NSUUID *)> {
 
 struct function<void ()> {
     struct __value_func<void ()> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-};
-
-struct function<void (AudioComponentVector &, AudioComponentVector &)> {
-    struct __value_func<void (AudioComponentVector &, AudioComponentVector &)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-};
-
-struct lf_mpsc_queue<AURenderEventNode, caulk::concurrent::intrusive_single_link_member<AURenderEventNode, &AURenderEventNode::next>, true> {
-    struct atomic<AURenderEventNode *> mEnqueueHead;
-    struct prepadded_t<AURenderEventNode *, 248UL> mDequeueHead;
-};
-
-struct mach_timebase_info {
-    unsigned int numer;
-    unsigned int denom;
-};
-
-struct map<unsigned int, AUProcessingBlock, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, AUProcessingBlock>>> {
-    struct __tree<std::__value_type<unsigned int, AUProcessingBlock>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, AUProcessingBlock>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, AUProcessingBlock>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<unsigned int, RemoteAUHandleInfo, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, RemoteAUHandleInfo>>> {
-    struct __tree<std::__value_type<unsigned int, RemoteAUHandleInfo>, std::__map_value_compare<unsigned int, std::pair<const unsigned int, RemoteAUHandleInfo>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, RemoteAUHandleInfo>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct mutex {
-    struct _opaque_pthread_mutex_t __m_;
-};
-
-struct optional<AUOOPRenderingServerUser> {
-    union {
-        char __null_state_;
-        struct AUOOPRenderingServerUser __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<RenderContextChangeGenerator> {
-    union {
-        char __null_state_;
-        struct RenderContextChangeGenerator __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<auoop::RenderPipeUser> {
-    union {
-        char __null_state_;
-        struct RenderPipeUser __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<bool> {
-    union {
-        char __null_state_;
-        _Bool __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct optional<std::__thread_id> {
-    union {
-        char __null_state_;
-        struct __thread_id {
-            struct _opaque_pthread_t *__id_;
-        } __val_;
-    } ;
-    _Bool __engaged_;
-};
-
-struct pooled_semaphore_mutex {
-    struct atomic<caulk::pooled_semaphore_mutex::CountAndSema> mCountAndSema;
-};
-
-struct prepadded_t<AURenderEventNode *, 248UL> {
-    unsigned char padding[248];
-    struct AURenderEventNode *value;
-};
-
-struct recursive_mutex {
-    struct _opaque_pthread_mutex_t __m_;
-};
-
-struct reply_watchdog_factory {
-    _Bool mDebugging;
-    int mDefaultTimeoutMS;
-    function_e88ba8d7 mTimeoutHandler;
+        union type _field1;
+        void *_field2;
+    } _field1;
 };
 
 struct shared_ptr<APComponent> {
@@ -480,136 +183,26 @@ struct shared_ptr<AUObserverController> {
     struct __shared_weak_count *__cntrl_;
 };
 
-struct shared_ptr<auoop::WorkgroupMirror> {
-    struct WorkgroupMirror *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<caulk::synchronized<auoop::RenderPipePool, std::recursive_mutex>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct unfair_recursive_lock;
-
-struct unique_ptr<AUAudioUnitV2Bridge_Renderer, std::default_delete<AUAudioUnitV2Bridge_Renderer>> {
-    struct {
-        struct AUAudioUnitV2Bridge_Renderer *__ptr_;
-    } ;
-};
-
 struct unique_ptr<AUHostingServiceClient, std::default_delete<AUHostingServiceClient>> {
     struct {
         struct AUHostingServiceClient *__ptr_;
     } ;
 };
 
-struct unique_ptr<AUProcAndUserData, std::default_delete<AUProcAndUserData>> {
-    struct {
-        struct AUProcAndUserData *__ptr_;
-    } ;
-};
-
-struct unique_ptr<TestAUProcessingBlock, std::default_delete<TestAUProcessingBlock>> {
-    struct {
-        struct TestAUProcessingBlock *__ptr_;
-    } ;
-};
-
-struct unique_ptr<XOSTransactor, std::default_delete<XOSTransactor>> {
-    struct {
-        struct XOSTransactor *__ptr_;
-    } ;
-};
-
-struct unique_ptr<caulk::mach::unfair_recursive_lock, std::default_delete<caulk::mach::unfair_recursive_lock>> {
-    struct {
-        struct unfair_recursive_lock *__ptr_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_map<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking)), std::hash<long>, std::equal_to<long>, std::allocator<std::pair<const long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>>> {
-    struct __hash_table<std::__hash_value_type<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, std::__unordered_map_hasher<long, std::pair<const long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, std::hash<long>, std::equal_to<long>>, std::__unordered_map_equal<long, std::pair<const long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, std::equal_to<long>, std::hash<long>>, std::allocator<std::pair<const long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        struct {
-            float __max_load_factor_;
-        } ;
-    } __table_;
-};
-
-struct vector<AUAudioUnit_XPC_PropListener, std::allocator<AUAudioUnit_XPC_PropListener>> {
-    struct AUAudioUnit_XPC_PropListener *__begin_;
-    struct AUAudioUnit_XPC_PropListener *__end_;
-    struct {
-        struct AUAudioUnit_XPC_PropListener *__cap_;
-    } ;
-};
-
-struct vector<AURemoteMessageChannel *, std::allocator<AURemoteMessageChannel *>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
 struct vector<AddressToParameter, std::allocator<AddressToParameter>> {
-    struct AddressToParameter *__begin_;
-    struct AddressToParameter *__end_;
+    struct AddressToParameter *_field1;
+    struct AddressToParameter *_field2;
     struct {
-        struct AddressToParameter *__cap_;
-    } ;
+        struct AddressToParameter *_field1;
+    } _field3;
 };
 
 struct vector<BusPropertyObserver, std::allocator<BusPropertyObserver>> {
-    struct BusPropertyObserver *__begin_;
-    struct BusPropertyObserver *__end_;
+    struct BusPropertyObserver *_field1;
+    struct BusPropertyObserver *_field2;
     struct {
-        struct BusPropertyObserver *__cap_;
-    } ;
-};
-
-struct vector<KVOAggregator::Record, std::allocator<KVOAggregator::Record>> {
-    struct Record *__begin_;
-    struct Record *__end_;
-    struct {
-        struct Record *__cap_;
-    } ;
-};
-
-struct vector<NSObject<OS_dispatch_semaphore>*, std::allocator<NSObject<OS_dispatch_semaphore>*>> {
-    id *__begin_;
-    id *__end_;
-    CDStruct_b6058e76 ;
-};
-
-struct vector<NewServerListener, std::allocator<NewServerListener>> {
-    struct NewServerListener *__begin_;
-    struct NewServerListener *__end_;
-    struct {
-        struct NewServerListener *__cap_;
-    } ;
-};
-
-struct vector<PropertyListener, std::allocator<PropertyListener>> {
-    struct PropertyListener *__begin_;
-    struct PropertyListener *__end_;
-    struct {
-        struct PropertyListener *__cap_;
-    } ;
+        struct BusPropertyObserver *_field1;
+    } _field3;
 };
 
 struct weak_ptr<APComponent> {
@@ -627,22 +220,8 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
-
-typedef struct {
     unsigned int _field1[8];
 } CDStruct_6ad76789;
-
-typedef struct {
-    id *__cap_;
-} CDStruct_b6058e76;
-
-typedef struct {
-    struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
 
 // Template types
 typedef struct function<NSXPCConnection *(NSUUID *)> {
@@ -650,14 +229,14 @@ typedef struct function<NSXPCConnection *(NSUUID *)> {
         union type _field1;
         void *_field2;
     } _field1;
-} function_8f8e0cbe;
+} function_8ff64876;
 
 typedef struct function<void ()> {
     struct __value_func<void ()> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-} function_e88ba8d7;
+        union type _field1;
+        void *_field2;
+    } _field1;
+} function_62e87cf2;
 
 typedef struct unique_ptr<AUHostingServiceClient, std::default_delete<AUHostingServiceClient>> {
     struct {
@@ -666,20 +245,20 @@ typedef struct unique_ptr<AUHostingServiceClient, std::default_delete<AUHostingS
 } unique_ptr_2c7f7ead;
 
 typedef struct vector<AddressToParameter, std::allocator<AddressToParameter>> {
-    struct AddressToParameter *__begin_;
-    struct AddressToParameter *__end_;
+    struct AddressToParameter *_field1;
+    struct AddressToParameter *_field2;
     struct {
-        struct AddressToParameter *__cap_;
-    } ;
-} vector_16888c79;
+        struct AddressToParameter *_field1;
+    } _field3;
+} vector_cb25d47f;
 
 typedef struct vector<BusPropertyObserver, std::allocator<BusPropertyObserver>> {
-    struct BusPropertyObserver *__begin_;
-    struct BusPropertyObserver *__end_;
+    struct BusPropertyObserver *_field1;
+    struct BusPropertyObserver *_field2;
     struct {
-        struct BusPropertyObserver *__cap_;
-    } ;
-} vector_74f50afa;
+        struct BusPropertyObserver *_field1;
+    } _field3;
+} vector_964029cf;
 
 #pragma mark Named Unions
 
@@ -691,6 +270,6 @@ union AURenderEvent {
 };
 
 union type {
-    unsigned char __data[24];
+    unsigned char _field1[24];
 };
 

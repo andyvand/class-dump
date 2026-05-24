@@ -8,11 +8,10 @@ __attribute__((visibility("hidden")))
 @interface OITSUFormatObject
 {
     CDStruct_730f14de mFormatStruct;
-    _Bool mUseExpandedContents;
 }
 
 + (id);
-+ (id);
++ (id)(;
 - (_Bool);
 - (void);
 - (id);
@@ -20,13 +19,12 @@ __attribute__((visibility("hidden")))
 - (CDStruct_730f14de);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ɼ;
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_730f14de formatStruct;
 @property(readonly, nonatomic) _Bool useExpandedContents; // @synthesize useExpandedContents=mUseExpandedContents;
 
 @end

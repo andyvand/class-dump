@@ -6,34 +6,17 @@
 
 #import <IMSharedUtilities/IMMessageItem.h>
 
-@class IMEmojiSticker, IMTapback, NSArray, NSAttributedString, NSString;
+@class NSString;
 
 @interface IMAssociatedMessageItem : IMMessageItem
 {
     NSString *_associatedMessageGUID;
-    long long _associatedMessageType;
-    NSString *_associatedMessageEmoji;
-    NSArray *_consumedSessionPayloads;
-    IMTapback *_tapback;
-    IMEmojiSticker *_emojiSticker;
-    long long _fileTransferReloadStatus;
-    struct _NSRange _associatedMessageRange;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *associatedMessageEffect;
-@property(retain, nonatomic) NSString *associatedMessageEmoji; // @synthesize associatedMessageEmoji=_associatedMessageEmoji;
-@property(retain, nonatomic) NSString *associatedMessageGUID; // @synthesize associatedMessageGUID=_associatedMessageGUID;
-@property(retain, nonatomic) NSAttributedString *associatedMessagePartText;
-@property(nonatomic) struct _NSRange associatedMessageRange; // @synthesize associatedMessageRange=_associatedMessageRange;
-@property(nonatomic) long long associatedMessageType; // @synthesize associatedMessageType=_associatedMessageType;
-@property(retain, nonatomic) NSArray *consumedSessionPayloads; // @synthesize consumedSessionPayloads=_consumedSessionPayloads;
-@property(retain, nonatomic) IMEmojiSticker *emojiSticker; // @synthesize emojiSticker=_emojiSticker;
-@property(nonatomic) long long fileTransferReloadStatus; // @synthesize fileTransferReloadStatus=_fileTransferReloadStatus;
 @property(nonatomic, readonly) _Bool isAvailabilityReplySupported;
-@property(retain, nonatomic) IMTapback *tapback; // @synthesize tapback=_tapback;
 
 @end
 

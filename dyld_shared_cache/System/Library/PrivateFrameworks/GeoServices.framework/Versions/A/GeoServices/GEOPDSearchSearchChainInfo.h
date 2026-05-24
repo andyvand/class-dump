@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchSearchChainInfo
 {
     PBDataReader *_reader;
-    NSString *_brandKey;
-    NSMutableArray *_countryOccurrences;
-    NSString *_searchChainKey;
-    unsigned long long _total;
-    NSMutableArray *_triggers;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_total:1;
-        unsigned int read_brandKey:1;
-        unsigned int read_countryOccurrences:1;
-        unsigned int read_searchChainKey:1;
-        unsigned int read_triggers:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)PTFrameRateRangeSettings;
+- (id)didReceiveRCFeatures;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)romptTypes"b1"read_uiContexts"b1"read_automobileOptions"b1"read_cyclingOptions"b1"read_destinationInfo"b1"read_phoneticLocaleIdentifier"b1"read_transitOptions"b1"read_walkingOptions"b1"wrote_anyField"b1};
-- (id)eometry;
+- (id)_rawRouteGeometry;
 - (id)ktk lälnTn;
 - (void)±læÔI@;
 

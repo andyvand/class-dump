@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber;
+@class NSArray;
 
 @interface SSRVoiceProfileStoreData
 {
     NSArray *_vpArray;
-    NSDictionary *_enrollmentMetaDataDict;
-    NSNumber *_version;
-    NSNumber *_rpiDataRemovalStatus;
-    NSDictionary *_requestIdToAudioIdMap;
 }
 
 + (_Bool);
@@ -26,13 +22,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)om.apple.accessibility.AXVisualSupportAgent;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *enrollmentMetaDataDict; // @synthesize enrollmentMetaDataDict=_enrollmentMetaDataDict;
-@property(readonly, nonatomic) NSDictionary *requestIdToAudioIdMap; // @synthesize requestIdToAudioIdMap=_requestIdToAudioIdMap;
-@property(readonly, nonatomic) NSNumber *rpiDataRemovalStatus; // @synthesize rpiDataRemovalStatus=_rpiDataRemovalStatus;
-@property(readonly, nonatomic) NSNumber *version; // @synthesize version=_version;
 @property(readonly, nonatomic) NSArray *vpArray; // @synthesize vpArray=_vpArray;
 
 @end

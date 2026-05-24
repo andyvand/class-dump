@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @protocol SearchUICopyItem
-- (void)e:(NSString *)arg1;
+- (void);
+- (NSData *);
+- (void)tableViewSelectionDidChange:(NSString *)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentType;
 @property(retain, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

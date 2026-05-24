@@ -18,10 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)setShadowColor: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void);
+- (void)a;
 
 // Remaining properties
 @property(readonly) _Bool valid;

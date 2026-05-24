@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
-@protocol PXPresentationEnvironment;
+@class NSString;
 
 @interface PXCPLCloudQuotaConciseSource
 {
     long long _placement;
-    NSString *_title;
-    NSString *_icon;
-    NSColor *_iconColor;
-    CDUnknownBlockType _action;
-    id <PXPresentationEnvironment> _presentationEnvironment;
 }
 
 + (id);
@@ -39,10 +33,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
-@property(readonly, nonatomic) NSString *icon; // @synthesize icon=_icon;
-@property(readonly, nonatomic) NSColor *iconColor; // @synthesize iconColor=_iconColor;
-@property(retain, nonatomic) id <PXPresentationEnvironment> presentationEnvironment; // @synthesize presentationEnvironment=_presentationEnvironment;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

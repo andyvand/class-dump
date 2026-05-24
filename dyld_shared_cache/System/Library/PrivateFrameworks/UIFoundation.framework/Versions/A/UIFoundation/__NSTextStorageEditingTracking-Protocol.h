@@ -5,5 +5,6 @@
 //
 
 @protocol __NSTextStorageEditingTracking
+- (struct _NSRange)essSerNum=II}16;
 @end
 

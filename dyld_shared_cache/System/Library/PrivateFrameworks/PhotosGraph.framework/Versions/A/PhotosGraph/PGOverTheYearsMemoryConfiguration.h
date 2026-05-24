@@ -9,11 +9,9 @@
 @interface PGOverTheYearsMemoryConfiguration : PGOverTimeMemoryConfiguration
 {
     _Bool _allowTwoConsecutiveYears;
-    unsigned long long _minimumNumberOfYears;
-    unsigned long long _minimumNumberOfMomentsForTwoConsecutiveYears;
 }
 
-+ (id);
++ (id)axk_elementControllerForElement: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 - (void);
@@ -24,8 +22,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowTwoConsecutiveYears; // @synthesize allowTwoConsecutiveYears=_allowTwoConsecutiveYears;
-@property(nonatomic) unsigned long long minimumNumberOfMomentsForTwoConsecutiveYears; // @synthesize minimumNumberOfMomentsForTwoConsecutiveYears=_minimumNumberOfMomentsForTwoConsecutiveYears;
 @property(nonatomic) unsigned long long minimumNumberOfYears; // @synthesize minimumNumberOfYears=_minimumNumberOfYears;
 
 @end

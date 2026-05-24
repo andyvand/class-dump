@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, _ANEDaemonConnection, _ANEVirtualClient;
+@class _ANEDaemonConnection;
 
 @interface _ANEClient
 {
     struct os_unfair_lock_s _lock;
-    _ANEDaemonConnection *_fastConn;
-    _Bool _allowRestrictedAccess;
-    _Bool _isRootDaemon;
-    _ANEDaemonConnection *_conn;
-    NSArray *_priorityQ;
-    _ANEVirtualClient *_virtualClient;
-    NSMutableDictionary *_connectionsUsedForLoadingModels;
-    NSMutableDictionary *_connections;
 }
 
-+ (id);
++ (id)String"16@"NSString"24@?<v@?@"NSError">32;
 + (id);
 + (id);
 + (void);
@@ -46,13 +38,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)cognized"16;
+- (_Bool)SDictionary"24B32;
+- (_Bool)iHistoryContext"16@?<v@?@"NSError">24;
+- (_Bool)hasStyle"b1"hasBeepSoundID"b1};
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)_replaceBreakingSpaceMarkupForMutableAttributedString:(id)arg1;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -62,23 +54,16 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)ce UUID;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)setDrain_depth_p_0_25_at_charge_start_secs_curr_dynamic_bin_8:(id)arg1;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowRestrictedAccess; // @synthesize allowRestrictedAccess=_allowRestrictedAccess;
 @property(readonly, nonatomic) _ANEDaemonConnection *conn; // @synthesize conn=_conn;
-@property(readonly, nonatomic) NSMutableDictionary *connections; // @synthesize connections=_connections;
-@property(readonly, nonatomic) NSMutableDictionary *connectionsUsedForLoadingModels; // @synthesize connectionsUsedForLoadingModels=_connectionsUsedForLoadingModels;
-@property(readonly, nonatomic) _ANEDaemonConnection *fastConn;
-@property(readonly, nonatomic) _Bool isRootDaemon; // @synthesize isRootDaemon=_isRootDaemon;
-@property(readonly, nonatomic) NSArray *priorityQ; // @synthesize priorityQ=_priorityQ;
-@property(readonly, nonatomic) _ANEVirtualClient *virtualClient; // @synthesize virtualClient=_virtualClient;
 
 @end
 

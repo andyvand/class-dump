@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface _SFPBInfoTuple
 {
     unsigned int _initiallyVisibleValues;
-    NSString *_key;
-    NSArray *_values;
-    NSString *_showMoreString;
 }
 
 - (void);
@@ -28,28 +25,17 @@
 - (id);
 - (void);
 - (_Bool);
+- (id)newShortLivedLibraryWithName:(id)arg1;
+- (void),&,V_graphSubject;
+- (id)@ from valid resources ;
+- (id)@;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)gs:size: /* Error: Ran out of types for this method. */;
+- (void)sf_urlForSettings:size: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int initiallyVisibleValues; // @synthesize initiallyVisibleValues=_initiallyVisibleValues;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSString *showMoreString; // @synthesize showMoreString=_showMoreString;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

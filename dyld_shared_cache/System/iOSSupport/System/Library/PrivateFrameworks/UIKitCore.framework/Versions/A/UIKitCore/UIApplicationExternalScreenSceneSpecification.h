@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)message time date (%@) guid (%@) timestamp:(%@) Messages time date (%@) timestamp:(%@) Server timestamp:(%@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

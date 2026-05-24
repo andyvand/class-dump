@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface CRLanguageModelConfiguration
 {
     float _filteringActivationThreshold;
-    NSNumber *_lexiconWeight;
-    NSNumber *_characterLMWeight;
-    NSNumber *_wordLMWeight;
-    long long _filteringMinimumLength;
-    NSArray *_filteringCharLengths;
-    NSArray *_lmFilteringThresholds;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (float);
+- (float);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (float);
 - (id);
-- (id);
+- (id)?;
 - (void)uration"40@"CRMetalPolygonRectifier"48;
 
 // Remaining properties
-@property(readonly) NSNumber *characterLMWeight; // @synthesize characterLMWeight=_characterLMWeight;
-@property(readonly) float filteringActivationThreshold; // @synthesize filteringActivationThreshold=_filteringActivationThreshold;
 @property(retain) NSArray *filteringCharLengths; // @synthesize filteringCharLengths=_filteringCharLengths;
-@property(readonly) long long filteringMinimumLength; // @synthesize filteringMinimumLength=_filteringMinimumLength;
-@property(readonly) NSNumber *lexiconWeight; // @synthesize lexiconWeight=_lexiconWeight;
-@property(retain) NSArray *lmFilteringThresholds; // @synthesize lmFilteringThresholds=_lmFilteringThresholds;
-@property(readonly) NSNumber *wordLMWeight; // @synthesize wordLMWeight=_wordLMWeight;
 
 @end
 

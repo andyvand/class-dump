@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, NSUUID, NWAdvertiseDescriptor, NWBrowseDescriptor, NWEndpoint, NWInterface, NWParameters;
+@class NSObject;
 @protocol OS_nw_path;
 
 @interface NWPath
@@ -12,27 +12,27 @@
     NSObject<OS_nw_path> *_internalPath;
 }
 
++ (id)drawGlyphs:(id)arg1 inContext:usingFont:atPositions:count:lineHeight:inBounds:atScale: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (id);
-+ (id)shakeLevelArray;
++ (id)handshakeLevelArray;
 + (id)TransferProgress"8;
-- (_Bool);
-- (_Bool);
+- (_Bool)abort service tracking loop;
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (int);
-- (id);
+- (id)sortedEffectDefinitionAtIndex: /* Error: Ran out of types for this method. */;
+- (int)t open:'%s' %s /* Error: Ran out of types for this method. */;
+- (id)<?;
 - (unsigned int);
-- (_Bool);
+- (_Bool)H;
 - (id);
 - (unsigned int);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)CA_EMIT_DEBUG_SIGNPOSTS;
 - (id);
 - (id);
 - (id);
@@ -45,29 +45,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)J;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)X;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -75,8 +64,19 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool)c@nB@n!@n;
+- (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id)kMDItemEventFlightArrivalAirportName;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -94,81 +94,20 @@
 - (id)ìvçÿwçÿLwçÿ4çÿXçÿ|çÿ¸çÿÜçÿçÿ<çÿxçÿçÿäçÿ¨çÿäçÿçÿTçÿ¸çÿ¬çÿÐçÿçÿ@çÿXçÿ|çÿçÿ¸çÿ¸çÿìçÿ(çÿLçÿçÿ¼çÿàçÿçÿ0çÿdçÿ(çÿ\çÿçÿÌçÿ$çÿ0çÿ<çÿHçÿTçÿ$çÿ`çÿçÿÐçÿhçÿçÿÀçÿäçÿ¨çÿÜçÿ;
 - (id)þÿ/ÿÿ;
 - (unsigned long long);
-- (long long)ata_get_end_time;
-- (id)tp3_accept;
-- (_Bool)otocol_zombie_remove_listen_handler;
+- (long long)nw_http_transaction_metadata_get_end_time;
+- (id)nw_protocol_http3_accept;
+- (_Bool)nw_protocol_zombie_remove_listen_handler;
 - (void);
 - (id);
 - (id)6:8 /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (_Bool)2aV;
 - (_Bool)Ìò-nºb:ØwÿôùËÄ¼+}Ð×ÙxôA,àáLUïMùÌ~u<Ë63µ©O\ô,Ä8cHôÍdh¥^W¼4ì@ª´õ$ó9RÿíÙé¢Åü$AwþL° /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (long long);
 - (_Bool)¾+;;
 
 // Remaining properties
-@property(readonly, nonatomic) NWAdvertiseDescriptor *advertiseDescriptor;
-@property(readonly, nonatomic) NWBrowseDescriptor *browseDescriptor;
-@property(readonly, nonatomic) NSObject<OS_nw_path> *cPath;
-@property(readonly, nonatomic) NSUUID *clientID;
-@property(readonly, nonatomic) NWInterface *connectedInterface;
-@property(readonly, nonatomic, getter=isConstrained) _Bool constrained;
-@property(readonly, nonatomic) NWParameters *derivedParameters;
-@property(readonly, nonatomic, getter=isDirect) _Bool direct;
-@property(readonly, nonatomic) NSArray *dnsSearchDomains;
-@property(readonly, nonatomic) NSArray *dnsServers;
-@property(readonly, nonatomic) NSArray *dnsServersAsStrings;
-@property(readonly, nonatomic) int dnsServiceID;
-@property(readonly, nonatomic) NWEndpoint *effectiveLocalEndpoint;
-@property(readonly, nonatomic) NWEndpoint *effectiveRemoteEndpoint;
-@property(readonly, nonatomic, getter=isEligibleForCrazyIvan46) _Bool eligibleForCrazyIvan46;
-@property(readonly, nonatomic) NWEndpoint *endpoint;
-@property(readonly, nonatomic, getter=isExpensive) _Bool expensive;
-@property(readonly, nonatomic) _Bool fallbackEligible;
-@property(readonly, nonatomic) NWInterface *fallbackInterface;
-@property(readonly, nonatomic) unsigned int fallbackInterfaceIndex;
-@property(readonly, nonatomic) _Bool fallbackIsPreferred;
-@property(readonly, nonatomic) _Bool fallbackIsWeak;
-@property(readonly, nonatomic) unsigned int filterControlUnit;
-@property(readonly, nonatomic, getter=isFiltered) _Bool filtered;
-@property(readonly, nonatomic, getter=isFlowDivert) _Bool flowDivert;
-@property(readonly, nonatomic) unsigned int flowDivertAggregateUnit;
-@property(readonly, nonatomic) unsigned int flowDivertControlUnit;
-@property(readonly, nonatomic) NSArray *flows;
-@property(readonly, nonatomic) NSArray *gateways;
-@property(readonly, nonatomic) NSArray *groupMembers;
-@property(readonly, nonatomic) _Bool hasAdvertiseDescriptor;
-@property(readonly, nonatomic) _Bool hasApplicationLevelFirewall;
-@property(readonly, nonatomic) _Bool hasBrowseDescriptor;
-@property(readonly, nonatomic) _Bool hasCustomPFRules;
-@property(readonly, nonatomic) _Bool hasKernelExtensionFilter;
-@property(readonly, nonatomic) _Bool hasParentalControls;
-@property(readonly, nonatomic) _Bool hasProxySettings;
-@property(readonly, nonatomic) NWInterface *interface;
 @property(readonly) NSObject<OS_nw_path> *internalPath; // @synthesize internalPath=_internalPath;
-@property(readonly, nonatomic, getter=isListener) _Bool listener;
-@property(readonly, nonatomic, getter=isLocal) _Bool local;
-@property(readonly, nonatomic) long long maximumDatagramSize;
-@property(readonly, nonatomic) long long mtu;
-@property(readonly, nonatomic) NSArray *overrideDNSSearchDomains;
-@property(readonly, nonatomic) NSArray *overrideDNSServers;
-@property(readonly, nonatomic) NSArray *overrideDNSServersAsStrings;
-@property(readonly, nonatomic) NWParameters *parameters;
-@property(readonly, nonatomic, getter=isPerAppVPN) _Bool perAppVPN;
-@property(readonly, nonatomic) unsigned int policyID;
-@property(readonly, copy, nonatomic) NSString *privateDescription;
-@property(readonly, nonatomic) NSArray *proxySettings;
-@property(readonly, nonatomic) long long reason;
-@property(readonly, nonatomic) NSString *reasonDescription;
-@property(readonly, nonatomic, getter=isRoaming) _Bool roaming;
-@property(readonly, nonatomic) NWInterface *scopedInterface;
-@property(readonly, nonatomic) unsigned long long secondsSinceInterfaceChange;
-@property(readonly, nonatomic) long long status;
-@property(readonly, nonatomic) NSString *statusAsString;
-@property(readonly, nonatomic) _Bool supportsDNS;
-@property(readonly, nonatomic) _Bool supportsIPv4;
-@property(readonly, nonatomic) _Bool supportsIPv6;
-@property(readonly, nonatomic, getter=isViable) _Bool viable;
 
 @end
 

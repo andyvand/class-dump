@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISyncManager, NSArray, NSCalendarDate, NSString;
+@class ISyncManager;
 
 @interface ISyncPlan
 {
     ISyncManager *_syncManager;
-    NSString *_planId;
-    NSCalendarDate *_createDate;
-    NSCalendarDate *_startDate;
-    NSCalendarDate *_endDate;
-    NSArray *_participantInfos;
-    NSString *_syncPhase;
-    int _syncStatus;
 }
 
 - (id);

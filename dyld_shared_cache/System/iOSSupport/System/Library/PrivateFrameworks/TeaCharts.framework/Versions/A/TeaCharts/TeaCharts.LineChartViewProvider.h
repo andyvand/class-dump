@@ -7,8 +7,6 @@
 @interface TeaCharts.LineChartViewProvider
 {
     id renderer;
-    id styler;
-    id zoneManager;
 }
 
 @end

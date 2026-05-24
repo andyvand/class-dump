@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface CKDAssetVolumeTable
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_volumeUUIDByVolumeIndex;
-    NSMutableDictionary *_volumeIndexByVolumeUUID;
 }
 
-+ (Class);
++ (Class)UsoTask_noVerb_common_PaymentAccountType;
 + (id);
 - (id);
 - (void);
@@ -21,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void)ailure;
+- (void)ForceSharePCSPrepFailure;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol PXDisplayAssetFetchResult, PXStoryChapterCollection, PXStoryComposabilityResults;
+@protocol PXDisplayAssetFetchResult;
 
 @interface PXStoryChapteredComposabilityResults
 {
     id <PXDisplayAssetFetchResult> _displayAssets;
-    id <PXStoryComposabilityResults> _originalResults;
-    id <PXStoryChapterCollection> _chapterCollection;
 }
 
 - (id);
@@ -24,17 +21,7 @@
 - (void)øzûþõ]»ôzûþõ]»ðzûþõ]»ìzûþõ]»èzûþõ]»`±bÿõ]»àzûþ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryChapterCollection> chapterCollection; // @synthesize chapterCollection=_chapterCollection;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <PXDisplayAssetFetchResult> displayAssets; // @synthesize displayAssets=_displayAssets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXStoryComposabilityResults> originalResults; // @synthesize originalResults=_originalResults;
-@property(readonly) Class superclass;
 
 @end
 

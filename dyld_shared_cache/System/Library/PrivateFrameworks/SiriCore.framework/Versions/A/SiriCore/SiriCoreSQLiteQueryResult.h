@@ -4,50 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, SiriCoreSQLiteQuery, SiriCoreSQLiteStatement;
+@class SiriCoreSQLiteQuery;
 
 @interface SiriCoreSQLiteQueryResult
 {
     SiriCoreSQLiteQuery *_query;
-    unsigned long long _beginMachTime;
-    unsigned long long _endMachTime;
-    SiriCoreSQLiteStatement *_statement;
-    NSArray *_columnNameTuple;
-    NSArray *_columnValueTuples;
-    NSDictionary *_columnValuesMap;
-    NSArray *_rowValueTuples;
-    NSArray *_rowValueMaps;
-    NSArray *_records;
-    NSError *_error;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)setSizeUpperBound: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (unsigned long long)A;
+- (id);
+- (unsigned long long)p;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long beginMachTime; // @synthesize beginMachTime=_beginMachTime;
-@property(readonly, copy, nonatomic) NSArray *columnNameTuple; // @synthesize columnNameTuple=_columnNameTuple;
-@property(readonly, copy, nonatomic) NSArray *columnValueTuples; // @synthesize columnValueTuples=_columnValueTuples;
-@property(readonly, copy, nonatomic) NSDictionary *columnValuesMap; // @synthesize columnValuesMap=_columnValuesMap;
-@property(readonly, nonatomic) unsigned long long endMachTime; // @synthesize endMachTime=_endMachTime;
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, copy, nonatomic) SiriCoreSQLiteQuery *query; // @synthesize query=_query;
-@property(readonly, copy, nonatomic) NSArray *records; // @synthesize records=_records;
-@property(readonly, copy, nonatomic) NSArray *rowValueMaps; // @synthesize rowValueMaps=_rowValueMaps;
-@property(readonly, copy, nonatomic) NSArray *rowValueTuples; // @synthesize rowValueTuples=_rowValueTuples;
-@property(readonly, nonatomic) SiriCoreSQLiteStatement *statement; // @synthesize statement=_statement;
 
 @end
 

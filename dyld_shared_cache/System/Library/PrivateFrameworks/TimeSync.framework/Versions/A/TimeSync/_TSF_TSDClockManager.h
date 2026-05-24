@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _TSF_IODConnection, _TSF_TSDKernelClock;
+@class _TSF_IODConnection;
 
 @interface _TSF_TSDClockManager
 {
     _TSF_IODConnection *_connection;
-    NSMutableArray *_clockPersonalities;
-    struct mach_timebase_info _timebaseInfo;
-    int _pid;
-    _Bool _timeSyncTimeIsMachAbsoluteTime;
-    unsigned long long _timeSyncTimeClockIdentifier;
-    unsigned long long _translationClockIdentifier;
-    _TSF_TSDKernelClock *_translationClock;
 }
 
 + (id);
@@ -32,7 +25,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -45,7 +38,7 @@
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setEndTime:(unsigned long long)arg1;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -58,9 +51,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long timeSyncTimeClockIdentifier; // @synthesize timeSyncTimeClockIdentifier=_timeSyncTimeClockIdentifier;
-@property(readonly, nonatomic) _Bool timeSyncTimeIsMachAbsoluteTime; // @synthesize timeSyncTimeIsMachAbsoluteTime=_timeSyncTimeIsMachAbsoluteTime;
-@property(readonly, nonatomic) _TSF_TSDKernelClock *translationClock; // @synthesize translationClock=_translationClock;
 @property(readonly, nonatomic) unsigned long long translationClockIdentifier; // @synthesize translationClockIdentifier=_translationClockIdentifier;
 
 @end

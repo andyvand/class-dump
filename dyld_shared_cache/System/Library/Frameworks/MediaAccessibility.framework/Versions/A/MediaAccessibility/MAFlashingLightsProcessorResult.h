@@ -7,12 +7,10 @@
 @interface MAFlashingLightsProcessorResult
 {
     _Bool surfaceProcessed;
-    float mitigationLevel;
-    float intensityLevel;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (float);
@@ -20,8 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) float intensityLevel; // @synthesize intensityLevel;
-@property(nonatomic) float mitigationLevel; // @synthesize mitigationLevel;
 @property(nonatomic) _Bool surfaceProcessed; // @synthesize surfaceProcessed;
 
 @end

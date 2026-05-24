@@ -9,7 +9,6 @@
 @interface SearchUICollectionViewLayoutConfiguration
 {
     NSSet *_sectionIndexesForHeightMatching;
-    NSSet *_sectionIndexesUsingListLayout;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(readonly) NSSet *sectionIndexesForHeightMatching; // @synthesize sectionIndexesForHeightMatching=_sectionIndexesForHeightMatching;
-@property(readonly) NSSet *sectionIndexesUsingListLayout; // @synthesize sectionIndexesUsingListLayout=_sectionIndexesUsingListLayout;
 
 @end
 

@@ -6,26 +6,19 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutRect, NSString, UIImageView, UILabel, _UIBasicCellContentViewConfiguration, _UIContentViewEditingController;
+@class _UIBasicCellContentViewConfiguration;
 
 @interface _UIBasicCellContentView : UIView
 {
     _UIBasicCellContentViewConfiguration *_animatingFromConfiguration;
-    _UIBasicCellContentViewConfiguration *_animatingToConfiguration;
-    double _preferredMaxLayoutWidth;
-    _UIContentViewEditingController *_editingController;
-    _UIBasicCellContentViewConfiguration *_configuration;
-    UIImageView *_imageView;
-    UILabel *_textLabel;
-    CDUnknownBlockType _primaryTextFrameDidChangeHandler;
 }
 
 - (struct _UIBasicCellContentViewSizes);
-- (struct CGSize);
+- (struct CGSize)matchesHeightForAlignmentRectWithIntrinsicContentSize;
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
-- (id);
+- (id)sizeof_elt_in_repeated_array;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -36,44 +29,28 @@
 - (void)ÁÐ!ä@ùq[°1Â0@ù
 × ;
 - (void)er>";
-- (void):(id)arg1 forFrame:inView: /* Error: Ran out of types for this method. */;
-- (void)WithCategory:(struct UIEdgeInsets)arg1 actionsByContext: /* Error: Ran out of types for this method. */;
+- (void)performDefaultActionForURL:(id)arg1 andDOMNode:withAllowedTypes:forFrame:inView: /* Error: Ran out of types for this method. */;
+- (void)initWithCategory:(struct UIEdgeInsets)arg1 actionsByContext: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)SubstringFromRange: /* Error: Ran out of types for this method. */;
-- (id)barHidden:edge: /* Error: Ran out of types for this method. */;
-- (double)me: /* Error: Ran out of types for this method. */;
+- (id)attributedSubstringFromRange: /* Error: Ran out of types for this method. */;
+- (id)_positionToolbarHidden:edge: /* Error: Ran out of types for this method. */;
+- (double)_createLightSourceViewWithFrame: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)ze=dd},N;
 - (void)q,N,V_uiInterfaceOrientation;
 - (id)intColor:,V_forcedTintColor /* Error: Ran out of types for this method. */;
 - (void)gBackdropViewDelegate>",R,W,N,V_delegate;
 - (void)@ü|;
 - (struct CGSize);
-- (id)nKVO2;
+- (id)UIViewAutoLayoutAbandonKVO2;
 - (struct CGSize)ler:(struct CGSize)arg1 %@;
-- (void)urationSeconds;
+- (void)UpdateSchedulerMinScheduledDurationSeconds;
 - (_Bool)(__strong id<_UIFocusRegionContainer>, NSHashTable<id<UIFocusEnvironment>> *__strong, NSHashTable<id<UIFocusEnvironment>> *__strong, NSArray<_UIFocusRegionSearchContextState *> *__strong);
-- (double)oundEffects;
+- (double)UIVisualEffectViewBackgroundEffects;
 - (void)<¶(ÿå¾,~^;
 - (id)`;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _preventFocus;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic, setter=_setPrimaryTextFrameDidChangeHandler:) CDUnknownBlockType _primaryTextFrameDidChangeHandler; // @synthesize _primaryTextFrameDidChangeHandler;
-@property(readonly, nonatomic) struct CGRect _primaryTextLayoutFrame;
-@property(readonly, nonatomic) NSLayoutRect *_primaryTextLayoutRect;
 @property(copy, nonatomic) _UIBasicCellContentViewConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UILabel *textLabel; // @synthesize textLabel=_textLabel;
 
 @end
 

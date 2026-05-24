@@ -7,13 +7,10 @@
 @interface WidgetKit.PlaceholderRequest
 {
     id extensionIdentity;
-    id kind;
-    id environment;
-    id fileHandle;
 }
 
 + (_Bool);
-- (id);
+- (id)py;
 - (id);
 - (void);
 - (void)$;

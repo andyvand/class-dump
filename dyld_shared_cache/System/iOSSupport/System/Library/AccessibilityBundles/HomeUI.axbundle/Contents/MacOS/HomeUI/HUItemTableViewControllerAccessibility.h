@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface HUItemTableViewControllerAccessibility
+#import <HomeUI/__HUItemTableViewControllerAccessibility_super.h>
+
+@interface HUItemTableViewControllerAccessibility : __HUItemTableViewControllerAccessibility_super
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
 - (id);

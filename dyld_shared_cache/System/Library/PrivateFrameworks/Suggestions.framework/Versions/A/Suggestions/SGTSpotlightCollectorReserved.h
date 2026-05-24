@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface SGTSpotlightCollectorReserved
 {
     struct __MDQuery *query;
-    NSObject<OS_dispatch_source> *fallbackTimer;
 }
 
 - (void);
-- (void);
+- (void)bottomAnchor;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSMutableDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface CPSStatusChangeRequest
 {
     NSDictionary *_requestOptions;
-    NSString *_identifier;
-    NSMutableDictionary *_stateChangeMap;
-    long long _stateChangeRequestStatus;
-    NSError *_stateChangeError;
-    NSMutableDictionary *_preferenceChangeMap;
-    long long _preferenceChangeRequestStatus;
-    NSError *_preferenceChangeError;
 }
 
 - (long long);
@@ -34,25 +27,18 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)ionHandler:(id)arg1 );
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id){;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSError *preferenceChangeError; // @synthesize preferenceChangeError=_preferenceChangeError;
-@property(retain) NSMutableDictionary *preferenceChangeMap; // @synthesize preferenceChangeMap=_preferenceChangeMap;
-@property long long preferenceChangeRequestStatus; // @synthesize preferenceChangeRequestStatus=_preferenceChangeRequestStatus;
-@property(retain) NSDictionary *requestOptions; // @synthesize requestOptions=_requestOptions;
-@property(retain) NSError *stateChangeError; // @synthesize stateChangeError=_stateChangeError;
-@property(retain) NSMutableDictionary *stateChangeMap; // @synthesize stateChangeMap=_stateChangeMap;
-@property long long stateChangeRequestStatus; // @synthesize stateChangeRequestStatus=_stateChangeRequestStatus;
 
 @end
 

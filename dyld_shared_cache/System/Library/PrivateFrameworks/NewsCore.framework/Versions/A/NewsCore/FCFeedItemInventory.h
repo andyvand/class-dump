@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncSerialQueue, FCOnce, FCPBFeedItemInventory, FCThreadSafeMutableArray, NFUnfairLock, NSArray, NSMutableSet, NSString, NSURL;
-@protocol FCFeedItemServiceType, FCFeedPersonalizing, FCOperationThrottler;
+@protocol FCFeedItemServiceType;
 
 @interface FCFeedItemInventory
 {
     unsigned int _version;
-    id <FCFeedItemServiceType> _feedItemService;
-    id <FCFeedPersonalizing> _feedPersonalizer;
-    NSURL *_fileURL;
-    double _refreshInterval;
-    NSString *_loggingKey;
-    FCOnce *_loadFromCacheOnce;
-    FCPBFeedItemInventory *_latestInventory;
-    FCAsyncSerialQueue *_feedItemsRefreshSerialQueue;
-    FCThreadSafeMutableArray *_networkEvents;
-    NSMutableSet *_articleIDsToRescore;
-    NFUnfairLock *_articleIDsToRescoreLock;
-    id <FCOperationThrottler> _targetedRescoreThrottler;
 }
 
 - (id);
@@ -46,7 +33,7 @@
 - (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
@@ -59,28 +46,7 @@
 - (id)HÎÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allFeedItems;
-@property(readonly, nonatomic) NSArray *allNetworkEvents;
-@property(readonly, nonatomic) NSMutableSet *articleIDsToRescore; // @synthesize articleIDsToRescore=_articleIDsToRescore;
-@property(readonly, nonatomic) NFUnfairLock *articleIDsToRescoreLock; // @synthesize articleIDsToRescoreLock=_articleIDsToRescoreLock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <FCFeedItemServiceType> feedItemService; // @synthesize feedItemService=_feedItemService;
-@property(readonly, nonatomic) FCAsyncSerialQueue *feedItemsRefreshSerialQueue; // @synthesize feedItemsRefreshSerialQueue=_feedItemsRefreshSerialQueue;
-@property(readonly, nonatomic) id <FCFeedPersonalizing> feedPersonalizer; // @synthesize feedPersonalizer=_feedPersonalizer;
-@property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(retain) FCPBFeedItemInventory *latestInventory; // @synthesize latestInventory=_latestInventory;
-@property(readonly, nonatomic) FCOnce *loadFromCacheOnce; // @synthesize loadFromCacheOnce=_loadFromCacheOnce;
-@property(readonly, nonatomic) NSString *loggingKey; // @synthesize loggingKey=_loggingKey;
-@property(readonly, nonatomic) FCThreadSafeMutableArray *networkEvents; // @synthesize networkEvents=_networkEvents;
-@property(readonly, nonatomic) double refreshInterval; // @synthesize refreshInterval=_refreshInterval;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <FCOperationThrottler> targetedRescoreThrottler; // @synthesize targetedRescoreThrottler=_targetedRescoreThrottler;
-@property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id)ory:deepEnumeration:attributes:error:] /* Error: Ran out of types for this method. */;
 - (id)!ôDùq(	1Â0@ù
 × ;
 - (void)16@?0@"NSString"8;

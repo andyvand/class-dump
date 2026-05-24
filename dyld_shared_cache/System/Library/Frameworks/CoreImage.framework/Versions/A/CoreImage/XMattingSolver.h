@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSImageAreaMin, MPSImageThresholdBinary, MPSImageThresholdBinaryInverse;
-@protocol MTLComputePipelineState, MTLDevice, MTLLibrary, MTLTexture, MattingFilter;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface XMattingSolver
 {
     id <MTLDevice> _device;
-    id <MTLLibrary> _library;
-    id <MTLComputePipelineState> _applySolverConstraintsKernel;
-    id <MTLComputePipelineState> _solverConstraintsKernel;
-    id <MTLTexture> _tmpSegmentation;
-    id <MTLTexture> _fgErodedSegmentation;
-    id <MTLTexture> _bgErodedSegmentation;
-    id <MattingFilter> _mattingFilter;
-    MPSImageThresholdBinary *_fgThresholdFilter;
-    MPSImageThresholdBinaryInverse *_bgThresholdFilter;
-    MPSImageAreaMin *_erosionFilter;
-    CDStruct_d861fc9d _config;
 }
 
 - (id);
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)";
 - (int);
 - (void);
-- (void);
-- (CDStruct_d861fc9d)sspkbpS`Uhae^oyzzz{{{{dsssllllhhhhhidlxxxx{{{{rvrvyytyjxs~wwwwssssuuuussssmmmmTg^my|z~ptn{uutuvvvvftqvtvuvxxxxzzzz~~~~qwt{zyv|z©©©©§­­¢§§§[h`wuyvQh`vbpjwZlftlldlwwqw©¥©©«´´±±±±££££jzyJe\w5VGlqslx`zuz{w~lzz}zzzz{{{{||||}}}}zzzzgniqFYLhiaUkvxsz|e}rwrymj`mF`Uqlupeokohkgksuuu}}}}7VKjUfanyyyypppp_]U_O[S]mmmmxupx`haonnnn`igi^bYfusnu¥§§ªªªª££££Ye]g?RD]Sd]huuuu{{{{rZe^md_Vdqqqq||||dqovdhbnqqoq~~~~tq|zcywzo~tzzzooootttt¡¡jjhjMPJPHHHHQQQQVc_ezzzz_zv©©©©i~n}}}}}c|z    x{fvp{;
+- (void)MRLNeuralNetworkOptionModelVersionKey;
+- (CDStruct_8077eb3b)sspkbpS`Uhae^oyzzz{{{{dsssllllhhhhhidlxxxx{{{{rvrvyytyjxs~wwwwssssuuuussssmmmmTg^my|z~ptn{uutuvvvvftqvtvuvxxxxzzzz~~~~qwt{zyv|z©©©©§­­¢§§§[h`wuyvQh`vbpjwZlftlldlwwqw©¥©©«´´±±±±££££jzyJe\w5VGlqslx`zuz{w~lzz}zzzz{{{{||||}}}}zzzzgniqFYLhiaUkvxsz|e}rwrymj`mF`Uqlupeokohkgksuuu}}}}7VKjUfanyyyypppp_]U_O[S]mmmmxupx`haonnnn`igi^bYfusnu¥§§ªªªª££££Ye]g?RD]Sd]huuuu{{{{rZe^md_Vdqqqq||||dqovdhbnqqoq~~~~tq|zcywzo~tzzzooootttt¡¡jjhjMPJPHHHHQQQQVc_ezzzz_zv©©©©i~n}}}}}c|z    x{fvp{;
 - (void)mm.g));
     }
   }
@@ -41,7 +29,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property CDStruct_d861fc9d config; // @synthesize config=_config;
+@property CDStruct_8077eb3b config; // @synthesize config=_config;
 
 @end
 

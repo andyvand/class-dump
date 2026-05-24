@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol PKDrawingUUID;
 
 @interface PKUndoCommand
 {
     _Bool _changesVisibleStrokes;
-    id <PKDrawingUUID> _drawingUUID;
-    NSString *_actionName;
 }
 
 - (void);
@@ -24,13 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)ospectorDataSource;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionName; // @synthesize actionName=_actionName;
-@property(readonly, nonatomic) _Bool changesVisibleStrokes; // @synthesize changesVisibleStrokes=_changesVisibleStrokes;
 @property(readonly, nonatomic) id <PKDrawingUUID> drawingUUID; // @synthesize drawingUUID=_drawingUUID;
 
 @end

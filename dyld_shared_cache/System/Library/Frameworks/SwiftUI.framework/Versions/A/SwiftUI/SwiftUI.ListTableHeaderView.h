@@ -7,16 +7,14 @@
 @interface SwiftUI.ListTableHeaderView
 {
     id host;
-    id backgroundHost;
-    id hoverControlVisibility;
 }
 
 - (void);
 - (long long);
 - (double);
+- (id)`;
 - (id);
-- (id);
-- (void)eWidgetConfigurationModifier;
+- (void)PrimitiveWidgetConfigurationModifier;
 
 // Remaining properties
 @property(nonatomic, readonly) double firstBaselineOffsetFromTop;

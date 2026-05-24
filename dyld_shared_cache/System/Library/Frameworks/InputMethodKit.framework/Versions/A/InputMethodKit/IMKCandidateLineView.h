@@ -6,23 +6,11 @@
 
 #import <InputMethodKit/IMKUIView.h>
 
-@class IMKCandidateController, IMKCandidateUnitView, NSArray, NSAttributedString, NSColor, NSMutableDictionary, NSOrderedSet;
+@class NSColor;
 
 @interface IMKCandidateLineView : IMKUIView
 {
     _Bool _animateChanges;
-    NSColor *_backgroundColor;
-    IMKCandidateController *_candidateController;
-    NSAttributedString *_groupName;
-    unsigned long long _highlightStyle;
-    NSArray *_layoutUnits;
-    NSColor *_lineColor;
-    unsigned long long _number;
-    NSMutableDictionary *_uniqueKeyToCandidateView;
-    NSOrderedSet *_layoutUnitsToAnimateOut;
-    _Bool _touchesWithinView;
-    NSArray *_viewsToBeAnimatedOut;
-    IMKCandidateUnitView *_unitViewToBeUpdatedByPressAndHold;
 }
 
 - (id);
@@ -30,7 +18,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -42,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)k@;
 - (id);
 - (void);
 - (id);
@@ -51,7 +39,7 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -60,26 +48,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)[%s] %s:(id)arg1 %d Failed to init VCEffectsData;
 - (void);
 - (id);
 - (void);
 - (id)µöÿ+wæ{;
 
 // Remaining properties
-@property(nonatomic) _Bool animateChanges; // @synthesize animateChanges=_animateChanges;
 @property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) IMKCandidateController *candidateController; // @synthesize candidateController=_candidateController;
-@property(retain, nonatomic) NSAttributedString *groupName; // @synthesize groupName=_groupName;
-@property(nonatomic) unsigned long long highlightStyle; // @synthesize highlightStyle=_highlightStyle;
-@property(retain, nonatomic) NSArray *layoutUnits; // @synthesize layoutUnits=_layoutUnits;
-@property(retain, nonatomic) NSOrderedSet *layoutUnitsToAnimateOut; // @synthesize layoutUnitsToAnimateOut=_layoutUnitsToAnimateOut;
-@property(retain, nonatomic) NSColor *lineColor; // @synthesize lineColor=_lineColor;
-@property(nonatomic) unsigned long long number; // @synthesize number=_number;
-@property(nonatomic) _Bool touchesWithinView; // @synthesize touchesWithinView=_touchesWithinView;
-@property(retain, nonatomic) NSMutableDictionary *uniqueKeyToCandidateView; // @synthesize uniqueKeyToCandidateView=_uniqueKeyToCandidateView;
-@property(retain, nonatomic) IMKCandidateUnitView *unitViewToBeUpdatedByPressAndHold; // @synthesize unitViewToBeUpdatedByPressAndHold=_unitViewToBeUpdatedByPressAndHold;
-@property(retain, nonatomic) NSArray *viewsToBeAnimatedOut; // @synthesize viewsToBeAnimatedOut=_viewsToBeAnimatedOut;
 
 @end
 

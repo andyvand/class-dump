@@ -11,9 +11,9 @@
 }
 
 - (void);
-- (void);
+- (void)2kt;
 - (id);
-- (id)Animation:(struct CGRect)arg1 withDuration: /* Error: Ran out of types for this method. */;
+- (id)_startAsyncAnimation:(struct CGRect)arg1 withDuration: /* Error: Ran out of types for this method. */;
 
 @end
 

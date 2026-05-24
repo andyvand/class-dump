@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WFWorkflowRunnerClient;
+
 @protocol WFWorkflowRunnerClientDelegate
+
+@optional
+- (void);
+- (void)sortUsingComparator:(WFWorkflowRunnerClient *)arg1;
 @end
 

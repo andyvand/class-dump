@@ -11,8 +11,6 @@
 @interface PKProvisioningJPKISupportData : PKProvisioningSupportData
 {
     NSString *_pin;
-    NSString *_password;
-    unsigned long long _type;
 }
 
 + (id);
@@ -24,17 +22,15 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)0;
+- (void)_estimatedHighBandwidth;
 - (id);
 - (id);
 - (id);
-- (void)tureType;
+- (void)featureType;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *password; // @synthesize password=_password;
 @property(readonly, retain, nonatomic) NSString *pin; // @synthesize pin=_pin;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

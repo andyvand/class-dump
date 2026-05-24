@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIKBScreenTraits, UITextInputTraits;
-
 @interface UIKBLayoutInfo
 {
     _Bool _isAutoShifted;
-    _Bool _isShiftLocked;
-    UIKBScreenTraits *_screenTraits;
-    UITextInputTraits *_textInputTraits;
 }
 
-- (void);
-- (void);
+- (void)ion validation tokens;
+- (void)ect timer instead;
 - (id);
 - (void);
 - (id)ontrollerTransitionContext"24;
@@ -26,9 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool isAutoShifted; // @synthesize isAutoShifted=_isAutoShifted;
-@property(nonatomic) _Bool isShiftLocked; // @synthesize isShiftLocked=_isShiftLocked;
-@property(retain, nonatomic) UIKBScreenTraits *screenTraits; // @synthesize screenTraits=_screenTraits;
-@property(retain, nonatomic) UITextInputTraits *textInputTraits; // @synthesize textInputTraits=_textInputTraits;
 
 @end
 

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMHandle, NSDate, NSTimer;
+@class NSTimer;
 @protocol IMTypingTimerDelegate;
 
 @interface IMTypingTimer
 {
     id <IMTypingTimerDelegate> _delegate;
-    IMHandle *_handle;
-    NSDate *_beginDate;
-    double _timeoutInterval;
-    NSTimer *_timer;
 }
 
-+ (_Bool);
-- (void);
-- (void);
++ (_Bool)ation=%u;
+- (void)lient [%s] %s:%d Unknown notification type. processId=%d notificationType=%@ /* Error: Ran out of types for this method. */;
+- (void)gnoring, isMixingVoiceWithMediaEnabled already set to %d;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -32,12 +28,7 @@
 - (double)SYNC_PROGRESS_REPAIR_ACCOUNT_BUTTON_TITLE;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *beginDate; // @synthesize beginDate=_beginDate;
-@property(nonatomic) __weak id <IMTypingTimerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) IMHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
 @property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

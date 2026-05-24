@@ -7,9 +7,6 @@
 @interface ChatKit.DetailsBackgroundsTab
 {
     id _currentSelection;
-    id _defaultTitle;
-    id _position;
-    id _$observationRegistrar;
 }
 
 @end

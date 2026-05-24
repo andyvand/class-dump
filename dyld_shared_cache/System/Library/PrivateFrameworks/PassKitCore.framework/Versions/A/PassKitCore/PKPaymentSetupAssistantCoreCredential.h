@@ -9,15 +9,12 @@
 @interface PKPaymentSetupAssistantCoreCredential
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_uniqueIdentifier;
-    PKPaymentCredential *_credential;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)kM;
 - (id);
 - (id);
 - (id)ring",&,N,V_sanitizedDpan;
@@ -25,9 +22,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) PKPaymentCredential *credential; // @synthesize credential=_credential;
-@property(readonly, retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, retain, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

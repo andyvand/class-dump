@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDMetalRenderTarget, TSDMetalShader;
-@protocol TSDMTLDataBuffer;
-
 @interface TSDMetalBloomEffect
 {
     struct CGSize _effectSize;
-    struct CGSize _blurBufferSize;
-    id <TSDMTLDataBuffer> _dataBuffer;
-    id <TSDMTLDataBuffer> _blurDataBuffer;
-    TSDMetalRenderTarget *_downSampleRenderTarget;
-    TSDMetalRenderTarget *_horizontalBlurRenderTarget;
-    TSDMetalRenderTarget *_verticalBlurRenderTarget;
-    TSDMetalShader *_blurShader;
-    TSDMetalShader *_bloomShader;
-    TSDMetalShader *_fboTransferShader;
-    struct {
-        CDStruct_95fa7c00 MVPMatrix;
-    } _blurVertexUniforms;
-    struct {
-        _Bool TextureSize__IsHorizontal;
-    } _blurFragmentUniforms;
 }
 
 - (id);
 - (id);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);

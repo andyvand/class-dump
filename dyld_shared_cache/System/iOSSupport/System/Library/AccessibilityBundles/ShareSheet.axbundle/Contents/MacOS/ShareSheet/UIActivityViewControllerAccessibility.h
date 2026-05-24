@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)racking.useLACCIfAvailable;
 + (void);
 - (_Bool);
 - (void);

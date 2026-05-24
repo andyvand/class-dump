@@ -7,34 +7,25 @@
 @interface SLSWindowManagerDragContext
 {
     unsigned int windowID;
-    unsigned long long timestamp;
-    unsigned long long accessibilityState;
-    struct CGPoint mouseLocation;
-    struct CGPoint dragOffset;
-    struct CGPoint proposedWindowOrigin;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (unsigned long long);
-- (void);
+- (void)e never successfully initialized due to error:(struct CGPoint)arg1 %@;
+- (void)n.;
+- (void)cords;
+- (void)loudkit.import;
+- (struct CGPoint)dkit.queue;
+- (struct CGPoint)m fetchFinishedForRecord:withID:error:] /* Error: Ran out of types for this method. */;
+- (struct CGPoint)SCloudKitMirroringRequestManager.m;
+- (unsigned long long)alue:%@
+	pointer value:%@
+	pointer:%p /* Error: Ran out of types for this method. */;
+- (void);
 - (struct CGPoint);
 - (unsigned long long);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property unsigned long long accessibilityState; // @synthesize accessibilityState;
-@property(readonly) struct CGPoint defaultWindowOrigin;
-@property struct CGPoint dragOffset; // @synthesize dragOffset;
-@property struct CGPoint mouseLocation; // @synthesize mouseLocation;
-@property struct CGPoint proposedWindowOrigin; // @synthesize proposedWindowOrigin;
-@property unsigned long long timestamp; // @synthesize timestamp;
 @property unsigned int windowID; // @synthesize windowID;
 
 @end

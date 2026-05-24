@@ -11,11 +11,10 @@
 @interface OperationQueueInvocationTrampoline : InvocationTrampoline
 {
     NSOperationQueue *_queue;
-    long long _priority;
 }
 
 - (id);
-- (void);
+- (void)k;
 - (void);
 
 @end

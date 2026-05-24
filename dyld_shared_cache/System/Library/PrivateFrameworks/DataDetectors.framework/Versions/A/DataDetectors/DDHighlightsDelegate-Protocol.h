@@ -5,5 +5,8 @@
 //
 
 @protocol DDHighlightsDelegate
+
+@optional
+- (void);
 @end
 

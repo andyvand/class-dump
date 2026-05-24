@@ -13,7 +13,7 @@
 
 - (_Bool);
 - (id);
-- (void)GuardedData;
+- (void)SGMITrialClientWrapperGuardedData;
 
 @end
 

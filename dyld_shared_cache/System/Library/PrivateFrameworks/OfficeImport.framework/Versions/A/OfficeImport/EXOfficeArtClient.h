@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface EXOfficeArtClient : OAXClient
 {
     _Bool mAutoChartFillIsHollow;
-    _Bool mAutoChartStrokeIsHollow;
 }
 
 - (void);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool autoChartFillIsHollow; // @synthesize autoChartFillIsHollow=mAutoChartFillIsHollow;
-@property _Bool autoChartStrokeIsHollow; // @synthesize autoChartStrokeIsHollow=mAutoChartStrokeIsHollow;
 
 @end
 

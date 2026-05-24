@@ -8,12 +8,11 @@
 @protocol MKFHome;
 
 @protocol MKFMatterAttributeValueEvent
+- (MKFMatterAttributeValueEventDatabaseID *)R(;
 - (id <MKFHome>)qð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFMatterAttributeValueEventDatabaseID *databaseID;
 @property(retain, nonatomic) NSObject *eventValue;
-@property(readonly) id <MKFHome> home;
 @end
 

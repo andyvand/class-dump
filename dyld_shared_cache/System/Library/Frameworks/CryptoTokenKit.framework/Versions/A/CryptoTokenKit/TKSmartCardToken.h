@@ -6,14 +6,11 @@
 
 #import <CryptoTokenKit/TKToken.h>
 
-@class NSData, TKSmartCard;
+@class TKSmartCard;
 
 @interface TKSmartCardToken : TKToken
 {
     _Bool _proprietaryCardUsage;
-    NSData *_AID;
-    TKSmartCard *_smartCard;
-    id _keepAlive;
 }
 
 - (id);
@@ -21,14 +18,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSData *AID; // @synthesize AID=_AID;
-@property(retain, nonatomic) id keepAlive; // @synthesize keepAlive=_keepAlive;
-@property(nonatomic) _Bool proprietaryCardUsage; // @synthesize proprietaryCardUsage=_proprietaryCardUsage;
 @property(readonly, nonatomic) TKSmartCard *smartCard; // @synthesize smartCard=_smartCard;
 
 @end

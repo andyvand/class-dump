@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage;
-
 @protocol CNKParticipantScreenShareInfoViewProtocol
+- (double);
+- (void)l;
 - (void)±Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *avatarImage;
 @property(nonatomic) double customCornerRadius;
-@property(readonly, nonatomic) double preferredHeight;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXSmartAlbumEXIFCondition.h>
 
-@class NSArray, PXLabeledValue;
+@class NSArray;
 
 @interface PXSmartAlbumISOCondition : PXSmartAlbumEXIFCondition
 {
@@ -23,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PXLabeledValue *ISOValue;
 @property(readonly, nonatomic) NSArray *ISOValues;
-@property(retain, nonatomic) PXLabeledValue *secondISOValue;
 
 @end
 

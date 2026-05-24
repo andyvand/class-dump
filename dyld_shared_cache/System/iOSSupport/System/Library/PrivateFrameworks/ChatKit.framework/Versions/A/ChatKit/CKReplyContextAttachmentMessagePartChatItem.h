@@ -11,12 +11,12 @@
 }
 
 - (id);
-- (struct CGSize);
+- (struct CGSize)();
 - (Class);
-- (BOOL);
+- (BOOL)thumbnail {accountId:%s, noteId:%s, url:%s} /* Error: Ran out of types for this method. */;
 - (struct CKBalloonDescriptor_t);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (BOOL);
 
 @end

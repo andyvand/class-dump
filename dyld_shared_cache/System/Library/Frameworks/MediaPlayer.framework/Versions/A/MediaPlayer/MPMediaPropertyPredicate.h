@@ -11,12 +11,10 @@
 @interface MPMediaPropertyPredicate : MPMediaPredicate
 {
     NSString *_property;
-    id _value;
-    long long _comparisonType;
 }
 
 + (id);
-+ (id);
++ (id)/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit;
 + (_Bool);
 - (id);
 - (id);
@@ -26,25 +24,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)r",&,V_textViewUndoManager;
+- (void)ڸ;
 - (id);
-- (long long);
+- (long long);
 - (id);
-- (void)EY;
+- (void)__staticTallEditorialArtworkCatalogBlock_KEY;
 - (void)er",R,N;
 
 // Remaining properties
-@property(nonatomic) long long comparisonType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *property;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) id value;
 
 @end
 

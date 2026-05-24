@@ -8,21 +8,6 @@
 {
     id logger;
     id featureFlags;
-    id callUUID;
-    id callCenter;
-    id _callRecordingService;
-    id _recordingState;
-    id _statusLabel;
-    id _avAudioPlayer;
-    id _cancellables;
-    id _recordingAvailability;
-    id _isRecording;
-    id _canStartRecord;
-    id _canShowCallRecord;
-    id _prerecordingInProgress;
-    id _stopwatchValue;
-    id _timeSink;
-    id _$observationRegistrar;
 }
 
 @end

@@ -6,12 +6,12 @@
 
 @interface UnknownClass (ISyncSummaryDescriptions)
 + (id);
-+ (id);
-- (id);
++ (id)s;
+- (id);
 - (int);
 - (int);
 - (_Bool);
-- (id);
+- (id)A;
 - (id);
 - (void *);
 - (id);

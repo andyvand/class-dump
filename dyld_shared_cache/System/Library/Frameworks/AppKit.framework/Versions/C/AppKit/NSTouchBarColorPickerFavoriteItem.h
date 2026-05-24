@@ -6,13 +6,10 @@
 
 #import <AppKit/NSCollectionViewItem.h>
 
-@class NSColor, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerFavoriteItem : NSCollectionViewItem
 {
     CDUnknownBlockType _selectionHandler;
-    NSColor *_displayedColor;
 }
 
 - (void);
@@ -22,22 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)ery:(id)arg1;
-- (void)on: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithItem:(id)arg1 filterQuery:(id)arg2;
+- (void)filterEntriesByLinkDetection: /* Error: Ran out of types for this method. */;
 - (void)ôx;
 - (CDUnknownBlockType);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSColor *displayedColor; // @synthesize displayedColor=_displayedColor;
-@property(readonly) unsigned long long hash;
 @property(copy) CDUnknownBlockType selectionHandler; // @synthesize selectionHandler=_selectionHandler;
-@property(readonly) Class superclass;
 
 @end
 

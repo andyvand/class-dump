@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItem, NSArray, NSDate;
+@class MKMapItem, NSDate;
 
 @interface MKETAResponse
 {
     MKMapItem *_source;
-    MKMapItem *_destination;
-    double _expectedTravelTime;
-    double _distance;
-    NSArray *_sortedETAs;
-    unsigned long long _transportType;
-    NSDate *_expectedArrivalDate;
-    NSDate *_expectedDepartureDate;
 }
 
 - (void);
@@ -23,25 +16,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)__bss;
 - (unsigned long long);
 - (double);
-- (id);
+- (id)س;
 - (id);
 - (double);
 - (id);
-- (void)oJSONObjectsWithData:error: /* Error: Ran out of types for this method. */;
-- (unsigned long long)eETAResult;
+- (void)geoJSONObjectsWithData:error: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_didUpdateETAResult;
 
 // Remaining properties
-@property(readonly, nonatomic) MKMapItem *destination; // @synthesize destination=_destination;
-@property(readonly, nonatomic) double distance; // @synthesize distance=_distance;
 @property(retain, nonatomic) NSDate *expectedArrivalDate; // @synthesize expectedArrivalDate=_expectedArrivalDate;
-@property(retain, nonatomic) NSDate *expectedDepartureDate; // @synthesize expectedDepartureDate=_expectedDepartureDate;
-@property(readonly, nonatomic) double expectedTravelTime; // @synthesize expectedTravelTime=_expectedTravelTime;
-@property(readonly, nonatomic, getter=_sortedETAs) NSArray *sortedETAs; // @synthesize sortedETAs=_sortedETAs;
-@property(readonly, nonatomic) MKMapItem *source; // @synthesize source=_source;
-@property(readonly, nonatomic) unsigned long long transportType; // @synthesize transportType=_transportType;
 
 @end
 

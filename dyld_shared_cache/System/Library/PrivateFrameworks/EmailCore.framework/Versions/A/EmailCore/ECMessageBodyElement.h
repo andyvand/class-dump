@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageBodyParser, NSArray, NSString;
+@class ECMessageBodyParser;
 
 @interface ECMessageBodyElement
 {
     ECMessageBodyParser *_parser;
-    NSArray *_nodes;
-    unsigned long long _quoteLevel;
-    unsigned long long _externalRetainCount;
-    unsigned long long _validAttributes;
-    unsigned long long _attributes;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)ith transitioning state:(unsigned long long)arg1 %ld;
+- (id)laybackState:%@ /* Error: Ran out of types for this method. */;
+- (void)input base frame time.;
+- (unsigned long long)d};
+- (_Bool)we're about to force it;
+- (unsigned long long)mpleted - success:%@, error:%@. /* Error: Ran out of types for this method. */;
+- (id)d;
+- (void)s have device info and device. Getting more information...;
+- (_Bool)esult %d;
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
+- (void)u;
 - (id);
 - (id);
+- (id)_displayThreadRunningState;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *nodes;
 @property(nonatomic) __weak ECMessageBodyParser *parser; // @synthesize parser=_parser;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXCMMInvitationSpec, PXCMMInvitationViewModel, PXMomentShareStatusPresentation;
+@class PXMomentShareStatusPresentation;
 @protocol PXCMMInvitation;
 
 @interface PXCMMInvitationViewModelManager
 {
     id <PXCMMInvitation> _invitation;
-    PXCMMInvitationSpec *_spec;
-    long long _bulletPrefix;
-    PXCMMInvitationViewModel *_viewModel;
-    PXMomentShareStatusPresentation *_momentShareStatusPresentation;
 }
 
 + (id);
@@ -29,20 +25,12 @@
 - (void);
 - (void);
 - (id);
-- (void)g;
+- (void)LemonadeMemoriesEntryCardPositionManaging;
 - (void)ÀG;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PXMomentShareStatusPresentation *momentShareStatusPresentation; // @synthesize momentShareStatusPresentation=_momentShareStatusPresentation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXCMMInvitationViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

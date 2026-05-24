@@ -15,11 +15,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)nal images/IOSurface (no EncodeRequest)...
+;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setSplitCapacity:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) _CLVLLocalizationMaps488Details *maps488Details; // @synthesize maps488Details=_maps488Details;

@@ -7,31 +7,21 @@
 @interface FigCaptureCMIOCaptureSessionStreamFormat
 {
     struct opaqueCMFormatDescription *_videoFormatDescription;
-    float _minFrameRate;
-    float _maxFrameRate;
-    _Bool _defaultFormat;
-    _Bool _supportsCenterStage;
-    _Bool _experimentalStreamFormat;
 }
 
 + (void)avfoundation.avcapturedevice.built-in_video:5 /* Error: Ran out of types for this method. */;
-- (struct opaqueCMFormatDescription *);
+- (struct opaqueCMFormatDescription *)};
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)ring;
+- (id)`;
 - (float);
 - (float)cÿcÿ¦cÿ®cÿ·cÿ¿dÿÇ
 dÿÑdÿÙeÿáeÿèfÿñgÿùgÿÿhÿÿiÿÿjÿ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDefaultFormat) _Bool defaultFormat; // @synthesize defaultFormat=_defaultFormat;
-@property(readonly, nonatomic, getter=isExperimentalStreamFormat) _Bool experimentalStreamFormat; // @synthesize experimentalStreamFormat=_experimentalStreamFormat;
-@property(readonly, nonatomic) float maxFrameRate; // @synthesize maxFrameRate=_maxFrameRate;
-@property(readonly, nonatomic) float minFrameRate; // @synthesize minFrameRate=_minFrameRate;
-@property(readonly, nonatomic) _Bool supportsCenterStage; // @synthesize supportsCenterStage=_supportsCenterStage;
 @property(readonly, nonatomic) struct opaqueCMFormatDescription *videoFormatDescription; // @synthesize videoFormatDescription=_videoFormatDescription;
 
 @end

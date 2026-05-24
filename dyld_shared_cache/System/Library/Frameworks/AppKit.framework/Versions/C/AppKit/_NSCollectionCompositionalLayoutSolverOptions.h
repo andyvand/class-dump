@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSCollectionCompositionalLayoutSolverOptions
 {
     _Bool _layoutRTL;
-    _Bool _roundsToScreenScale;
-    double _interSectionSpacing;
-    Class _layoutAttributesClass;
-    Class _invalidationContextClass;
-    CDUnknownBlockType _invalidationHandler;
-    NSArray *_globalSupplementaryItems;
-    CDUnknownBlockType _decorationRegistrationHandler;
 }
 
 + (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)6ry;
 - (id);
 - (void);
 - (void);
 - (void);
 - (Class);
-- (void);
+- (void);
 - (void);
 - (Class);
 - (void);
@@ -39,14 +30,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)®$@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType decorationRegistrationHandler; // @synthesize decorationRegistrationHandler=_decorationRegistrationHandler;
-@property(copy, nonatomic) NSArray *globalSupplementaryItems; // @synthesize globalSupplementaryItems=_globalSupplementaryItems;
 @property(nonatomic) double interSectionSpacing; // @synthesize interSectionSpacing=_interSectionSpacing;
-@property(retain, nonatomic) Class invalidationContextClass; // @synthesize invalidationContextClass=_invalidationContextClass;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) Class layoutAttributesClass; // @synthesize layoutAttributesClass=_layoutAttributesClass;
-@property(nonatomic) _Bool layoutRTL; // @synthesize layoutRTL=_layoutRTL;
-@property(nonatomic) _Bool roundsToScreenScale; // @synthesize roundsToScreenScale=_roundsToScreenScale;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface TeaUI.RawBlueprintLayoutCollectionSectionSolver
 {
     id supplementarySolver;
-    id layoutDirection;
-    id layoutOptions;
 }
 
 @end

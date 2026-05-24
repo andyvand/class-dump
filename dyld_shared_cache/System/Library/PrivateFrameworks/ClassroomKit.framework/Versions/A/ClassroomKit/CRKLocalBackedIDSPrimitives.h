@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, NSDictionary, NSObject;
-@protocol CRKIDSLocalPrimitives, CRKIDSReadinessEvaluating;
+@class NSObject;
+@protocol CRKIDSLocalPrimitives;
 
 @interface CRKLocalBackedIDSPrimitives
 {
     NSObject<CRKIDSLocalPrimitives> *_IDSLocalPrimitives;
-    id <CRKIDSReadinessEvaluating> _IDSReadinessEvaluator;
-    CATOperationQueue *_operationQueue;
 }
 
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)&;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<CRKIDSLocalPrimitives> *IDSLocalPrimitives; // @synthesize IDSLocalPrimitives=_IDSLocalPrimitives;
-@property(readonly, nonatomic) id <CRKIDSReadinessEvaluating> IDSReadinessEvaluator; // @synthesize IDSReadinessEvaluator=_IDSReadinessEvaluator;
-@property(readonly, copy, nonatomic) NSDictionary *debugInfo;
-@property(readonly, nonatomic) CATOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
 
 @end
 

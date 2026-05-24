@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ta"b1"wrote_anyField"b1};
-- (id)rgeDiffAtDest;
+- (id)_stateOfChargeDiffAtDest;
 - (id)0.;
 - (void)-êÜaíJ@;
 

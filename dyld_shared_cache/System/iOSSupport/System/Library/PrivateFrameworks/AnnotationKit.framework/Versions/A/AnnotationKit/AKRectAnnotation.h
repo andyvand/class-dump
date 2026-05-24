@@ -13,14 +13,14 @@
 
 + (id);
 + (_Bool);
+- (id);
+- (struct CGRect);
 - (id);
-- (struct CGRect);
-- (id);
-- (id);
+- (id)dialog when opening an event attachment that is a web browser link;
 - (id);
 - (void);
-- (double);
-- (void);
+- (double)_bookmarkIdentifierToReadingListItemInfoCompletionMap;
+- (void)jP;
 
 // Remaining properties
 @property double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

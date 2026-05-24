@@ -6,16 +6,12 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSMapTable, NSMutableArray, NSStackView;
+@class NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface NSStackViewContainer : NSView
 {
     NSStackView *_stackView;
-    NSMutableArray *_views;
-    NSMutableArray *_detachedViews;
-    NSMapTable *_customSpaceMapping;
-    NSMapTable *_visibilityPriorityMapping;
 }
 
 - (id);
@@ -27,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (id);
@@ -36,9 +32,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)"16i24;
+- (void)failInsecureLoadWithHTTPSDNSRecord;
+- (void)coding;
 - (id);
 - (void);
 - (_Bool);
@@ -46,14 +42,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)ition;
+- (id)position;
 - (void)^Z;
 
 // Remaining properties
-@property(readonly, copy) NSArray *attachedViews;
-@property(readonly, copy) NSArray *detachedViews;
 @property __weak NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(copy) NSArray *views;
 
 @end
 

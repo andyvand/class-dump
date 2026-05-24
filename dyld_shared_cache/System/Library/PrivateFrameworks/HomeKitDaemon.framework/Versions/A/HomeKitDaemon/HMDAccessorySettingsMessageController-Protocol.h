@@ -7,11 +7,12 @@
 @class HMDHome, NSUUID;
 
 @protocol HMDAccessorySettingsMessageController
+- (_Bool)shield_type;
+- (_Bool)s.data;
 - (HMDHome *);
 - (NSUUID *)ed:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) __weak HMDHome *home;
 @property(readonly, copy) NSUUID *messageTargetUUID;
 @end
 

@@ -9,8 +9,6 @@
 @interface AppKit._NSLatencyLightView.EmitterMaskView__priv_947886466EE83D7BFF59989814F857BD : NSView
 {
     id emitterLayer;
-    id emitterCell;
-    id radius;
 }
 
 - (id);
@@ -18,13 +16,12 @@
 - (_Bool);
 - (_Bool)!EùÑâ3ð1Â0@ù
 × ;
-- (id)ewIfClipView:(struct CGRect)arg1;
+- (id)_startObservingContentInsetsOfViewIfClipView:(struct CGRect)arg1;
 - (void)ô6A;
 - (void)RE;
 
 // Remaining properties
 @property(nonatomic) _Bool clipsToBounds;
-@property(nonatomic, readonly) _Bool flipped;
 
 @end
 

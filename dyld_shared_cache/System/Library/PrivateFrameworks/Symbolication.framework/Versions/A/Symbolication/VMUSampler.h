@@ -4,48 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConditionLock, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, VMUProcessDescription;
-
 @interface VMUSampler
 {
     unsigned long long _options;
-    int _pid;
-    unsigned int _task;
-    _Bool _needTaskPortDealloc;
-    _Bool _recordThreadStates;
-    _Bool _sampling;
-    unsigned int _numberOfCopiedBacktraces;
-    NSString *_processName;
-    VMUProcessDescription *_processDescription;
-    struct _CSTypeRef _symbolicator;
-    unsigned int _suspensionToken;
-    struct sampling_context_t *_samplingContext;
-    int _samplingContextOptions;
-    NSMapTable *_lastThreadBacktraceMap;
-    unsigned int *_previousThreadList;
-    unsigned int _mainThread;
-    unsigned int _previousThreadCount;
-    unsigned int _maxPreviousThreadCount;
-    double _tbRate;
-    NSConditionLock *_stateLock;
-    double _interval;
-    double _timeLimit;
-    unsigned int _sampleLimit;
-    unsigned int _numberOfSamples;
-    NSMutableArray *_samples;
-    _Bool _stacksFixed;
-    id _delegate;
-    double _timeSpentSampling;
-    unsigned int _dispatchThreadSoftLimit;
-    unsigned int _dispatchThreadSoftLimitCount;
-    unsigned int _dispatchThreadHardLimit;
-    unsigned int _dispatchThreadHardLimitCount;
-    NSMutableDictionary *_threadPortToNameMap;
-    NSMutableDictionary *_dispatchQueueSerialNumToNameMap;
-    NSMutableSet *_previousRecursionKeyPCs;
 }
 
-+ (id);
++ (id)5H;
 + (id);
 + (id);
 + (void);
@@ -56,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -64,42 +28,42 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
+- (void)WALRUS_ALERT_MESSAGE_CANT_GET_RECOVERY_CODE;
+- (id);
+- (double)sessionDriver:didRegisterClientAndReturnError: /* Error: Ran out of types for this method. */;
+- (void)country;
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (double);
+- (void)CGSbG;
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned int);
-- (void);
+- (void)_applicationCurrentlyLimitedDidChange:conversationContext: /* Error: Ran out of types for this method. */;
 - (unsigned int)6^Q24;
-- (struct _CSTypeRef)TerminatedBytes: /* Error: Ran out of types for this method. */;
-- (void)_compress;
+- (struct _CSTypeRef)serializeNullTerminatedBytes: /* Error: Ran out of types for this method. */;
+- (void)purgeable_nonvolatile_compress;
 
 @end
 

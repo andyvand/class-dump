@@ -9,46 +9,34 @@
 @interface AXMRectangleDetectorNode : AXMEvaluationNode
 {
     double _cameraPixelFocalLength;
-    double _minimumAspectRatio;
-    double _maximumAspectRatio;
-    double _quadratureTolerance;
-    double _minimumSize;
-    long long _maximumNumberOfRects;
-    struct CGPoint _cameraOpticalOrigin;
 }
 
-+ (_Bool);
++ (_Bool)setSouthLatitude: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 - (_Bool);
+- (void)t;
+- (void)m;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (long long);
-- (void);
-- (double);
+- (void)\|;
+- (double)\|;
 - (struct CGPoint);
 - (double);
 - (double);
-- (double);
-- (void);
-- (void);
-- (void);
+- (double){;
+- (void)o;
+- (void)f;
+- (void)lߤ;
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint cameraOpticalOrigin; // @synthesize cameraOpticalOrigin=_cameraOpticalOrigin;
 @property(nonatomic) double cameraPixelFocalLength; // @synthesize cameraPixelFocalLength=_cameraPixelFocalLength;
-@property(nonatomic) double maximumAspectRatio; // @synthesize maximumAspectRatio=_maximumAspectRatio;
-@property(nonatomic) long long maximumNumberOfRects; // @synthesize maximumNumberOfRects=_maximumNumberOfRects;
-@property(nonatomic) double minimumAspectRatio; // @synthesize minimumAspectRatio=_minimumAspectRatio;
-@property(nonatomic) double minimumSize; // @synthesize minimumSize=_minimumSize;
-@property(nonatomic) double quadratureTolerance; // @synthesize quadratureTolerance=_quadratureTolerance;
 
 @end
 

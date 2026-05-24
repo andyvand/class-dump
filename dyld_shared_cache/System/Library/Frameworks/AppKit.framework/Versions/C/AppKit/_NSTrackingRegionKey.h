@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSTrackingRegionKey
 {
     long long _trackingID;
-    unsigned int _windowID;
 }
 
 - (id);

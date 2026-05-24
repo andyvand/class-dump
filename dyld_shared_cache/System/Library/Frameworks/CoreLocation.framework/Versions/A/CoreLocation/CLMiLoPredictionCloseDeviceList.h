@@ -13,10 +13,10 @@
 
 + (_Bool);
 - (id);
+- (void)-PixelFormat;
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)setForceSeamsOnCubemapFiltering:(struct _NSZone *)arg1;
 - (id);
 
 // Remaining properties

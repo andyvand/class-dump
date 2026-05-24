@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSMutableArray, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPZoneDataV2
 {
     HAPTLVUnsignedNumberValue *_inverted;
-    HAPTLVUnsignedNumberValue *_count;
-    NSMutableArray *_polygons;
 }
 
 + (id);
@@ -20,26 +18,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)x-intnt-apsecuritymode;
+- (id)s default behavior may change in the future into a hard error.;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *inverted; // @synthesize inverted=_inverted;
-@property(retain, nonatomic) NSMutableArray *polygons; // @synthesize polygons=_polygons;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor, UIImage, UIVibrancyEffect;
-
 __attribute__((visibility("hidden")))
 @interface _UIBarBackgroundLayout
 {
     double _backgroundAlpha;
-    double _shadowAlpha;
-    double _backgroundHeight1;
-    double _backgroundHeight2;
-    double _backgroundTransitionProgress;
-    long long _interfaceIdiom;
-    long long _interfaceStyle;
-    _Bool _useExplicitGeometry;
-    _Bool _disableTinting;
-    _Bool _shadowHidden;
-    UIVibrancyEffect *_bg1ShadowEffect;
-    UIVibrancyEffect *_bg2ShadowEffect;
 }
 
 - (double);
 - (_Bool);
-- (id);
+- (id);
 - (double);
 - (id);
-- (id);
+- (id)otal:%u
+ /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (id);
@@ -37,10 +25,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)ñbÐ1Â0@ù
 × ;
-- (_Bool)erCornerRadius;
+- (_Bool)overlayPlatterCornerRadius;
 - (id)inlineTextCompletionAllowedForTraits;
-- (double)Updater;
-- (id)holder: /* Error: Ran out of types for this method. */;
+- (double)initialClientSettingsUpdater;
+- (id)_setForceDisplayOverridePlaceholder: /* Error: Ran out of types for this method. */;
 - (id)",&,N,V_pinchGesture;
 - (void)ø:(_Bool)arg1 h;¨;8<;
 - (double)dentity:%@ /* Error: Ran out of types for this method. */;
@@ -81,43 +69,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) double backgroundAlpha; // @synthesize backgroundAlpha=_backgroundAlpha;
-@property(nonatomic) double backgroundHeight1; // @synthesize backgroundHeight1=_backgroundHeight1;
-@property(nonatomic) double backgroundHeight2; // @synthesize backgroundHeight2=_backgroundHeight2;
-@property(nonatomic) double backgroundTransitionProgress; // @synthesize backgroundTransitionProgress=_backgroundTransitionProgress;
-@property(readonly, nonatomic) double bg1Alpha;
-@property(readonly, nonatomic) UIColor *bg1Color;
-@property(readonly, nonatomic) NSArray *bg1Effects;
-@property(readonly, nonatomic) _Bool bg1HasShadow;
-@property(readonly, nonatomic) UIImage *bg1Image;
-@property(readonly, nonatomic) double bg1ImageAlpha;
-@property(readonly, nonatomic) long long bg1ImageMode;
-@property(readonly, nonatomic) double bg1ShadowAlpha;
-@property(readonly, nonatomic) UIColor *bg1ShadowColor;
-@property(readonly, nonatomic) UIVibrancyEffect *bg1ShadowEffect; // @synthesize bg1ShadowEffect=_bg1ShadowEffect;
-@property(readonly, nonatomic) UIImage *bg1ShadowImage;
-@property(readonly, nonatomic) UIColor *bg1ShadowTint;
-@property(readonly, nonatomic) double bg2Alpha;
-@property(readonly, nonatomic) UIColor *bg2Color;
-@property(readonly, nonatomic) NSArray *bg2Effects;
-@property(readonly, nonatomic) _Bool bg2Enabled;
-@property(readonly, nonatomic) _Bool bg2HasShadow;
-@property(readonly, nonatomic) UIImage *bg2Image;
-@property(readonly, nonatomic) long long bg2ImageMode;
-@property(readonly, nonatomic) double bg2ShadowAlpha;
-@property(readonly, nonatomic) UIColor *bg2ShadowColor;
-@property(readonly, nonatomic) UIVibrancyEffect *bg2ShadowEffect; // @synthesize bg2ShadowEffect=_bg2ShadowEffect;
-@property(readonly, nonatomic) UIImage *bg2ShadowImage;
-@property(readonly, nonatomic) UIColor *bg2ShadowTint;
 @property(readonly, nonatomic) double bgInset;
-@property(nonatomic) _Bool disableTinting; // @synthesize disableTinting=_disableTinting;
-@property(nonatomic) long long interfaceIdiom; // @synthesize interfaceIdiom=_interfaceIdiom;
-@property(nonatomic) long long interfaceStyle; // @synthesize interfaceStyle=_interfaceStyle;
-@property(nonatomic) double shadowAlpha; // @synthesize shadowAlpha=_shadowAlpha;
-@property(nonatomic) _Bool shadowHidden; // @synthesize shadowHidden=_shadowHidden;
-@property(readonly, nonatomic) _Bool shouldUseExplicitGeometry;
-@property(readonly, nonatomic) double topInset;
-@property(nonatomic) _Bool useExplicitGeometry; // @synthesize useExplicitGeometry=_useExplicitGeometry;
 
 @end
 

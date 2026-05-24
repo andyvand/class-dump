@@ -5,5 +5,7 @@
 //
 
 @protocol CKSendAnimationManagerDelegate
+- (void)retainOriginalFormatting;
+- (void)resumeConnectionIfNeeded;
 @end
 

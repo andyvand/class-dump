@@ -6,7 +6,7 @@
 
 #import <PencilKit/PKDetectionQueryItem.h>
 
-@class CHDataDetectorQueryItem, DDScannerResult;
+@class CHDataDetectorQueryItem;
 
 @interface PKDataDetectorQueryItem : PKDetectionQueryItem
 {
@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -25,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CHDataDetectorQueryItem *coreHandwritingDataDetectorQueryItem; // @synthesize coreHandwritingDataDetectorQueryItem=_coreHandwritingDataDetectorQueryItem;
-@property(readonly, nonatomic) DDScannerResult *scannerResult;
 
 @end
 

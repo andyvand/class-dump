@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSString, SARDNativeFlowContextUpdate;
+@class SARDNativeFlowContextUpdate;
 
 @interface SARDResultCandidateSelected : SABaseCommand
 {
@@ -25,18 +25,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SARDNativeFlowContextUpdate *nativeFlowContextUpdate;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSString *selectedResultCandidateId;
-@property(nonatomic) _Bool serverFallback;
-@property(readonly) Class superclass;
 
 @end
 

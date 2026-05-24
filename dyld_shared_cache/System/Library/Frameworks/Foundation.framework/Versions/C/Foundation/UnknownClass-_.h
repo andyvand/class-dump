@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (_)
-- (id);
+- (id)(;
 - (void);
 @end
 

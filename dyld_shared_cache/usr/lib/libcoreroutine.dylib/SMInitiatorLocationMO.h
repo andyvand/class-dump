@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface SMInitiatorLocationMO
 {
 }
 
++ (id)ctionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:(id)arg1 8;
 + (id);
-+ (id);
-+ (id);
++ (id)NWLinkConnection:added %@ for %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double altitude; // @dynamic altitude;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(nonatomic) double hunc; // @dynamic hunc;
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic) double latitude; // @dynamic latitude;
-@property(nonatomic) double longitude; // @dynamic longitude;
-@property(nonatomic) double vunc; // @dynamic vunc;
 
 @end
 

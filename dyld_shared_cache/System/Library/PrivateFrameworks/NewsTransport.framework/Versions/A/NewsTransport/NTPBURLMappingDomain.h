@@ -4,40 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NTPBURLMappingDomain
 {
     double _averageSafariVisitsPerDay;
-    NSString *_domain;
-    NSMutableArray *_paths;
 }
 
 + (Class);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)focusViewDelegate;
+- (double)createSharedLibraryWithEmailAddresses:phoneNumbers:autoSharePolicy:startDate:personUUIDs:progress:presentationEnvironment:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (unsigned long long)4f48d52@?60;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)groupCreation;
+- (_Bool)ion;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void)duceVisibilityForNonFollowers"b1"webConverted"b1};
-- (void)t:(id)arg1;
-- (id)FontResourceIDsType;
+- (void)setAutoFavoriteTagFavorabilityExponent:(id)arg1;
+- (id)flintFontResourceIDsType;
 
 // Remaining properties
-@property(nonatomic) double averageSafariVisitsPerDay; // @synthesize averageSafariVisitsPerDay=_averageSafariVisitsPerDay;
 @property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(retain, nonatomic) NSMutableArray *paths; // @synthesize paths=_paths;
 
 @end
 

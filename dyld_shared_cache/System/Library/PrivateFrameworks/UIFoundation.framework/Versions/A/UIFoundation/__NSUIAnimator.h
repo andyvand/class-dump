@@ -9,11 +9,11 @@
 }
 
 + (void);
++ (void)($;
++ (_Bool)Sa;
 + (void);
-+ (_Bool);
 + (void);
-+ (void);
-+ (void);
++ (void)_fullRebuildSpacesChanged;
 
 @end
 

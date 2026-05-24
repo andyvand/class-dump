@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface ASAuthorizationSingleSignOnProvider
 {
@@ -14,21 +14,13 @@
 + (id);
 + (id);
 - (id);
+- (id)_updateElementsController;
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)ived XPC_ERROR_TERMINATION_IMMINENT;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canPerformAuthorization;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

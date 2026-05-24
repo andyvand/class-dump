@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface DOCTag
 {
     NSString *_displayName;
-    long long _labelIndex;
-    long long _type;
-    long long _itemCount;
-    NSNumber *_sidebarVisible;
-    NSNumber *_sidebarPinned;
 }
 
 + (id);
@@ -38,15 +33,10 @@
 - (_Bool);
 - (id);
 - (long long);
-- (void);
+- (void)`;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) long long itemCount; // @synthesize itemCount=_itemCount;
-@property(readonly, nonatomic) long long labelIndex; // @synthesize labelIndex=_labelIndex;
-@property(readonly, nonatomic) NSNumber *sidebarPinned; // @synthesize sidebarPinned=_sidebarPinned;
-@property(readonly, nonatomic) NSNumber *sidebarVisible; // @synthesize sidebarVisible=_sidebarVisible;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

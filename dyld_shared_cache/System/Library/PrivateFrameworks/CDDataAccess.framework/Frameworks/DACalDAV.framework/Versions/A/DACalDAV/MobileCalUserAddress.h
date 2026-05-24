@@ -9,7 +9,6 @@
 @interface MobileCalUserAddress
 {
     MobileCalDAVAccount *_account;
-    NSURL *_address;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak MobileCalDAVAccount *account; // @synthesize account=_account;
 @property(copy, nonatomic) NSURL *address; // @synthesize address=_address;
 
 @end

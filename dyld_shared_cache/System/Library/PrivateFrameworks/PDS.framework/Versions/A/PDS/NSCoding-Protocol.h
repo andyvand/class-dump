@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)checker, along road component of current solution is far away from the given road segment. However, position is currently inside tunnel. So do not fail the map vector.;
 @end
 

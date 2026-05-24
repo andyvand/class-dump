@@ -4,42 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CKMediaObjectExportManager
 {
     _Bool _ignoreSyndicationIdentifiers;
-    _Bool _queuedMediaObjectsArePhotosCompatible;
-    NSArray *_queuedMediaObjects;
-    NSString *_metricsSource;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)zS;
+- (void)bled,V_sixChannelBlendingEnabled;
+- (void)ected;
+- (void)mentionNotificationAttemptCount;
+- (void)wasForceStopped;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)y;
+- (id)n;
 - (_Bool);
+- (void)g;
 - (void);
+- (void)s;
+- (void)n;
+- (void)n;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)w;
 - (void) ¼è´;
 
 // Remaining properties
-@property(nonatomic) _Bool ignoreSyndicationIdentifiers; // @synthesize ignoreSyndicationIdentifiers=_ignoreSyndicationIdentifiers;
-@property(retain, nonatomic) NSString *metricsSource; // @synthesize metricsSource=_metricsSource;
 @property(retain, nonatomic) NSArray *queuedMediaObjects; // @synthesize queuedMediaObjects=_queuedMediaObjects;
-@property(nonatomic) _Bool queuedMediaObjectsArePhotosCompatible; // @synthesize queuedMediaObjectsArePhotosCompatible=_queuedMediaObjectsArePhotosCompatible;
 
 @end
 

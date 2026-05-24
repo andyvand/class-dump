@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface FCRecordCacheInvalidation
 {
     void recordID;
-    void invalidatedAt;
 }
 
 - (id);
 - (id);
-- (id);
-- (void)rl;
+- (id)ewControllerAnimatedTransitioning>"24;
+- (void)appAnalyticsSportsEventsEndpointUrl;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *invalidatedAt;
 @property(nonatomic, readonly) NSString *recordID;
 
 @end

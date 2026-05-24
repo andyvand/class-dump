@@ -5,5 +5,6 @@
 //
 
 @protocol PKUserNotificationServerRemoteNotificationXPCClient
+- (void);
 @end
 

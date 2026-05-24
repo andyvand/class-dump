@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSSQLEntity;
+@class NSSQLEntity;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLEntity_DerivedAttributesExtension
 {
     NSSQLEntity *_entity;
-    struct __CFDictionary *_derivedAttributes;
-    NSMutableArray *_triggerSQL;
-    NSMutableDictionary *_migrationSQL;
 }
 
 - (void);
 - (id);
-- (id)ersionURL;
+- (id)optimizedVersionURL;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface PPM2NamedEntityInitialDonation
 {
     NSString *_activeTreatments;
-    int _algorithm;
-    int _source;
-    CDStruct_95ef61a7 _has;
 }
 
 - (_Bool);
@@ -22,13 +19,13 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
+- (void)#;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)_currentConnection;
 - (int);
 - (id);
 - (int);
@@ -36,18 +33,13 @@
 - (_Bool)1Â0@ù
 × ;
 - (void):8B16@?<v@?B@"NSError">20 /* Error: Ran out of types for this method. */;
-- (void)ory:(_Bool)arg1 createIfNeeded: /* Error: Ran out of types for this method. */;
+- (void)subdirectory:(_Bool)arg1 createIfNeeded: /* Error: Ran out of types for this method. */;
 - (id);
 - (int)levantContacts;
 - (void)tricsLogger:(int)arg1 No RTC logs to send this time. Skipping.;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(nonatomic) _Bool hasAlgorithm;
 @property(nonatomic) _Bool hasSource;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

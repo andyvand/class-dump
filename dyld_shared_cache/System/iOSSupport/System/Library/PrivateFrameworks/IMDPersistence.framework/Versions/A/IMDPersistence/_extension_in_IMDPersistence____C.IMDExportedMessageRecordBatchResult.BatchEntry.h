@@ -7,11 +7,6 @@
 @interface (extension in IMDPersistence):__C.IMDExportedMessageRecordBatchResult.BatchEntry
 {
     id messageRecord;
-    id handleRecord;
-    id chatRecord;
-    id attachmentRecords;
-    id entryForAssociatedMessage;
-    id entryForThreadOriginator;
 }
 
 @end

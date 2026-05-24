@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineMagicalMomentsIndividualMoment
 {
     unsigned long long _timestamp;
-    int _expertType;
-    int _modelType;
-    NSString *_suggestionId;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int expertType:1;
-        unsigned int modelType:1;
-    } _has;
 }
 
 - (void);
@@ -38,7 +28,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -46,14 +36,7 @@
 - (int)ÌÖÖÿ;
 
 // Remaining properties
-@property(nonatomic) int expertType; // @synthesize expertType=_expertType;
-@property(nonatomic) _Bool hasExpertType;
-@property(nonatomic) _Bool hasModelType;
-@property(readonly, nonatomic) _Bool hasSuggestionId;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int modelType; // @synthesize modelType=_modelType;
-@property(retain, nonatomic) NSString *suggestionId; // @synthesize suggestionId=_suggestionId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

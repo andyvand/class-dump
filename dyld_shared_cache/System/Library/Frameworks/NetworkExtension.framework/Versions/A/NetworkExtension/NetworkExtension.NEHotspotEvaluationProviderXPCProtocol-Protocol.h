@@ -5,5 +5,6 @@
 //
 
 @protocol NetworkExtension.NEHotspotEvaluationProviderXPCProtocol
+- (void);
 @end
 

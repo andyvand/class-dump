@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSString;
 
 @interface MSPLowFuelDetails
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSNumber *_engineType;
-    NSData *_iconData;
-    NSData *_iconDataCarPlay;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -26,16 +22,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *engineType; // @synthesize engineType=_engineType;
-@property(retain, nonatomic) NSData *iconData; // @synthesize iconData=_iconData;
-@property(retain, nonatomic) NSData *iconDataCarPlay; // @synthesize iconDataCarPlay=_iconDataCarPlay;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol IMKTextInput_FunctionRowUI
+- (void);
 @end
 

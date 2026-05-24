@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConditionLock, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface _SCRCThreadTask
 {
     id _target;
-    SEL _selector;
-    NSConditionLock *_waitLock;
-    unsigned int _mask;
-    NSMutableArray *_objectArray;
 }
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);

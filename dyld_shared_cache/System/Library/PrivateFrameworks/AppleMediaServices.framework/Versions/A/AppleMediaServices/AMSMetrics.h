@@ -4,53 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSEngagement, AMSMetricsDatabaseDataSource, AMSMetricsFlushOperation, AMSMetricsRegexCache, AMSTreatmentStore, AMSURLSession, NSMutableArray, NSString;
-@protocol AMSBagProtocol, AMSMetricsBagContract;
+@class NSMutableArray;
 
 @interface AMSMetrics
 {
     NSMutableArray *_enqueuedOperations;
-    AMSMetricsFlushOperation *_currentFlushOperation;
-    struct os_unfair_lock_s _enqueuedOperationsLock;
-    struct os_unfair_lock_s _flushModeLock;
-    _Atomic _Bool _flushingDisabled;
-    Class _flushTaskClass;
-    struct os_unfair_lock_s _bagLock;
-    _Bool _flushTimerEnabled;
-    _Bool _includeMMeClientInfoAndDeviceHeaders;
-    _Bool _monitorsLifecycleEvents;
-    struct os_unfair_lock_s _engagementLock;
-    id <AMSBagProtocol> _bag;
-    AMSEngagement *_engagement;
-    NSString *_containerId;
-    long long _maxEventsPerBatch;
-    long long _maxRequestCount;
-    unsigned long long _metricsSigningFlavour;
-    long long _destination;
-    CDUnknownBlockType _flushOnDidBecomeActiveBlock;
-    CDUnknownBlockType _flushIntervalBlock;
-    AMSURLSession *_URLSession;
-    AMSMetricsRegexCache *_regexCache;
-    AMSTreatmentStore *_treatmentStore;
-    AMSMetricsDatabaseDataSource *_databaseSource;
 }
 
 + (_Bool);
-+ (double);
++ (double)n;
 + (void);
 + (void);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)_updateUtteranceswithAlternativeUtteranceAtIndex:(_Bool)arg1 swapIndices: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
 + (id);
 + (void);
-+ (id);
++ (id)n handler for type=%@, destination=%@, session=%@, %@;
 + (void);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 + (id);
@@ -65,14 +41,14 @@
 - (CDUnknownBlockType);
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)startListeningForUserRecordChanges]_block_invoke_2;
+- (id);
+- (void);
+- (id)6;
 - (void);
-- (id);
+- (id)@16@24@32@40@48Q56@64@72q80@88;
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)IMIsRunningInScreenshotTesting;
 - (void);
 - (void);
 - (void);
@@ -86,20 +62,20 @@
 - (id);
 - (id);
 - (void);
+- (id)terance text existed for utterance index %{public}lu;
+- (CDUnknownBlockType)MyriadCoordinator heySiriDidUpdateState:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)1;
 - (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (void);
+- (void)@;
 - (id);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)hasArtworkDataHeightDeprecated;
+- (void)originatingBundleID;
+- (void)allowsAuthenticationPrompt;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct os_unfair_lock_s);
@@ -115,7 +91,7 @@
 - (id);
 - (_Bool)1Â0@ù
 × ;
-- (void)s:(id)arg1;
+- (void)setEntitlements:(id)arg1;
 - (long long);
 - (double)[%{public}@] Encoding request for URL:(id)arg1 %{public}@ { 
 	account = %{public}@ 
@@ -138,34 +114,7 @@ aR¢ºÉ->%æÕn}	úQb¡Ê¹`Oø·È#<+{lÓä§À¯ÿðWhÜËt3D
 - (void);
 
 // Remaining properties
-@property(readonly) AMSURLSession *URLSession; // @synthesize URLSession=_URLSession;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) id <AMSMetricsBagContract> bagContract;
-@property(readonly) NSString *containerId; // @synthesize containerId=_containerId;
-@property(retain) AMSMetricsDatabaseDataSource *databaseSource; // @synthesize databaseSource=_databaseSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property long long destination; // @synthesize destination=_destination;
-@property(retain) AMSEngagement *engagement; // @synthesize engagement=_engagement;
-@property struct os_unfair_lock_s engagementLock; // @synthesize engagementLock=_engagementLock;
-@property(readonly) long long eventCount;
-@property(copy) CDUnknownBlockType flushIntervalBlock; // @synthesize flushIntervalBlock=_flushIntervalBlock;
-@property(copy) CDUnknownBlockType flushOnDidBecomeActiveBlock; // @synthesize flushOnDidBecomeActiveBlock=_flushOnDidBecomeActiveBlock;
-@property _Bool flushTimerEnabled; // @synthesize flushTimerEnabled=_flushTimerEnabled;
-@property _Bool flushingDisabled;
-@property(readonly) unsigned long long hash;
-@property _Bool includeMMeClientInfoAndDeviceHeaders; // @synthesize includeMMeClientInfoAndDeviceHeaders=_includeMMeClientInfoAndDeviceHeaders;
-@property long long maxBatchSize;
-@property long long maxEventsPerBatch; // @synthesize maxEventsPerBatch=_maxEventsPerBatch;
-@property long long maxRequestCount; // @synthesize maxRequestCount=_maxRequestCount;
-@property unsigned long long metricsSigningFlavour; // @synthesize metricsSigningFlavour=_metricsSigningFlavour;
-@property _Bool monitorsLifecycleEvents; // @synthesize monitorsLifecycleEvents=_monitorsLifecycleEvents;
-@property(readonly) AMSMetricsRegexCache *regexCache; // @synthesize regexCache=_regexCache;
-@property(readonly) Class superclass;
-@property(retain) AMSTreatmentStore *treatmentStore; // @synthesize treatmentStore=_treatmentStore;
 
 @end
 

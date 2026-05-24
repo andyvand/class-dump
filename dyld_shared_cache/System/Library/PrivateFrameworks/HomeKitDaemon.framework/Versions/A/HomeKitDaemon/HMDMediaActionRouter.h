@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDResidentDevice, NSObject, NSString, NSUUID;
-@protocol HMDMediaActionRouterDataSource, OS_dispatch_queue;
+@protocol HMDMediaActionRouterDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaActionRouter
 {
     _Bool _shouldExecuteOnCurrentDevice;
-    id <HMDMediaActionRouterDataSource> _dataSource;
-    HMDResidentDevice *_targetResidentDeviceOverride;
 }
 
 - (id);
@@ -29,8 +26,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)1;
+- (id)objectForKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)!T@ùQ°1Â0@ù
 × ;
@@ -42,21 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HMDMediaActionRouterDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHome *home;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly, nonatomic) _Bool shouldExecuteOnCurrentDevice; // @synthesize shouldExecuteOnCurrentDevice=_shouldExecuteOnCurrentDevice;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak HMDResidentDevice *targetResidentDeviceOverride; // @synthesize targetResidentDeviceOverride=_targetResidentDeviceOverride;
 
 @end
 

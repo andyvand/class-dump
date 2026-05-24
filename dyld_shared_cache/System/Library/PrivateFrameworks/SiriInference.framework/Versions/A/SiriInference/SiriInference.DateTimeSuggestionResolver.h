@@ -7,8 +7,6 @@
 @interface SiriInference.DateTimeSuggestionResolver
 {
     id spec;
-    id context;
-    id rules;
 }
 
 @end

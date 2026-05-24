@@ -5,10 +5,10 @@
 //
 
 @protocol AXETimer
+- (id)	;
+- (double)m;
 
 // Remaining properties
-@property(readonly) double timeInterval;
-@property(readonly) id userInfo;
 @property(readonly, getter=isValid) _Bool valid;
 @end
 

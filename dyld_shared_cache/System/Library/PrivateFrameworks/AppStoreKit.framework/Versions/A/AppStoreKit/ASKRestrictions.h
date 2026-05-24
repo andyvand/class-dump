@@ -4,39 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface ASKRestrictions
 {
     id $defaultActor;
-    id fetcher;
-    id notificationTokens;
-    id isUpdating;
-    id maximumAppContentRatingBox;
-    id contentRatingExceptionForBundleIdBox;
-    id isAppInstallationAllowedBox;
-    id isAppUninstallationAllowedBox;
-    id isRunningInStoreDemoModeBox;
-    id hasManagedAppleIDBox;
-    id isAccountModificationRestrictedBox;
 }
 
 - (long long);
 - (_Bool);
+- (_Bool)o;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)`Qo;
+- (_Bool);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *contentRatingExceptionForBundleId;
-@property(nonatomic, readonly) _Bool hasManagedAppleID;
-@property(nonatomic, readonly) _Bool isAccountModificationRestricted;
-@property(nonatomic, readonly) _Bool isAppInstallationAllowed;
-@property(nonatomic, readonly) _Bool isAppUninstallationAllowed;
-@property(nonatomic, readonly) _Bool isRunningInStoreDemoMode;
 @property(nonatomic, readonly) long long maximumAppContentRating;
 
 @end

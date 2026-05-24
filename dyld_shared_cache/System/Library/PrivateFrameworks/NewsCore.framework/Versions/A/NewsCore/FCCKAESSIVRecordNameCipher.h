@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id);
+- (id)_straightenAngleForOrientation:(id)arg1;
 - (id);
 - (id);
 

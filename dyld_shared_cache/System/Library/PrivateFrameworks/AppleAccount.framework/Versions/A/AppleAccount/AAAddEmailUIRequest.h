@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (void)Account:completion: /* Error: Ran out of types for this method. */;
+- (void)fetchCachedLoginResponseForAccount:completion: /* Error: Ran out of types for this method. */;
 - (id)aclassesWithoutLocalDataDataclassActionsForAccount:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties

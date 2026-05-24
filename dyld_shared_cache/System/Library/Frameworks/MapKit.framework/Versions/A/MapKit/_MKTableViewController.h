@@ -6,33 +6,26 @@
 
 #import <MapKit/_MKUIViewController.h>
 
-@class NSString, NSTableView;
+@class NSTableView;
 
 @interface _MKTableViewController : _MKUIViewController
 {
     NSTableView *_tableView;
 }
 
-- (void);
+- (void)__DATA_CONST;
 - (double);
 - (double);
 - (Class);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void)gMode: /* Error: Ran out of types for this method. */;
-- (void)ame:(id)arg1 command: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)over.;
+- (void)setTrackingMode: /* Error: Ran out of types for this method. */;
+- (void)_populateButtonItem:(id)arg1 imageName:command: /* Error: Ran out of types for this method. */;
 - (id)rray",C,N,V_colors;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end

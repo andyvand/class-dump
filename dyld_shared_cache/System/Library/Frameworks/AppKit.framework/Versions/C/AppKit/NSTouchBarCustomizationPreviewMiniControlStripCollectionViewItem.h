@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewMiniControlStripCollectionViewItem : NSTouchBarCustomizationPreviewCollectionViewItem
 {
     CALayer *_leftCornerRadiusMask;
-    CALayer *_rightCornerRadiusMask;
 }
 
 - (id);
 - (void);
-- (void)ll;
+- (void)foregroundColorWell;
 - (void)ø;
 
 @end

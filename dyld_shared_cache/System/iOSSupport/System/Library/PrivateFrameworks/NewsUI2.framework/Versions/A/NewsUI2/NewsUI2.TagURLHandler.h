@@ -7,10 +7,6 @@
 @interface NewsUI2.TagURLHandler
 {
     id patterns;
-    id navigator;
-    id feedViewContextFactory;
-    id appConfigurationManager;
-    id featureAvailability;
 }
 
 @end

@@ -6,33 +6,21 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseTrigger.h>
 
-@class MapsSuggestionsDarwinNotificationTrigger, NSString;
+@class NSString;
 
 @interface MapsSuggestionsBluetoothVehicleConnectionTrigger : MapsSuggestionsBaseTrigger
 {
     _Bool _onExit;
-    _Bool _onConnect;
-    _Bool _onDisconnect;
-    MapsSuggestionsDarwinNotificationTrigger *_btDisconnectTrigger;
-    MapsSuggestionsDarwinNotificationTrigger *_btExitTrigger;
-    MapsSuggestionsDarwinNotificationTrigger *_btConnectTrigger;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(=;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

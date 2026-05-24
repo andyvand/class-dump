@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2ContactInBanner
 {
     int _app;
-    int _extracted;
-    unsigned int _extractionModelVersion;
-    NSString *_key;
-    int _type;
-    _Bool _selfId;
-    struct {
-        unsigned int app:1;
-        unsigned int extracted:1;
-        unsigned int extractionModelVersion:1;
-        unsigned int type:1;
-        unsigned int selfId:1;
-    } _has;
 }
 
 - (void);
@@ -38,23 +24,23 @@
 - (unsigned int);
 - (id);
 - (int);
-- (id);
+- (id);
 - (void);
-- (int);
+- (int);
 - (int);
 - (int);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)alize (0x%0x); returning default distance;
 - (id);
 - (int);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (int);
 - (_Bool);
 - (id);
@@ -64,18 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) int extracted; // @synthesize extracted=_extracted;
-@property(nonatomic) unsigned int extractionModelVersion; // @synthesize extractionModelVersion=_extractionModelVersion;
-@property(nonatomic) _Bool hasApp;
-@property(nonatomic) _Bool hasExtracted;
-@property(nonatomic) _Bool hasExtractionModelVersion;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasSelfId;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) _Bool selfId; // @synthesize selfId=_selfId;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

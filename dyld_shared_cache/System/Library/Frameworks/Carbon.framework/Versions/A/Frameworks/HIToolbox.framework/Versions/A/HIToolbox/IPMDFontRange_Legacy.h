@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface IPMDFontRange_Legacy
 {
     struct __CTFont *_font;
-    struct _NSRange _range;
 }
 
 + (id);

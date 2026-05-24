@@ -4,49 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFindSession, UINavigationController, UITextSearchOptions, UIView, _UIFindNavigatorHarness;
-@protocol UIFindInteractionDelegate;
+@class UIView, _UIFindNavigatorHarness;
 
 @interface UIFindInteraction
 {
     UIView *_view;
-    UIView *_alternateHostView;
-    UINavigationController *_hostNavigationViewController;
-    UIFindSession *_activeFindSession;
-    unsigned long long _lastUsedHostingStrategy;
-    struct {
-        unsigned int respondToPlacementChangeNotifications:1;
-        unsigned int provideHostScrollView:1;
-    } _privateDelegateDoes;
-    struct {
-        unsigned int aWebView:1;
-        unsigned int aMailComposeView:1;
-    } _hostViewIs;
-    struct {
-        unsigned int hostViewControllerHadToolbarHidden:1;
-    } _findInteractionFlags;
-    NSString *_searchText;
-    NSString *_replacementText;
-    CDUnknownBlockType _optionsMenuProvider;
-    id <UIFindInteractionDelegate> _delegate;
-    _UIFindNavigatorHarness *_findNavigatorHarness;
 }
 
-+ (id);
-+ (void);
++ (id);
++ (void)disablePeriodicStateRestore;
 - (void);
-- (void);
+- (void)n %s, Can't allocate %u bytes for message %s.;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)hasBoolPredicateValue;
 - (void);
-- (void);
+- (void)playlistType;
 - (_Bool);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -59,18 +38,18 @@
 - (void)CGSize=dd}}24;
 - (void)ene"16@"UIApplicationShortcutItem"24@?<v@?B>32;
 - (id)immedPopover"b1};
-- (id)fectiveTimeZone;
-- (void)cheKeyForString:(id)arg1 withRenderFlags:renderConfig: /* Error: Ran out of types for this method. */;
-- (unsigned long long)traints;
-- (void)metryChanges;
-- (id)eueDelayedTouchesAndPressesToSend;
+- (id)effectiveTimeZone;
+- (void)cacheKeyForString:(id)arg1 withRenderFlags:renderConfig: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_uiib_invalidateWindowInternalConstraints;
+- (void)_registerForGeometryChanges;
+- (id)_enqueueDelayedTouchesAndPressesToSend;
 - (id)utesForNewModel: /* Error: Ran out of types for this method. */;
-- (void)plication:(CDUnknownBlockType)arg1 originatingProcess: /* Error: Ran out of types for this method. */;
+- (void)_activityContinuationDictionaryWithAction:(CDUnknownBlockType)arg1 sourceApplication:originatingProcess: /* Error: Ran out of types for this method. */;
 - (id)pÔp;
 - (unsigned long long)ÿ;
 - (void)ment:%@  focusItemContainer:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void)Transform;
+- (void)liftedTransform;
 - (id)hOptions. This is unexpected.;
 - (void)ib) %@;
 - (void);
@@ -81,23 +60,7 @@
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) UITextSearchOptions *_configuredSearchOptions;
-@property(nonatomic, getter=_hostView, setter=_setHostView:) __weak UIView *_hostView;
-@property(readonly, nonatomic) UIFindSession *activeFindSession; // @synthesize activeFindSession=_activeFindSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <UIFindInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _UIFindNavigatorHarness *findNavigatorHarness; // @synthesize findNavigatorHarness=_findNavigatorHarness;
-@property(readonly, nonatomic, getter=isFindNavigatorVisible) _Bool findNavigatorVisible;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType optionsMenuProvider; // @synthesize optionsMenuProvider=_optionsMenuProvider;
-@property(copy, nonatomic) NSString *replacementText; // @synthesize replacementText=_replacementText;
-@property(copy, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

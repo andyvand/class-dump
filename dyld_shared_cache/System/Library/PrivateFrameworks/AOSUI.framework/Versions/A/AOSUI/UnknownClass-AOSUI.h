@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AOSUI)
-- (void);
-- (void);
+- (void)k�h;
+- (void)	;
 @end
 

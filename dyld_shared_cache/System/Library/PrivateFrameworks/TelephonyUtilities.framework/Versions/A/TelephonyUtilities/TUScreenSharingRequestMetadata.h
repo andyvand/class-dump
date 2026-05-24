@@ -9,30 +9,26 @@
 @interface TUScreenSharingRequestMetadata
 {
     NSString *_bundleIdentifier;
-    NSString *_appName;
-    NSString *_sceneID;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (id);
+- (unsigned long long)	;
+- (id);
+- (_Bool)H;
+- (void);
+- (id);
 - (void);
+- (void)DMFDeviceIsEphemeralMultiUserKey;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)tionProviderServerXPCInterface;
+- (void)userNotificationProviderServerXPCInterface;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appName; // @synthesize appName=_appName;
 @property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSString *sceneID; // @synthesize sceneID=_sceneID;
 
 @end
 

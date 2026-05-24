@@ -6,67 +6,54 @@
 
 #import <WirelessProximity/WPClient.h>
 
-@class NSMutableData, NSMutableSet, NSUUID;
 @protocol WPTransferDelegate;
 
 @interface WPTransfer : WPClient
 {
     _Bool _advertising;
-    _Bool _scanning;
-    _Bool _connectedToPeripheral;
-    _Bool _unsubscribeComing;
-    _Bool _advertiserConnected;
-    _Bool _sentEOM;
-    _Bool _sendingTransferComplete;
-    id <WPTransferDelegate> _delegate;
-    NSUUID *_currentPeripheralUUID;
-    NSMutableSet *_ignoredDevices;
-    NSMutableData *_notificationData;
-    NSUUID *_currentlySubscribedCentral;
-    long long _lockScanTimer;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)setOcrOverlayBackgroundOpacity: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)Q*;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)I44B48;
+- (void)Japanese;
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (long long);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (long long)*;
+- (void);
+- (void)_startUTCOffsetSeconds;
+- (void);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)h;
 - (void);
 - (id);
 - (void);
@@ -82,24 +69,12 @@
 - (void);
 - (id)
 × ;
-- (_Bool)FailToStartScanningForType:withError: /* Error: Ran out of types for this method. */;
+- (_Bool)test:didFailToStartScanningForType:withError: /* Error: Ran out of types for this method. */;
 - (void)V_needsToRegister;
 - (void)transfer beginning;
 
 // Remaining properties
-@property _Bool advertiserConnected; // @synthesize advertiserConnected=_advertiserConnected;
-@property _Bool advertising; // @synthesize advertising=_advertising;
-@property _Bool connectedToPeripheral; // @synthesize connectedToPeripheral=_connectedToPeripheral;
-@property(retain) NSUUID *currentPeripheralUUID; // @synthesize currentPeripheralUUID=_currentPeripheralUUID;
-@property(retain) NSUUID *currentlySubscribedCentral; // @synthesize currentlySubscribedCentral=_currentlySubscribedCentral;
 @property __weak id <WPTransferDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableSet *ignoredDevices; // @synthesize ignoredDevices=_ignoredDevices;
-@property long long lockScanTimer; // @synthesize lockScanTimer=_lockScanTimer;
-@property(retain) NSMutableData *notificationData; // @synthesize notificationData=_notificationData;
-@property _Bool scanning; // @synthesize scanning=_scanning;
-@property _Bool sendingTransferComplete; // @synthesize sendingTransferComplete=_sendingTransferComplete;
-@property _Bool sentEOM; // @synthesize sentEOM=_sentEOM;
-@property _Bool unsubscribeComing; // @synthesize unsubscribeComing=_unsubscribeComing;
 
 @end
 

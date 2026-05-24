@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioFeedBlueprintViewCellProvider
 {
     id delegate;
-    id baseStyler;
-    id feedItemRenderer;
-    id blueprintProvider;
 }
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSUserDefaults;
+@class NSDictionary, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _CDComplications
 {
     NSObject<OS_dispatch_queue> *complicationQueue;
-    int deviceChangeToken;
-    NSUserDefaults *pushLimits;
-    NSMutableDictionary *meterTokens;
-    NSDictionary *_activeComplications;
 }
 
 + (id);
@@ -23,10 +19,10 @@
 - (id);
 - (int);
 - (void);
-- (id);
+- (id);
 - (void);
 - (int);
-- (void);
+- (void):(id)arg1 DH;
 - (_Bool);
 - (void)0@ù
 × ;

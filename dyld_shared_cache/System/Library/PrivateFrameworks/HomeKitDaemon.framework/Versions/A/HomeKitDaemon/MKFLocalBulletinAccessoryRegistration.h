@@ -13,7 +13,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)@
+;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *accessoryModelID; // @dynamic accessoryModelID;

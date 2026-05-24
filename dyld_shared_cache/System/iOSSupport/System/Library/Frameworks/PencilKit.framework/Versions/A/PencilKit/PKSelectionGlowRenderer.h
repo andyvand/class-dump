@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSMutableDictionary, NSString, PKSelectionModificationKnob, PKStrokeSelection, UIBezierPath;
-@protocol PKSelectionRenderingDelegate;
+@class CALayer, PKStrokeSelection;
 
 @interface PKSelectionGlowRenderer
 {
     CALayer *_highlightLayer;
-    CALayer *_strokePathsTilesLayer;
-    PKSelectionModificationKnob *_leftKnob;
-    PKSelectionModificationKnob *_rightKnob;
-    long long _knobDragMode;
-    _Bool _isDraggingKnob;
-    long long _draggedKnobLocation;
-    NSMutableDictionary *_tiles;
-    UIBezierPath *_lassoPath;
-    PKStrokeSelection *_strokeSelection;
-    id <PKSelectionRenderingDelegate> _renderingDelegate;
 }
 
 + (id);
@@ -61,15 +50,7 @@
 - (void)ontainerViewCompactHeightConstraint;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <PKSelectionRenderingDelegate> renderingDelegate; // @synthesize renderingDelegate=_renderingDelegate;
 @property(retain, nonatomic) PKStrokeSelection *strokeSelection; // @synthesize strokeSelection=_strokeSelection;
-@property(readonly) Class superclass;
 
 @end
 

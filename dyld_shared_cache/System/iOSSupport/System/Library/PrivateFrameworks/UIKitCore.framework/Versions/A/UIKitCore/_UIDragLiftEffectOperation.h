@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, UIDragInteraction, UIViewPropertyAnimator;
 @protocol UIDragInteractionContext;
 
 @interface _UIDragLiftEffectOperation
 {
     id <UIDragInteractionContext> _context;
-    NSSet *_items;
-    UIDragInteraction *_interaction;
-    UIViewPropertyAnimator *_propertyAnimator;
 }
 
 + (id);
-- (id);
+- (id)cachedStewieSharingChat;
 - (id)Ð!ÄAùq\°1Â0@ù
 × ;
 - (id)Ô ;
 - (id);
-- (id)Controller;
+- (id)currentTransitionController;
 - (void)kgroundColorTransformerIdentifier;
-- (void)Change;
-- (void)ingEnabled;
+- (void)UITextFormattingViewControllerSetStrikethroughChange;
+- (void)UICollectionViewPrefetchingEnabled;
 - (void)À§\;
 
 // Remaining properties
 @property(retain, nonatomic) id <UIDragInteractionContext> context; // @synthesize context=_context;
-@property(retain, nonatomic) UIDragInteraction *interaction; // @synthesize interaction=_interaction;
-@property(retain, nonatomic) NSSet *items; // @synthesize items=_items;
-@property(readonly, nonatomic) UIViewPropertyAnimator *propertyAnimator; // @synthesize propertyAnimator=_propertyAnimator;
 
 @end
 

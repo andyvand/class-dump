@@ -4,40 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackgroundOperationGraph
 {
     NSMapTable *_opGraph;
-    NSMapTable *_inDegrees;
 }
 
 + (id)§eC;
 - (void);
 - (id);
+- (_Bool)Calculator.mm;
+- (id)- domain.x) / (domain.y - domain.x);
+x = clamp(x, 0.0001, 0.9999);
+x = normalizer.x * x + normalizer.y;
+return texture2D(table, vec2(x, 0.5));
+}
+kernel vec4 curves_rgb_lum(__sample color, sampler2D table, vec2 domain, vec2 normalizer)
+{
+vec4 pixel = color;
+pixel.r = curve_sample(pixel.r, table, domain, normalizer).r;
+pixel.g = curve_sample(pixel.g, table, domain, normalizer).g;
+pixel.b = curve_sample(pixel.b, table, domain, normalizer).b;
+float lum0 = dot(pixel.rgb, vec3(0.3, 0.59, 0.11));
+float lum1 = curve_sample(lum0, table, domain, normalizer).a;
+float lum1c = clamp(lum1, -8.0 * abs(lum0), 8.0 * abs(lum0));
+float lum_scale = (lum0 == 0.0 ? 0.0 :lum1c / lum0);
+float lum_offset = lum1 - lum1c;
+pixel.rgb = lum_scale * pixel.rgb + lum_offset;
+return pixel;
+}
+
+ /* Error: Ran out of types for this method. */;
+- (void)playingAgainstCache:(id)arg1 pipelineState:error:] /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id)Manager;
+- (id)personSettingsManager;
 - (void)`ãûþ ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMapTable *inDegrees; // @synthesize inDegrees=_inDegrees;
 @property(retain, nonatomic) NSMapTable *opGraph; // @synthesize opGraph=_opGraph;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.SearchArticleFactory
 {
     id assetManager;
-    id tagFactory;
 }
 
 @end

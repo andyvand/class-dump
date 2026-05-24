@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray, NSData, _SFPBButtonItem, _SFPBColor;
 
 @protocol _SFPBHeroCardSection
+- (void)*;
+- (_SFPBButtonItem *);
+- (void)@m;
+- (_Bool)initWithFileAssetResponseDictionary: /* Error: Ran out of types for this method. */;
+- (_Bool)elaySeconds: /* Error: Ran out of types for this method. */;
+- (void)nch;
+- (void)initWithLabel:(_SFPBColor *)arg1 appendUUIDToLabel: /* Error: Ran out of types for this method. */;
+- (NSData *)_duplicateMatchingAlternateData;
 - (int)1;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(copy, nonatomic) NSArray *buttonItems;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(retain, nonatomic) _SFPBImage *image;
-@property(nonatomic) int imageAlign;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *subtitle;
-@property(retain, nonatomic) _SFPBRichText *title;
-@property(copy, nonatomic) NSString *type;
 @end
 

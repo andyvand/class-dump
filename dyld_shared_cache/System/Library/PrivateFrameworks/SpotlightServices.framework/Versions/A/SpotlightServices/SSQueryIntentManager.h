@@ -8,25 +8,25 @@
 {
 }
 
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (int);
-+ (int);
-+ (void);
-+ (int);
-+ (int);
-+ (int);
-+ (_Bool);
-+ (_Bool);
-+ (int);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)isFinished;
++ (id)_setShowingDisclosureView:(id)arg1;
++ (id)_setShouldDownloadImageSubresources:(id)arg1;
++ (id)_setOverrideActionButtonColor:(id)arg1;
++ (int)_setHighlightMedia:(id)arg1;
++ (int)_setDisableHighlightGesture:(id)arg1;
++ (void)_setContactsForAttribution:(id)arg1;
++ (int)_setCapabilities:(id)arg1;
++ (int)_setAnimationOrigin:(id)arg1;
++ (int)_setAllowsMetaRefresh:(id)arg1;
++ (_Bool)_scaleFactor;
++ (_Bool)_rootObject;
++ (int)_rightIconView;
++ (id)_responsesRespectingPolicy;
++ (_Bool)_resolvedGlyphAttachmentImageFromImage:(id)arg1;
++ (id)_removeCaptionButtonWithType:(id)arg1;
++ (id)_product;
++ (_Bool)_previewVideo;
++ (_Bool)_overrideBackgroundColor;
 + (void);
 + (id);
 + (_Bool);

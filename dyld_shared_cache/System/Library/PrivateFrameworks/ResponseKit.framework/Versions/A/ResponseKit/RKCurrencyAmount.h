@@ -9,23 +9,19 @@
 @interface RKCurrencyAmount
 {
     NSString *_string;
-    NSString *_currency;
-    double _value;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *currency; // @synthesize currency=_currency;
 @property(readonly) NSString *string; // @synthesize string=_string;
-@property(readonly) double value; // @synthesize value=_value;
 
 @end
 

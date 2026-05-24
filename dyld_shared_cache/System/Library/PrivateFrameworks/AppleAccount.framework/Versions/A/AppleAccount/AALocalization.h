@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)nData SecKeychainItemImport returned:%d /* Error: Ran out of types for this method. */;
 
 @end
 

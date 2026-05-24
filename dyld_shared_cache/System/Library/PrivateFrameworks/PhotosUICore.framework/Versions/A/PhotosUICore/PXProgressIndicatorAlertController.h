@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAlert, NSDate, NSString, NSWindow;
-
 @interface PXProgressIndicatorAlertController
 {
     _Bool _isCanceled;
-    NSDate *_alertPresentedDate;
-    NSAlert *_alert;
-    NSWindow *_window;
-    _Bool _isInternalUIAllowed;
-    double _delay;
-    double _minimumDisplayDuration;
-    NSString *_label;
-    NSString *_title;
 }
 
 + (id);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -30,21 +20,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (double);
 - (void);
 - (id)d:%@ /* Error: Ran out of types for this method. */;
-- (void)ENTS_TO_COPY_VIDEO;
+- (void)ERROR_NO_ADJUSTMENTS_TO_COPY_VIDEO;
 - (void);
 - (void)é;;
 
 // Remaining properties
 @property(nonatomic) double delay; // @synthesize delay=_delay;
-@property(nonatomic) _Bool isInternalUIAllowed; // @synthesize isInternalUIAllowed=_isInternalUIAllowed;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) double minimumDisplayDuration; // @synthesize minimumDisplayDuration=_minimumDisplayDuration;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

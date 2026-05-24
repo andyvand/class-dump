@@ -6,28 +6,16 @@
 
 #import <Safari/BiometricPromptCellView.h>
 
-@class NSImageView, NSLayoutConstraint, NSStackView, NSString, NSTextField, NSView;
+@class NSImageView, NSTextField;
 
 @interface CredentialCompletionAutoFillCellView : BiometricPromptCellView
 {
     NSImageView *_trailingImageView;
-    NSStackView *_stackView;
-    NSView *_imageViewContainerView;
-    NSImageView *_badgeView;
-    NSString *_userNameDescription;
-    NSString *_credentialOriginDescription;
-    NSTextField *_userNameDescriptionLabel;
-    NSTextField *_credentialOriginDescriptionLabel;
-    NSView *_trailingView;
-    NSLayoutConstraint *_stackViewLeadingConstraint;
-    NSLayoutConstraint *_stackViewTrailingConstraint;
-    NSLayoutConstraint *_leadingImageWidthConstraint;
-    NSLayoutConstraint *_leadingImageHeightConstraint;
 }
 
++ (struct CGSize);
 + (struct CGSize);
 + (struct CGSize);
-+ (struct CGSize);
 - (id);
 - (id);
 - (id);
@@ -37,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -59,21 +47,6 @@
 - (void),;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *credentialOriginDescription; // @synthesize credentialOriginDescription=_credentialOriginDescription;
-@property(nonatomic) __weak NSTextField *credentialOriginDescriptionLabel; // @synthesize credentialOriginDescriptionLabel=_credentialOriginDescriptionLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSLayoutConstraint *leadingImageHeightConstraint; // @synthesize leadingImageHeightConstraint=_leadingImageHeightConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *leadingImageWidthConstraint; // @synthesize leadingImageWidthConstraint=_leadingImageWidthConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *stackViewLeadingConstraint; // @synthesize stackViewLeadingConstraint=_stackViewLeadingConstraint;
-@property(nonatomic) __weak NSLayoutConstraint *stackViewTrailingConstraint; // @synthesize stackViewTrailingConstraint=_stackViewTrailingConstraint;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSView *trailingView; // @synthesize trailingView=_trailingView;
-@property(copy, nonatomic) NSString *userNameDescription; // @synthesize userNameDescription=_userNameDescription;
 @property(nonatomic) __weak NSTextField *userNameDescriptionLabel; // @synthesize userNameDescriptionLabel=_userNameDescriptionLabel;
 
 @end

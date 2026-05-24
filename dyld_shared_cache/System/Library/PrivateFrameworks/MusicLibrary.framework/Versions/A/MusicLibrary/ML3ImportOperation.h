@@ -4,53 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3ServiceDatabaseImport, NSData, NSError;
-
 @interface ML3ImportOperation
 {
     CDUnknownBlockType _clientCompletionHandler;
-    _Bool _suspended;
-    _Bool _success;
-    float _progress;
-    ML3ServiceDatabaseImport *_import;
-    CDUnknownBlockType _progressBlock;
-    NSError *_error;
-    NSData *_returnData;
 }
 
-+ (id);
-- (void);
++ (id)_persistedFaceMetadataWithFaces:(unsigned long long)arg1 keyFace:(id)arg2 clusterRejectedFaceIDs: /* Error: Ran out of types for this method. */;
+- (void)_additionalAttributesPropertiesToInclude;
+- (id)URLIsInHomeDirectory: /* Error: Ran out of types for this method. */;
+- (id)ze;
+- (void)localizedStandardRangeOfString:(CDUnknownBlockType)arg1;
+- (void)isAuthenticated;
+- (CDUnknownBlockType)arrayWithArray: /* Error: Ran out of types for this method. */;
+- (unsigned long long)blic}@, using external resource:%@, on target resource:%@. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)blic}@Calling didRemoveAccessoryNetworkProtectionGroup with network protection group:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)redComponent;
 - (float);
-- (void);
+- (void)UI.framework/Versions/A/AppleMediaServicesUI;
 - (_Bool);
 - (void)sicLibrary.MLMediaLibraryResourceServiceClient.serial.queue;
 - (void)iked_state INTEGER NOT NULL DEFAULT 0, liked_state_changed INTEGER NOT NULL DEFAULT 0, user_rating_is_derived INTEGER NOT NULL DEFAULT 0, liked_state_changed_date INTEGER NOT NULL DEFAULT 0, favorite_state INTEGER NOT NULL DEFAULT 0, date_favorited INTEGER NOT NULL DEFAULT 0, FOREIGN KEY(item_pid) REFERENCES item(item_pid));
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) ML3ServiceDatabaseImport *import; // @synthesize import=_import;
 @property(readonly, nonatomic) unsigned long long importSource;
-@property(readonly, nonatomic) float progress; // @synthesize progress=_progress;
-@property(copy, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
-@property(readonly, nonatomic) NSData *returnData; // @synthesize returnData=_returnData;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
-@property(nonatomic, getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
 
 @end
 

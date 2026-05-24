@@ -6,30 +6,25 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIAccordionFoldTransition : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputTargetImage;
-    NSNumber *inputBottomHeight;
-    NSNumber *inputNumberOfFolds;
-    NSNumber *inputFoldShadowAmount;
-    NSNumber *inputTime;
 }
 
 + (id);
+- (void);
 - (void);
+- (void)$;
 - (void);
-- (void);
-- (void);
+- (id);
+- (id)K;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -39,12 +34,7 @@ __attribute__((visibility("hidden")))
 - (id)m~{z|    ¡¡¡¡|yyyycjjjJPGW&>/O[\X\ppppyyyy{{{{s ¤¤££££yMe]wgmgrluuuvtpvlwtyb~§§§§k{y}{x~s~{]nfq}zu~~~xxxxvvvvqqqqVb[h_aZdbbbbHVKY?J;RWWKZmmmmxwvxKhbxirovrrrrRfblVgdiffff``````Y`Pgcm~~~~jpjzw{wh~tqhyUjav}{x}~xxvxScZkfeZfkg\kYtn}Tqj}Miavyyyyq{{{_wtemfy~~~~¬¬¬¬¶¶¶¶««««odof{xxwx{{{{zzxz_ojvIcYq=YMkJ[Ohge]jqpjqeqlvRmgy`xv~~jrl}~^pmu8L=^ac\g££££¥¥¥r~~]f^qNWHfnkanhwr}gtn^rlyssssM^UfCQF]VWSWGK?K$4D-G6Zq©©©©®®®®Ve[hcaUcWkdw££££zy   yzywzdjdlpppp||||j~~~~Upnzn|||F`[oO[Tg_heiqqqqzzzz[og|fuowfsqussssrrrrWc]k\b[kzzzzvtmvNg_r|xxxxhhhh]a\aZa\hUigudwz}yyyy_jjjASLXNNEN@OGR`b`bgxxx|¦¦¦¦¨¨¨¨    [qlxeurvu||||llilR_Ya\\\\NXPYHSI\ad^hXlhseokx{yx|||||ttttnnnnopkq]soz||z|]kesbhbkhhhhcccc?XObZlix¤¤¤¤MVM[PPNP````xxxxmmimFRDXNPBSbb_byyyyrjjjjGXO[[[[[M_Xd[lhs´´´´····vKj_yllbl\i^qfxti~|j|zl§§§§¸¸¸¸ÆÆÆÆÄÃÉÉ¤·½½XjbsIO@\`bZe^tsxl}|yyyyuuuu~~~~swwwwUfahggggppppwwwwttttZieiRZQ^TZP^ajhjtttthplqmmlmllllhhhh^^^^UUSUEUNWaaaaffffggggXe`jAa[q\tswwwwcccc__V_Zlin}}}}wzzzTnluk{zqpizgws]mexJVHeYaXfoooorrrrxupxªªªª´´´´¤¤¤¤izq~bvq~Nf[t}}{}¤¤¤¤¥£¥¥d}}{{{{eqorOc_kggggbbbbcdbdqqqq}}}}~~~~yyyyiiiiW[R^`c[fr|y¢¢¢ºººº¸¸¸¸¦¦¦¦ssqsJXM`ZSDZQ\QduusupWwwlojySkfw[ro{}}}}ttrt:WGlGh^}¤¤¤¤ktqyqtqvQf`ogbZittttt}{y}nzy~drosekhk]jgjjlllllllbbbbBQJR7G<N____wwww{{{{\iejhhhhvvvvoluqyYleuoxt{Yne{Kh]z}xnqxt~zzvz|xt|q{yyywy7PAfVcZn /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputBottomHeight; // @synthesize inputBottomHeight;
-@property(retain, nonatomic) NSNumber *inputFoldShadowAmount; // @synthesize inputFoldShadowAmount;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputNumberOfFolds; // @synthesize inputNumberOfFolds;
-@property(retain, nonatomic) CIImage *inputTargetImage; // @synthesize inputTargetImage;
-@property(retain, nonatomic) NSNumber *inputTime; // @synthesize inputTime;
 
 @end
 

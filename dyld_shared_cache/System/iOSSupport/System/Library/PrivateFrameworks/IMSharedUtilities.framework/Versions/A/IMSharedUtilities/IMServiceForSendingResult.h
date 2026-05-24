@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMServiceReachabilityResult, NSDictionary;
-
 @interface IMServiceForSendingResult
 {
     _Bool _final;
-    IMServiceReachabilityResult *_bestResult;
-    NSDictionary *_resultsByAccountID;
 }
 
 + (_Bool);
@@ -22,12 +18,10 @@
 - (id);
 - (id);
 - (void);
-- (void)nailPxSize;
+- (void)minThumbnailPxSize;
 
 // Remaining properties
-@property(readonly, nonatomic) IMServiceReachabilityResult *bestResult; // @synthesize bestResult=_bestResult;
 @property(readonly, nonatomic, getter=isFinal) _Bool final; // @synthesize final=_final;
-@property(readonly, nonatomic) NSDictionary *resultsByAccountID; // @synthesize resultsByAccountID=_resultsByAccountID;
 
 @end
 

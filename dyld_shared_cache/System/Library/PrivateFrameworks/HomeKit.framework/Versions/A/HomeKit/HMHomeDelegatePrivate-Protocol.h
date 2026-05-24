@@ -4,6 +4,59 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CLLocation, HMAccessoryNetworkProtectionGroup, HMActionSet, HMHome, HMHomePersonManagerSettings, HMServiceGroup, NSDate, NSTimeZone;
+
 @protocol HMHomeDelegatePrivate
+
+@optional
+- (void)_updateDerivativesAndThumbnails:(HMHome *)arg1 withPreviewImage:thumbnailImage:metadata:didRevertToOriginal:updateInternalResources:isSubstandardRender:isDeferred: /* Error: Ran out of types for this method. */;
+- (void)_updateDeletionRecordListForKey:(HMHome *)arg1 removingRecordID: /* Error: Ran out of types for this method. */;
+- (void)_updateDayHighlight:(HMHome *)arg1 withNewAssets: /* Error: Ran out of types for this method. */;
+- (void)_updateDayGroupHighlight:(HMHome *)arg1 withNewAssets: /* Error: Ran out of types for this method. */;
+- (void)_updateDataclass:(HMHome *)arg1 onAccount:enabled: /* Error: Ran out of types for this method. */;
+- (void)_updateCoreDateExtendedAttributes:(HMHome *)arg1 fromMetadata: /* Error: Ran out of types for this method. */;
+- (void):(HMHome *)arg1;
+- (void)_updateConfirmedSpotlightSyncDateIfNeededForFullIndexSyncStartDate:(HMHome *)arg1;
+- (void)_updateConfigurationStateWithWorkItemIdentifiers:(HMHome *)arg1 configurations:inLibrary: /* Error: Ran out of types for this method. */;
+- (void)_updateCompiledAssetsAfterUserRemovedAssetsChange;
+- (void)_updateCloudSharedAlbumWithArgumentsDictionary:(HMHome *)arg1 photoLibrary: /* Error: Ran out of types for this method. */;
+- (void)_updateChangeFlagForRelations;
+- (void)_updateChangeFlagForMoments;
+- (void)_updateCachedPolicyConfigurationWithCPLConfiguration:(HMHome *)arg1;
+- (void)_updateCPLMarkerFiles;
+- (void)_updateBurstFlagsForCPLAssetChange:(HMHome *)arg1 photoLibrary: /* Error: Ran out of types for this method. */;
+- (void)_updateBackupExclusionPathsAfterRemoveCPLDirectory;
+- (void)_updateAvalanchePropertiesFromAssetChange:(HMHome *)arg1;
+- (void)_updateAssetsInMemory:(HMHome *)arg1 relationshipName:(NSTimeZone *)arg2 persistedOrderedAssetUUIDs:includePendingChanges: /* Error: Ran out of types for this method. */;
+- (void)_updateAssetsInMemory:(HMHome *)arg1 relationshipName:(_Bool)arg2 persistedAssetUUIDs:includePendingChanges: /* Error: Ran out of types for this method. */;
+- (void)_updateAssetSubtypeFromCPLAssetSubtype:(HMHome *)arg1;
+- (void)_updateAssetSubtypeForCPLAssetChange:(HMHome *)arg1;
+- (void)dges:(HMHome *)arg1 actorNodesByActorID:(HMHomePersonManagerSettings *)arg2 inContext:error: /* Error: Ran out of types for this method. */;
+- (void)_updateAssetPersonEdgesForAssetWithID:(HMHome *)arg1 usingPersonFaceSizes:(_Bool)arg2 existingEdges:actorNodesByActorID:inContext:error: /* Error: Ran out of types for this method. */;
+- (void)_updateAssetCountKeyPath:(HMHome *)arg1 withPendingCountKeyPath:(CLLocation *)arg2 inContext: /* Error: Ran out of types for this method. */;
+- (void)_updateAsset:(HMHome *)arg1 withImageFileURL:(HMActionSet *)arg2;
+- (void)_updateAlbumAssociationIfNeededWithChangedValues:(HMHome *)arg1;
+- (void)_updateAdjustmentFromAssetAdjustment:(HMHome *)arg1 unmanagedAdjustment:(unsigned long long)arg2 fullSizeRenderURL:(_Bool)arg3 options:(NSDate *)arg4;
+- (void)_unshareBatchOfPendingAssetsSharedToScopeWithTransaction:(HMHome *)arg1;
+- (void)_unsafe_readyForAnalysis;
+- (void)_unregisterWithVolumeManager;
+- (void)_unregisterBundle:(HMHome *)arg1 pauseUntilDate:(_Bool)arg2;
+- (void)_unquarantineClass:(HMHome *)arg1 inManagedObject:(unsigned long long)arg2;
+- (void)_unpause;
+- (void)_unpackPVTBundleAtURL:(HMHome *)arg1 primaryURL:(HMServiceGroup *)arg2 secondaryURL:error: /* Error: Ran out of types for this method. */;
+- (void)_unlinkPersonIfVerifiedFromFace:(HMHome *)arg1;
+- (void)_unknownMergeEvent;
+- (void)_uniformTypeIdentifier;
+- (void)_unexpectedMomentAssetKeys;
+- (void)_unexpectedMomentAdditionalAssetAttributeKeys;
+- (void)_unclearablePurgeableResourceDirectoriesForPathManager:(HMHome *)arg1;
+- (void)_typeFromPathConstrainedToImageOrMovie:(HMHome *)arg1;
+- (void)_typeCodeFromString:(HMHome *)arg1;
+- (void)_tryToPromoteUnknownAssetsInStore:(HMHome *)arg1;
+- (void)_trustedCallerContainingBundleRecord;
+- (void)_tripHighlightClustersForMoments:(HMHome *)arg1 tripType:(HMAccessoryNetworkProtectionGroup *)arg2;
+- (void)ldcardMatchResults:(HMHome *)arg1;
+- (void)_socialGroup;
+- (void)_snapshotValueForProperty:(HMHome *)arg1;
 @end
 

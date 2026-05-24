@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRPlayerPath, NSString;
+@class NSString;
 
 @interface MRApplicationConnectionListener
 {
     NSString *_serviceName;
-    MRPlayerPath *_playerPath;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
@@ -19,12 +17,10 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void)Device;
+- (void)isHearingDevice;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

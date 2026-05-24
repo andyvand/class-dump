@@ -16,13 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)layPath;
+- (id)_validateFairPlayPath;
 - (void)hardware offer follow up action failed;
 - (void)Ü3jµ9M,6|üvTE¾{ö®ZMÜ[ÿi2RÒÙ;
 
 // Remaining properties
 @property(retain) AMSMutablePromise *paymentSheetPromise; // @dynamic paymentSheetPromise;
-@property(retain) AMSDelegatePaymentSheetRequest *request; // @synthesize request=_request;
 
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFTextProperty, RFVisualProperty;
+@class NSData, RFTextProperty, RFVisualProperty;
 
 @protocol RFSummaryItemStandardCardSection
+- (RFTextProperty *)_normalOffAppearance;
+- (NSData *);
+- (RFVisualProperty *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool suppress_text_2_if_text_1_exceeds_a_single_line;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(copy, nonatomic) NSArray *text_2;
-@property(copy, nonatomic) NSArray *text_3;
-@property(retain, nonatomic) RFTextProperty *text_4;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
 @end
 

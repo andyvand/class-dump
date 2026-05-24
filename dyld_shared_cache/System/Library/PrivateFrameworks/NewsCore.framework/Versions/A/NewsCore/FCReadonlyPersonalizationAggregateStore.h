@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCOnce, NSDictionary, NSMutableDictionary, NSString;
-@protocol FCDerivedPersonalizationData, FCPersonalizationDataGeneratorType;
+@class FCOnce;
 
 @interface FCReadonlyPersonalizationAggregateStore
 {
     FCOnce *_prepareOnce;
-    id <FCPersonalizationDataGeneratorType> _generator;
-    id <FCDerivedPersonalizationData> _derivedPersonalizationData;
-    unsigned long long _scoringType;
-    double _decayRate;
-    NSMutableDictionary *_overrideAggregatesByFeatureKey;
 }
 
 - (unsigned long long);
@@ -24,37 +18,24 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)popoverControllerShouldDismissPopover: /* Error: Ran out of types for this method. */;
+- (id)n (%d inserted, %d deleted) and plus or minus the number of items moved into or out of that section (%d moved in, %d moved out).;
 - (id);
 - (double);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)MeCard"@"NSError">16;
 - (void);
 - (void);
 - (id);
+- (void)_isAirPlayDisplay;
+- (void)c;
 - (id);
 - (id);
+- (id)<;
 - (void)rticleIDPairs;
 - (void)hes/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCTag.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *allAggregates;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) double decayRate; // @synthesize decayRate=_decayRate;
-@property(retain, nonatomic) id <FCDerivedPersonalizationData> derivedPersonalizationData; // @synthesize derivedPersonalizationData=_derivedPersonalizationData;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <FCPersonalizationDataGeneratorType> generator; // @synthesize generator=_generator;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *overrideAggregatesByFeatureKey; // @synthesize overrideAggregatesByFeatureKey=_overrideAggregatesByFeatureKey;
 @property(retain, nonatomic) FCOnce *prepareOnce; // @synthesize prepareOnce=_prepareOnce;
-@property(nonatomic) unsigned long long scoringType; // @synthesize scoringType=_scoringType;
-@property(readonly) Class superclass;
 
 @end
 

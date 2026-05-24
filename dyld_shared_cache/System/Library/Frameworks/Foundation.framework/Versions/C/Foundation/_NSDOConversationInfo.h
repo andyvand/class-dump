@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSDOConversationInfo
 {
     id doConversation;
-    unsigned long long doConversationCount;
-    id doConversationRequest;
 }
 
 @end

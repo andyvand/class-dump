@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTSynthesizedLocationStore : RTStore
 {
 }
@@ -15,31 +13,25 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)TB,V_triggerUpdate;
+- (void)B,V_restart;
 - (void);
+- (void)cover token from keychain:(id)arg1 %@;
+- (void)c;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)P;
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
+- (void)ikev2_payload_ts_hdr_t));
+- (void);
 - (void)etweenStartDate:(id)arg1 endDate:(CDUnknownBlockType)arg2 filteredBySettledState:handler:] /* Error: Ran out of types for this method. */;
 - (id)l visit, %{sensitive}@, returned visit, %{sensitive}@, error, %@, wifi scan timer fire count, %lu;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKActionPromptForValueEnded, FLOWLINKSchemaFLOWLINKActionPromptForValueStarted, NSData;
+@class FLOWLINKSchemaFLOWLINKActionPromptForValueStarted;
 
 @interface FLOWLINKSchemaFLOWLINKActionPromptForValueContext : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKActionPromptForValueStarted *_startedOrChanged;
-    FLOWLINKSchemaFLOWLINKActionPromptForValueEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,29 +20,25 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)| Libs:%ld Addresses:%ld, shared_cache_uuid:%s
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id)P;
 - (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)isEqualToNumber:(id)arg1;
+- (void)d;
+- (unsigned long long)H;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)sListenAfterSpeaking"b1"legacyContextSource"b1};
-- (id)ported;
+- (id)USPSchemaUSPLoggingReported;
 - (id)¨elk;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionPromptForValueEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionPromptForValueStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

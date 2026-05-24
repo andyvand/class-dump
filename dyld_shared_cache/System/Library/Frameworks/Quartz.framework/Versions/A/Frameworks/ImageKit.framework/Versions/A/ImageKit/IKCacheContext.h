@@ -7,7 +7,6 @@
 @interface IKCacheContext
 {
     id _cacheManager;
-    id _glRenderer;
 }
 
 - (void);
@@ -15,13 +14,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)1;
 - (void);
 
 // Remaining properties
 @property(retain) id cacheManager; // @synthesize cacheManager=_cacheManager;
-@property(readonly) id glContext;
-@property(retain) id glRenderer; // @synthesize glRenderer=_glRenderer;
 
 @end
 

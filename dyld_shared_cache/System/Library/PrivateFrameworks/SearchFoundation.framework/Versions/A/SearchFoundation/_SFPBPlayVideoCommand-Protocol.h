@@ -7,9 +7,9 @@
 @class NSData, _SFPBURL;
 
 @protocol _SFPBPlayVideoCommand
+- (NSData *)haviorSpec",R,N,V_behaviorSpec;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBURL *url;
 @end
 

@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CAAdditionalCertInfo
 {
     NSNumber *_caSerialNumber;
-    NSNumber *_caValidityPeriod;
-    int _caCreateCAWebSite;
-    int _signInvite;
-    struct __SecIdentity *_caChosenIdentityToSignInvitation;
-    NSString *_alternateLocationForCAWebSite;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
-- (void);
-- (id);
+- (id)( ;
 - (int);
 - (id);
 - (struct __SecIdentity *);

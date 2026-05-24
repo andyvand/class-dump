@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaEntityCache, NSSet, NSString;
-@protocol MPArtworkDataSource;
+@class MPMediaEntityCache, NSString;
+@protocol MPMediaLibraryResultSet;
 
 @protocol MPMediaLibraryDataProvider
+- (void)9;
+- (void)X5;
+- (void);
+- (id <MPMediaLibraryResultSet>)0b;
+- (MPMediaEntityCache *)`;
 
 @optional
+- (void)4;
+- (void);
+- (void);
+- (void);
+- (_Bool)endowmentNamespaces;
 - (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MPArtworkDataSource> artworkDataSource;
-@property(readonly, nonatomic) MPMediaEntityCache *entityCache;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSSet *propertiesToCache;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) _Bool requiresAuthentication;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSString *syncValidity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *uniqueIdentifier;
 @end
 

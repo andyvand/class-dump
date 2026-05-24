@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)Clearing nickname ignored records, error:%@ /* Error: Ran out of types for this method. */;
++ (id)(;
 
 @end
 

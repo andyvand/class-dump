@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PKImage;
+@class NSString;
 
 @interface PKPhysicalCardArtworkOption
 {
     _Bool _optionUnavailable;
-    NSString *_identifier;
-    NSURL *_frontFaceImageURL;
-    unsigned long long _minimumEstimatedShippingTime;
-    unsigned long long _maximumEstimatedShippingTime;
-    long long _shippingTimeUnit;
-    PKImage *_frontFaceImage;
 }
 
 + (_Bool);
@@ -28,21 +22,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)"tid5"b1"tid6"b1"tid7"b1};
+- (void)cpECNClientSetup;
 - (void);
-- (void);
-- (id);
-- (id)equest:(id)arg1;
-- (void)inationRequest;
+- (id);
+- (id)initWithRecurringPaymentRequest:(id)arg1;
+- (void)remoteTerminationRequest;
 
 // Remaining properties
-@property(retain, nonatomic) PKImage *frontFaceImage; // @synthesize frontFaceImage=_frontFaceImage;
-@property(retain, nonatomic) NSURL *frontFaceImageURL; // @synthesize frontFaceImageURL=_frontFaceImageURL;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) unsigned long long maximumEstimatedShippingTime; // @synthesize maximumEstimatedShippingTime=_maximumEstimatedShippingTime;
-@property(readonly, nonatomic) unsigned long long minimumEstimatedShippingTime; // @synthesize minimumEstimatedShippingTime=_minimumEstimatedShippingTime;
-@property(readonly, nonatomic) _Bool optionUnavailable; // @synthesize optionUnavailable=_optionUnavailable;
-@property(readonly, nonatomic) long long shippingTimeUnit; // @synthesize shippingTimeUnit=_shippingTimeUnit;
 
 @end
 

@@ -13,8 +13,8 @@
 }
 
 + (id);
-- (void);
-- (id);
+- (void);
+- (id)';
 
 // Remaining properties
 @property(retain, nonatomic) NSOrderedSet *submeshes; // @dynamic submeshes;

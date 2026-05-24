@@ -9,7 +9,6 @@
 @interface SiriOntology.UsoEntityBuilder : SiriOntology.UsoBuilder
 {
     id valueTypeString;
-    id attributesMap;
 }
 
 @end

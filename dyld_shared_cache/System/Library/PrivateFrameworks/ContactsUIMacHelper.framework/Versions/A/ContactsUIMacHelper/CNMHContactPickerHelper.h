@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNMHContactPickerRemoteViewController, NSArray, NSPopover, NSString, NSWindow;
-@protocol CNMHContactPickerHelperDelegate;
+@class NSArray;
 
 @interface CNMHContactPickerHelper
 {
     _Bool _unscaledMode;
-    id <CNMHContactPickerHelperDelegate> _delegate;
-    NSArray *_displayedKeys;
-    NSWindow *_presentingWindow;
-    CNMHContactPickerRemoteViewController *_remoteVC;
-    NSWindow *_panelWindow;
-    NSPopover *_popover;
 }
 
 - (_Bool);
@@ -29,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (void);
@@ -42,7 +35,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
@@ -51,20 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNMHContactPickerHelperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(copy) NSArray *displayedKeys; // @synthesize displayedKeys=_displayedKeys;
-@property(readonly) unsigned long long hash;
-@property __weak NSWindow *panelWindow; // @synthesize panelWindow=_panelWindow;
-@property(retain) NSPopover *popover; // @synthesize popover=_popover;
-@property __weak NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(retain) CNMHContactPickerRemoteViewController *remoteVC; // @synthesize remoteVC=_remoteVC;
-@property(readonly) Class superclass;
-@property _Bool unscaledMode; // @synthesize unscaledMode=_unscaledMode;
 
 @end
 

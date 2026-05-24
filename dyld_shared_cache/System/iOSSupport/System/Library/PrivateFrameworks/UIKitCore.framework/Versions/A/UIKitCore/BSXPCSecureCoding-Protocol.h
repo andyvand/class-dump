@@ -7,6 +7,6 @@
 @protocol BSXPCSecureCoding
 + (_Bool)shotting a window (%p, %@) requires it to be in a foreground scene.;
 - (id);
-- (void)izeFactor;
+- (void)_rivenSizeFactor;
 @end
 

@@ -4,71 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-@protocol SKPaymentQueueClientDelegate;
-
 @interface SKPaymentQueueClient
 {
     _Bool allowsBootstrapCellularData;
-    void bundleIdentifier;
-    void bundleVersion;
-    void delegate;
-    long long environmentType;
-    _Bool hidesConfirmationDialogs;
-    _Bool ignoresInAppPurchaseRestriction;
-    void productsRequestBundleIdentifier;
-    void receiptDirectoryPath;
-    _Bool requiresAuthenticationForPayment;
-    NSNumber *storeExternalVersion;
-    NSNumber *storeItemIdentifier;
-    void vendorIdentifier;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)";
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)R;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)ssful_query, engram_id, server_change_token, ck_sync_state, original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat WHERE ROWID = (SELECT chat_id from chat_message_join WHERE message_id = ?);
+- (id)doesHypothesisSatisfyMinimumAllowableTravelTime:minimumAllowableTravelTime: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)bootstrapRemoteViewServiceWithSurrogateID:withAuthenticationContext:attachToWindow:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsBootstrapCellularData; // @synthesize allowsBootstrapCellularData;
-@property(nonatomic, copy) NSString *bundleIdentifier;
-@property(nonatomic, copy) NSString *bundleVersion;
-@property(nonatomic) __weak id <SKPaymentQueueClientDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) long long environmentType; // @synthesize environmentType;
-@property(nonatomic) _Bool hidesConfirmationDialogs; // @synthesize hidesConfirmationDialogs;
-@property(nonatomic) _Bool ignoresInAppPurchaseRestriction; // @synthesize ignoresInAppPurchaseRestriction;
-@property(nonatomic, copy) NSString *productsRequestBundleIdentifier;
-@property(nonatomic, copy) NSString *receiptDirectoryPath;
-@property(nonatomic) _Bool requiresAuthenticationForPayment; // @synthesize requiresAuthenticationForPayment;
-@property(nonatomic, retain) NSNumber *storeExternalVersion; // @synthesize storeExternalVersion;
-@property(nonatomic, retain) NSNumber *storeItemIdentifier; // @synthesize storeItemIdentifier;
-@property(nonatomic, copy) NSString *vendorIdentifier;
 
 @end
 

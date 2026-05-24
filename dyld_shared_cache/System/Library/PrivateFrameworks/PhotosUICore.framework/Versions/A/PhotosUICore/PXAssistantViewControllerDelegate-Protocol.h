@@ -5,5 +5,6 @@
 //
 
 @protocol PXAssistantViewControllerDelegate
+- (void);
 @end
 

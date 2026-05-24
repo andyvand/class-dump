@@ -7,23 +7,6 @@
 @interface NewsUI2.FollowingModifierFactory
 {
     id featureAvailability;
-    id tagService;
-    id tagRanker;
-    id shortcutService;
-    id subscriptionService;
-    id appConfigurationManager;
-    id followingBadgingCoordinator;
-    id magazinesBadgingCoordinator;
-    id puzzleBadgingCoordinator;
-    id notificationConfiguration;
-    id suggestionStatusProvider;
-    id purchaseController;
-    id bundleSubscriptionManager;
-    id familySharingStatusManager;
-    id engagementInlineViewManager;
-    id contentAvailabilityValidator;
-    id contentShortcutsStorageManager;
-    id userInfo;
 }
 
 @end

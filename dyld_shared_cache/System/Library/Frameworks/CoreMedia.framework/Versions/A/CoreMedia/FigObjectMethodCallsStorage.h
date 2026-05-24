@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface FigObjectMethodCallsStorage
 {
     NSMutableDictionary *_objectMethodCalls;
-    NSObject<OS_dispatch_queue> *_objectMethodCallsUpdateQueue;
 }
 
 + (void);
 + (void);
 + (id);
+- (void)#;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)inputMaximumDistance;
 - (id);
 
 @end

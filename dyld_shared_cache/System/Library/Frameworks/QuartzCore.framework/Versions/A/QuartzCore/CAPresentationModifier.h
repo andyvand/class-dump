@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAPresentationModifierGroup, NSString;
+@class NSString;
 
 @interface CAPresentationModifier
 {
     void *_impl;
-    id _keyPath;
-    id _value;
-    id _velocity;
-    CAPresentationModifierGroup *_group;
-    unsigned long long _value_count;
-    int _l;
-    unsigned int _f;
 }
 
 
 // Remaining properties
-@property(readonly) _Bool additive;
-@property(getter=isEnabled) _Bool enabled;
-@property(readonly) CAPresentationModifierGroup *group;
 @property(readonly, copy) NSString *keyPath;
-@property(retain) id value;
 @end
 

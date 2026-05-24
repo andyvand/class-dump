@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface AOSUICircularImageView
 {
     double _borderWidth;
-    NSColor *_borderColor;
 }
 
 - (void);
-- (void);
+- (void)P;
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *borderColor; // @synthesize borderColor=_borderColor;
 @property(nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;
 
 @end

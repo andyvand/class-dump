@@ -7,7 +7,6 @@
 #import <WebKitLegacy/DOMObject.h>
 
 @class DOMNode;
-@protocol DOMNodeFilter;
 
 @interface DOMTreeWalker : DOMObject
 {
@@ -18,22 +17,18 @@
 - (id);
 - (void);
 - (id);
+- (id)(8ijh8	;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)timestamp:%{public}@ (client:%{public}@, domain:%{public}@) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain) DOMNode *currentNode;
-@property(readonly) _Bool expandEntityReferences;
-@property(readonly) id <DOMNodeFilter> filter;
 @property(readonly) DOMNode *root;
-@property(readonly) unsigned int whatToShow;
 
 @end
 

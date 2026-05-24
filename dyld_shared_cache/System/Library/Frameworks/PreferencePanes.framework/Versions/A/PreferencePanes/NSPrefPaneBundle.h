@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSDictionary, NSImage, NSMutableArray, NSMutableDictionary, NSPreferencePane, NSString;
+@class NSString;
 
 @interface NSPrefPaneBundle
 {
     NSString *_path;
-    NSString *_iconLabel;
-    NSString *_shortName;
-    NSString *_longName;
-    NSString *_description;
-    NSString *_identifier;
-    NSString *_hardwareTestTool;
-    NSString *_ioServiceToMatch;
-    NSDictionary *_ioServiceAttributesToMatch;
-    NSString *_searchGroupsPath;
-    NSString *_bestLocale;
-    NSArray *_localizations;
-    NSString *_shortVersion;
-    NSArray *_urlSchemes;
-    NSMutableDictionary *_localizedNames;
-    NSMutableDictionary *_localizedIconLabels;
-    NSString *_remoteViewClass;
-    NSPreferencePane *_prefPaneObject;
-    NSImage *_icon;
-    NSString *_iconName;
-    _Bool _iconNameUsesAssetCatalog;
-    NSImage *_largeIcon;
-    NSBundle *_bundle;
-    _Bool _enabled;
-    _Bool _visible;
-    _Bool _overrideVisible;
-    _Bool _favorite;
-    _Bool _devVersion;
-    unsigned long long _nameIconVariant;
-    NSMutableArray *_searchAnchors;
 }
 
 + (_Bool);
@@ -71,53 +42,62 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
+- (_Bool)Animation == numberOfDrivingTargets;
+- (void);
+- (id)+yo{6+G;
+- (id);
+- (id);
+- (id)mljYXRpb24gQXV0aG9yaXR5MRgwFgYDVQQDEw9BcHBsZSBTZXJ2ZXIg
+Q0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDMOJGl91Yw/1QSCis/
+W5IlhmKKiff2H1iwKcVSTH5/hoaegyHkt98HVVMaXk9ijCyGF4NDCoSzt4BKylXD
+gVWrF3Aq5pAi8TFMh6uSUqbSJoWoKvZMzvRd6kFmsYD8X2sX/U22VLN4a81adx05
+xx4WkeCJAu1z2LZiK/o/Mqlj2NcwFsl5ruDk/OT6L/pwvZuMhHzfmm/YltimFK4m
+wxcp8coq1/H5XTAJJRm1VDhrrsCAaFl4EbGRxPZD2TSOkM0WPxYfwO8YD2gBQ2bJ
+gRv7Sb2LCLjqE23OMySCtlQfTjNB6kTK9eLVpL/JPZ7y7NjnTrxK7oxhc5T/TL8k
+hLS1AgMBAAGjggFGMIIBQjASBgNVHRMBAf8ECDAGAQH/AgEAMFUGA1UdHwROMEww
+SqBIoEaGRGh0dHA6Ly9wa2ktY3JsLnN5bWF1dGguY29tL29mZmxpbmVjYS9BcHBs
+ZUluY0FwcGxlUHJvZmlsZVJvb3RDQTEuY3JsMA4GA1UdDwEB/wQEAwIBBjBFBgNV
+HSAEPjA8MA0GCyqGSIb3Y2QFCgEBMA0GCyqGSIb3Y2QFCgECMA0GCyqGSIb3Y2QF
+CgEDMA0GCyqGSIb3Y2QFCgICMCkGA1UdEQQiMCCkHjAcMRowGAYDVQQDExFTeW1h
+bnRlY1BLSS0xLTY2MzAdBgNVHQ4EFgQUM1z9r1lM8m65uEkLLD1FnXVkhDQwHwYD
+VR0jBBgwFoAU5siNoTxGP/T1eWrzRlbLpvh4BWowEwYJKoZIhvdjZAYUAQH/BAMC
+AQAwDQYJKoZIhvcNAQELBQADggEBAKGzt1Q+DtdeUjwFWqKC8dEQ8OSuug03R2ha
+ITWT4Y4mri0ZQI4wdo1/Xo+A8noFM+C6jRDW4rbR4TF9TMTJZrEt6bWWjjGOMli2
+2mp1YjjW4YwAUo7CVE2iU4PM7/mwxrU+F1tD/JVcTWvl+VWMnNSoUYFClrszRsAu
+P5x1P4be5lSsc+2ydHdCb9+FgndhB0FteAfQx5Eqb7mpBLxvHQvfGPRdWKr+dj7g
+NM+jc943/+cIgyE98myroXFt2Wln0vbMlZ9KVYGjLE3wA4H5NivPhL3c6/rVLM/+
+5UPbA0S9xd3OdUO8WV8yeclppJD2wHZkH3f6asT0Q0E3/WTuFng=
+-----END CERTIFICATE-----
+;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id)@GC scan found a nonzero external reference count for reference-managed directory:(id)arg1 %{public}@;
 - (void);
-- (void);
+- (id)4;
 - (id);
+- (id)(;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (id);
+- (id)initializedFromNVRAMState;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool allowsXAppleSystemPreferencesURLScheme; // @dynamic allowsXAppleSystemPreferencesURLScheme;
-@property(getter=isDevVersion) _Bool devVersion; // @synthesize devVersion=_devVersion;
-@property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property _Bool favorite; // @synthesize favorite=_favorite;
-@property(readonly) _Bool hasRemoteView; // @dynamic hasRemoteView;
-@property unsigned long long nameIconVariant; // @synthesize nameIconVariant=_nameIconVariant;
-@property _Bool overrideVisible; // @synthesize overrideVisible=_overrideVisible;
-@property(readonly) NSString *path; // @synthesize path=_path;
-@property(readonly) NSPreferencePane *prefPaneObject; // @synthesize prefPaneObject=_prefPaneObject;
-@property(readonly) NSString *remoteViewClass;
-@property(readonly) _Bool shouldAlwaysAllowOpenDocument; // @dynamic shouldAlwaysAllowOpenDocument;
-@property(readonly) _Bool supportsAutoLayout; // @dynamic supportsAutoLayout;
-@property(getter=isVisible) _Bool visible; // @dynamic visible;
 
 @end
 

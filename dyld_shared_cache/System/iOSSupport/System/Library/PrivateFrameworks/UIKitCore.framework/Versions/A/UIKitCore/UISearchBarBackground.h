@@ -6,26 +6,19 @@
 
 #import <UIKitCore/_UIBarBackgroundImageView.h>
 
-@class NSMutableDictionary, NSString, UIColor, UIImage;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface UISearchBarBackground : _UIBarBackgroundImageView
 {
     UIColor *_barTintColor;
-    NSMutableDictionary *_customBackgroundImages;
-    long long _barPosition;
-    unsigned long long _searchBarStyle;
-    long long _barStyle;
-    long long _barTranslucence;
-    _Bool _usesEmbeddedAppearance;
-    _Bool _usesContiguousBarBackground;
 }
 
 - (id);
-- (id);
+- (id)setCurrentListOfViews:(long long)arg1;
+- (void)stop_name_resolution;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)hasProperNetworkConditionsToShowCloudMediaDidChangeNotification: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)!Ø@ùñY°1Â0@ù
 × ;
@@ -33,11 +26,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (void);
 - (id)× ;
-- (long long)nteractionLocation;
-- (void)ntentSizeCategory:(unsigned long long)arg1;
-- (void)ivityTrackingIfNeededForReason:(struct CGRect)arg1;
-- (_Bool)ialPresentationViewController;
-- (unsigned long long):animated:fence:withReplyHandler: /* Error: Ran out of types for this method. */;
+- (long long)interactionLocation;
+- (void)_preferredFontForTextStyle:(unsigned long long)arg1 maximumContentSizeCategory: /* Error: Ran out of types for this method. */;
+- (void)_endActivityTrackingIfNeededForReason:(struct CGRect)arg1;
+- (_Bool)_allowsSourceViewInDifferentWindowThanInitialPresentationViewController;
+- (unsigned long long)__viewServicePopoverDidChangeContentSize:animated:fence:withReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)sitMaskViews;
 - (id)erInfo;
@@ -46,28 +39,14 @@ __attribute__((visibility("hidden")))
 - (_Bool)ed by the UITableViewDelegate, not the UITableViewDataSource. This error will cause undefined behavior. Please move the implementation of this method to the delegate of this table view, instead of the data source:%@ /* Error: Ran out of types for this method. */;
 - (void)matching -beginIgnoringInteractionEvents. Ignoring.;
 - (id)atBeginningOfMenu:must only be sent to the main menu /* Error: Ran out of types for this method. */;
-- (void)s;
-- (id)eters;
+- (void)imageBytesDeltaUnits;
+- (id)Parameters;
 - (void)®%;
 - (void)ÚþÇ¦ÓÄc;
 - (void)èªjþr:ÒPj /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIImage *backgroundImage;
-@property(readonly, nonatomic) UIImage *backgroundImagePrompt;
 @property(nonatomic) long long barStyle;
-@property(retain, nonatomic) UIColor *barTintColor; // @synthesize barTintColor=_barTintColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long searchBarStyle;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isTranslucent) _Bool translucent;
-@property(nonatomic) _Bool usesContiguousBarBackground;
-@property(nonatomic) _Bool usesEmbeddedAppearance;
 
 @end
 

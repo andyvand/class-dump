@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)sync anchor we need for additional features;
 
 @end
 

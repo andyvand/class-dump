@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEntity, NSString;
+@class CKEntity;
 
 __attribute__((visibility("hidden")))
 @interface CKPinnedConversationContactItemFromHandle
 {
     CKEntity *_entity;
-    double _contentScale;
-    long long _contactItemAlignment;
 }
 
-- (void);
-- (id);
+- (void)_buttonIdentifiersToTouchBarItems;
+- (id)i;
 - (long long);
 - (id);
 - (id);
 - (void);
 - (double);
-- (void)ropGroupName;
+- (void)tapbackBackdropGroupName;
 - (id)¤ZÄZyZy£ZGGGG;
-- (id)age;
+- (id)PFPosterMediaURLImage;
 - (void)$;
 
 // Remaining properties
-@property(nonatomic) long long contactItemAlignment; // @synthesize contactItemAlignment=_contactItemAlignment;
-@property(readonly, nonatomic) NSString *contactItemIdentifier;
-@property(nonatomic) double contentScale; // @synthesize contentScale=_contentScale;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CKEntity *entity; // @synthesize entity=_entity;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

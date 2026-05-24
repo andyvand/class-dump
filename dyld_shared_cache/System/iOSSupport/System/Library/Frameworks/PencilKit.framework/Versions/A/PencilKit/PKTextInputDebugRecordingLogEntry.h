@@ -6,12 +6,11 @@
 
 #import <PencilKit/PKTextInputDebugLogEntry.h>
 
-@class CHTextInputQueryItem, PKDrawing;
+@class CHTextInputQueryItem;
 
 @interface PKTextInputDebugRecordingLogEntry : PKTextInputDebugLogEntry
 {
     CHTextInputQueryItem *__resultQueryItem;
-    PKDrawing *__originalDrawing;
 }
 
 + (id);
@@ -28,7 +27,6 @@
 - (void)T@"PKTiledViewAnimationController",R,N,V_refineAnimationController;
 
 // Remaining properties
-@property(retain, nonatomic) PKDrawing *_originalDrawing; // @synthesize _originalDrawing=__originalDrawing;
 @property(retain, nonatomic) CHTextInputQueryItem *_resultQueryItem; // @synthesize _resultQueryItem=__resultQueryItem;
 
 @end

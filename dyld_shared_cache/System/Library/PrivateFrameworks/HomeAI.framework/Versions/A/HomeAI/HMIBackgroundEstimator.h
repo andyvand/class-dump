@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIVideoAnalyzerConfiguration, NSMutableArray, NSMutableDictionary, NSString;
+@class HMIVideoAnalyzerConfiguration;
 
 @interface HMIBackgroundEstimator
 {
     _Bool _adjustBrightness;
-    HMIVideoAnalyzerConfiguration *_configuration;
-    NSMutableDictionary *_tracks;
-    NSMutableDictionary *_inactiveTracks;
-    unsigned long long _minSampleSize;
-    unsigned short *_assignment;
-    float *_runningMean;
-    float *_runningStd;
-    unsigned long long _numImages;
-    unsigned long long _numTracks;
-    NSMutableArray *_motionDetections;
-    NSMutableArray *_motionTimeStamps;
-    struct CGSize _imageSize;
-    struct CGSize _modelSize;
-    CDStruct_1b6d18a9 _backgroundExpireInterval;
-    CDStruct_1b6d18a9 _backgroundChangeInterval;
-    CDStruct_1b6d18a9 _backgroundChangeResetInterval;
-    CDStruct_1b6d18a9 _foregroundTimeStamp;
-    CDStruct_1b6d18a9 _backgroundTimeStamp;
-    CDStruct_1b6d18a9 _backgroundChangeTimeStamp;
-    CDStruct_1b6d18a9 _motionValidInterval;
 }
 
 + (id);
@@ -37,19 +17,19 @@
 - (id);
 - (id);
 - (void);
+- (void)T0;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (float *);
 - (float *);
 - (unsigned long long);
-- (CDStruct_1b6d18a9);
-- (id);
-- (id);
+- (CDStruct_1b6d18a9)R;
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -60,7 +40,7 @@
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
-- (void);
+- (void)?%@q!;
 - (void);
 - (id);
 - (_Bool);
@@ -69,12 +49,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (_Bool);
 - (float);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -82,7 +62,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned short *);
@@ -92,42 +72,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (struct CGSize);
-- (void);
+- (id)ction_rtn)
+;
+- (struct CGSize)!;
+- (void){private}@;
 - (void);
 - (id)hould not include any attributes;
 
 // Remaining properties
-@property _Bool adjustBrightness; // @synthesize adjustBrightness=_adjustBrightness;
-@property unsigned short *assignment; // @synthesize assignment=_assignment;
-@property(readonly) CDStruct_1b6d18a9 backgroundChangeInterval; // @synthesize backgroundChangeInterval=_backgroundChangeInterval;
-@property(readonly) CDStruct_1b6d18a9 backgroundChangeResetInterval; // @synthesize backgroundChangeResetInterval=_backgroundChangeResetInterval;
-@property CDStruct_1b6d18a9 backgroundChangeTimeStamp; // @synthesize backgroundChangeTimeStamp=_backgroundChangeTimeStamp;
-@property(readonly) CDStruct_1b6d18a9 backgroundExpireInterval; // @synthesize backgroundExpireInterval=_backgroundExpireInterval;
-@property CDStruct_1b6d18a9 backgroundTimeStamp; // @synthesize backgroundTimeStamp=_backgroundTimeStamp;
 @property(readonly) HMIVideoAnalyzerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property CDStruct_1b6d18a9 foregroundTimeStamp; // @synthesize foregroundTimeStamp=_foregroundTimeStamp;
-@property(readonly) _Bool hasNewBackground;
-@property(readonly) unsigned long long hash;
-@property struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property(readonly) NSMutableDictionary *inactiveTracks; // @synthesize inactiveTracks=_inactiveTracks;
-@property(readonly) unsigned long long minSampleSize; // @synthesize minSampleSize=_minSampleSize;
-@property struct CGSize modelSize; // @synthesize modelSize=_modelSize;
-@property(readonly) NSMutableArray *motionDetections; // @synthesize motionDetections=_motionDetections;
-@property(readonly) NSMutableArray *motionTimeStamps; // @synthesize motionTimeStamps=_motionTimeStamps;
-@property(readonly) CDStruct_1b6d18a9 motionValidInterval; // @synthesize motionValidInterval=_motionValidInterval;
-@property unsigned long long numImages; // @synthesize numImages=_numImages;
-@property unsigned long long numTracks; // @synthesize numTracks=_numTracks;
-@property float *runningMean; // @synthesize runningMean=_runningMean;
-@property float *runningStd; // @synthesize runningStd=_runningStd;
-@property(readonly) Class superclass;
-@property(readonly) NSMutableDictionary *tracks; // @synthesize tracks=_tracks;
 
 @end
 

@@ -6,19 +6,19 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSSet, NSString, PGGraphFeatureNodeCollection, PGGraphHomeWorkNodeCollection, PGGraphMomentNodeCollection, PGGraphPersonRelationshipTagNodeCollection, PGGraphRelationshipEdgeCollection, PGGraphRelationshipTagEdgeCollection, PGGraphSocialGroupMemberNodeCollection, PGGraphSocialGroupNodeCollection, PGGraphStorytellingRelationshipEdgeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGGraphPersonNodeCollection : PGGraphNodeCollection
 {
 }
 
++ (id)accessibilityChildrenInNavigationOrder;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -38,46 +38,46 @@
 - (id);
 - (id);
 - (id);
+- (id)t"16;
+- (id)NSObservable><NSObserver>";
+- (id)SArray"24;
+- (id)set_roleDescriptionToInclude: /* Error: Ran out of types for this method. */;
+- (id)setDeletionCandidateText: /* Error: Ran out of types for this method. */;
+- (id)performSelector: /* Error: Ran out of types for this method. */;
+- (id)offsetFromPosition: /* Error: Ran out of types for this method. */;
+- (id)numberOfCharacters;
+- (id)alphanumericCharacterSet;
+- (id)_windowResizedNotification: /* Error: Ran out of types for this method. */;
+- (id)ystem/Library/PrivateFrameworks/AccessibilitySharedSupport.framework/Contents/MacOS/AccessibilitySharedSupport;
+- (id)q;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)OR;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (id)h;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
@@ -89,65 +89,7 @@
 - (id)¤dó;
 
 // Remaining properties
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *acquaintancePersonNodes;
-@property(readonly, nonatomic) NSSet *anniversaries;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *anniversaryMomentNodes;
-@property(readonly, nonatomic) PGGraphSocialGroupMemberNodeCollection *asSocialGroupMemberNodeCollection;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *authoredMomentNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *birthdayMomentNodes;
-@property(readonly, nonatomic) NSSet *birthdays;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *brotherPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *childPersonNodes;
-@property(readonly, nonatomic) NSSet *contactIdentifiers;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *coworkerPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *daughterPersonNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *familyPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *fatherPersonNodes;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *friendPersonNodes;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PGGraphHomeWorkNodeCollection *homeNodes;
-@property(readonly, nonatomic) PGGraphHomeWorkNodeCollection *homeOrWorkNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredAcquaintancePersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredBrotherPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredChildPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredCoworkerPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredDaughterPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredFamilyPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredFatherPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredFriendPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredMotherPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredParentPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredPartnerPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredSisterPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *inferredSonPersonNodes;
-@property(readonly, nonatomic) NSSet *localIdentifiers;
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodesWithPresence;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *motherPersonNodes;
-@property(readonly, nonatomic) NSSet *names;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *parentPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *partnerPersonNodes;
-@property(readonly, nonatomic) NSSet *potentialBirthdays;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *relatedPersonNodes;
-@property(readonly, nonatomic) PGGraphRelationshipEdgeCollection *relationshipEdges;
-@property(readonly, nonatomic) PGGraphRelationshipEdgeCollection *relationshipInEdges;
-@property(readonly, nonatomic) PGGraphRelationshipEdgeCollection *relationshipOutEdges;
-@property(readonly, nonatomic) PGGraphRelationshipTagEdgeCollection *relationshipTagEdges;
-@property(readonly, nonatomic) PGGraphPersonRelationshipTagNodeCollection *relationshipTagNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *sisterPersonNodes;
-@property(readonly, nonatomic) PGGraphSocialGroupNodeCollection *socialGroupNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *sonPersonNodes;
-@property(readonly, nonatomic) PGGraphStorytellingRelationshipEdgeCollection *storytellingRelationshipEdges;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *subsetExcludingMe;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSSet *uuids;
-@property(readonly, nonatomic) PGGraphHomeWorkNodeCollection *workNodes;
 
 @end
 

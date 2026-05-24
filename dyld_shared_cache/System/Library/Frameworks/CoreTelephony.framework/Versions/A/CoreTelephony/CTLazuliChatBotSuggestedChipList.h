@@ -11,12 +11,12 @@
     NSArray *_list;
 }
 
-+ (_Bool);
++ (_Bool)ment:%d mediaType:%@ segmentDuration:%f mediaResourceRequestEvent:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);

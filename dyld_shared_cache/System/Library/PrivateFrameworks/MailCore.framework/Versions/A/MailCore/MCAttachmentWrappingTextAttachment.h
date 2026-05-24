@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(retain) MCFileWrapper *fileWrapper;
-@property(readonly, nonatomic) MCAttachment *messageAttachment; // @synthesize messageAttachment=_messageAttachment;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ASRSchemaASRTokenTier1 : SISchemaInstrumentationMessage
 {
     NSString *_text;
-    NSString *_phoneSequence;
-    NSString *_ipaPhoneSequence;
-    _Bool _hasText;
-    _Bool _hasPhoneSequence;
-    _Bool _hasIpaPhoneSequence;
 }
 
 - (void);
@@ -25,13 +20,13 @@
 - (void);
 - (void);
 - (void);
+- (void)valid privacy bundle information to server.;
+- (void)on to server.;
+- (id)cessfully changed web access status to:%@ /* Error: Ran out of types for this method. */;
+- (id)%@;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)tem/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -39,7 +34,7 @@
 - (_Bool);
 - (id);
 - (id)validationsMobileAssetVersion;
-- (void)entSignals;
+- (void)_inferenceMusicTrainingIndependentSignals;
 - (id)	
 ;
 - (id);
@@ -47,12 +42,6 @@
 - (void)¬î«ÿ³9¼&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIpaPhoneSequence; // @synthesize hasIpaPhoneSequence=_hasIpaPhoneSequence;
-@property(nonatomic) _Bool hasPhoneSequence; // @synthesize hasPhoneSequence=_hasPhoneSequence;
-@property(nonatomic) _Bool hasText; // @synthesize hasText=_hasText;
-@property(copy, nonatomic) NSString *ipaPhoneSequence; // @synthesize ipaPhoneSequence=_ipaPhoneSequence;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *phoneSequence; // @synthesize phoneSequence=_phoneSequence;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

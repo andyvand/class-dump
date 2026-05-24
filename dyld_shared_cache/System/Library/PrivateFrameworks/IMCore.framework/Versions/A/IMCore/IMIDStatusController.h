@@ -9,28 +9,26 @@
 @interface IMIDStatusController
 {
     NSRecursiveLock *_servicesLock;
-    NSMutableSet *_servicesRegistered;
 }
 
 + (id)¤m;
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (long long);
+- (long long)eamGroup=%@, supportsDedicatedSystemAudioStream=%d;
+- (void)already started;
+- (void)[%s] %s:(id)arg1 %d %@(%p) Participant already started;
+- (void)(%f x %f)  not supported. Defaulting to 2048x1536;
+- (void)ondary Screen rules;
+- (long long)ransactionID='%@', messageType='%d';
+- (id)ation-init (%p);
+- (id)diaRecorderRequestConfiguration-init (%p);
+- (void)s] %s:(id)arg1 %d destinationIPPort is NULL for socket %d with getpeername errno %d;
+- (void)rate:(id)arg1 = %d;
+- (long long)%s:(id)arg1 %d %@(%p) Querying token=%ld for tapType=%u, mappedNumber=%@;
+- (long long)for tapType=%u, mappedNumber=%@;
+- (long long)rting Switch _oneToOneModeEnabled=%d to oneToOneEnabled=%d isLocal=%d;
 - (id);
 - (void)p&'L';
 
 // Remaining properties
-@property(retain, nonatomic) NSRecursiveLock *_servicesLock; // @synthesize _servicesLock;
 @property(retain, nonatomic) NSMutableSet *_servicesRegistered; // @synthesize _servicesRegistered;
 
 @end

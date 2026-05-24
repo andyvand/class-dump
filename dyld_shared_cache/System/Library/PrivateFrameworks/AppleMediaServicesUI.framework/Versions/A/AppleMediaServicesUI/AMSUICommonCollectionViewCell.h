@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUICommonView, NSColor;
+@class AMSUICommonView;
 
 @interface AMSUICommonCollectionViewCell
 {
@@ -12,8 +12,8 @@
 
 - (struct CGSize);
 - (void);
-- (id);
-- (id);
+- (id)+;
+- (id)Domain"16^B24;
 - (id);
 - (void);
 - (void);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(readonly) AMSUICommonView *contentView;
-@property(retain) NSColor *tintColor;
 
 @end
 

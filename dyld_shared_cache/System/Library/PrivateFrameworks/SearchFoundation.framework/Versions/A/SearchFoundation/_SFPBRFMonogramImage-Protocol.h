@@ -7,10 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBRFMonogramImage
+- (int);
+- (NSData *)_mutableAssetsObjectIDsAndUUIDs;
 
 // Remaining properties
-@property(nonatomic) int image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *letters;
 @end
 

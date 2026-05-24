@@ -6,14 +6,12 @@
 
 #import <Safari/LibraryItem.h>
 
-@class NSString, WBTab;
+@class WBTab;
 
 __attribute__((visibility("hidden")))
 @interface LibraryItemVerticalTab : LibraryItem
 {
     _Bool _pinned;
-    WBTab *_tab;
-    NSString *_windowUUID;
 }
 
 - (id);
@@ -27,20 +25,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (_Bool)essage;
+- (_Bool)audioCaptureStartedInBackgroundTabInCurrentWindowVoiceOverMessage;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isPinned) _Bool pinned; // @synthesize pinned=_pinned;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) WBTab *tab; // @synthesize tab=_tab;
-@property(readonly, nonatomic) NSString *windowUUID; // @synthesize windowUUID=_windowUUID;
 
 @end
 

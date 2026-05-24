@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSKeyedUnarchiverWrapper
 {
     struct OpaqueHIArchiveRef *archive;
-    int err;
 }
 
 @end

@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)ack;
++ (id)_myriadPreventingTwoShotFeedback;
 - (void);
 - (void);
 - (id);

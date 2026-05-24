@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface KCJoiningMessage
 {
     int _type;
-    NSData *_firstData;
-    NSData *_secondData;
-    NSData *_der;
 }
 
 + (id);
@@ -22,7 +17,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -30,9 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSData *der; // @synthesize der=_der;
-@property(readonly) NSData *firstData; // @synthesize firstData=_firstData;
-@property(readonly) NSData *secondData; // @synthesize secondData=_secondData;
 @property(readonly) int type; // @synthesize type=_type;
 
 @end

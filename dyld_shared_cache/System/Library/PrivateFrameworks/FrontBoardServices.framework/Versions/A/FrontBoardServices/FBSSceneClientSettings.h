@@ -13,9 +13,9 @@
 + (Class);
 + (Class);
 + (Class);
++ (id)h;
 + (id);
-+ (id);
-+ (Class);
++ (Class);
 + (Class);
 + (Class);
 

@@ -5,6 +5,7 @@
 //
 
 @protocol _UIInterfaceOrientationLockHost
+- (void)X;
 
 // Remaining properties
 @property(nonatomic) long long interfaceOrientationLockState;

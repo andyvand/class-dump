@@ -9,9 +9,6 @@
 @interface PKPassLegalAgreement
 {
     _Bool _agreementUpdated;
-    _Bool _removePassOnDecline;
-    NSString *_identifier;
-    unsigned long long _type;
 }
 
 + (_Bool)X"°!8Aùî%1Â0@ù
@@ -20,23 +17,20 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)1@9;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (void)HighRxFCSErrs_false;
 - (void);
 - (void);
-- (void);
-- (id);
-- (id)tAccountWithAltDSID:(id)arg1;
-- (void)mentAuthorizationStatusTryAgain;
+- (id);
+- (id)authKitAccountWithAltDSID:(id)arg1;
+- (void)PKPaymentAuthorizationStatusTryAgain;
 
 // Remaining properties
-@property(nonatomic) _Bool agreementUpdated; // @synthesize agreementUpdated=_agreementUpdated;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool removePassOnDecline; // @synthesize removePassOnDecline=_removePassOnDecline;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

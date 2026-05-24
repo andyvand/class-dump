@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NLPOIEntryImpl
 {
     NSString *_category;
-    NSString *_domain;
-    NSString *_name;
-    float _score;
-    struct {
-        unsigned int score:1;
-    } _has;
 }
 
 - (void);
@@ -23,18 +17,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)#;
+- (unsigned long long)U>;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)x(input, token, start, end, position);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)(migration) no suitable mapping model found
+;
+- (_Bool)ame;
 - (id);
 - (id);
 - (float);
@@ -43,14 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *category; // @synthesize category=_category;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) _Bool hasCategory;
-@property(readonly, nonatomic) _Bool hasDomain;
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasScore;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) float score; // @synthesize score=_score;
 
 @end
 

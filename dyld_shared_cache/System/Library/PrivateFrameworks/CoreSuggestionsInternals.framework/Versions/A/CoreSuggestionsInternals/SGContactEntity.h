@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)numberWithDouble:(id)arg1;
++ (id)numberOfRowsInTableView:(id)arg1;
 - (id);
 
 @end

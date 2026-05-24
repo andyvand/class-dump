@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface SCNMTLShaderBindingsGenerator
 {
     struct os_unfair_lock_s _generateLock;
-    struct {
-        int stage;
-        NSArray *arguments;
-        NSDictionary *customBlocks;
-        struct __C3DFXPass *pass;
-    } _current;
-    NSMutableDictionary *_nodeBindings;
-    NSMutableDictionary *_frameBindings;
-    NSMutableDictionary *_shadableBindings;
-    NSMutableDictionary *_passBindings;
-    NSMutableDictionary *_lightBindings;
-    CDStruct_21854d8c _sceneBuffer;
 }
 
 + (void);
@@ -33,13 +19,13 @@ __attribute__((visibility("hidden")))
 + (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id));
 
 @end
 

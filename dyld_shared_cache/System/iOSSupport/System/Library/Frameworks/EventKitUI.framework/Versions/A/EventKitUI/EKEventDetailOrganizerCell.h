@@ -6,32 +6,26 @@
 
 #import <EventKitUI/EKEventDetailCell.h>
 
-@class EKUILabeledAvatarView, NSString, UILabel;
-@protocol EKIdentityProtocol;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface EKEventDetailOrganizerCell : EKEventDetailCell
 {
     NSString *_organizerName;
-    EKUILabeledAvatarView *_organizerView;
-    UILabel *_organizerLabel;
-    UILabel *_titleView;
-    id <EKIdentityProtocol> _organizerOverride;
-    _Bool _hideDisclosureIndicator;
 }
 
 + (id);
-+ (id);
-- (_Bool);
++ (id);
+- (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)s;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void)uthenticated: /* Error: Ran out of types for this method. */;
+- (void)os_signpost.animation.hitch.per_app.non_first_frame.time.ratio.adjusted;
+- (void)setAuthenticated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool hideDisclosureIndicator; // @synthesize hideDisclosureIndicator=_hideDisclosureIndicator;

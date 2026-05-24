@@ -11,31 +11,25 @@
 @interface SFStartSearchFeedback : SFFeedback
 {
     NSString *_input;
-    NSString *_uuid;
-    unsigned long long _triggerEvent;
-    unsigned long long _searchType;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id)volumeControllerDataSource:(id)arg1 didChangeVolumeWarning: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)A;
 - (id);
 - (void);
-- (void)amMatchInAttachmentNames;
+- (void)createDirectoryAtPath:(id)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (void)vendorFeatures;
+- (id);
+- (void);
+- (void)hasCountUnigramMatchInAttachmentNames;
 - (void);
 - (unsigned long long)ßG;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property(nonatomic) unsigned long long searchType; // @synthesize searchType=_searchType;
-@property(nonatomic) unsigned long long triggerEvent; // @synthesize triggerEvent=_triggerEvent;
 @property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

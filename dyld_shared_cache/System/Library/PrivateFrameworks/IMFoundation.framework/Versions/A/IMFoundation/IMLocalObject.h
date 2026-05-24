@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSProtocolChecker, NSString;
-@protocol OS_xpc_object;
-
 @interface IMLocalObject
 {
     id _internal;
@@ -17,8 +14,8 @@
 + (id);
 + (void);
 + (id);
++ (void)!;
 + (void);
-+ (void);
 - (void);
 - (id);
 - (_Bool);
@@ -26,57 +23,49 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)c;
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
 - (id);
-- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)ۦ;
+- (void)!;
+- (void)V_failSOSForTests;
+- (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void);
+- (void)ges-completed-col;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (_Bool)I;
+- (_Bool);
+- (void)CheckConnectionAndIOFormats;
+- (void)rk;
 - (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (id)ccur;
+- (id)_didErrorOccur;
 - (void)ýÿìQ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allowlistedClasses;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *connection;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) NSString *portName;
-@property(retain, nonatomic) NSString *processName;
-@property(readonly, nonatomic) NSProtocolChecker *protocolChecker;
 @property(nonatomic) id target;
-@property(readonly, nonatomic) _Bool wasInterrupted;
-@property(retain, nonatomic) NSArray *whitelistedClasses;
 
 @end
 

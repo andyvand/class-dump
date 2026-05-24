@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene;
+@class UIScene;
 
 @interface FUApplicationSceneComponent
 {
     UIScene *_scene;
+    id _scene;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void)eneManager:(id)arg1 didCommitUpdateForScene:transactionID: /* Error: Ran out of types for this method. */;
+- (id)[;
+- (void)sceneManager:(id)arg1 didCommitUpdateForScene:transactionID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

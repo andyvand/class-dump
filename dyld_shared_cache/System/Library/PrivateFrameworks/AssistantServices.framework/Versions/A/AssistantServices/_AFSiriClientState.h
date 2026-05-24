@@ -9,9 +9,6 @@
 @interface _AFSiriClientState
 {
     NSMutableSet *_requestUUIDs;
-    _Bool _hasActiveSession;
-    _Bool _isListening;
-    _Bool _isSpeaking;
 }
 
 - (void);
@@ -19,18 +16,15 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)D	;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void)Language;
+- (void)_prevMessageLanguage;
 
 // Remaining properties
 @property(nonatomic) _Bool hasActiveSession; // @synthesize hasActiveSession=_hasActiveSession;
-@property(nonatomic) _Bool isListening; // @synthesize isListening=_isListening;
-@property(nonatomic) _Bool isSpeaking; // @synthesize isSpeaking=_isSpeaking;
-@property(readonly, nonatomic) unsigned long long notifyState;
 
 @end
 

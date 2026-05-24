@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, USOSerializedGraph;
+@class NSUUID;
 
 @interface SIRINLUUserAcknowledged
 {
     NSUUID *_systemDialogActId;
-    USOSerializedGraph *_reference;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@
 - (void)bute;
 
 // Remaining properties
-@property(retain, nonatomic) USOSerializedGraph *reference; // @synthesize reference=_reference;
 @property(retain, nonatomic) NSUUID *systemDialogActId; // @synthesize systemDialogActId=_systemDialogActId;
 
 @end

@@ -7,6 +7,8 @@
 @class UIScrollView;
 
 @protocol UITable_ForMailOnly
+- (void)saveT1UpdatesOperationFactory:(_Bool)arg1 token:batchSize:recordNameToRowIDMap:activity: /* Error: Ran out of types for this method. */;
+- (_Bool)_requestingToSendLocalNicknameInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=_manuallyManagesSwipeUI, setter=_setManuallyManagesSwipeUI:) _Bool manuallyManagesSwipeUI;

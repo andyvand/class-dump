@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ryView:forAxis: /* Error: Ran out of types for this method. */;
+- (id)setAccessoryView:forAxis: /* Error: Ran out of types for this method. */;
 
 @end
 

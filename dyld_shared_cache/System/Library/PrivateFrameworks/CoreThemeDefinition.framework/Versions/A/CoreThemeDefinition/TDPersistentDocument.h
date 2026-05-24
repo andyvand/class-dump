@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSManagedObjectModel, NSString, NSURL;
+@class NSManagedObjectModel, NSURL;
 
 @interface TDPersistentDocument
 {
     NSManagedObjectModel *_managedObjectModel;
-    NSManagedObjectContext *_managedObjectContext;
-    NSURL *_fileURL;
-    NSString *_fileType;
-    NSURL *_temporaryFileURL;
 }
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -38,8 +34,6 @@
 - (id)same name, using default values. Adjust your effect definitions accordingly.;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fileType; // @synthesize fileType=_fileType;
-@property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
 @property(copy, nonatomic) NSURL *temporaryFileURL; // @synthesize temporaryFileURL=_temporaryFileURL;
 
 @end

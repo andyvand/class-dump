@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)';
 
 // Remaining properties
 @property(retain) id <P256PublicKeyProtocol> key; // @synthesize key=_key;

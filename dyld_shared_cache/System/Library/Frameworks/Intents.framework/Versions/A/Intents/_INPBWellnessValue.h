@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDouble, _INPBInteger, _INPBValueMetadata;
+@class _INPBDouble;
 
 @interface _INPBWellnessValue
 {
     struct _has;
-    _INPBDouble *_pbDoubleValue;
-    _INPBInteger *_ordinalValue;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
@@ -23,31 +20,19 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)9T;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool)DeviceTypes: /* Error: Ran out of types for this method. */;
+- (_Bool)StringAsPayloadHomeDeviceTypes: /* Error: Ran out of types for this method. */;
 - (void)rActivity:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id)±;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasOrdinalValue;
-@property(readonly, nonatomic) _Bool hasPbDoubleValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBInteger *ordinalValue; // @synthesize ordinalValue=_ordinalValue;
 @property(retain, nonatomic) _INPBDouble *pbDoubleValue; // @synthesize pbDoubleValue=_pbDoubleValue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

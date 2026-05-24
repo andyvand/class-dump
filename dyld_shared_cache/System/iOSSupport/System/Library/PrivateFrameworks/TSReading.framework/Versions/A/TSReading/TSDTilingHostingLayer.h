@@ -11,14 +11,13 @@
 @interface TSDTilingHostingLayer : TSDNoDefaultImplicitActionLayer
 {
     NSMutableSet *mDirtyTilingLayers;
-    TSDInteractiveCanvasController *mController;
 }
 
-- (void);
+- (void)tamp:(id)arg1;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)*;
 - (void);
 - (id)Á~ð!¸Bùð1Â0@ù
 × ;

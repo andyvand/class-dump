@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCMontage, MPDocumentInternal, NSMutableDictionary;
-@protocol MPAssetKeyDelegate;
+@class MCMontage;
 
 @interface MPDocument
 {
     MCMontage *_montage;
-    NSMutableDictionary *_documentAttributes;
-    NSMutableDictionary *_fileProperties;
-    NSMutableDictionary *_layerGroups;
-    _Bool _preserveMedia;
-    id <MPAssetKeyDelegate> _assetKeyDelegate;
-    MPDocumentInternal *_internal;
 }
 
 + (id);
@@ -28,29 +21,29 @@
 + (void)ä;
 + (_Bool)(\;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct CGImage *);
+- (double)entifier:(id)arg1 catch-all) :%s %s:%d %{public}@ /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (double);
-- (double);
+- (void)alyticsEntryDeliveryWindowEarlierDate(NSDate *__strong, NSDate * _Nullable __strong, NTPBAnalyticsEnvelopeContentTypeConfig *__strong);
+- (void)icsUploadScheduler _uploadWithCompletion:] /* Error: Ran out of types for this method. */;
+- (void)ion:(id)arg1 ]_block_invoke;
+- (void)daysSinceSubmission;
+- (void)gisterEnvelopes:(id)arg1 withEventName:] /* Error: Ran out of types for this method. */;
+- (void)dspar/Frameworks/NewsDaemon/newsd/Analytics/NDAppConfigAnalyticsPayloadAssemblerConfigProvider.m;
+- (void)umber"24@?0@"NSNumber"8@"NSNumber"16;
+- (void)mber"8;
+- (void)NTPBEnvelope"16@?0@"<NDAnalyticsEnvelopeStoreEntry>"8;
+- (void)orEntries:(id)arg1 ];
+- (void)cf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeManager.m;
+- (void)nal/Library/BuildRoots/4~CNrLugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeManager.m;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)<;
 - (void);
 - (void);
 - (void);
@@ -59,9 +52,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (struct CGSize);
-- (struct CGSize);
-- (void);
+- (struct CGSize)CellularRadioAccessTechnology;
+- (struct CGSize)TelemetryEvent;
+- (void)FCEndpointEnvironment;
 - (void);
 - (void);
 - (void);
@@ -77,7 +70,7 @@
 - (id);
 - (_Bool);
 - (double);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (id);
 - (id);
@@ -90,7 +83,7 @@
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long);
 - (id);
 - (unsigned long long);
 - (id);
@@ -120,11 +113,11 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)&;
 - (id);
 - (id);
 - (void);
-- (struct CGColor *);
+- (struct CGColor *)̭r?;
 - (id);
 - (id);
 - (id);
@@ -158,7 +151,7 @@
 - (id);
 - (struct __IOSurface *);
 - (struct CGImage *);
-- (void);
+- (void)<$E;
 - (id);
 - (id);
 - (id);
@@ -167,10 +160,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (double)`;
 - (double);
-- (double);
-- (double);
+- (double);
 - (void);
 - (id);
 - (void);
@@ -179,7 +172,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (double);
+- (double)Ȑ;
 - (id);
 - (id);
 - (double);
@@ -190,11 +183,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (double)`;
 - (id);
-- (double);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)ributes.x; 
 		} 

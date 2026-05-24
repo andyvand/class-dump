@@ -11,14 +11,12 @@
 @interface RBSConditionAttribute : RBSAttribute
 {
     NSString *_condition;
-    long long _value;
 }
 
 + (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *condition; // @synthesize condition=_condition;
-@property(readonly, nonatomic) long long value; // @synthesize value=_value;
 
 @end
 

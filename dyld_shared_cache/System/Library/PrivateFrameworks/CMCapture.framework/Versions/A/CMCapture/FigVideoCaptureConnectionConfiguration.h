@@ -9,32 +9,16 @@
 @interface FigVideoCaptureConnectionConfiguration : FigCaptureConnectionConfiguration
 {
     int _outputFormat;
-    int _outputWidth;
-    int _outputHeight;
-    int _videoStabilizationMethod;
-    int _videoStabilizationType;
-    _Bool _mirroringEnabled;
-    _Bool _physicalMirroringForMovieRecordingEnabled;
-    int _rotationDegrees;
-    _Bool _deviceOrientationCorrectionEnabled;
-    _Bool _zoomSmoothingEnabled;
-    _Bool _videoGreenGhostMitigationEnabled;
-    int _retainedBufferCount;
-    _Bool _cameraIntrinsicMatrixDeliveryEnabled;
-    _Bool _livePhotoMetadataWritingEnabled;
-    _Bool _stereoVideoCaptureEnabled;
-    _Bool _attachMetadataToVideoBuffers;
-    _Bool _coreMediaFaceTrackingEnabled;
 }
 
-+ (id);
++ (id)K;
 + (_Bool);
 - (int);
 - (id);
-- (struct FigCaptureVideoTransform);
+- (struct FigCaptureVideoTransform);
 - (_Bool);
 - (id);
-- (id)MovieRecording: /* Error: Ran out of types for this method. */;
+- (id)setMomentCaptureMovieRecording: /* Error: Ran out of types for this method. */;
 - (id)G^#ÿU_(ÿ``,ÿkb/ÿuc2ÿc3ÿc5ÿc5ÿb6ÿ a5ÿ§_4ÿ­]2ÿ³Z1ÿºX.ÿÀV,ÿÇT*ÿÎS(ÿÕR'ÿÜS(ÿäU,ÿêW0ÿìX2ÿìY2ÿìZ3ÿ;
 - (_Bool)<¨.ÿ<¨.ÿ<§.ÿ<§.ÿE§.ÿN§-ÿV¨-ÿ^¨,ÿf¨+ÿo©)ÿw©(ÿ©&ÿª$ÿª!ÿª ÿ¤«ÿ¬ªÿ²¨ÿ¹¥ÿ¿£ÿÅ¡ÿË ;
 - (void)ÿ>®0ÿ?®/ÿH¯/ÿP¯.ÿW¯.ÿ_°-ÿg°,ÿp°*ÿx±)ÿ±'ÿ²$ÿ²"ÿ³ÿ£³ÿ¬³ÿµ³ÿ»°ÿÁ®ÿÇ­ÿÍ«;
@@ -54,7 +38,7 @@
 - (_Bool)EncoderNode.m:362 /* Error: Ran out of types for this method. */;
 - (int)t:metadataSynchronizerNode.inputs[inputCount++] pipelineStage:((void *)0)] /* Error: Ran out of types for this method. */;
 - (_Bool)ddNode:overscanPredictionNode error:&error] /* Error: Ran out of types for this method. */;
-- (_Bool)geSinkCaptureImage;
+- (_Bool)captureSession_IrisStillImageSinkCaptureImage;
 - (_Bool)put:depthCompressorNode.input pipelineStage:depthCompressorPipelineStage] /* Error: Ran out of types for this method. */;
 - (CDStruct_1ef3fb1f)e Governor;
 - (void)ataPipelineStage];
@@ -62,51 +46,27 @@
 - (void)put metadata allocation failed;
 - (void)etadata_ISPMotionData];
 - (void)%@ was added to the graph but has no callback.;
-- (struct FigCaptureVideoTransform)tDescription;
+- (struct FigCaptureVideoTransform)FormatDescription;
 - (void)P;
 - (_Bool)CaptureForStillImageCaptureWithSettingsID:]_block_invoke /* Error: Ran out of types for this method. */;
-- (_Bool)rrentValue;
+- (_Bool)WhiteBalanceGainsCurrentValue;
 - (void)cientsValid;
 - (_Bool)d;
 - (int)roller.m:1795 /* Error: Ran out of types for this method. */;
-- (_Bool)ureSource;
-- (void)tation;
+- (_Bool)PreferredPrimaryUnderlyingCaptureSource;
+- (void)ClientUIDeviceOrientation;
 - (void)ndation.avcapturedevice.built-in_video:(_Bool)arg1 8;
-- (_Bool)AbsTranslationY;
+- (_Bool)aveAbsTranslationY;
 - (void)numberOfBalancedPhotoCaptures;
 - (struct FigCaptureVideoTransform)tart).flags & kCMTimeFlags_Valid) != 0)) && ((Boolean)(((ptsRange.duration).flags & kCMTimeFlags_Valid) != 0)) && (ptsRange.duration.epoch == 0) && (ptsRange.duration.value >= 0)));
 - (int)izedOutputCameraTrajectory:systemIsUnderCriticalThermalPressure:faceAwareVideoStabilizationEnabled:] /* Error: Ran out of types for this method. */;
 - (void)ropRectOut:(_Bool)arg1 ];
 - (void)llImagePipelineStage];
-- (_Bool)DestructiveCropSizeWidth;
+- (_Bool)normalizedNonDestructiveCropSizeWidth;
 - (_Bool)s already connected via %@! Forbidden;
 
 // Remaining properties
-@property(nonatomic) _Bool attachMetadataToVideoBuffers; // @synthesize attachMetadataToVideoBuffers=_attachMetadataToVideoBuffers;
-@property(nonatomic) _Bool cameraIntrinsicMatrixDeliveryEnabled; // @synthesize cameraIntrinsicMatrixDeliveryEnabled=_cameraIntrinsicMatrixDeliveryEnabled;
-@property(nonatomic) _Bool coreMediaFaceTrackingEnabled; // @synthesize coreMediaFaceTrackingEnabled=_coreMediaFaceTrackingEnabled;
-@property(nonatomic) _Bool deviceOrientationCorrectionEnabled; // @synthesize deviceOrientationCorrectionEnabled=_deviceOrientationCorrectionEnabled;
-@property(readonly) _Bool irisSDOFEnabled;
-@property(readonly) _Bool irisVISEnabled;
-@property(readonly) int irisVISMethod;
-@property(nonatomic) _Bool livePhotoMetadataWritingEnabled; // @synthesize livePhotoMetadataWritingEnabled=_livePhotoMetadataWritingEnabled;
-@property(nonatomic) _Bool mirroringEnabled; // @synthesize mirroringEnabled=_mirroringEnabled;
-@property(readonly, nonatomic) CDStruct_1ef3fb1f nonRotatedOutputDimensions;
-@property(nonatomic) int outputFormat; // @synthesize outputFormat=_outputFormat;
-@property(nonatomic) int outputHeight; // @synthesize outputHeight=_outputHeight;
-@property(nonatomic) int outputWidth; // @synthesize outputWidth=_outputWidth;
-@property(nonatomic) _Bool physicalMirroringForMovieRecordingEnabled; // @synthesize physicalMirroringForMovieRecordingEnabled=_physicalMirroringForMovieRecordingEnabled;
-@property(readonly) _Bool portraitAutoSuggestEnabled;
-@property(readonly) _Bool previewDepthDataDeliveryEnabled;
 @property(readonly) _Bool previewDepthFilterRenderingEnabled;
-@property(readonly) _Bool previewFilterRenderingEnabled;
-@property(nonatomic) int retainedBufferCount; // @synthesize retainedBufferCount=_retainedBufferCount;
-@property(nonatomic) int rotationDegrees; // @synthesize rotationDegrees=_rotationDegrees;
-@property(nonatomic) _Bool stereoVideoCaptureEnabled; // @synthesize stereoVideoCaptureEnabled=_stereoVideoCaptureEnabled;
-@property(readonly) struct FigCaptureVideoTransform transform;
-@property(nonatomic) _Bool videoGreenGhostMitigationEnabled; // @synthesize videoGreenGhostMitigationEnabled=_videoGreenGhostMitigationEnabled;
-@property(nonatomic) int videoStabilizationMethod; // @synthesize videoStabilizationMethod=_videoStabilizationMethod;
-@property(nonatomic) _Bool zoomSmoothingEnabled; // @synthesize zoomSmoothingEnabled=_zoomSmoothingEnabled;
 
 @end
 

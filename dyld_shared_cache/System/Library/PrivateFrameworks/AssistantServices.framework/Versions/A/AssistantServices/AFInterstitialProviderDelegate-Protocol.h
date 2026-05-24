@@ -5,5 +5,6 @@
 //
 
 @protocol AFInterstitialProviderDelegate
+- (void)@9_;
 @end
 

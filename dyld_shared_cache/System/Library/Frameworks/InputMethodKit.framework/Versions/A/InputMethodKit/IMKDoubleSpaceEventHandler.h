@@ -16,9 +16,9 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_transportSession;
 - (_Bool);
-- (void)eLayout: /* Error: Ran out of types for this method. */;
+- (void)documentViewFrameWithCandidateLayout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *eventArray; // @synthesize eventArray=_eventArray;

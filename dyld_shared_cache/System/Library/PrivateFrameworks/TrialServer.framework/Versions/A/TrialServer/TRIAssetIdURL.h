@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 @protocol TRIAssetId;
 
 @interface TRIAssetIdURL
 {
     NSString<TRIAssetId> *_assetId;
-    NSURL *_url;
 }
 
-+ (id);
++ (id)initWithConfigurationDictionary:(id)arg1;
+- (_Bool)initWithCoordinate:(id)arg1 altitude:horizontalAccuracy:verticalAccuracy:course:speed:timestamp: /* Error: Ran out of types for this method. */;
+- (id)hasValidMetadataForLoopingVideoAsset:(id)arg1;
+- (id)encryptionKey;
+- (id);
+- (id);
+- (id);
+- (unsigned long long)B;
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id){CGSize=dd},R,N;
 - (void)reInjectionDelegate";
 
 // Remaining properties
 @property(readonly, nonatomic) NSString<TRIAssetId> *assetId; // @synthesize assetId=_assetId;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

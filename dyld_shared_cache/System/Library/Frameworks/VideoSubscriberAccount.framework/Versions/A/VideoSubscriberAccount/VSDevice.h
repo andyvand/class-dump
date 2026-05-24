@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSOperationQueue, NSString, VSManagedProfileConnection, VSPreferences, VSRemoteNotifier;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface VSDevice
 {
     NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSMutableSet *_observers;
-    NSString *_productVersionString;
-    NSString *_serialNumberString;
-    NSString *_deviceNameString;
-    NSOperationQueue *_propertyFetchQueue;
-    CDUnknownFunctionPointerType _copyAnswer;
-    NSOperationQueue *_privateQueue;
-    VSPreferences *_preferences;
-    CDUnknownBlockType _newDeveloperSettingsFetchOperationBlock;
-    VSManagedProfileConnection *_profileConnection;
-    VSRemoteNotifier *_setTopBoxStateRemoteNotifier;
-    VSRemoteNotifier *_developerSettingsRemoteNotifier;
 }
 
 + (_Bool);
@@ -33,6 +21,7 @@
 - (id);
 - (id);
 - (id);
+- (void)s;
 - (void);
 - (void);
 - (void);
@@ -40,8 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)c;
 - (id);
 - (void);
 - (id);
@@ -60,10 +48,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void)handleUnicodeTextInput:(id)arg1 atTime: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -74,40 +62,16 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)!;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bincompatOS;
-@property(readonly, nonatomic) NSString *bincompatPlatform;
-@property(nonatomic) CDUnknownFunctionPointerType copyAnswer; // @synthesize copyAnswer=_copyAnswer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) VSRemoteNotifier *developerSettingsRemoteNotifier; // @synthesize developerSettingsRemoteNotifier=_developerSettingsRemoteNotifier;
-@property(retain) NSString *deviceNameString; // @synthesize deviceNameString=_deviceNameString;
-@property(readonly, nonatomic) unsigned long long deviceType;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType newDeveloperSettingsFetchOperationBlock; // @synthesize newDeveloperSettingsFetchOperationBlock=_newDeveloperSettingsFetchOperationBlock;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
-@property(retain, nonatomic) NSMutableSet *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) VSPreferences *preferences; // @synthesize preferences=_preferences;
-@property(retain, nonatomic) NSOperationQueue *privateQueue; // @synthesize privateQueue=_privateQueue;
-@property(retain) NSString *productVersionString; // @synthesize productVersionString=_productVersionString;
-@property(retain, nonatomic) VSManagedProfileConnection *profileConnection; // @synthesize profileConnection=_profileConnection;
-@property(retain, nonatomic) NSOperationQueue *propertyFetchQueue; // @synthesize propertyFetchQueue=_propertyFetchQueue;
-@property(readonly, nonatomic, getter=isRunningACustomerBuild) _Bool runningACustomerBuild;
-@property(readonly, nonatomic, getter=isRunningAnInternalBuild) _Bool runningAnInternalBuild;
-@property(retain) NSString *serialNumberString; // @synthesize serialNumberString=_serialNumberString;
-@property(retain, nonatomic) VSRemoteNotifier *setTopBoxStateRemoteNotifier; // @synthesize setTopBoxStateRemoteNotifier=_setTopBoxStateRemoteNotifier;
-@property(readonly) Class superclass;
 
 @end
 

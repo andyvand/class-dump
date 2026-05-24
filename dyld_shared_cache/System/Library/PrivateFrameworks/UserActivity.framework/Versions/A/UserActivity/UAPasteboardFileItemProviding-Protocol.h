@@ -5,6 +5,7 @@
 //
 
 @protocol UAPasteboardFileItemProviding
+- (void)6;
 
 // Remaining properties
 @property(nonatomic) _Bool preferFileRep;

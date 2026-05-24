@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface HMDDataStreamHAPPendingWrite
 {
     NSData *_data;
-    CDUnknownBlockType _completion;
-    unsigned long long _bytesWritten;
 }
 
-- (id);
+- (id)i;
 - (id);
 - (unsigned long long);
 - (id);
-- (void)gacyCommittedAudioDestinationControllerData;
-- (CDUnknownBlockType)ticThresholds;
+- (void)legacyCommittedAudioDestinationControllerData;
+- (CDUnknownBlockType)characteristicThresholds;
 - (void)redictionExcessiveDurationLogEventFactory;
 - (_Bool)pi>;
 
 // Remaining properties
-@property unsigned long long bytesWritten; // @synthesize bytesWritten=_bytesWritten;
-@property(readonly) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(readonly, copy) NSData *data; // @synthesize data=_data;
 
 @end

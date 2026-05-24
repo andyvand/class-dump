@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAFloatVector, MAIndexCache, NSArray, NSString;
+@class MAIndexCache, NSString;
 
 @interface MASeries
 {
     NSString *_name;
-    MAIndexCache *_indexCache;
-    MAFloatVector *_vector;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)qA;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)f;
 - (_Bool);
 - (id);
 - (void);
@@ -29,9 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MAIndexCache *indexCache; // @synthesize indexCache=_indexCache;
-@property(readonly, copy, nonatomic) NSArray *labels;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) MAFloatVector *vector; // @synthesize vector=_vector;
 
 @end
 

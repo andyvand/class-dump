@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, NSString;
+@class NSString;
 
 @interface CLSQuerySpecification
 {
     unsigned long long _offset;
-    NSString *_entityName;
-    NSPredicate *_predicate;
-    NSArray *_sortDescriptors;
-    unsigned long long _limit;
-    unsigned long long _observerOptions;
 }
 
 + (id);
 + (id);
-+ (_Bool);
-- (void);
++ (_Bool)_delegate_presentAccountCreationError:completion: /* Error: Ran out of types for this method. */;
+- (void)System/Library/PrivateFrameworks/MobileKeyBag.framework/Versions/A/MobileKeyBag;
+- (id)ter than kANEProgramPriority7. Lowering priority to kANEProgramPriority7 0x%08X;
 - (id);
+- (unsigned long long)StaticNETime;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (id);
@@ -39,10 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *entityName; // @synthesize entityName=_entityName;
-@property(nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(nonatomic) unsigned long long observerOptions; // @synthesize observerOptions=_observerOptions;
-@property(readonly, copy, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(copy, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PXStoryConcreteScorerDisplayAsset, _PXStoryConcreteScorerDisplayAssetsFetchResult;
-@protocol PXStoryTimelineStyle;
+@class _PXStoryConcreteScorerDisplayAssetsFetchResult;
 
 @interface PXStoryConcreteTimelineScorer
 {
     _PXStoryConcreteScorerDisplayAssetsFetchResult *_segmentDisplayAssets;
-    _PXStoryConcreteScorerDisplayAsset *_splitAsset;
-    double _videoMaximumAspectFillScale;
-    double _livePhotoSameOrientationMaximumScales[2];
-    double _livePhotoOppositeOrientationMaximumScales[2];
-    double _scoreForAspectFillOneUpWithPoorCrop;
-    id <PXStoryTimelineStyle> _timelineStyle;
-    long long _saliencyFallbackBehavior;
 }
 
 - (double);
@@ -32,8 +24,6 @@
 - (void)GenerativeStoryEventDisambiguationAssetsGridView;
 
 // Remaining properties
-@property(nonatomic) long long saliencyFallbackBehavior; // @synthesize saliencyFallbackBehavior=_saliencyFallbackBehavior;
-@property(readonly, nonatomic) id <PXStoryTimelineStyle> timelineStyle; // @synthesize timelineStyle=_timelineStyle;
 @property(readonly, nonatomic) double verySignificantScore;
 
 @end

@@ -4,60 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
+@class NSString;
 
 @interface _INPBGenericIntent
 {
     struct _has;
-    NSString *_domain;
-    _INPBIntentMetadata *_metadata;
-    NSArray *_parameters;
-    NSString *_verb;
 }
 
 + (Class);
 + (_Bool);
 - (_Bool);
-- (void);
+- (void)9h;
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
+- (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)Received request to show authorization proxcard (clientID=%{public}@);
+- (void)rk '%{public}@' matches a recently (< %ds) removed captive network, adding previous captive properties to maintain correct captive state (%{public}@);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool)SearchForContactIntentExport;
+- (_Bool)INSearchForContactIntentExport;
 - (void)ue date;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) _Bool hasDomain;
-@property(readonly, nonatomic) _Bool hasMetadata;
-@property(readonly, nonatomic) _Bool hasVerb;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) unsigned long long parametersCount;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *verb; // @synthesize verb=_verb;
 
 @end
 

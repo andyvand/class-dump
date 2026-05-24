@@ -7,36 +7,23 @@
 @interface BWTrackedFace
 {
     id _trackingID;
-    float _trackingDistance;
-    struct CGRect _trackingRect;
-    id _detectionID;
-    struct CGRect _detectionRect;
-    float _sizeToDistanceMultiplier;
-    float _size;
-    float _distance;
 }
 
 - (float);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (struct CGRect);
 - (id);
-- (void);
-- (float);
+- (void)PDSlide;
+- (float)Entry:Reject contact /* Error: Ran out of types for this method. */;
 - (float);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id detectionID; // @synthesize detectionID=_detectionID;
-@property(nonatomic) struct CGRect detectionRect;
-@property(readonly, nonatomic) float distance; // @synthesize distance=_distance;
-@property(readonly, nonatomic) float size; // @synthesize size=_size;
-@property(nonatomic) float trackingDistance;
 @property(retain, nonatomic) id trackingID; // @synthesize trackingID=_trackingID;
-@property(nonatomic) struct CGRect trackingRect; // @synthesize trackingRect=_trackingRect;
 
 @end
 

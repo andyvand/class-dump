@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TIPreferencesControllerActions;
-
 @interface UIKeyboardPreferencesController
 {
 }
 
-+ (id)lementVisibility;
++ (id)elementVisibility;
+- (_Bool);
+- (void)/libressl-2.2/ssl/s23_lib.c;
+- (void)CEMSecurityIdentityDeclaration_Status;
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)_onQueueContentItemWasSentToMediaRemote: /* Error: Ran out of types for this method. */;
+- (void)0.;
+- (_Bool)che _entityWithIdentifier:mediaEntityType:collectionGroupingType:loadEntityBlock:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (long long)1Y°1Â0@ù
@@ -43,16 +41,16 @@
 Ð!ðEùñfÐ1Â0@ù
 × ;
 - (_Bool)sPresentedFromDocumentBrowser"b1"hasReceivedDocumentDidOpen"b1"needsDocumentUnavailableConfigurationUpdate"b1};
-- (_Bool)ngeNavigationItemDisplayWithSystemNavigationAction: /* Error: Ran out of types for this method. */;
-- (_Bool)rLabelWithUserScrolling:(id)arg1 animated:(id)arg2;
-- (_Bool)alExtensions:(SEL)arg1;
+- (_Bool)willChangeNavigationItemDisplayWithSystemNavigationAction: /* Error: Ran out of types for this method. */;
+- (_Bool)updatePageNumberLabelWithUserScrolling:(id)arg1 animated:(id)arg2;
+- (_Bool)setAdditionalExtensions:(SEL)arg1;
 - (void)m_geometryDelegate;
-- (void)ransitions;
-- (void)Subviews;
-- (_Bool)e: /* Error: Ran out of types for this method. */;
-- (_Bool)ointerLocation:(id)arg1;
-- (_Bool)ceForCollectionView: /* Error: Ran out of types for this method. */;
-- (void)t;
+- (void)discardPendingSymbolContentTransitions;
+- (void)_updateRoundedCornerPositionForSubviews;
+- (_Bool)_textContainerSizeDidChange: /* Error: Ran out of types for this method. */;
+- (_Bool)_inputScopeForPointerLocation:(id)arg1;
+- (_Bool)_dataSourceForCollectionView: /* Error: Ran out of types for this method. */;
+- (void)_alwaysNeedsLayout;
 - (_Bool)ContainerLayoutCustomizationDelegate:,V_searchFieldContainerLayoutCustomizationDelegate /* Error: Ran out of types for this method. */;
 - (id)r;
 - (id)defXgìghhèh<i;
@@ -61,7 +59,7 @@
 - (long long)to recover from error with description:%@ reason:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)À¥êÿ " þ;
 - (id)ibute;
-- (void)plicationShortcutIconTypeMail;
+- (void)UIApplicationShortcutIconTypeMail;
 - (id)àÿ&öÛu^;
 - (_Bool)Ì"Àÿ¬;
 - (_Bool)¸ãc;
@@ -72,13 +70,7 @@
 - (long long)l;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _shouldShowDebugHitArea;
 @property(readonly, nonatomic) _Bool _shouldUseModifiedHitArea;
-@property long long compactAssistantBarPersistentLocation;
-@property _Bool enableProKeyboard;
-@property long long handBias;
-@property(readonly, nonatomic) UIKeyboardPreferencesController<TIPreferencesControllerActions> *preferencesActions;
-@property long long visceral;
 
 @end
 

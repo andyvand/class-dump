@@ -7,8 +7,6 @@
 @interface CUIRenditionKey
 {
     struct _renditionkeytoken _stackKey[22];
-    struct _renditionkeytoken *_key;
-    unsigned short _highwaterKeyCount;
 }
 
 + (id);
@@ -25,47 +23,47 @@
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long)X;
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void);
+- (long long)�?;
 - (long long);
-- (long long);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (long long);
-- (long long);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
+- (void)9;
 - (long long);
 - (void);
 - (id);
 - (long long);
 - (void);
 - (long long);
+- (long long);
+- (long long);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)pp library disabled;
+- (long long);
+- (long long);
+- (long long);
+- (void);
+- (id)_oneTimeURLMetadatasByParticipantID;
+- (long long)_encryptedPersonalInfo;
+- (void);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
+- (long long);
 - (long long);
 - (long long);
-- (long long);
-- (long long);
+- (long long)_certificates;
 - (long long);
 - (id);
 - (const struct _renditionkeytoken *);
@@ -74,7 +72,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)w;
 - (long long);
 - (id);
 - (long long);
@@ -82,32 +80,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long themeAppearance;
-@property(nonatomic) long long themeDeploymentTarget;
-@property(nonatomic) long long themeDimension1;
-@property(nonatomic) long long themeDimension2;
-@property(nonatomic) long long themeDirection;
-@property(nonatomic) long long themeDisplayGamut;
 @property(nonatomic) long long themeElement;
-@property(nonatomic) long long themeGlyphSize;
-@property(nonatomic) long long themeGlyphWeight;
-@property(nonatomic) long long themeGraphicsClass;
-@property(nonatomic) long long themeIdentifier;
-@property(nonatomic) long long themeIdiom;
-@property(nonatomic) long long themeLayer;
-@property(nonatomic) long long themeLocalization;
-@property(nonatomic) long long themeMemoryClass;
-@property(nonatomic) long long themePart;
-@property(nonatomic) long long themePresentationState;
-@property(nonatomic) long long themePreviousState;
-@property(nonatomic) long long themePreviousValue;
-@property(nonatomic) long long themeScale;
-@property(nonatomic) long long themeSize;
-@property(nonatomic) long long themeSizeClassHorizontal;
-@property(nonatomic) long long themeSizeClassVertical;
-@property(nonatomic) long long themeState;
-@property(nonatomic) long long themeSubtype;
-@property(nonatomic) long long themeValue;
 
 @end
 

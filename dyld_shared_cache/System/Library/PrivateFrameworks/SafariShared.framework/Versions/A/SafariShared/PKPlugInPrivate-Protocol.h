@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString, NSUUID, NSXPCConnection;
+@class NSDictionary, NSUUID, NSXPCConnection;
+@protocol PKLaunchRequest;
 
 @protocol PKPlugInPrivate
+- (_Bool);
+- (void)keysSortedByValueUsingComparator:(id <PKLaunchRequest>)arg1;
+- (NSXPCConnection *)__TEXT;
 - (NSDictionary *)00000000>>=q}}16@0:8 /* Error: Ran out of types for this method. */;
-- (NSDictionary *)tShouldIncrementGeneration:(id *)arg1;
-- (unsigned int)dHistory;
+- (NSDictionary *)setShouldIncrementGeneration:(id *)arg1;
+- (unsigned int)_loadHistory;
 
 // Remaining properties
-@property(retain) NSDictionary *environment;
-@property(readonly) unsigned int extensionPointPlatform;
-@property(retain) NSDictionary *extensionState;
-@property(readonly) NSArray *launchPersonas;
-@property(readonly) NSXPCConnection *pluginConnection;
-@property(copy) NSArray *preferredLanguages;
-@property(copy) NSString *sandboxProfile;
-@property(readonly) NSDate *timestamp;
 @property(readonly) NSUUID *uuid;
 @end
 

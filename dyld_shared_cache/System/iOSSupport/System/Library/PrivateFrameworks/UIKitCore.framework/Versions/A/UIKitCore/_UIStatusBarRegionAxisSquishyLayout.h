@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol _UIStatusBarRegionAxisSquishyLayoutDynamicHidingDelegate;
-
 @interface _UIStatusBarRegionAxisSquishyLayout
 {
     _Bool _compressItems;
-    long long _alignment;
-    double _interspace;
-    long long _maxNumberOfItems;
-    long long _maxNumberOfVisibleItems;
-    double _itemDynamicScale;
-    double _minItemDynamicScale;
-    double _minInterspaceDynamicScale;
-    id <_UIStatusBarRegionAxisSquishyLayoutDynamicHidingDelegate> _dynamicHidingDelegate;
 }
 
 - (void);
@@ -31,15 +20,15 @@
 - (long long);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool)40@48@56@64@72@80@88@96@104;
 - (long long);
-- (id);
+- (id)erMonitorWithHomeIdentifiers:forcing update [no monitor found] homeIdentifiers=%{private}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (long long);
 - (_Bool)1Â0@ù
 × ;
-- (void)mputeLayout;
+- (void)computeLayout;
 - (id)´O;
 - (void)naged by a tab bar controller is not allowed.;
 - (void)?Dô.eM;
@@ -47,22 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(readonly, nonatomic) _Bool canOverflowItems;
-@property(nonatomic) _Bool compressItems; // @synthesize compressItems=_compressItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <_UIStatusBarRegionAxisSquishyLayoutDynamicHidingDelegate> dynamicHidingDelegate; // @synthesize dynamicHidingDelegate=_dynamicHidingDelegate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double interspace; // @synthesize interspace=_interspace;
-@property(nonatomic) double itemDynamicScale; // @synthesize itemDynamicScale=_itemDynamicScale;
-@property(nonatomic) long long maxNumberOfItems; // @synthesize maxNumberOfItems=_maxNumberOfItems;
-@property(nonatomic) long long maxNumberOfVisibleItems; // @synthesize maxNumberOfVisibleItems=_maxNumberOfVisibleItems;
-@property(nonatomic) double minInterspaceDynamicScale; // @synthesize minInterspaceDynamicScale=_minInterspaceDynamicScale;
-@property(nonatomic) double minItemDynamicScale; // @synthesize minItemDynamicScale=_minItemDynamicScale;
-@property(readonly) Class superclass;
 
 @end
 

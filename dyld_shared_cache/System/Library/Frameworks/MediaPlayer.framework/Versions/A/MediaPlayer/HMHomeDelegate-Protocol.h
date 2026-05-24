@@ -4,11 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome, HMZone;
+@class HMAccessory, HMHome, HMZone;
 
 @protocol HMHomeDelegate
 
 @optional
-- (void)d:(HMHome *)arg1 size:(HMZone *)arg2;
+- (void)lisionDetectionThreshold;
+- (void)didModifyRange:(HMHome *)arg1;
+- (void)nertiaRunning;
+- (void)TimeWithCoreAnimation;
+- (void)V_shouldStream;
+- (void)bundleForClass:(HMHome *)arg1;
+- (void)TB,N,V_graphicalSelectionEnabled;
+- (void)attributeNamed:(HMHome *)arg1;
+- (void)ndBlock;
+- (void)@,&,N;
+- (void),&,N,V_transition;
+- (void)View",R;
+- (void)_source;
+- (void)",C,N;
+- (void)_setWheelIndex:(HMHome *)arg1;
+- (void)_selectRenderingAPIWithOptions:(HMHome *)arg1;
+- (void)N;
+- (void)y",&,N;
+- (void)ent",&,N,Vnext;
+- (void)de",R,N,V_freeViewCameraNode;
+- (void)SCNGeometryDeformerInitComputeContext;
+- (void)SCNJitterer;
+- (void)unbindTexture3DFromContext:(HMHome *)arg1 textureUnit:(HMAccessory *)arg2 savedState: /* Error: Ran out of types for this method. */;
+- (void)ey "%@";
+- (void)9;
+- (void)cacheKeyForCatalog:(HMHome *)arg1 kind:(HMZone *)arg2 size: /* Error: Ran out of types for this method. */;
 @end
 

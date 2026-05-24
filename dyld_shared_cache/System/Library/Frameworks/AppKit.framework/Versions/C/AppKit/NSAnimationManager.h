@@ -11,18 +11,18 @@
     NSMutableArray *_pendingStartAnimations;
 }
 
-+ (void);
-+ (id);
++ (void)since it's not in the domain of the inURL. Cookie ignored = %@;
++ (id)@?0{shared_ptr<const __CFArray>=^{__CFArray}^{__shared_weak_count}}8{shared_ptr<const __CFArray>=^{__CFArray}^{__shared_weak_count}}24{?=qi}40;
 + (void);
 - (id);
 - (void);
 - (void);
+- (void)_needNewBodyStream;
+- (void)_my_protocolForTask;
+- (void)_maximumMessageSize;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)edNoNotify;
+- (id)EffectiveConfigurationVersion;
 - (void);
 
 @end

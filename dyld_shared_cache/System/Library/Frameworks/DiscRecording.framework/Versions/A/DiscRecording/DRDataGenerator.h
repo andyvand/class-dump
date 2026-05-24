@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRDataGenerator
 {
     NSString *path;
-    NSFileHandle *fd;
-    unsigned int length;
 }
 
 - (unsigned int);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 
 @end

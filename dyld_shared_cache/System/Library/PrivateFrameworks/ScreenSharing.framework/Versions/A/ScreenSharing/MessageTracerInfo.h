@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface MessageTracerInfo
 {
     NSDate *sessionStartTime;
-    NSString *serverVersion;
 }
 
 + (void);
@@ -23,15 +22,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_saveAssetAtURL:(id)arg1 toURL: /* Error: Ran out of types for this method. */;
+- (id)*a@9H*(a;
 - (id);
 - (id);
-- (id);
-- (void)tUserInfo: /* Error: Ran out of types for this method. */;
+- (void)setShouldGetUserInfo: /* Error: Ran out of types for this method. */;
 - (void)session %s;
 
 // Remaining properties
-@property(retain) NSString *serverVersion; // @synthesize serverVersion;
 @property(retain) NSDate *sessionStartTime; // @synthesize sessionStartTime;
 
 @end

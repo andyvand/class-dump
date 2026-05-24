@@ -7,11 +7,6 @@
 @interface CoreSuggestionsUI.SGBannerContentHostingView
 {
     id hostingController;
-    id banner;
-    id suggestionStore;
-    id invalidateBannerConstraints;
-    id updateViewModel;
-    id computeViewBounds;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (id);
 - (id);
 - (struct CGSize);
-- (id);
+- (id)c	;
 - (void);
 - (void)!\Fùñ(Ð1Â0@ù
 × ;

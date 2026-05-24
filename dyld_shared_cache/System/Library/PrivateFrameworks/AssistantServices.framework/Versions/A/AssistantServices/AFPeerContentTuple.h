@@ -9,7 +9,6 @@
 @interface AFPeerContentTuple
 {
     AFPeerInfo *_info;
-    id _content;
 }
 
 + (_Bool);
@@ -18,14 +17,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)c;
 - (id)!`FùQn&1Â0@ù
 × ;
 - (void)OS_dispatch_queue>",R,N,V_updateQueue;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) id content; // @synthesize content=_content;
 @property(readonly, copy, nonatomic) AFPeerInfo *info; // @synthesize info=_info;
 
 @end

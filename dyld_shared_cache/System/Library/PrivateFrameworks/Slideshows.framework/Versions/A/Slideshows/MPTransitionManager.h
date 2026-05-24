@@ -9,25 +9,23 @@
 @interface MPTransitionManager
 {
     NSMutableDictionary *mTransitions;
-    NSMutableDictionary *mTransitionCategories;
-    NSMutableDictionary *mTransitionPresets;
 }
 
 + (void);
 + (void);
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)ck";
+- (id)numberWithUnsignedInteger:(id)arg1;
+- (id)jsonEncodableAppConfiguration;
 - (long long);
+- (id)yloadAssembler",&,N,V_payloadAssembler;
+- (id)indowForEntries:(id)arg1 withLastUploadDatesByContentType:(id)arg2 completion:] /* Error: Ran out of types for this method. */;
+- (id)payloadInfos;
 - (id);
 - (id);
+- (id)CellularRadioAccessTechnology;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)AppData;
 - (id);
 - (id);
 - (id);
@@ -37,7 +35,7 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)qA;
 - (double);
 - (void);
 - (id);

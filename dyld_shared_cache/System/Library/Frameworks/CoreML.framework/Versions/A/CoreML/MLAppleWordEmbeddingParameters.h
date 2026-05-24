@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface MLAppleWordEmbeddingParameters
 {
     unsigned long long _revision;
-    NSString *_language;
-    NSString *_inputFeatureName;
-    NSString *_outputFeatureName;
-    NSData *_modelParameterData;
-    NSDictionary *_metadata;
 }
 
 - (void);
@@ -21,7 +14,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -35,11 +28,6 @@ wSò·SúöZ¡!6[¥)vZ¶ZöY±A6ZµIvY©1¶Y­9öXÁa6YÅivX¹Q¶X½Y�
 v[	ò¶[ú&XÓ3È´/îÚ÷ÁO^ZvýõJ¾æÖ¡õÀçF.OÖ;
 
 // Remaining properties
-@property(retain) NSString *inputFeatureName; // @synthesize inputFeatureName=_inputFeatureName;
-@property(retain) NSString *language; // @synthesize language=_language;
-@property(retain) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain) NSData *modelParameterData; // @synthesize modelParameterData=_modelParameterData;
-@property(retain) NSString *outputFeatureName; // @synthesize outputFeatureName=_outputFeatureName;
 @property unsigned long long revision; // @synthesize revision=_revision;
 
 @end

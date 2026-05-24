@@ -9,26 +9,10 @@
 @interface NTPBFeedConfiguration
 {
     NSString *_freeAFeedID;
-    NSString *_freeBFeedID;
-    NSString *_freeCFeedID;
-    NSString *_paidAFeedID;
-    NSString *_paidBFeedID;
-    NSString *_paidCFeedID;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSString *freeAFeedID; // @synthesize freeAFeedID=_freeAFeedID;
-@property(retain, nonatomic) NSString *freeBFeedID; // @synthesize freeBFeedID=_freeBFeedID;
-@property(retain, nonatomic) NSString *freeCFeedID; // @synthesize freeCFeedID=_freeCFeedID;
 @property(readonly, nonatomic) _Bool hasFreeAFeedID;
-@property(readonly, nonatomic) _Bool hasFreeBFeedID;
-@property(readonly, nonatomic) _Bool hasFreeCFeedID;
-@property(readonly, nonatomic) _Bool hasPaidAFeedID;
-@property(readonly, nonatomic) _Bool hasPaidBFeedID;
-@property(readonly, nonatomic) _Bool hasPaidCFeedID;
-@property(retain, nonatomic) NSString *paidAFeedID; // @synthesize paidAFeedID=_paidAFeedID;
-@property(retain, nonatomic) NSString *paidBFeedID; // @synthesize paidBFeedID=_paidBFeedID;
-@property(retain, nonatomic) NSString *paidCFeedID; // @synthesize paidCFeedID=_paidCFeedID;
 @end
 

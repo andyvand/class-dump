@@ -9,14 +9,13 @@
 @interface CUTReporting
 {
     struct os_unfair_lock_s _promiseLock;
-    CUTPromise *_promise;
 }
 
 + (id);
-+ (void);
++ (void)k;
 + (id);
 + (id);
-+ (id);
++ (id)H;
 + (void);
 - (void);
 - (id);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CUTPromise *promise; // @synthesize promise=_promise;
-@property(readonly) struct os_unfair_lock_s promiseLock; // @synthesize promiseLock=_promiseLock;
 
 @end
 

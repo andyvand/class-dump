@@ -7,9 +7,10 @@
 @class NSString;
 
 @protocol MRBannerRequestRepresentable
+- (NSString *);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifierAffinity;
 @property(retain, nonatomic) NSString *requestIdentifier;
 @end
 

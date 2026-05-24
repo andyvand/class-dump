@@ -17,9 +17,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)ge:threadID:categoryID:sectionID:contactIDs:isGroupMessage: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)ctionIdentifier;
+- (void)actionIdentifier;
 - (void)t;
 
 // Remaining properties

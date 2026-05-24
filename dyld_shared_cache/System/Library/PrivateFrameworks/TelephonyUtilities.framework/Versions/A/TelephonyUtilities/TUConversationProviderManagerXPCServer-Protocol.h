@@ -7,7 +7,9 @@
 @class TUHandle;
 
 @protocol TUConversationProviderManagerXPCServer
-- (oneway void)t;
-- (oneway void)DirectoryIdentityExtension:(TUHandle *)arg1;
+- (oneway void)j;
+- (oneway void);
+- (oneway void)supportsLeaveContext;
+- (oneway void)setCallDirectoryIdentityExtension:(TUHandle *)arg1;
 @end
 

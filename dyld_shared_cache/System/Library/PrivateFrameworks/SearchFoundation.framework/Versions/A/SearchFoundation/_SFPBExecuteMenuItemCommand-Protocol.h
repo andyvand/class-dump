@@ -7,10 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBExecuteMenuItemCommand
+- (NSString *)fetchAssetsForPerson:faceCount:options: /* Error: Ran out of types for this method. */;
+- (NSData *)uestHelper",R,N,V_monthKeyAssetHelper;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *menuItemIdentifier;
 @end
 

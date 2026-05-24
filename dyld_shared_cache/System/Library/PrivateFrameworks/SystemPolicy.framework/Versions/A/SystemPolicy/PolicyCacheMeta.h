@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, PolicyScanCacheTarget;
+@class NSNumber;
 
 @interface PolicyCacheMeta
 {
     NSNumber *_metaId;
-    NSNumber *_missCount;
-    NSDate *_lastMiss;
-    NSNumber *_forEntry;
-    long long _sourceTable;
-    PolicyScanCacheTarget *_target;
 }
 
 - (long long);
@@ -25,18 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *forEntry; // @synthesize forEntry=_forEntry;
-@property(retain, nonatomic) NSDate *lastMiss; // @synthesize lastMiss=_lastMiss;
 @property(retain, nonatomic) NSNumber *metaId; // @synthesize metaId=_metaId;
-@property(retain, nonatomic) NSNumber *missCount; // @synthesize missCount=_missCount;
-@property(retain, nonatomic) PolicyScanCacheTarget *resolvedEntry; // @synthesize resolvedEntry=_target;
-@property(nonatomic) long long sourceTable; // @synthesize sourceTable=_sourceTable;
 
 @end
 

@@ -6,29 +6,11 @@
 
 #import <SignpostSupport/SignpostInterval.h>
 
-@class NSArray, NSIndexSet;
+@class NSArray;
 
 @interface SignpostAnimationInterval : SignpostInterval
 {
     NSArray *_allCommits;
-    NSArray *_longCommits;
-    NSArray *_allSystemwideCommits;
-    NSArray *_longSystemwideCommits;
-    NSArray *_allClientDrawables;
-    NSArray *_longClientDrawables;
-    NSArray *_allSystemwideClientDrawables;
-    NSArray *_longSystemwideClientDrawables;
-    NSArray *_compositeIntervals;
-    NSArray *_allTransactionLifetimes;
-    NSArray *_longTransactionLifetimes;
-    NSArray *_allFrameLatencies;
-    NSArray *_longFrameLatencies;
-    NSArray *_allFrameLifetimes;
-    NSArray *_longFrameLifetimes;
-    NSArray *_allHIDLatencies;
-    NSArray *_longHIDLatencies;
-    NSArray *_allRenderServerRenders;
-    NSArray *_longRenderServerRenders;
 }
 
 + (id);
@@ -49,15 +31,15 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)C;
+- (id),SepObject;
+- (id);
+- (id)HAPAuthSession;
+- (id)h error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (id);
 - (double);
@@ -76,13 +58,13 @@
 - (double);
 - (double);
 - (id);
-- (float);
-- (id);
-- (id);
+- (float)r:(unsigned long long)arg1 upToVersion:(double)arg2 ];
+- (id)a higher level;
+- (id)$;
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)B;
 - (_Bool);
 - (double);
 - (id);
@@ -95,78 +77,33 @@
 - (id);
 - (double);
 - (double);
+- (id)};
+- (double)%@:imageTextStartAddress:%llu, imageStartAddress:%llu, ret %d /* Error: Ran out of types for this method. */;
+- (id)ing;
+- (double).. and %lu more I/Os totaling %@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (double);
 - (id);
+- (double)N32pxrInternal__aapl__pxrReserved__7GfVec2hE;
+- (id)M0;
 - (double);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (double);
-- (id);
-- (double);
-- (id);
-- (id);
+- (id)@y;
 - (unsigned long long);
 - (void);
 - (id);
-- (id)quePIDWhitelist;
+- (id)SignpostSupportUniquePIDWhitelist;
 - (unsigned long long)al:isLong:] /* Error: Ran out of types for this method. */;
 - (id)apple.imageevents;
-- (id)TimeOfDayFeatures;
+- (id)commute15MinWarningEntityRelevanceCoarseTimeOfDayFeatures;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allClientDrawables; // @synthesize allClientDrawables=_allClientDrawables;
-@property(readonly, nonatomic) NSArray *allCommits; // @synthesize allCommits=_allCommits;
-@property(readonly, nonatomic) NSArray *allContributedFrameLatencies;
-@property(readonly, nonatomic) NSArray *allContributedFrameLifetimes;
-@property(readonly, nonatomic) NSIndexSet *allDisplayIDs;
-@property(readonly, nonatomic) NSArray *allFrameLatencies; // @synthesize allFrameLatencies=_allFrameLatencies;
-@property(readonly, nonatomic) NSArray *allFrameLifetimes; // @synthesize allFrameLifetimes=_allFrameLifetimes;
-@property(readonly, nonatomic) NSArray *allHIDLatencies; // @synthesize allHIDLatencies=_allHIDLatencies;
-@property(readonly, nonatomic) NSArray *allRenderServerRenders; // @synthesize allRenderServerRenders=_allRenderServerRenders;
-@property(readonly, nonatomic) NSArray *allSystemwideClientDrawables; // @synthesize allSystemwideClientDrawables=_allSystemwideClientDrawables;
-@property(readonly, nonatomic) NSArray *allSystemwideCommits; // @synthesize allSystemwideCommits=_allSystemwideCommits;
-@property(readonly, nonatomic) NSArray *allTransactionLifetimes; // @synthesize allTransactionLifetimes=_allTransactionLifetimes;
-@property(readonly, nonatomic) unsigned long long animationType;
 @property(retain, nonatomic) NSArray *compositeIntervals; // @synthesize compositeIntervals=_compositeIntervals;
-@property(readonly, nonatomic) NSArray *contributedFirstFrameGlitches;
-@property(readonly, nonatomic) NSArray *contributedGlitches;
-@property(readonly, nonatomic) NSArray *contributedLongFrameLatencies;
-@property(readonly, nonatomic) NSArray *contributedNonFirstFrameGlitches;
-@property(readonly, nonatomic) double firstFrameGlitchTimeRatio;
-@property(readonly, nonatomic) double firstFrameGlitchTimeRatioMsPerS;
-@property(readonly, nonatomic) NSArray *firstFrameGlitches;
-@property(readonly, nonatomic) unsigned long long firstFrameGraceTimeMs;
-@property(readonly, nonatomic) NSArray *firstFrameLifetimes;
-@property(readonly, nonatomic) unsigned long long frameCount;
-@property(readonly, nonatomic) float frameRate;
-@property(readonly, nonatomic) double glitchTimeRatio;
-@property(readonly, nonatomic) double glitchTimeRatioAdjusted;
-@property(readonly, nonatomic) double glitchTimeRatioAdjustedMsPerS;
-@property(readonly, nonatomic) double glitchTimeRatioMsPerS;
-@property(readonly, nonatomic) NSArray *glitches;
-@property(readonly, nonatomic) NSArray *longClientDrawables; // @synthesize longClientDrawables=_longClientDrawables;
-@property(readonly, nonatomic) NSArray *longCommits; // @synthesize longCommits=_longCommits;
-@property(readonly, nonatomic) NSArray *longContributedFrameLifetimes;
-@property(readonly, nonatomic) NSArray *longFrameLatencies; // @synthesize longFrameLatencies=_longFrameLatencies;
-@property(readonly, nonatomic) NSArray *longFrameLifetimes; // @synthesize longFrameLifetimes=_longFrameLifetimes;
-@property(readonly, nonatomic) NSArray *longHIDLatencies; // @synthesize longHIDLatencies=_longHIDLatencies;
-@property(readonly, nonatomic) NSArray *longRenderServerRenders; // @synthesize longRenderServerRenders=_longRenderServerRenders;
-@property(readonly, nonatomic) NSArray *longSystemwideClientDrawables; // @synthesize longSystemwideClientDrawables=_longSystemwideClientDrawables;
-@property(readonly, nonatomic) NSArray *longSystemwideCommits; // @synthesize longSystemwideCommits=_longSystemwideCommits;
-@property(readonly, nonatomic) NSArray *longTransactionLifetimes; // @synthesize longTransactionLifetimes=_longTransactionLifetimes;
-@property(readonly, nonatomic) double nonFirstFrameContributedGlitchTimeRatioAdjustedMsPerS;
-@property(readonly, nonatomic) double nonFirstFrameGlitchTimeRatio;
-@property(readonly, nonatomic) double nonFirstFrameGlitchTimeRatioAdjusted;
-@property(readonly, nonatomic) double nonFirstFrameGlitchTimeRatioAdjustedMsPerS;
-@property(readonly, nonatomic) double nonFirstFrameGlitchTimeRatioMsPerS;
-@property(readonly, nonatomic) NSArray *nonFirstFrameGlitches;
 
 @end
 

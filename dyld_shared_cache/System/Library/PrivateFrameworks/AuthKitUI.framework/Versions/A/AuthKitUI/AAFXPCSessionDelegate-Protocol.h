@@ -5,5 +5,10 @@
 //
 
 @protocol AAFXPCSessionDelegate
+
+@optional
+- (void)accountsWithAccountTypeIdentifier:error: /* Error: Ran out of types for this method. */;
+- (void)undleClass;
+- (void);
 @end
 

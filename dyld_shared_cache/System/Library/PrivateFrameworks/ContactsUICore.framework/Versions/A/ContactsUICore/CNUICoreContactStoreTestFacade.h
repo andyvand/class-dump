@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSError, NSString;
+@class CNContact, NSArray;
 
 @interface CNUICoreContactStoreTestFacade
 {
     NSArray *_contacts;
-    NSArray *_executedSaveRequests;
-    NSArray *_executedFetchRequests;
-    CNContact *_meContact;
-    NSError *_saveError;
-    NSError *_fetchError;
 }
 
 + (id);
@@ -26,7 +21,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)X8H;
 - (_Bool);
 - (void);
 - (id);
@@ -36,23 +31,11 @@
 - (void);
 - (id);
 - (id);
-- (void)ders;
+- (void)targetsForVoiceWithThirdPartyCallProviders;
 - (_Bool)òèóPö°÷WèøXXüYÌþZ¸;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *executedFetchRequests; // @synthesize executedFetchRequests=_executedFetchRequests;
-@property(retain, nonatomic) NSArray *executedSaveRequests; // @synthesize executedSaveRequests=_executedSaveRequests;
-@property(retain, nonatomic) NSError *fetchError; // @synthesize fetchError=_fetchError;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CNContact *meContact; // @synthesize meContact=_meContact;
-@property(retain, nonatomic) NSError *saveError; // @synthesize saveError=_saveError;
-@property(readonly) Class superclass;
 
 @end
 

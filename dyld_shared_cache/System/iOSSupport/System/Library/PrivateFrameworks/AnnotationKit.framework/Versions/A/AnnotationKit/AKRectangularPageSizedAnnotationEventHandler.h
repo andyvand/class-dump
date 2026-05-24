@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)LPMetadataAppleDescription;
 - (struct CGRect);
 - (void);
 - (struct CGRect);

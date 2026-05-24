@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SGMDDLinkShown, SGMNLEventInBanner;
+@class SGMDDLinkShown;
 
 @interface SGNLEventSuggestionsMetrics
 {
     SGMDDLinkShown *_ddLinkShown;
-    SGMNLEventInBanner *_nlEvent;
 }
 
 + (double);
@@ -25,7 +24,7 @@
 + (struct SGMEventDurationAdj_);
 + (unsigned long long);
 + (void);
-+ (id);
++ (id)isMCLCurrentlyEnabledWithHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -35,7 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SGMDDLinkShown *ddLinkShown; // @synthesize ddLinkShown=_ddLinkShown;
-@property(retain, nonatomic) SGMNLEventInBanner *nlEvent; // @synthesize nlEvent=_nlEvent;
 
 @end
 

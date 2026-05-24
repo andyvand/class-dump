@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL;
+@class NSDictionary, NSString;
 
 @interface PKProductInfo
 {
     NSDictionary *_productInfoDictionary;
-    NSURL *_baseURL;
-    NSArray *_cachedPackageReferences;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@9;
 - (id);
 - (id);
 - (id);
@@ -34,12 +32,7 @@
 - (id)soleted.;
 
 // Remaining properties
-@property(readonly) NSURL *baseURL;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSArray *localizations;
-@property(readonly) NSArray *packageReferences;
 @property(readonly) NSString *productIdentifier;
-@property(readonly) NSString *productVersion;
 
 @end
 

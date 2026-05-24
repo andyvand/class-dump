@@ -6,23 +6,19 @@
 
 #import <MapKit/MKLinkPreviewMetadata.h>
 
-@class NSArray, NSImage, NSString;
+@class NSString;
 
 @interface MKLinkPreviewGuidesMetadata : MKLinkPreviewMetadata
 {
     unsigned int _numberOfItems;
-    NSString *_name;
-    NSArray *_addresses;
-    NSString *_publisherName;
-    NSImage *_publisherIcon;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)setsRequest:(id)arg1 fetching cached presets with altDSID;
+- (void)NSString"16@?<v@?@"NSArray"@"NSError">24;
 - (id);
 - (id);
 - (void);
@@ -30,11 +26,7 @@
 - (void)hasConnectedToCar;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *addresses; // @synthesize addresses=_addresses;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int numberOfItems; // @synthesize numberOfItems=_numberOfItems;
-@property(retain, nonatomic) NSImage *publisherIcon; // @synthesize publisherIcon=_publisherIcon;
-@property(copy, nonatomic) NSString *publisherName; // @synthesize publisherName=_publisherName;
 
 @end
 

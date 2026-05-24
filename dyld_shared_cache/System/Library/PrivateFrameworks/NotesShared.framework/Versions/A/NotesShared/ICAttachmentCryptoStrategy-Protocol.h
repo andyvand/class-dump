@@ -5,5 +5,6 @@
 //
 
 @protocol ICAttachmentCryptoStrategy
+- (_Bool);
 @end
 

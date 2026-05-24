@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSString;
+@class NSLocale;
 
 @interface SFLanguageDetectorResult
 {
     NSLocale *_dominantLocale;
-    NSArray *_alternatives;
-    NSString *_detectedLanguageCode;
-    CDStruct_e83c9415 _range;
 }
 
 - (id);
@@ -22,9 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *alternatives; // @synthesize alternatives=_alternatives;
-@property(readonly, copy, nonatomic) NSString *detectedLanguageCode; // @synthesize detectedLanguageCode=_detectedLanguageCode;
-@property(readonly, copy, nonatomic) NSLocale *dominantLocale; // @synthesize dominantLocale=_dominantLocale;
 @property(readonly, nonatomic) CDStruct_e83c9415 range; // @synthesize range=_range;
 
 @end

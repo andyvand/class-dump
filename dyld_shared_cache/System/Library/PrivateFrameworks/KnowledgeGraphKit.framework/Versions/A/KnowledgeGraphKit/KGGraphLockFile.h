@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface KGGraphLockFile
 {
     int _fd;
-    _Bool _locked;
-    NSURL *_fileURL;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)enqueueCommandSync:inputBuffer:inputBufferSize:responseObj:options: /* Error: Ran out of types for this method. */;
+- (void)rPlayReceiverPreferences;
 
 @end
 

@@ -8,10 +8,6 @@
 {
     id accountManager;
     id _cachedRegions;
-    id _regionsLoaded;
-    id _regionSupport;
-    id _logger;
-    id _$observationRegistrar;
 }
 
 - (void);

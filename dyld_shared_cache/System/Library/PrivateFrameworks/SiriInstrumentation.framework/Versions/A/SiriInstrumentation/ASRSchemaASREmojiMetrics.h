@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ASRSchemaASREmojiMetrics : SISchemaInstrumentationMessage
 {
     NSArray *_recognizedEmojis;
-    _Bool _isEmojiPersonalizationUsed;
-    _Bool _isEmojiDisambiguationUsed;
-    _Bool _isEmojiExpectedButNotRecognized;
-    struct {
-        unsigned int isEmojiPersonalizationUsed:1;
-        unsigned int isEmojiDisambiguationUsed:1;
-        unsigned int isEmojiExpectedButNotRecognized:1;
-    } _has;
 }
 
 - (void);
@@ -26,42 +18,35 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)!@9#;
 - (void);
 - (unsigned long long);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void)1;
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)sendOutgoingExternalAccessoryData:(id)arg1 forEASessionIdentifier:withReply: /* Error: Ran out of types for this method. */;
+- (void)C;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)anosecondsSinceBoot;
+- (id)signalTimeNanosecondsSinceBoot;
 - (id)</x/;
 - (id);
 - (void)¨ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsEmojiDisambiguationUsed;
-@property(nonatomic) _Bool hasIsEmojiExpectedButNotRecognized;
-@property(nonatomic) _Bool hasIsEmojiPersonalizationUsed;
-@property(nonatomic) _Bool isEmojiDisambiguationUsed; // @synthesize isEmojiDisambiguationUsed=_isEmojiDisambiguationUsed;
-@property(nonatomic) _Bool isEmojiExpectedButNotRecognized; // @synthesize isEmojiExpectedButNotRecognized=_isEmojiExpectedButNotRecognized;
-@property(nonatomic) _Bool isEmojiPersonalizationUsed; // @synthesize isEmojiPersonalizationUsed=_isEmojiPersonalizationUsed;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *recognizedEmojis; // @synthesize recognizedEmojis=_recognizedEmojis;
 
 @end

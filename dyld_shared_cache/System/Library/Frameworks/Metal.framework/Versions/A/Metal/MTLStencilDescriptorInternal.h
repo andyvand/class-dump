@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)X_KMEANS_TEXELS;
 - (id);
 - (unsigned long long);
 - (const struct MTLStencilDescriptorPrivate *);
@@ -28,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)CMRubyPosition_After;
 - (void);
 - (unsigned int);
 

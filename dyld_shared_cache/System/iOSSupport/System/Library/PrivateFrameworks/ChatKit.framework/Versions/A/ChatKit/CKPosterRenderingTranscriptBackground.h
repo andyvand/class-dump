@@ -4,67 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSalientContentRectangleDebugView, ChatKit.CKBackgroundMotionEventsManager, ChatKit.CKTranscriptBackgroundEnvironment, PRUISPosterChannelViewController, UIBackgroundExtensionView, UIView, UIViewController;
-@protocol CKPosterRenderingTranscriptBackgroundBackgroundDelegate;
+@class CKSalientContentRectangleDebugView;
 
 __attribute__((visibility("hidden")))
 @interface CKPosterRenderingTranscriptBackground
 {
     _Bool _keyboardWasUpBeforeTapbackContext;
-    _Bool _previousBackgroundWasPhotos;
-    PRUISPosterChannelViewController *_channelViewController;
-    id <CKPosterRenderingTranscriptBackgroundBackgroundDelegate> _backgroundDelegate;
-    CKSalientContentRectangleDebugView *_salientContentRectangleDebugView;
-    UIBackgroundExtensionView *_backgroundExtensionView;
-    UIView *_backgroundExtensionContainerView;
-    ChatKit.CKTranscriptBackgroundEnvironment *_layoutEnvironment;
-    ChatKit.CKBackgroundMotionEventsManager *_motionEventsManager;
-    struct CGRect _didChangeKeyboardFrame;
 }
 
 + (_Bool);
+- (void)presentLockedNotesSwitchMigrationPromptIfSupportedForAccount:(_Bool)arg1 window:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)convertRectFromScreen:(id)arg1;
+- (void)blockOperationWithBlock: /* Error: Ran out of types for this method. */;
+- (void)beginBlockingMergeForReason:(id)arg1 textView: /* Error: Ran out of types for this method. */;
+- (void)attachmentFromStandardFileWrapper:(id)arg1;
+- (void)archiveEvernoteNotesFromFileURL:(_Bool)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_sanitizedFilteredModernSourceObjects;
+- (void)_hintTextViewHeightConstraint;
+- (void)_collaborationControllerDelegate;
+- (void)_coalescingUndoGroup;
+- (id),N,V_searchHighlightColor;
+- (void);
+- (_Bool)er;
+- (struct UIEdgeInsets)ICAbstractTextAttachment;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
+- (id)StylestG;
+- (void)n;
+- (struct CGRect)e;
+- (void)u;
+- (long long)M;
+- (id)h;
+- (void)s;
+- (void)n;
+- (void)hare reference for %@;
+- (id)e a server record. This likely won't work.;
+- (id)g to get root record for %@, but we don't have a server record. This likely won't work.;
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)nd %lu others;
+- (_Bool)ished updating share;
+- (_Bool)v32@?0@8@"NSError"16^B24;
+- (void){_NSRange=QQ}16^B32;
+- (void)erated OCR;
+- (_Bool)es that match INLINE_MENU_PLEASE_READ_COMMENTS selected tags.;
+- (_Bool)C;
 - (void);
 - (id);
 - (void);
@@ -72,7 +62,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void)IMBalloonPlugin"24;
-- (double)mentRectInsets;
+- (double)ckShouldUpdateballoonMaskAlignmentRectInsets;
 - (void)loneWindow;
 - (id)LX;
 - (void)À;
@@ -80,18 +70,6 @@ __attribute__((visibility("hidden")))
 - (void)0»ÿÚ;Èz0;
 
 // Remaining properties
-@property(nonatomic) __weak id <CKPosterRenderingTranscriptBackgroundBackgroundDelegate> backgroundDelegate; // @synthesize backgroundDelegate=_backgroundDelegate;
-@property(retain, nonatomic) UIView *backgroundExtensionContainerView; // @synthesize backgroundExtensionContainerView=_backgroundExtensionContainerView;
-@property(retain, nonatomic) UIBackgroundExtensionView *backgroundExtensionView; // @synthesize backgroundExtensionView=_backgroundExtensionView;
-@property(retain, nonatomic) PRUISPosterChannelViewController *channelViewController; // @synthesize channelViewController=_channelViewController;
-@property(readonly, nonatomic) long long contentDerivedUserInterfaceStyle;
-@property(nonatomic) struct CGRect didChangeKeyboardFrame; // @synthesize didChangeKeyboardFrame=_didChangeKeyboardFrame;
-@property(nonatomic) _Bool keyboardWasUpBeforeTapbackContext; // @synthesize keyboardWasUpBeforeTapbackContext=_keyboardWasUpBeforeTapbackContext;
-@property(retain, nonatomic) ChatKit.CKTranscriptBackgroundEnvironment *layoutEnvironment; // @synthesize layoutEnvironment=_layoutEnvironment;
-@property(readonly, nonatomic) double luminance;
-@property(retain, nonatomic) ChatKit.CKBackgroundMotionEventsManager *motionEventsManager; // @synthesize motionEventsManager=_motionEventsManager;
-@property(nonatomic) _Bool previousBackgroundWasPhotos; // @synthesize previousBackgroundWasPhotos=_previousBackgroundWasPhotos;
-@property(readonly, nonatomic) UIViewController *rootViewController;
 @property(retain, nonatomic) CKSalientContentRectangleDebugView *salientContentRectangleDebugView; // @synthesize salientContentRectangleDebugView=_salientContentRectangleDebugView;
 
 @end

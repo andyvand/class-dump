@@ -7,9 +7,9 @@
 @class NSIndexPath, UISwipeActionsConfiguration;
 
 @protocol _UICollectionViewLayoutSwipeActions
-- (void)AnimationIfNeeded;
-- (_Bool)View:(NSIndexPath *)arg1;
-- (void)okeUsingIMP: /* Error: Ran out of types for this method. */;
+- (void)_removePulseAnimationIfNeeded;
+- (_Bool)setDelayingDisplayOfRemoteView:(NSIndexPath *)arg1;
+- (void)invokeUsingIMP: /* Error: Ran out of types for this method. */;
 - (void)window, but it is not. (container:(UISwipeActionsConfiguration *)arg1 %@);
 @end
 

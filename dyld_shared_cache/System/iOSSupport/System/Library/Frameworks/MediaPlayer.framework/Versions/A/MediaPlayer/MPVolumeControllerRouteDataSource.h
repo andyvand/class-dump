@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVRoute, NSString;
-@protocol MPVolumeControllerDataSourceDelegate;
+@class MPAVRoute;
 
 @interface MPVolumeControllerRouteDataSource
 {
     float _pendingVolume;
-    _Bool _hasPendingVolume;
-    _Bool _hasVolumeInFlight;
-    _Bool _volumeInitialized;
-    _Bool _volumeCapabilitiesInitialized;
-    _Bool _mutedInitialized;
-    _Bool _reloading;
-    _Bool _needsReloading;
-    _Bool _volumeControlAvailable;
-    _Bool _muted;
-    _Bool _volumeWarningEnabled;
-    unsigned int _volumeControlCapabilities;
-    float _volume;
-    float _EUVolumeLimit;
-    id <MPVolumeControllerDataSourceDelegate> _delegate;
-    long long _volumeWarningState;
-    MPAVRoute *_groupRoute;
-    MPAVRoute *_outputDeviceRoute;
 }
 
 - (void);
@@ -41,57 +23,38 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)_writeLock;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)lock;
 - (void);
-- (void);
-- (void);
+- (void)put sample rates must match;
 - (id);
 - (unsigned int);
-- (void);
+- (void);
 - (float);
 - (id);
 - (float);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)mmcs_perform_run_loop_target_create_timer;
+- (_Bool)sh;
 - (_Bool)MutableIdentifierListSection>"16@?<v@?@"NSError">24;
-- (void)toParameterNamed: /* Error: Ran out of types for this method. */;
+- (void)_bindCStringArray:length:toParameterNamed: /* Error: Ran out of types for this method. */;
 - (void)"NSString",R,C,N,V_value;
-- (void)PropertySongDateReleased;
+- (void)MPModelPropertySongDateReleased;
 
 // Remaining properties
-@property(readonly, nonatomic) float EUVolumeLimit; // @synthesize EUVolumeLimit=_EUVolumeLimit;
-@property(readonly, nonatomic) _Bool applicationShouldOverrideHardwareVolumeBehavior;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MPVolumeControllerDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) MPAVRoute *groupRoute; // @synthesize groupRoute=_groupRoute;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isMuted) _Bool muted; // @synthesize muted=_muted;
-@property(retain, nonatomic) MPAVRoute *outputDeviceRoute; // @synthesize outputDeviceRoute=_outputDeviceRoute;
-@property(readonly) Class superclass;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
-@property(readonly, copy, nonatomic) NSString *volumeAudioCategory;
-@property(readonly, nonatomic, getter=isVolumeControlAvailable) _Bool volumeControlAvailable; // @synthesize volumeControlAvailable=_volumeControlAvailable;
-@property(readonly, nonatomic) unsigned int volumeControlCapabilities; // @synthesize volumeControlCapabilities=_volumeControlCapabilities;
-@property(readonly, copy, nonatomic) NSString *volumeControlLabel;
-@property(readonly, nonatomic) _Bool volumeWarningEnabled; // @synthesize volumeWarningEnabled=_volumeWarningEnabled;
-@property(readonly, nonatomic) long long volumeWarningState; // @synthesize volumeWarningState=_volumeWarningState;
 
 @end
 

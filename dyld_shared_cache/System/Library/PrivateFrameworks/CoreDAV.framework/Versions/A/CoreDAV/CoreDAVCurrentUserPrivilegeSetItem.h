@@ -15,12 +15,12 @@
 
 + (id);
 - (_Bool);
+- (id)_sortRoomTokensOnNextUpdate;
 - (id);
+- (void)predicateForContainerOfContactWithIdentifier:(id)arg1;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)es.plist is nil;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *privileges; // @synthesize privileges=_privileges;

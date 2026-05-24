@@ -6,38 +6,29 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MPAVRoutingController, MPAVRoutingSheet, MPAudioVideoRoutingPopoverController, NSString, UIWebDocumentView;
+@class MPAVRoutingController;
 
 __attribute__((visibility("hidden")))
 @interface UIWebPlaybackTargetPicker : UIView
 {
     MPAVRoutingController *_routingController;
-    MPAudioVideoRoutingPopoverController *_popoverController;
-    MPAVRoutingSheet *_actionSheet;
-    UIWebDocumentView *_delegate;
 }
 
+- (void)requestQOSClassWhileServicingRequestsWithID:(long long)arg1;
+- (void)requestProperty:(_Bool)arg1 ofPerson:(struct CGRect)arg2 account: /* Error: Ran out of types for this method. */;
+- (void)er;
 - (void);
 - (void);
+- (void):(_Bool)arg1 %@, service session not configured for replicated messages;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)session id too long;
 - (void)1Â0@ù
 × ;
 - (void)ä¸ÿ±Õx_;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

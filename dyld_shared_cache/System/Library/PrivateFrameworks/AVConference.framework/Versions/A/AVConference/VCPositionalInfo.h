@@ -8,20 +8,12 @@ __attribute__((visibility("hidden")))
 @interface VCPositionalInfo
 {
     _Bool _isInCanvas;
-    struct CGSize _size;
-    double _x;
-    double _y;
-    double _z;
-    _Bool _hasPendingChanges;
-    _Bool _isVisible;
-    unsigned int _prominenceIndex;
-    struct tagVCSpatialAudioMetadataPositionalInfo _metadataPositionalInfo;
 }
 
 + (_Bool)tagVCRateControlAlgorithmReinforcementLearningVariables="value"d"action"I"actionLogProbability"d};
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (const struct tagVCSpatialAudioMetadataPositionalInfo *);
@@ -34,19 +26,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)SDySSSo18REMTimestampedUUIDCGm;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool)lID we know about;
 
 // Remaining properties
-@property(nonatomic) struct tagAVCPositionalInfo avcPositionalInfo;
 @property(nonatomic) _Bool hasPendingChanges; // @synthesize hasPendingChanges=_hasPendingChanges;
-@property(nonatomic) _Bool isInCanvas; // @synthesize isInCanvas=_isInCanvas;
-@property(nonatomic) _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property(readonly, nonatomic) const struct tagVCSpatialAudioMetadataPositionalInfo *metadataPositionalInfo;
-@property(nonatomic) unsigned int prominenceIndex; // @synthesize prominenceIndex=_prominenceIndex;
 
 @end
 

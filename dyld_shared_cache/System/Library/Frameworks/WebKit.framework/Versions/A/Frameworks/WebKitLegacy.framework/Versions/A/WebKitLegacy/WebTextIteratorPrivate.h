@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WebTextIteratorPrivate
 {
     struct unique_ptr<WebCore::TextIterator, std::default_delete<WebCore::TextIterator>> _textIterator;
-    struct Vector<unsigned short, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _upconvertedText;
 }
 
 + (void)t enforcement (ITP);

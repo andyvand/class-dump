@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
+@class NSError;
 
 @interface MRAVRoutingDiscoverySessionOperationReport
 {
     NSError *_error;
-    NSArray *_discoveredOutputDeviceUIDs;
-    NSArray *_undiscoveredOutputDeviceUIDs;
 }
 
 - (id);
@@ -20,12 +18,10 @@
 - (id);
 - (id);
 - (void);
-- (void)tItemIdentifierForOffset: /* Error: Ran out of types for this method. */;
+- (void)contentItemIdentifierForOffset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *discoveredOutputDeviceUIDs; // @synthesize discoveredOutputDeviceUIDs=_discoveredOutputDeviceUIDs;
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSArray *undiscoveredOutputDeviceUIDs; // @synthesize undiscoveredOutputDeviceUIDs=_undiscoveredOutputDeviceUIDs;
 
 @end
 

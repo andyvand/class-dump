@@ -9,9 +9,6 @@
 @interface IMBlockListController
 {
     _Bool _allowsExpensiveBlockListChecking;
-    NSOrderedSet *_imBlockItemList;
-    id _cmfBlockListUpdatedObserver;
-    id _cnDatabaseChangedExternallyObserver;
 }
 
 + (void *);
@@ -22,29 +19,26 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)C;
+- (_Bool);
+- (_Bool)T ;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)kH;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ler:Provisioning Extensions /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsExpensiveBlockListChecking; // @synthesize allowsExpensiveBlockListChecking=_allowsExpensiveBlockListChecking;
-@property(retain, nonatomic) id cmfBlockListUpdatedObserver; // @synthesize cmfBlockListUpdatedObserver=_cmfBlockListUpdatedObserver;
-@property(retain, nonatomic) id cnDatabaseChangedExternallyObserver; // @synthesize cnDatabaseChangedExternallyObserver=_cnDatabaseChangedExternallyObserver;
 @property(retain, nonatomic) NSOrderedSet *imBlockItemList; // @synthesize imBlockItemList=_imBlockItemList;
 
 @end

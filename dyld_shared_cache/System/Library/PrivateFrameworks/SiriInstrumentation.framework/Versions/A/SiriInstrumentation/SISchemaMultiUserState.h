@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface SISchemaMultiUserState : SISchemaInstrumentationMessage
 {
@@ -14,27 +14,28 @@
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)T;
 - (id);
 - (id);
 - (void);
+- (void)!;
 - (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)@;
+- (unsigned long long)otalUnitCount;
+- (_Bool)arent:(id)arg1 %p
+Children:%@
+------------ /* Error: Ran out of types for this method. */;
+- (_Bool)S message (ROWID) ON DELETE CASCADE, attachment_id INTEGER REFERENCES attachment (ROWID) ON DELETE CASCADE, UNIQUE(message_id, attachment_id));;
 - (id);
 - (id);
-- (id)nstraintType;
-- (id)tValue;
-- (void)AAC;
+- (id)deleteConstraintType;
+- (id)_entityContextValue;
+- (void)MWTFORMATCODEC_MPEG_AAC;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *enrolledUsers; // @synthesize enrolledUsers=_enrolledUsers;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

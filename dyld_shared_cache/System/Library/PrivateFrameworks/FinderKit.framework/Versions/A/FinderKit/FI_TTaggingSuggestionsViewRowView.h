@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (long long);
+- (long long)aint",&,N,V_minYConstraint;
 - (_Bool);
 
 @end

@@ -5,37 +5,25 @@
 //
 
 @class NSString;
-@protocol ECMessage;
 
 @interface ECTransferMessageActionItem
 {
     NSString *_sourceRemoteID;
-    id <ECMessage> _sourceMessage;
-    id <ECMessage> _destinationMessage;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)dResumePlayback:(id)arg1 %@;
+- (id)n failed;
 - (id);
-- (id);
-- (id);
+- (id)_page_grab;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <ECMessage> destinationMessage; // @synthesize destinationMessage=_destinationMessage;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <ECMessage> sourceMessage; // @synthesize sourceMessage=_sourceMessage;
 @property(copy, nonatomic) NSString *sourceRemoteID; // @synthesize sourceRemoteID=_sourceRemoteID;
-@property(readonly) Class superclass;
 
 @end
 

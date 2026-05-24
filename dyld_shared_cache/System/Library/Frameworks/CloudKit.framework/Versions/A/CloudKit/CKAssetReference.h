@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, NSData, NSString;
+@class CKRecordID;
 
 @interface CKAssetReference
 {
     _Bool _isPackageMember;
-    CKRecordID *_recordID;
-    long long _databaseScope;
-    NSString *_fieldName;
-    NSData *_fileSignature;
 }
 
 + (_Bool);
@@ -21,7 +17,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)newSharedEventWithOptions: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -30,13 +26,9 @@
 - (long long);
 - (id);
 - (void)$?;
-- (id)hangeToken;
+- (id)serverChangeToken;
 
 // Remaining properties
-@property(readonly, nonatomic) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(readonly, copy, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
-@property(readonly, copy, nonatomic) NSData *fileSignature; // @synthesize fileSignature=_fileSignature;
-@property(nonatomic) _Bool isPackageMember; // @synthesize isPackageMember=_isPackageMember;
 @property(readonly, copy, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
 
 @end

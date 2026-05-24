@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (double);
+- (_Bool)_updatePhoneNumberCallerID;
+- (double)e are no longer the default text app, routing to %@;
 
 @end
 

@@ -10,19 +10,18 @@
 @interface ISAVPlayerLayer
 {
     NSObject<OS_dispatch_queue> *_isolationQueue;
-    CDUnknownBlockType _readyForDisplayChangeHandler;
 }
 
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
+- (void)_accessibilityFindDescendant:(id)arg1;
+- (void)Height;
+- (CDUnknownBlockType)Rect={CGPoint=dd}{CGSize=dd}},R,N,V_thumbnailFrame;
+- (void)pGestureRecognizer",R,N,V_openTapGestureRecognizer;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)elegateImplementsHeightForRowAtIndexPath"b1"delegateImplementsDidSelectionRowAtIndexPath"b1"delegateImplementsShouldHighlightRowAtIndexPath"b1"delegateImplementsDidHighlightRowAtIndexPath"b1"delegateImplementsDidUnhighlightRowAtIndexPath"b1"delegateImplementsEditingStyleForRowAtIndexPath"b1"delegateImplementsDidDeselectRowAtIndexPath"b1};
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType readyForDisplayChangeHandler; // @synthesize readyForDisplayChangeHandler=_readyForDisplayChangeHandler;

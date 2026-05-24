@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _CPPhotosAggregatedInfo
 {
     int _totalNumberOfAssets;
-    int _totalNumberOfEmbeddingMatchedAssets;
-    int _totalNumberOfMetadataMatchedAssets;
 }
 
-- (int);
-- (int);
-- (int);
-- (void);
-- (void);
-- (void);
+- (int)lloc];
+- (int)Overflow, minCapacity = 16, Malloc = WTF::FastMalloc] /* Error: Ran out of types for this method. */;
+- (int)= std::unique_ptr<WebKit::UIGamepad>, inlineCapacity = 0, OverflowHandler = WTF::CrashOnOverflow, minCapacity = 16, Malloc = WTF::FastMalloc] /* Error: Ran out of types for this method. */;
+- (void)tring, WTF:(int)arg1:RefPtr<WebKit::WebExtensionMatchPattern>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)WTF:(int)arg1:HashTable<WTF::String, WTF::KeyValuePair<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)Some rules do not have unique IDs (;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -26,17 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(readonly) Class superclass;
 @property(nonatomic) int totalNumberOfAssets; // @synthesize totalNumberOfAssets=_totalNumberOfAssets;
-@property(nonatomic) int totalNumberOfEmbeddingMatchedAssets; // @synthesize totalNumberOfEmbeddingMatchedAssets=_totalNumberOfEmbeddingMatchedAssets;
-@property(nonatomic) int totalNumberOfMetadataMatchedAssets; // @synthesize totalNumberOfMetadataMatchedAssets=_totalNumberOfMetadataMatchedAssets;
 
 @end
 

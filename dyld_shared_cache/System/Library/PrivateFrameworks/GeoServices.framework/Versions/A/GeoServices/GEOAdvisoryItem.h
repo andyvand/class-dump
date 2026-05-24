@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAdvisoryCard, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOAdvisoryItem
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOAdvisoryCard *_advisoryCard;
-    NSMutableArray *_analyticsMessageValues;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _incidentIndex;
-    unsigned int _transitIncidentIndex;
-    struct {
-        unsigned int has_incidentIndex:1;
-        unsigned int has_transitIncidentIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_advisoryCard:1;
-        unsigned int read_analyticsMessageValues:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
@@ -33,12 +17,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
+- (void)shortNameFormatEnabled;
+- (void)errorOnlyCompletionHandlerAdapter;
+- (void)encodeObject:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (unsigned int)ntlUtilities;
+- (_Bool)Metadata;
+- (_Bool)v;
 - (void);
 - (unsigned long long);
 - (id);
@@ -47,35 +31,28 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)_shouldDisableSpeechPacketGeneration;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void)!Bù1·*Ð1Â0@ù
 × ;
-- (id)ionListener:(struct _NSZone *)arg1 didUpdateNavigationVoiceVolume: /* Error: Ran out of types for this method. */;
+- (id)navigationListener:(struct _NSZone *)arg1 didUpdateNavigationVoiceVolume: /* Error: Ran out of types for this method. */;
 - (id),;
-- (id);
+- (id)mapSettingsSpeedLimitEnabled;
 - (id)ÿÿ;
 - (void)>áÿ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOAdvisoryCard *advisoryCard;
-@property(retain, nonatomic) NSMutableArray *analyticsMessageValues;
 @property(readonly, nonatomic) _Bool hasAdvisoryCard;
-@property(nonatomic) _Bool hasIncidentIndex;
-@property(nonatomic) _Bool hasTransitIncidentIndex;
-@property(nonatomic) unsigned int incidentIndex;
-@property(nonatomic) unsigned int transitIncidentIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

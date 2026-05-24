@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCRateControlShareProfile
 {
     unsigned int _reservedBitrate;
-    unsigned int _rateSharingCount;
 }
 
 - (void);
@@ -18,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int rateSharingCount; // @synthesize rateSharingCount=_rateSharingCount;
 @property(nonatomic) unsigned int reservedBitrate; // @synthesize reservedBitrate=_reservedBitrate;
 
 @end

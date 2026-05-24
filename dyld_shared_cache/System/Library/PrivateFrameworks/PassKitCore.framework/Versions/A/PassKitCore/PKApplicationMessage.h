@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKApplicationMessageContent, PKApplicationMessageRegistration;
+@class PKApplicationMessageRegistration;
 
 @interface PKApplicationMessage
 {
     PKApplicationMessageRegistration *_registration;
-    PKApplicationMessageContent *_content;
 }
 
 + (id);
-+ (id);
++ (id)ation not conveyed through color alone (image).;
 + (_Bool)0@ù
 × ;
 - (id);
-- (id);
+- (id)I;
 - (void);
-- (id)NetworkData;
-- (void)RESTRICTED_COUNTRY;
+- (id)clearingNetworkData;
+- (void)TRANSACTION_DECLINED_REASON_RESTRICTED_COUNTRY;
 - (id)<!Ùÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) PKApplicationMessageContent *content; // @synthesize content=_content;
 @property(readonly, nonatomic) PKApplicationMessageRegistration *registration; // @synthesize registration=_registration;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLScopedIdentifier, NSArray, NSString;
+@class CPLScopedIdentifier;
 
 @interface CPLRecordTarget
 {
     CPLScopedIdentifier *_scopedIdentifier;
-    long long _targetState;
-    CPLScopedIdentifier *_otherScopedIdentifier;
 }
 
 + (_Bool);
@@ -18,16 +16,15 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)-: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)�;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long)@ùy{øàªCýª.ö;
-- (_Bool)ý{E©ôOD©ÿÿ_Ö#ÕÿCÑø_	©öW
-©ôO©ý{©ýóªõ;
+- (long long);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -35,13 +32,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CPLScopedIdentifier *otherScopedIdentifier; // @synthesize otherScopedIdentifier=_otherScopedIdentifier;
-@property(readonly, nonatomic) CPLScopedIdentifier *resourceScopedIdentifier;
 @property(readonly, nonatomic) CPLScopedIdentifier *scopedIdentifier; // @synthesize scopedIdentifier=_scopedIdentifier;
-@property(readonly, nonatomic) _Bool shouldUploadToOtherRecord;
-@property(readonly, nonatomic) NSString *simpleDescription;
-@property(readonly, nonatomic) NSArray *targetScopedIdentifiers;
-@property(readonly, nonatomic) long long targetState; // @synthesize targetState=_targetState;
 
 @end
 

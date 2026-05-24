@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_source;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureImageSensorTemperatureMonitor
 {
     NSString *_portType;
-    CDStruct_84af802f _systemPressureLevelByImageSensorTemperature[5];
-    int _currentSystemPressureFromImageSensorTemperature;
-    NSObject<OS_dispatch_source> *_nominalImageSensorTemperatureMonitorTimer;
 }
 
 + (void)redevice.private.built-in_metadata:3 /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 - (void);
-- (id);
-- (void);
+- (id)E;
+- (void)localeSpecificStorageForLocale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) int systemPressureLevelFromImageSensorTemperature;

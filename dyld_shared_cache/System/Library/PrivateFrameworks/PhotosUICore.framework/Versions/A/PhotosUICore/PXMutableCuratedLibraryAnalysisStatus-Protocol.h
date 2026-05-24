@@ -7,17 +7,15 @@
 @class NSString;
 
 @protocol PXMutableCuratedLibraryAnalysisStatus
+- (void);
+- (void);
+- (float)Z;
+- (void)L@;
 - (float)scrollViewAccessibilityIdentifier;
 - (void)ntifier for %@;
 - (NSString *)AH¶Ñüþ;
 
 // Remaining properties
-@property(nonatomic) float displayProgress;
-@property(nonatomic) _Bool isDaysMonthsYearsStructureEnabled;
-@property(nonatomic) _Bool isDevicePlugged;
-@property(copy, nonatomic) NSString *localizedDescription;
-@property(copy, nonatomic) NSString *localizedTitle;
-@property(nonatomic) float progress;
 @property(nonatomic) long long state;
 @end
 

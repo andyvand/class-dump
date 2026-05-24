@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSURL, NSUUID;
+@class NSUUID;
 
 @interface SMContactMO
 {
 }
 
-+ (id);
++ (id)setParameters, sharePortWithListener:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *allowReadToken; // @dynamic allowReadToken;
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSString *participantID; // @dynamic participantID;
-@property(copy, nonatomic) NSData *safetyCacheKey; // @dynamic safetyCacheKey;
-@property(copy, nonatomic) NSUUID *sessionUUID; // @dynamic sessionUUID;
-@property(copy, nonatomic) NSURL *shareURL; // @dynamic shareURL;
-@property(copy, nonatomic) NSData *sharingInvitationData; // @dynamic sharingInvitationData;
-@property(copy, nonatomic) NSDate *syncDate; // @dynamic syncDate;
 
 @end
 

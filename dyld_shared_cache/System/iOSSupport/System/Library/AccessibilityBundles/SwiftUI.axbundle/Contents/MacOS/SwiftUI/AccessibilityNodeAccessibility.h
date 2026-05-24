@@ -36,7 +36,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)cornerRadii;
 - (_Bool);
 
 @end

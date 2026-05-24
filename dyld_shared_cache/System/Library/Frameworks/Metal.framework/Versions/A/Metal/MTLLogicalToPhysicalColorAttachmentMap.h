@@ -11,12 +11,12 @@
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void)CIMattingSolverInternal;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (const unsigned long long *);
+- (const unsigned long long *)s;
 
 @end
 

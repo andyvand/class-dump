@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSRuleEditorLocalizer
 {
     NSMutableArray *_default;
-    NSMutableArray *_localized;
-    NSDictionary *_dictionary;
-    id _ruleEditorLocalizerReserved;
 }
 
-- (id);
+- (id)er_copy_connection_for_delegate_class() returned NULL;
 - (_Bool);
+- (_Bool)d;
 - (_Bool);
-- (_Bool);
+- (id)qdec:(unsigned long long)arg1 warn:(long long)arg2;
+- (id)/html;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id)¸íÿäíÿíÿ<íÿ;
 

@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSScreen, NSString;
-@protocol OS_dispatch_queue;
-
 @interface PXManualDisplayLink
 {
     _Bool _paused;
-    unsigned int _highFrameRateReason;
-    id _target;
-    SEL _selector;
-    double _duration;
-    long long _preferredFramesPerSecond;
-    double _targetTimestamp;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSScreen *screen;
-    unsigned long long _frameRateRangeType;
 }
 
 + (_Bool);
@@ -27,18 +15,20 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)N;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (double);
-- (double);
-- (void);
+- (double)_windowTitle;
 - (double);
 - (void);
-- (long long)ForTilingController: /* Error: Ran out of types for this method. */;
-- (void)ialProductionTimeLimit;
+- (double)XY = max((absP2-.5)*shadowHardness+1., 0.); 
+		} 
+		;
+- (void);
+- (long long)scrollBoundsForTilingController: /* Error: Ran out of types for this method. */;
+- (void)_rotationInitialProductionTimeLimit;
 - (id)ationSnapshot;
 - (void)"ó÷ÿ;
 - (unsigned int);
@@ -48,26 +38,7 @@
 - (id)l[;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentMediaTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned long long frameRateRangeType; // @synthesize frameRateRangeType=_frameRateRangeType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int highFrameRateReason; // @synthesize highFrameRateReason=_highFrameRateReason;
-@property(nonatomic) _Bool paused; // @synthesize paused=_paused;
 @property(nonatomic) long long preferredFramesPerSecond; // @synthesize preferredFramesPerSecond=_preferredFramesPerSecond;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) double resolvedDuration;
-@property(readonly, nonatomic) __weak NSScreen *screen; // @synthesize screen;
-@property(readonly, nonatomic) SEL selector; // @synthesize selector=_selector;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak id target; // @synthesize target=_target;
-@property(readonly, nonatomic) double targetTimestamp; // @synthesize targetTimestamp=_targetTimestamp;
-@property(readonly, nonatomic) double timestamp;
 
 @end
 

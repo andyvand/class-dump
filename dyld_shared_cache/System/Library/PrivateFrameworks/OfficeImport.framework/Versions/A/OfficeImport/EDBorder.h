@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDColorReference, EDResources;
+@class EDResources;
 
 __attribute__((visibility("hidden")))
 @interface EDBorder
 {
     EDResources *mResources;
-    int mType;
-    EDColorReference *mColorReference;
-    int mDiagonalType;
 }
 
 + (id);
@@ -24,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (id);
-- (id);
+- (id)g>;
 - (id);
 - (unsigned long long);
 - (int);

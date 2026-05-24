@@ -10,9 +10,6 @@
 {
     NSString *_identifier;
     NSString *_name;
-    NSString *_anchor;
-    struct CGPoint _contentOffset;
-    struct CGSize _contentSize;
 }
 
 + (_Bool);
@@ -21,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)Wrapper"8;
 - (id);
 - (id);
 - (void);
@@ -29,14 +26,11 @@
 - (void);
 - (id);
 - (struct CGSize)"HLPHelpTopicViewController"16@"NSError"24;
-- (void)habilityManagerConnectionStatusChanged:(id)arg1 connected: /* Error: Ran out of types for this method. */;
+- (void)reachabilityManagerConnectionStatusChanged:(id)arg1 connected: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *anchor; // @synthesize anchor=_anchor;
 @property(nonatomic) struct CGPoint contentOffset; // @synthesize contentOffset=_contentOffset;
 @property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

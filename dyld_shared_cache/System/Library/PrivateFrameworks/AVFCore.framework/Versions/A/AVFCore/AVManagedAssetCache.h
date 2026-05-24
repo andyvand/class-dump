@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
     AVManagedAssetCacheInternal *_priv;
 }
 
++ (id)pf;
++ (id)T;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)2;
 - (long long);
 - (void);
-- (void);
+- (void)T;
 - (long long);
 - (id);
+- (_Bool)̧;
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -35,8 +35,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool)lAssetOptions:fromPrimaryAsset: /* Error: Ran out of types for this method. */;
-- (long long)iption:orDecryptorDidChange:forTrackID: /* Error: Ran out of types for this method. */;
+- (_Bool)_populateInterstitialAssetOptions:fromPrimaryAsset: /* Error: Ran out of types for this method. */;
+- (long long)_figManifold:formatDescription:orDecryptorDidChange:forTrackID: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

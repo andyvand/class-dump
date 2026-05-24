@@ -4,57 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITransformer;
+@class UITransformer;
 
 @interface UISceneLayerPresentationContext
 {
     UITransformer *_transformer;
-    double _alpha;
-    _Bool _hidden;
-    _Bool _clippingDisabled;
-    unsigned long long _renderingMode;
-    NSString *_minificationFilterName;
 }
 
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (id)(;
+- (unsigned long long)reconcileAvailabilityForItemSagaIDs:completion: /* Error: Ran out of types for this method. */;
+- (void),V_artworkRequest;
+- (_Bool)hasClones;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id)d}{CGSize=dd}}16Q48d56i64B68;
-- (id)ator: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)lTransitionToSize:withTransitionCoordinator: /* Error: Ran out of types for this method. */;
+- (id)setShowsHighContrastFocusIndicator: /* Error: Ran out of types for this method. */;
+- (_Bool)objectWithItemProviderData:(id)arg1 typeIdentifier:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_super_viewWillTransitionToSize:withTransitionCoordinator: /* Error: Ran out of types for this method. */;
 - (void)V_clicksUpAutomaticallyAfterTimeout;
 - (id),&,N,V_expandedLayout;
 - (void)gCurveProvider>",R,N;
 - (id)aterial>",&,N,V_floatingBackground;
 - (void)?@;
 - (void)tton][_dividerLine(hairline)]|;
-- (id)tFormattingViewControllerTextAlignmentComponent;
+- (id)UITextFormattingViewControllerTextAlignmentComponent;
 - (double)¯­;
 - (void)ý7;
 - (void)ÐÈÿÕÛe;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setMinificationFilterName:) NSString *_minificationFilterName; // @synthesize _minificationFilterName;
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic, getter=isClippingDisabled) _Bool clippingDisabled; // @synthesize clippingDisabled=_clippingDisabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(nonatomic) unsigned long long renderingMode; // @synthesize renderingMode=_renderingMode;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITransformer *transformer; // @synthesize transformer=_transformer;
 
 @end

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNMeCardSharingOnboardingAvatarCarouselViewController, CNMeCardSharingPickerLayoutAttributes, NSString, UILabel;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNMeCardSharingOnboardingHeaderViewController
 {
     NSString *_headerTitle;
-    CNMeCardSharingOnboardingAvatarCarouselViewController *_avatarCarouselController;
-    unsigned long long _mode;
-    CNMeCardSharingPickerLayoutAttributes *_layoutAttributes;
-    UILabel *_headerLabel;
 }
 
 + (double);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
@@ -30,15 +26,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)ùqu°1Â0@ù
 × ;
-- (void)dController;
+- (void)_displayedController;
 - (void)nè;
 
 // Remaining properties
-@property(retain, nonatomic) CNMeCardSharingOnboardingAvatarCarouselViewController *avatarCarouselController; // @synthesize avatarCarouselController=_avatarCarouselController;
-@property(retain, nonatomic) UILabel *headerLabel; // @synthesize headerLabel=_headerLabel;
 @property(retain, nonatomic) NSString *headerTitle; // @synthesize headerTitle=_headerTitle;
-@property(retain, nonatomic) CNMeCardSharingPickerLayoutAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
 
 @end
 

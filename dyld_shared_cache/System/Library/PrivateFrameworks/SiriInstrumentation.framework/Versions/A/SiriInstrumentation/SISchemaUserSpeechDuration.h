@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface SISchemaUserSpeechDuration : SISchemaInstrumentationMessage
 {
     long long _durationMs;
-    NSString *_resultCandidateId;
-    struct {
-        unsigned int durationMs:1;
-    } _has;
-    _Bool _hasResultCandidateId;
 }
 
 - (void);
@@ -28,23 +21,19 @@
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id)kF;
 - (void);
-- (unsigned long long);
+- (unsigned long long)installTestFlightApps:onPairedDevice:withReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)Invalid predicate, unsupported column %@;
 - (id);
 - (id);
-- (id)teIfflowErrorCode;
-- (id)essionName;
-- (void)GISTERED;
+- (id)deleteIfflowErrorCode;
+- (id)_hasExpressionName;
+- (void)CDMXPCSYSTEMEVENTTYPE_APPLICATION_REGISTERED;
 
 // Remaining properties
 @property(nonatomic) long long durationMs; // @synthesize durationMs=_durationMs;
-@property(nonatomic) _Bool hasDurationMs;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
 
 @end
 

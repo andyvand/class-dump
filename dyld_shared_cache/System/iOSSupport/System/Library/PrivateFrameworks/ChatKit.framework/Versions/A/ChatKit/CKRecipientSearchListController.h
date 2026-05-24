@@ -4,67 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContactsSearchManager, IDSBatchIDQueryController, IMAccount, NSArray, NSDate, NSString;
-@protocol CKRecipientSearchListControllerDelegate;
+@class CKContactsSearchManager;
 
 __attribute__((visibility("hidden")))
 @interface CKRecipientSearchListController
 {
     _Bool shouldHideGroupsDonations;
-    _Bool _smsEnabled;
-    NSArray *_enteredRecipients;
-    NSArray *_prefilteredRecipients;
-    IMAccount *_defaultiMessageAccount;
-    IDSBatchIDQueryController *_statusQueryController;
-    NSArray *_searchResults;
-    CKContactsSearchManager *_searchManager;
-    NSDate *_idsQueryStartTime;
-    NSArray *_conversationCache;
 }
 
+- (void)setReturnsObjectsAsFaults: /* Error: Ran out of types for this method. */;
+- (_Bool)localizedFailureReason;
+- (id)isApplicationActive;
+- (_Bool)ic_fontWithoutSingleLineA;
+- (void)filterInlineAttachmentsInTableColumnTextStorage:(_Bool)arg1 range: /* Error: Ran out of types for this method. */;
+- (void)extractPreviewImagesFromSynapseData:(id)arg1;
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (BOOL);
-- (id);
-- (void);
-- (void);
+- (void)drawInRect:(_Bool)arg1 withAttributes: /* Error: Ran out of types for this method. */;
+- (void)deletePDFFolderIfExistsForAttachment:(id)arg1;
+- (void)countForSection:(id)arg1;
+- (void)anyVisibleInstanceOfHashtag:(id)arg1;
+- (void)_webView:(id)arg1 willSubmitFormValues:frameInfo:sourceFrameInfo:userObject:submissionHandler: /* Error: Ran out of types for this method. */;
+- (void)_unhiddenSearchResults;
+- (void)_sharedObjectsNotFromDestinationFolderInSource;
+- (id)led,V_sixChannelBlendingEnabled;
+- (id)elegate;
 - (_Bool);
 - (void);
 - (void);
+- (long long)reamControllingP;
+- (id);
+- (id);
+- (id)r;
+- (id)i;
+- (id);
+- (void).;
+- (void);
+- (id)aper title query;
+- (BOOL)= nil);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)N,V_clearButtonMode;
 - (void);
 - (void)ð1Â0@ù
 × ;
@@ -74,25 +64,7 @@ __attribute__((visibility("hidden")))
 - (id)};
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *conversationCache; // @synthesize conversationCache=_conversationCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) IMAccount *defaultiMessageAccount; // @synthesize defaultiMessageAccount=_defaultiMessageAccount;
-@property(nonatomic) __weak id <CKRecipientSearchListControllerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *enteredRecipients; // @synthesize enteredRecipients=_enteredRecipients;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *idsQueryStartTime; // @synthesize idsQueryStartTime=_idsQueryStartTime;
-@property(retain, nonatomic) NSArray *prefilteredRecipients; // @synthesize prefilteredRecipients=_prefilteredRecipients;
 @property(retain, nonatomic) CKContactsSearchManager *searchManager; // @synthesize searchManager=_searchManager;
-@property(copy, nonatomic) NSArray *searchResults; // @synthesize searchResults=_searchResults;
-@property(nonatomic) _Bool shouldHideGroupsDonations; // @synthesize shouldHideGroupsDonations;
-@property(nonatomic) _Bool smsEnabled; // @synthesize smsEnabled=_smsEnabled;
-@property(retain, nonatomic) IDSBatchIDQueryController *statusQueryController; // @synthesize statusQueryController=_statusQueryController;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressGroupSuggestions;
 
 @end
 

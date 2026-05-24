@@ -7,8 +7,6 @@
 @interface HomeKitDaemon.CleanEnergyAutomationConfigurationLogEventFactory
 {
     id dataSource;
-    id countersManager;
-    id logEventDispatcher;
 }
 
 - (id);
@@ -16,7 +14,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);ü

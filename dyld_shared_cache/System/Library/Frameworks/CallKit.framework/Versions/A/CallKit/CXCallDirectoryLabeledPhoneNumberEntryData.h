@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CXCallDirectoryLabeledPhoneNumberEntryData
 {
     NSData *_phoneNumberData;
-    NSData *_labelData;
 }
 
 + (_Bool);
 - (const char *);
-- (void);
+- (void)b;
 - (void);
 - (long long);
 - (id);
 - (id);
 - (id);
+- (id)sB ˵;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (void)MediaItemPropertyArtistPersistentID();
+- (unsigned long long)_uniqueIdentifierToCloudObjectID;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *labelData; // @synthesize labelData=_labelData;
 @property(retain, nonatomic) NSData *phoneNumberData; // @synthesize phoneNumberData=_phoneNumberData;
-@property(readonly) Class superclass;
 
 @end
 

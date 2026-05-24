@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOScoreCategory
 {
     PBUnknownFields *_unknownFields;
-    NSString *_name;
-    float _score;
-    CDStruct_f58e6c32 _flags;
 }
 
-+ (_Bool)youtInfo:(id)arg1;
-- (void);
++ (_Bool)setMapUiLayoutInfo:(id)arg1;
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)_recordingInfoForEvent:(id)arg1 audioAlertStyle:includeBTInfo:includeRecordDeviceInfo: /* Error: Ran out of types for this method. */;
+- (id)Name:%@, processedAudioDurationInMilliseconds:%ld, acousticEndpointerScore:%f} /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)@"GEOActiveResourceFilter";
-- (id)mLabel;
-- (float)ImageServiceImage;
-- (id)Info;
+- (id)hasCustomLabel;
+- (float)GEOImageServiceImage;
+- (id)GEOEVStateInfo;
 - (id)=b40b6b26b26b14b4b4}{_GEOGloriaQuadIDTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}8@"GEOTileData"16;
 - (void)4;
 - (void)ÄôÔ;
@@ -41,10 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasScore;
-@property(retain, nonatomic) NSString *name;
-@property(nonatomic) float score;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

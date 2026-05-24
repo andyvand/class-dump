@@ -9,22 +9,19 @@
 @interface WBSOpenApplicationsPreferenceValueList
 {
     NSMutableOrderedSet *_alwaysAllowedSchemes;
-    unsigned long long _currentSize;
-    NSString *_domain;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)0E;
+- (id);
+- (id);
 - (void);
 - (id)n³;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, copy, nonatomic) NSString *serializedRepresentation;
 
 @end
 

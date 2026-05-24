@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSURL, NSXPCConnection;
+@class NSURL;
 
 @interface XProtectScan
 {
     NSURL *_fileURL;
-    NSData *_fileData;
-    NSDictionary *_lsProperties;
-    CDUnknownBlockType _feedbackHandler;
-    CDUnknownBlockType _resultsHandler;
-    NSXPCConnection *_xpc;
-    NSDate *_scanStartTime;
-    _Bool _continueOnError;
-    _Bool _requestedInterpreterScriptScan;
-    _Bool requireInProcess;
-    _Bool _onlyForcedRules;
-    unsigned long long interpreterType;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
+- (void)qa;
 - (_Bool);
 - (void);
 - (void);
@@ -33,21 +22,17 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)zoneStateByZoneID;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property _Bool continueOnError; // @synthesize continueOnError=_continueOnError;
 @property(retain) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(nonatomic) unsigned long long interpreterType; // @synthesize interpreterType;
-@property(nonatomic) _Bool onlyForcedRules; // @synthesize onlyForcedRules=_onlyForcedRules;
-@property(nonatomic) _Bool requireInProcess; // @synthesize requireInProcess;
 
 @end
 

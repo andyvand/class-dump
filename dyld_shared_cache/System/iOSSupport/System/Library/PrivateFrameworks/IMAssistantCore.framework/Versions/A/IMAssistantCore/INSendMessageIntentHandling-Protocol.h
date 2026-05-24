@@ -5,5 +5,8 @@
 //
 
 @protocol INSendMessageIntentHandling
+
+@optional
+- (void);
 @end
 

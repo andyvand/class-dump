@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface PK_ipp_t
 {
     int _state;
-    unsigned int _request_id;
-    _Bool _addAttributesInAppropriateGroups;
-    NSMutableArray *_attrs;
-    unsigned short _op_or_status;
-    NSData *_dataRemaining;
 }
 
 + (_Bool);
@@ -42,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)~);
 - (unsigned int);
 - (id);
 - (id);
@@ -55,17 +50,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)tring;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)_gatherElementInfoForElement:withRange:withPreviousElementInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSMutableArray *attrs; // @synthesize attrs=_attrs;
 @property(readonly) NSData *dataRemaining; // @synthesize dataRemaining=_dataRemaining;
-@property unsigned short op_or_status; // @synthesize op_or_status=_op_or_status;
-@property unsigned int request_id; // @synthesize request_id=_request_id;
-@property int state; // @synthesize state=_state;
 
 @end
 

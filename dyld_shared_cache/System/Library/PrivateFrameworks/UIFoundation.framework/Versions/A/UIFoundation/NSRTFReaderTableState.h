@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSTextTable;
+@class NSTextTable;
 
 @interface NSRTFReaderTableState
 {
     NSTextTable *_currentTable;
-    NSTextTable *_previousTable;
-    NSMutableArray *_currentRowArray;
-    NSMutableArray *_previousRowArray;
-    int _currentRow;
-    int _currentColumn;
-    int _currentDefinitionColumn;
-    _Bool _currentRowIsLast;
 }
 
 - (void);

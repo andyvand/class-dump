@@ -7,23 +7,10 @@
 @interface CLSSummaryClustering
 {
     _Bool _enableDensityClusteringLocationsDistance;
-    _Bool _enableAdaptiveElectionSmoother;
-    _Bool _enableAdaptiveElectionSmootherAutomaticLimit;
-    double _optimalDayDistributionThreshold;
-    unsigned long long _timeSpanDensityAverageNumberOfObjects;
-    unsigned long long _densityClusteringLocationsDistanceUnit;
-    double _diffuseDensityClusteringMaximumDistance;
-    unsigned long long _diffuseDensityClusteringMinimumNumberOfObjects;
-    double _conciseDensityClusteringMaximumDistance;
-    unsigned long long _conciseDensityClusteringMinimumNumberOfObjects;
-    unsigned long long _adaptiveElectionMinimumNumberOfItemsByCluster;
-    unsigned long long _adaptiveElectionMaximumNumberOfItemsByCluster;
-    unsigned long long _adaptiveElectionSmootherMaximumLimit;
-    unsigned long long _adaptiveElectionSmootherMinimumLimit;
 }
 
 + (double);
-+ (double);
++ (double)!;
 + (double);
 - (unsigned long long);
 - (void);
@@ -35,10 +22,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)c;
 - (void);
 - (id);
 - (id);
@@ -59,23 +46,10 @@
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)CuratedLibraryIntelligenceMetricsProcessingLevels;
 
 // Remaining properties
-@property(nonatomic) unsigned long long adaptiveElectionMaximumNumberOfItemsByCluster; // @synthesize adaptiveElectionMaximumNumberOfItemsByCluster=_adaptiveElectionMaximumNumberOfItemsByCluster;
-@property(nonatomic) unsigned long long adaptiveElectionMinimumNumberOfItemsByCluster; // @synthesize adaptiveElectionMinimumNumberOfItemsByCluster=_adaptiveElectionMinimumNumberOfItemsByCluster;
-@property(nonatomic) unsigned long long adaptiveElectionSmootherMaximumLimit; // @synthesize adaptiveElectionSmootherMaximumLimit=_adaptiveElectionSmootherMaximumLimit;
-@property(nonatomic) unsigned long long adaptiveElectionSmootherMinimumLimit; // @synthesize adaptiveElectionSmootherMinimumLimit=_adaptiveElectionSmootherMinimumLimit;
-@property(nonatomic) double conciseDensityClusteringMaximumDistance; // @synthesize conciseDensityClusteringMaximumDistance=_conciseDensityClusteringMaximumDistance;
-@property(nonatomic) unsigned long long conciseDensityClusteringMinimumNumberOfObjects; // @synthesize conciseDensityClusteringMinimumNumberOfObjects=_conciseDensityClusteringMinimumNumberOfObjects;
-@property(nonatomic) unsigned long long densityClusteringLocationsDistanceUnit; // @synthesize densityClusteringLocationsDistanceUnit=_densityClusteringLocationsDistanceUnit;
-@property(nonatomic) double diffuseDensityClusteringMaximumDistance; // @synthesize diffuseDensityClusteringMaximumDistance=_diffuseDensityClusteringMaximumDistance;
-@property(nonatomic) unsigned long long diffuseDensityClusteringMinimumNumberOfObjects; // @synthesize diffuseDensityClusteringMinimumNumberOfObjects=_diffuseDensityClusteringMinimumNumberOfObjects;
-@property(nonatomic) _Bool enableAdaptiveElectionSmoother; // @synthesize enableAdaptiveElectionSmoother=_enableAdaptiveElectionSmoother;
-@property(nonatomic) _Bool enableAdaptiveElectionSmootherAutomaticLimit; // @synthesize enableAdaptiveElectionSmootherAutomaticLimit=_enableAdaptiveElectionSmootherAutomaticLimit;
-@property(nonatomic) _Bool enableDensityClusteringLocationsDistance; // @synthesize enableDensityClusteringLocationsDistance=_enableDensityClusteringLocationsDistance;
 @property(nonatomic) double optimalDayDistributionThreshold; // @synthesize optimalDayDistributionThreshold=_optimalDayDistributionThreshold;
-@property(nonatomic) unsigned long long timeSpanDensityAverageNumberOfObjects; // @synthesize timeSpanDensityAverageNumberOfObjects=_timeSpanDensityAverageNumberOfObjects;
 
 @end
 

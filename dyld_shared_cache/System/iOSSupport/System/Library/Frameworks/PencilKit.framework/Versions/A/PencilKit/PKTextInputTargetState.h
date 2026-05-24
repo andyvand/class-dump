@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTextInputQueryItem, NSNumber, NSString, NSUUID, PKTextInputHandwritingShot;
+@class NSNumber;
 
 @interface PKTextInputTargetState
 {
     _Bool _nextCommitShouldHavePrecedingSeparator;
-    NSNumber *_elementRecognitionIdentifier;
-    CHTextInputQueryItem *_lastQueryItem;
-    PKTextInputHandwritingShot *_handwritingShot;
-    NSNumber *_writingSessionIdentifier;
-    NSString *_uncommittedPendingText;
-    NSString *_activePreviewText;
-    long long _sessionCommitLength;
-    long long _lastCommittedCharacterLevelPosition;
-    NSUUID *_inProgressGestureStrokeUUID;
-    double _inProgressGestureStartTimestamp;
-    double _lastUpdateTimestamp;
-    struct _NSRange _inProgressGestureInitialSelectedRange;
-    struct _NSRange _inProgressGestureSelectionRange;
-    struct _NSRange _inProgressGestureRangeToDelete;
 }
 
 - (id);
@@ -54,7 +40,7 @@
 - (void);
 - (struct _NSRange);
 - (id);
-- (void);
+- (void)ckShouldUpdateaudioBalloonTranscriptionFont;
 - (double);
 - (id);
 - (id);
@@ -63,28 +49,7 @@
 - (void)ry",R,N,V_metadataDictionary;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activePreviewText; // @synthesize activePreviewText=_activePreviewText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSNumber *elementRecognitionIdentifier; // @synthesize elementRecognitionIdentifier=_elementRecognitionIdentifier;
-@property(retain, nonatomic) PKTextInputHandwritingShot *handwritingShot; // @synthesize handwritingShot=_handwritingShot;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct _NSRange inProgressGestureInitialSelectedRange; // @synthesize inProgressGestureInitialSelectedRange=_inProgressGestureInitialSelectedRange;
-@property(nonatomic) struct _NSRange inProgressGestureRangeToDelete; // @synthesize inProgressGestureRangeToDelete=_inProgressGestureRangeToDelete;
-@property(nonatomic) struct _NSRange inProgressGestureSelectionRange; // @synthesize inProgressGestureSelectionRange=_inProgressGestureSelectionRange;
-@property(nonatomic) double inProgressGestureStartTimestamp; // @synthesize inProgressGestureStartTimestamp=_inProgressGestureStartTimestamp;
-@property(retain, nonatomic) NSUUID *inProgressGestureStrokeUUID; // @synthesize inProgressGestureStrokeUUID=_inProgressGestureStrokeUUID;
-@property(nonatomic) long long lastCommittedCharacterLevelPosition; // @synthesize lastCommittedCharacterLevelPosition=_lastCommittedCharacterLevelPosition;
-@property(retain, nonatomic) CHTextInputQueryItem *lastQueryItem; // @synthesize lastQueryItem=_lastQueryItem;
-@property(nonatomic) double lastUpdateTimestamp; // @synthesize lastUpdateTimestamp=_lastUpdateTimestamp;
-@property(nonatomic) _Bool nextCommitShouldHavePrecedingSeparator; // @synthesize nextCommitShouldHavePrecedingSeparator=_nextCommitShouldHavePrecedingSeparator;
-@property(nonatomic) long long sessionCommitLength; // @synthesize sessionCommitLength=_sessionCommitLength;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *uncommittedPendingText; // @synthesize uncommittedPendingText=_uncommittedPendingText;
-@property(copy, nonatomic) NSNumber *writingSessionIdentifier; // @synthesize writingSessionIdentifier=_writingSessionIdentifier;
 
 @end
 

@@ -6,37 +6,31 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface DMFUpdateDeclarationsRequest : DMFTaskRequest
 {
     NSString *_organizationIdentifier;
-    NSString *_syncToken;
-    NSArray *_upsertDeclarations;
-    NSArray *_removeDeclarations;
 }
 
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)	;
++ (_Bool);
 + (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)constraintsForInvisibleLabelAndVisibleDividerLine;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *organizationIdentifier; // @synthesize organizationIdentifier=_organizationIdentifier;
-@property(copy, nonatomic) NSArray *removeDeclarations; // @synthesize removeDeclarations=_removeDeclarations;
-@property(copy, nonatomic) NSString *syncToken; // @synthesize syncToken=_syncToken;
-@property(copy, nonatomic) NSArray *upsertDeclarations; // @synthesize upsertDeclarations=_upsertDeclarations;
 
 @end
 

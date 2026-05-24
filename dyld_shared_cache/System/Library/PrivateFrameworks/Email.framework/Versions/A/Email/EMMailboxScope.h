@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface EMMailboxScope
 {
     unsigned long long _hash;
-    _Bool _excludeTypes;
-    _Bool _excludeMailboxes;
-    NSSet *_mailboxTypes;
-    NSSet *_mailboxObjectIDs;
 }
 
++ (id)};
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)resumeMonitoringFoldersWithIDs:(id)arg1;
 + (id);
 + (_Bool);
 - (id);
@@ -30,16 +24,16 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)monitorFoldersWithIDs:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_allowOpenJournalFile;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -51,22 +45,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) _Bool excludeMailboxes; // @synthesize excludeMailboxes=_excludeMailboxes;
-@property(readonly, nonatomic) _Bool excludeTypes; // @synthesize excludeTypes=_excludeTypes;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSSet *mailboxObjectIDs; // @synthesize mailboxObjectIDs=_mailboxObjectIDs;
-@property(readonly, copy, nonatomic) NSSet *mailboxTypes; // @synthesize mailboxTypes=_mailboxTypes;
-@property(readonly) Class superclass;
 
 @end
 

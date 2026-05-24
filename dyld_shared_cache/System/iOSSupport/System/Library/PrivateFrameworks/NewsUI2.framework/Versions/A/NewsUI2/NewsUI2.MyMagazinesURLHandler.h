@@ -7,7 +7,6 @@
 @interface NewsUI2.MyMagazinesURLHandler
 {
     id patterns;
-    id magazineActivityNavigator;
 }
 
 @end

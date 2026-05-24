@@ -4,20 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)mon_Window;
+- (id)kBuilder_open_common_Window;
+- (id);
+- (id)Builder_noVerb_common_Number;
+- (Class)uilder_noVerb_common_Translation;
+- (unsigned long long)Aggregate activation (seed %llu) failed with error %#m.
+;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool)1Â0@ù
 × ;
 - (struct _NSZone *)etched registered bundleIDs%{public}@%@ for URL %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

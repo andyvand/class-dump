@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSAuthenticateOptions, NSDictionary, NSString;
+@class ACAccount;
 
 @interface AMSAuthenticateRequest
 {
     _Bool _isServerRequested;
-    ACAccount *_account;
-    NSString *_logKey;
-    AMSAuthenticateOptions *_options;
-    NSDictionary *_userInfo;
 }
 
 + (_Bool);
@@ -22,23 +18,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ed with success:%@, error %@ /* Error: Ran out of types for this method. */;
+- (id)ollectorEventOptionsButtonTapped;
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (void);
-- (id);
-- (void)eConsentWithStatus:(id)arg1;
+- (id);
+- (void)performUpdateConsentWithStatus:(id)arg1;
 - (void);
 - (void)2øhG^/ÿ²©êÂO ½:TÌKxjÿ&Ý¦ábË£ÛÁ|¡_º"¾H\²Ü§?Ò0-1G°yÑW)âÖ?üzîDÆn¶ÌÃ6C¢ÐÀø4ë*G¼Ðó±:è°E­z£ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property _Bool isServerRequested; // @synthesize isServerRequested=_isServerRequested;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property(retain) AMSAuthenticateOptions *options; // @synthesize options=_options;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

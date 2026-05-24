@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSURL;
 
 @interface CTLazuliFileTransferCapabilities
 {
     _Bool _autoAccept;
-    _Bool _httpFallback;
-    NSURL *_url;
-    NSURL *_contentServerUploadUrl;
-    NSURL *_contentServerDownloadUrl;
-    NSString *_userName;
-    NSString *_password;
-    NSNumber *_max1ToManyRecipients;
-    NSNumber *_maxTransferSize;
-    NSNumber *_warnSize;
 }
 
-+ (_Bool);
++ (_Bool)contentKeyRequestEvents;
 - (id);
 - (void);
 - (void);
@@ -38,30 +29,21 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id);
+- (void)M;
 - (_Bool);
-- (void);
+- (void)0Properties;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)initWithModificationType:item:afterItem: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)&Ð!ÈFùª)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool autoAccept; // @synthesize autoAccept=_autoAccept;
-@property(retain, nonatomic) NSURL *contentServerDownloadUrl; // @synthesize contentServerDownloadUrl=_contentServerDownloadUrl;
-@property(retain, nonatomic) NSURL *contentServerUploadUrl; // @synthesize contentServerUploadUrl=_contentServerUploadUrl;
-@property(nonatomic) _Bool httpFallback; // @synthesize httpFallback=_httpFallback;
-@property(retain, nonatomic) NSNumber *max1ToManyRecipients; // @synthesize max1ToManyRecipients=_max1ToManyRecipients;
-@property(retain, nonatomic) NSNumber *maxTransferSize; // @synthesize maxTransferSize=_maxTransferSize;
-@property(retain, nonatomic) NSString *password; // @synthesize password=_password;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(retain, nonatomic) NSString *userName; // @synthesize userName=_userName;
-@property(retain, nonatomic) NSNumber *warnSize; // @synthesize warnSize=_warnSize;
 
 @end
 

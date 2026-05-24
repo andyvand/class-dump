@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata, _INPBLocation;
+@class _INPBLocation;
 
 @interface _INPBListRideOptionsIntent
 {
     struct _has;
-    _INPBLocation *_dropOffLocation;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBLocation *_pickupLocation;
 }
 
 + (_Bool);
@@ -35,19 +32,7 @@
 - (void)otRequired.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBLocation *dropOffLocation; // @synthesize dropOffLocation=_dropOffLocation;
-@property(readonly, nonatomic) _Bool hasDropOffLocation;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasPickupLocation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBLocation *pickupLocation; // @synthesize pickupLocation=_pickupLocation;
-@property(readonly) Class superclass;
 
 @end
 

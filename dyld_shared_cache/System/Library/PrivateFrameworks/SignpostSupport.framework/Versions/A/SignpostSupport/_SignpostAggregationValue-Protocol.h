@@ -7,11 +7,11 @@
 @class NSString, SignpostAggregationValueStats;
 
 @protocol _SignpostAggregationValue
+- (_Bool);
+- (SignpostAggregationValueStats *)ef_rangeOfCharactersFromSet:options:range: /* Error: Ran out of types for this method. */;
 - (NSString *)ystemwideCommits;
 
 // Remaining properties
-@property(readonly, nonatomic) SignpostAggregationValueStats *stats;
-@property(nonatomic) _Bool telemetryEnabled;
 @property(readonly, nonatomic) NSString *unit;
 @end
 

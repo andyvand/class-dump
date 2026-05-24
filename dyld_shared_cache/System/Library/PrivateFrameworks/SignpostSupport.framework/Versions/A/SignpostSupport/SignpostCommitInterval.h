@@ -6,15 +6,9 @@
 
 #import <SignpostSupport/SignpostAnimationSubInterval.h>
 
-@class NSString;
-
 @interface SignpostCommitInterval : SignpostAnimationSubInterval
 {
     unsigned int _transactionSeed;
-    int _pid;
-    unsigned long long _threadID;
-    NSString *_processName;
-    NSString *_executablePath;
 }
 
 - (id);
@@ -22,14 +16,10 @@
 - (int);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *executablePath; // @synthesize executablePath=_executablePath;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(readonly, nonatomic) unsigned long long threadID; // @synthesize threadID=_threadID;
 @property(readonly, nonatomic) unsigned int transactionSeed; // @synthesize transactionSeed=_transactionSeed;
 
 @end

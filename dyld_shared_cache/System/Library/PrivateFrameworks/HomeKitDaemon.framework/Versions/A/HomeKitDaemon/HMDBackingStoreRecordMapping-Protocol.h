@@ -7,12 +7,10 @@
 @class NSString, NSUUID;
 
 @protocol HMDBackingStoreRecordMapping
+- (NSUUID *);
 - (NSUUID *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *parentUuid;
 @property(readonly, nonatomic) NSString *recordName;
-@property(readonly, nonatomic) NSString *type;
-@property(readonly, nonatomic) NSUUID *uuid;
 @end
 

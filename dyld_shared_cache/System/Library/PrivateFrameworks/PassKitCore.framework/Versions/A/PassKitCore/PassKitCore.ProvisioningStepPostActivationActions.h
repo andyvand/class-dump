@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningStepPostActivationActions
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
 @end

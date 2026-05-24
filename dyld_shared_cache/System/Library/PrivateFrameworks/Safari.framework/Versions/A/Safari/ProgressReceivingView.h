@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)originalTextRangesByPart;
+- (void)?;
 - (void)ÿÿz;
 
 // Remaining properties

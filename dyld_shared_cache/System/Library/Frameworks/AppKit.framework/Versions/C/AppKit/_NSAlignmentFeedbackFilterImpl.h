@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAlignmentFeedbackFilter, NSTimer;
+@class NSAlignmentFeedbackFilter;
 
 __attribute__((visibility("hidden")))
 @interface _NSAlignmentFeedbackFilterImpl
 {
     NSAlignmentFeedbackFilter *_filter;
-    long long _flags;
-    id _velocityFilter;
-    double _currentTimestamp;
-    double _lastMovementTimestamp;
-    struct CGPoint _currentLocation;
-    unsigned long long _currentModifierFlags;
-    NSTimer *_periodicUpdateTimer;
-    double _lastAcceptVelocityTime;
-    double _snapDistance;
 }
 
-+ (unsigned long long);
++ (unsigned long long)MISUSE]:Capture streams called on a URLSessionStreamTask after task has completed /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)@;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (CDUnknownBlockType);
+- (_Bool)red_weak_count}};
+- (_Bool)setClasses:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (_Bool)outboundConnectionReceivedData:handler: /* Error: Ran out of types for this method. */;
+- (void)used in call to allowsSpecificHTTPSCertificateForHost;
+- (CDUnknownBlockType)Lh;
 - (id);
 - (void);
 - (void);

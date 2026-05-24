@@ -5,5 +5,6 @@
 //
 
 @protocol MLMediaLibraryProtocol
+- (void);
 @end
 

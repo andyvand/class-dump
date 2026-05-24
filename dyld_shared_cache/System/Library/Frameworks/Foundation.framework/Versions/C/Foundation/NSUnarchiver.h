@@ -9,20 +9,6 @@
 @interface NSUnarchiver : NSCoder
 {
     void *datax;
-    unsigned long long cursor;
-    struct _NSZone *objectZone;
-    unsigned long long systemVersion;
-    BOOL streamerVersion;
-    BOOL swap;
-    BOOL unused1;
-    BOOL unused2;
-    void *pointerTable;
-    void *stringTable;
-    id classVersions;
-    long long lastLabel;
-    void *map;
-    void *allUnarchivedObjects;
-    id reserved;
 }
 
 + (id);
@@ -31,18 +17,18 @@
 + (id);
 + (void);
 - (void);
-- (struct _NSZone *);
+- (struct _NSZone *)v;
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)0;
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned int)1Â0@ù
@@ -54,7 +40,6 @@
 
 // Remaining properties
 @property(readonly, getter=isAtEnd) _Bool atEnd;
-@property(readonly) unsigned int systemVersion;
 
 @end
 

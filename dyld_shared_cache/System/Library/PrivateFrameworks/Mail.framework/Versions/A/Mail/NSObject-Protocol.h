@@ -7,6 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (id)TH;
+- (id)r;
+- (id);
+- (Class)C	Tb;
+- (unsigned long long);
+- (oneway void);
+- (NSString *)_forceFTPDirectoryListings;
+- (unsigned long long)initWithStartLine:startColumn:endLine:endColumn: /* Error: Ran out of types for this method. */;
+- (_Bool)A;
+- (_Bool)contents;
 - (id)x"$#0Ü1Ô2;
 - (_Bool)blic}s] [{%.*hx}-%{sensitive,mask.mailbox}s] Did not search for unread messages. Server unread count %ld.;
 
@@ -14,12 +24,6 @@
 - (struct _NSZone *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

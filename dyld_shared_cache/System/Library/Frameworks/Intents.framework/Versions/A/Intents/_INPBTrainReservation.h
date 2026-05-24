@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBReservation, _INPBSeat, _INPBTrainTrip;
+@class _INPBReservation;
 
 @interface _INPBTrainReservation
 {
     struct _has;
-    _INPBReservation *_reservation;
-    _INPBSeat *_reservedSeat;
-    _INPBTrainTrip *_trainTrip;
 }
 
-+ (_Bool);
++ (_Bool)(;
 - (id);
 - (void);
 - (void);
@@ -25,7 +22,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -35,19 +32,7 @@
 - (void)fidence;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasReservation;
-@property(readonly, nonatomic) _Bool hasReservedSeat;
-@property(readonly, nonatomic) _Bool hasTrainTrip;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBReservation *reservation; // @synthesize reservation=_reservation;
-@property(retain, nonatomic) _INPBSeat *reservedSeat; // @synthesize reservedSeat=_reservedSeat;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBTrainTrip *trainTrip; // @synthesize trainTrip=_trainTrip;
 
 @end
 

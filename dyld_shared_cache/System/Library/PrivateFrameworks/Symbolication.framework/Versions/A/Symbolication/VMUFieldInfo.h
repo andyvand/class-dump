@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, VMUClassInfo;
+@class NSString;
 
 @interface VMUFieldInfo
 {
     NSString *_ivarName;
-    NSString *_typeName;
-    unsigned int _scanType;
-    unsigned int _offset;
-    unsigned int _size;
-    unsigned int _scannable;
-    unsigned int _stride;
-    unsigned int _flags;
-    VMUClassInfo *_destinationLayout;
-    NSMutableArray *_subFieldArray;
-    NSArray *_possibleEnumPayloadFieldArray;
-    unsigned long long *_swiftTyperef;
 }
 
-- (id);
+- (id)H;
 - (_Bool);
 - (unsigned long long *);
 - (id);
 - (void);
-- (void);
+- (void)ܚ5;
 - (unsigned int);
 - (id);
 - (id);
@@ -37,16 +26,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (id)*;
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -57,14 +46,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (unsigned int);
 - (unsigned long long);
@@ -80,32 +69,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int bitfieldWidth;
-@property(retain, nonatomic) VMUClassInfo *destinationLayout;
 @property(readonly, nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) _Bool isArrayEntries;
-@property(readonly, nonatomic) _Bool isArraySize;
-@property(readonly, nonatomic) _Bool isByref;
-@property(readonly, nonatomic) _Bool isCapture;
-@property(readonly, nonatomic) _Bool isKeyField;
-@property(readonly, nonatomic) _Bool isKeysPointer;
-@property(readonly, nonatomic) _Bool isStorageBitmapPointer;
-@property(readonly, nonatomic) _Bool isStorageImplPointer;
-@property(readonly, nonatomic) _Bool isValueField;
-@property(readonly, nonatomic) _Bool isValuesPointer;
-@property(readonly, nonatomic) NSString *ivarName; // @synthesize ivarName=_ivarName;
-@property(readonly) unsigned int kind;
-@property(readonly) unsigned int offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) NSArray *possibleEnumPayloadFieldArray;
-@property(readonly) unsigned int scanType; // @synthesize scanType=_scanType;
-@property(readonly) unsigned int scannableSize; // @synthesize scannableSize=_scannable;
-@property(readonly) unsigned int size; // @synthesize size=_size;
-@property(readonly) unsigned int stride; // @synthesize stride=_stride;
-@property(readonly, nonatomic) NSArray *subFieldArray;
-@property(readonly, nonatomic) unsigned long long *swiftTyperef; // @synthesize swiftTyperef=_swiftTyperef;
-@property(readonly, nonatomic) NSString *typeName; // @synthesize typeName=_typeName;
-@property(readonly, nonatomic) _Bool typeNameMayDescribeReferencedAllocation;
-@property(readonly) NSString *typedDescription;
 
 @end
 

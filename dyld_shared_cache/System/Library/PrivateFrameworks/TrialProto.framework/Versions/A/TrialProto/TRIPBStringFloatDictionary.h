@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBStringFloatDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -30,8 +29,8 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (void)seEvaluation;
+- (void)(;
+- (void)SiriSelfLighthouseEvaluation;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

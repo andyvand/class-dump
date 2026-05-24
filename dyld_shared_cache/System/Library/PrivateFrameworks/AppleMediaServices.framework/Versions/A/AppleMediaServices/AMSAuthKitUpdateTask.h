@@ -6,12 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSAuthenticateOptions, NSString;
+@class ACAccount;
 
 @interface AMSAuthKitUpdateTask : AMSTask
 {
     ACAccount *_account;
-    AMSAuthenticateOptions *_options;
 }
 
 + (void);
@@ -26,24 +25,16 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)';
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)ringFormat is a required override in %@;
 - (id);
 - (void)S¬SÍS>S_SÔSµSFS'SSsSSáSñSScSS7SVS¥SÄSOS.SÝS¼SSèSSzïSîS}íSìSïëSÚêS»éSHèS)çS¢æSÃåS0äSQãSdâSáSöàSÿSþSæýSüStûSAúS ùSÓøS²÷S9öSXõS«ôSÊóSÿòSñSmðSÏS3ÎSRÍS¡ÌSÀËSõÊSÉSgÈSÇSÆSìÅSÄS~ÃSKÂS*ÁSÙÀS¸ßS¨ÞSÉÝS:ÜS[ÛSnÚSÙSüØS×SÖSwÕSÔSåÓSÐÒS±ÑSBÐS#/S.Sã-S,Sq+SD*S%)SÖ(S·'S<&S]%S®$SÏ#Sú"S!Sh S	?S>Sx=S<Sê;Sß:S¾9SM8S,7S§6SÆ5S54ST3Sa2S /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSAuthenticateOptions *options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, STSchemaSTAnswerSynthesisDataMetrics, STSchemaSTAnswerSynthesisPerfMetrics;
+@class NSString;
 
 @interface STSchemaSTAnswerSynthesisResult : SISchemaInstrumentationMessage
 {
     NSString *_modelNumber;
-    STSchemaSTAnswerSynthesisPerfMetrics *_perfMetrics;
-    STSchemaSTAnswerSynthesisDataMetrics *_dataMetrics;
-    _Bool _isContentSearchFallback;
-    struct {
-        unsigned int isContentSearchFallback:1;
-    } _has;
-    _Bool _hasModelNumber;
-    _Bool _hasPerfMetrics;
-    _Bool _hasDataMetrics;
 }
 
 - (void);
@@ -44,26 +35,18 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setFeedbackEnabled:forVersion:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)NSImmediateActionAnimationController;
+- (_Bool)create index madrid_account_index.;
 - (id);
 - (id);
-- (id)ummarized;
-- (id);
-- (void)LD;
-- (id)TUSREASON_UNSUPPORTED_PARAMETER_PUNCHOUT;
+- (id)deleteIsSummarized;
+- (id)_hasPlanCreatedToLastResolverEventTime;
+- (void)INVOCATIONSOURCE_GENERATIVE_FIELD;
+- (id)FLOWSTATUSREASON_UNSUPPORTED_PARAMETER_PUNCHOUT;
 
 // Remaining properties
-@property(retain, nonatomic) STSchemaSTAnswerSynthesisDataMetrics *dataMetrics; // @synthesize dataMetrics=_dataMetrics;
-@property(nonatomic) _Bool hasDataMetrics; // @synthesize hasDataMetrics=_hasDataMetrics;
-@property(nonatomic) _Bool hasIsContentSearchFallback;
-@property(nonatomic) _Bool hasModelNumber; // @synthesize hasModelNumber=_hasModelNumber;
-@property(nonatomic) _Bool hasPerfMetrics; // @synthesize hasPerfMetrics=_hasPerfMetrics;
-@property(nonatomic) _Bool isContentSearchFallback; // @synthesize isContentSearchFallback=_isContentSearchFallback;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
-@property(retain, nonatomic) STSchemaSTAnswerSynthesisPerfMetrics *perfMetrics; // @synthesize perfMetrics=_perfMetrics;
 
 @end
 

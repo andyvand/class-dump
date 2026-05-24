@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol NWRemoteConnectionDirectorDelegate;
 
 @interface NWRemoteConnectionDirector
 {
     unsigned long long _maximumDataChunkSize;
-    NSObject<NWRemoteConnectionDirectorDelegate> *_delegate;
-    struct nw_protocol *_directorProtocol;
-    struct nw_protocol *_defaultOutputHandler;
-    struct nw_hash_table *_protocolHashTable;
-    NSMutableArray *_writeRequests;
 }
 
 - (id);
@@ -22,14 +17,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 - (struct nw_hash_table *);
 - (struct nw_protocol *);
-- (unsigned long long);
+- (unsigned long long)(;
 - (struct nw_protocol *);
 - (struct nw_protocol *);
 - (unsigned long long);
@@ -38,21 +33,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)eThemeIdiomPad/CUIDeviceSubtypeiOSMac;
+- (id);
+- (void)C;
 - (id);
 - (void);
 - (struct nw_protocol *)Ce%sCe%t.e%;
 
 // Remaining properties
-@property struct nw_protocol *defaultOutputHandler; // @synthesize defaultOutputHandler=_defaultOutputHandler;
 @property __weak NSObject<NWRemoteConnectionDirectorDelegate> *delegate; // @synthesize delegate=_delegate;
-@property struct nw_protocol *directorProtocol; // @synthesize directorProtocol=_directorProtocol;
-@property(nonatomic) unsigned long long maximumDataChunkSize; // @synthesize maximumDataChunkSize=_maximumDataChunkSize;
-@property(readonly, nonatomic) struct nw_protocol *protocol;
-@property struct nw_hash_table *protocolHashTable; // @synthesize protocolHashTable=_protocolHashTable;
-@property(retain) NSMutableArray *writeRequests; // @synthesize writeRequests=_writeRequests;
 
 @end
 

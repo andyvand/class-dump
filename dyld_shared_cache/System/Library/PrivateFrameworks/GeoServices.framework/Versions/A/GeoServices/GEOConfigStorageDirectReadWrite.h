@@ -6,16 +6,10 @@
 
 #import <GeoServices/GEOConfigStorageDirectReadOnly.h>
 
-@class NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface GEOConfigStorageDirectReadWrite : GEOConfigStorageDirectReadOnly
 {
     struct os_unfair_lock_s _writeLock;
-    id _writeTransaction;
-    NSObject<OS_dispatch_source> *_writeTimer;
-    NSMutableSet *_changedKeys;
 }
 
 - (void);
@@ -24,13 +18,7 @@ __attribute__((visibility("hidden")))
 - (void)¥7¾5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

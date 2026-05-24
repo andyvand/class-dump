@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabaseConnectionPool, EDProtectedDatabasePersistence, EFSQLPropertyMapper, EFSQLSchema, EMForceBlankCellsController, NSString;
-@protocol EFProtectedFile, EFSQLQueryLogging;
+@class EDProtectedDatabasePersistence;
 
 @interface EDPersistenceDatabase
 {
     _Bool _setupIsComplete;
-    NSString *_protectedDatabasePath;
-    id <EFSQLQueryLogging> _queryLogger;
-    EFSQLSchema *_schema;
-    EFSQLSchema *_protectedSchema;
-    EFSQLPropertyMapper *_propertyMapper;
-    id <EFProtectedFile> _protectedDatabaseFile;
-    EDPersistenceDatabaseConnectionPool *_connectionPool;
-    EMForceBlankCellsController *_blankCellsController;
-    EDProtectedDatabasePersistence *_protectedDatabasePersistence;
-    NSString *_basePath;
-    NSString *_databaseName;
-    NSString *_fullPath;
 }
 
 + (id);
-- (_Bool);
-- (id);
+- (_Bool)˟;
+- (id)P};
 - (id);
 - (id);
 - (void);
@@ -36,7 +23,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -55,41 +42,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)UsoGraphBuilder;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)Z;
 - (void)20@28;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *basePath; // @synthesize basePath=_basePath;
-@property(readonly, nonatomic) _Bool databaseIsCorrupt;
-@property(readonly, nonatomic) NSString *databaseName; // @synthesize databaseName=_databaseName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool enforceDataProtection;
-@property(readonly, nonatomic) NSString *fullPath; // @synthesize fullPath=_fullPath;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isNestedDatabaseCall;
-@property(readonly, nonatomic) EFSQLPropertyMapper *propertyMapper; // @synthesize propertyMapper=_propertyMapper;
-@property(readonly, nonatomic) _Bool protectedDatabaseIsAvailable;
-@property(readonly, copy, nonatomic) NSString *protectedDatabasePath; // @synthesize protectedDatabasePath=_protectedDatabasePath;
 @property(readonly, nonatomic) EDProtectedDatabasePersistence *protectedDatabasePersistence; // @synthesize protectedDatabasePersistence=_protectedDatabasePersistence;
-@property(readonly, nonatomic) EFSQLSchema *protectedSchema; // @synthesize protectedSchema=_protectedSchema;
-@property(readonly, nonatomic) id <EFSQLQueryLogging> queryLogger; // @synthesize queryLogger=_queryLogger;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<EFSQLQueryLogging>",?,R,N,V_queryLogger
-
-@property(readonly, nonatomic) EFSQLSchema *schema; // @synthesize schema=_schema;
-@property _Bool setupIsComplete; // @synthesize setupIsComplete=_setupIsComplete;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool writersAreWaiting;
 
 @end
 

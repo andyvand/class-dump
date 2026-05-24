@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface DEValidationEntry
 {
     NSString *_text;
-    NSString *_textWithLineNumber;
-    NSNumber *_lineNumber;
-    NSString *_filename;
 }
 
 - (id);
@@ -25,10 +22,7 @@
 - (void)****Î¿;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(retain, nonatomic) NSNumber *lineNumber; // @synthesize lineNumber=_lineNumber;
 @property(retain, nonatomic) NSString *text; // @synthesize text=_text;
-@property(retain, nonatomic) NSString *textWithLineNumber; // @synthesize textWithLineNumber=_textWithLineNumber;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface MRPictureFrameImage
 {
     struct CGRect outer;
-    struct CGRect inner;
-    struct CGSize size;
 }
 
 @end

@@ -5,6 +5,8 @@
 //
 
 @protocol _UIInputSwitcherSplitMenu
+- (void (^)(void));
+- (void)myScreenNames;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType finishSplitTransitionBlock;

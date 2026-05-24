@@ -5,5 +5,8 @@
 //
 
 @protocol AXVASearchWindowInterface
+
+@optional
+- (void)(;
 @end
 

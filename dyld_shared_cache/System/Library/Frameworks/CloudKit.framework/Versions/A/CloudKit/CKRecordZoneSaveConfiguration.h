@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZone, NSArray;
+@class CKRecordZone;
 
 @interface CKRecordZoneSaveConfiguration
 {
     CKRecordZone *_recordZone;
-    NSArray *_sourceAncestors;
-    NSArray *_destinationAncestors;
 }
 
 + (_Bool);
@@ -18,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)__cntrl_"^{__shared_weak_count}};
 - (id);
 - (_Bool);
 - (void);
@@ -26,9 +24,7 @@
 - (void)	;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *destinationAncestors; // @synthesize destinationAncestors=_destinationAncestors;
 @property(readonly, nonatomic) CKRecordZone *recordZone; // @synthesize recordZone=_recordZone;
-@property(readonly, nonatomic) NSArray *sourceAncestors; // @synthesize sourceAncestors=_sourceAncestors;
 
 @end
 

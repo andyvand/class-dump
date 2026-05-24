@@ -4,20 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFUCryptoKey, SFUDataRepresentation;
+@class NSString, SFUDataRepresentation;
 
 @interface TSPReadOnlyProvidedDataStorage
 {
     SFUDataRepresentation *_dataRep;
 }
 
-- (_Bool);
+- (_Bool)sic-dataSourceDidEndTransaction;
+- (void)e;
 - (void);
-- (void);
-- (id);
-- (struct CGImageSource *);
+- (id)restorationTailInsertionContentIdentifier;
+- (struct CGImageSource *);
 - (struct CGDataProvider *);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -25,8 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned char);
 - (id);
 - (unsigned long long);
@@ -34,26 +34,7 @@
 - (void)î;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) SFUCryptoKey *decryptionKey;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SFUCryptoKey",?,R,N
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *documentResourceLocator;
-@property(readonly, nonatomic) unsigned long long encodedLength;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool needsDownload;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) unsigned char packageIdentifier;
-@property(readonly, nonatomic) NSString *packageLocator;
-@property(readonly, nonatomic) _Bool readOnly;
-@property(readonly) Class superclass;
 
 @end
 

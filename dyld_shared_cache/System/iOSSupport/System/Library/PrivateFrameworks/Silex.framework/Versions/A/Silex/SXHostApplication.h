@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIApplication;
+@class UIApplication;
 
 @interface SXHostApplication
 {
@@ -12,23 +12,15 @@
 }
 
 - (void);
-- (id);
+- (id)P;
 - (_Bool);
 - (void);
 - (id);
 - (void)88@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16[128{CGRect={CGPoint=dd}{CGSize=dd}}]48{CGRect={CGPoint=dd}{CGSize=dd}}56 /* Error: Ran out of types for this method. */;
-- (_Bool)eAttributesMap;
+- (_Bool)SXTextStyleAttributesMap;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool active;
 @property(nonatomic) __weak UIApplication *application; // @synthesize application=_application;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

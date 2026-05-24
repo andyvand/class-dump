@@ -7,9 +7,6 @@
 @interface SafariCore.WBSWebsitePasskeyEndpointsService
 {
     id urlSessionConfiguration;
-    id maximumURLLength;
-    id maximumPayloadSize;
-    id timeout;
 }
 
 @end

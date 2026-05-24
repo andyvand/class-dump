@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PLEntryNotificationOperatorComposition, PLSemaphore;
+@class PLEntryNotificationOperatorComposition;
 
 @interface PLScheduledWakeAgent
 {
     PLEntryNotificationOperatorComposition *_canSleepNotification;
-    PLSemaphore *_canSleepSemaphore;
-    NSMutableDictionary *_previousScheduleWakeEvents;
 }
 
-+ (id);
++ (id)B;
 + (id);
 + (id);
 + (id);
@@ -23,7 +21,7 @@
 + (id)9%;
 + (void)h Level_FaceDet_Transitions;
 - (void);
-- (id);
+- (id)9;
 - (void);
 - (id);
 - (id);
@@ -37,8 +35,6 @@
 
 // Remaining properties
 @property(retain) PLEntryNotificationOperatorComposition *canSleepNotification; // @synthesize canSleepNotification=_canSleepNotification;
-@property(retain) PLSemaphore *canSleepSemaphore; // @synthesize canSleepSemaphore=_canSleepSemaphore;
-@property(retain) NSMutableDictionary *previousScheduleWakeEvents; // @synthesize previousScheduleWakeEvents=_previousScheduleWakeEvents;
 
 @end
 

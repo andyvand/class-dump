@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
 
 #pragma mark Named Structures
 
-struct IndexResults;
-
-struct IndexResultsRegistry {
-    unsigned long long queryId;
-    unsigned long long logToken;
-    NSString *redactedQuery;
-    struct vector<IndexResults, std::allocator<IndexResults>> results;
-    NSMutableDictionary *indexMapping;
+struct CGPoint {
+    double _field1;
+    double _field2;
 };
 
-struct atomic<bool> {
-    struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
-        _Atomic _Bool __a_value;
-    } __a_;
+struct CGRect {
+    struct CGPoint _field1;
+    struct CGSize _field2;
+};
+
+struct CGSize {
+    double _field1;
+    double _field2;
 };
 
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
-};
-
-struct vector<IndexResults, std::allocator<IndexResults>> {
-    struct IndexResults *__begin_;
-    struct IndexResults *__end_;
-    struct {
-        struct IndexResults *__cap_;
-    } ;
 };
 

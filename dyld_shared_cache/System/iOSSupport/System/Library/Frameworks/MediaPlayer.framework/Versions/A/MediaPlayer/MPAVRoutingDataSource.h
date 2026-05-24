@@ -10,33 +10,24 @@
 @interface MPAVRoutingDataSource
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_workerQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSString *_activeAudioCategory;
-    _Bool _hasActiveAudioCategory;
-    _Bool _devicePresenceDetected;
-    _Bool _didReceiveDiscoveryResults;
-    unsigned int _targetSessionID;
-    long long _discoveryMode;
-    long long _filterMode;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
+- (_Bool)_setOperations;
+- (id)_querySource;
+- (void)_argNames;
+- (void)_defresult;
 - (_Bool);
 - (id);
 - (void);
+- (void)eams11LibraryBaseP;
+- (void)SaySo12BMStreamBaseCG;
+- (void)SdSg;
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (long long);
@@ -45,26 +36,12 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)ledSections: /* Error: Ran out of types for this method. */;
-- (void)ss: /* Error: Ran out of types for this method. */;
+- (_Bool)setNeedsTitledSections: /* Error: Ran out of types for this method. */;
+- (void)_copyWithPlaybackResponseClass: /* Error: Ran out of types for this method. */;
 - (long long)$(;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *activeAudioCategory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool devicePresenceDetected; // @synthesize devicePresenceDetected=_devicePresenceDetected;
-@property(readonly, nonatomic) _Bool didReceiveDiscoveryResults; // @synthesize didReceiveDiscoveryResults=_didReceiveDiscoveryResults;
-@property(nonatomic) long long discoveryMode; // @synthesize discoveryMode=_discoveryMode;
-@property(nonatomic) long long filterMode; // @synthesize filterMode=_filterMode;
-@property(readonly, nonatomic) _Bool hasActiveAudioCategory;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsMultipleSelection;
-@property(nonatomic) unsigned int targetSessionID; // @synthesize targetSessionID=_targetSessionID;
 
 @end
 

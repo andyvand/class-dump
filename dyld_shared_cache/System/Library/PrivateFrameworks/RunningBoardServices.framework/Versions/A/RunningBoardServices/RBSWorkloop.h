@@ -10,12 +10,10 @@
 @interface RBSWorkloop
 {
     NSObject<OS_dispatch_workloop> *_calloutWorkloop;
-    NSObject<OS_dispatch_workloop> *_backgroundWorkloop;
-    NSObject<OS_dispatch_workloop> *_syncingWorkloop;
 }
 
 + (void);
-+ (void);
++ (void)?;
 + (id);
 + (id);
 + (id);

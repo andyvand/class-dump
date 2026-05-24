@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale;
 @protocol SpeakerRecognition.SSRSpeechTranscriberIntfDelegate;
 
 @interface SpeakerRecognition.SSRSpeechTranscriberIntf
 {
     void delegate;
-    void locale;
-    _Bool isTranscribing;
-    id logger;
-    id cleanupQueue;
-    id dictationTranscriber;
-    id speechAnalyzer;
-    id audioEnqueuer;
-    id resultHandlerTask;
-    id audioFormat;
-    id isCleaningUp;
 }
 
 + (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)ideInfo;
 - (void);
 - (id);
 - (id);
@@ -40,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <SpeakerRecognition.SSRSpeechTranscriberIntfDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isTranscribing; // @synthesize isTranscribing;
-@property(nonatomic, readonly) NSLocale *locale;
 
 @end
 

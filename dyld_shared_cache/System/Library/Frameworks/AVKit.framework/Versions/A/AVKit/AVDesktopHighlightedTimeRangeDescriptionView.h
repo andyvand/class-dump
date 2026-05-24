@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVVerticallyCenteredTextFieldCell, NSArray, NSImage, NSImageView, NSShadow, NSString, NSTextField;
+@class NSImage, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AVDesktopHighlightedTimeRangeDescriptionView
 {
     NSTextField *_descriptionLabel;
-    NSImageView *_iconView;
-    NSShadow *_shadow;
-    AVVerticallyCenteredTextFieldCell *_descriptionLabelVerticallyCenteredCell;
-    NSArray *_iconConstraints;
-    NSArray *_labelConstraints;
-    NSImage *_icon;
-    NSString *_label;
 }
 
 + (id);
@@ -26,13 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)P;
+- (void)50;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

@@ -9,38 +9,31 @@
 @interface PDSProtoUserAuth
 {
     PDSProtoGSTokenAuth *_gsAuthToken;
-    int _userauthOneof;
-    struct {
-        unsigned int userauthOneof:1;
-    } _has;
 }
 
-- (id);
-- (int);
+- (id)s.;
+- (int)derivatives for %ld photos.;
+- (void)r:(int)arg1 %{public}@. Requesting latest state.;
+- (void)%{public}@ that no lenger exists. Ignoring.;
+- (_Bool)ng pending comment check operation for asset collection GUID %{public}@ in album GUID %{public}@;
+- (_Bool)%{public}@ in album GUID %{public}@;
+- (id)r asset collection GUID %{public}@ in album GUID %{public}@;
+- (void)ious state:%d /* Error: Ran out of types for this method. */;
+- (void)ot migrate from database version %d to %d. Recreating database.;
+- (int)rror:(id)arg1 %{public}s;
+- (id)@;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (int);
-- (id);
-- (void);
-- (void);
+- (void)_invokeFunction;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PDSProtoGSTokenAuth *gsAuthToken; // @synthesize gsAuthToken=_gsAuthToken;
 @property(readonly, nonatomic) _Bool hasGsAuthToken;
-@property(nonatomic) _Bool hasUserauthOneof;
-@property(nonatomic) int userauthOneof; // @synthesize userauthOneof=_userauthOneof;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APTapAction, NSString, NSURL, PCNativeAsset, PCNativeButton, PCNativeStyle;
+@class NSString;
 
 @interface PCNativeElement
 {
     NSString *_accessibleCaption;
-    NSURL *_actionURL;
-    PCNativeAsset *_asset;
-    PCNativeButton *_button;
-    NSString *_caption;
-    long long _elementID;
-    PCNativeStyle *_style;
-    APTapAction *_tapAction;
 }
 
 + (_Bool);
@@ -31,23 +24,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)initWithEntry:(id)arg1 archive:validateCRC: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)4B32;
 - (void);
-- (id)e;
-- (void)ccessibleCaption;
+- (id)requestType;
+- (void)_accessibleCaption;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessibleCaption; // @synthesize accessibleCaption=_accessibleCaption;
-@property(retain, nonatomic) NSURL *actionURL; // @synthesize actionURL=_actionURL;
-@property(retain, nonatomic) PCNativeAsset *asset; // @synthesize asset=_asset;
-@property(retain, nonatomic) PCNativeButton *button; // @synthesize button=_button;
-@property(retain, nonatomic) NSString *caption; // @synthesize caption=_caption;
-@property(nonatomic) long long elementID; // @synthesize elementID=_elementID;
-@property(retain, nonatomic) PCNativeStyle *style; // @synthesize style=_style;
-@property(retain, nonatomic) APTapAction *tapAction; // @synthesize tapAction=_tapAction;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface AppKit.ScreenLocalization
 {
     id _displaySet;
-    id _provider;
-    id _nameCache;
 }
 
 @end

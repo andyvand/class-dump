@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATextLayer, IKImageLayer;
+@class IKImageLayer;
 
 @interface IKRotationLayer
 {
     IKImageLayer *_imageLayer;
-    double _rotationAngle;
-    double _oldRotationAngle;
-    CATextLayer *_textLayer;
 }
 
 + (_Bool);

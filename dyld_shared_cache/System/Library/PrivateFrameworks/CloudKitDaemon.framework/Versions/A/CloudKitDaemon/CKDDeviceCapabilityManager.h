@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKDDeviceCapabilityManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_updateOperationsPerContainer;
-    double _lastTrackedFailureTime;
-    double _failureBackoffDelay;
-    NSMutableDictionary *_capabilitiesAndUsagesCachePerContainer;
 }
 
 + (id);
@@ -29,13 +25,13 @@
 - (void);
 - (void);
 - (id);
+- (double);
+- (_Bool);
+- (_Bool);
 - (double);
-- (_Bool);
-- (_Bool);
-- (double);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -46,14 +42,14 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -66,17 +62,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)_timeToNextJoin;
 - (id);
 - (id);
 - (void)e suspend is supported;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *capabilitiesAndUsagesCachePerContainer; // @synthesize capabilitiesAndUsagesCachePerContainer=_capabilitiesAndUsagesCachePerContainer;
-@property(nonatomic) double failureBackoffDelay; // @synthesize failureBackoffDelay=_failureBackoffDelay;
-@property(nonatomic) double lastTrackedFailureTime; // @synthesize lastTrackedFailureTime=_lastTrackedFailureTime;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableDictionary *updateOperationsPerContainer; // @synthesize updateOperationsPerContainer=_updateOperationsPerContainer;
 
 @end
 

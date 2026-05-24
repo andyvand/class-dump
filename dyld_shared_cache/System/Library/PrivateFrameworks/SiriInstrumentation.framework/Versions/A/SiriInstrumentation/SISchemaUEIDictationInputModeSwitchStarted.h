@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIDictationInputModeSwitchStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)checkPendingQueue;
 - (_Bool);
-- (_Bool);
+- (_Bool)m.date, m.index_state FROM chat_recoverable_message_join AS crmj JOIN chat AS c  ON crmj.chat_id = c.ROWID AND c.guid = ? JOIN message AS m  ON crmj.message_id = m.ROWID;;
 - (id);
 - (id);
 - (id)deleteEntitySearchBundleScoreRemote;
-- (id)antDaemonAudioFetchRouteContext;
-- (_Bool)LLOWUPACTION_NONE;
-- (_Bool)R__PLAYMEDIAINTENT__PLAYEDITORIALPLAYLIST__TITLE;
+- (id)_hasAssistantDaemonAudioFetchRouteContext;
+- (_Bool)PSEMESSAGEUSERFOLLOWUPACTION_NONE;
+- (_Bool)DIALOGENGINENAMEDENTITYPARAMETER__PLAYMEDIAINTENT__PLAYEDITORIALPLAYLIST__TITLE;
 - (void)¢!;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

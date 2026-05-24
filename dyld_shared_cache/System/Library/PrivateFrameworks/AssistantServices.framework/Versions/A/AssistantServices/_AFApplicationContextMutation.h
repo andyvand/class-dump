@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFApplicationContext, AFBulletin, AceObject, NSArray, NSDictionary, NSString;
+@class AFApplicationContext;
 
 @interface _AFApplicationContextMutation
 {
     AFApplicationContext *_base;
-    NSString *_associatedBundleIdentifier;
-    AFBulletin *_bulletin;
-    AceObject *_aceContext;
-    NSDictionary *_contextDictionary;
-    NSArray *_aceContexts;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasAssociatedBundleIdentifier:1;
-        unsigned int hasBulletin:1;
-        unsigned int hasAceContext:1;
-        unsigned int hasContextDictionary:1;
-        unsigned int hasAceContexts:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -35,17 +22,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (id)orID:(id)arg1;
-- (void)erruption;
+- (id)setVendorID:(id)arg1;
+- (void)_handleXPCConnectionInterruption;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

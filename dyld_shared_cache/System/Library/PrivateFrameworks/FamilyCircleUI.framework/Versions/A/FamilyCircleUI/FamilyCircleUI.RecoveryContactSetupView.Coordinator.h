@@ -7,7 +7,6 @@
 @interface FamilyCircleUI.RecoveryContactSetupView.Coordinator
 {
     id controller;
-    id aidaDelegate;
 }
 
 @end

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol NSXPCProxyCreating;
 
 @interface WBSHistoryServiceDatabaseProxy
@@ -14,6 +13,17 @@
 
 - (void);
 - (void);
+- (void)QI}S);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)T;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,45 +42,28 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
+- (void)?;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)>;
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

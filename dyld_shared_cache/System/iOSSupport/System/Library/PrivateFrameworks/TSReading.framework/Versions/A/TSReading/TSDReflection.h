@@ -7,26 +7,24 @@
 @interface TSDReflection
 {
     double mOpacity;
-    double mFadeAcceleration;
 }
 
 + (_Bool);
 + (id)otocol>";
-- (long long);
-- (id);
-- (id);
+- (long long)MPCPlaybackEngineEventPayloadKey;
+- (id)NMPCPlaybackSessionManagerErrorCode;
+- (id)q;
 - (id);
 - (double);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)Hm;
 - (double);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double fadeAcceleration; // @synthesize fadeAcceleration=mFadeAcceleration;
 @property(readonly, nonatomic) double opacity; // @synthesize opacity=mOpacity;
 
 @end

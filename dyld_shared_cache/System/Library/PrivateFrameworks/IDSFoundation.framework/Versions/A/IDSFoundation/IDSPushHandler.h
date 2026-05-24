@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, NSData, NSMapTable, NSMutableSet, NSRecursiveLock, NSString;
+@class APSConnection, NSData;
 
 @interface IDSPushHandler
 {
     NSData *_cachedPushToken;
-    NSMapTable *_handlerMap;
-    NSMutableSet *_wakingTopicsCache;
-    NSMutableSet *_opportunisticTopicsCache;
-    NSMutableSet *_nonWakingTopicsCache;
-    id _ncHandler;
-    NSRecursiveLock *_recursiveLock;
-    _Bool _shouldWaitToSetTopics;
-    APSConnection *_apsConnection;
-    NSString *_namedDelegatePort;
 }
 
-+ (id);
++ (id);
 + (id)ncements-percentage;
 - (void);
 - (void);
@@ -28,7 +19,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -38,22 +29,22 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct __SecIdentity *);
 - (void);
-- (void);
+- (void)nvoke;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)@;
 - (void);
 - (void)R,V_body;
 - (id);
 - (void)cate-type from sessionInfo.;
-- (void)ountType;
+- (void)accountType;
 - (id)oc indication(%llu) on %@;
 - (void)obalLink for FT;
 - (void);
@@ -62,17 +53,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) APSConnection *apsConnection; // @synthesize apsConnection=_apsConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isConnected;
-@property(retain, nonatomic) NSString *namedDelegatePort; // @synthesize namedDelegatePort=_namedDelegatePort;
-@property(readonly, nonatomic) NSData *pushToken;
-@property(nonatomic) _Bool shouldWaitToSetTopics; // @synthesize shouldWaitToSetTopics=_shouldWaitToSetTopics;
-@property(readonly) Class superclass;
 
 @end
 

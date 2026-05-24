@@ -10,17 +10,17 @@ __attribute__((visibility("hidden")))
     shared_ptr_380e9d19 _data;
 }
 
-+ (id);
-- (float);
-- (float);
-- (float);
++ (id)CDMR;
+- (float)ImportIfNecessaryFromPush:fromErrorRecovery:fromShareAccept:andStartAfterDate:]_block_invoke /* Error: Ran out of types for this method. */;
+- (float)checkAndScheduleImportIfNecessaryFromPush:fromErrorRecovery:fromShareAccept:andStartAfterDate:]_block_invoke /* Error: Ran out of types for this method. */;
+- (float)dKitMirroringDelegate checkAndScheduleImportIfNecessaryFromPush:fromErrorRecovery:fromShareAccept:andStartAfterDate:]_block_invoke /* Error: Ran out of types for this method. */;
 - (const float *);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (shared_ptr_380e9d19);
 - (float);
-- (id)ialKeyEventProcessor;
+- (id)_specialKeyEventProcessor;
 - (void)@;
 
 // Remaining properties

@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface PatternExecutionDialog
 {
     _Bool _isApprovedForGrading;
-    NSString *_dialogId;
-    NSString *_groupName;
-    NSString *_fullPrint;
-    NSString *_fullSpeak;
-    NSString *_supportingPrint;
-    NSString *_supportingSpeak;
-    NSNumber *_printOnly;
-    NSNumber *_spokenOnly;
-    NSString *_unfilteredFullPrint;
-    NSString *_unfilteredFullSpeak;
-    NSString *_unfilteredSupportingPrint;
-    NSString *_unfilteredSupportingSpeak;
-    NSString *_redactedFullPrint;
-    NSString *_redactedFullSpeak;
-    NSString *_redactedSupportingPrint;
-    NSString *_redactedSupportingSpeak;
 }
 
 @end

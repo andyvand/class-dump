@@ -6,30 +6,21 @@
 
 #import <AppStoreDaemon/ASDBaseClient.h>
 
-@class ASDCheckQueueRequestOptions, NSObject, NSString, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ASDCheckQueueRequest : ASDBaseClient
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSXPCConnection *_connection;
-    ASDCheckQueueRequestOptions *_options;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)-[iCloudAccountDetailsWebTabView resetCompleted:(id)arg1 password:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

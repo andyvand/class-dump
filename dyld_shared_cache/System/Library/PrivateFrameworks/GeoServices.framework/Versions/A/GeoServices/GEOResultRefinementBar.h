@@ -13,8 +13,8 @@
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)childAccounts;
+- (id)calendar;
 - (void);
 
 // Remaining properties

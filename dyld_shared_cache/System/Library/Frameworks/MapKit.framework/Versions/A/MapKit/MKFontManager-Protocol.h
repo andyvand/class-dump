@@ -7,36 +7,25 @@
 @class NSFont;
 
 @protocol MKFontManager
+- (NSFont *)0:8s16 /* Error: Ran out of types for this method. */;
+- (NSFont *):8s16@20@28d36 /* Error: Ran out of types for this method. */;
+- (NSFont *)16;
+- (NSFont *)scretionaryEnergyMonitor";
+- (NSFont *)setCpuEnergySnapshot: /* Error: Ran out of types for this method. */;
+- (NSFont *)sendEventWithIdentifier:payload: /* Error: Ran out of types for this method. */;
+- (NSFont *)sendBatchToPPS;
+- (NSFont *)runCompletionBlockWithEnergyResponse: /* Error: Ran out of types for this method. */;
+- (NSFont *)reportStopEvent:withInfo: /* Error: Ran out of types for this method. */;
+- (NSFont *)reportQuickEnergyForInterval:withIdentifier:andAdjustSnapshotToNow: /* Error: Ran out of types for this method. */;
+- (NSFont *)on;
+- (NSFont *);
+- (NSFont *)hour from %@;
+- (NSFont *)%@ purgeable with urgency:%llu /* Error: Ran out of types for this method. */;
+- (NSFont *)d (%s);
+- (NSFont *)e - flags 0x%llx returned %d (%s);
+- (NSFont *)GenerativeFunctionMetrics:(NSFont *)arg1:mmExecuteRequest /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSFont *attributionFont;
-@property(readonly, nonatomic) NSFont *bodyFont;
-@property(readonly, nonatomic) NSFont *boldBodyFont;
-@property(readonly, nonatomic) NSFont *boldSectionHeaderFont;
-@property(readonly, nonatomic) NSFont *brandTitleFont;
-@property(readonly, nonatomic) NSFont *largeTitleFont;
 @property(readonly, nonatomic) NSFont *largeTitleFontStatic;
-@property(readonly, nonatomic) NSFont *largeTitleHeaderFont;
-@property(readonly, nonatomic) NSFont *lookAroundAttributionButtonFont;
-@property(readonly, nonatomic) NSFont *lookAroundButtonFont;
-@property(readonly, nonatomic) NSFont *lookAroundLabelFont;
-@property(readonly, nonatomic) NSFont *lookAroundSecondaryLabelFont;
-@property(readonly, nonatomic) NSFont *lookAroundTertiaryLabelFont;
-@property(readonly, nonatomic) NSFont *mediumBodyFont;
-@property(readonly, nonatomic) NSFont *mediumTitleFont;
-@property(readonly, nonatomic) NSFont *ratingCallToActionGlyphFont;
-@property(readonly, nonatomic) NSFont *ratingCallToActionHeaderLabelFont;
-@property(readonly, nonatomic) NSFont *ratingCallToActionLabelFont;
-@property(readonly, nonatomic) NSFont *ratingOverallFont;
-@property(readonly, nonatomic) NSFont *ratingOverallPercentageFont;
-@property(readonly, nonatomic) NSFont *recommendSubtitleFont;
-@property(readonly, nonatomic) NSFont *rowButtonFont;
-@property(readonly, nonatomic) NSFont *rowGlyphButtonFont;
-@property(readonly, nonatomic) NSFont *sectionHeaderButtonFont;
-@property(readonly, nonatomic) NSFont *sectionHeaderFont;
-@property(readonly, nonatomic) NSFont *semiboldButtonCellFont;
-@property(readonly, nonatomic) NSFont *smallAttributionFont;
-@property(readonly, nonatomic) NSFont *subtitleFont;
-@property(readonly, nonatomic) NSFont *textBlurbFont;
 @end
 

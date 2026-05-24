@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIBObjectDataAuxilary, NSMapTable, NSMutableArray, NSMutableSet, NSString;
-
 @interface NSIBObjectData
 {
     id rootObject;
-    NSMapTable *objectTable;
-    NSMapTable *nameTable;
-    NSMutableSet *visibleWindows;
-    NSMutableArray *connections;
-    id firstResponder;
-    id fontManager;
-    NSMapTable *oidTable;
-    unsigned long long nextOid;
-    NSMapTable *classTable;
-    NSMapTable *instantiatedObjectTable;
-    NSString *targetFramework;
-    id _document;
-    NSIBObjectDataAuxilary *_objectDataAuxilary;
 }
 
 + (void)èsH;
 - (id);
 - (_Bool);
 - (void);
+- (void)T;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)rking socket attribution as user <non-app-initiated flag %d> with website context;
 - (id);
 - (id);
 - (void);
@@ -40,20 +25,20 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)_NSHTTPAlternativeServicesClearEntry;
+- (void)e = %d, authenticationScheme = %d};
+- (void)CFNETWORK_PIPELINE_PACK;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)A;
 - (id);
-- (id);
+- (id)internalFeatureNameFromFeatureName: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id)0@ù
 × ;

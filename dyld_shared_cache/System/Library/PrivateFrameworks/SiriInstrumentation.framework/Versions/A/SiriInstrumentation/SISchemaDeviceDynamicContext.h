@@ -6,53 +6,42 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaLocation;
+@class SISchemaLocation;
 
 @interface SISchemaDeviceDynamicContext : SISchemaInstrumentationMessage
 {
     SISchemaLocation *_location;
-    NSString *_countryCode;
-    double _timeIntervalSince1970;
-    CDStruct_d90db296 _has;
-    _Bool _hasLocation;
-    _Bool _hasCountryCode;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a button to start editing contact details;
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)portedChatRecordBatch"@"NSError">32;
+- (_Bool)? WHERE   ROWID = ? ;
 - (id);
 - (id);
-- (_Bool);
-- (id)nseInferenceLocation;
-- (id)pothesesInfo;
-- (id)atId;
-- (id)tionIngestionEnabled;
+- (_Bool)setHasEndCharacterIdx: /* Error: Ran out of types for this method. */;
+- (id)responseInferenceLocation;
+- (id)deleteAsrHypothesesInfo;
+- (id)_catId;
+- (id)hasIsExtractionIngestionEnabled;
 - (void)erContext;
-- (void)eechContinuation;
-- (double)ket;
-- (_Bool)PLE_BLUETOOTH_HANDS_FREE_DEVICE;
+- (void)stoppedListeningForSpeechContinuation;
+- (double)interactionDurationInSecBucket;
+- (_Bool)SDAUDIOCAPTUREDEVICE_APPLE_BLUETOOTH_HANDS_FREE_DEVICE;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(nonatomic) _Bool hasCountryCode; // @synthesize hasCountryCode=_hasCountryCode;
-@property(nonatomic) _Bool hasLocation; // @synthesize hasLocation=_hasLocation;
-@property(nonatomic) _Bool hasTimeIntervalSince1970;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaLocation *location; // @synthesize location=_location;
-@property(nonatomic) double timeIntervalSince1970; // @synthesize timeIntervalSince1970=_timeIntervalSince1970;
 
 @end
 

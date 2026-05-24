@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaAnyEvent, SISchemaCommonEventMetadata;
+@class SISchemaCommonEventMetadata;
 
 @interface SISchemaOrderedAnyEvent : SISchemaTopLevelUnionType
 {
     SISchemaCommonEventMetadata *_metadata;
-    SISchemaAnyEvent *_event;
-    _Bool _hasMetadata;
-    _Bool _hasEvent;
 }
 
 - (void);
@@ -25,28 +22,24 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)urrentDevice;
+- (_Bool)CNContactCropRectKey;
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)NOT NULL);;
+- (void)ted;
 - (id);
 - (id);
 - (id);
 - (id)Ôásð!ÈEù1à°1Â0@ù
 × ;
-- (void)diaEntitylocality;
-- (id)leteContactSuggesterQueryContext;
-- (id)t7Day;
+- (void)hasSelectedMediaEntitylocality;
+- (id)deleteContactSuggesterQueryContext;
+- (id)_entityPartialSiriCount7Day;
 - (_Bool)O;
-- (void)DEC_MPEGAAC_ELD_SBR;
+- (void)MWTFORMATCODEC_MPEGAAC_ELD_SBR;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaAnyEvent *event; // @synthesize event=_event;
-@property(nonatomic) _Bool hasEvent; // @synthesize hasEvent=_hasEvent;
-@property(nonatomic) _Bool hasMetadata; // @synthesize hasMetadata=_hasMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaCommonEventMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end

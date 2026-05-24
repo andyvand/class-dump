@@ -9,11 +9,6 @@
 @interface PKAssertion
 {
     struct os_unfair_lock_s _invalidationLock;
-    _Bool _invalidateWhenBackgrounded;
-    NSString *_reason;
-    unsigned long long _type;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_identifier;
 }
 
 + (void);
@@ -28,20 +23,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)MUContentViewController;
+- (void)a;
 - (id)1Â0@ù
 × ;
 - (CDUnknownBlockType)arcodeEventMetadataRequest"16@?<v@?@"PKBarcodeEventMetadataResponse">24;
 - (void)nvitation url and using legacy flow:(CDUnknownBlockType)arg1 %{bool}d;
-- (void)StoreManagerPassesZoneSubscriptionID;
+- (void)PDCloudStoreManagerPassesZoneSubscriptionID;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool invalidateWhenBackgrounded; // @synthesize invalidateWhenBackgrounded=_invalidateWhenBackgrounded;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConnection, NSInvocation;
+@class NSInvocation;
 
 @interface NSDistantObjectRequest
 {
@@ -17,8 +17,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain) NSConnection *connection;
-@property(readonly, retain) id conversation;
 @property(readonly, retain) NSInvocation *invocation;
 
 @end

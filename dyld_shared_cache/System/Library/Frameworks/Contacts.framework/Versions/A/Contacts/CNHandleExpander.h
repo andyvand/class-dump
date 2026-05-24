@@ -9,12 +9,11 @@
 @interface CNHandleExpander
 {
     NSArray *_incomingAddresses;
-    NSArray *_expandedAddresses;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *expandedAddresses; // @synthesize expandedAddresses=_expandedAddresses;
 @property(retain, nonatomic) NSArray *incomingAddresses; // @synthesize incomingAddresses=_incomingAddresses;
 
 @end

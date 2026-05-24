@@ -5,6 +5,7 @@
 //
 
 @protocol CLIntersiloProxyDelegateProtocol
+- (_Bool)x;
 
 // Remaining properties
 @property(nonatomic) _Bool valid;

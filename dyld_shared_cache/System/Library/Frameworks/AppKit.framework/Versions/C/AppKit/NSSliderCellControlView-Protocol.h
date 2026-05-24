@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSliderCell;
+
 @protocol NSSliderCellControlView
+
+@optional
+- (void);
+- (void)URLSession:(NSSliderCell *)arg1 avAssetDownloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
 @end
 

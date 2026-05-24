@@ -4,53 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVLayoutItemAttributes, NSArray, NSMutableArray, NSString, NSTimer, UIGestureRecognizer, UIImageView, UIScrollView, UISelectionFeedbackGenerator, UIView;
-@protocol AVScrubberDelegate;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface AVScrubber
 {
     double _trackingStartTime;
-    float _previousValue;
-    double _previousValueChangeTime;
-    double _currentValueChangedTime;
-    _Bool _didHaveLessThanFullScrubbingSpeedSinceTrackingBegin;
-    _Bool _collapsed;
-    _Bool _included;
-    _Bool _removed;
-    _Bool _hasAlternateAppearance;
-    _Bool _hasFullScreenAppearance;
-    _Bool _showsTimelineMarkers;
-    _Bool _scrollScrubbing;
-    _Bool _slowKnobMovementDetected;
-    _Bool _shouldRecoverFromPrecisionScrubbingIfNeeded;
-    _Bool _scrubsWhenTappedAnywhere;
-    _Bool _canChangeScrubbingSpeed;
-    _Bool _hasChangedLocationAtLeastOnce;
-    _Bool _scrubberEnabledStatus;
-    float _estimatedFrameRate;
-    float _rate;
-    UIView *_loadedTrackOverlayView;
-    NSMutableArray *_previousScrubberVelocities;
-    AVLayoutItemAttributes *_layoutAttributes;
-    id <AVScrubberDelegate> _delegate;
-    NSArray *_loadedTimeRanges;
-    NSArray *_interstitialDisplayTimes;
-    NSArray *_photosensitiveDisplayTimes;
-    long long _scrubbingSpeed;
-    double _resolution;
-    double _scrubberParentHeight;
-    UIScrollView *_scrollView;
-    UIImageView *_currentThumbView;
-    NSTimer *_updateSlowKnobMovementDetectedTimer;
-    double _timestampWhenTrackingEnded;
-    UISelectionFeedbackGenerator *_feedbackGenerator;
-    NSMutableArray *_interstitialOverlayViews;
-    NSMutableArray *_photosensitiveOverlayViews;
-    double _currentScrubberParentHeight;
-    double _newScrubberParentHeight;
-    struct CGSize _extrinsicContentSize;
-    struct NSDirectionalEdgeInsets _hitRectInsets;
 }
 
 + (id);
@@ -63,40 +22,40 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)g;
 - (void);
 - (void);
+- (void)t;
+- (void)L.G;
 - (void);
 - (void);
+- (void)L.G;
+- (void);
+- (void)G;
+- (void);
+- (void)s12SiriOntology14USODynamicTaskP;
+- (void)QZ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void).G;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (long long);
-- (double);
+- (double)L.G;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)B;
 - (double);
-- (double);
+- (double)[;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (float);
 - (void);
@@ -107,7 +66,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void).TM.;
 - (_Bool);
 - (void);
 - (void);
@@ -119,30 +78,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (float);
-- (void);
-- (struct CGSize);
+- (void);
+- (struct CGSize)S;
 - (double);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)6@0:(id)arg1 8@"NSNumber"16I24@"NSDictionary"28;
+- (id)_connectionError;
 - (struct CGRect);
 - (id);
-- (void);
+- (void)sparseVectorFromNumbers:(id)arg1 indices:(_Bool)arg2 length: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)ary/PrivateFrameworks/CoreDuet.framework/Versions/A/CoreDuet;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (struct CGRect);
 - (void);
 - (void);
 - (struct CGSize);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)[;
 - (void);
 - (_Bool);
 - (void);
@@ -157,12 +116,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)
 × ;
-- (id)ioTracks;
-- (struct CGRect)ampWhenTrackingEnded:(struct CGRect)arg1;
-- (struct UIEdgeInsets)ntifier: /* Error: Ran out of types for this method. */;
-- (void)entifier;
-- (float)ns;
-- (_Bool)inputStream;
+- (id)shouldShowPresentationSettingsAudioTracks;
+- (struct CGRect)setTimestampWhenTrackingEnded:(struct CGRect)arg1;
+- (struct UIEdgeInsets)setDebugIdentifier: /* Error: Ran out of types for this method. */;
+- (void)localeIdentifier;
+- (float)animatingScrubInstructions;
+- (_Bool)_inputStream;
 - (void)nsets;
 - (void)ckControlsPlaceholderView",R,N,V_turboModeControlsView;
 - (_Bool);
@@ -171,53 +130,7 @@ __attribute__((visibility("hidden")))
 - (id)XñÿÿpñÿÿñÿÿÐñÿÿøñÿÿ0òÿÿXòÿÿøòÿÿ óÿÿHóÿÿhóÿÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool canChangeScrubbingSpeed; // @synthesize canChangeScrubbingSpeed=_canChangeScrubbingSpeed;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded;
-@property(nonatomic) double currentScrubberParentHeight; // @synthesize currentScrubberParentHeight=_currentScrubberParentHeight;
-@property(nonatomic) __weak UIImageView *currentThumbView; // @synthesize currentThumbView=_currentThumbView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVScrubberDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) float estimatedFrameRate; // @synthesize estimatedFrameRate=_estimatedFrameRate;
-@property(nonatomic) struct CGSize extrinsicContentSize; // @synthesize extrinsicContentSize=_extrinsicContentSize;
-@property(readonly, nonatomic) UISelectionFeedbackGenerator *feedbackGenerator; // @synthesize feedbackGenerator=_feedbackGenerator;
-@property(nonatomic) _Bool hasAlternateAppearance; // @synthesize hasAlternateAppearance=_hasAlternateAppearance;
-@property(nonatomic) _Bool hasChangedLocationAtLeastOnce; // @synthesize hasChangedLocationAtLeastOnce=_hasChangedLocationAtLeastOnce;
-@property(nonatomic) _Bool hasFullScreenAppearance; // @synthesize hasFullScreenAppearance=_hasFullScreenAppearance;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct NSDirectionalEdgeInsets hitRectInsets; // @synthesize hitRectInsets=_hitRectInsets;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(copy, nonatomic) NSArray *interstitialDisplayTimes; // @synthesize interstitialDisplayTimes=_interstitialDisplayTimes;
-@property(retain, nonatomic) NSMutableArray *interstitialOverlayViews; // @synthesize interstitialOverlayViews=_interstitialOverlayViews;
-@property(readonly, nonatomic) AVLayoutItemAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(copy, nonatomic) NSArray *loadedTimeRanges; // @synthesize loadedTimeRanges=_loadedTimeRanges;
-@property(readonly, nonatomic) UIView *loadedTrackOverlayView; // @synthesize loadedTrackOverlayView=_loadedTrackOverlayView;
-@property(readonly, nonatomic) NSString *localizedScrubbingSpeedName;
-@property(nonatomic) double newScrubberParentHeight; // @synthesize newScrubberParentHeight=_newScrubberParentHeight;
-@property(copy, nonatomic) NSArray *photosensitiveDisplayTimes; // @synthesize photosensitiveDisplayTimes=_photosensitiveDisplayTimes;
-@property(retain, nonatomic) NSMutableArray *photosensitiveOverlayViews; // @synthesize photosensitiveOverlayViews=_photosensitiveOverlayViews;
-@property(retain, nonatomic) NSMutableArray *previousScrubberVelocities; // @synthesize previousScrubberVelocities=_previousScrubberVelocities;
-@property(nonatomic) float rate; // @synthesize rate=_rate;
-@property(nonatomic, getter=isRemoved) _Bool removed; // @synthesize removed=_removed;
-@property(nonatomic) double resolution; // @synthesize resolution=_resolution;
-@property(nonatomic, getter=isScrollScrubbing) _Bool scrollScrubbing; // @synthesize scrollScrubbing=_scrollScrubbing;
 @property(retain, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(nonatomic) _Bool scrubberEnabledStatus; // @synthesize scrubberEnabledStatus=_scrubberEnabledStatus;
-@property(nonatomic, setter=setScrubberParentHeight:) double scrubberParentHeight; // @synthesize scrubberParentHeight=_scrubberParentHeight;
-@property(nonatomic) long long scrubbingSpeed; // @synthesize scrubbingSpeed=_scrubbingSpeed;
-@property(nonatomic) _Bool scrubsWhenTappedAnywhere; // @synthesize scrubsWhenTappedAnywhere=_scrubsWhenTappedAnywhere;
-@property(nonatomic) _Bool shouldRecoverFromPrecisionScrubbingIfNeeded; // @synthesize shouldRecoverFromPrecisionScrubbingIfNeeded=_shouldRecoverFromPrecisionScrubbingIfNeeded;
-@property(nonatomic) _Bool showsTimelineMarkers; // @synthesize showsTimelineMarkers=_showsTimelineMarkers;
-@property(nonatomic) _Bool slowKnobMovementDetected; // @synthesize slowKnobMovementDetected=_slowKnobMovementDetected;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeIntervalSinceTrackingEnded;
-@property(nonatomic) double timestampWhenTrackingEnded; // @synthesize timestampWhenTrackingEnded=_timestampWhenTrackingEnded;
-@property(readonly, nonatomic) UIGestureRecognizer *trackpadGestureRecognizer;
-@property(retain, nonatomic) NSTimer *updateSlowKnobMovementDetectedTimer; // @synthesize updateSlowKnobMovementDetectedTimer=_updateSlowKnobMovementDetectedTimer;
 
 @end
 

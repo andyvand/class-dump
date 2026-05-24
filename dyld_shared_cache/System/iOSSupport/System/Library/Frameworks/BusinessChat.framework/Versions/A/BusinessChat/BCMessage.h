@@ -4,104 +4,67 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BCImageStore, BCMessageData, BCMessageInfo, NSAttributedString, NSData, NSDictionary, NSString, NSURL, NSUUID, UIImage;
-@protocol BCDictionarySerializable;
+@class BCImageStore;
 
 @interface BCMessage
 {
     _Bool _isFromMe;
     long long _version;
-    NSString *_requestIdentifier;
-    NSString *_messageGUID;
-    NSUUID *_sessionIdentifier;
-    id <BCDictionarySerializable> _rootObject;
-    BCImageStore *_imageStore;
-    BCMessageData *_messageData;
-    BCMessageInfo *_receivedMessage;
-    BCMessageInfo *_replyMessage;
-    NSString *_title;
-    NSAttributedString *_subtitle;
-    NSString *_summaryText;
-    NSString *_subcaption;
-    NSString *_accessibilityLabel;
-    NSString *_internalRootKey;
 }
 
-+ (id);
++ (id)interactionControllerWithURL:(id)arg1;
+- (void)presentationController:(id)arg1 prepareAdaptivePresentationController: /* Error: Ran out of types for this method. */;
+- (void)presentationController;
+- (void)presentViewController:(id)arg1 animated:completion: /* Error: Ran out of types for this method. */;
+- (id)presentItems:extensionBundleIdentifier:extensionPointIdentifier:isContentManaged: /* Error: Ran out of types for this method. */;
+- (id)prepareForPopoverPresentation:(id)arg1;
+- (_Bool)popoverPresentationControllerDidDismissPopover: /* Error: Ran out of types for this method. */;
+- (_Bool)pickCompletionHandler;
+- (id)pathComponents;
+- (id)parent;
+- (id)observer;
+- (id)objectAtIndexedSubscript:(id)arg1;
+- (id)navigationController:animationControllerForOperation:fromViewController:toViewController: /* Error: Ran out of types for this method. */;
+- (id)navigationController:animationControllerForOperation:fromViewController:toViewController: /* Error: Ran out of types for this method. */;
+- (id)navigationController;
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)gKeys33_8C86EF8FEC64D2072CE5687004DFC6FDLLO;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (long long)ettings update:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
-- (void);
-- (long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (long long);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void)So11UITextFieldC;
 - (void);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void)ray",&,N,V_internalLeadingBarButtons;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, nonatomic) UIImage *image;
 @property(retain, nonatomic) BCImageStore *imageStore; // @synthesize imageStore=_imageStore;
-@property(retain, nonatomic) NSString *internalRootKey; // @synthesize internalRootKey=_internalRootKey;
 @property(nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(readonly, nonatomic) _Bool isVersionSupported;
-@property(retain, nonatomic) BCMessageData *messageData; // @synthesize messageData=_messageData;
-@property(retain, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(retain, nonatomic) BCMessageInfo *receivedMessage; // @synthesize receivedMessage=_receivedMessage;
-@property(retain, nonatomic) BCMessageInfo *replyMessage; // @synthesize replyMessage=_replyMessage;
-@property(retain, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(readonly, nonatomic) NSString *rootKey;
-@property(retain, nonatomic) id <BCDictionarySerializable> rootObject; // @synthesize rootObject=_rootObject;
-@property(retain, nonatomic) NSUUID *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, nonatomic) long long style;
-@property(retain, nonatomic) NSString *subcaption; // @synthesize subcaption=_subcaption;
-@property(retain, nonatomic) NSAttributedString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) NSString *summaryText; // @synthesize summaryText=_summaryText;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) long long type;
-@property(readonly, nonatomic) NSURL *url;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

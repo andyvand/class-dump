@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRJitLanguageModelEnrollmentEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -21,19 +20,17 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)onChangeDataCaptureMetadata;
+- (id)suggestionChangeDataCaptureMetadata;
 - (id)ø;
 - (id);
 - (void)!ô&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

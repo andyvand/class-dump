@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSFinderSavePanel *_panel;
 }
 
-- (void);
+- (void):(id)arg1 bundle_id is NULL;
 - (id);
 - (void);
 - (void)!¬FùQá3Ð1Â0@ù

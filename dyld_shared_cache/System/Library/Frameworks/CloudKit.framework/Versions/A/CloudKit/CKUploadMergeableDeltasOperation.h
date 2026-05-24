@@ -6,22 +6,16 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKUploadMergeableDeltasOperationInfo, NSArray, NSMutableDictionary, NSString;
 @protocol CKUploadMergeableDeltasOperationCallbacks;
 
 @interface CKUploadMergeableDeltasOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _perDeltaCompletionBlock;
-    CDUnknownBlockType _perReplacementCompletionBlock;
-    CDUnknownBlockType _uploadDeltasCompletionBlock;
-    NSArray *_deltas;
-    NSArray *_replacementRequests;
-    NSMutableDictionary *_perItemErrors;
 }
 
 + (SEL);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -33,23 +27,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool)fledArray;
-- (void)nt;
+- (_Bool)CKShuffledArray;
+- (void)CKSyncEngineAccountChangeEvent;
 - (void)ô;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CKUploadMergeableDeltasOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKUploadMergeableDeltasOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perDeltaCompletionBlock; // @synthesize perDeltaCompletionBlock=_perDeltaCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perReplacementCompletionBlock; // @synthesize perReplacementCompletionBlock=_perReplacementCompletionBlock;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType uploadDeltasCompletionBlock; // @synthesize uploadDeltasCompletionBlock=_uploadDeltasCompletionBlock;
 
 @end
 

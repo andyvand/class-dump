@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetDownloadContentConfiguration, AVURLAsset, NSArray, NSData, NSMutableDictionary, NSString, NSURL;
+@class AVURLAsset;
 
 @interface AVAssetDownloadConfiguration
 {
     AVURLAsset *_asset;
-    NSString *_title;
-    NSData *_artworkData;
-    AVAssetDownloadContentConfiguration *_primaryContentConfiguration;
-    NSArray *_auxiliaryContentConfigurations;
-    CDStruct_e83c9415 _timeRange;
-    NSURL *_destinationURL;
-    _Bool optimizesAuxiliaryContentConfigurations;
-    _Bool downloadsInterstitialAssets;
-    NSMutableDictionary *_interstitialMediaSelectionCriteria;
-    _Bool _optimizesAuxiliaryContentConfigurations;
-    _Bool _downloadsInterstitialAssets;
 }
 
-+ (_Bool);
++ (_Bool)	;
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)X;
 - (id);
 - (_Bool);
 - (id);
@@ -47,15 +36,7 @@
 - (CDStruct_e83c9415);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *artworkData; // @synthesize artworkData=_artworkData;
 @property(readonly, nonatomic, getter=_asset) AVURLAsset *asset;
-@property(readonly, nonatomic, getter=_assetTitle) NSString *assetTitle;
-@property(copy, nonatomic) NSArray *auxiliaryContentConfigurations; // @synthesize auxiliaryContentConfigurations=_auxiliaryContentConfigurations;
-@property(copy, nonatomic, getter=_destinationURL, setter=_setDestinationURL:) NSURL *destinationURL;
-@property(nonatomic) _Bool downloadsInterstitialAssets; // @synthesize downloadsInterstitialAssets=_downloadsInterstitialAssets;
-@property(nonatomic) _Bool optimizesAuxiliaryContentConfigurations; // @synthesize optimizesAuxiliaryContentConfigurations=_optimizesAuxiliaryContentConfigurations;
-@property(readonly, nonatomic) AVAssetDownloadContentConfiguration *primaryContentConfiguration; // @synthesize primaryContentConfiguration=_primaryContentConfiguration;
-@property(nonatomic) CDStruct_e83c9415 timeRange;
 
 @end
 

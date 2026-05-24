@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFocus, MUIMailboxFilter, MUIMailboxFilterGroup, NSArray, NSString;
+@class MUIMailboxFilter, NSArray;
 
 @interface MUIMailboxFilterProvider
 {
     MUIMailboxFilter *_senderFilter;
-    NSArray *_filtersGroups;
-    NSArray *_mailboxes;
-    NSArray *_accountFilters;
-    NSArray *_accountsInSmartMailboxScope;
-    EMFocus *_focus;
-    MUIMailboxFilterGroup *_accountsFilterGroup;
-    Class _mailboxFilterClass;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -41,36 +34,18 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)@y;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)ImageForPreviewItem:contentRect: /* Error: Ran out of types for this method. */;
+- (void)previewPanel:transitionImageForPreviewItem:contentRect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *accountFilters; // @synthesize accountFilters=_accountFilters;
-@property(retain, nonatomic) MUIMailboxFilterGroup *accountsFilterGroup; // @synthesize accountsFilterGroup=_accountsFilterGroup;
-@property(copy, nonatomic) NSArray *accountsInSmartMailboxScope; // @synthesize accountsInSmartMailboxScope=_accountsInSmartMailboxScope;
-@property(readonly, copy, nonatomic) NSArray *allFilters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSArray *defaultFilters;
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *filtersGroups; // @synthesize filtersGroups=_filtersGroups;
-@property(retain, nonatomic) EMFocus *focus; // @synthesize focus=_focus;
-@property(readonly, copy, nonatomic) NSArray *focusFilters;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MUIMailboxFilterGroup *individualVIPFilterGroup;
-@property(retain, nonatomic) Class mailboxFilterClass; // @synthesize mailboxFilterClass=_mailboxFilterClass;
-@property(readonly, copy, nonatomic) NSArray *mailboxes; // @synthesize mailboxes=_mailboxes;
-@property(retain, nonatomic) MUIMailboxFilter *senderFilter; // @synthesize senderFilter=_senderFilter;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,91 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AACustodianshipInfo, NSString;
+@class NSString;
 
 @interface AAOBAddTrustedContactsModel
 {
     NSString *_imageName;
-    NSString *_title;
-    NSString *_detailText;
-    NSString *_primaryButton;
-    NSString *_secondaryButton;
-    NSString *_helpLinkTitle;
-    NSString *_helpLinkURL;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)CloudConfig:(id)arg1 Activation record cache not found;
+- (void)ig:(id)arg1 Posting MDMv2 notification;
+- (id)RLDataAndPropertiesFromResource has no file source URL;
+- (id)s output time = %d;
+- (void)set to None;
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (void)nt:completion: /* Error: Ran out of types for this method. */;
+- (void)(;
+- (void);
+- (id);
+- (void)pendingFollowUpsForAccount:completion: /* Error: Ran out of types for this method. */;
 - (id));
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) AACustodianshipInfo *custodianshipInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AACustodianshipInfo",?,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *detailText; // @synthesize detailText=_detailText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_detailText
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *helpLinkTitle; // @synthesize helpLinkTitle=_helpLinkTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_helpLinkTitle
-
-@property(copy, nonatomic) NSString *helpLinkURL; // @synthesize helpLinkURL=_helpLinkURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_helpLinkURL
-
 @property(copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,C,N,V_imageName
-
-@property(copy, nonatomic) NSString *leftBarButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *ownerHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *primaryButton; // @synthesize primaryButton=_primaryButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_primaryButton
-
-@property(copy, nonatomic) NSString *recipientHandle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(copy, nonatomic) NSString *secondaryButton; // @synthesize secondaryButton=_secondaryButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_secondaryButton
-
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N,V_title
 
 
 @end

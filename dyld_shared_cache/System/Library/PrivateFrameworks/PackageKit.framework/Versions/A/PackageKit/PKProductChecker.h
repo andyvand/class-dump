@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, PKDistribution;
+@class NSString;
 
 @interface PKProductChecker
 {
     NSString *_contentPath;
-    NSString *_interfaceType;
-    PKDistribution *_distribution;
-    NSMutableArray *_checkResults;
-    _Bool _allowExternalPackages;
-    _Bool _interfaceTypeRequired;
-    NSArray *_checkedFileAttributes;
 }
 
 + (id);
@@ -24,15 +18,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property _Bool allowExternalPackages; // @synthesize allowExternalPackages=_allowExternalPackages;
-@property(copy) NSArray *checkedFileAttributes; // @synthesize checkedFileAttributes=_checkedFileAttributes;
-@property _Bool interfaceTypeRequired; // @synthesize interfaceTypeRequired=_interfaceTypeRequired;
 
 @end
 

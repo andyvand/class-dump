@@ -9,11 +9,6 @@
 @interface PXImportManager
 {
     NSMapTable *_progressToProvidersMapping;
-    NSMapTable *_progressToCompletionHandlerMapping;
-    NSMapTable *_progressToSharedSourcesCompletionHandlerMapping;
-    NSMapTable *_progressToErrorsMapping;
-    NSMapTable *_providersToImportedResultObjectMapping;
-    NSProgress *_progress;
 }
 
 + (id);
@@ -22,11 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)�?|�?;
 - (void);
 - (id);
 - (void);

@@ -13,7 +13,7 @@
 × ;
 - (UITargetedPreview *)or",&,N,V_timeMarkerExtensionColor;
 - (UITargetedPreview *)ÿÿ;
-- (void)tity;
+- (void)identity;
 - (UITargetedPreview *)ndarChooserHostView Setup:(UIContextMenuInteraction *)arg1 remoteObject is of the wrong type;
 @end
 

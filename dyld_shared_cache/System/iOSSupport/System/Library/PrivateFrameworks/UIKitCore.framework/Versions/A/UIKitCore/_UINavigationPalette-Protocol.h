@@ -4,10 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UINavigationController, UIView;
+@class UIView;
 
 @protocol _UINavigationPalette
-- (void)ceSceneWithRetry;
+- (void)_attemptRequestingSystemUIServiceSceneWithRetry;
 - (_Bool)Ï;
 - (_Bool)__strong _Nonnull)(void), void (^__strong _Nonnull)(NSData * _Nullable __strong, NSInteger, CGRect));
 - (void)View-heightPlusMargin;
@@ -20,19 +20,10 @@
 - (_Bool)y(¿7G;
 - (_Bool)s.framework/CoreAnalytics;
 - (void)Õ13s;
-- (_Bool)er;
+- (_Bool)Spacer;
 - (void)þ´33Ø¹þ;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setBackgroundView:) UIView *_backgroundView;
-@property(nonatomic, setter=_setPaletteOverridesPinningBar:) _Bool _paletteOverridesPinningBar;
-@property(readonly, nonatomic) unsigned long long boundaryEdge;
-@property(readonly, nonatomic) UINavigationController *navController;
-@property(nonatomic) _Bool paletteShadowIsHidden;
-@property(nonatomic, getter=isPinned) _Bool pinned;
-@property(nonatomic) _Bool pinningBarShadowIsHidden;
-@property(nonatomic) _Bool pinningBarShadowWasHidden;
-@property(nonatomic) struct UIEdgeInsets preferredContentInsets;
-@property(nonatomic, getter=isVisibleWhenPinningBarIsHidden) _Bool visibleWhenPinningBarIsHidden;
 @end
 

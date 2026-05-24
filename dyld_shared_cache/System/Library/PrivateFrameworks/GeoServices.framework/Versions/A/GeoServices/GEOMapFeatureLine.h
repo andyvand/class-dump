@@ -7,10 +7,6 @@
 @interface GEOMapFeatureLine
 {
     CDStruct_c3b9c2ee *_tempCoordinates2d;
-    CDStruct_39925896 *_coordinates3d;
-    unsigned long long _coordinateCount;
-    double _length;
-    _Bool _isFlipped;
 }
 
 - (CDStruct_c3b9c2ee);
@@ -19,28 +15,21 @@
 - (id);
 - (double);
 - (CDStruct_39925896);
-- (id);
-- (float *);
-- (id);
-- (CDStruct_39925896);
-- (struct GeoCodecsVectorTilePoint *);
+- (id)mayShowLocalContactsAccountsForBundleID:(id)arg1 sourceAccountManagement: /* Error: Ran out of types for this method. */;
+- (float *)blockWithCurrentQualityOfServiceForBlock:(unsigned long long)arg1 ifAllowedForRequestedQualityOfService:(out unsigned long long *)arg2;
+- (id)authorizationStatusFromAuthorizationRight: /* Error: Ran out of types for this method. */;
+- (CDStruct_39925896)_activeBlockCount;
+- (struct GeoCodecsVectorTilePoint *)Receiving;
 - (CDStruct_39925896 *);
 - (unsigned long long);
 - (void);
 - (double);
-- (id);
-- (id)yAsString:(struct _NSZone *)arg1;
-- (CDStruct_c3b9c2ee *)dUnavailableRegions;
+- (id)in sending trigger for Voice profile update to peer %@ with error %@;
+- (id)transitCategoryAsString:(struct _NSZone *)arg1;
+- (CDStruct_c3b9c2ee *)hybridUnavailableRegions;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long coordinateCount;
 @property(readonly, nonatomic) CDStruct_c3b9c2ee *coordinates;
-@property(readonly, nonatomic) CDStruct_39925896 *coordinates3d;
-@property(readonly, nonatomic) CDStruct_39925896 firstCoordinate;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee firstCoordinate2D;
-@property(readonly, nonatomic) CDStruct_39925896 lastCoordinate;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee lastCoordinate2D;
-@property(readonly, nonatomic) double length;
 
 @end
 

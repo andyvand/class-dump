@@ -7,7 +7,6 @@
 @interface JetEngine.JSLazyProvider
 {
     id lazyDependencies;
-    id context;
 }
 
 - (id);

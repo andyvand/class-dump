@@ -6,20 +6,12 @@
 
 #import <MetalTools/MTLLegacySVGPULog.h>
 
-@class MTLArgument;
-@protocol MTLBuffer;
-
 @interface MTLLegacySVBufferErrorLog : MTLLegacySVGPULog
 {
     int _addressSpace;
-    int _operation;
-    int _specifiedUsage;
-    id <MTLBuffer> _buffer;
-    unsigned long long _offset;
-    MTLArgument *_argument;
 }
 
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
@@ -29,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (id)escriptor:error: /* Error: Ran out of types for this method. */;
+- (id)addTileRenderPipelineFunctionsWithDescriptor:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long)so a %s attachment at index %lu. This may be a conflict as the %s attachment's storeAction == MTLStoreActionStore and writeMask != MTLColorWriteMaskNone.;
 - (int)r Rect Validation;
 - (id)t:destinationBytesPerRow:destinationBytesPerImage /* Error: Ran out of types for this method. */;
@@ -37,11 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int addressSpace; // @synthesize addressSpace=_addressSpace;
-@property(retain, nonatomic) MTLArgument *argument; // @synthesize argument=_argument;
-@property(retain, nonatomic) id <MTLBuffer> buffer; // @synthesize buffer=_buffer;
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(nonatomic) int operation; // @synthesize operation=_operation;
-@property(nonatomic) int specifiedUsage; // @synthesize specifiedUsage=_specifiedUsage;
 
 @end
 

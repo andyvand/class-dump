@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSDate, NSNumber, NSString, SALocalSearchCarRouteOptions, SALocalSearchMapItem, SALocalSearchMapItemList;
+@class NSDate;
 
 @interface SALocalSearchShowMapPoints : SADomainCommand
 {
@@ -27,43 +27,29 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (_Bool);
+- (id)T;
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void)pViewport;
+- (void);
+- (id);
+- (void);
+- (id);
+- (id)-;
+- (_Bool);
+- (void)mapViewport;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *arrivalDate;
-@property(retain, nonatomic) SALocalSearchCarRouteOptions *carRouteOptions;
-@property(nonatomic) _Bool chainResultSet;
-@property(copy, nonatomic) NSDate *departureDate;
-@property(copy, nonatomic) NSString *directionsType;
-@property(retain, nonatomic) SALocalSearchMapItem *itemDestination;
-@property(retain, nonatomic) SALocalSearchMapItem *itemSource;
-@property(copy, nonatomic) NSString *language;
-@property(copy, nonatomic) NSString *preferredDirectionsMode;
-@property(copy, nonatomic) NSNumber *regionOfInterestRadiusInMiles;
-@property(nonatomic) _Bool searchAlongRoute;
-@property(retain, nonatomic) SALocalSearchMapItemList *searchItems;
-@property(nonatomic) _Bool showDirections;
-@property(nonatomic) _Bool showTraffic;
-@property(nonatomic) _Bool suppressNavigation;
 
 @end
 

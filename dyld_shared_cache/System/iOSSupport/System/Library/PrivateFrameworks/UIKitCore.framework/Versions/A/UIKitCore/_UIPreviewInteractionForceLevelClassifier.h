@@ -14,10 +14,10 @@
 }
 
 - (void);
-- (void);
-- (id);
-- (id)ayItemsForCustomization:(long long)arg1;
-- (_Bool)ancelled;
+- (void)modelObjectWithStorePlatformDictionary:userIdentity: /* Error: Ran out of types for this method. */;
+- (id)or MPModelPropertyRadioStationEndingAirDate;
+- (id)tabBar:(long long)arg1 willDisplayItemsForCustomization:(long long)arg2;
+- (_Bool)__navigationBarAnimationWasCancelled;
 - (void)n _findUISceneForLegacyInterfaceOrientation];
 - (void)ToolbarBackgroundContent;
 

@@ -4,36 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
-@protocol EKUIViewHierarchy;
-
 @interface UnknownClass (EKUIViewHierarchy)
-- (double);
-- (long long);
-- (id);
+- (double)S%s;
+- (long long);
+- (id)s;
 - (struct CGSize);
-- (id);
+- (id)(s;
 - (long long);
 - (long long);
 - (double);
 - (struct CGAffineTransform);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGAffineTransform ekui_affineTransform;
-@property(readonly, nonatomic) double ekui_height;
-@property(readonly, nonatomic) long long ekui_horizontalSizeClass;
-@property(readonly, nonatomic) long long ekui_interfaceOrientation;
-@property(readonly, nonatomic) id <EKUIViewHierarchy> ekui_rootViewHierarchy;
 @property(readonly, nonatomic) struct CGSize ekui_size;
-@property(readonly, nonatomic) UIColor *ekui_tintColor;
-@property(readonly, nonatomic) long long ekui_verticalSizeClass;
-@property(readonly, nonatomic) double ekui_width;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

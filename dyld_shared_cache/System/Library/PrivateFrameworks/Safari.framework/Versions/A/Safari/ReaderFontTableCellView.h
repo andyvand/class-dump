@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSLayoutConstraint, NSProgressIndicator;
-@protocol ReaderFontTableCellViewDelegate;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface ReaderFontTableCellView
 {
     long long _fontAvailabilityState;
-    NSButton *_downloadButton;
-    NSProgressIndicator *_progressIndicator;
-    NSImageView *_checkboxImage;
-    NSLayoutConstraint *_leadingContentConstraint;
-    NSLayoutConstraint *_trailingContentConstraint;
-    NSLayoutConstraint *_checkmarkDistanceToFontNameConstraint;
-    NSLayoutConstraint *_checkmarkHeightConstraint;
-    id <ReaderFontTableCellViewDelegate> _delegate;
 }
 
 - (id);
@@ -37,18 +28,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)syndicationRanges;
 - (void);
 - (void)0,;
 
 // Remaining properties
 @property __weak NSImageView *checkboxImage; // @synthesize checkboxImage=_checkboxImage;
-@property __weak NSLayoutConstraint *checkmarkDistanceToFontNameConstraint; // @synthesize checkmarkDistanceToFontNameConstraint=_checkmarkDistanceToFontNameConstraint;
-@property __weak NSLayoutConstraint *checkmarkHeightConstraint; // @synthesize checkmarkHeightConstraint=_checkmarkHeightConstraint;
-@property __weak id <ReaderFontTableCellViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long fontAvailabilityState; // @synthesize fontAvailabilityState=_fontAvailabilityState;
-@property __weak NSLayoutConstraint *leadingContentConstraint; // @synthesize leadingContentConstraint=_leadingContentConstraint;
-@property __weak NSLayoutConstraint *trailingContentConstraint; // @synthesize trailingContentConstraint=_trailingContentConstraint;
 
 @end
 

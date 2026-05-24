@@ -13,39 +13,19 @@ __attribute__((visibility("hidden")))
 @interface WKScrollView : WKBaseScrollView
 {
     struct WeakObjCPtr<id<UIScrollViewDelegate>> _externalDelegate;
-    struct RetainPtr<WKScrollViewDelegateForwarder> _delegateForwarder;
-    _Bool _backgroundColorSetByClient;
-    _Bool _indicatorStyleSetByClient;
-    _Bool _decelerationRateSetByClient;
-    _Bool _contentInsetAdjustmentBehaviorWasExternallyOverridden;
-    _Bool _contentInsetWasExternallyOverridden;
-    double _keyboardBottomInsetAdjustment;
-    _Bool _scrollEnabledByClient;
-    _Bool _scrollEnabledInternal;
-    _Bool _zoomEnabledByClient;
-    _Bool _zoomEnabledInternal;
-    _Bool _bouncesSetByClient;
-    _Bool _bouncesHorizontalInternal;
-    _Bool _bouncesVerticalInternal;
-    struct optional<UIEdgeInsets> _contentScrollInsetFromClient;
-    struct optional<UIEdgeInsets> _contentScrollInsetInternal;
-    struct RectEdges<WTF::RetainPtr<WKUIScrollEdgeEffect>> _edgeEffectWrappers;
-    struct RetainPtr<UIColor> _topPocketColorSetInternally;
-    struct RetainPtr<UIColor> _topPocketColorSetByClient;
-    WKWebView<UIScrollViewDelegate> *_internalDelegate;
 }
 
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (void);
+- (void)pb;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)tPassword(const char *);
 - (void);
 - (_Bool);
 - (id);
@@ -83,8 +63,8 @@ __attribute__((visibility("hidden")))
 - (void)0
 !ÀCù1ZÐ1Â0@ù
 × ;
-- (id)ouldEndEditing: /* Error: Ran out of types for this method. */;
-- (id)ontentWorld: /* Error: Ran out of types for this method. */;
+- (id)textViewShouldEndEditing: /* Error: Ran out of types for this method. */;
+- (id)_removeAllUserScriptsAssociatedWithContentWorld: /* Error: Ran out of types for this method. */;
 - (_Bool)ch message, error %x;
 - (_Bool);
 - (void)String>>, HashFunctions = WTF:(id)arg1:DefaultHash<String>, Traits = WTF::HashMap<WTF::String, IPC::TransferString>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -94,9 +74,6 @@ __attribute__((visibility("hidden")))
 - (void)tion>>>, WTF:(_Bool)arg1:DefaultHash<WTF::WeakPtr<WebKit::WebExtensionWindow>>, WTF::HashMap<WTF::WeakPtr<WebKit::WebExtensionWindow>, WTF::Ref<WebKit::WebExtensionAction>>::KeyValuePairTraits, WTF::HashTraits<WTF::WeakPtr<WebKit::WebExtensionWindow>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::WebExtensionWindow>, Value = WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebExtensionWindow>, WTF::Ref<WebKit::WebExtensionAction>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebExtensionWindow>, WTF::Ref<WebKit::WebExtensionAction>>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebExtensionWindow>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebExtensionWindow>, WTF::Ref<WebKit::WebExtensionAction>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebExtensionWindow>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _contentInsetAdjustmentBehaviorWasExternallyOverridden;
-@property(readonly, nonatomic) _Bool _contentInsetWasExternallyOverridden;
-@property(readonly, nonatomic) _Bool _usesHardTopScrollEdgeEffect;
 @property(nonatomic) WKWebView<UIScrollViewDelegate> *internalDelegate; // @synthesize internalDelegate=_internalDelegate;
 
 @end

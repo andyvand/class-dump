@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSBatchIDQueryController, NSMutableArray, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXIDSAddressQueryController
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableArray *_queries;
-    NSMutableDictionary *_queryStateForAddress;
-    IDSBatchIDQueryController *_idsBatchIDQueryController;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`
+;
 - (void);
 - (void);
 - (id);
 - (void)¸1ÿ ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

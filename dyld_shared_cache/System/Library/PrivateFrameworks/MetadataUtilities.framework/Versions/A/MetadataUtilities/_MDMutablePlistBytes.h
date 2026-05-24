@@ -9,14 +9,6 @@
 @interface _MDMutablePlistBytes : _MDPlistBytes
 {
     int _currentUID;
-    int _parentSize;
-    int _parentCount;
-    int *_parentUIDs;
-    struct __CFDictionary *_ptrUIDMap;
-    unsigned long long *_fillPtr;
-    unsigned long long *_limitPtr;
-    unsigned long long *_rleTagPtr;
-    unsigned long long _curContainer;
 }
 
 + (struct __MDPlistBytes *);

@@ -9,14 +9,10 @@
 @interface HMAccessorySettingConstraint
 {
     unsigned char _identifierUUIDBytes[16];
-    long long _type;
-    id _value;
 }
 
 
 // Remaining properties
 @property(readonly) NSUUID *identifier;
-@property(readonly) long long type; // @synthesize type=_type;
-@property(readonly, copy) id value; // @synthesize value=_value;
 @end
 

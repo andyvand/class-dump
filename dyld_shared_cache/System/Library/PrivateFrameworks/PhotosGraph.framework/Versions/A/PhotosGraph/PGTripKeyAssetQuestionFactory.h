@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)9J;
 - (id);
 - (long long);
 - (unsigned short);

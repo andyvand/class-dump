@@ -7,7 +7,6 @@
 @interface NewsUI2.HistoryFeedBlueprintViewCellProvider
 {
     id delegate;
-    id feedItemRenderer;
 }
 
 @end

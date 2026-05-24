@@ -6,12 +6,11 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface DMFRemoveManagedBookRequest : DMFTaskRequest
 {
     NSNumber *_iTunesStoreID;
-    NSString *_persistentID;
 }
 
 + (_Bool);
@@ -24,11 +23,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *iTunesStoreID; // @synthesize iTunesStoreID=_iTunesStoreID;
-@property(copy, nonatomic) NSString *persistentID; // @synthesize persistentID=_persistentID;
 
 @end
 

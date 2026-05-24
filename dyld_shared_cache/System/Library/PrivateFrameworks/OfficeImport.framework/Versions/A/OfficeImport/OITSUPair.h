@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OITSUPair
 {
     id mFirst;
-    id mSecond;
 }
 
 + (id);
@@ -24,16 +23,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)EWSUpdateDelegateType;
 - (void);
 - (void);
 - (long long);
-- (id)etCurrentBulletStyle:macCharStyle: /* Error: Ran out of types for this method. */;
+- (id)setCurrentBulletStyle:macCharStyle: /* Error: Ran out of types for this method. */;
 - (id)ð;
 
 // Remaining properties
 @property(readonly, nonatomic) id first; // @synthesize first=mFirst;
-@property(readonly, nonatomic) id second; // @synthesize second=mSecond;
 
 @end
 

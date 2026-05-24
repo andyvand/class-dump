@@ -4,43 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKMultiActionSegmentedControl, NSSegmentedControl, NSString;
+@class AKMultiActionSegmentedControl, NSSegmentedControl;
 @protocol AKUserInterfaceItem;
 
 @interface AKToolbarHighlightControlItem_Mac
 {
     AKMultiActionSegmentedControl<AKUserInterfaceItem> *_segmentedControl;
-    long long _tag;
-    _Bool _enabled;
-    unsigned long long _displayMode;
 }
 
 - (id);
-- (id);
+- (id)p	;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (long long);
-- (void);
+- (void)kC3DBoundingBoxGeometryKey;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void)Ð!(Aùñ1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long displayMode; // @synthesize displayMode=_displayMode;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(retain) NSSegmentedControl<AKUserInterfaceItem> *segmentedControl; // @synthesize segmentedControl=_segmentedControl;
-@property long long tag;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

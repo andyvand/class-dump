@@ -5,5 +5,8 @@
 //
 
 @protocol SSRVTUITrainingManagerDelegate
+
+@optional
+- (_Bool);
 @end
 

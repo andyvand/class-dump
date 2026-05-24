@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 @interface PKPassService
 {
     NSObject<OS_xpc_object> *_xpcConnection;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSLock *_xpcConnectionLock;
 }
 
 + (id);
-- (id);
+- (id)0;
 - (void);
 - (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);

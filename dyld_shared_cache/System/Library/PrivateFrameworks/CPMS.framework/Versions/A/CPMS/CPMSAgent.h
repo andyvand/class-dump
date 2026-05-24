@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 @interface CPMSAgent
 {
     unsigned int _ppmService;
-    struct IONotificationPort *_notificationPort;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSSet *_timeScalesSet;
-    unsigned int _connect;
-    NSMutableSet *_clientSet;
 }
 
 + (_Bool);
 + (_Bool);
++ (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (unsigned char);
++ (unsigned char)P;
 + (id);
 + (id);
 - (void);
@@ -33,11 +27,11 @@
 - (id);
 - (BOOL);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)st detection ;
 - (id);
 - (_Bool);
 - (void);
@@ -45,14 +39,6 @@
 
 // Remaining properties
 @property(retain) NSMutableSet *clientSet; // @synthesize clientSet=_clientSet;
-@property unsigned int connect; // @synthesize connect=_connect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (id)
 × ;
 - (_Bool)edbackForSession"b1};
-- (void)7UITraitCollectionCc;
+- (void)ySo17UITraitCollectionCc;
 - (void)»;
 
 // Remaining properties

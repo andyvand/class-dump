@@ -6,14 +6,11 @@
 
 #import <MailUI/MUIResultSuggestion.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface MUILinkSuggestion : MUIResultSuggestion
 {
     NSURL *_url;
-    NSString *_title;
-    NSString *_richLinkID;
-    NSString *_messageID;
 }
 
 + (id);
@@ -21,15 +18,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)eMessageAction;
-- (id);
+- (void)preferredDeleteOrMoveMessageAction;
+- (id)instantAnswer;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
-@property(readonly, nonatomic) NSString *richLinkID; // @synthesize richLinkID=_richLinkID;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

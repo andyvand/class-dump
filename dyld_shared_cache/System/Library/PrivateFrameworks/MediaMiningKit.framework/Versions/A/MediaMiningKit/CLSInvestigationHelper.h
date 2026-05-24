@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSAOICache, CLSLocationCache, CLSNatureCache, CLSPOICache, CLSROICache, CLSServiceManager, NSMutableDictionary;
+@class CLSServiceManager, NSMutableDictionary;
 
 @interface CLSInvestigationHelper
 {
     NSMutableDictionary *_parentTaxonomyNodesBySceneIdentifierBySceneModelIdentifier;
-    struct os_unfair_lock_s _parentTaxonomyNodesLock;
-    NSMutableDictionary *_taxonomyNodeBySceneIdentifierBySceneModelIdentifier;
-    struct os_unfair_lock_s _taxonomyNodesLock;
-    NSMutableDictionary *_taxonomyNodesLevelsAndWeightsBySceneIdentifierBySceneModelIdentifier;
-    struct os_unfair_lock_s _taxonomyNodesLevelsAndWeightsLock;
-    NSMutableDictionary *_maxTaxonomyNodeLevelBySceneIdentifierBySceneModelIdentifier;
-    CLSServiceManager *_serviceManager;
-    CLSLocationCache *_locationCache;
-    CLSAOICache *_aoiCache;
-    CLSPOICache *_poiCache;
-    CLSROICache *_roiCache;
-    CLSNatureCache *_natureCache;
 }
 
 - (id);
@@ -37,11 +25,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) CLSAOICache *aoiCache; // @synthesize aoiCache=_aoiCache;
-@property(readonly) CLSLocationCache *locationCache; // @synthesize locationCache=_locationCache;
-@property(readonly) CLSNatureCache *natureCache; // @synthesize natureCache=_natureCache;
-@property(readonly) CLSPOICache *poiCache; // @synthesize poiCache=_poiCache;
-@property(readonly) CLSROICache *roiCache; // @synthesize roiCache=_roiCache;
 @property(readonly) CLSServiceManager *serviceManager; // @synthesize serviceManager=_serviceManager;
 
 @end

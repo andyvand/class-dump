@@ -7,9 +7,6 @@
 @interface SiriUI.GMEnrollmentViewModel
 {
     id _prelude;
-    id _instruction;
-    id _continuation;
-    id _$observationRegistrar;
 }
 
 - (void);

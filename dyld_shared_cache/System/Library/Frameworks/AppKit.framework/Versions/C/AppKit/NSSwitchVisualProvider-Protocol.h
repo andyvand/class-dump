@@ -7,12 +7,13 @@
 @class NSView;
 
 @protocol NSSwitchVisualProvider
+- (struct CGRect)`;
+- (NSView *)(^rB^a`;
+- (struct CGSize);
 - (void)Button(closeButtonHeight)];
 - (struct NSEdgeInsets)coordinate;
 
 // Remaining properties
-@property(readonly) struct NSEdgeInsets alignmentRectInsets;
 @property(readonly) NSView *designatedFocusRingView;
-@property(readonly) struct CGSize intrinsicContentSize;
 @end
 

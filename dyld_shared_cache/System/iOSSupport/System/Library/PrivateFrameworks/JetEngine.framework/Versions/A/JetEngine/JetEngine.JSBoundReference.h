@@ -7,7 +7,6 @@
 @interface JetEngine.JSBoundReference
 {
     id propertyName;
-    id weakOwner;
 }
 
 @end

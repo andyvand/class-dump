@@ -7,10 +7,9 @@
 @interface FigCaptureMachPortSendRight
 {
     unsigned int _port;
-    _Bool _invalid;
 }
 
-- (void);
+- (void)B,VmIndexToAuthorIDOfDeletionOverridden;
 - (id);
 - (void);
 - (unsigned int);

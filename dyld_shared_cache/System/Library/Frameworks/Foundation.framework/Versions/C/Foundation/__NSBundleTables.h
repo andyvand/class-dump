@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSLock, NSMapTable, NSPointerArray;
+@class NSLock;
 
 __attribute__((visibility("hidden")))
 @interface __NSBundleTables
 {
     NSLock *_lock;
-    NSHashTable *_staticFrameworks;
-    NSHashTable *_loadedBundles;
-    NSHashTable *_loadedFrameworks;
-    NSMapTable *_resolvedPathToBundles;
-    NSMapTable *_bundleForClassMap;
-    NSPointerArray *_immortalBundles;
 }
 
 - (void);

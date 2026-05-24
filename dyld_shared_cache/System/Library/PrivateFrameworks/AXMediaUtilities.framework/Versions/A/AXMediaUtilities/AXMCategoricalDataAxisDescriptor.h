@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSArray, NSAttributedString;
 
 @interface AXMCategoricalDataAxisDescriptor
 {
     NSAttributedString *_attributedTitle;
-    NSArray *_categoryOrder;
 }
 
-- (double);
-- (_Bool);
+- (double);
+- (_Bool);
 - (void);
 - (double);
 - (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)X;
 - (id);
-- (id);
-- (id);
+- (id)shouldDisableTextFieldWhenNotEditing;
 - (void);
-- (void)ssetCreationDate:(id)arg1;
+- (void)setAssetCreationDate:(id)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
 @property(copy, nonatomic) NSArray *categoryOrder; // @synthesize categoryOrder=_categoryOrder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCategoricalAxis;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

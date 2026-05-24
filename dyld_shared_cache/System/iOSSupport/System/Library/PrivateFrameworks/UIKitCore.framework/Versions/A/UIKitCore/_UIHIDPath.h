@@ -10,59 +10,33 @@ __attribute__((visibility("hidden")))
 @interface _UIHIDPath
 {
     _Bool _touching;
-    unsigned int _identity;
-    NSNumber *_pathId;
-    double _force;
-    double _minorRadius;
-    double _majorRadius;
-    double _quality;
-    double _density;
-    double _irregularity;
-    double _twist;
-    long long _generationCount;
-    NSNumber *_overridePathId;
-    long long _deliveryPhase;
-    struct CGPoint _position;
 }
 
 - (void);
 - (double);
 - (void);
 - (void);
-- (id);
-- (id);
-- (double);
-- (_Bool);
-- (double);
-- (long long);
+- (id)signalUnreadChangeForHandle: /* Error: Ran out of types for this method. */;
+- (id)setTranscriptBackgroundAndSendToChat:toChatID:identifier:style:transferID:account:completion: /* Error: Ran out of types for this method. */;
+- (double)setAutoDeletionPreference: /* Error: Ran out of types for this method. */;
+- (_Bool)registerBackupController: /* Error: Ran out of types for this method. */;
+- (double)populateIMMessageItemWithProtobufFields:withProtobufData: /* Error: Ran out of types for this method. */;
+- (long long)_storeEditedMessage:editedPartIndex:editType:previousMessage:updateChats: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
-- (id);
+- (id);
 - (struct CGPoint)1Â0@ù
 × ;
-- (unsigned int)Rect:toSurfaceLayer: /* Error: Ran out of types for this method. */;
+- (unsigned int)convertRect:toSurfaceLayer: /* Error: Ran out of types for this method. */;
 - (void)sult in a corrupted navigation bar;
 - (double)splayID(;
-- (long long)t;
+- (long long)TextAlignment;
 - (void)@z[;
 - (double)G\;
 - (double)ÜþùË,Æa;
 
 // Remaining properties
-@property(nonatomic) long long deliveryPhase; // @synthesize deliveryPhase=_deliveryPhase;
-@property(readonly, nonatomic) double density; // @synthesize density=_density;
-@property(readonly, nonatomic) double force; // @synthesize force=_force;
-@property(readonly, nonatomic) long long generationCount; // @synthesize generationCount=_generationCount;
-@property(readonly, nonatomic) unsigned int identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) double irregularity; // @synthesize irregularity=_irregularity;
-@property(readonly, nonatomic) double majorRadius; // @synthesize majorRadius=_majorRadius;
-@property(readonly, nonatomic) double minorRadius; // @synthesize minorRadius=_minorRadius;
-@property(retain, nonatomic) NSNumber *overridePathId; // @synthesize overridePathId=_overridePathId;
 @property(readonly, nonatomic) NSNumber *pathId; // @synthesize pathId=_pathId;
-@property(nonatomic) struct CGPoint position; // @synthesize position=_position;
-@property(readonly, nonatomic) double quality; // @synthesize quality=_quality;
-@property(readonly, nonatomic, getter=isTouching) _Bool touching; // @synthesize touching=_touching;
-@property(readonly, nonatomic) double twist; // @synthesize twist=_twist;
 
 @end
 

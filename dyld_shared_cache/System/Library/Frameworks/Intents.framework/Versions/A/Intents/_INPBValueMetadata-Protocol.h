@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBConfidenceScore;
+@class NSString;
 
 @protocol _INPBValueMetadata
-- (void)tiveId;
-- (_Bool)bilitiesAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)isSoftwareUpdateActivity;
+- (void)InputAxis2DInput.m;
+- (void);
+- (int)a;
+- (NSString *)ose;
+- (NSString *)+;
+- (void)originatingDeviceRapportEffectiveId;
+- (_Bool)callCapabilitiesAtIndex: /* Error: Ran out of types for this method. */;
 - (_Bool)AmountValues;
 - (void)orkoutIntent;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *canonicalValue;
-@property(retain, nonatomic) _INPBConfidenceScore *confidenceScore;
-@property(nonatomic) _Bool confirmed;
-@property(readonly, nonatomic) _Bool hasCanonicalValue;
-@property(readonly, nonatomic) _Bool hasConfidenceScore;
-@property(nonatomic) _Bool hasConfirmed;
-@property(readonly, nonatomic) _Bool hasInput;
-@property(readonly, nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) _Bool hasSourceAppBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasUuid;
-@property(copy, nonatomic) NSString *input;
-@property(readonly, nonatomic) int *requiredEntitlements;
-@property(readonly, nonatomic) unsigned long long requiredEntitlementsCount;
-@property(copy, nonatomic) NSString *source;
-@property(copy, nonatomic) NSString *sourceAppBundleIdentifier;
-@property(copy, nonatomic) NSString *uuid;
 @end
 

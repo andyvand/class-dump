@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)ecreateDevelopmentDatabaseWithCompletion:(CDStruct_70511ce9 *)arg1;
+- (unsigned long long)syncRecreateDevelopmentDatabaseWithCompletion:(CDStruct_70511ce9 *)arg1;
 @end
 

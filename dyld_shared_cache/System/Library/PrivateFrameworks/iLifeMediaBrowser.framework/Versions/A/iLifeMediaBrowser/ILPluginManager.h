@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLock, NSMutableArray, NSMutableDictionary, NSRecursiveLock;
+@class NSMutableDictionary;
 
 @interface ILPluginManager
 {
     NSMutableDictionary *_pluginClasses;
-    NSMutableDictionary *_pluginIDMMgrMap;
-    NSMutableDictionary *_identifierToPluginsMap;
-    NSRecursiveLock *_switchingPluginsLock;
-    NSRecursiveLock *_disabledPluginsLock;
-    NSRecursiveLock *_initLoadAllPluginsLock;
-    NSMutableArray *_disabledPlugins;
-    NSMutableDictionary *_customFileExtsMap;
-    NSMutableDictionary *_customFileOSTypesMap;
-    NSMutableArray *_customFolderPlugins;
-    NSMutableArray *_customPackagePlugins;
-    NSLock *_pluginLoadLockMapLock;
-    NSMutableDictionary *_pluginLoadLockMap;
-    id _delegate;
-    long long _mediaLibraryMode;
-    NSDictionary *_mediaLibraryOptions;
-    long long _darkBackgroundIconMode;
 }
 
 + (id);
@@ -34,17 +18,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
@@ -56,7 +40,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)�;
 - (id);
 - (id);
 - (void);

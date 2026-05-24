@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectModel, NSPersistentStore, NSPersistentStoreCoordinator, NSString, RTPersistenceStore;
+@class NSPersistentStore, RTPersistenceStore;
 
 @interface RTPersistenceStoreImporter
 {
     NSPersistentStore *_affectedStore;
-    RTPersistenceStore *_sourceStore;
-    NSPersistentStoreCoordinator *_sourceCoordinator;
-    RTPersistenceStore *_destinationStore;
-    NSPersistentStoreCoordinator *_destinationCoordinator;
-    NSManagedObjectModel *_model;
-    NSString *_configuration;
 }
 
 - (_Bool);
@@ -24,29 +18,24 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)@?B@"NSError">16;
+- (_Bool)8;
+- (_Bool)validatePublicKey:(id)arg1 trustRefs:(id)arg2;
+- (id)unsignedIntValue;
+- (id)setExistingEncodedMetadata: /* Error: Ran out of types for this method. */;
+- (id)setDeleteMirrorKeys: /* Error: Ran out of types for this method. */;
+- (void)of FDE record;
+- (_Bool)ssing:(id *)arg1 sp->identity;
 - (void);
-- (_Bool);
+- (id)failDownloadAttachmentSize;
 - (void);
-- (id);
+- (id)";
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)@"IDSOffGridState"8@"NSError"16;
 - (id);
 - (void)ng high intention signals, returning original fused items;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) NSPersistentStoreCoordinator *destinationCoordinator; // @synthesize destinationCoordinator=_destinationCoordinator;
-@property(retain, nonatomic) RTPersistenceStore *destinationStore; // @synthesize destinationStore=_destinationStore;
-@property(retain, nonatomic) NSManagedObjectModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) NSPersistentStoreCoordinator *sourceCoordinator; // @synthesize sourceCoordinator=_sourceCoordinator;
 @property(retain, nonatomic) RTPersistenceStore *sourceStore; // @synthesize sourceStore=_sourceStore;
 
 @end

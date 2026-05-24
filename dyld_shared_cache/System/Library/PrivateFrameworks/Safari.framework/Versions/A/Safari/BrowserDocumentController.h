@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSCoalescedAsynchronousWriter;
-
 __attribute__((visibility("hidden")))
 @interface BrowserDocumentController
 {
     _Bool _hasRestoredWebAppDocuments;
-    WBSCoalescedAsynchronousWriter *_webAppDocumentsStateWriter;
-    unsigned long long _browsingModeForNewDocument;
-    NSString *_frontmostProfileIdentifier;
-    NSString *_preferredProfileIdentifierForNewDocument;
 }
 
 + (id);
@@ -45,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -86,28 +80,28 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void)Üð;
 - (void)¤;
@@ -123,9 +117,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long browsingModeForNewDocument; // @synthesize browsingModeForNewDocument=_browsingModeForNewDocument;
-@property(readonly, nonatomic) _Bool canShowUnifiedField;
-@property(copy, nonatomic) NSString *frontmostProfileIdentifier; // @synthesize frontmostProfileIdentifier=_frontmostProfileIdentifier;
-@property(copy, nonatomic) NSString *preferredProfileIdentifierForNewDocument; // @synthesize preferredProfileIdentifierForNewDocument=_preferredProfileIdentifierForNewDocument;
 
 @end
 

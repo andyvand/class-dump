@@ -6,18 +6,11 @@
 
 #import <AuthenticationServices/ASAuthorizationRequest.h>
 
-@class ASAuthorizationPublicKeyCredentialPRFAssertionInput, ASCPublicKeyCredentialAssertionExtensionInputs, ASCPublicKeyCredentialAssertionOptions, ASPublicKeyCredentialClientData, NSArray, NSData, NSString;
+@class ASAuthorizationPublicKeyCredentialPRFAssertionInput, NSArray;
 
 @interface ASAuthorizationSecurityKeyPublicKeyCredentialAssertionRequest : ASAuthorizationRequest
 {
     NSArray *_allowedCredentials;
-    struct os_unfair_lock_s _internalLock;
-    NSString *_relyingPartyIdentifier;
-    NSString *_userVerificationPreference;
-    NSData *_challenge;
-    NSString *_appID;
-    ASPublicKeyCredentialClientData *_clientData;
-    ASCPublicKeyCredentialAssertionExtensionInputs *_extensions;
 }
 
 + (id);
@@ -45,22 +38,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) ASAuthorizationPublicKeyCredentialPRFAssertionInput *__prfSwift;
-@property(copy, nonatomic) NSArray *allowedCredentials;
-@property(copy, nonatomic) NSString *appID; // @synthesize appID=_appID;
-@property(copy, nonatomic) NSData *challenge; // @synthesize challenge=_challenge;
-@property(readonly, nonatomic) ASPublicKeyCredentialClientData *clientData; // @synthesize clientData=_clientData;
-@property(readonly, nonatomic) ASCPublicKeyCredentialAssertionOptions *coreCredentialAssertionOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) ASCPublicKeyCredentialAssertionExtensionInputs *extensions; // @synthesize extensions=_extensions;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ASAuthorizationPublicKeyCredentialPRFAssertionInput *prf;
-@property(copy, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *userVerificationPreference; // @synthesize userVerificationPreference=_userVerificationPreference;
 
 @end
 

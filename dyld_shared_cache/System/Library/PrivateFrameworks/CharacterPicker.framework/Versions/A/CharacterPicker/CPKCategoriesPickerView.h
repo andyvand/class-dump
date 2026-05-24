@@ -4,44 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPKCategoryButton, NSButton, NSMutableArray, NSView;
-@protocol CPKCategoriesPickerViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface CPKCategoriesPickerView
 {
     _Bool _shouldAnimatePageChanges;
-    unsigned long long _numberOfPages;
-    NSView *_trailingEdgeAuxiliaryView;
-    unsigned long long _visiblePageIndex;
-    id <CPKCategoriesPickerViewDelegate> _delegate;
-    unsigned long long _highlightedPage;
-    unsigned long long _highlightedIndex;
-    CPKCategoryButton *_leftChevron;
-    CPKCategoryButton *_rightChevron;
-    NSMutableArray *_pageArray;
-    NSView *_iconContentView;
-    CPKCategoryButton *_currentlySelectedButton;
-    NSButton *_testButton;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (void)i;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)km;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)(!;
 - (void);
 - (void);
 - (void);
@@ -52,13 +37,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (long long);
 - (void);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)h
+;
 - (id);
 - (struct CGSize);
 - (id);
@@ -78,24 +64,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@32@0:8Q16Q24 /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long)startAnimation;
 
 // Remaining properties
-@property(retain, nonatomic) CPKCategoryButton *currentlySelectedButton; // @synthesize currentlySelectedButton=_currentlySelectedButton;
-@property(nonatomic) __weak id <CPKCategoriesPickerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) unsigned long long highlightedIndex; // @synthesize highlightedIndex=_highlightedIndex;
 @property(nonatomic) unsigned long long highlightedPage; // @synthesize highlightedPage=_highlightedPage;
-@property(retain, nonatomic) NSView *iconContentView; // @synthesize iconContentView=_iconContentView;
-@property(retain, nonatomic) CPKCategoryButton *leftChevron; // @synthesize leftChevron=_leftChevron;
-@property(nonatomic) unsigned long long numberOfPages; // @synthesize numberOfPages=_numberOfPages;
-@property(retain, nonatomic) NSMutableArray *pageArray; // @synthesize pageArray=_pageArray;
-@property(retain, nonatomic) CPKCategoryButton *rightChevron; // @synthesize rightChevron=_rightChevron;
-@property(nonatomic) _Bool shouldAnimatePageChanges; // @synthesize shouldAnimatePageChanges=_shouldAnimatePageChanges;
-@property(retain, nonatomic) NSButton *testButton; // @synthesize testButton=_testButton;
-@property(retain, nonatomic) NSView *trailingEdgeAuxiliaryView; // @synthesize trailingEdgeAuxiliaryView=_trailingEdgeAuxiliaryView;
-@property(nonatomic) unsigned long long visiblePageIndex; // @synthesize visiblePageIndex=_visiblePageIndex;
 
 @end
 

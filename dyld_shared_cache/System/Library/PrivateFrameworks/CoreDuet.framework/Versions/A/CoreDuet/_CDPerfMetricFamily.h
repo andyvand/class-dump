@@ -9,7 +9,6 @@
 @interface _CDPerfMetricFamily
 {
     NSString *_name;
-    NSMutableDictionary *_perfMetrics;
 }
 
 + (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *name; // @synthesize name=_name;
 @property(readonly) NSMutableDictionary *perfMetrics; // @synthesize perfMetrics=_perfMetrics;
 
 @end

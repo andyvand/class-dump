@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)validateMenuItem: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (id);
 - (id);

@@ -6,20 +6,11 @@
 
 #import <PassKitCore/PDXPCService.h>
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString, PKEntitlementWhitelist;
-@protocol OS_dispatch_queue, PDAssertionCoordinatorDelegate;
+@protocol PDAssertionCoordinatorDelegate;
 
 @interface PDAssertionCoordinator : PDXPCService
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_assertionsByType;
-    NSObject<OS_dispatch_queue> *_coordinatorSerialQueue;
-    PKEntitlementWhitelist *_whitelist;
-    long long _suppressionPermissionState;
-    NSMutableArray *_pendingAssertionRequests;
-    _Bool _isForegroundApplication;
-    id <PDAssertionCoordinatorDelegate> _delegate;
-    NSString *_bundleIdentifier;
 }
 
 - (id);
@@ -32,13 +23,13 @@
 - (id);
 - (void);
 - (_Bool);
+- (void)es a space or comma separated list of tag names. Unless you declare new tags, Tidy will refuse to generate a tidied file if the input includes previously unknown tags. Note you can't change the content model for elements such as &lt;TABLE&gt;, &lt;UL&gt;, &lt;OL&gt; and &lt;DL&gt;. ;
+- (void)0;
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,16 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PDAssertionCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isForegroundApplication; // @synthesize isForegroundApplication=_isForegroundApplication;
-@property(readonly) Class superclass;
 
 @end
 

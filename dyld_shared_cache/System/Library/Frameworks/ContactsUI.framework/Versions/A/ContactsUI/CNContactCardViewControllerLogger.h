@@ -20,11 +20,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)<;
+- (id)4u;
 - (void);
 
 // Remaining properties

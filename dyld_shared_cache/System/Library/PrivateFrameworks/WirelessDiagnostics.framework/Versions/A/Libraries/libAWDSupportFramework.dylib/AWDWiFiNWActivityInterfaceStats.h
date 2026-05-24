@@ -4,54 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDWiFiNWActivityAssoc, AWDWiFiNWActivityStateBin, NSMutableArray;
+@class AWDWiFiNWActivityAssoc;
 
 @interface AWDWiFiNWActivityInterfaceStats
 {
     AWDWiFiNWActivityAssoc *_assoc;
-    AWDWiFiNWActivityStateBin *_awdlMode;
-    NSMutableArray *_bytes;
-    unsigned int _consecutivedps;
-    unsigned int _dps;
-    NSMutableArray *_npeers;
-    NSMutableArray *_packets;
-    NSMutableArray *_peers;
-    int _role;
-    struct {
-        unsigned int consecutivedps:1;
-        unsigned int dps:1;
-        unsigned int role:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
++ (Class)ȓ;
 - (void);
 - (void);
+- (void);
+- (void)qH;
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)H;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
@@ -71,7 +58,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -81,23 +68,10 @@
 - (id);
 - (id);
 - (int);
-- (void)yncChannel;
+- (void)bssSyncChannel;
 
 // Remaining properties
-@property(retain, nonatomic) AWDWiFiNWActivityAssoc *assoc; // @synthesize assoc=_assoc;
-@property(retain, nonatomic) AWDWiFiNWActivityStateBin *awdlMode; // @synthesize awdlMode=_awdlMode;
-@property(retain, nonatomic) NSMutableArray *bytes; // @synthesize bytes=_bytes;
-@property(nonatomic) unsigned int consecutivedps; // @synthesize consecutivedps=_consecutivedps;
-@property(nonatomic) unsigned int dps; // @synthesize dps=_dps;
-@property(readonly, nonatomic) _Bool hasAssoc;
-@property(readonly, nonatomic) _Bool hasAwdlMode;
-@property(nonatomic) _Bool hasConsecutivedps;
-@property(nonatomic) _Bool hasDps;
 @property(nonatomic) _Bool hasRole;
-@property(retain, nonatomic) NSMutableArray *npeers; // @synthesize npeers=_npeers;
-@property(retain, nonatomic) NSMutableArray *packets; // @synthesize packets=_packets;
-@property(retain, nonatomic) NSMutableArray *peers; // @synthesize peers=_peers;
-@property(nonatomic) int role; // @synthesize role=_role;
 
 @end
 

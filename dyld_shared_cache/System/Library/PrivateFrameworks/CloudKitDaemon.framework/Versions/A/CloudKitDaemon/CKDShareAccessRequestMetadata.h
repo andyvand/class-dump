@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPUserInformationRequestAccess, NSData, NSString, NSURL;
+@class NSURL;
 
 @interface CKDShareAccessRequestMetadata
 {
     NSURL *_shareURL;
-    NSString *_routingKey;
-    NSData *_shortTokenHash;
-    CKDPUserInformationRequestAccess *_userInformationRequestAccess;
 }
 
 - (id);
@@ -25,10 +22,7 @@
 - (id)ession data task %@";
 
 // Remaining properties
-@property(copy, nonatomic) NSString *routingKey; // @synthesize routingKey=_routingKey;
 @property(copy, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(copy, nonatomic) NSData *shortTokenHash; // @synthesize shortTokenHash=_shortTokenHash;
-@property(retain, nonatomic) CKDPUserInformationRequestAccess *userInformationRequestAccess; // @synthesize userInformationRequestAccess=_userInformationRequestAccess;
 
 @end
 

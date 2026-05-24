@@ -8,17 +8,17 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (_Bool);
 + (_Bool);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (_Bool);
++ (id);
++ (id);
++ (id);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -28,38 +28,39 @@
 + (_Bool);
 + (short);
 + (_Bool);
++ (id)u;
 + (id);
 + (id);
 + (id);
 + (id);
++ (_Bool);
++ (int)=;
 + (id);
++ (_Bool)NSSecureCoding;
++ (_Bool);
 + (_Bool);
 + (int);
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (int);
-+ (id);
 + (id);
 + (int);
-+ (id);
-+ (id);
-+ (id);
++ (id)32@0:(id)arg1 8@"NSArray"16@?<v@?@"NSError"@"NSArray">24;
++ (id)counterLimit;
++ (id)lm;
 + (id);
 + (double);
 + (_Bool);
 + (id);
 + (id);
++ (id)_updateHitCount;
++ (id)will stay in that mode;
++ (id)ctory.oHjloT/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/grimoire/io/writer.cc:(id)arg1 141:MARISA_IO_ERROR:std::ios_base::failure /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (int);
-+ (id);
++ (id)F'
+;
++ (_Bool)d;
++ (id)l;
++ (int),;
++ (id)!Z;
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -68,13 +69,14 @@
 + (id);
 + (_Bool);
 + (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)s Protocol/iTunes Store Framework/ISOperation.m;
++ (_Bool):(id)arg1;
 + (id);
 + (_Bool)q;
 - (id);
 - (id);
 - (id);
+- (id)@a ` L`l(a!@e;
 - (id);
 - (id);
 - (id);
@@ -83,15 +85,14 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id)dataUsingEncoding: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

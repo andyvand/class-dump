@@ -4,68 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDateComponents, NSDictionary, NSString;
+@class NSArray, NSData, NSDictionary, NSString;
 
 @protocol CNVCardPerson
-- (NSArray *)nternationalSupport;
+- (NSData *);
+- (NSString *)C;
+- (NSArray *);
+- (NSData *)�N`;
+- (NSDictionary *);
+- (NSString *);
+- (NSArray *)11sendRequestEvE3$_0;
+- (NSArray *)createItemBasedOnTemplate:fields:urlWrapper:options:bounceOnCollision:completionHandler: /* Error: Ran out of types for this method. */;
+- (NSString *)che ;
+- (NSString *);
+- (NSArray *)CNInternationalSupport;
 - (NSString *)ÿÿ;
 - (NSString *)s;
 
 // Remaining properties
-@property(readonly) NSDictionary *activityAlerts;
-@property(readonly) NSArray *addressingGrammars;
-@property(readonly) NSDateComponents *alternateBirthdayComponents;
-@property(readonly) NSDateComponents *birthdayComponents;
-@property(readonly) NSArray *calendarURIs;
-@property(readonly) NSString *cardDAVUID;
-@property(readonly) NSString *department;
-@property(readonly) int downtimeWhitelistAuthorization;
-@property(readonly) NSArray *emailAddresses;
 @property(readonly) NSString *firstName;
-@property(readonly) NSData *imageBackgroundColorsData;
-@property(readonly) NSDictionary *imageCropRects;
-@property(readonly) NSData *imageData;
-@property(readonly) NSData *imageHash;
-@property(readonly) NSArray *imageReferences;
-@property(readonly) NSString *imageType;
-@property(readonly) NSArray *instantMessagingAddresses;
-@property(readonly) _Bool isCompany;
-@property(readonly) _Bool isMe;
-@property(readonly) NSString *jobTitle;
-@property(readonly) NSDictionary *largeImageCropRects;
-@property(readonly) NSData *largeImageData;
-@property(readonly) NSString *lastName;
-@property(readonly) NSString *maidenName;
-@property(readonly) NSData *memojiMetadata;
-@property(readonly) NSString *middleName;
-@property(readonly) int nameOrder;
-@property(readonly) NSArray *namesOfParentGroups;
-@property(readonly) NSString *nickname;
-@property(readonly) NSString *note;
-@property(readonly) NSString *organization;
-@property(readonly) NSArray *otherDateComponents;
-@property(readonly) NSArray *phoneNumbers;
-@property(readonly) NSString *phonemeData;
-@property(readonly) NSString *phoneticFirstName;
-@property(readonly) NSString *phoneticLastName;
-@property(readonly) NSString *phoneticMiddleName;
-@property(readonly) NSString *phoneticOrganization;
-@property(readonly) NSArray *postalAddresses;
-@property(readonly) NSString *posterIdentifier;
-@property(readonly) NSString *preferredApplePersonaIdentifier;
-@property(readonly) NSString *preferredLikenessSource;
-@property(readonly) NSString *pronunciationFirstName;
-@property(readonly) NSString *pronunciationLastName;
-@property(readonly) NSArray *relatedNames;
-@property(readonly) NSData *sensitiveContentConfiguration;
-@property(readonly) int sharedPhotoDisplayPreference;
-@property(readonly) NSArray *socialProfiles;
-@property(readonly) NSString *suffix;
-@property(readonly) NSString *title;
-@property(readonly) NSString *uid;
-@property(readonly) NSArray *unknownProperties;
-@property(readonly) NSArray *urls;
-@property(readonly) NSData *wallpaper;
-@property(readonly) NSData *watchWallpaperImageData;
 @end
 

@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NWStatsManager;
-
 __attribute__((visibility("hidden")))
 @interface NWStatsPollHandler
 {
     _Bool _synchronous;
-    CDUnknownBlockType _deliveryBlock;
-    CDUnknownBlockType _completionBlock;
-    long long _instanceNumber;
-    unsigned long long _ntstatContext;
-    NWStatsManager *_manager;
 }
 
-- (void);
+- (void)0;
 - (void);
 - (void);
 - (unsigned long long);
 - (long long);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)TRIActiveEnvVarExperiment;
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (CDUnknownBlockType);
+- (void)@) ;
+- (CDUnknownBlockType)P;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(copy) CDUnknownBlockType deliveryBlock; // @synthesize deliveryBlock=_deliveryBlock;
-@property long long instanceNumber; // @synthesize instanceNumber=_instanceNumber;
-@property(retain) NWStatsManager *manager; // @synthesize manager=_manager;
-@property(nonatomic) unsigned long long ntstatContext; // @synthesize ntstatContext=_ntstatContext;
-@property _Bool synchronous; // @synthesize synchronous=_synchronous;
 
 @end
 

@@ -7,12 +7,6 @@
 @interface NewsFeed.FormatNodeCache
 {
     id textCache;
-    id attrStringCache;
-    id imageCache;
-    id accessibilityDataCache;
-    id actionCache;
-    id sizeCache;
-    id enabled;
 }
 
 @end

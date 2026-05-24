@@ -10,16 +10,15 @@ __attribute__((visibility("hidden")))
 @interface MLMetalDeviceChangeInfo
 {
     id <MTLDevice> _metalDevice;
-    long long _changeType;
 }
 
-- (id);
+- (id)^r
+;
 - (id);
 - (long long);
 - (void)e function names:[%@]. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long changeType; // @synthesize changeType=_changeType;
 @property(readonly, nonatomic) id <MTLDevice> metalDevice; // @synthesize metalDevice=_metalDevice;
 
 @end

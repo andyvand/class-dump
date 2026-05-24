@@ -12,8 +12,8 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)errorWithCode:(id)arg1 underlyingError:(id)arg2 userInfo: /* Error: Ran out of types for this method. */;
++ (id)downloadThread;
 + (id);
 + (id);
 + (id);

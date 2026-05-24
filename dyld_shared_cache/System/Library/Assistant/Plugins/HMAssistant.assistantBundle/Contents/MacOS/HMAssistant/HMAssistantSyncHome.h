@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeManager, NSArray, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSArray;
 
 @interface HMAssistantSyncHome
 {
     _Bool _done;
-    NSArray *_anchors;
-    NSArray *_entities;
-    NSString *_finalAnchor;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMHomeManager *_homeManager;
-    unsigned long long _fetchHomeConfigurationStartTime;
-    NSObject<OS_dispatch_group> *_waitGroup;
 }
 
 + (id);
-- (id);
+- (id)m;
 - (_Bool);
 - (void);
 - (void);
@@ -30,37 +22,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)K~l;
 - (id);
 - (void);
 - (id);
+- (void)pleteParticipantVettingOperationInfo";
+- (void)ibility error %@ from AXUIElementCopyMultipleAttributeValues for %@;
+- (id)CustomizedVoiceSettings;
+- (id)h?;
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)C;
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *anchors; // @synthesize anchors=_anchors;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool done; // @synthesize done=_done;
-@property(retain, nonatomic) NSArray *entities; // @synthesize entities=_entities;
-@property(nonatomic) unsigned long long fetchHomeConfigurationStartTime; // @synthesize fetchHomeConfigurationStartTime=_fetchHomeConfigurationStartTime;
-@property(retain, nonatomic) NSString *finalAnchor; // @synthesize finalAnchor=_finalAnchor;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *waitGroup; // @synthesize waitGroup=_waitGroup;
 
 @end
 

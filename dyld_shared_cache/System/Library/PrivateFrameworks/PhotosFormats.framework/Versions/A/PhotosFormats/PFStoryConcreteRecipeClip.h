@@ -9,39 +9,24 @@
 @interface PFStoryConcreteRecipeClip
 {
     NSString *_assetIdentifier;
-    long long _playbackStyle;
-    CDStruct_1b6d18a9 _minimumDuration;
-    CDStruct_1b6d18a9 _idealDuration;
-    CDStruct_1b6d18a9 _maximumDuration;
-    CDStruct_1b6d18a9 _videoCueOffset;
-    long long _motionStyle;
-    long long _transition;
 }
 
-- (CDStruct_1b6d18a9);
-- (long long);
+- (CDStruct_198678f7);
+- (long long)sions/A/PlugInKit;
 - (_Bool);
-- (id);
-- (CDStruct_1b6d18a9);
+- (id)_TtCO10Accelerate4BNNS12PoolingLayer;
+- (CDStruct_198678f7);
 - (long long);
 - (id);
-- (CDStruct_1b6d18a9);
-- (id);
-- (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
+- (id)g;
+- (void)begin;
+- (CDStruct_198678f7);
 - (long long)aé°!Fù*ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 idealDuration; // @synthesize idealDuration=_idealDuration;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 maximumDuration; // @synthesize maximumDuration=_maximumDuration;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 minimumDuration; // @synthesize minimumDuration=_minimumDuration;
-@property(readonly, nonatomic) long long motionStyle; // @synthesize motionStyle=_motionStyle;
-@property(readonly, nonatomic) long long playbackStyle; // @synthesize playbackStyle=_playbackStyle;
-@property(readonly, nonatomic) long long transition; // @synthesize transition=_transition;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 videoCueOffset; // @synthesize videoCueOffset=_videoCueOffset;
 
 @end
 

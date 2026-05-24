@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)kCPListTemplateDetailsHeaderPlaybackConfigurationKey;
 + (id);
-- (long long);
+- (long long);
 - (id);
 
 @end

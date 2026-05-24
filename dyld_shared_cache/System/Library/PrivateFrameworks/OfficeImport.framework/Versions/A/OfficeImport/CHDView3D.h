@@ -8,30 +8,22 @@ __attribute__((visibility("hidden")))
 @interface CHDView3D
 {
     int mRotationX;
-    int mRotationY;
-    int mDepthPercent;
-    int mGapDepthPercent;
-    int mHeightPercent;
-    int mPerspective;
-    _Bool mRightAngleAxes;
-    _Bool mCluster;
-    _Bool mAutoscale;
 }
 
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)q;
 - (int);
 - (int);
-- (int);
+- (int)i;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (int);
 - (int);
 - (void);

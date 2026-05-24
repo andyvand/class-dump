@@ -7,7 +7,6 @@
 @interface AppStoreKit.AdvertAppearanceTracker
 {
     id journals;
-    id observer;
 }
 
 @end

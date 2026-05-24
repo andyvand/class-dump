@@ -12,13 +12,11 @@ __attribute__((visibility("hidden")))
 @interface NSCursorArea : NSTrackingArea
 {
     unsigned int _isOverrideCursor;
-    long long _overrideType;
-    NSCursor *_cursor;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)_sqlSelectFileSystemFileForDeletionStmt;
+- (id)_notifyPortRef;
+- (void)CONNECTION_DOWN;
 - (void);
 - (void);
 - (void);

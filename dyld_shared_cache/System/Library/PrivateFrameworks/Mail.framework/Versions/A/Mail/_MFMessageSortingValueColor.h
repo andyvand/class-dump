@@ -13,7 +13,7 @@
 
 - (void);
 - (int);
-- (id);
+- (id)providesWritingToolsContextMenu;
 
 // Remaining properties
 @property(nonatomic) int colorForSort; // @synthesize colorForSort=_colorForSort;

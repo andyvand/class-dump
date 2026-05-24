@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-@protocol MTLDevice;
+@class NSDictionary, NSString;
+@protocol MTLArgumentEncoder;
 
 @protocol MTLFunction
+- (id <MTLArgumentEncoder>)A;
+- (unsigned long long)?;
+- (NSDictionary *);
+- (unsigned long long) ;
 - (unsigned long long)epth:toBuffer:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSDictionary *functionConstantsDictionary;
-@property(readonly) unsigned long long functionType;
 @property(copy) NSString *label;
-@property(readonly) NSString *name;
-@property(readonly) unsigned long long options;
-@property(readonly) long long patchControlPointCount;
-@property(readonly) unsigned long long patchType;
-@property(readonly) NSArray *stageInputAttributes;
-@property(readonly) NSArray *vertexAttributes;
 @end
 

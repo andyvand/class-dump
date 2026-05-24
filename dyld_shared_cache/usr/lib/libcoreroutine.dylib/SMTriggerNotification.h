@@ -6,33 +6,23 @@
 
 #import <coreroutine/RTNotification.h>
 
-@class NSDate, NSDictionary, NSString;
-
 @interface SMTriggerNotification : RTNotification
 {
     unsigned long long _triggerCategory;
-    unsigned long long _SOSState;
-    NSString *_triggerName;
-    NSDate *_date;
-    NSDictionary *_details;
 }
 
 + (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)initWithShareProtectionRef: /* Error: Ran out of types for this method. */;
+- (unsigned long long)aa_appleAccounts;
 - (id);
-- (id);
+- (id)p_rYG;
 - (void)loudkit.initializeSentinelZone;
 - (id)%@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long SOSState; // @synthesize SOSState=_SOSState;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) NSDictionary *details; // @synthesize details=_details;
 @property(readonly, nonatomic) unsigned long long triggerCategory; // @synthesize triggerCategory=_triggerCategory;
-@property(readonly, nonatomic) NSString *triggerName; // @synthesize triggerName=_triggerName;
 
 @end
 

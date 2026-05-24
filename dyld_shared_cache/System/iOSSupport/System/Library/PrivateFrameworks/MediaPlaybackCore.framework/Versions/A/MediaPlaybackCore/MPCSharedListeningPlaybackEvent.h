@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelGenericObject;
-
 @interface MPCSharedListeningPlaybackEvent
 {
     long long _kind;
-    MPModelGenericObject *_item;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id);
+- (long long)%;
 - (void)}@;
 
 // Remaining properties
-@property(readonly, nonatomic) MPModelGenericObject *item; // @synthesize item=_item;
 @property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
 
 @end

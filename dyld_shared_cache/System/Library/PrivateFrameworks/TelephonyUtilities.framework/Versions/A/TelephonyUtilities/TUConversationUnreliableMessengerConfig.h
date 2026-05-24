@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface TUConversationUnreliableMessengerConfig
 {
     unsigned long long _establishChannelMaxAttempts;
-    unsigned long long _establishChannelRetryIntervalMillis;
-    unsigned long long _egressMessagePayloadMaxSizeBytes;
-    unsigned long long _channelStreamMaxQueueSize;
-    unsigned long long _channelStreamMaxTries;
-    unsigned long long _channelStreamRetryIntervalMillis;
-    unsigned long long _seqNumBufferSize;
-    NSData *_idsAliasingSalt;
 }
 
-+ (_Bool);
-+ (id)WithLink;
++ (_Bool)z;
++ (id)isJoiningConversationWithLink;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -31,23 +22,16 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)n;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (void)xyIdentifier:attributes: /* Error: Ran out of types for this method. */;
+- (void)setScreenShareAttributesForCallWithUniqueProxyIdentifier:attributes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long channelStreamMaxQueueSize; // @synthesize channelStreamMaxQueueSize=_channelStreamMaxQueueSize;
-@property(readonly, nonatomic) unsigned long long channelStreamMaxTries; // @synthesize channelStreamMaxTries=_channelStreamMaxTries;
-@property(readonly, nonatomic) unsigned long long channelStreamRetryIntervalMillis; // @synthesize channelStreamRetryIntervalMillis=_channelStreamRetryIntervalMillis;
-@property(readonly, nonatomic) unsigned long long egressMessagePayloadMaxSizeBytes; // @synthesize egressMessagePayloadMaxSizeBytes=_egressMessagePayloadMaxSizeBytes;
 @property(readonly, nonatomic) unsigned long long establishChannelMaxAttempts; // @synthesize establishChannelMaxAttempts=_establishChannelMaxAttempts;
-@property(readonly, nonatomic) unsigned long long establishChannelRetryIntervalMillis; // @synthesize establishChannelRetryIntervalMillis=_establishChannelRetryIntervalMillis;
-@property(copy, nonatomic) NSData *idsAliasingSalt; // @synthesize idsAliasingSalt=_idsAliasingSalt;
-@property(readonly, nonatomic) unsigned long long seqNumBufferSize; // @synthesize seqNumBufferSize=_seqNumBufferSize;
 
 @end
 

@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIGestureRecognizer, UIView, _UITouchDownGestureRecognizer;
+@class _UITouchDownGestureRecognizer;
 @protocol _UIClickInteractionDriverDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UITouchDownClickInteractionDriver
 {
     _UITouchDownGestureRecognizer *_gesture;
-    _Bool _cancelsTouchesInView;
-    _Bool _clicksUpAutomaticallyAfterTimeout;
-    id <_UIClickInteractionDriverDelegate> _delegate;
-    UIView *_view;
-    double _allowableMovement;
-    unsigned long long _inputPrecision;
 }
 
 + (_Bool)
 × ;
 + (_Bool)ple.MobileSMS.MessagesNotificationExtension;
-- (double);
+- (double)_loadedContentItemsRange;
 - (id);
 - (struct CGPoint);
 - (void);
@@ -30,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)¡Ð!Ø@ùña°1Â0@ù
 × ;
-- (_Bool)imumRowHeight:(id)arg1;
-- (_Bool)rnerWithRadius:(id)arg1 continuous:(id)arg2 mask: /* Error: Ran out of types for this method. */;
-- (void)ags;
-- (_Bool)nUpdate;
-- (id)ForContainedFirstResponder;
-- (void)tActions:(_Bool)arg1;
+- (_Bool)setMinimumRowHeight:(id)arg1;
+- (_Bool)_isCornerWithRadius:(id)arg1 continuous:(id)arg2 mask: /* Error: Ran out of types for this method. */;
+- (void)_fieldFlags;
+- (_Bool)_executeContentUnavailableConfigurationUpdate;
+- (id)__adjustedIndexOfCurrentActiveDetentForContainedFirstResponder;
+- (void)predictionsContainSmartActions:(_Bool)arg1;
 - (_Bool)eConstants>",&,N,G_constants,V_constants;
-- (double)escriptorSet;
+- (double)_UIKeyboardHIDEventOrderedDescriptorSet;
 - (void);
 - (void)Î%¿7G;
 - (_Bool)ry/Frameworks/CoreMedia.framework/CoreMedia;
@@ -45,37 +39,12 @@ __attribute__((visibility("hidden")))
 - (double)p=â?®Gáz®ç?áz®GáÚ?;
 - (unsigned long long)°Þ¥þ1Ë13¬Þ¥þùÊ13¨Þ¥þ;
 - (id);
-- (_Bool)UIFlexInteractionSmallLoupeVariantSpec;
+- (_Bool)_UIFlexInteractionSmallLoupeVariantSpec;
 - (_Bool);
 - (_Bool)zØ]U^;
 
 // Remaining properties
-@property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;
-@property(readonly, nonatomic) _Bool allowsFeedback;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool cancelsTouchesInView; // @synthesize cancelsTouchesInView=_cancelsTouchesInView;
-@property(readonly, nonatomic) _Bool clicksUpAutomaticallyAfterTimeout; // @synthesize clicksUpAutomaticallyAfterTimeout=_clicksUpAutomaticallyAfterTimeout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UIClickInteractionDriverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long driverStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly, nonatomic) _Bool hasExceededAllowableMovement;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long inputPrecision; // @synthesize inputPrecision=_inputPrecision;
-@property(readonly, nonatomic) _Bool isCurrentlyAcceleratedByForce;
-@property(readonly, nonatomic) double maximumEffectProgress;
-@property(readonly, nonatomic) UIGestureRecognizer *primaryGestureRecognizer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double touchDuration;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

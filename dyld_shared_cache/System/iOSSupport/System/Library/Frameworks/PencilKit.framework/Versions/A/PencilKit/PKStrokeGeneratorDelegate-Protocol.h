@@ -5,5 +5,8 @@
 //
 
 @protocol PKStrokeGeneratorDelegate
+
+@optional
+- (void);
 @end
 

@@ -6,40 +6,32 @@
 
 #import <Contacts/CNMultiValuePropertyDescription.h>
 
-@class NSString;
-
 @interface CNAddressingGrammarsEncryptedDescription : CNMultiValuePropertyDescription
 {
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (Class);
 - (_Bool);
 - (id);
 - (id);
+- (void);
+- (void)�;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
 - (_Bool);
-- (id);
-- (id);
+- (id)ery _interrupted];
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

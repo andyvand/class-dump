@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SXFontIndex;
 
 @interface SXFontAttributesConstructor
@@ -12,7 +11,7 @@
     id <SXFontIndex> _fontIndex;
 }
 
-- (long long);
+- (long long)֨;
 - (id);
 - (id);
 - (id);
@@ -21,14 +20,7 @@
 - (void)?<v@?@"<TSKSearchReference>">32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <SXFontIndex> fontIndex; // @synthesize fontIndex=_fontIndex;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

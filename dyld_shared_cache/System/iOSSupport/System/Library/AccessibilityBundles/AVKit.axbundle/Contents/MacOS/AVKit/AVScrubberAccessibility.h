@@ -15,7 +15,7 @@
 + (void);
 - (_Bool);
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 
 @end
 

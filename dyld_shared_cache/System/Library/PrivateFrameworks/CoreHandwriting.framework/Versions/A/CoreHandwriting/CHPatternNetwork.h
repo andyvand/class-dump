@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface CHPatternNetwork
 {
     void *_network;
-    NSDictionary *_symbols;
-    NSDictionary *_startNodes;
-    NSDictionary *_startCursorForContentTypes;
 }
 
 + (id);
@@ -19,7 +14,7 @@
 + (id);
 + (id);
 + (_Bool);
-- (void);
+- (void)y/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/Projects/PhotoKit/Sources/Import/PHImportAsset.m;
 - (id);
 - (void)´;
 

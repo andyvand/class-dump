@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id)yLinkFiredFrom:(long long)arg1;
+- (id)displayLinkFiredFrom:(long long)arg1;
 - (void);
 
 // Remaining properties

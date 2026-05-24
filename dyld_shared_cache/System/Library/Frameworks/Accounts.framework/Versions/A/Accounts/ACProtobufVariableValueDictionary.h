@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -35,7 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *dictionary;
-@property(retain, nonatomic) NSMutableArray *pairs; // @synthesize pairs=_pairs;
 
 @end
 

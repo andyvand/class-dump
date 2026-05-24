@@ -6,15 +6,10 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSMutableSet, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface VCSessionMediaTypeSettings : VCObject
 {
     unsigned int _mediaType;
-    unsigned int _mediaState;
-    NSMutableSet *_streamGroupIDs;
-    unsigned int _remoteMediaState;
 }
 
 + (id);
@@ -31,13 +26,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)rLater;
+- (id)isParticipantDawnburstOrLater;
 
 // Remaining properties
-@property(nonatomic) unsigned int mediaState; // @synthesize mediaState=_mediaState;
 @property(readonly, nonatomic) unsigned int mediaType; // @synthesize mediaType=_mediaType;
-@property(nonatomic) unsigned int remoteMediaState; // @synthesize remoteMediaState=_remoteMediaState;
-@property(readonly, nonatomic) NSSet *streamGroupIDs;
 
 @end
 

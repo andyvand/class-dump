@@ -5,12 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_nw_connection;
+@protocol OS_nw_connection;
 
 @protocol _HMNetworkConnection
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_nw_connection> *nwConnection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue;
 @end
 

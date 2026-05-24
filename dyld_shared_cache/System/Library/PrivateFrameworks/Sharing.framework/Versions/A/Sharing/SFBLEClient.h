@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, WPAWDL, WPNearby, WPPairing;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFBLEClient
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSMutableSet *_wpAirDropDelegates;
-    WPAWDL *_wpAirDrop;
-    NSMutableSet *_wpNearbyDelegates;
-    WPNearby *_wpNearby;
-    NSMutableSet *_wpPairingDelegates;
-    WPPairing *_wpPairing;
 }
 
 + (id);
@@ -38,12 +32,13 @@
 - (void);
 - (void);
 - (void);
+- (void)@�};
 - (void);
+- (id)BTLEManager state +-+
+;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)inquiryState;
+- (void)RSSI;
 - (void);
 - (void);
 - (void)(ð!(Cù±Å+ð1Â0@ù
@@ -52,17 +47,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ringMonitor;
+- (void)uuid;
+- (void)TempPairingMonitor;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

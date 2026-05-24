@@ -10,8 +10,8 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)V_shouldCopyLocationData;
+- (_Bool)T@"PLJournalEntryHeader",&,N,V_header;
 - (unsigned long long);
 
 @end

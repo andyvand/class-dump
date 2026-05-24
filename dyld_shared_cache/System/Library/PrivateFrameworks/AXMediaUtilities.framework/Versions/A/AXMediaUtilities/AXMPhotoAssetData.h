@@ -4,67 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSURL;
+@class NSString;
 
 @interface AXMPhotoAssetData
 {
     _Bool _allowNetworkAccess;
-    unsigned int _assetOrientation;
-    NSString *_assetLocalIdentifier;
-    NSData *_assetImageData;
-    NSString *_assetUTI;
-    NSDate *_assetCreationDate;
-    NSURL *_assetURL;
-    NSURL *_photoLibraryURL;
 }
 
++ (id)|;
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)setHandled: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)lz;
+- (void)[|;
+- (id);
+- (id);
+- (id)v[|;
 - (_Bool);
-- (void);
+- (void)lJ|;
 - (id);
+- (void);
+- (unsigned int){;
+- (id){;
+- (id);
+- (id);
+- (void);
+- (id)n;
+- (id);
+- (id);
+- (id);
 - (void);
 - (unsigned int);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned int);
-- (id);
-- (id);
+- (id)	;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UTI;
-@property(nonatomic) _Bool allowNetworkAccess; // @synthesize allowNetworkAccess=_allowNetworkAccess;
-@property(retain, nonatomic) NSDate *assetCreationDate; // @synthesize assetCreationDate=_assetCreationDate;
-@property(retain, nonatomic) NSData *assetImageData; // @synthesize assetImageData=_assetImageData;
 @property(retain, nonatomic) NSString *assetLocalIdentifier; // @synthesize assetLocalIdentifier=_assetLocalIdentifier;
-@property(nonatomic) unsigned int assetOrientation; // @synthesize assetOrientation=_assetOrientation;
-@property(retain, nonatomic) NSURL *assetURL; // @synthesize assetURL=_assetURL;
-@property(retain, nonatomic) NSString *assetUTI; // @synthesize assetUTI=_assetUTI;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) NSData *imageData;
-@property(readonly, nonatomic) NSString *localIdentifier;
-@property(readonly, nonatomic) unsigned int orientation;
-@property(retain, nonatomic) NSURL *photoLibraryURL; // @synthesize photoLibraryURL=_photoLibraryURL;
-@property(readonly, nonatomic) NSURL *url;
 
 @end
 

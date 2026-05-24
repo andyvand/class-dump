@@ -5,5 +5,9 @@
 //
 
 @protocol AXVSpeechMenuWindowButtonEventDelegate
+
+@optional
+- (void);
+- (void)s;
 @end
 

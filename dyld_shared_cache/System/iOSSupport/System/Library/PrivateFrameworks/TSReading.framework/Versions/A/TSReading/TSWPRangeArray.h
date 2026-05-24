@@ -9,7 +9,7 @@
     void *_rangeVectorOpaque;
 }
 
-- (struct _NSRange *);
+- (struct _NSRange *)de;
 - (id);
 - (void);
 - (void);
@@ -21,16 +21,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (struct _NSRange);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long finish;
-@property(readonly, nonatomic) _Bool isEmpty;
 @property(readonly, nonatomic) unsigned long long rangeCount;
-@property(readonly, nonatomic) unsigned long long start;
 
 @end
 

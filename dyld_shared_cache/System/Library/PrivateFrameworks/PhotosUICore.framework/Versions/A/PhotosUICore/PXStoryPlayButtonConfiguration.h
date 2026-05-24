@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXStoryPlayButtonSpec, PXStoryViewModel;
+@class PXStoryViewModel;
 
 @interface PXStoryPlayButtonConfiguration
 {
     PXStoryViewModel *_viewModel;
-    PXStoryPlayButtonSpec *_spec;
-    id _target;
-    SEL _action;
 }
 
 - (void);
@@ -21,27 +18,13 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)setPersistentDomain:(struct _NSZone *)arg1 forName: /* Error: Ran out of types for this method. */;
 - (SEL);
 - (void)hould have one layout per clip;
 - (void)ðÿ1;´äÿ!;´Øÿ;
 - (id);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PXStoryPlayButtonSpec *spec; // @synthesize spec=_spec;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(readonly, nonatomic) long long viewFloatingAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(readonly, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end

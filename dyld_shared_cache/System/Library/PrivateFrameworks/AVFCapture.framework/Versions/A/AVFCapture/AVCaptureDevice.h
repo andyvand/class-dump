@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDeviceInternal, NSArray;
+@class AVCaptureDeviceInternal;
 
 @interface AVCaptureDevice
 {
     AVCaptureDeviceInternal *_internal;
-    _Bool _videoFrameDurationLocked;
-    NSArray *_linkedDevices;
-    NSArray *_inputSources;
 }
 
 + (void);
 + (void);
 + (id);
 + (void);
-+ (struct __CVBuffer *);
++ (struct __CVBuffer *)ts of type %@, bailing!";
 + (void);
 + (long long);
 + (_Bool);
@@ -28,10 +25,10 @@
 + (_Bool);
 + (void);
 + (double);
-+ (id);
++ (id)eGroupId:(id)arg1 passed nil groupId...returning...;
++ (void)airplaneSeat;
 + (void);
-+ (void);
-+ (id);
++ (id);
 + (void);
 + (void);
 + (void);
@@ -39,7 +36,7 @@
 + (void);
 + (id);
 + (_Bool);
-+ (void);
++ (void);
 + (void);
 + (_Bool);
 + (_Bool);
@@ -58,52 +55,52 @@
 + (void);
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool)top advertising for ATV Setup;
 + (long long);
 + (id);
 + (long long);
-+ (id);
-+ (id);
++ (id)+;
++ (id);
 + (void);
-+ (_Bool);
++ (_Bool)A;
++ (void)i*;
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (id);
++ (void);
++ (id);
 + (void);
 + (struct AudioValueRange);
 + (void);
 + (void);
-+ (_Bool);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (float);
++ (_Bool)B80^i84;
++ (_Bool)movieFileSinkConfiguration;
++ (void)leaderFollowerAutoFocusData;
 + (void);
 + (id);
-+ (void);
++ (id)son:(id)arg1 %@);
++ (id)>>>> %s:Time machine frames metadata invalid:Manual exposure is not supported /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (_Bool);
 + (void);
++ (void);
++ (void)y;
++ (void);
++ (float)al/%@systemstyle-backgrounded-timestamp;
++ (void)capturecamerasourcepipeline_trace;
++ (id)human_pose;
++ (void):(id)arg1 %d, R:%d, RBC:%d /* Error: Ran out of types for this method. */;
++ (id);
++ (id)"{&;
 + (_Bool);
 + (void);
 + (_Bool);
++ (void);
++ (_Bool)P;
 + (void);
 + (long long);
 + (_Bool);
 + (_Bool);
-+ (void);
++ (void);
 + (id);
 + (void);
 + (void);
@@ -112,12 +109,12 @@
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 + (id);
 + (_Bool);
-+ (long long);
++ (long long)9;
 + (id);
 + (void);
 + (void);
@@ -127,22 +124,22 @@
 + (void);
 + (id)ñÖ$1Â0@ù
 × ;
-+ (void)erConnectionDiedSendingClientNotification:(id)arg1;
-+ (long long);
++ (void)_handleServerConnectionDiedSendingClientNotification:(id)arg1;
++ (long long)_buildAndRunGraph;
 + (id);
 + (void)eviceID:handler:] /* Error: Ran out of types for this method. */;
 + (void)SizeUsed;
 + (void)le-code.GS1DataBarLimited;
-+ (void)ct3DVividWarm;
++ (void)CIPhotoEffect3DVividWarm;
 + (long long)e values are kAudioChannelLayoutTag_Stereo or ( kAudioChannelLayoutTag_HOA_ACN_SN3D | 4 );
-+ (void)D;
++ (void)AVControlCenterMicrophoneModuleShouldBeShownForBundleID;
 + (float)[AVCaptureDevice requestGesturesDefaultDisabledNotification];
 + (void)udioCompressionOptionsDictionary for mixer options failed;
 + (void)Cinematic Video capture starts;
 + (void)sync node;
 + (void)CaptureSession_Tundra beginConfiguration];
-+ (void)ingCameraCapability;
-+ (void)eviceSupportsSemanticDevelopment;
++ (void)AVGQRearFacingCameraCapability;
++ (void)AVGQDeviceSupportsSemanticDevelopment;
 + (_Bool)Pæÿ¦ørÌ;
 + (void)³æÿ¦r«;
 + (float)§N;

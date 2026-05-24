@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASBLegacyContainerACL, ASBOwnerSet, NSData, NSDictionary, NSMutableDictionary, NSString, NSURL;
+@class NSString;
 
 @interface ASBContainer
 {
     NSString *_homeDirPath;
-    NSString *_personaVolume;
-    NSString *_containerPath;
-    NSString *_dataPath;
-    NSMutableDictionary *_metadata;
-    ASBLegacyContainerACL *_legacyACL;
-    ASBOwnerSet *_owners;
-    NSString *containerIdentifier;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)jh8	;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)I;
 + (id);
 + (id);
 + (_Bool);
@@ -40,7 +33,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -68,18 +61,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSURL *baseURL; // @dynamic baseURL;
 @property(retain, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier;
-@property(readonly) NSString *containerPath; // @synthesize containerPath=_containerPath;
-@property(readonly) NSString *dataPath; // @synthesize dataPath=_dataPath;
-@property(readonly) NSURL *dataURL; // @dynamic dataURL;
-@property(setter=setHasLSDataContainerPersonalityInfo:) _Bool hasLSDataContainerPersonalityInfo; // @dynamic hasLSDataContainerPersonalityInfo;
-@property(readonly) NSString *homeDirPath; // @synthesize homeDirPath=_homeDirPath;
-@property(retain) ASBOwnerSet *owners; // @synthesize owners=_owners;
-@property(readonly) NSString *personaVolume; // @synthesize personaVolume=_personaVolume;
-@property(readonly) NSData *sandboxProfileData; // @dynamic sandboxProfileData;
-@property(readonly) NSDictionary *sandboxProfileDataValidationInfo; // @dynamic sandboxProfileDataValidationInfo;
-@property(readonly) NSString *serializedOwnerData;
 
 @end
 

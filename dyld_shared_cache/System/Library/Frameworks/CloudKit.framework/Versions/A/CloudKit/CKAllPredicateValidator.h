@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (void);
+- (void)id this error.;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)5;
 - (void)Tî;
 
 // Remaining properties

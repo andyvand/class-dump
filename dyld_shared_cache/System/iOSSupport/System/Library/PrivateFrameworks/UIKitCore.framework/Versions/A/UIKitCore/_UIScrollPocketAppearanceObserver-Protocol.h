@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UIScrollPocketAppearanceObserverInteraction;
+
 @protocol _UIScrollPocketAppearanceObserver
+- (void)dler:(_UIScrollPocketAppearanceObserverInteraction *)arg1;
 @end
 

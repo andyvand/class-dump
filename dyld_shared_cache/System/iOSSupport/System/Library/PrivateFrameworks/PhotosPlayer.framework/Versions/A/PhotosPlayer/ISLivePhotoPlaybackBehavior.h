@@ -6,8 +6,6 @@
 
 #import <PhotosPlayer/ISBehavior.h>
 
-@protocol ISLivePhotoPlaybackBehaviorDelegate;
-
 __attribute__((visibility("hidden")))
 @interface ISLivePhotoPlaybackBehavior : ISBehavior
 {
@@ -15,44 +13,34 @@ __attribute__((visibility("hidden")))
         _Bool respondsToDidFinish;
         _Bool respondsToDidBeginPlaying;
     } _delegateFlags;
-    _Bool _immediatelyShowsPhotoWhenPlaybackEnds;
-    _Bool _hasBlurryTransition;
-    _Bool _isTransitioningToPhoto;
-    _Bool __videoReadyToPlay;
-    _Bool __preparing;
-    double _photoTransitionDuration;
-    long long __currentPlaybackID;
-    long long __readyToPlayPlaybackID;
-    CDStruct_1b6d18a9 _keyTime;
-    CDStruct_e83c9415 _playbackTimeRange;
 }
 
-- (void);
-- (void);
-- (CDStruct_e83c9415);
-- (double);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
+- (void)_currentInteraction;
+- (void)_contentScaleFactor;
+- (CDStruct_5c5366e1)_activityIndicatorView;
+- (double)_accessibilityWindow;
+- (_Bool)URLFragmentAllowedCharacterSet;
+- (id)R,N,V_imageSize;
+- (_Bool)geSize;
+- (_Bool)documentSize;
+- (void)_frequency;
+- (void)tation;
+- (void)idth;
+- (void)_rightInset;
+- (void)N,V_footerHeight;
+- (void)sizingTresholdFactor;
+- (void),V_sharingPolicy;
+- (long long)berOfFrames;
+- (void)tatus;
+- (void),V_loopCount;
+- (_Bool)ation;
+- (_Bool)nt;
+- (void)e;
+- (void),V_following;
+- (void)cing;
+- (void)GisAutoDarkModeEnabled,V_autoDarkModeEnabled;
+- (long long)BodyText,VattachedToBodyText;
+- (void)viewing;
 - (CDStruct_1b6d18a9);
 - (long long);
 - (void);
@@ -60,16 +48,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, setter=_setCurrentPlaybackID:) long long _currentPlaybackID; // @synthesize _currentPlaybackID=__currentPlaybackID;
-@property(nonatomic, getter=_isPreparing, setter=_setPreparing:) _Bool _preparing; // @synthesize _preparing=__preparing;
-@property(nonatomic, setter=_setReadyToPlayPlaybackID:) long long _readyToPlayPlaybackID; // @synthesize _readyToPlayPlaybackID=__readyToPlayPlaybackID;
-@property(nonatomic, getter=_isVideoReadyToPlay, setter=_setVideoReadyToPlay:) _Bool _videoReadyToPlay; // @synthesize _videoReadyToPlay=__videoReadyToPlay;
-@property(nonatomic) __weak id <ISLivePhotoPlaybackBehaviorDelegate> delegate; // @dynamic delegate;
-@property(readonly, nonatomic) _Bool hasBlurryTransition; // @synthesize hasBlurryTransition=_hasBlurryTransition;
-@property(readonly, nonatomic) _Bool immediatelyShowsPhotoWhenPlaybackEnds; // @synthesize immediatelyShowsPhotoWhenPlaybackEnds=_immediatelyShowsPhotoWhenPlaybackEnds;
-@property(readonly, nonatomic) _Bool isTransitioningToPhoto; // @synthesize isTransitioningToPhoto=_isTransitioningToPhoto;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 keyTime; // @synthesize keyTime=_keyTime;
-@property(readonly, nonatomic) double photoTransitionDuration; // @synthesize photoTransitionDuration=_photoTransitionDuration;
-@property(readonly, nonatomic) CDStruct_e83c9415 playbackTimeRange; // @synthesize playbackTimeRange=_playbackTimeRange;
 
 @end
 

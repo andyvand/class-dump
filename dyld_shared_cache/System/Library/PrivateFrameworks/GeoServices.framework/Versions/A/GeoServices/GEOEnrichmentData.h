@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDEnrichmentData, NSArray, NSData;
+@class GEOPDEnrichmentData, NSArray;
 
 @interface GEOEnrichmentData
 {
     GEOPDEnrichmentData *_enrichmentData;
-    NSArray *_enrichmentEntities;
-    NSData *_placecardEnrichmentMetadata;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)parseComponents;
 - (_Bool);
-- (id)etHasSpeedBucket:(struct _NSZone *)arg1;
+- (id)setHasSpeedBucket:(struct _NSZone *)arg1;
 - (void)ZÝ4;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *enrichmentEntities; // @synthesize enrichmentEntities=_enrichmentEntities;
-@property(readonly, nonatomic) NSData *placecardEnrichmentMetadata; // @synthesize placecardEnrichmentMetadata=_placecardEnrichmentMetadata;
 
 @end
 

@@ -6,51 +6,41 @@
 
 #import <FTServices/FTMessageDelivery.h>
 
-@class IDSServerBag;
-@protocol FTMessageDeliveryHTTPMobileNetworkManager, FTMessageDeliveryRemoteURLConnection, FTMessageDeliveryRemoteURLConnectionFactory, _FT_IDSOffGridConnectionMonitor;
+@protocol FTMessageDeliveryRemoteURLConnectionFactory, _FT_IDSOffGridConnectionMonitor;
 
 @interface FTMessageDelivery_HTTP : FTMessageDelivery
 {
     id <FTMessageDeliveryRemoteURLConnectionFactory> _remoteConnectionFactory;
-    id <FTMessageDeliveryRemoteURLConnection> _remoteConnection;
-    id <FTMessageDeliveryHTTPMobileNetworkManager> _mobileNetworkManager;
-    _Bool _pendingRetryAfterAirplaneMode;
-    double _retryTimeAfterAirplaneMode;
-    CDUnknownBlockType _retryBackoffProvider;
-    CDUnknownBlockType _timeoutBackoffProvider;
-    IDSServerBag *_idsServerBag;
-    IDSServerBag *_iMessageServerBag;
-    id <_FT_IDSOffGridConnectionMonitor> _offGridConnectionMonitor;
 }
 
 - (void);
+- (void)P;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id)o;
+- (void);
+- (void)_preferencesLoggerImpl;
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)onnectionInitializer:(id)arg1 versionChecker:migrationHandler:schemaVersion:dataProtectionClass:registerBlock:exclusiveOwnership: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)ÔÁÈð!øAùqO ð1Â0@ù
 × ;

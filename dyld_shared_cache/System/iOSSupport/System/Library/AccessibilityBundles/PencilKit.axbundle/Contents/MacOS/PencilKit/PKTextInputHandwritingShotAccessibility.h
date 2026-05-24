@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface PKTextInputHandwritingShotAccessibility
+#import <PencilKit/__PKTextInputHandwritingShotAccessibility_super.h>
+
+@interface PKTextInputHandwritingShotAccessibility : __PKTextInputHandwritingShotAccessibility_super
 {
 }
 

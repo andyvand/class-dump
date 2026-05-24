@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSDaemonResponseHandler, IMTimer;
+@class IDSDaemonResponseHandler;
 
 @interface IDSDaemonRequestContext
 {
     IDSDaemonResponseHandler *_responseHandler;
-    CDUnknownBlockType _timeoutBlock;
-    IMTimer *_systemTimer;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)[;
+- (void)Data] #### DATA BUFFER OVERFLOW ####
+;
 - (id);
 - (id);
 - (CDUnknownBlockType);

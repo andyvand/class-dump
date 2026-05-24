@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SOVoiceObject;
+@class NSString;
 
 @interface VoiceTableRow
 {
     NSString *_title;
-    unsigned long long _tableIndex;
-    _Bool _selected;
-    _Bool _groupRow;
-    SOVoiceObject *_voiceObject;
 }
 
 + (id);
@@ -24,17 +20,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(getter=isGroupRow) _Bool groupRow; // @synthesize groupRow=_groupRow;
-@property(getter=isSelected) _Bool selected;
-@property unsigned long long tableIndex; // @synthesize tableIndex=_tableIndex;
-@property(readonly, retain) NSString *title; // @synthesize title=_title;
-@property(readonly, retain) SOVoiceObject *voiceObject; // @synthesize voiceObject=_voiceObject;
 
 @end
 

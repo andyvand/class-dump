@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaNLXClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_nlId;
-    NSString *_resultCandidateId;
-    int _componentInvocationSource;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_trpId;
-    SISchemaUUID *_subRequestId;
-    struct {
-        unsigned int componentInvocationSource:1;
-    } _has;
-    _Bool _hasNlId;
-    _Bool _hasResultCandidateId;
-    _Bool _hasRequestId;
-    _Bool _hasTrpId;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
@@ -66,23 +53,11 @@
 × ;
 - (id),V_matchedResultsPopulated;
 - (id)lignmentInferenceMetadata;
-- (void)ONVERSATIONQUALITYISSUECATEGORY_ASR_TRANSCRIPTION_ERROR;
+- (void)CHCONVERSATIONQUALITYISSUECATEGORY_ASR_TRANSCRIPTION_ERROR;
 - (id)ÿ;
 
 // Remaining properties
-@property(nonatomic) int componentInvocationSource; // @synthesize componentInvocationSource=_componentInvocationSource;
-@property(nonatomic) _Bool hasComponentInvocationSource;
-@property(nonatomic) _Bool hasNlId; // @synthesize hasNlId=_hasNlId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *nlId; // @synthesize nlId=_nlId;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end
 

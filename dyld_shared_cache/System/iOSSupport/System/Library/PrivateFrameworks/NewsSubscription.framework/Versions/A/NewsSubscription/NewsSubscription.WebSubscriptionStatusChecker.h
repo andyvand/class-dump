@@ -7,10 +7,6 @@
 @interface NewsSubscription.WebSubscriptionStatusChecker
 {
     id tagSettings;
-    id readingHistory;
-    id purchaseController;
-    id appConfigurationManager;
-    id subscriptionExpiryManager;
 }
 
 @end

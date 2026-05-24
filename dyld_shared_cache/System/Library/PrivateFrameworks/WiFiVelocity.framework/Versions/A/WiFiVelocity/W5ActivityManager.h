@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSObject, NSTimer;
+@class NSObject, NSTimer;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface W5ActivityManager
 {
     NSTimer *_eagerExitTimeout;
-    NSTimer *_periodicActiveListTimer;
-    NSMutableArray *_active_transactions;
-    CDUnknownBlockType _alternateExecutionBlockForCleanExit;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _transactionsStarted;
-    NSDate *_dateFirstTransaction;
-    unsigned long long _transactionsCompleted;
 }
 
 + (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
+- (void);
 - (void);
 - (void);
+- (unsigned long long)__const;
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)__objc_methlist;
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
@@ -38,14 +31,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)id;
+- (void)bssid;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType alternateExecutionBlockForCleanExit; // @synthesize alternateExecutionBlockForCleanExit=_alternateExecutionBlockForCleanExit;
-@property(retain) NSDate *dateFirstTransaction; // @synthesize dateFirstTransaction=_dateFirstTransaction;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property unsigned long long transactionsCompleted; // @synthesize transactionsCompleted=_transactionsCompleted;
-@property unsigned long long transactionsStarted; // @synthesize transactionsStarted=_transactionsStarted;
 
 @end
 

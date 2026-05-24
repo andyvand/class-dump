@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDBusinessHours, NSArray, NSDate, NSSet, NSString;
+@class GEOPDBusinessHours;
 
 @interface GEOBusinessHours
 {
     GEOPDBusinessHours *_hours;
-    NSArray *_placeDailyHours;
-    NSArray *_placeDailyNormalizedHours;
-    _Bool _isBrandTypeHours;
 }
 
-+ (id);
++ (id)%@);
 + (void);
-- (id);
-- (unsigned int);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)cardDAVAccountForPrimaryAppleAccountWithAppleID:logger: /* Error: Ran out of types for this method. */;
+- (unsigned int)canWriteToAccountWithIdentifier:fromSourceAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_cn_indexBy: /* Error: Ran out of types for this method. */;
+- (_Bool)esults;
+- (id)NSURLSessionDataDelegate;
+- (id)CNAsynchronousCacheEntryDelegateObservable;
 - (unsigned int);
 - (id);
 - (_Bool);
@@ -33,17 +30,7 @@
 - (void)no6;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int closingSoonThresdholdInSeconds;
-@property(readonly, nonatomic) NSDate *endDate;
-@property(readonly, nonatomic) unsigned long long hoursType;
-@property(readonly, nonatomic) _Bool isBrandTypeHours; // @synthesize isBrandTypeHours=_isBrandTypeHours;
-@property(readonly, nonatomic) NSString *localizedMessage;
 @property(readonly, nonatomic) unsigned int openingSoonThresholdInSeconds;
-@property(readonly, nonatomic) NSSet *operatingWeekdays;
-@property(readonly, nonatomic) NSArray *pdHours;
-@property(readonly, nonatomic) NSArray *placeDailyHours; // @synthesize placeDailyHours=_placeDailyHours;
-@property(readonly, nonatomic) NSArray *placeDailyNormalizedHours; // @synthesize placeDailyNormalizedHours=_placeDailyNormalizedHours;
-@property(readonly, nonatomic) NSDate *startDate;
 
 @end
 

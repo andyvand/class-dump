@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDIDSActivityRegistrationModel
 {
 }
 
-+ (id);
-+ (id);
-+ (id)r: /* Error: Ran out of types for this method. */;
++ (id)originIsUpperLeft;
++ (id)elderCousinMothersSiblingsSonOrFathersSistersSon;
++ (id)updateMediaRouteIDOfDeviceWithIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *subActivities; // @dynamic subActivities;
 @property(retain, nonatomic) NSUUID *subjectDeviceIdentifier; // @dynamic subjectDeviceIdentifier;
 
 @end

@@ -5,5 +5,9 @@
 //
 
 @protocol UIDocumentBrowserViewControllerDelegate
+
+@optional
+- (void);
+- (void)NavigatorPresentationContext;
 @end
 

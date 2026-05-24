@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSObject, NSString;
 
 @protocol CPAnalyticsEventProtocol
+- (NSObject *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSDate *timestamp;
 @end
 

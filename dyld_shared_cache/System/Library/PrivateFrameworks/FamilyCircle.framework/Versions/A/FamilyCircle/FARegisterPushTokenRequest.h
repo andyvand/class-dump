@@ -13,10 +13,10 @@
     NSData *_pushToken;
 }
 
-- (id);
+- (id)addedFrequency;
+- (void)fore ringing;
 - (void);
-- (void);
-- (id)nogramWithFirstName:lastName:diameter:scale: /* Error: Ran out of types for this method. */;
+- (id)monogramWithFirstName:lastName:diameter:scale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSData *pushToken; // @synthesize pushToken=_pushToken;

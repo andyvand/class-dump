@@ -6,7 +6,7 @@
 
 #import <TextRecognition/CROutputRegion.h>
 
-@class CRNormalizedQuad, NSArray, NSString;
+@class NSArray;
 
 @interface CRCompositeOutputRegion : CROutputRegion
 {
@@ -16,22 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)TTPS: /* Error: Ran out of types for this method. */;
+- (id)_tryCreatingTokenForURLWithoutUI:permissions:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) CRNormalizedQuad *boundingQuad;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long layoutDirection;
 @property(readonly) NSArray *subregions;
-@property(readonly) Class superclass;
-@property(readonly) NSString *text;
-@property(readonly) unsigned long long textRegionType;
 
 @end
 

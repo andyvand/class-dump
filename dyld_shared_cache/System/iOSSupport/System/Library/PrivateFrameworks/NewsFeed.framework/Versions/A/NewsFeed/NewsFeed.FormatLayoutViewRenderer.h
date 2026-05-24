@@ -7,40 +7,6 @@
 @interface NewsFeed.FormatLayoutViewRenderer
 {
     id presentingViewController;
-    id analyticsDataProvider;
-    id debugger;
-    id viewNodeRenderer;
-    id textNodeRenderer;
-    id imageNodeRenderer;
-    id buttonNodeRenderer;
-    id stateViewNodeRenderer;
-    id customNodeRenderer;
-    id groupNodeRenderer;
-    id webEmbedNodeRenderer;
-    id webEmbedManager;
-    id adMetricsNodeRenderer;
-    id micaNodeRenderer;
-    id layeredMediaNodeRenderer;
-    id videoNodeRenderer;
-    id issueCoverNodeRenderer;
-    id groupMaskNodeRenderer;
-    id shareAttributionNodeRenderer;
-    id shareAttributionViewReuseManager;
-    id videoPlayerNodeRenderer;
-    id videoPlayerViewControllerReuseManager;
-    id progressViewNodeRenderer;
-    id puzzleEmbedViewControllerReuseManager;
-    id puzzleEmbedNodeRenderer;
-    id sponsoredBannerNodeRenderer;
-    id rendererTool;
-    id commandCenter;
-    id tracker;
-    id runModeRunner;
-    id timer;
-    id visibilityRenderer;
-    id resizingProvider;
-    id router;
-    id tipManager;
 }
 
 @end

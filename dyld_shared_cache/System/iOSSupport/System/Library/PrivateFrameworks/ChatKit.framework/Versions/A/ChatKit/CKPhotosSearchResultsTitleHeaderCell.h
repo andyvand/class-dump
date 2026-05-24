@@ -11,31 +11,27 @@
 @interface CKPhotosSearchResultsTitleHeaderCell : CKSearchResultsTitleHeaderCell
 {
     UISegmentedControl *_control;
-    double _controlTopPadding;
-    double _controlBottomPadding;
 }
 
++ (id)scrubberController;
 + (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
+- (void)saveShare:(double)arg1 attemptNumber:forObject:accountID:container:qualityOfService:retryPrepHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)replicaIDToNotesVersionData;
+- (void)_associatedObjectIdentifiers;
+- (void)_announceAttachmentChangeWithString:(double)arg1;
+- (double)t;
+- (double)t;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void))9;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) UISegmentedControl *control; // @synthesize control=_control;
-@property(nonatomic) double controlBottomPadding; // @synthesize controlBottomPadding=_controlBottomPadding;
-@property(nonatomic) double controlTopPadding; // @synthesize controlTopPadding=_controlTopPadding;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface AppStoreKit.AppLaunchTrampolineAction : AppStoreKit.Action
 {
     id bundleId;
-    id payloadUrl;
-    id fallbackAction;
 }
 
 @end

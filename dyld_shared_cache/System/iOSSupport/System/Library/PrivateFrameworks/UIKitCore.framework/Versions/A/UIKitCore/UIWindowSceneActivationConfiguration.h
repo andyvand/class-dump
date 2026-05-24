@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUserActivity, UITargetedPreview, UIWindowSceneActivationRequestOptions;
-@protocol _UIWindowSceneActivator;
+@class NSUserActivity;
 
 @interface UIWindowSceneActivationConfiguration
 {
     NSUserActivity *_userActivity;
-    UIWindowSceneActivationRequestOptions *_options;
-    UITargetedPreview *_preview;
-    unsigned long long __animationSource;
-    id <_UIWindowSceneActivator> __sceneActivator;
 }
 
-- (void);
-- (void);
+- (void)DHandle to _idToHandlesMap due to exception %@ -- nilling idToHandlesMap;
+- (void)%@, sender URI:(unsigned long long)arg1 %@;
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)mmcs_get_file_init_temp_file;
+- (void)_collectionIdentifierSet;
 - (id)1Â0@ù
 × ;
 - (id)"_UIEditMenuPresentation",R,N,V__outgoingPresentation;
 - (id)SValue",C,N,V_environmentScrollInitialContentOffset;
-- (id)utton;
+- (id)UIPopoverButton;
 - (id)T¨Ã2À9þ;
 - (void)`\_;
 
 // Remaining properties
 @property(nonatomic, setter=_setAnimationSource:) unsigned long long _animationSource; // @synthesize _animationSource=__animationSource;
-@property(nonatomic, setter=_setSceneActivator:) __weak id <_UIWindowSceneActivator> _sceneActivator; // @synthesize _sceneActivator=__sceneActivator;
-@property(retain, nonatomic) UIWindowSceneActivationRequestOptions *options; // @synthesize options=_options;
-@property(retain, nonatomic) UITargetedPreview *preview; // @synthesize preview=_preview;
-@property(readonly, nonatomic) NSUserActivity *userActivity; // @synthesize userActivity=_userActivity;
 
 @end
 

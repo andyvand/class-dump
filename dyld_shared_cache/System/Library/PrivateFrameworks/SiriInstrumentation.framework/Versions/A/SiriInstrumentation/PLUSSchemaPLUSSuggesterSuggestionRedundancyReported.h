@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSSuggestionDomainMetadata, SISchemaUUID;
+@class PLUSSchemaPLUSSuggestionDomainMetadata;
 
 @interface PLUSSchemaPLUSSuggesterSuggestionRedundancyReported : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSSuggestionDomainMetadata *_suggestionDomainMetadata;
-    SISchemaUUID *_suggestionLinkId;
-    SISchemaUUID *_originalRequestId;
-    int _suggestionRedundancyState;
-    struct {
-        unsigned int suggestionRedundancyState:1;
-    } _has;
-    _Bool _hasSuggestionDomainMetadata;
-    _Bool _hasSuggestionLinkId;
-    _Bool _hasOriginalRequestId;
 }
 
 - (int);
@@ -39,7 +30,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -47,23 +38,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)eral consecutive times - sleeping for 1+ the launchd throttle time.;
 - (id);
 - (id);
-- (id)angupEnablementState;
+- (id)_hsHangupEnablementState;
 - (id)unch;
-- (void)MMENT;
+- (void)DIALOGENGINENAMEDENTITYCATID__SPORTS__GENERICATHLETECOMMENT;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOriginalRequestId; // @synthesize hasOriginalRequestId=_hasOriginalRequestId;
-@property(nonatomic) _Bool hasSuggestionDomainMetadata; // @synthesize hasSuggestionDomainMetadata=_hasSuggestionDomainMetadata;
-@property(nonatomic) _Bool hasSuggestionLinkId; // @synthesize hasSuggestionLinkId=_hasSuggestionLinkId;
-@property(nonatomic) _Bool hasSuggestionRedundancyState;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *originalRequestId; // @synthesize originalRequestId=_originalRequestId;
 @property(retain, nonatomic) PLUSSchemaPLUSSuggestionDomainMetadata *suggestionDomainMetadata; // @synthesize suggestionDomainMetadata=_suggestionDomainMetadata;
-@property(retain, nonatomic) SISchemaUUID *suggestionLinkId; // @synthesize suggestionLinkId=_suggestionLinkId;
-@property(nonatomic) int suggestionRedundancyState; // @synthesize suggestionRedundancyState=_suggestionRedundancyState;
 
 @end
 

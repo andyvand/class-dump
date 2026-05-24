@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOSubPremise
 {
     PBUnknownFields *_unknownFields;
-    NSString *_name;
-    int _type;
 }
 
-+ (_Bool)cy:(id)arg1;
++ (_Bool)setMaxDepartureFrequency:(id)arg1;
 - (void);
+- (id)o;
 - (id);
-- (id);
+- (void)	k);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)cleanupOrphanedFilesInDirectory:(id)arg1 matchingPattern: /* Error: Ran out of types for this method. */;
+- (id)_RegisterXPCActivity_block_invoke;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -28,19 +26,17 @@
 - (_Bool);
 - (void);
 - (id)d_shortTrafficSummary"b1"read_summaryForPredictedDestinations"b1"wrote_anyField"b1};
-- (void)emStorageForPlaceData:(int)arg1;
-- (id)ing;
+- (void)mapItemStorageForPlaceData:(int)arg1;
+- (id)hasOffsetForDistanceString;
 - (int)ionParameters",&,N;
-- (id)GEOLocalExternalRequestCounterTicket;
-- (id)IPLE_ATTRIBUTIONS;
+- (id)_GEOLocalExternalRequestCounterTicket;
+- (id)MULTIPLE_ATTRIBUTIONS;
 - (void);
 - (id)8Ä;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *name;
 @property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface ReminderKitInternal.REMSuggestedAttributesElector
 {
     id store;
-    id defaultListID;
-    id excludedAttributes;
 }
 
 @end

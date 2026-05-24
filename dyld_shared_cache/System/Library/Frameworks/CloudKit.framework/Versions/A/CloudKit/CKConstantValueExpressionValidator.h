@@ -13,10 +13,11 @@
     id <CKObjectValidating> _validator;
 }
 
-- (void);
+- (void)i	;
 - (id);
 - (id);
-- (id);
+- (id)
+;
 - (_Bool);
 - (void)Ø ´¡¤¢£¤¼ ¥T¢H£¦à£§¸®¨H¯©L·ª4¸«À¹¬8º¤À;
 

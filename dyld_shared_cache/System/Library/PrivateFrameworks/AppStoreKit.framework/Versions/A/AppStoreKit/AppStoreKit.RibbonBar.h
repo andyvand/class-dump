@@ -7,8 +7,6 @@
 @interface AppStoreKit.RibbonBar
 {
     id items;
-    id id;
-    id impressionMetrics;
 }
 
 @end

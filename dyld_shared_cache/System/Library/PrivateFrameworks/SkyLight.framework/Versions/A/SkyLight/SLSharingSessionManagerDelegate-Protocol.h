@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SLSharingSessionManager;
+
 @protocol SLSharingSessionManagerDelegate
+
+@optional
+- (void)ities:(SLSharingSessionManager *)arg1 %@;
+- (void)gressProvider:(SLSharingSessionManager *)arg1 %@;
+- (void)containerOptions:(SLSharingSessionManager *)arg1 %@;
+- (void)taPurger:(SLSharingSessionManager *)arg1 %@;
+- (void)ovider:(SLSharingSessionManager *)arg1 %@;
 @end
 

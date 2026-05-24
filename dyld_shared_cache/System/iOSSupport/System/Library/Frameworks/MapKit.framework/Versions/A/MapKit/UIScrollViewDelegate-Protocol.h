@@ -9,6 +9,8 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void);
+- (void)	;
 - (UIView *)°!äAùÑ°1Â0@ù
 × ;
 - (void)_labelSelectionFilter;

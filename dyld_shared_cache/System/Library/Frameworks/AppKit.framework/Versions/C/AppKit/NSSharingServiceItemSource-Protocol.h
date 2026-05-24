@@ -5,5 +5,7 @@
 //
 
 @protocol NSSharingServiceItemSource
+- (id)g;
+- (id);
 @end
 

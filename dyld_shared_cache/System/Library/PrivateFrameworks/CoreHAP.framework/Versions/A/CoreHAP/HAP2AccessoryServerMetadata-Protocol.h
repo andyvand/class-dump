@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPDeviceID, HMFVersion, NSData, NSString;
+@class HAPDeviceID, HMFVersion;
 
 @protocol HAP2AccessoryServerMetadata
+- (_Bool);
+- (unsigned long long)lytics;
 - (HMFVersion *)ñ·ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long category;
-@property(readonly, nonatomic) unsigned short configNumber;
 @property(readonly, nonatomic) HAPDeviceID *deviceID;
-@property(readonly, nonatomic) _Bool hasPairings;
-@property(readonly, nonatomic) NSString *model;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) HMFVersion *protocolVersion;
-@property(readonly, nonatomic) NSData *setupHash;
-@property(readonly, nonatomic) unsigned short stateNumber;
 @end
 

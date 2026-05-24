@@ -7,14 +7,6 @@
 @interface Network.NetworkStorage.InternalStorage__priv_6FEE2748074394A1FD56B79DFE5A066E.AltSvcEntryInternal
 {
     id _expirationDate;
-    id _reversedPartition;
-    id _type;
-    id _reversedHost;
-    id _port;
-    id _altHost;
-    id _altPort;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

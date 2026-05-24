@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IDSReportClientEvent
 {
     NSString *_reportType;
-    NSDictionary *_report;
-    NSNumber *_timeout;
 }
 
 + (_Bool);
@@ -27,9 +25,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *report; // @synthesize report=_report;
 @property(retain, nonatomic) NSString *reportType; // @synthesize reportType=_reportType;
-@property(retain, nonatomic) NSNumber *timeout; // @synthesize timeout=_timeout;
 
 @end
 

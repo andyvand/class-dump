@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _TabGroupPickerToolbarButtonCell
 {
     NSString *_mainTitle;
-    NSString *_symbolImageName;
 }
 
 - (void);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)@9;
 - (struct CGRect);
 - (id)`$;
 - (void)Ì;;
@@ -29,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *mainTitle; // @synthesize mainTitle=_mainTitle;
-@property(copy, nonatomic) NSString *symbolImageName; // @synthesize symbolImageName=_symbolImageName;
 
 @end
 

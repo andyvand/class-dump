@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSString;
 @protocol SWLogger;
 
 @interface SWSetupManager
 {
     id <SWLogger> _logger;
-    NSMutableOrderedSet *_tasks;
 }
 
 - (void);
@@ -21,15 +19,7 @@
 - (id)GRect={CGPoint=dd}{CGSize=dd}}16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableOrderedSet *tasks; // @synthesize tasks=_tasks;
 
 @end
 

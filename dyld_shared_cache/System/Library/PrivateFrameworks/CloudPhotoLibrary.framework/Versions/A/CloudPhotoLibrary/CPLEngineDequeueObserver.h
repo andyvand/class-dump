@@ -7,13 +7,11 @@
 @interface CPLEngineDequeueObserver
 {
     CDUnknownBlockType _clientWillAcknowledgeBatchBlock;
-    CDUnknownBlockType _clientDidAcknowledgeBatchBlock;
-    CDUnknownBlockType _changePipeDidRemoveChanges;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -21,8 +19,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType changePipeDidRemoveChanges; // @synthesize changePipeDidRemoveChanges=_changePipeDidRemoveChanges;
-@property(readonly, copy, nonatomic) CDUnknownBlockType clientDidAcknowledgeBatchBlock; // @synthesize clientDidAcknowledgeBatchBlock=_clientDidAcknowledgeBatchBlock;
 @property(readonly, copy, nonatomic) CDUnknownBlockType clientWillAcknowledgeBatchBlock; // @synthesize clientWillAcknowledgeBatchBlock=_clientWillAcknowledgeBatchBlock;
 
 @end

@@ -6,33 +6,16 @@
 
 #import <PassKitUI/PKPassView.h>
 
-@class NSArray, NSButton, NSImage, NSMutableArray, NSString, NSView, PKImageView, PKPassTextField;
+@class NSButton, NSView;
 
 @interface PKPassFrontView : PKPassView
 {
     NSView *_primaryFieldsView;
-    NSMutableArray *_primaryFieldViews;
-    NSView *_secondaryFieldsView;
-    NSMutableArray *_secondaryFieldViews;
-    NSArray *_auxFieldsView;
-    NSArray *_auxFieldViews;
-    NSArray *_rebucketedAuxFields;
-    NSView *_headerFieldsView;
-    NSMutableArray *_headerFieldViews;
-    PKPassTextField *_logoTextField;
-    PKImageView *_logoImageView;
-    NSImage *_barcodeImage;
-    PKImageView *_barcodeImageView;
-    PKImageView *_footerImageView;
-    NSImage *_cachedFrontImage;
-    _Bool _isStripImageDrawn;
-    NSButton *_infoButton;
-    NSButton *_shareButton;
 }
 
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)c`;
 - (id);
 - (struct CGRect);
 - (struct CGRect);
@@ -40,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
@@ -54,7 +37,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,15 +61,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSButton *infoButton; // @synthesize infoButton=_infoButton;
-@property(readonly) NSButton *shareButton; // @synthesize shareButton=_shareButton;
-@property(readonly) Class superclass;
 
 @end
 

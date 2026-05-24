@@ -14,7 +14,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)pointerAtIndex:(id)arg1;
 - (void);
 
 // Remaining properties

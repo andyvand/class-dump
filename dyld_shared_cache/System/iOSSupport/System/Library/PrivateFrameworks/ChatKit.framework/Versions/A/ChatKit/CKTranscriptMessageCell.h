@@ -6,32 +6,21 @@
 
 #import <ChatKit/CKTranscriptCell.h>
 
-@class UIButton, UIView;
-@protocol CKTranscriptMessageCellFailureButtonDelegate;
-
 @interface CKTranscriptMessageCell : CKTranscriptCell
 {
     _Bool _chatEligibleForContactImage;
-    _Bool _wantsContactImageLayout;
-    _Bool _isReply;
-    _Bool _isReplyContextPreview;
-    _Bool _isFromMe;
-    _Bool _suppressAnimationsForFailureBadgeUpdate;
-    UIView *_avatarStrokeView;
-    UIButton *_failureButton;
-    id <CKTranscriptMessageCellFailureButtonDelegate> _failureButtonDelegate;
 }
 
 + (double);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)dd}}16;
+- (_Bool)sharedExpansionState;
+- (void)promptForChangingMode:(_Bool)arg1 account: /* Error: Ran out of types for this method. */;
+- (void)participantAXDisplayNameForUserID:(_Bool)arg1 forNote: /* Error: Ran out of types for this method. */;
+- (void)initWithAttributedString:(_Bool)arg1 replicaID:sourceZoomController:keepSourceZoomController:existingStyler: /* Error: Ran out of types for this method. */;
+- (void)ic_preferredFontForFixedWidthTextWithContentSizeCategory:(id)arg1;
+- (void)ic_preferredFontForFixedWidthTextWithContentSizeCategory:(id)arg1;
+- (void)font:(id)arg1 isBold:isItalic:isMonospace: /* Error: Ran out of types for this method. */;
+- (void)"NSCache",R,N;
 - (id);
 - (_Bool);
 - (id);
@@ -40,36 +29,25 @@
 - (double);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)a;
 - (id);
+- (void)ingContactsRequests;
+- (void)oveToWindowSpyKey is already set;
+- (_Bool);
+- (id)tabBarController:tab:operationForAcceptingItemsFromDropSession: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (struct UIEdgeInsets)ody;
+- (struct UIEdgeInsets)Body;
 - (_Bool)ntryView:not using layout constraints /* Error: Ran out of types for this method. */;
-- (void)ssageEditingTranscriptOverlayBackgroundColor;
+- (void)CKMessageEditingTranscriptOverlayBackgroundColor;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *avatarStrokeView; // @synthesize avatarStrokeView=_avatarStrokeView;
 @property(nonatomic) _Bool chatEligibleForContactImage; // @synthesize chatEligibleForContactImage=_chatEligibleForContactImage;
-@property(readonly, nonatomic) double contactImageViewDescender;
-@property(nonatomic) _Bool failed;
-@property(retain, nonatomic) UIButton *failureButton; // @synthesize failureButton=_failureButton;
-@property(readonly, nonatomic) _Bool failureButtonAdjustsContentAlignmentRect;
-@property(nonatomic) __weak id <CKTranscriptMessageCellFailureButtonDelegate> failureButtonDelegate; // @synthesize failureButtonDelegate=_failureButtonDelegate;
-@property(nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(nonatomic) _Bool isReply; // @synthesize isReply=_isReply;
-@property(nonatomic) _Bool isReplyContextPreview; // @synthesize isReplyContextPreview=_isReplyContextPreview;
-@property(nonatomic, getter=suppressesAnimationsForFailureBadgeUpdate) _Bool suppressAnimationsForFailureBadgeUpdate; // @synthesize suppressAnimationsForFailureBadgeUpdate=_suppressAnimationsForFailureBadgeUpdate;
-@property(nonatomic) _Bool wantsContactImageLayout; // @synthesize wantsContactImageLayout=_wantsContactImageLayout;
 
 @end
 

@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface FPUserInfo
 {
     NSArray *_keys;
-    NSArray *_values;
 }
 
 + (id);
++ (id)M;
 + (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ssion-Expires in response, but we sent one in our request;
 - (id);
 - (void)!>&°!Cù±ç)Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly) NSArray *keys; // @synthesize keys=_keys;
-@property(readonly) NSDictionary *userInfo;
-@property(readonly) NSArray *values; // @synthesize values=_values;
 
 @end
 

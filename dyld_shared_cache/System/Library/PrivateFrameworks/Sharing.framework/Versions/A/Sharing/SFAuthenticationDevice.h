@@ -11,27 +11,19 @@
 @interface SFAuthenticationDevice : SFPeerDevice
 {
     _Bool _enabledAsKey;
-    _Bool _enabledAsLock;
-    _Bool _bluetoothCloudPaired;
-    NSString *_modelDescription;
-    NSString *_idsDeviceID;
 }
 
+- (_Bool);
 - (_Bool);
+- (_Bool);
+- (id)V;
+- (id);
 - (_Bool);
-- (_Bool);
+- (id));
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void)t;
+- (void)request;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool bluetoothCloudPaired; // @synthesize bluetoothCloudPaired=_bluetoothCloudPaired;
-@property(readonly, nonatomic) _Bool enabledAsKey; // @synthesize enabledAsKey=_enabledAsKey;
-@property(readonly, nonatomic) _Bool enabledAsLock; // @synthesize enabledAsLock=_enabledAsLock;
-@property(readonly, nonatomic) NSString *idsDeviceID; // @synthesize idsDeviceID=_idsDeviceID;
 @property(readonly, copy, nonatomic) NSString *modelDescription; // @synthesize modelDescription=_modelDescription;
 
 @end

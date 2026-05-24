@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessory, HMDLightProfile, HMDNaturalLightingCurve, HMFTimer, NSNotificationCenter, NSNumber, NSObject, NSString;
-@protocol HMDLightProfileDataSource, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDNaturalLightingMatterCurveWriter
 {
     _Bool _naturalLightingAllowed;
-    NSNumber *_accessoryMinColorTemperature;
-    NSNumber *_accessoryMaxColorTemperature;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHAPAccessory *_accessory;
-    CDUnknownBlockType _timerFactory;
-    HMDLightProfile *_lightProfile;
-    HMFTimer *_periodicWriteTimer;
-    HMDNaturalLightingCurve *_naturalLightingCurve;
-    id <HMDLightProfileDataSource> _dataSource;
-    NSNotificationCenter *_notificationCenter;
 }
 
 + (id)Dïÿ»t;
@@ -33,20 +23,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)setTransitLineItem: /* Error: Ran out of types for this method. */;
+- (id)hasLongitude;
+- (_Bool)hasLocalContactIdentifier;
+- (_Bool)isHandleBlocked;
+- (id)MSPContainerArrayStateSnapshot;
+- (id)MSPContainerPersister;
+- (_Bool)8CDC	PF;
+- (id)l;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -54,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned short);
 - (void);
@@ -67,7 +57,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (id);
 - (id);
@@ -75,36 +65,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)setMetadataClockOverlapAcceptable: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
 - (void)changed characteristics:(id)arg1 %@ message:%@  /* Error: Ran out of types for this method. */;
-- (void)ent;
+- (void)requiresSPIEntitlement;
 - (id);
 
 // Remaining properties
-@property __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(copy) NSNumber *accessoryMaxColorTemperature; // @synthesize accessoryMaxColorTemperature=_accessoryMaxColorTemperature;
-@property(copy) NSNumber *accessoryMinColorTemperature; // @synthesize accessoryMinColorTemperature=_accessoryMinColorTemperature;
-@property(readonly) id <HMDLightProfileDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, getter=isDemoMode) _Bool demoMode;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMDLightProfile *lightProfile; // @synthesize lightProfile=_lightProfile;
-@property _Bool naturalLightingAllowed; // @synthesize naturalLightingAllowed=_naturalLightingAllowed;
-@property(copy) HMDNaturalLightingCurve *naturalLightingCurve; // @synthesize naturalLightingCurve=_naturalLightingCurve;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain) HMFTimer *periodicWriteTimer; // @synthesize periodicWriteTimer=_periodicWriteTimer;
-@property(readonly) NSNumber *regularTransitionTime;
-@property(readonly) Class superclass;
-@property(readonly) CDUnknownBlockType timerFactory; // @synthesize timerFactory=_timerFactory;
-@property(readonly, getter=isTimerRunning) _Bool timerRunning;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

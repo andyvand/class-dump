@@ -7,8 +7,6 @@
 @interface PromotedContentUI.AppStoreAdTranslator
 {
     id readthroughSource;
-    id frequencyCapStorageType;
-    id toroIdProvider;
 }
 
 @end

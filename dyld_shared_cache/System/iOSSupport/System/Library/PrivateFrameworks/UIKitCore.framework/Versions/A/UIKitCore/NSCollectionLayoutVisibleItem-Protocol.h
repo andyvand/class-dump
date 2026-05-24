@@ -7,6 +7,7 @@
 @class NSIndexPath, NSString;
 
 @protocol NSCollectionLayoutVisibleItem
+- (struct CGAffineTransform)hasExternalDisplay;
 - (NSIndexPath *)1Â0@ù
 × ;
 - (struct CGPoint)á°!Cùñ\1Â0@ù
@@ -17,9 +18,9 @@
 × ;
 - (struct CATransform3D)ntAdjustmentMode"b1"ancestorIgnoresInvertColors"b1"needsUpdateProperties"b1"needsTraitCollectionDidChangePropagation"b1"isRootOfTraitCollectionDidChangePropagation"b1"implementsTraitCollectionForChildEnvironment"b1"implementsBaselineOffsetsAtSize"b1"coloredViewBounds"b1"coloredAlignmentRects"b1"preservesSuperviewMargins"b4"insettingLayoutMarginsFromSafeArea"b4"safeAreaInsetsFrozen"b1"viewDelegateContentOverlayInsetsAreClean"b1"hasGeometryObservers"b1"notifyObserversForBaselineChanges"b1"notifySuperviewForBaselineChanges"b1"observingGeometryChangesForSelfCount"b4"isObservingBoundingPathRotationNotificationsForWindow"b1"hasTraitStorageList"b1"cachedTraitCollectionIsValid"b1"hasTraitOverrides"b1"dontUpdateInferredLayoutMargins"b1"areLayoutMarginsDirectional"b1"implementsViewForBaselineLayout"b1"tracksFocusedAncestors"b1"hasLayoutArrangements"b1"isHiddenManagedByLayoutArrangement"b1"hasAddedFocusGuides"b1"hasFocusSpeedBumpEdges"b1"hasFocusableContentMargins"b1"focusInteractionDisabled"b1"shouldReverseLayoutDirection"b1"cannotBeParentTraitEnvironment"b1"needsContentsFormatUpdate"b1"accessibilityIgnoresInvertColors"b1"ignoresLayerTransformForSafeAreaInsets"b1"accessibilityInterfaceStyleIntent"b2"accessibilityResolvedInterfaceStyle"b2"shouldArchiveUIAppearanceTags"b1"wantsDeepColorDrawing"b1"preferredContentsFormat"b3"sceneDraggingBehaviorOnPan"b2"tagEnabled"b1"chargeSet"b1"ignoreBackdropViewsWhenHiding"b1"hasInteractionsArray"b1"hasHitTestDirectionalInsets"b1"hasLayoutDebuggingIdentifier"b1"hasAppIntentsIntelligenceProvider"b1"hasContentSizeNotificationToken"b1"hasPresentationControllerToNotifyOnLayoutSubviews"b1"hasWritingToolsCoordinator"b1"semanticContentAttribute"b3"hasDynamicBackgroundColor"b1"forceEffectiveThemeDidChange"b1"allowsHighContrastForBackgroundColor"b1"hasPendingTraitStorageConstraints"b1"hasPendingLayoutAfterTraitStorageConstraintsUpdate"b1"hasEverBeenInAWindow"b1"hasFocusGroupIdentifier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
 - (struct CGRect)@0:8 /* Error: Ran out of types for this method. */;
-- (_Bool)vealGestureRecognizer;
+- (_Bool)revealGestureRecognizer;
 - (void)_searchBarSelectionChanged:(_Bool)arg1;
-- (long long)ropDestinationWindow;
+- (long long)_dropDestinationWindow;
 - (void)N,V_requiresExplicitInvalidation;
 - (void)ndexPath",R,N;
 - (void)uest completed for extension:(struct CGPoint)arg1 %{public}@; contextToken:%{public}@, creating remote view controller with host class %{public}@ /* Error: Ran out of types for this method. */;
@@ -28,16 +29,5 @@
 
 // Remaining properties
 @property(nonatomic) double alpha;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(nonatomic) struct CGPoint center;
-@property(readonly, nonatomic) struct CGRect frame;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(readonly, nonatomic) NSIndexPath *indexPath;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long representedElementCategory;
-@property(readonly, nonatomic) NSString *representedElementKind;
-@property(nonatomic) struct CGAffineTransform transform;
-@property(nonatomic) struct CATransform3D transform3D;
-@property(nonatomic) long long zIndex;
 @end
 

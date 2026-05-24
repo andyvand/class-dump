@@ -6,39 +6,34 @@
 
 #import <AXMediaUtilities/AXMMobileAssetEvaluationNode.h>
 
-@class NSArray, NSString, iconclassification;
+@class iconclassification;
 
 @interface AXMIconClassDetectorNode : AXMMobileAssetEvaluationNode
 {
     _Bool _writeDebugImage;
-    NSString *_loggingName;
-    NSArray *_iconClassLabels;
 }
 
-+ (_Bool);
++ (_Bool)isEqualToString: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
-- (void);
+- (void);
+- (id)O\|;
+- (id);
+- (id)z;
+- (void)[|;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)ڬm;
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)autorelease;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *iconClassLabels; // @synthesize iconClassLabels=_iconClassLabels;
-@property(retain, nonatomic) NSString *loggingName; // @synthesize loggingName=_loggingName;
 @property(readonly, nonatomic) iconclassification *mlModel; // @dynamic mlModel;
-@property(nonatomic) _Bool writeDebugImage; // @synthesize writeDebugImage=_writeDebugImage;
 
 @end
 

@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, PIFaceObservationCache;
-
 @interface PICropAutoCalculator
 {
     _Bool _shouldPerformAutoCrop;
-    _Bool _shouldPerformAutoStraighten;
-    _Bool _shouldUseAutoStraightenVerticalDetector;
-    _Bool _debugFilesEnabled;
-    PIFaceObservationCache *_faceObservationCache;
-    NSNumber *_autoStraightenVerticalAngleThreshold;
-    NSNumber *_autoStraightenDominantAngleDiffThreshold;
-    double _maxAutoStraighten;
-    double _minAutoStraighten;
-    NSString *_debugFilesPrefix;
 }
 
 + (id);
@@ -46,29 +35,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (id);
-- (void)ImagesWithRenderer: /* Error: Ran out of types for this method. */;
+- (void)renderImagesWithRenderer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSNumber *autoStraightenDominantAngleDiffThreshold; // @synthesize autoStraightenDominantAngleDiffThreshold=_autoStraightenDominantAngleDiffThreshold;
-@property(copy) NSNumber *autoStraightenVerticalAngleThreshold; // @synthesize autoStraightenVerticalAngleThreshold=_autoStraightenVerticalAngleThreshold;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property _Bool debugFilesEnabled; // @synthesize debugFilesEnabled=_debugFilesEnabled;
-@property(copy) NSString *debugFilesPrefix; // @synthesize debugFilesPrefix=_debugFilesPrefix;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PIFaceObservationCache *faceObservationCache; // @synthesize faceObservationCache=_faceObservationCache;
-@property(readonly) unsigned long long hash;
-@property double maxAutoStraighten; // @synthesize maxAutoStraighten=_maxAutoStraighten;
-@property double minAutoStraighten; // @synthesize minAutoStraighten=_minAutoStraighten;
 @property _Bool shouldPerformAutoCrop; // @synthesize shouldPerformAutoCrop=_shouldPerformAutoCrop;
-@property _Bool shouldPerformAutoStraighten; // @synthesize shouldPerformAutoStraighten=_shouldPerformAutoStraighten;
-@property _Bool shouldUseAutoStraightenVerticalDetector; // @synthesize shouldUseAutoStraightenVerticalDetector=_shouldUseAutoStraightenVerticalDetector;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_1b6d18a9 time;
 
 @end
 

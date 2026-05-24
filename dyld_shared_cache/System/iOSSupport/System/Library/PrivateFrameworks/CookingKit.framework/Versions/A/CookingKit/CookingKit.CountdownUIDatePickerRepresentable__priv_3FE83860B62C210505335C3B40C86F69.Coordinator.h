@@ -7,6 +7,7 @@
 @interface CookingKit.CountdownUIDatePickerRepresentable__priv_3FE83860B62C210505335C3B40C86F69.Coordinator
 {
     id _duration;
+    id;
 }
 
 - (id);

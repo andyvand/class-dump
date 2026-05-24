@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchKeywordMapping
 {
     NSMutableArray *_localizedNames;
-    unsigned long long _muid;
-    CDStruct_26a2534e _flags;
 }
 
 - (id);
-- (void);
+- (void)n registration;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)Field"b1};
-- (id)engthFirstQueryToken;
+- (id)_prefixTokenMatchLengthFirstQueryToken;
 - (id)øÜøäù;
 - (void)ä.ÂH@;
 

@@ -6,13 +6,9 @@
 
 #import <MediaPlayer/MPMediaPredicate.h>
 
-@class NSString;
-
 @interface MPMediaConditionalPredicate : MPMediaPredicate
 {
     MPMediaPredicate *_conditionPredicate;
-    MPMediaPredicate *_thenPredicate;
-    MPMediaPredicate *_elsePredicate;
 }
 
 + (id);
@@ -25,19 +21,10 @@
 - (id);
 - (id);
 - (void);
-- (void)delRelationshipGenericMovie__MAPPING_MISSING__;
+- (void)__MPModelRelationshipGenericMovie__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPMediaPredicate *conditionPredicate; // @synthesize conditionPredicate=_conditionPredicate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) MPMediaPredicate *elsePredicate; // @synthesize elsePredicate=_elsePredicate;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) MPMediaPredicate *thenPredicate; // @synthesize thenPredicate=_thenPredicate;
 
 @end
 

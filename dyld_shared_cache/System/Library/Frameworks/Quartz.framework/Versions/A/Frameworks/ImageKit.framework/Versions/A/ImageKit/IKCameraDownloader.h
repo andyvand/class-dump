@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKCameraFolderWatcher, NSString;
+@class NSString;
 @protocol IKCameraDownloaderDelegate;
 
 @interface IKCameraDownloader
 {
     id <IKCameraDownloaderDelegate> _delegate;
-    NSString *_path;
-    IKCameraFolderWatcher *_folderWatcher;
 }
 
 - (void);
@@ -26,11 +24,9 @@
 - (void);
 - (void);
 - (id);
-- (void)sWithIndexes:toPasteboard: /* Error: Ran out of types for this method. */;
+- (void)tableView:writeRowsWithIndexes:toPasteboard: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property id <IKCameraDownloaderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) IKCameraFolderWatcher *folderWatcher; // @synthesize folderWatcher=_folderWatcher;
 @property(copy) NSString *path; // @synthesize path=_path;
 
 @end

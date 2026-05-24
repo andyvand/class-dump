@@ -11,7 +11,7 @@
     TSPObject *_owner;
 }
 
-- (void);
+- (void)etwork-task-error;
 - (void);
 - (id);
 - (void);

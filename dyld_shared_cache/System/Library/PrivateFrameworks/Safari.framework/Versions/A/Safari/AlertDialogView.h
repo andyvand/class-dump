@@ -6,38 +6,12 @@
 
 #import <Safari/KeyLoopSplicingContainerView.h>
 
-@class AlertDialogViewOriginMessageAccessibilityHelper, BackgroundColorView, ButtonPlus, NSArray, NSLayoutConstraint, NSScrollView, NSSecureTextField, NSStackView, NSString, NSTableView, NSTextField, NSTextView, NSView;
-@protocol AlertDialogViewDelegate;
+@class NSLayoutConstraint, NSScrollView;
 
 __attribute__((visibility("hidden")))
 @interface AlertDialogView : KeyLoopSplicingContainerView
 {
     NSLayoutConstraint *_scrollViewToTextViewHeightConstraint;
-    AlertDialogViewOriginMessageAccessibilityHelper *_originMessageAccessibilityHelper;
-    CDUnknownBlockType _customLeftMostAction;
-    NSArray *_tableData;
-    CDUnknownBlockType _tableDidSelectRowAction;
-    long long _tableSelectedRow;
-    _Bool _shouldIgnoreKeyPresses;
-    id <AlertDialogViewDelegate> _delegate;
-    NSTextField *_promptUserResponseTextField;
-    NSSecureTextField *_securePromptUserResponseTextField;
-    ButtonPlus *_secondaryButton;
-    ButtonPlus *_okButton;
-    ButtonPlus *_optionalButton;
-    NSString *_originStringForAccessibility;
-    NSScrollView *_dialogMessageScrollView;
-    NSTextView *_dialogMessageTextView;
-    BackgroundColorView *_separatorView;
-    NSLayoutConstraint *_maximumHeightConstraint;
-    NSLayoutConstraint *_userResponsePromptFieldHeightConstraint;
-    NSLayoutConstraint *_widthConstraint;
-    NSTextField *_dialogTitleView;
-    NSStackView *_promptFieldStackView;
-    NSScrollView *_tableScrollView;
-    NSTableView *_tableView;
-    NSLayoutConstraint *_tableScrollViewHeightConstraint;
-    NSView *_buttonContainerView;
 }
 
 - (id);
@@ -94,18 +68,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)H;
+- (id)smlmt;
 - (void);
 - (void);
 - (void);
-- (void)seTabBarItem:(id)arg1;
-- (void)atesByProfileIdentifier;
+- (void)unifiedTabBar:(id)arg1 closeTabBarItem: /* Error: Ran out of types for this method. */;
+- (void)pinnedTabsStatesByProfileIdentifier;
 - (id)f;
 - (id)uently Visited (Start Page Popover);
 - (id)TF::String, Safari::SnapshotPayload, unsigned long long>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -116,33 +90,7 @@ __attribute__((visibility("hidden")))
 - (id)°Òÿk9Y(É.;
 
 // Remaining properties
-@property __weak NSView *buttonContainerView; // @synthesize buttonContainerView=_buttonContainerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AlertDialogViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property __weak NSScrollView *dialogMessageScrollView; // @synthesize dialogMessageScrollView=_dialogMessageScrollView;
-@property NSTextView *dialogMessageTextView; // @synthesize dialogMessageTextView=_dialogMessageTextView;
-@property __weak NSTextField *dialogTitleView; // @synthesize dialogTitleView=_dialogTitleView;
-@property(readonly) unsigned long long hash;
-@property __weak NSLayoutConstraint *maximumHeightConstraint; // @synthesize maximumHeightConstraint=_maximumHeightConstraint;
-@property __weak ButtonPlus *okButton; // @synthesize okButton=_okButton;
-@property __weak ButtonPlus *optionalButton; // @synthesize optionalButton=_optionalButton;
-@property(copy, nonatomic) NSString *originStringForAccessibility; // @synthesize originStringForAccessibility=_originStringForAccessibility;
-@property(retain, nonatomic) NSStackView *promptFieldStackView; // @synthesize promptFieldStackView=_promptFieldStackView;
-@property __weak NSTextField *promptUserResponseTextField; // @synthesize promptUserResponseTextField=_promptUserResponseTextField;
-@property __weak ButtonPlus *secondaryButton; // @synthesize secondaryButton=_secondaryButton;
-@property __weak NSSecureTextField *securePromptUserResponseTextField; // @synthesize securePromptUserResponseTextField=_securePromptUserResponseTextField;
-@property __weak BackgroundColorView *separatorView; // @synthesize separatorView=_separatorView;
-@property(nonatomic) _Bool shouldIgnoreKeyPresses; // @synthesize shouldIgnoreKeyPresses=_shouldIgnoreKeyPresses;
-@property(readonly) Class superclass;
-@property __weak NSScrollView *tableScrollView; // @synthesize tableScrollView=_tableScrollView;
-@property __weak NSLayoutConstraint *tableScrollViewHeightConstraint; // @synthesize tableScrollViewHeightConstraint=_tableScrollViewHeightConstraint;
-@property __weak NSTableView *tableView; // @synthesize tableView=_tableView;
-@property __weak NSLayoutConstraint *userResponsePromptFieldHeightConstraint; // @synthesize userResponsePromptFieldHeightConstraint=_userResponsePromptFieldHeightConstraint;
-@property __weak NSLayoutConstraint *widthConstraint; // @synthesize widthConstraint=_widthConstraint;
 
 @end
 

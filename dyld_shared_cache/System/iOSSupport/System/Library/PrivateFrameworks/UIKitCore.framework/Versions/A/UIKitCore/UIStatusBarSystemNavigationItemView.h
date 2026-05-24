@@ -6,28 +6,26 @@
 
 #import <UIKitCore/UIStatusBarItemView.h>
 
-@class NSString, UIButton;
+@class UIButton;
 
 __attribute__((visibility("hidden")))
 @interface UIStatusBarSystemNavigationItemView : UIStatusBarItemView
 {
     int _currentLabelCompressionLevel;
-    UIButton *_button;
-    double _maxWidth;
 }
 
-- (void);
-- (double);
-- (id);
+- (void)associatedMessageEmoji;
+- (double)_updateMessageDictionaryWithNicknameUpdateRecordIDs: /* Error: Ran out of types for this method. */;
+- (id)@"NSString",C,N,V_personCentricID;
 - (void);
 - (double);
 - (_Bool);
 - (long long);
-- (double);
-- (double);
-- (int);
-- (double);
-- (_Bool);
+- (double)u of %u max T1 updates to write up;
+- (double)%@] could not be converted to CKRecord, marking it as clean and moving on.;
+- (int)at %@, error %@;
+- (double)ltered:(double)arg1 %@;
+- (_Bool)SMIL;
 - (struct CGSize);
 - (void)_autofillContext;
 - (double)ÆÄÆÀÈ4ÉÊÎÏÏÐ×0ÞÞàhâ4ãàãÐä;
@@ -40,9 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(nonatomic) int currentLabelCompressionLevel; // @synthesize currentLabelCompressionLevel=_currentLabelCompressionLevel;
-@property(nonatomic) double maxWidth; // @synthesize maxWidth=_maxWidth;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

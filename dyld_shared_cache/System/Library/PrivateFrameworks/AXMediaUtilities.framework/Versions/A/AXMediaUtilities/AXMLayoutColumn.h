@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)c;
 
 @end
 

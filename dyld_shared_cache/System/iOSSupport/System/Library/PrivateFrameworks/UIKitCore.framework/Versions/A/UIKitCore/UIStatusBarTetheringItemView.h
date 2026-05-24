@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     int _tetheringConnectionCount;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)_wantsDeliveryReceipt;
+- (id)write:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

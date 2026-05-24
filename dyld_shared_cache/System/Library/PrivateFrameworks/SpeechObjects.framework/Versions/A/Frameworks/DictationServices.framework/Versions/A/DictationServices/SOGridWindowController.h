@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXVBorderedZoomWindow, NSView, SOGridView;
+@class NSView;
 
 @interface SOGridWindowController
 {
     unsigned long long _startingNumber;
-    unsigned long long _gridLevel;
-    struct CGPath *_defaultCutoutPath;
-    _Bool _gridActive;
-    _Bool _minimumSize;
-    NSView *_backgroundView;
-    SOGridView *_gridView;
-    SOGridView *_prevGridView;
-    AXVBorderedZoomWindow *_zoomWindow;
-    SOGridView *_zoomGridView;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -35,15 +26,15 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)!;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
 - (struct CGRect);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (double);
@@ -60,12 +51,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly) unsigned long long gridLevel; // @synthesize gridLevel=_gridLevel;
-@property(retain, nonatomic) SOGridView *gridView; // @synthesize gridView=_gridView;
-@property _Bool minimumSize; // @synthesize minimumSize=_minimumSize;
-@property(retain, nonatomic) SOGridView *prevGridView; // @synthesize prevGridView=_prevGridView;
-@property(retain, nonatomic) SOGridView *zoomGridView; // @synthesize zoomGridView=_zoomGridView;
-@property(retain, nonatomic) AXVBorderedZoomWindow *zoomWindow; // @synthesize zoomWindow=_zoomWindow;
 
 @end
 

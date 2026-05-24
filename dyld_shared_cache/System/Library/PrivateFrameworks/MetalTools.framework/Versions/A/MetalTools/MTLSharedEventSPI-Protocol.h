@@ -7,9 +7,9 @@
 @class IOSurfaceSharedEvent;
 
 @protocol MTLSharedEventSPI
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) IOSurfaceSharedEvent *IOSurfaceSharedEvent;
-@property(readonly) _Bool supportsRollback;
 @end
 

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CWFNetworkDenyListInfo
 {
     unsigned long long _reason;
-    long long _reasonData;
-    NSString *_reasonString;
-    double _reasonTimestamp;
-    double _stateTimestamp;
-    NSString *_BSSID;
-    unsigned long long _state;
-    NSString *_stateString;
 }
 
 - (double);
@@ -25,27 +16,20 @@
 - (long long);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)id-data;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *BSSID; // @synthesize BSSID=_BSSID;
 @property unsigned long long reason; // @synthesize reason=_reason;
-@property long long reasonData; // @synthesize reasonData=_reasonData;
-@property(copy) NSString *reasonString; // @synthesize reasonString=_reasonString;
-@property double reasonTimestamp; // @synthesize reasonTimestamp=_reasonTimestamp;
-@property unsigned long long state; // @synthesize state=_state;
-@property(copy) NSString *stateString; // @synthesize stateString=_stateString;
-@property double stateTimestamp; // @synthesize stateTimestamp=_stateTimestamp;
 
 @end
 

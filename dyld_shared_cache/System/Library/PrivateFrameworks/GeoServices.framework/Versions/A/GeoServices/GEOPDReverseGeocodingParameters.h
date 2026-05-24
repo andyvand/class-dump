@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDReverseGeocodingParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_extendedLocations;
-    NSMutableArray *_locations;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _placeTypeLimit;
-    _Bool _preserveOriginalLocation;
-    struct {
-        unsigned int has_placeTypeLimit:1;
-        unsigned int has_preserveOriginalLocation:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_extendedLocations:1;
-        unsigned int read_locations:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)adBlockerEnabledPolicy;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)?="read_announcements"b1"read_languageCode"b1"wrote_anyField"b1};
-- (id): /* Error: Ran out of types for this method. */;
+- (id)_openTileLoaderWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id)ÔØXÛ@Ü¼Ý	Láôâèãì¼íÔîñôìõ;
 - (void)Ïù.¥nG@;
 

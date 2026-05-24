@@ -4,44 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAccount, IMDChat, IMDServiceSession, IMSyndicationAction, NSArray, NSString;
+@class NSString;
 
 @interface IMSyndicationActionPipelineParameter
 {
     _Bool _isFromMe;
-    unsigned char _itemType;
-    unsigned char _version;
-    unsigned char _actionType;
-    IMSyndicationAction *_syndicationAction;
-    IMDChat *_chat;
-    NSString *_replicationSourceServiceName;
-    IMDAccount *_account;
-    IMDServiceSession *_serviceSession;
-    NSString *_fromIdentifier;
-    NSString *_toIdentifier;
-    NSString *_fromDisplayID;
-    NSString *_groupID;
-    NSString *_currentGroupName;
-    NSArray *_participantIdentifiers;
-    unsigned long long _encodedSyndicationStartDate;
-    NSString *_messagePartGUID;
-    struct _NSRange _syndicatedMessagePartRange;
 }
 
-- (id);
-- (id);
+- (id)P;
+- (id).;
 - (struct _NSRange);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)a.`
+;
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ha;
+- (id);
+- (id)(;
 - (id);
 - (unsigned long long);
 - (id);
@@ -65,24 +49,7 @@
 - (unsigned char)%@;
 
 // Remaining properties
-@property(retain, nonatomic) IMDAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) unsigned char actionType; // @synthesize actionType=_actionType;
-@property(readonly, nonatomic) IMDChat *chat; // @synthesize chat=_chat;
-@property(copy, nonatomic) NSString *currentGroupName; // @synthesize currentGroupName=_currentGroupName;
-@property(readonly, nonatomic) unsigned long long encodedSyndicationStartDate; // @synthesize encodedSyndicationStartDate=_encodedSyndicationStartDate;
-@property(copy, nonatomic) NSString *fromDisplayID; // @synthesize fromDisplayID=_fromDisplayID;
 @property(copy, nonatomic) NSString *fromIdentifier; // @synthesize fromIdentifier=_fromIdentifier;
-@property(copy, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(readonly, nonatomic) unsigned char itemType; // @synthesize itemType=_itemType;
-@property(readonly, nonatomic) NSString *messagePartGUID; // @synthesize messagePartGUID=_messagePartGUID;
-@property(copy, nonatomic) NSArray *participantIdentifiers; // @synthesize participantIdentifiers=_participantIdentifiers;
-@property(copy, nonatomic) NSString *replicationSourceServiceName; // @synthesize replicationSourceServiceName=_replicationSourceServiceName;
-@property(retain, nonatomic) IMDServiceSession *serviceSession; // @synthesize serviceSession=_serviceSession;
-@property(readonly, nonatomic) struct _NSRange syndicatedMessagePartRange; // @synthesize syndicatedMessagePartRange=_syndicatedMessagePartRange;
-@property(readonly, nonatomic) IMSyndicationAction *syndicationAction; // @synthesize syndicationAction=_syndicationAction;
-@property(copy, nonatomic) NSString *toIdentifier; // @synthesize toIdentifier=_toIdentifier;
-@property(readonly, nonatomic) unsigned char version; // @synthesize version=_version;
 
 @end
 

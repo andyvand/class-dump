@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLDebugInstrumentationData, MTLFunctionReflection, MTLType, NSArray, NSString;
-@protocol MTLArgumentEncoder, MTLFunctionHandle;
+@class MTLFunctionReflection, NSArray, NSData, NSString;
+@protocol MTLArgumentEncoder, MTLFunction;
 
 @protocol MTLFunctionSPI
+- (id <MTLFunction>);
+- (NSArray *);
+- (NSString *)m;
+- (NSData *) ;
+- (const CDStruct_5af0f983 *)+ ;
 - (id <MTLArgumentEncoder>)!ØDùñh6Ð1Â0@ù
 × ;
 - (id <MTLArgumentEncoder>)nStructure>"16Q24;
-- (MTLFunctionReflection *)Index:(unsigned long long)arg1;
-- (NSArray *)mplerState:atIndex: /* Error: Ran out of types for this method. */;
-- (NSString *)inaryFunction;
+- (MTLFunctionReflection *)setVertexSamplerState:(unsigned long long)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (NSArray *)setMeshSamplerState:atIndex: /* Error: Ran out of types for this method. */;
+- (NSString *)binaryFunction;
 - (NSArray *)¨¼¨8©¸©ª;
 
 // Remaining properties
-@property(readonly) NSArray *arguments;
-@property(readonly) NSArray *bindings;
-@property(readonly, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
 @property(readonly, copy) NSString *filePath;
-@property(readonly, nonatomic) id <MTLFunctionHandle> functionHandle;
-@property(readonly) NSArray *importedLibraries;
-@property(readonly) NSArray *importedSymbols;
-@property(readonly) long long lineNumber;
-@property(copy, nonatomic) NSArray *relocations;
-@property(readonly) unsigned long long renderTargetArrayIndexType;
-@property(readonly) MTLType *returnType;
-@property(readonly, copy) NSString *unpackedFilePath;
 @end
 

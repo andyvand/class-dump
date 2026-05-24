@@ -5,17 +5,15 @@
 //
 
 @class AVCMediaStreamConfig, NSDictionary;
-@protocol HMDAVCVideoStreamDelegate;
 
 @protocol HMDAVCVideoStream
-- (void);
-- (NSDictionary *)ventDictionary: /* Error: Ran out of types for this method. */;
+- (AVCMediaStreamConfig *)_block_invoke;
+- (void)raitVideoRenderNode resolvedNodeWithCachedInputs:settings:pipelineState:error:] /* Error: Ran out of types for this method. */;
+- (void)initWithCryptoSuite: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)addCommonDimensionsToEventDictionary: /* Error: Ran out of types for this method. */;
 - (void)Other;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *capabilities;
-@property(readonly, nonatomic) AVCMediaStreamConfig *configuration;
-@property(nonatomic) __weak id <HMDAVCVideoStreamDelegate> delegate;
 @property(readonly, nonatomic) long long streamToken;
 @end
 

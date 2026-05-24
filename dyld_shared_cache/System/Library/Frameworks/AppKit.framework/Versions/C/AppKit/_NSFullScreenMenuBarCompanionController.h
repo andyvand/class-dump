@@ -4,38 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAnimation, NSString, NSTitlebarAccessoryViewController, NSTitlebarContainerView, NSTitlebarView, NSToolbar, NSToolbarFullScreenWindow, _NSFullScreenContentController, _NSFullScreenMouseDetectionWindow;
-
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenMenuBarCompanionController
 {
     _Bool _invalid;
-    _NSFullScreenContentController *_contentController;
-    NSTitlebarContainerView *_titlebarContainerView;
-    NSTitlebarView *_titlebarView;
-    NSTitlebarAccessoryViewController *_auxiliaryViewController;
-    double _menuBarReveal;
-    double _toolbarWindowReveal;
-    NSAnimation *_toolbarRevealAnimation;
-    NSToolbarFullScreenWindow *_toolbarWindow;
-    NSToolbar *_toolbar;
-    _Bool _isHandlingHotKeyEvent;
-    unsigned int _autohideDisabledCounter;
-    unsigned int _forceWindowVisibleCounter;
-    double _autohideHeight;
-    double _lastSetAutohideHeight;
-    unsigned long long _lastMenuBarCompanionSpaceID;
-    _Bool _isForcingToolbarVisibleForSheet;
-    _Bool _hasAutohideToolbar;
-    _Bool _shouldAutomaticallyAutohideToolbar;
-    _Bool _registeredForNotes;
-    _Bool _inLayout;
-    _Bool _windowIsInFullScreen;
-    _NSFullScreenMouseDetectionWindow *_mouseDetectionWindow;
-    id _screenObserver;
-    long long _menuTrackingCount;
-    _Bool _sidebarOverlaid;
-    _Bool _detachedFromMenuBar;
 }
 
 - (void);
@@ -52,32 +24,32 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (double);
 - (id);
-- (void);
+- (void);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
+- (void)service:(double)arg1 %@:busyState:%d /* Error: Ran out of types for this method. */;
+- (void)m data;
+- (void)s failed Img4DecodePerformTrustEvaluation with error %d;
+- (void)'syscfg-erly-kbgs-allow-load' (%d) was not a multiple of (%d);
+- (void)roperty found in apticket, fall back to use restoreOS trustobject digest property;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_AMFDRDecodeVerifyData;
+- (void)iled to parse cert properties:(id)arg1 %d;
+- (void)OceanComputeCarrierID;
+- (void)Q4b8YIwPgnznT5hs4qXjaA;
+- (void)/I6w;
+- (void)VikxgsK3LmzdJGsKgCEZLA;
 - (_Bool);
 - (double);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (struct NSToolbarFullScreenContentViewLayout_t);
-- (void);
+- (void);
 - (double);
 - (double);
 - (void);
@@ -91,65 +63,48 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double);
+- (double)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)olderThanLastAccess;
+- (void)accept__sessionOpenFileAtPath;
+- (void)accept__isWaitingForConnection_withError;
+- (void)_explicitlySetShouldHandleCookies;
+- (void)_clientBufferLength;
+- (void)_cfurlprtotectionspace;
+- (long long)es;
 - (struct CGPoint);
+- (void)or does not have status codes, skipping callback;
+- (void)sing %s proxy configuration;
+- (unsigned long long)Client;
+- (void)equest!;
+- (void)cause there is no such task;
+- (void)ed;
 - (void);
 - (void);
-- (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void)e:(id)arg1 alertRecoverySuggestionButtonTitle:alertRecoverySuggestionButtonLaunchURL: /* Error: Ran out of types for this method. */;
-- (void)workBaselineOffsetFromFrameInRect:flipped: /* Error: Ran out of types for this method. */;
+- (void)artworkBaselineOffsetFromFrameInRect:flipped: /* Error: Ran out of types for this method. */;
 - (void)electedTabViewItemFrom does not recognize this type of controller.;
 - (void)e to perform the "%@" action of element:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak NSTitlebarAccessoryViewController *auxiliaryViewController; // @synthesize auxiliaryViewController=_auxiliaryViewController;
-@property __weak _NSFullScreenContentController *contentController; // @synthesize contentController=_contentController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool detachedFromMenuBar; // @synthesize detachedFromMenuBar=_detachedFromMenuBar;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isHandlingHotKeyEvent; // @synthesize isHandlingHotKeyEvent=_isHandlingHotKeyEvent;
 @property double menuBarReveal;
-@property(nonatomic) _Bool needsOpaqueBackstop;
-@property(nonatomic, getter=isSidebarOverlaid) _Bool sidebarOverlaid; // @synthesize sidebarOverlaid=_sidebarOverlaid;
-@property(readonly) Class superclass;
-@property __weak NSTitlebarContainerView *titlebarContainerView; // @synthesize titlebarContainerView=_titlebarContainerView;
-@property __weak NSTitlebarView *titlebarView; // @synthesize titlebarView=_titlebarView;
-@property(retain, nonatomic) NSToolbar *toolbar;
-@property double toolbarWindowReveal;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, NSString;
+@class IFColor;
 
 @interface ISShapeCompositorResource
 {
     IFColor *_fillColor;
-    IFColor *_lineColor;
-    double _lineWidth;
 }
 
 + (id);
@@ -28,20 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) IFColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(readonly) unsigned long long hash;
-@property(retain) IFColor *lineColor; // @synthesize lineColor=_lineColor;
-@property double lineWidth; // @synthesize lineWidth=_lineWidth;
-@property(readonly) Class superclass;
-@property _Bool usesExternalCompositor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
-
 
 @end
 

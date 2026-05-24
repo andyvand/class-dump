@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WBSBrowsingAssistantContentProvider, WBSBrowsingAssistantResult;
-@protocol WBSBrowsingAssistantControllerDelegate, WBSUserDefaultObservation;
+@class WBSBrowsingAssistantContentProvider;
+@protocol WBSBrowsingAssistantControllerDelegate;
 
 @interface WBSBrowsingAssistantController
 {
     WBSBrowsingAssistantContentProvider *_contentProvider;
-    id <WBSUserDefaultObservation> _userDefaultObservation;
-    NSString *_previousWebpageIdentifier;
-    id <WBSBrowsingAssistantControllerDelegate> _delegate;
-    WBSBrowsingAssistantResult *_result;
-    NSString *_onDemandSummary;
-    NSString *_webpageIdentifier;
-    NSString *_cachedReaderArticleTitle;
 }
 
 + (long long);
-+ (void);
++ (void);
 + (_Bool);
 + (void);
 + (_Bool);
@@ -28,11 +21,11 @@
 + (void);
 - (id);
 - (void);
-- (int);
+- (int)`;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (_Bool);
@@ -52,22 +45,12 @@
 - (id);
 - (id);
 - (void);
-- (id)dAtURLString:title:timeOfVisit:wasHTTPNonGet:wasFailure:increaseVisitCount:origin: /* Error: Ran out of types for this method. */;
+- (id)itemVisitedAtURLString:title:timeOfVisit:wasHTTPNonGet:wasFailure:increaseVisitCount:origin: /* Error: Ran out of types for this method. */;
 - (void)ÿÿe;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cachedReaderArticleTitle; // @synthesize cachedReaderArticleTitle=_cachedReaderArticleTitle;
 @property(nonatomic) __weak id <WBSBrowsingAssistantControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *onDemandSummary; // @synthesize onDemandSummary=_onDemandSummary;
-@property(readonly, nonatomic) WBSBrowsingAssistantResult *result; // @synthesize result=_result;
-@property(readonly, copy, nonatomic) NSString *summary;
-@property(readonly, nonatomic, getter=isSummaryAvailable) _Bool summaryAvailable;
-@property(readonly, copy, nonatomic) NSArray *tableOfContentsPaths;
-@property(readonly, copy, nonatomic) NSArray *tableOfContentsTitles;
-@property(readonly, copy, nonatomic) NSArray *tableOfContentsTrailingTexts;
-@property(readonly, nonatomic) int tableOfContentsType;
-@property(copy, nonatomic) NSString *webpageIdentifier; // @synthesize webpageIdentifier=_webpageIdentifier;
 
 @end
 

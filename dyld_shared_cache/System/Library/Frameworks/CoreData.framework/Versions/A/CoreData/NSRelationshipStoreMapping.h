@@ -6,21 +6,18 @@
 
 #import <CoreData/NSPropertyStoreMapping.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSRelationshipStoreMapping : NSPropertyStoreMapping
 {
     NSString *_destinationEntityExternalName;
-    NSArray *_foreignKeys;
-    NSArray *_joins;
-    unsigned int _joinSemantic;
 }
 
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)i;
+- (id)@;
 - (id);
 - (unsigned int);
 - (id)new column values for %@ - incompatible destination:%@ /* Error: Ran out of types for this method. */;

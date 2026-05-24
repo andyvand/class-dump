@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class GEOLocationShiftFunctionResponse, NSString;
+@class GEOLocationShiftFunctionResponse;
 
 @interface GEOLocationShiftingFunctionResponse : GEOXPCReply
 {
@@ -16,19 +16,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)ts;
-- (void)n_GEO_DATA_NOT_LOADED;
+- (void)_positionInResults;
+- (void)VLFARGeoTrackingStateReason_GEO_DATA_NOT_LOADED;
 - (void)~¥6\44;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) GEOLocationShiftFunctionResponse *function; // @synthesize function=_function;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,43 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SMTSchemaSMTAppLanguageModelBuildFailed : SISchemaInstrumentationMessage
 {
     NSString *_assetName;
-    int _reason;
-    CDStruct_6555f803 _has;
-    _Bool _hasAssetName;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (id);
-- (int);
+- (int)teCoordinateB:outDistance: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)purchase;
+- (_Bool)ABActionSocialProfileViewProfile;
+- (_Bool)exing) prepareForReindexingWithReason:(id)arg1 completion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)asKgQAExecutionTier1;
-- (void)SOURCEDOWNLOADTYPE_KG_HERO_IMAGE;
-- (void)ACKGROUNDUPDATETYPE_FULL_CACHE_UPDATE;
-- (void)RE;
+- (id)deleteIsEntireClockAffected;
+- (id)_hasKgQAExecutionTier1;
+- (void)POMMESRESOURCEDOWNLOADTYPE_KG_HERO_IMAGE;
+- (void)SSUBACKGROUNDUPDATETYPE_FULL_CACHE_UPDATE;
+- (void)CHCONVERSATIONQUALITYISSUECATEGORY_DOMAIN_SPECIFIC_ACTION_FAILURE;
 - (id)ü3Þÿhe®ª";
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetName; // @synthesize assetName=_assetName;
-@property(nonatomic) _Bool hasAssetName; // @synthesize hasAssetName=_hasAssetName;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end
 

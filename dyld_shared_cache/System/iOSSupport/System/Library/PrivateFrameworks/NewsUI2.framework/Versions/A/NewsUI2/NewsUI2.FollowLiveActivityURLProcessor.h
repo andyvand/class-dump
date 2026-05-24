@@ -7,7 +7,6 @@
 @interface NewsUI2.FollowLiveActivityURLProcessor
 {
     id liveActivityManager;
-    id patterns;
 }
 
 @end

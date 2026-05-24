@@ -7,6 +7,8 @@
 @class NSView;
 
 @protocol SARemoteUIWindowControllerProtocol
+- (void)PC;
+- (void)O;
 
 // Remaining properties
 @property(readonly) NSView *remoteUIContentView;

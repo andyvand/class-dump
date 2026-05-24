@@ -7,11 +7,10 @@
 @interface SSRTriggerPhraseDetectorNDAPI
 {
     void *_novDetect;
-    unsigned long long _phId;
 }
 
 - (id);
-- (void);
+- (void)NSt3__110__function6__funcIZN11cnframework12ActiveObjectIN5raven31RavenDeviceAttitudeActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_16MovingStateEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (void);
 - (id);
 - (id);

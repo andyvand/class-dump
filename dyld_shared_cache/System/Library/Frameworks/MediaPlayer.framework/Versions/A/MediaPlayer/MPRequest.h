@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSObject, NSOperationQueue, NSString;
-@protocol OS_dispatch_queue;
+@class NSOperationQueue, NSString;
 
 @interface MPRequest
 {
     NSString *_label;
-    long long _qualityOfService;
-    double _timeoutInterval;
-    NSOperationQueue *_calloutQueue;
-    NSError *_cancelationError;
-    NSObject<OS_dispatch_queue> *_cleanupQueue;
-    NSOperationQueue *_queue;
-    NSArray *_middlewareClasses;
 }
 
 + (double);
@@ -26,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -38,27 +30,13 @@
 - (id);
 - (void);
 - (void);
-- (void)rrideChildStorePlatformDictionaries;
+- (void)_overrideChildStorePlatformDictionaries;
 - (void)ndpointWrapper",&,N,V_endpointWrapper;
 - (id) ¸;
 - (double)pAlbumArtist;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOperationQueue *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
-@property(readonly, nonatomic) NSError *cancelationError; // @synthesize cancelationError=_cancelationError;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *cleanupQueue; // @synthesize cleanupQueue=_cleanupQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSArray *middlewareClasses; // @synthesize middlewareClasses=_middlewareClasses;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(readonly, nonatomic) NSOperationQueue *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface PKMembershipProgram
 {
     NSString *_programName;
-    NSString *_memberStatus;
-    NSString *_memberNumber;
 }
 
 + (id);
@@ -19,17 +17,15 @@
 × ;
 - (id);
 - (id);
+- (id)6H;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id)thRequest:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)resumption_success_times;
+- (id)accountBankLookupWithRequest:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)a"16@"NSError"24;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *memberNumber; // @synthesize memberNumber=_memberNumber;
-@property(readonly, copy, nonatomic) NSString *memberStatus; // @synthesize memberStatus=_memberStatus;
 @property(readonly, copy, nonatomic) NSString *programName; // @synthesize programName=_programName;
 
 @end

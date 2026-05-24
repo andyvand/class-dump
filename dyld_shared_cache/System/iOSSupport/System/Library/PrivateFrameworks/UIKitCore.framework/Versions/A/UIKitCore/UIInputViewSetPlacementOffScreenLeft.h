@@ -11,8 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)idFinishNotification;
-- (id);
++ (_Bool)UIKeyboardRenderDidFinishNotification;
+- (id)>
+<body>
+;
 
 @end
 

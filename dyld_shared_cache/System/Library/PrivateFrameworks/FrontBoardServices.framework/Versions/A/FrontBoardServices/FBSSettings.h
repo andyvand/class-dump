@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSKeyedSettings, BSSettings, NSOrderedSet, NSString;
+@class BSSettings;
 
 @interface FBSSettings
 {
     Class _baseClass;
-    BSKeyedSettings *_settings;
-    BSKeyedSettings *_localSettings;
-    BSSettings *_legacyLocalSettings;
-    BSSettings *_legacyOtherSettings;
-    FBSSettings *_progenitor;
-    NSOrderedSet *_orderedExtensions;
-    _Bool _mutable;
-    _Bool _needsCoW;
 }
 
 + (id);
@@ -31,14 +23,15 @@
 + (Class);
 + (Class);
 + (Class);
-+ (id);
++ (id);
 + (Class);
-+ (id);
-+ (Class);
++ (id)uRIHandoffPayloadWithDictionary:context: /* Error: Ran out of types for this method. */;
++ (Class)r
+;
 + (_Bool);
 + (Class);
 + (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -60,10 +53,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)N3fst7FstImplINS_9GallicArcINS_6ArcTplINS_17TropicalWeightTplIfEEiEELNS_10GallicTypeE2EEEEE;
+- (id)N3fst7FstImplINS_9GallicArcINS_6ArcTplINS_17TropicalWeightTplIfEEiEELNS_10GallicTypeE2EEEEE;
+- (_Bool)cTypeE2EEENSt3__19allocatorIS8_EEEENS_17DefaultCacheStoreIS8_EEEE;
+- (_Bool)N3fst11MemoryArenaINS_10MemoryPoolINS_8DfsStateINS_10ReverseArcINS_9GallicArcINS_6ArcTplINS_12LogWeightTplIfEEiEELNS_10GallicTypeE1EEEEEEEE4LinkEEE;
 - (void);
 - (id);
 - (id);
@@ -80,20 +73,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)deviceDelay;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) BSSettings *otherSettings;
-@property(readonly) Class superclass;
 
 @end
 

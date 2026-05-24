@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
+@class NSString;
 
 @interface NSScriptRecordFieldDescription
 {
     NSString *_key;
-    NSObject *_typeNameOrDescription;
-    unsigned int _appleEventCode;
-    _Bool _isHidden;
-    NSString *_presentableDescription;
-    NSString *_presentableName;
-    NSArray *_synonymDescriptions;
 }
 
 - (id);
@@ -29,7 +23,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)N2LM23GrammaticalityEvaluatorE;
 
 @end
 

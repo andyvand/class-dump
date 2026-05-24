@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCNContactIdentifier, NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ABCNSaveRequest
 {
     NSMutableDictionary *_addedContactsByIdentifier;
-    NSMutableDictionary *_updatedContactsByIdentifier;
-    NSMutableDictionary *_deletedContactsByIdentifier;
-    ABCNContactIdentifier *_meCardIdentifier;
-    NSMutableDictionary *_addedGroupsByIdentifier;
-    NSMutableDictionary *_updatedGroupsByIdentifier;
-    NSMutableDictionary *_deletedGroupsByIdentifier;
-    _Bool _unsafeApplyChangesOnly;
 }
 
 + (id);
 - (id);
 - (id);
+- (void);
 - (void);
+- (void);
+- (id);
+- (void)s;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)T`;
 - (id);
 - (void);
 - (void);
@@ -42,17 +35,10 @@
 × ;
 - (void)
 × ;
-- (void)ceProtocol;
+- (void)ABContactsAccountsServiceProtocol;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *addedContactsWithAccount;
-@property(readonly, copy, nonatomic) NSArray *addedGroupsWithAccount;
-@property(readonly, copy, nonatomic) NSArray *deletedContacts;
-@property(readonly, copy, nonatomic) NSArray *deletedGroups;
-@property(readonly, copy, nonatomic) ABCNContactIdentifier *meCardIdentifier;
 @property(nonatomic) _Bool unsafeApplyChangesOnly; // @synthesize unsafeApplyChangesOnly=_unsafeApplyChangesOnly;
-@property(readonly, copy, nonatomic) NSArray *updatedContacts;
-@property(readonly, copy, nonatomic) NSArray *updatedGroups;
 
 @end
 

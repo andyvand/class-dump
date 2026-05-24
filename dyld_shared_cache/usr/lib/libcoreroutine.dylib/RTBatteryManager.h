@@ -6,17 +6,13 @@
 
 #import <coreroutine/RTService.h>
 
-@class RTDarwinNotificationHelper;
-
 @interface RTBatteryManager : RTService
 {
     _Bool _monitorBatteryStatusChanges;
-    long long _externalConnectionState;
-    RTDarwinNotificationHelper *_notificationHelper;
 }
 
-+ (id);
-+ (long long);
++ (id)dation of loose leaves;
++ (long long)ound;
 + (int);
 + (_Bool);
 - (void);
@@ -24,15 +20,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)fetchComplete:(id)arg1 currentItemData:(id)arg2 point:error: /* Error: Ran out of types for this method. */;
+- (void)pipe;
+- (void)piece;
+- (long long)knee;
 - (void);
 - (void);
-- (long long);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)4˟;
+- (id);
 - (void)oth bestAoiInferredMapItem and bestPoiInferredMapItem are nil.;
 - (void), restorationIdentifier, %@;
 - (void)lace inference in POI update;
@@ -40,9 +36,7 @@
 - (void)¾x;
 
 // Remaining properties
-@property(nonatomic) long long externalConnectionState; // @synthesize externalConnectionState=_externalConnectionState;
 @property(nonatomic) _Bool monitorBatteryStatusChanges; // @synthesize monitorBatteryStatusChanges=_monitorBatteryStatusChanges;
-@property(readonly, nonatomic) RTDarwinNotificationHelper *notificationHelper; // @synthesize notificationHelper=_notificationHelper;
 
 @end
 

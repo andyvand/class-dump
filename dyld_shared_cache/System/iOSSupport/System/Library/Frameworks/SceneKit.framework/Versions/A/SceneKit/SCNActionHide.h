@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     struct SCNCActionHide *_mycaction;
 }
 
-+ (id);
-+ (_Bool);
++ (id)8@0:8Q16{CGPoint=dd}24@?40 /* Error: Ran out of types for this method. */;
++ (_Bool)k_invoke;
 + (id)înIDK U>ÎB8ÜÏ¾pICd"U>Ü7B
 ÛÏ¾Y	³B%U>ûÎAñØÏ¾ÁkIBs.U>ÓûA¿ÔÏ¾T·;
 - (id);

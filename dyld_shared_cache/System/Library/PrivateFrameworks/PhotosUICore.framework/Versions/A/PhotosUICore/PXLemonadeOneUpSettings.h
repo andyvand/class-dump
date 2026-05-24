@@ -9,52 +9,10 @@
 @interface PXLemonadeOneUpSettings : PXSettings
 {
     _Bool _chromeLibraryScrubberEnabled;
-    _Bool _chromeLibraryScrubberHiddenWhileZoomed;
-    _Bool _enableLegibilityBlur;
-    _Bool _insetAllContent;
-    _Bool _enableClearMagicPocket;
-    _Bool _showPlaybackRateButton;
-    _Bool _showAudioMixButton;
-    _Bool _loopAllVideos;
-    _Bool _doubleTapFillsScreen;
-    _Bool _enableSideCommentsInLandscape;
-    _Bool _showChromeSafeAreaBox;
-    _Bool _showChromeMarginsBox;
-    _Bool _showLegibilityGradientBorders;
-    _Bool _internal_isOneUpRefreshEnabled;
-    _Bool _showSaveVideoFrameAction;
-    _Bool _enableSystemBars;
-    _Bool _showSharedLibraryStatusInSubtitle;
-    long long _chromeEDRBoostBehavior;
-    long long _videoControlsEDRBoostBehavior;
-    double _chromeButtonsEDRBoost;
-    double _chromeTitleEDRBoost;
-    double _chromeVideoControlsEDRBoost;
-    long long _legibilityBlurCurve;
-    double _legibilityBlurRadius;
-    double _legibilityBlurDistanceToBaseline;
-    long long _legibilityTintCurve;
-    double _legibilityTintOpacity;
-    double _videoScrubberPaletteShadowOpacity;
-    double _videoScrubberPaletteShadowBlurRadius;
-    double _videoScrubberPaletteShadowOffsetX;
-    double _videoScrubberPaletteShadowOffsetY;
-    double _minimumMarginForInsetContent;
-    double _insetContentCornerRadius;
-    double _insetContentBorderWidth;
-    double _insetContentBorderOpacityDarkMode;
-    double _insetContentBorderOpacityLightMode;
-    long long _insetMode;
-    long long _screenshotInsetMode;
-    long long _regularSizeClassInsetMode;
-    double _minimumVideoScrubberWidth;
-    double _minimumDurationForVideoLooping;
-    double _dismissalFractionForHidingChrome;
-    long long _debugBarKindRawValue;
 }
 
 + (_Bool);
-+ (id);
++ (id)shouldApplyDarkModeToBackgroundColorsOfTextStyle:component:DOM: /* Error: Ran out of types for this method. */;
 + (id)k:Q: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
@@ -68,6 +26,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -85,6 +46,7 @@
 - (void);
 - (void);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -101,12 +63,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -117,7 +75,7 @@
 - (double);
 - (_Bool);
 - (double);
-- (long long);
+- (long long)4�;
 - (double);
 - (double);
 - (long long);
@@ -147,49 +105,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double chromeButtonsEDRBoost; // @synthesize chromeButtonsEDRBoost=_chromeButtonsEDRBoost;
-@property(nonatomic) long long chromeEDRBoostBehavior; // @synthesize chromeEDRBoostBehavior=_chromeEDRBoostBehavior;
 @property(nonatomic) _Bool chromeLibraryScrubberEnabled; // @synthesize chromeLibraryScrubberEnabled=_chromeLibraryScrubberEnabled;
-@property(nonatomic) _Bool chromeLibraryScrubberHiddenWhileZoomed; // @synthesize chromeLibraryScrubberHiddenWhileZoomed=_chromeLibraryScrubberHiddenWhileZoomed;
-@property(nonatomic) double chromeTitleEDRBoost; // @synthesize chromeTitleEDRBoost=_chromeTitleEDRBoost;
-@property(nonatomic) double chromeVideoControlsEDRBoost; // @synthesize chromeVideoControlsEDRBoost=_chromeVideoControlsEDRBoost;
-@property(nonatomic) long long debugBarKindRawValue; // @synthesize debugBarKindRawValue=_debugBarKindRawValue;
-@property(nonatomic) double dismissalFractionForHidingChrome; // @synthesize dismissalFractionForHidingChrome=_dismissalFractionForHidingChrome;
-@property(nonatomic) _Bool doubleTapFillsScreen; // @synthesize doubleTapFillsScreen=_doubleTapFillsScreen;
-@property(nonatomic) _Bool enableClearMagicPocket; // @synthesize enableClearMagicPocket=_enableClearMagicPocket;
-@property(nonatomic) _Bool enableLegibilityBlur; // @synthesize enableLegibilityBlur=_enableLegibilityBlur;
-@property(nonatomic) _Bool enableSideCommentsInLandscape; // @synthesize enableSideCommentsInLandscape=_enableSideCommentsInLandscape;
-@property(nonatomic) _Bool enableSystemBars; // @synthesize enableSystemBars=_enableSystemBars;
-@property(nonatomic) _Bool insetAllContent; // @synthesize insetAllContent=_insetAllContent;
-@property(nonatomic) double insetContentBorderOpacityDarkMode; // @synthesize insetContentBorderOpacityDarkMode=_insetContentBorderOpacityDarkMode;
-@property(nonatomic) double insetContentBorderOpacityLightMode; // @synthesize insetContentBorderOpacityLightMode=_insetContentBorderOpacityLightMode;
-@property(nonatomic) double insetContentBorderWidth; // @synthesize insetContentBorderWidth=_insetContentBorderWidth;
-@property(nonatomic) double insetContentCornerRadius; // @synthesize insetContentCornerRadius=_insetContentCornerRadius;
-@property(nonatomic) long long insetMode; // @synthesize insetMode=_insetMode;
-@property(nonatomic) _Bool internal_isOneUpRefreshEnabled; // @synthesize internal_isOneUpRefreshEnabled=_internal_isOneUpRefreshEnabled;
-@property(nonatomic) long long legibilityBlurCurve; // @synthesize legibilityBlurCurve=_legibilityBlurCurve;
-@property(nonatomic) double legibilityBlurDistanceToBaseline; // @synthesize legibilityBlurDistanceToBaseline=_legibilityBlurDistanceToBaseline;
-@property(nonatomic) double legibilityBlurRadius; // @synthesize legibilityBlurRadius=_legibilityBlurRadius;
-@property(nonatomic) long long legibilityTintCurve; // @synthesize legibilityTintCurve=_legibilityTintCurve;
-@property(nonatomic) double legibilityTintOpacity; // @synthesize legibilityTintOpacity=_legibilityTintOpacity;
-@property(nonatomic) _Bool loopAllVideos; // @synthesize loopAllVideos=_loopAllVideos;
-@property(nonatomic) double minimumDurationForVideoLooping; // @synthesize minimumDurationForVideoLooping=_minimumDurationForVideoLooping;
-@property(nonatomic) double minimumMarginForInsetContent; // @synthesize minimumMarginForInsetContent=_minimumMarginForInsetContent;
-@property(nonatomic) double minimumVideoScrubberWidth; // @synthesize minimumVideoScrubberWidth=_minimumVideoScrubberWidth;
-@property(nonatomic) long long regularSizeClassInsetMode; // @synthesize regularSizeClassInsetMode=_regularSizeClassInsetMode;
-@property(nonatomic) long long screenshotInsetMode; // @synthesize screenshotInsetMode=_screenshotInsetMode;
-@property(nonatomic) _Bool showAudioMixButton; // @synthesize showAudioMixButton=_showAudioMixButton;
-@property(nonatomic) _Bool showChromeMarginsBox; // @synthesize showChromeMarginsBox=_showChromeMarginsBox;
-@property(nonatomic) _Bool showChromeSafeAreaBox; // @synthesize showChromeSafeAreaBox=_showChromeSafeAreaBox;
-@property(nonatomic) _Bool showLegibilityGradientBorders; // @synthesize showLegibilityGradientBorders=_showLegibilityGradientBorders;
-@property(nonatomic) _Bool showPlaybackRateButton; // @synthesize showPlaybackRateButton=_showPlaybackRateButton;
-@property(nonatomic) _Bool showSaveVideoFrameAction; // @synthesize showSaveVideoFrameAction=_showSaveVideoFrameAction;
-@property(nonatomic) _Bool showSharedLibraryStatusInSubtitle; // @synthesize showSharedLibraryStatusInSubtitle=_showSharedLibraryStatusInSubtitle;
-@property(nonatomic) long long videoControlsEDRBoostBehavior; // @synthesize videoControlsEDRBoostBehavior=_videoControlsEDRBoostBehavior;
-@property(nonatomic) double videoScrubberPaletteShadowBlurRadius; // @synthesize videoScrubberPaletteShadowBlurRadius=_videoScrubberPaletteShadowBlurRadius;
-@property(nonatomic) double videoScrubberPaletteShadowOffsetX; // @synthesize videoScrubberPaletteShadowOffsetX=_videoScrubberPaletteShadowOffsetX;
-@property(nonatomic) double videoScrubberPaletteShadowOffsetY; // @synthesize videoScrubberPaletteShadowOffsetY=_videoScrubberPaletteShadowOffsetY;
-@property(nonatomic) double videoScrubberPaletteShadowOpacity; // @synthesize videoScrubberPaletteShadowOpacity=_videoScrubberPaletteShadowOpacity;
 
 @end
 

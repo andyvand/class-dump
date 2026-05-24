@@ -6,16 +6,11 @@
 
 #import <Navigation/MNIPCMessage.h>
 
-@class GEOComposedString, GEOPBTransitArtwork, NSString;
+@class NSString;
 
 @interface MNIPCTransitAlightMessage : MNIPCMessage
 {
     NSString *_identifier;
-    unsigned long long _stopIndex;
-    unsigned long long _stepIndex;
-    GEOPBTransitArtwork *_artwork;
-    GEOComposedString *_title;
-    GEOComposedString *_detail;
 }
 
 - (unsigned long long);
@@ -28,20 +23,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)tem/Library/PrivateFrameworks/iCloudQuotaUI.framework/Versions/A/iCloudQuotaUI;
 - (id);
-- (id);
+- (id)est is the same, new client (%{public}@) context should be updated for control:(id)arg1 %{public}@;
 - (id);
 - (void)MNNavigationService"16@"NSArray"24Q32;
 - (id)ashTableCygËÿÿ_pG;
 
 // Remaining properties
-@property(copy, nonatomic) GEOPBTransitArtwork *artwork; // @synthesize artwork=_artwork;
-@property(retain, nonatomic) GEOComposedString *detail; // @synthesize detail=_detail;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long stepIndex; // @synthesize stepIndex=_stepIndex;
-@property(nonatomic) unsigned long long stopIndex; // @synthesize stopIndex=_stopIndex;
-@property(retain, nonatomic) GEOComposedString *title; // @synthesize title=_title;
 
 @end
 

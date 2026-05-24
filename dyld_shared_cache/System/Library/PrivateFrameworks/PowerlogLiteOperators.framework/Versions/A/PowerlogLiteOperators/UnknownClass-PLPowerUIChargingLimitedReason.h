@@ -8,7 +8,7 @@
 + (id);
 + (id);
 - (int);
-- (short);
+- (short);
 - (_Bool);
 - (_Bool)Üuñÿ!é;
 @end

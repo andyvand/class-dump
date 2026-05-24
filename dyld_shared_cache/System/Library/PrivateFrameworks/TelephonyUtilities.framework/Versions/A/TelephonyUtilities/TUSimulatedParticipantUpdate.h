@@ -7,7 +7,6 @@
 @interface TUSimulatedParticipantUpdate
 {
     _Bool _spatialPersonaEnabled;
-    struct TUSimulatedParticipantUpdateHasSet _hasSet;
 }
 
 + (_Bool);
@@ -18,11 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct TUSimulatedParticipantUpdateHasSet hasSet; // @synthesize hasSet=_hasSet;
-@property(nonatomic, getter=isSpatialPersonaEnabled) _Bool spatialPersonaEnabled; // @synthesize spatialPersonaEnabled=_spatialPersonaEnabled;
 
 @end
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCMapTable, NSArray;
+@class NSArray;
 
 @interface FCFeedPersonalizedItems
 {
     NSArray *_sortedItems;
-    FCMapTable *_scoreProfiles;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void)lient_simulation;
+- (void)client_simulation;
 
 // Remaining properties
-@property(retain, nonatomic) FCMapTable *scoreProfiles; // @synthesize scoreProfiles=_scoreProfiles;
 @property(retain, nonatomic) NSArray *sortedItems; // @synthesize sortedItems=_sortedItems;
 
 @end

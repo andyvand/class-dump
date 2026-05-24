@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol MLFeatureProvider;
+@class NSDictionary;
 
 @interface MLProgramContext
 {
     NSDictionary *_functionNameToInputLayersNames;
-    NSDictionary *_functionNameToOutputLayersNames;
-    id <MLFeatureProvider> _executionState;
-    NSString *_trainFunctionLossName;
-    NSString *_forwardFunctionLossName;
-    NSDictionary *_functionNameToStateMap;
 }
 
+- (id)initializeFragmentIndicesKernel;
+- (void)mentDescriptor.;
+- (void)RecordField;
+- (void)MatrixType;
+- (void)MeshTypeInfo;
+- (id);
+- (id);
+- (id)';
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)alue;
+- (id)(;
+- (void)branchValue;
 
 // Remaining properties
-@property(retain, nonatomic) id <MLFeatureProvider> executionState; // @synthesize executionState=_executionState;
-@property(retain, nonatomic) NSString *forwardFunctionLossName; // @synthesize forwardFunctionLossName=_forwardFunctionLossName;
 @property(retain, nonatomic) NSDictionary *functionNameToInputLayersNames; // @synthesize functionNameToInputLayersNames=_functionNameToInputLayersNames;
-@property(retain, nonatomic) NSDictionary *functionNameToOutputLayersNames; // @synthesize functionNameToOutputLayersNames=_functionNameToOutputLayersNames;
-@property(retain, nonatomic) NSDictionary *functionNameToStateMap; // @synthesize functionNameToStateMap=_functionNameToStateMap;
-@property(retain, nonatomic) NSString *trainFunctionLossName; // @synthesize trainFunctionLossName=_trainFunctionLossName;
 
 @end
 

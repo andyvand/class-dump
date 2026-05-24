@@ -12,8 +12,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)EID VARCHAR;
+- (id)e resulted in updates with no updated properties - %@ - %@;
 - (id);
 - (id);
 - (unsigned int);

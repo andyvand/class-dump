@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NUBufferRenderClient, NUComposition, NUImageDataClient;
-@protocol OS_dispatch_queue;
+@class NUComposition;
 
 @interface _PIWhiteColorCalculator
 {
     NUComposition *_composition;
-    NUBufferRenderClient *_bufferRenderClient;
-    NUImageDataClient *_imageDataClient;
-    NSObject<OS_dispatch_queue> *_q;
-    _Bool _useSushi;
 }
 
 - (void);

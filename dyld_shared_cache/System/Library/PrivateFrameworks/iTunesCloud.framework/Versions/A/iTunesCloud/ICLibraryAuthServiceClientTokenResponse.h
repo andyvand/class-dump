@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLibraryAuthServiceClientTokenResult, NSString;
-
 @interface ICLibraryAuthServiceClientTokenResponse
 {
     _Bool _success;
-    int _resultCode;
-    NSString *_serverHostName;
-    long long _serverInstance;
-    ICLibraryAuthServiceClientTokenResult *_tokenResult;
 }
 
 - (id);
@@ -22,17 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (void)egate;
+- (void)AVPlaybackCoordinationMediumDelegate;
 - (_Bool)SKD] - handling key request %{public}@. isPrefetchKey=%{BOOL}u, shouldForceStreamingOnlyKeysForPlayback=%{BOOL}u, shouldRequestPersistableKey=%{BOOL}u;
 - (int)dia content taste service invalidated;
 - (void)oken response %@;
 
 // Remaining properties
 @property(readonly, nonatomic) int resultCode; // @synthesize resultCode=_resultCode;
-@property(readonly, copy, nonatomic) NSString *serverHostName; // @synthesize serverHostName=_serverHostName;
-@property(readonly, nonatomic) long long serverInstance; // @synthesize serverInstance=_serverInstance;
-@property(nonatomic, getter=isSuccess) _Bool success; // @synthesize success=_success;
-@property(readonly, copy, nonatomic) ICLibraryAuthServiceClientTokenResult *tokenResult; // @synthesize tokenResult=_tokenResult;
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AppleMediaServicesUI.ReviewData;
+
 @protocol AppleMediaServicesUI.ReviewExtensionHostInterface
+- (void)S asset update notification for asset type:(AppleMediaServicesUI.ReviewData *)arg1 (%{public}@);
 @end
 

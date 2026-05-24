@@ -6,13 +6,13 @@
 
 #import <Intents/INIntent.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface INSetMessageAttributeIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (void);
 - (id);
 - (id);
@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void):(id)arg1 8@16@?24;
 - (id);
 - (void);
 - (void);
@@ -34,15 +34,7 @@
 - (id)5;
 
 // Remaining properties
-@property(readonly) long long attribute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSArray *identifiers;
-@property(readonly) Class superclass;
 
 @end
 

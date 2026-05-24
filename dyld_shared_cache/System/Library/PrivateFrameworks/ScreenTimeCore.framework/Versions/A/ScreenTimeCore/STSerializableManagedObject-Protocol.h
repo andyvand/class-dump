@@ -5,5 +5,6 @@
 //
 
 @protocol STSerializableManagedObject
+- (_Bool);
 @end
 

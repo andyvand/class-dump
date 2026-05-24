@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SPHandle
 {
     long long _type;
-    NSString *_destination;
-    NSString *_formattedName;
 }
 
 + (id);
@@ -19,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -31,15 +27,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)sIMFileTransferHideAttachmentKey;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destination; // @synthesize destination=_destination;
-@property(copy, nonatomic) NSString *formattedName; // @synthesize formattedName=_formattedName;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

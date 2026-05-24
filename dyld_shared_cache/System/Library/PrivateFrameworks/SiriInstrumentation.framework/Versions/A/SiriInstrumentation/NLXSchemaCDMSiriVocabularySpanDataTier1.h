@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMSiriVocabularySpanDataTier1 : SISchemaInstrumentationMessage
 {
     unsigned int _priorOrdinality;
-    double _priorScore;
-    struct {
-        unsigned int priorOrdinality:1;
-        unsigned int priorScore:1;
-    } _has;
 }
 
 - (void);
@@ -30,22 +23,18 @@
 - (double);
 - (id);
 - (id);
-- (void);
+- (void)haracters;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)árÐ!TGùÑÞ°1Â0@ù
 × ;
 - (id)lternativesEventTier1;
 - (id)tionContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPriorOrdinality;
-@property(nonatomic) _Bool hasPriorScore;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int priorOrdinality; // @synthesize priorOrdinality=_priorOrdinality;
-@property(nonatomic) double priorScore; // @synthesize priorScore=_priorScore;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDSharingConnection, NSObject, NSString, SFSession;
-@protocol OS_os_log;
+@class NSString;
 
 @interface DEDSharingOutbound
 {
     NSString *_identifier;
-    SFSession *_session;
-    DEDSharingConnection *_connection;
-    NSObject<OS_os_log> *_log;
 }
 
 - (void);
@@ -38,36 +34,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)participantVisibility;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)%5;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void)SessionWithID:(id)arg1;
+- (void)sharingInbound_didAbortSessionWithID:(id)arg1;
 
 // Remaining properties
-@property __weak DEDSharingConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain) SFSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

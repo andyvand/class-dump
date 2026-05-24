@@ -6,15 +6,11 @@
 
 #import <MediaRemote/MRAVEndpoint.h>
 
-@class MRAVConcreteOutputContext, MROrigin, MROutputContextController, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface MRAVOutputContextEndpoint : MRAVEndpoint
 {
     NSString *_uniqueIdentifier;
-    NSArray *_outputDevices;
-    MROrigin *_origin;
-    MRAVConcreteOutputContext *_outputContext;
-    MROutputContextController *_outputContextController;
 }
 
 + (_Bool);
@@ -26,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)4H5;
 - (void);
 - (void);
 - (_Bool);
@@ -40,11 +36,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
+- (id)seLocationEnabled:accessState: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)AFUODStatusSupportedFull;
 - (id);
 - (_Bool);
 - (void);
@@ -52,7 +48,7 @@
 - (id);
 - (void);
 - (id);
-- (void)s;
+- (void)clearSupportedCustomQueueIdentifiers;
 - (void)te;
 - (_Bool)ination;
 - (id)b´½
@@ -60,11 +56,7 @@
 - (void)Äecx;
 
 // Remaining properties
-@property(retain, nonatomic) MROrigin *origin; // @synthesize origin=_origin;
-@property(retain, nonatomic) MRAVConcreteOutputContext *outputContext; // @synthesize outputContext=_outputContext;
-@property(retain, nonatomic) MROutputContextController *outputContextController; // @synthesize outputContextController=_outputContextController;
 @property(copy, nonatomic) NSArray *outputDevices;
-@property(readonly, nonatomic, getter=isRealized) _Bool realized;
 
 @end
 

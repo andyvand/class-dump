@@ -9,10 +9,6 @@
 @interface QCColorPort : QCPort
 {
     double _red;
-    double _green;
-    double _blue;
-    double _alpha;
-    void *_unused3[4];
 }
 
 + (Class);
@@ -24,7 +20,7 @@
 - (void);
 - (void);
 - (struct CGColor *);
-- (CDStruct_bdcb2b0d);
+- (CDStruct_60067b7e);
 - (id);
 - (void);
 - (void);
@@ -46,7 +42,7 @@
 - (id);
 - (id);
 - (Class)¨Ð;
-- (double)itle;
+- (double)Inspector_SettingsTitle;
 - (void)`;
 
 @end

@@ -7,20 +7,9 @@
 @interface ConversationKit.ScreenSharingInteractionController
 {
     id sessionObserverTask;
-    id groupSessionStateCancellable;
-    id lock;
-    id observers;
-    id latestRemoteControlDate;
-    id hasJoinedOneToOneConversation;
-    id isBroadcastingScreenSharing;
-    id deviceRestrictionsQueue;
-    id deviceRestrictionController;
-    id callsFeatureManager;
-    id _remoteControlState;
-    id onUpdateUI;
 }
 
-- (void);
+- (void)z;
 - (void);
 - (void);
 - (void);

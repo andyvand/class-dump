@@ -7,11 +7,11 @@
 @class AVPlaybackContentContainerView;
 
 @protocol AVPlaybackContentContainer
+- (AVPlaybackContentContainerView *)N12cnestimation16TimedMeasurementIN5raven19RateGyroMeasurementEEE;
+- (void)C;
+- (void)(;
 
 // Remaining properties
 @property(readonly, nonatomic) AVPlaybackContentContainerView *activeContentView;
-@property(nonatomic) _Bool canShowStatusBarBackgroundGradientWhenStatusBarVisible;
-@property(nonatomic, getter=isPlayingOnSecondScreen) _Bool playingOnSecondScreen;
-@property(nonatomic) struct CGRect videoContentFrame;
 @end
 

@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol PHASuggestionGenerationTask
+- (NSDictionary *);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *suggestionOptionsDictionary;

@@ -6,56 +6,37 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImageProvider, NSMutableDictionary, NSString;
+@class MRImageProvider;
 
 @interface MREffectHangingPictures : MREffect
 {
     MRImageProvider *mRopeImageProvider;
-    MRImageProvider *mPhotoFrameImageProviders[4];
-    NSMutableDictionary *mSprites;
-    NSMutableDictionary *mMatrices;
-    NSString *mCurrentMainSlideKey;
-    unsigned long long mCountOfSlides;
-    double mBaseStillDuration;
-    struct {
-        double startTime;
-        double mainStartTime;
-        double displayTime;
-        double mainEndTime;
-        double endTime;
-        unsigned long long countOfSegments;
-    } mSlideTimings[10];
-    _Bool mScenario[9];
-    unsigned char mNumberOfRopes;
-    unsigned short mFrameIndices;
 }
 
 + (id);
 + (_Bool);
 + (void)l&;
-- (double);
-- (double);
-- (void);
-- (void);
-- (_Bool);
-- (double);
-- (_Bool);
+- (double)8^{_NSZone=}16;
+- (double)2;
+- (void)fc_zlibInflate;
+- (void)cdnAppConfig;
+- (_Bool);
+- (double)lyticsEnvelopeTrackerContentTypeIsSupported(contentType);
+- (_Bool)oint:(double)arg1 ];
 - (id);
 - (_Bool);
 - (id);
 - (double);
+- (double);
 - (double);
 - (double);
-- (double);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)idOfCombinedID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double mainDuration; // @dynamic mainDuration;
 @property(readonly, nonatomic) double phaseInDuration; // @dynamic phaseInDuration;
-@property(readonly, nonatomic) double phaseOutDuration; // @dynamic phaseOutDuration;
 
 @end
 

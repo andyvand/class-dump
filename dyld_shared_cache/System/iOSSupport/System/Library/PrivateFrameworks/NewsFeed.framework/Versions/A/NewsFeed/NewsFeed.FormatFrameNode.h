@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatFrameNode
 {
     id _identifier;
-    id size;
-    id _adjustments;
-    id flex;
 }
 
 @end

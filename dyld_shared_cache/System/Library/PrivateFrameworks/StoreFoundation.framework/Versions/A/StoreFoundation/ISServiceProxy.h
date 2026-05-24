@@ -4,8 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISStoreClient, Protocol;
-@protocol ISAccountService, ISAssetService, ISDownloadService, ISServiceRemoteObject, ISTransactionService, ISUIService;
+@class ISStoreClient;
+@protocol ISServiceRemoteObject;
 
 @interface ISServiceProxy
 {
@@ -13,24 +13,24 @@
 }
 
 + (id);
-+ (void);
++ (void)$;
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)R';
 - (id);
 - (void);
 - (id);
@@ -38,18 +38,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)t;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <ISAccountService> accountService;
-@property(readonly, nonatomic) id <ISAssetService> assetService;
-@property(readonly, nonatomic) id <ISDownloadService> downloadService;
 @property(readonly, nonatomic) __weak id <ISServiceRemoteObject> exportedObject;
-@property(readonly, nonatomic) Protocol *exportedProtocol;
-@property(retain, nonatomic) ISStoreClient *storeClient; // @synthesize storeClient=_storeClient;
-@property(readonly, nonatomic) id <ISTransactionService> transactionService;
-@property(readonly, nonatomic) id <ISUIService> uiService;
 
 @end
 

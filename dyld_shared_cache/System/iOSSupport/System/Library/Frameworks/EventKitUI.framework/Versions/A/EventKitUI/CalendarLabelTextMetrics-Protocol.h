@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIFont;
+@class UIColor;
 
 @protocol CalendarLabelTextMetrics
+- (struct CGRect){;
+- (UIColor *)d;
+- (void);
 - (long long)1Â0@ù
 × ;
-- (void)hmentDownloadController:(long long)arg1;
-- (void)Separator;
+- (void)owningEventForAttachmentDownloadController:(long long)arg1;
+- (void)_layoutSeparator;
 - (long long)minderTitleDetailItemDelegate>",W,N,V_editDelegate;
-- (long long);
-- (void)ButtonImageColor;
+- (void)ClearButtonImageColor;
 
 // Remaining properties
-@property(retain, nonatomic) UIFont *font;
-@property(nonatomic) long long lineBreakMode;
 @property(nonatomic) long long numberOfLines;
-@property(copy, nonatomic) NSString *text;
-@property(nonatomic) long long textAlignment;
-@property(retain, nonatomic) UIColor *textColor;
 @end
 

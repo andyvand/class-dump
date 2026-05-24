@@ -7,9 +7,6 @@
 @interface SignpostSupportMachTimeTranslationRange
 {
     unsigned long long _startMachAbsoluteTime;
-    unsigned long long _endMachAbsoluteTime;
-    unsigned long long _startMachContinuousTime;
-    unsigned long long _endMachContinuousTime;
 }
 
 - (unsigned long long);
@@ -31,13 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long absoluteMinusContinuousDelta;
-@property(readonly, nonatomic) long long continuousMinusAbsoluteDelta;
-@property(readonly, nonatomic) unsigned long long endMachAbsoluteTime; // @synthesize endMachAbsoluteTime=_endMachAbsoluteTime;
-@property(readonly, nonatomic) unsigned long long endMachContinuousTime; // @synthesize endMachContinuousTime=_endMachContinuousTime;
-@property(readonly, nonatomic) unsigned long long machContinuousTimeDuration;
 @property(readonly, nonatomic) unsigned long long startMachAbsoluteTime; // @synthesize startMachAbsoluteTime=_startMachAbsoluteTime;
-@property(readonly, nonatomic) unsigned long long startMachContinuousTime; // @synthesize startMachContinuousTime=_startMachContinuousTime;
 
 @end
 

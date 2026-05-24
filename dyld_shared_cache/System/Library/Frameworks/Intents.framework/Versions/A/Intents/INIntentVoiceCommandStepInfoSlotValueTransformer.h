@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
-+ (Class);
++ (Class);
 + (Class);
 + (long long)ip",R,C,V_trainTrip;
 - (id);
-- (id):(id)arg1;
+- (id)StringAsUnit:(id)arg1;
 
 @end
 

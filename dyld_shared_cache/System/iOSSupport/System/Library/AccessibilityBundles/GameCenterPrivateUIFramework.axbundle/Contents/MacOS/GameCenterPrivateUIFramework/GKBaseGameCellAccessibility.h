@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
-+ (void);
++ (void)__UINavigationButtonAccessibility__PhotoLibrary__UIKit_super;
 - (_Bool);
 - (id);
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface IPAEditDescription
 {
@@ -14,11 +14,11 @@
 + (id);
 + (id);
 + (unsigned long long);
-+ (Class);
++ (Class)St;
 + (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)AVCIImageFilteringResult;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -31,35 +31,29 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (id)�"k ;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id));
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)pixelBufferFromImage:withAttachFrom: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

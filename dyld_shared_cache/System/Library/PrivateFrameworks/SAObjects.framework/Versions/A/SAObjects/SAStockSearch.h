@@ -13,11 +13,11 @@
 }
 
 + (id);
-+ (id);
++ (id)exist;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 
 // Remaining properties

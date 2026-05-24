@@ -6,36 +6,28 @@
 
 #import <LinkPresentation/LPMetadataProviderSpecialization.h>
 
-@class LPFetcherGroup, LPSpecializationMetadata, LPiTunesMediaLookupTask, MPStoreLyricsSnippetURLComponents, NSString;
-@protocol LPiTunesMediaUnresolvedMetadata;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaMetadataProviderSpecialization : LPMetadataProviderSpecialization
 {
     NSString *_identifier;
-    NSString *_storefrontCountryCode;
-    _Bool _canceled;
-    LPiTunesMediaLookupTask *_lookupTask;
-    LPSpecializationMetadata *_resolvedMetadata;
-    id <LPiTunesMediaUnresolvedMetadata> _unresolvedMetadata;
-    MPStoreLyricsSnippetURLComponents *_lyricComponents;
-    LPFetcherGroup *_fetcherGroup;
 }
 
++ (id)supportsChatNameAndPhotoHeader;
++ (id)supportsBigEmojiTextStyles;
++ (void)stickerInlinePreviewMaxWidthForImageSize:(id)arg1 isEmoji:(CDUnknownBlockType)arg2 displayScale: /* Error: Ran out of types for this method. */;
++ (id)smallTailBalloonFrameForSize:(id)arg1 flipHorizontally:flipVertically: /* Error: Ran out of types for this method. */;
++ (long long)sizeForInterfaceOrientation:(id)arg1 ignoreInputView: /* Error: Ran out of types for this method. */;
++ (id)showViewController:(id)arg1 sender:(id)arg2;
 + (id);
-+ (id);
-+ (void);
-+ (id);
-+ (long long);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)showUnreadConversationsWithLastConversation:(id)arg1 ignoringMessages:(id)arg2;
++ (id)shortNameForSIMLabel:(id)arg1;
 + (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)transcriptCollectionViewController:(id)arg1 chatItemForContextMenuWithConfiguration:(id)arg2;
+- (id)topInsetIncludesPalette;
+- (id)toolbarPresentRecoverConfirmationsForConveresations:(id)arg1 sender:(id)arg2;
+- (void)tableView:(CDUnknownBlockType)arg1 commitEditingStyle:forRowAtIndexPath: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

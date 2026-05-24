@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LUSearchTermIndicator, NSAttributedString, NSPopover, NSString;
+@class LUSearchTermIndicator;
 
 @interface LUPresenter
 {
     LUSearchTermIndicator *_searchTermIndicator;
-    NSPopover *_resultsPopover;
-    NSAttributedString *_displayedTerm;
-    struct CGPoint _displayedTermOrigin;
 }
 
 + (_Bool);
@@ -24,7 +21,7 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -41,7 +38,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -53,17 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSAttributedString *displayedTerm; // @synthesize displayedTerm=_displayedTerm;
-@property(nonatomic) struct CGPoint displayedTermOrigin; // @synthesize displayedTermOrigin=_displayedTermOrigin;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSPopover *resultsPopover; // @synthesize resultsPopover=_resultsPopover;
 @property(retain, nonatomic) LUSearchTermIndicator *searchTermIndicator; // @synthesize searchTermIndicator=_searchTermIndicator;
-@property(readonly) Class superclass;
 
 @end
 

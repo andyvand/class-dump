@@ -6,19 +6,17 @@
 
 #import <SafariSharedUI/WBSForYouRecommendationMediatorDataSource.h>
 
-@class NSObject, WBSCloudTabStore;
-@protocol OS_dispatch_queue;
+@class WBSCloudTabStore;
 
 @interface WBSForYouCloudTabsDataSource : WBSForYouRecommendationMediatorDataSource
 {
     WBSCloudTabStore *_tabsStore;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 - (void);
 - (void);
 - (id);
-- (void)AddedLinkPreviewMetadata:toUserActivity:webView: /* Error: Ran out of types for this method. */;
+- (void)notifyAddedLinkPreviewMetadata:toUserActivity:webView: /* Error: Ran out of types for this method. */;
 
 @end
 

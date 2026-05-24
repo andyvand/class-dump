@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLFeatureDescription, MLMultiArray, NSArray, NSMutableDictionary, NSSet;
+@class MLFeatureDescription, NSSet;
 
 @interface DSPGMLInputProvider
 {
     MLFeatureDescription *_featureDescription;
-    NSMutableDictionary *_featureCache;
-    NSArray *_allInputFeatureNames;
-    MLMultiArray *_input;
 }
 
 - (id);

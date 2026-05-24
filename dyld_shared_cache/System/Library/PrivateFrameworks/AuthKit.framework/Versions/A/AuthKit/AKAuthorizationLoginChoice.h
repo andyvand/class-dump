@@ -9,9 +9,6 @@
 @interface AKAuthorizationLoginChoice
 {
     _Bool _appleIDAuth;
-    _Bool _createAppleID;
-    NSString *_user;
-    NSString *_site;
 }
 
 + (_Bool);
@@ -31,9 +28,6 @@
 - (void)Êª¬´É¹Dæ½\2º&ÊùÝ"Á("«ü¨NæëKÉÁÏÈ`ó»e^ñ'%äÀPz¥Ð«~Zê&éIäÏ`è´î¯lù{¾O/7½9y¼b=;þzòtÍ3ìJ¸ç¦ÃÔÊMÙ`0¶ÅpõÓ;
 
 // Remaining properties
-@property(nonatomic, getter=isAppleIDAuthorization) _Bool appleIDAuth; // @synthesize appleIDAuth=_appleIDAuth;
-@property(nonatomic, getter=shouldCreateAppleID) _Bool createAppleID; // @synthesize createAppleID=_createAppleID;
-@property(copy, nonatomic) NSString *site; // @synthesize site=_site;
 @property(copy, nonatomic) NSString *user; // @synthesize user=_user;
 
 @end

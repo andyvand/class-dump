@@ -7,19 +7,6 @@
 @interface SwiftUI.NavigationSplitCoordinator
 {
     id sidebar;
-    id content;
-    id detail;
-    id compactColumn;
-    id parameters;
-    id sidebarState;
-    id _columnVisibility;
-    id _navigationEventHandlers;
-    id navigationAuthority;
-    id navigationPresentationAdaptor;
-    id expandedStackCoordinators;
-    id compactCoordinator;
-    id wasCollapsed;
-    id lastStateSeed;
 }
 
 - (void);

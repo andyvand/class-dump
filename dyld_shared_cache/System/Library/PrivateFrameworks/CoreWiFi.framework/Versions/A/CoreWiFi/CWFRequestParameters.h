@@ -4,74 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID, SFAuthorization;
+@class NSUUID;
 
 @interface CWFRequestParameters
 {
     int _virtualInterfaceRole;
-    SFAuthorization *_authorization;
-    NSUUID *_UUID;
-    NSString *_interfaceName;
-    unsigned long long _timeout;
-    long long _qualityOfService;
-    long long _queuePriority;
-    NSData *_authorizationExternalFormData;
-    NSString *_wifiNetworkSharingBundleIDOverride;
-    NSString *_wifiNetworkSharingAccessoryID;
-    NSData *_wifiNetworkSharingNetworkListUpdateEventPredicateData;
-    NSData *_wifiNetworkSharingConnectedAPUpdateEventPredicateData;
 }
 
 + (_Bool);
-- (void);
+- (void)B;
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)KitNotificationUI.framework/ClassKitNotificationUI;
 - (id);
-- (void);
+- (void)__oslogstring;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (int);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
+- (id)8-SHA256;
 - (id);
-- (id);
-- (id);
+- (id)dle:flushBands returned %d
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)EventDeferringConstraint",&,D,N;
 - (void);
 - (unsigned long long);
 - (void);
 - (void)ô$°!Fù(ð1Â0@ù
 × ;
-- (long long);
+- (long long)setMaxCompatibilityEnabled: /* Error: Ran out of types for this method. */;
 - (void)",C,N,V_networkName;
 - (void);
 - (id)D];
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain, nonatomic) SFAuthorization *authorization; // @synthesize authorization=_authorization;
-@property(copy, nonatomic) NSData *authorizationExternalFormData; // @synthesize authorizationExternalFormData=_authorizationExternalFormData;
-@property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(nonatomic) long long queuePriority; // @synthesize queuePriority=_queuePriority;
-@property(nonatomic) unsigned long long timeout; // @synthesize timeout=_timeout;
-@property(nonatomic) int virtualInterfaceRole; // @synthesize virtualInterfaceRole=_virtualInterfaceRole;
-@property(copy, nonatomic) NSString *wifiNetworkSharingAccessoryID; // @synthesize wifiNetworkSharingAccessoryID=_wifiNetworkSharingAccessoryID;
-@property(copy, nonatomic) NSString *wifiNetworkSharingBundleIDOverride; // @synthesize wifiNetworkSharingBundleIDOverride=_wifiNetworkSharingBundleIDOverride;
-@property(copy, nonatomic) NSData *wifiNetworkSharingConnectedAPUpdateEventPredicateData; // @synthesize wifiNetworkSharingConnectedAPUpdateEventPredicateData=_wifiNetworkSharingConnectedAPUpdateEventPredicateData;
-@property(copy, nonatomic) NSData *wifiNetworkSharingNetworkListUpdateEventPredicateData; // @synthesize wifiNetworkSharingNetworkListUpdateEventPredicateData=_wifiNetworkSharingNetworkListUpdateEventPredicateData;
 
 @end
 

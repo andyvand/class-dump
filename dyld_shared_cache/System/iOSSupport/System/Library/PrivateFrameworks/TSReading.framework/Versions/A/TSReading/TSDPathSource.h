@@ -7,28 +7,27 @@
 @interface TSDPathSource
 {
     _Bool mHorizontalFlip;
-    _Bool mVerticalFlip;
 }
 
 + (id);
 - (id);
-- (double);
+- (double)ion changed [duration changed for non-current item] - item:(struct CGSize)arg1;
 - (void);
 - (void);
-- (void);
-- (Class);
-- (struct CGAffineTransform);
-- (long long);
+- (void)OverlappingPlayerItemTransition;
+- (Class);
+- (struct CGAffineTransform);
+- (long long);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)AccountTypeCodingKeys;
 - (id);
 - (void)
 x;
@@ -36,7 +35,6 @@ x;
 
 // Remaining properties
 @property _Bool hasHorizontalFlip; // @synthesize hasHorizontalFlip=mHorizontalFlip;
-@property _Bool hasVerticalFlip; // @synthesize hasVerticalFlip=mVerticalFlip;
 
 @end
 

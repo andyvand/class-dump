@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 @interface NewsCore.ItemExposureRegistry
 {
     id fileURL;
-    id logger;
-    id storage;
-    id accessQueue;
 }
 
 - (void);
@@ -27,10 +24,9 @@
 - (void);
 - (id);
 - (void);
-- (void)GroupsOrder;
+- (void)forYouNonPersonalizedGroupsOrder;
 
 // Remaining properties
-@property(nonatomic, readonly) NSSet *allExposedClusterIDs;
 @property(nonatomic, readonly) NSArray *allExposedItemIDs;
 
 @end

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, HMDAccountRegistry, HMDAppleAccountManager, HMDCoreData, HMDHomeData, HMDIdentityRegistry, HMDRemoteAccountManager, HMDUserDefaults, HMDWidgetConfigurationReader, NSArray, NSNotificationCenter, NSUserDefaults;
-@protocol HMDDemoModeManagerDataSource, HMDarwinNotificationProvider;
+@class HMDIdentityRegistry;
+@protocol HMDarwinNotificationProvider;
 
 @interface HMDHomeManagerDataSource
 {
     id <HMDarwinNotificationProvider> darwinNotificationProvider;
-    HMDWidgetConfigurationReader *widgetConfigurationReader;
-    id <HMDDemoModeManagerDataSource> demoModeDataSource;
-    HMDHomeData *homeData;
-    _Bool localDataDecryptionFailed;
-    void uncommittedTransactions;
 }
 
 - (id);
@@ -37,8 +32,8 @@
 - (id);
 - (id)nguage bulletin;
 - (id)ãX,_pSg;
-- (id)ghtingCurveUpdateAccessoryTimeDifferenceThreshold;
-- (id)haredBackingStoreNotRunningDueToStopped;
+- (id)naturalLightingCurveUpdateAccessoryTimeDifferenceThreshold;
+- (id)numUsersSharedBackingStoreNotRunningDueToStopped;
 - (id)maximumServicesPerAccessory;
 - (id).Storage;
 - (void)<¬oÿð;
@@ -46,23 +41,7 @@
 - (id)DQ;
 
 // Remaining properties
-@property(nonatomic, readonly) HMDAccountRegistry *accountRegistry;
-@property(nonatomic, readonly) id acwgKeyManager;
-@property(nonatomic, readonly) HMDAppleAccountManager *appleAccountManager;
-@property(nonatomic, readonly) CKContainer *cloudKitContainer;
-@property(nonatomic, readonly) HMDCoreData *coreData;
-@property(nonatomic, readonly) id <HMDarwinNotificationProvider> darwinNotificationProvider; // @synthesize darwinNotificationProvider;
-@property(nonatomic, retain) id <HMDDemoModeManagerDataSource> demoModeDataSource; // @synthesize demoModeDataSource;
-@property(nonatomic, readonly) HMDUserDefaults *hmdUserDefaults;
-@property(nonatomic, readonly) HMDHomeData *homeData; // @synthesize homeData;
 @property(nonatomic, readonly) HMDIdentityRegistry *identityRegistry;
-@property(nonatomic, readonly) _Bool localDataDecryptionFailed; // @synthesize localDataDecryptionFailed;
-@property(nonatomic, readonly) NSNotificationCenter *notificationCenter;
-@property(nonatomic, readonly) HMDRemoteAccountManager *remoteAccountManager;
-@property(nonatomic, readonly) CDUnknownBlockType threadClientFactory;
-@property(nonatomic, readonly) NSArray *uncommittedTransactions;
-@property(nonatomic, readonly) NSUserDefaults *userDefaults;
-@property(nonatomic, readonly) HMDWidgetConfigurationReader *widgetConfigurationReader; // @synthesize widgetConfigurationReader;
 
 @end
 

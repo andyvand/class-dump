@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCollaborationNoticeMetadata, NSDate, NSString;
+@class NSString;
 
 @interface IMCollaborationNotice
 {
     NSString *_guidString;
-    NSString *_senderHandle;
-    IMCollaborationNoticeMetadata *_metadata;
-    NSDate *_date;
-    NSDate *_dateViewed;
 }
 
 + (id);
@@ -26,10 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void));
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool));
 - (id);
 - (void);
 - (void);
@@ -39,11 +35,7 @@
 - (void)ÿâÏçÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSDate *dateViewed; // @synthesize dateViewed=_dateViewed;
 @property(retain, nonatomic) NSString *guidString; // @synthesize guidString=_guidString;
-@property(retain, nonatomic) IMCollaborationNoticeMetadata *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSString *senderHandle; // @synthesize senderHandle=_senderHandle;
 
 @end
 

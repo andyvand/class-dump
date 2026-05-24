@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, CKRecordID, CKRoughlyEquivalentProperties, NSString;
+@class CKRecordID;
 
 @interface CKMovePhotosChange
 {
     CKRecordID *_sourceRecordID;
-    NSString *_sourceRecordChangeTag;
-    CKRecord *_destinationRecord;
 }
 
 + (_Bool);
@@ -18,19 +16,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id) ;
+- (id)	;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKRecord *destinationRecord; // @synthesize destinationRecord=_destinationRecord;
-@property(readonly, nonatomic) CKRoughlyEquivalentProperties *equivalencyProperties;
-@property(retain, nonatomic) NSString *sourceRecordChangeTag; // @synthesize sourceRecordChangeTag=_sourceRecordChangeTag;
 @property(retain, nonatomic) CKRecordID *sourceRecordID; // @synthesize sourceRecordID=_sourceRecordID;
 
 @end

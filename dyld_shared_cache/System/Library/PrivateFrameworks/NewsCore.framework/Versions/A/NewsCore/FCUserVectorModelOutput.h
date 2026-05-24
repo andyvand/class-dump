@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface FCUserVectorModelOutput
@@ -15,12 +15,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)tingsRecords;
-- (void)rbose_debug_inspection;
+- (id)allPuzzleTypeSettingsRecords;
+- (void)personalization_verbose_debug_inspection;
 - (id)ith timeout error. Maintaining the same state as before;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *user_vector; // @synthesize user_vector=_user_vector;
 
 @end

@@ -7,17 +7,12 @@
 @class NSNumber, NSString;
 
 @protocol INCopyFileIntentResponseExport
-- (NSNumber *)inationTypeForCopyFile:withCompletion: /* Error: Ran out of types for this method. */;
-- (long long)ion: /* Error: Ran out of types for this method. */;
-- (void)izeClass;
+- (NSNumber *)resolveDestinationTypeForCopyFile:withCompletion: /* Error: Ran out of types for this method. */;
+- (long long)handleGetCarPowerLevelStatus:completion: /* Error: Ran out of types for this method. */;
+- (void)_arraySizesBySizeClass;
 - (NSString *)¤Ï;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *destinationName;
-@property(copy) NSString *entityName;
-@property(copy) NSString *entityType;
-@property(copy) NSNumber *overwrite;
-@property(copy) NSNumber *success;
 @end
 

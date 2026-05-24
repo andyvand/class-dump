@@ -6,26 +6,25 @@
 
 #import <VoiceShortcutClient/WFWorkflowRunResult.h>
 
-@class NSData, WFContentCollection;
+@class NSData;
 
 @interface WFWorkflowOutputRunResult : WFWorkflowRunResult
 {
     NSData *_archivedOutput;
-    WFContentCollection *_cachedOutput;
 }
 
 + (_Bool);
-- (id);
+- (id)v3|;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)z;
+- (void)|;
+- (id);
+- (id)w6{;
 - (id);
 - (_Bool);
 - (void);
@@ -33,8 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *archivedOutput; // @synthesize archivedOutput=_archivedOutput;
-@property(retain, nonatomic) WFContentCollection *cachedOutput; // @synthesize cachedOutput=_cachedOutput;
-@property(readonly, nonatomic) _Bool hasOutput;
 
 @end
 

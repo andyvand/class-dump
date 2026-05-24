@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFSendLaterHeaderCollectionViewHelper, NSString, UIDatePicker, UIStackView;
+@class MFSendLaterHeaderCollectionViewHelper;
 @protocol MFSendLaterHeaderCollectionViewCellDelegate;
 
 @interface MFSendLaterHeaderCollectionViewCell
 {
     id <MFSendLaterHeaderCollectionViewCellDelegate> _delegate;
-    MFSendLaterHeaderCollectionViewHelper *_viewHelper;
-    UIDatePicker *_datePicker;
-    UIStackView *_stackView;
-    long long _currentVisibleComponent;
 }
 
 + (id);
@@ -25,29 +21,18 @@
 - (long long);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)ne"I}"hardExpireDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"maxMinutesUntilChangePassword"I"maxMinutesUntilDisabled"I"maxMinutesOfNonUse"I"maxFailedLoginAttempts"S"minChars"S"maxChars"S}"weakAuthMethods"[25{AuthMethName="method"[21c]}]"origWeakAuthMethods"[25{AuthMethName="method"[21c]}]"publicKeyLen"I"publicKey"[1024C]"origPublicKey"[1024C]"privateKeyLen"I"privateKey"[2048C]"origPrivateKey"[2048C]"extraAccess"{PWGlobalMoreAccessFeatures="minutesUntilFailedLoginReset"I"notGuessablePattern"I}"origExtraAccess"{PWGlobalMoreAccessFeatures="minutesUntilFailedLoginReset"I"notGuessablePattern"I}};
 - (id);
 - (void);
 - (id);
+- (id)_scribbleLineBreakMultiLineMaxLines;
+- (void);
+- (id)StorageInspectionChatVerificationTable;
 - (void);
 - (void)!dDùqÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long currentVisibleComponent; // @synthesize currentVisibleComponent=_currentVisibleComponent;
-@property(retain, nonatomic) UIDatePicker *datePicker; // @synthesize datePicker=_datePicker;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MFSendLaterHeaderCollectionViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) MFSendLaterHeaderCollectionViewHelper *viewHelper; // @synthesize viewHelper=_viewHelper;
 
 @end

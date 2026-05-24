@@ -11,9 +11,9 @@
     unsigned long long _spaceID;
 }
 
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)I!;
+- (id)/Library/BuildRoots/4~CNqEugDh502GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitImportZoneContext.m;
+- (id)Invalid class type '%@' for lock_proxy_file pragma value, must be an NSNull or NSString;
 - (id);
 - (unsigned long long);
 - (id);

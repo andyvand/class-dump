@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSDictionary, NSFileWrapper, NSMutableArray, NSMutableDictionary, NSZipFileArchive;
+@class NSAttributedString;
 
 @interface NSOpenDocumentWriter
 {
     NSAttributedString *_attrStr;
-    NSDictionary *_documentAttrs;
-    NSFileWrapper *_fileWrapper;
-    NSZipFileArchive *_archive;
-    NSMutableArray *_paraStyleStrings;
-    NSMutableArray *_paraStyleArrays;
-    NSMutableArray *_charStyleStrings;
-    NSMutableArray *_charStyleArrays;
-    NSMutableArray *_tableStyleStrings;
-    NSMutableArray *_tableColumnStyleStrings;
-    NSMutableArray *_tableCellStyleStrings;
-    NSMutableArray *_listStyleStrings;
-    NSMutableDictionary *_fontNames;
-    unsigned long long _tableNumber;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void);
+- (unsigned long long)?;
+- (void);
+- (id);
+- (void);
+- (void)a;
 - (unsigned long long);
-- (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)dReceiveConnection;
 - (void);
 - (id);
 - (id);

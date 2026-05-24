@@ -9,7 +9,6 @@
 @interface SPCBPeripheralKeyAddressPair
 {
     NSData *_leMACAddress;
-    NSData *_longTermKey;
 }
 
 + (_Bool);
@@ -19,12 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)photos_links;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *leMACAddress; // @synthesize leMACAddress=_leMACAddress;
-@property(readonly, copy, nonatomic) NSData *longTermKey; // @synthesize longTermKey=_longTermKey;
 
 @end
 

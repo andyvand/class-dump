@@ -7,8 +7,6 @@
 @interface ReminderKitInternal.REMRegExTextClassifier
 {
     id labels;
-    id regexRules;
-    id numOfClasses;
 }
 
 @end

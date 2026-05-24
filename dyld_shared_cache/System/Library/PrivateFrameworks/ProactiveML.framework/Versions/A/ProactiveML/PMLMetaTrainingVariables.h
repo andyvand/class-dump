@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PMLSessionDescriptor, PMLTrainingStore;
-@protocol PMLNoiseStrategy;
+@class NSString;
 
 @interface PMLMetaTrainingVariables
 {
     NSString *_planId;
-    PMLTrainingStore *_store;
-    id <PMLNoiseStrategy> _noiseStrategy;
-    PMLSessionDescriptor *_sessionDescriptor;
-    unsigned long long _maxSessionsToTrainOn;
-    unsigned long long _trainingSetSize;
-    NSArray *_labelsToTrainOn;
-    unsigned long long _currentServerIteration;
-    double _lossThresholdForStopping;
-    unsigned long long _epochsPerBatch;
-    double _probThreshold;
-    unsigned long long _evaluationLevel;
-    _Bool _reportScale;
-    _Bool _summableMetricsOnly;
 }
 
 - (_Bool);
@@ -42,33 +28,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Ti;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentServerIteration; // @synthesize currentServerIteration=_currentServerIteration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long epochsPerBatch; // @synthesize epochsPerBatch=_epochsPerBatch;
-@property(readonly, nonatomic) unsigned long long evaluationLevel; // @synthesize evaluationLevel=_evaluationLevel;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *labelsToTrainOn; // @synthesize labelsToTrainOn=_labelsToTrainOn;
-@property(readonly, nonatomic) double lossThresholdForStopping; // @synthesize lossThresholdForStopping=_lossThresholdForStopping;
-@property(readonly, nonatomic) unsigned long long maxSessionsToTrainOn; // @synthesize maxSessionsToTrainOn=_maxSessionsToTrainOn;
-@property(readonly, nonatomic) id <PMLNoiseStrategy> noiseStrategy; // @synthesize noiseStrategy=_noiseStrategy;
 @property(readonly, nonatomic) NSString *planId; // @synthesize planId=_planId;
-@property(readonly, nonatomic) double probThreshold; // @synthesize probThreshold=_probThreshold;
-@property(readonly, nonatomic) _Bool reportScale; // @synthesize reportScale=_reportScale;
-@property(readonly, nonatomic) PMLSessionDescriptor *sessionDescriptor; // @synthesize sessionDescriptor=_sessionDescriptor;
-@property(readonly, nonatomic) PMLTrainingStore *store; // @synthesize store=_store;
-@property(readonly, nonatomic) _Bool summableMetricsOnly; // @synthesize summableMetricsOnly=_summableMetricsOnly;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long trainingSetSize; // @synthesize trainingSetSize=_trainingSetSize;
 
 @end
 

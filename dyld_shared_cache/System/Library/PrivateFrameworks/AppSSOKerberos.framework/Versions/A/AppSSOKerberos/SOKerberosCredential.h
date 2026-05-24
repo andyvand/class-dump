@@ -9,8 +9,6 @@
 @interface SOKerberosCredential
 {
     unsigned int _lifetime;
-    NSString *_name;
-    NSString *_uuid;
 }
 
 - (id);
@@ -23,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property unsigned int lifetime; // @synthesize lifetime=_lifetime;
 @property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

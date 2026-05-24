@@ -5,5 +5,6 @@
 //
 
 @protocol NSHapticFeedbackPerformer
+- (void)xpected tag %c%c%c%c found tag %c%c%c%c;
 @end
 

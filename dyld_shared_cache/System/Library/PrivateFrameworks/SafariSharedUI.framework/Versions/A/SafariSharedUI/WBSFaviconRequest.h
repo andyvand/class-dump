@@ -6,7 +6,7 @@
 
 #import <SafariSharedUI/WBSSiteMetadataRequest.h>
 
-@class NSColor, NSString;
+@class NSColor;
 
 @interface WBSFaviconRequest : WBSSiteMetadataRequest
 {
@@ -15,7 +15,7 @@
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)4?;
 - (id);
 - (struct CGSize);
 - (id);
@@ -27,24 +27,10 @@
 - (struct CGSize);
 - (id);
 - (id);
-- (void)vice;
+- (void)_device;
 
 // Remaining properties
-@property(readonly, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long fallbackType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isIconDownloadingEnabled) _Bool iconDownloadingEnabled;
-@property(readonly, nonatomic) struct CGSize iconSize;
-@property(readonly, nonatomic) _Bool isURLTypedByUser;
-@property(readonly, nonatomic) struct CGSize sizeForDrawing;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long type;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier;
 
 @end
 

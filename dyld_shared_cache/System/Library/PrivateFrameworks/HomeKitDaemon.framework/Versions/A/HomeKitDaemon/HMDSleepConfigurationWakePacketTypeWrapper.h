@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDSleepConfigurationWakePacketTypeWrapper
 {
     long long _value;
 }
 
-+ (id);
++ (id)numberOfAssetClustersWithin50mOfCenter;
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)E;
 - (id);
 - (_Bool);
-- (_Bool);
-- (id)reAutomations:(struct _NSZone *)arg1;
-- (long long)tFromMessage: /* Error: Ran out of types for this method. */;
+- (_Bool)#;
+- (id)notifyClientsOfUpdatedAdaptiveTemperatureAutomations:(struct _NSZone *)arg1;
+- (long long)fetchLogEventFromMessage: /* Error: Ran out of types for this method. */;
 - (id)rational public key with error:(long long)arg1 %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long value; // @synthesize value=_value;
 
 @end

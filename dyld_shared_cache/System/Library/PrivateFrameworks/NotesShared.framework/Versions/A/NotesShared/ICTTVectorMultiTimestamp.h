@@ -28,12 +28,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)nt 'com.apple.diagnosticpipeline.request';
+- (id)t;
 - (void)h;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDocumentShared;
 @property(retain, nonatomic) NSArray *timestamps; // @synthesize timestamps=_timestamps;
 
 @end

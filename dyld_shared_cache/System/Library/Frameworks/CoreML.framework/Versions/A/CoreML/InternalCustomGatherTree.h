@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
+- (id)H;
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (vector_daac2569);
+- (vector_daac2569);
 - (void)d model is neither ML Program nor NNv1. This is a logic error.;
 
 // Remaining properties

@@ -14,9 +14,9 @@
 }
 
 + (id);
+- (id)$;
 - (id);
-- (id);
-- (void);
+- (void)MUCGPDFTextWidgetAnnotationAdaptor;
 
 @end
 

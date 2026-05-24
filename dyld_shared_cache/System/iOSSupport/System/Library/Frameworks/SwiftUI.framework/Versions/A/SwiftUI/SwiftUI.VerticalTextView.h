@@ -9,11 +9,6 @@
 @interface SwiftUI.VerticalTextView : SwiftUI.UIKitTextView
 {
     id upperLimit;
-    id lowerLimit;
-    id activationPointPadding;
-    id uiDelegate;
-    id isHandlingHWKeypress;
-    id uiDefaultTextAttributes;
 }
 
 - (void);
@@ -21,9 +16,9 @@
 - (struct CGPoint);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void)$þýÿq#öÿÿÌ;
-- (void)text;
+- (void)ScrollPhaseChangeContext;
 - (void)G¿þG¿þÈ Î;
 
 // Remaining properties

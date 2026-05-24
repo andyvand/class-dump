@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCInterface;
+@class NSXPCInterface, Protocol;
 
 @protocol _UIViewServiceDeputyXPCInterface
+- (NSXPCInterface *);
+- (Protocol *)p	;
 - (NSXPCInterface *);
 @end
 

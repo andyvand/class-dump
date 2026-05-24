@@ -6,37 +6,29 @@
 
 #import <UIKitCore/_UITableViewContainerView.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _UITableViewDropAnimationContainerView : _UITableViewContainerView
 {
     long long _activeDropAnimationCount;
-    double _originalTargetCenterY;
-    struct CGPoint __tableViewContainerOffsetFromTargetCenter;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)IMAVControlEnabled;
 - (_Bool);
 - (void);
-- (void);
-- (long long);
-- (struct CGPoint);
+- (void)32@40B48q52;
+- (long long)spamDetectedMessage;
+- (struct CGPoint)ngramID:serverChangeToken:cloudKitSyncState:originalGroupID:lastReadMessageTimeStamp:lastMessageTimeStampOnLoad:cloudKitRecordID:isBlackholed:autoDonationBehavior:autoDonationBehaviorLastModificationDate:isRecovered:isDeletingIncomingMessages:domainIdentifiers: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)systemMusicPlayer:xpc:connect /* Error: Ran out of types for this method. */;
 - (void)IKeyboardScenePresentationModeManagerDelegate>",W,N,V_delegate;
 - (void)d, isForceFixedRateLinksEnabled=%{bool}d;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint _tableViewContainerOffsetFromTargetCenter; // @synthesize _tableViewContainerOffsetFromTargetCenter=__tableViewContainerOffsetFromTargetCenter;
 @property(nonatomic) long long activeDropAnimationCount; // @synthesize activeDropAnimationCount=_activeDropAnimationCount;
-@property(readonly, nonatomic) NSArray *cells;
-@property(readonly, nonatomic) _Bool hasCompletedAllDropAnimations;
-@property(nonatomic) double originalTargetCenterY; // @synthesize originalTargetCenterY=_originalTargetCenterY;
 
 @end
 

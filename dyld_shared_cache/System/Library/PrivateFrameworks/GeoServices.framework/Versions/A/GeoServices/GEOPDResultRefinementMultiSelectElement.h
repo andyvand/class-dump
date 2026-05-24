@@ -4,45 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementMetadata, GEOStyleAttributes, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDResultRefinementMultiSelectElement
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_displayName;
-    GEOPDResultRefinementMetadata *_metadata;
-    GEOStyleAttributes *_styleAttributes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _elementType;
-    int _evChargingConnectorType;
-    unsigned int _selectionSequenceNumber;
-    _Bool _isSelected;
-    struct {
-        unsigned int has_elementType:1;
-        unsigned int has_evChargingConnectorType:1;
-        unsigned int has_selectionSequenceNumber:1;
-        unsigned int has_isSelected:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayName:1;
-        unsigned int read_metadata:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_validateDownloadedAssetForAssetType: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ndex"b1"has_numberOfVisitsBucket"b1"read_address"b1"read_identifier"b1"read_location"b1"wrote_anyField"b1};
-- (id)notificationsEnabled;
+- (id)_notificationsEnabled;
 - (id)¼F;
 - (void);
 

@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLAnimatedVector3Array, MDLVertexDescriptor, NSMapTable, NSMutableArray, NSURL, NSUnitLength;
-@protocol MDLAssetResolver, MDLMeshBufferAllocator, MDLObjectContainerComponent;
+@class NSURL;
 
 @interface MDLAsset
 {
     NSURL *_URL;
-    NSMutableArray *_objects;
-    id <MDLObjectContainerComponent> _masters;
-    id <MDLObjectContainerComponent> _animations;
-    double _startTime;
-    double _endTime;
-    id _upAxis;
-    float _metersPerUnit;
-    _Bool _isSceneKitBridged;
-    NSMapTable *_components;
-    NSURL *_temporaryFolderURL;
-    double _frameInterval;
-    id <MDLAssetResolver> _resolver;
-    id <MDLMeshBufferAllocator> _bufferAllocator;
-    MDLVertexDescriptor *_vertexDescriptor;
-    double __timeCodesPerSecond;
-    NSUnitLength *_unitLength;
-    MDLAnimatedVector3Array *_extents;
 }
 
 - (void);
@@ -35,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (float);
 - (id);
 - (id);
@@ -48,12 +30,12 @@
 - (double);
 - (id);
 - (void);
+- (id);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)FOREIGN KEY (sessionDescriptorId) REFERENCES sessionsDescriptors (id) ON DELETE CASCADE               );
+- (void)planId char(128) PRIMARY KEY NOT NULL,                 modificationTimestamp real NOT NULL,                   serializedPlan blob NOT NULL                           );
 - (void);
 - (id);
 - (id);
@@ -61,63 +43,45 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)_compositor;
+- (id)tonguepiercings_color;
 - (void);
 - (id);
 - (id);
 - (id);
 - (struct MDLAABB);
-- (void);
+- (void);
 - (double);
 - (double);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)nsportInterruptSequenceNumber;
+- (id)e HAP property %@ bitPosition %@ description %@;
 - (struct);
-- (void);
+- (void)to %s, removing existing version as a safeguard;
 - (id);
 - (void);
-- (id);
+- (id)at:(unsigned long long)arg1 ];
 - (double);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id)%@;
 - (id);
-- (id);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (void)taAccessor;
+- (id);
 - (unsigned long long);
 - (void)<;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSURL *URL;
 @property(readonly, nonatomic) struct MDLAABB _bounds;
-@property(retain, nonatomic) NSURL *_temporaryFolderURL; // @synthesize _temporaryFolderURL;
-@property(nonatomic) double _timeCodesPerSecond; // @synthesize _timeCodesPerSecond=__timeCodesPerSecond;
-@property(retain, nonatomic) id <MDLObjectContainerComponent> animations; // @synthesize animations=_animations;
-@property(readonly, nonatomic) struct boundingBox;
-@property(readonly, retain, nonatomic) id <MDLMeshBufferAllocator> bufferAllocator; // @synthesize bufferAllocator=_bufferAllocator;
-@property(readonly, nonatomic) unsigned long long count;
-@property(nonatomic) double endTime;
-@property(retain, nonatomic) MDLAnimatedVector3Array *extents; // @synthesize extents=_extents;
-@property(nonatomic) double frameInterval; // @synthesize frameInterval=_frameInterval;
-@property(retain, nonatomic) id <MDLObjectContainerComponent> masters; // @synthesize masters=_masters;
-@property(nonatomic) float metersPerUnit; // @synthesize metersPerUnit=_metersPerUnit;
-@property(retain, nonatomic) id <MDLObjectContainerComponent> originals;
-@property(retain, nonatomic) id <MDLAssetResolver> resolver; // @synthesize resolver=_resolver;
-@property(nonatomic) double startTime;
-@property(retain, nonatomic) NSUnitLength *unitLength; // @synthesize unitLength=_unitLength;
-@property(nonatomic) id upAxis; // @synthesize upAxis=_upAxis;
-@property(readonly, retain, nonatomic) MDLVertexDescriptor *vertexDescriptor; // @synthesize vertexDescriptor=_vertexDescriptor;
 
 @end
 

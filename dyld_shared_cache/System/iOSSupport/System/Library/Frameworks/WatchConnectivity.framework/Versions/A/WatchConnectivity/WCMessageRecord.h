@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_source;
-
 @interface WCMessageRecord
 {
     _Bool _expectsResponse;
-    NSString *_identifier;
-    CDUnknownBlockType _errorHandler;
-    NSObject<OS_dispatch_source> *_timeoutTimer;
 }
 
 - (id);
@@ -28,12 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
 @property(readonly) _Bool expectsResponse; // @synthesize expectsResponse=_expectsResponse;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-// Error: Property attributes should begin with the type ('T') attribute, property name: timeoutTimer
-// Property attributes: (null)
-
 
 @end
 

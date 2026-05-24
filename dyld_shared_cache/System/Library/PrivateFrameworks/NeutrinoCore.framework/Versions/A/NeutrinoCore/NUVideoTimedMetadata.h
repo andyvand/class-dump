@@ -7,15 +7,9 @@
 @interface NUVideoTimedMetadata
 {
     _Bool _interpolatedFrameValid;
-    _Bool _interpolatedFrame;
-    _Bool _isMetadataValid;
-    struct CGVector _estimatedCenterMotion;
-    struct CGVector _estimatedMotionBlur;
-    CDStruct_1b6d18a9 _time;
-    CDStruct_1fe29af2 _trajectoryHomography;
 }
 
-- (CDStruct_1fe29af2);
+- (CDStruct_c27faaab);
 - (void);
 - (void);
 - (void);
@@ -31,13 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) struct CGVector estimatedCenterMotion; // @synthesize estimatedCenterMotion=_estimatedCenterMotion;
-@property(readonly) struct CGVector estimatedMotionBlur; // @synthesize estimatedMotionBlur=_estimatedMotionBlur;
-@property(readonly) _Bool interpolatedFrame; // @synthesize interpolatedFrame=_interpolatedFrame;
-@property(readonly) _Bool interpolatedFrameValid; // @synthesize interpolatedFrameValid=_interpolatedFrameValid;
-@property(readonly) _Bool isMetadataValid; // @synthesize isMetadataValid=_isMetadataValid;
 @property(readonly) CDStruct_1b6d18a9 time; // @synthesize time=_time;
-@property(readonly) CDStruct_1fe29af2 trajectoryHomography; // @synthesize trajectoryHomography=_trajectoryHomography;
 
 @end
 

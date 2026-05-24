@@ -5,8 +5,11 @@
 //
 
 @protocol _UIScrollViewScrollableAncestor
+- (_Bool);
+- (void);
+- (_Bool)__objc_classlist__DATA_CONST;
 - (struct CGPoint)ð! GùÑfÐ1Â0@ù
 × ;
-- (_Bool)ystemSnapshot;
+- (_Bool)_performingSystemSnapshot;
 @end
 

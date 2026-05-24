@@ -7,16 +7,21 @@
 @protocol UIResponderStandardEditActions
 
 @optional
+- (void);
+- (void);
+- (void)setMonitorQueue:(id)arg1;
+- (void)videoSloMoAlbum;
+- (void)?;
+- (void);
 - (void)á	ð!´CùQ(ð1Â0@ù
 × ;
-- (void)y;
+- (void)hasUnifiedMemory;
 - (void)RecognitionTimestamp;
 - (void)¨;
 - (void)umerating char bounds. Shot:(id)arg1 %@;
 - (void)-special;
 - (void)Compute command buffer;
-- (void)meInterval2;
-- (void);
+- (void)drawingGestureTapDetectionTimeInterval2;
 - (void)ª;
 @end
 

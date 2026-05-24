@@ -4,60 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSMapTable, NSMutableOrderedSet, NSString, UIDragInteraction, UITableView, UITableViewCell;
-@protocol UIDragSession, _UITableViewDragControllerDelegate;
+@class UIDragInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewDragController
 {
     _Bool _forceEnabledForReordering;
-    long long _clientEnabledState;
-    id <UIDragSession> _dragSession;
-    NSMutableOrderedSet *_indexPaths;
-    UIDragInteraction *_dragInteraction;
-    UITableView<_UITableViewDragControllerDelegate> *_tableView;
-    UITableViewCell *_initiatingCell;
-    NSIndexPath *_initiatingIndexPath;
-    UITableViewCell *_tentativeInitiatingCell;
-    NSIndexPath *_tentativeInitiatingIndexPath;
-    NSMutableOrderedSet *_tentativeIndexPaths;
-    NSMapTable *_cellsAnimatingCancel;
 }
 
 + (_Bool)reBatchUpdatesAndFallBackToReloadData"b1"updatingVisibleCells"b1"backgroundColorSet"b1"preRotationBoundsSet"b1"updateFocusAfterItemAnimations"b1"remembersLastFocusedIndexPath"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"creatingViewFromPreferredFocusedView"b1"performingLayout"b1"keepsFirstResponderVisibleOnBoundsChange"b1"editing"b1"clientSetDerivesVisibleBoundsFromContainingScrollView"b1"derivesVisibleBoundsFromContainingScrollView"b1"alwaysBounceWasCustomized"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"defaultLayoutMarginsSetFromViewController"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"indexTitlesLoaded"b1"isPerformingShadowUpdates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_payloadDateTime;
 - (_Bool);
-- (id);
+- (id)Chunkserver__ChunkErrorIndex;
 - (long long);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)tableView:moveRowAtIndexPath:toIndexPath: /* Error: Ran out of types for this method. */;
+- (void)_toggleTransitionsCommand;
+- (id)_scheduledSupportedCommandsChangedNotification;
+- (id)MPWeakTimer;
+- (void)thHomeIdentifiers:(id)arg1 returning nil [identifiers.count=0];
 - (_Bool);
 - (_Bool)°! Eù1`ð1Â0@ù
 × ;
 - (void)!Aùqb°1Â0@ù
 × ;
 - (void)Picker"16@0:(_Bool)arg1 8;
-- (void)rationCandidates;
-- (id)stureAtLocation: /* Error: Ran out of types for this method. */;
-- (void)InputAssistantViewController:(id)arg1;
-- (void)neByNavigationBar;
-- (void)ectiveFeedbackTypes;
-- (void)iewController:transition:forceImmediate: /* Error: Ran out of types for this method. */;
+- (void)showsTransliterationCandidates;
+- (id)shouldHandleFormGestureAtLocation: /* Error: Ran out of types for this method. */;
+- (void)setSystemInputAssistantViewController:(id)arg1;
+- (void)isHostedInlineByNavigationBar;
+- (void)effectiveFeedbackTypes;
+- (void)_sanityCheckPushViewController:transition:forceImmediate: /* Error: Ran out of types for this method. */;
 - (id)tLine:(id)arg1;
-- (void)TextEffectsWithReplyHandler:(id)arg1;
+- (void)__createHostedTextEffectsWithReplyHandler:(id)arg1;
 - (id);
 - (id)",R,N;
 - (void)etion;
 - (void)lectionViewDiffableDataSourceSectionSnapshotHandlers",C,N;
-- (void)or;
-- (long long)ivate;
+- (void)_labelTextColor;
+- (long long)Private;
 - (_Bool);
 - (id);
 - (void);
@@ -66,11 +54,11 @@ __attribute__((visibility("hidden")))
 - (id)onAnalytics] didOther - flushing recent actions;
 - (void)ridge a UIDocumentPickerViewController that's already been bridged! Ignoring second attempt since first one is still in flight...;
 - (void)dow:(id)arg1 %{public}d; %{public}s:(id)arg2 %{public}p; scene identity:(id)arg3 %{public}s; for evaluation strategy:%{public}s; reason:%{public}s /* Error: Ran out of types for this method. */;
-- (_Bool)upInSection;
+- (_Bool)isOnlyGroupInSection;
 - (void).apple.eventpump;
 - (void)ct-Next-Candidate;
 - (_Bool)select a tab (%@) that is not selectable.;
-- (void)iewControllerClass;
+- (void)NSExtensionHostViewControllerClass;
 - (void)"16@?0@"UIInterfaceActionViewState"8;
 - (id)al inconsistency:(id)arg1 expected data source. Split view controller:(id)arg2;
 - (void);
@@ -86,28 +74,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)4;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(retain, nonatomic) NSMapTable *cellsAnimatingCancel; // @synthesize cellsAnimatingCancel=_cellsAnimatingCancel;
-@property(nonatomic) long long clientEnabledState; // @synthesize clientEnabledState=_clientEnabledState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIDragInteraction *dragInteraction; // @synthesize dragInteraction=_dragInteraction;
-@property(retain, nonatomic) id <UIDragSession> dragSession; // @synthesize dragSession=_dragSession;
-@property(readonly, nonatomic) UITableViewCell *draggedCell;
-@property(readonly, nonatomic) NSIndexPath *draggedIndexPath;
-@property(nonatomic) _Bool forceEnabledForReordering; // @synthesize forceEnabledForReordering=_forceEnabledForReordering;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableOrderedSet *indexPaths; // @synthesize indexPaths=_indexPaths;
-@property(retain, nonatomic) UITableViewCell *initiatingCell; // @synthesize initiatingCell=_initiatingCell;
-@property(retain, nonatomic) NSIndexPath *initiatingIndexPath; // @synthesize initiatingIndexPath=_initiatingIndexPath;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UITableView<_UITableViewDragControllerDelegate> *tableView; // @synthesize tableView=_tableView;
-@property(retain, nonatomic) NSMutableOrderedSet *tentativeIndexPaths; // @synthesize tentativeIndexPaths=_tentativeIndexPaths;
-@property(retain, nonatomic) UITableViewCell *tentativeInitiatingCell; // @synthesize tentativeInitiatingCell=_tentativeInitiatingCell;
-@property(retain, nonatomic) NSIndexPath *tentativeInitiatingIndexPath; // @synthesize tentativeInitiatingIndexPath=_tentativeInitiatingIndexPath;
 
 @end
 

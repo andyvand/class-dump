@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, UIScene;
+@class NSMutableSet, UIScene;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuSceneComponent
@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)Ô ;
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)resetLastSyncDate;
+- (void)markAttachmentWithFileURL:(id)arg1 sender:recipients:isIncoming:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)loadPTaskReportsForGroups:(id)arg1 excludingReasons:loadFullReports:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)Handler",&,N,V_smsRelayPushHandler;
 - (id);
 - (id),G[;
 - (void)q;
@@ -25,15 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
 @property(retain, nonatomic) NSMutableSet *activePresentations; // @synthesize activePresentations=_activePresentations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
 @protocol CNAutocompleteSearchConsumer;
 
 @interface CNAutocompleteContactsSearchTaskContext
 {
     id <CNAutocompleteSearchConsumer> _consumer;
-    NSString *_text;
-    NSMutableSet *_operations;
-    NSMutableSet *_searchQueries;
 }
 
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)K;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNAutocompleteSearchConsumer> consumer; // @synthesize consumer=_consumer;
-@property(readonly, nonatomic) NSMutableSet *operations; // @synthesize operations=_operations;
-@property(readonly, nonatomic) NSMutableSet *searchQueries; // @synthesize searchQueries=_searchQueries;
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

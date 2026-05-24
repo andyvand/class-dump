@@ -5,15 +5,11 @@
 //
 
 @class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@protocol OS_dispatch_queue;
 
 @interface CalFileSensor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_source;
-    CDUnknownBlockType _eventBlock;
-    _Bool _started;
-    NSString *_path;
 }
 
 - (id);
@@ -28,9 +24,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType eventBlock; // @synthesize eventBlock=_eventBlock;
 @property(readonly, retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly, nonatomic) _Bool started; // @synthesize started=_started;
 
 @end
 

@@ -6,23 +6,12 @@
 
 #import <FinderKit/FI_TTableViewItem.h>
 
-@class FI_TLabelView, NSImage, NSString;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTaggingSuggestionsTableViewItem : FI_TTableViewItem
 {
     long long _labelColor;
-    _Bool _userVisible;
-    _Bool _pinned;
-    long long _sidebarIndex;
-    _Bool _isShowAll;
-    _Bool _isCreateTag;
-    _Bool _needsCustomSelect;
-    _Bool _isMoveTag;
-    NSString *_tagName;
-    struct TKeyValueBinder _labelColorBinder;
-    FI_TLabelView *labelColorView;
-    NSImage *_image;
 }
 
 + (id);
@@ -30,25 +19,25 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (_Bool);
+- (long long)qA;
+- (void);
+- (_Bool);
+- (id);
+- (_Bool)i;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (long long);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (long long);
-- (void);
-- (void);
-- (id);
+- (id)w;
 - (id);
 - (id);
 - (id);
@@ -57,18 +46,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) _Bool isCreateTag; // @synthesize isCreateTag=_isCreateTag;
-@property(readonly, nonatomic) _Bool isMoveTag; // @synthesize isMoveTag=_isMoveTag;
-@property(readonly, nonatomic) _Bool isShowAll; // @synthesize isShowAll=_isShowAll;
-@property(readonly, nonatomic) _Bool isTag;
-@property(readonly, nonatomic) long long labelColor; // @synthesize labelColor=_labelColor;
-@property(nonatomic) __weak FI_TLabelView *labelColorView; // @synthesize labelColorView;
-@property(retain, nonatomic) NSString *name;
-@property(readonly, nonatomic) _Bool needsCustomSelect; // @synthesize needsCustomSelect=_needsCustomSelect;
-@property(readonly, nonatomic) _Bool pinned; // @synthesize pinned=_pinned;
-@property(readonly, nonatomic) long long sidebarIndex; // @synthesize sidebarIndex=_sidebarIndex;
-@property(copy, nonatomic) NSString *tagName; // @synthesize tagName=_tagName;
-@property(readonly, nonatomic) _Bool userVisible; // @synthesize userVisible=_userVisible;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _CNDataURLSessionTaskAdapter
 {
     CDUnknownBlockType _onDataReceived;
-    CDUnknownBlockType _onCompletion;
 }
 
 - (void);
@@ -21,15 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType onCompletion; // @synthesize onCompletion=_onCompletion;
 @property(copy) CDUnknownBlockType onDataReceived; // @synthesize onDataReceived=_onDataReceived;
-@property(readonly) Class superclass;
 
 @end
 

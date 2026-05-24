@@ -7,16 +7,14 @@
 @interface NewsArticles.SponsoredHeaderViewController
 {
     id renderer;
-    id label;
-    id headerDelegate;
 }
 
-- (id);
+- (id)5;
 - (double);
 - (id);
 - (id);
 - (void);
-- (void)debar;
+- (void)collapseSidebar;
 
 @end
 

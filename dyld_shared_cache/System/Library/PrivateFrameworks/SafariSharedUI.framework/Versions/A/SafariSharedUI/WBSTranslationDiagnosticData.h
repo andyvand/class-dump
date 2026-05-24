@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface WBSTranslationDiagnosticData
 {
     NSMutableArray *_extractedParagraphs;
-    NSMutableArray *_translatedParagraphs;
-    NSMutableArray *_errors;
-    NSString *_URLString;
-    NSString *_extractedParagraphsAsJSON;
-    NSString *_translatedParagraphsAsJSON;
-    NSString *_errorsAsJSON;
 }
 
 - (id);
@@ -25,27 +19,21 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)T`;
+- (void)I	;
+- (void);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)tervalBeforeNowForFetchingTags;
-- (id)TranslationConsentedToFirstTimeAlertSettingsKey;
+- (id)WBSTranslationConsentedToFirstTimeAlertSettingsKey;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *URLString; // @synthesize URLString=_URLString;
-@property(readonly, copy, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(copy, nonatomic) NSString *errorsAsJSON; // @synthesize errorsAsJSON=_errorsAsJSON;
-@property(readonly, copy, nonatomic) NSArray *extractedParagraphs;
 @property(copy, nonatomic) NSString *extractedParagraphsAsJSON; // @synthesize extractedParagraphsAsJSON=_extractedParagraphsAsJSON;
-@property(readonly, copy, nonatomic) NSArray *translatedParagraphs;
-@property(copy, nonatomic) NSString *translatedParagraphsAsJSON; // @synthesize translatedParagraphsAsJSON=_translatedParagraphsAsJSON;
 
 @end
 

@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIGestureRecognizer, UIView, UIViewController, _UIPreviewInteractionController;
+@class UIView;
 @protocol UIViewControllerPreviewingDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewControllerPreviewingContext
 {
     id <UIViewControllerPreviewingDelegate> _delegate;
-    UIView *_customViewForInteractiveHighlight;
-    UIView *_sourceView;
-    UIViewController *_viewController;
-    _UIPreviewInteractionController *_previewInteractionController;
-    struct CGRect _sourceRect;
 }
 
 - (void);
@@ -28,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)!;
 - (id);
 - (id);
 - (id);
@@ -37,26 +32,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (struct CGRect)PageHighlighter;
-- (void);
+- (struct CGRect)findOnPageHighlighter;
+- (void)_dataOwnerForSession:(id)arg1 atPoint: /* Error: Ran out of types for this method. */;
 - (id)þÿ;
 - (void)ÿ¦b¬þ;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *customViewForInteractiveHighlight; // @synthesize customViewForInteractiveHighlight=_customViewForInteractiveHighlight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIViewControllerPreviewingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIPreviewInteractionController *previewInteractionController; // @synthesize previewInteractionController=_previewInteractionController;
-@property(readonly, nonatomic) UIGestureRecognizer *previewingGestureRecognizerForFailureRelationship;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
 @property(retain, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

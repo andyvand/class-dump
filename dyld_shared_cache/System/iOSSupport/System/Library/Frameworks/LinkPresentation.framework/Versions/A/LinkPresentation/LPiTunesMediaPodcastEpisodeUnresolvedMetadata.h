@@ -4,57 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPiTunesMediaAsset, NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaPodcastEpisodeUnresolvedMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_episodeName;
-    NSString *_podcastName;
-    NSString *_artist;
-    NSString *_releaseDate;
-    LPiTunesMediaAsset *_artwork;
-    NSArray *_offers;
 }
 
+- (id)thumbnailFillSizeForWidth:imageSize: /* Error: Ran out of types for this method. */;
+- (void)switcherPluginCanMessageAPIOnBehalfOfPlugin:(id)arg1;
+- (id);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)__objc_data;
 - (void)¤;
 - (id)ß;
 - (id)g;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPiTunesMediaAsset *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *episodeName; // @synthesize episodeName=_episodeName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(copy, nonatomic) NSString *podcastName; // @synthesize podcastName=_podcastName;
-@property(copy, nonatomic) NSString *releaseDate; // @synthesize releaseDate=_releaseDate;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

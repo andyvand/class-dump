@@ -5,5 +5,7 @@
 //
 
 @protocol EKEventGenericDetailViewHostInterface
+- (void);
+- (void)x.%s;
 @end
 

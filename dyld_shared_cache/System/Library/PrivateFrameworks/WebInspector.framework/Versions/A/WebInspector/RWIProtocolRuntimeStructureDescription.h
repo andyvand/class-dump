@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface RWIProtocolRuntimeStructureDescription : RWIProtocolJSONObject
 {
@@ -24,11 +24,7 @@
 - (id)¼;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *constructorName;
 @property(copy, nonatomic) NSArray *fields;
-@property(nonatomic) _Bool isImprecise;
-@property(copy, nonatomic) NSArray *optionalFields;
-@property(retain, nonatomic) RWIProtocolRuntimeStructureDescription *prototypeStructure;
 
 @end
 

@@ -12,28 +12,21 @@
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id)±(Ð1Â0@ù
 × ;
-- (void)est;
+- (void)_sendNDDRequest;
 - (void)isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}console.log('check123'); let element = document.querySelector('%@'); if (element){ console.log('check4'); let value = '%@'; if (element.type.toLowerCase() == 'checkbox'){ element.value = value; element.checked = true; element.dispatchEvent(new Event('change', { bubbles:(id)arg1 true, composed:true, cancelable:true } )); element.dispatchEvent(new Event('click', { bubbles:true, composed:true, cancelable:true } )); } else { element.value = value; element.dispatchEvent(new Event('input', { bubbles:true, composed:true, cancelable:true } )); } } /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *BSSID; // @synthesize BSSID=_BSSID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

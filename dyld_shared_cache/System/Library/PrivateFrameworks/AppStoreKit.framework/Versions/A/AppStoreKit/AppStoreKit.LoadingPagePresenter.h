@@ -9,10 +9,6 @@
 @interface AppStoreKit.LoadingPagePresenter : AppStoreKit.BasePresenter
 {
     id pageUrl;
-    id pageAction;
-    id isIncomingURL;
-    id referrerData;
-    id view;
 }
 
 @end

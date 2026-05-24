@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUEIHostingPlatformViewDisappearEnded, SISchemaUEIHostingPlatformViewDisappearStarted;
+@class SISchemaUEIHostingPlatformViewDisappearStarted;
 
 @interface SISchemaUEIHostingPlatformViewDisappearContext : SISchemaInstrumentationMessage
 {
     SISchemaUEIHostingPlatformViewDisappearStarted *_startedOrChanged;
-    SISchemaUEIHostingPlatformViewDisappearEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -28,25 +24,20 @@
 - (void);
 - (void);
 - (id);
+- (id)HQ;
+- (id);
+- (void)`;
+- (unsigned long long)didReachTerminalPhaseWithBetaBundleURL:terminalPhase:error:reply: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)FStringRef, CFStringRef);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)ainabilityIdentifier;
-- (id)asCaarClientEvent;
+- (id)deleteExplainabilityIdentifier;
+- (id)_hasCaarClientEvent;
 - (void).nlrouter.NLRouterClientEvent.NLRouterPromptGenerated;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUEIHostingPlatformViewDisappearEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUEIHostingPlatformViewDisappearStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

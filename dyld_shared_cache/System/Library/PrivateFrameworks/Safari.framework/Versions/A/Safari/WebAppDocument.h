@@ -6,17 +6,12 @@
 
 #import <Safari/BrowserDocument.h>
 
-@class NSMutableDictionary, NSString, NSTimer, NSURL, WKWebView;
+@class NSTimer, WKWebView;
 
 __attribute__((visibility("hidden")))
 @interface WebAppDocument : BrowserDocument
 {
     NSTimer *_redirectDelayTimer;
-    _Bool _skipScopeEnforcement;
-    NSURL *_urlWhenRestoringInteractionState;
-    NSMutableDictionary *_extensionsPendingRevoke;
-    _Bool _extensionNavigation;
-    WKWebView *_webView;
 }
 
 - (void);
@@ -53,11 +48,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ionStatus;
+- (void)or string:(id)arg1 %@;
 - (id);
 - (void);
 - (_Bool);
@@ -75,15 +70,6 @@ __attribute__((visibility("hidden")))
 - (id)ðD-;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isExtensionNavigation) _Bool extensionNavigation; // @synthesize extensionNavigation=_extensionNavigation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool skipScopeEnforcement; // @synthesize skipScopeEnforcement=_skipScopeEnforcement;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) __weak WKWebView *webView; // @synthesize webView=_webView;
 
 @end

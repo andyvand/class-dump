@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface Image_Estimator_HEIFOutput
 {
     double _Target_Quality_Factor;
 }
 
-- (void);
-- (id);
-- (double);
+- (void)dpointPlaybackSessionRef, FigEndpointPlaybackSessionStandardCompletion, void *);
+- (id)ssionAirPlay.%{ptr};
+- (double)pInSnapOutManager session:object:didUpdateRegion:previousRegion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) double Target_Quality_Factor; // @synthesize Target_Quality_Factor=_Target_Quality_Factor;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

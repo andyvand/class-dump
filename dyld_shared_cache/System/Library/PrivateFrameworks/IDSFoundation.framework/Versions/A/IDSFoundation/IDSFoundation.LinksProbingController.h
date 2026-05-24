@@ -7,8 +7,6 @@
 @interface IDSFoundation.LinksProbingController
 {
     id tags;
-    id selector;
-    id updateHook;
 }
 
 @end

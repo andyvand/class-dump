@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, SFCompanionServiceManagerProtocol;
+@class NSString;
 
 @interface SFCompanionManager
 {
     NSString *_identifier;
-    id <SFCompanionServiceManagerProtocol> _managerProxy;
-    NSString *_deviceID;
-    NSString *_deviceIP;
-    NSString *_deviceName;
-    NSMutableDictionary *_services;
-    NSMutableDictionary *_streamHandlers;
-    NSObject<OS_dispatch_queue> *_serviceIdentifierQueue;
-    NSObject<OS_dispatch_semaphore> *_managerSemaphore;
 }
 
 + (id)ÓÛÿmìWìwÜÿmìWPÈÛÿmìWô\Üÿ;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -35,42 +26,27 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id)J;
+- (void)ch;
 - (void);
 - (id);
 - (void)ÇÇÿÿ;
-- (void)xq___G;
+- (void)yxq___G;
 - (void)ing;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(copy) NSString *deviceIP; // @synthesize deviceIP=_deviceIP;
-@property(copy) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) id <SFCompanionServiceManagerProtocol> managerProxy; // @synthesize managerProxy=_managerProxy;
-@property(retain) NSObject<OS_dispatch_semaphore> *managerSemaphore; // @synthesize managerSemaphore=_managerSemaphore;
-@property(retain) NSObject<OS_dispatch_queue> *serviceIdentifierQueue; // @synthesize serviceIdentifierQueue=_serviceIdentifierQueue;
-@property(retain) NSMutableDictionary *services; // @synthesize services=_services;
-@property(retain) NSMutableDictionary *streamHandlers; // @synthesize streamHandlers=_streamHandlers;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id);
 + (id);
 + (id)@ù
 × ;
-+ (id)oundingBoxExpansionRatio;
++ (id)beginRangeFaceBoundingBoxExpansionRatio;
 
 @end
 

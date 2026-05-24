@@ -8,11 +8,6 @@
 {
     id _currentState;
     id config;
-    id _updateBlock;
-    id _allRoomsSelected;
-    id _stateUpdated;
-    id _hasOptionsSelected;
-    id _$observationRegistrar;
 }
 
 @end

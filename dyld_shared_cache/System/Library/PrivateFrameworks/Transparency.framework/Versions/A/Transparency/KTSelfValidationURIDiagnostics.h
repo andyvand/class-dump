@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSError, NSString;
+@class NSDictionary;
 
 @interface KTSelfValidationURIDiagnostics
 {
     NSDictionary *_ktVerificationInfoDiagnosticsJson;
-    NSDictionary *_transparentDataDiagnosticsJson;
-    NSString *_result;
-    NSError *_error;
-    NSDate *_requestTime;
 }
 
 + (_Bool);
@@ -22,24 +18,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ConversionCompositeRequest",W,V_parentRequest;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)areMetadata"24;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ed %d;
 
 // Remaining properties
-@property(readonly) NSDictionary *diagnosticsJsonDictionary;
-@property(retain) NSError *error; // @synthesize error=_error;
 @property(retain) NSDictionary *ktVerificationInfoDiagnosticsJson; // @synthesize ktVerificationInfoDiagnosticsJson=_ktVerificationInfoDiagnosticsJson;
-@property(retain) NSDate *requestTime; // @synthesize requestTime=_requestTime;
-@property(retain) NSString *result; // @synthesize result=_result;
-@property(retain) NSDictionary *transparentDataDiagnosticsJson; // @synthesize transparentDataDiagnosticsJson=_transparentDataDiagnosticsJson;
 
 @end
 

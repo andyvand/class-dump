@@ -7,8 +7,6 @@
 @interface UIKit._Glass._IntelligenceLightHandle
 {
     id _isFillLightVisible;
-    id _isEdgeLightVisible;
-    id _$observationRegistrar;
 }
 
 @end

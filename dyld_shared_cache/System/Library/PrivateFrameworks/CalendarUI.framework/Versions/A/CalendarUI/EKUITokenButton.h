@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKViewController, NSImageView, NSMutableArray, NSTextField, NSTrackingArea;
+@class NSTextField;
 
 @interface EKUITokenButton
 {
     NSTextField *_label;
-    NSTextField *_caret;
-    NSTextField *_sublabel;
-    NSImageView *_icon;
-    NSTrackingArea *_trackingArea;
-    _Bool _selected;
-    EKViewController *_viewController;
-    NSMutableArray *_constraints;
-    id _representedObject;
-    CDUnknownBlockType _executeAction;
-    CDUnknownBlockType _deleteAction;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)qaM;
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -48,12 +38,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)ress:(id)arg1;
+- (void)isLegalEmailAddress:(id)arg1;
 - (void)ÿþîò;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType deleteAction; // @synthesize deleteAction=_deleteAction;
-@property(copy, nonatomic) CDUnknownBlockType executeAction; // @synthesize executeAction=_executeAction;
 @property(retain, nonatomic) id representedObject; // @synthesize representedObject=_representedObject;
 
 @end

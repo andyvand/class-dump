@@ -6,28 +6,22 @@
 
 #import <GeoServices/GEOComposedWaypoint.h>
 
-@class GEOComposedRouteEVChargingStationInfo, NSString;
-@protocol GEOTransitArtworkDataSource;
+@class NSString;
 
 @interface GEOComposedWaypointEVStop : GEOComposedWaypoint
 {
     NSString *_name;
-    unsigned long long _muid;
-    CDStruct_071ac149 _coordinate;
-    id <GEOTransitArtworkDataSource> _artwork;
-    _Bool _isServerProvidedWaypoint;
-    GEOComposedRouteEVChargingStationInfo *_chargingInfo;
 }
 
 + (_Bool)!= "%@";
-- (_Bool);
+- (_Bool)subscribeOn: /* Error: Ran out of types for this method. */;
+- (id)isGregorianDerivedCalendarIdentifier:(id)arg1;
+- (id)isGregorianDerivedCalendar:(id)arg1;
+- (id)`A;
+- (id)Algeria;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (void);
 - (CDStruct_39925896);

@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id)y/PrivateFrameworks/PhotosSpatialMedia.framework/Versions/A/PhotosSpatialMedia;
+- (id);
 - (void)hannels;
 
 // Remaining properties

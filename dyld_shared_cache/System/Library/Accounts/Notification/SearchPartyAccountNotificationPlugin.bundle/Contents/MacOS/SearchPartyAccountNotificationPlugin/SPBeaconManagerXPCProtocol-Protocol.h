@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
+
 @protocol SPBeaconManagerXPCProtocol
+- (void);
+- (void)z;
+- (void){;
+- (void){{;
+- (void)b#z;
+- (void);
+- (void)lockItemStorageDidUpdate:(NSUUID *)arg1 insertedItemIDs:(unsigned long long)arg2 updatedItemIDs:(void (^)(_Bool))arg3 deletedItemIDs:] /* Error: Ran out of types for this method. */;
 @end
 

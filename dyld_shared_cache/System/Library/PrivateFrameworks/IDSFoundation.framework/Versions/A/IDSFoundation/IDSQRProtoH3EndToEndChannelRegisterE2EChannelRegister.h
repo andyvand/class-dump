@@ -10,11 +10,11 @@
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)withID:(id)arg1 attributeElement: /* Error: Ran out of types for this method. */;
+- (void)ractionSession _interrupted]_block_invoke;
 - (id);
 - (id);
 

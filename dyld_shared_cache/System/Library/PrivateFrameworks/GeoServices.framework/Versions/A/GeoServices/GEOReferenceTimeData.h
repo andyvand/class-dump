@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GEOReferenceTimeData
 {
     double _refTime;
-    double _refError;
-    double _kernTime;
-    struct timeval _kernBoottime;
 }
 
 + (_Bool)ource resource '%{public}@' from disk:%{public}@ /* Error: Ran out of types for this method. */;
@@ -21,13 +18,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
-- (double)MNOPQRSTUVWXYZ0123456789;
-- (double)ERSTANDING_TAXONOMY_TYPE_BRAND;
+- (double)abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789;
+- (double)QUERY_UNDERSTANDING_TAXONOMY_TYPE_BRAND;
 
 // Remaining properties
-@property(readonly, nonatomic) struct timeval kernBootTime; // @synthesize kernBootTime=_kernBoottime;
-@property(readonly, nonatomic) double kernTime; // @synthesize kernTime=_kernTime;
-@property(readonly, nonatomic) double refError; // @synthesize refError=_refError;
 @property(readonly, nonatomic) double refTime; // @synthesize refTime=_refTime;
 
 @end

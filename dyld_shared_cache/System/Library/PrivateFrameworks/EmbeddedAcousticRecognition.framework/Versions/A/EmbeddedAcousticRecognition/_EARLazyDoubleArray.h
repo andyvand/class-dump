@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     vector_3f2cadd7 _vec;
 }
 
-- (id);
+- (id)__objc_protolist__DATA_CONST;
 - (id);
 - (id);
 - (id);

@@ -7,8 +7,6 @@
 @interface HMDCameraRecordingEventObserver
 {
     id startMutex;
-    id analyzerDataSource;
-    id currentHomeDataSource;
 }
 
 - (id);

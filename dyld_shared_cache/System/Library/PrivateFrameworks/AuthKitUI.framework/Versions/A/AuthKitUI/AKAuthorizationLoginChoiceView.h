@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSButton, NSImageView, NSString, NSTextField;
+@class NSButton;
 
 @interface AKAuthorizationLoginChoiceView
 {
     _Bool _enabled;
-    NSImageView *_sharedIconImageView;
-    NSButton *_radioButton;
-    NSImageView *_cellIcon;
-    NSTextField *_userField;
-    NSTextField *_descField;
-    NSBox *_topBorder;
-    NSBox *_bottomBorder;
-    NSString *_user;
-    NSString *_choiceDescription;
-    long long _internalTagIdentifier;
 }
 
+- (id)N;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)-;
 - (void);
 - (void);
 - (void);
@@ -54,7 +44,7 @@
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)f;
 - (_Bool);
 - (void);
 - (id)
@@ -62,18 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSBox *bottomBorder; // @synthesize bottomBorder=_bottomBorder;
-@property(retain, nonatomic) NSImageView *cellIcon; // @synthesize cellIcon=_cellIcon;
-@property(retain, nonatomic) NSString *choiceDescription; // @synthesize choiceDescription=_choiceDescription;
-@property(retain, nonatomic) NSTextField *descField; // @synthesize descField=_descField;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) long long internalTagIdentifier; // @synthesize internalTagIdentifier=_internalTagIdentifier;
 @property(retain, nonatomic) NSButton *radioButton; // @synthesize radioButton=_radioButton;
-@property(retain, nonatomic) NSImageView *sharedIconImageView; // @synthesize sharedIconImageView=_sharedIconImageView;
-@property(nonatomic) long long tagIdentifier;
-@property(retain, nonatomic) NSBox *topBorder; // @synthesize topBorder=_topBorder;
-@property(retain, nonatomic) NSString *user; // @synthesize user=_user;
-@property(retain, nonatomic) NSTextField *userField; // @synthesize userField=_userField;
 
 @end
 

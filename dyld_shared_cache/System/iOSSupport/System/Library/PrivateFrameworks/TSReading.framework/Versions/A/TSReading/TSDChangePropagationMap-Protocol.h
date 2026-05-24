@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol TSDPrototypeChange;
+
 @protocol TSDChangePropagationMap
+- (id <TSDPrototypeChange>)@"ICSharedListeningItem"8q16^B24;
 @end
 

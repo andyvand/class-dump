@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSManagedObjectContext, NSManagedObjectID;
+@class NSManagedObjectID;
 
 @protocol PHResourceChooserAsset
+- (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short deferredProcessingNeeded;
-@property(readonly, nonatomic) unsigned long long effectiveThumbnailIndex;
-@property(readonly, nonatomic) _Bool hasAdjustments;
-@property(readonly, nonatomic) NSData *imageRequestHints;
-@property(readonly, nonatomic) _Bool isLocalVideoKeyFrameValid;
-@property(readonly, nonatomic) _Bool isRAWPlusJPEG;
-@property(readonly, nonatomic) _Bool isWalrusEnabled;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContextForFetchingResources;
-@property(readonly, nonatomic) long long mediaType;
 @property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, nonatomic) unsigned long long originalResourceChoice;
-@property(readonly, nonatomic) struct CGSize originalUnorientedSize;
-@property(readonly, nonatomic) struct CGSize unorientedSize;
 @end
 

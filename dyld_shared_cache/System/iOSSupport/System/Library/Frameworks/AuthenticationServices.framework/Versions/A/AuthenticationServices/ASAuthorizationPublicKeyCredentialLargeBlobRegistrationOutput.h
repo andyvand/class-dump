@@ -10,11 +10,11 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)directoryCount;
 - (_Bool);
 
 // Remaining properties

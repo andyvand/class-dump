@@ -4,157 +4,133 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString, SiriCoreDataCompressor, SiriCoreDataDecompressor, SiriCorePingInfo, SiriCoreSiriConnectionInfo;
-@protocol OS_dispatch_data, OS_dispatch_queue, OS_dispatch_source, SiriCoreConnectionProvider, SiriCoreSiriBackgroundConnectionDelegate;
+@protocol SiriCoreSiriBackgroundConnectionDelegate;
 
 @interface SiriCoreSiriBackgroundConnection
 {
     id <SiriCoreSiriBackgroundConnectionDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <SiriCoreConnectionProvider> _connectionProvider;
-    SiriCoreSiriConnectionInfo *_connectionInfo;
-    NSObject<OS_dispatch_data> *_bufferedInputData;
-    NSObject<OS_dispatch_data> *_bufferedProviderHeaderOutputData;
-    NSObject<OS_dispatch_data> *_bufferedGeneralOutputData;
-    NSObject<OS_dispatch_data> *_bufferedUncompressedData;
-    SiriCoreDataDecompressor *_inputDecompressor;
-    SiriCoreDataCompressor *_outputCompressor;
-    struct __CFHTTPMessage *_httpResponseHeader;
-    _Bool _isOpened;
-    _Bool _isCanceled;
-    _Bool _hasReportedError;
-    NSMutableDictionary *_errorsForConnectionMethods;
-    NSObject<OS_dispatch_source> *_aceHeaderTimerSource;
-    unsigned long long _aceHeaderTimerFireCount;
-    NSObject<OS_dispatch_source> *_pingTimerSource;
-    unsigned int _currentPingIndex;
-    SiriCorePingInfo *_pingInfo;
-    unsigned long long _lastInputLength;
-    void *_lastInputDataPointer;
-    unsigned long long _inputLengthUnchangedCounter;
-    unsigned long long _lastOutputLength;
-    void *_lastOutputDataPointer;
-    unsigned long long _outputLengthUnchangedCounter;
-    unsigned int _currentBarrierIndex;
-    NSMutableDictionary *_outstandingBarriers;
-    long long _connectionMethod;
-    NSObject<OS_dispatch_data> *_safetyNetBuffer;
-    NSObject<OS_dispatch_queue> *_metricsQueue;
-    double _firstStartTime;
-    double _currentStartTime;
-    double _currentOpenTime;
-    double _firstByteReadTime;
-    unsigned long long _startCount;
-    unsigned long long _metricsCount;
-    NSString *_peerType;
-    NSString *_peerVersion;
-    NSString *_productTypePrefix;
-    _Bool _usesProxyConnection;
-    _Bool _deviceIsInWalkaboutExperimentGroup;
-    _Bool _siriConnectionUsesPeerManagedSync;
-    Class _peerProviderClass;
-    NSMutableArray *_outgoingCommandsWithSendCompletions;
-    _Bool _primaryConnectionViable;
-    _Bool _betterPathAvailable;
-    long long _secondaryConnectionOpenState;
-    id <SiriCoreConnectionProvider> _secondaryConnectionProvider;
-    _Bool _dispatchedSnapshotMetrics;
-    double _receivedDataTime;
 }
 
-- (_Bool);
+- (_Bool)not be reached.;
+- (void)ail server. We will automatically try again at the specified time (e.g. 06:12:34). /* Error: Ran out of types for this method. */;
+- (void)mporarily unavailable, e.g. when it is too busy, or down for service.;
+- (void)displayed when the mail server is temporarily unavailable, e.g. when it is too busy, or down for service.;
+- (void)y unavailable.;
+- (_Bool)n the mail server is rejecting the credentials (e.g. username and/or password) that the user has entered for this account. We will automatically try again at the specified time (e.g. 06:12:34). /* Error: Ran out of types for this method. */;
+- (void)make any sense of, and thus fail to sync. We will automatically try again at the specified time (e.g. 06:(_Bool)arg1 12:34). /* Error: Ran out of types for this method. */;
+- (void)e.email.imap.sync;
+- (void)tion.summarizeMailMessageThread;
 - (void);
+- (void)EMActivityStateObserver;
+- (void)Observer;
+- (void)ng a remote connection.;
+- (void)GenerateFakeSummaries;
+- (void)OverrideGreymatterAvailability;
+- (id)HasCompletedAppleIntelligenceOnboarding;
+- (id)SuggestionsFollowUpDebugStartDate;
+- (Class)SuggestionsFollowUpDebugStartDate;
 - (void);
+- (id)splayStarted reason:%ld sections:%lu /* Error: Ran out of types for this method. */;
+- (_Bool)re we were looking for!;
+- (void)UnsubscribeType:(id)arg1 %ld
+	Date:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@ /* Error: Ran out of types for this method. */;
+- (void)nID:(id)arg1 %lld
+	Flags:(_Bool)arg2 %@
+	ConversationNotificationLevel:%ld
+	IsBlocked:%@
+	UnsubscribeType:%ld
+	Date:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@ /* Error: Ran out of types for this method. */;
+- (void)ShouldArchive:(id)arg1 %@
+	displayMessageItemID:(id)arg2 %@;
+- (void)ailboxes:(id)arg1 %@
+	Count:(id)arg2 %lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@
+	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
+- (id)P:%@
+	IsBlocked:%@
+	SearchResultType:%ld
+	SearchRelevanceScore:%@
+	UnsubscribeType:%ld
+	Date:%@
+	DisplayDate:%@
+	Mailboxes:%@
+	Count:%lu /* Error: Ran out of types for this method. */;
+- (_Bool)UPDATED_ON_DATE_FORMAT;
+- (_Bool)_AGO_FORMAT%1$ld;
+- (_Bool)UPDATED_YESTERDAY;
+- (_Bool)UPDATED_JUST_NOW;
+- (_Bool)es EMMessages instead.;
+- (void)isn't used on macOS because it doesn't need to deal with protected data. Uses EMMessages instead.;
+- (void)EncryptedMail;
+- (_Bool)0@"EMReceivingAccount"8;
+- (_Bool)Gray;
+- (id)nd Later;
+- (_Bool)Flagged;
+- (_Bool)n;
+- (void)"text-align:(id)arg1 center; font-size:(long long)arg2 12px; color:(_Bool)arg3 #808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (void)argin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (void)ize:(id)arg1 14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (_Bool)lock; min-width:(long long)arg1 159px; font-family:(id)arg2 'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (void)x solid #CACACA; border-radius:15px; height:134px; display:inline-block; min-width:159px; font-family:'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (void)a-url="%@" data-filename="%@" data-size="%lu" data-expiration="%f" style="margin:(id)arg1 15px; border:1px solid #CACACA; border-radius:15px; height:134px; display:inline-block; min-width:159px; font-family:'Helvetica Neue',sans-serif;"><a href="%@" style="text-align:center; text-decoration:none; font-size:14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
+- (void).networkOperations;
+- (_Bool)en_US_POSIX;
+- (_Bool)tion.m;
+- (void)tservices/mail/configuration.plist;
+- (void)le.com/configurations/internetservices/mail/configuration.plist;
+- (Class)ray"8;
+- (void)EFPropertyKey_contactIdentifier;
+- (long long)EFPropertyKey_databaseID;
+- (long long)ners %lu, hasSMIMEError:%@ /* Error: Ran out of types for this method. */;
+- (void)EFPropertyKey_smimeError;
+- (void)tedQuery"8;
+- (id)%s;
+- (_Bool)rmClientWork:] /* Error: Ran out of types for this method. */;
+- (_Bool)[EMSearchableIndexQuery _performClientWork:] /* Error: Ran out of types for this method. */;
+- (_Bool)query;
+- (void)ts block to a non-attribute query;
+- (void)query;
+- (void)related block(s) to a non-live query;
+- (void)empting to add live query related block(s) to a non-live query;
+- (void)NSString"8@"NSArray"16;
+- (void)a simulated failure;
+- (id)kSearchableIndexQueryKeyIntervalForSpotlightFailureSimulation;
+- (void)attachment:(id)arg1;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (Class);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (Class);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void).email.%@.observer;
+- (void)SError"16;
+- (void)ContentURLSchemeHandler.privacyProxyStatusQueue;
+- (_Bool)time_isGregorian;
+- (_Bool)metrics_countOfResponseBodyBytesAfterDecoding;
+- (_Bool)metrics_isCellular;
+- (id)metrics_resourceFetchType;
+- (void)ut was not our NSURLSession!;
+- (void)ntentURLSession after it's been invalidated.;
+- (long long)be created on EMRemoteContentURLSession after it's been invalidated.;
+- (long long)eContentURLSession.m;
+- (void)Accept;
+- (void)(synthetic);
+- (_Bool)ror"24;
+- (void)NSData"8@"NSURLResponse"16@"NSError"24;
+- (id)http;
+- (void)Invocation *__strong);
+- (id)vocation *CopyInvocation(NSInvocation *__strong);
+- (void)eattempts=%@;
+- (id)8;
+- (void)<EMReceivingAccountBuilder>"8;
+- (void)EFPropertyKey_sourceIsManaged;
+- (_Bool)mID>"16;
+- (void)"NSArray"8@"<EMCollectionItemID>"16;
+- (void)suggestion:(unsigned int)arg1 %@ 
+	queryOptions:%lu
+	limit:%ld /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -168,21 +144,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <SiriCoreSiriBackgroundConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool deviceIsInWalkaboutExperimentGroup; // @synthesize deviceIsInWalkaboutExperimentGroup=_deviceIsInWalkaboutExperimentGroup;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) Class peerProviderClass; // @synthesize peerProviderClass=_peerProviderClass;
-@property(copy, nonatomic) NSString *peerType; // @synthesize peerType=_peerType;
-@property(copy, nonatomic) NSString *peerVersion; // @synthesize peerVersion=_peerVersion;
-@property(copy, nonatomic) NSString *productTypePrefix; // @synthesize productTypePrefix=_productTypePrefix;
-@property(nonatomic) _Bool siriConnectionUsesPeerManagedSync; // @synthesize siriConnectionUsesPeerManagedSync=_siriConnectionUsesPeerManagedSync;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesProxyConnection; // @synthesize usesProxyConnection=_usesProxyConnection;
 
 @end
 

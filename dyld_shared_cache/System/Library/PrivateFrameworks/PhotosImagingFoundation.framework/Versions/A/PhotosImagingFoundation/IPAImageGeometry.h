@@ -9,14 +9,11 @@
 @interface IPAImageGeometry
 {
     NSString *_identifier;
-    struct CGRect _extent;
-    struct CGRect _domain;
-    struct Quad2d _imageQuad;
 }
 
 + (id);
 + (void);
-+ (void);
++ (void)1;
 + (void);
 + (void);
 + (void);
@@ -30,16 +27,10 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (void);
+- (void)processVideo;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

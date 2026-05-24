@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/MKFCKModel.h>
 
-@class HMDHomeKitVersion, HMDHomeNFCReaderKey, MKFCKHAPAccessory, MKFCKRoom, MKFCKUser, NSArray, NSData, NSDate, NSDictionary, NSSet, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface MKFCKHome : MKFCKModel
 {
@@ -18,11 +16,11 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (void);
++ (id)ions/A/CoreFoundation;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)WithError:(id)arg1 ];
++ (id)rics:(id)arg1 ];
 + (id);
 + (id);
 + (id);
@@ -43,22 +41,38 @@ __attribute__((visibility("hidden")))
 + (unsigned long long);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)ile descriptor flags. %d %s;
 + (id);
 + (id);
 + (_Bool)0@ù
 × ;
-+ (_Bool)entDestinationController;
-+ (_Bool)result:(id)arg1 completionHandler:(id)arg2;
++ (_Bool)unstageNullDestinationForCurrentDestinationController;
++ (_Bool)lookUpAndApplyObjectChange:(id)arg1 previous:(id)arg2 result:(id)arg3 completionHandler:(id)arg4;
 + (_Bool)ry:(id)arg1 %@;
 + (id)ActivityStateDetails"8;
-- (_Bool);
+- (_Bool);
+- (id)editContentsUsingBarrierBlock:context:completionQueue:completion: /* Error: Ran out of types for this method. */;
+- (long long)%@ isResumingMultipointRoute:%d /* Error: Ran out of types for this method. */;
 - (id);
-- (long long);
-- (id);
-- (id);
+- (id)T;
 - (void);
-- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)4;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)S;
+- (_Bool)S;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -73,6 +87,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)s;
+- (_Bool);
+- (_Bool);
+- (_Bool)s;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -82,89 +100,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void)ssage: /* Error: Ran out of types for this method. */;
+- (void)didTriggerQueuedOutgoingMessage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *accessories; // @dynamic accessories;
-@property(retain, nonatomic) MKFCKHAPAccessory *activeNetworkRouter; // @dynamic activeNetworkRouter;
 @property(nonatomic) long long analysisOptions; // @dynamic analysisOptions;
-@property(retain, nonatomic) NSDictionary *applicationData; // @dynamic applicationData;
-@property(nonatomic) _Bool automaticSoftwareUpdateEnabled; // @dynamic automaticSoftwareUpdateEnabled;
-@property(nonatomic) _Bool automaticThirdPartyAccessorySoftwareUpdateEnabled; // @dynamic automaticThirdPartyAccessorySoftwareUpdateEnabled;
-@property(copy, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) MKFCKRoom *defaultRoom; // @dynamic defaultRoom;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didOnboardAnalysis; // @dynamic didOnboardAnalysis;
-@property(nonatomic) _Bool didOnboardLocationServices; // @dynamic didOnboardLocationServices;
-@property(nonatomic) _Bool didOnboardMemory; // @dynamic didOnboardMemory;
-@property(nonatomic) _Bool doorbellChimeEnabled; // @dynamic doorbellChimeEnabled;
-@property(copy, nonatomic) NSDate *firstHAPAccessoryAddedDate; // @dynamic firstHAPAccessoryAddedDate;
-@property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(retain, nonatomic) NSDictionary *guestAccessCodes; // @dynamic guestAccessCodes;
-@property(retain, nonatomic) NSSet *guests; // @dynamic guests;
-@property(nonatomic) _Bool hasAnyUserAcknowledgedCameraRecordingOnboarding; // @dynamic hasAnyUserAcknowledgedCameraRecordingOnboarding;
-@property(nonatomic) _Bool hasOnboardedForAccessCode; // @dynamic hasOnboardedForAccessCode;
-@property(nonatomic) _Bool hasOnboardedForWalletKey; // @dynamic hasOnboardedForWalletKey;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *homeManagerApplicationData; // @dynamic homeManagerApplicationData;
-@property(retain, nonatomic) NSSet *invitations; // @dynamic invitations;
-@property(nonatomic) _Bool locationServicesEnabled; // @dynamic locationServicesEnabled;
-@property(retain, nonatomic) NSData *matCredGRK; // @dynamic matCredGRK;
-@property(retain, nonatomic) NSDictionary *matterKeyValueStore; // @dynamic matterKeyValueStore;
-@property(nonatomic) long long mediaMinimumUserPrivilege; // @dynamic mediaMinimumUserPrivilege;
-@property(copy, nonatomic) NSString *mediaPassword; // @dynamic mediaPassword;
-@property(nonatomic) _Bool mediaPeerToPeerEnabled; // @dynamic mediaPeerToPeerEnabled;
-@property(nonatomic) _Bool memoryEnabled; // @dynamic memoryEnabled;
-@property(retain, nonatomic) HMDHomeKitVersion *minimumHomeKitVersionForAccessoryNetworkProtectionChanges; // @dynamic minimumHomeKitVersionForAccessoryNetworkProtectionChanges;
-@property(retain, nonatomic) HMDHomeKitVersion *minimumHomeKitVersionForNetworkRouterSupport; // @dynamic minimumHomeKitVersionForNetworkRouterSupport;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(nonatomic) _Bool multiUserEnabled; // @dynamic multiUserEnabled;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSArray *networkProtectionGroups; // @dynamic networkProtectionGroups;
-@property(nonatomic) long long networkProtectionMode; // @dynamic networkProtectionMode;
-@property(retain, nonatomic) HMDHomeNFCReaderKey *nfcReaderKey; // @dynamic nfcReaderKey;
-@property(retain, nonatomic) MKFCKUser *owner; // @dynamic owner;
-@property(copy, nonatomic) NSUUID *personDataZoneUUID; // @dynamic personDataZoneUUID;
-@property(retain, nonatomic) NSSet *persons; // @dynamic persons;
-@property(nonatomic) long long primaryHomeCounter; // @dynamic primaryHomeCounter;
-@property(retain, nonatomic) NSDictionary *removedUserAccessCodes; // @dynamic removedUserAccessCodes;
-@property(nonatomic) long long residentSelectionVersion; // @dynamic residentSelectionVersion;
-@property(retain, nonatomic) NSSet *residents; // @dynamic residents;
-@property(retain, nonatomic) NSSet *rooms; // @dynamic rooms;
-@property(retain, nonatomic) NSSet *scenes; // @dynamic scenes;
-@property(retain, nonatomic) NSSet *serviceGroups; // @dynamic serviceGroups;
-@property(nonatomic) long long siriPhraseOptions; // @dynamic siriPhraseOptions;
-@property(nonatomic) _Bool soundCheckEnabled; // @dynamic soundCheckEnabled;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSSet *triggers; // @dynamic triggers;
-@property(retain, nonatomic) NSSet *users; // @dynamic users;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
-@property(retain, nonatomic) NSSet *zones; // @dynamic zones;
 
 @end
 

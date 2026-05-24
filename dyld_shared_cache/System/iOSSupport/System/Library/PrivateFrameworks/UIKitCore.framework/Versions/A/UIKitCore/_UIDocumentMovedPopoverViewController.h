@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class LPLinkView, NSString, NSURL;
+@class LPLinkView, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface _UIDocumentMovedPopoverViewController : UIViewController
@@ -15,28 +15,20 @@ __attribute__((visibility("hidden")))
     LPLinkView *_linkView;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)"NSString"24@"NSArray"32@"NSArray"40;
+- (void)guidString;
+- (id)guidForNewOutgoingTransferWithFilename:isDirectory:totalBytes:hfsType:hfsCreator:hfsFlags: /* Error: Ran out of types for this method. */;
 - (long long);
-- (void);
-- (void);
-- (id)ight;
+- (void)H17IMSharedUtilitiesyHCg_G;
+- (void)5;
+- (id)UIAppearanceLight;
 - (void);
 - (void)õCÖ<\;
 - (id)q;
 - (void)ÍÖDÇc;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
-@property(readonly) Class superclass;
 
 @end
 

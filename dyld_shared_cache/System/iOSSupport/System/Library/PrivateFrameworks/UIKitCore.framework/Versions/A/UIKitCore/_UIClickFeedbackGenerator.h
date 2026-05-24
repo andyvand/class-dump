@@ -12,15 +12,15 @@
 
 + (Class)0@ù
 × ;
+- (void)checkResourceIsReachableAndReturnError:(struct CGPoint)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)checkForSentTranslationForMessage:(struct CGPoint)arg1;
+- (void)checkForIndexedMessageGUIDs:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Fþÿ;
 - (void)CollectionView internal inconsistency:invalid elementCategory:%ld; view=%@; self=%@ /* Error: Ran out of types for this method. */;
 - (void)ºÖþÿ¾Öþÿ;
-- (void)gXw;
+- (void)So9UIControlCSgXw;
 - (void)Ó#;
 - (id)ÿ;
 - (void)Èý	ÿ;

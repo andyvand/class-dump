@@ -5,5 +5,9 @@
 //
 
 @protocol QLPreviewViewDelegate
+
+@optional
+- (void)M9;
+- (void);
 @end
 

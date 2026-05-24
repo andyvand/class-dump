@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPImage, NSAttributedString, NSColor;
+@class NSAttributedString;
 
 @interface LPCaptionButtonCollapsedPresentationProperties
 {
     _Bool _shouldHideIconsWhenCollapsed;
-    _Bool _shouldCollapseWhenCompressed;
-    NSAttributedString *_attributedText;
-    LPImage *_icon;
-    NSColor *_backgroundColor;
-    double _layoutRatioThreshold;
 }
 
 - (_Bool);
@@ -23,9 +18,9 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)a;
 - (id);
-- (id);
+- (id)0;
 - (id);
 - (void);
 - (void)Hð1Â0@ù
@@ -33,11 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) double layoutRatioThreshold; // @synthesize layoutRatioThreshold=_layoutRatioThreshold;
-@property(nonatomic) _Bool shouldCollapseWhenCompressed; // @synthesize shouldCollapseWhenCompressed=_shouldCollapseWhenCompressed;
-@property(nonatomic) _Bool shouldHideIconsWhenCollapsed; // @synthesize shouldHideIconsWhenCollapsed=_shouldHideIconsWhenCollapsed;
 
 @end
 

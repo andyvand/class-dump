@@ -9,9 +9,6 @@
 @interface RTStateDepictionAggStateStats
 {
     int _numOfEntries;
-    RTStateModelLocation *_location;
-    double _aggregateTime_s;
-    double _lastExit_s;
 }
 
 - (void);
@@ -21,15 +18,12 @@
 - (void);
 - (id);
 - (double);
-- (id)gress;
+- (id)_statusStoreInProgress;
 - (void)t start date, %@, last attempt start date, %@, last training attempt completion date, %@, last successful training attempt completion date, %@, time since last training attempt, %@, time since last training success, %@;
 - (void)j-ªV;
 
 // Remaining properties
-@property(nonatomic) double aggregateTime_s; // @synthesize aggregateTime_s=_aggregateTime_s;
-@property(nonatomic) double lastExit_s; // @synthesize lastExit_s=_lastExit_s;
 @property(retain, nonatomic) RTStateModelLocation *location; // @synthesize location=_location;
-@property(nonatomic) int numOfEntries; // @synthesize numOfEntries=_numOfEntries;
 
 @end
 

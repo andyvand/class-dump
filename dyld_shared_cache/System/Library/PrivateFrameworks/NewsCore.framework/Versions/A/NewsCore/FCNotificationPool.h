@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface FCNotificationPool
 {
     NSArray *_items;
-    NSDate *_creationDate;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)atapathInfo.PerformanceReport.throughputCapacity;
 - (id);
 - (id);
 - (_Bool)erForFreeUsers;
@@ -27,7 +26,6 @@
 - (id)Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCFeaturedArticlesOperation.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
 
 @end

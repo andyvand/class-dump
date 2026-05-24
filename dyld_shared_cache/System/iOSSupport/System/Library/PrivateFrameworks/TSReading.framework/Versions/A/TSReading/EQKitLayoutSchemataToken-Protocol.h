@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+@protocol EQKitFontStyling;
+
 @protocol EQKitLayoutSchemataToken
+- (unsigned int)rom an existing shared queue.;
+- (NSString *)d failed;
+- (id <EQKitFontStyling>).MediaPlayer;
 @end
 

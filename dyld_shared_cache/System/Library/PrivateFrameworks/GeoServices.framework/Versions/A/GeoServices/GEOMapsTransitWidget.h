@@ -9,20 +9,10 @@
 @interface GEOMapsTransitWidget
 {
     NSMutableArray *_transitIncidentItems;
-    int _tappedItemIndex;
-    int _transitMessageType;
-    _Bool _everExpanded;
-    _Bool _initiallyExpanded;
-    struct {
-        unsigned int has_tappedItemIndex:1;
-        unsigned int has_transitMessageType:1;
-        unsigned int has_everExpanded:1;
-        unsigned int has_initiallyExpanded:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ed:(id)arg1;
++ (_Bool)setHasTrafficEnabled:(id)arg1;
 - (id);
 - (int);
 - (unsigned long long);
@@ -41,17 +31,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (int);
-- (int);
-- (_Bool);
+- (int)type;
+- (int)requestAuthorizationWithCredential:(id)arg1 messageOptions:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)isCertificateError: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)[CSSiriSpeechRecordingContext becomeCurrent];
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -63,15 +53,7 @@
 - (void)°¿ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool everExpanded;
-@property(nonatomic) _Bool hasEverExpanded;
-@property(nonatomic) _Bool hasInitiallyExpanded;
-@property(nonatomic) _Bool hasTappedItemIndex;
 @property(nonatomic) _Bool hasTransitMessageType;
-@property(nonatomic) _Bool initiallyExpanded;
-@property(nonatomic) int tappedItemIndex;
-@property(retain, nonatomic) NSMutableArray *transitIncidentItems;
-@property(nonatomic) int transitMessageType;
 
 @end
 

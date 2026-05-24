@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)"MSVArtworkServiceRequest",R,N,V_request;
 
 @end
 

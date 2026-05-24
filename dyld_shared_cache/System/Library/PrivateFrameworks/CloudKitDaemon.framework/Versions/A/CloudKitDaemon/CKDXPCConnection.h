@@ -4,53 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDProcessScopedClientProxy, CloudKitDaemon.CKDAdopterProcessScopedStateManager, NSDate, NSHashTable, NSMutableDictionary, NSOperationQueue, NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface CKDXPCConnection
 {
     NSXPCConnection *_xpcConnection;
-    NSDate *_connectionDate;
-    CKDProcessScopedClientProxy *_processScopedClientProxy;
-    NSHashTable *_sharedContainers;
-    CloudKitDaemon.CKDAdopterProcessScopedStateManager *_adopterProcessScopedStateManager;
-    NSMutableDictionary *_logicalDeviceScopedClientProxiesByDeviceReference;
-    NSHashTable *_containerProxies;
-    NSOperationQueue *_unlockedSinceBootQueue;
-    NSOperationQueue *_containerAvailableQueue;
 }
 
 - (void);
+- (void)9h;
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)CircularBufferAddScattered;
 - (void);
+- (void);
+- (id);
+- (_Bool)setCountRoamScanThatFoundSSIDTransitionTarget:(unsigned long long)arg1;
+- (id)nStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (void)eads;
+- (id)ilboxURL:] /* Error: Ran out of types for this method. */;
+- (id)attachments table;
+- (void)X;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)tRequestedChangeTypes:(id)arg1;
-- (void)RequestWentOut;
+- (void)__text;
+- (id)setRequestedChangeTypes:(id)arg1;
+- (void)dateRequestWentOut;
 - (id)dle;
 - (void)Ø	;
 - (void)±;
@@ -58,21 +50,6 @@
 - (id)Ê)ØA;
 
 // Remaining properties
-@property(retain, nonatomic) CloudKitDaemon.CKDAdopterProcessScopedStateManager *adopterProcessScopedStateManager; // @synthesize adopterProcessScopedStateManager=_adopterProcessScopedStateManager;
-@property(readonly, nonatomic) NSDate *connectionDate; // @synthesize connectionDate=_connectionDate;
-@property(retain, nonatomic) NSOperationQueue *containerAvailableQueue; // @synthesize containerAvailableQueue=_containerAvailableQueue;
-@property(readonly, nonatomic) NSHashTable *containerProxies; // @synthesize containerProxies=_containerProxies;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *logicalDeviceScopedClientProxiesByDeviceReference; // @synthesize logicalDeviceScopedClientProxiesByDeviceReference=_logicalDeviceScopedClientProxiesByDeviceReference;
-@property(retain, nonatomic) CKDProcessScopedClientProxy *processScopedClientProxy; // @synthesize processScopedClientProxy=_processScopedClientProxy;
-@property(readonly, nonatomic) NSHashTable *sharedContainers; // @synthesize sharedContainers=_sharedContainers;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSOperationQueue *unlockedSinceBootQueue; // @synthesize unlockedSinceBootQueue=_unlockedSinceBootQueue;
 @property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

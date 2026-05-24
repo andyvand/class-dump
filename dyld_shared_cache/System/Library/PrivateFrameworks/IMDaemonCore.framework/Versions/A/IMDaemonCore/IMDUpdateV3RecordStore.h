@@ -13,11 +13,11 @@
 
 - (void);
 - (id);
+- (void)getObjectValue:(unsigned long long)arg1 forString:errorDescription: /* Error: Ran out of types for this method. */;
+- (void)ring;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)à()ÿv;

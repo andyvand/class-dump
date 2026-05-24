@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKUserIdentityLookupInfo, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDShareInvitationContext
 {
     _Bool _shouldGrantWriteAccess;
-    NSUUID *_participantClientIdentifier;
-    CKUserIdentityLookupInfo *_lookupInfo;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)capabilitiesByParticipant;
+- (id)cancelCapabilityLevelRequestForContacts:(id)arg1;
+- (id)canControlReceiving;
+- (id)bookmarksSettingsPath;
+- (id)laceBookmark",&,N,V_placeBookmark;
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)tiuserSettingsMessenger;
+- (id)multiuserSettingsMessenger;
 - (id)to store the assistant sync data posted flag :%@ /* Error: Ran out of types for this method. */;
 - (void)tRouter.Resident.Client.;
 
 // Remaining properties
-@property(readonly, copy) CKUserIdentityLookupInfo *lookupInfo; // @synthesize lookupInfo=_lookupInfo;
 @property(readonly, copy) NSUUID *participantClientIdentifier; // @synthesize participantClientIdentifier=_participantClientIdentifier;
-@property(readonly) _Bool shouldGrantWriteAccess; // @synthesize shouldGrantWriteAccess=_shouldGrantWriteAccess;
 
 @end
 

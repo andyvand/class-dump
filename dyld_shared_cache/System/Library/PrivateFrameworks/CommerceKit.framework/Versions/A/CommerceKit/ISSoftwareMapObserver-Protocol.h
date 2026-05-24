@@ -5,5 +5,6 @@
 //
 
 @protocol ISSoftwareMapObserver
+- (void);
 @end
 

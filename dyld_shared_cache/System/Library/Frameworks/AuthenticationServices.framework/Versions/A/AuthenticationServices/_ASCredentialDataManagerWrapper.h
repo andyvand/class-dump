@@ -13,9 +13,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)startVerificationForRemoteNotificationProviderWithApiURL:websiteIdentifier:queryParameters:referrerURL:requestID: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

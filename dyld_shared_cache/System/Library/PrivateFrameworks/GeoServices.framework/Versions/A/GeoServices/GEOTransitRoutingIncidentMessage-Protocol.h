@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol GEOTransitRoutingIncidentMessage
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *routingMessage;
-@property(readonly, nonatomic) NSArray *transitIncidents;
 @end
 

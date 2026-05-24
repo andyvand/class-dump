@@ -9,7 +9,6 @@
 @interface SecOfferedEPSK
 {
     NSData *_external_identity;
-    NSData *_context;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSData *context; // @synthesize context=_context;
 @property(retain) NSData *external_identity; // @synthesize external_identity=_external_identity;
 
 @end

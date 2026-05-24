@@ -5,5 +5,8 @@
 //
 
 @protocol IMMetricsDataSource
+
+@optional
+- (id);
 @end
 

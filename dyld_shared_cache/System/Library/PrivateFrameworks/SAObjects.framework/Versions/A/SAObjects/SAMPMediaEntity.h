@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSString, SACalendar, SAMPPlaybackInfo;
+@class NSString;
 
 @interface SAMPMediaEntity : SADomainObject
 {
@@ -28,9 +28,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)predicateForKeyPath:withFormat: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)}{;
 - (_Bool);
 - (id);
 - (void);
@@ -40,26 +40,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)6;
 - (void);
-- (void)ess;
+- (void)spokenAddress;
 - (id)(;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *adamIdentifier;
-@property(copy, nonatomic) NSString *brandIdentifier;
-@property(retain, nonatomic) SACalendar *dateAdded;
-@property(nonatomic) _Bool explicit;
-@property(copy, nonatomic) NSString *externalIdentifier;
-@property(nonatomic) _Bool isExplicit;
-@property(copy, nonatomic) NSString *mediaType;
-@property(retain, nonatomic) SAMPPlaybackInfo *playbackInfo;
-@property(copy, nonatomic) NSString *rawPlaybackInfo;
-@property(copy, nonatomic) NSString *releaseDate;
-@property(copy, nonatomic) NSString *sortTitle;
-@property(copy, nonatomic) NSString *storeId;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) _Bool unplayable;
 
 @end
 

@@ -13,13 +13,13 @@
     NSSet *_locationNodes;
 }
 
+- (void);
+- (id);
+- (id)setSelected:(id)arg1 exclusive:(id)arg2;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)HomeYear;
+- (void)FoodieHomeYear;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *locationNodes; // @synthesize locationNodes=_locationNodes;

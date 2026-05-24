@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPBTLETransactionIdentifier, NSData;
-
 __attribute__((visibility("hidden")))
 @interface HAPBTLEControlPacket
 {
     unsigned char _type;
-    _Bool _continuationPacket;
-    HAPBTLETransactionIdentifier *_transactionIdentifier;
-    NSData *_payload;
 }
 
 + (id);
-+ (id);
-- (_Bool);
++ (id)werpoint;
+- (_Bool)/;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned char);
-- (id);
+- (id)ict;
 - (id)0@ù
 × ;
 - (void)APAccessoryServer"16@"NSArray"24@"HMFOSTransaction"32@"NSError"40;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isContinuationPacket) _Bool continuationPacket; // @synthesize continuationPacket=_continuationPacket;
-@property(readonly, copy, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) HAPBTLETransactionIdentifier *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 @property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end

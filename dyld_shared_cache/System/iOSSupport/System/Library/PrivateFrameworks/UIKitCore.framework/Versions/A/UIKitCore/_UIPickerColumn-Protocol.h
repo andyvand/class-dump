@@ -7,7 +7,7 @@
 @class UIView;
 
 @protocol _UIPickerColumn
-- (UIView *)eneActivationWithConfiguration: /* Error: Ran out of types for this method. */;
+- (UIView *)_canAnimateSceneActivationWithConfiguration: /* Error: Ran out of types for this method. */;
 - (UIView *);
 
 // Remaining properties

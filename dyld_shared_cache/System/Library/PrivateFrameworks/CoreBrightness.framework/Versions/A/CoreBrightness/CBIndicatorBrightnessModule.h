@@ -6,78 +6,30 @@
 
 #import <CoreBrightness/CBModule.h>
 
-@class CBFrameInfoProvider, CBIndicatorAnalyticsModule, CBStopsBasedBrightnessRamp, NSMutableArray, NSObject, NSString;
-@protocol OS_os_log;
-
 __attribute__((visibility("hidden")))
 @interface CBIndicatorBrightnessModule : CBModule
 {
     CDUnknownBlockType _notificationBlock;
-    NSObject<OS_os_log> *_logHandle;
-    float _minBrightness;
-    float _maxBrightness;
-    float _maxContrastBoostedBrightness;
-    float _sdrBrightness;
-    float _lux;
-    float _contentHeadroom;
-    _Bool _hdrContent;
-    struct {
-        float maxContrastBoostedBrightness;
-        float sdrBrightness;
-        float appliedHeadroom;
-        float minimumIndicatorBrightness;
-        float lux;
-        float contentHeadroom;
-        struct {
-            float cap;
-            _Bool applied;
-        } rtplc;
-        _Bool silEnabled;
-        _Bool dirty;
-    } _nextUpdate;
-    float _currentIndicatorBrightness;
-    float _mib;
-    float _mibCompensationFactor;
-    float _targetIndicatorBrightness;
-    _Bool _jumpOnRestart;
-    _Bool _firstMIBReceived;
-    float _lastAppliedDimmingFactor;
-    float _rampSpeed;
-    CBStopsBasedBrightnessRamp *_ramp;
-    CDUnknownFunctionPointerType _currentTimeFunction;
-    _Bool _forcedBrightnessUpdate;
-    float _lastReportedUIBrightness;
-    float _lastSILOnTimestampUs;
-    float _lastSILOffTimestampUs;
-    NSMutableArray *_mibServices;
-    CBFrameInfoProvider *_frameInfoProvider;
-    float _rtplcCap;
-    _Bool _rtplcApplied;
-    _Bool _rtplcMonitoring;
-    _Bool _enforceMIB;
-    _Bool _contrastIndicatorEnabled;
-    _Bool _indicatorBrightnessFollowsMIB;
-    _Bool _aodOn;
-    CBIndicatorAnalyticsModule *_mibAnalytics;
 }
 
 - (void);
 - (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)1
+@91;
+- (void);
+- (void);
+- (void)Q;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)R;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -98,14 +50,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (float);
+- (float)T5;
+- (_Bool);
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)RGBIRStereoFusionMaxDepthThreshold;
 - (void);
 - (_Bool);
 - (void);
@@ -114,13 +66,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

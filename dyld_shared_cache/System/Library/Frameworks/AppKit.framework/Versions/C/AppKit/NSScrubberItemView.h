@@ -6,60 +6,56 @@
 
 #import <AppKit/NSScrubberArrangedView.h>
 
-@class CALayer, NSScrubberSelectionView;
+@class NSScrubberSelectionView;
 
 @interface NSScrubberItemView : NSScrubberArrangedView
 {
     id _background;
-    id _foreground;
-    id _maskOne;
-    id _maskTwo;
-    unsigned int _edge:2;
 }
 
-+ (id);
-+ (id);
++ (id)file:%@ /* Error: Ran out of types for this method. */;
++ (id)framework/Versions/A/InternationalSupport;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)D);
 - (id);
 - (id);
 - (id);
+- (id)sortedCookiesUsingDescriptors: /* Error: Ran out of types for this method. */;
+- (id)set_usesNWLoader: /* Error: Ran out of types for this method. */;
+- (long long)set_tlsSessionCachePrefix: /* Error: Ran out of types for this method. */;
+- (void)set_preventsIdleSleep:(id)arg1;
+- (_Bool)setTotalUnitCount: /* Error: Ran out of types for this method. */;
+- (id)setObject:forKey: /* Error: Ran out of types for this method. */;
+- (id)responseStartDate;
+- (id)responseBody;
+- (id)requestWithURL:cachePolicy:timeoutInterval: /* Error: Ran out of types for this method. */;
+- (void)_discretionaryOverrride;
+- (void);
+- (void)_ZN5STube26_onqueue_notifyTubeManagerE13CFStreamError;
+- (void);
+- (void);
+- (_Bool)isWebSearchContent;
+- (void)d)d8dff
+ffff)f8fgg
+gggg)g8ghh
+hhhh)h8hllmmnnpprruu;
+- (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)eyEquivalentForItem:(struct CGRect)arg1 withFont:keStringPointer: /* Error: Ran out of types for this method. */;
+- (void)@;
+- (id)measureKeyEquivalentForItem:(struct CGRect)arg1 withFont:keStringPointer: /* Error: Ran out of types for this method. */;
 - (void)ì©;
 
 // Remaining properties
-@property(retain) CALayer *leftMaskLayer; // @synthesize leftMaskLayer=_maskOne;
-@property(retain) CALayer *rightMaskLayer; // @synthesize rightMaskLayer=_maskTwo;
 @property(retain) NSScrubberSelectionView *selectionBackgroundView; // @synthesize selectionBackgroundView=_background;
-@property(retain) NSScrubberSelectionView *selectionOverlayView; // @synthesize selectionOverlayView=_foreground;
 
 @end
 

@@ -4,60 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface IMSPIAttachment
 {
     _Bool _isSticker;
-    _Bool _isOutgoing;
-    NSURL *_fileUrl;
-    long long _fileTransferState;
-    NSString *_guid;
-    NSString *_uti;
-    NSDictionary *_stickerUserInfo;
-    NSDictionary *_attributionInfo;
-    NSDate *_creationDate;
-    NSString *_adaptiveImageGlyphContentIdentifier;
-    NSString *_adaptiveImageGlyphContentDescription;
 }
 
-- (void);
-- (void);
-- (id);
-- (long long);
+- (void)ant %s.;
+- (void)ate rate controller audio config;
+- (id)settings %dx%d@%dfps;
+- (long long)r [%s] %s:%d Queue Steering:Failed to steer queue in direction %d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)5;
 - (id);
 - (id);
-- (id);
+- (id)y,2;
 - (id);
 - (void);
-- (id);
+- (id)setVerticallyAlignedSelectionKeys;
 - (_Bool);
 - (void);
+- (id)2;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)ties: /* Error: Ran out of types for this method. */;
+- (id)fileTransfer:rejectedWithProperties: /* Error: Ran out of types for this method. */;
 - (void)p;
 - (void)X;
 
 // Remaining properties
-@property(readonly) NSString *adaptiveImageGlyphContentDescription; // @synthesize adaptiveImageGlyphContentDescription=_adaptiveImageGlyphContentDescription;
-@property(readonly) NSString *adaptiveImageGlyphContentIdentifier; // @synthesize adaptiveImageGlyphContentIdentifier=_adaptiveImageGlyphContentIdentifier;
-@property(retain) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;
-@property(readonly) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property long long fileTransferState; // @synthesize fileTransferState=_fileTransferState;
-@property(retain) NSURL *fileUrl; // @synthesize fileUrl=_fileUrl;
 @property(retain) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) _Bool isAdaptiveImageGlyph;
-@property _Bool isOutgoing; // @synthesize isOutgoing=_isOutgoing;
-@property _Bool isSticker; // @synthesize isSticker=_isSticker;
-@property(readonly) NSDictionary *stickerUserInfo; // @synthesize stickerUserInfo=_stickerUserInfo;
-@property(retain) NSString *uti; // @synthesize uti=_uti;
 
 @end
 

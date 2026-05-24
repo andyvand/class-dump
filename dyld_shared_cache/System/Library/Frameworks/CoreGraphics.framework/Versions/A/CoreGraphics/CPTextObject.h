@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPTextObject : CPChunk
 {
     struct CGPoint anchor;
-    _Bool metricInfoCalculated;
-    float maxFontSize;
-    double maxFontLineHeight;
 }
 
 - (void);

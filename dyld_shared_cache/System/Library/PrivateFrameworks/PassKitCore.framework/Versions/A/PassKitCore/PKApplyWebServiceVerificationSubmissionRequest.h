@@ -6,17 +6,11 @@
 
 #import <PassKitCore/PKApplyWebServiceRequest.h>
 
-@class NSString, NSURL, PKApplyVerificationInformation;
+@class NSString;
 
 @interface PKApplyWebServiceVerificationSubmissionRequest : PKApplyWebServiceRequest
 {
     NSString *_applicationIdentifier;
-    unsigned long long _featureIdentifier;
-    NSURL *_baseURL;
-    PKApplyVerificationInformation *_verificationInfo;
-    unsigned long long _verificationType;
-    NSString *_odiAssessment;
-    long long _channel;
 }
 
 + (_Bool)î%Ð1Â0@ù
@@ -30,11 +24,11 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)U;
 - (void);
 - (long long);
 - (unsigned long long);
-- (id)ttedValue;
+- (id)_unformattedValue;
 - (void)sync;
 - (void)ÿ©ÛLwÿ;
 - (id)P¦ÿþhtÜ;
@@ -42,12 +36,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(nonatomic) long long channel; // @synthesize channel=_channel;
-@property(nonatomic) unsigned long long featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
-@property(copy, nonatomic) NSString *odiAssessment; // @synthesize odiAssessment=_odiAssessment;
-@property(retain, nonatomic) PKApplyVerificationInformation *verificationInfo; // @synthesize verificationInfo=_verificationInfo;
-@property(nonatomic) unsigned long long verificationType; // @synthesize verificationType=_verificationType;
 
 @end
 

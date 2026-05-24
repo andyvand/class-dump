@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_cachedEvents;
 }
 
-+ (Class);
++ (Class)sResumingFullAnalysis: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)[;
+- (void)$;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void)
 × ;
-- (id);
+- (id)logDebugStates;
 - (id)tupErrorDomain_HH2;
 - (void)orted Thread router or Thread credentials not found;
 

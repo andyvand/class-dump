@@ -6,16 +6,11 @@
 
 #import <TemplateKit/TLKSButton.h>
 
-@class NSView, TLKLabel, TLKProminenceView, TLKRichText;
+@class TLKLabel;
 
 @interface TLKStoreButton : TLKSButton
 {
     _Bool _useCompactMode;
-    _Bool _isEmphasized;
-    TLKRichText *_richTitle;
-    TLKLabel *_label;
-    NSView *_backgroundView;
-    TLKProminenceView *_highlightView;
 }
 
 + (Class);
@@ -25,7 +20,7 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (_Bool);
+- (_Bool)la;
 - (id);
 - (id);
 - (void);
@@ -38,12 +33,12 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)@j;
 - (id);
 - (void);
-- (double);
+- (double);
 - (id);
-- (id);
+- (id)ication.settings;
 - (void);
 - (void);
 - (void);
@@ -52,13 +47,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(nonatomic) double cornerRadius;
-@property(retain) TLKProminenceView *highlightView; // @synthesize highlightView=_highlightView;
-@property _Bool isEmphasized; // @synthesize isEmphasized=_isEmphasized;
 @property(retain) TLKLabel *label; // @synthesize label=_label;
-@property(copy, nonatomic) TLKRichText *richTitle; // @synthesize richTitle=_richTitle;
-@property(nonatomic) _Bool useCompactMode; // @synthesize useCompactMode=_useCompactMode;
 
 @end
 

@@ -9,14 +9,12 @@
 @interface IKSlideshowItemLoadThumbnailOperation
 {
     IKSlideshowElement *_item;
-    unsigned long long _currentCount;
-    _Bool _display;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)TRIFactorProviderIdent;
 - (void);
 - (void)à;
 

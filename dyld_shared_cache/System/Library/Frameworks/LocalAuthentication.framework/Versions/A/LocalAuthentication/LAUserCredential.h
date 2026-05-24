@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAUserPassword, NSUUID;
+@class LAUserPassword;
 
 @interface LAUserCredential
 {
     id properties;
-    LAUserPassword *password;
 }
 
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)!;
+- (void)(;
+- (id)JA;
+- (id)MapItemList;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) LAUserPassword *password; // @synthesize password;
-@property(nonatomic, readonly) NSUUID *uuid;
 
 @end
 

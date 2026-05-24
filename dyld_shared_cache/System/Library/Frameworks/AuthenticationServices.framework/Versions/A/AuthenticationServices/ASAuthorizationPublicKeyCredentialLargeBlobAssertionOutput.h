@@ -9,21 +9,19 @@
 @interface ASAuthorizationPublicKeyCredentialLargeBlobAssertionOutput
 {
     _Bool _didWrite;
-    NSData *_readData;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)framework/Versions/A/CoreServices;
+- (id)h;
+- (void)P;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didWrite; // @synthesize didWrite=_didWrite;
 @property(readonly, nonatomic) NSData *readData; // @synthesize readData=_readData;
 
 @end

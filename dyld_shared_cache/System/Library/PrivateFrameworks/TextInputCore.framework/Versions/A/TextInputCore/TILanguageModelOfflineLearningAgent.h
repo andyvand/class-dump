@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TILanguageModelOfflineLearningTask;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TILanguageModelOfflineLearningAgent
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    TILanguageModelOfflineLearningTask *_currentLearningTask;
 }
 
 + (id);
 + (void);
 + (id);
+- (void)activateWithCompletion:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)TTYSoftwareEnabledPreference;
+- (id)F>;
 - (_Bool);
 - (id);
-- (id);
+- (id)h^@9	;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) TILanguageModelOfflineLearningTask *currentLearningTask; // @synthesize currentLearningTask=_currentLearningTask;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
 
 @end

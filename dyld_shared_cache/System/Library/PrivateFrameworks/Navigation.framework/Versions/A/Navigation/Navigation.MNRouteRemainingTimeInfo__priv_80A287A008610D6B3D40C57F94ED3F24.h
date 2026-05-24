@@ -7,14 +7,6 @@
 @interface Navigation.MNRouteRemainingTimeInfo__priv_80A287A008610D6B3D40C57F94ED3F24
 {
     id routeInfo;
-    id isCurrentRoute;
-    id _targetArrivalDate;
-    id _stabilizeETA;
-    id _enableLogging;
-    id $__lazy_storage_$__routeMatcher;
-    id $__lazy_storage_$_dateFormatter;
-    id $__lazy_storage_$_dateComponentsFormatter;
-    id $__lazy_storage_$_dateComponentsFormatterWithSeconds;
 }
 
 @end

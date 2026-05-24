@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CHSReaperResult
 {
     NSArray *_proposedURLs;
-    NSArray *_protectedURLs;
-    NSArray *_deletedURLs;
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)setCategoryIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -26,16 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSArray *deletedURLs; // @synthesize deletedURLs=_deletedURLs;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSArray *proposedURLs; // @synthesize proposedURLs=_proposedURLs;
-@property(readonly, copy, nonatomic) NSArray *protectedURLs; // @synthesize protectedURLs=_protectedURLs;
-@property(readonly) Class superclass;
 
 @end
 

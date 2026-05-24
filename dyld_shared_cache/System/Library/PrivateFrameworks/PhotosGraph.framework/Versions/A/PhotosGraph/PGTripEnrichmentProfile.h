@@ -12,7 +12,7 @@
 
 - (id);
 - (double);
-- (id);
+- (id)_horizontallyOrderedChildControllers;
 - (_Bool);
 - (id);
 

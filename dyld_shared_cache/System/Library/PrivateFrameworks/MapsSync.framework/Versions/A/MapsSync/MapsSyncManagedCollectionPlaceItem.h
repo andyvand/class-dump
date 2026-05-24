@@ -6,7 +6,7 @@
 
 #import <MapsSync/MapsSyncManagedCollectionItem.h>
 
-@class MapsSyncManagedMixinMapItem, NSData, NSDate, NSNumber, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedCollectionPlaceItem : MapsSyncManagedCollectionItem
@@ -18,20 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSString *customName; // @dynamic customName;
-@property(nonatomic, copy) NSData *droppedPinCoordinate; // @dynamic droppedPinCoordinate;
-@property(nonatomic) int droppedPinFloorOrdinal; // @dynamic droppedPinFloorOrdinal;
-@property(nonatomic, retain) NSNumber *latitude; // @dynamic latitude;
-@property(nonatomic, retain) NSNumber *longitude; // @dynamic longitude;
-@property(nonatomic, retain) MapsSyncManagedMixinMapItem *mapItem; // @dynamic mapItem;
-@property(nonatomic, copy) NSString *mapItemAddress; // @dynamic mapItemAddress;
-@property(nonatomic, copy) NSString *mapItemCategory; // @dynamic mapItemCategory;
-@property(nonatomic, copy) NSDate *mapItemLastRefreshed; // @dynamic mapItemLastRefreshed;
-@property(nonatomic, copy) NSString *mapItemName; // @dynamic mapItemName;
-@property(nonatomic, retain) NSNumber *muid; // @dynamic muid;
-@property(nonatomic) short origin; // @dynamic origin;
-@property(nonatomic, copy) NSUUID *originalIdentifier; // @dynamic originalIdentifier;
-@property(nonatomic, copy) NSString *placeItemNote; // @dynamic placeItemNote;
-@property(nonatomic) short type; // @dynamic type;
 
 @end
 

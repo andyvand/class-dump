@@ -7,13 +7,6 @@
 @interface RemindersUICore.TTRMRemindersListEditableSectionNamePresenter
 {
     id delegate;
-    id hostCell;
-    id moduleDelegate;
-    id viewModel;
-    id interactor;
-    id router;
-    id editingPresenter;
-    id listLayout;
 }
 
 @end

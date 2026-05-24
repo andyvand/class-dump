@@ -8,7 +8,6 @@
 {
     unsigned long long ds_type;
     void *data;
-    unsigned long long size;
 }
 
 - (void);

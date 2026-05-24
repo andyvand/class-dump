@@ -6,25 +6,21 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class MTL4BinaryFunctionReflection, MTLDebugInstrumentationData, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface _MTL4BinaryFunction : _MTLObjectWithLabel
 {
     NSArray *_relocations;
-    NSString *_name;
-    MTLDebugInstrumentationData *debugInstrumentationData;
-    MTL4BinaryFunctionReflection *_reflection;
-    unsigned long long _functionType;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)@y-;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)ideographiclowcircle;
 - (id);
 - (id);
 - (id)@ù
@@ -32,18 +28,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData; // @synthesize debugInstrumentationData;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long functionType; // @synthesize functionType=_functionType;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) MTL4BinaryFunctionReflection *reflection; // @synthesize reflection=_reflection;
-@property(copy, nonatomic) NSArray *relocations;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSProgress, NSString, PXExpectation, PXFlexMusicAsset;
-@protocol OS_dispatch_queue;
-
 @interface PXFlexMusicDownloader
 {
     CDUnknownBlockType _queue_completionHandler;
-    _Bool _queue_isFinished;
-    NSObject<OS_dispatch_queue> *_queue;
-    PXExpectation *_queue_downloadExpectation;
-    long long _downloadSignpostID;
-    NSProgress *_progress;
-    PXFlexMusicAsset *_asset;
-    long long _resource;
-    double _downloadFractionCompleted;
 }
 
 - (void);
@@ -35,20 +24,10 @@
 - (id)est %lu for %@ ( inflight %lu ). Finished thumbnail request IDs:%@ /* Error: Ran out of types for this method. */;
 - (id)Timeline:%@> /* Error: Ran out of types for this method. */;
 - (void);
-- (void)cChooser;
+- (void)ImageRequestOpportunisticChooser;
 
 // Remaining properties
-@property(readonly, nonatomic) PXFlexMusicAsset *asset; // @synthesize asset=_asset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double downloadFractionCompleted; // @synthesize downloadFractionCompleted=_downloadFractionCompleted;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) long long resource; // @synthesize resource=_resource;
-@property(readonly) Class superclass;
 
 @end
 

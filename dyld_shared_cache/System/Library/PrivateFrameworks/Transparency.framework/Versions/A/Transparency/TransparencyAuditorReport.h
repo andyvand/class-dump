@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TransparencyAuditorReport
 {
     long long _auditorId;
@@ -13,7 +11,7 @@
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -22,7 +20,6 @@
 
 // Remaining properties
 @property long long auditorId; // @synthesize auditorId=_auditorId;
-@property(readonly) NSString *auditorName;
 
 @end
 

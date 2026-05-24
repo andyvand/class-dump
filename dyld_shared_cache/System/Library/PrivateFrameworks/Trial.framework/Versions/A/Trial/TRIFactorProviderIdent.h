@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TRIFactorProviderIdent
 {
     unsigned char _type;
-    NSString *_value;
 }
 
 + (id);
@@ -17,12 +14,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (unsigned char);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (id);
 - (id);
@@ -31,7 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

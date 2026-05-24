@@ -11,13 +11,6 @@
 @interface DGShadowHighlightOperation : DGOperation
 {
     int _legacyVersion;
-    NSNumber *_inputHighlightAmount;
-    NSNumber *_inputShadowAmount;
-    NSNumber *_inputRadius;
-    NSNumber *_inputColorCorrection;
-    NSNumber *_inputHighlightTonalWidth;
-    NSNumber *_inputMidtoneContrast;
-    NSNumber *_inputShadowTonalWidth;
 }
 
 + (id);
@@ -26,7 +19,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -43,18 +36,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_saveEditsOnAsset:(id)arg1 contentEditingInput:compositionController:onlyChangingOriginalChoice:forceSynchronous:queue:completion: /* Error: Ran out of types for this method. */;
 - (id)H@;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputColorCorrection; // @synthesize inputColorCorrection=_inputColorCorrection;
 @property(copy, nonatomic) NSNumber *inputHighlightAmount; // @synthesize inputHighlightAmount=_inputHighlightAmount;
-@property(copy, nonatomic) NSNumber *inputHighlightTonalWidth; // @synthesize inputHighlightTonalWidth=_inputHighlightTonalWidth;
-@property(copy, nonatomic) NSNumber *inputMidtoneContrast; // @synthesize inputMidtoneContrast=_inputMidtoneContrast;
-@property(copy, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius=_inputRadius;
-@property(copy, nonatomic) NSNumber *inputShadowAmount; // @synthesize inputShadowAmount=_inputShadowAmount;
-@property int inputShadowHighlightLegacyVersion; // @synthesize inputShadowHighlightLegacyVersion=_legacyVersion;
-@property(copy, nonatomic) NSNumber *inputShadowTonalWidth; // @synthesize inputShadowTonalWidth=_inputShadowTonalWidth;
 
 @end
 

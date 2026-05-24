@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIColor;
+
 @protocol _UILabelVisualStyleSubject
+- (void)setIsManaged:(UIColor *)arg1;
 - (void);
 @end
 

@@ -6,23 +6,9 @@
 
 #import <GameController/GCDeviceElementDescription.h>
 
-@class NSSet, NSString;
-
 @interface GCDeviceDirectionPadDescription : GCDeviceElementDescription
 {
     unsigned long long _attributes;
-    unsigned long long _sourceAttributes;
-    float _sourcePressedThreshold;
-    NSString *_name;
-    NSSet *_additionalAliases;
-    NSString *_nameLocalizationKey;
-    NSString *_symbolName;
-    NSString *_sourceNameLocalizationKey;
-    NSString *_sourceSymbolName;
-    unsigned long long _sourceUpExtendedEventFieldIndex;
-    unsigned long long _sourceDownExtendedEventFieldIndex;
-    unsigned long long _sourceLeftExtendedEventFieldIndex;
-    unsigned long long _sourceRightExtendedEventFieldIndex;
 }
 
 + (_Bool);
@@ -40,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -50,13 +36,6 @@
 
 // Remaining properties
 @property(readonly, getter=isDigital) _Bool digital;
-@property(readonly) unsigned long long sourceDownExtendedEventFieldIndex; // @synthesize sourceDownExtendedEventFieldIndex=_sourceDownExtendedEventFieldIndex;
-@property(readonly) unsigned long long sourceLeftExtendedEventFieldIndex; // @synthesize sourceLeftExtendedEventFieldIndex=_sourceLeftExtendedEventFieldIndex;
-@property(readonly) NSString *sourceNameLocalizationKey; // @synthesize sourceNameLocalizationKey=_sourceNameLocalizationKey;
-@property(readonly) float sourcePressedThreshold; // @synthesize sourcePressedThreshold=_sourcePressedThreshold;
-@property(readonly) unsigned long long sourceRightExtendedEventFieldIndex; // @synthesize sourceRightExtendedEventFieldIndex=_sourceRightExtendedEventFieldIndex;
-@property(readonly) NSString *sourceSymbolName; // @synthesize sourceSymbolName=_sourceSymbolName;
-@property(readonly) unsigned long long sourceUpExtendedEventFieldIndex; // @synthesize sourceUpExtendedEventFieldIndex=_sourceUpExtendedEventFieldIndex;
 
 @end
 

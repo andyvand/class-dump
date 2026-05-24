@@ -4,45 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStructuredAddress, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOAddress
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_formattedAddressLines;
-    GEOStructuredAddress *_structuredAddress;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _formattedAddressType;
-    struct {
-        unsigned int has_formattedAddressType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_formattedAddressLines:1;
-        unsigned int read_structuredAddress:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)HasMapsSuggestionsContactRevelanceScore:(id)arg1;
-+ (Class)thRoute:range:desiredElevationModel: /* Error: Ran out of types for this method. */;
-+ (id)erimentIdentifier:(id)arg1;
++ (_Bool)setHasMapsSuggestionsContactRevelanceScore:(id)arg1;
++ (Class)initWithRoute:range:desiredElevationModel: /* Error: Ran out of types for this method. */;
++ (id)initWithLabel:(id)arg1 name:experimentIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *formattedAddressLines;
-@property(nonatomic) int formattedAddressType;
-@property(nonatomic) _Bool hasFormattedAddressType;
-@property(readonly, nonatomic) _Bool hasStructuredAddress;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOStructuredAddress *structuredAddress;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

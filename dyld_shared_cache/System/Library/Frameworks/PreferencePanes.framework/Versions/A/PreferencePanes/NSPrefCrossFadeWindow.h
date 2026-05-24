@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSPrefCrossFadeWindowMoveHelper;
+@class NSMutableArray;
 
 @interface NSPrefCrossFadeWindow
 {
     NSMutableArray *mAnimatedViews;
-    NSPrefCrossFadeWindowMoveHelper *mMoveHelper;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)retain;
 - (double);
 - (void);
 

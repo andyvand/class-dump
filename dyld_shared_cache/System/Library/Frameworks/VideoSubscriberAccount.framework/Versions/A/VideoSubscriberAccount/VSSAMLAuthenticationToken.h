@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSData;
 
 @interface VSSAMLAuthenticationToken
 {
     NSData *_serializedData;
-    NSDate *_simulatedExpirationDate;
 }
 
 - (id);
@@ -18,29 +17,19 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)NSt3__120__shared_ptr_emplaceIZL10MakeSharedI34TCoalescingNodeObserverCocoaBridgeJRU8__strongP19FI_TTagInfoRegistryEENS_10shared_ptrIT_EEDpOT0_E19MakeInstanceEnablerNS_9allocatorISD_EEEE;
+- (void)vJEEE;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool));
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *body;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDate *expirationDate;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSData *serializedData; // @synthesize serializedData=_serializedData;
-@property(retain, nonatomic) NSDate *simulatedExpirationDate; // @synthesize simulatedExpirationDate=_simulatedExpirationDate;
-@property(readonly) Class superclass;
 
 @end
 

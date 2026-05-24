@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatDebuggerWorkspaceStackEntry
 {
     id workspaceFrame;
-    id selectedWorkspaceFrame;
 }
 
 @end

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAcceptedContactsChangeNotifier, NSCache, NSData, NSObject, NSString;
-@protocol IMDCNContactStore, IMDIndexingQueries, OS_dispatch_queue;
+@class NSData;
+@protocol IMDCNContactStore;
 
 @interface IMDContactCache
 {
     NSData *_currentHistoryToken;
-    id <IMDCNContactStore> _contactStore;
-    id <IMDIndexingQueries> _indexingProvider;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _fullChangeBlock;
-    NSCache *_cache;
-    NSCache *_fullNameCache;
-    IMAcceptedContactsChangeNotifier *_acceptedContactsChangeNotifier;
 }
 
 + (id)finished == 1 AND m.is_from_me == 0 ;
@@ -38,9 +31,9 @@
 - (id);
 - (id);
 - (id);
+- (void)0;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -51,36 +44,22 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void)collectionView:(id)arg1 acceptDrop:indexPath:dropOperation: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)A;
 - (void);
 - (id);
+- (id)e daily file count limit.;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void)ct:(id)arg1;
+- (void)__fullNameForContact:(id)arg1;
 - (void);
 - (id)d index:%@ /* Error: Ran out of types for this method. */;
 - (id)ÌÌ;
 
 // Remaining properties
-@property(retain, nonatomic) IMAcceptedContactsChangeNotifier *acceptedContactsChangeNotifier; // @synthesize acceptedContactsChangeNotifier=_acceptedContactsChangeNotifier;
-@property(retain, nonatomic) NSCache *cache; // @synthesize cache=_cache;
 @property(readonly, nonatomic) id <IMDCNContactStore> contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType fullChangeBlock; // @synthesize fullChangeBlock=_fullChangeBlock;
-@property(retain, nonatomic) NSCache *fullNameCache; // @synthesize fullNameCache=_fullNameCache;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <IMDIndexingQueries> indexingProvider; // @synthesize indexingProvider=_indexingProvider;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

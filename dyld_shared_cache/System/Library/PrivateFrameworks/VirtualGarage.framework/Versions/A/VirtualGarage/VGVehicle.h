@@ -4,48 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSSet, NSString, VGVehicleState;
+@class NSString;
 
 @interface VGVehicle
 {
     _Bool _usesPreferredNetworksForRouting;
-    NSString *_identifier;
-    NSDate *_creationDate;
-    NSDate *_lastStateUpdateDate;
-    NSString *_displayName;
-    NSString *_year;
-    NSString *_manufacturer;
-    NSString *_model;
-    NSString *_colorHex;
-    NSString *_headUnitBluetoothIdentifier;
-    NSString *_headUnitIdentifier;
-    NSString *_licensePlate;
-    NSString *_lprVehicleType;
-    NSString *_lprPowerType;
-    unsigned long long _supportedConnectors;
-    NSDictionary *_powerByConnector;
-    NSSet *_preferredChargingNetworks;
-    VGVehicleState *_currentVehicleState;
-    NSString *_pairedAppIdentifier;
-    NSString *_iapIdentifier;
-    NSString *_siriIntentsIdentifier;
-    NSString *_pairedAppInstallDeviceIdentifier;
-    NSData *_pairedAppInstallSessionIdentifier;
 }
 
 + (_Bool);
 - (unsigned long long);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -58,12 +36,12 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)kb;
 - (unsigned long long);
 - (id);
 - (id);
@@ -85,38 +63,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_category;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)VehicleState;
+- (id)VGVehicleState;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *colorHex; // @synthesize colorHex=_colorHex;
-@property(readonly, copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) VGVehicleState *currentVehicleState; // @synthesize currentVehicleState=_currentVehicleState;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *headUnitBluetoothIdentifier; // @synthesize headUnitBluetoothIdentifier=_headUnitBluetoothIdentifier;
-@property(readonly, copy, nonatomic) NSString *headUnitIdentifier; // @synthesize headUnitIdentifier=_headUnitIdentifier;
-@property(retain, nonatomic) NSString *iapIdentifier; // @synthesize iapIdentifier=_iapIdentifier;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isPureElectricVehicle;
-@property(readonly, copy, nonatomic) NSDate *lastStateUpdateDate; // @synthesize lastStateUpdateDate=_lastStateUpdateDate;
-@property(copy, nonatomic) NSString *licensePlate; // @synthesize licensePlate=_licensePlate;
-@property(copy, nonatomic) NSString *lprPowerType; // @synthesize lprPowerType=_lprPowerType;
-@property(copy, nonatomic) NSString *lprVehicleType; // @synthesize lprVehicleType=_lprVehicleType;
-@property(readonly, copy, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(readonly, copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(retain, nonatomic) NSString *pairedAppIdentifier; // @synthesize pairedAppIdentifier=_pairedAppIdentifier;
 @property(retain, nonatomic) NSString *pairedAppInstallDeviceIdentifier; // @synthesize pairedAppInstallDeviceIdentifier=_pairedAppInstallDeviceIdentifier;
-@property(retain, nonatomic) NSData *pairedAppInstallSessionIdentifier; // @synthesize pairedAppInstallSessionIdentifier=_pairedAppInstallSessionIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *powerByConnector; // @synthesize powerByConnector=_powerByConnector;
-@property(retain, nonatomic) NSSet *preferredChargingNetworks; // @synthesize preferredChargingNetworks=_preferredChargingNetworks;
-@property(retain, nonatomic) NSString *siriIntentsIdentifier; // @synthesize siriIntentsIdentifier=_siriIntentsIdentifier;
-@property(nonatomic) unsigned long long supportedConnectors; // @synthesize supportedConnectors=_supportedConnectors;
-@property(nonatomic) _Bool usesPreferredNetworksForRouting; // @synthesize usesPreferredNetworksForRouting=_usesPreferredNetworksForRouting;
-@property(readonly, copy, nonatomic) NSString *year; // @synthesize year=_year;
 
 @end
 

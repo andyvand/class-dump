@@ -7,10 +7,6 @@
 @interface NewsUI2.HistoryFeedRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id contextBuilder;
-    id navigator;
 }
 
 @end

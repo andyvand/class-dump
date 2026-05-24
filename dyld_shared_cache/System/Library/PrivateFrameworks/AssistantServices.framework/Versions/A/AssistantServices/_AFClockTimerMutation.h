@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFClockTimer, NSDate, NSString, NSURL, NSUUID;
+@class AFClockTimer;
 
 @interface _AFClockTimerMutation
 {
     AFClockTimer *_base;
-    NSUUID *_timerID;
-    NSURL *_timerURL;
-    _Bool _isFiring;
-    NSString *_title;
-    long long _state;
-    double _duration;
-    long long _type;
-    double _fireTimeInterval;
-    NSDate *_fireDate;
-    NSDate *_firedDate;
-    NSDate *_dismissedDate;
-    NSDate *_lastModifiedDate;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasTimerID:1;
-        unsigned int hasTimerURL:1;
-        unsigned int hasIsFiring:1;
-        unsigned int hasTitle:1;
-        unsigned int hasState:1;
-        unsigned int hasDuration:1;
-        unsigned int hasType:1;
-        unsigned int hasFireTimeInterval:1;
-        unsigned int hasFireDate:1;
-        unsigned int hasFiredDate:1;
-        unsigned int hasDismissedDate:1;
-        unsigned int hasLastModifiedDate:1;
-    } _mutationFlags;
 }
 
 - (id);
@@ -48,34 +21,28 @@
 - (_Bool);
 - (void);
 - (double);
-- (void);
+- (void)setTag:(id)arg1;
 - (id);
 - (_Bool);
+- (void):(id)arg1 %@;
+- (void);
+- (double)kc;
 - (void);
 - (void);
-- (double);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id)ù
 × ;
 - (id)xBù±n&Ð1Â0@ù
 × ;
-- (id)peakableIdentifier;
-- (long long)ictationSecureTouchEnabled;
-- (void)sDucking;
+- (id)speakableIdentifier;
+- (long long)isDictationSecureTouchEnabled;
+- (void)_isDucking;
 - (long long). Skipping.;
 - (void)ayAllRecordedViews:(_Bool)arg1 with:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

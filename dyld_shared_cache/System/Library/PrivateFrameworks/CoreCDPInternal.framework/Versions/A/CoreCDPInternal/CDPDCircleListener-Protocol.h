@@ -5,5 +5,7 @@
 //
 
 @protocol CDPDCircleListener
+- (void)WBSCompletionListRankingObserverDelegate;
+- (void)SearchUICommandDelegate;
 @end
 

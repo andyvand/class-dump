@@ -4,51 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPeoplePickerView, NSArray, NSPopUpButton, NSString, NSTextField, NSView, NSWindow;
+@class NSTextField, NSWindow;
 
 @interface ABDistributionListController
 {
     NSWindow *window;
-    NSPopUpButton *labelPopUp;
-    ABPeoplePickerView *peoplePickerView;
-    NSView *accessoryView;
-    NSTextField *_informativeText;
-    NSString *_property;
-    NSArray *_labels;
 }
 
 + (id);
 + (void);
 - (void);
 - (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)_t *);
 - (void)!DEùª°1Â0@ù
 × ;
-- (void)ngeTextInRanges:(id)arg1 replacementStrings: /* Error: Ran out of types for this method. */;
+- (void)textView:(id)arg1 shouldChangeTextInRanges:replacementStrings: /* Error: Ran out of types for this method. */;
 - (void)pdatedStyle;
 - (_Bool)ÿÿø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak NSTextField *informativeText; // @synthesize informativeText=_informativeText;
-@property(readonly) Class superclass;
 
 @end
 

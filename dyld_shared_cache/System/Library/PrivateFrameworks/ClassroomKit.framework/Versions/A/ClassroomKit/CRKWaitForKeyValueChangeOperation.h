@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet;
+@class NSObject;
 
 @interface CRKWaitForKeyValueChangeOperation
 {
     _Bool _observing;
-    NSObject *_object;
-    NSSet *_keyPaths;
-    CDUnknownBlockType _conditionEvaluator;
 }
 
 - (void);
@@ -24,17 +21,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)setAllowCarPlayApps: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (_Bool)ty.m;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType conditionEvaluator; // @synthesize conditionEvaluator=_conditionEvaluator;
-@property(readonly, copy, nonatomic) NSSet *keyPaths; // @synthesize keyPaths=_keyPaths;
 @property(readonly, nonatomic) NSObject *object; // @synthesize object=_object;
-@property(nonatomic, getter=isObserving) _Bool observing; // @synthesize observing=_observing;
 
 @end
 

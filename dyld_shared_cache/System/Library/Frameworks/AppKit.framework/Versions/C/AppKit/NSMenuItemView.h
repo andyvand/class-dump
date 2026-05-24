@@ -6,20 +6,15 @@
 
 #import <AppKit/NSView.h>
 
-@class NSImageView, NSLayoutConstraint, NSMenuItem, NSString, NSTextField;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface NSMenuItemView : NSView
 {
     NSImageView *_imageView;
-    NSTextField *_titleTextField;
-    NSLayoutConstraint *_drawingViewWidthConstraint;
-    double _titleTextFieldHorizontalOffset;
-    _Bool _isHighlighted;
-    NSMenuItem *_menuItem;
 }
 
-+ (void);
++ (void)_requiresPowerPluggedIn;
 + (struct CGSize);
 - (_Bool);
 - (_Bool);
@@ -29,35 +24,41 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (id);
+- (void);
 - (void);
 - (void);
+- (_Bool)_removeAllProtocolProperties;
+- (_Bool);
+- (struct CGRect)!;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (struct CGRect);
-- (_Bool);
-- (_Bool);
+- (void)ssionTaskHTTPAuthenticator requires a sub class.;
+- (void)on (existing Connection %lld);
+- (void)d;
+- (struct CGSize)h -captureStreams;
+- (struct CGRect)ublic}@ is complete and received server trust, marking as secure;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (struct CGRect);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)RLLocalStreamTaskFromDataTask connection:(id)arg1 _conditionalRequirementsChanged:] /* Error: Ran out of types for this method. */;
+- (_Bool)DB-openAndPrepareWriteCacheDB_NoLock:size of DB specified too small (%ld).  No persistent DB opened at %@. /* Error: Ran out of types for this method. */;
+- (id)g stream error to ENOTCONN;
+- (_Bool)responseBodyTransferSize;
+- (_Bool)__nsurlrequest_proto_prop_obj_12;
+- (_Bool)odified;
+- (void)8VWW
+WWWW)W8WYY
+YYYY)Y8Yj	jj(jk	kk(kq	qq(qv	vv(vjj
+jjjj)j8jkk
+kkkk)k8kqq
+qqqq)q8qvv
+vvvv)v8vwwxxyyzz;
 - (double);
-- (struct CGPoint);
+- (struct CGPoint)@;
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (void);
 - (void);
@@ -70,8 +71,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)@;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -85,24 +86,14 @@ __attribute__((visibility("hidden")))
 - (void)ype"b2"columnAutoresizingStyle"b3"accessibilityTracksRowAndCellIndexes"b1"afterLiveResizeFieldEditorShouldDrawBackground"b1"allowsTypeSelect"b1"autoSaveTableColumns"b1"autoresizing"b1"calledBeginUpdatesOnRowData"b1"calledDrawRow"b1"columnWidthsAccountForInsets"b1"copyPreparedCell"b1"dataSourceCanProvideViews"b1"dataSourceMethodsWarningPrinted"b1"dataSourceCanBeWeak"b1"dataSourceRespondsTo_numberOfRows"b1"dataSourceRespondsTo_objectValueForTableColumnRow"b1"prefetchRespondsTo_cancel"b1"delayStartEditingCalled"b1"delegateCanBeWeak"b1"delegateRespondsTo_dataCellForRow"b1"delegateRespondsTo_didClickColumn"b1"delegateRespondsTo_didDragColumn"b1"delegateRespondsTo_heightForRow"b1"delegateRespondsTo_isGroupRow"b1"delegateRespondsTo_isFooterRow"b1"delegateRespondsTo_mouseDownInHeader"b1"delegateRespondsTo_selectionIndexesForProposedSelection"b1"delegateRespondsTo_shouldReorderColumn"b1"delegateRespondsTo_shouldTrackCell"b1"delegateRespondsTo_viewForRow"b1"delegateRespondsTo_viewForTableColumnRow"b1"delegateRespondsTo_userCanChangeVisibilityOfTableColumn"b1"delegateRespondsTo_userDidChangeVisibilityOfTableColumns"b1"delegateShouldReselectRow"b1"delegateDidReselectRow"b1"deselectsWhenMouseLeaves"b1"disablePersistTableColumns"b1"drawingBackgroundImage"b1"drawingContextMenuHighlight"b1"drawingContextMenuHighlightOnAllSelectedRows"b1"drawingEverything"b1"drawingOverhangRect"b1"drawingRowBackground"b1"editOnSingleClick"b1"excludeFloatingGroupRow"b1"flashingDropFeedbackRow"b1"floatsHeaderView"b1"inDesignMode"b1"isStatic"b1"lastDropHoverInCenter"b1"leavingScrollbarSpacing"b1"loadingColumnWidths"b1"mouseDownShouldTrack"b1"observingFirstResponder"b1"observingViewWillScroll"b1"okToCompleteTextDidEndEditing"b1"okToEnterTextDidEndEditing"b1"performingHitTest"b1"registeredForRowSizeStyleNote"b1"returnNilHighlightColorForCell"b1"scheduledSwitch"b1"sendingTableViewTargetAction"b1"shouldFloatGroupRows"b1"shouldFloatFooterRows"b1"sizingToFitForColumnHiding"b1"sizingToFitForColumnResize"b1"sortDescriptorsContainsPlaceholders"b1"subclassOverrides_drawBackgroundInClipRect"b1"subclassOverrides_drawGridInClipRect"b1"subclassOverrides_drawRect"b1"subclassOverrides_drawRow"b1"subclassOverrides_highlightSelectionInClipRect"b1"subclassOverrides_isOpaque"b1"subclassOverrides_rectOfRow"b1"subclassOverrides_rowAtPoint"b1"subclassOverrides_rowForView"b1"subclassOverrides_rowsInRect"b1"subclassOverrides_selectMultiIndexVersion"b1"subscribedToWindowWillOrderOnScreen"b1"suppressRowChangedNotifications"b1"suppressSyrahSourceListAttributes"b1"tileNeeded"b1"unarchiving"b1"updatingRowData"b1"useUncachedRowHeight"b1"usesAutomaticRowHeights"b1"usesAutomaticStyle"b1"usesStandardAlternatingRowColors"b1"verticalMotionCanBeginDrag"b1"wantsFirstResponderOnlyOnNonMouseEvents"b1"suppressColumnVisibilityMenu"b1};
 - (void)04;
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
-- (void)rnsNilWhenEmpty;
+- (void)zoomIn: /* Error: Ran out of types for this method. */;
+- (void)NSScreenReturnsNilWhenEmpty;
 - (void)³b@;
 - (_Bool)îþ´C;
 - (id)ÈâÿíúC;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBeHighlighted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, setter=setHighlighted:) _Bool isHighlighted; // @synthesize isHighlighted=_isHighlighted;
-@property(nonatomic) __weak NSMenuItem *menuItem; // @synthesize menuItem=_menuItem;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsSelectionMaterial;
 
 @end
 

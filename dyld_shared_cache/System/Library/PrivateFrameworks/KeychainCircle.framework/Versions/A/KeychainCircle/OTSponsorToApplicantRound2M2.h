@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface OTSponsorToApplicantRound2M2
 {
     NSData *_voucher;
-    NSData *_voucherSignature;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)8Q36Q44;
 - (void);
 - (void);
 - (unsigned long long);
@@ -32,9 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasVoucher;
-@property(readonly, nonatomic) _Bool hasVoucherSignature;
-@property(retain, nonatomic) NSData *voucher; // @synthesize voucher=_voucher;
-@property(retain, nonatomic) NSData *voucherSignature; // @synthesize voucherSignature=_voucherSignature;
 
 @end
 

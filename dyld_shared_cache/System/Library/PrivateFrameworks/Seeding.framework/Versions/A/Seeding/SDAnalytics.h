@@ -8,9 +8,9 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
++ (void)workoutActivityType;
++ (void)withdrawalRequestWithCompletion: /* Error: Ran out of types for this method. */;
++ (void)withdrawNotificationRequestWithIdentifier: /* Error: Ran out of types for this method. */;
 + (id);
 
 @end

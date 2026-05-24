@@ -9,7 +9,6 @@
 @interface _INPBTextNoteContent
 {
     struct _has;
-    NSString *_text;
 }
 
 + (_Bool);
@@ -17,24 +16,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)Store::getDataForkLength
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool)ta;
-- (void)ntentResponseCodeFailureiMessageDisabled;
+- (void)INStopShareETAIntentResponseCodeFailureiMessageDisabled;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasText;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

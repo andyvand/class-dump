@@ -11,15 +11,11 @@
 @interface HMPersonFaceCrop : HMFaceCrop
 {
     NSUUID *_personUUID;
-    NSUUID *_unassociatedFaceCropUUID;
-    long long _source;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSUUID *personUUID; // @synthesize personUUID=_personUUID;
-@property long long source; // @synthesize source=_source;
 @property(copy) NSUUID *unassociatedFaceCropUUID; // @synthesize unassociatedFaceCropUUID=_unassociatedFaceCropUUID;
 
 @end

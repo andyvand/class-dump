@@ -7,8 +7,6 @@
 @interface SwiftUI.ItemIndexTabsOnlyIndexProjection
 {
     id items;
-    id itemToTabIndexCache;
-    id tabToItemIndexCache;
 }
 
 @end

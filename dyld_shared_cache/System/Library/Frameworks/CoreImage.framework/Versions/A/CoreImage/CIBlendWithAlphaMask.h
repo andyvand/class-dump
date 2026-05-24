@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (float);
 - (id);
-- (id);
+- (id)MPSRayIntersector;
 
 @end
 

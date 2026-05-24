@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAttachment;
-
 @interface ICAttachmentModel
 {
     _Bool _previewGenerationOperationCancelled;
-    _Bool _mergeableDataDirty;
-    _Bool _generatingPreviews;
-    _Bool _hasDeepLink;
-    ICAttachment *_attachment;
 }
 
 @end

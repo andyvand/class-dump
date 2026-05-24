@@ -11,9 +11,9 @@
     CDUnknownBlockType _compilationBlock;
 }
 
+- (void)!;
 - (void);
-- (void);
-- (void);
+- (void)ConstantUInt4;
 
 @end
 

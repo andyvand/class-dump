@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, SGRealtimeSuggestionsTuple;
+@class NSError;
 
 @interface SGMessageCompletionHandlerParams
 {
     NSError *_error;
-    SGRealtimeSuggestionsTuple *_tuple;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id),GshouldAllowMultipleSelection,V_allowMultipleSelection;
+- (void)@;
 - (void)`h ;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) SGRealtimeSuggestionsTuple *tuple; // @synthesize tuple=_tuple;
 
 @end
 

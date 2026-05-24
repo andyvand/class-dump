@@ -4,36 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICBaseAttachment, NSArray, NSColor, NSString;
+@class ICBaseAttachment;
 
 @interface ICAbstractTextAttachment
 {
     ICBaseAttachment *_attachment;
-    double _foregroundAlpha;
-    NSColor *_highlightColor;
 }
 
 + (id);
 
 // Remaining properties
 @property(retain, nonatomic) ICBaseAttachment *attachment; // @synthesize attachment=_attachment;
-@property(readonly, copy, nonatomic) NSString *attachmentIdentifier;
-@property(readonly, copy, nonatomic) NSString *attachmentUTI;
-@property(readonly, nonatomic) _Bool containsFindableText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double foregroundAlpha; // @synthesize foregroundAlpha=_foregroundAlpha;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *supportedPresentationSizes;
-@property(readonly, nonatomic) _Bool supportsMultiplePresentationSizes;
-@property(readonly, nonatomic) _Bool supportsMultipleThumbnailsOnSameLine;
-@property(readonly, nonatomic, getter=isUnsupported) _Bool unsupported;
-@property(readonly, copy, nonatomic) NSString *viewIdentifier;
 
 @end
 

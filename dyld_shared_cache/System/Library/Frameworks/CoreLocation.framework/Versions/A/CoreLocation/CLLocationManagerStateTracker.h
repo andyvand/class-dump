@@ -9,29 +9,29 @@
 @interface CLLocationManagerStateTracker : CLStateTracker
 {
     struct _CLLocationManagerStateTrackerState _state;
-    void *_identifier;
-    _Bool _inTransaction;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 + (const char *);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)tag %s/%s is not a CGImageMetadataTagRef, skipping.
+;
+- (void)CMPhotoDecompressionDetectContainerFormat;
+- (_Bool)ationBottomFieldKey' [%s]
+;
+- (void)RTImageFramekVRadiationAcquisitionSequence;
 - (void);
 - (int);
-- (_Bool);
+- (_Bool)3;
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)phSelector_Promise:collection = %d, glyphID = %d /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -42,13 +42,13 @@
 - (void);
 - (void);
 - (id);
+- (_Bool)(;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)D840DF7F;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,16 +56,16 @@
 - (_Bool);
 - (int);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
 - (void);
+- (_Bool);
+- (_Bool))A;
+- (void)P;
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void *);
@@ -79,33 +79,7 @@
 - (double)c}.0s":"#Warning Client is subject to corrective compensation, but hasn't been updated to find out about it yet"} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long activityType;
-@property(nonatomic) _Bool allowsAlteredAccessoryLocations;
-@property(nonatomic) _Bool allowsBackgroundLocationUpdates;
-@property(nonatomic) _Bool allowsLocationPrompts;
-@property(nonatomic) _Bool allowsMapCorrection;
-@property(nonatomic) _Bool batchingLocation;
-@property(nonatomic) _Bool courtesyPromptNeeded;
-@property(nonatomic) double desiredAccuracy;
 @property(nonatomic) double distanceFilter;
-@property(nonatomic) _Bool dynamicAccuracyReductionEnabled;
-@property(nonatomic) _Bool fusionInfoEnabled;
-@property(nonatomic) _Bool groundAltitudeEnabled;
-@property(nonatomic) double headingFilter;
-@property(nonatomic) _Bool isAuthorizedForWidgetUpdates;
-@property(nonatomic) _Bool limitsPrecision;
-@property(nonatomic) _Bool matchInfoEnabled;
-@property(nonatomic) _Bool paused;
-@property int pausesLocationUpdatesAutomatically;
-@property(nonatomic) int previousAuthorizationStatus;
-@property(nonatomic) _Bool previousAuthorizationStatusValid;
-@property(nonatomic) _Bool requestingLocation;
-@property(nonatomic) _Bool showsBackgroundLocationIndicator;
-@property(nonatomic) _Bool trackRunInfoEnabled;
-@property(nonatomic) _Bool updatingHeading;
-@property(nonatomic) _Bool updatingLocation;
-@property(nonatomic) _Bool updatingVehicleHeading;
-@property(nonatomic) _Bool updatingVehicleSpeed;
 
 @end
 

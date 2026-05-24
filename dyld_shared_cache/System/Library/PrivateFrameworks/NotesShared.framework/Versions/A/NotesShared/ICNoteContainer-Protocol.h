@@ -4,36 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAccount, ICFolderCustomNoteSortType, NSArray, NSData, NSManagedObjectContext, NSString;
+@class ICAccount, NSPredicate, NSString;
 
 @protocol ICNoteContainer
-- (long long)nt;
-- (void);
+- (_Bool);
+- (NSPredicate *);
+- (void)NSControlTextEditingDelegate;
+- (_Bool)th path %{public}@ to tag it as purgeable;
+- (_Bool)ctIDURIToDelete:additionalUniqueIdentifiersToDelete:context: /* Error: Ran out of types for this method. */;
+- (long long)pdsClient;
 - (_Bool)ØÔÿÿ;
-- (NSString *)gs;
+- (NSString *)strings;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountName;
-@property(readonly, nonatomic) _Bool canBeSharedViaICloud;
-@property(readonly, nonatomic) NSString *containerIdentifier;
-@property(readonly, nonatomic) ICFolderCustomNoteSortType *customNoteSortType;
-@property(readonly, nonatomic) long long dateHeadersType;
-@property(readonly, nonatomic, getter=isDeleted) _Bool deleted;
-@property(readonly, nonatomic) _Bool isAllNotesContainer;
-@property(readonly, nonatomic) _Bool isModernCustomFolder;
-@property(readonly, nonatomic) _Bool isSharedReadOnly;
-@property(readonly, nonatomic) _Bool isSharedViaICloud;
-@property(readonly, nonatomic) _Bool isShowingDateHeaders;
-@property(readonly, nonatomic) _Bool isTrashFolder;
-@property(readonly) NSManagedObjectContext *managedObjectContext;
 @property(readonly, nonatomic) ICAccount *noteContainerAccount;
-@property(copy, nonatomic) NSData *subFolderOrderMergeableData;
-@property(readonly, nonatomic) _Bool supportsDateHeaders;
-@property(readonly, nonatomic) _Bool supportsEditingNotes;
-@property(readonly, copy, nonatomic) NSString *titleForNavigationBar;
-@property(readonly, copy, nonatomic) NSString *titleForTableViewCell;
-@property(readonly, nonatomic) NSArray *visibleNotes;
-@property(readonly, nonatomic) unsigned long long visibleNotesCount;
-@property(readonly, nonatomic) NSArray *visibleSubFolders;
 @end
 

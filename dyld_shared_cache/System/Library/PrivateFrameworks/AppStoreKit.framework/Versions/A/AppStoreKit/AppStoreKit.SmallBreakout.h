@@ -7,13 +7,6 @@
 @interface AppStoreKit.SmallBreakout
 {
     id details;
-    id offerDisplayProperties;
-    id iconArtwork;
-    id backgroundColor;
-    id clickAction;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

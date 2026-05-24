@@ -6,15 +6,11 @@
 
 #import <PackageKit/PKComponent.h>
 
-@class NSString, PKBundleComponentVersion;
+@class NSString;
 
 @interface PKBundleComponent : PKComponent
 {
     NSString *_storageType;
-    NSString *_bundlePath;
-    _Bool _onDisk;
-    PKBundleComponentVersion *_bundleVersion;
-    int _overwriteAction;
 }
 
 + (void);
@@ -29,18 +25,14 @@
 - (long long);
 - (int);
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *bundleName;
-@property(readonly) NSString *bundlePath;
-@property(readonly) PKBundleComponentVersion *bundleVersion;
 @property int overwriteAction; // @synthesize overwriteAction=_overwriteAction;
-@property(readonly) NSString *storageType;
 
 @end
 

@@ -6,26 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAContext, FBSSceneSettings, FBScene, NSMutableOrderedSet, NSMutableSet, NSSet, NSString, UIScenePresentationContext, _UIContextLayerHostView;
-@protocol _UISceneLayerHostContainerViewDataSource;
+@class FBScene;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneLayerHostContainerView : UIView
 {
     FBScene *_scene;
-    id <_UISceneLayerHostContainerViewDataSource> _dataSource;
-    NSMutableOrderedSet *_hostViews;
-    NSMutableOrderedSet *_hostedLayers;
-    NSMutableSet *_hiddenLayers;
-    FBSSceneSettings *_effectiveSceneSettings;
-    UIScenePresentationContext *_presentationContext;
-    UIView *_innerLayerContainer;
-    UIView *_backgroundView;
-    CAContext *_asyncRenderGroupingContext;
-    _UISceneLayerHostContainerView *_asyncRenderGroupingContainerView;
-    _UIContextLayerHostView *_asyncRenderGroupingHostView;
-    NSString *_debugDescription;
-    _Bool _invalidated;
 }
 
 - (id);
@@ -33,30 +19,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)rfew:(id)arg1;
+- (void)laration;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)B(ak;
 - (void);
 - (long long);
 - (id);
+- (id)setLegacyMediaQuery:(id)arg1 forTransport: /* Error: Ran out of types for this method. */;
+- (id)changePlaybackPositionCommand;
+- (id)d not contain MPStoreLibraryPersonalizationContentDescriptor);
 - (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (_Bool)¡°!HGù\Ð1Â0@ù
 × ;
 - (void)]Ð1Â0@ù
@@ -68,39 +54,29 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)× ;
 - (void)UIEdgeInsets=dddd}16{NSDirectionalEdgeInsets=dddd}48B80;
-- (id)tRect;
+- (id)textFirstRect;
 - (id);
-- (void)ggestionInfo:(id)arg1 state: /* Error: Ran out of types for this method. */;
-- (_Bool)wnScale;
-- (id)om:(struct CGRect)arg1;
-- (id)ionController;
+- (void)initWithProofreadingSuggestionInfo:(id)arg1 state: /* Error: Ran out of types for this method. */;
+- (_Bool)horizontalVolumeDownScale;
+- (id)_initWithCatalog:(struct CGRect)arg1 idiom: /* Error: Ran out of types for this method. */;
+- (id)_hasNestedNavigationController;
 - (void)stLine:(id)arg1;
-- (void)bject:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)_addObserver:(id)arg1 selector:name:object:options: /* Error: Ran out of types for this method. */;
 - (id)lectionEdgeInsets;
 - (void)liderVisuals;
 - (id)troller;
-- (id);
-- (void)stant;
+- (id)setDelayedKeys: /* Error: Ran out of types for this method. */;
+- (void)_TtC5UIKit25FloatingBarFrameAssistant;
 - (id)ùLù;
 - (void)ä±;
 - (void)ext choice assistant is stashing smart replies as scrolling begins;
-- (id)ifierPathProxyIdentifierPathKey;
+- (id)kObjectIdentifierPathProxyIdentifierPathKey;
 - (void)ectionCIego_|,üÿ_ABXcIego_Iggg_;
 - (void)½Ó03¯;
 - (id)¶;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <_UISceneLayerHostContainerViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSSet *hostedLayers;
-@property(readonly, nonatomic) NSSet *nonHostedLayers;
 @property(readonly, nonatomic) __weak FBScene *scene; // @synthesize scene=_scene;
-@property(readonly) Class superclass;
 
 @end
 

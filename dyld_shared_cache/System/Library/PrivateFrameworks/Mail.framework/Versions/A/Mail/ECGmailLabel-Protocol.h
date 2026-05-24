@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @protocol ECGmailLabel
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(readonly) _Bool isGmailImportantLabel;
-@property(readonly) _Bool isGmailStarredLabel;
-@property(readonly, copy, nonatomic) NSString *labelName;
 @property(readonly, nonatomic) NSString *persistentID;
 @end
 

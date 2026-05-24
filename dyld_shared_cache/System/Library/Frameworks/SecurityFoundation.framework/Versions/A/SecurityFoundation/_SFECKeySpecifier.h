@@ -13,8 +13,8 @@
 
 + (Class);
 + (_Bool);
-- (long long);
-- (id);
+- (long long)uteValues:attributeStrings:enableFragements:options: /* Error: Ran out of types for this method. */;
+- (id)_kMDItemPhotosMemoriesExpandedDate;
 - (id);
 - (void);
 - (id);

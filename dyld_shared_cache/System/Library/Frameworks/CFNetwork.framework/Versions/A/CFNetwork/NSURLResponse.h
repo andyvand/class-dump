@@ -9,7 +9,6 @@
 @interface NSURLResponse
 {
     NSURLResponseInternal *_internal;
-    struct URLResponse *__cf_resp_data;
 }
 
 + (id);

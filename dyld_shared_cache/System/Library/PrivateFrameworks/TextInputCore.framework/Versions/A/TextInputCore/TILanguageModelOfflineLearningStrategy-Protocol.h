@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TILanguageModelOfflineLearningTask;
+@class NSArray, NSDictionary, TILanguageModelOfflineLearningTask;
 
 @protocol TILanguageModelOfflineLearningStrategy
+- (TILanguageModelOfflineLearningTask *)updateTranslatedTranscriptionFromOtherContactPath:original: /* Error: Ran out of types for this method. */;
+- (_Bool)updateGizmoValueIfNeeded:(NSArray *)arg1 forPreferenceKey:(NSDictionary *)arg2;
+- (void)_callHistoryManager;
+- (NSArray *):(NSArray *)arg1 %d;
 
 // Remaining properties
 @property(readonly) TILanguageModelOfflineLearningTask *learningTask;

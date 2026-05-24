@@ -7,7 +7,6 @@
 @interface AppStoreKit.UserEngagementManager
 {
     id defaultTabIdentifier;
-    id amsEngagement;
 }
 
 @end

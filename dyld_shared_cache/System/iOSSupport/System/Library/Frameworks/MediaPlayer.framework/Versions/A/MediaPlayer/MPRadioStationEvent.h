@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface MPRadioStationEvent
 {
     NSString *_title;
-    NSString *_descriptionText;
-    NSDate *_startTime;
-    NSDate *_endTime;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)agesExtension;
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)ew;
 - (id);
-- (id);
-- (void)gCloudStatus__MAPPING_MISSING__;
+- (void)__MPModelPropertySongCloudStatus__MAPPING_MISSING__;
 - (void)Pº
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *descriptionText; // @synthesize descriptionText=_descriptionText;
-@property(copy, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
 @protocol PXStoryChapterCollection;
 
 @interface PXStoryChapterCollectionManager
 {
     id <PXStoryChapterCollection> _chapterCollection;
-    CDUnknownBlockType _pendingCompletionHandler;
-    NSMutableArray *_pendingEdits;
 }
 
 - (void);
@@ -32,9 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <PXStoryChapterCollection> chapterCollection; // @synthesize chapterCollection=_chapterCollection;
 @property(copy, nonatomic) CDUnknownBlockType pendingCompletionHandler; // @synthesize pendingCompletionHandler=_pendingCompletionHandler;
-@property(retain, nonatomic) NSMutableArray *pendingEdits; // @synthesize pendingEdits=_pendingEdits;
 
 @end
 

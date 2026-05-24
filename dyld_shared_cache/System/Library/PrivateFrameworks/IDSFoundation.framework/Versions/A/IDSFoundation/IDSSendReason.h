@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSSendReason
 {
     long long reason;
-    long long subreason;
-    void pathID;
 }
 
 - (void);
@@ -19,16 +15,14 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)TB,Vconnecting;
 - (void);
 - (void);
 - (long long);
-- (void)tAnisette;
+- (void)AuthKitAnisette;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *pathID;
 @property(nonatomic) long long reason; // @synthesize reason;
-@property(nonatomic) long long subreason; // @synthesize subreason;
 
 @end
 

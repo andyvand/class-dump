@@ -7,10 +7,6 @@
 @interface NewsFeed.DebugFormatLayoutTree
 {
     id _decorations;
-    id _packages;
-    id _selection;
-    id editor;
-    id onDidTapTreeItem;
 }
 
 @end

@@ -9,14 +9,9 @@
 @interface _UITextViewAnimatedPlaceholderSupport
 {
     void textView;
-    id $__lazy_storage_$_containerView;
-    id $__lazy_storage_$_textEffectsView;
-    id completionBlocks;
-    id activeReplacementEffect;
-    id activePlaceholders;
 }
 
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -28,9 +23,9 @@
 - (void);
 - (id);
 - (void)InteractionAnimating>"32;
-- (id)State;
+- (id)UITableViewCellUnhighlightedState;
 - (id);
-- (void)Sg;
+- (void)SDySSypGSg;
 
 // Remaining properties
 @property(nonatomic) __weak UITextView *textView; // @synthesize textView;

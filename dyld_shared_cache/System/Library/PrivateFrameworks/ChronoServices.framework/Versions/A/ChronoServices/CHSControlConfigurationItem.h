@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSControlIdentity, NSString;
+@class NSString;
 
 @interface CHSControlConfigurationItem
 {
     id _uniqueIdentifier;
-    id _controlIdentity;
-    id _location;
-    id _pushPolicy;
-    id _canAppearInSecureEnvironment;
-    id _supportsLowLuminance;
-    id _supportedColorSchemes;
 }
 
 + (_Bool);
@@ -30,22 +24,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)v;
 - (long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id)ueForKey:(id)arg1;
+- (id)containsValueForKey:(id)arg1;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canAppearInSecureEnvironment;
-@property(nonatomic, readonly) CHSControlIdentity *controlIdentity;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) long long location;
-@property(nonatomic, readonly) unsigned long long pushPolicy;
-@property(nonatomic, readonly) unsigned long long supportedColorSchemes;
-@property(nonatomic, readonly) _Bool supportsLowLuminance;
 @property(nonatomic, readonly) NSString *uniqueIdentifier;
 
 @end

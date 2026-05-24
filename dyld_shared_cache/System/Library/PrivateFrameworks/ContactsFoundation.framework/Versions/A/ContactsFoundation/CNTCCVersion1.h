@@ -9,12 +9,11 @@
 @interface CNTCCVersion1
 {
     NSNumber *_simulateStatus;
-    NSNumber *_isUnitTestingCachedValue;
 }
 
 + (id);
 + (id);
-- (long long);
+- (long long)A;
 - (void);
 - (void);
 - (id);
@@ -25,19 +24,18 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)rcleRequest:Error from service - %@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)ateFrameworks/ApplePushService.framework/Versions/A/ApplePushService;
 - (void);
 - (void);
 - (long long);
 - (long long);
-- (void);
-- (id);
+- (void)(^;
+- (id);
 - (_Bool)ùõÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *isUnitTestingCachedValue; // @synthesize isUnitTestingCachedValue=_isUnitTestingCachedValue;
 @property(retain, nonatomic) NSNumber *simulateStatus; // @synthesize simulateStatus=_simulateStatus;
 
 @end

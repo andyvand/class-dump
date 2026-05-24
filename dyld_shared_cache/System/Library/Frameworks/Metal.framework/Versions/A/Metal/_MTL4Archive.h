@@ -12,11 +12,10 @@
 @interface _MTL4Archive : _MTLObjectWithLabel
 {
     id <MTLDevice> _device;
-    struct unique_ptr<MTL4ArchiveImpl, std::default_delete<MTL4ArchiveImpl>> _archiveReader;
 }
 
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -28,19 +27,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)`;
+- (void)_MTLResourceViewPool;
 - (id)il!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, TRITimeProviding;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TRIWKMSKeyCache
 {
     NSObject<OS_dispatch_queue> *_cacheAccessQueue;
-    NSMutableDictionary *_keyCache;
-    unsigned long long _maxSize;
-    double _defaultTTL;
-    unsigned long long _hitCount;
-    unsigned long long _missCount;
-    unsigned long long _evictionCount;
-    id <TRITimeProviding> _timeProvider;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (void)timeInterval;
+- (void)targetZoomFactorLimitWithLayoutType:(unsigned long long)arg1;
+- (void)targetOutputTotalBytes;
+- (void)targetBottomOverlap;
+- (void)statusOfValueForKey:error: /* Error: Ran out of types for this method. */;
+- (id)setTiffMutableDictionary: /* Error: Ran out of types for this method. */;
+- (void)setString:(id)arg1 forKey:inKeySpace:inAVMetadata: /* Error: Ran out of types for this method. */;
+- (void)setStatistics: /* Error: Ran out of types for this method. */;
+- (id)setOverallDurationHint:(unsigned long long)arg1;
+- (unsigned long long)setCapabilitiesInformation: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setCalendar: /* Error: Ran out of types for this method. */;
 - (double);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)requestAsynchronousPlayerItemWithResultHandler:(id)arg1;
+- (unsigned long long)requestAsynchronousAVAssetWithResultHandler: /* Error: Ran out of types for this method. */;
+- (void)requestAVAssetWithResultHandler:(id)arg1;
+- (void)requestAVAssetForExport:(id)arg1 withResultHandler:(id)arg2;
+- (id)renderScale;
+- (id)normalizedVerticalOffset;
+- (void)minFrameDurationForNominalFrameRate: /* Error: Ran out of types for this method. */;
+- (id)layoutByUpdatingNormalizedAdaptiveVisibleFrame: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (void);
@@ -52,13 +45,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *cacheAccessQueue; // @synthesize cacheAccessQueue=_cacheAccessQueue;
-@property(nonatomic) double defaultTTL; // @synthesize defaultTTL=_defaultTTL;
-@property(nonatomic) unsigned long long evictionCount; // @synthesize evictionCount=_evictionCount;
-@property(nonatomic) unsigned long long hitCount; // @synthesize hitCount=_hitCount;
-@property(retain, nonatomic) NSMutableDictionary *keyCache; // @synthesize keyCache=_keyCache;
-@property(nonatomic) unsigned long long maxSize; // @synthesize maxSize=_maxSize;
-@property(nonatomic) unsigned long long missCount; // @synthesize missCount=_missCount;
-@property(retain, nonatomic) id <TRITimeProviding> timeProvider; // @synthesize timeProvider=_timeProvider;
 
 @end
 

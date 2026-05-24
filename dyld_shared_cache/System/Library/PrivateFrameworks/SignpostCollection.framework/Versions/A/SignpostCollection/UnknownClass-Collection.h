@@ -5,16 +5,16 @@
 //
 
 @interface UnknownClass (Collection)
-+ (id);
-+ (void);
-+ (void);
-+ (id);
-+ (void);
-+ (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
++ (id)switchToViewMode:animated: /* Error: Ran out of types for this method. */;
++ (void)supportsSecureCoding;
++ (void)strokeWithName:(unsigned int)arg1 color:(long long)arg2 width: /* Error: Ran out of types for this method. */;
++ (id)stringWithCString:encoding: /* Error: Ran out of types for this method. */;
++ (void)stringByTrimmingLeadingWhitespaceAndNewline;
++ (void)stringByAppendingString:(id)arg1;
+- (void)textView:willChangeSelectionFromCharacterRanges:toCharacterRanges: /* Error: Ran out of types for this method. */;
+- (void)textView:willChangeSelectionFromCharacterRanges:toCharacterRanges: /* Error: Ran out of types for this method. */;
+- (id)tableView:(unsigned long long)arg1 rowViewForRow: /* Error: Ran out of types for this method. */;
+- (id)tableCellViewDelegate;
+- (void)strokeColorSDR;
 @end
 

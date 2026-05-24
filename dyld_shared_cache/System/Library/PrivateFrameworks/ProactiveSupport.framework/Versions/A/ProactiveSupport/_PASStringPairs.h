@@ -9,22 +9,19 @@
 @interface _PASStringPairs
 {
     NSArray *_keys;
-    NSArray *_values;
 }
 
+- (id)initWithYear:month:day:hour:minute:second:timeZone: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)ݗR�ջr	;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (id)eaterThanOrEqualToVersionString:(unsigned long long)arg1;
+- (id)_pas_isGreaterThanOrEqualToVersionString:(unsigned long long)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) NSArray *keys; // @synthesize keys=_keys;
-@property(readonly, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

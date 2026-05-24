@@ -16,17 +16,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)AtIndex: /* Error: Ran out of types for this method. */;
+- (id)isitionContext = %@};
+- (void)airplayReceiversAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _MRAudioDataBlockProtobuf *dataBlock; // @synthesize dataBlock=_dataBlock;
 @property(readonly, nonatomic) _Bool hasDataBlock;
 
 @end

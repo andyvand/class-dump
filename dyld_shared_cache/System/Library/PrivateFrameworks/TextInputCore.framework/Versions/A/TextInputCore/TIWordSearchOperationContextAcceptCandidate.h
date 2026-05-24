@@ -11,27 +11,22 @@
 @interface TIWordSearchOperationContextAcceptCandidate : TIWordSearchOperation
 {
     void *_mecabraCandidate;
-    _Bool _partialCandidate;
-    _Bool _prediction;
-    TIMecabraEnvironment *_mecabraEnvironment;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)superclass;
+- (id)phoneNumbers;
+- (void)FoundInCalls;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ck.stopwatch;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) TIMecabraEnvironment *mecabraEnvironment; // @synthesize mecabraEnvironment=_mecabraEnvironment;
-@property(nonatomic, getter=isPartialCandidate) _Bool partialCandidate; // @synthesize partialCandidate=_partialCandidate;
-@property(nonatomic, getter=isPrediction) _Bool prediction; // @synthesize prediction=_prediction;
 
 @end
 

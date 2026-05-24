@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TTruncateInRangeTextCell : FI_TMarginedTextCell
 {
     struct _NSRange _truncateInRange;
-    _Bool _hasCustomFallbackLineBreak;
-    unsigned long long _customFallbackLineBreakMode;
 }
 
 - (void);
@@ -21,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasCustomFallbackLineBreak; // @synthesize hasCustomFallbackLineBreak=_hasCustomFallbackLineBreak;
 @property(nonatomic) struct _NSRange truncateInRange; // @synthesize truncateInRange=_truncateInRange;
 
 @end

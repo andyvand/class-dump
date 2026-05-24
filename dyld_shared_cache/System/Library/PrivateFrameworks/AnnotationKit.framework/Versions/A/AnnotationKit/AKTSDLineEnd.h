@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AKTSDLineEnd
 {
     struct CGPath *mPath;
-    struct CGPath *mWrapPath;
-    struct CGPoint mEndPoint;
-    _Bool mIsFilled;
-    NSString *mIdentifier;
-    int mLineJoin;
 }
 
 + (id);
@@ -21,40 +14,34 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 - (struct CGPath *);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)initWithContext:profileUniqueIdentifier:zoneName:notificationCenter: /* Error: Ran out of types for this method. */;
 - (int);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)a;
 - (struct CGPath *);
 - (id);
 - (struct CGPoint);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint endPoint; // @synthesize endPoint=mEndPoint;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=mIdentifier;
-@property(readonly, nonatomic) _Bool isFilled; // @synthesize isFilled=mIsFilled;
-@property(readonly, nonatomic) _Bool isNone;
-@property(readonly, nonatomic) int lineJoin; // @synthesize lineJoin=mLineJoin;
 @property(readonly, nonatomic) struct CGPath *path; // @synthesize path=mPath;
-@property(readonly, nonatomic) struct CGPath *wrapPath;
 
 @end
 

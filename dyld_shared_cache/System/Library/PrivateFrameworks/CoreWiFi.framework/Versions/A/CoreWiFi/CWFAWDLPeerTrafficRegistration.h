@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CWFAWDLPeerTrafficRegistration
 {
     _Bool _active;
-    int _sessionFlags;
-    NSString *_serviceName;
-    unsigned long long _desiredBandwidth;
-    unsigned long long _desiredLatency;
-    unsigned long long _preferredChannel;
-    unsigned long long _secondaryPreferredChannel;
-    NSArray *_peerContextList;
 }
 
 + (_Bool);
@@ -24,18 +17,18 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
+- (unsigned long long)h;
+- (id);
+- (void);
+- (id);
+- (void)thumbnailRequestInvalidError;
+- (void)printToLog:(unsigned long long)arg1 withDescription:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -46,14 +39,7 @@
 - (void)hè;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) unsigned long long desiredBandwidth; // @synthesize desiredBandwidth=_desiredBandwidth;
-@property(nonatomic) unsigned long long desiredLatency; // @synthesize desiredLatency=_desiredLatency;
-@property(copy, nonatomic) NSArray *peerContextList; // @synthesize peerContextList=_peerContextList;
-@property(nonatomic) unsigned long long preferredChannel; // @synthesize preferredChannel=_preferredChannel;
-@property(nonatomic) unsigned long long secondaryPreferredChannel; // @synthesize secondaryPreferredChannel=_secondaryPreferredChannel;
 @property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) int sessionFlags; // @synthesize sessionFlags=_sessionFlags;
 
 @end
 

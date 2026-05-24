@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayConfiguration, UISApplicationSupportDisplayEdgeInfo, UISDisplayShape;
+@class FBSDisplayConfiguration;
 
 @interface UISDisplayContext
 {
     FBSDisplayConfiguration *_displayConfiguration;
-    UISApplicationSupportDisplayEdgeInfo *_displayEdgeInfo;
-    unsigned long long _artworkSubtype;
-    unsigned long long _userInterfaceStyle;
-    UISDisplayShape *_exclusionArea;
 }
 
 @end

@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPSearchCommonContext
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_lastSearchString;
-    NSString *_lastUserTypedSearchString;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_lastSearchString:1;
-        unsigned int read_lastUserTypedSearchString:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (_Bool)setLocalContactIdentifier:(id)arg1;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_readSharingACL;
+- (id)adata",&,N,V_providerMetadata;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -35,8 +23,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)E=*iiss{__sbuf=*i}i^v^?^?^?^?{__sbuf=*i}^{__sFILEX}i[3C][1C]{__sbuf=*i}iq};
+- (void)SSVCAVoiceTriggerInitialSilenceDurationSeconds;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -44,17 +32,13 @@
 - (id);
 - (void);
 - (id)d"b1"wrote_anyField"b1};
-- (id)mRouteCoordinate: /* Error: Ran out of types for this method. */;
+- (id)coordinateAtOffset:fromRouteCoordinate: /* Error: Ran out of types for this method. */;
 - (id)Ü13ì3d57ô8;;
-- (id)RESOLVED;
+- (id)INTENT_TYPE_CLIENT_RESOLVED;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLastSearchString;
-@property(readonly, nonatomic) _Bool hasLastUserTypedSearchString;
-@property(retain, nonatomic) NSString *lastSearchString;
-@property(retain, nonatomic) NSString *lastUserTypedSearchString;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

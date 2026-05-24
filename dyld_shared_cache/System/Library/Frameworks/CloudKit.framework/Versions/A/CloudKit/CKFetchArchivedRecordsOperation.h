@@ -6,22 +6,11 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKFetchArchivedRecordsOperationInfo, NSArray, NSDictionary, NSMutableDictionary, NSString;
-@protocol CKFetchArchivedRecordsOperationCallbacks;
+@class NSMutableDictionary;
 
 @interface CKFetchArchivedRecordsOperation : CKDatabaseOperation
 {
     _Bool _fetchAllChanges;
-    _Bool _shouldFetchAssetContents;
-    CDUnknownBlockType _recordFetchedBlock;
-    CDUnknownBlockType _recordZoneChangeTokensUpdatedBlock;
-    CDUnknownBlockType _recordZoneFetchCompletionBlock;
-    CDUnknownBlockType _fetchArchivedRecordsCompletionBlock;
-    NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByRecordZoneID;
-    NSMutableDictionary *_statusByZoneID;
-    NSMutableDictionary *_perItemErrors;
-    NSDictionary *_assetTransferOptionsByRecordTypeAndKey;
 }
 
 + (SEL);
@@ -30,14 +19,14 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (void);
+- (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
-- (void);
+- (void)up_bytes_ == 0 && buffer_.get() != NULL:(CDUnknownBlockType)arg1;
 - (id);
 - (void);
 - (id);
@@ -57,8 +46,8 @@
 × ;
 - (_Bool)ñG1ð1Â0@ù
 × ;
-- (id)eChangesEvent;
-- (CDUnknownBlockType)ntsOfURL:options:error: /* Error: Ran out of types for this method. */;
+- (id)didFetchRecordZoneChangesEvent;
+- (CDUnknownBlockType)dataWithContentsOfURL:options:error: /* Error: Ran out of types for this method. */;
 - (id)dleIDsOperationCallbacks>",R,D,N;
 - (_Bool));
 - (void)ä;
@@ -67,26 +56,7 @@
 - (void)èÿbí;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByRecordTypeAndKey; // @synthesize assetTransferOptionsByRecordTypeAndKey=_assetTransferOptionsByRecordTypeAndKey;
-@property(readonly, nonatomic) id <CKFetchArchivedRecordsOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) NSDictionary *configurationsByRecordZoneID; // @synthesize configurationsByRecordZoneID=_configurationsByRecordZoneID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
-@property(copy, nonatomic) CDUnknownBlockType fetchArchivedRecordsCompletionBlock; // @synthesize fetchArchivedRecordsCompletionBlock=_fetchArchivedRecordsCompletionBlock;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKFetchArchivedRecordsOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(retain, nonatomic) NSMutableDictionary *perItemErrors; // @synthesize perItemErrors=_perItemErrors;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchedBlock; // @synthesize recordFetchedBlock=_recordFetchedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneChangeTokensUpdatedBlock; // @synthesize recordZoneChangeTokensUpdatedBlock=_recordZoneChangeTokensUpdatedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneFetchCompletionBlock; // @synthesize recordZoneFetchCompletionBlock=_recordZoneFetchCompletionBlock;
-@property(copy, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
-@property(nonatomic) _Bool shouldFetchAssetContents; // @synthesize shouldFetchAssetContents=_shouldFetchAssetContents;
 @property(retain, nonatomic) NSMutableDictionary *statusByZoneID; // @synthesize statusByZoneID=_statusByZoneID;
-@property(readonly) Class superclass;
 
 @end
 

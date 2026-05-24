@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PKMediaName
 {
     NSString *_mediaName;
-    NSString *_mediaClass;
-    NSString *_baseName;
-    double _widthInUnits;
-    double _heightInUnits;
-    NSString *_widthStr;
-    long long _units;
-    double _conversionFactor;
 }
 
 + (id);
@@ -34,11 +27,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)?+;
+- (void);
 - (long long);
 - (double);
 - (double);
@@ -46,18 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSString *baseName; // @synthesize baseName=_baseName;
-@property double conversionFactor; // @synthesize conversionFactor=_conversionFactor;
-@property(readonly) double height; // @dynamic height;
-@property double heightInUnits; // @synthesize heightInUnits=_heightInUnits;
-@property(readonly) _Bool isRoll; // @dynamic isRoll;
-@property(retain) NSString *mediaClass; // @synthesize mediaClass=_mediaClass;
 @property(retain) NSString *mediaName; // @synthesize mediaName=_mediaName;
-@property(readonly, retain) NSString *unitStr; // @dynamic unitStr;
-@property long long units; // @synthesize units=_units;
-@property(readonly) double width; // @dynamic width;
-@property double widthInUnits; // @synthesize widthInUnits=_widthInUnits;
-@property(retain) NSString *widthStr; // @synthesize widthStr=_widthStr;
 
 @end
 

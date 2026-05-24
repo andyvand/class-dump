@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextView;
-
 @interface TSWPEffectsWindow
 {
     _Bool _readyToGo;
-    unsigned int _activeEffectsCount;
-    UITextView *_dummyToReclaimFirstResponder;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)ng in ;
 - (void);
 - (void);
 - (void);

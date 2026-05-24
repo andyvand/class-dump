@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGSize);
+- (struct CGSize)rom the user inputed information or we have no pin to compare against, this will fail validation;
 - (struct CGSize);
 - (struct CGSize);
 - (void);

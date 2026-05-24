@@ -17,17 +17,17 @@
 
 + (Class)¡Ð!0Eù`ð1Â0@ù
 × ;
-- (long long)enceLocation;
+- (long long)_lastUnadjustedSceneReferenceLocation;
 - (void);
-- (void)th;
+- (void)minimumWidth;
 - (void)roller internal inconsistency:(long long)arg1 unexpected attempt to toggle primary edge in a collapsed layout. Split view controller:%@ /* Error: Ran out of types for this method. */;
 - (id)er"8Q16^B24;
 - (void)tionContext does not have a valid trait collection;
-- (void);
+- (void)SVG;
 - (void)_entry_size_is_set(struct ui_archive_entry *);
 - (void)lue:%ld /* Error: Ran out of types for this method. */;
 - (void)font=%@;
-- (id)dedAccessStateChanged;
+- (id)UIAccessibilityGuidedAccessStateChanged;
 - (void);
 - (void);
 - (void)Døÿí13hñnþí13|þõ13`ð¸þ;
@@ -40,8 +40,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_dragConfiguration) _UIDragFeedbackGeneratorConfiguration *dragConfiguration;
-@property(retain, nonatomic, getter=_playingContinuousFeedback, setter=_setPlayingContinuousFeedback:) _UIFeedback<_UIFeedbackContinuousPlayable> *playingContinuousFeedback; // @synthesize playingContinuousFeedback=_playingContinuousFeedback;
-@property(nonatomic, getter=_state, setter=_setState:) long long state; // @synthesize state=_state;
 
 @end
 

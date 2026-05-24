@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_os_log;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CBAnalyticsScheduler
 {
     NSMutableDictionary *_requests;
-    unsigned long long _requestId;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 + (id);

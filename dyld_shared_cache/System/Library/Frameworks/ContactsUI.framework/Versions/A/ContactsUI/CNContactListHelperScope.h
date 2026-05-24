@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, NSString;
+@class CNContact;
 
 @interface CNContactListHelperScope
 {
     CNContact *_contact;
-    NSString *_contactIdentifier;
-    CNContactStore *_contactStore;
-    long long _row;
 }
 
 - (id);
 - (id);
 - (long long);
+- (id);+;
 - (id);
-- (id);
-- (void);
-- (id)oppingViewDropDelegate;
+- (void);
+- (id)AvatarCroppingViewDropDelegate;
 
 // Remaining properties
 @property(readonly) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly) long long row; // @synthesize row=_row;
 
 @end
 

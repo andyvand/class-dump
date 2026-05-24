@@ -11,14 +11,14 @@
     NSData *_data;
 }
 
-+ (_Bool);
++ (_Bool)ime range must be nonnegative & numeric or positive infinity - see CMTIME_IS_NUMERIC;
 - (id);
 - (id);
-- (void);
+- (void)setCurrentListeningToContainer:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void)a&ð!ü@ùqª)°1Â0@ù
 × ;
 

@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MXMSample, MXMSampleTag, MXMSampleTimeSeries, NSArray, NSMutableDictionary, NSSet, NSUnit;
+@class MXMSample, MXMSampleTag;
 
 @interface MXMSampleSet
 {
     MXMSampleTag *_tag;
-    NSUnit *_unit;
-    MXMSampleTimeSeries *_timeIndex;
-    CDStruct_4bcfbbae *_index;
-    void *_underlyingBuffer;
-    long long _underlyingBufferLength;
-    NSArray *_cachedSamples;
-    NSMutableDictionary *_attributesMap;
 }
 
-+ (_Bool);
++ (_Bool);
 - (long long);
-- (void *);
+- (void *)q'U;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (double *);
 - (double *);
@@ -50,7 +43,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -64,32 +57,11 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSSet *attributes;
-@property(readonly, nonatomic) NSMutableDictionary *attributesMap; // @synthesize attributesMap=_attributesMap;
-@property(retain) NSArray *cachedSamples; // @synthesize cachedSamples=_cachedSamples;
-@property(readonly, nonatomic) MXMSample *distance;
-@property(readonly) double *doubleValues;
-@property(readonly) double *firstDoubleValue;
-@property(readonly, nonatomic) MXMSample *geoMean;
-@property(nonatomic) CDStruct_4bcfbbae *index; // @synthesize index=_index;
-@property(readonly) double *lastDoubleValue;
-@property(readonly) unsigned long long length;
-@property(readonly, nonatomic) MXMSample *max;
 @property(readonly, nonatomic) MXMSample *min;
-@property(readonly, nonatomic) MXMSampleSet *range;
-@property(readonly, nonatomic) MXMSample *relativeStandardDeviation;
-@property(readonly, copy) NSArray *samples;
-@property(readonly, nonatomic) MXMSample *standardDeviation;
-@property(readonly, nonatomic) MXMSample *sum;
-@property(readonly) MXMSampleTag *tag; // @synthesize tag=_tag;
-@property(readonly, retain) MXMSampleTimeSeries *timeIndex; // @synthesize timeIndex=_timeIndex;
-@property(nonatomic) void *underlyingBuffer; // @synthesize underlyingBuffer=_underlyingBuffer;
-@property(nonatomic) long long underlyingBufferLength; // @synthesize underlyingBufferLength=_underlyingBufferLength;
-@property(readonly) NSUnit *unit; // @synthesize unit=_unit;
 
 @end
 

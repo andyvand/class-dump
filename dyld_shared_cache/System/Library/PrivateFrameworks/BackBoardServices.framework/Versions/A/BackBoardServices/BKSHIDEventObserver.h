@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceInitiatingConnection, NSMapTable, NSMutableDictionary, NSMutableSet, NSSet, NSString;
+@class NSSet;
 
 @interface BKSHIDEventObserver
 {
     _Bool _isNonLaunchingServer;
-    struct os_unfair_lock_s _lock;
-    _Bool _lock_waitingOnServerHandshake;
-    _Bool _lock_hasReceivedLatestDeferringObservationsFromServer;
-    NSMapTable *_lock_deferringAssertionsToObservers;
-    NSSet *_lock_deferringObservations;
-    NSMutableSet *_lock_chainObserverContainers;
-    NSMutableDictionary *_lock_identityToChainMatches;
-    NSMutableSet *_lock_allChainObserverPredicates;
-    BSServiceInitiatingConnection *_connection;
 }
 
 + (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)`;
+- (void)getIcon:bundleIconName:width:height:callback: /* Error: Ran out of types for this method. */;
+- (id)zed cluster is empty.;
 - (id);
 - (id);
 - (oneway void);
@@ -32,19 +23,11 @@
 - (void);
 - (oneway void);
 - (void);
-- (id);
-- (void);
+- (id)#;
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) NSSet *deferringObservations; // @dynamic deferringObservations;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasReceivedLatestDeferringObservationsFromServer;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

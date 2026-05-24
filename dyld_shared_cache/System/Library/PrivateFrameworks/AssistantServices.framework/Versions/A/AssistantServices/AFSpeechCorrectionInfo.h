@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface AFSpeechCorrectionInfo
 {
     long long _alternativeSelectionCount;
-    long long _characterModificationCount;
-    long long _characterInsertionCount;
-    long long _characterSubstitutionCount;
-    long long _characterDeletionCount;
-    NSString *_correctedText;
-    NSDictionary *_recognizedTextInfo;
-    NSDictionary *_alternativesSelectedInfo;
-    NSArray *_selectedAlternativesInfo;
 }
 
 + (_Bool);
@@ -40,19 +30,11 @@
 - (long long);
 - (id);
 - (void);
-- (id);
-- (void)eViews:withDialogPhase:fromCommandWithIdentifier:atIndexPaths:isSupplemental:isImmersiveExperience:isPersistentAcrossInvocations: /* Error: Ran out of types for this method. */;
+- (id)=;
+- (void)_addItemsForAceViews:withDialogPhase:fromCommandWithIdentifier:atIndexPaths:isSupplemental:isImmersiveExperience:isPersistentAcrossInvocations: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long alternativeSelectionCount; // @synthesize alternativeSelectionCount=_alternativeSelectionCount;
-@property(copy, nonatomic) NSDictionary *alternativesSelectedInfo; // @synthesize alternativesSelectedInfo=_alternativesSelectedInfo;
-@property(nonatomic) long long characterDeletionCount; // @synthesize characterDeletionCount=_characterDeletionCount;
-@property(nonatomic) long long characterInsertionCount; // @synthesize characterInsertionCount=_characterInsertionCount;
-@property(nonatomic) long long characterModificationCount; // @synthesize characterModificationCount=_characterModificationCount;
-@property(nonatomic) long long characterSubstitutionCount; // @synthesize characterSubstitutionCount=_characterSubstitutionCount;
-@property(copy, nonatomic) NSString *correctedText; // @synthesize correctedText=_correctedText;
-@property(copy, nonatomic) NSDictionary *recognizedTextInfo; // @synthesize recognizedTextInfo=_recognizedTextInfo;
-@property(copy, nonatomic) NSArray *selectedAlternativesInfo; // @synthesize selectedAlternativesInfo=_selectedAlternativesInfo;
 
 @end
 

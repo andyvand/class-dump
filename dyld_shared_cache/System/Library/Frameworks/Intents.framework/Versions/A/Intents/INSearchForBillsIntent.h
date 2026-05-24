@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INBillPayee, INDateComponentsRange, NSString;
+@class INBillPayee;
 
 @interface INSearchForBillsIntent : INIntent
 {
@@ -28,7 +28,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)loads:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -38,17 +38,6 @@
 
 // Remaining properties
 @property(readonly, copy) INBillPayee *billPayee;
-@property(readonly) long long billType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INDateComponentsRange *dueDateRange;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) INDateComponentsRange *paymentDateRange;
-@property(readonly) long long status;
-@property(readonly) Class superclass;
 
 @end
 

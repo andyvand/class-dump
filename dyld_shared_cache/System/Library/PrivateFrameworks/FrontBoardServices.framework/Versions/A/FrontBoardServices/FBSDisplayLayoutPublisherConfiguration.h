@@ -9,7 +9,6 @@
 @interface FBSDisplayLayoutPublisherConfiguration
 {
     NSString *_domainIdentifier;
-    NSString *_instanceIdentifier;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(copy, nonatomic) NSString *instanceIdentifier; // @synthesize instanceIdentifier=_instanceIdentifier;
 
 @end
 

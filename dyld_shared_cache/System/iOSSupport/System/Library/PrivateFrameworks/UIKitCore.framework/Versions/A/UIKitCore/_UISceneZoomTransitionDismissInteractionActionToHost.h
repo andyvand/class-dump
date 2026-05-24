@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)32Q36B44B48B52;
 
 @end
 

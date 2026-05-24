@@ -11,19 +11,17 @@
 @interface ABCNGroupFetchRequest : ABCNFetchRequest
 {
     NSPredicate *_predicate;
-    _Bool _mutableObjects;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool mutableObjects; // @synthesize mutableObjects=_mutableObjects;
 @property(copy, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
 
 @end

@@ -7,8 +7,6 @@
 @interface Sharing.SFLockStateMonitor
 {
     id delegate;
-    id keyBagToken;
-    id keybagOptions;
 }
 
 @end

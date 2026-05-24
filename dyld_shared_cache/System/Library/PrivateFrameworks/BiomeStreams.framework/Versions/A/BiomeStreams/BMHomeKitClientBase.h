@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSString;
+@class NSDateInterval;
 
 @interface BMHomeKitClientBase
 {
     int _homeOccupancy;
-    NSDateInterval *_dateInterval;
-    double _absoluteTimestamp;
-    double _duration;
-    NSString *_homeUniqueIdentifier;
-    NSString *_source;
-    NSString *_clientName;
-    NSString *_eventCorrelationIdentifier;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)isOneToOneRemoteMediaStalling;
+- (id)y痈;
 - (id);
 - (id);
 - (unsigned int);
@@ -32,29 +25,14 @@
 - (id);
 - (double);
 - (_Bool);
-- (id);
+- (id)(=;
 - (id);
 - (id)E DATABASE ;
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, copy, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
-@property(readonly, nonatomic) unsigned int dataVersion;
 @property(readonly, copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, copy, nonatomic) NSString *eventCorrelationIdentifier; // @synthesize eventCorrelationIdentifier=_eventCorrelationIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int homeOccupancy; // @synthesize homeOccupancy=_homeOccupancy;
-@property(readonly, copy, nonatomic) NSString *homeUniqueIdentifier; // @synthesize homeUniqueIdentifier=_homeUniqueIdentifier;
-@property(readonly, copy, nonatomic) NSString *source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 
 @end
 

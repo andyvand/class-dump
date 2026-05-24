@@ -6,12 +6,9 @@
 
 #import <PhotosUICore/PXStoryDerivedTimeline.h>
 
-@class NSArray;
-
 @interface PXStoryAspectFittingTimeline : PXStoryDerivedTimeline
 {
     long long _keySegmentIdentifier;
-    NSArray *_keySegmentDisplayAssetClips;
 }
 
 - (long long);
@@ -23,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *keySegmentDisplayAssetClips; // @synthesize keySegmentDisplayAssetClips=_keySegmentDisplayAssetClips;
 @property(readonly, nonatomic) long long keySegmentIdentifier; // @synthesize keySegmentIdentifier=_keySegmentIdentifier;
 
 @end

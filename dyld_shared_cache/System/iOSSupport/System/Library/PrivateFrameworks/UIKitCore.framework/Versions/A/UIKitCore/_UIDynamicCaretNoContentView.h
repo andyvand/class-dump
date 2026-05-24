@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id):(id)arg1;
+- (id)_attributedStringIsolatingStringWritingDirection:(id)arg1;
 
 @end
 

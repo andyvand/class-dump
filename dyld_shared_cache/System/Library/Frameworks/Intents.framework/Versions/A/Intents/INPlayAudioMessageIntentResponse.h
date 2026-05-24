@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INPlayAudioMessageIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setThirdPartyVideoDecodersAllowed:(long long)arg1;
++ (int)enumerateKeysAndObjectsUsingBlock:(long long)arg1;
++ (long long)decodeInt64ForKey:(int)arg1;
++ (_Bool)contentTypeForURL:(long long)arg1;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
+- (id)cpModelEvaluate;
+- (id)connectToDeviceService:(id)arg1 withClient:reply: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)stRemove network '%{public}@' for autojoin ;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)tribute: /* Error: Ran out of types for this method. */;
+- (long long)_encodeObject:codableAttribute: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

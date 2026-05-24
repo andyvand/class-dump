@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol NSAccessibilityElement
+- (id)16@"NSString"24@"EMMessageList"32;
 
 @optional
 - (NSString *);

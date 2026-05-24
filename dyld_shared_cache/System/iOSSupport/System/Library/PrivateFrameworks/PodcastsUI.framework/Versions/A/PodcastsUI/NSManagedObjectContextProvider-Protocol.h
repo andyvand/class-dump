@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MTManagedObjectContext;
+
 @protocol NSManagedObjectContextProvider
+- (MTManagedObjectContext *)t=dd};
+- (MTManagedObjectContext *);
+- (MTManagedObjectContext *);
+- (MTManagedObjectContext *)ctionParameters";
 @end
 

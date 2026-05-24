@@ -7,14 +7,12 @@
 @class NSNumber, NSString;
 
 @protocol INCompressFileIntentResponseExport
-- (NSNumber *)MultipleForDeleteTimer:withCompletion: /* Error: Ran out of types for this method. */;
+- (NSNumber *)resolveDeleteMultipleForDeleteTimer:withCompletion: /* Error: Ran out of types for this method. */;
 - (long long)handleDeleteFilePermanently:completion: /* Error: Ran out of types for this method. */;
-- (void)entParameterMetadata;
+- (void)INIntentParameterMetadata;
 - (NSString *);
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *entityName;
-@property(copy) NSNumber *success;
 @end
 

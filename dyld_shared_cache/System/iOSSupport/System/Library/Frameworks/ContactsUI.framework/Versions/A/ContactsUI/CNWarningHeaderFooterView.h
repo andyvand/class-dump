@@ -6,13 +6,10 @@
 
 #import <ContactsUI/CNContactTableViewHeaderFooterView.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNWarningHeaderFooterView : CNContactTableViewHeaderFooterView
 {
     _Bool _shouldDisplayWarningIcon;
-    NSString *_warningText;
 }
 
 + (id);
@@ -21,11 +18,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void)ontacts;
+- (void)canAddContacts;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldDisplayWarningIcon; // @synthesize shouldDisplayWarningIcon=_shouldDisplayWarningIcon;
-@property(retain, nonatomic) NSString *warningText; // @synthesize warningText=_warningText;
 
 @end
 

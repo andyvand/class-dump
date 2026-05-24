@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, _CDContextualKeyPath, _DASScheduler;
-@protocol OS_dispatch_queue, OS_os_log, _CDLocalContext;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _DASWidgetRefreshScheduler
 {
     struct os_unfair_lock_s _lastWidgetViewLock;
-    NSObject<OS_dispatch_queue> *_queue;
-    _DASScheduler *_dasScheduler;
-    NSObject<OS_os_log> *_log;
-    id <_CDLocalContext> _context;
-    _CDContextualKeyPath *_widgetOverrideKeypath;
-    NSMutableDictionary *_lastWidgetViewCache;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)4;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (void);
@@ -54,13 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <_CDLocalContext> context; // @synthesize context=_context;
-@property(retain, nonatomic) _DASScheduler *dasScheduler; // @synthesize dasScheduler=_dasScheduler;
-@property(retain, nonatomic) NSMutableDictionary *lastWidgetViewCache; // @synthesize lastWidgetViewCache=_lastWidgetViewCache;
-@property(nonatomic) struct os_unfair_lock_s lastWidgetViewLock; // @synthesize lastWidgetViewLock=_lastWidgetViewLock;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) _CDContextualKeyPath *widgetOverrideKeypath; // @synthesize widgetOverrideKeypath=_widgetOverrideKeypath;
 
 @end
 

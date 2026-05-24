@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface LAUserLockoutState
 {
     id properties;
@@ -19,14 +17,10 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) double backoff;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long failedAttempts;
-@property(nonatomic, readonly) long long maxAttempts;
-@property(nonatomic, readonly) long long rawValue;
 
 @end
 

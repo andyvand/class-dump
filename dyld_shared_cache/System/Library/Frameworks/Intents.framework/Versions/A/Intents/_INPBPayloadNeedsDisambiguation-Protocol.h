@@ -7,9 +7,10 @@
 @class NSArray;
 
 @protocol _INPBPayloadNeedsDisambiguation
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *disambiguationItems;
-@property(readonly, nonatomic) unsigned long long disambiguationItemsCount;
 @end
 

@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayConfiguration, NSOrderedSet;
+@class FBSDisplayConfiguration;
 
 @interface _FBSSnapshotContext
 {
     FBSDisplayConfiguration *_displayConfiguration;
-    NSOrderedSet *_layers;
-    _Bool _opaque;
-    double _scale;
-    struct CGSize _snapshotSize;
-    _Bool _allowsProtectedContent;
 }
 
 - (id);
 - (_Bool);
 - (double);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)stringWithCapacity:(_Bool)arg1;
+- (void)AVCFPlaybackCoordinator_SuspensionReasonsDidChangeNotification;
 - (struct CGSize);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)_configOfService:fromPlist:isViewService:postfixBlock: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsProtectedContent; // @synthesize allowsProtectedContent=_allowsProtectedContent;
 @property(readonly, nonatomic) FBSDisplayConfiguration *displayConfiguration; // @synthesize displayConfiguration=_displayConfiguration;
-@property(readonly, nonatomic) NSOrderedSet *layers; // @synthesize layers=_layers;
-@property(nonatomic, getter=isOpaque) _Bool opaque; // @synthesize opaque=_opaque;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) struct CGSize snapshotSize; // @synthesize snapshotSize=_snapshotSize;
 
 @end
 

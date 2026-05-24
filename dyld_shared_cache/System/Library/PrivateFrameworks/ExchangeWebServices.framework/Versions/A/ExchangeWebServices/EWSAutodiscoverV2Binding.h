@@ -9,24 +9,20 @@
 @interface EWSAutodiscoverV2Binding
 {
     _Bool _isOnPrem;
-    _Bool _logsActivity;
-    id <EWSAutodiscoverV2BindingDelegate> _delegate;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <EWSAutodiscoverV2BindingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isOnPrem; // @synthesize isOnPrem=_isOnPrem;
-@property _Bool logsActivity; // @synthesize logsActivity=_logsActivity;
 
 @end
 

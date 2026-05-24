@@ -7,6 +7,7 @@
 @class SCNMTLMesh;
 
 @protocol SCNMTLMeshlessDeformer
++ (_Bool);
 + (id)IÎBíð¿¾{ÿ9B²T?rçBð¿¾jîA²T?]+7B-î¿¾EL¥Aê²T?BJë¿¾2èrA³³T?,ÎAç¿¾÷9AÀ´T?Ð¢Aðà¿¾íA ¶T?ÆäAØ¿¾
 î@Z¸T?þYAhÍ¿¾3¶Ä@»T?+7A¾¿¾PH¥@Æ¾T?tAÚ«¿¾3Ó@nÃT?`A¿¾¦Ôr@uÉT?üqê@¤n¿¾äS@¢ÒT?O=Î@Â¾¾¢:@ßúT?ëü¶@E¡½¾ê	%@>U?¿`£@ð¼¾rQ@hU?iÃ@a¼¾×L@µU?x@ÇÖ»¾µüî?Õ®U?~q@
 »¾8Ù?âU?Ö:\@Àº¾Í;Æ?÷"V?½J@M£¹¾Ìµ?¸@V?of:@óu¹¾½§?RV?¼,@{×¸¾Øô?EV?

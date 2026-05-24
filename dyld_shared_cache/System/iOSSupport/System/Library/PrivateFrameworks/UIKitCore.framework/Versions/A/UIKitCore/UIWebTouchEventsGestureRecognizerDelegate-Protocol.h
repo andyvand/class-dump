@@ -5,5 +5,8 @@
 //
 
 @protocol UIWebTouchEventsGestureRecognizerDelegate
+
+@optional
+- (_Bool);
 @end
 

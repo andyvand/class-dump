@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSPrintOperationPrintEventRetrofitInfo
 {
     NSDictionary *printSettings;
-    _Bool showPrintPanel;
-    id sender;
-    id delegate;
-    SEL didPrintSelector;
-    void *contextInfo;
 }
 
 - (id);

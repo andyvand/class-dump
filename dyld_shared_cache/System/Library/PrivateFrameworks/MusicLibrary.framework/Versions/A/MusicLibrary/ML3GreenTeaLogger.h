@@ -9,16 +9,13 @@
 @interface ML3GreenTeaLogger
 {
     NSString *_accessor;
-    struct ct_green_tea_logger_s *_logger;
-    double _lastLogTime;
-    struct os_unfair_lock_s _lock;
 }
 
-+ (void);
-- (void);
-- (id);
-- (void);
-- (void);
++ (void)SObject<OS_dispatch_queue>",R,N,V_helperQueue;
+- (void)lete %{public}@ from SPL, error %@;
+- (id)info %@;
+- (void)file:%@ /* Error: Ran out of types for this method. */;
+- (void)ight size %td != data length %tu for item %{public}@ bundleID %{public}@;
 - (void);
 - (void)m_stats SET play_count_user = play_count_user + ?, play_count_recent = play_count_recent + ?, skip_count_user = skip_count_user + ?, skip_count_recent = skip_count_recent + ? WHERE item_pid = ?;
 

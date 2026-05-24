@@ -8,13 +8,13 @@
 {
 }
 
-+ (id);
++ (id)cK9;
 + (id);
 + (void);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)Tk;
 + (id);
 
 @end

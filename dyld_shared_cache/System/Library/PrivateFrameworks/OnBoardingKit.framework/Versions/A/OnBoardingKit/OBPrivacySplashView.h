@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSImage, NSStackView, NSString, OBPrivacyLinkButton;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface OBPrivacySplashView
 {
     _Bool _allowsOpeningSafari;
-    _Bool _isCombined;
-    NSString *_displayLanguage;
-    NSColor *_customTintColor;
-    NSImage *_icon;
-    NSString *_mainTitle;
-    double _contentWidth;
-    OBPrivacyLinkButton *_learnMoreButton;
-    NSStackView *_contentStack;
-    NSArray *_privacyFlowGroups;
 }
 
 - (id);
@@ -48,35 +39,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void):(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)preferredStoreStringIdentifierForPersonID:(id)arg1;
+- (void)storeExtendedLyricsAttribute;
 - (double);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)undles;
+- (void)bundles;
 
 // Remaining properties
-@property _Bool allowsOpeningSafari; // @synthesize allowsOpeningSafari=_allowsOpeningSafari;
-@property(retain) NSStackView *contentStack; // @synthesize contentStack=_contentStack;
-@property double contentWidth; // @synthesize contentWidth=_contentWidth;
-@property(retain, nonatomic) NSColor *customTintColor; // @synthesize customTintColor=_customTintColor;
-@property(retain) NSString *displayLanguage; // @synthesize displayLanguage=_displayLanguage;
 @property(retain) NSImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) _Bool isCombined; // @synthesize isCombined=_isCombined;
-@property(retain) OBPrivacyLinkButton *learnMoreButton; // @synthesize learnMoreButton=_learnMoreButton;
-@property(retain) NSString *mainTitle; // @synthesize mainTitle=_mainTitle;
-@property(retain) NSArray *privacyFlowGroups; // @synthesize privacyFlowGroups=_privacyFlowGroups;
 
 @end
 

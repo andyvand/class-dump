@@ -5,5 +5,7 @@
 //
 
 @protocol IMDaemonBuddyListProtocol
+- (void)i;
+- (void)8;
 @end
 

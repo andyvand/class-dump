@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCoreAnalyticsMetricEventDispatcher, NSMutableDictionary;
+@class HMCoreAnalyticsMetricEventDispatcher;
 
 @interface HMAccessorySettingsMetricsDispatcher
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_trackingEvents;
-    HMCoreAnalyticsMetricEventDispatcher *_metricEventDispatcher;
 }
 
 - (void);

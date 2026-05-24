@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface FCCKOrderFeedResponse
 {
     _Bool _reachedEnd;
-    _Bool _reachedMinOrder;
-    _Bool _wasDropped;
-    NSString *_feedID;
-    NSArray *_feedItemAndArticleRecords;
-    unsigned long long _extent;
 }
 
 - (id);

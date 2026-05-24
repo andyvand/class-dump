@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class GEOTimeCheckpoints;
+
 @protocol GEOComposedRouteStepTravelTimeProvider
+- (GEOTimeCheckpoints *)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (double);
+- (double){?={?=dd}{?=dd}}8;
 @end
 

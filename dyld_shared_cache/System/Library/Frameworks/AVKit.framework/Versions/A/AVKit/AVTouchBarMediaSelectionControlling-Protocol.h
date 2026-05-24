@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTouchBarMediaSelectionOption, NSArray;
+@class NSArray;
 
 @protocol AVTouchBarMediaSelectionControlling
-- (NSArray *)layerView:failedToStartPictureInPictureWithError: /* Error: Ran out of types for this method. */;
+- (void)`
+;
+- (NSArray *)playerView:failedToStartPictureInPictureWithError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSArray *audioTouchBarMediaSelectionOptions;
-@property(retain) AVTouchBarMediaSelectionOption *currentAudioTouchBarMediaSelectionOption;
-@property(retain) AVTouchBarMediaSelectionOption *currentLegibleTouchBarMediaSelectionOption;
-@property(readonly) _Bool hasAudioTouchBarMediaSelectionOptions;
-@property(readonly) _Bool hasLegibleTouchBarMediaSelectionOptions;
 @property(readonly) _Bool hasTouchBarMediaSelectionOptions;
-@property(readonly) NSArray *legibleTouchBarMediaSelectionOptions;
 @end
 

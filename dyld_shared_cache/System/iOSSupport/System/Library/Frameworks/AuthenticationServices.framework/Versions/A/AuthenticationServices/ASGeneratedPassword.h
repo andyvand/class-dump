@@ -9,7 +9,6 @@
 @interface ASGeneratedPassword
 {
     NSString *kind;
-    void value;
 }
 
 + (_Bool);
@@ -17,19 +16,16 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)<q6;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)chatStyle;
+- (id)sagesPendingUpdateT1ToCloudKitWithLimit called with limit %lld;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *kind; // @synthesize kind;
-@property(nonatomic, readonly) NSString *localizedName;
-@property(nonatomic, readonly) NSString *value;
 
 @end
 

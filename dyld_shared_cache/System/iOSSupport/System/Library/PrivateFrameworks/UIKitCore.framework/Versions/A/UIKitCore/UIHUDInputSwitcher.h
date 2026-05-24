@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     UIInputSwitcherView *m_switcherView;
 }
 
-- (_Bool);
+- (_Bool);
+- (void)DSMessageContext, bail.;
+- (void)ation library. syndicationLibrary:(id)arg1 %@;
+- (id)d;
+- (void)Blastdoor name=(%@); reason=(%@);
+- (id)IMCheckAllDeviceConditions;
+- (id)to identifier:%@   chat:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)eligible on imagent launch;
+- (_Bool)RelayPushHandler;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);

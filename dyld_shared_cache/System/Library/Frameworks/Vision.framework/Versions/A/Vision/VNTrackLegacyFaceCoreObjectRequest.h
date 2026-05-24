@@ -11,16 +11,11 @@
 @interface VNTrackLegacyFaceCoreObjectRequest : VNTrackObjectRequest
 {
     _Bool _faceCoreEnhanceEyesAndMouthLocalization;
-    _Bool _faceCoreExtractBlink;
-    _Bool _faceCoreExtractSmile;
-    float _faceCoreKalmanFilter;
-    NSNumber *_faceCoreMinFaceSize;
-    NSNumber *_faceCoreNumberOfDetectionAngles;
 }
 
 + (id);
-+ (unsigned int);
-+ (id);
++ (unsigned int);
++ (id)setCountOfAddedContacts: /* Error: Ran out of types for this method. */;
 + (id);
 + (unsigned long long);
 - (void);
@@ -40,12 +35,7 @@
 - (void)orIS3_EEEE;
 
 // Remaining properties
-@property(nonatomic) _Bool faceCoreEnhanceEyesAndMouthLocalization; // @synthesize faceCoreEnhanceEyesAndMouthLocalization=_faceCoreEnhanceEyesAndMouthLocalization;
-@property(nonatomic) _Bool faceCoreExtractBlink; // @synthesize faceCoreExtractBlink=_faceCoreExtractBlink;
-@property(nonatomic) _Bool faceCoreExtractSmile; // @synthesize faceCoreExtractSmile=_faceCoreExtractSmile;
-@property(nonatomic) float faceCoreKalmanFilter; // @synthesize faceCoreKalmanFilter=_faceCoreKalmanFilter;
 @property(retain, nonatomic) NSNumber *faceCoreMinFaceSize; // @synthesize faceCoreMinFaceSize=_faceCoreMinFaceSize;
-@property(retain, nonatomic) NSNumber *faceCoreNumberOfDetectionAngles; // @synthesize faceCoreNumberOfDetectionAngles=_faceCoreNumberOfDetectionAngles;
 
 @end
 

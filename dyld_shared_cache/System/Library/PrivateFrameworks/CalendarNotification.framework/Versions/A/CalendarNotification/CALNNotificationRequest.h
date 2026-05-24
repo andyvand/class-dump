@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALNNotificationContent, NSString;
+@class NSString;
 
 @interface CALNNotificationRequest
 {
     NSString *_identifier;
-    CALNNotificationContent *_content;
 }
 
 + (id);
@@ -20,15 +19,14 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id)dateWithTimeInterval:(struct _NSZone *)arg1 sinceDate: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (_Bool)1á#°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CALNNotificationContent *content; // @synthesize content=_content;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

@@ -4,34 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSMutableArray, OBButtonTrayBar, OBButtonTrayLayoutGuide, OBButtonTrayStack, OBLinkTrayButton, OBPrivacyLinkController, OBTemplateLabel, UIView, UIViewController, _UIScrollPocketInteraction;
+@class OBPrivacyLinkController, UIViewController;
 
 @interface OBButtonTray
 {
     OBPrivacyLinkController *_privacyLinkController;
-    long long _preferredStyle;
-    UIViewController *_parentViewController;
-    OBLinkTrayButton *_linkButton;
-    NSMutableArray *_boldButtons;
-    OBButtonTrayLayoutGuide *_buttonLayoutGuide;
-    CDUnknownBlockType _privacyLinkCallback;
-    OBTemplateLabel *_captionLabel;
-    long long _captionStyle;
-    UIView *_buttonView;
-    OBButtonTrayStack *_trayStack;
-    OBButtonTrayBar *_trayBar;
-    NSLayoutConstraint *_buttonViewTopConstraint;
-    NSLayoutConstraint *_buttonViewLeadingConstraint;
-    NSLayoutConstraint *_buttonViewTrailingConstraint;
-    _UIScrollPocketInteraction *_scrollPocketInteraction;
 }
 
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,25 +38,11 @@
 - (void);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
 - (void);
 - (id);
+- (void)st 1-4 channels to be used for axr_decoder_read_rgba_pixels.;
 - (void);
-- (void);
-- (void);
+- (void)>;
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -68,9 +53,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)0;
 - (id);
-- (id);
+- (id)_t>, unsigned long long>, WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::RemoteMediaSessionState>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::RemoteMediaSessionState>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::RemoteMediaSessionState>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::RemoteMediaSessionState>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::RemoteMediaSessionState>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::RemoteMediaSessionState>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::MediaSessionIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (void);
@@ -80,22 +65,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *boldButtons; // @synthesize boldButtons=_boldButtons;
-@property(retain, nonatomic) OBButtonTrayLayoutGuide *buttonLayoutGuide; // @synthesize buttonLayoutGuide=_buttonLayoutGuide;
-@property(retain, nonatomic) UIView *buttonView; // @synthesize buttonView=_buttonView;
-@property(retain, nonatomic) NSLayoutConstraint *buttonViewLeadingConstraint; // @synthesize buttonViewLeadingConstraint=_buttonViewLeadingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *buttonViewTopConstraint; // @synthesize buttonViewTopConstraint=_buttonViewTopConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *buttonViewTrailingConstraint; // @synthesize buttonViewTrailingConstraint=_buttonViewTrailingConstraint;
-@property(retain, nonatomic) OBTemplateLabel *captionLabel; // @synthesize captionLabel=_captionLabel;
-@property(nonatomic) long long captionStyle; // @synthesize captionStyle=_captionStyle;
-@property(retain, nonatomic) OBLinkTrayButton *linkButton; // @synthesize linkButton=_linkButton;
 @property(nonatomic) __weak UIViewController *parentViewController; // @synthesize parentViewController=_parentViewController;
-@property(nonatomic) long long preferredStyle; // @synthesize preferredStyle=_preferredStyle;
-@property(copy, nonatomic) CDUnknownBlockType privacyLinkCallback; // @synthesize privacyLinkCallback=_privacyLinkCallback;
-@property(retain, nonatomic) OBPrivacyLinkController *privacyLinkController; // @synthesize privacyLinkController=_privacyLinkController;
-@property(retain, nonatomic) _UIScrollPocketInteraction *scrollPocketInteraction; // @synthesize scrollPocketInteraction=_scrollPocketInteraction;
-@property(retain, nonatomic) OBButtonTrayBar *trayBar; // @synthesize trayBar=_trayBar;
-@property(retain, nonatomic) OBButtonTrayStack *trayStack; // @synthesize trayStack=_trayStack;
 
 @end
 

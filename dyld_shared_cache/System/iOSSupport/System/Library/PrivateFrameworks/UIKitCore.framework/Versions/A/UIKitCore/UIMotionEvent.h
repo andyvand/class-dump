@@ -6,33 +6,18 @@
 
 #import <UIKitCore/UIEvent.h>
 
-@class NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface UIMotionEvent : UIEvent
 {
     long long _subtype;
-    int _shakeState;
-    long long _stateMachineState;
-    double _shakeStartTime;
-    double _lastMovementTime;
-    double _highLevelTime;
-    double _lowEndTimeout;
-    NSTimer *_idleTimer;
-    _Bool _sentMotionBegan;
-    float _lowPassState[10];
-    unsigned long long _lowPassStateIndex;
-    unsigned long long _highPassStateIndex;
-    float _highPassState[2];
-    int notifyToken;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)lowSharedLibraries;
 - (id);
 - (id);
-- (float);
+- (float)l:(float)arg1 forHome: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -42,9 +27,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)ier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
 - (long long);
-- (_Bool)ed: /* Error: Ran out of types for this method. */;
-- (int)AreaForContainer:inCoordinateSpace:shouldLoadScrollableContainer: /* Error: Ran out of types for this method. */;
-- (void):(int)arg1 andPost: /* Error: Ran out of types for this method. */;
+- (_Bool)translateToUISmartInsertDeleteEnabled: /* Error: Ran out of types for this method. */;
+- (int)_minimumSearchAreaForContainer:inCoordinateSpace:shouldLoadScrollableContainer: /* Error: Ran out of types for this method. */;
+- (void)_FBSDisplayDidPossiblyConnect:(int)arg1 withScene:andPost: /* Error: Ran out of types for this method. */;
 - (_Bool)g;
 - (long long)øBCÄC;
 - (int);

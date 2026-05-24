@@ -7,14 +7,11 @@
 @class NSString;
 
 @protocol BMTombstoneEvent
+- (unsigned long long)Sh;
+- (NSString *)P;
+- (NSString *)(;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long deletionReason;
-@property(readonly, nonatomic) double eventTimestamp;
-@property(readonly, nonatomic) unsigned long long length;
-@property(readonly, nonatomic) unsigned long long offset;
-@property(readonly, nonatomic) NSString *policyID;
-@property(readonly, nonatomic) NSString *processName;
 @property(readonly, nonatomic) NSString *segmentName;
 @end
 

@@ -6,13 +6,12 @@
 
 #import <OfficeImport/CMDrawableMapper.h>
 
-@class CMDrawingContext, ODDDiagram;
+@class ODDDiagram;
 
 __attribute__((visibility("hidden")))
 @interface CMDiagramMapper : CMDrawableMapper
 {
     ODDDiagram *mDiagram;
-    CMDrawingContext *mDrawingContext;
 }
 
 + (int);

@@ -7,16 +7,6 @@
 @interface PhotoAnalysis.Executive
 {
     id $defaultActor;
-    id resourcesDirector;
-    id workerFactory;
-    id taskScheduler;
-    id activityManager;
-    id didStartupActivityManager;
-    id serviceProviders;
-    id logger;
-    id uuid;
-    id stateHolder;
-    id isPhotoAnalysisAgent;
 }
 
 @end

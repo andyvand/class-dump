@@ -7,9 +7,6 @@
 @interface (extension in AVFoundation):__C.AVAssetWriterInput.PixelBufferReceiver
 {
     id writer;
-    id input;
-    id pixelBufferAdaptor;
-    id $__lazy_storage_$_mutablePixelBufferPool;
 }
 
 @end

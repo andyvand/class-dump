@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOSharedNavChargingStationInfo
 {
     PBUnknownFields *_unknownFields;
-    double _chargingTime;
-    unsigned long long _muid;
-    NSString *_name;
-    struct {
-        unsigned int has_chargingTime:1;
-        unsigned int has_muid:1;
-    } _flags;
 }
 
-+ (_Bool)tinationsWidget:(id)arg1;
++ (_Bool)setMapsDestinationsWidget:(id)arg1;
 - (void);
 - (void);
 - (double);
@@ -29,9 +22,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)_shouldLogGeckoEvent:(id)arg1;
+- (id)tion:] /* Error: Ran out of types for this method. */;
+- (id)3>	;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -41,20 +34,14 @@
 - (_Bool);
 - (void);
 - (id)q16q24q32q40q48;
-- (id)il;
-- (id)hChainInfo;
-- (id)OMPLETE_RESPONSE_STATUS_RANKER_MODULE_NOT_LOADED;
+- (id)hasEventDetail;
+- (id)GEOPDSearchChainInfo;
+- (id)MIF_AUTOCOMPLETE_RESPONSE_STATUS_RANKER_MODULE_NOT_LOADED;
 - (void)0;
 - (void)W\´P@;
 
 // Remaining properties
-@property(nonatomic) double chargingTime;
-@property(nonatomic) _Bool hasChargingTime;
 @property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *name;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -21,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (id);
 - (long long);
-- (long long);
+- (long long)H}Kc;
 - (double);
 - (unsigned long long);
 - (unsigned long long);
-- (id)tartRequest:withError: /* Error: Ran out of types for this method. */;
+- (id)avcMediaRecorderRequestDidStartRequest:withError: /* Error: Ran out of types for this method. */;
 
 @end
 

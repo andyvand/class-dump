@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CASAdditions)
-- (id);
+- (id)autofavoritedScore;
 @end
 

@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (id)%;
 - (id);
-- (id);
-- (long long);
+- (long long)4;
 - (id);
 - (id);
 

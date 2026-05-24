@@ -6,24 +6,11 @@
 
 #import <NewsCore/FCMultiStepFetchOperation.h>
 
-@class NSArray;
-@protocol FCContentContext, FCCoreConfiguration;
+@protocol FCContentContext;
 
 @interface FCArticleHeadlinesFetchOperation : FCMultiStepFetchOperation
 {
     _Bool _overrideArticleCachePolicy;
-    _Bool _overrideTagCachePolicy;
-    _Bool _shouldFilterHeadlinesWithoutSourceChannels;
-    id <FCCoreConfiguration> _configuration;
-    unsigned long long _articleCachePolicy;
-    double _articleMaximumCachedAge;
-    unsigned long long _tagCachePolicy;
-    double _tagMaximumCachedAge;
-    CDUnknownBlockType _interestTokenHandler;
-    id <FCContentContext> _context;
-    NSArray *_articleIDs;
-    NSArray *_ignoreCacheForArticleIDs;
-    NSArray *_resultHeadlines;
 }
 
 - (double);
@@ -37,22 +24,53 @@
 - (void);
 - (id);
 - (id);
+- (void)geode/Source/Operations/PhotoEffect/IPAPhotoEffectFilter.m;
+- (void).0) + pow(lab.b - labOther.b, 2.0)); 
+	dist = min(dist, 1.0); 
+	// multiply the input pixel by the distance, so if it's unmapped, we get black, and if it's mapped, the color is scaled 
+	pix = origPix * vec4(vec3(dist), 1.0); 
+ 	return pix; 
+}kernel vec4 convertFromRGBToLABMonochrome(sampler orig, sampler gmapped){ 
+	vec3 xyzN = vec3(0.95, 1.0, 1.089); 
+	vec3 stepXYZ, fXYZ, xyzIm; 
+	vec4 pix; 
+	vec4 origPix = sample(orig, samplerCoord(orig)); 
+	pix = origPix; 
+	xyzIm =  	pix.r * vec3(0.5767309,0.2973769, 0.0270343) + 
+   pix.g * vec3(0.185554, 0.6273491, 0.0706872) + 
+    pix.b * vec3(0.1881852, 0.0752741, 0.9911085);  	xyzIm = xyzIm/xyzN; 
+  	stepXYZ = step( 0.008856, xyzIm ); 
+  	fXYZ	= (7.787*xyzIm+(.160/1.160))*(1.0-stepXYZ) + (pow(xyzIm, vec3(1.0/3.0))*stepXYZ); 
+  	vec4 lab = vec4(1.16*fXYZ.y - .16, 5.0*(fXYZ.x - fXYZ.y), 2.0*(fXYZ.y - fXYZ.z), pix.a); 
+ 	pix = sample(gmapped, samplerCoord(gmapped)); 
+	xyzIm =  	pix.r * vec3(0.5767309,0.2973769, 0.0270343) + 
+    pix.g * vec3(0.185554, 0.6273491, 0.0706872) + 
+    pix.b * vec3(0.1881852, 0.0752741, 0.9911085);  	xyzIm = xyzIm/xyzN; 
+  	stepXYZ = step( 0.008856, xyzIm ); 
+  	fXYZ	= (7.787*xyzIm+(.160/1.160))*(1.0-stepXYZ) + (pow(xyzIm, vec3(1.0/3.0))*stepXYZ); 
+  	vec4 labOther = vec4(1.16*fXYZ.y - .16, 5.0*(fXYZ.x - fXYZ.y), 2.0*(fXYZ.y - fXYZ.z), pix.a); 
+	float dist = (pow(lab.r - labOther.r, 2.0) + pow(lab.g - labOther.g, 2.0) + pow(lab.b - labOther.b, 2.0)); 
+	dist = min(dist, 1.0); 
+	dist = smoothstep(0.04, 1.0, dist); 
+	float gray = (origPix.r + origPix.g + origPix.b) / 3.0; 
+	// if we're close to zero distance, then we get gray scale, but if it's mapped more, we get a color pixel, scaled by the amount of the mapping 
+	pix.rgb = mix(vec3(gray), pix.rgb, dist); 
+ 	return pix; 
+};
 - (void);
-- (void);
-- (void);
+- (id)viewWillMoveToWindow: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
+- (void);
+- (void)g;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)setRemoteObjectInterface:(CDUnknownBlockType)arg1;
+- (void)setPerformSendAnimationOnAppear:(id)arg1;
 - (_Bool);
 - (unsigned long long);
-- (double);
+- (double)ue().toLowerCase())||"400"===i?normalWeight:"bold"===i||"bolder"===i||i>400?heavyWeight:lightWeight:S;break}case CSSValue.CSS_CUSTOM:case CSSValue.CSS_INHERIT:l=S}return S===l},_isRichFontStyleCSSValue=function(e){if(!e)return!1;let t=e.cssText;return t.length&&"normal"!==t},_isRichTextDecorationStyleCSSValue=function(e){if(!e)return!1;let t=!1;switch(e.cssValueType){case CSSPrimitiveValue.CSS_VALUE_LIST:{let i=e;i.length>0&&(t=_isRichTextDecorationStyleCSSValue(i.item(0)))}break;case CSSValue.CSS_PRIMITIVE_VALUE:{let i=e,S=i.primitiveType;if(CSSPrimitiveValue.CSS_STRING===S||CSSPrimitiveValue.CSS_IDENT===S){let e=i.getStringValue().toLowerCase();t="none"!==e&&"inherit"!==e}}break;case CSSValue.CSS_CUSTOM:case CSSValue.CSS_INHERIT:}return t},_isRichTextAlignmentStyleCSSValue=function(e){if(!e)return!1;let t=!1;switch(e.cssValueType){case CSSPrimitiveValue.CSS_VALUE_LIST:{let i=e;i.length>0&&(t=_isRichTextAlignmentStyleCSSValue(i.item(0)))}break;case CSSValue.CSS_PRIMITIVE_VALUE:{let i=e,S=i.primitiveType;if(CSSPrimitiveValue.CSS_STRING===S||CSSPrimitiveValue.CSS_IDENT===S){let e=i.getStringValue().toLowerCase();t="left"!==e&&"inherit"!==e}}break;case CSSValue.CSS_CUSTOM:case CSSValue.CSS_INHERIT:}return t};Element.prototype.isRichTextStyle=function(e){let t=!1;return(t=!_isBlackCSSColorValue(e.getPropertyCSSValue("color")))||(t||(t=!_isMatchingFontFamilyCSSValue(e.getPropertyCSSValue("font-family"),defaultComposeFontFamily)),t||(t=!_isMatchingPixelSizeCSSValue(e.getPropertyCSSValue("font-size"),defaultComposeFontPixelSize)),t||(t=!_isMatchingFontWeightCSSValue(e.getPropertyCSSValue("font-weight"),normalWeight))),t||(t=_isRichFontStyleCSSValue(e.getPropertyCSSValue("font-style"))),t||(t=_isRichTextDecorationStyleCSSValue(e.getPropertyCSSValue("text-decoration"))),t||(t=_isRichTextAlignmentStyleCSSValue(e.getPropertyCSSValue("text-align"))),t||(t=!!e.getPropertyCSSValue("direction")),t},Element.prototype.isRichTextElement=function(){let e=this.isRichTextElementType();if(!e){let t=this.nodeName.toLowerCase();if("blockquote"===t){let t=this.getAttribute("type");e=!t||"cite"!==t.toLowerCase()}else if("img"===t){if(!(this instanceof HTMLImageElement&&this.attachmentIdentifier)){let t=this.src;if(t){let i;try{i=new URL(t).protocol}catch(e){}e=i===undefined||i!==MFContentIDScheme+":"}}}else document.isInlineGenmojiEnabled&&"source"===t?e=this instanceof HTMLSourceElement&&this.parentElement instanceof HTMLPictureElement&&this.attachmentIdentifier:"p"===t&&(e=!this.hasMarginsOfZero())}if(!e){let t=this.hasAttribute("STYLE")?this.style:undefined;t&&"none"!==t.getPropertyValue("display")&&(e=this.isRichTextStyle(t))}return e||this.getAttribute("class")!==MFMailDropItemClass&&this.getAttribute("class")!==MFMailDropBannerClass||(e=!0),e||this.getAttribute("id")===MFHtmlIDSignature&&(e=!0),e},Element.prototype.isRichLink=function(){let e=this.classList;return e.length&&e.contains(MFRichLinkClass)},Element.prototype.richLinkContainer=function(){if(this.isRichLink())return this;let e=this.parentElement;return e?e.richLinkContainer():null},Element.prototype.isRichLinkPlaceholder=function(){let e=this.classList;return e.length&&e.contains(linkPlaceHolderClass)},Element.prototype.richLinkPlaceholderContainer=function(){if(this.isRichLinkPlaceholder())return this;let e=this.parentElement;return e?e.richLinkPlaceholderContainer():null},Element.prototype.mf_isListContainer=function(){return this instanceof HTMLOListElement||this instanceof HTMLUListElement},Element.prototype.mf_insertChildrenWithUndoSupport=function(){let e=[],t=insertAttachmentsAtEnd;for(let i of this.querySelectorAll("attachment, img")){let S=i.mf_attachmentIdentifier();if(S)if(e.push(i),t)i.remove();else{let e=document.createElement("span");e.setAttribute("class",MFMailTemporaryAttachmentWrapper),e.id=S,i.replaceWith(e)}}document.execCommand("InsertHTML",!0,this.innerHTML);for(let i of e)if(t)document.body.appendChild(i);else{let e=i.mf_attachmentIdentifier();document.getElementById(e).appendChild(i)}}; /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
-- (void)ArticlesFromReadingList;
+- (void)clearArticlesFromReadingList;
 - (unsigned long long)V_contentScaleMacOS;
 - (id)ange",C,N,V_feedRange;
 - (void);
@@ -61,19 +79,7 @@
 - (id)x;
 
 // Remaining properties
-@property unsigned long long articleCachePolicy; // @synthesize articleCachePolicy=_articleCachePolicy;
-@property(retain, nonatomic) NSArray *articleIDs; // @synthesize articleIDs=_articleIDs;
-@property double articleMaximumCachedAge; // @synthesize articleMaximumCachedAge=_articleMaximumCachedAge;
-@property(copy, nonatomic) id <FCCoreConfiguration> configuration; // @synthesize configuration=_configuration;
 @property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(retain, nonatomic) NSArray *ignoreCacheForArticleIDs; // @synthesize ignoreCacheForArticleIDs=_ignoreCacheForArticleIDs;
-@property(copy, nonatomic) CDUnknownBlockType interestTokenHandler; // @synthesize interestTokenHandler=_interestTokenHandler;
-@property _Bool overrideArticleCachePolicy; // @synthesize overrideArticleCachePolicy=_overrideArticleCachePolicy;
-@property _Bool overrideTagCachePolicy; // @synthesize overrideTagCachePolicy=_overrideTagCachePolicy;
-@property(retain, nonatomic) NSArray *resultHeadlines; // @synthesize resultHeadlines=_resultHeadlines;
-@property(nonatomic) _Bool shouldFilterHeadlinesWithoutSourceChannels; // @synthesize shouldFilterHeadlinesWithoutSourceChannels=_shouldFilterHeadlinesWithoutSourceChannels;
-@property unsigned long long tagCachePolicy; // @synthesize tagCachePolicy=_tagCachePolicy;
-@property double tagMaximumCachedAge; // @synthesize tagMaximumCachedAge=_tagMaximumCachedAge;
 
 @end
 

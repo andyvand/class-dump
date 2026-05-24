@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)localizedSubtitleForContext:(id)arg1;
+- (id)localizedNameWithPreferredLocalizations:(id)arg1;
 - (id);
 - (void)pb
 ;

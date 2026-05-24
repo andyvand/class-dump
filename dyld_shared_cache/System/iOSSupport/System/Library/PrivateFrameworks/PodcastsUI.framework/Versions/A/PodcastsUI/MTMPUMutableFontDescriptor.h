@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -23,14 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double defaultPointSizeAdjustment; // @dynamic defaultPointSizeAdjustment;
-@property(nonatomic) long long leadingAdjustment; // @dynamic leadingAdjustment;
-@property(nonatomic) double systemFontSize; // @dynamic systemFontSize;
 @property(nonatomic) long long textStyle; // @dynamic textStyle;
-@property(nonatomic) _Bool usesCondensedMetrics; // @dynamic usesCondensedMetrics;
-@property(nonatomic) _Bool usesItalic; // @dynamic usesItalic;
-@property(nonatomic) _Bool wantsMonospaceNumbers; // @dynamic wantsMonospaceNumbers;
-@property(nonatomic) long long weight; // @dynamic weight;
 
 @end
 

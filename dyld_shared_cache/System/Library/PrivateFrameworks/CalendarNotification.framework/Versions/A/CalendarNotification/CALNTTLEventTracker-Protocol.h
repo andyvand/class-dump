@@ -5,5 +5,7 @@
 //
 
 @protocol CALNTTLEventTracker
+- (void);
+- (void);
 @end
 

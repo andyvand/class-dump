@@ -11,24 +11,19 @@
 @interface NETunnelProviderManager : NEVPNManager
 {
     NSArray *_safariDomains;
-    NSArray *_mailDomains;
-    NSArray *_calendarDomains;
-    NSArray *_contactsDomains;
-    NSArray *_appRules;
-    NSArray *_excludedDomains;
-    NSArray *_associatedDomains;
 }
 
 + (void);
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (long long);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)�`
+;
 - (id);
 - (id);
 - (id);
@@ -42,19 +37,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)applicationToVerificationInfoProviders;
 - (void)ketInterpose";
 - (id)esponse:(int)arg1 ikeSA:(unsigned long long)arg2 ];
 
 // Remaining properties
-@property(copy) NSArray *appRules; // @synthesize appRules=_appRules;
-@property(copy) NSArray *associatedDomains; // @synthesize associatedDomains=_associatedDomains;
-@property(copy) NSArray *calendarDomains; // @synthesize calendarDomains=_calendarDomains;
-@property(copy) NSArray *contactsDomains; // @synthesize contactsDomains=_contactsDomains;
-@property(copy) NSArray *excludedDomains; // @synthesize excludedDomains=_excludedDomains;
-@property(copy) NSArray *mailDomains; // @synthesize mailDomains=_mailDomains;
 @property(readonly) long long routingMethod;
-@property(copy) NSArray *safariDomains; // @synthesize safariDomains=_safariDomains;
 
 @end
 

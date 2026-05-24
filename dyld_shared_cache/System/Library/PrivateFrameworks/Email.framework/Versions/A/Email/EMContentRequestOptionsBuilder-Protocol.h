@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol EMContentRequestOptionsBuilder
+- (void);
+- (void)AddPassCodingKeys;
+- (void)HomeUtilPassCommand;
+- (long long)MobileAsset;
+- (void)h;
 
 // Remaining properties
-@property(nonatomic) long long cacheBehavior;
-@property(nonatomic) _Bool includeCachedMetadataJSON;
-@property(nonatomic) long long includeSuggestionItems;
-@property(nonatomic) unsigned long long maximumNumberOfOriginalContentMessagesToRequest;
-@property(nonatomic) long long networkUsage;
-@property(nonatomic) _Bool requestAllHeaders;
-@property(copy, nonatomic) NSArray *requestedHeaderKeys;
 @property(copy, nonatomic) NSString *requestedRepresentation;
-@property(nonatomic) long long urlBehavior;
 @end
 

@@ -4,43 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
+@class NSString;
 
 @interface LUI2WallpaperController
 {
     void _displayUUID;
-    CALayer *layer;
-    id result;
-    id continuations;
 }
 
 + (void);
 + (void);
 + (void);
 + (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *);
 + (void);
 + (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)jN;
 - (id);
-- (id);
+- (id)k@;
 - (id);
 - (id);
 - (id);
 - (void);
 - (unsigned int);
 - (void);
-- (id)bleWithoutLogin: /* Error: Ran out of types for this method. */;
+- (id)setCanBecomeVisibleWithoutLogin: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *_displayUUID;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) unsigned int displayID;
-@property(nonatomic, readonly) NSString *displayUUID;
-@property(nonatomic, retain) CALayer *layer; // @synthesize layer;
 
 @end
 

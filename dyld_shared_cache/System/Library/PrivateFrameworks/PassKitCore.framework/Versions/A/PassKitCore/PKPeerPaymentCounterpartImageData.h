@@ -4,42 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKPeerPaymentCounterpartImageData
 {
     NSString *_identifier;
-    NSData *_imageData;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool)0@ù
 × ;
 - (id);
 - (id);
-- (id);
+- (id)RB;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (void)keepCompletionWindowOnWindowDrag;
+- (_Bool)eakOutage"b1"start"b1"totalDuration"b1};
+- (id)setMacEnabs:count: /* Error: Ran out of types for this method. */;
+- (void)eferredChannelFlags;
 - (void);
-- (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id)ityResponse:(id)arg1;
-- (void)reMinute;
+- (id));
+- (id)initWithEligibilityResponse:(id)arg1;
+- (void)NFDepartureMinute;
 - (unsigned long long)ÐkÜ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 
 @end
 

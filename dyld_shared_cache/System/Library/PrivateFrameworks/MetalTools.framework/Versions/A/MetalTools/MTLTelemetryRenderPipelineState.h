@@ -6,15 +6,9 @@
 
 #import <MetalTools/MTLToolsRenderPipelineState.h>
 
-@class MTLTelemetryDevice, NSSet;
-
 @interface MTLTelemetryRenderPipelineState : MTLToolsRenderPipelineState
 {
     unsigned int uniqueID;
-    MTLTelemetryDevice *device;
-    _Bool hasAnisoConstantSampler;
-    NSSet *activeFragmentSamplers;
-    NSSet *activeFragmentTextures;
 }
 
 + (unsigned int);

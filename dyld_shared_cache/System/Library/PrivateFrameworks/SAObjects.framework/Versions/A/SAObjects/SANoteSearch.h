@@ -6,28 +6,26 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface SANoteSearch : SADomainCommand
 {
 }
 
 + (id);
-+ (id);
++ (id)SDLatticeLink;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
-- (id)onIdentifier: /* Error: Ran out of types for this method. */;
+- (id)setInvocationIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contentQuery;
-@property(copy, nonatomic) NSDate *fromDate;
-@property(copy, nonatomic) NSDate *toDate;
 
 @end
 

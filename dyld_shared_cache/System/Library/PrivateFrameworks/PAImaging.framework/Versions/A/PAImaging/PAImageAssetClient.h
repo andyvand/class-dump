@@ -4,54 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PADisplay, PAImageAsset, PAMultiLevelImage;
-@protocol OS_dispatch_queue, PAImageAssetClientDelegate;
+@class NSObject, PAImageAsset;
+@protocol OS_dispatch_queue;
 
 @interface PAImageAssetClient
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_imageQueue;
-    PAMultiLevelImage *_image;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    double _currentScale;
-    struct CGRect _currentROI;
-    _Bool _enableHDR;
-    PADisplay *_display;
-    struct {
-        _Bool respondsToWillLoadMasterImage;
-        _Bool respondsToFailedToLoadMasterImage;
-        _Bool respondsToDidLoadMasterImage;
-        _Bool respondsToDidLoadThumbnailImage;
-        _Bool respondsToWillUpdateImage;
-        _Bool respondsToDidUpdateImage;
-        _Bool respondsToDidUpdateImageSize;
-        _Bool respondsToDidUpdateMultiLevelImage;
-        _Bool respondsToDidPrepareRenderForUpdate;
-        _Bool respondsToFailedToLoadType;
-        _Bool respondsToDidUpdateComposition;
-    } _delegateFlags;
-    _Bool _wantsBackFillImage;
-    _Bool _wantsZoomImage;
-    _Bool _shouldCoalesceUpdates;
-    _Bool _usedStandInGeometry;
-    _Bool _allowsPredictiveRendering;
-    _Bool _allowTiling;
-    _Bool _isHeld;
-    _Bool _offscreen;
-    _Bool _hidden;
-    _Bool _animating;
-    _Bool _isImageValidInCurrentROI;
-    int _priority;
-    id <PAImageAssetClientDelegate> _delegate;
-    NSString *_name;
-    NSString *_contextualVideoThumbnailID;
-    double _targetFrameRate;
-    PAImageAsset *_asset;
-    CDStruct_1b6d18a9 _frameRenderTime;
 }
 
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -73,7 +35,7 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -84,9 +46,9 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (void);
 - (void);
 - (_Bool);
@@ -98,7 +60,7 @@
 - (double);
 - (void);
 - (double);
-- (struct CGSize);
+- (struct CGSize)l saving.;
 - (void);
 - (void);
 - (id);
@@ -113,46 +75,21 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)=;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)J;
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void)#32@0:(_Bool)arg1 8@16@24;
 - (int)ew",R,N,V_overlayView;
 - (void)%ÿÿö©J'Ì;
 
 // Remaining properties
-@property _Bool allowTiling; // @synthesize allowTiling=_allowTiling;
-@property _Bool allowsPredictiveRendering; // @synthesize allowsPredictiveRendering=_allowsPredictiveRendering;
-@property(getter=isAnimating) _Bool animating; // @synthesize animating=_animating;
 @property(retain) PAImageAsset *asset; // @synthesize asset=_asset;
-@property(copy, nonatomic) NSString *contextualVideoThumbnailID; // @synthesize contextualVideoThumbnailID=_contextualVideoThumbnailID;
-@property struct CGRect currentROI;
-@property double currentScale;
-@property __weak id <PAImageAssetClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) PADisplay *display;
-@property _Bool enableHDR;
-@property CDStruct_1b6d18a9 frameRenderTime; // @synthesize frameRenderTime=_frameRenderTime;
-@property(getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly) PAMultiLevelImage *image;
-@property(readonly) long long imageOrientation;
-@property(readonly) _Bool isHeld; // @synthesize isHeld=_isHeld;
-@property(readonly) _Bool isImageUpToDate;
-@property(readonly) _Bool isImageValidInCurrentROI; // @synthesize isImageValidInCurrentROI=_isImageValidInCurrentROI;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(getter=isOffscreen) _Bool offscreen; // @synthesize offscreen=_offscreen;
-@property(readonly) struct CGSize originalImageSize;
-@property int priority; // @synthesize priority=_priority;
-@property _Bool shouldCoalesceUpdates; // @synthesize shouldCoalesceUpdates=_shouldCoalesceUpdates;
-@property double targetFrameRate; // @synthesize targetFrameRate=_targetFrameRate;
-@property(nonatomic) _Bool usedStandInGeometry; // @synthesize usedStandInGeometry=_usedStandInGeometry;
-@property _Bool wantsBackFillImage; // @synthesize wantsBackFillImage=_wantsBackFillImage;
-@property _Bool wantsZoomImage; // @synthesize wantsZoomImage=_wantsZoomImage;
 
 @end
 

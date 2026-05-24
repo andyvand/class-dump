@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AMSUserNotificationSettingsResult
 {
     NSString *_serviceIdentifier;
-    NSDictionary *_itemsMap;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 xK]W$îÛåÍs± M;*_S]¯ÕPpJ¹	êP¡R"Ó¤à(y]S[ÿ0M>É¯ìsÙàÖc;x!â1eðT[¶íâ¢V {åèàÎi 9òì@¿¤ÄÒ¨ë¼A_S¿cÐÞCK|îÊàÔó`UN¥IõëIÏ¶Ñ3Ê_.£õpÔì¦ëòÔÂ<)Hô¿;~u`Ú~@<¡öAd6p>¦xRÀvÉ¾?ûnAZGc<XDú©1_Dæ½jX×qÒÜäPÊ¼íÈ­Îq§ÇÝãØÈÕìª)Ê+GgãL`s´©=©£äF¼BÛö´HevüÕÐ¾,ÏK¾êÜ¬ØW´üàBÜqx¶)U_U1:ÞÝô¥T°eÎ¤®×è¦Ê1Èçµÿ#B:44àÂ>¼(2û /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSDictionary *itemsMap; // @synthesize itemsMap=_itemsMap;
 @property(readonly) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
 
 @end

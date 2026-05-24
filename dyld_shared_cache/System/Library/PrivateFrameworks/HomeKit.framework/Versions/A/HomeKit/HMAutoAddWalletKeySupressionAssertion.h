@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeManager, NSUUID;
+@class HMHomeManager;
 
 __attribute__((visibility("hidden")))
 @interface HMAutoAddWalletKeySupressionAssertion
 {
     HMHomeManager *_homeManager;
-    NSUUID *_homeUUID;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) __weak HMHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
 
 @end
 

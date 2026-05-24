@@ -9,7 +9,6 @@
 @interface CRKASMCertificateParserResult
 {
     NSString *_userIdentifier;
-    NSError *_validationError;
 }
 
 + (id);
@@ -17,11 +16,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)%^;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 @property(readonly, nonatomic) NSError *validationError; // @synthesize validationError=_validationError;
 
 @end

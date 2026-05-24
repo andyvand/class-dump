@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCInterface;
+@class NSXPCConnection;
 
 @interface CHPluginHelper
 {
     NSXPCConnection *_connection;
-    NSXPCInterface *_interface;
 }
 
 - (unsigned long long);

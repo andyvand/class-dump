@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKAssertion, PKPassLibrary;
+@class PKPassLibrary;
 @protocol PKVehicleConnectionDelegate;
 
 @interface PKVehicleConnectionSession
 {
     PKPassLibrary *_passLibrary;
-    NSString *_sessionIdentifier;
-    PKAssertion *_assertion;
-    id <PKVehicleConnectionDelegate> _delegate;
-    long long _connectionStatus;
 }
 
-+ (void);
++ (void)"Y;
 - (void);
 - (id);
 - (void);
@@ -28,19 +24,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)d;
+- (void)migratorDestroyedStoreReason;
+- (void)PKPaymentSetupFeatureStateUnsupported;
 
 // Remaining properties
-@property(readonly, nonatomic) long long connectionStatus; // @synthesize connectionStatus=_connectionStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <PKVehicleConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

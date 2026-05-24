@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIColor;
+
 @protocol _UINSColorPickerViewDelegate
+- (void)fetchCuratedAssetsInAssetCollection:options: /* Error: Ran out of types for this method. */;
+- (void)createUniqueDirectoryWithName:(UIColor *)arg1 atPath:ofType: /* Error: Ran out of types for this method. */;
 @end
 

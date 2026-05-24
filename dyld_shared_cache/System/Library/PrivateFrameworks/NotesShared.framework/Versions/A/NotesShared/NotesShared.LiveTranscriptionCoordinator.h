@@ -7,17 +7,6 @@
 @interface NotesShared.LiveTranscriptionCoordinator
 {
     id _tempSegments;
-    id _finalizedSegments;
-    id _fetchedSegments;
-    id transcriptionMethod;
-    id _attachmentModel;
-    id _isTranscribing;
-    id _transcriptChangeDelegate;
-    id _summarizationTask;
-    id postProcessingTaskQueue;
-    id transcriptGenerationQueue;
-    id _transcript;
-    id _$observationRegistrar;
 }
 
 @end

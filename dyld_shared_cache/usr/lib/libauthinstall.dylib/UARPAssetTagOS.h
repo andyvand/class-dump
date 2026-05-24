@@ -8,13 +8,9 @@ __attribute__((visibility("hidden")))
 @interface UARPAssetTagOS
 {
     BOOL _char1;
-    BOOL _char2;
-    BOOL _char3;
-    BOOL _char4;
-    unsigned int _tag;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (const char *);
 - (BOOL);
@@ -23,20 +19,16 @@ __attribute__((visibility("hidden")))
 - (BOOL);
 - (id);
 - (id);
-- (id);
+- (id)shouldFilterMediaPresentationOptionsToAvailableCacheForMediaSelectionMenuController: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (unsigned int);
-- (_Bool);
-- (void);
+- (unsigned int);
+- (_Bool)keyPathsForValuesAffectingZoomFocusPreviousFollowMode;
+- (void)dictionary;
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly) BOOL char1; // @synthesize char1=_char1;
-@property(readonly) BOOL char2; // @synthesize char2=_char2;
-@property(readonly) BOOL char3; // @synthesize char3=_char3;
-@property(readonly) BOOL char4; // @synthesize char4=_char4;
-@property(readonly) unsigned int tag; // @synthesize tag=_tag;
 
 @end
 

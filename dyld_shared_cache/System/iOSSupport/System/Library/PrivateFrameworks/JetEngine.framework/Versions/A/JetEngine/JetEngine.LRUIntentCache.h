@@ -7,9 +7,6 @@
 @interface JetEngine.LRUIntentCache
 {
     id cache;
-    id memoryPressureSource;
-    id ttlProvider;
-    id timeProvider;
 }
 
 @end

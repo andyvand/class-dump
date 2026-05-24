@@ -6,33 +6,34 @@
 
 #import <TrialServer/TRIExperimentBaseTask.h>
 
-@class NSArray, NSDate, NSString;
-@protocol TRITaskAttributing, TRITaskQueueStateProviding;
-
 @interface TRIDeactivateTreatmentTask : TRIExperimentBaseTask
 {
     _Bool wasDeferred;
-    _Bool _failOnUnrecognizedExperiment;
-    int retryCount;
-    NSDate *_startTime;
-    unsigned long long _triggerEvent;
-    id <TRITaskAttributing> _taskAttribution;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
+- (id)MCVVMxEjAQBgNVBAcMCUN1cGVydGlubzETMBEGA1UECAwK
+Q2FsaWZvcm5pYTEMMAoGA1UECgwDTWF2MREwDwYDVQQLDAhTZWN1cml0eTEjMCEG
+A1UEAwwaTWF2IExvY2FsIFJvb3QgQ2VydGlmaWNhdGUwdjAQBgcqhkjOPQIBBgUr
+gQQAIgNiAATYki2O17E6A6XBIkNfKfBuufxf0EAzH8I8IxtQs+WMXvCywdPl45fd
+ZbUezf26YgIJz248wKxENKmeTXX2VNCtOBqLJzV/XHBGaYJYWJ2ouXH7qqJ6a+uv
+XSJ92Q6PnVAwCgYIKoZIzj0EAwMDaAAwZQIwM6eoRde+zGcTTbS3hUxRiQR3hEjN
+HJI3CzTkAyjqCqYxWxXvsSRUnlNhTasemcLyAjEA7CFAg1cD3gMC3CgHOo6sFXM0
+OgU9yF4gj7sq3/12dLFBASC//fP3AJmTdtSB8g8i
+-----END CERTIFICATE-----
+;
+- (void)_discoveryRetries;
+- (id)lt of direct disconnect call;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void)
 × ;
@@ -41,32 +42,15 @@
 - (void)lobal factor pack directory %{public}@;
 - (id)a proxy for the remote object.;
 - (unsigned long long)othing to remove. No local asset found.;
-- (unsigned long long)ErrorDomain;
-- (id)iledToCalculateTreatmentRecordFetchPlan;
+- (unsigned long long)TRIActiveEnvVarExperimentOCNTErrorDomain;
+- (id)FailedToCalculateTreatmentRecordFetchPlan;
 - (int)entWithEventType:TRIInternalExperimentAllocationStatusTypeTreatmentDeactivationFailure treatmentTriple:triple failureReason:kDeactivateFailureReasonExperimentNotFound] /* Error: Ran out of types for this method. */;
-- (void)t_log_time;
+- (void):(int)arg1 event_log_time;
 - (int)E         experimentId = :experiment_id     AND deploymentId = :deployment_id; /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool failOnUnrecognizedExperiment; // @synthesize failOnUnrecognizedExperiment=_failOnUnrecognizedExperiment;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int retryCount; // @synthesize retryCount;
-@property(copy, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(retain, nonatomic) id <TRITaskAttributing> taskAttribution; // @synthesize taskAttribution=_taskAttribution;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property(nonatomic) unsigned long long triggerEvent; // @synthesize triggerEvent=_triggerEvent;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

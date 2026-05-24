@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol EDConversationRemoteStorage, EDUbiquitousConversationManagerDelegate, OS_dispatch_queue;
+@protocol EDUbiquitousConversationManagerDelegate;
 
 @interface EDUbiquitousConversationManager
 {
     _Bool _initialized;
-    id <EDUbiquitousConversationManagerDelegate> _delegate;
-    id <EDConversationRemoteStorage> _cloudStorage;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_conversationIDsBySyncKey;
-    NSMutableSet *_unmatchedKeys;
 }
 
 + (id)t°!Cù³°1Â0@ù
@@ -29,12 +23,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)pertyKey [%@], params [%@], completion [%{ptr}], context [%{ptr}]
+;
 - (_Bool);
 - (id);
 - (id);
@@ -46,19 +41,7 @@
 - (_Bool)¬;
 
 // Remaining properties
-@property(retain, nonatomic) id <EDConversationRemoteStorage> cloudStorage; // @synthesize cloudStorage=_cloudStorage;
-@property(retain, nonatomic) NSMutableDictionary *conversationIDsBySyncKey; // @synthesize conversationIDsBySyncKey=_conversationIDsBySyncKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EDUbiquitousConversationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool initialized; // @synthesize initialized=_initialized;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableSet *unmatchedKeys; // @synthesize unmatchedKeys=_unmatchedKeys;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface LPImageMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSString *_type;
-    NSString *_accessibilityText;
-    struct CGSize _size;
 }
 
 + (_Bool);
@@ -20,25 +14,21 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (unsigned int);
-- (id);
+- (id)angeToken",&,N,V_resultServerChangeToken;
+- (unsigned int)o delete record %@ in the shared database when using anonymous to server share participants;
+- (id)0@"NSURL"8@"CKDPResponseOperationResult"16;
 - (id);
 - (unsigned long long);
 - (struct CGSize);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (void)!ØDùH°1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

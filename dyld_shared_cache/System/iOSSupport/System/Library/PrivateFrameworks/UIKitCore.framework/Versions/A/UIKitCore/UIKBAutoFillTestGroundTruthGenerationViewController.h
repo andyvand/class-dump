@@ -6,21 +6,13 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSLayoutConstraint, NSString, UIBarButtonItem, UIKBAutoFillTestExpectedResult, UIKBAutoFillTestTaggerView, UIKBAutoFillTestViewController, UIScrollView, UIView;
+@class UIKBAutoFillTestViewController;
 @protocol UIKBAutoFillTestGroundTruthGenerationViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UIKBAutoFillTestGroundTruthGenerationViewController : UIViewController
 {
     UIKBAutoFillTestViewController *_testViewController;
-    UIKBAutoFillTestExpectedResult *_expectedResult;
-    UIScrollView *_scrollView;
-    UIKBAutoFillTestTaggerView *_taggerView;
-    NSLayoutConstraint *_scrollViewBottomConstraint;
-    UIView *_highlightView;
-    UIView *_highlightBox;
-    UIBarButtonItem *_doneBarButtonItem;
-    id <UIKBAutoFillTestGroundTruthGenerationViewControllerDelegate> _delegate;
 }
 
 - (id);
@@ -28,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (long long);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)pluginpayloadattachment;
 - (void);
 - (void);
 - (void);
@@ -43,15 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)`g;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UIKBAutoFillTestGroundTruthGenerationViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIKBAutoFillTestViewController *testViewController; // @synthesize testViewController=_testViewController;
 
 @end
 

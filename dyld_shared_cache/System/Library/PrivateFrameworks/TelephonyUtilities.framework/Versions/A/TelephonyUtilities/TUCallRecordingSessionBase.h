@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface TUCallRecordingSessionBase
 {
     _Bool _redisclosing;
-    NSUUID *_UUID;
-    NSString *_callUUID;
-    NSDate *_recordingStartedDate;
-    NSDate *_recordingEndedDate;
-    NSUUID *_requestUUID;
 }
 
 + (_Bool);
@@ -26,25 +21,20 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)`;
+- (id)(;
+- (void)"32^{CGPoint=dd}40;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)ason: /* Error: Ran out of types for this method. */;
+- (void)remoteScreenShareEndedWithReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(retain, nonatomic) NSString *callUUID; // @synthesize callUUID=_callUUID;
-@property(retain, nonatomic) NSDate *recordingEndedDate; // @synthesize recordingEndedDate=_recordingEndedDate;
-@property(retain, nonatomic) NSDate *recordingStartedDate; // @synthesize recordingStartedDate=_recordingStartedDate;
-@property(nonatomic, getter=isRedisclosing) _Bool redisclosing; // @synthesize redisclosing=_redisclosing;
-@property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
 
 @end
 

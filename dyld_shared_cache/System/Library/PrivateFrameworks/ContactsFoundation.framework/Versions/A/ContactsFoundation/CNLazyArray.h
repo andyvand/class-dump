@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
 @protocol _CNLazyArrayOperation;
 
 @interface CNLazyArray
 {
     id <_CNLazyArrayOperation> _operationChain;
-    NSMutableArray *_output;
 }
 
 - (CDUnknownBlockType);
@@ -22,36 +20,32 @@
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
+- (void);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType)torIcEEEEEEE;
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
+- (CDUnknownBlockType)=%d outIsWindowsUEFIBootable=%d outOS=%@;
 - (CDUnknownBlockType);
 - (id);
+- (id);
+- (id);
+- (CDUnknownBlockType);
+- (id)chElement"8@"NSString"16;
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)";
 - (id);
-- (unsigned long long)ure3;
+- (unsigned long long)_signature3;
 
 // Remaining properties
-@property(readonly) NSArray *allObjects;
-@property(readonly) id firstObject;
-@property(readonly) id lastObject;
 @property(retain) id <_CNLazyArrayOperation> operationChain; // @synthesize operationChain=_operationChain;
-@property(readonly) NSMutableArray *output; // @synthesize output=_output;
 
 @end
 

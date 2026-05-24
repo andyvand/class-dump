@@ -7,17 +7,16 @@
 @interface NTPBIssueViewContextData
 {
     int _issueViewContext;
-    CDStruct_830620d8 _has;
 }
 
 - (void);
-- (void);
-- (int);
-- (_Bool);
+- (void)constraintGreaterThanOrEqualToSystemSpacingBelowAnchor:(_Bool)arg1 multiplier: /* Error: Ran out of types for this method. */;
+- (int)axSubgroups;
+- (_Bool)allShelvesCollapsingMovementAnimationType;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long),;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIssueViewContext;
-@property(nonatomic) int issueViewContext; // @synthesize issueViewContext=_issueViewContext;
 
 @end
 

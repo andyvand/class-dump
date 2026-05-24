@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface CoreDAVLogging
 {
     NSMutableDictionary *_logDelegates;
-    NSMapTable *_primaryLogDelegate;
-    NSObject<OS_dispatch_queue> *_delegateMuckingQueue;
 }
 
 + (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)+;
 - (id);
 - (void);
 - (void);
@@ -24,7 +21,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)rorName;
 - (void);
 
 @end

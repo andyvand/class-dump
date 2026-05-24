@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (PARInitializers)
-- (id);
-- (id);
+- (id)RawPtrTraits<WTF:(id)arg1:(id)arg2 DefaultWeakPtrImpl>];
+- (id)ectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF:(id)arg1:(id)arg2 WeakRef<WebKit:(id)arg3:(double)arg4 ViewGestureController>>:(id)arg5:KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 @end
 

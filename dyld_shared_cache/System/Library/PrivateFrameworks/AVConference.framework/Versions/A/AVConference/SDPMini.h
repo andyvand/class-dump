@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SDPMini
 {
     NSString *_sdpUsername;
-    NSMutableDictionary *_audioParameters;
-    NSString *origin;
-    NSMutableArray *audioPayloads;
-    NSMutableArray *secondaryAudioPayloads;
-    NSString *sessionIP;
-    NSNumber *audioRTPPort;
-    NSNumber *audioRTCPPort;
-    NSNumber *audioRTPID;
-    NSNumber *videoRTPID;
-    _Bool allowRTCPFB;
-    NSNumber *answerBandwidth;
-    NSNumber *maxBandwidth;
-    _Bool allowsDynamicMaxBitrate;
-    _Bool allowsContentsChangeWithAspectPreservation;
-    NSDictionary *featureListDict;
-    NSNumber *aacBlockSize;
-    NSNumber *audioUnitModel;
-    _Bool allowAudioRecording;
-    NSString *basebandCodecType;
-    NSNumber *basebandCodecSampleRate;
-    NSMutableDictionary *_mediaLines;
 }
 
 + (_Bool);
@@ -44,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R_;
 - (void);
 - (void);
 - (void);
@@ -52,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (void);
@@ -61,19 +40,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)R	;
 - (id);
 - (_Bool);
 - (void);
 - (id);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
@@ -98,22 +77,7 @@ __attribute__((visibility("hidden")))
 - (id)%s] %s:(id)arg1 %d @:@ AVAudioClient-setFollowSystemInputEnabled (%p) enabled=%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *aacBlockSize; // @synthesize aacBlockSize;
-@property(nonatomic) _Bool allowAudioRecording; // @synthesize allowAudioRecording;
-@property(nonatomic) _Bool allowRTCPFB; // @synthesize allowRTCPFB;
-@property(nonatomic) _Bool allowsContentsChangeWithAspectPreservation; // @synthesize allowsContentsChangeWithAspectPreservation;
-@property(nonatomic) _Bool allowsDynamicMaxBitrate; // @synthesize allowsDynamicMaxBitrate;
-@property(retain, nonatomic) NSNumber *answerBandwidth; // @synthesize answerBandwidth;
-@property(readonly, nonatomic) NSMutableArray *audioPayloads; // @synthesize audioPayloads;
-@property(retain, nonatomic) NSNumber *audioRTCPPort; // @synthesize audioRTCPPort;
-@property(retain, nonatomic) NSNumber *audioRTPID; // @synthesize audioRTPID;
-@property(retain, nonatomic) NSNumber *audioRTPPort; // @synthesize audioRTPPort;
-@property(retain, nonatomic) NSNumber *audioUnitModel; // @synthesize audioUnitModel;
-@property(retain, nonatomic) NSDictionary *featureListDict; // @synthesize featureListDict;
-@property(retain, nonatomic) NSNumber *maxBandwidth; // @synthesize maxBandwidth;
 @property(retain, nonatomic) NSString *origin; // @synthesize origin;
-@property(readonly, nonatomic) NSMutableArray *secondaryAudioPayloads; // @synthesize secondaryAudioPayloads;
-@property(retain, nonatomic) NSString *sessionIP; // @synthesize sessionIP;
 
 @end
 

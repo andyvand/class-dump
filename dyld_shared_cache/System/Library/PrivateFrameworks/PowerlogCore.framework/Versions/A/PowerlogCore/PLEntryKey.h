@@ -9,14 +9,6 @@
 @interface PLEntryKey
 {
     _Bool _isDynamic;
-    NSString *_entryKey;
-    PLEntryKey *_baseEntryKey;
-    NSString *_operatorName;
-    Class _operatorClass;
-    NSString *_entryType;
-    NSString *_entryName;
-    NSString *_wildCardName;
-    struct _PLTimeIntervalRange _timeIntervalRange;
 }
 
 + (_Bool);
@@ -24,11 +16,11 @@
 + (Class);
 + (id);
 + (void);
-+ (void);
++ (void)	k!;
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (id);
@@ -39,17 +31,17 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)Q16@?<v@?@"NSError">24;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)v;
 + (id);
-+ (id);
++ (_Bool);
 + (_Bool);
-+ (_Bool);
 + (id);
-+ (id)Page:(id)arg1 andUsage:withBlock: /* Error: Ran out of types for this method. */;
++ (id)initWithOperator:(id)arg1 forUsagePage:andUsage:withBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -65,21 +57,13 @@
 - (struct _PLTimeIntervalRange);
 - (void);
 - (id);
+- (id)d;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)B;
 
 // Remaining properties
-@property __weak PLEntryKey *baseEntryKey; // @synthesize baseEntryKey=_baseEntryKey;
-@property(readonly, retain) NSString *entryKey; // @synthesize entryKey=_entryKey;
-@property(readonly, retain) NSString *entryName; // @synthesize entryName=_entryName;
-@property(readonly, retain) NSString *entryType; // @synthesize entryType=_entryType;
-@property(nonatomic) _Bool isDynamic; // @synthesize isDynamic=_isDynamic;
-@property(readonly, retain) Class operatorClass; // @synthesize operatorClass=_operatorClass;
-@property(readonly, retain) NSString *operatorName; // @synthesize operatorName=_operatorName;
-@property(nonatomic) struct _PLTimeIntervalRange timeIntervalRange; // @synthesize timeIntervalRange=_timeIntervalRange;
 @property(copy, nonatomic) NSString *wildCardName; // @synthesize wildCardName=_wildCardName;
 
 @end

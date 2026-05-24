@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *locale;
-@property(copy, nonatomic) NSString *messageText;
 
 @end
 

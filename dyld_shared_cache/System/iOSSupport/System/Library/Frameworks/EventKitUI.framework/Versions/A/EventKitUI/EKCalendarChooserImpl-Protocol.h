@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, EKEventStore, NSSet;
-@protocol EKCalendarChooserDelegate, EKUIViewControllerNavigationDelegate;
+@class EKEventStore, NSSet;
 
 @protocol EKCalendarChooserImpl
+- (_Bool);
+- (_Bool);
+- (void)s;
+- (id)+s;
+- (int)F+s;
+- (_Bool)x0+s;
+- (void)Jz;
+- (void)e;
+- (EKEventStore *)^;
+- (void);
+- (NSSet *)ve pasteboard type;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allSelected;
-@property(nonatomic) _Bool allowsPullToRefresh;
-@property(nonatomic) long long chooserMode;
-@property(copy, nonatomic) NSSet *collapsedSectionIdentifiers;
-@property(nonatomic) __weak id <EKCalendarChooserDelegate> delegate;
-@property(nonatomic) _Bool disableCalendarEditing;
-@property(nonatomic) _Bool disableCalendarsUnselectedByFocus;
-@property(readonly, nonatomic) EKEventStore *eventStore;
-@property(nonatomic) int explanatoryTextMode;
-@property(nonatomic) _Bool hidesSuggestedEventCalendar;
-@property(nonatomic) __weak id <EKUIViewControllerNavigationDelegate> navigationDelegate;
-@property(nonatomic) _Bool onlyShowUnmanagedAccounts;
-@property(retain, nonatomic) EKCalendar *selectedCalendar;
-@property(copy, nonatomic) NSSet *selectedCalendars;
 @property(readonly, nonatomic) long long selectionStyle;
-@property(nonatomic) _Bool showAccountStatus;
-@property(nonatomic) _Bool showDetailAccessories;
-@property(nonatomic) _Bool showsCancelButton;
-@property(nonatomic) _Bool showsCompletedRemindersSetting;
-@property(nonatomic) _Bool showsDeclinedEventsSetting;
-@property(nonatomic) _Bool showsDoneButton;
 @end
 

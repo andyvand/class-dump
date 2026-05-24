@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSNumber;
-
 @interface RTAuthorizedLocationVisitLogFetchOptions
 {
     _Bool _ascending;
-    NSDateInterval *_dateInterval;
-    NSNumber *_limit;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)2@40@48@56@64@72@80@88@96@104@112@120;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (void);
-- (void);
+- (void)copyUUIDsForBundleID:(id)arg1 uid: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)d parameter not satisfying:qosOptions (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAscending) _Bool ascending; // @synthesize ascending=_ascending;
-@property(copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, nonatomic) NSNumber *limit; // @synthesize limit=_limit;
 
 @end
 

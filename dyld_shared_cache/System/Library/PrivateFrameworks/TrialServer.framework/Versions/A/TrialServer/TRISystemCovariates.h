@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, TRISystemConfiguration;
+@class TRISystemConfiguration;
 
 @interface TRISystemCovariates
 {
     TRISystemConfiguration *_sysConfig;
-    NSDictionary *_dictionary;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

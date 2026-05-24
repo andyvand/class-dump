@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSScrollView, NSStackView;
+@class NSScrollView;
 
 @interface RemindersUICore.TTRMComponentViewScrollingGroupComponentView
 {
     id isVerticallyResizable;
-    void scrollView;
-    void stackView;
-    void scrollViewHeightConstraints;
-    id ttriAccessibilityLabel;
 }
 
 - (id);
@@ -21,15 +17,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id)ew;
+- (id)P;
+- (id)_TtC15RemindersUICore35TTRMComponentViewGroupComponentView;
 - (void);
-- (void)extView;
+- (void)TTRMInlineButtonAttachmentTextView;
 
 // Remaining properties
 @property(nonatomic) __weak NSScrollView *scrollView; // @synthesize scrollView;
-@property(nonatomic) __weak NSLayoutConstraint *scrollViewHeightConstraints; // @synthesize scrollViewHeightConstraints;
-@property(nonatomic) __weak NSStackView *stackView; // @synthesize stackView;
 
 @end
 

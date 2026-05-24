@@ -13,16 +13,9 @@
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)xt:(id)arg1 eventNumber:(id)arg2 clickCount:pressure: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

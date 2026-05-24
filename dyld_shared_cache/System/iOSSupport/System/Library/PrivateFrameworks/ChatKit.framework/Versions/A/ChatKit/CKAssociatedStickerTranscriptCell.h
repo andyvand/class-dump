@@ -6,41 +6,33 @@
 
 #import <ChatKit/CKAssociatedMessageTranscriptCell.h>
 
-@class IMSticker, NSString, UILongPressGestureRecognizer, UITapGestureRecognizer;
-
 @interface CKAssociatedStickerTranscriptCell : CKAssociatedMessageTranscriptCell
 {
     _Bool _gestureRecognizersEnabled;
-    _Bool _isReaction;
-    IMSticker *_sticker;
-    long long _stickerReactionIndex;
-    NSString *_chatItemGUID;
-    long long _cachedStickerReactionRandomizationSource;
-    UILongPressGestureRecognizer *_longPressGestureRecognizer;
-    UITapGestureRecognizer *_tapGestureRecognizer;
 }
 
 - (long long);
+- (void)ipantCSgG;
 - (void);
 - (void);
+- (void)h;
+- (void);
+- (void)l;
+- (void)a;
+- (void)d;
+- (void)t;
+- (void)t;
+- (void);
+- (void)u;
+- (void);
+- (void)n attachments;
+- (void)* moved the note;
+- (void)%@** moved the note;
+- (_Bool)ICFindInputLanguagesWithBlock(BOOL (^__strong)(NSString *__strong));
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id)̳
+;
 - (long long);
 - (void);
 - (_Bool);
@@ -50,18 +42,11 @@
 - (id);
 - (void);
 - (id);
-- (id)peration: /* Error: Ran out of types for this method. */;
+- (id)initWithDropOperation: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long cachedStickerReactionRandomizationSource; // @synthesize cachedStickerReactionRandomizationSource=_cachedStickerReactionRandomizationSource;
-@property(retain, nonatomic) NSString *chatItemGUID; // @synthesize chatItemGUID=_chatItemGUID;
-@property(nonatomic) _Bool gestureRecognizersEnabled; // @synthesize gestureRecognizersEnabled=_gestureRecognizersEnabled;
-@property(nonatomic) _Bool isReaction; // @synthesize isReaction=_isReaction;
-@property(readonly, nonatomic) UILongPressGestureRecognizer *longPressGestureRecognizer; // @synthesize longPressGestureRecognizer=_longPressGestureRecognizer;
-@property(retain, nonatomic) IMSticker *sticker; // @synthesize sticker=_sticker;
-@property(nonatomic) long long stickerReactionIndex; // @synthesize stickerReactionIndex=_stickerReactionIndex;
-@property(readonly, nonatomic) UITapGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
 
 @end
 

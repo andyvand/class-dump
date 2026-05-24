@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSNumber, NSString, UIColor;
+@class NSString;
 
 @interface LPCaptionPresentationProperties
 {
     NSString *_text;
-    NSAttributedString *_attributedText;
-    UIColor *_color;
-    double _textScale;
-    NSNumber *_maximumNumberOfLines;
 }
 
 - (double);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)serviceIdentifier;
+- (id)e;
 - (id);
 - (void);
 - (void);
@@ -29,11 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) NSNumber *maximumNumberOfLines; // @synthesize maximumNumberOfLines=_maximumNumberOfLines;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) double textScale; // @synthesize textScale=_textScale;
 
 @end
 

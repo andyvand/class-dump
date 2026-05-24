@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCacheManager, NSArray, NSString;
-@protocol HMCache, HMUserActionSuggestionProvider;
+@class HMCacheManager;
 
 @interface HMUserActionPredictionDuetDataSource
 {
     HMCacheManager *_cacheManager;
-    id <HMUserActionSuggestionProvider> _suggestionProvider;
-    NSArray *_lastFetchedPredictions;
-    id <HMCache> _predictionCache;
 }
 
-+ (id)ifierKey;
++ (id)HMActivityMetricIdentifierKey;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)ol;
+- (void)HMMutableUserListeningHistoryUpdateControl;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *predictions;
-@property(readonly) Class superclass;
 
 @end
 

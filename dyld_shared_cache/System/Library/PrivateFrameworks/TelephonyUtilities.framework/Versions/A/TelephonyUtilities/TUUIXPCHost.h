@@ -4,52 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, NSXPCListener;
-@protocol OS_dispatch_queue, TUUIXPCHostDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TUUIXPCHost
 {
     int _clientsShouldConnectToken;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <TUUIXPCHostDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSXPCListener *_xpcListener;
-    NSMutableSet *_connections;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)(;
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)6;
 - (void);
+- (void)@;
+- (id);
+- (void)A;
 - (_Bool);
 - (id);
 - (id);
 - (void)te"32^@40;
 - (id)eVersion;
-- (void)riptorsWithOriginatorHandle:(id)arg1;
+- (void)tu_predicateForConversationLinkDescriptorsWithOriginatorHandle:(id)arg1;
 - (int);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int clientsShouldConnectToken; // @synthesize clientsShouldConnectToken=_clientsShouldConnectToken;
-@property(retain, nonatomic) NSMutableSet *connections; // @synthesize connections=_connections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TUUIXPCHostDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSXPCListener *xpcListener; // @synthesize xpcListener=_xpcListener;
 
 @end
 

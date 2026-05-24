@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgressIndicator, PXPeopleScalableAvatarView, UXLabel, UXView;
-@protocol PXPerson;
+@class UXView;
 
 @interface PXPeopleConfirmationLoadingView
 {
     long long _loadingState;
-    UXView *_loadingStatusView;
-    NSProgressIndicator *_loadingIndicator;
-    UXLabel *_noneFoundLabel;
-    id <PXPerson> _person;
-    PXPeopleScalableAvatarView *_avatarView;
 }
 
 - (id);
@@ -22,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (void);
 - (long long);
@@ -34,12 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXPeopleScalableAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(readonly, nonatomic) NSProgressIndicator *loadingIndicator; // @synthesize loadingIndicator=_loadingIndicator;
-@property(nonatomic) long long loadingState; // @synthesize loadingState=_loadingState;
 @property(readonly, nonatomic) UXView *loadingStatusView; // @synthesize loadingStatusView=_loadingStatusView;
-@property(readonly, nonatomic) UXLabel *noneFoundLabel; // @synthesize noneFoundLabel=_noneFoundLabel;
-@property(readonly, nonatomic) id <PXPerson> person; // @synthesize person=_person;
 
 @end
 

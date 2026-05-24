@@ -9,7 +9,6 @@
 @interface MCURLMatch
 {
     NSString *_urlString;
-    struct _NSRange _range;
 }
 
 - (id);
@@ -18,10 +17,9 @@
 - (struct _NSRange);
 - (id);
 - (void);
-- (id);
+- (id)n;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 @property(readonly, copy, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end

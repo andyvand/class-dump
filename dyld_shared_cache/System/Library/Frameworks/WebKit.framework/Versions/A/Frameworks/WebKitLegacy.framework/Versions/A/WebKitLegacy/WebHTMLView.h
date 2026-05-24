@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WebHTMLViewPrivate;
+@class WebHTMLViewPrivate;
 
 @interface WebHTMLView
 {
@@ -18,7 +18,7 @@
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void)eeping and GC;
@@ -34,31 +34,31 @@
 - (void);
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
+- (_Bool)k;
 - (_Bool);
+- (id);
+- (void)<;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (struct Command);
 - (struct Command);
-- (void);
-- (void);
+- (void)!;
+- (void);e(;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -73,7 +73,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (void);
@@ -81,24 +81,24 @@
 - (void);
 - (unsigned char);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)eM;
+- (id)dBC;
+- (id)D;
 - (id);
 - (void);
 - (void);
+- (_Bool)gd8M;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)nT;
 - (void);
-- (void);
-- (void);
+- (void)U;
 - (id);
 - (struct CGRect);
 - (struct CGRect);
@@ -106,51 +106,52 @@
 - (_Bool);
 - (unsigned char);
 - (float);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)X;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)c;
+- (void);
+- (_Bool);
+- (void)i;
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)dlj;
+- (_Bool)j;
+- (_Bool)Gl;
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)q;
+- (_Bool);
+- (_Bool)d
+r;
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void)v;
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
+- (id);
+- (id)ƹ;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -163,7 +164,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -197,18 +198,18 @@
 - (void);
 - (void);
 - (void);
+- (void)A;
+- (void);
+- (void){;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (_Bool);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -221,76 +222,76 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (struct CGRect)@9h;
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)$;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void)Th;
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (struct CGRect);
-- (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
+- (void)C;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -305,7 +306,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -319,7 +320,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -352,8 +353,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_createEntriesForTaskMetrics:(id)arg1 requestData:responseData: /* Error: Ran out of types for this method. */;
+- (void)rization controller:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -369,7 +370,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)bJBx;
 - (void);
 - (void);
 - (_Bool);
@@ -385,7 +386,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
@@ -412,12 +413,12 @@
 × ;
 - (void);
 - (long long)× ;
-- (void)perviewWithoutNeedingDisplay;
-- (void)rentTime;
-- (struct _NSRange)wing;
-- (void)eMIMEType:(id)arg1;
-- (void)dLanesEnabled;
-- (_Bool)nWidth;
+- (void)removeFromSuperviewWithoutNeedingDisplay;
+- (void)currentTime;
+- (struct _NSRange)canvasUsesAcceleratedDrawing;
+- (void)_web_documentFragmentFromPasteboard:(id)arg1 pasteboardType:imageMIMEType: /* Error: Ran out of types for this method. */;
+- (void)GridLanesEnabled;
+- (_Bool)WebKitMediaPreferredFullscreenWidth;
 - (void);
 - (void)è¨@;
 - (long long)Ð;
@@ -431,13 +432,7 @@
 - (void)èÿ6[\Ë;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactLikenessesModel, CNObservable, CNReplaySubject, NSString;
-@protocol CNCancelable, CNContactLikenessMutatorFactory, CNContactLikenessesFetchStrategy, CNContactLikenessesFetchStrategyFactory, CNSchedulerProvider;
+@class CNContact;
 
 @interface CNRecentLikenessesBackendDataSource
 {
     CNContact *_contact;
-    CNReplaySubject *_contactLikenessesModelReplaySubject;
-    CNObservable *_contactLikenessesModelFetchObservable;
-    CNContactLikenessesModel *_contactLikenessModel;
-    id <CNCancelable> _contactLikenessesModelFetchToken;
-    id <CNContactLikenessesFetchStrategyFactory> _likenessFetchStrategyFactory;
-    id <CNContactLikenessesFetchStrategy> _likenessFetchStrategy;
-    id <CNContactLikenessMutatorFactory> _likenessMutatorFactory;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
 + (id);
@@ -33,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -42,7 +33,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,21 +44,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) CNContactLikenessesModel *contactLikenessModel; // @synthesize contactLikenessModel=_contactLikenessModel;
-@property(retain, nonatomic) CNObservable *contactLikenessesModelFetchObservable; // @synthesize contactLikenessesModelFetchObservable=_contactLikenessesModelFetchObservable;
-@property(retain, nonatomic) id <CNCancelable> contactLikenessesModelFetchToken; // @synthesize contactLikenessesModelFetchToken=_contactLikenessesModelFetchToken;
-@property(retain, nonatomic) CNReplaySubject *contactLikenessesModelReplaySubject; // @synthesize contactLikenessesModelReplaySubject=_contactLikenessesModelReplaySubject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <CNContactLikenessesFetchStrategy> likenessFetchStrategy; // @synthesize likenessFetchStrategy=_likenessFetchStrategy;
-@property(retain, nonatomic) id <CNContactLikenessesFetchStrategyFactory> likenessFetchStrategyFactory; // @synthesize likenessFetchStrategyFactory=_likenessFetchStrategyFactory;
-@property(retain, nonatomic) id <CNContactLikenessMutatorFactory> likenessMutatorFactory; // @synthesize likenessMutatorFactory=_likenessMutatorFactory;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
 
 @end
 

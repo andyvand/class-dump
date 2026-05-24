@@ -8,13 +8,13 @@
 {
 }
 
-- (id);
-- (void);
+- (id)<;
+- (void)P;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)Timer";
+- (void)tsSession _runInfoExchangeRequest];
 - (id);
 - (id);
 

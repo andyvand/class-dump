@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MPStoreItemMetadataImportDescriptor
 {
     NSDictionary *_platformDictionary;
-    ICUserIdentity *_userIdentity;
 }
 
 - (id);
 - (id);
-- (void)_KEY;
-- (id)AddedDate__MAPPING_MISSING__;
+- (void)__uncensoredName_KEY;
+- (id)__MPModelPropertyTVSeasonLibraryAddedDate__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *platformDictionary; // @synthesize platformDictionary=_platformDictionary;
-@property(readonly, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

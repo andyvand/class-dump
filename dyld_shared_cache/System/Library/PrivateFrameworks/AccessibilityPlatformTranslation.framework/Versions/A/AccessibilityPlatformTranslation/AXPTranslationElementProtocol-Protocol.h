@@ -7,6 +7,7 @@
 @class AXPTranslationObject;
 
 @protocol AXPTranslationElementProtocol
++ (id);
 
 // Remaining properties
 @property(readonly, nonatomic) AXPTranslationObject *translation;

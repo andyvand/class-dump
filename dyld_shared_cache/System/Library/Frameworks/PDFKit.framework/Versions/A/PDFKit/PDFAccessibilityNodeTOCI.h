@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (_Bool)entifier:%@ /* Error: Ran out of types for this method. */;
+- (long long)lastKnownControllerHH2Mode;
 
 @end
 

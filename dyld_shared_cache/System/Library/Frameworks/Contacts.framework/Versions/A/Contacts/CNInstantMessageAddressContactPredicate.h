@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)kCallDisconnectionReasonKey;
 - (void);
 - (void);
 - (void)0@ù

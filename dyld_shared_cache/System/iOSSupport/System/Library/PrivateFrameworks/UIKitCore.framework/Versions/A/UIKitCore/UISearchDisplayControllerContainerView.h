@@ -12,25 +12,20 @@ __attribute__((visibility("hidden")))
 @interface UISearchDisplayControllerContainerView : UIView
 {
     _Bool _collapsedTopView;
-    NSLayoutConstraint *_topViewHeightConstraint;
-    NSLayoutConstraint *_topViewAttributeTopConstraint;
-    UIView *_topView;
-    UIView *_bottomView;
-    UIView *_behindView;
 }
 
+- (void)_handleModifyRecordsOperation:(double)arg1;
+- (void)_handleMessageProcessedWithGUID:(double)arg1;
+- (void)_handleInfo;
+- (id)_CKUtilitiesSharedInstance;
+- (id)URLWithString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)andle handleID:(struct CGRect)arg1 %@ Error:(double)arg2 %@;
+- (void)%@;
+- (id)urrent service is not SMS (current %@, override %@), ignoring!;
+- (void)ignoring;
 - (void);
 - (id);
 - (id);
@@ -40,10 +35,6 @@ __attribute__((visibility("hidden")))
 - (void)>.;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *behindView; // @synthesize behindView=_behindView;
-@property(readonly, nonatomic) UIView *bottomView; // @synthesize bottomView=_bottomView;
-@property(readonly, nonatomic) UIView *topView; // @synthesize topView=_topView;
-@property(retain, nonatomic) NSLayoutConstraint *topViewAttributeTopConstraint; // @synthesize topViewAttributeTopConstraint=_topViewAttributeTopConstraint;
 @property(retain, nonatomic) NSLayoutConstraint *topViewHeightConstraint; // @synthesize topViewHeightConstraint=_topViewHeightConstraint;
 
 @end

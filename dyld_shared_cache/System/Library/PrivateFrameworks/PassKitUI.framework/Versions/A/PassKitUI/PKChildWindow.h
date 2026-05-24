@@ -9,12 +9,11 @@
 @interface PKChildWindow
 {
     PKWindowController *_windowAnimationController;
-    PKWindowController *_passWindowController;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)public}@ maxAge:(struct CGRect)arg1 %{public}@ etag:(unsigned long long)arg2 %{public}@ lastModified:(unsigned long long)arg3 %{public}@ treatmentIDs:(_Bool)arg4 %{public}@ segmentSetIDs:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);

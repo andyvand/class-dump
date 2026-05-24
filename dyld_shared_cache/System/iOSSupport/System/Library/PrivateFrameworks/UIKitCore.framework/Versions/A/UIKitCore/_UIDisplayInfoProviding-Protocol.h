@@ -5,26 +5,17 @@
 //
 
 @class FBSDisplayConfiguration;
-@protocol _UIDisplayInfoShape;
 
 @protocol _UIDisplayInfoProviding
+- (double)O;
 - (struct UIEdgeInsets)ùÑf1Â0@ù
 × ;
-- (double)onHandler: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)Index;
+- (double)requestTextCheckerLocalDictionaryWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)fakeRightIndex;
 - (struct UIEdgeInsets)documentsURL;
-- (struct UIEdgeInsets)rchived;
+- (struct UIEdgeInsets)UILayoutGuideShouldBeArchived;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long artworkSubtype;
 @property(readonly, nonatomic) FBSDisplayConfiguration *displayConfiguration;
-@property(readonly, nonatomic) id <_UIDisplayInfoShape> exclusionArea;
-@property(readonly, nonatomic) double homeAffordanceOverlayAllowance;
-@property(readonly, nonatomic) struct UIEdgeInsets peripheryInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsLandscapeLeft;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsLandscapeRight;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsPortrait;
-@property(readonly, nonatomic) struct UIEdgeInsets safeAreaInsetsPortraitUpsideDown;
-@property(readonly, nonatomic) double systemMinimumMargin;
 @end
 

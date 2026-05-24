@@ -9,11 +9,11 @@
     unsigned long long _headroomMode;
 }
 
-+ (_Bool)lectable;
++ (_Bool)UISelectable;
+- (id)URI:(unsigned long long)arg1 notifyInternalSecurity:completionBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setAttachments: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
-- (id);
-- (void)eInContextFromRangeInText:(id)arg1;
+- (void)rangeInContextFromRangeInText:(id)arg1;
 
 // Remaining properties
 @property(readonly) unsigned long long headroomMode; // @synthesize headroomMode=_headroomMode;

@@ -8,29 +8,21 @@ __attribute__((visibility("hidden")))
 @interface _MFAtomViewTextSelectionRect
 {
     _Bool containsStart;
-    _Bool containsEnd;
-    _Bool isVertical;
-    long long writingDirection;
-    struct CGRect rect;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)InteractionExtractedTopicFromAttachment;
+- (_Bool)InteractionExtractedTopicFromAttachment;
 - (long long);
 - (_Bool);
 - (void);
-- (struct CGRect);
+- (struct CGRect)0 OR associated_message_type BETWEEN ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool containsEnd; // @synthesize containsEnd;
-@property(nonatomic) _Bool containsStart; // @synthesize containsStart;
-@property(nonatomic) _Bool isVertical; // @synthesize isVertical;
 @property(nonatomic) struct CGRect rect; // @synthesize rect;
-@property(nonatomic) long long writingDirection; // @synthesize writingDirection;
 
 @end
 

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _MRNowPlayingPlayerPathProtobuf, _MRSendCommandResultProtobuf;
-
 @interface _MRSendCommandResultMessageProtobuf
 {
-    CDStruct_95bda58d _handlerReturnStatus;
-    NSString *_commandID;
-    _MRSendCommandResultProtobuf *_commandResult;
-    NSMutableArray *_handlerReturnStatusDatas;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    int _sendError;
-    CDStruct_13a44975 _has;
+    struct {
+        int *list;
+        unsigned long long count;
+        unsigned long long size;
+    } _handlerReturnStatus;
 }
 
 + (Class);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -50,27 +46,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)W;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)AFMyriadContext::perceptualAudioHash /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ration: /* Error: Ran out of types for this method. */;
+- (void)addOperation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *commandID; // @synthesize commandID=_commandID;
-@property(retain, nonatomic) _MRSendCommandResultProtobuf *commandResult; // @synthesize commandResult=_commandResult;
-@property(readonly, nonatomic) int *handlerReturnStatus;
-@property(readonly, nonatomic) unsigned long long handlerReturnStatusCount;
-@property(retain, nonatomic) NSMutableArray *handlerReturnStatusDatas; // @synthesize handlerReturnStatusDatas=_handlerReturnStatusDatas;
-@property(readonly, nonatomic) _Bool hasCommandID;
-@property(readonly, nonatomic) _Bool hasCommandResult;
-@property(readonly, nonatomic) _Bool hasPlayerPath;
 @property(nonatomic) _Bool hasSendError;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
-@property(nonatomic) int sendError; // @synthesize sendError=_sendError;
 
 @end
 

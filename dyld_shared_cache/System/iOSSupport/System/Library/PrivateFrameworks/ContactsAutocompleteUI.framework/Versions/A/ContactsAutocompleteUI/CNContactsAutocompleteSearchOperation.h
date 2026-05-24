@@ -6,22 +6,11 @@
 
 #import <ContactsAutocompleteUI/CNAutocompleteSearchOperation.h>
 
-@class CNAutocompleteFetchContext, CNAutocompleteStore, CNCancelationToken, CNPromise, NSNumber, NSString;
+@class CNCancelationToken;
 
 @interface CNContactsAutocompleteSearchOperation : CNAutocompleteSearchOperation
 {
     _Bool _includeContacts;
-    _Bool _includeRecents;
-    _Bool _includeSuggestions;
-    _Bool _includeServers;
-    _Bool _shouldUnifyResults;
-    _Bool _simulateResults;
-    CNCancelationToken *_fetchRequestToken;
-    CNPromise *_fetchRequestPromise;
-    NSNumber *_shouldIncludeGroupResults;
-    long long _addressableGroupResultStyle;
-    CNAutocompleteFetchContext *_fetchContext;
-    CNAutocompleteStore *_autocompleteStore;
 }
 
 + (id);
@@ -37,54 +26,36 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)systemFontSizeForControlSize: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)setPreferredElementSize: /* Error: Ran out of types for this method. */;
+- (_Bool)setPreferredDisplayMode: /* Error: Ran out of types for this method. */;
+- (id)setNeedsUpdateOfScreenEdgesDeferringSystemGestures;
+- (long long)setAutomaticallyUpdatesContentConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)setAccessibilityNodeForPlatformElement: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityElementsHiddenBlock:(long long)arg1;
+- (void);
+- (void);
+- (void)SizedCircularPercentageGauge;
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (long long);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)H;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long addressableGroupResultStyle; // @synthesize addressableGroupResultStyle=_addressableGroupResultStyle;
-@property(retain, nonatomic) CNAutocompleteStore *autocompleteStore; // @synthesize autocompleteStore=_autocompleteStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CNAutocompleteFetchContext *fetchContext; // @synthesize fetchContext=_fetchContext;
-@property(retain, nonatomic) CNPromise *fetchRequestPromise; // @synthesize fetchRequestPromise=_fetchRequestPromise;
 @property(retain, nonatomic) CNCancelationToken *fetchRequestToken; // @synthesize fetchRequestToken=_fetchRequestToken;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includeContacts; // @synthesize includeContacts=_includeContacts;
-@property(nonatomic) _Bool includeRecents; // @synthesize includeRecents=_includeRecents;
-@property(nonatomic) _Bool includeServers; // @synthesize includeServers=_includeServers;
-@property(nonatomic) _Bool includeSuggestions; // @synthesize includeSuggestions=_includeSuggestions;
-@property(retain, nonatomic) NSNumber *shouldIncludeGroupResults; // @synthesize shouldIncludeGroupResults=_shouldIncludeGroupResults;
-@property(nonatomic) _Bool shouldUnifyResults; // @synthesize shouldUnifyResults=_shouldUnifyResults;
-@property(nonatomic) _Bool simulateResults; // @synthesize simulateResults=_simulateResults;
-@property(readonly) Class superclass;
 
 @end
 

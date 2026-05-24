@@ -14,12 +14,12 @@
 }
 
 + (Class);
-+ (id);
++ (id)i*E�)!;
 + (unsigned long long);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (id);
@@ -27,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)H;
 - (void);
 - (id)	
 ;

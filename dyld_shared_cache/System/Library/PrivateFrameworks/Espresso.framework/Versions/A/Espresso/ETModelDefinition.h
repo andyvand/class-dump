@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSArray;
 
 @interface ETModelDefinition
 {
     NSArray *_layerNames;
-    NSArray *_inputs;
-    NSArray *_outputs;
-    NSArray *_trainingInputs;
-    NSArray *_trainingOutputs;
-    NSURL *_modelURL;
-    NSString *_isTrainingGlobalName;
-    NSString *_initializer;
 }
 
 - (id);
@@ -29,17 +22,10 @@
 - (id);
 - (id)Ø;
 - (void)¨Ì;
-- (id)rogramSymtabE;
+- (id)N4E5RT20ComputeProgramSymtabE;
 
 // Remaining properties
-@property(readonly) NSString *initializer; // @synthesize initializer=_initializer;
-@property(readonly) NSArray *inputs; // @synthesize inputs=_inputs;
-@property(readonly) NSString *isTrainingGlobalName; // @synthesize isTrainingGlobalName=_isTrainingGlobalName;
 @property(readonly) NSArray *layerNames; // @synthesize layerNames=_layerNames;
-@property(readonly) NSURL *modelURL; // @synthesize modelURL=_modelURL;
-@property(readonly) NSArray *outputs; // @synthesize outputs=_outputs;
-@property(readonly) NSArray *trainingInputs; // @synthesize trainingInputs=_trainingInputs;
-@property(readonly) NSArray *trainingOutputs; // @synthesize trainingOutputs=_trainingOutputs;
 
 @end
 

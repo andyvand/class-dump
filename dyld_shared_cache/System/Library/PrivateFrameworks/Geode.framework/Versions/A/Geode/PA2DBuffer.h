@@ -9,9 +9,6 @@
 @interface PA2DBuffer
 {
     PFCopyOnWriteInterest *_backing;
-    int _format;
-    unsigned long long _width;
-    unsigned long long _height;
 }
 
 

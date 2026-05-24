@@ -5,5 +5,12 @@
 //
 
 @protocol IMSystemMonitorListener
+
+@optional
+- (void);
+- (void);
+- (void)getEnrollmentSimilarityScores;
+- (void)failed;
+- (void)";
 @end
 

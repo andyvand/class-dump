@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSMutableSet, NSSet;
+@class NSMutableArray, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _NSPasteboardTypeCache
 {
     NSMutableArray *_cachedTypeNames;
-    NSMutableSet *_cachedTypeNameUnion;
-    NSMutableSet *_conformingTypeIdentifiers;
-    NSMapTable *_cachedRequestOnlyTypeNames;
 }
 
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)CFNumberFloat64;
 - (id);
 - (void);
+- (id)idReceiveResponseDisposition;
+- (id)S Trust encountered error %ld:%d /* Error: Ran out of types for this method. */;
+- (void)`;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *cachedTypeNameUnion;
-@property(readonly, nonatomic) NSMutableArray *cachedTypeNames;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIViewController;
+@class UIViewController;
 
 @protocol PKToolPickerPopoverPresentationConfiguring
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets layoutSceneMargins;
-@property(readonly, nonatomic) NSArray *passthroughViews;
-@property(readonly, nonatomic) unsigned long long permittedArrowDirections;
 @property(readonly, nonatomic) UIViewController *presentationViewController;
 @end
 

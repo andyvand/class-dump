@@ -7,9 +7,10 @@
 @class _INPBTimer;
 
 @protocol _INPBCreateTimerIntentResponse
+- (_INPBTimer *);
+- (_Bool)3;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBTimer *createdTimer;
-@property(readonly, nonatomic) _Bool hasCreatedTimer;
 @end
 

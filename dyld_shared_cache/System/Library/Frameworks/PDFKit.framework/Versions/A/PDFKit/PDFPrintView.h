@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGRect);
-- (id);
+- (struct CGRect)via presence event merge:(long long)arg1 %@;
+- (id)image data for clip with UUID %@;
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)ub;
+- (void);
 - (id);
 - (void)AeÐ!°BùQä°1Â0@ù
 × ;

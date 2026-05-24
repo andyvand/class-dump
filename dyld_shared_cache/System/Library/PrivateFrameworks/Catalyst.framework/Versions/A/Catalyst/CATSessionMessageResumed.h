@@ -6,31 +6,27 @@
 
 #import <Catalyst/CATSessionMessage.h>
 
-@class NSArray, NSDictionary, NSUUID;
+@class NSUUID;
 
 @interface CATSessionMessageResumed : CATSessionMessage
 {
     NSUUID *_sessionUUID;
-    NSDictionary *_serverUserInfo;
-    NSArray *_pendingRemoteTaskUUIDs;
 }
 
-+ (_Bool);
++ (_Bool)_timespanDetermined;
 - (void);
 - (id);
 - (id);
+- (id);
+- (void)IndexSet",C,V_supportedBitDepths;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *pendingRemoteTaskUUIDs; // @synthesize pendingRemoteTaskUUIDs=_pendingRemoteTaskUUIDs;
-@property(copy, nonatomic) NSDictionary *serverUserInfo; // @synthesize serverUserInfo=_serverUserInfo;
 @property(copy, nonatomic) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
 
 @end

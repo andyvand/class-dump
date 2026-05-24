@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCRequestMessage.h>
 
-@class CTServiceDescriptor, CTXPCServiceSubscriptionContext;
+@class CTXPCServiceSubscriptionContext;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCSubscriptionContextRequest : CTXPCRequestMessage
@@ -23,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) CTXPCServiceSubscriptionContext *context;
-@property(readonly, nonatomic) CTServiceDescriptor *descriptor;
 
 @end
 

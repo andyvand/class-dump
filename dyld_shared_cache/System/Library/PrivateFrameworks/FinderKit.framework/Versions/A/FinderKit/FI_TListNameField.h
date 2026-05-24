@@ -13,23 +13,20 @@ __attribute__((visibility("hidden")))
 @interface FI_TListNameField : FI_TListTextField
 {
     struct TNSWeakPtr<NSObject<TListNameFieldDelegate>> _weakLNFDelegate;
-    _Bool _becomingFirstResponder;
-    _Bool _shouldEdit;
-    double _maxWidthAvailable;
 }
 
 + (Class);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)M9;
 - (double);
 - (id);
-- (struct CGRect);
+- (struct CGRect)(;
 - (_Bool);
+- (void))A;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)H;
 - (_Bool);
 - (struct CGSize);
 - (id);
@@ -38,10 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool becomingFirstResponder; // @synthesize becomingFirstResponder=_becomingFirstResponder;
 @property(nonatomic) __weak NSObject<TListNameFieldDelegate> *lnfDelegate;
-@property(nonatomic) double maxWidthAvailable; // @synthesize maxWidthAvailable=_maxWidthAvailable;
-@property(nonatomic) _Bool shouldEdit; // @synthesize shouldEdit=_shouldEdit;
 
 @end
 

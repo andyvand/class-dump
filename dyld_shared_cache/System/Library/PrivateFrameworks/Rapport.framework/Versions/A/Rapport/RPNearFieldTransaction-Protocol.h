@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSUUID, RPNearFieldTapEvent;
+@class NSDate, NSError, NSUUID;
 
 @protocol RPNearFieldTransaction
+- (NSError *);
+- (NSDate *)=;
+- (long long);
+- (NSUUID *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *connectionDate;
-@property(readonly, nonatomic) NSError *error;
 @property(readonly, copy, nonatomic) NSUUID *identifier;
-@property(readonly, nonatomic) _Bool isInitiator;
-@property(readonly, nonatomic) long long state;
-@property(readonly, nonatomic) RPNearFieldTapEvent *tapEvent;
 @end
 

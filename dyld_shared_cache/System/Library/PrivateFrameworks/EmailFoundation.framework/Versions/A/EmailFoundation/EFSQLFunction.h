@@ -4,15 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EFSQLFunction
 {
     NSString *_name;
-    NSArray *_arguments;
 }
 
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -24,38 +33,19 @@
 + (id);
 + (id);
 + (id);
++ (id)ame for:(id)arg1 %@, length:%zu dataVersion:%u writeStatus:%{public}@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)lt;
+- (void);
+- (void)_lastObservedResult;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *arguments; // @synthesize arguments=_arguments;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AAURLSessionTaskProtocol
+- (void);
 @end
 

@@ -4,53 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioEngine, AVAudioEnvironmentNode, CALayer, MTLRenderPassDescriptor, NSArray, NSString, SCNCameraController, SCNDisplayLink, SCNJitterer, SCNNode, SCNRecursiveLock, SCNRenderer, SCNScene, SCNSpriteKitEventHandler, SCNTechnique, SKScene, UIColor;
-@protocol MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder, SCNCameraControlConfiguration, SCNEventHandler, SCNSceneRendererDelegate;
+@class SCNScene;
 
 @interface SCNView
 {
     double _currentSystemTime;
-    double _lastUpdate;
-    NSString *__ibSceneName;
-    unsigned long long __ibPreferredRenderingAPI;
-    unsigned int _ibNoMultisampling:1;
-    unsigned long long _renderingAPI;
-    unsigned int _isOpaque:1;
-    unsigned int _rendersContinuously:1;
-    unsigned int _firstDrawDone:1;
-    unsigned int _drawOnMainThreadPending:1;
-    unsigned int _viewIsOffscreen:1;
-    unsigned int _appChangedColorAppearance:1;
-    unsigned int _appIsDeactivated:1;
-    unsigned int _autoPausedScene:1;
-    unsigned int _inRenderQueueForLayerBackedGLRendering:1;
-    unsigned int _disableLinearRendering:1;
-    unsigned int _isInLiveResize:1;
-    _Bool _isHidden;
-    _Bool _didTriggerRedrawWhileRendering;
-    id _delegate;
-    SCNRenderer *_renderer;
-    SCNScene *_scene;
-    _Bool _displayLinkCreationRequested;
-    _Bool _skipFramesIfNoDrawableAvailable;
-    SCNDisplayLink *_displayLink;
-    long long _preferredFramePerSeconds;
-    CALayer *_backingLayer;
-    SCNJitterer *_jitterer;
-    SCNRecursiveLock *_lock;
-    UIColor *_backgroundColor;
-    struct CGSize _boundsSize;
-    _Bool _asynchronousResizing;
-    char *_snapshotImageData;
-    unsigned long long _snapshotImageDataLength;
-    id <SCNEventHandler> _navigationCameraController;
-    SCNSpriteKitEventHandler *_spriteKitEventHandler;
-    id <MTLDevice> _device;
-    NSArray *_controllerGestureRecognizers;
 }
 
-+ (id);
-+ (_Bool);
++ (id)assistantConnectionDidChangeAudioRecordingPower: /* Error: Ran out of types for this method. */;
++ (_Bool);
 + (_Bool);
 + (unsigned long long);
 + (_Bool);
@@ -58,53 +20,14 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (Class);
++ (Class)messageGUID, please file a radar--****;
 + (id);
 + (_Bool)qö>T?Ê<?fê=Ú>an_?¬à>1'¨>,..>¿C5?`=k>â<?äIj?mtz?Y£=ðP?yæÍ>¢L?o=\/?Ö«t?»dü=8³§<#¿V?´1?²¸>89=Ãñ4?cU?líå>Hoø=?ú{>;VÁ>òê?h%=?XT?mSL>½9$?eÆ?Æßö=¯@´>5E?¶T=`Ç>àg>#ÛE?]£>­mJ>ï~?Æ¿>Ó¤>I/>=µj?9}%?­2ë>"o©>_¸s?ßÅ>°9?E>"«w?¶f?^=?=ó­{?/
 >î?>õi?ß¦¿>S}"=xòU?cä>:(id)arg1 b?<1;>GT?&¬9?¦'¼=/Ü!?ð2s?ß4?¿+ú>§Xa?s#<Xû>ª-Õ>Ý«=wöU>P?W$&>îë>Öo&?AU>6Z>Ì,<ó?ò"Ó>0?Êÿ>pyH? ì>¿·!?z¦>º¢8?éet?=?Ú!?6¯~?à>ÝZ>g&?@ú><>b ?·ëI?¼)?,?ßÜC?øUU?ò°>o l?L?ÇË=Ï>ÙèL?EÍ>ËLY?4?F>¹ld? Ò§>Æ¦Õ=akf>rx?Aa;
 + (_Bool)6;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCameraControl;
-@property(nonatomic) unsigned long long antialiasingMode;
-@property(readonly, nonatomic) AVAudioEngine *audioEngine;
-@property(readonly, nonatomic) AVAudioEnvironmentNode *audioEnvironmentNode;
-@property(retain, nonatomic) SCNNode *audioListener;
-@property(nonatomic) _Bool autoenablesDefaultLighting;
-@property(readonly, nonatomic) id <SCNCameraControlConfiguration> cameraControlConfiguration;
-@property(readonly, nonatomic) unsigned long long colorPixelFormat;
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue;
-@property(readonly, nonatomic) id <MTLRenderCommandEncoder> currentRenderCommandEncoder;
-@property(readonly, nonatomic) MTLRenderPassDescriptor *currentRenderPassDescriptor;
-@property(readonly, nonatomic) struct CGRect currentViewport;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned long long debugOptions;
-@property(readonly, nonatomic) SCNCameraController *defaultCameraController;
-@property(nonatomic) __weak id <SCNSceneRendererDelegate> delegate;
-@property(readonly, nonatomic) unsigned long long depthPixelFormat;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isJitteringEnabled) _Bool jitteringEnabled;
-@property(nonatomic) _Bool loops;
-@property(retain, nonatomic) SKScene *overlaySKScene;
-@property(getter=isPlaying) _Bool playing;
-@property(retain, nonatomic) SCNNode *pointOfView;
-@property(nonatomic) long long preferredFramesPerSecond;
-@property(readonly, nonatomic) unsigned long long renderingAPI;
-@property(nonatomic) _Bool rendersContinuously;
 @property(retain, nonatomic) SCNScene *scene;
-@property(nonatomic) double sceneTime;
-@property(nonatomic) _Bool showsStatistics;
-@property(readonly, nonatomic) unsigned long long stencilPixelFormat;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) SCNTechnique *technique;
-@property(nonatomic, getter=isTemporalAntialiasingEnabled) _Bool temporalAntialiasingEnabled;
-@property(nonatomic) _Bool usesReverseZ;
-@property(readonly, nonatomic) struct CGColorSpace *workingColorSpace;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVCalendarServerInviteNotificationItem, NSString, NSURL;
-@protocol CoreDAVTaskGroupDelegate;
+@class CalDAVCalendarServerInviteNotificationItem;
 
 @interface CalDAVReplyToSharedCalendarInvitationTaskGroup
 {
     _Bool _acceptInvitation;
-    NSURL *_sharedAs;
-    CalDAVCalendarServerInviteNotificationItem *_invitation;
-    NSURL *_calendarHomeURL;
 }
 
 - (id);
@@ -31,18 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool acceptInvitation; // @synthesize acceptInvitation=_acceptInvitation;
-@property(retain, nonatomic) NSURL *calendarHomeURL; // @synthesize calendarHomeURL=_calendarHomeURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <CoreDAVTaskGroupDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CalDAVCalendarServerInviteNotificationItem *invitation; // @synthesize invitation=_invitation;
-@property(retain, nonatomic) NSURL *sharedAs; // @synthesize sharedAs=_sharedAs;
-@property(readonly) Class superclass;
 
 @end
 

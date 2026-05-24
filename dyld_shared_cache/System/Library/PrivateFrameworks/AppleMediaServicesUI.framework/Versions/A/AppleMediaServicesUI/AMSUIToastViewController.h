@@ -6,16 +6,15 @@
 
 #import <AppleMediaServicesUI/AMSUIBaseMessageViewController.h>
 
-@class AMSBinaryPromise, AMSUIToastAppearance, NSString;
+@class AMSUIToastAppearance;
 
 @interface AMSUIToastViewController : AMSUIBaseMessageViewController
 {
     AMSUIToastAppearance *_preferredAppearance;
-    AMSUIToastAppearance *_requestAppearance;
 }
 
-- (void);
-- (void);
+- (void)RemoteSyncState.m;
+- (void)experimentIdentifiers;
 - (id);
 - (id);
 - (id);
@@ -26,7 +25,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -34,19 +33,7 @@
 - (void)"NSCollectionView"16@"NSSet"24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned long long engagementImpressionsReportingFrequency;
-@property(readonly) unsigned long long hash;
-@property unsigned long long impressionsReportingFrequency;
-@property(retain) AMSBinaryPromise *loadPromise;
-@property(retain) AMSUIToastAppearance *preferredAppearance; // @synthesize preferredAppearance=_preferredAppearance;
 @property(retain) AMSUIToastAppearance *requestAppearance; // @synthesize requestAppearance=_requestAppearance;
-@property _Bool shouldAutomaticallyReportMetrics;
-@property(readonly) Class superclass;
 
 @end
 

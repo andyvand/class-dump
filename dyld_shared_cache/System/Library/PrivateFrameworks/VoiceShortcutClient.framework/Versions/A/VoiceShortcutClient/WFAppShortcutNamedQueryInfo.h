@@ -9,23 +9,21 @@
 @interface WFAppShortcutNamedQueryInfo
 {
     NSString *_name;
-    NSString *_symbolName;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)@64@0:(id)arg1 8@16@24@32@40@48@56;
+- (id)V;
 - (void)AU°!|Eùñ^Ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end
 

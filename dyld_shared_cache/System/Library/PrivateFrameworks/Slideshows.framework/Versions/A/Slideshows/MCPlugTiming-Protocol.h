@@ -5,12 +5,9 @@
 //
 
 @protocol MCPlugTiming
+- (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double fullDuration;
-@property(nonatomic) double loopDuration;
-@property(nonatomic) double numberOfLoops;
 @property(nonatomic) double phaseInDuration;
-@property(nonatomic) double phaseOutDuration;
 @end
 

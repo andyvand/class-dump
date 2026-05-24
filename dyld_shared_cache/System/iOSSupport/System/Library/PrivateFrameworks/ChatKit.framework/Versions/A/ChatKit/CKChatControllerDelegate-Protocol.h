@@ -4,6 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKChatController, NSString;
+
 @protocol CKChatControllerDelegate
+- (void)imageDescriptorNamed:(CKChatController *)arg1;
+- (void);
+
+@optional
+- (void)setDisclaimerTextView:(NSString *)arg1;
+- (void)searchIndexerDidFinishDeletingSearchableItemsWithObjectIDURIs:(CKChatController *)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)localizedAttachmentsNotSupportedReason;
+- (NSString *)ic_isCurrentEventTabOrBackTab;
+- (void)changeLinkDestinationFromNote:toNote: /* Error: Ran out of types for this method. */;
+- (void)cannotLockInfoAlertWithReason:(id)arg1;
+- (_Bool)attachmentFromStandardFileWrapper: /* Error: Ran out of types for this method. */;
+- (_Bool)tyle;
+- (_Bool)rRecordIfNeeded;
+- (void)mage",&,D,N;
+- (void)SArray",C,N,V_attachmentsToLoad;
+- (void)hideSearchResultsForIdentifier:(void (^)(void))arg1;
+- (void)@"NSArray",&,N,V_leadingVisibleObjectIDs;
+- (void)",&,N,V_tagIndexer;
+- (void);
+- (void)derOutput;
 @end
 

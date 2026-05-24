@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutItem, NSIndexPath, NSString, UIBezierPath, UICollectionViewLayoutAttributes;
+@class UICollectionViewLayoutAttributes;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutVisibleItem
 {
     _Bool _dirty;
-    UICollectionViewLayoutAttributes *_layoutAttributes;
-    NSCollectionLayoutItem *_layoutItem;
 }
 
 - (unsigned long long);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)representationSize;
 - (id);
 - (void);
 - (id)1`°1Â0@ù
@@ -30,14 +28,14 @@ __attribute__((visibility("hidden")))
 - (struct CGRect)!àEùñfÐ1Â0@ù
 × ;
 - (void)ion"b1};
-- (struct CATransform3D)xt: /* Error: Ran out of types for this method. */;
-- (struct CGRect)tDidUpdateConnection: /* Error: Ran out of types for this method. */;
+- (struct CATransform3D)ui_sceneDidDeactivate:withContext: /* Error: Ran out of types for this method. */;
+- (struct CGRect)setDidUpdateConnection: /* Error: Ran out of types for this method. */;
 - (_Bool)ence: /* Error: Ran out of types for this method. */;
 - (_Bool)iginalSelectedRange:allowAutomaticReplacement:autoHide:voiceCommandUUID:withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (id)ath;
-- (void)ltHeaderFooterConfigurationForState:(_Bool)arg1 traitCollection:isHeader:style: /* Error: Ran out of types for this method. */;
+- (id)bezierPath;
+- (void)_defaultHeaderFooterConfigurationForState:(_Bool)arg1 traitCollection:isHeader:style: /* Error: Ran out of types for this method. */;
 - (long long)V_displayingMenu;
-- (void)ateTextFormattingController;
+- (void)_updateTextFormattingController;
 - (void)h.;
 - (void);
 - (void)angeFromPreviousEffectiveGeometry:(struct CGPoint)arg1 ];
@@ -46,36 +44,7 @@ __attribute__((visibility("hidden")))
 - (void)P/^;
 
 // Remaining properties
-@property(nonatomic) double alpha;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(nonatomic) struct CGPoint center;
-@property(readonly, nonatomic) UIBezierPath *collisionBoundingPath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIBezierPath",?,R,N
-
-@property(readonly, nonatomic) unsigned long long collisionBoundsType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDirty) _Bool dirty; // @synthesize dirty=_dirty;
-@property(readonly, nonatomic) struct CGRect frame;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(readonly, nonatomic) NSIndexPath *indexPath;
 @property(retain, nonatomic) UICollectionViewLayoutAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(retain, nonatomic) NSCollectionLayoutItem *layoutItem; // @synthesize layoutItem=_layoutItem;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned long long representedElementCategory;
-@property(readonly, nonatomic) NSString *representedElementKind;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGAffineTransform transform;
-@property(nonatomic) struct CATransform3D transform3D;
-@property(nonatomic) long long zIndex;
 
 @end
 

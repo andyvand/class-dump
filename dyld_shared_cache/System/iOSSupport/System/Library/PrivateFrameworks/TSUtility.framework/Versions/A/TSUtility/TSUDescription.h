@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 
 @interface TSUDescription
 {
     NSObject *_object;
-    Class _class;
-    void *_cfType;
-    NSString *_header;
-    NSMutableDictionary *_fields;
-    NSMutableArray *_fieldOrder;
-    unsigned long long _fieldNameWidth;
-    _Bool _commaSeparated;
 }
 
 + (id);
-+ (id);
++ (id)headerColumnBorderStroke;
 + (id);
 + (id);
 + (id);
@@ -28,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)mClosed;
+- (id)n Content;
 - (void);
 - (id);
 - (id);

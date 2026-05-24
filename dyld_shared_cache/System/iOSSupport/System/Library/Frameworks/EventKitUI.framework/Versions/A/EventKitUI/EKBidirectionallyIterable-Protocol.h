@@ -5,6 +5,7 @@
 //
 
 @protocol EKBidirectionallyIterable
+- (id)accatoActionTemplateParameterValueSection.m;
 - (id)iewController:Getting eventStore before setting it /* Error: Ran out of types for this method. */;
 @end
 

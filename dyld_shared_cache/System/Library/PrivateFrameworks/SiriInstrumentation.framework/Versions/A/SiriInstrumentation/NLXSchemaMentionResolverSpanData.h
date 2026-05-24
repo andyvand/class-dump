@@ -6,30 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaMentionResolverSpanData : SISchemaInstrumentationMessage
 {
     double _jointScore;
-    double _modelScore;
-    struct {
-        unsigned int jointScore:1;
-        unsigned int modelScore:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)S;
 - (void);
 - (double);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)er too long;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -40,11 +33,7 @@
 - (id)oSiriInvocationContext",&,N,V_typeToSiriContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasJointScore;
-@property(nonatomic) _Bool hasModelScore;
 @property(nonatomic) double jointScore; // @synthesize jointScore=_jointScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double modelScore; // @synthesize modelScore=_modelScore;
 
 @end
 

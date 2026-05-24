@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface BWBoxedOutputDetectionTimingInfo
 {
     CDStruct_1b6d18a9 _previousDetectionPTS;
-    CDStruct_1b6d18a9 _previousDetectionDuration;
-    CDStruct_1b6d18a9 _previousNoDetectionPTS;
-    int _lastDetectionCount;
 }
 
 - (id);

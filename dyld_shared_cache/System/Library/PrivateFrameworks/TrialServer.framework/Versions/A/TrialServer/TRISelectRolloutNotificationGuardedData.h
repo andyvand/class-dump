@@ -9,7 +9,6 @@
 @interface TRISelectRolloutNotificationGuardedData
 {
     NSMutableArray *metrics;
-    NSMutableArray *dimensions;
 }
 
 - (void);

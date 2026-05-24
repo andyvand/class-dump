@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSDate, NSDictionary, NSString, NSURL, NSUUID, NSXPCConnection;
+@class NSDictionary;
 @protocol PKPlugIn;
 
 @interface Sharing.SFSupersededPlugin__priv_92E8A60AEC1CE4A2A2DCBDADFB6E580C
 {
     id _innerPlugin;
-    id _sfSupersededBy;
 }
 
 - (void);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ɜ;
 - (id);
 - (id);
 - (id);
@@ -32,28 +31,28 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)?;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)dentity service type is not known;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)capabilitiesResponse:(NSDictionary *)arg1 capabilities:(void (^)(NSError *))arg2 AAP: /* Error: Ran out of types for this method. */;
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -68,43 +67,13 @@
 - (_Bool)tring",&,N,V_remoteUniqueIDString;
 - (void)ÊWÒ;
 - (_Bool);
-- (id)de;
+- (id)AirDropSensitivePreviewOverride;
 - (_Bool)com.apple.sharing.sharesheetExtensionEvaluation;
 - (_Bool)¤Þÿ¸µ;
 - (void)ÇÐ;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool active;
-@property(nonatomic, readonly) NSDictionary *attributes;
-@property(nonatomic, readonly) NSDictionary *bundleInfoDictionary;
-@property(nonatomic, readonly) NSURL *containingUrl;
-@property(nonatomic, readonly) NSBundle *embeddedBundle;
-@property(nonatomic, readonly) id embeddedPrincipal;
-@property(nonatomic, readonly) NSDictionary *entitlements;
-@property(nonatomic, copy) NSDictionary *environment;
-@property(nonatomic, readonly) unsigned int extensionPointPlatform;
-@property(nonatomic, copy) NSDictionary *extensionState;
-@property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) NSArray *launchPersonas;
-@property(nonatomic, readonly) NSString *localizedContainingName;
-@property(nonatomic, readonly) NSDictionary *localizedFileProviderActionNames;
-@property(nonatomic, readonly) NSString *localizedName;
-@property(nonatomic, readonly) NSString *localizedShortName;
-@property(nonatomic, readonly) NSUUID *multipleInstanceUUID;
-@property(nonatomic, copy) CDUnknownBlockType notificationBlock;
-@property(nonatomic, readonly) _Bool onSystemVolume;
-@property(nonatomic, readonly) NSDictionary *plugInDictionary;
-@property(nonatomic, readonly) id plugInPrincipal;
-@property(nonatomic, readonly) NSXPCConnection *pluginConnection;
-@property(nonatomic, copy) NSArray *preferredLanguages;
-@property(nonatomic, copy) NSString *sandboxProfile;
-@property(nonatomic, readonly) _Bool spent;
 @property(nonatomic, readonly) id <PKPlugIn> supersededBy;
-@property(nonatomic, readonly) NSDate *timestamp;
-@property(nonatomic, readonly) NSURL *url;
-@property(nonatomic) long long userElection;
-@property(nonatomic, readonly) NSUUID *uuid;
-@property(nonatomic, readonly) NSString *version;
 
 @end
 

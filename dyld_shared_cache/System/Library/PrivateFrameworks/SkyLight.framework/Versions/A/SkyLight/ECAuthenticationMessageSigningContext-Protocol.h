@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol ECAuthenticationMessageSigningContext
+- (void)lic}d bytes) -> %{public}s;
+- (void)ameters;
+- (NSData *)e keyPath.;
+- (void)eventIdentifier;
 @end
 

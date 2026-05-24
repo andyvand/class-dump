@@ -7,21 +7,18 @@
 @interface AppStoreKit.RemovingNQMLStringGenerator__priv_4B639E3CE12DDA6906FE89B3A179BBCF
 {
     id parser;
-    id configuration;
-    id accumulator;
-    id didParseEverything;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)MeInRequest:(id)arg1;
 - (id);
 - (void);
 - (void)dePackedt;

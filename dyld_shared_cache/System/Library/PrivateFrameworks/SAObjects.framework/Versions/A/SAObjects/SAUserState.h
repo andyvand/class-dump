@@ -6,13 +6,11 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSNumber, NSString, SAUserTokenStatus;
-
 @interface SAUserState : AceObject
 {
 }
 
-+ (id);
++ (id)?;
 + (id);
 - (id);
 - (id);
@@ -27,10 +25,10 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)-Q;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)QI;
 - (id);
 - (void);
 - (id);
@@ -43,24 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool ageVerificationRequired;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *defaultMediaPlaybackAppBundleIdentifier;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *eligibleOffers;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *iTunesMatchSubscriptionStatus;
-@property(nonatomic) _Bool isPromotionRelatedStatus;
-@property(copy, nonatomic) NSString *sharedUserId;
-@property(copy, nonatomic) NSString *status;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *syncSharedUserId;
-@property(copy, nonatomic) NSNumber *userHistoryUnmodifiable;
-@property(copy, nonatomic) NSString *userToken;
-@property(retain, nonatomic) SAUserTokenStatus *userTokenStatus;
-@property(copy, nonatomic) NSString *xpAbCookie;
 
 @end
 

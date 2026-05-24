@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, NSArray, NSString;
+@class NSString;
 
 @interface INObjectSection
 {
     NSString *_identifier;
-    NSString *_title;
-    NSArray *_items;
-    NSString *_subtitle;
-    INImage *_image;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)_userDefaults;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void).toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox' && event.target.value == '') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:(id)arg1 true}); }); await p; return p;;
+- (id)(;
 - (id);
 - (id)ParameterContexts";
-- (id)hType: /* Error: Ran out of types for this method. */;
-- (void)nsForPlayMedia:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)setHasAlarmSearchType: /* Error: Ran out of types for this method. */;
+- (void)providePlaybackRepeatModeOptionsForPlayMedia:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *_identifier; // @synthesize _identifier;
-@property(readonly, nonatomic) INImage *image; // @synthesize image=_image;
-@property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

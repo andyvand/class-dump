@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (void)[%ld]:(id)arg1 Tube(%p) - Waiter(%p) Client(%p) Request(%p, %@) Auth(%@);
+- (_Bool)twork SSLHandshake failed (%d -> %d);
+- (id)Err-1014;
+- (id)ere was a bad response from the server.;
+- (id)ervice;
 
 @end
 

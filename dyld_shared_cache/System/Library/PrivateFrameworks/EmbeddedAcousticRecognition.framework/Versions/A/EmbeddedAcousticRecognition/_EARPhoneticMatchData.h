@@ -20,7 +20,7 @@
 - (int);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)__bss;
 - (void);
 - (void);
 - (id);

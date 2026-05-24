@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCHIPAccessoryStorage, HMDHome, HMDMatterAccessoryAdapter, HMDRoom, HMMTRAccessoryServer, NSData, NSNumber, NSString, NSUUID;
+@class HMDHome, HMDMatterAccessoryAdapter, NSData, NSNumber, NSString, NSUUID;
 
 @protocol HMDMatterAccessoryProtocol
+- (_Bool)tion:%@) /* Error: Ran out of types for this method. */;
+- (NSNumber *)Rgz;
+- (NSNumber *);
+- (void)pB;
 - (HMDHome *)±ð1Â0@ù
 × ;
 - (NSUUID *);
 - (NSString *)ic}@Updating the lastSyncChecksum from:%{public}@ to %{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (NSData *)tureUpdated;
+- (NSData *)HMDAccessoryAdaptiveTemperatureUpdated;
+
+@optional
+- (void);
+- (void)perations;
 
 // Remaining properties
-@property(retain, nonatomic) HMMTRAccessoryServer *accessoryServer;
-@property(nonatomic) long long certificationStatus;
-@property(retain, nonatomic) HMDCHIPAccessoryStorage *chipStorage;
-@property _Bool convertingMatterAccessory;
-@property(nonatomic) __weak HMDHome *home;
-@property(readonly, nonatomic) _Bool isNativeMatter;
 @property(readonly, nonatomic) HMDMatterAccessoryAdapter *matterAdapter;
-@property(copy, nonatomic) NSNumber *matterNodeID;
-@property(copy, nonatomic) NSNumber *matterProductID;
-@property(copy, nonatomic) NSNumber *matterVendorID;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(retain, nonatomic) NSString *pairingUsername;
-@property(retain, nonatomic) NSData *publicKey;
-@property(retain, nonatomic) HMDRoom *room;
-@property(readonly, copy, nonatomic) NSString *serialNumber;
-@property(retain, nonatomic) NSData *setupHash;
-@property(readonly, nonatomic) _Bool supportsCHIP;
-@property(readonly, nonatomic) NSUUID *uuid;
 @end
 

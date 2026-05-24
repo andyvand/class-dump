@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface YARARule
 {
     _Bool _firstLaunchOnly;
-    _Bool _forcedRule;
-    int _priority;
-    int _matchType;
-    NSString *_ruleName;
-    NSString *_remediator;
-    NSString *_plugin;
-    NSUUID *_samplingUUID;
 }
 
 + (_Bool);
@@ -24,30 +17,23 @@
 + (int);
 + (_Bool);
 + (_Bool);
-- (id);
+- (id)ѝ;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)rited participant missing user contact information %@;
 - (int);
+- (id)@;
 - (id);
-- (id);
+- (void)Array:(id)arg1 nestedArray models:_models] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)initWithContext: /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool firstLaunchOnly; // @synthesize firstLaunchOnly=_firstLaunchOnly;
-@property(readonly, nonatomic) _Bool forcedRule; // @synthesize forcedRule=_forcedRule;
-@property(readonly, nonatomic) int matchType; // @synthesize matchType=_matchType;
-@property(readonly, nonatomic) NSString *plugin; // @synthesize plugin=_plugin;
-@property(readonly, nonatomic) int priority; // @synthesize priority=_priority;
-@property(readonly, nonatomic) NSString *remediator; // @synthesize remediator=_remediator;
 @property(readonly, nonatomic) NSString *ruleName; // @synthesize ruleName=_ruleName;
-@property(readonly, nonatomic) NSUUID *samplingUUID; // @synthesize samplingUUID=_samplingUUID;
 
 @end
 

@@ -14,20 +14,20 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)andler
+;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void)¸;
-- (id)gFacilityMockServer;
+- (id)LogFacilityMockServer;
 - (void)g to recover.;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasUser;
-@property(retain, nonatomic) CKDPRecord *user; // @synthesize user=_user;
 
 @end
 

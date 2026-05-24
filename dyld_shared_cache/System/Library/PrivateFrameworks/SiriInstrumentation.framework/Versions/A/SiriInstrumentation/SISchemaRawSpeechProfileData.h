@@ -11,7 +11,6 @@
 @interface SISchemaRawSpeechProfileData : SISchemaInstrumentationMessage
 {
     _Bool _hasR;
-    NSData *_r;
 }
 
 - (void);
@@ -20,19 +19,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long)_errorBlock;
+- (_Bool)/Library/Frameworks/Contacts.framework/Contacts;
+- (_Bool)id = OLD.message_id LIMIT 1); END;;
 - (id);
 - (id);
-- (id)etSet;
-- (id)etId;
-- (void)TLAYOUT_AAC_OCTAGONAL;
+- (id)deleteCountOfOTAAssetsInAssetSet;
+- (id)_experimentalBucketId;
+- (void)MWTFORMATLAYOUT_AAC_OCTAGONAL;
 
 // Remaining properties
-@property(nonatomic) _Bool hasR; // @synthesize hasR=_hasR;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSData *r; // @synthesize r=_r;
 
 @end

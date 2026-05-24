@@ -6,31 +6,27 @@
 
 #import <IMCore/IMAggregateAttachmentMessagePartChatItem.h>
 
-@class IMItem, NSString;
+@class IMItem;
 
 @interface IMReplyContextAggregateAttachmentMessagePartChatItem : IMAggregateAttachmentMessagePartChatItem
 {
     _Bool _replyIsFromMe;
-    IMItem *_parentItem;
-    NSString *_replyMessageGUID;
 }
 
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)layDriverThread:(id)arg1 calloc(%d) failed;
+- (void)DriverThread.m:(_Bool)arg1 %d:AVCPacketRelayDriverThread:calloc(%d) failed /* Error: Ran out of types for this method. */;
+- (id)Stream [%s] %s:%d rtpTimeOutEnabled=%d /* Error: Ran out of types for this method. */;
+- (_Bool)%d rtcpEnabled=%d;
+- (_Bool)[%s] %s:%d setInfo failed for controlInfo type=kVCMediaControlInfoTypeIsReceivedOnPrimary, for optionalControlInfo=%p in control info=%p for audio. error=%x /* Error: Ran out of types for this method. */;
+- (id)AT64Prefix:(id)arg1 NAT64 prefix resolution failed with error %d;
+- (id)] %s:(id)arg1 %d VCNAT64ResolveNAT64Prefix:(id)arg2 Re-trying in 1 second for Interface %s, attempt %d out of %d;
+- (void)ess:(id)arg1 QR link probing started on linkID=%@;
 - (id);
 - (_Bool);
 - (void)|t}è~$¤P;
 
 // Remaining properties
 @property(retain, nonatomic) IMItem *_parentItem; // @synthesize _parentItem;
-@property(nonatomic) _Bool replyIsFromMe; // @synthesize replyIsFromMe=_replyIsFromMe;
-@property(copy, nonatomic) NSString *replyMessageGUID; // @synthesize replyMessageGUID=_replyMessageGUID;
 
 @end
 

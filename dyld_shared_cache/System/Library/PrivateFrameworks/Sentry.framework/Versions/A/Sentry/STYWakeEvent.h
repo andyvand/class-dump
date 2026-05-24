@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class STYWakeDetectorDebugInfo;
-
 @interface STYWakeEvent
 {
     unsigned long long _wakeType;
-    unsigned long long _sleepType;
-    unsigned long long _endType;
-    unsigned long long _wakeStart;
-    unsigned long long _kernelStart;
-    unsigned long long _graphicsReady;
-    unsigned long long _loginWindowWakeEnd;
-    STYWakeDetectorDebugInfo *_debugInfo;
 }
 
 - (unsigned long long);
@@ -39,14 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) STYWakeDetectorDebugInfo *debugInfo; // @synthesize debugInfo=_debugInfo;
-@property(nonatomic) unsigned long long endType; // @synthesize endType=_endType;
-@property(nonatomic) unsigned long long graphicsReady; // @synthesize graphicsReady=_graphicsReady;
-@property(nonatomic) unsigned long long kernelStart; // @synthesize kernelStart=_kernelStart;
-@property(nonatomic) unsigned long long loginWindowWakeEnd; // @synthesize loginWindowWakeEnd=_loginWindowWakeEnd;
-@property(nonatomic) unsigned long long sleepType; // @synthesize sleepType=_sleepType;
-@property(readonly) unsigned long long wakeEnd;
-@property(nonatomic) unsigned long long wakeStart; // @synthesize wakeStart=_wakeStart;
 @property(nonatomic) unsigned long long wakeType; // @synthesize wakeType=_wakeType;
 
 @end

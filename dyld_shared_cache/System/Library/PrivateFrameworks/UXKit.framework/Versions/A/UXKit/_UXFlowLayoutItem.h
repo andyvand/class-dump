@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UXFlowLayoutRow, _UXFlowLayoutSection;
+@class _UXFlowLayoutSection;
 
 @interface _UXFlowLayoutItem
 {
     struct CGRect _itemFrame;
-    _UXFlowLayoutSection *_section;
-    _UXFlowLayoutRow *_rowObject;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (struct CGRect);
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct CGRect itemFrame; // @synthesize itemFrame=_itemFrame;
-@property(nonatomic) _UXFlowLayoutRow *rowObject; // @synthesize rowObject=_rowObject;
 @property(nonatomic) _UXFlowLayoutSection *section; // @synthesize section=_section;
 
 @end

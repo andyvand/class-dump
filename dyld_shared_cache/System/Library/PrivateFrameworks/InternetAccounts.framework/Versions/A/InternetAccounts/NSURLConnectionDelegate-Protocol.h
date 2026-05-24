@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLConnectionDelegate
+
+@optional
+- (_Bool);
+- (void);
 @end
 

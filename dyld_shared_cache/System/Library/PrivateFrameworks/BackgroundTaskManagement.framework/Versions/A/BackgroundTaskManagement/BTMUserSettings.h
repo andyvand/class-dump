@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface BTMUserSettings
 {
     _Bool _serviceManagementLoginItemsMigrated;
-    _Bool _launchServicesItemsImported;
-    unsigned int _uid;
-    long long _backgroundAppRefreshLoadCount;
-    long long _generation;
-    NSMutableDictionary *_enablementStatusByIdentifier;
 }
 
 + (_Bool);
@@ -31,15 +24,10 @@
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long)Z#;
 - (void);
 
 // Remaining properties
-@property(readonly) long long backgroundAppRefreshLoadCount; // @synthesize backgroundAppRefreshLoadCount=_backgroundAppRefreshLoadCount;
-@property(retain, nonatomic) NSMutableDictionary *enablementStatusByIdentifier; // @synthesize enablementStatusByIdentifier=_enablementStatusByIdentifier;
-@property long long generation; // @synthesize generation=_generation;
-@property(nonatomic) _Bool launchServicesItemsImported; // @synthesize launchServicesItemsImported=_launchServicesItemsImported;
-@property(nonatomic) _Bool serviceManagementLoginItemsMigrated; // @synthesize serviceManagementLoginItemsMigrated=_serviceManagementLoginItemsMigrated;
 @property(nonatomic) unsigned int uid; // @synthesize uid=_uid;
 
 @end

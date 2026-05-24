@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _DKPRSource, _DKPRStream, _DKPRValue;
-
 @interface _DKPREvent
 {
     long long _compatibilityVersion;
-    double _confidence;
-    double _creationDate;
-    double _endDate;
-    double _startDate;
-    long long _timeZone;
-    NSString *_identifier;
-    NSMutableArray *_metadatas;
-    _DKPRSource *_source;
-    _DKPRStream *_stream;
-    _DKPRValue *_value;
-    struct {
-        unsigned int compatibilityVersion:1;
-        unsigned int confidence:1;
-        unsigned int creationDate:1;
-        unsigned int timeZone:1;
-    } _has;
 }
 
 - (id);

@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADChangeTrackingClientId, NSString;
+@class NSString;
 
 @interface EKChangeTrackingClientId
 {
     NSString *_suffix;
-    NSString *_customClientId;
 }
 
 - (id);
 - (id);
+- (id)9;
+- (id)?;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)RefPtr<WebCore:(id)arg1:StorageNamespace>>::KeyValuePairTraits, WTF::HashTraits<WebCore::SecurityOriginData>>::validateKey(const ValueType &) [Key = WebCore::SecurityOriginData, Value = WTF::KeyValuePair<WebCore::SecurityOriginData, WTF::RefPtr<WebCore::StorageNamespace>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::SecurityOriginData, WTF::RefPtr<WebCore::StorageNamespace>>>, HashFunctions = WTF::DefaultHash<WebCore::SecurityOriginData>, Traits = WTF::HashMap<WebCore::SecurityOriginData, WTF::RefPtr<WebCore::StorageNamespace>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::SecurityOriginData>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CADChangeTrackingClientId *CADChangeTrackingClientId;
-@property(readonly, copy, nonatomic) NSString *customClientId; // @synthesize customClientId=_customClientId;
 @property(readonly, copy, nonatomic) NSString *suffix; // @synthesize suffix=_suffix;
 
 @end

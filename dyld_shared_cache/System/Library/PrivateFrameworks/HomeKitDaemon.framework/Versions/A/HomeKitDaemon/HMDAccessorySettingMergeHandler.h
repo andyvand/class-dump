@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)was disabled!;
++ (id)o initialize device authentication session:(id)arg1 device authentication was disabled!;
++ (id)change failed:(id)arg1 %li;
++ (_Bool)-[OspreyGRPCChannel bidirectionalStreamingRequest:(id)arg1 streamingContext:(id)arg2 ];
 + (_Bool);
 
 @end

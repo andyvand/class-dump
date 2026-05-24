@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @protocol SXResource
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
 @property(readonly, nonatomic) NSString *identifier;
 @end
 

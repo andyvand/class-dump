@@ -7,10 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBInvokeSiriCommand
+- (void)/C3DEngineUtils.c;
+- (int)%;
+- (NSData *)text",R,N,V_managedObjectContext;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int serviceProvider;
 @property(copy, nonatomic) NSString *utteranceText;
 @end
 

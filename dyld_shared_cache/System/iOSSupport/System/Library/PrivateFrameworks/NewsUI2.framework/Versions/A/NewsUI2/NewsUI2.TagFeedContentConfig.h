@@ -7,7 +7,6 @@
 @interface NewsUI2.TagFeedContentConfig
 {
     id feedConfig;
-    id knobsConfig;
 }
 
 @end

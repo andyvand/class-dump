@@ -7,9 +7,9 @@
 @class NSData, _SFPBURL;
 
 @protocol _SFPBURLShareItem
+- (NSData *)bjects",R,N;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBURL *urlValue;
 @end
 

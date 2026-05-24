@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SFUOutputStream;
 
 __attribute__((visibility("hidden")))
 @interface OISFUZipDeflateOutputStream
 {
     id <SFUOutputStream> mOutputStream;
-    struct z_stream_s mDeflateStream;
-    char *mOutBuffer;
 }
 
 - (void);
@@ -20,20 +17,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)�jh8);
 - (void);
 - (_Bool);
 - (id);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

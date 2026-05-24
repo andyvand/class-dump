@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EDPersistenceDatabase, EDSearchableIndex, EDSearchableIndexAnalyticsPersistence, EDSearchableIndexPersistence, EDSearchableIndexScheduler, EDSpotlightDaemonClient, NSString;
-@protocol EFCancelable;
-
 @interface EDSearchableIndexManager
 {
     _Bool _needsToRedonate;
-    id <EFCancelable> _turboModeObservationToken;
-    EDSearchableIndexAnalyticsPersistence *_analytics;
-    EDPersistenceDatabase *_database;
-    EDMessagePersistence *_messagePersistence;
-    EDSpotlightDaemonClient *_spotlightDaemonClient;
 }
 
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (void);
 + (id)³Ð1Â0@ù
 × ;
@@ -32,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -48,16 +40,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)P;
+- (void)UsoEntityBuilder_common_Reaction;
+- (void);
+- (void)#;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)y;
 - (id)
 × ;
 - (void)@ù
@@ -66,22 +58,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) EDSearchableIndexAnalyticsPersistence *analytics; // @synthesize analytics=_analytics;
-@property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDSearchableIndex *index;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
 @property(nonatomic) _Bool needsToRedonate; // @synthesize needsToRedonate=_needsToRedonate;
-@property(readonly, nonatomic) EDSearchableIndexPersistence *persistence;
-@property(readonly, nonatomic) EDSearchableIndexScheduler *scheduler;
-@property(retain, nonatomic) EDSpotlightDaemonClient *spotlightDaemonClient; // @synthesize spotlightDaemonClient=_spotlightDaemonClient;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <EFCancelable> turboModeObservationToken; // @synthesize turboModeObservationToken=_turboModeObservationToken;
 
 @end
 

@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALForceFetchEnded : SISchemaInstrumentationMessage
 {
     unsigned int _numDeviceContextsFetched;
-    CDStruct_ec4f4247 _has;
 }
 
 - (void);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void)N;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)isRegionAllowed;
 - (id);
-- (id);
-- (id);
+- (id)hasEndpointType;
 - (id)L¢Ä£p¤ô¤<¦;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumDeviceContextsFetched;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int numDeviceContextsFetched; // @synthesize numDeviceContextsFetched=_numDeviceContextsFetched;
 
 @end

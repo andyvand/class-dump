@@ -6,8 +6,6 @@
 
 #import <AppKit/NSEditorBinder.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSValueBinder : NSEditorBinder
 {
@@ -25,26 +23,22 @@ __attribute__((visibility("hidden")))
         unsigned int _disardEditingSheetInProgress:1;
         unsigned int _reservedValueBinder:21;
     } _valueBinderFlags;
-    id _cachedObjectValue;
-    id _cachedDisplayValue;
-    id _sortDescriptorPrototype;
-    NSString *_referenceBinding;
 }
 
-+ (id);
-+ (id);
++ (id)2.2x, length %d;
++ (id)@;
 + (id);
 + (void)È	ÿïpH;
 - (Class);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id)as zero length;
+- (_Bool)on (0X%08X) did not match manifest version (0X%08X;
+- (void)rusted key %d (success);
+- (void)rt was issued and signed by issuer (success);
+- (void)re validation with issuer pubkey failed;
+- (id)_AMFDRDecodeGetPayloadSeqAndSetManifestFromMultiCombinedData;
+- (_Bool)5iilxso47rYJZGnXklkYYg;
+- (id)erConnectionCopyFirmwareSecurityInfo returned NULL;
+- (void)_CTServerConnectionCopyFirmwareUpdateInfo;
 - (void);
 - (void);
 - (void);
@@ -53,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (void);
 - (id);
@@ -69,44 +63,44 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (Class);
-- (id);
+- (Class);
+- (id)_;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)>, std:(void *)arg1:set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)set_maximumWatchCellularTransferSize:(id)arg1;
+- (id)set_longLivedConnectionCachePurgeTimeout:(unsigned long long)arg1;
+- (id)set_longLivedConnectionCacheCellPurgeTimeout: /* Error: Ran out of types for this method. */;
+- (id)set_loggingPrivacyLevel: /* Error: Ran out of types for this method. */;
+- (void)isEqualToHost:(id)arg1;
+- (_Bool)isCellular;
+- (id)accept_didFinishCollectingMetrics;
+- (void)_suspended;
+- (_Bool)tsStorage;
+- (_Bool)NSDictionary",C,V_cachedSocketStreamProperties;
+- (_Bool)AVBackgroundSessionConfigurationWithIdentifier:(id)arg1;
 - (_Bool);
-- (id);
+- (int);
+- (void)t: /* Error: Ran out of types for this method. */;
+- (void)essible file.;
+- (id)w throughput event %llu;
+- (void)tasks should have local sessions;
 - (void);
+- (void);
+- (void);
+- (void)$;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (id)Hp;
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)_chunkedReadTrailerDoRead;
+- (void)xy;
 - (id);
 - (void);
 - (void);
@@ -116,13 +110,7 @@ __attribute__((visibility("hidden")))
 - (void)ºÿì½	0ðB;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,17 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CLPInstSchemaCLPCurareAppIntentSampleClassificationFailed : SISchemaInstrumentationMessage
 {
     unsigned int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)-[MNNavigationService(CallbackHandling) _updateWithCallback:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -24,15 +21,13 @@
 - (_Bool);
 - (id);
 - (id)rted";
-- (id)atformContext;
+- (id)FLOWSchemaFLOWPlatformContext;
 - (id)Ô;
 - (void)&Ê';
 - (unsigned int)¼hhÿø;
 
 // Remaining properties
 @property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

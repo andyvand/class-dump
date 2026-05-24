@@ -5,6 +5,7 @@
 //
 
 @protocol IMAssistantCommSafetyManager
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool checksForSensitivityOnReceive;

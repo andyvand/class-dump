@@ -6,20 +6,14 @@
 
 #import <UIKitCore/UIVisualEffect.h>
 
-@class NSDictionary, NSString, UIColor;
+@class NSString;
 
 @interface UIColorEffect : UIVisualEffect
 {
     NSString *_filterType;
-    UIColor *_backgroundColor;
-    NSDictionary *_configurationValues;
-    NSDictionary *_identityValues;
-    NSDictionary *_requestedValues;
-    CDUnknownBlockType _sourceColorUpdater;
-    _Bool _disableInPlaceFiltering;
 }
 
-- (long long);
+- (long long)CEMCertificateDeclaration_Status;
 - (id);
 - (id);
 - (id);
@@ -30,7 +24,7 @@
 - (_Bool)\°1Â0@ù
 × ;
 - (_Bool);
-- (void)IfNecessary:(id)arg1;
+- (void)_updateVisibleCellsForRanges:(id)arg1 createIfNecessary: /* Error: Ran out of types for this method. */;
 - (id)$ÓàÓ(Ô
 ÌÔ ÖLÖ;
 - (void);

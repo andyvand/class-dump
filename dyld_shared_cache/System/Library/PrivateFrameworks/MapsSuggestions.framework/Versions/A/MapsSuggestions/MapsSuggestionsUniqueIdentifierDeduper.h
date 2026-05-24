@@ -11,23 +11,15 @@
 @interface MapsSuggestionsUniqueIdentifierDeduper : MapsSuggestionsBaseDeduper
 {
     long long _type;
-    NSString *_name;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)scrollToItemAtIndexPath:(id)arg1 atScrollPosition:(id)arg2 animated:userInteractivelyScrolling: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

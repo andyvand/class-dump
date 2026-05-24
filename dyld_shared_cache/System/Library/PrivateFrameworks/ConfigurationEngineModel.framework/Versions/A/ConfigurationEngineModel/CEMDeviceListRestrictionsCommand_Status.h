@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMDeviceListRestrictionsCommand_StatusProfileRestrictions, CEMDeviceListRestrictionsCommand_StatusRestrictionsDictionary;
+@class CEMDeviceListRestrictionsCommand_StatusRestrictionsDictionary;
 
 @interface CEMDeviceListRestrictionsCommand_Status : CEMPayloadBase
 {
     CEMDeviceListRestrictionsCommand_StatusRestrictionsDictionary *_statusGlobalRestrictions;
-    CEMDeviceListRestrictionsCommand_StatusProfileRestrictions *_statusProfileRestrictions;
 }
 
 + (id);
@@ -21,14 +20,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (id);
-- (_Bool);
+- (_Bool)erical;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CEMDeviceListRestrictionsCommand_StatusRestrictionsDictionary *statusGlobalRestrictions; // @synthesize statusGlobalRestrictions=_statusGlobalRestrictions;
-@property(copy, nonatomic) CEMDeviceListRestrictionsCommand_StatusProfileRestrictions *statusProfileRestrictions; // @synthesize statusProfileRestrictions=_statusProfileRestrictions;
 
 @end
 

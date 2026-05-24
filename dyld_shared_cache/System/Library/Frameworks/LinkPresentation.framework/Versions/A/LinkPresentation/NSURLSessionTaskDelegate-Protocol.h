@@ -7,6 +7,8 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)or is not configured.;
+- (void);
 - (void)e);
 - (void)"8q16@"NSString"24;
 @end

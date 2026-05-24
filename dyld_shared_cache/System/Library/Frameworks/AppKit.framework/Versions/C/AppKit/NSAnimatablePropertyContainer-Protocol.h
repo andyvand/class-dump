@@ -7,6 +7,7 @@
 @class NSDictionary;
 
 @protocol NSAnimatablePropertyContainer
++ (id);
 - (NSDictionary *),;
 - (void)tomization.app;
 - (id);

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFHomeMediaSettingDatabaseID, NSNumber, NSString;
+@class NSString;
 
 @protocol MKFHomeMediaSetting
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHomeMediaSettingDatabaseID *databaseID;
 @property(copy, nonatomic) NSString *mediaPassword;
-@property(copy, nonatomic) NSNumber *mediaPeerToPeerEnabled;
-@property(copy, nonatomic) NSNumber *minimumMediaUserPrivilege;
 @end
 

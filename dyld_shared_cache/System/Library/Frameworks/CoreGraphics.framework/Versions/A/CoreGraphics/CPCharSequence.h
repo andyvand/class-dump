@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPMemoryOwner;
-
 __attribute__((visibility("hidden")))
 @interface CPCharSequence
 {
     unsigned int length;
-    struct CPPDFChar **charArray;
-    unsigned int previousSize;
-    unsigned int size;
-    CPMemoryOwner *sharedMemory;
-    _Bool wasMerged;
 }
 
 - (_Bool);
@@ -40,10 +33,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)9;
 - (id);
 - (void);
-- (void);
+- (void);
 - (struct CPPDFChar *);
 - (struct CPPDFChar **);
 - (struct CGRect);
@@ -55,9 +48,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
-- (void);
+- (void);
 - (struct CGRect);
 - (id);
 - (void);

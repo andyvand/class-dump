@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDBasicHighlightsView, NSArray, NSMapTable, NSMutableArray, NSMutableSet;
-@protocol DDHighlightsDataSource, DDHighlightsDelegate;
+@protocol DDHighlightsDelegate;
 
 __attribute__((visibility("hidden")))
 @interface DDWK2Overlay
 {
     struct OpaqueWKBundlePageOverlay *_overlay;
-    struct OpaqueWKBundlePage *_clientPage;
-    id <DDHighlightsDelegate> _delegate;
-    id <DDHighlightsDataSource> _dataSource;
-    NSArray *_highlightedObjects;
-    NSMapTable *_objectsToArrowlessViewMapping;
-    NSMutableArray *_highlightQueue;
-    NSMutableArray *_subviews;
-    NSMutableSet *_trackingAreas;
-    NSMutableSet *_enteredTrackingAreas;
-    DDBasicHighlightsView *_clickedView;
-    struct CGAffineTransform _transform;
-    struct CGRect _visibleRect;
-    _Bool _alwaysShowHighlights;
-    _Bool _relayoutInProgress;
-    _Bool _needsLayout;
 }
 
 - (void);
@@ -37,12 +21,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)k@!;
 - (void);
 - (void);
 - (void);
@@ -66,26 +50,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void)SString"16@?<v@?@"NSData"@"NSError">24;
 - (void);
-- (void);
-- (void);
+- (void)WebDriver;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) DDBasicHighlightsView *clickedView; // @synthesize clickedView=_clickedView;
-@property __weak id <DDHighlightsDataSource> dataSource; // @synthesize dataSource=_dataSource;
 @property __weak id <DDHighlightsDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableSet *enteredTrackingAreas; // @synthesize enteredTrackingAreas=_enteredTrackingAreas;
-@property(retain) NSMutableArray *subviews; // @synthesize subviews=_subviews;
-@property(retain) NSMutableSet *trackingAreas; // @synthesize trackingAreas=_trackingAreas;
 
 @end
 

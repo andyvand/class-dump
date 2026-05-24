@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface NSFilePromiseDragSource
 {
     id _dragSource;
-    unsigned long long _dragRef;
-    NSArray *_filenames;
-    NSURL *_dropDestination;
-    _Bool _dragEnded;
-    int _typeCount;
-    id _retainedSelf;
 }
 
 - (void);
@@ -23,16 +15,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)download:(id)arg1 willResumeWithResponse:fromByte: /* Error: Ran out of types for this method. */;
+- (void)_wsClosing;
+- (unsigned long long)URLSession:(_Bool)arg1 assetDownloadTask:didLoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad: /* Error: Ran out of types for this method. */;
+- (void)URLSession:(id)arg1 aggregateAssetDownloadTask:(struct CGPoint)arg2 willDownloadToURL: /* Error: Ran out of types for this method. */;
+- (unsigned long long)xpectedToLoad:(id)arg1 forMediaSelection:(long long)arg2;
+- (void)URLSession:(id)arg1 aggregateAssetDownloadTask:(struct CGPoint)arg2 didCompleteForMediaSelection: /* Error: Ran out of types for this method. */;
+- (void)URLSession:(id)arg1 aggregateAssetDownloadTask:(struct CGPoint)arg2 didCompleteForMediaSelection:(unsigned long long)arg3;
+- (void)URLAssetWithURL:(id)arg1 options:(struct CGPoint)arg2;
+- (void)N,V__connectionTiming;
+- (void)tifier;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -40,14 +32,7 @@ __attribute__((visibility("hidden")))
 - (id)4@4÷C;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property unsigned long long dragRef; // @synthesize dragRef=_dragRef;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

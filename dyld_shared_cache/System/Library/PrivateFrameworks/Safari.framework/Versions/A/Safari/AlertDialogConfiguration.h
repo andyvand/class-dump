@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AlertDialogConfiguration
 {
     _Bool shouldHideTabContent;
-    _Bool _hasPromptField;
-    _Bool _hasSecurePromptField;
-    long long _dialogType;
-    CDUnknownBlockType _presentationBlock;
-    NSString *_title;
-    NSString *_message;
-    NSArray *_buttonLabels;
-    NSString *_originStringForAccessibility;
-    NSString *_promptFieldDefaultResponse;
-    NSNumber *_customWidth;
-    CDUnknownBlockType _customLeftMostAction;
-    NSArray *_tableData;
-    CDUnknownBlockType _tableDidSelectRowAction;
 }
 
 + (id);
@@ -55,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id)!GùQ¢1Â0@ù
 × ;
 - (id)andler: /* Error: Ran out of types for this method. */;
@@ -63,26 +50,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *buttonLabels; // @synthesize buttonLabels=_buttonLabels;
-@property(readonly, nonatomic) CDUnknownBlockType customLeftMostAction; // @synthesize customLeftMostAction=_customLeftMostAction;
-@property(readonly, nonatomic) NSNumber *customWidth; // @synthesize customWidth=_customWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long dialogType; // @synthesize dialogType=_dialogType;
-@property(readonly, nonatomic) _Bool hasPromptField; // @synthesize hasPromptField=_hasPromptField;
-@property(readonly, nonatomic) _Bool hasSecurePromptField; // @synthesize hasSecurePromptField=_hasSecurePromptField;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, copy, nonatomic) NSString *originStringForAccessibility; // @synthesize originStringForAccessibility=_originStringForAccessibility;
-@property(readonly, nonatomic) CDUnknownBlockType presentationBlock; // @synthesize presentationBlock=_presentationBlock;
-@property(readonly, copy, nonatomic) NSString *promptFieldDefaultResponse; // @synthesize promptFieldDefaultResponse=_promptFieldDefaultResponse;
-@property(readonly, nonatomic) _Bool shouldHideTabContent; // @synthesize shouldHideTabContent;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tableData; // @synthesize tableData=_tableData;
-@property(readonly, nonatomic) CDUnknownBlockType tableDidSelectRowAction; // @synthesize tableDidSelectRowAction=_tableDidSelectRowAction;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

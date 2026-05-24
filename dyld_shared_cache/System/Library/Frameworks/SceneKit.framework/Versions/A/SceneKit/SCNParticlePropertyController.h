@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation, NSString, SCNNode;
+@class CAAnimation;
 
 @interface SCNParticlePropertyController
 {
     CAAnimation *_animation;
-    long long _inputMode;
-    double _inputScale;
-    double _inputBias;
-    SCNNode *_inputOrigin;
-    NSString *_inputProperty;
-    id _c3dAnimation;
 }
 
 + (id);
@@ -24,10 +18,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)%d;
 - (void);
 - (id);
 - (id);
@@ -36,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (id)nSampler;
@@ -176,11 +170,6 @@ void main (void)
 
 // Remaining properties
 @property(retain, nonatomic) CAAnimation *animation;
-@property(nonatomic) double inputBias;
-@property(nonatomic) long long inputMode;
-@property(nonatomic) __weak SCNNode *inputOrigin;
-@property(copy, nonatomic) NSString *inputProperty;
-@property(nonatomic) double inputScale;
 
 @end
 

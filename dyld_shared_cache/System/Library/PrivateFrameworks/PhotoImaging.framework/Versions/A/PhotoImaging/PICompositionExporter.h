@@ -18,18 +18,18 @@
 + (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void)rveProperties;
+- (void);
+- (id);
+- (void)rawToneCurveProperties;
 
 @end
 

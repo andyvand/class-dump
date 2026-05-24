@@ -6,12 +6,11 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface SFURLImage : SFImage
 {
     NSURL *_urlValue;
-    NSURL *_darkUrlValue;
 }
 
 + (_Bool);
@@ -19,42 +18,19 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)0@0:(id)arg1 8{CGSize=dd}16@32;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)setHasPlaybackStarted:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)esHelper;
+- (id)ror parsing user feedback context as date:%@ /* Error: Ran out of types for this method. */;
+- (id)PHResourceLocalAvailabilityRequestVideoURLKey;
 - (id);
 - (void)hasValue;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(retain, nonatomic) SFImage *badgingImage;
-@property(copy, nonatomic) NSString *contentType;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
-@property(copy, nonatomic) NSURL *darkUrlValue; // @synthesize darkUrlValue=_darkUrlValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy) NSData *imageData;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) int source;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSURL *urlValue; // @synthesize urlValue=_urlValue;
 
 @end

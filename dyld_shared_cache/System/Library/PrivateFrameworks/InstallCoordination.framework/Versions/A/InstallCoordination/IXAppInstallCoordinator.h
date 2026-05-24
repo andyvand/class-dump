@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IXAppInstallCoordinatorSeed, IXApplicationIdentity, LSApplicationRecord, NSArray, NSError, NSObject, NSString, NSUUID;
-@protocol IXAppInstallCoordinatorObserver, OS_dispatch_queue;
+@class IXAppInstallCoordinatorSeed;
 
 @interface IXAppInstallCoordinator
 {
     _Bool _complete;
-    _Bool _isRegisteredWithDaemon;
-    NSError *_error;
-    unsigned long long _errorSourceIdentifier;
-    unsigned long long _observersCalled;
-    id <IXAppInstallCoordinatorObserver> _observer;
-    IXAppInstallCoordinatorSeed *_seed;
-    LSApplicationRecord *_completedApplicationRecord;
 }
 
 + (_Bool);
@@ -26,7 +18,7 @@
 + (_Bool);
 + (_Bool);
 + (void);
-+ (_Bool);
++ (_Bool)#;
 + (void);
 + (id);
 + (Class);
@@ -50,7 +42,7 @@
 + (_Bool);
 + (void);
 + (_Bool);
-+ (void);
++ (void);
 + (_Bool);
 + (id);
 + (_Bool);
@@ -70,9 +62,9 @@
 + (_Bool);
 + (_Bool);
 + (void);
++ (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (void);
++ (void)hj;
 + (void);
 + (_Bool);
 + (unsigned long long);
@@ -91,7 +83,7 @@
 + (void);
 + (_Bool);
 + (_Bool);
-+ (void);
++ (void)`*;
 + (void);
 + (_Bool);
 + (_Bool);
@@ -99,7 +91,7 @@
 + (id);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)2@40B48@52@60q68q76Q84@92;
 + (id);
 + (_Bool);
 + (_Bool);
@@ -108,17 +100,17 @@
 + (_Bool);
 + (id);
 + (_Bool);
++ (void)indexPathsForContentItemsInSections:(id)arg1;
++ (_Bool);
++ (void)leLabel(>=h)][_detailLabel(<=dh)][_lowerSpace(>=m)]|;
 + (void);
 + (_Bool);
-+ (void);
-+ (void);
 + (_Bool);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (id);
++ (void)onInfo"16@0:(id)arg1 8;
++ (void)_enabledEntryTypeParkedCar;
++ (void)Activity Timer block timed out after 5 minutes:(id)arg1 %@;
++ (_Bool);
++ (id)";
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -135,13 +127,13 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool));
 - (id);
 - (id);
 - (id);
@@ -156,7 +148,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -186,15 +178,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)F;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)q;
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
@@ -216,17 +208,17 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
+- (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
-- (oneway void);
+- (oneway void)p;
 - (oneway void);
 - (oneway void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)5;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -243,42 +235,13 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void)moteObjectProxyWithErrorHandler:(id)arg1;
+- (_Bool)HertzString;
+- (void)synchronousRemoteObjectProxyWithErrorHandler:(id)arg1;
 - (id)4ÜT@;
 - (id)s;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleID; // @dynamic bundleID;
-@property(nonatomic, getter=isComplete) _Bool complete; // @synthesize complete=_complete;
-@property(readonly, nonatomic) LSApplicationRecord *completedApplicationRecord; // @synthesize completedApplicationRecord=_completedApplicationRecord;
-@property(readonly, nonatomic) unsigned long long coordinationState;
-@property(readonly, nonatomic) unsigned int creatorEUID; // @dynamic creatorEUID;
-@property(readonly, nonatomic) unsigned long long creatorIdentifier; // @dynamic creatorIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *descriptionWithRemoteState;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) unsigned long long errorSourceIdentifier; // @synthesize errorSourceIdentifier=_errorSourceIdentifier;
-@property(readonly, nonatomic) _Bool hasAppAssetPromise;
-@property(readonly, nonatomic) _Bool hasInitialODRAssetPromises;
-@property(readonly, nonatomic) _Bool hasInstallOptions;
-@property(readonly, nonatomic) _Bool hasPlaceholderPromise;
-@property(readonly, nonatomic) _Bool hasUserDataPromise;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) IXApplicationIdentity *identity; // @dynamic identity;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *internalQueue;
-@property(nonatomic) _Bool isRegisteredWithDaemon; // @synthesize isRegisteredWithDaemon=_isRegisteredWithDaemon;
-@property(nonatomic) __weak id <IXAppInstallCoordinatorObserver> observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *observerCalloutQueue;
-@property(nonatomic) unsigned long long observersCalled; // @synthesize observersCalled=_observersCalled;
 @property(readonly, nonatomic) IXAppInstallCoordinatorSeed *seed; // @synthesize seed=_seed;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @dynamic uniqueIdentifier;
-@property(readonly, copy, nonatomic) NSArray *validInstallTypes; // @dynamic validInstallTypes;
 
 @end
 

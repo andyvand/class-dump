@@ -6,23 +6,18 @@
 
 #import <CalendarUI/EKUISingleTextFieldGadget.h>
 
-@class EKEvent, NSString;
-
 @interface EKUINoteGadget : EKUISingleTextFieldGadget
 {
     _Bool _showingAllNotes;
-    _Bool _expanded;
-    EKEvent *_lastDisplayedEvent;
-    NSString *_currentlyDisplayedCompleteNotes;
 }
 
 + (id);
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -34,17 +29,11 @@
 - (double);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)N5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFv12AudioIOStateENS2_19optional_last_valueIvEEiNSt3__14lessIiEENS_8functionIS6_EENSC_IFvRKNS2_10connectionES5_EEENS2_5mutexEEEEE;
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

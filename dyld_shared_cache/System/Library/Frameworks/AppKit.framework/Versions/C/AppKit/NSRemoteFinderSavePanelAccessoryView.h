@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     struct CGSize _intrinsicContentSize;
 }
 
-- (void);
+- (void);
 - (id);
 - (struct CGSize);
 

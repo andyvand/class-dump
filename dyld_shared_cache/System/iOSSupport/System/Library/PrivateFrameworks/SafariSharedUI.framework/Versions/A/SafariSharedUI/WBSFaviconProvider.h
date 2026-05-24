@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSCalendar, NSCountedSet, NSMutableDictionary, NSObject, NSString, NSURL, WBSFaviconProviderPersistenceController;
-@protocol OS_dispatch_queue, WBSSiteMetadataProviderDelegate;
+@class NSMutableDictionary, NSURL;
 
 @interface WBSFaviconProvider
 {
     NSMutableDictionary *_hostsToRequestsMap;
-    NSCache *_responseCache;
-    NSCountedSet *_requestsPendingResponse;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_internalSavingQueue;
-    WBSFaviconProviderPersistenceController *_persistenceController;
-    NSCalendar *_calendar;
-    double _expirationInterval;
-    long long _providerState;
-    unsigned long long _privateDataRetentionCount;
-    struct CGSize _scaledPreferredIconSize;
-    CDUnknownBlockType _shouldCheckIntegrityWhenOpeningDatabaseBlock;
-    _Bool _isReadOnly;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
-    NSURL *_baseURL;
-    double _preferredIconScale;
-    NSArray *_allIconScales;
-    struct CGSize _preferredIconSize;
 }
 
 + (struct CGSize);
@@ -40,13 +22,13 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
+- (id)C;
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -72,15 +54,15 @@
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id)_;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -89,26 +71,10 @@
 - (_Bool);
 - (void);
 - (void)der: /* Error: Ran out of types for this method. */;
-- (id)ari_stringByRemovingWwwDotPrefix;
+- (id)safari_stringByRemovingWwwDotPrefix;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allIconScales; // @synthesize allIconScales=_allIconScales;
 @property(readonly, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isReadOnly; // @synthesize isReadOnly=_isReadOnly;
-@property(readonly, nonatomic) double preferredIconScale; // @synthesize preferredIconScale=_preferredIconScale;
-@property(readonly, nonatomic) struct CGSize preferredIconSize; // @synthesize preferredIconSize=_preferredIconSize;
-@property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

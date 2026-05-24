@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
+@class NSMutableArray;
 
 @interface ADConfigurationRequest
 {
     NSMutableArray *_currentConfigurations;
-    NSData *_iAdID;
 }
 
 + (Class);
@@ -21,14 +20,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)g",C,N,V_deviceID;
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -36,8 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *currentConfigurations; // @synthesize currentConfigurations=_currentConfigurations;
-@property(readonly, nonatomic) _Bool hasIAdID;
-@property(retain, nonatomic) NSData *iAdID; // @synthesize iAdID=_iAdID;
 
 @end
 

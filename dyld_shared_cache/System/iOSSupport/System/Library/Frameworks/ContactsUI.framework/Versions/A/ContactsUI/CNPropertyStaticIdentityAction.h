@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)howFirstSectionTopSeparator;
+- (void)l;
+- (void)_showFirstSectionTopSeparator;
 
 // Remaining properties
 @property __weak id <CNContactContentViewControllerDelegate> contactDelegate; // @synthesize contactDelegate=_contactDelegate;

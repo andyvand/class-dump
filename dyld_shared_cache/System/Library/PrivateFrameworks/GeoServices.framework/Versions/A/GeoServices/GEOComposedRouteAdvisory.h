@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedString, GEOPBTransitArtwork, NSArray;
 @protocol GEOServerFormattedString;
 
 @interface GEOComposedRouteAdvisory
 {
     id <GEOServerFormattedString> _title;
-    GEOComposedString *_titleString;
-    GEOPBTransitArtwork *_artwork;
-    _Bool _isClickable;
-    NSArray *_advisoryItems;
-    _Bool _initialisedForTransit;
-    NSArray *_analyticsMessageValues;
-    GEOComposedString *_detailCardTitle;
 }
 
 + (id);
 + (_Bool)lly.;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (_Bool)numberWithUnsignedLongLong: /* Error: Ran out of types for this method. */;
+- (id)currentCountryCode;
+- (id)currentBootSessionUUID;
 - (id);
 - (id);
 - (void);
 - (id);
+- (id)P;
+- (id);
+- (id);
+- (void);
+- (id)setCellIsRoaming:(struct _NSZone *)arg1;
 - (id);
 - (void)bí;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *advisoryItems; // @synthesize advisoryItems=_advisoryItems;
-@property(readonly, nonatomic) NSArray *analyticsMessageValues; // @synthesize analyticsMessageValues=_analyticsMessageValues;
-@property(readonly, nonatomic) GEOPBTransitArtwork *artwork; // @synthesize artwork=_artwork;
-@property(readonly, nonatomic) GEOComposedString *detailCardTitle; // @synthesize detailCardTitle=_detailCardTitle;
-@property(readonly, nonatomic) _Bool isClickable; // @synthesize isClickable=_isClickable;
 @property(readonly, nonatomic) id <GEOServerFormattedString> title; // @synthesize title=_title;
-@property(readonly, nonatomic) GEOComposedString *titleString; // @synthesize titleString=_titleString;
 
 @end
 

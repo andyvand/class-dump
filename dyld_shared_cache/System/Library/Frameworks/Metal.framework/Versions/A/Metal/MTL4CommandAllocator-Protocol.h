@@ -4,13 +4,149 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLDevice;
 
 @protocol MTL4CommandAllocator
+- (void)) + 0.950983;
+   float v2 =  dot( sampleR, vec2(-1.117980, -0.3628144) ) + 0.950984;
+   float v3 =  sampleR.y;
+   return v1 > 0.0 && v2 > 0.0 && v3 < 0.808738 ? 1.0 :0.0;
+}
+float _spatialWeightRings(vec4 sampledPix,vec2 offset) {
+   vec2 sampleR = offset / sampledPix.w;
+   float sampleD = length(sampleR);
+   return sampleD > 0.3 && sampleD <= 1.0 ? 1.0 :0.0;
+}
+float _spatialWeightStars(vec4 sampledPix,vec2 offset,vec4 shapeOrientation) {
+   offset = offset.x * shapeOrientation.xy + offset.y * shapeOrientation.zw;
+   vec2 sampleR = vec2(abs(offset.x), -offset.y) / sampledPix.w;
+   float t1a = dot( sampleR, vec2(-1.11798, 1.53915) ) - 0.587209;
+   float t1b = dot( sampleR, vec2(1.80874, -0.58816) ) - 0.588168;
+   float t2a = sampleR.y + 0.30924;
+   float t2b = dot( sampleR, vec2( 1.11798, 1.53915 ) ) - 0.587209;
+   return ((t1a < 0.0) && (t1b < 0.0)) || ((t2a > 0.0) && (t2b < 0.0)) ? 1.0 :0.0;
+}
+float _spatialWeightSwirl(vec4 sampledPix,vec2 offset,vec4 rotVec) {
+    vec2 sampleR = offset / sampledPix.w; 
+    float sampleD = length(sampleR.x * rotVec.xy + sampleR.y * rotVec.zw);
+    return sampleD <= 1.0 ? 1.0 :0.0;
+}
+float _spatialWeightSwirl2(vec4 sampledPix, vec2 offset, vec2 offsetUV, vec4 rotVec) { 
+vec2 sampleR = offset / sampledPix.w; 
+vec2 iRotVec = vec2(-rotVec.y, rotVec.x); 
+vec2 uv = sampleR.x * rotVec.xy + sampleR.y * iRotVec + offsetUV; 
+uv.y = abs(uv.y) +  rotVec.z; 
+float sampleD = length(uv); 
+float w = sampleD >= 0.8 ? 1.0 :0.5; 
+return sampleD <= 1.0 ? w :0.0; 
+} 
+float _spatialWeightSwirl3(vec4 sampledPix, vec2 offset, float radiusScale, vec4 rotVec) { 
+vec2 sampleR = offset / sampledPix.w; 
+vec2 iRotVec = vec2(-rotVec.y, rotVec.x); 
+vec2 uv = sampleR.x * rotVec.xy + sampleR.y * iRotVec; 
+uv.y = uv.y > 0.0 ? uv.y :uv.y - rotVec.z; 
+float sampleD = length(uv) * radiusScale; 
+float w = sampleD >= 0.8 ? 1.0 :0.5; 
+return sampleD <= 1.0 ? w :0.0; 
+} 
+vec3 _pixWeightShape( vec4 sampledPix,vec2 offset,float basePixRawR,float distWeight,vec2 spatialWeightSoftMinMax ,float highlightBoostGain,vec2 relativeWeightThreshold,vec4 shapeOrientation,float shape) {
+   vec3 spatialWeight = vec3( 0.0, 0.0, 0.0 );
+   int shapeN = int(shape);
+   if (shapeN == 0) spatialWeight = vec3( _spatialWeightHearts(sampledPix, offset, shapeOrientation) );
+   else if ( shapeN == 1 ) spatialWeight = vec3( _spatialWeightPentagon(sampledPix, offset, shapeOrientation) );
+   else if ( shapeN == 2 ) spatialWeight = vec3( _spatialWeightRings(sampledPix, offset) );
+   else if ( shapeN == 3 ) spatialWeight = vec3( _spatialWeightStars(sampledPix, offset, shapeOrientation) );
+   else if ( shapeN == 4 || shapeN == 5 ) spatialWeight = vec3( _spatialWeightSwirl(sampledPix, offset, shapeOrientation) );
+   else if ( shapeN == 6 ) {
+       spatialWeight.x = _spatialWeightSwirl2(sampledPix, offset, vec2(0,0.1), shapeOrientation);
+       spatialWeight.y = _spatialWeightSwirl2(sampledPix, offset, vec2(0,0), shapeOrientation);
+       spatialWeight.z = _spatialWeightSwirl2(sampledPix, offset, vec2(0,-0.1), shapeOrientation);
+   } else if ( shapeN == 7 ) {
+       spatialWeight.x = _spatialWeightSwirl3(sampledPix, offset, 1.1, shapeOrientation);
+       spatialWeight.y = _spatialWeightSwirl3(sampledPix, offset, 1.0, shapeOrientation);
+       spatialWeight.z = _spatialWeightSwirl3(sampledPix, offset, 1.05, shapeOrientation);
+   } else {
+      float sampleR = 1.0 / sqrt(offset.x*offset.x + offset.y*offset.y);
+      spatialWeight = vec3( clamp(spatialWeightSoftMinMax.x * sampledPix.w * sampleR + spatialWeightSoftMinMax.y, 0.0, 1.0) );
+   }
+    float colorWeight = highlightBoostGain * (sampledPix.x + sampledPix.y + sampledPix.z) + 1.0; 
+    float backgroundWeight = (3.0 - 2.0 * sampledPix.w);
+    float rwT = clamp(relativeWeightThreshold.x * (sampledPix.w - basePixRawR) + relativeWeightThreshold.y, 0.0, 1.0);
+    float relativeWeight = rwT * rwT * (3.0 - 2.0 * rwT); 
+    vec3 totalWeight = distWeight * spatialWeight * colorWeight * backgroundWeight * relativeWeight;
+    return totalWeight;
+}
+float _ushortMultiply2(float a,float multiplier) {
+   int q = int(a) * int(multiplier);
+   int r = q/65536;
+   int m = q - r * 65536;
+   return float(m) + ( m < 0  ? 65536.0 :0.0);
+}
+kernel vec4 _CIPortraitBlurShape( sampler image,vec4 sizeAndScale,vec3 p0,vec4 p1,vec2 relativeWeightThreshold,vec4 shapeV,float shapeN) 
+{
+   float maxBlurInPixels         = p0.x;
+   float sharpRadius             = p0.y;
+   float highlightBoostGain      = p0.z;
+   vec2 spatialWeightSoftMinMax  = p1.xy;
+   float basePixelWeight         = p1.z;
+   int numSamples                = int(p1.w);
+    vec2 dc = destCoord();
+    vec4 basePix = sample(image, samplerCoord(image));
+    float rawBlurRadius = basePix.w * basePix.w;
+    float blurRadius = rawBlurRadius * maxBlurInPixels;
+  vec2 halfDims = 0.5 * sizeAndScale.xy;
+  vec4 rotVec =  (halfDims.yxxy - dc.yxxy);
+  float rotLen = length(rotVec.xy);
+  float rotLenNorm = 2.0 * rotLen / max(halfDims.x, halfDims.y);
+  rotVec *= 1.0 / rotLen;
+  if ( int(shapeN) == 5 ) {
+    rotVec *= vec4( -1.0 - rotLenNorm, -1.0, 1.0 + rotLenNorm, -1.0 );
+    shapeV = rotVec;
+  } else if ( int(shapeN) == 4 ) {
+    rotVec *= vec4(-1.0, -1.0 - rotLenNorm, 1.0, -1.0 - rotLenNorm);
+    shapeV = rotVec;
+  } else if ( int(shapeN) == 6 ) {
+    shapeV = vec4(rotVec.x, rotVec.y, rotLenNorm/8.0, 0.0);
+  } else if ( int(shapeN) == 7 ) {
+    shapeV = vec4(rotVec.x, rotVec.y, rotLenNorm/8.0, 0.0);
+  }
+    vec4 outRGB;
+    if ( blurRadius >= sharpRadius )
+    {
+      vec3 pixSum = basePix.xyz * basePixelWeight;
+      vec3 pixWeightSum = vec3( basePixelWeight );
+       vec2 randXY = _pseudo_randPBNS(dc/sizeAndScale.xy) * sizeAndScale.zw * 65536.0;
+      for ( int i = 0; i < numSamples; i++ )
+      {
+           vec2 randXY2 = (1./32767.5) * randXY - 1.0; 
+           float randDist = randXY2.x*randXY2.x + randXY2.y*randXY2.y;
+           float randNorm0 = max(abs(randXY2.x),abs(randXY2.y));
+           float randShape = randNorm0 / sqrt(randDist);
+           vec2  samplePos = randShape * rawBlurRadius * randXY2;
+           float randW = randShape * randShape;
+           samplePos.y = -samplePos.y;
+           randXY.x = ceil(_ushortMultiply2(randXY.x, 28563.0));
+           randXY.y = ceil(_ushortMultiply2(randXY.y, 44519.0));
+            vec4 pix = sample( image, samplerTransform(image, dc + maxBlurInPixels * samplePos));
+           pix.w = pix.w * pix.w;
+           vec3 pixWeight = _pixWeightShape(pix, samplePos, rawBlurRadius, randW, spatialWeightSoftMinMax, highlightBoostGain, relativeWeightThreshold, shapeV, shapeN);
+           pixSum += pix.xyz * pixWeight;
+           pixWeightSum += pixWeight;
+        }
+        outRGB.xyz = pixSum / pixWeightSum;
+        outRGB.w = basePix.w;
+    }
+    else
+    {
+        outRGB = basePix;
+    }
+    return outRGB;
+}
+
+ /* Error: Ran out of types for this method. */;
+- (id <MTLDevice>)000000000000000000;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSString *label;
 @end
 

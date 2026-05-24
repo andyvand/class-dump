@@ -6,25 +6,21 @@
 
 #import <SafariSharedUI/WBSSiteMetadataRequest.h>
 
-@class NSArray, NSString;
-
 @interface WBSSVGImageRenderingRequest : WBSSiteMetadataRequest
 {
 }
 
 - (id);
 - (id);
+- (id)b;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setCurrentAsyncOperation: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize imageSize;
-@property(readonly, nonatomic) NSString *svgContent;
-@property(readonly, nonatomic) NSArray *urls;
 
 @end
 

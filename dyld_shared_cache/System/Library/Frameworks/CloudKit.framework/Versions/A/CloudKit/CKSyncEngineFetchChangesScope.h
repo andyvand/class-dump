@@ -9,26 +9,24 @@
 @interface CKSyncEngineFetchChangesScope
 {
     NSSet *_zoneIDs;
-    NSSet *_excludedZoneIDs;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)_;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)Delegate;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void)NSXPCListenerDelegate;
 
 // Remaining properties
-@property(readonly, copy) NSSet *excludedZoneIDs; // @synthesize excludedZoneIDs=_excludedZoneIDs;
 @property(readonly, copy) NSSet *zoneIDs; // @synthesize zoneIDs=_zoneIDs;
 
 @end

@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, OADBackground, OADTableStyle, PDAnimation, PDTransition;
-
 __attribute__((visibility("hidden")))
 @interface PDSlideBase
 {
     unsigned int mSlideId;
-    NSString *mName;
-    NSArray *mDrawables;
-    OADBackground *mBackground;
-    PDAnimation *mAnimation;
-    PDTransition *mTransition;
-    PDTransition *mPpt2011Transition;
-    OADTableStyle *mDefaultTableStyle;
-    unsigned int mIsHidden:1;
-    unsigned int mIsDoneWithContent:1;
 }
 
 + (int);
@@ -30,15 +19,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
@@ -48,10 +37,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned int);
@@ -64,13 +53,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void)=Bd*Qi)}16;
-- (void)e;
+- (void)mainBundle;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)able;
+- (void)17XlCustomViewTable;
 
 // Remaining properties
 @property(nonatomic) unsigned int slideId; // @synthesize slideId=mSlideId;

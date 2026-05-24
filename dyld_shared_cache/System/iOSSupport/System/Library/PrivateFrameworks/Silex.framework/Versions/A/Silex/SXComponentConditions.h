@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *greaterThanSpecVersion; // @dynamic greaterThanSpecVersion;
-@property(readonly, nonatomic) NSString *lessThanSpecVersion; // @dynamic lessThanSpecVersion;
 @end
 

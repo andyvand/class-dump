@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImmediateActionGestureRecognizer, NSPopover, NSPopoverAnimationController, NSString, NSTimer, NSURL, NSView, NSViewController, PagePreviewViewController;
 @protocol PagePreviewAnimationControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface PagePreviewAnimationController
 {
     _Bool _shouldShowPreviewWhenLoadedOrAnimationCompletes;
-    _Bool _hasFinishedLoading;
-    NSPopover *_previewPopover;
-    PagePreviewViewController *_previewViewController;
-    struct CGPoint _eventLocationInView;
-    NSPopoverAnimationController *_popoverAnimationController;
-    NSImmediateActionGestureRecognizer *_recognizer;
-    _Bool _didCompleteAnimation;
-    NSTimer *_previewWatchdogTimer;
-    id <PagePreviewAnimationControllerDelegate> _delegate;
-    NSViewController *_parentViewController;
-    NSURL *_url;
-    NSView *_view;
-    struct CGRect _originRect;
 }
 
 - (void);
@@ -48,10 +34,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)_updateDictionaryData;
 - (void);
 - (id)1¢°1Â0@ù
 × ;
@@ -59,18 +45,7 @@ __attribute__((visibility("hidden")))
 - (void)¼;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PagePreviewAnimationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGRect originRect; // @synthesize originRect=_originRect;
-@property(nonatomic) __weak NSViewController *parentViewController; // @synthesize parentViewController=_parentViewController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) __weak NSView *view; // @synthesize view=_view;
 
 @end
 

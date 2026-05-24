@@ -6,21 +6,17 @@
 
 #import <AudioToolboxCore/AUAudioUnit_XPC.h>
 
-@class NSExtension, NSUUID;
+@class NSExtension;
 
 __attribute__((visibility("hidden")))
 @interface AUAudioUnit_XH : AUAudioUnit_XPC
 {
     NSExtension *_extension;
-    NSUUID *_requestIdentifier;
-    AUAudioUnit_XPC *_strongInstance;
-    CDUnknownBlockType _speechSynthesisOutputMetadataBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 + (void);
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,13 +24,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)(;
 - (id);
 - (void);
 - (void)cbD.hasData;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(retain) AUAudioUnit_XPC *strongInstance; // @synthesize strongInstance=_strongInstance;
 
 @end

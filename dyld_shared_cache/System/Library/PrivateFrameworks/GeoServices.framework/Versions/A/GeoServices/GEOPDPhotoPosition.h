@@ -4,47 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDGeographicCoordinate, GEOPDGroundDataBuild, GEOPDOrientedPosition, GEOPDOrientedTilePosition, GEOPDRigMetrics, GEOTileCoordinate, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDPhotoPosition
 {
     PBDataReader *_reader;
-    CDStruct_9f2792e4 _cameraMetadataIndexs;
-    GEOPDGroundDataBuild *_build;
-    NSMutableArray *_cameraMetadatas;
-    unsigned long long _imageryTimestamp;
-    unsigned long long _imdataId;
-    GEOTileCoordinate *_parentTile;
-    GEOPDGeographicCoordinate *_positionGeo;
-    GEOPDOrientedPosition *_position;
-    GEOPDRigMetrics *_rigMetrics;
-    GEOPDOrientedTilePosition *_tilePosition;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _buildTableIndex;
-    int _revision;
-    struct {
-        unsigned int has_imageryTimestamp:1;
-        unsigned int has_imdataId:1;
-        unsigned int has_buildTableIndex:1;
-        unsigned int has_revision:1;
-        unsigned int read_cameraMetadataIndexs:1;
-        unsigned int read_build:1;
-        unsigned int read_cameraMetadatas:1;
-        unsigned int read_parentTile:1;
-        unsigned int read_positionGeo:1;
-        unsigned int read_position:1;
-        unsigned int read_rigMetrics:1;
-        unsigned int read_tilePosition:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)geDescription:(id)arg1;
++ (_Bool)setImageDescription:(id)arg1;
 - (id);
-- (void);
+- (void)CNIOSLegacyIdentifierNamespace;
 - (void);
 - (void);
 - (void);
@@ -55,10 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)RE;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -73,7 +43,7 @@
 - (unsigned long long);
 - (unsigned int *);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned int);
@@ -87,22 +57,22 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_findLatestInstalledAsset:assetType: /* Error: Ran out of types for this method. */;
+- (void)ditions]_block_invoke;
+- (unsigned long long)h;
+- (_Bool);
 - (void);
-- (unsigned long long);
+- (id)_performWithTransportType: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)";
 - (void)0@ù
 × ;
 - (id)tmt=}20B28;
-- (id)L;
+- (id)_imageTemplateURL;
 - (id)`æç;
-- (_Bool)sponseID;
-- (id)EB_DIRECTIONS;
+- (_Bool)originalDirectionsResponseID;
+- (id)MAPS_WEB_DIRECTIONS;
 - (void)ø¸;
 - (id);
 - (void);
@@ -110,29 +80,7 @@
 ×p@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDGroundDataBuild *build;
-@property(nonatomic) unsigned int buildTableIndex;
-@property(readonly, nonatomic) unsigned int *cameraMetadataIndexs;
-@property(readonly, nonatomic) unsigned long long cameraMetadataIndexsCount;
-@property(retain, nonatomic) NSMutableArray *cameraMetadatas;
-@property(readonly, nonatomic) _Bool hasBuild;
-@property(nonatomic) _Bool hasBuildTableIndex;
-@property(nonatomic) _Bool hasImageryTimestamp;
 @property(nonatomic) _Bool hasImdataId;
-@property(readonly, nonatomic) _Bool hasParentTile;
-@property(readonly, nonatomic) _Bool hasPosition;
-@property(readonly, nonatomic) _Bool hasPositionGeo;
-@property(nonatomic) _Bool hasRevision;
-@property(readonly, nonatomic) _Bool hasRigMetrics;
-@property(readonly, nonatomic) _Bool hasTilePosition;
-@property(nonatomic) unsigned long long imageryTimestamp;
-@property(nonatomic) unsigned long long imdataId;
-@property(retain, nonatomic) GEOTileCoordinate *parentTile;
-@property(retain, nonatomic) GEOPDOrientedPosition *position;
-@property(retain, nonatomic) GEOPDGeographicCoordinate *positionGeo;
-@property(nonatomic) int revision;
-@property(retain, nonatomic) GEOPDRigMetrics *rigMetrics;
-@property(retain, nonatomic) GEOPDOrientedTilePosition *tilePosition;
 
 @end
 

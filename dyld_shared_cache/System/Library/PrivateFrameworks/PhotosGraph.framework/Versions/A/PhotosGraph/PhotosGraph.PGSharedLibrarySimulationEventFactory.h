@@ -7,12 +7,6 @@
 @interface PhotosGraph.PGSharedLibrarySimulationEventFactory
 {
     id photoLibrary;
-    id allMDATAFilepathBatches;
-    id allCameraClientMetadataBatches;
-    id currentBatchAssets;
-    id upcomingEventsPositionInBatch;
-    id currentBatchIndex;
-    id assetUUIDToPhotosChallengeGroundTruthSuggestsSharing;
 }
 
 @end

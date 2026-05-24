@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Rootless)
-- (_Bool);
+- (_Bool);
 - (_Bool);
 @end
 

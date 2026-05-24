@@ -9,13 +9,9 @@
 @interface SCWatchedStock
 {
     NSString *_name;
-    NSString *_shortName;
-    NSString *_symbol;
-    NSString *_exchange;
-    NSString *_displaySymbol;
 }
 
-+ (id);
++ (id)m;
 - (id);
 - (id);
 - (id);
@@ -23,18 +19,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
+- (id)AXScrollArea;
 - (id);
-- (id);
-- (void);
+- (void)SCRCConfigurationSpecifierFactoryProtocol;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *displaySymbol; // @synthesize displaySymbol=_displaySymbol;
-@property(readonly, copy, nonatomic) NSString *exchange; // @synthesize exchange=_exchange;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *shortName; // @synthesize shortName=_shortName;
-@property(readonly, copy, nonatomic) NSString *symbol; // @synthesize symbol=_symbol;
 
 @end
 

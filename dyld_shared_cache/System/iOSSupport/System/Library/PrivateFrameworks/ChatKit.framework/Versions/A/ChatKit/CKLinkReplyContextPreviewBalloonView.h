@@ -6,17 +6,16 @@
 
 #import <ChatKit/CKColoredBalloonView.h>
 
-@class ChatKit.CKBalloonMaskLayer, LPLinkView, NSString;
+@class ChatKit.CKBalloonMaskLayer, LPLinkView;
 
 @interface CKLinkReplyContextPreviewBalloonView : CKColoredBalloonView
 {
     LPLinkView *_linkView;
-    ChatKit.CKBalloonMaskLayer *_linkViewMaskLayer;
 }
 
-- (struct CGSize);
-- (void);
-- (id);
+- (struct CGSize)addOperationWithAttachment:(struct CGSize)arg1 size:(struct UIEdgeInsets *)arg2 scale:(struct UIEdgeInsets *)arg3 appearanceInfo:cache:cacheKey:processingBlock:completionBlock:fallbackBlock: /* Error: Ran out of types for this method. */;
+- (void)rBeforeAttachmentIsSet;
+- (id)SManagedObjectIDCSg06objectD0t;
 - (void);
 - (void);
 - (id);
@@ -28,15 +27,7 @@
 - (void)ÿI=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
 @property(retain, nonatomic) ChatKit.CKBalloonMaskLayer *linkViewMaskLayer; // @synthesize linkViewMaskLayer=_linkViewMaskLayer;
-@property(readonly) Class superclass;
 
 @end
 

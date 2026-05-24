@@ -8,7 +8,6 @@
 {
     id _pagingSafeAreaInsets;
     id _isPrimaryRecipe;
-    id _$observationRegistrar;
 }
 
 @end

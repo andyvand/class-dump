@@ -8,7 +8,6 @@
 {
     id sessionManager;
     id sessionObserver;
-    id networkEventSubscriber;
 }
 
 @end

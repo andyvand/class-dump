@@ -7,19 +7,17 @@
 @interface AMSUISpyglassWrapperViewController
 {
     id bag;
-    id delegateWrapper;
-    id hostingController;
 }
 
-- (void);
+- (void)n skipped asset has unknown asset kind;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)0	M	5	(	?	/	K		?	$	;
 - (void);
 - (void);
 - (void);

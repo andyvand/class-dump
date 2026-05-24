@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXPeopleBootstrapContext, UXLabel;
-@protocol PXPeopleFlowViewControllerActionDelegate;
+@class UXLabel;
 
 @interface PXPeopleBootstrapSummaryViewController
 {
     _Bool _wantsCancelButton;
-    _Bool _useLowMemoryMode;
-    PXPeopleBootstrapContext *_bootstrapContext;
-    UXLabel *_promptLabel;
-    UXLabel *_descriptionLabel;
 }
 
 - (_Bool);
@@ -29,35 +24,12 @@
 - (id);
 - (void)tificationResponded;
 - (id)296Q488@"<NSObject>"496^B504;
-- (_Bool)etsActionSelectionAlertTitle;
+- (_Bool)ClearRecentlyViewedAssetsActionSelectionAlertTitle;
 - (void);
 - (void)XJ½ÿäÍ=;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXPeopleFlowViewControllerActionDelegate> actionDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXPeopleFlowViewControllerActionDelegate>",?,W,N
-
-@property(readonly, nonatomic) PXPeopleBootstrapContext *bootstrapContext; // @synthesize bootstrapContext=_bootstrapContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) __weak UXLabel *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize preferredSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R,N
-
 @property(readonly, nonatomic) __weak UXLabel *promptLabel; // @synthesize promptLabel=_promptLabel;
-@property(readonly, nonatomic) _Bool shouldConfirmAdvancement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useLowMemoryMode; // @synthesize useLowMemoryMode=_useLowMemoryMode;
-@property(readonly, nonatomic) _Bool wantsCancelButton; // @synthesize wantsCancelButton=_wantsCancelButton;
 
 @end
 

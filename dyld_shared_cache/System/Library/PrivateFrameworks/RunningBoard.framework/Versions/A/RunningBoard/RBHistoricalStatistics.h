@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RBHistoricalStatistics
 {
     unsigned long long _frequency;
-    unsigned long long _currentClients;
-    unsigned long long _peakClients;
-    unsigned long long _currentProcesses;
-    unsigned long long _peakProcesses;
-    unsigned long long _currentAsserions;
-    unsigned long long _peakAssertions;
-    unsigned long long _currentMonitors;
-    unsigned long long _peakMonitors;
-    unsigned long long _period;
 }
 
 - (void);
@@ -27,13 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

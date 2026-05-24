@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, PTSettingsClassStructure;
-@protocol _PTSettingsRestoreDefaultsObserver;
+@class PTSettingsClassStructure;
 
 @interface PTSettings
 {
     PTSettingsClassStructure *__classStructure;
-    NSHashTable *__keyObservers;
-    NSHashTable *__keyPathObservers;
-    id <_PTSettingsRestoreDefaultsObserver> __restoreDefaultsObserver;
-    _Bool __observationEnabled;
-    _Bool __isObservingProperties;
-    _Bool __isObservingChildren;
 }
 
 + (unsigned long long);
 + (id);
-+ (id);
++ (id)C;
 + (id);
 + (_Bool);
 + (_Bool);
@@ -28,7 +21,7 @@
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id);
 + (_Bool);
 - (_Bool);
 - (void);
@@ -39,7 +32,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (void);
 - (void);
@@ -53,25 +46,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)9h;
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)׿F;
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)=;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)(%;
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -79,23 +72,17 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)kCBCentralManagerScanOptionReceiveDebugScanParamUpdates;
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id)writePowerManagerActivityProfile:_withAuthorization: /* Error: Ran out of types for this method. */;
+- (void)keyboardtype;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

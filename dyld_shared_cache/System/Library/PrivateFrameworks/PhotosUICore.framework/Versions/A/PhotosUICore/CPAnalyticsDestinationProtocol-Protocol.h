@@ -7,7 +7,7 @@
 @protocol CPAnalyticsEventProtocol;
 
 @protocol CPAnalyticsDestinationProtocol
-- (void)ntID:(id <CPAnalyticsEventProtocol>)arg1 componentName:componentVersion:keyword:screenshotURLs:attachmentURLs:includeSysDiagnose:includeInternalRelease:additionalExtensionIdentifiers:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)fileRadarWithTitle:(id <CPAnalyticsEventProtocol>)arg1 description:classification:componentID:componentName:componentVersion:keyword:screenshotURLs:attachmentURLs:includeSysDiagnose:includeInternalRelease:additionalExtensionIdentifiers:completionHandler: /* Error: Ran out of types for this method. */;
 
 @optional
 - (void);

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet;
+@class NSDate;
 
 @interface BMDatedBasket
 {
     NSDate *_date;
-    NSSet *_basket;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *basket; // @synthesize basket=_basket;
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
 
 @end

@@ -8,7 +8,7 @@
 {
 }
 
-+ (CDStruct_d9d84195);
++ (CDStruct_7833a0ca);
 
 @end
 

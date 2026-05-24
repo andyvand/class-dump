@@ -9,8 +9,11 @@
 @protocol CLLocationManagerDelegate
 
 @optional
-- (void):(CLLocationManager *)arg1 programName:(long long)arg2 programURL:(CLRegion *)arg3 lastFetchedAt: /* Error: Ran out of types for this method. */;
-- (void)ImportNotificationHistoryWithCompletion:(CLLocationManager *)arg1;
 - (void);
+- (void);
+- (void)hasNumberOfRequests;
+- (void)_periodInMinutes;
+- (void):(CLLocationManager *)arg1 programName:(long long)arg2 programURL:(CLRegion *)arg3 lastFetchedAt: /* Error: Ran out of types for this method. */;
+- (void)clearFPANCardImportNotificationHistoryWithCompletion:(CLLocationManager *)arg1;
 @end
 

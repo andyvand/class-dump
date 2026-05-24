@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNChangeHistoryAddSubgroupToGroupEvent;
+
 @protocol CNChangeHistoryEventVisitor
+
+@optional
+- (void);
+- (void)addItemForAllServices:(CNChangeHistoryAddSubgroupToGroupEvent *)arg1;
 @end
 

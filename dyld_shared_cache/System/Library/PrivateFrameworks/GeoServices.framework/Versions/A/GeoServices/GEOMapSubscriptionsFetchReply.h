@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEOMapSubscriptionsFetchReply : GEOXPCReply
 {
@@ -16,19 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void)est:(id)arg1;
+- (_Bool)perVertexLightingEnabled;
+- (void)cancelImageServiceRequest:(id)arg1;
 - (void)Û%;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *subscriptions; // @synthesize subscriptions=_subscriptions;
-@property(readonly) Class superclass;
 
 @end
 

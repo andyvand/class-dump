@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, UIPDFDocument;
+@class UIPDFDocument;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFPageImageCache
 {
     UIPDFDocument *_document;
-    unsigned long long _lookAhead;
-    double _lookAheadResolution;
-    unsigned long long _jobCount;
-    id *_jobsPrioritized;
-    unsigned long long _nextJobIndex;
-    unsigned long long _pageCount;
-    id *_jobsByPage;
-    NSOperationQueue *_renderQueue;
-    struct os_unfair_lock_s _lock;
-    int jobsComplete;
 }
 
-- (double);
-- (unsigned long long);
+- (double)transfer found for guid:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)f:%@  (Error:%@) /* Error: Ran out of types for this method. */;
+- (id)unlock;
+- (int)ving %@ from pending nickname updates;
+- (id)id %@ to new record id %@;
+- (void)ressed simID nor phoneNumber are valid to send with;
+- (void)omplected with success:(id)arg1 %@ and error %@;
+- (void)load to MMCS Now;
+- (void)ces changed:(unsigned long long)arg1 %@ on Service:(struct CGSize)arg2 %@;
+- (void)sageItems:(id)arg1 %lu};
 - (id);
-- (int);
-- (id);
+- (void)_payloadAllowExternalIntelligenceIntegrations;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)ackgroundFromView;
+- (void)appliesBackgroundFromView;
 - (id)0ÿóvÍig;
 - (unsigned long long)Òti;
 
 // Remaining properties
 @property(readonly) UIPDFDocument *document; // @synthesize document=_document;
-@property(readonly) unsigned long long lookAhead; // @synthesize lookAhead=_lookAhead;
-@property(readonly) double lookAheadResolution; // @synthesize lookAheadResolution=_lookAheadResolution;
-@property(readonly) unsigned long long pageCount; // @synthesize pageCount=_pageCount;
 
 @end
 

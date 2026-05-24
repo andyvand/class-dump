@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Settings:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

@@ -6,16 +6,10 @@
 
 #import <AppKit/NSView.h>
 
-@class NSSliderKnob, NSSliderTickMarks;
-@protocol NSSliderTickMarksDelegate;
-
 __attribute__((visibility("hidden")))
 @interface NSSliderTrack : NSView
 {
     CDStruct_6717dab8 _drawingState;
-    NSSliderKnob *_knobMaskView;
-    NSSliderTickMarks *_tickmarksMaskView;
-    _Bool _usesModernStyle;
 }
 
 - (struct CGRect);
@@ -35,10 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property CDStruct_6717dab8 drawingState;
-@property struct CGRect knobMaskFrame;
-@property __weak id <NSSliderTickMarksDelegate> tickmarkDelegate;
-@property struct CGRect tickmarkFrame;
-@property _Bool usesModernStyle;
 
 @end
 

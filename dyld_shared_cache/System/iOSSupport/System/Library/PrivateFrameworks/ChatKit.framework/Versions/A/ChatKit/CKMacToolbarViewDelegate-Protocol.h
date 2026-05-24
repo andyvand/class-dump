@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKMacToolbarView, UIEvent;
+
 @protocol CKMacToolbarViewDelegate
+- (_Bool)authenticateWithPrompt:(CKMacToolbarView *)arg1 displayWindow:(struct CGPoint)arg2 completionHandler:(UIEvent *)arg3;
 @end
 

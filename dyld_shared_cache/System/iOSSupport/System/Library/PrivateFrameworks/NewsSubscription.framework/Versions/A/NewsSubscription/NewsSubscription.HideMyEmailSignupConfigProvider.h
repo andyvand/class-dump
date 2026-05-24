@@ -7,7 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupConfigProvider
 {
     id configurationManager;
-    id siwaPurchaseConfigProvider;
 }
 
 @end

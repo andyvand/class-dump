@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString, NSUUID;
-@protocol NSCopying, OS_nw_activity;
-
 __attribute__((visibility("hidden")))
 @interface VCSessionConfiguration
 {
     long long _sessionMode;
-    NSObject<NSCopying> *_reportingHierarchyToken;
-    _Bool _oneToOneModeEnabled;
-    _Bool _oneToOneAuthenticationTagEnabled;
-    _Bool _gftTLEEnabled;
-    _Bool _p2pEncryptionEnabled;
-    _Bool _remoteScreenControlEnabled;
-    _Bool _isGKVoiceChat;
-    NSUUID *_conversationID;
-    NSDate *_conversationTimeBase;
-    NSDate *_conversationTimeBaseTruncated;
-    NSObject<OS_nw_activity> *_parentNWActivity;
-    NSString *_serviceName;
-    _Bool _outOfProcessCodecsEnabled;
 }
 
 - (_Bool);
@@ -31,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -43,15 +27,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (long long);
-- (long long);
-- (void);
+- (long long)CZECH_PRAGUE_Night_Bus_SixZeroThree;
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -64,19 +48,6 @@ __attribute__((visibility("hidden")))
 - (id)ubproj/Sources/VTP/VTransport.m:%d:SessionID length 0, cannot generate MAC, reset flag. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *conversationID; // @synthesize conversationID=_conversationID;
-@property(copy, nonatomic) NSDate *conversationTimeBase; // @synthesize conversationTimeBase=_conversationTimeBase;
-@property(copy, nonatomic) NSDate *conversationTimeBaseTruncated; // @synthesize conversationTimeBaseTruncated=_conversationTimeBaseTruncated;
-@property(nonatomic, getter=isGftTLEEnabled) _Bool gftTLEEnabled; // @synthesize gftTLEEnabled=_gftTLEEnabled;
-@property(nonatomic) _Bool isGKVoiceChat; // @synthesize isGKVoiceChat=_isGKVoiceChat;
-@property(nonatomic, getter=isOneToOneAuthenticationTagEnabled) _Bool oneToOneAuthenticationTagEnabled; // @synthesize oneToOneAuthenticationTagEnabled=_oneToOneAuthenticationTagEnabled;
-@property(nonatomic, getter=isOneToOneModeEnabled) _Bool oneToOneModeEnabled; // @synthesize oneToOneModeEnabled=_oneToOneModeEnabled;
-@property(nonatomic) _Bool outOfProcessCodecsEnabled; // @synthesize outOfProcessCodecsEnabled=_outOfProcessCodecsEnabled;
-@property(nonatomic, getter=isP2PEncryptionEnabled) _Bool p2pEncryptionEnabled; // @synthesize p2pEncryptionEnabled=_p2pEncryptionEnabled;
-@property(nonatomic, setter=setParentNWActivity:) NSObject<OS_nw_activity> *parentNWActivity; // @synthesize parentNWActivity=_parentNWActivity;
-@property(nonatomic, getter=isRemoteScreenControlEnabled) _Bool remoteScreenControlEnabled; // @synthesize remoteScreenControlEnabled=_remoteScreenControlEnabled;
-@property(retain, nonatomic) NSObject<NSCopying> *reportingHierarchyToken; // @synthesize reportingHierarchyToken=_reportingHierarchyToken;
-@property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 @property(nonatomic) long long sessionMode; // @synthesize sessionMode=_sessionMode;
 
 @end

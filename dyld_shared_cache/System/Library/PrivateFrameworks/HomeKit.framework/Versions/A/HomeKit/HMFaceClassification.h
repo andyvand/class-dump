@@ -4,53 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFaceCrop, HMPerson, NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMFaceClassification
 {
     NSUUID *_personManagerUUID;
-    HMPerson *_person;
-    HMFaceCrop *_faceCrop;
 }
 
 + (id);
 + (_Bool);
 - (id);
+- (id)4;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (unsigned long long)x;
+- (_Bool)slaughterhouse;
+- (id)isAutocorrection;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)setCalculationQueue: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) HMFaceCrop *faceCrop; // @synthesize faceCrop=_faceCrop;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) HMPerson *person; // @synthesize person=_person;
 @property(readonly, copy) NSUUID *personManagerUUID; // @synthesize personManagerUUID=_personManagerUUID;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

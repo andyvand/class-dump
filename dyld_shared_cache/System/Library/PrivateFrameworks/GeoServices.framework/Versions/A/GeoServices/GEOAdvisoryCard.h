@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAdvisoryCardAction, GEOFormattedString, GEOPBTransitArtwork, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOAdvisoryCard
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOAdvisoryCardAction *_action;
-    GEOPBTransitArtwork *_artworkOverride;
-    GEOFormattedString *_details;
-    GEOFormattedString *_metadata;
-    GEOFormattedString *_timeString;
-    GEOFormattedString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_action:1;
-        unsigned int read_artworkOverride:1;
-        unsigned int read_details:1;
-        unsigned int read_metadata:1;
-        unsigned int read_timeString:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)xAlternateRouteCount:(id)arg1;
++ (_Bool)setHasMaxAlternateRouteCount:(id)arg1;
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)errorWithErrno:(id)arg1 userInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)"NSString"8@"NSTextCheckingResult"16;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -45,8 +25,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)_setupForHearstIfNeededWithPrepareCompletion:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)w;
 - (void);
 - (id);
 - (unsigned long long);
@@ -59,9 +39,9 @@
 × ;
 - (void)±¹*ð1Â0@ù
 × ;
-- (id)veTimestamp;
+- (id)navSessionRelativeTimestamp;
 - (id)PS	°UXWXX¨Zx[È];
-- (id)ng_app_enabled;
+- (id)table_booking_app_enabled;
 - (void);
 - (id)\;
 - (id)88;
@@ -73,19 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOAdvisoryCardAction *action;
-@property(retain, nonatomic) GEOPBTransitArtwork *artworkOverride;
-@property(retain, nonatomic) GEOFormattedString *details;
-@property(readonly, nonatomic) _Bool hasAction;
-@property(readonly, nonatomic) _Bool hasArtworkOverride;
-@property(readonly, nonatomic) _Bool hasDetails;
-@property(readonly, nonatomic) _Bool hasMetadata;
-@property(readonly, nonatomic) _Bool hasTimeString;
 @property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) GEOFormattedString *metadata;
-@property(retain, nonatomic) GEOFormattedString *timeString;
-@property(retain, nonatomic) GEOFormattedString *title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

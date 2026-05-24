@@ -6,20 +6,15 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSString;
-
 @interface DMFFetchScreenshotRequest : DMFTaskRequest
 {
     _Bool _usesPixels;
-    unsigned long long _maxWidth;
-    unsigned long long _maxHeight;
-    NSString *_sessionToken;
 }
 
 + (Class);
 + (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -28,13 +23,10 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)e>",&,V_delegate;
 
 // Remaining properties
-@property(nonatomic) unsigned long long maxHeight; // @synthesize maxHeight=_maxHeight;
 @property(nonatomic) unsigned long long maxWidth; // @synthesize maxWidth=_maxWidth;
-@property(copy, nonatomic) NSString *sessionToken; // @synthesize sessionToken=_sessionToken;
-@property(nonatomic) _Bool usesPixels; // @synthesize usesPixels=_usesPixels;
 
 @end
 

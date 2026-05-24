@@ -11,22 +11,21 @@
     NSData *_issueSessionId;
 }
 
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)currentFullsizePlayerLayout;
+- (id)autocompleteFetch:didReceiveResults: /* Error: Ran out of types for this method. */;
+- (_Bool)adjustedContentPadding: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)voriteFactor: /* Error: Ran out of types for this method. */;
+- (void)setAutoUnfavoriteFactor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIssueSessionId;
-@property(retain, nonatomic) NSData *issueSessionId; // @synthesize issueSessionId=_issueSessionId;
 
 @end
 

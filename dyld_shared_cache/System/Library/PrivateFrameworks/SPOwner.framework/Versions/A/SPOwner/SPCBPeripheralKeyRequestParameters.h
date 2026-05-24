@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SPCBPeripheralManagerSessionKey;
+@class SPCBPeripheralManagerSessionKey;
 
 @interface SPCBPeripheralKeyRequestParameters
 {
     SPCBPeripheralManagerSessionKey *_sessionKey;
-    NSArray *_vendorIdentifierList;
 }
 
 + (_Bool);
+- (id);
+- (id);
+- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)IMCoreSpotlightIndexReasonDefault;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) SPCBPeripheralManagerSessionKey *sessionKey; // @synthesize sessionKey=_sessionKey;
-@property(readonly, copy, nonatomic) NSArray *vendorIdentifierList; // @synthesize vendorIdentifierList=_vendorIdentifierList;
 
 @end
 

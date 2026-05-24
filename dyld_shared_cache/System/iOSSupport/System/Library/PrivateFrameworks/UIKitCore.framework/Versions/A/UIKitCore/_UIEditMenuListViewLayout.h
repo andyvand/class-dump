@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     NSIndexPath *_indexPathForHighlightedItem;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)allExecutorStatusReportsUpdated: /* Error: Ran out of types for this method. */;
+- (_Bool)-min-group-chat-participant-match-threshold;
+- (_Bool)ginal chat;
 - (void);
 - (void);
 - (id);
-- (id)ontextIdentifierPreferencesDomainKey;
+- (id)UITextInputContextIdentifierPreferencesDomainKey;
 - (void)»Ò¬E\;
 - (id);
 - (id);

@@ -5,11 +5,11 @@
 //
 
 @interface UnknownClass (CUIKColorUtils)
-+ (id);
-- (id)ÿÃÿ_Ö ;
-- (_Bool)ªñ	ªñÇåò0ÁÚñªñGÁÚë@;
-- (_Bool)O©ý{©ýCÿCÑ÷ªôªöªú;
++ (id)stagedScopeChange;
 - (id);
+- (_Bool);
+- (_Bool);
+- (id)@z;
 - (id);
 @end
 

@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
-@protocol NCPushRegistrationDelegate, OS_xpc_object;
+@class NSString;
+@protocol NCPushRegistrationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _NCPushRegistration
 {
     NSString *_identifier;
-    NSObject<OS_xpc_object> *_connection;
-    _Bool _needsRegistration;
-    _Bool _neverReconnect;
-    unsigned long long _types;
-    id <NCPushRegistrationDelegate> _delegate;
-    NSData *_token;
 }
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)6B24;
+- (void)__CFRunLoop=};
+- (void)tionary";
+- (void)_is_cellular;
 - (void);
 - (void);
 - (void);
@@ -32,17 +26,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ring"@"NSError">40;
 - (id)!hDùç3ð1Â0@ù
 × ;
-- (void)PrefersFullWidthTitlebarWhenAccessoriesVisible:(id)arg1;
-- (void)arker;
+- (void)setPrefersFullWidthTitlebarWhenAccessoriesVisible:(id)arg1;
+- (void)alwaysUsesMultipleValuesMarker;
 - (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) __weak id <NCPushRegistrationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSData *token; // @synthesize token=_token;
-@property(nonatomic) unsigned long long types; // @synthesize types=_types;
 
 @end
 

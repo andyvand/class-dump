@@ -11,19 +11,17 @@
 @interface PKPaymentCheckMerchantRequest : PKPaymentWebServiceRequest
 {
     NSString *_merchantIdentifier;
-    NSString *_domainName;
 }
 
+- (id)o;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)soCredentialIdentifier;
+- (void)isoCredentialIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *domainName; // @synthesize domainName=_domainName;
 @property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
 
 @end

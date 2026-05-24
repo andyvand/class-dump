@@ -7,7 +7,6 @@
 @interface REMListSortDescriptor
 {
     _Bool _ascending;
-    long long _type;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

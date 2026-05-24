@@ -12,7 +12,7 @@
 
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)pMessageSendSyncNew() failed:%d /* Error: Ran out of types for this method. */;
 
 @end
 

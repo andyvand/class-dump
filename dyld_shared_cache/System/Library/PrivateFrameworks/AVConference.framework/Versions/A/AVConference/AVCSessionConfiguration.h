@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCSessionABTestConfiguration, NSDate, NSObject, NSString, NSUUID;
-@protocol NSCopying, OS_nw_activity;
-
 @interface AVCSessionConfiguration
 {
     long long _sessionMode;
-    NSObject<NSCopying> *_reportingHierarchyToken;
-    _Bool _oneToOneModeEnabled;
-    _Bool _remoteScreenControlEnabled;
-    NSUUID *_conversationID;
-    NSDate *_conversationTimeBase;
-    NSDate *_conversationTimeBaseTruncated;
-    NSObject<OS_nw_activity> *_parentNWActivity;
-    NSString *_serviceName;
-    _Bool _outOfProcessCodecsEnabled;
-    AVCSessionABTestConfiguration *_abTestConfiguration;
 }
 
 + (id);
 + (long long);
 + (long long);
 + (const char *);
+- (void)C;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,33 +29,23 @@
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long)BERLIN_DB_Regio_AG_Ostseebad_Binz_Bahnhof_Rostock_Hauptbahnhof;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)i`;
+- (id);
 - (void);
 - (id);
 - (id);
 - (id)buffer description called, but videoBufferDescription is nil;
 
 // Remaining properties
-@property(copy, nonatomic) AVCSessionABTestConfiguration *abTestConfiguration; // @synthesize abTestConfiguration=_abTestConfiguration;
-@property(copy, nonatomic) NSUUID *conversationID; // @synthesize conversationID=_conversationID;
-@property(copy, nonatomic) NSDate *conversationTimeBase; // @synthesize conversationTimeBase=_conversationTimeBase;
-@property(copy, nonatomic) NSDate *conversationTimeBaseTruncated; // @synthesize conversationTimeBaseTruncated=_conversationTimeBaseTruncated;
-@property(nonatomic, getter=isOneToOneModeEnabled) _Bool oneToOneModeEnabled; // @synthesize oneToOneModeEnabled=_oneToOneModeEnabled;
-@property(nonatomic) _Bool outOfProcessCodecsEnabled; // @synthesize outOfProcessCodecsEnabled=_outOfProcessCodecsEnabled;
-@property(nonatomic, setter=setParentNWActivity:) NSObject<OS_nw_activity> *parentNWActivity; // @synthesize parentNWActivity=_parentNWActivity;
-@property(nonatomic, getter=isRemoteScreenControlEnabled) _Bool remoteScreenControlEnabled; // @synthesize remoteScreenControlEnabled=_remoteScreenControlEnabled;
-@property(copy, nonatomic) NSObject<NSCopying> *reportingHierarchyToken; // @synthesize reportingHierarchyToken=_reportingHierarchyToken;
-@property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 @property(nonatomic) long long sessionMode;
 
 @end

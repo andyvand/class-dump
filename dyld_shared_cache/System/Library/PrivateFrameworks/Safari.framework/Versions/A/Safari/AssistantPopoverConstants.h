@@ -11,21 +11,21 @@ __attribute__((visibility("hidden")))
 
 + (double);
 + (double);
++ (double)A;
 + (double);
 + (double);
 + (double);
 + (double);
 + (double);
 + (double);
++ (double);
 + (double);
 + (double);
 + (double);
 + (double);
 + (double);
 + (double);
-+ (double);
-+ (double);
-+ (double);
++ (double)�E;
 + (double);
 + (double);
 + (double);

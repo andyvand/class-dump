@@ -7,7 +7,6 @@
 @interface NewsFeed.WebEmbedDatastoreRadarCommandHandler
 {
     id webEmbedDiagnosticAttachmentProvider;
-    id webEmbedImageGenerator;
 }
 
 @end

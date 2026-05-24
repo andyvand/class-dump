@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAutomaticEventNotificationQueue, IMEventListenerList, NSMutableArray, NSString;
+@class IMAutomaticEventNotificationQueue;
 
 @interface IMEventNotificationManager
 {
     IMAutomaticEventNotificationQueue *_notificationQueue;
-    double _eventTimeout;
-    IMEventListenerList *_eventListeners;
-    NSMutableArray *_registeredNotificationQueues;
-    long long _busyCount;
 }
 
 - (void);
-- (id);
+- (id):A /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -24,7 +20,7 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (void);
@@ -32,27 +28,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)PKVirtualCardFakeCredentialsEnabledKey;
 - (long long);
 - (void);
-- (id);
+- (id)setAvatarDebugInfo: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool)Í;
 
 // Remaining properties
-@property(readonly, getter=isBusy) _Bool busy;
-@property long long busyCount; // @synthesize busyCount=_busyCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) IMEventListenerList *eventListeners; // @synthesize eventListeners=_eventListeners;
-@property double eventTimeout; // @synthesize eventTimeout=_eventTimeout;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) IMAutomaticEventNotificationQueue *notificationQueue; // @synthesize notificationQueue=_notificationQueue;
-@property(readonly, nonatomic) NSMutableArray *registeredNotificationQueues; // @synthesize registeredNotificationQueues=_registeredNotificationQueues;
-@property(readonly) Class superclass;
 
 @end
 

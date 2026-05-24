@@ -9,17 +9,9 @@
 @interface GEOLogMsgStateRoutingWaypoints
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _finalWaypointId;
-    unsigned int _originalNumberOfStops;
-    unsigned int _originalWaypointId;
-    struct {
-        unsigned int has_finalWaypointId:1;
-        unsigned int has_originalNumberOfStops:1;
-        unsigned int has_originalWaypointId:1;
-    } _flags;
 }
 
-+ (_Bool)ssBarFromBannerButtons:(id)arg1;
++ (_Bool)setHasSupportsDisablingProgressBarFromBannerButtons:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -31,10 +23,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)_cn_setValue:forExtendedAttribute:path:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)L;
 - (void);
 - (void);
 - (void);
@@ -42,21 +34,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)uidesLookupParameters:(struct _NSZone *)arg1 traits: /* Error: Ran out of types for this method. */;
-- (id)ype;
+- (void);
+- (id)ticketForExploreGuidesLookupParameters:(struct _NSZone *)arg1 traits: /* Error: Ran out of types for this method. */;
+- (id)urlType;
 - (id)nary_create_reply(3) returned NULL. %p;
 - (id)Àb;
 - (void)èéÿOr6ÐB3;
 
 // Remaining properties
-@property(nonatomic) unsigned int finalWaypointId;
-@property(nonatomic) _Bool hasFinalWaypointId;
 @property(nonatomic) _Bool hasOriginalNumberOfStops;
-@property(nonatomic) _Bool hasOriginalWaypointId;
-@property(nonatomic) unsigned int originalNumberOfStops;
-@property(nonatomic) unsigned int originalWaypointId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

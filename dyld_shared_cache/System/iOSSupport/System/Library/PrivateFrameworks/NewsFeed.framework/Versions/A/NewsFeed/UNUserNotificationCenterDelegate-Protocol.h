@@ -7,6 +7,7 @@
 @protocol UNUserNotificationCenterDelegate
 
 @optional
+- (void)8i16*20;
 - (void);
 - (void);
 @end

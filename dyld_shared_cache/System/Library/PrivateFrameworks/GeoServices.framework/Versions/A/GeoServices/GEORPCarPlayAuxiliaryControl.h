@@ -11,20 +11,20 @@
     GEOCarInfo *_carInfo;
 }
 
-+ (_Bool);
++ (_Bool)setIsNetworkConnected:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)isn't recording;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)oryScore"b1"has_placeCategoryType"b1"has_placeDisplayType"b1"has_searchSection"b1"has_type"b1"has_altTelephoneAdsOptOut"b1"has_enableRapLightweightFeedback"b1"has_hasSprLandmarkIcon"b1"has_isDisputed"b1"has_isPermanentlyClosed"b1"has_isStandaloneBrand"b1"has_telephoneAdsOptOut"b1"read_unknownFields"b1"read_mapsAltCategoryMuids"b1"read_placeLookupCategorys"b1"read_altFaxs"b1"read_altTelephones"b1"read_altUrls"b1"read_alternateSearchableNames"b1"read_disclaimerText"b1"read_fax"b1"read_inlineRapEnablement"b1"read_localizedCategorys"b1"read_mapsAltCategoryIds"b1"read_mapsCategoryId"b1"read_modernLocalizedCategorys"b1"read_modernMapsCategoryId"b1"read_names"b1"read_secondaryName"b1"read_secondarySpokenName"b1"read_spokenNames"b1"read_styleAttributes"b1"read_telephone"b1"read_urlData"b1"read_url"b1"read_walletCategoryId"b1"wrote_anyField"b1};
-- (id)hangeActiveTileGroup:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)activationSession:didChangeActiveTileGroup:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)¼%
 ,&
@@ -32,11 +32,10 @@
 '
 x'Ø'
 H(X)$..à/;
-- (id)sionCreateHour;
+- (id)sessionCreateHour;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOCarInfo *carInfo;
 @property(readonly, nonatomic) _Bool hasCarInfo;
 
 @end

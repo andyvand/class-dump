@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSArray;
+@class CNContactStore;
 
 @interface _PSContactResolver
 {
     CNContactStore *_contactStore;
-    NSArray *_keysToFetch;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)_aggregationIntervalStartTimestampInSecondsSince2001;
++ (id)ngAbsoluteCount28Day;
+- (id)_debugSessionConnectionSnapshotCaptured;
+- (id)_debugNetworkConnectionStateReadySnapshotCaptured;
+- (id)_debugNetworkConnectionStateReadySnapshotCaptured;
+- (id)untForEntityInUsingAppInf;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)eCategory;
+- (id)primaryInteractionsDefaultConfidenceCategory;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) NSArray *keysToFetch; // @synthesize keysToFetch=_keysToFetch;
 
 @end
 

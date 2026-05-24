@@ -6,15 +6,12 @@
 
 #import <NewsCore/FCPrivateDataController.h>
 
-@class FCMTWriterLock, NSArray, NSDictionary, NSMutableDictionary, NSSet, NSString;
+@class NSArray;
 @protocol FCItemExposureRegistryType;
 
 @interface FCReadingHistory : FCPrivateDataController
 {
     id <FCItemExposureRegistryType> _articleExposureRegistry;
-    NSMutableDictionary *_itemsByIdentifier;
-    NSMutableDictionary *_itemsByArticleID;
-    FCMTWriterLock *_itemsLock;
 }
 
 + (_Bool);
@@ -24,13 +21,13 @@
 + (_Bool);
 + (void);
 + (id);
-+ (long long);
++ (long long)_requestedSubsampleFactor;
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)NSItemProviderWriting;
 + (void);
 + (id);
 + (id);
-- (double);
+- (double)h;
 - (_Bool);
 - (void);
 - (id);
@@ -48,28 +45,28 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)!@f(`;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)(;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (id);
+- (id);
+- (_Bool)_stopMonitoringSignificantLocationChanges;
+- (_Bool)_strong)(S *)) const [S = MapsSuggestionsPortraitRelevanceScoreProvider];
+- (long long)MapsSuggestionsVisitTrackingLocationUpdaterQueue;
 - (id);
 - (void);
 - (_Bool);
@@ -82,29 +79,29 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
+- (id)B;
 - (id);
 - (_Bool);
+- (id)%H;
+- (_Bool);
+- (void);
+- (id);
+- (id)initWithLogFilePath:(id)arg1;
+- (_Bool)childrenAtPath:(id)arg1 omittingSubpaths: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 - (void);
-- (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)Element=function(){let e=this.isRichTextElementType();if(!e){let t=this.nodeName.toLowerCase();if("blockquote"===t){let t=this.getAttribute("type");e=!t||"cite"!==t.toLowerCase()}else if("img"===t){if(!(this instanceof HTMLImageElement&&this.attachmentIdentifier)){let t=this.src;if(t){let i;try{i=new URL(t).protocol}catch(e){}e=i===undefined||i!==MFContentIDScheme+":(id)arg1 "}}}else document.isInlineGenmojiEnabled&&"source"===t?e=this instanceof HTMLSourceElement&&this.parentElement instanceof HTMLPictureElement&&this.attachmentIdentifier:(id)arg2 "p"===t&&(e=!this.hasMarginsOfZero())}if(!e){let t=this.hasAttribute("STYLE")?this.style:undefined;t&&"none"!==t.getPropertyValue("display")&&(e=this.isRichTextStyle(t))}return e||this.getAttribute("class")!==MFMailDropItemClass&&this.getAttribute("class")!==MFMailDropBannerClass||(e=!0),e||this.getAttribute("id")===MFHtmlIDSignature&&(e=!0),e},Element.prototype.isRichLink=function(){let e=this.classList;return e.length&&e.contains(MFRichLinkClass)},Element.prototype.richLinkContainer=function(){if(this.isRichLink())return this;let e=this.parentElement;return e?e.richLinkContainer():null},Element.prototype.isRichLinkPlaceholder=function(){let e=this.classList;return e.length&&e.contains(linkPlaceHolderClass)},Element.prototype.richLinkPlaceholderContainer=function(){if(this.isRichLinkPlaceholder())return this;let e=this.parentElement;return e?e.richLinkPlaceholderContainer():null},Element.prototype.mf_isListContainer=function(){return this instanceof HTMLOListElement||this instanceof HTMLUListElement},Element.prototype.mf_insertChildrenWithUndoSupport=function(){let e=[],t=insertAttachmentsAtEnd;for(let i of this.querySelectorAll("attachment, img")){let S=i.mf_attachmentIdentifier();if(S)if(e.push(i),t)i.remove();else{let e=document.createElement("span");e.setAttribute("class",MFMailTemporaryAttachmentWrapper),e.id=S,i.replaceWith(e)}}document.execCommand("InsertHTML",!0,this.innerHTML);for(let i of e)if(t)document.body.appendChild(i);else{let e=i.mf_attachmentIdentifier();document.getElementById(e).appendChild(i)}}; /* Error: Ran out of types for this method. */;
 - (id)!øBùÑ(	°1Â0@ù
 × ;
-- (_Bool)riesLocalNewsExpiration;
-- (_Bool)tentScale:(id)arg1;
-- (id)ublisherPaidFeldsparablePurchaseIDs;
-- (void)tionBodyTwoStreaks;
+- (_Bool)topStoriesLocalNewsExpiration;
+- (_Bool)setContentScaleForTagID:(id)arg1 contentScale:(_Bool)arg2;
+- (id)publisherPaidFeldsparablePurchaseIDs;
+- (void)_streakNotificationBodyTwoStreaks;
 - (void)ationMap;
-- (id)moveAllIssues;
-- (void)ficientFree;
+- (id)removeAllIssues;
+- (void)globalScoreCoefficientFree;
 - (void)recipeTagSuggestionsEndpoint:%@; /* Error: Ran out of types for this method. */;
 - (id)SDictionary"16@?0@"NSArray"8;
 - (_Bool)onfiguration:(id)arg1 %@;;
@@ -113,27 +110,7 @@
 - (id)ewsTabiNotificationScoringConfiguration due to failure to decode titleEmbeddingDimension from configuration %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allConsumedArticleIDs;
-@property(readonly, nonatomic) NSSet *allDislikedArticleIDs;
-@property(readonly, nonatomic) NSSet *allLikedArticleIDs;
-@property(readonly, nonatomic) NSSet *allReadArticleIDs;
-@property(readonly, nonatomic) NSSet *allReadClusterIDs;
-@property(readonly, nonatomic) NSSet *allSeenArticleIDs;
-@property(readonly, nonatomic) NSSet *allSeenClusterIDs;
-@property(retain, nonatomic) id <FCItemExposureRegistryType> articleExposureRegistry; // @synthesize articleExposureRegistry=_articleExposureRegistry;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *listenedArticleIDs;
-@property(readonly, nonatomic) _Bool listeningHistoryIsEmpty;
-@property(readonly, nonatomic) NSArray *readingHistoryItems;
-@property(readonly, nonatomic) NSDictionary *readingHistoryItemsByArticleID;
-@property(readonly, nonatomic) NSArray *sortedListenedArticleIDs;
 @property(readonly, nonatomic) NSArray *sortedVisitedArticleIDs;
-@property(readonly) Class superclass;
 
 @end
 

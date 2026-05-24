@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id)FFKey;
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (unsigned long long);
 - (id);

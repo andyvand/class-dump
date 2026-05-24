@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (id);
+- (id)n_keys = OFF;
 - (id);
 - (void)0@ù
 × ;

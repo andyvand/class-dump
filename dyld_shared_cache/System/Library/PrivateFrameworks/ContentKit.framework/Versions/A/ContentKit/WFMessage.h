@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface WFMessage
 {
     NSString *_content;
-    NSString *_conversationID;
-    NSArray *_recipientContactIDs;
-    NSArray *_recipients;
-    NSString *_senderContactID;
-    NSArray *_senderHandles;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ks/CoreServices.framework/Versions/A/CoreServices;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *content; // @synthesize content=_content;
-@property(readonly, copy, nonatomic) NSString *conversationID; // @synthesize conversationID=_conversationID;
-@property(readonly, copy, nonatomic) NSArray *recipientContactIDs; // @synthesize recipientContactIDs=_recipientContactIDs;
-@property(readonly, copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, copy, nonatomic) NSString *senderContactID; // @synthesize senderContactID=_senderContactID;
-@property(readonly, copy, nonatomic) NSArray *senderHandles; // @synthesize senderHandles=_senderHandles;
-@property(readonly, copy, nonatomic) NSString *wfName;
 
 @end
 

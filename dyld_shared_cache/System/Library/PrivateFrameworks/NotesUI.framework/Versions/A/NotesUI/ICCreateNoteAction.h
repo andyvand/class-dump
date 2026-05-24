@@ -9,7 +9,6 @@
 @interface ICCreateNoteAction
 {
     _Bool _allowsNoContent;
-    ICUnifiedNoteContext *_noteContext;
 }
 
 - (void);
@@ -17,10 +16,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)h;
+- (void)_hash;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsNoContent; // @synthesize allowsNoContent=_allowsNoContent;
 @property(readonly, nonatomic) ICUnifiedNoteContext *noteContext; // @synthesize noteContext=_noteContext;
 
 @end

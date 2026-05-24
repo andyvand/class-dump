@@ -4,47 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface IMPeople
 {
     _Bool _hidePeople;
-    NSMutableArray *_people;
-    long long _coalesceCount;
 }
 
+- (void)%@ isStreamGroupActive=%d isStreamGroupStarted=%d;
+- (void)ttings for all VCP usage modes;
+- (void)run %s process;
+- (_Bool)lientSessionID in the options is not of NSUUIDtype;
 - (void);
+- (_Bool)%d;
+- (void)th invalid pointer;
+- (_Bool)2d:(id)arg1 %02d) to (%08X)...;
+- (_Bool)[%s] %s:%d %@(%p) Setting _maxAudioPacketSize=%u for default mode, useWiFiTiers=%{BOOL}d /* Error: Ran out of types for this method. */;
+- (long long)de, useWiFiTiers=%{BOOL}d;
+- (void)o create tagCollection for pixel buffer at channel index=%d;
+- (void)eceiver=%p Received RTCP Custom SR;
+- (_Bool)received VTP_PKT_BBNOTE;
+- (_Bool)t:(id)arg1 %u;
+- (void)ding len:(id)arg1 %u;
+- (_Bool)ption;
+- (void)ht(%dx%d);
+- (_Bool)ProcessVideoDecoding=%d set by GKSConnectivitySettings;
 - (void);
+- (void)@-;
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)om result:<%@ %p>,  /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void)èn$oÌpq	Ds´s;
 - (id)TEST DETECTED - Crashing;
 
 // Remaining properties
-@property(nonatomic) long long coalesceCount; // @synthesize coalesceCount=_coalesceCount;
-@property(readonly, nonatomic) _Bool coalescingChanges;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSArray *groups;
-@property(nonatomic, setter=setShouldHidePeople:) _Bool hidePeople; // @synthesize hidePeople=_hidePeople;
 @property(retain, nonatomic) NSMutableArray *people; // @synthesize people=_people;
 
 @end

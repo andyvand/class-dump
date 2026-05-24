@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface MSConnection
 {
     NSXPCConnection *_center;
-    NSMutableDictionary *_serverSideConfig;
-    NSObject<OS_dispatch_queue> *_serverSideConfigQueue;
-    int _serverSideConfigNotificationToken;
 }
 
-+ (id);
-- (void);
++ (id);
+- (void)ptionCardSection",&,N;
+- (void)scheduled;
+- (_Bool)partureTime;
+- (void)e;
+- (void)ate;
+- (void)ate",&,N,V_current;
+- (void)e",&,N,V_arrivalRunwayTime;
+- (id)te",&,N,V_arrivalActualTime;
+- (void)entCommand",&,N,V_createCalendarEventCommand;
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)1b;
 - (id);
 - (void);
 - (void);

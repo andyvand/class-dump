@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFDisambiguationTitleCardSection
 {
     _SFPBRFTextProperty *_text_1;
-    _SFPBRFVisualProperty *_thumbnail;
 }
 
 - (void);
-- (id);
+- (id)le of 90;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)publishShareWithUUID:(id)arg1 photoLibrary:completion: /* Error: Ran out of types for this method. */;
+- (id)pients without valid input:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end
 

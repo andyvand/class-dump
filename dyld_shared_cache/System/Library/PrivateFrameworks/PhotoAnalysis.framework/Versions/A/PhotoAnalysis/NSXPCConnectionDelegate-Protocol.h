@@ -10,7 +10,7 @@
 @protocol NSXPCConnectionDelegate
 
 @optional
-- (id <NSSecureCoding>)dGeneratedSuggestions:(NSXPCConnection *)arg1;
+- (id <NSSecureCoding>)setDiscardGeneratedSuggestions:(NSXPCConnection *)arg1;
 - (void)r"þÿ;
 @end
 

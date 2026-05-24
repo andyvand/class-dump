@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFHearablesClientRegistry, NSObject, NSString, NSXPCConnection;
-@protocol AFHearablesExperienceManagerInternalDelegate, AFHearablesExperienceManagerProtocol, OS_dispatch_queue;
+@class NSString, NSXPCConnection;
 
 @interface AFHearablesExperienceManager
 {
     NSString *_instanceIdentifier;
-    NSXPCConnection *_xpcConnection;
-    id <AFHearablesExperienceManagerInternalDelegate> _internalDelegate;
-    AFHearablesClientRegistry *_clientRegistry;
-    id <AFHearablesExperienceManagerProtocol> _serviceAdapter;
-    NSObject<OS_dispatch_queue> *_managerQueue;
 }
 
 + (_Bool);
@@ -25,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -34,16 +28,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)C);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)!;
+- (void)aring;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -55,18 +49,6 @@
 - (void)",C,N,V_localeIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) AFHearablesClientRegistry *clientRegistry; // @synthesize clientRegistry=_clientRegistry;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *instanceIdentifier; // @synthesize instanceIdentifier=_instanceIdentifier;
-@property(nonatomic) __weak id <AFHearablesExperienceManagerInternalDelegate> internalDelegate; // @synthesize internalDelegate=_internalDelegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *managerQueue; // @synthesize managerQueue=_managerQueue;
-@property(retain, nonatomic) id <AFHearablesExperienceManagerProtocol> serviceAdapter; // @synthesize serviceAdapter=_serviceAdapter;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

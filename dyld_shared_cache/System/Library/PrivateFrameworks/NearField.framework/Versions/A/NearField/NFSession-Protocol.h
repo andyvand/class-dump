@@ -5,5 +5,7 @@
 //
 
 @protocol NFSession
+- (void)dministrativeAreaKey(void);
+- (void)CNPostalAddressCityKey;
 @end
 

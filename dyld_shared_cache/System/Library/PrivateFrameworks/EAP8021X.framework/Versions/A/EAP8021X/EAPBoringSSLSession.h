@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConditionLock, NSData, NSObject;
-@protocol OS_dispatch_queue, OS_nw_connection, OS_nw_framer, OS_nw_protocol_options, OS_sec_protocol_metadata;
+@class NSObject;
+@protocol OS_nw_connection;
 
 __attribute__((visibility("hidden")))
 @interface EAPBoringSSLSession
 {
     int _state;
-    int _handshakeStatus;
-    unsigned int _eapType;
-    NSObject<OS_nw_connection> *_connection;
-    NSObject<OS_nw_protocol_options> *_tlsProtocol;
-    NSObject<OS_nw_protocol_options> *_customProtocol;
-    NSObject<OS_sec_protocol_metadata> *_secProtocolMetadata;
-    NSObject<OS_nw_framer> *_customFramer;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSData *_msk;
-    CDUnknownFunctionPointerType _read;
-    CDUnknownFunctionPointerType _write;
-    void *_clientContext;
-    struct __SecTrust *_serverSecTrust;
-    CDUnknownBlockType _secTrustCompletionHandler;
-    NSConditionLock *_statusUpdateLock;
-    CDStruct_9b706afc *_memIO;
 }
 
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)K;
 - (void);
 - (void);
 - (void);
@@ -40,18 +24,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)H;
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct __SecTrust *);
+- (void);
+- (struct __SecTrust *)K;
 - (CDUnknownBlockType);
-- (id);
+- (id)�;
 - (void);
 - (CDStruct_9b706afc *);
 - (int);
-- (_Bool);
-- (unsigned short);
+- (_Bool);
+- (unsigned short);
 - (unsigned char);
 - (id);
 - (int);
@@ -60,18 +44,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void):(id)arg1 ;
 - (id);
 - (unsigned int);
 - (void);
 - (_Bool);
-- (int);
-- (void);
+- (int)h;
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)requiresUnconstrainedNetworking;
 - (void);
 - (void);
 - (void);
@@ -79,28 +63,12 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (void *);
-- (void);
+- (void)ata poker;
 - (CDUnknownFunctionPointerType);
 - (CDUnknownFunctionPointerType)SecTrustEvaluate failed:(%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) void *clientContext; // @synthesize clientContext=_clientContext;
 @property(retain, nonatomic) NSObject<OS_nw_connection> *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSObject<OS_nw_framer> *customFramer; // @synthesize customFramer=_customFramer;
-@property(retain, nonatomic) NSObject<OS_nw_protocol_options> *customProtocol; // @synthesize customProtocol=_customProtocol;
-@property(nonatomic) unsigned int eapType; // @synthesize eapType=_eapType;
-@property(nonatomic) int handshakeStatus;
-@property(nonatomic) CDStruct_9b706afc *memIO; // @synthesize memIO=_memIO;
-@property(retain, nonatomic) NSData *msk; // @synthesize msk=_msk;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) CDUnknownFunctionPointerType read; // @synthesize read=_read;
-@property(nonatomic) NSObject<OS_sec_protocol_metadata> *secProtocolMetadata; // @synthesize secProtocolMetadata=_secProtocolMetadata;
-@property(copy) CDUnknownBlockType secTrustCompletionHandler; // @synthesize secTrustCompletionHandler=_secTrustCompletionHandler;
-@property(nonatomic) struct __SecTrust *serverSecTrust; // @synthesize serverSecTrust=_serverSecTrust;
-@property(nonatomic) int state;
-@property(retain, nonatomic) NSConditionLock *statusUpdateLock; // @synthesize statusUpdateLock=_statusUpdateLock;
-@property(retain, nonatomic) NSObject<OS_nw_protocol_options> *tlsProtocol; // @synthesize tlsProtocol=_tlsProtocol;
-@property(nonatomic) CDUnknownFunctionPointerType write; // @synthesize write=_write;
 
 @end
 

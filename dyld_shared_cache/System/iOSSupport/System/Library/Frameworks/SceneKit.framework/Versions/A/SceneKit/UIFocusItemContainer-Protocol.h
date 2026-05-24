@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
 @protocol UICoordinateSpace;
 
 @protocol UIFocusItemContainer
+- (NSArray *)"40@0:(struct CGRect)arg1 8@"UICollectionView"16@"<UIDragSession>"24@"NSIndexPath"32;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;

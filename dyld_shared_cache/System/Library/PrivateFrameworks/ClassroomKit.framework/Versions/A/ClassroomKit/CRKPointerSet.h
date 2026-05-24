@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable;
+@class NSHashTable;
 
 @interface CRKPointerSet
 {
@@ -12,13 +12,13 @@
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,10 +27,9 @@
 - (void);
 - (long long);
 - (void);
-- (unsigned long long):(CDStruct_70511ce9 *)arg1 error:(id *)arg2;
+- (unsigned long long)setValue:(CDStruct_70511ce9 *)arg1 error:(id *)arg2;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allObjects;
 @property(readonly, nonatomic) long long count;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMAccessoryProfile.h>
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol HMTelevisionProfileDelegate;
 
 @interface HMTelevisionProfile : HMAccessoryProfile
@@ -25,16 +25,7 @@
 - (void)1%K;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMTelevisionProfileDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSArray *mediaSourceDisplayOrder;
-@property(readonly) _Bool mediaSourceDisplayOrderModifiable;
-@property(readonly) Class superclass;
 
 @end
 

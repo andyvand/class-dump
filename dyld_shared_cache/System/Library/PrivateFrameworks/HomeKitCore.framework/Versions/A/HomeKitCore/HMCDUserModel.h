@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCDHomeModel, HMCDUserSharedSettingsModel, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMCDUserModel
 {
@@ -13,10 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *handle; // @dynamic handle;
-@property(nonatomic, retain) HMCDHomeModel *home; // @dynamic home;
 @property(nonatomic, copy) NSUUID *modelID; // @dynamic modelID;
-@property(nonatomic, retain) HMCDUserSharedSettingsModel *userSharedSettings; // @dynamic userSharedSettings;
 
 @end
 

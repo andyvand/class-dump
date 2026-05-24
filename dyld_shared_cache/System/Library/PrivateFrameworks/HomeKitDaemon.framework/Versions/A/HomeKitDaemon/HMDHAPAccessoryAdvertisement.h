@@ -6,27 +6,23 @@
 
 #import <HomeKitDaemon/HMDAccessoryAdvertisement.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface HMDHAPAccessoryAdvertisement : HMDAccessoryAdvertisement
 {
     _Bool _pairingPresent;
-    NSData *_setupHash;
 }
 
-- (_Bool);
+- (_Bool)MSPShareETASuppressSharingRoutingPathLegsKey;
 - (id);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void)@?0@"HMDCharacteristic"8;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool pairingPresent; // @synthesize pairingPresent=_pairingPresent;
-@property(retain, nonatomic) NSData *setupHash; // @synthesize setupHash=_setupHash;
 
 @end
 

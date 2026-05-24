@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFFlight
 {
     NSString *_flightID;
-    NSString *_carrierCode;
-    NSString *_carrierName;
-    NSString *_flightNumber;
-    NSArray *_legs;
-    NSString *_operatorCarrierCode;
-    NSString *_operatorFlightNumber;
-    NSString *_carrierPhoneNumber;
-    NSString *_carrierWebsite;
 }
 
 + (_Bool);
@@ -25,48 +17,31 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)T;
+- (id)h;
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)setBatchResultsHandler:(id)arg1;
 - (unsigned long long);
 - (_Bool);
+- (void)t = %{BOOL}u.;
 - (void);
-- (void);
+- (id)"NSError">24;
+- (id)PHQueryForAssetCollectionType_Utility_block_invoke_116;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)ntifier;
+- (id);
+- (void)_albumIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *carrierCode; // @synthesize carrierCode=_carrierCode;
-@property(copy, nonatomic) NSString *carrierName; // @synthesize carrierName=_carrierName;
-@property(copy, nonatomic) NSString *carrierPhoneNumber; // @synthesize carrierPhoneNumber=_carrierPhoneNumber;
-@property(copy, nonatomic) NSString *carrierWebsite; // @synthesize carrierWebsite=_carrierWebsite;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *flightID; // @synthesize flightID=_flightID;
-@property(copy, nonatomic) NSString *flightNumber; // @synthesize flightNumber=_flightNumber;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *legs; // @synthesize legs=_legs;
-@property(copy, nonatomic) NSString *operatorCarrierCode; // @synthesize operatorCarrierCode=_operatorCarrierCode;
-@property(copy, nonatomic) NSString *operatorFlightNumber; // @synthesize operatorFlightNumber=_operatorFlightNumber;
-@property(readonly) Class superclass;
 
 @end
 

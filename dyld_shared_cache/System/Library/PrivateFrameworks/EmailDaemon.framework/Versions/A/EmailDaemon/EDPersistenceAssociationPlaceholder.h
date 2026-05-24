@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFSQLColumnSchema, NSString;
+@class EFSQLColumnSchema;
 
 @interface EDPersistenceAssociationPlaceholder
 {
     EFSQLColumnSchema *_column;
-    NSString *_tableName;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)setLastHiddenState:(id)arg1;
 - (id);
 - (void)tring"16B24@28;
 
 // Remaining properties
 @property(readonly, nonatomic) EFSQLColumnSchema *column; // @synthesize column=_column;
-@property(readonly, copy, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
 
 @end
 

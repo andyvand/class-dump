@@ -7,8 +7,6 @@
 @interface NewsFeed.WeatherKitService
 {
     id weatherServiceProvider;
-    id stringBuilder;
-    id _requestTimeout;
 }
 
 @end

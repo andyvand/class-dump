@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface XQueryQName
 {
     NSString *_namespaceURI;
-    NSString *_localPart;
-    NSString *_prefixHint;
 }
 
 + (id);
@@ -25,21 +23,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)	;
+- (unsigned long long)geocodingModeAddressOnly;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

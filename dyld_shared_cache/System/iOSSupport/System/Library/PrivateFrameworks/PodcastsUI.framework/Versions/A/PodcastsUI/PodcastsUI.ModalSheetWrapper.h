@@ -9,10 +9,6 @@
 @interface PodcastsUI.ModalSheetWrapper : PodcastsUI.ModalSheet
 {
     id contentViewController;
-    id height;
-    id minWidth;
-    id maxSize;
-    id $__lazy_storage_$_separatorView;
 }
 
 - (void);

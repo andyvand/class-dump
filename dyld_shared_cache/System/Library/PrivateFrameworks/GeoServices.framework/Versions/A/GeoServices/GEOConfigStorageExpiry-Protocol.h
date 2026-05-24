@@ -5,7 +5,7 @@
 //
 
 @protocol GEOConfigStorageExpiry
-- (_Bool)tifier;
-- (void)alid_segment_index;
+- (_Bool)placeDataVenueIdentifier;
+- (void)start_valid_segment_index;
 @end
 

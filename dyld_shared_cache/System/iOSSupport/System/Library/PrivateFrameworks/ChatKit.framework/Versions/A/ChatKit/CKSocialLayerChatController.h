@@ -6,35 +6,33 @@
 
 #import <ChatKit/CKChatController.h>
 
-@class CKFullScreenBalloonViewControllerPhone, NSString;
+@class NSString;
 
 @interface CKSocialLayerChatController : CKChatController
 {
     NSString *_attachmentGUID;
-    NSString *_messageGUID;
-    CKFullScreenBalloonViewControllerPhone *_socialLayerFullScreenBalloonController;
 }
 
 + (id);
 + (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)performSelector:withObject:afterDelay: /* Error: Ran out of types for this method. */;
+- (void)numberedStyle;
+- (void)newCalculateResultAttachmentWithIdentifier:(id)arg1 note:parentAttachment:rightToLeft: /* Error: Ran out of types for this method. */;
+- (void)identifierForArchivableIdentifier:(id)arg1 itemType: /* Error: Ran out of types for this method. */;
+- (void)attachmentsToLoad;
+- (id)_webView:supportedXRSessionFeatures:arFeatures: /* Error: Ran out of types for this method. */;
+- (void)_setDrawsBackground: /* Error: Ran out of types for this method. */;
+- (void)tributeName;
 - (long long);
 - (void);
 - (void);
+- (void)(E;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)tF;
+- (id)n;
+- (void)%@;
+- (void)ect:currentContextObject:configuration:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -43,8 +41,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *attachmentGUID; // @synthesize attachmentGUID=_attachmentGUID;
-@property(retain, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(nonatomic) __weak CKFullScreenBalloonViewControllerPhone *socialLayerFullScreenBalloonController; // @synthesize socialLayerFullScreenBalloonController=_socialLayerFullScreenBalloonController;
 
 @end
 

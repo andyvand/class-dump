@@ -12,7 +12,7 @@
     id itemChanges;
 }
 
-- (void);
+- (void)missions on non-Me device;
 - (id);
 - (void)°oÎ$Ð|+	;
 

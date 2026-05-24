@@ -6,17 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class CKDTrustedTargetWrappedKey, NSArray, NSData, NSString;
+@class NSString;
 
 @interface CKDCodeFunctionInvokeURLRequest : CKDURLRequest
 {
     CDUnknownBlockType _serializedResultsCallback;
-    NSString *_serviceName;
-    NSString *_functionName;
-    NSData *_serializedParameters;
-    NSData *_attestationEntropy;
-    NSArray *_pccWrappedInvocationKeys;
-    CKDTrustedTargetWrappedKey *_trustedTargetWrappedInvocationKey;
 }
 
 - (id);
@@ -28,9 +22,9 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
+- (id)h;
 - (id);
-- (id);
-- (void);
+- (void)common_TemperatureUnit_Mile;
 - (id);
 - (void);
 - (id);
@@ -38,7 +32,7 @@
 - (id)le.Dataclass.KeychainSync;
 - (void)ple"8@"NSError"16;
 - (id)8@"NSError"16;
-- (id)DIALOG_TITLE_MAC;
+- (id)VETTING_PASSWORD_DIALOG_TITLE_MAC;
 - (_Bool)on attempts for encrypted data %@ in context %@ using PCS %@:%@ /* Error: Ran out of types for this method. */;
 - (id)public}@;
 - (void)õÉ)ySS_SStG;
@@ -46,13 +40,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *attestationEntropy; // @synthesize attestationEntropy=_attestationEntropy;
-@property(copy, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(copy, nonatomic) NSArray *pccWrappedInvocationKeys; // @synthesize pccWrappedInvocationKeys=_pccWrappedInvocationKeys;
-@property(retain, nonatomic) NSData *serializedParameters; // @synthesize serializedParameters=_serializedParameters;
-@property(copy, nonatomic) CDUnknownBlockType serializedResultsCallback; // @synthesize serializedResultsCallback=_serializedResultsCallback;
 @property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(copy, nonatomic) CKDTrustedTargetWrappedKey *trustedTargetWrappedInvocationKey; // @synthesize trustedTargetWrappedInvocationKey=_trustedTargetWrappedInvocationKey;
 
 @end
 

@@ -13,14 +13,17 @@
     id <ECIMAPServerInterface> serverInterface;
 }
 
-- (void);
+- (void)dioOnlyContent:(id)arg1 %d
+	isPopoverBeingPresented:%d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
+- (id)is code has not been updated to handle algorithm %ld!;
 - (id);
-- (id);
-- (void);
+- (void)lt to YES;
 
 // Remaining properties
 @property(nonatomic) __weak id <ECIMAPLocalActionReplayerDelegate> delegate;
-@property(retain, nonatomic) id <ECIMAPServerInterface> serverInterface; // @synthesize serverInterface;
 
 @end
 

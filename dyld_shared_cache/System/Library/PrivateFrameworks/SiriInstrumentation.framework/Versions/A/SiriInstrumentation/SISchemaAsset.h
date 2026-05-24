@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaVersion;
+@class NSString;
 
 @interface SISchemaAsset : SISchemaInstrumentationMessage
 {
     NSString *_trialNamespace;
-    NSString *_assetName;
-    SISchemaVersion *_assetVersion;
-    int _assetLocale;
-    struct {
-        unsigned int assetLocale:1;
-    } _has;
-    _Bool _hasTrialNamespace;
-    _Bool _hasAssetName;
-    _Bool _hasAssetVersion;
 }
 
 - (id);
@@ -35,34 +26,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (_Bool);
 - (int);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)B24;
+- (_Bool)chat_message_join AS cmj   JOIN message AS m   ON cmj.message_id = m.ROWID   JOIN chat AS c ON cmj.chat_id = c.ROWID and c.guid = ?   WHERE m.date < ? );;
 - (id);
-- (id);
+- (id)Init failed:could not allocate buf->data of size %lu
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (id)placed;
-- (id);
-- (id)ECTREASON_PENDING_CANDIDATE;
-- (void)ERDISTANCETYPE_MID;
+- (id)countOfWordsReplaced;
+- (id)_amountOfSpeechDetectedInMs;
+- (id)MHVOICETRIGGERSECONDPASSREJECTREASON_PENDING_CANDIDATE;
+- (void)MHASVSPEAKERDISTANCETYPE_MID;
 - (void);
 - (id)ðÕÿI®#;
 
 // Remaining properties
-@property(nonatomic) int assetLocale; // @synthesize assetLocale=_assetLocale;
-@property(copy, nonatomic) NSString *assetName; // @synthesize assetName=_assetName;
-@property(retain, nonatomic) SISchemaVersion *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(nonatomic) _Bool hasAssetLocale;
-@property(nonatomic) _Bool hasAssetName; // @synthesize hasAssetName=_hasAssetName;
-@property(nonatomic) _Bool hasAssetVersion; // @synthesize hasAssetVersion=_hasAssetVersion;
-@property(nonatomic) _Bool hasTrialNamespace; // @synthesize hasTrialNamespace=_hasTrialNamespace;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *trialNamespace; // @synthesize trialNamespace=_trialNamespace;
 
 @end

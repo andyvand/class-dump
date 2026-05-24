@@ -7,6 +7,7 @@
 @protocol UINSFontPickerControllerDelegate;
 
 @protocol UINSFontPickerController
+- (void)offset ids ;
 
 // Remaining properties
 @property(nonatomic) __weak id <UINSFontPickerControllerDelegate> delegate;

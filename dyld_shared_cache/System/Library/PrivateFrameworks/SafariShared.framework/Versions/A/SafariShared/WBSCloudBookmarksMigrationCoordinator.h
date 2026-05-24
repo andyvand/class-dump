@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, WBSCloudBookmarksMigrationCoordinatorLocalDataProvider, WBSLogger, WBSSafariBookmarksSyncAgentProtocol;
+@protocol WBSCloudBookmarksMigrationCoordinatorLocalDataProvider, WBSSafariBookmarksSyncAgentProtocol;
 
 @interface WBSCloudBookmarksMigrationCoordinator
 {
     id <WBSSafariBookmarksSyncAgentProtocol> _syncAgent;
-    NSObject<OS_dispatch_queue> *_processingQueue;
-    _Bool _didDetermineReadyToMigrate;
-    long long _skipReason;
-    _Bool _migrationEnabled;
-    id <WBSCloudBookmarksMigrationCoordinatorLocalDataProvider> _localDataProvider;
-    id <WBSLogger> _keyActionsLogger;
 }
 
 - (id);
@@ -36,10 +29,7 @@
 - (void)¤;
 
 // Remaining properties
-@property(retain, nonatomic) id <WBSLogger> keyActionsLogger; // @synthesize keyActionsLogger=_keyActionsLogger;
 @property(readonly, nonatomic) __weak id <WBSCloudBookmarksMigrationCoordinatorLocalDataProvider> localDataProvider; // @synthesize localDataProvider=_localDataProvider;
-@property(nonatomic, getter=isMigrationEnabled) _Bool migrationEnabled; // @synthesize migrationEnabled=_migrationEnabled;
-@property(readonly, nonatomic) id <WBSSafariBookmarksSyncAgentProtocol> syncAgent;
 
 @end
 

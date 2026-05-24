@@ -9,7 +9,6 @@
 @interface AppKit.ReplacementAnimationCapableSingleLineLabel.SegmentView__priv_CBBF89358F961DC662EFF89579A8C308 : NSView
 {
     id segment;
-    id fragment;
 }
 
 - (id);
@@ -17,11 +16,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)tObservingTabViewItem:(struct CGRect)arg1;
+- (id)_startObservingTabViewItem:(struct CGRect)arg1;
 - (void)¨ºÒÿºö;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool flipped;
 @property(nonatomic, readonly) _Bool opaque;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BlastDoorEncodedAttachments_RawData
 {
@@ -12,12 +12,11 @@
 }
 
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSData *data;
 @property(nonatomic, readonly) NSString *description;
 
 @end

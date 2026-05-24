@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFLocationTypeInfo;
+@class NSString;
 
 @protocol SFResultEntity
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFLocationTypeInfo *location_type_info;
-@property(copy, nonatomic) NSString *maps_encrypted_muid;
 @property(copy, nonatomic) NSString *name;
 @end
 

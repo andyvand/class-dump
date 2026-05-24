@@ -9,9 +9,6 @@
 @interface _MRVolumeDidChangeMessageProtobuf
 {
     NSString *_endpointUID;
-    NSString *_outputDeviceUID;
-    float _volume;
-    CDStruct_731552e5 _has;
 }
 
 - (_Bool);
@@ -22,26 +19,21 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)ring"20@"NSString"28;
+- (_Bool)emailAddress;
 - (void);
 - (_Bool);
 - (void);
 - (float);
 - (void);
-- (id);
-- (id);
+- (id)handleFailureInFunction:(struct _NSZone *)arg1 file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (id)ented;
 - (void);
-- (_Bool)tIdentifiers: /* Error: Ran out of types for this method. */;
-- (void)ItemsDidLoadArtwork;
+- (_Bool)setLastReportedClientIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)contentItemsDidLoadArtwork;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *endpointUID; // @synthesize endpointUID=_endpointUID;
-@property(readonly, nonatomic) _Bool hasEndpointUID;
-@property(readonly, nonatomic) _Bool hasOutputDeviceUID;
 @property(nonatomic) _Bool hasVolume;
-@property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
-@property(nonatomic) float volume; // @synthesize volume=_volume;
 
 @end
 

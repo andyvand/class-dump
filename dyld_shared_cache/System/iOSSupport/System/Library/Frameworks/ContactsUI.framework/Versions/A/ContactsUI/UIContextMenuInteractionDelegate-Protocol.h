@@ -12,7 +12,7 @@
 
 @optional
 - (void)52@60;
-- (void)wController:(UIContextMenuInteraction *)arg1 shouldShowInlineActionsForContactAtIndex:(UIContextMenuConfiguration *)arg2;
+- (void)gridViewController:(UIContextMenuInteraction *)arg1 shouldShowInlineActionsForContactAtIndex:(UIContextMenuConfiguration *)arg2;
 - (UITargetedPreview *)ñ4ò;
 - (UITargetedPreview *)IAvatarSoftLink.h;
 - (void)allowsAddToFavorites;

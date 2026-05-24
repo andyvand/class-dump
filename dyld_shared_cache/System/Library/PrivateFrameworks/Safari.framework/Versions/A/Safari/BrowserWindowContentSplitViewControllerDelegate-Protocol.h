@@ -7,6 +7,7 @@
 @class NSMenu;
 
 @protocol BrowserWindowContentSplitViewControllerDelegate
+- (void)W;
 - (void)ÌÀ;
 - (NSMenu *);
 - (void)ø;

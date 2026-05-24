@@ -6,12 +6,9 @@
 
 #import <PhotosGraph/PGTitleSpecArgument.h>
 
-@class NSSet;
-
 @interface PGTitleSpecPeopleArgument : PGTitleSpecArgument
 {
     unsigned long long _type;
-    NSSet *_personNodes;
 }
 
 + (id);
@@ -19,11 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)edentialDataKextDenyList;
+- (id)trar _registerControllerClassPreflight:(id)arg1 applicationIdentifier:(id)arg2 role:subrole:predicate:] /* Error: Ran out of types for this method. */;
+- (id)le.AccessibilityKit._AXKClassMapSyncQueue;
+- (id)AXFocused;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,7 +28,6 @@
 - (void)Autobahn/SettlingEffect/PGSettlingEffectHighlightProcessor.m;
 
 // Remaining properties
-@property(readonly) NSSet *personNodes; // @synthesize personNodes=_personNodes;
 @property(readonly) unsigned long long type; // @synthesize type=_type;
 
 @end

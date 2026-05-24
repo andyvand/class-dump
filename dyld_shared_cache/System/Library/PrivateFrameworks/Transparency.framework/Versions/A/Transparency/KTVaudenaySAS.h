@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTVaudenaySASConfiguration, NSData;
+@class KTVaudenaySASConfiguration;
 
 @interface KTVaudenaySAS
 {
     _Bool _initiator;
-    KTVaudenaySASConfiguration *_config;
-    NSData *_initiatorInfo;
-    NSData *_initiatorRandom;
-    NSData *_acceptorInfo;
-    NSData *_acceptorRandom;
-    NSData *_sentUndisclosedRandom;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -39,19 +33,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)publisher;
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSData *acceptorInfo; // @synthesize acceptorInfo=_acceptorInfo;
-@property(retain) NSData *acceptorRandom; // @synthesize acceptorRandom=_acceptorRandom;
 @property(retain) KTVaudenaySASConfiguration *config; // @synthesize config=_config;
-@property _Bool initiator; // @synthesize initiator=_initiator;
-@property(retain) NSData *initiatorInfo; // @synthesize initiatorInfo=_initiatorInfo;
-@property(retain) NSData *initiatorRandom; // @synthesize initiatorRandom=_initiatorRandom;
-@property(retain) NSData *sentUndisclosedRandom; // @synthesize sentUndisclosedRandom=_sentUndisclosedRandom;
 
 @end
 

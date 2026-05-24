@@ -7,12 +7,6 @@
 @interface NewsFeed.FormatVideoPlayerReuseManager
 {
     id analyticsDataProvider;
-    id resolver;
-    id videoAdProviderFactory;
-    id pictureInPictureState;
-    id sceneStateManager;
-    id sceneProvider;
-    id managerCache;
 }
 
 @end

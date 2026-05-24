@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalPreferences, NSString;
+@class CalPreferences;
 
 @interface EKCalendarPreferences
 {
     CalPreferences *_preferences;
-    CalPreferences *_calPreferences;
 }
 
 + (id);
@@ -28,12 +27,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (id)charge_duration_mean_at_charge_start_secs_curr_dynamic_bin_4;
+- (void)ectricity is available right now!;
 - (void);
 - (unsigned long long);
+- (void);
+- (unsigned long long)@;
 - (_Bool);
 - (void);
 - (void);
@@ -42,15 +41,6 @@
 
 // Remaining properties
 @property(retain) CalPreferences *calPreferences; // @synthesize calPreferences=_calPreferences;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool invitationNotificationsDisabled;
-@property(nonatomic) _Bool sharedCalendarNotificationsDisabled;
-@property(readonly) Class superclass;
 
 @end
 

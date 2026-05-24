@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UIUpdateItem;
+@class NSMutableArray, UIUpdateItem;
 
 __attribute__((visibility("hidden")))
 @interface UITableViewUpdateGap
 {
     NSMutableArray *_deleteItems;
-    NSMutableArray *_insertItems;
-    struct {
-        unsigned int hasAutomaticAnimationItems:1;
-    } _gapFlags;
-    UIUpdateItem *_firstUpdateItem;
-    UIUpdateItem *_lastUpdateItem;
 }
 
-- (id);
+- (id)payloadUserPairing;
 - (_Bool);
+- (id)Chunkserver__CloneCompleteRequest;
 - (id);
-- (id);
-- (id);
+- (id)sourceFromCollection: /* Error: Ran out of types for this method. */;
 - (void)Ô ;
 - (_Bool)
 × ;
@@ -30,23 +24,15 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)!<EùÑdð1Â0@ù
 × ;
-- (id)ar;
-- (_Bool)l_cooldown;
+- (id)_staticScrollBar;
+- (_Bool)_internal_cooldown;
 - (void)ÿÿ¸ÿÿÐÿÿèÿÿ;
 - (void);
 - (id)33b;
 - (void)O ÿÎÇd;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *deleteItems;
 @property(retain, nonatomic) UIUpdateItem *firstUpdateItem; // @synthesize firstUpdateItem=_firstUpdateItem;
-@property(readonly, nonatomic) _Bool hasAutomaticAnimationItems;
-@property(readonly, nonatomic) _Bool hasInserts;
-@property(readonly, nonatomic) NSArray *insertItems;
-@property(readonly, nonatomic) _Bool isDeleteBasedGap;
-@property(readonly, nonatomic) _Bool isSectionBasedGap;
-@property(retain, nonatomic) UIUpdateItem *lastUpdateItem; // @synthesize lastUpdateItem=_lastUpdateItem;
-@property(readonly, nonatomic) NSArray *updateItems;
 
 @end
 

@@ -11,18 +11,13 @@
 @interface MREffectFramedSlide : MREffect
 {
     MRCroppingSprite *mSprite;
-    _Bool mHasInnerRect;
-    _Bool mHasOuterRect;
-    _Bool mIsPlayable;
-    _Bool mIsPlaying;
-    _Bool mIsPressed;
 }
 
 + (void)¼&;
+- (void)componentsInTimeZone:(id)arg1 fromDate: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)k with taskDescription %@;
+- (_Bool)tionary"16@"NSError"24;
 - (_Bool);
 - (id);
 - (void);

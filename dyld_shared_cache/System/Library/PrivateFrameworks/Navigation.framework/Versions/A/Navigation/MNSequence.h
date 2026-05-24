@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, geo_isolater;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MNSequence
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_steps;
-    CDUnknownBlockType _finalizeHandler;
-    geo_isolater *_stepsIsolater;
-    _Bool _isStarted;
-    unsigned long long _currentStepIndex;
 }
 
+- (void)WidgetAuxiliaryURLPreferenceKey;
 - (void);
-- (void);
-- (void);
+- (void)HitTestingLeafPlatformViewCache;
 - (void);
 - (void);
 - (void);

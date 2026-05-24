@@ -7,10 +7,10 @@
 @class NSCollectionView, NSView;
 
 @protocol NSCollectionViewDataSource
-- (long long)dItems;
+- (long long)_animatedItems;
 
 @optional
-- (long long)iaturizationResponse:(NSCollectionView *)arg1;
+- (long long)clientWindowManager:(NSCollectionView *)arg1 windowMiniaturizationResponse: /* Error: Ran out of types for this method. */;
 - (NSView *)üjÿ;
 @end
 

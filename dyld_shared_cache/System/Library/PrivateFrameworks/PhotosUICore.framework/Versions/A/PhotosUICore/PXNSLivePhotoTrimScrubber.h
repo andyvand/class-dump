@@ -11,14 +11,13 @@
 @interface PXNSLivePhotoTrimScrubber : PXLivePhotoTrimScrubber
 {
     NSPressGestureRecognizer *_pressGesture;
-    struct CGPoint _lastGestureLocation;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
@@ -36,7 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint lastGestureLocation; // @synthesize lastGestureLocation=_lastGestureLocation;
 @property(retain, nonatomic) NSPressGestureRecognizer *pressGesture; // @synthesize pressGesture=_pressGesture;
 
 @end

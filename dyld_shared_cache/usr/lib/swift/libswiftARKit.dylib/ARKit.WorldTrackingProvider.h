@@ -8,10 +8,6 @@
 {
     id _cWorldTrackingProvider;
     id _cWorldTrackingConfiguration;
-    id trackingStateContinuations;
-    id slamStateContinuations;
-    id queryDeviceAnchorLock;
-    id updateQueue;
 }
 
 @end

@@ -9,7 +9,6 @@
 @interface CKSQLiteContainerAttributedTableGroup : CKSQLiteTableGroup
 {
     CDUnknownFunctionPointerType _attributionFunc;
-    struct objc_super _sup;
 }
 
 + (unsigned long long);

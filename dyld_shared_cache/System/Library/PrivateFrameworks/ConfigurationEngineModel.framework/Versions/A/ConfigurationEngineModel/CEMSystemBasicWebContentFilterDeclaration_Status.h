@@ -11,11 +11,11 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)from %s, render err:(id)arg1 %d;
 
 @end
 

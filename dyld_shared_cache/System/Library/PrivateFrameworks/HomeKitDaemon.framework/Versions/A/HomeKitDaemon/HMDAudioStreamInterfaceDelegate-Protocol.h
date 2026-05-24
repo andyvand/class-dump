@@ -5,5 +5,9 @@
 //
 
 @protocol HMDAudioStreamInterfaceDelegate
+- (void)-/;
+- (void)3;
+- (void);
+- (void);
 @end
 

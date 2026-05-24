@@ -7,10 +7,9 @@
 @interface ML3QuerySection
 {
     unsigned long long _sectionIndex;
-    struct _NSRange _range;
 }
 
-- (id);
+- (id)URLForPartialVideoWithResourceFingerprint:(struct _NSRange)arg1 assetUUID:(unsigned long long)arg2 timeRange: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(nonatomic) unsigned long long sectionIndex; // @synthesize sectionIndex=_sectionIndex;
 
 @end
 

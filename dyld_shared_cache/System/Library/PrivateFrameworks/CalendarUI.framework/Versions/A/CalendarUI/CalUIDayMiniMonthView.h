@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIAXMiniMonthProxy, CalUIMiniMonthViewFormatter, NSArray, NSButton, NSCalendar, NSDate, NSMutableArray, NSString, NSTextField, NSTrackingArea;
-@protocol CalUIMiniMonthViewDelegate;
+@class NSDate, NSMutableArray;
 
 @interface CalUIDayMiniMonthView
 {
     NSDate *_date;
-    NSDate *_month;
-    NSTrackingArea *_trackingArea;
-    _Bool _supportsScrubbing;
-    _Bool _supportsHovering;
-    id <CalUIMiniMonthViewDelegate> _delegate;
-    CalUIMiniMonthViewFormatter *_formatter;
-    CalUIAXMiniMonthProxy *_axMiniMonthProxy;
-    NSMutableArray *_thisMonthsDayCells;
-    NSMutableArray *_allDayCells;
-    NSDate *_nextMonth;
-    NSTextField *_monthNameField;
-    NSButton *_previousMonthButton;
-    NSButton *_nextMonthButton;
-    unsigned long long _daysInWeek;
-    unsigned long long _firstDayOfWeek;
-    NSCalendar *_calendar;
-    long long _widthPerDay;
-    NSArray *_weekDayTitles;
 }
 
 + (id);
@@ -36,28 +17,28 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)A;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)L;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)?;
+- (void);
 - (void);
 - (id);
 - (long long);
@@ -76,10 +57,10 @@
 - (void);
 - (id);
 - (double);
-- (id);
+- (id);
 - (unsigned long long);
 - (double);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -87,9 +68,9 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)Q?	;
+- (void)(;
+- (unsigned long long)_;
 - (struct CGSize);
 - (void);
 - (_Bool);
@@ -102,7 +83,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)8;
 - (void);
 - (_Bool);
 - (void);
@@ -114,7 +95,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)h!;
 - (void);
 - (void)pS;
 - (id);
@@ -122,31 +103,7 @@
 - (id)P5;
 
 // Remaining properties
-@property(retain) NSMutableArray *allDayCells; // @synthesize allDayCells=_allDayCells;
-@property(retain) CalUIAXMiniMonthProxy *axMiniMonthProxy; // @synthesize axMiniMonthProxy=_axMiniMonthProxy;
-@property(retain) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(retain) NSDate *date;
-@property unsigned long long daysInWeek; // @synthesize daysInWeek=_daysInWeek;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CalUIMiniMonthViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property unsigned long long firstDayOfWeek; // @synthesize firstDayOfWeek=_firstDayOfWeek;
-@property(retain) CalUIMiniMonthViewFormatter *formatter; // @synthesize formatter=_formatter;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDate *month; // @synthesize month=_month;
-@property(retain) NSTextField *monthNameField; // @synthesize monthNameField=_monthNameField;
-@property(retain) NSDate *nextMonth; // @synthesize nextMonth=_nextMonth;
-@property(retain) NSButton *nextMonthButton; // @synthesize nextMonthButton=_nextMonthButton;
-@property(retain) NSButton *previousMonthButton; // @synthesize previousMonthButton=_previousMonthButton;
-@property(readonly) Class superclass;
-@property _Bool supportsHovering; // @synthesize supportsHovering=_supportsHovering;
-@property _Bool supportsScrubbing; // @synthesize supportsScrubbing=_supportsScrubbing;
 @property(retain) NSMutableArray *thisMonthsDayCells; // @synthesize thisMonthsDayCells=_thisMonthsDayCells;
-@property(retain) NSArray *weekDayTitles; // @synthesize weekDayTitles=_weekDayTitles;
-@property long long widthPerDay; // @synthesize widthPerDay=_widthPerDay;
 
 @end
 

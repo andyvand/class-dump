@@ -9,14 +9,13 @@
 @interface CKDPAdopterFeatureSetAdopterFeature
 {
     NSString *_key;
-    NSString *_value;
 }
 
 - (void);
 - (id);
+- (void)L;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)BlockBuffer:%d ) /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -25,15 +24,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)iner:operationType: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithOperationInfo:container:operationType: /* Error: Ran out of types for this method. */;
 - (void)dispatch_queue>",&,N,V_privacyManagerQueue;
 - (void)rieve/token;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

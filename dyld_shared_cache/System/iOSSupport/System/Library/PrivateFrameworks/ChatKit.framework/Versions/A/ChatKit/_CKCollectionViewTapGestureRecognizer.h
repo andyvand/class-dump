@@ -11,9 +11,9 @@
     NSString *_originatingItemIdentifier;
 }
 
-- (void);
-- (id);
-- (void)hotChangedMessageGUIDKey;
+- (void)setShouldGenerateAttachmentsWhenReachable:(id)arg1;
+- (id)deviceManagementRestrictionsManager;
+- (void)CKSnapshotChangedMessageGUIDKey;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *originatingItemIdentifier; // @synthesize originatingItemIdentifier=_originatingItemIdentifier;

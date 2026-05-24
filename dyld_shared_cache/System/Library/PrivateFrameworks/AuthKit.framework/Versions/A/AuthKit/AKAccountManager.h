@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, ACAccountType, AKAccountStore, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class ACAccountType, AKAccountStore;
 
 @interface AKAccountManager
 {
     AKAccountStore *_accountStore;
-    NSObject<OS_dispatch_queue> *_accountQueue;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    ACAccountType *_authKitAccountType;
-    struct os_unfair_lock_s _authKitAccountTypeLock;
-    ACAccountType *_appleIDAccountType;
-    struct os_unfair_lock_s _appleIDAccountTypeLock;
-    ACAccountType *_iCloudAccountType;
-    struct os_unfair_lock_s _iCloudAccountTypeLock;
-    ACAccountType *_iTunesAccountType;
-    struct os_unfair_lock_s _iTunesAccountTypeLock;
-    ACAccountType *_protoAccountType;
-    struct os_unfair_lock_s _protoAccountTypeLock;
-    struct os_unfair_lock_s _fetchAccountsLock;
-    struct os_unfair_lock_s _accountTypeCacheLock;
-    NSMutableDictionary *_accountTypeCache;
 }
 
 + (_Bool);
@@ -35,18 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccountType *appleIDAccountType;
-@property(readonly, nonatomic) ACAccountType *authKitAccountType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ACAccountType *iCloudAccountType;
-@property(readonly, nonatomic) ACAccountType *iTunesAccountType; // @synthesize iTunesAccountType=_iTunesAccountType;
-@property(readonly, nonatomic) ACAccountType *protoAccountType;
-@property(retain, nonatomic) ACAccountStore *store; // @synthesize store=_accountStore;
-@property(readonly) Class superclass;
 
 @end
 

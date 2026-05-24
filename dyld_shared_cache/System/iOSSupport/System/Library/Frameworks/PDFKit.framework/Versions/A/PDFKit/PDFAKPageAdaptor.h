@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKPageModelController, PDFAKPageAdaptorPrivate, PDFPage;
+@class PDFAKPageAdaptorPrivate, PDFPage;
 
 __attribute__((visibility("hidden")))
 @interface PDFAKPageAdaptor
@@ -21,17 +21,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AKPageModelController *akPageModelController;
 @property(readonly, nonatomic) __weak PDFPage *pdfPage;
 
 @end

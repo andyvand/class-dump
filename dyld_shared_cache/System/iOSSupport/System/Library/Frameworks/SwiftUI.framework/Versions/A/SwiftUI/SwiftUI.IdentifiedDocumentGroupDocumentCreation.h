@@ -7,15 +7,6 @@
 @interface SwiftUI.IdentifiedDocumentGroupDocumentCreation
 {
     id strategies;
-    id documentConfigurations;
-    id documentsMap;
-    id $__lazy_storage_$_defaultEditorConfiguration;
-    id $__lazy_storage_$_defaultConfiguration;
-    id $__lazy_storage_$_documentBrowser;
-    id newDocumentHandler;
-    id $__lazy_storage_$_canCreateNewDocuments;
-    id documentBrowserContextMenu;
-    id $__lazy_storage_$_supportedContentTypes;
 }
 
 - (void);

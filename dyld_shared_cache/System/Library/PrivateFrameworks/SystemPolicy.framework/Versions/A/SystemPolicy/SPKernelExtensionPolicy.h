@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL, NSXPCConnection, NSXPCInterface;
+@class NSArray;
 
 @interface SPKernelExtensionPolicy
 {
     NSArray *_currentPolicy;
-    NSXPCInterface *_interface;
-    NSXPCConnection *_connection;
-    NSURL *currentUAKL;
 }
 
 + (id);
 - (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)JK;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)JKLMNO;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,7 +35,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -47,16 +44,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)�;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *currentPolicy;
-@property(readonly, nonatomic) NSURL *currentUAKL; // @synthesize currentUAKL;
-@property(readonly, copy, nonatomic) NSArray *pendingApprovals;
-@property(readonly, nonatomic) _Bool requiresAdministratorToApproveUpdates;
-@property(readonly, nonatomic) _Bool requiresAuthenticationOnUpdates;
-@property(readonly, nonatomic) _Bool requiresRebootForInstallation;
-@property(readonly, nonatomic) _Bool requiresSecurityDowngrade;
 
 @end
 

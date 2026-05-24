@@ -11,12 +11,12 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
@@ -25,13 +25,13 @@ struct CGPoint {
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct DGARGB8_t {
@@ -164,20 +164,12 @@ struct vector<PFIntRect_st, std::allocator<PFIntRect_st>> {
     } ;
 };
 
-struct vector<bool, std::allocator<bool>> {
-    unsigned long long *__begin_;
-    unsigned long long __size_;
-    struct {
-        unsigned long long __cap_;
-    } ;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    double src;
-    double dst;
-} CDStruct_ad6741ac;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
 
 typedef struct {
     float _field1;
@@ -193,12 +185,12 @@ typedef struct {
 } CDStruct_1b6d18a9;
 
 typedef struct {
-    CDStruct_ad6741ac black;
-    CDStruct_ad6741ac shadow;
-    CDStruct_ad6741ac mid;
-    CDStruct_ad6741ac hilight;
-    CDStruct_ad6741ac white;
-} CDStruct_b9c68237;
+    CDStruct_c3b9c2ee _field1;
+    CDStruct_c3b9c2ee _field2;
+    CDStruct_c3b9c2ee _field3;
+    CDStruct_c3b9c2ee _field4;
+    CDStruct_c3b9c2ee _field5;
+} CDStruct_fc903803;
 
 typedef struct {
     CDStruct_869f9c67 _field1;

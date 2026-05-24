@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface PHAssociatedObjectsEntry
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_associatedObjects;
 }
 
 - (id);

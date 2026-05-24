@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetReaderOutputCaptionAdaptorInternal, AVAssetReaderTrackOutput;
+@class AVAssetReaderOutputCaptionAdaptorInternal;
 @protocol AVAssetReaderCaptionValidationHandling;
 
 @interface AVAssetReaderOutputCaptionAdaptor
@@ -15,10 +15,10 @@
 + (id);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id)T;
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (int);
@@ -27,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AVAssetReaderTrackOutput *assetReaderTrackOutput;
 @property __weak id <AVAssetReaderCaptionValidationHandling> validationDelegate;
 
 @end

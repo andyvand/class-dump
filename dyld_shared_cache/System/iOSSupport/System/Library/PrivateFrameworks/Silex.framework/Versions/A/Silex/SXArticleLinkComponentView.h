@@ -6,32 +6,24 @@
 
 #import <Silex/SXContainerComponentView.h>
 
-@protocol SXActionComponentInteractionHandlerFactory, SXArticleURLFactory, SXComponentInteractionHandler, SXComponentInteractionHandlerManager, SXURLActionFactory;
+@protocol SXComponentInteractionHandlerManager;
 
 @interface SXArticleLinkComponentView : SXContainerComponentView
 {
     id <SXComponentInteractionHandlerManager> _interactionHandlerManager;
-    id <SXActionComponentInteractionHandlerFactory> _interactionHandlerFactory;
-    id <SXURLActionFactory> _URLActionFactory;
-    id <SXArticleURLFactory> _articleURLFactory;
-    id <SXComponentInteractionHandler> _interactionHandler;
 }
 
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)ect={CGPoint=dd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXURLActionFactory> URLActionFactory; // @synthesize URLActionFactory=_URLActionFactory;
-@property(readonly, nonatomic) id <SXArticleURLFactory> articleURLFactory; // @synthesize articleURLFactory=_articleURLFactory;
-@property(nonatomic) __weak id <SXComponentInteractionHandler> interactionHandler; // @synthesize interactionHandler=_interactionHandler;
-@property(readonly, nonatomic) id <SXActionComponentInteractionHandlerFactory> interactionHandlerFactory; // @synthesize interactionHandlerFactory=_interactionHandlerFactory;
 @property(readonly, nonatomic) id <SXComponentInteractionHandlerManager> interactionHandlerManager; // @synthesize interactionHandlerManager=_interactionHandlerManager;
 
 @end

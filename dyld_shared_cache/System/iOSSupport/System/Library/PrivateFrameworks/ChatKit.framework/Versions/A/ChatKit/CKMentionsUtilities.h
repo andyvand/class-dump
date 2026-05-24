@@ -8,19 +8,16 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)thumbnailId;
++ (void)p;
 + (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (struct _NSRange);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (void);
++ (_Bool)f;
++ (_Bool)o;
++ (_Bool)e;
++ (struct _NSRange)s;
++ (id)ForType:] /* Error: Ran out of types for this method. */;
++ (_Bool)ICFolder"8@"ICNote"16@"NSAttributedString"24@"NSError"32;
++ (_Bool)MediaURL:configuration:completion:] /* Error: Ran out of types for this method. */;
 + (void);
 + (void);
 + (void);
@@ -29,9 +26,12 @@
 + (void);
 + (void);
 + (void);
-+ (_Bool);
 + (void);
-+ (_Bool);
++ (void);
++ (void);
++ (_Bool);
++ (void);
++ (_Bool)P;
 
 @end
 

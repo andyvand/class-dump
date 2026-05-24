@@ -4,26 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CHScriptClassificationRawResult
 {
     NSArray *_orderedScriptClassification;
-    NSDictionary *_probabilityByScriptClassifications;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)_iOSExpendedGroupIndex;
 - (id);
-- (id);
+- (id)rsJl
+30;
 - (id);
 - (id);
 - (double);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)Ҡr#;
 - (id);
 - (id);
 - (_Bool);
@@ -33,7 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *orderedScriptClassification; // @synthesize orderedScriptClassification=_orderedScriptClassification;
-@property(readonly, nonatomic) NSDictionary *probabilityByScriptClassifications; // @synthesize probabilityByScriptClassifications=_probabilityByScriptClassifications;
 
 @end
 

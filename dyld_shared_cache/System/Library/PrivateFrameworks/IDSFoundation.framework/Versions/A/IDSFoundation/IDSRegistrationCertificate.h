@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSServerCertificate, NSData;
+@class IDSServerCertificate;
 
 @interface IDSRegistrationCertificate
 {
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) IDSServerCertificate *backingCertificate; // @synthesize backingCertificate=_backingCertificate;
-@property(readonly, nonatomic) NSData *dataRepresentation;
 
 @end
 

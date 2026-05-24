@@ -11,7 +11,6 @@
 @interface PKActivityEventPeerPaymentTransaction : PKActivityEventTransaction
 {
     PKPaymentTransaction *_relatedTopUpFundingSourceWithdrawlTransaction;
-    PKPaymentTransaction *_relatedTopUpPeerPaymentAccountDepositTransaction;
 }
 
 - (id);
@@ -19,12 +18,11 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
-- (void)ontextPrimaryActionIdentifier;
+- (id)9;
+- (void)contextPrimaryActionIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPaymentTransaction *relatedTopUpFundingSourceWithdrawlTransaction; // @synthesize relatedTopUpFundingSourceWithdrawlTransaction=_relatedTopUpFundingSourceWithdrawlTransaction;
-@property(readonly, nonatomic) PKPaymentTransaction *relatedTopUpPeerPaymentAccountDepositTransaction; // @synthesize relatedTopUpPeerPaymentAccountDepositTransaction=_relatedTopUpPeerPaymentAccountDepositTransaction;
 
 @end
 

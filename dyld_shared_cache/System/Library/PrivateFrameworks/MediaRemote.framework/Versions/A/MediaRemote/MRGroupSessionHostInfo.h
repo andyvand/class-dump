@@ -9,9 +9,6 @@
 @interface MRGroupSessionHostInfo
 {
     unsigned char _routeType;
-    NSString *_displayName;
-    NSString *_modelIdentifier;
-    NSString *_color;
 }
 
 + (_Bool);
@@ -19,27 +16,21 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)6d;
+- (unsigned char)al,V_optional;
 - (id);
-- (unsigned char);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void)loading;
 - (id)MRContentItemRef, CFStringRef);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *color; // @synthesize color=_color;
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic, getter=isInAppBannerAllowed) _Bool inAppBannerAllowed;
-@property(readonly, nonatomic) NSString *localizedSessionName;
-@property(readonly, nonatomic, getter=isLockScreenAffordanceAllowed) _Bool lockScreenAffordanceAllowed;
-@property(readonly, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(readonly, nonatomic) unsigned char routeType; // @synthesize routeType=_routeType;
 
 @end
 

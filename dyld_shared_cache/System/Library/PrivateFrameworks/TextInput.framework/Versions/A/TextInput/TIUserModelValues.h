@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, TIAnalyticsMetricsContext;
-@protocol TIUserModelDataStoring;
+@class NSString;
 
 @interface TIUserModelValues
 {
     NSString *_inputMode;
-    id <TIUserModelDataStoring> _userModelStore;
-    TIAnalyticsMetricsContext *_context;
-    NSDictionary *_durableCounters;
-    NSMutableDictionary *_transientCounters;
-    NSDictionary *_settingsDictionary;
 }
 
 - (id);
@@ -41,14 +35,10 @@
 ¿
 ¤
 ;
-- (id);
+- (id)nomenclature;
 
 // Remaining properties
-@property(readonly, nonatomic) TIAnalyticsMetricsContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) NSDictionary *durableCounters; // @synthesize durableCounters=_durableCounters;
 @property(readonly, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
-@property(readonly, nonatomic) NSDictionary *settingsDictionary; // @synthesize settingsDictionary=_settingsDictionary;
-@property(readonly, nonatomic) id <TIUserModelDataStoring> userModelDataStore; // @synthesize userModelDataStore=_userModelStore;
 
 @end
 

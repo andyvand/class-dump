@@ -6,21 +6,16 @@
 
 #import <IMAP/IMAPTask.h>
 
-@class IMAPTaskManager, NSMutableArray, NSMutableSet, NSProgress, NSString;
+@class NSMutableArray;
 @protocol IMAPAccount;
 
 @interface IMAPAccountSyncTask : IMAPTask
 {
     NSMutableArray *_mailboxesNeedingStatus;
-    NSMutableSet *_missedMailboxes;
-    _Bool _userInitiated;
-    id <IMAPAccount> _account;
-    IMAPTaskManager *_taskManager;
-    NSProgress *_checkProgress;
 }
 
 + (id);
-- (id);
+- (id)TF;
 - (id);
 - (void);
 - (void);
@@ -41,17 +36,6 @@
 
 // Remaining properties
 @property(readonly) id <IMAPAccount> account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSProgress *checkProgress; // @synthesize checkProgress=_checkProgress;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly) IMAPTaskManager *taskManager; // @synthesize taskManager=_taskManager;
-@property(nonatomic) _Bool userInitiated;
 
 @end
 

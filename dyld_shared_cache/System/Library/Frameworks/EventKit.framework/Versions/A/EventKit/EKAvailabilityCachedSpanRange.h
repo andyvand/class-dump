@@ -11,15 +11,21 @@
     NSMutableArray *_cachedSpans;
 }
 
-+ (id);
++ (id)discoverDestinationEndpoint;
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (long long);
+- (void)ng contentItemArtwork for %@;
+- (id)SStatus = %d);
+- (void)RRemoteControl] Command %{public}@ missing source position option(s):(id)arg1 %{public}@ | %{public}@;
+- (id)ler for type=%@, destination=%@, session=%@, %@;
+- (id){public}@ in %.4lf seconds;
+- (_Bool)handleActiveSystemEndpointOutputDeviceUIDForType;
+- (long long)nvalidatationTimestamp = %lf
+    cachedContentItemUpdates = %@
+    pictureInPictureEnabled = %@
+    activeRequestDate = %@
+    canBeNowPlaying = %@
+    canBeNowPlayingTimestamp = %@
+    homeUserIdentifiers = %@;
 - (id);
 - (id);
 - (id);

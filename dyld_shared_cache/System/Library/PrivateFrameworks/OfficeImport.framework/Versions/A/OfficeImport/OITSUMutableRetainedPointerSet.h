@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (id);
 - (id);
-- (id);
+- (id)]U;
 
 @end
 

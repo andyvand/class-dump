@@ -5,5 +5,6 @@
 //
 
 @protocol HMDFetchedAccessorySettingsSubscriberDelegate
+- (void)OTransitIconDataSource>",R,N;
 @end
 

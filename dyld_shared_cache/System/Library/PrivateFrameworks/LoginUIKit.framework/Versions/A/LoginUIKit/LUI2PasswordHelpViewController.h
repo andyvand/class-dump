@@ -6,34 +6,20 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class NSArray, NSBox, NSButton, NSLayoutGuide, NSStackView, NSString, NSTextField, NSView;
+@class NSView;
 
 @interface LUI2PasswordHelpViewController : LUI2ViewController
 {
     _Bool _resetUsingAppleIDButtonHidden;
-    _Bool _resetUsingRecoveryButtonHidden;
-    NSLayoutGuide *_layoutAlignmentGuide;
-    NSString *_passwordHint;
-    NSView *_backgroundEffectsView;
-    NSStackView *_helpContainer;
-    NSView *_resetContainer;
-    NSView *_resetTitle;
-    NSButton *_resetUsingAppleIDButton;
-    NSButton *_resetUsingRecoveryButton;
-    NSBox *_line;
-    NSView *_hintContainer;
-    NSView *_hintTitle;
-    NSTextField *_hintTextField;
-    NSArray *_layoutAlignmentGuideConstraints;
 }
 
 - (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,47 +34,26 @@
 - (id);
 - (id);
 - (id);
+- (id)qA;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)L;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)6(;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) NSView *backgroundEffectsView; // @synthesize backgroundEffectsView=_backgroundEffectsView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property NSStackView *helpContainer; // @synthesize helpContainer=_helpContainer;
-@property NSView *hintContainer; // @synthesize hintContainer=_hintContainer;
-@property NSTextField *hintTextField; // @synthesize hintTextField=_hintTextField;
-@property NSView *hintTitle; // @synthesize hintTitle=_hintTitle;
-@property(readonly) NSLayoutGuide *layoutAlignmentGuide; // @synthesize layoutAlignmentGuide=_layoutAlignmentGuide;
-@property(retain) NSArray *layoutAlignmentGuideConstraints; // @synthesize layoutAlignmentGuideConstraints=_layoutAlignmentGuideConstraints;
-@property NSBox *line; // @synthesize line=_line;
-@property(retain, nonatomic) NSString *passwordHint; // @synthesize passwordHint=_passwordHint;
-@property NSView *resetContainer; // @synthesize resetContainer=_resetContainer;
-@property NSView *resetTitle; // @synthesize resetTitle=_resetTitle;
-@property NSButton *resetUsingAppleIDButton; // @synthesize resetUsingAppleIDButton=_resetUsingAppleIDButton;
-@property(nonatomic) _Bool resetUsingAppleIDButtonHidden; // @synthesize resetUsingAppleIDButtonHidden=_resetUsingAppleIDButtonHidden;
-@property NSButton *resetUsingRecoveryButton; // @synthesize resetUsingRecoveryButton=_resetUsingRecoveryButton;
-@property(nonatomic) _Bool resetUsingRecoveryButtonHidden; // @synthesize resetUsingRecoveryButtonHidden=_resetUsingRecoveryButtonHidden;
-@property(readonly) Class superclass;
 
 @end
 

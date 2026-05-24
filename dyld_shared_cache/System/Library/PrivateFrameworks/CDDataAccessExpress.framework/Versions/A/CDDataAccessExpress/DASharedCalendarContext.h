@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface DASharedCalendarContext
 {
     _Bool _shouldSyncCalendar;
-    NSString *_calendarID;
-    NSString *_accountID;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (id){;
 - (id);
-- (id);
-- (id);
+- (id)stressMonotonicTimer3;
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
 @property(readonly, nonatomic) NSString *calendarID; // @synthesize calendarID=_calendarID;
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) _Bool shouldSyncCalendar; // @synthesize shouldSyncCalendar=_shouldSyncCalendar;
 
 @end
 

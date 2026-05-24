@@ -7,6 +7,7 @@
 @interface AlarmKit.AlarmClient
 {
     id singleton;
+    id;
 }
 
 @end

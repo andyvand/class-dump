@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGRect);
-- (struct CGPoint);
-- (struct CGRect);
-- (void);
-- (id);
+- (struct CGRect)miss rate of %f%% is too high. Increasing cache size to %ld bytes;
+- (struct CGPoint)e can be dropped.;
+- (struct CGRect)o retryGroupPhotoUpload from legacy service session, please file a radar-------*/;
+- (void)handle:%@ /* Error: Ran out of types for this method. */;
+- (id)nowPlayingInfoCenter:artworkForContentItem:size:completion: /* Error: Ran out of types for this method. */;
 - (void)bleTextFieldAfterSystemTextSizeChange"b1"tableViewHasBeenExplicitlySet"b1"ignoresMultipleSelectionDuringEditing"b1"hasEverUsedRoundedGroups"b1"preserveBackgroundMaskingForReorderAnimationEnding"b1"needsConfigurationStateUpdate"b1"hasContentConfiguration"b1"hasCustomBackgroundColor"b1"hasCustomBackgroundView"b1"hasCustomSelectedBackgroundView"b1"hasCustomMultipleSelectionBackgroundView"b1"hasCustomBackgroundViewConfigurationProvider"b1"hasCustomBackgroundViewConfiguration"b1"hasCustomIndentationWidth"b1"automaticallyUpdatesContentViewConfiguration"b1"automaticallyUpdatesBackgroundViewConfiguration"b1"hasShownHighlightedOrSelectedBackground"b1"needsFocusRingUpdateAfterLayout"b1"hasBeenReused"b1"isDisplayed"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1"shouldSkipPrepareForConfigurationStateUpdate"b1};
 - (void);
 - (void)àÑ];

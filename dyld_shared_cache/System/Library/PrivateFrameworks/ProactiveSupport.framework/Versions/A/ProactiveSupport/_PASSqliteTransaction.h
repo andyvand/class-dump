@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)__objc_classlist__DATA_CONST;
++ (void)isMultiDayTimedEventInCalendar:(id)arg1;
 + (struct _PASDBTransactionCompletion_);
 + (struct _PASDBTransactionCompletion_);
 - (id);

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CWANQPNetworkAuthenticationTypeEntry
 {
     long long _typeIndicator;
-    NSString *_localizedTypeIndicator;
-    NSString *_redirectURL;
 }
 
 + (_Bool);
-- (long long);
+- (long long)T);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)p;
 - (void);
 - (id);
 - (id);
@@ -28,8 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localizedTypeIndicator; // @synthesize localizedTypeIndicator=_localizedTypeIndicator;
-@property(copy, nonatomic) NSString *redirectURL; // @synthesize redirectURL=_redirectURL;
 @property(nonatomic) long long typeIndicator; // @synthesize typeIndicator=_typeIndicator;
 
 @end

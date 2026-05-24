@@ -10,11 +10,11 @@
 {
 }
 
-+ (struct CGSize);
++ (struct CGSize)ANEServicesDeviceClose;
 + (id);
 + (id);
 + (id);
-+ (struct CGImage *);
++ (struct CGImage *)(;
 
 @end
 

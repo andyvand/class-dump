@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MKMapItemPhotosAttribution;
-@protocol GEOMapItemPhoto;
-
 @interface MKMapItemPhoto
 {
     long long _photoStyle;
-    _MKMapItemPhotosAttribution *_attribution;
-    NSString *_title;
-    NSString *_subtitle;
-    id <GEOMapItemPhoto> _geoMapItemPhoto;
 }
 
 @end

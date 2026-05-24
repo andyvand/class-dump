@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _BPSAbstractOrderedMerge;
-
 @interface _BPSAbstractOrderedMergeSide
 {
     unsigned long long _index;
-    _BPSAbstractOrderedMerge *_combiner;
 }
 
 - (void);
 - (id);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (id);
 - (long long);
 - (unsigned long long);
@@ -24,15 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _BPSAbstractOrderedMerge *combiner; // @synthesize combiner=_combiner;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(readonly) Class superclass;
 
 @end
 

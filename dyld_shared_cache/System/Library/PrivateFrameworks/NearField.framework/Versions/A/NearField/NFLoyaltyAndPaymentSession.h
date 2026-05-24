@@ -6,30 +6,21 @@
 
 #import <NearField/NFSession.h>
 
-@class NFApplet, NSDictionary, NSSet;
 @protocol NFLoyaltyAndPaymentSessionDelegate;
 
 @interface NFLoyaltyAndPaymentSession : NFSession
 {
     _Bool _pendingServerRequest;
-    _Bool _vasTransactionInProgress;
-    id <NFLoyaltyAndPaymentSessionDelegate> _delegate;
-    _Bool _emulationActive;
-    NSDictionary *_appletsById;
-    unsigned long long _numActiveSEs;
-    _Bool _fieldNotificationSent;
-    NFApplet *_activeApplet;
-    NSSet *_activeKeys;
-    NFApplet *_defaultApplet;
 }
 
+- (_Bool)kABConverterUpdateNotification;
+- (_Bool)r(void);
+- (_Bool)vcard;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ation.m;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
+- (void)jba;
 - (void);
 - (void);
 - (void);
@@ -38,45 +29,41 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)
+e;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)attributesOfFileSystemForPath:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain) NFApplet *activeApplet; // @synthesize activeApplet=_activeApplet;
-@property(readonly, retain) NSSet *activeKeys; // @synthesize activeKeys=_activeKeys;
-@property(readonly, retain) NFApplet *defaultApplet; // @synthesize defaultApplet=_defaultApplet;
 @property id <NFLoyaltyAndPaymentSessionDelegate> delegate;
-@property(readonly) unsigned long long numberOfActiveSecureElements;
 
 @end
 

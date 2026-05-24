@@ -12,10 +12,10 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)unpickAirPlayAVRoutesWithCompletion:(id)arg1;
+- (id)ingStore.saveChanges;
 - (long long);
-- (void);
+- (void)_setObservingBacklight:(id)arg1;
 - (void);
 
 // Remaining properties

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface TextToSpeech.TaggedSSML
 {
     void ssmlSnippets;
-    void originalSSML;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (void)l;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *originalSSML;
 @property(nonatomic, copy) NSArray *ssmlSnippets;
 
 @end

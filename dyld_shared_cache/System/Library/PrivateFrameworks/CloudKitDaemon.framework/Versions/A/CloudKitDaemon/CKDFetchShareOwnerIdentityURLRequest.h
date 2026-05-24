@@ -11,23 +11,20 @@
 @interface CKDFetchShareOwnerIdentityURLRequest : CKDURLRequest
 {
     NSData *_publicKey;
-    long long _publicKeyType;
-    CDUnknownBlockType _ownerIdentityFetchedBlock;
-    CKRecordID *_shareRecordID;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)@9	;
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (id)ntainsAllOrNull;
+- (id)listNotContainsAllOrNull;
 - (void)ecrypt. Keys unavailable even after synchronization;
 - (id)violation in public key table;
 - (id)or zone %@: /* Error: Ran out of types for this method. */;
@@ -38,9 +35,6 @@
 - (_Bool)q;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType ownerIdentityFetchedBlock; // @synthesize ownerIdentityFetchedBlock=_ownerIdentityFetchedBlock;
-@property(retain, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(nonatomic) long long publicKeyType; // @synthesize publicKeyType=_publicKeyType;
 @property(retain, nonatomic) CKRecordID *shareRecordID; // @synthesize shareRecordID=_shareRecordID;
 
 @end

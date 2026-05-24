@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class Protocol;
 
 @protocol NSObject
+- (Class)i;
+- (unsigned long long)initWithFeaturesFrom:addedToFeaturesFrom:error: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)mlTextWriterVSprintf :(Protocol *)arg1 out of memory!
+;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (NSNULL_Compare)
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);

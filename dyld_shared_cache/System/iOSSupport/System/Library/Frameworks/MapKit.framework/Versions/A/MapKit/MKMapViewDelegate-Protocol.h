@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MKClusterAnnotation;
+
 @protocol MKMapViewDelegate
+
+@optional
+- (void);
+- (void)";
+- (MKClusterAnnotation *)@9;
+- (void);
+- (void);
 @end
 

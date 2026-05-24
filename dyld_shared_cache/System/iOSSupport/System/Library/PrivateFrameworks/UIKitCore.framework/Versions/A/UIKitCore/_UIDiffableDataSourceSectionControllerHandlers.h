@@ -7,10 +7,6 @@
 @interface _UIDiffableDataSourceSectionControllerHandlers
 {
     CDUnknownBlockType _shouldExpandItemHandler;
-    CDUnknownBlockType _willExpandItemHandler;
-    CDUnknownBlockType _shouldCollapseItemHandler;
-    CDUnknownBlockType _willCollapseItemHandler;
-    CDUnknownBlockType _childSnapshotForExpandingParentHandler;
 }
 
 - (CDUnknownBlockType);
@@ -21,17 +17,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)systemDidLeaveDataProtectionLock;
 - (CDUnknownBlockType);
 - (id)gestureRecognizerForPreviewActions;
 - (void)¸¹\;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType childSnapshotForExpandingParentHandler; // @synthesize childSnapshotForExpandingParentHandler=_childSnapshotForExpandingParentHandler;
-@property(copy, nonatomic) CDUnknownBlockType shouldCollapseItemHandler; // @synthesize shouldCollapseItemHandler=_shouldCollapseItemHandler;
 @property(copy, nonatomic) CDUnknownBlockType shouldExpandItemHandler; // @synthesize shouldExpandItemHandler=_shouldExpandItemHandler;
-@property(copy, nonatomic) CDUnknownBlockType willCollapseItemHandler; // @synthesize willCollapseItemHandler=_willCollapseItemHandler;
-@property(copy, nonatomic) CDUnknownBlockType willExpandItemHandler; // @synthesize willExpandItemHandler=_willExpandItemHandler;
 
 @end
 

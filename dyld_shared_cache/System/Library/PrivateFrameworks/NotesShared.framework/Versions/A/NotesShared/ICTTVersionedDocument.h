@@ -9,12 +9,11 @@
 @interface ICTTVersionedDocument
 {
     NSUUID *_replicaID;
-    void *_documentArchive;
 }
 
 + (unsigned int);
-+ (unsigned int);
-+ (unsigned int);
++ (unsigned int),;
++ (unsigned int)y;
 - (id);
 - (id);
 - (void);
@@ -23,21 +22,19 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (void);
 - (unsigned long long);
 - (void *);
-- (void);
+- (void)MeasurementSupport;
 - (void);
 - (id);
 - (void)$;
 
 // Remaining properties
 @property(nonatomic) void *documentArchive; // @synthesize documentArchive=_documentArchive;
-@property(readonly, nonatomic) unsigned long long futureVersionCount;
-@property(readonly, nonatomic) NSUUID *replicaID; // @synthesize replicaID=_replicaID;
 
 @end
 

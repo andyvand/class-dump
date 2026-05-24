@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOMapItemAttribution.h>
 
-@class NSArray, NSURL;
+@class NSArray;
 
 @interface GEOMapItemPlaceAttribution : GEOMapItemAttribution
 {
@@ -18,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *checkInURLs;
-@property(readonly, nonatomic) NSURL *webURL;
 
 @end
 

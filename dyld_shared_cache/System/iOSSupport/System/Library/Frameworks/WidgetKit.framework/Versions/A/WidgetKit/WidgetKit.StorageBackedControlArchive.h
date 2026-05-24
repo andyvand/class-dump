@@ -7,12 +7,6 @@
 @interface WidgetKit.StorageBackedControlArchive
 {
     id originatingBundle;
-    id systemVersion;
-    id creationDate;
-    id environment;
-    id control;
-    id state;
-    id _storage;
 }
 
 @end

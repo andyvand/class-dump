@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CLPInstSchemaCLPCurareAppIntentSampleClassificationStarted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_originalRequestId;
-    _Bool _hasOriginalRequestId;
 }
 
 - (void);
@@ -27,13 +26,11 @@
 - (_Bool);
 - (id);
 - (id)ontext";
-- (id)maFLOWSmsAttachmentMetadata;
+- (id)FLOWSchemaFLOWSmsAttachmentMetadata;
 - (id)x;
 - (void)y9&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOriginalRequestId; // @synthesize hasOriginalRequestId=_hasOriginalRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *originalRequestId; // @synthesize originalRequestId=_originalRequestId;
 
 @end

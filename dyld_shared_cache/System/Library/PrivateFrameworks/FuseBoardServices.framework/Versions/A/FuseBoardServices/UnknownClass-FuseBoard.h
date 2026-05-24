@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (FuseBoard)
-- (void);
-- (void);
+- (void)y;
+- (void)4X;
 - (void);
 - (void);
 - (void);
@@ -14,12 +14,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=fu_setPreferredDisplayGamut:) long long fu_preferredDisplayGamut; // @dynamic fu_preferredDisplayGamut;
-@property(nonatomic, setter=fu_setPreferredDisplayID:) unsigned int fu_preferredDisplayID; // @dynamic fu_preferredDisplayID;
-@property(nonatomic, setter=fu_setPreferredDisplayScale:) double fu_preferredDisplayScale; // @dynamic fu_preferredDisplayScale;
-@property(nonatomic, setter=fu_setPreferredEdgeInsets:) struct NSEdgeInsets fu_preferredEdgeInsets; // @dynamic fu_preferredEdgeInsets;
-@property(nonatomic, setter=fu_setPreferredFullScreenOrientations:) unsigned long long fu_preferredFullScreenOrientations; // @dynamic fu_preferredFullScreenOrientations;
-@property(nonatomic, setter=fu_setPreferredSize:) struct CGSize fu_preferredSize; // @dynamic fu_preferredSize;
 @property(nonatomic, setter=fu_setState:) long long fu_state; // @dynamic fu_state;
 @end
 

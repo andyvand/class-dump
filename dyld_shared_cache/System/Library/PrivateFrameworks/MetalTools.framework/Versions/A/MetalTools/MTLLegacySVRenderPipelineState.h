@@ -6,41 +6,24 @@
 
 #import <MetalTools/MTLToolsRenderPipelineState.h>
 
-@class MTLLegacySVBuffer, MTLLegacySVImageData, MTLRenderPipelineReflection, NSArray, NSMutableArray;
+@class MTLRenderPipelineReflection, NSArray;
 
 @interface MTLLegacySVRenderPipelineState : MTLToolsRenderPipelineState
 {
     MTLRenderPipelineReflection *_internalReflection;
-    MTLRenderPipelineReflection *_userReflection;
-    NSMutableArray *_binaryFunctionData;
-    MTLLegacySVImageData *_vertexFunctionData;
-    MTLLegacySVImageData *_fragmentFunctionData;
-    MTLLegacySVImageData *_tileFunctionData;
-    MTLLegacySVImageData *_objectFunctionData;
-    MTLLegacySVImageData *_meshFunctionData;
-    NSMutableArray *_retainedFunctions;
-    MTLLegacySVBuffer *_indirectStateBuffer;
-    _Bool _supportsIndirectCommandBuffers;
-    long long _shaderValidation;
-    long long _shaderValidationState;
-    int _vertexMaxCallStackDepth;
-    int _fragmentMaxCallStackDepth;
-    int _meshMaxCallStackDepth;
-    int _objectMaxCallStackDepth;
-    int _tileMaxCallStackDepth;
 }
 
 - (int);
-- (id);
-- (id);
+- (id)h: /* Error: Ran out of types for this method. */;
+- (id)B;
 - (id);
 - (id);
 - (int);
 - (id);
 - (id);
 - (void);
-- (int);
-- (id);
+- (int);
+- (id);
 - (id);
 - (int);
 - (id);
@@ -59,11 +42,11 @@
 - (id);
 - (void);
 - (id);
+- (id)3;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)D@z`;
 - (id);
 - (id);
 - (id);
@@ -78,26 +61,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *binaryFunctionData; // @synthesize binaryFunctionData=_binaryFunctionData;
-@property(readonly, nonatomic) MTLLegacySVBuffer *fragmentConstantsBuffer;
-@property(readonly, nonatomic) MTLLegacySVImageData *fragmentFunctionData;
-@property(readonly, nonatomic) int fragmentMaxCallStackDepth; // @synthesize fragmentMaxCallStackDepth=_fragmentMaxCallStackDepth;
-@property(readonly, nonatomic) MTLLegacySVBuffer *indirectStateBuffer;
-@property(readonly, nonatomic) MTLRenderPipelineReflection *internalReflection;
-@property(readonly, nonatomic) MTLLegacySVBuffer *meshConstantsBuffer;
-@property(readonly, nonatomic) MTLLegacySVImageData *meshFunctionData;
-@property(readonly, nonatomic) int meshMaxCallStackDepth; // @synthesize meshMaxCallStackDepth=_meshMaxCallStackDepth;
-@property(readonly, nonatomic) MTLLegacySVBuffer *objectConstantsBuffer;
-@property(readonly, nonatomic) MTLLegacySVImageData *objectFunctionData;
-@property(readonly, nonatomic) int objectMaxCallStackDepth; // @synthesize objectMaxCallStackDepth=_objectMaxCallStackDepth;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly, nonatomic) long long shaderValidationState;
-@property(readonly, nonatomic) MTLLegacySVBuffer *tileConstantsBuffer;
-@property(readonly, nonatomic) MTLLegacySVImageData *tileFunctionData;
-@property(readonly, nonatomic) int tileMaxCallStackDepth; // @synthesize tileMaxCallStackDepth=_tileMaxCallStackDepth;
-@property(readonly, nonatomic) MTLRenderPipelineReflection *userReflection;
-@property(readonly, nonatomic) MTLLegacySVBuffer *vertexConstantsBuffer;
-@property(readonly, nonatomic) MTLLegacySVImageData *vertexFunctionData;
-@property(readonly, nonatomic) int vertexMaxCallStackDepth; // @synthesize vertexMaxCallStackDepth=_vertexMaxCallStackDepth;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSString;
-@protocol CRCard, _CRKCardSectionViewLoaderDelegate;
+@class NSMutableDictionary;
+@protocol _CRKCardSectionViewLoaderDelegate;
 
 @interface _CRKCardSectionViewLoader
 {
     NSMutableDictionary *_cardSectionViewConfigurationsByCardSectionIdentifiersByProviderIdentifiers;
-    NSMutableDictionary *_vetoingProviderIdentifiersByVetoedCardSectionIdentifiers;
-    NSMutableSet *_identifiedCardSectionViewProviders;
-    id <_CRKCardSectionViewLoaderDelegate> _delegate;
-    id <CRCard> _loadedCard;
 }
 
 - (id);
@@ -25,21 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_scoreResultTextServer:withEvaluator: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_CRKCardSectionViewLoaderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableSet *identifiedCardSectionViewProviders; // @synthesize identifiedCardSectionViewProviders=_identifiedCardSectionViewProviders;
-@property(retain, nonatomic) id <CRCard> loadedCard; // @synthesize loadedCard=_loadedCard;
-@property(readonly) Class superclass;
 
 @end
 

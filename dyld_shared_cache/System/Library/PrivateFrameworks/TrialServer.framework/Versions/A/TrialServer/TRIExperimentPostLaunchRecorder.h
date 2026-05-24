@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TRIExperimentPostLaunchLogging, TRIExperimentPostLaunchStoring;
+@protocol TRIExperimentPostLaunchStoring;
 
 @interface TRIExperimentPostLaunchRecorder
 {
     id <TRIExperimentPostLaunchStoring> _storage;
-    id <TRIExperimentPostLaunchLogging> _logger;
 }
 
-+ (id);
-- (id);
++ (id)getValue:(id)arg1;
+- (id)isDeferredPhotoProxyExpectingDepth;
 - (_Bool);
-- (id);
+- (id)`;
 - (void)!øCù1!ð1Â0@ù
 × ;
 - (id)%@ is not implemented.;
 
 // Remaining properties
-@property(readonly, nonatomic) id <TRIExperimentPostLaunchLogging> logger; // @synthesize logger=_logger;
 @property(readonly, nonatomic) id <TRIExperimentPostLaunchStoring> storage; // @synthesize storage=_storage;
 
 @end

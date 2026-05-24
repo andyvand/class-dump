@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject;
-@protocol OS_dispatch_source;
-
 @interface TLAlertContext
 {
     _Bool _beingInterrupted;
-    long long _playbackBackEnd;
-    NSDate *_playbackStartDate;
-    NSObject<OS_dispatch_source> *_timeoutTimerSource;
 }
 
 - (id);
@@ -26,10 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isBeingInterrupted) _Bool beingInterrupted; // @synthesize beingInterrupted=_beingInterrupted;
 @property(nonatomic) long long playbackBackEnd; // @synthesize playbackBackEnd=_playbackBackEnd;
-@property(retain, nonatomic) NSDate *playbackStartDate; // @synthesize playbackStartDate=_playbackStartDate;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timeoutTimerSource; // @synthesize timeoutTimerSource=_timeoutTimerSource;
 
 @end
 

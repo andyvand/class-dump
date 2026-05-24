@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface HMDVideoStreamReconfigureEvent
 {
     unsigned long long _eventType;
-    NSDate *_timestamp;
 }
 
 - (id);
@@ -19,12 +16,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (long long)assets:(id)arg1 %@;
-- (id)p;
-- (void)seline;
+- (id)extractPKZip;
+- (void)HMDH264ProfileTypeBaseline;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

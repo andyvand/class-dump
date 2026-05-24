@@ -11,21 +11,21 @@
     id <MUIMessageListProxyTableViewDataSource> _proxyTableViewDataSource;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (id);
-- (_Bool);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
-- (long long)ringAvailable;
-- (id)Reason:(id)arg1;
-- (id)ChevronType:(id)arg1;
+- (_Bool);
+- (id);
+- (void)redactedQueryStringForQueryString: /* Error: Ran out of types for this method. */;
+- (long long)isFilteringAvailable;
+- (id)_commitReasonFromReason:(id)arg1;
+- (id)setChevronType:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) __weak id <MUIMessageListProxyTableViewDataSource> proxyTableViewDataSource; // @synthesize proxyTableViewDataSource=_proxyTableViewDataSource;

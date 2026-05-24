@@ -15,8 +15,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool)imension1;
-- (void)ample;
+- (_Bool)dimension1;
+- (void)_updateFromCurrentSample;
 - (long long)y",R,N,V_arrangedContentSeparatorViews;
 - (id)»;
 - (_Bool)cene level changed;

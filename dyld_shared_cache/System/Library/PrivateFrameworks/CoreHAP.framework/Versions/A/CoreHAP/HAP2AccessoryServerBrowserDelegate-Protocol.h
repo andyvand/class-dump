@@ -7,5 +7,8 @@
 @protocol HAP2AccessoryServerBrowserDelegate
 - (void)ÔApÐ!T@ùñ·°1Â0@ù
 × ;
+
+@optional
+- (void)a subview of another view.;
 @end
 

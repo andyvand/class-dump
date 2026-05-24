@@ -6,17 +6,14 @@
 
 #import <IMDaemonCore/IMDRelayGroupMutationMessage.h>
 
-@class NSDictionary;
-
 @interface IMDRelayGroupParticipantsUpdateMessage : IMDRelayGroupMutationMessage
 {
     unsigned long long _participantChangeType;
-    NSDictionary *_changedParticipants;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)8 ;
 - (id);
 - (void);
 - (unsigned long long);
@@ -24,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *changedParticipants; // @synthesize changedParticipants=_changedParticipants;
 @property(nonatomic) unsigned long long participantChangeType; // @synthesize participantChangeType=_participantChangeType;
 
 @end

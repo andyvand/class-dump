@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_workloop, PDSDaemonListenerVendor, PDSXPCInterfaceVendor, PDSXPCListener;
+@protocol PDSXPCListener;
 
 @interface PDSXPCServer
 {
     id <PDSXPCListener> _XPCListener;
-    id <PDSXPCInterfaceVendor> _interfaceVendor;
-    id <PDSDaemonListenerVendor> _daemonListenerVendor;
-    NSObject<OS_dispatch_workloop> *_workloop;
-    NSMutableArray *_XPCClients;
 }
 
 - (void);
-- (void);
+- (void)y_xq_q0_q1__G;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -33,19 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *XPCClients; // @synthesize XPCClients=_XPCClients;
 @property(retain, nonatomic) id <PDSXPCListener> XPCListener; // @synthesize XPCListener=_XPCListener;
-@property(readonly, nonatomic) NSArray *connectedClients;
-@property(retain, nonatomic) id <PDSDaemonListenerVendor> daemonListenerVendor; // @synthesize daemonListenerVendor=_daemonListenerVendor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <PDSXPCInterfaceVendor> interfaceVendor; // @synthesize interfaceVendor=_interfaceVendor;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_workloop> *workloop; // @synthesize workloop=_workloop;
 
 @end
 

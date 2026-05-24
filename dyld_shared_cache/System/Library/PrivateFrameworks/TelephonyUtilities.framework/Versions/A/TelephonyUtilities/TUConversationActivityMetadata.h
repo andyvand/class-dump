@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, TUConversationActivityContext, TUConversationActivitySceneAssociationBehavior, TUSandboxExtendedURL;
+@class TUSandboxExtendedURL;
 
 @interface TUConversationActivityMetadata
 {
     _Bool _supportsContinuationOnTV;
-    _Bool _supportsActivityPreviews;
-    TUConversationActivityContext *_context;
-    NSData *_linkMetadatablob;
-    NSURL *_fallbackURL;
-    NSURL *_invitationURL;
-    NSString *_title;
-    NSString *_subTitle;
-    NSData *_imageData;
-    long long _preferredBroadcastingAttributes;
-    TUConversationActivitySceneAssociationBehavior *_sceneAssociationBehavior;
-    long long _lifetimePolicy;
-    TUSandboxExtendedURL *_imageFileURL;
 }
 
 + (id);
@@ -29,9 +17,9 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)P;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -48,48 +36,27 @@
 - (void);
 - (long long);
 - (_Bool);
+- (id)9h";
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)J;
 - (id);
-- (id);
+- (id)	;
 - (void);
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id)!ð1Â0@ù
 × ;
-- (void)Muted: /* Error: Ran out of types for this method. */;
+- (void)setDownlinkMuted: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long contentAssociation;
-@property(readonly, copy, nonatomic) TUConversationActivityContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSURL *fallbackURL; // @synthesize fallbackURL=_fallbackURL;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 @property(retain, nonatomic) TUSandboxExtendedURL *imageFileURL; // @synthesize imageFileURL=_imageFileURL;
-@property(readonly, copy, nonatomic) NSURL *invitationURL; // @synthesize invitationURL=_invitationURL;
-@property(readonly) unsigned long long length;
-@property(readonly, nonatomic) long long lifetimePolicy; // @synthesize lifetimePolicy=_lifetimePolicy;
-@property(copy, nonatomic) NSData *linkMetadatablob; // @synthesize linkMetadatablob=_linkMetadatablob;
-@property(nonatomic) long long preferredBroadcastingAttributes; // @synthesize preferredBroadcastingAttributes=_preferredBroadcastingAttributes;
-@property(readonly, copy, nonatomic) TUConversationActivitySceneAssociationBehavior *sceneAssociationBehavior; // @synthesize sceneAssociationBehavior=_sceneAssociationBehavior;
-@property(readonly, copy, nonatomic) NSString *subTitle; // @synthesize subTitle=_subTitle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsActivityPreviews; // @synthesize supportsActivityPreviews=_supportsActivityPreviews;
-@property(nonatomic) _Bool supportsContinuationOnTV; // @synthesize supportsContinuationOnTV=_supportsContinuationOnTV;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

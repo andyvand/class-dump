@@ -9,17 +9,11 @@
 @interface PKInstallmentPlanMerchant
 {
     NSString *_identifier;
-    NSString *_name;
-    unsigned long long _categoryCode;
-    NSString *_city;
-    NSString *_state;
-    NSString *_postalCode;
-    NSString *_country;
 }
 
 + (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)J@9_;
 - (unsigned long long);
 - (void);
 - (id);
@@ -30,25 +24,19 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setAssistedParkingEvents:(id)arg1;
+- (void)connectDuration;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id):(id)arg1;
+- (id)_validateAccountResolutionsWithError:(id)arg1 errorStatus: /* Error: Ran out of types for this method. */;
 - (void)ö÷8ùDú;
 - (void)oreZone:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long categoryCode; // @synthesize categoryCode=_categoryCode;
-@property(copy, nonatomic) NSString *city; // @synthesize city=_city;
-@property(copy, nonatomic) NSString *country; // @synthesize country=_country;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(copy, nonatomic) NSString *state; // @synthesize state=_state;
 
 @end
 

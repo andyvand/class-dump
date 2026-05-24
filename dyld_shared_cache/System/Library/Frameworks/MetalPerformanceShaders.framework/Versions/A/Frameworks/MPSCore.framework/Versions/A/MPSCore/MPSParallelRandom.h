@@ -9,11 +9,9 @@
 @interface MPSParallelRandom : MPSKernel
 {
     int _generatorType;
-    unsigned int _destinationDataType;
-    unsigned long long _distributionType;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (void);
 - (id);
 - (void);
@@ -22,12 +20,11 @@
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (id);
+- (id)R;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int destinationDataType; // @synthesize destinationDataType=_destinationDataType;
 @property(nonatomic) unsigned long long distributionType; // @synthesize distributionType=_distributionType;
 
 @end

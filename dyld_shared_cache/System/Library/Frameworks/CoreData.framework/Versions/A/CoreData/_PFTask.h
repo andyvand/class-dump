@@ -8,21 +8,13 @@ __attribute__((visibility("hidden")))
 @interface _PFTask
 {
     int _cd_rc;
-    void *_task;
-    void *arguments;
-    struct _opaque_pthread_mutex_t lock;
-    struct _opaque_pthread_cond_t {
-        long long __sig;
-        char __opaque[40];
-    } condition;
-    int isFinishedFlag;
 }
 
 - (unsigned long long);
 - (void);
 - (oneway void);
 - (id);
-- (_Bool);
+- (_Bool)RBSCompoundAnyPredicate;
 - (id);
 - (_Bool);
 

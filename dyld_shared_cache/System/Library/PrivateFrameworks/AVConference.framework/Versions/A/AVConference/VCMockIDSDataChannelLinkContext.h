@@ -8,22 +8,15 @@ __attribute__((visibility("hidden")))
 @interface VCMockIDSDataChannelLinkContext
 {
     _Bool _forceNetworkCellular;
-    _Bool _idsUPlusOneMode;
-    unsigned char _networkType;
-    unsigned char _remoteNetworkType;
-    unsigned short _localLinkFlags;
-    unsigned short _estimatedPerPacketConstantOverhead;
-    BOOL _linkID;
-    unsigned short _pathMTU;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (unsigned int);
-- (unsigned char);
+- (unsigned char);
 - (unsigned short);
 - (BOOL);
 - (_Bool);
@@ -32,13 +25,10 @@ __attribute__((visibility("hidden")))
 - (unsigned short);
 - (void);
 - (long long);
-- (unsigned char);
+- (unsigned char)=;
 
 // Remaining properties
 @property(nonatomic) _Bool idsUPlusOneMode; // @synthesize idsUPlusOneMode=_idsUPlusOneMode;
-@property unsigned char networkType; // @synthesize networkType=_networkType;
-@property unsigned short pathMTU; // @synthesize pathMTU=_pathMTU;
-@property unsigned char remoteNetworkType; // @synthesize remoteNetworkType=_remoteNetworkType;
 
 @end
 

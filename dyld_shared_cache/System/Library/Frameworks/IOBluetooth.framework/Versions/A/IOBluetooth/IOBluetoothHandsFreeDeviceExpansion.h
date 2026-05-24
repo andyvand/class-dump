@@ -7,37 +7,25 @@
 @interface IOBluetoothHandsFreeDeviceExpansion
 {
     struct ComponentInstanceRecord *_VPIOUnit;
-    double _prevInputSampleTime;
-    double _prevOutputSampleTime;
-    struct AudioBufferList *_outputBufferList;
-    struct _IOBluetoothRingBuffer *_SCOInputBuffer;
-    struct _IOBluetoothRingBuffer *_SCOOutputBuffer;
-    unsigned int _driverConnect;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)q;
+- (void)`;
 - (void);
 - (void);
-- (void);
-- (void);
-- (double);
+- (double);
 - (double);
 - (struct AudioBufferList *);
 - (unsigned int);
 - (struct ComponentInstanceRecord *);
-- (struct _IOBluetoothRingBuffer *);
+- (struct _IOBluetoothRingBuffer *)?;
 - (struct _IOBluetoothRingBuffer *);
 
 // Remaining properties
-@property struct _IOBluetoothRingBuffer *SCOInputBuffer; // @synthesize SCOInputBuffer=_SCOInputBuffer;
-@property struct _IOBluetoothRingBuffer *SCOOutputBuffer; // @synthesize SCOOutputBuffer=_SCOOutputBuffer;
 @property struct ComponentInstanceRecord *VPIOUnit; // @synthesize VPIOUnit=_VPIOUnit;
-@property unsigned int driverConnect; // @synthesize driverConnect=_driverConnect;
-@property struct AudioBufferList *outputBufferList; // @synthesize outputBufferList=_outputBufferList;
-@property double prevInputSampleTime; // @synthesize prevInputSampleTime=_prevInputSampleTime;
-@property double prevOutputSampleTime; // @synthesize prevOutputSampleTime=_prevOutputSampleTime;
 
 @end
 

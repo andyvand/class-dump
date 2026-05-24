@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)getFirstPassSynonymsForWord:(id)arg1;
 - (id);
 - (id);
 - (id);

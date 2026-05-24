@@ -7,13 +7,12 @@
 @interface JetUI.JUContentSizeCategoryPreference
 {
     id userDefaults;
-    id preferredContentSizeCategory;
 }
 
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ple.iMovieApp;
+- (void)b;
 
 @end
 

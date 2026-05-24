@@ -11,13 +11,13 @@
     id safeAreaCornerInsets;
 }
 
-+ (_Bool)orphableInternal_p;
-- (struct _UICornerInsets);
++ (_Bool)So20_UIMorphableInternal_p;
+- (struct _UICornerInsets);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id)@0:(id)arg1 8@"TIKeyboardCandidate"16@"NSString"24;
-- (_Bool)pplyToSolver:(id)arg1;
+- (_Bool)applyToSolver:(id)arg1;
 - (void)olderContexts,S_setPlaceholderContexts:(id)arg1 ,V_placeholderContexts;
 - (void)¸il;
 

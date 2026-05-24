@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     GEOMapFeatureMultiSegmentRoadFinder *_multiSegmentRoadFinder;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)replaceObjectAtIndex:withObject: /* Error: Ran out of types for this method. */;
+- (id)newStringFrom:(CDStruct_c3b9c2ee)arg1 usingUnicodeTransforms:(double)arg2;
+- (id)newReaderWriterSchedulerWithName:(CDStruct_c3b9c2ee)arg1;
 - (id);
 - (id)·*ð1Â0@ù
 × ;

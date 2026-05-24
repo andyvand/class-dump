@@ -4,107 +4,81 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HLPHelpBookController, HLPHelpLoadingView, HLPHelpLocale, HLPHelpTopicHistoryItem, HLPURLSessionItem, NSArray, NSCache, NSMutableArray, NSMutableDictionary, NSString, NSURL, UIBarButtonItem, WKWebView;
-@protocol HLPHelpTopicViewControllerDelegate;
+@class HLPURLSessionItem;
 
 @interface HLPHelpTopicViewController
 {
     id _interactivePopGestureRecognizerDelegate;
     _Bool _canShowTOC;
-    _Bool _webViewLoaded;
-    _Bool _RTL;
-    HLPHelpBookController *_helpBookController;
-    NSMutableArray *_topicHistory;
-    UIBarButtonItem *_tocBarButtonItem;
-    UIBarButtonItem *_backBarButtonItem;
-    UIBarButtonItem *_forwardBarButtonItem;
-    _Bool _fullBookView;
-    _Bool _supportsDarkMode;
-    _Bool _displayHelpTopicsOnly;
-    _Bool _hideDoneButton;
-    _Bool _showTopicNameAsTitle;
-    _Bool _singleTopic;
-    _Bool _darkModeEnabled;
-    id <HLPHelpTopicViewControllerDelegate> _delegate;
-    NSURL *_helpBookURL;
-    WKWebView *_webView;
-    HLPHelpLocale *_locale;
-    HLPHelpTopicHistoryItem *_currentTopicHistoryItem;
-    HLPHelpLoadingView *_loadingView;
-    HLPURLSessionItem *_URLSessionItem;
-    NSCache *_topicCache;
-    NSArray *_searchTerms;
-    NSMutableDictionary *_webViewRequestsMap;
-    NSMutableDictionary *_webViewRequestsDataMap;
 }
 
+- (id);
 - (id);
+- (void);
+- (void);
+- (void)S;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct _NSRange);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool),T;
+- (void)S;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)sS;
 - (void);
 - (void);
+- (void)T;
 - (void);
+- (void);
+- (void);
+- (void)CT;
+- (void){T;
+- (void);
+- (void)C;
+- (struct _NSRange)T;
+- (void);
+- (void);
+- (void);
+- (void)T;
+- (_Bool)CT;
+- (_Bool);
+- (void);
+- (void);
+- (void)M;
+- (void)S;
+- (void);
+- (void);
+- (void);
+- (void)C;
 - (id);
 - (id);
+- (_Bool)R;
+- (void);
+- (_Bool)oM;
+- (id)7B;
+- (void);
+- (void)M;
+- (void);
+- (id);
+- (void)sk;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)|;
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)&;
 - (void);
 - (void);
 - (id);
@@ -117,9 +91,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -130,31 +104,7 @@
 
 // Remaining properties
 @property(retain, nonatomic) HLPURLSessionItem *URLSessionItem; // @synthesize URLSessionItem=_URLSessionItem;
-@property(retain, nonatomic) HLPHelpTopicHistoryItem *currentTopicHistoryItem; // @synthesize currentTopicHistoryItem=_currentTopicHistoryItem;
 @property(nonatomic) _Bool darkModeEnabled; // @synthesize darkModeEnabled=_darkModeEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HLPHelpTopicViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool displayHelpTopicsOnly; // @synthesize displayHelpTopicsOnly=_displayHelpTopicsOnly;
-@property(nonatomic) _Bool fullBookView; // @synthesize fullBookView=_fullBookView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HLPHelpBookController *helpBookController; // @synthesize helpBookController=_helpBookController;
-@property(retain, nonatomic) NSURL *helpBookURL; // @synthesize helpBookURL=_helpBookURL;
-@property(nonatomic) _Bool hideDoneButton; // @synthesize hideDoneButton=_hideDoneButton;
-@property(retain, nonatomic) HLPHelpLoadingView *loadingView; // @synthesize loadingView=_loadingView;
-@property(retain, nonatomic) HLPHelpLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSArray *searchTerms; // @synthesize searchTerms=_searchTerms;
-@property(nonatomic) _Bool showTopicNameAsTitle; // @synthesize showTopicNameAsTitle=_showTopicNameAsTitle;
-@property(nonatomic, getter=isSingleTopic) _Bool singleTopic; // @synthesize singleTopic=_singleTopic;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsDarkMode; // @synthesize supportsDarkMode=_supportsDarkMode;
-@property(retain, nonatomic) NSCache *topicCache; // @synthesize topicCache=_topicCache;
-@property(retain, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
-@property(retain, nonatomic) NSMutableDictionary *webViewRequestsDataMap; // @synthesize webViewRequestsDataMap=_webViewRequestsDataMap;
-@property(retain, nonatomic) NSMutableDictionary *webViewRequestsMap; // @synthesize webViewRequestsMap=_webViewRequestsMap;
 
 @end
 

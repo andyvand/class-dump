@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface OCXReader : OCDEncryptedReader
 {
     OCPZipPackage *mZipPackage;
-    const void *mDataBytes;
 }
 
 - (id);

@@ -7,7 +7,6 @@
 @interface PhotosUICore.MapSnapshotViewModel__priv_E64BD8AEC74FD591D186C85FF453C4C0
 {
     id _snapshotImage;
-    id _$observationRegistrar;
 }
 
 @end

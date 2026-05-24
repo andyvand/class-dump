@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (Class);
 + (int);
-+ (id);
++ (id)a;
 
 @end
 

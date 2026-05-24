@@ -10,7 +10,7 @@
 
 + (void);
 + (_Bool);
-+ (id);
++ (id)R(;
 + (id);
 + (id);
 + (void);
@@ -20,7 +20,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
@@ -32,9 +32,9 @@
 + (void);
 + (_Bool);
 + (void);
-+ (CDStruct_996ac03c);
-+ (_Bool);
-+ (id);
++ (CDStruct_0973877e);
++ (_Bool);
++ (id)A;
 + (id);
 + (id);
 + (id);

@@ -6,56 +6,43 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, TTMSchemaTTMOverrideRequestEnded, TTMSchemaTTMOverrideRequestFailed, TTMSchemaTTMOverrideRequestStarted;
+@class TTMSchemaTTMOverrideRequestStarted;
 
 @interface TTMSchemaTTMOverrideRequestContext : SISchemaInstrumentationMessage
 {
     TTMSchemaTTMOverrideRequestStarted *_startedOrChanged;
-    TTMSchemaTTMOverrideRequestEnded *_ended;
-    TTMSchemaTTMOverrideRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
+- (unsigned long long)T	;
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)h;
+- (id);
+- (id)SUMacControllerErrorApplyCommitStashInProgress;
+- (id);
+- (id);
+- (void);
+- (_Bool)bressl/libressl-2.2/crypto/x509v3/v3_cpols.c;
 - (unsigned long long);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)initWithUserActionItem:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (_Bool)chat_message_join AS cmj ON m.ROWID = cmj.message_id WHERE error == 0 AND is_from_me == 0 AND item_type == 0 AND is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT ?;;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)eteProcessedMediaType;
-- (id)electionCacheHit;
-- (void)REPLY_INTENT_FOR_ANNOUNCE_FOLLOW_UP;
+- (id)deleteProcessedMediaType;
+- (id)_isIntentSelectionCacheHit;
+- (void)ORCHPREEXECUTIONDECISION_NON_REPLY_INTENT_FOR_ANNOUNCE_FOLLOW_UP;
 
 // Remaining properties
-@property(retain, nonatomic) TTMSchemaTTMOverrideRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) TTMSchemaTTMOverrideRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) TTMSchemaTTMOverrideRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -6,45 +6,9 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableSet, NSString, UIColor, UIFont, UIImage, UILabel, _UILegibilitySettings, _UIVibrantSettings;
-@protocol _UIGlintyStringViewDelegate;
-
 @interface _UIGlintyStringView : UIView
 {
     _Bool _animationRepeats;
-    _Bool _adjustsFontSizeToFitWidth;
-    _Bool _hasCustomBackgroundColor;
-    _Bool _highlight;
-    _Bool _allowsLuminanceAdjustments;
-    _Bool _usesBackgroundDimming;
-    _Bool _needsTextUpdate;
-    _Bool _animating;
-    _Bool _fading;
-    _Bool _showing;
-    int _textIndex;
-    id <_UIGlintyStringViewDelegate> _delegate;
-    NSString *_text;
-    UIFont *_font;
-    NSString *_textLanguage;
-    _UILegibilitySettings *_legibilitySettings;
-    _UIVibrantSettings *_vibrantSettings;
-    UIView *_backgroundView;
-    UIColor *_backgroundColor;
-    UIColor *_chevronBackgroundColor;
-    long long _chevronStyle;
-    double _horizontalPadding;
-    UILabel *_label;
-    UIView *_spotlightView;
-    UIImage *_chevron;
-    UIView *_highlightView;
-    UIView *_effectView;
-    UIView *_blurView;
-    UIView *_shimmerImageView;
-    UIView *_reflectionImageView;
-    double _blurAlpha;
-    NSMutableSet *_blurHiddenRequesters;
-    struct CGSize _labelSize;
-    struct CGRect _chevronFrame;
 }
 
 - (_Bool);
@@ -78,37 +42,37 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (struct CGRect);
-- (id);
-- (id);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (double);
-- (double);
-- (double);
-- (id);
-- (double);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)0:8@16B24B28q32B40 /* Error: Ran out of types for this method. */;
+- (id)a"16@"NSString"24@"NSString"32;
+- (id)requestedDowngradeService;
+- (struct CGSize)renewTTLForScheduledAttachmentTransfer: /* Error: Ran out of types for this method. */;
+- (id)loadChatsWithIdentifier:(id)arg1 reply:(id)arg2;
+- (void)existingiMessageChatForID:withChatStyle: /* Error: Ran out of types for this method. */;
+- (void)existingSOSMessageSimilarToMessage:matchingService:withinTimeInterval: /* Error: Ran out of types for this method. */;
+- (_Bool)downloadingPendingSatelliteMessages;
+- (_Bool)compressFileTransfer:completionBlock: /* Error: Ran out of types for this method. */;
+- (long long)_changeObservationQueue;
+- (struct CGRect)_challengedDevicesforSMSRelay;
+- (id)n: /* Error: Ran out of types for this method. */;
+- (id)ceiptsV1WithQOINoDupe;
+- (double)ceiptsV1WithQOINoChat;
+- (double)ure;
+- (_Bool)@"IDSService",&,N,V_smsWatchService;
+- (_Bool)count;
+- (void)SDictionary",R,N,V_identifierToZoneMap;
+- (void)lowercaseString;
+- (void)ray",C,N,V_messageItems;
+- (void)^;
+- (struct CGSize)abilityHandleResult for %@ does not support encryption.;
+- (id)sociated transfer GUID %@ with message GUID:%@ /* Error: Ran out of types for this method. */;
+- (double)Block;
+- (double)%@;
+- (double)thCompletion scheduling opperation %@;
+- (id)rd Error:(long long)arg1 %@;
+- (double)gs toggle;
+- (_Bool)PeriodicAttachmentSync;
+- (_Bool)IMDCKMessageSyncCKOperationFactory;
+- (id)FirstMessageSyncFailed;
 - (id);
 - (double);
 - (void);
@@ -122,16 +86,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)Ѱ#;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)lue: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize);
-- (id);
+- (id)leadingTitleLabelString;
 - (void);
 - (double);
 - (void);
@@ -140,13 +104,13 @@
 - (void);
 - (id);
 - (void);
-- (void)yEdgeColorName;
+- (void)passcodeKeyEdgeColorName;
 - (void)Dö;
 - (_Bool);
 - (id)XÄ;
 - (void)s in %s. We normally expect CA's runloop observer to flush our transactions and cause preFenceHandlers to fire. To recover, we are explicitly invoking a CATransaction flush now.;
 - (id)doesn't support crossing bounds transforms that don't preserve rectangles. The problem is in this view:%@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)UIKBColorShiftGrayFill;
 - (void)atalystImpl._originRequestPending;
 - (id)lection view:%@; data source counts:%@ /* Error: Ran out of types for this method. */;
 - (id)dTrailingGroups={
@@ -155,47 +119,13 @@
 - (id)PÍþÿ;
 - (void)ë?)\Âõ(ð?ÀëQ¸,À;
 - (void)ë¸þ;
-- (double)mn;
+- (double)Column;
 - (void)3\;
 - (void)Û b_;
 - (_Bool)]Ô;
 
 // Remaining properties
-@property(nonatomic) _Bool adjustsFontSizeToFitWidth; // @synthesize adjustsFontSizeToFitWidth=_adjustsFontSizeToFitWidth;
-@property(nonatomic) _Bool allowsLuminanceAdjustments; // @synthesize allowsLuminanceAdjustments=_allowsLuminanceAdjustments;
-@property(nonatomic) _Bool animating; // @synthesize animating=_animating;
-@property(nonatomic) _Bool animationRepeats; // @synthesize animationRepeats=_animationRepeats;
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(nonatomic) double blurAlpha; // @synthesize blurAlpha=_blurAlpha;
-@property(retain, nonatomic) NSMutableSet *blurHiddenRequesters; // @synthesize blurHiddenRequesters=_blurHiddenRequesters;
-@property(retain, nonatomic) UIView *blurView; // @synthesize blurView=_blurView;
-@property(retain, nonatomic) UIImage *chevron; // @synthesize chevron=_chevron;
-@property(retain, nonatomic) UIColor *chevronBackgroundColor; // @synthesize chevronBackgroundColor=_chevronBackgroundColor;
-@property(nonatomic) struct CGRect chevronFrame; // @synthesize chevronFrame=_chevronFrame;
-@property(nonatomic) long long chevronStyle; // @synthesize chevronStyle=_chevronStyle;
-@property(nonatomic) id <_UIGlintyStringViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIView *effectView; // @synthesize effectView=_effectView;
-@property(nonatomic) _Bool fading; // @synthesize fading=_fading;
-@property(retain, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(nonatomic) _Bool hasCustomBackgroundColor; // @synthesize hasCustomBackgroundColor=_hasCustomBackgroundColor;
-@property(nonatomic) _Bool highlight; // @synthesize highlight=_highlight;
-@property(retain, nonatomic) UIView *highlightView; // @synthesize highlightView=_highlightView;
-@property(nonatomic) double horizontalPadding; // @synthesize horizontalPadding=_horizontalPadding;
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
-@property(readonly, nonatomic) struct CGRect labelFrame;
-@property(nonatomic) struct CGSize labelSize; // @synthesize labelSize=_labelSize;
-@property(retain, nonatomic) _UILegibilitySettings *legibilitySettings; // @synthesize legibilitySettings=_legibilitySettings;
 @property(nonatomic) _Bool needsTextUpdate; // @synthesize needsTextUpdate=_needsTextUpdate;
-@property(retain, nonatomic) UIView *reflectionImageView; // @synthesize reflectionImageView=_reflectionImageView;
-@property(retain, nonatomic) UIView *shimmerImageView; // @synthesize shimmerImageView=_shimmerImageView;
-@property(nonatomic) _Bool showing; // @synthesize showing=_showing;
-@property(retain, nonatomic) UIView *spotlightView; // @synthesize spotlightView=_spotlightView;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) int textIndex; // @synthesize textIndex=_textIndex;
-@property(copy, nonatomic) NSString *textLanguage; // @synthesize textLanguage=_textLanguage;
-@property(nonatomic) _Bool usesBackgroundDimming; // @synthesize usesBackgroundDimming=_usesBackgroundDimming;
-@property(retain, nonatomic) _UIVibrantSettings *vibrantSettings; // @synthesize vibrantSettings=_vibrantSettings;
 
 @end
 

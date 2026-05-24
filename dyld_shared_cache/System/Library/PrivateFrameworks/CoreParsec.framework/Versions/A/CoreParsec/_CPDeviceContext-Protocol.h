@@ -7,14 +7,13 @@
 @class NSData, NSString;
 
 @protocol _CPDeviceContext
+- (NSString *);
+- (void);
+- (NSData *)p>;
 - (void)32@0:(NSString *)arg1 8@16@24;
-- (NSString *)sIndexed;
+- (NSString *)_totalNumberOfAssetsIndexed;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *country;
-@property(copy, nonatomic) NSString *deviceModel;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *locale;
-@property(copy, nonatomic) NSString *osVersion;
 @end
 

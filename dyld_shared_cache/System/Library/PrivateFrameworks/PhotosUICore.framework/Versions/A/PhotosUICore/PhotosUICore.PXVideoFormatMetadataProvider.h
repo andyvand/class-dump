@@ -7,7 +7,6 @@
 @interface PhotosUICore.PXVideoFormatMetadataProvider
 {
     id imageManager;
-    id activeRequestID;
 }
 
 - (void);

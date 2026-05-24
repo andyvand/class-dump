@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLPRLPRConvertRule
 {
     PBDataReader *_reader;
-    NSMutableArray *_fillRules;
-    NSMutableArray *_mapRules;
-    NSMutableArray *_pickupRules;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _validEndTime;
-    unsigned int _validStartTime;
-    struct {
-        unsigned int has_validEndTime:1;
-        unsigned int has_validStartTime:1;
-        unsigned int read_fillRules:1;
-        unsigned int read_mapRules:1;
-        unsigned int read_pickupRules:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)DiagnosticLogSubmissionEnabled;
++ (Class)onetic France;
 + (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)ScheduledArrival:(id)arg1;
++ (_Bool)setHasScheduledArrival:(id)arg1;
 
 @end
 

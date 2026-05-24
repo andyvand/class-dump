@@ -7,9 +7,6 @@
 @interface MRScrapbookImage
 {
     struct CGRect outer;
-    struct CGRect inner;
-    struct CGSize size;
-    double scale;
 }
 
 @end

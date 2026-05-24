@@ -9,7 +9,6 @@
 @interface NSLanguageContext
 {
     NSMutableDictionary *_dict;
-    void *_reserved;
 }
 
 + (id);

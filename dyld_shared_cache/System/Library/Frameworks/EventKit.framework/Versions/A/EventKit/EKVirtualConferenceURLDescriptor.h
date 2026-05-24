@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface EKVirtualConferenceURLDescriptor
 {
     NSString *_title;
-    NSURL *_URL;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)#ð!;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

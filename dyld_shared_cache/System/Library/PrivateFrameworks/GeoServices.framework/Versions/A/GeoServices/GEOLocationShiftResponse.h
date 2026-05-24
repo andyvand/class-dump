@@ -9,19 +9,19 @@
     struct GEOPixelPoint _shiftedPixel;
 }
 
-+ (_Bool)nMenuAffordance:(id)arg1;
++ (_Bool)setHasShouldDisableActionMenuAffordance:(id)arg1;
 - (struct GEOPixelPoint);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)tizeTilesPreloading:(struct _NSZone *)arg1;
+- (id)setPrioritizeTilesPreloading:(struct _NSZone *)arg1;
 - (id)T@"GEOABConfigValue",&,N;
 - (id)GEORegionalResourcesDirectory for State Capture:%@ /* Error: Ran out of types for this method. */;
 - (id);

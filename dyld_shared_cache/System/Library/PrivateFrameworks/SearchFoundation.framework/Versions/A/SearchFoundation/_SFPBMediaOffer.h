@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBActionItem, _SFPBImage;
+@class _SFPBActionItem;
 
 @interface _SFPBMediaOffer
 {
     _Bool _isEnabled;
-    _SFPBActionItem *_actionItem;
-    NSString *_sublabel;
-    NSString *_offerIdentifier;
-    _SFPBImage *_image;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)personContext;
+- (id)n required to be called before creating AppPrivateData;
 - (void);
 - (id);
 - (id);
@@ -38,18 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBActionItem *actionItem; // @synthesize actionItem=_actionItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *offerIdentifier; // @synthesize offerIdentifier=_offerIdentifier;
-@property(copy, nonatomic) NSString *sublabel; // @synthesize sublabel=_sublabel;
-@property(readonly) Class superclass;
 
 @end
 

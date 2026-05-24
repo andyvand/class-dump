@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaPlaybackAction, NSArray;
+@class HMDMediaPlaybackAction;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaPlaybackActionAsCharacteristicWriteRequests
 {
     HMDMediaPlaybackAction *_residualAction;
-    NSArray *_characteristicWriteRequests;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)LE;
+- (void)CONFIRM_EXECUTE_SECURE_TRIGGER_TITLE;
 
 // Remaining properties
-@property(readonly) NSArray *characteristicWriteRequests; // @synthesize characteristicWriteRequests=_characteristicWriteRequests;
 @property(readonly) HMDMediaPlaybackAction *residualAction; // @synthesize residualAction=_residualAction;
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSString;
 
 @protocol MTFeedChapter
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkBackgroundColor;
-@property(readonly, nonatomic) NSNumber *artworkHeight;
-@property(readonly, nonatomic) NSString *artworkTemplateURL;
-@property(readonly, nonatomic) NSNumber *artworkWidth;
-@property(readonly, nonatomic) long long chapterTypeIntValue;
 @property(readonly, nonatomic) NSString *id;
-@property(readonly, nonatomic) NSData *timeframesData;
-@property(readonly, nonatomic) NSString *title;
 @end
 

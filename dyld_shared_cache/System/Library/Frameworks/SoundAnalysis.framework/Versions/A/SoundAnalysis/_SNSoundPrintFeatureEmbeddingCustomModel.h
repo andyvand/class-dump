@@ -7,9 +7,6 @@
 @interface _SNSoundPrintFeatureEmbeddingCustomModel
 {
     id modelDescription;
-    id model;
-    id outerToInnerInputFeatureNameMappings;
-    id outerToInnerOutputFeatureNameMappings;
 }
 
 - (id);

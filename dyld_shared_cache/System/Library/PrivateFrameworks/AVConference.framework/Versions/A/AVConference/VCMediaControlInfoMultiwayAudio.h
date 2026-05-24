@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface VCMediaControlInfoMultiwayAudio : VCMediaControlInfo
 {
     unsigned int _controlInfoROC;
-    unsigned int _controlInfoMKI;
 }
 
-- (int);
+- (int)_;
 - (int);
 - (id);
 - (_Bool);

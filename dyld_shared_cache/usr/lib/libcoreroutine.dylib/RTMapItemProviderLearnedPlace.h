@@ -6,38 +6,29 @@
 
 #import <coreroutine/RTMapItemProviderBase.h>
 
-@class NSString, RTLearnedLocationStore, RTMapItemProviderLearnedPlaceParameters;
+@class RTLearnedLocationStore;
 
 @interface RTMapItemProviderLearnedPlace : RTMapItemProviderBase
 {
     RTLearnedLocationStore *_learnedLocationStore;
-    RTMapItemProviderLearnedPlaceParameters *_parameters;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)2;
 - (void);
 - (id)(;
 - (void)icted context requests, %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(readonly, copy, nonatomic) RTMapItemProviderLearnedPlaceParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

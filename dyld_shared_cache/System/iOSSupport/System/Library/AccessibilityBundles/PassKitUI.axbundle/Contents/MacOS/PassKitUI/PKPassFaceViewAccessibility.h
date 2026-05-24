@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)included in accessibility label;
 - (void);
 - (void);
 - (void);

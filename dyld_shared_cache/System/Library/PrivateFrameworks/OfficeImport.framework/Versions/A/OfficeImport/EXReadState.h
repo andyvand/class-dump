@@ -6,40 +6,12 @@
 
 #import <OfficeImport/OCXReadState.h>
 
-@class CXNamespace, ECColumnWidthConvertor, EDReference, EDResources, EDSheet, EDWorkbook, EXOAVState, EXOfficeArtState, NSMutableArray, NSMutableDictionary, OCPPackagePart;
 @protocol TCCancelDelegate;
 
 __attribute__((visibility("hidden")))
 @interface EXReadState : OCXReadState
 {
     unsigned int mCurrentSheetIndex;
-    EDSheet *mCurrentSheet;
-    unsigned long long mCellStyleXfsOffset;
-    double mDefaultColumnWidth;
-    double mDefaultRowHeight;
-    OCPPackagePart *mCurrentPart;
-    OCPPackagePart *mWorkbookPart;
-    struct map<long, unsigned long, std::less<long>, std::allocator<std::pair<const long, unsigned long>>> mSharedFormulasMap;
-    NSMutableArray *mArrayedFormulas;
-    EDReference *mSheetDimension;
-    EXOfficeArtState *mOfficeArtState;
-    EXOAVState *mOAVState;
-    _Bool mMaxColumnsWarned;
-    _Bool mMaxRowsWarned;
-    _Bool mIsPredefinedTableStylesRead;
-    NSMutableDictionary *mReferenceForCommentTextBox;
-    _Bool mIsPredefinedDxfsBeingRead;
-    struct _xmlNs *mRelationshipNS;
-    ECColumnWidthConvertor *mColumnWidthConvertor;
-    NSMutableArray *mLegacyDrawables;
-    EDWorkbook *mWorkbook;
-    EDResources *mResources;
-    id <TCCancelDelegate> mCancelDelegate;
-    CXNamespace *mEXSpreadsheetMLNamespace;
-    CXNamespace *mEXSpreadsheetDrawingNamespace;
-    CXNamespace *mEXSpreadsheetRelationsNamespace;
-    unsigned int mCurrentRowMinColumnIndex;
-    unsigned int mCurrentRowMaxColumnIndex;
 }
 
 - (id);
@@ -62,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -91,18 +63,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (double);
+- (double)C;
 - (id);
-- (void);
+- (void)J	;
 - (id)4$1Â0@ù
 × ;
 - (_Bool)¶d¶;
 - (void)ÿÿ*;
 
 // Remaining properties
-@property(retain, nonatomic) CXNamespace *EXSpreadsheetDrawingNamespace; // @synthesize EXSpreadsheetDrawingNamespace=mEXSpreadsheetDrawingNamespace;
-@property(retain, nonatomic) CXNamespace *EXSpreadsheetMLNamespace; // @synthesize EXSpreadsheetMLNamespace=mEXSpreadsheetMLNamespace;
-@property(retain, nonatomic) CXNamespace *EXSpreadsheetRelationsNamespace; // @synthesize EXSpreadsheetRelationsNamespace=mEXSpreadsheetRelationsNamespace;
 @property(readonly, nonatomic) id <TCCancelDelegate> cancelDelegate; // @synthesize cancelDelegate=mCancelDelegate;
 
 @end

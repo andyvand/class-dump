@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOperationGroup, NSDate, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSDate, NSObject;
+@protocol OS_os_log;
 
 @interface WBSCloudKitOperationRetryManager
 {
     NSDate *_dateRetryWasFirstRequested;
-    NSObject<OS_os_log> *_log;
-    CKOperationGroup *_operationGroup;
-    double _timeout;
-    unsigned long long _numberOfRetries;
-    NSObject<OS_dispatch_queue> *_scheduleQueue;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)S;
 - (void);
 - (id);
 - (void);
@@ -30,16 +25,12 @@
 - (id);
 - (id)
 × ;
-- (double)ype:queryId: /* Error: Ran out of types for this method. */;
+- (double)initWithInput:triggerEvent:indexType:queryId: /* Error: Ran out of types for this method. */;
 - (void)$(;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) unsigned long long numberOfRetries; // @synthesize numberOfRetries=_numberOfRetries;
-@property(retain, nonatomic) CKOperationGroup *operationGroup; // @synthesize operationGroup=_operationGroup;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *scheduleQueue; // @synthesize scheduleQueue=_scheduleQueue;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

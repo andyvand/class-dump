@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, UITouch, UIWindow;
-
 @interface UIKBTouchState
 {
     double _timestamp;
-    long long _phase;
-    UIWindow *_window;
-    double _pathMajorRadius;
-    unsigned long long _pathIndex;
-    NSUUID *_touchUUID;
-    unsigned long long _tapCount;
-    long long _inputSource;
-    UITouch *_uiTouch;
-    struct CGPoint _locationInWindow;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Ignoring request.;
++ (id)ltered as:(id)arg1 %lld;
++ (id)bailing;
++ (id)ssage is a message from me, not processing for junk:(id)arg1 %@;
++ (id)ator, not processing for junk;
++ (id)Kicking off deleted of recordIDs %@;
 + (void);
 - (id);
 - (double);
 - (id);
 - (long long);
-- (long long);
+- (long long)_statusOrganizationAddress;
 - (id);
 - (double)!ÄBùQY1Â0@ù
 × ;
@@ -40,22 +29,13 @@
 × ;
 - (struct CGPoint)!`EùQbð1Â0@ù
 × ;
-- (struct CGPoint)MagnifyingGlass;
-- (id)rceSceneSpecification;
+- (struct CGPoint)_updateColorForMagnifyingGlass;
+- (id)_UIIntelligenceLightSourceSceneSpecification;
 - (unsigned long long)IDoubleTapInteraction.tap;
 - (void)Ð¬f;
 
 // Remaining properties
-@property(readonly, nonatomic) long long inputSource; // @synthesize inputSource=_inputSource;
-@property(readonly, nonatomic) struct CGPoint locationInWindow; // @synthesize locationInWindow=_locationInWindow;
-@property(readonly, nonatomic) unsigned long long pathIndex; // @synthesize pathIndex=_pathIndex;
-@property(readonly, nonatomic) double pathMajorRadius; // @synthesize pathMajorRadius=_pathMajorRadius;
-@property(readonly, nonatomic) long long phase; // @synthesize phase=_phase;
-@property(readonly, nonatomic) unsigned long long tapCount; // @synthesize tapCount=_tapCount;
 @property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) NSUUID *touchUUID; // @synthesize touchUUID=_touchUUID;
-@property(readonly, nonatomic) __weak UITouch *uiTouch; // @synthesize uiTouch=_uiTouch;
-@property(readonly, nonatomic) UIWindow *window; // @synthesize window=_window;
 
 @end
 

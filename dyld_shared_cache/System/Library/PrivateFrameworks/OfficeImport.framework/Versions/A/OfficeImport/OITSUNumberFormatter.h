@@ -4,43 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSLocale, NSMutableArray, NSMutableDictionary, NSString, OITSULocaleStructuredDictionary;
+@class NSLocale;
 
 __attribute__((visibility("hidden")))
 @interface OITSUNumberFormatter
 {
     NSLocale *_locale;
-    NSArray *_decimalFormatters;
-    NSDictionary *_currencyFormatters;
-    NSArray *_percentageFormatters;
-    NSArray *_scientificFormatters;
-    struct __CFNumberFormatter *_fractionFormatter;
-    NSString *_currencyString;
-    NSString *_percentageString;
-    NSString *_scientificString;
-    NSString *_decimalString;
-    NSString *_decimalSeparator;
-    NSString *_currencyDecimalSeparator;
-    NSString *_groupingSeparator;
-    NSString *_currencyGroupingSeparator;
-    NSString *_percentSymbol;
-    unsigned long long _groupingSize;
-    NSMutableArray *_transformedDecimalStrings;
-    NSMutableArray *_transformedCurrencyStrings;
-    NSMutableArray *_transformedPercentageStrings;
-    NSMutableArray *_transformedScientificStrings;
-    OITSULocaleStructuredDictionary *_harmonizedNumberFormatterSymbols;
-    NSMutableDictionary *_currencyCodeToSymbolMap;
-    NSMutableDictionary *_currencyCodeToHalfWidthSymbolMap;
-    NSString *_additionalCurrencyCode;
-    NSDictionary *_additionalCurrencyCodeFormatters;
 }
 
 + (id);
 + (id);
 + (int);
 + (int);
-+ (int);
++ (int)s";
 + (id);
 + (id);
 + (unsigned long long);
@@ -54,7 +30,7 @@ __attribute__((visibility("hidden")))
 + (unsigned short);
 + (id);
 + (id);
-+ (id);
++ (id)`;
 + (id);
 + (id);
 + (id);
@@ -64,9 +40,9 @@ __attribute__((visibility("hidden")))
 + (struct __CFNumberFormatter *);
 + (id);
 + (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)5;
 - (id);
 - (id);
 - (void);
@@ -81,7 +57,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)��;
 - (id);
 - (_Bool);
 - (id);

@@ -4,73 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMessage, NSDictionary, NSError, NSString, NSURL;
+@class NSDictionary;
 
 @interface CKTransientFileTransfer
 {
     _Bool fileIsAnimated;
-    _Bool thumbnail;
-    _Bool downloadable;
-    _Bool downloading;
-    _Bool reset;
-    _Bool fileDataReady;
-    _Bool rejected;
-    _Bool fileURLFinalized;
-    _Bool hideAttachment;
-    _Bool isDirectory;
-    _Bool isSticker;
-    _Bool _isIrisAsset;
-    _Bool isAdaptiveImageGlyph;
-    _Bool isFromMomentShare;
-    _Bool restoring;
-    _Bool isScreenshot;
-    NSDictionary *attributionInfo;
-    unsigned long long currentBytes;
-    NSError *error;
-    NSString *filename;
-    NSString *originalFilename;
-    NSURL *fileURL;
-    NSURL *thumbnailURL;
-    NSString *guid;
-    IMMessage *IMMessage;
-    NSDictionary *stickerUserInfo;
-    NSDictionary *transcoderUserInfo;
-    long long commSafetySensitive;
-    NSString *_irisVideoPath;
-    NSString *adaptiveImageGlyphContentIdentifier;
-    NSString *adaptiveImageGlyphContentDescription;
-    unsigned long long totalBytes;
-    NSURL *shareURL;
-    NSString *audioTranscriptionText;
-    long long updateReason;
-    unsigned long long stickerEffectType;
-    NSURL *animatedImageCacheURL;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)initWithSearchSuggestionsResponder:(id)arg1 searchString:performNLSearch:tokens:modernResultsOnly: /* Error: Ran out of types for this method. */;
+- (void)rchIndexable>",R,N,V_object;
+- (void)URL;
+- (_Bool)_TtCE7NotesUICSo29ICCalculateScrubberController15HoverController;
+- (_Bool)3;
+- (_Bool)ICAttachmentFindable;
+- (id)ICNoteTimelineSection;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool));
+- (void));
+- (id)(;
+- (_Bool)ta:image/png;base64,%@" alt="%@"> /* Error: Ran out of types for this method. */;
+- (id)ving this note will change who can read and edit it.;
+- (id)_ICTTNamedStyle_;
+- (id));
 - (unsigned long long);
 - (void);
 - (void);
 - (long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (long long);
@@ -84,65 +48,21 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)_;
 - (id);
 - (_Bool);
 - (id);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)CGRect={CGPoint=dd}{CGSize=dd}}24N^{CGRect={CGPoint=dd}{CGSize=dd}}32N^d40@48{_NSRange=QQ}56;
 - (id)gþÿîøÿmþÿldûÿLeûÿ8ùÿ;
 - (id);
 - (void)pple.systempreferences:com.apple.preference.security?Privacy_LocationServices /* Error: Ran out of types for this method. */;
 - (id)£å;
 
 // Remaining properties
-@property(retain, nonatomic) IMMessage *IMMessage; // @synthesize IMMessage;
-@property(readonly, copy, nonatomic) NSString *adaptiveImageGlyphContentDescription; // @synthesize adaptiveImageGlyphContentDescription;
-@property(readonly, copy, nonatomic) NSString *adaptiveImageGlyphContentIdentifier; // @synthesize adaptiveImageGlyphContentIdentifier;
-@property(readonly, copy, nonatomic) NSURL *animatedImageCacheURL; // @synthesize animatedImageCacheURL;
 @property(copy, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo;
-@property(readonly, nonatomic) NSString *audioTranscriptionText; // @synthesize audioTranscriptionText;
-@property(readonly, nonatomic) long long commSafetySensitive; // @synthesize commSafetySensitive;
-@property(readonly, nonatomic) unsigned long long currentBytes; // @synthesize currentBytes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDownloadable) _Bool downloadable; // @synthesize downloadable;
-@property(readonly, nonatomic, getter=isDownloading) _Bool downloading; // @synthesize downloading;
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error;
-@property(readonly, nonatomic, getter=isFileDataReady) _Bool fileDataReady; // @synthesize fileDataReady;
-@property(readonly, nonatomic) _Bool fileIsAnimated; // @synthesize fileIsAnimated;
-@property(readonly, copy, nonatomic) NSURL *fileURL; // @synthesize fileURL;
-@property(readonly, nonatomic, getter=isFileURLFinalized) _Bool fileURLFinalized; // @synthesize fileURLFinalized;
-@property(readonly, copy, nonatomic) NSString *filename; // @synthesize filename;
-@property(readonly, copy, nonatomic) NSString *guid; // @synthesize guid;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hideAttachment; // @synthesize hideAttachment;
-@property(readonly, copy, nonatomic) NSString *irisVideoPath; // @synthesize irisVideoPath=_irisVideoPath;
-@property(readonly, nonatomic) _Bool isAdaptiveImageGlyph; // @synthesize isAdaptiveImageGlyph;
-@property(readonly, nonatomic) _Bool isDirectory; // @synthesize isDirectory;
-@property(readonly, nonatomic) _Bool isFromMomentShare; // @synthesize isFromMomentShare;
-@property(readonly, nonatomic) _Bool isIrisAsset; // @synthesize isIrisAsset=_isIrisAsset;
-@property(readonly, nonatomic) _Bool isScreenshot; // @synthesize isScreenshot;
-@property(readonly, nonatomic) _Bool isSticker; // @synthesize isSticker;
-@property(readonly, copy, nonatomic) NSString *originalFilename; // @synthesize originalFilename;
-@property(readonly, nonatomic) long long previewGenerationState;
-@property(readonly, nonatomic, getter=isRejected) _Bool rejected; // @synthesize rejected;
-@property(readonly, nonatomic, getter=isReset) _Bool reset; // @synthesize reset;
-@property(readonly, nonatomic, getter=isRestoring) _Bool restoring; // @synthesize restoring;
-@property(readonly, copy, nonatomic) NSURL *shareURL; // @synthesize shareURL;
-@property(nonatomic) unsigned long long stickerEffectType; // @synthesize stickerEffectType;
-@property(readonly, copy, nonatomic) NSDictionary *stickerUserInfo; // @synthesize stickerUserInfo;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isThumbnail) _Bool thumbnail; // @synthesize thumbnail;
-@property(readonly, copy, nonatomic) NSURL *thumbnailURL; // @synthesize thumbnailURL;
-@property(readonly, nonatomic) unsigned long long totalBytes; // @synthesize totalBytes;
-@property(readonly, copy, nonatomic) NSDictionary *transcoderUserInfo; // @synthesize transcoderUserInfo;
-@property(readonly, nonatomic) long long updateReason; // @synthesize updateReason;
 
 @end
 

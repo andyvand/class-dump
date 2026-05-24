@@ -6,15 +6,12 @@
 
 #import <AVConference/VCConnectionManager.h>
 
-@class NSString;
 @protocol VCConnectionProtocol;
 
 __attribute__((visibility("hidden")))
 @interface VCConnectionManagerLegacy : VCConnectionManager
 {
     id <VCConnectionProtocol> _pendingPrimaryConnection;
-    id <VCConnectionProtocol> _pendingSecondaryConnection;
-    NSString *_relayConnectionID;
 }
 
 - (int);
@@ -24,25 +21,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (int);
 - (int);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void)_;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (int);
-- (int);
-- (id);
-- (id);
-- (id);
+- (int);
 - (int);
 - (id);
 - (id);
-- (unsigned int);
+- (id);
+- (int);
+- (id);
+- (id);
+- (unsigned int);
 - (unsigned int);
 - (void);
 - (void);
@@ -55,8 +52,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) id <VCConnectionProtocol> pendingPrimaryConnection; // @synthesize pendingPrimaryConnection=_pendingPrimaryConnection;
-@property(retain, nonatomic) id <VCConnectionProtocol> pendingSecondaryConnection; // @synthesize pendingSecondaryConnection=_pendingSecondaryConnection;
-@property(copy, nonatomic) NSString *relayConnectionID; // @synthesize relayConnectionID=_relayConnectionID;
 
 @end
 

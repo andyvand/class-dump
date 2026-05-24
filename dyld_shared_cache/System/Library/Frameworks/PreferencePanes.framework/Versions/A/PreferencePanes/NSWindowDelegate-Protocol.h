@@ -4,15 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification, NSWindow;
+@class NSArray, NSNotification, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (NSArray *)c;
+- (void)webView:(NSNotification *)arg1 decidePolicyForNavigationResponse:decisionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void)impressionTimes;
+- (void)y;
 - (_Bool);
 - (void)@ù
 × ;
-- (void)angeOcclusionState:(NSNotification *)arg1;
-- (struct CGSize)etFloat:(NSWindow *)arg1 forKey:(struct CGSize)arg2;
+- (void)windowDidChangeOcclusionState:(NSNotification *)arg1;
+- (struct CGSize)setFloat:(NSWindow *)arg1 forKey:(struct CGSize)arg2;
 @end
 

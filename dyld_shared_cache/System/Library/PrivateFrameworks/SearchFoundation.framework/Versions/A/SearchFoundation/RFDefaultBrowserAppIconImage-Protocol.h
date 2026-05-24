@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @protocol RFDefaultBrowserAppIconImage
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(nonatomic) int image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

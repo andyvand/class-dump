@@ -6,28 +6,25 @@
 
 #import <TextInput_ja/TIKeyboardInputManager_ja_Base.h>
 
-@class NSArray, NSString, TIKeyboardCandidate, TIWordSearch;
+@class TIKeyboardCandidate, TIWordSearch;
 @protocol TIMarkedTextBuffer;
 
 @interface TIKeyboardInputManager_ja_Inline : TIKeyboardInputManager_ja_Base
 {
     TIWordSearch *_wordSearch;
     _Bool _romajiMode;
-    id <TIMarkedTextBuffer> _markedTextBuffer;
-    TIKeyboardCandidate *_inlineCandidate;
-    NSArray *_segments;
 }
 
 - (void);
-- (_Bool);
+- (_Bool));
 - (void);
-- (void);
+- (void)�;
 - (_Bool);
 - (void);
 - (unsigned int);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -48,25 +45,22 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (unsigned int);
+- (id);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
-- (unsigned int);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)blendBackgroundBlur;
 - (unsigned long long);
-- (id);
-- (void);
+- (id)groupedCandidatesFromCandidates:usingSortingMethod: /* Error: Ran out of types for this method. */;
+- (void)appendString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) TIKeyboardCandidate *inlineCandidate; // @synthesize inlineCandidate=_inlineCandidate;
 @property(retain, nonatomic) id <TIMarkedTextBuffer> markedTextBuffer; // @synthesize markedTextBuffer=_markedTextBuffer;
-@property(copy, nonatomic) NSString *remainingInput;
-@property(nonatomic) _Bool romajiMode; // @synthesize romajiMode=_romajiMode;
-@property(retain, nonatomic) NSArray *segments; // @synthesize segments=_segments;
 
 @end
 

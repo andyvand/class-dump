@@ -4,6 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString, WidgetKit.ControlsConfigurationXPCContainer, WidgetKit.WidgetRelevanceRequest;
+
 @protocol WidgetKit.HostToExtensionXPCInterface
+- (void)allowsDocumentAssembly;
+- (void)akAnnotationIsSelected;
+- (void)ationFrame:withAnimationDuration:curve: /* Error: Ran out of types for this method. */;
+- (void)addPageLayerEffect:(NSString *)arg1;
+- (void)addOperationWithBlock:(WidgetKit.WidgetRelevanceRequest *)arg1;
+- (void)addObserverForName:(NSArray *)arg1 object:(_Bool)arg2 queue:(void (^)(NSError *))arg3 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)addObjectsFromArray:(NSArray *)arg1;
+- (void)addNormalAndDownAppearanceToDictionaryRef:(void (^)(NSArray *))arg1;
+- (void)addNeedsAppearanceToDictionaryRef:(NSArray *)arg1;
+- (void)addNameDefaultValueToDictionaryRef:(void (^)(NSXPCListenerEndpoint *, NSData *, NSError *))arg1;
+- (void)addModificationDateToDictionaryRef:(void (^)(WidgetKit.DescriptorFetchResult *))arg1;
+- (void)addFormFieldGroup:(NSString *)arg1;
+- (void)addDefaultAppearanceDictionaryRef:(WidgetKit.ControlsConfigurationXPCContainer *)arg1;
+- (void);
 @end
 

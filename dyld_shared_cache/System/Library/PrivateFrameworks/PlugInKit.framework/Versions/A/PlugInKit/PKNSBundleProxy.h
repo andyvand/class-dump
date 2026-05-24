@@ -4,40 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary, NSString, NSURL;
+@class NSBundle;
 
 @interface PKNSBundleProxy
 {
     NSBundle *__underlyingNSBundle;
 }
 
-- (id);
+- (id)1*;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (Class);
+- (id)k,;
+- (Class)_ISStore_removeItemWithUUID:domain:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSBundle *_underlyingNSBundle; // @synthesize _underlyingNSBundle=__underlyingNSBundle;
-@property(readonly, copy) NSURL *builtInPlugInsURL;
-@property(readonly, copy) NSString *bundleIdentifier;
-@property(readonly, copy) NSURL *bundleURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSDictionary *infoDictionary;
-@property(readonly, copy) NSDictionary *localizedInfoDictionary;
-@property(readonly) Class principalClass;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface SKMediaKitFSInfo
@@ -16,12 +16,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)B;
 
 // Remaining properties
 @property(readonly) NSDictionary *fsInfo; // @synthesize fsInfo=_fsInfo;
-@property(readonly, nonatomic) NSString *fsType;
-@property(readonly, nonatomic) NSString *volumeName;
 
 @end
 

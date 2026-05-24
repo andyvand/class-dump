@@ -9,10 +9,6 @@
 @interface QCStreamProvider_Core3D : QCStreamProvider
 {
     struct __C3DGeometry *_provider;
-    int _meshComponent;
-    unsigned long long _count;
-    unsigned long long _elementSize;
-    int _type;
 }
 
 + (_Bool);
@@ -23,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (int);
+- (int)xture || [texture conformsToProtocol:@protocol(MTLTexture)] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (unsigned long long);

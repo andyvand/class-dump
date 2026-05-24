@@ -4,56 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeManager, NSObject, NSString, NSUUID, SFDevice, SFDeviceOperationCDPSetup, SFSession;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFDeviceSetupAppleTVSession
 {
     _Bool _activateCalled;
-    int _finishState;
-    _Bool _invalidateCalled;
-    int _proxSetupActiveToken;
-    _Bool _useSFSession;
-    int _preflightAppleAccountState;
-    int _preflightWiFiState;
-    _Bool _wifiIsCaptive;
-    int _preflightiTunesState;
-    int _preflightHomeKitState;
-    NSString *_iTunesUserID;
-    SFSession *_sfSession;
-    int _sfSessionState;
-    int _preAuthState;
-    int _basicConfigState;
-    _Bool _iCloudAccountMatches;
-    int _pairSetupState;
-    double _pairSetupSecs;
-    _Bool _cdpEnabled;
-    SFDeviceOperationCDPSetup *_cdpSetupOperation;
-    double _cdpSetupSecs;
-    int _cdpState;
-    HMHomeManager *_homeManager;
-    _Bool _doCaptiveJoin;
-    NSString *_appleTVBuild;
-    NSString *_appleTVModel;
-    NSString *_appleTVModelNumber;
-    NSUUID *_sessionID;
-    unsigned long long _startUserWaitTicks;
-    double _userWaitSeconds;
-    int _numberOfAppleTVsOnAccount;
-    int _numberOfHomePodsOnAccount;
-    _Bool _metricsReported;
-    _Bool _isCLIMode;
-    int _bonjourTestState;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    SFDevice *_peerDevice;
-    unsigned long long _peerFeatureFlags;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _promptForHomeHandler;
-    CDUnknownBlockType _promptForHomeiCloudHandler;
-    CDUnknownBlockType _promptForPINHandler;
-    CDUnknownBlockType _promptForRoomHandler;
-    CDUnknownBlockType _promptForCaptiveNetworkHandler;
-    NSString *_forcedPasscode;
 }
 
 - (void);
@@ -92,11 +48,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Aa;
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int);
 - (void);
 - (void);
 - (void);
@@ -117,18 +73,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) int bonjourTestState; // @synthesize bonjourTestState=_bonjourTestState;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) NSString *forcedPasscode; // @synthesize forcedPasscode=_forcedPasscode;
-@property(nonatomic) _Bool isCLIMode; // @synthesize isCLIMode=_isCLIMode;
-@property(retain, nonatomic) SFDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(nonatomic) unsigned long long peerFeatureFlags; // @synthesize peerFeatureFlags=_peerFeatureFlags;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForCaptiveNetworkHandler; // @synthesize promptForCaptiveNetworkHandler=_promptForCaptiveNetworkHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForHomeHandler; // @synthesize promptForHomeHandler=_promptForHomeHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForHomeiCloudHandler; // @synthesize promptForHomeiCloudHandler=_promptForHomeiCloudHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForPINHandler; // @synthesize promptForPINHandler=_promptForPINHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForRoomHandler; // @synthesize promptForRoomHandler=_promptForRoomHandler;
 
 @end
 

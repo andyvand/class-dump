@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface DAECalendarAvailabilitySpan
 {
     long long _type;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
-+ (_Bool);
++ (_Bool)heduleSafeguardSubmission;
 - (id);
 - (id);
 - (id);
@@ -25,8 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _LSStackBacktrace
 {
     struct vector<void *, std::allocator<void *>> _frames;
-    NSString *_description;
 }
 
-+ (_Bool);
++ (_Bool)4@0:8Q16 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

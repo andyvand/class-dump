@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRShowRecentlyDeletedMonitorableDataView
 {
     id store;
-    id accountID;
 }
 
 @end

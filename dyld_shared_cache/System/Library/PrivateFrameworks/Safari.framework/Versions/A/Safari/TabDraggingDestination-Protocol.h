@@ -5,5 +5,8 @@
 //
 
 @protocol TabDraggingDestination
+
+@optional
+- (unsigned long long);
 @end
 

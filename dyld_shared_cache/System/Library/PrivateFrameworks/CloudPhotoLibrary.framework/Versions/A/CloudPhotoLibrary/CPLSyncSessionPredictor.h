@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLSyncSessionPrediction, NSHashTable, NSString;
+@class NSString;
 
 @interface CPLSyncSessionPredictor
 {
     struct os_unfair_lock_s _lock;
-    NSHashTable *_observers;
-    CPLSyncSessionPrediction *_currentPrediction;
-    NSString *_identifier;
 }
 
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void)oken:(id)arg1;
-- (id);
-- (void)$Aùªq;
-- (id);
+- (void)!;
+- (id)h;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) CPLSyncSessionPrediction *currentPrediction; // @synthesize currentPrediction=_currentPrediction;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

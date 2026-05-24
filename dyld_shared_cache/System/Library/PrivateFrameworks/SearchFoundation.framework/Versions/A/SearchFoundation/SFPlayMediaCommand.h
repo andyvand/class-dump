@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFAudioData, SFCommandReference, SFMediaMetadata, SFTopic;
+@class SFMediaMetadata;
 
 @interface SFPlayMediaCommand : SFCommand
 {
@@ -14,32 +14,12 @@
         unsigned int playbackLocation:1;
         unsigned int shouldPause:1;
     } _has;
-    _Bool _shouldPause;
-    int _playbackLocation;
-    SFMediaMetadata *_mediaMetadata;
-    SFAudioData *_audioData;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) SFAudioData *audioData; // @synthesize audioData=_audioData;
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFMediaMetadata *mediaMetadata; // @synthesize mediaMetadata=_mediaMetadata;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(nonatomic) int playbackLocation; // @synthesize playbackLocation=_playbackLocation;
-@property(nonatomic) _Bool shouldPause; // @synthesize shouldPause=_shouldPause;
-@property(readonly) Class superclass;
 
 @end
 

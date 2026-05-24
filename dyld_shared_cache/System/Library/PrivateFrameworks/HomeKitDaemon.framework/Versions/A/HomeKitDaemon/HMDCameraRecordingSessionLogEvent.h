@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingSessionLogEvent
 {
     _Bool _didReadFirstFragment;
-    NSUUID *_accessoryUUID;
-    long long _retryCount;
 }
 
 + (_Bool);
-- (void);
+- (void)hot:(_Bool)arg1 mergeOptions:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
-- (id);
+- (void)56@0:(id)arg1 8@16@24Q32d40d48;
+- (id)tagNodes;
 - (unsigned long long);
 - (id);
 - (id);
@@ -28,27 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 @property(retain, nonatomic) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didReadFirstFragment; // @synthesize didReadFirstFragment=_didReadFirstFragment;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(nonatomic) long long retryCount; // @synthesize retryCount=_retryCount;
-@property(readonly) Class superclass;
 
 @end
 

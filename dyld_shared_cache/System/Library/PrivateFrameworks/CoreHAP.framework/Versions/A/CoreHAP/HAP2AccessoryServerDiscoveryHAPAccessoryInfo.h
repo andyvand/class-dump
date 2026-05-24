@@ -6,44 +6,28 @@
 
 #import <CoreHAP/HAP2AccessoryServerDiscoveryAccessoryInfo.h>
 
-@class HMFVersion, NSData, NSString;
+@class NSString;
 
 @interface HAP2AccessoryServerDiscoveryHAPAccessoryInfo : HAP2AccessoryServerDiscoveryAccessoryInfo
 {
     unsigned char _status;
-    NSString *_name;
-    NSString *_model;
-    unsigned long long _category;
-    unsigned long long _configurationNumber;
-    unsigned long long _stateNumber;
-    HMFVersion *_protocolVersion;
-    unsigned long long _featureFlags;
-    NSData *_setupHash;
 }
 
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)windowWillMiniaturize: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned char);
 - (id)@0:8C16@20@28q36@?44 /* Error: Ran out of types for this method. */;
 - (void)r: /* Error: Ran out of types for this method. */;
-- (unsigned long long)r: /* Error: Ran out of types for this method. */;
+- (unsigned long long)failedToConnectHAPPeripheral:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long category; // @synthesize category=_category;
-@property(readonly, nonatomic) unsigned long long configurationNumber; // @synthesize configurationNumber=_configurationNumber;
-@property(readonly, nonatomic) unsigned long long featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(readonly, nonatomic) NSString *model; // @synthesize model=_model;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) HMFVersion *protocolVersion; // @synthesize protocolVersion=_protocolVersion;
-@property(readonly, nonatomic) NSData *setupHash; // @synthesize setupHash=_setupHash;
-@property(readonly, nonatomic) unsigned long long stateNumber; // @synthesize stateNumber=_stateNumber;
-@property(readonly, nonatomic) unsigned char status; // @synthesize status=_status;
 
 @end
 

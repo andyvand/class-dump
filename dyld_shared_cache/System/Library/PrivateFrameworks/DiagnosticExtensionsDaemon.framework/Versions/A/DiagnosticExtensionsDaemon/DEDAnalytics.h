@@ -11,13 +11,13 @@
 + (void);
 + (void);
 + (void);
++ (void)_rollTestAccountIdentitySetForService:(id)arg1 forBackingExplicitCredentialsAccount:(unsigned long long)arg2 oldIdentityID:newIdentityID:withError: /* Error: Ran out of types for this method. */;
++ (void)record_identifier;
 + (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)_normalizedAdaptiveVisibleFrame;
 + (id);
 
 @end

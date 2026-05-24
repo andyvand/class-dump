@@ -6,6 +6,6 @@
 
 @interface UnknownClass (IconAdditions)
 - (id);
-- (id);
+- (id);
 @end
 

@@ -7,17 +7,13 @@
 @interface PodcastsUI.ModalSheet
 {
     id standardEdgeSpacing;
-    id standardControlSpacing;
-    id actions;
-    id buttonToAction;
-    id $__lazy_storage_$_marginGuide;
 }
 
-- (void);
+- (void)`;
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)h;
 
 @end
 

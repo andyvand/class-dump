@@ -6,13 +6,11 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 @interface CKSQLiteTOCImageInfoEntry : CKSQLiteTableEntry
 {
     NSNumber *_imageID;
-    NSString *_name;
-    NSUUID *_uuid;
 }
 
 + (Class);
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (_Bool);
 - (id);
 - (void);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *imageID; // @synthesize imageID=_imageID;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

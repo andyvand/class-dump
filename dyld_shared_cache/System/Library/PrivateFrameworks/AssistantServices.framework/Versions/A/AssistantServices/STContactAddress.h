@@ -6,17 +6,12 @@
 
 #import <AssistantServices/STSiriModelObject.h>
 
-@class NSString, NSURL;
-
 @interface STContactAddress : STSiriModelObject
 {
     long long _type;
-    NSString *_stringValue;
-    NSURL *_contactIdentifier;
-    NSString *_contactInternalGUID;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -28,7 +23,7 @@
 - (id);
 - (void);
 - (id);
-- (void)ckBoost:isSpeaker:model: /* Error: Ran out of types for this method. */;
+- (void)_findSidekickBoost:isSpeaker:model: /* Error: Ran out of types for this method. */;
 
 @end
 

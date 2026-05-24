@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NUJobQueue;
-@protocol OS_dispatch_queue;
+@class NSMutableArray, NSString;
 
 @interface NUJobPriorityQueue
 {
     NSMutableArray *_jobs;
-    _Bool _needSort;
-    NUJobQueue *_owner;
-    NSObject<OS_dispatch_queue> *_runQueue;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSString *_currentlyExecutingJobName;
-    _Bool _isRunning;
-    NSString *_name;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)hasAudioRoute;
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -39,7 +31,6 @@
 - (void)ÄEhFI¨jkTl(nHoðq8ssx0°z;
 
 // Remaining properties
-@property(readonly) long long count;
 @property(readonly) NSString *name; // @synthesize name=_name;
 
 @end

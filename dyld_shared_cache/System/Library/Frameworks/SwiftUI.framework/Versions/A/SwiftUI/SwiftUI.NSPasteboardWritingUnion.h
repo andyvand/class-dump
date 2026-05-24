@@ -9,7 +9,7 @@
     id items;
 }
 
-- (unsigned long long);
+- (unsigned long long)Rb;
 - (id);
 - (id);
 - (id);

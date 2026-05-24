@@ -4,28 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MPImageDescriptor_LegacySupportDoNotChange
 {
     float _quality;
-    float _nextLeafDescriptorDistance;
-    float _previousLeafDescriptorDistance;
-    float _nextLeafTotalDistance;
-    float _previousLeafTotalDistance;
-    long long _descriptorId;
-    NSString *_externalImageId;
-    long long _exifTimestamp;
-    void *_colorGaborDescriptor;
-    void *_sceneClassifierDescriptor;
-    void *_imageRegistrationDescriptor;
-    long long _previousLeafId;
-    long long _nextLeafId;
-    long long _nextLeafTimestampDistance;
-    long long _previousLeafTimestampDistance;
-    NSData *_rawColorGaborDescriptor;
-    NSString *_imageFilePath;
 }
 
 + (_Bool);
@@ -33,19 +15,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)[�(;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (void *);
-- (id);
+- (id);
 - (float);
 - (long long);
 - (long long);
 - (float);
-- (float);
+- (float);
 - (long long);
 - (long long);
 - (float);
@@ -56,29 +38,13 @@ __attribute__((visibility("hidden")))
 - (void *);
 - (id);
 - (void);
-- (id);
+- (id)_completedWithResult:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)tput for name: /* Error: Ran out of types for this method. */;
 - (float)±ái?mçk?«m?-!o?¥Np?4q?ÁÊq?×r?×r?ÁÊq?4q?¥Np?-!o?«m?mçk?±ái?Þg?ôýd?&b?_?ÿ²[?~X?tFT?û:P?ûK?4G?ÞB?_>?Þ9?Ý3?r.?)?ó#?æ?$?aT?q??  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) void *colorGaborDescriptor; // @synthesize colorGaborDescriptor=_colorGaborDescriptor;
 @property(readonly) long long descriptorId; // @synthesize descriptorId=_descriptorId;
-@property(readonly) long long exifTimestamp; // @synthesize exifTimestamp=_exifTimestamp;
-@property(readonly) NSString *externalImageId; // @synthesize externalImageId=_externalImageId;
-@property(readonly) NSString *imageFilePath; // @synthesize imageFilePath=_imageFilePath;
-@property(readonly) void *imageRegistrationDescriptor; // @synthesize imageRegistrationDescriptor=_imageRegistrationDescriptor;
-@property float nextLeafDescriptorDistance; // @synthesize nextLeafDescriptorDistance=_nextLeafDescriptorDistance;
-@property long long nextLeafId; // @synthesize nextLeafId=_nextLeafId;
-@property long long nextLeafTimestampDistance; // @synthesize nextLeafTimestampDistance=_nextLeafTimestampDistance;
-@property float nextLeafTotalDistance; // @synthesize nextLeafTotalDistance=_nextLeafTotalDistance;
-@property float previousLeafDescriptorDistance; // @synthesize previousLeafDescriptorDistance=_previousLeafDescriptorDistance;
-@property long long previousLeafId; // @synthesize previousLeafId=_previousLeafId;
-@property long long previousLeafTimestampDistance; // @synthesize previousLeafTimestampDistance=_previousLeafTimestampDistance;
-@property float previousLeafTotalDistance; // @synthesize previousLeafTotalDistance=_previousLeafTotalDistance;
-@property(readonly) float quality; // @synthesize quality=_quality;
-@property(readonly) NSData *rawColorGaborDescriptor; // @synthesize rawColorGaborDescriptor=_rawColorGaborDescriptor;
-@property(readonly) void *sceneClassifierDescriptor; // @synthesize sceneClassifierDescriptor=_sceneClassifierDescriptor;
 
 @end
 

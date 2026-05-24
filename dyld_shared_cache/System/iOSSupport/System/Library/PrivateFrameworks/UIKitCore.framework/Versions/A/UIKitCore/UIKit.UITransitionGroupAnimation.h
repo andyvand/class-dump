@@ -7,8 +7,6 @@
 @interface UIKit.UITransitionGroupAnimation
 {
     id hasAnyAnimationRetargeted;
-    id completionHandler;
-    id pendingAnimations;
 }
 
 @end

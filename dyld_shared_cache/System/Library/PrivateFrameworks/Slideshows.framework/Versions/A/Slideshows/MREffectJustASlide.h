@@ -11,43 +11,28 @@
 @interface MREffectJustASlide : MREffect
 {
     MRCroppingSprite *mSprite;
-    _Bool mForceIsOpaque;
-    double _panX;
-    double _panY;
-    double _scale;
-    double _rotation;
-    struct CGPoint _startSlideCenter;
-    double _startSlideScale;
-    double _startSlideRotation;
-    double _x0;
-    double _y0;
-    _Bool _pzrWasUpdated;
-    _Bool _pzrDoRotation;
-    _Bool _isInitialized;
-    _Bool _isInZoomMode;
-    _Bool _isFocuser;
 }
 
+- (void)envelopeStore:(_Bool)arg1 didFlushEnvelopesForEntries: /* Error: Ran out of types for this method. */;
+- (id)<FCNewsAppConfigurationManager>",&,N,V_appConfigurationManager;
 - (void);
-- (id);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
 - (void);
 - (double);
+- (double);
+- (double);
+- (_Bool);
+- (id);
+- (_Bool)y>"8;
+- (_Bool)PBEnvelope"16^B24;
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (double);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)keyedUnarchiverWithData:assetKeyDelegate:mediaProperties:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool isFocuser; // @synthesize isFocuser=_isFocuser;

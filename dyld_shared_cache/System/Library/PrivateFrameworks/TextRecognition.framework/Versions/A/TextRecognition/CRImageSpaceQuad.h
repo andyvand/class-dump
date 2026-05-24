@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CRImageSpaceQuad
 {
     struct CGPoint _topLeft;
-    struct CGPoint _topRight;
-    struct CGPoint _bottomRight;
-    struct CGPoint _bottomLeft;
 }
 
-+ (_Bool);
++ (_Bool)A
+;
 - (id);
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (_Bool);
-- (double);
+- (double)9;
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (CDStruct_1fe29af2);
+- (id);
+- (CDStruct_c27faaab);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -39,8 +35,8 @@
 - (_Bool);
 - (struct CGPoint);
 - (double);
-- (id);
-- (double);
+- (id)_trailingTopBorderView;
+- (double)_toggleAutoAttach: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -50,29 +46,13 @@
 - (struct CGRect);
 - (struct CGSize);
 - (struct CGPoint);
-- (_Bool);
-- (void);
-- (id);
-- (double)haracterSegmentedPathBuilderINS0_17CombinedBeamStateEEE;
+- (_Bool)#;
+- (void)ing shared URL for collaboration item %@;
+- (id);
+- (double)N15CoreRecognition7decoder29CharacterSegmentedPathBuilderINS0_17CombinedBeamStateEEE;
 
 // Remaining properties
 @property(readonly, nonatomic) double area;
-@property(readonly, nonatomic) double aspectRatio;
-@property(readonly, nonatomic) double baselineAngle;
-@property(readonly, nonatomic) struct CGPoint bottomLeft; // @synthesize bottomLeft=_bottomLeft;
-@property(readonly, nonatomic) struct CGPoint bottomRight; // @synthesize bottomRight=_bottomRight;
-@property(readonly, nonatomic) struct CGRect boundingBox;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGPoint midPoint;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGPoint topLeft; // @synthesize topLeft=_topLeft;
-@property(readonly, nonatomic) struct CGPoint topRight; // @synthesize topRight=_topRight;
 
 @end
 

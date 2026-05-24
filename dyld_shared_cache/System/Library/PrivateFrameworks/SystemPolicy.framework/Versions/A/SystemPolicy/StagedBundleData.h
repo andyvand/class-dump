@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BundleData, NSFileManager, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class BundleData, NSURL;
 
 @interface StagedBundleData
 {
     NSURL *_stagedUrl;
-    NSURL *_bundleUrl;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    BundleData *_stagedBundle;
-    BundleData *_bundle;
-    NSFileManager *_fileManager;
-    CDUnknownBlockType _reloadBlock;
-    CDUnknownBlockType _prepareBlock;
 }
 
-- (id);
+- (id)_TtC9PencilKitP33_45B1B8C2C17199CF2EF5F41F5CBE091B25SixChannelCompositeFilter;
 - (id);
 - (void);
 - (void);
@@ -28,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) BundleData *bundle; // @synthesize bundle=_bundle;
-@property(readonly, nonatomic) BundleData *stagedBundle; // @synthesize stagedBundle=_stagedBundle;
 
 @end
 

@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)didMoveSwipeView:(id)arg1 toPosition:(id)arg2;
-- (void)rdown;
-- (void)riggerRenameAction;
+- (void)platterMenuDynamicsController:(id)arg1 didMoveSwipeView:(id)arg2 toPosition: /* Error: Ran out of types for this method. */;
+- (void)_teardown;
+- (void)_didTriggerRenameAction;
 - (void)tionOptionDefinitionPayloadStorage.swift;
 
 @end

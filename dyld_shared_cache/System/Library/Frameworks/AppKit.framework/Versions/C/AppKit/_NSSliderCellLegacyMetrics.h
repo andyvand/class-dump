@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSSliderCellLegacyMetrics
 {
     CDStruct_6717dab8 _state;
 }
 
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)?0^{?=(?=@?@?)B}8;
+- (struct CGRect)AppleAuthCPRelay;
+- (struct CGRect)erties failed for '%s':(_Bool)arg1 %s;
+- (struct CGRect)V7EA;
 - (struct CGRect);
 - (struct CGRect);
 - (struct NSEdgeInsets);
@@ -27,22 +25,15 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (double);
 - (double);
-- (struct CGRect);
-- (double);
-- (void);
-- (CDStruct_6717dab8);
-- (id)me:(struct _NSZone *)arg1 bundle: /* Error: Ran out of types for this method. */;
+- (struct CGRect)CFURLDownloadCreateWithConnection():(_Bool)arg1 Asked to create with a NULL response!;
+- (double)hes/com.apple.xbs/TemporaryDirectory.WBOEkW/Sources/boringssl/ssl/ssl_buffer.cc;
+- (void);
+- (CDStruct_6717dab8){%lu, %lu} extends beyond current run storage size %lu.;
+- (id)imageWithSymbolName:(struct _NSZone *)arg1 bundle: /* Error: Ran out of types for this method. */;
 - (struct NSEdgeInsets)preserveStateDirectoryWithCompletionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property CDStruct_6717dab8 state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

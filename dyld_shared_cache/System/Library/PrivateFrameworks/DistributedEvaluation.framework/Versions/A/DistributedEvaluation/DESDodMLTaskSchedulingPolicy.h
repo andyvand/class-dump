@@ -4,51 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSURL;
+@class NSArray, NSDictionary;
 
 @interface DESDodMLTaskSchedulingPolicy
 {
     NSDictionary *_recipes;
-    _Bool _originReturnRouteEnabled;
-    _Bool _parsecReturnRouteEnabled;
-    _Bool _dediscoReturnRouteEnabled;
-    unsigned long long _recipeCountLimit;
-    double _timeLimit;
-    double _period;
-    NSURL *_postbackBaseURL;
-    NSURL *_telemetryURL;
-    NSNumber *_telemetrySamplingRate;
 }
 
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
+- (id)ts.payload.outcome.parameterDisambiguation.items.value.primitive.app.bundleId;
+- (id)seGenerationRequest.statementResults.payload.outcome.parameterDisambiguation.items.value.primitive.app.bundleId;
+- (id)ifier.custom.bundleId;
+- (unsigned long long)load.outcome.parameterConfirmation.item.value.enumeration.typeIdentifier.custom.bundleId;
+- (id)s.payload.outcome.parameterConfirmation.item.value.primitive.app.bundleId;
+- (_Bool)ponseGenerationRequest.statementResults.payload.outcome.actionConfirmation.systemStyle.generativeAIEnablement.bundleId;
+- (_Bool)tementResults.payload.outcome.success.followUpAction.action.linkAction.bundleId;
+- (id)erationRequest.statementResults.payload.outcome.success.returnValue.collection.values.primitive.app.bundleId;
+- (id)er.custom.bundleId;
+- (_Bool)values.primitive.app.bundleId;
+- (id)e.app.bundleId;
+- (id)context.toolId;
+- (id)resolveTool.toolIds;
+- (double)@;
+- (id)aught while scheduling callback:%@ /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *allRecipeIDs;
-@property(readonly, nonatomic) _Bool dediscoReturnRouteEnabled; // @synthesize dediscoReturnRouteEnabled=_dediscoReturnRouteEnabled;
-@property(readonly, nonatomic) _Bool originReturnRouteEnabled; // @synthesize originReturnRouteEnabled=_originReturnRouteEnabled;
-@property(readonly, nonatomic) _Bool parsecReturnRouteEnabled; // @synthesize parsecReturnRouteEnabled=_parsecReturnRouteEnabled;
-@property(readonly, nonatomic) double period; // @synthesize period=_period;
-@property(readonly, copy, nonatomic) NSURL *postbackBaseURL; // @synthesize postbackBaseURL=_postbackBaseURL;
-@property(readonly, nonatomic) unsigned long long recipeCountLimit; // @synthesize recipeCountLimit=_recipeCountLimit;
-@property(readonly, copy, nonatomic) NSNumber *telemetrySamplingRate; // @synthesize telemetrySamplingRate=_telemetrySamplingRate;
-@property(readonly, copy, nonatomic) NSURL *telemetryURL; // @synthesize telemetryURL=_telemetryURL;
-@property(readonly, nonatomic) double timeLimit; // @synthesize timeLimit=_timeLimit;
 
 @end
 

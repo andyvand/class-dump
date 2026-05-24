@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextField, NSWindow, SFPasswordAsstController;
+@class SFPasswordAsstController;
 
 @interface SFPasswordAsstView
 {
     SFPasswordAsstController *_controller;
-    NSTextField *_newPassword;
-    NSTextField *_verifyPassword;
-    NSTextField *_originalPassword;
-    NSWindow *window;
-    void *_privateData;
 }
 
 - (void);
@@ -22,9 +17,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)failed;
+- (void);
+- (id)4@72@80@88@96@104@112@120@128@136@144@152@160@168@176B184B188B192@196q204q212@220@228@236@244;
 
 @end
 

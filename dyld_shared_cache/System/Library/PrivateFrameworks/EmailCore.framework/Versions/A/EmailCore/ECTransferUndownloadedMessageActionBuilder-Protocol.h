@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @protocol ECTransferUndownloadedMessageActionBuilder
+- (void);
+- (NSURL *)%ld;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *destinationMailboxURL;
-@property(retain, nonatomic) NSArray *itemsToDelete;
-@property(copy, nonatomic) NSString *oldestPersistedRemoteID;
-@property(retain, nonatomic) NSURL *sourceMailboxURL;
 @property(nonatomic) long long transferType;
 @end
 

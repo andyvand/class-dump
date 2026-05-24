@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)id:%d /* Error: Ran out of types for this method. */;
 
 @end
 

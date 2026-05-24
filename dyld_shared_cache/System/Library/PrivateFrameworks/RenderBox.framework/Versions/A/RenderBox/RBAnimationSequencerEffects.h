@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic) float delayOffset;
-@property(nonatomic) float delayScale;
 
 @end
 

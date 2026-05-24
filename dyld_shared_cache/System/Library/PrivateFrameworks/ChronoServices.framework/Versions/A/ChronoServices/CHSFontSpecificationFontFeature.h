@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CHSFontSpecificationFontFeature
 {
     long long _type;
-    long long _selector;
 }
 
-+ (_Bool);
++ (_Bool)setCacheHideOverLay: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
+- (unsigned long long)p;
 - (id);
 - (long long);
 - (_Bool);
@@ -23,14 +20,6 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long selector; // @synthesize selector=_selector;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

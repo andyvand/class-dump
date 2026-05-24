@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface MSASModelEnumerator
 {
     struct sqlite3 *_db;
-    struct sqlite3_stmt *_stmt;
-    CDUnknownBlockType _stepBlock;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
++ (id)}@Starting the notification timer for identifier %{public,uuid_t}.16P;
 - (void);
 - (struct sqlite3 *);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)*]@9K;
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct sqlite3_stmt *);
-- (void);
+- (void)`;
 
 // Remaining properties
 @property(nonatomic) struct sqlite3 *db; // @synthesize db=_db;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(copy, nonatomic) CDUnknownBlockType stepBlock; // @synthesize stepBlock=_stepBlock;
-@property(nonatomic) struct sqlite3_stmt *stmt; // @synthesize stmt=_stmt;
 
 @end
 

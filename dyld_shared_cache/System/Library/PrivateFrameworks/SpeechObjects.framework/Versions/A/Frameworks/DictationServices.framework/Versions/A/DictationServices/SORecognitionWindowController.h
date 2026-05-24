@@ -4,38 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSButton, NSLayoutConstraint, NSPopUpButton, NSString, NSTimer, NSWindow, SOClassicDictationBackgroundView, SOClassicDictationPlainBackgroundView, SOMicrophoneLevelMeterController, SORecognitionWindowAnimatedMicBackgroundView, SORecognitionWindowAnimatedMicFillView;
+@class NSWindow;
 @protocol SORecognitionWindowControllerDelegate;
 
 @interface SORecognitionWindowController
 {
     id <SORecognitionWindowControllerDelegate> _delegate;
-    struct CGRect _insertionPointRect;
-    struct CGRect _enclosingTextAreaRect;
-    struct CGRect _enclosingWindowRect;
-    long long _clientWindowLevel;
-    NSTimer *_resumeTravelingUITimer;
-    NSTimer *_hideFeedbackTextTimer;
-    _Bool _useVerticalLayoutHUDPositioning;
-    _Bool _mouseIsDown;
-    _Bool _drawForExternalClient;
-    _Bool _waitingForWakeUpCommand;
-    _Bool _isInGlobalPosition;
-    int _state;
-    SORecognitionWindowAnimatedMicBackgroundView *_animatedContentView;
-    SORecognitionWindowAnimatedMicFillView *_animatedContentFillView;
-    SOMicrophoneLevelMeterController *_meterLevelController;
-    SOClassicDictationBackgroundView *_backgroundView;
-    SOClassicDictationPlainBackgroundView *_fillBackgroundView;
-    NSButton *_doneButton;
-    NSPopUpButton *_languagePopUp;
-    NSBox *_languagePopUpTopDivider;
-    NSLayoutConstraint *_animatedFillWindowHeightConstraint;
-    NSLayoutConstraint *_doneButtonTopSpaceConstraint;
-    _Bool overrideSystemWidePreference;
-    _Bool _isWindowAnimatingIn;
-    NSWindow *_animationFillWindow;
-    struct CGPoint _initialLocation;
 }
 
 + (id);
@@ -48,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -62,8 +36,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)@;
 - (void);
 - (_Bool);
 - (void);
@@ -72,6 +46,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -79,28 +54,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGPoint);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (void)16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (void);
+- (void)?;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
+- (struct CGPoint)royed!;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)legibleOptionsMenu;
 - (int);
 - (void);
 - (void);
@@ -112,25 +86,6 @@
 
 // Remaining properties
 @property(retain) NSWindow *animationFillWindow; // @synthesize animationFillWindow=_animationFillWindow;
-@property(nonatomic) _Bool bounceMicrophoneMeter; // @dynamic bounceMicrophoneMeter;
-@property(readonly, nonatomic) struct CGRect contentFrame; // @dynamic contentFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <SORecognitionWindowControllerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool drawForExternalClient; // @synthesize drawForExternalClient=_drawForExternalClient;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreMinimumMicrophoneMeterLevel; // @dynamic ignoreMinimumMicrophoneMeterLevel;
-@property(nonatomic) struct CGPoint initialLocation; // @synthesize initialLocation=_initialLocation;
-@property(nonatomic) _Bool isWindowAnimatingIn; // @synthesize isWindowAnimatingIn=_isWindowAnimatingIn;
-@property(nonatomic) _Bool mouseIsDown; // @synthesize mouseIsDown=_mouseIsDown;
-@property(nonatomic) _Bool overrideSystemWidePreference; // @synthesize overrideSystemWidePreference;
-@property(nonatomic) int state; // @dynamic state;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useVerticalLayoutHUDPositioning; // @synthesize useVerticalLayoutHUDPositioning=_useVerticalLayoutHUDPositioning;
-@property(nonatomic) _Bool waitingForWakeUpCommand; // @dynamic waitingForWakeUpCommand;
 
 @end
 

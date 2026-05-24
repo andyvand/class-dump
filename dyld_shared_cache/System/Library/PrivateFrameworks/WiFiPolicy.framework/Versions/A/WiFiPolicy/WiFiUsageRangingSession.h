@@ -4,39 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSString;
+@class NSDate;
 
 @interface WiFiUsageRangingSession
 {
     NSDate *_sessionStartTimestamp;
-    NSDate *_sessionLinkUpTimestamp;
-    NSDate *_peerDiscoveryTimestamp;
-    NSDate *_rangingStartedTimestamp;
-    NSDate *_rangingCompletionTimestamp;
-    unsigned long long _selfPreferredChannel;
-    unsigned long long _selfMainChannel;
-    unsigned long long _selfChannelFlags;
-    unsigned long long _peerPreferredChannel;
-    unsigned long long _peerMainChannel;
-    unsigned long long _peerChannelFlags;
-    unsigned long long _numRequestedMeasurements;
-    unsigned long long _numValidMeasurements;
-    long long _measurementStatus;
-    unsigned long long _measurementFlags;
-    double _linkUpLatency;
-    double _rangingLatency;
-    NSMutableArray *_rttSamples;
-    NSString *_requester;
 }
 
 - (void);
-- (void);
+- (void)d not create comment index. Error:(unsigned long long)arg1 %{public}s;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)lients(FigEndpointRef, Float32);
+- (void)64, CMTime, CMTime, FigEndpointStreamAirPlaySetRateAndAnchorTimeCallback, void *);
 - (void)Ñ¤Ð1Â0@ù
 × ;
 

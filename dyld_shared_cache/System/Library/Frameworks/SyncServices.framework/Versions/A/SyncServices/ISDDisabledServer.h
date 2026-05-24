@@ -11,18 +11,18 @@
 }
 
 + (id);
-- (void);
+- (void)Х;
 - (bycopy id);
 - (bycopy id);
 - (void);
 - (bycopy id);
-- (void);
+- (void);
 - (void);
 - (bycopy id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);;
 - (void);
 - (bycopy id);
 - (bycopy id);
@@ -52,9 +52,9 @@
 - (void);
 - (oneway void);
 - (oneway void);
-- (id);
+- (id)?	;
 - (void);
-- (void);
+- (void)_isConfigurationValid;
 - (bycopy id)(nil != bundleRelativePath)) || (nil != windowsBinRelativePath);
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol PXReusableObjectPoolDelegate
+
+@optional
+- (void);
 @end
 

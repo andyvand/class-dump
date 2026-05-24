@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void)hRequest:cachedResponse:client: /* Error: Ran out of types for this method. */;
+- (void)initWithRequest:cachedResponse:client: /* Error: Ran out of types for this method. */;
 - (id)dation for unexpected session (%@)!;
 
 // Remaining properties

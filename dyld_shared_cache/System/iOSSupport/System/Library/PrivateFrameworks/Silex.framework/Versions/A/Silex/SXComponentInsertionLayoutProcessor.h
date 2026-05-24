@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXDocument, SXLayoutOptions;
-@protocol SXComponentInsertionManager, SXDocumentProviding;
+@protocol SXComponentInsertionManager;
 
 @interface SXComponentInsertionLayoutProcessor
 {
     id <SXComponentInsertionManager> _componentInsertionManager;
-    id <SXDocumentProviding> _documentProvider;
-    SXLayoutOptions *_layoutOptions;
-    SXDocument *_document;
 }
 
 - (id);
@@ -22,21 +18,11 @@
 - (void);
 - (id);
 - (void)8@0:8{CGSize=dd}16{CGSize=dd}32@48{UIEdgeInsets=dddd}56 /* Error: Ran out of types for this method. */;
-- (id)webViewDidEnterElementFullscreen: /* Error: Ran out of types for this method. */;
-- (void)gine;
+- (id)_webViewDidEnterElementFullscreen: /* Error: Ran out of types for this method. */;
+- (void)_conditionEngine;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXComponentInsertionManager> componentInsertionManager; // @synthesize componentInsertionManager=_componentInsertionManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak SXDocument *document; // @synthesize document=_document;
-@property(readonly, nonatomic) id <SXDocumentProviding> documentProvider; // @synthesize documentProvider=_documentProvider;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SXLayoutOptions *layoutOptions; // @synthesize layoutOptions=_layoutOptions;
-@property(readonly) Class superclass;
 
 @end
 

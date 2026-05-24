@@ -4,36 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutSize;
-
 __attribute__((visibility("hidden")))
 @interface _UICollectionPreferredSize
 {
     struct CGSize _originalSize;
-    struct CGSize _fittingSize;
-    NSCollectionLayoutSize *_layoutSize;
-    _Bool _preferredSizeDirty;
-    id _additionalData;
 }
 
 + (struct CGSize);
 - (_Bool);
+- (id)kiE;
 - (id);
+- (struct CGSize);
 - (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (id)entsPosition: /* Error: Ran out of types for this method. */;
-- (struct CGSize)alMenuCenter;
-- (struct CGSize)processShoulder:pressesEvent:timestamp: /* Error: Ran out of types for this method. */;
-- (id)nk;
+- (id);
+- (id)setContentsPosition: /* Error: Ran out of types for this method. */;
+- (struct CGSize)originalMenuCenter;
+- (struct CGSize)_processShoulder:pressesEvent:timestamp: /* Error: Ran out of types for this method. */;
+- (id)Chunk;
 - (void)®·ÿK;
 
 // Remaining properties
-@property(readonly, nonatomic) id additionalData; // @synthesize additionalData=_additionalData;
-@property(readonly, nonatomic) struct CGSize fittingSize; // @synthesize fittingSize=_fittingSize;
-@property(readonly, nonatomic) NSCollectionLayoutSize *layoutSize; // @synthesize layoutSize=_layoutSize;
-@property(readonly, nonatomic) struct CGSize originalSize; // @synthesize originalSize=_originalSize;
 @property(readonly, nonatomic, getter=isPreferredSizeDirty) _Bool preferredSizeDirty; // @synthesize preferredSizeDirty=_preferredSizeDirty;
 
 @end

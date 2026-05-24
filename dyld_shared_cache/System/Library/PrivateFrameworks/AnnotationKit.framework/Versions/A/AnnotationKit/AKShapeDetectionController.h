@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnnotation, AKCandidatePickerViewController, AKController, AKPageModelController, CHDrawing, CHRecognizer, NSMutableArray, NSMutableDictionary, NSPopover, NSString;
-@protocol AKShapeDetectionControllerDelegate;
+@class CHDrawing;
 
 @interface AKShapeDetectionController
 {
     _Bool _preferDoodle;
-    _Bool _coalescesDoodles;
-    _Bool _shapeDetectionEnabled;
-    _Bool _isPreviousCandidateAnnotationUndecided;
-    id <AKShapeDetectionControllerDelegate> _delegate;
-    AKController *_controller;
-    AKAnnotation *_candidateAnnotation;
-    CHRecognizer *_shapeRecognizer;
-    AKPageModelController *_modelControllerToObserveForAnnotationsAndSelections;
-    CHDrawing *_lastDrawing;
-    double _veryHighConfidenceLevel;
-    CHDrawing *_candidateDrawing;
-    NSMutableArray *_candidateAKTags;
-    NSMutableDictionary *_candidateAKTagsToAnnotationInfoMap;
-    NSPopover *_candidatePopover;
-    AKCandidatePickerViewController *_candidateViewController;
 }
 
 + (void);
@@ -35,9 +19,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -54,7 +38,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -65,20 +49,20 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (long long);
+- (id);
+- (void)h&B�;
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)ource map %d for import source %d;
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (void);
@@ -87,30 +71,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *candidateAKTags; // @synthesize candidateAKTags=_candidateAKTags;
-@property(retain, nonatomic) NSMutableDictionary *candidateAKTagsToAnnotationInfoMap; // @synthesize candidateAKTagsToAnnotationInfoMap=_candidateAKTagsToAnnotationInfoMap;
-@property(nonatomic) __weak AKAnnotation *candidateAnnotation; // @synthesize candidateAnnotation=_candidateAnnotation;
-@property(retain, nonatomic) CHDrawing *candidateDrawing; // @synthesize candidateDrawing=_candidateDrawing;
-@property(retain) NSPopover *candidatePopover; // @synthesize candidatePopover=_candidatePopover;
-@property(retain) AKCandidatePickerViewController *candidateViewController; // @synthesize candidateViewController=_candidateViewController;
-@property(nonatomic) _Bool coalescesDoodles; // @synthesize coalescesDoodles=_coalescesDoodles;
-@property(nonatomic) __weak AKController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKShapeDetectionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isPreviousCandidateAnnotationUndecided; // @synthesize isPreviousCandidateAnnotationUndecided=_isPreviousCandidateAnnotationUndecided;
-@property(readonly, nonatomic) _Bool isShowingCandidatePicker;
 @property(retain, nonatomic) CHDrawing *lastDrawing; // @synthesize lastDrawing=_lastDrawing;
-@property(retain, nonatomic) AKPageModelController *modelControllerToObserveForAnnotationsAndSelections; // @synthesize modelControllerToObserveForAnnotationsAndSelections=_modelControllerToObserveForAnnotationsAndSelections;
-@property(nonatomic) _Bool preferDoodle; // @synthesize preferDoodle=_preferDoodle;
-@property(nonatomic, getter=shapeDetectionEnabled) _Bool shapeDetectionEnabled; // @synthesize shapeDetectionEnabled=_shapeDetectionEnabled;
-@property(retain, nonatomic) CHRecognizer *shapeRecognizer; // @synthesize shapeRecognizer=_shapeRecognizer;
-@property(readonly) Class superclass;
-@property double veryHighConfidenceLevel; // @synthesize veryHighConfidenceLevel=_veryHighConfidenceLevel;
 
 @end
 

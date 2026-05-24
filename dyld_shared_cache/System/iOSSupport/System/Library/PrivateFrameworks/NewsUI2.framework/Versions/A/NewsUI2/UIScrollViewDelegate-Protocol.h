@@ -9,6 +9,10 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void)T	;
+- (void);
+- (void);
+- (void)e@�y;
 - (void)hÉûÿ;
 - (UIView *)°	øY¬Ö
 ;

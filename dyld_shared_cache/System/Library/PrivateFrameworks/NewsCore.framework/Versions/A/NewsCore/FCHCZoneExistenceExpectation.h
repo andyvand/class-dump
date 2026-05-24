@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDatabase, CKRecordZoneID, NSString;
+@class CKDatabase;
 
 @interface FCHCZoneExistenceExpectation
 {
     _Bool _shouldExist;
-    CKDatabase *_database;
-    CKRecordZoneID *_zoneID;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)le to convert password to C-string;
+- (id)lock-placeholder",e};;
 - (void)paidBadgeEnabledForSubscribers;
-- (void)sherArticleIDsIntl;
-- (void)icIDs;
+- (void)moreFromPublisherArticleIDsIntl;
+- (void)todayWidgetForYouTopicDiversityAllowedTopicIDs;
 
 // Remaining properties
 @property(retain, nonatomic) CKDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldExist; // @synthesize shouldExist=_shouldExist;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

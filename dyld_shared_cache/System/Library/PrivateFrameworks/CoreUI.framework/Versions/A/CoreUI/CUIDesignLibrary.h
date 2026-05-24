@@ -9,10 +9,10 @@
 }
 
 + (struct CUIDesignColorTraits2);
++ (id)J;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)namespaces list (c14n);
++ (id)peAppKitDefined == event.type;
 
 @end
 

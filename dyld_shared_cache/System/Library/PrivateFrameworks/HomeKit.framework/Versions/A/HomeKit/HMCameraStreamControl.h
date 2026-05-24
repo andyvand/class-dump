@@ -6,14 +6,11 @@
 
 #import <HomeKit/HMCameraControl.h>
 
-@class HMCameraStream, NSString, _HMCameraStreamControl;
-@protocol HMCameraStreamControlDelegate;
+@class _HMCameraStreamControl;
 
 @interface HMCameraStreamControl : HMCameraControl
 {
     struct os_unfair_lock_s _lock;
-    id <HMCameraStreamControlDelegate> _delegate;
-    _HMCameraStreamControl *_streamControl;
 }
 
 - (id);
@@ -23,25 +20,15 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_locationOfInterest;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)candidatesSortedByFacemarkCategoryFromCandidates:(id)arg1;
 - (void)P;
 
 // Remaining properties
-@property(readonly, nonatomic) HMCameraStream *cameraStream;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMCameraStreamControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) _HMCameraStreamControl *streamControl; // @synthesize streamControl=_streamControl;
-@property(readonly, nonatomic) unsigned long long streamState;
-@property(readonly) Class superclass;
 
 @end
 

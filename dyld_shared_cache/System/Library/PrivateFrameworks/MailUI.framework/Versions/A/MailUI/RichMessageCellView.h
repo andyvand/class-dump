@@ -6,32 +6,14 @@
 
 #import <MailUI/MUIRichMessageCellBase.h>
 
-@class NSImageView, NSLayoutConstraint, NSMutableArray, NSStackView, NSString, NSTextField;
-
 @interface RichMessageCellView : MUIRichMessageCellBase
 {
     _Bool _showSize;
-    _Bool _showMailbox;
-    _Bool _showSnippetHighlighting;
-    unsigned long long _numberOfSnippetLines;
-    NSTextField *_mailboxView;
-    NSTextField *_sizeView;
-    NSStackView *_flagsStackView;
-    NSImageView *_singleStatusImageView;
-    NSMutableArray *_flagViews;
-    NSLayoutConstraint *_senderLeadingToSuperviewConstraint;
-    NSLayoutConstraint *_subjectBottomConstraint;
-    NSLayoutConstraint *_mailboxViewWidthConstraint;
-    NSLayoutConstraint *_mailboxToDateLeadingConstraint;
-    NSLayoutConstraint *_statusStackLeadingConstraint;
-    NSLayoutConstraint *_dateTrailingConstraint;
-    NSLayoutConstraint *_trailingStatusStackTrailingConstraint;
-    NSLayoutConstraint *_snippetTrailingConstraint;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)H;
 + (double);
 - (void);
 - (id);
@@ -48,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)&;
 - (void);
 - (void);
 - (void);
@@ -58,11 +40,14 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (id)Z;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void)tB;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,10 +65,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -94,39 +76,18 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)>;
 - (void);
-- (void);
-- (id);
+- (id)appendFrame:(struct CGRect)arg1 text:boxes:imageBorder:imageColor:outlineBorder:outlineColor: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void)ghlighting: /* Error: Ran out of types for this method. */;
-- (void)hildren:(id)arg1;
+- (void)setShowSnippetHighlighting: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityChildren:(id)arg1;
 - (_Bool)age on your [device] in Settings.;
 
 // Remaining properties
-@property(retain, nonatomic) NSLayoutConstraint *dateTrailingConstraint; // @synthesize dateTrailingConstraint=_dateTrailingConstraint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSMutableArray *flagViews; // @synthesize flagViews=_flagViews;
-@property(retain, nonatomic) NSStackView *flagsStackView; // @synthesize flagsStackView=_flagsStackView;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isOpen;
-@property(retain, nonatomic) NSLayoutConstraint *mailboxToDateLeadingConstraint; // @synthesize mailboxToDateLeadingConstraint=_mailboxToDateLeadingConstraint;
-@property(retain, nonatomic) NSTextField *mailboxView; // @synthesize mailboxView=_mailboxView;
-@property(retain, nonatomic) NSLayoutConstraint *mailboxViewWidthConstraint; // @synthesize mailboxViewWidthConstraint=_mailboxViewWidthConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *senderLeadingToSuperviewConstraint; // @synthesize senderLeadingToSuperviewConstraint=_senderLeadingToSuperviewConstraint;
-@property(retain, nonatomic) NSImageView *singleStatusImageView; // @synthesize singleStatusImageView=_singleStatusImageView;
-@property(retain, nonatomic) NSTextField *sizeView; // @synthesize sizeView=_sizeView;
-@property(retain, nonatomic) NSLayoutConstraint *snippetTrailingConstraint; // @synthesize snippetTrailingConstraint=_snippetTrailingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *statusStackLeadingConstraint; // @synthesize statusStackLeadingConstraint=_statusStackLeadingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *subjectBottomConstraint; // @synthesize subjectBottomConstraint=_subjectBottomConstraint;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long threadCount;
-@property(retain, nonatomic) NSLayoutConstraint *trailingStatusStackTrailingConstraint; // @synthesize trailingStatusStackTrailingConstraint=_trailingStatusStackTrailingConstraint;
 
 @end
 

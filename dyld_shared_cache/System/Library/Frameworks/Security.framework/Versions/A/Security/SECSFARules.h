@@ -10,17 +10,11 @@ __attribute__((visibility("hidden")))
 @interface SECSFARules
 {
     SECSFAVersionMatch *_allowedBuilds;
-    int _configVersion;
-    NSMutableArray *_eventFilters;
-    NSMutableArray *_eventRules;
-    struct {
-        unsigned int configVersion:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -45,20 +39,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)rameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics;
 - (id);
 - (void);
 - (void)´,;
-- (int)e;
+- (int)Synchronize;
 
 // Remaining properties
-@property(retain, nonatomic) SECSFAVersionMatch *allowedBuilds; // @synthesize allowedBuilds=_allowedBuilds;
-@property(nonatomic) int configVersion; // @synthesize configVersion=_configVersion;
-@property(retain, nonatomic) NSMutableArray *eventFilters; // @synthesize eventFilters=_eventFilters;
 @property(retain, nonatomic) NSMutableArray *eventRules; // @synthesize eventRules=_eventRules;
-@property(readonly, nonatomic) _Bool hasAllowedBuilds;
-@property(nonatomic) _Bool hasConfigVersion;
 
 @end
 

@@ -4,62 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOCollectionPlace
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_address;
-    GEOLatLng *_coordinate;
-    unsigned long long _muid;
-    NSString *_name;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _providerId;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_providerId:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_address:1;
-        unsigned int read_coordinate:1;
-        unsigned int read_name:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)es:(id)arg1;
++ (_Bool)setHasNumValidLanes:(id)arg1;
 - (void);
 - (void);
-- (int);
+- (int)shouldIgnoreAssumedIdentity: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ays;
 - (void);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)RecordingStateMonitor:(id)arg1 voiceTriggerHearstAPEnabledPolicy: /* Error: Ran out of types for this method. */;
+- (id)ntBehaviourMonitor;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)LocationCoordinate2D=dd},N,S_setPresentationCoordinate:,V_presentationCoordinate /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (void);
 - (id)0@ù
 × ;
-- (id)intFromStart:(struct _NSZone *)arg1 toEnd:supportPointsOnly:startPathSegment: /* Error: Ran out of types for this method. */;
+- (id)routingPathDataWithSupportPointFromStart:(struct _NSZone *)arg1 toEnd:supportPointsOnly:startPathSegment: /* Error: Ran out of types for this method. */;
 - (id)*+ø+;
 - (id)ute"8;
 - (id);
@@ -69,17 +51,7 @@
 - (void)ìê;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *address;
-@property(retain, nonatomic) GEOLatLng *coordinate;
-@property(readonly, nonatomic) _Bool hasAddress;
-@property(readonly, nonatomic) _Bool hasCoordinate;
-@property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasName;
 @property(nonatomic) _Bool hasProviderId;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *name;
-@property(nonatomic) int providerId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

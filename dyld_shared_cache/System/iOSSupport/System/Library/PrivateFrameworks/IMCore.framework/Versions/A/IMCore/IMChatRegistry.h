@@ -4,51 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMContactStore, IMNetworkMonitor, IMTimer, IMUnreadCountController, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSSet, NSString, NSUserActivity;
-@protocol OS_dispatch_queue;
-
 @interface IMChatRegistry
 {
     _Bool _postMessageSentNotifications;
-    _Bool _filterediMessageChatsExist;
-    _Bool __isLoading;
-    _Bool _loading;
-    _Bool _wantsHistoryReload;
-    _Bool _isInternalInstall;
-    _Bool _processingChatCacheMiss;
-    _Bool _blackholedChatsExist;
-    _Bool _firstLoad;
-    unsigned long long _defaultNumberOfMessagesToLoad;
-    unsigned long long _unreadCount;
-    long long _lastFailedMessageDate;
-    long long _currentMessageFilterMode;
-    NSObject<OS_dispatch_queue> *_contactStoreQueue;
-    NSArray *_serviceNamesForChatIdentifierSearch;
-    IMUnreadCountController *_unreadCountController;
-    IMContactStore *_contactStore;
-    NSArray *_simulatedChats;
-    NSArray *_preExistingAllChats;
-    NSString *_historyModificationStamp;
-    IMTimer *_markAsReadTimer;
-    double _timerStartTimeInterval;
-    long long _unreadCountReplacementState;
-    NSMutableDictionary *_chatsBeingLoadedMap;
-    NSMutableDictionary *_chatPersonIDToChatMap;
-    IMNetworkMonitor *_networkMonitor;
-    NSMutableArray *_allChatsInProcess;
-    NSMutableArray *_cachedChatsInThreadNameMap;
-    NSMutableDictionary *_chatGUIDToChatMap;
-    NSMutableDictionary *_chatGUIDToCurrentThreadMap;
-    NSMutableDictionary *_chatGUIDToInfoMap;
-    NSMutableDictionary *_threadNameToChatMap;
-    NSMutableDictionary *_simulatedChatGUIDToChatMap;
-    NSMutableDictionary *_chatGUIDToiMessageSentOrReceivedMap;
-    NSDictionary *_filterCategoryToEarliestInitiallyFetchedLastMessageDate;
-    NSMutableDictionary *_groupIDToChatMap;
-    NSMutableDictionary *_groupParticipantToChatsMap;
-    NSUserActivity *_userActivity;
-    NSSet *_registryChangeHistoryChatsToUnregister;
-    NSSet *_registryChangeHistoryChatsToObserve;
 }
 
 + (id);
@@ -56,7 +14,7 @@
 + (_Bool);
 + (void);
 + (void);
-+ (Class);
++ (Class)#;
 + (id);
 + (id)`q;
 

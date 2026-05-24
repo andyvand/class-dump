@@ -9,7 +9,7 @@
     id $__lazy_storage_$_fieldEditor;
 }
 
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void)Ø.ùÿÐß]ÿh£;

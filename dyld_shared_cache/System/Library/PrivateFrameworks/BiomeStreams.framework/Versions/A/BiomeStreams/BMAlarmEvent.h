@@ -6,14 +6,9 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class NSString, NSUUID;
-
 @interface BMAlarmEvent : BMEventBase
 {
     _Bool _isSleepAlarm;
-    unsigned long long _eventType;
-    unsigned long long _lastEventType;
-    NSUUID *_alarmID;
 }
 
 + (id);
@@ -26,30 +21,19 @@
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id)ion;
+- (id)A;
+- (id)defaction;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *alarmID; // @synthesize alarmID=_alarmID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isSleepAlarm; // @synthesize isSleepAlarm=_isSleepAlarm;
-@property(readonly, nonatomic) unsigned long long lastEventType; // @synthesize lastEventType=_lastEventType;
-@property(readonly) Class superclass;
 
 @end
 

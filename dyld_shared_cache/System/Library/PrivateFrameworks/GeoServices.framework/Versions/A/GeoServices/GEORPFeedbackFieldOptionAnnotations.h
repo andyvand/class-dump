@@ -11,28 +11,27 @@
     NSString *_keyString;
 }
 
-+ (_Bool)tIsUTurn:(id)arg1;
-- (_Bool);
++ (_Bool)setIsUTurn:(id)arg1;
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)O;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id)AtIndex: /* Error: Ran out of types for this method. */;
+- (id)allowedHoursStateAtIndex: /* Error: Ran out of types for this method. */;
 - (id)`úXû;
 - (void)achability changes;
 - (id)PBTransitShieldReadAllFrom can only be called once per object;
-- (id)S_ARRIVAL_ENTRY_POINT_INCORRECT_MAP;
+- (id)RAP_DIRECTIONS_ARRIVAL_ENTRY_POINT_INCORRECT_MAP;
 - (void)GsdågM@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKeyString;
-@property(retain, nonatomic) NSString *keyString;
 
 @end
 

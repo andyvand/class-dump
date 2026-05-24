@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id)rator;
+- (long long)?@;
+- (id)retainTouchIconForURLString: /* Error: Ran out of types for this method. */;
+- (id)PGPlaceRegionMemoryGenerator;
 
 @end
 

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext;
-
 @interface PKAuthenticatorSharedRootContext
 {
     struct os_unfair_lock_s _lock;
-    LAContext *_LAContext;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)GRect={CGPoint=dd}{CGSize=dd}}16d48;
 - (id);
 - (id);
 - (void);

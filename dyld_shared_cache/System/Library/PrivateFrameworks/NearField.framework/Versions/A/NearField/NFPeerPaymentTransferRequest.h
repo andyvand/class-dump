@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface NFPeerPaymentTransferRequest
 {
     NSDecimalNumber *_transactionAmount;
-    NSString *_appleTransactionHash;
-    NSString *_publicTransactionHash;
-    NSDate *_transactionDate;
-    NSString *_transactionCurrency;
-    NSString *_transactionCountry;
-    NSData *_nonce;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)NUIUndoableCommand"16@?0@"CNContact"8;
+- (id)avatar;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)hasProcessedMessageCount;
+- (id)deletePromptVersion;
 - (void);
 - (id);
 - (void);
@@ -38,13 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appleTransactionHash; // @synthesize appleTransactionHash=_appleTransactionHash;
-@property(copy, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
-@property(copy, nonatomic) NSString *publicTransactionHash; // @synthesize publicTransactionHash=_publicTransactionHash;
 @property(copy, nonatomic) NSDecimalNumber *transactionAmount; // @synthesize transactionAmount=_transactionAmount;
-@property(copy, nonatomic) NSString *transactionCountry; // @synthesize transactionCountry=_transactionCountry;
-@property(copy, nonatomic) NSString *transactionCurrency; // @synthesize transactionCurrency=_transactionCurrency;
-@property(copy, nonatomic) NSDate *transactionDate; // @synthesize transactionDate=_transactionDate;
 
 @end
 

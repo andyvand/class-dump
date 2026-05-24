@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol WBSURLCompletionDataSource;
 
 @interface WBSURLCompletionDatabase
 {
     struct Vector<id<WBSURLCompletionMatchData>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _fullTextBookmarkMatchesCache;
-    struct Vector<id<WBSURLCompletionMatchData>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _fullTextHistoryMatchesCache;
-    struct Vector<id<WBSURLCompletionMatchData>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _prefixBookmarkMatchesCache;
-    struct Vector<id<WBSURLCompletionMatchData>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _prefixHistoryMatchesCache;
-    NSString *_fullTextBookmarkMatchesCacheString;
-    NSString *_fullTextHistoryMatchesCacheString;
-    NSString *_prefixBookmarkMatchesCacheString;
-    NSString *_prefixHistoryMatchesCacheString;
-    NSString *_prefixHistoryMatchesCacheProfileIdentifier;
-    NSString *_fullTextHistoryMatchesCacheStringProfileIdentifier;
-    id <WBSURLCompletionDataSource> _dataSource;
 }
 
 + (void);
@@ -39,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -47,7 +36,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)isitedSitesController.mm;
 - (void)can-use-history-push-agent;
 
 // Remaining properties

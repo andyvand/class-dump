@@ -5,5 +5,8 @@
 //
 
 @protocol NSSplitViewDelegate
+
+@optional
+- (_Bool);
 @end
 

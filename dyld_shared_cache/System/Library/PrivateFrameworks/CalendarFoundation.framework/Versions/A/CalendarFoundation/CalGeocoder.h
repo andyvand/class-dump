@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKLocalSearch, NSString;
+@class NSString;
 
 @interface CalGeocoder
 {
     NSString *_locationString;
-    CDUnknownBlockType _completionBlock;
-    MKLocalSearch *_search;
 }
 
 + (void);
@@ -23,14 +21,12 @@
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)stringWithFormat: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(retain, nonatomic) NSString *locationString; // @synthesize locationString=_locationString;
-@property(retain, nonatomic) MKLocalSearch *search; // @synthesize search=_search;
 
 @end
 

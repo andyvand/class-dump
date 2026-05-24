@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface UARPDynamicAssetCrashLogDecoder
 {
     NSObject<OS_os_log> *_log;
-    unsigned int _decoderId;
-    NSDictionary *_cmapDictionary;
-    NSString *_sectionName;
 }
 
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)AMSBagValueDataSourceValueFetcher;
 - (void);
 
 @end

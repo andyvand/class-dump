@@ -7,27 +7,24 @@
 #import <HomeKitDaemon/HMDHAPAccessoryTask.h>
 
 @class NSMutableArray;
-@protocol HMDHAPAccessoryTask;
 
 __attribute__((visibility("hidden")))
 @interface HMDHAPAccessoryPrimaryResidentOperationTask : HMDHAPAccessoryTask
 {
     NSMutableArray *_remoteFallbackTasks;
-    id <HMDHAPAccessoryTask> _localTask;
 }
 
+- (void)remoteObjectProxyWithErrorHandler:(id)arg1;
+- (void)didPostNotificationType:(id)arg1 forState: /* Error: Ran out of types for this method. */;
+- (id)message by dropping message ID;
+- (id);
+- (id)R1S;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void)lRequest"16@?0@"HMAccessCodeRemoveRequestValue"8;
 
 // Remaining properties
-@property(retain, nonatomic) id <HMDHAPAccessoryTask> localTask; // @synthesize localTask=_localTask;
 @property(retain, nonatomic) NSMutableArray *remoteFallbackTasks; // @synthesize remoteFallbackTasks=_remoteFallbackTasks;
 
 @end

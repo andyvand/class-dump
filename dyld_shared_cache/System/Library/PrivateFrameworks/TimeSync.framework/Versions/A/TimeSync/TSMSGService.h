@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface TSMSGService
 {
     NSMutableDictionary *_activeExtSyncSessionsByTriggerId;
-    NSMutableDictionary *_activeClockSessionsBySyncId;
-    NSObject<OS_dispatch_queue> *_msgDispatchQueue;
-    struct os_unfair_lock_s _extSyncSessionsLock;
-    struct os_unfair_lock_s _clockSessionsLock;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (unsigned long long);
 - (void);
 - (void);

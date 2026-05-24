@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MRDestinationResolverHelper
 {
     long long _level;
-    CDUnknownBlockType _callback;
 }
 
 - (void);
@@ -25,15 +22,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long level; // @synthesize level=_level;
-@property(readonly) Class superclass;
 
 @end
 

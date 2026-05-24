@@ -6,40 +6,30 @@
 
 #import <ClassKit/CLSAnswerFormat.h>
 
-@class NSArray, NSString;
-
 @interface CLSMultipleChoiceAnswerFormat : CLSAnswerFormat
 {
     long long _type;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_dataclassDeletionActions;
 - (void);
-- (id);
-- (_Bool);
-- (void);
+- (id)decomp_data_cache_miss;
+- (_Bool)decomp_metadata_cache_hit;
+- (void)l2_read_conflict_count;
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (void);
+- (void)52=;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *answerChoiceItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type;
 
 @end
 

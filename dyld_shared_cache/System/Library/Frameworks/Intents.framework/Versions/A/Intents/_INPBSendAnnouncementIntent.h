@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBAnnouncement, _INPBIntentMetadata;
+@class _INPBAnnouncement;
 
 @interface _INPBSendAnnouncementIntent
 {
     struct {
         unsigned int isReply:1;
     } _has;
-    _Bool _isReply;
-    _INPBAnnouncement *_announcement;
-    _INPBIntentMetadata *_intentMetadata;
-    NSArray *_recipients;
-    NSString *_sharedUserID;
 }
 
 + (Class);
@@ -25,13 +20,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)?1;
+- (id)!;
 - (void);
 - (id);
 - (void);
@@ -41,32 +36,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool)teUpdateMediaAffinityIntentData;
 - (_Bool)@"NSString",R,C,N,V_originatingBundleId;
 - (id)_parentIdentifier;
-- (void)jCAPIAvailabilityInternal;
+- (void)ObjCAPIAvailabilityInternal;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAnnouncement *announcement; // @synthesize announcement=_announcement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAnnouncement;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasIsReply;
-@property(readonly, nonatomic) _Bool hasSharedUserID;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) _Bool isReply; // @synthesize isReply=_isReply;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(copy, nonatomic) NSString *sharedUserID; // @synthesize sharedUserID=_sharedUserID;
-@property(readonly) Class superclass;
 
 @end
 

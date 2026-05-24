@@ -12,9 +12,9 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)e to determine if tombstones for change table - %s;
+- (id)ZCHANGETRACKHISTORY;
+- (id)n the SQLite database.;
 - (id);
 - (void);
 - (struct CGPoint);

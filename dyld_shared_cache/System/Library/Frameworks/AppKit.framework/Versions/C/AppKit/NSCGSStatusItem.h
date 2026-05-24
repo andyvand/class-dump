@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSCGSStatusItem
 {
     unsigned int _commitFlags;
-    unsigned int _cacheFlags;
-    unsigned int _windowID;
-    _Bool _isReplicant;
-    unsigned int _parentWindowID;
-    NSString *_confiningDisplayID;
-    unsigned int _flags;
-    int _priority;
-    int _systemInsertOrder;
-    _Bool _installed;
-    float _preferredPosition;
-    unsigned int _appearance;
-    struct CGRect _selectedContentFrame;
-    long long _selectedContentFrameOptions;
-    float _dropPriority;
-    int _overflowSpecifierPriority;
-    int _layoutIndex;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (unsigned int);
++ (id)tionKey>, std:(unsigned int)arg1:(id)arg2 set<std:(unsigned int)arg3:(int)arg4 string>>, CoalescingConnectionKeyComparator>, std:(int)arg5:(float)arg6 allocator<std:(unsigned int)arg7:pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
++ (id)p_value_compare<std:(unsigned int)arg1:(unsigned int)arg2 shared_ptr<__CoalescingConnectionKey>, std:(id)arg3:(unsigned int)arg4 pair<const std:(unsigned int)arg5:shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
++ (id)arator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
++ (unsigned int)prohibitPrivacyProxy;
 + (void);
 + (void);
 + (void);
@@ -43,17 +25,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (long long);
-- (struct CGRect);
-- (void);
-- (void);
-- (float);
-- (int);
-- (void);
+- (long long)8@"NSURLSession"16@"AVAggregateAssetDownloadTask"24{?={?=qiIq}{?=qiIq}}32@"NSArray"80{?={?=qiIq}{?=qiIq}}88@"AVMediaSelection"136;
+- (struct CGRect)k"24@"AVMediaSelection"32;
+- (void)propertyListForNSURLSessionAssetReturningError: /* Error: Ran out of types for this method. */;
+- (void)fileURLWithFileSystemRepresentation:(struct CGRect)arg1 isDirectory:(unsigned int)arg2 relativeToURL: /* Error: Ran out of types for this method. */;
+- (float)dataWithPropertyList:format:options:error: /* Error: Ran out of types for this method. */;
+- (int)_tcpInfoGroup;
+- (void)_extractorFinishedDecoding;
 - (id);
-- (float);
-- (void);
-- (id);
+- (float)ers, sending did finish app wake for session %@ with identifier %@;
+- (void)blic}@> attempting to reconnect to background transfer daemon prior to NSURLSessionTask creation, reconnect=%c, invalid=%c;
+- (id);
 - (unsigned int);
 - (void);
 - (unsigned int);
@@ -64,16 +46,6 @@ __attribute__((visibility("hidden")))
 - (void)aaD;
 
 // Remaining properties
-@property unsigned int appearance;
-@property(retain) NSString *confiningDisplayID;
-@property(readonly) long long dragState;
-@property float dropPriority;
-@property unsigned int flags;
-@property(getter=isInstalled) _Bool installed;
-@property int overflowSpecifierPriority;
-@property float preferredPosition;
-@property(readonly) struct CGRect selectedContentFrame;
-@property(readonly) long long selectedContentFrameOptions;
 @property(readonly) unsigned int windowID;
 
 @end

@@ -6,14 +6,11 @@
 
 #import <CMCapture/BWFormatRequirements.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface BWPointCloudFormatRequirements : BWFormatRequirements
 {
     unsigned long long _maxPoints;
-    unsigned long long _dataBufferSize;
-    NSArray *_supportedDataFormats;
-    _Bool _memoryPoolUseAllowed;
 }
 
 + (_Bool);
@@ -24,23 +21,19 @@
 - (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)jL;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool)ve for Zero Shutter Lag capture;
 - (id)ÿÉÿÑÿÙ~ÿá|ÿê|ÿõ|ÿþ~ÿÿÿÿÿÿÿ;
 - (unsigned long long)no current still image capture request.  Discarding.;
-- (Class)ime;
+- (Class)BackTelephotoFirstLowMagneticFieldTime;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dataBufferAttributes;
-@property(nonatomic) unsigned long long dataBufferSize; // @synthesize dataBufferSize=_dataBufferSize;
-@property(nonatomic) unsigned long long maxPoints; // @synthesize maxPoints=_maxPoints;
-@property(nonatomic) _Bool memoryPoolUseAllowed; // @synthesize memoryPoolUseAllowed=_memoryPoolUseAllowed;
 @property(copy, nonatomic) NSArray *supportedDataFormats; // @synthesize supportedDataFormats=_supportedDataFormats;
 
 @end

@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class CHSchemaCHClientEventMetadata, CHSchemaCHConversationQualityInferenceGenerated, CHSchemaCHUserAlignmentInferenceGenerated, NSData, SISchemaInstrumentationMessage;
+@class CHSchemaCHClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface CHSchemaCHClientEvent : SISchemaTopLevelUnionType
 {
     CHSchemaCHClientEventMetadata *_eventMetadata;
-    CHSchemaCHUserAlignmentInferenceGenerated *_userAlignmentInferenceGenerated;
-    CHSchemaCHConversationQualityInferenceGenerated *_conversationQualityInferenceGenerated;
-    _Bool _hasEventMetadata;
-    _Bool _hasUserAlignmentInferenceGenerated;
-    _Bool _hasConversationQualityInferenceGenerated;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -47,22 +41,14 @@
 - (_Bool);
 - (id);
 - (id)numDocumentsAccepted"b1"numSentencesAccepted"b1"numTokensAccepted"b1"numTokensOutOfVocabularyAccepted"b1"numDocumentsDictated"b1"numDocumentsTyped"b1"numTokensDictated"b1"numTokensTyped"b1"numSentencesMungeRejected"b1"numSentencesMungeChanged"b1"numTokensEstimatedRejected"b1"numTokensEstimatedExamined"b1};
-- (id)eUeiDictationVoiceCommandKeyboardAction;
+- (id)deleteUeiDictationVoiceCommandKeyboardAction;
 - (unsigned long long)tionResolverSpanData",&,N,V_mentionResolverSpanData;
-- (id)entEventMetadata;
+- (id)ExecutorSiriSchemaExecutorClientEventMetadata;
 - (id)Z;
 - (void)!Ä³mQ&;
 
 // Remaining properties
-@property(retain, nonatomic) CHSchemaCHConversationQualityInferenceGenerated *conversationQualityInferenceGenerated; // @synthesize conversationQualityInferenceGenerated=_conversationQualityInferenceGenerated;
-@property(retain, nonatomic) CHSchemaCHClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasConversationQualityInferenceGenerated; // @synthesize hasConversationQualityInferenceGenerated=_hasConversationQualityInferenceGenerated;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasUserAlignmentInferenceGenerated; // @synthesize hasUserAlignmentInferenceGenerated=_hasUserAlignmentInferenceGenerated;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CHSchemaCHUserAlignmentInferenceGenerated *userAlignmentInferenceGenerated; // @synthesize userAlignmentInferenceGenerated=_userAlignmentInferenceGenerated;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

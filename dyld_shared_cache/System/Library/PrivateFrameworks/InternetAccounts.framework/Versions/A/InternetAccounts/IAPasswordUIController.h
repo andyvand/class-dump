@@ -4,39 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAAccount, NSButton, NSDictionary, NSImage, NSImageView, NSProgressIndicator, NSSecureTextField, NSString, NSTextField;
+@class NSString, NSTextField;
 
 @interface IAPasswordUIController
 {
     NSTextField *_alertTitleField;
-    NSTextField *_alertMessageField;
-    NSSecureTextField *_passwordField;
-    NSButton *_okButton;
-    NSImageView *_icon;
-    NSTextField *_statusText;
-    NSProgressIndicator *_spinner;
-    CDUnknownBlockType _completion;
-    IAAccount *_parentAccount;
-    NSDictionary *_settings;
-    NSString *_bundleID;
-    NSString *_aListPluginID;
-    NSString *_aListProviderID;
-    NSString *_accountDescription;
-    NSString *_userName;
-    NSString *_password;
-    NSString *_prepopulatedPassword;
-    NSString *_customAppName;
-    NSImage *_customIcon;
-    _Bool _isSheet;
-    _Bool _accountSettingsValidForCompare;
-    _Bool _doCoalesce;
-    long long _result;
-    id _strongSelf;
-    NSString *_uid;
 }
 
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (id);
@@ -46,7 +22,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)(lM9;
 - (void);
 - (void);
 - (void);
@@ -57,24 +33,17 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)uld be with '%@';
 - (void);
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long)!;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSString *customAppName; // @synthesize customAppName=_customAppName;
-@property(retain) NSImage *customIcon; // @synthesize customIcon=_customIcon;
-@property _Bool doCoalesce; // @synthesize doCoalesce=_doCoalesce;
-@property(readonly) NSString *password; // @synthesize password=_password;
-@property(retain) NSString *prepopulatedPassword; // @synthesize prepopulatedPassword=_prepopulatedPassword;
-@property long long result; // @synthesize result=_result;
-@property(retain) NSDictionary *settings; // @synthesize settings=_settings;
 @property(retain) NSString *uid; // @synthesize uid=_uid;
 
 @end

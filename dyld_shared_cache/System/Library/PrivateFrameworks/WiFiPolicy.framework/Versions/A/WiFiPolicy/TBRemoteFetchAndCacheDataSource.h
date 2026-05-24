@@ -5,24 +5,21 @@
 //
 
 @class TBDataSource;
-@protocol TBCacheProvider;
 
 @interface TBRemoteFetchAndCacheDataSource
 {
     TBDataSource *_fetchDataSource;
-    id <TBCacheProvider> _cacheProvider;
 }
 
 - (id);
-- (void);
+- (void)AVTGradientView;
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)afÐ!XCù1¥1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <TBCacheProvider> cacheProvider; // @synthesize cacheProvider=_cacheProvider;
 @property(retain, nonatomic) TBDataSource *fetchDataSource; // @synthesize fetchDataSource=_fetchDataSource;
 
 @end

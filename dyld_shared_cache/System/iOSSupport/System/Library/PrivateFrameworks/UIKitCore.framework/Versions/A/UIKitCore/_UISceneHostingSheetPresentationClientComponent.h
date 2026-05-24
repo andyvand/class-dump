@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UISheetPresentationController;
+@class UISheetPresentationController;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneHostingSheetPresentationClientComponent
@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     UISheetPresentationController *_localSheetPresentationController;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)loadChatWithGUID:(id)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)V_isStewieActive;
+- (void),V_isBIA;
+- (void),N,V_hasPopulatedHighlightTracking;
+- (void)TB,N,V_deleteConversation;
+- (void)eRecordZoneID;
 - (id);
-- (void);
+- (void)o CMM state Generated;
 - (void)× ;
 - (id)1Â0@ù
 × ;
@@ -27,13 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, setter=_setLocalSheetPresentationController:) __weak UISheetPresentationController *_localSheetPresentationController; // @synthesize _localSheetPresentationController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

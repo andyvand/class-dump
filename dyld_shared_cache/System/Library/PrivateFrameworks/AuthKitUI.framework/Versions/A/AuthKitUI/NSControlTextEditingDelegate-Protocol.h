@@ -7,6 +7,9 @@
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (_Bool);
+- (_Bool)ESPRESSO_VALUE_INFERENCE_DUMP_PATH;
+- (void)!;
 - (_Bool)Q4(Ð1Â0@ù
 × ;
 @end

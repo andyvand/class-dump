@@ -6,21 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSecuritySmartCardDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadUserPairing;
-    NSNumber *_payloadAllowSmartCard;
-    NSNumber *_payloadCheckCertificateTrust;
-    NSNumber *_payloadOneCardPerUser;
-    NSNumber *_payloadTokenRemovalAction;
-    NSNumber *_payloadEnforceSmartCard;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)#;
 + (id);
 + (id);
 + (id);
@@ -35,31 +30,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
-- (_Bool);
-- (id);
-- (void);
+- (int)@	`;
+- (_Bool)formed to SSML:(id)arg1 %@;
+- (id)_G;
+- (void)om.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/ssl_txt.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowSmartCard; // @synthesize payloadAllowSmartCard=_payloadAllowSmartCard;
-@property(copy, nonatomic) NSNumber *payloadCheckCertificateTrust; // @synthesize payloadCheckCertificateTrust=_payloadCheckCertificateTrust;
-@property(copy, nonatomic) NSNumber *payloadEnforceSmartCard; // @synthesize payloadEnforceSmartCard=_payloadEnforceSmartCard;
-@property(copy, nonatomic) NSNumber *payloadOneCardPerUser; // @synthesize payloadOneCardPerUser=_payloadOneCardPerUser;
-@property(copy, nonatomic) NSNumber *payloadTokenRemovalAction; // @synthesize payloadTokenRemovalAction=_payloadTokenRemovalAction;
 @property(copy, nonatomic) NSNumber *payloadUserPairing; // @synthesize payloadUserPairing=_payloadUserPairing;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UITableView, UITableViewDropProposal;
+@protocol UIDropSession;
+
 @protocol UITableViewDragDestinationDelegate
+
+@optional
+- (void):(UITableView *)arg1;
+- (UITableViewDropProposal *)storeMessage:(UITableView *)arg1 forceReplace:(id <UIDropSession>)arg2 modifyError:(NSIndexPath *)arg3 modifyFlags:flagMask:updateMessageCache:calculateUnreadCount:reindexMessage:isCloudImport: /* Error: Ran out of types for this method. */;
+- (void)calculateUnreadCount:(UITableView *)arg1 reindexMessage:(id <UIDropSession>)arg2;
+- (_Bool)storeMessage:(UITableView *)arg1 context:(id <UIDropSession>)arg2 didReplaceBlock:shouldStoreBlock:didStoreBlock:block: /* Error: Ran out of types for this method. */;
+- (long long);
 @end
 

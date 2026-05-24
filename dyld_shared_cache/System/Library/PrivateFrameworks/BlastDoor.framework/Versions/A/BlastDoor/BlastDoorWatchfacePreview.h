@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorImage, NSString;
+@class NSString;
 
 @interface BlastDoorWatchfacePreview
 {
@@ -18,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorImage *image;
 
 @end
 

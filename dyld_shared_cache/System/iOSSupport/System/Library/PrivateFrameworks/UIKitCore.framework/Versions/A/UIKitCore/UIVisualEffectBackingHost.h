@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIView, UIVisualEffect, _UIVisualEffectEnvironment, _UIVisualEffectHost, _UIVisualEffectViewBackdropCaptureGroup;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface UIVisualEffectBackingHost
@@ -15,31 +15,20 @@ __attribute__((visibility("hidden")))
         unsigned int isUpdatingSubviews:1;
         unsigned int usingPlainViewForBackground:1;
     } _flags;
-    NSString *_captureGroupName;
-    UIVisualEffect *_visualEffect;
-    NSArray *_contentEffects;
-    NSArray *_backgroundEffects;
-    long long _reentrantCount;
-    UIView *_view;
-    _UIVisualEffectEnvironment *_environment;
-    _UIVisualEffectViewBackdropCaptureGroup *_captureGroup;
-    _UIVisualEffectHost *_backgroundHost;
-    _UIVisualEffectHost *_contentHost;
-    NSArray *_visualEffectSubviews;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)setStatusFDEHasInstitutionalRecoveryKey:(id)arg1;
 - (void);
-- (void);
-- (void);
+- (void)ʶ;
 - (void);
 - (long long);
 - (id);
-- (void);
-- (id);
+- (void)_userCloned;
+- (id)com.apple.MediaPlayer.MPModelRequest.sharedQueue;
 - (id);
 - (id);
 - (id);
@@ -54,21 +43,21 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)}{CGSize=dd}}24;
 - (void)ller"16@"UIViewController"24;
-- (void)tionForPopoverWithIdentifier:(id)arg1;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)uma;
-- (void)table:(CDUnknownBlockType)arg1;
-- (void)mage:(id)arg1 target:selector: /* Error: Ran out of types for this method. */;
-- (void)targetRectForConfiguration: /* Error: Ran out of types for this method. */;
-- (id)sToRanges:inTextContainer:groupName: /* Error: Ran out of types for this method. */;
-- (void)tForText:(id)arg1;
-- (void)eView;
-- (id)ath:animated:scrollPosition:notifyDelegate:playFeedback: /* Error: Ran out of types for this method. */;
-- (void)targetIndexPath:previousIndexPath: /* Error: Ran out of types for this method. */;
+- (void)shouldOccludeDuringPresentationForPopoverWithIdentifier:(id)arg1;
+- (id)setOriginalPlatterCenter: /* Error: Ran out of types for this method. */;
+- (void)previousEffectiveLuma;
+- (void)localizedStringForKey:(CDUnknownBlockType)arg1 value:table: /* Error: Ran out of types for this method. */;
+- (void)initWithName:(id)arg1 image:target:selector: /* Error: Ran out of types for this method. */;
+- (void)editMenuInteraction:targetRectForConfiguration: /* Error: Ran out of types for this method. */;
+- (id)addHoverEffectsToRanges:inTextContainer:groupName: /* Error: Ran out of types for this method. */;
+- (void)_punctuationCountForText:(id)arg1;
+- (void)_loupeView;
+- (id)_highlightItemAtIndexPath:animated:scrollPosition:notifyDelegate:playFeedback: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityPostReorderingAnnouncementForCurrentIndexPath:targetIndexPath:previousIndexPath: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)odernAccessoriesLayout,S_setUsesModernAccessoriesLayout: /* Error: Ran out of types for this method. */;
 - (void)kgroundEffect:,V__overrideBackgroundEffect /* Error: Ran out of types for this method. */;
-- (void)kView;
+- (void)platterMaskView;
 - (id)cognizer",?,R,N;
 - (void)ÿ;
 - (id)¸i	Djtj;
@@ -84,17 +73,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ÿòRÕÌ9e;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setCaptureGroupName:) NSString *_captureGroupName; // @synthesize _captureGroupName;
-@property(copy, nonatomic) NSArray *backgroundEffects; // @synthesize backgroundEffects=_backgroundEffects;
-@property(retain, nonatomic) _UIVisualEffectHost *backgroundHost; // @synthesize backgroundHost=_backgroundHost;
-@property(retain, nonatomic) _UIVisualEffectViewBackdropCaptureGroup *captureGroup; // @synthesize captureGroup=_captureGroup;
-@property(copy, nonatomic) NSArray *contentEffects; // @synthesize contentEffects=_contentEffects;
-@property(retain, nonatomic) _UIVisualEffectHost *contentHost; // @synthesize contentHost=_contentHost;
-@property(retain, nonatomic) _UIVisualEffectEnvironment *environment; // @synthesize environment=_environment;
-@property(nonatomic) long long reentrantCount; // @synthesize reentrantCount=_reentrantCount;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
-@property(copy, nonatomic) UIVisualEffect *visualEffect; // @synthesize visualEffect=_visualEffect;
-@property(retain, nonatomic) NSArray *visualEffectSubviews; // @synthesize visualEffectSubviews=_visualEffectSubviews;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol AVCaptureDepthDataOutputDelegate
+
+@optional
+- (void)Block;
+- (void)C,N,V_completionHandler;
 @end
 

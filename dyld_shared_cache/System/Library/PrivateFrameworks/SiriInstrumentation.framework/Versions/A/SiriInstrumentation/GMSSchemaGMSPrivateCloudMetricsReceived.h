@@ -6,28 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GMSSchemaGMSPrivateCloudMetrics, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface GMSSchemaGMSPrivateCloudMetricsReceived : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_clientTraceId;
-    GMSSchemaGMSPrivateCloudMetrics *_gmsPrivateCloudMetrics;
-    int _gmsCaller;
-    struct {
-        unsigned int gmsCaller:1;
-    } _has;
-    _Bool _hasClientTraceId;
-    _Bool _hasGmsPrivateCloudMetrics;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (int);
@@ -38,10 +31,10 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tem:withOffset: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)FENCE_NOTIFICATION_LOCATION_AND_NEXT_TIME;
 - (id)"SISchemaSiriUISettings";
 - (id)groundUpdateContext",&,N,V_ssuBackgroundRequestContext;
 - (id);
@@ -49,12 +42,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *clientTraceId; // @synthesize clientTraceId=_clientTraceId;
-@property(nonatomic) int gmsCaller; // @synthesize gmsCaller=_gmsCaller;
-@property(retain, nonatomic) GMSSchemaGMSPrivateCloudMetrics *gmsPrivateCloudMetrics; // @synthesize gmsPrivateCloudMetrics=_gmsPrivateCloudMetrics;
-@property(nonatomic) _Bool hasClientTraceId; // @synthesize hasClientTraceId=_hasClientTraceId;
-@property(nonatomic) _Bool hasGmsCaller;
-@property(nonatomic) _Bool hasGmsPrivateCloudMetrics; // @synthesize hasGmsPrivateCloudMetrics=_hasGmsPrivateCloudMetrics;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

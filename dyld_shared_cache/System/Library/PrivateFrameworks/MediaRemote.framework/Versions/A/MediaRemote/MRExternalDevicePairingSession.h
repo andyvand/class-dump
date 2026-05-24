@@ -6,12 +6,11 @@
 
 #import <MediaRemote/MRCryptoPairingSession.h>
 
-@class MRCoreUtilsPairingSession, MRCryptoPairingSessionBlockDelegate;
+@class MRCoreUtilsPairingSession;
 
 @interface MRExternalDevicePairingSession : MRCryptoPairingSession
 {
     MRCoreUtilsPairingSession *_pairingSession;
-    MRCryptoPairingSessionBlockDelegate *_pairingDelegate;
 }
 
 - (id);
@@ -25,13 +24,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)xt.;
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)CKBBContextKeyShowAllActionsInCarousel;
 - (unsigned long long);
 - (void)NSArray",R,N,V_availableBluetoothListeningModes;
 - (id)isAirPlaying = %@
@@ -43,11 +42,7 @@
 - (_Bool)¥;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasExchangedMessage;
-@property(retain, nonatomic) MRCryptoPairingSessionBlockDelegate *pairingDelegate; // @synthesize pairingDelegate=_pairingDelegate;
 @property(retain, nonatomic) MRCoreUtilsPairingSession *pairingSession; // @synthesize pairingSession=_pairingSession;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly, nonatomic, getter=isUsingSystemPairing) _Bool usingSystemPairing;
 
 @end
 

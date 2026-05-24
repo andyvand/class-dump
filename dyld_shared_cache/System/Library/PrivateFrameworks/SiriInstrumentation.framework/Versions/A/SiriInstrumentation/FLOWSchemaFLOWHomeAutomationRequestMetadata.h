@@ -6,29 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface FLOWSchemaFLOWHomeAutomationRequestMetadata : SISchemaInstrumentationMessage
 {
     _Bool _isHomeAutomationRequestAsynchronous;
-    unsigned int _targetedEntityCount;
-    unsigned int _fulfilledEntityCount;
-    NSArray *_targetedEntityTypes;
-    int _smallestTargetedContainer;
-    NSString *_targetAttribute;
-    int _conditionType;
-    _Bool _isRecurring;
-    _Bool _isIntentSelectionCacheHit;
-    struct {
-        unsigned int isHomeAutomationRequestAsynchronous:1;
-        unsigned int targetedEntityCount:1;
-        unsigned int fulfilledEntityCount:1;
-        unsigned int smallestTargetedContainer:1;
-        unsigned int conditionType:1;
-        unsigned int isRecurring:1;
-        unsigned int isIntentSelectionCacheHit:1;
-    } _has;
-    _Bool _hasTargetAttribute;
 }
 
 - (unsigned long long);
@@ -60,7 +40,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (void);
 - (void);
@@ -90,24 +70,7 @@
 - (int)Nã&;
 
 // Remaining properties
-@property(nonatomic) int conditionType; // @synthesize conditionType=_conditionType;
-@property(nonatomic) unsigned int fulfilledEntityCount; // @synthesize fulfilledEntityCount=_fulfilledEntityCount;
-@property(nonatomic) _Bool hasConditionType;
-@property(nonatomic) _Bool hasFulfilledEntityCount;
-@property(nonatomic) _Bool hasIsHomeAutomationRequestAsynchronous;
-@property(nonatomic) _Bool hasIsIntentSelectionCacheHit;
-@property(nonatomic) _Bool hasIsRecurring;
-@property(nonatomic) _Bool hasSmallestTargetedContainer;
-@property(nonatomic) _Bool hasTargetAttribute; // @synthesize hasTargetAttribute=_hasTargetAttribute;
-@property(nonatomic) _Bool hasTargetedEntityCount;
 @property(nonatomic) _Bool isHomeAutomationRequestAsynchronous; // @synthesize isHomeAutomationRequestAsynchronous=_isHomeAutomationRequestAsynchronous;
-@property(nonatomic) _Bool isIntentSelectionCacheHit; // @synthesize isIntentSelectionCacheHit=_isIntentSelectionCacheHit;
-@property(nonatomic) _Bool isRecurring; // @synthesize isRecurring=_isRecurring;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int smallestTargetedContainer; // @synthesize smallestTargetedContainer=_smallestTargetedContainer;
-@property(copy, nonatomic) NSString *targetAttribute; // @synthesize targetAttribute=_targetAttribute;
-@property(nonatomic) unsigned int targetedEntityCount; // @synthesize targetedEntityCount=_targetedEntityCount;
-@property(copy, nonatomic) NSArray *targetedEntityTypes; // @synthesize targetedEntityTypes=_targetedEntityTypes;
 
 @end
 

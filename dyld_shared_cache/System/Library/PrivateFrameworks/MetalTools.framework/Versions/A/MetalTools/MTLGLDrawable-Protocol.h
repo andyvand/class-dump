@@ -5,12 +5,9 @@
 //
 
 @protocol MTLGLDrawable
+- (int);
 
 // Remaining properties
-@property(readonly) int height;
-@property(readonly) int surfaceHeight;
-@property(readonly) int surfaceWidth;
-@property(readonly) int width;
 @property(readonly) unsigned long long windowMode;
 @end
 

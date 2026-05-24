@@ -8,25 +8,19 @@ __attribute__((visibility("hidden")))
 @interface VCSessionPresentationInfo
 {
     unsigned int _displayID;
-    struct CGSize _displaySize;
-    struct CGRect _appWindowRect;
-    unsigned int _uiLayout;
-    unsigned char _uiState;
-    _Bool _hasPendingChanges;
-    struct tagVCSpatialAudioMetadataGlobalInfo _metadataGlobalInfo;
 }
 
 + (unsigned char);
 + (unsigned int);
 + (unsigned int);
 + (unsigned char);
-+ (unsigned int);
++ (unsigned int)K;
 + (_Bool){VoiceIOFarEndVersionInfo=[64C][64C]I}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (const struct tagVCSpatialAudioMetadataGlobalInfo *);
-- (_Bool);
-- (struct tagAVCSessionPresentationInfo);
+- (_Bool)%;
+- (struct tagAVCSessionPresentationInfo);
 - (unsigned char);
 - (id);
 - (id);
@@ -36,10 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct tagAVCSessionPresentationInfo avcSessionPresentationInfo;
 @property(readonly, nonatomic) _Bool hasPendingChanges; // @synthesize hasPendingChanges=_hasPendingChanges;
-@property(readonly, nonatomic) const struct tagVCSpatialAudioMetadataGlobalInfo *metadataGlobalInfo;
-@property(readonly, nonatomic) unsigned char uiState; // @synthesize uiState=_uiState;
 
 @end
 

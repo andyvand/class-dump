@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EAEmailAddressSet, EFManualCancelationToken, EFPromise, EMRemoteConnection, EMRemoteConnectionRecoveryAssertion, NSMutableDictionary, NSSet, NSString;
+@class EMRemoteConnection;
 
 @interface EMVIPManager
 {
     struct os_unfair_lock_s _vipsLock;
-    EAEmailAddressSet *_cachedEmailAddresses;
-    EFManualCancelationToken *_observerCancelationToken;
-    EMRemoteConnectionRecoveryAssertion *_connectionRecoveryAssertion;
-    NSMutableDictionary *_vipsByIdentifier;
-    EMRemoteConnection *_connection;
-    EFPromise *_vipsByIdentifierPromise;
 }
 
 + (id);
@@ -23,20 +17,20 @@
 - (id);
 - (void);
 - (_Bool);
+- (id)Registry;
+- (id);
 - (id);
-- (id);
-- (id);
+- (void);
+- (void)1@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)k;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)EyeCandyGraphics;
+- (id)ع;
 - (void);
 - (id);
 - (void);
@@ -44,27 +38,14 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)MTClientConnection]_block_invoke;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Stream;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) EAEmailAddressSet *allVIPEmailAddresses;
-@property(readonly, copy, nonatomic) NSSet *allVIPWaitForResult;
-@property(readonly, copy, nonatomic) NSSet *allVIPs;
 @property(retain, nonatomic) EMRemoteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasVIPs;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isUsingRemoteConnection;
-@property(readonly) Class superclass;
-@property(retain) EFPromise *vipsByIdentifierPromise; // @synthesize vipsByIdentifierPromise=_vipsByIdentifierPromise;
 
 @end
 

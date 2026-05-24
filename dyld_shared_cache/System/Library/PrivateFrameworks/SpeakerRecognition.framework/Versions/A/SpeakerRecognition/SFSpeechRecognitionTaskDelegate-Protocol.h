@@ -5,5 +5,8 @@
 //
 
 @protocol SFSpeechRecognitionTaskDelegate
+
+@optional
+- (void);
 @end
 

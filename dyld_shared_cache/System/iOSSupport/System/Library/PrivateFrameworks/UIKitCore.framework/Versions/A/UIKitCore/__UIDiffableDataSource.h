@@ -4,50 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDiffableDataSourceTransaction, NSHashTable, NSMapTable, NSMutableArray, NSObject, NSString, UICollectionView, UICollectionViewDiffableDataSourceReorderingHandlers, UICollectionViewDiffableDataSourceSectionSnapshotHandlers, UITableView, _UIDiffableDataSourceState, _UIDiffableDataSourceViewUpdater;
-@protocol OS_dispatch_queue, _UICollectionViewUpdateExpandCollapseAnimationContext, _UICollectionViewUpdateItemApplying;
+@class UITableView;
 
 @interface __UIDiffableDataSource
 {
     UITableView *_tableView;
-    UICollectionView *_collectionView;
-    NSMapTable *_rendererMap;
-    CDUnknownBlockType _rendererIdentifierProvider;
-    NSHashTable *_sectionControllers;
-    NSDiffableDataSourceTransaction *_pendingReorderingTransaction;
-    NSDiffableDataSourceTransaction *_currentTransaction;
-    _Bool _pendingReorderingTransactionShouldPerformViewAnimations;
-    struct os_unfair_recursive_lock_s _sectionControllerLock;
-    _Bool _isApplyingWithoutRebasingSectionSnapshots;
-    CDUnknownBlockType _tableViewCellProvider;
-    CDUnknownBlockType _supplementaryViewProvider;
-    id <_UICollectionViewUpdateExpandCollapseAnimationContext> _expandCollapseAnimationContext;
-    CDUnknownBlockType _collectionViewCellProvider;
-    id <_UICollectionViewUpdateItemApplying> _viewUpdatesSink;
-    _UIDiffableDataSourceState *_state;
-    CDUnknownBlockType _supplementaryReuseIdentifierProvider;
-    CDUnknownBlockType _supplementaryViewConfigurationHandler;
-    CDUnknownBlockType _cellObserver;
-    UICollectionViewDiffableDataSourceReorderingHandlers *_reorderingHandlers;
-    CDUnknownBlockType _willApplySnapshotHandler;
-    CDUnknownBlockType _didApplySnapshotHandler;
-    CDUnknownBlockType _canReorderItemHandler;
-    UICollectionViewDiffableDataSourceSectionSnapshotHandlers *_sectionSnapshotHandlers;
-    CDUnknownBlockType _tableViewCellConfigurationHandler;
-    CDUnknownBlockType _reuseIdentifierProvider;
-    CDUnknownBlockType _collectionViewCellConfigurationHandler;
-    _UIDiffableDataSourceViewUpdater *_viewUpdater;
-    NSObject<OS_dispatch_queue> *_applyQueue;
-    _Atomic long long _outstandingApplyCount;
-    NSObject<OS_dispatch_queue> *_snapshotQueue;
-    unsigned long long _mutationQueueSource;
-    NSMutableArray *_completionHandlersForBatchApply;
 }
 
 + (void)Ì6kÿ;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -57,11 +24,11 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)ithIncomingMailServerPortNumber:(id)arg1 withIncomingMailServerUseSSL:withOutgoingPasswordSameAsIncomingPassword:withOutgoingMailServerAuthentication:withOutgoingMailServerPortNumber:withOutgoingMailServerUseSSL:withOutgoingMailServerUsername:withPreventMove:withPreventAppSheet:withSMIMEEnabled:withSMIMESigningEnabled:withSMIMESigningCertificateUUID:withSMIMEEncryptionEnabled:withSMIMEEncryptionCertificateUUID:withSMIMEEnablePerMessageSwitch:withDisableMailRecentsSyncing:withAllowMailDrop:withIncomingMailServerIMAPPathPrefix:withIncomingCredentials:withOutgoingCredentials:withSMIMESigningOverrideable:withSMIMESigningCertificateUUIDOverrideable:withSMIMEEncryptByDefault:withSMIMEEncryptByDefaultOverrideable:withSMIMEEncryptionCertificateUUIDOverrideable:withSMIMEEnableEncryptionPerMessageSwitch: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
@@ -72,31 +39,31 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
+- (long long)_compactMPSBuffersPipelineState;
+- (CDUnknownBlockType),�?)   e;
+- (CDUnknownBlockType);
+- (id);
+- (CDUnknownBlockType);
+- (void);
+- (id)stop: /* Error: Ran out of types for this method. */;
 - (long long);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (id);
-- (long long);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)|;
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (id)setRecommendationID: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithDelegate:(id)arg1;
+- (_Bool)_insertDataSource:forSection:afterEntry:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
+- (id)_encodingDelayInFrames;
+- (void)__MPModelPropertyFileAssetTraits__MAPPING_MISSING__;
+- (CDUnknownBlockType)&܉;
+- (void)tworkDataSource:(id)arg1 -resourceLoader:(id)arg2 shouldWaitForLoadingOfRequestedResource:(CDUnknownBlockType)arg3 starting data task:(_Bool)arg4 %{public}@. loadingRequest=%p URL=%{public}@;
+- (void)@ Creating data task for preconnection with request:(unsigned long long)arg1 %{public}@;
 - (_Bool);
 - (void);
 - (void);
@@ -113,11 +80,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)3;
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)P;
 - (void)
 × ;
 - (void)q[1Â0@ù
@@ -148,22 +115,22 @@
 - (id)"NSData"40@0:8@"NSXMLParser"16@"NSString"24@"NSString"32 /* Error: Ran out of types for this method. */;
 - (id)Padding"b1"hasCustomizedTextToSubtitlePadding"b1};
 - (void)iew"b1"derivesVisibleBoundsFromContainingScrollView"b1"alwaysBounceWasCustomized"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"defaultLayoutMarginsSetFromViewController"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"indexTitlesLoaded"b1"isPerformingShadowUpdates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
-- (void)ane:(id)arg1 withInputMode: /* Error: Ran out of types for this method. */;
-- (id)ange:(id)arg1;
-- (void)guageForInputModeSwitch;
+- (void)updateLocalizedDisplayStringOnEmojiInternationalWithKeyplane:(id)arg1 withInputMode: /* Error: Ran out of types for this method. */;
+- (id)textRangeByFormingUnionWithTextRange:(id)arg1;
+- (void)syncingDictationLanguageForInputModeSwitch;
 - (_Bool)setUndoRoller:(id)arg1;
-- (void):(id)arg1;
-- (CDUnknownBlockType)pha: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType);
-- (CDUnknownBlockType)rRadiusForStyle:view: /* Error: Ran out of types for this method. */;
-- (void)apseOntoPrimaryViewController: /* Error: Ran out of types for this method. */;
-- (void)legate:(CDUnknownBlockType)arg1;
-- (void)figuration:(id)arg1;
-- (long long)w;
-- (long long)e_windowDidBecomeVisible: /* Error: Ran out of types for this method. */;
-- (void)rAttributes:(id)arg1 fadeForBoundsChange:(id)arg2 notifyLayoutForVisibleCellsPass:(_Bool)arg3;
-- (long long)nauthenticTouches;
-- (long long)CIRenderer;
+- (void)setTapGestureRecognizer:(id)arg1;
+- (CDUnknownBlockType)setBackdropTintAlpha: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)resetWillHandoffLoupeMagnifier;
+- (CDUnknownBlockType)buttonCornerRadiusForStyle:view: /* Error: Ran out of types for this method. */;
+- (void)_splitViewControllerWillCollapseOntoPrimaryViewController: /* Error: Ran out of types for this method. */;
+- (void)_shouldSuppressForDelegate:(CDUnknownBlockType)arg1;
+- (void)_setCornerConfiguration:(id)arg1;
+- (long long)_hostContainerView;
+- (long long)_delegate_windowDidBecomeVisible: /* Error: Ran out of types for this method. */;
+- (void)_createVisibleViewsForAttributes:(id)arg1 fadeForBoundsChange:(id)arg2 notifyLayoutForVisibleCellsPass:(_Bool)arg3;
+- (long long)_acceptsInauthenticTouches;
+- (long long)_CIRenderer;
 - (void)_setPiercingToken:(id)arg1;
 - (void)e,V_alternate;
 - (id)",R,N;
@@ -171,7 +138,7 @@
 - (id)",C,N,V_tintColor;
 - (long long)ring",R,C,N,V__emphasisStyleKey;
 - (void)opying>",?,R;
-- (void)lStyle;
+- (void)_UIColorWellVisualStyle;
 - (void)¨NØN;
 - (CDUnknownBlockType)$4;
 - (id)°;
@@ -183,10 +150,10 @@
 - (void)traitTruffle;
 - (void)ut of bounds. %@ %@;
 - (id)orward;
-- (id)ateConfidence;
-- (void)ExitInterval;
+- (id)ShowCandidateConfidence;
+- (void)JoystickModeExitInterval;
 - (void)ke;
-- (void)ntaryColumnWidthFraction;
+- (void)UISplitViewControllerPreferredSupplementaryColumnWidthFraction;
 - (void)sDiffAction.m;
 - (void)sform:(id)arg1 %@;
 - (void)@;
@@ -196,30 +163,30 @@
 - (void)fixedTrailingGroups={
 %@
 } ;
-- (void)ffectStyleSystemVibrantBackgroundUltraThinLight;
+- (void)UIBlurEffectStyleSystemVibrantBackgroundUltraThinLight;
 - (void)%@
 ;
-- (void)eathDescendantForDepthLevel;
+- (void)hidingUnderneathDescendantForDepthLevel;
 - (long long)rDistance3;
 - (CDUnknownBlockType);
 - (void);
-- (void)ontextMenuAnimatorCSg;
-- (long long)BoundSXRts_XP;
+- (void)So22_UIContextMenuAnimatorCSg;
+- (long long)SX_px5BoundSXRts_XP;
 - (long long);
-- (id)mating_p;
+- (id)So33_UIViewInProcessProgressAnimating_p;
 - (id)x;
 - (void)X2¿7cG;
 - (id)ptics.framework/CoreHaptics;
 - (void) ;
 - (id)®?;
 - (void)P;
-- (void)atingButtonView;
+- (void)AnimatingButtonView;
 - (void);
 - (void);
-- (long long)Transform;
+- (long long)TextTransform;
 - (id);
 - (id);
-- (id)Value;
+- (id)UIAnimatableValue;
 - (id);
 - (void);
 - (id)RootView;
@@ -233,51 +200,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak UICollectionView *_collectionView;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *applyQueue; // @synthesize applyQueue=_applyQueue;
-@property(copy, nonatomic) CDUnknownBlockType canReorderItemHandler; // @synthesize canReorderItemHandler=_canReorderItemHandler;
-@property(copy, nonatomic) CDUnknownBlockType cellObserver; // @synthesize cellObserver=_cellObserver;
-@property(readonly, nonatomic) __weak UICollectionView *collectionView;
-@property(copy, nonatomic) CDUnknownBlockType collectionViewCellConfigurationHandler; // @synthesize collectionViewCellConfigurationHandler=_collectionViewCellConfigurationHandler;
-@property(readonly, nonatomic) CDUnknownBlockType collectionViewCellProvider; // @synthesize collectionViewCellProvider=_collectionViewCellProvider;
-@property(retain, nonatomic) NSMutableArray *completionHandlersForBatchApply; // @synthesize completionHandlersForBatchApply=_completionHandlersForBatchApply;
-@property(readonly, nonatomic) NSDiffableDataSourceTransaction *currentTransaction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didApplySnapshotHandler; // @synthesize didApplySnapshotHandler=_didApplySnapshotHandler;
-@property(retain, nonatomic) id <_UICollectionViewUpdateExpandCollapseAnimationContext> expandCollapseAnimationContext; // @synthesize expandCollapseAnimationContext=_expandCollapseAnimationContext;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isApplyingWithoutRebasingSectionSnapshots; // @synthesize isApplyingWithoutRebasingSectionSnapshots=_isApplyingWithoutRebasingSectionSnapshots;
-@property(readonly, nonatomic) _Bool isSuppressingViewUpdates;
-@property(readonly, nonatomic) NSArray *itemIdentifiers;
-@property unsigned long long mutationQueueSource; // @synthesize mutationQueueSource=_mutationQueueSource;
-@property(readonly, nonatomic) long long numberOfItems;
-@property(readonly, nonatomic) long long numberOfSections;
-@property(readonly, nonatomic) _Atomic long long outstandingApplyCount; // @synthesize outstandingApplyCount=_outstandingApplyCount;
-@property(readonly, nonatomic) NSArray *reconfiguredItemIdentifiers;
-@property(readonly, nonatomic) NSArray *reloadedItemIdentifiers;
-@property(readonly, nonatomic) NSArray *reloadedSectionIdentifiers;
-@property(copy, nonatomic) UICollectionViewDiffableDataSourceReorderingHandlers *reorderingHandlers; // @synthesize reorderingHandlers=_reorderingHandlers;
-@property(copy, nonatomic) CDUnknownBlockType reuseIdentifierProvider; // @synthesize reuseIdentifierProvider=_reuseIdentifierProvider;
-@property(readonly, nonatomic) NSArray *sectionControllers;
-@property(readonly, nonatomic) NSArray *sectionIdentifiers;
-@property(copy, nonatomic) UICollectionViewDiffableDataSourceSectionSnapshotHandlers *sectionSnapshotHandlers; // @synthesize sectionSnapshotHandlers=_sectionSnapshotHandlers;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *snapshotQueue; // @synthesize snapshotQueue=_snapshotQueue;
-@property(retain, nonatomic) _UIDiffableDataSourceState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType supplementaryReuseIdentifierProvider; // @synthesize supplementaryReuseIdentifierProvider=_supplementaryReuseIdentifierProvider;
-@property(copy, nonatomic) CDUnknownBlockType supplementaryViewConfigurationHandler; // @synthesize supplementaryViewConfigurationHandler=_supplementaryViewConfigurationHandler;
-@property(copy, nonatomic) CDUnknownBlockType supplementaryViewProvider; // @synthesize supplementaryViewProvider=_supplementaryViewProvider;
-@property(readonly, nonatomic) __weak UITableView *tableView;
 @property(copy, nonatomic) CDUnknownBlockType tableViewCellConfigurationHandler; // @synthesize tableViewCellConfigurationHandler=_tableViewCellConfigurationHandler;
-@property(copy, nonatomic) CDUnknownBlockType tableViewCellProvider; // @synthesize tableViewCellProvider=_tableViewCellProvider;
-@property(nonatomic) long long tableViewDefaultRowAnimation;
-@property(retain, nonatomic) _UIDiffableDataSourceViewUpdater *viewUpdater; // @synthesize viewUpdater=_viewUpdater;
-@property(readonly, nonatomic) __weak id <_UICollectionViewUpdateItemApplying> viewUpdatesSink; // @synthesize viewUpdatesSink=_viewUpdatesSink;
-@property(copy, nonatomic) CDUnknownBlockType willApplySnapshotHandler; // @synthesize willApplySnapshotHandler=_willApplySnapshotHandler;
 
 @end
 

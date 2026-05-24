@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDateInterval, NSLocale, NSString, NSTimeZone, _UIDatePickerCalendarMonth;
+@class NSCalendar, NSLocale;
 
 __attribute__((visibility("hidden")))
 @interface _UICalendarDataModel
 {
     NSCalendar *_effectiveCalendar;
-    NSLocale *_effectiveLocale;
-    NSLocale *_locale;
-    NSCalendar *_calendar;
-    NSTimeZone *_timeZone;
-    _UIDatePickerCalendarMonth *_visibleMonth;
-    NSDateInterval *_availableDateRange;
-    NSString *_fontDesign;
 }
 
 - (id);
-- (void);
-- (void);
+- (void)watchSyncDelegate;
+- (void)initWithIdentifier:(id)arg1 timeout: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -29,10 +22,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)a°!@ù]°1Â0@ù
 × ;
-- (id)rrentDropContext: /* Error: Ran out of types for this method. */;
+- (id)setCurrentDropContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)K;
 - (void)ÿ;
@@ -40,15 +33,7 @@ __attribute__((visibility("hidden")))
 - (id)øXe;
 
 // Remaining properties
-@property(copy, nonatomic) NSDateInterval *availableDateRange; // @synthesize availableDateRange=_availableDateRange;
-@property(copy, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(readonly, nonatomic) NSCalendar *effectiveCalendar; // @synthesize effectiveCalendar=_effectiveCalendar;
-@property(readonly, nonatomic) NSLocale *effectiveLocale; // @synthesize effectiveLocale=_effectiveLocale;
-@property(readonly, nonatomic) NSTimeZone *effectiveTimeZone;
-@property(retain, nonatomic) NSString *fontDesign; // @synthesize fontDesign=_fontDesign;
 @property(copy, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(retain, nonatomic) _UIDatePickerCalendarMonth *visibleMonth; // @synthesize visibleMonth=_visibleMonth;
 
 @end
 

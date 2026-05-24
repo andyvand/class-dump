@@ -6,18 +6,16 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIGaussianBlurXY : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputSigmaX;
-    NSNumber *inputSigmaY;
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -28,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputSigmaX; // @synthesize inputSigmaX;
-@property(retain, nonatomic) NSNumber *inputSigmaY; // @synthesize inputSigmaY;
 
 @end
 

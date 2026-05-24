@@ -11,18 +11,16 @@
 @interface PHFaceCrop : PHObject
 {
     short _state;
-    short _type;
-    NSData *_resourceData;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)fetchPlaybackSyncStateWithCompletion: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
@@ -31,14 +29,12 @@
 - (id);
 - (Class);
 - (short);
-- (short);
+- (short)didSubmitFormOfType:withFieldType:elementType:isAutoFilled:isManuallyFilledByUser:modificationType:autoFillOfferedType:webpageLocale: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ImageData;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *resourceData; // @synthesize resourceData=_resourceData;
-@property(readonly, nonatomic) short state; // @synthesize state=_state;
-@property(readonly, nonatomic) short type; // @synthesize type=_type;
 
 @end
 

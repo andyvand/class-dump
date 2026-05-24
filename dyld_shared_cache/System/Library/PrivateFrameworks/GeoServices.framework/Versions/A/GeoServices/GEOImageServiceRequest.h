@@ -9,35 +9,32 @@
 @interface GEOImageServiceRequest
 {
     NSMutableArray *_imageIds;
-    unsigned int _height;
-    unsigned int _width;
-    CDStruct_a1cdbaa7 _flags;
 }
 
 + (Class);
-+ (_Bool)eLocationOffset:(id)arg1;
++ (_Bool)setHasRouteLocationOffset:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void)_os_log;
+- (void);
 - (id);
-- (void);
+- (void)_;
 - (id);
 - (id);
+- (void)er";
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)setRouteOptionsSupported: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (void)h;
 - (void);
-- (void);
-- (id)nceShown:(struct _NSZone *)arg1;
+- (id)setIsVenueExperienceShown:(struct _NSZone *)arg1;
 - (void)_laneCount;
-- (id)outeBuilder;
+- (id)GEOTransitRouteBuilder;
 - (id)private}@;
 - (_Bool)ilsReadAllFrom can only be called once per object;
 - (id);
@@ -48,11 +45,7 @@
 - (_Bool)¬éÿ:@à; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeight;
-@property(nonatomic) _Bool hasWidth;
-@property(nonatomic) unsigned int height;
 @property(retain, nonatomic) NSMutableArray *imageIds;
-@property(nonatomic) unsigned int width;
 
 @end
 

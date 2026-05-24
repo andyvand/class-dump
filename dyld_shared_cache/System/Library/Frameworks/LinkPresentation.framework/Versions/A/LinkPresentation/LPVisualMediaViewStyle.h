@@ -4,50 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, LPImageViewStyle, LPPadding, LPVideoPlayButtonStyle, NSColor;
+@class LPVideoPlayButtonStyle;
 
 __attribute__((visibility("hidden")))
 @interface LPVisualMediaViewStyle
 {
     LPVideoPlayButtonStyle *_playButton;
-    LPImageViewStyle *_muteButton;
-    LPPadding *_muteButtonPadding;
-    double _muteButtonOpacity;
-    double _muteButtonHighlightedOpacity;
-    NSColor *_pulsingLoadIndicatorColor;
-    double _pulsingLoadIndicatorMaximumOpacity;
-    double _pulsingLoadIndicatorDuration;
-    CAMediaTimingFunction *_pulsingLoadIndicatorTimingFunction;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (double);
-- (double);
-- (id);
-- (id);
-- (double);
+- (double);
 - (double);
 - (id);
 - (id);
+- (double)R;
+- (double);
 - (id);
+- (id);
+- (id)serverIteration;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) LPImageViewStyle *muteButton; // @synthesize muteButton=_muteButton;
-@property(nonatomic) double muteButtonHighlightedOpacity; // @synthesize muteButtonHighlightedOpacity=_muteButtonHighlightedOpacity;
-@property(nonatomic) double muteButtonOpacity; // @synthesize muteButtonOpacity=_muteButtonOpacity;
-@property(readonly, retain, nonatomic) LPPadding *muteButtonPadding; // @synthesize muteButtonPadding=_muteButtonPadding;
 @property(readonly, nonatomic) LPVideoPlayButtonStyle *playButton; // @synthesize playButton=_playButton;
-@property(retain, nonatomic) NSColor *pulsingLoadIndicatorColor; // @synthesize pulsingLoadIndicatorColor=_pulsingLoadIndicatorColor;
-@property(nonatomic) double pulsingLoadIndicatorDuration; // @synthesize pulsingLoadIndicatorDuration=_pulsingLoadIndicatorDuration;
-@property(nonatomic) double pulsingLoadIndicatorMaximumOpacity; // @synthesize pulsingLoadIndicatorMaximumOpacity=_pulsingLoadIndicatorMaximumOpacity;
-@property(retain, nonatomic) CAMediaTimingFunction *pulsingLoadIndicatorTimingFunction; // @synthesize pulsingLoadIndicatorTimingFunction=_pulsingLoadIndicatorTimingFunction;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CSEndpointerXPCServiceDelegate
+- (void)not allocate extract polygons point list;
 @end
 

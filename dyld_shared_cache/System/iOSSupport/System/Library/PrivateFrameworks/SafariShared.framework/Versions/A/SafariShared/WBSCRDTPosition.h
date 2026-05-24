@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface WBSCRDTPosition
 {
@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tem/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/SafariFoundation;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -32,7 +32,6 @@
 - (void)44´;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, copy, nonatomic) NSArray *sortValues; // @synthesize sortValues=_sortValues;
 
 @end

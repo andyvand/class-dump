@@ -7,14 +7,11 @@
 @interface AMSUIActionContext
 {
     id account;
-    id bag;
-    id processInfo;
-    id presentingViewController;
 }
 
 - (id);
 - (id);
-- (void)ompletion: /* Error: Ran out of types for this method. */;
+- (void)purchase:handleEngagementRequest:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

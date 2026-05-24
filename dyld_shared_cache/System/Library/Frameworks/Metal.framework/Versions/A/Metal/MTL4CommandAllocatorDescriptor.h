@@ -16,8 +16,8 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (void)antSamplerCount:(id)arg1 stride:forVertexVariant:fragmentVariant: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)getConstantSamplersBitmasks:(id)arg1 uniqueIdentifiers:constantSamplerCount:stride:forVertexVariant:fragmentVariant: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;

@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (id)initWithFilterStrategy:(id)arg1 traversalStrategy:(id)arg2;
++ (_Bool)accessibilityTextInputMarkedAXFTextRange;
++ (_Bool)_zoomFocusRectForZeroLengthIndexBasedRange:(unsigned long long)arg1 textElementController:(unsigned long long)arg2;
++ (id)s.wifi.notConnected;
 + (id);
 + (id);
 + (_Bool);

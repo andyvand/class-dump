@@ -5,5 +5,6 @@
 //
 
 @protocol CKDetailsAddGroupNameViewDelegate
+- (void);
 @end
 

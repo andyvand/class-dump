@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, ODDSiriSchemaODDAssistantDimensions;
+@class ODDSiriSchemaODDAssistantDimensions;
 
 @interface ODDSiriSchemaODDAssetAvailabilityFromBootDimensions : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDAssistantDimensions *_assistantDimensions;
-    NSString *_assetSetId;
-    NSString *_assetSetName;
-    NSString *_previousSystemBuild;
-    unsigned long long _buildInstallationTimestampInSecondsSince1970;
-    struct {
-        unsigned int buildInstallationTimestampInSecondsSince1970:1;
-    } _has;
-    _Bool _hasAssistantDimensions;
-    _Bool _hasAssetSetId;
-    _Bool _hasAssetSetName;
-    _Bool _hasPreviousSystemBuild;
 }
 
 - (void);
@@ -31,10 +20,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)TH;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,7 +36,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (id);
 - (id);
 - (id);
@@ -55,25 +44,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)B;
 - (id)!<EùÞÐ1Â0@ù
 × ;
 - (id)sageDurationMs;
 - (id)rameterConfirmationStarted",&,N,V_startedOrChanged;
-- (void)OCOUNTRYCODE_LR;
+- (void)ISOCOUNTRYCODE_LR;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetSetId; // @synthesize assetSetId=_assetSetId;
-@property(copy, nonatomic) NSString *assetSetName; // @synthesize assetSetName=_assetSetName;
 @property(retain, nonatomic) ODDSiriSchemaODDAssistantDimensions *assistantDimensions; // @synthesize assistantDimensions=_assistantDimensions;
-@property(nonatomic) unsigned long long buildInstallationTimestampInSecondsSince1970; // @synthesize buildInstallationTimestampInSecondsSince1970=_buildInstallationTimestampInSecondsSince1970;
-@property(nonatomic) _Bool hasAssetSetId; // @synthesize hasAssetSetId=_hasAssetSetId;
-@property(nonatomic) _Bool hasAssetSetName; // @synthesize hasAssetSetName=_hasAssetSetName;
-@property(nonatomic) _Bool hasAssistantDimensions; // @synthesize hasAssistantDimensions=_hasAssistantDimensions;
-@property(nonatomic) _Bool hasBuildInstallationTimestampInSecondsSince1970;
-@property(nonatomic) _Bool hasPreviousSystemBuild; // @synthesize hasPreviousSystemBuild=_hasPreviousSystemBuild;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *previousSystemBuild; // @synthesize previousSystemBuild=_previousSystemBuild;
 
 @end
 

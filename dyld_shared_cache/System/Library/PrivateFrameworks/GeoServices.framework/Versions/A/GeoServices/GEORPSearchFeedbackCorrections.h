@@ -9,11 +9,9 @@
 @interface GEORPSearchFeedbackCorrections
 {
     PBUnknownFields *_unknownFields;
-    int _correctionType;
-    CDStruct_ef3e2236 _flags;
 }
 
-+ (_Bool)r:(id)arg1;
++ (_Bool)setLocalHour:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
@@ -24,23 +22,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)w;
+- (void)audioStreamHoldingDurationInSec;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)`;
 - (id)GEOBusinessOptions";
-- (id)rectedMapLocation;
+- (id)correctedMapLocation;
 - (id)ÌG4IK@L;
-- (id)E_OF_STRICT;
+- (id)STATE_OF_STRICT;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int correctionType;
 @property(nonatomic) _Bool hasCorrectionType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -68,15 +68,15 @@ struct _NSRange {
 };
 
 struct _TMRulesEngineStatistics {
-    unsigned long long urlQueryCount;
-    unsigned long long pathQueryCount;
-    unsigned long long rawPathQueryCount;
-    unsigned long long deviceIDFaults;
-    unsigned long long isDirectoryFaults;
-    unsigned long long contentsExcludedHits;
-    unsigned long long fileContentsExcludedHits;
-    unsigned long long spotlightMisses;
-    unsigned long long stickyXattrFaults;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    unsigned long long _field5;
+    unsigned long long _field6;
+    unsigned long long _field7;
+    unsigned long long _field8;
+    unsigned long long _field9;
 };
 
 struct _TMRulesQueryDetails {
@@ -96,7 +96,7 @@ struct _TMRulesQueryHints {
 };
 
 struct fsid {
-    int val[2];
+    int _field1[2];
 };
 
 struct os_unfair_lock_s {
@@ -123,30 +123,6 @@ struct statfs {
     unsigned int _field17[7];
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<TMQueryTargetKey, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TMQueryTargetKey, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TMQueryTargetKey, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unordered_set<TMQueryTargetKey, std::hash<TMQueryTargetKey>, std::equal_to<TMQueryTargetKey>, std::allocator<TMQueryTargetKey>> {
-    struct __hash_table<TMQueryTargetKey, std::hash<TMQueryTargetKey>, std::equal_to<TMQueryTargetKey>, std::allocator<TMQueryTargetKey>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<TMQueryTargetKey, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TMQueryTargetKey, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<TMQueryTargetKey, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        struct {
-            float __max_load_factor_;
-        } ;
-    } __table_;
-};
-
 struct vector<NodeCacheEntry, std::allocator<NodeCacheEntry>> {
     struct NodeCacheEntry *__begin_;
     struct NodeCacheEntry *__end_;
@@ -167,10 +143,6 @@ typedef struct {
     unsigned short _field7;
     unsigned short _field8;
 } CDStruct_b7969f8e;
-
-typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
 
 // Template types
 typedef struct vector<NodeCacheEntry, std::allocator<NodeCacheEntry>> {

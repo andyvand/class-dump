@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PHAsset;
+
 @protocol PGSuggester
+- (void);
+- (_Bool)_shouldRegisterNotificationsFromApplication:(PHAsset *)arg1;
 - (id)ÿ©Ö÷$¼aÿ©Ö÷$Àaÿ;
 
 // Remaining properties

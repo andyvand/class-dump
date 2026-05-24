@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface TTE_Model_SeriesSOutput
 {
@@ -13,13 +11,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)+;
 - (double);
 - (id);
 - (id)e:(id)arg1 Desktop Mode;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) double prediction; // @synthesize prediction=_prediction;
 
 @end

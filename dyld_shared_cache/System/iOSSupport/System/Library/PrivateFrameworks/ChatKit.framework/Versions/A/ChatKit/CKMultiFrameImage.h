@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CKMultiFrameImage
 {
     unsigned long long _frameCount;
-    CDUnknownBlockType _frameProvider;
-    NSArray *_frameDurations;
 }
 
++ (_Bool);
 + (_Bool);
++ (id)Failed to append attributed string:(id)arg1 %@;
++ (id)%@;
++ (id)file at %@. Error:(id)arg1 %@;
++ (id)ld not create NSDataDetector.;
++ (id);
 + (_Bool);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)scanStringforRange:(id)arg1 previewedExpressionString:(id *)arg2;
+- (_Bool)scaleWhenDrawing;
+- (id)message;
 - (id);
 - (id);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
+- (CDUnknownBlockType)i;
+- (id)t;
+- (id)r;
+- (id);
 - (_Bool);
 - (void)Î;
 - (unsigned long long)0;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long frameCount; // @synthesize frameCount=_frameCount;
-@property(readonly, copy, nonatomic) NSArray *frameDurations; // @synthesize frameDurations=_frameDurations;
-@property(readonly, nonatomic) CDUnknownBlockType frameProvider; // @synthesize frameProvider=_frameProvider;
 
 @end
 

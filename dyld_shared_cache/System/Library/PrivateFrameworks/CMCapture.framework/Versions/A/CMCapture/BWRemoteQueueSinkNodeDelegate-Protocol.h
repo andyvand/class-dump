@@ -5,5 +5,7 @@
 //
 
 @protocol BWRemoteQueueSinkNodeDelegate
+- (void)y;
+- (void);
 @end
 

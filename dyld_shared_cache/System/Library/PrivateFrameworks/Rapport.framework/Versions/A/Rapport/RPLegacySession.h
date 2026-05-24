@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUMobileDeviceSession, NSMutableArray, NSObject, NSString, RPDevice;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RPLegacySession
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSMutableArray *_messageSendQueue;
-    _Bool _messagingReady;
-    int _pairVerifyState;
-    _Bool _secureReady;
-    _Bool _mdEnabled;
-    CUMobileDeviceSession *_mdSession;
-    int _mdState;
-    unsigned int _securityFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_label;
-    RPDevice *_peerDevice;
-    NSString *_serviceType;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _promptForPINHandler;
 }
 
 - (void);
@@ -35,24 +17,24 @@
 - (void);
 - (void);
 - (int);
-- (int);
+- (int)DefaultValue;
+- (void);
+- (void)j;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)phones is 0;
+- (id)j6BOnodeEjRKNS_6vectorIjNS_9allocatorIjEEEESG_EUliRKN3fst17TropicalWeightTplIfEEE_FviSR_EEE;
 - (id);
 - (id);
 - (void);
@@ -60,31 +42,23 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType),;
 - (void);
-- (void);
+- (void)'q!;;
 - (void)
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) RPDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(copy, nonatomic) CDUnknownBlockType promptForPINHandler; // @synthesize promptForPINHandler=_promptForPINHandler;
-@property(nonatomic) unsigned int securityFlags; // @synthesize securityFlags=_securityFlags;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

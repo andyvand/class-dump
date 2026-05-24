@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GLUTMenu, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface GLUTMenuItem
 {
     NSString *_title;
-    GLUTMenu *_submenu;
-    int _tag;
-    _Bool _isTrigger;
 }
 
 - (_Bool);
@@ -25,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 @end
 

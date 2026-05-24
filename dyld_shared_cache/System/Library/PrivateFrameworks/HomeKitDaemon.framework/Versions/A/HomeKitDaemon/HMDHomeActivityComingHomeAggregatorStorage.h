@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (unsigned long long){public}@Handling request for getting controller identity for home invite request;
 + (id)B;
 - (id);
-- (void);
+- (void)r/lib/swift/libswiftIOKit.dylib;
 
 @end
 

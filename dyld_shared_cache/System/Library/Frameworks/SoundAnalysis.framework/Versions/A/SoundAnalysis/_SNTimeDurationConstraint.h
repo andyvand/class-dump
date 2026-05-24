@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _SNTimeDurationConstraint
 {
     id impl;
@@ -19,17 +17,14 @@
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)pinConfigurationIsValid: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void)àøÿ@àøÿdàøÿàøÿ¬àøÿèàøÿáøÿ0áøÿTáøÿáøÿ´áøÿØáøÿüáøÿ8âøÿ\âøÿâøÿ¤âøÿàâøÿãøÿ(ãøÿLãøÿãøÿ¬ãøÿøãøÿDäøÿäøÿ´äøÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) CDStruct_3c1748cc durationRange;
-@property(nonatomic, readonly) NSArray *enumeratedDurations;
 @property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) long long type;
 
 @end
 

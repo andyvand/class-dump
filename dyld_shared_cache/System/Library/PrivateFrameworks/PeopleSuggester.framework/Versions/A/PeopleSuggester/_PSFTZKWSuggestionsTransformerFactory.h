@@ -9,7 +9,6 @@
 @interface _PSFTZKWSuggestionsTransformerFactory
 {
     _PSContactCache *_contactCache;
-    _CDInteractionStore *_interactionStore;
 }
 
 + (id);
@@ -18,14 +17,14 @@
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_pG;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)Content successful for asset selector:(_Bool)arg1 %@;
 - (void);
 - (id)Prediction - kNN based on top shares;
 

@@ -7,18 +7,6 @@
 @interface Network.FlowControl
 {
     id sendHighWaterMark;
-    id receiveHighWaterMark;
-    id remoteMaxData;
-    id localMaxData;
-    id sendOffset;
-    id sendQueueLength;
-    id streamBytesRead;
-    id accumulatedBytesRead;
-    id inOrderUnread;
-    id inOrderOffset;
-    id lastOffset;
-    id logID;
-    id logIDString;
 }
 
 @end

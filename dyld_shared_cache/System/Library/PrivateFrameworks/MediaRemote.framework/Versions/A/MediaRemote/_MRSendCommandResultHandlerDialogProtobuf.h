@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface _MRSendCommandResultHandlerDialogProtobuf
 {
     NSMutableArray *_actions;
-    NSString *_localizedMessage;
-    NSString *_localizedTitle;
 }
 
 + (Class);
@@ -27,22 +25,18 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)IMMetricsCollectorDeduplicationIntervalKey;
+- (unsigned long long);
+- (_Bool)7;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)embers: /* Error: Ran out of types for this method. */;
+- (id)perceptualAudioHash;
+- (void)addMembers: /* Error: Ran out of types for this method. */;
 - (id)languageOptionGroup;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) _Bool hasLocalizedMessage;
-@property(readonly, nonatomic) _Bool hasLocalizedTitle;
-@property(retain, nonatomic) NSString *localizedMessage; // @synthesize localizedMessage=_localizedMessage;
-@property(retain, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end
 

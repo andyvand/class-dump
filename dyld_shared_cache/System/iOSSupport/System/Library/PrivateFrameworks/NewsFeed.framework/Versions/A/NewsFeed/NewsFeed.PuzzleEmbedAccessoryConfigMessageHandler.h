@@ -7,10 +7,6 @@
 @interface NewsFeed.PuzzleEmbedAccessoryConfigMessageHandler
 {
     id puzzleComponentsViewProvider;
-    id scriptsManager;
-    id delegate;
-    id accessoryConfigDataSource;
-    id lastReceivedValue;
 }
 
 - (void);

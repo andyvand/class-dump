@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, UIImageSymbolConfiguration, UIImageView;
+@class CAShapeLayer;
 
 @interface AVTCameraItemView
 {
     CAShapeLayer *_shapeLayer;
-    UIImageView *_imageView;
-    UIImageSymbolConfiguration *_cameraConfiguration;
 }
 
 - (void);
@@ -22,11 +20,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImageSymbolConfiguration *cameraConfiguration; // @synthesize cameraConfiguration=_cameraConfiguration;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
 @property(retain, nonatomic) CAShapeLayer *shapeLayer; // @synthesize shapeLayer=_shapeLayer;
 
 @end

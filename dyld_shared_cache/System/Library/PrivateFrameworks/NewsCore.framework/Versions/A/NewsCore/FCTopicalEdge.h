@@ -9,11 +9,6 @@
 @interface FCTopicalEdge
 {
     _Bool _relatednessCalculated;
-    FCTopicalNode *_a;
-    FCTopicalNode *_b;
-    unsigned long long _containsAButNotB;
-    unsigned long long _containsAAndB;
-    unsigned long long _containsBButNotA;
 }
 
 - (void);
@@ -22,13 +17,11 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void)ckValue;
+- (_Bool)wareDataSessionStatisticsReport">16;
+- (void)newsTodayWidgetPresentationBaselineClickValue;
 
 // Remaining properties
 @property(retain, nonatomic) FCTopicalNode *a; // @synthesize a=_a;
-@property(retain, nonatomic) FCTopicalNode *b; // @synthesize b=_b;
-@property(nonatomic) _Bool relatednessCalculated; // @synthesize relatednessCalculated=_relatednessCalculated;
 
 @end
 

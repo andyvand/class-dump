@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface AAMessagesInviteContext
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_action;
-    NSArray *_recipients;
-    NSString *_messageBody;
-    NSURL *_inviteURL;
-    NSString *_secondaryTitle;
-    NSURL *_messageURL;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)%s;
 - (void);
 - (id);
+- (void)ernelEEEEEE;
+- (id)NS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEE3$_0FyRN11flatbuffers17FlatBufferBuilderEEEE;
 - (id);
 - (id);
 - (id);
@@ -30,21 +23,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)qa;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void):rawPassword:completion: /* Error: Ran out of types for this method. */;
+- (void)notifyServicesOfLoginResponse:forAppleID:password:rawPassword:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *action; // @synthesize action=_action;
-@property(copy, nonatomic) NSURL *inviteURL; // @synthesize inviteURL=_inviteURL;
-@property(copy, nonatomic) NSString *messageBody; // @synthesize messageBody=_messageBody;
-@property(copy, nonatomic) NSURL *messageURL; // @synthesize messageURL=_messageURL;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(copy, nonatomic) NSString *secondaryTitle; // @synthesize secondaryTitle=_secondaryTitle;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2SerializedOperationQueue, NSString;
-@protocol HAP2AccessoryServerBrowserPrivate, HAP2AccessoryServerControllerPrivate;
+@class NSString;
+@protocol HAP2AccessoryServerBrowserPrivate;
 
 @protocol HAP2AccessoryServerPrivate
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HAP2AccessoryServerBrowserPrivate> browser;
-@property(readonly, nonatomic) id <HAP2AccessoryServerControllerPrivate> controller;
-@property(readonly, nonatomic) HAP2SerializedOperationQueue *operationQueue;
-@property(retain, nonatomic) NSString *productData;
 @end
 

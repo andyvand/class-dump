@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
-
 @interface CRLanguageResourcesStack
 {
     long long _totalResources;
-    NSMutableArray *_availableResources;
-    NSString *_localeIdentifier;
-    NSObject<OS_dispatch_semaphore> *_resourceCountSemaphore;
-    NSMutableSet *_subscribers;
-    long long _resourceType;
-    NSMutableSet *_activeSubscribers;
 }
 
 - (long long);
@@ -24,7 +15,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -33,9 +24,9 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)e.Safari.%@.%p.internalQueue;
 - (id);
-- (void);
+- (void)__objc_selrefs;
 - (void);
 - (void)on"32@"NSDictionary"40;
 - (long long);
@@ -43,12 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableSet *activeSubscribers; // @synthesize activeSubscribers=_activeSubscribers;
-@property(retain) NSMutableArray *availableResources; // @synthesize availableResources=_availableResources;
-@property(retain) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(retain) NSObject<OS_dispatch_semaphore> *resourceCountSemaphore; // @synthesize resourceCountSemaphore=_resourceCountSemaphore;
-@property long long resourceType; // @synthesize resourceType=_resourceType;
-@property(retain) NSMutableSet *subscribers; // @synthesize subscribers=_subscribers;
 @property long long totalResources; // @synthesize totalResources=_totalResources;
 
 @end

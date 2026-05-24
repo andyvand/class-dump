@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSUserDefaults;
+@class NSUserDefaults;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureProprietaryDefaults
 {
     NSUserDefaults *_videoUserDefaults;
-    NSUserDefaults *_audioUserDefaults;
-    CDUnknownBlockType _defaultsChangedHandler;
-    NSMutableSet *_observedKeys;
-    struct os_unfair_lock_s _lock;
-    _Bool _changingDefaultsMyself;
 }
 
-+ (void)Size;
-- (void);
++ (void)DefaultAutoFocusCenterWindowSize;
+- (void)eLeft;
 - (void);
 - (id);
 - (void);

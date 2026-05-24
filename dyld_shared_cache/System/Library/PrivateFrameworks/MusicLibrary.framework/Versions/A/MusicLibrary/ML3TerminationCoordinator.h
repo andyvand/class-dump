@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ML3TerminationCoordinator
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableSet *_signatures;
-    int _notifyToken;
 }
 
 + (id);
-- (void);
+- (void)9>8(;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)resolveReferencesInMutableAttributedString:stringsTable: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void)INTEGER PRIMARY KEY, category TEXT NOT NULL UNIQUE);

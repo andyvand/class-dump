@@ -6,29 +6,15 @@
 
 #import <NetworkStatistics/NWStatsSnapshot.h>
 
-@class NSData, NSDate, NSString, NSUUID, NWStatsConnProperties;
+@class NSString, NWStatsConnProperties;
 
 @interface NWStatsConnSnapshot : NWStatsSnapshot
 {
     NSString *_processName;
-    NSDate *_startTimestamp;
-    NSDate *_snapshotTimestamp;
-    double _startTimeInterval;
-    double _snapshotTimeInterval;
-    NSUUID *_uuid;
-    NSUUID *_euuid;
-    NSUUID *_cuuid;
-    NSUUID *_puuid;
-    NSUUID *_flowuuid;
-    unsigned int _flags;
-    struct nstat_msg_src_details_conn _nstat_details;
-    struct nstat_connection_descriptor *_descriptor;
-    NWStatsConnProperties *_currentProperties;
-    NWStatsConnProperties *_ancestralProperties;
 }
 
 - (id);
-- (void);
+- (void)2;
 - (void);
 - (void);
 - (id);
@@ -36,17 +22,17 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)8;
 - (double);
 - (double);
 - (unsigned long long);
-- (id);
+- (id);
 - (double);
 - (double);
 - (double);
@@ -56,10 +42,10 @@
 - (id);
 - (id);
 - (id);
+- (id)TRIFetchTreatmentTask;
+- (unsigned short)n;
 - (id);
-- (unsigned short);
-- (id);
-- (unsigned int);
+- (unsigned int)enum_kMDItemPhotosTitle_QueryTermsRatio_Prefix;
 - (_Bool);
 - (unsigned int);
 - (id);
@@ -73,27 +59,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (int);
+- (int)__cstring;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *ancestralParametersTLV;
-@property(retain, nonatomic) NWStatsConnProperties *ancestralProperties;
-@property(readonly, nonatomic) double connDuration;
-@property(readonly, nonatomic) double connSnapshotTimeIntervalSince1970;
-@property(readonly, nonatomic) double connSnapshotTimeIntervalSinceReferenceDate;
-@property(readonly, nonatomic) NSDate *connSnapshotTimestamp;
-@property(readonly, nonatomic) unsigned long long connStartContinuousTime;
-@property(readonly, nonatomic) double connStartTimeIntervalSince1970;
-@property(readonly, nonatomic) double connStartTimeIntervalSinceReferenceDate;
-@property(readonly, nonatomic) NSDate *connStartTimestamp;
 @property(retain, nonatomic) NWStatsConnProperties *currentProperties;
-@property(readonly, nonatomic) NSUUID *cuuid;
-@property(readonly, nonatomic) NSUUID *flowuuid;
-@property(readonly, nonatomic) _Bool hasNetAccess;
-@property(readonly, nonatomic) NSData *parametersTLV;
-@property(readonly, nonatomic) NSUUID *puuid;
-@property(readonly, nonatomic) NSData *remoteAddress;
-@property(readonly, nonatomic) unsigned short remotePort;
 
 @end
 

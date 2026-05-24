@@ -6,30 +6,24 @@
 
 #import <OfficeImport/OCMapper.h>
 
-@class NSData, NSString, NSURL, OCDReader, OITSUProgressContext;
+@class NSURL, OITSUProgressContext;
 
 __attribute__((visibility("hidden")))
 @interface OCImporter : OCMapper
 {
     NSURL *mURL;
-    NSData *mData;
-    OCDReader *mReader;
-    _Bool mTryAlternateReader;
-    OITSUProgressContext *mProgressContext;
-    CDUnknownBlockType mOfficeDOMInspector;
-    NSString *_lastPasswordAttempted;
 }
 
 + (Class);
 + (id);
 + (Class);
-+ (Class);
++ (Class));
 + (_Bool);
 + (void);
-- (_Bool);
+- (_Bool)T;
 - (void);
 - (void);
-- (void);
+- (void);
 - (Class);
 - (CDUnknownBlockType);
 - (id);
@@ -38,12 +32,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)oc.caption.mode.enabled;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id)
@@ -51,8 +45,6 @@ __attribute__((visibility("hidden")))
 - (void)ä;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *lastPasswordAttempted; // @synthesize lastPasswordAttempted=_lastPasswordAttempted;
-@property(copy, nonatomic) CDUnknownBlockType officeDOMInspector; // @synthesize officeDOMInspector=mOfficeDOMInspector;
 @property(retain) OITSUProgressContext *progressContext; // @synthesize progressContext=mProgressContext;
 
 @end

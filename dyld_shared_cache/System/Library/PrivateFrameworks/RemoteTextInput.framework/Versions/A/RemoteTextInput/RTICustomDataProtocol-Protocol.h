@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol NSSecureCoding;
+@class NSString;
 
 @protocol RTICustomDataProtocol
++ (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<NSSecureCoding> *customInfo;
 @property(retain, nonatomic) NSString *customInfoType;
 @end
 

@@ -6,29 +6,25 @@
 
 #import <IMDPersistence/IMDExportedRecordBatch.h>
 
-@class IMDExportedMessageRecordBatchResult, IMDFilteredMessageCounts, IMDMessageRecordExporterState;
+@class IMDMessageRecordExporterState;
 
 @interface IMDExportedMessageRecordBatch : IMDExportedRecordBatch
 {
     IMDMessageRecordExporterState *state;
-    IMDFilteredMessageCounts *filterCounts;
-    IMDExportedMessageRecordBatchResult *result;
 }
 
 + (_Bool);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)eting range;
 
 // Remaining properties
-@property(nonatomic, readonly) IMDFilteredMessageCounts *filterCounts; // @synthesize filterCounts;
-@property(nonatomic, readonly) IMDExportedMessageRecordBatchResult *result; // @synthesize result;
 @property(nonatomic, readonly) IMDMessageRecordExporterState *state; // @synthesize state;
 
 @end

@@ -6,21 +6,17 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 @interface PKTransactionReceiptRequest : PKPaymentWebServiceRequest
 {
     NSURL *_receiptProviderURL;
-    NSString *_authorizationToken;
-    NSData *_signature;
-    NSString *_receiptIdentifier;
-    NSString *_conversationIdentifier;
 }
 
 - (id);
+- (id)ԡV;
 - (id);
-- (id);
-- (id);
+- (id)qa;
 - (id);
 - (void);
 - (id)\;
@@ -28,11 +24,7 @@
 - (id)ame;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *authorizationToken; // @synthesize authorizationToken=_authorizationToken;
-@property(copy, nonatomic) NSString *conversationIdentifier; // @synthesize conversationIdentifier=_conversationIdentifier;
-@property(readonly, nonatomic) NSString *receiptIdentifier; // @synthesize receiptIdentifier=_receiptIdentifier;
 @property(readonly, nonatomic) NSURL *receiptProviderURL; // @synthesize receiptProviderURL=_receiptProviderURL;
-@property(readonly, nonatomic) NSData *signature; // @synthesize signature=_signature;
 
 @end
 

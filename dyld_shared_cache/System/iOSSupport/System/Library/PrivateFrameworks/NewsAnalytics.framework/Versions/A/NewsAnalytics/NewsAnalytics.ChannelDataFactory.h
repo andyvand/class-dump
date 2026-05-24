@@ -7,8 +7,6 @@
 @interface NewsAnalytics.ChannelDataFactory
 {
     id bundleSubscriptionManager;
-    id purchaseController;
-    id subscriptionController;
 }
 
 @end

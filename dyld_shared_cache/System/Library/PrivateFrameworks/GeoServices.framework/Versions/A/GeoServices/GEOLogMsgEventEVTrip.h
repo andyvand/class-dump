@@ -4,51 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventEVTrip
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_chargeLocationDetails;
-    NSString *_metro;
-    NSMutableArray *_realtimeDodgeballs;
-    NSMutableArray *_stopAddedDetails;
-    NSMutableArray *_stopRemovedDetails;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _chargingStopAddedThroughSar;
-    _Bool _originalTripIncludedChargingStation;
-    _Bool _outOfCharge;
-    _Bool _outOfRangeAlertDisplayed;
-    _Bool _tripIncludedPreferredChargingStation;
-    struct {
-        unsigned int has_chargingStopAddedThroughSar:1;
-        unsigned int has_originalTripIncludedChargingStation:1;
-        unsigned int has_outOfCharge:1;
-        unsigned int has_outOfRangeAlertDisplayed:1;
-        unsigned int has_tripIncludedPreferredChargingStation:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_chargeLocationDetails:1;
-        unsigned int read_metro:1;
-        unsigned int read_realtimeDodgeballs:1;
-        unsigned int read_stopAddedDetails:1;
-        unsigned int read_stopRemovedDetails:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)8Q16;
++ (Class)"<CNFileManager>";
++ (Class)%{public}@;
 + (Class);
-+ (Class);
-+ (Class);
-+ (Class);
-+ (_Bool)eed:(id)arg1;
++ (_Bool)setHasSpeed:(id)arg1;
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)#;
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -65,69 +37,53 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (id)P;
+- (_Bool);
+- (_Bool)P;
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void)initWithBundleIdentifier:localizedName:recordType:authorizationStatus: /* Error: Ran out of types for this method. */;
+- (void)initWithBundleIdentifier:localizedName:recordType:authorizationStatus: /* Error: Ran out of types for this method. */;
+- (void)hasLatched;
+- (void)deleteCharactersInRange: /* Error: Ran out of types for this method. */;
+- (_Bool)currentEnvironmentForKey: /* Error: Ran out of types for this method. */;
+- (unsigned long long)countryCodeFromCurrentLocale;
+- (id)countryCodeForCountryName:(unsigned long long)arg1;
+- (id)countryCodeByLookingUpCountryName: /* Error: Ran out of types for this method. */;
+- (void)ime;
+- (void)stopTime;
+- (void)llatorIdentifier;
+- (void)CNAuditToken",&,N,V_cnAuditToken;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
 - (void);
 - (void);
+- (id)oiceTriggerSecondPass[%{public}@]:Failed to get AOP trigger-time /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)stream.;
 - (_Bool);
 - (id);
 - (void);
-- (id)tShortChainedInstructionIndex:(struct _NSZone *)arg1;
+- (id)setShortChainedInstructionIndex:(struct _NSZone *)arg1;
 - (id)hildItemPlace;
 - (id)e,%.3lf,InputHorUnc,%.3lf,InputCourseUnc,%.3lf,Timestamp,%f;
 - (id)ÀP;
 - (void)Æ;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *chargeLocationDetails;
-@property(nonatomic) _Bool chargingStopAddedThroughSar;
-@property(nonatomic) _Bool hasChargingStopAddedThroughSar;
-@property(readonly, nonatomic) _Bool hasMetro;
-@property(nonatomic) _Bool hasOriginalTripIncludedChargingStation;
 @property(nonatomic) _Bool hasOutOfCharge;
-@property(nonatomic) _Bool hasOutOfRangeAlertDisplayed;
-@property(nonatomic) _Bool hasTripIncludedPreferredChargingStation;
-@property(retain, nonatomic) NSString *metro;
-@property(nonatomic) _Bool originalTripIncludedChargingStation;
-@property(nonatomic) _Bool outOfCharge;
-@property(nonatomic) _Bool outOfRangeAlertDisplayed;
-@property(retain, nonatomic) NSMutableArray *realtimeDodgeballs;
-@property(retain, nonatomic) NSMutableArray *stopAddedDetails;
-@property(retain, nonatomic) NSMutableArray *stopRemovedDetails;
-@property(nonatomic) _Bool tripIncludedPreferredChargingStation;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

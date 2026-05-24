@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface _PFEncodedData
 {
     NSData *_aData;
-    unsigned int _byteCount;
-    unsigned int _reserved;
 }
 
 + (Class)le Device ID:%d /* Error: Ran out of types for this method. */;
-- (unsigned long long);
-- (id);
+- (unsigned long long)Gf;
+- (id)Cp;
 - (oneway void);
 - (id);
-- (unsigned long long);
-- (Class);
+- (unsigned long long);
+- (Class)5;
 - (struct _NSRange);
 - (id);
 - (_Bool);
@@ -29,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (const void *);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id)Delete propagation prefetching failed with error:(struct _NSRange)arg1 %@

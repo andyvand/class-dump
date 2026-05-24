@@ -13,12 +13,12 @@
     GEOResumeRouteHandle *_resumeRouteHandle;
 }
 
-+ (id);
++ (id)G4;
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)_;
+- (void),N,V_telemetryFlowID;
 - (void);
 - (void)er>"16@"NSError"24;
 

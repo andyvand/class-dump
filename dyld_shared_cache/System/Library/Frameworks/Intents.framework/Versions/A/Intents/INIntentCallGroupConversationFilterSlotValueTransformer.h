@@ -13,7 +13,7 @@
 + (Class);
 + (long long),C,N,V_payloadStringLists;
 - (id);
-- (id)dItem;
+- (id)INWorkoutAssociatedItem;
 
 @end
 

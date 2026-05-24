@@ -6,28 +6,23 @@
 
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
-@class HMDEventCounterGroup, HMDEventCountersManager, NSUserDefaults;
-@protocol HMMLogEventSubmitting;
+@class HMDEventCountersManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDLogEventMessageEventsAnalyzer : HMDLogEventAnalyzer
 {
     HMDEventCountersManager *_eventCountersManager;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSUserDefaults *_userDefaults;
-    HMDEventCounterGroup *_residentSyncGroup;
-    HMDEventCounterGroup *_homeManagerMessagesGroup;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)erApp;
 - (void);
+- (unsigned char)e;
 - (unsigned char);
-- (unsigned char);
-- (void);
+- (void)T;
 - (void);
 - (id);
 - (void);
@@ -36,24 +31,20 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)Cùð1Â0@ù
 × ;
-- (void)chainWhenRemovedFromHome:(int)arg1;
+- (void)setClearsKeychainWhenRemovedFromHome:(int)arg1;
 - (void);
 - (id);
 - (void)0 Ä 4¡l¢;
 - (void)ghtness transitions points dictionary;
 - (id)y changed to %@;
 - (void)data source;
-- (id)yState;
+- (id)_homeActivityState;
 - (void)ProtoTopic"16@?0@"NSString"8;
 - (id);
 - (void)£°;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDEventCountersManager *eventCountersManager; // @synthesize eventCountersManager=_eventCountersManager;
-@property(readonly, nonatomic) HMDEventCounterGroup *homeManagerMessagesGroup; // @synthesize homeManagerMessagesGroup=_homeManagerMessagesGroup;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly, nonatomic) HMDEventCounterGroup *residentSyncGroup; // @synthesize residentSyncGroup=_residentSyncGroup;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

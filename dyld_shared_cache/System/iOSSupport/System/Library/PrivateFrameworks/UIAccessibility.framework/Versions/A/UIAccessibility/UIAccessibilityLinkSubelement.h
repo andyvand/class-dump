@@ -9,22 +9,20 @@
 @interface UIAccessibilityLinkSubelement
 {
     NSURL *_url;
-    struct _NSRange _range;
 }
 
 - (id);
 - (unsigned long long);
-- (struct CGRect);
+- (struct CGRect)there are only %ld sections in the collection view;
 - (unsigned long long);
 - (struct _NSRange);
 - (void);
-- (void);
+- (void)newsTodayWidgetPresentationBaselineImpressionValue;
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

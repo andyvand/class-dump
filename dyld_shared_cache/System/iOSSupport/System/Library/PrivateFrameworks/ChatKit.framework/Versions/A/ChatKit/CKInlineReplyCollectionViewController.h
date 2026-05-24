@@ -6,63 +6,53 @@
 
 #import <ChatKit/CKTranscriptCollectionViewController.h>
 
-@class CKInlineReplyTransitionProperties, NSDictionary;
+@class NSDictionary;
 
 @interface CKInlineReplyCollectionViewController : CKTranscriptCollectionViewController
 {
     _Bool _animatingIn;
-    _Bool _animatingOut;
-    CKInlineReplyTransitionProperties *_transitionProperties;
-    NSDictionary *_currentFrameMapForNextReload;
-    NSDictionary *_targetFrameMapForAnimateOut;
-    NSDictionary *_currentBalloonOffsetMap;
 }
 
++ (id)INLINE_MENU_PLEASE_READ_COMMENTS selected tags.;
 + (id);
-+ (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)firstMatchingRangeInNote;
+- (id)callingParticipant;
+- (_Bool)languageHasSpaces:parentAttachment: /* Error: Ran out of types for this method. */;
+- (void)Selection;
+- (void)lDestinationFolder;
+- (void)PKPaperTextAttachment;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (_Bool)l;
+- (_Bool)t;
 - (id);
+- (id)e;
+- (void)t;
+- (void)c;
+- (id);
+- (id)to generate fallback audio:Creating AVComposotion failed with error:%@ attachment:%s /* Error: Ran out of types for this method. */;
+- (void)@, hasHint:(id)arg1 %@}%s:(id)arg2 %d;
+- (id)e who currently have access to it may lose it.;
 - (_Bool);
 - (id);
 - (struct UIEdgeInsets);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void)`1;
 
 // Remaining properties
-@property(nonatomic, getter=isAnimatingIn) _Bool animatingIn; // @synthesize animatingIn=_animatingIn;
-@property(nonatomic, getter=isAnimatingOut) _Bool animatingOut; // @synthesize animatingOut=_animatingOut;
-@property(retain, nonatomic) NSDictionary *currentBalloonOffsetMap; // @synthesize currentBalloonOffsetMap=_currentBalloonOffsetMap;
 @property(retain, nonatomic) NSDictionary *currentFrameMapForNextReload; // @synthesize currentFrameMapForNextReload=_currentFrameMapForNextReload;
-@property(retain, nonatomic) NSDictionary *targetFrameMapForAnimateOut; // @synthesize targetFrameMapForAnimateOut=_targetFrameMapForAnimateOut;
-@property(retain, nonatomic) CKInlineReplyTransitionProperties *transitionProperties; // @synthesize transitionProperties=_transitionProperties;
 
 @end
 

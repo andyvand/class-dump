@@ -14,7 +14,7 @@
 + (id);
 + (id);
 - (void);
-- (long long);
+- (long long)3;
 - (long long);
 - (long long);
 - (void);

@@ -6,36 +6,17 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class CalUIControlView, EKEvent, EKInviteeAlternativeTimeSearcher, EKUINewTimeOptionView, EKUIProposedTimeDateTimeGadget, EKUIShowMoreOptionView, NSArray, NSDate, NSStackView, NSString, NSView;
+@class CalUIControlView;
 
 @interface EKUINewTimeOptionsGadget : EKUISingleViewGadget
 {
     _Bool _hasAvailabilityResults;
-    _Bool _hasError;
-    CalUIControlView *_container;
-    EKUIProposedTimeDateTimeGadget *_proposedTimeDateTimeGadget;
-    NSStackView *_containerStackView;
-    NSStackView *_allInviteesStackView;
-    NSStackView *_someInviteesStackView;
-    EKUINewTimeOptionView *_currentProposedTimeOptionView;
-    NSView *_latestViewInAllInviteesStackView;
-    NSView *_latestViewInSomeInviteesStackView;
-    EKUIShowMoreOptionView *_allInviteesShowMoreView;
-    EKUIShowMoreOptionView *_someInviteesShowMoreView;
-    unsigned long long _numAllAttendeesCanAttend;
-    unsigned long long _numSomeAttendeesCanAttend;
-    unsigned long long _lastSelectedRow;
-    EKInviteeAlternativeTimeSearcher *_availabilitySearcher;
-    EKEvent *_lastSearchedEvent;
-    NSDate *_currentProposedStartDate;
-    NSArray *_allInviteeTimes;
-    NSArray *_someInviteeTimes;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -45,25 +26,25 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)B;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)hz;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)!;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -72,7 +53,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (id);
 - (id);
@@ -81,7 +62,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (_Bool);
 - (id);
 - (void);
@@ -94,37 +75,11 @@
 - (void)Ä#Ð1Â0@ù
 × ;
 - (_Bool);
-- (_Bool)sVerticalScroller;
-- (void);
+- (_Bool)hasVerticalScroller;
+- (void)o;
 
 // Remaining properties
-@property(retain) NSArray *allInviteeTimes; // @synthesize allInviteeTimes=_allInviteeTimes;
-@property(retain) EKUIShowMoreOptionView *allInviteesShowMoreView; // @synthesize allInviteesShowMoreView=_allInviteesShowMoreView;
-@property(retain) NSStackView *allInviteesStackView; // @synthesize allInviteesStackView=_allInviteesStackView;
-@property(retain) EKInviteeAlternativeTimeSearcher *availabilitySearcher; // @synthesize availabilitySearcher=_availabilitySearcher;
 @property(retain) CalUIControlView *container; // @synthesize container=_container;
-@property(retain) NSStackView *containerStackView; // @synthesize containerStackView=_containerStackView;
-@property(retain) NSDate *currentProposedStartDate; // @synthesize currentProposedStartDate=_currentProposedStartDate;
-@property(retain) EKUINewTimeOptionView *currentProposedTimeOptionView; // @synthesize currentProposedTimeOptionView=_currentProposedTimeOptionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAvailabilityResults; // @synthesize hasAvailabilityResults=_hasAvailabilityResults;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(readonly) unsigned long long hash;
-@property(retain) EKEvent *lastSearchedEvent; // @synthesize lastSearchedEvent=_lastSearchedEvent;
-@property unsigned long long lastSelectedRow; // @synthesize lastSelectedRow=_lastSelectedRow;
-@property(retain) NSView *latestViewInAllInviteesStackView; // @synthesize latestViewInAllInviteesStackView=_latestViewInAllInviteesStackView;
-@property(retain) NSView *latestViewInSomeInviteesStackView; // @synthesize latestViewInSomeInviteesStackView=_latestViewInSomeInviteesStackView;
-@property unsigned long long numAllAttendeesCanAttend; // @synthesize numAllAttendeesCanAttend=_numAllAttendeesCanAttend;
-@property unsigned long long numSomeAttendeesCanAttend; // @synthesize numSomeAttendeesCanAttend=_numSomeAttendeesCanAttend;
-@property(retain) EKUIProposedTimeDateTimeGadget *proposedTimeDateTimeGadget; // @synthesize proposedTimeDateTimeGadget=_proposedTimeDateTimeGadget;
-@property(retain) NSArray *someInviteeTimes; // @synthesize someInviteeTimes=_someInviteeTimes;
-@property(retain) EKUIShowMoreOptionView *someInviteesShowMoreView; // @synthesize someInviteesShowMoreView=_someInviteesShowMoreView;
-@property(retain) NSStackView *someInviteesStackView; // @synthesize someInviteesStackView=_someInviteesStackView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,68 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CKAcknowledgmentGlyphView, CKPinnedConversationActivityItemViewBackdropLayer, CKPinnedConversationActivityItemViewShadowLayer, CKPinnedConversationTapbackBubbleActivityItem, IMTapback, UIView;
-@protocol CKPinnedConversationActivityItem, CKPinnedConversationActivityItemViewDelegate;
+@class CKAcknowledgmentGlyphView;
+@protocol CKPinnedConversationActivityItemViewDelegate;
 
 @interface CKPinnedConversationTapbackBubble
 {
     id <CKPinnedConversationActivityItemViewDelegate> _activityItemViewDelegate;
-    long long _activityItemViewContentScale;
-    long long _originationHorizontalDirection;
-    CKPinnedConversationTapbackBubbleActivityItem *_tapbackActivityItem;
-    long long _originationDirection;
-    double _preferredTailAttachmentPointXCoordinate;
-    CKAcknowledgmentGlyphView *_tapbackGlyph;
-    IMTapback *_displayedTapback;
-    UIView *_tapbackView;
-    UIView *_tapbackContainerView;
-    CKPinnedConversationActivityItemViewBackdropLayer *_backdropLayer;
-    CAShapeLayer *_backdropMaskShapeLayer;
-    CKPinnedConversationActivityItemViewShadowLayer *_broadShadowLayer;
-    CKPinnedConversationActivityItemViewShadowLayer *_tightShadowLayer;
-    struct CGSize _parentAvatarViewSize;
-    struct CGPoint _originationPoint;
 }
 
 + (struct CGSize);
 + (struct CGRect);
 + (id);
 + (struct CGSize);
-+ (struct CGRect);
++ (struct CGRect);
 + (struct CGSize);
-+ (struct CGSize);
-+ (struct CGRect);
++ (struct CGSize)B32;
++ (struct CGRect)extStorage) != nil);
 + (BOOL);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)isMainThread;
+- (id)isEditingTemporaryAttributes;
+- (id)isDroppingLastChecklistItem;
+- (id)isDefaultFolderForAccount;
+- (_Bool)initWithTimelineSectionType:referenceDate:title:sortOrder: /* Error: Ran out of types for this method. */;
+- (_Bool)der: /* Error: Ran out of types for this method. */;
+- (void)dictionaryWithObjects:(id)arg1 forKeys: /* Error: Ran out of types for this method. */;
+- (void)dictionaryWithDictionary:(id)arg1;
+- (void)attributedTitleWithBaseAttributes:(long long)arg1 highlightColor:insideFrame: /* Error: Ran out of types for this method. */;
+- (void)_makeDecisionForMovingModernObjectsToModernDestination;
+- (void)ingTextCheckingResults;
+- (void)N,V_isHandlingDrawingDidChange;
+- (void)MetadataNotification;
 - (long long);
 - (id);
-- (id);
+- (id).;
 - (void);
 - (id);
-- (long long);
-- (long long);
+- (long long)folder;
+- (long long)e folder;
+- (void)Ud6A/Library/Caches/com.apple.xbs/TemporaryDirectory.FLj4fX/Sources/NotesFramework/Ironcade/SharedUI/WebView/NoteHTMLEditorView.m;
 - (void);
-- (void);
-- (id);
+- (id);
 - (struct CGPoint);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (struct CGSize);
@@ -81,33 +66,13 @@
 - (id);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)`N;
 - (id);
 - (void)"16;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long acknowledgmentType;
-@property(retain, nonatomic) id <CKPinnedConversationActivityItem> activityItem;
-@property(nonatomic) long long activityItemViewContentScale; // @synthesize activityItemViewContentScale=_activityItemViewContentScale;
-@property(nonatomic) __weak id <CKPinnedConversationActivityItemViewDelegate> activityItemViewDelegate; // @synthesize activityItemViewDelegate=_activityItemViewDelegate;
-@property(retain, nonatomic) CKPinnedConversationActivityItemViewBackdropLayer *backdropLayer; // @synthesize backdropLayer=_backdropLayer;
-@property(retain, nonatomic) CAShapeLayer *backdropMaskShapeLayer; // @synthesize backdropMaskShapeLayer=_backdropMaskShapeLayer;
-@property(retain, nonatomic) CKPinnedConversationActivityItemViewShadowLayer *broadShadowLayer; // @synthesize broadShadowLayer=_broadShadowLayer;
-@property(retain, nonatomic) IMTapback *displayedTapback; // @synthesize displayedTapback=_displayedTapback;
-@property(nonatomic) long long originationDirection; // @synthesize originationDirection=_originationDirection;
-@property(nonatomic) long long originationHorizontalDirection; // @synthesize originationHorizontalDirection=_originationHorizontalDirection;
-@property(nonatomic) struct CGPoint originationPoint; // @synthesize originationPoint=_originationPoint;
-@property(nonatomic) struct CGSize parentAvatarViewSize; // @synthesize parentAvatarViewSize=_parentAvatarViewSize;
-@property(nonatomic) double preferredTailAttachmentPointXCoordinate; // @synthesize preferredTailAttachmentPointXCoordinate=_preferredTailAttachmentPointXCoordinate;
-@property(readonly, nonatomic) _Bool supportsActivityItemViewContentScale;
-@property(readonly, nonatomic) _Bool supportsAlignmentWithOriginationSubAvatarFrame;
-@property(readonly, nonatomic) struct CGPoint tailAttachmentPoint;
-@property(readonly, nonatomic) CKPinnedConversationTapbackBubbleActivityItem *tapbackActivityItem; // @synthesize tapbackActivityItem=_tapbackActivityItem;
-@property(retain, nonatomic) UIView *tapbackContainerView; // @synthesize tapbackContainerView=_tapbackContainerView;
 @property(retain, nonatomic) CKAcknowledgmentGlyphView *tapbackGlyph; // @synthesize tapbackGlyph=_tapbackGlyph;
-@property(retain, nonatomic) UIView *tapbackView; // @synthesize tapbackView=_tapbackView;
-@property(retain, nonatomic) CKPinnedConversationActivityItemViewShadowLayer *tightShadowLayer; // @synthesize tightShadowLayer=_tightShadowLayer;
 
 @end
 

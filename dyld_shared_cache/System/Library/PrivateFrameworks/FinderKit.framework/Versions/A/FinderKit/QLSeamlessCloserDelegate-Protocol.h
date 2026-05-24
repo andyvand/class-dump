@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSImage, QLPreviewView;
+
 @protocol QLSeamlessCloserDelegate
+
+@optional
+- (NSImage *);
+- (QLPreviewView *);
 @end
 

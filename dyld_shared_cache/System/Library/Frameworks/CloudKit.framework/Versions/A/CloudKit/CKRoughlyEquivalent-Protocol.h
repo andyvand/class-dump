@@ -7,6 +7,7 @@
 @class CKRoughlyEquivalentProperties;
 
 @protocol CKRoughlyEquivalent
+- (CKRoughlyEquivalentProperties *)?;
 
 // Remaining properties
 @property(readonly, nonatomic) CKRoughlyEquivalentProperties *equivalencyProperties;

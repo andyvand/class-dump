@@ -6,31 +6,15 @@
 
 #import <Montreal/MLPLayer.h>
 
-@class MLPOptimizer, MPSMatrix, MPSMatrixCopy, MPSMatrixNeuron, MPSMatrixSum, MPSVector, NSArray, NSString;
-
 @interface MLPEmbeddingLayer : MLPLayer
 {
     struct vector<std::map<unsigned int, std::vector<unsigned int>>, std::allocator<std::map<unsigned int, std::vector<unsigned int>>>> wordIDRepetitions;
-    struct vector<float, std::allocator<float>> weightsInitial;
-    unsigned long long _vocabSize;
-    unsigned long long _embeddingDimension;
-    MPSMatrixCopy *_matrixCopy;
-    const void *_initialWeights;
-    MPSMatrix *_weights;
-    MPSMatrix *_weightGradients;
-    MLPOptimizer *_optimizer;
-    MPSMatrix *_weights_mom;
-    MPSMatrix *_weights_vel;
-    MPSMatrixNeuron *_zeroFilter;
-    MPSMatrixSum *_sumFilter;
-    MPSMatrixCopy *_matrixCopyFilter;
-    MPSVector *_offsetVector;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)3;
 - (id);
 - (void);
 - (void);
@@ -39,54 +23,34 @@
 - (void);
 - (void);
 - (void);
+- (void)e;
 - (void);
 - (void);
 - (void);
+- (id)3;
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
 - (id);
 - (const void *);
-- (id);
+- (id)4he;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)o;
 - (id);
-- (void);
+- (void)4he;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned long long embeddingDimension; // @synthesize embeddingDimension=_embeddingDimension;
-@property(readonly) unsigned long long hash;
-@property const void *initialWeights; // @synthesize initialWeights=_initialWeights;
-@property(retain) MPSMatrixCopy *matrixCopy; // @synthesize matrixCopy=_matrixCopy;
-@property(retain) MPSMatrixCopy *matrixCopyFilter; // @synthesize matrixCopyFilter=_matrixCopyFilter;
-@property(readonly) NSArray *mlpOptimizers;
-@property(retain) MPSVector *offsetVector; // @synthesize offsetVector=_offsetVector;
-@property(retain) MLPOptimizer *optimizer; // @synthesize optimizer=_optimizer;
-@property(retain) MPSMatrixSum *sumFilter; // @synthesize sumFilter=_sumFilter;
-@property(readonly) Class superclass;
 @property unsigned long long vocabSize; // @synthesize vocabSize=_vocabSize;
-@property(retain) MPSMatrix *weightGradients; // @synthesize weightGradients=_weightGradients;
-@property(retain) MPSMatrix *weights; // @synthesize weights=_weights;
-@property(retain) MPSMatrix *weights_mom; // @synthesize weights_mom=_weights_mom;
-@property(retain) MPSMatrix *weights_vel; // @synthesize weights_vel=_weights_vel;
-@property(retain) MPSMatrixNeuron *zeroFilter; // @synthesize zeroFilter=_zeroFilter;
 
 @end
 

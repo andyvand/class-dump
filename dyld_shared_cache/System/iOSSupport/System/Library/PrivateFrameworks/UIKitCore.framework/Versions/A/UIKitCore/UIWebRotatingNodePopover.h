@@ -4,48 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMNode, NSString, UIPopoverController;
-@protocol UIWebRotatingNodePopoverDelegate;
+@class DOMNode;
 
 @interface UIWebRotatingNodePopover
 {
     _Bool _isRotating;
-    DOMNode *_node;
-    struct CGPoint _presentationPoint;
-    UIPopoverController *_popoverController;
-    id <UIWebRotatingNodePopoverDelegate> _dismissDelegate;
 }
 
+- (void)indexingQueryProvider;
+- (void)changeDetailsForFetchResult:(id)arg1;
+- (struct CGPoint)__im_nanosecondTimeInterval;
+- (void)__flushPendingForceReloadForHandles;
 - (void);
-- (void);
-- (struct CGPoint);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)shouldForceArchivedMessagesSync;
+- (id);
+- (void)};
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)e fallback;
 - (void);
 - (id)={CGPoint=dd}{CGSize=dd}}32@0:8@16Q24 /* Error: Ran out of types for this method. */;
-- (void)veDragPreviewForPresentation:(id)arg1 dragItem: /* Error: Ran out of types for this method. */;
+- (void)_clickPresentationInteraction:(id)arg1 liveDragPreviewForPresentation:dragItem: /* Error: Ran out of types for this method. */;
 - (void)ld sections in the table view.;
 - (void)µ­;
 - (id)K;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) id <UIWebRotatingNodePopoverDelegate> dismissDelegate; // @synthesize dismissDelegate=_dismissDelegate;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) DOMNode *node; // @synthesize node=_node;
-@property(retain, nonatomic) UIPopoverController *popoverController; // @synthesize popoverController=_popoverController;
-@property(nonatomic) struct CGPoint presentationPoint; // @synthesize presentationPoint=_presentationPoint;
-@property(readonly) Class superclass;
 
 @end
 

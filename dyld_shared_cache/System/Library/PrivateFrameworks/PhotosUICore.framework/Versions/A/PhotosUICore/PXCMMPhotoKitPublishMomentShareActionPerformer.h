@@ -6,24 +6,14 @@
 
 #import <PhotosUICore/PXCMMPublishActionPerformer.h>
 
-@class NSDate, PHMomentShare;
 @protocol NSObject;
 
 @interface PXCMMPhotoKitPublishMomentShareActionPerformer : PXCMMPublishActionPerformer
 {
     id <NSObject> _progressAlertToken;
-    int _thumbnailRequestID;
-    int _previewRequestID;
-    PHMomentShare *_momentShare;
-    _Bool _didFinalize;
-    NSDate *_initialStartDate;
-    NSDate *_previewRequestStartDate;
-    NSDate *_creationRequestStartDate;
-    NSDate *_publishStartDate;
-    NSDate *_finishedDate;
 }
 
-+ (void);
++ (void)�6O;
 - (void);
 - (void);
 - (void);
@@ -31,13 +21,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);

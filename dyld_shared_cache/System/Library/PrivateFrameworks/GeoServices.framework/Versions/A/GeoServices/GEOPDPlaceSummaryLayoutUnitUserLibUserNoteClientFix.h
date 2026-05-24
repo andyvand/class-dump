@@ -12,16 +12,16 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)r :(id)arg1 %{public}@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)?16@24q32@?40@48;
-- (id)anCount;
+- (id)_lqmTranCount;
 - (id)¬2;
-- (id)lt;
+- (id)ipGeoLookupResult;
 
 @end
 

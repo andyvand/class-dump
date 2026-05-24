@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIDatePicker;
+
 @protocol _UIDatePickerCalendarTimeViewDelegate
+- (void);
+- (UIDatePicker *);
 @end
 

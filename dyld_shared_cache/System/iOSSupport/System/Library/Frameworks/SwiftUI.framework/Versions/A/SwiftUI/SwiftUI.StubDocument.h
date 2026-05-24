@@ -10,11 +10,11 @@
     id viewProvider;
 }
 
-- (_Bool);
+- (_Bool)BlueprintPipeline.SyncDetachedTask;
 - (_Bool);
 - (_Bool);
 - (id)AAyA13_yKÁyA14_GAFA15_GA17_GAHGAMGAJyA8_GGAKGtGSgGGA31_GSgtGGk|ÁGMMG;
-- (void)dsBuilder;
+- (void)CommandsBuilder;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool hasUnsavedChanges;

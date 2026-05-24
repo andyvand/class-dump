@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCoalescer, CKContainerOptions, CKDAppContainerTuple, CKDContainer, CKDLogicalDeviceScopedClientProxy, CKDXPCConnection, CKEntitlements, NSString;
-@protocol CKXPCContainerScopedClient;
+@class CKDAppContainerTuple;
 
 @interface CKDContainerProxy
 {
     _Bool _inactive;
-    _Bool _memoryPressure;
-    CKDContainer *_container;
-    CKDAppContainerTuple *_appContainerTuple;
-    CKEntitlements *_entitlements;
-    CKContainerOptions *_options;
-    id <CKXPCContainerScopedClient> _distantContainer;
-    CKDXPCConnection *_connection;
-    unsigned long long _accessCount;
-    CKDContainer *_strongContainer;
-    CKDLogicalDeviceScopedClientProxy *_logicalDeviceScopedClientProxy;
-    CKCoalescer *_coalescer;
 }
 
 + (Class);
@@ -29,41 +17,29 @@
 - (void);
 - (id);
 - (void);
+- (void)|;
 - (void);
-- (void);
-- (Class);
-- (void);
-- (id);
+- (Class)noVerb::common_UserEntity /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (_Bool);
 - (void);
-- (_Bool);
+- (id);
+- (_Bool)unregisterHookResponder: /* Error: Ran out of types for this method. */;
+- (void)_pruneFrequency;
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void)ssingAssetStatusRequest;
+- (_Bool)?;
+- (_Bool)missingAssetStatusRecord;
+- (void)CKDPUpdateMissingAssetStatusRequest;
 - (id)S;
-- (id)istType;
+- (id)stringListType;
 - (void)r:%@ /* Error: Ran out of types for this method. */;
 - (id)records have been decrypted for operation %{public}@;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CKDAppContainerTuple *appContainerTuple; // @synthesize appContainerTuple=_appContainerTuple;
-@property(readonly, nonatomic) __weak CKDXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly) __weak CKDContainer *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <CKXPCContainerScopedClient> distantContainer; // @synthesize distantContainer=_distantContainer;
-@property(readonly, copy, nonatomic) CKEntitlements *entitlements; // @synthesize entitlements=_entitlements;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CKContainerOptions *options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UISplitViewControllerAdaptivePanelLayout
 {
     id data;
-    id solution;
-    id dataSource;
-    id delegate;
 }
 
-- (void);
-- (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns);
-- (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns);
-- (long long);
-- (long long);
-- (long long);
+- (void)anding asset requested for message %@, setting IMCMMStateCompleted;
+- (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns)o process.;
+- (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns)nlock database for %ld services;
+- (long long)on who sent this message to us in the first place;
+- (long long)Adding %@ to the devices to send this message to, They were the original person who sent this message to us in the first place;
+- (long long)on parameters shouldFilter %@ requestProxy %@;
 - (struct CGRect);
 - (unsigned long long);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)#@;
 - (unsigned long long);
 - (long long);
 - (double);
@@ -33,7 +28,7 @@
 - (void);
 - (void);
 - (long long);
-- (double);
+- (double);
 - (struct UIEdgeInsets);
 - (unsigned long long);
 - (unsigned long long);
@@ -44,11 +39,11 @@
 - (_Bool);
 - (id);
 - (struct CGSize);
-- (void);
-- (id);
+- (void)familyControlsEnabled;
+- (id)setupIfNecessary;
 - (long long);
 - (id);
-- (struct CGSize)ttingLength:hasExpandedActiveIndicator: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_sizeForMaximumContentSizeFittingLength:hasExpandedActiveIndicator: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool) ;
 - (void)ì5l;
@@ -58,13 +53,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize contentSize;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long displayMode;
-@property(nonatomic, readonly) _Bool isCollapsed;
-@property(nonatomic, readonly) struct CGSize minimumSize;
-@property(nonatomic, readonly) struct CGSize preferredSize;
-@property(nonatomic, readonly) long long primaryEdge;
-@property(nonatomic, readonly) long long splitBehavior;
 
 @end
 

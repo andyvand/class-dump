@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKRecognitionController;
-@protocol PKAutoRefineTaskCoordinatorDelegate;
+@class PKRecognitionController;
 
 @interface PKAutoRefineTaskCoordinator
 {
     PKRecognitionController *_recognitionController;
-    id <PKAutoRefineTaskCoordinatorDelegate> _delegate;
-    struct {
-        unsigned int delegateSupportsTiledView:1;
-        unsigned int delegateSupportsReplaceStrokes:1;
-        unsigned int delegateSupportsRecentStrokes:1;
-    } _delegateFlags;
-    double _userInteractionDelay;
 }
 
 - (double);
@@ -28,17 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) double userInteractionDelay; // @synthesize userInteractionDelay=_userInteractionDelay;
 
 @end

@@ -15,7 +15,7 @@
 
 - (void);
 - (void)shouldShowTitleChevron;
-- (id)Around123679412;
+- (id)workAround123679412;
 - (void)mÑ;
 
 // Remaining properties

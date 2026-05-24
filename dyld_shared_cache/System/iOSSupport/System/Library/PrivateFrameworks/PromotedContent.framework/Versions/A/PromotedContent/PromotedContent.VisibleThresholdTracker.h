@@ -7,13 +7,6 @@
 @interface PromotedContent.VisibleThresholdTracker
 {
     id recordImpression;
-    id recordVisibleDuration;
-    id seenThresholds;
-    id confirmedImpressionTimer;
-    id impressionBeganTimestamp;
-    id clock;
-    id impressionDuration;
-    id lock;
 }
 
 @end

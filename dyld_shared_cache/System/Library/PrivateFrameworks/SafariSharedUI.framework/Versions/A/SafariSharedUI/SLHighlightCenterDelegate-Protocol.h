@@ -5,5 +5,6 @@
 //
 
 @protocol SLHighlightCenterDelegate
+- (void);
 @end
 

@@ -37,7 +37,7 @@
 - (void);
 - (id);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -59,7 +59,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void *);
 - (void);
 - (void);
@@ -72,34 +72,17 @@
 - (unsigned int);
 - (void);
 - (id);
-- (id);
-- (unsigned int);
-- (void);
+- (id);
+- (unsigned int)0-0026BB765291;
+- (void)!;
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)UTF8String;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id _controller;
-@property(readonly, nonatomic) unsigned long long capabilities;
-@property(readonly, nonatomic) unsigned long long capabilitiesOfCPU;
-@property(readonly, nonatomic) unsigned long long capabilitiesOfNetwork;
-@property(readonly, nonatomic) id controller;
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isAVInterfaceReady;
-@property(nonatomic) void *localVideoBackLayer;
-@property(nonatomic) void *localVideoLayer;
-@property(nonatomic) unsigned int maxBitrate;
 @property(readonly, nonatomic) unsigned int overallChatState;
-@property(nonatomic) _Bool shouldKeepCameraRunning;
-@property(readonly, nonatomic) _Bool supportsLayers;
-@property(readonly, nonatomic) _Bool supportsRelay;
-@property(readonly, nonatomic) _Bool systemCanAudioChat;
-@property(readonly, nonatomic) _Bool systemCanVideoChat;
-@property(readonly, nonatomic) _Bool systemSupportsBackFacingCamera;
-@property(readonly, nonatomic) _Bool systemSupportsFrontFacingCamera;
 
 @end
 

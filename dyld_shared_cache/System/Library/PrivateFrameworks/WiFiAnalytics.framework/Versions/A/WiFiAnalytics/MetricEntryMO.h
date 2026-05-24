@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSDate;
 
 @interface MetricEntryMO
 {
 }
 
-+ (unsigned long long);
++ (unsigned long long)j;
 + (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(retain, nonatomic) NSData *eventMessage; // @dynamic eventMessage;
 
 @end
 

@@ -5,9 +5,9 @@
 //
 
 @protocol MFAudioSessionControlling
+- (void)for account:(long long)arg1 %@;
 
 // Remaining properties
 @property(nonatomic, readonly) long long renderingMode;
-@property(nonatomic, readonly) _Bool supportsMultichannelAudio;
 @end
 

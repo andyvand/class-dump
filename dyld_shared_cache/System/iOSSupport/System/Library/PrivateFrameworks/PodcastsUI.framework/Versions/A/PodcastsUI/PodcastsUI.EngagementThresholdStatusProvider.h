@@ -7,7 +7,6 @@
 @interface PodcastsUI.EngagementThresholdStatusProvider
 {
     id managedObjectContext;
-    id userDefaults;
 }
 
 @end

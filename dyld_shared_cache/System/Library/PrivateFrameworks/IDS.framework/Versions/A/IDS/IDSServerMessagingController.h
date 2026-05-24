@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSXPCDaemonController, NSHashTable, NSMutableDictionary, NSSet, NSString;
+@class NSString;
 
 @interface IDSServerMessagingController
 {
     struct os_unfair_lock_s _daemonControllerLock;
-    struct os_unfair_lock_s _inFlightLock;
-    NSString *_topic;
-    NSSet *_commands;
-    NSHashTable *_delegateMap;
-    IDSXPCDaemonController *_daemonController;
-    NSString *_uuid;
-    NSMutableDictionary *_inFlightRequests;
 }
 
 - (void);
@@ -28,11 +21,11 @@
 - (id);
 - (id);
 - (struct os_unfair_lock_s);
-- (void);
+- (void)1;
 - (void);
 - (struct os_unfair_lock_s);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,7 +35,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)BluetoothHCIAcceptSynchronousConnectionRequest:(id)arg1 inTransmitBandwidth:inReceiveBandwidth:inMaxLatency:inContentFormat:inRetransmissionEffort:inPacketType:outSynchronousConnectionCompleteResults: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -51,21 +44,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *commands; // @synthesize commands=_commands;
-@property(retain, nonatomic) IDSXPCDaemonController *daemonController; // @synthesize daemonController=_daemonController;
-@property(nonatomic) struct os_unfair_lock_s daemonControllerLock; // @synthesize daemonControllerLock=_daemonControllerLock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSHashTable *delegateMap; // @synthesize delegateMap=_delegateMap;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct os_unfair_lock_s inFlightLock; // @synthesize inFlightLock=_inFlightLock;
-@property(retain, nonatomic) NSMutableDictionary *inFlightRequests; // @synthesize inFlightRequests=_inFlightRequests;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *topic; // @synthesize topic=_topic;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

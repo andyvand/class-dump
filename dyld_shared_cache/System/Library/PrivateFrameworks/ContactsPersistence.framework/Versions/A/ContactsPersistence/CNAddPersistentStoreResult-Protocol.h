@@ -7,8 +7,6 @@
 @protocol CNAddPersistentStoreResult
 
 // Remaining properties
-@property(readonly) _Bool didMigrate;
 @property(readonly, getter=isPristineDatabase) _Bool pristineDatabase;
-@property(readonly, getter=isReadOnly) _Bool readOnly;
 @end
 

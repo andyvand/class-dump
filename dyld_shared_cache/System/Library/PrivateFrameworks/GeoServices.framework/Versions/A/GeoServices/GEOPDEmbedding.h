@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDEmbeddingModelMetadata, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDEmbedding
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_fae3dc92 _embeddings;
-    GEOPDEmbeddingModelMetadata *_modelMetadata;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _source;
-    struct {
-        unsigned int has_source:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_embeddings:1;
-        unsigned int read_modelMetadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)HeaderArtwork:(id)arg1;
++ (_Bool)setHeaderArtwork:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
@@ -40,24 +26,24 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)setSupportsMph: /* Error: Ran out of types for this method. */;
+- (void)orter instrumentEndpointSignpostsForServerEndpointWithEndTime:(id)arg1 leadingSilence:trailingSilence:stopRecordingMachContinuousTime:skippedSamplesTimeInSec:firstAudioSampleSensorHostTime:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id)ote_anyField"b1};
-- (int)dex: /* Error: Ran out of types for this method. */;
+- (int)trafficApiResponsesAtIndex: /* Error: Ran out of types for this method. */;
 - (id)_coverageExceptionsSpace;
 - (id)¥ä¥¨È¨©À©@ª«ø«
 l¬
 Ü¬­
 ¤®
 Ô¯;
-- (id);
+- (id)supported_payment_method;
 - (id);
 - (_Bool);
 - (void)ÿÿÿÿÂÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÎÿÿÿÿÿÿÿÏÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿãÿÿÿêÿÿÿëÿÿÿâÿÿÿßÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿØÿÿÿÿÿÿÿÑÿÿÿÿÿÿÿÜÿÿÿÿÿÿÿÞÿÿÿÿÿÿÿèÿÿÿéÿÿÿöÿÿÿõÿÿÿàÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿãÿÿÿôÿÿÿâÿÿÿåÿÿÿÿÿÿÿÿÿÿÿÿ;
@@ -66,13 +52,7 @@ l¬
 - (int)$î®þ¿;
 
 // Remaining properties
-@property(readonly, nonatomic) float *embeddings;
 @property(readonly, nonatomic) unsigned long long embeddingsCount;
-@property(readonly, nonatomic) _Bool hasModelMetadata;
-@property(nonatomic) _Bool hasSource;
-@property(retain, nonatomic) GEOPDEmbeddingModelMetadata *modelMetadata;
-@property(nonatomic) int source;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

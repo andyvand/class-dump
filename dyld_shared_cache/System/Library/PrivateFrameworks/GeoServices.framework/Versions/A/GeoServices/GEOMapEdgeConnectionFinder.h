@@ -6,23 +6,18 @@
 
 #import <GeoServices/GEOMapRequest.h>
 
-@class GEOMapAccess, GEOMapTileFinder, GEOVectorTile, NSMutableArray;
+@class GEOMapAccess;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapEdgeConnectionFinder : GEOMapRequest
 {
     GEOMapAccess *_map;
-    GEOMapTileFinder *_tileFinder;
-    NSMutableArray *_builders;
-    GEOVectorTile *_tile;
-    struct GeoCodecsConnectivityJunction *_junction;
-    CDStruct_2c43369c _coordinate;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)isClientTCCRegionalAllowedImpl;
 - (void);
 - (void).3;
 

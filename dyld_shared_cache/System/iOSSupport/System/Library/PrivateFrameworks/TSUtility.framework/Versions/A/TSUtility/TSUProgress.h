@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 @interface TSUProgress
 {
     NSMutableSet *mProgressObservers;
-    NSObject<OS_dispatch_queue> *mProgressObserversQueue;
-    NSString *mMessage;
 }
 
 - (void);
@@ -23,14 +20,11 @@
 - (id);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)hh8;
 - (double);
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isIndeterminate) _Bool indeterminate;
-@property(readonly) double maxValue;
-@property(copy) NSString *message; // @synthesize message=mMessage;
 @property(readonly) double value;
 
 @end

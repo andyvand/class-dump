@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray, NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface CWFUIScanManager
 {
     NSMutableSet *_scansInProgress;
-    NSMutableDictionary *_scanCache;
-    NSMutableDictionary *_scanCacheTimestamps;
-    NSMutableDictionary *_scanQueues;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSArray *_bandChannels;
-    CDUnknownBlockType _issueScanHandler;
-    CDUnknownBlockType _finishedScanHandler;
-    CDUnknownBlockType _hiddenNetworkNameHandler;
 }
 
 - (_Bool);
@@ -27,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)!@;
 - (id);
-- (void);
+- (void)6;
 - (void);
 - (void);
 - (void);
@@ -47,9 +38,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bandChannels; // @synthesize bandChannels=_bandChannels;
-@property(copy) CDUnknownBlockType finishedScanHandler; // @synthesize finishedScanHandler=_finishedScanHandler;
-@property(copy) CDUnknownBlockType hiddenNetworkNameHandler; // @synthesize hiddenNetworkNameHandler=_hiddenNetworkNameHandler;
-@property(copy) CDUnknownBlockType issueScanHandler; // @synthesize issueScanHandler=_issueScanHandler;
 
 @end
 

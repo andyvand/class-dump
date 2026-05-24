@@ -7,11 +7,6 @@
 @interface PhotosGraph.ImportantEntitiesPetContainer
 {
     id graph;
-    id allEntities;
-    id momentsByEntityUUID;
-    id momentsAtHomeOrFrequentLocation;
-    id latestMomentDatetime;
-    id processInferredPetNode;
 }
 
 @end

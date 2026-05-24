@@ -6,29 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaISOLocale;
+@class SISchemaISOLocale;
 
 @interface ODMSiriSchemaODMDynamicDimensions : SISchemaInstrumentationMessage
 {
     SISchemaISOLocale *_siriInputLocale;
-    int _viewMode;
-    int _audioInterface;
-    int _taskType;
-    int _taskAppBundleId;
-    struct {
-        unsigned int viewMode:1;
-        unsigned int audioInterface:1;
-        unsigned int taskType:1;
-        unsigned int taskAppBundleId:1;
-    } _has;
-    _Bool _hasSiriInputLocale;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -44,13 +33,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)6;
+- (id);
 - (int);
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)i;
+- (unsigned long long)P;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -62,17 +51,7 @@
 - (int)´ºÿ¼`¬MT%;
 
 // Remaining properties
-@property(nonatomic) int audioInterface; // @synthesize audioInterface=_audioInterface;
-@property(nonatomic) _Bool hasAudioInterface;
-@property(nonatomic) _Bool hasSiriInputLocale; // @synthesize hasSiriInputLocale=_hasSiriInputLocale;
-@property(nonatomic) _Bool hasTaskAppBundleId;
-@property(nonatomic) _Bool hasTaskType;
-@property(nonatomic) _Bool hasViewMode;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaISOLocale *siriInputLocale; // @synthesize siriInputLocale=_siriInputLocale;
-@property(nonatomic) int taskAppBundleId; // @synthesize taskAppBundleId=_taskAppBundleId;
-@property(nonatomic) int taskType; // @synthesize taskType=_taskType;
-@property(nonatomic) int viewMode; // @synthesize viewMode=_viewMode;
 
 @end
 

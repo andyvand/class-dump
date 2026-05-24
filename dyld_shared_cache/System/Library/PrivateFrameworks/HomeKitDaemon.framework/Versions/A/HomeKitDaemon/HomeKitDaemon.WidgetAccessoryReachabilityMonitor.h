@@ -7,9 +7,6 @@
 @interface HomeKitDaemon.WidgetAccessoryReachabilityMonitor
 {
     id $defaultActor;
-    id widgetReachabilityByMonitoredAccessories;
-    id delegate;
-    id notificationCenter;
 }
 
 - (void);

@@ -7,8 +7,6 @@
 @interface NewsUI2.PuzzleContinuePlayingTracker
 {
     id tracker;
-    id puzzleHistoryService;
-    id contentAvailabilityValidator;
 }
 
 @end

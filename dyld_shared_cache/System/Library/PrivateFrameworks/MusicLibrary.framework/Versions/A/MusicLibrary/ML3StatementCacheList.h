@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ML3StatementCacheList
 {
     ML3StatementCacheNode *_firstNode;
-    ML3StatementCacheNode *_lastNode;
 }
 
 - (id);
@@ -19,15 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (unsigned long long);
 - (void)LECT album_pid, max(max(date_accessed), max(date_added), max(date_played)) AS date_accessed, max(liked_state = 2) AS liked_state FROM item JOIN item_stats USING (item_pid) JOIN item_extra USING (item_pid) WHERE album_pid NOT IN (%@) AND (%@) GROUP BY album_pid ORDER BY liked_state, date_accessed;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic) ML3StatementCacheNode *firstNode; // @synthesize firstNode=_firstNode;
-@property(readonly, nonatomic) ML3StatementCacheNode *lastNode; // @synthesize lastNode=_lastNode;
 
 @end
 

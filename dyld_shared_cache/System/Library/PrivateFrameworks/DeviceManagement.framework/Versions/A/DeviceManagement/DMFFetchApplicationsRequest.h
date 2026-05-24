@@ -6,16 +6,9 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSArray;
-
 @interface DMFFetchApplicationsRequest : DMFTaskRequest
 {
     _Bool _excludeIcon;
-    _Bool _excludeUnmanagedApps;
-    _Bool _deleteFeedback;
-    unsigned long long _typeFilter;
-    unsigned long long _stateFilter;
-    NSArray *_bundleIdentifiers;
 }
 
 + (Class);
@@ -26,24 +19,19 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)	;
 - (void);
 - (id);
-- (void);
+- (void)AND_%@_MORE;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(nonatomic) _Bool deleteFeedback; // @synthesize deleteFeedback=_deleteFeedback;
 @property(nonatomic) _Bool excludeIcon; // @synthesize excludeIcon=_excludeIcon;
-@property(nonatomic) _Bool excludeUnmanagedApps; // @synthesize excludeUnmanagedApps=_excludeUnmanagedApps;
-@property(nonatomic) unsigned long long stateFilter; // @synthesize stateFilter=_stateFilter;
-@property(nonatomic) unsigned long long typeFilter; // @synthesize typeFilter=_typeFilter;
 
 @end
 

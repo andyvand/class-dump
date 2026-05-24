@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewPersonMapper, NSArray, NSMutableArray, NSString;
-@protocol ABCardViewProperty;
+@class ABCardViewPersonMapper, NSMutableArray;
 
 @interface ABCardViewMultiValue
 {
     NSMutableArray *_entries;
-    NSMutableArray *_removedEntryIdentifiers;
-    NSArray *_personIdentifiers;
-    id <ABCardViewProperty> _property;
-    ABCardViewPersonMapper *_personMapper;
 }
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -50,10 +45,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)automaticallyOrphaned;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -61,22 +56,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)isFeedbackEnabledForBundleURL:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)!ÄEù1ª°1Â0@ù
 × ;
 - (id)7°788h8;
-- (id)verHostname;
+- (id)IISServerHostname;
 - (id)cols' names should contain the "Async" string;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) ABCardViewPersonMapper *personMapper; // @synthesize personMapper=_personMapper;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,19 +7,6 @@
 @interface IDSFoundation.LinkEngine
 {
     id linksByUniqueName;
-    id _allowOngoingTasks;
-    id startOngoingTasksHook;
-    id updateHook;
-    id addLinkHook;
-    id removeLinkHook;
-    id discoverPluginsHook;
-    id plugins;
-    id updateStatus;
-    id _tag;
-    id _updateCycleID;
-    id _ongoingTasks;
-    id ongoingTaskState;
-    id _components;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSString;
+@class NSString;
 
 @interface MSVLyricsXMLElement
 {
     NSString *_elementName;
-    NSString *_identifier;
-    NSMutableString *_mutableText;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *elementName; // @synthesize elementName=_elementName;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSMutableString *mutableText; // @synthesize mutableText=_mutableText;
 
 @end
 

@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
+@class NSArray, UIView;
 
 @protocol EKDayOccurrenceViewDelegate
+- (NSArray *);
 
 @optional
 - (UIView *)×;

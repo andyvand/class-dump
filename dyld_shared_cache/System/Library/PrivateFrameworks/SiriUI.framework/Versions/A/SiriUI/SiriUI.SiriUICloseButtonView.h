@@ -9,12 +9,11 @@
 @interface SiriUI.SiriUICloseButtonView
 {
     void delegate;
-    id viewModel;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)P;
+- (id)@;
 - (id);
 - (void);
 - (id);

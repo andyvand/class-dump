@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSXPCListener;
+@class NSObject, NSXPCListener;
 @protocol OS_dispatch_queue;
 
 @interface ADIDManagerService
 {
     NSObject<OS_dispatch_queue> *_forceReconcileQueue;
-    NSXPCListener *_listener;
-    NSMutableArray *_reconcileArray;
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)stringWithCString:(CDUnknownBlockType)arg1 encoding: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(retain, nonatomic) NSMutableArray *reconcileArray; // @synthesize reconcileArray=_reconcileArray;
-@property(readonly) Class superclass;
 
 @end
 

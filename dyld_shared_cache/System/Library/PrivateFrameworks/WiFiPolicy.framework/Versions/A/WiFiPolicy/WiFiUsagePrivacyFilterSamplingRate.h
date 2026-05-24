@@ -7,7 +7,6 @@
 @interface WiFiUsagePrivacyFilterSamplingRate
 {
     unsigned int _samplingRate;
-    unsigned int _samplingBase;
 }
 
 - (unsigned int);
@@ -17,7 +16,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int samplingBase; // @synthesize samplingBase=_samplingBase;
 @property(readonly, nonatomic) unsigned int samplingRate; // @synthesize samplingRate=_samplingRate;
 
 @end

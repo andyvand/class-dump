@@ -9,11 +9,10 @@
 @interface CLSArchivedSurveyStep : CLSAbstractSurveyStep
 {
     long long _version;
-    long long _type;
 }
 
-+ (_Bool);
-- (long long);
++ (_Bool)_bundleID;
+- (long long)4;
 - (id);
 - (long long);
 - (void);

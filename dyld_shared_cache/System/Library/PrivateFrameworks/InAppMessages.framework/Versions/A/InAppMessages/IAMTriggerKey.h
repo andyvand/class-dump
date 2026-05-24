@@ -9,24 +9,21 @@
 @interface IAMTriggerKey
 {
     NSString *_name;
-    NSString *_bundleIdentifier;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)48^B52@60;
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *nameSpacedKeyName;
 
 @end
 

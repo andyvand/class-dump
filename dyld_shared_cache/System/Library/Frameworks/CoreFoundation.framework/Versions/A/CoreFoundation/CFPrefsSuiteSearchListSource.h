@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void) ;
+- (void)H ;
 - (void);
 - (void);
 

@@ -4,73 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface BWBravoPortraitSceneMonitorV2
 {
     int _numberOfFramesWithStableFocusThreshold;
-    _Bool _oneShotFocusScanInProgress;
-    _Bool _focusLocked;
-    int _numFramesSinceFocusLocked;
-    int _numFramesSinceFocusBecameStable;
-    _Bool _focusHasBeenAttainedAfterStart;
-    int _numFramesSinceFocusFirstAttainedStability;
-    _Bool _focusIsStationaryBeyondThreshold;
-    _Bool _subjectTooCloseMonitoringEnabled;
-    _Bool _subjectTooCloseMonitoringForcingWideLens;
-    float _subjectTooCloseFocusDistanceThreshold;
-    float _subjectTooCloseHysteresis;
-    _Bool _subjectIsTooClose;
-    _Bool _subjectTooClosePreviousFrame;
-    _Bool _subjectTooFarMonitoringEnabled;
-    float _subjectTooFarFocusDistanceThreshold;
-    float _subjectTooFarBackgroundShiftSumTooLowThreshold;
-    _Bool _subjectTooFarDistanceThresholdReached;
-    float _subjectTooFarDistanceThresholdHysteresis;
-    _Bool _backgroundShiftSumTooLowThresholdReached;
-    float _subjectTooFarBackGroundShiftSumIsTooLowHysteresis;
-    float _jasperDistanceAtFocus;
-    _Bool _subjectIsTooFarDigitalFlash;
-    _Bool _subjectIsTooFarForStageDigitalFlash;
-    float _subjectTooFarDigitalFlashThreshold;
-    float _stageTooFarDigitalFlashThreshold;
-    float _sceneTooDarkGainThresholdHard;
-    float _jasperDistanceAtFocusSmoothingFactor;
-    _Bool _subjectIsTooFar;
-    _Bool _subjectIsTooFarForStage;
-    _Bool _subjectIsTooFarForStageNoFaces;
-    _Bool _deliveryOfShiftsHasStarted;
-    float _backgroundShiftSumSmoothed;
-    float _backgroundShiftSumSmoothingTrend;
-    float _backgroundShiftSumSmoothingFactor;
-    float _backgroundShiftSumSmoothingTrendUpdateFactor;
-    float _invalidShiftRatioSmoothed;
-    float _invalidShiftRatioSmoothingFactor;
-    _Bool _sceneTooDarkMonitoringEnabled;
-    float _sceneTooDarkGainThreshold;
-    float _sceneTooDarkAEAverageAETargetFractionThreshold;
-    float _sceneTooDarkAEAverageAETargetFractionThresholdHysteresisLag;
-    _Bool _sceneIsTooDark;
-    _Bool _stageFaceMonitoringEnabled;
-    int _stageFaceNumberOfFramesSinceLastFace;
-    _Bool _stageFaceHasBeenSeen;
-    int _stageFaceNumberOfFramesSinceLastFaceThreshold;
-    NSArray *_stageMostRecentFaces;
-    _Bool _portraitSceneMonitoringRequiresStageThresholds;
-    _Bool _stageTooFarMonitoringEnabled;
-    float _stageTooFarFocusDistanceThreshold;
-    _Bool _stageTooFarDistanceThresholdReached;
-    float _stageTooFarDistanceThresholdHysteresis;
-    _Bool _stageBackgroundShiftSumTooLowThresholdReached;
-    float _stageTooFarBackgroundShiftSumTooLowThreshold;
-    float _stageTooFarBackGroundShiftSumIsTooLowHysteresis;
-    _Bool _stageTooFarBackgroundShiftSumNoFacesIsTooLow;
-    float _stageTooFarBackgroundShiftSumNoFacesThreshold;
-    int _lastSDOFEffectStatus;
 }
 
 + (void)nOutPipelineStage];
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (_Bool);
@@ -81,15 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) float focusDistanceToMaxAllowedFocusDistanceRatio;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool portraitSceneMonitoringRequiresStageThresholds; // @synthesize portraitSceneMonitoringRequiresStageThresholds=_portraitSceneMonitoringRequiresStageThresholds;
-@property(readonly) Class superclass;
 
 @end
 

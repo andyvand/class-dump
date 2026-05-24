@@ -6,39 +6,31 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSArray, NSDate, NSString;
+@class NSString;
 
 @interface LPiTunesMediaPodcastEpisodeMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_episodeName;
-    NSString *_podcastName;
-    NSString *_artist;
-    NSDate *_releaseDate;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
-    NSArray *_offers;
 }
 
-+ (id);
++ (id)startFullscreenEffectForChatItem:language: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (double);
-- (id);
+- (double)transitionToGeneratingState;
+- (id)tIdentifier:(id)arg1 adaptiveImageGlyphContentDescription:hideAttachment:isScreenshot: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewControllerIsPresentedInModalInlineReply:(id)arg1;
+- (id)transcriptCollectionViewController:(id)arg1 shouldCleanupFullscreenEffectUI: /* Error: Ran out of types for this method. */;
+- (id)dex:(id)arg1;
+- (id)transcriptCollectionViewController:(id)arg1 sendQuickReplyComposition:withSourceView: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 selectedPollAddChoice: /* Error: Ran out of types for this method. */;
+- (id)topAnchor;
+- (_Bool)timeLabelColorFor:(id)arg1 idiom: /* Error: Ran out of types for this method. */;
+- (void)tableView:(CDUnknownBlockType)arg1 heightForHeaderInSection: /* Error: Ran out of types for this method. */;
+- (void)suspended;
+- (id)supportsUnknownSenderPreview;
+- (id)_;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -53,27 +45,12 @@
 - (id);
 - (id);
 - (void);
-- (void)4;
+- (void)04;
 - (id)Ðìí;
 - (id)ources/app_icons/icloud@2x.png;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *episodeName; // @synthesize episodeName=_episodeName;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *offers; // @synthesize offers=_offers;
-@property(copy, nonatomic) NSString *podcastName; // @synthesize podcastName=_podcastName;
-@property(copy, nonatomic) NSDate *releaseDate; // @synthesize releaseDate=_releaseDate;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol PKRenderLoopDelegate
+
+@optional
+- (void);
 @end
 

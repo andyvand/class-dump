@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)arPresentPermanentDeletionConfirmationsForSpamConversations:(struct CGRect)arg1 sender: /* Error: Ran out of types for this method. */;
+- (void)toolbarPresentPermanentDeletionConfirmationsForSpamConversations:(struct CGRect)arg1 sender: /* Error: Ran out of types for this method. */;
 
 @end
 

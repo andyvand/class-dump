@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBStringDictionary;
+@class NSString;
 
 @interface _SFPBImageOption
 {
     NSString *_name;
-    NSString *_defaultValue;
-    _SFPBStringDictionary *_options;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ing>";
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)momentShareWithOriginatingScopeIdentifier:(id)arg1 inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)get a valid path from -[PLImageWriter cameraAssetPathForNewAssetWithExtension:assetUUID:] for extension:%{public}@, UUID:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)tsIndexed: /* Error: Ran out of types for this method. */;
+- (void)setTotalNumberOfAssetsIndexed: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) _SFPBStringDictionary *options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 
 @end
 

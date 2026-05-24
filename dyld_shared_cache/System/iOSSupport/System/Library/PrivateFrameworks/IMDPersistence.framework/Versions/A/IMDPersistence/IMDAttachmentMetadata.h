@@ -9,9 +9,6 @@
 @interface IMDAttachmentMetadata
 {
     void permanentAttachmentGUID;
-    void messageGUID;
-    _Bool fromMe;
-    void handleID;
 }
 
 + (_Bool);
@@ -27,12 +24,9 @@
 - (id);
 - (id);
 - (void);
-- (void)tachmentRecordClearDeleteTombStones;
+- (void)IMDAttachmentRecordClearDeleteTombStones;
 
 // Remaining properties
-@property(nonatomic) _Bool fromMe; // @synthesize fromMe;
-@property(nonatomic, copy) NSString *handleID;
-@property(nonatomic, copy) NSString *messageGUID;
 @property(nonatomic, copy) NSString *permanentAttachmentGUID;
 
 @end

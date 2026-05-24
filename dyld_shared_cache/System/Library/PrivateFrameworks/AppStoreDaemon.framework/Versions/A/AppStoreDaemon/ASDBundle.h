@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface ASDBundle
 {
     NSString *_identifier;
-    NSURL *_URL;
 }
 
 + (id);
@@ -19,13 +18,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)_directionsRequest;
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

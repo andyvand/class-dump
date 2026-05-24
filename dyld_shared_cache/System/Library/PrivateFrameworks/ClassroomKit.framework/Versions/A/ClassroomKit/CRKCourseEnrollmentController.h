@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATRemoteTaskOperation, CRKSecureCodedUserDefaultsObject, CRKStudentDaemonProxy, NSArray, NSDictionary, NSHashTable, NSNumber, NSSet, NSString;
+@class CATRemoteTaskOperation, NSArray;
 
 @interface CRKCourseEnrollmentController
 {
     CATRemoteTaskOperation *mBrowseOperation;
-    CRKSecureCodedUserDefaultsObject *mStoredCourses;
-    _Bool mConfigurationFetched;
-    _Bool _signedInToStudentMAID;
-    unsigned long long _configurationType;
-    NSNumber *_settingsUIVisible;
-    CRKStudentDaemonProxy *_studentDaemonProxy;
-    long long _iCloudAccountStatus;
-    NSArray *_courses;
-    NSArray *_courseInvitations;
-    NSSet *_acceptedInvitationIdentifiers;
-    NSDictionary *_observingInstructorIdentifiersByCourseIdentifiers;
-    CATRemoteTaskOperation *_fetchActiveInstructorsOperation;
-    NSSet *_activeInstructors;
-    NSHashTable *_observers;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -43,8 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -65,6 +51,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,8 +59,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -84,7 +70,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -101,31 +87,12 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *acceptedInvitationIdentifiers; // @synthesize acceptedInvitationIdentifiers=_acceptedInvitationIdentifiers;
-@property(copy, nonatomic) NSSet *activeInstructors; // @synthesize activeInstructors=_activeInstructors;
-@property(nonatomic) unsigned long long configurationType; // @synthesize configurationType=_configurationType;
-@property(copy, nonatomic) NSArray *courseInvitations; // @synthesize courseInvitations=_courseInvitations;
 @property(copy, nonatomic) NSArray *courses; // @synthesize courses=_courses;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CATRemoteTaskOperation *fetchActiveInstructorsOperation; // @synthesize fetchActiveInstructorsOperation=_fetchActiveInstructorsOperation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long iCloudAccountStatus; // @synthesize iCloudAccountStatus=_iCloudAccountStatus;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) NSDictionary *observingInstructorIdentifiersByCourseIdentifiers; // @synthesize observingInstructorIdentifiersByCourseIdentifiers=_observingInstructorIdentifiersByCourseIdentifiers;
-@property(retain, nonatomic) NSNumber *settingsUIVisible; // @synthesize settingsUIVisible=_settingsUIVisible;
-@property(nonatomic, getter=isSignedInToStudentMAID) _Bool signedInToStudentMAID; // @synthesize signedInToStudentMAID=_signedInToStudentMAID;
-@property(readonly, nonatomic) CRKStudentDaemonProxy *studentDaemonProxy; // @synthesize studentDaemonProxy=_studentDaemonProxy;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsRemoteLearning;
 
 @end
 

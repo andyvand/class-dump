@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PHAssetDeleteOptions, PHBatchPerformChanges;
+@class NSArray;
 
 @interface PHBatchAssetExpunger
 {
     NSArray *_assets;
-    PHAssetDeleteOptions *_deleteOptions;
-    PHBatchPerformChanges *_batchPerformChanges;
 }
 
 + (id);

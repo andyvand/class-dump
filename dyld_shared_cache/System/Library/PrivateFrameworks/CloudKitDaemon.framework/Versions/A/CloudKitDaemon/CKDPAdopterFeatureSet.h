@@ -9,17 +9,13 @@
 @interface CKDPAdopterFeatureSet
 {
     NSMutableArray *_fieldFeatures;
-    int _minimumSchemaVersion;
-    NSMutableArray *_recordFeatures;
-    NSMutableArray *_zoneFeatures;
-    CDStruct_fe6a063f _has;
 }
 
 + (Class);
 + (Class);
 + (Class);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -31,32 +27,29 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id){@;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)] Start checking @ %1.3f
+;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)lPhoneNumber;
+- (void)hashedCanonicalPhoneNumber;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *fieldFeatures; // @synthesize fieldFeatures=_fieldFeatures;
 @property(nonatomic) _Bool hasMinimumSchemaVersion;
-@property(nonatomic) int minimumSchemaVersion; // @synthesize minimumSchemaVersion=_minimumSchemaVersion;
-@property(retain, nonatomic) NSMutableArray *recordFeatures; // @synthesize recordFeatures=_recordFeatures;
-@property(retain, nonatomic) NSMutableArray *zoneFeatures; // @synthesize zoneFeatures=_zoneFeatures;
 
 @end
 

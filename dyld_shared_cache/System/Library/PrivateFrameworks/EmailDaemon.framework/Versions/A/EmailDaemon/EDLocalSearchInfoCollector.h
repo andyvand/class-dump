@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface EDLocalSearchInfoCollector
 {
     _Bool _hasTopHitsQueryEmbedding;
-    _Bool _hasLiveSearchQueryEmbedding;
-    _Bool _hasKeywordResults;
-    _Bool _hasEmbeddingResults;
-    int _topHitsQueryStatus;
-    int _liveSearchQueryStatus;
-    NSMutableDictionary *_allRankingsByObjectID;
-    NSMutableDictionary *_rankingObjectIDsByConversation;
 }
 
 - (int);
@@ -35,22 +26,15 @@
 - (int);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)bytes;
+- (void)r adding 1 elements to context;
+- (_Bool)ng 1 elements to context;
+- (_Bool)ements; (1*4) cfg bytes != (%d) buffer bytes;
+- (id)Siri_Nl_Core_Protocol_SystemReportedSuccess;
 - (void)henRemovingParentIdentifiers:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSMutableDictionary *allRankingsByObjectID; // @synthesize allRankingsByObjectID=_allRankingsByObjectID;
-@property(nonatomic) _Bool hasEmbeddingResults; // @synthesize hasEmbeddingResults=_hasEmbeddingResults;
 @property(nonatomic) _Bool hasKeywordResults; // @synthesize hasKeywordResults=_hasKeywordResults;
-@property(nonatomic) _Bool hasLiveSearchQueryEmbedding; // @synthesize hasLiveSearchQueryEmbedding=_hasLiveSearchQueryEmbedding;
-@property(nonatomic) _Bool hasTopHitsQueryEmbedding; // @synthesize hasTopHitsQueryEmbedding=_hasTopHitsQueryEmbedding;
-@property(nonatomic) int liveSearchQueryStatus; // @synthesize liveSearchQueryStatus=_liveSearchQueryStatus;
-@property(copy, nonatomic) NSMutableDictionary *rankingObjectIDsByConversation; // @synthesize rankingObjectIDsByConversation=_rankingObjectIDsByConversation;
-@property(nonatomic) int topHitsQueryStatus; // @synthesize topHitsQueryStatus=_topHitsQueryStatus;
 
 @end
 

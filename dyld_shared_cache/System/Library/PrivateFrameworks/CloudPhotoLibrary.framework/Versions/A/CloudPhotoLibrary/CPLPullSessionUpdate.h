@@ -11,7 +11,6 @@
 @interface CPLPullSessionUpdate : CPLChangeSessionUpdate
 {
     CPLChangeBatch *_clientBatch;
-    CPLChangeBatch *_cloudBatch;
 }
 
 + (_Bool);
@@ -22,7 +21,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)hv;
 - (id);
 - (void)1Â0@ù
 × ;
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CPLChangeBatch *clientBatch; // @synthesize clientBatch=_clientBatch;
-@property(readonly, nonatomic) CPLChangeBatch *cloudBatch; // @synthesize cloudBatch=_cloudBatch;
 
 @end
 

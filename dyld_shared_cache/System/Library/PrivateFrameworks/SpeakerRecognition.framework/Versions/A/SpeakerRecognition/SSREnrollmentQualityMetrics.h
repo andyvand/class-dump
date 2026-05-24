@@ -9,9 +9,6 @@
 @interface SSREnrollmentQualityMetrics
 {
     float _inSpeakerSimilarityScore;
-    NSURL *_utterancePath;
-    double _snr;
-    double _wer;
 }
 
 + (_Bool);
@@ -26,10 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) float inSpeakerSimilarityScore; // @synthesize inSpeakerSimilarityScore=_inSpeakerSimilarityScore;
-@property(readonly, nonatomic) double snr; // @synthesize snr=_snr;
 @property(readonly, copy, nonatomic) NSURL *utterancePath; // @synthesize utterancePath=_utterancePath;
-@property(readonly, nonatomic) double wer; // @synthesize wer=_wer;
 
 @end
 

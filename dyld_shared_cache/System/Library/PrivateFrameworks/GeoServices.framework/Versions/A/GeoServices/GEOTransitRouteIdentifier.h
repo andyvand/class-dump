@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID, PBDataReader, PBUnknownFields;
+@class NSUUID, PBDataReader;
 
 @interface GEOTransitRouteIdentifier
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSData *_clientRouteHandle;
-    NSData *_serverRouteHandle;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_clientRouteHandle:1;
-        unsigned int read_serverRouteHandle:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
-+ (_Bool)rride:(id)arg1;
++ (_Bool)setMuteSpeechOverride:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)setSubAdministrativeArea: /* Error: Ran out of types for this method. */;
+- (id)",&,D,N;
+- (id)lete;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)MAMusicHapticStatusPair;
 - (id);
-- (void);
+- (void)isM9Device;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -46,18 +34,13 @@
 - (id);
 - (void);
 - (id);
-- (id)quiresProxy:backgroundIdentifier:compressRequest:allowCellular:allowBattery:timeToLive:requestCounterTicket:throttleToken: /* Error: Ran out of types for this method. */;
-- (id)sSupportedListTypes: /* Error: Ran out of types for this method. */;
-- (id)onTime;
+- (id)initForAnalyticsUploadRequest:toURL:requiresProxy:backgroundIdentifier:compressRequest:allowCellular:allowBattery:timeToLive:requestCounterTicket:throttleToken: /* Error: Ran out of types for this method. */;
+- (id)StringAsSupportedListTypes: /* Error: Ran out of types for this method. */;
+- (id)collectionTime;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *clientRouteHandle;
 @property(readonly, nonatomic) NSUUID *clientRouteID;
-@property(readonly, nonatomic) _Bool hasClientRouteHandle;
-@property(readonly, nonatomic) _Bool hasServerRouteHandle;
-@property(retain, nonatomic) NSData *serverRouteHandle;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

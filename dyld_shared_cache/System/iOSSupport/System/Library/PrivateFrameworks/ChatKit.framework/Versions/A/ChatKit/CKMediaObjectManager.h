@@ -4,42 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary;
+@class NSArray, NSMutableDictionary;
 
 @interface CKMediaObjectManager
 {
     NSMutableDictionary *_transfers;
-    NSArray *_classes;
-    NSDictionary *_UTITypes;
-    NSDictionary *_dynTypes;
 }
 
-+ (id)l;
++ (id)ViewModel;
+- (id)ic_nonCurrentUserAcceptedParticipants;
+- (id)ic_nextTableStringFromIndex:(id)arg1 tableRange:(id)arg2;
+- (id)ic_mentionTokensFromContacts;
+- (id)ic_managedObjectIDForURIRepresentation:(id)arg1;
+- (id)ic_loggingIdentifier;
+- (id)ic_itemWithIdentifier:(id)arg1;
+- (void)ic_isViewVisible;
+- (Class)ic_isReturnOrEnterPressed;
+- (void)nstraint",&,N,V_imageViewBottomLayoutConstraint;
+- (void),V_share;
+- (id)GG;
+- (id);
+- (id)AOGG;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (Class);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (Class);
-- (Class);
-- (id);
-- (void);
-- (_Bool);
+- (id)ShareParticipantCSgG;
+- (id)SaySo18ICTTParagraphStyleCG;
+- (id)B;
+- (id)x;
+- (id));
+- (Class)er of times;
+- (Class)t because it has been presented the maximum number of times;
+- (id)apple-system-font;
+- (void)h4
+;
+- (_Bool)d?kL
+;
 - (id);
 - (id);
 - (void);
@@ -50,15 +49,12 @@
 - (id);
 - (id);
 - (void)er"16@"IMTapback"24;
-- (void)mData:(id)arg1;
+- (void)savedCompositionFromData:(id)arg1;
 - (void)ÿò;
 - (id)0;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *UTITypes; // @synthesize UTITypes=_UTITypes;
 @property(copy, nonatomic) NSArray *classes; // @synthesize classes=_classes;
-@property(copy, nonatomic) NSDictionary *dynTypes; // @synthesize dynTypes=_dynTypes;
-@property(retain, nonatomic) NSMutableDictionary *transfers; // @synthesize transfers=_transfers;
 
 @end
 

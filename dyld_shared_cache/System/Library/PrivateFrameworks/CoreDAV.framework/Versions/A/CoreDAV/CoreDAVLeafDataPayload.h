@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL;
+@class NSURL;
 
 @interface CoreDAVLeafDataPayload
 {
     NSURL *_serverID;
-    NSString *_syncKey;
-    NSData *_dataPayload;
 }
 
 - (void);
@@ -21,28 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *childrenOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSData *dataPayload; // @synthesize dataPayload=_dataPayload;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *destinationURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,&,N
-
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSURL *serverID; // @synthesize serverID=_serverID;
-@property(retain, nonatomic) NSURL *sourceURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,&,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *syncKey; // @synthesize syncKey=_syncKey;
 
 @end
 

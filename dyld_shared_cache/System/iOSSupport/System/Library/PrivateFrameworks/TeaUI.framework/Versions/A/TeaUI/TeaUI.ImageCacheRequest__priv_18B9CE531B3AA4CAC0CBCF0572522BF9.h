@@ -7,14 +7,6 @@
 @interface TeaUI.ImageCacheRequest__priv_18B9CE531B3AA4CAC0CBCF0572522BF9
 {
     id request;
-    id downloader;
-    id expires;
-    id processor;
-    id underlyingCache;
-    id completion;
-    id creationTime;
-    id loggingDescription;
-    id state;
 }
 
 @end

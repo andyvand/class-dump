@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
-
 @interface STMFreeSpaceRequest
 {
     struct os_unfair_lock_s _stateLock;
-    _Bool _userInteractionAllowed;
-    long long _state;
-    unsigned long long _spaceRequested;
-    NSString *_volume;
-    long long _operationType;
-    NSString *_messageText;
-    NSString *_informativeText;
-    NSImage *_icon;
-    NSString *_cancelButtonTitle;
-    long long _urgency;
-    struct CacheDeleteToken *_cacheDeleteToken;
-    CDUnknownBlockType _completionBlock;
-    NSString *_operationTypeLabel;
 }
 
 + (id);
@@ -31,28 +16,28 @@
 + (id);
 - (_Bool);
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (struct CacheDeleteToken *);
 - (void);
-- (id);
+- (id)y;
 - (void);
 - (void);
+- (id)W;
 - (id);
-- (id);
+- (void)/lib/swift/libswift_Builtin_float.dylib;
+- (void);
+- (id)_ckContainer;
 - (void);
 - (void);
+- (long long)p;
 - (id);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (id);
+- (id)ain a single token:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -61,24 +46,11 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
+- (void)setUserOverride:(long long)arg1 forBundle:withError: /* Error: Ran out of types for this method. */;
+- (void)";
 
 // Remaining properties
-@property struct CacheDeleteToken *cacheDeleteToken; // @synthesize cacheDeleteToken=_cacheDeleteToken;
-@property(copy) NSString *cancelButtonTitle; // @synthesize cancelButtonTitle=_cancelButtonTitle;
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly) unsigned long long freeSpaceOnBootVolume; // @dynamic freeSpaceOnBootVolume;
-@property(copy) NSImage *icon; // @synthesize icon=_icon;
-@property(copy) NSString *informativeText; // @synthesize informativeText=_informativeText;
-@property(copy) NSString *messageText; // @synthesize messageText=_messageText;
-@property long long operationType; // @synthesize operationType=_operationType;
-@property(retain) NSString *operationTypeLabel; // @synthesize operationTypeLabel=_operationTypeLabel;
-@property unsigned long long spaceRequested; // @synthesize spaceRequested=_spaceRequested;
 @property long long state; // @synthesize state=_state;
-@property long long urgency; // @synthesize urgency=_urgency;
-@property _Bool userInteractionAllowed; // @synthesize userInteractionAllowed=_userInteractionAllowed;
-@property(retain) NSString *volume; // @synthesize volume=_volume;
 
 @end
 

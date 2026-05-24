@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol TIKeyboardInputManager
-- (void)house;
-- (void)stention;
-- (void)ridency;
+- (void)_spatialOverCaptureLivePhotoPairingIdentifier;
+- (void)or:(NSArray *)arg1 %@;
+- (void)FailureAndCloudRecoveryStateInStore:(void (^)(NSURL *))arg1 ];
+- (void)*;
+- (void)alehouse;
+- (void)abstention;
+- (void)stridency;
 @end
 

@@ -7,15 +7,6 @@
 @interface PhotoAnalysis.StoryDiagnosticCleanUpTask
 {
     id worker;
-    id name;
-    id identifier;
-    id version;
-    id periodicity;
-    id priority;
-    id incrementalKey;
-    id shouldRecordCompletion;
-    id oldestAllowedDate;
-    id photoLibrary;
 }
 
 @end

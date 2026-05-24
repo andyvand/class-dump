@@ -17,17 +17,16 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)G;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasQuota;
-@property(retain, nonatomic) NSPPrivacyProxyQuota *quota; // @synthesize quota=_quota;
 
 @end
 

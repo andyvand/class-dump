@@ -6,17 +6,14 @@
 
 #import <HomeKitDaemon/HMDCameraMetricsLogEvent.h>
 
-@class NSDictionary, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDCameraMetricsSnapshotLogEvent : HMDCameraMetricsLogEvent
 {
     _Bool _snapshotForNotification;
-    NSNumber *_referenceTimestamp;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)MSPMutableHistoryEntry;
+- (void)without any message data;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,30 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)A;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(retain, nonatomic) NSNumber *referenceTimestamp; // @synthesize referenceTimestamp=_referenceTimestamp;
 @property(readonly, nonatomic) _Bool snapshotForNotification; // @synthesize snapshotForNotification=_snapshotForNotification;
-@property(readonly) Class superclass;
 
 @end
 

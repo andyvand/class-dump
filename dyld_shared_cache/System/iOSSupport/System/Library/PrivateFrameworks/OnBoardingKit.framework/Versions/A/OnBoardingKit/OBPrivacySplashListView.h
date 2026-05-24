@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UITextView;
-
 @interface OBPrivacySplashListView
 {
     _Bool _underlineLinks;
-    _Bool _displayingPrivacyPane;
-    UITextView *_footerTextView;
-    NSMutableArray *_textViews;
-    NSMutableArray *_stackedIconTextLists;
 }
 
 - (void);
@@ -35,18 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool displayingPrivacyPane; // @synthesize displayingPrivacyPane=_displayingPrivacyPane;
-@property(readonly, nonatomic) UITextView *footerTextView; // @synthesize footerTextView=_footerTextView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *stackedIconTextLists; // @synthesize stackedIconTextLists=_stackedIconTextLists;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *textViews; // @synthesize textViews=_textViews;
-@property(nonatomic) _Bool underlineLinks; // @synthesize underlineLinks=_underlineLinks;
 
 @end
 

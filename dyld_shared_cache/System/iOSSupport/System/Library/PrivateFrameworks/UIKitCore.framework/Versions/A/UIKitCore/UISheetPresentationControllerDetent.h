@@ -4,68 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIVisualEffect;
-
 @interface UISheetPresentationControllerDetent
 {
     _Bool __createdWithDeprecatedInitializer;
-    NSString *_identifier;
-    UIVisualEffect *_backgroundEffect;
-    long long __type;
-    CDUnknownBlockType __internalBlock;
-    double __constant;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)file job %p;
 + (id);
 + (id)aÐ! BùQ\1Â0@ù
 × ;
 + (id)0@ù
 × ;
-+ (id)fillColorForEffects;
-+ (id)teUnderlapsStatusBar;
++ (id)_fillColorForEffects;
++ (id)_UIViewServiceHostDidUpdateUnderlapsStatusBar;
 + (_Bool)content;
 + (_Bool);
 + (id)Él\;
 - (double);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)__objc_classname__TEXT;
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id)1Â0@ù
 × ;
-- (_Bool)outNotify;
-- (void)ion:(id)arg1;
-- (double)les;
+- (_Bool)postLayoutNotify;
+- (void)focusEnginePanGesture:(id)arg1 touchBeganAtDigitizerLocation: /* Error: Ran out of types for this method. */;
+- (double)dumpTiles;
 - (void)erredSupplementaryColumnWidth,S_setPreferredSupplementaryColumnWidth:(id)arg1;
 - (void),&,N,V_glomojiAnalyticsInstance;
 - (id)ds/contentOffset is being constantly adjusted. To debug this issue, check the Console app for logs in the "UICollectionViewFeedbackLoopDebugger" category.
 Collection view:%{public}@ /* Error: Ran out of types for this method. */;
-- (id)MINIMIZE;
+- (id)MACMENUITEM_WINDOW_MINIMIZE;
 - (id)KeyP;
 - (long long)ÿ)Ýxp^;
 - (void);
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double _constant; // @synthesize _constant=__constant;
-@property(readonly, nonatomic) _Bool _createdWithDeprecatedInitializer; // @synthesize _createdWithDeprecatedInitializer=__createdWithDeprecatedInitializer;
-@property(readonly, nonatomic) NSString *_identifier;
-@property(readonly, nonatomic) CDUnknownBlockType _internalBlock; // @synthesize _internalBlock=__internalBlock;
 @property(readonly, nonatomic) long long _type; // @synthesize _type=__type;
-@property(retain, nonatomic) UIVisualEffect *backgroundEffect; // @synthesize backgroundEffect=_backgroundEffect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOperation, CKOperationConfiguration, CKOperationGroup, NSMutableArray, NSMutableSet, NSObject, NSOperationQueue, NSString, WBSCloudKitOperationRetryManager;
-@protocol OS_dispatch_queue, OS_os_log;
-
 @interface WBSRetryableCKOperation
 {
     id _owner;
-    NSObject<OS_dispatch_queue> *_handlingQueue;
-    NSOperationQueue *_operationQueue;
-    struct os_unfair_lock_s _internalLock;
-    NSMutableSet *_explicitlySetProperties;
-    WBSCloudKitOperationRetryManager *_retryManager;
-    long long _status;
-    NSMutableArray *_childOperationIDs;
-    CKOperationConfiguration *_configuration;
-    CKOperationGroup *_group;
-    NSObject<OS_os_log> *_log;
-    CDUnknownBlockType _didReceiveNonRetryableError;
-    CDUnknownBlockType _didExceedRetryTimeout;
-    NSString *_operationID;
-    CKOperation *_currentOperation;
-    CDUnknownBlockType _ownerDidDeallocateBlock;
-    CDUnknownBlockType _longLivedOperationWasPersistedBlock;
 }
 
 + (id);
@@ -35,35 +16,35 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)>;
 - (void);
 - (const void *);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)n;
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)index %ld messages due to selective reindexing request;
+- (void)e=^{__CFString}^{CSDBSqliteDatabase}^{__CFDictionary}^{__CFDictionary}^{__CFDictionary}^{__CFDictionary}^{__CFSet}B{?=b1b1}^?^{__CFSet}^{__CFDictionary}^vi{?=ii^q^{__CFSet}}}8^{CSDBSqliteDatabase=^{__CFString}^{CSDBSqliteConnection}^?^?^?^v^?^?B^vi{?=b1b1b1}{_opaque_pthread_mutex_t=q[56c]}i^?^v^{__CFString}I{CSDBLookAsideBufferConfig=iib1}}16^{CSDBSqliteConnection=^{CSDBSqliteDatabase}^{sqlite3}^{__CFDictionary}^v^?I^v}24;
 - (void);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void));
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)rmat"Q"bufferAttributeOffset"Q"bufferLayoutStride"Q}"dependency0Tangents"{?="isActive"B"bufferAttributeFormat"Q"bufferAttributeOffset"Q"bufferLayoutStride"Q}"dependency1Positions"{?="isActive"B"bufferAttributeFormat"Q"bufferAttributeOffset"Q"bufferLayoutStride"Q}"dependency1Normals"{?="isActive"B"bufferAttributeFormat"Q"bufferAttributeOffset"Q"bufferLayoutStride"Q}"dependency1Tangents"{?="isActive"B"bufferAttributeFormat"Q"bufferAttributeOffset"Q"bufferLayoutStride"Q}};
+- (id)ƦM?;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (long long)tions: /* Error: Ran out of types for this method. */;
-- (double)ri_numberForKey: /* Error: Ran out of types for this method. */;
+- (long long)setCancellationExemptions: /* Error: Ran out of types for this method. */;
+- (double)safari_numberForKey: /* Error: Ran out of types for this method. */;
 - (void)é;
 - (void)FROM BlockedBannerHighlights;
 - (void)H;
@@ -72,29 +53,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CKOperationConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) CKOperation *currentOperation; // @synthesize currentOperation=_currentOperation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didExceedRetryTimeout; // @synthesize didExceedRetryTimeout=_didExceedRetryTimeout;
-@property(copy, nonatomic) CDUnknownBlockType didReceiveNonRetryableError; // @synthesize didReceiveNonRetryableError=_didReceiveNonRetryableError;
-@property(readonly, getter=isExecuting) _Bool executing;
-@property(readonly, getter=isFinished) _Bool finished;
-@property(retain, nonatomic) CKOperationGroup *group; // @synthesize group=_group;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *handlingQueue; // @synthesize handlingQueue=_handlingQueue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(copy, nonatomic) CDUnknownBlockType longLivedOperationWasPersistedBlock; // @synthesize longLivedOperationWasPersistedBlock=_longLivedOperationWasPersistedBlock;
-@property(readonly, nonatomic) unsigned long long numberOfRetries;
-@property(readonly, copy, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
-@property(readonly, nonatomic) __weak id owner; // @synthesize owner=_owner;
-@property(copy, nonatomic) CDUnknownBlockType ownerDidDeallocateBlock; // @synthesize ownerDidDeallocateBlock=_ownerDidDeallocateBlock;
 @property(nonatomic, getter=_status, setter=_setStatus:) long long status;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeout;
 
 @end
 

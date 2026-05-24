@@ -7,10 +7,6 @@
 @interface NewsFeed.WebEmbedDataVisualizationDataServiceFailure
 {
     id error;
-    id fetchDate;
-    id createdDate;
-    id request;
-    id maxAge;
 }
 
 @end

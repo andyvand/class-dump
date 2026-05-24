@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SwiftUI.UIKitAccessibilityLinkRotorBridge.LinkElement
 {
     id node;
-    id range;
-    id link;
 }
 
 - (void);
@@ -30,12 +26,7 @@
 - (id)=ÿÑ¨³=ÿÑ¤³=ÿÑ ³=ÿ¹Ñ¬)JÿÑÑ³=ÿÑÑ³=ÿÑÑ³=ÿ©Ñ³=ÿÑ³=ÿÁÑ³=ÿ;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint accessibilityActivationPoint;
 @property(nonatomic) struct CGRect accessibilityFrame;
-@property(nonatomic, copy) NSString *accessibilityIdentifier;
-@property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic) _Bool accessibilityRespondsToUserInteraction;
-@property(nonatomic) unsigned long long accessibilityTraits;
 
 @end
 

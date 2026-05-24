@@ -5,5 +5,9 @@
 //
 
 @protocol WKNavigationDelegate
+
+@optional
+- (void)CredentialPRFAssertionOutput",R,N;
+- (void);
 @end
 

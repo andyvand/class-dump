@@ -4,42 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateUser
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOSessionID _preSyncSessionId;
-    double _bestMapsUseStartDate;
-    NSString *_homeCountryCode;
-    NSString *_homeMetroRegion;
-    double _mapsUseLastDate;
-    double _mapsUseStartDate;
-    double _syncFirstTimestamp;
-    double _syncLastTimestamp;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isSignedInWithDsid;
-    _Bool _isTourist;
-    struct {
-        unsigned int has_preSyncSessionId:1;
-        unsigned int has_bestMapsUseStartDate:1;
-        unsigned int has_mapsUseLastDate:1;
-        unsigned int has_mapsUseStartDate:1;
-        unsigned int has_syncFirstTimestamp:1;
-        unsigned int has_syncLastTimestamp:1;
-        unsigned int has_isSignedInWithDsid:1;
-        unsigned int has_isTourist:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_homeCountryCode:1;
-        unsigned int read_homeMetroRegion:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)entImportanceInfo:(id)arg1;
++ (_Bool)setHasSupportsGuidanceEventImportanceInfo:(id)arg1;
 - (double);
 - (double);
 - (void);
@@ -47,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ȟ;
 - (void);
 - (void);
 - (void);
@@ -66,10 +38,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double);
-- (double);
-- (id);
-- (id);
+- (double)24@32^@40;
+- (double)allEvents;
+- (id)n;
+- (id)initWithDelay:options:delegate: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (struct GEOSessionID);
@@ -77,7 +49,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)portsEchoCancellation = %d, isVoiceOverTouchEnabled = %d, isVibrationEnabled = %d, isVibrationSupported = %d, suppressStartAlert = %d, activationHostTime = %llu, isVoiceOverSiriSoundsEnabled = %d;
 - (void);
 - (id);
 - (unsigned long long);
@@ -85,8 +57,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)ypeLimit:(struct _NSZone *)arg1 traits: /* Error: Ran out of types for this method. */;
-- (void)DivergentSegment;
+- (id)ticketForReverseGeocodeLocation:(struct _NSZone *)arg1 preserveOriginalLocation:placeTypeLimit:traits: /* Error: Ran out of types for this method. */;
+- (void)isDivergentSegment;
 - (id)StringAsCarHeadunitConnectionType: /* Error: Ran out of types for this method. */;
 - (id)nnot find vertex count:geoId = %lld, Vertex Begin = %f, Vertex End = %f, in traffic tile (%d, %d, %d). /* Error: Ran out of types for this method. */;
 - (id);
@@ -98,27 +70,7 @@
 - (void)þ;
 
 // Remaining properties
-@property(nonatomic) double bestMapsUseStartDate;
-@property(nonatomic) _Bool hasBestMapsUseStartDate;
-@property(readonly, nonatomic) _Bool hasHomeCountryCode;
-@property(readonly, nonatomic) _Bool hasHomeMetroRegion;
-@property(nonatomic) _Bool hasIsSignedInWithDsid;
-@property(nonatomic) _Bool hasIsTourist;
-@property(nonatomic) _Bool hasMapsUseLastDate;
-@property(nonatomic) _Bool hasMapsUseStartDate;
-@property(nonatomic) _Bool hasPreSyncSessionId;
 @property(nonatomic) _Bool hasSyncFirstTimestamp;
-@property(nonatomic) _Bool hasSyncLastTimestamp;
-@property(retain, nonatomic) NSString *homeCountryCode;
-@property(retain, nonatomic) NSString *homeMetroRegion;
-@property(nonatomic) _Bool isSignedInWithDsid;
-@property(nonatomic) _Bool isTourist;
-@property(nonatomic) double mapsUseLastDate;
-@property(nonatomic) double mapsUseStartDate;
-@property(nonatomic) struct GEOSessionID preSyncSessionId;
-@property(nonatomic) double syncFirstTimestamp;
-@property(nonatomic) double syncLastTimestamp;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

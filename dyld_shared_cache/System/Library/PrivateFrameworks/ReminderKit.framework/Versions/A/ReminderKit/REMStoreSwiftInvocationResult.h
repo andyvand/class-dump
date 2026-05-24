@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, REMFetchResultToken;
+@class NSData;
 
 @interface REMStoreSwiftInvocationResult
 {
     NSData *_resultData;
-    NSDictionary *_resultStorages;
-    REMFetchResultToken *_latestFetchResultToken;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)install:(id)arg1 %@;
+- (id)LASIOCommandDataKextBlacklist;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) REMFetchResultToken *latestFetchResultToken; // @synthesize latestFetchResultToken=_latestFetchResultToken;
 @property(readonly, nonatomic) NSData *resultData; // @synthesize resultData=_resultData;
-@property(readonly, nonatomic) NSDictionary *resultStorages; // @synthesize resultStorages=_resultStorages;
 
 @end
 

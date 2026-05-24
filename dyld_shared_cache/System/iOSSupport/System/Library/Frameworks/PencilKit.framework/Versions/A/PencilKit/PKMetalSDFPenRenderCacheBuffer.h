@@ -10,11 +10,6 @@
 @interface PKMetalSDFPenRenderCacheBuffer
 {
     PKMetalBuffer *_pkUniformsBuffer;
-    PKMetalBuffer *_pkStrokePointBuffer;
-    unsigned long long _uniformsBufferOffset;
-    unsigned long long _strokePointBufferOffset;
-    unsigned long long _numVertices;
-    unsigned long long _numPoints;
 }
 
 - (unsigned long long);
@@ -24,17 +19,12 @@
 - (unsigned long long);
 -     // Error parsing type: @56@0:8r^{PKMetalSDFPenKernelUniforms=II}16r^{PKMetalSDFPenStrokePoint=f  b16b16}24Q32Q40@48, name: (null)
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numPoints; // @synthesize numPoints=_numPoints;
-@property(readonly, nonatomic) unsigned long long numVertices; // @synthesize numVertices=_numVertices;
-@property(readonly, nonatomic) id <MTLBuffer> strokePointBuffer;
-@property(readonly, nonatomic) unsigned long long strokePointBufferOffset; // @synthesize strokePointBufferOffset=_strokePointBufferOffset;
 @property(readonly, nonatomic) id <MTLBuffer> uniformsBuffer;
-@property(readonly, nonatomic) unsigned long long uniformsBufferOffset; // @synthesize uniformsBufferOffset=_uniformsBufferOffset;
 
 @end
 

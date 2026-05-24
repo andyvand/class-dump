@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBDeleteFilePermanentlyIntentResponse
 {
     struct {
         unsigned int confirm:1;
         unsigned int success:1;
     } _has;
-    _Bool _confirm;
-    _Bool _success;
 }
 
 + (_Bool);
@@ -28,24 +24,14 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)corewifi] [wifi-network-sharing] Associated BSSID for known network changed (new=%{public}@, old=%{public}@);
 - (id);
 - (id);
-- (_Bool)PayloadIntegerLists;
-- (void)lectionForSaveProfileInCar:(_Bool)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)clearPayloadIntegerLists;
+- (void)provideProfileNameOptionsCollectionForSaveProfileInCar:(_Bool)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool confirm; // @synthesize confirm=_confirm;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasConfirm;
-@property(nonatomic) _Bool hasSuccess;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

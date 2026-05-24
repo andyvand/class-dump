@@ -7,9 +7,6 @@
 @interface TKSmartCardSlotScreen
 {
     long long _physicalColumnCount;
-    long long _physicalRowCount;
-    long long _virtualColumnCount;
-    long long _virtualRowCount;
 }
 
 - (long long);
@@ -24,9 +21,6 @@
 
 // Remaining properties
 @property long long physicalColumnCount; // @synthesize physicalColumnCount=_physicalColumnCount;
-@property long long physicalRowCount; // @synthesize physicalRowCount=_physicalRowCount;
-@property long long virtualColumnCount; // @synthesize virtualColumnCount=_virtualColumnCount;
-@property long long virtualRowCount; // @synthesize virtualRowCount=_virtualRowCount;
 
 @end
 

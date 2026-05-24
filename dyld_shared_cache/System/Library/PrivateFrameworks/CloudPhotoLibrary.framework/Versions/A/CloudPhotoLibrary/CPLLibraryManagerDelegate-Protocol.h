@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CPLLibraryManagerDelegate
+- (void)#;
+
+@optional
+- (NSString *)9;
 @end
 

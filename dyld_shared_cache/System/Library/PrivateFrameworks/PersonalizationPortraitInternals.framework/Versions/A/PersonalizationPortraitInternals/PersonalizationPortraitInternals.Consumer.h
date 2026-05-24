@@ -7,15 +7,10 @@
 @interface PersonalizationPortraitInternals.Consumer
 {
     id topicStoreOverride;
-    id entityStoreOverride;
-    id locationStoreOverride;
-    id writebackDissector;
-    id entityDissector;
-    id topicDissector;
 }
 
 - (id);
-- (void)ansitSummary: /* Error: Ran out of types for this method. */;
+- (void)navigationListener:didUpdateTransitSummary: /* Error: Ran out of types for this method. */;
 
 @end
 

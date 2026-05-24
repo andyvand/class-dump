@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PGSurveyQuestion
 {
     unsigned short state;
-    NSDictionary *additionalInfo;
-    NSString *entityIdentifier;
-    double localFactoryScore;
-    double score;
 }
 
 - (double);
@@ -24,32 +20,18 @@
 - (unsigned short);
 - (id);
 - (unsigned short);
-- (unsigned long long);
+- (unsigned long long)$\;
 - (unsigned short);
-- (unsigned short);
+- (unsigned short)a;
 - (_Bool);
 - (double);
 - (void);
-- (id)ionDate:localeIdentifier:languageIdentifiers:geoServiceProviderID:curationAlgorithmsVersion:contactsStoreAccess: /* Error: Ran out of types for this method. */;
+- (id)initWithCreationDate:localeIdentifier:languageIdentifiers:geoServiceProviderID:curationAlgorithmsVersion:contactsStoreAccess: /* Error: Ran out of types for this method. */;
 - (void)ons;
 - (void)nCityNode"8^B16;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *additionalInfo; // @synthesize additionalInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned short displayType;
 @property(readonly, copy, nonatomic) NSString *entityIdentifier; // @synthesize entityIdentifier;
-@property(readonly, nonatomic) unsigned short entityType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double localFactoryScore; // @synthesize localFactoryScore;
-@property(nonatomic) double score; // @synthesize score;
-@property(readonly, nonatomic) unsigned short state; // @synthesize state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned short type;
 
 @end
 

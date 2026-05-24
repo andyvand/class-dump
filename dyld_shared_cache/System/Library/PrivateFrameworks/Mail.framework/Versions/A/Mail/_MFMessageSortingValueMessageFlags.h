@@ -9,17 +9,15 @@
 @interface _MFMessageSortingValueMessageFlags : MFMessageSortingValue
 {
     unsigned char _flagColorSet;
-    long long _messageFlags;
 }
 
 - (void);
 - (void);
 - (long long);
-- (unsigned char);
-- (id);
+- (unsigned char){#;
+- (id)scrollIntoView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned char flagColorSet; // @synthesize flagColorSet=_flagColorSet;
 @property(nonatomic) long long messageFlags; // @synthesize messageFlags=_messageFlags;
 
 @end

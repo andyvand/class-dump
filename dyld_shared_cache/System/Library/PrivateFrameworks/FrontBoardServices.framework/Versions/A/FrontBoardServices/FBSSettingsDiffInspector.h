@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMutableKeyedSettings, BSMutableSettings;
+@class BSMutableKeyedSettings;
 
 @interface FBSSettingsDiffInspector
 {
     BSMutableKeyedSettings *_observerInfo;
-    BSMutableSettings *_otherSettingsObserverInfo;
-    _Bool _iteratingObservers;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -23,9 +21,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)dictionaryStructuredAnswer;
 - (void);
-- (void);
+- (void)`;
 
 @end
 

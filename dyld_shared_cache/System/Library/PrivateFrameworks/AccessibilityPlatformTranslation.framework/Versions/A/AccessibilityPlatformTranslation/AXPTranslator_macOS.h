@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface AXPTranslator_macOS : AXPTranslator
 {
     CDUnknownBlockType _zoomTriggerTestingCallback;
-    CDUnknownBlockType _appNotificationTestingCallback;
-    NSMutableDictionary *_objectIDToTranslationObjMapping;
 }
 
 + (id);
@@ -41,9 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType appNotificationTestingCallback; // @synthesize appNotificationTestingCallback=_appNotificationTestingCallback;
 @property(retain, nonatomic) NSMutableDictionary *objectIDToTranslationObjMapping; // @synthesize objectIDToTranslationObjMapping=_objectIDToTranslationObjMapping;
-@property(copy, nonatomic) CDUnknownBlockType zoomTriggerTestingCallback; // @synthesize zoomTriggerTestingCallback=_zoomTriggerTestingCallback;
 
 @end
 

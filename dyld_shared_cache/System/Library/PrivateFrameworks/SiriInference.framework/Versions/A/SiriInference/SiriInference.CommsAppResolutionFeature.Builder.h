@@ -7,16 +7,6 @@
 @interface SiriInference.CommsAppResolutionFeature.Builder
 {
     id intent;
-    id nlContactCount;
-    id appFeatures;
-    id communicationType;
-    id siriLocale;
-    id interactionTypes;
-    id isRequestByHandle;
-    id isRequestBylabel;
-    id isRequestByPhoneNumber;
-    id contacts;
-    id allowForcedDisambiguation;
 }
 
 @end

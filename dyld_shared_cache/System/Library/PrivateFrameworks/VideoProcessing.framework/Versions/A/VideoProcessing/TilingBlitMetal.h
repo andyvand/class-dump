@@ -6,21 +6,11 @@
 
 #import <VideoProcessing/CommonMetal.h>
 
-@class NSDictionary;
 @protocol MTLComputePipelineState;
 
 @interface TilingBlitMetal : CommonMetal
 {
     id <MTLComputePipelineState> _detileLumaPipeline;
-    id <MTLComputePipelineState> _detileChromaPipeline;
-    id <MTLComputePipelineState> _tileLumaPipeline;
-    id <MTLComputePipelineState> _tileChromaPipeline;
-    struct CF<__CVMetalTextureCache *> _textureCacheSrcLuma;
-    struct CF<__CVMetalTextureCache *> _textureCacheSrcChroma;
-    struct CF<__CVMetalTextureCache *> _textureCacheDstLuma;
-    struct CF<__CVMetalTextureCache *> _textureCacheDstChroma;
-    NSDictionary *_readAttributes;
-    NSDictionary *_writeAttributes;
 }
 
 - (int);

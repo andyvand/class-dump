@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OITSULocale;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OITSUDurationFormatter
 {
     NSString *mFormat;
-    OITSULocale *mLocale;
-    int mCompactStyleStartUnit;
 }
 
-- (void);
+- (void);
 - (void);
 - (int);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)kenessResolver] Matched more than one contact when resolving likeness;
 - (id);
 - (id);
 - (id);
-- (id)Session10ContainerAtom;
+- (id)30PptCryptSession10ContainerAtom;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int compactStyleStartUnit; // @synthesize compactStyleStartUnit=mCompactStyleStartUnit;
 @property(copy, nonatomic) NSString *format; // @synthesize format=mFormat;
-@property(readonly) OITSULocale *locale; // @synthesize locale=mLocale;
 
 @end
 

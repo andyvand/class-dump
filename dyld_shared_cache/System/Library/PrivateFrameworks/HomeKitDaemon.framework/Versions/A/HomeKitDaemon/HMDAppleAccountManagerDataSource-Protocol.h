@@ -8,17 +8,13 @@
 @protocol HMDACAccountStore, HMDAPSConnection, OS_dispatch_queue;
 
 @protocol HMDAppleAccountManagerDataSource
-- (NSObject<OS_dispatch_queue> *)ionState:authStatus:reverseShareInvitation:logEventBuilder: /* Error: Ran out of types for this method. */;
+- (NSObject<OS_dispatch_queue> *)__sendUpdateRequestToAdminForInvitation:homeUUID:invitationState:authStatus:reverseShareInvitation:logEventBuilder: /* Error: Ran out of types for this method. */;
 - (id <HMDACAccountStore>)tic value %@ (op:%tu) %@, result:%@ /* Error: Ran out of types for this method. */;
 - (id <HMDAPSConnection>)rediction with event:%@ /* Error: Ran out of types for this method. */;
 - (NSNotificationCenter *);
 - (id)~&øÓÿ;
 
 // Remaining properties
-@property(readonly) id accountChangeObserver;
-@property(readonly) id <HMDACAccountStore> accountStore;
-@property(readonly) id <HMDAPSConnection> apsConnection;
-@property(readonly) NSNotificationCenter *notificationCenter;
 @property(readonly) NSObject<OS_dispatch_queue> *queue;
 @end
 

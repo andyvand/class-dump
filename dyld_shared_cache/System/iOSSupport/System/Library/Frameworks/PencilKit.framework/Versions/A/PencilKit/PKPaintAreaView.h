@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PKAlternativeStrokesAnimation, PKDrawingGestureRecognizer, PKPaintAreaViewSurface, PKShapeDrawingController, PKTool;
-@protocol MTLDevice, PKPaintAreaViewDelegate;
+@class PKDrawingGestureRecognizer, PKShapeDrawingController;
 
 @interface PKPaintAreaView
 {
     PKDrawingGestureRecognizer *_drawingGestureRecognizer;
-    PKPaintAreaViewSurface *_currentPaintSurfaceObject;
-    NSMutableArray *_liveSurfaces;
-    id <MTLDevice> _device;
-    _Bool _switchSurfacesDuringStrokes;
-    _Bool _fingerDrawingEnabled;
-    _Bool _drawingDisabled;
-    id <PKPaintAreaViewDelegate> _delegate;
-    PKTool *_tool;
-    PKShapeDrawingController *_shapeDrawingController;
-    PKAlternativeStrokesAnimation *_alternativeStrokesAnimation;
-    double _liveAnimationStartTime;
 }
 
 - (void);
@@ -32,7 +20,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -72,22 +60,7 @@
 - (void)	ÊÿÿÿÿÿP;
 
 // Remaining properties
-@property(retain, nonatomic) PKAlternativeStrokesAnimation *alternativeStrokesAnimation; // @synthesize alternativeStrokesAnimation=_alternativeStrokesAnimation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPaintAreaViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool drawingDisabled; // @synthesize drawingDisabled=_drawingDisabled;
-@property(nonatomic) _Bool fingerDrawingEnabled; // @synthesize fingerDrawingEnabled=_fingerDrawingEnabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double liveAnimationStartTime; // @synthesize liveAnimationStartTime=_liveAnimationStartTime;
 @property(retain, nonatomic) PKShapeDrawingController *shapeDrawingController; // @synthesize shapeDrawingController=_shapeDrawingController;
-@property(readonly, nonatomic) struct CGAffineTransform strokeTransform;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool switchSurfacesDuringStrokes; // @synthesize switchSurfacesDuringStrokes=_switchSurfacesDuringStrokes;
-@property(retain, nonatomic) PKTool *tool; // @synthesize tool=_tool;
 
 @end
 

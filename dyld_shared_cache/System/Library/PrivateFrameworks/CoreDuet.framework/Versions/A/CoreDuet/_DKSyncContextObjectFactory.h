@@ -9,19 +9,16 @@
 @interface _DKSyncContextObjectFactory
 {
     NSMutableDictionary *_instances;
-    _DKSyncContext *_context;
-    Class _class;
 }
 
 + (id);
-- (id);
+- (id));
 - (Class);
 - (id);
-- (id);
+- (id)P;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) Class class; // @synthesize class=_class;
 @property(readonly, nonatomic) _DKSyncContext *context; // @synthesize context=_context;
 
 @end

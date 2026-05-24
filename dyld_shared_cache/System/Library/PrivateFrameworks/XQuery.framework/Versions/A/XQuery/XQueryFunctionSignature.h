@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface XQueryFunctionSignature
 {
     XQueryQName *_name;
-    unsigned long long _argCount;
 }
 
 + (id);
@@ -18,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)encodeInt32:forKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);

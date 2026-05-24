@@ -5,5 +5,6 @@
 //
 
 @protocol NSPasteboardItemDataProvider
+- (void)ind property in the manifest;
 @end
 

@@ -11,12 +11,11 @@
 @interface PXDebugStringValue : PXDebugValue
 {
     unsigned long long _highlightStyle;
-    NSString *_string;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);

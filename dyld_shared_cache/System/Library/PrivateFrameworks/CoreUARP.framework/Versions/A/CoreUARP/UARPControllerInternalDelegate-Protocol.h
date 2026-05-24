@@ -4,7 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UARPAccessory, UARPAssetID;
+
 @protocol UARPControllerInternalDelegate
+- (_Bool)ؓ;
+- (void)NowPlayingApplicationTimeout;
+- (void)_modified;
+- (_Bool)URLSession:(UARPAccessory *)arg1 dataTask:(UARPAssetID *)arg2 didBecomeStreamTask: /* Error: Ran out of types for this method. */;
+- (_Bool)buyApplication;
+- (UARPAssetID *);
 
 // Remaining properties
 @property(readonly) _Bool useAssetAvailabilityNotifications;

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSGroupTouchBarItem, NSMutableDictionary, NSMutableOrderedSet, NSString, NSTouchBar;
+@class NSTouchBar;
 
 __attribute__((visibility("hidden")))
 @interface iCloudTouchBarController
 {
     NSTouchBar *_iCloudTouchBar;
-    NSGroupTouchBarItem *_buttonGroup;
-    NSMutableDictionary *_buttonDictionary;
-    NSMutableOrderedSet *_buttonIdentifiers;
 }
 
 - (void);
@@ -28,18 +25,7 @@ __attribute__((visibility("hidden")))
 - (id)n.;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *buttonDictionary; // @synthesize buttonDictionary=_buttonDictionary;
-@property(retain) NSGroupTouchBarItem *buttonGroup; // @synthesize buttonGroup=_buttonGroup;
-@property(retain, nonatomic) NSMutableOrderedSet *buttonIdentifiers; // @synthesize buttonIdentifiers=_buttonIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSTouchBar *iCloudTouchBar; // @synthesize iCloudTouchBar=_iCloudTouchBar;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
 
 @end
 

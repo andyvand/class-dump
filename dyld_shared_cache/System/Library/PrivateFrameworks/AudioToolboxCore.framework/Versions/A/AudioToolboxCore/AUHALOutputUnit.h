@@ -10,31 +10,25 @@ __attribute__((visibility("hidden")))
 @interface AUHALOutputUnit : AUAudioUnitV2Bridge
 {
     CDUnknownBlockType _outputProvider;
-    CDUnknownBlockType _inputHandler;
-    _Bool _inputWasEnabled;
-    _Bool _outputWasEnabled;
-    _Bool _inputBusEnabled;
-    int _renderObserverToken;
-    struct unordered_map<long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking)), std::hash<long>, std::equal_to<long>, std::allocator<std::pair<const long, void (^)(unsigned int, const AudioTimeStamp *, unsigned int, long) __attribute__((nonblocking))>>> _renderObservers;
 }
 
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)SecCertificateCopySubjectComponent;
+- (id);
+- (double)ses(read_time_range));
+- (int)19HALS_UCRemotePlugIn;
+- (_Bool);
 - (void);
 - (id);
-- (double);
-- (int);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double)Ac;
 - (_Bool);
 - (void);
 - (double);
@@ -42,16 +36,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)uZ;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool)5;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int deviceID;
 @property(nonatomic, getter=isInputEnabled) _Bool inputEnabled;
-@property(nonatomic, getter=isOutputEnabled) _Bool outputEnabled;
 
 @end
 

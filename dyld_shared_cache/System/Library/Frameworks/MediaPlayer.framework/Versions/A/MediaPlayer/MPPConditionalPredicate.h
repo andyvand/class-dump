@@ -10,12 +10,10 @@ __attribute__((visibility("hidden")))
 @interface MPPConditionalPredicate
 {
     MPPMediaPredicate *_conditionalPredicate;
-    MPPMediaPredicate *_elsePredicate;
-    MPPMediaPredicate *_thenPredicate;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -25,22 +23,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)_handleCompensatingScaleFactor;
 - (void);
 - (id);
 - (id);
-- (void)cessToken: /* Error: Ran out of types for this method. */;
+- (void)_insertDataSource:forSection:afterEntry:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MPPMediaPredicate *conditionalPredicate; // @synthesize conditionalPredicate=_conditionalPredicate;
-@property(retain, nonatomic) MPPMediaPredicate *elsePredicate; // @synthesize elsePredicate=_elsePredicate;
 @property(readonly, nonatomic) _Bool hasConditionalPredicate;
-@property(readonly, nonatomic) _Bool hasElsePredicate;
-@property(readonly, nonatomic) _Bool hasThenPredicate;
-@property(retain, nonatomic) MPPMediaPredicate *thenPredicate; // @synthesize thenPredicate=_thenPredicate;
 
 @end
 

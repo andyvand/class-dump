@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)___UIDatePickerLinkedLabelAccessibility_super;
++ (void)ticalTextView;
 - (void);
 - (void);
-- (void);
+- (void)B,R,GisAvailable,V_available;
 - (id);
 
 @end

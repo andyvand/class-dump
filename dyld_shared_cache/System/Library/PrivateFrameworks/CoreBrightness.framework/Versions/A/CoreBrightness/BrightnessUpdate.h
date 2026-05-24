@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface BrightnessUpdate
 {
     unsigned long long _ID;
-    double _timestampOffset;
-    NSNumber *_sdr;
-    NSNumber *_headroom;
-    NSNumber *_limit;
-    NSNumber *_potentialHeadroom;
-    NSNumber *_referenceHeadroom;
-    NSNumber *_adaptationScale;
-    NSNumber *_ambient;
-    NSNumber *_filteredAmbient;
-    NSNumber *_contrastEnhancer;
-    NSNumber *_lowAmbientAdaptation;
-    NSNumber *_highAmbientAdaptation;
-    NSNumber *_indicatorBrightness;
-    NSNumber *_indicatorBrightnessLimit;
-    NSArray *_whitePoint;
-    NSNumber *_contrastPreservation;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -43,9 +25,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -59,8 +41,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id);
 - (id);
 - (void)*Ð!°Aùñ×-ð1Â0@ù
 × ;
@@ -68,22 +50,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property unsigned long long ID; // @synthesize ID=_ID;
-@property(retain, nonatomic) NSNumber *adaptationScale; // @synthesize adaptationScale=_adaptationScale;
-@property(retain, nonatomic) NSNumber *ambient; // @synthesize ambient=_ambient;
-@property(retain, nonatomic) NSNumber *contrastEnhancer; // @synthesize contrastEnhancer=_contrastEnhancer;
-@property(retain, nonatomic) NSNumber *contrastPreservation; // @synthesize contrastPreservation=_contrastPreservation;
-@property(retain, nonatomic) NSNumber *filteredAmbient; // @synthesize filteredAmbient=_filteredAmbient;
-@property(retain, nonatomic) NSNumber *headroom; // @synthesize headroom=_headroom;
-@property(retain, nonatomic) NSNumber *highAmbientAdaptation; // @synthesize highAmbientAdaptation=_highAmbientAdaptation;
-@property(retain, nonatomic) NSNumber *indicatorBrightness; // @synthesize indicatorBrightness=_indicatorBrightness;
-@property(retain, nonatomic) NSNumber *indicatorBrightnessLimit; // @synthesize indicatorBrightnessLimit=_indicatorBrightnessLimit;
-@property(retain, nonatomic) NSNumber *limit; // @synthesize limit=_limit;
-@property(retain, nonatomic) NSNumber *lowAmbientAdaptation; // @synthesize lowAmbientAdaptation=_lowAmbientAdaptation;
-@property(retain, nonatomic) NSNumber *potentialHeadroom; // @synthesize potentialHeadroom=_potentialHeadroom;
-@property(retain, nonatomic) NSNumber *referenceHeadroom; // @synthesize referenceHeadroom=_referenceHeadroom;
-@property(retain, nonatomic) NSNumber *sdr; // @synthesize sdr=_sdr;
-@property double timestampOffset; // @synthesize timestampOffset=_timestampOffset;
-@property(retain, nonatomic) NSArray *whitePoint; // @synthesize whitePoint=_whitePoint;
 
 @end
 

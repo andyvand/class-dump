@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableIndexSet, NSTableRowView;
+@class NSMutableIndexSet;
 
 __attribute__((visibility("hidden")))
 @interface NSTableBannerRowData
 {
     NSMutableIndexSet *_bannerRowIndexes;
-    NSMutableIndexSet *_cachedRowIndexes;
-    long long _floatingBannerRowIndex;
-    NSTableRowView *_floatingBannerRowView;
-    NSMutableDictionary *_bannerViewBackgrounds;
 }
 
 - (id);
-- (id)in;
+- (id)_trackMayBegin;
 - (id)erable0B0P;
 - (void);
 

@@ -6,12 +6,11 @@
 
 #import <Silex/SXComponentSizer.h>
 
-@class NSString, SXTextLayouter, SXTextResizer;
+@class SXTextResizer;
 
 @interface SXTextComponentSizer : SXComponentSizer
 {
     SXTextResizer *_textResizer;
-    SXTextLayouter *_textLayouter;
 }
 
 - (double);
@@ -39,15 +38,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long stringLength;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SXTextLayouter *textLayouter; // @synthesize textLayouter=_textLayouter;
 @property(retain, nonatomic) SXTextResizer *textResizer; // @synthesize textResizer=_textResizer;
 
 @end

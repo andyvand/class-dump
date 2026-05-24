@@ -7,11 +7,10 @@
 @interface _MFMailboxEnumerator
 {
     struct __CFTree *_startTree;
-    struct __CFTree *_lastTree;
 }
 
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (id);
 

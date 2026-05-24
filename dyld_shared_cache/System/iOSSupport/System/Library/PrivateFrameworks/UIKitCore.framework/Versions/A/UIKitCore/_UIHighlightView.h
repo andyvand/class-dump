@@ -6,17 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSMutableArray, UIColor;
+@class UIColor;
 
 @interface _UIHighlightView : UIView
 {
     UIColor *_color;
-    double _cornerRadius;
-    struct CGRect _invertedHighlightClipRect;
-    NSArray *_cornerRadii;
-    NSMutableArray *_innerBounds;
-    NSMutableArray *_innerQuads;
-    _Bool _invertHighlight;
 }
 
 - (void);
@@ -25,9 +19,9 @@
 - (void);
 - (void);
 - (void);
-- (void)gmentAtIndex:(id)arg1;
-- (id)delegateSupportsMenuInteraction;
-- (void)lElement;
+- (void)_setBadgeValue:(id)arg1 forSegmentAtIndex: /* Error: Ran out of types for this method. */;
+- (id)_delegateSupportsMenuInteraction;
+- (void)UIProgressViewModernVisualElement;
 - (void)ionController. You must provide either a sourceView and sourceRect or a barButtonItem.  If this information is not known when you present the alert controller, you may provide it in the UIPopoverPresentationControllerDelegate method -prepareForPopoverPresentation.;
 - (void);
 - (id)\;

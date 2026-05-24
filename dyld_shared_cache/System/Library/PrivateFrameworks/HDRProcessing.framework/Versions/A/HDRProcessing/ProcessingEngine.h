@@ -7,13 +7,6 @@
 @interface ProcessingEngine
 {
     unsigned int _frameNumber;
-    struct EngineHDRContext _engineHC;
-    CDStruct_79b81a88 _dm_config;
-    _Bool _enableHwOOTF;
-    _Bool _enableHwOotfForHLG;
-    _Bool _enableHwOotfForDolby84;
-    CDStruct_549943d0 _prev;
-    CDStruct_549943d0 _prevConstr;
 }
 
 - (void);
@@ -24,15 +17,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)T(;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 
 @end

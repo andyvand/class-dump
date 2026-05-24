@@ -6,36 +6,22 @@
 
 #import <UIKitCore/UILocalNotification.h>
 
-@class CLRegion, NSCalendar, NSData, NSDate, NSString, NSTimeZone;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface UIConcreteLocalNotification : UILocalNotification
 {
     NSDate *fireDate;
-    NSTimeZone *timeZone;
-    unsigned long long repeatInterval;
-    NSCalendar *repeatCalendar;
-    CLRegion *region;
-    _Bool regionTriggersOnce;
-    NSString *alertBody;
-    _Bool hasAction;
-    NSString *alertAction;
-    NSString *alertLaunchImage;
-    NSString *alertTitle;
-    NSString *soundName;
-    long long applicationIconBadgeNumber;
-    NSData *userInfoData;
-    NSString *category;
 }
 
-+ (_Bool)ableViewHeadersFootersUseModernConfiguration;
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
++ (_Bool)TableViewHeadersFootersUseModernConfiguration;
+- (void)vice left first unlock, re-syncing chats;
+- (void)t setting transcript background, subclass for iMessage should handle.;
+- (_Bool)tion Codes | Reading deletion preference as:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (id)0@"NSURL"8@"NSURL"16@"NSError"24B32B36;
+- (id)transferredFilename;
+- (_Bool)IMDRelayErrorChatForOutgoingMessageAddedParticipantsKey;
+- (_Bool)IMDRelayErrorChatForOutgoingMessageAddedParticipantsKey;
 - (long long);
 - (long long);
 - (id);
@@ -47,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)_payloadComappleEnergySaverportableBatteryPower;
 - (id);
 - (id);
 - (void);
@@ -57,15 +43,15 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool)1Â0@ù
 × ;
-- (_Bool)icksWhenVisible;
-- (void)roller:(id)arg1;
-- (void)ploadURL;
-- (id)yphenationFactorIgnoredIfURLsDetected;
-- (void)imationResponse;
-- (void)ormatting;
+- (_Bool)enableInputClicksWhenVisible;
+- (void)_willHideAlertController:(id)arg1;
+- (void)_uploadURL;
+- (id)_hasCustomized_hyphenationFactorIgnoredIfURLsDetected;
+- (void)_dampedAnimationResponse;
+- (void)_UIKBVisualEffectViewForTextFormatting;
 - (id)À;
 - (id);
-- (void)bol;
+- (void)symbol;
 - (id);
 - (void)¯ÊÿIR\;
 - (void);

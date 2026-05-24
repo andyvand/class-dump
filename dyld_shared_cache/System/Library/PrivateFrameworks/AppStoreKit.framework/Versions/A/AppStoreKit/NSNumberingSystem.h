@@ -9,33 +9,27 @@
 @interface NSNumberingSystem
 {
     _Bool _isAlgorithmic;
-    NSString *_identifier;
-    long long _radix;
-    NSString *_descriptor;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
-- (id);
-- (id);
+- (id)o;
+- (id)Zo;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id)l:: /* Error: Ran out of types for this method. */;
+- (id)setBool:: /* Error: Ran out of types for this method. */;
 - (void)entViewP;
 - (void);
 
 // Remaining properties
-@property(copy) NSString *descriptor; // @synthesize descriptor=_descriptor;
 @property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool isAlgorithmic; // @synthesize isAlgorithmic=_isAlgorithmic;
-@property long long radix; // @synthesize radix=_radix;
 
 @end
 

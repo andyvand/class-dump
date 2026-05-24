@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (void);
++ (id)_phskip_credStorageSet;
++ (void)NSMutableHTTPCookie2;
 
 @end
 

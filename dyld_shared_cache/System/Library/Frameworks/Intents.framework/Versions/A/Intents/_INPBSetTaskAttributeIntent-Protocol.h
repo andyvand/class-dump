@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBContactEventTrigger, _INPBDataString, _INPBIntentMetadata, _INPBSpatialEventTrigger, _INPBTask, _INPBTemporalEventTrigger;
+@class NSString, _INPBContactEventTrigger;
 
 @protocol _INPBSetTaskAttributeIntent
-- (void)eForSaveHealthSample:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
-- (_Bool)s:privateMediaIntentData:appSelectionSignalsEnabled:appSelectionSignalsFrequencyDenominator:shouldSuppressCommonWholeHouseAudioRoutes:immediatelyStartPlayback:isAmbiguousPlay:isPersonalizedRequest:internalSignals:entityConfidenceSignalsEnabled:entityConfidenceSignalsFrequencyDenominatorInternal:entityConfidenceSignalsFrequencyDenominatorProd:entityConfidenceSignalsMaxItemsToDisambiguate:alternativeProviderBundleIdentifier:ampPAFDataSetID:pegasusMetaData: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (_Bool);
+- (void);
+- (NSString *);
+- (void)resolveRecordDateForSaveHealthSample:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithAppSelectionEnabled:appInferred:audioSearchResults:privateMediaIntentData:appSelectionSignalsEnabled:appSelectionSignalsFrequencyDenominator:shouldSuppressCommonWholeHouseAudioRoutes:immediatelyStartPlayback:isAmbiguousPlay:isPersonalizedRequest:internalSignals:entityConfidenceSignalsEnabled:entityConfidenceSignalsFrequencyDenominatorInternal:entityConfidenceSignalsFrequencyDenominatorProd:entityConfidenceSignalsMaxItemsToDisambiguate:alternativeProviderBundleIdentifier:ampPAFDataSetID:pegasusMetaData: /* Error: Ran out of types for this method. */;
 - (int)INSetRelationshipIntentResponse;
-- (int)iersOptionsCollectionForSearchForContact:withCompletion: /* Error: Ran out of types for this method. */;
+- (int)provideContactIdentifiersOptionsCollectionForSearchForContact:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBContactEventTrigger *contactEventTrigger;
-@property(readonly, nonatomic) _Bool hasContactEventTrigger;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPriority;
-@property(readonly, nonatomic) _Bool hasSpatialEventTrigger;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasTargetTask;
-@property(readonly, nonatomic) _Bool hasTaskTitle;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int priority;
-@property(retain, nonatomic) _INPBSpatialEventTrigger *spatialEventTrigger;
-@property(nonatomic) int status;
-@property(retain, nonatomic) _INPBTask *targetTask;
-@property(retain, nonatomic) _INPBDataString *taskTitle;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger;
 @end
 

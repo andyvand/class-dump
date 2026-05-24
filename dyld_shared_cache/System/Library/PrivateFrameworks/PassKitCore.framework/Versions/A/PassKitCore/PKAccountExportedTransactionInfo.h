@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKAccountStatementMetadata;
+@class NSData;
 
 @interface PKAccountExportedTransactionInfo
 {
     NSData *_transactionData;
-    NSString *_transactionDataFilename;
-    NSString *_transactionDataHash;
-    PKAccountStatementMetadata *_statementMetadata;
 }
 
 + (_Bool)0@ù
@@ -26,13 +23,10 @@
 - (id);
 - (id);
 - (void);
-- (void)heetClosed;
+- (void)paymentSheetClosed;
 
 // Remaining properties
-@property(retain, nonatomic) PKAccountStatementMetadata *statementMetadata; // @synthesize statementMetadata=_statementMetadata;
 @property(copy, nonatomic) NSData *transactionData; // @synthesize transactionData=_transactionData;
-@property(copy, nonatomic) NSString *transactionDataFilename; // @synthesize transactionDataFilename=_transactionDataFilename;
-@property(copy, nonatomic) NSString *transactionDataHash; // @synthesize transactionDataHash=_transactionDataHash;
 
 @end
 

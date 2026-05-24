@@ -7,9 +7,6 @@
 @interface NewsUI2.PuzzleEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
 }
 
 @end

@@ -4,33 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKContainerID, CKDatabase, HMBCloudCredentialsAvailabilityListener, HMBCloudDatabaseConfiguration, HMBCloudDatabaseStateModel, HMBLocalDatabase, HMBLocalZone, NAFuture, NSMutableDictionary, NSOperationQueue, NSSet, NSString;
-@protocol HMBCloudDatabaseDataSource, HMBCloudDatabaseDelegate, NAScheduler;
+@class NSSet;
 
 @interface HMBCloudDatabase
 {
     struct os_unfair_lock_s _propertyLock;
-    id <HMBCloudDatabaseDelegate> _delegate;
-    HMBLocalDatabase *_localDatabase;
-    HMBCloudDatabaseConfiguration *_configuration;
-    id <HMBCloudDatabaseDataSource> _dataSource;
-    HMBLocalZone *_stateZone;
-    HMBCloudDatabaseStateModel *_privateDatabaseState;
-    HMBCloudDatabaseStateModel *_sharedDatabaseState;
-    HMBCloudDatabaseStateModel *_publicDatabaseState;
-    NSMutableDictionary *_zoneStateByZoneID;
-    CKContainer *_container;
-    HMBCloudCredentialsAvailabilityListener *_credentialsAvailabilityListener;
-    CKDatabase *_sharedDatabase;
-    CKDatabase *_privateDatabase;
-    CKDatabase *_publicDatabase;
-    CDUnknownBlockType _cloudZoneFactory;
-    NSOperationQueue *_invitationOperationQueue;
-    NSOperationQueue *_databaseFetchOperationQueue;
-    NAFuture *_initialCloudSyncFuture;
 }
 
-+ (id)ountAvailability;
++ (id)waitForAccountAvailability;
 - (id);
 - (void);
 - (void);
@@ -49,62 +30,62 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)i;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)d,t_curr,%.3lf;
+- (void)%&$71cZ`J1cZ`JKlaP`x1cZ`J1cZ`JKlaP`x1cZ`J1cZ`JKlaP`x";
+- (id)N8cnmatrix8CNMatrixILj174ELj1EPFiRKNS0_ILj8ELj1EdEERKNS0_ILj3ELj1EdEEPN12cnestimation19MeasurementArgsBaseERS4_RNS0_ILj3ELj8EdEERNS0_ILj3ELj3EdEEEEE;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id)y(;
+- (id);
+- (id)qa;
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)Ȓ;
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)removeAssetWithIdentifier:(id)arg1;
+- (id);
+- (id)m%;
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (void)setCache:(id)arg1;
 - (void);
+- (id)enumeratorForAllItems: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)5G;
 - (id);
 - (_Bool);
 - (id);
@@ -114,8 +95,8 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
-- (id);
+- (id)r";
+- (id)_canDeferAsynchronousFieldsMetadataUpdateUntilCompletion;
 - (id);
 - (id);
 - (id);
@@ -123,40 +104,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)>;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cloudZoneFactory; // @synthesize cloudZoneFactory=_cloudZoneFactory;
-@property(readonly, copy, nonatomic) HMBCloudDatabaseConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) CKContainerID *containerID;
-@property(readonly, nonatomic) HMBCloudCredentialsAvailabilityListener *credentialsAvailabilityListener; // @synthesize credentialsAvailabilityListener=_credentialsAvailabilityListener;
-@property(readonly, nonatomic) id <HMBCloudDatabaseDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) NSOperationQueue *databaseFetchOperationQueue; // @synthesize databaseFetchOperationQueue=_databaseFetchOperationQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HMBCloudDatabaseDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NAFuture *initialCloudSyncFuture; // @synthesize initialCloudSyncFuture=_initialCloudSyncFuture;
-@property(readonly, nonatomic) NSOperationQueue *invitationOperationQueue; // @synthesize invitationOperationQueue=_invitationOperationQueue;
-@property(readonly, nonatomic) HMBLocalDatabase *localDatabase; // @synthesize localDatabase=_localDatabase;
-@property(readonly, nonatomic) id <NAScheduler> operationScheduler;
-@property(readonly, nonatomic) CKDatabase *privateDatabase; // @synthesize privateDatabase=_privateDatabase;
-@property(retain, nonatomic) HMBCloudDatabaseStateModel *privateDatabaseState; // @synthesize privateDatabaseState=_privateDatabaseState;
 @property(readonly, nonatomic) NSSet *privateZoneIDs;
-@property(readonly, nonatomic) CKDatabase *publicDatabase; // @synthesize publicDatabase=_publicDatabase;
-@property(retain, nonatomic) HMBCloudDatabaseStateModel *publicDatabaseState; // @synthesize publicDatabaseState=_publicDatabaseState;
-@property(readonly, nonatomic) NSSet *publicZoneIDs;
-@property(readonly, nonatomic) CKDatabase *sharedDatabase; // @synthesize sharedDatabase=_sharedDatabase;
-@property(retain, nonatomic) HMBCloudDatabaseStateModel *sharedDatabaseState; // @synthesize sharedDatabaseState=_sharedDatabaseState;
-@property(readonly, nonatomic) NSSet *sharedZoneIDs;
-@property(readonly, nonatomic) HMBLocalZone *stateZone; // @synthesize stateZone=_stateZone;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableDictionary *zoneStateByZoneID; // @synthesize zoneStateByZoneID=_zoneStateByZoneID;
 
 @end
 

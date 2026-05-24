@@ -7,16 +7,9 @@
 @interface NewsUI2.UserNotification
 {
     id identifier;
-    id kind;
-    id title;
-    id subtitle;
-    id message;
-    id threadIdentifier;
-    id deliveryStatus;
-    id payload;
 }
 
-- (id);
+- (id)(A@9;
 - (void)[_lNÿ;
 
 @end

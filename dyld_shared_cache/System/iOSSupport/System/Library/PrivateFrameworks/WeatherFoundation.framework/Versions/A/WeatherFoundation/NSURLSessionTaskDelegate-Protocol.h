@@ -7,6 +7,8 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)ue date;
+- (void)!;
 - (void)of parsed daily forecasts (%lu) doesn't match expected (%lu);
 - (void)ngedNotification;
 @end

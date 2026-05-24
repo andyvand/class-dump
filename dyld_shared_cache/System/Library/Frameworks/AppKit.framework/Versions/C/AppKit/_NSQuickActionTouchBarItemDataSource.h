@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage, NSOperationQueue, NSString, _NSQuickAction;
+@class NSOperationQueue, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSQuickActionTouchBarItemDataSource
 {
     NSOperationQueue *_backgroundLoadingQueue;
-    NSString *_identifier;
-    _NSQuickAction *_action;
-    NSString *_label;
-    NSImage *_image;
-    NSColor *_backgroundColor;
-    void *_observationInfo;
-    _Bool _enabled;
-    _Bool _needsUpdatedImage;
-    _Bool _needsUpdatedBackgroundColor;
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)mplement;
++ (_Bool)ResponseForRequest:with nil request /* Error: Ran out of types for this method. */;
++ (_Bool)RIVATE_CACHE_HACK;
++ (_Bool)custom;
 + (_Bool)J;
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)ntCapacityKey in power source dictionary;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool) ;
 - (void)xHà£¥¦§H¨P©;
-- (void *)T;
+- (void *)xT;
 - (id)ÿÿ;
-- (void)FillColor;
+- (void)_NSTabBarOffscreenMainWindowTabBarFillColor;
 
 // Remaining properties
-@property(readonly) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) NSImage *image; // @synthesize image=_image;
-@property(readonly, copy) NSString *label; // @synthesize label=_label;
 @property(readonly, copy) NSString *quickActionIdentifier; // @synthesize quickActionIdentifier=_identifier;
 
 @end

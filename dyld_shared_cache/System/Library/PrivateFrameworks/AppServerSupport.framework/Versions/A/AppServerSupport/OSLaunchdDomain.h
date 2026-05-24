@@ -7,19 +7,18 @@
 @interface OSLaunchdDomain
 {
     int _type;
-    unsigned long long _handle;
 }
 
 + (id);
++ (id)H;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (unsigned int)CBBespokeModeBase;
 + (id);
-+ (unsigned int);
-+ (id);
-- (id);
+- (id)OutputWidthAlignmentRequirement;
 - (_Bool);
 - (id);
 - (unsigned long long);

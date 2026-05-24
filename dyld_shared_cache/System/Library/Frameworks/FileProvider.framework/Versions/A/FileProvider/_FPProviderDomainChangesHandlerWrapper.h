@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _handler;
 }
 
-+ (id);
++ (id)#;
 - (_Bool);
 - (void);
 - (void);

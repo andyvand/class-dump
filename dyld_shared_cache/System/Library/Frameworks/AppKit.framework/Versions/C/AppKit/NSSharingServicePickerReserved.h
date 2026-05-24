@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SHKSharingServicePicker;
-@protocol NSSharingServicePickerDelegate, SHKMenuControllerDelegate;
+@protocol NSSharingServicePickerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSSharingServicePickerReserved
 {
     id <NSSharingServicePickerDelegate> delegate;
-    id <SHKMenuControllerDelegate> shkDelegate;
-    SHKSharingServicePicker *shkPicker;
-    NSArray *items;
-    long long style;
-    unsigned long long collaborationMode;
 }
 
 - (id);

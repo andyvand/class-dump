@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_ws_request
 {
     char *path;
-    NSObject<OS_xpc_object> *subprotocols;
-    NSObject<OS_xpc_object> *header_names;
-    NSObject<OS_xpc_object> *header_values;
 }
 
-- (void);
+- (void)CUIShapeEffectExtraShadow;
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

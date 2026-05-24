@@ -7,11 +7,13 @@
 @class NSArray, _INPBMassValue;
 
 @protocol _INPBMass
++ (Class)cryptedEncoding::eraseKeys:writing %d bytes to zero V2 header and keys.
+ /* Error: Ran out of types for this method. */;
+- (NSArray *);
 - (void)t;
 - (_INPBMassValue *)ser-vocabulary for %{public}@ with error %{public}@;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

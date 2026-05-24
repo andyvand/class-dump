@@ -6,37 +6,35 @@
 
 #import <UIKitCore/_UIToolbarVisualProvider.h>
 
-@class UIView, _UIBarBackground, _UIBarBackgroundLayoutLegacy;
+@class _UIBarBackground;
 
 __attribute__((visibility("hidden")))
 @interface _UIToolbarVisualProviderLegacyIOS : _UIToolbarVisualProvider
 {
     _UIBarBackground *_backgroundView;
-    _UIBarBackgroundLayoutLegacy *_backgroundViewLayout;
-    UIView *_customBackgroundView;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)buildWithURL:(id)arg1 withName:withSubject:withKeysize:withKeyType:withKeyUsage:withCAFingerprint:withRetries:withRetryDelay:withSubjectAltName:withKeyIsExtractable:withChallengeCredential:withAllowAllAppsAccess: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)appendSectionUpdateForPreviousIndex:(id)arg1 finalIndex: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
 - (double)¡ð!ÔFùQ[Ð1Â0@ù
 × ;
 - (struct CGSize)!ÌBù_1Â0@ù
 × ;
-- (void)abBarController:animatorForFromViewController:toViewController: /* Error: Ran out of types for this method. */;
-- (_Bool)rtSublayer:below: /* Error: Ran out of types for this method. */;
-- (void)n;
-- (struct CGRect)oundPlayer;
+- (void)tabBarController:animatorForFromViewController:toViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)insertSublayer:below: /* Error: Ran out of types for this method. */;
+- (void)_visiblePathForBackgroundConfiguration;
+- (struct CGRect)_UIFocusSoundPlayer;
 - (void)ote view controller:(struct CGRect)arg1 %@;
-- (void)tion;
-- (void)ransitionOverlayViewCSgXw;
+- (void)sidebarSelection;
+- (void)So24_UITransitionOverlayViewCSgXw;
 - (void);
 - (id);
 

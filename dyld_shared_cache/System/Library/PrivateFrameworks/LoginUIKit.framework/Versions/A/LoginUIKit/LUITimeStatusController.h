@@ -6,28 +6,25 @@
 
 #import <LoginUIKit/LUIController.h>
 
-@class LUITextField, NSDateFormatter, NSTimer;
+@class LUITextField;
 
 @interface LUITimeStatusController : LUIController
 {
     LUITextField *_timeTextField;
-    NSDateFormatter *_timeFormatter;
-    NSTimer *_clockTimer;
-    NSTimer *_dstTimer;
 }
 
 + (id);
+- (void)*;
 - (void);
-- (void);
+- (id);
+- (void);
+- (void)&);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 

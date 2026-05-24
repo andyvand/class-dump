@@ -7,10 +7,6 @@
 @interface PXMagazineFrame
 {
     long long _width;
-    long long _height;
-    double _aspectRatio;
-    double _minAspectRatio;
-    double _maxAspectRatio;
 }
 
 - (void);
@@ -21,18 +17,13 @@
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)'t move '%@' from forth history;
 - (void);
 - (void);
-- (void)kgroundFetches;
+- (void)_cancelAllBackgroundFetches;
 - (double)ÿ)NÀ>;
 
 // Remaining properties
-@property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(nonatomic) long long height; // @synthesize height=_height;
-@property(nonatomic) double maxAspectRatio; // @synthesize maxAspectRatio=_maxAspectRatio;
-@property(nonatomic) double minAspectRatio; // @synthesize minAspectRatio=_minAspectRatio;
-@property(readonly, nonatomic) long long numberOfTiles;
 @property(nonatomic) long long width; // @synthesize width=_width;
 
 @end

@@ -6,13 +6,12 @@
 
 #import <HomeKitDaemon/HMDBackingStoreOperation.h>
 
-@class CKServerChangeToken, HMDBackingStoreCacheGroup;
+@class HMDBackingStoreCacheGroup;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheUpdateGroupTokenOperation : HMDBackingStoreOperation
 {
     HMDBackingStoreCacheGroup *_record;
-    CKServerChangeToken *_serverChangeToken;
 }
 
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) HMDBackingStoreCacheGroup *record; // @synthesize record=_record;
-@property(retain, nonatomic) CKServerChangeToken *serverChangeToken; // @synthesize serverChangeToken=_serverChangeToken;
 
 @end
 

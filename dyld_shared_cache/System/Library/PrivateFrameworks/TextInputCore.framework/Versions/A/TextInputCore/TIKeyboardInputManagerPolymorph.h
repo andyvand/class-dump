@@ -12,7 +12,7 @@
 
 - (void);
 - (void);
-- (void);
+- (void)lyEmbeddingResults:(id)arg1 amlInputs:(id)arg2 isCardSearch:isDocumentSearch:maxCount: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

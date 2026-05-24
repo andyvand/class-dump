@@ -9,10 +9,9 @@
 @interface SGURLContainer
 {
     NSMutableArray *_urls;
-    _Bool _needsFlushing;
 }
 
-+ (_Bool);
++ (_Bool)changeHistoryToken;
 + (_Bool);
 + (_Bool);
 + (id);
@@ -20,9 +19,9 @@
 - (void);
 - (id);
 - (id);
+- (void)setTimeoutCallback:(id)arg1;
 - (void);
-- (void);
-- (void)pyTo: /* Error: Ran out of types for this method. */;
+- (void)copyTo: /* Error: Ran out of types for this method. */;
 
 @end
 

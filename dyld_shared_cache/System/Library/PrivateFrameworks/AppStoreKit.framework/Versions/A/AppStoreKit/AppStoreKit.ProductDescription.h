@@ -7,15 +7,6 @@
 @interface AppStoreKit.ProductDescription
 {
     id developerAction;
-    id developerLinks;
-    id paragraph;
-    id tags;
-    id numberOfTagRowsStandard;
-    id numberOfTagRowsAX;
-    id clickAction;
-    id clickSender;
-    id id;
-    id automationMetadata;
 }
 
 @end

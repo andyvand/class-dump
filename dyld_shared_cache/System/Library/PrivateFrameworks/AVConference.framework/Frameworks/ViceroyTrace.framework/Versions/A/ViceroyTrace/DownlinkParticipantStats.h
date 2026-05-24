@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, VCDataMLEnhance;
+@class NSDictionary, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface DownlinkParticipantStats
 {
     NSMutableDictionary *_streamGroupStats;
-    VCDataMLEnhance *_mlEnhance;
 }
 
 - (id);
@@ -18,10 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)fiers.dylib;
 
 // Remaining properties
-@property(readonly) VCDataMLEnhance *mlEnhance; // @synthesize mlEnhance=_mlEnhance;
 @property(readonly) NSDictionary *streamGroupStats; // @synthesize streamGroupStats=_streamGroupStats;
 
 @end

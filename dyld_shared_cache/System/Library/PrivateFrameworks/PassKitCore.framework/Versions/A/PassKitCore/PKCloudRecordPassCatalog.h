@@ -14,17 +14,17 @@
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (void);
-- (long long)eviceToAcceptedInstruments;
-- (void);
+- (long long)_remoteDeviceToAcceptedInstruments;
+- (void)bitmap;
 
 // Remaining properties
 @property(retain, nonatomic) PKCatalog *catalog; // @synthesize catalog=_catalog;

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface PDFBlockQueuePair
 {
     CDUnknownBlockType _block;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -22,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) CDUnknownBlockType block; // @synthesize block=_block;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

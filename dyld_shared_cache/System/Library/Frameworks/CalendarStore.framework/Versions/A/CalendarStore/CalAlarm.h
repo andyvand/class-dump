@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKAlarm, NSDate, NSMutableDictionary, NSString, NSURL;
+@class EKAlarm;
 
 @interface CalAlarm
 {
     EKAlarm *_ekAlarm;
-    NSString *_relatedToString;
-    NSMutableDictionary *_unsavedRelateToDictionary;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);
@@ -37,8 +35,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)to register test recipe with nil info. Doing nothing.;
+- (id)ye;
 - (void);
 - (id);
 - (id);
@@ -46,15 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *absoluteTrigger;
-@property(copy, nonatomic) NSString *action;
 @property(retain, nonatomic) EKAlarm *ekAlarm; // @synthesize ekAlarm=_ekAlarm;
-@property(copy, nonatomic) NSString *emailAddress;
-@property(retain, nonatomic) NSString *relatedToString; // @synthesize relatedToString=_relatedToString;
-@property(nonatomic) double relativeTrigger;
-@property(copy, nonatomic) NSString *sound;
-@property(retain, nonatomic) NSMutableDictionary *unsavedRelateToDictionary; // @synthesize unsavedRelateToDictionary=_unsavedRelateToDictionary;
-@property(copy, nonatomic) NSURL *url;
 
 @end
 

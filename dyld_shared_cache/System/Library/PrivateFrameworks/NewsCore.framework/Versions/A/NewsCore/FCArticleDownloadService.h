@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol FCANFHelper, FCContentContext;
+@protocol FCContentContext;
 
 @interface FCArticleDownloadService
 {
     id <FCContentContext> _context;
-    id <FCANFHelper> _ANFHelper;
 }
 
 - (_Bool);
@@ -20,10 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void)erEnabledLevel;
+- (void)analyticsJitterEnabledLevel;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCANFHelper> ANFHelper; // @synthesize ANFHelper=_ANFHelper;
 @property(readonly, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
 
 @end

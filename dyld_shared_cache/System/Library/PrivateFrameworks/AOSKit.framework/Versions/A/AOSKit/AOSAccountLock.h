@@ -9,12 +9,11 @@
 @interface AOSAccountLock
 {
     NSString *_dsid;
-    _Bool _isLocked;
 }
 
 + (void)ption caught while trying to read account info (dsid=%@):%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)8);
 - (_Bool);
 - (void);
 

@@ -9,13 +9,11 @@
 @interface NSTouchBarColorListPickerScrubberLayout : NSScrubberLayout
 {
     double _itemHeight;
-    double _selectedItemHeight;
-    double _highlightedItemHeight;
 }
 
 + (Class)0@ù
 × ;
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -24,14 +22,12 @@
 - (struct CGSize);
 - (double);
 - (double);
-- (id);
-- (id);
+- (id)ta>"24B32{?=qi}36;
+- (id)s Continue;
 - (id);
 
 // Remaining properties
-@property double highlightedItemHeight; // @synthesize highlightedItemHeight=_highlightedItemHeight;
 @property double itemHeight; // @synthesize itemHeight=_itemHeight;
-@property double selectedItemHeight; // @synthesize selectedItemHeight=_selectedItemHeight;
 
 @end
 

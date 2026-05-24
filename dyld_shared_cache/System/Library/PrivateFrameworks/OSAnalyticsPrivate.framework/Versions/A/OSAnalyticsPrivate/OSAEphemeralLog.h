@@ -11,8 +11,8 @@
     NSData *_content;
 }
 
-- (id);
-- (void);
+- (id)updateSessionRequest;
+- (void)#;
 - (void);
 
 @end

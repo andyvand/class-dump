@@ -7,10 +7,12 @@
 @class AMPDevice, NSString;
 
 @protocol AMPDeviceUIServiceProtocol
+- (void)a;
+- (NSString *);
+- (void);
+- (NSString *){c;
 
 // Remaining properties
 @property(retain, nonatomic) AMPDevice *device;
-@property(retain, nonatomic) NSString *deviceName;
-@property(retain, nonatomic) NSString *mode;
 @end
 

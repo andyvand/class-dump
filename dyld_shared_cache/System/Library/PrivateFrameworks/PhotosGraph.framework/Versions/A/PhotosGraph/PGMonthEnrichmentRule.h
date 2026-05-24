@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PGGraphMomentNodeCollection;
-@protocol OS_os_log, PGHighlightItemModelReader;
+@class PGGraphMomentNodeCollection;
+@protocol PGHighlightItemModelReader;
 
 @interface PGMonthEnrichmentRule
 {
     PGGraphMomentNodeCollection *_momentNodesAtWork;
-    id <PGHighlightItemModelReader> _modelReader;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 - (id);
 - (double);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)applicationProcessSerialNumber;
+- (id)nt",&,N,V_window;
+- (void)d;
 - (void);
 - (id);
 - (unsigned short);
@@ -32,15 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
 @property(readonly, nonatomic) id <PGHighlightItemModelReader> modelReader; // @synthesize modelReader=_modelReader;
-@property(readonly) Class superclass;
 
 @end
 

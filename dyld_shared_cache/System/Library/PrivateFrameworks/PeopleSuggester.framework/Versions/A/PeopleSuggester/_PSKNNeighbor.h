@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _PSKNNeighbor
 {
     double _distance;
-    NSArray *_nodeData;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)_hasAppLaunchRequired;
+- (id)_euclidModelVersion;
+- (id)_domainCards;
 - (double);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) double distance; // @synthesize distance=_distance;
-@property(retain, nonatomic) NSArray *nodeData; // @synthesize nodeData=_nodeData;
 
 @end
 

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ramework/Versions/A/MapsSupport;
 - (void)0ô;
 
 @end

@@ -7,8 +7,6 @@
 @interface NewsPersonalization.NewsPersonalizationService
 {
     id groupingService;
-    id scoringService;
-    id diversificationService;
 }
 
 @end

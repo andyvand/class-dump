@@ -10,27 +10,170 @@
 
 + (id);
 + (id);
++ (id)key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+;
++ (id)String</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+;
++ (id)neSupport</string>
+        <key>CFBundleShortVersionString</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+;
++ (id)undleName</key>
+        <string>swiftSwiftOnoneSupport</string>
+        <key>CFBundleShortVersionString</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+;
++ (id)<string>6.0</string>
+        <key>CFBundleName</key>
+        <string>swiftSwiftOnoneSupport</string>
+        <key>CFBundleShortVersionString</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+;
++ (id)ey>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleName</key>
+        <string>swiftSwiftOnoneSupport</string>
+        <key>CFBundleShortVersionString</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+;
++ (id)SwiftOnoneSupport</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleName</key>
+        <string>swiftSwiftOnoneSupport</string>
+        <key>CFBundleShortVersionString</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+;
++ (id)string>com.apple.dt.runtime.swiftSwiftOnoneSupport</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleName</key>
+        <string>swiftSwiftOnoneSupport</string>
+        <key>CFBundleShortVersionString</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+;
++ (id)rsion="1.0">
+<dict>
+        <key>CFBundleIdentifier</key>
+        <string>com.apple.dt.runtime.swiftSwiftOnoneSupport</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleName</key>
+        <string>swiftSwiftOnoneSupport</string>
+        <key>CFBundleShortVersionString</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+;
++ (id)/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>CFBundleIdentifier</key>
+        <string>com.apple.dt.runtime.swiftSwiftOnoneSupport</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleName</key>
+        <string>swiftSwiftOnoneSupport</string>
+        <key>CFBundleShortVersionString</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+;
++ (id)D PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>CFBundleIdentifier</key>
+        <string>com.apple.dt.runtime.swiftSwiftOnoneSupport</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleName</key>
+        <string>swiftSwiftOnoneSupport</string>
+        <key>CFBundleShortVersionString</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+ /* Error: Ran out of types for this method. */;
++ (id)!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>CFBundleIdentifier</key>
+        <string>com.apple.dt.runtime.swiftSwiftOnoneSupport</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleName</key>
+        <string>swiftSwiftOnoneSupport</string>
+        <key>CFBundleShortVersionString</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+ /* Error: Ran out of types for this method. */;
++ (id)ml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>CFBundleIdentifier</key>
+        <string>com.apple.dt.runtime.swiftSwiftOnoneSupport</string>
+        <key>CFBundleInfoDictionaryVersion</key>
+        <string>6.0</string>
+        <key>CFBundleName</key>
+        <string>swiftSwiftOnoneSupport</string>
+        <key>CFBundleShortVersionString</key>
+        <string>6.3.2</string>
+        <key>CFBundleVersion</key>
+        <string>6.3.2</string>
+</dict>
+</plist>
+ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)S
+	G;
++ (id)T
+	G;
++ (id)count;
++ (id)swift;
++ (id)erBound;
 + (id);
 + (id);
 + (id);

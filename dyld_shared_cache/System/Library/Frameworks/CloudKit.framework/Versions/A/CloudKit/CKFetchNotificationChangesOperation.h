@@ -11,10 +11,6 @@
 @interface CKFetchNotificationChangesOperation : CKOperation
 {
     _Bool _moreComing;
-    CKServerChangeToken *_previousServerChangeToken;
-    unsigned long long _resultsLimit;
-    CDUnknownBlockType _notificationChangedBlock;
-    CDUnknownBlockType _fetchNotificationChangesCompletionBlock;
 }
 
 - (void);
@@ -24,7 +20,7 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (_Bool);
@@ -32,11 +28,7 @@
 - (unsigned long long)(__strong id<CKObjectValidating>, ...);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fetchNotificationChangesCompletionBlock; // @synthesize fetchNotificationChangesCompletionBlock=_fetchNotificationChangesCompletionBlock;
-@property(readonly, nonatomic) _Bool moreComing; // @synthesize moreComing=_moreComing;
-@property(copy, nonatomic) CDUnknownBlockType notificationChangedBlock; // @synthesize notificationChangedBlock=_notificationChangedBlock;
 @property(copy, nonatomic) CKServerChangeToken *previousServerChangeToken; // @synthesize previousServerChangeToken=_previousServerChangeToken;
-@property(nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
 
 @end
 

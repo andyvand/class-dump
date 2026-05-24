@@ -14,10 +14,10 @@
 
 + (id);
 - (void);
+- (id)B;
 - (id);
-- (id);
-- (void);
-- (id)ompletionCompletion: /* Error: Ran out of types for this method. */;
+- (void)initWithUserID:userType: /* Error: Ran out of types for this method. */;
+- (id)fetchIconImageDataForScale:completionCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSObject<OS_os_activity> *cleanup; // @synthesize cleanup=_cleanup;

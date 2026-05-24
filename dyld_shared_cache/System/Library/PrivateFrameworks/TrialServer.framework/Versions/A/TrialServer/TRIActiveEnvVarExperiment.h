@@ -9,18 +9,17 @@
 @interface TRIActiveEnvVarExperiment
 {
     NSArray *_targetedBundleIds;
-    NSArray *_factorLevelStrings;
 }
 
-+ (id);
++ (id)complementaryColor;
 + (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithSyndicationProperties: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithAsset:(id)arg1 audioMix:videoComposition: /* Error: Ran out of types for this method. */;
+- (id)indexesOfObjectsPassingTest:(id)arg1;
+- (id)exposureBias;
+- (id)doImmediateCompute;
+- (id)dictionaryRepresentationForAuxiliaryImagePixelBuffer:(id)arg1 metadata:colorSpace:compatibilityMetadata: /* Error: Ran out of types for this method. */;
+- (id)ies of a removed accessory server - moving on enabling removed key;
 - (id);
 - (id);
 - (unsigned long long);
@@ -30,7 +29,6 @@
 - (void)6@64^@72;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *factorLevelStrings; // @synthesize factorLevelStrings=_factorLevelStrings;
 @property(readonly, nonatomic) NSArray *targetedBundleIds; // @synthesize targetedBundleIds=_targetedBundleIds;
 
 @end

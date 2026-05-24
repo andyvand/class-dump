@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol _INPBLanguageTag
-- (void)tNotRemovable;
+- (void)INUpdateEventIntentResponseCodeFailureParticipantNotRemovable;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasTag;
 @property(copy, nonatomic) NSString *tag;
 @end
 

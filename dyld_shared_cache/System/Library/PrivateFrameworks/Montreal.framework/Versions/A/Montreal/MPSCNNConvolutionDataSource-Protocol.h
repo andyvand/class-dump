@@ -5,5 +5,10 @@
 //
 
 @protocol MPSCNNConvolutionDataSource
+- (void)B;
+
+@optional
+- (id)e;
+- (id *)oudKit integration does not support ordered relationships. The following relationships are marked ordered: /* Error: Ran out of types for this method. */;
 @end
 

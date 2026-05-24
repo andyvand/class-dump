@@ -6,20 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIFocalPlaneNative : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputMatteImage;
-    CIImage *inputLensModelCalculatorImage;
-    NSNumber *inputAlphaThreshold;
-    NSNumber *inputAmplitude;
-    NSNumber *inputExponent;
-    NSNumber *inputGamma;
-    NSNumber *inputMinFactor;
-    NSNumber *inputMaxFactor;
 }
 
 + (id);

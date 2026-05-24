@@ -10,8 +10,6 @@
 @interface CoreDAVRequestLogger
 {
     id <CoreDAVAccountInfoProvider> _provider;
-    NSArray *_headerSortDescriptors;
-    int _snippetsLogged;
 }
 
 + (id);
@@ -20,12 +18,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)EWSAttachmentInfoResponseMessageType;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *headerSortDescriptors; // @synthesize headerSortDescriptors=_headerSortDescriptors;

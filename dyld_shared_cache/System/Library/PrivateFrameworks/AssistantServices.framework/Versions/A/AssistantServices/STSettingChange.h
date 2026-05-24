@@ -9,18 +9,16 @@
 @interface STSettingChange : STSiriModelObject
 {
     long long _settingType;
-    id _valueBeforeUpdate;
-    id _valueAfterUpdate;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (void)eSpeechEvent;
+- (void)_getActiveSpeechEvent;
 
 @end
 

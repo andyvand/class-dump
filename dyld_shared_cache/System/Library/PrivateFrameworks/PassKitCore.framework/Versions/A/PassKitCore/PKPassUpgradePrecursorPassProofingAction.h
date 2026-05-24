@@ -15,12 +15,13 @@
 
 + (_Bool)X"!tBùqî%ð1Â0@ù
 × ;
-- (void);
+- (void)R
+;
 - (id);
-- (id);
-- (void);
-- (id)Attestation:(id)arg1 forCredential:completion: /* Error: Ran out of types for this method. */;
-- (void)guration;
+- (id)	;
+- (void)kMACRxDataFrameOtherRA;
+- (id)carKeySetAccountAttestation:(id)arg1 forCredential:completion: /* Error: Ran out of types for this method. */;
+- (void)remoteContentConfiguration;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;

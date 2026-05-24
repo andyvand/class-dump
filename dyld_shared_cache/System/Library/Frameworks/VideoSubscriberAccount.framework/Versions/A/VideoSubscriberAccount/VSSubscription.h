@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSString, VSSubscriptionSource;
+@class NSDate;
 
 @interface VSSubscription
 {
     NSDate *_expirationDate;
-    long long _accessLevel;
-    NSArray *_tierIdentifiers;
-    NSString *_billingIdentifier;
-    NSDate *_creationDate;
-    NSDate *_modificationDate;
-    NSString *_derivedSubscriptionInfo;
-    NSString *_providedSubscriptionInfo;
-    VSSubscriptionSource *_source;
-    NSString *_subscriberIdentifierHash;
-    NSString *_modifierIdentifier;
-    NSString *_modifierType;
 }
 
 + (id);
@@ -38,23 +27,23 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)&;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)3_EEEE;
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
+- (void)tionHandler:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (long long);
@@ -65,20 +54,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) long long accessLevel; // @synthesize accessLevel=_accessLevel;
-@property(copy, nonatomic) NSString *billingIdentifier; // @synthesize billingIdentifier=_billingIdentifier;
 @property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSString *derivedSubscriptionInfo; // @synthesize derivedSubscriptionInfo=_derivedSubscriptionInfo;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(copy, nonatomic) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(retain, nonatomic) NSString *modifierIdentifier; // @synthesize modifierIdentifier=_modifierIdentifier;
-@property(retain, nonatomic) NSString *modifierType; // @synthesize modifierType=_modifierType;
-@property(copy, nonatomic) NSString *providedSubscriptionInfo; // @synthesize providedSubscriptionInfo=_providedSubscriptionInfo;
-@property(copy, nonatomic) VSSubscriptionSource *source; // @synthesize source=_source;
-@property(copy, nonatomic) NSString *subscriberIdentifierHash; // @synthesize subscriberIdentifierHash=_subscriberIdentifierHash;
-@property(copy, nonatomic) NSString *subscriptionInfo;
-@property(copy, nonatomic) NSArray *tierIdentifiers; // @synthesize tierIdentifiers=_tierIdentifiers;
-@property(readonly, copy, nonatomic) NSData *versionHash;
 
 @end
 

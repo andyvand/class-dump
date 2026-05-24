@@ -6,54 +6,42 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSDate, UIKBUndoControl, UIKBUndoStyling, UILabel, UIVisualEffectView;
+@class UIVisualEffectView;
 @protocol UIInteractiveUndoHUDActionDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UIKBUndoInteractionHUD : UIView
 {
     id <UIInteractiveUndoHUDActionDelegate> _actionDelegate;
-    long long _mode;
-    UIKBUndoControl *_leftButtonView;
-    UIKBUndoControl *_rightButtonView;
-    UIKBUndoControl *_aCutButtonView;
-    UIKBUndoControl *_aCopyButtonView;
-    UIKBUndoControl *_aPasteButtonView;
-    UIVisualEffectView *_backgroundEffectView;
-    UIVisualEffectView *_shadowView;
-    UIView *_containerView;
-    UIKBUndoStyling *_style;
-    UILabel *_instructionalLabel;
-    NSDate *_appearanceDate;
 }
 
 - (void);
+- (void)eProvidingP;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void).;
+- (void)ection interrupted;
+- (void)t be a favorite;
+- (void)%@ is not a contact, and cannot be a favorite;
+- (void)is a favorite?:(id)arg1 %ld;
+- (void)s;
+- (void)y return.;
+- (id)s not allow attachment filesize updating, retunring;
+- (id)fetch!! we wanted (guid %@) for recordName:%@ /* Error: Ran out of types for this method. */;
+- (id)account %@, and all other accounts;
+- (id)CloudStorage.test.mobileBackupStateChange;
+- (void)messages;
+- (void)BusinessInitiatedAlertSpam;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)setPayloadQoSMarkingAppleAudioVideoCalls: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (void);
@@ -70,19 +58,7 @@ __attribute__((visibility("hidden")))
 - (id)äúÖ0k;
 
 // Remaining properties
-@property(retain, nonatomic) UIKBUndoControl *aCopyButtonView; // @synthesize aCopyButtonView=_aCopyButtonView;
-@property(retain, nonatomic) UIKBUndoControl *aCutButtonView; // @synthesize aCutButtonView=_aCutButtonView;
-@property(retain, nonatomic) UIKBUndoControl *aPasteButtonView; // @synthesize aPasteButtonView=_aPasteButtonView;
-@property(nonatomic) __weak id <UIInteractiveUndoHUDActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property(retain, nonatomic) NSDate *appearanceDate; // @synthesize appearanceDate=_appearanceDate;
 @property(retain, nonatomic) UIVisualEffectView *backgroundEffectView; // @synthesize backgroundEffectView=_backgroundEffectView;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(retain, nonatomic) UILabel *instructionalLabel; // @synthesize instructionalLabel=_instructionalLabel;
-@property(retain, nonatomic) UIKBUndoControl *leftButtonView; // @synthesize leftButtonView=_leftButtonView;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) UIKBUndoControl *rightButtonView; // @synthesize rightButtonView=_rightButtonView;
-@property(retain, nonatomic) UIVisualEffectView *shadowView; // @synthesize shadowView=_shadowView;
-@property(retain, nonatomic) UIKBUndoStyling *style; // @synthesize style=_style;
 
 @end
 

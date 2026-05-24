@@ -5,5 +5,8 @@
 //
 
 @protocol EKCalendarChooserViewRemoteInterface
+- (void)s;
+- (void);
+- (void)%s;
 @end
 

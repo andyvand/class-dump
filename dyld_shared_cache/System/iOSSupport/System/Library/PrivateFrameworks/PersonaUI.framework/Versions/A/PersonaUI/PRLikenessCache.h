@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSCache, NSURL;
 
 @interface PRLikenessCache
 {
     NSCache *_inMemoryCache;
-    NSObject<OS_dispatch_queue> *_cacheLookupQueue;
-    _Bool _useMemory;
-    _Bool _useFilesystem;
-    _Bool _renderIfNeeded;
-    NSURL *_cacheDirectory;
 }
 
 + (_Bool);
@@ -23,12 +17,12 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 + (_Bool);
 + (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (void);
@@ -40,15 +34,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *cacheDirectory; // @synthesize cacheDirectory=_cacheDirectory;
-@property(nonatomic) _Bool renderIfNeeded; // @synthesize renderIfNeeded=_renderIfNeeded;
-@property(nonatomic) _Bool useFilesystem; // @synthesize useFilesystem=_useFilesystem;
-@property(nonatomic) _Bool useMemory; // @synthesize useMemory=_useMemory;
 
 @end
 

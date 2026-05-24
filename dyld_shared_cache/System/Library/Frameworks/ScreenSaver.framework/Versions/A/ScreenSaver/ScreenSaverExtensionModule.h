@@ -6,22 +6,11 @@
 
 #import <ScreenSaver/ScreenSaverModule.h>
 
-@class NSExtension, NSObject, NSString, NSViewController, NSXPCListener, NSXPCListenerEndpoint;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSXPCListener, NSXPCListenerEndpoint;
 
 @interface ScreenSaverExtensionModule : ScreenSaverModule
 {
     NSXPCListener *_listener;
-    NSViewController *_configurationSheetViewController;
-    NSViewController *_configurationViewController;
-    NSObject<OS_dispatch_queue> *_requestQueue;
-    NSObject<OS_dispatch_semaphore> *_requestQueueSema;
-    NSObject<OS_dispatch_queue> *_viewBridgeEndpointQueue;
-    NSObject<OS_dispatch_semaphore> *_viewBridgeEndpointSema;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_semaphore> *_workQueueSema;
-    NSXPCListenerEndpoint *_viewBridgeEndpoint;
-    NSExtension *_extension;
 }
 
 + (id);
@@ -36,25 +25,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)%;
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)P;
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSXPCListenerEndpoint *listenerEndpoint;
-@property(readonly) Class superclass;
 
 @end
 

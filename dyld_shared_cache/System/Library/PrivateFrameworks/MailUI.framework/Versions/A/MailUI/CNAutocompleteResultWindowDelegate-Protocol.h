@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSImage;
+
 @protocol CNAutocompleteResultWindowDelegate
+
+@optional
+- (NSImage *);
+- (void):(id)arg1 8{NSEdgeInsets=dddd}16;
 @end
 

@@ -6,29 +6,25 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIPopoverPresentationController, UITraitCollection;
-
 @interface UIPopoverBackgroundView : UIView
 {
     _Bool __chromeHidden;
-    UIPopoverPresentationController *_presentationController;
-    long long __backgroundBlurEffectStyle;
 }
 
-+ (_Bool);
-+ (double);
++ (_Bool)HandlesBeforeAndAfterGUID found %d messages for number of ids:%d on number of services:%d numberOfMessagesBefore:%d numberOfMessagesAfter:%d /* Error: Ran out of types for this method. */;
++ (double)(;
 + (struct UIEdgeInsets);
-+ (double);
++ (double)ps:withSafariAcceptCookies:withForceAuthenticationBeforeAutoFill: /* Error: Ran out of types for this method. */;
 + (double)þ;
 + (double)¸ç^;
-- (void);
+- (void)hasBeenApprovedForSMSRelay;
 - (id);
 - (void);
 - (void);
 - (id);
 - (struct UIEdgeInsets);
-- (_Bool);
-- (struct CGRect);
+- (_Bool)3Z3;
+- (struct CGRect)*;
 - (void);
 - (struct UIEdgeInsets);
 - (id);
@@ -41,7 +37,7 @@
 × ;
 - (id)tePlayable>",R,N,V_selectionFeedback;
 - (double)eractionAssistant",R,N;
-- (struct UIEdgeInsets)tParent;
+- (struct UIEdgeInsets)_UIRemoteContentParent;
 - (void)nspecified);
 - (struct CGRect)ïÒ;
 - (unsigned long long)4_;
@@ -54,12 +50,7 @@
 - (id)k;
 
 // Remaining properties
-@property(nonatomic, setter=_setBackgroundBlurEffectStyle:) long long _backgroundBlurEffectStyle; // @synthesize _backgroundBlurEffectStyle=__backgroundBlurEffectStyle;
 @property(nonatomic, setter=_setChromeHidden:) _Bool _chromeHidden; // @synthesize _chromeHidden=__chromeHidden;
-@property(nonatomic, setter=_setPresentationController:) __weak UIPopoverPresentationController *_presentationController; // @synthesize _presentationController;
-@property(readonly, nonatomic) UITraitCollection *_traitCollectionForGlassContent;
-@property(nonatomic) unsigned long long arrowDirection;
-@property(nonatomic) double arrowOffset;
 
 @end
 

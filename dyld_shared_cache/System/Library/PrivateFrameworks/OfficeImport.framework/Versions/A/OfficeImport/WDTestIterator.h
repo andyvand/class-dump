@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface WDTestIterator : WDIterator
 {
     WDIterator *mIterator;
-    id mNext;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void)28@?0@"TSUZipEntry"8@"NSError"16B24;
 - (id)ì;

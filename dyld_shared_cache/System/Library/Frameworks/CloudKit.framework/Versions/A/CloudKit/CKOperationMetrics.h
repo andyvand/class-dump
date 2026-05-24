@@ -9,22 +9,20 @@
 @interface CKOperationMetrics
 {
     CKMetric *_cloudKitMetrics;
-    CKMetric *_MMCSMetrics;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)m;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CKMetric *MMCSMetrics; // @synthesize MMCSMetrics=_MMCSMetrics;
 @property(readonly, copy, nonatomic) CKMetric *cloudKitMetrics; // @synthesize cloudKitMetrics=_cloudKitMetrics;
 
 @end

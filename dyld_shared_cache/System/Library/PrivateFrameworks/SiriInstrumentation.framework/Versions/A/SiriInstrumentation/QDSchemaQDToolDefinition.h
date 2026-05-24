@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, QDSchemaQDToolOutputDefinition;
+@class NSArray;
 
 @interface QDSchemaQDToolDefinition : SISchemaInstrumentationMessage
 {
     NSArray *_parameters;
-    QDSchemaQDToolOutputDefinition *_output;
-    NSString *_description;
-    _Bool _hasOutput;
-    _Bool _hasDescription;
 }
 
 - (void);
@@ -35,23 +31,18 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)d on macOS;
 - (_Bool);
-- (_Bool);
+- (_Bool)AND chat_message_join.message_date = (       SELECT MAX(cmj_inner.message_date)        FROM chat_message_join cmj_inner        INNER JOIN message m ON m.ROWID = cmj_inner.message_id        WHERE cmj_inner.chat_id = chat.rowid            AND m.is_finished = 1 AND m.item_type = 0 AND m.associated_message_type != 3 AND NOT (m.schedule_type = 2 AND (m.schedule_state = 1 OR m.schedule_state = 2)) )WHERE    chat.is_archived = 0 %@ GROUP BY    chat.rowid ORDER BY    chat_message_join.message_date %@ LIMIT    ?;;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)rs;
+- (id)_userPayloadLengthInCharacters;
 - (id)V_pageNumber;
-- (void)APPINTENTNAME_GENERATE_RICH_CONTENT_INTENT;
+- (void)GATAPPINTENTNAME_GENERATE_RICH_CONTENT_INTENT;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *description; // @synthesize description=_description;
-@property(nonatomic) _Bool hasDescription; // @synthesize hasDescription=_hasDescription;
-@property(nonatomic) _Bool hasOutput; // @synthesize hasOutput=_hasOutput;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) QDSchemaQDToolOutputDefinition *output; // @synthesize output=_output;
 @property(copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
 
 @end

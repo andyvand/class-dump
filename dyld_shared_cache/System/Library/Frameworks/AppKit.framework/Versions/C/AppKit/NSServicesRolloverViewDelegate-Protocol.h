@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSharingServicePicker;
+
 @protocol NSServicesRolloverViewDelegate
+- (NSSharingServicePicker *)t does not contain trusted key;
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSObject, NSString, PKPrintSettings, PKPrinterBonjourEndpoint, PKPrinterTool_Client;
-@protocol OS_dispatch_queue;
+@class PKPrinterBonjourEndpoint, PKPrinterTool_Client;
 
 @interface PKPrintJobRequest
 {
     PKPrinterTool_Client *_job_connection;
-    NSFileHandle *_streamHandle;
-    NSObject<OS_dispatch_queue> *_queue;
-    PKPrinterBonjourEndpoint *_printerName;
-    PKPrintSettings *_printSettings;
-    NSString *_fileType;
 }
 
 - (void);
@@ -26,13 +20,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)attempt to reconnect.;
+- (void)VideoAnalyzer"8;
+- (void)CGColor;
 
 // Remaining properties
-@property(copy) NSString *fileType; // @synthesize fileType=_fileType;
-@property(copy) PKPrintSettings *printSettings; // @synthesize printSettings=_printSettings;
 @property(readonly) PKPrinterBonjourEndpoint *printerName; // @synthesize printerName=_printerName;
 
 @end

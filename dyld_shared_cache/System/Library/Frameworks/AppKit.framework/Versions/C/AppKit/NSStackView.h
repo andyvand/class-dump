@@ -9,21 +9,6 @@
 @interface NSStackView : NSView
 {
     id _delegate;
-    long long _orientation;
-    long long _alignment;
-    struct NSEdgeInsets _edgeInsets;
-    double _spacing;
-    float _verticalClippingResistancePriority;
-    float _horizontalClippingResistancePriority;
-    float _verticalHuggingPriority;
-    float _horizontalHuggingPriority;
-    id _private;
-    struct {
-        unsigned int _inDealloc:1;
-        unsigned int _detachesHiddenViews:1;
-        unsigned int _baselineRelativeArrangement:1;
-        unsigned int _reserved:29;
-    } _flags;
 }
 
 @end

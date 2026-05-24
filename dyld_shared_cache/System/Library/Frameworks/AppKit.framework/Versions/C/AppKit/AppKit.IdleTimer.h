@@ -7,8 +7,6 @@
 @interface AppKit.IdleTimer
 {
     id _monitor;
-    id _timeout;
-    id _closure;
 }
 
 @end

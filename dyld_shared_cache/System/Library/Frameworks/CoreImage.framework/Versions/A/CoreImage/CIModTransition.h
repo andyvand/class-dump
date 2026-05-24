@@ -6,18 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIModTransition : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputTargetImage;
-    CIVector *inputCenter;
-    NSNumber *inputTime;
-    NSNumber *inputAngle;
-    NSNumber *inputRadius;
-    NSNumber *inputCompression;
 }
 
 + (id);
@@ -33,19 +27,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (id)cggg?H;NBG9GONAOcccczzzzf{x®®®®­­­­NeZvuupugz}}:YSeGVOYXXXXR[X\DZUbajhqCTHd,@/MED5F8I;OeeeerrrrkidkF\Sfppppyyyy||||{{{{ttttlmjossssvvvvjjjj@UK^`d^fxxxxwyu~Umd}otn{roispngpbkesu|{||ªªªª¥¥¥¥N`Wh4F5UETG^`pluvmwwwwdkgmZd]hmlgmp~~~nyx|bbYljnis}etqt||||O^Ve/J;]ehbn_wv~_pl|>b[teolqssssavux}yyxy_ibqif\pPg^r^kcv[xtªªªª¥¥¥¥npnqW`Yh^kiqavs|eaViF\PdkkckgtpzxXpmytttt]d\mtzy|qyyyyV]Sf+H7[baVdyyyynyw~Ykfqoooowwww~~~~x¡¡¡¡}}}}]{x¢¢¢¢[xt\njvqqqqqqqqad]e7N@\ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAngle; // @synthesize inputAngle;
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
-@property(retain, nonatomic) NSNumber *inputCompression; // @synthesize inputCompression;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
-@property(retain, nonatomic) CIImage *inputTargetImage; // @synthesize inputTargetImage;
-@property(retain, nonatomic) NSNumber *inputTime; // @synthesize inputTime;
 
 @end
 

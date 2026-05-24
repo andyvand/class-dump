@@ -4,40 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSArray, NSMutableDictionary;
 
 @interface MLMovieProperties
 {
     NSMutableDictionary *_dictionary;
 }
 
-- (id);
+- (id)_cleanupEmptyDirectory:fileExtensionPredicate:progress: /* Error: Ran out of types for this method. */;
+- (void)_checkForHighlightChangesOnToOneRelationshipNamed:(id)arg1 andAddIntoChange:givenOldValue:andNewValue: /* Error: Ran out of types for this method. */;
+- (void)og:(id)arg1;
+- (void)_captureSpotlightClientHandlerReindexItemsWithCountDescription:(id)arg1 reason:completion: /* Error: Ran out of types for this method. */;
+- (void)_backingAlbumSupportsCloudShared;
+- (id)er: /* Error: Ran out of types for this method. */;
+- (id)_applyModelProperties:toPayloadAttributes:andNilAttributes:fromSourceObject:changedKeys:info: /* Error: Ran out of types for this method. */;
+- (id)_actionsPreRepair;
+- (id),V_bodyWidth;
+- (id)},R,N;
+- (id)hMediaAnalysisInSearchIndex;
+- (void)GisClientLimitedLibraryCapable;
+- (void),N;
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)16;
 - (id);
 - (void)HEN purchase_history_id THEN 1 WHEN is_ota_purchased THEN 0 WHEN is_subscription THEN 3 ELSE 0 END) END) WHERE item_pid = new.item_pid; END;;
 - (void)ontent_rating, movie_info, bit_rate, pending_genius_checksum FROM item_extra;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *castMembers;
-@property(copy, nonatomic) NSString *copyrightWarning;
-@property(copy, nonatomic) NSArray *directors;
-@property(copy, nonatomic) NSArray *producers;
-@property(copy, nonatomic) NSArray *screenwriters;
-@property(copy, nonatomic) NSString *studioName;
 
 @end
 

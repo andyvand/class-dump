@@ -6,28 +6,22 @@
 
 #import <AudioSession/AVAudioHardwareObject.h>
 
-@class AVAudioHardwareDevice, NSArray, NSString;
+@class NSString;
 
 @interface AVAudioHardwarePort : AVAudioHardwareObject
 {
 }
 
-- (id);
+- (id)NEIKEv2AuthenticationProtocol;
 - (_Bool);
 - (unsigned int);
 - (id);
-- (id)IOPreference:error: /* Error: Ran out of types for this method. */;
+- (id)setAggregatedIOPreference:error: /* Error: Ran out of types for this method. */;
 - (id)n IDs for app:%d, err:%@ /* Error: Ran out of types for this method. */;
 - (id)tocol11objc_objectJjU8__strongPU24objcproto13OS_xpc_object8NSObjectjjU8__strongP8NSStringEEC1EP15NSXPCConnectionEUlP7NSErrorONSt3__15tupleIJjS8_jjSB_EEEE_;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UID;
-@property(readonly, nonatomic) unsigned int direction;
-@property(readonly, nonatomic) _Bool hasHardwareVoiceCallProcessing;
-@property(readonly, nonatomic) __weak AVAudioHardwareDevice *owningDevice;
-@property(readonly, nonatomic) NSString *portName;
 @property(readonly, nonatomic) NSString *portType;
-@property(readonly, nonatomic) __weak NSArray *streams;
 
 @end
 

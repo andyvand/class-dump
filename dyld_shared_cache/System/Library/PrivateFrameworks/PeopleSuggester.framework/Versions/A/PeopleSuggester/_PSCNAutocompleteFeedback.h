@@ -4,57 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, _PSCNAutocompleteFeedbackEntered, _PSCNAutocompleteFeedbackErasedHandle, _PSCNAutocompleteFeedbackExited, _PSCNAutocompleteFeedbackTappedSuggestion, _PSCNAutocompleteFeedbackTypedHandle, _PSCNAutocompleteFeedbackVendedSuggestions;
-
 @interface _PSCNAutocompleteFeedback
 {
     _Bool _isImplicit;
-    unsigned int _dataVersion;
-    long long _feedbackType;
-    NSDate *_reportTime;
-    NSString *_userIdentifier;
-    NSString *_bundleIdentifier;
-    NSString *_sourceBundleIdentifier;
-    _PSCNAutocompleteFeedbackEntered *_entered;
-    _PSCNAutocompleteFeedbackExited *_exited;
-    _PSCNAutocompleteFeedbackVendedSuggestions *_vendedSuggestions;
-    _PSCNAutocompleteFeedbackTappedSuggestion *_tappedSuggestion;
-    _PSCNAutocompleteFeedbackTypedHandle *_typedHandle;
-    _PSCNAutocompleteFeedbackErasedHandle *_erasedHandle;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)";
 + (id);
 + (id);
++ (_Bool);
 + (id);
-+ (_Bool);
-+ (id);
-- (id);
-- (id);
-- (id);
+- (id)_failedToPlan;
+- (id)_expensiveNetworkAccessRequest;
+- (id)_executedTasks;
+- (void)_entityPoolReturned;
+- (void)_enrollmentUtteranceNumber;
+- (void)_endpointResetPositionInNs;
+- (void)_dialogPhase;
+- (void)_countOfWordsReplaced;
+- (void)_countOfPSUSAssetsPromotedInCurrentOS;
+- (void)_countOfOTAAssetsInAssetSet;
+- (id)_contactSuggestionRemoved;
+- (id)_assistantDaemonAudioRecordingMissedBufferDetected;
+- (id)_asrHypothesesInfos;
+- (id)riginLanguage;
+- (id)eDuet2Min;
+- (void)Music;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -62,32 +48,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (id);
 - (long long)EùÑº°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(nonatomic) unsigned int dataVersion; // @synthesize dataVersion=_dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) _PSCNAutocompleteFeedbackEntered *entered; // @synthesize entered=_entered;
-@property(copy, nonatomic) _PSCNAutocompleteFeedbackErasedHandle *erasedHandle; // @synthesize erasedHandle=_erasedHandle;
-@property(copy, nonatomic) _PSCNAutocompleteFeedbackExited *exited; // @synthesize exited=_exited;
-@property(nonatomic) long long feedbackType; // @synthesize feedbackType=_feedbackType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isImplicit; // @synthesize isImplicit=_isImplicit;
-@property(retain, nonatomic) NSDate *reportTime; // @synthesize reportTime=_reportTime;
-@property(retain, nonatomic) NSString *sourceBundleIdentifier; // @synthesize sourceBundleIdentifier=_sourceBundleIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) _PSCNAutocompleteFeedbackTappedSuggestion *tappedSuggestion; // @synthesize tappedSuggestion=_tappedSuggestion;
-@property(copy, nonatomic) _PSCNAutocompleteFeedbackTypedHandle *typedHandle; // @synthesize typedHandle=_typedHandle;
-@property(retain, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(copy, nonatomic) _PSCNAutocompleteFeedbackVendedSuggestions *vendedSuggestions; // @synthesize vendedSuggestions=_vendedSuggestions;
 
 @end
 

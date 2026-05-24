@@ -6,20 +6,18 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICPushNotificationsResponse, ICStoreRequestContext, NSData;
+@class ICStoreRequestContext;
 
 @interface ICPushNotificationsRegisterAPNSTokenRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    NSData *_token;
-    ICPushNotificationsResponse *_response;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void)String: /* Error: Ran out of types for this method. */;
+- (void)modalPresentationStyleAsString: /* Error: Ran out of types for this method. */;
 
 @end
 

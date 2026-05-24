@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
-- (double);
-- (id);
-- (struct CGPoint);
+- (struct CGPoint)%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (double)pID:%@ lastAddressedHandle:%@ lastAddressedSIMID:%@ isFiltered:%d hasHadSuccessfulQuery:%@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (struct CGPoint)Row ID:%lld  Group ID:%@ originalGroupID:%@ lastAddressedHandle:%@ lastAddressedSIMID:%@ isFiltered:%d hasHadSuccessfulQuery:%@ serverChangeToken:%@ cKSate:%@ lastReadTime:%@ cloudKitRecordID:%@ isBlackholed:%@ groupPhotoGuid:%@ isRecovered:%@ isDeletingIncomingMessages %@ repairHistory %@ pendingIncomingSatelliteMessageCount:%d] /* Error: Ran out of types for this method. */;
+- (double)__kIMDChatParticipantsDidChangeRemovedParticipantsKey;
+- (id)__kIMDChatParticipantsDidChangeAddedParticipantsKey;
+- (struct CGPoint)Warning;
 - (id);
 - (double)t",&,N,V_placementDuringAnimation;
 - (long long);

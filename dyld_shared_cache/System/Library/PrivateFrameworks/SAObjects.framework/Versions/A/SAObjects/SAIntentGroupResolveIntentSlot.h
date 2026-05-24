@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSNumber, NSString, SAIntentGroupProtobufMessage;
+@class SAIntentGroupProtobufMessage;
 
 @interface SAIntentGroupResolveIntentSlot : SABaseClientBoundCommand
 {
@@ -17,9 +17,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAIntentGroupProtobufMessage *intent;
-@property(copy, nonatomic) NSString *intentSlotKeyPath;
-@property(copy, nonatomic) NSNumber *intentSlotValueIndex;
-@property(copy, nonatomic) NSString *jsonEncodedIntent;
 
 @end
 

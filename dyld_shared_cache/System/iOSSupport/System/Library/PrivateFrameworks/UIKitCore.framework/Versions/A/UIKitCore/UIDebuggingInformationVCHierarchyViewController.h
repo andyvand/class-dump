@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UITableView;
+@class NSArray, UITableView;
 
 __attribute__((visibility("hidden")))
 @interface UIDebuggingInformationVCHierarchyViewController : UIViewController
@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     UITableView *_tableView;
 }
 
+- (long long)erviceName:(id)arg1 %@, moving on;
+- (id);
+- (id)ext;
+- (id);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (void);
+- (void)validateAssetFileURL:(id)arg1 forRequestedSize:(id)arg2 completion: /* Error: Ran out of types for this method. */;
+- (void)B@?>16;
 - (void);
 - (id)enumerateSupplementariesOfElementKind:enumerator: /* Error: Ran out of types for this method. */;
 - (void);
@@ -31,14 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

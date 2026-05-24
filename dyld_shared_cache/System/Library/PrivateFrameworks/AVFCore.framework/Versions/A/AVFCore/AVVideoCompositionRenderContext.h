@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVVideoComposition, AVVideoCompositionRenderContextInternal;
+@class AVVideoCompositionRenderContextInternal;
 
 @interface AVVideoCompositionRenderContext
 {
@@ -12,29 +12,23 @@
 }
 
 + (id);
-- (id);
-- (float);
+- (id)endsOfSentencePunctuationsForLanguage: /* Error: Ran out of types for this method. */;
+- (float)_cacheLmData:configFilepath:ncsRoot:dataRoot: /* Error: Ran out of types for this method. */;
+- (_Bool)taggedResults;
+- (id)ceSpan;
 - (_Bool);
-- (id);
 - (_Bool);
-- (_Bool);
-- (CDStruct_1edcc8d7);
+- (CDStruct_d2b197d1);
 - (void);
 - (struct CGAffineTransform);
 - (struct __CVBuffer *);
 - (void);
-- (struct CGSize);
-- (CDStruct_43f4b5b8);
+- (struct CGSize)setBleScreenOffScanRate: /* Error: Ran out of types for this method. */;
+- (CDStruct_912cb5d2)0;
 - (struct __CVPixelBufferPool *);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1edcc8d7 edgeWidths;
-@property(readonly, nonatomic) _Bool highQualityRendering;
-@property(readonly, nonatomic) CDStruct_43f4b5b8 pixelAspectRatio;
-@property(readonly, nonatomic) float renderScale;
-@property(readonly, nonatomic) struct CGAffineTransform renderTransform;
 @property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) AVVideoComposition *videoComposition;
 
 @end
 

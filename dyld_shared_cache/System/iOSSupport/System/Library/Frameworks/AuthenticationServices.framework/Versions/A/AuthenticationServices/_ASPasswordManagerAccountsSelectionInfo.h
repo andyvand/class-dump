@@ -7,10 +7,6 @@
 @interface _ASPasswordManagerAccountsSelectionInfo
 {
     _Bool _hasAccountsWithVerificationCodes;
-    _Bool _hasSharedAccounts;
-    _Bool _hasOnlySharedAccounts;
-    unsigned long long _numberOfPasswords;
-    unsigned long long _numberOfPasskeys;
 }
 
 - (long long);
@@ -22,12 +18,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasAccountsWithVerificationCodes; // @synthesize hasAccountsWithVerificationCodes=_hasAccountsWithVerificationCodes;
-@property(readonly, nonatomic) _Bool hasOnlySharedAccounts; // @synthesize hasOnlySharedAccounts=_hasOnlySharedAccounts;
-@property(readonly, nonatomic) _Bool hasSharedAccounts; // @synthesize hasSharedAccounts=_hasSharedAccounts;
-@property(readonly, nonatomic) unsigned long long numberOfPasskeys; // @synthesize numberOfPasskeys=_numberOfPasskeys;
 @property(readonly, nonatomic) unsigned long long numberOfPasswords; // @synthesize numberOfPasswords=_numberOfPasswords;
-@property(readonly, nonatomic) long long selectedCredentialTypes;
 
 @end
 

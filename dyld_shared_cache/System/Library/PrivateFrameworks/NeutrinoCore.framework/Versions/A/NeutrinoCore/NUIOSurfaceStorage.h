@@ -6,15 +6,9 @@
 
 #import <NeutrinoCore/_NUAbstractBufferStorage.h>
 
-@class NSString, NUColorSpace, NUIOSurface, NUPixelFormat, NURegion;
-@protocol NUDevice;
-
 @interface NUIOSurfaceStorage : _NUAbstractBufferStorage
 {
     long long _purgeLevel;
-    _Bool _purgeable;
-    NUIOSurface *_surface;
-    id <NUDevice> _device;
 }
 
 - (long long);
@@ -51,20 +45,7 @@
 - (int);
 
 // Remaining properties
-@property(retain) NUColorSpace *colorSpace;
-@property float contentHeadroom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NUPixelFormat *format;
-@property(readonly) unsigned long long hash;
-@property _Bool isDirty;
 @property(readonly) CDStruct_912cb5d2 size;
-@property(readonly) long long sizeInBytes;
-@property(readonly) Class superclass;
-@property(readonly) NURegion *validRegion;
 
 @end
 

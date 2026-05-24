@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _EFBoundedQueueStrategy
 {
     CDUnknownBlockType _overflowHandler;
-    unsigned long long _capacity;
 }
 
 - (id);
-- (id);
+- (id) ;
 - (void);
 - (void);
 - (unsigned long long);
@@ -22,16 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *descriptionType;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CDUnknownBlockType overflowHandler; // @synthesize overflowHandler=_overflowHandler;
-@property(readonly) Class superclass;
 
 @end
 

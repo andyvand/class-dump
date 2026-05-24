@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTime;
+@class _INPBDateTime;
 
 @interface _INPBSleepAlarmAttribute
 {
     struct {
         unsigned int override:1;
     } _has;
-    _Bool _override;
-    _INPBDateTime *_bedtime;
 }
 
 + (_Bool);
-- (void);
+- (void)8;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)32@?0@8@16^B24;
+- (id)rsions/A/CoreServices;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -31,20 +29,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)ntSlotValueTransformFromEnergyValue;
+- (void)INIntentSlotValueTransformFromEnergyValue;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDateTime *bedtime; // @synthesize bedtime=_bedtime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBedtime;
-@property(nonatomic) _Bool hasOverride;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool override; // @synthesize override=_override;
-@property(readonly) Class superclass;
 
 @end
 

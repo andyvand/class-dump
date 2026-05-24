@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAtomicSignal, BSServiceConnectionListener, BSServiceDispatchQueue, FBSDisplayConfiguration, FBSDisplayLayout, NSHashTable, NSMutableOrderedSet, NSMutableSet, NSObject, NSString;
-@protocol OS_xpc_object;
+@class BSAtomicSignal, FBSDisplayConfiguration;
 
 @interface FBSDisplayLayoutPublisher
 {
     BSAtomicSignal *_invalidatedSignal;
-    BSServiceConnectionListener *_listener;
-    BSServiceDispatchQueue *_queuesByQOS[3];
-    NSObject<OS_xpc_object> *_queues_xLayoutByQOS[3];
-    NSMutableSet *_queues_connectionsByQOS[3];
-    FBSDisplayLayout *_mutableLayout;
-    NSMutableSet *_mutableElementKeys;
-    NSHashTable *_observers;
-    NSObject<OS_xpc_object> *_xLayout;
-    FBSDisplayLayout *_currentLayout;
-    NSMutableOrderedSet *_transitionReasons;
-    unsigned long long _transitionsCount;
-    unsigned long long _suppressionCount;
-    _Bool _dirty;
 }
 
 + (id);
@@ -31,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -46,9 +32,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)";
+- (void);
+- (void)(;
 - (id);
 - (long long);
 - (void);
@@ -56,18 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long backlightLevel;
-@property(readonly, nonatomic) FBSDisplayLayout *currentLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) FBSDisplayConfiguration *displayConfiguration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long interfaceOrientation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isTransitioning) _Bool transitioning;
 
 @end
 

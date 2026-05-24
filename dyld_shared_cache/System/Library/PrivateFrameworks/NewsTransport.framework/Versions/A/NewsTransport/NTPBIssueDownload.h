@@ -4,61 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBIssueData;
-
 @interface NTPBIssueDownload
 {
     int _downloadLocation;
-    int _downloadState;
-    int _downloadType;
-    NTPBIssueData *_issueData;
-    NSString *_sourceChannelId;
-    struct {
-        unsigned int downloadLocation:1;
-        unsigned int downloadState:1;
-        unsigned int downloadType:1;
-    } _has;
 }
 
+- (void)currentAssetCollection;
+- (void)collectionView:(_Bool)arg1 didEndDisplayingItem:forRepresentedObjectAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)AfterChanges:(int)arg1;
+- (id)authenticationBehaviorUponAppearing;
+- (_Bool)addValueWithLabel: /* Error: Ran out of types for this method. */;
+- (_Bool)actionProperties;
+- (int)_vfxAssembleCameraChromaticTransformIntensity;
 - (void);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (void)MapsSuggestionsResumeRouteDefaultTitle;
+- (id);
+- (void)ITDecoderEnumerateCandidates;
+- (int);
 - (int);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (int);
-- (int);
-- (void);
-- (_Bool);
+- (_Bool)_;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)|G4+;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)leRecirculationConfigurationURL: /* Error: Ran out of types for this method. */;
+- (void)setArticleRecirculationConfigurationURL: /* Error: Ran out of types for this method. */;
 - (void)6BÃG;
 - (void)çöÿÄ­;
 
 // Remaining properties
-@property(nonatomic) int downloadLocation; // @synthesize downloadLocation=_downloadLocation;
-@property(nonatomic) int downloadState; // @synthesize downloadState=_downloadState;
-@property(nonatomic) int downloadType; // @synthesize downloadType=_downloadType;
-@property(nonatomic) _Bool hasDownloadLocation;
-@property(nonatomic) _Bool hasDownloadState;
-@property(nonatomic) _Bool hasDownloadType;
 @property(readonly, nonatomic) _Bool hasIssueData;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(retain, nonatomic) NTPBIssueData *issueData; // @synthesize issueData=_issueData;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

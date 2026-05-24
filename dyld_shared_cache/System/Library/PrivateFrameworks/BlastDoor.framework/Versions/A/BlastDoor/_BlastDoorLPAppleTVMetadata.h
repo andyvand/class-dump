@@ -6,13 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPAppleTVMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_title;
-    NSString *_subtitle;
-    _BlastDoorLPImage *_artwork;
 }
 
 + (id);
@@ -25,15 +23,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id)ue;
+- (id)object_Value;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _BlastDoorLPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

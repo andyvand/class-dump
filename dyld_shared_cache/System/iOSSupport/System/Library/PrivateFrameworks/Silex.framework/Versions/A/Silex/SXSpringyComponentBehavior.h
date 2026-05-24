@@ -13,8 +13,6 @@
 - (Class);
 
 // Remaining properties
-@property(readonly, nonatomic) double damping; // @dynamic damping;
-@property(readonly, nonatomic) double delta; // @dynamic delta;
 @property(readonly, nonatomic) double frequency; // @dynamic frequency;
 
 @end

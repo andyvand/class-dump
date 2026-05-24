@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWSphereEndstopCalibrationAnalyticsPayload
 {
     long long _magneticFieldMagnitude;
-    NSString *_portType;
-    unsigned int _calibrationStatus;
-    int _sphereXPosEndstop;
-    int _sphereXNegEndstop;
-    int _sphereYPosEndstop;
-    int _sphereYNegEndstop;
-    int _deltaSphereXPosEndstop;
-    int _deltaSphereXNegEndstop;
-    int _deltaSphereYPosEndstop;
-    int _deltaSphereYNegEndstop;
-    int _sphereXStroke;
-    int _sphereYStroke;
 }
 
 - (int);
@@ -41,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)˟;
 - (long long);
 - (int);
 - (int);
@@ -50,33 +36,14 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void)TSUUUIDSubsetCreator;
 - (id);
 - (id);
-- (id);
+- (id)WPBeaconTypeCompanyMajor;
 - (id)at;
 
 // Remaining properties
-@property(nonatomic) unsigned int calibrationStatus; // @synthesize calibrationStatus=_calibrationStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) int deltaSphereXNegEndstop; // @synthesize deltaSphereXNegEndstop=_deltaSphereXNegEndstop;
-@property(nonatomic) int deltaSphereXPosEndstop; // @synthesize deltaSphereXPosEndstop=_deltaSphereXPosEndstop;
-@property(nonatomic) int deltaSphereYNegEndstop; // @synthesize deltaSphereYNegEndstop=_deltaSphereYNegEndstop;
-@property(nonatomic) int deltaSphereYPosEndstop; // @synthesize deltaSphereYPosEndstop=_deltaSphereYPosEndstop;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long magneticFieldMagnitude; // @synthesize magneticFieldMagnitude=_magneticFieldMagnitude;
-@property(retain, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(nonatomic) int sphereXNegEndstop; // @synthesize sphereXNegEndstop=_sphereXNegEndstop;
-@property(nonatomic) int sphereXPosEndstop; // @synthesize sphereXPosEndstop=_sphereXPosEndstop;
-@property(nonatomic) int sphereXStroke; // @synthesize sphereXStroke=_sphereXStroke;
-@property(nonatomic) int sphereYNegEndstop; // @synthesize sphereYNegEndstop=_sphereYNegEndstop;
-@property(nonatomic) int sphereYPosEndstop; // @synthesize sphereYPosEndstop=_sphereYPosEndstop;
-@property(nonatomic) int sphereYStroke; // @synthesize sphereYStroke=_sphereYStroke;
-@property(readonly) Class superclass;
 
 @end
 

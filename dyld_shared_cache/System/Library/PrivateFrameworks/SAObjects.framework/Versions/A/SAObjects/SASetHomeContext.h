@@ -6,35 +6,22 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSString;
-
 @interface SASetHomeContext : SABaseCommand
 {
 }
 
 - (_Bool);
-- (void);
+- (void)enableSpeakerCodeTraining:(_Bool)arg1 supportEmojiRecognition:voiceCommandActiveSet:modelContextDelegate:enableItn:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void)xt:(id)arg1;
+- (_Bool)Symbols.AdjacentSymbolSearchStrategy;
+- (void)watchDataWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(nonatomic) _Bool byPassServerFlow;
-@property(copy, nonatomic) NSArray *currentHomes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *entities;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

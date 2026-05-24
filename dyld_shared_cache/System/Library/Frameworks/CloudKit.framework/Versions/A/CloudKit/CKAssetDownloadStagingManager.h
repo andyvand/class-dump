@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSURL;
+@class NSMutableDictionary, NSURL;
 
 @interface CKAssetDownloadStagingManager
 {
     NSURL *_directory;
-    NSString *_fileProtectionType;
-    NSMutableDictionary *_fileHandlesForInflightLastPathComponent;
-    NSURL *_inflightDownloadDirectory;
-    NSURL *_finishedDownloadDirectory;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)6;
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id)u";
 - (id);
 - (id);
 - (void);
@@ -36,19 +32,7 @@
 - (void)H1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSURL *directory; // @synthesize directory=_directory;
 @property(retain, nonatomic) NSMutableDictionary *fileHandlesForInflightLastPathComponent; // @synthesize fileHandlesForInflightLastPathComponent=_fileHandlesForInflightLastPathComponent;
-@property(retain) NSString *fileProtectionType; // @synthesize fileProtectionType=_fileProtectionType;
-@property(readonly, nonatomic) NSURL *finishedDownloadDirectory; // @synthesize finishedDownloadDirectory=_finishedDownloadDirectory;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSURL *inflightDownloadDirectory; // @synthesize inflightDownloadDirectory=_inflightDownloadDirectory;
-@property _Bool keepInflightFilesOpen;
-@property(readonly) Class superclass;
 
 @end
 

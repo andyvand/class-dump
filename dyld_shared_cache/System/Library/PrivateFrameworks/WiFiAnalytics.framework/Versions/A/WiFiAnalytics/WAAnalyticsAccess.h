@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSPersistentContainer;
+@class NSPersistentContainer;
 
 @interface WAAnalyticsAccess
 {
     _Bool readOnly;
-    NSPersistentContainer *_persistentContainer;
-    NSManagedObjectContext *_backgroundMOC;
-    unsigned long long _options;
 }
 
 + (id);
-+ (void)_btCoex_request;
++ (void)DiffcontrollerStats_btCoex_request;
 - (void);
 - (id);
 - (id);
@@ -26,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)T;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -38,8 +35,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSManagedObjectContext *backgroundMOC; // @synthesize backgroundMOC=_backgroundMOC;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(retain, nonatomic) NSPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
 
 @end

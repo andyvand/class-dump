@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     _Bool _shouldDonateNgramSampleRandomly;
 }
 
-+ (void);
-- (void);
++ (void)4H;
+- (void)RTTUtteranceTranslatedTextKey;
 - (id);
 - (id);
 - (id);
@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 
 // Remaining properties

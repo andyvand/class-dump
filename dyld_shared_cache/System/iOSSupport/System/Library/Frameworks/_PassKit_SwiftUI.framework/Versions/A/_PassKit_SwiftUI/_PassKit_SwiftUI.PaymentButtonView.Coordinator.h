@@ -7,9 +7,10 @@
 @interface _PassKit_SwiftUI.PaymentButtonView.Coordinator
 {
     id action;
+    id;
 }
 
-- (void);
+- (void)r;
 
 @end
 

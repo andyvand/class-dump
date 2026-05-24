@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BiometricKitIdentity, NSObject;
+
 @protocol BiometricKitXpcProtocol
+- (void);
+- (void);
+- (void):(NSObject *)arg1 =;
+- (void)stinkspleten;
+- (void)";
+- (void);
+- (void)h;
+- (void)_ThermalLevelXPCListener;
+- (void)n - Waiting for runloop callback to decide what to do;
+- (void)%d:(BiometricKitIdentity *)arg1 %s (%u):(unsigned long long)arg2 param 0x%x:(void (^)(NSData *))arg3 status 0x%x;
 @end
 

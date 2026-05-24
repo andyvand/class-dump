@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAudioController, CKMessagePartChatItem, NSString;
-@protocol CKFullScreenEffectDelegate;
+@class CKAudioController;
 
 @interface CKFullScreenEffect
 {
     CKAudioController *_audioController;
-    float _currentVolume;
-    BOOL messageOrientation;
-    _Bool _triggeredByResponseKit;
-    NSString *_identifier;
-    CKMessagePartChatItem *_triggeringChatItem;
-    id <CKFullScreenEffectDelegate> _delegate;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (id)defaultTitleForAttachmentType: /* Error: Ran out of types for this method. */;
+- (_Bool)defaultTextStyles;
+- (_Bool)_keyboardLanguage;
+- (id)_keepNSTextTableAttributes;
+- (_Bool)UID",R,N,V_columnID;
+- (void)isInPreviewMode;
+- (void)tionary",R,N,V_decomposedHighlightInfo;
+- (void)ICGroupedBackgroundColor;
 - (_Bool);
 - (void);
 - (BOOL);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)n;
+- (_Bool)o;
 - (void);
-- (void);
-- (void);
+- (void)n level %lu;
+- (void)s.count == selections.count;
 - (void);
 - (void);
 - (void);
@@ -55,25 +48,14 @@
 - (void);
 - (double);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id)ssion:willEndWithOperation: /* Error: Ran out of types for this method. */;
+- (id)dragInteraction:session:willEndWithOperation: /* Error: Ran out of types for this method. */;
 - (id)ý;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKFullScreenEffectDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) BOOL messageOrientation; // @synthesize messageOrientation;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool triggeredByResponseKit; // @synthesize triggeredByResponseKit=_triggeredByResponseKit;
-@property(retain, nonatomic) CKMessagePartChatItem *triggeringChatItem; // @synthesize triggeringChatItem=_triggeringChatItem;
 
 @end
 

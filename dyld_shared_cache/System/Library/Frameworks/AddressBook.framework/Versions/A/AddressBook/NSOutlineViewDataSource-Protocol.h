@@ -5,5 +5,10 @@
 //
 
 @protocol NSOutlineViewDataSource
+
+@optional
+- (id);
+- (long long);
+- (id)!;
 @end
 

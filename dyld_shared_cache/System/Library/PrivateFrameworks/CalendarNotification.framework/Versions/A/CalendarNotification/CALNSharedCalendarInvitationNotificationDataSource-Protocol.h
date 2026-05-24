@@ -5,5 +5,6 @@
 //
 
 @protocol CALNSharedCalendarInvitationNotificationDataSource
+- (void);
 @end
 

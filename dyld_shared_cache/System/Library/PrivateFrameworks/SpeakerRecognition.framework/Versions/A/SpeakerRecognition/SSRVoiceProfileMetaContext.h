@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface SSRVoiceProfileMetaContext
 {
     NSString *_appDomain;
-    NSString *_profileId;
-    NSString *_languageCode;
-    NSString *_productCategory;
-    NSNumber *_version;
-    NSDate *_dateAdded;
-    NSNumber *_pitch;
-    NSString *_sharedSiriId;
-    NSString *_personaId;
-    NSString *_homeId;
-    NSString *_userName;
 }
 
 - (void);
@@ -35,31 +25,21 @@
 - (id);
 - (id);
 - (void);
+- (id)batteryLevelMain;
+- (void)ricEventEE_FvSA_SD_EEE;
 - (id);
+- (id)?;
+- (id);
+- (id)mediumVisualTempoTarget;
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appDomain; // @synthesize appDomain=_appDomain;
-@property(retain, nonatomic) NSDate *dateAdded; // @synthesize dateAdded=_dateAdded;
-@property(retain, nonatomic) NSString *homeId; // @synthesize homeId=_homeId;
-@property(retain, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(readonly, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) NSNumber *pitch; // @synthesize pitch=_pitch;
-@property(retain, nonatomic) NSString *productCategory; // @synthesize productCategory=_productCategory;
-@property(retain, nonatomic) NSString *profileId; // @synthesize profileId=_profileId;
-@property(retain, nonatomic) NSString *sharedSiriId; // @synthesize sharedSiriId=_sharedSiriId;
-@property(retain, nonatomic) NSString *userName; // @synthesize userName=_userName;
-@property(retain, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end
 

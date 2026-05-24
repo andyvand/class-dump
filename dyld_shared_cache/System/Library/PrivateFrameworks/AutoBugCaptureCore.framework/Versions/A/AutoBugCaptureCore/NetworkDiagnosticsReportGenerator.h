@@ -6,21 +6,18 @@
 
 #import <AutoBugCaptureCore/DiagnosticReportGenerator.h>
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSString, NetDiagnosticsShim;
+@class NetDiagnosticsShim;
 
 __attribute__((visibility("hidden")))
 @interface NetworkDiagnosticsReportGenerator : DiagnosticReportGenerator
 {
     NetDiagnosticsShim *_netDiags;
-    NSMutableDictionary *_options;
-    NSDictionary *_netDiagsResults;
-    NSDate *_reportStart;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -28,22 +25,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)se:(id)arg1 %@. Error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NetDiagnosticsShim *netDiags; // @synthesize netDiags=_netDiags;
-@property(retain, nonatomic) NSDictionary *netDiagsResults; // @synthesize netDiagsResults=_netDiagsResults;
-@property(retain, nonatomic) NSMutableDictionary *options; // @synthesize options=_options;
-@property(retain, nonatomic) NSDate *reportStart; // @synthesize reportStart=_reportStart;
-@property(readonly) Class superclass;
 
 @end
 

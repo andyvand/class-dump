@@ -9,7 +9,6 @@
 @interface WBSPasswordsNotificationManager
 {
     void delegate;
-    id userNotificationCenter;
 }
 
 + (id);
@@ -25,10 +24,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)setWriteTransaction: /* Error: Ran out of types for this method. */;
+- (id)`;
+- (id)setAccessibilityCustomActions: /* Error: Ran out of types for this method. */;
+- (void)ICDelegateAccountStoreService;
 - (void)±X°1Â0@ù
 × ;
 - (void)(ã;

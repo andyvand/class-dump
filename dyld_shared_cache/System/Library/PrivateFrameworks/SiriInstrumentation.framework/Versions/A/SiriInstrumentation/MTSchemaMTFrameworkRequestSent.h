@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MTSchemaMTFrameworkRequestSent : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_frameworkRequestId;
-    NSString *_qssSessionId;
-    int _requestType;
-    int _requestRoute;
-    unsigned int _requestSize;
-    NSString *_modelVersion;
-    struct {
-        unsigned int requestType:1;
-        unsigned int requestRoute:1;
-        unsigned int requestSize:1;
-    } _has;
-    _Bool _hasFrameworkRequestId;
-    _Bool _hasQssSessionId;
-    _Bool _hasModelVersion;
 }
 
 - (void);
@@ -35,12 +22,12 @@
 - (id);
 - (_Bool);
 - (id);
+- (void)uZ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)˿;
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -48,10 +35,10 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)d) / %x / %x, connection %d;
 - (id);
-- (void);
-- (unsigned long long);
+- (void)GOST_KEY_set_public_key_affine_coordinates;
+- (unsigned long long)a;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
@@ -71,18 +58,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *frameworkRequestId; // @synthesize frameworkRequestId=_frameworkRequestId;
-@property(nonatomic) _Bool hasFrameworkRequestId; // @synthesize hasFrameworkRequestId=_hasFrameworkRequestId;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasQssSessionId; // @synthesize hasQssSessionId=_hasQssSessionId;
-@property(nonatomic) _Bool hasRequestRoute;
-@property(nonatomic) _Bool hasRequestSize;
-@property(nonatomic) _Bool hasRequestType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(copy, nonatomic) NSString *qssSessionId; // @synthesize qssSessionId=_qssSessionId;
-@property(nonatomic) int requestRoute; // @synthesize requestRoute=_requestRoute;
-@property(nonatomic) unsigned int requestSize; // @synthesize requestSize=_requestSize;
-@property(nonatomic) int requestType; // @synthesize requestType=_requestType;
 
 @end
 

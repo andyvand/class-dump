@@ -5,9 +5,10 @@
 //
 
 @protocol ECSLKeyEventAuthenticationMessage
+- (short)m.apple.coredata.cloudkit.schema.initialize;
+- (unsigned short)ectory.aLAJrA/Sources/Persistence/NSSQLAttributeTrigger.m;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short charCode;
 @property(readonly, nonatomic) short repeat;
 @end
 

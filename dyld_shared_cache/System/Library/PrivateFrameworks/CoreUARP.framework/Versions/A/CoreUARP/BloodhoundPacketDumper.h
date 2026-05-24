@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BloodhoundPacketDumper
 {
     struct pcap *_pcap;
-    struct pcap_dumper *_dumper;
-    _Bool _externalDumper;
-    NSString *_fileName;
 }
 
-- (void);
-- (id);
+- (void)already marked as cancelled. This happens if the task was canceled close to when it finished downloading.;
+- (id)el task which is already cancelled.;
 - (void);
 - (id);
 - (void);

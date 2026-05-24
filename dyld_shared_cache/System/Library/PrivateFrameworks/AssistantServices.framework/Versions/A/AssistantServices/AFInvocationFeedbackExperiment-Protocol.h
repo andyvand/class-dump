@@ -5,6 +5,8 @@
 //
 
 @protocol AFInvocationFeedbackExperiment
+- (unsigned long long)model does not have cards to display;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long featureGroups;

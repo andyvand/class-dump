@@ -11,7 +11,7 @@
     NSString *_previousScheduleTag;
 }
 
-- (id);
+- (id)$;
 - (id);
 - (void);
 - (id);

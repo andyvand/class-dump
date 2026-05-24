@@ -9,13 +9,10 @@
 @interface GEODirectionsServiceFamiliarRouteSegment
 {
     GEORawPathGeometry *pathGeometry;
-    int transportType;
-    double travelDuration;
-    double length;
 }
 
-- (double);
-- (id);
+- (double)Error">24;
+- (id)Subdivision;
 - (id);
 - (double);
 - (id);
@@ -23,10 +20,7 @@
 - (int)°Ò9;
 
 // Remaining properties
-@property(nonatomic, readonly) double length; // @synthesize length;
 @property(nonatomic, readonly) GEORawPathGeometry *pathGeometry; // @synthesize pathGeometry;
-@property(nonatomic, readonly) int transportType; // @synthesize transportType;
-@property(nonatomic, readonly) double travelDuration; // @synthesize travelDuration;
 
 @end
 

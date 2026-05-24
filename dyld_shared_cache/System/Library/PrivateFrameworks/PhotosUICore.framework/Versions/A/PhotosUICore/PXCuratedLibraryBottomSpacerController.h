@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXCuratedLibraryLayout, PXCuratedLibraryViewModel, PXExtendedTraitCollection, PXGView, PXUpdater;
+@class PXCuratedLibraryViewModel;
 
 @interface PXCuratedLibraryBottomSpacerController
 {
     _Bool _wantsSpacer;
-    _Bool _hasSpacer;
-    _Bool _hasAppearedOnce;
-    PXCuratedLibraryViewModel *_viewModel;
-    PXExtendedTraitCollection *_extendedTraitCollection;
-    PXCuratedLibraryLayout *_layout;
-    PXGView *_gridView;
-    PXUpdater *_updater;
 }
 
 - (_Bool);
@@ -30,7 +23,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)T ;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -39,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void)wÃ;
 - (id)àrqÿ;
 - (void);
@@ -47,22 +40,7 @@
 - (id)ð¤>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXExtendedTraitCollection *extendedTraitCollection; // @synthesize extendedTraitCollection=_extendedTraitCollection;
-@property(readonly, nonatomic) PXGView *gridView; // @synthesize gridView=_gridView;
-@property(nonatomic) _Bool hasAppearedOnce; // @synthesize hasAppearedOnce=_hasAppearedOnce;
-@property(nonatomic) _Bool hasSpacer; // @synthesize hasSpacer=_hasSpacer;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXCuratedLibraryLayout *layout; // @synthesize layout=_layout;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 @property(readonly, nonatomic) PXCuratedLibraryViewModel *viewModel; // @synthesize viewModel=_viewModel;
-@property(readonly, nonatomic) double visibleSpacerFraction;
-@property(nonatomic) _Bool wantsSpacer; // @synthesize wantsSpacer=_wantsSpacer;
 
 @end
 

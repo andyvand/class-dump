@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISIcon, NSByteCountFormatter, NSImage, NSMutableArray, NSString, NSWindow;
+@class NSWindow;
 
 @interface MMService
 {
     struct __CFString *_accountID;
-    struct __CFString *_serviceID;
-    NSWindow *_parentWindow;
-    _Bool _itemEnabled;
-    NSString *_infoButtonLabel;
-    _Bool _alwaysShowOptions;
-    _Bool _optionsButtonEnabled;
-    NSString *_progressString;
-    NSString *_statusString;
-    long long _statusCode;
-    _Bool _determiningStatus;
-    _Bool _isPrimary;
-    _Bool _isMAID;
-    NSString *_accountClass;
-    NSMutableArray *_aeArray;
-    NSImage *_icon;
-    _Bool _upgradeLabelShown;
-    NSString *_telemetryFlowID;
-    NSByteCountFormatter *_byteCountFormatter;
 }
 
 - (_Bool);
@@ -37,6 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)2;
 - (void);
 - (void);
 - (void);
@@ -46,8 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)2;
 - (id);
 - (void);
 - (id);
@@ -66,12 +48,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)3;
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool)?;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -96,7 +78,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)J	d;
 - (void);
 - (void);
 - (_Bool);
@@ -112,13 +94,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -129,27 +111,7 @@
 - (void)Z;
 
 // Remaining properties
-@property(readonly) NSString *accountClass; // @synthesize accountClass=_accountClass;
-@property(readonly, copy) NSString *accountID;
-@property(readonly) ISIcon *adaptiveIcon;
-@property(retain) NSMutableArray *aeArray; // @synthesize aeArray=_aeArray;
-@property _Bool alwaysShowOptions;
-@property(retain) NSByteCountFormatter *byteCountFormatter; // @synthesize byteCountFormatter=_byteCountFormatter;
-@property(readonly) NSString *defaultAppName;
-@property _Bool determiningStatus;
-@property(readonly) NSString *displayName;
-@property(readonly) NSImage *icon;
-@property(retain, setter=setInfoButtonLabel:) NSString *infoButtonLabel;
-@property(readonly) _Bool isPrimary; // @synthesize isPrimary=_isPrimary;
-@property _Bool itemEnabled;
-@property _Bool optionsButtonEnabled;
 @property(retain) NSWindow *parentWindow;
-@property(retain) NSString *progressString;
-@property(readonly, copy) NSString *serviceID;
-@property long long statusCode;
-@property(retain) NSString *statusString;
-@property(copy) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
-@property _Bool upgradeLabelShown; // @synthesize upgradeLabelShown=_upgradeLabelShown;
 
 @end
 

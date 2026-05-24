@@ -13,10 +13,10 @@
     id <NSCopying> value;
 }
 
-- (void);
+- (void)setImageRenderJobUseSurfaceRenderer:(id)arg1;
 - (id);
-- (id);
-- (void);
+- (id)enum_kMDItemPhotosDescription_norm_match_count_prefix;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) id <NSCopying> value; // @synthesize value;

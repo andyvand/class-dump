@@ -9,17 +9,15 @@
 @interface ABPersistentStoreCoordinatorUpdater
 {
     ABPersistentStoreCoordinatorMap *_coordinatorMap;
-    _Bool _readOnly;
-    _Bool _isPristine;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (_Bool);

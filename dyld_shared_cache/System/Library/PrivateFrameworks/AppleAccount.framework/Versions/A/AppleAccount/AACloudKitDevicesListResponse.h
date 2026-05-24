@@ -11,23 +11,17 @@
 @interface AACloudKitDevicesListResponse : AAResponse
 {
     NSArray *_incompatibleDevices;
-    NSArray *_needUpgradeDevices;
-    NSArray *_incompatibleDeviceNames;
-    NSArray *_needUpgradeDeviceNames;
 }
 
+- (id)rned error:%ld (%s) domain = %s /* Error: Ran out of types for this method. */;
+- (id)tion mcxUsr_cloudconfiguration returned error:%ld (%s) domain = %s /* Error: Ran out of types for this method. */;
 - (id);
+- (id)alloc removing notification observer;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)sURL;
+- (void)getFamilyDetailsURL;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *incompatibleDeviceNames; // @synthesize incompatibleDeviceNames=_incompatibleDeviceNames;
 @property(readonly, nonatomic) NSArray *incompatibleDevices; // @synthesize incompatibleDevices=_incompatibleDevices;
-@property(readonly, nonatomic) NSArray *needUpgradeDeviceNames; // @synthesize needUpgradeDeviceNames=_needUpgradeDeviceNames;
-@property(readonly, nonatomic) NSArray *needUpgradeDevices; // @synthesize needUpgradeDevices=_needUpgradeDevices;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface CKHistoricEvent
 {
     void identifier;
-    id _firstSeen;
-    id _lastSeen;
-    id _frequency;
-    id _lastDuration;
-    id _totalDuration;
-    id _metadata;
 }
 
 + (_Bool);
@@ -34,13 +28,7 @@
 - (long long)d asset path for locale (%@) %@;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *firstSeen;
-@property(nonatomic, readonly) long long frequency;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) double lastDuration;
-@property(nonatomic, readonly) NSDate *lastSeen;
-@property(nonatomic, readonly) NSDictionary *metadata;
-@property(nonatomic, readonly) double totalDuration;
 
 @end
 

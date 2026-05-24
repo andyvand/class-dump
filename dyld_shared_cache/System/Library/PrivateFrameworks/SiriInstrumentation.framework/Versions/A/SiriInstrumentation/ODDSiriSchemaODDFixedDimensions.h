@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface ODDSiriSchemaODDFixedDimensions : SISchemaInstrumentationMessage
 {
     NSString *_deviceType;
-    int _programCode;
-    CDStruct_d31a5c96 _has;
-    _Bool _hasDeviceType;
 }
 
 - (void);
@@ -29,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id)r;
 - (id)startedOrChanged;
@@ -39,10 +36,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) _Bool hasDeviceType; // @synthesize hasDeviceType=_hasDeviceType;
-@property(nonatomic) _Bool hasProgramCode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int programCode; // @synthesize programCode=_programCode;
 
 @end
 

@@ -11,13 +11,12 @@
 @interface CKWatchfaceImageBalloonView : CKLinkBalloonView
 {
     _Bool _isIrisAsset;
-    LPLinkMetadata *_metadata;
 }
 
-- (_Bool);
+- (_Bool),N,V_filterPastedAttributes;
 - (void);
 - (void);
-- (void);
+- (void)*%@** was added to the note;
 - (void);
 - (void);
 - (id);

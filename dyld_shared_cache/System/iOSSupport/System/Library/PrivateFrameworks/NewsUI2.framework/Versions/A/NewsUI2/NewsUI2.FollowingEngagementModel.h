@@ -7,8 +7,6 @@
 @interface NewsUI2.FollowingEngagementModel
 {
     id banner;
-    id title;
-    id allowsUserInteraction;
 }
 
 @end

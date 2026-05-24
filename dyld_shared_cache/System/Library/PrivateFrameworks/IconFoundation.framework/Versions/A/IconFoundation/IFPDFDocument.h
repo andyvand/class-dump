@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface IFPDFDocument
 {
     struct CGPDFDocument *_pdfDocument;
-    NSURL *_url;
 }
 
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (struct CGPDFDocument *);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long)ù
 × ;
 
 // Remaining properties
-@property(readonly) unsigned long long numberOfPages;
 @property struct CGPDFDocument *pdfDocument; // @synthesize pdfDocument=_pdfDocument;
-@property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end
 

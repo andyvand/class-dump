@@ -7,11 +7,6 @@
 @interface ChatKit.CKCatchUpButtonManager.Animator
 {
     id _shouldAnimateIn;
-    id _shouldAnimateOut;
-    id _defaultAnimationValues;
-    id _finalAnimationValues;
-    id _completion;
-    id _$observationRegistrar;
 }
 
 @end

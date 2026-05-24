@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface FLOWSchemaFLOWLanguageConfidenceMatrix : SISchemaInstrumentationMessage
 {
@@ -15,17 +15,17 @@
 
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)!d;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)text";
 - (id)ontext",&,N,V_userEditExperimentContext;
@@ -33,7 +33,6 @@
 - (void)Kç$;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *languageConfidenceArrays; // @synthesize languageConfidenceArrays=_languageConfidenceArrays;
 
 @end

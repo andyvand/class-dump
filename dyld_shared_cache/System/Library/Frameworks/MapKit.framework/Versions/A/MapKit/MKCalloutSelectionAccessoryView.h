@@ -6,21 +6,10 @@
 
 #import <MapKit/MKSelectionAccessoryView.h>
 
-@class CAShapeLayer, NSColor, NSLayoutConstraint, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MKCalloutSelectionAccessoryView : MKSelectionAccessoryView
 {
     MKSelectionAccessoryView *_wrappedView;
-    CAShapeLayer *_shadowLayer;
-    NSLayoutConstraint *_wrappedViewWidthConstraint;
-    NSLayoutConstraint *_wrappedViewHeightConstraint;
-    NSLayoutConstraint *_wrappedViewMaxHeightConstraint;
-    double _pointerUnitLocation;
-    NSColor *_fillColor;
-    NSColor *_borderColor;
-    long long _calloutStyle;
-    long long _pointerEdge;
 }
 
 + (double);
@@ -34,23 +23,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)_mainStore;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void)EntryPoint: /* Error: Ran out of types for this method. */;
+- (void)enterLookAroundWithEntryPoint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long calloutStyle; // @synthesize calloutStyle=_calloutStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long pointerEdge; // @synthesize pointerEdge=_pointerEdge;
-@property(readonly) Class superclass;
 
 @end
 

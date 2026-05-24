@@ -7,8 +7,6 @@
 @interface NewsFeed.FeaturePromotionResolvedDataSourceContext
 {
     id filterContext;
-    id host;
-    id hostTags;
 }
 
 @end

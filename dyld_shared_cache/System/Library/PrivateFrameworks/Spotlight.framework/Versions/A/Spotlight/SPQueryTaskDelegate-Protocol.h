@@ -5,5 +5,8 @@
 //
 
 @protocol SPQueryTaskDelegate
+
+@optional
+- (void);
 @end
 

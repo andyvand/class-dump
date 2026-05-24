@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface EARSpeechModelInfo
 {
     NSString *_version;
-    NSSet *_samplingRates;
-    NSSet *_tasks;
-    NSString *_language;
-    NSString *_phoneSetVersion;
-    NSString *_acousticProfileVersion;
-    NSString *_acousticModelVersion;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,16 +22,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)window:startCustomAnimationToEnterFullScreenOnScreen:withDuration: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *acousticModelVersion; // @synthesize acousticModelVersion=_acousticModelVersion;
-@property(readonly, nonatomic) NSString *acousticProfileVersion; // @synthesize acousticProfileVersion=_acousticProfileVersion;
-@property(readonly, nonatomic) NSString *language; // @synthesize language=_language;
-@property(readonly, nonatomic) NSString *phoneSetVersion; // @synthesize phoneSetVersion=_phoneSetVersion;
-@property(readonly, nonatomic) NSSet *samplingRates; // @synthesize samplingRates=_samplingRates;
-@property(readonly, nonatomic) NSSet *tasks; // @synthesize tasks=_tasks;
 @property(readonly, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

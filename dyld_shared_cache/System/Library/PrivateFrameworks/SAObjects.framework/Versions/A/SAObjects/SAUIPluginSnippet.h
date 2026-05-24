@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SAUIPluginSnippet : SAUISnippet
 {
@@ -15,7 +15,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleName;
-@property(copy, nonatomic) NSData *modelData;
-@property(copy, nonatomic) NSString *responseViewId;
 @end
 

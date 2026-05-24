@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface PHPersonAvailability
 {
     NSArray *_requestedDetectionTypes;
-    unsigned long long _availablePersonCount;
-    unsigned long long _mdIDCount;
-    unsigned long long _keyFaceCount;
-    unsigned long long _keyFaceWithVUObservationIDCount;
-    unsigned long long _nonzeroFaceCropsCount;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -33,12 +28,6 @@
 
 // Remaining properties
 @property unsigned long long availablePersonCount; // @synthesize availablePersonCount=_availablePersonCount;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property unsigned long long keyFaceCount; // @synthesize keyFaceCount=_keyFaceCount;
-@property unsigned long long keyFaceWithVUObservationIDCount; // @synthesize keyFaceWithVUObservationIDCount=_keyFaceWithVUObservationIDCount;
-@property unsigned long long mdIDCount; // @synthesize mdIDCount=_mdIDCount;
-@property unsigned long long nonzeroFaceCropsCount; // @synthesize nonzeroFaceCropsCount=_nonzeroFaceCropsCount;
-@property(readonly) NSArray *requestedDetectionTypes; // @synthesize requestedDetectionTypes=_requestedDetectionTypes;
 
 @end
 

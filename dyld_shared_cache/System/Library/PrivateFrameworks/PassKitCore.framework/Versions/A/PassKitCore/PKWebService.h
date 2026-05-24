@@ -4,32 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSMutableArray, NSMutableDictionary, NSObject, NSOperationQueue, NSSet, NSString, NSURLSession, NSURLSessionConfiguration;
-@protocol OS_dispatch_queue, PKTapToRadarDelegate;
+@class ACAccountStore, NSURLSessionConfiguration;
 
 @interface PKWebService
 {
     ACAccountStore *_accountStore;
-    unsigned long long _taskIDCounter;
-    NSString *_webServiceSessionMarker;
-    NSOperationQueue *_delegateOperationQueue;
-    NSMutableDictionary *_webServiceTasks;
-    NSMutableDictionary *_diagnosticReasonsByTaskID;
-    NSMutableDictionary *_tasksMetadata;
-    NSMutableArray *_diagnosticReasons;
-    NSURLSession *_urlSession;
-    NSObject<OS_dispatch_queue> *_diagnosticReasonsQueue;
-    struct os_unfair_lock_s _stateLock;
-    NSObject<OS_dispatch_queue> *_sessionQueue;
-    NSSet *_sensitiveKeys;
-    id <PKTapToRadarDelegate> _tapToRadarDelegate;
 }
 
 + (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id));
+- (void)Q;
+- (void)I;
+- (void)D;
 - (void);
 - (void);
 - (void);
@@ -45,7 +31,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -55,36 +41,27 @@
 × ;
 - (id);
 - (id)2@0:8@"NSData"16@?<v@?B@"NSError">24 /* Error: Ran out of types for this method. */;
-- (void)ceAccount:(id)arg1;
-- (void)ctionOnResume:(id)arg1;
+- (void)verifyAppleBalanceAccount:(id)arg1;
+- (void)setForceConnectionOnResume:(id)arg1;
 - (unsigned long long)setAddressLine1: /* Error: Ran out of types for this method. */;
 - (void)originalInvitation;
-- (_Bool)tifier:feature: /* Error: Ran out of types for this method. */;
-- (void)essionDidFail:(id)arg1 forPaymentApplication:(id)arg2 paymentPass:(CDUnknownBlockType)arg3 valueAddedServicePasses: /* Error: Ran out of types for this method. */;
-- (id)data:(id)arg1 fromPushTopic: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithAccountIdentifier:feature: /* Error: Ran out of types for this method. */;
+- (void)contactlessInterfaceSessionDidFail:(id)arg1 forPaymentApplication:(id)arg2 paymentPass:(CDUnknownBlockType)arg3 valueAddedServicePasses: /* Error: Ran out of types for this method. */;
+- (id)_handlePassListDownloadTask:(id)arg1 data:fromPushTopic: /* Error: Ran out of types for this method. */;
 - (void)edImageSet",R,N;
 - (void)alNumber",C,N,V_minimumReceiveAmount;
-- (void)sioningCarKeyStepFindSource;
+- (void)_TtC11PassKitCore32ProvisioningCarKeyStepFindSource;
 - (id)¨:(id)arg1 ä;`>l?CDE4F¸G;
 - (void)DefaultBehavior (%p):(id)arg1 ignoring transaction end....;
 - (void)able to validate signature with error:(id)arg1 %@;
 - (void)e(VPAN) updateDateLastUsedBySafari:forVirtualCard:completion:] /* Error: Ran out of types for this method. */;
 - (void)sk-fire;
-- (void)LiveMessage;
-- (void)ocation;
-- (id)sUnserviceable;
+- (void)eventLiveMessage;
+- (void)location;
+- (id)addressUnserviceable;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSURLSessionConfiguration *sessionConfiguration;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <PKTapToRadarDelegate> tapToRadarDelegate; // @synthesize tapToRadarDelegate=_tapToRadarDelegate;
-@property(readonly, nonatomic) NSString *webServiceSessionMarker;
 
 @end
 

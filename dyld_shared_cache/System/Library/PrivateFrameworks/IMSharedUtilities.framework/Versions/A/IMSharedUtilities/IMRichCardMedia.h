@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface IMRichCardMedia
 {
     void mediaUrl;
-    void mediaContentType;
-    NSNumber *mediaFileSize;
-    void thumbnailUrl;
-    void thumbnailContentType;
-    NSNumber *thumbnailFileSize;
-    long long height;
-    void contentDescription;
 }
 
 - (id);
@@ -23,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
+- (id)h;
+- (id)app.preparetransactions;
 - (long long);
 - (long long);
 - (_Bool);
@@ -35,15 +28,7 @@
 - (id)7;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *contentDescription;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) long long height; // @synthesize height;
-@property(nonatomic, readonly) NSString *mediaContentType;
-@property(nonatomic, readonly) NSNumber *mediaFileSize; // @synthesize mediaFileSize;
 @property(nonatomic, readonly) NSString *mediaUrl;
-@property(nonatomic, readonly) NSString *thumbnailContentType;
-@property(nonatomic, readonly) NSNumber *thumbnailFileSize; // @synthesize thumbnailFileSize;
-@property(nonatomic, readonly) NSString *thumbnailUrl;
 
 @end
 

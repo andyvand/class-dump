@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol AMSBagProtocol;
 
 @interface AMSODISession
 {
     unsigned long long _accountType;
-    NSString *_bundleIdentifier;
-    NSString *_cacheIdentifier;
-    NSString *_sessionIdentifier;
-    id <AMSBagProtocol> _bag;
 }
 
 + (id);
@@ -32,11 +27,7 @@
 ·ÚG:(id)arg1 Ïí%¥hÉ!÷pm}­ÎréÿO¿5¡OQÖ»îmDJÑ1C¨6´s÷o{ÌêÅ CÞqhÚßOëZK#JOêëñaLz9föwç¤õ$ëÝ*&¿£9½äÀIèUî¾K©7gV¹í£s¥`|H­eöífekIXoY%g½ªáÊù«;
 
 // Remaining properties
-@property(readonly) unsigned long long accountType; // @synthesize accountType=_accountType;
 @property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *cacheIdentifier; // @synthesize cacheIdentifier=_cacheIdentifier;
-@property(readonly, copy) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end
 

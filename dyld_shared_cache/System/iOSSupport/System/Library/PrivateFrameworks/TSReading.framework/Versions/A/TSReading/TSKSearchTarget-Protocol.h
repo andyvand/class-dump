@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol TSKSearchTarget
+
+@optional
+- (void)ved for current item:(NSString *)arg1;
+- (void)ime jump [;
+- (void)AVPlayerItemTimeJumpedReasonKey;
+- (NSArray *);
+- (NSArray *)UserEventCompletionStateHandling;
 @end
 

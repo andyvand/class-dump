@@ -9,8 +9,6 @@
 @interface TSDPointPathSource : TSDPathSource
 {
     int mType;
-    struct CGPoint mPoint;
-    struct CGSize mNaturalSize;
 }
 
 + (id);
@@ -19,26 +17,26 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)setQueue [;
 - (void);
 - (struct CGSize);
+- (void)PlayerPeriodicObservationConfiguration;
+- (void)Observations;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)PlayerObserver;
 - (struct CGPath *);
+- (struct CGPath *)TimeType;
 - (struct CGPath *);
+- (_Bool);
+- (_Bool)-	;
+- (struct CGPoint);
+- (struct CGPoint);
+- (struct CGPoint)_Context;
+- (struct CGPoint);
+- (unsigned long long)MPCPlaybackEngineEventVideoRenderingMode;
 - (struct CGPath *);
-- (_Bool);
-- (_Bool);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (unsigned long long);
-- (struct CGPath *);
-- (long long);
-- (id);
+- (long long)ramework/AssistantServices;
+- (id)/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices;
 - (struct CGPoint);
 - (struct CGPoint);
 - (id);
@@ -47,24 +45,21 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (_Bool);
+- (id);
+- (unsigned long long);
 - (void);
 - (int);
 - (_Bool);
 - (id);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)";
 - (void);
 - (struct CGSize);
 
 // Remaining properties
-@property struct CGSize naturalSize; // @synthesize naturalSize=mNaturalSize;
-@property(readonly) unsigned long long numberOfControlKnobs;
-@property struct CGPoint point; // @synthesize point=mPoint;
 @property int type; // @synthesize type=mType;
 
 @end

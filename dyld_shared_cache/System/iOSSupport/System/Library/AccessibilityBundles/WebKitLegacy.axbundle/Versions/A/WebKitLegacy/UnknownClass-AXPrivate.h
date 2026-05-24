@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (AXPrivate)
-- (struct __CFDictionary *);
+- (struct __CFDictionary *)BorderlessTintedButtonStyle;
 @end
 

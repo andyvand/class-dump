@@ -7,12 +7,6 @@
 @interface PGMemoryMomentRequirements
 {
     _Bool _filterUninterestingWithAlternateJunking;
-    _Bool _filterUninterestingForMemories;
-    _Bool _filterMomentsWithNotEnoughScenesProcessed;
-    unsigned long long _minimumNumberOfRelevantAssets;
-    unsigned long long _minimumNumberOfAssetsInExtendedCuration;
-    double _aboveContentScoreThreshold;
-    unsigned long long _minimumNumberOfPersons;
 }
 
 - (void);
@@ -21,23 +15,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)meworks/QuartzCore.framework/Versions/A/QuartzCore;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_inputMarkingSessionEndPosition;
+- (_Bool)ge",&,N,V_inputMarkingSessionRange;
+- (_Bool)extPosition",&,N,V_currentPosition;
 - (double);
 
 // Remaining properties
-@property(nonatomic) double aboveContentScoreThreshold; // @synthesize aboveContentScoreThreshold=_aboveContentScoreThreshold;
-@property(nonatomic) _Bool filterMomentsWithNotEnoughScenesProcessed; // @synthesize filterMomentsWithNotEnoughScenesProcessed=_filterMomentsWithNotEnoughScenesProcessed;
-@property(nonatomic) _Bool filterUninterestingForMemories; // @synthesize filterUninterestingForMemories=_filterUninterestingForMemories;
 @property(nonatomic) _Bool filterUninterestingWithAlternateJunking; // @synthesize filterUninterestingWithAlternateJunking=_filterUninterestingWithAlternateJunking;
-@property(nonatomic) unsigned long long minimumNumberOfAssetsInExtendedCuration; // @synthesize minimumNumberOfAssetsInExtendedCuration=_minimumNumberOfAssetsInExtendedCuration;
-@property(nonatomic) unsigned long long minimumNumberOfPersons; // @synthesize minimumNumberOfPersons=_minimumNumberOfPersons;
-@property(nonatomic) unsigned long long minimumNumberOfRelevantAssets; // @synthesize minimumNumberOfRelevantAssets=_minimumNumberOfRelevantAssets;
 
 @end
 

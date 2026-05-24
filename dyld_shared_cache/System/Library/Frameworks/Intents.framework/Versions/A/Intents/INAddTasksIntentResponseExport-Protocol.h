@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INTaskList, NSArray;
-
 @protocol INAddTasksIntentResponseExport
+- (void);
 - (long long)getTitle:forIntent:languageCode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSArray *addedTasks;
 @property(readonly) long long code;
-@property(copy) INTaskList *modifiedTaskList;
-@property unsigned long long warnings;
 @end
 

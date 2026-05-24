@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, _PASLazyPurgeableResult;
+@class NSDate;
 
 @interface SGMessageEventDissectorGuardedData
 {
     NSDate *_lastWindowStartTime;
-    NSNumber *_currentAllowedMessageCount;
-    _PASLazyPurgeableResult *_eventClassifierModel;
 }
 
 - (void)\d°£h¤ø¤;

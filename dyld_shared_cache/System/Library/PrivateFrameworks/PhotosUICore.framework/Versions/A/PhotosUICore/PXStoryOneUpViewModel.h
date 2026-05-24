@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXAssetReference, PXAssetsDataSourceManager, PXStoryResourcesDataSourceManager, PXUIMediaProvider, PXUpdater;
-@protocol PXStoryClipSpriteReferencesProvider, PXStoryTimeline;
+@class PXUpdater;
 
 @interface PXStoryOneUpViewModel
 {
     struct {
         _Bool spriteReferenceForClipWithIdentifier;
     } _spriteReferencesProviderRespondsTo;
-    PXStoryResourcesDataSourceManager *_resourcesDataSourceManager;
-    PXUIMediaProvider *_mediaProvider;
-    PXAssetsDataSourceManager *_assetsDataSourceManager;
-    PXAssetReference *_initialAssetReference;
-    id <PXStoryTimeline> _timeline;
-    long long _initialClipIdentifier;
-    long long _visibleClipIdentifier;
-    long long _hiddenClipIdentifier;
-    PXUpdater *_updater;
-    id <PXStoryClipSpriteReferencesProvider> _spriteReferencesProvider;
-    PXAssetReference *_visibleAssetReference;
-    PXAssetReference *_hiddenAssetReference;
 }
 
 - (long long);
@@ -41,7 +28,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
@@ -55,10 +42,18 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)drawableAttachment:withLayout:shouldPositionIterativelyInColumn: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
+- (void)main() 
+		{ 
+			lowp vec4 color = coeffs[0] * SampleTexture0; 
+			mediump vec2 ds = sStep; 
+			for(int i = 1; i < 6; i++, ds += sStep) 
+				color += coeffs[i] * (_texture2D(_textureUnit0, vTextureCoordinates0 + ds) + _texture2D(_textureUnit0, vTextureCoordinates0 - ds)); 
+			gl_FragColor = uColor * color; 
+		} 
+		;
 - (id);
 - (id)state;
 - (void)t.m;
@@ -67,26 +62,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PXAssetsDataSourceManager *assetsDataSourceManager; // @synthesize assetsDataSourceManager=_assetsDataSourceManager;
-@property(readonly, nonatomic) _Bool canPresentOneUp;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PXAssetReference *hiddenAssetReference; // @synthesize hiddenAssetReference=_hiddenAssetReference;
-@property(readonly, nonatomic) long long hiddenClipIdentifier; // @synthesize hiddenClipIdentifier=_hiddenClipIdentifier;
-@property(retain, nonatomic) PXAssetReference *initialAssetReference; // @synthesize initialAssetReference=_initialAssetReference;
-@property(readonly, nonatomic) long long initialClipIdentifier; // @synthesize initialClipIdentifier=_initialClipIdentifier;
-@property(readonly, nonatomic) PXUIMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(readonly, nonatomic) PXStoryResourcesDataSourceManager *resourcesDataSourceManager; // @synthesize resourcesDataSourceManager=_resourcesDataSourceManager;
-@property(nonatomic) __weak id <PXStoryClipSpriteReferencesProvider> spriteReferencesProvider; // @synthesize spriteReferencesProvider=_spriteReferencesProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PXStoryTimeline> timeline; // @synthesize timeline=_timeline;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(retain, nonatomic) PXAssetReference *visibleAssetReference; // @synthesize visibleAssetReference=_visibleAssetReference;
-@property(readonly, nonatomic) long long visibleClipIdentifier; // @synthesize visibleClipIdentifier=_visibleClipIdentifier;
 
 @end
 

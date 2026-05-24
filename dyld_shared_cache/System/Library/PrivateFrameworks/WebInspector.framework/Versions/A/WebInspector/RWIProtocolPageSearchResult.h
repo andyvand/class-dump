@@ -18,14 +18,11 @@
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *frameId;
-@property(nonatomic) double matchesCount;
-@property(copy, nonatomic) NSString *requestId;
 @property(copy, nonatomic) NSString *url;
 
 @end

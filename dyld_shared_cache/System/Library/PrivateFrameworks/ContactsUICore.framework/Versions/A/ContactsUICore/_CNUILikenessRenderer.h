@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CNSchedulerProvider, CNUIPRLikenessResolver;
+@protocol CNUIPRLikenessResolver;
 
 @interface _CNUILikenessRenderer
 {
     unsigned long long _lookupOptions;
-    id <CNUIPRLikenessResolver> _likenessResolver;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
 + (id);
 + (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *)q;
 + (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)k;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -38,16 +35,7 @@
 - (void)tcher>";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <CNUIPRLikenessResolver> likenessResolver; // @synthesize likenessResolver=_likenessResolver;
-@property(nonatomic) unsigned long long lookupOptions; // @synthesize lookupOptions=_lookupOptions;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
 
 @end
 

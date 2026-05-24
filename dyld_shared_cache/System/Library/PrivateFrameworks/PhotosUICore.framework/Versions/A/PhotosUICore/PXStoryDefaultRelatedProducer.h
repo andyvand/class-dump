@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXStoryDefaultRelatedProducer
 {
     unsigned long long _targetUpNextCount;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableArray *_activeRequests;
 }
 
 + (id);
@@ -20,12 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)v";
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *activeRequests; // @synthesize activeRequests=_activeRequests;
-@property(readonly, nonatomic) unsigned long long targetUpNextCount; // @synthesize targetUpNextCount=_targetUpNextCount;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

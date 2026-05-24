@@ -14,7 +14,7 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)displayName;
 
 // Remaining properties
 @property(readonly, nonatomic) long long algorithm; // @synthesize algorithm=_algorithm;

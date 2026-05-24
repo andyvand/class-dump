@@ -4,59 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPFeedbackTransitLine
 {
     PBDataReader *_reader;
-    NSString *_transitLineMuid;
-    NSString *_transitLineName;
-    NSString *_transitSystemName;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_transitLineMuid:1;
-        unsigned int read_transitLineName:1;
-        unsigned int read_transitSystemName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)etLanguages:(id)arg1;
-- (id);
++ (_Bool)setLanguages:(id)arg1;
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)supportsMultiPhraseVoiceTriggerForEngineVersion:engineMinorVersion:accessoryRTModelType:completion: /* Error: Ran out of types for this method. */;
+- (void)CSVoiceTriggerSecondPass;
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)ous"b1"read_rangeDiscrete"b1"wrote_anyField"b1};
-- (id)ETAFromAPI:includeSummary:WithResponseHandler: /* Error: Ran out of types for this method. */;
+- (id)calculateETAFromAPI:includeSummary:WithResponseHandler: /* Error: Ran out of types for this method. */;
 - (id)ü	;
 - (id)CELLULAR_COVERAGE_AVAILABLE;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTransitLineMuid;
-@property(readonly, nonatomic) _Bool hasTransitLineName;
-@property(readonly, nonatomic) _Bool hasTransitSystemName;
-@property(retain, nonatomic) NSString *transitLineMuid;
-@property(retain, nonatomic) NSString *transitLineName;
-@property(retain, nonatomic) NSString *transitSystemName;
 
 @end
 

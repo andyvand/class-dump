@@ -4,34 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol CLFindMyAccessoryRangingManagerDelegate, OS_dispatch_queue;
+@protocol CLFindMyAccessoryRangingManagerDelegate;
 
 @interface CLFindMyAccessoryRangingManager
 {
     id <CLFindMyAccessoryRangingManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    struct unique_ptr<CLConnectionClient, std::default_delete<CLConnectionClient>> _connection;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)[;
+- (void)~Y;
 - (void);
 - (void);
+- (void)RE;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void).;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)sults:traits: /* Error: Ran out of types for this method. */;
+- (void)utex="__m_"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}};
+- (void)_cl_ticketForForwardGeocodeAddressDictionary:maxResults:traits: /* Error: Ran out of types for this method. */;
 - (id)	;
 
 // Remaining properties

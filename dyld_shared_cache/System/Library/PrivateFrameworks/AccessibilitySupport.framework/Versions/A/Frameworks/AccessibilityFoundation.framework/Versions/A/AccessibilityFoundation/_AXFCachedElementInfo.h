@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSValue;
-
 __attribute__((visibility("hidden")))
 @interface _AXFCachedElementInfo
 {
     _Bool _isOffscreen;
-    _Bool _isContainer;
-    NSValue *_frame;
-    _AXFCachedElementInfo *_container;
 }
 
 - (_Bool);
-- (void);
+- (void)!;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)irectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Pipeline/NURenderSourceNode+RAW.m;
 - (id);
-- (void);
-- (void)onnection;
+- (void)@"NSNumber",&,N,S_setBackCameraCaptureTime:,V_backCameraCaptureTime /* Error: Ran out of types for this method. */;
+- (void)_wsConnection;
 
 // Remaining properties
-@property(nonatomic) __weak _AXFCachedElementInfo *container; // @synthesize container=_container;
-@property(retain, nonatomic) NSValue *frame; // @synthesize frame=_frame;
-@property(nonatomic) _Bool isContainer; // @synthesize isContainer=_isContainer;
 @property(nonatomic) _Bool isOffscreen; // @synthesize isOffscreen=_isOffscreen;
 
 @end

@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFVASRequest, NSData, NSNumber;
+@class NFVASRequest;
 
 @interface NFVASResponse
 {
     NFVASRequest *_request;
-    NSData *_token;
-    NSData *_vasData;
-    NSNumber *_statusCode;
-    NSNumber *_mobileCapabilities;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)@?0@"CNInstantMessageAddress"8;
+- (void)givenName;
+- (_Bool)iPhone;
+- (id)ring *getCNPostalAddressSubAdministrativeAreaKey(void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
+- (void)gs found;
 - (id)];
 - (void)nvoke;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *mobileCapabilities; // @synthesize mobileCapabilities=_mobileCapabilities;
-@property(readonly, nonatomic) _Bool paymentSupported;
 @property(retain, nonatomic) NFVASRequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSNumber *statusCode; // @synthesize statusCode=_statusCode;
-@property(retain, nonatomic) NSData *token; // @synthesize token=_token;
-@property(retain, nonatomic) NSData *vasData; // @synthesize vasData=_vasData;
 
 @end
 

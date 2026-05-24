@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice, AVCaptureDeviceInputSource, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureDeviceInputSourceItem
 {
     _Bool _builtIn;
-    AVCaptureDevice *_captureDevice;
-    AVCaptureDeviceInputSource *_inputSource;
-    NSString *_mediaType;
-    unsigned long long _type;
-    AVCaptureDeviceInputSourceItem *_associatedAudioCaptureDeviceInputSourceItem;
 }
 
 + (_Bool);
@@ -23,24 +18,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)Or;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)�;
 - (void);
 - (_Bool)ntainerView, trimView;
 
 // Remaining properties
-@property(retain) AVCaptureDeviceInputSourceItem *associatedAudioCaptureDeviceInputSourceItem; // @synthesize associatedAudioCaptureDeviceInputSourceItem=_associatedAudioCaptureDeviceInputSourceItem;
-@property(readonly, getter=isBuiltIn) _Bool builtIn; // @synthesize builtIn=_builtIn;
-@property(readonly) AVCaptureDevice *captureDevice; // @synthesize captureDevice=_captureDevice;
-@property(readonly) AVCaptureDeviceInputSource *inputSource; // @synthesize inputSource=_inputSource;
 @property(readonly, copy) NSString *localizedDisplayName;
-@property(readonly) NSString *mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly) unsigned long long type; // @synthesize type=_type;
 
 @end
 

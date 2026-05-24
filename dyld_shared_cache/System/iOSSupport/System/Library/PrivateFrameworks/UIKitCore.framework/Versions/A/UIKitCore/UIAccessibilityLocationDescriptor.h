@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIView;
+@class UIView;
 
 @interface UIAccessibilityLocationDescriptor
 {
     UIView *_view;
-    NSAttributedString *_attributedName;
-    struct CGPoint _point;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedName; // @synthesize attributedName=_attributedName;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) struct CGPoint point; // @synthesize point=_point;
 @property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 @end
 

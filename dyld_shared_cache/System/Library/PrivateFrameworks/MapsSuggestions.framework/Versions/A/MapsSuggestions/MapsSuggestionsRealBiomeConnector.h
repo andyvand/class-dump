@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMBiomeScheduler, BPSSink, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface MapsSuggestionsRealBiomeConnector
 {
     NSObject<OS_dispatch_queue> *_queue;
-    double _lookbackDuration;
-    long long _maxEvents;
-    _Bool _registerForSmartRepliesUpdates;
-    BMBiomeScheduler *_smartRepliesScheduler;
-    BPSSink *_smartRepliesSink;
-    CDUnknownBlockType _smartRepliesUpdateHandler;
-    _Bool _registerForFindMyUpdates;
-    BMBiomeScheduler *_findMyScheduler;
-    BPSSink *_findMySink;
-    CDUnknownBlockType _findMyUpdateHandler;
-    NSString *uniqueName;
 }
 
 - (void);
@@ -34,13 +23,6 @@
 - (void)me"d"triggers"@"NSMutableArray""conditions"@"NSMutableArray""filters"@"NSMutableSet""maxEntries"Q"nilledWhenAsleep"B};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName; // @synthesize uniqueName;
 
 @end

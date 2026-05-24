@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
-@protocol MapsSuggestionsFullResourceDepot, MapsSuggestionsLocationUpdater, MapsSuggestionsStrategy;
+@protocol MapsSuggestionsStrategy;
 
 @interface MapsSuggestionsEngineBuilder
 {
     _Bool _hasTracker;
-    id <MapsSuggestionsFullResourceDepot> _resourceDepot;
-    id <MapsSuggestionsStrategy> _strategy;
-    id <MapsSuggestionsLocationUpdater> _locationUpdater;
-    NSMutableArray *_sourceClasses;
-    NSMutableSet *_includePreFilters;
-    NSMutableSet *_includePostFilters;
-    NSMutableArray *_includeImprovers;
-    NSMutableArray *_includeDedupers;
-    NSMutableSet *_excludePreFilters;
-    NSMutableSet *_excludePostFilters;
-    NSMutableArray *_excludeImprovers;
-    NSMutableArray *_excludeDedupers;
-    NSMutableDictionary *_titleFormatters;
 }
 
 + (id);
@@ -34,18 +20,18 @@
 - (id);
 - (void);
 - (id);
+- (id)p^;
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -74,28 +60,7 @@
 - (void)Request"16@"GEODirectionsResponse"24@"NSError"32@"GEODirectionsError"40;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *excludeDedupers; // @synthesize excludeDedupers=_excludeDedupers;
-@property(retain, nonatomic) NSMutableArray *excludeImprovers; // @synthesize excludeImprovers=_excludeImprovers;
-@property(retain, nonatomic) NSMutableSet *excludePostFilters; // @synthesize excludePostFilters=_excludePostFilters;
-@property(retain, nonatomic) NSMutableSet *excludePreFilters; // @synthesize excludePreFilters=_excludePreFilters;
-@property(nonatomic) _Bool hasTracker; // @synthesize hasTracker=_hasTracker;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *includeDedupers; // @synthesize includeDedupers=_includeDedupers;
-@property(retain, nonatomic) NSMutableArray *includeImprovers; // @synthesize includeImprovers=_includeImprovers;
-@property(retain, nonatomic) NSMutableSet *includePostFilters; // @synthesize includePostFilters=_includePostFilters;
-@property(retain, nonatomic) NSMutableSet *includePreFilters; // @synthesize includePreFilters=_includePreFilters;
-@property(retain, nonatomic) id <MapsSuggestionsLocationUpdater> locationUpdater; // @synthesize locationUpdater=_locationUpdater;
-@property(retain, nonatomic) id <MapsSuggestionsFullResourceDepot> resourceDepot; // @synthesize resourceDepot=_resourceDepot;
-@property(retain, nonatomic) NSMutableArray *sourceClasses; // @synthesize sourceClasses=_sourceClasses;
 @property(retain, nonatomic) id <MapsSuggestionsStrategy> strategy; // @synthesize strategy=_strategy;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableDictionary *titleFormatters; // @synthesize titleFormatters=_titleFormatters;
-@property(readonly, nonatomic) NSString *uniqueName;
 
 @end
 

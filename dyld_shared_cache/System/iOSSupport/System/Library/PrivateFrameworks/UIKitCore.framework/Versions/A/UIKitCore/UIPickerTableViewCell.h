@@ -12,16 +12,14 @@ __attribute__((visibility("hidden")))
 @interface UIPickerTableViewCell : UITableViewCell
 {
     UITapGestureRecognizer *_tap;
-    UIPickerTableView *pickerTable;
-    _UIPickerViewStyle *_style;
 }
 
 - (id);
 - (id);
 - (void)
 × ;
-- (void)x:(id)arg1 ofReply: /* Error: Ran out of types for this method. */;
-- (void)windowServerHitTestWindow:(_Bool)arg1;
+- (void)setInterface:(id)arg1 forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (void)_hitTest:(_Bool)arg1 withEvent:(_Bool)arg2 windowServerHitTestWindow: /* Error: Ran out of types for this method. */;
 - (id)¬ÿÿnÍîÿæyïÿÔïÿ;
 - (void);
 - (void)aj;

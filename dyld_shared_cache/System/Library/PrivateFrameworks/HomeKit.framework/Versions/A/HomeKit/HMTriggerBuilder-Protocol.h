@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol HMTriggerBuilder
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionSets;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
 @property(copy, nonatomic) NSString *name;
 @end
 

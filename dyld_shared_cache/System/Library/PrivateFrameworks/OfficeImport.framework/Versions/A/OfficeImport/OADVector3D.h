@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADVector3D
 {
     float mDx;
-    float mDy;
-    float mDz;
 }
 
 - (id);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)4;
 
 @end
 

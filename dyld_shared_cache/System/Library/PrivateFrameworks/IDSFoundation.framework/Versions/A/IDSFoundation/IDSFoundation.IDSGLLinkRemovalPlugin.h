@@ -7,7 +7,6 @@
 @interface IDSFoundation.IDSGLLinkRemovalPlugin
 {
     id name;
-    id weakConnector;
 }
 
 @end

@@ -7,17 +7,10 @@
 @interface TeaUI.SectionViewController
 {
     id dataSource;
-    id delegate;
-    id _selectedSectionIndex;
-    id presentation;
-    id currentSection;
-    id scrollViewProxyManager;
-    id $__lazy_storage_$_sectionsBarButtonItem;
-    id $__lazy_storage_$_sectionsSegmentedControl;
 }
 
-- (void);
-- (id);
+- (void);
+- (id)B;
 - (id);
 - (void);
 - (void);

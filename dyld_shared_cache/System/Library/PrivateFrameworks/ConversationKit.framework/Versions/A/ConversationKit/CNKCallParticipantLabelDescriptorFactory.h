@@ -12,11 +12,11 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
+- (id)r;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)m;
 - (id);
 
 // Remaining properties

@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id)edClipView;
+- (id)_NSBrowserFlippedClipView;
 - (void)Inserting a row at toIndex would split a merged cell and is not allowed.;
 
 // Remaining properties

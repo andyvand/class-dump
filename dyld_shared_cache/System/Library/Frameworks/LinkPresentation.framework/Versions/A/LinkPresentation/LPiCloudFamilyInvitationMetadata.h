@@ -6,59 +6,42 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPiCloudFamilyInvitationMetadata : LPSpecializationMetadata
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_action;
-    NSString *_kind;
-    LPImage *_image;
-    LPImage *_icon;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)V;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)completionHandler;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (void);
+- (void) ;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)dentifier AND domainIdentifier = :domainIdentifier  UNION ALL SELECT sessionId FROM sessionsDomainIds WHERE bundleIdentifier = :bundleIdentifier AND domainIdentifier >= :domainIdentifier || '.' AND domainIdentifier < :domainIdentifier || '/') /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)';
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface SXDataRecordStore
 {
     NSArray *_descriptors;
-    NSArray *_records;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (void)xtStyleFontAttributes>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *descriptors; // @synthesize descriptors=_descriptors;
 @property(readonly, nonatomic) NSArray *records; // @synthesize records=_records;
 
 @end

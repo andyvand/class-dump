@@ -15,7 +15,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)spend.issuer;
 
 // Remaining properties

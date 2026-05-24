@@ -7,28 +7,6 @@
 @interface NSTableViewStyleData
 {
     long long _effectiveStyle;
-    long long _rowSizeStyle;
-    double _rowHeight;
-    double _groupRowHeight;
-    double _headerHeight;
-    struct CGSize _intercellSpacing;
-    double _intergroupSpacing;
-    double _topPadding;
-    double _bottomPadding;
-    _Bool _wantsUniformInsetsForSingleColumn;
-    double _rowContentPadding;
-    double _rowContentInset;
-    double _rowBackgroundInset;
-    double _cornerRadius;
-    long long _selectionMaterial;
-    double _rowActionsGroupSpacing;
-    double _rowActionButtonSpacing;
-    double _rowActionButtonCornerRadius;
-    double _indentationPerLevel;
-    double _disclosureButtonLeadingSpacing;
-    double _disclosureButtonWidth;
-    double _disclosureButtonTrailingSpacing;
-    _Bool _wantsSolariumAppearance;
 }
 
 + (id);
@@ -68,21 +46,33 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (double);
 - (double);
 - (_Bool);
 - (double);
 - (long long);
-- (double);
+- (double)p;
 - (double);
 - (void);
-- (double);
+- (double)L	LL(LII
+IIII)I8IJJ
+JJJJ)J8JKK
+KKKK)K8KLL
+LLLL)L8LMMNNOOPPQQRRSSTTM	MM(MN	NN(NO	OO(OP	PP(PMM
+MMMM)M8MNN
+NNNN)N8NOO
+OOOO)O8OPP
+PPPP)P8PQ	QQ(QR	RR(RS	SS(ST	TT(TQQ
+QQQQ)Q8QRR
+RRRR)R8RSS
+SSSS)S8STT
+TTTT)T8T;
 - (double);
 - (_Bool);
 - (id);
 - (double);
-- (id)r;
+- (id)_updateRectsForPlaceholder;
 - (double);
 - (double)ðÿ;
 - (double)yXlXp;
@@ -90,33 +80,7 @@
 - (void);
 
 // Remaining properties
-@property double bottomPadding; // @synthesize bottomPadding=_bottomPadding;
-@property double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property double disclosureButtonLeadingSpacing; // @synthesize disclosureButtonLeadingSpacing=_disclosureButtonLeadingSpacing;
-@property double disclosureButtonTrailingSpacing; // @synthesize disclosureButtonTrailingSpacing=_disclosureButtonTrailingSpacing;
-@property double disclosureButtonWidth; // @synthesize disclosureButtonWidth=_disclosureButtonWidth;
 @property long long effectiveStyle; // @synthesize effectiveStyle=_effectiveStyle;
-@property double groupRowHeight; // @synthesize groupRowHeight=_groupRowHeight;
-@property(readonly) _Bool hasInsetContent;
-@property(readonly) _Bool hasPaddedContent;
-@property double headerHeight; // @synthesize headerHeight=_headerHeight;
-@property double indentationPerLevel; // @synthesize indentationPerLevel=_indentationPerLevel;
-@property struct CGSize intercellSpacing; // @synthesize intercellSpacing=_intercellSpacing;
-@property double intergroupSpacing; // @synthesize intergroupSpacing=_intergroupSpacing;
-@property(readonly) _Bool isSourceList;
-@property double rowActionButtonCornerRadius; // @synthesize rowActionButtonCornerRadius=_rowActionButtonCornerRadius;
-@property double rowActionButtonSpacing; // @synthesize rowActionButtonSpacing=_rowActionButtonSpacing;
-@property double rowActionsGroupSpacing; // @synthesize rowActionsGroupSpacing=_rowActionsGroupSpacing;
-@property double rowBackgroundInset; // @synthesize rowBackgroundInset=_rowBackgroundInset;
-@property double rowContentInset; // @synthesize rowContentInset=_rowContentInset;
-@property double rowContentPadding; // @synthesize rowContentPadding=_rowContentPadding;
-@property double rowHeight; // @synthesize rowHeight=_rowHeight;
-@property long long rowSizeStyle; // @synthesize rowSizeStyle=_rowSizeStyle;
-@property long long selectionMaterial; // @synthesize selectionMaterial=_selectionMaterial;
-@property(readonly) long long tableViewStyle;
-@property double topPadding; // @synthesize topPadding=_topPadding;
-@property(nonatomic) _Bool wantsSolariumAppearance; // @synthesize wantsSolariumAppearance=_wantsSolariumAppearance;
-@property _Bool wantsUniformInsetsForSingleColumn; // @synthesize wantsUniformInsetsForSingleColumn=_wantsUniformInsetsForSingleColumn;
 
 @end
 

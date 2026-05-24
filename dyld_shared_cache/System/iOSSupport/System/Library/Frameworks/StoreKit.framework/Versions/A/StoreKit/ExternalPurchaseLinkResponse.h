@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface ExternalPurchaseLinkResponse
 {
     NSURL *_single;
-    NSArray *_multi;
 }
 
 + (_Bool);
@@ -19,10 +18,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)`;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *multi; // @synthesize multi=_multi;
 @property(readonly, nonatomic) NSURL *single; // @synthesize single=_single;
 
 @end

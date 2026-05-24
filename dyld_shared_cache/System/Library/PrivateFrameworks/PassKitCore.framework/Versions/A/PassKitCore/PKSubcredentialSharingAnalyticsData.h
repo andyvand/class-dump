@@ -9,7 +9,6 @@
 @interface PKSubcredentialSharingAnalyticsData
 {
     NSString *_sharerKeyIdentifier;
-    unsigned long long _sharingInvitationFlow;
 }
 
 + (_Bool);
@@ -20,13 +19,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (void)Latitude;
+- (_Bool)framework/Versions/A/CoreServices;
+- (void)activeParticipantBucket;
+- (void)locationLatitude;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *sharerKeyIdentifier; // @synthesize sharerKeyIdentifier=_sharerKeyIdentifier;
-@property(nonatomic) unsigned long long sharingInvitationFlow; // @synthesize sharingInvitationFlow=_sharingInvitationFlow;
 
 @end
 

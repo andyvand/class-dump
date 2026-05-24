@@ -8,8 +8,6 @@
 {
     id _$scope;
     id _recipeID;
-    id _notes;
-    id _$observationRegistrar;
 }
 
 @end

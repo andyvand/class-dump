@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, RBSAssertionIdentifier;
-@protocol OS_xpc_object;
+@class NSString, RBSAssertionIdentifier;
 
 @interface RBSInheritance
 {
     NSString *_endowmentNamespace;
-    NSString *_environment;
-    NSObject<OS_xpc_object> *_encodedEndowment;
-    RBSAssertionIdentifier *_originatingIdentifier;
-    unsigned long long _originatingAttributePath;
-    unsigned long long _hash;
-    unsigned long long _encodedEndowmentHash;
 }
 
 + (_Bool);
@@ -28,24 +21,14 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)z+;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSObject<OS_xpc_object> *encodedEndowment; // @synthesize encodedEndowment=_encodedEndowment;
-@property(readonly, copy, nonatomic) NSString *endowmentNamespace; // @synthesize endowmentNamespace=_endowmentNamespace;
-@property(readonly, nonatomic) NSString *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) RBSAssertionIdentifier *originatingIdentifier; // @synthesize originatingIdentifier=_originatingIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

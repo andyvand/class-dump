@@ -6,26 +6,15 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSArray, NSURL, NSURLSessionDownloadTask;
-@protocol FCContentContext;
-
 @interface FCResourceArchiveFetchOperation : FCOperation
 {
     unsigned long long _maxConcurrentFetchCount;
-    CDUnknownBlockType _progressHandler;
-    CDUnknownBlockType _interestTokenHandler;
-    CDUnknownBlockType _archiveHandler;
-    CDUnknownBlockType _fetchCompletionHandler;
-    NSURL *_archiveURL;
-    id <FCContentContext> _context;
-    NSURLSessionDownloadTask *_downloadTask;
-    NSArray *_resultResources;
 }
 
 - (id);
 - (unsigned long long);
 - (CDUnknownBlockType);
-- (void);
+- (void)4-;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -34,18 +23,14 @@
 - (CDUnknownBlockType)Ñ(	°1Â0@ù
 × ;
 - (void)/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKSecureDatabaseResetOperation.m;
-- (void)XWGXTQCEaQ8kL773wQ;
+- (void)THcwxXWGXTQCEaQ8kL773wQ;
 - (void)esourceID:(id)arg1 assetHandle:fetchDate:] /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType archiveHandler; // @synthesize archiveHandler=_archiveHandler;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(copy, nonatomic) CDUnknownBlockType interestTokenHandler; // @synthesize interestTokenHandler=_interestTokenHandler;
 @property(nonatomic) unsigned long long maxConcurrentFetchCount; // @synthesize maxConcurrentFetchCount=_maxConcurrentFetchCount;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

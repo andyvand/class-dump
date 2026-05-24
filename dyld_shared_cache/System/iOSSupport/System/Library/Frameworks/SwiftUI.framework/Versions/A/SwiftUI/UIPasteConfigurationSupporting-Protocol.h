@@ -7,6 +7,11 @@
 @class UIPasteConfiguration;
 
 @protocol UIPasteConfigurationSupporting
+- (void)stagedMenuActions;
+- (UIPasteConfiguration *);
+
+@optional
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) UIPasteConfiguration *pasteConfiguration;

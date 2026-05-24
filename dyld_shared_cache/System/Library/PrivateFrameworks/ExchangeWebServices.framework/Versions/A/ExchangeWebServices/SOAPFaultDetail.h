@@ -11,7 +11,7 @@
     NSMutableDictionary *_items;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);

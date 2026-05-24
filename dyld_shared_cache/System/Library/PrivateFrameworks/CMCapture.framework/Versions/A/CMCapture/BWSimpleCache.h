@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface BWSimpleCache
 {
     NSMutableDictionary *_cache;
-    struct OpaqueFigSimpleMutex *_propertyMutex;
 }
 
 + (void)-[BWQuickTimeMovieFileSinkNode _forceEarlyTerminationWithErrorCode:] /* Error: Ran out of types for this method. */;
 - (id);
+- (void)OITSUReadWriteQueue;
 - (void);
-- (void);
-- (id);
+- (id)P;
 
 @end
 

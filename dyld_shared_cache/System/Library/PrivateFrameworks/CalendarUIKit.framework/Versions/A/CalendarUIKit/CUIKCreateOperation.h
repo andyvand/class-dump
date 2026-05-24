@@ -14,15 +14,14 @@
 }
 
 - (void);
-- (id)ëCòÿTÿÿ ;
-- (void)í|ÑÚÐ10@ù
-?×é;
-- (id)cC©ûkB©ü@ùé£@mêGüÿ_Ö#ÕöW½©ôO©ý{©ý;
-- (long long)ÀòüÒNR®®¬rk;
-- (Class)@9	`üÒJ®R r;
-- (_Bool)PøÞ;
 - (id);
-- (void)eventStore: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (long long);
+- (Class);
+- (_Bool);
+- (id)UttDetBackgroundLevel;
+- (void)todaysEventsInCalendars:filterOptions:sortMethod:eventStore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *precomputedInverseObjects; // @synthesize precomputedInverseObjects=_precomputedInverseObjects;

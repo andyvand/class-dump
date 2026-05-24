@@ -12,10 +12,10 @@
     _UITypeSelectItem *_preferredItem;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 

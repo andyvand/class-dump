@@ -7,15 +7,11 @@
 @class NSString;
 
 @protocol AAAgeMigrationPromptModelProtocol
+- (NSString *)removeCachedThumbnailsFromUninstalledFileProvidersWithRemainingFileProviderIdentifiers:completionHandler: /* Error: Ran out of types for this method. */;
+- (NSString *)setDeviceValidator: /* Error: Ran out of types for this method. */;
 - (NSString *)àu²¢VÚ©«òìê0M\ñ5ú2Ü=¤Èù©~}°37~KÂ+êt}é¬Ù_K#¡ª¯;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *altDSID;
-@property(readonly, copy, nonatomic) NSString *bundleID;
-@property(readonly, copy, nonatomic) NSString *cancelButtonText;
-@property(readonly, copy, nonatomic) NSString *message;
-@property(readonly, copy, nonatomic) NSString *primaryButtonText;
-@property(readonly, copy, nonatomic) NSString *secondaryButtonText;
 @property(readonly, copy, nonatomic) NSString *title;
 @end
 

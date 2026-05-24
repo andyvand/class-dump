@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, WBSHistoryCrypto, WBSSQLiteDatabase;
+@class NSDictionary, WBSSQLiteDatabase;
 
 @interface WBSHistorySQLiteSchema
 {
     WBSSQLiteDatabase *_database;
-    WBSHistoryCrypto *_crypto;
-    NSDate *_migrateVisitsAfterDate;
 }
 
 + (id);
@@ -25,14 +23,14 @@
 - (int);
 - (int);
 - (int);
+- (int)A;
 - (int);
 - (int);
 - (int);
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
+- (int)A;
 - (int);
 - (int);
 - (int);

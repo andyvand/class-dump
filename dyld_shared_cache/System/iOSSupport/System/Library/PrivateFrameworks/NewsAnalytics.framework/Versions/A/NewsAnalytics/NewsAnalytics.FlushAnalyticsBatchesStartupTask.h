@@ -7,8 +7,6 @@
 @interface NewsAnalytics.FlushAnalyticsBatchesStartupTask
 {
     id analyticsApplicationStateMonitor;
-    id flushManager;
-    id loggingEventProcessor;
 }
 
 @end

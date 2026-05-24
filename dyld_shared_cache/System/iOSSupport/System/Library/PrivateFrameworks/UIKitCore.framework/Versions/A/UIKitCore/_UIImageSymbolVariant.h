@@ -9,18 +9,18 @@
     long long _fillVariant;
 }
 
-+ (id);
++ (id)e end of batch fetch for transfer:(long long)arg1 %@ addedTransfer %@ for messageItem:%@ groupPhotoUpdate:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (_Bool)%@
 ;
-- (long long);
-- (void);
+- (long long)didReceiveMessageSavedForMessageID:ofType:forChat:fromHandle:fromMe:date:account:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)t found mismatch recipients of outgoing message with GUID %@. (added participants:(long long)arg1 %@ removed participants:%@) /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (_Bool)IntegerValue:(id)arg1 forTrait: /* Error: Ran out of types for this method. */;
-- (void)ion:(id)arg1;
+- (unsigned long long)C;
+- (_Bool)traitCollectionByReplacingNSIntegerValue:(id)arg1 forTrait: /* Error: Ran out of types for this method. */;
+- (void)setDeferredAction:(id)arg1;
 - (id)tion;
 
 // Remaining properties

@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)initWithContainingPath: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

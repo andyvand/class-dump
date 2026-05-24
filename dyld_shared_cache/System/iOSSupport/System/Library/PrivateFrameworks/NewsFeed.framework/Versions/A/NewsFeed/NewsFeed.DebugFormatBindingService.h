@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatBindingService
 {
     id formatService;
-    id weatherService;
-    id feedModelFactory;
-    id cloudContext;
 }
 
 @end

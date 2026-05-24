@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface IMSharedUtilitiesProtoCloudKitEncryptedGroupAction
 {
     long long _groupActionType;
-    NSString *_otherHandle;
-    NSData *_padding;
-    unsigned int _version;
-    struct {
-        unsigned int groupActionType:1;
-        unsigned int version:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)ountFetchAfterTransactionWaitPeriod;
+- (void)Request;
+- (void)paymentType;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -39,19 +30,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id)s/;
-- (void)nsitions;
+- (void)FluidTransitions;
 
 // Remaining properties
-@property(nonatomic) long long groupActionType; // @synthesize groupActionType=_groupActionType;
-@property(nonatomic) _Bool hasGroupActionType;
-@property(readonly, nonatomic) _Bool hasOtherHandle;
-@property(readonly, nonatomic) _Bool hasPadding;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSString *otherHandle; // @synthesize otherHandle=_otherHandle;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

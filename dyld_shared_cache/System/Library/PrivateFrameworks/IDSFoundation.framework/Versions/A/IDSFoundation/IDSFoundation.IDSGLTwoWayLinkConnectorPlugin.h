@@ -7,14 +7,6 @@
 @interface IDSFoundation.IDSGLTwoWayLinkConnectorPlugin
 {
     id linkDefinitionHook;
-    id name;
-    id tags;
-    id state;
-    id localEndpointProvider;
-    id fallbackDelay;
-    id sorter;
-    id allocateBlock;
-    id isInitiator;
 }
 
 @end

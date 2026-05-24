@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSOperationQueue *_operationQueue;
 }
 
-+ (id);
++ (id)h;
 - (void);
 - (id);
 - (void);

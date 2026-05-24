@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @protocol _CPTCPInfo
+- (void)S;
+- (void)q;
+- (void);
+- (unsigned int);
+- (unsigned long long);
+- (void)!;
+- (void);
+- (void);
+- (void):(unsigned long long)arg1 %@
+;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int avgRTT;
-@property(nonatomic) unsigned long long cellRXPackets;
-@property(nonatomic) unsigned long long cellTXPackets;
-@property(nonatomic) unsigned int connectAttempts;
-@property(nonatomic) unsigned int connectSuccesses;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int minRTT;
-@property(nonatomic) unsigned long long rxBytes;
-@property(nonatomic) unsigned long long rxDuplicateBytes;
-@property(nonatomic) unsigned long long rxOutOfOrderBytes;
-@property(nonatomic) unsigned long long rxPackets;
-@property(copy, nonatomic) NSString *statsType;
-@property(nonatomic) unsigned long long txBytes;
-@property(nonatomic) unsigned long long txPackets;
-@property(nonatomic) unsigned long long txRetransmitBytes;
-@property(nonatomic) unsigned long long txRetransmitPackets;
-@property(nonatomic) unsigned int varRTT;
-@property(nonatomic) unsigned long long wifiRXPackets;
-@property(nonatomic) unsigned long long wifiTXPackets;
-@property(nonatomic) unsigned long long wiredRXPackets;
-@property(nonatomic) unsigned long long wiredTXPackets;
 @end
 

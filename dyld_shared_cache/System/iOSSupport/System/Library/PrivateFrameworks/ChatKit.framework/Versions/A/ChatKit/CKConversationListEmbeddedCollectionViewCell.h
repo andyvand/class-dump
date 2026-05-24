@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversationListCellLayout, NSArray, NSString, UITableViewCell;
-@protocol CKConversationListEmbeddedCollectionViewCellDelegate;
+@class UITableViewCell;
 
 @interface CKConversationListEmbeddedCollectionViewCell
 {
     _Bool _shouldUseSidebarBackgroundConfiguration;
-    UITableViewCell *_embeddedTableViewCell;
-    id <CKConversationListEmbeddedCollectionViewCellDelegate> _embeddedCellDelegate;
-    unsigned long long _editingMode;
-    CKConversationListCellLayout *_cellLayout;
-    NSArray *_linkInteractions;
 }
 
 + (Class);
 + (Class)DÞÍGtG^\GG_Qo_;
-- (_Bool);
-- (_Bool);
+- (_Bool)deletePDFForAttachmentIfExists: /* Error: Ran out of types for this method. */;
+- (_Bool)delegate;
 - (void);
 - (void);
 - (void);
@@ -29,17 +23,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)t;
+- (void)rate %d;
+- (id)ed tag (%@) for inline attachment (%@);
+- (id)tActivityEvent+Conversion.swift;
+- (unsigned long long)alled on the main thread (;
+- (void)mended.;
+- (void)ax.color.format.saturation.hue;
+- (void)$@ %3$@;
+- (_Bool)grayish;
+- (_Bool)attachment_brick_background_color;
+- (void)rRecordUpdate:(id)arg1 %@>;
 - (id);
 - (void);
 - (void);
@@ -50,19 +44,7 @@
 - (void)AddRecipientsControllerRepresentable;
 
 // Remaining properties
-@property(retain, nonatomic) CKConversationListCellLayout *cellLayout; // @synthesize cellLayout=_cellLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long editingMode; // @synthesize editingMode=_editingMode;
-@property(nonatomic) __weak id <CKConversationListEmbeddedCollectionViewCellDelegate> embeddedCellDelegate; // @synthesize embeddedCellDelegate=_embeddedCellDelegate;
 @property(retain, nonatomic) UITableViewCell *embeddedTableViewCell; // @synthesize embeddedTableViewCell=_embeddedTableViewCell;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *linkInteractions; // @synthesize linkInteractions=_linkInteractions;
-@property(nonatomic) _Bool shouldUseSidebarBackgroundConfiguration; // @synthesize shouldUseSidebarBackgroundConfiguration=_shouldUseSidebarBackgroundConfiguration;
-@property(readonly) Class superclass;
 
 @end
 

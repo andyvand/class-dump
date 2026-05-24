@@ -9,10 +9,16 @@
 @protocol FMFSessionDelegate
 
 @optional
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ing"16;
 - (void)HighQualityVariantForTransfer:(FMFDevice *)arg1 completion:was given no transfer /* Error: Ran out of types for this method. */;
 - (void)umber:(NSDictionary *)arg1 %@;
-- (void);
-- (void)overableMessages;
+- (void)totalRecoverableMessages;
 - (void)´;
 - (void)ü;
 @end

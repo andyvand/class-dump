@@ -6,19 +6,15 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIOpTile : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputCenter;
-    NSNumber *inputScale;
-    NSNumber *inputAngle;
-    NSNumber *inputWidth;
 }
 
-+ (id);
++ (id)!6;
 - (id);
 - (id);
 - (void);

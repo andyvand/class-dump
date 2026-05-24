@@ -7,11 +7,10 @@
 @interface HomeKitCore.XPCClientProxy
 {
     id connection;
-    id homesStore;
 }
 
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (id);
 - (void);

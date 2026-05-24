@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface VCSPropertyValue
 {
     NSMutableDictionary *_parameters;
-    unsigned long long _valueType;
-    id _value;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)stringWithUTF8String: /* Error: Ran out of types for this method. */;
+- (id)P;
+- (unsigned long long)j;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 @property(readonly, nonatomic) unsigned long long valueType; // @synthesize valueType=_valueType;
 
 @end

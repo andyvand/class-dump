@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarViewController, NSImageView, NSProgressIndicator, NSString, NSTextField, NSView, NSWindow;
-@protocol SSConnectionProgressViewControllerDelegate;
+@class NSProgressIndicator;
 
 @interface SSConnectionProgressViewController
 {
     _Bool mIndeterminate;
-    long long mPercentComplete;
-    NSString *mDisplayString;
-    id <SSConnectionProgressViewControllerDelegate> delegate;
-    NSProgressIndicator *_mProgressIndicator;
-    NSTextField *_mDisplayText;
-    NSWindow *_parentWindow;
-    CNAvatarViewController *_avatarViewController;
-    NSView *_viewContainer;
-    NSImageView *_yosemiteStaticImage;
 }
 
 + (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);
@@ -35,33 +25,24 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (void)ri_areAdvancedPrivacyProtectionsEnabled;
+- (void)rminating;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)shouldRefreshSongMetadata;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) CNAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property id <SSConnectionProgressViewControllerDelegate> delegate; // @synthesize delegate;
-@property(retain) NSString *displayText; // @synthesize displayText=mDisplayString;
-@property _Bool indeterminateProgress; // @synthesize indeterminateProgress=mIndeterminate;
-@property NSTextField *mDisplayText; // @synthesize mDisplayText=_mDisplayText;
 @property NSProgressIndicator *mProgressIndicator; // @synthesize mProgressIndicator=_mProgressIndicator;
-@property(retain) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property long long percentageComplete; // @dynamic percentageComplete;
-@property(retain) NSView *viewContainer; // @synthesize viewContainer=_viewContainer;
-@property(retain) NSImageView *yosemiteStaticImage; // @synthesize yosemiteStaticImage=_yosemiteStaticImage;
 
 @end
 

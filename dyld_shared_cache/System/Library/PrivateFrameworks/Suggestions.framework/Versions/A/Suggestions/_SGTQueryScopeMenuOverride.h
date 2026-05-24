@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _SGTQueryScopeMenuOverride
 {
     SEL _action;
-    id _target;
-    NSString *_item;
-    NSString *_title;
-    NSString *_spinnerMessage;
-    _Bool _spin;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)9s;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)*A9_;
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)ԟ;
 - (void);
-- (void);
+- (void)enumerateFontAttributesOfAttributedString:usingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool spin; // @synthesize spin=_spin;
-@property(readonly) Class superclass;
 
 @end
 

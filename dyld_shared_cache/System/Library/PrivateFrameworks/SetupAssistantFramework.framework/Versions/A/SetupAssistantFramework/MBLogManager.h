@@ -11,8 +11,6 @@ __attribute__((visibility("hidden")))
 @interface MBLogManager
 {
     _Bool _legacyLoggingEnabled;
-    _Bool _isInternalBuild;
-    NSObject<OS_os_log> *_connObj;
 }
 
 + (id);
@@ -24,15 +22,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)Iu8;
 - (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(retain) NSObject<OS_os_log> *connObj; // @synthesize connObj=_connObj;
-@property _Bool isInternalBuild; // @synthesize isInternalBuild=_isInternalBuild;
-@property _Bool legacyLoggingEnabled; // @synthesize legacyLoggingEnabled=_legacyLoggingEnabled;
 
 @end
 

@@ -11,8 +11,8 @@
     float _floatValue;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)oxy_file pragma value, must be an NSNull or NSString;
 - (id);
 - (void);
 - (float);

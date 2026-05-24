@@ -11,24 +11,20 @@
 @interface MCDeleteInput : MCKeyboardInput
 {
     _Bool _deleteBySyllable;
-    _Bool _shouldDeleteAcceptCandidateInput;
-    NSString *_deletedText;
 }
 
-- (_Bool);
+- (_Bool)ng"8@16^B24;
+- (id);
 - (id);
-- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)Y;
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool deleteBySyllable; // @synthesize deleteBySyllable=_deleteBySyllable;
 @property(readonly, nonatomic) NSString *deletedText; // @synthesize deletedText=_deletedText;
-@property(readonly, nonatomic) _Bool shouldDeleteAcceptCandidateInput; // @synthesize shouldDeleteAcceptCandidateInput=_shouldDeleteAcceptCandidateInput;
 
 @end
 

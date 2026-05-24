@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNetService;
+
 @protocol NSNetServiceDelegate
+
+@optional
+- (void)localizedName;
+- (void)STSCredential;
+- (void)doffTokenWithCompletion:(NSNetService *)arg1 only works for NFSession;
+- (void)ror"16;
+- (void);
 @end
 

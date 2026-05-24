@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWGraph, NSArray, NSMutableArray, NSString;
+@class BWGraph, NSArray;
 
 @interface FigCapturePipeline
 {
     BWGraph *_graph;
-    NSMutableArray *_nodes;
-    NSString *_name;
 }
 
 - (id);
 - (id);
+- (void)mShowBubbleSize;
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)to write command type to journal;
 - (_Bool);
 - (id)learPendingIrisRequestMarkerBuffers];
 
 // Remaining properties
-@property(readonly, nonatomic) BWGraph *graph; // @synthesize graph=_graph;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) NSArray *nodes; // @synthesize nodes=_nodes;
 
 @end

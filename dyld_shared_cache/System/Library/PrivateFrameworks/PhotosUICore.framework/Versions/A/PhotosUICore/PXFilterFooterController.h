@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHPhotoLibrary, PXActionManager, PXContentFilterState, PXFilterFooterView, PXLibraryFilterState, PXSharedLibraryStatusProvider, UXView;
+@class PXActionManager, PXFilterFooterView;
 
 @interface PXFilterFooterController
 {
     PXActionManager *_actionManager;
-    PHPhotoLibrary *_photoLibrary;
-    PXFilterFooterView *_footerFilterView;
-    PXSharedLibraryStatusProvider *_sharedLibraryStatusProvider;
-    PXLibraryFilterState *_libraryFilterState;
-    PXContentFilterState *_contentFilterState;
-    UXView *_view;
 }
 
 - (void);
@@ -26,24 +20,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id)erseSortOrder;
+- (id)nearestPlug;
+- (id)fetchedWithReverseSortOrder;
 - (id)[PXMessagesStackItemsLayout _invalidateSprites];
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) PXContentFilterState *contentFilterState; // @synthesize contentFilterState=_contentFilterState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) PXFilterFooterView *footerFilterView;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(retain, nonatomic) PXSharedLibraryStatusProvider *sharedLibraryStatusProvider; // @synthesize sharedLibraryStatusProvider=_sharedLibraryStatusProvider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UXView *view; // @synthesize view=_view;
 
 @end
 

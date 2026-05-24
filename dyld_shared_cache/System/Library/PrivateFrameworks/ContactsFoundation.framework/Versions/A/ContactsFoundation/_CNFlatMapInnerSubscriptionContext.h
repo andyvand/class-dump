@@ -5,22 +5,19 @@
 //
 
 @class CNSuspendableSchedulerDecorator;
-@protocol CNCancelable;
 
 @interface _CNFlatMapInnerSubscriptionContext
 {
     CNSuspendableSchedulerDecorator *_decorator;
-    id <CNCancelable> _token;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly) CNSuspendableSchedulerDecorator *decorator; // @synthesize decorator=_decorator;
-@property(readonly) id <CNCancelable> token; // @synthesize token=_token;
 
 @end
 

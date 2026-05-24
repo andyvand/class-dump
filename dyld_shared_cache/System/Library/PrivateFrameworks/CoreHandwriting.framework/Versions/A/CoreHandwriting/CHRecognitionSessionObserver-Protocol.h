@@ -5,5 +5,9 @@
 //
 
 @protocol CHRecognitionSessionObserver
+
+@optional
+- (_Bool)!
+0;
 @end
 

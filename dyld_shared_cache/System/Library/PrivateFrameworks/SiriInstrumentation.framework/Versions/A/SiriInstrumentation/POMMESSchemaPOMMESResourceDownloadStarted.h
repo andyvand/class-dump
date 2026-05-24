@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESResourceDownloadStarted : SISchemaInstrumentationMessage
 {
     int _resourceType;
-    struct {
-        unsigned int resourceType:1;
-    } _has;
 }
 
 - (void);
@@ -21,19 +16,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)/AppStoreDaemon/Stubs/ASDRestoreApplicationsRequestOptions_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)Saved device state:(id)arg1 %@;
 - (id);
 - (id);
-- (void)rtDictionaryOverKgBoost;
-- (id);
+- (void)hasCirAlertDictionaryOverKgBoost;
+- (id)_sampledErrorAsset;
 - (id)ersonalizedSessionAffected;
 - (int)Û!;
 
 // Remaining properties
-@property(nonatomic) _Bool hasResourceType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int resourceType; // @synthesize resourceType=_resourceType;
 
 @end

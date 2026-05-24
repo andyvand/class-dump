@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHFace, PHPerson;
-
 @interface PHPersonSuggestion
 {
     _Bool _confirmed;
-    PHFace *_keyFace;
-    PHPerson *_person;
-    double _similarityScore;
 }
 
 @end

@@ -6,15 +6,12 @@
 
 #import <ContactsUI/CNErrorViewController.h>
 
-@class NSString, UIBarButtonItem, UINavigationController;
 @protocol CNContactPickerContentDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNContactPickerServiceErrorViewController : CNErrorViewController
 {
     id <CNContactPickerContentDelegate> delegate;
-    UINavigationController *navigationController;
-    UIBarButtonItem *addContactBarButtonItem;
 }
 
 - (void);
@@ -23,20 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_applicationElementCallback;
 - (void)ueBackground;
 
 // Remaining properties
-@property(readonly, nonatomic) UIBarButtonItem *addContactBarButtonItem; // @synthesize addContactBarButtonItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <CNContactPickerContentDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UINavigationController *navigationController; // @synthesize navigationController;
-@property(readonly) Class superclass;
 
 @end
 

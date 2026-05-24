@@ -9,8 +9,6 @@
 @interface AppStoreKit.TopChartSegmentPresenter : AppStoreKit.BaseShelfPresenter
 {
     id view;
-    id isPreparingNextPage;
-    id segment;
 }
 
 @end

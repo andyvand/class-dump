@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WebBasePluginPackage
 {
     NSMutableSet *pluginDatabases;
-    struct String path;
-    struct PluginInfo pluginInfo;
-    struct RetainPtr<__CFBundle *> cfBundle;
-    CDUnknownFunctionPointerType BP_CreatePluginMIMETypesPreferences;
 }
 
 + (id);
@@ -25,23 +21,23 @@ __attribute__((visibility("hidden")))
 - (const void *);
 - (id);
 - (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)*efL;
 - (id);
 - (id);
-- (struct String);
-- (void);
+- (struct String)promiseWithAny:timeout: /* Error: Ran out of types for this method. */;
+- (void)percentage value in per-host dictionary for %{public}@:%{public}@. Using that /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
-- (id);
-- (struct String);
+- (id)J ;
+- (struct String)^3;
 - (void);
 - (const void *);
 - (void)1Â0@ù
 × ;
-- (_Bool)rentForSubview: /* Error: Ran out of types for this method. */;
+- (_Bool)_accessibilityParentForSubview: /* Error: Ran out of types for this method. */;
 
 @end
 

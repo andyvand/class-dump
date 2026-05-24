@@ -8,8 +8,10 @@
 {
 }
 
-+ (long long);
-+ (id);
++ (long long)d account to lock or unlock a note.
+
+iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
++ (id)7c/ipados;
 - (id);
 
 @end

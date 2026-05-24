@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface FPPacer
 {
     double _lastFireTime;
-    double _minFireInterval;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_source;
-    NSObject<OS_dispatch_source> *_timer;
-    _Atomic int _sourceSuspendCount;
-    CDUnknownBlockType _eventBlock;
-    CDUnknownBlockType _explicitFireBlock;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)u;
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -31,15 +21,13 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)fetchEscrowRecords:error: /* Error: Ran out of types for this method. */;
 - (void)!EùÑç)°1Â0@ù
 × ;
 - (CDUnknownBlockType)e, it was not stale "%@";
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType eventBlock; // @synthesize eventBlock=_eventBlock;
 @property(copy) CDUnknownBlockType explicitFireBlock; // @synthesize explicitFireBlock=_explicitFireBlock;
-@property(readonly, nonatomic, getter=isSuspended) _Bool suspended;
 
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBAnimationSequencerEffects;
-
 @interface RBAnimationSequencer
 {
     struct AnimationSequencer _seq;
@@ -14,10 +12,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (int);
+- (id);
+- (int)U1y;
 - (_Bool);
-- (struct CGPoint);
+- (struct CGPoint),;
 - (id);
 - (id);
 - (void);
@@ -28,13 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) RBAnimationSequencerEffects *added;
 @property(nonatomic) int distanceMode;
-@property(nonatomic) struct CGPoint endPoint;
-@property(copy, nonatomic) RBAnimationSequencerEffects *mixed;
-@property(copy, nonatomic) RBAnimationSequencerEffects *removed;
-@property(nonatomic) _Bool sequencesGlyphs;
-@property(nonatomic) struct CGPoint startPoint;
 
 @end
 

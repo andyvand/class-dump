@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface UINSDragImage
 {
     unsigned int _slotID;
-    NSData *_imageData;
 }
 
 - (id);
@@ -20,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 @property(readonly, nonatomic) unsigned int slotID; // @synthesize slotID=_slotID;
 
 @end

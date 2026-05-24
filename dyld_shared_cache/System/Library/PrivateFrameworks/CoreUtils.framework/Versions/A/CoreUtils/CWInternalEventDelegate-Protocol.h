@@ -5,5 +5,15 @@
 //
 
 @protocol CWInternalEventDelegate
+
+@optional
+- (void);
+- (void)T{;
+- (void);
+- (void);
+- (void)J;
+- (void);
+- (void);
+- (void)gemmKernelNonTranspose;
 @end
 

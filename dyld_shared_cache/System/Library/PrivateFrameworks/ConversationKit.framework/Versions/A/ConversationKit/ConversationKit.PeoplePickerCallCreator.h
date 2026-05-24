@@ -7,7 +7,6 @@
 @interface ConversationKit.PeoplePickerCallCreator
 {
     id presentScreenTimeShield;
-    id callCenter;
 }
 
 @end

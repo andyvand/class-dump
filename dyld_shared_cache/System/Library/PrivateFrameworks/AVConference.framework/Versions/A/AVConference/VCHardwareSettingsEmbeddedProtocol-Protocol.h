@@ -5,20 +5,12 @@
 //
 
 @protocol VCHardwareSettingsEmbeddedProtocol
+- (_Bool)R;
 - (long long);
 - (unsigned int)o create receiver data dictionary;
 - (unsigned int)d callback for didCancel captureSourceID=%ld;
 
 // Remaining properties
-@property(readonly, nonatomic) long long chipId;
-@property(readonly, nonatomic) long long deviceClass;
-@property(readonly, nonatomic) _Bool hasAppleNeuralEngine;
-@property(readonly, nonatomic) _Bool isHEVC444DecodeSupported;
-@property(readonly, nonatomic) _Bool isSecondDisplaySupportEnabled;
-@property(readonly, nonatomic) _Bool isVoiceProcessingAt24KSupported;
-@property(readonly, nonatomic) unsigned int maxHighTierMLEnhanceParticipants;
-@property(readonly, nonatomic) unsigned int screenHeight;
 @property(readonly, nonatomic) unsigned int screenWidth;
-@property(readonly, nonatomic) long long videoEncoderType;
 @end
 

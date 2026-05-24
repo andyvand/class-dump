@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NetworkExtension.NEExtensionBaseProviderHostExportedObject, OS_dispatch_queue, Protocol;
-@protocol NEExtensionBaseHostDelegate;
+@class OS_dispatch_queue;
 
 @interface NEExtensionBaseProviderHost
 {
     OS_dispatch_queue *extensionQueue;
-    void extensionPointName;
-    void extensionBundleIdentifier;
-    Protocol *extensionXPCProtocol;
-    Protocol *extensionHostXPCProtocol;
-    id <NEExtensionBaseHostDelegate> extensionDelegate;
-    NetworkExtension.NEExtensionBaseProviderHostExportedObject *extensionExportedObject;
-    id appExtensionProcess;
-    id appExtensionMonitor;
-    id xpcConnection;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void)realDeviceFoundInternal:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -45,13 +35,7 @@
 - (void)initWithListenerIKEConfig:saSession:packetDelegate:listenerQueue:delegate:delegateQueue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *extensionBundleIdentifier;
-@property(nonatomic, retain) id <NEExtensionBaseHostDelegate> extensionDelegate; // @synthesize extensionDelegate;
-@property(nonatomic, retain) NetworkExtension.NEExtensionBaseProviderHostExportedObject *extensionExportedObject; // @synthesize extensionExportedObject;
-@property(nonatomic, retain) Protocol *extensionHostXPCProtocol; // @synthesize extensionHostXPCProtocol;
-@property(nonatomic, copy) NSString *extensionPointName;
 @property(nonatomic, retain) OS_dispatch_queue *extensionQueue; // @synthesize extensionQueue;
-@property(nonatomic, retain) Protocol *extensionXPCProtocol; // @synthesize extensionXPCProtocol;
 
 @end
 

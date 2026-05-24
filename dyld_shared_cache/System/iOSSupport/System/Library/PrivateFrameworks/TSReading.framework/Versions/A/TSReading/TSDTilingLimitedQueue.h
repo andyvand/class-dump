@@ -10,10 +10,6 @@
 @interface TSDTilingLimitedQueue
 {
     NSObject<OS_dispatch_queue> *mManagerQueue;
-    NSObject<OS_dispatch_queue> *mTargetQueue;
-    unsigned long long mLimit;
-    unsigned long long mReaderCount;
-    struct os_unfair_lock_s mSpinLock;
 }
 
 - (void);

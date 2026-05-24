@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSTextField;
+@class NSTextField;
 
 @interface AKTrustedDeviceViewItem
 {
     _Bool _hideSelectedState;
-    NSTextField *_mainTextField;
-    NSTextField *_subTextField;
-    NSImageView *_mainImageView;
 }
 
 + (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -27,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hideSelectedState; // @synthesize hideSelectedState=_hideSelectedState;
-@property(nonatomic) NSImageView *mainImageView; // @synthesize mainImageView=_mainImageView;
 @property(nonatomic) NSTextField *mainTextField; // @synthesize mainTextField=_mainTextField;
-@property(readonly, nonatomic) _Bool shouldDrawSelected;
-@property(nonatomic) NSTextField *subTextField; // @synthesize subTextField=_subTextField;
 
 @end
 

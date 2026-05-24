@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPSourceApplicationMetadata
 {
     NSString *_name;
-    NSString *_bundleIdentifier;
-    LPImage *_icon;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)rypt public sharing key on record %@;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void));
 - (id);
 - (id);
 - (void);
@@ -28,8 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

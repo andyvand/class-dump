@@ -7,17 +7,6 @@
 @interface PGLandscapeWallpaperSuggesterFilteringContext
 {
     _Bool _ignoreClockOverlap;
-    _Bool _bypassCropScoreCheck;
-    long long _orientation;
-    double _minimumWallpaperScore;
-    double _wallpaperScorePenaltyCutOff;
-    double _minimumAestheticsScore;
-    double _aestheticsScorePenaltyCutOff;
-    double _minimumCropScore;
-    double _cropScorePenaltyCutOff;
-    double _timeIntervalForCandidateDeduping;
-    double _maximumLowLightScore;
-    double _maximumCropZoomRatio;
 }
 
 - (double);
@@ -25,45 +14,34 @@
 - (double);
 - (void);
 - (void);
+- (void)__auth_stubs;
+- (void)__text;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
-- (id);
+- (double)setButton: /* Error: Ran out of types for this method. */;
+- (double)removePointerAtIndex: /* Error: Ran out of types for this method. */;
+- (double)removeObserver:selector:name:element: /* Error: Ran out of types for this method. */;
+- (double)isEditableTextUIElement: /* Error: Ran out of types for this method. */;
+- (double)isContainerElement: /* Error: Ran out of types for this method. */;
+- (id)_button;
+- (id)egate;
+- (id)AXKResourceManager;
+- (_Bool);
+- (double)I;
 - (_Bool);
 - (double);
-- (_Bool);
-- (double);
 - (void);
 - (void);
-- (id);
+- (id)hR;
 - (long long);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double aestheticsScorePenaltyCutOff; // @synthesize aestheticsScorePenaltyCutOff=_aestheticsScorePenaltyCutOff;
-@property(nonatomic) _Bool bypassCropScoreCheck; // @synthesize bypassCropScoreCheck=_bypassCropScoreCheck;
-@property(nonatomic) double cropScorePenaltyCutOff; // @synthesize cropScorePenaltyCutOff=_cropScorePenaltyCutOff;
-@property(nonatomic) _Bool ignoreClockOverlap; // @synthesize ignoreClockOverlap=_ignoreClockOverlap;
-@property(nonatomic) double maximumCropZoomRatio; // @synthesize maximumCropZoomRatio=_maximumCropZoomRatio;
-@property(nonatomic) double maximumLowLightScore; // @synthesize maximumLowLightScore=_maximumLowLightScore;
-@property(nonatomic) double minimumAestheticsScore; // @synthesize minimumAestheticsScore=_minimumAestheticsScore;
-@property(nonatomic) double minimumCropScore; // @synthesize minimumCropScore=_minimumCropScore;
-@property(nonatomic) double minimumWallpaperScore; // @synthesize minimumWallpaperScore=_minimumWallpaperScore;
 @property(readonly, nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) double timeIntervalForCandidateDeduping; // @synthesize timeIntervalForCandidateDeduping=_timeIntervalForCandidateDeduping;
-@property(nonatomic) double wallpaperScorePenaltyCutOff; // @synthesize wallpaperScorePenaltyCutOff=_wallpaperScorePenaltyCutOff;
 
 @end
 

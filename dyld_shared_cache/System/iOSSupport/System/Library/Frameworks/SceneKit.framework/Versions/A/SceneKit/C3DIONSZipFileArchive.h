@@ -4,45 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface C3DIONSZipFileArchive
 {
     NSDictionary *_contents;
-    NSData *_data;
-    id _provider;
-    long long _desc;
-    NSString *_path;
-    NSArray *_names;
-    NSDictionary *_properties;
-    NSMutableDictionary *_cachedContents;
-    void *_reserved;
-    struct __zFlags {
-        unsigned int providerSuppliesContents:1;
-        unsigned int providerSuppliesStreams:1;
-        unsigned int providerSuppliesProperties:1;
-        unsigned int noContentsCaching:1;
-        unsigned int fileOpen:1;
-        unsigned int reserved:27;
-    } _zFlags;
-    void *_reserved2[5];
 }
 
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)st created %p has committable transcription = _%{sensitive}@_;
+- (id)yChanged";
+- (id)TextInputPaletteVisibilityChanged;
+- (id)ch is on a different scene %@;
+- (id)e view;
+- (id)precedingSeparator;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)Enable;
 - (_Bool);
 
 @end

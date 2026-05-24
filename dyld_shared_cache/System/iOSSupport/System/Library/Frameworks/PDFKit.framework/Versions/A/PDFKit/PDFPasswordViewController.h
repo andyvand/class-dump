@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, UIDocumentPasswordView;
+@class NSObject;
 @protocol PDFPasswordViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface PDFPasswordViewController
 {
     NSObject<PDFPasswordViewControllerDelegate> *_delegate;
-    UIDocumentPasswordView *_uiDocPasswordView;
 }
 
 - (void);

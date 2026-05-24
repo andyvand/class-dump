@@ -7,7 +7,6 @@
 @interface AppStoreKit.ImpressionsCollectionElementsObserver
 {
     id componentTypeMappingProvider;
-    id impressionsCalculator;
 }
 
 @end

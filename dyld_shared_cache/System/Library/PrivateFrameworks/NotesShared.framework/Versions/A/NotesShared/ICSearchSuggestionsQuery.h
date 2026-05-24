@@ -6,23 +6,15 @@
 
 #import <NotesShared/ICSearchQuery.h>
 
-@class NSArray, NSMutableArray, NSString;
-@protocol ICSearchSuggestionsResponder;
+@class NSString;
 
 @interface ICSearchSuggestionsQuery : ICSearchQuery
 {
     _Bool _modernResultsOnly;
-    NSString *_userSearchString;
-    NSString *_literalSearchString;
-    NSString *_searchString;
-    NSArray *_searchTokens;
-    NSArray *_filterQueries;
-    NSMutableArray *_foundSuggestions;
-    id <ICSearchSuggestionsResponder> _suggestionsResponder;
 }
 
 - (id);
-- (id);
+- (id)';
 - (void);
 - (void);
 - (void);
@@ -31,7 +23,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)DSLocale;
 - (void);
 - (void);
 - (id);
@@ -43,12 +35,6 @@
 - (id)processing;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *filterQueries; // @synthesize filterQueries=_filterQueries;
-@property(retain, nonatomic) NSMutableArray *foundSuggestions; // @synthesize foundSuggestions=_foundSuggestions;
-@property(retain, nonatomic) NSString *literalSearchString; // @synthesize literalSearchString=_literalSearchString;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(retain, nonatomic) NSArray *searchTokens; // @synthesize searchTokens=_searchTokens;
-@property(retain, nonatomic) id <ICSearchSuggestionsResponder> suggestionsResponder; // @synthesize suggestionsResponder=_suggestionsResponder;
 @property(retain, nonatomic) NSString *userSearchString; // @synthesize userSearchString=_userSearchString;
 
 @end

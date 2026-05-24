@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MTSchemaMTLocalePair, NSData, SISchemaUUID;
-
 @interface MTSchemaMTInvocationEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    SISchemaUUID *_qssSessionId;
-    MTSchemaMTLocalePair *_localePair;
-    CDStruct_b33ad018 _has;
-    _Bool _hasQssSessionId;
-    _Bool _hasLocalePair;
 }
 
 - (void);
@@ -28,11 +21,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)an completion provided, therefore nothing to do or report; aborting;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)libressl/libressl-2.2/crypto/gost/gostr341001_ameth.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -48,12 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasLocalePair; // @synthesize hasLocalePair=_hasLocalePair;
-@property(nonatomic) _Bool hasQssSessionId; // @synthesize hasQssSessionId=_hasQssSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MTSchemaMTLocalePair *localePair; // @synthesize localePair=_localePair;
-@property(retain, nonatomic) SISchemaUUID *qssSessionId; // @synthesize qssSessionId=_qssSessionId;
 
 @end
 

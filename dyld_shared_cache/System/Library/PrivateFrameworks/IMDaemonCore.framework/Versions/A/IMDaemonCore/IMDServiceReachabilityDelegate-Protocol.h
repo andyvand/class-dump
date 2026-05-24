@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @protocol IMDServiceReachabilityDelegate
 - (_Bool)ag has no value for report-junk-mmcs-upload-timeout, using the default 10 seconds;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMultipleSubscriptionsWithAtLeastOneActive;
-@property(readonly, nonatomic) NSArray *idsRegisteredSIMIDs;
-@property(readonly, nonatomic) NSString *internalServiceName;
-@property(readonly, nonatomic) _Bool isUsableForSending;
 @property(readonly, nonatomic) _Bool networkDataAvailable;
-@property(readonly, nonatomic) NSArray *phoneNumbersOfActiveSubscriptions;
 @end
 

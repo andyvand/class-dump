@@ -5,5 +5,7 @@
 //
 
 @protocol OSASubmissionServices
+- (void);
+- (void)P;
 @end
 

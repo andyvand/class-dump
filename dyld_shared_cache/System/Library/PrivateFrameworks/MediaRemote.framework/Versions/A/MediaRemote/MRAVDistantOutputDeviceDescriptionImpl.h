@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _MRAVOutputDeviceDescriptorProtobuf;
+@class _MRAVOutputDeviceDescriptorProtobuf;
 
 @interface MRAVDistantOutputDeviceDescriptionImpl
 {
@@ -13,39 +13,21 @@
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id),V_subHintTextField;
+- (id)SString"40d48@56@?<v@?>64;
 - (id);
 - (id);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)i;
 - (unsigned int);
 - (_Bool);
 - (unsigned int);
-- (id);
+- (id);
 - (void)ssage;
 - (id)4;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isClusterLeader) _Bool clusterLeader;
-@property(readonly, nonatomic) unsigned int clusterType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _MRAVOutputDeviceDescriptorProtobuf *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, nonatomic) unsigned int deviceSubtype;
-@property(readonly, nonatomic) unsigned int deviceType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *modelID;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *roomID;
-@property(readonly, nonatomic) NSString *roomName;
-@property(readonly, nonatomic) NSArray *subComponents;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsEngageOnClusterActivation;
-@property(readonly, nonatomic) NSString *uid;
 
 @end
 

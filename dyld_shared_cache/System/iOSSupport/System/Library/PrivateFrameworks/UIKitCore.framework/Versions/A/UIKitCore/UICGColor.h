@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)cationInWindow:(id)arg1 withWindowBounds: /* Error: Ran out of types for this method. */;
+- (_Bool)didPointerClick:(id)arg1 withLocationInWindow:withWindowBounds: /* Error: Ran out of types for this method. */;
 - (id)ô®¯;
 - (struct CGColor *)ªÛBHc;
 - (void)kË¬wl;

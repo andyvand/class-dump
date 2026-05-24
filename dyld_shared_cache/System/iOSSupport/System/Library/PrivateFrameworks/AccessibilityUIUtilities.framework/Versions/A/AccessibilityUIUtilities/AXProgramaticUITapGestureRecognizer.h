@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (long long);
+- (long long);
 - (long long);
 
 // Remaining properties

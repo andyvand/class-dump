@@ -9,7 +9,6 @@
 @interface CKMessageEntryViewController
 {
     _Bool _inputAccessoryViewControllerEnabled;
-    CKMessageEntryView *_entryView;
 }
 
 + (_Bool)$_excludedExtensionIdentifiers;
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CKMessageEntryView *entryView; // @synthesize entryView=_entryView;
-@property(nonatomic) _Bool inputAccessoryViewControllerEnabled; // @synthesize inputAccessoryViewControllerEnabled=_inputAccessoryViewControllerEnabled;
 
 @end
 

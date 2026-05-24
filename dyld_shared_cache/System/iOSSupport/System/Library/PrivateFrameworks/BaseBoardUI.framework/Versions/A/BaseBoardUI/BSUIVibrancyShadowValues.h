@@ -13,7 +13,7 @@
 
 + (struct CAColorMatrix);
 + (struct CAColorMatrix);
-+ (struct CAColorMatrix);
++ (struct CAColorMatrix)configurationWithFont:(long long)arg1 scale:(id)arg2;
 + (struct CAColorMatrix);
 - (void);
 - (id);

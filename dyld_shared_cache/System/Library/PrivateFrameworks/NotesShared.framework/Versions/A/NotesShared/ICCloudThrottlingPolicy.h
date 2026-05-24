@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudThrottlingLevel, NSArray, NSDate, NSTimer;
+@class NSArray;
 
 @interface ICCloudThrottlingPolicy
 {
     NSArray *_throttlingLevels;
-    double _resetInterval;
-    unsigned long long _currentBatchCount;
-    unsigned long long _currentLevelIndex;
-    NSDate *_policyStartDate;
-    NSTimer *_policyResetTimer;
 }
 
 + (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (double);
+- (double)qLO;
 - (id);
 - (double);
 - (void);
@@ -30,29 +25,21 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (double);
-- (id);
+- (id)unsafelyToggleLockWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void)FolderMentionedInURL:noteContext: /* Error: Ran out of types for this method. */;
+- (void)objectIDForModernFolderMentionedInURL:noteContext: /* Error: Ran out of types for this method. */;
 - (void)XÛPÜÝDàáÜáâ$äèèHêlë;
 
 // Remaining properties
-@property(readonly, nonatomic) double batchInterval;
 @property(nonatomic) unsigned long long currentBatchCount; // @synthesize currentBatchCount=_currentBatchCount;
-@property(readonly, nonatomic) ICCloudThrottlingLevel *currentLevel;
-@property(nonatomic) unsigned long long currentLevelIndex; // @synthesize currentLevelIndex=_currentLevelIndex;
-@property(readonly, nonatomic) double maximumBatchIntervalFactor;
-@property(retain) NSTimer *policyResetTimer; // @synthesize policyResetTimer=_policyResetTimer;
-@property(retain) NSDate *policyStartDate; // @synthesize policyStartDate=_policyStartDate;
-@property double resetInterval; // @synthesize resetInterval=_resetInterval;
-@property(retain, nonatomic) NSArray *throttlingLevels; // @synthesize throttlingLevels=_throttlingLevels;
 
 @end
 

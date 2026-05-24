@@ -6,20 +6,10 @@
 
 #import <UIKitMacHelper/UINSEventTranslator.h>
 
-@class NSArray, UINSGameModule, UINSTouchAccommodationVisualizer, UINSVirtualDigitizer, UINSVirtualMotionDevice;
-
 __attribute__((visibility("hidden")))
 @interface UINSGameEventTranslator : UINSEventTranslator
 {
     _Bool _enabled;
-    UINSVirtualDigitizer *_virtualDigitizer;
-    UINSTouchAccommodationVisualizer *_touchVisualizer;
-    UINSVirtualMotionDevice *_virtualMotionDevice;
-    NSArray *_modules;
-    UINSGameModule *_exclusiveModule;
-    _Bool _wantsKeyboardEvents;
-    _Bool _keyFocusStolen;
-    id _keyThiefMonitor;
 }
 
 + (void);
@@ -61,20 +51,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ain_below_80_15days:(id)arg1 n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)windowDidExitVersionBrowser: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (void);
-- (void)orProposedSize:(id)arg1 resizeEdges: /* Error: Ran out of types for this method. */;
+- (void)_sizeForProposedSize:(id)arg1 resizeEdges: /* Error: Ran out of types for this method. */;
 - (void)ÿ}?XL=;
 
 // Remaining properties

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
++ (Class)_videoViewController;
 - (id);
 
 // Remaining properties

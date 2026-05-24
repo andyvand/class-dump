@@ -4,41 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFBrush, MFFont, MFPalette, MFPath, MFPen, MFTransform, NSMutableArray, NSObject, OITSUColor;
+@class NSMutableArray, NSObject;
 @protocol MFDeviceDriver;
 
 __attribute__((visibility("hidden")))
 @interface MFDeviceContext
 {
     NSObject<MFDeviceDriver> *m_driver;
-    _Bool m_textUpdateCP;
-    double m_miterLimit;
-    int m_textHorizontalAlign;
-    int m_textVerticalAlign;
-    int m_textDirection;
-    MFFont *m_font;
-    OITSUColor *m_textColour;
-    int m_textBreakExtra;
-    int m_textBreakCount;
-    int m_textCharExtra;
-    OITSUColor *m_bkColour;
-    int m_bkMode;
-    struct CGPoint m_brushOrg;
-    struct CGPoint m_penPos;
-    int m_arcDirection;
-    int m_polyFillMode;
-    MFTransform *m_transform;
-    MFPen *m_pen;
-    MFBrush *m_brush;
-    MFPalette *m_selectedPalette;
-    int m_rop2;
-    int m_stretchMode;
-    NSMutableArray *m_clippingPaths;
-    _Bool m_clippingIsRestarted;
-    MFPath *m_path;
 }
 
-+ (id);
++ (id)T;
+- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -50,10 +27,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)!;
 - (void);
 - (void);
 - (int);
@@ -63,14 +38,14 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (int);
-- (id);
-- (struct CGPoint);
-- (id);
-- (double);
+- (int);
 - (id);
 - (struct CGPoint);
 - (id);
+- (double)T;
+- (id);
+- (struct CGPoint);
+- (id);
 - (int);
 - (id);
 - (id);
@@ -78,7 +53,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (int);
-- (int);
+- (int)qA;
 - (void);
 - (id);
 - (int);
@@ -92,7 +67,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool clippingIsRestarted; // @synthesize clippingIsRestarted=m_clippingIsRestarted;
 @property(readonly, nonatomic) NSMutableArray *clippingPaths; // @synthesize clippingPaths=m_clippingPaths;
 
 @end

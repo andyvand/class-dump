@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (void);
+- (id)account:(id)arg1 didPerformActionsForDataclasses: /* Error: Ran out of types for this method. */;
+- (void)account:(id)arg1 didChangeWithType:(CDUnknownBlockType)arg2 inStore:oldAccount: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

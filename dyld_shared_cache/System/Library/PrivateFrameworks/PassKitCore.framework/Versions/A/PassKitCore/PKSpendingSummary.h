@@ -4,30 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSString, PKCurrencyAmount, PKPaymentTransactionGroup, PKSpendingInsightTrendCollection;
-
 @interface PKSpendingSummary
 {
     _Bool _isFamilySummary;
-    _Bool _isLoading;
-    unsigned long long _summaryType;
-    unsigned long long _summaryUnit;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    PKCurrencyAmount *_totalSpending;
-    NSArray *_orderedSpendingCategories;
-    NSArray *_orderedSpendingPerMerchants;
-    PKSpendingInsightTrendCollection *_insights;
-    PKCurrencyAmount *_previousTotalSpending;
-    PKCurrencyAmount *_previousMaxAmount;
-    PKPaymentTransactionGroup *_rewards;
-    PKPaymentTransactionGroup *_interest;
-    PKPaymentTransactionGroup *_payments;
-    PKPaymentTransactionGroup *_refunds;
-    PKPaymentTransactionGroup *_adjustments;
-    NSDictionary *_totalSpendingPerAltDSID;
-    NSString *_altDSID;
-    NSArray *_spendingsPerCalendarUnit;
 }
 
 + (_Bool);
@@ -42,11 +21,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -56,10 +35,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (void);
 - (void);
@@ -67,39 +46,20 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)@;
 - (void);
 - (_Bool);
-- (void);
+- (void)_usb;
 - (id);
 - (void);
 - (void);
-- (void)ionMetadata;
-- (void)reditBureauWarning;
+- (void)PKPassAuxiliaryCapabilitySignatureFidoKeyCreationMetadata;
+- (void)creditBureauWarning;
 - (_Bool)­;
 - (id)¨;
 
 // Remaining properties
-@property(retain, nonatomic) PKPaymentTransactionGroup *adjustments; // @synthesize adjustments=_adjustments;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain, nonatomic) PKSpendingInsightTrendCollection *insights; // @synthesize insights=_insights;
-@property(retain, nonatomic) PKPaymentTransactionGroup *interest; // @synthesize interest=_interest;
-@property(nonatomic) _Bool isFamilySummary; // @synthesize isFamilySummary=_isFamilySummary;
-@property(nonatomic) _Bool isLoading; // @synthesize isLoading=_isLoading;
-@property(copy, nonatomic) NSArray *orderedSpendingCategories; // @synthesize orderedSpendingCategories=_orderedSpendingCategories;
-@property(copy, nonatomic) NSArray *orderedSpendingPerMerchants; // @synthesize orderedSpendingPerMerchants=_orderedSpendingPerMerchants;
-@property(retain, nonatomic) PKPaymentTransactionGroup *payments; // @synthesize payments=_payments;
-@property(retain, nonatomic) PKCurrencyAmount *previousMaxAmount; // @synthesize previousMaxAmount=_previousMaxAmount;
-@property(retain, nonatomic) PKCurrencyAmount *previousTotalSpending; // @synthesize previousTotalSpending=_previousTotalSpending;
-@property(retain, nonatomic) PKPaymentTransactionGroup *refunds; // @synthesize refunds=_refunds;
-@property(retain, nonatomic) PKPaymentTransactionGroup *rewards; // @synthesize rewards=_rewards;
-@property(retain, nonatomic) NSArray *spendingsPerCalendarUnit; // @synthesize spendingsPerCalendarUnit=_spendingsPerCalendarUnit;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(nonatomic) unsigned long long summaryType; // @synthesize summaryType=_summaryType;
-@property(nonatomic) unsigned long long summaryUnit; // @synthesize summaryUnit=_summaryUnit;
-@property(retain, nonatomic) PKCurrencyAmount *totalSpending; // @synthesize totalSpending=_totalSpending;
-@property(copy, nonatomic) NSDictionary *totalSpendingPerAltDSID; // @synthesize totalSpendingPerAltDSID=_totalSpendingPerAltDSID;
 
 @end
 

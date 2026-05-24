@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKCreditAccountRates, PKCurrencyAmount;
-
 @interface PKAccountCreditTermsUpdate
 {
     long long _type;
-    long long _initiator;
-    NSString *_requestIdentifier;
-    NSString *_adverseActionContentIdentifier;
-    PKCurrencyAmount *_creditLimit;
-    PKCreditAccountRates *_rates;
 }
 
 + (id);
@@ -25,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -34,26 +27,14 @@
 - (id);
 - (long long);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)_rxControl;
+- (id)AWDCoreRoutineLocationAwarenessBasicHistogram;
 - (void);
 - (id);
 - (void);
 - (void)lyticsErrorP;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *adverseActionContentIdentifier; // @synthesize adverseActionContentIdentifier=_adverseActionContentIdentifier;
-@property(retain, nonatomic) PKCurrencyAmount *creditLimit; // @synthesize creditLimit=_creditLimit;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long initiator; // @synthesize initiator=_initiator;
-@property(retain, nonatomic) PKCreditAccountRates *rates; // @synthesize rates=_rates;
-@property(copy, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(readonly) Class superclass;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

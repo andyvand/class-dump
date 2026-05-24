@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, PHPhotoLibrary;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PHAnalysisCoalescer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_lock_assetUUIDsByFeature;
-    CDUnknownBlockType _lock_pendingBlock;
-    struct os_unfair_lock_s _lock;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 + (void);

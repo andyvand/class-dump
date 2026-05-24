@@ -7,13 +7,13 @@
 @class NSString;
 
 @protocol _INPBContactRelationship
+- (NSString *)es:%s
+ /* Error: Ran out of types for this method. */;
+- (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasRelation;
 @property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *relation;
 @end
 

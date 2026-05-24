@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBHangUpCallIntentResponse
 {
     struct {
         unsigned int hungUpCallType:1;
     } _has;
-    int _hungUpCallType;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)h;
 - (int);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)uest (network=%{public}@, error=%{public}@);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasHungUpCallType;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int hungUpCallType; // @synthesize hungUpCallType=_hungUpCallType;
-@property(readonly) Class superclass;
 
 @end
 

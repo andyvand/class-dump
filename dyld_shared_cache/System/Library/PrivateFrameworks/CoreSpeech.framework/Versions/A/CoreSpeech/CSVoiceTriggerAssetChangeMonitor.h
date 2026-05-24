@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol CSVoiceTriggerAssetChangeDelegate, OS_dispatch_queue;
+@protocol CSVoiceTriggerAssetChangeDelegate;
 
 @interface CSVoiceTriggerAssetChangeMonitor
 {
     int _notifyToken;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CSVoiceTriggerAssetChangeDelegate> _delegate;
 }
 
 + (id);
-- (void);
+- (void)yK;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ordingBufferDuration;
+- (void)inputRecordingBufferDuration;
 
 // Remaining properties
 @property(nonatomic) __weak id <CSVoiceTriggerAssetChangeDelegate> delegate; // @synthesize delegate=_delegate;

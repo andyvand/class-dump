@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Server)
-- (_Bool);
-- (_Bool);
+- (_Bool)fingerPrintForData:(id)arg1 error:(unsigned int)arg2;
+- (_Bool)discreteProgressWithTotalUnitCount:(id)arg1;
 @end
 

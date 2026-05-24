@@ -11,46 +11,31 @@
 @interface PHAssetUserActivityProperties : PHAssetPropertySet
 {
     NSDate *_lastViewedDate;
-    long long _syncedPlayCount;
-    long long _syncedShareCount;
-    long long _syncedViewCount;
-    long long _pendingPlayCount;
-    long long _pendingShareCount;
-    long long _pendingViewCount;
 }
 
 + (id);
-+ (id)ertySuggestionComponents;
++ (id)PHSearchSuggestionPropertySuggestionComponents;
 - (long long);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long)-Am;
 - (long long);
 - (long long);
 - (id);
 - (long long);
-- (void)ionsAreCompleteForURL: /* Error: Ran out of types for this method. */;
+- (void)ensureOptionsAreCompleteForURL: /* Error: Ran out of types for this method. */;
 - (id)(;
 - (long long);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *lastViewedDate; // @synthesize lastViewedDate=_lastViewedDate;
-@property(nonatomic) long long pendingPlayCount; // @synthesize pendingPlayCount=_pendingPlayCount;
-@property(nonatomic) long long pendingShareCount; // @synthesize pendingShareCount=_pendingShareCount;
-@property(nonatomic) long long pendingViewCount; // @synthesize pendingViewCount=_pendingViewCount;
-@property(readonly, nonatomic) long long playCount;
-@property(readonly, nonatomic) long long shareCount;
 @property(nonatomic) long long syncedPlayCount; // @synthesize syncedPlayCount=_syncedPlayCount;
-@property(nonatomic) long long syncedShareCount; // @synthesize syncedShareCount=_syncedShareCount;
-@property(nonatomic) long long syncedViewCount; // @synthesize syncedViewCount=_syncedViewCount;
-@property(readonly, nonatomic) long long viewCount;
 
 @end
 

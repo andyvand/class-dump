@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBAppColor
 {
@@ -16,24 +16,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)initWithManagedObjectContext:(id)arg1 library:options:enumerationContext: /* Error: Ran out of types for this method. */;
+- (id)SString",R,N,V_sessionUUID;
+- (id)ediaProcessingTaskID:%tu priority:%tu versions:%{public}@ confidence:%f /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (void)taWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)loadImageDataWithCompletionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

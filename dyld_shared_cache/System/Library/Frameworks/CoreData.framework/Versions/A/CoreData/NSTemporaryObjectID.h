@@ -6,24 +6,20 @@
 
 #import <CoreData/NSManagedObjectID.h>
 
-@class NSEntityDescription;
-
 __attribute__((visibility("hidden")))
 @interface NSTemporaryObjectID : NSManagedObjectID
 {
     int _cd_rc;
-    int _counter;
-    NSEntityDescription *_entity;
 }
 
 + (void);
-+ (long long);
++ (long long);
 + (unsigned int);
 + (id);
 + (Class);
 + (void);
 + (void);
-+ (id);
++ (id)createDefaultOptions;
 + (void)/Library/BuildRoots/4~CNqEugDh502GJL_x8DXQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/PFCloudKitSerializer.m;
 + (_Bool)ving incompletely migrated store on disk after in-place migration error. (%@, %@);
 + (id)variable);
@@ -42,11 +38,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
+- (id);
 - (id);
-- (id);
 - (_Bool);
-- (id)eplaceBytesInRange:(id)arg1 withBytes: /* Error: Ran out of types for this method. */;
+- (id)replaceBytesInRange:(id)arg1 withBytes: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)t set a query generation on an NSManagedObjectContext that does not have a coordinator;
 

@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface WFNextHourPrecipitationMinute
 {
     double _intensity;
-    double _chance;
-    double _perceivedIntensity;
-    NSDate *_date;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) double chance; // @synthesize chance=_chance;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) double intensity; // @synthesize intensity=_intensity;
-@property(readonly, nonatomic) double perceivedIntensity; // @synthesize perceivedIntensity=_perceivedIntensity;
 
 @end
 

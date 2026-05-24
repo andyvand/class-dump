@@ -7,11 +7,9 @@
 @interface TeaUI.PluginLayoutOptionsProvider
 {
     id layoutOptionsCommit;
-    id blueprintLayoutOptionsProvider;
-    id useWindowSizeViewportAdjustment;
 }
 
-- (id);
+- (id)transformationWithPersonalizer:feedItemScores:sortOptions: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

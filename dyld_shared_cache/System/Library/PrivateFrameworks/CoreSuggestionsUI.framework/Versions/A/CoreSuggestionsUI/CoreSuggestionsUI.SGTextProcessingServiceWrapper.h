@@ -7,11 +7,10 @@
 @interface CoreSuggestionsUI.SGTextProcessingServiceWrapper
 {
     id service;
-    id logger;
 }
 
 - (void);
-- (id);
+- (id)};
 - (void);
 
 @end

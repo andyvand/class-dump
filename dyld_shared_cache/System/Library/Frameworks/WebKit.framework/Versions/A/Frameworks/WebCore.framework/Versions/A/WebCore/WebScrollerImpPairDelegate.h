@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebScrollerImpPairDelegate
 {
@@ -13,10 +11,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)C;
 - (void);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGRect);
 - (_Bool);
 - (void);
@@ -31,13 +29,7 @@ __attribute__((visibility("hidden")))
 pÝ]Æmuzâìo¬tubåð¹tpornoðéõîíqýmydesi²ðÞ'erogiäðâÄáðÙhåïªT91shåîõá­		l«Ób4Éa;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

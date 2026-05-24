@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSFocusItemCache, NSScrollView, NSString, NSView, NSWindow, UIFocusSystem;
-@protocol UIFocusEnvironment;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSFocusController
 {
     _Bool _observingSharedSession;
-    _Bool _synchronizingFirstResponder;
-    UIFocusSystem *_focusSystem;
-    id <UIFocusEnvironment> _rootFocusEnvironment;
-    long long _navigationCommand;
-    NSFocusItemCache *_focusItemCache;
 }
 
-+ (id);
-+ (id);
++ (id)te-Host = %@ 
+ 			Alternate-Port = %ld 
+ 			Expiration = %@ 
+} ;
++ (id)6w9;
 + (void);
 + (void)Style;
 - (void);
+- (void)d response;
 - (void);
 - (void);
+- (void)';
+- (_Bool) ;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)TJK;
 - (void);
 - (id);
 - (id);
@@ -40,18 +37,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)nloadFileOpener>";
+- (void)Q16@24;
+- (id)v48@0:(id)arg1 8@"NSURLSession"16@"NSURLSessionTask"24@"NSURLRequest"32@?<v@?q@"NSURLRequest">40;
+- (id)accept_didReceiveChallenge;
+- (id)accept__isWaitingForConnection_withoutError;
+- (void)_uniqueIdentifier;
+- (_Bool)te = %@;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)__nsurlrequest_proto_prop_obj_14;
+- (void)__nsurlrequest_proto_prop_obj_9;
 - (id);
 - (_Bool);
 - (id);
@@ -63,32 +60,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)entifiers;
+- (id)_newBarsToIdentifiers;
 - (void)¶¶&ºH»7¼»¼Ü½;
 - (id)verNotification];
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *_descriptionAttributes;
-@property(readonly) NSScrollView *_focusedScrollView;
-@property(readonly, getter=_isObservingSharedSession) _Bool _observingSharedSession; // @synthesize _observingSharedSession;
-@property(readonly) _Bool allowsAnyValidFocusItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSFocusItemCache *focusItemCache; // @synthesize focusItemCache=_focusItemCache;
-@property(readonly) UIFocusSystem *focusSystem; // @synthesize focusSystem=_focusSystem;
-@property(readonly) NSArray *focusedEnvironments;
-@property(readonly) unsigned long long hash;
-@property long long navigationCommand; // @synthesize navigationCommand=_navigationCommand;
-@property(readonly, nonatomic) NSView *nextKeyView;
-@property(readonly, nonatomic) NSView *previousKeyView;
-@property __weak id <UIFocusEnvironment> rootFocusEnvironment; // @synthesize rootFocusEnvironment=_rootFocusEnvironment;
-@property(readonly) NSWindow *rootWindow;
-@property(readonly) Class superclass;
-@property(getter=isSynchronizingFirstResponder) _Bool synchronizingFirstResponder; // @synthesize synchronizingFirstResponder=_synchronizingFirstResponder;
 
 @end
 

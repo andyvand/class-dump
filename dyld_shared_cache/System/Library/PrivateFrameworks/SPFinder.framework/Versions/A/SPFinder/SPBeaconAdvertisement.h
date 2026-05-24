@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSUUID, SPEstimatedLocation;
+@class NSData;
 
 @interface SPBeaconAdvertisement
 {
     unsigned char _rawStatus;
-    NSData *_address;
-    NSData *_publicKey;
-    NSData *_deviceType;
-    NSData *_batteryState;
-    long long _rssi;
-    NSDate *_scanDate;
-    SPEstimatedLocation *_location;
-    NSUUID *_recordIdentifier;
 }
 
 + (_Bool);
@@ -25,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)SYSTEM_SPAIN_Funicular_de_Gelida_Rail;
 - (id);
 - (void);
 - (id);
@@ -34,25 +26,18 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)gnosticReporter.framework/Versions/A/SymptomDiagnosticReporter;
 - (id);
-- (id);
+- (id)/com.apple.xbs/TemporaryDirectory.vrZUgA/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm" at line 1785
+;
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)tisementCache:(id)arg1 Establishing XPC connection to %@;
 - (void)FinderStateInfo state:(id)arg1 %i, optInScreenOffScan:%i, lastUpdated:%@, lastPublishDate:%@, lastScheduledPublishActivityDate:%@, activeCache:%li, disabledReasons:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *address; // @synthesize address=_address;
-@property(copy, nonatomic) NSData *batteryState; // @synthesize batteryState=_batteryState;
-@property(copy, nonatomic) NSData *deviceType; // @synthesize deviceType=_deviceType;
-@property(copy, nonatomic) SPEstimatedLocation *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(nonatomic) unsigned char rawStatus; // @synthesize rawStatus=_rawStatus;
-@property(copy, nonatomic) NSUUID *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(nonatomic) long long rssi; // @synthesize rssi=_rssi;
-@property(copy, nonatomic) NSDate *scanDate; // @synthesize scanDate=_scanDate;
 
 @end
 

@@ -7,15 +7,6 @@
 @interface ktrace.RecordInfo
 {
     id initialSpan;
-    id currentSpan;
-    id usage;
-    id phases;
-    id phaseThroughputs;
-    id fileSize;
-    id lostEvents;
-    id retrogradeEvents;
-    id endReason;
-    id error;
 }
 
 @end

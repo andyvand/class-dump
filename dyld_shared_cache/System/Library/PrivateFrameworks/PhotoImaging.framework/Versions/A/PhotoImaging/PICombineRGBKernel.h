@@ -9,8 +9,6 @@
 @interface PICombineRGBKernel
 {
     id <MTLTexture> _redTexture;
-    id <MTLTexture> _greenTexture;
-    id <MTLTexture> _blueTexture;
 }
 
 + (void);
@@ -18,14 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)error: /* Error: Ran out of types for this method. */;
+- (void)predictSlidersToTransferStyleFrom:to:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLTexture> blueTexture; // @synthesize blueTexture=_blueTexture;
-@property(retain, nonatomic) id <MTLTexture> greenTexture; // @synthesize greenTexture=_greenTexture;
 @property(retain, nonatomic) id <MTLTexture> redTexture; // @synthesize redTexture=_redTexture;
 
 @end

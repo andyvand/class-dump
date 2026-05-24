@@ -4,48 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemTip, MKMapItem, NSDate, NSString, NSURL;
-@protocol GEOMapItemReview;
+@class MKMapItem;
 
 __attribute__((visibility("hidden")))
 @interface _MKMapItemUserRatingSnippetReview
 {
     MKMapItem *_mapItem;
-    id <GEOMapItemReview> _review;
 }
 
-- (void);
+- (void)setIdentifierToCoalitionID:(CDUnknownBlockType)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
+- (double)onnected;
+- (id)8ObjectDiscoveryNearOwnerBuffer;
 - (double);
-- (id);
-- (double);
-- (double);
+- (double)ce;
 - (id);
 - (id);
 - (id);
-- (void)Margins: /* Error: Ran out of types for this method. */;
+- (void)setLayoutMargins: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_date) NSDate *date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=_geoMapItemTIp) GEOMapItemTip *geoMapItemTip;
-@property(readonly, nonatomic, getter=_geoReview) id <GEOMapItemReview> geoReview;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=_localizedSnippet) NSString *localizedSnippet;
-@property(readonly, nonatomic, getter=_localizedSnippetLocale) NSString *localizedSnippetLocale;
-@property(readonly, nonatomic, getter=_maxScore) double maxScore;
-@property(readonly, nonatomic, getter=_normalizedScore) double normalizedScore;
-@property(readonly, nonatomic, getter=_reviewerImageURL) NSURL *reviewerImageURL;
-@property(readonly, nonatomic, getter=_reviewerName) NSString *reviewerName;
 @property(readonly, nonatomic, getter=_score) double score;
-@property(readonly) Class superclass;
 
 @end
 

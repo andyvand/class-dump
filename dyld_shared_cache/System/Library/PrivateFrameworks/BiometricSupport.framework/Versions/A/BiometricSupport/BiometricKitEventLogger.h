@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKEvent, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface BiometricKitEventLogger
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_timer;
-    unsigned int _eventList[200];
-    int _eventListLength;
-    _Bool _terminalFlushPending;
-    _Bool _startEventFound;
-    BKEvent *_lastSmartKeyboardEvent;
 }
 
 + (id)x
@@ -28,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)RO;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_plusId;
-    _Bool _hasPlusId;
 }
 
 - (void);
@@ -19,22 +18,20 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)^;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)nges %@ for attachmentGUID %@, syndicationIdentifier %@;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)eFailed;
+- (id)_hasSampledAudioFileEnqueueFailed;
 - (id)onStateReadySnapshotCaptured;
-- (void)sconnected;
+- (void)xpcClientDisconnected;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPlusId; // @synthesize hasPlusId=_hasPlusId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *plusId; // @synthesize plusId=_plusId;
 
 @end

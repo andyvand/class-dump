@@ -9,13 +9,12 @@
 @interface FLApprovedItemsFilter
 {
     NSSet *_approvedItemIdentifiers;
-    NSSet *_approvedClientIdentifiers;
 }
 
 + (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)NSt3__114default_deleteIN3ctu4Http20HttpResponseConcreteEEE;
+- (void);
 
 @end
 

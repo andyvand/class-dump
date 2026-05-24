@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _PASDatabaseJournalFile;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _PASDatabaseJournal
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *_directoryPath;
-    unsigned long long _serialNumber;
-    NSString *_uuid;
-    _Bool _journaling;
-    _Bool _inMemory;
-    _PASDatabaseJournalFile *_currentFile;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (CDUnknownBlockType);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
++ (id)ation;
++ (id)Remove accessory;
++ (id)File addSubfileWithTagName:(id)arg1 contentsOfURL:] /* Error: Ran out of types for this method. */;
++ (CDUnknownBlockType)TLV %@
+;
+- (void):(id)arg1;
+- (_Bool)downstreamAssetIDs;
+- (_Bool)lizationHelperQueryPendingTssRequests:(id)arg1 ];
+- (_Bool)le;
+- (_Bool)updateProperty:(id)arg1 value:(id)arg2 forAccessory:(_Bool *)arg3 ];
+- (_Bool)A3339;
 - (id);
-- (_Bool);
-- (void);
-- (_Bool)ta:asciiPrefixLength:nullTerminated: /* Error: Ran out of types for this method. */;
+- (_Bool)recurrenceSplitAction:failedWithError: /* Error: Ran out of types for this method. */;
+- (void)setInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithUTF8Data:asciiPrefixLength:nullTerminated: /* Error: Ran out of types for this method. */;
 - (id)k;
 
 // Remaining properties

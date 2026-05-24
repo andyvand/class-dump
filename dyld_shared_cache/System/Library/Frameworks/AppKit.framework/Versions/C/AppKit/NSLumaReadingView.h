@@ -6,29 +6,24 @@
 
 #import <AppKit/NSView.h>
 
-@class NSString;
-
 @interface NSLumaReadingView : NSView
 {
     double _luma;
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void)countOfResponseHeaderBytesReceived;
+- (void)connection:(_Bool)arg1 didReceiveData:lengthReceived: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (void);
 - (double);
 - (id);
-- (id)n;
+- (id)_shouldShowNewTabButton;
 - (id)´;
 - (void)Dqÿ;
 
 // Remaining properties
-@property(nonatomic) double _luma; // @synthesize _luma;
-@property(nonatomic, copy) NSString *groupName;
-@property(nonatomic, readonly) double luma;
 @property(nonatomic) _Bool windowServerAware;
 
 @end

@@ -7,7 +7,6 @@
 @interface AppStoreKit.ProductPageSection
 {
     id type;
-    id shelfId;
 }
 
 @end

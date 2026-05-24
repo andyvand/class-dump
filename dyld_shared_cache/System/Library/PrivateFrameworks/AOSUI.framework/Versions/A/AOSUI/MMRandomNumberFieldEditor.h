@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (_Bool);
-- (_Bool)OSUIProfileViewControllerDelegate;
+- (_Bool)AOSUIProfileViewControllerDelegate;
 
 @end
 

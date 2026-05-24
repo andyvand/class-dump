@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDJobManifest, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface ASDJobOptions
 {
     NSXPCConnection *_endpoint;
-    ASDJobManifest *_manifest;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *endpoint; // @synthesize endpoint=_endpoint;
-@property(retain, nonatomic) ASDJobManifest *manifest; // @synthesize manifest=_manifest;
 
 @end
 

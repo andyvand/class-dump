@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface BlastDoorRelayReachabilityContext
 {
     id relayReachabilityContext;
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)GRect={CGPoint=dd}{CGSize=dd}}16@0:8 /* Error: Ran out of types for this method. */;
+- (id)@?>24q32@"NSString"40;
+- (id)6B64@?68;
+- (id)80@84@?92@100;
+- (_Bool)ionCategory>"16@0:8 /* Error: Ran out of types for this method. */;
+- (_Bool)tionary">56;
+- (id)legate>";
+- (_Bool)@0:8@16@24Q32@?40 /* Error: Ran out of types for this method. */;
+- (_Bool)ationManager"16@"NSArray"24;
+- (_Bool)UIFont"48{_NSRange=QQ}56;
+- (_Bool)essagesStackView"16;
 - (id);
 - (long long);
-- (id);
+- (id)A;
 - (id);
 - (void)PÊÿÿÿÿÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *chatIdentifier;
-@property(nonatomic, readonly) long long chatStyle;
-@property(nonatomic, readonly) _Bool conversationWasDowngraded;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool forceMMS;
-@property(nonatomic, readonly) _Bool hasConversationHistory;
-@property(nonatomic, readonly) _Bool isForPendingConversation;
-@property(nonatomic, readonly) NSString *lastUsedServiceName;
-@property(nonatomic, readonly) _Bool requestBrandInfo;
-@property(nonatomic, readonly) _Bool requestPersistentMenu;
-@property(nonatomic, readonly) NSString *senderLastAddressedHandle;
-@property(nonatomic, readonly) NSUUID *senderLastAddressedSIMID;
-@property(nonatomic, readonly) NSString *serviceOfLastMessage;
-@property(nonatomic, readonly) _Bool shouldForceServerStatusRefresh;
 
 @end
 

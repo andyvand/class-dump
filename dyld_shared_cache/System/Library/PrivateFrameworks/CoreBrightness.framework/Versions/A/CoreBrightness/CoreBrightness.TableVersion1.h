@@ -7,8 +7,6 @@
 @interface CoreBrightness.TableVersion1
 {
     id nitArray;
-    id aplArray;
-    id wattNitConversionTable;
 }
 
 @end

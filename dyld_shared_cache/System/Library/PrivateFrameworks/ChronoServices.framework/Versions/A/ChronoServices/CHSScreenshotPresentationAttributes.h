@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSWidgetTintParameters, NSDateComponents, NSString;
-
 @interface CHSScreenshotPresentationAttributes
 {
     long long _colorScheme;
-    _Bool _allowsPrivacySensitiveContent;
-    _Bool _userWantsWidgetDataWhenPasscodeLocked;
-    NSString *_additionalSettingsContext;
-    CHSWidgetTintParameters *_tintParameters;
-    NSDateComponents *_idealizedDateComponents;
 }
 
 - (unsigned long long);
@@ -22,17 +15,12 @@
 - (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id)�@y?;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *additionalSettingsContext; // @synthesize additionalSettingsContext=_additionalSettingsContext;
-@property(readonly, nonatomic) _Bool allowsPrivacySensitiveContent; // @synthesize allowsPrivacySensitiveContent=_allowsPrivacySensitiveContent;
 @property(readonly, nonatomic) long long colorScheme; // @synthesize colorScheme=_colorScheme;
-@property(readonly, copy, nonatomic) NSDateComponents *idealizedDateComponents; // @synthesize idealizedDateComponents=_idealizedDateComponents;
-@property(readonly, copy, nonatomic) CHSWidgetTintParameters *tintParameters; // @synthesize tintParameters=_tintParameters;
-@property(readonly, nonatomic) _Bool userWantsWidgetDataWhenPasscodeLocked; // @synthesize userWantsWidgetDataWhenPasscodeLocked=_userWantsWidgetDataWhenPasscodeLocked;
 
 @end
 

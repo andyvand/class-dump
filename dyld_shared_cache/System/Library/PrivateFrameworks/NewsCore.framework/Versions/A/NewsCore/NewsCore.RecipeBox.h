@@ -7,9 +7,6 @@
 @interface NewsCore.RecipeBox
 {
     id lockedModificationDate;
-    id privateZone;
-    id observers;
-    id lockedCache;
 }
 
 @end

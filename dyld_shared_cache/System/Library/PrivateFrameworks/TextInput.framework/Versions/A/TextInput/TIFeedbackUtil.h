@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)A9	A;
 + (void);
 + (void);
 + (void);
@@ -31,7 +31,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -42,7 +42,7 @@
 + (_Bool);
 + (long long);
 + (id);
-+ (id);
++ (id)?נ;
 + (id);
 + (id);
 + (id);
@@ -59,9 +59,9 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
-+ (id);
++ (id)?נ;
 + (long long);
 + (id);
 + (long long);

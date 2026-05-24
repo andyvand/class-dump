@@ -5,5 +5,9 @@
 //
 
 @protocol PLMomentProcessingProtocol
+- (id)NFSecureElementAndHostCardEmulationSession;
+- (id)p;
+- (id);
+- (id)AndContactMonitor:Contact store changed, processing changes /* Error: Ran out of types for this method. */;
 @end
 

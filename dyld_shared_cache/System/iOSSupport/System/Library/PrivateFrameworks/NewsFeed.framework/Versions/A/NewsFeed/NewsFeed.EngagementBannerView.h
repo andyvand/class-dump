@@ -7,11 +7,9 @@
 @interface NewsFeed.EngagementBannerView
 {
     id borderColor;
-    id traitChangeRegistration;
-    id engagementView;
 }
 
-- (id);
+- (id)CodingKeys;
 - (id)!ÈFùÿ1Â0@ù
 × ;
 - (void);

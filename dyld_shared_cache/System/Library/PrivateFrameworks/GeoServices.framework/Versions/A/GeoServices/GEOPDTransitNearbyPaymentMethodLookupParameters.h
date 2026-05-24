@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitNearbyPaymentMethodLookupParameters
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_transitNearbyPaymentMethodLookupOrigins;
 }
 
 - (id);
-- (void);
+- (void)setPossibleShortTitles:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)EdgePiece *>>="__first_"^^{TransitEdgePiece}"__begin_"^^{TransitEdgePiece}"__end_"^^{TransitEdgePiece}""{?="__cap_"^^{TransitEdgePiece}}}"__start_"Q""{?="__size_"Q}};
-- (id)ata;
+- (id)_sendActiveRouteDetailsData;
 - (id)l«;
 - (void);
 

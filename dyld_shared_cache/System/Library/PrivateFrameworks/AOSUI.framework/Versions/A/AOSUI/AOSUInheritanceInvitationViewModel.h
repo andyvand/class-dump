@@ -6,16 +6,9 @@
 
 #import <AOSUI/AOSUIAccountContactBaseViewModel.h>
 
-@class NSString;
-
 @interface AOSUInheritanceInvitationViewModel : AOSUIAccountContactBaseViewModel
 {
     _Bool _shouldShowHelpLinkAsTemplateButton;
-    NSString *_title;
-    NSString *_detailText;
-    NSString *_recipientHandle;
-    NSString *_ownerHandle;
-    long long _templateContentViewLayout;
 }
 
 - (long long);
@@ -29,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)1Yð1Â0@ù
 × ;
 

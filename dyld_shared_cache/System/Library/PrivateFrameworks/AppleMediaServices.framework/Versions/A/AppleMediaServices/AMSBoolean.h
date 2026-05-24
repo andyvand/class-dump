@@ -14,8 +14,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setActivity:(id)arg1;
+- (void);
 - (_Bool);
 
 // Remaining properties

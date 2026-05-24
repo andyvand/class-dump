@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAutoAssetPolicy, NSString;
+@class NSString;
 
 @interface MAAutoAssetInfoDesire
 {
     _Bool _downloadProgressDesired;
-    NSString *_updateCategoryDesiredByClient;
-    MAAutoAssetPolicy *_clientAssetPolicy;
-    long long _checkWaitTimeoutSecs;
-    NSString *_desireReason;
-    long long _lockWaitTimeoutSecs;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)_objectForKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)initWithKeyShare:(id)arg1;
 - (id);
 - (long long);
 - (void);
@@ -31,11 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long checkWaitTimeoutSecs; // @synthesize checkWaitTimeoutSecs=_checkWaitTimeoutSecs;
-@property(readonly, retain, nonatomic) MAAutoAssetPolicy *clientAssetPolicy; // @synthesize clientAssetPolicy=_clientAssetPolicy;
-@property(readonly, retain, nonatomic) NSString *desireReason; // @synthesize desireReason=_desireReason;
-@property(readonly, nonatomic) _Bool downloadProgressDesired; // @synthesize downloadProgressDesired=_downloadProgressDesired;
-@property(readonly, nonatomic) long long lockWaitTimeoutSecs; // @synthesize lockWaitTimeoutSecs=_lockWaitTimeoutSecs;
 @property(readonly, retain, nonatomic) NSString *updateCategoryDesiredByClient; // @synthesize updateCategoryDesiredByClient=_updateCategoryDesiredByClient;
 
 @end

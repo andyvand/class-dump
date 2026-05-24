@@ -7,24 +7,20 @@
 @interface _DUIPotentialDrop
 {
     _Bool _forbidden;
-    _Bool _precise;
-    _Bool _prefersFullSizePreview;
-    unsigned long long _operation;
-    long long _preferredBadgeStyle;
 }
 
 + (_Bool)documents.error.import.message;
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
-- (_Bool);
+- (void)isValidSMSFilterCapabilitiesOptions:(_Bool)arg1;
+- (void)isPriorityMessagesEnabled;
+- (void)downloadAttachmentAssetsForChatIDs:(_Bool)arg1 services:style:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)_createJunkReportMessageItemBodyForMessageItem:junkChatStyle:serviceName: /* Error: Ran out of types for this method. */;
+- (long long)_clearExpiredTimeSensitiveMessages;
+- (_Bool)t;
 - (id);
+- (id)state:%s /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool)tyStyle:(id)arg1;
-- (void):(id)arg1;
+- (_Bool)setLegibilityStyle:(id)arg1;
+- (void)moveToEndOfDocument:(id)arg1;
 - (void)leadingQuickActionView;
 - (id)UIAvoidanceCoordinator",&,N;
 - (_Bool)ØÒþ;
@@ -32,11 +28,7 @@
 - (void)êÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool forbidden; // @synthesize forbidden=_forbidden;
 @property(nonatomic) unsigned long long operation; // @synthesize operation=_operation;
-@property(nonatomic) _Bool precise; // @synthesize precise=_precise;
-@property(nonatomic) long long preferredBadgeStyle; // @synthesize preferredBadgeStyle=_preferredBadgeStyle;
-@property(nonatomic) _Bool prefersFullSizePreview; // @synthesize prefersFullSizePreview=_prefersFullSizePreview;
 
 @end
 

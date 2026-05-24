@@ -7,6 +7,8 @@
 @class NSArray;
 
 @protocol EGSourcePort
+- (void)`;
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *destinations;

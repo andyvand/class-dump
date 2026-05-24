@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNUICoreRecentsManager, GKServiceProxy;
-@protocol CNCancelable, CNScheduler, CNSchedulerProvider;
+@protocol CNSchedulerProvider;
 
 __attribute__((visibility("hidden")))
 @interface CNCardGameCenterManager
 {
     _Bool _hasSentInvite;
-    _Bool _hasCheckedAuthenticatedLocalPlayer;
-    _Bool _isEligibleForFriendingViaPush;
-    CNContact *_contact;
-    CNUICoreRecentsManager *_recentsManager;
-    id <CNSchedulerProvider> _schedulerProvider;
-    id <CNScheduler> _workQueue;
-    id <CNCancelable> _relationshipResultsCancelable;
-    GKServiceProxy *_gameCenterProxy;
 }
 
 - (void);
@@ -32,15 +23,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)qA;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -48,15 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)W,N,V_delegate;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) GKServiceProxy *gameCenterProxy; // @synthesize gameCenterProxy=_gameCenterProxy;
-@property(nonatomic) _Bool hasCheckedAuthenticatedLocalPlayer; // @synthesize hasCheckedAuthenticatedLocalPlayer=_hasCheckedAuthenticatedLocalPlayer;
-@property(nonatomic) _Bool hasSentInvite; // @synthesize hasSentInvite=_hasSentInvite;
-@property(nonatomic) _Bool isEligibleForFriendingViaPush; // @synthesize isEligibleForFriendingViaPush=_isEligibleForFriendingViaPush;
-@property(retain, nonatomic) CNUICoreRecentsManager *recentsManager; // @synthesize recentsManager=_recentsManager;
-@property(retain, nonatomic) id <CNCancelable> relationshipResultsCancelable; // @synthesize relationshipResultsCancelable=_relationshipResultsCancelable;
 @property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly, nonatomic) id <CNScheduler> workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -9,23 +9,21 @@
 @interface MSSubscribedStream
 {
     NSString *_streamID;
-    NSString *_ctag;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id)omes:(id)arg1 %{public}@;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)adderkælling;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *ctag; // @synthesize ctag=_ctag;
 @property(retain, nonatomic) NSString *streamID; // @synthesize streamID=_streamID;
 
 @end

@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)_travelTimeIconForTravelModeWithColor:(id)arg1;
 - (id);
 - (void);
 

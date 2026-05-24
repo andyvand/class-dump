@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKLinkedList, NSMutableArray;
+@class IKLinkedList;
 
 @interface IKLinkedListNodePool
 {
     IKLinkedList *_freeNodes;
-    NSMutableArray *_nodePool;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)imple;
+- (void)Assets:dryRun:includedCacheDeletableAssetIds:completion: /* Error: Ran out of types for this method. */;
+- (id)IKScannerPreviewSimple;
 
 @end
 

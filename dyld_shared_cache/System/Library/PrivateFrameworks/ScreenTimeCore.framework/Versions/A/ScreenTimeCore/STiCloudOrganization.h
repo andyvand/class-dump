@@ -6,30 +6,23 @@
 
 #import <ScreenTimeCore/STCoreOrganization.h>
 
-@class NSString, STiCloudOrganizationSettings;
+@class STiCloudOrganizationSettings;
 
 @interface STiCloudOrganization : STCoreOrganization
 {
 }
 
-+ (id);
++ (id)join item_extra using (item_pid) where item_pid in (select sync_id from item_store where sync_id != 0) and sync_id = 0;
 + (id);
 + (id);
 + (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) STiCloudOrganizationSettings *settings; // @dynamic settings;
-@property(readonly) Class superclass;
 
 @end
 

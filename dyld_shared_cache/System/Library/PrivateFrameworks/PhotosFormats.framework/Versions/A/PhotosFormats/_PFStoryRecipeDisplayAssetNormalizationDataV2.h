@@ -11,7 +11,7 @@
 }
 
 + (id)ÿ;
-- (id);
+- (id)tics;
 
 // Remaining properties
 @property(readonly, nonatomic) const CDStruct_3de61c9d *sliderNetPackedData; // @dynamic sliderNetPackedData;

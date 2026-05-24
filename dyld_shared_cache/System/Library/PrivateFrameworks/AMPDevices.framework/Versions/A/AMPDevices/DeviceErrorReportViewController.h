@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSScrollView, NSString, NSTableView, NSTextField;
+@class NSArray;
 
 @interface DeviceErrorReportViewController
 {
     _Bool _hideSaveButton;
-    NSTextField *_messageTextField;
-    NSTextField *_explanationTextField;
-    NSTableView *_tableView;
-    NSScrollView *_scrollView;
-    NSButton *_saveButton;
-    NSButton *_cancelButton;
-    NSButton *_okButton;
-    NSButton *_disclosureTriangleButton;
-    NSTextField *_numberOfErrorsTextField;
-    NSString *_okButtonTitle;
-    NSString *_cancelButtonTitle;
-    NSString *_windowTitle;
-    NSString *_defaultFileName;
-    NSArray *_errors;
-    NSArray *_errorNodes;
 }
 
 - (void);
@@ -31,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)<;
 - (void);
 - (id);
 - (_Bool);
@@ -41,7 +26,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,20 +37,20 @@
 - (void);
 - (id);
 - (void);
+- (id)E;
+- (void);
+- (void)nePendingRecordChecks",R,N,V_pendingRecordChecks;
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -76,29 +61,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(retain, nonatomic) NSString *cancelButtonTitle; // @synthesize cancelButtonTitle=_cancelButtonTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSString *defaultFileName; // @synthesize defaultFileName=_defaultFileName;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSButton *disclosureTriangleButton; // @synthesize disclosureTriangleButton=_disclosureTriangleButton;
 @property(retain, nonatomic) NSArray *errorNodes; // @synthesize errorNodes=_errorNodes;
-@property(retain, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(nonatomic) __weak NSTextField *explanationTextField; // @synthesize explanationTextField=_explanationTextField;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideSaveButton; // @synthesize hideSaveButton=_hideSaveButton;
-@property(nonatomic) __weak NSTextField *messageTextField; // @synthesize messageTextField=_messageTextField;
-@property(nonatomic) __weak NSTextField *numberOfErrorsTextField; // @synthesize numberOfErrorsTextField=_numberOfErrorsTextField;
-@property(nonatomic) __weak NSButton *okButton; // @synthesize okButton=_okButton;
-@property(retain, nonatomic) NSString *okButtonTitle; // @synthesize okButtonTitle=_okButtonTitle;
-@property(nonatomic) __weak NSButton *saveButton; // @synthesize saveButton=_saveButton;
-@property(nonatomic) __weak NSScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSTableView *tableView; // @synthesize tableView=_tableView;
-@property(retain, nonatomic) NSString *windowTitle; // @synthesize windowTitle=_windowTitle;
 
 @end
 

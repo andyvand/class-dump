@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface BKSHIDEventHitTestLayerInformation
 {
     unsigned long long _validMask;
-    float _cumulativeOpacity;
-    float _backgroundAverage;
-    float _backgroundStandardDeviation;
-    float _backgroundAverageContrastThreshold;
-    struct CATransform3D _cumulativeLayerTransform;
-    struct CATransform3D _cumulativeContentsTransform;
-    _Bool _hasInsecureFilter;
-    _Bool _detectedOcclusion;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)RECOVERY_KEY_REPAIR_SECONDARY_ACTION;
 - (unsigned long long);
 - (id);
 - (id);
@@ -36,7 +26,7 @@
 - (float);
 - (void);
 - (id);
-- (id);
+- (id)schema and model predicted column.;
 - (unsigned long long);
 - (id);
 - (void);
@@ -45,24 +35,6 @@
 - (id)ð'ýÿOR/;
 
 // Remaining properties
-@property(readonly, nonatomic) float backgroundAverage;
-@property(readonly, nonatomic) float backgroundAverageContrastThreshold;
-@property(readonly, nonatomic) float backgroundStandardDeviation;
-@property(readonly, nonatomic) struct CATransform3D cumulativeContentsTransform;
-@property(readonly, nonatomic) struct CATransform3D cumulativeLayerTransform;
-@property(readonly, nonatomic) float cumulativeOpacity;
-@property(readonly, nonatomic) struct CATransform3D cumulativeTransform;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool detectedOcclusion;
-@property(readonly, nonatomic) _Bool hasInsecureFilter;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *maximumBackgroundColor;
-@property(readonly, copy, nonatomic) NSArray *minimumBackgroundColor;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long validMask;
 
 @end

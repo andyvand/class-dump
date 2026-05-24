@@ -6,32 +6,29 @@
 
 #import <UniversalAccess/UAOnboardingViewController.h>
 
-@class NSButton, NSStackView, UAOnboardingImageEnableFeature;
+@class NSButton, UAOnboardingImageEnableFeature;
 
 __attribute__((visibility("hidden")))
 @interface UAOnboardingImageEnableViewController : UAOnboardingViewController
 {
     NSButton *_enableCheckBox;
-    NSStackView *_verticalStackView;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)lientEvent";
+- (void)doff";
+- (void)cond"b1"generativeResultCharactersCount"b1"imageResizingRateKBsPerSecond"b1"imageCount"b1"fileCount"b1};
+- (id)atementId"b1"donationTrigger"b1"wasTupleDonated"b1};
+- (void)ext";
+- (void)tionEvaluationStarted";
+- (void)layingDevicesCount"b1"airPlayRouteSettingStatus"b1"userPersona"b1"wasOnScreenItemSelected"b1};
+- (void)hasSynthesisRealTimeFactor;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property __weak NSButton *enableCheckBox; // @synthesize enableCheckBox=_enableCheckBox;
 @property(retain, nonatomic) UAOnboardingImageEnableFeature *feature; // @dynamic feature;
-@property __weak NSStackView *verticalStackView; // @synthesize verticalStackView=_verticalStackView;
 
 @end
 

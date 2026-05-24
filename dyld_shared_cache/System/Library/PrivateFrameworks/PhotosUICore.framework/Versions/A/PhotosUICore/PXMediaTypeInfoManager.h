@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXMediaTypeInfoManager
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableArray *_pendingCompletionHandlers;
 }
 
 + (id);
-+ (id)_Qo__So7PHAssetCSgQo_G_SayA5_GSgQo__SbQo_;
++ (id)A1_SQ12CoreGraphicsyHCg0_Qo__So7PHAssetCSgQo_G_SayA5_GSgQo__SbQo_;
 - (void);
 - (void);
 - (void);

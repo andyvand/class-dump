@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSURL;
+@class NSURL;
 
 @protocol NDAnalyticsPayloadInfo
+- (NSURL *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *droppedEntriesByReason;
 @property(readonly, copy, nonatomic) NSURL *endpointURL;
-@property(readonly, copy, nonatomic) NSArray *entriesToUpload;
-@property(readonly, copy, nonatomic) NSDictionary *valuesByHTTPHeaderField;
 @end
 

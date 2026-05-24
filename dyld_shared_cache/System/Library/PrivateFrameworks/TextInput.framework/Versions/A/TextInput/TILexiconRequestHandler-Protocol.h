@@ -5,5 +5,7 @@
 //
 
 @protocol TILexiconRequestHandler
+- (void);
+- (void);
 @end
 

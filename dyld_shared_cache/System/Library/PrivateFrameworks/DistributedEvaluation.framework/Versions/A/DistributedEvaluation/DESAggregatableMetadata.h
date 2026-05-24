@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)dictationExperimentDigestsReported.digests.turnIds;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, NSURL, PKPass;
+@class NSMutableDictionary, NSURL;
 
 @interface PKPlaceholderPassGenerator
 {
     NSURL *_templateDirectory;
-    PKPass *_templatePass;
-    CDUnknownBlockType _updateUrlsBlock;
-    NSMutableDictionary *_passContent;
 }
 
 + (id);
@@ -22,27 +19,24 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)*;
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)changeTypeToAccount:fromAccount: /* Error: Ran out of types for this method. */;
 - (id)calizedTitle;
 - (void)_artworkIdentifier;
-- (void)9;
+- (void)es_419;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *associatedApplicationIdentifiers;
 @property(retain, nonatomic) NSMutableDictionary *passContent; // @synthesize passContent=_passContent;
-@property(copy, nonatomic) NSString *primaryAccountIdentifier;
-@property(copy, nonatomic) NSString *serialNumber;
 
 @end
 

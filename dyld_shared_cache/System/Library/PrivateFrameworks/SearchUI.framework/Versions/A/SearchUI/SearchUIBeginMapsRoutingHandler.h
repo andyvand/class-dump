@@ -13,7 +13,7 @@
 }
 
 - (void);
-- (id);
+- (id)#;
 
 // Remaining properties
 @property(readonly) SFBeginMapsRoutingCommand *command; // @dynamic command;

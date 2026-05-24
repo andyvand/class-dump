@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface _LSServiceRecordEnumerator : _LSRecordEnumerator
 {
     struct vector<unsigned int, std::allocator<unsigned int>> _serviceIDs;
-    NSPasteboard *_pasteboard;
 }
 
 - (void);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (void)ì;
 
 // Remaining properties

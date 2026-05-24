@@ -6,12 +6,9 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceResponse.h>
 
-@class NSString;
-
 @interface PKPeerPaymentPendingRequestPerformActionResponse : PKPeerPaymentWebServiceResponse
 {
     _Bool _success;
-    NSString *_status;
 }
 
 - (id);
@@ -20,7 +17,6 @@
 - (void)ey.json;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *status; // @synthesize status=_status;
 @property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end

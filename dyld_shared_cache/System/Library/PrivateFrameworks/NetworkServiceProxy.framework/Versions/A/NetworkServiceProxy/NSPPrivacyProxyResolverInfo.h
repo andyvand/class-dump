@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NSPPrivacyProxyResolverInfo
 {
     NSString *_dohURL;
-    NSData *_obliviousDoHConfig;
-    unsigned int _proxyIndex;
-    unsigned int _weight;
-    CDStruct_f9ff9b8c _has;
 }
 
 - (id);
@@ -32,23 +28,16 @@
 - (id);
 - (_Bool);
 - (unsigned int);
-- (id);
+- (id);
+- (void)riority;
 - (void);
-- (void);
-- (unsigned int);
+- (unsigned int)tus has not been requested or is not available;
 - (void);
 - (void);
 - (_Bool)ailed;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dohURL; // @synthesize dohURL=_dohURL;
 @property(readonly, nonatomic) _Bool hasDohURL;
-@property(readonly, nonatomic) _Bool hasObliviousDoHConfig;
-@property(nonatomic) _Bool hasProxyIndex;
-@property(nonatomic) _Bool hasWeight;
-@property(retain, nonatomic) NSData *obliviousDoHConfig; // @synthesize obliviousDoHConfig=_obliviousDoHConfig;
-@property(nonatomic) unsigned int proxyIndex; // @synthesize proxyIndex=_proxyIndex;
-@property(nonatomic) unsigned int weight; // @synthesize weight=_weight;
 
 @end
 

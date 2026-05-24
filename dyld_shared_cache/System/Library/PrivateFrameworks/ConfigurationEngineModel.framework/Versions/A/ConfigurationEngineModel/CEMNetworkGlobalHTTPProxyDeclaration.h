@@ -6,18 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMNetworkGlobalHTTPProxyDeclaration : CEMConfigurationBase
 {
     NSString *_payloadProxyType;
-    NSString *_payloadProxyServer;
-    NSNumber *_payloadProxyServerPort;
-    NSString *_payloadProxyUsername;
-    NSString *_payloadProxyPassword;
-    NSString *_payloadProxyPACURL;
-    NSNumber *_payloadProxyPACFallbackAllowed;
-    NSNumber *_payloadProxyCaptiveLoginAllowed;
 }
 
 + (id);
@@ -36,10 +29,10 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)I;
 - (id);
 - (id);
 - (id);
@@ -47,27 +40,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (int);
-- (_Bool);
+- (int);
+- (_Bool):(id)arg1 ];
 - (id);
-- (void);
+- (void)2/ssl/ssl_cert.c;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadProxyCaptiveLoginAllowed; // @synthesize payloadProxyCaptiveLoginAllowed=_payloadProxyCaptiveLoginAllowed;
-@property(copy, nonatomic) NSNumber *payloadProxyPACFallbackAllowed; // @synthesize payloadProxyPACFallbackAllowed=_payloadProxyPACFallbackAllowed;
-@property(copy, nonatomic) NSString *payloadProxyPACURL; // @synthesize payloadProxyPACURL=_payloadProxyPACURL;
-@property(copy, nonatomic) NSString *payloadProxyPassword; // @synthesize payloadProxyPassword=_payloadProxyPassword;
-@property(copy, nonatomic) NSString *payloadProxyServer; // @synthesize payloadProxyServer=_payloadProxyServer;
-@property(copy, nonatomic) NSNumber *payloadProxyServerPort; // @synthesize payloadProxyServerPort=_payloadProxyServerPort;
 @property(copy, nonatomic) NSString *payloadProxyType; // @synthesize payloadProxyType=_payloadProxyType;
-@property(copy, nonatomic) NSString *payloadProxyUsername; // @synthesize payloadProxyUsername=_payloadProxyUsername;
-@property(readonly) Class superclass;
 
 @end
 

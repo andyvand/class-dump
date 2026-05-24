@@ -6,38 +6,30 @@
 
 #import <Navigation/MNSteppingLocationTracker.h>
 
-@class GEORoadMatcher, GEOTransitRouteMatcher, MNLocation, NSDate, NSMutableDictionary, NSString;
+@class GEOTransitRouteMatcher;
 
 __attribute__((visibility("hidden")))
 @interface MNTransitLocationTracker : MNSteppingLocationTracker
 {
     GEOTransitRouteMatcher *_transitRouteMatcher;
-    GEORoadMatcher *_roadMatcher;
-    NSDate *_lastLocationTimestamp;
-    NSDate *_lastAccurateLocationDate;
-    MNLocation *_lastMatchedLocation;
-    NSDate *_startDate;
-    _Bool _hasArrived;
-    _Bool _debugSnapToTransitLines;
-    NSMutableDictionary *_monitoredRegions;
-    NSMutableDictionary *_transitRegions;
-    NSMutableDictionary *_transitAlerts;
 }
 
+- (void)-Y7P0
+;
 - (void);
+- (id);
+- (_Bool)NavigationStackRepresentableRoot;
 - (void);
+- (double)6;
+- (void)ResolvedScrollBehaviorModifier;
+- (void);
+- (id):(id)arg1 69oY7,t
+;
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (double);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (void);
@@ -46,20 +38,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)jj;
 - (void)!¨BùQ1Â0@ù
 × ;
-- (int)urse:rawCourse:courseAccuracy:speed:speedAccuracy:altitude:timestamp:horizontalAccuracy:verticalAccuracy:type:referenceFrame: /* Error: Ran out of types for this method. */;
+- (int)initWithCoordinate:rawCoordinate:course:rawCourse:courseAccuracy:speed:speedAccuracy:altitude:timestamp:horizontalAccuracy:verticalAccuracy:type:referenceFrame: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) _Bool debugSnapToTransitLines; // @synthesize debugSnapToTransitLines=_debugSnapToTransitLines;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

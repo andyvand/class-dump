@@ -5,5 +5,8 @@
 //
 
 @protocol SCNSceneRendererDelegate
+
+@optional
+- (void);
 @end
 

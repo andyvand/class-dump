@@ -7,9 +7,6 @@
 @interface AppStoreKit.MSOProviderData
 {
     id name;
-    id url;
-    id artwork;
-    id roomUber;
 }
 
 @end

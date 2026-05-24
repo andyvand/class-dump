@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)presentedBundleID;
 - (struct CGRect);
 - (id)× ;
 - (struct CGSize)!°DùÑbð1Â0@ù
@@ -22,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)h;
 
 // Remaining properties
-@property(nonatomic) struct CGRect contentsRect; // @synthesize contentsRect=_contentsRect;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) struct CGSize size;
 
 @end
 

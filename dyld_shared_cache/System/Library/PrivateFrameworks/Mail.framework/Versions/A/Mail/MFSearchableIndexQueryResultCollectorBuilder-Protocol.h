@@ -8,11 +8,9 @@
 
 @protocol MFSearchableIndexQueryResultCollectorBuilder
 - (void);
-- (_Bool)ate;
+- (_Bool)ConnectionState;
 
 // Remaining properties
-@property(nonatomic) _Bool live;
 @property(retain, nonatomic) EMSearchableIndexQueryExpression *originalExpression;
-@property(copy, nonatomic) CDUnknownBlockType recoveryBlock;
 @end
 

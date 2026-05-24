@@ -6,21 +6,16 @@
 
 #import <SystemMigration/SMEngineStep.h>
 
-@class NSArray, NSDictionary, SMCopyEngine, SMRulesEngineDBClient, SMRulesEngineRuleHandler;
+@class SMRulesEngineRuleHandler;
 
 @interface SMMigrateSystemInfoStep : SMEngineStep
 {
     _Bool _onlyUpdateSystemSettings;
-    SMRulesEngineRuleHandler *_rulesEngineRuleHandler;
-    SMRulesEngineDBClient *_rulesEngineDBClient;
-    NSDictionary *_allRuleGroups;
-    NSArray *_settingsCopiers;
-    SMCopyEngine *_fileCopyEngine;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,14 +33,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
+- (id);
+- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)C;
+- (_Bool)P;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -55,19 +50,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)5w;
 - (id);
 - (id);
 - (void)Ñ	ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSDictionary *allRuleGroups; // @synthesize allRuleGroups=_allRuleGroups;
-@property(retain) SMCopyEngine *fileCopyEngine; // @synthesize fileCopyEngine=_fileCopyEngine;
-@property _Bool onlyUpdateSystemSettings; // @synthesize onlyUpdateSystemSettings=_onlyUpdateSystemSettings;
-@property(retain) SMRulesEngineDBClient *rulesEngineDBClient; // @synthesize rulesEngineDBClient=_rulesEngineDBClient;
 @property(retain) SMRulesEngineRuleHandler *rulesEngineRuleHandler; // @synthesize rulesEngineRuleHandler=_rulesEngineRuleHandler;
-@property(retain) NSArray *settingsCopiers; // @synthesize settingsCopiers=_settingsCopiers;
 
 @end
 

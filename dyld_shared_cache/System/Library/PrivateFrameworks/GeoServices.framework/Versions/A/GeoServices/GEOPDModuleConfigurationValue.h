@@ -4,53 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDActionBarModuleConfiguration, GEOPDBusinessInfosModuleConfiguration, GEOPDButtonModuleConfiguration, GEOPDHeaderButtonsConfiguration, GEOPDHikingAssociationModuleConfiguration, GEOPDPlaceInfosModuleConfiguration, GEOPDPlaceRibbonConfiguration, GEOPDRelatedPlaceModuleConfiguration, GEOPDTemplatePlaceModuleConfiguration, GEOPDUnifiedActionModuleConfiguration, GEOPDWebModuleConfiguration, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDModuleConfigurationValue
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDActionBarModuleConfiguration *_actionBarModuleConfiguration;
-    GEOPDBusinessInfosModuleConfiguration *_businessInfosModuleConfiguration;
-    GEOPDButtonModuleConfiguration *_buttonModuleConfiguration;
-    GEOPDHeaderButtonsConfiguration *_headerButtonsConfiguration;
-    GEOPDHikingAssociationModuleConfiguration *_hikingAssociationModuleConfiguration;
-    GEOPDPlaceInfosModuleConfiguration *_placeInfosModuleConfiguration;
-    GEOPDRelatedPlaceModuleConfiguration *_relatedPlaceModuleConfiguration;
-    GEOPDPlaceRibbonConfiguration *_ribbonModuleConfiguration;
-    GEOPDTemplatePlaceModuleConfiguration *_templatePlaceModuleConfiguration;
-    GEOPDUnifiedActionModuleConfiguration *_unifiedActionModuleConfiguration;
-    GEOPDWebModuleConfiguration *_webModuleConfiguration;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_actionBarModuleConfiguration:1;
-        unsigned int read_businessInfosModuleConfiguration:1;
-        unsigned int read_buttonModuleConfiguration:1;
-        unsigned int read_headerButtonsConfiguration:1;
-        unsigned int read_hikingAssociationModuleConfiguration:1;
-        unsigned int read_placeInfosModuleConfiguration:1;
-        unsigned int read_relatedPlaceModuleConfiguration:1;
-        unsigned int read_ribbonModuleConfiguration:1;
-        unsigned int read_templatePlaceModuleConfiguration:1;
-        unsigned int read_unifiedActionModuleConfiguration:1;
-        unsigned int read_webModuleConfiguration:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)%;
+- (id)_currentRtsSessionId: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)onKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24q32Q40;
-- (id)eLevel;
+- (id)_guidanceLevel;
 - (id)d;
 - (void)-²ï§Æç?NbX9t,@;
 

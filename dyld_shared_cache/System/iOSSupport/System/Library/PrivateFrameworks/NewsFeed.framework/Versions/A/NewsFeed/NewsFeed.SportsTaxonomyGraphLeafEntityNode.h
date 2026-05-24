@@ -7,9 +7,6 @@
 @interface NewsFeed.SportsTaxonomyGraphLeafEntityNode
 {
     id tagId;
-    id umcId;
-    id isHidden;
-    id weakParents;
 }
 
 @end

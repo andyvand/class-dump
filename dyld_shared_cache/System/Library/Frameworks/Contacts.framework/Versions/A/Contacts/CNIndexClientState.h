@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNChangeHistoryAnchor;
-
 __attribute__((visibility("hidden")))
 @interface CNIndexClientState
 {
     _Bool _isFullSyncDone;
-    long long _indexVersion;
-    CNChangeHistoryAnchor *_snapshotAnchor;
-    long long _fullSyncOffset;
 }
 
 + (id);
@@ -27,17 +22,14 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void)!q&ð!lEù1*Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long fullSyncOffset; // @synthesize fullSyncOffset=_fullSyncOffset;
 @property(nonatomic) long long indexVersion; // @synthesize indexVersion=_indexVersion;
-@property(nonatomic) _Bool isFullSyncDone; // @synthesize isFullSyncDone=_isFullSyncDone;
-@property(retain, nonatomic) CNChangeHistoryAnchor *snapshotAnchor; // @synthesize snapshotAnchor=_snapshotAnchor;
 
 @end
 

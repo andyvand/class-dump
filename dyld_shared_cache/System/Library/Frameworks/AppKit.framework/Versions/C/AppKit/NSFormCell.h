@@ -6,14 +6,9 @@
 
 #import <AppKit/NSActionCell.h>
 
-@class NSAttributedString, NSFont, NSString;
-
 @interface NSFormCell : NSActionCell
 {
     double _titleWidth;
-    double _titleEndPoint;
-    double _preferredTextFieldWidth;
-    id _titleCell;
 }
 
 + (void)Üÿ[°H;
@@ -31,45 +26,45 @@
 - (double);
 - (id);
 - (id);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
+- (id)set_TLSNegotiatedCipherSuite:(id)arg1;
+- (struct CGRect)_onSessionQueue_cleanupAndBreakCycles;
+- (void)_nscfBridgeURLCacheRemoveCachedResponseForRequest:(struct CGRect)arg1;
+- (void)_is_cellular;
 - (struct CGSize);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (struct CGRect);
-- (id);
+- (id)d to init the selectAllCookiesStmt statement;
+- (id)ailed to open the schema at %@;
+- (id){public}@ received response, status %ld content %c;
+- (id)of %@, error:%@ /* Error: Ran out of types for this method. */;
+- (void)se handle %p;
+- (id), querying AuthBrokerAgent with uuid %@;
+- (_Bool)eq=%@;
+- (_Bool)nse recorded(%d, %zu);
+- (_Bool)ction(s) left;
+- (_Bool)lid coalescing state (%lu, %lu) %@;
+- (id)ing to startSecureConnection on a URLSessionStreamTask after task has completed;
+- (id)after task has completed;
+- (id)ed to create from a NULL connection!;
+- (id)ed to create from NULL resumeInformation!;
+- (id)nvoked for UUID %@ for session %@ with identifier %@ outstanding auth tasks %@;
+- (id)an app wake with ID:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGRect);
+- (id)okieStorage Checking;
 - (void);
+- (struct CGRect);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)WRONG_CURVE_PARAMETERS;
 - (_Bool);
 - (void);
 - (id);
 - (void)!ë/Ð!ØFùñß3Ð1Â0@ù
 × ;
-- (void)DelaysMagnificationEvents:(id)arg1;
-- (id)uttonsWidth;
+- (void)setDelaysMagnificationEvents:(id)arg1;
+- (id)_minXTitlebarButtonsWidth;
 - (void),&;
 - (long long)¸hG;
 - (id)arlier paired -viewWillMoveToWindow:to unobserve containing ThemeFrame /* Error: Ran out of types for this method. */;
@@ -78,14 +73,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isOpaque) _Bool opaque;
-@property(copy) NSAttributedString *placeholderAttributedString;
-@property(copy) NSString *placeholderString;
-@property double preferredTextFieldWidth;
-@property(copy) NSString *title;
-@property long long titleAlignment;
-@property long long titleBaseWritingDirection;
-@property(retain) NSFont *titleFont;
 @property double titleWidth;
 
 @end

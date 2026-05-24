@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)ameDescription;
+- (unsigned long long)ABCNPhoneticLastNameDescription;
 @end
 

@@ -4,136 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, UIView;
-@protocol NSSplitViewItemAccessoryView, _UISidebarPartitionAdapterDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _UISidebarPartitionAdapter
 {
     double _topSidebarInset;
-    double _cachedTopPlatterInset;
-    struct NSEdgeInsets _sidebarAdditionalSafeAreaInsets;
-    _Bool _suspended;
-    _Bool _configured;
-    UIView *_representedView;
-    id <_UISidebarPartitionAdapterDelegate> _delegate;
-    double _sidebarDividerPosition;
-    struct UIEdgeInsets _additionalSafeAreaInsets;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
-- (double);
+- (void)supportsFeature: /* Error: Ran out of types for this method. */;
+- (double)oupID does not exist:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
-- (struct CGRect);
+- (struct CGRect);
 - (double);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (struct UIEdgeInsets);
 - (struct NSEdgeInsets);
 - (double);
-- (id);
+- (id)=h;
 - (id);
 - (void)
 × ;
-- (_Bool)houldAssertCurrentKeyState: /* Error: Ran out of types for this method. */;
-- (_Bool)er_prefersPointerLocked;
+- (_Bool)shouldAssertCurrentKeyState: /* Error: Ran out of types for this method. */;
+- (_Bool)_super_prefersPointerLocked;
 - (void)ntingViewControllerDuringAdaptation;
 - (_Bool)am-Alphabetic;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets additionalSafeAreaInsets; // @synthesize additionalSafeAreaInsets=_additionalSafeAreaInsets;
-@property(readonly) _Bool allowsFloatingLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool allowsFullHeightLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) NSView<NSSplitViewItemAccessoryView> *bottomAlignedAccessoryView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView<NSSplitViewItemAccessoryView>",?,R
-
-@property(nonatomic, getter=isConfigured) _Bool configured; // @synthesize configured=_configured;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UISidebarPartitionAdapterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) long long depthOfView;
-@property(readonly, copy) NSString *description;
-@property(readonly) struct CGRect dividerCursorRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property(readonly) double dividerWidth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) struct NSEdgeInsets floatingSidebarInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSEdgeInsets=dddd},?,R
-
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isCollapsed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool isSidebar;
-@property(readonly) _Bool isTrailingSidebar;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool isValidConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) double logicalDividerPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double maximumDividerPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double minimumDividerPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly, getter=isOverlaidAsSidebar) _Bool overlaidAsSidebar;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisOverlaidAsSidebar
-
-@property(readonly, nonatomic) __weak UIView *representedView; // @synthesize representedView=_representedView;
-@property struct NSEdgeInsets sidebarAdditionalSafeAreaInsets; // @synthesize sidebarAdditionalSafeAreaInsets=_sidebarAdditionalSafeAreaInsets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{NSEdgeInsets=dddd},?,V_sidebarAdditionalSafeAreaInsets
-
 @property double sidebarDividerPosition; // @synthesize sidebarDividerPosition=_sidebarDividerPosition;
-@property(readonly) struct CGRect splitFrame;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
-@property(readonly) NSView<NSSplitViewItemAccessoryView> *titlebarAlignedAccessoryView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView<NSSplitViewItemAccessoryView>",?,R
-
-@property(readonly) long long titlebarSeparatorStyle;
-@property(readonly, nonatomic) double topPlatterInset;
-@property double topSidebarInset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?
-
 
 @end
 

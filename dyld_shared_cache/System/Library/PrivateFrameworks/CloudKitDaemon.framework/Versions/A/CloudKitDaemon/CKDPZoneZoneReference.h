@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordZoneIdentifier;
-
 @interface CKDPZoneZoneReference
 {
     int _referenceType;
-    CKDPRecordZoneIdentifier *_zoneIdentifier;
-    struct {
-        unsigned int referenceType:1;
-    } _has;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (int);
-- (void);
+- (void);
 - (int);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)pported across all substreams. Posting 'ActiveConfigurationDidBecomeInvalid'!;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -37,10 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasReferenceType;
 @property(readonly, nonatomic) _Bool hasZoneIdentifier;
-@property(nonatomic) int referenceType; // @synthesize referenceType=_referenceType;
-@property(retain, nonatomic) CKDPRecordZoneIdentifier *zoneIdentifier; // @synthesize zoneIdentifier=_zoneIdentifier;
 
 @end
 

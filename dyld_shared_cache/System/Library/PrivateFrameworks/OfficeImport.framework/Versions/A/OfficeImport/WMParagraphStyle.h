@@ -6,22 +6,20 @@
 
 #import <OfficeImport/WMStyle.h>
 
-@class WDParagraphProperties, WDStyle;
+@class WDStyle;
 
 __attribute__((visibility("hidden")))
 @interface WMParagraphStyle : WMStyle
 {
     WDStyle *_baseStyle;
-    _Bool _isInTextFrame;
-    WDParagraphProperties *_defaultParagraphProperties;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

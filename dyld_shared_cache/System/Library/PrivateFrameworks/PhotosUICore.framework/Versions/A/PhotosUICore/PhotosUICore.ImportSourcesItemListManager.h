@@ -7,11 +7,6 @@
 @interface PhotosUICore.ImportSourcesItemListManager
 {
     id _itemList;
-    id changeDetailsRepository;
-    id observable;
-    id importSourcesManager;
-    id _importSourcesManagerObservation;
-    id _$observationRegistrar;
 }
 
 @end

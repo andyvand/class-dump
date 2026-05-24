@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXAssetPolicy, AXDispatchTimer, NSArray, NSHashTable, NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AXAssetController
 {
     struct os_unfair_lock_s _assetsLock;
-    NSHashTable *_observers;
-    NSArray *_cachedAvailableAssets;
-    NSMutableSet *_cachedInProgressAssets;
-    NSObject<OS_dispatch_queue> *_refreshQueue;
-    AXDispatchTimer *_refreshDispatchTimer;
-    int _notifyToken;
-    _Bool _userInitiated;
-    _Bool _shouldRefreshForAssetInstallNotifications;
-    AXAssetPolicy *_assetPolicy;
-    NSObject<OS_dispatch_queue> *_mobileAssetQueue;
 }
 
 + (id);
@@ -37,48 +27,44 @@
 - (void);
 - (void);
 - (void);
+- (void)xprotect_rule_version;
+- (void);
+- (id)isEqualToString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
+- (void)xtracting profile embeddings from:(id)arg1 %@;
 - (void);
+- (void)setBufferMultiplier:(_Bool)arg1;
+- (void);
+- (_Bool);
+- (void);
+- (void)@;
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
+- (void);
 - (void);
-- (void);
-- (void)terVoiceName;
+- (void)characterVoiceName;
 
 // Remaining properties
-@property(readonly, nonatomic) AXAssetPolicy *assetPolicy; // @synthesize assetPolicy=_assetPolicy;
-@property(readonly, nonatomic) _Bool hasInProgressDownloads;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *mobileAssetQueue; // @synthesize mobileAssetQueue=_mobileAssetQueue;
-@property(nonatomic) _Bool shouldRefreshForAssetInstallNotifications; // @synthesize shouldRefreshForAssetInstallNotifications=_shouldRefreshForAssetInstallNotifications;
-@property(nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end
 

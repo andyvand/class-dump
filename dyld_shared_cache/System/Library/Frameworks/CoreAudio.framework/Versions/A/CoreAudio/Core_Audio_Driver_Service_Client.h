@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCListener, NSXPCListenerEndpoint;
-@protocol Core_Audio_Driver_Service_Client_Callback_Delegate;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface Core_Audio_Driver_Service_Client
 {
     NSXPCConnection *_connection_to_driver_service;
-    id <Core_Audio_Driver_Service_Client_Callback_Delegate> _delegate;
-    NSXPCListener *_listener;
-    NSXPCListenerEndpoint *_endpoint;
-    NSXPCConnection *_connection_from_driver_service;
-    shared_ptr_1201c109 _driver_service_undertaker;
-    shared_ptr_9f79bb43 _driver_file;
-    struct Dispatch_Queue _queue;
 }
 
 + (id);
@@ -28,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (shared_ptr_1201c109);
-- (shared_ptr_9f79bb43);
+- (shared_ptr_ce01d984);
+- (shared_ptr_be561262);
 - (void);
 - (id);
 - (id);
@@ -37,14 +29,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)va ;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)+;
+- (void)?;
 - (void);
 - (id);
 - (_Bool);
@@ -52,21 +44,7 @@ __attribute__((visibility("hidden")))
 - (void)T;
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *connection_from_driver_service; // @synthesize connection_from_driver_service=_connection_from_driver_service;
 @property(retain, nonatomic) NSXPCConnection *connection_to_driver_service; // @synthesize connection_to_driver_service=_connection_to_driver_service;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <Core_Audio_Driver_Service_Client_Callback_Delegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) shared_ptr_9f79bb43 driver_file; // @synthesize driver_file=_driver_file;
-@property(nonatomic) shared_ptr_1201c109 driver_service_undertaker; // @synthesize driver_service_undertaker=_driver_service_undertaker;
-@property(retain, nonatomic) NSXPCListenerEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(nonatomic) struct Dispatch_Queue queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

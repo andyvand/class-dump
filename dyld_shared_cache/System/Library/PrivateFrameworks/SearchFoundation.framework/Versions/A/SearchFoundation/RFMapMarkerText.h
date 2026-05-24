@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFTextProperty, SFLatLng;
+@class SFLatLng;
 
 @interface RFMapMarkerText
 {
     SFLatLng *_coordinate;
-    NSString *_title;
-    RFTextProperty *_monogram;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)jh8);
+- (id)isSubRoute;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)spatialOvercapturePairedVideoURL;
+- (void)retrieveUUIDsForAssetObjectIDs:(id)arg1 filterPredicate: /* Error: Ran out of types for this method. */;
+- (id)pathComponents;
+- (id)computeSyncAttributes.localAnalysisStage;
 - (id);
 - (id);
 - (id);
@@ -32,17 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SFLatLng *coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFTextProperty *monogram; // @synthesize monogram=_monogram;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

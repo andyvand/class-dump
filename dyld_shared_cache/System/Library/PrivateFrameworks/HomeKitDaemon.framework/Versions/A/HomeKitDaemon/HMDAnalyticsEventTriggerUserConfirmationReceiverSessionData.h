@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAnalyticsEventTriggerUserConfirmationReceiverSessionData
 {
     int _resultErrorCode;
-    unsigned long long _timestamp;
-    unsigned long long _userResponseDelay;
-    NSString *_sessionID;
 }
 
-- (unsigned long long);
+- (unsigned long long);
+- (void)MSPShareETABlockedTripShouldAlwaysMigrateFromKVSKey;
 - (void);
-- (void);
-- (int);
+- (int)infoDictionary;
 - (unsigned long long);
-- (void)edictionTargetUUID:(id)arg1;
-- (void)nager:(unsigned long long)arg1 logEventManager: /* Error: Ran out of types for this method. */;
-- (id):didProcessDeletionForModel: /* Error: Ran out of types for this method. */;
+- (void)setPredictionTargetUUID:(id)arg1;
+- (void)initWithHAPAccessory:(unsigned long long)arg1 uarpAccessory:accessoryFirmwareUpdateManager:logEventManager: /* Error: Ran out of types for this method. */;
+- (id)database:didProcessDeletionForModel: /* Error: Ran out of types for this method. */;
 - (void)ð;
 
 // Remaining properties
-@property int resultErrorCode; // @synthesize resultErrorCode=_resultErrorCode;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
 @property unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property unsigned long long userResponseDelay; // @synthesize userResponseDelay=_userResponseDelay;
 
 @end
 

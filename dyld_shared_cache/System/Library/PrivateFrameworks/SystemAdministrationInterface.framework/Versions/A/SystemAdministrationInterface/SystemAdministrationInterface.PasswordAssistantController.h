@@ -7,19 +7,6 @@
 @interface SystemAdministrationInterface.PasswordAssistantController
 {
     id _passwordAlgorithm;
-    id _passwordSuggestion;
-    id _passwordlength;
-    id _passwordEntropy;
-    id _passwordStrengthColor;
-    id _entropyInGauge;
-    id _passwordTips;
-    id passwordController;
-    id suppressChangeToManual;
-    id $__lazy_storage_$_securityFoundationBundle;
-    id $__lazy_storage_$_pwaContextHandle;
-    id $__lazy_storage_$_pwaPolicy;
-    id $__lazy_storage_$_funcSFPWAPasswordSuggest;
-    id $__lazy_storage_$_funcSFPWAPasswordEvaluator;
 }
 
 @end

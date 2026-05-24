@@ -6,34 +6,25 @@
 
 #import <Metal/MTLIOAccelResource.h>
 
-@protocol MTLBuffer;
-
 @interface MTLIOAccelBuffer : MTLIOAccelResource
 {
     void *_pointer;
-    CDUnknownBlockType _deallocator;
-    MTLIOAccelBuffer *_masterBuffer;
-    short _masterHeapIndex;
-    short _masterBufferIndex;
-    unsigned long long _masterBufferOffset;
-    unsigned long long _length;
-    struct __IOSurface *_iosurface;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (struct __CFArray *);
+- (struct __CFArray *)k}k*;
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)9;
 - (id);
 - (struct __IOSurface *);
-- (id);
+- (id)scaleSourceDragComponentsToMeetHISpecWithCursorOffest: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (struct __IOSurface *);
@@ -45,11 +36,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly, nonatomic) void *contents;
-@property(readonly) struct __IOSurface *iosurface; // @synthesize iosurface=_iosurface;
 @property(readonly) unsigned long long length;
-@property(readonly) id <MTLBuffer> remoteStorageBuffer;
 
 @end
 

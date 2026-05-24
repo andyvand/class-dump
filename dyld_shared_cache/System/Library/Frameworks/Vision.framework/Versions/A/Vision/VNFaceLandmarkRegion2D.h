@@ -6,15 +6,11 @@
 
 #import <Vision/VNFaceLandmarkRegion.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface VNFaceLandmarkRegion2D : VNFaceLandmarkRegion
 {
     NSMutableDictionary *_sizedPointsCache;
-    struct os_unfair_lock_s _pointsCalculatorLock;
-    id *_points;
-    NSArray *_precisionEstimatesPerPoint;
-    long long _pointsClassification;
 }
 
 + (id);
@@ -24,23 +20,20 @@
 - (const struct CGPoint *);
 - (const struct CGPoint *);
 - (id);
+- (id);
 - (id);
-- (id);
-- (const struct CGPoint *);
+- (const struct CGPoint *)z;
 - (void);
-- (id);
+- (id)completedWithResultsByRoot:(id)arg1 errorsByRoot:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)leClusters;
+- (void)getMergeableClusters;
 - (const id *);
 - (void)code ;
 
 // Remaining properties
-@property(readonly) const struct CGPoint *normalizedPoints;
 @property(readonly) const id *points; // @synthesize points=_points;
-@property(readonly, nonatomic) long long pointsClassification; // @synthesize pointsClassification=_pointsClassification;
-@property(readonly) NSArray *precisionEstimatesPerPoint; // @synthesize precisionEstimatesPerPoint=_precisionEstimatesPerPoint;
 
 @end
 

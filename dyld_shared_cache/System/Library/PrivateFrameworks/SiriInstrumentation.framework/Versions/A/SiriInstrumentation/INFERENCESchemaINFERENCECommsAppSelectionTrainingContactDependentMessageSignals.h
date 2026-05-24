@@ -6,51 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface INFERENCESchemaINFERENCECommsAppSelectionTrainingContactDependentMessageSignals : SISchemaInstrumentationMessage
 {
     float _appContactAffinityScoreForMessages;
-    float _appContactAffinityScoreForMessagesUsingSiri;
-    float _appContactAffinityScoreForMessagesReceived;
-    int _appContactFreqForMessages2Min;
-    int _appContactFreqForMessages10Min;
-    int _appContactFreqForMessages1Hr;
-    int _appContactFreqForMessages6Hr;
-    int _appContactFreqForMessages1Day;
-    int _appContactFreqForMessages7Day;
-    int _appContactFreqForMessages28Day;
-    int _appContactFreqForMessagesInf;
-    int _appContactFreqForMessages;
-    int _appContactFreqForMessagesUsingSiri;
-    int _appContactFreqForMessagesHaptic;
-    struct {
-        unsigned int appContactAffinityScoreForMessages:1;
-        unsigned int appContactAffinityScoreForMessagesUsingSiri:1;
-        unsigned int appContactAffinityScoreForMessagesReceived:1;
-        unsigned int appContactFreqForMessages2Min:1;
-        unsigned int appContactFreqForMessages10Min:1;
-        unsigned int appContactFreqForMessages1Hr:1;
-        unsigned int appContactFreqForMessages6Hr:1;
-        unsigned int appContactFreqForMessages1Day:1;
-        unsigned int appContactFreqForMessages7Day:1;
-        unsigned int appContactFreqForMessages28Day:1;
-        unsigned int appContactFreqForMessagesInf:1;
-        unsigned int appContactFreqForMessages:1;
-        unsigned int appContactFreqForMessagesUsingSiri:1;
-        unsigned int appContactFreqForMessagesHaptic:1;
-    } _has;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)9;
+- (void)9	A;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -98,7 +67,7 @@
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)0;
 - (int);
 - (int);
 - (int);
@@ -120,39 +89,11 @@
 - (id);
 - (id)0@ù
 × ;
-- (id)e;
-- (id)onAudioRecordingLastBufferReceipt;
+- (id)_hasSignalValue;
+- (id)MHSchemaMHAssistantDaemonAudioRecordingLastBufferReceipt;
 
 // Remaining properties
 @property(nonatomic) float appContactAffinityScoreForMessages; // @synthesize appContactAffinityScoreForMessages=_appContactAffinityScoreForMessages;
-@property(nonatomic) float appContactAffinityScoreForMessagesReceived; // @synthesize appContactAffinityScoreForMessagesReceived=_appContactAffinityScoreForMessagesReceived;
-@property(nonatomic) float appContactAffinityScoreForMessagesUsingSiri; // @synthesize appContactAffinityScoreForMessagesUsingSiri=_appContactAffinityScoreForMessagesUsingSiri;
-@property(nonatomic) int appContactFreqForMessages; // @synthesize appContactFreqForMessages=_appContactFreqForMessages;
-@property(nonatomic) int appContactFreqForMessages10Min; // @synthesize appContactFreqForMessages10Min=_appContactFreqForMessages10Min;
-@property(nonatomic) int appContactFreqForMessages1Day; // @synthesize appContactFreqForMessages1Day=_appContactFreqForMessages1Day;
-@property(nonatomic) int appContactFreqForMessages1Hr; // @synthesize appContactFreqForMessages1Hr=_appContactFreqForMessages1Hr;
-@property(nonatomic) int appContactFreqForMessages28Day; // @synthesize appContactFreqForMessages28Day=_appContactFreqForMessages28Day;
-@property(nonatomic) int appContactFreqForMessages2Min; // @synthesize appContactFreqForMessages2Min=_appContactFreqForMessages2Min;
-@property(nonatomic) int appContactFreqForMessages6Hr; // @synthesize appContactFreqForMessages6Hr=_appContactFreqForMessages6Hr;
-@property(nonatomic) int appContactFreqForMessages7Day; // @synthesize appContactFreqForMessages7Day=_appContactFreqForMessages7Day;
-@property(nonatomic) int appContactFreqForMessagesHaptic; // @synthesize appContactFreqForMessagesHaptic=_appContactFreqForMessagesHaptic;
-@property(nonatomic) int appContactFreqForMessagesInf; // @synthesize appContactFreqForMessagesInf=_appContactFreqForMessagesInf;
-@property(nonatomic) int appContactFreqForMessagesUsingSiri; // @synthesize appContactFreqForMessagesUsingSiri=_appContactFreqForMessagesUsingSiri;
-@property(nonatomic) _Bool hasAppContactAffinityScoreForMessages;
-@property(nonatomic) _Bool hasAppContactAffinityScoreForMessagesReceived;
-@property(nonatomic) _Bool hasAppContactAffinityScoreForMessagesUsingSiri;
-@property(nonatomic) _Bool hasAppContactFreqForMessages;
-@property(nonatomic) _Bool hasAppContactFreqForMessages10Min;
-@property(nonatomic) _Bool hasAppContactFreqForMessages1Day;
-@property(nonatomic) _Bool hasAppContactFreqForMessages1Hr;
-@property(nonatomic) _Bool hasAppContactFreqForMessages28Day;
-@property(nonatomic) _Bool hasAppContactFreqForMessages2Min;
-@property(nonatomic) _Bool hasAppContactFreqForMessages6Hr;
-@property(nonatomic) _Bool hasAppContactFreqForMessages7Day;
-@property(nonatomic) _Bool hasAppContactFreqForMessagesHaptic;
-@property(nonatomic) _Bool hasAppContactFreqForMessagesInf;
-@property(nonatomic) _Bool hasAppContactFreqForMessagesUsingSiri;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

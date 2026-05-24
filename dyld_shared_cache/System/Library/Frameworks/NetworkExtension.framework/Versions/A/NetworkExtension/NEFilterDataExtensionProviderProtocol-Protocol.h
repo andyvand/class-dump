@@ -5,5 +5,7 @@
 //
 
 @protocol NEFilterDataExtensionProviderProtocol
+- (void);
+- (void);
 @end
 

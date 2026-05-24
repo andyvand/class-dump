@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *descriptors; // @synthesize descriptors=_descriptors;

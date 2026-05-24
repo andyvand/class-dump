@@ -4,50 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBContact, _INPBDataString, _INPBIntentMetadata, _INPBString;
+@class NSArray, NSString, _INPBContact, _INPBIntentMetadata, _INPBSendMessageAttachment, _INPBString;
 
 @protocol _INPBSendMessageIntent
++ (Class)setInfoValue:forKey:forDomain: /* Error: Ran out of types for this method. */;
+- (void)filterFullPath: /* Error: Ran out of types for this method. */;
+- (_INPBIntentMetadata *);
+- (_INPBSendMessageAttachment *);
+- (NSString *)context (%{public}@);
+- (unsigned long long)setIsProcessRunningBoardManaged: /* Error: Ran out of types for this method. */;
+- (NSString *)missing AT_NONCE_S;
+- (void)on to DIDiskImageBurn:(_Bool)arg1 kDIBurnDeviceID
+;
+- (int)sed MAC;
+- (int)setValue:(NSString *)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (unsigned long long)h;
+- (int);
 - (void)ù¾(ð1Â0@ù
 × ;
 - (_Bool)%°!8Aù±¾(1Â0@ù
 × ;
-- (_INPBString *)ingAvailable;
-- (_Bool)eServices;
-- (void)n:(_INPBContact *)arg1;
-- (NSArray *)mailAddressesType;
-- (NSString *)e;
-- (NSArray *)Sample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBString *)isBookingAvailable;
+- (_Bool)imageStorageServices;
+- (void)handleResolveObjectReference:(_INPBContact *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (NSArray *)emailAddressesType;
+- (NSString *)_INPBUUIDValue;
+- (NSArray *)provideRecordDateOptionsForSaveHealthSample:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)arameter resolution result %@;
-- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alternativeConversationIdentifier;
-@property(copy, nonatomic) NSArray *attachments;
-@property(readonly, nonatomic) unsigned long long attachmentsCount;
-@property(retain, nonatomic) _INPBString *content;
-@property(copy, nonatomic) NSString *conversationIdentifier;
-@property(nonatomic) int effect;
-@property(retain, nonatomic) _INPBString *groupName;
-@property(readonly, nonatomic) _Bool hasAlternativeConversationIdentifier;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasConversationIdentifier;
-@property(nonatomic) _Bool hasEffect;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasNotificationThreadIdentifier;
-@property(nonatomic) _Bool hasOutgoingMessageType;
-@property(readonly, nonatomic) _Bool hasSender;
-@property(readonly, nonatomic) _Bool hasServiceName;
-@property(nonatomic) _Bool hasShouldHideSiriAttribution;
-@property(readonly, nonatomic) _Bool hasSpeakableGroupName;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSString *notificationThreadIdentifier;
-@property(nonatomic) int outgoingMessageType;
-@property(copy, nonatomic) NSArray *recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(retain, nonatomic) _INPBContact *sender;
-@property(copy, nonatomic) NSString *serviceName;
-@property(nonatomic) _Bool shouldHideSiriAttribution;
-@property(retain, nonatomic) _INPBDataString *speakableGroupName;
 @end
 

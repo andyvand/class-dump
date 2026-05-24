@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol HMDFetchedSettingsDriver, HMDPreferredMediaUserEventControllerDataSource, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDPreferredMediaUserEventController
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <HMDFetchedSettingsDriver> _driver;
-    id <HMDPreferredMediaUserEventControllerDataSource> _dataSource;
 }
 
 - (void);
+- (id):(id)arg1 %d;
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
+- (id)CVBuffer=}16^{__CVBuffer=}24@?32;
 - (void);
 - (id)ictionary",&,V_deviceContextCache;
 - (id)e, failed to save;
 - (void)ype in structured data:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) __weak id <HMDPreferredMediaUserEventControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDFetchedSettingsDriver> driver; // @synthesize driver=_driver;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

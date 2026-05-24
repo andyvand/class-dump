@@ -11,8 +11,8 @@
     _Bool _localizable;
 }
 
-- (void);
-- (_Bool);
+- (void)g"8;
+- (_Bool);
 - (id);
 - (void);
 - (int);

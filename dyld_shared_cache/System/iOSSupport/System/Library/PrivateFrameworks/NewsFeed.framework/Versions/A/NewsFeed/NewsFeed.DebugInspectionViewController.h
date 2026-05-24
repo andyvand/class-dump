@@ -7,13 +7,6 @@
 @interface NewsFeed.DebugInspectionViewController
 {
     id inspector;
-    id feedItem;
-    id commandCenter;
-    id tableView;
-    id sections;
-    id coverViewManager;
-    id cloudContext;
-    id radarAttachmentProvider;
 }
 
 - (void);
@@ -22,9 +15,9 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)=;
 - (void);
-- (long long);
+- (long long)PK;
 - (void)-:ÿ /* Error: Ran out of types for this method. */;
 - (void);
 

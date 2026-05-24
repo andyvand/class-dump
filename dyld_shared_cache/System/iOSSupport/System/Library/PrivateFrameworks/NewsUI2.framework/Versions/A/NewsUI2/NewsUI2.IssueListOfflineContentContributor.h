@@ -7,9 +7,6 @@
 @interface NewsUI2.IssueListOfflineContentContributor
 {
     id offlineContentRequests;
-    id offlineIssueList;
-    id offlineFeatures;
-    id appConfigManager;
 }
 
 - (void);

@@ -11,17 +11,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)M;
 - (unsigned long long);
 - (oneway void);
 - (void);
 - (void *);
 - (id);
+- (void)u;
 - (void);
+- (void)m;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)rt;
 - (void);
 
 @end

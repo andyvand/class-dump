@@ -9,14 +9,13 @@
 @interface GEORPLegacyProblemRequester
 {
     NSMapTable *_pendingRequests;
-    struct os_unfair_lock_s _pendingRequestsLock;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)weakObjectsHashTable;
 - (void);
 - (void))x
 O@;

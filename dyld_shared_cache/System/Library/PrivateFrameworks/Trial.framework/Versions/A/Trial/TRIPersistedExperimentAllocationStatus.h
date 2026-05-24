@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, TRIPersistedAllocationCommon;
+@class TRIPersistedAllocationCommon;
 
 @interface TRIPersistedExperimentAllocationStatus
 {
@@ -14,15 +14,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TRIPersistedAllocationCommon *common; // @dynamic common;
-@property(nonatomic) int deploymentId; // @dynamic deploymentId;
-@property(copy, nonatomic) NSString *experimentId; // @dynamic experimentId;
-@property(nonatomic) _Bool hasCommon; // @dynamic hasCommon;
-@property(nonatomic) _Bool hasDeploymentId; // @dynamic hasDeploymentId;
-@property(nonatomic) _Bool hasExperimentId; // @dynamic hasExperimentId;
-@property(nonatomic) _Bool hasTreatmentId; // @dynamic hasTreatmentId;
-@property(retain, nonatomic) NSMutableArray *namespaceArray; // @dynamic namespaceArray;
-@property(readonly, nonatomic) unsigned long long namespaceArray_Count; // @dynamic namespaceArray_Count;
-@property(copy, nonatomic) NSString *treatmentId; // @dynamic treatmentId;
 
 @end
 

@@ -8,11 +8,10 @@
 
 @protocol QLPreviewCustomView
 
-// Remaining properties
-@property(readonly) _Bool isLoaded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
+@optional
+- (void);
 
+// Remaining properties
 @property(retain) id <QLPreviewItem> previewItem;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<QLPreviewItem>",?,&

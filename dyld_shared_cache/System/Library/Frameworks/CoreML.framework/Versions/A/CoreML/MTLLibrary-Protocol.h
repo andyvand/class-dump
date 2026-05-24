@@ -5,7 +5,7 @@
 //
 
 @class NSArray, NSString;
-@protocol MTLDevice, MTLFunction;
+@protocol MTLFunction;
 
 @protocol MTLLibrary
 - (NSArray *)h¶X·(¸´¸´º» ¼¼¼D½à½ ¾¿p¿,ÀlÀ
@@ -14,10 +14,6 @@
 - (id <MTLFunction>)ayX¨bGG;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSArray *functionNames;
-@property(readonly) NSString *installName;
 @property(copy) NSString *label;
-@property(readonly) long long type;
 @end
 

@@ -7,14 +7,6 @@
 @interface TeaUI.Plugin
 {
     id identifier;
-    id isSticky;
-    id delegate;
-    id viewController;
-    id layoutRevision;
-    id layoutRevisionLock;
-    id previousSize;
-    id previousSizeLock;
-    id initializingPromise;
 }
 
 @end

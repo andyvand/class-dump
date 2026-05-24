@@ -6,7 +6,7 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface VNDetectHumanHeadRectanglesRequest : VNImageBasedRequest
 {
@@ -17,7 +17,7 @@
 + (id);
 + (const CDStruct_3a02d5a8 *);
 + (id);
-- (void);
+- (void)ment ID for %@;
 - (id);
 - (void);
 - (void);
@@ -28,10 +28,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canOverridePrecisionRecallThreshold;
-@property(nonatomic) float precisionRecallThreshold;
 @property(readonly, copy, nonatomic) NSNumber *precisionRecallThresholdOverride;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

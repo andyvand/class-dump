@@ -11,7 +11,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)_invoke;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool allowsModalMessageDisplay;

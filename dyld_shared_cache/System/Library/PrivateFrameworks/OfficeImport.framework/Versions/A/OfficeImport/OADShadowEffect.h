@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface OADShadowEffect : OADEffect
 {
     OADColor *mColor;
-    float mBlurRadius;
-    float mDistance;
-    float mAngle;
 }
 
 - (void);

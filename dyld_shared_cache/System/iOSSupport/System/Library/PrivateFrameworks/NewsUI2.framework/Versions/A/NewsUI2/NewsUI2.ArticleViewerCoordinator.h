@@ -7,7 +7,6 @@
 @interface NewsUI2.ArticleViewerCoordinator
 {
     id delegate;
-    id observer;
 }
 
 @end

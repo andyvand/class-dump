@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, NSObject, NSString;
-@protocol HMDIDSService, OS_dispatch_queue;
+@protocol HMDIDSService;
 
 __attribute__((visibility("hidden")))
 @interface HMDCompanionManager
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMDDevice *_companion;
-    id <HMDIDSService> _service;
 }
 
 + (_Bool);
-+ (id);
++ (id)@;
 + (id)sage to perform requests for kind:%@ /* Error: Ran out of types for this method. */;
 + (id)½B;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void)°ü;
 - (id)ecause primary resident supporting lock notification context is not present;
 - (void)MatterAccessoryInvokeCommandLogEvent;
 
 // Remaining properties
-@property(readonly) HMDDevice *companion; // @synthesize companion=_companion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <HMDIDSService> service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

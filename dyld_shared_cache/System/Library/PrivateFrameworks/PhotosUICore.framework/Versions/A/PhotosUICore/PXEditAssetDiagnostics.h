@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NUComposition, PHAsset, PHContentEditingInput, PICompositionController;
-@protocol OS_dispatch_queue;
+@class NSDictionary, PHAsset;
 
 @interface PXEditAssetDiagnostics
 {
     NSDictionary *_diagnosticsPackage;
-    PHAsset *_asset;
-    PHContentEditingInput *_contentEditingInput;
-    PICompositionController *_compositionController;
-    NSObject<OS_dispatch_queue> *_diagnosticsQueue;
-    NSObject<OS_dispatch_queue> *_renderQueue;
-    NUComposition *_originalComposition;
 }
 
 - (void);
@@ -23,15 +16,15 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)u;
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)=;
 - (id);
 - (void);
 - (id);
@@ -42,12 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(retain, nonatomic) PICompositionController *compositionController; // @synthesize compositionController=_compositionController;
-@property(retain, nonatomic) PHContentEditingInput *contentEditingInput; // @synthesize contentEditingInput=_contentEditingInput;
-@property(retain, nonatomic) NSDictionary *diagnosticsPackage; // @synthesize diagnosticsPackage=_diagnosticsPackage;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *diagnosticsQueue; // @synthesize diagnosticsQueue=_diagnosticsQueue;
-@property(retain, nonatomic) NUComposition *originalComposition; // @synthesize originalComposition=_originalComposition;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *renderQueue; // @synthesize renderQueue=_renderQueue;
 
 @end
 

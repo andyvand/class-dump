@@ -6,42 +6,26 @@
 
 #import <CloudPhotoLibrary/CPLEngineStorage.h>
 
-@class CPLPlatformObject, NSCountedSet, NSDictionary, NSMutableArray, NSMutableDictionary, NSString, _CPLEngineScopeCache;
+@class _CPLEngineScopeCache;
 
 @interface CPLEngineScopeStorage : CPLEngineStorage
 {
     _CPLEngineScopeCache *_scopeCache;
-    _Bool _shouldResetGlobalsForMainScope;
-    _Bool _scheduleATransportUpdate;
-    _Bool _scheduleAScopeUpdate;
-    unsigned long long _schedulePushHighPriorityToTransportChangeTypes;
-    unsigned long long _schedulePushToTransportChangeTypes;
-    _Bool _schedulePullFromTransport;
-    _Bool _schedulePullFromClient;
-    _Bool _shouldChangeSyncManagerPriorityBoost;
-    _Bool _syncManagerPriorityBoost;
-    _Bool _someScopeMightHaveToBePulledByClient;
-    _Bool _clearSomeScopeMightHaveToBePulledByClient;
-    NSMutableArray *_scopesToRemoveFromBrokenScopes;
-    _Bool _shouldUpdateGlobalStatusAtEndOfTransaction;
-    NSDictionary *_assetCountsToUpdate;
-    long long _serverFeatureCompatibleVersionToUpdate;
-    NSCountedSet *_scopeIdentifiersBeingCreated;
-    NSMutableDictionary *_scopeObservers;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)itemNotInTrash;
+- (id)efore reaching import:(id)arg1 provider phase;
 - (void);
-- (id);
+- (id)ending_scheduling_timestamp, pending_scheduling_priority
+  FROM ;
+- (_Bool)e delete cacheable:(id)arg1;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)XPCServicer resumeSyncForItemAtURL:(id)arg1 behavior:(id *)arg2 bundleID:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)onHandler:(long long)arg1 ];
+- (_Bool)32@?0@"NSDictionary"8@"NSDictionary"16@"NSError"24;
+- (void)nvoke_2;
+- (_Bool)JobThrottlingDomainWideError;
+- (id)eam;
 - (_Bool);
 - (id);
 - (long long);
@@ -66,14 +50,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)";
 - (_Bool);
 - (_Bool);
 - (id);
@@ -90,7 +74,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (long long);
@@ -105,7 +89,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -115,45 +99,43 @@
 - (_Bool);
 - (long long);
 - (_Bool);
+- (_Bool)i;
 - (_Bool);
+- (_Bool)4;
 - (_Bool);
+- (id);
+- (_Bool)B;
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (void)>;
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void)Bù±ð1Â0@ù
-× ;
+- (id);
+- (id);
 - (_Bool);
-- (id)essureState;
-- (id)lHash;
-- (void)nil identifier;
-- (_Bool)2Æùþªÿ_ÖY ;
-- (_Bool)ð#	©öS;
-- (id)ó;
-- (id)R3;
-- (id)Kàª<Kàª:(id)arg1 Kàª8Kàª6Kàª4K ;
-- (_Bool)ýªµö;
-- (_Bool)?×(;
-- (id)8Ôe#ÕöW½©ôO©ý{©ý;
-- (id)ýªJ÷;
-- (_Bool)eAùà£©(kÐáà£;
-- (_Bool)ªèàS@ùèàW@ùèàªèàª;
-- (_Bool)ø_C©ÿÃÿ#ÕÐÊP;
-- (_Bool)õªýðñEù@ùè;
-- (_Bool)#ÕÿÑé#môO©ý{©ýÃ@ùô;
-- (_Bool)ôO©ý{©ý;
-- (_Bool)àª:(id)arg1 %ýªªòø;
-- (_Bool)è©Áé#	©H«Ðá;é©)AJ«ÐJA<è«©è©Áé#
-©H«Ð¡<è/;
-- (_Bool)àªf!àªd!üÓ;
-- (_Bool)#;
 - (_Bool);
-- (_Bool)á7Ùýª¹^õ;
-- (_Bool)XÑÐÀ;
-- (id)ôOA©öWÃ¨ÿ#ÕÐÊP;
-- (id)àªü¦õ;
-- (_Bool)0;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool),;
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (long long);
 - (_Bool);
@@ -171,18 +153,18 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)d;
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)mporaryDirectory.0pDcl1/Sources/SDAPI/libtextproc/libmrec/src/kernel/phnlat.cpp;
+- (id)Caches/com.apple.xbs/TemporaryDirectory.0pDcl1/Sources/SDAPI/libtextproc/libmrec/src/sdapi/sdword.cpp;
+- (id)y;
+- (_Bool)%.500s %.500s %u;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -196,9 +178,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)q(;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)km;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -213,29 +195,21 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
+- (id)C as fallback;
+- (id)w<;
+- (_Bool);
 - (void)× ;
 - (void)0@ù
 × ;
-- (_Bool)nvalidationHandler:(unsigned long long)arg1;
+- (_Bool)setInvalidationHandler:(unsigned long long)arg1;
 - (_Bool)eScope"16@"CPLEngineScopeFlagsUpdate"24;
 - (_Bool)n put aside;
 - (_Bool)king it has being alredy fetched;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool hasStagedSyncAnchors;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject;
-@property(readonly) Class superclass;
 
 @end
 

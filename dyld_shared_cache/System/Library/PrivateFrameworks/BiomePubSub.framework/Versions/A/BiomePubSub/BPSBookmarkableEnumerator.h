@@ -9,9 +9,9 @@
 }
 
 - (void);
+- (id)pronunciationsEnabledKey;
 - (id);
-- (id);
-- (id);
+- (id)44;
 - (id);
 - (void)4`ð;
 

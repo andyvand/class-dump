@@ -5,5 +5,7 @@
 //
 
 @protocol NSOpenPanelNewDocumentDelegate
+- (void);
+- (void)AMFDRDecodeCheckCertRevocation;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAVChat, IMAVChatProxy, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface IMAVChatParticipantProxy
 {
     NSDictionary *_info;
-    IMAVChatProxy *_chat;
 }
 
 - (_Bool);
@@ -21,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _inviteDelivered;
-@property(readonly, nonatomic) IMAVChat *avChat;
 @property(readonly, nonatomic) NSString *name;
 
 @end

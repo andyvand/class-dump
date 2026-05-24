@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface IMDExportConfiguration
 {
     long long sortOrder;
-    long long batchSize;
-    unsigned long long messagesExcluded;
-    unsigned long long participantsIncluded;
-    void limitToGUIDs;
-    _Bool quickEstimates;
 }
 
 + (_Bool);
@@ -22,7 +15,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)View;
 - (id);
 - (id);
 - (void);
@@ -31,12 +24,6 @@
 - (void)attachments = 1 AND cm.chat_id AND cm.chat_id = ? AND m.rowid = cm.message_id) as tmp WHERE ma.message_id = tmp.message_id) as tmp2 WHERE a.rowid = tmp2.a_id ORDER BY tmp2.m_date DESC LIMIT ?;
 
 // Remaining properties
-@property(nonatomic, readonly) long long batchSize; // @synthesize batchSize;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *limitToGUIDs;
-@property(nonatomic, readonly) unsigned long long messagesExcluded; // @synthesize messagesExcluded;
-@property(nonatomic, readonly) unsigned long long participantsIncluded; // @synthesize participantsIncluded;
-@property(nonatomic, readonly) _Bool quickEstimates; // @synthesize quickEstimates;
 @property(nonatomic, readonly) long long sortOrder; // @synthesize sortOrder;
 
 @end

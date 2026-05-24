@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(nonatomic, readonly) UIPanGestureRecognizer *coordinatingSwipeActionPanGestureRecognizer;
-@property(nonatomic, readonly) _Bool coordinatingSwipeActionShouldCancel;
 @end
 

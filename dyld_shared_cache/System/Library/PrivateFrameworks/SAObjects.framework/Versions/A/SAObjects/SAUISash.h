@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, SAUIColor, SAUIImageResource;
+@class NSString;
 
 @interface SAUISash : AceObject
 {
@@ -14,35 +14,23 @@
 
 + (id);
 + (id);
+- (id);
+- (void);
 - (id);
+- (id);
+- (id)@�(;
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)me:(id)arg1;
+- (void)setCityName:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SAUIColor *backgroundColor;
-@property(copy, nonatomic) NSArray *commands;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUIImageResource *image;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SAUIColor *textColor;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

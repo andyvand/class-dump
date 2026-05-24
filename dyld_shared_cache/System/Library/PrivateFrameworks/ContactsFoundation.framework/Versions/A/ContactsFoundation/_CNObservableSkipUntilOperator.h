@@ -6,20 +6,13 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@class NSString;
-@protocol CNCancelable;
-
 @interface _CNObservableSkipUntilOperator : CNObservable
 {
     _Bool _active;
-    CNObservable *_input;
-    CNObservable *_signal;
-    id <CNCancelable> _inputToken;
-    id <CNCancelable> _signalToken;
 }
 
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -29,25 +22,14 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)ype %s, passKey %@, %@;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(getter=isActive) _Bool active; // @synthesize active=_active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) CNObservable *input; // @synthesize input=_input;
-@property(retain) id <CNCancelable> inputToken; // @synthesize inputToken=_inputToken;
-@property(readonly) CNObservable *signal; // @synthesize signal=_signal;
-@property(retain) id <CNCancelable> signalToken; // @synthesize signalToken=_signalToken;
-@property(readonly) Class superclass;
 
 @end
 

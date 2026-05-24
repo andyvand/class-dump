@@ -7,10 +7,10 @@
 @class _INPBIntentMetadata;
 
 @protocol _INPBDeleteFilePermanentlyIntent
-- (_Bool)yloadMediaSearch: /* Error: Ran out of types for this method. */;
+- (_INPBIntentMetadata *)brary/Containers/*/Data/tmp/*;
+- (_Bool)addPayloadMediaSearch: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (unsigned char);
+- (unsigned char)qa;
 
 @end
 

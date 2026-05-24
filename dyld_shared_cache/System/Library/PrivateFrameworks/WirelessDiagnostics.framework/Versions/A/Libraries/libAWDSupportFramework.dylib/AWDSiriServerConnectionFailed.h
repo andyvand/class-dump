@@ -4,56 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDSiriServerConnectionFailed
 {
     long long _errorCode;
-    unsigned long long _timestamp;
-    int _connectionType;
-    NSString *_errorDomain;
-    struct {
-        unsigned int errorCode:1;
-        unsigned int timestamp:1;
-        unsigned int connectionType:1;
-    } _has;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (int);
+- (_Bool)';
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void)w;
 - (void);
-- (void);
-- (void)asAppleDeviceDisconnectCount;
+- (void)hasAppleDeviceDisconnectCount;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorDomain;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

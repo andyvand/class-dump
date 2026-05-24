@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface CKItemArtworkImage
 {
     long long _height;
-    NSString *_imageKind;
-    _Bool _prerendered;
-    NSURL *_url;
-    long long _width;
 }
 
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)sso.net;
 - (long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_url;
 @property(readonly, nonatomic) long long height; // @synthesize height=_height;
-@property(readonly, nonatomic) NSString *imageKind; // @synthesize imageKind=_imageKind;
-@property(readonly, nonatomic) long long width; // @synthesize width=_width;
 
 @end
 

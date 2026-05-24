@@ -6,58 +6,42 @@
 
 #import <AccessibilityVisuals/AXVView.h>
 
-@class AXVMenuItem, AXVTextField, NSImageView, NSStackView;
+@class AXVTextField;
 
 @interface AXVMenuItemView : AXVView
 {
     _Bool _selected;
-    _Bool _isHighContrast;
-    _Bool _reserveViewForSubmenuIndicator;
-    AXVMenuItem *_menuItem;
-    double _fontSize;
-    AXVTextField *__descriptionTextField;
-    AXVTextField *__keyboardShortcutTextField;
-    NSImageView *__submenuIndicatorView;
-    NSStackView *__stackView;
 }
 
 - (void);
 - (void);
+- (void)+;
 - (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)@@y	?%@qa;
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void);
 - (id);
 - (double);
 - (void);
 - (void);
-- (void);
-- (_Bool)aredSpaceAtVoiceOverLevel;
+- (void)!;
+- (_Bool)sharedSpaceAtVoiceOverLevel;
 
 // Remaining properties
 @property(retain, nonatomic) AXVTextField *_descriptionTextField; // @synthesize _descriptionTextField=__descriptionTextField;
-@property(retain, nonatomic) AXVTextField *_keyboardShortcutTextField; // @synthesize _keyboardShortcutTextField=__keyboardShortcutTextField;
-@property(retain, nonatomic) NSStackView *_stackView; // @synthesize _stackView=__stackView;
-@property(retain, nonatomic) NSImageView *_submenuIndicatorView; // @synthesize _submenuIndicatorView=__submenuIndicatorView;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(nonatomic) _Bool isHighContrast; // @synthesize isHighContrast=_isHighContrast;
-@property(retain, nonatomic) AXVMenuItem *menuItem; // @synthesize menuItem=_menuItem;
-@property(nonatomic) _Bool reserveViewForSubmenuIndicator; // @synthesize reserveViewForSubmenuIndicator=_reserveViewForSubmenuIndicator;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 
 @end
 

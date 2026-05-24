@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKCurrencyAmount;
+@class NSString;
 
 @interface PKAccountHold
 {
     NSString *_identifier;
-    unsigned long long _type;
-    unsigned long long _state;
-    PKCurrencyAmount *_currencyAmount;
 }
 
 + (id);
@@ -20,34 +17,24 @@
 × ;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long));
+- (_Bool)_suppressedReason;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id)
 × ;
-- (void)entAuthorizationToken;
+- (void)installmentAuthorizationToken;
 
 // Remaining properties
-@property(retain, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

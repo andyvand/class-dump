@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol GCUserDefaultsXPCProxyServiceRemoteClientInterface, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface GCRemoteUserDefaultsProxy
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_observers;
-    NSMutableDictionary *_clients;
-    id <GCUserDefaultsXPCProxyServiceRemoteClientInterface> _activeClient;
 }
 
+- (void)&;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -39,20 +36,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void)AL_GAMEPAD_BUTTON_CENTER;
-- (void);
+- (void)stem/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD;
+- (void)DIRECTIONAL_GAMEPAD_BUTTON_CENTER;
+- (void)End;
 
 // Remaining properties
-@property(retain, nonatomic) id <GCUserDefaultsXPCProxyServiceRemoteClientInterface> activeClient; // @synthesize activeClient=_activeClient;
 @property(readonly, nonatomic) _Bool agentConnectionEstablished;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

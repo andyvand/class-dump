@@ -10,12 +10,12 @@
 {
 }
 
++ (id)extensions;
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
++ (id)#;
+- (id)z;
+- (id)'o;
 
 @end
 

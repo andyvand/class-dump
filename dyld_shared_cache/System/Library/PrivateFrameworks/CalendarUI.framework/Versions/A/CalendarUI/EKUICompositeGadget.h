@@ -6,16 +6,11 @@
 
 #import <CalendarUI/EKUIGadget.h>
 
-@class EKUICompositeView, EKViewController, NSString;
-@protocol EKUILayoutItem;
+@class EKViewController;
 
 @interface EKUICompositeGadget : EKUIGadget
 {
     _Bool _isExpanded;
-    EKUICompositeView *_view;
-    EKViewController *_viewController;
-    NSString *_uuid;
-    id <EKUILayoutItem> _parentItem;
 }
 
 - (_Bool);
@@ -40,17 +35,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (_Bool)A6 ð!4BùqÄ#°1Â0@ù
 × ;
 
 // Remaining properties
-@property(setter=setExpanded:) _Bool isExpanded;
-@property __weak id <EKUILayoutItem> parentItem; // @synthesize parentItem=_parentItem;
-@property(retain) NSString *uuid; // @synthesize uuid=_uuid;
-@property(retain) EKUICompositeView *view; // @synthesize view=_view;
 @property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

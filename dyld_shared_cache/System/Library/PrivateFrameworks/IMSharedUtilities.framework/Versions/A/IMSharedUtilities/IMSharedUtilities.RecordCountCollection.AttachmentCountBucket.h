@@ -7,11 +7,6 @@
 @interface IMSharedUtilities.RecordCountCollection.AttachmentCountBucket
 {
     id count;
-    id size;
-    id subBucketsByDescriptor;
-    id missingFileReasons;
-    id newerThanDate;
-    id retrievalSource;
 }
 
 @end

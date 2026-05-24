@@ -9,8 +9,6 @@
 @interface SXMediaEngageCompleteEvent : SXMediaEvent
 {
     double _mediaFrameRate;
-    double _mediaDuration;
-    double _mediaTimePlayed;
 }
 
 - (void);
@@ -21,9 +19,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double mediaDuration; // @synthesize mediaDuration=_mediaDuration;
 @property(nonatomic) double mediaFrameRate; // @synthesize mediaFrameRate=_mediaFrameRate;
-@property(nonatomic) double mediaTimePlayed; // @synthesize mediaTimePlayed=_mediaTimePlayed;
 
 @end
 

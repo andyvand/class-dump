@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _CDContextualChangeRegistration;
+@class NSObject, _CDContextualChangeRegistration;
+@protocol NSCopying><NSSecureCoding;
 
 @protocol _CDContext
+- (NSObject<NSCopying><NSSecureCoding> *)d network %@ changed, updating cloud KVS;
 - (void)oving from keypath:(_CDContextualChangeRegistration *)arg1 %@;
 @end
 

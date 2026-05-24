@@ -4,42 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, VCAudioRelayIO;
-@protocol OS_dispatch_source;
-
 @interface VCAudioRelay
 {
     _Bool _isRelayRunning;
-    struct OpaqueFigThread *_relayThread;
-    struct _opaque_pthread_mutex_t _wakeUpMutex;
-    struct _opaque_pthread_cond_t _wakeUpCondition;
-    double _IOBufferDuration;
-    struct OpaqueAudioConverter *_clientToRemoteConverter;
-    struct OpaqueAudioConverter *_remoteToClientConverter;
-    struct tagVCAudioRelayIOInfo _remoteIOInfo;
-    struct tagVCAudioRelayIOInfo _clientIOInfo;
-    struct _opaque_pthread_mutex_t _relayLock;
-    NSObject<OS_dispatch_source> *_periodicHealthPrintDispatchSource;
-    unsigned int _blocksRelayedCount;
-    float _clientUplinkPowerMovingAverage;
-    float _clientDownlinkPowerMovingAverage;
-    struct _VCRemoteCodecInfo _remoteCodecInfo;
-    void *_ptpClock;
-    unsigned long long _ptpGMIdentity;
-    unsigned short _ptpClockLocalPort;
-    struct timespec _nextWakeUpTime;
-    struct timespec _nextWakeUpInterval;
-    unsigned long long _ptpWakeUpTime;
-    unsigned long long _nextWakeUpHostMachTime;
-    VCAudioRelayIO *_remoteIO;
-    VCAudioRelayIO *_clientIO;
 }
 
 - (void);
 - (void);
+- (void)";
 - (void);
-- (void);
-- (void);
+- (void)";
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,7 +21,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)";
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -55,18 +29,18 @@
 - (float);
 - (struct OpaqueAudioConverter *);
 - (id);
+- (void)m;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (struct OpaqueAudioConverter *);
-- (_Bool);
+- (_Bool);
 - (double);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R";
 - (float);
 - (struct OpaqueAudioConverter *);
 - (id);
@@ -83,23 +57,7 @@
 - (void)pTimeOutEnabled:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) double IOBufferDuration; // @synthesize IOBufferDuration=_IOBufferDuration;
-@property(readonly) unsigned int blocksRelayedCount; // @synthesize blocksRelayedCount=_blocksRelayedCount;
-@property(readonly) float clientDownlinkPowerMovingAverage; // @synthesize clientDownlinkPowerMovingAverage=_clientDownlinkPowerMovingAverage;
-@property(copy, nonatomic) VCAudioRelayIO *clientIO; // @synthesize clientIO=_clientIO;
-@property(readonly) struct OpaqueAudioConverter *clientToRemoteConverter; // @synthesize clientToRemoteConverter=_clientToRemoteConverter;
-@property(readonly) float clientUplinkPowerMovingAverage; // @synthesize clientUplinkPowerMovingAverage=_clientUplinkPowerMovingAverage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isRelayRunning; // @synthesize isRelayRunning=_isRelayRunning;
-@property(readonly) NSObject<OS_dispatch_source> *periodicHealthPrintDispatchSource; // @synthesize periodicHealthPrintDispatchSource=_periodicHealthPrintDispatchSource;
-@property(copy, nonatomic) VCAudioRelayIO *remoteIO; // @synthesize remoteIO=_remoteIO;
 @property(readonly) struct OpaqueAudioConverter *remoteToClientConverter; // @synthesize remoteToClientConverter=_remoteToClientConverter;
-@property(readonly) Class superclass;
 
 @end
 

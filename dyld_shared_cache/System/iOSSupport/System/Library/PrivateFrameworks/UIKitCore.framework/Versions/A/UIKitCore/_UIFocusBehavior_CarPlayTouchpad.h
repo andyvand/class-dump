@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool)
 × ;
-- (_Bool)ibleGeometryChange;
+- (_Bool)_updateFixedPositioningObjectsLayoutAfterVisibleGeometryChange;
 
 @end
 

@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBCondition;
+@class _INPBCondition;
 
 @protocol _INPBPlaceList
 + (Class)INSearchForContactIntentResponseCodeFailureContactCompanyNotFound;
+- (unsigned long long)U{\;
+- (_Bool);
+- (void);
+- (_INPBCondition *)p;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition;
-@property(readonly, nonatomic) _Bool hasCondition;
-@property(copy, nonatomic) NSArray *places;
-@property(readonly, nonatomic) unsigned long long placesCount;
 @end
 

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class JSValue, NSString;
 
 @protocol JetEngine.JSHostObjectExports__priv_3B280445E2AC6E2542A3DCC2FD82BB2C
+- (_Bool):(JSValue *)arg1:(JSValue *)arg2;
 - (NSString *);
+- (NSString *)QQ;
+- (NSString *);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *clientIdentifier;
-@property(nonatomic, readonly) NSString *clientVersion;
-@property(nonatomic, readonly) NSString *deviceLocalizedModel;
-@property(nonatomic, readonly) NSString *deviceMarketingFamilyName;
-@property(nonatomic, readonly) NSString *deviceModel;
-@property(nonatomic, readonly) NSString *deviceModelFamily;
-@property(nonatomic, readonly) NSString *devicePhysicalModel;
-@property(nonatomic, readonly) NSString *osBuild;
 @property(nonatomic, readonly) NSString *platform;
 @end
 

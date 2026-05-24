@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDCodingConditionSet
 {
     HMDManagedObjectCodingModel *_model;
-    unsigned long long _bitmask;
 }
 
 - (id);
@@ -18,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void)esUnpairedAccessory:(id)arg1;
-- (id)emeralContainer:(struct _NSZone *)arg1;
-- (id)outerMulticastBridgingRule;
+- (void)matchesUnpairedAccessory:(id)arg1;
+- (id)handleDeactivateEphemeralContainer:(struct _NSZone *)arg1;
+- (id)HMDNetworkRouterMulticastBridgingRule;
 - (void)User;
 
 @end

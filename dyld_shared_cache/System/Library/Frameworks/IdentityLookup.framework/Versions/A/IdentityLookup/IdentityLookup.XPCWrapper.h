@@ -10,11 +10,11 @@
 }
 
 + (void);
-+ (_Bool);
-- (id);
-- (id);
++ (_Bool)pearanceProxy",R,N;
+- (id)f type %s.;
+- (id)a;
 - (void);
-- (void);
+- (void);
 
 @end
 

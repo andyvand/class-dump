@@ -6,31 +6,25 @@
 
 #import <TextInputCore/MCTouchInput.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface MCDrawableTouchInput : MCTouchInput
 {
     _Bool _isInflectionPoint;
-    NSArray *_nearbyKeys;
-    RefPtr_48eecea7 _touchHistory;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (RefPtr_48eecea7);
-- (id);
-- (id);
+- (RefPtr_0152fb75);
+- (id);
+- (id)updateViewControllerTitle: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ð!hFùiÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isInflectionPoint; // @synthesize isInflectionPoint=_isInflectionPoint;
-@property(readonly, nonatomic) NSArray *nearbyKeys; // @synthesize nearbyKeys=_nearbyKeys;
-@property(readonly, nonatomic) RefPtr_48eecea7 touchHistory; // @synthesize touchHistory=_touchHistory;
+@property(readonly, nonatomic) RefPtr_0152fb75 touchHistory; // @synthesize touchHistory=_touchHistory;
 
 @end
 

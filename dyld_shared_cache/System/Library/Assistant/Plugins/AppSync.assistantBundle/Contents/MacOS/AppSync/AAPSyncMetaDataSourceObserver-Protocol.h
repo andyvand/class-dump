@@ -5,5 +5,6 @@
 //
 
 @protocol AAPSyncMetaDataSourceObserver
+- (void);
 @end
 

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INRideStatus;
-
 @protocol INRequestRideIntentResponseExport
-- (long long)eScore;
+- (long long)hasNlConfidenceScore;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INRideStatus *rideStatus;
 @end
 

@@ -6,27 +6,17 @@
 
 #import <CoreHandwriting/CHRecognitionResult.h>
 
-@class NSArray, NSIndexSet, NSString;
+@class NSString;
 
 @interface CHTextRecognitionResult : CHRecognitionResult
 {
     _Bool _isTextReplacement;
-    NSString *_string;
-    NSArray *_wordRanges;
-    NSArray *_wordIDs;
-    NSArray *_wordRecognitionScores;
-    NSArray *_wordCombinedScores;
-    NSArray *_wordStrokeSets;
-    NSArray *_wordLexicalEntries;
-    NSArray *_wordPatternEntries;
-    NSIndexSet *_rareWordIndexes;
-    NSIndexSet *_inappropriateWordIndexes;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -39,17 +29,7 @@
 - (void)¼%;
 
 // Remaining properties
-@property(readonly) NSIndexSet *inappropriateWordIndexes; // @synthesize inappropriateWordIndexes=_inappropriateWordIndexes;
-@property(readonly) _Bool isTextReplacement; // @synthesize isTextReplacement=_isTextReplacement;
-@property(readonly) NSIndexSet *rareWordIndexes; // @synthesize rareWordIndexes=_rareWordIndexes;
 @property(readonly) NSString *string; // @synthesize string=_string;
-@property(readonly) NSArray *wordCombinedScores; // @synthesize wordCombinedScores=_wordCombinedScores;
-@property(readonly) NSArray *wordIDs; // @synthesize wordIDs=_wordIDs;
-@property(readonly) NSArray *wordLexicalEntries; // @synthesize wordLexicalEntries=_wordLexicalEntries;
-@property(readonly) NSArray *wordPatternEntries; // @synthesize wordPatternEntries=_wordPatternEntries;
-@property(readonly) NSArray *wordRanges; // @synthesize wordRanges=_wordRanges;
-@property(readonly) NSArray *wordRecognitionScores; // @synthesize wordRecognitionScores=_wordRecognitionScores;
-@property(readonly) NSArray *wordStrokeSets; // @synthesize wordStrokeSets=_wordStrokeSets;
 
 @end
 

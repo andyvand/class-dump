@@ -15,14 +15,14 @@
 }
 
 - (void);
-- (long long);
-- (void);
-- (void);
+- (long long)isCKErrorPartialFailure: /* Error: Ran out of types for this method. */;
+- (void)mework says we should appear available to this user;
+- (void)hat to deleted sync table;
 - (id)× ;
-- (_Bool)tusBarForegroundTransparent;
+- (_Bool)statusBarForegroundTransparent;
 - (id)eferEventHandlingToSystemWithContext, handled command modifier;
 - (id)vþÿ;
-- (void)gAlpha;
+- (void)darkeningAlpha;
 - (_Bool)arProxy.m;
 - (long long)lectionReusableView"8^B16;
 - (void)}{CGSize=dd}}40@?0{CGRect={CGPoint=dd}{CGSize=dd}}8;

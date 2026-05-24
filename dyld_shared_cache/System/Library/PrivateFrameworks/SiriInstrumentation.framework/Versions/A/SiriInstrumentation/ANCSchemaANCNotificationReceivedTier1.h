@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ANCSchemaANCNotificationReceivedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_appBundleId;
-    _Bool _isRedactedDueToOptOut;
-    struct {
-        unsigned int isRedactedDueToOptOut:1;
-    } _has;
-    _Bool _hasLinkId;
-    _Bool _hasAppBundleId;
 }
 
 - (void);
@@ -33,27 +26,21 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)EAWiFiUnconfiguredAccessoryBrowserState;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)bileAssetDownloadAttemptInSeconds: /* Error: Ran out of types for this method. */;
-- (void)sBridgeContext:(id)arg1;
+- (id);
+- (id)setTimeSinceLastMobileAssetDownloadAttemptInSeconds: /* Error: Ran out of types for this method. */;
+- (void)setPommesBridgeContext:(id)arg1;
 - (id)ÄT;
 - (id);
-- (id)NDLETYPE_TOKENS;
+- (id)USOBACKINGAPPBUNDLETYPE_TOKENS;
 - (void)B';
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(nonatomic) _Bool hasAppBundleId; // @synthesize hasAppBundleId=_hasAppBundleId;
-@property(nonatomic) _Bool hasIsRedactedDueToOptOut;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool isRedactedDueToOptOut; // @synthesize isRedactedDueToOptOut=_isRedactedDueToOptOut;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

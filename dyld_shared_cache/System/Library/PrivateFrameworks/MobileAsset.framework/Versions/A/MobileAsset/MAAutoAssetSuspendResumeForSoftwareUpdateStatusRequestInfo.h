@@ -11,22 +11,20 @@
 @interface MAAutoAssetSuspendResumeForSoftwareUpdateStatusRequestInfo : MAAutoAssetSuspendResumeForSoftwareUpdateRequestInfo
 {
     NSString *_clientDomainName;
-    NSString *_assetSetIdentifier;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)preferredLocalizationsFromArray:(id)arg1 forPreferences: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)idateSetConfigurationsCount: /* Error: Ran out of types for this method. */;
+- (id)setCandidateSetConfigurationsCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetSetIdentifier; // @synthesize assetSetIdentifier=_assetSetIdentifier;
 @property(readonly, nonatomic) NSString *clientDomainName; // @synthesize clientDomainName=_clientDomainName;
 
 @end

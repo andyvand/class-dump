@@ -13,7 +13,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool)moryLocalIdentifier:(id)arg1 momentUUIDs:memoryLocalIdentifiersToAvoid:targetUpNextMemoryCount:sharingFilter: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithRootMemoryLocalIdentifier:(id)arg1 momentUUIDs:memoryLocalIdentifiersToAvoid:targetUpNextMemoryCount:sharingFilter: /* Error: Ran out of types for this method. */;
 
 @end
 

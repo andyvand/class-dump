@@ -7,11 +7,6 @@
 @interface PhotoAnalysis.LegacyTask
 {
     id legacyTask;
-    id worker;
-    id graphManager;
-    id identifier;
-    id shouldRecordCompletion;
-    id taskProductivityReporter;
 }
 
 @end

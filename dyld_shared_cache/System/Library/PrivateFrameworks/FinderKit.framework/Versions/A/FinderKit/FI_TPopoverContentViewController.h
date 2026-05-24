@@ -6,21 +6,19 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TPopoverController, NSLayoutConstraint, NSStackView;
+@class FI_TPopoverController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TPopoverContentViewController : FI_TViewController
 {
     struct TNSWeakPtr<FI_TPopoverController> _weakPopoverController;
-    NSStackView *_stackView;
-    NSLayoutConstraint *_widthConstraint;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (double);
 - (id);
@@ -30,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) __weak FI_TPopoverController *popoverController;
-@property(nonatomic) double width;
 
 @end
 

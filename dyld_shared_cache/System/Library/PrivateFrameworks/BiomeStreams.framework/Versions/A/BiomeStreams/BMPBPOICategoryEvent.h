@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBPOICategoryEvent
 {
     double _timeIntervalSince1970;
-    NSString *_poiCategory;
-    unsigned int _rank;
-    struct {
-        unsigned int timeIntervalSince1970:1;
-        unsigned int rank:1;
-    } _has;
 }
 
 - (id);
@@ -35,17 +27,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned int)heckPersonalDomainSettingResponse;
+- (unsigned int)CheckPersonalDomainSettingResponse;
 - (void)\];
 - (double);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPoiCategory;
-@property(nonatomic) _Bool hasRank;
-@property(nonatomic) _Bool hasTimeIntervalSince1970;
-@property(retain, nonatomic) NSString *poiCategory; // @synthesize poiCategory=_poiCategory;
-@property(nonatomic) unsigned int rank; // @synthesize rank=_rank;
-@property(nonatomic) double timeIntervalSince1970; // @synthesize timeIntervalSince1970=_timeIntervalSince1970;
 
 @end
 

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PIParallaxColorAnalysis
 {
     long long _version;
-    double _luminance;
-    double _foregroundLuminance;
-    double _backgroundLuminance;
-    NSArray *_colors;
-    NSArray *_foregroundColors;
-    NSArray *_backgroundColors;
-    NSArray *_clockAreaColors;
 }
 
 + (id);
@@ -27,28 +18,22 @@
 - (void);
 - (double);
 - (id);
+- (id);
 - (id);
+- (void)r:(id)arg1 error reading frame (%s)
+;
 - (id);
-- (void);
-- (id);
-- (void);
-- (long long);
+- (void)musicKitFailure;
+- (long long)2;
 - (double);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void);
-- (double);
-- (void)yPixelBuffer: /* Error: Ran out of types for this method. */;
+- (double)6i24;
+- (void)setInputDisparityPixelBuffer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *backgroundColors; // @synthesize backgroundColors=_backgroundColors;
-@property(nonatomic) double backgroundLuminance; // @synthesize backgroundLuminance=_backgroundLuminance;
-@property(copy, nonatomic) NSArray *clockAreaColors; // @synthesize clockAreaColors=_clockAreaColors;
-@property(copy, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(copy, nonatomic) NSArray *foregroundColors; // @synthesize foregroundColors=_foregroundColors;
-@property(nonatomic) double foregroundLuminance; // @synthesize foregroundLuminance=_foregroundLuminance;
-@property(nonatomic) double luminance; // @synthesize luminance=_luminance;
 @property(nonatomic) long long version; // @synthesize version=_version;
 
 @end

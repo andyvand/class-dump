@@ -9,43 +9,25 @@
 @interface RTAuthorizedLocation
 {
     long long _rank;
-    RTLearnedLocationOfInterest *_loi;
-    double _dwellTime_s;
-    long long _numberOfDaysVisited;
-    long long _ageDaysFirstVisit;
-    long long _ageDaysFirstRegisteredVisit;
-    unsigned long long _locationTechnologyAvailability;
-    long long _visitsWithTechnologyAnnotation;
-    long long _visitsWithGPS;
-    long long _visitsWithWiFiHI;
 }
 
 - (long long);
 - (long long);
 - (long long);
 - (long long);
-- (unsigned long long);
-- (id);
-- (double);
-- (long long);
-- (long long);
-- (id);
-- (void);
+- (unsigned long long)licIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I};
+- (id)PCSCKKSSyncViewOperation;
+- (double)uld not allocate the key;
+- (long long)ad we found %@;
+- (long long)udStorage;
+- (id)IDSGlobalLinkSession SessionInfoDict:%@ /* Error: Ran out of types for this method. */;
+- (void)(%@);
 - (id);
 - (long long)Object:] /* Error: Ran out of types for this method. */;
 - (void)passed bad keys, %@;
 
 // Remaining properties
-@property(readonly) long long ageDaysFirstRegisteredVisit; // @synthesize ageDaysFirstRegisteredVisit=_ageDaysFirstRegisteredVisit;
-@property(readonly) long long ageDaysFirstVisit; // @synthesize ageDaysFirstVisit=_ageDaysFirstVisit;
-@property(readonly) double dwellTime_s; // @synthesize dwellTime_s=_dwellTime_s;
-@property(readonly) unsigned long long locationTechnologyAvailability; // @synthesize locationTechnologyAvailability=_locationTechnologyAvailability;
 @property(readonly) RTLearnedLocationOfInterest *loi; // @synthesize loi=_loi;
-@property(readonly) long long numberOfDaysVisited; // @synthesize numberOfDaysVisited=_numberOfDaysVisited;
-@property long long rank; // @synthesize rank=_rank;
-@property(readonly) long long visitsWithGPS; // @synthesize visitsWithGPS=_visitsWithGPS;
-@property(readonly) long long visitsWithTechnologyAnnotation; // @synthesize visitsWithTechnologyAnnotation=_visitsWithTechnologyAnnotation;
-@property(readonly) long long visitsWithWiFiHI; // @synthesize visitsWithWiFiHI=_visitsWithWiFiHI;
 
 @end
 

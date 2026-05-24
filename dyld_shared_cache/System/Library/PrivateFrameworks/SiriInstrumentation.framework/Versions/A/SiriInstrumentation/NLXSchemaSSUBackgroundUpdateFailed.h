@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaSSUBackgroundUpdateFailed : SISchemaInstrumentationMessage
 {
     int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)Þð1Â0@ù
 × ;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

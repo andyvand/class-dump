@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPerson, NSNumber, NSString;
+@class INPerson;
 
 @interface INEventParticipant
 {
     INPerson *_person;
-    long long _status;
-    NSNumber *_isUser;
-    NSNumber *_isEventOrganizer;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)onary",&,N,V_clients;
+- (id)`";
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)__scheduleDelayedAutoJoinMetricSubmission;
+- (void)TrueH_th.43ebf112-d474-11eb-9b7d-f45c89abb0d9;
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
 - (id)Ô ;
-- (id)iptor:(unsigned long long)arg1;
-- (void): /* Error: Ran out of types for this method. */;
+- (id)_resolvedIntentMatchingDescriptor:(unsigned long long)arg1;
+- (void)defaultContactsForStartAudioCall: /* Error: Ran out of types for this method. */;
 - (id)CQ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *isEventOrganizer; // @synthesize isEventOrganizer=_isEventOrganizer;
-@property(readonly, copy) NSNumber *isUser; // @synthesize isUser=_isUser;
-@property(readonly, copy) INPerson *person; // @synthesize person=_person;
-@property(readonly) long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

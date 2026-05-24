@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _IDSGenericCompletionHandler;
+@class _IDSGenericCompletionHandler;
 
 @interface IDSHomeKitManager
 {
     _IDSGenericCompletionHandler *_getServiceUserIDsCompletion;
-    _IDSGenericCompletionHandler *_getAdminAccessTokensCompletion;
-    _IDSGenericCompletionHandler *_getConsentTokensCompletion;
-    _IDSGenericCompletionHandler *_getUserAccessTokensCompletion;
-    _IDSGenericCompletionHandler *_refreshUserAccessTokensCompletion;
 }
 
 + (id)6@0:8@"IDSGroupSession"16I24@"NSError"28 /* Error: Ran out of types for this method. */;
@@ -27,18 +23,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id),V_supportsCounterfeitDetection;
 - (void)f(!°Eù,Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

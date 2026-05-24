@@ -7,7 +7,6 @@
 @interface WBSPerSitePreferenceTimeout
 {
     double _interval;
-    id _fallbackValue;
 }
 
 + (id);
@@ -17,7 +16,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id fallbackValue; // @synthesize fallbackValue=_fallbackValue;
 @property(readonly, nonatomic) double interval; // @synthesize interval=_interval;
 
 @end

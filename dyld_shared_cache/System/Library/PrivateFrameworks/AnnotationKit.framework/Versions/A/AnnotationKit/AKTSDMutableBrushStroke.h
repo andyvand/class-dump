@@ -6,20 +6,16 @@
 
 #import <AnnotationKit/AKTSDBrushStroke.h>
 
-@class NSColor, NSString;
+@class NSColor;
 
 @interface AKTSDMutableBrushStroke : AKTSDBrushStroke
 {
     int join;
-    NSColor *color;
-    double width;
-    double miterLimit;
-    NSString *strokeName;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)subarrayWithRange:(int)arg1;
 - (int);
 - (void);
 - (double);
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *color; // @synthesize color;
-@property(nonatomic) int join; // @synthesize join;
-@property(nonatomic) double miterLimit; // @synthesize miterLimit;
-@property(copy, nonatomic) NSString *strokeName; // @synthesize strokeName;
-@property(nonatomic) double width; // @synthesize width;
 
 @end
 

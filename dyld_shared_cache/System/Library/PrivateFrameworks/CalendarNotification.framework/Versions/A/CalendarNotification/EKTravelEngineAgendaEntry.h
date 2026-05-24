@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CalGeocoder, EKTravelEngineHypothesis, EKTravelEngineOriginalEvent, EKTravelEngineThrottle, NSData, NSObject;
-@protocol CALNRouteHypothesizer, CALNRouteHypothesizerProvider, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface EKTravelEngineAgendaEntry
 {
     _Bool _dismissed;
-    _Bool _geocodedEventEncountered;
-    _Bool _hypothesizerSentAtLeastOneHypothesis;
-    EKTravelEngineHypothesis *_latestHypothesis;
-    CDUnknownBlockType _updateBlock;
-    CDUnknownBlockType _entrySignificantlyChangedBlock;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    EKTravelEngineOriginalEvent *_originalEventInternal;
-    EKTravelEngineThrottle *_throttle;
-    CalGeocoder *_geocoder;
-    id <CALNRouteHypothesizerProvider> _hypothesizerProvider;
-    id <CALNRouteHypothesizer> _hypothesizer;
-    CLLocation *_geoLocation;
-    NSData *_mapKitHandle;
-    long long _travelTimeThresholdExceededState;
-    double _maximumTravelDurationEncountered;
 }
 
-+ (double);
++ (double)#;
 - (void);
 - (long long);
 - (void);
@@ -39,15 +23,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)D9;
+- (void)ShUSj]SkES;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)#f)	k;
 - (_Bool);
 - (id);
 - (id);
@@ -62,6 +46,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)N;
 - (void);
 - (void);
 - (void);
@@ -69,23 +66,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)0;
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -99,23 +83,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(nonatomic) _Bool dismissed; // @synthesize dismissed=_dismissed;
-@property(copy, nonatomic) CDUnknownBlockType entrySignificantlyChangedBlock; // @synthesize entrySignificantlyChangedBlock=_entrySignificantlyChangedBlock;
-@property(retain, nonatomic) CLLocation *geoLocation; // @synthesize geoLocation=_geoLocation;
-@property(nonatomic) _Bool geocodedEventEncountered; // @synthesize geocodedEventEncountered=_geocodedEventEncountered;
-@property(retain, nonatomic) CalGeocoder *geocoder; // @synthesize geocoder=_geocoder;
-@property(retain, nonatomic) id <CALNRouteHypothesizer> hypothesizer; // @synthesize hypothesizer=_hypothesizer;
-@property(readonly, nonatomic) id <CALNRouteHypothesizerProvider> hypothesizerProvider; // @synthesize hypothesizerProvider=_hypothesizerProvider;
-@property(nonatomic) _Bool hypothesizerSentAtLeastOneHypothesis; // @synthesize hypothesizerSentAtLeastOneHypothesis=_hypothesizerSentAtLeastOneHypothesis;
-@property(retain, nonatomic) EKTravelEngineHypothesis *latestHypothesis; // @synthesize latestHypothesis=_latestHypothesis;
-@property(retain, nonatomic) NSData *mapKitHandle; // @synthesize mapKitHandle=_mapKitHandle;
-@property(nonatomic) double maximumTravelDurationEncountered; // @synthesize maximumTravelDurationEncountered=_maximumTravelDurationEncountered;
-@property(readonly, nonatomic) EKTravelEngineOriginalEvent *originalEvent;
-@property(retain, nonatomic) EKTravelEngineOriginalEvent *originalEventInternal; // @synthesize originalEventInternal=_originalEventInternal;
-@property(retain, nonatomic) EKTravelEngineThrottle *throttle; // @synthesize throttle=_throttle;
-@property(nonatomic) long long travelTimeThresholdExceededState; // @synthesize travelTimeThresholdExceededState=_travelTimeThresholdExceededState;
-@property(copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

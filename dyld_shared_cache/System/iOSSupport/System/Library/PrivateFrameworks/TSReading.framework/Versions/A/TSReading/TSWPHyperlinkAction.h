@@ -6,13 +6,11 @@
 
 #import <TSReading/TSWPTwoPartAction.h>
 
-@class TSDRep, TSWPHyperlinkField;
-@protocol TSWPHyperlinkHostRepProtocol;
+@class TSWPHyperlinkField;
 
 @interface TSWPHyperlinkAction : TSWPTwoPartAction
 {
     TSWPHyperlinkField *_hyperlinkField;
-    TSDRep<TSWPHyperlinkHostRepProtocol> *_hyperlinkRep;
 }
 
 + (id);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, USOSerializedGraph;
+@class NSString, NSUUID;
 
 @interface SIRINLUSystemReportedSuccess
 {
     NSString *renderedText;
-    NSUUID *_taskId;
-    USOSerializedGraph *_task;
 }
 
 + (_Bool);
@@ -28,8 +26,6 @@
 - (void)mmon_Recipe;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *renderedText; // @synthesize renderedText;
-@property(retain, nonatomic) USOSerializedGraph *task; // @synthesize task=_task;
 @property(retain, nonatomic) NSUUID *taskId; // @synthesize taskId=_taskId;
 
 @end

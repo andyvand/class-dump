@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol _SFPBAppIconImage
+- (id)A;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier;
-@property(nonatomic) int iconType;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

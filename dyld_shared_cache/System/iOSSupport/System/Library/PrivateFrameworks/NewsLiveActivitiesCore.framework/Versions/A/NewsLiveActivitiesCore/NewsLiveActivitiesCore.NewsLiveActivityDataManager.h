@@ -8,9 +8,6 @@
 {
     id pollingTasks;
     id activityDownloader;
-    id liveActivityController;
-    id liveActivityManager;
-    id isDataPollingEnabled;
 }
 
 @end

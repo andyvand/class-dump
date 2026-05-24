@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMClientWarmupEnded, NLXSchemaCDMClientWarmupFailed, NLXSchemaCDMClientWarmupStarted, NSData;
+@class NLXSchemaCDMClientWarmupStarted;
 
 @interface NLXSchemaCDMClientWarmupContext : SISchemaInstrumentationMessage
 {
     NLXSchemaCDMClientWarmupStarted *_startedOrChanged;
-    NLXSchemaCDMClientWarmupEnded *_ended;
-    NLXSchemaCDMClientWarmupFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -36,7 +30,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)PKCS7_add_signature;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -49,14 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NLXSchemaCDMClientWarmupEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaCDMClientWarmupFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaCDMClientWarmupStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

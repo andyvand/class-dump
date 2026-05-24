@@ -9,9 +9,6 @@
 @interface CKRequestAssetOperation
 {
     long long _state;
-    CKUploadRequestMetadata *_metadata;
-    CDUnknownBlockType _assetRequestCompletionBlock;
-    CDUnknownBlockType _requestCallback;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -31,10 +28,7 @@
 - (_Bool)q¯;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType assetRequestCompletionBlock; // @synthesize assetRequestCompletionBlock=_assetRequestCompletionBlock;
 @property(retain, nonatomic) CKUploadRequestMetadata *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) CDUnknownBlockType requestCallback; // @synthesize requestCallback=_requestCallback;
-@property long long state; // @synthesize state=_state;
 
 @end
 

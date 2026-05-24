@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUndoManager, NSXPCListenerEndpoint;
+@class NSXPCListenerEndpoint;
 
 @interface _NSAuxiliaryUndoManagerReference
 {
     NSXPCListenerEndpoint *_endpoint;
-    NSUndoManager *_inProcessManager;
 }
 
 + (_Bool)vocation - made packet [%p %s...] conn:%p conv %p sequence %d /* Error: Ran out of types for this method. */;
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

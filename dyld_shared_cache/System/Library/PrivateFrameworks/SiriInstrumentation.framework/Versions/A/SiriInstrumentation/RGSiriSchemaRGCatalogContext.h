@@ -6,24 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGCatalogEnded, RGSiriSchemaRGCatalogFailed, RGSiriSchemaRGCatalogStarted;
+@class RGSiriSchemaRGCatalogStarted;
 
 @interface RGSiriSchemaRGCatalogContext : SISchemaInstrumentationMessage
 {
     RGSiriSchemaRGCatalogStarted *_startedOrChanged;
-    RGSiriSchemaRGCatalogEnded *_ended;
-    RGSiriSchemaRGCatalogFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,31 +25,24 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)__swift_as_entry__TEXT;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAppCapabilityMetadata_macOS.m:21 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)dCounterfactualAllocation:(id)arg1;
+- (id)addCounterfactualAllocation:(id)arg1;
 - (id)V_totalSizeOfPSUSAssetsInAssetSet;
-- (void)NTEXTFETCHFAILUREREASON_NO_CONTEXT_IN_RESPONSE;
+- (void)HALCONTEXTFETCHFAILUREREASON_NO_CONTEXT_IN_RESPONSE;
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGCatalogEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RGSiriSchemaRGCatalogFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RGSiriSchemaRGCatalogStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

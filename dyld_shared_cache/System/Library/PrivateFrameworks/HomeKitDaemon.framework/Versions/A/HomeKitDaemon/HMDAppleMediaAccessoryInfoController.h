@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFWiFiManager, HMFWiFiNetworkInfo, NSNotificationCenter, NSObject;
-@protocol HMDAppleMediaAccessoryInfoControllerDataSource, HMDAppleMediaAccessoryInfoControllerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryInfoController
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <HMDAppleMediaAccessoryInfoControllerDataSource> _dataSource;
-    id <HMDAppleMediaAccessoryInfoControllerDelegate> _delegate;
-    NSNotificationCenter *_notificationCenter;
-    HMFWiFiNetworkInfo *_lastWifiNetworkInfo;
-    HMFWiFiManager *_wifiManager;
 }
 
 + (id);
-- (void);
+- (void)i;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)initWithMessageSerializer:(id)arg1 streamingContext: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id)PhotosComposition;
 - (id);
-- (id);
-- (void)onerPairingManager;
-- (id)oryPowerManagementLogEvent;
+- (void)_systemCommissionerPairingManager;
+- (id)HMDAccessoryPowerManagementLogEvent;
 - (void)ing HMDCharacteristicEventReportMessage to target=%@ for device=%@ with payload=%@;
 - (id)letinRegistrations.count;
 - (void)üuòþÀ;
@@ -38,12 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿDQ;
 
 // Remaining properties
-@property(readonly) __weak id <HMDAppleMediaAccessoryInfoControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) __weak id <HMDAppleMediaAccessoryInfoControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) HMFWiFiNetworkInfo *lastWifiNetworkInfo; // @synthesize lastWifiNetworkInfo=_lastWifiNetworkInfo;
-@property(retain) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) HMFWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
 
 @end
 

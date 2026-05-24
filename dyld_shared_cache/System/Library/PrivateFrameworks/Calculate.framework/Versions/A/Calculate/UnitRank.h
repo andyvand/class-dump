@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
-
 __attribute__((visibility("hidden")))
 @interface UnitRank
 {
     _Bool _isConfusable;
-    _Bool _isLaTeX;
-    int _unitID;
-    float _rank;
-    int _tokenType;
-    NSLocale *_locale;
-    id _context;
-    NSString *_normalized;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)B;
+- (id);
 - (_Bool);
 - (id);
 - (int);
 - (void);
-- (int);
+- (int)�hnM9;
 - (id);
 - (unsigned long long);
 - (void);
@@ -44,13 +35,6 @@ __attribute__((visibility("hidden")))
 - (void)ª_<3;
 
 // Remaining properties
-@property(retain, nonatomic) id context; // @synthesize context=_context;
-@property(nonatomic) _Bool isConfusable; // @synthesize isConfusable=_isConfusable;
-@property(nonatomic) _Bool isLaTeX; // @synthesize isLaTeX=_isLaTeX;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) NSString *normalized; // @synthesize normalized=_normalized;
-@property(nonatomic) float rank; // @synthesize rank=_rank;
-@property(nonatomic) int tokenType; // @synthesize tokenType=_tokenType;
 @property(nonatomic) int unitID; // @synthesize unitID=_unitID;
 
 @end

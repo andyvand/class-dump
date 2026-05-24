@@ -4,54 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableSet, NSNumber, NSObject, NSSet, VCDispatchTimer;
-@protocol OS_dispatch_queue, VCLinkProbingHandlerDelegate;
+@protocol VCLinkProbingHandlerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCLinkProbingHandler
 {
     id <VCLinkProbingHandlerDelegate> _linkProbingHandlerDelegate;
-    VCDispatchTimer *_queryProbingResultsTimer;
-    VCDispatchTimer *_probingLockdownTimer;
-    VCDispatchTimer *_requestStatsTimer;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSMutableDictionary *_aggregatedProbingResults;
-    NSArray *_linkPreferenceOrder;
-    unsigned char _linkProbingCapabilityVersion;
-    unsigned int _linkProbingInterval;
-    unsigned int _linkProbingTimeout;
-    unsigned int _linkProbingQueryResultsInterval;
-    unsigned int _minSentRequestCountThreshold;
-    unsigned char _linkProbingState;
-    double _lastLinkPreferenceUpdateNotificationTime;
-    double _linkProbingConnectionLockdownPeriod;
-    double _expMovMeanFactor;
-    double _plrEnvelopeAttackFactor;
-    double _plrEnvelopeDecayFactor;
-    NSArray *_plrBuckets;
-    CDStruct_7421bd8e _linkProbingResultConfig;
-    NSMutableSet *_activelyProbingLinkIDs;
-    _Bool _isDuplicationEnabled;
-    _Bool _isProbingLockedOut;
-    double _probingStartTime;
-    double _probingLockoutStartTime;
-    double _linkProbingLockdownPeriod;
-    unsigned int _linkProbingDuplicationWaitTimeout;
-    unsigned int _consecutiveIdenticalQueryResultMax;
-    unsigned int _consecutiveIdenticalQueryResultCount;
-    unsigned int _linkProbingQRStatFrequency;
-    unsigned int _linkProbingQRStatRequestMaxCount;
-    double _inkProbingQRStatRequestMaxRTT;
-    unsigned char _qrLinkProbingState;
-    NSNumber *_qrLinkID;
-    unsigned long long _requestStatsIdentifier;
-    NSMutableDictionary *_activeQRStatRequests;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
@@ -62,14 +26,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned char);
-- (_Bool);
+- (_Bool)R
+;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -81,10 +45,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) NSSet *activelyProbingLinkIDs; // @synthesize activelyProbingLinkIDs=_activelyProbingLinkIDs;
-@property _Bool isDuplicationEnabled; // @synthesize isDuplicationEnabled=_isDuplicationEnabled;
-@property(readonly) _Bool isLinkProbingActive;
-@property unsigned char linkProbingCapabilityVersion; // @synthesize linkProbingCapabilityVersion=_linkProbingCapabilityVersion;
 @property id <VCLinkProbingHandlerDelegate> linkProbingHandlerDelegate;
 
 @end

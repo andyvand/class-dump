@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol PPClientStore
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *clientIdentifier;

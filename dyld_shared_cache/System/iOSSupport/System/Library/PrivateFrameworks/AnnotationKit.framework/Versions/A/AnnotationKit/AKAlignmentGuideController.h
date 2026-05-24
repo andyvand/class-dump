@@ -9,17 +9,12 @@
 @interface AKAlignmentGuideController
 {
     struct CGPoint _initialDraggedAnnotationsCombinedCenter;
-    struct CGPoint *_otherAnnotationCenters;
-    unsigned long long _otherAnnotationCentersCount;
-    _Bool _exifHasFlippedAxes;
-    AKPageController *_pageController;
-    double _screenToModelScaleFactor;
 }
 
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)+!;
 - (id);
 - (id);
 - (struct CGPoint);
@@ -28,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool exifHasFlippedAxes; // @synthesize exifHasFlippedAxes=_exifHasFlippedAxes;
 @property __weak AKPageController *pageController; // @synthesize pageController=_pageController;
-@property double screenToModelScaleFactor; // @synthesize screenToModelScaleFactor=_screenToModelScaleFactor;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @protocol PKPaymentMarketGeoFence
-- (id)rdIconURL;
+- (id)provisioningCardIconURL;
 - (_Bool)mmand Error;
 @end
 

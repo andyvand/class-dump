@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL, NSUUID;
+@class NSURL;
 
 @interface LSRecord
 {
     void *_resolvedProperties;
-    struct LSContext _context;
-    unsigned int _unitID;
-    unsigned int _tableID:16;
-    unsigned int _discardableContentCounter:14;
-    unsigned int _intentionallyInvalid:1;
-    unsigned int _shared:1;
 }
 
 
 // Remaining properties
-@property(nonatomic, getter=_isShared, setter=_setShared:) _Bool _shared;
-@property(readonly, nonatomic) id compatibilityObject;
-@property(readonly) NSUUID *databaseUUID;
-@property(readonly) NSData *persistentIdentifier;
 @property(readonly, nonatomic) NSURL *visualizerURL;
 @end
 

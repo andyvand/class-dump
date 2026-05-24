@@ -9,18 +9,16 @@
 @interface AppStoreKit.JSPlayerBridgeObject
 {
     void playerID;
-    _Bool isUnderThirteen;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)pStoreKit27AsyncUpdatingPresenterPhaseP;
 
 // Remaining properties
-@property(nonatomic) _Bool isUnderThirteen; // @synthesize isUnderThirteen;
 @property(nonatomic, copy) NSString *playerID;
 
 @end

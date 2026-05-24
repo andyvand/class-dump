@@ -19,11 +19,12 @@
 - (struct MPSNNDimensionOrder);
 - (id);
 - (id);
+- (id)q`;
+- (_Bool)_restaurantReservationForAddress;
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (void);
+- (void)1
+;
 - (_Bool);
 - (id)thwise convoution gradient is only supported for channel multipler == 1;
 

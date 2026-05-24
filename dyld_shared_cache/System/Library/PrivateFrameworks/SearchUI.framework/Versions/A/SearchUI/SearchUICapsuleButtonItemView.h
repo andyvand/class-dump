@@ -10,10 +10,10 @@
 {
 }
 
+- (double)a;
 - (double);
-- (double);
-- (id);
-- (double);
+- (id);
+- (double)VNClassifyPipelineImageCorrectionNeed1Request;
 - (id);
 - (long long);
 

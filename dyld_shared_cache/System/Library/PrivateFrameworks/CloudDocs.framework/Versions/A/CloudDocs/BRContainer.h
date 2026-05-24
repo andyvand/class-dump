@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BRMangledID, NSData, NSDate, NSDictionary, NSNumber, NSObject, NSPurgeableData, NSSet, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class BRMangledID, NSDate;
 
 @interface BRContainer
 {
     BRMangledID *_mangledID;
-    NSURL *_url;
-    NSSet *_bundleIDs;
-    NSDictionary *_bundleIDVersions;
-    NSString *_localizedName;
-    NSSet *_documentsTypes;
-    NSSet *_exportedTypes;
-    NSSet *_importedTypes;
-    NSDictionary *_iconMetadata;
-    NSDictionary *_iconURLs;
-    NSNumber *_iconGeneratorVersion;
-    _Bool _isCloudSyncTCCDisabled;
-    _Bool _isInInitialState;
-    _Bool _isInCloudDocsZone;
-    NSNumber *_isDocumentScopePublicAsNumber;
-    _Bool _isObservingLastServerUpdate;
-    NSDate *_lastServerUpdate;
-    _Bool _isObservingCurrentStatus;
-    unsigned int _currentStatus;
-    NSData *_imageSandboxExtension;
-    _Bool _shouldUsePurgeableData;
-    NSData *_dataRepresentation;
-    NSPurgeableData *_purgeableDataRepresentation;
-    NSObject<OS_dispatch_queue> *_observationSetupQueueForSecondaryConnection;
-    NSString *_personaID;
-    NSNumber *_zoneRowID;
 }
 
 + (_Bool);
@@ -52,20 +26,20 @@
 + (id);
 + (id);
 + (id);
++ (id)imageBufferValue;
++ (id)_completionSharedEventBoundToESOP;
++ (void)us the length of the axes parameter must equal output rank.;
 + (id);
++ (void);
 + (id);
 + (void);
 + (id);
-+ (void);
-+ (id);
-+ (void);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -84,88 +58,72 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id)(a;
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void)=;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (void)-;
 - (id);
+- (id);
+- (id);
+- (id))*K	k);
 - (void);
-- (unsigned int)inerIDs:reply: /* Error: Ran out of types for this method. */;
-- (void)LByResolvingExternalDocumentReferenceWithError:(unsigned int)arg1;
+- (unsigned int)launchSyncConsistencyChecksWithContainerIDs:reply: /* Error: Ran out of types for this method. */;
+- (void)br_URLByResolvingExternalDocumentReferenceWithError:(unsigned int)arg1;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *bundleIdentifiers;
-@property unsigned int currentStatus;
-@property(readonly, nonatomic) NSSet *documentsTypes;
-@property(readonly, nonatomic) NSURL *documentsURL;
-@property(readonly, nonatomic) NSSet *exportedTypes;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSSet *importedTypes;
-@property(nonatomic) _Bool isCloudSyncTCCDisabled; // @synthesize isCloudSyncTCCDisabled=_isCloudSyncTCCDisabled;
-@property(readonly, nonatomic) _Bool isDocumentScopePublic;
-@property(nonatomic) _Bool isInCloudDocsZone; // @synthesize isInCloudDocsZone=_isInCloudDocsZone;
-@property(nonatomic) _Bool isInInitialState; // @synthesize isInInitialState=_isInInitialState;
-@property(retain) NSDate *lastServerUpdate;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSString *supportedFolderLevels;
-@property(readonly, nonatomic) NSURL *trashURL;
-@property(readonly, nonatomic) NSURL *url;
-@property(retain, nonatomic) NSNumber *zoneRowID; // @synthesize zoneRowID=_zoneRowID;
+@property(readonly) NSDate *lastServerUpdate;
 
 @end
 

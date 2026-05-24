@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface TRISystemDimensions
 {
     long long _appleIntelligenceState;
-    NSString *_aneVersion;
-    NSString *_carrierBundleIdentifier;
-    NSString *_carrierCountryIsoCode;
-    NSString *_deviceClass;
-    NSString *_osBuild;
-    int _targetedPopulation;
-    NSMutableArray *_userKeyboardEnabledInputModeIdentifiers;
-    NSString *_userSettingsBcp47DeviceLocale;
-    NSString *_userSettingsLanguageCode;
-    NSString *_userSettingsRegionCode;
-    NSString *_versionTag;
-    _Bool _experimentOptOutStatus;
-    _Bool _isAutomatedTestDevice;
-    _Bool _isBetaUser;
-    _Bool _isInternalBuild;
-    struct {
-        unsigned int appleIntelligenceState:1;
-        unsigned int targetedPopulation:1;
-        unsigned int experimentOptOutStatus:1;
-        unsigned int isAutomatedTestDevice:1;
-        unsigned int isBetaUser:1;
-        unsigned int isInternalBuild:1;
-    } _has;
 }
 
 - (_Bool);
@@ -39,7 +14,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -51,22 +26,22 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)SArray"32{_NSRange=QQ}40^q56;
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)sendCommand:from:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (id)8@0:8@16@24^@32^@40 /* Error: Ran out of types for this method. */;
+- (_Bool)SString",C,V_uuid;
+- (_Bool)data length :(id)arg1 %lu;
+- (id)<PLResourceDataStoreKey>"52r^v60Q68I76^B80;
+- (void)Country;
 - (_Bool);
 - (id);
+- (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -77,14 +52,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)˛;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -96,7 +71,7 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)is class C locked;
 - (void);
 - (_Bool);
 - (int);
@@ -106,37 +81,7 @@
 - (void)20@?0@8f16;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *aneVersion; // @synthesize aneVersion=_aneVersion;
-@property(nonatomic) long long appleIntelligenceState; // @synthesize appleIntelligenceState=_appleIntelligenceState;
-@property(retain, nonatomic) NSString *carrierBundleIdentifier; // @synthesize carrierBundleIdentifier=_carrierBundleIdentifier;
-@property(retain, nonatomic) NSString *carrierCountryIsoCode; // @synthesize carrierCountryIsoCode=_carrierCountryIsoCode;
-@property(retain, nonatomic) NSString *deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(nonatomic) _Bool experimentOptOutStatus; // @synthesize experimentOptOutStatus=_experimentOptOutStatus;
-@property(readonly, nonatomic) _Bool hasAneVersion;
-@property(nonatomic) _Bool hasAppleIntelligenceState;
-@property(readonly, nonatomic) _Bool hasCarrierBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasCarrierCountryIsoCode;
 @property(readonly, nonatomic) _Bool hasDeviceClass;
-@property(nonatomic) _Bool hasExperimentOptOutStatus;
-@property(nonatomic) _Bool hasIsAutomatedTestDevice;
-@property(nonatomic) _Bool hasIsBetaUser;
-@property(nonatomic) _Bool hasIsInternalBuild;
-@property(readonly, nonatomic) _Bool hasOsBuild;
-@property(nonatomic) _Bool hasTargetedPopulation;
-@property(readonly, nonatomic) _Bool hasUserSettingsBcp47DeviceLocale;
-@property(readonly, nonatomic) _Bool hasUserSettingsLanguageCode;
-@property(readonly, nonatomic) _Bool hasUserSettingsRegionCode;
-@property(readonly, nonatomic) _Bool hasVersionTag;
-@property(nonatomic) _Bool isAutomatedTestDevice; // @synthesize isAutomatedTestDevice=_isAutomatedTestDevice;
-@property(nonatomic) _Bool isBetaUser; // @synthesize isBetaUser=_isBetaUser;
-@property(nonatomic) _Bool isInternalBuild; // @synthesize isInternalBuild=_isInternalBuild;
-@property(retain, nonatomic) NSString *osBuild; // @synthesize osBuild=_osBuild;
-@property(nonatomic) int targetedPopulation; // @synthesize targetedPopulation=_targetedPopulation;
-@property(retain, nonatomic) NSMutableArray *userKeyboardEnabledInputModeIdentifiers; // @synthesize userKeyboardEnabledInputModeIdentifiers=_userKeyboardEnabledInputModeIdentifiers;
-@property(retain, nonatomic) NSString *userSettingsBcp47DeviceLocale; // @synthesize userSettingsBcp47DeviceLocale=_userSettingsBcp47DeviceLocale;
-@property(retain, nonatomic) NSString *userSettingsLanguageCode; // @synthesize userSettingsLanguageCode=_userSettingsLanguageCode;
-@property(retain, nonatomic) NSString *userSettingsRegionCode; // @synthesize userSettingsRegionCode=_userSettingsRegionCode;
-@property(retain, nonatomic) NSString *versionTag; // @synthesize versionTag=_versionTag;
 
 @end
 

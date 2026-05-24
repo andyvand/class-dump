@@ -11,15 +11,12 @@
 @interface PKDiscoveryInlineMediaShelf : PKDiscoveryShelf
 {
     PKDiscoveryMedia *_media;
-    NSString *_captionKey;
-    long long _displayType;
-    NSString *_localizedCaption;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)8;
 - (void);
 - (id);
 - (void);
@@ -27,17 +24,14 @@
 - (id);
 - (id);
 - (long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)a;
+- (_Bool)hasTotalTransitions;
 - (void);
-- (id)requiredPersonalizationFields;
+- (id)_requiredPersonalizationFields;
 - (void)ailable-;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *captionKey; // @synthesize captionKey=_captionKey;
-@property(readonly, nonatomic) long long displayType; // @synthesize displayType=_displayType;
 @property(retain, nonatomic) NSString *localizedCaption; // @synthesize localizedCaption=_localizedCaption;
-@property(readonly, nonatomic) PKDiscoveryMedia *media; // @synthesize media=_media;
 
 @end
 

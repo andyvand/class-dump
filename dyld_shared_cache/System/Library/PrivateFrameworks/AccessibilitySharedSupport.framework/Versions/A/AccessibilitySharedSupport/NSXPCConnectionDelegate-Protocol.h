@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSSecureCoding;
+
 @protocol NSXPCConnectionDelegate
 
 @optional
-- (void)IDDeviceProperties;
+- (id <NSSecureCoding>);
+- (void)_eyeTrackerHIDDeviceProperties;
 @end
 

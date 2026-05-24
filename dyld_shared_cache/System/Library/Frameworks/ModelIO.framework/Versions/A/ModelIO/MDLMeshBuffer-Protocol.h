@@ -7,13 +7,12 @@
 @protocol MDLMeshBufferAllocator, MDLMeshBufferZone;
 
 @protocol MDLMeshBuffer
+- (void);
+- (unsigned long long);
 - (id <MDLMeshBufferAllocator>)>>=""{?="__ptr_"^{SCNOctree}}};
 - (id <MDLMeshBufferZone>)o indices authored for indexed primvar <%s>.;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MDLMeshBufferAllocator> allocator;
 @property(readonly, nonatomic) unsigned long long length;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, retain, nonatomic) id <MDLMeshBufferZone> zone;
 @end
 

@@ -10,11 +10,11 @@
 {
 }
 
-+ (id);
++ (id)4;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)setAllowsUserInteractionWithVideoPlayer: /* Error: Ran out of types for this method. */;
+- (id)setAllowsPlatterPresentation:(id)arg1;
 
 @end
 

@@ -18,15 +18,15 @@
 - (void);
 - (id);
 - (id);
+- (void)
+;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)N;
 - (_Bool);
 - (id);
 - (void)_pk_viewProviderForAttachment:atCharacterIndex:createIfNeeded: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak ICAttachmentInsertionController *insertionController; // @synthesize insertionController=_insertionController;
 @property(readonly, nonatomic) ICTTTextStorage *textStorage;
 
 @end

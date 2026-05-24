@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSData, NSDictionary, NSMutableDictionary;
+@class NSDictionary, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface FI_TIconViewSettings
 {
     NSMutableDictionary *_settings;
-    int _backgroundImageGenerationCount;
 }
 
 + (id);
@@ -33,15 +32,15 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)9;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)C;
 - (double);
-- (int);
+- (int)@;
 - (void);
 - (id);
 - (double);
@@ -51,21 +50,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)`ð;
 - (int)_EEEEE3$_0S5_EE;
-- (void)expressionIcNS_12regex_traitsIcEEEE;
+- (void)NSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEE;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *backgroundColor;
-@property(retain, nonatomic) NSData *backgroundImageBookmark;
-@property(nonatomic) int backgroundType;
-@property(nonatomic) struct CGPoint gridOffset;
-@property(nonatomic) double gridSpacing;
-@property(nonatomic) double iconSize;
-@property(nonatomic) _Bool labelOnBottom;
 @property(readonly, retain, nonatomic) NSDictionary *settings;
-@property(nonatomic) _Bool showIconPreview;
-@property(nonatomic) _Bool showItemInfo;
-@property(nonatomic) int sortBy;
-@property(nonatomic) double textSize;
 
 @end
 

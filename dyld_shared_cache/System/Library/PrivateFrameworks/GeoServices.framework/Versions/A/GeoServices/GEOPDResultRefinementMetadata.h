@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementMetadataDefault, GEOPDResultRefinementMetadataSort, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDResultRefinementMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDResultRefinementMetadataDefault *_metadataDefault;
-    GEOPDResultRefinementMetadataSort *_metadataSort;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _metadataType;
-    struct {
-        unsigned int has_metadataType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_metadataDefault:1;
-        unsigned int read_metadataSort:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ebug:(id)arg1;
-- (void);
-- (void);
-- (void);
++ (_Bool)setIncludeSnapScoreMetadataDebug:(id)arg1;
+- (void)ng to remote Exchange endpoint:(int)arg1 %{public}@;
+- (void)store service connection interrupted.;
+- (void):(id)arg1 %{public}@;
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -42,8 +28,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)_type;
+- (void)%s Connection invalidated;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -51,20 +37,14 @@
 - (id);
 - (void);
 - (id)work"b1"read_detail"b1"read_identifier"b1"read_title"b1"wrote_anyField"b1};
-- (id)orkActivityHandler;
+- (id)_networkActivityHandler;
 - (id)hiÌjk lmhn8o<p prÔrØs<t upvtwØwXy(z`{À{;
-- (id)lookup_origin;
+- (id)transit_nearby_payment_method_lookup_origin;
 - (int)InvalidateTileSet;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMetadataDefault;
-@property(readonly, nonatomic) _Bool hasMetadataSort;
 @property(nonatomic) _Bool hasMetadataType;
-@property(retain, nonatomic) GEOPDResultRefinementMetadataDefault *metadataDefault;
-@property(retain, nonatomic) GEOPDResultRefinementMetadataSort *metadataSort;
-@property(nonatomic) int metadataType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

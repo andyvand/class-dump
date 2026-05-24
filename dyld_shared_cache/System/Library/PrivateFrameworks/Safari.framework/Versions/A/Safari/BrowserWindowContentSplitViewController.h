@@ -4,46 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserWindowController, LibrarySidebarNavigationViewController, NSArray, NSColor, NSMutableDictionary, NSSplitViewItem, NSSplitViewItemAccessoryViewController, NSString, NSView, NSVisualEffectView, SafariSidebarSplitViewItem, StartPageViewController;
-@protocol BrowserWindowContentSplitViewControllerDelegate;
+@class BrowserWindowController;
 
 __attribute__((visibility("hidden")))
 @interface BrowserWindowContentSplitViewController
 {
     BrowserWindowController *_browserWindowController;
-    SafariSidebarSplitViewItem *_sidebarSplitViewItem;
-    NSSplitViewItem *_tabSwitcherSplitViewItem;
-    NSView *_tabViewControllerView;
-    long long _windowContent;
-    NSSplitViewItem *_startPageSplitViewItem;
-    NSMutableDictionary *_sidebarHeaderTypeStringsToExpansionStates;
-    StartPageViewController *_standaloneStartPageCollectionViewController;
-    NSString *_cloudTabDeviceUUIDToFilterStandaloneStartPage;
-    NSView *_webContentSnapshotForSidebarAnimation;
-    NSView *_webInspectorSnapshotForSidebarAnimation;
-    struct SidebarAnimationContext _sidebarAnimationContext;
-    _Bool _inspectorDockedBesideSidebarDuringSnapshotAnimation;
-    NSSplitViewItemAccessoryViewController *_sidebarTopAccessoryViewController;
-    NSSplitViewItemAccessoryViewController *_tabViewTopAccessoryViewController;
-    NSVisualEffectView *_visualEffectViewForHidingSeparator;
-    unsigned long long _fakeSidebarTransitionDepth;
-    CDUnknownBlockType _sidebarCompletionHandler;
-    _Bool _sidebarAppearedDueToMouseoverInFullScreen;
-    _Bool _isHidingSidebar;
-    _Bool _isSuppressingSidebar;
-    _Bool _overlayingSidebar;
-    NSString *_lastDisplayedSidebarBookmarkListUUID;
-    NSSplitViewItem *_mainContentSplitViewItem;
-    NSArray *navigationStack;
-    LibrarySidebarNavigationViewController *_librarySidebarNavigationViewController;
-    NSView *_sidebarClipView;
-    id <BrowserWindowContentSplitViewControllerDelegate> _delegate;
 }
 
-- (void);
+- (void)k ;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (void);
 - (void);
@@ -51,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (_Bool);
 - (void);
 - (void);
@@ -79,22 +51,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)A;
+- (void);
+- (void);
+- (id);
+- (double);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
 - (void);
 - (_Bool);
 - (id);
@@ -111,9 +83,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void)thUUID:(id)arg1 persist:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)Required image did not exist, count %zu, index %zu;
+- (void)4˟;
+- (void)updateTabsInTabGroupWithUUID:(id)arg1 persist:usingBlock: /* Error: Ran out of types for this method. */;
 - (void)ø;
 - (_Bool);
 - (id);
@@ -124,29 +96,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)`[/;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setMainContentSplitViewItem:) NSSplitViewItem *_mainContentSplitViewItem; // @synthesize _mainContentSplitViewItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <BrowserWindowContentSplitViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDisplayingCloudTabs;
-@property(readonly, nonatomic) _Bool isDisplayingSharedWithYou;
-@property(readonly, nonatomic) _Bool isHidingSidebar; // @synthesize isHidingSidebar=_isHidingSidebar;
-@property(readonly, nonatomic) _Bool isOverlayingSidebar;
-@property(readonly, nonatomic) _Bool isSidebarAnimationInProgress;
-@property(readonly, nonatomic) _Bool isSuppressingSidebar; // @synthesize isSuppressingSidebar=_isSuppressingSidebar;
-@property(copy, nonatomic) NSString *lastDisplayedSidebarBookmarkListUUID; // @synthesize lastDisplayedSidebarBookmarkListUUID=_lastDisplayedSidebarBookmarkListUUID;
-@property(retain, nonatomic) LibrarySidebarNavigationViewController *librarySidebarNavigationViewController; // @synthesize librarySidebarNavigationViewController=_librarySidebarNavigationViewController;
-@property(copy, nonatomic) NSArray *navigationStack; // @synthesize navigationStack;
 @property(nonatomic) _Bool overlayingSidebar; // @synthesize overlayingSidebar=_overlayingSidebar;
-@property(retain, nonatomic) NSColor *separatorColor;
-@property(nonatomic) _Bool sidebarAppearedDueToMouseoverInFullScreen; // @synthesize sidebarAppearedDueToMouseoverInFullScreen=_sidebarAppearedDueToMouseoverInFullScreen;
-@property(readonly, nonatomic) _Bool sidebarAppearsAsOverlay;
-@property(readonly, nonatomic) NSView *sidebarClipView; // @synthesize sidebarClipView=_sidebarClipView;
-@property(readonly) Class superclass;
 
 @end
 

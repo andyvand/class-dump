@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVSpeechSynthesisMarker, NSString;
-
 @interface TTSWordMarker
 {
     long long _byteOffset;
-    struct _NSRange _wordRange;
 }
 
 - (void);
@@ -20,17 +17,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AVSpeechSynthesisMarker *avMark;
 @property(nonatomic) long long byteOffset; // @synthesize byteOffset=_byteOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long markType;
-@property(readonly) Class superclass;
-@property(nonatomic) struct _NSRange wordRange; // @synthesize wordRange=_wordRange;
 
 @end
 

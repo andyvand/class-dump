@@ -7,9 +7,6 @@
 @interface NewsUI2.FeedItemDimmingEvaluator
 {
     id bundleSubscriptionManager;
-    id offlineProvider;
-    id featureAvailability;
-    id contentAvailabilityValidator;
 }
 
 @end

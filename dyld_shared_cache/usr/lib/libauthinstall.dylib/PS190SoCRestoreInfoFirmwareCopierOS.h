@@ -6,23 +6,19 @@
 
 #import <authinstall/PS190SoCRestoreInfoHelperOS.h>
 
-@class NSData, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface PS190SoCRestoreInfoFirmwareCopierOS : PS190SoCRestoreInfoHelperOS
 {
     NSURL *_destBundlePathURL;
-    NSString *_firmwarePathSuffix;
-    NSURL *_firmwareBundleURL;
-    NSData *_firmwareOverrideData;
-    NSData *_firmwareInBundleDataDict;
 }
 
+- (id)EDCategoryMigrator",R,N,V_categoryMigrator;
+- (_Bool)icsLogger",&,N,V_analyticsLogger;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)_supportsLabels;
+- (_Bool)ogger",&,N,V_readBiomeCollector;
 - (void);
 
 @end

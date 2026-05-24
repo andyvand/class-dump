@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PKFilesystemProvider, PKLaunchProvider, PKLaunchServicesProvider, PKRunningBoardProvider, PKSandboxProvider, PKSystemProvider;
+@protocol PKFilesystemProvider, PKLaunchProvider, PKLaunchServicesProvider, PKSystemProvider;
 
 @protocol PKExternalProviders
+- (id <PKLaunchServicesProvider>);
+- (id <PKFilesystemProvider>);
+- (id <PKSystemProvider>)HB;
+- (id <PKLaunchProvider>);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PKFilesystemProvider> filesystem;
-@property(readonly, nonatomic) id <PKLaunchProvider> launch;
 @property(readonly, nonatomic) id <PKLaunchServicesProvider> ls;
-@property(readonly, nonatomic) id <PKRunningBoardProvider> runningboard;
-@property(readonly, nonatomic) id <PKSandboxProvider> sandbox;
-@property(readonly, nonatomic) id <PKSystemProvider> sys;
 @end
 

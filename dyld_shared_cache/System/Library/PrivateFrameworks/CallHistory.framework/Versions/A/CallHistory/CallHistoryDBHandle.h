@@ -6,22 +6,14 @@
 
 #import <CallHistory/CHLogger.h>
 
-@class CHFeatureFlags, CallDBManager, NSManagedObjectContext;
+@class CHFeatureFlags, NSManagedObjectContext;
 
 @interface CallHistoryDBHandle : CHLogger
 {
     NSManagedObjectContext *fCallRecordContext;
-    NSManagedObjectContext *fCallDBPropertiesContext;
-    CallDBManager *callDBManager;
-    id _observerCallRecordRef;
-    id _observerCallDBPropRef;
-    id _moveCallRecordsFromTempStoreRef;
-    id _dataStoreAddedRef;
-    CHFeatureFlags *_featureFlags;
-    long long _callsDidChangeDarwinNotificationCount;
 }
 
-+ (id);
++ (id)"T;
 + (id);
 + (id);
 + (id);
@@ -30,25 +22,25 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)ary",C,N;
+- (void);
+- (id)locationServicesEnabled;
+- (id)_validateSourceAsset:(id)arg1 destinationAsset: /* Error: Ran out of types for this method. */;
+- (long long)_copyJobContentsToHoldingDirectoryWithUUID:(id)arg1 incomingPath:job: /* Error: Ran out of types for this method. */;
+- (id)useOnlyMusicForTopicInTopPickSuggestions;
+- (void)_pk ON assets(uuid_0, uuid_1);
+- (_Bool)photosSharedLibraryContributors;
+- (id)Batch];
+- (void)tos.uploaddownloadcount.coalescer;
 - (void);
 - (id);
-- (id);
-- (long long);
-- (id);
-- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)#;
+- (id)�H;
 - (id);
 - (void);
 - (void);
@@ -64,23 +56,21 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)y_1;
 - (id);
 - (_Bool);
+- (void)_ti_attributedStringByAppendingAttributedString: /* Error: Ran out of types for this method. */;
+- (long long)ianWin.plist;
+- (void);
+- (void);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
+- (void)Xe;
 - (id)
 × ;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CallDBManager *callDBManager; // @synthesize callDBManager;
-@property(nonatomic) long long callsDidChangeDarwinNotificationCount; // @synthesize callsDidChangeDarwinNotificationCount=_callsDidChangeDarwinNotificationCount;
 @property(readonly, nonatomic) CHFeatureFlags *featureFlags; // @synthesize featureFlags=_featureFlags;
 
 @end

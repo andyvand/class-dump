@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISeedFill : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputCenter;
-    NSNumber *inputThreshold;
-    CIVector *inputExtent;
-    NSNumber *inputSplat;
 }
 
 - (void);
@@ -30,9 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputCenter; // @synthesize inputCenter;
-@property(retain, nonatomic) CIVector *inputExtent; // @synthesize inputExtent;
-@property(retain, nonatomic) NSNumber *inputSplat; // @synthesize inputSplat;
-@property(retain, nonatomic) NSNumber *inputThreshold; // @synthesize inputThreshold;
 
 @end
 

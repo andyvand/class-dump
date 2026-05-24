@@ -12,18 +12,17 @@ __attribute__((visibility("hidden")))
 @interface OADGlowEffect : OADEffect
 {
     OADColor *mColor;
-    float mRadius;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)etup user avatar records data of length %ld, for %ld records;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (float);
+- (float);
 - (void);
 
 @end

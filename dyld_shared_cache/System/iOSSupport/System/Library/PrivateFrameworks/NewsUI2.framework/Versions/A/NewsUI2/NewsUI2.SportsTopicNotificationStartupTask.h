@@ -7,8 +7,6 @@
 @interface NewsUI2.SportsTopicNotificationStartupTask
 {
     id executionPhase;
-    id pushNotificationDataManager;
-    id sportsOnboardingManager;
 }
 
 @end

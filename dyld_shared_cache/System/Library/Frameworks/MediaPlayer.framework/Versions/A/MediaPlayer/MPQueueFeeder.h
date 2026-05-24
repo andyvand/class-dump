@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPQueueFeederIdentifierRegistry, NSData, NSDictionary, NSString;
+@class MPQueueFeederIdentifierRegistry, NSString;
 
 @interface MPQueueFeeder
 {
     MPQueueFeederIdentifierRegistry *_identifierRegistry;
-    struct os_unfair_lock_s _identifierRegistryLock;
-    NSString *_uniqueIdentifier;
-    NSString *_playActivityQueueGroupingID;
-    NSString *_playActivityFeatureName;
-    NSData *_playActivityRecommendationData;
-    NSString *_siriReferenceIdentifier;
-    NSDictionary *_siriWHAMetricsInfo;
 }
 
 + (_Bool);
@@ -27,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
@@ -42,15 +35,10 @@
 - (void);
 - (id);
 - (id);
-- (void)csURLForURLBag: /* Error: Ran out of types for this method. */;
+- (void)_lyricsURLForURLBag: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *playActivityFeatureName; // @synthesize playActivityFeatureName=_playActivityFeatureName;
 @property(copy, nonatomic) NSString *playActivityQueueGroupingID; // @synthesize playActivityQueueGroupingID=_playActivityQueueGroupingID;
-@property(copy, nonatomic) NSData *playActivityRecommendationData; // @synthesize playActivityRecommendationData=_playActivityRecommendationData;
-@property(copy, nonatomic) NSString *siriReferenceIdentifier; // @synthesize siriReferenceIdentifier=_siriReferenceIdentifier;
-@property(copy, nonatomic) NSDictionary *siriWHAMetricsInfo; // @synthesize siriWHAMetricsInfo=_siriWHAMetricsInfo;
-@property(readonly, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

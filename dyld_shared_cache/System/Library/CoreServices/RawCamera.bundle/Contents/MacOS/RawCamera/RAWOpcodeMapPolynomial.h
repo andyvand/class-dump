@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSDictionary;
+@class CIImage;
 
 @interface RAWOpcodeMapPolynomial
 {
     CIImage *inputImage;
-    NSDictionary *arguments;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (void)°;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *arguments; // @synthesize arguments;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
 
 @end

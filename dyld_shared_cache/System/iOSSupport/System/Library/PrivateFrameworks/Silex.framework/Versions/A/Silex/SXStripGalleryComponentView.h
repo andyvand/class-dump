@@ -6,29 +6,11 @@
 
 #import <Silex/SXGalleryComponentView.h>
 
-@class NSArray, NSMutableArray, NSMutableSet, NSString, SXFullscreenCanvasController, SXImageView, SXItemizedScrollView, SXMediaViewEvent, UIView;
-@protocol SXFullscreenCanvasControllerFactory, SXImageViewFactory;
+@protocol SXImageViewFactory;
 
 @interface SXStripGalleryComponentView : SXGalleryComponentView
 {
     _Bool _loadedAtleastOneImage;
-    id <SXImageViewFactory> _imageViewFactory;
-    id <SXFullscreenCanvasControllerFactory> _canvasControllerFactory;
-    double _xOffset;
-    double _rightContentInset;
-    NSArray *_imageResources;
-    NSMutableArray *_imageViews;
-    NSArray *_accessibilityCaptions;
-    SXItemizedScrollView *_itemizedScrollView;
-    long long _visibleImageViewIndex;
-    UIView *_fullscreenGestureView;
-    SXFullscreenCanvasController *_fullScreenCanvasController;
-    SXMediaViewEvent *_mediaViewEvent;
-    double _contentOffset;
-    double _contentWidth;
-    unsigned long long _lastPreloadViewIndex;
-    SXImageView *_targetGalleryItem;
-    NSMutableSet *_exposedGalleryItems;
 }
 
 - (void);
@@ -37,7 +19,7 @@
 - (_Bool);
 - (struct CGRect);
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (id);
 - (id);
@@ -92,7 +74,7 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
@@ -105,7 +87,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
@@ -115,7 +97,7 @@
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)M;
 - (id);
 - (id);
 - (double);
@@ -127,31 +109,7 @@
 - (void)V¨è;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *accessibilityCaptions; // @synthesize accessibilityCaptions=_accessibilityCaptions;
-@property(readonly, nonatomic) id <SXFullscreenCanvasControllerFactory> canvasControllerFactory; // @synthesize canvasControllerFactory=_canvasControllerFactory;
-@property(readonly, nonatomic) double contentOffset; // @synthesize contentOffset=_contentOffset;
-@property(readonly, nonatomic) double contentWidth; // @synthesize contentWidth=_contentWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableSet *exposedGalleryItems; // @synthesize exposedGalleryItems=_exposedGalleryItems;
-@property(retain, nonatomic) SXFullscreenCanvasController *fullScreenCanvasController; // @synthesize fullScreenCanvasController=_fullScreenCanvasController;
-@property(nonatomic) __weak UIView *fullscreenGestureView; // @synthesize fullscreenGestureView=_fullscreenGestureView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *imageResources; // @synthesize imageResources=_imageResources;
 @property(readonly, nonatomic) id <SXImageViewFactory> imageViewFactory; // @synthesize imageViewFactory=_imageViewFactory;
-@property(retain, nonatomic) NSMutableArray *imageViews; // @synthesize imageViews=_imageViews;
-@property(retain, nonatomic) SXItemizedScrollView *itemizedScrollView; // @synthesize itemizedScrollView=_itemizedScrollView;
-@property(nonatomic) unsigned long long lastPreloadViewIndex; // @synthesize lastPreloadViewIndex=_lastPreloadViewIndex;
-@property(nonatomic) _Bool loadedAtleastOneImage; // @synthesize loadedAtleastOneImage=_loadedAtleastOneImage;
-@property(retain, nonatomic) SXMediaViewEvent *mediaViewEvent; // @synthesize mediaViewEvent=_mediaViewEvent;
-@property(readonly, nonatomic) double rightContentInset; // @synthesize rightContentInset=_rightContentInset;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SXImageView *targetGalleryItem; // @synthesize targetGalleryItem=_targetGalleryItem;
-@property(nonatomic) long long visibleImageViewIndex; // @synthesize visibleImageViewIndex=_visibleImageViewIndex;
-@property(readonly, nonatomic) double xOffset; // @synthesize xOffset=_xOffset;
 
 @end
 

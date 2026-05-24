@@ -6,15 +6,10 @@
 
 #import <AppletTranslationLibrary/DreamworksRecord.h>
 
-@class NSDateComponents;
-
 __attribute__((visibility("hidden")))
 @interface DreamworksTransRecord : DreamworksRecord
 {
     unsigned short _vehicleType;
-    int _isIn;
-    unsigned int _stationCode;
-    NSDateComponents *_datetime;
 }
 
 + (id);
@@ -29,10 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDateComponents *datetime; // @synthesize datetime=_datetime;
 @property(nonatomic) int isIn; // @synthesize isIn=_isIn;
-@property(nonatomic) unsigned int stationCode; // @synthesize stationCode=_stationCode;
-@property(nonatomic) unsigned short vehicleType; // @synthesize vehicleType=_vehicleType;
 
 @end
 

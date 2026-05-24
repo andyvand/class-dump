@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
     struct CGPoint _point;
 }
 
-- (id);
+- (id)essage (%@) as unread;
 - (void);
 - (double);
-- (void)AnimationsInFlightOrPending;
-- (struct CGPoint)UCLoLa;
+- (void)_areAnimationsInFlightOrPending;
+- (struct CGPoint)UIUCLoLa;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint point; // @synthesize point=_point;

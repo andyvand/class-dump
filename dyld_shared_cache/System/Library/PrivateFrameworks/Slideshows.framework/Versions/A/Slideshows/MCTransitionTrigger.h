@@ -6,26 +6,23 @@
 
 #import <Slideshows/MCAction.h>
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface MCTransitionTrigger : MCAction
 {
     NSMutableDictionary *_transitionAttributes;
-    NSString *_transitionID;
-    double _transitionDuration;
-    NSString *_transitionDestinationPlugID;
 }
 
 + (id);
+- (id)newsenvelopetracker;
+- (id):] /* Error: Ran out of types for this method. */;
+- (id)AssemblerConfigProvider initWithAppConfigurationManager:] /* Error: Ran out of types for this method. */;
+- (void)A;
+- (void);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -33,10 +30,7 @@
 - (double);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *transitionAttributes; // @synthesize transitionAttributes=_transitionAttributes;
 @property(copy) NSString *transitionDestinationPlugID; // @synthesize transitionDestinationPlugID=_transitionDestinationPlugID;
-@property(nonatomic) double transitionDuration; // @synthesize transitionDuration=_transitionDuration;
-@property(copy) NSString *transitionID; // @synthesize transitionID=_transitionID;
 
 @end
 

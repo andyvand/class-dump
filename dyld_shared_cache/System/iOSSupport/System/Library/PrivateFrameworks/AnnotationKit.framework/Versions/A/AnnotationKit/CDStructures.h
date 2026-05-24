@@ -18,12 +18,12 @@ struct AKQuadrilateral {
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGPoint {
@@ -32,13 +32,13 @@ struct CGPoint {
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CGVector {
@@ -46,17 +46,11 @@ struct CGVector {
     double _field2;
 };
 
-struct PATHSEGMENT {
-    unsigned int :4;
-    unsigned int :60;
-    struct CGPoint _field1;
-};
-
 struct UIEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct _NSRange {
@@ -95,13 +89,6 @@ struct _xmlDtd;
 
 struct _xmlNode;
 
-struct potrace_bitmap_s {
-    int _field1;
-    int _field2;
-    int _field3;
-    unsigned long long *_field4;
-};
-
 struct potrace_curve_s {
     int _field1;
     int *_field2;
@@ -109,15 +96,6 @@ struct potrace_curve_s {
 };
 
 struct potrace_dpoint_s;
-
-struct potrace_param_s {
-    int _field1;
-    int _field2;
-    double _field3;
-    int _field4;
-    double _field5;
-    struct potrace_progress_s _field6;
-};
 
 struct potrace_path_s {
     int _field1;
@@ -130,14 +108,6 @@ struct potrace_path_s {
 };
 
 struct potrace_privpath_s;
-
-struct potrace_progress_s {
-    CDUnknownFunctionPointerType _field1;
-    void *_field2;
-    double _field3;
-    double _field4;
-    double _field5;
-};
 
 struct vImage_Buffer {
     void *_field1;

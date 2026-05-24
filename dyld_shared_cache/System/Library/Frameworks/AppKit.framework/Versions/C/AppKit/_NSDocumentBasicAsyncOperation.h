@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSDocumentBasicAsyncOperation
 {
     _Atomic _Bool _readying;
-    _Atomic _Bool _ready;
 }
 
 - (id);

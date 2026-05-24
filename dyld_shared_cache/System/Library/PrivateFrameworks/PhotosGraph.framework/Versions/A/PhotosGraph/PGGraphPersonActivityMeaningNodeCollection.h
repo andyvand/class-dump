@@ -6,34 +6,25 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSString, PGGraphFeatureNodeCollection, PGGraphMomentNodeCollection, PGGraphPersonNodeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGGraphPersonActivityMeaningNodeCollection : PGGraphNodeCollection
 {
 }
 
 + (id);
-+ (id);
++ (id)5;
 + (id);
 + (Class);
 - (id);
+- (id)screenDescriberDidFinishDescribingElementsStartingFrom:ofWindow:inDirection:readableContent: /* Error: Ran out of types for this method. */;
+- (id)registerControllerBaseClass: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id)ü¤ÿ¸úÿÿðúÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes;
-@property(readonly) Class superclass;
 
 @end
 

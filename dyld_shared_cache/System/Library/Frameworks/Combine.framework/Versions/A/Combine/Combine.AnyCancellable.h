@@ -7,7 +7,6 @@
 @interface Combine.AnyCancellable
 {
     id storage;
-    id lock;
 }
 
 @end

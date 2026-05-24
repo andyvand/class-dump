@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCAudioIO;
-
 __attribute__((visibility("hidden")))
 @interface VCSystemAudioCaptureSession
 {
     struct _opaque_pthread_mutex_t _stateLock;
-    struct AudioStreamBasicDescription _audioBasicDescription;
-    unsigned int _samplesPerFrame;
-    struct opaqueCMSimpleQueue *_poolQueue;
-    struct opaqueCMSimpleQueue *_outputQueue;
-    VCAudioIO *_audioIO;
-    _Atomic _Bool _shouldResetAudioBufferPool;
 }
 
 - (_Bool);
@@ -24,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)RedundancyControlAlgorithm;
+- (id)VCRedundancyControlAlgorithm;
 
 @end
 

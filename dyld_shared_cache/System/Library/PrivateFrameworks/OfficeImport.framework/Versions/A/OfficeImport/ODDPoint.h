@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADShapeProperties, OADTextBody, ODDPointPropertySet;
-
 __attribute__((visibility("hidden")))
 @interface ODDPoint
 {
     int mType;
-    ODDPointPropertySet *mPropertySet;
-    OADShapeProperties *mShapeProperties;
-    OADTextBody *mText;
 }
 
 + (void);
@@ -22,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (int);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void)ÿÿ;
 
 @end

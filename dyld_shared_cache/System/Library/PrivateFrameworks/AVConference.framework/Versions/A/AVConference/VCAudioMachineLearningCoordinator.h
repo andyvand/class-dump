@@ -6,75 +6,35 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSLocale, NSObject, NSString, NSUUID, VCAudioCaptions, VCAudioCaptionsBufferInfoCollection, VCCaptionsGibberishDetector, VCMediaAnalyzer;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, VCCaptionsSourceDelegate, VCMediaAnalyzerSourceDelegate;
+@protocol VCCaptionsSourceDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioMachineLearningCoordinator : VCObject
 {
     id <VCCaptionsSourceDelegate> _captionsDelegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    VCCaptionsGibberishDetector *_gibberishDetector;
-    int _reportingModuleID;
-    unsigned char _configCallSource;
-    unsigned char _configUsage;
-    _Bool _isOwnerOfReportingAgent;
-    long long _captionsState;
-    long long _currentlyCaptionedStreamToken;
-    long long _initialStreamToken;
-    long long _currentMediaAnalyzerStreamToken;
-    struct os_unfair_lock_s _stateLock;
-    _Bool _invalidated;
-    NSObject<OS_dispatch_semaphore> *_startStopSemaphore;
-    VCAudioCaptionsBufferInfoCollection *_bufferInfos;
-    _Bool _oneToOneEnabled;
-    struct tagVCAudioMachineLearningCoordinatorVoiceDetectorInfo _voiceDetectorInfo;
-    double _lowPriorityThresholdSeconds;
-    _Bool _forceCaptionsVoiceDetection;
-    VCMediaAnalyzer *_mediaAnalyzer;
-    id <VCMediaAnalyzerSourceDelegate> _mediaAnalyzerSourceDelegate;
-    long long _mediaAnalyzerAnalysisType;
-    id _delegate;
-    _Bool _delegateAudioStackStarted;
-    struct __CFAllocator *_audioSampleBufferAllocator;
-    _Bool _isReadyForCaptioning;
-    _Bool _isLocal;
-    NSString *_taskIdentifier;
-    _Bool _isV2SpeechAPIEnabled;
-    NSLocale *_sourceLocale;
-    NSLocale *_locale;
-    VCAudioCaptions *_audioCaptions;
-    unsigned char _translatorMode;
-    unsigned char _captionsFrameworkType;
-    NSUUID *_translatorIdentifier;
-    NSUUID *_reportingSamplingUUID;
-    int _direction;
-    struct opaqueCMSimpleQueue *_audioProcessingEventQueue;
-    unsigned int _activeModuleIDs;
-    unsigned int _moduleIDsEnabled;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct __CFDictionary *);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (struct __CFDictionary *)U)+;
+- (void);
+- (void)!;
 - (_Bool);
-- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id)/;
 - (void);
 - (double);
 - (void);
@@ -92,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (struct __CFDictionary *);
+- (struct __CFDictionary *)R";
 - (_Bool);
 - (long long);
 - (id);
@@ -104,25 +64,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (struct os_unfair_lock_s *)d;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool captionsEnabled;
-@property(nonatomic) long long captionsState; // @synthesize captionsState=_captionsState;
-@property(readonly, nonatomic) _Bool captionsSupported;
 @property(nonatomic) long long currentlyCaptionedStreamToken; // @synthesize currentlyCaptionedStreamToken=_currentlyCaptionedStreamToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double lowPriorityThresholdSeconds; // @synthesize lowPriorityThresholdSeconds=_lowPriorityThresholdSeconds;
-@property(readonly) Class superclass;
 
 @end
 

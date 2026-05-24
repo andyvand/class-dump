@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)92;
 - (_Bool);
 - (id);
 - (id);
@@ -32,7 +32,7 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)T;
 - (id);
 - (id);
 @end

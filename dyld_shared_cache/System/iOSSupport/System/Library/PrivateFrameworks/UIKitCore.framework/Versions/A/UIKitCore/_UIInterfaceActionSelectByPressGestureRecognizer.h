@@ -6,34 +6,30 @@
 
 #import <UIKitCore/UITapGestureRecognizer.h>
 
-@class UIInterfaceAction, UIInterfaceActionGroupView;
+@class UIInterfaceAction;
 @protocol UIFocusedInterfaceActionPressDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIInterfaceActionSelectByPressGestureRecognizer : UITapGestureRecognizer
 {
     id <UIFocusedInterfaceActionPressDelegate> _pressDelegate;
-    UIInterfaceActionGroupView *_actionGroupView;
-    UIInterfaceAction *_interfaceActionOnPressBegan;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)dateInfo";
+- (id)screenSaverDidStart;
+- (id)messagesReceivedDuringStorage;
+- (void)ync %@;
+- (void)IMDMessageHistorySyncNotifyReplayControllerWantsSync;
+- (id)mMe:%@, output messageItems:%lu, hadChat:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void)shot:(id)arg1 initialSectionSnapshots:(id)arg2 dataSourceDiffer:shouldPerformChildSnapshotMoves:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)µ§43ý;
 - (void)Xv^;
 
 // Remaining properties
-@property(nonatomic) __weak UIInterfaceActionGroupView *actionGroupView; // @synthesize actionGroupView=_actionGroupView;
 @property(nonatomic) __weak UIInterfaceAction *interfaceActionOnPressBegan; // @synthesize interfaceActionOnPressBegan=_interfaceActionOnPressBegan;
-@property(nonatomic) __weak id <UIFocusedInterfaceActionPressDelegate> pressDelegate; // @synthesize pressDelegate=_pressDelegate;
 
 @end
 

@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFObservable, EMRemoteConnection, NSString;
-@protocol EFObserver;
+@class EMRemoteConnection;
 
 @interface EMClientState
 {
     _Bool _isForeground;
-    _Bool _isRunningTests;
-    EFObservable<EFObserver> *_foregroundObservable;
-    EMRemoteConnection *_connection;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)h;
 - (void);
 - (id);
 - (id);
@@ -33,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id));
 - (void);
 - (_Bool);
 - (void)0@ù
@@ -41,16 +37,6 @@
 
 // Remaining properties
 @property(retain) EMRemoteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) EFObservable<EFObserver> *foregroundObservable; // @synthesize foregroundObservable=_foregroundObservable;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isForeground; // @synthesize isForeground=_isForeground;
-@property(nonatomic) _Bool isRunningTests; // @synthesize isRunningTests=_isRunningTests;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAdaptiveImageGlyph, NSArray, NSData, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface IMSticker
 {
     NSURL *_fileURL;
-    NSString *_stickerGUID;
-    NSString *_stickerPackGUID;
-    NSString *_accessibilityLabel;
-    NSString *_adaptiveImageGlyphContentIdentifier;
-    NSString *_adaptiveImageGlyphContentDescription;
-    NSString *_moodCategory;
-    NSString *_stickerName;
-    NSString *_textToSpeechName;
-    NSArray *_representations;
-    NSString *_externalURI;
-    NSURL *_animatedImageCacheURLFromExtension;
-    NSData *_recipe;
-    NSString *_ballonBundleID;
-    NSDictionary *_attributionInfo;
-    NSString *_accessibilityName;
-    NSString *_searchText;
-    NSString *_sanitizedPrompt;
-    NSString *_uniqueID;
-    NSAdaptiveImageGlyph *_cachedAdaptiveImageGlyphForSkippingPreviewGenerationOnly;
-    long long _stickerEffectType;
-    NSData *_metadata;
-    unsigned long long _initialFrameIndex;
 }
 
 + (id);
@@ -39,7 +17,7 @@
 + (id);
 + (id);
 + (struct IMAssociatedMessageGeometryDescriptor);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (long long);
@@ -75,23 +53,23 @@
 - (id);
 - (id);
 - (id);
+- (id)A;
+- (void)A;
+- (void)>;
 - (id);
+- (void)jA;
+- (id);
+- (id)addNumActiveChainsBucketed: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)supportsExpressForAutomaticSelectionCriteriaPassingTest: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)w;
 - (void);
 - (id);
 - (void);
@@ -101,30 +79,7 @@
 - (id)account(_:relay:handleUpdate:fromPerson:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(copy, nonatomic) NSString *accessibilityName; // @synthesize accessibilityName=_accessibilityName;
-@property(copy, nonatomic) NSString *adaptiveImageGlyphContentDescription; // @synthesize adaptiveImageGlyphContentDescription=_adaptiveImageGlyphContentDescription;
-@property(copy, nonatomic) NSString *adaptiveImageGlyphContentIdentifier; // @synthesize adaptiveImageGlyphContentIdentifier=_adaptiveImageGlyphContentIdentifier;
-@property(copy, nonatomic) NSURL *animatedImageCacheURLFromExtension; // @synthesize animatedImageCacheURLFromExtension=_animatedImageCacheURLFromExtension;
-@property(copy, nonatomic) NSDictionary *attributionInfo; // @synthesize attributionInfo=_attributionInfo;
-@property(copy, nonatomic) NSString *ballonBundleID; // @synthesize ballonBundleID=_ballonBundleID;
-@property(copy, nonatomic) NSAdaptiveImageGlyph *cachedAdaptiveImageGlyphForSkippingPreviewGenerationOnly; // @synthesize cachedAdaptiveImageGlyphForSkippingPreviewGenerationOnly=_cachedAdaptiveImageGlyphForSkippingPreviewGenerationOnly;
-@property(copy, nonatomic) NSString *externalURI; // @synthesize externalURI=_externalURI;
-@property(copy, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(nonatomic) unsigned long long initialFrameIndex; // @synthesize initialFrameIndex=_initialFrameIndex;
 @property(readonly, nonatomic) _Bool isEmojiSticker;
-@property(copy, nonatomic) NSData *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) NSString *moodCategory; // @synthesize moodCategory=_moodCategory;
-@property(retain, nonatomic) NSData *recipe; // @synthesize recipe=_recipe;
-@property(copy, nonatomic) NSArray *representations; // @synthesize representations=_representations;
-@property(copy, nonatomic) NSString *sanitizedPrompt; // @synthesize sanitizedPrompt=_sanitizedPrompt;
-@property(copy, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(nonatomic) long long stickerEffectType; // @synthesize stickerEffectType=_stickerEffectType;
-@property(readonly, copy, nonatomic) NSString *stickerGUID; // @synthesize stickerGUID=_stickerGUID;
-@property(copy, nonatomic) NSString *stickerName; // @synthesize stickerName=_stickerName;
-@property(copy, nonatomic) NSString *stickerPackGUID; // @synthesize stickerPackGUID=_stickerPackGUID;
-@property(readonly, copy, nonatomic) NSString *textToSpeechName; // @synthesize textToSpeechName=_textToSpeechName;
-@property(readonly, nonatomic) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end
 

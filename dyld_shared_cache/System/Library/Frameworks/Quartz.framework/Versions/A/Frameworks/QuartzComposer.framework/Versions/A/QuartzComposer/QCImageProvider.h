@@ -7,7 +7,6 @@
 @interface QCImageProvider
 {
     unsigned long long _identifier;
-    void *_unused[4];
 }
 
 + (_Bool);
@@ -21,15 +20,15 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_bdcb2b0d);
+- (CDStruct_60067b7e);
 - (unsigned int);
 - (id);
 - (id);
 - (id);
+- (id);
+- (_Bool)C;
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)k_token (artwork_token TEXT NOT NULL DEFAULT '', artwork_source_type INTEGER NOT NULL DEFAULT 0, artwork_type INTEGER NOT NULL DEFAULT 0, entity_pid INTEGER NOT NULL DEFAULT 0, entity_type INTEGER NOT NULL DEFAULT 0, UNIQUE (artwork_token, artwork_source_type, artwork_type, entity_pid, entity_type));
 - (struct CGColorSpace *);
 
 @end

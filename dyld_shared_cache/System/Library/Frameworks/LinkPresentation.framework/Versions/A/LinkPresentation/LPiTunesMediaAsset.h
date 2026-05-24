@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPFetcher, MPStoreLyricsSnippetURLComponents, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaAsset
 {
     long long _type;
-    MPStoreLyricsSnippetURLComponents *_lyricComponents;
-    NSString *_curatorID;
-    NSURL *_URL;
-    NSDictionary *_colors;
-    NSString *_name;
 }
 
 - (id);
 - (id);
+- (id);
+- (id)P;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)eys;
 - (id);
 - (id);
 - (id);
@@ -30,9 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy, nonatomic) NSDictionary *colors; // @synthesize colors=_colors;
-@property(readonly, retain, nonatomic) LPFetcher *fetcher;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

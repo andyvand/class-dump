@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)rrors;
++ (id)consecutiveFeedFetchErrors;
 - (id);
 - (void)Sayd$GGSg³VG;
 

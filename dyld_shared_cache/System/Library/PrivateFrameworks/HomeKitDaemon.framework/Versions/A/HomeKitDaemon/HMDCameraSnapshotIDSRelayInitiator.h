@@ -6,25 +6,19 @@
 
 #import <HomeKitDaemon/HMDCameraSnapshotIDSRelay.h>
 
-@class HMDDevice, NSMutableData, NSObject, NSString;
-@protocol HMDCameraSnapshotIDSRelayInitiatorDelegate, HMDIDSSession, OS_dispatch_source;
+@protocol HMDIDSSession;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotIDSRelayInitiator : HMDCameraSnapshotIDSRelay
 {
     _Bool _idsSessionStarted;
-    id <HMDIDSSession> _idsSession;
-    id <HMDCameraSnapshotIDSRelayInitiatorDelegate> _delegate;
-    HMDDevice *_device;
-    NSMutableData *_data;
-    NSObject<OS_dispatch_source> *_socketSource;
 }
 
 + (id)Âÿ¢èÞB;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)cached sender rules %@;
+- (void)_loadSenderSessionRulesUnarchiveError;
+- (void)] Notification's body when resuming sharing, generic;
 - (id);
 - (id);
 - (_Bool);
@@ -43,23 +37,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)$;
 - (void)p;
 
 // Remaining properties
-@property(retain) NSMutableData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HMDCameraSnapshotIDSRelayInitiatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDDevice *device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
 @property(retain) id <HMDIDSSession> idsSession; // @synthesize idsSession=_idsSession;
-@property _Bool idsSessionStarted; // @synthesize idsSessionStarted=_idsSessionStarted;
-@property(retain) NSObject<OS_dispatch_source> *socketSource; // @synthesize socketSource=_socketSource;
-@property(readonly) Class superclass;
 
 @end
 

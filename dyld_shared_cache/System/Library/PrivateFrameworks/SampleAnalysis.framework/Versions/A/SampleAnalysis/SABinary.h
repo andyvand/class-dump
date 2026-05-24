@@ -4,59 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, NSUUID, SACSSymbolOwnerWrapper, SASegment;
+@class SACSSymbolOwnerWrapper;
 
 @interface SABinary
 {
     SACSSymbolOwnerWrapper *_symbolOwnerWrapper;
-    unsigned long long _alreadyAttempted;
-    NSString *_name;
-    unsigned long long _optionsWhenLastSymbolicated;
-    unsigned long long _length;
-    SASegment *_fakeEntireBinarySegment;
-    NSMutableArray *_segments;
-    unsigned int _attemptedToGetBundleInfo:1;
-    unsigned int _attemptedToGetCodeSignInfo:1;
-    unsigned int _onlyCheckedForDsymWhenLastSymbolicated:1;
-    unsigned int _hadSymbolOwnerWhenLastSymbolicated:1;
-    unsigned int _symbolOwnerWasDsymWhenLastSymbolicated:1;
-    _Bool _haveMoreInstructionsToSymbolicate;
-    _Bool _foundPathViaBinaryLocator;
-    _Bool _haveMoreInstructionsToBulkSymbolicate;
-    NSUUID *_uuid;
-    NSString *_path;
-    NSString *_bundleIdentifier;
-    NSString *_bundleVersion;
-    NSString *_bundleShortVersion;
-    NSString *_binaryVersion;
-    NSString *_codesigningID;
-    NSString *_teamID;
 }
 
-+ (void);
++ (void)rray",&,N,V_messageHandlers;
++ (id);
++ (void)modelInfoVersionWithAssetPath:taskHint: /* Error: Ran out of types for this method. */;
 + (id);
 + (void);
 + (id);
 + (void);
-+ (id);
-+ (void);
 + (void);
 + (id);
 + (void);
-+ (id);
++ (id)accessibilityBrailleMap;
 + (void)for sample index %lu (kernel leaf frame 0x%llx, user leaf frame 0x%llx)
 ;
 - (id);
-- (_Bool);
+- (_Bool)zh-Hans;
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
+- (id)er;
 - (id);
-- (id);
-- (void);
+- (void)6@"NSError"24;
 - (void);
 - (id);
 - (unsigned short);
@@ -73,34 +51,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (void);
-- (id);
+- (id)debugNodeDescriptionForTextMarker: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)flags 0x%llx;
 
 // Remaining properties
-@property(readonly) NSString *binaryVersion;
-@property(readonly) NSString *bundleIdentifier;
-@property(readonly) NSString *bundleShortVersion;
-@property(readonly) NSString *bundleVersion;
-@property(readonly) NSString *codesigningID; // @synthesize codesigningID=_codesigningID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasTextExecSegment;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long length;
-@property(readonly) NSString *name;
-@property(readonly) NSString *path;
-@property(readonly) NSArray *segments;
-@property(readonly) Class superclass;
-@property(readonly) NSString *teamID; // @synthesize teamID=_teamID;
-@property(readonly) unsigned long long textSegmentLength;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

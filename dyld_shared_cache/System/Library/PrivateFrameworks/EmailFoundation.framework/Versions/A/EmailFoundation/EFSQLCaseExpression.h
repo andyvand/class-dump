@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
 @protocol EFSQLValueExpressable;
 
 @interface EFSQLCaseExpression
 {
     id <EFSQLValueExpressable> _elseExpression;
-    id <EFSQLValueExpressable> _baseExpression;
-    NSMapTable *_whenExpressions;
 }
 
 - (void);
@@ -25,20 +22,10 @@
 - (id);
 - (id);
 - (void);
-- (void)Code:(id)arg1;
+- (void)_doCompressFile:(id)arg1 errorCode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <EFSQLValueExpressable> baseExpression; // @synthesize baseExpression=_baseExpression;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
-@property(retain, nonatomic) id <EFSQLValueExpressable> elseExpression; // @synthesize elseExpression=_elseExpression;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMapTable *whenExpressions; // @synthesize whenExpressions=_whenExpressions;
 
 @end
 

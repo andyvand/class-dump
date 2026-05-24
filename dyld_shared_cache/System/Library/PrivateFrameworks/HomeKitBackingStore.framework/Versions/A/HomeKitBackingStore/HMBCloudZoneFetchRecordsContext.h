@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NAFuture, NSSet;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMBCloudZoneFetchRecordsContext
 {
     NSSet *_recordIDs;
-    NAFuture *_future;
 }
 
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) NAFuture *future; // @synthesize future=_future;
 @property(readonly, copy) NSSet *recordIDs; // @synthesize recordIDs=_recordIDs;
 
 @end

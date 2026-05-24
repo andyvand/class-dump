@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, TRIPBTimestamp, TRIPersistedTaskAttribution, TRIPersistedTaskCapabilityModifier, TRITaskOptions;
+@class NSString;
 
 @interface TRIActivateTreatmentPersistedTask
 {
@@ -13,30 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) TRIPersistedTaskCapabilityModifier *capabilityModifier; // @dynamic capabilityModifier;
-@property(retain, nonatomic) NSMutableDictionary *counterfactualTreatments; // @dynamic counterfactualTreatments;
-@property(readonly, nonatomic) unsigned long long counterfactualTreatments_Count; // @dynamic counterfactualTreatments_Count;
-@property(nonatomic) int deploymentId; // @dynamic deploymentId;
-@property(retain, nonatomic) TRIPBTimestamp *endTimestamp; // @dynamic endTimestamp;
 @property(copy, nonatomic) NSString *experimentId; // @dynamic experimentId;
-@property(copy, nonatomic) NSString *factorPackSetId; // @dynamic factorPackSetId;
-@property(nonatomic) _Bool hasCapabilityModifier; // @dynamic hasCapabilityModifier;
-@property(nonatomic) _Bool hasDeploymentId; // @dynamic hasDeploymentId;
-@property(nonatomic) _Bool hasEndTimestamp; // @dynamic hasEndTimestamp;
-@property(nonatomic) _Bool hasExperimentId; // @dynamic hasExperimentId;
-@property(nonatomic) _Bool hasFactorPackSetId; // @dynamic hasFactorPackSetId;
-@property(nonatomic) _Bool hasRequiresTreatmentInstallation; // @dynamic hasRequiresTreatmentInstallation;
-@property(nonatomic) _Bool hasRetryCount; // @dynamic hasRetryCount;
-@property(nonatomic) _Bool hasStartTimestamp; // @dynamic hasStartTimestamp;
-@property(nonatomic) _Bool hasTaskAttribution; // @dynamic hasTaskAttribution;
-@property(nonatomic) _Bool hasTaskOptions; // @dynamic hasTaskOptions;
-@property(nonatomic) _Bool hasTreatmentId; // @dynamic hasTreatmentId;
-@property(nonatomic) _Bool requiresTreatmentInstallation; // @dynamic requiresTreatmentInstallation;
-@property(nonatomic) int retryCount; // @dynamic retryCount;
-@property(retain, nonatomic) TRIPBTimestamp *startTimestamp; // @dynamic startTimestamp;
-@property(retain, nonatomic) TRIPersistedTaskAttribution *taskAttribution; // @dynamic taskAttribution;
-@property(retain, nonatomic) TRITaskOptions *taskOptions; // @dynamic taskOptions;
-@property(copy, nonatomic) NSString *treatmentId; // @dynamic treatmentId;
 
 @end
 

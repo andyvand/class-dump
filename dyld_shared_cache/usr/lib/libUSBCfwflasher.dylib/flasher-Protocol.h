@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNumber, NSString;
+
 @protocol flasher
+- (NSNumber *)without updating USBC.
+;
+- (NSString *)k;
 @end
 

@@ -4,41 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBagNetworkTask, AMSBagNetworkTaskResult, AMSMetricsLoadURLOverlay, AMSObserver, AMSProcessInfo, NSDate, NSMutableDictionary, NSObject, NSString;
-@protocol AMSBagAccountProvider, OS_dispatch_queue;
+@class AMSObserver, NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSBagNetworkDataSource
 {
     NSString *_cachedStorefront;
-    CDUnknownBlockType _dataSourceChangedHandler;
-    CDUnknownBlockType _dataSourceDataInvalidatedHandler;
-    AMSProcessInfo *_processInfo;
-    NSString *_profile;
-    NSString *_profileVersion;
-    AMSObserver *_accountsChangedObserver;
-    id <AMSBagAccountProvider> _accountProvider;
-    AMSBagNetworkTaskResult *_cachedResult;
-    struct os_unfair_recursive_lock_s _cachedDataAccessLock;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    AMSBagNetworkTask *_currentLoadTask;
-    NSMutableDictionary *_defaultValues;
-    NSObject<OS_dispatch_queue> *_processAccountStoreDidChangeNotificationQueue;
-    AMSMetricsLoadURLOverlay *_loadURLOverlay;
 }
 
 + (id);
 + (void);
-+ (id);
++ (id)conversationManager:(id)arg1 rejectedMembersChangedForConversation:(id)arg2;
 + (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)ched;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)iTunesStoreSubscriptionIdentifier;
 - (id);
 - (id);
 - (id);
@@ -47,22 +32,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)conversationManager:remoteMembersChangedForConversation: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (id);
 - (struct os_unfair_recursive_lock_s);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)sidered an App Store app (%@);
 - (void)Â0@ù
 × ;
 - (id)public}@] Purchase pre-authentication not required.;
-- (_Bool)eys;
+- (_Bool)AMSKeychainOptionsRegenerateKeys;
 - (void)key for the private key.;
 - (void)at does not contain an AMSAuthenticateRequest;
 - (id)d download (response:(id)arg1;
@@ -77,41 +62,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly) id <AMSBagAccountProvider> accountProvider; // @synthesize accountProvider=_accountProvider;
 @property(retain) AMSObserver *accountsChangedObserver; // @synthesize accountsChangedObserver=_accountsChangedObserver;
-@property(readonly, copy) NSString *bagLoadingPartialIdentifier;
-@property(readonly) struct os_unfair_recursive_lock_s cachedDataAccessLock; // @synthesize cachedDataAccessLock=_cachedDataAccessLock;
-@property(retain) AMSBagNetworkTaskResult *cachedResult; // @synthesize cachedResult=_cachedResult;
-@property(retain, nonatomic) NSString *cachedStorefront; // @synthesize cachedStorefront=_cachedStorefront;
-@property(retain) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(retain) AMSBagNetworkTask *currentLoadTask; // @synthesize currentLoadTask=_currentLoadTask;
-@property(copy) CDUnknownBlockType dataSourceChangedHandler; // @synthesize dataSourceChangedHandler=_dataSourceChangedHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C,V_dataSourceChangedHandler
-
-@property(copy) CDUnknownBlockType dataSourceDataInvalidatedHandler; // @synthesize dataSourceDataInvalidatedHandler=_dataSourceDataInvalidatedHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C,V_dataSourceDataInvalidatedHandler
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSMutableDictionary *defaultValues; // @synthesize defaultValues=_defaultValues;
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *descriptionExtended;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&
-
-@property(readonly) NSDate *expirationDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AMSMetricsLoadURLOverlay *loadURLOverlay; // @synthesize loadURLOverlay=_loadURLOverlay;
-@property(readonly, getter=isLoaded) _Bool loaded;
-@property(readonly) NSObject<OS_dispatch_queue> *processAccountStoreDidChangeNotificationQueue; // @synthesize processAccountStoreDidChangeNotificationQueue=_processAccountStoreDidChangeNotificationQueue;
-@property(readonly, copy) AMSProcessInfo *processInfo; // @synthesize processInfo=_processInfo;
-@property(readonly, copy) NSString *profile; // @synthesize profile=_profile;
-@property(readonly, copy) NSString *profileVersion; // @synthesize profileVersion=_profileVersion;
-@property(readonly) Class superclass;
 
 @end
 

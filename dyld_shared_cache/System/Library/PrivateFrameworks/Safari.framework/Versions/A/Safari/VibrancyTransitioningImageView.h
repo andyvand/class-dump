@@ -5,21 +5,16 @@
 //
 
 @class ImageViewWithConfigurableVibrancy;
-@protocol VibrancyTransitioningImageViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VibrancyTransitioningImageView
 {
     ImageViewWithConfigurableVibrancy *_currentImageView;
-    ImageViewWithConfigurableVibrancy *_nextImageView;
-    long long _numberOfAnimations;
-    CDUnknownBlockType _imageViewConfigurationBlock;
-    id <VibrancyTransitioningImageViewDelegate> _delegate;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -35,7 +30,6 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ;
 
 // Remaining properties
-@property(nonatomic) __weak id <VibrancyTransitioningImageViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(copy, nonatomic) CDUnknownBlockType imageViewConfigurationBlock; // @synthesize imageViewConfigurationBlock=_imageViewConfigurationBlock;
 
 @end

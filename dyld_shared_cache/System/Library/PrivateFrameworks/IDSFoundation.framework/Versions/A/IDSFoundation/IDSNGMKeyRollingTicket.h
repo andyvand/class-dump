@@ -8,8 +8,9 @@
 {
 }
 
-- (id);
-- (id);
+- (id);
+- (id)### sendCommandFormatted was successful
+;
 
 @end
 

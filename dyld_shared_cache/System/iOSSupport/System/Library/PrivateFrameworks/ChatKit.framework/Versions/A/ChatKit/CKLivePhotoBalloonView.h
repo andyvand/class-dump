@@ -6,36 +6,30 @@
 
 #import <ChatKit/CKImageBalloonView.h>
 
-@class ChatKit.CKBalloonMaskLayer, PHLivePhoto, PHLivePhotoView;
+@class PHLivePhotoView;
 
 @interface CKLivePhotoBalloonView : CKImageBalloonView
 {
     _Bool _isIrisAsset;
-    _Bool _isMonoskiAsset;
-    PHLivePhotoView *_livePhotoView;
-    PHLivePhoto *_livePhoto;
-    ChatKit.CKBalloonMaskLayer *_livePhotoViewMaskLayer;
 }
 
+- (void)typeUTIIsImage:(id)arg1;
+- (void)N,V_keyboardLanguage;
+- (void)leAttributedString",&,N,V_attributedString;
+- (id)So25ICDocumentMergeControllerC;
+- (id)_AAt;
+- (_Bool)ySaySfGy_9_p_G;
+- (void)folder to place imported note, no legacy context available.;
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void)D;
 - (id);
 - (void)Ì;
 
 // Remaining properties
-@property(retain, nonatomic) PHLivePhoto *livePhoto; // @synthesize livePhoto=_livePhoto;
 @property(retain, nonatomic) PHLivePhotoView *livePhotoView; // @synthesize livePhotoView=_livePhotoView;
-@property(retain, nonatomic) ChatKit.CKBalloonMaskLayer *livePhotoViewMaskLayer; // @synthesize livePhotoViewMaskLayer=_livePhotoViewMaskLayer;
 
 @end
 

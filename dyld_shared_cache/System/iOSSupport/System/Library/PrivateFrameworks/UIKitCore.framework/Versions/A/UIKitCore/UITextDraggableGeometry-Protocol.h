@@ -7,11 +7,12 @@
 @class NSArray, UITargetedDragPreview, UITextRange;
 
 @protocol UITextDraggableGeometry
-- (NSArray *)rShadowIsHidden:(UITextRange *)arg1;
-- (void)bviewsTest:(long long)arg1;
-- (NSArray *)sentationSourceRepresentationView;
+- (UITargetedDragPreview * (^)(UIView *, _Bool))?;
+- (NSArray *)setPinningBarShadowIsHidden:(UITextRange *)arg1;
+- (void)_collectKeyViews:(long long)arg1 visibilityTest:passingTest:subviewsTest: /* Error: Ran out of types for this method. */;
+- (NSArray *)presentationSourceRepresentationView;
 - (long long)ct must not be nil;
-- (UITargetedDragPreview *)od;
+- (UITargetedDragPreview *)mod;
 - (UITextRange *)DCSDictionaryCreateWithAssetAttributes;
 
 // Remaining properties

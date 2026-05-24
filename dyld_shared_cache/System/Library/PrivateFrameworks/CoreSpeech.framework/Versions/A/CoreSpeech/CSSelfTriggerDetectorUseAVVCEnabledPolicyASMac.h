@@ -15,8 +15,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)unningMode: /* Error: Ran out of types for this method. */;
+- (void)r = %@;
+- (void)getFirstPassRunningMode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CSPolicy *selfTriggerEnabledPolicyMac; // @synthesize selfTriggerEnabledPolicyMac=_selfTriggerEnabledPolicyMac;

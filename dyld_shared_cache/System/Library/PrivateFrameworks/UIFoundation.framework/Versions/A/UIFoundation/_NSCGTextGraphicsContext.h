@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSCGTextGraphicsContext
 {
@@ -16,23 +14,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGContext *);
-- (id);
+- (id)uch task;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)orage.predicate-delete;
 - (void);
 
 // Remaining properties
 @property(readonly) struct CGContext *CGContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isDrawingToScreen) _Bool drawingToScreen;
-@property(readonly, getter=isFlipped) _Bool flipped;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

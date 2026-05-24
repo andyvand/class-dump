@@ -7,20 +7,22 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)er requestViewController:fromServiceListenerEndpoint:connectionHandler:] /* Error: Ran out of types for this method. */;
+- (id)emoteViewController requestViewController:fromServiceListenerEndpoint:connectionHandler:] /* Error: Ran out of types for this method. */;
+- (id)iewController:(SEL)arg1 fromServiceWithBundleIdentifier:(id)arg2 connectionHandler:(id)arg3 ];
+- (id)invoke;
+- (id)er:(SEL)arg1 connectionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
+- (Class)extensionIdentifier;
+- (unsigned long long)layersLossyCompressionQuality;
+- (_Bool)r̬;
 - (_Bool)7;
-- (id)ll_stats_u;
+- (id)all_stats_u;
 - (_Bool);
 
 @optional
-- (NSString *)ange;
+- (NSString *)nw_endpoint_flow_connected_path_change;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

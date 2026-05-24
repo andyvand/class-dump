@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface INHomeAutomationEntityProvider
 {
     NSArray *_roomNames;
-    NSString *_homeName;
-    NSArray *_zoneNames;
-    NSArray *_accessoryNames;
-    NSArray *_serviceNames;
-    NSArray *_serviceGroups;
-    NSArray *_intentFromEntities;
-    NSString *_intentDeviceQuantifier;
-    NSString *_destinationDeviceId;
-    NSString *_intentDeviceType;
-    NSString *_intentPlaceHint;
-    NSString *_intentReference;
 }
 
 + (id);
@@ -28,46 +17,28 @@
 - (id);
 - (id);
 - (id);
+- (id)9;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)stateEvent;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)_checkinRequestParams;
+- (void)associatedRSSIDelta;
 - (id);
 - (id);
-- (id)Input;
+- (id)_userInput;
 - (void)ion: /* Error: Ran out of types for this method. */;
 - (id).Q·ß;
 
 // Remaining properties
-@property(readonly, copy) NSArray *accessoryNames; // @synthesize accessoryNames=_accessoryNames;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *destinationDeviceId; // @synthesize destinationDeviceId=_destinationDeviceId;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *homeName; // @synthesize homeName=_homeName;
-@property(readonly, copy) NSString *intentDeviceQuantifier; // @synthesize intentDeviceQuantifier=_intentDeviceQuantifier;
-@property(readonly, copy) NSString *intentDeviceType; // @synthesize intentDeviceType=_intentDeviceType;
-@property(readonly, copy) NSArray *intentFromEntities; // @synthesize intentFromEntities=_intentFromEntities;
-@property(readonly, copy) NSString *intentPlaceHint; // @synthesize intentPlaceHint=_intentPlaceHint;
-@property(readonly, copy) NSString *intentReference; // @synthesize intentReference=_intentReference;
 @property(readonly, copy) NSArray *roomNames; // @synthesize roomNames=_roomNames;
-@property(readonly, copy) NSArray *serviceGroups; // @synthesize serviceGroups=_serviceGroups;
-@property(readonly, copy) NSArray *serviceNames; // @synthesize serviceNames=_serviceNames;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *zoneNames; // @synthesize zoneNames=_zoneNames;
 
 @end
 

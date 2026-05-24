@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, TRIClient, _PASLock;
+@class NSDictionary, _PASLock;
 
 @interface PSGExperimentResolver
 {
     _PASLock *_responseSuggestionsConfigLock;
-    _PASLock *_wordBoundaryConfigLock;
-    TRIClient *_trialClient;
-    NSDictionary *_zkwLangAndNamespaces;
-    NSDictionary *_wordBoundaryLangAndNamespaces;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)hasBucketSize;
+- (id);
+- (id);
+- (id)shareURLWithShortToken:(id)arg1 shareTitle:shareType:containerID:displayedHostname: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)sform's origin from query LLA, building data ignored;
+- (void)N8cnmatrix8CNMatrixILj1ELj3EdEE;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)trackEvaluationMetrics:minibatchStats: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *wordBoundaryLangAndNamespaces; // @synthesize wordBoundaryLangAndNamespaces=_wordBoundaryLangAndNamespaces;
 @property(readonly, nonatomic) NSDictionary *zkwLangAndNamespaces; // @synthesize zkwLangAndNamespaces=_zkwLangAndNamespaces;
 
 @end

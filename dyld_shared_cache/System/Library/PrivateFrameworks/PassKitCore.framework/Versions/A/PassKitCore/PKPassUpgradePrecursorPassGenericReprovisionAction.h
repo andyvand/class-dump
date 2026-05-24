@@ -9,22 +9,20 @@
 @interface PKPassUpgradePrecursorPassGenericReprovisionAction : PKPassUpgradePrecursorPassAction
 {
     _Bool _deviceProvisioningDataExpected;
-    unsigned long long _subtype;
 }
 
 + (_Bool)0@ù
 × ;
 - (id);
-- (id);
+- (id)*?=;
 - (_Bool);
-- (void);
+- (void) ;
 - (id);
-- (void);
-- (id)n:(id)arg1;
+- (void)recoveryLatency;
+- (id)carKeyRejectInvitation:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long)ientation;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool deviceProvisioningDataExpected; // @synthesize deviceProvisioningDataExpected=_deviceProvisioningDataExpected;
 @property(readonly, nonatomic) unsigned long long subtype; // @synthesize subtype=_subtype;
 
 @end

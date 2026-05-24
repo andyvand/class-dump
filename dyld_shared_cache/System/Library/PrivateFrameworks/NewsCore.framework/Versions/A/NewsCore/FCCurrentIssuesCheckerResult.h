@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
+@class NSArray;
 
 @interface FCCurrentIssuesCheckerResult
 {
     NSArray *_followedIssues;
-    NSArray *_unreadFollowedIssues;
-    NSArray *_autoFavoriteIssues;
-    NSArray *_unbadgedIssues;
-    NSArray *_seenIssues;
-    NSError *_error;
 }
 
 - (id);
@@ -21,10 +16,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)WiFiAwareMulticastConfiguration";
 - (id);
 - (id);
-- (id);
+- (id)SMCopyEngineFileCopier preProcessReturningError:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id)(	ð1Â0@ù
 × ;
@@ -32,12 +27,7 @@
 - (void)tificationsEnabled:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *autoFavoriteIssues; // @synthesize autoFavoriteIssues=_autoFavoriteIssues;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) NSArray *followedIssues; // @synthesize followedIssues=_followedIssues;
-@property(retain, nonatomic) NSArray *seenIssues; // @synthesize seenIssues=_seenIssues;
-@property(retain, nonatomic) NSArray *unbadgedIssues; // @synthesize unbadgedIssues=_unbadgedIssues;
-@property(retain, nonatomic) NSArray *unreadFollowedIssues; // @synthesize unreadFollowedIssues=_unreadFollowedIssues;
 
 @end
 

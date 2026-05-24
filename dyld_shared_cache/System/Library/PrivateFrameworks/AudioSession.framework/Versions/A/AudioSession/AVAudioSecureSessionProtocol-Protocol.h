@@ -7,15 +7,16 @@
 @class NSArray, NSString;
 
 @protocol AVAudioSecureSessionProtocol
+- (_Bool)setDisableEncryptedDNSSettings:(NSString *)arg1;
+- (NSArray *)ules;
+- (_Bool)NETransparentProxyProvider;
+- (double)NEFilterPacketExtensionProviderHostContext;
+- (double)NEProviderAppConfigurationClient;
+- (unsigned long long)NEPolicyResult;
+- (_Bool);
+- (double)&3;
 
 // Remaining properties
-@property(readonly) double IOBufferDuration;
-@property(readonly) unsigned long long IOBufferFrameSize;
 @property(readonly) NSArray *availableCategories;
-@property(readonly) NSArray *availableModes;
-@property(readonly) NSString *category;
-@property(readonly) double inputLatency;
-@property(readonly) double inputSampleRate;
-@property(readonly) NSString *mode;
 @end
 

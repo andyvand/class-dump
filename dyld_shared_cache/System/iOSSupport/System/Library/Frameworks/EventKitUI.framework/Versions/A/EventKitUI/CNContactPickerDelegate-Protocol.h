@@ -5,5 +5,10 @@
 //
 
 @protocol CNContactPickerDelegate
+
+@optional
+- (void){;
+- (void);
+- (void)F?{;
 @end
 

@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSOrientationObserverClient, FBSOrientationUpdate, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class FBSOrientationObserverClient;
 
 @interface FBSOrientationObserver
 {
     FBSOrientationObserverClient *_client;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_callback_queue;
-    CDUnknownBlockType _lock_handler;
-    FBSOrientationUpdate *_lock_freshestUpdate;
 }
 
 + (long long);
 - (void);
-- (id);
+- (id)ka;
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -28,19 +23,12 @@
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CDUnknownBlockType handler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

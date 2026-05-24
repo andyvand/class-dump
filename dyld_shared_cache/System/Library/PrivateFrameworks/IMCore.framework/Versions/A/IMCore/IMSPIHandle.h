@@ -9,15 +9,11 @@
 @interface IMSPIHandle
 {
     IMHandle *_imHandle;
-    _Bool _haveFetchedIMHandle;
-    _Bool _isMe;
-    NSString *_address;
-    NSString *_countryCode;
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)catePacket, for optionalControlInfo=%p in control info=%p for audio. error=%x;
+- (id)oy complete.;
+- (id)Received text:0x%04x '%C' /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -25,21 +21,15 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (_Bool)P;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)AWDIDSRegistrationRenewCredentialsCompleted;
 - (id)16@"NSString"24@"NSString"32;
 - (void)<?;
 
 // Remaining properties
 @property(retain) NSString *address; // @synthesize address=_address;
-@property(readonly) NSString *businessName;
-@property(readonly) NSString *cnContactID;
-@property(retain) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly) NSString *displayName;
-@property(readonly) _Bool isBusiness;
-@property _Bool isMe; // @synthesize isMe=_isMe;
 
 @end
 

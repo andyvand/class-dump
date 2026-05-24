@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (long long);
-+ (id);
++ (id)_TtC7NewsUI213TagURLHandler;
 + (void);
 + (long long);
 

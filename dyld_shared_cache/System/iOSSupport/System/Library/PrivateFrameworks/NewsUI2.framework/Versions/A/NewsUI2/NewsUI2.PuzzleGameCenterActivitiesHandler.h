@@ -7,12 +7,6 @@
 @interface NewsUI2.PuzzleGameCenterActivitiesHandler
 {
     id appConfigManager;
-    id puzzleGameCenterService;
-    id urlHandler;
-    id puzzleService;
-    id resolver;
-    id welcomeStatus;
-    id welcomeStatusTask;
 }
 
 @end

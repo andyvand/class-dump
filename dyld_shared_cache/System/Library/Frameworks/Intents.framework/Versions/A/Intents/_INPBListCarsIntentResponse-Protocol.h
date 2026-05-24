@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cars;
-@property(readonly, nonatomic) unsigned long long carsCount;
 @end
 

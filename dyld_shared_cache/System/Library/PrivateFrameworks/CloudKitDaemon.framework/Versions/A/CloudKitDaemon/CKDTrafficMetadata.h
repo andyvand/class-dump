@@ -4,47 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, NSURL;
+@class NSDate;
 
 @interface CKDTrafficMetadata
 {
     void timestamp;
-    void url;
-    void method;
-    long long status;
-    void headers;
-    void requestClassName;
-    _Bool parsingStandaloneMessage;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)16;
 - (id);
 - (id);
-- (void);
+- (void)@8
+;
+- (id);
+- (void)message send later date:(id)arg1 %{public}@;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (long long);
-- (void)UsageSaveRequest:(id)arg1;
-- (id)redCachesByDirectory;
+- (void)setShareUsageSaveRequest:(id)arg1;
+- (id)_sharedCachesByDirectory;
 - (void)error:Response objects parsed with error %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, copy) NSDictionary *headers;
-@property(nonatomic, copy) NSString *method;
-@property(nonatomic) _Bool parsingStandaloneMessage; // @synthesize parsingStandaloneMessage;
-@property(nonatomic, copy) NSString *requestClassName;
-@property(nonatomic) long long status; // @synthesize status;
 @property(nonatomic, copy) NSDate *timestamp;
-@property(nonatomic, copy) NSURL *url;
 
 @end
 

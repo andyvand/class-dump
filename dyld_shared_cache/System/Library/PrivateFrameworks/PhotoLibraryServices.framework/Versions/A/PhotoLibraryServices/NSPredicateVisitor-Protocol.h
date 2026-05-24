@@ -5,8 +5,8 @@
 //
 
 @protocol NSPredicateVisitor
-- (id)ount;
+- (id)cachedVideosCount;
 - (id)¿;
-- (id);
+- (unsigned long);
 @end
 

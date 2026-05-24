@@ -7,7 +7,6 @@
 @interface NewsFeed.FeedGroupDebugCandidateItem
 {
     id slotIdentifier;
-    id scoredItem;
 }
 
 @end

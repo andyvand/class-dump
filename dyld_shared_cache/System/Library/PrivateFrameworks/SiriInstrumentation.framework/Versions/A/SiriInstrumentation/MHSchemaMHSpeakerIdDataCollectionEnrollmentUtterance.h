@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface MHSchemaMHSpeakerIdDataCollectionEnrollmentUtterance : SISchemaInstrumentationMessage
 {
     unsigned long long _approximateGenerationTimeStamp;
-    int _triggerPhrase;
-    SISchemaUUID *_enrollmentDonationId;
-    struct {
-        unsigned int approximateGenerationTimeStamp:1;
-        unsigned int triggerPhrase:1;
-    } _has;
-    _Bool _hasEnrollmentDonationId;
 }
 
 - (int);
@@ -26,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,7 +28,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)ugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ec/ec_ameth.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -50,12 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long approximateGenerationTimeStamp; // @synthesize approximateGenerationTimeStamp=_approximateGenerationTimeStamp;
-@property(retain, nonatomic) SISchemaUUID *enrollmentDonationId; // @synthesize enrollmentDonationId=_enrollmentDonationId;
-@property(nonatomic) _Bool hasApproximateGenerationTimeStamp;
-@property(nonatomic) _Bool hasEnrollmentDonationId; // @synthesize hasEnrollmentDonationId=_hasEnrollmentDonationId;
-@property(nonatomic) _Bool hasTriggerPhrase;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int triggerPhrase; // @synthesize triggerPhrase=_triggerPhrase;
 
 @end
 

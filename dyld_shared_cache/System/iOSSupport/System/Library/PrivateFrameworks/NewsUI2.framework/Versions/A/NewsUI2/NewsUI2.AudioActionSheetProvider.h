@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioActionSheetProvider
 {
     id headlineConverter;
-    id listeningProgressManager;
-    id commandCenter;
 }
 
 - (id);

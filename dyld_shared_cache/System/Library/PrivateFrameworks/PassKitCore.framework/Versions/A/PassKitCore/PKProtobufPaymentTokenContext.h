@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKProtobufCustomPrecisionAmount, PKProtobufNSDecimalNumber;
-
 @interface PKProtobufPaymentTokenContext
 {
     long long _amount;
-    PKProtobufCustomPrecisionAmount *_customPrecisionAmount;
-    PKProtobufNSDecimalNumber *_decimalAmount;
-    NSString *_externalIdentifier;
-    NSString *_merchantDomain;
-    NSString *_merchantIdentifier;
-    NSString *_merchantName;
-    struct {
-        unsigned int amount:1;
-    } _has;
 }
 
 - (void);
@@ -31,12 +20,12 @@
 - (_Bool);
 - (id);
 - (id);
+- (void)!;
+- (id);
+- (void));
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)7;
 - (_Bool);
 - (void);
 - (long long);
@@ -49,25 +38,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)";
 - (id);
-- (id);
-- (void)TRANSACTION_LIST_FARE_REBATE;
+- (void)BIKE_TRANSACTION_LIST_FARE_REBATE;
 
 // Remaining properties
-@property(nonatomic) long long amount; // @synthesize amount=_amount;
-@property(retain, nonatomic) PKProtobufCustomPrecisionAmount *customPrecisionAmount; // @synthesize customPrecisionAmount=_customPrecisionAmount;
-@property(retain, nonatomic) PKProtobufNSDecimalNumber *decimalAmount; // @synthesize decimalAmount=_decimalAmount;
-@property(retain, nonatomic) NSString *externalIdentifier; // @synthesize externalIdentifier=_externalIdentifier;
-@property(nonatomic) _Bool hasAmount;
-@property(readonly, nonatomic) _Bool hasCustomPrecisionAmount;
-@property(readonly, nonatomic) _Bool hasDecimalAmount;
-@property(readonly, nonatomic) _Bool hasExternalIdentifier;
-@property(readonly, nonatomic) _Bool hasMerchantDomain;
 @property(readonly, nonatomic) _Bool hasMerchantIdentifier;
-@property(readonly, nonatomic) _Bool hasMerchantName;
-@property(retain, nonatomic) NSString *merchantDomain; // @synthesize merchantDomain=_merchantDomain;
-@property(retain, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
-@property(retain, nonatomic) NSString *merchantName; // @synthesize merchantName=_merchantName;
 
 @end
 

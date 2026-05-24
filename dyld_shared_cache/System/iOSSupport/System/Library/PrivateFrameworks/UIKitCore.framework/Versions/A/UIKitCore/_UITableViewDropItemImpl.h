@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, UIDragItem;
+@class UIDragItem;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewDropItemImpl
 {
     UIDragItem *_dragItem;
-    NSIndexPath *_sourceIndexPath;
-    NSIndexPath *_translatedSourceIndexPath;
 }
 
 - (void);
@@ -19,24 +17,14 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)keyValueCollection:willUpdateValues: /* Error: Ran out of types for this method. */;
+- (void)keyValueCollection;
+- (void)chat:(id)arg1 originalGroupIDUpdated: /* Error: Ran out of types for this method. */;
+- (id)nscode sizes limits due to default TranscodeSizeLimitsKB:(%lu, %lu) to (%lu, %lu) /* Error: Ran out of types for this method. */;
 - (void)¿¡03yY1¿7_pG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIDragItem *dragItem; // @synthesize dragItem=_dragItem;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize previewSize;
-@property(retain, nonatomic) NSIndexPath *sourceIndexPath; // @synthesize sourceIndexPath=_sourceIndexPath;
-@property(readonly) Class superclass;
-@property(retain, nonatomic, getter=_translatedSourceIndexPath, setter=_setTranslatedSourceIndexPath:) NSIndexPath *translatedSourceIndexPath; // @synthesize translatedSourceIndexPath=_translatedSourceIndexPath;
 
 @end
 

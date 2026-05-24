@@ -14,7 +14,7 @@
 }
 
 + (id);
-- (id);
+- (id)_updateTouchBarIdentifiers;
 - (void);
 - (void);
 - (void);

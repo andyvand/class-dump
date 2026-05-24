@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)ationStateNode;
+- (id)resultForFetchFailureWithHost:response:higherPriorityIconDownloadFailedDueToNetworkError:error: /* Error: Ran out of types for this method. */;
+- (id)PGGraphLocationStateNode;
 
 @end
 

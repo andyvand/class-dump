@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CKDPAnonymousZoneInfo
 {
     NSData *_anonymousZoneInfoData;
-    NSString *_anonymousZoneInfoID;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)9h;
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)extSbufStartTime and gapBytes
+;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)eType;
+- (void)deleteType;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *anonymousZoneInfoData; // @synthesize anonymousZoneInfoData=_anonymousZoneInfoData;
-@property(retain, nonatomic) NSString *anonymousZoneInfoID; // @synthesize anonymousZoneInfoID=_anonymousZoneInfoID;
-@property(readonly, nonatomic) _Bool hasAnonymousZoneInfoData;
 @property(readonly, nonatomic) _Bool hasAnonymousZoneInfoID;
 
 @end

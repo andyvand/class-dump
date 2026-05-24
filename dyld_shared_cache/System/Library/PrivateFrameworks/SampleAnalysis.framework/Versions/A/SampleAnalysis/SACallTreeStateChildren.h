@@ -6,15 +6,10 @@
 
 #import <SampleAnalysis/SACallTreeNode.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface SACallTreeStateChildren : SACallTreeNode
 {
     int _originPid;
-    int _proximatePid;
-    NSArray *_timeRanges;
-    NSArray *_ioEvents;
 }
 
 - (void);

@@ -5,5 +5,6 @@
 //
 
 @protocol AVCallbackCancellation
+- (void)";
 @end
 

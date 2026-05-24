@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent, NSView;
-
 @interface NSMouseTracker
 {
     struct CGPoint _initialPoint;
-    struct CGPoint _previousPoint;
-    struct CGPoint _currentPoint;
-    NSEvent *_initialEvent;
-    NSEvent *_previousEvent;
-    NSEvent *_currentEvent;
-    NSView *_view;
-    id _delegate;
-    double _delay;
-    double _interval;
-    int _eventMask;
-    unsigned long long _trackingConstraint;
-    unsigned int _trackingConstraintKeyMask;
-    struct __NSMouseTrackerDelegateRespondTo {
-        unsigned int startTracking:1;
-        unsigned int continueTracking:1;
-        unsigned int stopTracking:1;
-        unsigned int constrainPoint:1;
-        unsigned int handlePeriodicEvents:1;
-        unsigned int reserved:27;
-    } _delegateRespondTo;
 }
 
 - (unsigned long long);
@@ -42,11 +20,11 @@
 - (struct CGPoint);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)__AUTH_CONST;
+- (_Bool)removeHTTPAlternativeServiceEntriesWithHost:(id)arg1 port: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)@;
 - (double);
 - (struct CGPoint);
 - (id);
@@ -54,8 +32,8 @@
 - (double);
 - (void);
 - (void);
-- (struct CGPoint)itialOrigin;
-- (id):container: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_initialOrigin;
+- (id)_initWithSuiteName:container: /* Error: Ran out of types for this method. */;
 - (long long)ÿÿ/;
 
 @end

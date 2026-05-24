@@ -8,6 +8,7 @@
 @protocol OS_dispatch_queue;
 
 @protocol FBSServiceFacilityClientMessaging
+- (void)m.apple.dt.DTXConnectionServices;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue;

@@ -9,7 +9,6 @@
 @interface MTRecommendationModulesRequest : MTBaseMAPIRequest
 {
     id kPayloadDataFetchLimit;
-    id context;
 }
 
 - (void);

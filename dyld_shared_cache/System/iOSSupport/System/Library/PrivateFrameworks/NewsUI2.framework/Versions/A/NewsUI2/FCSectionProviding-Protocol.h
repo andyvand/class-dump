@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol FCSectionProviding
-- (NSString *)oryService;
+- (NSString *)historyService;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isFoodSection;
 @property(readonly, copy, nonatomic) NSString *parentID;
 @end
 

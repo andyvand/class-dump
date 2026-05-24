@@ -8,28 +8,25 @@ __attribute__((visibility("hidden")))
 @interface CHDDataValuesCollection
 {
     struct __CFData *mPackedValues;
-    unsigned long long mDataValueCount;
-    struct __CFDictionary *mIndexToDataValueMap;
-    _Bool mContainsStringValue;
 }
 
 - (void);
-- (void);
+- (void):(unsigned long long)arg1;
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (struct CHDDataPoint *);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (struct CHDDataPoint *);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long)cument: /* Error: Ran out of types for this method. */;
+- (unsigned long long)write:properties:wrdProperties:document: /* Error: Ran out of types for this method. */;
 - (void)È;
 
 @end

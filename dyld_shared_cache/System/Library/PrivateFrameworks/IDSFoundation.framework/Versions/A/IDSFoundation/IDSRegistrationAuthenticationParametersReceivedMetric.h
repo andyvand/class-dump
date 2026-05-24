@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PBCodable;
-@protocol NSCopying;
+@class NSString;
 
 @interface IDSRegistrationAuthenticationParametersReceivedMetric
 {
     long long _errorCode;
-    double _timeIntervalSinceAuthenticationParameterRequest;
 }
 
 - (double);
-- (id);
+- (id)7;
 - (id);
 - (id);
 - (id);
@@ -22,19 +20,7 @@
 - (long long)H3_CallModeUpdate;
 
 // Remaining properties
-@property(readonly) unsigned int awdIdentifier;
-@property(readonly, nonatomic) PBCodable<NSCopying> *awdRepresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeIntervalSinceAuthenticationParameterRequest; // @synthesize timeIntervalSinceAuthenticationParameterRequest=_timeIntervalSinceAuthenticationParameterRequest;
 
 @end
 

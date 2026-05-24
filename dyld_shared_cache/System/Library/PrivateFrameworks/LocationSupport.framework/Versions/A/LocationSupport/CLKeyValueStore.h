@@ -18,7 +18,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)H;
 - (id);
 - (_Bool);
 - (id);
@@ -27,9 +27,9 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (double);
+- (double);
 - (id);
-- (id);
+- (id)h;
 - (int);
 - (short);
 - (float)ing service to fail to map under existing mapping and behavior, and must be non-nil for next test;

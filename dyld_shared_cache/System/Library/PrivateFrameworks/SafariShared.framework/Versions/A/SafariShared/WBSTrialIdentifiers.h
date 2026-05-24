@@ -9,22 +9,18 @@
 @interface WBSTrialIdentifiers
 {
     NSString *_namespaceName;
-    NSString *_experimentId;
-    NSString *_treatmentId;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)uniquing_table_node_release_internal;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *experimentId; // @synthesize experimentId=_experimentId;
 @property(retain, nonatomic) NSString *namespaceName; // @synthesize namespaceName=_namespaceName;
-@property(retain, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

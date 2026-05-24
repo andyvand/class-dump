@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSObject, NSString;
-@protocol OS_os_log;
+@class NSString;
 
 @interface PFClientSideEncryptionManager
 {
     NSString *_keychainAccessGroup;
-    NSString *_keychainApplicationLabel;
-    NSString *_keychainViewHint;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _state;
-    NSData *_keyData;
-    NSDictionary *_keyMetadata;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 + (void);
@@ -24,15 +16,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
+- (void);
 - (void);
+- (void)g a pcs cache;
 - (void);
-- (void);
-- (void);
-- (id)r_level;
+- (id)per_level;
 
 @end
 

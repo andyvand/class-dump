@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSColor;
 
 @interface OBPrivacyCombinedController
 {
     _Bool _allowsOpeningSafari;
-    _Bool _presentedFromPrivacyPane;
-    NSColor *_customTintColor;
-    NSString *_displayLanguage;
-    unsigned long long _displayDeviceType;
 }
 
 + (void);
@@ -26,26 +22,15 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ra;
 - (id);
-- (void);
+- (void)previewArtwork;
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property _Bool allowsOpeningSafari; // @synthesize allowsOpeningSafari=_allowsOpeningSafari;
 @property(retain, nonatomic) NSColor *customTintColor; // @synthesize customTintColor=_customTintColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned long long displayDeviceType; // @synthesize displayDeviceType=_displayDeviceType;
-@property(retain) NSString *displayLanguage; // @synthesize displayLanguage=_displayLanguage;
-@property(readonly) unsigned long long hash;
-@property _Bool presentedFromPrivacyPane; // @synthesize presentedFromPrivacyPane=_presentedFromPrivacyPane;
-@property(readonly) Class superclass;
 
 @end
 

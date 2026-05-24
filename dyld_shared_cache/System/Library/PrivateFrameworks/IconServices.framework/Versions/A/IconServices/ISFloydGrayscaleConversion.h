@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (id);
+- (id)__DDQueryFragment}qq^?^v}16^{__CFArray=}24;
+- (id)Array}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}32@0:(int)arg1 8^{__DDScanQuery={__CFRuntimeBase=QAQ}^{__DDQueryFragment}qq^?^v}16^{__CFArray=}24;
 
 @end
 

@@ -4,73 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface RPFileTransferResumeState
 {
     NSMutableDictionary *_stateInfo;
-    _Bool _isPlaceholder;
-    _Bool _needsFlushing;
-    struct LogCategory *_ucat;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_outputPath;
-    NSString *_stateFilePath;
-    NSObject<OS_dispatch_source> *_flushTimer;
-    double _flushInterval;
 }
 
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool)c;
 - (void);
+- (struct LogCategory *)INSaveParkingLocationIntentResponseExport;
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (struct LogCategory *);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)>;
+- (id)unionSet: /* Error: Ran out of types for this method. */;
+- (id)ptation;
 - (void);
 - (id);
 - (void);
 - (double);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)"M;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)	;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(nonatomic) double flushInterval; // @synthesize flushInterval=_flushInterval;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *flushTimer; // @synthesize flushTimer=_flushTimer;
 @property(nonatomic) _Bool isPlaceholder; // @synthesize isPlaceholder=_isPlaceholder;
-@property(nonatomic) _Bool needsFlushing; // @synthesize needsFlushing=_needsFlushing;
-@property(retain, nonatomic) NSString *outputPath; // @synthesize outputPath=_outputPath;
-@property(retain, nonatomic) NSString *stateFilePath; // @synthesize stateFilePath=_stateFilePath;
-@property(nonatomic) struct LogCategory *ucat; // @synthesize ucat=_ucat;
 
 @end
 

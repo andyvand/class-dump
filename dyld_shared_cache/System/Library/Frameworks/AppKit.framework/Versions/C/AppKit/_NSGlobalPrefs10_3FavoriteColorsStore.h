@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 @interface _NSGlobalPrefs10_3FavoriteColorsStore : NSFavoriteColorsStore
 {
     NSString *_preferenceKey;
-    NSString *_domain;
 }
 
 - (_Bool);
-- (void);
+- (void)RA3I5nhSK65i1ZxkRxQKfg;
 - (void);
 - (id);
 - (id);

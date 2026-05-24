@@ -6,23 +6,20 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface AASetupAssistantSetupDelegatesResponse : AAResponse
 {
 }
 
+- (id)PayloadExpirationDate;
+- (id)eturned:%d /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *dsid;
-@property(readonly, nonatomic) NSDictionary *responseParameters;
 @property(readonly, nonatomic) NSNumber *status;
-@property(readonly, nonatomic) NSString *statusMessage;
 
 @end
 

@@ -9,18 +9,16 @@
 @interface AWDMetricContainer
 {
     PBCodable *_metric;
-    unsigned int _metricId;
 }
 
 - (void);
-- (id);
+- (id)4;
 - (id);
 - (unsigned int);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) PBCodable *metric; // @synthesize metric=_metric;
-@property(readonly, nonatomic) unsigned int metricId; // @synthesize metricId=_metricId;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCMediaStreamConfig, AVConferenceXPCClient, NSDictionary, NSObject;
-@protocol AVCTextStreamDelegate, OS_dispatch_queue;
+@class AVConferenceXPCClient, NSDictionary;
 
 @interface AVCTextStream
 {
     AVConferenceXPCClient *_connection;
-    AVCMediaStreamConfig *_configuration;
-    id _delegate;
-    long long _streamToken;
-    NSDictionary *_capabilities;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (_Bool);
@@ -26,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,7 +28,7 @@
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)@9_k;
 - (void);
 - (void);
 - (_Bool);
@@ -42,31 +36,21 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)z;
 - (void);
 - (id);
-- (long long)pleRate: /* Error: Ran out of types for this method. */;
+- (long long)setHasRtpSampleRate: /* Error: Ran out of types for this method. */;
 - (void)ing underlyingFD %d;
 - (void)ªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªªª;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *capabilities; // @synthesize capabilities=_capabilities;
-@property(retain, nonatomic) AVCMediaStreamConfig *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) id <AVCTextStreamDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long direction;
-@property(nonatomic, getter=isRTCPEnabled) _Bool rtcpEnabled;
-@property(nonatomic) double rtcpSendIntervalSec;
-@property(nonatomic, getter=isRTCPTimeOutEnabled) _Bool rtcpTimeOutEnabled;
-@property(nonatomic) double rtcpTimeOutIntervalSec;
-@property(nonatomic, getter=isRTPTimeOutEnabled) _Bool rtpTimeOutEnabled;
-@property(nonatomic) double rtpTimeOutIntervalSec;
-@property(readonly, nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
 
 @end
 

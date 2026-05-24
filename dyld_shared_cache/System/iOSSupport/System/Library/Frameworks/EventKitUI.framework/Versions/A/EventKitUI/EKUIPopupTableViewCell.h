@@ -6,35 +6,28 @@
 
 #import <EventKitUI/EKUITableViewCell.h>
 
-@class NSArray, UIButton, UILabel, UIMenu;
+@class UILabel, UIMenu;
 
 @interface EKUIPopupTableViewCell : EKUITableViewCell
 {
     UILabel *_textLabel;
-    UIButton *_popupButton;
-    NSArray *_constraints;
-    _Bool _showSelectedImage;
-    _Bool _titleStrikethrough;
 }
 
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)tearDownCacheForAccountDSID: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void)Ô ;
-- (void)Override;
-- (void)dReminderStackViewControllerDelegate:(_Bool)arg1;
+- (void)viewHierarchyOrOverride;
+- (void)setEKExpandedReminderStackViewControllerDelegate:(_Bool)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) UIMenu *popupMenu;
-@property(copy, nonatomic) CDUnknownBlockType popupMenuProvider;
-@property(nonatomic) _Bool showSelectedImage; // @synthesize showSelectedImage=_showSelectedImage;
-@property(nonatomic) _Bool titleStrikethrough; // @synthesize titleStrikethrough=_titleStrikethrough;
 
 @end
 

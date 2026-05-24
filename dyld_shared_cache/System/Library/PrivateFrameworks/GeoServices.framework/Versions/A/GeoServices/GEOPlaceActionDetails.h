@@ -4,56 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTransitPlaceCard, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPlaceActionDetails
 {
     PBDataReader *_reader;
-    NSString *_actionUrl;
-    unsigned long long _animationID;
-    unsigned long long _businessID;
-    NSString *_destinationApp;
-    NSString *_photoId;
-    long long _placeID;
-    NSString *_richProviderId;
-    double _searchResponseRelativeTimestamp;
-    NSString *_showcaseId;
-    unsigned long long _targetID;
-    GEOTransitPlaceCard *_transitPlaceCard;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _localSearchProviderID;
-    int _resultIndex;
-    struct {
-        unsigned int has_animationID:1;
-        unsigned int has_businessID:1;
-        unsigned int has_placeID:1;
-        unsigned int has_searchResponseRelativeTimestamp:1;
-        unsigned int has_targetID:1;
-        unsigned int has_localSearchProviderID:1;
-        unsigned int has_resultIndex:1;
-        unsigned int read_actionUrl:1;
-        unsigned int read_destinationApp:1;
-        unsigned int read_photoId:1;
-        unsigned int read_richProviderId:1;
-        unsigned int read_showcaseId:1;
-        unsigned int read_transitPlaceCard:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
++ (id)f;
 + (id);
-+ (id);
-+ (id);
-+ (_Bool)etInvalidationData:(id)arg1;
++ (_Bool)setInvalidationData:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)p;
 - (_Bool);
 - (void);
 - (void);
@@ -69,17 +37,17 @@
 - (id);
 - (double);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (id);
+- (id)kSSVCAUserIntentVolumeDecreaseFactor;
+- (void)getMitigationAssetWithEndpointId:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)tricted on lock screen AND screen is locked;
+- (long long)er item %@ status to ready to play.;
+- (_Bool)AssetMetaUpdateMonitor _didReceiveSpeakerRecognitionAssetMetaData];
+- (id)cAssets;
 - (void);
 - (unsigned long long);
 - (void);
@@ -87,14 +55,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)r;
 - (unsigned long long);
+- (id)p Update;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (int);
+- (void)T;
+- (void)setShowsPhysicalFeatureLabels:(id)arg1;
+- (void)URLForCoordinate:(_Bool)arg1 address:label:extraStorage: /* Error: Ran out of types for this method. */;
+- (int)ocalSearchRequest with query :"%{private}@" failed:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -108,9 +76,9 @@
 - (_Bool);
 - (void);
 - (id)roxy>"16@"GEOActiveTileGroup"24;
-- (id)ngProgressBarFromBannerButtons;
+- (id)_supportsDisablingProgressBarFromBannerButtons;
 - (id)¤×;
-- (id)tring;
+- (id)_transitDescriptionFormatString;
 - (_Bool)ervices/libaddr_obj/cpp/src/Base64.cpp;
 - (id)h;
 - (id)à#ðÄ#¨#¤;
@@ -118,32 +86,7 @@
 - (_Bool)^¶74;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionUrl;
-@property(nonatomic) unsigned long long animationID;
-@property(nonatomic) unsigned long long businessID;
-@property(retain, nonatomic) NSString *destinationApp;
-@property(readonly, nonatomic) _Bool hasActionUrl;
-@property(nonatomic) _Bool hasAnimationID;
 @property(nonatomic) _Bool hasBusinessID;
-@property(readonly, nonatomic) _Bool hasDestinationApp;
-@property(nonatomic) _Bool hasLocalSearchProviderID;
-@property(readonly, nonatomic) _Bool hasPhotoId;
-@property(nonatomic) _Bool hasPlaceID;
-@property(nonatomic) _Bool hasResultIndex;
-@property(readonly, nonatomic) _Bool hasRichProviderId;
-@property(nonatomic) _Bool hasSearchResponseRelativeTimestamp;
-@property(readonly, nonatomic) _Bool hasShowcaseId;
-@property(nonatomic) _Bool hasTargetID;
-@property(readonly, nonatomic) _Bool hasTransitPlaceCard;
-@property(nonatomic) int localSearchProviderID;
-@property(retain, nonatomic) NSString *photoId;
-@property(nonatomic) long long placeID;
-@property(nonatomic) int resultIndex;
-@property(retain, nonatomic) NSString *richProviderId;
-@property(nonatomic) double searchResponseRelativeTimestamp;
-@property(retain, nonatomic) NSString *showcaseId;
-@property(nonatomic) unsigned long long targetID;
-@property(retain, nonatomic) GEOTransitPlaceCard *transitPlaceCard;
 
 @end
 

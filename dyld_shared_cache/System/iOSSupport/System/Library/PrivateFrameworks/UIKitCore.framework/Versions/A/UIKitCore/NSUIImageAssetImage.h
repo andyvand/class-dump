@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
+- (id)to include a signature. Got:(id)arg1 %@;
 - (id);
-- (id);
-- (void)ds;
+- (void)_toolsDebugColorViewBounds;
 - (id)N,VinstantiatingForSimulator;
 - (void);
 

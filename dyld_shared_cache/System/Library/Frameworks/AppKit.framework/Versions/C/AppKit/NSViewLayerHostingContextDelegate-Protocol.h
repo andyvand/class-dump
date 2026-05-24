@@ -5,5 +5,6 @@
 //
 
 @protocol NSViewLayerHostingContextDelegate
+- (void);
 @end
 

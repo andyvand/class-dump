@@ -8,6 +8,6 @@
 + (_Bool);
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 @end
 

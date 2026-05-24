@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXPhotosViewModel;
-@protocol PXPhotosSectionBodyLayoutProviderInvalidationDelegate;
+@class PXPhotosViewModel;
 
 @interface PXEditorialBodyLayoutProvider
 {
     PXPhotosViewModel *_viewModel;
-    _Bool _avoidsFullWidthHeroes;
-    id <PXPhotosSectionBodyLayoutProviderInvalidationDelegate> invalidationDelegate;
-    CDStruct_2bd92d94 _bodyCornerRadius;
 }
 
 - (_Bool);
@@ -20,10 +16,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)*;
 - (id);
 - (void);
-- (CDStruct_2bd92d94);
+- (CDStruct_c2259bfa);
 - (_Bool);
 - (id);
 - (id);
@@ -31,15 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool avoidsFullWidthHeroes; // @synthesize avoidsFullWidthHeroes=_avoidsFullWidthHeroes;
-@property(nonatomic) CDStruct_2bd92d94 bodyCornerRadius; // @synthesize bodyCornerRadius=_bodyCornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <PXPhotosSectionBodyLayoutProviderInvalidationDelegate> invalidationDelegate; // @synthesize invalidationDelegate;
-@property(readonly) Class superclass;
 
 @end
 

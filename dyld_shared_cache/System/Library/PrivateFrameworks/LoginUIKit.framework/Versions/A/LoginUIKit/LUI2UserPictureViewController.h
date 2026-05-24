@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (id);
+- (id)N;
 - (void);
 - (void);
 - (void);

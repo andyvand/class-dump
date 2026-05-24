@@ -4,69 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraProfile, HMDCameraRecordingSessionSignificantEventManager, HMDCameraRecordingSessionTimelineManager, HMDCameraRecordingSessionVariantFragmentManager, HMDDataStreamFragment, HMFActivity, HMIVideoAnalyzerFragmentResult, HMIVideoFragment, NSData, NSDate, NSDictionary, NSNumber, NSObject, NSString, NSUUID;
-@protocol HMDCameraClipUploading, HMDCameraFragmentHandlingDelegate, HMDCameraRecordingSessionFactory, HMDCameraRecordingSessionVideoAnalyzer, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingSession
 {
     _Bool _noMoreFragmentsAvailable;
-    _Bool _active;
-    _Bool _configured;
-    unsigned long long _currentFragmentNumber;
-    NSUUID *_identifier;
-    double _configuredFragmentDuration;
-    HMDCameraRecordingSessionTimelineManager *_timelineManager;
-    id <HMDCameraFragmentHandlingDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDCameraProfile *_camera;
-    NSString *_logIdentifier;
-    id <HMDCameraRecordingSessionFactory> _factory;
-    id <HMDCameraRecordingSessionVideoAnalyzer> _videoAnalyzer;
-    HMFActivity *_sessionActivity;
-    HMDCameraRecordingSessionSignificantEventManager *_significantEventManager;
-    HMDCameraRecordingSessionVariantFragmentManager *_timelapseFragmentManager;
-    unsigned long long _pendingFragmentsCount;
-    id <HMDCameraClipUploading> _clipUploader;
-    id <HMDCameraClipUploading> _timelapseClipUploader;
-    HMDDataStreamFragment *_cameraVideoInitFragment;
-    HMIVideoFragment *_introFragment;
-    HMIVideoAnalyzerFragmentResult *_introAnalyzerResult;
-    NSData *_analysisVideoInitData;
-    NSData *_analysisTimelapseVideoInitData;
-    NSNumber *_remainingRecordingExtensionDuration;
-    NSString *_sessionDirectoryPath;
-    NSString *_zoneName;
-    NSUUID *_clipUUID;
-    NSDate *_firstFragmentDate;
-    CDStruct_1b6d18a9 _clipStartTime;
-    CDStruct_1b6d18a9 _timelapseClipStartTime;
 }
 
 + (id)*[ÿF=;
-- (id);
-- (void);
-- (id);
-- (id);
-- (CDStruct_1b6d18a9);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)service:account:inviteReceivedForSession:fromID:withContext: /* Error: Ran out of types for this method. */;
+- (void)sendingRulesForIdentifier:(id)arg1;
+- (id)addObject: /* Error: Ran out of types for this method. */;
+- (id)addNewSession:originator:receivingHandle:receivingAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (CDStruct_198678f7)addNewSession:originator:receivingHandle:receivingAccountIdentifier: /* Error: Ran out of types for this method. */;
+- (id)LatLng",&,N,V_droppedPinCoordinate;
+- (void)MSPSharedTripNotificationRules;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)ervice] Found %{private}@ is now blocked;
+- (void)state...;
+- (void)ssage data;
+- (void){public}@] fetch | _fetchSyncedIdentifiers failed to fetch with error:(id)arg1 %@;
+- (void)set local copy of identifiers:(id)arg1 %@;
+- (void)_resolveContact [not authorized for Contacts access] %{private}@ (id %@ state %@);
+- (void)cts = %@ with objects = %@ at indexes = %@ };
+- (void)MSPHistoryVersion;
+- (void)MSPHistory;
+- (void)MSPBookmarks;
+- (void)etchCapabilitiesForContacts:(id)arg1 ];
+- (void)GEOTransitArtworkUseTypeAccessPoint;
+- (void)GEOTransitArtworkUseTypeTrip;
+- (id)DeviceIdentityIssueClientCertificateWithCompletion;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -74,19 +44,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (double);
 - (void);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q ;
 - (id);
 - (id);
 - (_Bool);
@@ -101,7 +71,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -110,16 +80,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ss";
+- (id)setMixedSharingCompositionKeyAssetRelationship: /* Error: Ran out of types for this method. */;
+- (id)setDensestCloseLocationNodes: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)s/BiomeLibrary.framework/Versions/A/BiomeLibrary;
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
@@ -135,46 +105,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(getter=isActive) _Bool active; // @synthesize active=_active;
-@property(retain) NSData *analysisTimelapseVideoInitData; // @synthesize analysisTimelapseVideoInitData=_analysisTimelapseVideoInitData;
-@property(retain) NSData *analysisVideoInitData; // @synthesize analysisVideoInitData=_analysisVideoInitData;
-@property(readonly) HMDCameraProfile *camera; // @synthesize camera=_camera;
-@property(retain) HMDDataStreamFragment *cameraVideoInitFragment; // @synthesize cameraVideoInitFragment=_cameraVideoInitFragment;
-@property CDStruct_1b6d18a9 clipStartTime; // @synthesize clipStartTime=_clipStartTime;
-@property(retain) NSUUID *clipUUID; // @synthesize clipUUID=_clipUUID;
-@property(retain) id <HMDCameraClipUploading> clipUploader; // @synthesize clipUploader=_clipUploader;
-@property(getter=isConfigured) _Bool configured; // @synthesize configured=_configured;
-@property(readonly) double configuredFragmentDuration; // @synthesize configuredFragmentDuration=_configuredFragmentDuration;
-@property unsigned long long currentFragmentNumber; // @synthesize currentFragmentNumber=_currentFragmentNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraFragmentHandlingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDCameraRecordingSessionFactory> factory; // @synthesize factory=_factory;
-@property(retain) NSDate *firstFragmentDate; // @synthesize firstFragmentDate=_firstFragmentDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain) HMIVideoAnalyzerFragmentResult *introAnalyzerResult; // @synthesize introAnalyzerResult=_introAnalyzerResult;
-@property(retain) HMIVideoFragment *introFragment; // @synthesize introFragment=_introFragment;
-@property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property _Bool noMoreFragmentsAvailable; // @synthesize noMoreFragmentsAvailable=_noMoreFragmentsAvailable;
-@property unsigned long long pendingFragmentsCount; // @synthesize pendingFragmentsCount=_pendingFragmentsCount;
-@property(readonly) unsigned long long recordingEventTriggers;
-@property(copy) NSNumber *remainingRecordingExtensionDuration; // @synthesize remainingRecordingExtensionDuration=_remainingRecordingExtensionDuration;
-@property(readonly) HMFActivity *sessionActivity; // @synthesize sessionActivity=_sessionActivity;
-@property(copy) NSString *sessionDirectoryPath; // @synthesize sessionDirectoryPath=_sessionDirectoryPath;
-@property(readonly) HMDCameraRecordingSessionSignificantEventManager *significantEventManager; // @synthesize significantEventManager=_significantEventManager;
-@property(readonly, copy) NSDictionary *stateDump;
-@property(readonly) Class superclass;
-@property CDStruct_1b6d18a9 timelapseClipStartTime; // @synthesize timelapseClipStartTime=_timelapseClipStartTime;
-@property(retain) id <HMDCameraClipUploading> timelapseClipUploader; // @synthesize timelapseClipUploader=_timelapseClipUploader;
-@property(readonly) HMDCameraRecordingSessionVariantFragmentManager *timelapseFragmentManager; // @synthesize timelapseFragmentManager=_timelapseFragmentManager;
-@property(readonly) HMDCameraRecordingSessionTimelineManager *timelineManager; // @synthesize timelineManager=_timelineManager;
-@property(readonly) id <HMDCameraRecordingSessionVideoAnalyzer> videoAnalyzer; // @synthesize videoAnalyzer=_videoAnalyzer;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(retain) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

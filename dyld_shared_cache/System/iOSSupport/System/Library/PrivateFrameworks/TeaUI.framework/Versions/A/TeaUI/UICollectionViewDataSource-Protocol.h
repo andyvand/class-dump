@@ -7,6 +7,7 @@
 @class UICollectionReusableView, UICollectionViewCell;
 
 @protocol UICollectionViewDataSource
+- (long long){;
 - (UICollectionViewCell *);
 
 @optional

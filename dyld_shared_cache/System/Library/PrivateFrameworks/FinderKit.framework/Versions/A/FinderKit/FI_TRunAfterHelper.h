@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TRunAfterHelper
 {
     struct unique_function<void ()> _functor;
-    _Bool _onMainThread;
-    struct atomic_flag _cancelled;
-    _Bool tornDown;
 }
 
-+ (TNSWeakPtr_db0eab6c);
++ (TNSWeakPtr_e419e650)automaticallyRiseToSetupAssistantLevelDuringSetupAssistant;
 - (void);
 - (void);
 - (id);
@@ -26,13 +21,6 @@ __attribute__((visibility("hidden")))
 - (void)TFENodeEEE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown;
 
 @end

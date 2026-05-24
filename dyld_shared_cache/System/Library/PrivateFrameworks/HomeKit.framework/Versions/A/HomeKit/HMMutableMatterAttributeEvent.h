@@ -6,8 +6,7 @@
 
 #import <HomeKit/HMMatterAttributeEvent.h>
 
-@class HMAccessory, NSNumber;
-@protocol NSCopying;
+@class HMAccessory;
 
 @interface HMMutableMatterAttributeEvent : HMMatterAttributeEvent
 {
@@ -16,9 +15,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) HMAccessory *accessory; // @dynamic accessory;
-@property(retain, nonatomic) NSNumber *attributeID; // @dynamic attributeID;
-@property(retain, nonatomic) NSNumber *clusterID; // @dynamic clusterID;
-@property(retain, nonatomic) NSNumber *endpointID; // @dynamic endpointID;
-@property(copy, nonatomic) id <NSCopying> triggerValue; // @dynamic triggerValue;
 @end
 

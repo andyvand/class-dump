@@ -7,11 +7,6 @@
 @interface IDSFoundation.IDSLinksQualityBurstsOngoingTask
 {
     id name;
-    id state;
-    id timeSource;
-    id interval;
-    id numberOfPacketsPerBurst;
-    id continuations;
 }
 
 @end

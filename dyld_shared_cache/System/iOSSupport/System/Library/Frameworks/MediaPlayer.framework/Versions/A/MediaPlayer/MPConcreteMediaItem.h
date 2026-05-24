@@ -12,28 +12,26 @@ __attribute__((visibility("hidden")))
 @interface MPConcreteMediaItem : MPMediaItem
 {
     MPMediaLibrary *_library;
-    unsigned long long _persistentID;
-    MPConcreteMediaEntityPropertiesCache *_propertiesCache;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (void);
+- (void)ambiguousColumnReference;
+- (id)constrForeign;
+- (id)constrPrimary;
+- (void)rollback;
+- (id)mdOrganizationIdentifier;
+- (id)mdPersonIdentifier;
+- (id);
+- (id);
+- (id)s24IntelligencePlatformViewP;
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id)7%;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -41,10 +39,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (Class);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void)ansformBlock: /* Error: Ran out of types for this method. */;
+- (void)initWithRelatedMPModelClass:mediaKitType:payloadTransformBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) MPConcreteMediaEntityPropertiesCache *cachedPropertyValues;

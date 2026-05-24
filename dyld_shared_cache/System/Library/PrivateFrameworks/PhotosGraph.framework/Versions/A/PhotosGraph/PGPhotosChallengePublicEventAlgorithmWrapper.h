@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSPublicEventManager, CLSServiceManager, NSObject, PGGraph, PGPublicEventDisambiguator, PHPhotoLibrary;
-@protocol OS_os_log;
+@class PGGraph;
 
 @interface PGPhotosChallengePublicEventAlgorithmWrapper
 {
     PGGraph *_graph;
-    PHPhotoLibrary *_photoLibrary;
-    CLSServiceManager *_serviceManager;
-    CLSPublicEventManager *_publicEventManager;
-    PGPublicEventDisambiguator *_publicEventDisambiguator;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
-- (unsigned short);
-- (id);
+- (unsigned short)A/SoftLinking;
+- (id)initWithRepresentedElement:(id)arg1 applicationController: /* Error: Ran out of types for this method. */;
 - (void)#####################
 
 Home Superset Aggregation Statistics:%@ /* Error: Ran out of types for this method. */;

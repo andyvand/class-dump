@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, WFWorkflowRunDescriptor, WFWorkflowRunningContext;
+@class NSData;
 
 @interface WFPausedShortcutData
 {
     NSData *_contextData;
-    NSData *_descriptorData;
-    WFWorkflowRunningContext *_context;
-    WFWorkflowRunDescriptor *_descriptor;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)|;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)__objc_const;
 - (id);
 - (void);
 - (id);
@@ -30,10 +27,7 @@
 - (void)ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) WFWorkflowRunningContext *context; // @synthesize context=_context;
 @property(retain, nonatomic) NSData *contextData; // @synthesize contextData=_contextData;
-@property(retain, nonatomic) WFWorkflowRunDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) NSData *descriptorData; // @synthesize descriptorData=_descriptorData;
 
 @end
 

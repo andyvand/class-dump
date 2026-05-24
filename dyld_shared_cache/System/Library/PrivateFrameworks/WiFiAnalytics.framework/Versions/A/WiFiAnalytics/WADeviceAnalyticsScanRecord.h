@@ -6,8 +6,6 @@
 
 #import <WiFiAnalytics/WADeviceAnalyticsDatedRecord.h>
 
-@class BSSMO;
-
 @interface WADeviceAnalyticsScanRecord : WADeviceAnalyticsDatedRecord
 {
 }
@@ -16,10 +14,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) BSSMO *origin; // @dynamic origin;
 @property(nonatomic) short originRssi; // @dynamic originRssi;
-@property(retain, nonatomic) BSSMO *result; // @dynamic result;
-@property(nonatomic) short resultRssi; // @dynamic resultRssi;
 
 @end
 

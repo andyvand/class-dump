@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NewsUI2.FollowingSettingsButtonView
 {
     id onTap;
-    id isEditing;
-    id deviceOffline;
 }
 
 - (void);
@@ -18,11 +14,10 @@
 - (void);
 - (id);
 - (id);
-- (void)ineFeedGroupEmitter;
+- (void)PaywallMagazineFeedGroupEmitter;
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *accessibilityLabel;
 @property(nonatomic) _Bool isAccessibilityElement;
 
 @end

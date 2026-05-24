@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface IKImageBrowserCellOffscreenRenderer
 {
     struct CGContext *_context;
-    id _ikrenderer;
-    NSMutableDictionary *_valuesForKeys;
-    double _textSize;
-    double _iconSize;
-    double _gridSpacing;
-    double _maxIconSize;
-    _Bool _labelsOnRight;
-    void *_flavorSetup;
-    unsigned long long _cellsStyleMask;
-    id _cacheContext;
 }
 
-+ (id);
-- (void);
++ (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -79,21 +67,21 @@
 - (int);
 - (void);
 - (double);
-- (id);
+- (id)_pendingProvidePasscodeCompletionHandler;
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
+- (id)PHImageRequestBehaviorSpec;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (struct CGContext *);
 - (double);
 - (struct CGRect);
-- (int);
+- (int)leStringArray:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -103,13 +91,6 @@
 
 // Remaining properties
 @property unsigned long long cellsStyleMask; // @synthesize cellsStyleMask=_cellsStyleMask;
-@property struct CGContext *context;
-@property(nonatomic) double gridSpacing; // @synthesize gridSpacing=_gridSpacing;
-@property(nonatomic) double iconSize; // @synthesize iconSize=_iconSize;
-@property(retain) id imageBrowserContext;
-@property(nonatomic) _Bool labelsOnRight; // @synthesize labelsOnRight=_labelsOnRight;
-@property(nonatomic) double maxIconSize; // @synthesize maxIconSize=_maxIconSize;
-@property(nonatomic) double textSize; // @synthesize textSize=_textSize;
 
 @end
 

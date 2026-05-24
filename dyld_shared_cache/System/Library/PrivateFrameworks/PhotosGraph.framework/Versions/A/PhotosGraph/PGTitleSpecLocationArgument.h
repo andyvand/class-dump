@@ -6,15 +6,11 @@
 
 #import <PhotosGraph/PGTitleSpecArgument.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PGTitleSpecLocationArgument : PGTitleSpecArgument
 {
     _Bool _filterLocations;
-    unsigned long long _type;
-    NSSet *_usedLocationNodes;
-    unsigned long long _lineBreakBehavior;
-    NSString *_locationName;
 }
 
 + (id);
@@ -24,10 +20,10 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ated2;
+- (id)alDataPasscodeValidated;
+- (id)1:(id)arg1 ;
+- (id);;
 - (void);
 - (_Bool);
 - (id);
@@ -35,11 +31,7 @@
 - (void)ZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Suggestions/Suggesters/Autobahn/SettlingEffect/PGSettlingEffectHighlightProcessor.m;
 
 // Remaining properties
-@property(readonly) _Bool filterLocations; // @synthesize filterLocations=_filterLocations;
-@property unsigned long long lineBreakBehavior; // @synthesize lineBreakBehavior=_lineBreakBehavior;
 @property(retain, nonatomic) NSString *locationName; // @synthesize locationName=_locationName;
-@property(readonly) unsigned long long type; // @synthesize type=_type;
-@property(retain) NSSet *usedLocationNodes; // @synthesize usedLocationNodes=_usedLocationNodes;
 
 @end
 

@@ -9,19 +9,17 @@
 @interface ASDPurchaseHistoryQuerySortOption
 {
     _Bool _ascending;
-    NSString *_name;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)^L;
+- (id)Connected Accessories xpc object:(id)arg1 %@;
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool ascending;
 @property(readonly) NSString *name;
 
 @end

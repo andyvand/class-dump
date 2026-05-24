@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMNetworkVPNDeclaration_OnDemandRulesElementActionParameters : CEMPayloadBase
 {
     NSArray *_payloadDomains;
-    NSString *_payloadDomainAction;
-    NSArray *_payloadRequiredDNSServers;
-    NSString *_payloadRequiredURLStringProbe;
 }
 
 + (id);
@@ -28,15 +25,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)lang;
 - (id);
-- (void);
+- (void)SSL_CTX_use_RSAPrivateKey_ASN1;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadDomainAction; // @synthesize payloadDomainAction=_payloadDomainAction;
 @property(copy, nonatomic) NSArray *payloadDomains; // @synthesize payloadDomains=_payloadDomains;
-@property(copy, nonatomic) NSArray *payloadRequiredDNSServers; // @synthesize payloadRequiredDNSServers=_payloadRequiredDNSServers;
-@property(copy, nonatomic) NSString *payloadRequiredURLStringProbe; // @synthesize payloadRequiredURLStringProbe=_payloadRequiredURLStringProbe;
 
 @end
 

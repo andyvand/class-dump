@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary, TSUSparseArray;
+@class NSLock;
 
 __attribute__((visibility("hidden")))
 @interface TSUUUIDSetStore
 {
     NSLock *_lock;
-    TSUSparseArray *_uuidSetForIndex;
-    NSMutableDictionary *_indexesUsingUuid;
-    unsigned int _highestIndex;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)spatial;
 - (unsigned long long);
 - (void)ULL key into %p! Object is %@;
 

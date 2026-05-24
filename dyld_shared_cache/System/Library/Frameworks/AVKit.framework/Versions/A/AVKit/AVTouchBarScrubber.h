@@ -4,53 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVObservationController, AVPlayerControllerTimeResolver, AVTouchBarMediaSelectionButtonViewController, AVTouchBarMediaSelectionViewController, AVTouchBarScrubberController, NSButton, NSColor, NSLayoutConstraint, NSMutableArray, NSStackView, NSString, NSView;
-@protocol AVTouchBarMediaSelectionControlling><AVTouchBarPlaybackControlsControllingInternal><AVTouchBarScrubberControlling><AVTouchBarTrackControlling><AVTimeControlling, AVTouchBarPlaybackControlsControlling, AVTouchBarScrubberDelegate;
+@class NSMutableArray;
+@protocol AVTouchBarMediaSelectionControlling><AVTouchBarPlaybackControlsControllingInternal><AVTouchBarScrubberControlling><AVTouchBarTrackControlling><AVTimeControlling;
 
 @interface AVTouchBarScrubber
 {
     NSMutableArray *_bindingsInfos;
-    _Bool _bindingsActive;
-    id <AVTouchBarPlaybackControlsControlling> _playbackControlsController;
-    id <AVTouchBarMediaSelectionControlling><AVTouchBarPlaybackControlsControllingInternal><AVTouchBarScrubberControlling><AVTouchBarTrackControlling><AVTimeControlling> _playerController;
-    _Bool _collapsesIntoPlayButton;
-    _Bool _drawsBackground;
-    _Bool _showsInlinePlayButton;
-    _Bool _canShowMediaSelectionButton;
-    _Bool _collapsed;
-    long long _expandCollapseAnimationCount;
-    long long _appearAnimationCount;
-    long long _disappearAnimationCount;
-    NSView *_containerView;
-    NSStackView *_controlsContainerView;
-    NSView *_collapsedRepresentation;
-    NSButton *_pictureInPictureButton;
-    NSButton *_inlinePlayButton;
-    NSLayoutConstraint *_inlinePlayButtonWidthConstraint;
-    AVTouchBarScrubberController *_touchBarScrubberController;
-    NSView *_scrubberContainerView;
-    AVTouchBarMediaSelectionButtonViewController *_mediaSelectionButtonViewController;
-    AVTouchBarMediaSelectionViewController *_mediaSelectionViewController;
-    NSStackView *_liveStreamContainerView;
-    NSButton *_liveStreamPictureInPictureButton;
-    AVTouchBarMediaSelectionButtonViewController *_liveStreamMediaSelectionButtonViewController;
-    NSLayoutConstraint *_containerViewFixedWidthLayoutConstraint;
-    NSLayoutConstraint *_containerViewRightAnchorLayoutConstraint;
-    NSLayoutConstraint *_scrubberLeftAnchorLayoutConstraint;
-    AVObservationController *_keyValueObservationController;
-    id <AVTouchBarScrubberDelegate> _delegate;
-    struct {
-        _Bool touchBarScrubberExpandButtonTapped;
-        _Bool touchBarScrubber_presentMediaSelectionViewControllerInPopover;
-        _Bool touchBarScrubberDismissMediaSelectionPopover;
-    } _delegateRespondsTo;
-    _Bool _canCollapse;
-    AVPlayerControllerTimeResolver *_timeResolver;
 }
 
 + (id);
 + (id);
-+ (void)ntRect: /* Error: Ran out of types for this method. */;
++ (void)setAlignmentRect: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -73,11 +37,11 @@
 - (void);
 - (void);
 - (void);
+- (id)__objc_imageinfo__DATA_CONST;
 - (id);
 - (id);
-- (id);
-- (struct CATransform3D);
-- (id);
+- (struct CATransform3D)__DATA_CONST;
+- (id)__got;
 - (id);
 - (id);
 - (id);
@@ -96,44 +60,27 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)ateMatchInfo:withTopology:withMatchImage:%p(%@), %p, %p
+ /* Error: Ran out of types for this method. */;
+- (id)nabled;
 - (id);
 - (void);
+- (id);
+- (void)@9_);
+- (_Bool)2@0:8@16{_NSRange=QQ}24@40B48 /* Error: Ran out of types for this method. */;
+- (void);
+- (id)bvh_node_allocation_loop_finish_motion;
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (_Bool)`;
 - (void);
 - (void);
 - (void)nPreviewDelegate;
 
 // Remaining properties
-@property(retain) NSColor *audioWaveformColor;
-@property _Bool canCollapse; // @synthesize canCollapse=_canCollapse;
-@property _Bool canShowMediaSelectionButton; // @synthesize canShowMediaSelectionButton=_canShowMediaSelectionButton;
-@property(readonly, nonatomic) _Bool canShowScrubber;
-@property _Bool collapsesIntoPlayButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AVTouchBarScrubberDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property _Bool drawsBackground;
-@property(readonly) unsigned long long hash;
-@property(retain) id <AVTouchBarPlaybackControlsControlling> playbackControlsController;
 @property(retain) id <AVTouchBarMediaSelectionControlling><AVTouchBarPlaybackControlsControllingInternal><AVTouchBarScrubberControlling><AVTouchBarTrackControlling><AVTimeControlling> playerController; // @synthesize playerController=_playerController;
-@property _Bool showsInlinePlayButton; // @synthesize showsInlinePlayButton=_showsInlinePlayButton;
-@property(readonly, nonatomic) _Bool showsLiveStreamUI;
-@property(readonly) Class superclass;
-@property(retain) AVPlayerControllerTimeResolver *timeResolver; // @synthesize timeResolver=_timeResolver;
 
 @end
 

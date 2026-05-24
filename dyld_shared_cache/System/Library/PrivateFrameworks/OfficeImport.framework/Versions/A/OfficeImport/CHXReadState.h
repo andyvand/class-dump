@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDChart, CHDChartType, CHDSeries, EDResources, EXOfficeArtState, OADParagraphProperties, OCPPackagePart;
-@protocol CHAutoStyling;
+@class EXOfficeArtState;
 
 __attribute__((visibility("hidden")))
 @interface CHXReadState
 {
     EXOfficeArtState *mDrawingState;
-    CHDChart *mChart;
-    EDResources *mResources;
-    OCPPackagePart *mChartPart;
-    CHDChartType *mCurrentChartType;
-    CHDSeries *mCurrentSeries;
-    OADParagraphProperties *mDefaultTextProperties;
-    _Bool mDefaultTextPropertiesHaveExplicitFontSize;
-    id <CHAutoStyling> mAutoStyling;
-    _Bool mIgnoreFormulas;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,8 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)TZC;
 - (_Bool);
 - (id);
 - (id);
@@ -43,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)+;
 - (id)
 × ;
 - (void)Ð;

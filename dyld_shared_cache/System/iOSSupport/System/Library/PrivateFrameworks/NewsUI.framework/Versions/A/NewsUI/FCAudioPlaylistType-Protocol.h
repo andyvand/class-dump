@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @protocol FCAudioPlaylistType
+- (void)create inflate buffer;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *articleIDs;
-@property(readonly, nonatomic) NSDate *modificationDate;
 @end
 

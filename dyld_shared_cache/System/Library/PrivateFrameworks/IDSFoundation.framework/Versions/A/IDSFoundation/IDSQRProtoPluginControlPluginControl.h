@@ -8,15 +8,16 @@
 {
 }
 
-- (id);
-- (void);
+- (id)`;
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)2C]}28{?=[22C]}50c72C76*80*88;
+- (void)%@ is not convertable to SourceVersion
+;
 - (id);
-- (id);
+- (id);
 
 @end
 

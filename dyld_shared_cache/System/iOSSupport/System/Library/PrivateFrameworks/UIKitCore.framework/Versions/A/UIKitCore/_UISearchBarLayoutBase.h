@@ -10,36 +10,28 @@ __attribute__((visibility("hidden")))
 @interface _UISearchBarLayoutBase
 {
     _Bool _isLayoutValid;
-    _Bool _layoutRTL;
-    _Bool _hostedByNavigationBar;
-    _Bool _shouldApplyContainerSafeAreaInsets;
-    UIView *_associatedView;
-    long long _barMetrics;
-    struct CGSize _layoutSize;
-    struct UIEdgeInsets _contentInset;
-    struct UIEdgeInsets _containerSafeAreaInsets;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)setInternalQueue: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)_payloadForceLimitAdTracking;
 - (id);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
 - (id);
 - (void);
-- (void)ctionsType;
-- (void)iewController;
+- (void)textInputActionsType;
+- (void)previousViewController;
 - (_Bool)_initEmpty;
-- (void)ent:(id)arg1 scrollableContainer:forRequest: /* Error: Ran out of types for this method. */;
-- (id)referredElementDisplayMode;
+- (void)_findFocusCandidateByExhaustivelySearchingEnvironment:(id)arg1 scrollableContainer:forRequest: /* Error: Ran out of types for this method. */;
+- (id)__preferredElementDisplayMode;
 - (long long).m;
-- (struct CGSize)em;
+- (struct CGSize)UIRepresentativeItem;
 - (void);
 - (void);
 - (void);
@@ -47,14 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak UIView *associatedView; // @synthesize associatedView=_associatedView;
-@property(nonatomic) long long barMetrics; // @synthesize barMetrics=_barMetrics;
-@property(nonatomic) struct UIEdgeInsets containerSafeAreaInsets; // @synthesize containerSafeAreaInsets=_containerSafeAreaInsets;
-@property(nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=_contentInset;
-@property(nonatomic, getter=isHostedByNavigationBar) _Bool hostedByNavigationBar; // @synthesize hostedByNavigationBar=_hostedByNavigationBar;
-@property(nonatomic, getter=isLayoutRTL) _Bool layoutRTL; // @synthesize layoutRTL=_layoutRTL;
-@property(nonatomic) struct CGSize layoutSize; // @synthesize layoutSize=_layoutSize;
-@property(readonly, nonatomic, getter=isLayoutValid) _Bool layoutValid;
-@property(nonatomic) _Bool shouldApplyContainerSafeAreaInsets; // @synthesize shouldApplyContainerSafeAreaInsets=_shouldApplyContainerSafeAreaInsets;
 
 @end
 

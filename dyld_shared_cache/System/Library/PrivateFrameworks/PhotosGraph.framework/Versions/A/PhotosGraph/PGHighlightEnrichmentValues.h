@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSNumber, NSString, PHAsset;
 @protocol PGHighlightModel;
 
 @interface PGHighlightEnrichmentValues
 {
     _Bool _clearCurations;
-    unsigned short _enrichmentState;
-    id <PGHighlightModel> _highlight;
-    double _promotionScore;
-    NSString *_smartDescriptionPrivate;
-    NSString *_verboseSmartDescriptionPrivate;
-    NSString *_smartDescriptionShared;
-    NSString *_verboseSmartDescriptionShared;
-    NSString *_smartDescriptionMixed;
-    NSString *_verboseSmartDescriptionMixed;
-    PHAsset *_keyAssetPrivate;
-    PHAsset *_keyAssetShared;
-    NSNumber *_mixedSharingCompositionKeyAssetRelationshipValue;
-    NSArray *_extendedCuration;
-    NSArray *_summaryCuration;
-    NSDictionary *_momentTitleByMomentUUID;
-    NSDictionary *_momentProcessedLocationByMomentUUID;
-    unsigned long long _mood;
-    NSMapTable *_visibilityScoreByAsset;
 }
 
 - (id);
@@ -35,22 +16,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool)H;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)rangeByGrowingRangeStartBy:endBy:withinLimit: /* Error: Ran out of types for this method. */;
+- (id)previousResultsWithLimit: /* Error: Ran out of types for this method. */;
+- (id)isMarkupIncluded: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -65,8 +46,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (void)a;
+- (double)a;
 - (id);
 - (unsigned short);
 - (id);
@@ -79,26 +60,7 @@
 - (_Bool)$ySS_SaySSGtG;
 
 // Remaining properties
-@property(nonatomic) _Bool clearCurations; // @synthesize clearCurations=_clearCurations;
-@property(nonatomic) unsigned short enrichmentState; // @synthesize enrichmentState=_enrichmentState;
-@property(retain, nonatomic) NSArray *extendedCuration; // @synthesize extendedCuration=_extendedCuration;
-@property(readonly) _Bool hasChanges;
 @property(readonly, nonatomic) id <PGHighlightModel> highlight; // @synthesize highlight=_highlight;
-@property(retain, nonatomic) PHAsset *keyAssetPrivate; // @synthesize keyAssetPrivate=_keyAssetPrivate;
-@property(retain, nonatomic) PHAsset *keyAssetShared; // @synthesize keyAssetShared=_keyAssetShared;
-@property(copy, nonatomic) NSNumber *mixedSharingCompositionKeyAssetRelationshipValue; // @synthesize mixedSharingCompositionKeyAssetRelationshipValue=_mixedSharingCompositionKeyAssetRelationshipValue;
-@property(retain, nonatomic) NSDictionary *momentProcessedLocationByMomentUUID; // @synthesize momentProcessedLocationByMomentUUID=_momentProcessedLocationByMomentUUID;
-@property(retain, nonatomic) NSDictionary *momentTitleByMomentUUID; // @synthesize momentTitleByMomentUUID=_momentTitleByMomentUUID;
-@property(nonatomic) unsigned long long mood; // @synthesize mood=_mood;
-@property(nonatomic) double promotionScore; // @synthesize promotionScore=_promotionScore;
-@property(copy, nonatomic) NSString *smartDescriptionMixed; // @synthesize smartDescriptionMixed=_smartDescriptionMixed;
-@property(copy, nonatomic) NSString *smartDescriptionPrivate; // @synthesize smartDescriptionPrivate=_smartDescriptionPrivate;
-@property(copy, nonatomic) NSString *smartDescriptionShared; // @synthesize smartDescriptionShared=_smartDescriptionShared;
-@property(retain, nonatomic) NSArray *summaryCuration; // @synthesize summaryCuration=_summaryCuration;
-@property(copy, nonatomic) NSString *verboseSmartDescriptionMixed; // @synthesize verboseSmartDescriptionMixed=_verboseSmartDescriptionMixed;
-@property(copy, nonatomic) NSString *verboseSmartDescriptionPrivate; // @synthesize verboseSmartDescriptionPrivate=_verboseSmartDescriptionPrivate;
-@property(copy, nonatomic) NSString *verboseSmartDescriptionShared; // @synthesize verboseSmartDescriptionShared=_verboseSmartDescriptionShared;
-@property(retain, nonatomic) NSMapTable *visibilityScoreByAsset; // @synthesize visibilityScoreByAsset=_visibilityScoreByAsset;
 
 @end
 

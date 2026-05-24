@@ -6,25 +6,17 @@
 
 #import <Safari/FormAutoFillCompletionControllerObjCAdapter.h>
 
-@class AutoFillLocalAuthenticationManager, NSString, WBSAuthenticationServicesAgentProxy, WBSGlobalFrameIdentifier, _ASConditionalRegistrationRequester, _ASCredentialAuthenticationViewController, _ASCredentialListViewController;
+@class AutoFillLocalAuthenticationManager;
 
 __attribute__((visibility("hidden")))
 @interface FormCredentialsCompletionControllerObjCAdapter : FormAutoFillCompletionControllerObjCAdapter
 {
     AutoFillLocalAuthenticationManager *_autoFillLocalAuthenticationManager;
-    _ASCredentialListViewController *_credentialListViewController;
-    _ASCredentialAuthenticationViewController *_externalCredentialViewController;
-    CDUnknownBlockType _externalCredentialCompletionHandler;
-    _Bool _didPresentExternalCredentialViewController;
-    _Bool _hasCredentialProviderExtension;
-    WBSAuthenticationServicesAgentProxy *_authenticationServicesAgentProxy;
-    WBSGlobalFrameIdentifier *_webFrameIdentifier;
-    _ASConditionalRegistrationRequester *_conditionalRegistrationRequester;
 }
 
 - (double);
-- (void);
-- (void);
+- (void)d;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -36,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void *);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,18 +38,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)IMNicknameFieldTaggingKey;
 - (void)$´;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool abortCompletionBlocked;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

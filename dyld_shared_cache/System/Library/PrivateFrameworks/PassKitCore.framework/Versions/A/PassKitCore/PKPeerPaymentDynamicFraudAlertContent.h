@@ -11,7 +11,6 @@
 @interface PKPeerPaymentDynamicFraudAlertContent : PKPeerPaymentDynamicFraudTitleMessageContent
 {
     NSString *_cancelButtonTitle;
-    NSString *_confirmButtonTitle;
 }
 
 + (_Bool)áW"Ð!Fùqî%°1Â0@ù
@@ -21,14 +20,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)put"b1"cCA"b1"concurrentIntDurMS"b1"delayedThroughput"b1"expectedThroughput"b1"highRxDataPERFalse"b1"highRxDataPERTrue"b1"highRxDecryptErrsFalse"b1"highRxDecryptErrsTrue"b1"highRxDupsFalse"b1"highRxDupsTrue"b1"highRxFCSErrsFalse"b1"highRxFCSErrsTrue"b1"highRxOverflowsFalse"b1"highRxOverflowsTrue"b1"highRxPhyPERFalse"b1"highRxPhyPERTrue"b1"highRxReplaysFalse"b1"highRxReplaysTrue"b1"highRxRetriesFalse"b1"highRxRetriesTrue"b1"highTxLatencyFalse"b1"highTxLatencyTrue"b1"highTxPerFalse"b1"highTxPerTrue"b1"highTxRetriesFalse"b1"highTxRetriesTrue"b1"infraDutyCycle"b1"inputThroughput"b1"is2GBand"b1"isFGTraffic"b1"lTECoexDurationMS"b1"lastScanReason"b1"lowAvailWLANDurFalse"b1"lowAvailWLANDurTrue"b1"lowAvailWLANRxDurFalse"b1"lowAvailWLANRxDurTrue"b1"lowAvailWLANTxDurFalse"b1"lowAvailWLANTxDurTrue"b1"lowTxAMPDUDensityFalse"b1"lowTxAMPDUDensityTrue"b1"lowTxPhyRateFalse"b1"lowTxPhyRateTrue"b1"maxQueueFullDurMS"b1"measurementDurMS"b1"offChanDurMS"b1"outputThroughput"b1"phyRxActivityDurMS"b1"phyTxActivityDurMS"b1"rC1CoexDurationMS"b1"rC2CoexDurationMS"b1"rSSI"b1"rxAmpduTxBaMismatch"b1"rxCRSErrs"b1"rxDecryErrs"b1"rxDupErrs"b1"rxFCSErrs"b1"rxFrames"b1"rxGoodPlcps"b1"rxLowFrameCountFalse"b1"rxLowFrameCountTrue"b1"rxOvflErrs"b1"rxPLCPErrs"b1"rxPhyRate"b1"rxReplayErrs"b1"rxRetries"b1"rxThroughput"b1"sNR"b1"symptomsFails"b1"tVPMActiveDurationMS"b1"testThroughput"b1"timeSinceLastRecovery"b1"timestamp"b1"txAMPDUDensity"b1"txCompBytes"b1"txCompPkts"b1"txDelayBytes"b1"txExpectedAMPDUDensity"b1"txFails"b1"txFrames"b1"txLowFrameCountFalse"b1"txLowFrameCountTrue"b1"txOutputBelowExpectedFalse"b1"txOutputBelowExpectedTrue"b1"txOutputBelowInputFalse"b1"txOutputBelowInputTrue"b1"txPhyRate"b1"txQueueFullFalse"b1"txQueueFullTrue"b1"txRetries"b1"txSubBytes"b1"txSubPkts"b1};
 - (void);
-- (id);
-- (void)IV;
+- (id)initWithEvent:(id)arg1 currentAccount:previousAccount: /* Error: Ran out of types for this method. */;
+- (void)TAX_FORM_TYPE_1099_DIV;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *cancelButtonTitle; // @synthesize cancelButtonTitle=_cancelButtonTitle;
-@property(readonly, copy, nonatomic) NSString *confirmButtonTitle; // @synthesize confirmButtonTitle=_confirmButtonTitle;
 
 @end
 

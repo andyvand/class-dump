@@ -4,48 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MFFont
 {
     int m_lfHeight;
-    int m_lfWidth;
-    int m_lfEscapement;
-    int m_lfOrientation;
-    int m_lfWeight;
-    _Bool m_lfItalic;
-    _Bool m_lfUnderline;
-    _Bool m_lfStrikeOut;
-    int m_lfCharSet;
-    int m_lfOutPrecision;
-    unsigned char m_lfClipPrecision;
-    int m_lfQuality;
-    int m_pitch;
-    int m_family;
-    NSString *m_lfFaceName;
-    NSString *m_elfFullName;
-    NSString *m_elfStyle;
-    unsigned int m_elfVersion;
-    unsigned int m_elfStyleSize;
-    unsigned int m_elfMatch;
-    unsigned int m_elfVendorId;
-    unsigned int m_elfCulture;
 }
 
 + (id);
 + (id);
 + (id);
 - (struct CGRect);
-- (id);
+- (id)";
 - (_Bool);
 - (int);
-- (id);
+- (id)3;
 - (id);
 - (id);
 - (int);
 - (double);
-- (double);
+- (double);
 - (_Bool);
 - (id);
 - (void)à;

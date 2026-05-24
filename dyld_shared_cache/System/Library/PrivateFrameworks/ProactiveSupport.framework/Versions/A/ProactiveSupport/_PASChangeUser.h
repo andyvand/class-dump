@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)roductID = 0x%04x;
 
 @end
 

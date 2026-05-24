@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOConfigStorageExpiryCached, NSPointerArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface GEOConfigRemoteProxy
 {
     struct os_unfair_recursive_lock_s _lock;
-    NSPointerArray *_configStores;
-    GEOConfigStorageExpiryCached *_expiryUser;
-    GEOConfigStorageExpiryCached *_expirySystem;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)essfully:option:withEventUUID:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

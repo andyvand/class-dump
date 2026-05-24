@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
-- (void);
+- (void)idateCategory";
+- (void)LSchemaFLTaskEvaluation";
+- (void)ntext";
 - (_Bool);
 - (id);
 

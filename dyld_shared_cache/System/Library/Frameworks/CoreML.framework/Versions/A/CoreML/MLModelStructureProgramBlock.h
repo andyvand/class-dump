@@ -9,11 +9,9 @@
 @interface MLModelStructureProgramBlock
 {
     NSArray *_inputs;
-    NSArray *_outputNames;
-    NSArray *_operations;
 }
 
-- (id);
+- (id)X;
 - (id);
 - (id);
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *inputs; // @synthesize inputs=_inputs;
-@property(readonly, copy, nonatomic) NSArray *operations; // @synthesize operations=_operations;
-@property(readonly, copy, nonatomic) NSArray *outputNames; // @synthesize outputNames=_outputNames;
 
 @end
 

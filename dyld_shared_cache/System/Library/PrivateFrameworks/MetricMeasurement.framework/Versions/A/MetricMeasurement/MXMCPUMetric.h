@@ -6,7 +6,7 @@
 
 #import <MetricMeasurement/MXMMetric.h>
 
-@class MXMInstrument, NSNumber, NSString;
+@class NSString;
 
 @interface MXMCPUMetric : MXMMetric
 {
@@ -22,11 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_proposedTranslationLocaleForLocale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MXMInstrument *instrument; // @dynamic instrument;
-@property(readonly, nonatomic) NSNumber *processIdentifier;
 @property(readonly, nonatomic) NSString *processName;
 
 @end

@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKEntityDisambiguationEnded, FLOWLINKSchemaFLOWLINKEntityDisambiguationFailed, FLOWLINKSchemaFLOWLINKEntityDisambiguationStarted, NSData;
+@class FLOWLINKSchemaFLOWLINKEntityDisambiguationStarted;
 
 @interface FLOWLINKSchemaFLOWLINKEntityDisambiguationContext : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKEntityDisambiguationStarted *_startedOrChanged;
-    FLOWLINKSchemaFLOWLINKEntityDisambiguationEnded *_ended;
-    FLOWLINKSchemaFLOWLINKEntityDisambiguationFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -26,21 +20,22 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)d:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)powerObserverSystemWillSleep:(id)arg1;
 - (void);
-- (_Bool);
+- (_Bool)j8
+h(8;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id)mentTuples";
 - (id)RSchemaASRAppleNeuralEngineModelInitializationStarted",&,N,V_startedOrChanged;
@@ -48,14 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKEntityDisambiguationEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKEntityDisambiguationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKEntityDisambiguationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

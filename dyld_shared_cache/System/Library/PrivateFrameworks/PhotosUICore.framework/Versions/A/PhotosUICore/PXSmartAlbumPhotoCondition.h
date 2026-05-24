@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXSmartAlbumCondition.h>
 
-@class NSArray, PXLabeledValue;
+@class NSArray;
 
 @interface PXSmartAlbumPhotoCondition : PXSmartAlbumCondition
 {
@@ -20,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) PXLabeledValue *photoTypeValue;
 @property(readonly, nonatomic) NSArray *photoTypeValues;
 
 @end

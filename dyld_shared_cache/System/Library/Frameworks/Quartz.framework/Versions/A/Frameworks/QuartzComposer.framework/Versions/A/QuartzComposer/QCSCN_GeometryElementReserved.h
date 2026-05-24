@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface QCSCN_GeometryElementReserved
 {
     struct __C3DMeshElement *_meshElement;
-    NSData *_data;
-    int _primitiveType;
-    long long _primitiveCount;
-    long long _bytesPerIndex;
 }
 
 - (void);

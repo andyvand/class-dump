@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface LPVideoMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSString *_type;
-    NSString *_accessibilityText;
-    struct CGSize _size;
 }
 
 + (_Bool);
-- (void);
+- (void)trackDidConfirmExpressiveTextWithContext:(id)arg1 effectCount:minimumEffectLength:maximumEffectLength:averageEffectLength:medianEffectLength:effectLengthStandardDeviation: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)%;
 - (id);
-- (id);
+- (id)invitationToken;
 - (unsigned long long);
 - (struct CGSize);
-- (void);
+- (void)!;
 - (id);
 - (_Bool);
 - (void);
@@ -35,17 +29,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSString *accessibilityText; // @synthesize accessibilityText=_accessibilityText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

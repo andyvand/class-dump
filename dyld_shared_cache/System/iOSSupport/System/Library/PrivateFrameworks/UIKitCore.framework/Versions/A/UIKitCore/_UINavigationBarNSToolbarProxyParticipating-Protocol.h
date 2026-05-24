@@ -7,6 +7,9 @@
 @class _UINavigationBarNSToolbarLayout;
 
 @protocol _UINavigationBarNSToolbarProxyParticipating
-- (_UINavigationBarNSToolbarLayout *)fier;
+- (_UINavigationBarNSToolbarLayout *)applicationIdentifier;
+
+@optional
+- (void)ary"24@"NSString"32@"NSString"40@"NSData"48@"NSString"56@"NSNumber"64@"NSNumber"72;
 @end
 

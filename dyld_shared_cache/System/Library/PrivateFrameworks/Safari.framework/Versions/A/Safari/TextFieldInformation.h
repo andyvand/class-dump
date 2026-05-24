@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSFormControlMetadata;
-
 __attribute__((visibility("hidden")))
 @interface TextFieldInformation
 {
     _Bool _hasNotedTextDidChange;
-    NSString *_controlUniqueID;
-    struct Frame _frame;
-    WBSFormControlMetadata *_metadata;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (struct Frame);
 - (id);
@@ -25,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct Frame frame; // @synthesize frame=_frame;
-@property(readonly, copy, nonatomic) WBSFormControlMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end
 

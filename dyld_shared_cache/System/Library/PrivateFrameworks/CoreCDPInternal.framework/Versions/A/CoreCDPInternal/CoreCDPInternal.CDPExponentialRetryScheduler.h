@@ -8,10 +8,10 @@
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)SafariAppExtensionData;
+- (void)RoundedWindow;
+- (void)RolloverTextButton;
+- (void)ReusableTabManager;
 - (id);
 
 @end

@@ -7,13 +7,6 @@
 @interface ChatKit.AudioMessageRecordingWaveformView
 {
     id foregroundColor;
-    id intensities;
-    id segmentViews;
-    id segmentSpacing;
-    id intensityOffset;
-    id fillAmount;
-    id layoutState;
-    id removingSegmentViews;
 }
 
 - (struct CGSize);

@@ -7,24 +7,11 @@
 @interface AWDCoreRoutineTransitionMotionType
 {
     unsigned int _coreRoutineTransitionMotionTypeAutomotive;
-    unsigned int _coreRoutineTransitionMotionTypeCycling;
-    unsigned int _coreRoutineTransitionMotionTypeRunning;
-    unsigned int _coreRoutineTransitionMotionTypeStationary;
-    unsigned int _coreRoutineTransitionMotionTypeUnknown;
-    unsigned int _coreRoutineTransitionMotionTypeWalking;
-    struct {
-        unsigned int coreRoutineTransitionMotionTypeAutomotive:1;
-        unsigned int coreRoutineTransitionMotionTypeCycling:1;
-        unsigned int coreRoutineTransitionMotionTypeRunning:1;
-        unsigned int coreRoutineTransitionMotionTypeStationary:1;
-        unsigned int coreRoutineTransitionMotionTypeUnknown:1;
-        unsigned int coreRoutineTransitionMotionTypeWalking:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -41,10 +28,10 @@
 - (_Bool);
 - (_Bool);
 - (unsigned int);
+- (unsigned int)&;
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)};
 - (unsigned int);
 - (id);
 - (void);
@@ -52,23 +39,12 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int coreRoutineTransitionMotionTypeAutomotive; // @synthesize coreRoutineTransitionMotionTypeAutomotive=_coreRoutineTransitionMotionTypeAutomotive;
-@property(nonatomic) unsigned int coreRoutineTransitionMotionTypeCycling; // @synthesize coreRoutineTransitionMotionTypeCycling=_coreRoutineTransitionMotionTypeCycling;
-@property(nonatomic) unsigned int coreRoutineTransitionMotionTypeRunning; // @synthesize coreRoutineTransitionMotionTypeRunning=_coreRoutineTransitionMotionTypeRunning;
-@property(nonatomic) unsigned int coreRoutineTransitionMotionTypeStationary; // @synthesize coreRoutineTransitionMotionTypeStationary=_coreRoutineTransitionMotionTypeStationary;
-@property(nonatomic) unsigned int coreRoutineTransitionMotionTypeUnknown; // @synthesize coreRoutineTransitionMotionTypeUnknown=_coreRoutineTransitionMotionTypeUnknown;
-@property(nonatomic) unsigned int coreRoutineTransitionMotionTypeWalking; // @synthesize coreRoutineTransitionMotionTypeWalking=_coreRoutineTransitionMotionTypeWalking;
-@property(nonatomic) _Bool hasCoreRoutineTransitionMotionTypeAutomotive;
-@property(nonatomic) _Bool hasCoreRoutineTransitionMotionTypeCycling;
-@property(nonatomic) _Bool hasCoreRoutineTransitionMotionTypeRunning;
 @property(nonatomic) _Bool hasCoreRoutineTransitionMotionTypeStationary;
-@property(nonatomic) _Bool hasCoreRoutineTransitionMotionTypeUnknown;
-@property(nonatomic) _Bool hasCoreRoutineTransitionMotionTypeWalking;
 
 @end
 

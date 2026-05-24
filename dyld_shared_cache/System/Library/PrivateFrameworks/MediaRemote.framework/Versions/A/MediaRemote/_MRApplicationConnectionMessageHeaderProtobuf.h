@@ -12,11 +12,11 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)userAuthorizationStatusDescription;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)esented:] /* Error: Ran out of types for this method. */;
 
 @end
 

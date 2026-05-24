@@ -7,8 +7,6 @@
 @interface AppStoreKit.WaitingAppStateDataSource
 {
     id expectedAppStates;
-    id delegate;
-    id accessQueue;
 }
 
 @end

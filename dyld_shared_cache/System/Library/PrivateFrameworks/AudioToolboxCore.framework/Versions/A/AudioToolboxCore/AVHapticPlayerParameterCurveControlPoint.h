@@ -7,21 +7,19 @@
 @interface AVHapticPlayerParameterCurveControlPoint
 {
     float _value;
-    double _time;
 }
 
 + (_Bool);
-- (id);
+- (id)q;
 - (void);
 - (id);
 - (void);
 - (float);
-- (double);
+- (double)canTypewriter-Bold;
 - (void);
 
 // Remaining properties
 @property double time; // @synthesize time=_time;
-@property float value; // @synthesize value=_value;
 
 @end
 

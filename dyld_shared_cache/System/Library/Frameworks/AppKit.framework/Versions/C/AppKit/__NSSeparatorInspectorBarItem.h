@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)Sizes:forController: /* Error: Ran out of types for this method. */;
+- (id)considerTargetMinMaxSizes:forController: /* Error: Ran out of types for this method. */;
 
 @end
 

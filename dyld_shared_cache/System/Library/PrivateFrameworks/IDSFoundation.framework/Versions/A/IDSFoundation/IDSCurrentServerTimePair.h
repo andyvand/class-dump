@@ -7,8 +7,6 @@
 @interface IDSCurrentServerTimePair
 {
     _Bool _isAccurate;
-    unsigned long long _initialProcessMonotonicTimeInNanoSeconds;
-    unsigned long long _initialServerTimeInNanoSeconds;
 }
 
 - (unsigned long long);
@@ -18,8 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long initialProcessMonotonicTimeInNanoSeconds; // @synthesize initialProcessMonotonicTimeInNanoSeconds=_initialProcessMonotonicTimeInNanoSeconds;
-@property(readonly, nonatomic) unsigned long long initialServerTimeInNanoSeconds; // @synthesize initialServerTimeInNanoSeconds=_initialServerTimeInNanoSeconds;
-@property(readonly, nonatomic) _Bool isAccurate; // @synthesize isAccurate=_isAccurate;
 
 @end
 

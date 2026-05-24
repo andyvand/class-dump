@@ -7,6 +7,8 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void);
+- (void);
 - (void),N,V_mediaResumePosition;
 @end
 

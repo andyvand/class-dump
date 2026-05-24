@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UINavigationController.h>
 
-@class NSArray, UIMoreListController, UIViewController;
+@class UIMoreListController, UIViewController;
 
 @interface UIMoreNavigationController : UINavigationController
 {
     UIMoreListController *_moreListController;
-    UINavigationController *_originalNavigationController;
-    UIViewController *_originalRootViewController;
 }
 
 + (Class);
@@ -20,31 +18,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (void)[%{public}s] DAS expired task but executor was free'd;
+- (_Bool)message is on an incompatible service:%@ vs %@ /* Error: Ran out of types for this method. */;
+- (id)%@;
+- (id)in in a bit;
+- (id)d], chat setting:[%ld] /* Error: Ran out of types for this method. */;
+- (_Bool):%@, isStartingDisabledDisableDevice:%@, lastSyncDate:%@, isSyncingPaused:%@, startingChangingEnabledSetting:%@, isPaused:%@, syncControllerSyncState:%@, syncType:%@, syncStatus:%@, syncJobState:%@, syncControllerRecordType:%@, syncType:%@, accountStatus:%@, syncErrors:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)�W;
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)ithURL:(id)arg1;
+- (void)faceTimePromptURLWithURL:(id)arg1;
 - (void)ÄÒ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCustomizing;
-@property(nonatomic) UIViewController *displayedViewController;
 @property(readonly, nonatomic) UIViewController *moreListController; // @synthesize moreListController=_moreListController;
-@property(retain, nonatomic) NSArray *moreViewControllers;
-@property(nonatomic) _Bool moreViewControllersChanged;
 
 @end
 

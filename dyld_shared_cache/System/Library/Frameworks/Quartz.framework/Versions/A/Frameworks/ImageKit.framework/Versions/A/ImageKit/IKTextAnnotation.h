@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKComposer, IKImageLayer, IKKnobLayer, NSMutableDictionary, NSString, NSTextField;
+@class IKKnobLayer;
 
 @interface IKTextAnnotation
 {
     IKKnobLayer *_knobLayer;
-    IKComposer *_composer;
-    IKImageLayer *_imageLayer;
-    NSString *_oldString;
-    double _textColors[4];
-    double _borderColors[4];
-    double _backgroundColors[4];
-    double _shadowColors[4];
-    NSTextField *_textField;
-    NSMutableDictionary *_attributes;
-    _Bool _selected;
-    _Bool _supportsUndo;
 }
 
 + (double);
@@ -39,9 +28,9 @@
 - (void);
 - (unsigned int);
 - (void);
+- (void)T;
 - (void);
-- (void);
-- (id);
+- (id)est;
 - (_Bool);
 - (void);
 - (void);
@@ -54,19 +43,12 @@
 - (void);
 - (void);
 - (void);
-- (void)asAndStopPlaying:(id)arg1;
-- (_Bool)Space:(id)arg1 glID:(id)arg2 rect:(SEL)arg3 inContext: /* Error: Ran out of types for this method. */;
+- (void)removeAllInlinePreviewTrackingAreasAndStopPlaying:(id)arg1;
+- (_Bool)allocateEmptySpace:(id)arg1 glID:(id)arg2 rect:(SEL)arg3 inContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool)ntView;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property _Bool supportsUndo; // @synthesize supportsUndo=_supportsUndo;
 
 @end

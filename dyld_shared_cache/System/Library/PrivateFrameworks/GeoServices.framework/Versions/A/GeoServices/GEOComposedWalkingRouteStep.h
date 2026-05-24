@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)formatTimeIntervalByRoundingForPrivacy:(id)arg1;
+- (id)forkJoin:(id)arg1 scheduler:(id)arg2;
 
 @end
 

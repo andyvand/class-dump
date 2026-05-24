@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCachingMailboxPredictor, NSString;
-@protocol EFScheduler;
+@class EDCachingMailboxPredictor;
 
 @interface MFMailboxPredictor
 {
     EDCachingMailboxPredictor *_cachingPredictor;
-    id <EFScheduler> _scheduler;
 }
 
-+ (id);
++ (id);
 - (void);
-- (id);
+- (id)qA;
 - (id);
 - (id);
 - (id);
@@ -25,14 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EDCachingMailboxPredictor *cachingPredictor; // @synthesize cachingPredictor=_cachingPredictor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <EFScheduler> scheduler; // @synthesize scheduler=_scheduler;
-@property(readonly) Class superclass;
 
 @end
 

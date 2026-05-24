@@ -10,9 +10,6 @@
 - (struct CGSize)¸;
 
 // Remaining properties
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets contentInsets;
 @property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, nonatomic) struct NSDirectionalEdgeInsets effectiveContentInsets;
-@property(readonly, nonatomic) struct CGSize effectiveContentSize;
 @end
 

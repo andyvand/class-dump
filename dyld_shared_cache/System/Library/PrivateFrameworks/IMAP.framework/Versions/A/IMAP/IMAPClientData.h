@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSMutableString;
+@class NSMutableData;
 
 @interface IMAPClientData
 {
     _Bool _isFrozen;
-    NSMutableData *_data;
-    NSMutableString *_commandString;
-    IMAPClientData *_nextData;
-    struct _NSRange _dontLogRange;
 }
 
 - (void);
@@ -24,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)er) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+- (void);
 - (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void);
@@ -35,11 +31,7 @@
 × ;
 
 // Remaining properties
-@property(retain) NSMutableString *commandString; // @synthesize commandString=_commandString;
 @property(retain) NSMutableData *data; // @synthesize data=_data;
-@property struct _NSRange dontLogRange; // @synthesize dontLogRange=_dontLogRange;
-@property _Bool isFrozen; // @synthesize isFrozen=_isFrozen;
-@property(retain) IMAPClientData *nextData; // @synthesize nextData=_nextData;
 
 @end
 

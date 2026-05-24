@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)*;
 + (Class);
 + (Class);
-+ (long long)ts;
++ (long long)payloadGeographicalFeatureLists;
 - (id);
-- (id)r;
+- (id)INIntentCarChargingConnectorPowerSlotValueTransformer;
 
 @end
 

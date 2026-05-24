@@ -6,12 +6,11 @@
 
 #import <Silex/SXComponentView.h>
 
-@class CALayer, SXSolidBorderView;
+@class CALayer;
 
 @interface SXLineComponentView : SXComponentView
 {
     CALayer *_strokeLayer;
-    SXSolidBorderView *_borderView;
 }
 
 - (_Bool);
@@ -20,14 +19,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)J;
 - (id);
 - (void)!FùQï1Â0@ù
 × ;
 - (void)úÿ;
 
 // Remaining properties
-@property(retain, nonatomic) SXSolidBorderView *borderView; // @synthesize borderView=_borderView;
 @property(retain, nonatomic) CALayer *strokeLayer; // @synthesize strokeLayer=_strokeLayer;
 
 @end

@@ -13,7 +13,7 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)_parseAttributes:(long long)arg1 intoAttributedString:(id *)arg2 font:fontColor:backgroundColor:fontSize:shouldUseOriginalAlpha: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

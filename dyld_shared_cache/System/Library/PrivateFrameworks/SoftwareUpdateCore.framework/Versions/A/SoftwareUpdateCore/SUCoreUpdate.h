@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSObject, NSString, SUCoreDescriptor, SUCoreFSM, SUCoreMSU, SUCorePolicy, SUCoreRollback, SUCoreRollbackDescriptor, SUCoreUpdateDownloader;
-@protocol OS_dispatch_queue, OS_os_transaction;
+@class SUCoreDescriptor;
 
 @interface SUCoreUpdate
 {
     SUCoreDescriptor *_updateDescriptor;
-    SUCoreRollbackDescriptor *_rollbackDescriptor;
-    id _updateDelegate;
-    NSObject<OS_dispatch_queue> *_clientDelegateCallbackQueue;
-    NSString *_updateUUID;
-    NSString *_updateName;
-    NSDictionary *_stateTable;
-    SUCoreFSM *_updateFSM;
-    long long _targetPhase;
-    SUCorePolicy *_policy;
-    SUCoreUpdateDownloader *_downloadControl;
-    SUCoreMSU *_msuControl;
-    NSObject<OS_os_transaction> *_updateTransaction;
-    NSError *_failedAttemptError;
-    SUCoreRollback *_rollbackControl;
 }
 
 + (id);
@@ -38,13 +23,23 @@
 - (void);
 - (void);
 - (id);
+- (id)F;
 - (id);
 - (id);
-- (id);
+- (void)R;
 - (void);
 - (void);
 - (void);
-- (void);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (long long);
@@ -88,16 +83,6 @@
 - (long long);
 - (long long);
 - (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
 - (void);
 - (void);
 - (void);
@@ -116,92 +101,71 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (long long);
+- (long long)A;
+- (void);
+- (void);
+- (id);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (long long);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id)_mediumSystemFontOfSize: /* Error: Ran out of types for this method. */;
+- (id)hh8;
 - (long long);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (id)CreateMessage;
+- (id)MAPurgeCannotCreateMessage;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientDelegateCallbackQueue; // @synthesize clientDelegateCallbackQueue=_clientDelegateCallbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SUCoreUpdateDownloader *downloadControl; // @synthesize downloadControl=_downloadControl;
-@property(retain, nonatomic) NSError *failedAttemptError; // @synthesize failedAttemptError=_failedAttemptError;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SUCoreMSU *msuControl; // @synthesize msuControl=_msuControl;
-@property(retain, nonatomic) SUCorePolicy *policy; // @synthesize policy=_policy;
-@property(readonly, nonatomic) SUCoreRollback *rollbackControl; // @synthesize rollbackControl=_rollbackControl;
-@property(readonly, nonatomic) SUCoreRollbackDescriptor *rollbackDescriptor; // @synthesize rollbackDescriptor=_rollbackDescriptor;
-@property(readonly, nonatomic) NSDictionary *stateTable; // @synthesize stateTable=_stateTable;
-@property(readonly) Class superclass;
-@property(nonatomic) long long targetPhase; // @synthesize targetPhase=_targetPhase;
-@property(readonly, nonatomic) __weak id updateDelegate; // @synthesize updateDelegate=_updateDelegate;
 @property(readonly, nonatomic) SUCoreDescriptor *updateDescriptor; // @synthesize updateDescriptor=_updateDescriptor;
-@property(readonly, nonatomic) SUCoreFSM *updateFSM; // @synthesize updateFSM=_updateFSM;
-@property(readonly, nonatomic) NSString *updateName; // @synthesize updateName=_updateName;
-@property(retain, nonatomic) NSObject<OS_os_transaction> *updateTransaction; // @synthesize updateTransaction=_updateTransaction;
-@property(readonly, nonatomic) NSString *updateUUID; // @synthesize updateUUID=_updateUUID;
 
 @end
 

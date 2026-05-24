@@ -6,44 +6,20 @@
 
 #import <MetalTools/MTLToolsDynamicLibrary.h>
 
-@class MTLDebugInstrumentationData, MTLGPUDebugImageData, NSArray, NSObject, NSString;
-@protocol MTLDevice, OS_dispatch_data;
+@class MTLGPUDebugImageData;
 
 @interface MTLGPUDebugDynamicLibrary : MTLToolsDynamicLibrary
 {
     MTLGPUDebugImageData *_imageData;
 }
 
-- (id);
-- (void);
+- (id)@;
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) NSObject<OS_dispatch_data> *binaryData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) MTLDebugInstrumentationData *debugInstrumentationData;
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSArray *exportedFunctions;
-@property(readonly) NSArray *exportedVariables;
-@property unsigned long long globalConstantsBase;
-@property unsigned long long globalConstantsSize;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) MTLGPUDebugImageData *imageData; // @synthesize imageData=_imageData;
-@property(readonly) NSArray *importedLibraries;
-@property(readonly) NSArray *importedSymbols;
-@property(readonly) NSString *installName;
-@property(copy) NSString *label;
-@property(readonly) NSString *libraryPath;
-@property(readonly) const CDStruct_41a22ec7 *libraryUUID;
-@property(readonly) NSObject<OS_dispatch_data> *reflectionData;
-@property(copy, nonatomic) NSArray *relocations;
-@property(readonly, nonatomic) _Bool shaderValidationEnabled;
-@property(readonly) Class superclass;
 
 @end
 

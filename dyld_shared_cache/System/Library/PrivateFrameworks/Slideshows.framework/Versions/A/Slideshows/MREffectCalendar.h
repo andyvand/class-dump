@@ -6,24 +6,15 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImage, MRTextRenderer;
+@class MRTextRenderer;
 
 @interface MREffectCalendar : MREffect
 {
     MRTextRenderer *mTextRenderer;
-    MRImage *mTextImage;
-    struct CGSize mStride;
-    struct CGSize mImageSize;
-    struct CGSize mTextSize;
-    struct CGPoint mBaseImagePosition;
-    struct CGPoint mBaseTextPosition;
-    unsigned char mFirstDayWeekday;
-    unsigned char mNumberOfDays;
-    _Bool mTextWasUpdatedSinceLastRendering;
 }
 
-- (void);
-- (_Bool);
+- (void)SaySo25NTPBTelemetryNetworkEventCG;
+- (_Bool)isUserIDTemporary;
 - (_Bool);
 - (void);
 - (void);

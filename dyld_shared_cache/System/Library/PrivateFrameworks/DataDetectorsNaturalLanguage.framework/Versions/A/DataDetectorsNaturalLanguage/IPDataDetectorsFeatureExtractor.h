@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)m;
 - (id);
 - (struct __DDScanner *);
 - (id);

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCSportsEventRecordSource, FCTagController, FCTagRecordSource, NSCache, NSString;
-@protocol FCContentContext, FCNewsAppConfigurationManager;
+@class NSCache;
 
 @interface FCSportsEventController
 {
     NSCache *_fastCache;
-    id <FCContentContext> _context;
-    FCSportsEventRecordSource *_sportsEventRecordSource;
-    FCTagRecordSource *_tagRecordSource;
-    FCTagController *_tagController;
-    id <FCNewsAppConfigurationManager> _appConfigurationManager;
 }
 
 - (void);
@@ -35,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)initialLayoutAttributesForHeaderInInsertedSection:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -46,19 +40,7 @@
 - (id)j<;
 
 // Remaining properties
-@property(retain, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager; // @synthesize appConfigurationManager=_appConfigurationManager;
-@property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSCache *fastCache; // @synthesize fastCache=_fastCache;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) FCSportsEventRecordSource *sportsEventRecordSource; // @synthesize sportsEventRecordSource=_sportsEventRecordSource;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) FCTagController *tagController; // @synthesize tagController=_tagController;
-@property(retain, nonatomic) FCTagRecordSource *tagRecordSource; // @synthesize tagRecordSource=_tagRecordSource;
 
 @end
 

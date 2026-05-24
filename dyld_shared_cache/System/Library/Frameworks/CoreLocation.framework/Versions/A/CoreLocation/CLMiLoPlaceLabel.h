@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface CLMiLoPlaceLabel
 {
     NSUUID *_placeIdentifier;
-    NSString *_placeAdditionalInformation;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)AlphaNone;
 - (id);
 - (void);
-- (id);
+- (id)setEndOfFragmentSampleIndex:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *placeAdditionalInformation; // @synthesize placeAdditionalInformation=_placeAdditionalInformation;
 @property(readonly, nonatomic) NSUUID *placeIdentifier; // @synthesize placeIdentifier=_placeIdentifier;
 
 @end

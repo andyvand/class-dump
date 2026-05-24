@@ -9,23 +9,17 @@
 @interface GEOVLFImagePosition
 {
     PBUnknownFields *_unknownFields;
-    float _x;
-    float _y;
-    struct {
-        unsigned int has_x:1;
-        unsigned int has_y:1;
-    } _flags;
 }
 
-+ (_Bool)nts:(id)arg1;
++ (_Bool)setNumberOfKeypoints:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)setAllowVoiceTriggerAccessoryAssetDownloading:(id)arg1;
+- (id)nitor _stopMonitoring];
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -38,18 +32,14 @@
 - (_Bool)Key=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16@?32@?40;
 - (void)@0:(float)arg1 8@16@24@32@40@48@56@64@72@80@88@96Q104@112B120C124;
 - (id)ceDatas: /* Error: Ran out of types for this method. */;
-- (id)dId;
+- (id)fieldId;
 - (id)age    FROM logs    WHERE timestamp >= @begin AND timestamp <= @end    ORDER BY timestamp, type ASC;;
-- (float)argerPlugs;
+- (float)_suggestedChargerPlugs;
 - (void)×£@ëQ¸#@;
 - (float)]2ìÉL@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) float x;
-@property(nonatomic) float y;
 
 @end
 

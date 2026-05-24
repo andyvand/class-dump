@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSEnumerator;
+@class NSArray;
 
 @interface _PSFeatureDictionaryEnumerator
 {
     NSArray *_timeBucketsArray;
-    NSDictionary *_timeBuckets;
-    NSDictionary *_otherValues;
-    unsigned long long _i;
-    NSEnumerator *_keyEnumerator;
-    _Bool _loadedOtherValuesEnumerator;
 }
 
-- (id);
+- (id)";
 - (id);
 - (id);
 - (void);

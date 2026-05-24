@@ -12,11 +12,11 @@
 }
 
 + (_Bool);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)checkForIndexedChatGUIDs:(void *)arg1 completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

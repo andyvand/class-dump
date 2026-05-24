@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IDENTITYSchemaIDENTITYVoiceScoreCard : SISchemaInstrumentationMessage
 {
     NSArray *_identityScores;
-    int _classification;
-    CDStruct_177397be _has;
 }
 
 - (void);
@@ -24,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)@48@56;
 - (id);
 - (id);
 - (void);
@@ -32,7 +30,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)initWithLocality:administrativeArea:country:state:streetAddress:streetName: /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
 - (id)ensions;
@@ -41,10 +39,7 @@
 - (void)×#;
 
 // Remaining properties
-@property(nonatomic) int classification; // @synthesize classification=_classification;
-@property(nonatomic) _Bool hasClassification;
 @property(copy, nonatomic) NSArray *identityScores; // @synthesize identityScores=_identityScores;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

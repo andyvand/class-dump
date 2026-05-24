@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface TSUUUIDPath
@@ -16,19 +16,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	@9)	;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)instrumental;
 - (id);
 - (void)er/shared/utility/TSUOpstat.h;
 - (unsigned long long)Cÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *UUIDPathString;
-@property(readonly, nonatomic) NSUUID *lastUUID;
 @property(readonly, nonatomic) NSArray *uuids; // @synthesize uuids=_uuids;
 
 @end

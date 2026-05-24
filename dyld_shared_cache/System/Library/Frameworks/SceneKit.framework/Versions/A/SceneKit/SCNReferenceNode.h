@@ -6,16 +6,11 @@
 
 #import <SceneKit/SCNNode.h>
 
-@class NSMutableDictionary, NSURL;
+@class NSURL;
 
 @interface SCNReferenceNode : SCNNode
 {
     NSURL *_referenceURL;
-    _Bool _loaded;
-    NSMutableDictionary *_overrides;
-    long long _loadingPolicy;
-    NSURL *_catalogURL;
-    NSURL *_sourceDocumentURL;
 }
 
 + (id);
@@ -28,7 +23,7 @@
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -40,15 +35,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)bengali;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)e6;
 - (id);
 - (void);
+- (id)mediaItem;
+- (void)genre_new (genre_id INTEGER PRIMARY KEY, genre TEXT NOT NULL DEFAULT '', grouping_key BLOB, cloud_status INTEGER NOT NULL DEFAULT 0, representative_item_pid INTEGER NOT NULL DEFAULT 0, keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0, keep_local_constraints INTEGER NOT NULL DEFAULT 0, sync_id INTEGER NOT NULL DEFAULT 0);
 - (id);
 - (_Bool)¤¤ô¤	`©h©ª;
 - (id)#define OSD_TYPE_ARRAY(elementType, identifier, arraySize) elementType identifier[arraySize]
@@ -512,11 +507,9 @@ void OsdGetGregoryPatchWeights(
 #endif /* OPENSUBDIV3_OSD_PATCH_BASIS_COMMON_H */
 
  /* Error: Ran out of types for this method. */;
-- (void)ransparentTexcoord;
+- (void)a_transparentTexcoord;
 
 // Remaining properties
-@property(readonly, getter=isLoaded) _Bool loaded;
-@property(nonatomic) long long loadingPolicy; // @synthesize loadingPolicy=_loadingPolicy;
 @property(copy, nonatomic) NSURL *referenceURL;
 
 @end

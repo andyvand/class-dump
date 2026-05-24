@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SymbolCandidate
 {
     unsigned short _symbol;
     double _probability;
-    double _logProbability;
 }
 
 - (void);
 - (double);
 - (void);
-- (double);
+- (double)uiInteraction:didChangeNavigatedAssetReference: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (unsigned short);
+- (unsigned short)dates;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *description;
-@property(nonatomic) double logProbability; // @synthesize logProbability=_logProbability;
 @property(nonatomic) double probability; // @synthesize probability=_probability;
 @property(nonatomic) unsigned short symbol; // @synthesize symbol=_symbol;
 

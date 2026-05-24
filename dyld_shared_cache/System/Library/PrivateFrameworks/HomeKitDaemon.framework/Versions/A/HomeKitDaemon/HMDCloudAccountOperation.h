@@ -11,8 +11,6 @@ __attribute__((visibility("hidden")))
 @interface HMDCloudAccountOperation
 {
     NSUUID *_identifier;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    CDUnknownBlockType _operationBlock;
 }
 
 - (id);
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) CDUnknownBlockType operationBlock; // @synthesize operationBlock=_operationBlock;
 
 @end
 

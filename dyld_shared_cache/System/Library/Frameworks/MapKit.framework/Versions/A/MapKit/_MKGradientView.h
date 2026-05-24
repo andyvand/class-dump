@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor;
-
 @interface _MKGradientView
 {
     _Bool _shouldReduceTransparency;
-    NSColor *_accessibilityColor;
-    NSArray *_colors;
-    NSArray *_locations;
-    struct CGPoint _startPoint;
-    struct CGPoint _endPoint;
 }
 
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)currentStartDate;
+- (void),V_forceBatching;
+- (void)he cache limit, dropping last event:(id)arg1 %@;
 - (id);
-- (id);
+- (id)nicknameForCurrentUserWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGPoint);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (void);
+- (id){public}@ %{public}@;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (void)rsData: /* Error: Ran out of types for this method. */;
+- (void)ne_bloom_filter_from_mmap;
+- (struct CGPoint)access_token;
+- (void)setFormattedHoursData: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSColor *accessibilityColor; // @synthesize accessibilityColor=_accessibilityColor;
-@property(copy, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(nonatomic) struct CGPoint endPoint; // @synthesize endPoint=_endPoint;
-@property(copy, nonatomic) NSArray *locations; // @synthesize locations=_locations;
 @property(nonatomic) _Bool shouldReduceTransparency; // @synthesize shouldReduceTransparency=_shouldReduceTransparency;
-@property(nonatomic) struct CGPoint startPoint; // @synthesize startPoint=_startPoint;
 
 @end
 

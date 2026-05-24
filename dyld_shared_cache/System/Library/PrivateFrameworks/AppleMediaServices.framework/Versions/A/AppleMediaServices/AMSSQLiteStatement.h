@@ -4,57 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSQLiteConnection, NSDictionary, NSString;
+@class AMSSQLiteConnection;
 
 __attribute__((visibility("hidden")))
 @interface AMSSQLiteStatement
 {
     AMSSQLiteConnection *_connection;
-    struct sqlite3_stmt *_statement;
-    AMSSQLiteStatement *_strongSelf;
 }
 
 - (void);
-- (int);
+- (int)@;
+- (void)P;
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)accepted contacts. Error:%@ /* Error: Ran out of types for this method. */;
 - (struct sqlite3_stmt *);
+- (void)_highScoreThreshold;
 - (void);
+- (void)pairing session. %{public}@;
 - (void);
+- (id)E;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)
+;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void){__CFDictionary=}32@0:(id)arg1 8@16^q24;
-- (void)hWithError:(long long)arg1;
+- (void)finishWithError:(long long)arg1;
 - (void)®d¼~ RÃuÖçÑÚ1ô:ºÓbAþ¤ðÙ`jÌâÄIá+>[íZØ¢G8Òü½ /* Error: Ran out of types for this method. */;
 - (void)gzL%;
 - (int)(u(¶((&(¾(z(,¼(-Ç(.(/
 ((·()J(*(+h($R(%(&Þ('(( ¤(!¢("â(#Ð(<1(=M(>°(?Ú(8à(9\(:t(;º(4g(53(6Z(7(07(1(2(3}(L'(M(N¸(OX(H×(I;(J.(Kµ(D{(Ef(Fû(GI(@Î(AÉ(B/(C(\4(]i(^ö(_(X½(Y¯(Z([ô(T(U(VÍ(W(P(Qï(RG(Sm(lV(m,(nn(oÂ(hH(ip(jW(k³(då(eÛ(f´(g+(`~(aY(b¬(cþ(|](}Õ(~K(©(x(y	(z ({(t(uA(vÒ(w(pÖ(q(rS(s(SWj@R´j@Q¦j@Pj@Wßj@Vjj@U,j@Tãj@[Äj@Zøj@YÅj@X(j@_Vj@^ªj@]·j@\ðj@C0j@Bj@AIj@@±j@GHj@F¸j@E=j@Dj@KTj@Jxj@Ij@Hìj@OÕj@NLj@MJj@L:j@sj@rÝj@q<j@pÞj@wÔj@vj@uôj@tÏj@{éj@zj@ybj@xöj@çj@~}j@}j@|Gj@c$j@b j@a®j@`j@gáj@fêj@ej@dj@kEj@jj@iXj@hüj@o¨j@nvj@mFj@lÃj@j@âj@uj@zj@èj@ûj@µj@Rj@`j@?j@6j@j@Pj@Nj@ñj@Ëj@3j@Uj@j@ /* Error: Ran out of types for this method. */;
 - (id)P;
-- (int)tationResponse;
+- (int)ConsumerIDRotationResponse;
 - (int);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *SQL;
-@property(readonly, copy, nonatomic) NSDictionary *columnIndexByName;
 @property(readonly, nonatomic) AMSSQLiteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isReadOnly) _Bool readOnly;
-@property(readonly, nonatomic) struct sqlite3_stmt *sqlite3_stmt; // @synthesize sqlite3_stmt=_statement;
-@property(readonly) Class superclass;
 
 @end
 

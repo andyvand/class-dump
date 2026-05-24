@@ -7,6 +7,7 @@
 @interface AccessoryLiveActivities.AccessoryActivitiesSettingsService
 {
     id _client;
+    id;
 }
 
 @end

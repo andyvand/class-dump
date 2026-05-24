@@ -6,13 +6,10 @@
 
 #import <MediaPlaybackCore/_MPCPlayerItemCommand.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCPlayerRateCommand : _MPCPlayerItemCommand
 {
     float _minimumValue;
-    float _maximumValue;
 }
 
 - (id);
@@ -22,15 +19,7 @@ __attribute__((visibility("hidden")))
 - (float)n completed - item: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float maximumValue; // @synthesize maximumValue=_maximumValue;
 @property(nonatomic) float minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(readonly) Class superclass;
 
 @end
 

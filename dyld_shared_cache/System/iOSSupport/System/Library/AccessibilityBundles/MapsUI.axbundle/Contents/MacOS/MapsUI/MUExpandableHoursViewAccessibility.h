@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)om.apple.xbs/TemporaryDirectory.62SqMK/Sources/AccessibilityBundles_Alias2/UIKitAccessibility/UIApplicationAccessibility.m;
 + (void);
 - (void);
-- (_Bool);
+- (_Bool),R,N,V_indexingHash;
 
 @end
 

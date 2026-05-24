@@ -7,15 +7,10 @@
 @interface NewsFeed.DebugPersonalizationArticleTableViewCell
 {
     id identifier;
-    id thumbnailImageView;
-    id publisherTitle;
-    id articleTitle;
-    id yesButton;
-    id noButton;
 }
 
-- (id);
-- (void);
+- (id)$];
+- (void)Y;
 - (id);
 - (void)íè;
 

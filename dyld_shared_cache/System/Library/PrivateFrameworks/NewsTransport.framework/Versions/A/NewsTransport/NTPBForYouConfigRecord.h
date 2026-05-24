@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NTPBRecordBase;
+@class NTPBRecordBase;
 
 @interface NTPBForYouConfigRecord
 {
     NTPBRecordBase *_base;
-    NSString *_configuration;
-    NSMutableArray *_editorialArticleListIDs;
-    NSMutableArray *_editorialSectionTagIDs;
-    NSString *_spotlightArticleID;
-    NSString *_todayFeedConfiguration;
-    NSMutableArray *_todayFeedTopStoriesArticleIDs;
-    NSString *_trendingArticleListID;
 }
 
++ (Class)ersion, rejecting...;
 + (Class);
 + (Class);
-+ (Class);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)eRouteDeduper.m;
 - (void);
 - (id);
 - (id);
@@ -37,17 +30,17 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (unsigned long long)ˀ;
+- (id)C;
+- (id);
+- (_Bool)-[SMManager enableSoftwareUpdateScanning]_block_invoke;
+- (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)FCCloudContext;
+- (id);
+- (void)y"16^B24;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -59,25 +52,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)ntOfTotalGroupsExposed:(id)arg1;
-- (void)avedArticlesOpenedCutoffTime;
+- (void)setHasCountOfTotalGroupsExposed:(id)arg1;
+- (void)hasSavedArticlesOpenedCutoffTime;
 - (id)dArticlesOpenedCutoffTime;
 - (id)ø;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
-@property(retain, nonatomic) NSString *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) NSMutableArray *editorialArticleListIDs; // @synthesize editorialArticleListIDs=_editorialArticleListIDs;
-@property(retain, nonatomic) NSMutableArray *editorialSectionTagIDs; // @synthesize editorialSectionTagIDs=_editorialSectionTagIDs;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(readonly, nonatomic) _Bool hasConfiguration;
-@property(readonly, nonatomic) _Bool hasSpotlightArticleID;
-@property(readonly, nonatomic) _Bool hasTodayFeedConfiguration;
-@property(readonly, nonatomic) _Bool hasTrendingArticleListID;
-@property(retain, nonatomic) NSString *spotlightArticleID; // @synthesize spotlightArticleID=_spotlightArticleID;
-@property(retain, nonatomic) NSString *todayFeedConfiguration; // @synthesize todayFeedConfiguration=_todayFeedConfiguration;
-@property(retain, nonatomic) NSMutableArray *todayFeedTopStoriesArticleIDs; // @synthesize todayFeedTopStoriesArticleIDs=_todayFeedTopStoriesArticleIDs;
-@property(retain, nonatomic) NSString *trendingArticleListID; // @synthesize trendingArticleListID=_trendingArticleListID;
 
 @end
 

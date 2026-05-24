@@ -9,10 +9,9 @@
 @interface TSDLineEndView
 {
     TSDLineEnd *mLineEnd;
-    _Bool mOnRight;
 }
 
-+ (id);
++ (id)Empty;
 - (void);
 - (void);
 - (_Bool);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TSDLineEnd *lineEnd; // @synthesize lineEnd=mLineEnd;
-@property(nonatomic) _Bool onRight; // @synthesize onRight=mOnRight;
 
 @end
 

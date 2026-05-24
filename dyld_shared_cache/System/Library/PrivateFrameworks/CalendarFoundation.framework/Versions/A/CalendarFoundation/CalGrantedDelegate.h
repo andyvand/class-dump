@@ -9,9 +9,6 @@
 @interface CalGrantedDelegate
 {
     NSString *_uri;
-    NSString *_displayName;
-    NSString *_preferredUserAddress;
-    long long _permission;
 }
 
 + (_Bool);
@@ -24,13 +21,10 @@
 - (void);
 - (void);
 - (void);
-- (id)tureLimitedCalDAVCalendarConstraintsNoComments;
+- (id)FutureLimitedCalDAVCalendarConstraintsNoComments;
 - (long long)Wå;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) long long permission; // @synthesize permission=_permission;
-@property(copy, nonatomic) NSString *preferredUserAddress; // @synthesize preferredUserAddress=_preferredUserAddress;
 @property(copy, nonatomic) NSString *uri; // @synthesize uri=_uri;
 
 @end

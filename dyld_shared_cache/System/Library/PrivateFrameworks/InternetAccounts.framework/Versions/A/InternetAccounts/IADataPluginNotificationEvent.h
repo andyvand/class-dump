@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IADataPluginNotificationEvent
 {
     NSString *_uid;
-    NSString *_pluginID;
-    NSString *_eventType;
-    NSDate *_date;
 }
 
 + (id);
@@ -22,14 +19,11 @@
 - (id);
 - (id);
 - (void);
+- (void)roomAttendees;
 - (void);
-- (void);
-- (void);
+- (void)#;
 
 // Remaining properties
-@property(retain) NSDate *date; // @synthesize date=_date;
-@property(retain) NSString *eventType; // @synthesize eventType=_eventType;
-@property(retain) NSString *pluginID; // @synthesize pluginID=_pluginID;
 @property(retain) NSString *uid; // @synthesize uid=_uid;
 
 @end

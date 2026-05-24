@@ -8,13 +8,6 @@
 {
     id _$scope;
     id _recipeID;
-    id _yield;
-    id _locale;
-    id _scaleFactorValue;
-    id _pendingScaleFactorValue;
-    id _scaleFactor;
-    id _isEditingScaleFactor;
-    id _$observationRegistrar;
 }
 
 @end

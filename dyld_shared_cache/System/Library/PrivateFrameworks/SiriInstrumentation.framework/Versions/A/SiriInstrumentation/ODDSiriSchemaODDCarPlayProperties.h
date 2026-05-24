@@ -6,30 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDCarPlayProperties : SISchemaInstrumentationMessage
 {
     _Bool _isShowAppsBehindSiriEnabledOnCarPlay;
-    _Bool _isSiriCapableDigitalCarKeyAvailable;
-    struct {
-        unsigned int isShowAppsBehindSiriEnabledOnCarPlay:1;
-        unsigned int isSiriCapableDigitalCarKeyAvailable:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)jectspath]/System/Library/Caches/apticket.der;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -40,11 +33,7 @@
 - (id),&,N,V_historyStatsInSameDomain;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsShowAppsBehindSiriEnabledOnCarPlay;
-@property(nonatomic) _Bool hasIsSiriCapableDigitalCarKeyAvailable;
 @property(nonatomic) _Bool isShowAppsBehindSiriEnabledOnCarPlay; // @synthesize isShowAppsBehindSiriEnabledOnCarPlay=_isShowAppsBehindSiriEnabledOnCarPlay;
-@property(nonatomic) _Bool isSiriCapableDigitalCarKeyAvailable; // @synthesize isSiriCapableDigitalCarKeyAvailable=_isSiriCapableDigitalCarKeyAvailable;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

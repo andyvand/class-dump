@@ -11,22 +11,19 @@
 @interface MTLAccelerationStructureBoundingBoxGeometryDescriptor : MTLAccelerationStructureGeometryDescriptor
 {
     id <MTLBuffer> _boundingBoxBuffer;
-    unsigned long long _boundingBoxBufferOffset;
-    unsigned long long _boundingBoxStride;
-    unsigned long long _boundingBoxCount;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)j;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (long long);
 - (_Bool);
@@ -34,9 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLBuffer> boundingBoxBuffer; // @synthesize boundingBoxBuffer=_boundingBoxBuffer;
-@property(nonatomic) unsigned long long boundingBoxBufferOffset; // @synthesize boundingBoxBufferOffset=_boundingBoxBufferOffset;
-@property(nonatomic) unsigned long long boundingBoxCount; // @synthesize boundingBoxCount=_boundingBoxCount;
-@property(nonatomic) unsigned long long boundingBoxStride; // @synthesize boundingBoxStride=_boundingBoxStride;
 
 @end
 

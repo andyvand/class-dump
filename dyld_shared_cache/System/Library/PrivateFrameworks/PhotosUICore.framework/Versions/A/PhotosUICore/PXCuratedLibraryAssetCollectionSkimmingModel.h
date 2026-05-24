@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXAssetCollectionReference, PXCuratedLibraryViewModel, PXIndexPathSet;
+@class PXAssetCollectionReference, PXCuratedLibraryViewModel;
 
 @interface PXCuratedLibraryAssetCollectionSkimmingModel
 {
     PXCuratedLibraryViewModel *_viewModel;
-    long long _zoomLevel;
-    long long _skimmingZoomLevel;
-    id _dataSourcePauseToken;
-    _Bool _isPlayingSlideshow;
-    _Bool _isInteractionInProgress;
-    PXAssetCollectionReference *_containingAssetCollectionReference;
-    PXIndexPathSet *_indexPathSetForSkimming;
-    struct PXSimpleIndexPath _initialIndexPath;
-    struct PXSimpleIndexPath _skimmedIndexPath;
 }
 
 - (id);
@@ -27,7 +18,7 @@
 - (struct PXSimpleIndexPath);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (_Bool);
@@ -36,21 +27,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)_�6O;
 - (_Bool);
 - (id);
-- (void)hResultFirstAssetModel;
+- (void)PhotoKitFetchResultFirstAssetModel;
 - (id)Ò;?;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canStartSkimming;
 @property(readonly, nonatomic) PXAssetCollectionReference *containingAssetCollectionReference; // @synthesize containingAssetCollectionReference=_containingAssetCollectionReference;
-@property(readonly, copy, nonatomic) PXIndexPathSet *indexPathSetForSkimming; // @synthesize indexPathSetForSkimming=_indexPathSetForSkimming;
-@property(readonly, nonatomic) struct PXSimpleIndexPath initialIndexPath; // @synthesize initialIndexPath=_initialIndexPath;
-@property(readonly, nonatomic) _Bool isInteractionInProgress; // @synthesize isInteractionInProgress=_isInteractionInProgress;
-@property(readonly, nonatomic) _Bool isPlayingSlideshow; // @synthesize isPlayingSlideshow=_isPlayingSlideshow;
-@property(nonatomic) struct PXSimpleIndexPath skimmedIndexPath; // @synthesize skimmedIndexPath=_skimmedIndexPath;
-@property(readonly, nonatomic) PXCuratedLibraryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

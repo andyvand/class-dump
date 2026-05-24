@@ -6,18 +6,16 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImage, UIImageView;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface _UIMirrorNinePatchView : UIView
 {
     UIImage *_originalImage;
-    struct UIEdgeInsets _insets;
-    UIImageView *_imageViews[4];
 }
 
 - (void);
-- (void);
+- (void)l;
 - (void);
 - (id)leItem:(struct CGRect)arg1;
 - (void)íÍ33D;

@@ -6,13 +6,9 @@
 
 #import <MapsSync/MSHistoryItem.h>
 
-@class GEOStorageRouteRequestStorage, NSData;
-
 @interface MSHistoryDirectionsItem : MSHistoryItem
 {
     id _navigationInterrupted;
-    id _routeRequestStorage;
-    id _sharedETAData;
 }
 
 + (Class);
@@ -21,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool navigationInterrupted;
-@property(nonatomic, retain) GEOStorageRouteRequestStorage *routeRequestStorage;
-@property(nonatomic, copy) NSData *sharedETAData;
 
 @end
 

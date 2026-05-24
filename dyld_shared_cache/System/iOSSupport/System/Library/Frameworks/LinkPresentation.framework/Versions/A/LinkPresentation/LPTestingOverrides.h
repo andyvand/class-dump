@@ -8,34 +8,34 @@
 {
 }
 
++ (void)storedState;
++ (void)storeWithOptions:(_Bool)arg1;
++ (void)storeGUIDInAttemptingListInScrutinyMode:(id)arg1;
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
++ (void)storagePlugingDataModelDidUpdate:(_Bool)arg1;
++ (void)stopUpdatingPower;
++ (void)stopTrackingLocationForChat:(_Bool)arg1;
++ (void)stopTimingForKey:(_Bool)arg1;
++ (void)stopSuppressingSoundsForBulletinMessagesWithChatItems:(_Bool)arg1;
++ (void)stopSuppressingSoundsForBulletinMessagesWithChatItems:(_Bool)arg1;
++ (void)stopSharingWithHandle:(_Bool)arg1 inChat: /* Error: Ran out of types for this method. */;
++ (void)stiffness;
++ (void)stickerEffectView;
++ (_Bool)smallTail;
++ (_Bool)smallBubbleOffset;
 + (id);
 + (_Bool);
-+ (_Bool);
-+ (unsigned long long);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (void);
++ (_Bool)skipToPreviousItemForPlayerViewController: /* Error: Ran out of types for this method. */;
++ (unsigned long long)skipToNextItemForPlayerViewController: /* Error: Ran out of types for this method. */;
++ (_Bool)skipOnboardingWithOnboardingSuggestions: /* Error: Ran out of types for this method. */;
++ (_Bool)skipForwardCommand;
++ (_Bool)skipBackwardCommand;
++ (_Bool)skinnyTaillessBalloonName;
++ (id)skinnyReplyBalloonMaskSizeWithTailShape: /* Error: Ran out of types for this method. */;
++ (_Bool)skinnyBalloonName;
++ (id)signInViewController:shouldContinueWithAuthenticationResults:error:forContext: /* Error: Ran out of types for this method. */;
++ (id)xistingDraft:suggestedReplies:animated:bizIntent:launchPluginWithBundleID:pluginLaunchPayload:sendMessageHandler: /* Error: Ran out of types for this method. */;
++ (void)shouldAnimateDismissal;
 + (void);
 
 @end

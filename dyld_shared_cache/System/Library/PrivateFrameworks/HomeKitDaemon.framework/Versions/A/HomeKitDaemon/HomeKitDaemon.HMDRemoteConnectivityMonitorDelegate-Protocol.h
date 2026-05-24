@@ -5,5 +5,6 @@
 //
 
 @protocol HomeKitDaemon.HMDRemoteConnectivityMonitorDelegate
+- (void);
 @end
 

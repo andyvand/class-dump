@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendarItem, NSMutableArray;
+@class EKCalendarItem;
 
 @interface CUIKAlarmsViewModel
 {
     _Bool _canHaveLeaveNowAlarm;
-    _Bool _hasLeaveNowAlarm;
-    unsigned long long _locationStatus;
-    _Bool _needsUpdate;
-    EKCalendarItem *_calendarItem;
-    NSMutableArray *_uiAlarms;
 }
 
 + (id);
@@ -39,24 +34,19 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)9;
+- (void)er;
+- (id)reRecognizer",&,N,V_tapBelowDrawingGestureRecognizer;
+- (void);
 - (void);
 - (_Bool);
-- (void)oposeFuture;
+- (void)proposeFuture;
 
 // Remaining properties
 @property(retain, nonatomic) EKCalendarItem *calendarItem; // @synthesize calendarItem=_calendarItem;
-@property(readonly, nonatomic) _Bool canHaveLeaveNowAlarm;
-@property(readonly, nonatomic) _Bool hasLeaveNowAlarm;
-@property(readonly, nonatomic) unsigned long long locationStatus;
-@property(nonatomic) _Bool needsUpdate; // @synthesize needsUpdate=_needsUpdate;
-@property(retain, nonatomic) NSMutableArray *uiAlarms; // @synthesize uiAlarms=_uiAlarms;
 
 @end
 

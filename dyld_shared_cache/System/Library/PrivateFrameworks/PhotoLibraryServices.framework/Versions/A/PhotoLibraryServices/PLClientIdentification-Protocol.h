@@ -5,7 +5,7 @@
 //
 
 @protocol PLClientIdentification
-- (id)ctionData;
-- (id)i delete assets;
+- (id)actionData;
+- (unsigned int)i delete assets;
 @end
 

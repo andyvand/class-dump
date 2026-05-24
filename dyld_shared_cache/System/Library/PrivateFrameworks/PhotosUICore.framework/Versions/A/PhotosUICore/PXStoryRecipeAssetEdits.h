@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXMemoryCustomUserAssetsEdit;
-@protocol PXDisplayAsset, PXDisplayAssetFetchResult;
+@protocol PXDisplayAsset;
 
 @interface PXStoryRecipeAssetEdits
 {
     id <PXDisplayAsset> _keyAsset;
-    PXMemoryCustomUserAssetsEdit *_customUserAssetsEdit;
-    id <PXDisplayAssetFetchResult> _userCuratedAssets;
-    CDStruct_5d4c7ed3 _overallDurationInfo;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (CDStruct_5d4c7ed3);
-- (id);
-- (id);
+- (id)@;
+- (CDStruct_f0d1f9bc);
 - (id);
 - (id);
-- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXMemoryCustomUserAssetsEdit *customUserAssetsEdit; // @synthesize customUserAssetsEdit=_customUserAssetsEdit;
 @property(readonly, nonatomic) id <PXDisplayAsset> keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(readonly, nonatomic) CDStruct_5d4c7ed3 overallDurationInfo; // @synthesize overallDurationInfo=_overallDurationInfo;
-@property(readonly, nonatomic) id <PXDisplayAssetFetchResult> userCuratedAssets; // @synthesize userCuratedAssets=_userCuratedAssets;
 
 @end
 

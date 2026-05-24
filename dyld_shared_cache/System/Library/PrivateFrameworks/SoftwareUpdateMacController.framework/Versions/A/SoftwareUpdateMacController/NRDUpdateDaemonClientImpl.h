@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NRDUpdateDaemonClientImpl
 {
     NSXPCConnection *_serverConnection;
-    _Bool _connected;
 }
 
 - (void);
@@ -22,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 
 @end
 

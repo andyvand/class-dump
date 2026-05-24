@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue;
 @protocol ODQueryDelegate;
 
 @interface ODQuery
@@ -14,11 +13,11 @@
 
 + (id);
 + (void);
-+ (id);
++ (id)ramework:(struct _NSZone *)arg1 Cannot mix result delivery mechanisms.;
 - (id);
 - (struct __ODQuery *);
 - (id);
-- (void);
+- (void)NSt3__110__function6__baseIFN3MIL16ValidationResultERKNS2_11IROperationEEEE;
 - (id);
 - (id);
 - (void);
@@ -32,7 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) id <ODQueryDelegate> delegate;
-@property(retain) NSOperationQueue *operationQueue;
 
 @end
 

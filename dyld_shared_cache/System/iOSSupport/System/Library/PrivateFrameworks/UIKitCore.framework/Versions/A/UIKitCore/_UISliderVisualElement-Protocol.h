@@ -4,9 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIImageView, UISlider, UISliderDataModel, UIView;
+@class UIImage, UIImageView, UISlider, UISliderDataModel, UITouch, UIView;
 
 @protocol _UISliderVisualElement
+- (UIImage *);
+- (UIView *)serializeArrayIntoDictionary:withKey:withValue:itemSerializer:isRequired:defaultValue: /* Error: Ran out of types for this method. */;
+- (void)universalCloudLibraryID;
+- (void)tableView:previewForHighlightingContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (void)numberWithUnsignedChar:(UITouch *)arg1;
+- (UIImage *)nd existing representation:%{public}@ from url cache for catalog:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)A;
 - (void)°!,@ù[°1Â0@ù
 × ;
 - (void)Ð1Â0@ù
@@ -23,32 +30,30 @@
 - (UISliderDataModel *)iceConnection<BSServiceConnectionHost>"24@"<BSXPCDecoding>"32;
 - (void)@"NSSet"24;
 - (struct UIEdgeInsets)dd}48@?64;
-- (_Bool)ionsToTabBar;
-- (struct CGRect)ions:(struct CGRect)arg1 error:(struct CGRect)arg2;
-- (void)vingSideways:(unsigned long long)arg1;
+- (_Bool)transitionsToTabBar;
+- (struct CGRect)dataWithPropertyList:(struct CGRect)arg1 format:(struct CGRect)arg2 options:(float)arg3 error: /* Error: Ran out of types for this method. */;
+- (void)_popoverControllerWillBeginMapsTransitionMovingSideways:(unsigned long long)arg1;
 - (UIImageView *)orInset;
-- (struct CGRect)oller;
+- (struct CGRect)_hasHeaderContentViewController;
 - (void)T@"UIViewFloatAnimatableProperty",&,N,V_positionTrackingProperty;
-- (struct CGSize)erMac;
-- (void)estureRecognizer;
+- (struct CGSize)_UISheetHostManagerProviderMac;
+- (void)_UIPreviewGestureRecognizer;
 - (struct CGRect)Å;
 - (_Bool)calendar:%@; locale:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (struct CGRect)êwîÿìþÿ;
 - (void)s:(float)arg1 %@>;
-- (UIView *)cumentInputMode;
-- (UIImageView *)tLandscapeLeft;
-- (void)redSize;
+- (UIView *)documentInputMode;
+- (UIImageView *)defaultStatusBarHeightLandscapeLeft;
+- (void)preferredSize;
 - (struct CGRect)¬È;
 - (void)0ïþ;
+
+@optional
++ (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *additionalTrackingViews;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(retain, nonatomic) UISliderDataModel *data;
 @property(nonatomic) __weak UISlider *slider;
 @end
 

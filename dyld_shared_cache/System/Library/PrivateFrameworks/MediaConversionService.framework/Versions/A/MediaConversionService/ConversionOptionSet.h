@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface ConversionOptionSet
 {
     _Bool _replaceExistingOutput;
-    _Bool _verbose;
-    NSString *_conversionType;
-    NSString *_sourcePath;
-    NSString *_sourcePathVideoComplement;
-    NSString *_destinationPath;
-    NSString *_destinationPathVideoComplement;
-    NSMutableArray *_conversionOptionInputKeyValuePairs;
-    NSString *_presetName;
-    long long _repeatCount;
-    NSMutableDictionary *_conversionOptions;
 }
 
 + (struct CGSize);
@@ -28,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (double);
@@ -48,7 +38,7 @@
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)Va;
 - (id);
 - (id);
 - (long long);
@@ -57,23 +47,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)NU_DEBUG_RENDER_PURPLE;
 - (void);
 - (id);
-- (void);
+- (void)bluetoothDeviceEntityRelevanceMicroLocationAndTimeOfDayFeatures;
 
 // Remaining properties
-@property(retain) NSMutableArray *conversionOptionInputKeyValuePairs; // @synthesize conversionOptionInputKeyValuePairs=_conversionOptionInputKeyValuePairs;
-@property(retain) NSMutableDictionary *conversionOptions; // @synthesize conversionOptions=_conversionOptions;
 @property(retain) NSString *conversionType; // @synthesize conversionType=_conversionType;
-@property(retain) NSString *destinationPath; // @synthesize destinationPath=_destinationPath;
-@property(retain) NSString *destinationPathVideoComplement; // @synthesize destinationPathVideoComplement=_destinationPathVideoComplement;
-@property(retain) NSString *presetName; // @synthesize presetName=_presetName;
-@property long long repeatCount; // @synthesize repeatCount=_repeatCount;
-@property _Bool replaceExistingOutput; // @synthesize replaceExistingOutput=_replaceExistingOutput;
-@property(retain) NSString *sourcePath; // @synthesize sourcePath=_sourcePath;
-@property(retain) NSString *sourcePathVideoComplement; // @synthesize sourcePathVideoComplement=_sourcePathVideoComplement;
-@property _Bool verbose; // @synthesize verbose=_verbose;
 
 @end
 

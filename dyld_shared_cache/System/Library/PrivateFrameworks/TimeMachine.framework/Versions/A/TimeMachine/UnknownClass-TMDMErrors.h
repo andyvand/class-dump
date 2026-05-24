@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (TMDMErrors)
-+ (id);
++ (id);
 + (id);
 + (id);
 + (unsigned int);
@@ -22,8 +22,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)h;
++ (id);
 + (id);
 - (id);
 - (long long);

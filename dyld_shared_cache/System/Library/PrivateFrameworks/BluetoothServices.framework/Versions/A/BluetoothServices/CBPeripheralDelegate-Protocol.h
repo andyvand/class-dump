@@ -5,5 +5,11 @@
 //
 
 @protocol CBPeripheralDelegate
+
+@optional
+- (void);
+- (void);
+- (void)#;
+- (void);
 @end
 

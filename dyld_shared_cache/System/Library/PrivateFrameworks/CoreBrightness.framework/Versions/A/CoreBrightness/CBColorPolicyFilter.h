@@ -6,32 +6,13 @@
 
 #import <CoreBrightness/CBFilter.h>
 
-@class CBCEModule, CBHIDEvent, CBStack;
-
 __attribute__((visibility("hidden")))
 @interface CBColorPolicyFilter : CBFilter
 {
     float _mitigationThrE[20];
-    float _mitigationThrL[20];
-    unsigned long long _mitigationThrSize;
-    float _ceMitigationThrE[20];
-    float _ceMitigationThrL[20];
-    int _ceMitigationThrSize;
-    float (*_mitigatedStrengthLUT)[47];
-    CBCEModule *_ceModule;
-    _Bool _ceEnabled;
-    float _ceConfidenceThreshold;
-    CBStack *_alsStack;
-    unsigned long long _stackLength;
-    unsigned long long _stackCurrentCount;
-    unsigned long long _consecutiveNonMitgatedCount;
-    _Bool _mitigationUsedYet;
-    _Bool _isColorMitigationTriggered;
-    float _filteredStrength;
-    CBHIDEvent *_filteredALS;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -43,13 +24,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (float);
 - (float);
-- (void);
-- (void);
+- (void);
+- (void)?;
 - (void);
 - (id);
-- (id);
+- (id)ents;
 - (void);
-- (_Bool);
+- (_Bool)c;
 - (id)/aop/iop-aop-nub;
 - (id)¸>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>
 ×#<
@@ -135,8 +116,6 @@ __attribute__((visibility("hidden")))
 ×#<ôýT<1¬<¼t=`åP=L7=ï§=ð§Æ=Ñ"Û=hí=;
 
 // Remaining properties
-@property(readonly, nonatomic) CBHIDEvent *filteredALS; // @synthesize filteredALS=_filteredALS;
-@property float filteredStrength; // @synthesize filteredStrength=_filteredStrength;
 @property _Bool isColorMitigationTriggered; // @synthesize isColorMitigationTriggered=_isColorMitigationTriggered;
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface ICMusicKitTokensResponse
 {
     NSString *_developerToken;
-    NSString *_userToken;
-    NSError *_userTokenFetchingError;
 }
 
 + (_Bool);
@@ -18,21 +16,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)sident;
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)a;
 - (_Bool);
-- (void);
+- (void)A;
 - (id);
 - (id);
-- (void)ced;
+- (void)ICLiveLinkQueueEventContentReplaced;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *developerToken; // @synthesize developerToken=_developerToken;
-@property(readonly, copy, nonatomic) NSString *userToken; // @synthesize userToken=_userToken;
-@property(readonly, copy, nonatomic) NSError *userTokenFetchingError; // @synthesize userTokenFetchingError=_userTokenFetchingError;
 
 @end
 

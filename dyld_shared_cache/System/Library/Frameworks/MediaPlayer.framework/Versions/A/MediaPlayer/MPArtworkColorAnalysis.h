@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSNumber;
+@class NSColor;
 
 @interface MPArtworkColorAnalysis
 {
     NSColor *_backgroundColor;
-    _Bool _backgroundColorLight;
-    NSColor *_primaryTextColor;
-    _Bool _primaryTextColorLight;
-    NSColor *_secondaryTextColor;
-    _Bool _secondaryTextColorLight;
-    NSColor *_tertiaryTextColor;
-    _Bool _tertiaryTextColorLight;
-    NSColor *_quaternaryTextColor;
-    NSColor *_gradientColor;
-    NSArray *_gradientTextColors;
-    NSNumber *_gradientColorStartPosition;
-    NSNumber *_gradientColorEndPosition;
 }
 
 + (id);
@@ -30,46 +18,177 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)AuthenticateSpecifier;
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
+- (_Bool)@d;
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)N;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)_position_in_threadgroup ]],
+                               unsigned                               threadgroup_position_in_grid   [[ threadgroup_position_in_grid ]],
+                               OsdPatchParamBufferSet                 osdBuffers, 
+                               device MTLQuadTessellationFactorsHalf* quadTessellationFactors        [[ buffer(QUAD_TESSFACTORS_INDEX) ]]
+#if OSD_USE_PATCH_INDEX_BUFFER
+                               ,device unsigned* patchIndex                                          [[ buffer(OSD_PATCH_INDEX_BUFFER_INDEX) ]]
+                               ,device MTLDrawPatchIndirectArguments* drawIndirectCommands           [[ buffer(OSD_DRAWINDIRECT_BUFFER_INDEX) ]]
+#endif
+                         )
+{
+    
+    
+    
+    
+    
+    
+    
+    threadgroup int3 patchParam[PATCHES_PER_THREADGROUP];
+    
+    threadgroup PatchVertexType patchVertices[PATCHES_PER_THREADGROUP * CONTROL_POINTS_PER_PATCH];
+    
+    const auto real_threadgroup = thread_position_in_grid / REAL_THREADGROUP_DIVISOR;
+    const auto subthreadgroup_in_threadgroup = thread_position_in_threadgroup / REAL_THREADGROUP_DIVISOR;
+    const auto real_thread_in_threadgroup = thread_position_in_threadgroup & (REAL_THREADGROUP_DIVISOR - 1);
+    
+#if NEEDS_BARRIER
+    const auto validThread = thread_position_in_grid * CONTROL_POINTS_PER_THREAD < osdBuffers.kernelExecutionLimit;
+#else
+    const auto validThread = true;
+    if(thread_position_in_grid * CONTROL_POINTS_PER_THREAD >= osdBuffers.kernelExecutionLimit)
+        return;
+#endif
+    
+    
+    
+    
+    if(validThread)
+    {
+        patchParam[subthreadgroup_in_threadgroup] = OsdGetPatchParam(real_threadgroup, osdBuffers.patchParamBuffer);
+        
+        for(unsigned threadOffset = 0; threadOffset < CONTROL_POINTS_PER_THREAD; threadOffset++)
+        {
+            const auto vertexId = osdBuffers.indexBuffer[(thread_position_in_grid * CONTROL_POINTS_PER_THREAD + threadOffset) * IndexLookupStride];
+            const auto v = osdBuffers.vertexBuffer[vertexId];
+            
+            threadgroup auto& patchVertex = patchVertices[thread_position_in_threadgroup * CONTROL_POINTS_PER_THREAD + threadOffset];
+            
+            
+            
+            
+            
+            OsdComputePerVertex(float4(v.position,1), patchVertex, vertexId, transforms.modelViewProjectionTransform, osdBuffers);
+        }
+    }
+    
+#if NEEDS_BARRIER
+    threadgroup_barrier(mem_flags::mem_threadgroup);
+#endif
+    
+    
+    
+    
+    
+    if(validThread)
+    {
+#if PATCHES_PER_THREADGROUP > 1
+        auto patch = patchVertices + subthreadgroup_in_threadgroup * CONTROL_POINTS_PER_THREAD * CONTROL_POINTS_PER_PATCH;
+#else
+        
+        auto patch = patchVertices;
+#endif
+        
+        if(!OsdCullPerPatchVertex(patch, transforms.modelViewTransform))
+        {
+#if !OSD_USE_PATCH_INDEX_BUFFER
+            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[0] = 0.0h;
+            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[1] = 0.0h;
+            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[2] = 0.0h;
+            quadTessellationFactors[real_threadgroup].edgeTessellationFactor[3] = 0.0h;
+            quadTessellationFactors[real_threadgroup].insideTessellationFactor[0] = 0.0h;
+            quadTessellationFactors[real_threadgroup].insideTessellationFactor[1] = 0.0h;
+#endif
+            
+            patchParam[subthreadgroup_in_threadgroup].z = -1;
+#if !NEEDS_BARRIER
+            return;
+#endif
+        }
+    }
+    
+#if NEEDS_BARRIER
+    threadgroup_barrier(mem_flags::mem_threadgroup);
+#endif
+    
+    
+    
+    
+    if(validThread && patchParam[subthreadgroup_in_threadgroup].z != -1)
+    {
+        for(unsigned threadOffset = 0; threadOffset < CONTROL_POINTS_PER_THREAD; threadOffset++)
+        {
+            OsdComputePerPatchVertex(
+                                     patchParam[subthreadgroup_in_threadgroup],
+                                     real_thread_in_threadgroup * CONTROL_POINTS_PER_THREAD + threadOffset,
+                                     real_threadgroup,
+                                     thread_position_in_grid * CONTROL_POINTS_PER_THREAD + threadOffset,
+                                     patchVertices + subthreadgroup_in_threadgroup * CONTROL_POINTS_PER_PATCH,
+                                     osdBuffers
+                                     );
+        }
+    }
+    
+#if NEEDS_BARRIER
+    threadgroup_barrier(mem_flags::mem_device_and_threadgroup);
+#endif
+    
+    
+    
+    
+    if(validThread && real_thread_in_threadgroup == 0)
+    {
+        
+#if OSD_USE_PATCH_INDEX_BUFFER
+        const auto patchId = atomic_fetch_add_explicit((device atomic_uint*)&drawIndirectCommands->patchCount, 1, memory_order_relaxed);
+        patchIndex[patchId] = real_threadgroup;
+#else
+        const auto patchId = real_threadgroup;
+#endif
+        
+        OsdComputePerPatchFactors(
+                                  patchParam[subthreadgroup_in_threadgroup],
+                                  tessellationLevel,
+                                  real_threadgroup,
+                                  transforms.projectionTransform,
+                                  transforms.modelViewTransform,
+                                  osdBuffers,
+                                  patchVertices + subthreadgroup_in_threadgroup * CONTROL_POINTS_PER_PATCH,
+                                  quadTessellationFactors[patchId]
+                                  );
+    }
+}
+
+#endif 
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (void)inputNormalizeDisparity;
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
-- (void)sitionUniversalIdentifier__MAPPING_MISSING__;
+- (void)__MPModelPropertyPlaylistEntryPositionUniversalIdentifier__MAPPING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic, getter=isBackgroundColorLight) _Bool backgroundColorLight; // @synthesize backgroundColorLight=_backgroundColorLight;
-@property(retain, nonatomic) NSColor *gradientColor; // @synthesize gradientColor=_gradientColor;
-@property(retain, nonatomic) NSNumber *gradientColorEndPosition; // @synthesize gradientColorEndPosition=_gradientColorEndPosition;
-@property(retain, nonatomic) NSNumber *gradientColorStartPosition; // @synthesize gradientColorStartPosition=_gradientColorStartPosition;
-@property(retain, nonatomic) NSArray *gradientTextColors; // @synthesize gradientTextColors=_gradientTextColors;
-@property(retain, nonatomic) NSColor *primaryTextColor; // @synthesize primaryTextColor=_primaryTextColor;
-@property(readonly, nonatomic, getter=isPrimaryTextColorLight) _Bool primaryTextColorLight; // @synthesize primaryTextColorLight=_primaryTextColorLight;
-@property(retain, nonatomic) NSColor *quaternaryTextColor; // @synthesize quaternaryTextColor=_quaternaryTextColor;
-@property(retain, nonatomic) NSColor *secondaryTextColor; // @synthesize secondaryTextColor=_secondaryTextColor;
-@property(readonly, nonatomic, getter=isSecondaryTextColorLight) _Bool secondaryTextColorLight; // @synthesize secondaryTextColorLight=_secondaryTextColorLight;
-@property(retain, nonatomic) NSColor *tertiaryTextColor; // @synthesize tertiaryTextColor=_tertiaryTextColor;
-@property(readonly, nonatomic, getter=isTertiaryTextColorLight) _Bool tertiaryTextColorLight; // @synthesize tertiaryTextColorLight=_tertiaryTextColorLight;
 
 @end
 

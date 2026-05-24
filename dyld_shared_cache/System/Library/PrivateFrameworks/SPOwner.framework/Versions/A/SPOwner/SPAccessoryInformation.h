@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SPAccessoryInformation
 {
     unsigned char _batteryType;
-    unsigned char _batteryState;
-    unsigned int _accessoryCapabilities;
-    NSData *_productData;
-    NSString *_manufacturerName;
-    NSString *_modelName;
-    NSString *_firmwareVersion;
-    NSString *_protocolVersion;
-    unsigned long long _accessoryCategory;
 }
 
 + (_Bool);
@@ -27,13 +19,13 @@
 - (id);
 - (void);
 - (unsigned char);
-- (void);
-- (unsigned char);
+- (void);
+- (unsigned char);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)IMMetricsCollectorEventMICAttachmentsToWriteRecordCount;
 - (void);
 - (void);
 - (id);
@@ -42,19 +34,11 @@
 - (void);
 - (void)Ð1Â0@ù
 × ;
-- (id)dAdvertisement;
-- (id)Key: /* Error: Ran out of types for this method. */;
+- (id)hashedAdvertisement;
+- (id)decodeArrayOfObjectsOfClass:forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int accessoryCapabilities; // @synthesize accessoryCapabilities=_accessoryCapabilities;
-@property(nonatomic) unsigned long long accessoryCategory; // @synthesize accessoryCategory=_accessoryCategory;
-@property(nonatomic) unsigned char batteryState; // @synthesize batteryState=_batteryState;
-@property(nonatomic) unsigned char batteryType; // @synthesize batteryType=_batteryType;
-@property(copy, nonatomic) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(copy, nonatomic) NSString *manufacturerName; // @synthesize manufacturerName=_manufacturerName;
-@property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
 @property(copy, nonatomic) NSData *productData; // @synthesize productData=_productData;
-@property(copy, nonatomic) NSString *protocolVersion; // @synthesize protocolVersion=_protocolVersion;
 
 @end
 

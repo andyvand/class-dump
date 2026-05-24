@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCollection, EDColorsCollection, EDContentFormatsCollection, EDFontsCollection, EDLinksCollection, EDStylesCollection, EDTableStylesCollection;
+@class EDCollection;
 
 __attribute__((visibility("hidden")))
 @interface EDResources
 {
     EDCollection *mStrings;
-    EDContentFormatsCollection *mContentFormats;
-    EDFontsCollection *mFonts;
-    EDCollection *mAlignmentInfos;
-    EDStylesCollection *mStyles;
-    EDColorsCollection *mColors;
-    EDColorsCollection *mThemes;
-    EDCollection *mNames;
-    EDLinksCollection *mLinks;
-    EDCollection *mBorders;
-    EDCollection *mBorder;
-    EDCollection *mFills;
-    EDCollection *mDifferentialStyles;
-    EDTableStylesCollection *mTableStyles;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

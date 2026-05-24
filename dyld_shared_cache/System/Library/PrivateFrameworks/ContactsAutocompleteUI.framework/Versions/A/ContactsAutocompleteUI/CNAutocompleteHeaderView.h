@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteSeparatorView, NSArray, NSString, NSTextField;
+@class NSTextField;
 
 @interface CNAutocompleteHeaderView
 {
     _Bool _showDividerLine;
-    unsigned long long _dividerType;
-    NSString *_labelString;
-    NSTextField *_label;
-    NSArray *_headerConstraints;
-    CNAutocompleteSeparatorView *_dividerLine;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -33,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (void);
 - (id);
@@ -43,15 +38,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Ƣ;
 
 // Remaining properties
-@property(readonly, nonatomic) CNAutocompleteSeparatorView *dividerLine; // @synthesize dividerLine=_dividerLine;
-@property(nonatomic) unsigned long long dividerType; // @synthesize dividerType=_dividerType;
-@property(retain, nonatomic) NSArray *headerConstraints; // @synthesize headerConstraints=_headerConstraints;
 @property(retain, nonatomic) NSTextField *label; // @synthesize label=_label;
-@property(nonatomic) NSString *labelString; // @synthesize labelString=_labelString;
-@property(nonatomic) _Bool showDividerLine; // @synthesize showDividerLine=_showDividerLine;
 
 @end
 

@@ -19,8 +19,8 @@
 - (id);
 - (void);
 - (id);
-- (id)OfEmailAddress;
-- (void)aringChannelHandleCSgXw;
+- (id)_checkFormatOfEmailAddress;
+- (void)So22PKSharingChannelHandleCSgXw;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *beneficiaries; // @synthesize beneficiaries=_beneficiaries;

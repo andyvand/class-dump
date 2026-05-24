@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRDetectorConfiguration, CRPerformanceStatistics;
-
 @interface CRNeuralTextDetector
 {
     _Bool _shouldCancel;
-    CRDetectorConfiguration *_configuration;
-    CRPerformanceStatistics *_detectorStats;
-    CRPerformanceStatistics *_postProcStats;
-    CRPerformanceStatistics *_inferenceStats;
 }
 
 + (id);
@@ -32,14 +26,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void)ructureMerge}{?=^{CRTableStructureMerge}}}}24@0:8@16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) CRDetectorConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain) CRPerformanceStatistics *detectorStats; // @synthesize detectorStats=_detectorStats;
-@property(retain) CRPerformanceStatistics *inferenceStats; // @synthesize inferenceStats=_inferenceStats;
-@property(retain) CRPerformanceStatistics *postProcStats; // @synthesize postProcStats=_postProcStats;
 @property _Bool shouldCancel; // @synthesize shouldCancel=_shouldCancel;
 
 @end

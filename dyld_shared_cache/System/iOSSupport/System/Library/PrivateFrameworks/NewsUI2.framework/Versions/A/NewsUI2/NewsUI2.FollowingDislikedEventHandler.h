@@ -7,9 +7,6 @@
 @interface NewsUI2.FollowingDislikedEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
 }
 
 @end

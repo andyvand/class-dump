@@ -6,26 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSCarrierLinkParams, AMSEngagement, AMSMetrics, AMSProcessInfo, AMSPromise, AMSURLRequestEncoder, AMSURLSession, NSDictionary, NSString;
-@protocol AMSBagProtocol, AMSCarrierLinkTaskDelegate;
+@class ACAccount;
 
 @interface AMSCarrierLinkTask : AMSTask
 {
     ACAccount *_account;
-    NSDictionary *_additionalLinkingParameters;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    id <AMSCarrierLinkTaskDelegate> _delegate;
-    AMSCarrierLinkParams *_linkParams;
-    NSDictionary *_metricsOverlay;
-    NSString *_productCode;
-    AMSEngagement *_engagementHandler;
-    NSString *_guid;
-    AMSMetrics *_metrics;
-    NSString *_msisdn;
-    AMSURLRequestEncoder *_requestEncoder;
-    AMSURLSession *_urlSession;
-    AMSPromise *_pacTokenPromise;
 }
 
 + (id);
@@ -39,28 +24,28 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id));
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)per IMSharedHelperBusinessExtensionsPayloadDataAbsolutePathFromRelativePath called for relativePath %@;
+- (id);
+- (void);
+- (id)logKeyboardInputFollowedByContinueOccurredForLanguage: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -76,27 +61,6 @@ Pì£EùiÕ3oÓ5¥Cÿ°VêzÆ dØ>®Hô»]áqÍ+wË-½[ç¨N�
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSDictionary *additionalLinkingParameters; // @synthesize additionalLinkingParameters=_additionalLinkingParameters;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSCarrierLinkTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) AMSEngagement *engagementHandler; // @synthesize engagementHandler=_engagementHandler;
-@property(readonly) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSCarrierLinkParams *linkParams; // @synthesize linkParams=_linkParams;
-@property(readonly) AMSMetrics *metrics; // @synthesize metrics=_metrics;
-@property(copy) NSDictionary *metricsOverlay; // @synthesize metricsOverlay=_metricsOverlay;
-@property(readonly) NSString *msisdn; // @synthesize msisdn=_msisdn;
-@property(readonly) AMSPromise *pacTokenPromise; // @synthesize pacTokenPromise=_pacTokenPromise;
-@property(readonly) NSString *productCode; // @synthesize productCode=_productCode;
-@property(readonly) AMSURLRequestEncoder *requestEncoder; // @synthesize requestEncoder=_requestEncoder;
-@property(readonly) Class superclass;
-@property(readonly) AMSURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

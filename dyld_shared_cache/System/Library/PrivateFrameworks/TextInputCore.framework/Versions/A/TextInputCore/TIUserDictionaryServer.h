@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSString, NSUUID;
+@class NSObject, NSUUID;
 @protocol OS_dispatch_queue;
 
 @interface TIUserDictionaryServer
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSMutableArray *_observers;
-    NSArray *_cache;
-    _Bool _updating;
-    int _pendingUpdates;
-    unsigned long long _keyboardActivityState;
-    long long _recentClientCount;
-    NSUUID *_userDictionaryUUID;
 }
 
 + (void);
@@ -31,9 +24,9 @@
 - (void);
 - (void);
 - (id);
+- (void)v;
 - (void);
-- (void);
-- (void);
+- (void)trisql_cte_rhs;
 - (void);
 - (void);
 - (void);
@@ -43,13 +36,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSUUID *userDictionaryUUID; // @synthesize userDictionaryUUID=_userDictionaryUUID;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol WiFiAwareDatapathXPCDelegate
+- (void);
 @end
 

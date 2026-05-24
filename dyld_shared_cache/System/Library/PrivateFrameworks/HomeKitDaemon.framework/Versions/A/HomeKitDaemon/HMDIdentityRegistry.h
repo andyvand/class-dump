@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, NSArray, NSMutableArray, NSRecursiveLock, NSString;
+@class HMDHomeManager, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDIdentityRegistry
 {
     NSMutableArray *_registeredIdentities;
-    HMDHomeManager *_homeManager;
-    NSRecursiveLock *_lock;
 }
 
 + (id);
@@ -21,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)r:(id)arg1 didGetLastSnapshot: /* Error: Ran out of types for this method. */;
+- (id)streamSnapshotHandler:(id)arg1 didGetLastSnapshot: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)}@Received invalid first session fragment:%@ /* Error: Ran out of types for this method. */;
 - (id)@, error %@;
@@ -38,16 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)visionVoiceOverAudioDuckingEnabled;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, nonatomic) NSRecursiveLock *lock; // @synthesize lock=_lock;
-@property(readonly) NSArray *registeredIdentities;
-@property(readonly) Class superclass;
 
 @end
 

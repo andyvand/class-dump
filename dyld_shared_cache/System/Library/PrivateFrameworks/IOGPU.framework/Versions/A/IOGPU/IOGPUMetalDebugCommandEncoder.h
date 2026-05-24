@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLResourceList;
-
 @interface IOGPUMetalDebugCommandEncoder
 {
     void *_kernelCommandBufferCurrent;
-    void *_kernelCommandBufferEnd;
-    struct IOGPUResourceList *_resourceList;
-    MTLResourceList *_api_resourceList;
 }
 
 - (void);
-- (void *);
+- (void *)d;
 - (void);
 - (unsigned int);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)f~;
+- (void)4;
 
 @end
 

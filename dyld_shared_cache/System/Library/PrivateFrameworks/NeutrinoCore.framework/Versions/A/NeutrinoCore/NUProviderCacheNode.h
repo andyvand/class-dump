@@ -14,7 +14,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)operties: /* Error: Ran out of types for this method. */;
+- (id)colorSpaceFromVideoColorProperties: /* Error: Ran out of types for this method. */;
 
 @end
 

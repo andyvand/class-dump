@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol GEOTransitVehicleUpdaterDelegate;
 
 @interface GEOTransitVehicleUpdater
 {
     id <GEOTransitVehicleUpdaterDelegate> _delegate;
-    _Bool _active;
-    NSSet *_tripIDs;
 }
 
 - (void);
@@ -21,13 +18,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)w^;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
 @property(nonatomic) __weak id <GEOTransitVehicleUpdaterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSSet *tripIDs; // @synthesize tripIDs=_tripIDs;
 
 @end
 

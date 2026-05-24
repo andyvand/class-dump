@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JEMediaActivity, JEMediaTimeTracker, NSMutableArray, NSObject, NSString;
-@protocol JEMediaPlaylist;
+@class NSObject;
 
 @interface JEMediaActivityTracker
 {
     _Bool _shouldGenerateTransitions;
-    NSObject *_pipeline;
-    id <JEMediaPlaylist> _playlist;
-    JEMediaActivity *_playActivity;
-    JEMediaActivity *_seekActivity;
-    NSString *_topic;
-    NSMutableArray *_eventData;
-    JEMediaTimeTracker *_timeTracker;
 }
 
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 - (void);
-- (id);
+- (id){;
 - (void);
-- (void);
+- (void)z;
 - (void);
 - (id);
 - (_Bool);
@@ -33,35 +25,28 @@
 - (void);
 - (void);
 - (id);
+- (void)˛l;
+- (void)~^m;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)ax_addedConstraintForLayoutAttribute:asEqualToLayoutAttribute:ofView:withOffset: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *eventData; // @synthesize eventData=_eventData;
 @property(retain, nonatomic) NSObject *pipeline; // @synthesize pipeline=_pipeline;
-@property(retain, nonatomic) JEMediaActivity *playActivity; // @synthesize playActivity=_playActivity;
-@property(retain, nonatomic) id <JEMediaPlaylist> playlist; // @synthesize playlist=_playlist;
-@property(retain, nonatomic) JEMediaActivity *seekActivity; // @synthesize seekActivity=_seekActivity;
-@property(nonatomic) _Bool shouldGenerateTransitions; // @synthesize shouldGenerateTransitions=_shouldGenerateTransitions;
-@property(retain, nonatomic) JEMediaTimeTracker *timeTracker; // @synthesize timeTracker=_timeTracker;
-@property(retain, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end
 

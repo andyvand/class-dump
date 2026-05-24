@@ -9,22 +9,18 @@
 @interface GEOPDDatasetABStatus
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _datasetId;
-    struct {
-        unsigned int has_datasetId:1;
-    } _flags;
 }
 
-+ (_Bool)tHasYCoordinate:(id)arg1;
++ (_Bool)setHasYCoordinate:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)@;
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)iceTrigger CSAudioServerCrashMonitorDidReceiveServerRestart:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -34,13 +30,11 @@
 - (id)oordinate:endRouteCoordinate:maneuverStartRouteCoordinate: /* Error: Ran out of types for this method. */;
 - (unsigned int)D&;
 - (id)°ð° ²ô²³°î <ï;
-- (id)guidanceEvents;
+- (id)_guidanceEvents;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int datasetId;
 @property(nonatomic) _Bool hasDatasetId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

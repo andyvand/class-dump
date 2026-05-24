@@ -9,8 +9,6 @@
 @interface _UIIntelligenceRimHighlightEffect : UIVisualEffect
 {
     id config;
-    unsigned long long activationTransitionDirection;
-    unsigned long long deactivationTransitionDirection;
 }
 
 - (void);
@@ -21,7 +19,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool):(id)arg1;
+- (_Bool)applicationWillSuspend:(id)arg1;
 - (void)ated tvOS method not executed on this platform:(id)arg1 %@;
 - (_Bool);
 - (void):AÐgl /* Error: Ran out of types for this method. */;

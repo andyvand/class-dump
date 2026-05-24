@@ -6,12 +6,9 @@
 
 #import <CoreHAP/HAP2AccessoryServerPairingDriverWorkItem.h>
 
-@class NSError;
-
 @interface HAP2AccessoryServerPairingDriverTransportControlWorkItem : HAP2AccessoryServerPairingDriverWorkItem
 {
     _Bool _connect;
-    NSError *_cancelError;
 }
 
 + (id);
@@ -20,15 +17,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)ssi;
+- (void)rssi;
 - (_Bool)}tu via %{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *cancelError; // @synthesize cancelError=_cancelError;
 @property(readonly, nonatomic) _Bool connect; // @synthesize connect=_connect;
 
 @end

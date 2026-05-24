@@ -7,35 +7,11 @@
 @interface PromotedContentUI.VideoPlayerView
 {
     id player;
-    id accessoryView;
-    id delegate;
-    id wasPausedByUser;
-    id didSetupQuartileObservers;
-    id countdownLabel;
-    id activityIndicator;
-    id assetFailedToLoadImageView;
-    id playbackControlButton;
-    id muteButton;
-    id configuration;
-    id playerItem;
-    id hidingAnimationDuration;
-    id controlHidingDelay;
-    id startedInitialPlayback;
-    id playerLayer;
-    id tapGestureRecognizer;
-    id playerLooper;
-    id playerTimeControlStatusObserver;
-    id playerItemStatusObserver;
-    id timeObserverToken;
-    id quartileTimeObserverTokens;
-    id playbackDidFinishTask;
-    id appLifecycleObserverTask;
-    id hideControlsTask;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)D;
 - (void);
 - (id);
 - (void);

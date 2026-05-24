@@ -9,7 +9,6 @@
 @interface SiriCoreZlibDataCompressor : SiriCoreDataCompressor
 {
     struct z_stream_s _deflateStream;
-    unsigned char _deflateBuffer[8192];
 }
 
 - (id);

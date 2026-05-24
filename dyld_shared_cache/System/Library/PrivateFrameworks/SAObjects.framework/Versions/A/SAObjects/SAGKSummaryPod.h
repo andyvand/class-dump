@@ -6,27 +6,25 @@
 
 #import <SAObjects/SAGKPodView.h>
 
-@class NSString, SAUIImageResource;
+@class NSString;
 
 @interface SAGKSummaryPod : SAGKPodView
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)@;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *caption;
-@property(retain, nonatomic) SAUIImageResource *imageResource;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface CKImageTransparencyTrimmer
 {
     int _bitmapSize;
-    int _bytesPerRow;
-    UIImage *_image;
-    char *_bitmap;
-    struct CGSize _size;
 }
 
-- (double);
-- (double);
-- (double);
-- (struct CGRect);
-- (double);
-- (id);
-- (unsigned char);
+- (double)filenameFromTitle: /* Error: Ran out of types for this method. */;
+- (double)fileWrapperFromRange:documentAttributes:error: /* Error: Ran out of types for this method. */;
+- (double)fileWrapperForNote: /* Error: Ran out of types for this method. */;
+- (struct CGRect)fileWrapper;
+- (double)fileURLWithPath:isDirectory: /* Error: Ran out of types for this method. */;
+- (id)filePromiseProvider:(id)arg1 writePromiseToURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned char)created;
 - (_Bool);
 - (void);
 - (int);
@@ -40,14 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)$Ø¤è;
 
 // Remaining properties
-@property(nonatomic) char *bitmap; // @synthesize bitmap=_bitmap;
-@property(nonatomic) int bitmapSize; // @synthesize bitmapSize=_bitmapSize;
-@property(nonatomic) int bytesPerRow; // @synthesize bytesPerRow=_bytesPerRow;
-@property(readonly, nonatomic) double height;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly, nonatomic) struct CGRect trimmedFrame;
-@property(readonly, nonatomic) double width;
 
 @end
 

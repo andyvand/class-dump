@@ -17,10 +17,10 @@
 + (id);
 + (void);
 + (id);
-+ (void);
++ (void);
 + (void);
 + (id);
-- (id);
+- (id)SB;
 
 @end
 

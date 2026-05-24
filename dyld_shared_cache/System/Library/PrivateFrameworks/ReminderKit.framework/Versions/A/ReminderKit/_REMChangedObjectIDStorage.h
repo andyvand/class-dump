@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface _REMChangedObjectIDStorage
 {
     NSUUID *_uuid;
-    NSString *_entityName;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)letion:(id)arg1 %s;
 - (void);
 - (id);
 - (id);
@@ -26,14 +25,6 @@
 - (id)ergeableStringUndoGroup %p %@>;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *entityName; // @synthesize entityName=_entityName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

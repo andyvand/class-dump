@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKNavigationController, AKNavigationItem;
+@class AKNavigationItem;
 
 @interface UnknownClass (AKNavigationControllerItem)
+- (id)f;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) AKNavigationController *ak_navigationController;
 @property(readonly, nonatomic) AKNavigationItem *ak_navigationItem;
 @end
 

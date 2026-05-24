@@ -7,17 +7,11 @@
 @class NSString, _INPBAppIdentifier;
 
 @protocol _INPBIntent
+- (void)1@�_;
+- (NSString *);
+- (void)c;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAppIdentifier *appIdentifier;
-@property(copy, nonatomic) NSString *encodedIntent;
-@property(copy, nonatomic) NSString *encodedIntentDefinition;
-@property(nonatomic) int encodingFormat;
-@property(readonly, nonatomic) _Bool hasAppIdentifier;
-@property(readonly, nonatomic) _Bool hasEncodedIntent;
-@property(readonly, nonatomic) _Bool hasEncodedIntentDefinition;
-@property(nonatomic) _Bool hasEncodingFormat;
-@property(readonly, nonatomic) _Bool hasIntentTypeName;
-@property(copy, nonatomic) NSString *intentTypeName;
 @end
 

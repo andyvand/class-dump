@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSMutableSet, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeAssistantOperation
 {
     _Bool _completionHandlerCalled;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFTimer *_accessoryConnectivityWaitTimer;
-    NSSet *_accessoriesToOperateOn;
-    NSMutableSet *_reachableAccessoriesToOperateOn;
-    CDUnknownBlockType _completionHandler;
 }
 
-+ (id);
++ (id)8h;
 + (id);
 + (id);
 - (void);
 - (void);
 - (void);
 - (void)submitting modification requests because did not find an access code control point on accessory:(id)arg1 %@;
-- (void)angeNotification;
+- (void)HMDHomeIsResidentFirstAccessoryCommunicationEnabledDidChangeNotification;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

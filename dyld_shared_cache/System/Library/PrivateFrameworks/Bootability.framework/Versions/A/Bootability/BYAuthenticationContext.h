@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, NSData, NSString;
+@class NSString;
 
 @interface BYAuthenticationContext
 {
     _Bool _interactive;
-    _Bool _successfullyEvaluated;
-    NSString *_username;
-    NSString *_password;
-    NSData *_inLocalAuthenticationContext;
-    NSString *_volumeGroupUUID;
-    LAContext *_context;
 }
 
 - (_Bool);
@@ -27,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)er;
 - (_Bool);
 - (id);
 - (void);
@@ -38,13 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) LAContext *context; // @synthesize context=_context;
-@property(retain) NSData *inLocalAuthenticationContext; // @synthesize inLocalAuthenticationContext=_inLocalAuthenticationContext;
-@property _Bool interactive; // @synthesize interactive=_interactive;
-@property(retain) NSString *password; // @synthesize password=_password;
-@property _Bool successfullyEvaluated; // @synthesize successfullyEvaluated=_successfullyEvaluated;
 @property(retain) NSString *username; // @synthesize username=_username;
-@property(retain) NSString *volumeGroupUUID; // @synthesize volumeGroupUUID=_volumeGroupUUID;
 
 @end
 

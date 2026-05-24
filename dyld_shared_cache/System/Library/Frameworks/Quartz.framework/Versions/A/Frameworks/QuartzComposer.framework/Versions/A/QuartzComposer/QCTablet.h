@@ -6,24 +6,16 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCBooleanPort, QCNumberPort;
+@class QCNumberPort;
 
 @interface QCTablet : QCPatch
 {
     QCNumberPort *outputX;
-    QCNumberPort *outputY;
-    QCNumberPort *outputTiltX;
-    QCNumberPort *outputTiltY;
-    QCNumberPort *outputPressure;
-    QCBooleanPort *outputTipButton;
-    QCBooleanPort *outputLowerButton;
-    QCBooleanPort *outputUpperButton;
-    struct CGRect _bounds;
 }
 
 + (int);
 + (int);
-+ (_Bool);
++ (_Bool)reServices;
 + (_Bool);
 - (_Bool);
 - (void);

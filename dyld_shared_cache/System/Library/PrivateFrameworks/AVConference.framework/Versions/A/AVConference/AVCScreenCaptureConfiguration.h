@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface AVCScreenCaptureConfiguration
 {
     _Bool _isWindowed;
-    _Bool _isCursorCaptured;
-    _Bool _shouldRunInProcess;
-    unsigned int _height;
-    unsigned int _width;
-    unsigned int _frameRate;
-    unsigned int _screenCaptureDisplayID;
-    unsigned int _selectiveSharingPort;
-    unsigned int _displayMode;
-    NSArray *_excludedApplicationBundleIDs;
-    NSArray *_excludedAudioAuditTokens;
-    NSString *_selectiveScreenUUID;
-    unsigned long long _pdProtectionOptions;
 }
 
 - (_Bool);
@@ -29,13 +15,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))	;
 - (void);
 - (void);
 - (void);
 - (unsigned int);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -45,29 +31,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (void);
-- (void);
+- (void)new_reminders_ui_macos;
+- (void)ggerDeviceTypeDistribution];
 - (unsigned int)efaultKey:featureFlagDomain:featureFlagName:normalizedRandom:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int displayMode; // @synthesize displayMode=_displayMode;
-@property(copy, nonatomic) NSArray *excludedApplicationBundleIDs; // @synthesize excludedApplicationBundleIDs=_excludedApplicationBundleIDs;
-@property(copy, nonatomic) NSArray *excludedAudioAuditTokens; // @synthesize excludedAudioAuditTokens=_excludedAudioAuditTokens;
-@property(nonatomic) unsigned int frameRate; // @synthesize frameRate=_frameRate;
 @property(nonatomic) unsigned int height; // @synthesize height=_height;
-@property(nonatomic) _Bool isCursorCaptured; // @synthesize isCursorCaptured=_isCursorCaptured;
-@property(nonatomic) _Bool isWindowed; // @synthesize isWindowed=_isWindowed;
-@property(nonatomic) unsigned long long pdProtectionOptions; // @synthesize pdProtectionOptions=_pdProtectionOptions;
-@property(nonatomic) unsigned int screenCaptureDisplayID; // @synthesize screenCaptureDisplayID=_screenCaptureDisplayID;
-@property(copy, nonatomic) NSString *selectiveScreenUUID; // @synthesize selectiveScreenUUID=_selectiveScreenUUID;
-@property(nonatomic) unsigned int selectiveSharingPort; // @synthesize selectiveSharingPort=_selectiveSharingPort;
-@property(nonatomic) _Bool shouldRunInProcess; // @synthesize shouldRunInProcess=_shouldRunInProcess;
-@property(nonatomic) unsigned int width; // @synthesize width=_width;
 
 @end
 

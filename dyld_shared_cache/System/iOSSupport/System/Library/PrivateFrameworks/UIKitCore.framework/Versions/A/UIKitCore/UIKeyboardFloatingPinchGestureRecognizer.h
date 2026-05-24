@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSMutableSet *_activeTouches;
 }
 
-- (void);
-- (id)ormForTouchedPage:(id)arg1;
-- (void)EventForHIDEvent:(id)arg1;
-- (void)tFromSceneReferenceSpace:(id)arg1;
+- (void);
+- (id)setActiveTransformForTouchedPage:(id)arg1;
+- (void)_touchesEventForHIDEvent:(id)arg1;
+- (void)_convertOffsetFromSceneReferenceSpace:(id)arg1;
 - (void):(id)arg1 `;
 - (void);
 

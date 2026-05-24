@@ -5,6 +5,7 @@
 //
 
 @protocol IMServiceForSendingTaskDelegate
+- (long long)(;
 
 // Remaining properties
 @property(readonly, nonatomic) long long taskDeadlineSeconds;

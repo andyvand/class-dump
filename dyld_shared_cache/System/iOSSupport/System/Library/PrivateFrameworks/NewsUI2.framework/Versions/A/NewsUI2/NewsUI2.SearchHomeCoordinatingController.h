@@ -7,17 +7,13 @@
 @interface NewsUI2.SearchHomeCoordinatingController
 {
     id searchController;
-    id delegate;
-    id searchHomeContainerController;
-    id pendingSearchTerm;
-    id pendingSearchOrigination;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (void);

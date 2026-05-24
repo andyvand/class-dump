@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface NSJoin
 {
     NSString *_sourceAttributeName;
-    NSString *_destinationAttributeName;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (_Bool);
 - (void);

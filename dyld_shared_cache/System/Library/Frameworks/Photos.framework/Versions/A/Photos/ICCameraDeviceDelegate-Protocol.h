@@ -5,5 +5,9 @@
 //
 
 @protocol ICCameraDeviceDelegate
+- (void)P;
+
+@optional
+- (void);
 @end
 

@@ -7,9 +7,10 @@
 @class NSData, _SFPBPerson;
 
 @protocol _SFPBPerformPersonEntityQueryCommand
+- (NSData *)setIsAvailable: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBPerson *person;
 @end
 

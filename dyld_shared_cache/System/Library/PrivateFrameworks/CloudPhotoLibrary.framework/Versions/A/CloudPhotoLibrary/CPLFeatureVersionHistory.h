@@ -9,21 +9,19 @@
 @interface CPLFeatureVersionHistory
 {
     NSMutableDictionary *_anchorToVersion;
-    NSMutableDictionary *_versionToAnchor;
-    long long _currentFeatureVersion;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (long long);
-- (void);
-- (long long);
+- (void);
+- (long long);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)5ó;
+- (_Bool);
 - (void);
 - (id);
 - (void)0@ù

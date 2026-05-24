@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSSet, NSString, SFAirDropTransfer;
+@class SFAirDropTransfer;
 
 @interface SFAirDropTransferTestingSnapshot
 {
     SFAirDropTransfer *_transfer;
-    NSDictionary *_initialInfo;
-    NSString *_nodeDisplayName;
-    NSString *_nodeRealName;
-    NSString *_nodeIdentifier;
-    NSSet *_nodeContactIdentifiers;
-    NSString *_nodeContactIdentifier;
-    NSData *_transferFileIcon;
-    NSData *_transferSmallFileIcon;
 }
 
 + (id);
@@ -25,10 +17,10 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,19 +35,11 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *initialInfo; // @synthesize initialInfo=_initialInfo;
-@property(retain, nonatomic) NSString *nodeContactIdentifier; // @synthesize nodeContactIdentifier=_nodeContactIdentifier;
-@property(retain, nonatomic) NSSet *nodeContactIdentifiers; // @synthesize nodeContactIdentifiers=_nodeContactIdentifiers;
-@property(retain, nonatomic) NSString *nodeDisplayName; // @synthesize nodeDisplayName=_nodeDisplayName;
-@property(retain, nonatomic) NSString *nodeIdentifier; // @synthesize nodeIdentifier=_nodeIdentifier;
-@property(retain, nonatomic) NSString *nodeRealName; // @synthesize nodeRealName=_nodeRealName;
 @property(retain, nonatomic) SFAirDropTransfer *transfer; // @synthesize transfer=_transfer;
-@property(retain, nonatomic) NSData *transferFileIcon; // @synthesize transferFileIcon=_transferFileIcon;
-@property(retain, nonatomic) NSData *transferSmallFileIcon; // @synthesize transferSmallFileIcon=_transferSmallFileIcon;
 
 @end
 

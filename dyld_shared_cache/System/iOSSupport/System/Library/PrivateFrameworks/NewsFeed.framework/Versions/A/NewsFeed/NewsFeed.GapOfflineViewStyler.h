@@ -7,8 +7,6 @@
 @interface NewsFeed.GapOfflineViewStyler
 {
     id fontBook;
-    id colorPalette;
-    id colorPaletteProvider;
 }
 
 @end

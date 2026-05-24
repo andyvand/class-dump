@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDRowBlock, EDRowBlocks;
+@class EDRowBlocks;
 
 __attribute__((visibility("hidden")))
 @interface EDCellIterator
 {
     EDRowBlocks *mRowBlocks;
-    EDRowBlock *mCurrentRowBlock;
-    struct EDRowInfo *mCurrentRowInfo;
-    unsigned int mCurrentRowInfoIndex;
-    struct EDCellHeader *mCurrentCell;
-    unsigned int mCurrentCellIndex;
-    unsigned int mDesiredRowNumber;
-    unsigned int mDesiredColumnNumber;
 }
 
 - (struct EDCellHeader *);
 - (id);
 - (struct EDCellHeader *);
-- (struct EDCellHeader *);
+- (struct EDCellHeader *);
 - (struct EDCellHeader *);
 - (void);
 - (void)¤;

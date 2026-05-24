@@ -6,7 +6,7 @@
 
 #import <AppKit/NSScrubberItemView.h>
 
-@class NSString, NSTextField;
+@class NSTextField;
 
 @interface NSScrubberTextItemView : NSScrubberItemView
 {
@@ -20,13 +20,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)urface;
-- (id)teButton:(struct CGRect)arg1;
+- (void)wantsExtendedDynamicRangeOpenGLSurface;
+- (id)menuItemsForWindowSharingSharedWindowRemoteButton:(struct CGRect)arg1;
 - (id)sPerSample:%ld  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSTextField *textField; // @synthesize textField=_textField;
-@property(copy) NSString *title;
 
 @end
 

@@ -9,33 +9,30 @@
 @interface NTPBSuggestionsFeedback
 {
     NSString *_feedback;
-    NSMutableArray *_grades;
 }
 
-+ (Class);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
++ (Class)_px_performSimulatedWorkStep: /* Error: Ran out of types for this method. */;
+- (void)feedHeroImagePaddingBottom;
+- (unsigned long long)containsContentSyndicationAssets;
+- (id)containsChapterBeginningWithAsset:(unsigned long long)arg1;
+- (id)containsChapterBeginningWithAsset: /* Error: Ran out of types for this method. */;
+- (void)colorWithCalibratedRed:green:blue:alpha: /* Error: Ran out of types for this method. */;
+- (void)clientIdentifier:(id)arg1 becomeCurrentClientIfNeeded:performAsyncPlayerTransaction: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)NSCoding;
+- (void)`;
+- (unsigned long long)_shouldPrepareForVitalityWhenReady;
+- (_Bool)requestStateRaw;
 - (id);
-- (_Bool);
+- (_Bool)fetch global ESL feed items from Smarter Fetch, count=%{public}ld, time=%{public}lldms;
 - (id);
 - (id);
-- (void)hSources;
+- (void)smarterFetchSources;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *feedback; // @synthesize feedback=_feedback;
 @property(retain, nonatomic) NSMutableArray *grades; // @synthesize grades=_grades;
-@property(readonly, nonatomic) _Bool hasFeedback;
 
 @end
 

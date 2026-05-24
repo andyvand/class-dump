@@ -7,8 +7,6 @@
 @interface FCThrottleRegistry
 {
     id lock;
-    id userDefaults;
-    id maxRetryAfter;
 }
 
 + (id)SError"16;
@@ -19,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void)tchBaseUrl;
+- (void)ckMultiFetchBaseUrl;
 
 @end
 

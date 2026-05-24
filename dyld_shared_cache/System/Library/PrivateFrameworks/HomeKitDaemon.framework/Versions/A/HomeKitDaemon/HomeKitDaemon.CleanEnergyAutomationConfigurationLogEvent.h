@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface HomeKitDaemon.CleanEnergyAutomationConfigurationLogEvent
 {
     void coreAnalyticsEventName;
-    id accessoryCount;
-    id cleanEnergyAutomationEnabledCount;
-    id isHomeConnectedToUtility;
-    id isHomeElectricityRatesEnabled;
-    id reducedUsageCount;
-    id containsConfigurationData;
-    unsigned long long coreAnalyticsEventOptions;
 }
 
 - (id);
@@ -27,10 +20,7 @@
 - (void)¬ò>;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
 @property(nonatomic, readonly) NSString *coreAnalyticsEventName;
-@property(nonatomic, readonly) unsigned long long coreAnalyticsEventOptions; // @synthesize coreAnalyticsEventOptions;
-@property(nonatomic, readonly) NSString *description;
 
 @end
 

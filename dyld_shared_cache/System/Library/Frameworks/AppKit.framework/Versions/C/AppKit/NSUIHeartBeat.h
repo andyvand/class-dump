@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSTimer;
-
 @interface NSUIHeartBeat
 {
     double _currentDate;
-    double _birthDate;
-    double _lastDate;
-    NSMutableSet *_clients;
-    NSTimer *_heartBeatTimer;
-    unsigned short _disableCount;
-    struct {
-        unsigned int _sessionIsActive:1;
-        unsigned int _reserved:31;
-    } _hbFlags;
 }
 
-+ (void);
-+ (_Bool);
++ (void)setExpectedProgressTarget:(double)arg1 forTaskWithIdentifier: /* Error: Ran out of types for this method. */;
++ (_Bool)tions are %u;
 + (double);
-+ (id);
++ (id)@;
+- (void)ubCC, skip comparing digest of the entire data;
+- (void);
+- (void)!;
+- (void);
+- (double)!;
 - (void);
 - (void);
 - (void);
+- (double)mInteractively is no longer supported. Please stop using it.;
+- (double)kTube == newTube;
+- (void)e Other;
 - (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (void);
-- (void);
-- (id);
+- (id);
 
 @end
 

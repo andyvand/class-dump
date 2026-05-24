@@ -9,13 +9,9 @@
 @interface ABGroupDropPasteboardData
 {
     NSArray *_peopleUids;
-    NSArray *_linkedPeopleUids;
-    NSArray *_groupUids;
-    NSArray *_entryUids;
-    NSArray *_filenames;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -33,10 +29,6 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSArray *entryUids; // @synthesize entryUids=_entryUids;
-@property(readonly) NSArray *filenames; // @synthesize filenames=_filenames;
-@property(readonly) NSArray *groupUids; // @synthesize groupUids=_groupUids;
-@property(readonly) NSArray *linkedPeopleUids; // @synthesize linkedPeopleUids=_linkedPeopleUids;
 @property(readonly) NSArray *peopleUids; // @synthesize peopleUids=_peopleUids;
 
 @end

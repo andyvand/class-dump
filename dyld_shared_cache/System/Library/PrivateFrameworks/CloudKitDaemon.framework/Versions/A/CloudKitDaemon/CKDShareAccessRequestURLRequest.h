@@ -6,13 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDShareAccessRequestURLRequest : CKDURLRequest
 {
     CDUnknownBlockType _shareAccessRequestedBlock;
-    NSArray *_shareMetadatasToRequestAccess;
-    NSMutableDictionary *_shareMetadataByRequestID;
 }
 
 - (id);
@@ -29,8 +27,6 @@
 - (void)ecord while forcing decryption and it has no properties requiring decryption;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType shareAccessRequestedBlock; // @synthesize shareAccessRequestedBlock=_shareAccessRequestedBlock;
-@property(retain, nonatomic) NSMutableDictionary *shareMetadataByRequestID; // @synthesize shareMetadataByRequestID=_shareMetadataByRequestID;
 @property(copy, nonatomic) NSArray *shareMetadatasToRequestAccess; // @synthesize shareMetadatasToRequestAccess=_shareMetadatasToRequestAccess;
 
 @end

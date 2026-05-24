@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PKSecureElementPassField
 {
     NSString *_key;
-    NSSet *_foreignReferenceIdentifiers;
-    long long _unitType;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)Aq";
 - (void);
 - (long long);
 - (id);
 - (void);
-- (void)CE_BILL_PAYMENT_CATEGORY_REMAINING_STATEMENT_BALANCE_GAP_MESSAGE_NO_STATEMENT;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_REMAINING_STATEMENT_BALANCE_GAP_MESSAGE_NO_STATEMENT;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *foreignReferenceIdentifiers; // @synthesize foreignReferenceIdentifiers=_foreignReferenceIdentifiers;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) long long unitType; // @synthesize unitType=_unitType;
 
 @end
 

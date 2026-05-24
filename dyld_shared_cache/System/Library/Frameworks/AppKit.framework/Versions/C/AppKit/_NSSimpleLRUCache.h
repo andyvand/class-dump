@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSSimpleLRUCache
 {
     struct os_unfair_lock_s _lock;
-    unsigned int _seed;
-    unsigned long long _limit;
-    NSMutableArray *_keysAndValues;
 }
 
+- (id)cDMEnn3aw;
+- (id)A;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)NSTailIndentRulerMarkerTag;
 - (unsigned long long)t;
 - (unsigned long long)ØWÿÿ;
 - (id)View.CenterGroup.Center;
-- (void)locked;
+- (void)DidEnsureUnlocked;
 
 // Remaining properties
-@property(readonly) unsigned long long count;
 @property(readonly) unsigned long long limit;
 
 @end

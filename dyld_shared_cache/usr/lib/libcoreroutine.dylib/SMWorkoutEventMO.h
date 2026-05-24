@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, SMCacheMO, SMInitiatorContactMO, SMLocationMO;
+@class NSUUID;
 
 @interface SMWorkoutEventMO
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)<v@?@"NSError">24;
++ (id)@"NSData"@"NSData"@"NSArray"@"NSError">24;
++ (id)etch failed:(id)arg1 %@;
++ (id)AKPDPState value:(id)arg1 %lu;
++ (id)dyMessage:sendingURI:sendingPushToken:receivingURI:receivingPushToken:signedByPublicIdentity:decryptionBlock:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) short activityType; // @dynamic activityType;
-@property(retain, nonatomic) SMCacheMO *cache; // @dynamic cache;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
 @property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(retain, nonatomic) SMInitiatorContactMO *initiatorContact; // @dynamic initiatorContact;
-@property(nonatomic) _Bool isResumedSessionState; // @dynamic isResumedSessionState;
-@property(retain, nonatomic) SMLocationMO *location; // @dynamic location;
-@property(nonatomic) short locationType; // @dynamic locationType;
-@property(copy, nonatomic) NSUUID *sessionIdentifier; // @dynamic sessionIdentifier;
-@property(nonatomic) short sessionState; // @dynamic sessionState;
-@property(nonatomic) short swimmingLocationType; // @dynamic swimmingLocationType;
 
 @end
 

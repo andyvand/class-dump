@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContainerPropertyDescription, NSString;
+@class CNContainerPropertyDescription;
 
 __attribute__((visibility("hidden")))
 @interface CNContainerUpdate
 {
     CNContainerPropertyDescription *_property;
-    id _value;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
+- (id)brary/Caches/com.apple.xbs/TemporaryDirectory.58lTJs/Sources/ipTelephony/Source/Daemon/Core/AWD/cpp/CATM.pb.cc;
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (void)Aq&°!XGùQ*°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

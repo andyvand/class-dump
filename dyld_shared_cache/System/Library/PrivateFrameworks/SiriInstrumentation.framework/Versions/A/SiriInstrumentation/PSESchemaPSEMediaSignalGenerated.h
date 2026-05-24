@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PSESchemaPSECommonSignal, PSESchemaPSEMedia;
+@class PSESchemaPSECommonSignal;
 
 @interface PSESchemaPSEMediaSignalGenerated : SISchemaInstrumentationMessage
 {
     PSESchemaPSECommonSignal *_commonSignal;
-    PSESchemaPSEMedia *_mediaSignal;
-    _Bool _hasCommonSignal;
-    _Bool _hasMediaSignal;
 }
 
 - (void);
@@ -26,24 +23,20 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)`;
+- (id);
+- (void)y;
+- (unsigned long long)ldRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:94 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)eindex scheduling from stored state because indexing context decoding failed;
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)tToSpeak;
+- (id)_textToSpeak;
 - (id)eResponseCount;
-- (void)ON_CONTACT;
+- (void)FLOWSTATUSREASON_RELATIONSHIP_NOT_FOUND_FROM_SKELTON_CONTACT;
 
 // Remaining properties
 @property(retain, nonatomic) PSESchemaPSECommonSignal *commonSignal; // @synthesize commonSignal=_commonSignal;
-@property(nonatomic) _Bool hasCommonSignal; // @synthesize hasCommonSignal=_hasCommonSignal;
-@property(nonatomic) _Bool hasMediaSignal; // @synthesize hasMediaSignal=_hasMediaSignal;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PSESchemaPSEMedia *mediaSignal; // @synthesize mediaSignal=_mediaSignal;
 
 @end
 

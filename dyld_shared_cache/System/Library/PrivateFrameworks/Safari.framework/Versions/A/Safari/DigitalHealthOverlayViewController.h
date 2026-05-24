@@ -6,13 +6,12 @@
 
 #import <Safari/TabDialogViewController.h>
 
-@class NSURL, STBlockingViewController;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface DigitalHealthOverlayViewController : TabDialogViewController
 {
     NSURL *_currentURL;
-    STBlockingViewController *_associatedBlockingViewController;
 }
 
 - (id);
@@ -23,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (void)ä;
 
 // Remaining properties
-@property(readonly, nonatomic) STBlockingViewController *associatedBlockingViewController; // @synthesize associatedBlockingViewController=_associatedBlockingViewController;
 @property(readonly, nonatomic) NSURL *currentURL; // @synthesize currentURL=_currentURL;
 
 @end

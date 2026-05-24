@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationContext, AKAppleIDAuthenticationController, AKAppleIDServerResourceLoadDelegate, AKAppleIDSession, CDPStateUIController, NSMapTable, NSString, NSURLRequest, WebPreferences, WebView;
-@protocol MMWebKitControllerDelegate;
+@class WebPreferences;
 
 @interface MMWebKitController
 {
     WebPreferences *_webPreferences;
-    WebView *_webView;
-    NSURLRequest *_loadingRequest;
-    AKAppleIDSession *_appleIDSession;
-    AKAppleIDAuthenticationController *_appleIDController;
-    AKAppleIDAuthenticationContext *_authContext;
-    CDPStateUIController *cdpStateUIController;
-    AKAppleIDServerResourceLoadDelegate *_loadDelegate;
-    NSString *_appleID;
-    NSString *_password;
-    NSString *_oldPassword;
-    NSString *_altDSID;
-    unsigned long long _gsType;
-    _Bool _setupResourceDelegate;
-    struct {
-        unsigned int webViewSetFrame:1;
-        unsigned int delegateConfigureForFrame:1;
-        unsigned int delegateDidCreateJavaScriptContextFrame:1;
-        unsigned int delegateDidCancel:1;
-        unsigned int delegateDidSucceed:1;
-        unsigned int delegateDidFailLoading:1;
-        unsigned int delegateDidFinishLoading:1;
-        unsigned int delegateDidReceiveResponse:1;
-        unsigned int delegateWindow:1;
-        unsigned int padding:1;
-    } _delegateFlags;
-    struct os_unfair_lock_s _signpostEndBlocksLock;
-    id <MMWebKitControllerDelegate> _delegate;
-    NSMapTable *_signpostEndBlocks;
 }
 
 - (id);
@@ -46,14 +17,15 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
+- (void)3;
+- (CDUnknownBlockType)?
+k	3;
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool)]7Uh;
 - (id);
 - (void);
 - (void);
@@ -63,7 +35,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -79,12 +51,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)!HAùY1Â0@ù
 × ;
 - (id)add new recovery contact flow;
@@ -92,23 +64,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <MMWebKitControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long gsType; // @synthesize gsType=_gsType;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSURLRequest *loadingRequest; // @synthesize loadingRequest=_loadingRequest;
-@property(retain, nonatomic) NSString *oldPassword; // @synthesize oldPassword=_oldPassword;
-@property(retain, nonatomic) NSString *password; // @synthesize password=_password;
-@property(retain, nonatomic) NSMapTable *signpostEndBlocks; // @synthesize signpostEndBlocks=_signpostEndBlocks;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) WebPreferences *webPreferences; // @synthesize webPreferences=_webPreferences;
-@property(retain, nonatomic) WebView *webView; // @synthesize webView=_webView;
 
 @end
 

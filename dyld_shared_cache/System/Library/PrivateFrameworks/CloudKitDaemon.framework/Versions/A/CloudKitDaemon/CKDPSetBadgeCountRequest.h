@@ -7,39 +7,31 @@
 @interface CKDPSetBadgeCountRequest
 {
     unsigned int _badgeCount;
-    _Bool _forDevice;
-    struct {
-        unsigned int badgeCount:1;
-        unsigned int forDevice:1;
-    } _has;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)#;
 - (_Bool);
 - (void);
 - (unsigned int);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ow in flushFromRemoteMediaTime timestamp computation;
 - (_Bool);
-- (_Bool);
+- (_Bool)L;
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)nonymousAccount;
+- (Class)initAnonymousAccount;
 
 // Remaining properties
-@property(nonatomic) unsigned int badgeCount; // @synthesize badgeCount=_badgeCount;
-@property(nonatomic) _Bool forDevice; // @synthesize forDevice=_forDevice;
 @property(nonatomic) _Bool hasBadgeCount;
-@property(nonatomic) _Bool hasForDevice;
 
 @end
 

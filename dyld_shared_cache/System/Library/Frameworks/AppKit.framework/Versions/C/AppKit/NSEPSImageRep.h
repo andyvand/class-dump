@@ -6,20 +6,16 @@
 
 #import <AppKit/NSImageRep.h>
 
-@class NSData, NSPDFImageRep;
-
 @interface NSEPSImageRep : NSImageRep
 {
     struct CGPoint _bBoxOrigin;
-    NSData *_epsData;
-    NSPDFImageRep *_pdfImageRep;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)0 ORDER BY time_stamp ASC LIMIT %q);
 + (void)¬oÿ;
 - (void);
 - (id);
@@ -31,7 +27,6 @@
 - (void)HªA;
 
 // Remaining properties
-@property(readonly, copy) NSData *EPSRepresentation;
 @property(readonly) struct CGRect boundingBox;
 
 @end

@@ -6,43 +6,25 @@
 
 #import <HomeKitDaemon/_MKFNotificationRegistration.h>
 
-@class MKFNotificationRegistrationMediaPropertyDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFAccessory, MKFGuest, MKFHome, MKFUser;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFNotificationRegistrationMediaProperty : _MKFNotificationRegistration
 {
 }
 
-+ (id);
++ (id)C
+;
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)q;
 - (id);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFAccessory> accessory; // @dynamic accessory;
-@property(readonly, copy, nonatomic) MKFNotificationRegistrationMediaPropertyDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceIdsDestination;
-@property(copy, nonatomic) NSNumber *enabled;
-@property(retain, nonatomic) id <MKFGuest> guest;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <MKFHome> home;
-@property(copy, nonatomic) NSDate *lastModified;
 @property(copy, nonatomic) NSUUID *mediaProfileIdentifier; // @dynamic mediaProfileIdentifier;
-@property(copy, nonatomic) NSString *mediaProperty; // @dynamic mediaProperty;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFUser> user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

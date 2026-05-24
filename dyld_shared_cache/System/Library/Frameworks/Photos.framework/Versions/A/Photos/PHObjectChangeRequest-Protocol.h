@@ -7,6 +7,7 @@
 @class NSManagedObjectID;
 
 @protocol PHObjectChangeRequest
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectID *objectID;

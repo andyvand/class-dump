@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void)40B48;
-- (id)mentDidSafeSave;
+- (id)GSLibraryDocumentDidSafeSave;
 - (void);
 
 // Remaining properties

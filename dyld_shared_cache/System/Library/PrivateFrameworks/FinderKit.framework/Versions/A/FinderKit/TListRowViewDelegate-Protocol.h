@@ -5,5 +5,7 @@
 //
 
 @protocol TListRowViewDelegate
+- (void)V;
+- (void)H;
 @end
 

@@ -16,8 +16,8 @@
 - (float);
 - (unsigned int);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)nsportControlsView";
+- (unsigned long long)0:(id)arg1 8@?16;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

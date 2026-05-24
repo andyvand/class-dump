@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSNumber, NSObject, NSURL;
-@protocol OS_nw_path, OS_nw_resolution_report;
+@class NSError;
 
 @interface NWURLError
 {
     NSError *_underlyingError;
-    NSURL *_failingURL;
-    struct __SecTrust *_peerTrust;
-    NSNumber *_networkUnavailableReason;
-    NSNumber *_backgroundTaskCancelledReason;
-    NSNumber *_webSocketHandshakeFailureReason;
-    NSNumber *_privacyProxyFailure;
-    NSNumber *_vpnInactiveFailure;
-    NSNumber *_blockedTrackerFailure;
-    NSObject<OS_nw_path> *_path;
-    NSObject<OS_nw_resolution_report> *_resolutionReport;
-    NSData *_downloadTaskResumeData;
-    NSData *_uploadTaskResumeData;
 }
 
 + (id);
@@ -33,6 +20,7 @@
 - (long long);
 - (long long);
 - (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -42,15 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -58,12 +38,20 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (id)ceViewControllerForTouchBarItem touchBarProvidersForWindow:includingWindowItself:] /* Error: Ran out of types for this method. */;
+- (id)oke;
 - (id);
-- (id);
+- (void)value is %d **************************************************;
+- (id);
+- (id)t nits:%g, reference preset:%d
+ /* Error: Ran out of types for this method. */;
 - (struct __SecTrust *);
 - (void);
-- (void);
+- (void)A;
 - (id)activeBrowsers;
 - (id)blic,uuid_t}.16P %{public}s<->%{public}s]
 	Connected Path:%{public}@
@@ -72,19 +60,7 @@
 - (void)@;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *backgroundTaskCancelledReason; // @synthesize backgroundTaskCancelledReason=_backgroundTaskCancelledReason;
-@property(retain, nonatomic) NSNumber *blockedTrackerFailure; // @synthesize blockedTrackerFailure=_blockedTrackerFailure;
-@property(retain, nonatomic) NSData *downloadTaskResumeData; // @synthesize downloadTaskResumeData=_downloadTaskResumeData;
-@property(retain, nonatomic) NSURL *failingURL; // @synthesize failingURL=_failingURL;
-@property(retain, nonatomic) NSNumber *networkUnavailableReason; // @synthesize networkUnavailableReason=_networkUnavailableReason;
-@property(retain, nonatomic) NSObject<OS_nw_path> *path; // @synthesize path=_path;
-@property(retain, nonatomic) struct __SecTrust *peerTrust; // @synthesize peerTrust=_peerTrust;
-@property(retain, nonatomic) NSNumber *privacyProxyFailure; // @synthesize privacyProxyFailure=_privacyProxyFailure;
-@property(retain, nonatomic) NSObject<OS_nw_resolution_report> *resolutionReport; // @synthesize resolutionReport=_resolutionReport;
 @property(retain, nonatomic) NSError *underlyingError; // @synthesize underlyingError=_underlyingError;
-@property(retain, nonatomic) NSData *uploadTaskResumeData; // @synthesize uploadTaskResumeData=_uploadTaskResumeData;
-@property(retain, nonatomic) NSNumber *vpnInactiveFailure; // @synthesize vpnInactiveFailure=_vpnInactiveFailure;
-@property(retain, nonatomic) NSNumber *webSocketHandshakeFailureReason; // @synthesize webSocketHandshakeFailureReason=_webSocketHandshakeFailureReason;
 
 @end
 

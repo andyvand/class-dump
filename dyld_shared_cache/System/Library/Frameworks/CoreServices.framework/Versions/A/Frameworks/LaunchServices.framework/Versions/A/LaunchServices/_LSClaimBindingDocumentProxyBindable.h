@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     LSDocumentProxy *_documentProxy;
 }
 
-+ (_Bool);
++ (_Bool)tring"24@0:8@"NSArray"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (struct BindingEvaluator);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)H ;
 - (void)ô;
 
 @end

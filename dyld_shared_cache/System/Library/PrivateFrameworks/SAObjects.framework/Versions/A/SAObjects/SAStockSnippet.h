@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, SAUIAppPunchOut;
+@class SAUIAppPunchOut;
 
 @interface SAStockSnippet : SAUISnippet
 {
@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAUIAppPunchOut *appPunchOut;
-@property(copy, nonatomic) NSArray *stocks;
 
 @end
 

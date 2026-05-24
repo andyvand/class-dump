@@ -9,8 +9,6 @@
 @interface PXSharedAlbumNavigationAttributes
 {
     NSString *_invitationAlbumUUID;
-    NSString *_revealAssetUUID;
-    NSString *_commentGUID;
 }
 
 + (id);
@@ -20,9 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *commentGUID; // @synthesize commentGUID=_commentGUID;
 @property(readonly, nonatomic) NSString *invitationAlbumUUID; // @synthesize invitationAlbumUUID=_invitationAlbumUUID;
-@property(readonly, nonatomic) NSString *revealAssetUUID; // @synthesize revealAssetUUID=_revealAssetUUID;
 
 @end
 

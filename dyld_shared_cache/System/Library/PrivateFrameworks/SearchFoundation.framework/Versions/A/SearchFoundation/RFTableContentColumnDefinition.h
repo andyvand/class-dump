@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface RFTableContentColumnDefinition
 {
@@ -13,12 +13,6 @@
         unsigned int disable_truncation:1;
         unsigned int should_drop_in_flow_layout:1;
     } _has;
-    _Bool _disable_truncation;
-    _Bool _should_drop_in_flow_layout;
-    int _horizontal_alignment;
-    NSNumber *_size_percent;
-    NSNumber *_drop_order;
-    NSNumber *_equal_size_column_group;
 }
 
 + (_Bool);
@@ -33,36 +27,22 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)mrTranscriptAlignment;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)trashedIdentifiersAsDeletes;
+- (id)lete action is already in progress.;
 - (id);
 - (id);
 - (void)enceFootnoteCardSection;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool disable_truncation; // @synthesize disable_truncation=_disable_truncation;
-@property(copy, nonatomic) NSNumber *drop_order; // @synthesize drop_order=_drop_order;
-@property(copy, nonatomic) NSNumber *equal_size_column_group; // @synthesize equal_size_column_group=_equal_size_column_group;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int horizontal_alignment; // @synthesize horizontal_alignment=_horizontal_alignment;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool should_drop_in_flow_layout; // @synthesize should_drop_in_flow_layout=_should_drop_in_flow_layout;
 @property(copy, nonatomic) NSNumber *size_percent; // @synthesize size_percent=_size_percent;
-@property(readonly) Class superclass;
 
 @end
 

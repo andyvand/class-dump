@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     long long _splitViewControllerIndex;
 }
 
-- (long long);
+- (long long)_configureSyncedDefaultsWithOverride: /* Error: Ran out of types for this method. */;
+- (void)o",&,N;
 - (void);
-- (void);
-- (long long);
+- (long long)th interval:%f /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
-- (id);
-- (void)rAppearanceComparedToTraitCollection:(id)arg1;
+- (id)nsBuffer:(id)arg1 keypointCountBuffer:keypointCount:debugIntermediatesBuffer:cumulativePointsBuffer:tileCountBuffer: /* Error: Ran out of types for this method. */;
+- (void)hasDifferentColorAppearanceComparedToTraitCollection:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) long long destinationContainmentContext; // @synthesize destinationContainmentContext=_destinationContainmentContext;

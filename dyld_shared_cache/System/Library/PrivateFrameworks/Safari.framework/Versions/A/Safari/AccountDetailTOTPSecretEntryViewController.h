@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSString, NSTextField, WBSSavedAccount;
-@protocol AccountDetailTOTPSecretEntryViewControllerDelegate;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AccountDetailTOTPSecretEntryViewController
 {
     _Bool _isDismissing;
-    WBSSavedAccount *_savedAccount;
-    id <AccountDetailTOTPSecretEntryViewControllerDelegate> _delegate;
-    NSTextField *_secretField;
-    NSButton *_addButton;
-    NSTextField *_explanatoryTextField;
 }
 
 - (void);
@@ -26,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (id);
 - (void);
 - (id);
@@ -39,18 +33,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)MæÿÌ Ðè-;
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *addButton; // @synthesize addButton=_addButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AccountDetailTOTPSecretEntryViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSTextField *explanatoryTextField; // @synthesize explanatoryTextField=_explanatoryTextField;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) WBSSavedAccount *savedAccount; // @synthesize savedAccount=_savedAccount;
 @property(nonatomic) __weak NSTextField *secretField; // @synthesize secretField=_secretField;
-@property(readonly) Class superclass;
 
 @end
 

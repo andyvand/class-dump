@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface RPContactInfo
 {
     NSString *_identifier;
-    NSData *_imageData;
-    NSString *_deviceName;
-    NSString *_givenName;
-    NSString *_familyName;
-    NSDate *_expiryDate;
 }
 
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)to write;
+- (void)ˬڗ;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)etchTimer;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)clearCameraCapabilitiesRefetchTimer;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(copy, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 
 @end
 

@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMDataPointValue, NSArray, NSAttributedString, NSNumber, NSString;
+@class AXMDataPointValue;
 
 @interface AXMDataPoint
 {
     AXMDataPointValue *_xValue;
-    AXMDataPointValue *_yValue;
-    NSArray *_additionalValues;
-    NSAttributedString *_attributedLabel;
-    NSString *_valueDescription;
-    AXMDataPointValue *_timeEncodingValue;
-    NSNumber *_pitchEncodingValue;
-    NSNumber *_volumeEncodingValue;
-    NSNumber *_durationEncodingValue;
-    NSString *_timbreEncodingValue;
-    double _playbackTimeOffsetMS;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)\|;
+- (id)�#z;
 - (void);
-- (void);
+- (void)|;
 - (double);
 - (id);
 - (id);
+- (id)S;
 - (id);
-- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)o;
 - (void);
 - (id);
 - (id);
@@ -47,28 +37,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)setTintColor:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalValues; // @synthesize additionalValues=_additionalValues;
-@property(copy, nonatomic) NSAttributedString *attributedLabel; // @synthesize attributedLabel=_attributedLabel;
-@property(copy, nonatomic) NSNumber *durationEncodingValue; // @synthesize durationEncodingValue=_durationEncodingValue;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSNumber *pitchEncodingValue; // @synthesize pitchEncodingValue=_pitchEncodingValue;
-@property(nonatomic) double playbackTimeOffsetMS; // @synthesize playbackTimeOffsetMS=_playbackTimeOffsetMS;
-@property(copy, nonatomic) NSString *timbreEncodingValue; // @synthesize timbreEncodingValue=_timbreEncodingValue;
 @property(copy, nonatomic) AXMDataPointValue *timeEncodingValue; // @synthesize timeEncodingValue=_timeEncodingValue;
-@property(copy, nonatomic) NSString *valueDescription; // @synthesize valueDescription=_valueDescription;
-@property(copy, nonatomic) NSNumber *volumeEncodingValue; // @synthesize volumeEncodingValue=_volumeEncodingValue;
-@property(copy, nonatomic) AXMDataPointValue *xValue; // @synthesize xValue=_xValue;
-@property(copy, nonatomic) AXMDataPointValue *yValue; // @synthesize yValue=_yValue;
-@property(readonly, nonatomic) AXMDataPointValue *zCategoryAxisValue;
-@property(readonly, nonatomic) AXMDataPointValue *zNumericAxisValue;
 
 @end
 

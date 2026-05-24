@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreArtworkInfo, NSString;
+@class NSString;
 
 @interface ICMusicSocialProfile
 {
     _Bool _isPrivate;
-    _Bool _isVerified;
-    NSString *_name;
-    NSString *_handle;
-    NSString *_socialProfileID;
-    ICStoreArtworkInfo *_artworkInfo;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)timeIntervalSinceDate: /* Error: Ran out of types for this method. */;
+- (id)pendingAccessoryInvitations;
 - (_Bool);
 - (id);
 - (id);
@@ -29,16 +24,11 @@
 - (void);
 - (id);
 - (id);
-- (void)ndler;
+- (void)ICStoreURLResponseHandler;
 - (_Bool)oud.ICDelegateAccountStoreServiceListener.callbackQueue;
 
 // Remaining properties
-@property(readonly, nonatomic) ICStoreArtworkInfo *artworkInfo; // @synthesize artworkInfo=_artworkInfo;
-@property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool isPrivate; // @synthesize isPrivate=_isPrivate;
-@property(readonly, nonatomic) _Bool isVerified; // @synthesize isVerified=_isVerified;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *socialProfileID; // @synthesize socialProfileID=_socialProfileID;
 
 @end
 

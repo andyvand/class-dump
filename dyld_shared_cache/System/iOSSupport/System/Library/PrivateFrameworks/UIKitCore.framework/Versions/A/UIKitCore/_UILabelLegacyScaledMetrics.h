@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString;
-
 __attribute__((visibility("hidden")))
 @interface _UILabelLegacyScaledMetrics
 {
     double _actualScaleFactor;
-    double _baselineOffset;
-    double _scaledBaselineOffset;
-    double _scaledLineHeight;
-    long long _measuredNumberOfLines;
-    NSAttributedString *_scaledAttributedText;
-    double _scaledFirstBaselineOffset;
-    struct CGSize _scaledSize;
-    struct CGSize _unscaledAndPossiblyTooLargeSize;
 }
 
 - (void);
-- (void);
+- (void)chunkserver__storage_container_chunk_lists__free_unpacked;
 - (void);
 - (struct CGSize);
 - (void);
@@ -36,25 +26,17 @@ __attribute__((visibility("hidden")))
 - (double)d1Â0@ù
 × ;
 - (void)tainer:(double)arg1;
-- (double)UIScreenRoutePickerRemoteViewControllerHost;
+- (double)_UIScreenRoutePickerRemoteViewControllerHost;
 - (long long)Ø(
 àLì;
 - (void)Y;
 - (double);
-- (double)itionAdjustment;
+- (double)UISearchTextPositionAdjustment;
 - (void)esolvers:(double)arg1;
 - (void)TitleElementsHiddenKey;
 
 // Remaining properties
-@property(nonatomic) double actualScaleFactor; // @synthesize actualScaleFactor=_actualScaleFactor;
-@property(nonatomic) double baselineOffset; // @synthesize baselineOffset=_baselineOffset;
-@property(nonatomic) long long measuredNumberOfLines; // @synthesize measuredNumberOfLines=_measuredNumberOfLines;
-@property(retain, nonatomic) NSAttributedString *scaledAttributedText; // @synthesize scaledAttributedText=_scaledAttributedText;
-@property(nonatomic) double scaledBaselineOffset; // @synthesize scaledBaselineOffset=_scaledBaselineOffset;
-@property(nonatomic) double scaledFirstBaselineOffset; // @synthesize scaledFirstBaselineOffset=_scaledFirstBaselineOffset;
-@property(nonatomic) double scaledLineHeight; // @synthesize scaledLineHeight=_scaledLineHeight;
 @property(nonatomic) struct CGSize scaledSize; // @synthesize scaledSize=_scaledSize;
-@property(nonatomic) struct CGSize unscaledAndPossiblyTooLargeSize; // @synthesize unscaledAndPossiblyTooLargeSize=_unscaledAndPossiblyTooLargeSize;
 
 @end
 

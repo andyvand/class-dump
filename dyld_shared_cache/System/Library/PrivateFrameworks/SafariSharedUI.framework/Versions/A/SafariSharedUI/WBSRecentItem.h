@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSImage, NSItemProvider, NSString, NSURL;
-@protocol NSObject><NSCopying, WBSCloudTabItem, WBSCloudTabProvider;
+@protocol NSObject><NSCopying;
 
 @interface WBSRecentItem
 {
     id <NSObject><NSCopying> _identifier;
-    NSURL *_URL;
-    NSDate *_date;
-    NSImage *_icon;
-    NSString *_title;
-    NSItemProvider *_imageProvider;
-    id <WBSCloudTabItem> _cloudTab;
-    id <WBSCloudTabProvider> _device;
 }
 
 - (void);
@@ -40,15 +32,7 @@
 - (void)nifest",R,N;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(retain, nonatomic) id <WBSCloudTabItem> cloudTab; // @synthesize cloudTab=_cloudTab;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) id <WBSCloudTabProvider> device; // @synthesize device=_device;
-@property(readonly, copy, nonatomic) NSString *deviceLocationDescription;
-@property(retain, nonatomic) NSImage *icon; // @synthesize icon=_icon;
 @property(readonly, nonatomic) id <NSObject><NSCopying> identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSItemProvider *imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGRequestStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ispatch_source>";
+- (_Bool)ifier;
+- (_Bool)T syndication_type = 0;
 - (id);
 - (id);
-- (id)aluated;
-- (id)mScore;
-- (_Bool)SSALREASON_USER_REMOVE_FROM_EAR;
-- (_Bool)tContext;
-- (void)Type;
+- (id)deleteNumStatementsEvaluated;
+- (id)_hasUemScore;
+- (_Bool)DISMISSALREASON_USER_REMOVE_FROM_EAR;
+- (_Bool)playlistContext;
+- (void)IFTSchemaIFTPrimitiveType;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

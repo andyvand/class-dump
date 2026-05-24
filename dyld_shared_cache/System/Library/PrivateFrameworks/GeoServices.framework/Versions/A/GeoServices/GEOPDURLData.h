@@ -4,52 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalizedString, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDURLData
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLocalizedString *_displayTitle;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_444e29a1 _flags;
 }
 
-+ (_Bool)Language:(id)arg1;
++ (_Bool)setInputLanguage:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)Zone=}16;
+- (id)initWithOptions:capacity: /* Error: Ran out of types for this method. */;
+- (void)ty on ATV;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)A;
+- (void)_MKLocalSearchExternalTransitLookupParameters;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id)32;
-- (id)archOriginationEditingServerWaypoints: /* Error: Ran out of types for this method. */;
-- (id)ol;
+- (id)setSearchOriginationEditingServerWaypoints: /* Error: Ran out of types for this method. */;
+- (id)_sfSymbol;
 - (id)ð/¸0;
-- (id)KWARD_WEB_CONTENT;
+- (id)SCROLL_BACKWARD_WEB_CONTENT;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOLocalizedString *displayTitle;
 @property(readonly, nonatomic) _Bool hasDisplayTitle;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *url;
 
 @end
 

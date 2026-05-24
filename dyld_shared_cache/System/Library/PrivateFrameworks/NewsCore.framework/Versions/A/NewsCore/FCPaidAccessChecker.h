@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCExperimentalPaywallConfiguration, FCThreadSafeMutableSet, NSSet;
-@protocol FCBundleCampaignManagerType, FCBundleSubscriptionProviderType, FCCoreConfigurationManager, FCPurchaseProviderType;
+@protocol FCBundleSubscriptionProviderType, FCPurchaseProviderType;
 
 @interface FCPaidAccessChecker
 {
     id <FCPurchaseProviderType> _purchaseProvider;
-    id <FCBundleSubscriptionProviderType> _bundleSubscriptionProvider;
-    id <FCBundleCampaignManagerType> _bundleCampaignManager;
-    id <FCCoreConfigurationManager> _configurationManager;
-    CDUnknownBlockType _configurationBlock;
-    FCThreadSafeMutableSet *_notificationOpenedArticleIDsSet;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -30,15 +24,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)NumberofViewportsBetweenAds;
+- (_Bool)feedNumberofViewportsBetweenAds;
 - (void)etch ForYouConfig headlines without a bundle subscription manager;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCBundleCampaignManagerType> bundleCampaignManager; // @synthesize bundleCampaignManager=_bundleCampaignManager;
 @property(readonly, nonatomic) id <FCBundleSubscriptionProviderType> bundleSubscriptionProvider; // @synthesize bundleSubscriptionProvider=_bundleSubscriptionProvider;
-@property(readonly, nonatomic) FCExperimentalPaywallConfiguration *experimentalPaywallConfig;
-@property(readonly, nonatomic) NSSet *notificationOpenedArticleIDs;
-@property(readonly, nonatomic) id <FCPurchaseProviderType> purchaseProvider; // @synthesize purchaseProvider=_purchaseProvider;
 
 @end
 

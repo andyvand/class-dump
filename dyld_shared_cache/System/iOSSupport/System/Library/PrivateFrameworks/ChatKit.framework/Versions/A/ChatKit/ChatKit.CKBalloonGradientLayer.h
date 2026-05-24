@@ -7,9 +7,6 @@
 @interface ChatKit.CKBalloonGradientLayer
 {
     id gradientReferenceView;
-    id configuration;
-    id animationDelegate;
-    id gradientOverrideFrame;
 }
 
 - (id);
@@ -19,7 +16,7 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (void):(struct CGRect)arg1;
+- (void)setNetworkActivityIndicatorVisible:(struct CGRect)arg1;
 - (void)ÿÿ;
 - (void);
 

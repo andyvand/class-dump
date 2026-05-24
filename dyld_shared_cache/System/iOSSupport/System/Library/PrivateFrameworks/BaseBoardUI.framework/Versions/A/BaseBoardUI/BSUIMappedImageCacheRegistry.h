@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, NSURL;
+@class NSURL;
 
 @interface BSUIMappedImageCacheRegistry
 {
     NSURL *_cachesPath;
-    NSString *_tmpPath;
-    NSMutableSet *_uniqueIdentifiers;
-    struct os_unfair_lock_s _tmpPathLock;
 }
 
 - (void);

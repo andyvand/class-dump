@@ -6,26 +6,15 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString, RTBatteryManager, RTBluetoothManager, RTCameraManager, RTDarwinNotificationHelper, RTHintStore, RTLearnedLocationManager, RTLocationManager, RTMetricManager, RTNavigationManager, RTPersistenceManager, RTReachabilityManager, RTWalletManager;
+@class RTBatteryManager;
 
 @interface RTHintManager : RTService
 {
     RTBatteryManager *_batteryManager;
-    RTBluetoothManager *_bluetoothManager;
-    RTCameraManager *_cameraManager;
-    RTDarwinNotificationHelper *_notificationHelper;
-    RTHintStore *_hintStore;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLocationManager *_locationManager;
-    RTMetricManager *_metricManager;
-    RTNavigationManager *_navigationManager;
-    RTPersistenceManager *_persistenceManager;
-    RTReachabilityManager *_reachabilityManager;
-    RTWalletManager *_walletManager;
 }
 
 + (long long);
-+ (id);
++ (id)a;
 - (void);
 - (id);
 - (void);
@@ -57,21 +46,21 @@
 - (void);
 - (id);
 - (id);
+- (id)#;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (id)1Â0@ù
 × ;
 - (void)72Q80@88B96;
-- (void)romCacheDownloadFailedToCachePersistenceDueToEvent:(id)arg1;
-- (void)te:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)transitionFromCacheDownloadFailedToCachePersistenceDueToEvent:(id)arg1;
+- (void)_getSunsetDateAtLocation:(id)arg1 date:error: /* Error: Ran out of types for this method. */;
 - (void)T;
 - (id)ÿÿº;
-- (void)arEventsLatency;
+- (void)calendarEventsLatency;
 - (id)RTSourceMapsSupportFavoritePlace;
-- (void)y_visits_weekdays_others_bucketed;
+- (void)median_daily_visits_weekdays_others_bucketed;
 - (void), aggregateTime %{sensitive}f [h], latestVisit %{sensitive}f, density Daily %{sensitive}f, density Weekly %{sensitive}f ;
 - (void);
 - (id)%@,watchCacheIdentifier,%@;
@@ -84,24 +73,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTBatteryManager *batteryManager; // @synthesize batteryManager=_batteryManager;
-@property(retain, nonatomic) RTBluetoothManager *bluetoothManager; // @synthesize bluetoothManager=_bluetoothManager;
-@property(retain, nonatomic) RTCameraManager *cameraManager; // @synthesize cameraManager=_cameraManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTHintStore *hintStore; // @synthesize hintStore=_hintStore;
-@property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMetricManager *metricManager; // @synthesize metricManager=_metricManager;
-@property(retain, nonatomic) RTNavigationManager *navigationManager; // @synthesize navigationManager=_navigationManager;
-@property(retain, nonatomic) RTDarwinNotificationHelper *notificationHelper; // @synthesize notificationHelper=_notificationHelper;
-@property(retain, nonatomic) RTPersistenceManager *persistenceManager; // @synthesize persistenceManager=_persistenceManager;
-@property(retain, nonatomic) RTReachabilityManager *reachabilityManager; // @synthesize reachabilityManager=_reachabilityManager;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTWalletManager *walletManager; // @synthesize walletManager=_walletManager;
 
 @end
 

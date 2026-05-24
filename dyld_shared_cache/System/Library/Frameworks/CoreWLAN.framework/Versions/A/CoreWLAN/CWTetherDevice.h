@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CWTetherDevice
 {
     NSString *_deviceIdentifier;
-    NSString *_deviceName;
-    NSNumber *_batteryLife;
-    NSNumber *_signalStrength;
-    unsigned long long _networkType;
-    unsigned long long _deviceGroup;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
+- (id)(J;
+- (void);
+- (void)4;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -40,12 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSNumber *batteryLife; // @synthesize batteryLife=_batteryLife;
-@property unsigned long long deviceGroup; // @synthesize deviceGroup=_deviceGroup;
 @property(copy) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(copy) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property unsigned long long networkType; // @synthesize networkType=_networkType;
-@property(copy) NSNumber *signalStrength; // @synthesize signalStrength=_signalStrength;
 
 @end
 

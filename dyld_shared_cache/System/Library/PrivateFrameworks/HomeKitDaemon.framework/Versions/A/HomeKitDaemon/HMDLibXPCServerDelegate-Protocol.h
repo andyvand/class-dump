@@ -5,5 +5,6 @@
 //
 
 @protocol HMDLibXPCServerDelegate
+- (void)gate;
 @end
 

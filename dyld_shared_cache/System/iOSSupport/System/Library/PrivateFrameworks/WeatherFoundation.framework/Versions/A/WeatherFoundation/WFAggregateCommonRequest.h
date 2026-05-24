@@ -6,17 +6,11 @@
 
 #import <WeatherFoundation/WFTask.h>
 
-@class NSLocale, NSString, WFLocation, WFRequestOptions;
+@class NSLocale;
 
 @interface WFAggregateCommonRequest : WFTask
 {
     int _units;
-    WFLocation *_location;
-    unsigned long long _types;
-    WFRequestOptions *_requestOptions;
-    NSString *_trackingParameter;
-    CDUnknownBlockType _completionHandler;
-    NSLocale *_locale;
 }
 
 - (id);
@@ -27,27 +21,21 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (int);
+- (id);
+- (int)initWithObjectID:listType:listID:topLevelElementIDs:secondaryLevelElementIDsByTopLevelElementID:uncommitedElementsAccountID:modifiedDate: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) WFLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) WFRequestOptions *requestOptions; // @synthesize requestOptions=_requestOptions;
-@property(readonly, nonatomic) NSString *trackingParameter; // @synthesize trackingParameter=_trackingParameter;
-@property(readonly, nonatomic) unsigned long long types; // @synthesize types=_types;
-@property(readonly, nonatomic) int units; // @synthesize units=_units;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, RPCompanionLinkClient;
+@class NSMutableSet, RPCompanionLinkClient;
 
 @interface MRCompanionLinkClient
 {
     NSMutableSet *_pendingRegisteredEvents;
-    NSMutableSet *_registeredEvents;
-    NSMutableArray *_pendingEvents;
-    NSMutableSet *_pendingRegisteredRequests;
-    NSMutableSet *_registeredRequests;
-    NSMutableArray *_pendingRequests;
-    RPCompanionLinkClient *_connection;
-    NSMutableDictionary *_eventCallbacks;
-    NSMutableDictionary *_requestCallbacks;
 }
 
 + (id);
@@ -28,16 +20,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
+- (id)eGUIDs:(id)arg1 );
+- (void)ered:(id)arg1 '%f', hasGroupActivity:%@, wasDetonated:%@, isSOS:%@, isCritical %@, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -53,10 +45,7 @@
 - (id)ries;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *companionLinkDevices;
 @property(retain, nonatomic) RPCompanionLinkClient *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSMutableDictionary *eventCallbacks; // @synthesize eventCallbacks=_eventCallbacks;
-@property(retain, nonatomic) NSMutableDictionary *requestCallbacks; // @synthesize requestCallbacks=_requestCallbacks;
 
 @end
 

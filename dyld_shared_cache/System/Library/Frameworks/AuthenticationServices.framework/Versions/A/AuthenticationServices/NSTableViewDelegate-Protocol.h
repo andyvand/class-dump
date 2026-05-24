@@ -4,6 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSCell, NSIndexSet, NSNotification, NSString, NSTableColumn, NSTableRowView, NSTableView, NSView;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (void)setAlwaysLogAllTimingResults:(NSNotification *)arg1;
+- (void)setAllowsExpensiveBlockListChecking:(NSNotification *)arg1;
+- (void)setAllowedChatBotExtensions:(NSNotification *)arg1;
+- (void)setAllowList:(NSNotification *)arg1 account: /* Error: Ran out of types for this method. */;
+- (void)setAdaptiveImageGlyphContentIdentifier:(NSTableView *)arg1;
+- (NSView *)setActualParentChatId:(NSTableView *)arg1;
+- (void)setAccessibilityString:(NSTableView *)arg1;
+- (_Bool)setAcceptedContactsChangeNotifier:(NSTableView *)arg1;
+- (NSString *);
+- (NSString *)serviceOfLastMessage;
+- (double)serviceForClientIdentifier:(NSTableView *)arg1;
+- (_Bool)serviceAllowedTrafficClassifiersDidReset:(NSTableView *)arg1;
+- (_Bool)service:(NSTableView *)arg1 sendMessage:(NSCell *)arg2 toDestinations:(NSTableColumn *)arg3 priority:(long long)arg4 options:identifier:error: /* Error: Ran out of types for this method. */;
+- (_Bool)dentifier:(NSTableView *)arg1 error:(NSTableColumn *)arg2;
+- (_Bool)service:(NSTableView *)arg1 sendMessage:(NSTableColumn *)arg2 fromAccount:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
+- (_Bool)service:(NSTableView *)arg1 nearbyDevicesChanged:(long long)arg2;
+- (_Bool)service:(NSTableView *)arg1 didSwitchActivePairedDevice:(long long)arg2 acknowledgementBlock:(long long)arg3;
+- (_Bool)service:(NSTableView *)arg1 didSendOpportunisticDataWithIdentifier:(NSTableColumn *)arg2 toIDs:(long long)arg3;
+- (NSIndexSet *)service:(NSTableView *)arg1 connectedDevicesChanged:(NSIndexSet *)arg2;
+- (NSTableRowView *)service:(NSTableView *)arg1 chat:(long long)arg2 style:messagesUpdated: /* Error: Ran out of types for this method. */;
+- (NSArray *)service:(NSTableView *)arg1 activeAccountsChanged:(long long)arg2;
+- (long long)service:(NSTableView *)arg1 account:(long long)arg2 pendingResourceWithMetadata:(long long)arg3 fromID:(NSString *)arg4 acknowledgementBlock:context: /* Error: Ran out of types for this method. */;
+- (void)service:(NSTableView *)arg1 account:(NSTableColumn *)arg2 inviteReceivedForSession:fromID:withContext: /* Error: Ran out of types for this method. */;
+- (_Bool)service:(NSTableView *)arg1 account:(long long)arg2 inviteReceivedForSession:fromID: /* Error: Ran out of types for this method. */;
+- (double)service:(NSTableView *)arg1 account:(long long)arg2 incomingUnhandledProtobuf:fromID:context: /* Error: Ran out of types for this method. */;
+- (void)service:(NSTableView *)arg1 account:(NSTableRowView *)arg2 incomingOpportunisticData:(long long)arg3 withIdentifier:fromID:context: /* Error: Ran out of types for this method. */;
+- (void)service:(NSTableView *)arg1 account:(NSTableColumn *)arg2 incomingMessage:fromID:context: /* Error: Ran out of types for this method. */;
+- (NSCell *)service:(NSTableView *)arg1 account:(NSTableColumn *)arg2 identifier:(long long)arg3 hasBeenDeliveredWithContext: /* Error: Ran out of types for this method. */;
+- (_Bool)_spotlightEventsAreTimeSensitiveKey;
+- (void)p;
 @end
 

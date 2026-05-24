@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMutableDictionary, OKDocumentViewController, OKDocumentWidget;
+
 @protocol OKDocumentViewControllerEditingDelegate
+
+@optional
+- (void)backgroundSessionConfigurationWithIdentifier:(OKDocumentViewController *)arg1;
+- (_Bool)letion:(OKDocumentViewController *)arg1;
+- (_Bool)assemblePayloadsWithEntries:(OKDocumentViewController *)arg1 lastUploadDatesByContentType:(OKDocumentWidget *)arg2 droppedEnvelopeReasonsToUpload:(NSMutableDictionary *)arg3 envelopeSizeByEntry:completion: /* Error: Ran out of types for this method. */;
+- (void)appendString:(OKDocumentViewController *)arg1;
+- (void)appConfiguration;
+- (_Bool)appAnalyticsNotificationReceiptEndpointUrlForEnvironment:(OKDocumentViewController *)arg1;
+- (_Bool)appAnalyticsEndpointUrlForEnvironment:(OKDocumentViewController *)arg1;
 @end
 

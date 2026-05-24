@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-@protocol _UISceneHostingActivationHandle, _UIViewServiceHostSceneComponentDelegate;
+@class NSString;
+@protocol _UISceneHostingActivationHandle;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceHostSceneComponent
 {
     id <_UISceneHostingActivationHandle> _activationHandle;
-    struct {
-        unsigned int viewServiceClientIsReady:1;
-    } _flags;
-    id <_UIViewServiceHostSceneComponentDelegate> _delegate;
 }
 
 - (void);
@@ -25,33 +21,21 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)6@0:(id)arg1 8@16@24I32@36I44@48;
+- (void)}}};
 - (id);
 - (int);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789)newCommandEventWithCommandType:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0@ù
 × ;
 - (void)_autoShutdownTimeout;
 - (void)rd",R,N;
 - (void)L@°Ô;
-- (void)_UITabMorphTransitionCSgXw;
+- (void)So21_UITabMorphTransitionCSgXw;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_4c969caf auditToken;
-@property(readonly, nonatomic) unsigned long long clientSupportedInterfaceOrientations;
-@property(retain, nonatomic) NSUUID *contextToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIViewServiceHostSceneComponentDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int pid;
 @property(retain, nonatomic) NSString *serviceViewControllerClassName;
-@property(readonly) Class superclass;
 
 @end
 

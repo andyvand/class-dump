@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _MPCProtoItem
 {
     _MPCProtoItemIdentifierSet *_identifierSet;
-    int _mediaType;
-    _Bool _excludeFromShuffle;
-    struct {
-        unsigned int mediaType:1;
-        unsigned int excludeFromShuffle:1;
-    } _has;
 }
 
 - (id);

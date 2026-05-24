@@ -5,5 +5,14 @@
 //
 
 @protocol WKNavigationDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)cachedAccounts;
+- (void)h index %li update items and %li delete items;
+- (void)zR;
+- (void)#;
 @end
 

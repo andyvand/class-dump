@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOObserverHashTable, MNTraceRecorder, NSString, VGVehicle;
+@class VGVehicle;
 @protocol MNVirtualGarageProvider;
 
 __attribute__((visibility("hidden")))
 @interface MNVirtualGarageManager
 {
     id <MNVirtualGarageProvider> _provider;
-    _Bool _isStarted;
-    GEOObserverHashTable *_observers;
-    VGVehicle *_lastVehicle;
-    MNTraceRecorder *_traceRecorder;
-    NSString *_lastVehicleName;
 }
 
-+ (id);
-- (void);
-- (void);
++ (id)letion block is available for request:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)AutomaticPlaybackButtonStyle;
+- (void)NavigationHostingControllerCache_Mac;
+- (id);
+- (_Bool)_CoordinateSpaceModifier;
+- (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void)SearchContentKey;
 - (id);
 - (unsigned long long);
 - (void);
@@ -40,18 +35,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool assumesFullCharge;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isProviderStarted;
 @property(readonly, nonatomic) VGVehicle *lastVehicle; // @synthesize lastVehicle=_lastVehicle;
-@property(readonly, nonatomic) NSString *lastVehicleName; // @synthesize lastVehicleName=_lastVehicleName;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long vehiclesCount;
 
 @end
 

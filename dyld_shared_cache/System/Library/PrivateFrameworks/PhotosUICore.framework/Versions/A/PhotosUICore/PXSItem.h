@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, NSString, PXSModuleController, PXSettings;
+@class PXSettings;
 
 @interface PXSItem
 {
     PXSettings *_settings;
-    id _defaultValue;
-    id _currentValue;
-    NSArray *_children;
-    long long _type;
-    NSString *_staticTitle;
-    NSString *_titleKeyPath;
-    PXSettings *_titleKeyPathSettings;
-    NSArray *_visibleChildren;
-    NSPredicate *_condition;
-    PXSItem *_parent;
-    id _modelObject;
-    NSString *_valueKeyPath;
-    PXSModuleController *_moduleController;
 }
 
 - (id);
@@ -37,36 +24,39 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (long long);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)';
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long)TextureCoordinates1; 
+			ComputeInSpriteCoordinates; 
+		} 
+		;
+- (void)�;
+- (id)|Aa;
+- (id);
 - (id)8DùÑ;ð1Â0@ù
 × ;
 - (void)smallCornerRadius;
-- (void)stResult:(id)arg1;
+- (void)mergeDuplicatesWithHitTestResult:(id)arg1;
 - (void)currentCloseCancelled;
-- (void)inationManualOrder;
+- (void)_destinationManualOrder;
 - (void)nabled;
 - (id)request;
 - (id)InteractiveMemoryActionMenuItemAddToFavoriteMemories;
@@ -74,33 +64,7 @@
 - (void)ÔáX©=;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *cellViewReuseIdentifier;
-@property(readonly, nonatomic) NSArray *children; // @synthesize children=_children;
-@property(retain, nonatomic) NSPredicate *condition; // @synthesize condition=_condition;
-@property(retain, nonatomic) id currentValue; // @synthesize currentValue=_currentValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *displayTitle;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id modelObject; // @synthesize modelObject=_modelObject;
-@property(nonatomic) __weak PXSModuleController *moduleController; // @synthesize moduleController=_moduleController;
-@property(readonly, nonatomic) NSString *nameViewReuseIdentifier;
-@property(nonatomic) __weak PXSItem *parent; // @synthesize parent=_parent;
-@property(readonly, nonatomic) NSArray *searchableStrings;
 @property(retain, nonatomic) PXSettings *settings; // @synthesize settings=_settings;
-@property(copy, nonatomic) NSString *staticTitle; // @synthesize staticTitle=_staticTitle;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *title;
-@property(copy, nonatomic) NSString *titleKeyPath; // @synthesize titleKeyPath=_titleKeyPath;
-@property(retain, nonatomic) PXSettings *titleKeyPathSettings; // @synthesize titleKeyPathSettings=_titleKeyPathSettings;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *valueKeyPath; // @synthesize valueKeyPath=_valueKeyPath;
-@property(readonly, nonatomic) NSString *valueViewReuseIdentifier;
-@property(copy, nonatomic) NSArray *visibleChildren; // @synthesize visibleChildren=_visibleChildren;
 
 @end
 

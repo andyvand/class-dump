@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface BookmarkMoveUndoInfo
 {
     NSString *_parentUUID;
-    unsigned long long _midMoveInitialIndex;
-    NSMutableArray *_midMoveSourceBookmarkLocations;
 }
 
 - (id);
@@ -23,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long midMoveInitialIndex; // @synthesize midMoveInitialIndex=_midMoveInitialIndex;
 @property(readonly) NSString *parentUUID; // @synthesize parentUUID=_parentUUID;
 
 @end

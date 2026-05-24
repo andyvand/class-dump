@@ -7,9 +7,6 @@
 @interface NewsUI2.PPTTagFeedServiceConfigFetcher
 {
     id contentConfigData;
-    id cloudContext;
-    id configurationManager;
-    id subscriptionController;
 }
 
 @end

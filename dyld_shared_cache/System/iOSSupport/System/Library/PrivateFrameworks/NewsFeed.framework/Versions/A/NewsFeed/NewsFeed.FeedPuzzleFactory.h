@@ -7,9 +7,6 @@
 @interface NewsFeed.FeedPuzzleFactory
 {
     id puzzleAccessProvider;
-    id puzzleHistoryService;
-    id puzzleImageShareAttributeProvider;
-    id puzzleRankProvider;
 }
 
 @end

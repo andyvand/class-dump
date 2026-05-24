@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 @interface SACardSnippet : SAUISnippet
 {
@@ -17,11 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *cardData;
-@property(copy, nonatomic) NSData *compactSizeCardData;
-@property(copy, nonatomic) NSArray *contextItems;
-@property(copy, nonatomic) NSArray *referencedCommands;
-@property(copy, nonatomic) NSArray *referencedSnippets;
-@property(copy, nonatomic) NSString *responseViewId;
 
 @end
 

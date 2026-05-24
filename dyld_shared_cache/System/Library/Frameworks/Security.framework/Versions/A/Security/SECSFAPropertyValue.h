@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SECSFAPropertyValue
 {
     long long _integer;
-    int _property;
-    NSString *_string;
-    struct {
-        unsigned int integer:1;
-        unsigned int property:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,26 +22,21 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)*a ;
+- (void);
 - (void);
-- (void);
+- (id)(;
 - (id);
-- (id);
-- (int);
+- (int);
 - (void)ä;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasInteger;
-@property(nonatomic) _Bool hasProperty;
-@property(readonly, nonatomic) _Bool hasString;
-@property(nonatomic) long long integer; // @synthesize integer=_integer;
-@property(nonatomic) int property; // @synthesize property=_property;
-@property(retain, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end
 

@@ -6,19 +6,9 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSArray;
-@protocol FCBundleSubscriptionManagerType, FCContentContext, FCCoreConfiguration;
-
 @interface FCTagCuratedESLArticlesOperation : FCOperation
 {
     CDUnknownBlockType _feedItemHandler;
-    CDUnknownBlockType _completionHandler;
-    NSArray *_networkEvents;
-    NSArray *_tags;
-    id <FCContentContext> _context;
-    id <FCCoreConfiguration> _configuration;
-    id <FCBundleSubscriptionManagerType> _bundleSubscriptionManager;
-    NSArray *_evergreenArticleListIDs;
 }
 
 - (void);
@@ -29,14 +19,12 @@
 - (CDUnknownBlockType);
 - (id);
 - (void)ty:(CDUnknownBlockType)arg1;
-- (void)yLevelConfig;
-- (void)haviorImprovementsEnabledLevel;
-- (void)KF3WTUGaNjlckE0Tng;
+- (void)shadowLatestStoriesOntologyLevelConfig;
+- (void)articleLinkBehaviorImprovementsEnabledLevel;
+- (void)TdYIMKF3WTUGaNjlckE0Tng;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(copy, nonatomic) CDUnknownBlockType feedItemHandler; // @synthesize feedItemHandler=_feedItemHandler;
-@property(readonly, nonatomic) NSArray *networkEvents;
 
 @end
 

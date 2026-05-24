@@ -6,6 +6,8 @@
 
 @interface hvf.PartRenderer
 {
+    id renderer;
+    id trampoline;
 }
 
 @end

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)addressBookHomes;
 - (void)yNameForLocaleID:displayStandalone:] /* Error: Ran out of types for this method. */;
 - (_Bool)`°t ;
 

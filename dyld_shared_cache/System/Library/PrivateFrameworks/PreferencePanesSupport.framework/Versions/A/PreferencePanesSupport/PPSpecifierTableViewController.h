@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSDictionary, NSLayoutConstraint, NSMutableArray, NSMutableDictionary, NSString, NSTableView, NSView, PPFlexibleSpaceSpecifier, PPSpecifier, PPSpecifierExtensionItem, PPSpecifierTableCellView;
-@protocol PPSpecifierTableViewControllerDelegate;
+@class NSMutableArray, PPSpecifierTableCellView;
 
 @interface PPSpecifierTableViewController
 {
     NSMutableArray *_specifiers;
-    NSColor *_backgroundColor;
-    id <PPSpecifierTableViewControllerDelegate> _delegate;
-    NSLayoutConstraint *_tableViewWidthConstraint;
-    NSView *_detailsViewPlaceholder;
-    PPSpecifierTableCellView *_selectedCellView;
-    PPSpecifierExtensionItem *_selectedExtensionItem;
-    NSDictionary *_extensions;
-    NSMutableDictionary *_viewHeights;
-    PPFlexibleSpaceSpecifier *_flexibleSpaceSpecifier;
-    NSTableView *_specifierTableView;
 }
 
 - (id);
@@ -43,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -59,34 +48,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)m34;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <PPSpecifierTableViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSView *detailsViewPlaceholder; // @synthesize detailsViewPlaceholder=_detailsViewPlaceholder;
-@property(retain) NSDictionary *extensions; // @synthesize extensions=_extensions;
-@property __weak PPFlexibleSpaceSpecifier *flexibleSpaceSpecifier; // @synthesize flexibleSpaceSpecifier=_flexibleSpaceSpecifier;
-@property(readonly) unsigned long long hash;
 @property __weak PPSpecifierTableCellView *selectedCellView; // @synthesize selectedCellView=_selectedCellView;
-@property __weak PPSpecifierExtensionItem *selectedExtensionItem; // @synthesize selectedExtensionItem=_selectedExtensionItem;
-@property(readonly) PPSpecifier *selectedSpecifier; // @dynamic selectedSpecifier;
-@property __weak NSTableView *specifierTableView; // @synthesize specifierTableView=_specifierTableView;
-@property(retain) NSArray *specifiers; // @dynamic specifiers;
-@property(readonly) Class superclass;
-@property(readonly) NSView *tableView; // @dynamic tableView;
-@property(retain) NSLayoutConstraint *tableViewWidthConstraint; // @synthesize tableViewWidthConstraint=_tableViewWidthConstraint;
-@property(retain) NSMutableDictionary *viewHeights; // @synthesize viewHeights=_viewHeights;
 
 @end
 

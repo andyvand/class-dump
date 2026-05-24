@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPOIClaim, NSArray, NSURL;
+@class GEOPDPOIClaim;
 
 @interface GEOPOIClaim
 {
@@ -20,9 +20,6 @@
 - (void)tÙâJ@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *businessConnectBrandMUIDs;
-@property(readonly, nonatomic) NSURL *claimURL;
-@property(readonly, nonatomic, getter=isClaimable) _Bool claimable;
 @property(readonly, nonatomic, getter=isClaimed) _Bool claimed;
 
 @end

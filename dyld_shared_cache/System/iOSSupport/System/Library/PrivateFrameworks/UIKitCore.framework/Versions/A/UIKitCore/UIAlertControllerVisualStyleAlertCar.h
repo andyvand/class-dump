@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (_Bool)ed nickname updates;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (long long);
@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct UIEdgeInsets);
 - (id);
-- (id)nt;
+- (id)parent;
 
 @end
 

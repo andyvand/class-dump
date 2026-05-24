@@ -13,7 +13,7 @@
 
 + (Class);
 - (id);
-- (id);
+- (id) @9;
 - (void)ngierFlowRep"16;
 
 // Remaining properties

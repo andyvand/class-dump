@@ -13,7 +13,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)A;
 + (id);
 + (id);
 + (long long);
@@ -45,7 +45,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *importErrorAlertTitle;
-@property(retain, nonatomic) NSString *selectedProfileIdentifierToImportInto; // @synthesize selectedProfileIdentifierToImportInto=_selectedProfileIdentifierToImportInto;
 
 @end
 

@@ -4,6 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSCollectionView, NSCollectionViewTransitionLayout, NSImage, NSIndexPath, NSSet;
+@protocol NSDraggingInfo, NSPasteboardWriting;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (_Bool)6dOuchv20At7_OCAmdWmFqTY/Library/Caches/com.apple.xbs/TemporaryDirectory.vEhxI2/Sources/Messages_iosmac/ChatKit/Messages/Messages/Source/StickerBrowser/MSStickerView.m;
+- (_Bool)CKImageAnimationTimer;
+- (unsigned long long)MSStickerPreviewCachePreviewDidChange;
+- (unsigned long long)CKGenerativeContextDisplayName;
+- (void)CKGenerativeContextText;
+- (NSSet *)];
+- (NSSet *)uidDragStarted];
+- (id <NSPasteboardWriting>);
+- (NSArray *)third_party/;
+- (NSArray *)heURL];
+- (void)Messages.extensions;
+- (void)sendAlternateLayoutAsText;
+- (void)alternateLayout;
+- (NSImage *)Please use -initWithAlternateLayout:(NSCollectionView *)arg1 instead.;
+- (void)ple.messages.stickers-error;
+- (_Bool)c];
+- (_Bool)ontext initWithInputItems:(NSCollectionView *)arg1 listenerEndpoint:(id <NSDraggingInfo>)arg2 contextUUID:(NSIndexPath *)arg3 ]_block_invoke;
+- (_Bool)ms:(NSCollectionView *)arg1 listenerEndpoint:(id <NSDraggingInfo>)arg2 contextUUID:(long long)arg3 ];
+- (NSImage *)ensureFilesystemIsClassified;
+- (void)W.
+;
+- (void);
+- (NSSet *)headersAndItems;
+- (NSCollectionViewTransitionLayout *)I;
+- (id <NSPasteboardWriting>)D;
 @end
 

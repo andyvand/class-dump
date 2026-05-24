@@ -13,12 +13,9 @@ __attribute__((visibility("hidden")))
 @interface FI_TTouchBarGoToViewController : FI_TTouchBarViewController
 {
     FI_TButton *_goButton;
-    FI_TButton *_cancelButton;
-    _Bool tornDown;
-    id <TTouchBarGoToViewDelegate> _delegate;
 }
 
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (_Bool);

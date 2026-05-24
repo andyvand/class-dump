@@ -6,13 +6,11 @@
 
 #import <ExchangeWebServices/EWSBaseRequestType.h>
 
-@class EWSFolderResponseShapeType, EWSTargetFolderIdType, NSString;
+@class EWSFolderResponseShapeType;
 
 @interface EWSSyncFolderHierarchyType : EWSBaseRequestType
 {
     EWSFolderResponseShapeType *_FolderShape;
-    EWSTargetFolderIdType *_SyncFolderId;
-    NSString *_SyncState;
 }
 
 + (id);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EWSFolderResponseShapeType *FolderShape; // @synthesize FolderShape=_FolderShape;
-@property(retain, nonatomic) EWSTargetFolderIdType *SyncFolderId; // @synthesize SyncFolderId=_SyncFolderId;
-@property(copy, nonatomic) NSString *SyncState; // @synthesize SyncState=_SyncState;
 
 @end
 

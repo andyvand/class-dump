@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LibraryItem, NSLayoutConstraint, NSTrackingArea;
+@class LibraryItem, NSTrackingArea;
 
 __attribute__((visibility("hidden")))
 @interface LibraryTableRowView
 {
     NSTrackingArea *_trackingArea;
-    NSLayoutConstraint *_trailingConstraint;
-    _Bool _hovered;
-    LibraryItem *_item;
 }
 
 - (id);
@@ -24,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);

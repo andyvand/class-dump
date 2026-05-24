@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
-@protocol MSVDistributedNotificationObserverDelegate, OS_dispatch_queue;
+@class NSString;
 
 @interface MSVDistributedNotificationObserver
 {
     int _notifyToken;
-    NSString *_distributedName;
-    NSString *_localName;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <MSVDistributedNotificationObserverDelegate> _delegate;
-    NSDictionary *_userInfoForLocalNotification;
 }
 
 + (id);
@@ -33,11 +27,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak id <MSVDistributedNotificationObserverDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSString *distributedName; // @synthesize distributedName=_distributedName;
-@property(readonly, nonatomic) NSString *localName; // @synthesize localName=_localName;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(copy, nonatomic) NSDictionary *userInfoForLocalNotification; // @synthesize userInfoForLocalNotification=_userInfoForLocalNotification;
 
 @end
 

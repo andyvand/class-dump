@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSSidecarIVars
 {
     unsigned long long _tapCount;
-    struct CGPoint _lastTapLoc;
-    double _lastTapTimestamp;
-    NSArray *_lastDitchRecognizers;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (struct CGPoint);
@@ -26,9 +21,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(retain) NSArray *lastDitchRecognizers; // @synthesize lastDitchRecognizers=_lastDitchRecognizers;
-@property struct CGPoint lastTapLoc; // @synthesize lastTapLoc=_lastTapLoc;
-@property double lastTapTimestamp; // @synthesize lastTapTimestamp=_lastTapTimestamp;
 @property unsigned long long tapCount; // @synthesize tapCount=_tapCount;
 
 @end

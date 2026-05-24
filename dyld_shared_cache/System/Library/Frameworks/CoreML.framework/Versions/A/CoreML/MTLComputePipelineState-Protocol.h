@@ -8,6 +8,8 @@
 @protocol MTL4BinaryFunction, MTLDevice, MTLFunctionHandle;
 
 @protocol MTLComputePipelineState
+- (unsigned long long);
+- (id <MTLDevice>);
 - (MTLComputePipelineReflection *)q}}16;
 - (_Bool)ëuØtëu½tëutëu¯tëu>tëuÐtëuÜtëuÈtëu'tëu0tëuhtëutëuÅtëugtëu2tëu8tëuötëu5tëuHtëuttëuztëutëuatëuütëu¡tëuçtëu/tëuPtëuÏtëugtëu¸tëustëuOtëu¾tëuCtëutëustëuAtëu¾tëuwtëuÛtëu$tëu7tëu4tëuItëutëuçtëuátëutëuYtëu4tëu³tëuutëutëutëuåtëuútëutëustëutëuñtëu
 tëu+tëu0tëutëutëuötëu;
@@ -17,15 +19,6 @@ tëu+tëu0tëutëutëuötëu;
 - (long long);
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly) NSString *label;
-@property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
-@property(readonly) MTLComputePipelineReflection *reflection;
-@property(readonly) struct requiredThreadsPerThreadgroup;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly) unsigned long long staticThreadgroupMemoryLength;
-@property(readonly) _Bool supportIndirectCommandBuffers;
-@property(readonly) unsigned long long threadExecutionWidth;
 @end
 

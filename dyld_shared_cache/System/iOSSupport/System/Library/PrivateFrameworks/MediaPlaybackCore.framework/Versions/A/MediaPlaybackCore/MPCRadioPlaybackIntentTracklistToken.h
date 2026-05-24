@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCModelRadioContentReference, MPModelRadioStation, NSURL;
-
 @interface MPCRadioPlaybackIntentTracklistToken
 {
     _Bool _continueListeningStation;
-    MPCModelRadioContentReference *_nowPlayingContentReference;
-    MPCModelRadioContentReference *_seedContentReference;
-    MPModelRadioStation *_radioStation;
-    NSURL *_radioStationURL;
 }
 
 + (_Bool);
+- (void)ble for %@;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)e;
 - (id);
 - (void);
 - (void);
@@ -33,10 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool continueListeningStation; // @synthesize continueListeningStation=_continueListeningStation;
-@property(copy, nonatomic) MPCModelRadioContentReference *nowPlayingContentReference; // @synthesize nowPlayingContentReference=_nowPlayingContentReference;
-@property(retain, nonatomic) MPModelRadioStation *radioStation; // @synthesize radioStation=_radioStation;
-@property(copy, nonatomic) NSURL *radioStationURL; // @synthesize radioStationURL=_radioStationURL;
-@property(copy, nonatomic) MPCModelRadioContentReference *seedContentReference; // @synthesize seedContentReference=_seedContentReference;
 
 @end
 

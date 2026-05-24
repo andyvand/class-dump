@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SlalomReadOperation
 {
     unsigned short serviceCode;
-    unsigned short blockNumber;
 }
 
 - (unsigned short);
@@ -18,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property unsigned short blockNumber; // @synthesize blockNumber;
 @property unsigned short serviceCode; // @synthesize serviceCode;
 
 @end

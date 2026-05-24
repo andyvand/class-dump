@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRRescoringDeliberationResultTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_originalTranscript;
-    NSString *_modifiedTranscript;
-    _Bool _hasLinkId;
-    _Bool _hasOriginalTranscript;
-    _Bool _hasModifiedTranscript;
 }
 
 - (void);
@@ -32,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -40,19 +35,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)onVoiceCommandDisambiguationAction;
+- (id)ueiDictationVoiceCommandDisambiguationAction;
 - (id)8=È=?`?¬@ÌA<CÌC¨DðDÌE¤FðG8HÜH$IJ$KHLL´MDN´OüO QhQ¼ST;
-- (id)D;
+- (id)messageUUID;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasModifiedTranscript; // @synthesize hasModifiedTranscript=_hasModifiedTranscript;
-@property(nonatomic) _Bool hasOriginalTranscript; // @synthesize hasOriginalTranscript=_hasOriginalTranscript;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *modifiedTranscript; // @synthesize modifiedTranscript=_modifiedTranscript;
-@property(copy, nonatomic) NSString *originalTranscript; // @synthesize originalTranscript=_originalTranscript;
 
 @end
 

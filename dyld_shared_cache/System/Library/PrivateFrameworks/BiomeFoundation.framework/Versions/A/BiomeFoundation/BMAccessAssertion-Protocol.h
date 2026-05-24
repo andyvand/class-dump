@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessDescriptor, BMResourceContainer, NSString;
+@class BMAccessDescriptor;
 
 @protocol BMAccessAssertion
+- (BMAccessDescriptor *)nnection expiry dispatch timer fired;
 
 // Remaining properties
-@property(readonly, nonatomic) BMResourceContainer *container;
 @property(readonly, nonatomic) BMAccessDescriptor *descriptor;
-@property(readonly, nonatomic) NSString *path;
 @end
 

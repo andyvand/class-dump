@@ -5,5 +5,6 @@
 //
 
 @protocol TILinguisticAssetDownloading
+- (void)!;
 @end
 

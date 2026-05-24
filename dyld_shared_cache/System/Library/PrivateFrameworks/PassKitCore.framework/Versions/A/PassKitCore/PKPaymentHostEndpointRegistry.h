@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PKPaymentHostEndpointRegistry
 {
     NSObject<OS_dispatch_queue> *_registrySerialQueue;
-    NSMutableDictionary *_hostIdentifierToEndpointMap;
-    NSMutableDictionary *_processIdentifierToHostIdentifiersMap;
 }
 
 - (void);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void)sRemoved;
+- (void)wallet:passRemoved /* Error: Ran out of types for this method. */;
 
 @end
 

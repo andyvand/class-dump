@@ -5,5 +5,6 @@
 //
 
 @protocol AFSiriActivationService
+- (oneway void);
 @end
 

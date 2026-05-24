@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSUserIdType, NSString;
+@class EWSUserIdType;
 
 @interface EWSBasePermissionType
 {
     _Bool _CanCreateItems;
-    _Bool _CanCreateSubFolders;
-    _Bool _IsFolderOwner;
-    _Bool _IsFolderVisible;
-    _Bool _IsFolderContact;
-    EWSUserIdType *_UserId;
-    long long _EditItems;
-    long long _DeleteItems;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (id);
@@ -31,7 +24,7 @@
 - (_Bool);
 - (void);
 - (long long);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -39,21 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool CanCreateItems; // @synthesize CanCreateItems=_CanCreateItems;
-@property(nonatomic) _Bool CanCreateSubFolders; // @synthesize CanCreateSubFolders=_CanCreateSubFolders;
-@property(nonatomic) long long DeleteItems; // @synthesize DeleteItems=_DeleteItems;
-@property(nonatomic) long long EditItems; // @synthesize EditItems=_EditItems;
-@property(nonatomic) _Bool IsFolderContact; // @synthesize IsFolderContact=_IsFolderContact;
-@property(nonatomic) _Bool IsFolderOwner; // @synthesize IsFolderOwner=_IsFolderOwner;
-@property(nonatomic) _Bool IsFolderVisible; // @synthesize IsFolderVisible=_IsFolderVisible;
 @property(retain, nonatomic) EWSUserIdType *UserId; // @synthesize UserId=_UserId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

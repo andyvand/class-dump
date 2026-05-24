@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PFStoryClusteringProperties
 {
     NSString *_algorithm;
-    NSDictionary *_algorithmProperties;
-    NSDictionary *_distanceWeights;
 }
 
 - (_Bool);
@@ -20,12 +18,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_playbackState;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *algorithm; // @synthesize algorithm=_algorithm;
-@property(readonly, nonatomic) NSDictionary *algorithmProperties; // @synthesize algorithmProperties=_algorithmProperties;
-@property(readonly, nonatomic) NSDictionary *distanceWeights; // @synthesize distanceWeights=_distanceWeights;
 
 @end
 

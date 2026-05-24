@@ -7,20 +7,16 @@
 @interface TSMSGClockSession
 {
     unsigned int _syncId;
-    unsigned long long _refCnt;
-    CDStruct_4e4c37a4 _nominalSyncDuration;
 }
 
 + (id);
 - (unsigned int);
 - (void);
 - (unsigned long long);
-- (CDStruct_4e4c37a4);
+- (CDStruct_4bcfbbae)#;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_4e4c37a4 nominalSyncDuration; // @synthesize nominalSyncDuration=_nominalSyncDuration;
 @property(nonatomic) unsigned long long refCnt; // @synthesize refCnt=_refCnt;
-@property(readonly, nonatomic) unsigned int syncId; // @synthesize syncId=_syncId;
 
 @end
 

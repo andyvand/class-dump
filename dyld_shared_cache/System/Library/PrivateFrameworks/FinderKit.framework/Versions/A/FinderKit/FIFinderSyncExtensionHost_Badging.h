@@ -4,67 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSExtension, NSImage, NSObject, NSString;
+@class NSExtension, NSObject;
 @protocol FIFinderSyncExtensionProtocol;
 
 __attribute__((visibility("hidden")))
 @interface FIFinderSyncExtensionHost_Badging
 {
     NSObject<FIFinderSyncExtensionProtocol> *_remote;
-    NSExtension *_extension;
-    struct unordered_map<TString, NSImage *, std::hash<TString>, std::equal_to<TString>, std::allocator<std::pair<const TString, NSImage *>>> _badgeIDImages;
-    struct unordered_map<TString, TString, std::hash<TString>, std::equal_to<TString>, std::allocator<std::pair<const TString, TString>>> _badgeIDLabels;
-    struct TString _toolbarItemName;
-    struct TString _toolbarToolTip;
-    NSData *_toolbarImageData;
-    _Bool _toolbarImageIsTemplate;
-    struct TFENodeVector _interestedRoots;
-    struct vector<NSURL *, std::allocator<NSURL *>> _unresolvedRoots;
-    struct unordered_map<TFENode, TString, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<std::pair<const TFENode, TString>>> _nodeToBadgeIDMap;
-    NSImage *_containingAppIcon;
-    _Bool _finishedRegisteringInterestedURLs;
-    _Bool _implementsCollaboration;
-    _Bool _fetchedContainingAppIcon;
-    id _requestIdentifier;
-    NSDictionary *_toolbarItemDictionary;
 }
 
 + (id);
-+ (id);
++ (id)_connection;
 - (void);
+- (void);
+- (void);
+- (struct TString);
+- (id))A;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)c;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
 - (struct TString);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (struct TString);
-- (id);
+- (id);
 - (struct TString);
 - (id);
 - (_Bool);
@@ -72,9 +56,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)age data:(id)arg1 %lu length are not equal. body range retrieved:%{public}@, proceeding to gather the body data. /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -82,19 +66,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(nonatomic) _Bool fetchedContainingAppIcon; // @synthesize fetchedContainingAppIcon=_fetchedContainingAppIcon;
-@property(nonatomic) _Bool finishedRegisteringInterestedURLs; // @synthesize finishedRegisteringInterestedURLs=_finishedRegisteringInterestedURLs;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool implementsCollaboration; // @synthesize implementsCollaboration=_implementsCollaboration;
-@property(retain, nonatomic) id requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *toolbarItemDictionary; // @synthesize toolbarItemDictionary=_toolbarItemDictionary;
 
 @end
 

@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RPFileTransferItem;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface RPFileTransferLargeFileSendTask
 {
     _Bool _failed;
-    int _fileFD;
-    int _outstandingSends;
-    unsigned long long _remainingSize;
-    unsigned int _sentFlags;
-    struct CC_SHA256state_st _sha256Ctx;
-    unsigned int _xid;
-    _Bool _needsRetry;
-    unsigned long long _fileOffset;
-    RPFileTransferItem *_fileItem;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _taskID;
 }
 
 - (void);
@@ -34,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (int);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)T;
 - (int);
-- (void);
+- (void)N3fst18CacheStateIteratorINS_15FactorWeightFstINS_9GallicArcINS_6ArcTplINS_12LogWeightTplIfEEiEELNS_10GallicTypeE2EEENS_12GallicFactorIiS5_LS7_2EEEEEEE;
 - (void);
 - (unsigned long long);
 - (id);
@@ -44,13 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) int fileFD; // @synthesize fileFD=_fileFD;
-@property(retain, nonatomic) RPFileTransferItem *fileItem; // @synthesize fileItem=_fileItem;
-@property(nonatomic) unsigned long long fileOffset; // @synthesize fileOffset=_fileOffset;
-@property(nonatomic) _Bool needsRetry; // @synthesize needsRetry=_needsRetry;
-@property(nonatomic) int outstandingSends; // @synthesize outstandingSends=_outstandingSends;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned long long remainingSize; // @synthesize remainingSize=_remainingSize;
-@property(nonatomic) unsigned long long taskID; // @synthesize taskID=_taskID;
 
 @end
 

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID, _MKFAccessory;
+
 @protocol MKFHomePrivateExtensions
+- (_MKFAccessory *)ublic}@] remove participant:(NSUUID *)arg1 %{private}@;
 @end
 

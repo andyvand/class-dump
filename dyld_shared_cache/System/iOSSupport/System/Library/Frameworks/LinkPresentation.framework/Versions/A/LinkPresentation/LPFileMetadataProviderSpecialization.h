@@ -6,38 +6,26 @@
 
 #import <LinkPresentation/LPMetadataProviderSpecialization.h>
 
-@class LPFileMetadata, LPImage, LPLinkMetadata, NSObject, NSString, NSURL;
-@protocol OS_dispatch_group;
-
 __attribute__((visibility("hidden")))
 @interface LPFileMetadataProviderSpecialization : LPMetadataProviderSpecialization
 {
     _Bool _cancelled;
-    NSURL *_temporaryFileURL;
-    LPImage *_originalImage;
-    LPImage *_quickLookThumbnail;
-    LPImage *_smallQuickLookThumbnail;
-    NSString *_MIMEType;
-    NSString *_UTI;
-    LPLinkMetadata *_metadata;
-    LPFileMetadata *_fileMetadata;
-    NSObject<OS_dispatch_group> *_fetchGroup;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)suggestedActionsMenuAdditionalHeightWithChatBotActionButton:(id)arg1;
++ (id)suggestedActionsMenuAdditionalHeightForBalloonSize:(id)arg1;
++ (id)setupKeyTransparencyMenu;
++ (unsigned long long);
+- (void)textBalloonViewWillLayoutSubviews: /* Error: Ran out of types for this method. */;
+- (_Bool)tapbackPreviewDidChange: /* Error: Ran out of types for this method. */;
+- (void)symbolColor;
+- (void)supportsMessagesAppExtendedLaunchTest;
+- (void)supportsMacSelection;
+- (void)stringByAppendingPathExtensionForType:(id)arg1;
+- (void)stopRecordingAndPlaySound:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)stopRecordForStream:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)stopPlayingAudio;
+- (void)statusUpdateWithLocationText:isLocationAvailableForDisplay: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -45,13 +33,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

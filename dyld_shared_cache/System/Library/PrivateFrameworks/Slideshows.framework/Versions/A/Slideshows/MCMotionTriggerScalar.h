@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (double);
+- (double)#;
 
 // Remaining properties
 @property(nonatomic) double value; // @synthesize value=_value;

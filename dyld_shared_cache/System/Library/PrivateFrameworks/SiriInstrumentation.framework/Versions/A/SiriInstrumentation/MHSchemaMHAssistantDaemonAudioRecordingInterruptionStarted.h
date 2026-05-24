@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MHSchemaMHAssistantDaemonAudioRecordingInterruptionStarted : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_avAudioSessionInterruptorName;
-    NSString *_avAudioSessionInterruptionType;
-    _Bool _hasLinkId;
-    _Bool _hasAvAudioSessionInterruptorName;
-    _Bool _hasAvAudioSessionInterruptionType;
 }
 
 - (void);
@@ -35,7 +30,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)urces/libressl/libressl-2.2/crypto/asn1/bio_ndef.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -47,12 +42,6 @@
 - (void)_âÿ"!¶#­!;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *avAudioSessionInterruptionType; // @synthesize avAudioSessionInterruptionType=_avAudioSessionInterruptionType;
-@property(copy, nonatomic) NSString *avAudioSessionInterruptorName; // @synthesize avAudioSessionInterruptorName=_avAudioSessionInterruptorName;
-@property(nonatomic) _Bool hasAvAudioSessionInterruptionType; // @synthesize hasAvAudioSessionInterruptionType=_hasAvAudioSessionInterruptionType;
-@property(nonatomic) _Bool hasAvAudioSessionInterruptorName; // @synthesize hasAvAudioSessionInterruptorName=_hasAvAudioSessionInterruptorName;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

@@ -6,44 +6,34 @@
 
 #import <AppKit/NSButton.h>
 
-@class NSDictionary, NSString, NSUserDefaultsController;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSConfirmableButton : NSButton
 {
     NSDictionary *_trueConfirmation;
-    NSDictionary *_falseConfirmation;
-    NSString *_keyPath;
-    NSUserDefaultsController *_userDefaultsController;
-    id _confirmationTarget;
-    SEL _confirmationAction;
 }
 
+- (id)h;
+- (id)?X;
+- (void);
+- (void);
+- (void);
+- (void)^F;
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (SEL);
-- (void);
-- (void);
-- (void);
+- (id)licyExclusivelyFromMainDocumentDomain and the inURL and mainDocumentURL are in different domains;
+- (SEL)policy is NSHTTPCookieAcceptPolicyExclusivelyFromMainDocumentDomain and the inURL and mainDocumentURL are in different domains;
+- (void)e state %d;
+- (void)not set before response is received, failing task;
+- (void)?;
 - (void);
 - (id);
 - (void);
 - (void)Ø5ÿAØzB;
 
 // Remaining properties
-@property SEL confirmationAction; // @synthesize confirmationAction=_confirmationAction;
-@property __weak id confirmationTarget; // @synthesize confirmationTarget=_confirmationTarget;
-@property(retain) NSDictionary *falseConfirmation; // @synthesize falseConfirmation=_falseConfirmation;
-@property(copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
 @property(retain) NSDictionary *trueConfirmation; // @synthesize trueConfirmation=_trueConfirmation;
-@property(retain) NSUserDefaultsController *userDefaultsController; // @synthesize userDefaultsController=_userDefaultsController;
 
 @end
 

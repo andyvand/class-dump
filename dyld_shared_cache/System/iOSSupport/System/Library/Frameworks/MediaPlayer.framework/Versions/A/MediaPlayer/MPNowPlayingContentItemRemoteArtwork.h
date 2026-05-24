@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRRemoteArtwork, NSData, NSString;
+@class MRRemoteArtwork;
 
 @interface MPNowPlayingContentItemRemoteArtwork
 {
@@ -16,13 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)registerForNamedEntitiesRemoteAdditionWithBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)ING_MISSING__;
+- (void)__MPModelPropertyPlaybackPositionStartTime__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkURLString;
-@property(readonly, nonatomic) NSData *artworkURLTemplateData;
 @property(readonly, nonatomic) MRRemoteArtwork *mediaRemoteRemoteArtwork; // @synthesize mediaRemoteRemoteArtwork=_mediaRemoteRemoteArtwork;
 
 @end

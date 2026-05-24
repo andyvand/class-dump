@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol GCLightXPCProxyServiceRemoteServerInterface, _GCIPCEndpointConnection;
+@protocol _GCIPCEndpointConnection;
 
 @protocol GCLightXPCProxyServiceClient
+- (id <_GCIPCEndpointConnection>)@;
 
 // Remaining properties
 @property(readonly) id <_GCIPCEndpointConnection> lightXPCProxyServiceConnection;
-@property(readonly) id <GCLightXPCProxyServiceRemoteServerInterface> lightXPCProxyServiceRemoteServer;
 @end
 

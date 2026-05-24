@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CATransformLayer, NSArray;
-@protocol IMDynamicGradientReferenceView;
+@class CALayer;
 
 @interface IMDynamicGradientLayer
 {
     struct CGColorSpace *_colorSpace;
-    double _screenScale;
-    id <IMDynamicGradientReferenceView> _referenceView;
-    NSArray *_colors;
-    CALayer *_gradientLayer;
-    CATransformLayer *_trackingLayer;
-    struct CGRect _gradientFrame;
 }
 
-- (id);
-- (void);
+- (id)m;
+- (void)n;
 - (void);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (double);
-- (void);
-- (void);
+- (void), frameID=%llu, resourceID=%llu, isMainResource=%d, destination=%u, isSynchronous=%d] NetworkResourceLoader:(id)arg1:continueWillSendRequest:using stored redirect response /* Error: Ran out of types for this method. */;
+- (void)%dP;
 - (void);
 - (void);
 - (id);
@@ -35,8 +28,8 @@
 - (double);
 - (struct CGColorSpace *);
 - (id);
-- (id);
-- (struct CGImage *);
+- (id)?	;
+- (struct CGImage *);
 - (void);
 - (void);
 - (id);
@@ -45,14 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(copy, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(readonly, nonatomic) struct CGImage *gradient;
-@property(nonatomic) struct CGRect gradientFrame; // @synthesize gradientFrame=_gradientFrame;
 @property(retain, nonatomic) CALayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;
-@property(nonatomic) __weak id <IMDynamicGradientReferenceView> referenceView; // @synthesize referenceView=_referenceView;
-@property(nonatomic) double screenScale; // @synthesize screenScale=_screenScale;
-@property(retain, nonatomic) CATransformLayer *trackingLayer; // @synthesize trackingLayer=_trackingLayer;
 
 @end
 

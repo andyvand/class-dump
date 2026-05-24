@@ -9,28 +9,22 @@
 @interface EQKitHVSpace : EQKitBox
 {
     double mWidth;
-    double mHeight;
-    double mDepth;
 }
 
 - (double);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (double);
+- (double);
 - (double);
 - (_Bool);
 - (id);
 - (double)¼;
 
 // Remaining properties
-@property(readonly, nonatomic) double depth; // @synthesize depth=mDepth;
 @property(readonly, nonatomic) double height; // @synthesize height=mHeight;
-@property(readonly, nonatomic) double layoutDepth;
-@property(readonly, nonatomic) double layoutHeight;
-@property(readonly, nonatomic) double width; // @synthesize width=mWidth;
 
 @end
 

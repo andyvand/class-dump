@@ -7,19 +7,15 @@
 @interface CKCallStateResult
 {
     _Bool _isFaceTimeVideoAvailable;
-    _Bool _isFaceTimeAudioAvailable;
-    _Bool _isTelephonyAvailable;
-    _Bool _isScreenSharingAvailable;
-    long long _callButtonStyle;
 }
 
-+ (id);
++ (id);
 - (_Bool);
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)te to v1 Neo because its password is different from the account {note:%@} /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (long long);
@@ -29,12 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) long long callButtonStyle; // @synthesize callButtonStyle=_callButtonStyle;
-@property(readonly, nonatomic) long long callMode;
-@property(nonatomic) _Bool isFaceTimeAudioAvailable; // @synthesize isFaceTimeAudioAvailable=_isFaceTimeAudioAvailable;
-@property(nonatomic) _Bool isFaceTimeVideoAvailable; // @synthesize isFaceTimeVideoAvailable=_isFaceTimeVideoAvailable;
-@property(nonatomic) _Bool isScreenSharingAvailable; // @synthesize isScreenSharingAvailable=_isScreenSharingAvailable;
-@property(nonatomic) _Bool isTelephonyAvailable; // @synthesize isTelephonyAvailable=_isTelephonyAvailable;
-@property(readonly, nonatomic) _Bool shouldShowUnifiedCallButton;
 
 @end
 

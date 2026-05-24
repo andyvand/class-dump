@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HLPHelpTopicItem, NSArray, NSString;
+@class HLPHelpTopicItem;
 
 @interface HLPLoadInfo
 {
     _Bool _analyticsLogged;
     HLPHelpTopicItem *_helpTopicItem;
-    long long _accessType;
-    NSArray *_searchTerms;
-    NSString *_anchor;
 }
 
-+ (id);
-- (void);
++ (id)t;
+- (void)6;
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (long long);
 - (id);
@@ -28,11 +25,7 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long accessType; // @synthesize accessType=_accessType;
-@property(nonatomic) _Bool analyticsLogged; // @synthesize analyticsLogged=_analyticsLogged;
-@property(readonly, nonatomic) NSString *analyticsSourceType;
-@property(readonly, nonatomic) NSString *anchor; // @synthesize anchor=_anchor;
 @property(readonly, nonatomic) HLPHelpTopicItem *helpTopicItem; // @synthesize helpTopicItem=_helpTopicItem;
-@property(readonly, nonatomic) NSArray *searchTerms; // @synthesize searchTerms=_searchTerms;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, IMDiMessageIDSTrustedData, IMFilterMessagePipelineComponentContext;
+@class IMDiMessageIDSTrustedData;
 
 @interface IMMessageLegacyProcessingPipelineComponent
 {
     IMDiMessageIDSTrustedData *_idsTrustedData;
-    id _messageContext;
-    IDSService *_idsService;
-    IMFilterMessagePipelineComponentContext *_filteringContext;
 }
 
 - (id);

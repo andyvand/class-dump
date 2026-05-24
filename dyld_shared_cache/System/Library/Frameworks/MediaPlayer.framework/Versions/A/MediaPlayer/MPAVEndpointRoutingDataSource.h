@@ -6,19 +6,11 @@
 
 #import <MediaPlayer/MPAVRoutingDataSource.h>
 
-@class MRAVRoutingDiscoverySession, MRAVRoutingDiscoverySessionConfiguration, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MRAVRoutingDiscoverySession;
 
 @interface MPAVEndpointRoutingDataSource : MPAVRoutingDataSource
 {
     MRAVRoutingDiscoverySession *_discoverySession;
-    id _callbackToken;
-    _Bool _didReceiveDiscoveryResults;
-    _Bool _suppressNotifications;
-    unsigned int _targetSessionID;
-    NSString *_routingContextUID;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableDictionary *_endpoints;
 }
 
 - (void);
@@ -38,7 +30,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)eligibleOffers:[%@], isAutoRenewEnabled:%@, isInFreePeriod:%@, isInFreeTrial:%@, isEligibleForFreeTrial:%@, initialPurchaseTimestamp:%@, serviceBeginsTimestamp:%@, studentExpirationDate:%@, studentVerifier:%@, studentVerificationId:%@, partner:%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -49,11 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool didReceiveDiscoveryResults;
-@property(readonly, nonatomic) MRAVRoutingDiscoverySessionConfiguration *discoverySessionConfiguration;
-@property(retain, nonatomic) NSMutableDictionary *endpoints; // @synthesize endpoints=_endpoints;
-@property(copy, nonatomic) NSString *routingContextUID; // @synthesize routingContextUID=_routingContextUID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(nonatomic) _Bool suppressNotifications; // @synthesize suppressNotifications=_suppressNotifications;
 
 @end
 

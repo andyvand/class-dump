@@ -13,13 +13,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (int);
 - (unsigned char);
 
 // Remaining properties
 @property(readonly, nonatomic) int fieldType;
-@property(readonly, nonatomic) unsigned char fieldValue;
 
 @end
 

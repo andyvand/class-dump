@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMediaSelectionOption, NSArray;
+@class NSArray;
 
 @protocol AVMediaSelectionOptionsSource
+- (NSArray *)connection;
 
 // Remaining properties
-@property(retain, nonatomic) AVMediaSelectionOption *currentLegibleMediaSelectionOption;
 @property(readonly, copy, nonatomic) NSArray *legibleMediaSelectionOptions;
 @end
 

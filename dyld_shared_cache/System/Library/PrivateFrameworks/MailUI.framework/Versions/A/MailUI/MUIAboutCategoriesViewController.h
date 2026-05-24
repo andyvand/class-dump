@@ -9,19 +9,16 @@
 @interface MUIAboutCategoriesViewController
 {
     id daemonInterface;
-    id provider;
-    id categoriesView;
-    void delegate;
 }
 
-- (id);
+- (id)?;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)nkCategory;
+- (void)linkCategory;
 
 // Remaining properties
 @property(nonatomic) __weak id <MUIAboutCategoriesViewControllerDelegate> delegate; // @synthesize delegate;

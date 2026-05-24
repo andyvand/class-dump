@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)m.apple.arkit.worldTracking.accuratePlaneExtentCheck;
 + (void);
 - (void);
 

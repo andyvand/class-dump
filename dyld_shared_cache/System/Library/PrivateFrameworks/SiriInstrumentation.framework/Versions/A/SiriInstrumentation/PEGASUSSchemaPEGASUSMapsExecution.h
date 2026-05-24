@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSMapsExecution : SISchemaInstrumentationMessage
 {
     int _mapsFeature;
-    int _mapsQueryLabel;
-    _Bool _isSearchAlongRouteRequest;
-    _Bool _isProxySearchResult;
-    _Bool _isSpellCorrected;
-    CDStruct_0f07ae67 _has;
 }
 
 - (void);
@@ -35,7 +28,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -44,28 +37,18 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)V;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)questAuthorizationWithOptions granted:(id)arg1 %{BOOL}d error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ÑÝ°1Â0@ù
 × ;
-- (id)ersionPriorToSoftwareUpdate;
-- (id)raction;
+- (id)_hasBuildVersionPriorToSoftwareUpdate;
+- (id)turnInteraction;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsProxySearchResult;
-@property(nonatomic) _Bool hasIsSearchAlongRouteRequest;
-@property(nonatomic) _Bool hasIsSpellCorrected;
-@property(nonatomic) _Bool hasMapsFeature;
-@property(nonatomic) _Bool hasMapsQueryLabel;
-@property(nonatomic) _Bool isProxySearchResult; // @synthesize isProxySearchResult=_isProxySearchResult;
-@property(nonatomic) _Bool isSearchAlongRouteRequest; // @synthesize isSearchAlongRouteRequest=_isSearchAlongRouteRequest;
-@property(nonatomic) _Bool isSpellCorrected; // @synthesize isSpellCorrected=_isSpellCorrected;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int mapsFeature; // @synthesize mapsFeature=_mapsFeature;
-@property(nonatomic) int mapsQueryLabel; // @synthesize mapsQueryLabel=_mapsQueryLabel;
 
 @end
 

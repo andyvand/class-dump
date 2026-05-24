@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject;
+
 @protocol NSRemoteViewDelegate
+
+@optional
+- (NSObject *)Gz;
 
 // Remaining properties
 @property(readonly) _Bool shouldRetainExportedObject;

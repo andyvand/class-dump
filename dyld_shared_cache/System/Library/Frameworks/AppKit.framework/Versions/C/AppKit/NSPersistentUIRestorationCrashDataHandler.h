@@ -10,19 +10,12 @@ __attribute__((visibility("hidden")))
 @interface NSPersistentUIRestorationCrashDataHandler
 {
     id <NSPersistentUIStorageClient> _store;
-    _Atomic int _crashBlameCounter;
-    struct {
-        int restorationCount;
-        long long restorationStartTime;
-        long long restorationEndTime;
-    } _cachedCrashData;
-    _Bool _cachedCrashDataIsValid;
 }
 
 - (unsigned int);
 - (void);
-- (long long);
-- (void);
+- (long long)nloadTask"24@"NSURL"32;
+- (void)set_clientIsNotExplicitlyDiscretionary: /* Error: Ran out of types for this method. */;
 - (void)U¼A;
 - (id)¢E;
 

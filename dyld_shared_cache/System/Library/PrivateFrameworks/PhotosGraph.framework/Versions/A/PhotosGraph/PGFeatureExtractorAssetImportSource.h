@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id)aningInterestingnessCriteria;
+- (long long);
+- (id)removeHostnames: /* Error: Ran out of types for this method. */;
+- (id)PGMeaningInterestingnessCriteria;
 
 @end
 

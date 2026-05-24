@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMobileContentTab, CAGradientLayer, NSArray, NSMutableArray, UIScrollView;
-@protocol AVMobileContentTabSelectionViewDelegate, AVMobileControlsStyleFontsSheet;
+@class AVMobileContentTab, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileContentTabSelectionView
 {
     NSMutableArray *_tabButtons;
-    UIScrollView *_scrollingContentView;
-    CAGradientLayer *_gradientFadeoutLayer;
-    id <AVMobileControlsStyleFontsSheet> _styleSheet;
-    NSArray *_contentTabs;
-    AVMobileContentTab *_selectedTab;
-    id <AVMobileContentTabSelectionViewDelegate> _delegate;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)tity for lookup info %@;
 - (void);
 - (void);
 - (struct CGSize);
@@ -40,10 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)	;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *contentTabs; // @synthesize contentTabs=_contentTabs;
-@property(nonatomic) __weak id <AVMobileContentTabSelectionViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) AVMobileContentTab *selectedTab; // @synthesize selectedTab=_selectedTab;
-@property(retain, nonatomic) id <AVMobileControlsStyleFontsSheet> styleSheet; // @synthesize styleSheet=_styleSheet;
 
 @end
 

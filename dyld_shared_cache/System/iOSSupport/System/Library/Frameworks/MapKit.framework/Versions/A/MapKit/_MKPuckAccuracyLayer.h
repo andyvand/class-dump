@@ -4,45 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAGradientLayer, CALayer, NSArray, UIColor, UITraitCollection;
-
 __attribute__((visibility("hidden")))
 @interface _MKPuckAccuracyLayer
 {
     unsigned long long _mapType;
-    UIColor *_tintColor;
-    _Bool _stale;
-    double _minimumRadius;
-    _Bool _externallyHidden;
-    _Bool _internallyHidden;
-    _Bool _shouldShowAnimationsIfAvailable;
-    UIColor *_fullOpacityFillColor;
-    double _baseOpacity;
-    double _additionalOpacityMultiplier;
-    UIColor *_fullOpacityStrokeColor;
-    double _baseStrokeOpacity;
-    double _additionalStrokeOpacityMultiplier;
-    UITraitCollection *_traitCollection;
-    _Bool _faux3DEnabled;
-    _Bool _useDarkAppearance;
-    double _mapPitchRadians;
-    double _mapCameraDistance;
-    CALayer *_ring;
-    CAGradientLayer *_faux3DHighlight;
-    CALayer *_faux3DHighlightMask;
-    NSArray *_faux3DHighlightMaskRings;
-    CALayer *_faux3DShadow;
 }
 
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (double);
@@ -55,31 +31,20 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)body=%@;
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void)ithActionType:mapType: /* Error: Ran out of types for this method. */;
+- (void)initWithActionType:mapType: /* Error: Ran out of types for this method. */;
 - (id)iewController;
-- (void)rics;
+- (void)ArrowDrawingUseUpdatedGuidanceManeuverMetrics;
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double accuracy;
-@property(readonly, nonatomic) double currentAccuracy;
 @property(nonatomic, getter=isFaux3DEnabled) _Bool faux3DEnabled; // @synthesize faux3DEnabled=_faux3DEnabled;
-@property(nonatomic) double mapCameraDistance; // @synthesize mapCameraDistance=_mapCameraDistance;
-@property(nonatomic) double mapPitchRadians; // @synthesize mapPitchRadians=_mapPitchRadians;
-@property(nonatomic) unsigned long long mapType; // @synthesize mapType=_mapType;
-@property(nonatomic) double minimumRadius; // @synthesize minimumRadius=_minimumRadius;
-@property(readonly, nonatomic) double presentationFillOpacity;
-@property(readonly, nonatomic) struct CGRect significantBounds;
-@property(nonatomic, getter=isStale) _Bool stale; // @synthesize stale=_stale;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

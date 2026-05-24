@@ -6,19 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLSchemaFLParameterCandidateCategory, FLSchemaFLToolCandidateCategory, NSData;
+@class FLSchemaFLToolCandidateCategory;
 
 @interface FLSchemaFLCandidateCategory : SISchemaInstrumentationMessage
 {
     FLSchemaFLToolCandidateCategory *_tool;
-    FLSchemaFLParameterCandidateCategory *_parameter;
-    _Bool _hasTool;
-    _Bool _hasParameter;
-    unsigned long long _whichCategory;
 }
 
-- (unsigned long long);
-- (void);
+- (unsigned long long)*;
+- (void)F;
 - (void);
 - (_Bool);
 - (void);
@@ -27,26 +23,21 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)__bss;
+- (id)\;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)TKTonePickerViewDelegate;
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (id)validationContext";
-- (id)tilizationMetadata;
+- (id)_hasResourceUtilizationMetadata;
 - (id)(n¬nøqrHwøx;
 - (void)Âÿø;
 
 // Remaining properties
-@property(nonatomic) _Bool hasParameter; // @synthesize hasParameter=_hasParameter;
-@property(nonatomic) _Bool hasTool; // @synthesize hasTool=_hasTool;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) FLSchemaFLParameterCandidateCategory *parameter; // @synthesize parameter=_parameter;
 @property(retain, nonatomic) FLSchemaFLToolCandidateCategory *tool; // @synthesize tool=_tool;
-@property(readonly, nonatomic) unsigned long long whichCategory; // @synthesize whichCategory=_whichCategory;
 
 @end
 

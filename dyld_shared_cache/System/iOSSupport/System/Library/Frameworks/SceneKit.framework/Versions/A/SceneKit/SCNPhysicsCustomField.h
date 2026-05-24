@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct c3dPhysicsField *);
-- (void);
+- (void)T;
 - (void);
 - (CDUnknownBlockType);
 

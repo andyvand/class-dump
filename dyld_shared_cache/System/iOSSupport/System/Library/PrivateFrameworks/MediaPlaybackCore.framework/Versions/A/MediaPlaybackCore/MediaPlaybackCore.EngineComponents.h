@@ -7,7 +7,6 @@
 @interface MediaPlaybackCore.EngineComponents
 {
     id sessionManager;
-    id consumers;
 }
 
 @end

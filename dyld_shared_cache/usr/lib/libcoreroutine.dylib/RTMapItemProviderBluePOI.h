@@ -6,22 +6,11 @@
 
 #import <coreroutine/RTMapItemProviderBase.h>
 
-@class NSString, RTBluePOIMetricManager, RTBluePOIMonitor, RTBluePOITileManager, RTFingerprintManager, RTInferredMapItemDeduper, RTLocationManager, RTMapItemManager, RTMapItemProviderBluePOIParameters, RTMapServiceManager, RTMotionActivityManager, RTPlaceInferenceQueryStore, RTPlatform;
+@class RTBluePOIMetricManager;
 
 @interface RTMapItemProviderBluePOI : RTMapItemProviderBase
 {
     RTBluePOIMetricManager *_bluePOIMetricManager;
-    RTBluePOIMonitor *_bluePOIMonitor;
-    RTBluePOITileManager *_bluePOITileManager;
-    RTInferredMapItemDeduper *_inferredMapItemDeduper;
-    RTFingerprintManager *_fingerprintManager;
-    RTLocationManager *_locationManager;
-    RTMotionActivityManager *_motionActivityManager;
-    RTMapItemManager *_mapItemManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTPlaceInferenceQueryStore *_placeInferenceQueryStore;
-    RTPlatform *_platform;
-    RTMapItemProviderBluePOIParameters *_parameters;
 }
 
 + (id);
@@ -29,9 +18,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)l;
 - (_Bool);
-- (id);
+- (id)4Mapped:(double)arg1 remainingLength:(id)arg2 %zd < 1;
 - (id);
 - (id);
 - (id);
@@ -55,15 +44,15 @@
 - (id);
 - (id);
 - (id);
+- (void)";
+- (id)@;
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)Á;
 - (void);
 - (void);
 - (id);
@@ -78,11 +67,11 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)CloudSyncProvisionedForAccount:(id)arg1 handler:(id)arg2;
-- (void)entHandlerDictionary;
-- (_Bool)onsMO:(id)arg1;
-- (id)persistVehicleEventToHistory:(id)arg1;
-- (void)t;
+- (id)updateCloudSyncProvisionedForAccount:(id)arg1 handler:(id)arg2;
+- (void)regionEventHandlerDictionary;
+- (_Bool)createWithTripClusterRoadTransitionsMO:(id)arg1;
+- (id)_persistVehicleEventToHistory:(id)arg1;
+- (void)BluePOIDailyEventBackgroundQueryCount;
 - (void)Invalid parameter not satisfying:userCuration (in %s:%d) /* Error: Ran out of types for this method. */;
 - (id)s record after retries with recoverable error %@;
 - (id)fetching transaction history, %@;
@@ -90,24 +79,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) RTBluePOIMetricManager *bluePOIMetricManager; // @synthesize bluePOIMetricManager=_bluePOIMetricManager;
-@property(retain, nonatomic) RTBluePOIMonitor *bluePOIMonitor; // @synthesize bluePOIMonitor=_bluePOIMonitor;
-@property(retain, nonatomic) RTBluePOITileManager *bluePOITileManager; // @synthesize bluePOITileManager=_bluePOITileManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTFingerprintManager *fingerprintManager; // @synthesize fingerprintManager=_fingerprintManager;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) RTInferredMapItemDeduper *inferredMapItemDeduper; // @synthesize inferredMapItemDeduper=_inferredMapItemDeduper;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMapItemManager *mapItemManager; // @synthesize mapItemManager=_mapItemManager;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(readonly, copy, nonatomic) RTMapItemProviderBluePOIParameters *parameters; // @synthesize parameters=_parameters;
-@property(retain, nonatomic) RTPlaceInferenceQueryStore *placeInferenceQueryStore; // @synthesize placeInferenceQueryStore=_placeInferenceQueryStore;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(readonly) Class superclass;
 
 @end
 

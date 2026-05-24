@@ -8,12 +8,9 @@ __attribute__((visibility("hidden")))
 @interface TimingInstance
 {
     double startTiming;
-    double stopTiming;
-    double totalTime;
-    _Bool isRunning;
 }
 
-+ (id);
++ (id)idStartConnectionBlock strongSelf started(%d);
 - (double);
 - (double);
 - (void);
@@ -25,10 +22,7 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(nonatomic) _Bool isRunning; // @synthesize isRunning;
 @property(nonatomic) double startTiming; // @synthesize startTiming;
-@property(nonatomic) double stopTiming; // @synthesize stopTiming;
-@property(nonatomic) double totalTime; // @synthesize totalTime;
 
 @end
 

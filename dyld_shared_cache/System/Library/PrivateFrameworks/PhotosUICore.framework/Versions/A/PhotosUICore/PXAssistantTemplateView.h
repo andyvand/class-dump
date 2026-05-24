@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSImage, NSLayoutConstraint, NSString, NSTextField, NSView;
+@class NSView;
 
 @interface PXAssistantTemplateView
 {
     NSView *_topViewContainer;
-    NSLayoutConstraint *_topViewContainerZeroHeightConstraint;
-    NSString *_topImageSymbolName;
-    NSTextField *_titleLabel;
-    NSTextField *_bodyLabel;
-    NSView *_contentView;
-    NSTextField *_footerLabel;
-    NSView *_topView;
 }
 
 + (id);
@@ -27,25 +20,20 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id)ferredAnimationStyleForNumber: /* Error: Ran out of types for this method. */;
-- (id)aryImportNeedsTimeMachineRestore;
+- (id)preferredAnimationStyleForNumber: /* Error: Ran out of types for this method. */;
+- (id)PXImportExceptionTypeLibraryImportNeedsTimeMachineRestore;
 - (void)ÜÉ;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedBodyText;
-@property(copy, nonatomic) NSString *bodyText;
-@property(copy, nonatomic) NSString *title;
-@property(retain, nonatomic) NSImage *topImage;
-@property(retain, nonatomic) NSString *topImageSymbolName; // @synthesize topImageSymbolName=_topImageSymbolName;
 @property(retain, nonatomic) NSView *topView; // @synthesize topView=_topView;
 
 @end

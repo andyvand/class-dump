@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
+@class NSString;
 
 @interface _DPOBHRecord
 {
     _Bool _submitted;
-    NSString *_key;
-    double _creationDate;
-    long long _reportVersion;
-    NSManagedObjectID *_objectId;
 }
 
 + (id);
@@ -24,7 +20,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (double);
+- (double)%{public}@;
 - (id);
 - (id);
 - (_Bool);
@@ -36,20 +32,16 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)checkForExistingAssetsWithPolicy:(double)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)displayCompletionListRelativeToRect:ofView:webViewURL:matchingPartialUsername:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)aËÐ!TAù±.°1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) double creationDate; // @synthesize creationDate=_creationDate;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSManagedObjectID *objectId; // @synthesize objectId=_objectId;
-@property(nonatomic) long long reportVersion; // @synthesize reportVersion=_reportVersion;
-@property(nonatomic) _Bool submitted; // @synthesize submitted=_submitted;
 
 @end
 

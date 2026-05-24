@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLModelConfiguration, NSArray, NSDictionary, NSString;
+@class NLModelConfiguration;
 
 @interface NLDataProvider
 {
     NLModelConfiguration *_configuration;
-    struct __CFStringTokenizer *_tokenizer;
-    NSArray *_instances;
-    NSDictionary *_labelMap;
-    NSDictionary *_inverseLabelMap;
-    NSDictionary *_vocabularyMap;
-    NSDictionary *_documentFrequencyMap;
-    unsigned long long _numberOfLabels;
-    unsigned long long _numberOfVocabularyEntries;
-    unsigned long long _numberOfTokens;
-    NSString *_recognizedLanguage;
-    _Bool _generatedMaps;
-    _Bool _performedLanguageRecognition;
 }
 
 - (id);
@@ -37,7 +25,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ith type PLPersonVerifiedTypeUser cannot be changed;
 - (void);
 - (id);
 - (void);
@@ -45,8 +33,6 @@
 
 // Remaining properties
 @property(readonly, copy) NLModelConfiguration *configuration;
-@property(readonly) unsigned long long numberOfInstances;
-@property(readonly) NSString *recognizedLanguage;
 
 @end
 

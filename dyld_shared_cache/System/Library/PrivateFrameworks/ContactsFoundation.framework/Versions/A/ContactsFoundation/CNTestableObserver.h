@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNObservableContractEnforcement, CNVirtualScheduler, NSArray, NSMutableArray, NSString;
+@class CNVirtualScheduler, NSArray;
 
 @interface CNTestableObserver
 {
     CNVirtualScheduler *_scheduler;
-    NSMutableArray *_results;
-    CNObservableContractEnforcement *_enforcement;
 }
 
 + (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)insertNewObjectInManagedObjectContact:(id)arg1;
 - (void);
 - (void);
 - (void)-Z]{2,}+$;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *resultValues;
 @property(readonly) NSArray *results; // @synthesize results=_results;
-@property(readonly) Class superclass;
 
 @end
 

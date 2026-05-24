@@ -7,17 +7,6 @@
 @interface TextRecognition.CRConcurrentRecognitionPipeline
 {
     id $defaultActor;
-    id options;
-    id recognizerConfiguration;
-    id owner;
-    id isCancelled;
-    id textFeatureSplitter;
-    id recognizerProvider;
-    id orientationCorrector;
-    id orientationCorrectorLoadTask;
-    id recognitionPostProcessor;
-    id orientationStats;
-    id groupingStats;
 }
 
 @end

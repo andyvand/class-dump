@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface HMIVideoFrame
 {
     long long _store;
-    NSData *_data;
-    struct __CVBuffer *_pixelBuffer;
-    struct CGSize _size;
-    CDStruct_1b6d18a9 _presentationTimeStamp;
 }
 
 + (_Bool);
@@ -25,31 +19,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)';
+- (void);
 - (id);
 - (CDStruct_1b6d18a9);
 - (struct CGSize);
-- (id);
+- (id);
 - (void);
 - (CDStruct_1b6d18a9);
 - (id);
-- (struct __CVBuffer *);
+- (struct __CVBuffer *)(;
 - (void);
 
 // Remaining properties
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
-@property(readonly) CDStruct_1b6d18a9 presentationTimeStamp; // @synthesize presentationTimeStamp=_presentationTimeStamp;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(readonly) CDStruct_1b6d18a9 time;
 
 @end
 

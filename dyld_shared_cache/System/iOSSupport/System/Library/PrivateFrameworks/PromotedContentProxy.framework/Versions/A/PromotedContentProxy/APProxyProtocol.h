@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APNSURLSessionDemultiplexer, NSArray, NSString, NSThread, NSURLSessionDataTask;
+@class NSThread;
 
 @interface APProxyProtocol
 {
     NSThread *_clientThread;
-    NSArray *_modes;
-    double _startTime;
-    NSURLSessionDataTask *_task;
-    APNSURLSessionDemultiplexer *_sessionDemux;
-    long long _requestType;
 }
 
 + (id);
@@ -29,37 +24,25 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (double);
 - (id);
 - (void);
 - (void);
+- (void)mViewScale;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)TSUProgressContextProgress;
 - (void);
 - (long long);
 
 // Remaining properties
 @property(retain) NSThread *clientThread; // @synthesize clientThread=_clientThread;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *modes; // @synthesize modes=_modes;
-@property(nonatomic) long long requestType; // @synthesize requestType=_requestType;
-@property(retain) APNSURLSessionDemultiplexer *sessionDemux; // @synthesize sessionDemux=_sessionDemux;
-@property double startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
-@property(retain) NSURLSessionDataTask *task; // @synthesize task=_task;
 
 @end
 

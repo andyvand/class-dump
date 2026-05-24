@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDSlowWiFiNotification, NSMutableArray;
-
 @interface AWDWiFiSlowWiFiReport
 {
     unsigned long long _timestamp;
-    NSMutableArray *_linkQualSamples;
-    AWDSlowWiFiNotification *_slowNotice;
-    NSMutableArray *_usbEvents;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
 + (Class);
-- (unsigned long long);
+- (unsigned long long)qa;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)}S+;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -33,10 +27,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_	;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -48,12 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSlowNotice;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *linkQualSamples; // @synthesize linkQualSamples=_linkQualSamples;
-@property(retain, nonatomic) AWDSlowWiFiNotification *slowNotice; // @synthesize slowNotice=_slowNotice;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSMutableArray *usbEvents; // @synthesize usbEvents=_usbEvents;
 
 @end
 

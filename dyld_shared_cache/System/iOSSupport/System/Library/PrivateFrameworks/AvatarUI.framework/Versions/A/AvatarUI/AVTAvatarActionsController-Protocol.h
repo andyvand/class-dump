@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarActionsProvider, AVTAvatarRecordDataSource;
+@class AVTAvatarActionsProvider;
 @protocol AVTAvatarActionsControllerDelegate;
 
 @protocol AVTAvatarActionsController
+- (id <AVTAvatarActionsControllerDelegate>));
 
 // Remaining properties
 @property(readonly, nonatomic) AVTAvatarActionsProvider *actionsModel;
-@property(readonly, nonatomic) AVTAvatarRecordDataSource *dataSource;
-@property(nonatomic) __weak id <AVTAvatarActionsControllerDelegate> delegate;
 @end
 

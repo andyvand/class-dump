@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSAnimationInfo
 {
     struct CGRect _startFrame;
-    struct CGRect _endFrame;
-    int _effect;
 }
 
 @end

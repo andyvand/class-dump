@@ -6,68 +6,48 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKCodeFunctionInvokeOperationInfo, CKCodeService, NSArray, NSError, NSMutableDictionary, NSString, NSURL, PBCodable;
-@protocol CKCodeOperationCallbacks, CKCodeOperationMessageMutation;
-
 @interface CKCodeOperation : CKDatabaseOperation
 {
     _Bool _dropInMemoryAssetContentASAP;
-    _Bool _shouldFetchAssetContentInMemory;
-    NSMutableDictionary *_assetInfoByArrayIndexByRecordKeyByRecordID;
-    CDUnknownBlockType _perRecordProgressBlock;
-    CDUnknownBlockType _perRecordCompletionBlock;
-    CDUnknownBlockType _codeOperationCompletionBlock;
-    CDUnknownBlockType _incompleteResponsePreviewBlock;
-    CDUnknownBlockType _didSubstituteRequestRecordTransportsBlock;
-    PBCodable<CKCodeOperationMessageMutation> *_request;
-    Class _responseClass;
-    NSString *_functionName;
-    CKCodeService *_codeService;
-    NSString *_serviceName;
-    long long _destinationServer;
-    NSURL *_destinationServerExplicitURL;
-    NSArray *_requestLocalSerializations;
-    PBCodable<CKCodeOperationMessageMutation> *_response;
-    NSError *_responseError;
 }
 
-+ (SEL);
++ (SEL);
 + (id);
 + (void);
-+ (Class);
++ (Class)P;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)8pn;
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (CDUnknownBlockType)B	;
+- (void);
+- (void);
+- (void)|;
+- (CDUnknownBlockType);
+- (id);
+- (long long)kA;
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (id);
-- (long long);
-- (id);
-- (CDUnknownBlockType);
+- (void)a;
+- (id) ;
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (void);
+- (_Bool)N6CoreML13Specification24SquaredEuclideanDistanceE;
 - (id);
+- (CDUnknownBlockType)a3;
+- (void);
 - (void);
 - (_Bool);
-- (id);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -75,10 +55,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id));
 - (void);
 - (id);
-- (void);
+- (void)yItem _mergeURL:] /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void)1Â0@ù
@@ -92,33 +72,7 @@
 - (void)X{;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *assetInfoByArrayIndexByRecordKeyByRecordID; // @synthesize assetInfoByArrayIndexByRecordKeyByRecordID=_assetInfoByArrayIndexByRecordKeyByRecordID;
-@property(readonly, nonatomic) id <CKCodeOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) CDUnknownBlockType codeOperationCompletionBlock; // @synthesize codeOperationCompletionBlock=_codeOperationCompletionBlock;
-@property(retain, nonatomic) CKCodeService *codeService; // @synthesize codeService=_codeService;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long destinationServer; // @synthesize destinationServer=_destinationServer;
-@property(copy, nonatomic) NSURL *destinationServerExplicitURL; // @synthesize destinationServerExplicitURL=_destinationServerExplicitURL;
-@property(copy, nonatomic) CDUnknownBlockType didSubstituteRequestRecordTransportsBlock; // @synthesize didSubstituteRequestRecordTransportsBlock=_didSubstituteRequestRecordTransportsBlock;
-@property(nonatomic) _Bool dropInMemoryAssetContentASAP; // @synthesize dropInMemoryAssetContentASAP=_dropInMemoryAssetContentASAP;
-@property(copy, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType incompleteResponsePreviewBlock; // @synthesize incompleteResponsePreviewBlock=_incompleteResponsePreviewBlock;
-@property(readonly, nonatomic) CKCodeFunctionInvokeOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(copy, nonatomic) CDUnknownBlockType perRecordCompletionBlock; // @synthesize perRecordCompletionBlock=_perRecordCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perRecordProgressBlock; // @synthesize perRecordProgressBlock=_perRecordProgressBlock;
-@property(retain, nonatomic) PBCodable<CKCodeOperationMessageMutation> *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSArray *requestLocalSerializations; // @synthesize requestLocalSerializations=_requestLocalSerializations;
-@property(retain, nonatomic) PBCodable<CKCodeOperationMessageMutation> *response; // @synthesize response=_response;
 @property(retain, nonatomic) Class responseClass; // @synthesize responseClass=_responseClass;
-@property(retain, nonatomic) NSError *responseError; // @synthesize responseError=_responseError;
-@property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) _Bool shouldFetchAssetContentInMemory; // @synthesize shouldFetchAssetContentInMemory=_shouldFetchAssetContentInMemory;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,15 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (id)9�*;
+- (unsigned long long);
+- (id)]E3$_2FvvEEE;
+- (_Bool)ad WebKit extension with identifier %{private}@ with error:(Class)arg1 %{public}@;
+- (id);
 - (struct _NSZone *)0BÏÅ6cy"ÂÆ­º:!ì6MäÄNûwïç_¸ /* Error: Ran out of types for this method. */;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)setContactStorages: /* Error: Ran out of types for this method. */;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

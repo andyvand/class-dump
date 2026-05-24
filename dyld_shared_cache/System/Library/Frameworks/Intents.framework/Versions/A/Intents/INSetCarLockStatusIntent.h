@@ -6,42 +6,34 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSNumber, NSString;
+@class NSNumber;
 
 @interface INSetCarLockStatusIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void))c;
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void);
-- (void);
+- (void)nailsInterface>";
+- (void)PathStr from:(id)arg1 %s;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) INSpeakableString *carName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSNumber *locked;
-@property(readonly) Class superclass;
 
 @end
 

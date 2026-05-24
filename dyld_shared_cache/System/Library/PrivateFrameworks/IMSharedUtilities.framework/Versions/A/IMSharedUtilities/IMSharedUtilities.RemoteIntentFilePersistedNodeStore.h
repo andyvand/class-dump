@@ -7,8 +7,6 @@
 @interface IMSharedUtilities.RemoteIntentFilePersistedNodeStore
 {
     id modelContainer;
-    id modelContext;
-    id persistedList;
 }
 
 @end

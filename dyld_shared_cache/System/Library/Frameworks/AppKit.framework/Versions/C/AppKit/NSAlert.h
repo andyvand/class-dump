@@ -4,79 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSButton, NSImage, NSImageView, NSMutableArray, NSStackView, NSString, NSTextField, NSTouchBar, NSView, NSWindow, _NSAlertPanel;
-@protocol NSAlertDelegate;
+@class NSTextField;
 
 @interface NSAlert
 {
     NSTextField *_informationField;
-    NSButton *_first;
-    NSButton *_second;
-    NSButton *_third;
-    NSMutableArray *_buttons;
-    NSMutableArray *_textFields;
-    _NSAlertPanel *_panel;
-    NSTextField *_messageField;
-    NSImageView *_imageView;
-    struct CGSize _minButtonSize;
-    double _buttonSpacing;
-    double _buttonPadding;
-    double _messagePadding;
-    double _buttonSpacingMaxX;
-    double _buttonSpacingY;
-    id _modalDelegate;
-    NSWindow *_docWindow;
-    SEL _didEndSelector;
-    SEL _didDismissSelector;
-    NSImage *_unbadgedImage;
-    struct CGSize _defaultPanelSize;
-    NSButton *_helpButton;
-    id _delegate;
-    unsigned long long _alertStyle;
-    id _helpAnchor;
-    _Bool _layoutDone;
-    _Bool _showsHelp;
-    _Bool _showsSuppressionButton;
-    NSButton *_suppressionButton;
-    NSView *_accessoryView;
-    NSStackView *_buttonStack;
-    NSView *_inputTextFieldsContainerView;
-    double _minPanelWidth;
-    unsigned long long _presentationStyle;
-    unsigned long long _contentAlignment;
-    unsigned long long _layoutStyle;
-    unsigned long long _imageStyle;
-    CDUnknownBlockType _completionHandler;
-    id _gameControllerAssertion;
 }
 
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long _automaticApplicationTerminationBehaviorWhenModal;
-@property(copy, getter=_completionHandler, setter=_setCompletionHandler:) CDUnknownBlockType _completionHandler;
-@property(retain) id _gameControllerAssertion; // @synthesize _gameControllerAssertion;
-@property(retain) _NSAlertPanel *_panel; // @synthesize _panel;
-@property(retain) NSView *accessoryView;
-@property unsigned long long alertStyle;
-@property(copy) NSAttributedString *attributedInformativeText;
-@property(copy) NSAttributedString *attributedMessageText;
-@property(readonly, copy) NSArray *buttons;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSAlertDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *helpAnchor;
-@property(retain) NSImage *icon;
-@property(copy) NSString *informativeText;
-@property(copy) NSString *messageText;
-@property _Bool showsHelp;
-@property _Bool showsSuppressionButton;
-@property(readonly) Class superclass;
-@property(readonly) NSButton *suppressionButton;
-@property(readonly) NSTouchBar *touchBar;
-@property(readonly) NSWindow *window;
 @end
 

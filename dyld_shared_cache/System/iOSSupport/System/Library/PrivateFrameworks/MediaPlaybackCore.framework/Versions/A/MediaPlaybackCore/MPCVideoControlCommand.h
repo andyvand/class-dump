@@ -11,7 +11,7 @@
 
 - (id);
 - (void);
-- (_Bool)ueueLoadDuration;
+- (_Bool)queueLoadDuration;
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active=_active;

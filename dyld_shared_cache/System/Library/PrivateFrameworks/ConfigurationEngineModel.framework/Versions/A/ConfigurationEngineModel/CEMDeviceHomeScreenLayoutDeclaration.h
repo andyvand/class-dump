@@ -6,18 +6,17 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CEMDeviceHomeScreenLayoutDeclaration : CEMConfigurationBase
 {
     NSArray *_payloadDock;
-    NSArray *_payloadPages;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)__TEXT;
 + (id);
 + (id);
 + (id);
@@ -28,22 +27,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id));
 - (int);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *payloadDock; // @synthesize payloadDock=_payloadDock;
-@property(copy, nonatomic) NSArray *payloadPages; // @synthesize payloadPages=_payloadPages;
-@property(readonly) Class superclass;
 
 @end
 

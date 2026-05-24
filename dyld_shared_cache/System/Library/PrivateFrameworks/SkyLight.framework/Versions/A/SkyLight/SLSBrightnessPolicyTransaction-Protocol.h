@@ -5,5 +5,10 @@
 //
 
 @protocol SLSBrightnessPolicyTransaction
+- (void)atched %@%@%@ hashes for mapping model %@
+;
+- (void)cdm;
+- (void)ectory does not exist or is not writable %@;
+- (_Bool)lized:(id *)arg1 ];
 @end
 

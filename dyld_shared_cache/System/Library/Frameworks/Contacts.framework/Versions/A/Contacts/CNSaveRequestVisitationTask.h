@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNChangeHistoryEventFactory, CNSaveRequest;
-@protocol CNChangeHistoryEventVisitorPrivate;
+@class CNSaveRequest;
 
 __attribute__((visibility("hidden")))
 @interface CNSaveRequestVisitationTask
 {
     CNSaveRequest *_saveRequest;
-    id <CNChangeHistoryEventVisitorPrivate> _visitor;
-    CNChangeHistoryEventFactory *_factory;
 }
 
 - (void);
@@ -32,15 +29,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)#;
+- (id)CTEmergencyModePseudoLte;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) CNChangeHistoryEventFactory *factory; // @synthesize factory=_factory;
 @property(readonly) CNSaveRequest *saveRequest; // @synthesize saveRequest=_saveRequest;
-@property(readonly) id <CNChangeHistoryEventVisitorPrivate> visitor; // @synthesize visitor=_visitor;
 
 @end
 

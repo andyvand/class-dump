@@ -5,6 +5,8 @@
 //
 
 @protocol _HMPrivacySettingsProvider
+- (void);
+- (unsigned long long)cordingCommands;
 
 // Remaining properties
 @property(readonly) unsigned long long cachedAuthorizationStatus;

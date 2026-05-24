@@ -7,14 +7,10 @@
 @protocol PXSharedLibrary;
 
 @protocol PXMutableSharedLibraryStatusProvider
+- (id <PXSharedLibrary>);
 - (id <PXSharedLibrary>)tion"16;
 
 // Remaining properties
-@property(retain, nonatomic) id <PXSharedLibrary> exiting;
 @property(nonatomic) _Bool hasPreview;
-@property(nonatomic) _Bool hasSharedLibrary;
-@property(retain, nonatomic) id <PXSharedLibrary> invitation;
-@property(retain, nonatomic) id <PXSharedLibrary> preview;
-@property(retain, nonatomic) id <PXSharedLibrary> sharedLibrary;
 @end
 

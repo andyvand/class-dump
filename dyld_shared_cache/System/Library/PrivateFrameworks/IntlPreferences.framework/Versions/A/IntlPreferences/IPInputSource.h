@@ -4,85 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KLInputSourceIconManager, NSColor, NSImage, NSMutableSet, NSString, NSURL;
+@class KLInputSourceIconManager;
 
 @interface IPInputSource
 {
     _Bool _enabled;
-    _Bool _isInputMode;
-    _Bool _isChineseHandwriting;
-    _Bool _isPluginIM;
-    _Bool _isSystemProvided;
-    NSString *_bundleID;
-    NSString *_inputSourceID;
-    NSString *_localizedInputSourceName;
-    NSString *_languageCode;
-    NSString *_localizedLanguage;
-    NSMutableSet *_metaData;
-    NSImage *_iconImage;
-    NSURL *_settingURL;
-    struct __TISInputSource *_inputSourceRef;
-    IPInputSource *_parentInputSource;
-    KLInputSourceIconManager *_inputSourceIconManager;
 }
 
-+ (void);
++ (void)captureOutput:didDropSampleBuffer:fromConnection: /* Error: Ran out of types for this method. */;
++ (id)capsuleWithRadius:height:options: /* Error: Ran out of types for this method. */;
++ (id)_transitionContext;
 + (id);
-+ (id);
-+ (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)control:textView:doCommandBySelector: /* Error: Ran out of types for this method. */;
+- (_Bool)control:isValidObject: /* Error: Ran out of types for this method. */;
+- (id)continuousCollisionDetection;
+- (void)comboBox:(id)arg1 objectValueForItemAtIndex: /* Error: Ran out of types for this method. */;
+- (id)center;
+- (id)cameraOrthographicFrustumGeometry;
+- (id)cameraNearPlaneGeometry;
+- (_Bool)bloomThreshold;
+- (_Bool)bloomIterationCount;
+- (_Bool)birthRateVariation;
+- (_Bool)bindingMode;
+- (struct __TISInputSource *)bind:toObject:withKeyPath:options: /* Error: Ran out of types for this method. */;
+- (id)bias;
+- (id)avoidsOverLighting;
+- (id)avoidOccluderConstraint:(struct __TISInputSource *)arg1 shouldAvoidOccluder:(struct __TISInputSource *)arg2 forNode: /* Error: Ran out of types for this method. */;
+- (id)avoidOccluderConstraint:(id)arg1 didAvoidOccluder:(id)arg2 forNode: /* Error: Ran out of types for this method. */;
+- (id)avoidOccluderConstraint;
+- (_Bool)animationDidStop;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct __TISInputSource *);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)@;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)P^QI¬3^4^5^V^W^X^;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowToChangeEnablingState;
-@property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSImage *iconImage; // @synthesize iconImage=_iconImage;
-@property(readonly, copy, nonatomic) NSString *inputSourceID; // @synthesize inputSourceID=_inputSourceID;
 @property(retain, nonatomic) KLInputSourceIconManager *inputSourceIconManager; // @synthesize inputSourceIconManager=_inputSourceIconManager;
-@property(readonly, nonatomic) struct __TISInputSource *inputSourceRef; // @synthesize inputSourceRef=_inputSourceRef;
-@property(readonly, nonatomic) _Bool isChineseHandwriting; // @synthesize isChineseHandwriting=_isChineseHandwriting;
-@property(readonly, nonatomic) _Bool isInputMode; // @synthesize isInputMode=_isInputMode;
-@property(readonly, nonatomic) _Bool isPluginIM; // @synthesize isPluginIM=_isPluginIM;
-@property(readonly, nonatomic) _Bool isSystemProvided; // @synthesize isSystemProvided=_isSystemProvided;
-@property(readonly, copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(readonly, copy, nonatomic) NSString *localizedInputSourceName; // @synthesize localizedInputSourceName=_localizedInputSourceName;
-@property(readonly, copy, nonatomic) NSString *localizedLanguage; // @synthesize localizedLanguage=_localizedLanguage;
-@property(readonly, nonatomic) NSMutableSet *metaData; // @synthesize metaData=_metaData;
-@property(readonly, nonatomic) IPInputSource *parentInputSource; // @synthesize parentInputSource=_parentInputSource;
-@property(readonly, nonatomic) NSURL *settingURL; // @synthesize settingURL=_settingURL;
-@property(readonly, nonatomic) _Bool shouldGrayOutInputSourceItem;
-@property(readonly, nonatomic) _Bool supportDirectionRightToLeft;
-@property(readonly, nonatomic) NSColor *textColor;
 
 @end
 

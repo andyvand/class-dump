@@ -4,56 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFApplicationManager, AXFScreen, AXKApplicationController, NSArray, NSMutableDictionary, NSObject, NSObservation, NSPointerArray, NSRunningApplication, NSString;
-@protocol AXKWorkspaceManagerDelegate, NSObservable><NSObserver, OS_dispatch_queue;
-
 @interface AXKWorkspaceManager
 {
     _Bool _enableThreadingAssertions;
-    _Bool _trackOpenedMenus;
-    _Bool _trackFocusedElement;
-    _Bool _trackFocusedWindow;
-    unsigned char __state;
-    NSArray *__menuExtras;
-    NSObject<OS_dispatch_queue> *__stateQueue;
-    AXFApplicationManager *__applicationManager;
-    NSMutableDictionary *__applicationCache;
-    NSObject<OS_dispatch_queue> *__applicationCacheQueue;
-    NSObject<OS_dispatch_queue> *__delegateQueue;
-    AXKApplicationController *__frontmostApplicationController;
-    AXKApplicationController *__focusedApplicationController;
-    NSObservation<NSObservable><NSObserver> *__menuBarOwningApplicationObserver;
-    NSObservation<NSObservable><NSObserver> *__mainScreenObserver;
-    unsigned long long __menuExtrasGen;
-    NSPointerArray *__observers;
-    id <AXKWorkspaceManagerDelegate> __delegate;
-    struct CGRect __menuExtrasBounds;
-    struct CGRect __menuBounds;
 }
 
 + (id);
-+ (id);
-- (void);
++ (id)initWithArray: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (_Bool);
 - (void);
 - (struct CGRect);
 - (id);
-- (struct CGRect);
-- (void);
+- (struct CGRect);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -65,18 +43,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)q@;
 - (void);
 - (void);
 - (void);
@@ -94,77 +72,42 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (Class);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)5 ;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
-- (void);
+- (void)?k;
 - (id);
 - (unsigned char);
 - (void);
 - (void);
-- (void);
+- (void)set_exitColor: /* Error: Ran out of types for this method. */;
 - (id)Ð!èBùqo1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setApplicationCache:) NSMutableDictionary *_applicationCache; // @synthesize _applicationCache=__applicationCache;
-@property(retain, nonatomic, setter=_setApplicationCacheQueue:) NSObject<OS_dispatch_queue> *_applicationCacheQueue; // @synthesize _applicationCacheQueue=__applicationCacheQueue;
-@property(retain, nonatomic, setter=_setApplicationManager:) AXFApplicationManager *_applicationManager; // @synthesize _applicationManager=__applicationManager;
-@property __weak id <AXKWorkspaceManagerDelegate> _delegate; // @synthesize _delegate=__delegate;
-@property(retain, nonatomic, setter=_setDelegateQueue:) NSObject<OS_dispatch_queue> *_delegateQueue; // @synthesize _delegateQueue=__delegateQueue;
-@property(retain, nonatomic, setter=_setFocusedApplicationController:) AXKApplicationController *_focusedApplicationController; // @synthesize _focusedApplicationController=__focusedApplicationController;
-@property(retain, nonatomic, setter=_setFrontmostApplicationController:) AXKApplicationController *_frontmostApplicationController; // @synthesize _frontmostApplicationController=__frontmostApplicationController;
-@property(retain, nonatomic, setter=_setMainScreenObserver:) NSObservation<NSObservable><NSObserver> *_mainScreenObserver; // @synthesize _mainScreenObserver=__mainScreenObserver;
-@property(retain, nonatomic, setter=_setMenuBarOwningApplicationObserver:) NSObservation<NSObservable><NSObserver> *_menuBarOwningApplicationObserver; // @synthesize _menuBarOwningApplicationObserver=__menuBarOwningApplicationObserver;
-@property(nonatomic, setter=_setMenuBounds:) struct CGRect _menuBounds; // @synthesize _menuBounds=__menuBounds;
-@property(retain, nonatomic, setter=_setMenuExtras:) NSArray *_menuExtras; // @synthesize _menuExtras=__menuExtras;
-@property(nonatomic, setter=_setMenuExtrasBounds:) struct CGRect _menuExtrasBounds; // @synthesize _menuExtrasBounds=__menuExtrasBounds;
-@property(nonatomic, setter=_setMenuExtrasGen:) unsigned long long _menuExtrasGen; // @synthesize _menuExtrasGen=__menuExtrasGen;
-@property(retain, nonatomic) NSPointerArray *_observers; // @synthesize _observers=__observers;
 @property(nonatomic, setter=_setState:) unsigned char _state; // @synthesize _state=__state;
-@property(retain, nonatomic, setter=_setStateQueue:) NSObject<OS_dispatch_queue> *_stateQueue; // @synthesize _stateQueue=__stateQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AXKWorkspaceManagerDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableThreadingAssertions; // @synthesize enableThreadingAssertions=_enableThreadingAssertions;
-@property(readonly) AXKApplicationController *focusedApplicationController;
-@property(readonly) AXKApplicationController *frontmostApplicationController;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AXFScreen *mainScreen;
-@property(readonly) struct CGRect menuBarBounds;
-@property(retain, nonatomic) NSRunningApplication *menuBarOwningApplication;
-@property(readonly, copy) NSArray *menuExtras;
-@property(readonly) struct CGRect menuExtrasBounds;
-@property(readonly, copy) NSArray *runningApplications;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool trackFocusedElement; // @synthesize trackFocusedElement=_trackFocusedElement;
-@property(nonatomic) _Bool trackFocusedWindow; // @synthesize trackFocusedWindow=_trackFocusedWindow;
-@property(nonatomic) _Bool trackOpenedMenus; // @synthesize trackOpenedMenus=_trackOpenedMenus;
 
 @end
 

@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (struct CGRect)ollers;
+- (struct CGRect)_searchControllers;
 - (void)¸Ì`;
 
 // Remaining properties

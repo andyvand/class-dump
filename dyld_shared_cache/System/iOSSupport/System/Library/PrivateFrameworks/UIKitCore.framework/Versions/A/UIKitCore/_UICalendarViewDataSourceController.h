@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, UICollectionViewDiffableDataSource, _UIDatePickerCalendarDaySet, _UIDatePickerCalendarMonthSet;
+@class NSCalendar;
 
 __attribute__((visibility("hidden")))
 @interface _UICalendarViewDataSourceController
 {
     NSCalendar *_calendar;
-    UICollectionViewDiffableDataSource *_dataSource;
-    _UIDatePickerCalendarMonthSet *_loadedMonthSet;
-    _UIDatePickerCalendarDaySet *_loadedDaySet;
 }
 
-- (void);
+- (void)copyDuplicateGroupChatRecordsWithLimit:(id)arg1;
+- (long long)bestCandidateGroupChatWithFromIdentifier:(id)arg1 toIdentifier:displayName:participants:updatingToLatestiMessageGroupID:sortedIdentifiers:serviceName: /* Error: Ran out of types for this method. */;
+- (id)Dictionary",R;
 - (long long);
-- (id);
-- (long long);
-- (void);
-- (id);
-- (id);
+- (void)as IMTUConversationItem record:(id)arg1 %@ recovered as:%@ /* Error: Ran out of types for this method. */;
+- (id)moved pending replicated message %@ (fallback GUIDs:%@) from cache /* Error: Ran out of types for this method. */;
+- (id)eplicated message %@ but no message pending;
 - (void)q;
 
 @end

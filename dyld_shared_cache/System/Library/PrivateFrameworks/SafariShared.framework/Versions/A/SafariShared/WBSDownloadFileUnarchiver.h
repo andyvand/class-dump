@@ -22,7 +22,6 @@
  ø;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canInterruptUnarchiving;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *synchronizationQueue; // @synthesize synchronizationQueue=_synchronizationQueue;
 
 @end

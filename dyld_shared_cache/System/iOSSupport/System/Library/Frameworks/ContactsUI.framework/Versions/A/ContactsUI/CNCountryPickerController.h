@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, NSString, UILocalizedIndexedCollation, UITableViewController;
-@protocol CNCountryPickerControllerDelegate;
+@class NSString, UITableViewController;
 
 __attribute__((visibility("hidden")))
 @interface CNCountryPickerController
 {
     NSString *_selectedCountryCode;
-    UITableViewController *_tableViewController;
-    UILocalizedIndexedCollation *_collation;
-    NSArray *_countries;
-    NSArray *_sections;
-    NSIndexPath *_selectedIndexPath;
 }
 
 - (void);
@@ -25,45 +19,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@9q;
 - (void);
 - (id);
 - (long long);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void)M;
+- (id)(;
 - (id);
+- (long long)entityNamesSet;
+- (void)asks;
 - (void);
-- (void);
-- (id);
-- (id);
 - (long long);
 - (void);
-- (void);
-- (long long);
-- (void);
 - (id);
 - (void);
-- (id);
+- (id)q;
 - (void);
 - (void)0@ù
 × ;
-- (void): /* Error: Ran out of types for this method. */;
+- (void)_beginDelayingPresentation:cancellationHandler: /* Error: Ran out of types for this method. */;
 - (id)tactFormatter",N,R;
 
 // Remaining properties
-@property(retain, nonatomic) UILocalizedIndexedCollation *collation; // @synthesize collation=_collation;
-@property(copy, nonatomic) NSArray *countries; // @synthesize countries=_countries;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNCountryPickerControllerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(copy, nonatomic) NSString *selectedCountryCode; // @synthesize selectedCountryCode=_selectedCountryCode;
-@property(retain, nonatomic) NSIndexPath *selectedIndexPath; // @synthesize selectedIndexPath=_selectedIndexPath;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITableViewController *tableViewController; // @synthesize tableViewController=_tableViewController;
 
 @end

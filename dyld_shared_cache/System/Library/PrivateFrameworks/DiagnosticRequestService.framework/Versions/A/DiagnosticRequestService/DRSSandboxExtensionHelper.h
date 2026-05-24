@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface DRSSandboxExtensionHelper
 {
     _Bool _didInit;
-    long long _sandboxExtensionHandle;
-    NSString *_logPath;
 }
 
-- (void);
+- (void)_;
 - (long long);
 - (_Bool);
 - (void);
@@ -23,8 +19,6 @@ __attribute__((visibility("hidden")))
 - (id){public}@';
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didInit; // @synthesize didInit=_didInit;
-@property(readonly, nonatomic) NSString *logPath; // @synthesize logPath=_logPath;
 @property(nonatomic) long long sandboxExtensionHandle; // @synthesize sandboxExtensionHandle=_sandboxExtensionHandle;
 
 @end

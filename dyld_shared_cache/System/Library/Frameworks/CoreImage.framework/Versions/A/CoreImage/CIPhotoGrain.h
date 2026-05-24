@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPhotoGrain : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputISO;
-    NSNumber *inputAmount;
-    NSNumber *inputSeed;
 }
 
 + (id);
@@ -26,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)qa;
 - (void){{{iFaWrQe]ryyyyssssXbZijmhppzz||||ffffDJ=O/?0ISRIS]]]]aaaaVfaivvvvfqkx3SBp@_Qw{}}}ffffOOJO>C3IIVK]gxw~¬¬¬¬§§§§i|ul|w^wsxuowzv{yvrypzy}aokxR_Upmnhrttttnnlngf`ggggghhhhVgbggidknpjt\uo¬ª¬¬§®°ªªªª~Z`[`8:(id)arg1 'A/>-Caaaa||||d|{w||||`mguUmhykauv~ssss_b_dHZW[____ffffooooxxxxuuuuhhbhdaXedpkpuuqzfyw`qlzsspsoooo[f`iggdg]iejqqqq}}}}wwvwmmgmPf^qd{zz  §¯µ´µµ¥¥¥¥Sg`rrrrrxxxxssssgkkklkhlttttwwwwqqqq[ifjiiiiggggeeeeggggoooozzzzJc[m<K<]6RGawwwwkqqq6H9V%;(OJYOc~~~~||||Sf_uh~Xngwtsmt¤§§{hys\mdw^qmvqqqqTZO_0C0PFTGXjjjjutpudywausyZ^Ua6L>U``]`uuuu~alfq`YL`CL<Yb_Vbhkkkgggg[[[[GULWiiiiSohq{xtttt9H6X.F3XTf[q¯¯¯¯¾¾¾¾³»»»®®®® ¡drnx_sr|gyz|pppp`_W`N\R`rrrrZzx¨¨¨¨§§§§Xzxh~~\tp{nzvoxs;
 - (id)t}}}yyyynnjnhg^h[haloqnqchdlV]UfQe_gmmmmtzzzyduvxMUJ`caZcvvvvosWnk|L`Yl``Y`Z\T_mmmm~~~~J^TkCVGfvvvv}}}}^toz~`uq~{xt{~~~~hwu~_vsv££££¤¤¤¤||||uupuZphxs{v££££¤¤¤¤sRdYr'G3]X`Tit~|aup~sspsSaVd=RC\W]U]^^]^Q\R_mmjmk~~~~~~~||||}}}}|~~NlaWrh¨¨¨¨tzzzzwwwwxurxstq|nwu}rspvVbYh<SEcihaqwwww=M?[DL>TS\T\IZPe_gassUhatojao||{|gsnzRg^sw}z¨¨¨¨¦­­­¥«««mxu|``Vi^c[fdgbkfjgmhhhh[[Z[NQDZemjs¢£££{xr{Wpj{wyv}w~~nzzznnnnZd^e8TJcQ^WgQ^Uj>\Rkqqpqytpz^|{¦¦¦¦²²²²§§§§t~|~srkwSkcvowr|wwwwXZO^;D2LII8N[YM`Nicznnln9J>RIIBIFOHObbbbzzzzzzzzvwwwmuu{bsruhgahL^Ud[galiyyykssu3K?\3C4NMWNYxxxx®®®®ª®´´©°°    IaUrzzzzqqqqEaYjqtst¢¢¢¢¢¦¦    vvvv_mjmwwww££££ hbsqzhlhmjjgjemlmjjjjN\Ua:OC]]gbjwwwwQnjzuuq}q{|}^iep<VLeTfak{{{{koyyyyAYPd3H8Ya`Wfs}}}u~|NdZrij`knnnnZqj{s¥¥¥¥lvp_aUk`cXeffdfR^TeRd_n||||ssssOODS1AJJ>JZZTZYb[fppmr~yyyyLaZgP_Vdhnjplrozfsp{uvsywyyyxxxxhojs\mhs||||}}}}WkguZd\nZgblmmmmhhhh>WMdYd^hppppqqqqRibrazv¦¬¬¬ªªªªZsn{{{{s¦¦¦¦¢¢yyyy]]]]PPIP[[[[mmmm_pmw_oi~j}{Viay{{{{s|smth~| /* Error: Ran out of types for this method. */;
 - (id)ht;
@@ -44,10 +41,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputAmount; // @synthesize inputAmount;
-@property(copy, nonatomic) NSNumber *inputISO; // @synthesize inputISO;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputSeed; // @synthesize inputSeed;
 
 @end
 

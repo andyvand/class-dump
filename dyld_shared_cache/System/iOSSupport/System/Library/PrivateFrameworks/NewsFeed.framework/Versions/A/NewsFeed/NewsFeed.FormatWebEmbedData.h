@@ -7,13 +7,6 @@
 @interface NewsFeed.FormatWebEmbedData
 {
     id identifier;
-    id feedItem;
-    id url;
-    id indexFileURLPromise;
-    id dataURLPromise;
-    id dataVisualization;
-    id config;
-    id routeOptions;
 }
 
 @end

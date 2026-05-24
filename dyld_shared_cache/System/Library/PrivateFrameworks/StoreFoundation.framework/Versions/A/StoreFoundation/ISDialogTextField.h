@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ISDialogTextField
 {
     long long _keyboardType;
-    _Bool _secure;
-    NSString *_title;
-    NSString *_value;
 }
 
 + (id);
@@ -23,13 +18,10 @@
 - (void);
 - (long long);
 - (void);
-- (void)QUIT;
+- (void)AUTOUPDATE_ABORT_QUIT;
 
 // Remaining properties
 @property long long keyboardType; // @synthesize keyboardType=_keyboardType;
-@property(getter=isSecure) _Bool secure; // @synthesize secure=_secure;
-@property(retain) NSString *title; // @synthesize title=_title;
-@property(retain) NSString *value; // @synthesize value=_value;
 
 @end
 

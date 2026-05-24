@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDAskToBuyResponseHandler, IMDScreenTimeAskReponseHandler, NSString, UNUserNotificationCenter;
+@class UNUserNotificationCenter;
 
 @interface IMDNotificationResponseUtilities
 {
     UNUserNotificationCenter *_notificationCenter;
-    IMDScreenTimeAskReponseHandler *_screenTimeAskReponseHandler;
-    IMDAskToBuyResponseHandler *_askToBuyResponseHandler;
 }
 
 + (id)rk to do, but is cancelled;
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -29,16 +27,7 @@
 - (void)essageStore.m;
 
 // Remaining properties
-@property(retain, nonatomic) IMDAskToBuyResponseHandler *askToBuyResponseHandler; // @synthesize askToBuyResponseHandler=_askToBuyResponseHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UNUserNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain, nonatomic) IMDScreenTimeAskReponseHandler *screenTimeAskReponseHandler; // @synthesize screenTimeAskReponseHandler=_screenTimeAskReponseHandler;
-@property(readonly) Class superclass;
 
 @end
 

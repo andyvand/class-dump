@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (unsigned long long);
-- (_Bool)PaddedFrameInsets;
-- (_Bool)mageAtTime:(id)arg1 actualTime:error: /* Error: Ran out of types for this method. */;
+- (_Bool)variantPaddedFrameInsets;
+- (_Bool)copyCGImageAtTime:(id)arg1 actualTime:error: /* Error: Ran out of types for this method. */;
 - (id)V_closeButtonOutset;
 - (id);
 

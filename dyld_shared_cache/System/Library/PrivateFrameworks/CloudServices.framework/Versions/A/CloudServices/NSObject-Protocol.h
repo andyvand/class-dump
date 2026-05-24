@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)=v;
+- (id)~;
+- (unsigned long long)rm fired that is not offset from travel time start. source client identifier = %{public}@;
+- (_Bool);
+- (id)EWSConstantValueType;
+- (struct _NSZone *)gameControllerFaceButtonY;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

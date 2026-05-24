@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRThumbnailGenerator
 {
     id queue;
-    id operationQueue;
 }
 
 @end

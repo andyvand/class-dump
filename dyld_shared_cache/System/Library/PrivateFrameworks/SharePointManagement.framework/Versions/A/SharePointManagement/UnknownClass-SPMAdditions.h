@@ -8,10 +8,10 @@
 - (_Bool);
 - (id);
 - (id);
+- (_Bool)pz;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)hv;
+- (id)=;
 - (id);
 @end
 

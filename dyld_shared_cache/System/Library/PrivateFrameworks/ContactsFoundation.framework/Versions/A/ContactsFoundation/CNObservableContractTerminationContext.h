@@ -9,19 +9,17 @@
 @interface CNObservableContractTerminationContext
 {
     NSArray *_callStack;
-    unsigned long long _threadId;
 }
 
 + (unsigned long long);
 + (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)associateAddedGroup:withDatabaseRepresentation: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSArray *callStack; // @synthesize callStack=_callStack;
-@property(readonly) unsigned long long threadId; // @synthesize threadId=_threadId;
 
 @end
 

@@ -12,7 +12,6 @@
         _Bool resolvedEffectType;
         _Bool effectFilterViews;
     } _needsUpdate;
-    BSUIVibrancyConfiguration *_configuration;
 }
 
 + (_Bool);

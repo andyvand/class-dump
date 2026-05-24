@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPSupportedAudioStreamTiers, HAPSupportedVideoStreamTiers, HMDSupportedAudioStreamConfiguration, HMDSupportedRTPConfiguration, HMDSupportedVideoStreamConfiguration;
+@class HMDSupportedVideoStreamConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSupportedConfigurationCache
 {
     HMDSupportedVideoStreamConfiguration *_supportedVideoStreamConfiguration;
-    HMDSupportedAudioStreamConfiguration *_supportedAudioStreamConfiguration;
-    HAPSupportedVideoStreamTiers *_supportedVideoStreamTiers;
-    HAPSupportedAudioStreamTiers *_supportedAudioStreamTiers;
-    HMDSupportedRTPConfiguration *_supportedRTPConfiguration;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)encodeDouble:forKey: /* Error: Ran out of types for this method. */;
+- (id)emailAddresses;
+- (id)editObjectsWithIdentifiers:usingBarrierBlock:completionQueue:completion: /* Error: Ran out of types for this method. */;
+- (id)duplicatesPolicy;
+- (id)droppedPinCoordinate;
+- (void),N;
+- (void)ring",C,N,V_title;
+- (void)stripForSendingUpdatedWaypoints;
+- (void)ing",&,N,V_syncId;
+- (void)@"NSString",&,N,V_summary;
 - (_Bool);
 - (_Bool);
 - (void)iscovery.Controller;
 
 // Remaining properties
-@property(retain) HMDSupportedAudioStreamConfiguration *supportedAudioStreamConfiguration; // @synthesize supportedAudioStreamConfiguration=_supportedAudioStreamConfiguration;
-@property(retain) HAPSupportedAudioStreamTiers *supportedAudioStreamTiers; // @synthesize supportedAudioStreamTiers=_supportedAudioStreamTiers;
-@property(retain) HMDSupportedRTPConfiguration *supportedRTPConfiguration; // @synthesize supportedRTPConfiguration=_supportedRTPConfiguration;
-@property(retain) HMDSupportedVideoStreamConfiguration *supportedVideoStreamConfiguration; // @synthesize supportedVideoStreamConfiguration=_supportedVideoStreamConfiguration;
-@property(retain) HAPSupportedVideoStreamTiers *supportedVideoStreamTiers; // @synthesize supportedVideoStreamTiers=_supportedVideoStreamTiers;
 @property(readonly, getter=isValid) _Bool valid;
 
 @end

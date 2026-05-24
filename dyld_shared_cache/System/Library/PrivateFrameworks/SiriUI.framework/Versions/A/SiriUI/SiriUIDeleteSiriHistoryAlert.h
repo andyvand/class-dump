@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSettingsConnection, NSProgressIndicator;
-
 @interface SiriUIDeleteSiriHistoryAlert
 {
     _Bool _requestSucceeded;
-    id _defaultButtonTarget;
-    SEL _defaultButtonAction;
-    AFSettingsConnection *_settingsConnection;
-    NSProgressIndicator *_progressIndicator;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)*H;
 - (void);
 - (id);
 - (void);
 - (void);
 - (SEL);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)áx!üDùq°1Â0@ù
 × ;
 
 // Remaining properties
-@property SEL defaultButtonAction; // @synthesize defaultButtonAction=_defaultButtonAction;
-@property __weak id defaultButtonTarget; // @synthesize defaultButtonTarget=_defaultButtonTarget;
-@property(retain) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
 @property(readonly) _Bool requestSucceeded; // @synthesize requestSucceeded=_requestSucceeded;
-@property(retain, nonatomic) AFSettingsConnection *settingsConnection; // @synthesize settingsConnection=_settingsConnection;
 
 @end
 

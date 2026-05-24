@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMSystemInformed : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_taskId;
-    NSArray *_entities;
-    _Bool _hasTaskId;
 }
 
 - (void);
@@ -20,16 +18,16 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)X509_REQ_print_ex;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)fetch screenTimeNotificationOption for handleIDs:(id)arg1 [%@];
 - (_Bool);
 - (id);
 - (id)0@ù
@@ -42,9 +40,6 @@
 - (id)£ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *entities; // @synthesize entities=_entities;
-@property(nonatomic) _Bool hasTaskId; // @synthesize hasTaskId=_hasTaskId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *taskId; // @synthesize taskId=_taskId;
 
 @end

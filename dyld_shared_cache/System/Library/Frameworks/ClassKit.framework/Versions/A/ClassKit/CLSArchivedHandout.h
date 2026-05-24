@@ -6,15 +6,13 @@
 
 #import <ClassKit/CLSAbstractHandout.h>
 
-@class NSArray, NSString;
-
 @interface CLSArchivedHandout : CLSAbstractHandout
 {
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool)_beneficiaryFirstName;
+- (id)@;
 - (id);
 - (id);
 - (void);
@@ -22,14 +20,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attachments;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

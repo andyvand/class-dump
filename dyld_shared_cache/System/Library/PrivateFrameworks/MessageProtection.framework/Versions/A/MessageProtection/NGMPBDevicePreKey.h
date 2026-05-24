@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NGMPBP256Key, NSData;
-
 __attribute__((visibility("hidden")))
 @interface NGMPBDevicePreKey
 {
     double _timestamp;
-    NGMPBP256Key *_dhKey;
-    NSData *_prekeySignature;
-    NSData *_tetraPrivateKey;
-    NSData *_tetraRegistrationData;
-    unsigned int _tetraVersion;
-    CDStruct_7506e59d _has;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)common_MeasurementUnit_CupPerMillileter;
+- (_Bool)askBuilder_hide_common_FindMyStatus;
+- (_Bool);
 - (void);
 - (unsigned int);
-- (id);
+- (id)a
+;
 - (id);
 - (void);
 - (void);
@@ -31,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (double);
 - (_Bool);
-- (void);
+- (void)ndCommandCompletionCallback, void *);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)tting server message ID;
 - (void);
-- (_Bool);
+- (_Bool)qa;
 - (id);
 - (_Bool);
 - (id);
@@ -47,16 +40,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NGMPBP256Key *dhKey; // @synthesize dhKey=_dhKey;
 @property(readonly, nonatomic) _Bool hasDhKey;
-@property(readonly, nonatomic) _Bool hasTetraPrivateKey;
-@property(readonly, nonatomic) _Bool hasTetraRegistrationData;
-@property(nonatomic) _Bool hasTetraVersion;
-@property(retain, nonatomic) NSData *prekeySignature; // @synthesize prekeySignature=_prekeySignature;
-@property(retain, nonatomic) NSData *tetraPrivateKey; // @synthesize tetraPrivateKey=_tetraPrivateKey;
-@property(retain, nonatomic) NSData *tetraRegistrationData; // @synthesize tetraRegistrationData=_tetraRegistrationData;
-@property(nonatomic) unsigned int tetraVersion; // @synthesize tetraVersion=_tetraVersion;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

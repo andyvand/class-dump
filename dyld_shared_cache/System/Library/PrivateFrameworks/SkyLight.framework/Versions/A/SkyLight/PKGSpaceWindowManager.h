@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableData, NSMutableDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface PKGSpaceWindowManager
 {
     NSDictionary *_displaySpaceList;
-    unsigned long long _transactionCount;
-    NSMutableData *_transactionNotificationData;
-    NSMutableDictionary *_spaceIDToBatchReassociatedWindows;
-    unsigned int _sessionID;
 }
 
 - (id);

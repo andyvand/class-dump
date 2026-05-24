@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface MISLaunchWarningQueryResult
 {
     _Bool isUserOverridden;
-    long long warningState;
-    NSURL *kbURL;
 }
 
 - (long long);
 - (_Bool);
-- (id);
+- (id)`;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isUserOverridden; // @synthesize isUserOverridden;
-@property(readonly, nonatomic) NSURL *kbURL; // @synthesize kbURL;
 @property(readonly, nonatomic) long long warningState; // @synthesize warningState;
 
 @end

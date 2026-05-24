@@ -5,22 +5,20 @@
 //
 
 @class NSObject;
-@protocol EFCancelable, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface EFListStateCapturer
 {
     NSObject<OS_dispatch_queue> *_stateCaptureQueue;
-    id <EFCancelable> _stateCaptureCancelable;
 }
 
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <EFCancelable> stateCaptureCancelable; // @synthesize stateCaptureCancelable=_stateCaptureCancelable;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateCaptureQueue; // @synthesize stateCaptureQueue=_stateCaptureQueue;
 
 @end

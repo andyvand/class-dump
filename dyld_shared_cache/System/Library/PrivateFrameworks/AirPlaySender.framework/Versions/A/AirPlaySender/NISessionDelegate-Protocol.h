@@ -5,5 +5,10 @@
 //
 
 @protocol NISessionDelegate
+
+@optional
+- (void);
+- (void);
+- (void)dbolg;
 @end
 

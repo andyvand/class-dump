@@ -7,10 +7,10 @@
 @class NSString;
 
 @interface UnknownClass (MailUIPredicates)
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

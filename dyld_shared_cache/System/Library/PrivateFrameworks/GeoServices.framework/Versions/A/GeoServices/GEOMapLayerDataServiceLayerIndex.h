@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)qH;
 - (_Bool);
 - (_Bool);
-- (id)unt;
+- (id)vehiclesCount;
 - (id)acheAnalytic",&,N;
 - (id)wA;
 - (void)@ÿ±È;

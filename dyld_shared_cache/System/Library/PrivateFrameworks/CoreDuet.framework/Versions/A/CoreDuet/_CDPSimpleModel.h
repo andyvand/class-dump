@@ -4,74 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSString;
-@protocol _CDPDataHarvester;
-
 @interface _CDPSimpleModel
 {
     _Bool _loaded;
-    _Bool _scoresAreDirty;
-    unsigned long long _NEmail;
-    unsigned long long _size;
-    unsigned long long _NPeople;
-    double *_timestamp;
-    _Bool *_userIsSender;
-    _Bool *_userIsThreadInitiator;
-    unsigned int **_email;
-    unsigned long long *_emailLength;
-    float *_email2LogScore;
-    unsigned int **_people2Email;
-    unsigned long long *_people2EmailLength;
-    NSArray *_people;
-    NSIndexSet *_testingIndices;
-    _Bool _requireOutgoingInteraction;
-    float _lambda;
-    float _w0;
-    id <_CDPDataHarvester> _harvester;
 }
 
-+ (int);
++ (int);
 - (float);
+- (void)d;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)(;
+- (_Bool)~#;
 - (id);
-- (unsigned long long);
+- (unsigned long long)l;
 - (void);
 - (void);
 - (float);
-- (id);
+- (id)^;
+- (void);
+- (void)u;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)u;
+- (void);
 - (struct _cdp_prediction_result *);
 - (unsigned int *);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)eam (force stop:%{bool}d) /* Error: Ran out of types for this method. */;
 - (void)·/!|Bùª31Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <_CDPDataHarvester> harvester; // @synthesize harvester=_harvester;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) float lambda; // @synthesize lambda=_lambda;
-@property(readonly, nonatomic) unsigned long long nEmail;
 @property(readonly, nonatomic) unsigned long long nPeople;
-@property(readonly, nonatomic) NSArray *people;
-@property(nonatomic) _Bool requireOutgoingInteraction; // @synthesize requireOutgoingInteraction=_requireOutgoingInteraction;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) float w0; // @synthesize w0=_w0;
 
 @end
 

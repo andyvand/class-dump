@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void)Failed;
+- (void)transferFailed;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetBundlePath; // @synthesize assetBundlePath=_assetBundlePath;

@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification;
+@class NSArray, NSNotification;
 
 @protocol NSControlTextEditingDelegate
 
 @optional
-- (void)Key:(NSNotification *)arg1;
+- (NSArray *);
+- (void)willChangeValueForKey:(NSNotification *)arg1;
 - (_Bool)_ASAgentFileVaultRecoveryKeyListener;
 @end
 

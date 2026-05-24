@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPassTileMetadataHorizontalFlowGroup, PKPassTileMetadataVehicleFunction, PKPassTileMetadataVerticalFlowGroup;
+@class PKPassTileMetadataVerticalFlowGroup;
 
 @interface PKPassTileMetadata
 {
     _Bool _selectable;
-    _Bool _showInPrearm;
-    NSString *_identifier;
-    long long _type;
-    long long _preferredStyle;
-    long long _context;
 }
 
-+ (_Bool);
++ (_Bool)_	;
 + (id);
 + (id);
 + (id);
@@ -27,30 +22,22 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)a;
 - (void);
 - (_Bool);
+- (id);
+- (long long);
 - (id);
 - (long long);
-- (id);
 - (long long);
-- (long long);
-- (void);
+- (void)scanTypesCount;
 - (void);
 - (id);
 - (void)ceDynamicContentResponse"8@"NSError"16;
 
 // Remaining properties
-@property(nonatomic) long long context; // @synthesize context=_context;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) PKPassTileMetadataHorizontalFlowGroup *metadataTypeHorizontalFlowGroup;
-@property(readonly, nonatomic) PKPassTileMetadataVehicleFunction *metadataTypeVehicleFunction;
 @property(readonly, nonatomic) PKPassTileMetadataVerticalFlowGroup *metadataTypeVerticalFlowGroup;
-@property(nonatomic) long long preferredStyle; // @synthesize preferredStyle=_preferredStyle;
-@property(nonatomic, getter=isSelectable) _Bool selectable; // @synthesize selectable=_selectable;
-@property(nonatomic) _Bool showInPrearm; // @synthesize showInPrearm=_showInPrearm;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

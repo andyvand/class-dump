@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol AssetCacheServicesManagerEventsProtocol, AssetCacheServicesManagerEventsProtocol_Private, AssetCacheServicesManagerProtocol, OS_dispatch_queue, OS_os_log;
+@protocol AssetCacheServicesManagerProtocol;
 
 @interface AssetCacheServicesManager
 {
     id <AssetCacheServicesManagerProtocol> _proxy;
-    NSObject<OS_os_log> *_logHandle;
-    id <AssetCacheServicesManagerEventsProtocol> _weakDelegate;
-    id <AssetCacheServicesManagerEventsProtocol_Private> _weakPrivateDelegate;
-    NSObject<OS_dispatch_queue> *_weakDelegateQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 - (id);
@@ -27,7 +21,7 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
+- (oneway void);
 - (id);
 - (void);
 - (id);
@@ -47,24 +41,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)_recents;
 - (id)ing;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
 @property(retain) id <AssetCacheServicesManagerProtocol> proxy; // @synthesize proxy=_proxy;
-@property(readonly) Class superclass;
-@property __weak id <AssetCacheServicesManagerEventsProtocol> weakDelegate; // @synthesize weakDelegate=_weakDelegate;
-@property __weak NSObject<OS_dispatch_queue> *weakDelegateQueue; // @synthesize weakDelegateQueue=_weakDelegateQueue;
-@property __weak id <AssetCacheServicesManagerEventsProtocol_Private> weakPrivateDelegate; // @synthesize weakPrivateDelegate=_weakPrivateDelegate;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

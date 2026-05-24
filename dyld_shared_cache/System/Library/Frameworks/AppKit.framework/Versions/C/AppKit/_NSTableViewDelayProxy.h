@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent;
-
 __attribute__((visibility("hidden")))
 @interface _NSTableViewDelayProxy
 {
     long long column;
-    NSEvent *event;
-    long long row;
 }
 
-+ (id);
++ (id));
 - (_Bool);
 - (void)don\U2019t have permission to unlock the file.;
 

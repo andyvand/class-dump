@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFTag, NSData;
+@class NFTag;
 
 @interface PKNFCTag
 {
     NFTag *_underlyingTag;
-    unsigned long long _technology;
-    NSData *_tagIdentifier;
-    NSData *_manufacturerIdentifier;
-    NSData *_manufacturerParameter;
-    NSData *_systemCode;
-    NSData *_UID;
 }
 
 - (id);
@@ -25,19 +19,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)T?	;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)tomMargin=%f, rightMargin=%f, topMargin=%f;
 - (void)ent value;
 - (id)ÿ¬N;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *UID; // @synthesize UID=_UID;
-@property(copy, nonatomic) NSData *manufacturerIdentifier; // @synthesize manufacturerIdentifier=_manufacturerIdentifier;
-@property(copy, nonatomic) NSData *manufacturerParameter; // @synthesize manufacturerParameter=_manufacturerParameter;
-@property(copy, nonatomic) NSData *systemCode; // @synthesize systemCode=_systemCode;
-@property(copy, nonatomic) NSData *tagIdentifier; // @synthesize tagIdentifier=_tagIdentifier;
 @property(nonatomic) unsigned long long technology; // @synthesize technology=_technology;
 
 @end

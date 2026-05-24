@@ -12,7 +12,7 @@
 }
 
 + (unsigned long long);
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (id);
 - (unsigned int);
 - (void);

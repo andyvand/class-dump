@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id)onary:context: /* Error: Ran out of types for this method. */;
+- (id)getSpeechSynthesisVolumeWithDictionary:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *propertyList;

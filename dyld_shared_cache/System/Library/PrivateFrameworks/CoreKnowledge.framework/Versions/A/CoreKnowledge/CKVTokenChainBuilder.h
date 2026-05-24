@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSMutableArray, NSString;
+@class NSString;
 
 @interface CKVTokenChainBuilder
 {
     NSString *_normalizedString;
-    NSLocale *_locale;
-    NSMutableArray *_tokens;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)ptor""enumVerifier_"^?);
+- (void)5;
 
 @end
 

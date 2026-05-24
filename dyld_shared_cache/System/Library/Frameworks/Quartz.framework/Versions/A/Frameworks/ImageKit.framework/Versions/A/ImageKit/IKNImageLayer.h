@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, IKNCustomLayer, IKNImageViewHandler, IKPlaceholderLayer;
+@class IKNImageViewHandler;
 
 @interface IKNImageLayer
 {
     IKNImageViewHandler *_imageViewHandler;
-    double _width;
-    double _height;
-    double _rotation;
-    IKNCustomLayer *_templateLayer;
-    IKNCustomLayer *_alphaLayer;
-    IKPlaceholderLayer *_placeholderLayer;
-    CALayer *_leftShadowLayer;
-    CALayer *_bottomShadowLayer;
-    CALayer *_rightShadowLayer;
-    struct CGSize _noImageSize;
 }
 
 - (void);
@@ -41,19 +31,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (double);
 - (double);
 - (double);
 
 // Remaining properties
-@property(readonly) IKNCustomLayer *alphaLayer; // @synthesize alphaLayer=_alphaLayer;
-@property(readonly) double height; // @synthesize height=_height;
 @property IKNImageViewHandler *imageViewHandler; // @synthesize imageViewHandler=_imageViewHandler;
-@property(nonatomic) struct CGSize noImageSize; // @synthesize noImageSize=_noImageSize;
-@property(nonatomic) double rotation; // @synthesize rotation=_rotation;
-@property(readonly) IKNCustomLayer *templateLayer; // @synthesize templateLayer=_templateLayer;
-@property(readonly) double width; // @synthesize width=_width;
 
 @end
 

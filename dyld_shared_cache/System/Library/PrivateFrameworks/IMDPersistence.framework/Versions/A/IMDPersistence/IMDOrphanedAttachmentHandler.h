@@ -15,14 +15,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)directory:(id)arg1 %{public}@;
 - (void)geRecordCreateFromRecordIDWithLock could not create message for id %lld;
 - (id)À;
 
 // Remaining properties
-@property(retain, nonatomic) id <IMDFileManager> fileManager; // @synthesize fileManager=_fileManager;
 @property(readonly, nonatomic) unsigned int maxCleanseIterations;
 
 @end

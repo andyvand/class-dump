@@ -7,9 +7,10 @@
 @class NSString;
 
 @protocol INRestaurantGuestExport
+- (NSString *)channels;
+- (void);
 
 // Remaining properties
-@property(copy) NSString *emailAddress;
 @property(copy) NSString *phoneNumber;
 @end
 

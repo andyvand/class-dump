@@ -9,7 +9,6 @@
 @interface TRIAppContainer
 {
     NSString *_identifier;
-    long long _type;
 }
 
 + (id);
@@ -23,11 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id) ` ;
 - (id);
 - (id);
 - (_Bool);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
@@ -38,13 +37,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

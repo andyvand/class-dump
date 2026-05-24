@@ -9,28 +9,26 @@
 @interface PKASCAssociatedReaderID
 {
     NSData *_readerID;
-    unsigned long long _priority;
 }
 
 + (_Bool)±î%1Â0@ù
 × ;
 - (void);
-- (_Bool);
+- (_Bool)(;
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_powerConsumptionDueToRx;
 - (void);
 - (id);
 - (id);
-- (id)ApplicationsForProvisioningWithCompletion:(id)arg1;
+- (id)_cachedFeatureApplicationsForProvisioningWithCompletion:(id)arg1;
 - (void)B2;
 - (unsigned long long)¬ÿ÷ìkðØ ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;
 @property(copy, nonatomic) NSData *readerID; // @synthesize readerID=_readerID;
 
 @end

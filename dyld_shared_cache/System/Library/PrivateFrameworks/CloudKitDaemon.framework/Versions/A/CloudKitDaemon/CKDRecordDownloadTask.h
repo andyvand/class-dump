@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDProgressTracker, CKRecord, NSError, NSMutableArray, NSObject;
-@protocol OS_dispatch_group;
+@class CKRecord;
 
 @interface CKDRecordDownloadTask
 {
     _Bool _shouldCloneFileInAssetCache;
-    CKRecord *_record;
-    NSError *_error;
-    NSMutableArray *_assetsToDownload;
-    NSMutableArray *_assetsToDownloadInMemory;
-    NSMutableArray *_assetURLInfosToFillOut;
-    NSObject<OS_dispatch_group> *_group;
-    CKDProgressTracker *_progressTracker;
 }
 
 - (void);
@@ -27,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)appleSlideshow_SlideshowFilter_PhotoFilterInstant;
 - (id);
 - (void);
 - (void);
@@ -42,14 +34,7 @@
 - (id)device capabilities to the server for container ID %{public}@. capabilities:%{public}@, error:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *assetURLInfosToFillOut; // @synthesize assetURLInfosToFillOut=_assetURLInfosToFillOut;
-@property(retain, nonatomic) NSMutableArray *assetsToDownload; // @synthesize assetsToDownload=_assetsToDownload;
-@property(retain, nonatomic) NSMutableArray *assetsToDownloadInMemory; // @synthesize assetsToDownloadInMemory=_assetsToDownloadInMemory;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(retain, nonatomic) CKDProgressTracker *progressTracker; // @synthesize progressTracker=_progressTracker;
 @property(retain, nonatomic) CKRecord *record; // @synthesize record=_record;
-@property(nonatomic) _Bool shouldCloneFileInAssetCache; // @synthesize shouldCloneFileInAssetCache=_shouldCloneFileInAssetCache;
 
 @end
 

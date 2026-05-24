@@ -7,9 +7,6 @@
 @interface ContactsUICore.FindMyLocateSession
 {
     id session;
-    id contact;
-    id locationSharingModificationCheck;
-    id bestHandle;
 }
 
 @end

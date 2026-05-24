@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMorphology, NSString;
+@class NSString;
 
 @interface NSMorphologyPronoun
 {
     NSString *_pronoun;
-    NSMorphology *_morphology;
-    NSMorphology *_dependentMorphology;
 }
 
 + (_Bool)r"8@"NSAppleEventDescriptor"16;
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)50;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -27,8 +25,6 @@
 - (id)NSURLRequest";
 
 // Remaining properties
-@property(readonly, copy) NSMorphology *dependentMorphology; // @synthesize dependentMorphology=_dependentMorphology;
-@property(readonly, copy) NSMorphology *morphology; // @synthesize morphology=_morphology;
 @property(readonly, copy) NSString *pronoun; // @synthesize pronoun=_pronoun;
 
 @end

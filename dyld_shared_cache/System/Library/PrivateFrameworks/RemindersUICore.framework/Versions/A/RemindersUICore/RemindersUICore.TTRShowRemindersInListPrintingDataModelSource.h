@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRShowRemindersInListPrintingDataModelSource
 {
     id list;
-    id showCompleted;
-    id sortingStyle;
 }
 
 @end

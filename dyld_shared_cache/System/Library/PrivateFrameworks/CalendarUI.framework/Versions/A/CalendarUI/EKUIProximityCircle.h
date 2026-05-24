@@ -9,9 +9,9 @@
     long long _proximity;
 }
 
-- (CDStruct_90e2a262);
+- (CDStruct_90e2a262) ;
 - (void);
-- (long long);
+- (long long)h;
 
 // Remaining properties
 @property long long proximity; // @synthesize proximity=_proximity;

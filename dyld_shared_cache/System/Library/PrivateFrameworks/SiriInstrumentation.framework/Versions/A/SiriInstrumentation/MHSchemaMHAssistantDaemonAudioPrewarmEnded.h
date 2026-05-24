@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioPrewarmEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void)to apply (controller is currently preflighted);
 - (id);
 - (void);
-- (void);
+- (void)sl-2.2/crypto/asn1/asn1_gen.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -26,14 +23,12 @@
 × ;
 - (id)ueryLocationTime;
 - (id)chemaDODMLASRUserEditExperimentEndedTier1",&,N,V_userEditExperimentEndedTier1;
-- (_Bool)ANY;
+- (_Bool)FLOWRECIPIENTTYPE_PERSON_COMPANY;
 - (_Bool)øÆÿ;
 - (void)»;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

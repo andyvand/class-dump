@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UISEGestureFeature.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UISEHybridEdgesFailGestureFeature : _UISEGestureFeature
@@ -17,21 +17,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)AutorotationDisabled:(const struct _UISEGestureFeatureSample *)arg1 forController: /* Error: Ran out of types for this method. */;
+- (void)setInterfaceAutorotationDisabled:(const struct _UISEGestureFeatureSample *)arg1 forController: /* Error: Ran out of types for this method. */;
 - (unsigned long long)T¨;
 - (void)orm a delete and a move from the same section (%ld);
 - (id)¾þ;
 - (void)A¦;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *subfeatures; // @synthesize subfeatures=_subfeatures;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long touchedEdges;
 
 @end

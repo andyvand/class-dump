@@ -6,34 +6,26 @@
 
 #import <AudioSession/AVAudioHardwareObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AVAudioHardwareClock : AVAudioHardwareObject
 {
 }
 
+- (id)NEExtensionBaseProviderHost;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)_TtC16NetworkExtensionP33_8A6EAEC7B0CD28E3C1D36D746A66647F32NEIKEv2CryptoKitSPAKE2PlusProver;
 - (double);
-- (double);
+- (double)set_autoLockCtrl: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (unsigned int);
 - (unsigned long long);
-- (id)sInInterruptions;
+- (id)participatesInInterruptions;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableSampleRates;
-@property(readonly, nonatomic) unsigned long long clockDomain;
-@property(readonly, nonatomic) NSArray *controls;
 @property(readonly, nonatomic) NSString *hardwareUID;
-@property(readonly, nonatomic) unsigned long long inputLatency;
-@property(readonly, nonatomic) NSString *modelUID;
-@property(readonly, nonatomic) unsigned long long outputLatency;
-@property(readonly, nonatomic) double sampleRate;
-@property(readonly, nonatomic) unsigned int transportType;
 
 @end
 

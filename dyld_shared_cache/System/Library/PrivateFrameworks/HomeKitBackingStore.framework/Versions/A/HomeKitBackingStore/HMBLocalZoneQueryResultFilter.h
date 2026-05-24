@@ -6,26 +6,22 @@
 
 #import <HomeKitBackingStore/HMBLocalZoneQueryResultRecordID.h>
 
-@class HMBLocalSQLQueryTableQueryAll, NSArray;
+@class HMBLocalSQLQueryTableQueryAll;
 
 __attribute__((visibility("hidden")))
 @interface HMBLocalZoneQueryResultFilter : HMBLocalZoneQueryResultRecordID
 {
     HMBLocalSQLQueryTableQueryAll *_query;
-    NSArray *_columns;
-    CDUnknownBlockType _filter;
 }
 
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)URLSession:task:needNewBodyStream: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *columns; // @synthesize columns=_columns;
-@property(readonly, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;
 @property(readonly, nonatomic) HMBLocalSQLQueryTableQueryAll *query; // @synthesize query=_query;
 
 @end

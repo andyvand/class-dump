@@ -6,20 +6,12 @@
 
 #import <Safari/UnifiedFieldCompletionStyledTableCellView.h>
 
-@class CNAvatarViewController, CNContact, CNContactCardViewController, NSButton, NSImage, NSImageView, NSStackView, NSString, NSTextField, NSView;
+@class CNContact, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface SharedTabGroupPopoverDetailTableCellView : UnifiedFieldCompletionStyledTableCellView
 {
     NSStackView *_stackView;
-    NSButton *_infoButton;
-    NSImageView *_imageView;
-    NSView *_avatar;
-    CNAvatarViewController *_avatarViewController;
-    CNContactCardViewController *_contactsView;
-    CNContact *_contact;
-    NSTextField *_titleLabel;
-    NSImage *_image;
 }
 
 - (void);
@@ -39,16 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy, nonatomic) NSString *contactIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

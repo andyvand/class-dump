@@ -7,28 +7,24 @@
 @interface PAHistogramParameters
 {
     unsigned int _count;
-    CDStruct_84af802f _range;
-    CDStruct_3ac9af65 _weights;
 }
 
 + (id);
 + (id);
 + (id);
 - (_Bool);
-- (CDStruct_3ac9af65);
+- (CDStruct_869f9c67);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (CDStruct_84af802f);
+- (CDStruct_b2fbf00d);
 - (_Bool);
 - (id);
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int count; // @synthesize count=_count;
-@property(readonly, nonatomic) CDStruct_3ac9af65 intensityWeights; // @synthesize intensityWeights=_weights;
-@property(readonly, nonatomic) CDStruct_84af802f range; // @synthesize range=_range;
+@property(readonly, nonatomic) CDStruct_b2fbf00d range; // @synthesize range=_range;
 
 @end
 

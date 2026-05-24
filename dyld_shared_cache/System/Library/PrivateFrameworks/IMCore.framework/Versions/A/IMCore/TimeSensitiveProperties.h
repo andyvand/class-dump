@@ -9,18 +9,16 @@
 @interface TimeSensitiveProperties
 {
     _Bool _hasOneTimePasscode;
-    NSDate *_expirationDate;
 }
 
-- (void);
-- (_Bool);
-- (void);
+- (void)[%s] %s:(_Bool)arg1 %d Failed to allocate videoBufferArray;
+- (_Bool)urstPacketLoss=%d;
+- (void);
 - (id);
 - (void)L?@è@ A;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(nonatomic) _Bool hasOneTimePasscode; // @synthesize hasOneTimePasscode=_hasOneTimePasscode;
 
 @end
 

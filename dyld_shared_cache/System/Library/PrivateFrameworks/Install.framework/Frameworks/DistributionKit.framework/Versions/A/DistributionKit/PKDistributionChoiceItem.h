@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSNumber, NSObject, NSString, PKDistributionChoice, PKDistributionEvaluator, PKDistributionValueNode, PKProduct;
-@protocol OS_dispatch_queue;
+@class PKDistributionChoice;
 
 @interface PKDistributionChoiceItem
 {
     PKDistributionChoice *_choice;
-    NSMutableArray *_childItems;
-    PKDistributionChoiceItem *_parentNode;
-    PKDistributionEvaluator *_evaluator;
-    PKDistributionValueNode *_selectedNode;
-    PKDistributionValueNode *_visibleNode;
-    PKDistributionValueNode *_enabledNode;
-    NSMutableDictionary *_pkgRefActiveNodes;
-    NSObject<OS_dispatch_queue> *_pkgRefActiveQueue;
-    PKDistributionValueNode *_startSelectedNode;
-    PKDistributionValueNode *_startVisibleNode;
-    PKDistributionValueNode *_startEnabledNode;
-    _Bool _isPkgRefDirty;
-    NSString *_customLocation;
-    PKProduct *_product;
-    NSString *_displayName;
-    NSString *_displayVersion;
-    NSString *_displayDescription;
-    NSString *tooltip;
 }
 
 + (id);
@@ -35,7 +16,7 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -61,7 +42,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)s;
 - (void);
 - (void);
 - (id);
@@ -70,22 +51,13 @@
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(copy) NSString *customLocation; // @synthesize customLocation=_customLocation;
-@property(copy) NSString *displayDescription; // @synthesize displayDescription=_displayDescription;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy) NSString *displayVersion; // @synthesize displayVersion=_displayVersion;
-@property _Bool enabled;
-@property(readonly) NSNumber *installSizeNumber;
-@property(readonly) _Bool startSelected;
-@property long long state;
-@property(retain) NSString *tooltip; // @synthesize tooltip;
 @property _Bool visible;
 
 @end

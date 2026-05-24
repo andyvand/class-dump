@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface LimitQueue
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableArray *_waitingWork;
-    unsigned int _activeWork;
 }
 
 + (void);
 - (void);
-- (void);
+- (void)ame:(CDUnknownBlockType)arg1 frameName:groupName:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SRSchemaSRCheckErrorResponse : SISchemaInstrumentationMessage
 {
     int _predictedErrorType;
-    int _selectedRecoveryStrategy;
-    struct {
-        unsigned int predictedErrorType:1;
-        unsigned int selectedRecoveryStrategy:1;
-    } _has;
 }
 
 - (void);
@@ -30,20 +23,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)renewReceiptForApplicationAtURL:withAppleID:password:forceSandbox:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ABCardCollectionViewDelegate;
+- (_Bool).framework/Contents/MacOS/DataDetectorsCore;
 - (id);
-- (id);
-- (id)aItemEntityPresent;
-- (id)nosticSignals;
+- (id)b8;
+- (id)deleteIsMediaItemEntityPresent;
+- (id)_hasModelDiagnosticSignals;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPredictedErrorType;
-@property(nonatomic) _Bool hasSelectedRecoveryStrategy;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int predictedErrorType; // @synthesize predictedErrorType=_predictedErrorType;
-@property(nonatomic) int selectedRecoveryStrategy; // @synthesize selectedRecoveryStrategy=_selectedRecoveryStrategy;
 
 @end
 

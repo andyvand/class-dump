@@ -9,8 +9,6 @@
 @interface TSDBackgroundLayoutAndRenderState
 {
     id <TSDBackgroundLayoutAndRenderStateDelegate> mDelegate;
-    _Bool mNeedsLayoutAndRender;
-    _Bool mNeedsLayoutForTilingLayers;
 }
 
 - (void);

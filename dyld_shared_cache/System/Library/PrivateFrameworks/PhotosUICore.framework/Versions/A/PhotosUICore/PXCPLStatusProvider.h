@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PHPhotoLibrary, PXCPLCloudQuotaSource, PXCPLPhotoLibrarySource, PXCPLSharedLibraryActivity, PXCPLStatus, PXCPLStatusSource, PXCPLSyncActivity, PXFetchResultCountObserver;
-@protocol OS_dispatch_queue;
+@class PXCPLStatus;
 
 @interface PXCPLStatusProvider
 {
     PXCPLStatus *_status;
-    NSObject<OS_dispatch_queue> *_serialUpdateQueue;
-    PXCPLStatusSource *_cplStatusSource;
-    PXCPLPhotoLibrarySource *_photoLibrarySource;
-    PXCPLSyncActivity *_syncActivity;
-    PXCPLSharedLibraryActivity *_sharedLibraryActivity;
-    PXFetchResultCountObserver *_numberOfReferencedItemsObserver;
-    unsigned long long _numberOfReferencedItems;
-    PXCPLCloudQuotaSource *_cloudQuotaSource;
-    _Bool _hasCloudQuotaOffer;
-    PHPhotoLibrary *_photoLibrary;
-    unsigned long long _needsUpdate;
-    double _lastUpdate;
-    _Bool _isUpdating;
 }
 
 + (id)redLibraryStatusProvider *__strong, __strong id<PXSharedLibrary>, PXSharedLibraryLegacyDevicesFallbackMonitor * _Nullable __strong, __strong id<PXPresentationEnvironment>, NSString *__strong, void (^ _Nullable __strong)(BOOL, NSError * _Nullable __strong));
@@ -36,21 +22,14 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)(;
 - (id);
-- (id);
-- (id)ssetsCountHUDDescription;
+- (id)_cachedAssetsCountHUDDescription;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXCPLStatus *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

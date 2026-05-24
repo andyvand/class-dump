@@ -4,7 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ACAccount, NSString;
+
 @protocol CDPDaemonProtocol
-- (oneway void)etion:(unsigned long long)arg1;
+- (void)ion;
+- (void)cies:(ACAccount *)arg1 0x%llX)
+%@    AssetTypes(softwareUpdateAssetType:(void (^)(NSDictionary *, NSError *))arg2 %@|documentationAssetType:%@)
+    Versions(prerequisiteBuildVersion:%@|prerequisiteProductVersion:%@|prerequisiteRestoreVersion:%@|targetRestoreVersion:%@|installedSFRVersion:%@)
+    Device(deviceClass:%@|hwModelStr:%@|productType:%@|releaseType:%@|isInternal:%@)
+    Config(restrictToFull:%@|allowSameVersion:%@|background:%@|allowsCellular:%@|checkAvailableSpace:%@|useReserveSpace:%@|cacheDeleteUrgency:%@|userAgentString:%@|userInitiated:%@|skipVolumeSealing:%@|qualityOfService:%@)
+    Target(targetVolumeUUID:%@|updateVolumePath:%@)
+    Preflight(performPreflightEncryptedCheck:%@|performPreflightSnapshotCheck:%@|updateBrainLocationOverride:%@)
+    Personalization(SSOToken:%@|personalizedManifestRootsPath:%@|personalizationServerURL:%@|proxyHostName:%@|proxyPortNumber:%@)
+    Authentication(localAuthenticationContext:%@|downloadAuthorizationHeader:%@|localAuthenticationUserID:%@|mdmBootstrapToken:%@)
+    BridgeOS(bridgeOSIgnoreMinimumVersionCheck:%@|bridgeOSDownloadDirectory:%@|enableEmbeddedOSInstall:%@|enableBridgeOSInstall:%@|enableOSPersonalization:%@)
+    Metrics(updateMetricEventFields:%@|updateMetricContext:%@
+    Defaults(defaultDescriptorValues:%@|assetAudienceUUID:%@|alternateAssetAudienceUUID:%@|disableAlternateUpdate:%@|disableSplombo:%@|mobileAssetPurposeOverride:%@)
+    PSUS(enable:%@|enableForOptionalAssets:%@)
+    Extensions(%@)
+<<<] /* Error: Ran out of types for this method. */;
+- (void);
+- (oneway void);
+- (void)initParametersForNamespace:(NSString *)arg1;
+- (oneway void)9;
+- (void);
+- (void)c(d` a?;
+- (void)	kH;
+- (oneway void)b(b@ a%?;
+- (oneway void)_showAccountResetConfirmationWithCompletion:(unsigned long long)arg1;
 @end
 

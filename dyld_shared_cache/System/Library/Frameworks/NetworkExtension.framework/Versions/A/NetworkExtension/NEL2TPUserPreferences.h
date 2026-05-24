@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEVPNProtocolL2TP, NSString;
+@class NSString;
 
 @interface NEL2TPUserPreferences
 {
     _Bool _current;
-    _Bool _forced;
-    NSString *_identifier;
-    NSString *_name;
-    NEVPNProtocolL2TP *_settings;
-    struct __SCUserPreferencesRef *_userPrefs;
 }
 
 - (_Bool);
@@ -23,18 +18,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)cancel;
 - (id);
 - (void);
 - (void)6Q24q32;
-- (_Bool)ndpoint;
+- (_Bool)remoteEndpoint;
 
 // Remaining properties
-@property(getter=isCurrent) _Bool current; // @synthesize current=_current;
-@property(readonly, getter=isForced) _Bool forced; // @synthesize forced=_forced;
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(copy) NEVPNProtocolL2TP *settings; // @synthesize settings=_settings;
 
 @end
 

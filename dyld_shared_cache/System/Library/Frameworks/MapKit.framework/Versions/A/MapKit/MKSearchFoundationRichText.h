@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void)ewControllerDidSelectFlyover: /* Error: Ran out of types for this method. */;
+- (id)o;
+- (void)@9Q;
+- (void)placeViewControllerDidSelectFlyover: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandlers; // @synthesize completionHandlers=_completionHandlers;

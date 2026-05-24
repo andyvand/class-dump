@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleController, FCAssetManager, FCFeedDatabase, FCFlintResourceManager, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
-@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCFeedItemFactoryType, FCMagazinesConfigurationManager, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
+@class FCPuzzleController, FCSportsEventController, NSString;
+@protocol FCCoreConfigurationManager, FCFeedItemFactoryType, FCMagazinesConfigurationManager, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCRecipeItemFactoryType;
 
 @protocol FCContentContext
-- (FCFeedDatabase *);
+- (id <FCCoreConfigurationManager>);
+- (NSString *)_requiredContentSizeIdentifiers;
 - (NSString *)Z;
 - (id <FCFeedItemFactoryType>)üµÿÿÈZ;
 - (id <FCRecipeItemFactoryType>)eP;
@@ -17,41 +18,11 @@
 - (id <FCNetworkReachabilityType>)lu, time=%llums, id=%{public}@;
 - (FCSportsEventController *)g %lu tag suggestions against forbidden tags %{public}@;
 - (void)Found non-sports mapped to topic tag %{public}@;
-- (id <FCNewsAppConfigurationManager>)Service;
+- (id <FCNewsAppConfigurationManager>)PersonalizedPaywallDataService;
 - (FCPuzzleController *)§½;
-- (NSString *)s_Personalization_SessionEventTagFeedView;
+- (NSString *)Com_Apple_News_Personalization_SessionEventTagFeedView;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager;
-@property(readonly, nonatomic) FCArticleController *articleController;
-@property(readonly, nonatomic) NSURL *assetCacheDirectoryURL;
-@property(readonly, nonatomic) FCAssetManager *assetManager;
-@property(readonly, nonatomic) id <FCAVAssetFactoryType> avAssetFactory;
-@property(readonly, nonatomic) id <FCAVAssetPrewarming> avAssetPrewarmer;
-@property(readonly, nonatomic) __weak id <FCBackgroundTaskable> backgroundTaskable;
-@property(readonly, nonatomic) id <FCCoreConfigurationManager> configurationManager;
-@property(readonly, copy, nonatomic) NSString *contentDirectory;
-@property(readonly, copy, nonatomic) NSString *contentEnvironment;
-@property(readonly, copy, nonatomic) NSString *contentEnvironmentToken;
-@property(readonly, nonatomic) NSURL *contentHostDirectoryURL;
 @property(readonly, copy, nonatomic) NSString *contentStoreFrontID;
-@property(readonly, nonatomic) FCFeedDatabase *feedDatabase;
-@property(readonly, nonatomic) id <FCFeedItemFactoryType> feedItemFactory;
-@property(readonly, nonatomic) FCFlintResourceManager *flintResourceManager;
-@property(readonly, nonatomic) id <FCContentContextInternal> internalContentContext;
-@property(readonly, nonatomic) id <FCNetworkReachabilityType> networkReachability;
-@property(readonly, nonatomic) id <FCPPTContext> pptContext;
-@property(readonly, nonatomic) FCPuzzleController *puzzleController;
-@property(readonly, nonatomic) FCPuzzleTypeController *puzzleTypeController;
-@property(readonly, nonatomic) id <FCRecipeItemFactoryType> recipeItemFactory;
-@property(readonly, nonatomic) FCSportsEventController *sportsEventController;
-@property(readonly, nonatomic) long long storageSize;
-@property(readonly, copy, nonatomic) NSString *supportedContentStoreFrontID;
-@property(readonly, copy, nonatomic) NSString *tabiModelsContentDirectory;
-@property(readonly, copy, nonatomic) NSString *tabiModelsContentDirectoryLegacy;
-@property(readonly, copy, nonatomic) NSString *tabiRequestsContentDirectory;
-@property(readonly, copy, nonatomic) NSString *tabiResourcesContentDirectory;
-@property(readonly, copy, nonatomic) NSString *tabiResourcesContentDirectoryLegacy;
-@property(readonly, nonatomic) FCTagController *tagController;
 @end
 

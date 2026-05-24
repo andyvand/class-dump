@@ -4,59 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LNAction, LNActionMetadata, LNMetadataProvider, NSString;
+@class LNMetadataProvider;
 
 __attribute__((visibility("hidden")))
 @interface WFLinkActionExecutor
 {
     LNMetadataProvider *_metadataProvider;
-    unsigned short _source;
-    LNAction *_linkAction;
-    LNActionMetadata *_metadata;
-    NSString *_sourceOverride;
-    NSString *_appBundleIdentifier;
-    NSString *_extensionBundleIdentifier;
-    long long _authenticationPolicy;
-    CDUnknownBlockType _completionHandler;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)bp{;
 - (id);
 - (id);
 - (long long);
+- (id)k;
+- (void);
+- (void)|;
+- (void);
+- (void);
+- (void);
+- (void),
+;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (CDUnknownBlockType)C;
 - (id);
-- (CDUnknownBlockType);
-- (id);
-- (unsigned short);
+- (unsigned short)isInLiveContinuousToneSession;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
-@property(readonly, nonatomic) long long authenticationPolicy; // @synthesize authenticationPolicy=_authenticationPolicy;
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *extensionBundleIdentifier; // @synthesize extensionBundleIdentifier=_extensionBundleIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) LNAction *linkAction; // @synthesize linkAction=_linkAction;
-@property(readonly, nonatomic) LNActionMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) unsigned short source; // @synthesize source=_source;
-@property(readonly, copy, nonatomic) NSString *sourceOverride; // @synthesize sourceOverride=_sourceOverride;
-@property(readonly) Class superclass;
 
 @end
 

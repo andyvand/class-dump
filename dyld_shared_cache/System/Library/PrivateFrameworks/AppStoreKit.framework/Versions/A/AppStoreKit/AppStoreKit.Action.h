@@ -7,12 +7,6 @@
 @interface AppStoreKit.Action
 {
     id title;
-    id artwork;
-    id presentationStyle;
-    id actionMetrics;
-    id id;
-    id impressionMetrics;
-    id clickSender;
 }
 
 @end

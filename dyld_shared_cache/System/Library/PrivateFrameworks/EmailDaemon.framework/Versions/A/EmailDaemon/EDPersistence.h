@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDActivityPersistence, EDAttachmentPersistenceManager, EDBIMIManager, EDBusinessCloudStorage, EDBusinessPersistence, EDCategorizationSyncManager, EDCategoryPersistence, EDConversationPersistence, EDDataDetectionPersistence, EDGmailLabelPersistence, EDListUnsubscribeHandler, EDLocalActionPersistence, EDMailboxActionPersistence, EDMailboxPersistence, EDMessageChangeManager, EDMessagePersistence, EDPersistenceDatabase, EDPersistenceHookRegistry, EDReadLaterPersistence, EDRemindMeNotificationController, EDRemoteContentCacheConfiguration, EDRemoteContentManager, EDRemoteContentPersistence, EDRichLinkPersistence, EDSearchableIndexDiagnosticsController, EDSearchableIndexManager, EDSenderPersistence, EDServerMessagePersistenceFactory, EDThreadPersistence, EDVIPManager, EFXPCAlarmScheduler, EMBlockedSenderManager, EMRemoteContentURLCache, EMRemoteContentURLSession, MEContentRuleListManager, NSObject, NSString;
-@protocol EDAccountsProvider, EDSearchProvider, EDServerMessagesIndexer, EMUserProfileProvider, OS_dispatch_source;
+@class EDGmailLabelPersistence, NSObject;
+@protocol OS_dispatch_source;
 
 @interface EDPersistence
 {
     EDGmailLabelPersistence *_gmailLabelPersistence;
-    EDSenderPersistence *_senderPersistence;
-    EDMailboxPersistence *_mailboxPersistence;
-    EDMessagePersistence *_messagePersistence;
-    EDPersistenceHookRegistry *_hookRegistry;
-    id <EDAccountsProvider> _accountsProvider;
-    id <EMUserProfileProvider> _userProfileProvider;
-    id <EDSearchProvider> _searchProvider;
-    EDVIPManager *_vipManager;
-    EMBlockedSenderManager *_blockedSenderManager;
-    EDListUnsubscribeHandler *_listUnsubscribeHandler;
-    EDActivityPersistence *_activityPersistence;
-    EDRemoteContentCacheConfiguration *_remoteContentCacheConfiguration;
-    EMRemoteContentURLCache *_remoteContentURLCache;
-    EMRemoteContentURLSession *_remoteContentURLSession;
-    MEContentRuleListManager *_contentRuleListManager;
-    EDCategoryPersistence *_categoryPersistence;
-    EDBusinessCloudStorage *_businessCloudStorage;
-    EDCategorizationSyncManager *_categorizationSyncManager;
-    EDRemindMeNotificationController *_remindMeNotificationController;
-    EFXPCAlarmScheduler *_alarmScheduler;
-    EDSearchableIndexDiagnosticsController *_diagnosticsController;
-    NSObject<OS_dispatch_source> *_spotlightReportingTimer;
-    id <EDServerMessagesIndexer> _serverMessagesIndexer;
-    EDBIMIManager *_bimiManager;
 }
 
 + (id)tÐ!¬Aù³Ð1Â0@ù
@@ -61,10 +37,10 @@
 - (id);
 - (id);
 - (id);
+- (id)!;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -72,22 +48,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)AAJAwAAQAlAABADAABAhEAAEQMAAECFQAASAwAAQIZAABMDAABAh0AAFAMAAECIQAAVAwAAQIlAABYDAABACkAAFwMAAECLQACAAwAAQIBAAIEDAABAfkABCAMAAEAIQAGDAwAAQINAFQ8DAABAgkAWDgMAAECBQBZ/AwABBgxAMwwDAAEFMEBlCwMAAQTgURUBAQABBsBjFgEDAAEAYnIWAQMAAQBjgXkBAQABA1CaAQgBAACaCKMBCAEAAKMI8AABAwABAPrwAAIDAAEA+/AABgMAAQW/8DMMAwABAhfxAAEDAAEA+PEAAgMAAQD58QAGAwABBbzxAIADAAEFw/EzDAMAAQIY8gABAwABAPzyAAIDAAEA/fIABgMAAQXC8jMMAwABAhnzAAEDAAEB/PMAAgMAAQH98wAGAwABBcHzAIADAAEFx/QAAQMAAQIS9AACAwABAhP0AAYDAAEFwPUAAQMAAQH+9QACAwABAf/1AAYDAAEFvvUAgAMAAQXF9gABAwABAhD2AAIDAAECEfYABgMAAQW99gCAAwABBcT5AAEDAAECFPkAgAMAAQXG+gACAwABAhX7AAYDAAECFvwzDAMAAQIa;
 - (id);
 - (id);
 - (id);
@@ -100,53 +76,7 @@
 - (id)`;
 
 // Remaining properties
-@property(retain, nonatomic) id <EDAccountsProvider> accountsProvider; // @synthesize accountsProvider=_accountsProvider;
-@property(readonly) EDActivityPersistence *activityPersistence; // @synthesize activityPersistence=_activityPersistence;
-@property(readonly, nonatomic) EFXPCAlarmScheduler *alarmScheduler; // @synthesize alarmScheduler=_alarmScheduler;
-@property(readonly) EDAttachmentPersistenceManager *attachmentPersistenceManager;
-@property(readonly, nonatomic) EDBIMIManager *bimiManager; // @synthesize bimiManager=_bimiManager;
-@property(readonly, nonatomic) EMBlockedSenderManager *blockedSenderManager; // @synthesize blockedSenderManager=_blockedSenderManager;
-@property(readonly, nonatomic) EDBusinessCloudStorage *businessCloudStorage; // @synthesize businessCloudStorage=_businessCloudStorage;
-@property(readonly) EDBusinessPersistence *businessPersistence;
-@property(readonly, nonatomic) EDCategorizationSyncManager *categorizationSyncManager; // @synthesize categorizationSyncManager=_categorizationSyncManager;
-@property(readonly) EDCategoryPersistence *categoryPersistence; // @synthesize categoryPersistence=_categoryPersistence;
-@property(readonly, nonatomic) MEContentRuleListManager *contentRuleListManager; // @synthesize contentRuleListManager=_contentRuleListManager;
-@property(readonly) EDConversationPersistence *conversationPersistence;
-@property(readonly) EDDataDetectionPersistence *dataDetectionPersistence;
-@property(readonly) EDPersistenceDatabase *database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) EDSearchableIndexDiagnosticsController *diagnosticsController; // @synthesize diagnosticsController=_diagnosticsController;
-@property(readonly) EDGmailLabelPersistence *gmailLabelPersistence; // @synthesize gmailLabelPersistence=_gmailLabelPersistence;
-@property(readonly) unsigned long long hash;
-@property(readonly) EDPersistenceHookRegistry *hookRegistry; // @synthesize hookRegistry=_hookRegistry;
-@property(retain, nonatomic) EDListUnsubscribeHandler *listUnsubscribeHandler; // @synthesize listUnsubscribeHandler=_listUnsubscribeHandler;
-@property(readonly) EDLocalActionPersistence *localActionPersistence;
-@property(readonly, nonatomic) EDMailboxActionPersistence *mailboxActionPersistence;
-@property(readonly, nonatomic) EDMailboxPersistence *mailboxPersistence; // @synthesize mailboxPersistence=_mailboxPersistence;
-@property(readonly) EDMessageChangeManager *messageChangeManager;
-@property(readonly) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly) EDReadLaterPersistence *readLaterPersistence;
-@property(readonly, nonatomic) EDRemindMeNotificationController *remindMeNotificationController; // @synthesize remindMeNotificationController=_remindMeNotificationController;
-@property(readonly, nonatomic) EDRemoteContentCacheConfiguration *remoteContentCacheConfiguration; // @synthesize remoteContentCacheConfiguration=_remoteContentCacheConfiguration;
-@property(readonly) EDRemoteContentManager *remoteContentManager;
-@property(readonly) EDRemoteContentPersistence *remoteContentPersistence;
-@property(retain, nonatomic) EMRemoteContentURLCache *remoteContentURLCache; // @synthesize remoteContentURLCache=_remoteContentURLCache;
-@property(retain, nonatomic) EMRemoteContentURLSession *remoteContentURLSession; // @synthesize remoteContentURLSession=_remoteContentURLSession;
-@property(readonly) EDRichLinkPersistence *richLinkPersistence;
-@property(readonly, nonatomic) id <EDSearchProvider> searchProvider; // @synthesize searchProvider=_searchProvider;
-@property(readonly) EDSearchableIndexManager *searchableIndexManager;
-@property(readonly) EDSenderPersistence *senderPersistence; // @synthesize senderPersistence=_senderPersistence;
-@property(readonly) EDServerMessagePersistenceFactory *serverMessagePersistenceFactory;
-@property(readonly) id <EDServerMessagesIndexer> serverMessagesIndexer; // @synthesize serverMessagesIndexer=_serverMessagesIndexer;
 @property(retain, nonatomic) NSObject<OS_dispatch_source> *spotlightReportingTimer; // @synthesize spotlightReportingTimer=_spotlightReportingTimer;
-@property(readonly) Class superclass;
-@property(readonly) EDThreadPersistence *threadPersistence;
-@property(readonly, nonatomic) id <EMUserProfileProvider> userProfileProvider; // @synthesize userProfileProvider=_userProfileProvider;
-@property(retain) EDVIPManager *vipManager; // @synthesize vipManager=_vipManager;
 
 @end
 

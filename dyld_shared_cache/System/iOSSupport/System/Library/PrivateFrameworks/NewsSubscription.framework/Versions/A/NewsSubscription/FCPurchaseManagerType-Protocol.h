@@ -7,9 +7,12 @@
 @protocol FCPurchaseFlowOverrideProviderType, FCPurchaseManagerDelegate;
 
 @protocol FCPurchaseManagerType
+- (_Bool)5*(;
+- (id <FCPurchaseManagerDelegate>)";
+- (void);
+- (id <FCPurchaseFlowOverrideProviderType>)UITableViewDataSource;
 
 // Remaining properties
 @property(nonatomic) __weak id <FCPurchaseManagerDelegate> delegate;
-@property(retain, nonatomic) id <FCPurchaseFlowOverrideProviderType> purchaseFlowOverrideProvider;
 @end
 

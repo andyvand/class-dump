@@ -6,8 +6,7 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class MTL4MachineLearningPipelineReflection, NSString;
-@protocol MTLDevice;
+@class NSString;
 
 @interface MTL4ToolsMachineLearningPipelineState : MTLToolsObject
 {
@@ -18,23 +17,12 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long intermediatesHeapSize;
 @property(readonly) NSString *label;
-@property(readonly) MTL4MachineLearningPipelineReflection *reflection;
-@property(readonly) Class superclass;
 
 @end
 

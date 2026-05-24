@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (void);
-- (struct CGRect);
+- (_Bool)8c16@20;
+- (void)Size: /* Error: Ran out of types for this method. */;
+- (struct CGRect)as a nil completion string.;
 - (_Bool)debarController23SuspendNotificationsForENSt3__16chrono8durationIdNS3_5ratioILl1ELl1EEEEEE3$_0vJEEE;
 
 @end

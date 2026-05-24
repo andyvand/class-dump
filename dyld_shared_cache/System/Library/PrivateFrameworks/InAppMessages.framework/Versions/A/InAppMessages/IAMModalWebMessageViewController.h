@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAMWebView, NSButton;
-@protocol IAMViewControllerMetricsDelegate;
+@class NSButton;
 
 @interface IAMModalWebMessageViewController
 {
     _Bool _shouldDisplayCloseButton;
-    id <IAMViewControllerMetricsDelegate> _metricsDelegate;
-    NSButton *_closeButton;
-    IAMWebView *_webView;
 }
 
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void)|;
+- (id)_contentDidChangePublisher;
+- (void);
+- (id)dowMove;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)e;
+- (void)$4;
 - (id)licationContextProvider>",W,N,V_applicationContext;
 
 // Remaining properties
 @property(retain, nonatomic) NSButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(nonatomic) __weak id <IAMViewControllerMetricsDelegate> metricsDelegate; // @synthesize metricsDelegate=_metricsDelegate;
-@property(nonatomic) _Bool shouldDisplayCloseButton; // @synthesize shouldDisplayCloseButton=_shouldDisplayCloseButton;
-@property(retain, nonatomic) IAMWebView *webView; // @synthesize webView=_webView;
 
 @end
 

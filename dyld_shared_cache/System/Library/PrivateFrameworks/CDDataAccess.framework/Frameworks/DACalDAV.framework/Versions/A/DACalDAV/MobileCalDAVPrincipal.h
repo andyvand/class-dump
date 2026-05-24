@@ -4,59 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDSession, CalDAVRefreshContext, MobileCalDAVAccount, NSData, NSDateComponents, NSDictionary, NSMutableDictionary, NSMutableSet, NSNumber, NSSet, NSString, NSURL, REMDAChangeTrackingHelper;
-@protocol CalDAVAccount, CoreDAVTaskManager;
+@class NSString, REMDAChangeTrackingHelper;
 
 @interface MobileCalDAVPrincipal
 {
     REMDAChangeTrackingHelper *_rem_changeTracking;
-    _Bool _calendarsAreDirty;
-    _Bool _isDelegate;
-    _Bool _isWritable;
-    _Bool _isEnabled;
-    _Bool _canCreateCalendars;
-    _Bool _isExpandPropertyReportSupported;
-    _Bool _supportsCalendarUserSearch;
-    _Bool _supportsFreebusy;
-    _Bool _supportsSyncToken;
-    _Bool _supportsPush;
-    _Bool _shouldRefreshPrincipalSearchProperties;
-    _Bool _shouldUpdatePushDelegate;
-    _Bool _isDirty;
-    NSURL *_calendarHomeURL;
-    NSMutableSet *_deletedCalendarURLs;
-    NSURL *_notificationCollectionURL;
-    NSString *_notificationCollectionCTag;
-    NSURL *_inboxURL;
-    NSURL *_outboxURL;
-    NSURL *_dropBoxURL;
-    NSURL *_defaultCalendarURL;
-    NSString *_uid;
-    id <CalDAVAccount> _account;
-    NSSet *_preferredCalendarUserAddresses;
-    NSURL *_preferredCalendarUserAddress;
-    NSString *_preferredCalendarEmailAddress;
-    NSString *_preferredCalendarPhoneNumber;
-    NSString *_fullName;
-    NSString *_principalPath;
-    NSString *_inboxCTag;
-    NSString *_notificationURLString;
-    NSDictionary *_pushTransports;
-    NSString *_calendarHomePushKey;
-    NSNumber *_quotaFreeBytes;
-    NSString *_supportedCalendarComponentSets;
-    CalDAVRefreshContext *_refreshContext;
-    NSMutableDictionary *_calendarUserAddressesPerCalendar;
-    NSMutableSet *_addedCalendars;
-    NSMutableSet *_modifiedCalendars;
-    NSURL *_legacy_principalURL;
-    AKAppleIDSession *_appleIDSession;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -64,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@9?;
 - (void);
 - (void);
 - (void);
@@ -79,20 +37,20 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)jh8	;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (id)�#;
 - (id);
 - (id);
 - (unsigned long long);
@@ -136,6 +94,7 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -146,8 +105,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -159,21 +117,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)B;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id)supportsSpatialization;
+- (id);
+- (id);
+- (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -195,14 +153,14 @@
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)1;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)h:/System/Library/PrivateFrameworks/CoreSpeech.framework/CoreSpeech /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -211,112 +169,7 @@
 - (void)D);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *APSEnv;
-@property(readonly, nonatomic) NSURL *APSSubscriptionURL;
-@property(readonly, nonatomic) NSString *APSTopic;
-@property(nonatomic) __weak id <CalDAVAccount> account; // @synthesize account=_account;
-@property(readonly, nonatomic) NSString *accountID;
-@property(retain, nonatomic) NSMutableSet *addedCalendars; // @synthesize addedCalendars=_addedCalendars;
-@property(nonatomic) _Bool alarmsDirty;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) AKAppleIDSession *appleIDSession; // @synthesize appleIDSession=_appleIDSession;
-@property(retain, nonatomic) NSString *calendarHomePushKey; // @synthesize calendarHomePushKey=_calendarHomePushKey;
-@property(retain, nonatomic) NSString *calendarHomeSyncToken;
-@property(retain, nonatomic) NSURL *calendarHomeURL; // @synthesize calendarHomeURL=_calendarHomeURL;
-@property(retain, nonatomic) NSMutableDictionary *calendarUserAddressesPerCalendar; // @synthesize calendarUserAddressesPerCalendar=_calendarUserAddressesPerCalendar;
-@property(readonly, nonatomic) NSSet *calendars;
-@property(nonatomic) _Bool calendarsAreDirty; // @synthesize calendarsAreDirty=_calendarsAreDirty;
-@property(nonatomic) _Bool canCreateCalendars; // @synthesize canCreateCalendars=_canCreateCalendars;
-@property(readonly, copy, nonatomic) NSString *clientToken;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSDictionary *contextDictionary;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,R,N
-
-@property(readonly, nonatomic) MobileCalDAVAccount *daAccount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSString *defaultAllDayAlarms;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(retain, nonatomic) NSURL *defaultCalendarURL; // @synthesize defaultCalendarURL=_defaultCalendarURL;
-@property(retain, nonatomic) NSString *defaultTimedAlarms;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(retain, nonatomic) NSMutableSet *deletedCalendarURLs; // @synthesize deletedCalendarURLs=_deletedCalendarURLs;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *dropBoxURL; // @synthesize dropBoxURL=_dropBoxURL;
-@property(readonly, nonatomic) NSDateComponents *eventFilterEndDate;
-@property(readonly, nonatomic) NSDateComponents *eventFilterStartDate;
-@property(retain, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *host;
-@property(readonly, nonatomic) NSData *identityPersist;
-@property(retain, nonatomic) NSString *inboxCTag; // @synthesize inboxCTag=_inboxCTag;
-@property(retain, nonatomic) NSURL *inboxURL; // @synthesize inboxURL=_inboxURL;
-@property(nonatomic) _Bool isDelegate; // @synthesize isDelegate=_isDelegate;
-@property(nonatomic) _Bool isDirty; // @synthesize isDirty=_isDirty;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) _Bool isEnabledForEvents;
-@property(readonly, nonatomic) _Bool isEnabledForTodos;
-@property(nonatomic) _Bool isExpandPropertyReportSupported; // @synthesize isExpandPropertyReportSupported=_isExpandPropertyReportSupported;
-@property(readonly, nonatomic) _Bool isMergeSync;
-@property(nonatomic) _Bool isWritable; // @synthesize isWritable=_isWritable;
-@property(retain, nonatomic) NSURL *legacy_principalURL; // @synthesize legacy_principalURL=_legacy_principalURL;
-@property(retain, nonatomic) NSMutableSet *modifiedCalendars; // @synthesize modifiedCalendars=_modifiedCalendars;
-@property(nonatomic) _Bool needsDefaultAllDayAlarmUpdate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool needsDefaultTimedAlarmUpdate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(retain, nonatomic) NSString *notificationCollectionCTag; // @synthesize notificationCollectionCTag=_notificationCollectionCTag;
-@property(retain, nonatomic) NSURL *notificationCollectionURL; // @synthesize notificationCollectionURL=_notificationCollectionURL;
-@property(retain, nonatomic) NSString *notificationURLString; // @synthesize notificationURLString=_notificationURLString;
-@property(retain, nonatomic) NSURL *outboxURL; // @synthesize outboxURL=_outboxURL;
-@property(readonly, nonatomic) NSString *password;
-@property(readonly, nonatomic) long long port;
-@property(retain, nonatomic) NSString *preferredCalendarEmailAddress; // @synthesize preferredCalendarEmailAddress=_preferredCalendarEmailAddress;
-@property(retain, nonatomic) NSString *preferredCalendarPhoneNumber; // @synthesize preferredCalendarPhoneNumber=_preferredCalendarPhoneNumber;
-@property(retain, nonatomic) NSURL *preferredCalendarUserAddress; // @synthesize preferredCalendarUserAddress=_preferredCalendarUserAddress;
-@property(retain, nonatomic) NSSet *preferredCalendarUserAddresses; // @synthesize preferredCalendarUserAddresses=_preferredCalendarUserAddresses;
-@property(retain, nonatomic) NSString *principalPath; // @synthesize principalPath=_principalPath;
-@property(retain, nonatomic) NSURL *principalURL;
-@property(retain, nonatomic) NSDictionary *pushTransports; // @synthesize pushTransports=_pushTransports;
-@property(retain, nonatomic) NSNumber *quotaFreeBytes; // @synthesize quotaFreeBytes=_quotaFreeBytes;
-@property(retain, nonatomic) CalDAVRefreshContext *refreshContext; // @synthesize refreshContext=_refreshContext;
-@property(readonly, nonatomic) NSString *scheme;
-@property(readonly, nonatomic) NSSet *serverComplianceClasses;
-@property(readonly, nonatomic) NSString *serverRoot;
-@property(readonly, nonatomic) _Bool shouldFailAllTasks;
-@property(nonatomic) _Bool shouldRefreshPrincipalSearchProperties; // @synthesize shouldRefreshPrincipalSearchProperties=_shouldRefreshPrincipalSearchProperties;
-@property(nonatomic) _Bool shouldUpdatePushDelegate; // @synthesize shouldUpdatePushDelegate=_shouldUpdatePushDelegate;
-@property(readonly, nonatomic) _Bool shouldUseOpportunisticSockets;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSDictionary *subCalPropertiesByURL;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *supportedCalendarComponentSets; // @synthesize supportedCalendarComponentSets=_supportedCalendarComponentSets;
-@property(nonatomic) _Bool supportsCalendarUserSearch; // @synthesize supportsCalendarUserSearch=_supportsCalendarUserSearch;
-@property(readonly, nonatomic) _Bool supportsExtendedCalendarQuery;
-@property(nonatomic) _Bool supportsFreebusy; // @synthesize supportsFreebusy=_supportsFreebusy;
-@property(nonatomic) _Bool supportsPush; // @synthesize supportsPush=_supportsPush;
-@property(nonatomic) _Bool supportsSyncToken; // @synthesize supportsSyncToken=_supportsSyncToken;
-@property(readonly, nonatomic) id <CoreDAVTaskManager> taskManager;
 @property(retain, nonatomic) NSString *uid; // @synthesize uid=_uid;
-@property(readonly, nonatomic) NSString *user;
-@property(readonly, nonatomic) NSString *userAgentHeader;
 
 @end
 

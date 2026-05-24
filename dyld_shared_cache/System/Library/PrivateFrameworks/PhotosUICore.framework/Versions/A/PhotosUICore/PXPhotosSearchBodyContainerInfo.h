@@ -7,7 +7,6 @@
 @interface PXPhotosSearchBodyContainerInfo
 {
     CDUnknownBlockType _containerSizeDidChange;
-    struct CGSize _containerSize;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGSize containerSize; // @synthesize containerSize=_containerSize;
-@property(copy, nonatomic) CDUnknownBlockType containerSizeDidChange; // @synthesize containerSizeDidChange=_containerSizeDidChange;
 
 @end
 

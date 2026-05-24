@@ -7,14 +7,6 @@
 @interface Vision.E5RTFunction
 {
     id programLibrary;
-    id name;
-    id inputDescriptors;
-    id outputDescriptors;
-    id functionHandle;
-    id lazyInputNames;
-    id lazyOutputNames;
-    id cachedInputDescriptors;
-    id cachedOutputDescriptors;
 }
 
 @end

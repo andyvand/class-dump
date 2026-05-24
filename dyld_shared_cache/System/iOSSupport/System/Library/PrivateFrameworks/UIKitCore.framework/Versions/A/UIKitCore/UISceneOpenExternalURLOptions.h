@@ -12,7 +12,7 @@
     UIEventAttribution *_eventAttribution;
 }
 
-- (_Bool);
+- (_Bool)>",&,N,V_persistenceQueue;
 - (void);
 - (void);
 - (id);

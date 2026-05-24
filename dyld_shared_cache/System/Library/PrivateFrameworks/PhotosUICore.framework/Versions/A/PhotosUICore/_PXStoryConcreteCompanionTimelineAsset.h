@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHAsset;
-@protocol PXStoryClip, PXStoryCompanionColorEffect;
+@protocol PXStoryClip;
 
 @interface _PXStoryConcreteCompanionTimelineAsset
 {
     id <PXStoryClip> _clip;
-    struct CGRect _frame;
 }
 
 - (CDStruct_e83c9415);
@@ -22,17 +20,10 @@
 - (long long);
 - (id);
 - (struct CGRect);
-- (void)otificationCell;
+- (void)MacSyncedAssetsNotificationCell;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryClip> clip; // @synthesize clip=_clip;
-@property(readonly, nonatomic) id <PXStoryCompanionColorEffect> colorNormalizationEffect;
-@property(readonly, nonatomic) CDStruct_1586d5e9 finalContentsRect;
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) CDStruct_1586d5e9 initialContentsRect;
-@property(readonly, nonatomic) PHAsset *photoLibraryAsset;
-@property(readonly, nonatomic) long long playbackStyle;
-@property(readonly, nonatomic) CDStruct_e83c9415 videoTimeRange;
 
 @end
 

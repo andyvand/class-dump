@@ -4,48 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface WDAAnchor
 {
     struct CGRect mBounds;
-    int mTextWrappingMode;
-    int mTextWrappingModeType;
-    NSArray *mTextWrapPoints;
-    double mWrapDistanceLeft;
-    double mWrapDistanceTop;
-    double mWrapDistanceRight;
-    double mWrapDistanceBottom;
-    int mHorizontalPosition;
-    int mRelativeHorizontalPosition;
-    int mVerticalPosition;
-    int mRelativeVerticalPosition;
-    _Bool mAllowOverlap;
-    long long mZIndex;
 }
 
-+ (id);
++ (id)A;
 - (double);
 - (double);
 - (double);
-- (int);
+- (int)R;
 - (int);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)k;
+- (void)+;
+- (void);
 - (void);
 - (void);
 - (int);
 - (int);
 - (_Bool);
-- (double);
+- (double)c@9;
 - (int);
 - (void);
 - (void);
@@ -54,25 +39,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGRect);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void)h <%p>;
 
 // Remaining properties
-@property(nonatomic) _Bool allowOverlap; // @synthesize allowOverlap=mAllowOverlap;
 @property(nonatomic) struct CGRect bounds; // @synthesize bounds=mBounds;
-@property(nonatomic) int horizontalPosition; // @synthesize horizontalPosition=mHorizontalPosition;
-@property(nonatomic) int relativeHorizontalPosition; // @synthesize relativeHorizontalPosition=mRelativeHorizontalPosition;
-@property(nonatomic) int relativeVerticalPosition; // @synthesize relativeVerticalPosition=mRelativeVerticalPosition;
-@property(retain, nonatomic) NSArray *textWrapPoints; // @synthesize textWrapPoints=mTextWrapPoints;
-@property(nonatomic) int textWrappingMode; // @synthesize textWrappingMode=mTextWrappingMode;
-@property(nonatomic) int textWrappingModeType; // @synthesize textWrappingModeType=mTextWrappingModeType;
-@property(nonatomic) int verticalPosition; // @synthesize verticalPosition=mVerticalPosition;
-@property(nonatomic) double wrapDistanceBottom; // @synthesize wrapDistanceBottom=mWrapDistanceBottom;
-@property(nonatomic) double wrapDistanceLeft; // @synthesize wrapDistanceLeft=mWrapDistanceLeft;
-@property(nonatomic) double wrapDistanceRight; // @synthesize wrapDistanceRight=mWrapDistanceRight;
-@property(nonatomic) double wrapDistanceTop; // @synthesize wrapDistanceTop=mWrapDistanceTop;
-@property(nonatomic) long long zIndex; // @synthesize zIndex=mZIndex;
 
 @end
 

@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol ABCollectionMultiPropertyAction
+- (void);
 
 // Remaining properties
 @property(readonly) NSString *targetPropertyKey;

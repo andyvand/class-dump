@@ -5,6 +5,6 @@
 //
 
 @protocol _UISceneHostingTraitCollectionPropagationHostReceiving
-- (void);
+- (void)_UISplitKeyboardTransitionCallback;
 @end
 

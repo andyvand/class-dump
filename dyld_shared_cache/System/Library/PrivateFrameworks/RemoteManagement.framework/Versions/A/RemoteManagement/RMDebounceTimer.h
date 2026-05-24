@@ -4,49 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, RMTimedDispatch;
-@protocol RMDebounceTimerDelegate;
+@class NSObject, NSString;
 
 @interface RMDebounceTimer
 {
     NSObject *_lock;
-    NSString *_identifier;
-    double _minimumInterval;
-    double _maximumInterval;
-    RMTimedDispatch *_minimumTimer;
-    RMTimedDispatch *_maximumTimer;
-    NSString *_lastTimerID;
-    id <RMDebounceTimerDelegate> _delegate;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
 - (void);
 - (double);
-- (void);
+- (void){;
 - (void);
 - (void);
 - (id);
 - (void);
-- (double);
+- (double);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property __weak id <RMDebounceTimerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *lastTimerID; // @synthesize lastTimerID=_lastTimerID;
-@property double maximumInterval; // @synthesize maximumInterval=_maximumInterval;
-@property(retain) RMTimedDispatch *maximumTimer; // @synthesize maximumTimer=_maximumTimer;
-@property double minimumInterval; // @synthesize minimumInterval=_minimumInterval;
-@property(retain) RMTimedDispatch *minimumTimer; // @synthesize minimumTimer=_minimumTimer;
 
 @end
 

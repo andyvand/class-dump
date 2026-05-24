@@ -9,21 +9,20 @@
 @interface CLMiLoServicePlacePrediction
 {
     NSArray *_places;
-    unsigned long long _serviceType;
 }
 
 + (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)ue
+;
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)setFragmentIntersectionFunctionTables:(struct _NSZone *)arg1 withBufferRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *places; // @synthesize places=_places;
-@property(readonly, nonatomic) unsigned long long serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

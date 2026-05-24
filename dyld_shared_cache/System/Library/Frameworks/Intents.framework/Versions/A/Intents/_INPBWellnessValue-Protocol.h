@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBDouble, _INPBInteger, _INPBValueMetadata;
+@class _INPBDouble, _INPBValueMetadata;
 
 @protocol _INPBWellnessValue
-- (_Bool)ificationHint;
-- (void)etion:(_INPBValueMetadata *)arg1;
-- (_INPBValueMetadata *)chTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)_identificationHint;
+- (void)provideContentOptionsForSendMessage:(_INPBValueMetadata *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBValueMetadata *)provideEditedContentOptionsForEditMessage:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasOrdinalValue;
-@property(readonly, nonatomic) _Bool hasPbDoubleValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(retain, nonatomic) _INPBInteger *ordinalValue;
 @property(retain, nonatomic) _INPBDouble *pbDoubleValue;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

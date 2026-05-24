@@ -8,11 +8,9 @@ __attribute__((visibility("hidden")))
 @interface VCVideoDecoder
 {
     long long _streamToken;
-    struct tagHANDLE *_videoPlayerHandle;
-    int _clientCount;
 }
 
-+ (id);
++ (id)T5;
 + (void);
 + (id);
 - (struct tagHANDLE *);

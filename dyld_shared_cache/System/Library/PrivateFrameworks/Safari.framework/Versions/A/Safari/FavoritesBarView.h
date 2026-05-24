@@ -6,40 +6,18 @@
 
 #import <Safari/KeyLoopSplicingContainerView.h>
 
-@class ClippedItemsIndicator, InlineButtonRetitler, NSArray, NSColor, NSMutableArray, NSString, SafariWebBookmark, TopSitesButton;
+@class NSColor, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface FavoritesBarView : KeyLoopSplicingContainerView
 {
     NSMutableArray *_buttons;
-    ClippedItemsIndicator *_clipIndicator;
-    _Bool _needsRefreshOnMoveToWindow;
-    _Bool _preparedForFirstLayout;
-    double _firstFavoriteLeadingEdge;
-    double _buttonHeight;
-    double _lastWidth;
-    NSArray *_proxyIdentifiers;
-    NSArray *_clippedMenuItems;
-    unsigned long long _firstHiddenFavoriteIndex;
-    _Bool _windowDidClose;
-    _Bool _isLayingOutButtons;
-    unsigned long long _dragSourceIndex;
-    double _draggedItemWidth;
-    SafariWebBookmark *_draggedInBookmark;
-    InlineButtonRetitler *_buttonRetitler;
-    SafariWebBookmark *_nextBookmarkToEdit;
-    TopSitesButton *_startPageButton;
-    NSString *_currentCustomFavoritesFolderServerID;
-    _Bool _showsIcons;
-    long long _buttonStyle;
-    NSColor *_contentTintColor;
-    unsigned long long _dropIndex;
 }
 
 - (_Bool);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (double);
@@ -64,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)|;
 - (void);
 - (void);
 - (void);
@@ -78,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (struct CGRect);
 - (void);
@@ -112,8 +90,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)le:[%@], cloudKitSyncState:[%ld], transferState:[%ld], hideAttachment:[%{BOOL}d], bundleID:[%@], purgeable:[%{BOOL}d] /* Error: Ran out of types for this method. */;
+- (void)oricalMessageGUIDsDeleted(_:(id)arg1 chatGUIDs:(id)arg2 queryID:(id)arg3 );
 - (void);
 - (id);
 - (id)d;
@@ -121,20 +99,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)à;
 - (void);
-- (id);
+- (id)8;
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSColor *contentTintColor; // @synthesize contentTintColor=_contentTintColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long dropIndex; // @synthesize dropIndex=_dropIndex;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double minButtonX;
-@property(readonly) Class superclass;
 
 @end
 

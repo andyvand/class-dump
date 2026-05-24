@@ -38,12 +38,7 @@ struct in_addr {
 };
 
 struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
-struct os_unfair_recursive_lock_s {
-    struct os_unfair_lock_s ourl_lock;
-    unsigned int ourl_count;
+    unsigned int _field1;
 };
 
 struct sockaddr_in {
@@ -55,8 +50,8 @@ struct sockaddr_in {
 };
 
 struct timeval {
-    long long tv_sec;
-    int tv_usec;
+    long long _field1;
+    int _field2;
 };
 
 #pragma mark Typedef'd Structures

@@ -15,8 +15,6 @@
 - (id);
 
 // Remaining properties
-@property unsigned long long daysOfTheWeek; // @dynamic daysOfTheWeek;
-@property(copy) NSDateComponents *endTime; // @dynamic endTime;
 @property(copy) NSDateComponents *startTime; // @dynamic startTime;
 
 @end

@@ -6,29 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSMutableArray, NSString, RTDefaultsManager, RTDeviceLocationPredictor, RTHintManager, RTLearnedLocationManager, RTLocationAwarenessManager, RTLocationManager, RTMetricManager, RTMotionActivityManager, RTPlatform, RTPointOfInterestMonitor, RTVisit, RTVisitLabeler, RTVisitMonitor, RTVisitStore, RTXPCActivityManager;
+@class RTDefaultsManager;
 
 @interface RTVisitManager : RTService
 {
     _Bool _spoofMode;
-    _Bool _findingPointOfInterest;
-    _Bool _pointOfInterestUpdateEnabled;
-    RTDefaultsManager *_defaultsManager;
-    RTDeviceLocationPredictor *_deviceLocationPredictor;
-    RTHintManager *_hintManager;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLocationAwarenessManager *_locationAwarenessManager;
-    RTLocationManager *_locationManager;
-    RTMetricManager *_metricManager;
-    RTMotionActivityManager *_motionActivityManager;
-    RTPlatform *_platform;
-    RTPointOfInterestMonitor *_pointOfInterestMonitor;
-    RTVisitStore *_visitStore;
-    RTXPCActivityManager *_xpcActivityManager;
-    NSMutableArray *_spoofVisitIncidentTokens;
-    RTVisitMonitor *_visitMonitor;
-    RTVisitLabeler *_visitLabeler;
-    RTVisit *_lastHighConfidenceVisit;
 }
 
 + (long long);
@@ -41,17 +23,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)`;
+- (_Bool);
+- (void)-key;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id).;
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (id);
@@ -63,8 +45,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)completion:(id)arg1 %@};
+- (void)d results, query all destinations;
 - (id);
 - (void);
 - (void);
@@ -78,24 +60,24 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)B;
+- (void)S&;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (id);
 - (void)!èGùB,ð1Â0@ù
 × ;
 - (void);
-- (id)vider;
+- (id)_peopleDiscoveryProvider;
 - (void)à;
 - (id)Hÿ;
 - (void)Ø;
 - (void)Ø;
 - (id)ort handoff;
-- (void)zationResult;
+- (void)initializationResult;
 - (void)ed.;
 - (id)ummary,transitionIndex,%tu,activityCount,%tu;
 - (void)];
@@ -109,32 +91,7 @@
 - (void)4ëÿ5;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTDeviceLocationPredictor *deviceLocationPredictor; // @synthesize deviceLocationPredictor=_deviceLocationPredictor;
-@property(nonatomic) _Bool findingPointOfInterest; // @synthesize findingPointOfInterest=_findingPointOfInterest;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTHintManager *hintManager; // @synthesize hintManager=_hintManager;
-@property(retain, nonatomic) RTVisit *lastHighConfidenceVisit; // @synthesize lastHighConfidenceVisit=_lastHighConfidenceVisit;
-@property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTLocationAwarenessManager *locationAwarenessManager; // @synthesize locationAwarenessManager=_locationAwarenessManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMetricManager *metricManager; // @synthesize metricManager=_metricManager;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) RTPointOfInterestMonitor *pointOfInterestMonitor; // @synthesize pointOfInterestMonitor=_pointOfInterestMonitor;
-@property(nonatomic) _Bool pointOfInterestUpdateEnabled; // @synthesize pointOfInterestUpdateEnabled=_pointOfInterestUpdateEnabled;
-@property(nonatomic) _Bool spoofMode; // @synthesize spoofMode=_spoofMode;
-@property(retain, nonatomic) NSMutableArray *spoofVisitIncidentTokens; // @synthesize spoofVisitIncidentTokens=_spoofVisitIncidentTokens;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) RTVisitLabeler *visitLabeler; // @synthesize visitLabeler=_visitLabeler;
-@property(retain, nonatomic) RTVisitMonitor *visitMonitor; // @synthesize visitMonitor=_visitMonitor;
-@property(retain, nonatomic) RTVisitStore *visitStore; // @synthesize visitStore=_visitStore;
-@property(retain, nonatomic) RTXPCActivityManager *xpcActivityManager; // @synthesize xpcActivityManager=_xpcActivityManager;
 
 @end
 

@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UNNotificationSettings;
 @protocol UNUserNotificationCenterDelegate;
 
 @protocol CALNUNUserNotificationCenterProtocol
+- (_Bool)`;
+- (void)	;
+- (void)da;
+- (UNNotificationSettings *)}d;
 
 // Remaining properties
 @property(nonatomic) __weak id <UNUserNotificationCenterDelegate> delegate;

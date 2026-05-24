@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class STYWakeDetector, STYWakeDiagnosticManager;
+@class STYWakeDetector;
 
 @interface STYSlowWakeMonitor
 {
     STYWakeDetector *_wakeMonitor;
-    STYWakeDiagnosticManager *_wakeDiagnosticManager;
-    _Bool _lowerThresholdForWakeDiagnostics;
 }
 
 + (void);
@@ -22,7 +20,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 

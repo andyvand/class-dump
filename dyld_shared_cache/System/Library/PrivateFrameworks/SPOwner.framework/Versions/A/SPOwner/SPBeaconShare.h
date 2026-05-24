@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, SPHandle;
+@class NSUUID;
 
 @interface SPBeaconShare
 {
     _Bool _delegationStatus;
-    NSUUID *_identifier;
-    NSUUID *_beaconIdentifier;
-    SPHandle *_owner;
-    SPHandle *_sharee;
-    long long _state;
-    NSDate *_creationDate;
-    NSDate *_expirationDate;
-    long long _visitorCount;
-    NSUUID *_sharingCircleIdentifier;
-    NSUUID *_peerTrustIdentifier;
 }
 
 + (_Bool);
@@ -31,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -39,7 +29,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)H;
 - (unsigned long long);
 - (void);
 - (long long);
@@ -48,25 +38,15 @@
 - (void);
 - (id);
 - (void);
+- (id)GroupMessageSentToBlackhole;
+- (id)";
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)8;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *beaconIdentifier; // @synthesize beaconIdentifier=_beaconIdentifier;
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) _Bool delegationStatus; // @synthesize delegationStatus=_delegationStatus;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) SPHandle *owner; // @synthesize owner=_owner;
-@property(copy, nonatomic) NSUUID *peerTrustIdentifier; // @synthesize peerTrustIdentifier=_peerTrustIdentifier;
-@property(copy, nonatomic) SPHandle *sharee; // @synthesize sharee=_sharee;
-@property(copy, nonatomic) NSUUID *sharingCircleIdentifier; // @synthesize sharingCircleIdentifier=_sharingCircleIdentifier;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) long long visitorCount; // @synthesize visitorCount=_visitorCount;
 
 @end
 

@@ -10,13 +10,11 @@ __attribute__((visibility("hidden")))
 @interface BookmarkChangeTracker
 {
     NSMutableSet *_uuidsToTreatAsModifiesWhenAdding;
-    NSMutableSet *_uuidsToIgnoreWhenDeleting;
-    WebBookmarkGroup *_bookmarkGroup;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 

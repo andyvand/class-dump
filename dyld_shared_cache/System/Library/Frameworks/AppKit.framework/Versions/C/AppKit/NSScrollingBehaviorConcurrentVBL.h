@@ -6,80 +6,52 @@
 
 #import <AppKit/NSScrollingBehavior.h>
 
-@class NSString, _NSScrollingConcurrentConstantData, _NSScrollingConcurrentEventMonitor, _NSScrollingConcurrentMainThreadSynchronizer, _NSScrollingConcurrentVBLMonitor;
-
 __attribute__((visibility("hidden")))
 @interface NSScrollingBehaviorConcurrentVBL : NSScrollingBehavior
 {
     id _theCakeIsALie;
-    _Bool *_timeOutCancelledPtr;
-    unsigned long long _scrollingMode;
-    struct _opaque_pthread_mutex_t _mutex;
-    long long _state;
-    _NSScrollingConcurrentConstantData *_constantData;
-    _NSScrollingConcurrentVBLMonitor *_vblMonitor;
-    _NSScrollingConcurrentEventMonitor *_eventMonitor;
-    _NSScrollingConcurrentMainThreadSynchronizer *_mainThreadSynchronizer;
-    long long _gestureAxis;
-    struct _opaque_pthread_mutex_t _screenDisabledMutex;
-    unsigned long long _gestureToken;
-    unsigned long long _screenDisabledToken;
-    CDUnknownBlockType _completionHandler;
-    struct {
-        unsigned int isCursorInTarget:1;
-        unsigned int momentumAnimationMustAlign:1;
-        unsigned int reserved:30;
-    } _flags;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
+- (id)5;
+- (void);
+- (void)_immediatelyReconnectAfterInterruption;
+- (void);
+- (void);
+- (void)roxySession <%{public}@> appWakeUUID %@ does not match uuid %@ for session %@ with identifier %@;
+- (void)ke up for uuid %@ for session %@ with identifier %@;
+- (void)anding tasks getting auth headers, finishing wake up for uuid %@ for session %@ with identifier %@;
+- (void)tifier %@;
+- (_Bool);
+- (void);
+- (void)@;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)`B;
 - (id);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned long long gestureToken;
-@property(readonly) unsigned long long hash;
 @property long long state;
-@property(readonly) Class superclass;
 
 @end
 

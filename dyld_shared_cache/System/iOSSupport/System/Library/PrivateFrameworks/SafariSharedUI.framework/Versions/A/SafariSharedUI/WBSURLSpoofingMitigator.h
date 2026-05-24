@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimer, _WKUserInitiatedAction;
+@class NSDate;
 
 @interface WBSURLSpoofingMitigator
 {
     NSDate *_dateOfLastSuspiciousProvisionalNavigationInterruption;
-    unsigned long long _recentlyInterruptedNavigationCount;
-    _WKUserInitiatedAction *_userInitiatedAction;
-    NSTimer *_timerForRevertingToCommittedURL;
-    _Bool _preferShowingCommittedURLForChromeInitiatedLoad;
-    _Bool _UIShouldReflectCommittedURLInsteadOfCurrentURL;
-    long long _navigationSource;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void)oryURL;
+- (_Bool)(;
+- (void)safari_settingsDirectoryURL;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool UIShouldReflectCommittedURLInsteadOfCurrentURL; // @synthesize UIShouldReflectCommittedURLInsteadOfCurrentURL=_UIShouldReflectCommittedURLInsteadOfCurrentURL;
-@property(nonatomic) long long navigationSource; // @synthesize navigationSource=_navigationSource;
 
 @end
 

@@ -9,17 +9,15 @@
 @interface PPContactRecordResultBuffer
 {
     _Bool _loadingComplete;
-    NSMutableArray *_records;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)ent: /* Error: Ran out of types for this method. */;
+- (void)visitAddContactEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool loadingComplete; // @synthesize loadingComplete=_loadingComplete;
 @property(readonly, nonatomic) NSMutableArray *records; // @synthesize records=_records;
 
 @end

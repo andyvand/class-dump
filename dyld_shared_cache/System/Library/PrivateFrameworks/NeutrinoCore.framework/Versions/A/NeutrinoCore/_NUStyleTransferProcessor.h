@@ -16,7 +16,8 @@
 + (_Bool);
 + (int);
 + (_Bool);
-+ (struct CGRect);
++ (struct CGRect),
+    PRIMARY KEY (;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface _CHCSVAggregator
 {
     NSMutableArray *_lines;
-    NSError *_error;
-    NSMutableArray *_currentLine;
 }
 
 - (void);
@@ -22,21 +20,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)logMessageCount;
 - (id);
 - (void)ÿÿ;
 
 // Remaining properties
-@property(retain) NSMutableArray *currentLine; // @synthesize currentLine=_currentLine;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(retain) NSMutableArray *lines; // @synthesize lines=_lines;
-@property(readonly) Class superclass;
 
 @end
 

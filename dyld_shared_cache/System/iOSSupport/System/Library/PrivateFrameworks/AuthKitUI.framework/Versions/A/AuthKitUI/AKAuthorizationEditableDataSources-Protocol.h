@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) AKAuthorizationScopeChoices *editableScopeChoices;
-@property(nonatomic) _Bool editableScopeChoicesChanged;
 @end
 

@@ -23,14 +23,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)h;
+- (id);
+- (void)ha;
 - (_Bool);
+- (void)!;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)o;
 - (_Bool);
 
 @end

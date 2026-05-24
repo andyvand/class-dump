@@ -10,9 +10,9 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)shareableCredentialsAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
+- (unsigned long long)FindCommonCaps:Breaking early, all caps are different /* Error: Ran out of types for this method. */;
 - (unsigned int);
 
 // Remaining properties

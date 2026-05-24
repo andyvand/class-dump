@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TICorrectionCandidates;
-
 @interface TIAutocorrectionList
 {
     _Bool _containsProactiveTriggers;
-    _Bool _proactiveSuggestionsEmpty;
-    TICorrectionCandidates *_corrections;
-    NSArray *_predictions;
-    NSArray *_inlineCompletions;
-    NSArray *_emojiList;
-    NSArray *_proactiveTriggers;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
@@ -31,8 +24,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool);
 
 @end
 

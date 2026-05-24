@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorColor, NSString;
+@class NSString;
 
 @interface BlastDoorOrderPreview_OrderText
 {
     id orderPreview_OrderText;
 }
 
-- (id);
+- (id)serTransitionCoordinator"16;
 - (id);
 - (id);
 - (id);
@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorColor *overrideColor;
-@property(nonatomic, readonly) NSString *text;
 
 @end
 

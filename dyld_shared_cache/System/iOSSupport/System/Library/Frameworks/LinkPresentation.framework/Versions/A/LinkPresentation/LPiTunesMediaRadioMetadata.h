@@ -6,33 +6,28 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPiTunesMediaRadioMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_curator;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
-+ (id);
++ (id)startFullscreenEffectIfNeededForChatItem: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
+- (id)translateMessagesWithGUIDs:(id)arg1 sourceLanguage: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewControllerWillDisplayLastBalloon:(id)arg1;
+- (id)animator:(id)arg1;
+- (id)transcriptCollectionViewController:(id)arg1 willDisplayContextMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 willDeleteChatItems: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 willBeginImpactEffectAnimationWithSendAnimationContext: /* Error: Ran out of types for this method. */;
+- (_Bool)tipKitOnboardingCollectionView:(id)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
+- (void)tableView:(CDUnknownBlockType)arg1 titleForHeaderInSection: /* Error: Ran out of types for this method. */;
+- (id)switcherViewController:didSelectPluginAtIndexPath: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
@@ -42,24 +37,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)s;
+- (void);
 - (id):øâ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(copy, nonatomic) NSString *curator; // @synthesize curator=_curator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,11 +10,10 @@
 @interface CSSearchAgent
 {
     id <MDIndexer> _indexer;
-    NSMutableDictionary *_searchConnections;
 }
 
-+ (id);
-+ (id);
++ (id)handleCHIPSendRemoteRequestMessage:(_Bool)arg1;
++ (id)handleCHIPRemoteRequest:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -35,7 +34,6 @@
 - (void)ø ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MDIndexer> indexer; // @synthesize indexer=_indexer;
 @property(retain, nonatomic) NSMutableDictionary *searchConnections; // @synthesize searchConnections=_searchConnections;
 
 @end

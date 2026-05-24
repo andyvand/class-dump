@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@protocol _NSQuickActionValidation;
 
 @protocol _NSQuickActionValidation
++ (id <_NSQuickActionValidation>);
 
 // Remaining properties
-@property(readonly, copy) NSSet *validQuickActions;
 @property(readonly) _Bool wantsAutovalidation;
 @end
 

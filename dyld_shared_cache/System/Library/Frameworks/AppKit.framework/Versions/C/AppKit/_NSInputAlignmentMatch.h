@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _NSInputAlignmentGuide, _NSInputAlignmentItem;
-
 @interface _NSInputAlignmentMatch
 {
     struct CGPoint _delta;
-    _Bool _alignsX;
-    _Bool _alignsY;
-    _NSInputAlignmentItem *_item;
-    _NSInputAlignmentGuide *_itemRepresentativeGuide;
-    _NSInputAlignmentGuide *_alignmentGuide;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

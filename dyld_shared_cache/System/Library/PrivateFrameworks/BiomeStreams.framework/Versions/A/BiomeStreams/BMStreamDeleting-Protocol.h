@@ -5,6 +5,7 @@
 //
 
 @protocol BMStreamDeleting
+- (void)kAirPortSecurityTypeWPA2EnterpriseKey;
 - (void)_ÿÿ;
 @end
 

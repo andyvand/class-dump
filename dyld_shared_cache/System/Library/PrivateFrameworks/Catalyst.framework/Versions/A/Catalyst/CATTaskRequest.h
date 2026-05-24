@@ -11,8 +11,8 @@
 
 + (Class);
 + (Class);
-+ (_Bool);
-- (void);
++ (_Bool)_validationErrors;
+- (void)[;
 - (_Bool);
 - (id);
 - (id);

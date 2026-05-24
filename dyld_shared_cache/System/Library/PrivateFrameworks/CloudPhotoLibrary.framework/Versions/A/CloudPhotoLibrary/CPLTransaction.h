@@ -9,17 +9,17 @@
 @interface CPLTransaction
 {
     _Bool _dirty;
-    NSString *_identifier;
 }
 
 + (void);
 + (void);
-+ (id);
++ (id)from %d to %d in param set '%.500s';
 + (id);
 + (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)e
+;
 - (void);
 - (void)0@ù
 × ;

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactPickerViewController, CNContactStore, FAFamilyMember, NSString;
-@protocol CNSchedulerProvider, CNUICoreFamilyMemberContactsDataSource, CNUIFamilyMemberContactsControllerDelegate, CNUIFamilyMemberContactsPresentation;
+@class CNContactStore;
+@protocol CNUIFamilyMemberContactsPresentation;
 
 @interface CNUIFamilyMemberContactsController
 {
     id <CNUIFamilyMemberContactsPresentation> _familyMemberContactsPresentation;
-    FAFamilyMember *_familyMember;
-    id <CNUIFamilyMemberContactsControllerDelegate> _delegate;
-    CNContactStore *_familyMemberScopedContactStore;
-    id <CNUICoreFamilyMemberContactsDataSource> _dataSource;
-    id <CNSchedulerProvider> _schedulerProvider;
-    CNContactPickerViewController *_contactPickerViewController;
 }
 
 + (_Bool);
@@ -24,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)qH;
 - (id);
 - (id);
 - (void);
@@ -43,31 +37,16 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)setUberBackgroundImageURL: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (id);
-- (void)tions;
+- (void)allowsDisplayModePickerActions;
 
 // Remaining properties
-@property(nonatomic) __weak CNContactPickerViewController *contactPickerViewController; // @synthesize contactPickerViewController=_contactPickerViewController;
-@property(readonly, nonatomic) long long countOfFamilyMemberContacts;
-@property(readonly, nonatomic) id <CNUICoreFamilyMemberContactsDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNUIFamilyMemberContactsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) FAFamilyMember *familyMember; // @synthesize familyMember=_familyMember;
-@property(readonly, nonatomic) id <CNUIFamilyMemberContactsPresentation> familyMemberContactsPresentation; // @synthesize familyMemberContactsPresentation=_familyMemberContactsPresentation;
 @property(readonly, nonatomic) CNContactStore *familyMemberScopedContactStore; // @synthesize familyMemberScopedContactStore=_familyMemberScopedContactStore;
-@property(readonly, nonatomic) long long fetchStatus;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
 
 @end
 

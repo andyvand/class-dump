@@ -6,34 +6,29 @@
 
 #import <CoreHAP/HAPAccessoryServerBrowser.h>
 
-@class HAP2PropertyLock, NSMutableDictionary, NSObject, NSString;
-@protocol HAP2AccessoryServerBrowserPrivate, HAPAccessoryServerBrowserDelegate, OS_dispatch_queue;
+@protocol HAPAccessoryServerBrowserDelegate;
 
 @interface HAPAccessoryServerBrowserHAP2Adapter : HAPAccessoryServerBrowser
 {
     id <HAPAccessoryServerBrowserDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSMutableDictionary *_discoveredServers;
-    id <HAP2AccessoryServerBrowserPrivate> _browser;
-    HAP2PropertyLock *_propertyLock;
 }
 
-- (void);
+- (void)cs:(id)arg1 ];
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
+- (void)oller setAllowsEnteringFullScreen:(id)arg1 ];
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (id)_AMAuthInstallBundlePopulatePersonalizedBundle;
 - (void)× ;
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setUpperBound: /* Error: Ran out of types for this method. */;
 - (void)rapper value=%@>;
 - (void)from current state:%@ /* Error: Ran out of types for this method. */;
 - (long long)0000-1000-8000-0026BB765291;
@@ -41,13 +36,7 @@
 - (void)ôÿßò÷W;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

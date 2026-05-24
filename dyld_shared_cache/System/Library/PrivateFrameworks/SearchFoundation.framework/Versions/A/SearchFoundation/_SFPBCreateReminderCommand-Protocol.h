@@ -7,9 +7,10 @@
 @class NSData, _SFPBReminder;
 
 @protocol _SFPBCreateReminderCommand
+- (void);
+- (NSData *)PHFacePLAdapter;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBReminder *reminder;
 @end
 

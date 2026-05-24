@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSString, NSUserNotification, UNNotification;
-
 __attribute__((visibility("hidden")))
 @interface UserNotificationData
 {
     unsigned long long _notificationID;
-    BrowserViewController *_browserViewController;
-    NSString *_originAndReplaceID;
-    NSString *_originDisplayName;
-    NSUserNotification *_nsUserNotification;
-    UNNotification *_unNotification;
 }
 
 - (id);
@@ -29,12 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak BrowserViewController *browserViewController; // @synthesize browserViewController=_browserViewController;
 @property(readonly, nonatomic) unsigned long long notificationID; // @synthesize notificationID=_notificationID;
-@property(retain, nonatomic) NSUserNotification *nsUserNotification; // @synthesize nsUserNotification=_nsUserNotification;
-@property(readonly, copy, nonatomic) NSString *originAndReplaceID; // @synthesize originAndReplaceID=_originAndReplaceID;
-@property(readonly, copy, nonatomic) NSString *originDisplayName; // @synthesize originDisplayName=_originDisplayName;
-@property(retain, nonatomic) UNNotification *unNotification; // @synthesize unNotification=_unNotification;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface ICIAMSerialCheckResponse
 {
     long long _commandSerialNumber;
-    struct {
-        unsigned int commandSerialNumber:1;
-    } _has;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)G;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long commandSerialNumber; // @synthesize commandSerialNumber=_commandSerialNumber;
 @property(nonatomic) _Bool hasCommandSerialNumber;
 
 @end

@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDExperimentMetadata, GEOPDModelMetadata, NSMutableArray, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMIFAutocompleteResponse
 {
     PBDataReader *_reader;
-    GEOPDExperimentMetadata *_experimentMetadata;
-    GEOPDModelMetadata *_modelMetadata;
-    NSMutableArray *_resultSections;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _mifResponseStatus;
-    struct {
-        unsigned int has_mifResponseStatus:1;
-        unsigned int read_experimentMetadata:1;
-        unsigned int read_modelMetadata:1;
-        unsigned int read_resultSections:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)idUnavailableRegions:(id)arg1 count: /* Error: Ran out of types for this method. */;
++ (_Bool)setHybridUnavailableRegions:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -36,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)R#;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -48,11 +34,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)_addPowerLogsIfSupported: /* Error: Ran out of types for this method. */;
+- (void)ription}24;
+- (void)^=BW	;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -61,17 +47,11 @@ __attribute__((visibility("hidden")))
 - (id)aceResult=Qi{?=b1b1}};
 - (id)_findChildrenOfTransitPoint:handler:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)ô{ä|`}4~X~;
-- (id)DBACK_TYPE_THIRD_PARTY_PHOTO_SHARING_PREFERENCE;
+- (id)FEEDBACK_TYPE_THIRD_PARTY_PHOTO_SHARING_PREFERENCE;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDExperimentMetadata *experimentMetadata;
-@property(readonly, nonatomic) _Bool hasExperimentMetadata;
-@property(nonatomic) _Bool hasMifResponseStatus;
-@property(readonly, nonatomic) _Bool hasModelMetadata;
-@property(nonatomic) int mifResponseStatus;
-@property(retain, nonatomic) GEOPDModelMetadata *modelMetadata;
 @property(retain, nonatomic) NSMutableArray *resultSections;
 
 @end

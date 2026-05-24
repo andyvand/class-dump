@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBValueMetadata;
+@class NSString, _INPBValueMetadata;
 
 @protocol _INPBSpeedValue
-- (_Bool)nfidenceLevel;
-- (void)mpletion:(_INPBValueMetadata *)arg1;
-- (_INPBValueMetadata *)areFile: /* Error: Ran out of types for this method. */;
-- (int)orMoveFile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (void);
+- (_Bool);
+- (_Bool)_ampConfidenceLevel;
+- (void)provideIsClearOptionsForReportIncident:(_INPBValueMetadata *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBValueMetadata *)defaultShareModeForShareFile: /* Error: Ran out of types for this method. */;
+- (int)provideSourceTypeOptionsCollectionForMoveFile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMagnitude;
-@property(nonatomic) _Bool hasUnit;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) double magnitude;
-@property(nonatomic) int unit;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData, NSString;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface PGSchemaPGOverridesFailed : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_criticalError;
-    NSString *_assetVersion;
-    _Bool _hasCriticalError;
-    _Bool _hasAssetVersion;
 }
 
 - (void);
@@ -29,21 +26,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)nvalid row id.;
 - (id);
 - (id)!;
 - (void)ogAct"b1};
-- (id)asPommesPegasusRequestGeoAppResolutionReported;
+- (id)_hasPommesPegasusRequestGeoAppResolutionReported;
 - (id)B,N,V_hasCdmClientWarmupContext;
-- (id)_DETERMINEINTENT__ANSWERQUESTIONABOUTTITLE;
+- (id)DIALOGENGINENAMEDENTITYCATID__DETERMINEINTENT__ANSWERQUESTIONABOUTTITLE;
 - (void)text;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *criticalError; // @synthesize criticalError=_criticalError;
-@property(nonatomic) _Bool hasAssetVersion; // @synthesize hasAssetVersion=_hasAssetVersion;
-@property(nonatomic) _Bool hasCriticalError; // @synthesize hasCriticalError=_hasCriticalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

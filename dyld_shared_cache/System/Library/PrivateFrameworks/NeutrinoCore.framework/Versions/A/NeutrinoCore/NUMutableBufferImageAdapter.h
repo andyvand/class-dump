@@ -6,7 +6,7 @@
 
 #import <NeutrinoCore/NUBufferImageAdapter.h>
 
-@class NSString, NUColorSpace, NUImageLayout, NUPixelFormat, NURegion;
+@class NUImageLayout;
 @protocol NUMutableBufferProvider;
 
 @interface NUMutableBufferImageAdapter : NUBufferImageAdapter
@@ -18,24 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void)Transform=dddddd}16q64;
 
 // Remaining properties
-@property(readonly) NUColorSpace *colorSpace;
-@property(readonly) float contentHeadroom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NUPixelFormat *format;
-@property(readonly) unsigned long long hash;
 @property(readonly) NUImageLayout *layout;
-@property(readonly) CDStruct_912cb5d2 size;
-@property(readonly) Class superclass;
-@property(readonly, copy) NURegion *validRegion;
 
 @end
 

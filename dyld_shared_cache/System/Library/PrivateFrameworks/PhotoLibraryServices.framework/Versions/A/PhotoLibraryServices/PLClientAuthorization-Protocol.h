@@ -6,7 +6,12 @@
 
 @protocol PLClientAuthorization
 - (id);
-- (id)ntCacheDeletePurgeToken: /* Error: Ran out of types for this method. */;
+- (id)k$;
+- (id)AD37JFJ'
+;
+- (char *)setDelegate: /* Error: Ran out of types for this method. */;
+- (id)C;
+- (id)setCurrentCacheDeletePurgeToken: /* Error: Ran out of types for this method. */;
 - (id)%{public}@ original resource for asset %{public}@ is already local at url:%@ /* Error: Ran out of types for this method. */;
 - (id)base failed, missing library directory. Exiting;
 - (id)obtaining path for thumbs directory:%@ /* Error: Ran out of types for this method. */;

@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (struct CGSize);
-- (_Bool)orScene:(id)arg1;
-- (_Bool);
-- (void)ableScrollViewInContainerForEdge:(struct CGSize)arg1;
+- (_Bool)trackingCoordinatorForScene:(id)arg1;
+- (_Bool)_updateEffectForSnapshotWillBegin: /* Error: Ran out of types for this method. */;
+- (void)_contentOrObservableScrollViewInContainerForEdge:(struct CGSize)arg1;
 - (struct CGSize);
 - (id)Øªÿ;
 - (void)Õa;

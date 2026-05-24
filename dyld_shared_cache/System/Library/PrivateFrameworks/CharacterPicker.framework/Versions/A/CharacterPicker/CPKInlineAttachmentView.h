@@ -6,14 +6,12 @@
 
 #import <CharacterPicker/CPKDraggableView.h>
 
-@class CPKCalculatedGeometry, NSString, STKImageGlyph, STKStickerView;
+@class CPKCalculatedGeometry, STKStickerView;
 
 __attribute__((visibility("hidden")))
 @interface CPKInlineAttachmentView : CPKDraggableView
 {
     CPKCalculatedGeometry *_geometry;
-    struct CGImage *_image;
-    STKStickerView *_stickerView;
 }
 
 - (id);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)>;
 - (id);
 - (void);
 - (void);
@@ -33,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)!Ț?;
 - (void);
 - (id);
 - (struct CGImage *);
@@ -45,18 +43,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CPKCalculatedGeometry *geometry; // @synthesize geometry=_geometry;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) STKImageGlyph *imageGlyph;
-@property(readonly, nonatomic) _Bool placeholderViewIsShown;
 @property(retain, nonatomic) STKStickerView *stickerView; // @synthesize stickerView=_stickerView;
-@property(readonly) Class superclass;
 
 @end
 

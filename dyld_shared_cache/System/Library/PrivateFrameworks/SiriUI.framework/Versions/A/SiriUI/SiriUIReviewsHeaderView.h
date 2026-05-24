@@ -11,10 +11,6 @@
 @interface SiriUIReviewsHeaderView : SiriUIReusableSubtitledHeaderView
 {
     NSView *_ratingView;
-    double _verticalSpaceNeededForRatingsView;
-    NSView *_providerView;
-    struct UIOffset _ratingViewOffset;
-    struct UIOffset _providerViewOffset;
 }
 
 - (double);
@@ -34,11 +30,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *providerView; // @synthesize providerView=_providerView;
-@property(nonatomic) struct UIOffset providerViewOffset; // @synthesize providerViewOffset=_providerViewOffset;
 @property(retain, nonatomic) NSView *ratingView; // @synthesize ratingView=_ratingView;
-@property(nonatomic) struct UIOffset ratingViewOffset; // @synthesize ratingViewOffset=_ratingViewOffset;
-@property(nonatomic) double verticalSpaceNeededForRatingsView; // @synthesize verticalSpaceNeededForRatingsView=_verticalSpaceNeededForRatingsView;
 
 @end
 

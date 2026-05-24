@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFHandle, NSSet, NSString;
+@class FMFHandle, NSString;
 
 @interface FMFNotNowRequest
 {
     FMFHandle *_fromHandle;
-    NSSet *_toHandles;
-    NSString *_requestId;
 }
 
 + (id);
@@ -22,17 +20,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)LZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/objects/obj_dat.c;
+- (void)initWithContactStore:(id)arg1 contact:isContactMeContact:isContactReadOnly:isContactCurated:nonCuratedValueToSave:forKey:containerIdentifier:ignoresGuardianRestrictions: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)Ôo!XCùQÙ1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) FMFHandle *fromHandle; // @synthesize fromHandle=_fromHandle;
 @property(retain) NSString *requestId; // @synthesize requestId=_requestId;
-@property(retain) NSSet *toHandles; // @synthesize toHandles=_toHandles;
 
 @end
 

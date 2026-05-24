@@ -9,20 +9,15 @@
 @interface AVCaptureSmartStyle
 {
     NSString *_cast;
-    float _intensity;
-    float _toneBias;
-    float _colorBias;
-    unsigned long long _hash;
-    long long _version;
 }
 
++ (id)%@, duration:(id)arg1 %g, %ld sections, %ld lines, songwriters:(float)arg2 %@, translations:(float)arg3 %@, transliterations:(float)arg4 %@;
 + (id);
-+ (id);
-- (float);
-- (float);
-- (id);
-- (id);
-- (void);
+- (float)decodedObjectOfClass:fromData:userInfo:error: /* Error: Ran out of types for this method. */;
+- (float)error message.;
+- (id)nnection] <%p> Sending path %{public}@ with traceID:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)r:(id)arg1 %@;
+- (void)validateRequiredAttributesForObject:error: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (unsigned long long);
@@ -32,10 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *cast; // @synthesize cast=_cast;
-@property(readonly, nonatomic) float colorBias; // @synthesize colorBias=_colorBias;
-@property(readonly, nonatomic) float intensity; // @synthesize intensity=_intensity;
-@property(readonly, nonatomic) float toneBias; // @synthesize toneBias=_toneBias;
-@property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

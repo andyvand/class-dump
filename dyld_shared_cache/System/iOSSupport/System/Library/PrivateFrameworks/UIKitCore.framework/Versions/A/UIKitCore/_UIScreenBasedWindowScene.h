@@ -6,24 +6,17 @@
 
 #import <UIKitCore/UIWindowScene.h>
 
-@class NSMutableSet, UIMutableApplicationSceneSettings, UIScreen;
-@protocol BSInvalidatable, NSCopying;
+@protocol NSCopying;
 
 __attribute__((visibility("hidden")))
 @interface _UIScreenBasedWindowScene : UIWindowScene
 {
     id <NSCopying> _lookupKey;
-    UIScreen *_screen;
-    UIMutableApplicationSceneSettings *_synthesizedSettings;
-    _Bool _invalidationEvaluatorRegistered;
-    _Bool _needsInvalidation;
-    id <BSInvalidatable> _screenDisconnectionPreventionAssertion;
-    NSMutableSet *_autoInvalidationPreventionAssertions;
 }
 
 + (_Bool)
 × ;
-+ (id)te;
++ (id)isTemplate;
 + (_Bool);
 + (id);
 + (_Bool);
@@ -32,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (void)setPayloadAllowFingerprintModification: /* Error: Ran out of types for this method. */;
+- (id)adProxyUsername;
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)footnoteButtonText;
 - (void);
 - (id);
 - (void);
@@ -52,23 +45,20 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)1Â0@ù
 × ;
-- (void)out:(_Bool)arg1;
-- (id)oWindow:(id)arg1;
-- (void)s;
-- (_Bool)ransitionsToTabBar;
-- (void)Boundary;
+- (void)setCurrentLayout:(_Bool)arg1;
+- (id)searchTextFieldWillMoveToWindow:(id)arg1;
+- (void)_updateClippingViews;
+- (_Bool)_transitionsToTabBar;
+- (void)_lowerBoundary;
 - (void)upted:(id)arg1 ,V__transitionInterrupted;
 - (struct CGRect)abel",&,N,V_accessoryLabel;
 - (id)=X>;
-- (void);
-- (void)nsform;
+- (void)showsVerticalSeparator;
+- (void)Transform;
 - (id)Ø^;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_autoInvalidationPreventionAssertions) NSMutableSet *_autoInvalidationPreventionAssertions; // @synthesize _autoInvalidationPreventionAssertions;
 @property(readonly, nonatomic, getter=_invalidationEvaluatorRegistered) _Bool _invalidationEvaluatorRegistered; // @synthesize _invalidationEvaluatorRegistered;
-@property(readonly, nonatomic, getter=_needsInvalidation) _Bool _needsInvalidation; // @synthesize _needsInvalidation;
-@property(readonly, nonatomic, getter=_screenDisconnectionPreventionAssertion) id <BSInvalidatable> _screenDisconnectionPreventionAssertion; // @synthesize _screenDisconnectionPreventionAssertion;
 
 @end
 

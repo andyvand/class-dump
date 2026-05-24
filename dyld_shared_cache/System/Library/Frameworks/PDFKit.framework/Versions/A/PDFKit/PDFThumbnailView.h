@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSColor, NSFont, PDFIconCollectionView, PDFView;
+@class PDFView;
 
 @interface PDFThumbnailView
 {
     PDFView *_pdfView;
-    struct CGSize _thumbnailSize;
-    NSColor *_backgroundColor;
-    int _maximumNumberOfColumns;
-    _Bool _allowsDragging;
-    NSFont *_labelFont;
-    _Bool _allowsMultipleSelection;
-    PDFIconCollectionView *_iconsView;
 }
 
 - (void);
@@ -29,38 +22,230 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)an error:%d
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
+- (unsigned long long)notification :%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (id)on-1418.6.20
+;
+- (id);
+- (_Bool)und %lu artwork asset without metadata in database;
+- (id)OT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0;
+- (void)e.fresnel.z);
+        _surface.reflective *= _surface.fresnel;
+    }
+    _surface.shininess = scn_commonprofile.materialShininess;
+    
+#ifdef USE_SURFACE_MODIFIER
+
+__DoSurfaceModifier__
+
+#endif
+
+    SCNShaderLightingContribution _lightingContribution = {0};
+    if (use_ambient_lighting)
+        _lightingContribution.ambient = scn_frame.ambientLightingColor.rgb;
+    
+    if (use_lighting) {
+        if (use_per_pixel_lighting) {
+            _lightingContribution.diffuse = float3(0.f);
+            if (use_modulate_lighting)
+                _lightingContribution.modulate = float3(1.f);
+            if (use_specular)
+                _lightingContribution.specular = float3(0.f);
+            
+            if (is_function_constant_defined(use_light0)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light0;
+                params.lightData = scn_lights[ in_node.lightIndices[0] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow0) scn_do_shadow(params, u_shadowTexture0, u_shadowKernel);
+                if (use_gobo0)   scn_do_gobo(params, u_goboTexture0);
+                if (use_ies0)    scn_do_ies(params, u_iesTexture0, linearSampler );
+                if (use_iesCube0)    scn_do_ies(params, u_iesCubeTexture0, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light1)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light1;
+                params.lightData = scn_lights[ in_node.lightIndices[1] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow1) scn_do_shadow(params, u_shadowTexture1, u_shadowKernel);
+                if (use_gobo1)   scn_do_gobo(params, u_goboTexture1);
+                if (use_ies1)    scn_do_ies(params, u_iesTexture1, linearSampler );
+                if (use_iesCube1)    scn_do_ies(params, u_iesCubeTexture1, linearSampler );
+
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light2)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light2;
+                params.lightData = scn_lights[ in_node.lightIndices[2] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow2) scn_do_shadow(params, u_shadowTexture2, u_shadowKernel);
+                if (use_gobo2)   scn_do_gobo(params, u_goboTexture2);
+                if (use_ies2)    scn_do_ies(params, u_iesTexture2, linearSampler );
+                if (use_iesCube2)    scn_do_ies(params, u_iesCubeTexture2, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+            if (is_function_constant_defined(use_light3)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light3;
+                params.lightData = scn_lights[ in_node.lightIndices[3] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow3) scn_do_shadow(params, u_shadowTexture3, u_shadowKernel);
+                if (use_gobo3)   scn_do_gobo(params, u_goboTexture3);
+                if (use_ies3)    scn_do_ies(params, u_iesTexture3, linearSampler );
+                if (use_iesCube3)    scn_do_ies(params, u_iesCubeTexture3, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+        } else { 
+            _lightingContribution.diffuse = in.diffuse;
+            if (use_specular)
+                _lightingContribution.specular = in.specular;
+        }
+
+        if (avoid_overlighting) {
+            _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+            if (use_specular)
+                _lightingContribution.specular = saturate(_lightingContribution.specular);
+        }
+    } else { 
+        _lightingContribution.diffuse = float3(1.f);
+    }
+    
+    
+    SCNOutput _output;
+    if (use_pbr) {
+        SCNPBRSurface pbr_surface = SCNShaderSurfaceToSCNPBRSurface(_surface);
+        pbr_surface.selfIlluminationOcclusion = scn_commonprofile.selfIlluminationOcclusion;
+
+        if (use_probes_lighting) {
+            _output.color = scn_pbr_combine_probes(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, scn_shCoefficients, scn_frame);
+        } else {
+            _output.color = scn_pbr_combine_cubemap(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, u_irradianceTexture, scn_frame);
+        }
+
+        _output.color.a = _surface.diffuse.a;
+    } else {
+        _output.color = illuminate(_surface, _lightingContribution);
+    }
+    
+    if (use_fog) {
+        float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+        _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+    }
+
+    if (!diffuse_premultiplied)
+        _output.color.rgb *= _surface.diffuse.a;
+
+    float nodeOpacity = use_node_opacity ? in_node.nodeOpacity :(id)arg1 1.f;
+    if (use_transparent) {
+
+        if (use_transparency)
+            _surface.transparent *= scn_commonprofile.transparency;
+        
+        if (use_transparency_rgbzero) {
+            
+            _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+            _output.color *= nodeOpacity * (float4(1.f) - _surface.transparent);
+        } else { 
+            _output.color *= (nodeOpacity * _surface.transparent.a);
+        }
+    } else {
+        if (use_transparency) { 
+            _output.color *= (nodeOpacity * scn_commonprofile.transparency);
+        }
+    }
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+
+
+
+    
+    if (use_discard && _output.color.a == 0.) 
+        discard_fragment();
+
+    return half4(_output.color);
+}
+;
+- (void)kC3DLightAttenuationTypeConstant,
+    kC3DLightAttenuationTypeLinear,
+    kC3DLightAttenuationTypeQuadratic,
+    kC3DLightAttenuationTypeExponent,
+    kC3DLightAttenuationTypePhysicallyBased,
+};
+
+enum C3DLightType
+{
+    kC3DLightTypeAmbient,
+    kC3DLightTypeDirectional,
+    kC3DLightTypeOmni,
+    kC3DLightTypeSpot,
+    kC3DLightTypeProbe,
+    kC3DLightTypeIES,
+    kC3DLightTypeArea
+};
+
+enum C3DLightIESType
+{
+    kC3DLightIESType1D,
+    kC3DLightIESType2D,
+    kC3DLightIESTypeCubemap,
+    kC3DLightIESTypeNone
+};
+
+#endif
+
+struct SCNLightData {
+    float4 color; 
+    float4 pbrColor; 
+    
+    
+    float3 position;  
+    float3 direction; 
+    float3 up; 
+    float3 right; 
+    
+    float3 distanceAttenuation; 
+    float3 spotAttenuation; 
+    float shadowRadius; 
+    float4x4 shadowMatrix; 
+};
+;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void) ` ;
 - (void);
 - (struct CGSize)AeÐ!äCùQä°1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) __weak PDFView *PDFView;
-@property(nonatomic) _Bool allowsDragging; // @synthesize allowsDragging=_allowsDragging;
-@property(nonatomic) _Bool allowsMultipleSelection;
-@property(copy, nonatomic) NSColor *backgroundColor;
-@property(copy, nonatomic) NSFont *labelFont;
-@property(nonatomic) unsigned long long maximumNumberOfColumns;
-@property(readonly, nonatomic) NSArray *selectedPages;
-@property(nonatomic) struct CGSize thumbnailSize;
 
 @end
 

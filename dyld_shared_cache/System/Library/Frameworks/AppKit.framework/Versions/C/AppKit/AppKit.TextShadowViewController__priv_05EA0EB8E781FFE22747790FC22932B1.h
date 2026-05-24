@@ -9,33 +9,14 @@
 @interface AppKit.TextShadowViewController__priv_05EA0EB8E781FFE22747790FC22932B1 : NSViewController
 {
     id delegate;
-    id values;
-    id showSeparators;
-    id insets;
-    id spacing;
-    id popoverWidth;
-    id controlWidth;
-    id valueLabelWidth;
-    id opacityLabelFormatter;
-    id angleLabelFormat;
-    id $__lazy_storage_$_shadowSwitch;
-    id $__lazy_storage_$_opacityLabel;
-    id $__lazy_storage_$_blurLabel;
-    id $__lazy_storage_$_offsetLabel;
-    id $__lazy_storage_$_angleLabel;
-    id $__lazy_storage_$_opacitySlider;
-    id $__lazy_storage_$_blurSlider;
-    id $__lazy_storage_$_offsetSlider;
-    id $__lazy_storage_$_angleSlider;
-    id $__lazy_storage_$_stackView;
 }
 
-- (void);
-- (void);
+- (void);
+- (void):(id)arg1 YU;
 - (id);
 - (id);
 - (id);
-- (void)withDelta:withEvent:withState: /* Error: Ran out of types for this method. */;
+- (void)_frame:resizedFromEdge:withDelta:withEvent:withState: /* Error: Ran out of types for this method. */;
 - (void)?¢eE;
 
 @end

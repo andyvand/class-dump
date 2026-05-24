@@ -7,39 +7,33 @@
 #import <NeutrinoCore/NURenderJob.h>
 
 @class NUVisionSegmentationRequest;
-@protocol NUImageBuffer;
 
 @interface NUVisionSegmentationJob : NURenderJob
 {
     NUVisionSegmentationRequest *_confidenceMapRequest;
-    id <NUImageBuffer> _segmentedMatte;
-    id <NUImageBuffer> _confidenceMap;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)P;
 - (void);
-- (void);
+- (id)s;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)7;
 - (id);
 - (struct __CVBuffer *);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <NUImageBuffer> confidenceMap; // @synthesize confidenceMap=_confidenceMap;
-@property(readonly, nonatomic) NUVisionSegmentationRequest *confidenceMapRequest; // @synthesize confidenceMapRequest=_confidenceMapRequest;
 @property(readonly, nonatomic) NUVisionSegmentationRequest *segmentationRequest;
-@property(retain, nonatomic) id <NUImageBuffer> segmentedMatte; // @synthesize segmentedMatte=_segmentedMatte;
 
 @end
 

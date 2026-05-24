@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_animationFrames;
 }
 
-- (id);
+- (id)peration.operationQueue;
 - (void);
 - (void);
-- (void)ontext:(id)arg1 offsetForSessionRange:withProofreadingController: /* Error: Ran out of types for this method. */;
-- (void)acy;
+- (void)initFromSessionContext:(id)arg1 offsetForSessionRange:withProofreadingController: /* Error: Ran out of types for this method. */;
+- (void)_UIBarBackgroundLayoutLegacy;
 - (_Bool)´;
 - (void)rC_yt¢¯;
 

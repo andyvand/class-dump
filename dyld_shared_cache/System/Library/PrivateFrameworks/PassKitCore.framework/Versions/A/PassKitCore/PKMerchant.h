@@ -4,60 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, PKMapsBrand, PKMapsMerchant;
+@class NSURL;
 
 @interface PKMerchant
 {
     unsigned long long _adamIdentifier;
-    struct os_unfair_lock_s _mapsDataLock;
-    PKMapsMerchant *_mapsMerchant;
-    PKMapsBrand *_mapsBrand;
-    _Bool _useRawMerchantData;
-    _Bool _useDisplayNameIgnoringBrand;
-    _Bool _mapsDataIsFromLocalMatch;
-    _Bool _isPotentialUnattributedMapsMatch;
-    NSString *_displayName;
-    NSString *_displayNameIgnoringBrand;
-    NSURL *_originURL;
-    NSString *_webMerchantIdentifier;
-    NSString *_webMerchantName;
-    NSString *_businessConnectBrandIdentifier;
-    long long _industryCode;
-    NSString *_industryCategory;
-    NSString *_name;
-    NSString *_rawName;
-    NSString *_merchantIdentifier;
-    NSString *_rawCANL;
-    NSString *_rawCity;
-    NSString *_rawState;
-    NSString *_rawCountry;
-    NSString *_city;
-    NSString *_state;
-    NSString *_zip;
-    long long _cleanConfidenceLevel;
-    long long _fallbackcategory;
-    NSString *_fallbackDetailedCategory;
-    NSURL *_fallbackLogoImageURL;
-    NSDate *_lastForceMerchantReprocessingRequestDate;
 }
 
-+ (id);
++ (id));
 + (_Bool)0@ù
 × ;
 - (id);
+- (_Bool)ׁW;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -90,25 +60,25 @@
 - (id);
 - (id);
 - (void);
+- (id)?;
 - (id);
+- (long long);
 - (id);
-- (long long);
-- (id);
-- (void);
+- (void)G	;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id);
+- (id)?;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -117,9 +87,9 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
@@ -129,58 +99,18 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)setCellMaxDlCaNumConfigured:(id)arg1;
+- (id)viceDisabled;
+- (void)endpoints_fetch_task_success_count;
 - (long long);
 - (id);
 - (long long);
 - (void)Ô ;
-- (void)uirement;
+- (void)deviceVersionRequirement;
 - (unsigned long long)Xø;
 
 // Remaining properties
-@property(nonatomic) long long adamIdentifier; // @dynamic adamIdentifier;
-@property(nonatomic) unsigned long long adamIdentifier_uint64; // @dynamic adamIdentifier_uint64;
-@property(readonly, nonatomic) NSURL *businessChatURL;
-@property(copy, nonatomic) NSString *businessConnectBrandIdentifier; // @synthesize businessConnectBrandIdentifier=_businessConnectBrandIdentifier;
-@property(readonly, nonatomic) long long category;
-@property(copy, nonatomic) NSString *city; // @synthesize city=_city;
-@property(nonatomic) long long cleanConfidenceLevel; // @synthesize cleanConfidenceLevel=_cleanConfidenceLevel;
-@property(readonly, nonatomic) NSString *detailedCategory;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *displayNameIgnoringBrand; // @synthesize displayNameIgnoringBrand=_displayNameIgnoringBrand;
-@property(copy, nonatomic) NSString *fallbackDetailedCategory; // @synthesize fallbackDetailedCategory=_fallbackDetailedCategory;
-@property(copy, nonatomic) NSURL *fallbackLogoImageURL; // @synthesize fallbackLogoImageURL=_fallbackLogoImageURL;
-@property(nonatomic) long long fallbackcategory; // @synthesize fallbackcategory=_fallbackcategory;
-@property(readonly, nonatomic) _Bool hasMapsMatch;
-@property(readonly, nonatomic) NSString *heroImageAttribution;
-@property(readonly, nonatomic) NSURL *heroImageURL;
-@property(copy, nonatomic) NSString *industryCategory; // @synthesize industryCategory=_industryCategory;
-@property(nonatomic) long long industryCode; // @synthesize industryCode=_industryCode;
-@property(nonatomic) _Bool isPotentialUnattributedMapsMatch; // @synthesize isPotentialUnattributedMapsMatch=_isPotentialUnattributedMapsMatch;
-@property(readonly, nonatomic) _Bool isValid;
-@property(copy, nonatomic) NSDate *lastForceMerchantReprocessingRequestDate; // @synthesize lastForceMerchantReprocessingRequestDate=_lastForceMerchantReprocessingRequestDate;
-@property(readonly, nonatomic) NSURL *logoImageURL;
-@property(retain, nonatomic) PKMapsBrand *mapsBrand; // @dynamic mapsBrand;
-@property(nonatomic) _Bool mapsDataIsFromLocalMatch; // @synthesize mapsDataIsFromLocalMatch=_mapsDataIsFromLocalMatch;
-@property(retain, nonatomic) PKMapsMerchant *mapsMerchant; // @dynamic mapsMerchant;
-@property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSURL *originURL; // @synthesize originURL=_originURL;
-@property(readonly, nonatomic) NSString *phoneNumber;
-@property(copy, nonatomic) NSString *rawCANL; // @synthesize rawCANL=_rawCANL;
-@property(copy, nonatomic) NSString *rawCity; // @synthesize rawCity=_rawCity;
-@property(copy, nonatomic) NSString *rawCountry; // @synthesize rawCountry=_rawCountry;
-@property(copy, nonatomic) NSString *rawName; // @synthesize rawName=_rawName;
-@property(copy, nonatomic) NSString *rawState; // @synthesize rawState=_rawState;
-@property(readonly, nonatomic) _Bool shouldIgnoreMapsMatches;
-@property(copy, nonatomic) NSString *state; // @synthesize state=_state;
-@property(nonatomic) _Bool useDisplayNameIgnoringBrand; // @synthesize useDisplayNameIgnoringBrand=_useDisplayNameIgnoringBrand;
-@property(nonatomic) _Bool useRawMerchantData; // @synthesize useRawMerchantData=_useRawMerchantData;
-@property(copy, nonatomic) NSString *webMerchantIdentifier; // @synthesize webMerchantIdentifier=_webMerchantIdentifier;
-@property(copy, nonatomic) NSString *webMerchantName; // @synthesize webMerchantName=_webMerchantName;
-@property(copy, nonatomic) NSString *zip; // @synthesize zip=_zip;
 
 @end
 

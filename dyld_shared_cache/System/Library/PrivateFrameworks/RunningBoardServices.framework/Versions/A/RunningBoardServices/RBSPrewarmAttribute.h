@@ -11,14 +11,12 @@
 @interface RBSPrewarmAttribute : RBSAttribute
 {
     double _interval;
-    RBSProcessIdentity *_identity;
 }
 
 + (id);
 
 // Remaining properties
 @property(readonly, nonatomic) RBSProcessIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, nonatomic) double interval; // @synthesize interval=_interval;
 
 @end
 

@@ -9,12 +9,11 @@
 @interface PICurvesFilterHDR
 {
     CIImage *_inputImage;
-    CIImage *_inputTableImage;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)>;
 - (id);
 - (void);
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain) CIImage *inputTableImage; // @synthesize inputTableImage=_inputTableImage;
 
 @end
 

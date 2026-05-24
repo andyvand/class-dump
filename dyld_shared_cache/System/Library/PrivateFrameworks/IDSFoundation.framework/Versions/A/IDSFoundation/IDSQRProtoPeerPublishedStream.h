@@ -7,38 +7,31 @@
 @interface IDSQRProtoPeerPublishedStream
 {
     CDStruct_9f2792e4 _peerStreamIds;
-    unsigned long long _peerParticipantId;
-    struct {
-        unsigned int peerParticipantId:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int *);
+- (unsigned long long)R*;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)B;
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)]}28*36*44;
+- (void)ion _receivedResponseID:(id)arg1 object:flags:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (id)@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasPeerParticipantId;
-@property(nonatomic) unsigned long long peerParticipantId; // @synthesize peerParticipantId=_peerParticipantId;
-@property(readonly, nonatomic) unsigned int *peerStreamIds;
-@property(readonly, nonatomic) unsigned long long peerStreamIdsCount;
 
 @end
 

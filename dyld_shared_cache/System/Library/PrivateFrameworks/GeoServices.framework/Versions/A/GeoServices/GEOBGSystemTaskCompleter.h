@@ -9,20 +9,17 @@
 @interface GEOBGSystemTaskCompleter
 {
     struct GEOOnce_s _completed;
-    BGSystemTask *_task;
-    CDUnknownBlockType _completion;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (CDUnknownBlockType)orrectedSearch;
-- (void)AddrObjGoogle8protobuf8internal15ExtensionFinderE;
+- (CDUnknownBlockType)hasCorrectedSearch;
+- (void)N13AddrObjGoogle8protobuf8internal15ExtensionFinderE;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(readonly, nonatomic) BGSystemTask *task; // @synthesize task=_task;
 
 @end

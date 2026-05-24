@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MHSchemaMHSpeechDetectorEnded : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_previousRequestId;
-    unsigned long long _timeSinceLastAcceptedRequestInNs;
-    float _amountOfSpeechDetectedInMs;
-    float _startSpeechDetectionThresholdInMs;
-    struct {
-        unsigned int timeSinceLastAcceptedRequestInNs:1;
-        unsigned int amountOfSpeechDetectedInMs:1;
-        unsigned int startSpeechDetectionThresholdInMs:1;
-    } _has;
-    _Bool _hasPreviousRequestId;
 }
 
 - (unsigned long long);
@@ -48,22 +39,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id)@"STSchemaDocumentAttributes",&,N,V_documentAttributes;
 - (id)antDaemonAudioInitContext;
 - (void);
 
 // Remaining properties
-@property(nonatomic) float amountOfSpeechDetectedInMs; // @synthesize amountOfSpeechDetectedInMs=_amountOfSpeechDetectedInMs;
-@property(nonatomic) _Bool hasAmountOfSpeechDetectedInMs;
-@property(nonatomic) _Bool hasPreviousRequestId; // @synthesize hasPreviousRequestId=_hasPreviousRequestId;
-@property(nonatomic) _Bool hasStartSpeechDetectionThresholdInMs;
-@property(nonatomic) _Bool hasTimeSinceLastAcceptedRequestInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *previousRequestId; // @synthesize previousRequestId=_previousRequestId;
-@property(nonatomic) float startSpeechDetectionThresholdInMs; // @synthesize startSpeechDetectionThresholdInMs=_startSpeechDetectionThresholdInMs;
-@property(nonatomic) unsigned long long timeSinceLastAcceptedRequestInNs; // @synthesize timeSinceLastAcceptedRequestInNs=_timeSinceLastAcceptedRequestInNs;
 
 @end
 

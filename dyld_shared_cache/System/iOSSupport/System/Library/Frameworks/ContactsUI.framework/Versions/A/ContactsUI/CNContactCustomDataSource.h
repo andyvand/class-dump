@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFilter, CNContactFormatter, CNContactStore, NSArray, NSDictionary, NSMapTable, NSMutableArray, NSString;
-@protocol CNContactDataSourceDelegate;
+@class NSMutableArray;
 
 @interface CNContactCustomDataSource
 {
     _Bool _autoUpdateContacts;
-    _Bool _observingContacts;
-    id <CNContactDataSourceDelegate> delegate;
-    CNContactFilter *_filter;
-    NSMutableArray *_allContacts;
-    NSArray *_keysToFetch;
-    NSMapTable *_identifiersToIndexes;
-    NSArray *_filteredContacts;
-    CNContactFormatter *_contactFormatterImpl;
 }
 
 - (void);
@@ -33,14 +24,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void),;
 - (id);
 - (id);
 - (id);
@@ -54,59 +45,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)fString:(id)arg1;
+- (id)rations;
+- (id)UIDNOTSTICKY;
+- (id);
+- (void)rangeOfString:(id)arg1;
 - (void)ring;
 - (id)µ;
 - (void)<L;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *allContacts; // @synthesize allContacts=_allContacts;
-@property(nonatomic) _Bool autoUpdateContacts; // @synthesize autoUpdateContacts=_autoUpdateContacts;
-@property(readonly, nonatomic) _Bool canReload;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContactFormatter",?,&,N
-
-@property(retain, nonatomic) CNContactFormatter *contactFormatterImpl; // @synthesize contactFormatterImpl=_contactFormatterImpl;
-@property(readonly, nonatomic) NSDictionary *contactMatchInfos;
-@property(readonly, nonatomic) NSArray *contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactDataSourceDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) CNContactFilter *effectiveFilter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContactFilter",?,R,N
-
-@property(copy, nonatomic) CNContactFilter *filter; // @synthesize filter=_filter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContactFilter",?,C,N,V_filter
-
-@property(retain, nonatomic) NSArray *filteredContacts; // @synthesize filteredContacts=_filteredContacts;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMapTable *identifiersToIndexes; // @synthesize identifiersToIndexes=_identifiersToIndexes;
-@property(readonly, nonatomic) NSArray *indexSections;
-@property(retain, nonatomic) NSArray *keysToFetch; // @synthesize keysToFetch=_keysToFetch;
-@property(nonatomic) _Bool observingContacts; // @synthesize observingContacts=_observingContacts;
-@property(readonly, nonatomic) NSArray *sections;
-@property(readonly, nonatomic) _Bool shouldReturnToAccountsAndGroupsViewAfterSearchIsCanceled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) CNContactStore *store;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContactStore",?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

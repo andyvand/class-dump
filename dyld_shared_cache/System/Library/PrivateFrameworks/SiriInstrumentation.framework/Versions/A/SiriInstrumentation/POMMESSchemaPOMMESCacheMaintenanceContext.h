@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESCacheMaintenanceEnded, POMMESSchemaPOMMESCacheMaintenanceFailed, POMMESSchemaPOMMESCacheMaintenanceStarted;
+@class POMMESSchemaPOMMESCacheMaintenanceStarted;
 
 @interface POMMESSchemaPOMMESCacheMaintenanceContext : SISchemaInstrumentationMessage
 {
     POMMESSchemaPOMMESCacheMaintenanceStarted *_startedOrChanged;
-    POMMESSchemaPOMMESCacheMaintenanceEnded *_ended;
-    POMMESSchemaPOMMESCacheMaintenanceFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -25,37 +19,30 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)(=;
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)ons_set_background(hwtrace_live_recording_options_t, bool);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)sForAssociatedGUID [%@];
 - (id);
 - (id);
-- (id)mTotalOutputSamples;
+- (id)_numTotalOutputSamples;
 - (id)ted;
 - (void)ContextTier1;
 
 // Remaining properties
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheMaintenanceEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) POMMESSchemaPOMMESCacheMaintenanceFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) POMMESSchemaPOMMESCacheMaintenanceStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

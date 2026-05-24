@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)(%@, $rmo, ((%%@ <= $rmo.%@) AND ($rmo.%@ <= %%@))%@).@count;
 - (void);
 
 @end

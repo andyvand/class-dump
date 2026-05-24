@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCKeyValueStore, NSArray, NSHashTable;
+@class FCKeyValueStore, NSArray;
 
 @interface FCOfflineIssueList
 {
     FCKeyValueStore *_localStore;
-    NSHashTable *_observers;
 }
 
 - (long long);
@@ -19,7 +18,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *issueIDs;
-@property(readonly, nonatomic) NSArray *sortedIssueIDs;
 
 @end
 

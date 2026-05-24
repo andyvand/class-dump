@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)ActionReadMessagesCount"b1"userPersona"b1"isSummarized"b1"summarySourceType"b1};
+- (void)1"emojiUsed"b1"keyboardUsed"b1"isSenderShortCode"b1"isLongMessage"b1"isReply"b1"appendingActionReadMessagesCount"b1"userPersona"b1"isSummarized"b1"summarySourceType"b1};
 - (_Bool);
 - (id);
 

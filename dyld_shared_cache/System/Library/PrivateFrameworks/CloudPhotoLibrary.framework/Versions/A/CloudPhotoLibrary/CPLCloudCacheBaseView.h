@@ -11,7 +11,6 @@
 @interface CPLCloudCacheBaseView : CPLRecordStorageView
 {
     _Bool _useFinal;
-    CPLEngineCloudCache *_cloudCache;
 }
 
 - (_Bool);
@@ -19,14 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)|;
 - (void)
 × ;
 - (id)]ëÿs;
 
 // Remaining properties
 @property(readonly, nonatomic) CPLEngineCloudCache *cloudCache; // @synthesize cloudCache=_cloudCache;
-@property(readonly, nonatomic) _Bool useFinal; // @synthesize useFinal=_useFinal;
 
 @end
 

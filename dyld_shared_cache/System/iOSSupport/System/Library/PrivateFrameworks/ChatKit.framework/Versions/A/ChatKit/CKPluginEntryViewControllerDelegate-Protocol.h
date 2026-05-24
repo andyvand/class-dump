@@ -5,5 +5,8 @@
 //
 
 @protocol CKPluginEntryViewControllerDelegate
+
+@optional
+- (void)activeFetchedResultsControllers;
 @end
 

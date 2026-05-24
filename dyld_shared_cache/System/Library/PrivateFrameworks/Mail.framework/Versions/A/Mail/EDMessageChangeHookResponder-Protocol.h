@@ -9,6 +9,15 @@
 @protocol EDMessageChangeHookResponder
 
 @optional
+- (void);
+- (void)(;
+- (void)W;
+- (void);
+- (void)^;
+- (void);
+- (void)?%@qA;
+- (void)遹#;
+- (void)2998E66B8E52LLV;
 - (void)%.*hhx-%{public}s] Is viable:(ECMessageFlagChange *)arg1 %{BOOL}d;
 @end
 

@@ -4,42 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFigCaptureSynchronizedStreamsGroup, BWFigVideoCaptureStream, NSArray, NSDictionary;
+@class BWFigCaptureSynchronizedStreamsGroup;
 
 @interface BWFigVideoCaptureSynchronizedStreamsGroup
 {
     BWFigCaptureSynchronizedStreamsGroup *_synchronizedStreamsGroup;
-    NSArray *_activeStreams;
-    NSArray *_activePortTypes;
-    NSDictionary *_cameraViewMatricesByPortType;
-    NSDictionary *_cameraPoseMatricesByPortType;
-    NSDictionary *_baseZoomFactorsByPortType;
-    NSDictionary *_clientBaseZoomFactorsByPortType;
-    NSDictionary *_ispBaseZoomFactorsByPortType;
-    _Bool _readOnly;
-    _Bool _atomicMasterSlaveReconfigurationSupported;
-    _Bool _masterConfigurationSupported;
-    BWFigVideoCaptureStream *_currentMasterStream;
-    NSDictionary *_currentSlaveConfigurationsByPortType;
-    int _maximumNumberOfSlaveStreamsWithoutFrameSkipping;
-    int _maximumNumberOfSlaveStreamsWithFrameProcessingEnabled;
-    int _maximumNumberOfEnabledSlaveTimeMachines;
-    BWFigVideoCaptureStream *_cameraControlsStatisticsMasterStream;
-    _Bool _statsMasterHasBeenSet;
 }
 
 + (void)ame.;
 - (void);
+- (void)Xa;
+- (id);
+- (id);
+- (void)qa;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)RT INTO metadata (key, value) VALUES ('rowIdWhenContactsEnabled', 0);
+- (_Bool)RDER BY score %@ LIMIT :limit /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (int);
@@ -53,14 +36,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *activePortTypes; // @synthesize activePortTypes=_activePortTypes;
-@property(copy, nonatomic) NSDictionary *baseZoomFactorsByPortType; // @synthesize baseZoomFactorsByPortType=_baseZoomFactorsByPortType;
-@property(readonly, nonatomic) BWFigVideoCaptureStream *cameraControlsStatisticsMasterStream; // @synthesize cameraControlsStatisticsMasterStream=_cameraControlsStatisticsMasterStream;
-@property(readonly, nonatomic) NSDictionary *clientBaseZoomFactorsByPortType; // @synthesize clientBaseZoomFactorsByPortType=_clientBaseZoomFactorsByPortType;
-@property(readonly, nonatomic) NSDictionary *ispBaseZoomFactorsByPortType; // @synthesize ispBaseZoomFactorsByPortType=_ispBaseZoomFactorsByPortType;
-@property(readonly, nonatomic) _Bool maximumNumberOfSlaveStreamsWithFrameProcessingEnabledSupported;
-@property(readonly, nonatomic) _Bool maximumNumberOfSlaveStreamsWithoutFrameSkippingSupported;
-@property(readonly, nonatomic) _Bool minimumMasterToSlaveFrameRateRatioSupported;
 @property(readonly, nonatomic) BWFigCaptureSynchronizedStreamsGroup *syncGroup; // @synthesize syncGroup=_synchronizedStreamsGroup;
 
 @end

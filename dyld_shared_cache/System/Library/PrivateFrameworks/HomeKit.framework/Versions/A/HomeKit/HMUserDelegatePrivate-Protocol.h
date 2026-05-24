@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMPhotosPersonManagerSettings, HMUser;
+
 @protocol HMUserDelegatePrivate
+
+@optional
+- (void)activeLibraryScopeInManagedObjectContext:(HMUser *)arg1;
+- (void)active;
+- (void)activateScopeWithIdentifier:(HMUser *)arg1 completionHandler:(HMPhotosPersonManagerSettings *)arg2;
+- (void)activateLibraryScopeWithUUID:(HMUser *)arg1 reply:(_Bool)arg2;
+- (void)activate:(HMUser *)arg1;
+- (void)_writeTokenToPath:(HMUser *)arg1 withInfo:allowOverwrite:error: /* Error: Ran out of types for this method. */;
+- (void)_validateSourceAsset:(HMUser *)arg1 destinationAsset: /* Error: Ran out of types for this method. */;
+- (void)_validateRelationshipConstraintForInsert:(HMUser *)arg1 error: /* Error: Ran out of types for this method. */;
 @end
 

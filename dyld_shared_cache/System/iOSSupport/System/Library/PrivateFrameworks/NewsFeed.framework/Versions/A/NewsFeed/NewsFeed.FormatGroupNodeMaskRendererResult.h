@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatGroupNodeMaskRendererResult
 {
     id maskLayer;
-    id maskSupplementaryLayers;
 }
 
 @end

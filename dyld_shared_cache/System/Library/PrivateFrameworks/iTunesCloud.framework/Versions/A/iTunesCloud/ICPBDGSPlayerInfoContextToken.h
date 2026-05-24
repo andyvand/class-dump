@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface ICPBDGSPlayerInfoContextToken
 {
     unsigned long long _sessionID;
-    NSData *_token;
-    struct {
-        unsigned int sessionID:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id));
 - (id);
 - (void)N,V_activeICloudAccountProperties;
 

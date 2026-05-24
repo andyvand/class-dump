@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MusicLibraryAdditions)
-+ (id);
-+ (id);
++ (id),N,V_pdsaLock_postDelayedSaveActionsReplyBlocks;
++ (id)_updateEndDate:(unsigned long long)arg1;
 @end
 

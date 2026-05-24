@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WBSPasswordBreachHelperProxy;
+@class NSArray;
 
 @interface WBSRecentlyBreachedPasswordProvider
 {
     struct os_unfair_lock_s _lock;
-    WBSPasswordBreachHelperProxy *_helperProxy;
-    _Bool _recentlyBreachedSavedAccountsLookupStarted;
-    NSArray *_recentlyBreachedSavedAccounts;
 }
 
 + (id);

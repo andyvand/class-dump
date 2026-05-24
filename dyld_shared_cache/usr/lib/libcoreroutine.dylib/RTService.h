@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTNotifier.h>
 
-@class NSString;
-
 @interface RTService : RTNotifier
 {
     _Bool _isShuttingDown;
@@ -23,14 +21,7 @@
 - (void)ter not satisfying:triggerEndDateUpdateNotification (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isShuttingDown; // @synthesize isShuttingDown=_isShuttingDown;
-@property(readonly) Class superclass;
 
 @end
 

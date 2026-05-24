@@ -12,9 +12,9 @@
 
 - (long long);
 - (long long);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)#C9;
+- (id);
+- (id)3;
 
 @end
 

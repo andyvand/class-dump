@@ -8,14 +8,12 @@ __attribute__((visibility("hidden")))
 @interface GEODataURLSessionTaskIdentifier
 {
     long long _sessionIdentity;
-    unsigned long long _taskIdentifier;
-    unsigned long long _hash;
 }
 
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)ctEnd:(struct _NSZone *)arg1;
+- (id)setHasConnectEnd:(struct _NSZone *)arg1;
 - (id);
 
 @end

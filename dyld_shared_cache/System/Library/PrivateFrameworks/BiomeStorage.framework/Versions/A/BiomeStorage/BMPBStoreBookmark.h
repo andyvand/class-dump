@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBStoreBookmark
 {
     double _iterationStartTime;
-    unsigned int _offset;
-    NSString *_segmentName;
-    NSString *_streamId;
-    struct {
-        unsigned int iterationStartTime:1;
-        unsigned int offset:1;
-    } _has;
 }
 
 - (id);
@@ -24,9 +15,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)SGQuickResponsesClassificationParameters;
 - (void);
 - (_Bool);
 - (void);
@@ -44,14 +35,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIterationStartTime;
-@property(nonatomic) _Bool hasOffset;
-@property(readonly, nonatomic) _Bool hasSegmentName;
 @property(readonly, nonatomic) _Bool hasStreamId;
-@property(nonatomic) double iterationStartTime; // @synthesize iterationStartTime=_iterationStartTime;
-@property(nonatomic) unsigned int offset; // @synthesize offset=_offset;
-@property(retain, nonatomic) NSString *segmentName; // @synthesize segmentName=_segmentName;
-@property(retain, nonatomic) NSString *streamId; // @synthesize streamId=_streamId;
 
 @end
 

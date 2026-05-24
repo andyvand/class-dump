@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (const int *);
+- (const int *)q;
 - (int);
-- (id);
+- (id);
 
 @end
 

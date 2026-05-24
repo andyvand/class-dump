@@ -8,11 +8,6 @@
 {
     id _playlist;
     id _loadingState;
-    id _entries;
-    id _totalEntriesCount;
-    id reason;
-    id source;
-    id maximumBatchLimit;
 }
 
 @end

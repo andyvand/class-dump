@@ -8,35 +8,6 @@
 {
     id interactionMode;
     id inertiaEnabled;
-    id automaticTarget;
-    id worldUp;
-    id inertiaFriction;
-    id minimumVerticalAngle;
-    id maximumVerticalAngle;
-    id minimumHorizontalAngle;
-    id maximumHorizontalAngle;
-    id isInertiaRunning;
-    id target;
-    id displayTargetCube;
-    id orbitRotation;
-    id inertiaVelocityThreshold;
-    id intertiaSimStepPerSecond;
-    id maxInfiniteInertiaVelocity;
-    id orientationState;
-    id inputLocation;
-    id arcball;
-    id inertia;
-    id up;
-    id minimumAngles;
-    id maximumAngles;
-    id handlingInteraction;
-    id drivenBydefaultNavigationCameraController;
-    id inDragGesture;
-    id baseScale;
-    id hasInertia;
-    id _orbitTargetEntity;
-    id pointOfView;
-    id lastMagValue;
 }
 
 @end

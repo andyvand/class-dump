@@ -4,62 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNDateComponentsFormatter, NSDateComponentsFormatter, NSDateFormatter, NSDateIntervalFormatter, NSLocale;
+@class NSLocale;
 
 @interface SSDateFormatManager
 {
     NSLocale *_overrideLocale;
-    CNDateComponentsFormatter *_birthdayDateComponentsFormatter;
-    NSDateComponentsFormatter *_dateComponentsFormatter;
-    NSDateFormatter *_shortRelativeDateFormatter;
-    NSDateFormatter *_mediumRelativeDateFormatter;
-    NSDateFormatter *_longRelativeDateFormatter;
-    NSDateFormatter *_dayOfWeekFormatter;
-    NSDateFormatter *_shortDayOfWeekFormatter;
-    NSDateFormatter *_shortDateTimeFormatter;
-    NSDateFormatter *_shortTimeFormatter;
-    NSDateFormatter *_dateFormatter;
-    NSDateIntervalFormatter *_shortDateTimeIntervalFormatter;
-    NSDateIntervalFormatter *_mediumDayOfWeekDateTimeIntervalFormatter;
-    NSDateIntervalFormatter *_shortDateIntervalFormatter;
-    NSDateIntervalFormatter *_mediumDayOfWeekDateIntervalFormatter;
-    NSDateIntervalFormatter *_allDayDateFormatter;
-    NSDateIntervalFormatter *_dateIntervalFormatter;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)0:(id)arg1 8;
++ (id)16@"AVAssetResourceRenewalRequest"24;
++ (id)ion"24;
++ (id)onse"24@?<v@?q>32;
++ (id)@"WKWebpagePreferences">40;
++ (id)minimumNumberOfLinesToVerticallyCenter;
++ (id)mapMetadataWithPublisher: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithCGImage:(id)arg1 size: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithCGImage:(id)arg1 options:session: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithBytesLoaded:(id)arg1 downloadState:(double)arg2 metadata:(_Bool)arg3;
++ (id)creationDate;
++ (_Bool)countByEnumeratingWithState:(id)arg1 objects:count: /* Error: Ran out of types for this method. */;
++ (id)captionButtonPropertiesForOrders;
++ (id)assetWriterInputPixelBufferAdaptorWithAssetWriterInput:(id)arg1 sourcePixelBufferAttributes:(_Bool)arg2;
++ (id)assetWriterInputPixelBufferAdaptorWithAssetWriterInput:(id)arg1 sourcePixelBufferAttributes: /* Error: Ran out of types for this method. */;
++ (id)assetWithURL:(id)arg1;
++ (id)assetImageGeneratorWithAsset:(id)arg1;
++ (id)allowsDominantImageBackgroundColorAsCaptionBackground;
++ (id)allowsDominantImageBackgroundColorAsCaptionBackground;
++ (id)allowsBadgingIconEdgeForComponentView: /* Error: Ran out of types for this method. */;
++ (id)allowsAsynchronousImageDecodingForComponentView: /* Error: Ran out of types for this method. */;
++ (id)allowedSpecializations;
++ (id)allObjects;
++ (_Bool)alignTextAndMediaHorizontalEdges;
++ (id)_primaryCaptionBarFrame;
++ (id)_preservesEdgeAlignmentWhenScaling;
++ (void)_internalStartFetchingMetadataForWebView:(id)arg1 isNonAppInitiated:completionHandler: /* Error: Ran out of types for this method. */;
++ (id)_initWithSynapseContentItem:(id)arg1;
 + (id);
 + (void);
 + (id);
 + (id);
-+ (void);
-+ (id);
-+ (id);
-+ (void)_Prefix;
++ (void)kMDItemTopic_QueryTermsNum_Var_Prefix;
 + (id);
 + (id)ÿòØ¿	;
 - (id);
@@ -82,45 +66,29 @@
 - (void);
 - (void);
 - (void);
+- (id)adata"24;
+- (id)16q24;
+- (id)8@"CAAnimation"16;
+- (id)em"16{CGPoint=dd}24;
+- (id)ializationDelegate>";
+- (id)preferredFontForTextStyle:options: /* Error: Ran out of types for this method. */;
+- (id)preferredFont;
+- (void)loadHTMLString:(id)arg1 baseURL: /* Error: Ran out of types for this method. */;
+- (id)initWithMode: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)edSet";
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void)ixMatchOnly;
-- (id)rsion;
-- (id)nterpartBundleIdentifier;
+- (void)displayNameInitialsPrefixMatchOnly;
+- (id)kMDItemPhotosPrivateEncryptedComputeAnalysisVersion;
+- (id)_counterpartBundleIdentifier;
 - (id)Ø_	;
 
 // Remaining properties
-@property(retain, nonatomic) NSDateIntervalFormatter *allDayDateFormatter; // @synthesize allDayDateFormatter=_allDayDateFormatter;
-@property(retain, nonatomic) CNDateComponentsFormatter *birthdayDateComponentsFormatter; // @synthesize birthdayDateComponentsFormatter=_birthdayDateComponentsFormatter;
-@property(retain, nonatomic) NSDateComponentsFormatter *dateComponentsFormatter; // @synthesize dateComponentsFormatter=_dateComponentsFormatter;
-@property(retain, nonatomic) NSDateFormatter *dateFormatter; // @synthesize dateFormatter=_dateFormatter;
-@property(retain, nonatomic) NSDateIntervalFormatter *dateIntervalFormatter; // @synthesize dateIntervalFormatter=_dateIntervalFormatter;
-@property(retain, nonatomic) NSDateFormatter *dayOfWeekFormatter; // @synthesize dayOfWeekFormatter=_dayOfWeekFormatter;
-@property(retain, nonatomic) NSDateFormatter *longRelativeDateFormatter; // @synthesize longRelativeDateFormatter=_longRelativeDateFormatter;
-@property(retain, nonatomic) NSDateIntervalFormatter *mediumDayOfWeekDateIntervalFormatter; // @synthesize mediumDayOfWeekDateIntervalFormatter=_mediumDayOfWeekDateIntervalFormatter;
-@property(retain, nonatomic) NSDateIntervalFormatter *mediumDayOfWeekDateTimeIntervalFormatter; // @synthesize mediumDayOfWeekDateTimeIntervalFormatter=_mediumDayOfWeekDateTimeIntervalFormatter;
-@property(retain, nonatomic) NSDateFormatter *mediumRelativeDateFormatter; // @synthesize mediumRelativeDateFormatter=_mediumRelativeDateFormatter;
 @property(retain) NSLocale *overrideLocale; // @synthesize overrideLocale=_overrideLocale;
-@property(retain, nonatomic) NSDateIntervalFormatter *shortDateIntervalFormatter; // @synthesize shortDateIntervalFormatter=_shortDateIntervalFormatter;
-@property(retain, nonatomic) NSDateFormatter *shortDateTimeFormatter; // @synthesize shortDateTimeFormatter=_shortDateTimeFormatter;
-@property(retain, nonatomic) NSDateIntervalFormatter *shortDateTimeIntervalFormatter; // @synthesize shortDateTimeIntervalFormatter=_shortDateTimeIntervalFormatter;
-@property(retain, nonatomic) NSDateFormatter *shortDayOfWeekFormatter; // @synthesize shortDayOfWeekFormatter=_shortDayOfWeekFormatter;
-@property(retain, nonatomic) NSDateFormatter *shortRelativeDateFormatter; // @synthesize shortRelativeDateFormatter=_shortRelativeDateFormatter;
-@property(retain, nonatomic) NSDateFormatter *shortTimeFormatter; // @synthesize shortTimeFormatter=_shortTimeFormatter;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleAccountContext
 {
     NSString *_identifier;
-    NSString *_username;
-    NSString *_alternateDSID;
 }
 
 - (id);
@@ -25,26 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)¡ãÿ+L03C;
 
 // Remaining properties
-@property(readonly, copy) NSString *alternateDSID; // @synthesize alternateDSID=_alternateDSID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *username; // @synthesize username=_username;
 
 @end
 

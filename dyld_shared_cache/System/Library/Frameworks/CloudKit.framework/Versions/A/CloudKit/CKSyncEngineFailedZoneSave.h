@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZone, NSError, NSString;
+@class CKRecordZone;
 
 @interface CKSyncEngineFailedZoneSave
 {
     CKRecordZone *_recordZone;
-    NSError *_error;
 }
 
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (id);
+- (id)a8;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)16B24B28@32;
+- (void)CKSharingContext;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CKRecordZone *recordZone; // @synthesize recordZone=_recordZone;
-@property(readonly) Class superclass;
 
 @end
 

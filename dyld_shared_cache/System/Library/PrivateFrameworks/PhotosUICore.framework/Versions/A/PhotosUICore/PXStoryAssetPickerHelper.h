@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, NSString, NSViewController, PHPhotoLibrary, PXLoadingStatusManager;
-@protocol PXDisplayAssetCollection, PXStoryAssetPickerHelperDelegate;
+@class PHPhotoLibrary;
 
 @interface PXStoryAssetPickerHelper
 {
     _Bool _preselectedAssetsHaveDefaultSortOrder;
-    id <PXDisplayAssetCollection> _containerCollection;
-    NSViewController *_pickerViewController;
-    id <PXStoryAssetPickerHelperDelegate> _delegate;
-    PHPhotoLibrary *_photoLibrary;
-    NSOrderedSet *_preselectedOIDs;
-    PXLoadingStatusManager *_loadingStatusManager;
 }
 
 - (_Bool);
@@ -32,20 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAssetCollection> containerCollection; // @synthesize containerCollection=_containerCollection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXStoryAssetPickerHelperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXLoadingStatusManager *loadingStatusManager; // @synthesize loadingStatusManager=_loadingStatusManager;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) NSViewController *pickerViewController; // @synthesize pickerViewController=_pickerViewController;
-@property(readonly, nonatomic) _Bool preselectedAssetsHaveDefaultSortOrder; // @synthesize preselectedAssetsHaveDefaultSortOrder=_preselectedAssetsHaveDefaultSortOrder;
-@property(readonly, nonatomic) NSOrderedSet *preselectedOIDs; // @synthesize preselectedOIDs=_preselectedOIDs;
-@property(readonly) Class superclass;
 
 @end
 

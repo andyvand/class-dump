@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PKMediaSize;
+@class NSMutableDictionary, PKMediaSize;
 
 @interface PKMutableMediaCol
 {
     NSMutableDictionary *_dict;
-    PKMediaSize *_mediaSize;
 }
 
 - (void);
@@ -21,13 +20,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)8;
 
 // Remaining properties
 @property(copy) PKMediaSize *mediaSize; // @synthesize mediaSize=_mediaSize;
-@property(copy) NSString *mediaSource;
-@property(copy) NSString *mediaType;
 
 @end
 

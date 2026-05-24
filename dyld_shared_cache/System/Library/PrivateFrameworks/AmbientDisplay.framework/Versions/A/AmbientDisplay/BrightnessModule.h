@@ -4,56 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DeviceGammaContext, DisplayServicesClient;
-
 @interface BrightnessModule
 {
     _Bool _hasALSCompensation;
-    _Bool _hasALSReset;
-    unsigned int _displayID;
-    DisplayServicesClient *_dsClient;
-    DeviceGammaContext *_observer;
-    _Bool _autoBrightnessEnabledState;
-    _Bool _autoBrightnessIsAvailable;
-    _Bool _autoBrightnessIsForcedDisabled;
-    _Bool _brightnessIsLocked;
-    _Bool _builtIn;
-    float _currentBrightness;
-    float _smallestBrightnessIncrement;
-    float _brightnessIncrement;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)essiveSendPlayed:(float)arg1 errorType:associatedMessageGUID:associatedMessageType:associatedMessageRange:bizIntent:locale:biaReferenceID:messageSummaryInfo:partCount:threadIdentifier:dateRecovered:scheduleType:scheduleState: /* Error: Ran out of types for this method. */;
+- (void)ountryCode:(_Bool)arg1 expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:errorType:associatedMessageGUID:associatedMessageType:associatedMessageRange:bizIntent:locale:biaReferenceID:messageSummaryInfo:partCount:threadIdentifier:dateRecovered:scheduleType:scheduleState: /* Error: Ran out of types for this method. */;
+- (id)initWithSenderInfo:(unsigned int)arg1 time:timeRead:timeDelivered:timePlayed:subject:body:bodyData:attributes:fileTransferGUIDs:flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:errorType:associatedMessageGUID:associatedMessageType:associatedMessageRange:bizIntent:locale:biaReferenceID:messageSummaryInfo:partCount:threadIdentifier:dateRecovered: /* Error: Ran out of types for this method. */;
+- (_Bool)teRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (float):service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:type:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void)fileTransferGUIDs:(void *)arg1 flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:type:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void)initWithSenderInfo:(void *)arg1 time:timeRead:timeDelivered:timePlayed:subject:body:bodyData:attributes:fileTransferGUIDs:flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:type:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithSenderInfo:time:timeRead:timeDelivered:timePlayed:subject:body:bodyData:attributes:fileTransferGUIDs:flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:type:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (float)duleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (float):dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (_Bool)yncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (_Bool)pe:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void):countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void)vice:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void)s:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void)ta:attributes:fileTransferGUIDs:flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void)initWithSenderInfo:time:timeRead:timeDelivered:timePlayed:subject:body:bodyData:attributes:fileTransferGUIDs:flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
+- (void)ryCode:type: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (float);
-- (void);
-- (void);
-- (_Bool);
-- (float);
-- (float);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)upLeader;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool autoBrightnessEnabledState; // @synthesize autoBrightnessEnabledState=_autoBrightnessEnabledState;
-@property(readonly) _Bool autoBrightnessIsAvailable; // @synthesize autoBrightnessIsAvailable=_autoBrightnessIsAvailable;
-@property(readonly) _Bool autoBrightnessIsForcedDisabled; // @synthesize autoBrightnessIsForcedDisabled=_autoBrightnessIsForcedDisabled;
-@property(readonly) float brightnessIncrement; // @synthesize brightnessIncrement=_brightnessIncrement;
-@property(readonly) _Bool brightnessIsLocked; // @synthesize brightnessIsLocked=_brightnessIsLocked;
-@property float brightnessSetting;
 @property(readonly) _Bool displayIsBuiltIn; // @synthesize displayIsBuiltIn=_builtIn;
 
 @end

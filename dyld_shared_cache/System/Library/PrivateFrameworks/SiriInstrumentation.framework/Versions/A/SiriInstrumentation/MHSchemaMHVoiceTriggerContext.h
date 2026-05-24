@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHVoiceTriggerSecondPassCancelled, MHSchemaMHVoiceTriggerSecondPassRejected, MHSchemaMHVoiceTriggerSecondPassStarted, MHSchemaMHVoiceTriggerSecondPassTriggered, NSData;
+@class MHSchemaMHVoiceTriggerSecondPassStarted;
 
 @interface MHSchemaMHVoiceTriggerContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHVoiceTriggerSecondPassStarted *_startedOrChanged;
-    MHSchemaMHVoiceTriggerSecondPassTriggered *_ended;
-    MHSchemaMHVoiceTriggerSecondPassRejected *_failed;
-    MHSchemaMHVoiceTriggerSecondPassCancelled *_cancelled;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -27,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -35,13 +27,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)ect={CGPoint=dd}{CGSize=dd}}24@56@64;
+- (_Bool)avatarViewControllerDidRefresh: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)DwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/ec/ecp_nist.c;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -56,16 +48,7 @@
 - (void)SUGSchemaSUGConversionMetricType;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHVoiceTriggerSecondPassCancelled *cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) MHSchemaMHVoiceTriggerSecondPassTriggered *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) MHSchemaMHVoiceTriggerSecondPassRejected *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHVoiceTriggerSecondPassStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

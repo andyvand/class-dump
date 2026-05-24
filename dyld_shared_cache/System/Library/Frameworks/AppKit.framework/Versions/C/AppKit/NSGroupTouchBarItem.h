@@ -6,40 +6,20 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSArray, NSString, NSTouchBar, NSUserInterfaceCompressionOptions;
+@class NSTouchBar;
 
 @interface NSGroupTouchBarItem : NSTouchBarItem
 {
     NSTouchBar *_groupTouchBar;
-    NSString *_customizationLabel;
-    long long _groupUserInterfaceLayoutDirection;
-    struct __gtbiFlags {
-        unsigned int hasAutomaticLayoutDirection:1;
-        unsigned int reserved:31;
-    } _gtbiFlags;
-    id _private;
 }
 
++ (id)%{public}@> failed to create a background NSURLSessionDownloadTask, as remote session is unavailable;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)nary"16;
 
 // Remaining properties
-@property(copy) NSString *customizationLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSUserInterfaceCompressionOptions *effectiveCompressionOptions;
 @property(retain) NSTouchBar *groupTouchBar;
-@property long long groupUserInterfaceLayoutDirection;
-@property(readonly) unsigned long long hash;
-@property double preferredItemWidth;
-@property _Bool prefersEqualWidths;
-@property(copy) NSArray *prioritizedCompressionOptions;
-@property(readonly) Class superclass;
 
 @end
 

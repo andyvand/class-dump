@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDAxesCollection, CHDChartTypesCollection, OADGraphicProperties;
+@class CHDChartTypesCollection;
 
 __attribute__((visibility("hidden")))
 @interface CHDPlotArea
 {
     CHDChartTypesCollection *mChartTypes;
-    CHDAxesCollection *mAxes;
-    OADGraphicProperties *mGraphicProperties;
-    _Bool mCategoryAxesReversed;
-    _Bool mCategoryAxesReversedOverridden;
-    _Bool mContainsVolumeStockType;
 }
 
 - (void);
@@ -23,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id)(;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)@?0@"NSString"8@?<v@?@"NSString">16;
+- (id)7k;
 - (void)Ì°;
 
 @end

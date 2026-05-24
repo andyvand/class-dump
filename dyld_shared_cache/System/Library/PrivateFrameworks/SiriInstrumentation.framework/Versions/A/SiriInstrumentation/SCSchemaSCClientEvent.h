@@ -6,24 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SCSchemaSCClientEventMetadata, SCSchemaSCCorrectionChecked, SCSchemaSCUndoChecked, SCSchemaSCUndoSet, SISchemaInstrumentationMessage;
+@class SCSchemaSCClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface SCSchemaSCClientEvent : SISchemaTopLevelUnionType
 {
     SCSchemaSCClientEventMetadata *_eventMetadata;
-    SCSchemaSCUndoChecked *_undoChecked;
-    SCSchemaSCCorrectionChecked *_correctionChecked;
-    SCSchemaSCUndoSet *_undoSet;
-    _Bool _hasEventMetadata;
-    _Bool _hasUndoChecked;
-    _Bool _hasCorrectionChecked;
-    _Bool _hasUndoSet;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
-- (unsigned long long);
+- (unsigned long long)C;
 - (id);
 - (void);
 - (void);
@@ -39,7 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (void);
@@ -49,32 +41,23 @@
 - (id);
 - (int);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)8a
+;
+- (unsigned long long)rror:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)message_join.message_id from chat_recoverable_message_join WHERE chat_recoverable_message_join.message_id = OLD.message_id LIMIT 1); END;
 - (id);
 - (id);
 - (id)1Â0@ù
 × ;
-- (unsigned long long)eteSpeakerIdScoreThreshold;
-- (id);
+- (unsigned long long)deleteSpeakerIdScoreThreshold;
+- (id)clearConfusionScoresForEnrollmentUtterance;
 - (id)ErrorCode;
-- (int)ippetUserActioned;
-- (void)ONSTATE_NEEDS_DISAMBIGUATION;
+- (int)GATSchemaGATConfirmationSnippetUserActioned;
+- (void)INFERENCERESOLUTIONSTATE_NEEDS_DISAMBIGUATION;
 
 // Remaining properties
-@property(retain, nonatomic) SCSchemaSCCorrectionChecked *correctionChecked; // @synthesize correctionChecked=_correctionChecked;
-@property(retain, nonatomic) SCSchemaSCClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasCorrectionChecked; // @synthesize hasCorrectionChecked=_hasCorrectionChecked;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasUndoChecked; // @synthesize hasUndoChecked=_hasUndoChecked;
-@property(nonatomic) _Bool hasUndoSet; // @synthesize hasUndoSet=_hasUndoSet;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SCSchemaSCUndoChecked *undoChecked; // @synthesize undoChecked=_undoChecked;
-@property(retain, nonatomic) SCSchemaSCUndoSet *undoSet; // @synthesize undoSet=_undoSet;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDGroupParams, GEOPDQuickLinkParams, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDButtonItem
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDGroupParams *_groupParams;
-    GEOPDQuickLinkParams *_quickLinkParams;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _buttonType;
-    struct {
-        unsigned int has_buttonType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_groupParams:1;
-        unsigned int read_quickLinkParams:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
-- (void);
++ (_Bool)setHasWindowStartTime:(id)arg1;
+- (void)";
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)"NSDictionary",&,N,V_handlerMap;
+- (void)RTModelData;
 - (void);
 - (id);
 - (unsigned long long);
@@ -50,21 +36,15 @@
 - (id);
 - (void);
 - (id)Url"b1"wrote_anyField"b1};
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (id)x:transitLineColor:startDistance:coordinates:fromSteps:andSegments:andDecoderData: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithType:mcc:mnc:queue:delegate:territoryBlock: /* Error: Ran out of types for this method. */;
+- (id)_buildPointSectionsInCollection:pointRange:stepIndex:transitLineColor:startDistance:coordinates:fromSteps:andSegments:andDecoderData: /* Error: Ran out of types for this method. */;
 - (id)ÈEg ´´Jgx´à]g´ ag ´,fg´´|ggÈ´¼jgÜ´~gð´g´¬g´g8´gL´Ôg`´Ägt´`*h´0Bh´°Oh0´PhD´üVh`´\ht´h´Ôh´h°´thÄ´tÍhØ´4ih´Di|´i´`i°´.iÄ´ü3iØ´´5iì´@Vk;
-- (id)IMPACT;
+- (id)HIGH_LOCAL_IMPACT;
 - (void)äï?;
 - (int)Û%;
 
 // Remaining properties
-@property(nonatomic) int buttonType;
-@property(retain, nonatomic) GEOPDGroupParams *groupParams;
 @property(nonatomic) _Bool hasButtonType;
-@property(readonly, nonatomic) _Bool hasGroupParams;
-@property(readonly, nonatomic) _Bool hasQuickLinkParams;
-@property(retain, nonatomic) GEOPDQuickLinkParams *quickLinkParams;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

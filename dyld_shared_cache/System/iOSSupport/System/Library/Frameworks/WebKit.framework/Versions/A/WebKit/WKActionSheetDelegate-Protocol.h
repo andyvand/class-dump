@@ -5,6 +5,9 @@
 //
 
 @protocol WKActionSheetDelegate
+- (void)Q;
+- (struct CGRect);
+- (struct CGRect)4;
 - (struct CGRect)sMenuController"16@"NSString"24;
 @end
 

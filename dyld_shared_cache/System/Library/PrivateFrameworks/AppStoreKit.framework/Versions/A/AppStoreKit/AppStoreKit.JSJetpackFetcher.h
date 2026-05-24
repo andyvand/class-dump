@@ -7,11 +7,6 @@
 @interface AppStoreKit.JSJetpackFetcher
 {
     id packageIndex;
-    id jetpackLoader;
-    id bundlePipeline;
-    id virtualMachine;
-    id $__lazy_storage_$_indexPipeline;
-    id $__lazy_storage_$_sourceDataPipeline;
 }
 
 @end

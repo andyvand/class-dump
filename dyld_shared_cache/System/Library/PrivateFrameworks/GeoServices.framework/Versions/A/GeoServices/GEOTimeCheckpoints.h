@@ -4,64 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTimeCheckpoints
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _distToNextCheckpoints;
-    CDStruct_9f2792e4 _timeToNextCheckpoints;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_distToNextCheckpoints:1;
-        unsigned int read_timeToNextCheckpoints:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)etMerchantAddress:(id)arg1;
++ (_Bool)setMerchantAddress:(id)arg1;
 - (unsigned long long);
 - (unsigned int *);
 - (unsigned int);
-- (unsigned long long);
-- (unsigned int *);
-- (unsigned int);
+- (unsigned long long)CNCDIOSLegacyIdentifierRegistrarState;
+- (unsigned int *)CNCDIOSLegacyIdentifierRegistrar;
+- (unsigned int)CNCDDatabasePreparationResult;
+- (void)%{public}@;
+- (void)igration:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (void)u;
+- (id);
+- (void)getAnalyzedResultFromAudioChunk:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)(;
 - (void);
 - (id)erOfReroutes"b1"has_ttlUiNotificationShown"b1};
-- (id)ring;
-- (id)se;
+- (id)hasSingleLineAddressString;
+- (id)GEOQuickETAResponse;
 - (id)d once per object;
 - (void){3j¾JTQ@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *distToNextCheckpoints;
 @property(readonly, nonatomic) unsigned long long distToNextCheckpointsCount;
-@property(readonly, nonatomic) unsigned int *timeToNextCheckpoints;
-@property(readonly, nonatomic) unsigned long long timeToNextCheckpointsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

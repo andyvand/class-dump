@@ -12,7 +12,7 @@
 - (id);
 - (id);
 - (id);
-- (struct NSEdgeInsets)e_title;
+- (struct NSEdgeInsets)whats_new_urgent_alerts_snooze_title;
 
 // Remaining properties
 @property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;

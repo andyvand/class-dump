@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSXPCConnection;
-
 __attribute__((visibility("hidden")))
 @interface UINSSystemPreferencesClient
 {
     struct os_unfair_lock_s _lock;
-    NSXPCConnection *_serviceConnection;
-    NSMutableArray *_pendingCompletionHandlers;
-    _Bool _serviceConnectionReceived;
 }
 
 + (id);

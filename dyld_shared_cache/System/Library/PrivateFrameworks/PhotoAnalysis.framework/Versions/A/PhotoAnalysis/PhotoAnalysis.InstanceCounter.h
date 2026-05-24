@@ -7,7 +7,6 @@
 @interface PhotoAnalysis.InstanceCounter
 {
     id entity;
-    id numberOfInstances;
 }
 
 @end

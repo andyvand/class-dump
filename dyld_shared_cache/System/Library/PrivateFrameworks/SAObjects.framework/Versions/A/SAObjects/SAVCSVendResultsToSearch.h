@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAVCSVendResultsToSearch : SABaseClientBoundCommand
 {
@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)�;
 - (id);
 - (void);
 - (id);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *shelves;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

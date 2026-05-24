@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GEOTrafficAndETAResult
 {
     _Bool _isSuccess;
-    double _seconds;
-    double _aggressiveTravelTime;
-    double _conservativeTravelTime;
-    NSString *_shortTrafficString;
-    NSString *_longTrafficString;
-    NSString *_writtenRouteName;
-    NSString *_spokenRouteName;
 }
 
 - (id);
@@ -27,24 +18,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (id);
-- (double);
-- (double);
+- (double);
+- (double)creationDate;
 - (id);
 - (double);
 - (void)AÂBA:vPUQ@ /* Error: Ran out of types for this method. */;
 - (_Bool)ò$éÉmP@;
 
 // Remaining properties
-@property(nonatomic) double aggressiveTravelTime; // @synthesize aggressiveTravelTime=_aggressiveTravelTime;
-@property(nonatomic) double conservativeTravelTime; // @synthesize conservativeTravelTime=_conservativeTravelTime;
 @property(nonatomic) _Bool isSuccess; // @synthesize isSuccess=_isSuccess;
-@property(copy, nonatomic) NSString *longTrafficString; // @synthesize longTrafficString=_longTrafficString;
-@property(nonatomic) double seconds; // @synthesize seconds=_seconds;
-@property(copy, nonatomic) NSString *shortTrafficString; // @synthesize shortTrafficString=_shortTrafficString;
-@property(copy, nonatomic) NSString *spokenRouteName; // @synthesize spokenRouteName=_spokenRouteName;
-@property(copy, nonatomic) NSString *writtenRouteName; // @synthesize writtenRouteName=_writtenRouteName;
 
 @end
 

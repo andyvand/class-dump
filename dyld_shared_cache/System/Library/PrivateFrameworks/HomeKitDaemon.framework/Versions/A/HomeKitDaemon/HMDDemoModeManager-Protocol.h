@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPAccessoryServerBrowser;
-@protocol HMDDemoModeManagerDataSource;
+@class HAPAccessoryServerBrowser, NSDictionary;
 
 @protocol HMDDemoModeManager
+- (NSDictionary *)setHasIconAttributeKey:(NSDictionary *)arg1;
 - (void)/ updating person;
 
 // Remaining properties
 @property(readonly, nonatomic) HAPAccessoryServerBrowser *demoAccessoryBrowser;
-@property(readonly, nonatomic) id <HMDDemoModeManagerDataSource> demoModeDataSource;
 @end
 

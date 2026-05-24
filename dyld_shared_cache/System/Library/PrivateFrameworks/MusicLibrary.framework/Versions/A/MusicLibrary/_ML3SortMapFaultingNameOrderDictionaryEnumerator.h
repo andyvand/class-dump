@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseConnection, NSEnumerator;
+@class NSEnumerator;
 
 __attribute__((visibility("hidden")))
 @interface _ML3SortMapFaultingNameOrderDictionaryEnumerator
 {
     NSEnumerator *_dirtyInsertsEnumerator;
-    ML3DatabaseConnection *_connection;
-    unsigned long long _offset;
 }
 
-- (id);
+- (id)_addUBFBundleScopedOrderedAssetsToImport:(id)arg1 onDiskURLsToSkip:(id)arg2;
 - (id);
 - (void)_protected, 0)) ON CONFLICT(item_pid) DO UPDATE SET store_playlist_id = excluded.store_playlist_id, adam_id = excluded.adam_id, universal_cloud_library_id = excluded.universal_cloud_library_id, purchased_adam_id = excluded.purchased_adam_id, subscription_adam_id = excluded.subscription_adam_id, reporting_adam_id = excluded.reporting_adam_id, asset_adam_id = excluded.asset_adam_id, is_library_add_eligible = excluded.is_library_add_eligible, is_store_redownloadable = excluded.is_store_redownloadable, is_mastered_for_itunes = excluded.is_mastered_for_itunes, match_redownload_params = excluded.match_redownload_params, purchase_history_redownload_params = excluded.purchase_history_redownload_params, playback_endpoint_type = excluded.playback_endpoint_type, is_protected = excluded.is_protected; END;;
 

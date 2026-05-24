@@ -6,16 +6,12 @@
 
 #import <HomeKitDaemon/HMDSharedUserInviteLogEventBuilder.h>
 
-@class HMDHome, HMDSharedUserInviteOwnerSendLogEvent, NSString;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDSharedUserInviteOwnerSendLogEventBuilder : HMDSharedUserInviteLogEventBuilder
 {
     unsigned long long createShareBeginTime;
-    unsigned long long addUserToShareBeginTime;
-    unsigned long long sendInvitationBeginTime;
-    HMDHome *_home;
-    HMDSharedUserInviteOwnerSendLogEvent *_inviteLogEvent;
 }
 
 + (id)KB;
@@ -26,26 +22,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)unarchivedObjectOfClasses:fromData:error: /* Error: Ran out of types for this method. */;
+- (id),GisBlockingIncident;
+- (id),G_isImmutable,V_immutable;
 - (_Bool);
 - (void);
 - (id)0@ù
 × ;
-- (void)roller:networkInfoController:sessionID:idsIdentifierString:currentWiFiInfo:currentWiFiNetworkRSSI:numResidents:numAppleMediaAccessories:accessoryDiagnosticInfo:primaryResidentIdsIdentifierString:primaryResidentDiagnosticInfo:homeUUID:primaryResidentDiagnosticInfoFetched: /* Error: Ran out of types for this method. */;
+- (void)networkMetricWithDiscoveryController:networkInfoController:sessionID:idsIdentifierString:currentWiFiInfo:currentWiFiNetworkRSSI:numResidents:numAppleMediaAccessories:accessoryDiagnosticInfo:primaryResidentIdsIdentifierString:primaryResidentDiagnosticInfo:homeUUID:primaryResidentDiagnosticInfoFetched: /* Error: Ran out of types for this method. */;
 - (void)iaSourceIdentifier:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) HMDSharedUserInviteOwnerSendLogEvent *inviteLogEvent; // @synthesize inviteLogEvent=_inviteLogEvent;
-@property(readonly) Class superclass;
 
 @end
 

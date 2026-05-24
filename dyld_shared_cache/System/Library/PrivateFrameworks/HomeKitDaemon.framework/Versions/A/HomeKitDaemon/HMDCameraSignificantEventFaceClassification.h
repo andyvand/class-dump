@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSignificantEventFaceClassification
 {
     NSUUID *_UUID;
-    NSUUID *_personManagerUUID;
-    NSUUID *_personUUID;
-    NSString *_personName;
-    NSUUID *_unassociatedFaceCropUUID;
 }
 
 + (id);
-- (void);
+- (void)No shared trip group identifier, will not create archived sharing state;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)4;
+- (void)before:(id)arg1 %ld, Songs after:%ld withOnlyMatchingKeywords:%s /* Error: Ran out of types for this method. */;
+- (id)PGLocationTitleFormatMultipleLocationsConcatenator;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id)
 × ;
-- (id);
+- (id)findUserActivityStatusForType:(struct _NSZone *)arg1;
 - (id)more recent %@, %@;
 - (void)±f~&t²äþ;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSUUID *personManagerUUID; // @synthesize personManagerUUID=_personManagerUUID;
-@property(copy) NSString *personName; // @synthesize personName=_personName;
 @property(copy) NSUUID *personUUID; // @synthesize personUUID=_personUUID;
-@property(copy) NSUUID *unassociatedFaceCropUUID; // @synthesize unassociatedFaceCropUUID=_unassociatedFaceCropUUID;
 
 @end
 

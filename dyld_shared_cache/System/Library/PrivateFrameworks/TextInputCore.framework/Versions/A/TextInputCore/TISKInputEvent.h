@@ -12,21 +12,17 @@ __attribute__((visibility("hidden")))
 @interface TISKInputEvent : TISKEvent
 {
     double _downErrorDistance;
-    double _upErrorDistance;
-    _Bool _canComputeErrorDistance;
-    _Bool _ignoreTapData;
-    TIKeyboardInput *_input;
 }
 
 + (id);
 - (id);
 - (double);
 - (double);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)setIncomingTTYCallCount:(_Bool)arg1;
+- (void)managedObjectContext;
+- (void)localizedStringForKey:(id)arg1 value:(id)arg2 table: /* Error: Ran out of types for this method. */;
+- (id)bing:(id)arg1 %@;
+- (_Bool)ould not be matched to a known device:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (double);
@@ -36,7 +32,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool ignoreTapData; // @synthesize ignoreTapData=_ignoreTapData;
 @property(retain, nonatomic) TIKeyboardInput *input; // @synthesize input=_input;
 
 @end

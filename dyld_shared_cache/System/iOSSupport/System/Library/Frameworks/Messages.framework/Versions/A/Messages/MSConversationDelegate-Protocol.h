@@ -5,5 +5,8 @@
 //
 
 @protocol MSConversationDelegate
+
+@optional
+- (void)q;
 @end
 

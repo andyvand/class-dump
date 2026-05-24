@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class));
++ (id)isDescendantOfView: /* Error: Ran out of types for this method. */;
 + (void);
 - (void);
 - (void);

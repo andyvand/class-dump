@@ -10,16 +10,16 @@
 {
 }
 
+- (id)c;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (Class);
+- (_Bool)eneration Early due to no image url for Attachment:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)onItemIdentifier systemImageName];
+- (long long):%@ /* Error: Ran out of types for this method. */;
+- (Class);
 - (BOOL);
 - (struct CKBalloonDescriptor_t);
 - (id);
-- (id)n: /* Error: Ran out of types for this method. */;
+- (id)_setIsMicButton: /* Error: Ran out of types for this method. */;
 
 @end
 

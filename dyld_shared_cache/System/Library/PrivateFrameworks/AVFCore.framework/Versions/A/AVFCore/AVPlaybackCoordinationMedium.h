@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlaybackCoordinationMediumParticipant, NSArray, NSCondition, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSArray, NSMutableArray;
 
 @interface AVPlaybackCoordinationMedium
 {
     NSMutableArray *_participants;
-    NSMutableDictionary *_currentParticipantStates;
-    NSMutableDictionary *_currentTransportControlStates;
-    struct OpaqueFigVideoTargetConfigurationSynchronizer *_videoTargetsSynchronizer;
-    AVPlaybackCoordinationMediumParticipant *_initialStateOriginator;
-    unsigned int _lowestInUseDefaultItemIdentifier;
-    NSCondition *_condition;
-    NSString *_itemIdentifierConditionWaitsOn;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
 - (id);
@@ -26,19 +16,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (int);
 - (id);
 - (int);
 - (int);
 - (unsigned char);
 - (_Bool);
-- (void);
+- (void)8^p^;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)h`;
 - (void);
 - (void);
 - (id);
@@ -53,13 +43,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *connectedPlaybackCoordinators;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

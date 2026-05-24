@@ -6,27 +6,26 @@
 
 #import <PDFKit/PDFAction.h>
 
-@class NSURL, PDFActionURLPrivateVars;
+@class PDFActionURLPrivateVars;
 
 @interface PDFActionURL : PDFAction
 {
     PDFActionURLPrivateVars *_private2;
 }
 
-- (id);
+- (id);
 - (struct __CFDictionary *);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)`;
+- (id);
+- (void)5;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL;
 @property(readonly, nonatomic, getter=isSuspiciousURL) _Bool suspiciousURL;
 
 @end

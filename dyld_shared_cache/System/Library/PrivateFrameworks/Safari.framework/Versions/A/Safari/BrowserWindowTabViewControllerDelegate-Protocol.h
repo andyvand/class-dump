@@ -7,7 +7,7 @@
 @protocol BrowserWindowTabViewControllerDelegate
 
 @optional
-- (void)yNamesToPropertyIndexes;
+- (void)_addressBookLabelsToPropertyNamesToPropertyIndexes;
 - (void)¤4;
 @end
 

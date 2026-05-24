@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)CNGeminiLogger;
 + (id);
 + (Class)9;
-- (id);
+- (id)A;
 - (_Bool);
 
 @end

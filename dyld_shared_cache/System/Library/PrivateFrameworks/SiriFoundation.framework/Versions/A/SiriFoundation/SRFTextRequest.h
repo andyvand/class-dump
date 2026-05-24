@@ -9,23 +9,21 @@
 @interface SRFTextRequest
 {
     NSString *_utteranceText;
-    long long _serviceProvider;
 }
 
-+ (_Bool);
++ (_Bool)additionalObjectGroups;
 - (id);
 - (id);
 - (void);
-- (void);
-- (long long);
-- (id);
+- (void);
+- (long long)zoomToDistance:distance:time:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)~;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long serviceProvider; // @synthesize serviceProvider=_serviceProvider;
 @property(copy, nonatomic) NSString *utteranceText; // @synthesize utteranceText=_utteranceText;
 
 @end

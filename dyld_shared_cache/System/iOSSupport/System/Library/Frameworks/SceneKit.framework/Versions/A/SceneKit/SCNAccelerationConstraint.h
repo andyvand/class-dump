@@ -9,13 +9,10 @@
 @interface SCNAccelerationConstraint : SCNConstraint
 {
     float _maximumLinearVelocity;
-    float _maximumLinearAcceleration;
-    float _decelerationDistance;
-    float _damping;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)unterRenderingError();
 - (void);
 - (void);
 - (void);
@@ -30,10 +27,7 @@
 - (void)ò;
 
 // Remaining properties
-@property(nonatomic) double damping;
-@property(nonatomic) double decelerationDistance;
 @property(nonatomic) double maximumLinearAcceleration;
-@property(nonatomic) double maximumLinearVelocity;
 
 @end
 

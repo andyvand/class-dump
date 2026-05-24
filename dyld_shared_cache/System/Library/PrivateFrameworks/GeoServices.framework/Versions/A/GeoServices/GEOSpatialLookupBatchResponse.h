@@ -10,45 +10,41 @@ __attribute__((visibility("hidden")))
 @interface GEOSpatialLookupBatchResponse
 {
     NSMutableArray *_responses;
-    int _statusCode;
-    CDStruct_ade9d5f7 _flags;
 }
 
-+ (Class);
-+ (_Bool)e:(id)arg1;
++ (Class)CNHashBuilder;
++ (_Bool)setMapsUseLastDate:(id)arg1;
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)initWithEntity:uniqueId:insertIntoManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_voiceTriggerEventInfo;
+- (void)ord type for context whose record type previously is set to unspecified for accessory %{private}@.;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id)0@48I56@60@68@76;
-- (id)IsLabelingShown;
-- (id)OPDTextBlock;
-- (id)CTION_CONTENT_TYPE_UNKNOWN;
+- (id)hasIsLabelingShown;
+- (id)GEOPDTextBlock;
+- (id)SEARCH_SECTION_CONTENT_TYPE_UNKNOWN;
 - (void);
 - (int)3;
 - (void)¸ã	ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool hasStatusCode;
-@property(retain, nonatomic) NSMutableArray *responses;
-@property(nonatomic) int statusCode;
 
 @end
 

@@ -4,39 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLFindMyAccessoryFragmentAccumulator, NSObject;
-@protocol CLFindMyAccessoryManagerDelegate, OS_dispatch_queue;
+@protocol CLFindMyAccessoryManagerDelegate;
 
 @interface CLFindMyAccessoryManager
 {
     id <CLFindMyAccessoryManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    struct unique_ptr<CLConnectionClient, std::default_delete<CLConnectionClient>> _connection;
-    CLFindMyAccessoryFragmentAccumulator *_accumulator;
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)Z;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)Z;
+- (void)Z;
+- (void)BM;
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)q;
 - (void);
+- (void);
+- (void)Y~;
+- (void);
+- (void)};
 - (void);
 - (void);
 - (void);
@@ -47,6 +54,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,10 +86,14 @@
 - (void);
 - (void);
 - (void);
+- (void)P;
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -89,30 +101,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)eCodec to true
+;
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)*%@xT*;
 - (void);
-- (void);
-- (void);
+- (void)setClients: /* Error: Ran out of types for this method. */;
 - (void)N,V_altitudeStitchingEnabled;
 - (id)ãÿ;
 

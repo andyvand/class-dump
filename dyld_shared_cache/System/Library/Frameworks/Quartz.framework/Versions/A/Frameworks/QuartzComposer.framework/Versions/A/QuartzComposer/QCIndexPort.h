@@ -9,9 +9,6 @@
 @interface QCIndexPort : QCPort
 {
     unsigned long long _index;
-    unsigned long long _maxIndex;
-    unsigned long long _minIndex;
-    void *_unused3[3];
 }
 
 + (Class);
@@ -23,7 +20,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (CDStruct_bdcb2b0d);
+- (CDStruct_60067b7e);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -31,8 +28,8 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (id);
 - (Class)Dèà;
 

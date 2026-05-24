@@ -7,8 +7,6 @@
 @interface SwiftUI.CachedDropSession
 {
     id value;
-    id promises;
-    id dropProposal;
 }
 
 @end

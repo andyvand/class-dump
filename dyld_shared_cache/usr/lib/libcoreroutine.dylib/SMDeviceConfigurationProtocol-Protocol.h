@@ -5,5 +5,6 @@
 //
 
 @protocol SMDeviceConfigurationProtocol
+- (void);
 @end
 

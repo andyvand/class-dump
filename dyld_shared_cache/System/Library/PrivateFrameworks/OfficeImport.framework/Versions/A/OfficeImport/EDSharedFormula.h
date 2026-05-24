@@ -6,16 +6,10 @@
 
 #import <OfficeImport/EDFormula.h>
 
-@class EDReference;
-
 __attribute__((visibility("hidden")))
 @interface EDSharedFormula : EDFormula
 {
     _Bool _forceNonBaseFormula;
-    int _rowBaseOrOffset;
-    int _columnBaseOrOffset;
-    unsigned long long _baseFormulaIndex;
-    EDReference *_baseFormulaRange;
 }
 
 - (id);
@@ -26,7 +20,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)�
+;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -42,10 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long baseFormulaIndex; // @synthesize baseFormulaIndex=_baseFormulaIndex;
-@property(readonly, nonatomic) EDReference *baseFormulaRange; // @synthesize baseFormulaRange=_baseFormulaRange;
-@property(nonatomic) int columnBaseOrOffset; // @synthesize columnBaseOrOffset=_columnBaseOrOffset;
-@property(nonatomic) _Bool forceNonBaseFormula; // @synthesize forceNonBaseFormula=_forceNonBaseFormula;
-@property(nonatomic) int rowBaseOrOffset; // @synthesize rowBaseOrOffset=_rowBaseOrOffset;
 
 @end
 

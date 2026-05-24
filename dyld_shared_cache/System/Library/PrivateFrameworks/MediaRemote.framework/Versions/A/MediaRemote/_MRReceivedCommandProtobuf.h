@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRCommandOptionsProtobuf, _MRNowPlayingPlayerPathProtobuf, _MRReceivedCommandAppOptionsProtobuf;
-
 @interface _MRReceivedCommandProtobuf
 {
     long long _destinationAppProcessID;
-    _MRReceivedCommandAppOptionsProtobuf *_appOptions;
-    int _command;
-    NSString *_destinationAppDisplayID;
-    _MRCommandOptionsProtobuf *_options;
-    int _originUID;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    NSString *_remoteControlInterfaceID;
-    NSString *_senderAppDisplayID;
-    struct {
-        unsigned int destinationAppProcessID:1;
-        unsigned int command:1;
-        unsigned int originUID:1;
-    } _has;
 }
 
 - (void);
@@ -30,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -38,7 +23,7 @@
 - (int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)$;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,10 +34,10 @@
 - (id);
 - (int);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
 - (_Bool);
 - (id);
@@ -61,31 +46,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)marParseResult"8Q16^B24;
 - (void);
 - (int);
 - (void);
-- (void)Timestamp;
+- (void)_userActionTimestamp;
 
 // Remaining properties
-@property(retain, nonatomic) _MRReceivedCommandAppOptionsProtobuf *appOptions; // @synthesize appOptions=_appOptions;
-@property(nonatomic) int command; // @synthesize command=_command;
-@property(retain, nonatomic) NSString *destinationAppDisplayID; // @synthesize destinationAppDisplayID=_destinationAppDisplayID;
-@property(nonatomic) long long destinationAppProcessID; // @synthesize destinationAppProcessID=_destinationAppProcessID;
-@property(readonly, nonatomic) _Bool hasAppOptions;
 @property(nonatomic) _Bool hasCommand;
-@property(readonly, nonatomic) _Bool hasDestinationAppDisplayID;
-@property(nonatomic) _Bool hasDestinationAppProcessID;
-@property(readonly, nonatomic) _Bool hasOptions;
-@property(nonatomic) _Bool hasOriginUID;
-@property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(readonly, nonatomic) _Bool hasRemoteControlInterfaceID;
-@property(readonly, nonatomic) _Bool hasSenderAppDisplayID;
-@property(retain, nonatomic) _MRCommandOptionsProtobuf *options; // @synthesize options=_options;
-@property(nonatomic) int originUID; // @synthesize originUID=_originUID;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
-@property(retain, nonatomic) NSString *remoteControlInterfaceID; // @synthesize remoteControlInterfaceID=_remoteControlInterfaceID;
-@property(retain, nonatomic) NSString *senderAppDisplayID; // @synthesize senderAppDisplayID=_senderAppDisplayID;
 
 @end
 

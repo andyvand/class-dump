@@ -6,33 +6,17 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFHTTPClientConfiguration, HMFNetManager, HMFNetMonitor, HMFNetService, HMFTimer, NSObject, NSOperationQueue, NSString, NSURL, NSURLSession;
-@protocol HMFHTTPClientDelegate, OS_dispatch_queue;
+@class NSURLSession;
 
 @interface HMFHTTPClient : HMFObject
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _reachable;
-    _Bool _pinging;
-    _Bool _allowAnonymousConnection;
-    _Bool _active;
-    HMFHTTPClientConfiguration *_configuration;
-    NSURL *_baseURL;
-    id <HMFHTTPClientDelegate> _delegate;
-    HMFNetService *_netService;
-    NSURLSession *_session;
-    HMFNetMonitor *_reachabilityMonitor;
-    NSOperationQueue *_reachabilityProbeQueue;
-    HMFNetManager *_netManager;
-    HMFTimer *_delegatedPingTimer;
-    CDUnknownBlockType _timerFactory;
 }
 
 + (id);
 + (id)@ù
 × ;
-- (void);
+- (void)k;
 - (void);
 - (void);
 - (void);
@@ -56,21 +40,21 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)RU;
 - (id);
-- (void);
+- (void)HighlightGenerationSetup;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (CDUnknownBlockType);
+- (id)(;
+- (void)predictiveSelectionCount;
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -86,28 +70,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) _Bool allowAnonymousConnection; // @synthesize allowAnonymousConnection=_allowAnonymousConnection;
-@property(readonly, copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(readonly, copy) HMFHTTPClientConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMFHTTPClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) HMFTimer *delegatedPingTimer; // @synthesize delegatedPingTimer=_delegatedPingTimer;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMFNetManager *netManager; // @synthesize netManager=_netManager;
-@property(readonly, copy, nonatomic) HMFNetService *netService; // @synthesize netService=_netService;
-@property(readonly, nonatomic) unsigned long long options;
-@property(nonatomic, getter=isPinging) _Bool pinging; // @synthesize pinging=_pinging;
-@property(readonly, nonatomic) HMFNetMonitor *reachabilityMonitor; // @synthesize reachabilityMonitor=_reachabilityMonitor;
-@property(readonly, nonatomic) NSOperationQueue *reachabilityProbeQueue; // @synthesize reachabilityProbeQueue=_reachabilityProbeQueue;
-@property(nonatomic, getter=isReachable) _Bool reachable; // @synthesize reachable=_reachable;
 @property(readonly, nonatomic) NSURLSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
-@property(copy) CDUnknownBlockType timerFactory; // @synthesize timerFactory=_timerFactory;
 
 @end
 

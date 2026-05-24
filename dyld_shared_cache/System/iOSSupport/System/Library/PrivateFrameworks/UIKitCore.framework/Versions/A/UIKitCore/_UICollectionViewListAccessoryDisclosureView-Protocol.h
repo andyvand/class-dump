@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIControl, UIImage;
+@class UIControl;
 @protocol UITableConstants;
 
 @protocol _UICollectionViewListAccessoryDisclosureView
+- (void)%@ canonicalLoginID %@;
+- (void)?;
+- (_Bool);
 - (void (^)(void))0@ù
 × ;
 - (void)!`Cùñc1Â0@ù
 × ;
-- (id <UITableConstants>)sAreSimpleInsertWithOptionalMoveSequenceForIndexPath: /* Error: Ran out of types for this method. */;
-- (void);
+- (id <UITableConstants>)_shadowUpdatesAreSimpleInsertWithOptionalMoveSequenceForIndexPath: /* Error: Ran out of types for this method. */;
+- (void)MutableTraits;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *accessoryTintColor;
-@property(nonatomic) _Bool accessoryUsesMonochromaticTreatment;
-@property(copy, nonatomic) CDUnknownBlockType actionHandler;
-@property(retain, nonatomic) id <UITableConstants> constants;
 @property(readonly, nonatomic) UIControl *control;
-@property(retain, nonatomic) UIImage *image;
-@property(nonatomic) _Bool rotated;
-@property(nonatomic) double rotationAngle;
 @end
 

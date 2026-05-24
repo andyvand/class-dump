@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SFSpeechAnalyzer;
+
 @protocol SFSpeechAnalyzerLanguageDetectorResultDelegate
+- (void)setProviders:(SFSpeechAnalyzer *)arg1;
+- (void)setPrivateMacUnderClassification:(SFSpeechAnalyzer *)arg1;
 @end
 

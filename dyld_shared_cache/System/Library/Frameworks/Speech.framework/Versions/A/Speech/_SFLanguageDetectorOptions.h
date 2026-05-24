@@ -9,29 +9,23 @@
 @interface _SFLanguageDetectorOptions
 {
     _Bool _useVAD;
-    NSArray *_languageConstraints;
-    long long _alternativesCount;
-    long long _resultReportingFrequency;
 }
 
-+ (_Bool);
++ (_Bool)t/;
 - (long long);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_renderer:(id)arg1 didApplyAnimationsAtTime: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (long long);
+- (long long)SArray",&,N,V_upstreams;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long alternativesCount; // @synthesize alternativesCount=_alternativesCount;
 @property(readonly, copy, nonatomic) NSArray *languageConstraints; // @synthesize languageConstraints=_languageConstraints;
-@property(readonly, nonatomic) long long resultReportingFrequency; // @synthesize resultReportingFrequency=_resultReportingFrequency;
-@property(readonly, nonatomic) _Bool useVAD; // @synthesize useVAD=_useVAD;
 
 @end
 

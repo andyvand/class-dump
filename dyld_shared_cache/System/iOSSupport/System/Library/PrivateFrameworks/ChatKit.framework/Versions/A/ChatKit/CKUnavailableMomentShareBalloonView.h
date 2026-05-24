@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (id);
+- (id)putDelegate>"16@0:(struct CGRect)arg1 8;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKUnavailableMomentShareBalloonViewDelegate> delegate; // @dynamic delegate;

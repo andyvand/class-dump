@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMDXPCEventStreamHandler
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMapTable *_delegateToQueue;
 }
 
 - (id);
 - (void);
+- (void)_IPMDServerClientWrapperLegacy attributesForCharacterIndex:(id)arg1 lineHeightRectangle:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id)TTSMacroLanguageDisambiguationMapping;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *delegateToQueue; // @synthesize delegateToQueue=_delegateToQueue;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

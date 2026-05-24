@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIExperimentIdentifiers, TRIRolloutIdentifiers;
+@class TRIExperimentIdentifiers;
 
 @interface _PSFTZKWTrialData
 {
     _Bool _structuredCalendarIsEnabled;
-    _Bool _unstructuredCalendarIsEnabled;
-    _Bool _unstructuredRemindersIsEnabled;
-    _Bool _primaryInteractionsIsEnabled;
-    _Bool _fallbackInteractionsIsEnabled;
-    TRIExperimentIdentifiers *_experimentIdentifiers;
-    TRIRolloutIdentifiers *_rolloutIdentifiers;
-    long long _structuredCalendarDefaultConfidenceCategory;
-    long long _unstructuredCalendarDefaultConfidenceCategory;
-    long long _unstructuredRemindersDefaultConfidenceCategory;
-    long long _primaryInteractionsDefaultConfidenceCategory;
-    long long _primaryInteractionsModelType;
-    long long _fallbackInteractionsDefaultConfidenceCategory;
-    long long _fallbackInteractionsModelType;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -45,31 +32,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)DAF'
+;
+- (void)
+;
 - (void);
 - (long long);
 - (id);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)!;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) TRIExperimentIdentifiers *experimentIdentifiers; // @synthesize experimentIdentifiers=_experimentIdentifiers;
-@property(nonatomic) long long fallbackInteractionsDefaultConfidenceCategory; // @synthesize fallbackInteractionsDefaultConfidenceCategory=_fallbackInteractionsDefaultConfidenceCategory;
-@property(nonatomic) _Bool fallbackInteractionsIsEnabled; // @synthesize fallbackInteractionsIsEnabled=_fallbackInteractionsIsEnabled;
-@property(nonatomic) long long fallbackInteractionsModelType; // @synthesize fallbackInteractionsModelType=_fallbackInteractionsModelType;
-@property(nonatomic) long long primaryInteractionsDefaultConfidenceCategory; // @synthesize primaryInteractionsDefaultConfidenceCategory=_primaryInteractionsDefaultConfidenceCategory;
-@property(nonatomic) _Bool primaryInteractionsIsEnabled; // @synthesize primaryInteractionsIsEnabled=_primaryInteractionsIsEnabled;
-@property(nonatomic) long long primaryInteractionsModelType; // @synthesize primaryInteractionsModelType=_primaryInteractionsModelType;
-@property(copy, nonatomic) TRIRolloutIdentifiers *rolloutIdentifiers; // @synthesize rolloutIdentifiers=_rolloutIdentifiers;
-@property(nonatomic) long long structuredCalendarDefaultConfidenceCategory; // @synthesize structuredCalendarDefaultConfidenceCategory=_structuredCalendarDefaultConfidenceCategory;
-@property(nonatomic) _Bool structuredCalendarIsEnabled; // @synthesize structuredCalendarIsEnabled=_structuredCalendarIsEnabled;
-@property(nonatomic) long long unstructuredCalendarDefaultConfidenceCategory; // @synthesize unstructuredCalendarDefaultConfidenceCategory=_unstructuredCalendarDefaultConfidenceCategory;
-@property(nonatomic) _Bool unstructuredCalendarIsEnabled; // @synthesize unstructuredCalendarIsEnabled=_unstructuredCalendarIsEnabled;
-@property(nonatomic) long long unstructuredRemindersDefaultConfidenceCategory; // @synthesize unstructuredRemindersDefaultConfidenceCategory=_unstructuredRemindersDefaultConfidenceCategory;
-@property(nonatomic) _Bool unstructuredRemindersIsEnabled; // @synthesize unstructuredRemindersIsEnabled=_unstructuredRemindersIsEnabled;
 
 @end
 

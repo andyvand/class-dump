@@ -6,33 +6,32 @@
 
 #import <AppKit/NSAppearance.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSCompositeAppearance : NSAppearance
 {
     NSArray *_appearances;
-    NSString *_compositeName;
-    NSAppearance *_pushButtonAppearance;
 }
 
-+ (id);
++ (id)orage Journaling On;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)URLProtocol:(id)arg1 wasRedirectedToRequest:redirectResponse: /* Error: Ran out of types for this method. */;
+- (id)ingleton;
+- (id)er needed;
 - (_Bool);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (double);
+- (unsigned long long)strongConn;
+- (double)bodyStartProvidingData_block_invoke;
 - (_Bool);
-- (_Bool);
+- (_Bool)?
+;
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
@@ -41,32 +40,31 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (id);
-- (int);
+- (int);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (void);
-- (double);
+- (double);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (double)× ;
-- (id)AlternateContent;
-- (id)ed:scrollPosition:notifyDelegate: /* Error: Ran out of types for this method. */;
-- (id)sAndPath;
-- (void)ontTrait:(id)arg1 4;
+- (id)prefersAlternateContent;
+- (id)_highlightItemAtIndexPath:animated:scrollPosition:notifyDelegate: /* Error: Ran out of types for this method. */;
+- (id)NSWindowPreferCornerRadiusAndPath;
+- (void)removeFontTrait:(id)arg1 4;
 - (id);
 
 // Remaining properties
 @property(copy) NSArray *appearances;
-@property(copy) NSString *name;
 
 @end
 

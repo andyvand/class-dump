@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface SLGoogleLegacyTokenMigrationResponse
 {
     long long _statusCode;
-    NSError *_error;
-    NSString *_responseBody;
 }
 
-- (id);
-- (id);
+- (id)R;
+- (id)_ios_meContactIdentifierWithError: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long).login.yahoo.com/oauth2/get_token;
 
 // Remaining properties
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) NSString *responseBody; // @synthesize responseBody=_responseBody;
 @property(readonly) long long statusCode; // @synthesize statusCode=_statusCode;
 
 @end

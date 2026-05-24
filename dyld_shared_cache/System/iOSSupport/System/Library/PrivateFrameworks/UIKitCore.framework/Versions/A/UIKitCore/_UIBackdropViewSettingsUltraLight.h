@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)IMDBroadcastController;
 - (void);
 - (void);
-- (void)ontentViewDidChangeDesiredHeight: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
+- (void)navigationBarContentViewDidChangeDesiredHeight: /* Error: Ran out of types for this method. */;
+- (void)_closestState:(id)arg1;
 
 @end
 

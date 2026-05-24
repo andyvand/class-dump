@@ -6,7 +6,7 @@
 
 #import <SceneKit/SCNPhysicsBehavior.h>
 
-@class SCNPhysicsBody, SCNPhysicsWorld;
+@class SCNPhysicsBody;
 
 @interface SCNPhysicsSliderJoint : SCNPhysicsBehavior
 {
@@ -26,13 +26,11 @@
         double motorTargetAngularVelocity;
         double motorMaximumTorque;
     } _definition;
-    struct btSliderConstraint *_constraint;
-    SCNPhysicsWorld *_world;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)toFillJavaScriptInjectionController blurControls:inFrame:webView:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -59,7 +57,7 @@
 - (id);
 - (struct SCNVector3);
 - (struct SCNVector3);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct SCNVector3);
@@ -69,20 +67,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct SCNVector3 anchorA;
-@property(nonatomic) struct SCNVector3 anchorB;
-@property(nonatomic) struct SCNVector3 axisA;
-@property(nonatomic) struct SCNVector3 axisB;
 @property(readonly, nonatomic) SCNPhysicsBody *bodyA;
-@property(readonly, nonatomic) SCNPhysicsBody *bodyB;
-@property(nonatomic) double maximumAngularLimit;
-@property(nonatomic) double maximumLinearLimit;
-@property(nonatomic) double minimumAngularLimit;
-@property(nonatomic) double minimumLinearLimit;
-@property(nonatomic) double motorMaximumForce;
-@property(nonatomic) double motorMaximumTorque;
-@property(nonatomic) double motorTargetAngularVelocity;
-@property(nonatomic) double motorTargetLinearVelocity;
 
 @end
 

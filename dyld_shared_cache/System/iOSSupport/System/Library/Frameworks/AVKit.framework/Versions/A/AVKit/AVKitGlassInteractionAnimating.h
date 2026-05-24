@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)!Fù[Ð1Â0@ù
 × ;
-- (void)entationContainerViewLayer;
+- (void)AVPresentationContainerViewLayer;
 
 // Remaining properties
 @property(retain, nonatomic) id <UIContextMenuInteractionAnimating> wrappedAnimator; // @synthesize wrappedAnimator=_wrappedAnimator;

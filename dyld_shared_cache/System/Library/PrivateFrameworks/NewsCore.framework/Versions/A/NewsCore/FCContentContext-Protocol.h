@@ -4,14 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleController, FCAssetManager, FCFeedDatabase, FCFlintResourceManager, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, FCTagController, NSString, NSURL;
-@protocol FCAVAssetFactoryType, FCAVAssetPrewarming, FCBackgroundTaskable, FCContentContextInternal, FCCoreConfigurationManager, FCFeedItemFactoryType, FCMagazinesConfigurationManager, FCNetworkReachabilityType, FCNewsAppConfigurationManager, FCPPTContext, FCRecipeItemFactoryType;
+@class FCFeedDatabase, FCFlintResourceManager, FCPuzzleController, FCPuzzleTypeController, FCSportsEventController, NSString, NSURL;
+@protocol FCAVAssetFactoryType, FCCoreConfigurationManager, FCFeedItemFactoryType, FCJSONRecordSourceType, FCJSONRecordTreeSourceType, FCMagazinesConfigurationManager, FCNetworkReachabilityType, FCPPTContext, FCRecipeItemFactoryType;
 
 @protocol FCContentContext
-- (void)llTitle;
+- (id <FCCoreConfigurationManager>);
+- (id <FCJSONRecordTreeSourceType>)lockProtocol>";
+- (id <FCJSONRecordSourceType>)gger init]_block_invoke_2;
+- (NSString *)ShortcutToFront:handler:] /* Error: Ran out of types for this method. */;
+- (NSURL *)n transfered:%@ /* Error: Ran out of types for this method. */;
+- (void)_channelPaywallTitle;
 - (NSString *)R,C,N,V_topicIDs;
 - (FCFlintResourceManager *);
-- (FCFeedDatabase *)onalizationConfiguration;
+- (FCFeedDatabase *)statelessPersonalizationConfiguration;
 - (NSString *);
 - (id <FCFeedItemFactoryType>)score cache is missing %lu of %lu requested feed item scores, context=%{public}@;
 - (id <FCRecipeItemFactoryType>)for newsletters, invalid URL;
@@ -23,40 +28,10 @@
 - (id <FCNetworkReachabilityType>)ng the marketing notifications switch from:%d to:%d /* Error: Ran out of types for this method. */;
 - (FCSportsEventController *)her should fetch changes due to missing access model;
 - (void)rror=%{public}@;
-- (FCPuzzleController *)Assembly;
+- (FCPuzzleController *)ManagerAssembly;
 - (NSString *)¨¦;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager;
-@property(readonly, nonatomic) FCArticleController *articleController;
-@property(readonly, nonatomic) NSURL *assetCacheDirectoryURL;
-@property(readonly, nonatomic) FCAssetManager *assetManager;
-@property(readonly, nonatomic) id <FCAVAssetFactoryType> avAssetFactory;
-@property(readonly, nonatomic) id <FCAVAssetPrewarming> avAssetPrewarmer;
-@property(readonly, nonatomic) __weak id <FCBackgroundTaskable> backgroundTaskable;
-@property(readonly, nonatomic) id <FCCoreConfigurationManager> configurationManager;
-@property(readonly, copy, nonatomic) NSString *contentDirectory;
-@property(readonly, copy, nonatomic) NSString *contentEnvironment;
-@property(readonly, copy, nonatomic) NSString *contentEnvironmentToken;
-@property(readonly, nonatomic) NSURL *contentHostDirectoryURL;
 @property(readonly, copy, nonatomic) NSString *contentStoreFrontID;
-@property(readonly, nonatomic) FCFeedDatabase *feedDatabase;
-@property(readonly, nonatomic) id <FCFeedItemFactoryType> feedItemFactory;
-@property(readonly, nonatomic) FCFlintResourceManager *flintResourceManager;
-@property(readonly, nonatomic) id <FCContentContextInternal> internalContentContext;
-@property(readonly, nonatomic) id <FCNetworkReachabilityType> networkReachability;
-@property(readonly, nonatomic) id <FCPPTContext> pptContext;
-@property(readonly, nonatomic) FCPuzzleController *puzzleController;
-@property(readonly, nonatomic) FCPuzzleTypeController *puzzleTypeController;
-@property(readonly, nonatomic) id <FCRecipeItemFactoryType> recipeItemFactory;
-@property(readonly, nonatomic) FCSportsEventController *sportsEventController;
-@property(readonly, nonatomic) long long storageSize;
-@property(readonly, copy, nonatomic) NSString *supportedContentStoreFrontID;
-@property(readonly, copy, nonatomic) NSString *tabiModelsContentDirectory;
-@property(readonly, copy, nonatomic) NSString *tabiModelsContentDirectoryLegacy;
-@property(readonly, copy, nonatomic) NSString *tabiRequestsContentDirectory;
-@property(readonly, copy, nonatomic) NSString *tabiResourcesContentDirectory;
-@property(readonly, copy, nonatomic) NSString *tabiResourcesContentDirectoryLegacy;
-@property(readonly, nonatomic) FCTagController *tagController;
 @end
 

@@ -14,7 +14,7 @@
 + (_Bool);
 + (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)_adjustedPlaylistPropertySeedItemsOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _SNTimeDurationConstraint;
+@class _SNTimeDurationConstraint;
 
 @interface SNTimeDurationConstraint
 {
@@ -18,7 +18,7 @@
 - (CDStruct_3c1748cc);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)relay:sendCancel:toPerson:account: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -27,8 +27,6 @@
 - (id)ySfGG©ó6G;
 
 // Remaining properties
-@property(readonly) CDStruct_3c1748cc durationRange;
-@property(readonly) NSArray *enumeratedDurations;
 @property(readonly) long long type;
 
 @end

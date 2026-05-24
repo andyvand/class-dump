@@ -9,7 +9,6 @@
 @interface ABMapsLauncher
 {
     ABMapsLaunchRequest *_launchRequest;
-    ABMapsLauncher *_nextLauncher;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ABMapsLaunchRequest *launchRequest; // @synthesize launchRequest=_launchRequest;
-@property(readonly, nonatomic) ABMapsLauncher *nextLauncher; // @synthesize nextLauncher=_nextLauncher;
 
 @end
 

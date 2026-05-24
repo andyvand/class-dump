@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKDrawingPaletteView, PKPaletteHostView;
+@class PKPaletteHostView;
 @protocol PKPaletteViewControllerDelegate;
 
 @interface PKPaletteViewController
 {
     PKPaletteHostView *_hostView;
-    id <PKPaletteViewControllerDelegate> _delegate;
-    PKDrawingPaletteView *_paletteView;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <PKPaletteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) PKPaletteHostView *paletteHostView;
-@property(readonly, nonatomic) PKDrawingPaletteView *paletteView; // @synthesize paletteView=_paletteView;
 
 @end
 

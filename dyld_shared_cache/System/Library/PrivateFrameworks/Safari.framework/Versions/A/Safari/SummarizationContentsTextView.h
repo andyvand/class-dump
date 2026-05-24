@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGSize);
+- (struct CGSize)markReadForMessageGUID:callerOrigin:queryID: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol IMAPGetMessagesOperationDelegate
+- (void);
 @end
 

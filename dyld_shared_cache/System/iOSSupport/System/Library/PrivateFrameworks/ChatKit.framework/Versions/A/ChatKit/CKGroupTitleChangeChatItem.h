@@ -12,8 +12,8 @@
 {
 }
 
-- (id);
-- (_Bool);
+- (id)So12ICAttachmentC13subattachment_t;
+- (_Bool)ength;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -22,8 +22,6 @@
 - (id)GSgAByAcDyAfJGACGAByAcDyADyDD]yAFG¦\ySbGGAJGACGtG;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *errorText;
-@property(readonly, nonatomic) _Bool failed;
 @property(readonly, nonatomic) NSString *title;
 
 @end

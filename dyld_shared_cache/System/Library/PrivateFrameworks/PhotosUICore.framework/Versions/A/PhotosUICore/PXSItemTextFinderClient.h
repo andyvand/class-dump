@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PXSItem;
-@protocol PXSItemFinderClient;
+@class NSArray, PXSItem;
 
 @interface PXSItemTextFinderClient
 {
     PXSItem *_rootItem;
-    id <PXSItemFinderClient> _client;
-    NSArray *_tokens;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -27,54 +24,17 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id)
 × ;
 - (void)!Gùñ;°1Â0@ù
 × ;
-- (void)vigationBarBlurInCollections;
+- (void)enableNavigationBarBlurInCollections;
 - (_Bool)(>;
 - (void)P =;
 
 // Remaining properties
-@property(readonly) _Bool allowsMultipleSelection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(nonatomic) __weak id <PXSItemFinderClient> client; // @synthesize client=_client;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isEditable) _Bool editable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisEditable
-
-@property(readonly) struct _NSRange firstSelectedRange;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{_NSRange=QQ},?,R
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXSItem *rootItem; // @synthesize rootItem=_rootItem;
-@property(readonly, getter=isSelectable) _Bool selectable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisSelectable
-
-@property(copy) NSArray *selectedRanges;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,C
-
-@property(readonly) NSString *string;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
-@property(readonly, copy) NSArray *visibleCharacterRanges;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C
-
 
 @end
 

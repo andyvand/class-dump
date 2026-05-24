@@ -11,7 +11,7 @@
     NSMutableArray *_array;
 }
 
-+ (id)ties: /* Error: Ran out of types for this method. */;
++ (id)setImageData:withDisplayProperties: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);

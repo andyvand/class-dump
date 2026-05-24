@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface DRSClientConnectionState
 {
     _Bool _hasAdminEntitlement;
-    int _pid;
-    NSString *_procName;
 }
 
 - (id);
-- (void);
+- (void)@;
 - (int);
 - (id);
 - (_Bool);
 - (void);
-- (id)UE: /* Error: Ran out of types for this method. */;
+- (id)updateContextWithRequest_ON_MOC_QUEUE: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasAdminEntitlement; // @synthesize hasAdminEntitlement=_hasAdminEntitlement;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) NSString *procName; // @synthesize procName=_procName;
-@property(readonly, nonatomic) NSString *stateDescription;
 
 @end
 

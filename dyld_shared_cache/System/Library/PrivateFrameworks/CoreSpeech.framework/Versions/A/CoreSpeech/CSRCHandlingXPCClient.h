@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 @interface CSRCHandlingXPCClient
 {
     NSXPCConnection *_rcXPCConnection;
-    NSObject<OS_dispatch_queue> *_xpcConnectionQueue;
-    id _remoteObjectProxy;
 }
 
 - (void);
@@ -24,15 +21,13 @@
 - (void);
 - (id);
 - (void);
-- (void)lePath: /* Error: Ran out of types for this method. */;
+- (void)faultPagesWithVaddr:mmapedSize:filePath: /* Error: Ran out of types for this method. */;
 - (void)igger:(id)arg1 deviceId:myriadPHash:myriadLateActivationExpirationTime:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)ts:(id)arg1 ];
 - (id)ùÿ-E;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *rcXPCConnection; // @synthesize rcXPCConnection=_rcXPCConnection;
-@property(retain, nonatomic) id remoteObjectProxy; // @synthesize remoteObjectProxy=_remoteObjectProxy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *xpcConnectionQueue; // @synthesize xpcConnectionQueue=_xpcConnectionQueue;
 
 @end
 

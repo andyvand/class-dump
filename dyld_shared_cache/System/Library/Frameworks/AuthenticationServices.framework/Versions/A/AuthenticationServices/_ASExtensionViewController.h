@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSExtension, NSExtensionContext, NSString, NSTimer, NSViewController;
-@protocol _ASExtensionHostContext;
+@class NSExtensionContext, NSViewController;
 
 @interface _ASExtensionViewController
 {
     NSViewController *_remoteViewController;
-    NSExtensionContext<_ASExtensionHostContext> *_nonUIHostContext;
-    NSTimer *_nonUIRequestTimer;
-    _Bool _allowRequestingUIFromNonUIRequest;
-    _Bool _dismissOnBackground;
-    NSDictionary *_userInfo;
-    NSExtension *_extension;
 }
 
 - (void);
@@ -39,17 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dismissOnBackground; // @synthesize dismissOnBackground=_dismissOnBackground;
-@property(readonly, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSExtensionContext *nonUIHostContext; // @synthesize nonUIHostContext=_nonUIHostContext;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

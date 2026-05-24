@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock;
-
 @interface IAPAudioCallbackInfo
 {
     CDUnknownFunctionPointerType _deviceStateChangedCallback;
-    void *_deviceStateChangedContext;
-    CDUnknownFunctionPointerType _volumeChangedCallback;
-    void *_volumeChangedContext;
-    CDUnknownFunctionPointerType _pauseOnHeadphoneDisconnectChangedCallback;
-    void *_pauseOnHeadphoneDisconnectChangedContext;
-    CDUnknownFunctionPointerType _volumeControlSupportChangedCallback;
-    void *_volumeControlSupportChangedContext;
-    NSLock *_lock;
 }
 
 + (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

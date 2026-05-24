@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)($;
 - (void);
 - (id);
 

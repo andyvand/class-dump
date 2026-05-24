@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, RFTextProperty;
+@class NSData, RFTextProperty;
 
 @protocol RFPrimaryHeaderStackedImageCardSection
+- (RFTextProperty *);
+- (void)B;
+- (RFTextProperty *)_dataDetectorsEnabled;
+- (NSData *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *images;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
 @end
 

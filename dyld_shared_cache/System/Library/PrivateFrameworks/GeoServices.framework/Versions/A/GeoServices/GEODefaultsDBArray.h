@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)log:(id)arg1;
++ (id)validateResource:(id)arg1 log: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)erter not existing, override triggerEndMachTime as NOW;
 - (void);
 - (unsigned long long)ª¬ªð« ªØ«°ªÀ«Àª¨««¤« «t;
 

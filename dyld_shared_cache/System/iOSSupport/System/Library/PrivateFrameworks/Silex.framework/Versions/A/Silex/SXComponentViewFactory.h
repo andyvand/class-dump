@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXViewport;
-@protocol SXComponentStyleRendererFactory, SXDOMObjectProviding, SXPresentationDelegateProvider;
+@protocol SXDOMObjectProviding;
 
 @interface SXComponentViewFactory
 {
     id <SXDOMObjectProviding> _DOMObjectProvider;
-    SXViewport *_viewport;
-    id <SXPresentationDelegateProvider> _presentationDelegateProvider;
-    id <SXComponentStyleRendererFactory> _componentStyleRendererFactory;
 }
 
 - (id);
@@ -22,23 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (int);
+- (int);
 - (void)SKScrollView"24;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;
-@property(readonly, nonatomic) id <SXComponentStyleRendererFactory> componentStyleRendererFactory; // @synthesize componentStyleRendererFactory=_componentStyleRendererFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXPresentationDelegateProvider> presentationDelegateProvider; // @synthesize presentationDelegateProvider=_presentationDelegateProvider;
-@property(readonly, nonatomic) int role;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *type;
-@property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end
 

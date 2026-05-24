@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class MDLObject, NSArray;
 
 @protocol MDLObjectContainerComponent
+- (NSArray *);
+- (MDLObject *)transformFailAllowedRotation;
 
 // Remaining properties
 @property(readonly) unsigned long long count;
-@property(readonly, retain, nonatomic) NSArray *objects;
 @end
 

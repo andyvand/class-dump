@@ -11,12 +11,12 @@
     UICubicTimingParameters *_springCubicTimingParameters;
 }
 
-+ (id);
++ (id)transcriptionProjectionModel;
 - (id);
 - (void);
+- (id)ace=}24Q32;
 - (id);
-- (id);
-- (void)cRepeatType;
+- (void)musicRepeatType;
 
 // Remaining properties
 @property(copy, nonatomic) UICubicTimingParameters *springCubicTimingParameters; // @synthesize springCubicTimingParameters=_springCubicTimingParameters;

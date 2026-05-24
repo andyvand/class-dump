@@ -7,11 +7,6 @@
 @interface WiFiAnalyticsAWDWiFiNWActivityPowerPStats
 {
     unsigned long long _kRadioPhyReportRxDur;
-    unsigned long long _kRadioPhyReportTxDur;
-    struct {
-        unsigned int kRadioPhyReportRxDur:1;
-        unsigned int kRadioPhyReportTxDur:1;
-    } _has;
 }
 
 - (void);
@@ -20,23 +15,20 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)unless you are running Tests then it's fine {class:%{public}@, self-idsOrdering:%@, other-idsOrdering:%@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)aluePair:(struct _NSZone *)arg1:insert(CFStringRef, const int64_t &) /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasKRadioPhyReportRxDur;
 @property(nonatomic) _Bool hasKRadioPhyReportTxDur;
-@property(nonatomic) unsigned long long kRadioPhyReportRxDur; // @synthesize kRadioPhyReportRxDur=_kRadioPhyReportRxDur;
-@property(nonatomic) unsigned long long kRadioPhyReportTxDur; // @synthesize kRadioPhyReportTxDur=_kRadioPhyReportTxDur;
 
 @end
 

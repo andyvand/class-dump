@@ -7,8 +7,6 @@
 @interface AXCoreUtilities.AXLongLivedEventLogger
 {
     id logFilePrefix;
-    id directory;
-    id queue;
 }
 
 @end

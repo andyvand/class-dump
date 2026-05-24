@@ -9,7 +9,6 @@
 @interface TUAudioRouteCollectionKey
 {
     NSString *_category;
-    NSString *_mode;
 }
 
 - (_Bool);
@@ -17,14 +16,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void)rProvider: /* Error: Ran out of types for this method. */;
+- (_Bool)y;
+- (id)(;
+- (id)(;
+- (void)momentsController:didUpdateCapabilities:forProvider: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, copy, nonatomic) NSString *mode; // @synthesize mode=_mode;
 
 @end
 

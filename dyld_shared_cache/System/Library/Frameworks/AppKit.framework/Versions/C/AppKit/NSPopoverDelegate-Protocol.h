@@ -5,5 +5,9 @@
 //
 
 @protocol NSPopoverDelegate
+
+@optional
+- (_Bool);
+- (void)gClient;
 @end
 

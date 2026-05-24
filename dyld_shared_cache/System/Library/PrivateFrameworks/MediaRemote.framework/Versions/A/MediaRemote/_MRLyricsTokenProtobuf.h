@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _MRLyricsTokenProtobuf
 {
     NSString *_identifier;
-    NSData *_userData;
 }
 
 - (_Bool);
@@ -23,17 +22,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)P;
+- (id)RecentConversationalMessages;
 - (id);
 - (_Bool);
-- (void)dPlayerPath;
+- (void)_onQueue_clearStateForUnresolvedPlayerPath;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasUserData;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSData *userData; // @synthesize userData=_userData;
 
 @end
 

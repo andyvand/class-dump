@@ -13,7 +13,7 @@
 
 - (double);
 - (void);
-- (id);
+- (id)4;
 - (void)DomainSelection"16;
 
 @end

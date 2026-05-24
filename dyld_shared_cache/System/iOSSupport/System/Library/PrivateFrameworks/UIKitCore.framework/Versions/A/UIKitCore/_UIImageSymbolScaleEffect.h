@@ -13,23 +13,23 @@
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id)CGRect={CGPoint=dd}{CGSize=dd}}32;
 + (_Bool)te type:%ld
  /* Error: Ran out of types for this method. */;
 - (void);
-- (long long);
+- (long long)x?;
 - (id);
-- (_Bool);
-- (long long);
-- (_Bool);
+- (_Bool)Ingesting new analysis data. change:%@ /* Error: Ran out of types for this method. */;
+- (long long):%@ isMainThread:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)unt:%p, ID:%@, Service:%@ > /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool)dgeConstraint;
-- (void)tiffness:(id)arg1;
+- (_Bool)trailingQuickActionViewEdgeConstraint;
+- (void)setDefaultStiffness:(id)arg1;
 - (id)B,N,V_maintainsFixedSize;
 - (void)L%')l,è.ø01L2;
 

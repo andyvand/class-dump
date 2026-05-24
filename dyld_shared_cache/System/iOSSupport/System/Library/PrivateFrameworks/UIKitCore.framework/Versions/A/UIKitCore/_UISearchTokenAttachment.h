@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool)ed.IconColor;
+- (id)isGroupConversation;
+- (id)8#2xo;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)r: /* Error: Ran out of types for this method. */;
+- (id)ckerArtistTableCell"8@"UIImage"16;
+- (id)_setIntentResolver: /* Error: Ran out of types for this method. */;
 - (id)keyboard;
 - (void);
 

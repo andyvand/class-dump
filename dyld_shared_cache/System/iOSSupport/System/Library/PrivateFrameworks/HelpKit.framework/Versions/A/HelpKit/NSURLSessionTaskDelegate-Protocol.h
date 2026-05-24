@@ -9,7 +9,9 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void):(NSURLSession *)arg1;
+- (void)minimumTemperature;
+- (void)setHomeIdentifierToMediaAccountMapping:(NSURLSession *)arg1;
+- (void)_tokenizeSearchTerm:(NSURLSession *)arg1;
 - (void)N;
 @end
 

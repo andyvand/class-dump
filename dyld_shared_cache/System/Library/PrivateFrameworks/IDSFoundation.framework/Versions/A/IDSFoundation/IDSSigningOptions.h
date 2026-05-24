@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSSigningKeyDiversifier;
-
 @interface IDSSigningOptions
 {
     unsigned int _keyType;
-    IDSSigningKeyDiversifier *_keyDiversifier;
 }
 
 + (_Bool);
@@ -17,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -28,7 +25,6 @@
 - (void)sionID:%@, FaceTime:YES, allowOnlyOneQR:%@, isInitiator:%@). /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) IDSSigningKeyDiversifier *keyDiversifier; // @synthesize keyDiversifier=_keyDiversifier;
 @property(nonatomic) unsigned int keyType; // @synthesize keyType=_keyType;
 
 @end

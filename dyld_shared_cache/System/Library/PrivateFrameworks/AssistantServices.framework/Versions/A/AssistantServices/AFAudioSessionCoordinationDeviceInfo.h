@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAudioSessionCoordinationSystemInfo, AFPeerInfo, NSString;
+@class AFPeerInfo;
 
 @interface AFAudioSessionCoordinationDeviceInfo
 {
     AFPeerInfo *_peerInfo;
-    AFAudioSessionCoordinationSystemInfo *_systemInfo;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)ntDate;
 - (id);
 - (id);
 - (id);
@@ -23,24 +22,16 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)wallpaperUpdatedHandler;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)tHandlingRecordMutation;
+- (void)_AFDeviceRequestHandlingRecordMutation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) AFPeerInfo *peerInfo; // @synthesize peerInfo=_peerInfo;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) AFAudioSessionCoordinationSystemInfo *systemInfo; // @synthesize systemInfo=_systemInfo;
 
 @end
 

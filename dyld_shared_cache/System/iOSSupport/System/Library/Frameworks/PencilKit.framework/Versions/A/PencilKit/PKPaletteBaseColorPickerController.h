@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIViewController;
-@protocol PKPaletteColorPicker, PKPaletteColorPickerControllerDelegate;
+@protocol PKPaletteColorPicker;
 
 @interface PKPaletteBaseColorPickerController
 {
     _Bool _supportsAlpha;
-    id <PKPaletteColorPicker> _colorPicker;
-    UIViewController *_viewController;
-    id <PKPaletteColorPickerControllerDelegate> _delegate;
-    UIColor *_selectedColor;
-    long long _colorUserInterfaceStyle;
 }
 
 - (void);
@@ -30,24 +24,11 @@
 - (void);
 - (id);
 - (id);
-- (void)Document;
+- (void)isAtBeginningOfDocument;
 - (void)$;
 
 // Remaining properties
-@property(nonatomic) double colorMaximumLinearExposure;
 @property(readonly, nonatomic) id <PKPaletteColorPicker> colorPicker; // @synthesize colorPicker=_colorPicker;
-@property(nonatomic) long long colorUserInterfaceStyle; // @synthesize colorUserInterfaceStyle=_colorUserInterfaceStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPaletteColorPickerControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UIColor *selectedColor; // @synthesize selectedColor=_selectedColor;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsAlpha; // @synthesize supportsAlpha=_supportsAlpha;
-@property(readonly, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

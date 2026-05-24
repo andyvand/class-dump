@@ -9,7 +9,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id asset;
-@property(readonly, nonatomic) id assetCollection;
-@property(readonly, nonatomic) struct PXSimpleIndexPath simpleIndexPath;
 @end
 

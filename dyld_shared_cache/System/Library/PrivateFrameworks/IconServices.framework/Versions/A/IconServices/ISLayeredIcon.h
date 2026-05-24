@@ -6,26 +6,24 @@
 
 #import <IconServices/ISConcreteIcon.h>
 
-@class ISImageCache, NSArray, NSString;
+@class NSArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface ISLayeredIcon : ISConcreteIcon
 {
     NSString *_typeIdentifier;
-    NSArray *_layerGroups;
-    ISImageCache *_imageCache;
 }
 
-+ (_Bool);
++ (_Bool)A;
+- (id);
+- (void);
+- (void)QueryFragment}qq^?^v}16^{__CFArray=}24;
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)IntrinsicMatrixExtensionsRadialDistortionK1;
+- (id)R;
 - (unsigned long long);
 - (void);
 - (id);
@@ -34,13 +32,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)6;
 - (id);
 
 // Remaining properties
-@property(retain) ISImageCache *imageCache; // @synthesize imageCache=_imageCache;
 @property(retain) NSArray *layerGroups; // @synthesize layerGroups=_layerGroups;
-@property(readonly) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
 
 @end
 

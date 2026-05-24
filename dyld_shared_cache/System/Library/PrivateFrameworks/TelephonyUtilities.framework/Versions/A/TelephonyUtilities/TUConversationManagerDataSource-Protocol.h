@@ -4,27 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-@protocol TUConversationManagerDataSourceDelegate, TUConversationMediaControllerDataSourceDelegate, TUConversationReactionsControllerDataSourceDelegate;
+@class NSDictionary, NSSet, TUConversationActivitySession;
+@protocol TUConversationMediaControllerDataSourceDelegate;
 
 @protocol TUConversationManagerDataSource
-- (void)sation:(_Bool)arg1 device:(void (^)(NSSet *, NSError *))arg2 pullContext:completion: /* Error: Ran out of types for this method. */;
+- (void)J;
+- (void)(:(TUConversationActivitySession *)arg1;
+- (_Bool);
+- (id <TUConversationMediaControllerDataSourceDelegate>)qA;
+- (void)h
+;
+- (NSSet *);
+- (void);
+- (void);
+- (NSDictionary *);
+- (void)h;
+- (void)x;
+- (void);
+- (void)#;
+- (void)hB;
+- (void)(;
+- (void)T:(void (^)(id <TUScreenShareAttributes>))arg1;
+- (void)*;
+- (void);
+- (void);
+- (_Bool)ocompleteFetchRequest"24@?<v@?@"NSArray"@"NSError">32;
+- (void)H6r;
+- (void)approveSplitSessionForConversation:(_Bool)arg1 device:(void (^)(NSSet *, NSError *))arg2 pullContext:completion: /* Error: Ran out of types for this method. */;
 - (void)_isSuggested;
 - (void)@"NSDate",C,N,V_deviceSetupDate;
 - (_Bool)g shouldSuppressInCallStatusBar=%d through CSD;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *activatedConversationLinks;
-@property(readonly, copy, nonatomic) NSDictionary *activityAuthorizedBundleIdentifiers;
 @property(readonly, copy, nonatomic) NSDictionary *advertisementsOnSystem;
-@property(nonatomic) _Bool autoSharePlayEnabled;
-@property(readonly, copy, nonatomic) NSDictionary *conversationsByGroupUUID;
-@property(nonatomic) __weak id <TUConversationManagerDataSourceDelegate> delegate;
-@property(readonly, copy, nonatomic) NSDictionary *incomingPendingConversationsByGroupUUID;
-@property(readonly, nonatomic) _Bool isScreenSharingAvailable;
-@property(readonly, nonatomic) _Bool isSharePlayAvailable;
-@property(nonatomic) __weak id <TUConversationMediaControllerDataSourceDelegate> mediaDelegate;
-@property(readonly, copy, nonatomic) NSDictionary *pseudonymsByCallUUID;
-@property(nonatomic) __weak id <TUConversationReactionsControllerDataSourceDelegate> reactionsDelegate;
 @end
 

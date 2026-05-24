@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)ple.LinkPresentation.iTunesStoreInformation;
 - (_Bool);
 - (void);
 

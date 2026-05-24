@@ -5,5 +5,6 @@
 //
 
 @protocol _SGDSuggestManagerEventsConfirmRejectProtocol
+- (void)documentLanguageIdentifier;
 @end
 

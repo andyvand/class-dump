@@ -6,26 +6,15 @@
 
 #import <GameController/_GCDevicePhysicalInputElement.h>
 
-@class NSSet, NSString;
-@protocol GCSwitchPositionInput;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputSwitchElement : _GCDevicePhysicalInputElement
 {
     unsigned long long _sourcesSlot;
-    unsigned long long _canWrapSlot;
-    unsigned long long _isSequentialSlot;
-    unsigned long long _positionMinSlot;
-    unsigned long long _positionMaxSlot;
-    unsigned long long _positionFieldSlot;
-    unsigned long long _positionChangedHandlerSlot;
-    unsigned long long _positionSlot;
-    unsigned long long _timestampSlot;
 }
 
 + (unsigned short);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -35,34 +24,16 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)+;
 - (_Bool);
 - (id);
-- (id);
+- (id));
 - (id);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSSet *aliases;
-@property(readonly) _Bool canWrap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) double lastPositionLatency;
-@property(readonly) double lastPositionTimestamp;
-@property(readonly, copy) NSString *localizedName;
-@property(readonly) long long position;
 @property(copy) CDUnknownBlockType positionDidChangeHandler;
-@property(readonly) id <GCSwitchPositionInput> positionInput;
-@property(readonly) struct _NSRange positionRange;
-@property(readonly, getter=isSequential) _Bool sequential;
-@property(readonly, copy) NSString *sfSymbolsName;
-@property(readonly, copy) NSSet *sources;
-@property(readonly) Class superclass;
 
 @end
 

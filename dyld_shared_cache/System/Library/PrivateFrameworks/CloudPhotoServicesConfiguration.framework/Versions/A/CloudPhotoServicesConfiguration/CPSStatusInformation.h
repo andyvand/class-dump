@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CPSStatusInformation
 {
     NSDictionary *_statusInformation;
-    long long _serviceDataVersion;
 }
 
 - (void);
@@ -26,19 +25,11 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)#;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long serviceDataVersion; // @synthesize serviceDataVersion=_serviceDataVersion;
 @property(retain) NSDictionary *statusInformation; // @synthesize statusInformation=_statusInformation;
-@property(readonly) Class superclass;
 
 @end
 

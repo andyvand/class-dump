@@ -5,9 +5,9 @@
 //
 
 @protocol _INPBStartCallRequestMetadata
+- (_Bool)Aj;
 
 // Remaining properties
 @property(nonatomic) _Bool appInferred;
-@property(nonatomic) _Bool hasAppInferred;
 @end
 

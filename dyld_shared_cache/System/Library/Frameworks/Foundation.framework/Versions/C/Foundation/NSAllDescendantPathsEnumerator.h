@@ -6,28 +6,19 @@
 
 #import <Foundation/NSDirectoryEnumerator.h>
 
-@class NSArray, NSFileAttributes, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSAllDescendantPathsEnumerator : NSDirectoryEnumerator
 {
     NSString *path;
-    NSArray *contents;
-    unsigned long long idx;
-    NSString *prepend;
-    NSAllDescendantPathsEnumerator *under;
-    NSFileAttributes *directoryAttributes;
-    NSString *pathToLastReportedItem;
-    unsigned long long depth;
-    _Bool cross;
-    char _padding[3];
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)fwlbflahftsputavtcjcsvbaswlbnlahserpstspTLFDntal;
 - (id);
 - (id);
 - (_Bool);

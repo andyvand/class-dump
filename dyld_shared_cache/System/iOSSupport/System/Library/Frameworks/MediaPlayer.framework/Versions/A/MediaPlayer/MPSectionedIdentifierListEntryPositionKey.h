@@ -10,23 +10,21 @@ __attribute__((visibility("hidden")))
 @interface MPSectionedIdentifierListEntryPositionKey
 {
     NSString *_deviceIdentifier;
-    NSString *_generation;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id), __strong dispatch_queue_t, __strong IMSPIMessageQueryCallback);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)İ;
 - (long long);
-- (id);
-- (void)PING_MISSING__;
+- (id)file_chunk_error;
+- (void)__MPModelRelationshipLibraryPinArtist__MAPPING_MISSING__;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(copy, nonatomic) NSString *generation; // @synthesize generation=_generation;
 
 @end
 

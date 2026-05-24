@@ -4,56 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHCTCRecognitionModel, CHCornerDetector, CHDrawing, CHMecabraWrapper, CHPatternNetwork, CHPostProcessingManager, CHRecognitionInsight, CHRecognitionInsightRequest, CHRecognizerConfiguration, CHSpellChecker, CHStringOVSChecker, CVNLPCTCTextDecoder, NSArray, NSCharacterSet, NSDictionary, NSLocale, NSMutableDictionary, NSMutableIndexSet, NSObject, NSString, NSURL;
-@protocol CHCharacterConverter, OS_dispatch_queue;
+@class CHRecognitionInsight, CHRecognitionInsightRequest;
 
 @interface CHRecognizer
 {
     CHRecognitionInsightRequest *_nextRecognitionInsightRequest;
-    CHRecognitionInsight *_activeRecognitionInsight;
-    NSArray *_whitelistMecabraRareCharacters;
-    struct ObjectRef<_LXLexicon *> _customPhraseLexicon;
-    struct optional<CoreRecognition::decoder::CTCBeamSearchDecoder<CoreRecognition::decoder::AdditiveCombiningBeamScorer<>, CoreRecognition::decoder::SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState>>> _textDecoder;
-    int _recognitionType;
-    unsigned long long _maxRecognitionResultCount;
-    NSCharacterSet *_activeCharacterSet;
-    id <CHCharacterConverter> _characterConverter;
-    struct CHNeuralNetwork *_engine;
-    struct CHNeuralNetwork *_freeformEngine;
-    CHCornerDetector *_cornerDetector;
-    CHCTCRecognitionModel *_recognitionModel;
-    CVNLPCTCTextDecoder *_legacyTextDecoder;
-    NSObject<OS_dispatch_queue> *_recognitionQueue;
-    void *_radicalClusterFST;
-    void *_formatGrammarFST;
-    CHPatternNetwork *_patternFST;
-    CHPatternNetwork *_postProcessingFST;
-    void *_lmVocabulary;
-    ObjectRef_49a81d6f _characterLanguageModel;
-    ObjectRef_c4ceabc4 _secondaryStaticLexicon;
-    ObjectRef_c4ceabc4 _phraseLexicon;
-    struct ObjectRef<_LXLexicon *> _customLexicon;
-    NSMutableDictionary *_textReplacementLowercasedKeyMapping;
-    NSURL *_learningDictionaryURL;
-    CHDrawing *_cachedDrawing;
-    struct VariantMap *_transliterationVariantMap;
-    void **_icuTransliterator;
-    unsigned long long _lastCharacterSegmentCount;
-    NSMutableIndexSet *_lastCharacterSegmentIndexes;
-    CHSpellChecker *_spellChecker;
-    NSDictionary *_textReplacements;
-    CHPostProcessingManager *_postProcessor;
-    CHPostProcessingManager *_mergedResultPostProcessor;
-    CHRecognizerConfiguration *_configuration;
-    CHMecabraWrapper *_mecabraWrapper;
-    ObjectRef_c4ceabc4 _staticLexicon;
-    ObjectRef_49a81d6f _wordLanguageModel;
-    CHStringOVSChecker *_ovsStringChecker;
-    struct CGSize _minimumDrawingSize;
-    struct shared_ptr<void> _cjkStaticLexicon;
-    struct shared_ptr<void> _cjkDynamicLexicon;
-    struct map<std::set<long>, std::vector<CHCandidateResult>, std::less<std::set<long>>, std::allocator<std::pair<const std::set<long>, std::vector<CHCandidateResult>>>> _cachedResults;
-    struct map<unsigned int, unsigned int, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned int>>> _characterIDMap;
 }
 
 + (_Bool);
@@ -65,16 +20,16 @@
 - (id);
 - (id);
 - (id);
+- (id)b;
 - (id);
 - (id);
 - (id);
-- (id);
-- (ObjectRef_c4ceabc4);
+- (ObjectRef_ceed0876);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)k;
 - (void);
 - (void);
 - (void);
@@ -103,7 +58,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)r1;
 - (id);
 - (id);
 - (id);
@@ -150,49 +105,19 @@
 - (struct CGSize);
 - (int);
 - (void);
-- (void);
+- (void)PHCollectionPresentationHintsQualityCategoryStellar;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)estimates timeout;
 - (int)0@ù
 × ;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSCharacterSet *activeCharacterSet; // @synthesize activeCharacterSet=_activeCharacterSet;
-@property(nonatomic) int autoCapitalizationMode;
-@property(nonatomic) int autoCorrectionMode;
-@property(nonatomic) int baseWritingDirection;
-@property(retain, nonatomic) id <CHCharacterConverter> characterConverter; // @synthesize characterConverter=_characterConverter;
-@property(retain, nonatomic, setter=_setConfiguration:) CHRecognizerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) int contentType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableCachingIfAvailable;
-@property(nonatomic) _Bool enableGen2CharacterLMIfAvailable;
-@property(nonatomic) _Bool enableGen2ModelIfAvailable;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSLocale *locale;
-@property(nonatomic) unsigned long long maxRecognitionResultCount; // @synthesize maxRecognitionResultCount=_maxRecognitionResultCount;
-@property(retain, nonatomic) CHMecabraWrapper *mecabraWrapper; // @synthesize mecabraWrapper=_mecabraWrapper;
-@property(retain, nonatomic) CHPostProcessingManager *mergedResultPostProcessor; // @synthesize mergedResultPostProcessor=_mergedResultPostProcessor;
-@property(nonatomic) struct CGSize minimumDrawingSize; // @synthesize minimumDrawingSize=_minimumDrawingSize;
-@property(retain, nonatomic) CHStringOVSChecker *ovsStringChecker; // @synthesize ovsStringChecker=_ovsStringChecker;
-@property(retain, nonatomic) CHPostProcessingManager *postProcessor; // @synthesize postProcessor=_postProcessor;
-@property(nonatomic) int recognitionMode;
-@property(nonatomic) int recognitionType; // @synthesize recognitionType=_recognitionType;
 @property(readonly, nonatomic) CHRecognitionInsight *recordedInsightFromLastRequest;
-@property(retain, nonatomic) CHSpellChecker *spellChecker; // @synthesize spellChecker=_spellChecker;
-@property(nonatomic) ObjectRef_c4ceabc4 staticLexicon; // @synthesize staticLexicon=_staticLexicon;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *textReplacements; // @synthesize textReplacements=_textReplacements;
-@property(nonatomic) ObjectRef_49a81d6f wordLanguageModel; // @synthesize wordLanguageModel=_wordLanguageModel;
 
 @end
 

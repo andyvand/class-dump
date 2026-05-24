@@ -11,10 +11,9 @@
 @interface TRIFBImmutableBoxedBool : TRIFBBoxedBool
 {
     AFBBufRef *_br;
-    const struct BoxedBool *_ptr;
 }
 
-- (id);
+- (id);
 - (const struct BoxedBool *);
 - (_Bool);
 - (id);

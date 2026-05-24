@@ -7,7 +7,6 @@
 @protocol PIPosterInactiveFrameLayoutResult
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect adaptiveInactiveRect;
 @property(readonly, nonatomic) struct CGRect inactiveRect;
 @end
 

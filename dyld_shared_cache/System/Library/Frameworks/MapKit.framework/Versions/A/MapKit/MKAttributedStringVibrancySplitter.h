@@ -10,25 +10,18 @@ __attribute__((visibility("hidden")))
 @interface MKAttributedStringVibrancySplitter
 {
     NSAttributedString *_markedAttributedString;
-    NSAttributedString *_vibrantAttributedString;
-    NSAttributedString *_nonvibrantAttributedString;
-    _Bool _hasMixedVibrancy;
-    NSAttributedString *_attributedString;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void)tamp:withTileScale: /* Error: Ran out of types for this method. */;
+- (void)drawTileAtPath:withTile:inTexture:withTimestamp:withTileScale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
 @property(readonly, nonatomic) _Bool hasMixedVibrancy; // @synthesize hasMixedVibrancy=_hasMixedVibrancy;
-@property(readonly, nonatomic) NSAttributedString *nonvibrantAttributedString;
-@property(readonly, nonatomic) NSAttributedString *vibrantAttributedString;
 
 @end
 

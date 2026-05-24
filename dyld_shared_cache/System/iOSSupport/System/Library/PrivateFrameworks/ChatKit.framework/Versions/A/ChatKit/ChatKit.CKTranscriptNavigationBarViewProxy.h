@@ -9,17 +9,16 @@
 @interface ChatKit.CKTranscriptNavigationBarViewProxy
 {
     UIView *avatarView;
-    UIView *conversationTitleView;
 }
 
-- (id);
+- (id)9H
+;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) UIView *avatarView; // @synthesize avatarView;
-@property(nonatomic, readonly) UIView *conversationTitleView; // @synthesize conversationTitleView;
 
 @end
 

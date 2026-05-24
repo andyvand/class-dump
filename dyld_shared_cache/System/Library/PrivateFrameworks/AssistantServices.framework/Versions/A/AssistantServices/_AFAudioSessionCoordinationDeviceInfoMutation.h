@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAudioSessionCoordinationDeviceInfo, AFAudioSessionCoordinationSystemInfo, AFPeerInfo, NSString;
+@class AFAudioSessionCoordinationDeviceInfo;
 
 @interface _AFAudioSessionCoordinationDeviceInfoMutation
 {
     AFAudioSessionCoordinationDeviceInfo *_base;
-    AFPeerInfo *_peerInfo;
-    AFAudioSessionCoordinationSystemInfo *_systemInfo;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasPeerInfo:1;
-        unsigned int hasSystemInfo:1;
-    } _mutationFlags;
 }
 
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)setRestrictedNetworkCount:(id)arg1;
 - (_Bool);
-- (id)erver;
-- (void);
+- (id)sharedObserver;
+- (void)_homeButtonDownEventMachAbsoluteTime;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

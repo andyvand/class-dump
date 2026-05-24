@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPPBContactNameRecord;
+@class PPPBContactNameRecord;
 
 @interface PPInternalContactNameRecord
 {
     PPPBContactNameRecord *_pbRecord;
-    NSString *_localizedFullName;
 }
 
 - (id);
@@ -21,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)B;
+- (id)B;
 - (unsigned char);
 - (id);
 - (id);
@@ -35,7 +34,7 @@
 - (void)r<std::vector<PPScoreInterpreterValue>, std::default_delete<std::vector<PPScoreInterpreterValue>>>=""{?="__ptr_"^v}} /* Error: Ran out of types for this method. */;
 - (id)to persist extractions to the database %s;
 - (id)>:starting timer /* Error: Ran out of types for this method. */;
-- (id)gScoreInputObjectRGroupId;
+- (id)PPNamedEntityAggScoreInputObjectRGroupId;
 - (id)À-òÿÎ};
 
 @end

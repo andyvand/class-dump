@@ -7,8 +7,6 @@
 @interface CoreParsec.ActivityMonitor
 {
     id delegate;
-    id locker;
-    id spans;
 }
 
 @end

@@ -9,8 +9,8 @@
 }
 
 - (void);
-- (void);
-- (id);
+- (void)#;
+- (id)$;
 - (void);
 - (void);
 

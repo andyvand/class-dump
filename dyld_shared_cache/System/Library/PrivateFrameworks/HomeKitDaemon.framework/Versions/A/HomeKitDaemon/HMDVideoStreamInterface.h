@@ -6,25 +6,19 @@
 
 #import <HomeKitDaemon/HMDStreamInterface.h>
 
-@class HMDVideoStreamReconfigure, HMFOSTransaction, NSNumber, NSString;
-@protocol HMDAVCVideoStream, HMDVideoStreamInterfaceDataSource, HMDVideoStreamInterfaceDelegate, HMDVideoStreamLastDecodedFrameDelegate;
+@protocol HMDAVCVideoStream, HMDVideoStreamInterfaceDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDVideoStreamInterface : HMDStreamInterface
 {
     id <HMDVideoStreamInterfaceDelegate> _delegate;
-    id <HMDVideoStreamLastDecodedFrameDelegate> _snapshotDelegate;
-    id <HMDAVCVideoStream> _videoStream;
-    HMDVideoStreamReconfigure *_videoStreamReconfigure;
-    id <HMDVideoStreamInterfaceDataSource> _dataSource;
-    HMFOSTransaction *_snapshotTransaction;
 }
 
++ (id)-[OspreyGRPCChannel URLSession:(id)arg1 task:(id)arg2 didFinishCollectingMetrics:(int *)arg3 ];
++ (id)hannel close];
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (int);
++ (id)size < 0x10000;
++ (int)e:(id)arg1 ]_block_invoke;
 + (id)YPÿ$!C;
 - (void);
 - (void);
@@ -48,38 +42,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)JtK;
+- (void);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (void)Kit.daemon.media.playbackAction;
 - (void)chabilityBulletinRegistration>"8;
 
 // Remaining properties
-@property(readonly) id <HMDVideoStreamInterfaceDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDVideoStreamInterfaceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak id <HMDVideoStreamLastDecodedFrameDelegate> snapshotDelegate; // @synthesize snapshotDelegate=_snapshotDelegate;
-@property(retain) HMFOSTransaction *snapshotTransaction; // @synthesize snapshotTransaction=_snapshotTransaction;
-@property(readonly, nonatomic) NSNumber *streamToken;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSNumber *syncSource;
 @property(readonly) id <HMDAVCVideoStream> videoStream; // @synthesize videoStream=_videoStream;
-@property(readonly) HMDVideoStreamReconfigure *videoStreamReconfigure; // @synthesize videoStreamReconfigure=_videoStreamReconfigure;
 
 @end
 

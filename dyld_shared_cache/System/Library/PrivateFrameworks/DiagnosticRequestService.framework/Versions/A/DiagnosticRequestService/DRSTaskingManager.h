@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSTaskingCloudKitHelper, DRSTaskingDecisionMaker, DRSTaskingMessageChannel, NSObject;
-@protocol OS_dispatch_queue;
+@class DRSTaskingDecisionMaker;
 
 @interface DRSTaskingManager
 {
     DRSTaskingDecisionMaker *_decisionMaker;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    CDUnknownBlockType _configStateChangeBlock;
-    DRSTaskingMessageChannel *_taskingMessageChannel;
-    DRSTaskingCloudKitHelper *_cloudKitHelper;
 }
 
 - (_Bool);
@@ -22,13 +17,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)!;
 - (_Bool);
 - (void);
 - (void);
@@ -38,7 +33,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ǰ;
 - (void);
 - (void);
 - (_Bool);
@@ -46,12 +41,7 @@
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(readonly, nonatomic) DRSTaskingCloudKitHelper *cloudKitHelper; // @synthesize cloudKitHelper=_cloudKitHelper;
-@property(readonly, nonatomic) CDUnknownBlockType configStateChangeBlock; // @synthesize configStateChangeBlock=_configStateChangeBlock;
 @property(readonly, nonatomic) DRSTaskingDecisionMaker *decisionMaker; // @synthesize decisionMaker=_decisionMaker;
-@property(readonly, nonatomic) _Bool isTaskingEnabled;
-@property(retain, nonatomic) DRSTaskingMessageChannel *taskingMessageChannel; // @synthesize taskingMessageChannel=_taskingMessageChannel;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

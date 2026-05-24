@@ -5,5 +5,14 @@
 //
 
 @protocol PKContactlessInterfaceSessionDelegate
+
+@optional
+- (void);
+- (void)7;
+- (void)(;
+- (void);
+- (void)3;
+- (void);
+- (void)B,;
 @end
 

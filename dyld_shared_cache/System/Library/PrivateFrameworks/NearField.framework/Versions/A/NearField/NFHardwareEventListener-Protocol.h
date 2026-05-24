@@ -5,5 +5,8 @@
 //
 
 @protocol NFHardwareEventListener
+
+@optional
+- (void);
 @end
 

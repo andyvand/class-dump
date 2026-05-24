@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDHeadGestureProperties;
-
 @interface ODDSiriSchemaODDwatchOSAssistantProperties : SISchemaInstrumentationMessage
 {
     _Bool _isRaiseToSpeakEnabled;
-    _Bool _isSiriTryItCompleted;
-    ODDSiriSchemaODDHeadGestureProperties *_headGestures;
-    struct {
-        unsigned int isRaiseToSpeakEnabled:1;
-        unsigned int isSiriTryItCompleted:1;
-    } _has;
-    _Bool _hasHeadGestures;
 }
 
 - (void);
@@ -36,8 +27,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)m;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -49,13 +40,7 @@
 - (void)orderedMessages.siriEventTypeUnion.cnvClientEvent.cnvUsoGraphTier1.usoGraphTier1.linkedUsoGraphNodeDatas.linkedUsoEntityIdentifiers.backingAppBundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeadGestures; // @synthesize hasHeadGestures=_hasHeadGestures;
-@property(nonatomic) _Bool hasIsRaiseToSpeakEnabled;
-@property(nonatomic) _Bool hasIsSiriTryItCompleted;
-@property(retain, nonatomic) ODDSiriSchemaODDHeadGestureProperties *headGestures; // @synthesize headGestures=_headGestures;
 @property(nonatomic) _Bool isRaiseToSpeakEnabled; // @synthesize isRaiseToSpeakEnabled=_isRaiseToSpeakEnabled;
-@property(nonatomic) _Bool isSiriTryItCompleted; // @synthesize isSiriTryItCompleted=_isSiriTryItCompleted;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

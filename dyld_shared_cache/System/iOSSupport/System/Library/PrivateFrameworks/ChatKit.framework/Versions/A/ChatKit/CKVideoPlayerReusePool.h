@@ -11,10 +11,10 @@
     void pool;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
++ (id)WindowBehavior;
+- (void)initWithAttributedString:(id)arg1 replicaID: /* Error: Ran out of types for this method. */;
+- (void)ic_regexForSearchStrings: /* Error: Ran out of types for this method. */;
+- (void)_isTogglingBoldface;
 - (id);
 - (id);
 - (id);
@@ -22,7 +22,7 @@
 - (id);
 - (void);
 - (id);
-- (void)extFontSize;
+- (void)CKEntryViewLayoutMetricsInfoLastCachedBalloonTextFontSize;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *pool;

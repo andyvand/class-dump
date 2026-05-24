@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PKCurrencyAmount;
+@class PKCurrencyAmount;
 
 @interface PKPaymentOfferInstallmentDownpaymentDetails
 {
     PKCurrencyAmount *_amount;
-    NSDate *_paymentDate;
 }
 
 + (_Bool)áW"ð!èCùqî%Ð1Â0@ù
 × ;
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)@;
+- (unsigned long long)@;
+- (_Bool)setMissingAWStartEventCount:(id)arg1;
+- (void)AWDIDSMagnetDataCorruptionRecoveryTimeInMs;
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (id)eleteDefaultBillingAddressForPrimaryAccountIdentifier:(id)arg1;
-- (void)_PERSON_FORMAT;
+- (id)deleteDefaultBillingAddressForPrimaryAccountIdentifier:(id)arg1;
+- (void)PEER_PAYMENT_TRANSFER_AMOUNT_TO_PERSON_FORMAT;
 
 // Remaining properties
 @property(retain, nonatomic) PKCurrencyAmount *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSDate *paymentDate; // @synthesize paymentDate=_paymentDate;
 
 @end
 

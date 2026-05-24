@@ -7,21 +7,17 @@
 @class NSString, Protocol;
 
 @protocol NSObject
+- (id)em provided;
+- (_Bool)initWithObject:(Class)arg1 type:index: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id)dIU;
 - (_Bool)afari:(Protocol *)arg1:SnapshotPayload, unsigned long long>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, std::tuple<WTF::String, Safari::SnapshotPayload, unsigned long long>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, std::tuple<WTF::String, Safari::SnapshotPayload, unsigned long long>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, std::tuple<WTF::String, Safari::SnapshotPayload, unsigned long long>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (struct _NSZone *)L ;
 
 @optional
-- (NSString *)RLString;
+- (NSString *)faviconURLString;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

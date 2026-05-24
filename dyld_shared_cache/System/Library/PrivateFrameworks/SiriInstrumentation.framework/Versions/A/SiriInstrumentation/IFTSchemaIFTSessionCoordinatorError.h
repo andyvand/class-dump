@@ -6,21 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface IFTSchemaIFTSessionCoordinatorError : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_other;
-    IFTSchemaIFTIntelligenceFlowError *_failedToWriteTranscript;
-    IFTSchemaIFTIntelligenceFlowError *_failedToConvertClientEvent;
-    _Bool _hasOther;
-    _Bool _hasFailedToWriteTranscript;
-    _Bool _hasFailedToConvertClientEvent;
-    unsigned long long _whichOneof_Sessioncoordinatorerror;
 }
 
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -28,10 +22,10 @@
 - (_Bool);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@9lA;
 - (void);
 - (_Bool);
 - (id);
@@ -40,22 +34,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id)teSessionTimeStamp;
+- (id)approximateSessionTimeStamp;
 - (id)rated",&,N,V_ended;
-- (id)ics;
+- (id)DODMLASRSchemaDODMLASRTranscriptionMetrics;
 - (void)ÿ%#;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *failedToConvertClientEvent; // @synthesize failedToConvertClientEvent=_failedToConvertClientEvent;
-@property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *failedToWriteTranscript; // @synthesize failedToWriteTranscript=_failedToWriteTranscript;
-@property(nonatomic) _Bool hasFailedToConvertClientEvent; // @synthesize hasFailedToConvertClientEvent=_hasFailedToConvertClientEvent;
-@property(nonatomic) _Bool hasFailedToWriteTranscript; // @synthesize hasFailedToWriteTranscript=_hasFailedToWriteTranscript;
-@property(nonatomic) _Bool hasOther; // @synthesize hasOther=_hasOther;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *other; // @synthesize other=_other;
-@property(readonly, nonatomic) unsigned long long whichOneof_Sessioncoordinatorerror; // @synthesize whichOneof_Sessioncoordinatorerror=_whichOneof_Sessioncoordinatorerror;
 
 @end
 

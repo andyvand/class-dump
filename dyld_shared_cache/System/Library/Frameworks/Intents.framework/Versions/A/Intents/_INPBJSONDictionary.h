@@ -9,7 +9,6 @@
 @interface _INPBJSONDictionary
 {
     struct _has;
-    NSString *_jsonString;
 }
 
 + (_Bool);
@@ -19,23 +18,15 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)eArray"24^@32;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasJsonString;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *jsonString; // @synthesize jsonString=_jsonString;
-@property(readonly) Class superclass;
 
 @end
 

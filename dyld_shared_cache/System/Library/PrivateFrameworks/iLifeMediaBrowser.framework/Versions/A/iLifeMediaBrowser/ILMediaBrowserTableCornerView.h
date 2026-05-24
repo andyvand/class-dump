@@ -9,12 +9,11 @@
 @interface ILMediaBrowserTableCornerView
 {
     NSCell *_drawCell;
-    Class _tableHeaderCellClass;
 }
 
-- (Class);
+- (Class);
 - (void);
-- (struct CGRect);
+- (struct CGRect)zed Ads permission;
 - (_Bool);
 - (void);
 - (void);

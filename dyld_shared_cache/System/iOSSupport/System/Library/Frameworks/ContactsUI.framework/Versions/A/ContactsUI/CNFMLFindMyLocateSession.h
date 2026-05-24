@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (id);
+- (id)itelist:%@> /* Error: Ran out of types for this method. */;
+- (id)formatArtworkUrlWithUrl:for:cropCode:fileExtension: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)ewController;
+- (void)_cardViewController;
 
 // Remaining properties
 @property(retain, nonatomic) ContactsUI.FindMyLocateSession *session; // @synthesize session=_session;

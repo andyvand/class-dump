@@ -9,13 +9,10 @@
 @interface GEORPPersonalizedMaps
 {
     GEORPAddress *_address;
-    int _addressType;
-    int _placeType;
-    CDStruct_2d9f5d20 _flags;
 }
 
-+ (_Bool)reTime:(id)arg1;
-- (void);
++ (_Bool)setLatestDepartureTime:(id)arg1;
+- (void)timeIntervalSinceDate:(_Bool)arg1;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -29,16 +26,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)_shouldLogGeckoEvent:(_Bool)arg1;
+- (void)CSAttSiriMitigationAssetHandler;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)"GEOMapRequest"32@0:(struct _NSZone *)arg1 8@?<v@?@"<GEOMapRoad>">16@?<v@?@"GEOMapRequest">24;
-- (id)s;
+- (id)clearDisplayStrings;
 - (id)¨ËHÌÍdÖ×ØÚpÜÞ¤ßäá;
-- (id)NT_TYPE_STOREFRONT;
+- (id)COMPONENT_TYPE_STOREFRONT;
 - (void)£;
 - (id)$;
 - (void)Ôíì+=O@;
@@ -46,12 +43,7 @@
 - (_Bool)*;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPAddress *address;
-@property(nonatomic) int addressType;
-@property(readonly, nonatomic) _Bool hasAddress;
 @property(nonatomic) _Bool hasAddressType;
-@property(nonatomic) _Bool hasPlaceType;
-@property(nonatomic) int placeType;
 
 @end
 

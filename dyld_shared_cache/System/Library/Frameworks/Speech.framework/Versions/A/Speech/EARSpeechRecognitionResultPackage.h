@@ -4,39 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EARAudioAnalytics, EARLatticeMitigatorResult, EARSpeechRecognition, NSArray, NSNumber, _EARPerformanceMarkers, _EARVoiceCommandDebugInfo;
+@class EARSpeechRecognition;
 
 @interface EARSpeechRecognitionResultPackage
 {
     _Bool _isFinal;
-    _Bool _recognitionPaused;
-    _Bool _firstResultAfterResume;
-    _Bool _needsLeadingSpace;
-    EARSpeechRecognition *_recognition;
-    EARSpeechRecognition *_preITNRecognition;
-    EARSpeechRecognition *_unrepairedRecognition;
-    EARAudioAnalytics *_audioAnalytics;
-    double _utteranceStart;
-    NSNumber *_utteranceStartSamples;
-    NSArray *_correctPartialResultIndexList;
-    NSArray *_nBestVoiceCommandInterpretations;
-    NSArray *_preITNNBestVoiceCommandInterpretations;
-    NSNumber *_endOfSentenceLikelihood;
-    EARLatticeMitigatorResult *_latticeMitigatorResult;
-    long long _numOneBestTokensExcludingTriggerPhrase;
-    _EARVoiceCommandDebugInfo *_voiceCommandDebugInfo;
-    _EARPerformanceMarkers *_performanceMarkers;
 }
 
-+ (_Bool);
++ (_Bool)P2;
 - (_Bool);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)�;
 - (double);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -51,27 +34,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) EARAudioAnalytics *audioAnalytics; // @synthesize audioAnalytics=_audioAnalytics;
-@property(readonly, copy, nonatomic) NSArray *correctPartialResultIndexList; // @synthesize correctPartialResultIndexList=_correctPartialResultIndexList;
-@property(readonly, nonatomic) NSNumber *endOfSentenceLikelihood; // @synthesize endOfSentenceLikelihood=_endOfSentenceLikelihood;
-@property(readonly, nonatomic) _Bool firstResultAfterResume; // @synthesize firstResultAfterResume=_firstResultAfterResume;
-@property(readonly, nonatomic) _Bool isFinal; // @synthesize isFinal=_isFinal;
-@property(readonly, copy, nonatomic) EARLatticeMitigatorResult *latticeMitigatorResult; // @synthesize latticeMitigatorResult=_latticeMitigatorResult;
-@property(readonly, copy, nonatomic) NSArray *nBestVoiceCommandInterpretations; // @synthesize nBestVoiceCommandInterpretations=_nBestVoiceCommandInterpretations;
-@property(readonly, nonatomic) _Bool needsLeadingSpace; // @synthesize needsLeadingSpace=_needsLeadingSpace;
-@property(readonly, nonatomic) long long numOneBestTokensExcludingTriggerPhrase; // @synthesize numOneBestTokensExcludingTriggerPhrase=_numOneBestTokensExcludingTriggerPhrase;
-@property(readonly, copy, nonatomic) _EARPerformanceMarkers *performanceMarkers; // @synthesize performanceMarkers=_performanceMarkers;
-@property(readonly, copy, nonatomic) NSArray *preITNNBestVoiceCommandInterpretations; // @synthesize preITNNBestVoiceCommandInterpretations=_preITNNBestVoiceCommandInterpretations;
-@property(readonly, copy, nonatomic) EARSpeechRecognition *preITNRecognition; // @synthesize preITNRecognition=_preITNRecognition;
 @property(readonly, copy, nonatomic) EARSpeechRecognition *recognition; // @synthesize recognition=_recognition;
-@property(readonly, nonatomic) _Bool recognitionPaused; // @synthesize recognitionPaused=_recognitionPaused;
-@property(readonly, copy, nonatomic) EARSpeechRecognition *unrepairedRecognition; // @synthesize unrepairedRecognition=_unrepairedRecognition;
-@property(readonly, nonatomic) double utteranceStart; // @synthesize utteranceStart=_utteranceStart;
-@property(readonly, copy, nonatomic) NSNumber *utteranceStartSamples; // @synthesize utteranceStartSamples=_utteranceStartSamples;
-@property(readonly, copy, nonatomic) _EARVoiceCommandDebugInfo *voiceCommandDebugInfo; // @synthesize voiceCommandDebugInfo=_voiceCommandDebugInfo;
 
 @end
 

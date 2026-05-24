@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (long long)e:(id)arg1 seids:suffix:includeEncryptedAssets: /* Error: Ran out of types for this method. */;
+- (long long)_remoteAssetsDownloadedForScreenScale:(id)arg1 seids:suffix:includeEncryptedAssets: /* Error: Ran out of types for this method. */;
 - (void)nrollmentDataSignature :'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties

@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface FUFlightInfoViewController
 {
     FUFlightInfoView *_flight;
-    unsigned long long _style;
 }
 
-- (id);
+- (id)() because %{public, darwin.errno}d;
 - (void);
 - (_Bool);
 - (void);

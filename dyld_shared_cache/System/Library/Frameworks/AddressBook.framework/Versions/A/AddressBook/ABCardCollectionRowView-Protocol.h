@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardCollectionView, ABCardViewStyleProvider, ABCollectionViewItem, ABOverlayView, NSArray, NSButton, NSPopUpButton, NSStackView, NSView;
+@class NSArray, NSButton, NSStackView, NSString, NSView;
+@protocol ABCardViewProperty;
 
 @protocol ABCardCollectionRowView
+- (NSStackView *);
+- (void)C;
+- (id <ABCardViewProperty>)!;
+- (NSArray *)*;
+- (void)9hF;
+- (void)m/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (_Bool)setDeviceSupportsSFRRestoreVersion: /* Error: Ran out of types for this method. */;
+- (NSString *);
 - (NSView *)!ì@ù±ªð1Â0@ù
 × ;
-- (void)T_DESCRIPTION;
+- (void)AX_NAME_LIST_DESCRIPTION;
 
 // Remaining properties
-@property(retain, nonatomic) NSView *accessoryView;
-@property(retain) NSArray *actionGlyphButtons;
 @property(retain) NSButton *addValueButton;
-@property __weak ABCardCollectionView *cardCollectionView;
-@property __weak ABCollectionViewItem *collectionItem;
-@property(retain) ABOverlayView *focusRingView;
-@property(readonly, getter=isFocused) _Bool focused;
-@property(retain) NSView *labelView;
-@property(getter=isLoaded) _Bool loaded;
-@property(retain) NSPopUpButton *messagingServiceChooserPopup;
-@property(retain) NSView *messagingServiceLabel;
-@property(retain) NSButton *privacyCheckbox;
-@property(retain) NSButton *removeValueButton;
-@property _Bool shouldHideAddButton;
-@property _Bool shouldHideMinusButton;
-@property _Bool shouldHideSuggestedButton;
-@property _Bool shouldHighlightLabel;
-@property(retain) NSStackView *stackView;
-@property(retain) NSStackView *staticIdentityBadgeView;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider;
-@property(retain) NSButton *suggestedButton;
-@property _Bool valueIsPrivate;
-@property(retain) NSView *valueView;
 @end
 

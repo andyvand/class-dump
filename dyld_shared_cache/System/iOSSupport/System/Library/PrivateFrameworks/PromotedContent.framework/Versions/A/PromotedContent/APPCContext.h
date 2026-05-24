@@ -9,25 +9,6 @@
 @interface APPCContext : APPCBaseContext
 {
     id inventoryLock;
-    id inventory;
-    id placeholdersLock;
-    id placeholders;
-    id lastError;
-    id requester;
-    id denylistEvaluator;
-    id newsContext;
-    id appStoreContext;
-    id contextQueue;
-    id prefetchTimestamp;
-    id limit;
-    id fetchingLock;
-    id fetching;
-    id waitingLock;
-    id waiting;
-    id prefetchLock;
-    id vendedModalAd;
-    id vendedSponsorshipAd;
-    id newContentArrivedHandlers;
 }
 
 

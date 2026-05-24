@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSView;
+@class NSMutableArray;
 @protocol IAAppCheckboxMatrixRowItemDelegateProtocol;
 
 @interface IAAppCheckboxMatrix
 {
     NSMutableArray *_items;
-    NSView *_view;
-    id _delegate;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (double);

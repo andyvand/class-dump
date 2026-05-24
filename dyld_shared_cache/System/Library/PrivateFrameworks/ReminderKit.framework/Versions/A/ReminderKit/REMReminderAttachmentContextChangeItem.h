@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, REMReminderChangeItem;
+@class REMReminderChangeItem;
 
 @interface REMReminderAttachmentContextChangeItem
 {
     REMReminderChangeItem *_reminderChangeItem;
-    NSMutableArray *_mutableAttachments;
 }
 
 - (id);
@@ -39,15 +38,10 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)l;
+- (id)Pl;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attachments;
-@property(readonly, nonatomic) NSArray *fileAttachments;
-@property(readonly, nonatomic) NSArray *imageAttachments;
-@property(retain, nonatomic) NSMutableArray *mutableAttachments; // @synthesize mutableAttachments=_mutableAttachments;
 @property(retain, nonatomic) REMReminderChangeItem *reminderChangeItem; // @synthesize reminderChangeItem=_reminderChangeItem;
-@property(readonly, nonatomic) NSArray *urlAttachments;
 
 @end
 

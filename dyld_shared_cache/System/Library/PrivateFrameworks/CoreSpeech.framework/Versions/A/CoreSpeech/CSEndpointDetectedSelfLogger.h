@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAttSiriEndpointerNode, CSEndpointerMetrics, CSSiriClientBehaviorMonitor, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSEndpointDetectedSelfLogger
 {
     _Bool _localSRDisabled;
-    _Bool _trpDetectDelivered;
-    NSString *_mhId;
-    CSAttSiriEndpointerNode *_endpointerNode;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSSiriClientBehaviorMonitor *_siriClientBehaviorMonitor;
-    CSEndpointerMetrics *_cachedRelaxedEndpointerMetrics;
 }
 
 + (void);
@@ -24,9 +18,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)A;
+- (void);
 - (id);
 - (void);
 - (id);
@@ -38,30 +32,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)};
+- (void)initWithIdealFormat:(id)arg1 pixelsWideRange:pixelsHighRange:aspectRatioHandling:idealOrientation:orientationAgnostic: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void)Context:successfully:option: /* Error: Ran out of types for this method. */;
-- (void)etoothSpeaker;
+- (void)commandControlBehaviorMonitor:didStartStreamWithContext:successfully:option: /* Error: Ran out of types for this method. */;
+- (void)AVVoiceTriggerPort_BluetoothSpeaker;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CSEndpointerMetrics *cachedRelaxedEndpointerMetrics; // @synthesize cachedRelaxedEndpointerMetrics=_cachedRelaxedEndpointerMetrics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, setter=registerEndpointerNode:) __weak CSAttSiriEndpointerNode *endpointerNode; // @synthesize endpointerNode=_endpointerNode;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool localSRDisabled; // @synthesize localSRDisabled=_localSRDisabled;
-@property(retain, nonatomic) NSString *mhId; // @synthesize mhId=_mhId;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CSSiriClientBehaviorMonitor *siriClientBehaviorMonitor; // @synthesize siriClientBehaviorMonitor=_siriClientBehaviorMonitor;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool trpDetectDelivered; // @synthesize trpDetectDelivered=_trpDetectDelivered;
 
 @end
 

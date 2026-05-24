@@ -5,5 +5,11 @@
 //
 
 @protocol APWebProcessDelegate
+
+@optional
+- (void);
+- (void)@?B>40;
+- (void)";
+- (void)H;
 @end
 

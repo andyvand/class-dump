@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKPaymentOfferWebServiceRequest.h>
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface PKPaymentOfferWebServiceDynamicContentRequest : PKPaymentOfferWebServiceRequest
 {
     NSURL *_baseURL;
-    NSString *_criteriaIdentifier;
-    unsigned long long _context;
-    NSArray *_types;
 }
 
 - (void);
@@ -23,15 +20,12 @@
 - (unsigned long long);
 - (void);
 - (void)PaymentOffersMerchandisingEphemeralDeviceIdentifier;
-- (void);
+- (void)LastPayment;
 - (id)Number:'%@';  /* Error: Ran out of types for this method. */;
 - (id)^HÉLpC;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(copy, nonatomic) NSString *criteriaIdentifier; // @synthesize criteriaIdentifier=_criteriaIdentifier;
-@property(copy, nonatomic) NSArray *types; // @synthesize types=_types;
 
 @end
 

@@ -6,19 +6,11 @@
 
 #import <Silex/SXComponentBehaviorHandler.h>
 
-@class NSString, UIInterpolatingMotionEffect, UIView;
+@class UIView;
 
 @interface SXMotionImageComponentBehaviorHandler : SXComponentBehaviorHandler
 {
     _Bool _windowed;
-    _Bool _horizontal;
-    _Bool _vertical;
-    UIView *_clippingView;
-    UIView *_motionContentView;
-    unsigned long long _viewHierarchyIndex;
-    UIInterpolatingMotionEffect *_xMotionEffect;
-    UIInterpolatingMotionEffect *_yMotionEffect;
-    double _amplitude;
 }
 
 - (id);
@@ -38,7 +30,7 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)O;
 - (id);
 - (_Bool);
 - (void);
@@ -50,22 +42,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double amplitude; // @synthesize amplitude=_amplitude;
 @property(retain, nonatomic) UIView *clippingView; // @synthesize clippingView=_clippingView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool horizontal; // @synthesize horizontal=_horizontal;
-@property(retain, nonatomic) UIView *motionContentView; // @synthesize motionContentView=_motionContentView;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool vertical; // @synthesize vertical=_vertical;
-@property(nonatomic) unsigned long long viewHierarchyIndex; // @synthesize viewHierarchyIndex=_viewHierarchyIndex;
-@property(nonatomic) _Bool windowed; // @synthesize windowed=_windowed;
-@property(retain, nonatomic) UIInterpolatingMotionEffect *xMotionEffect; // @synthesize xMotionEffect=_xMotionEffect;
-@property(retain, nonatomic) UIInterpolatingMotionEffect *yMotionEffect; // @synthesize yMotionEffect=_yMotionEffect;
 
 @end
 

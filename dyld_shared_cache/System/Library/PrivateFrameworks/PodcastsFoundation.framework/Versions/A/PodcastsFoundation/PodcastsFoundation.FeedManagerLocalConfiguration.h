@@ -7,15 +7,6 @@
 @interface PodcastsFoundation.FeedManagerLocalConfiguration
 {
     double timeoutIntervalForResource;
-    long long concurrentDeltaUpdateLimit;
-    long long concurrentBootstrapUpdateLimit;
-    long long concurrentRSSUpdateLimit;
-    id deltaNumberOfEpisodesToRequestPerPage;
-    _Bool useBackgroundFetchForFeedDownloads;
-    _Bool keepsFeedFileInTempDirAfterDownload;
-    _Bool usesCleanEpisodeTitles;
-    id _supportsBatchInsertion;
-    id _workQueueConcurrent;
 }
 
 + (id);
@@ -32,15 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) long long concurrentBootstrapUpdateLimit; // @synthesize concurrentBootstrapUpdateLimit;
-@property(nonatomic, readonly) long long concurrentDeltaUpdateLimit; // @synthesize concurrentDeltaUpdateLimit;
-@property(nonatomic, readonly) long long concurrentRSSUpdateLimit; // @synthesize concurrentRSSUpdateLimit;
-@property(nonatomic, readonly) _Bool keepsFeedFileInTempDirAfterDownload; // @synthesize keepsFeedFileInTempDirAfterDownload;
 @property(nonatomic, readonly) _Bool supportsBatchInsertion;
-@property(nonatomic, readonly) double timeoutIntervalForResource; // @synthesize timeoutIntervalForResource;
-@property(nonatomic, readonly) _Bool useBackgroundFetchForFeedDownloads; // @synthesize useBackgroundFetchForFeedDownloads;
-@property(nonatomic, readonly) _Bool usesCleanEpisodeTitles; // @synthesize usesCleanEpisodeTitles;
-@property(nonatomic, readonly) _Bool workQueueConcurrent;
 
 @end
 

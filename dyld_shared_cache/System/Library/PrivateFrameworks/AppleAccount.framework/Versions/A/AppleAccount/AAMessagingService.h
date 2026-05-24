@@ -4,61 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSIDQueryController, IDSService, NSMutableArray, NSObject, NSString;
-@protocol AAMessagingServiceDelegate, OS_dispatch_queue;
+@class IDSService;
 
 @interface AAMessagingService
 {
     IDSService *_service;
-    NSObject<OS_dispatch_queue> *_queue;
-    IDSIDQueryController *_queryController;
-    NSString *_serviceName;
-    NSObject<OS_dispatch_queue> *_incomingMessageQueue;
-    struct os_unfair_lock_s _lock;
-    id <AAMessagingServiceDelegate> _inheritanceDelegate;
-    id <AAMessagingServiceDelegate> _custodianDelegate;
-    NSMutableArray *_pendingCustodianMessages;
-    NSMutableArray *_pendingInheritanceMessages;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)Has config record;
+- (void)bypassFetchRateLimitCheck;
+- (id)e tracer domain;
+- (id)ConflictKey passed checks;
+- (id)HandlePasswordPolicyConflictKey;
+- (void)scodePolicy return status = %d;
+- (id)oudConfigInstalledHintInfo failed (try #%d);
+- (void)rvices/ManagedClient.app/Contents/PlugIns/ConfigurationProfilesUI.bundle/Contents/Resources/SystemPrefApp.icns;
+- (void)naged;
+- (id)Delete Bootstrap Token returning error (%d);
+- (void)HomeDir():(long long)arg1 close(%d) = %d (%s);
+- (void)%s";
+- (id)RemoveMCXlpadminGroupUser didn't find user in _mcxlpadmin group;
+- (void)pertyList is not NSDictionary or NSArray;
+- (id)hecks;
+- (void)ot a string;
+- (void)ayloads.mergeIDPayload %s mapped new key value is not a string;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void)apability:completion: /* Error: Ran out of types for this method. */;
+- (void)setExternalThumbnailGeneratorData:(id)arg1;
+- (void)`V
+;
+- (void)AuthenticationRVSRemoteViewController"8@"NSError"16;
+- (void)partitionByCapability:completion: /* Error: Ran out of types for this method. */;
 - (void)²à¼ú)ÄLã/4ÿÓ£^l7&ÚÐ8h%W	°!±fTÉÐ³ºMb²úû[a)#¸mG0ñæ´«Ì²å%eî©]Ó	ü&í2
 Êo+²Ùj,°ki ¸X±_¸ùD»ò\#ÏÛ·»<:(id)arg1 NØnø?¡òAëo÷G+èôS´ÜKíeýoÅÄv¼¾l^÷#½VZ~.`¾ÍVÖYå)ÞÔ`9üÁjÝO¹Ü:(id)arg2 gP1M(½ÖeH2ÖñþÕþ¿RÏÇ·µçfBQTô¶|Uigt-ß\*dïôÇºcöÂÕãÞc màEá%ïWÂ,N¢&6Á·xëF;
 
 // Remaining properties
-@property(nonatomic) __weak id <AAMessagingServiceDelegate> custodianDelegate; // @synthesize custodianDelegate=_custodianDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <AAMessagingServiceDelegate> inheritanceDelegate; // @synthesize inheritanceDelegate=_inheritanceDelegate;
-@property(readonly, copy, nonatomic) NSMutableArray *pendingCustodianMessages; // @synthesize pendingCustodianMessages=_pendingCustodianMessages;
-@property(readonly, copy, nonatomic) NSMutableArray *pendingInheritanceMessages; // @synthesize pendingInheritanceMessages=_pendingInheritanceMessages;
-@property(readonly) Class superclass;
 
 @end
 

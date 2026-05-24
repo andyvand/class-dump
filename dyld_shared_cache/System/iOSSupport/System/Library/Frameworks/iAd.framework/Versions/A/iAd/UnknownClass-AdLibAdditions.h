@@ -6,14 +6,9 @@
 
 @interface UnknownClass (AdLibAdditions)
 + (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool canDisplayBannerAds; // @dynamic canDisplayBannerAds;
-@property(readonly, nonatomic, getter=isDisplayingBannerAd) _Bool displayingBannerAd; // @dynamic displayingBannerAd;
 @property(nonatomic) long long interstitialPresentationPolicy; // @dynamic interstitialPresentationPolicy;
-@property(readonly, nonatomic) id originalContentView; // @dynamic originalContentView;
-@property(readonly, nonatomic, getter=isPresentingFullScreenAd) _Bool presentingFullScreenAd; // @dynamic presentingFullScreenAd;
-@property(readonly, nonatomic) _Bool shouldPresentInterstitialAd; // @dynamic shouldPresentInterstitialAd;
 @end
 

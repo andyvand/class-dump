@@ -7,13 +7,6 @@
 @interface SwiftUI.DropInfo_Mac
 {
     id location;
-    id session;
-    id pasteboard;
-    id supportedOperations;
-    id localDragContexts;
-    id targetStore;
-    id filePromiseReceivers;
-    id nsFilePromiseReceivers;
 }
 
 @end

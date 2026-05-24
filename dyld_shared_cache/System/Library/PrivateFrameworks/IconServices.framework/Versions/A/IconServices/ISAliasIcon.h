@@ -6,27 +6,21 @@
 
 #import <IconServices/ISConcreteIcon.h>
 
-@class NSArray, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface ISAliasIcon : ISConcreteIcon
 {
     ISConcreteIcon *_icon;
-    NSArray *_decorations;
-    id _alias;
-    ISConcreteIcon *_resolvedIcon;
-    NSDictionary *_additionalURLProperties;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)_tokenLabelMap;
++ (id)setSpotlightSuggestionsEnabled:(id)arg1;
++ (id)?0^{__DDResult={__CFRuntimeBase=QAQ}{__DDQueryRange={__DDQueryOffset=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}8^{__CFString=}16^{__DDScanner={__CFRuntimeBase=QAQ}^{__DDLRTable}^{__DDLexer}^{__DDCache}^{__DDTokenCache}^{__DDLexemCache}^{__DDScanQuery}^{__DDScanQuery}[7^{__DDLookupTable}]^{__CFString}d^{__CFData}^{DDSourceMatchCache}^{__CFArray}^{__CFArray}qqqq*@?db1b1CSC^{__CFLocale}iiC^{__CFArray}^{__CFArray}}24^{__CFString=}32C40;
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)@?<v@?@"NSArray">48;
+- (id)ScannerServiceConfiguration"40@?<v@?@"NSArray">48;
+- (id)getTrackingNumber:carrier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -39,10 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *additionalURLProperties; // @synthesize additionalURLProperties=_additionalURLProperties;
 @property(readonly) id alias; // @synthesize alias=_alias;
-@property(readonly) ISConcreteIcon *icon; // @synthesize icon=_icon;
-@property(readonly) ISConcreteIcon *resolvedIcon; // @synthesize resolvedIcon=_resolvedIcon;
 
 @end
 

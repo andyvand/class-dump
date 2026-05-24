@@ -10,10 +10,10 @@
 {
 }
 
-+ (id);
++ (id)!;
 + (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 
 @end
 

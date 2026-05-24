@@ -4,49 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNDispatchTimer, MNVehicleMonitor, NSString;
 @protocol MNParkedVehicleDetectorDelegate;
 
 @interface MNParkedVehicleDetector
 {
     id <MNParkedVehicleDetectorDelegate> _delegate;
-    _Bool _isMonitoring;
-    MNVehicleMonitor *_vehicleMonitor;
-    int _simulateParkedVehicleEventToken;
-    long long _state;
-    MNDispatchTimer *_locationStoppedTimer;
-    _Bool _locationStoppedCondition;
-    MNDispatchTimer *_vehicleDisconnectExpirationTimer;
-    _Bool _vehicleDisconnectedCondition;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)Y7=;
+- (void);
+- (void);
+- (void);
+- (void)G4;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)ʖ;
+- (void)@;
+- (void)moduleName;
+- (void)kXPCIAPAppSendDebugCommand;
 - (void)q1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MNParkedVehicleDetectorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

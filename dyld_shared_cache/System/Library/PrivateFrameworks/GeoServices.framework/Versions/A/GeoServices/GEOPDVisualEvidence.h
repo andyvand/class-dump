@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDVisualEvidence
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_visualEvidenceItems;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)�;
+- (_Bool)#;
 - (id)1"read_brandDisplayName"b1"wrote_anyField"b1};
-- (id)er;
+- (id)_snappedRoutesIsolater;
 - (id)0;
 - (void);
 

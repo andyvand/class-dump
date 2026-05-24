@@ -6,28 +6,23 @@
 
 #import <PodcastsFoundation/MTBaseFeedRequest.h>
 
-@class NSArray;
-
 @interface MTPartialFeedRequest : MTBaseFeedRequest
 {
     long long limit;
-    void sections;
-    _Bool showTypeIsSerial;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void);
+- (id)textView:doubleClickedOnCell:inRect:atIndex: /* Error: Ran out of types for this method. */;
+- (void)tem Reason  :(id)arg1 %s
+;
 - (long long);
 - (void)7FailureOUQyd0__;
 
 // Remaining properties
 @property(nonatomic) long long limit; // @synthesize limit;
-@property(nonatomic, copy) NSArray *sections;
-@property(nonatomic) _Bool showTypeIsSerial; // @synthesize showTypeIsSerial;
 
 @end
 

@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface MKGeoJSONFeature
 {
     NSString *_identifier;
-    NSData *_properties;
-    NSArray *_geometry;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)gnizeWithEvent: /* Error: Ran out of types for this method. */;
+- (void)gestureRecognizer:shouldAttemptToRecognizeWithEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *geometry; // @synthesize geometry=_geometry;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *properties; // @synthesize properties=_properties;
-@property(readonly) Class superclass;
 
 @end
 

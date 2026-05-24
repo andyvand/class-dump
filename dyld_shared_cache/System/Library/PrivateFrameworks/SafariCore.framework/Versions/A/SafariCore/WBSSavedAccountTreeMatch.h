@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary, NSString;
 
 @interface WBSSavedAccountTreeMatch
 {
     NSMutableDictionary *_accountStoreTreeMatchingSearchCriteria;
-    NSString *_domain;
-    long long _matchLevel;
 }
 
 + (_Bool);
@@ -24,14 +22,11 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)ider %@;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *accountStoreTreeMatchingSearchCriteria; // @synthesize accountStoreTreeMatchingSearchCriteria=_accountStoreTreeMatchingSearchCriteria;
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) NSMutableArray *flattenedSavedAccountsFromTree;
-@property(readonly, nonatomic) long long matchLevel; // @synthesize matchLevel=_matchLevel;
 
 @end
 

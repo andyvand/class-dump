@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADOrientedBounds
 {
     struct CGRect mBounds;
-    float mRotation;
-    unsigned int mFlipX:1;
-    unsigned int mFlipY:1;
-    int mModeX;
-    int mModeY;
 }
 
 + (id);
@@ -27,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct CGSize);
 - (void);

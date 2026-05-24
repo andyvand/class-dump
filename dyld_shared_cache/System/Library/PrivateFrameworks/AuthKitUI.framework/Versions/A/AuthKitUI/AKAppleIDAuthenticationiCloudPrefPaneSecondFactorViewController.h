@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKNoCodeReceivedController, AKPinFieldView, NSButton, NSLayoutConstraint, NSNumber, NSObject, NSProgressIndicator, NSString, NSTextField, NSView, NSWindow;
-@protocol AKSecondFactorCodeEntryDelegate;
+@class AKPinFieldView;
 
 @interface AKAppleIDAuthenticationiCloudPrefPaneSecondFactorViewController
 {
     _Bool _makeSheetCritical;
-    _Bool _isCodeEditable;
-    NSObject<AKSecondFactorCodeEntryDelegate> *_delegate;
-    NSView *_pinContainerView;
-    NSTextField *_titleLabel;
-    NSTextField *_instructionLabel;
-    NSTextField *_errorLabel;
-    NSProgressIndicator *_progressIndicator;
-    NSButton *_noCodeButton;
-    NSButton *_cancelButton;
-    NSButton *_doneButton;
-    NSLayoutConstraint *_widthOfPinViewConstraint;
-    CDUnknownBlockType _noCodeButtonAction;
-    CDUnknownBlockType _cancelButtonAction;
-    CDUnknownBlockType _doneButtonAction;
-    NSWindow *_hostWindow;
-    NSNumber *_defaultCode;
-    NSNumber *_codeLength;
-    AKPinFieldView *_pinView;
-    NSString *_code;
-    NSString *_message;
-    AKNoCodeReceivedController *_noCodeRecievedController;
 }
 
 - (id);
@@ -52,11 +30,11 @@
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@;
 - (id);
+- (_Bool);
+- (void);
 - (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -77,53 +55,26 @@
 - (void);
 - (id);
 - (id);
+- (void)t hint
+;
+- (CDUnknownBlockType)ice Open succeeded with usage type:%d
+ /* Error: Ran out of types for this method. */;
+- (void)dma_src1_read_intra_conflict_cycle;
 - (void);
-- (CDUnknownBlockType);
+- (id)I;
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)P;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(copy, nonatomic) CDUnknownBlockType cancelButtonAction; // @synthesize cancelButtonAction=_cancelButtonAction;
-@property(retain, nonatomic) NSString *code; // @synthesize code=_code;
-@property(retain, nonatomic) NSNumber *codeLength; // @synthesize codeLength=_codeLength;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSNumber *defaultCode; // @synthesize defaultCode=_defaultCode;
-@property(retain, nonatomic) NSObject<AKSecondFactorCodeEntryDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(copy, nonatomic) CDUnknownBlockType doneButtonAction; // @synthesize doneButtonAction=_doneButtonAction;
-@property(readonly, nonatomic) NSNumber *enteredPin;
-@property(retain, nonatomic) NSTextField *errorLabel; // @synthesize errorLabel=_errorLabel;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(retain, nonatomic) NSTextField *instructionLabel; // @synthesize instructionLabel=_instructionLabel;
-@property(nonatomic, setter=setCodeEditable:) _Bool isCodeEditable; // @synthesize isCodeEditable=_isCodeEditable;
-@property(nonatomic) _Bool makeSheetCritical; // @synthesize makeSheetCritical=_makeSheetCritical;
-@property(retain, nonatomic) NSString *message; // @synthesize message=_message;
-@property(retain, nonatomic) NSButton *noCodeButton; // @synthesize noCodeButton=_noCodeButton;
-@property(copy, nonatomic) CDUnknownBlockType noCodeButtonAction; // @synthesize noCodeButtonAction=_noCodeButtonAction;
-@property(retain, nonatomic) AKNoCodeReceivedController *noCodeRecievedController; // @synthesize noCodeRecievedController=_noCodeRecievedController;
-@property(retain, nonatomic) NSView *pinContainerView; // @synthesize pinContainerView=_pinContainerView;
 @property(retain, nonatomic) AKPinFieldView *pinView; // @synthesize pinView=_pinView;
-@property(retain, nonatomic) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSLayoutConstraint *widthOfPinViewConstraint; // @synthesize widthOfPinViewConstraint=_widthOfPinViewConstraint;
 
 @end
 

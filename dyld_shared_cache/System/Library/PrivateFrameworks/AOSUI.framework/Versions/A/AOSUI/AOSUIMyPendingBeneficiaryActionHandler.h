@@ -6,28 +6,21 @@
 
 #import <AOSUI/AOSUIMyBeneficiaryActionHandler.h>
 
-@class AOSUIAccountContactPromptController, AOSUIAccountContactsSharingController, AOSUIOBBaseViewController, NSString, NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface AOSUIMyPendingBeneficiaryActionHandler : AOSUIMyBeneficiaryActionHandler
 {
     unsigned long long _currentRadioListSelection;
-    AOSUIOBBaseViewController *baseViewController;
-    NSWindow *_modalWindow;
-    unsigned long long currentSetupStep;
-    AOSUIAccountContactPromptController *_viewController;
-    AOSUIAccountContactsSharingController *_sharingController;
 }
 
 - (void);
 - (void);
+- (void)(3;
+- (void)@ ae;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)a;
+- (id)d!C;
 - (void);
 - (void);
 - (void);
@@ -39,13 +32,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

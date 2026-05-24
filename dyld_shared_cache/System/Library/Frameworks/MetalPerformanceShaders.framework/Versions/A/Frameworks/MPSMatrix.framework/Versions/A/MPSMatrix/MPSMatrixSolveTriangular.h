@@ -11,13 +11,6 @@
 @interface MPSMatrixSolveTriangular : MPSMatrixBinaryKernel
 {
     _Bool _right;
-    _Bool _upper;
-    _Bool _transpose;
-    _Bool _unit;
-    unsigned long long _order;
-    unsigned long long _numberOfRightHandSides;
-    double _alpha;
-    MPSMatrix *_workspace;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -25,27 +18,20 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)O;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)and not starting again.;
 - (double);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) unsigned long long numberOfRightHandSides; // @synthesize numberOfRightHandSides=_numberOfRightHandSides;
-@property(nonatomic) unsigned long long order; // @synthesize order=_order;
-@property(readonly, nonatomic) _Bool right; // @synthesize right=_right;
-@property(readonly, nonatomic) _Bool transpose; // @synthesize transpose=_transpose;
-@property(readonly, nonatomic) _Bool unit; // @synthesize unit=_unit;
-@property(readonly, nonatomic) _Bool upper; // @synthesize upper=_upper;
 @property(nonatomic) MPSMatrix *workspace; // @synthesize workspace=_workspace;
 
 @end

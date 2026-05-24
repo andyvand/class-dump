@@ -9,18 +9,10 @@
 @interface PPPBLabeledPostalAddress
 {
     NSString *_city;
-    NSString *_country;
-    NSString *_isoCountryCode;
-    NSString *_label;
-    NSString *_postalCode;
-    NSString *_state;
-    NSString *_street;
-    NSString *_subAdministrativeArea;
-    NSString *_subLocality;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -28,55 +20,38 @@
 - (void);
 - (void);
 - (id);
+- (_Bool)->base.descriptor == &pg_query__create_subscription_stmt__descriptor;
+- (id);
+- (void);
+- (id);
+- (id)!;
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)~�;
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)validation and does not match chat from identifiers %@. Validating chat from chat identifiers to see whether it passes validation.;
+- (void)P;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
+- (void)<;
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)`;
 - (void)!Dù1÷1Â0@ù
 × ;
-- (_Bool)CaseInsensitiveCompare: /* Error: Ran out of types for this method. */;
+- (_Bool)localizedCaseInsensitiveCompare: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *city; // @synthesize city=_city;
-@property(retain, nonatomic) NSString *country; // @synthesize country=_country;
-@property(readonly, nonatomic) _Bool hasCity;
-@property(readonly, nonatomic) _Bool hasCountry;
-@property(readonly, nonatomic) _Bool hasIsoCountryCode;
 @property(readonly, nonatomic) _Bool hasLabel;
-@property(readonly, nonatomic) _Bool hasPostalCode;
-@property(readonly, nonatomic) _Bool hasState;
-@property(readonly, nonatomic) _Bool hasStreet;
-@property(readonly, nonatomic) _Bool hasSubAdministrativeArea;
-@property(readonly, nonatomic) _Bool hasSubLocality;
-@property(retain, nonatomic) NSString *isoCountryCode; // @synthesize isoCountryCode=_isoCountryCode;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(retain, nonatomic) NSString *state; // @synthesize state=_state;
-@property(retain, nonatomic) NSString *street; // @synthesize street=_street;
-@property(retain, nonatomic) NSString *subAdministrativeArea; // @synthesize subAdministrativeArea=_subAdministrativeArea;
-@property(retain, nonatomic) NSString *subLocality; // @synthesize subLocality=_subLocality;
 
 @end
 

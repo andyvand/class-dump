@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface SXTextStyleAttributesMap
 {
     NSString *_string;
-    NSMutableArray *_attributes;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *attributes; // @synthesize attributes=_attributes;
 @property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

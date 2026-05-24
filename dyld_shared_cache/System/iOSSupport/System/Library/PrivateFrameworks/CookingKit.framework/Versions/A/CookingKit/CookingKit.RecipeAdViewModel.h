@@ -8,8 +8,6 @@
 {
     id adViewControllerProvider;
     id _recipeID;
-    id _adPlacement;
-    id _$observationRegistrar;
 }
 
 @end

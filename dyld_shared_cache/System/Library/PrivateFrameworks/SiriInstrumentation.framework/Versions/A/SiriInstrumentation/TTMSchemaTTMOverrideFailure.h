@@ -6,44 +6,33 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface TTMSchemaTTMOverrideFailure : SISchemaInstrumentationMessage
 {
     int _overrideType;
-    int _reason;
-    struct {
-        unsigned int overrideType:1;
-        unsigned int reason:1;
-    } _has;
 }
 
 - (void);
 - (id);
-- (int);
+- (int)city:maxBatteryCapacity:consumptionArguments:chargingArguments:isCharging:activeConnector: /* Error: Ran out of types for this method. */;
 - (int);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)eTimeButton;
+- (_Bool)iated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join AS cmj ON m.ROWID = cmj.message_id WHERE error == 0 AND is_from_me == 0 AND item_type == 0 AND is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT ?;;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)questMatch;
+- (id)deletePrimitiveDouble;
+- (id)_isHighQualityRequestMatch;
 - (void)ntEvent.UEIDictationEuclidSpeechAlternativesSelected;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOverrideType;
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int overrideType; // @synthesize overrideType=_overrideType;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end
 

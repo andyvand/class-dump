@@ -7,12 +7,6 @@
 @interface NewsUI2.SportsManagementDetailDataManager
 {
     id delegate;
-    id model;
-    id tagService;
-    id recommendationService;
-    id configManager;
-    id sportsOnboardingManager;
-    id sportsGraphManager;
 }
 
 @end

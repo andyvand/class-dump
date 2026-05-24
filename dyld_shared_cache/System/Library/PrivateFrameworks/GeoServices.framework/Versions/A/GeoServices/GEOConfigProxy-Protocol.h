@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol GEOConfigStorageExpiry, GEOConfigStorageReadWrite;
+
 @protocol GEOConfigProxy
+- (id <GEOConfigStorageReadWrite>);
+- (id <GEOConfigStorageExpiry>)cate workspace of size %ld for SparseSolve().
+;
+- (id <GEOConfigStorageReadWrite>);
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXContainerComponentBlueprint, SXLayouterFactory;
-@protocol SXColumnCalculator, SXLayouterDelegate, SXUnitConverterFactory;
+@class SXLayouterFactory;
+@protocol SXLayouterDelegate;
 
 @interface SXCollectionLayouter
 {
     id <SXLayouterDelegate> _delegate;
-    SXLayouterFactory *_layouterFactory;
-    SXContainerComponentBlueprint *_containerComponentBlueprint;
-    id <SXColumnCalculator> _columnCalculator;
-    id <SXUnitConverterFactory> _unitConverterFactory;
 }
 
 - (id);
@@ -28,18 +24,7 @@
 - (void)<SXFullscreenCaptionDataSource>";
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXColumnCalculator> columnCalculator; // @synthesize columnCalculator=_columnCalculator;
-@property(readonly, nonatomic) SXContainerComponentBlueprint *containerComponentBlueprint; // @synthesize containerComponentBlueprint=_containerComponentBlueprint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SXLayouterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) SXLayouterFactory *layouterFactory; // @synthesize layouterFactory=_layouterFactory;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXUnitConverterFactory> unitConverterFactory; // @synthesize unitConverterFactory=_unitConverterFactory;
 
 @end
 

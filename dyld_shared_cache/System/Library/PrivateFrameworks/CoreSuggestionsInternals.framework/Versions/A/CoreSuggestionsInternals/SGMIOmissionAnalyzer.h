@@ -10,11 +10,11 @@
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)sions/A/CoreFoundation;
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)ACUIAccountTypesCellView";
++ (id)_headerGenericAccount;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @protocol AppStoreKit.ArcadeDownloadPackDataObjectExports__priv_A4DBBA6F82782A07ADEDF2D7B63907F0
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *apps;
-@property(nonatomic, readonly) NSString *subscriptionStatus;
 @end
 

@@ -6,21 +6,18 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSMutableArray, NSObject, NSString, TSDInfoGeometry;
-@protocol TSDContainerInfo, TSDOwningAttachment;
+@class TSDInfoGeometry;
 
 @interface TSDContainerInfo : TSPObject
 {
     TSDInfoGeometry *mGeometry;
-    NSObject<TSDContainerInfo> *mParentInfo;
-    NSMutableArray *mChildInfos;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (long long);
 - (id);
@@ -32,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (Class);
+- (Class)R;
 - (id);
 - (id);
 - (id);
@@ -40,36 +37,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (Class);
-- (void)yout:(id)arg1 forSpellingErrorsWithHitBlock:stop: /* Error: Ran out of types for this method. */;
-- (id)rovider;
+- (void)searchLayout:(id)arg1 forSpellingErrorsWithHitBlock:stop: /* Error: Ran out of types for this method. */;
+- (id)newCGDataProvider;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAnchoredToText) _Bool anchoredToText;
-@property(readonly, nonatomic, getter=isAttachedToBodyText) _Bool attachedToBodyText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isFloatingAboveText) _Bool floatingAboveText;
 @property(copy, nonatomic) TSDInfoGeometry *geometry; // @synthesize geometry=mGeometry;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInlineWithText) _Bool inlineWithText;
-@property(nonatomic) _Bool matchesObjectPlaceholderGeometry;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) TSPObject<TSDOwningAttachment> *owningAttachment;
-@property(readonly, nonatomic) TSPObject<TSDOwningAttachment> *owningAttachmentNoRecurse;
-@property(nonatomic) NSObject<TSDContainerInfo> *parentInfo; // @synthesize parentInfo=mParentInfo;
-@property(readonly) Class superclass;
 
 @end
 

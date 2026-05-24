@@ -7,7 +7,6 @@
 @interface SXSearchResults
 {
     unsigned long long _total;
-    unsigned long long _index;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 - (void)e>",&,N,V_componentViewEngine;
 
 // Remaining properties
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
 @property(nonatomic) unsigned long long total; // @synthesize total=_total;
 
 @end

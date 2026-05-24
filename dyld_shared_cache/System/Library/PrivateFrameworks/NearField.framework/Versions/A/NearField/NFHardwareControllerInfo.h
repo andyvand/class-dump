@@ -7,26 +7,12 @@
 @interface NFHardwareControllerInfo
 {
     _Bool _hasAntenna;
-    _Bool _hasIcfResistor;
-    _Bool _hasMFW;
-    _Bool _hasHLMSupport;
-    _Bool _hasLPEMSupport;
-    _Bool _poweredRunDuringSleep;
-    _Bool _hasCarKeySupport;
-    _Bool _hasReaderModeSupport;
-    _Bool _hasSEPoweredInOFF;
-    unsigned long long _siliconVersion;
-    unsigned long long _siliconName;
-    unsigned long long _ROMVersion;
-    unsigned long long _firmwareVersion;
-    unsigned long long _firmwareRevision;
-    unsigned long long _middlewareVersion;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)67;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,28 +23,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)hN;
+- (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long)× ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long ROMVersion; // @synthesize ROMVersion=_ROMVersion;
-@property(readonly, nonatomic) unsigned long long firmwareRevision; // @synthesize firmwareRevision=_firmwareRevision;
-@property(readonly, nonatomic) unsigned long long firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(readonly, nonatomic) _Bool hasAntenna; // @synthesize hasAntenna=_hasAntenna;
-@property(readonly, nonatomic) _Bool hasCarKeySupport; // @synthesize hasCarKeySupport=_hasCarKeySupport;
-@property(readonly, nonatomic) _Bool hasHLMSupport; // @synthesize hasHLMSupport=_hasHLMSupport;
-@property(readonly, nonatomic) _Bool hasIcfResistor; // @synthesize hasIcfResistor=_hasIcfResistor;
-@property(readonly, nonatomic) _Bool hasLPEMSupport; // @synthesize hasLPEMSupport=_hasLPEMSupport;
-@property(readonly, nonatomic) _Bool hasMFW; // @synthesize hasMFW=_hasMFW;
-@property(readonly, nonatomic) _Bool hasReaderModeSupport; // @synthesize hasReaderModeSupport=_hasReaderModeSupport;
-@property(readonly, nonatomic) _Bool hasSEPoweredInOFF; // @synthesize hasSEPoweredInOFF=_hasSEPoweredInOFF;
-@property(readonly, nonatomic) unsigned long long middlewareVersion; // @synthesize middlewareVersion=_middlewareVersion;
-@property(readonly, nonatomic) _Bool poweredRunDuringSleep; // @synthesize poweredRunDuringSleep=_poweredRunDuringSleep;
-@property(readonly, nonatomic) unsigned long long siliconName; // @synthesize siliconName=_siliconName;
 @property(readonly, nonatomic) unsigned long long siliconVersion; // @synthesize siliconVersion=_siliconVersion;
 
 @end

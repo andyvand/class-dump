@@ -8,15 +8,15 @@
 {
 }
 
-+ (_Bool);
++ (_Bool){;
 + (double);
-+ (_Bool);
++ (_Bool)˜h|;
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-- (_Bool);
++ (_Bool);
+- (_Bool)Ez;
 - (long long);
 
 @end

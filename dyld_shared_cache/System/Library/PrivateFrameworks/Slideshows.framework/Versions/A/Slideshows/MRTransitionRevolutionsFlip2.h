@@ -9,7 +9,6 @@
 @interface MRTransitionRevolutionsFlip2 : MRTransition
 {
     unsigned char _numberOfElements;
-    _Bool _isVertical;
 }
 
 - (void);

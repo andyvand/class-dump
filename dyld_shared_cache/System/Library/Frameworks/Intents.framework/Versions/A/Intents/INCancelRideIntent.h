@@ -17,8 +17,8 @@
 + (id)er"8;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)L8;
+- (void)Ps=%@);
 - (id);
 - (id);
 - (void)yments.SendPaymentIntent;

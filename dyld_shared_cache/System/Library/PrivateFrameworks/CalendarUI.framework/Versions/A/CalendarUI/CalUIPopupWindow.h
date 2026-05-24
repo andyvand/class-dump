@@ -9,7 +9,6 @@
 @interface CalUIPopupWindow
 {
     _Bool _hasCloseBox;
-    NSView *_controlView;
 }
 
 + (id);
@@ -21,15 +20,14 @@
 - (double);
 - (void);
 - (id);
+- (void))	;
+- (_Bool)d45;
 - (void);
-- (_Bool);
-- (void);
-- (id):(id)arg1 inCalendar: /* Error: Ran out of types for this method. */;
-- (_Bool)yle:scale: /* Error: Ran out of types for this method. */;
+- (id)dateByAddingMonths:(id)arg1 inCalendar: /* Error: Ran out of types for this method. */;
+- (_Bool)configurationWithTextStyle:scale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSView *controlView; // @synthesize controlView=_controlView;
-@property _Bool hasCloseBox; // @synthesize hasCloseBox=_hasCloseBox;
 
 @end
 

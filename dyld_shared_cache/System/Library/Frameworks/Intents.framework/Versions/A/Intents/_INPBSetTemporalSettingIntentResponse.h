@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange;
+@class NSString;
 
 @interface _INPBSetTemporalSettingIntentResponse
 {
     struct _has;
-    NSString *_errorDetail;
-    _INPBDateTimeRange *_oldValue;
-    _INPBDateTimeRange *_updatedValue;
 }
 
 + (_Bool);
@@ -24,30 +21,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)4˟;
 - (id);
-- (unsigned long long);
+- (unsigned long long)	;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)angUpCallIntentResponseCodeInProgress;
+- (void)INHangUpCallIntentResponseCodeInProgress;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *errorDetail; // @synthesize errorDetail=_errorDetail;
-@property(readonly, nonatomic) _Bool hasErrorDetail;
-@property(readonly, nonatomic) _Bool hasOldValue;
-@property(readonly, nonatomic) _Bool hasUpdatedValue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBDateTimeRange *oldValue; // @synthesize oldValue=_oldValue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDateTimeRange *updatedValue; // @synthesize updatedValue=_updatedValue;
 
 @end
 

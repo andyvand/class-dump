@@ -7,6 +7,7 @@
 @interface NewsEngagement.EngagementDebugRequestFactory
 {
     id lastEmittedTime;
+    id;
 }
 
 @end

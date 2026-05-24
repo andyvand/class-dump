@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ABCNContactIdentifier, NSArray;
+
 @protocol ABCNDataMapper
+- (ABCNContactIdentifier *)A;
+- (NSArray *)/;
+- (void);
 @end
 

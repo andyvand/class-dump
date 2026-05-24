@@ -4,54 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface DSP_HAL_Mock_PropertySet
 {
     struct DSP_HAL_Mock_Property *_propAvailableOffloadsInput;
-    struct DSP_HAL_Mock_Property *_propVoiceActivityState;
-    struct DSP_HAL_Mock_Property *_propDSPGraphParam;
-    struct DSP_HAL_Mock_Property *_propHasDSPGraphParam;
-    function_24f086e5 _propertyUpdater;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)7(7;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)@9;
 - (struct DSP_HAL_Mock_Property *);
 - (struct DSP_HAL_Mock_Property *);
 - (struct DSP_HAL_Mock_Property *);
 - (struct DSP_HAL_Mock_Property *);
-- (_Bool);
+- (_Bool)`;
 - (unsigned int);
 - (id);
 - (id);
 - (void);
 - (void);
-- (function_24f086e5);
+- (function_de438ca0);
 - (void);
-- (id);
+- (id)7e ;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct DSP_HAL_Mock_Property *propAvailableOffloadsInput; // @synthesize propAvailableOffloadsInput=_propAvailableOffloadsInput;
-@property(nonatomic) struct DSP_HAL_Mock_Property *propDSPGraphParam; // @synthesize propDSPGraphParam=_propDSPGraphParam;
-@property(nonatomic) struct DSP_HAL_Mock_Property *propHasDSPGraphParam; // @synthesize propHasDSPGraphParam=_propHasDSPGraphParam;
-@property(nonatomic) struct DSP_HAL_Mock_Property *propVoiceActivityState; // @synthesize propVoiceActivityState=_propVoiceActivityState;
-@property(nonatomic) function_24f086e5 propertyUpdater; // @synthesize propertyUpdater=_propertyUpdater;
-@property(readonly) Class superclass;
 
 @end
 

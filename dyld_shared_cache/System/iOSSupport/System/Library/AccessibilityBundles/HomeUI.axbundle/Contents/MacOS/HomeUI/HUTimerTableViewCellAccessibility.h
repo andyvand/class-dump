@@ -4,14 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface HUTimerTableViewCellAccessibility
+#import <HomeUI/__HUTimerTableViewCellAccessibility_super.h>
+
+@interface HUTimerTableViewCellAccessibility : __HUTimerTableViewCellAccessibility_super
 {
 }
 
 + (Class);
 + (id);
 + (void);
-- (id);
+- (id)validateClass:hasInstanceMethod:withFullSignature: /* Error: Ran out of types for this method. */;
 
 @end
 

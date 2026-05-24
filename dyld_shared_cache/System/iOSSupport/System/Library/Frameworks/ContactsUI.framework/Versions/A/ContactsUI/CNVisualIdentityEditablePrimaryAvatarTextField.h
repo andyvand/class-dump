@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGRect)wActionAtIndex:(id)arg1;
+- (struct CGRect)performCustomViewActionAtIndex:(id)arg1;
 
 @end
 

@@ -7,6 +7,7 @@
 @protocol PXUIImageProvider
 
 @optional
-- (void)ttomPaddingAreaIsFullyVisible;
+- (void)@;
+- (void)fromBottomPaddingAreaIsFullyVisible;
 @end
 

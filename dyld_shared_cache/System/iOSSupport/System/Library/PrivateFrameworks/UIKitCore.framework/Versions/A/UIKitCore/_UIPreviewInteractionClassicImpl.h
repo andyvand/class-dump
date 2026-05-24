@@ -4,42 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSString, UIPreviewInteraction, UIView, _UIDeepPressAnalyzer, _UIPreviewInteractionHighlighter, _UIPreviewInteractionStateRecognizer, _UIPreviewInteractionViewControllerHelper, _UIStatesFeedbackGenerator;
-@protocol UIPreviewInteractionDelegate, _UIPreviewInteractionTouchForceProviding;
+@class UIView;
+@protocol UIPreviewInteractionDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionClassicImpl
 {
     UIView *_view;
-    struct {
-        unsigned int delegatePreviewInteractionShouldBegin:1;
-        unsigned int delegateDidUpdateCommitTransition:1;
-        unsigned int delegateShouldFinishTransitionToPreview:1;
-        unsigned int delegateShouldAutomaticallyTransitionToPreviewAfterDelay:1;
-        unsigned int delegateHighlighterForPreviewTransition:1;
-        unsigned int delegateViewControllerPresentationForPresentingViewController:1;
-        unsigned int interactive:1;
-        unsigned int delegateDidPreventInteraction:1;
-        unsigned int interactionRequiresRestart:1;
-        unsigned int interactionWasCancelled:1;
-        unsigned int previousProgressWasNegativeOrZero:1;
-        unsigned int currentState:3;
-        unsigned int nextUpdateShouldTransitionToPreview:1;
-        unsigned int nextPreviewShouldPreventHapticFeedback:1;
-    } _previewInteractionFlags;
-    id <_UIPreviewInteractionTouchForceProviding> _systemTouchForceProvider;
-    _UIPreviewInteractionStateRecognizer *_currentInteractionStateRecognizer;
-    struct CGPoint _sceneReferenceLocationFromLatestUpdate;
-    CADisplayLink *_continuousEvaluationDisplayLink;
-    _UIDeepPressAnalyzer *_deepPressAnalyzer;
-    _UIStatesFeedbackGenerator *_feedbackGenerator;
-    _Bool _feedbackGeneratorTurnedOn;
-    _UIPreviewInteractionHighlighter *_highlighter;
-    _UIPreviewInteractionViewControllerHelper *_viewControllerHelper;
-    id _viewControllerPresentationObserver;
-    id <UIPreviewInteractionDelegate> _delegate;
-    id <_UIPreviewInteractionTouchForceProviding> _touchForceProvider;
-    UIPreviewInteraction *_previewInteraction;
 }
 
 - (id);
@@ -47,53 +18,43 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_saveRecoverableMessagesOperationFactory:(double)arg1 token:(double)arg2 batchSize:(struct CGPoint)arg3 recordNameToPartIndexAndRowID:activity: /* Error: Ran out of types for this method. */;
+- (void)_requestResourceFileURLsForAsset:(double)arg1 fileTransfer:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)DisableScreenTimeRestrictions:hasAttachments:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (void)_quickSwitchIDSService;
+- (void)_getDevicesForBothNicknameServices:removeNewServiceURIsFromIMessageList:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_getDevicesForBothNicknameServices:removeNewServiceURIsFromIMessageList:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)NSString",&,N,V_lastPublisherOfOffGridStatus;
+- (void);
+- (void)So30IMDScheduledMessageCoordinatorC;
+- (void)So32IMDServiceReachabilityControllerC;
+- (void)So23IMServiceForSendingTaskCSgXwz_Xx;
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)d GUID %s;
+- (void), generating new chat identifier %s and GUID %s;
+- (void)ionary %s;
+- (void)te CKRecord!;
+- (void)ill kick sync appropriately;
+- (void)ckname map %@;
+- (_Bool)o store nil dictionary;
+- (void)lVersion:%@, isIncomingParticipantSetSame %@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id)yReactionSocialProfile;
 - (struct CGPoint);
 - (id);
 - (void);
 - (void);
-- (void)ictedDistributionTerms;
+- (void)didAcceptRestrictedDistributionTerms;
 - (id)omOutline;
 - (void)IBackdropViewGraphicsQualityChangeDelegate>",N,V_graphicsQualityChangeDelegate;
 - (void)\ðq,ToþToþ@hR0;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UIPreviewInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIPreviewInteraction *previewInteraction; // @synthesize previewInteraction=_previewInteraction;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <_UIPreviewInteractionTouchForceProviding> touchForceProvider; // @synthesize touchForceProvider=_touchForceProvider;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

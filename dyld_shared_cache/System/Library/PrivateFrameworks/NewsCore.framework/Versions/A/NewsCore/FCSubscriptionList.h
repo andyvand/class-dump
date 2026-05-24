@@ -6,20 +6,12 @@
 
 #import <NewsCore/FCPrivateDataController.h>
 
-@class FCMTWriterLock, NSArray, NSDictionary, NSMutableDictionary, NSOrderedSet, NSSet;
+@class NSOrderedSet;
 @protocol FCTagRanking;
 
 @interface FCSubscriptionList : FCPrivateDataController
 {
     id <FCTagRanking> _subscribedTagRanker;
-    NSOrderedSet *_orderedSubscribedTagIDsInternal;
-    NSSet *_subscribedTagIDsInternal;
-    NSSet *_mutedTagIDsInternal;
-    NSSet *_autoFavoriteTagIDsInternal;
-    NSSet *_groupableTagIDsInternal;
-    NSSet *_ignoredTagIDsInternal;
-    NSMutableDictionary *_mutableSubscriptionsBySubscriptionID;
-    FCMTWriterLock *_itemsLock;
 }
 
 + (_Bool);
@@ -29,46 +21,46 @@
 + (_Bool);
 + (void);
 + (id);
-+ (long long);
++ (long long)_setEntry:forKey:invalidationKey:failIfAlreadyPresent: /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (id);
-+ (unsigned long long);
++ (unsigned long long)UIDragInteractionDelegate_Private;
 + (id);
 + (id)Z;
-- (_Bool);
+- (_Bool)c;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
+- (_Bool)@;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id)+;
+- (id)ewState"16@0:(id)arg1 8;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id)ation: /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (_Bool)@36;
+- (_Bool)ror">24;
+- (_Bool);
+- (_Bool)?;
+- (_Bool)_iopmNotificationMonitor;
+- (id)ISUIVisibilityOffsetHelper;
 - (id);
 - (id);
 - (id);
@@ -76,26 +68,17 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)|f.recursivelyRemoveMailAttributes(!i,o,!1),f){let t,n,o=!0;for(t=m;o&&t;t=t.parentNode)o=u!==t;if(!o)for(t=m;t;t=t.parentNode){let e=t.cloneNode();if(e.appendChild(f),f=e,n=t,t===u){m=t.parentNode;break}}let r=e.head?e.head.cloneNode(!0):(id)arg1 e.createElement("head");for(i||(c=r.querySelector("meta[http-equiv=Content-Type]"))||(c=e.createElement("meta"),r.appendChild(c)),f.insertBefore(r,f.firstChild),t=m;t&&e!==t;t=t.parentNode){let e,i=t.cloneNode();if(o&&n)for(e=i.firstChild;e&&n!==e;e=e.nextSibling){let t=e.cloneNode(!0);t&&i.appendChild(t)}if(f&&i.appendChild(f),o&&n)for(e=n.nextSibling;e;e=e.nextSibling){let t=e.cloneNode(!0);t&&i.appendChild(t)}o||(o=u===t),f=i,n=t}}if(f){if(f.normalize(),r){let e;if("html"===f.nodeName.toLowerCase()){let t=f.firstChild;for(;t;){if("body"===t.nodeName.toLowerCase()){e=t;break}t=t.nextSibling}}if(e){e.removeAttribute("id"),e.removeAttribute("contenteditable"),e.removeAttribute("style");let t=e.getElementsByTagName("IMG");for(let e=0;e<t.length;e++){let n,i=t.item(e);try{n=new URL(i.src)}catch(e){}n!==undefined&&"file:(unsigned long long)arg2 "===n.protocol&&i.setAttribute("SRC","cid:"+n.pathname.substring(1))}}}if(a){let e=document.isInlineGenmojiEnabled?"attachment, img, picture > source":"attachment, img";f.querySelectorAll(e).forEach(a)}if(d=charsetForString(f.outerHTML,n),i||(c.httpEquiv="content-type",c.content="text/html; charset="+d.charsetName()),l){let e=f.ownerDocument.createRange();e.selectNodeContents(f),e.linkify()}s=f.outerHTML}return{string:s,charset:d}},_isSelectionPlaceholderNode=function(e){return e instanceof HTMLElement&&(e.id!==MFHtmlIDSelectionStart&&e.id!==MFHtmlIDSelectionEnd)};let initialTextOnLoad="",showSmartReplySuggestions=!1,previousWindowInnerWidth=0;window.addEventListener("resize",()=>{let e=window.innerWidth;e&&previousWindowInnerWidth!=e&&(previousWindowInnerWidth=e,updateQuickReplyHeight(document,window))},!0),Object.defineProperty(this,"BodyField",{value:function(){this.bodyInputController=new BodyInputController,addEventListener("beforeinput",e=>{if(document.bigEmojiEnabled&&this.bodyInputController.pickEmojiFontSize(e),"insertParagraph"!==e.inputType||this._insertingNewlineInQuotedContent)return;let t=e.getTargetRanges()[0];t&&t.startContainer.mf_isQuoteOrWithinQuote()&&(e.preventDefault(),this._insertingNewlineInQuotedContent=!0,document.execCommand("InsertNewlineInQuotedContent"),this._insertingNewlineInQuotedContent=!1)}),addEventListener("input",e=>{isQuickReplyEnabled&&window.webkit.messageHandlers.MessageBodyIsEmpty.postMessage("\n"===document.firstChild.stringValue()),document.bigEmojiEnabled&&(e.inputType.startsWith("delete")||e.inputType.startsWith("history")?this.bodyInputController.manageCurrentEmojiFontSize():"insertReplacementText"==e.inputType&&this.bodyInputController.pickEmojiFontSize(e)),postShowSmartReplySuggestionsMessageIfNecessary(document,window),document.mf_quickReplyClearStylesAndSaveNodesIfNeeded(),updateQuickReplyHeight(document,window)}),addEventListener("load",()=>{function e(e){if(e.types.includes("Files"))return null;if(e.types.includes("text/uri-list")){let t=e.getData("text/uri-list").trim();if(t.ef_isWebAddress())return t}if(e.types.includes("text/plain")){let t=e.getData("text/plain").trim();if(t.ef_isWebAddress())return t}return null}document.richLinksEnabled=!0,document.lastRichLinkConvertedToPlain=!1,document.bigEmojiEnabled=bigEmojiEnabled(),document.whitespaceRegex=RegExp(whitespaceRegex),document.emojiRegex=RegExp(emojiRegex,"u"),document.stringToArrayRegex=RegExp(stringToArrayRegex,"gus"),document.canUseNamedLinks=canUseNamedLinks(),document.isInlineGenmojiEnabled=isInlineGenmojiEnabled(),document.addEventListener("drop",t=>{if(!document.richLinksEnabled||!shouldRichifyLinksAutomatically())return;let n=e(t.dataTransfer);if(!n)return;let i=document.caretRangeFromPoint(t.clientX,t.clientY);if(0!=i.startOffset||0!=i.endOffset)return;let o=window.getSelection();o.removeAllRanges(),o.addRange(i),this.insertRichLink(n),t.preventDefault()}),document.addEventListener("paste",t=>{document.bigEmojiEnabled&&this.bodyInputController.pickEmojiFontSize(t);let n=e(t.clipboardData||window.clipboardData);if(!n)return;let i=getSelectionRange();document.canUseNamedLinks&&!i.collapsed?(this.updateLinkInRange(n,i),t.preventDefault()):document.richLinksEnabled&&shouldRichifyLinksAutomatically()&&i&&0==i.startOffset&&0==i.endOffset&&(this.insertRichLink(n),t.preventDefault())}),document.addEventListener("cut",e=>{document.bigEmojiEnabled&&this.bodyInputController.manageBeforeDelete(e.currentTarget.getSelection())}),document.addEventListener("mousemove",function(e){if(!document.richLinksEnabled)return;let t=e.target.richLinkContainer(),n=e.target.richLinkPlaceholderContainer();if(t){this.lastRichLinkElementOrRange=t,this.lastRichLinkCandidateURL=null;let e=t.getBoundingClientRect(),n={x:e.x,y:e.y,width:e.width,height:e.height,url:t.getAttribute("data-url")};window.webkit.messageHandlers.RichLinkHighlighted.postMessage(n)}else if(!n){let t,n,i,o,r;if(e.target instanceof HTMLAnchorElement)r=e.target;else if(e.target.parentNode instanceof HTMLAnchorElement)r=e.target.parentNode;else{let l=document.caretRangeFromPoint(e.x,e.y);if(l&&l.startContainer.nodeType===Node.TEXT_NODE)if(l.startContainer.parentNode instanceof HTMLAnchorElement&&l.startContainer==l.endContainer)r=l.startContainer.parentNode;else{i=!1;let e=getPlainTextURLAtRange(l);e&&(t=e.selectedText,n=e.range,o=null)}}r&&["http:","https:"].includes(r.protocol)&&(i=!0,this.lastLinkElement=r,t=r.href,n=r,o=r.innerText);let l;if(t){let e=n.getBoundingClientRect();l={x:e.x,y:e.y,width:e.width,height:e.height,url:t,isAnchor:i,description:o},this.lastRichLinkElementOrRange=n,this.lastRichLinkCandidateURL=t}else l={x:e.x,y:e.y};window.webkit.messageHandlers.PlainTextLinkHighlighted.postMessage(l)}},!1),previousWindowInnerWidth=window.innerWidth,updateQuickReplyHeight(document,window)})}}),BodyField.prototype={constructor:BodyField},BodyField.prototype.insertString=function(e){let t=document.createElement("div");t.innerHTML=e,this.insertNode(t)},BodyField.prototype.insertNode=function(e){let t=window.getSelection();if(!t.rangeCount){let e=document.createRange(),n=document.body.firstChild;n?(e.setStartAfter(n),e.setEndAfter(n)):e.selectNodeContents(document.body),t.addRange(e)}let n=t.getRangeAt(0);if(document.isInlineGenmojiEnabled&&t.anchorNode instanceof HTMLPictureElement&&"Caret"===t.type){let e=t.anchorNode,n=document.createRange();n.selectNode(e),n.collapse(!1),n.insertNode(attachmentElement)}else this.replaceRangeWithNode(n,e);n.setStartAfter(e),n.setEndAfter(e),t.empty(),t.addRange(n)},BodyField.prototype.insertNodeWithParentAndNextSibling=function(e,t,n){if(t&&e)if(Node.DOCUMENT_FRAGMENT_NODE===e.nodeType){let i;for(;i=e.firstChild;)this.insertNodeWithParentAndNextSibling(i,t,n)}else if(n){if(!t.isSameNode(n.parentNode))return;t.insertBefore(e,n),_isSelectionPlaceholderNode(e)&&(this._dirty=!0)}else t.appendChild(e)},BodyField.prototype.insertNodeWithParentAndOffset=function(e,t,n){let i,o=t.childNodes;if(t&&n<=o.length)if(Node.DOCUMENT_FRAGMENT_NODE===e.nodeType){let i;for(;i=e.firstChild;)this.insertNodeWithParentAndOffset(i,t,n++)}else n===o.length?t.appendChild(e):(i=o.item(n),t.insertBefore(e,i)),_isSelectionPlaceholderNode(e)&&(this._dirty=!0)},BodyField.prototype.deleteNode=function(e){let t=e.parentNode;if(t){e.nextSibling;t.removeChild(e),_isSelectionPlaceholderNode(e)&&(this._dirty=!0)}},BodyField.prototype.updateLinkInRange=function(e,t){let n=t.cloneContents();if(n.hasNoSignificantContents())n=e;else{let e=document.createElement("div");e.appendChild(n),n=e.innerHTML}let i='<a href="'+e+'">'+n+"</a>";document.execCommand("InsertHTML",!1,i)},BodyField.prototype.insertRichLink=async function(e){let t=null,n=Date.now().toString(),i=e=>{let i=e.target;if(i.className!=linkPlaceHolderClass)return;(t=i).setAttribute("class","");let o=t.getBoundingClientRect(),r={x:o.x,y:o.y,width:o.width,height:o.height,linkID:n};window.webkit.messageHandlers.RichLinkPlaceholderInserted.postMessage(r)},o='<a class="'+linkPlaceHolderClass+'" href="'+e+'">'+e+"</a>";document.addEventListener("DOMNodeInserted",i),document.execCommand("InsertHTML",!1,'<div style="display:inline-block;" class="'+linkPlaceHolderClass+'"><span style="-webkit-user-select:none;">'+o+"</span></div>"),document.removeEventListener("DOMNodeInserted",i);let r=await this._createRichLink(e);if(window.webkit.messageHandlers.RichLinkLoaded.postMessage(n),!r)return void(t&&(t.outerHTML=o));let l=this.richLinkFromMarkup(r);if(t&&t.firstChild){t.replaceChild(l,t.firstChild);let e=t.nextSibling;if((!e||e.nodeType===Node.TEXT_NODE&&0==e.textContent.length)&&t.parentNode){let e=document.createElement("div");e.innerHTML="<br>",t.parentNode.insertBefore(e,null),e.focus()}t.setAttribute("style","display:block;")}},BodyField.prototype.richLinkFromMarkup=function(e){let t=document.createElementFromMarkup(e);return t.setAttribute("style","-webkit-user-select:all; -webkit-user-drag:element; display:inline-block;"),t.setAttribute("class",MFRichLinkClass),t.setAttribute("draggable","true"),t.setAttribute("role","link"),t.setAttribute("data-url",t.firstChild.getAttribute("href")),t.addEventListener("click",e=>{e.shiftKey||e.preventDefault()}),t},BodyField.prototype.makeRichLinkFromSelection=function(){document.lastRichLinkConvertedToPlain=!1;let e;if(this.selectionIsWebAddress())e=window.getSelection().getRangeAt(0).toString();else if(document.lastRichLinkElementOrRange&&document.lastRichLinkCandidateURL){let t=document.lastRichLinkElementOrRange;if(t instanceof Element&&t.parentNode){let e=t.parentNode.style;e&&"none"==e.getPropertyValue("-webkit-user-select")&&e.removeProperty("-webkit-user-select")}if(document.getSelection().removeAllRanges(),t instanceof Range)document.getSelection().addRange(t);else if(t instanceof HTMLElement){let e=new Range;e.selectNode(t),document.getSelection().addRange(e)}e=document.lastRichLinkCandidateURL,document.lastRichLinkCandidateURL=null,document.lastRichLinkElementOrRange=null}e&&this.insertRichLink(e)},BodyField.prototype.removeRichLinkFromSelection=function(){let e=document.lastRichLinkElementOrRange;if(e&&!(e instanceof Range)&&e.parentNode&&e.richLinkContainer()==e){document.lastRichLinkConvertedToPlain=!0;let t=decodeURI(e.getAttribute("data-url")),n=document.createElement("a");n.href=t,n.innerHTML=t;let i=e.parentNode.innerHTML==e.outerHTML?e.parentNode:e;if(replaceNodes([i],[n]),document.lastRichLinkElementOrRange=null,!document.undoManager)return;(()=>{const e=[n],t=[i];document.undoManager.addItem(new UndoItem({label:"",undo:()=>{replaceNodes(e,t)},redo:()=>{replaceNodes(t,e)}}))})()}},BodyField.prototype.selectionIsWebAddress=function(){let e=getSelectionRange();return!!e&&e.toString().ef_isWebAddress()},BodyField.prototype.selectionIsRichLink=function(){let e=document.lastRichLinkElementOrRange;return e&&!(e instanceof Range)&&e.parentNode&&e.richLinkContainer()==e},BodyField.prototype._canonicalizeSelection=function(e){let t,n,i,o,r=e.startContainer,l=e.endContainer,a=e.startOffset,s=e.endOffset,d=r===l;if(r instanceof Text)if(t=r.parentNode,a)if(a>=r.length)n=r.nextSibling;else{let e=r.cloneNode(!1),i=e.splitText(a);this.insertNodeWithParentAndNextSibling(e,t,r),this.insertNodeWithParentAndNextSibling(i,t,r),this.deleteNode(r),d&&(s-=Math.min(s,a),l=i),n=i}else n=r;else{for(n=r.firstChild;a--;)n=n.nextSibling;t=r}if(l instanceof Text)if(i=l.parentNode,s)if(s>=l.length)o=l.nextSibling;else{let e=l.cloneNode(!1),t=e.splitText(s);this.insertNodeWithParentAndNextSibling(e,i,l),this.insertNodeWithParentAndNextSibling(t,i,l),d&&l===n&&(n=e),this.deleteNode(l),o=t}else o=l;else{for(o=l.firstChild;s--;)o=o.nextSibling;i=l}return{startParent:t,startNextSibling:n,endParent:i,endNextSibling:o}},BodyField.prototype.deleteRange=function(e){let t=e.commonAncestorContainer,{startParent:n,startNextSibling:i,endParent:o,endNextSibling:r}=this._canonicalizeSelection(e),l=i;for(;l&&(!r||!r.isSameNode(l));)if(r&&r.mf_isDescendantOfNode(l)||!l.isSameNode(o)&&o.mf_isDescendantOfNode(l))l=l.mf_traverseNextNodeStayingWithin(t);else{let e=l.mf_traverseNextSiblingStayingWithin(t);if(this.deleteNode(l),l.isSameNode(o))break;l=e}},BodyField.prototype.splitUpBlockQuotesOverlappingStartOfRange=function(e){let t,n,i,o,r,l,a;for(e.mf_hoistRange(),n=e.mf_firstNode(),i=e.mf_lastNode(),t=(r=n).mf_containingBlockQuote();t;)n.mf_isAtBeginningOfContainerNode(t)?r=r.parentNode:((l=n.ownerDocument.createRange()).setStartBefore(t.firstChild),l.setEndBefore(n),a=l.cloneContents(),(o=n.ownerDocument.mf_createMessageQuoteElement()).appendChild(a),this.deleteRange(l),this.insertNodeWithParentAndNextSibling(o,t.parentNode,t),e.setStartBefore(n),e.setEndAfter(i),r=o.parentNode),t=r.mf_containingBlockQuote()},BodyField.prototype.splitUpBlockQuotesOverlappingEndOfRange=function(e){let t,n,i,o,r,l,a;for(n=e.mf_firstNode(),t=(o=i=e.mf_lastNode()).mf_containingBlockQuote();t;)i.mf_isAtEndOfContainerNode(t)?o=o.parentNode:((l=n.ownerDocument.createRange()).setStartBefore(t.firstChild),l.setEndAfter(e.mf_lastNode()),a=l.cloneContents(),r=n.ownerDocument.mf_createMessageQuoteElement(),n.mf_isDescendantOfNode(t)&&(n=a.firstChild),i=a.lastChild,r.appendChild(a),this.deleteRange(l),this.insertNodeWithParentAndNextSibling(r,t.parentNode,t),e.setStartBefore(n),e.setEndAfter(i),o=r.parentNode),t=o.mf_containingBlockQuote()},BodyField.prototype.replaceNode=function(e,t){e&&t&&(this.insertNodeWithParentAndNextSibling(e,t.parentNode,t),this.deleteNode(t))},BodyField.prototype.removeBlockQuoteFromTree=function(e){let t,n,i=e.parentNode,o=[],r=!1,l=e.ownerDocument.createNodeIterator(e,NodeFilter.SHOW_ELEMENT|NodeFilter.SHOW_TEXT);for(t=l.nextNode();t;t=l.nextNode())if(t!==e&&t.mf_blockNodeAncestor()===e){r=!0;break}for(n=e,r&&(i=e.ownerDocument.createElement("div"),n=null);t=e.firstChild;)this.deleteNode(t),this.insertNodeWithParentAndNextSibling(t,i,n),o.push(t);return r?this.replaceNode(i,e):this.deleteNode(e),o},BodyField.prototype.temporaryEndingSelectionMarker=function(){let e=[window],t=e.length;for(;t>0;){let n,i=e[0];try{n=i.document}catch(e){}if(e.shift(),t--,n instanceof HTMLDocument){let e=n.mf_findElement("SPAN",MFHtmlTemporaryEditingElement,MFHtmlIDSelectionEnd);if(e)return e}let o=i.frames;o.length&&(t+=o.length,e=e.concat(Array.from(o)))}return undefined},BodyField.prototype.insertTemporarySelectionMarkersForRange=function(e){let t=e;t||(t=getSelectionRange());let n;if(t){let{startParent:e,startNextSibling:i,endParent:o,endNextSibling:r}=this._canonicalizeSelection(t),l=e.ownerDocument;if(l&&l instanceof HTMLDocument){let t=l.createElement("SPAN");t.className=MFHtmlTemporaryEditingElement,t.id=MFHtmlIDSelectionStart,this.insertNodeWithParentAndNextSibling(t,e,i),(n=l.createElement("SPAN")).className=MFHtmlTemporaryEditingElement,n.id=MFHtmlIDSelectionEnd,this.insertNodeWithParentAndNextSibling(n,o,r)}}return n},BodyField.prototype.restoreSelectionFromTemporaryMarkers=function(e){let t=[window],n=t.length;for(;n>0;){let i,o=t[0];try{i=o.document}catch(e){}if(t.shift(),n--,i instanceof HTMLDocument){let t=e?undefined:MFHtmlTemporaryEditingElement,n=i.mf_findElement("SPAN",t,MFHtmlIDSelectionStart),o=i.mf_findElement("SPAN",t,MFHtmlIDSelectionEnd);if(n||o){let e=i.createRange();n&&e.setStartBefore(n),o&&e.setEndBefore(o),n||e.collapse(!1),o||e.collapse(!0),n&&this.deleteNode(n),o&&this.deleteNode(o);let t=window.getSelection();t.empty(),t.addRange(e)}}let r=o.frames;r.length&&(n+=r.length,t=t.concat(Array.from(r)))}},BodyField.prototype.changeQuoteLevel=function(e,t){let n=getSelectionRange();if(!n)return;let i=!1,o=n.startContainer,r=o instanceof Document?o:o.ownerDocument;if(n.mf_hoistRange(),!n.collapsed&&e>0){let e=n.endContainer;if(e instanceof Text&&!n.endOffset){let t=e.previousSibling;t&&"blockquote"===t.nodeName.toLowerCase()&&n.setEnd(t,t.childNodes.length)}}this.insertTemporarySelectionMarkersForRange(n);let{parent:l,nextSibling:a}=n.mf_getBlockBoundaryParentAndNextSibling(!0),{parent:s,nextSibling:d}=n.mf_getBlockBoundaryParentAndNextSibling(!1),c=r.createRange();if(a)c.setStartBefore(a);else{let e=l.lastChild;e||(e=l),c.setStartAfter(e)}if(d)c.setEndBefore(d);else{let e=s.lastChild;e||(e=s),c.setEndAfter(e)}let u,m=c.cloneContents();if(1===e){if(u=[],m.firstChild){let e;for(;e=m.firstChild;)u.push(e),m.removeChild(e)}}else-1===e&&(u=r.mf_createMessageQuoteElement()).appendChild(m);let f;if(1===e){let e,n,o,l,m;if(f=r.mf_createMessageQuoteElement(),(m=c.cloneContents())&&f.appendChild(m),f.mf_containsOnlySelectionMarkers()&&f.mf_appendBlockPlaceholder(),i=!0,o=c.startContainer,l=c.endContainer,o===l)this.insertNodeWithParentAndNextSibling(f,o,a),c.setStartAfter(f),d?c.setEndBefore(d):c.setEndAfter(s),this.deleteRange(c);else if((e=c.commonAncestorContainer)===l){for(this.deleteRange(c),n=d;n&&n.parentNode!==e;)n=n.parentNode;this.insertNodeWithParentAndNextSibling(f,e,n)}else if(e===o)this.deleteRange(c),this.insertNodeWithParentAndOffset(f,e,c.startOffset);else{if(this.splitUpBlockQuotesOverlappingStartOfRange(c),this.splitUpBlockQuotesOverlappingEndOfRange(c),f=r.mf_createMessageQuoteElement(),(m=c.cloneContents())&&f.appendChild(m),f.mf_containsOnlySelectionMarkers()&&f.mf_appendBlockPlaceholder(),"blockquote"===(e=c.commonAncestorContainer).nodeName.toLowerCase())c.setStart(e,0),n=undefined,this.deleteRange(c);else{let t=c.endContainer;for(let n=t.parentElement;n!==e;n=n.parentElement)t=n;n=t.nextSibling,this.deleteRange(c),t.parentElement===e&&(n=t)}this.insertNodeWithParentAndNextSibling(f,e,n)}document.undoManager&&(()=>{const e=[f],n=u;document.undoManager.addItem(new UndoItem({label:t,undo:()=>{replaceNodes(e,n)},redo:()=>{replaceNodes(n,e)}}))})()}else if(-1===e){let e,n,o,r,l,a;for(this.splitUpBlockQuotesOverlappingStartOfRange(c),this.splitUpBlockQuotesOverlappingEndOfRange(c),e=c.mf_lastNode(),o=c.mf_firstNode(),l=!1;!l&&o;)(r=(n=o).mf_highestContainingBlockQuote())||(r=n.mf_firstDescendantBlockQuote()),r?(l=e.mf_isDescendantOfNode(r),o=r.mf_nextSiblingOrAunt(),a=this.removeBlockQuoteFromTree(r),i=!0):(l=e.mf_isDescendantOfNode(n)||n.mf_isDescendantOfNode(e),o=n.mf_nextSiblingOrAunt());document.undoManager&&a&&u&&(()=>{const e=a,n=[u];document.undoManager.addItem(new UndoItem({label:t,undo:()=>{replaceNodes(e,n)},redo:()=>{replaceNodes(n,e)}}))})()}return f&&f.parentNode&&this.temporaryEndingSelectionMarker()===f.lastChild&&f.parentNode.insertBefore(this.temporaryEndingSelectionMarker(),f.nextSibling),this.restoreSelectionFromTemporaryMarkers(),i},BodyField.prototype.convertInternalImagesToAttachments=function(e,t,n){let i={},o=document.isInlineGenmojiEnabled?"img, picture > source":"img";for(let e of document.querySelectorAll(o)){let o=e instanceof HTMLSourceElement?e.srcset:e.src;if(!o||!o.startsWith("cid:"))continue;let r=t[o];if(!r)continue;let l=e instanceof HTMLSourceElement?"srcset":"src";e.removeAttribute(l),i[HTMLAttachmentElement.getAttachmentIdentifier(e)]=safeNSURL(o),n&&n(e,r)}return i},BodyField.prototype.replacePlaceholderWithAttachment=function(e,t){let n;if(t.isImage){let t=document.createElement("img");e.replaceWith(t),n=HTMLAttachmentElement.getAttachmentIdentifier(t)}else{let t=document.createElement("attachment");e.replaceWith(t),n=t.uniqueIdentifier}return n},BodyField.prototype.convertSourceElementsToAttachmentElements=function(e,t){return document.isInlineGenmojiEnabled?this.convertElementsToAttachmentElements("picture > source",e,t):{}},BodyField.prototype.convertObjectElementsToAttachmentElements=function(e,t){return this.convertElementsToAttachmentElements("object[type='application/x-apple-msg-attachment']",e,t)},BodyField.prototype.convertElementsToAttachmentElements=function(e,t,n){let i={};for(let o of t.querySelectorAll(e)){let e=o.getAttribute("data"),t=safeNSURL(e);if(!t)continue;let r=n[e];r&&(i[this.replacePlaceholderWithAttachment(o,r)]=t)}return i},BodyField.prototype.replaceRangeWithNode=function(e,t){e.deleteContents(),e.insertNode(t)},BodyField.prototype.stripCustomBodyIdentifiers=function(){this.bodyInputController.stripCustomBodyIdentifiers()},BodyField.prototype.remoteContentEnabled=function(e){document.remoteContentEnabled=e},BodyField.prototype.enableQuickReply=function(e){document.mf_quickReplyDisplayHiddenNodes(!e)};let previousQuickReplyComputedHeight=0;BodyField.prototype.enableSmartReply=function(e){e?postShowSmartReplySuggestionsMessageIfNecessary(document,window):(showSmartReplySuggestions=!1,window.webkit.messageHandlers.ShowSmartReplySuggestions.postMessage(showSmartReplySuggestions))}; /* Error: Ran out of types for this method. */;
 - (_Bool)@ù
 × ;
 - (void)Ô¡Ð!Aù)	Ð1Â0@ù
 × ;
 - (void)ionsScoreOutputName;
-- (void)ogyLevelConfig;
-- (id)ckgroundColor;
+- (void)articleRecirculationSecondaryOntologyLevelConfig;
+- (id)alternateBackgroundColor;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *allSubscribedTagIDs;
-@property(readonly, copy, nonatomic) NSSet *autoFavoriteTagIDs;
-@property(readonly, copy, nonatomic) NSSet *groupableTagIDs;
-@property(readonly, copy, nonatomic) NSSet *ignoredTagIDs;
-@property(readonly, copy, nonatomic) NSSet *mutedTagIDs;
 @property(readonly, copy, nonatomic) NSOrderedSet *orderedSubscribedTagIDs;
-@property(readonly, copy, nonatomic) NSArray *rankedAllSubscribedTagIDs;
-@property(readonly, copy, nonatomic) NSSet *subscribedTagIDs;
-@property(retain, nonatomic) id <FCTagRanking> subscribedTagRanker; // @synthesize subscribedTagRanker=_subscribedTagRanker;
-@property(readonly, copy, nonatomic) NSDictionary *subscriptionsBySubscriptionID;
 
 @end
 

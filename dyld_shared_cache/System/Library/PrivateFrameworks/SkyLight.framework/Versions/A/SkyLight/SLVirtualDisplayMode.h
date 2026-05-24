@@ -7,38 +7,33 @@
 @interface SLVirtualDisplayMode
 {
     CDStruct_3e356df7 _sizeInPixels;
-    CDStruct_3e356df7 _sizeInPoints;
-    float _refreshRate;
-    double _refreshDeadline;
-    unsigned long long _eotf;
-    unsigned long long _options;
 }
 
-+ (id);
-+ (id);
-- (CDStruct_3e356df7);
++ (id)fetchTableNames from store:(id)arg1 %@;
++ (id)eption %@ with userInfo %@ while fetchTableNames from store:(id)arg1 %@;
+- (CDStruct_3e356df7)om.apple.coredata.cloudkit.share.persist;
+- (void)lt:(double)arg1 ];
+- (void).;
+- (_Bool)gDelegate.export;
+- (id)Type,
+NSLessThanOrEqualToPredicateOperatorType,
+NSGreaterThanPredicateOperatorType,
+NSGreaterThanOrEqualToPredicateOperatorType,
+NSEqualToPredicateOperatorType,
+NSNotEqualToPredicateOperatorType;
+- (unsigned long long)nal url is not a required file url;
+- (double)^B24;
 - (void);
+- (id);
 - (void);
-- (_Bool);
 - (id);
 - (unsigned long long);
-- (double);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (float);
-- (id);
-- (CDStruct_3e356df7)ferFunctions;
+- (float)S;
+- (id)(;
+- (CDStruct_3e356df7)PresetSupportedTransferFunctions;
 
 // Remaining properties
-@property(nonatomic) unsigned long long eotf; // @synthesize eotf=_eotf;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(nonatomic) double refreshDeadline; // @synthesize refreshDeadline=_refreshDeadline;
-@property(readonly, nonatomic) float refreshRate; // @synthesize refreshRate=_refreshRate;
-@property(readonly, nonatomic) CDStruct_3e356df7 sizeInPixels; // @synthesize sizeInPixels=_sizeInPixels;
-@property(readonly, nonatomic) CDStruct_3e356df7 sizeInPoints; // @synthesize sizeInPoints=_sizeInPoints;
 
 @end
 

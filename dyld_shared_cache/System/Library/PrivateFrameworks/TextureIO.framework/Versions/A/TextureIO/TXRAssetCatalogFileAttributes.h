@@ -7,22 +7,18 @@
 @interface TXRAssetCatalogFileAttributes
 {
     struct CGColorSpace *_colorSpace;
-    unsigned char _exifOrientation;
-    unsigned long long _fileFormat;
 }
 
-- (void);
+- (void)H;
 - (unsigned long long);
 - (id);
-- (unsigned char);
+- (unsigned char)a;
 - (struct CGColorSpace *);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CGColorSpace *colorSpace;
-@property(nonatomic) unsigned char exifOrientation; // @synthesize exifOrientation=_exifOrientation;
-@property(nonatomic) unsigned long long fileFormat; // @synthesize fileFormat=_fileFormat;
 
 @end
 

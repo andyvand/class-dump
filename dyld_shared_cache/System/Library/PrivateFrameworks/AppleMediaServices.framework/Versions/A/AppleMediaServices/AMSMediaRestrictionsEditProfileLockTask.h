@@ -6,15 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSString;
-@protocol AMSBagProtocol, NSURLSessionDelegate><AMSURLProtocolDelegate;
+@class ACAccount;
 
 @interface AMSMediaRestrictionsEditProfileLockTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSString *_editToken;
-    id <NSURLSessionDelegate><AMSURLProtocolDelegate> _urlSessionDelegate;
 }
 
 - (id);
@@ -22,16 +18,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)not finish downloading because we failed to retrieve mirror files or any active downloads for guids:%s /* Error: Ran out of types for this method. */;
 - (void)NRÄØÕÉ-k1w<z fé¯õ³ø¾ä¢;
 - (id)±/þ`@Þº$KÕõk`þÞ@/±õkKÕº$CÝýc²,öhHÖ¹'lòÒL#½¹'HÖöhÀ^~à1¯uëËU:¤¯1^Àà~:¤ËUuë²,ýcCÝ¹'HÖöh£=RÌìröhHÖ¹'höÖH'¹ÝCcý,²¹'öhHÖ,²cýÝC$ºÕKkõ/±`þÞ@µ+údDÚÞ@`þ/±XïòÀcÂØòº°x¨8ic4úùÉé=ñø{Z /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(copy) NSString *editToken; // @synthesize editToken=_editToken;
-@property __weak id <NSURLSessionDelegate><AMSURLProtocolDelegate> urlSessionDelegate; // @synthesize urlSessionDelegate=_urlSessionDelegate;
 
 @end
 

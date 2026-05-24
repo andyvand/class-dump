@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _DPDataProtectionMaster
 {
     _Bool _deviceFormatedForContentProtection;
-    _Bool _notifyEnabled;
-    int _notifyToken;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    NSMutableDictionary *_handlers;
-    NSMutableDictionary *_availableState;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
 }
 
-+ (id);
++ (id);
+- (void)%{sensitive, mask.hash}@ with identifier %{public}@, error:(id)arg1 %{public}@;
+- (_Bool)z_historyvisits SV INNER JOIN moz_historyvisits DV ON DV.from_visit = SV.id INNER JOIN moz_places SP ON SP.id = SV.place_id INNER JOIN moz_places DP ON DP.id = DV.place_id WHERE DV.visit_type IN (?, ?) AND DV.visit_date > ? ORDER BY DV.visit_date;
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
+- (id)8;
+- (int)_transaction>",&,N,V_alterDownloadTransaction;
 - (id);
-- (int);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)SPExternalCredentialListRemoteViewController;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *availableState; // @synthesize availableState=_availableState;
-@property(readonly, nonatomic) _Bool deviceFormatedForContentProtection; // @synthesize deviceFormatedForContentProtection=_deviceFormatedForContentProtection;
-@property(readonly, nonatomic) NSMutableDictionary *handlers; // @synthesize handlers=_handlers;
-@property(readonly, nonatomic) _Bool notifyEnabled; // @synthesize notifyEnabled=_notifyEnabled;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *notifyQueue; // @synthesize notifyQueue=_notifyQueue;
-@property(readonly, nonatomic) int notifyToken; // @synthesize notifyToken=_notifyToken;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
 
 @end

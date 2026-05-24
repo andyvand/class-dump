@@ -5,5 +5,9 @@
 //
 
 @protocol PLAssetsdLibraryManagementServiceProtocol
+- (byref);
+- (id);
+- (id);
+- (id);
 @end
 

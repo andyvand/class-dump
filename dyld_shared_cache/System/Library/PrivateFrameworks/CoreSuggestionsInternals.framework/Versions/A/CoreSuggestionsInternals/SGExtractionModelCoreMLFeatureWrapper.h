@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface SGExtractionModelCoreMLFeatureWrapper
 {
     NSDictionary *_featureDict;
 }
 
-- (id);
+- (id)__objc_arraydata__DATA_CONST;
 - (id);
 - (id);
 - (id);
@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *featureDict; // @synthesize featureDict=_featureDict;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

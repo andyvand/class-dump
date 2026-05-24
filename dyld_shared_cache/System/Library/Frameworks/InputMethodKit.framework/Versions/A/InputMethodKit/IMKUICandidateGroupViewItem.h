@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMKUICandidateGroupViewItem
 {
     struct CGRect _frame;
-    NSString *_title;
 }
 
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
+- (id)lushCount;
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

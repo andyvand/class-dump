@@ -10,9 +10,9 @@
 {
 }
 
-- (_Bool);
+- (_Bool)commute15MinWarningEntityRelevanceWiFiAndTimeOfDayFeatures;
 - (id);
-- (id);
+- (id);
 - (id)d to sharing scope;
 
 @end

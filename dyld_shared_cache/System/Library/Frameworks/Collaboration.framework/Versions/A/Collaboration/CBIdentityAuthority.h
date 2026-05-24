@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CBIdentityAuthority
 {
     id _reserved[2];
@@ -19,12 +17,11 @@
 - (struct __CSIdentityAuthority *);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)@;
 - (_Bool);
 
 // Remaining properties
 @property(readonly) struct __CSIdentityAuthority *CSIdentityAuthority;
-@property(readonly, nonatomic) NSString *localizedName;
 
 @end
 

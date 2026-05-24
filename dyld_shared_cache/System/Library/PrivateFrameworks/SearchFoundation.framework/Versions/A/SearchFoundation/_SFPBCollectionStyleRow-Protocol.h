@@ -7,12 +7,12 @@
 @class NSData;
 
 @protocol _SFPBCollectionStyleRow
+- (_Bool)#;
+- (NSData *)PHAssetPhotoCommentProperties;
+- (id)`Z;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool drawPlattersIfNecessary;
-@property(nonatomic) _Bool isInsetGrouped;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int rowStyle;
 @end
 

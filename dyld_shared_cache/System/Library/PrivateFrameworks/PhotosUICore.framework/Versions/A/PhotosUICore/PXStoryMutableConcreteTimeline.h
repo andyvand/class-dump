@@ -9,14 +9,6 @@
 @interface PXStoryMutableConcreteTimeline : PXStoryConcreteTimeline
 {
     long long _bufferCapacity;
-    long long *_playbackStyles;
-    CDStruct_4cef5b45 *_assetContentInfos;
-    struct NSEdgeInsets *_safeAreaInsets;
-    CDStruct_db17f41a *_clippingAnimationInfos;
-    CDStruct_24e54195 *_kenBurnsAnimationInfos;
-    CDStruct_cac3ced6 *_transitionInfos;
-    CDStruct_273850af *_audioInfos;
-    unsigned long long *_clipOptions;
 }
 
 - (void);
@@ -31,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id)aitPeriodMinutes:(struct _NSZone *)arg1;
+- (id)setNegativeFeedbackWaitPeriodMinutes:(struct _NSZone *)arg1;
 - (void);
 
 @end

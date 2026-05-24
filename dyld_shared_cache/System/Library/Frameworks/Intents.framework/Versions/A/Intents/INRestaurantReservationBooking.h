@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INRestaurant, NSArray, NSDate, NSString;
+@class INRestaurant;
 
 @interface INRestaurantReservationBooking
 {
     _Bool _bookingAvailable;
-    _Bool _requiresManualRequest;
-    _Bool _requiresEmailAddress;
-    _Bool _requiresName;
-    _Bool _requiresPhoneNumber;
-    INRestaurant *_restaurant;
-    NSString *_bookingDescription;
-    NSDate *_bookingDate;
-    unsigned long long _partySize;
-    NSString *_bookingIdentifier;
-    NSArray *_offers;
 }
 
 + (_Bool);
@@ -27,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -35,45 +25,29 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)URL;
 - (unsigned long long);
+- (id)initWithController:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)isPotentiallyMoving;
+- (void)lid data usage stats ignoring stored inPackets[%@], incoming inPackets[%@]
+;
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)AtIndex:(unsigned long long)arg1;
-- (void)TriggerOptionsForSetTaskAttribute:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)disambiguationItemsAtIndex:(unsigned long long)arg1;
+- (void)provideSpatialEventTriggerOptionsForSetTaskAttribute:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(getter=isBookingAvailable) _Bool bookingAvailable; // @synthesize bookingAvailable=_bookingAvailable;
-@property(copy) NSDate *bookingDate; // @synthesize bookingDate=_bookingDate;
-@property(copy) NSString *bookingDescription; // @synthesize bookingDescription=_bookingDescription;
-@property(copy) NSString *bookingIdentifier; // @synthesize bookingIdentifier=_bookingIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *offers; // @synthesize offers=_offers;
-@property unsigned long long partySize; // @synthesize partySize=_partySize;
-@property _Bool requiresEmailAddress; // @synthesize requiresEmailAddress=_requiresEmailAddress;
-@property _Bool requiresManualRequest; // @synthesize requiresManualRequest=_requiresManualRequest;
-@property _Bool requiresName; // @synthesize requiresName=_requiresName;
-@property _Bool requiresPhoneNumber; // @synthesize requiresPhoneNumber=_requiresPhoneNumber;
 @property(copy) INRestaurant *restaurant; // @synthesize restaurant=_restaurant;
-@property(readonly) Class superclass;
 
 @end
 

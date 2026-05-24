@@ -13,10 +13,10 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *lastLoginDatesByAppleID; // @synthesize lastLoginDatesByAppleID=_lastLoginDatesByAppleID;

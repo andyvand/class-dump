@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _WKFrameHandle
 {
     struct AlignedStorage<API::FrameHandle, 8UL> _frameHandle;
@@ -15,22 +13,14 @@
 - (struct Object *);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)I;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) struct Object *_apiObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long frameID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

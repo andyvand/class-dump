@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INDateComponentsRange, NSArray, NSNumber;
+@class NSArray, NSNumber;
 
 @protocol INSnoozeTasksIntentExport
+- (NSNumber *)ce!;
 
 // Remaining properties
-@property(copy) NSNumber *all;
-@property(copy) INDateComponentsRange *nextTriggerTime;
 @property(copy) NSArray *tasks;
 @end
 

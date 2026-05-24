@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSLock, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _NSBundleODRDataCommon
 {
     NSMutableDictionary *_assetPackToURL;
-    NSLock *_lock;
-    NSBundle *_bundle;
-    long long _sandboxToken;
 }
 
 - (_Bool);

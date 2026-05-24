@@ -9,21 +9,17 @@
 @interface CRKBoundedGrowthFunction
 {
     id <CRKGrowthFunction> _growthFunction;
-    double _lowerBound;
-    double _upperBound;
 }
 
 - (id);
 - (id);
 - (double);
-- (double);
+- (double);
 - (double);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKGrowthFunction> growthFunction; // @synthesize growthFunction=_growthFunction;
-@property(readonly, nonatomic) double lowerBound; // @synthesize lowerBound=_lowerBound;
-@property(readonly, nonatomic) double upperBound; // @synthesize upperBound=_upperBound;
 
 @end
 

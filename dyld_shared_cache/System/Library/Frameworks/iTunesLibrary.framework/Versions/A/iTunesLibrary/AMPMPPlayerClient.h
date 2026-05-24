@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol AMPMPPlayerClientEventsProtocol, AMPMPPlayerClientProtocol, OS_dispatch_queue;
+@protocol AMPMPPlayerClientProtocol;
 
 @interface AMPMPPlayerClient
 {
     _Bool _registered;
-    _Bool _lostConnection;
-    unsigned int _clientID;
-    NSString *_clientName;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <AMPMPPlayerClientProtocol> _reconnectionDelegate;
-    id <AMPMPPlayerClientEventsProtocol> _eventsDelegate;
-    NSXPCConnection *_connectionToService;
 }
 
 - (id);
@@ -24,8 +16,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -37,29 +29,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (unsigned int);
+- (void);
+- (id);
+- (void)R$;
+- (id);
+- (id);
+- (unsigned int){;
 - (void);
 - (void);
-- (_Bool)ope: /* Error: Ran out of types for this method. */;
+- (_Bool)setMaximumResultsPerScope: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int clientID; // @synthesize clientID=_clientID;
-@property(readonly, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
-@property(retain, nonatomic) NSXPCConnection *connectionToService; // @synthesize connectionToService=_connectionToService;
-@property(nonatomic) __weak id <AMPMPPlayerClientEventsProtocol> eventsDelegate; // @synthesize eventsDelegate=_eventsDelegate;
-@property(nonatomic) _Bool lostConnection; // @synthesize lostConnection=_lostConnection;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(nonatomic) __weak id <AMPMPPlayerClientProtocol> reconnectionDelegate; // @synthesize reconnectionDelegate=_reconnectionDelegate;
-@property(readonly, nonatomic) _Bool registered; // @synthesize registered=_registered;
 
 @end
 

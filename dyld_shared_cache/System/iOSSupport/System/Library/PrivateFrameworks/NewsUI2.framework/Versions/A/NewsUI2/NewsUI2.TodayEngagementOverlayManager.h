@@ -7,14 +7,6 @@
 @interface NewsUI2.TodayEngagementOverlayManager
 {
     id todayViewController;
-    id delegate;
-    id blueprintViewController;
-    id engagementViewControllerFactory;
-    id engagementOverlayDialogRequests;
-    id engagementOverlayHandledPlacements;
-    id overlayToElementSpacing;
-    id presentedOverlaySize;
-    id isFetchingAssets;
 }
 
 - (id);

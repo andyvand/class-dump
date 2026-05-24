@@ -9,14 +9,13 @@
 @interface ILMediaBrowserFacesImageMatrix : ILMediaBrowserImageMatrix
 {
     long long cellUnderMouseRow;
-    long long cellUnderMouseColumn;
 }
 
 - (_Bool);
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)blic}@;
 - (void);
 - (id);
 

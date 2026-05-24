@@ -9,20 +9,18 @@
 @interface GEORPProblemStatusResponse
 {
     NSMutableArray *_problemStatus;
-    int _statusCode;
-    CDStruct_ade9d5f7 _flags;
 }
 
 + (Class);
-+ (_Bool)uleDelay:(id)arg1;
++ (_Bool)setLineScheduleDelay:(id)arg1;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (unsigned long long)enabledPersistentAccounts;
+- (id)enabledDataclasses;
+- (id)enabledAccountsObservable;
+- (_Bool);
+- (void);
 - (void);
 - (int);
 - (void);
@@ -30,23 +28,21 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)egate>",W,N,V_languageDetectorDelegate;
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)anyField"b1};
 - (id)tworkActivityHandler: /* Error: Ran out of types for this method. */;
 - (id)tù úÐûÀütþhÿø;
-- (id)yTriggerStore;
+- (id)isFromRuntimeQueryTriggerStore;
 - (void)ÕèÕ;
 - (int)oþÛ%;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasStatusCode;
-@property(retain, nonatomic) NSMutableArray *problemStatus;
-@property(nonatomic) int statusCode;
 
 @end
 

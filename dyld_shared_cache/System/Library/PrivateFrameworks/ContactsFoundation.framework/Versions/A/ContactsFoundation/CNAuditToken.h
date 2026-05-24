@@ -9,8 +9,8 @@
     CDStruct_4c969caf _audit_token;
 }
 
-+ (id);
-- (CDStruct_4c969caf);
++ (id)dataWithPropertyList:(CDStruct_4c969caf)arg1 format:options:error: /* Error: Ran out of types for this method. */;
+- (CDStruct_4c969caf)<;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_4c969caf audit_token; // @synthesize audit_token=_audit_token;

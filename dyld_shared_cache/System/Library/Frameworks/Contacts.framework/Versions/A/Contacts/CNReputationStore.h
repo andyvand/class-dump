@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNReputationContactsAdapter, CNReputationCoreRecentsAdapter, CNReputationLogger;
-@protocol CNSchedulerProvider;
+@class CNReputationCoreRecentsAdapter;
 
 @interface CNReputationStore
 {
     CNReputationCoreRecentsAdapter *_coreRecentsAdapter;
-    CNReputationContactsAdapter *_contactsAdapter;
-    CNReputationLogger *_logger;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)tenerEndpoint"@"<FPDLifetimeServicing>"@"NSString"@"NSError">24;
+- (id)`";
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
 - (void)1Â0@ù
 × ;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CNReputationContactsAdapter *contactsAdapter; // @synthesize contactsAdapter=_contactsAdapter;
 @property(readonly, nonatomic) CNReputationCoreRecentsAdapter *coreRecentsAdapter; // @synthesize coreRecentsAdapter=_coreRecentsAdapter;
-@property(readonly, nonatomic) CNReputationLogger *logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
 
 @end
 

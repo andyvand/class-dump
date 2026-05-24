@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber, NSString;
-@protocol ITLibGenreDelegate;
+@class NSString;
 
 @interface ITLibGenre
 {
     NSString *_name;
-    NSNumber *_catalogID;
-    NSNumber *_persistentID;
-    NSArray *_albumIDs;
-    NSArray *_localAlbumIDs;
-    id <ITLibGenreDelegate> _genreDelegate;
 }
 
 + (id);
 + (id);
+- (void)c;
+- (void);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)requestPendingACInvitations;
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *albumIDs; // @synthesize albumIDs=_albumIDs;
-@property(readonly, retain, nonatomic) NSArray *albums;
-@property(readonly, copy, nonatomic) NSNumber *catalogID; // @synthesize catalogID=_catalogID;
-@property(nonatomic) __weak id <ITLibGenreDelegate> genreDelegate; // @synthesize genreDelegate=_genreDelegate;
-@property(readonly, copy, nonatomic) NSDate *libraryAddedDate;
-@property(retain, nonatomic) NSArray *localAlbumIDs; // @synthesize localAlbumIDs=_localAlbumIDs;
-@property(readonly, retain, nonatomic) NSArray *localAlbums;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSNumber *persistentID; // @synthesize persistentID=_persistentID;
 
 @end
 

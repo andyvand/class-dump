@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, PKAccessoryView, UIView;
+@class UIView;
 
 @interface PKPaletteContainerView
 {
     unsigned long long _edgeLocation;
-    unsigned long long _cornerLocation;
-    double _scalingFactor;
-    UIView *_contentView;
-    NSLayoutConstraint *_contentViewTopConstraint;
-    NSLayoutConstraint *_contentViewBottomConstraint;
-    NSLayoutConstraint *_contentViewLeftConstraint;
-    NSLayoutConstraint *_contentViewRightConstraint;
-    PKAccessoryView *_accessoryView;
-    NSLayoutConstraint *_accessoryViewTopConstraint;
-    NSLayoutConstraint *_accessoryViewBottomConstraint;
-    NSLayoutConstraint *_accessoryViewLeftConstraint;
-    NSLayoutConstraint *_accessoryViewRightConstraint;
-    NSLayoutConstraint *_accessoryViewWidthConstraint;
-    NSLayoutConstraint *_accessoryViewHeightConstraint;
 }
 
 - (void);
@@ -53,11 +39,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (double);
 - (void);
-- (void);
-- (void)resentationConfiguring;
+- (void)__DATA_CONST;
+- (void)PKToolPickerPopoverPresentationConfiguring;
 - (id);
 - (id)48@?<v@?>56;
 - (id)ç;
@@ -65,28 +51,7 @@
 - (void)d·;
 
 // Remaining properties
-@property(retain, nonatomic) PKAccessoryView *accessoryView; // @synthesize accessoryView=_accessoryView;
-@property(retain, nonatomic) NSLayoutConstraint *accessoryViewBottomConstraint; // @synthesize accessoryViewBottomConstraint=_accessoryViewBottomConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *accessoryViewHeightConstraint; // @synthesize accessoryViewHeightConstraint=_accessoryViewHeightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *accessoryViewLeftConstraint; // @synthesize accessoryViewLeftConstraint=_accessoryViewLeftConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *accessoryViewRightConstraint; // @synthesize accessoryViewRightConstraint=_accessoryViewRightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *accessoryViewTopConstraint; // @synthesize accessoryViewTopConstraint=_accessoryViewTopConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *accessoryViewWidthConstraint; // @synthesize accessoryViewWidthConstraint=_accessoryViewWidthConstraint;
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) NSLayoutConstraint *contentViewBottomConstraint; // @synthesize contentViewBottomConstraint=_contentViewBottomConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *contentViewLeftConstraint; // @synthesize contentViewLeftConstraint=_contentViewLeftConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *contentViewRightConstraint; // @synthesize contentViewRightConstraint=_contentViewRightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *contentViewTopConstraint; // @synthesize contentViewTopConstraint=_contentViewTopConstraint;
-@property(nonatomic) unsigned long long cornerLocation; // @synthesize cornerLocation=_cornerLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long edgeLocation; // @synthesize edgeLocation=_edgeLocation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property(readonly) Class superclass;
 
 @end
 

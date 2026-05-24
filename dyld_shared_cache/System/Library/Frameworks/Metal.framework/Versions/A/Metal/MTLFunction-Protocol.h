@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 @protocol MTLDevice;
 
 @protocol MTLFunction
+- (id <MTLDevice>)ieungacirclekorean;
 - (void)=dddd}88Q120;
 - (unsigned long long)üB;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSDictionary *functionConstantsDictionary;
-@property(readonly) unsigned long long functionType;
 @property(copy) NSString *label;
-@property(readonly) NSString *name;
-@property(readonly) unsigned long long options;
-@property(readonly) long long patchControlPointCount;
-@property(readonly) unsigned long long patchType;
-@property(readonly) NSArray *stageInputAttributes;
-@property(readonly) NSArray *vertexAttributes;
 @end
 

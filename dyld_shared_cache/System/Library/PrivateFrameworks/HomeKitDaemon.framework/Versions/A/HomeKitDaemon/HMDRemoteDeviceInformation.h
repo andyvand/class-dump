@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDevice, HMFTimer, NSHashTable, NSMutableArray, NSObject;
-@protocol HMDRemoteDeviceMonitorFactory, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDRemoteDeviceInformation
 {
     _Bool _reachable;
-    _Bool _didUpdateReachabilityDueToNonNetworkStateChangeReason;
-    _Bool _didUpdateReachabilityWithInitialReachablityReason;
-    HMDDevice *_device;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDRemoteDeviceMonitorFactory> _factory;
-    long long _state;
-    NSMutableArray *_confirmationHandlers;
-    NSHashTable *_clients;
-    HMFTimer *_retryTimer;
 }
 
 - (id);

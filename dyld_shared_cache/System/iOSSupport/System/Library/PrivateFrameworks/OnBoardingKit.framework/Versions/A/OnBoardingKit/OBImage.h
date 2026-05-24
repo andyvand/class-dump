@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSString, UIColor;
+@class NSBundle;
 
 @interface OBImage
 {
     NSBundle *_bundle;
-    NSString *_name;
-    long long _style;
-    UIColor *_tintColor;
 }
 
 + (long long);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
-- (id);
+- (id)CSSRubyAlignEnabled;
 - (long long);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void)rredDeviceType:(id)arg1;
+- (void)_splashLocalizedStringForKey:(id)arg1 language:preferredDeviceType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

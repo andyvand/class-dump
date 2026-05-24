@@ -4,83 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableDictionary, NSString, NSUndoManager;
-@protocol CUIKCommitDelegate, CUIKDecisionDelegate, CUIKEditorExtended;
+@class NSMutableDictionary;
 
 @interface CUIKUndoManager
 {
     _Bool _disableUndoForOrganizerScheduling;
-    id <CUIKCommitDelegate> _commitDelegate;
-    id <CUIKDecisionDelegate> _decisionDelegate;
-    CDUnknownBlockType _editingManagerProvider;
-    id <CUIKEditorExtended> _undoableEditor;
-    NSError *_lastError;
-    NSMutableDictionary *_undeletedObjectMap;
-    NSMutableDictionary *_specificIdentifierMapForUndo;
-    NSMutableDictionary *_specificIdentifierMapForRevert;
 }
 
-+ (id)Ëë{;
-- (id)Õý{¿©ý;
-- (void)è;
-- (id)ìÒq
-?×A;
-- (id)CÀ=;
-- (id)!A©Ô;
-- (id)2qÐÒ0ÁÚâªàªa"@ùI;
-- (void)ªñªÑïò1	?×¶RøA;
-- (void)û;
-- (void)ª;
-- (void)QÐ!)¢;
++ (id);
+- (id);
 - (void);
-- (void)ªâªG¤ô;
-- (void)Wø{
-?×;
-- (void)ªô;
-- (void)&ðý÷ªy
-uÐµ6ú;
-- (id)ªãª;
-- (id)ª³àª³Ö;
-- (void)â;
-- (CDUnknownBlockType)ªp
-þ ãÑá"m
-þàª
-;
-- (_Bool)ªÚð10@ù
-?×è;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
-- (void)bý
-;
-- (void)¶oz© ãÑáªP
-þô;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (CDUnknownBlockType);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)ask;
+- (void)CPLEngineSyncManagerStateMingle;
+- (id)re while the library is not open;
+- (id)y;
 - (void);
 - (id);
 - (void);
 - (void)"<CUIKEventLoaderDelegate>";
-- (id)riptionGenerator;
+- (id)CUIKDescriptionGenerator;
 
 // Remaining properties
-@property(retain, nonatomic) id <CUIKCommitDelegate> commitDelegate; // @synthesize commitDelegate=_commitDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <CUIKDecisionDelegate> decisionDelegate; // @synthesize decisionDelegate=_decisionDelegate;
-@property(readonly, copy) NSString *description;
-@property _Bool disableUndoForOrganizerScheduling; // @synthesize disableUndoForOrganizerScheduling=_disableUndoForOrganizerScheduling;
-@property(copy, nonatomic) CDUnknownBlockType editingManagerProvider; // @synthesize editingManagerProvider=_editingManagerProvider;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSError *lastError; // @synthesize lastError=_lastError;
-@property(retain, nonatomic) NSMutableDictionary *specificIdentifierMapForRevert; // @synthesize specificIdentifierMapForRevert=_specificIdentifierMapForRevert;
-@property(retain, nonatomic) NSMutableDictionary *specificIdentifierMapForUndo; // @synthesize specificIdentifierMapForUndo=_specificIdentifierMapForUndo;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUndoManager *systemUndoManager;
 @property(retain, nonatomic) NSMutableDictionary *undeletedObjectMap; // @synthesize undeletedObjectMap=_undeletedObjectMap;
-@property(retain, nonatomic) id <CUIKEditorExtended> undoableEditor; // @synthesize undoableEditor=_undoableEditor;
 
 @end
 

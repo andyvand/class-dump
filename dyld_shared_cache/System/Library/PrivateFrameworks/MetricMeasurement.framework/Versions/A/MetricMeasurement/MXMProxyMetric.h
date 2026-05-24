@@ -6,8 +6,6 @@
 
 #import <MetricMeasurement/MXMMetric.h>
 
-@class MXMProbe;
-
 @interface MXMProxyMetric : MXMMetric
 {
     MXMMetric *__underlyingMetric;
@@ -31,14 +29,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) MXMProbe *_remoteProbe;
 @property(readonly, retain) MXMMetric *_underlyingMetric; // @synthesize _underlyingMetric=__underlyingMetric;
-@property(readonly, copy) MXMMetric *metric;
 
 @end
 

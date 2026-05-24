@@ -4,43 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventKeyCommandsDispatchingPredicate, NSArray, NSString;
+@class BKSHIDEventKeyCommandsDispatchingPredicate;
 
 @interface BKSHIDEventKeyCommandsDispatchingRule
 {
     BKSHIDEventKeyCommandsDispatchingPredicate *_predicate;
-    NSArray *_targets;
 }
 
 + (id);
 + (_Bool);
 - (id);
+- (id)submitActivities:(id)arg1;
+- (id)i;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)numberClusters;
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
+- (id)undefined. Please add context to a parent context with a data store before calling createNewActivity.;
+- (id)P;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)X;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) BKSHIDEventKeyCommandsDispatchingPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *targets; // @synthesize targets=_targets;
 
 @end
 

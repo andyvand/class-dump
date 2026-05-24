@@ -5,12 +5,10 @@
 //
 
 @class CRKASMCourseCreateProperties;
-@protocol CRKClassKitRosterRequirements;
 
 @interface CRKCreateASMClassOperation
 {
     CRKASMCourseCreateProperties *_properties;
-    id <CRKClassKitRosterRequirements> _requirements;
 }
 
 - (void);
@@ -22,13 +20,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)u;
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CRKASMCourseCreateProperties *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) id <CRKClassKitRosterRequirements> requirements; // @synthesize requirements=_requirements;
 
 @end
 

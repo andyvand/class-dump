@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SUCoreFSM, SUCorePersistedState;
+@class NSObject, SUCorePersistedState;
 @protocol OS_dispatch_queue;
 
 @interface SUMacControllerPersistedStateManager
 {
     SUCorePersistedState *_persistedState;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    SUCoreFSM *_stateMachine;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -35,7 +33,7 @@
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -49,13 +47,11 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)E;
 - (id)current state (%@) error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(retain, nonatomic) SUCorePersistedState *persistedState; // @synthesize persistedState=_persistedState;
-@property(retain, nonatomic) SUCoreFSM *stateMachine; // @synthesize stateMachine=_stateMachine;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSProcessInfo, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount, NSString;
 
 @interface AMSUserNotificationSettingsTask : AMSTask
 {
     NSString *_clientIdentifier;
-    ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    NSString *_identifier;
 }
 
 + (id);
@@ -27,12 +22,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)DIAssessment;
+- (void)_shouldIncludeODIAssessment;
 - (id):·µÒ,Ç[0ÖxG?\©¸ÞhB¨w¬gú"ù8ÁÜÏò3óÞ(Y¼¸	1¹9MÓñßäµ%Ø|e5­m¡JÈk«@²½VjïûZËw)f7 ×îS0`<ÔÙå¿[CæÍ©Ä\Ì}ªFÛ£X¶:y¯#cqÐ-$o¤IÎT4ÿÚar.Wvð!Ñºp*´UÝõi&Öö ç°bHê§øéÇàuOxþ®ÒÀ¨KR /* Error: Ran out of types for this method. */;
 - (void)x!â1eðT[¶íâ¢V {åèàÎi 9òì@¿¤ÄÒ¨ë¼A_S¿cÐÞCK|îÊàÔó`UN¥IõëIÏ¶Ñ3Ê_.£õpÔì¦ëòÔÂ<)Hô¿;~u`Ú~@<¡öAd6p>¦xRÀvÉ¾?ûnAZGc<XDú©1_Dæ½jX×qÒÜäPÊ¼íÈ­Îq§ÇÝãØÈÕìª)Ê+GgãL`s´©=©£äF¼BÛö´HevüÕÐ¾,ÏK¾êÜ¬ØW´üàBÜqx¶)U_U1:ÞÝô¥T°eÎ¤®×è¦Ê1Èçµÿ#B:44àÂ>¼(2û /* Error: Ran out of types for this method. */;
 - (id)ÃÇf:Ù4+	ýA­Z¡HnP ©)ö¶ûH'ðe1òìÜûl7 $yHbºrÏ÷ºU¸GU¶óª$ìfj.þ]æGÙxN?/Þ1À2ÙÓ\ý /* Error: Ran out of types for this method. */;
@@ -40,17 +35,6 @@
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

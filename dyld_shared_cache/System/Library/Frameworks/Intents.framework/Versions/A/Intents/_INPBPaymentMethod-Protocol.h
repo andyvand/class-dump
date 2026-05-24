@@ -7,11 +7,12 @@
 @class NSArray, _INPBPaymentMethodValue;
 
 @protocol _INPBPaymentMethod
++ (Class)m keychain - %d
+;
 - (void)imerIntentResponse;
 - (_INPBPaymentMethodValue *)Image %@ came with size {%@, %@}, preserving that;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

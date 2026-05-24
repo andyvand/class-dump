@@ -5,6 +5,7 @@
 //
 
 @protocol UICoordinateSpace
+- (struct CGRect)initWithImageSize:scale: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 
 // Remaining properties

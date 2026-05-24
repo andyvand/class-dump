@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRImageManager, MRTexture, MRTextureSource, NSDictionary, NSMutableDictionary, NSString;
+@class MRTexture, MRTextureSource;
 
 @interface MRImage
 {
     MRTextureSource *_textureSource;
-    MRImage *_referenceImage;
-    unsigned int _flags;
-    int _clampMode;
-    int _retainByUserCount;
-    MRImageManager *_imageManager;
-    MRTexture *_texture;
-    double _centerX;
-    double _centerY;
-    double _scale;
-    double _rotationAngle;
-    NSString *_filterID;
-    NSDictionary *_shader;
-    double _sourceTimestamp;
-    double _renderTime;
-    NSString *_label;
-    NSMutableDictionary *_userData;
-    struct CGSize _size;
 }
 
 - (_Bool);
 - (_Bool);
+- (void)/usr/lib/libSystem.B.dylib;
+- (void)vateFrameworks/TeaFoundation.framework/Versions/A/TeaFoundation;
 - (void);
 - (void);
 - (void);
@@ -39,29 +24,27 @@
 - (void);
 - (void);
 - (void);
+- (void)thenticationChallenge"32@?<v@?q@"NSURLCredential">40;
+- (_Bool)timeIntervalSinceDate: /* Error: Ran out of types for this method. */;
+- (id)removeFileWithKey:(id)arg1;
+- (id)registerEnvelopeCreationAnticipatedForContentType: /* Error: Ran out of types for this method. */;
+- (int)registerEnvelopeContentTypesAsRetainedForUploadRetry: /* Error: Ran out of types for this method. */;
+- (id)registerEnvelopeContentTypesAsRetainedForUploadRetry: /* Error: Ran out of types for this method. */;
+- (void)_schedulingAndForegroundUploadThrottler;
+- (void)URLSession:didReceiveChallenge:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)currentCalendar;
+- (_Bool)isLocationAccessEnabled;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (int);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (id)xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsAnalyticsUpload/TelemetryUploader.swift;
+- (id)iCloudAccountState;
+- (_Bool)peTrackerContentTypeIsSupported(envelope.contentType); }];
+- (_Bool)return !NAUAnalyticsEnvelopeTrackerContentTypeIsSupported(envelope.contentType); }];
+- (void)ppedEnvelopeReasonMissingConfigForContentType)];
+- (_Bool)oadUploader init];
 - (int);
 - (struct _CGLContextObject *);
 - (void);
-- (double);
+- (double)P;
 - (struct CGSize);
 - (id);
 - (void);
@@ -82,10 +65,10 @@
 - (double);
 - (id);
 - (struct CGSize);
-- (double);
+- (double);
 - (double);
 - (id);
-- (void);
+- (void)a;
 - (_Bool);
 - (void);
 - (void)rdinates - .5)) * inInverseRadii; 
@@ -127,35 +110,7 @@
 - (double)Gáz¤¿333333³¿;
 
 // Remaining properties
-@property(readonly, nonatomic) double aspectRatio;
-@property(nonatomic) double centerX; // @synthesize centerX=_centerX;
-@property(nonatomic) double centerY; // @synthesize centerY=_centerY;
-@property(nonatomic) int clampMode; // @synthesize clampMode=_clampMode;
-@property(copy, nonatomic) NSString *filterID; // @synthesize filterID=_filterID;
-@property(nonatomic) _Bool filtersNearest;
-@property(readonly, nonatomic) _Bool hasKBOrShader;
-@property(nonatomic) _Bool hasKenBurns;
-@property(readonly) double height;
-@property(readonly) MRImageManager *imageManager; // @synthesize imageManager=_imageManager;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) _Bool isOpaque;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic) _Bool mipmapFiltersNearest;
-@property(nonatomic) _Bool preservesAspectRatio;
-@property(nonatomic) double renderTime; // @synthesize renderTime=_renderTime;
-@property(readonly) int retainByUserCount; // @synthesize retainByUserCount=_retainByUserCount;
-@property(nonatomic) double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) _Bool scaleWasFixedForTargetAspectRatio;
-@property(retain) NSDictionary *shader; // @synthesize shader=_shader;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) double sourceTimestamp; // @synthesize sourceTimestamp=_sourceTimestamp;
 @property(readonly) MRTexture *texture; // @synthesize texture=_texture;
-@property(readonly, nonatomic) struct _CGLContextObject *updateGLContext;
-@property(readonly) NSMutableDictionary *userData; // @synthesize userData=_userData;
-@property(nonatomic) _Bool usesBackgroundColorAsBorderColor;
-@property(readonly) _Bool usesMipmap;
-@property(readonly) double width;
 
 @end
 

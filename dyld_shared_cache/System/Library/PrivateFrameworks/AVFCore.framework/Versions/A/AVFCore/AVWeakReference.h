@@ -8,7 +8,7 @@
 {
 }
 
-+ (void)mingDownloadTokenKey;
++ (void)AVAssetDownloadSessionCachePrimingDownloadTokenKey;
 + (id)peMetadata];
 - (id);
 - (id);

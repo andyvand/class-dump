@@ -6,39 +6,25 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCOfflineDownloadsConfiguration, FCThreadSafeMutableArray, NSArray, NSObject;
-@protocol FCContentContext, OS_dispatch_queue;
-
 @interface FCOfflineRecipesFetchOperation : FCOperation
 {
     _Bool cachedOnly;
-    CDUnknownBlockType archiveHandler;
-    NSObject<OS_dispatch_queue> *archiveQueue;
-    CDUnknownBlockType fetchCompletionHandler;
-    NSObject<OS_dispatch_queue> *fetchCompletionQueue;
-    CDUnknownBlockType progressHandler;
-    NSObject<OS_dispatch_queue> *progressQueue;
-    unsigned long long _maxBatchSize;
-    id <FCContentContext> _context;
-    NSArray *_recipeIDs;
-    FCOfflineDownloadsConfiguration *_config;
-    FCThreadSafeMutableArray *_resultInterestTokens;
 }
 
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (id)4~CNrJugDiro70fnLmLKWfzdiQRB62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/paimaging/PhotoApps/Neutrino/PATiledImageBacking+Neutrino.m;
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
+- (id)d;
 - (unsigned long long);
 - (id);
 - (void)ers:(_Bool)arg1 networkEventType:callbackQueue:completion:]_block_invoke /* Error: Ran out of types for this method. */;
@@ -51,14 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType archiveHandler; // @synthesize archiveHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *archiveQueue; // @synthesize archiveQueue;
-@property(nonatomic) _Bool cachedOnly; // @synthesize cachedOnly;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *fetchCompletionQueue; // @synthesize fetchCompletionQueue;
 @property(nonatomic) unsigned long long maxBatchSize; // @synthesize maxBatchSize=_maxBatchSize;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *progressQueue; // @synthesize progressQueue;
 
 @end
 

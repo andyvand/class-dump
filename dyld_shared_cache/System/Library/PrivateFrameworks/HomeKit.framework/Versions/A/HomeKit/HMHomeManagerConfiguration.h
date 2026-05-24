@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFLocationAuthorization, NSArray, NSOperationQueue, NSString, NSURL;
-
 @interface HMHomeManagerConfiguration
 {
     _Bool _discretionary;
-    unsigned long long _cachePolicy;
-    unsigned long long _options;
-    unsigned long long _inactiveUpdatingLevel;
-    NSOperationQueue *_delegateQueue;
-    HMFLocationAuthorization *_locationAuthorization;
-    NSURL *_cacheURL;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)_';
+- (id)uuid:(unsigned long long)arg1 %{public}@ (%{public}@);
 - (id);
 - (void);
 - (id);
@@ -35,48 +27,21 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)commercialization;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)s;
+- (id)edObject;
+- (void)groups;
 - (void)@;
 - (_Bool)HomeOwner:container:allowWriteAccess:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void)%@, Release Date = %@, Update Type = %@>;
 - (unsigned long long);
 
 // Remaining properties
-@property(getter=isAdaptive) _Bool adaptive;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @property unsigned long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(readonly) NSURL *cacheURL; // @synthesize cacheURL=_cacheURL;
-@property(readonly) _Bool canUseCache;
-@property(readonly) _Bool canWriteToCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSOperationQueue *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(getter=isDiscretionary) _Bool discretionary; // @synthesize discretionary=_discretionary;
-@property(readonly) unsigned long long hash;
-@property unsigned long long inactiveUpdatingLevel; // @synthesize inactiveUpdatingLevel=_inactiveUpdatingLevel;
-@property(retain) HMFLocationAuthorization *locationAuthorization; // @synthesize locationAuthorization=_locationAuthorization;
-@property unsigned long long options; // @synthesize options=_options;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) _Bool shouldConnect;
-@property(readonly) Class superclass;
 
 @end
 

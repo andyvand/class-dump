@@ -25,11 +25,6 @@ struct AudioChannelLayout {
     struct AudioChannelDescription _field4[1];
 };
 
-struct AudioFormatListItem {
-    struct AudioStreamBasicDescription _field1;
-    unsigned int _field2;
-};
-
 struct AudioStreamBasicDescription {
     double _field1;
     unsigned int _field2;
@@ -52,18 +47,18 @@ struct CGAffineTransform {
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CLLocationCoordinate2D {
@@ -72,8 +67,8 @@ struct CLLocationCoordinate2D {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct aligned_struct<8UL, 1UL> {
@@ -109,10 +104,6 @@ struct os_state_hints_s {
     char *_field2;
     unsigned int _field3;
     unsigned int _field4;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
 };
 
 struct unique_ptr<boost::interprocess::basic_managed_mapped_file<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>, std::default_delete<boost::interprocess::basic_managed_mapped_file<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>> {
@@ -154,22 +145,22 @@ typedef struct {
 } CDStruct_8727d297;
 
 typedef struct {
-    long long value;
-    int timescale;
-    unsigned int flags;
-    long long epoch;
-} CDStruct_1b6d18a9;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+    long long _field4;
+} CDStruct_198678f7;
 
 typedef struct {
-    CDStruct_1b6d18a9 minimumDuration;
-    CDStruct_1b6d18a9 preferredDuration;
-    CDStruct_1b6d18a9 maximumDuration;
-} CDStruct_c8943d03;
+    CDStruct_198678f7 _field1;
+    CDStruct_198678f7 _field2;
+    CDStruct_198678f7 _field3;
+} CDStruct_d00fdffd;
 
 typedef struct {
-    CDStruct_1b6d18a9 start;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_e83c9415;
+    CDStruct_198678f7 _field1;
+    CDStruct_198678f7 _field2;
+} CDStruct_3c1748cc;
 
 typedef struct {
     struct CGPoint _field1;
@@ -180,19 +171,19 @@ typedef struct {
     double _field6;
     double _field7;
     double _field8;
-} CDStruct_decfe93a;
+} CDStruct_411759a9;
 
 typedef struct {
-    long long kind;
-    CDStruct_c8943d03 specificDurationInfo;
-} CDStruct_5d4c7ed3;
+    long long _field1;
+    CDStruct_d00fdffd _field2;
+} CDStruct_9ee4859c;
 
 typedef struct {
     struct CGRect _field1;
     struct CGRect _field2;
     struct CGRect _field3;
     struct CGRect _field4;
-} CDStruct_60d9add8;
+} CDStruct_33757645;
 
 // Template types
 typedef struct c_iterator<boost::unordered::detail::node<boost::interprocess::allocator<pf::SceneGeographyNode, boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>, std::pair<const boost::container::basic_string<char, std::char_traits<char>, boost::interprocess::allocator<char, boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>>, pf::SceneGeographyNode>>> {

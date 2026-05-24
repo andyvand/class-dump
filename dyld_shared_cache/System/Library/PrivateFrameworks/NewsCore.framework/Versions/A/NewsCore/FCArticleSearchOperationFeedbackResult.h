@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void)iveCoveragePollingInterval;
+- (void)liveCoveragePollingInterval;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) SFRankingFeedback *resultRankingFeedback; // @synthesize resultRankingFeedback=_resultRankingFeedback;

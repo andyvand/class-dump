@@ -5,8 +5,8 @@
 //
 
 @protocol _UIPressesEventRespondable
-- (void)extFormattingViewControllerRemoveItalicToggleChange;
-- (void)erredWidth;
+- (void)UITextFormattingViewControllerRemoveItalicToggleChange;
+- (void)preferredWidth;
 - (void)ttributesFittingAttributesWithInnerView(UICollectionReusableView *__strong, UICollectionViewLayoutAttributes *__strong, UIView *__strong);
 - (void)-DTû!	@Ò!3|Ù@;
 @end

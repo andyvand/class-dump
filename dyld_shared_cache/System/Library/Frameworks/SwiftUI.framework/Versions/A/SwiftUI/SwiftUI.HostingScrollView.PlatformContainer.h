@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSGestureRecognizerContainer;
-
 @interface SwiftUI.HostingScrollView.PlatformContainer
 {
     id scrollView;
-    id safeAreaHelper;
-    id isInitialSafeAreaUpdate;
-    id $__lazy_storage_$_hitTestingCache;
-    id currentHitTestingCacheKey;
 }
 
 + (struct NSEdgeInsets);
 + (_Bool);
-- (void);
+- (void)~;
 - (struct NSEdgeInsets);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -30,11 +24,7 @@
 - (void)ðÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) id <NSGestureRecognizerContainer> _parentGestureRecognizerContainer;
 @property(nonatomic) struct NSEdgeInsets _safeAreaInsets; // @dynamic _safeAreaInsets;
-@property(nonatomic) struct CGRect bounds;
-@property(nonatomic, readonly) struct NSEdgeInsets computedSafeAreaInsets;
-@property(nonatomic) struct CGRect frame;
 
 @end
 

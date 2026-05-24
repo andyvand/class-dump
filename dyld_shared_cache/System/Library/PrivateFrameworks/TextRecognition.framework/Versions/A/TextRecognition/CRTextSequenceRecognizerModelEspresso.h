@@ -6,22 +6,11 @@
 
 #import <TextRecognition/CRTextSequenceRecognizerModel.h>
 
-@class CRNeuralRecognizerConfiguration, NSArray, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 @interface CRTextSequenceRecognizerModelEspresso : CRTextSequenceRecognizerModel
 {
     struct os_unfair_lock_s _submissionLock;
-    int _engine;
-    int _precision;
-    CRNeuralRecognizerConfiguration *_configuration;
-    NSUUID *_owner;
-    CRNeuralRecognizerConfiguration *_recognizerConfiguration;
-    void *_context;
-    void *_plan;
-    NSString *_currentConfigurationHash;
-    NSObject<OS_dispatch_queue> *_predictionQueue;
-    CDStruct_2bc666a5 _network;
 }
 
 + (struct vImage_Buffer);
@@ -40,13 +29,13 @@
 - (void);
 - (id);
 - (void *);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)safari_isErrorPageResourcesURL;
 - (void);
 - (void);
 - (id);
@@ -55,7 +44,7 @@
 - (void);
 - (int);
 - (void);
-- (CDStruct_2bc666a5);
+- (CDStruct_e4961688);
 - (void);
 - (id);
 - (void);
@@ -65,17 +54,7 @@
 - (void *)ü©ñÒMbP?N3nms16PyramidNMSConfigE;
 
 // Remaining properties
-@property void *context; // @synthesize context=_context;
-@property(retain) NSString *currentConfigurationHash; // @synthesize currentConfigurationHash=_currentConfigurationHash;
-@property int engine; // @synthesize engine=_engine;
-@property CDStruct_2bc666a5 network; // @synthesize network=_network;
-@property(readonly) NSArray *outputNames;
 @property(retain) NSUUID *owner; // @synthesize owner=_owner;
-@property void *plan; // @synthesize plan=_plan;
-@property int precision; // @synthesize precision=_precision;
-@property(retain) NSObject<OS_dispatch_queue> *predictionQueue; // @synthesize predictionQueue=_predictionQueue;
-@property(retain) CRNeuralRecognizerConfiguration *recognizerConfiguration; // @synthesize recognizerConfiguration=_recognizerConfiguration;
-@property(readonly, nonatomic) _Bool shouldSaturateInputBatches;
 
 @end
 

@@ -6,28 +6,17 @@
 
 #import <UIKitCore/UIStatusBarItemView.h>
 
-@class NSArray, NSLayoutConstraint, NSString, UILabel, UIStatusBarCarPlayDockAppItemButton, UIView;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface UIStatusBarCarPlayDockItemView : UIStatusBarItemView
 {
     _Bool _showingCallTimer;
-    UILabel *_inCallDurationLabel;
-    UIStatusBarCarPlayDockAppItemButton *_itemOneButton;
-    UIStatusBarCarPlayDockAppItemButton *_itemTwoButton;
-    UIStatusBarCarPlayDockAppItemButton *_itemThreeButton;
-    NSLayoutConstraint *_inCallLabelSpacingConstraint;
-    NSLayoutConstraint *_itemOneTopConstraint;
-    NSArray *_currentBundleIdentifiers;
-    NSString *_currentActiveBundleIdentifier;
-    UIView *_preferredItemViewToFocus;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)_startTimer;
+- (_Bool)_startObservingAcceptedContactChanges;
+- (void)IMDCollaborationNoticeTypeGenerator;
 - (void);
 - (void);
 - (void);
@@ -35,21 +24,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (void)?;
+- (void);
+- (id);
 - (double);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (double);
-- (double);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)inutes:%ld < threshold:%ld /* Error: Ran out of types for this method. */;
+- (double)ating message %@;
+- (double)ing replicated message %@;
+- (id)ChangeToken %@ moreComing %@ recordZoneError %@;
+- (id)rchived message sync token to nil;
+- (_Bool)MultiplePhoneNumbers %@;
+- (_Bool)quest to relay current SMS filtering settings;
+- (void)t included in relay message.;
 - (unsigned long long);
 - (double);
 - (double);
@@ -58,21 +49,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)
 × ;
-- (id)eferedFocusEnvironments;
+- (id)_allowsOverridingPreferedFocusEnvironments;
 - (id)rackEnabled;
 - (void)ÿàÿJ|;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currentActiveBundleIdentifier; // @synthesize currentActiveBundleIdentifier=_currentActiveBundleIdentifier;
-@property(copy, nonatomic) NSArray *currentBundleIdentifiers; // @synthesize currentBundleIdentifiers=_currentBundleIdentifiers;
 @property(retain, nonatomic) UILabel *inCallDurationLabel; // @synthesize inCallDurationLabel=_inCallDurationLabel;
-@property(retain, nonatomic) NSLayoutConstraint *inCallLabelSpacingConstraint; // @synthesize inCallLabelSpacingConstraint=_inCallLabelSpacingConstraint;
-@property(retain, nonatomic) UIStatusBarCarPlayDockAppItemButton *itemOneButton; // @synthesize itemOneButton=_itemOneButton;
-@property(retain, nonatomic) NSLayoutConstraint *itemOneTopConstraint; // @synthesize itemOneTopConstraint=_itemOneTopConstraint;
-@property(retain, nonatomic) UIStatusBarCarPlayDockAppItemButton *itemThreeButton; // @synthesize itemThreeButton=_itemThreeButton;
-@property(retain, nonatomic) UIStatusBarCarPlayDockAppItemButton *itemTwoButton; // @synthesize itemTwoButton=_itemTwoButton;
-@property(nonatomic) __weak UIView *preferredItemViewToFocus; // @synthesize preferredItemViewToFocus=_preferredItemViewToFocus;
-@property(nonatomic, getter=isShowingCallTimer) _Bool showingCallTimer; // @synthesize showingCallTimer=_showingCallTimer;
 
 @end
 

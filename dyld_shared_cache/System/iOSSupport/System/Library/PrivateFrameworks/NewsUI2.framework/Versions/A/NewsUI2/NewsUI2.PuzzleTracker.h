@@ -7,10 +7,6 @@
 @interface NewsUI2.PuzzleTracker
 {
     id tracker;
-    id puzzleHistoryService;
-    id puzzleService;
-    id puzzleStatsService;
-    id gameMetricsStore;
 }
 
 @end

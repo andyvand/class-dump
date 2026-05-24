@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _BSActionResponder;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BSActionResponder
 {
     NSObject<OS_dispatch_queue> *_lock_queue;
-    CDUnknownBlockType _lock_handler;
-    _BSActionResponder *_lock_underlying;
-    unsigned long long _lock_timeout;
-    struct os_unfair_lock_s _lock;
 }
 
-+ (id);
++ (id)8C;
 + (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

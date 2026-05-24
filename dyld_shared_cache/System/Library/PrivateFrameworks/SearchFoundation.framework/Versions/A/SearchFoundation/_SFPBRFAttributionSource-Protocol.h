@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCardSection, _SFPBRFAttribution, _SFPBRFVisualProperty;
+@class NSData, NSString, _SFPBRFAttribution;
 
 @protocol _SFPBRFAttributionSource
+- (unsigned long long);
+- (NSString *)View"16@"NSDictionary"24@"NSDictionary"32;
+- (NSData *)T@"NSString",R,N,V_timezoneName;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBRFAttribution *attribution;
-@property(retain, nonatomic) _SFPBCardSection *card_section;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *text_1;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
-@property(readonly, nonatomic) unsigned long long whichSource;
 @end
 

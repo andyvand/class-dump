@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCalendar, NSDate, NSMutableArray;
-@protocol CUIKSingleDayTimelineGeometryDelegate, CUIKSingleDayTimelineLayoutScreenUtils, CUIKSingleDayTimelineViewItem;
+@class NSArray;
 
 @interface CUIKSingleDayTimelineLayout
 {
     NSArray *_ungroupedOccurrences;
-    NSArray *_occurrences;
-    unsigned long long _currentOccurrenceIndex;
-    id <CUIKSingleDayTimelineViewItem> _currentOccurrence;
-    NSMutableArray *_partitions;
-    NSMutableArray *_occurrenceBuckets;
-    NSMutableArray *_collidingOccurrences;
-    NSDate *_startOfDay;
-    NSDate *_endOfDay;
-    double _startOfDayAbsoluteTime;
-    double _endOfDayAbsoluteTime;
-    struct CGRect _frame;
-    NSCalendar *_calendar;
-    id <CUIKSingleDayTimelineGeometryDelegate> _geometryDelegate;
-    id <CUIKSingleDayTimelineLayoutScreenUtils> _screenUtilsDelegate;
 }
 
 - (_Bool);
@@ -49,7 +34,7 @@
 - (double);
 - (id);
 - (void);
-- (void)uslySpawnedByIdentifier: /* Error: Ran out of types for this method. */;
+- (void)shiftedOccurrencePreviouslySpawnedByIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface _EARLanguageDetectorV2Result
 {
     NSDictionary *_confidences;
-    unsigned long long _detectedLanguage;
-    NSString *_dominantLocale;
 }
 
 - (void);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *confidences; // @synthesize confidences=_confidences;
-@property(nonatomic) unsigned long long detectedLanguage; // @synthesize detectedLanguage=_detectedLanguage;
-@property(copy, nonatomic) NSString *dominantLocale; // @synthesize dominantLocale=_dominantLocale;
 
 @end
 

@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSAttributedStringReplacement
 {
     long long _index;
-    id _argument;
-    long long _replacementKind;
-    struct _NSRange _specifierRangeInFormatString;
-    struct _NSRange _replacementRangeInResult;
 }
 
 + (id);
@@ -19,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct _NSRange);
 - (id);
-- (long long);
+- (long long)I;
 - (struct _NSRange);
 - (long long)	
 
@@ -28,11 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) id argument; // @synthesize argument=_argument;
 @property(readonly) long long index; // @synthesize index=_index;
-@property(readonly) long long replacementKind; // @synthesize replacementKind=_replacementKind;
-@property(readonly) struct _NSRange replacementRangeInResult; // @synthesize replacementRangeInResult=_replacementRangeInResult;
-@property(readonly) struct _NSRange specifierRangeInFormatString; // @synthesize specifierRangeInFormatString=_specifierRangeInFormatString;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsUI2.EndOfTrackNotificationScheduler
 {
     id notificationService;
-    id currentlyPlaying;
-    id readingHistory;
-    id currentlyPlayingObservableToken;
-    id schedulerState;
 }
 
 - (void);

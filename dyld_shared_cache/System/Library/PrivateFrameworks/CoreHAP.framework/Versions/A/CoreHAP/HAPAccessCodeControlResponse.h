@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPAccessCodeFlagsWrapper, HAPAccessCodeResponseStatusWrapper, HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPAccessCodeControlResponse
 {
     HAPTLVUnsignedNumberValue *_identifier;
-    NSString *_accessCode;
-    HAPAccessCodeFlagsWrapper *_flags;
-    HAPAccessCodeResponseStatusWrapper *_statusCode;
 }
 
 + (id);
@@ -21,29 +18,19 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)lic}@;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)stanceID: /* Error: Ran out of types for this method. */;
+- (void)setInstanceID: /* Error: Ran out of types for this method. */;
 - (id){;
 - (void)öU÷#;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessCode; // @synthesize accessCode=_accessCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HAPAccessCodeFlagsWrapper *flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) HAPAccessCodeResponseStatusWrapper *statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) Class superclass;
 
 @end
 

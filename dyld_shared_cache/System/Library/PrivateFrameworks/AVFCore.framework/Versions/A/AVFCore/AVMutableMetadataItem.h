@@ -6,8 +6,7 @@
 
 #import <AVFCore/AVMetadataItem.h>
 
-@class AVMutableMetadataItemInternal, NSDictionary, NSLocale, NSString;
-@protocol NSObject><NSCopying;
+@class AVMutableMetadataItemInternal, NSString;
 
 @interface AVMutableMetadataItem : AVMetadataItem
 {
@@ -22,17 +21,17 @@
 - (CDStruct_1b6d18a9);
 - (void);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void)serviceType;
+- (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)rialization>"16;
 - (void);
 - (void);
 - (void);
@@ -43,14 +42,7 @@
 - (void)PropertiesKey dictionary must specify a value between 0.0 and 1.0 for AVVideoQualityKey;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *dataType;
-@property(nonatomic) CDStruct_1b6d18a9 duration;
-@property(copy, nonatomic) NSString *extendedLanguageTag;
-@property(copy, nonatomic) NSDictionary *extraAttributes;
 @property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSLocale *locale;
-@property(nonatomic) CDStruct_1b6d18a9 time;
-@property(copy, nonatomic) id <NSObject><NSCopying> value;
 
 @end
 

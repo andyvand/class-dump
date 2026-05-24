@@ -4,45 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIPanGestureRecognizer, UIView;
-@protocol UIViewControllerContextTransitioning;
+@class UIPanGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface CNAvatarCardTransition
 {
     _Bool _reversed;
-    _Bool _interactive;
-    UIPanGestureRecognizer *_gestureRecognizer;
-    id <UIViewControllerContextTransitioning> _context;
-    UIView *_presentedView;
 }
 
-- (void);
-- (double);
+- (void)h;
+- (double);
 - (_Bool);
 - (_Bool);
 - (id);
+- (void)`;
+- (void)enterScreenTimePasscodeButton;
 - (void);
-- (void);
-- (void);
-- (id)ionController;
+- (id)_shareLocationController;
 - (void)ate",&,N,V_expiry;
 - (id)5¬6<89|: /* Error: Ran out of types for this method. */;
-- (void)TE_CARD_SHEET_FAILURE_ALERT_EXPLANATION;
+- (void)DELETE_CARD_SHEET_FAILURE_ALERT_EXPLANATION;
 
 // Remaining properties
-@property(retain, nonatomic) id <UIViewControllerContextTransitioning> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) UIPanGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool interactive; // @synthesize interactive=_interactive;
-@property(retain, nonatomic) UIView *presentedView; // @synthesize presentedView=_presentedView;
-@property _Bool reversed; // @synthesize reversed=_reversed;
-@property(readonly) Class superclass;
 
 @end
 

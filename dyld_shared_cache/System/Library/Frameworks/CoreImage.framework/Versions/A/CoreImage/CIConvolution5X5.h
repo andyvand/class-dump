@@ -6,30 +6,26 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIConvolution5X5 : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputWeights;
-    NSNumber *inputBias;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void) ;
 - (_Bool);
 - (id);
 - (void);
 - (id)ooooB[OjLf]|««««| zu¨¨¨¨­­­­    }  ££>RBa5LY[T[nnnnnnnnee^eecYeblfw|¤¤¤¤Rg^tHWIgttrt||||ilfp:TGbO^Ueppmp||z|¦¦¦¦­­­­mzwqm~}m||||kkkk7L>W'A.RRXKaYqlvszwQmf}~¤®®¸¸¸¸£«««ooooE[QeNidri||DcY}b|{x¥¥¥¥««««¦¦j~~iy{5O@cSWKallllP`YhGTJ[HUJW /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputBias; // @synthesize inputBias;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputWeights; // @synthesize inputWeights;
 
 @end
 

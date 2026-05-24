@@ -6,19 +6,14 @@
 
 #import <LaunchServices/LSPlugInQuery.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface LSPlugInQueryWithQueryDictionary : LSPlugInQuery
 {
     NSDictionary *_queryDict;
-    NSArray *_extensionIdentifiers;
-    NSArray *_extensionPointIdentifiers;
-    CDUnknownBlockType _filterBlock;
-    struct optional<NSString *> _cachedSystemMode;
-    struct unfair_lock_mutex _systemModeMutex;
 }
 
-+ (_Bool);
++ (_Bool)eAssertion>"32@0:8q16^@24 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

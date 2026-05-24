@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FTCServiceMonitor, NSMutableSet;
+@class FTCServiceMonitor;
 
 @interface FTCServiceContainer
 {
     FTCServiceMonitor *_monitor;
-    NSMutableSet *_listeners;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)decodeBoolForKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSMutableSet *listeners; // @synthesize listeners=_listeners;
 @property(retain, nonatomic) FTCServiceMonitor *monitor; // @synthesize monitor=_monitor;
 
 @end

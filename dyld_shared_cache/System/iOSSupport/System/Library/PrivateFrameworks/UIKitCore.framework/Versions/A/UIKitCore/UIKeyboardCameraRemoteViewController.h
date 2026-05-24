@@ -6,7 +6,6 @@
 
 #import <UIKitCore/_UIRemoteViewController.h>
 
-@class NSString;
 @protocol UIKeyboardCameraRemoteViewControllerHost;
 
 __attribute__((visibility("hidden")))
@@ -17,9 +16,9 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id)ðÕxÿZ;
-- (void);
-- (void);
-- (void);
+- (void)pping filesize update. Set state attachment filesizes updated activity result %d;
+- (void)size update due to DAS deferral.;
+- (void)new watermark to be %@;
 - (id)!4Bùñ[1Â0@ù
 × ;
 - (void)nt=dd}32@48;
@@ -27,14 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)=Ð;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UIKeyboardCameraRemoteViewControllerHost> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

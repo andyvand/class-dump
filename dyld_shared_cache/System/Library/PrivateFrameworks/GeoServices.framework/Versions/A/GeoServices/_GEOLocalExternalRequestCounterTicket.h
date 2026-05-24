@@ -6,20 +6,16 @@
 
 #import <GeoServices/GEOExternalRequestCounterTicketBase.h>
 
-@class GEORequestCounterPersistence, NSDate, NSString;
+@class GEORequestCounterPersistence;
 
 __attribute__((visibility("hidden")))
 @interface _GEOLocalExternalRequestCounterTicket : GEOExternalRequestCounterTicketBase
 {
     GEORequestCounterPersistence *_persistence;
-    NSDate *_startDate;
-    NSString *_requestType;
-    NSString *_requestSubtype;
-    NSString *_source;
 }
 
 + (id);
-- (void);
+- (void)analysisWithReason:(id)arg1 message:(id)arg2;
 - (void);
 
 @end

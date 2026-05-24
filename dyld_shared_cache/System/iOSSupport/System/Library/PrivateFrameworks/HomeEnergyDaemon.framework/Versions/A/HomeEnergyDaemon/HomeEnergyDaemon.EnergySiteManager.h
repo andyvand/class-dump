@@ -8,8 +8,6 @@
 {
     id $defaultActor;
     id distributedNotificationCenter;
-    id _urlSession;
-    id defaults;
 }
 
 @end

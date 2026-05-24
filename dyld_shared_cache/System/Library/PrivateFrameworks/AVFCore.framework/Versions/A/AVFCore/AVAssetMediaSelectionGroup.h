@@ -6,19 +6,12 @@
 
 #import <AVFCore/AVMediaSelectionGroup.h>
 
-@class AVAsset, AVCustomMediaSelectionScheme, AVMediaSelectionOption, NSArray, NSDictionary;
+@class AVAsset;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetMediaSelectionGroup : AVMediaSelectionGroup
 {
     AVAsset *_asset;
-    NSDictionary *_dictionary;
-    NSArray *_groupMediaCharacteristics;
-    NSDictionary *_localizedMediaSelectionOptionDisplayNames;
-    AVCustomMediaSelectionScheme *_customMediaSelectionScheme;
-    NSArray *_options;
-    AVMediaSelectionOption *_defaultOption;
-    _Bool _isStreamingGroup;
 }
 
 - (void);
@@ -28,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);

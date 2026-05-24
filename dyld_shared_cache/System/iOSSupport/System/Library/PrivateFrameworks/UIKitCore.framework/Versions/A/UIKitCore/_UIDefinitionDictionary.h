@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAAsset, NSString;
+@class MAAsset;
 
 __attribute__((visibility("hidden")))
 @interface _UIDefinitionDictionary
 {
     struct __DCSDictionary *_dictionary;
-    _Bool _activated;
-    MAAsset *_rawAsset;
-    NSString *_definitionLanguage;
-    MAAsset *_assetToUpgrade;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)ge:(id)arg1;
+- (id)fetchMomentShareFromShareURL:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)fetchMomentShareFromShareURL:forMessage:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)8T;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)nd nickname for recordID %@;
+- (_Bool)ting initial sync;
+- (id)iled for GUID %@ :(id)arg1 %@;
+- (id)erver client version %ld;
 - (id);
+- (id)b;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)HandleMessage_openQueryWithParams;
 - (void);
 - (id);
 - (void)#;
@@ -41,11 +37,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property _Bool activated; // @synthesize activated=_activated;
-@property(retain) MAAsset *assetToUpgrade; // @synthesize assetToUpgrade=_assetToUpgrade;
-@property(readonly) NSString *definitionLanguage; // @synthesize definitionLanguage=_definitionLanguage;
-@property(readonly) NSString *localizedDictionaryName;
-@property(readonly) NSString *localizedLanguageName;
 @property(readonly) MAAsset *rawAsset; // @synthesize rawAsset=_rawAsset;
 
 @end

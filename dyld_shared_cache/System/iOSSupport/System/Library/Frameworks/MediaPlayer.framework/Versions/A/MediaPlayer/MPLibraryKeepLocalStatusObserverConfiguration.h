@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelObject;
-
 @interface MPLibraryKeepLocalStatusObserverConfiguration
 {
     long long _enableState;
-    MPModelObject *_identifyingModelObject;
 }
 
 - (void);
 - (id);
-- (long long);
+- (long long)caseTestExpr;
 - (void);
-- (unsigned long long);
+- (unsigned long long)hasFromMeEntitlementOverrideIsPresent;
 - (_Bool);
-- (void)essionIdentifier:type:data: /* Error: Ran out of types for this method. */;
+- (void)setSessionIdentifier:type:data: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long enableState; // @synthesize enableState=_enableState;
-@property(retain, nonatomic) MPModelObject *identifyingModelObject; // @synthesize identifyingModelObject=_identifyingModelObject;
 
 @end
 

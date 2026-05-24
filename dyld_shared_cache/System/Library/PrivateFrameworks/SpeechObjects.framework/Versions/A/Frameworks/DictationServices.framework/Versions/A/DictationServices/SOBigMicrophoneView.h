@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAStateController, NSString;
+@class CAStateController;
 
 @interface SOBigMicrophoneView
 {
     CAStateController *_stateController;
-    CALayer *_microphoneFillLayer;
-    CALayer *_microphoneRootLayer;
-    CALayer *_microphoneFillRootLayer;
 }
 
 - (void);
@@ -19,20 +16,13 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)*@8_a;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long contentState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

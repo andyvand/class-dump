@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMachPortSendRight, NSArray, NSString, NSUUID, UITraitCollection;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewServiceViewControllerOperatorCreateOptions
 {
     _Bool _hostCanDynamicallySpecifySupportedInterfaceOrientations;
-    NSString *_viewControllerClassName;
-    NSUUID *_contextToken;
-    NSArray *_displayConfigurations;
-    UITraitCollection *_traitCollection;
-    BSMachPortSendRight *_hostAccessibilityServerPort;
-    long long _availableTextServices;
-    long long _initialInterfaceOrientation;
 }
 
-+ (_Bool)nDuration;
++ (_Bool)engineActivationDuration;
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (_Bool);
 - (id);
@@ -30,24 +23,17 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)@<;
 - (id);
 - (id);
 - (void);
-- (void)ble:(id)arg1;
+- (void)transitionIndexOverlaySelectionViewToVisible:(id)arg1;
 - (void)Size;
 - (long long)eView setUserInteractionEnabled:] /* Error: Ran out of types for this method. */;
 - (void)¸þ;
-- (id)isualProvider;
+- (id)ToolbarVisualProvider;
 
 // Remaining properties
-@property(nonatomic) long long availableTextServices; // @synthesize availableTextServices=_availableTextServices;
-@property(retain, nonatomic) NSUUID *contextToken; // @synthesize contextToken=_contextToken;
-@property(copy, nonatomic) NSArray *displayConfigurations; // @synthesize displayConfigurations=_displayConfigurations;
-@property(retain, nonatomic) BSMachPortSendRight *hostAccessibilityServerPort; // @synthesize hostAccessibilityServerPort=_hostAccessibilityServerPort;
-@property(nonatomic) _Bool hostCanDynamicallySpecifySupportedInterfaceOrientations; // @synthesize hostCanDynamicallySpecifySupportedInterfaceOrientations=_hostCanDynamicallySpecifySupportedInterfaceOrientations;
-@property(nonatomic) long long initialInterfaceOrientation; // @synthesize initialInterfaceOrientation=_initialInterfaceOrientation;
-@property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 @property(copy, nonatomic) NSString *viewControllerClassName; // @synthesize viewControllerClassName=_viewControllerClassName;
 
 @end

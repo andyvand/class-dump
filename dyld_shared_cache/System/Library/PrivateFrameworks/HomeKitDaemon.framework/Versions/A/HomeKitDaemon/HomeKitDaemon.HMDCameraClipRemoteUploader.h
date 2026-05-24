@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
-@protocol HMDCameraClipUploadingDelegate;
+@class NSUUID;
 
 @interface HomeKitDaemon.HMDCameraClipRemoteUploader
 {
     void clipUUID;
-    id remoteSession;
-    id workQueue;
-    void delegate;
-    id logIdentifier;
-    id queue;
 }
 
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)destroyValidationGraph;
 - (void);
 - (id);
 - (id);
@@ -32,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSUUID *clipUUID;
-@property(nonatomic) __weak id <HMDCameraClipUploadingDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, readonly) NSDictionary *stateDump;
 
 @end
 

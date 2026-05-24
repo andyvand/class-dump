@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UIKBHandwritingBezierPathPointFIFO : UIKBHandwritingPointFIFO
 {
     UIBezierPath *_path;
-    CDUnknownBlockType _emissionHandler;
-    NSMutableArray *_prevPoints;
 }
 
 - (void);
@@ -22,15 +20,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)rabberSuppressionAssertion;
-- (void)sentationCompletionBlock: /* Error: Ran out of types for this method. */;
-- (void)onDeferredFocusUpdate;
+- (void)obtainGrabberSuppressionAssertion;
+- (void)setPresentationCompletionBlock: /* Error: Ran out of types for this method. */;
+- (void)_setNeedsNonDeferredFocusUpdate;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType emissionHandler; // @synthesize emissionHandler=_emissionHandler;
-@property(retain, nonatomic) UIBezierPath *path; // @synthesize path=_path;
 @property(retain, nonatomic) NSMutableArray *prevPoints; // @synthesize prevPoints=_prevPoints;
 
 @end

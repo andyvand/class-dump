@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioPlaybackOptionsAlertPresenter
 {
     id headlineProviderFactory;
-    id audioActionSheetProvider;
 }
 
 @end

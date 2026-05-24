@@ -6,15 +6,12 @@
 
 #import <CoreHAP/HAP2AccessoryServerTransportBase.h>
 
-@class NSString;
-@protocol HAP2AccessoryServerSecureTransportDelegate, HAP2AccessoryServerTransport, HAP2AccessoryServerTransportCommon, HAPEncryptedSession;
+@protocol HAP2AccessoryServerSecureTransportDelegate, HAPEncryptedSession;
 
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerSecureTransportBase : HAP2AccessoryServerTransportBase
 {
     id <HAP2AccessoryServerSecureTransportDelegate> _delegate;
-    id <HAPEncryptedSession> _encryptedSession;
-    id <HAP2AccessoryServerTransport> _transport;
 }
 
 + (id);
@@ -41,26 +38,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ُ;
 - (void);
 - (id);
-- (id);
-- (void)gIdentity:syncable: /* Error: Ran out of types for this method. */;
+- (id)>;
+- (void)saveHH2PairingIdentity:syncable: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HAP2AccessoryServerSecureTransportDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <HAPEncryptedSession> encryptedSession; // @synthesize encryptedSession=_encryptedSession;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double maxRequestTimeout;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HAP2AccessoryServerTransport> transport; // @synthesize transport=_transport;
-@property(readonly, nonatomic) id <HAP2AccessoryServerTransportCommon> underlyingTransport;
 
 @end
 

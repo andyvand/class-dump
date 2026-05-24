@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AFAnnounceBinaryOutcomeUseCaseV2;
-
 @interface AFAnnounceBinaryOutcomeRequest
 {
     long long _useCase;
-    id <AFAnnounceBinaryOutcomeUseCaseV2> _useCaseV2;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
+- (id)T@"NSData",C,V_signedEnrollmentDataSignature;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)?;
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)tempUsers;
 - (void);
 - (id);
-- (void)kingStateServiceDelegate;
+- (void)AFUserNotificationAnnouncementSpeakingStateServiceDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) long long useCase; // @synthesize useCase=_useCase;
-@property(readonly, copy, nonatomic) id <AFAnnounceBinaryOutcomeUseCaseV2> useCaseV2; // @synthesize useCaseV2=_useCaseV2;
 
 @end
 

@@ -5,29 +5,24 @@
 //
 
 @class UITapGestureRecognizer;
-@protocol CKSendMenuPopoverPresentationDimmingViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CKSendMenuPopoverPresentationDimmingView
 {
     _Bool _active;
-    id <CKSendMenuPopoverPresentationDimmingViewDelegate> _delegate;
-    UITapGestureRecognizer *_dismissGestureRecognizer;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)p;
 
 // Remaining properties
-@property(nonatomic, getter=isActive, setter=setActive:) _Bool active; // @synthesize active=_active;
-@property(nonatomic) __weak id <CKSendMenuPopoverPresentationDimmingViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) UITapGestureRecognizer *dismissGestureRecognizer; // @synthesize dismissGestureRecognizer=_dismissGestureRecognizer;
 
 @end

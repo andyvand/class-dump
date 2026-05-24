@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (long long);
+- (_Bool)updateAppleIDWithParameters:(id)arg1 handler:(id)arg2;
+- (_Bool)updateAccountInformationCacheForAppleAccount:(id)arg1;
+- (long long)addFMFChildAccountToAppleAccount:(id)arg1;
+- (long long)oxyOfAccount:(id)arg1 %@ account was deleted;
 - (_Bool);
 - (id);
 - (id);

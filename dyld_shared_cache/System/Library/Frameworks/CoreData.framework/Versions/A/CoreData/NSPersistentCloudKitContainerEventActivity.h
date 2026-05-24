@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSPersistentCloudKitContainerEventActivity : NSPersistentCloudKitContainerActivity
 {
     NSMutableDictionary *_activitiesByPhaseNum;
-    long long _eventType;
 }
 
 - (id);

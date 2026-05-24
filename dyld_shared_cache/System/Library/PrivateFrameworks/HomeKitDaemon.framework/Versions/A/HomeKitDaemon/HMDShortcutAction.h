@@ -6,14 +6,12 @@
 
 #import <HomeKitDaemon/HMDAction.h>
 
-@class NSData, WFHomeWorkflow, WFHomeWorkflowController;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDShortcutAction : HMDAction
 {
     NSData *_shortcutData;
-    WFHomeWorkflow *_shortcut;
-    WFHomeWorkflowController *_controller;
 }
 
 + (id);
@@ -21,27 +19,27 @@ __attribute__((visibility("hidden")))
 + (_Bool)Ø&;
 + (id)KB;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)URL"32@"NSDictionary"40@"NSString"48@"IDSMessageContext"56;
+- (_Bool)Strategy";
+- (_Bool)ControllerDelegate>";
+- (_Bool)edNavState"24;
+- (id)initWithCoordinate:(id)arg1;
+- (id)allObjects;
 - (void);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (void);
+- (id)tion %f x %d y %d;
 - (unsigned long long);
-- (id);
-- (_Bool);
 - (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id)ss;
+- (id)networkGatewayMACAddress;
 - (id)ory;
 - (id)rom new stream snapshot:(unsigned long long)arg1 %@;
 - (Class)rIdentifier=%{signpost.description:attribute}@  /* Error: Ran out of types for this method. */;
 - (void)sory uuid:(id)arg1 %@;
-- (void)tKnownDiscoveryMode;
-- (id)SS_MESSAGE;
+- (void)lastKnownDiscoveryMode;
+- (id)RESTRICTED_BT_CHARS_ACCESS_MESSAGE;
 
 @end
 

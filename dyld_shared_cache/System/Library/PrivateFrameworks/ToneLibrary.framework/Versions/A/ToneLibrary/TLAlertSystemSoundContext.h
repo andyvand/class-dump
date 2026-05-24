@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TLAlertPlaybackCompletionContext, TLAlertStoppingOptions, TLSystemSound;
-@protocol TLAlertPlaybackObserver;
+@class TLSystemSound;
 
 @interface TLAlertSystemSoundContext
 {
     _Bool _requiringBacklightObservation;
-    _Bool _loadingSound;
-    _Bool _hasPlaybackStarted;
-    _Bool _beingInterrupted;
-    _Bool _beingDeemphasized;
-    _Bool _deemphasized;
-    _Bool _hasDeemphasizedPlaybackStarted;
-    _Bool _shouldBeInterruptedAfterDeemphasizedPlaybackStarts;
-    TLSystemSound *_sound;
-    TLAlertPlaybackCompletionContext *_playbackCompletionContext;
-    id <TLAlertPlaybackObserver> _playbackObserver;
-    NSString *_toneIdentifierForDeemphasizingAlert;
-    TLAlertStoppingOptions *_stoppingOptionsForDeferredInterruption;
 }
 
 - (id);
@@ -47,26 +34,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)N41domCommon_float_or_param_type_complexType8domParamE;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isBeingDeemphasized) _Bool beingDeemphasized; // @synthesize beingDeemphasized=_beingDeemphasized;
-@property(nonatomic, getter=isBeingInterrupted) _Bool beingInterrupted; // @synthesize beingInterrupted=_beingInterrupted;
-@property(nonatomic, getter=isDeemphasized) _Bool deemphasized; // @synthesize deemphasized=_deemphasized;
-@property(nonatomic) _Bool hasDeemphasizedPlaybackStarted; // @synthesize hasDeemphasizedPlaybackStarted=_hasDeemphasizedPlaybackStarted;
-@property(nonatomic) _Bool hasPlaybackStarted; // @synthesize hasPlaybackStarted=_hasPlaybackStarted;
-@property(nonatomic, getter=isLoadingSound) _Bool loadingSound; // @synthesize loadingSound=_loadingSound;
-@property(retain, nonatomic) TLAlertPlaybackCompletionContext *playbackCompletionContext; // @synthesize playbackCompletionContext=_playbackCompletionContext;
-@property(nonatomic) __weak id <TLAlertPlaybackObserver> playbackObserver; // @synthesize playbackObserver=_playbackObserver;
-@property(nonatomic, getter=isRequiringBacklightObservation) _Bool requiringBacklightObservation; // @synthesize requiringBacklightObservation=_requiringBacklightObservation;
-@property(nonatomic) _Bool shouldBeInterruptedAfterDeemphasizedPlaybackStarts; // @synthesize shouldBeInterruptedAfterDeemphasizedPlaybackStarts=_shouldBeInterruptedAfterDeemphasizedPlaybackStarts;
 @property(retain, nonatomic) TLSystemSound *sound; // @synthesize sound=_sound;
-@property(copy, nonatomic) TLAlertStoppingOptions *stoppingOptionsForDeferredInterruption; // @synthesize stoppingOptionsForDeferredInterruption=_stoppingOptionsForDeferredInterruption;
-@property(copy, nonatomic) NSString *toneIdentifierForDeemphasizingAlert; // @synthesize toneIdentifierForDeemphasizingAlert=_toneIdentifierForDeemphasizingAlert;
 
 @end
 

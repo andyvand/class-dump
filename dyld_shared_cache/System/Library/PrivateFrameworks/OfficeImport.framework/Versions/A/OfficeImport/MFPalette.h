@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)samplingLimitForMessageGroup: /* Error: Ran out of types for this method. */;
 - (void)ä;
 
 @end

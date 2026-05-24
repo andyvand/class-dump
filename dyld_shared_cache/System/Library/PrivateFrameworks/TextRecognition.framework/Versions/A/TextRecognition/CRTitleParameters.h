@@ -7,7 +7,6 @@
 @interface CRTitleParameters
 {
     float _minTitleProbability;
-    unsigned long long _minTitleLength;
 }
 
 + (id);
@@ -15,7 +14,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long minTitleLength; // @synthesize minTitleLength=_minTitleLength;
 @property(readonly) float minTitleProbability; // @synthesize minTitleProbability=_minTitleProbability;
 
 @end

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimeZone;
-
 __attribute__((visibility("hidden")))
 @interface XQueryDate
 {
     double _timeInterval;
-    NSTimeZone *_timeZone;
-    long long _type;
 }
 
 + (id);
@@ -23,11 +19,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id)J;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)queuedRefreshCount;
 - (id);
 - (id);
 - (CDStruct_79f9e052);
@@ -35,10 +31,10 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)currentRecommendation;
+- (id)filterPower;
 - (void);
-- (id);
+- (id)qA;
 - (id);
 - (double);
 - (void);
@@ -47,13 +43,7 @@ __attribute__((visibility("hidden")))
 - (id)								±²³TÄÄÄlµ«¶·«Ä               333´,3rrr3¸,ÞÞÞIII???|^^|´?***r¹``*º½**­**I^ÞI¾­*******`¿************************,,,,À^^^^^^^Á^^^^{{£££Â¢¢¢```````¢````*******É****|¬{||¦¦¦¬Ê£®ªªª¦®£«««¢ª©©©³³³ÒÒÒ¢©Ë³ÌÒ777{{{{{{{¦{{{{ÍªÔÔÔÎ¦Ã«Ã©Ô§§§Ò©Ï«Ð7³|||||||Ñ||||¬¬¬¬ÔÔÚ§Ýááá%%%åBBBpÒBpëÒEEEìTTTíqqqéTñéñ%qö%ÓÇ%Ó÷qúÇ%}}}îîûE}òÓòq©©©ÕÕÕqýppppþÿØØØØ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

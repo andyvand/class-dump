@@ -9,37 +9,35 @@
 @interface GEORPFeedbackImageUploadResult
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_imageUploadInfos;
 }
 
 + (Class);
-+ (_Bool)gion:(id)arg1;
++ (_Bool)setIsWithinHikingBufferRegion:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)`;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id)s_oldRouteHistoricTravelTime"b1"has_oldRouteTravelTime"b1"has_rerouteType"b1"has_reroutedRouteHistoricTravelTime"b1"has_reroutedRouteTravelTime"b1"has_backgrounded"b1"read_displayedBannerId"b1"read_oldRouteID"b1"read_oldRouteIncidents"b1"read_reroutedRouteID"b1"read_responseId"b1"wrote_anyField"b1};
-- (id)rs;
+- (id)areaInMeters;
 - (id),g;
-- (id)ular_coverage;
+- (id)include_cellular_coverage;
 - (void)À?¥J·M@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *imageUploadInfos;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

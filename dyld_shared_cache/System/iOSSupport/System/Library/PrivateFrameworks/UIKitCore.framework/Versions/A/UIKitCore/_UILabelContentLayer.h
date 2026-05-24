@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
-- (void)enderingMode:(_Bool)arg1;
-- (void)pringAnimation;
+- (void)performWithoutAnimation:(struct CGContext *)arg1;
+- (void)imageWithRenderingMode:(_Bool)arg1;
+- (void)_hasStartedSpringAnimation;
 - (id)entKeyplaneName;
 
 // Remaining properties

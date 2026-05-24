@@ -6,26 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SIServiceBatchInfo;
+@class NSString;
 
 @interface SIServiceInstrumentationBatch : SISchemaInstrumentationMessage
 {
     NSString *_app_id;
-    SIServiceBatchInfo *_batch_info;
-    NSArray *_events;
-    _Bool _hasApp_id;
-    _Bool _hasBatch_info;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (void);
@@ -33,26 +29,21 @@
 - (id);
 - (id);
 - (void);
+- (unsigned long long)managedApplicationRequestWithOptions:completionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)LACUIAuthenticationSheetViewDelegate;
+- (_Bool)IMDSharedWithYouMetadataManager;
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (unsigned long long);
 - (id);
 - (id);
-- (id)guousFirstRunPreviouslyShown;
-- (id)hasHomeClientEvent;
-- (void)ason;
+- (id)deleteIsAmbiguousFirstRunPreviouslyShown;
+- (id)_hasHomeClientEvent;
+- (void)_disconnectedReason;
 - (void)ntEvent.MARRSContextualSpanMatcherEndedTier1;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *app_id; // @synthesize app_id=_app_id;
-@property(retain, nonatomic) SIServiceBatchInfo *batch_info; // @synthesize batch_info=_batch_info;
-@property(copy, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(nonatomic) _Bool hasApp_id; // @synthesize hasApp_id=_hasApp_id;
-@property(nonatomic) _Bool hasBatch_info; // @synthesize hasBatch_info=_hasBatch_info;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

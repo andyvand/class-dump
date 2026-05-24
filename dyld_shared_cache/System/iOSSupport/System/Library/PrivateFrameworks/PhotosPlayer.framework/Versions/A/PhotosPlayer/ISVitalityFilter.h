@@ -4,59 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-@protocol ISVitalitySettings;
-
 __attribute__((visibility("hidden")))
 @interface ISVitalityFilter
 {
     _Bool _isVisible;
-    _Bool _hasTargetVisibilityOffset;
-    _Bool _isScrolling;
-    _Bool _isDecelerating;
-    _Bool _scrubbing;
-    _Bool __isPerformingInputChanges;
-    _Bool __isPerformingOutputChanges;
-    _Bool __outputDidChange;
-    id <ISVitalitySettings> _settings;
-    double _visibilityOffset;
-    double _targetVisibilityOffset;
-    NSDate *_estimatedScrollEndDate;
-    double _scrubOffset;
-    double _playRate;
-    CDUnknownBlockType _outputChangeHandler;
 }
 
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
+- (double)_oldchildLayouts;
+- (double)_myWrapPolygon;
+- (void)_locations;
+- (void)_leftScreenMargin;
+- (void)_lastObservedVisibilityState;
+- (void)_isDraggable;
+- (void)_invalidationDispatched;
+- (void)_interfaceOrientationListeners;
+- (double)_initialSubviewCount;
+- (void)_handler;
+- (void)_gradientView;
+- (CDUnknownBlockType)_gradient;
+- (void)_exposedEvents;
+- (_Bool)_didDisappearBlocks;
+- (id)_debugLayoutOptionsProvider;
+- (void)_allowFirstViewportException;
+- (void)_advertisingSettingsFactory;
+- (void)_advertisementAutoPlacementResolver;
+- (_Bool)_accessibilityCaptions;
+- (_Bool),R,N,V_suggestedHeight;
+- (_Bool),R,N,V_right;
+- (void)nge;
+- (void)e;
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)16;
 - (void);
 - (void);
 - (void);
@@ -66,20 +49,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, setter=_setPerformingInputChanges:) _Bool _isPerformingInputChanges; // @synthesize _isPerformingInputChanges=__isPerformingInputChanges;
-@property(nonatomic, setter=_setPerformingOutputChanges:) _Bool _isPerformingOutputChanges; // @synthesize _isPerformingOutputChanges=__isPerformingOutputChanges;
-@property(nonatomic, setter=_setOutputDidChange:) _Bool _outputDidChange; // @synthesize _outputDidChange=__outputDidChange;
-@property(retain, nonatomic) NSDate *estimatedScrollEndDate; // @synthesize estimatedScrollEndDate=_estimatedScrollEndDate;
-@property(nonatomic) _Bool hasTargetVisibilityOffset; // @synthesize hasTargetVisibilityOffset=_hasTargetVisibilityOffset;
-@property(nonatomic, setter=setDecelerating:) _Bool isDecelerating; // @synthesize isDecelerating=_isDecelerating;
-@property(nonatomic, setter=setScrolling:) _Bool isScrolling; // @synthesize isScrolling=_isScrolling;
-@property(nonatomic, setter=setVisible:) _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property(copy, nonatomic) CDUnknownBlockType outputChangeHandler; // @synthesize outputChangeHandler=_outputChangeHandler;
-@property(nonatomic) double playRate; // @synthesize playRate=_playRate;
-@property(nonatomic) double scrubOffset; // @synthesize scrubOffset=_scrubOffset;
-@property(nonatomic, getter=isScrubbing) _Bool scrubbing; // @synthesize scrubbing=_scrubbing;
-@property(readonly, nonatomic) id <ISVitalitySettings> settings; // @synthesize settings=_settings;
-@property(nonatomic) double targetVisibilityOffset; // @synthesize targetVisibilityOffset=_targetVisibilityOffset;
-@property(nonatomic) double visibilityOffset; // @synthesize visibilityOffset=_visibilityOffset;
 
 @end
 

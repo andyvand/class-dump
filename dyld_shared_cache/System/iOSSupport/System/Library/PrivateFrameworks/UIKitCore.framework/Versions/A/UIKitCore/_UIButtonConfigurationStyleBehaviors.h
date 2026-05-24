@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIButtonConfigurationStyleBehaviors
 {
     long long _style;
-    NSString *_styleDescription;
-    CDUnknownBlockType _calculateForegroundColor;
-    CDUnknownBlockType _calculateBackgroundColor;
-    CDUnknownBlockType _calculateBackgroundVisualEffect;
-    CDUnknownBlockType _calculateMaterial;
-    CDUnknownBlockType _calculateMonochromaticTreatment;
-    long long _selectionStyle;
-    long long _automaticMacIdiomStyle;
-    long long _cornerStyle;
-    long long _contentMaterialRenderingMode;
 }
 
-+ (id);
-+ (id);
++ (id)mation were provided;
++ (id)vices, with current version:%lu /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
@@ -34,7 +22,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
@@ -42,10 +30,10 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)M;
 - (void);
 - (id);
-- (void);
+- (void)_routes;
 - (void);
 - (id);
 - (id);
@@ -60,31 +48,21 @@ __attribute__((visibility("hidden")))
 × ;
 - (CDUnknownBlockType)fÐ1Â0@ù
 × ;
-- (void)rminateProcessExplicitly;
-- (void)stKeyboardEvent:(id)arg1;
-- (long long)n:(id)arg1;
-- (long long)mpletionHandler: /* Error: Ran out of types for this method. */;
+- (void)uiKitWantsToTerminateProcessExplicitly;
+- (void)setLastKeyboardEvent:(id)arg1;
+- (long long)setByRemovingTraitToken:(id)arg1;
+- (long long)revertToContentsOfURL:completionHandler: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)D migration:%d /* Error: Ran out of types for this method. */;
 - (void)roller hierarchy before presenting from it. Will become a hard exception in a future release.;
 - (long long);
-- (CDUnknownBlockType)mat;
+- (CDUnknownBlockType)textformat;
 - (id)vementStyle(__strong id<UIFocusEnvironment> _Nonnull);
 - (id)§þÙ«13&§þÙ«13þù«13¬&§þ;
 - (void)3åa;
 - (id)$vØt^;
 
 // Remaining properties
-@property(nonatomic) long long automaticMacIdiomStyle; // @synthesize automaticMacIdiomStyle=_automaticMacIdiomStyle;
-@property(copy, nonatomic) CDUnknownBlockType calculateBackgroundColor; // @synthesize calculateBackgroundColor=_calculateBackgroundColor;
-@property(copy, nonatomic) CDUnknownBlockType calculateBackgroundVisualEffect; // @synthesize calculateBackgroundVisualEffect=_calculateBackgroundVisualEffect;
-@property(copy, nonatomic) CDUnknownBlockType calculateForegroundColor; // @synthesize calculateForegroundColor=_calculateForegroundColor;
-@property(copy, nonatomic) CDUnknownBlockType calculateMaterial; // @synthesize calculateMaterial=_calculateMaterial;
-@property(copy, nonatomic) CDUnknownBlockType calculateMonochromaticTreatment; // @synthesize calculateMonochromaticTreatment=_calculateMonochromaticTreatment;
-@property(nonatomic) long long contentMaterialRenderingMode; // @synthesize contentMaterialRenderingMode=_contentMaterialRenderingMode;
-@property(nonatomic) long long cornerStyle; // @synthesize cornerStyle=_cornerStyle;
-@property(nonatomic) long long selectionStyle; // @synthesize selectionStyle=_selectionStyle;
 @property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(copy, nonatomic) NSString *styleDescription; // @synthesize styleDescription=_styleDescription;
 
 @end
 

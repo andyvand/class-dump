@@ -8,6 +8,11 @@
 {
 }
 
+- (id)CTPlmnInfo;
+- (id);
+- (id);
+- (id);
+- (id)elete this BambiCallParticipant. Save its _oldCallDelegate first.;
 - (id);
 - (id);
 - (id);
@@ -16,14 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)nearbyInfoV2TempAuthTagData;
+- (id)FARequestEphemeralSigner;
+- (id)FamilyCircle28SystemBackgroundTaskProtocolP;
 - (id);
 - (id);
 - (id);

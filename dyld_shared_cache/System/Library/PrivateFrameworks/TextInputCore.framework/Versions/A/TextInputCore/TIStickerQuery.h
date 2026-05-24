@@ -10,21 +10,17 @@ __attribute__((visibility("hidden")))
 @interface TIStickerQuery
 {
     NSString *_normalizedQueryString;
-    NSString *_queryString;
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)addEntriesFromDictionary: /* Error: Ran out of types for this method. */;
+- (id)elivering:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)*;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isStopWord;
-@property(readonly, nonatomic) unsigned long long length;
-@property(readonly, nonatomic) NSString *normalizedQueryString; // @synthesize normalizedQueryString=_normalizedQueryString;
 @property(readonly, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
 
 @end

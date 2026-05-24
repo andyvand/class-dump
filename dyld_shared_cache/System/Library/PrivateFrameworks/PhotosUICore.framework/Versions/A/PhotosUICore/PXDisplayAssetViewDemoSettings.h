@@ -6,22 +6,13 @@
 
 #import <PhotosUICore/PXSettings.h>
 
-@class NSArray, NSString;
-
 @interface PXDisplayAssetViewDemoSettings : PXSettings
 {
     _Bool _allowsTextSelection;
-    _Bool _showDummyTimeRangeHighlight;
-    NSString *_stringToHighlight;
-    NSString *_sceneIdentifiersToHighlightString;
-    NSString *_audioIdentifiersToHighlightString;
-    NSString *_humanActionIdentifiersToHighlightString;
-    NSString *_personLocalIdentifiersToHighlightString;
-    long long _preferredDynamicRange;
 }
 
 + (id);
-+ (id);
++ (id)release;
 + (id);
 - (id);
 - (id);
@@ -29,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (id);
@@ -43,25 +34,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)̌;
 - (void);
 - (long long);
 - (void)ª;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsTextSelection; // @synthesize allowsTextSelection=_allowsTextSelection;
-@property(readonly, nonatomic) NSArray *audioIdentifiersToHighlight;
-@property(copy, nonatomic) NSString *audioIdentifiersToHighlightString; // @synthesize audioIdentifiersToHighlightString=_audioIdentifiersToHighlightString;
-@property(readonly, nonatomic) NSArray *humanActionIdentifiersToHighlight;
-@property(copy, nonatomic) NSString *humanActionIdentifiersToHighlightString; // @synthesize humanActionIdentifiersToHighlightString=_humanActionIdentifiersToHighlightString;
-@property(readonly, nonatomic) NSArray *personLocalIdentifiersToHighlight;
-@property(copy, nonatomic) NSString *personLocalIdentifiersToHighlightString; // @synthesize personLocalIdentifiersToHighlightString=_personLocalIdentifiersToHighlightString;
-@property(nonatomic) long long preferredDynamicRange; // @synthesize preferredDynamicRange=_preferredDynamicRange;
-@property(readonly, nonatomic) NSArray *sceneIdentifiersToHighlight;
-@property(copy, nonatomic) NSString *sceneIdentifiersToHighlightString; // @synthesize sceneIdentifiersToHighlightString=_sceneIdentifiersToHighlightString;
-@property(nonatomic) _Bool showDummyTimeRangeHighlight; // @synthesize showDummyTimeRangeHighlight=_showDummyTimeRangeHighlight;
-@property(copy, nonatomic) NSString *stringToHighlight; // @synthesize stringToHighlight=_stringToHighlight;
-@property(readonly, nonatomic) NSArray *stringsToHighlight;
 
 @end
 

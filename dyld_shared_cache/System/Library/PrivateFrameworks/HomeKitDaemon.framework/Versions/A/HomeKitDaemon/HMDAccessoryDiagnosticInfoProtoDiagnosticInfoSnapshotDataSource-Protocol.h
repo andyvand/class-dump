@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryInfoProtoPublicPairingIdentity, HMAccessoryInfoProtoWifiNetworkInfoEvent, HMDAppleMediaAccessory, HMDHome, HMRemoteEventRouterProtoServerDiagnosticInfo, HMSoftwareUpdateEventProtoSoftwareUpdateDescriptor, HMSoftwareUpdateEventProtoSoftwareUpdateProgress, NSArray, NSString, NSUUID;
+@class HMAccessoryInfoProtoPublicPairingIdentity, HMDAppleMediaAccessory, NSArray, NSString, NSUUID;
 
 @protocol HMDAccessoryDiagnosticInfoProtoDiagnosticInfoSnapshotDataSource
+- (NSArray *);
+- (unsigned long long)Sender] startSharingWith identifiers:%@, via %{public}@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)ntroller creating group session for uuid %{public}@;
+- (NSUUID *)ssed waypoint %lu etaInfo;
+- (HMDAppleMediaAccessory *)ng current guidance, route, ETA and current step...;
+- (HMAccessoryInfoProtoPublicPairingIdentity *)reating state, we already have one;
+- (NSString *)ionListener not creating state, no delegate;
+- (NSUUID *)xel-based headroom zoom final range %@,%@:%@,%@ /* Error: Ran out of types for this method. */;
 - (_Bool)0@ù
 × ;
-- (_Bool)ionSetModelUpdated:message: /* Error: Ran out of types for this method. */;
+- (_Bool)_processActionSetModelUpdated:message: /* Error: Ran out of types for this method. */;
 - (_Bool)ì§=;
 
 // Remaining properties
-@property(readonly) NSString *currentAccessoryManufacturer;
-@property(readonly) HMAccessoryInfoProtoPublicPairingIdentity *currentAccessoryPublicPairingIdentity;
-@property(readonly) NSUUID *currentAccessoryUUID;
-@property(readonly) HMDAppleMediaAccessory *currentAppleMediaAccessory;
-@property(readonly) NSUUID *currentDeviceIDSIdentifier;
-@property(readonly) HMDHome *currentHome;
-@property(readonly) unsigned long long currentHomeNumberOfAppleMediaAccessories;
-@property(readonly) unsigned long long currentHomeNumberOfResidents;
-@property(readonly) HMRemoteEventRouterProtoServerDiagnosticInfo *eventRouterServerInfo;
-@property(readonly) _Bool isCurrentDevicePrimaryResident;
-@property(readonly) _Bool isFirstCloudImportComplete;
-@property(readonly) _Bool isSignedIntoiCloud;
-@property(readonly) NSString *mediaRouteIdString;
-@property(readonly) NSArray *nearbyVisibleDevices;
-@property(readonly) HMAccessoryInfoProtoWifiNetworkInfoEvent *networkInfo;
-@property(readonly) NSArray *networkInfoProtoNetworkInfo;
-@property(readonly) NSArray *networkInfoProtoNetworkServiceInfo;
-@property(readonly) NSArray *networkVisibleDevices;
-@property(readonly) unsigned long long numHomes;
 @property(readonly) int octagonState;
-@property(readonly) unsigned long long sfProblemFlags;
-@property(readonly) HMSoftwareUpdateEventProtoSoftwareUpdateDescriptor *softwareUpdateDescriptor;
-@property(readonly) HMSoftwareUpdateEventProtoSoftwareUpdateProgress *softwareUpdateProgress;
-@property(readonly) NSString *systemInfoModelIdentifier;
-@property(readonly) NSString *systemInfoRegionInfo;
-@property(readonly) NSString *systemInfoSerialNumber;
-@property(readonly) NSString *systemInfoSoftwareVersion;
 @end
 

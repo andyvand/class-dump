@@ -7,8 +7,6 @@
 @interface CSSiriFanInfo
 {
     unsigned long long _fanId;
-    long long _currentSpeed;
-    long long _targetSpeed;
 }
 
 - (long long);
@@ -19,9 +17,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long currentSpeed; // @synthesize currentSpeed=_currentSpeed;
 @property(nonatomic) unsigned long long fanId; // @synthesize fanId=_fanId;
-@property(nonatomic) long long targetSpeed; // @synthesize targetSpeed=_targetSpeed;
 
 @end
 

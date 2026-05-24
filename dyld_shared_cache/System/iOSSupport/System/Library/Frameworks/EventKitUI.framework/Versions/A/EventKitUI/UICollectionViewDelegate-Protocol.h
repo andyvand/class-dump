@@ -4,18 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView;
+@class NSIndexPath, UICollectionView, UIContextMenuConfiguration, UITargetedPreview;
 
 @protocol UICollectionViewDelegate
 
 @optional
+- (void);
+- (void);
+- (void)InformationStorageCG;
+- (UITargetedPreview *);
+- (void)dTopHitContextualAction.m;
+- (UIContextMenuConfiguration *)ents12_IntentValueP;
+- (struct CGPoint)__LINKEDIT;
 - (NSIndexPath *)!`EùqnÐ1Â0@ù
 × ;
-- (_Bool);
 - (_Bool)1Â0@ù
 × ;
 - (void)0EventKitUI28EKEventViewControllerOOPImpl";
-- (_Bool)houldCreateOwnEditViewController:(UICollectionView *)arg1;
+- (_Bool)eventViewDelegateShouldCreateOwnEditViewController:(UICollectionView *)arg1;
 - (_Bool)alendars are read-only feeds of data from external sources. You can subscribe to this feed to get events as they are updated by the data provider.;
 @end
 

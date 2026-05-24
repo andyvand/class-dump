@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSPredicate;
+@class NSMutableDictionary;
 
 @interface SignpostSupportSubsystemCategoryFilter
 {
@@ -15,13 +15,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)x (%s) byte_multiple=%d;
 - (void);
 - (void);
 - (void);
@@ -30,9 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _compoundPredicateType;
-@property(readonly, nonatomic) _Bool _wantsNotSubsystem;
-@property(readonly, nonatomic) NSPredicate *predicateEquivalent;
 @property(readonly, nonatomic) NSMutableDictionary *subsystemsDict; // @synthesize subsystemsDict=_subsystemsDict;
 
 @end

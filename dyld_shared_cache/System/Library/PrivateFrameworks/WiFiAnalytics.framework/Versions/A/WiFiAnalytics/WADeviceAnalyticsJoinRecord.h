@@ -12,28 +12,17 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id)`);
 + (id);
 + (unsigned long long);
 + (id);
 + (id);
 - (id);
-- (id);
+- (id):%{public}@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *apProfileID; // @dynamic apProfileID;
-@property(nonatomic) int dhcpLatencyMs; // @dynamic dhcpLatencyMs;
-@property(nonatomic) int dhcpLeaseMins; // @dynamic dhcpLeaseMins;
-@property(nonatomic) _Bool dhcpSuccess; // @dynamic dhcpSuccess;
-@property(nonatomic) int ipv4Addr; // @dynamic ipv4Addr;
-@property(nonatomic) int ipv4routerAddr; // @dynamic ipv4routerAddr;
-@property(nonatomic) short networkAuthFlags; // @dynamic networkAuthFlags;
-@property(nonatomic) int networkFlags; // @dynamic networkFlags;
-@property(nonatomic) _Bool networkIsHome; // @dynamic networkIsHome;
-@property(nonatomic) _Bool networkIsWork; // @dynamic networkIsWork;
-@property(copy, nonatomic) NSString *routerMAC; // @dynamic routerMAC;
-@property(nonatomic) short snr; // @dynamic snr;
 
 @end
 

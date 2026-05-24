@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 + (_Bool)int=dd}16{CGPoint=dd}32B48;
 - (id)1Â0@ù
 × ;
-- (void)ntainerView;
-- (int)atingHeading;
+- (void)presentationContainerView;
+- (int)_joystickRepeatingHeading;
 - (_Bool)ðcXd;
 - (void)ironment does not provide a container for focus items.;
 - (unsigned long long)îèÿÈ°J;

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _MRLanguageOptionProtobuf;
+@class _MRLanguageOptionProtobuf;
 
 @interface _MRLanguageOptionGroupProtobuf
 {
     _MRLanguageOptionProtobuf *_defaultLanguageOption;
-    NSMutableArray *_languageOptions;
-    _Bool _allowEmptySelection;
-    struct {
-        unsigned int allowEmptySelection:1;
-    } _has;
 }
 
 + (Class);
@@ -28,7 +23,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)7c;
 - (id);
 - (id);
 - (void);
@@ -38,15 +33,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)DiscoveredEndpoint:outputDevice:forTargetOutputDevice: /* Error: Ran out of types for this method. */;
+- (id)AFBTCarHeadunitsConnectedInLast24Hours_block_invoke;
+- (void)_notifyDiscoveredEndpoint:outputDevice:forTargetOutputDevice: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowEmptySelection; // @synthesize allowEmptySelection=_allowEmptySelection;
-@property(retain, nonatomic) _MRLanguageOptionProtobuf *defaultLanguageOption; // @synthesize defaultLanguageOption=_defaultLanguageOption;
 @property(nonatomic) _Bool hasAllowEmptySelection;
-@property(readonly, nonatomic) _Bool hasDefaultLanguageOption;
-@property(retain, nonatomic) NSMutableArray *languageOptions; // @synthesize languageOptions=_languageOptions;
 
 @end
 

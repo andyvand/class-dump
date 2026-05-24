@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, AVWeakReferencingDelegateStorage, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface AVMetricEventStream
 {
     struct __CFDictionary *_publisherByEventTimeline;
-    struct __CFArray *_eventTimelines;
-    AVWeakReferencingDelegateStorage *_delegateStorage;
-    NSMutableArray *_metricEventClassesToSubscribe;
-    _Bool _shouldSubscribeToAllMetricEventClasses;
-    AVWeakReference *_weakSelf;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
++ (id)n;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id)0;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)l[;
++ (id)`w;
 + (id);
 + (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (void);
 - (void);

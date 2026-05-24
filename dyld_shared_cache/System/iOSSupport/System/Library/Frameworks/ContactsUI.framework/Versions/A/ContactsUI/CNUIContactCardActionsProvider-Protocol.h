@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNUIGKGameCenterFriendPlayerViewWrapper;
+@class CNContact;
 @protocol CNUICoreParentContainerProvider;
 
 @protocol CNUIContactCardActionsProvider
+- (void);
 - (void)!Eð!àDùñtÐ1Â0@ù
 × ;
 
-// Remaining properties
-@property(nonatomic) _Bool allowsActions;
-@property(nonatomic) _Bool allowsEditing;
-@property(readonly) CNContact *contact;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"CNContact",?,R
+@optional
+- (_Bool);
+- (CNContact *)gth is invalid.;
 
+// Remaining properties
 @property(nonatomic) __weak id <CNUICoreParentContainerProvider> containerProvider;
-@property(readonly, nonatomic) CNUIGKGameCenterFriendPlayerViewWrapper *gameCenterPlayerViewWrapper;
-@property(nonatomic) _Bool shouldShowInlineActions;
 @end
 

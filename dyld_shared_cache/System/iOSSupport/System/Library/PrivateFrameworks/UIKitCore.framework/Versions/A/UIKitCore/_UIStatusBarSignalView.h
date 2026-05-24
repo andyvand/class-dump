@@ -6,24 +6,15 @@
 
 #import <UIKitCore/_UIStatusBarPersistentAnimationView.h>
 
-@class NSString, UIAccessibilityHUDItem, UIColor;
-
 @interface _UIStatusBarSignalView : _UIStatusBarPersistentAnimationView
 {
     _Bool _smallSize;
-    _Bool _rounded;
-    long long _numberOfBars;
-    long long _numberOfActiveBars;
-    long long _signalMode;
-    UIColor *_inactiveColor;
-    UIColor *_activeColor;
-    long long _iconSize;
 }
 
-+ (struct CGSize);
++ (struct CGSize)_television;
 - (long long)ormattingCoordinator";
-- (void)Size:(long long)arg1;
-- (void)hangesForWindow:(long long)arg1;
+- (void)setContainerSize:(long long)arg1;
+- (void)beginMonitoringContextChangesForWindow:(long long)arg1;
 - (void)S_setContentBackgroundHidden:(_Bool)arg1;
 - (void)z4{;
 - (void);
@@ -46,41 +37,7 @@
 - (void)¨^;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(copy, nonatomic) UIColor *activeColor; // @synthesize activeColor=_activeColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long iconSize; // @synthesize iconSize=_iconSize;
-@property(copy, nonatomic) UIColor *inactiveColor; // @synthesize inactiveColor=_inactiveColor;
-@property(nonatomic) long long numberOfActiveBars; // @synthesize numberOfActiveBars=_numberOfActiveBars;
-@property(nonatomic) long long numberOfBars; // @synthesize numberOfBars=_numberOfBars;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(nonatomic) _Bool rounded; // @synthesize rounded=_rounded;
-@property(nonatomic) long long signalMode; // @synthesize signalMode=_signalMode;
-@property(nonatomic) _Bool smallSize; // @synthesize smallSize=_smallSize;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

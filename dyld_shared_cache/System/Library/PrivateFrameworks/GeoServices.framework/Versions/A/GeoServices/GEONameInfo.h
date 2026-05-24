@@ -4,36 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEONameInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_locale;
-    NSString *_name;
-    NSString *_phoneticName;
-    NSString *_shield;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _phoneticType;
-    int _shieldType;
-    int _signType;
-    struct {
-        unsigned int has_phoneticType:1;
-        unsigned int has_shieldType:1;
-        unsigned int has_signType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_locale:1;
-        unsigned int read_name:1;
-        unsigned int read_phoneticName:1;
-        unsigned int read_shield:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)eMuid:(id)arg1;
++ (_Bool)setHasTransitLineMuid:(id)arg1;
 - (id);
 - (int);
 - (void);
@@ -41,28 +19,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (int);
+- (_Bool)t;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (int);
-- (int);
-- (_Bool);
+- (void)ionTaskMetrics"32;
+- (_Bool)tokenizeNameString:usingLocale:inferredNameOrder: /* Error: Ran out of types for this method. */;
+- (int)setShortNameFormatEnabled:(id)arg1;
+- (int)setMostRecentEvent:(id)arg1;
+- (_Bool)observeValueForKeyPath:ofObject:change:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
+- (void)availableUserTemplateLocalizations;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)Error setting up CSSpeechController %{public}@;
+- (void)PassJarvis siriClientBehaviorMonitor:(id)arg1 willStopStream:reason:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
@@ -75,28 +53,14 @@
 - (int)chAroundPOI";
 - (id)_countryName"b1"has_regionName"b1"has_representativePointQuality"b1"has_revgeoRank"b1"has_territoryType"b1"has_precise"b1"has_shouldRandomize"b1"read_coordinates"b1"read_countryNameStr"b1"read_polygon"b1"read_regionNameStr"b1"wrote_anyField"b1};
 - (id),N;
-- (id)ckETAResponse;
+- (id)GEOQuickETAResponse;
 - (id)`Ø;
 - (id)->GetReflection()) == (this):(id)arg1;
 - (void);
 - (void)z2;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocale;
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasPhoneticName;
-@property(nonatomic) _Bool hasPhoneticType;
-@property(readonly, nonatomic) _Bool hasShield;
-@property(nonatomic) _Bool hasShieldType;
-@property(nonatomic) _Bool hasSignType;
-@property(retain, nonatomic) NSString *locale;
-@property(retain, nonatomic) NSString *name;
-@property(retain, nonatomic) NSString *phoneticName;
-@property(nonatomic) int phoneticType;
-@property(retain, nonatomic) NSString *shield;
-@property(nonatomic) int shieldType;
-@property(nonatomic) int signType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

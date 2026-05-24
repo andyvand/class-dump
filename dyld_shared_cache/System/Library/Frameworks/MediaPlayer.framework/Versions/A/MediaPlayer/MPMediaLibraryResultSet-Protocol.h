@@ -7,12 +7,10 @@
 @class NSArray;
 
 @protocol MPMediaLibraryResultSet
-- (long long)dCollection;
+- (NSArray *);
+- (long long)_initializeAsEmptySectionedCollection;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) long long localRevision;
 @property(readonly, nonatomic) long long revision;
-@property(readonly, nonatomic) NSArray *sectionIndexTitles;
 @end
 

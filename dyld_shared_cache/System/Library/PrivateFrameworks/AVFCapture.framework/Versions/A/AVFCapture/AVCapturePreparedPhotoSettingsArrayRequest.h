@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface AVCapturePreparedPhotoSettingsArrayRequest
 {
     unsigned long long _requestID;
-    NSArray *_photoSettingsArray;
-    CDUnknownBlockType _completionHandler;
-    _Bool _completed;
 }
 
 + (id);
+- (void)sendData:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)migrateIfNeeded;
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)BackgroundReplacementSupportedForContinuityCapture;
+- (id)`;
 
 // Remaining properties
-@property(nonatomic, getter=isCompleted) _Bool completed; // @synthesize completed=_completed;
-@property(readonly) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly) NSArray *photoSettingsArray;
 @property(readonly) unsigned long long requestID;
 
 @end

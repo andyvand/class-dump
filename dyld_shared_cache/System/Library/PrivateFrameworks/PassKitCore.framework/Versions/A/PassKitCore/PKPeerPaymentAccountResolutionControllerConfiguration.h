@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKCurrencyAmount;
+@class PKCurrencyAmount;
 
 @interface PKPeerPaymentAccountResolutionControllerConfiguration
 {
     _Bool _graduation;
-    PKCurrencyAmount *_currencyAmount;
-    unsigned long long _registrationFlowState;
-    NSString *_senderAddress;
-    long long _verificationContext;
-    unsigned long long _paymentMode;
-    NSString *_campaignAttributionReferrerIdentifier;
 }
 
-- (long long);
+- (long long)(;
 - (void);
 - (void);
 - (void);
@@ -38,13 +32,7 @@ Manifest:%@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *campaignAttributionReferrerIdentifier; // @synthesize campaignAttributionReferrerIdentifier=_campaignAttributionReferrerIdentifier;
 @property(retain, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(nonatomic, getter=isGraduation) _Bool graduation; // @synthesize graduation=_graduation;
-@property(nonatomic) unsigned long long paymentMode; // @synthesize paymentMode=_paymentMode;
-@property(nonatomic) unsigned long long registrationFlowState; // @synthesize registrationFlowState=_registrationFlowState;
-@property(copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(nonatomic) long long verificationContext; // @synthesize verificationContext=_verificationContext;
 
 @end
 

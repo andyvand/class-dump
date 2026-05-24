@@ -7,14 +7,10 @@
 @interface NTPBDate
 {
     double _timeIntervalSince1970;
-    struct {
-        unsigned int timeIntervalSince1970:1;
-    } _has;
 }
 
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimeIntervalSince1970;
-@property(nonatomic) double timeIntervalSince1970; // @synthesize timeIntervalSince1970=_timeIntervalSince1970;
 @end
 

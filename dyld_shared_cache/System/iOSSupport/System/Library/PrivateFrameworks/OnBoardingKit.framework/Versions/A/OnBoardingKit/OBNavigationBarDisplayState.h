@@ -7,7 +7,6 @@
 @interface OBNavigationBarDisplayState
 {
     double _backgroundOpacity;
-    double _titleOpacity;
 }
 
 + (id);
@@ -16,11 +15,10 @@
 - (double);
 - (void);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double backgroundOpacity; // @synthesize backgroundOpacity=_backgroundOpacity;
-@property(nonatomic) double titleOpacity; // @synthesize titleOpacity=_titleOpacity;
 
 @end
 

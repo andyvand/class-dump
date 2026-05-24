@@ -14,13 +14,9 @@
 + (_Bool);
 + (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)kj;
+- (void)h;
+- (void)=h;
 - (void);
 - (void);
 - (id);
@@ -28,14 +24,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (_Bool)!;
+- (void);
 - (id);
+- (id);
+- (id)k;
+- (id);
 
 @end
 

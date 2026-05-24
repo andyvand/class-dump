@@ -11,7 +11,6 @@
 @interface APRequest : APMessage
 {
     NSMutableDictionary *_recordInfo;
-    CDUnknownBlockType _retrieveData;
 }
 
 + (id);
@@ -38,12 +37,11 @@
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)mainScopeIdentifier:options: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain) NSMutableDictionary *recordInfo; // @synthesize recordInfo=_recordInfo;
-@property(copy) CDUnknownBlockType retrieveData; // @synthesize retrieveData=_retrieveData;
 
 @end
 

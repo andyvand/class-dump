@@ -5,6 +5,9 @@
 //
 
 @protocol PDFPageLayerInterface
+- (void);
+- (void);
+- (long long);
 - (_Bool)nsets=dddd}80d112;
 @end
 

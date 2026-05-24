@@ -9,29 +9,23 @@
 @interface AKAuthorizationSubPane
 {
     NSViewController *_viewController;
-    NSView *_internalView;
-    double _internalCustomSpacingAfter;
 }
 
-- (void);
+- (void)G;
 - (void);
 - (id);
 - (double);
 - (double);
-- (void);
-- (void);
+- (void)T;
+- (void)}S);
+- (id)N8Espresso14sgd_kernel_cpuE;
 - (id);
 - (id);
-- (id);
 - (void);
-- (id)idthOfPinViewConstraint;
+- (id)widthOfPinViewConstraint;
 
 // Remaining properties
-@property(nonatomic) double customSpacingAfter;
-@property(nonatomic) double internalCustomSpacingAfter; // @synthesize internalCustomSpacingAfter=_internalCustomSpacingAfter;
 @property(readonly, nonatomic) NSView *internalView; // @synthesize internalView=_internalView;
-@property(readonly, nonatomic) NSView *view;
-@property(readonly, nonatomic) NSViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

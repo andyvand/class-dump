@@ -9,14 +9,15 @@
 }
 
 - (id);
+- (void)parseHCIEvent:(id)arg1 withApplet:withPackage:withModule:withTransceiver:toEventDictionary:withError: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)oEngineResumed=%s, !AudioTimerResumed=%s
+;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)�;
 
 @end
 

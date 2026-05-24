@@ -4,52 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSUIPaymentVerificationMetrics, NSDictionary, NSString, NSViewController;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUICardOnFilePVTFetchTask
 {
     ACAccount *_account;
-    NSDictionary *_accountParameters;
-    id <AMSBagProtocol> _bag;
-    AMSUIPaymentVerificationMetrics *_metrics;
-    ACAccount *_originalAccount;
-    NSViewController *_viewController;
 }
 
 + (id);
 - (void);
 - (void);
+- (id)(;
 - (id);
 - (id);
+- (id)f;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)<;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)objectAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
-- (id);
+- (void)setNavigationBarStyle: /* Error: Ran out of types for this method. */;
+- (id)queryForBundleIDs: /* Error: Ran out of types for this method. */;
 - (void)G_­ù=tGGAHGA3ESgtGGAHGAHGp;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSDictionary *accountParameters; // @synthesize accountParameters=_accountParameters;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly) NSString *enablementBagKey;
-@property(retain) AMSUIPaymentVerificationMetrics *metrics; // @synthesize metrics=_metrics;
-@property(retain) ACAccount *originalAccount; // @synthesize originalAccount=_originalAccount;
-@property(retain) NSViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

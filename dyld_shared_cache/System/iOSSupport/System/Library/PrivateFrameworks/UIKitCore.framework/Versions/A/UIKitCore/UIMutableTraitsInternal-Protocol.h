@@ -5,8 +5,14 @@
 //
 
 @class NSObject, UIColor;
+@protocol _UINSIntegerTraitTokenProtocol, _UINSUIntegerTraitTokenProtocol, _UIObjectTraitTokenProtocol;
 
 @protocol UIMutableTraitsInternal
+- (void)replacedNicknameForHandleIDInHandledMapIfNeeded:(id)arg1 nickname:(id <_UIObjectTraitTokenProtocol>)arg2;
+- (void)relayMessageToPeers:(unsigned long long)arg1 forChat:(id <_UINSUIntegerTraitTokenProtocol>)arg2 serviceName:reflectOnly:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (void)relayMessageGUIDSent:(long long)arg1 onService:(id <_UINSIntegerTraitTokenProtocol>)arg2 interworked:encrypted: /* Error: Ran out of types for this method. */;
+- (void)permanentlyDeletedMessagesInChatsWithDeletedChatGUIDs:(NSObject *)arg1;
+- (id)ats:(id <_UIObjectTraitTokenProtocol>)arg1;
 - (void)tion for %@;
 - (UIColor *)s.minimumSize;
 

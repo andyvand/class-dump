@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
-@protocol UIIndirectScribbleInteractionDelegate;
+@class UIView;
 
 @interface UIIndirectScribbleInteraction
 {
     long long __handlingWritingCount;
-    _Bool _handlingWriting;
-    _Bool __defaultSystemInteraction;
-    id <UIIndirectScribbleInteractionDelegate> _delegate;
-    UIView *_view;
 }
 
 - (void);
@@ -22,27 +17,17 @@
 × ;
 - (void)!HDù]ð1Â0@ù
 × ;
-- (long long)ing;
+- (long long)replacementString;
 - (_Bool)tion;
-- (id)eysForDisplayRowHint:(id)arg1;
+- (id)getSortedKeysForDisplayRowHint:(id)arg1;
 - (id)°;;
-- (void)earOffThreshold;
+- (void)PlatterPreviewPlusActionsDragTearOffThreshold;
 - (void).inputShadowVibrancyContribution;
 - (void)îþ5©Òïb;
 - (void)Lö^þîÍÆg;
 - (void)´²ÿèþÌÐ¼i;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_isDefaultSystemInteraction) _Bool _defaultSystemInteraction; // @synthesize _defaultSystemInteraction=__defaultSystemInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <UIIndirectScribbleInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isHandlingWriting, setter=_setHandlingWriting:) _Bool handlingWriting; // @synthesize handlingWriting=_handlingWriting;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

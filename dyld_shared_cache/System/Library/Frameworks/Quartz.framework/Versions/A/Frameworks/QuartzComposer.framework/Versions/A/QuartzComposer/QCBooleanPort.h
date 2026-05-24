@@ -9,7 +9,6 @@
 @interface QCBooleanPort : QCPort
 {
     _Bool _value;
-    void *_unused3[4];
 }
 
 + (Class);
@@ -17,7 +16,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (CDStruct_bdcb2b0d);
+- (CDStruct_60067b7e);
 - (id);
 - (void);
 - (_Bool);
@@ -28,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)__AUTH_CONST;
 - (Class)ld;
 
 @end

@@ -5,8 +5,9 @@
 //
 
 @protocol _UIHoverEventRespondable
+- (void);
 - (void)temMenuConfiguration";
 - (void);
-- (void)VideoConference;
+- (void)UIStatusBarStyleOverrideInVideoConference;
 @end
 

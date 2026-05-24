@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_os_log;
+@class NSString;
 
 @interface PowerUISmartChargeClient
 {
     NSString *_clientName;
-    NSXPCConnection *_connection;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -31,8 +28,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)C;
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -45,10 +42,10 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -64,7 +61,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
@@ -94,15 +91,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,24 +6,18 @@
 
 #import <UIKitMacHelper/UINSApplicationSettingsDefaultsSettingsNode.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UINSApplicationSettingsRadioGroup : UINSApplicationSettingsDefaultsSettingsNode
 {
     _Bool _shouldSortByLocalizedTitles;
-    NSString *_localizedFooter;
-    NSArray *_values;
-    NSArray *_localizedValueTitles;
-    NSString *_disabledStateKey;
-    NSString *_localizedDisabledFooter;
-    NSArray *_localizedDescriptions;
 }
 
 - (_Bool);
+- (id)0;
 - (id);
-- (id);
-- (id);
+- (id)Q;
 - (id);
 - (id);
 - (void);
@@ -32,13 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *disabledStateKey; // @synthesize disabledStateKey=_disabledStateKey;
-@property(readonly, nonatomic) NSArray *localizedDescriptions; // @synthesize localizedDescriptions=_localizedDescriptions;
-@property(readonly, nonatomic) NSString *localizedDisabledFooter; // @synthesize localizedDisabledFooter=_localizedDisabledFooter;
 @property(readonly, nonatomic) NSString *localizedFooter; // @synthesize localizedFooter=_localizedFooter;
-@property(readonly, copy, nonatomic) NSArray *localizedValueTitles; // @synthesize localizedValueTitles=_localizedValueTitles;
-@property(readonly, nonatomic) _Bool shouldSortByLocalizedTitles; // @synthesize shouldSortByLocalizedTitles=_shouldSortByLocalizedTitles;
-@property(readonly, copy, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

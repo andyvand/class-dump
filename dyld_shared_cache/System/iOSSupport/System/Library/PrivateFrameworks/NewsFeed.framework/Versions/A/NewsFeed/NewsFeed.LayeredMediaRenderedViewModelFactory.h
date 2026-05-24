@@ -7,8 +7,6 @@
 @interface NewsFeed.LayeredMediaRenderedViewModelFactory
 {
     id layerProviderFactory;
-    id viewModelFactory;
-    id viewModelRenderer;
 }
 
 @end

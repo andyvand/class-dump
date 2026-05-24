@@ -10,30 +10,25 @@ __attribute__((visibility("hidden")))
 @interface _CTNativeGlyphStorage : _CTGlyphStorage
 {
     const long long *_attachCounts;
-    const struct CGPoint *_origins;
-    unsigned long long _retainCount;
-    struct GlyphStack *_stack;
-    long long _capacity;
-    void *_preallocatedStorage;
 }
 
-+ (id);
-- (unsigned long long);
++ (id)nst CA:(long long)arg1:(long long)arg2 StreamDescription &) const;
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (oneway void);
 - (void);
-- (id);
+- (id)Lp>;
 - (void);
 - (long long);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)alid because not (asbd.mBitsPerChannel * asbd.mChannelsPerFrame / 8 == asbd.mBytesPerFrame) and asbd.mFormatID == kAudioFormatLinearPCM. ASBD:(long long)arg1 %s;
+- (void)Client attempting to %s voice isolation DSP for bundle ID %s;
+- (void)KNS_7AddressERKNS4_INS0_6PlugInEEEjEUlRKfE_;
 - (void);
 - (struct CGPoint);
 - (_Bool);

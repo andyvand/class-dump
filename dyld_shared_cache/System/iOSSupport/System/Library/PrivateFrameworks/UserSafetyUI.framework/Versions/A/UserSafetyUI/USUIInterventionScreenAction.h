@@ -10,12 +10,11 @@
 {
     _Bool _primary;
     NSString *_title;
-    long long _actionID;
 }
 
-+ (id);
++ (id)re;
 - (void);
-- (long long);
+- (long long)GL_EXT_gpu_shader5;
 - (_Bool);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long actionID; // @synthesize actionID=_actionID;
 @property(nonatomic) _Bool primary; // @synthesize primary=_primary;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 

@@ -11,10 +11,10 @@
 }
 
 - (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)e;
+- (id)I;
+- (id)n;
+- (unsigned long long)nable to load pdfData/mediaURL for attachment while previewing note:(unsigned long long)arg1 %@;
 - (id);
 - (id);
 - (id);

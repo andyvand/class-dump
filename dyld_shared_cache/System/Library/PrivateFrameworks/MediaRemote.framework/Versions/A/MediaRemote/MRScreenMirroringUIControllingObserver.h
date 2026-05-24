@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface MRScreenMirroringUIControllingObserver : MRScreenMirroringObserver
 {
     id <MRScreenMirroringQuickControlsUIControllable> _uiController;
-    MRScreenMirroringObserver *_internalObserver;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)y;
 - (void)tor;
 
 // Remaining properties
-@property(readonly, nonatomic) MRScreenMirroringObserver *internalObserver; // @synthesize internalObserver=_internalObserver;
 @property(retain, nonatomic) id <MRScreenMirroringQuickControlsUIControllable> uiController; // @synthesize uiController=_uiController;
 
 @end

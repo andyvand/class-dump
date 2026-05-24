@@ -4,40 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSNumber, NSSet, PXCuratedLibraryAssetCollectionSkimmingInfo;
+@class NSMutableSet, NSNumber;
 
 @protocol PXMutablePhotosLibraryViewModel
+- (_Bool)kh8(kh8?kA;
+- (NSMutableSet *)A�;
+- (NSNumber *);
+- (void);
+- (void)f;
+- (void)&;
+- (void);
+- (_Bool)=;
 - (void)Á$!$Fù7Ð1Â0@ù
 × ;
-- (void);
-- (long long)StoryFactory;
+- (long long)PhotosFeedbackGenerativeStoryFactory;
 
 // Remaining properties
-@property(retain, nonatomic) Class cplActionManagerClass;
-@property(nonatomic) double daysMarginScale;
-@property(nonatomic) unsigned long long desiredVerticalAlignment;
-@property(copy, nonatomic) NSSet *draggedAssetReferences;
-@property(nonatomic) _Bool hidesDurationLabelBadge;
 @property(nonatomic) _Bool isAppearing;
-@property(nonatomic) _Bool isExpanded;
-@property(nonatomic) _Bool isExpandedAnimating;
-@property(nonatomic) _Bool isNavigating;
-@property(nonatomic) _Bool isResetting;
-@property(nonatomic) _Bool isSelecting;
-@property(nonatomic, getter=isScrolledToBottom) _Bool scrolledToBottom;
-@property(nonatomic, getter=isScrolledToTop) _Bool scrolledToTop;
-@property(nonatomic) _Bool secondaryToolbarLegibilityGradientIsVisible;
-@property(nonatomic) double secondaryToolbarVisibility;
-@property(nonatomic) _Bool sidebarCanBecomeVisible;
-@property(retain, nonatomic) PXCuratedLibraryAssetCollectionSkimmingInfo *skimmingInfo;
-@property(copy, nonatomic) NSNumber *userWantsAspectFitContent;
-@property(nonatomic) _Bool viewBasedDecorationsEnabled;
-@property(readonly, nonatomic) NSMutableSet *visibleAssetCollections;
-@property(nonatomic) _Bool wantsDarkStatusBar;
-@property(nonatomic) _Bool wantsOptionalChromeVisible;
-@property(nonatomic) _Bool wantsSidebarVisible;
-@property(nonatomic) _Bool wantsZoomControlVisible;
-@property(nonatomic) long long zoomLevel;
-@property(nonatomic) long long zoomLevelTransitionPhase;
 @end
 

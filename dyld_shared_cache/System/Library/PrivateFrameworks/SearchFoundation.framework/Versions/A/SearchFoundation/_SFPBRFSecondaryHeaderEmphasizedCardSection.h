@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFTextProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFSecondaryHeaderEmphasizedCardSection
 {
@@ -12,27 +12,19 @@
 }
 
 - (void);
-- (id);
+- (id)DFPage"8B16;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)relatedBytes;
+- (id)nRecovery] Found existing asset with uuid %{public}@ matching recovery job:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)tionary"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
 
 @end

@@ -16,7 +16,7 @@
 
 - (void);
 - (void);
-- (id);
+- (id)_weekNumberSeparatorTopInset;
 - (id);
 - (void);
 - (id);
@@ -25,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <CoreDAVMoveTaskDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) NSString *previousETag; // @synthesize previousETag=_previousETag;
 
 @end
 

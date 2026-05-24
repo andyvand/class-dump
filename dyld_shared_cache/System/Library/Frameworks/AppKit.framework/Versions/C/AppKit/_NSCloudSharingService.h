@@ -6,42 +6,25 @@
 
 #import <AppKit/NSSharingService.h>
 
-@class CKShare, NSItemProvider, NSObject, NSPopover, NSString, NSURL, NSWindow, _NSCloudSharingPostShareViewController;
-@protocol OS_dispatch_group;
+@class _NSCloudSharingPostShareViewController;
 
 __attribute__((visibility("hidden")))
 @interface _NSCloudSharingService : NSSharingService
 {
     _NSCloudSharingPostShareViewController *_contentViewController;
-    NSWindow *_parentWindow;
-    NSPopover *_popover;
-    NSWindow *_window;
-    NSObject<OS_dispatch_group> *_participantListWaiterGroup;
-    id _item;
-    NSURL *_ubiquitousURL;
-    NSURL *_addPeopleURL;
-    NSItemProvider *_cloudKitProvider;
-    unsigned long long _cloudkitOptions;
-    CKShare *_resultingShare;
-    _Bool _serviceIsBusy;
-    _Bool _stoppedSharing;
-    _Bool _isFolder;
-    _Bool _isShared;
-    _Bool _observersAreRegistered;
-    id _selfReference;
 }
 
 + (id);
-- (void);
-- (id);
+- (void)nd signed by issuer (success);
+- (id)SycNVQwBrdup3ok+LxQ;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)ID cache because the current OS version (%s) does not equal the cache OS version (%s);
+- (void)cket-remoteaddr;
 - (_Bool);
 - (void);
 - (void);
@@ -53,11 +36,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__NSCFLocalDownloadTask;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (_Bool);
@@ -65,15 +48,7 @@ __attribute__((visibility("hidden")))
 - (void)lockUsingMutableData:]:Insufficient memory to allocate pixel data buffer of %lu bytes /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) id item; // @synthesize item=_item;
-@property(retain) id selfReference; // @synthesize selfReference=_selfReference;
-@property(readonly) Class superclass;
 
 @end
 

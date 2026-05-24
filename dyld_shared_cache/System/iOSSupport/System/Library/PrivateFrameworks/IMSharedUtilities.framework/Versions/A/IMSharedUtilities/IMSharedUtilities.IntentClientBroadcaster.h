@@ -7,7 +7,6 @@
 @interface IMSharedUtilities.IntentClientBroadcaster
 {
     id safeRenderProvider;
-    id chatContactsProvider;
 }
 
 - (void);
@@ -17,6 +16,7 @@
 - (void);
 - (void);
 - (void);
+- (void)s;
 - (void);
 - (void);
 - (void);
@@ -57,10 +57,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -89,6 +93,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -108,6 +113,7 @@
 - (void);
 - (void);
 - (void);
+- (void)eC(clbe( `;
 - (void);
 - (void);
 - (void);
@@ -139,6 +145,7 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -148,14 +155,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)ºâ¸;
 - (void);
 - (void);
 - (id);
@@ -169,7 +168,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);

@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, PFWallpaperCompoundDeviceConfiguration;
-@protocol NUImageBuffer, PFParallaxAssetRegions, PIPosterLayoutProvider;
+@class PFWallpaperCompoundDeviceConfiguration;
 
 @interface PIPosterLayoutRequest
 {
     _Bool _shouldConstrainLayoutToBounds;
-    _Bool _hasSettlingEffect;
-    _Bool _shouldComputeAllScores;
-    _Bool _shouldConsiderHeadroom;
-    _Bool _shouldComputeSpatialLayout;
-    PFWallpaperCompoundDeviceConfiguration *_layoutConfiguration;
-    id <PFParallaxAssetRegions> _layoutRegions;
-    id <NUImageBuffer> _segmentationMatte;
-    id <NUImageBuffer> _segmentationConfidenceMap;
-    unsigned long long _segmentationClassification;
-    double _spatialPadding;
-    unsigned long long _allowedLayoutStrategies;
-    NSNumber *_allowedClockStretch;
-    id <PIPosterLayoutProvider> _layoutProvider;
-    unsigned long long _role;
-    struct CGRect _normalizedLayoutBounds;
 }
 
 - (_Bool);
@@ -34,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -46,7 +30,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (id);
 - (_Bool);
@@ -63,26 +47,11 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void)ustmentControllerCreatingIfNecessary: /* Error: Ran out of types for this method. */;
+- (void)slomoAdjustmentControllerCreatingIfNecessary: /* Error: Ran out of types for this method. */;
 - (void)fect crop rect for asset %{public}@:(unsigned long long)arg1 %{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *allowedClockStretch; // @synthesize allowedClockStretch=_allowedClockStretch;
-@property(nonatomic) unsigned long long allowedLayoutStrategies; // @synthesize allowedLayoutStrategies=_allowedLayoutStrategies;
-@property(nonatomic) _Bool hasSettlingEffect; // @synthesize hasSettlingEffect=_hasSettlingEffect;
 @property(retain, nonatomic) PFWallpaperCompoundDeviceConfiguration *layoutConfiguration; // @synthesize layoutConfiguration=_layoutConfiguration;
-@property(retain, nonatomic) id <PIPosterLayoutProvider> layoutProvider; // @synthesize layoutProvider=_layoutProvider;
-@property(retain, nonatomic) id <PFParallaxAssetRegions> layoutRegions; // @synthesize layoutRegions=_layoutRegions;
-@property(nonatomic) struct CGRect normalizedLayoutBounds; // @synthesize normalizedLayoutBounds=_normalizedLayoutBounds;
-@property(nonatomic) unsigned long long role; // @synthesize role=_role;
-@property(nonatomic) unsigned long long segmentationClassification; // @synthesize segmentationClassification=_segmentationClassification;
-@property(retain, nonatomic) id <NUImageBuffer> segmentationConfidenceMap; // @synthesize segmentationConfidenceMap=_segmentationConfidenceMap;
-@property(retain, nonatomic) id <NUImageBuffer> segmentationMatte; // @synthesize segmentationMatte=_segmentationMatte;
-@property(nonatomic) _Bool shouldComputeAllScores; // @synthesize shouldComputeAllScores=_shouldComputeAllScores;
-@property(nonatomic) _Bool shouldComputeSpatialLayout; // @synthesize shouldComputeSpatialLayout=_shouldComputeSpatialLayout;
-@property(nonatomic) _Bool shouldConsiderHeadroom; // @synthesize shouldConsiderHeadroom=_shouldConsiderHeadroom;
-@property(nonatomic) _Bool shouldConstrainLayoutToBounds; // @synthesize shouldConstrainLayoutToBounds=_shouldConstrainLayoutToBounds;
-@property(nonatomic) double spatialPadding; // @synthesize spatialPadding=_spatialPadding;
 
 @end
 

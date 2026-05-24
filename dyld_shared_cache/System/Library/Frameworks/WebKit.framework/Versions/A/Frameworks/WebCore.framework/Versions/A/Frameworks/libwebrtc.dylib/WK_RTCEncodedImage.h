@@ -4,60 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface WK_RTCEncodedImage
 {
     unsigned char _flags;
-    _Bool _completeFrame;
-    int _encodedWidth;
-    int _encodedHeight;
-    int _temporalIndex;
-    NSData *_buffer;
-    long long _timeStamp;
-    unsigned long long _duration;
-    long long _captureTimeMs;
-    long long _ntpTimeMs;
-    long long _encodeStartMs;
-    long long _encodeFinishMs;
-    unsigned long long _frameType;
-    long long _rotation;
-    NSNumber *_qp;
-    unsigned long long _contentType;
 }
 
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (int)IPTC DataSets;
+- (void)se to a question;
+- (void)urtain raiser;
+- (void)ress release;
+- (void)upporting information;
+- (void)Forecast;
+- (void)Background;
+- (void)Analysis;
+- (void)nt code;
+- (void)erWrapperImpl.cpp;
+- (void)PCore/source/ClientDOMSerializerWrapperImpl.cpp;
+- (id)ers to CreatePropertyPathSegment() are not as expected;
+- (long long)zI/Library/Caches/com.apple.xbs/TemporaryDirectory.BadC4D/Sources/ImageIO/XMP-Toolkit-SDK/XMPCore/source/PathSegmentImpl.cpp;
+- (struct EncodedImage)ex to PathImpl::Clone is out of bounds /* Error: Ran out of types for this method. */;
+- (id)F_MetaHandler:(const void *)arg1:CacheFileData - User abort /* Error: Ran out of types for this method. */;
+- (unsigned long long)nsFile);
+- (int)iles_CanInjectXMP) ? (flags & kXMPFiles_CanExpand) :1 /* Error: Ran out of types for this method. */;
+- (int)UnknownFile;
+- (long long)gistry.cpp;
+- (long long)-in file handlers;
+- (_Bool)one->clientRefs == 0;
+- (long long)y qualifier name;
+- (void)ty property name;
 - (long long);
-- (struct EncodedImage);
-- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (int);
-- (int);
-- (long long);
-- (long long);
-- (_Bool);
-- (long long);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (unsigned long long);
-- (long long);
+- (long long)a;
 - (void);
 - (unsigned char);
-- (void);
+- (void)';
 - (scoped_refptr_05c3cd2c);
 - (void)ingssl/src/crypto/asn1/a_type.cc;
 - (unsigned long long)ansportControllerCandidatesGathered:content name  /* Error: Ran out of types for this method. */;
@@ -67,21 +52,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSData *buffer; // @synthesize buffer=_buffer;
-@property(nonatomic) long long captureTimeMs; // @synthesize captureTimeMs=_captureTimeMs;
-@property(nonatomic) _Bool completeFrame; // @synthesize completeFrame=_completeFrame;
-@property(nonatomic) unsigned long long contentType; // @synthesize contentType=_contentType;
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) long long encodeFinishMs; // @synthesize encodeFinishMs=_encodeFinishMs;
-@property(nonatomic) long long encodeStartMs; // @synthesize encodeStartMs=_encodeStartMs;
-@property(nonatomic) int encodedHeight; // @synthesize encodedHeight=_encodedHeight;
-@property(nonatomic) int encodedWidth; // @synthesize encodedWidth=_encodedWidth;
-@property(nonatomic) unsigned char flags; // @synthesize flags=_flags;
-@property(nonatomic) unsigned long long frameType; // @synthesize frameType=_frameType;
-@property(nonatomic) long long ntpTimeMs; // @synthesize ntpTimeMs=_ntpTimeMs;
-@property(retain, nonatomic) NSNumber *qp; // @synthesize qp=_qp;
-@property(nonatomic) long long rotation; // @synthesize rotation=_rotation;
-@property(nonatomic) int temporalIndex; // @synthesize temporalIndex=_temporalIndex;
-@property(nonatomic) long long timeStamp; // @synthesize timeStamp=_timeStamp;
 
 @end
 

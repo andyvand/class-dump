@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAAppsLaunchApp : SABaseClientBoundCommand
 {
@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h8;
 - (id);
 - (id);
 - (id);
@@ -23,24 +23,17 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)q;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void));
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationClientIdentifier;
-@property(nonatomic) _Bool doNotDismissSiri;
-@property(copy, nonatomic) NSString *executionEnvironment;
-@property(copy, nonatomic) NSString *iCloudAltDSID;
-@property(copy, nonatomic) NSString *launchId;
-@property(copy, nonatomic) NSArray *options;
-@property(copy, nonatomic) NSString *personaAccessLevel;
-@property(copy, nonatomic) NSString *personaId;
 
 @end
 

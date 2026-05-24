@@ -6,22 +6,18 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGLocationRepresentativeAssetQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
 }
 
 - (id);
 - (unsigned short);
-- (id);
+- (id);
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)ingBlock: /* Error: Ran out of types for this method. */;
+- (id)enumerateItemsWithOptions:usingBlock: /* Error: Ran out of types for this method. */;
 - (void)n"16^B24;
 
 @end

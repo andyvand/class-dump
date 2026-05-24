@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSSimpleAttributeDictionary
 {
     unsigned int numElements;
-    unsigned int refCount;
-    struct _NSSimpleAttributeDictionaryElement elements[1];
 }
 
 + (id);
@@ -17,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id)1Â0@ù

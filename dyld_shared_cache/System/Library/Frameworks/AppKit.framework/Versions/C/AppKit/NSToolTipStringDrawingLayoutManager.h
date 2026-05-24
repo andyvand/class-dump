@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLayoutManager;
+@class NSDictionary;
 
 @interface NSToolTipStringDrawingLayoutManager
 {
     NSDictionary *_wrappingAttributes;
-    NSLayoutManager *_layoutManager;
 }
 
 + (struct CGSize);
 + (id);
+- (id)BasebandPostponementStatus;
 - (id);
-- (id);
-- (struct CGSize);
+- (struct CGSize)rotocol PAC Timeout;
 - (void);
 
 // Remaining properties

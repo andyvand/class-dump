@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface CUMessageRequestEntry
 {
     CDUnknownBlockType _handler;
-    NSDictionary *_options;
 }
 
 - (void);
@@ -21,7 +18,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

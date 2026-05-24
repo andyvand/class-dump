@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @protocol IMDaemonListening
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isHoldingChatMessages) _Bool holdingChatMessages;
-@property(readonly, nonatomic) unsigned int myIdleTime;
-@property(readonly, nonatomic) unsigned long long myStatus;
-@property(readonly, nonatomic) NSString *myStatusMessage;
-@property(readonly, nonatomic) NSDictionary *persistentProperties;
 @property(readonly, nonatomic) NSDictionary *properties;
-@property(readonly, nonatomic) _Bool shouldHoldChatMessages;
-@property(readonly, nonatomic) unsigned long long vcCapabilities;
 @end
 

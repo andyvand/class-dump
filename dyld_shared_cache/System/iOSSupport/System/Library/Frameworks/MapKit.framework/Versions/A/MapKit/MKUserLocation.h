@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLHeading, CLLocation, MKUserLocationInternal, NSString;
+@class MKUserLocationInternal;
 
 @interface MKUserLocation
 {
     MKUserLocationInternal *_internal;
-    double _expectedCoordinateUpdateInterval;
-    double _expectedHeadingUpdateInterval;
 }
 
 + (id);
@@ -20,60 +18,40 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)U;
 - (double);
 - (id);
 - (double);
 - (double);
 - (void);
+- (_Bool)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)X@9;
+- (double);
+- (id);
+- (double)倹w;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)nd iMessage accounts match ? %@;
+- (struct CLLocationCoordinate2D)status information is up to date;
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CLLocationCoordinate2D);
-- (_Bool);
-- (void);
 - (double);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void)ing: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)enterMuninForMarker:withHeading: /* Error: Ran out of types for this method. */;
 - (void)¸·àÿIs(¡	;
 
 // Remaining properties
-@property(readonly, nonatomic) double accuracy;
 @property(nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double expectedCoordinateUpdateInterval; // @synthesize expectedCoordinateUpdateInterval=_expectedCoordinateUpdateInterval;
-@property(nonatomic) double expectedHeadingUpdateInterval; // @synthesize expectedHeadingUpdateInterval=_expectedHeadingUpdateInterval;
-@property(retain, nonatomic) CLLocation *fixedLocation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CLHeading *heading;
-@property(readonly, nonatomic) double headingDegrees;
-@property(retain, nonatomic) CLLocation *location;
-@property(retain, nonatomic) CLLocation *predictedLocation;
-@property(readonly, nonatomic) NSString *shortDescription;
-@property(copy, nonatomic) NSString *subtitle;
-@property(readonly) Class superclass;
-@property(nonatomic) double timestamp;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic, getter=isUpdating) _Bool updating;
 
 @end
 

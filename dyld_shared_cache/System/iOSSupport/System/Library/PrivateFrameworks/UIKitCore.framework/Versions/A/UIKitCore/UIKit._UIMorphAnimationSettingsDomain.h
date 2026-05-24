@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id)kgroundImageView;
-+ (id)figuration: /* Error: Ran out of types for this method. */;
++ (id)backgroundImageView;
++ (id)_updateSubtitleLabelWithConfiguration: /* Error: Ran out of types for this method. */;
 + (Class);
 
 @end

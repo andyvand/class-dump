@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @protocol PGFlexMusicSong
+- (NSString *)FI_TColumnPreviewInfoViewController;
+- (_Bool);
+- (NSString *)P;
 - (_Bool)centroid address node for frequent location:%@; Skipping ingest /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSNumber *arousal;
-@property(nonatomic, readonly) _Bool canPlay;
-@property(nonatomic, readonly) NSString *mood;
-@property(nonatomic, readonly) _Bool recalled;
 @property(nonatomic, readonly) NSString *uid;
-@property(nonatomic, readonly) NSNumber *valence;
-@property(nonatomic, readonly) NSDictionary *weightedKeywords;
 @end
 

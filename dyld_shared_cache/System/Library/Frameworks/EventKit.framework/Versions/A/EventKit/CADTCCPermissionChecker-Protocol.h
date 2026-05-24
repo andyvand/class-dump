@@ -5,11 +5,11 @@
 //
 
 @protocol CADTCCPermissionChecker
+- (unsigned long long);
 - (unsigned long long)ÔÁ#!P@ùq2'°1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long eventAuthorization;
-@property(readonly, nonatomic) unsigned long long remindersAuthorization;
 @end
 

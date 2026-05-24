@@ -5,9 +5,9 @@
 //
 
 @protocol MTLThreadgroupBinding
+- (unsigned long long)Z#;
 
 // Remaining properties
 @property(readonly) unsigned long long threadgroupMemoryAlignment;
-@property(readonly) unsigned long long threadgroupMemoryDataSize;
 @end
 

@@ -7,6 +7,7 @@
 @protocol NSControlTextEditingDelegate
 
 @optional
+- (_Bool);
 - (void)View",N,R;
 - (_Bool)^xÿÿÿÿ;
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKAutomaticReloadPaymentRequest;
+@class PKAutomaticReloadPaymentRequest;
 
 @interface PKAutomaticReloadPaymentRequestValidator
 {
     unsigned long long _requestType;
-    NSString *_currencyCode;
-    PKAutomaticReloadPaymentRequest *_automaticReloadPaymentRequest;
 }
 
 + (id);
@@ -19,23 +17,14 @@
 - (id);
 - (id);
 - (void);
-- (id)gnature: /* Error: Ran out of types for this method. */;
+- (id)setEnrollmentSignature: /* Error: Ran out of types for this method. */;
 - (_Bool)Ìÿÿìÿÿÿÿ,ÿÿLÿÿlÿÿÿÿ¬ÿÿÌÿÿìÿÿÿÿ,ÿÿLÿÿlÿÿ¤ÿÿäÿÿÿÿ$ÿÿDÿÿdÿÿÿÿ¤ÿÿÄÿÿäÿÿÿÿTÿÿlÿÿÿÿÿÿ´ÿÿÌÿÿäÿÿüÿÿÿÿ,ÿÿDÿÿ\ÿÿ|ÿÿÿÿ¼ÿÿÜÿÿôÿÿÿÿ$ÿÿDÿÿ\ÿÿtÿÿ¬ÿÿÐÿÿèÿÿpÿÿÿÿàÿÿ ÿÿXÿÿpÿÿÿÿ ÿÿØÿÿðÿÿ`ÿÿ¬ÿÿ¬ÿÿÄÿÿÜÿÿÿÿ,ÿÿDÿÿ\ÿÿtÿÿÄÿÿÜÿÿLÿÿ|ÿÿÿÿ¬ÿÿÄÿÿÜÿÿôÿÿÿÿÿÿÿÿ¤ÿÿ¼ÿÿôÿÿ ÿÿ ÿÿ¤ ÿÿ¼ ÿÿÔ ÿÿì ÿÿT"ÿÿl"ÿÿ¤"ÿÿÈ"ÿÿà"ÿÿ,#ÿÿÔ%ÿÿô%ÿÿ&ÿÿ\&ÿÿ&ÿÿÀ&ÿÿØ&ÿÿ'ÿÿ('ÿÿØ'ÿÿð'ÿÿL(ÿÿd(ÿÿÀ(ÿÿ`)ÿÿ;
-- (void)SuspensionReasons;
+- (void)rangingSuspensionReasons;
 - (void)¬ì;
 - (unsigned long long)¼Cj$ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PKAutomaticReloadPaymentRequest *automaticReloadPaymentRequest; // @synthesize automaticReloadPaymentRequest=_automaticReloadPaymentRequest;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
-@property(readonly) Class superclass;
 
 @end
 

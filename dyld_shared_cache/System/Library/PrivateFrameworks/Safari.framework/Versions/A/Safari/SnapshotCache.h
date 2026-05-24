@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSURL, WBSSiteMetadataImageCache;
-@protocol OS_dispatch_queue, WBSSiteMetadataProviderDelegate;
+@class NSObject, NSURL;
+@protocol OS_dispatch_queue;
 
 @interface SnapshotCache
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    WBSSiteMetadataImageCache *_imageCache;
-    NSMutableDictionary *_urlStringsToRequestSets;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
 }
 
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)?b;
 - (void);
 - (void);
 - (void);
@@ -34,7 +31,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -45,19 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSURL *imageDirectoryURL;
-@property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

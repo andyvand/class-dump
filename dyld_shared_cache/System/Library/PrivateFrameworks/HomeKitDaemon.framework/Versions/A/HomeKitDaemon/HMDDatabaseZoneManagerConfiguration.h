@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZoneConfiguration, HMDHomeKitVersion, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface HMDDatabaseZoneManagerConfiguration
 {
     _Bool _zoneOwner;
-    _Bool _shouldCreateZone;
-    NSSet *_externalRecordTypesForSubscriptions;
-    HMDHomeKitVersion *_minimumHomeKitVersion;
-    NSSet *_requiredSupportedFeatures;
-    HMBCloudZoneConfiguration *_cloudZoneConfiguration;
 }
 
+- (_Bool)minimalStrategyIdentifierAtIndex: /* Error: Ran out of types for this method. */;
+- (void)initWithWaypoints:(_Bool)arg1 routeAttributes:directionsResponse: /* Error: Ran out of types for this method. */;
+- (void)containerDidLoadFromPersister:(_Bool)arg1;
+- (void)_saveReceivingRules;
+- (void)removeNetworkReachableObserver:(id)arg1;
+- (void)GEOTransitIncident;
+- (void);
+- (id)t sharing trip with group:%@ /* Error: Ran out of types for this method. */;
+- (id)@;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id)rvice:(struct _NSZone *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)handleSetColor:(struct _NSZone *)arg1 forObjects:service:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)for store %{public}@;
 - (void)recordDuration(with:using:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) HMBCloudZoneConfiguration *cloudZoneConfiguration; // @synthesize cloudZoneConfiguration=_cloudZoneConfiguration;
-@property(copy) NSSet *externalRecordTypesForSubscriptions; // @synthesize externalRecordTypesForSubscriptions=_externalRecordTypesForSubscriptions;
-@property(copy) HMDHomeKitVersion *minimumHomeKitVersion; // @synthesize minimumHomeKitVersion=_minimumHomeKitVersion;
-@property(copy) NSSet *requiredSupportedFeatures; // @synthesize requiredSupportedFeatures=_requiredSupportedFeatures;
-@property _Bool shouldCreateZone; // @synthesize shouldCreateZone=_shouldCreateZone;
 @property(getter=isZoneOwner) _Bool zoneOwner; // @synthesize zoneOwner=_zoneOwner;
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, RFTextProperty;
+@class NSDictionary, RFTextProperty;
 
 @protocol RFPrimaryHeaderStandardCardSection
+- (void);
+- (RFTextProperty *)_delayedModelBaseScaleFactorCalculation;
+- (NSDictionary *);
 
 // Remaining properties
-@property(nonatomic) _Bool addTint;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFTextProperty *text_1;
-@property(retain, nonatomic) RFTextProperty *text_2;
-@property(retain, nonatomic) RFTextProperty *text_3;
 @end
 

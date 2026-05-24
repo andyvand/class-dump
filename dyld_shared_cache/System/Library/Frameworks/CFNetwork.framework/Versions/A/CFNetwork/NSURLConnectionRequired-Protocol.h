@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLConnectionRequired
+
+@optional
+- (void);
+- (void);
 @end
 

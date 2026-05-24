@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)ng",C,N,V_subcaption;
 - (void)adata;
 
 // Remaining properties

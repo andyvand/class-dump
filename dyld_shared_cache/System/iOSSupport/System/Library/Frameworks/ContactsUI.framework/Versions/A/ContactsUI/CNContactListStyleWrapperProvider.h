@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     CNContactStyle *_contactStyle;
 }
 
+- (_Bool)h;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)bk;
 - (id);
 - (id);
 - (_Bool);
@@ -32,21 +32,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (id)(;
 - (id);
 - (long long);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (id)_notifyGroupObserversWillTransferStateToGroup: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
+- (id);
+- (id);
+- (long long);
+- (long long);
+- (id);
 - (void),&,N,V_duplicatesUIHelper;
 - (id)CNUINavigationListStyleProviderImpl;
 - (unsigned long long);

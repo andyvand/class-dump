@@ -6,35 +6,25 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIKeystoneCorrection : CIFilter
 {
     struct float3x3 K;
-    struct float3x3 invK;
-    float pitch;
-    float yaw;
-    float roll;
-    CIImage *inputImage;
-    NSNumber *inputFocalLength;
-    CIVector *inputTopLeft;
-    CIVector *inputTopRight;
-    CIVector *inputBottomRight;
-    CIVector *inputBottomLeft;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)r;
+- (void)r;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)L�H;
+- (id)";
 - (void);
 - (id);
 - (void);
@@ -45,14 +35,7 @@ __attribute__((visibility("hidden")))
 - (id)gzzPgariokrkzxWleuzzzzl|}mpmu^[Qc;OAYU[R^licliz{vvvvbbbb?J@OCC6C+7$?5 LPf^s§§§§Ke[rcibjllll[lllkkkkjjjjOaYlJhb{{kkkkL^Ub\f`j}mwr}}}}moirC]Rqr{z~lljl=N@Z__[_mmmmvvvvxxxxxxxxttttkminRaYjkickkkfkI_So_xrªªªª½¿¿¿¶¸½½ªªªªp{yyyyyo|||gtuvBTKZ5?1EBB7BLPGPefdfrvwwj{}qg¡¡¡¡|pyrx{uhwwwwkkek]e^efaXfQg`qk||||s|||r~|wsxr6WGp^i_syyyyrqix[ne|¬¬¬¬µµµµ¨°±±¢£©ª¤««°°°°©©©©||y|rpirttny~yNlc|o|v}zzzznnnnblhlvusvs|~doku^jdr}}}}Mni||||^c\gSTGYZZUZ`hch~zw~yªªªª¬¬¬¬¥¦¦esovllllllllsurvs}}xxxxMaZgT\Shtzy{¢¢¢¢OrjMfYvWi^tguoqmyyy8J=Y>F8LPSKSJZS^]d`jnsssnnnnKWOY5A2GCD7DGM@Odfefsx§§§§¡©®®¨¨¨¨Rld{mzw|u{{{{hhhhYYYYXXXXddddqqqqwwwwxxxxm}p}Qc]pRYP[OOGO9L@Ullll{{{{lrovbh`puutuyyyyftsxvvvvssssppnpssssuuuullllH[SerrprQphvyrl}s{yGhaxkrnwi{z|yuzv~zwpzXvo©©©©nnnnV_VbkkkkUicrVZO`KSGVZZTZ`ebeimipXpk^zxoevrxxxxO`Xe[bYf||||vsYjduqqqqqqqqtttttyx|l~cyyjxw~h{|~viyy~bsoybnguwpgww~¦¦¦¦zzzzL_XcAK=VP\Uc}}}}¢¢¢¢ftn}?UEjNdZpZurzmmgmenhp~~~~sspsVibs¡¡¡¡¢¢¢^vt}}}}Wh`p_cZkepjpnzzzeqoxiidlbb_bMXP\^`Z``gakQnj~°°°°¥¯¯l}zapjssrs8PB_AQE[eeeefihiU`Yd;
 
 // Remaining properties
-@property(copy, nonatomic) CIVector *inputBottomLeft; // @synthesize inputBottomLeft;
-@property(copy, nonatomic) CIVector *inputBottomRight; // @synthesize inputBottomRight;
-@property(copy, nonatomic) NSNumber *inputFocalLength; // @synthesize inputFocalLength;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) CIVector *inputTopLeft; // @synthesize inputTopLeft;
-@property(copy, nonatomic) CIVector *inputTopRight; // @synthesize inputTopRight;
-@property(readonly, nonatomic) CIFilter *outputRotationFilter;
-@property(readonly, nonatomic) CDStruct_c27faaab outputTransform;
 
 @end
 

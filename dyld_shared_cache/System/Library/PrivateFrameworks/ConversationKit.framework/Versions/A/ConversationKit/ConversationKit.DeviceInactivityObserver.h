@@ -7,8 +7,6 @@
 @interface ConversationKit.DeviceInactivityObserver
 {
     id hidClient;
-    id inactivityTimeout;
-    id _state;
 }
 
 @end

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMutableDictionary, NSOperationQueue, NSString;
+@class NSOperationQueue;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIAssetQueue
 {
     struct os_unfair_lock_s _stateLock;
-    NSOperationQueue *_underlyingQueue;
-    NSMutableDictionary *_pendingOperations;
-    NSCountedSet *_priorityCounts;
 }
 
 - (void);
@@ -23,39 +20,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)%;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (long long);
+- (long long)5F(A;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)enumerateObjectsWithOptions:(long long)arg1 usingBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct os_unfair_lock_s);
 - (void);
-- (void)ynamicViewController: /* Error: Ran out of types for this method. */;
-- (void)quest:(long long)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)setDynamicViewController: /* Error: Ran out of types for this method. */;
+- (void)AMSURLSession:(long long)arg1 task:handleEngagementRequest:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long maxConcurrentOperationCount;
-@property(retain) NSString *name;
-@property(retain) NSMutableDictionary *pendingOperations; // @synthesize pendingOperations=_pendingOperations;
-@property(retain) NSCountedSet *priorityCounts; // @synthesize priorityCounts=_priorityCounts;
-@property long long qualityOfService;
-@property struct os_unfair_lock_s stateLock; // @synthesize stateLock=_stateLock;
-@property(getter=isSuspended) _Bool suspended;
 @property(retain) NSOperationQueue *underlyingQueue; // @synthesize underlyingQueue=_underlyingQueue;
 
 @end

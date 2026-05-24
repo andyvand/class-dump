@@ -7,10 +7,10 @@
 @class NSArray;
 
 @protocol NSSQLAttributeExtension
+- (NSArray *);
+- (NSArray *)nil;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bulkUpdateSQLStrings;
-@property(readonly, nonatomic) NSArray *dropSQLStrings;
 @property(readonly, nonatomic) NSArray *insertSQLStrings;
 @end
 

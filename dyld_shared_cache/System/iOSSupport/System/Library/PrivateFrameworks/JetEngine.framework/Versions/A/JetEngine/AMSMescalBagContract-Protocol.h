@@ -10,22 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) AMSBagValue *mescalCertificateURL;
-@property(readonly, nonatomic) AMSBagValue *mescalPrimingURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R,N
-
-@property(readonly, nonatomic) AMSBagValue *mescalSetupURL;
-@property(readonly, nonatomic) AMSBagValue *mescalSignSapRequests;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R,N
-
-@property(readonly, nonatomic) AMSBagValue *mescalSignSapResponses;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R,N
-
-@property(readonly, nonatomic) AMSBagValue *mescalSignedActions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSBagValue",?,R,N
-
 @end
 

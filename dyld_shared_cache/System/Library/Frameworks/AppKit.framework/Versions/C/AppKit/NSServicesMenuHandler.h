@@ -9,20 +9,20 @@
 }
 
 + (_Bool);
-+ (void);
-+ (void);
++ (void)__NSURLSessionWebSocketTask;
++ (void)not write file;
 + (long long);
 + (long long);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (void);
-+ (id);
++ (id)/;
 + (void);
-+ (void);
-+ (_Bool);
++ (void)2b4;
++ (_Bool)2b4;
 
 @end
 

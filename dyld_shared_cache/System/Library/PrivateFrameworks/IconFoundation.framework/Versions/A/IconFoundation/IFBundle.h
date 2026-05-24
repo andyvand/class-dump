@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFPlistParser, NSDictionary, NSString, NSURL;
-
 @interface IFBundle
 {
     _Bool _coreTypes;
-    struct __CFBundle *_bundle;
-    IFPlistParser *_plistParser;
 }
 
 + (unsigned long long);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)2;
++ (id)F;
 + (id);
 + (id);
 + (id);
@@ -30,13 +26,13 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned int);
-- (_Bool);
+- (_Bool)-�E1'F;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)2;
 - (id);
 - (id);
 - (id);
@@ -52,15 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSURL *assetCatalogURL;
 @property struct __CFBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly, copy) NSString *bundleID;
-@property(readonly, copy) NSURL *bundleURL;
-@property(readonly, getter=isCoreTypes) _Bool coreTypes; // @synthesize coreTypes=_coreTypes;
-@property(readonly, copy) NSDictionary *iconDictionary;
-@property(readonly, copy) NSDictionary *infoDictionary;
-@property(readonly) unsigned long long platform;
-@property(retain, nonatomic) IFPlistParser *plistParser; // @synthesize plistParser=_plistParser;
 
 @end
 

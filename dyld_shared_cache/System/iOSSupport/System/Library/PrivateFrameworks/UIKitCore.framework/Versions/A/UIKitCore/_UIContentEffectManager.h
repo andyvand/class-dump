@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)3TÕ|þµ÷13PÕ|þ½÷13LÕ|þ÷13HÕ|þ;
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

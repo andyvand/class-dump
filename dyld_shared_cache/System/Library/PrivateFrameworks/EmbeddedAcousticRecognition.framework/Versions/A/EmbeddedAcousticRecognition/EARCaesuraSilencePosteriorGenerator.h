@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol EARCaesuraSilencePosteriorGeneratorDelegate, OS_dispatch_queue;
+@protocol EARCaesuraSilencePosteriorGeneratorDelegate;
 
 @interface EARCaesuraSilencePosteriorGenerator
 {
     struct shared_ptr<quasar::SilencePosteriorGenerator> _silenceGenerator;
-    NSString *_configFile;
-    unsigned long long _samplingRate;
-    NSObject<OS_dispatch_queue> *_spgQueue;
-    id <EARCaesuraSilencePosteriorGeneratorDelegate> _delegate;
 }
 
 + (void)µ;
-- (id);
-- (id);
+- (id)ons/A/Accounts;
+- (id)m/Library/Frameworks/Accounts.framework/Versions/A/Accounts;
 - (id);
 - (void);
 - (void);

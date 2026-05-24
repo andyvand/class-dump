@@ -6,24 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemiCloudDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowCloudBackup;
-    NSNumber *_payloadAllowCloudDocumentSync;
-    NSNumber *_payloadAllowFindMyFriendsModification;
-    NSNumber *_payloadAllowPhotoStream;
-    NSNumber *_payloadAllowSharedStream;
-    NSNumber *_payloadAllowCloudPhotoLibrary;
-    NSNumber *_payloadAllowCloudBookmarks;
-    NSNumber *_payloadAllowCloudMail;
-    NSNumber *_payloadAllowCloudCalendar;
-    NSNumber *_payloadAllowCloudReminders;
-    NSNumber *_payloadAllowCloudAddressBook;
-    NSNumber *_payloadAllowCloudNotes;
-    NSNumber *_payloadAllowCloudDesktopAndDocuments;
-    NSNumber *_payloadAllowCloudKeychainSync;
 }
 
 + (id);
@@ -38,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -50,7 +37,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -71,27 +58,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowCloudAddressBook; // @synthesize payloadAllowCloudAddressBook=_payloadAllowCloudAddressBook;
 @property(copy, nonatomic) NSNumber *payloadAllowCloudBackup; // @synthesize payloadAllowCloudBackup=_payloadAllowCloudBackup;
-@property(copy, nonatomic) NSNumber *payloadAllowCloudBookmarks; // @synthesize payloadAllowCloudBookmarks=_payloadAllowCloudBookmarks;
-@property(copy, nonatomic) NSNumber *payloadAllowCloudCalendar; // @synthesize payloadAllowCloudCalendar=_payloadAllowCloudCalendar;
-@property(copy, nonatomic) NSNumber *payloadAllowCloudDesktopAndDocuments; // @synthesize payloadAllowCloudDesktopAndDocuments=_payloadAllowCloudDesktopAndDocuments;
-@property(copy, nonatomic) NSNumber *payloadAllowCloudDocumentSync; // @synthesize payloadAllowCloudDocumentSync=_payloadAllowCloudDocumentSync;
-@property(copy, nonatomic) NSNumber *payloadAllowCloudKeychainSync; // @synthesize payloadAllowCloudKeychainSync=_payloadAllowCloudKeychainSync;
-@property(copy, nonatomic) NSNumber *payloadAllowCloudMail; // @synthesize payloadAllowCloudMail=_payloadAllowCloudMail;
-@property(copy, nonatomic) NSNumber *payloadAllowCloudNotes; // @synthesize payloadAllowCloudNotes=_payloadAllowCloudNotes;
-@property(copy, nonatomic) NSNumber *payloadAllowCloudPhotoLibrary; // @synthesize payloadAllowCloudPhotoLibrary=_payloadAllowCloudPhotoLibrary;
-@property(copy, nonatomic) NSNumber *payloadAllowCloudReminders; // @synthesize payloadAllowCloudReminders=_payloadAllowCloudReminders;
-@property(copy, nonatomic) NSNumber *payloadAllowFindMyFriendsModification; // @synthesize payloadAllowFindMyFriendsModification=_payloadAllowFindMyFriendsModification;
-@property(copy, nonatomic) NSNumber *payloadAllowPhotoStream; // @synthesize payloadAllowPhotoStream=_payloadAllowPhotoStream;
-@property(copy, nonatomic) NSNumber *payloadAllowSharedStream; // @synthesize payloadAllowSharedStream=_payloadAllowSharedStream;
-@property(readonly) Class superclass;
 
 @end
 

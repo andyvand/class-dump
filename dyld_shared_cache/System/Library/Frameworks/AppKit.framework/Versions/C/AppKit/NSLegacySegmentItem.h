@@ -4,39 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageSymbolConfiguration, NSImageView, NSMenu, NSSegmentItem, NSSegmentItemView, NSSegmentedCell, NSSegmentedControlAppearanceBasedVisualProvider, NSString;
+@class NSSegmentItem, NSSegmentedCell;
 
 __attribute__((visibility("hidden")))
 @interface NSLegacySegmentItem
 {
     NSSegmentedCell *_owningCell;
-    NSSegmentItem *_itemConfiguration;
-    NSSegmentedControlAppearanceBasedVisualProvider *_visualProvider;
-    CDStruct_ac47fae2 _flags;
-    long long _badgeValue;
-    NSImageView *_badgeView;
-    NSSegmentItemView *_segmentItemView;
-    struct {
-        unsigned int trackingMode:3;
-        unsigned int trimmedLabels:1;
-        unsigned int drawing:1;
-        unsigned int recalcToolTips:1;
-        unsigned int usesWindowsStyle:1;
-        unsigned int dontShowSelectedAndPressedAppearance:1;
-        unsigned int menuShouldBeUniquedAgainstMain:1;
-        unsigned int style:8;
-        unsigned int flatMinX:1;
-        unsigned int flatMaxX:1;
-        unsigned int segmentedSeparated:1;
-        unsigned int animateNextLayout:1;
-    } _seFlags;
-    long long _tag;
-    double _fullWidth;
-    double _shrinkage;
-    long long _toolTipTag;
-    struct CGRect _labelRect;
-    struct CGRect _imageRect;
-    struct CGRect _menuIndRect;
 }
 
 - (id);
@@ -45,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)W;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,24 +37,36 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (long long);
+- (id)sk"24@"AVMediaSelection"32;
+- (long long)std::vector<std::string>, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<std::string>>>>="__tree_"{__tree<std::__value_type<std::string, std::vector<std::string>>, std::__map_value_compare<std::string, std::pair<const std::string, std::vector<std::string>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::vector<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_ipAddressToConnectionKey"{map<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
 - (long long);
 - (double);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)_enableOAuthBearerTokenChallenges;
+- (void)ATSConnectionExceptionEvent;
+- (_Bool)zxLY2gMfNxJUvVXK+QMJ2ly88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (_Bool)NSURLSessionResumeCurrentRequest;
+- (struct CGRect)	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8	(	(	(	(
+)8
+)8
+)8
+)8;
 - (struct CGRect);
+- (unsigned long long)c;
 - (struct CGRect);
-- (unsigned long long);
-- (struct CGRect);
-- (double);
+- (double)@;
 - (double);
 - (void);
 - (id);
@@ -89,24 +74,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)@;
+- (void)@;
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)3;
+- (id)`x;
 - (id);
 - (id);
+- (long long)textHighlightRenderingAttributesForAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)drawWithRect:options:attributes:context: /* Error: Ran out of types for this method. */;
+- (double)ype="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/><Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships> /* Error: Ran out of types for this method. */;
 - (id);
-- (long long);
 - (_Bool);
-- (double);
-- (id);
-- (_Bool);
-- (id)der;
+- (id)_parentWindowProvider;
 - (long long);
 - (id)C dictionary.;
 - (void)É!)A;
@@ -114,40 +99,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ì;
 
 // Remaining properties
-@property(readonly, getter=_alternateImage) NSImage *alternateImage;
-@property(readonly, getter=_badgeEmblem) NSImage *badgeEmblem;
-@property(getter=_badgeValue, setter=_setBadgeValue:) long long badgeValue; // @synthesize badgeValue=_badgeValue;
-@property(retain, getter=_badgeView, setter=_setBadgeView:) NSImageView *badgeView;
-@property(readonly, getter=_disabled) _Bool disabled;
-@property(readonly, getter=_displayWidth) double displayWidth;
-@property(getter=_fullWidth) double fullWidth; // @synthesize fullWidth=_fullWidth;
-@property(readonly) long long highlightState;
-@property(readonly) _Bool highlighted;
-@property(readonly, getter=_image) NSImage *image;
-@property(getter=_imageRect) struct CGRect imageRect; // @synthesize imageRect=_imageRect;
-@property(readonly, getter=_imageScaling) unsigned long long imageScaling;
-@property(readonly) NSImage *imageToDraw;
-@property(readonly, getter=_inactiveStateDisablesRollovers) _Bool inactiveStateDisablesRollovers;
-@property(readonly) long long index;
 @property(copy) NSSegmentItem *itemConfiguration;
-@property(readonly, copy, getter=_label) NSString *label;
-@property(getter=_labelRect) struct CGRect labelRect; // @synthesize labelRect=_labelRect;
-@property(readonly, getter=_menu) NSMenu *menu;
-@property(getter=_menuIndRect) struct CGRect menuIndRect; // @synthesize menuIndRect=_menuIndRect;
-@property(readonly, getter=_mouseInside) _Bool mouseInside;
-@property(readonly, getter=_needsRecalc) _Bool needsRecalc;
-@property(retain) NSSegmentItemView *segmentItemView; // @synthesize segmentItemView=_segmentItemView;
-@property(readonly, getter=_selected) _Bool selected;
-@property(readonly, getter=_showMenuIndicator) _Bool showMenuIndicator;
-@property(readonly, getter=_showsBadge) _Bool showsBadge;
-@property(getter=_shrinkage, setter=_setShrinkage:) double shrinkage; // @synthesize shrinkage=_shrinkage;
-@property(readonly, getter=_springLoadingHighlight) long long springLoadingHighlight;
-@property(readonly) NSImageSymbolConfiguration *symbolConfiguration;
-@property(readonly) long long tag; // @synthesize tag=_tag;
-@property(readonly) long long textAlignment;
-@property(readonly, copy) NSString *toolTip;
-@property long long toolTipTag; // @synthesize toolTipTag=_toolTipTag;
-@property(readonly) double width;
 
 @end
 

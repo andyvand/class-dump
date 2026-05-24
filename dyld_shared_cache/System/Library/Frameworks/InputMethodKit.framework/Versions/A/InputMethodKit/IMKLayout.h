@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
-
 @interface IMKLayout
 {
     double _candidateThickness;
-    NSMutableDictionary *_candidateIndexToPositionMapping;
-    NSMutableDictionary *_candidateIndexToNumberIndex;
-    unsigned long long _currentSlot;
-    unsigned long long _currentIndex;
-    double _maxX;
-    double _maxY;
-    long long _currentLineNumber;
-    _Bool _partial;
-    NSMutableArray *_lines;
-    NSMutableArray *_layoutUnitsInternal;
-    struct CGSize _extraSize;
 }
 
 - (void);
@@ -33,53 +20,39 @@
 - (id);
 - (id);
 - (struct CGSize);
-- (void);
+- (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (long long);
 - (void);
 - (double);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (double);
-- (void);
+- (void)a";
 - (id);
 - (double);
-- (struct CGSize);
-- (id);
-- (unsigned long long);
+- (struct CGSize)nsmittedBytes"[15I]"nonFlushableQueueDepth"[15I]"frontIndex"i"rearIndex"i"size"I};
+- (id)_videoFeatureStrings;
+- (unsigned long long)terfaceMask:nominated:demote:connectionPriority:replaceOnly:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)PCHADel;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *candidateIndexToNumberIndex; // @synthesize candidateIndexToNumberIndex=_candidateIndexToNumberIndex;
-@property(retain, nonatomic) NSMutableDictionary *candidateIndexToPositionMapping; // @synthesize candidateIndexToPositionMapping=_candidateIndexToPositionMapping;
 @property(nonatomic) double candidateThickness; // @synthesize candidateThickness=_candidateThickness;
-@property(readonly, nonatomic) struct CGSize canvasSize;
-@property(nonatomic) unsigned long long currentIndex; // @synthesize currentIndex=_currentIndex;
-@property(nonatomic) long long currentLineNumber; // @synthesize currentLineNumber=_currentLineNumber;
-@property(nonatomic) unsigned long long currentSlot; // @synthesize currentSlot=_currentSlot;
-@property(nonatomic) struct CGSize extraSize; // @synthesize extraSize=_extraSize;
-@property(readonly, nonatomic) NSArray *layoutUnits;
-@property(retain, nonatomic) NSMutableArray *layoutUnitsInternal; // @synthesize layoutUnitsInternal=_layoutUnitsInternal;
-@property(readonly, nonatomic) unsigned long long lineCount;
-@property(retain, nonatomic) NSMutableArray *lines; // @synthesize lines=_lines;
-@property(nonatomic) double maxX; // @synthesize maxX=_maxX;
-@property(nonatomic) double maxY; // @synthesize maxY=_maxY;
-@property(nonatomic) _Bool partial; // @synthesize partial=_partial;
 
 @end
 

@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KCPairingChannelContext, NSArray, NSNumber, NSString, NSXPCConnection, OTControl, OTControlArguments, OTJoiningConfiguration;
+@class KCPairingChannelContext;
 
 @interface KCPairingChannel
 {
     _Bool _needInitialSync;
-    _Bool _initiator;
-    _Bool _acceptorWillSendInitialSyncCredentials;
-    _Bool _acceptorWillSendPCSData;
-    _Bool _initiatorExpectPCSData;
-    _Bool _grabbedLockAssertion;
-    _Bool _testFailSOS;
-    _Bool _testFailOctagon;
-    _Bool _sessionSupportsSOS;
-    _Bool _sessionSupportsOctagon;
-    unsigned int _counter;
-    unsigned int _acceptorInitialSyncCredentialsFlags;
-    KCPairingChannelContext *_peerVersionContext;
-    NSString *_dsidForTest;
-    NSNumber *_ackNumber;
-    NSArray *_allPCSItemPersistentRefs;
-    unsigned long long _itemIndex;
-    NSNumber *_countOfReceivedItems;
-    NSNumber *_countOfSentItems;
-    NSNumber *_sizeOfPacket;
-    NSXPCConnection *_connection;
-    OTControl *_otControl;
-    CDUnknownBlockType _nextOctagonState;
-    CDUnknownBlockType _nextState;
-    OTJoiningConfiguration *_joiningConfiguration;
-    OTControlArguments *_controlArguments;
-    NSString *_altDSID;
 }
 
 + (_Bool);
@@ -44,11 +18,11 @@
 + (_Bool);
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (void);
@@ -59,7 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -94,8 +68,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id)*;
+- (_Bool);
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -107,7 +81,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -120,7 +94,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -143,7 +117,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)ientNWConnectionID;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -154,33 +128,7 @@
 - (id);
 
 // Remaining properties
-@property unsigned int acceptorInitialSyncCredentialsFlags; // @synthesize acceptorInitialSyncCredentialsFlags=_acceptorInitialSyncCredentialsFlags;
-@property _Bool acceptorWillSendInitialSyncCredentials; // @synthesize acceptorWillSendInitialSyncCredentials=_acceptorWillSendInitialSyncCredentials;
-@property _Bool acceptorWillSendPCSData; // @synthesize acceptorWillSendPCSData=_acceptorWillSendPCSData;
-@property(retain, nonatomic) NSNumber *ackNumber; // @synthesize ackNumber=_ackNumber;
-@property(retain, nonatomic) NSArray *allPCSItemPersistentRefs; // @synthesize allPCSItemPersistentRefs=_allPCSItemPersistentRefs;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) OTControlArguments *controlArguments; // @synthesize controlArguments=_controlArguments;
-@property(retain, nonatomic) NSNumber *countOfReceivedItems; // @synthesize countOfReceivedItems=_countOfReceivedItems;
-@property(retain, nonatomic) NSNumber *countOfSentItems; // @synthesize countOfSentItems=_countOfSentItems;
-@property unsigned int counter; // @synthesize counter=_counter;
-@property(retain, nonatomic) NSString *dsidForTest; // @synthesize dsidForTest=_dsidForTest;
-@property(nonatomic) _Bool grabbedLockAssertion; // @synthesize grabbedLockAssertion=_grabbedLockAssertion;
-@property _Bool initiator; // @synthesize initiator=_initiator;
-@property _Bool initiatorExpectPCSData; // @synthesize initiatorExpectPCSData=_initiatorExpectPCSData;
-@property(nonatomic) unsigned long long itemIndex; // @synthesize itemIndex=_itemIndex;
-@property(retain, nonatomic) OTJoiningConfiguration *joiningConfiguration; // @synthesize joiningConfiguration=_joiningConfiguration;
-@property(readonly) _Bool needInitialSync; // @synthesize needInitialSync=_needInitialSync;
-@property(copy) CDUnknownBlockType nextOctagonState; // @synthesize nextOctagonState=_nextOctagonState;
-@property(copy) CDUnknownBlockType nextState; // @synthesize nextState=_nextState;
-@property(retain) OTControl *otControl; // @synthesize otControl=_otControl;
 @property(retain, nonatomic) KCPairingChannelContext *peerVersionContext; // @synthesize peerVersionContext=_peerVersionContext;
-@property _Bool sessionSupportsOctagon; // @synthesize sessionSupportsOctagon=_sessionSupportsOctagon;
-@property _Bool sessionSupportsSOS; // @synthesize sessionSupportsSOS=_sessionSupportsSOS;
-@property(retain, nonatomic) NSNumber *sizeOfPacket; // @synthesize sizeOfPacket=_sizeOfPacket;
-@property(nonatomic) _Bool testFailOctagon; // @synthesize testFailOctagon=_testFailOctagon;
-@property(nonatomic) _Bool testFailSOS; // @synthesize testFailSOS=_testFailSOS;
 
 @end
 

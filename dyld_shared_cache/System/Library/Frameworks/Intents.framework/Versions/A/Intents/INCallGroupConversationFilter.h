@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCallGroup, INPerson, NSArray, NSNumber, NSString;
+@class INPerson;
 
 @interface INCallGroupConversationFilter
 {
     INPerson *_caller;
-    NSArray *_participants;
-    NSNumber *_matchCallerAndParticipantsExactly;
-    INCallGroup *_callGroup;
 }
 
 + (id);
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id)Apple_Scratch;
+- (_Bool),N,GisUPRActive,V_UPRActive;
+- (void)vents.(%@);
 - (id);
-- (_Bool);
 - (void);
 - (id);
-- (void);
+- (id));
 - (id);
-- (id);
-- (id);
-- (id)matString:(unsigned long long)arg1;
+- (id)_formattedStringWithLocale:(unsigned long long)arg1 componentsFormatString: /* Error: Ran out of types for this method. */;
 - (void)t.intent.home.communication.StopAnnouncementIntent;
 - (id)|¨ÕÿöM¶k;
 
 // Remaining properties
-@property(readonly, copy) INCallGroup *callGroup; // @synthesize callGroup=_callGroup;
-@property(readonly, copy) INPerson *caller; // @synthesize caller=_caller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *matchCallerAndParticipantsExactly; // @synthesize matchCallerAndParticipantsExactly=_matchCallerAndParticipantsExactly;
-@property(readonly, copy) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly) Class superclass;
 
 @end
 

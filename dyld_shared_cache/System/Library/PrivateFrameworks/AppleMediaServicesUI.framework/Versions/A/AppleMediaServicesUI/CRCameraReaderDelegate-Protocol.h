@@ -4,6 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CRCameraReader, NSArray, NSAttributedString;
+
 @protocol CRCameraReaderDelegate
+- (void)willChange:(CRCameraReader *)arg1 valuesAtIndexes:forKey: /* Error: Ran out of types for this method. */;
+- (void)willBecomeNonSyncablePhotoLibrary:(CRCameraReader *)arg1;
+- (void)wellChosenSubjectScore;
+
+@optional
+- (void)writeBorderedThumbnailOfImage:(CRCameraReader *)arg1 toBuffer:(NSArray *)arg2 orientation:format:formatInfo:delegate: /* Error: Ran out of types for this method. */;
+- (void)writeBackgroundRestorePostProcessingInProgressToken;
+- (void)writeBackgroundRestorePostProcessingCompleteAndArchiveTokens;
+- (_Bool)writableFileURLForContextualVideoThumbnailIdentifier:(CRCameraReader *)arg1;
+- (_Bool)workerWithLibrary:(CRCameraReader *)arg1;
+- (NSAttributedString *)workerTypesMaskForBackgroundJobWorkerTypes:(CRCameraReader *)arg1;
+- (void)workerTypesForBundle:(CRCameraReader *)arg1;
+- (void)workerType;
+- (NSArray *)workLocations;
 @end
 

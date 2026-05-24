@@ -8,14 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCTransportStreamGFT
 {
     unsigned int _transportSessionID;
-    int _vtpReceiveSocket;
-    int _vtpCancelSocket;
-    struct tagVCMediaQueue *_mediaQueue;
-    CDUnknownBlockType _callback;
-    void *_callbackContext;
-    int _vtpCallbackId;
-    struct fd_set _readFDsForCallback;
-    struct OpaqueCMBlockBuffer *_emptyBlockBuffer;
 }
 
 - (int);

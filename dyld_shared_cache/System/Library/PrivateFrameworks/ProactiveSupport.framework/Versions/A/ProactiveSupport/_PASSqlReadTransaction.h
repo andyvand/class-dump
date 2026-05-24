@@ -11,9 +11,9 @@
     _PASSqliteDatabase *_db;
 }
 
+- (id)	;
 - (id);
-- (id);
-- (void);
+- (void)weekdayOrdinal;
 - (id)Ô ;
 
 // Remaining properties

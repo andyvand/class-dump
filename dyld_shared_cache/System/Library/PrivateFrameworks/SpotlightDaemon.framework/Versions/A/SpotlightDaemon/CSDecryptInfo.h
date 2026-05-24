@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CSDecryptInfo
 {
     NSString *_externalID;
-    NSData *_decryptInfo;
 }
 
-- (id);
-- (void);
-- (id);
+- (id)nForSecureRequests:activityNotificationsEnabledForPersonalRequests:completion: /* Error: Ran out of types for this method. */;
+- (void)handleActivateMatterPairingModeAndCreateSetupPayloadStringMessage:(id)arg1;
+- (id)handleActivateCHIPPairingModeAndCreateSetupPayloadStringMessage:(CDStruct_04aed232)arg1;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *decryptInfo; // @synthesize decryptInfo=_decryptInfo;
 @property(retain, nonatomic) NSString *externalID; // @synthesize externalID=_externalID;
 
 @end

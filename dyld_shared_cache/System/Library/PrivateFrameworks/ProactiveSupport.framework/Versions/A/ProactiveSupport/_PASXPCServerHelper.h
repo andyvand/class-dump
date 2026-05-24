@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
++ (_Bool)P;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)apple.SystemProfiler;
 
 @end
 

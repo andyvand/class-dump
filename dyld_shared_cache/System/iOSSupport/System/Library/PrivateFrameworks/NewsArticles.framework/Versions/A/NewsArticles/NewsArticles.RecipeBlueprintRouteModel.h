@@ -7,12 +7,6 @@
 @interface NewsArticles.RecipeBlueprintRouteModel
 {
     id identifier;
-    id routeModel;
-    id blueprintProvider;
-    id blueprintTraits;
-    id $__lazy_storage_$_transitionIdentifier;
-    id currentModel;
-    id _observer;
 }
 
 @end

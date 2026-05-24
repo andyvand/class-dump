@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSegmentedControl, SOContentAttachmentsViewController, SOPhotoAttachmentsViewController;
-@protocol SOAttachmentsTabViewControllerDelegate;
+@class SOPhotoAttachmentsViewController;
 
 @interface SOAttachmentsTabViewController
 {
     _Bool _hasUpdatedAttachments;
-    id <SOAttachmentsTabViewControllerDelegate> _delegate;
-    SOPhotoAttachmentsViewController *_photoAttachmentsViewController;
-    SOContentAttachmentsViewController *_fileAttachmentsViewController;
 }
 
 - (double);
@@ -20,36 +16,30 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (void)H&;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (void)_videoContainerView;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)0$;
 - (void);
 - (void);
 
 // Remaining properties
-@property __weak id <SOAttachmentsTabViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) SOContentAttachmentsViewController *fileAttachmentsViewController; // @synthesize fileAttachmentsViewController=_fileAttachmentsViewController;
-@property(readonly) _Bool hasAttachments;
-@property(readonly, nonatomic) _Bool hasPhotoAttachments;
-@property _Bool hasUpdatedAttachments; // @synthesize hasUpdatedAttachments=_hasUpdatedAttachments;
 @property(retain) SOPhotoAttachmentsViewController *photoAttachmentsViewController; // @synthesize photoAttachmentsViewController=_photoAttachmentsViewController;
-@property(readonly, nonatomic) NSSegmentedControl *segmentedControl;
 
 @end
 

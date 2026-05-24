@@ -15,10 +15,10 @@
 - (int);
 - (int);
 - (int);
-- (id);
+- (id)?;
 - (void);
 - (void);
-- (int);
+- (int);
 - (void);
 
 // Remaining properties

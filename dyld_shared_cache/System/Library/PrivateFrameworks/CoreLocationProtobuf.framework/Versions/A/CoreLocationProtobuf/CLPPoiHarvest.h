@@ -9,9 +9,6 @@
 @interface CLPPoiHarvest
 {
     NSMutableArray *_absoluteAltitudes;
-    NSMutableArray *_accessPoints;
-    NSMutableArray *_locations;
-    CLPPoiTriggerEvent *_triggerEvent;
 }
 
 + (Class);
@@ -19,9 +16,6 @@
 + (Class);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *absoluteAltitudes; // @synthesize absoluteAltitudes=_absoluteAltitudes;
-@property(retain, nonatomic) NSMutableArray *accessPoints; // @synthesize accessPoints=_accessPoints;
-@property(retain, nonatomic) NSMutableArray *locations; // @synthesize locations=_locations;
 @property(retain, nonatomic) CLPPoiTriggerEvent *triggerEvent; // @synthesize triggerEvent=_triggerEvent;
 
 @end

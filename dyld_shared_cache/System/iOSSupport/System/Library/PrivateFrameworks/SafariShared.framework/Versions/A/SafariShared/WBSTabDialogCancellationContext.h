@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface WBSTabDialogCancellationContext
 {
     NSString *_reason;
-    NSDictionary *_userInfo;
 }
 
 + (id);
@@ -19,12 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)*�N;
 - (void)>"8;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

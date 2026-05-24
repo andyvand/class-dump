@@ -4,56 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UICollectionView, UICollectionViewCompositionalLayout, UICollectionViewDiffableDataSource;
-@protocol CKMentionSuggestionViewDataSource, CKMentionSuggestionViewDelegate;
+@class UICollectionView;
 
 @interface CKMentionSuggestionView
 {
     _Bool _hasCompletedInitialLayoutPass;
-    id <CKMentionSuggestionViewDelegate> _delegate;
-    id <CKMentionSuggestionViewDataSource> _dataSource;
-    UICollectionView *_collectionView;
-    UICollectionViewDiffableDataSource *_diffableDataSource;
-    UICollectionViewCompositionalLayout *_suggestionViewLayout;
 }
 
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (id)createSubattachmentForRecordingAndReturnError:(id)arg1;
+- (id)createSubAttachmentFromDocument:imageCache:galleryAttachment: /* Error: Ran out of types for this method. */;
+- (void)createRenderableAttributedString;
+- (id)achment: /* Error: Ran out of types for this method. */;
+- (void)_hasActiveFindSession;
+- (void)TextLayoutManager",R,N,V_textLayoutManager;
+- (_Bool)t;
 - (void);
 - (id);
 - (id);
 - (id);
 - (struct CGSize);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)0;
 - (void);
 - (id);
 - (void);
-- (void)PE_SATELLITE_SMS;
+- (id);
+- (void);
+- (void)MESSAGE_SERVICE_TYPE_SATELLITE_SMS;
 - (void);
 - (void);1;
 
 // Remaining properties
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(nonatomic) __weak id <CKMentionSuggestionViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKMentionSuggestionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UICollectionViewDiffableDataSource *diffableDataSource; // @synthesize diffableDataSource=_diffableDataSource;
-@property(nonatomic) _Bool hasCompletedInitialLayoutPass; // @synthesize hasCompletedInitialLayoutPass=_hasCompletedInitialLayoutPass;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UICollectionViewCompositionalLayout *suggestionViewLayout; // @synthesize suggestionViewLayout=_suggestionViewLayout;
-@property(readonly) Class superclass;
 
 @end
 

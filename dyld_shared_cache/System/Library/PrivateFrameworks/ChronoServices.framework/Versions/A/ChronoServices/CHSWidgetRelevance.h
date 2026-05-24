@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSIntentReference, CHSWidgetRelevanceAttribute, LNRelevantContext;
+@class CHSWidgetRelevanceAttribute;
 
 @interface CHSWidgetRelevance
 {
     CHSWidgetRelevanceAttribute *_attribute;
-    CHSIntentReference *_intentReference;
 }
 
 + (_Bool);
@@ -19,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -27,8 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CHSWidgetRelevanceAttribute *attribute; // @synthesize attribute=_attribute;
-@property(readonly, nonatomic) CHSIntentReference *intentReference; // @synthesize intentReference=_intentReference;
-@property(readonly, nonatomic) LNRelevantContext *relevantContext;
 
 @end
 

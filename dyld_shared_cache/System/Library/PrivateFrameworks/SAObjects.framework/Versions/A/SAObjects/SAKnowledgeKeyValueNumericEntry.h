@@ -14,11 +14,11 @@
 
 + (id);
 + (id);
-- (void);
+- (void)suppression-no-delay-command-utt-pattern;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)#;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *value;

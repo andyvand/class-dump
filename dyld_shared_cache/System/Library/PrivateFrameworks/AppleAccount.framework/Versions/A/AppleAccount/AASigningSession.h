@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AASigningSession
 {
     struct NACContextOpaque_ *_context;
-    NSString *_certURL;
-    NSString *_sessionURL;
-    int _error;
 }
 
-+ (id);
-+ (id);
-- (void);
++ (id)Item ImportToLocalKeychain returned:(id)arg1 %d;
++ (id)status = %u (bits 1=unlocked, 2=readable, 4=writable) (uid %d) (kcdomain %d);
+- (void)]:+:::::::::::::::: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (int);
 - (void);
-- (void)nalyticsInfo: /* Error: Ran out of types for this method. */;
+- (void)setAnalyticsInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) int error; // @synthesize error=_error;

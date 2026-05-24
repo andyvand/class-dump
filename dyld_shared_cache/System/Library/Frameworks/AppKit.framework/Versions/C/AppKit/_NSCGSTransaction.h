@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFenceHandle, NSMutableArray, NSMutableDictionary, NSMutableSet, NSPointerArray;
+@class NSPointerArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSCGSTransaction
 {
     NSPointerArray *_preCommitActions[3];
-    NSPointerArray *_postCommitActions;
-    NSMutableDictionary *_objects;
-    struct _SLSTransaction *_txn;
-    CAFenceHandle *_entanglingHandle;
-    NSMutableSet *_entangledContexts;
-    NSMutableArray *_entangledFenceHandles;
-    NSMutableArray *_entangledFencePorts;
-    unsigned int _disallowFurtherEntangling:1;
-    unsigned int _detachedFromCA:1;
-    const void *_disableUpdatesToken;
-    struct _SLSTransaction *_committedAsyncTxn;
 }
 
-+ (id);
++ (id)f range;
 + (void);
 + (_Bool);
 + (void);
 - (unsigned int);
-- (id);
+- (id)R;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)object>"16;
+- (void)P;
 - (void);
 - (id);
 - (void)ÿÿ;

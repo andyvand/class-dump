@@ -7,23 +7,21 @@
 @interface EFMeasuredObject
 {
     id _object;
-    double _measure;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)taVersion:(id)arg1 %d;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)tableView:(id)arg1 didRemoveRowView:forRow: /* Error: Ran out of types for this method. */;
 - (double);
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) double measure; // @synthesize measure=_measure;
 @property(retain, nonatomic) id object; // @synthesize object=_object;
 
 @end

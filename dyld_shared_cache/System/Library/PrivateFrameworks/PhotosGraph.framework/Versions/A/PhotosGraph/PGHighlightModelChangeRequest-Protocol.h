@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @protocol PGHighlightModelChangeRequest
+- (void)selectionStartLineIndex;
+- (void)_signalForElement:stringDeleted:wasSelected:editTracker: /* Error: Ran out of types for this method. */;
+- (void)7Z;
+- (void)B�8;
+- (void)#;
+- (unsigned short);
+- (void)InPreviewPane;
+- (unsigned long long)FI_TPropertyICloudShareOwnerController;
 
 // Remaining properties
-@property(nonatomic) unsigned short enrichmentState;
-@property(retain, nonatomic) NSDate *lastEnrichmentDate;
-@property(nonatomic) unsigned short mixedSharingCompositionKeyAssetRelationship;
-@property(nonatomic) unsigned long long mood;
-@property(nonatomic) double promotionScore;
 @property(retain, nonatomic) NSString *smartDescription;
-@property(retain, nonatomic) NSString *smartDescriptionMixed;
-@property(retain, nonatomic) NSString *smartDescriptionShared;
-@property(retain, nonatomic) NSString *verboseSmartDescription;
-@property(retain, nonatomic) NSString *verboseSmartDescriptionMixed;
-@property(retain, nonatomic) NSString *verboseSmartDescriptionShared;
 @end
 

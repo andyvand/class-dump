@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineV2GridSectionHeaderView
 {
     id titleLabel;
-    id sortByButton;
-    id detailLabel;
 }
 
 - (id);

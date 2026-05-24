@@ -7,12 +7,6 @@
 @interface NewsUI2.NewsEngagementEventProcessor
 {
     id engagementService;
-    id appReviewRequestManager;
-    id eventTranslators;
-    id jsonDecoder;
-    id $__lazy_storage_$_useSmarterMessaging;
-    id useAppReviewRequest;
-    id appConfiguration;
 }
 
 - (id);

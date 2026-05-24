@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (double);
 - (double);
 - (double);
@@ -26,18 +26,12 @@
 - (double);
 - (double);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)e;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) double audioSessionActivationDelay;
-@property(nonatomic) double audioSessionActivationDelayAboveMediaPlaybackVolumeThreshold;
-@property(nonatomic) _Bool hasAudioSessionActivationDelay;
-@property(nonatomic) double initialInterstitialDelay;
-@property(nonatomic) double initialInterstitialDelayForCarPlay;
-@property(nonatomic) double initialInterstitialDelayForVoiceTriggerOneShotWithoutAudioDucking;
-@property(nonatomic) double mediaPlaybackVolumeThresholdForAudioSessionActivationDelay;
 
 @end
 

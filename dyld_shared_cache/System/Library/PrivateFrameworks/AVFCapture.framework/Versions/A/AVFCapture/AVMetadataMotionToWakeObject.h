@@ -12,9 +12,9 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id),N,V_quaternaryTextColor;
+- (id)aryTextColorLight;
+- (unsigned long long)"NSString",&,N,V_mode;
 - (id);
 - (id);
 

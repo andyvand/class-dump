@@ -4,35 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBox, NSButton, NSLayoutConstraint, NSSplitView, NSStackView, NSString, NSTextField, NSWindow, SFIconView;
+@class SFIconView;
 
 __attribute__((visibility("hidden")))
 @interface SFCertificateTrustPanel_ivars
 {
     SFIconView *_iconView;
-    NSStackView *_stackView;
-    NSSplitView *_splitView;
-    NSTextField *_messageField;
-    NSTextField *_informationField;
-    NSButton *_showCertButton;
-    NSButton *_trustButton;
-    NSBox *_aboveContentBox;
-    NSBox *_discloseContentBox;
-    NSBox *_belowContentBox;
-    NSLayoutConstraint *_discloseContentHeightConstraint;
-    struct CGRect _lastDiscloseRect;
-    NSString *_defaultMessage;
-    NSString *_defaultInformation;
-    NSWindow *_offScreenWindow;
-    _Bool _showsCertButton;
-    _Bool _showsTrustButton;
-    long long _trustButtonState;
-    _Bool _certificatesDisclosed;
-    _Bool _savingTrustSettings;
-    _Bool _forceAdminTrust;
-    _Bool _editableTrust;
-    NSArray *_topLevelObjects;
-    NSButton *_escButton;
 }
 
 - (void);

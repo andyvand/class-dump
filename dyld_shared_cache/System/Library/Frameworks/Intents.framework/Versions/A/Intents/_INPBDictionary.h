@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBDictionary
 {
     struct _has;
-    NSArray *_pairs;
 }
 
 + (Class);
@@ -18,28 +17,20 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)g] Exceeded ask-to-share (from app) request rate limit (clientID=%{public}@);
 - (id);
 - (id);
-- (void)leForSuggestions;
+- (void)INIntentIneligibleForSuggestions;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *pairs; // @synthesize pairs=_pairs;
-@property(readonly, nonatomic) unsigned long long pairsCount;
-@property(readonly) Class superclass;
 
 @end
 

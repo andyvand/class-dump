@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ADMPowerActivityManager
 {
     NSMutableDictionary *_powerPreferences;
-    NSDictionary *_upsShutdownLevels;
-    struct IONotificationPort *_ioNotificationPort;
-    unsigned int _ioNotifier;
 }
 
 + (id);
@@ -30,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?׿F;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -70,26 +67,26 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (unsigned long long)=@;
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (_Bool);;
 - (_Bool);
-- (_Bool);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)G;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

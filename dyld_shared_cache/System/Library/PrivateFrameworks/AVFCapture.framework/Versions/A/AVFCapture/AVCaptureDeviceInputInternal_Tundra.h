@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDevice_Tundra, MediaIOGraphNodeDescription, NSArray, NSObject, NSString;
-@protocol OS_xpc_object;
+@class AVCaptureDevice_Tundra;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureDeviceInputInternal_Tundra
 {
     AVCaptureDevice_Tundra *device;
-    NSArray *ports;
-    MediaIOGraphNodeDescription *deviceInputUnitDescription;
-    MediaIOGraphNodeDescription *demuxUnitDescription;
-    _Bool ready;
-    _Bool centerStageAllowed;
-    _Bool backgroundBlurAllowed;
-    _Bool studioLightingAllowed;
-    _Bool reactionEffectsAllowed;
-    _Bool backgroundReplacementAllowed;
-    _Bool observingSuppressVideoEffects;
-    NSObject<OS_xpc_object> *sensitiveContentAnalyzerXPCObject;
-    _Bool sensitiveContentAnalyzerEnabled;
-    NSString *blackenFramesKey;
 }
 
 @end

@@ -6,31 +6,28 @@
 
 #import <AppKit/NSWindow.h>
 
-@class CABackdropLayer, CALayer, NSDocumentRevisionsView;
+@class NSDocumentRevisionsView;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentRevisionsWindow : NSWindow
 {
     NSDocumentRevisionsView *view;
-    CALayer *dpLayer;
-    CABackdropLayer *rootBackdropLayer;
 }
 
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)SessionUploadTask from background transfer daemon:%@ /* Error: Ran out of types for this method. */;
+- (id)ession(_:needNewBodyStreamForTask:)` delegate method. /* Error: Ran out of types for this method. */;
+- (void)ProxySession <%{public}@> error removing file at location of downloads directory:(id)arg1 %@;
+- (id)eData with nil draft version;
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id)t:withParams: /* Error: Ran out of types for this method. */;
+- (id)ated and indexed to index the values.";
+- (id)_doConstraintBasedPresentDividerDragResult:withParams: /* Error: Ran out of types for this method. */;
 - (void)¨Ùÿ;
 - (_Bool)«aÿÚ|F;
 
 // Remaining properties
-@property(readonly) CALayer *dpLayer;
 @property(readonly) NSDocumentRevisionsView *view;
 
 @end

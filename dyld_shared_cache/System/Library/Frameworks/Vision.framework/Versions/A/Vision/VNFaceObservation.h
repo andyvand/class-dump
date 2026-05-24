@@ -6,52 +6,11 @@
 
 #import <Vision/VNDetectedObjectObservation.h>
 
-@class NSArray, NSData, NSDictionary, NSNumber, VNFaceAttributes, VNFaceGaze, VNFaceLandmarks2D, VNFaceLandmarks3D, VNFaceLegacyFaceCore, VNFaceRegionMap, VNFaceScreenGaze, VNFaceSegments, VNFaceTorsoprint, VNFaceprint, VNRequestSpecifier, VNTorsoprint;
+@class VNFaceLandmarks2D;
 
 @interface VNFaceObservation : VNDetectedObjectObservation
 {
     VNFaceLandmarks2D *_cachedLandmarks;
-    struct os_unfair_lock_s _cachedLandmarksLock;
-    VNFaceLandmarks2D *_cachedLandmarks65;
-    struct os_unfair_lock_s _cachedLandmarks65Lock;
-    VNFaceLandmarks3D *_cachedLandmarks3d;
-    struct os_unfair_lock_s _cachedLandmarks3dLock;
-    VNFaceRegionMap *_faceRegionMap;
-    VNFaceAttributes *_faceAttributes;
-    VNFaceprint *_faceprint;
-    VNTorsoprint *_torsoprint;
-    VNFaceTorsoprint *_faceTorsoprint;
-    VNFaceSegments *_faceSegments;
-    float _landmarkScore;
-    _Bool _isBlinking;
-    float _blinkScore;
-    NSDictionary *_expressionsAndScores;
-    float _faceJunkinessIndex;
-    float _faceOrientationIndex;
-    struct _Geometry2D_rect2D_ _alignedBoundingBox;
-    struct CGRect _unalignedBoundingBox;
-    NSData *_landmarkPoints;
-    NSData *_landmarkPoints65;
-    unsigned long long _landmarksConstellation;
-    NSArray *_landmarkPrecisionEstimatesPerPoint;
-    NSData *_landmarkPoints3d;
-    NSData *_poseData;
-    VNRequestSpecifier *_poseOriginatingRequestSpecifier;
-    float _faceIdConfidence;
-    unsigned long long _faceId;
-    _Bool _boundingBoxAligned;
-    float _alignedRotationAngle;
-    NSNumber *_roll;
-    NSNumber *_yaw;
-    NSNumber *_pitch;
-    NSData *_alignedMeanShape;
-    NSNumber *_faceCaptureQuality;
-    VNRequestSpecifier *_faceCaptureQualityOriginatingRequestSpecifier;
-    VNRequestSpecifier *_landmarksOriginatingRequestSpecifier;
-    VNRequestSpecifier *_landmarks3DOriginatingRequestSpecifier;
-    VNFaceLegacyFaceCore *_legacyFaceCore;
-    VNFaceGaze *_gaze;
-    VNFaceScreenGaze *_faceScreenGaze;
 }
 
 + (id);
@@ -60,7 +19,7 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)setExcessiveIntervalHandler:(unsigned long long)arg1;
 + (id);
 + (id);
 + (_Bool);
@@ -70,7 +29,7 @@
 + (id);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (void);
 - (void);
@@ -83,6 +42,8 @@
 - (void);
 - (void);
 - (void);
+- (void)�
+;
 - (void);
 - (void);
 - (void);
@@ -94,13 +55,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct);
+- (struct);
 - (id);
 - (float);
 - (id);
@@ -142,7 +102,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (CDStruct_95fa7c00);
+- (CDStruct_95fa7c00);
 - (id);
 - (id);
 - (id);
@@ -150,57 +110,21 @@
 - (float);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)copyfileFlagsForSourceMode:(id)arg1 sourceDevID:targetDevID:rootDevID:replacePlaceholder: /* Error: Ran out of types for this method. */;
+- (id)$;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)r9;
 - (id)<const int, InternalObservedParabola>>>="__tree_"{__tree<std::__value_type<int, InternalObservedParabola>, std::__map_value_compare<int, std::pair<const int, InternalObservedParabola>, std::less<int>>, std::allocator<std::pair<const int, InternalObservedParabola>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
-- (id);
+- (id)VNVideoProcessorRequestConfigurationPopulating;
 - (void);
 - (void)for file '%s';
-- (void)stsExecution;
+- (void)requestsExecution;
 - (id);
 
 // Remaining properties
 @property(nonatomic) struct _Geometry2D_rect2D_ alignedBoundingBox; // @synthesize alignedBoundingBox=_alignedBoundingBox;
-@property(retain, nonatomic) NSData *alignedMeanShape; // @synthesize alignedMeanShape=_alignedMeanShape;
-@property(nonatomic) float alignedRotationAngle; // @synthesize alignedRotationAngle=_alignedRotationAngle;
-@property(readonly) float blinkScore;
-@property(readonly, nonatomic, getter=isBoundingBoxAligned) _Bool boundingBoxAligned; // @synthesize boundingBoxAligned=_boundingBoxAligned;
-@property(readonly, copy, nonatomic) NSDictionary *expressionsAndConfidence;
-@property(readonly, nonatomic) VNFaceAttributes *faceAttributes; // @synthesize faceAttributes=_faceAttributes;
-@property(readonly, nonatomic) NSNumber *faceCaptureQuality;
-@property(readonly, nonatomic) VNRequestSpecifier *faceCaptureQualityOriginatingRequestSpecifier; // @synthesize faceCaptureQualityOriginatingRequestSpecifier=_faceCaptureQualityOriginatingRequestSpecifier;
-@property(nonatomic) unsigned long long faceId; // @synthesize faceId=_faceId;
-@property(nonatomic) float faceIdConfidence; // @synthesize faceIdConfidence=_faceIdConfidence;
-@property(readonly, nonatomic, getter=faceJunkinessIndex) float faceJunkinessIndex;
-@property(readonly, nonatomic, getter=faceOrientationIndex) float faceOrientationIndex;
-@property(readonly, nonatomic) VNFaceRegionMap *faceRegionMap; // @synthesize faceRegionMap=_faceRegionMap;
-@property(readonly, nonatomic) VNFaceScreenGaze *faceScreenGaze; // @synthesize faceScreenGaze=_faceScreenGaze;
-@property(readonly, nonatomic) VNFaceSegments *faceSegments; // @synthesize faceSegments=_faceSegments;
-@property(readonly, nonatomic) VNFaceGaze *gaze; // @synthesize gaze=_gaze;
-@property(readonly, nonatomic) NSData *landmarkPoints; // @synthesize landmarkPoints=_landmarkPoints;
-@property(readonly, nonatomic) NSData *landmarkPoints3d; // @synthesize landmarkPoints3d=_landmarkPoints3d;
-@property(readonly, nonatomic) NSData *landmarkPoints65; // @synthesize landmarkPoints65=_landmarkPoints65;
-@property(retain, nonatomic) NSArray *landmarkPrecisionEstimatesPerPoint; // @synthesize landmarkPrecisionEstimatesPerPoint=_landmarkPrecisionEstimatesPerPoint;
-@property(readonly, nonatomic) VNFaceLandmarks2D *landmarks;
-@property(readonly, nonatomic) VNRequestSpecifier *landmarks3DOriginatingRequestSpecifier; // @synthesize landmarks3DOriginatingRequestSpecifier=_landmarks3DOriginatingRequestSpecifier;
-@property(readonly, nonatomic) VNFaceLandmarks3D *landmarks3d;
-@property(readonly, nonatomic) VNFaceLandmarks2D *landmarks65;
-@property(nonatomic) unsigned long long landmarksConstellation; // @synthesize landmarksConstellation=_landmarksConstellation;
-@property(readonly, nonatomic) VNRequestSpecifier *landmarksOriginatingRequestSpecifier; // @synthesize landmarksOriginatingRequestSpecifier=_landmarksOriginatingRequestSpecifier;
-@property(readonly, nonatomic) VNFaceLegacyFaceCore *legacyFaceCore; // @synthesize legacyFaceCore=_legacyFaceCore;
-@property(readonly, nonatomic) float nameConfidence;
-@property(readonly, nonatomic) NSNumber *pitch; // @synthesize pitch=_pitch;
-@property(readonly, nonatomic) CDStruct_95fa7c00 pose;
-@property(readonly, nonatomic) NSData *poseData; // @synthesize poseData=_poseData;
-@property(readonly, nonatomic) VNRequestSpecifier *poseOriginatingRequestSpecifier; // @synthesize poseOriginatingRequestSpecifier=_poseOriginatingRequestSpecifier;
-@property(readonly, nonatomic) struct poseQuaternion;
-@property(readonly, nonatomic) NSNumber *roll; // @synthesize roll=_roll;
-@property(readonly, nonatomic) struct CGRect unalignedBoundingBox; // @synthesize unalignedBoundingBox=_unalignedBoundingBox;
-@property(readonly, nonatomic) NSNumber *yaw; // @synthesize yaw=_yaw;
 
 @end
 

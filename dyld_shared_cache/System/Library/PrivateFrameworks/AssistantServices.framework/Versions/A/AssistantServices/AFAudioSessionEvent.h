@@ -7,31 +7,27 @@
 @interface AFAudioSessionEvent
 {
     long long _eventType;
-    long long _eventTime;
-    unsigned long long _hostTime;
 }
 
 + (id);
 + (_Bool);
 - (id);
+- (id)te",C,N,V_startDate;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (id);
-- (long long);
-- (_Bool);
-- (void);
+- (long long);
+- (_Bool)rol"16@"NSText"24;
+- (void)=;
 - (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long eventTime; // @synthesize eventTime=_eventTime;
 @property(readonly, nonatomic) long long eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) unsigned long long hostTime; // @synthesize hostTime=_hostTime;
 
 @end
 

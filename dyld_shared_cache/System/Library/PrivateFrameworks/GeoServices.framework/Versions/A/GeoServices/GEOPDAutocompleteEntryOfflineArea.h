@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOPDAutocompleteEntryOfflineArea
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _featureId;
-    GEOPDMapsIdentifier *_mapsId;
-    _Bool _availableForDownload;
-    struct {
-        unsigned int has_featureId:1;
-        unsigned int has_availableForDownload:1;
-    } _flags;
 }
 
-+ (_Bool)y:(id)arg1;
++ (_Bool)setHasWaypointCategory:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
@@ -30,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)pare to play AVAudioPlayer.;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -40,22 +33,16 @@
 - (void);
 - (void)rchRequest"b1"read_placeSearchResponse"b1"read_preferredSearchDisplayLocation"b1"wrote_anyField"b1};
 - (id)@"GEOMapRequest"32@0:(struct _NSZone *)arg1 8@?<v@?@"<GEOMapTransitLink>">16@?<v@?@"GEOMapRequest">24;
-- (id)ConfigKey;
+- (id)_abConfigKey;
 - (id)Tæ'É²è'(É²À÷'É²B(¬É²;
 - (id)ORDER BY access_times.timestamp, tiles.insert_timestamp ASC                LIMIT @limit    );;
 - (id)¤ý´þ´ýþþþþt;
-- (void)_N_123GeneratedMessageFactoryE;
+- (void)N13AddrObjGoogle8protobuf12_GLOBAL__N_123GeneratedMessageFactoryE;
 - (void)(gþþ;
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) _Bool availableForDownload;
-@property(nonatomic) unsigned long long featureId;
-@property(nonatomic) _Bool hasAvailableForDownload;
 @property(nonatomic) _Bool hasFeatureId;
-@property(readonly, nonatomic) _Bool hasMapsId;
-@property(retain, nonatomic) GEOPDMapsIdentifier *mapsId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

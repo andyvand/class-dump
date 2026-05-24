@@ -10,27 +10,20 @@ __attribute__((visibility("hidden")))
 @interface NSBarLayoutSection
 {
     NSArray *_items;
-    _Bool _needsRegionUpdate;
-    NSArray *_leadingItems;
-    NSArray *_centerItems;
-    NSArray *_trailingItems;
 }
 
 - (id);
 - (id);
 - (id);
+- (void)requires the com.apple.developer.media-asset-download entitlement;
 - (void);
-- (void);
-- (id);
+- (id)publishRecordedXPCEvent: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSArray *centerItems;
 @property(readonly, copy) NSArray *items;
-@property(readonly, copy) NSArray *leadingItems;
-@property(readonly, copy) NSArray *trailingItems;
 
 @end
 

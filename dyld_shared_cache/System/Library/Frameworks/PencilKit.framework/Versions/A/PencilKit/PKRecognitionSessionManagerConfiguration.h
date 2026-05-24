@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface PKRecognitionSessionManagerConfiguration
 {
     _Bool _sessionCaching;
-    _Bool _smartSelectionQuery;
-    NSUUID *_sessionCacheIdentifier;
 }
 
 + (id);
@@ -18,17 +14,15 @@
 + (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)_TtCC6Photos27PHDatabaseStatisticsTrackerP33_73DA1AED3537CD5AB4BDC028C1566D6D5State;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *sessionCacheIdentifier; // @synthesize sessionCacheIdentifier=_sessionCacheIdentifier;
 @property(nonatomic) _Bool sessionCaching; // @synthesize sessionCaching=_sessionCaching;
-@property(nonatomic) _Bool smartSelectionQuery; // @synthesize smartSelectionQuery=_smartSelectionQuery;
 
 @end
 

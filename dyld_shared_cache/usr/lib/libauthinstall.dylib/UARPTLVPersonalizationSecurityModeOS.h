@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (id);
-- (id);
+- (id)stopPictureInPictureButtonImageName;
 
 // Remaining properties
 @property(readonly) unsigned int securityMode; // @synthesize securityMode=_securityMode;

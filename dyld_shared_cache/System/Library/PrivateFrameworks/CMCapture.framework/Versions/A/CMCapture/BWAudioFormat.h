@@ -6,12 +6,9 @@
 
 #import <CMCapture/BWFormat.h>
 
-@class NSDictionary;
-
 @interface BWAudioFormat : BWFormat
 {
     struct opaqueCMFormatDescription *_audioFormatDescription;
-    NSDictionary *_avAudioSettings;
 }
 
 + (id);
@@ -23,12 +20,11 @@
 - (unsigned int);
 - (id);
 - (struct opaqueCMFormatDescription *);
-- (id);
+- (id)lation found, but eventIdentifier is nil.;
 - (struct opaqueCMFormatDescription *);
 - (id)4;
 
 // Remaining properties
-@property(readonly) NSDictionary *audioCompressionSBPOptions;
 @property(readonly) struct opaqueCMFormatDescription *audioFormatDescription;
 
 @end

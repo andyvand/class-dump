@@ -7,13 +7,11 @@
 @class INDateComponentsRange, INSpeakableString, NSNumber;
 
 @protocol INCreateAlarmIntentExport
-- (void)ary:(INDateComponentsRange *)arg1;
+- (void);
+- (void)_takeValuesFromDictionary:(INDateComponentsRange *)arg1;
 - (void)riginatingDeviceRapportMediaSystemIdentifier:(INSpeakableString *)arg1;
 
 // Remaining properties
-@property unsigned long long alarmRepeatScheduleOptions;
-@property(copy) INSpeakableString *label;
 @property(copy) NSNumber *relativeOffsetInMinutes;
-@property(copy) INDateComponentsRange *time;
 @end
 

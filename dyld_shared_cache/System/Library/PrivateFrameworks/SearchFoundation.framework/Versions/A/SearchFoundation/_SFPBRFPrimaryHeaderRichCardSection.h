@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFPrimaryHeaderRichCardSection
 {
     _Bool _addTint;
-    _SFPBRFTextProperty *_text_1;
-    _SFPBRFTextProperty *_text_2;
-    _SFPBRFTextProperty *_text_3;
-    _SFPBRFTextProperty *_text_4;
-    _SFPBRFVisualProperty *_thumbnail;
 }
 
 - (id);
@@ -25,35 +20,22 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)oundManager has draw page index %d (%d x %d reolution). Milliseconds since epoch:%llu. Time taken:%0.3f. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ܒ;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)rangeOfString:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)earchContextualThumbnails feature flag disabled. Not fetching CVTs.;
 - (id);
 - (id);
 - (id);
 - (void)ge"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool addTint; // @synthesize addTint=_addTint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2; // @synthesize text_2=_text_2;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_3; // @synthesize text_3=_text_3;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4; // @synthesize text_4=_text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end
 

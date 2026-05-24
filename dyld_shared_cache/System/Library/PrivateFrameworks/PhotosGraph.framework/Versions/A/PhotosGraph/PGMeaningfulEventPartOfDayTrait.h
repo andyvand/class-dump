@@ -9,18 +9,16 @@
 @interface PGMeaningfulEventPartOfDayTrait : PGMeaningfulEventTrait
 {
     unsigned long long _value;
-    unsigned long long _forbiddenValue;
 }
 
-- (id);
-- (id);
-- (unsigned long long);
+- (id)_windowElement;
+- (id)_windowDeminiaturizedNotification:(unsigned long long)arg1;
+- (unsigned long long)nEndPosition;
 - (id);
 - (_Bool);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long forbiddenValue; // @synthesize forbiddenValue=_forbiddenValue;
 @property(readonly, nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end

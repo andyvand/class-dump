@@ -11,7 +11,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)ost' of %@;
 
 @end
 

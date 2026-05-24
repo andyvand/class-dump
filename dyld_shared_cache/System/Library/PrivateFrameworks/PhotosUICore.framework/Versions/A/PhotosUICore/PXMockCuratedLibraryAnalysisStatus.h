@@ -12,11 +12,11 @@
 
 + (_Bool);
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)PromotedNonBundlePaidCodingKeys;
 - (void);
 
 @end

@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)kCPListImageRowItemRowElementSubtitleKey;
 + (id);
 + (void);
 - (unsigned long long);

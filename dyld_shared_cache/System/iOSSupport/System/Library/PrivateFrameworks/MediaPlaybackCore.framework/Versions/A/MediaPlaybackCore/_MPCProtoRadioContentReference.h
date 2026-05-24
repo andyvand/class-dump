@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MPCProtoRadioContentReferenceLibraryAlbumContentReference, _MPCProtoRadioContentReferenceLibraryArtistContentReference, _MPCProtoRadioContentReferenceLibraryItemContentReference, _MPCProtoRadioContentReferenceStoreContentReference;
+@class _MPCProtoRadioContentReferenceLibraryAlbumContentReference;
 
 __attribute__((visibility("hidden")))
 @interface _MPCProtoRadioContentReference
 {
     _MPCProtoRadioContentReferenceLibraryAlbumContentReference *_libraryAlbumContentReference;
-    _MPCProtoRadioContentReferenceLibraryArtistContentReference *_libraryArtistContentReference;
-    _MPCProtoRadioContentReferenceLibraryItemContentReference *_libraryItemContentReference;
-    _MPCProtoRadioContentReferenceStoreContentReference *_storeContentReference;
 }
 
 - (id);

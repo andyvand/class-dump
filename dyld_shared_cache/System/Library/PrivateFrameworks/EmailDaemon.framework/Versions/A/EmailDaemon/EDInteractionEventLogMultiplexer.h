@@ -12,11 +12,11 @@
 }
 
 - (void);
-- (id);
+- (id)AttributeEditorModelManager";
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)linkTest;
 - (void);
 - (void);
 - (void)IndexPersistence attachmentItemMetadataForAttachmentID:attachmentPersistentID:messagePersistentID:name:mailboxID:result:] /* Error: Ran out of types for this method. */;

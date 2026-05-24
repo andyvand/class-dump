@@ -5,5 +5,6 @@
 //
 
 @protocol BSInterfaceOrientationMapResolving
+- (long long)setSpeakableTextOverride:(unsigned long long)arg1;
 @end
 

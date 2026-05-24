@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCentralManager, FMQueueSynchronizer, FMTokenBucket, FMXPCServiceDescription, FMXPCSession, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue, SPCBPeripheralManagementXPCProtocol;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface SPCBPeripheralManager
 {
     _Bool _enableSystemWakes;
-    _Bool _forceUpdateCriteria;
-    CDUnknownBlockType _peripheralsUpdatedCallback;
-    NSObject<OS_dispatch_queue> *_queue;
-    FMQueueSynchronizer *_queueSynchronizer;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    FMTokenBucket *_tokenBucket;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    id <SPCBPeripheralManagementXPCProtocol> _proxy;
-    NSMutableDictionary *_sessionMetadata;
-    CBCentralManager *_centralManager;
-    NSMutableSet *_pendingPairingIdentifiers;
-    NSObject<OS_dispatch_queue> *_cbQueue;
 }
 
 + (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)lan!(b;
 - (void);
 - (id);
 - (void);
@@ -51,10 +38,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (id);
@@ -64,34 +51,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *cbQueue; // @synthesize cbQueue=_cbQueue;
-@property(retain, nonatomic) CBCentralManager *centralManager; // @synthesize centralManager=_centralManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableSystemWakes; // @synthesize enableSystemWakes=_enableSystemWakes;
-@property(nonatomic) _Bool forceUpdateCriteria; // @synthesize forceUpdateCriteria=_forceUpdateCriteria;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableSet *pendingPairingIdentifiers; // @synthesize pendingPairingIdentifiers=_pendingPairingIdentifiers;
-@property(copy, nonatomic) CDUnknownBlockType peripheralsUpdatedCallback; // @synthesize peripheralsUpdatedCallback=_peripheralsUpdatedCallback;
-@property(retain, nonatomic) id <SPCBPeripheralManagementXPCProtocol> proxy; // @synthesize proxy=_proxy;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) FMQueueSynchronizer *queueSynchronizer; // @synthesize queueSynchronizer=_queueSynchronizer;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(retain, nonatomic) NSMutableDictionary *sessionMetadata; // @synthesize sessionMetadata=_sessionMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) FMTokenBucket *tokenBucket; // @synthesize tokenBucket=_tokenBucket;
 
 @end
 

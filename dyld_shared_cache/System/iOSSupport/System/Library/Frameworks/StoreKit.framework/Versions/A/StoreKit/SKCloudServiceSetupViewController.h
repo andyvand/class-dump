@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SKCloudServiceSetupConfiguration, SKCloudServiceSetupReloadContext, UIAlertController, _MusicSubscriptionOfferViewController, _UIResilientRemoteViewContainerViewController;
-@protocol SKCloudServiceSetupViewControllerDelegate;
+@class SKCloudServiceSetupConfiguration, _MusicSubscriptionOfferViewController;
 
 @interface SKCloudServiceSetupViewController
 {
     _MusicSubscriptionOfferViewController *_subscriptionOfferViewController;
-    _UIResilientRemoteViewContainerViewController *_remoteViewContainerViewController;
-    _Bool _isRemoteViewControllerReady;
-    _Bool _isUnableToLoadRemoteViewController;
-    _Bool _isInlineOfferUnsupported;
-    _Bool _hasInitializedServiceViewController;
-    _Bool _isFullyAppeared;
-    SKCloudServiceSetupReloadContext *_activeCloudServiceSetupReloadContext;
-    CDUnknownBlockType _loadCompletionHandler;
-    UIAlertController *_alertController;
-    id <SKCloudServiceSetupViewControllerDelegate> _delegate;
-    SKCloudServiceSetupConfiguration *_configuration;
 }
 
+- (void)on for UUID ;
+- (void)bject;
+- (void)Dispatcher was found in the provided object graph;
 - (void);
+- (void)ld;
+- (void)n error occurred while writing bytes during serialization:(id)arg1;
+- (void)ctory;
+- (void)etries reached;
+- (void)tside the output directory;
+- (id)amsGrandSlamTokenID;
+- (void)alwaysIncludeMMeClientInfoAndDeviceHeaders;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)double value: /* Error: Ran out of types for this method. */;
+- (void)s not an <ACAccountStore>;
+- (void)ovider> to <Unstable.Accounts> has failed because <;
+- (id)ts.didChangeNotification;
+- (void)uiring assertion for background task;
+- (void)dating assertion for background task;
 - (void);
 - (_Bool);
 - (void);
@@ -59,14 +47,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) SKCloudServiceSetupConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SKCloudServiceSetupViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

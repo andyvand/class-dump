@@ -5,5 +5,8 @@
 //
 
 @protocol MPMusicPlayerControllerServer
+- (void);
+- (void)8P;
+- (void)';
 @end
 

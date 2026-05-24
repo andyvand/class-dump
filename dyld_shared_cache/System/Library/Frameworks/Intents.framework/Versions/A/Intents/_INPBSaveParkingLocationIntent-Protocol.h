@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata, _INPBLocation, _INPBString;
+@class _INPBIntentMetadata;
 
 @protocol _INPBSaveParkingLocationIntent
-- (_Bool)eTemperatureSetting;
+- (void);
+- (_Bool)hasRelativeTemperatureSetting;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasParkingLocation;
-@property(readonly, nonatomic) _Bool hasParkingNote;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBLocation *parkingLocation;
-@property(retain, nonatomic) _INPBString *parkingNote;
 @end
 

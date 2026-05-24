@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)ayerView;
+- (Class)URLSession:task:_conditionalRequirementsChanged: /* Error: Ran out of types for this method. */;
+- (id)URLSession:(SEL)arg1 dataTask:(id)arg2 didReceiveResponse:(id)arg3 completionHandler: /* Error: Ran out of types for this method. */;
+- (id)URLSession:(SEL)arg1 dataTask:(id)arg2 didReceiveData: /* Error: Ran out of types for this method. */;
+- (id)URLSession:(SEL)arg1 dataTask:_didReceiveData:completionHandler: /* Error: Ran out of types for this method. */;
+- (Class)URLQueryAllowedCharacterSet;
+- (NSString *);
+- (_Bool)xonomyNetworkId PFSceneTaxonomyNodeNetworkId(PFSceneTaxonomyNodeRef _Nonnull);
+- (struct _NSZone *)AVSecondScreenPlayerLayerView;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

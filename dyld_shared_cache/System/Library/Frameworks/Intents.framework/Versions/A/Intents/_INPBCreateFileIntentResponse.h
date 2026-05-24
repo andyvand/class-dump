@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBString;
+@class _INPBString;
 
 @interface _INPBCreateFileIntentResponse
 {
     CDStruct_be739ab4 _has;
-    _Bool _overwrite;
-    _Bool _success;
-    int _entityType;
-    _INPBString *_destinationName;
-    _INPBString *_entityName;
 }
 
 + (_Bool);
@@ -27,44 +22,28 @@
 - (id);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool);
+- (void);
+- (id)__swift5_reflstr__TEXT;
 - (void);
 - (id);
-- (void);
-- (id);
 - (_Bool);
-- (void);
+- (void);
 - (int);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)l;
 - (void);
 - (_Bool);
-- (void);
+- (void)blic}s:(id)arg1:%d:Core WiFi Mobile Asset Catalog XML Data %@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool)callTypes;
-- (void)oodPressureDiastolic;
-- (void)ompletion:(_Bool)arg1;
+- (void)bloodPressureDiastolic;
+- (void)provideRecipientOptionsForSearchCallHistory:(_Bool)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)@³;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBString *destinationName; // @synthesize destinationName=_destinationName;
-@property(retain, nonatomic) _INPBString *entityName; // @synthesize entityName=_entityName;
-@property(nonatomic) int entityType; // @synthesize entityType=_entityType;
-@property(readonly, nonatomic) _Bool hasDestinationName;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(nonatomic) _Bool hasOverwrite;
-@property(nonatomic) _Bool hasSuccess;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool overwrite; // @synthesize overwrite=_overwrite;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMSystemEnergySaverDeclaration_RepeatingPowerItem : CEMPayloadBase
 {
     NSString *_payloadEventtype;
-    NSNumber *_payloadWeekdays;
-    NSNumber *_payloadTime;
 }
 
 + (id);
@@ -25,14 +23,12 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)es, queuing updates.;
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadEventtype; // @synthesize payloadEventtype=_payloadEventtype;
-@property(copy, nonatomic) NSNumber *payloadTime; // @synthesize payloadTime=_payloadTime;
-@property(copy, nonatomic) NSNumber *payloadWeekdays; // @synthesize payloadWeekdays=_payloadWeekdays;
 
 @end
 

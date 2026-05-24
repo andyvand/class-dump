@@ -12,11 +12,11 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void)TimeInterval: /* Error: Ran out of types for this method. */;
+- (void)stringForTimeInterval: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *customActions; // @synthesize customActions=_customActions;

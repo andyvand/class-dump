@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSDictionary, NSMutableDictionary, NSNumber, NSRecursiveLock, NSSet, NSString, NSUUID;
+@class NSMutableDictionary, NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPHomeDataSource
 {
     NSNumber *_fabricID;
-    HMDHome *_home;
-    NSMutableDictionary *_pendingKeyValueStore;
-    unsigned long long _pendingKeyValueStoreTransactionsCount;
-    NSRecursiveLock *_lock;
 }
 
 + (id)îB;
-- (void);
+- (void)_droppedPinFloorOrdinal;
+- (id)xz;
+- (void)network connection;
+- (void)t have authorisation for Contacts;
 - (id);
-- (void);
-- (void);
+- (unsigned long long).;
+- (id)/;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -42,21 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *allNodeIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSNumber *fabricID; // @synthesize fabricID=_fabricID;
-@property(readonly, copy, nonatomic) NSUUID *fabricUUID;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, copy, nonatomic) NSDictionary *keyValueStore;
-@property(readonly, nonatomic) NSRecursiveLock *lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) NSMutableDictionary *pendingKeyValueStore; // @synthesize pendingKeyValueStore=_pendingKeyValueStore;
-@property(nonatomic) unsigned long long pendingKeyValueStoreTransactionsCount; // @synthesize pendingKeyValueStoreTransactionsCount=_pendingKeyValueStoreTransactionsCount;
-@property(readonly) Class superclass;
 
 @end
 

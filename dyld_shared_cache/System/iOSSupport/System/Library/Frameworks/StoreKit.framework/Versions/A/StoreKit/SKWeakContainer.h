@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface SKWeakContainer
 {
     _Bool _wasOnScreen;
-    UIView *_scrollingView;
-    UIView *_trackingView;
 }
 
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)tent with error:(id)arg1;
+- (id)does not have page metrics data.;
+- (void)ardOnErrorDecodable.swift;
+- (id)0;
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak UIView *scrollingView; // @synthesize scrollingView=_scrollingView;
-@property(nonatomic) __weak UIView *trackingView; // @synthesize trackingView=_trackingView;
-@property(nonatomic) _Bool wasOnScreen; // @synthesize wasOnScreen=_wasOnScreen;
 
 @end
 

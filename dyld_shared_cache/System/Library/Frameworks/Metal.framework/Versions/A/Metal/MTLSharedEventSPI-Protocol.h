@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) IOSurfaceSharedEvent *IOSurfaceSharedEvent;
-@property(readonly) _Bool supportsRollback;
 @end
 

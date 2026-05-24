@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorTrustKitSpamReport, NSNumber, NSString;
+@class BlastDoorTrustKitSpamReport, NSString;
 
 @protocol IMJunkChatCommandProcessingParameter
+- (BlastDoorTrustKitSpamReport *);
+- (NSString *);
+- (_Bool)lock_invoke;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *GUID;
-@property(readonly, nonatomic) long long action;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(readonly, nonatomic) _Bool isFromStorage;
-@property(readonly, nonatomic) _Bool isLastFromStorage;
-@property(copy, nonatomic) NSString *replicationSourceServiceName;
-@property(readonly, nonatomic) NSNumber *timestamp;
-@property(readonly, nonatomic) BlastDoorTrustKitSpamReport *trustKitSpamReport;
 @end
 

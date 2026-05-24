@@ -4,42 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAPConnection, IMAPMailbox, IMAPNetworkTaskHandler, NSArray, NSString;
+@class IMAPConnection, IMAPNetworkTaskHandler;
 
 @interface IMAPServerInterface
 {
     IMAPNetworkTaskHandler *_networkTaskHandler;
-    IMAPConnection *_connection;
-    NSString *_mailboxName;
 }
 
-- (void);
+- (void)QhE;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (id)*;
 - (id);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id)H;
+- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -48,35 +35,33 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
+- (id)ationship name for the inverse relationship %@;
+- (void);
+- (void)provider;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSArray *capabilities;
 @property(readonly, nonatomic) IMAPConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasValidConnection;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *mailboxName; // @synthesize mailboxName=_mailboxName;
-@property(readonly) IMAPNetworkTaskHandler *networkTaskHandler; // @synthesize networkTaskHandler=_networkTaskHandler;
-@property(readonly) IMAPMailbox *selectedIMAPMailbox;
-@property(readonly, copy, nonatomic) NSString *separatorChar;
-@property(readonly) Class superclass;
 
 @end
 

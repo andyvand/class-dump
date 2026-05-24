@@ -10,28 +10,26 @@
 @interface DOCKeyboardFocusManager
 {
     id <DOCKeyboardFocusable> _currentlyFocused;
-    _Bool _externalFirstResponderInFlight;
-    NSPointerArray *_allKeyboardFocusable;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);
 + (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)78;
 - (void);
 - (_Bool);
 - (id);
@@ -39,7 +37,6 @@
 
 // Remaining properties
 @property(retain) NSPointerArray *allKeyboardFocusable; // @synthesize allKeyboardFocusable=_allKeyboardFocusable;
-@property(nonatomic) _Bool externalFirstResponderInFlight; // @synthesize externalFirstResponderInFlight=_externalFirstResponderInFlight;
 
 @end
 

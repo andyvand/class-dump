@@ -4,69 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EDMessageQueryEvaluator, EDPersistenceHookRegistry, EDUpdateThrottler, EFDebouncer, EFListStateCapturer, EFManualCancelationToken, EFMutableInt64Set, EFStoppableScheduler, EMMailboxScope, EMObjectID, EMQuery, NSMutableDictionary, NSMutableSet, NSPredicate, NSString, NSTimer, _EDLocalCountVerifier;
-@protocol EFAssertableScheduler, EMMessageRepositoryCountQueryObserver_xpc;
+@class NSMutableDictionary, NSString;
 
 @interface EDMessageCountQueryHandler
 {
     NSMutableDictionary *_serverCounts;
-    NSMutableSet *_mailboxesBeingSynced;
-    long long _resyncDatabaseGeneration;
-    NSTimer *_mailboxSyncTimer;
-    EMObjectID *_mailboxObserverID;
-    EMQuery *_expandedQuery;
-    EFMutableInt64Set *_seenMessageIDs;
-    EFMutableInt64Set *_newMessageIDs;
-    long long _minimumRecalculationGeneration;
-    unsigned long long _recalculationPending;
-    double _recalculationDelay;
-    struct EFAtomicObject _atomicQueryDescription;
-    struct EFAtomicObject _atomicMailboxScopeDescription;
-    struct os_unfair_lock_s _seenMessageIDsLock;
-    struct os_unfair_lock_s _expandedQueryLock;
-    struct os_unfair_lock_s _recalculationLock;
-    EFStoppableScheduler<EFAssertableScheduler> *_scheduler;
-    EMQuery *_query;
-    NSPredicate *_predicateIgnoringFlags;
-    EMMailboxScope *_serverCountMailboxScope;
-    EDMessageQueryEvaluator *_queryEvaluator;
-    id <EMMessageRepositoryCountQueryObserver_xpc> _resultsObserver;
-    EDMessagePersistence *_messagePersistence;
-    EDPersistenceHookRegistry *_hookRegistry;
-    EFManualCancelationToken *_cancelationToken;
-    EDUpdateThrottler *_updateThrottler;
-    EFListStateCapturer *_stateCapturer;
-    EFDebouncer *_refireDebouncer;
-    _EDLocalCountVerifier *_localCountVerifier;
-    NSString *_pendingFlagChangesKey;
-    NSString *_pendingCategorizationChangesKey;
-    long long _localCount;
 }
 
 + (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)logDonePreLoadingThumbnailForPreLoadingTask: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)hangeRelativeVolume:(id)arg1 %s volume; senderSession NOT active, DROPPING.
+;
+- (void)epp_RelinquishResource;
+- (id);
+- (void);
 - (void);
-- (void);
+- (void)eSizeInMB:(id)arg1 logLifespanInDays:(id)arg2;
 - (void);
 - (_Bool);
 - (void);
@@ -77,14 +46,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *logLabel;
-@property(readonly) Class superclass;
 
 @end
 

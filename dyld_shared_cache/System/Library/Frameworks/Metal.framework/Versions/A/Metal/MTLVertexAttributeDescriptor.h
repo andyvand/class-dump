@@ -15,9 +15,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bufferIndex; // @dynamic bufferIndex;
 @property(nonatomic) unsigned long long format; // @dynamic format;
-@property(nonatomic) unsigned long long offset; // @dynamic offset;
 
 @end
 

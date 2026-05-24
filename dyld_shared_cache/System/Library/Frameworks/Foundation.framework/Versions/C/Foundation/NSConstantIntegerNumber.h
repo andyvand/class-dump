@@ -9,21 +9,20 @@
 @interface NSConstantIntegerNumber : NSNumber
 {
     const char *_encoding;
-    long long _value;
 }
 
 + (id);
 + (_Bool);
 + (id)bí;
 - (CDStruct_5fe7aead);
-- (unsigned long long);
+- (unsigned long long)h";
 - (void);
 - (oneway void);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (long long);
+- (long long);
 - (long long);
 - (unsigned int);
 - (double);
@@ -31,7 +30,7 @@
 - (unsigned short);
 - (_Bool);
 - (void);
-- (id)ason;
+- (id)terminationReason;
 - (float)$;
 - (void);
 - (short);

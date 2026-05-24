@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)sbook.peerpayment.in.topup;
 - (long long);
 - (_Bool);
 - (id);
@@ -24,7 +24,6 @@
 - (void)stP;
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSDictionary *urlToTransferGuids;
 
 @end

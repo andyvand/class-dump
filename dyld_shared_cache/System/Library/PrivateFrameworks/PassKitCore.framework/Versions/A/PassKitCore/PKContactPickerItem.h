@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSString;
+@class NSMutableSet, NSString;
 
 @interface PKContactPickerItem
 {
     NSMutableSet *_acceptedValues;
-    NSString *_displayName;
-    NSString *_submissionValue;
-    NSArray *_alternativeAcceptedValues;
 }
 
 + (_Bool)î%Ð1Â0@ù
 × ;
 - (_Bool);
 - (id);
+- (id)Q	;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ICANotificationTypeScannerSessionClosed;
 - (void);
-- (id)pendingURLs;
-- (void)Number;
+- (id)_pendingURLs;
+- (void)shinkansenSeatNumber;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alternativeAcceptedValues; // @synthesize alternativeAcceptedValues=_alternativeAcceptedValues;
 @property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *submissionValue; // @synthesize submissionValue=_submissionValue;
 
 @end
 

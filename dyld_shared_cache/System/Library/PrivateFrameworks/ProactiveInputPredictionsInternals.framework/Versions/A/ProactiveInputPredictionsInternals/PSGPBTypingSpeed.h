@@ -9,20 +9,6 @@
 @interface PSGPBTypingSpeed
 {
     NSString *_localeIdentifier;
-    int _messageDurationMilliseconds;
-    int _messageLength;
-    int _messageWords;
-    NSString *_wbExperimentId;
-    NSString *_wbTreatmentId;
-    NSString *_wbTreatmentName;
-    NSString *_zkwExperimentId;
-    NSString *_zkwTreatmentId;
-    NSString *_zkwTreatmentName;
-    struct {
-        unsigned int messageDurationMilliseconds:1;
-        unsigned int messageLength:1;
-        unsigned int messageWords:1;
-    } _has;
 }
 
 - (id);
@@ -41,8 +27,8 @@
 - (void);
 - (void);
 - (int);
+- (int);
 - (int);
-- (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,46 +36,27 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)CKDAssetTokenRequest;
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)b;
 - (id);
 - (id);
-- (void);
+- (void)@0:8i16{_NSRange=QQ}20{_NSRange=QQ}36B52B56@60B68 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocaleIdentifier;
-@property(nonatomic) _Bool hasMessageDurationMilliseconds;
-@property(nonatomic) _Bool hasMessageLength;
-@property(nonatomic) _Bool hasMessageWords;
-@property(readonly, nonatomic) _Bool hasWbExperimentId;
-@property(readonly, nonatomic) _Bool hasWbTreatmentId;
-@property(readonly, nonatomic) _Bool hasWbTreatmentName;
 @property(readonly, nonatomic) _Bool hasZkwExperimentId;
-@property(readonly, nonatomic) _Bool hasZkwTreatmentId;
-@property(readonly, nonatomic) _Bool hasZkwTreatmentName;
-@property(retain, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(nonatomic) int messageDurationMilliseconds; // @synthesize messageDurationMilliseconds=_messageDurationMilliseconds;
-@property(nonatomic) int messageLength; // @synthesize messageLength=_messageLength;
-@property(nonatomic) int messageWords; // @synthesize messageWords=_messageWords;
-@property(retain, nonatomic) NSString *wbExperimentId; // @synthesize wbExperimentId=_wbExperimentId;
-@property(retain, nonatomic) NSString *wbTreatmentId; // @synthesize wbTreatmentId=_wbTreatmentId;
-@property(retain, nonatomic) NSString *wbTreatmentName; // @synthesize wbTreatmentName=_wbTreatmentName;
-@property(retain, nonatomic) NSString *zkwExperimentId; // @synthesize zkwExperimentId=_zkwExperimentId;
-@property(retain, nonatomic) NSString *zkwTreatmentId; // @synthesize zkwTreatmentId=_zkwTreatmentId;
-@property(retain, nonatomic) NSString *zkwTreatmentName; // @synthesize zkwTreatmentName=_zkwTreatmentName;
 
 @end
 

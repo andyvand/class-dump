@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMMultiQueueItem
 {
     id _block;
-    NSString *_GUID;
-    NSString *_describer;
 }
 
 - (id);
-- (id);
+- (id)@0:(id)arg1 8@16@24d32;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
 @property(readonly, nonatomic) id block; // @synthesize block=_block;
-@property(readonly, nonatomic) NSString *describer; // @synthesize describer=_describer;
 
 @end
 

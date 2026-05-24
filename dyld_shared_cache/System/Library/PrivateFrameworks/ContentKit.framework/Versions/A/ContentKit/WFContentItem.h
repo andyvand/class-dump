@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSUUID, WFContentAttributionSet, WFType;
-
 @interface WFContentItem
 {
     struct os_unfair_lock_s _propertyCachingLock;
-    NSUUID *_cachingIdentifier;
-    WFContentAttributionSet *_attributionSet;
-    NSMutableDictionary *_representationsByType;
-    NSMutableDictionary *_subItemsByClass;
-    WFType *_internalRepresentationType;
 }
 
 + (long long);
@@ -22,13 +15,14 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)h;
 + (_Bool);
-+ (id);
++ (id)<;
 + (void);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -37,6 +31,12 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)8	;
 + (id);
 + (id);
 + (id);
@@ -45,14 +45,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)=;
 + (id);
 + (id);
 + (id);
@@ -68,14 +61,14 @@
 + (void);
 + (id);
 + (_Bool);
-+ (id);
++ (id)ц-;
 + (CDUnknownBlockType);
 + (_Bool);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);

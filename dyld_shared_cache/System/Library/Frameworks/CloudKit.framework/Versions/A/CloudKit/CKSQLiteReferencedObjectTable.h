@@ -11,16 +11,16 @@
     _Bool _isDeletingReferent;
 }
 
+- (id)B;
+- (void);
+- (id));
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)Q;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);

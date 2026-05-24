@@ -6,31 +6,22 @@
 
 #import <CloudKitDaemon/CKDOperation.h>
 
-@class CKDPResponseOperationResult, NSMutableDictionary;
-
 @interface CKDUpdateDeviceCapabilitiesOperation : CKDOperation
 {
     _Bool _needsSynchronizeSigningIdentities;
-    _Bool _didSynchronizeSigningIdentities;
-    CDUnknownBlockType _updateDeviceCapabilitiesCompletionBlock;
-    CDUnknownBlockType _perZoneUsageCompletionBlock;
-    CDUnknownBlockType _perShareUsageCompletionBlock;
-    CKDPResponseOperationResult *_deviceCapabiltiesUpdateResult;
-    NSMutableDictionary *_zoneUsageResults;
-    NSMutableDictionary *_shareUsageResults;
 }
 
-+ (id);
++ (id)setTotalCca80to85:(unsigned long long)arg1;
 - (id);
-- (id);
+- (id)&;
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@9?;
+- (void)h;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -39,34 +30,26 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void);
+- (id)eady exists;
+- (_Bool)>;
 - (_Bool);
-- (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)onFlagsForConversationID:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (int);
+- (int)*;
 - (id)KDPZoneDeleteResponse";
 - (void)òØô;
 - (_Bool)ontainer:(int)arg1 %@;
 - (id)ö;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPResponseOperationResult *deviceCapabiltiesUpdateResult; // @synthesize deviceCapabiltiesUpdateResult=_deviceCapabiltiesUpdateResult;
-@property(nonatomic) _Bool didSynchronizeSigningIdentities; // @synthesize didSynchronizeSigningIdentities=_didSynchronizeSigningIdentities;
-@property(nonatomic) _Bool needsSynchronizeSigningIdentities; // @synthesize needsSynchronizeSigningIdentities=_needsSynchronizeSigningIdentities;
-@property(copy, nonatomic) CDUnknownBlockType perShareUsageCompletionBlock; // @synthesize perShareUsageCompletionBlock=_perShareUsageCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perZoneUsageCompletionBlock; // @synthesize perZoneUsageCompletionBlock=_perZoneUsageCompletionBlock;
-@property(retain, nonatomic) NSMutableDictionary *shareUsageResults; // @synthesize shareUsageResults=_shareUsageResults;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(copy, nonatomic) CDUnknownBlockType updateDeviceCapabilitiesCompletionBlock; // @synthesize updateDeviceCapabilitiesCompletionBlock=_updateDeviceCapabilitiesCompletionBlock;
-@property(retain, nonatomic) NSMutableDictionary *zoneUsageResults; // @synthesize zoneUsageResults=_zoneUsageResults;
 
 @end
 

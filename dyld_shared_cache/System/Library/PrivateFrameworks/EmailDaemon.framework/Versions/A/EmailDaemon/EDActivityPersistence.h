@@ -10,16 +10,12 @@
 @interface EDActivityPersistence
 {
     NSMutableDictionary *_currentActivities;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_donatedActivities;
-    struct os_unfair_lock_s _donationLock;
-    id <EDActivityHookResponder> _activityHookResponder;
 }
 
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);

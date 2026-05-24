@@ -12,16 +12,16 @@
 }
 
 + (void);
++ (void)*1;
++ (id);
 + (void);
-+ (id);
-+ (void);
-- (void *);
-- (struct ILMBPMRInstrument *);
+- (void *)/AppleInternal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparfoundation/FeldsparFoundation/Promises/NFPromise.m;
+- (struct ILMBPMRInstrument *)ontext:(id)arg1 ]_block_invoke;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)roupsDictionaries;
+- (id)_resetObjectsAndGroupsDictionaries;
 
 @end
 

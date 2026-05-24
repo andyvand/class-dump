@@ -8,23 +8,16 @@ __attribute__((visibility("hidden")))
 @interface GEOGloriaTessellationOptions
 {
     CDStruct_9f2792e4 _zoomLevels;
-    int _encodingType;
-    unsigned int _precisionLevel;
-    int _type;
-    struct {
-        unsigned int has_encodingType:1;
-        unsigned int has_precisionLevel:1;
-    } _flags;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)ckTimerObserver"16@"AFClockTimerSnapshot"24@"AFClockTimerSnapshot"32;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)ncludeSuggestionsOnly:(struct _NSZone *)arg1;
-- (id)sponse;
+- (id)setIncludeSuggestionsOnly:(struct _NSZone *)arg1;
+- (id)GEOLocationShiftingEnabledResponse;
 - (id)fewer than 2 points. Not reporting this road to the path-codec library. %{private}@ | %{private}@;
 
 @end

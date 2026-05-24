@@ -5,30 +5,23 @@
 //
 
 @class NSString;
-@protocol IMDaemonListenerProtocol;
 
 @interface IMDClientRequestContext
 {
     NSString *_listenerID;
-    unsigned long long _capabilities;
-    id <IMDaemonListenerProtocol> _replyProxy;
-    CDStruct_4c969caf _auditToken;
 }
 
-+ (void);
++ (void)Q?;
 + (id);
-- (id);
-- (CDStruct_4c969caf);
-- (id);
+- (id)internalVoicesIncludingSiri:completionHandler: /* Error: Ran out of types for this method. */;
+- (CDStruct_6ad76789);
+- (id)pg_query__table_sample_clause__get_packed_size;
 - (id);
 - (unsigned long long);
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, nonatomic) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
 @property(readonly, copy, nonatomic) NSString *listenerID; // @synthesize listenerID=_listenerID;
-@property(readonly, nonatomic) id <IMDaemonListenerProtocol> replyProxy; // @synthesize replyProxy=_replyProxy;
 
 @end
 

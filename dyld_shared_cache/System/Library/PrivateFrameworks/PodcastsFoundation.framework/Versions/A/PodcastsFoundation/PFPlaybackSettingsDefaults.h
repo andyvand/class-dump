@@ -13,11 +13,10 @@
 - (void);
 - (float);
 - (_Bool);
-- (id);
+- (id)0;
 - (void)_þ$yÈ$$Gµ$ySayACGGSgG;
 
 // Remaining properties
-@property(nonatomic) _Bool enhanceDialogueEnabledGlobalValue;
 @property(nonatomic) float playbackRateGlobalValue;
 
 @end

@@ -6,35 +6,27 @@
 
 #import <TrialServer/TRIActivateTreatmentBaseTask.h>
 
-@class NSArray, NSDate, NSDictionary, NSString, TRIMetric, TRITaskCapabilityModifier, TRITaskOptions;
-@protocol TRIFactorPackSetId, TRITaskQueueStateProviding;
+@class TRIMetric;
 
 @interface TRIActivateTreatmentTask : TRIActivateTreatmentBaseTask
 {
     TRIMetric *_treatmentMetric;
-    TRITaskCapabilityModifier *_capabilityModifier;
-    TRITaskOptions *_taskOptions;
-    _Bool wasDeferred;
-    _Bool _testingIgnoreDependencies;
-    int retryCount;
-    NSString<TRIFactorPackSetId> *_factorPackSetId;
-    NSDictionary *_counterfactualTreatments;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)defaultStateForFeature:(id)arg1 domain:(id)arg2;
 + (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)initWithScreenSize:screenScale:normalizedTimeRect:parallaxPadding: /* Error: Ran out of types for this method. */;
+- (void)initWithPointSpaceSortedTimeRects:(_Bool)arg1 screenScale: /* Error: Ran out of types for this method. */;
+- (id)dictionaryWithContentsOfURL:error: /* Error: Ran out of types for this method. */;
+- (id)bitRateController;
+- (id)archivedDataWithRootObject:(id)arg1 requiringSecureCoding:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (id)ailed to get the current controller with error:(id)arg1 %@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id);
 - (id);
 - (void);
 - (_Bool);
@@ -42,31 +34,14 @@
 - (id);
 - (void);
 - (_Bool)Changing TRIFetchTreatmentTask to require inexpensive networking since %@ does not support expensive networking;
-- (unsigned long long)Deployment;
+- (unsigned long long)FetchRolloutNotificationWithLatestDeployment;
 - (id).read-write;
 - (int)el.namespaceName;
 - (void)owid ASC,     n.rowid ASC;;
 - (int)T,     taskId INTEGER NOT NULL,     dependentTaskId INTEGER NOT NULL,     UNIQUE (taskId, dependentTaskId),     FOREIGN KEY (taskId) REFERENCES tasks (rowid),     FOREIGN KEY (dependentTaskId) REFERENCES tasks (rowid) );;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *counterfactualTreatments; // @synthesize counterfactualTreatments=_counterfactualTreatments;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString<TRIFactorPackSetId> *factorPackSetId; // @synthesize factorPackSetId=_factorPackSetId;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int retryCount; // @synthesize retryCount;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
 @property(nonatomic) _Bool testingIgnoreDependencies; // @synthesize testingIgnoreDependencies=_testingIgnoreDependencies;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

@@ -11,15 +11,15 @@
     Class _viewControllerClass;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (void)IMDaemonManageStatusProtocol;
+- (_Bool)I: /* Error: Ran out of types for this method. */;
+- (void)ate a message;
+- (void)setStatusSubscriberCarrierNetwork: /* Error: Ran out of types for this method. */;
+- (id)ngePlaybackPositionCommand;
 - (id)að!Dùñbð1Â0@ù
 × ;
 - (_Bool)Result";
-- (Class)sed;
+- (Class)allowsUpdatesWhilePrimaryButtonIsPressed;
 - (_Bool);
 - (void)0Cc;
 

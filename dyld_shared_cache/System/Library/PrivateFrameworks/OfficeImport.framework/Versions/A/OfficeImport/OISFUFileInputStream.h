@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface OISFUFileInputStream
 {
     int mFd;
-    _Bool mIsCachingDisabled;
-    long long mStartOffset;
-    long long mCurrentOffset;
-    long long mEndOffset;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)A9;
 - (void);
 - (id);
 - (void);
@@ -30,13 +24,7 @@ __attribute__((visibility("hidden")))
 - (long long)¬;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

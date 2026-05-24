@@ -13,7 +13,7 @@
 + (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (struct CGSize);
 - (_Bool);

@@ -11,7 +11,6 @@
 @interface TLKTableRow : TLKObject
 {
     _Bool _isSubHeader;
-    NSArray *_data;
 }
 
 - (_Bool);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *data; // @synthesize data=_data;
-@property(nonatomic) _Bool isSubHeader; // @synthesize isSubHeader=_isSubHeader;
 
 @end
 

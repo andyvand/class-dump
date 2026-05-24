@@ -16,7 +16,7 @@
 + (id);
 - (id);
 - (id);
-- (void);
+- (void)ngleBandAWDLMode:(id)arg1 knownIdentity:isUnsupportedApplicationLabel:flags: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 

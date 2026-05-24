@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage;
-
 @interface SFEntropyBarView
 {
     _Bool _isBezeled;
-    double _minimum;
-    double _maximum;
-    unsigned long long _controlTint;
-    NSImage *_gradient;
-    double _value;
 }
 
+- (void)*;
+- (_Bool)ndlerCryptoKitP384;
 - (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ed, ignoring;
 - (void);
 - (void);
-- (void);
+- (void)public}d,timeSinceStart,%{public}.3lf;
 - (double);
 - (void);
 - (void);
-- (double);
-- (id);
-- (double);
+- (double)created.;
+- (id)totalStagerDetermineJobsFinished;
+- (double)__TEXT;
 
 @end
 

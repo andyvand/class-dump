@@ -9,18 +9,16 @@
 @interface SKStorefront
 {
     NSString *_countryCode;
-    NSString *_identifier;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)UIDocumentBrowserRecentDocumentContentTypes;
+- (id)FLNotificationOptionSpringboardAlertActionOnly;
+- (id)setIsObservingModel: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _MNMapPointWithIndex
 {
     _Bool _isStartOfSegment;
-    _Bool _isPolylineA;
-    _Bool _isFlipped;
-    unsigned long long _index;
-    Matrix_2bdd42a3 _point;
-    LineSegment_ede69d4d _segment;
 }
 
 - (void);
@@ -24,18 +19,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (LineSegment_ede69d4d);
-- (Matrix_2bdd42a3);
+- (LineSegment_dd02afb9);
+- (Matrix_c5a6041f);
 - (unsigned long long);
 - (void)to off route location:(unsigned long long)arg1 %f, %f;
 
 // Remaining properties
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(nonatomic) _Bool isFlipped; // @synthesize isFlipped=_isFlipped;
-@property(nonatomic) _Bool isPolylineA; // @synthesize isPolylineA=_isPolylineA;
-@property(nonatomic) _Bool isStartOfSegment; // @synthesize isStartOfSegment=_isStartOfSegment;
-@property(nonatomic) Matrix_2bdd42a3 point; // @synthesize point=_point;
-@property(nonatomic) LineSegment_ede69d4d segment; // @synthesize segment=_segment;
+@property(nonatomic) Matrix_c5a6041f point; // @synthesize point=_point;
 
 @end
 

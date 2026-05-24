@@ -15,20 +15,20 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (void);
-- (long long);
+- (void)chatsFilteredUsingPredicate:(id)arg1 sortedUsingLastMessageDateAscending:olderThan:limit: /* Error: Ran out of types for this method. */;
+- (long long)ber",&,N,V_subscriptionCreatedOverride;
 - (id);
 - (long long);
 - (long long);
-- (id);
-- (id);
+- (id);
+- (id)eded).;
 - (long long);
 - (id)1Â0@ù
 × ;
 - (void)Á!ä@ù±`°1Â0@ù
 × ;
-- (id)EventsBySessionID: /* Error: Ran out of types for this method. */;
-- (id)ingInteraction;
+- (id)setLatestMoveDragEventsBySessionID: /* Error: Ran out of types for this method. */;
+- (id)_UIWTCProofreadingInteraction;
 - (id)xisting content view directly, which is expensive. %@ Make a symbolic breakpoint at UIContentConfigurationAlertForReplacedContentView to catch this in the debugger.
 %@:(id)arg1 %@;
 Existing content configuration:%@;
@@ -36,15 +36,7 @@ New content configuration:%@ /* Error: Ran out of types for this method. */;
 - (void)>_;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cachedStringValue; // @synthesize cachedStringValue=_cachedStringValue;
 @property(retain, nonatomic) NSArray *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

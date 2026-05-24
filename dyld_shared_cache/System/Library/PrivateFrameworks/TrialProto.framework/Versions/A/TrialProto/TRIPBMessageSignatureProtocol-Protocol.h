@@ -5,5 +5,13 @@
 //
 
 @protocol TRIPBMessageSignatureProtocol
+
+@optional
++ (id);
+- (void);
+- (void);
+- (long long)51;
+- (unsigned int)k ;
+- (void)cloudRelationshipState;
 @end
 

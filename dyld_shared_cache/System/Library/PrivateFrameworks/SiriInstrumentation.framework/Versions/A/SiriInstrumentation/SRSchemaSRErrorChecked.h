@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SRSchemaSRCheckErrorResponse;
+@class SRSchemaSRCheckErrorResponse;
 
 @interface SRSchemaSRErrorChecked : SISchemaInstrumentationMessage
 {
     SRSchemaSRCheckErrorResponse *_checkErrorResponse;
-    _Bool _hasCheckErrorResponse;
 }
 
 - (void);
@@ -22,19 +21,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)restoreCompletedTransactionsToQueue:forUsername:withClient:replyBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)ABCardViewMultiValueReadOnlyTransformer;
+- (_Bool)com_apple_mobilesms_lpDescription;
 - (id);
-- (id);
+- (id)}7;
 - (id)deleteIsNotFaceTimeable;
-- (id)ype;
+- (id)_hasNetworkAccessType;
 - (void)ENHANCEDVOICETRIGGERMODE_VOICE_ACTIVITY_DETECTION;
 
 // Remaining properties
 @property(retain, nonatomic) SRSchemaSRCheckErrorResponse *checkErrorResponse; // @synthesize checkErrorResponse=_checkErrorResponse;
-@property(nonatomic) _Bool hasCheckErrorResponse; // @synthesize hasCheckErrorResponse=_hasCheckErrorResponse;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

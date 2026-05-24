@@ -5,5 +5,8 @@
 //
 
 @protocol _NUIFlowArrangementContainer
+
+@optional
+- (long long);
 @end
 

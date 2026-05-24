@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface HMDWirelessLoadManager
 {
     int _btLoad;
-    int _btAudioTask;
-    int _btNonAudioTask;
-    NSDate *_lastLoadTimestamp;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)\;
 - (int);
 - (int);
 - (int);
@@ -25,10 +20,7 @@ __attribute__((visibility("hidden")))
 - (void)%@, Enabled = %@, Confirmed = %@, Reachable = %@, Reachable by IDS = %@, Capabilities = %@, Device = %@>;
 
 // Remaining properties
-@property(readonly, nonatomic) int btAudioTask; // @synthesize btAudioTask=_btAudioTask;
 @property(readonly, nonatomic) int btLoad; // @synthesize btLoad=_btLoad;
-@property(readonly, nonatomic) int btNonAudioTask; // @synthesize btNonAudioTask=_btNonAudioTask;
-@property(readonly, nonatomic) NSDate *lastLoadTimestamp; // @synthesize lastLoadTimestamp=_lastLoadTimestamp;
 
 @end
 

@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-+ (Class);
++ (_Bool);
++ (Class)B�+;
 - (id);
 
 @end

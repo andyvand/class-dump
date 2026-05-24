@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AKPopoverColorWellDelegate;
-
 @interface AKPopoverColorWell
 {
     _Bool _shouldPreventDeactivation;
-    double _colorWellHeight;
-    long long _colorWellType;
-    id <AKPopoverColorWellDelegate> _delegate;
 }
 
 + (id);
@@ -35,8 +30,6 @@
 
 // Remaining properties
 @property double colorWellHeight; // @synthesize colorWellHeight=_colorWellHeight;
-@property(nonatomic) long long colorWellType; // @synthesize colorWellType=_colorWellType;
-@property(nonatomic) __weak id <AKPopoverColorWellDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

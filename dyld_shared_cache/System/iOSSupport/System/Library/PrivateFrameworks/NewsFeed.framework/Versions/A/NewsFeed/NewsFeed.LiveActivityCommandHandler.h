@@ -7,7 +7,6 @@
 @interface NewsFeed.LiveActivityCommandHandler
 {
     id liveActivityManager;
-    id commandCenter;
 }
 
 @end

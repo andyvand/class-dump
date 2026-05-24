@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, NSColor, NSString;
+@class EKCalendar;
 
 @interface CalCalendar
 {
@@ -21,24 +21,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
-- (void);
+- (void)I	*?;
 - (_Bool);
 
 // Remaining properties
-@property(copy) NSColor *color;
 @property(retain, nonatomic) EKCalendar *ekCalendar; // @synthesize ekCalendar=_ekCalendar;
-@property(readonly) _Bool isEditable;
-@property(copy) NSString *notes;
-@property(copy) NSString *title;
-@property(readonly) NSString *type;
-@property(readonly) NSString *uid;
 
 @end
 

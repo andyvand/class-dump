@@ -9,28 +9,22 @@
 @interface LSDefaultApplicationQueryResult
 {
     _Bool _didRefresh;
-    _Bool _defaultForCategory;
-    NSDate *_referenceDate;
-    NSDate *_refreshAfter;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)TLAccelerationStructure>"40@0:8^v16@"NSArray"24@"MTLAccelerationStructureDescriptor"32 /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)K ;
+- (id)1 ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDefaultForCategory) _Bool defaultForCategory; // @synthesize defaultForCategory=_defaultForCategory;
-@property(readonly, nonatomic) _Bool didRefresh; // @synthesize didRefresh=_didRefresh;
 @property(readonly, nonatomic) NSDate *referenceDate; // @synthesize referenceDate=_referenceDate;
-@property(readonly, nonatomic) NSDate *refreshAfter; // @synthesize refreshAfter=_refreshAfter;
 
 @end
 

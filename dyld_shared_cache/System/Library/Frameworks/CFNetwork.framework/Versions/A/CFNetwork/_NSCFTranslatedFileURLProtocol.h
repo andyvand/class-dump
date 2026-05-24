@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSCFTranslatedFileURLProtocol : NSURLProtocol
 {
     const struct CFURLProtocolInstanceCallbacks *_callbacks;
-    struct CFURLProtocolClient _cfurlClient;
-    const void *_info;
 }
 
 + (const struct CFURLProtocolImplementation *);
@@ -19,8 +17,8 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (id);
 - (id);
-- (void);
-- (void);
+- (void)`;
+- (void)clickretroflex;
 - (void);
 
 @end

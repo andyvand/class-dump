@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CNSharingProfilePhotoPickerItem, UIImageView;
+@class CAShapeLayer;
 
 __attribute__((visibility("hidden")))
 @interface CNSharingProfilePhotoPickerItemCell
 {
     _Bool _isSmallScreen;
-    CNSharingProfilePhotoPickerItem *_pickerItem;
-    CAShapeLayer *_selectionStrokeLayer;
-    UIImageView *_imageView;
-    struct CGSize _originalSize;
 }
 
-+ (id);
++ (id)7;
 - (void);
 - (void);
 - (void);
@@ -26,22 +22,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)DatabaseEntityChangeType;
 - (void);
-- (void);
-- (struct CGSize);
+- (struct CGSize)/;
+- (id)ype<unsigned long long, unsigned int>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}};
 - (id);
-- (id);
+- (void);
+- (void)setPersistenceConversationFlags:(id)arg1 forMessages: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)llerShareRecipients: /* Error: Ran out of types for this method. */;
+- (void)activityViewControllerShareRecipients: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) _Bool isSmallScreen; // @synthesize isSmallScreen=_isSmallScreen;
-@property(nonatomic) struct CGSize originalSize; // @synthesize originalSize=_originalSize;
-@property(retain, nonatomic) CNSharingProfilePhotoPickerItem *pickerItem; // @synthesize pickerItem=_pickerItem;
 @property(retain, nonatomic) CAShapeLayer *selectionStrokeLayer; // @synthesize selectionStrokeLayer=_selectionStrokeLayer;
 
 @end

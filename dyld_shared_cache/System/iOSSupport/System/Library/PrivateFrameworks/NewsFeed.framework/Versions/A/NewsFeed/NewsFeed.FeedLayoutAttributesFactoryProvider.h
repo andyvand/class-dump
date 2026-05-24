@@ -7,10 +7,6 @@
 @interface NewsFeed.FeedLayoutAttributesFactoryProvider
 {
     id categoryViewLayoutAttributesFactory;
-    id issueCoverViewLayoutAttributesFactory;
-    id bannerAdLayoutAttributesFactory;
-    id engagementBannerViewLayoutAttributesFactory;
-    id layeredMediaRenderedViewModelFactory;
 }
 
 @end

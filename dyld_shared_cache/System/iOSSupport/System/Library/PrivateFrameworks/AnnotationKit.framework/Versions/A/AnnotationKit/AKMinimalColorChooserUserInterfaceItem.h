@@ -6,7 +6,7 @@
 
 #import <AnnotationKit/AKMinimalUserInterfaceItem.h>
 
-@class NSString, UIColor;
+@class UIColor;
 
 @interface AKMinimalColorChooserUserInterfaceItem : AKMinimalUserInterfaceItem
 {
@@ -19,13 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

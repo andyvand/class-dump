@@ -4,20 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSNotification;
 
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (void)C;
+- (void)safari_firstObjectPassingTest:(NSNotification *)arg1;
 - (void);
 - (void)ResolvedFormStyle;
 - (void)°¶þLegacyBaseModifier;
-- (void);
 - (id)74Õ»þrZ7P!gÿ;
-- (void)emStateProvider;
+- (void)PopoverItemStateProvider;
 - (void)ÂTÿÕ[7\ÂTÿÅ[7dÂTÿå[7ÈÂTÿÅ[7ÄÂTÿí[7ÄÂTÿ[7ÀÂTÿå[7ÃTÿµ[7ÃTÿe[7ÃTÿ½[7ä¨½þ;
 - (NSArray *)Ý\\7Á];
-- (void)ate;
+- (void)ToSidebarState;
 - (void)4O;
 - (void)ÿ]6^7;
 - (void)0;

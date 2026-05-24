@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)H+;
 
 @end
 

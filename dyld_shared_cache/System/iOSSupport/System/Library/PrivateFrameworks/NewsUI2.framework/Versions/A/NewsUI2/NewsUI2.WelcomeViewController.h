@@ -9,17 +9,11 @@
 @interface NewsUI2.WelcomeViewController
 {
     id colorStyler;
-    id eventHandler;
-    id viewProvider;
-    id viewAnimator;
-    id sceneStateManager;
-    id keyFrame;
-    id startedFirstAnimation;
 }
 
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)k/Versions/A/IntlPreferences;
 - (_Bool);
 - (id);
 - (id);
@@ -28,11 +22,10 @@
 - (void);
 - (void);
 - (void)ø°	^_;
-- (id)sManagementDetailDataManagerTypeDelegate;
+- (id)SportsManagementDetailDataManagerTypeDelegate;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canBecomeFirstResponder;
 @property(nonatomic, readonly) NSArray *keyCommands;
 
 @end

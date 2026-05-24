@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHShimToolStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)sk space is %lld;
 - (id);
 - (id);
-- (id)nforcer;
+- (id)_enforcer;
 - (id)",&,N,V_ended;
-- (_Bool)ILURE;
-- (_Bool)eason;
+- (_Bool)FLOWSTATUSREASON_DISAMBIGUATION_FAILURE;
+- (_Bool)MHSchemaMHAttendingEndedReason;
 - (void)%;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

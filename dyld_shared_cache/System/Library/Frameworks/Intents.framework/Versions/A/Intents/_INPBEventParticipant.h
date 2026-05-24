@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContact;
-
 @interface _INPBEventParticipant
 {
     struct {
@@ -13,15 +11,11 @@
         unsigned int isUser:1;
         unsigned int status:1;
     } _has;
-    _Bool _isEventOrganizer;
-    _Bool _isUser;
-    int _status;
-    _INPBContact *_person;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -35,34 +29,20 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)oreground app state (%{public}@);
 - (id);
 - (int);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool)× ;
 - (void)stitialDisabled;
 - (void)3;
 - (int)tentResponse initWithCode:(id)arg1 userActivity:] /* Error: Ran out of types for this method. */;
-- (void)hForNotebookItemsIntentResponseCodeReady;
+- (void)INSearchForNotebookItemsIntentResponseCodeReady;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasIsEventOrganizer;
-@property(nonatomic) _Bool hasIsUser;
-@property(readonly, nonatomic) _Bool hasPerson;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isEventOrganizer; // @synthesize isEventOrganizer=_isEventOrganizer;
-@property(nonatomic) _Bool isUser; // @synthesize isUser=_isUser;
-@property(retain, nonatomic) _INPBContact *person; // @synthesize person=_person;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

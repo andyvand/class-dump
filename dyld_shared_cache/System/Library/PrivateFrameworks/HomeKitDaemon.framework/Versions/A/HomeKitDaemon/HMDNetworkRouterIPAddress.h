@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterIPAddress
 {
     NSData *_v4;
-    NSData *_v6;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)momentNodesWithMinimumNumberOfExtendedCuratedAssets:(id)arg1;
 - (id);
 - (void);
-- (id);
+- (id)MSPImmutableObject;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)omPhotoLibraryEnabled;
-- (void)N_HOME_APP;
+- (id)isImportingFromPhotoLibraryEnabled;
+- (void)OPEN_HOME_APP;
 - (id),2@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSData *v4; // @synthesize v4=_v4;
-@property(retain, nonatomic) NSData *v6; // @synthesize v6=_v6;
 
 @end
 

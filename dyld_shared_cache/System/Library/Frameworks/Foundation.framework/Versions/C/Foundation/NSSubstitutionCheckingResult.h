@@ -6,18 +6,15 @@
 
 #import <Foundation/NSTextCheckingResult.h>
 
-@class NSString;
-
 @interface NSSubstitutionCheckingResult : NSTextCheckingResult
 {
     struct _NSRange _range;
-    NSString *_replacementString;
 }
 
 + (_Bool)index out of bounds;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

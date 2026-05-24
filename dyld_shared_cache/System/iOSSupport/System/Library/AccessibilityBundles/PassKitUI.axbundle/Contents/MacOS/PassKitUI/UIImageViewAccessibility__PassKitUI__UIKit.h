@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-- (struct CGRect);
++ (id)accessibilityActivationPoint;
+- (struct CGRect)dSgcSgG_AAyAC_ACtAD_ADtcSgGAfhAyAC_SbtمSgcSgGt;
 
 @end
 

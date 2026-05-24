@@ -5,24 +5,19 @@
 //
 
 @class NSArray;
-@protocol CLSInvestigationItem;
 
 @interface PGKeyCuratorCluster
 {
     NSArray *_subclusters;
-    id <CLSInvestigationItem> _keyItem;
-    double _score;
 }
 
 - (id);
-- (id);
+- (id)_menuExtrasBounds;
 - (id);
 - (double);
 - (void)"NSString"24@?0@"PGGraphROINode"8^@16;
 
 // Remaining properties
-@property(readonly) id <CLSInvestigationItem> keyItem; // @synthesize keyItem=_keyItem;
-@property(readonly) double score; // @synthesize score=_score;
 @property(readonly) NSArray *subclusters; // @synthesize subclusters=_subclusters;
 
 @end

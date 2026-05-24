@@ -11,15 +11,15 @@
 }
 
 + (Class);
-+ (id);
++ (id)(;
 + (void);
 - (id);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)t of bound;
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)setHour: /* Error: Ran out of types for this method. */;
 
 @end
 

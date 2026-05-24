@@ -9,11 +9,10 @@
 @interface CLSPersonIdentityResult
 {
     float _confidence;
-    CLSPersonIdentity *_person;
 }
 
 + (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (float);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
 @property(retain, nonatomic) CLSPersonIdentity *person; // @synthesize person=_person;
 
 @end

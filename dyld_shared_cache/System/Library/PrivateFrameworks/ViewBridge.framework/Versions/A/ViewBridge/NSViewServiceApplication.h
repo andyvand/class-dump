@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent, NSMutableArray;
+@class NSMutableArray;
 
 @interface NSViewServiceApplication
 {
     NSMutableArray *_exceptionQueue;
-    NSEvent *_eventWhichHasHitAppButNotWindow;
-    NSEvent *_sendingEvent;
 }
 
 + (_Bool);
@@ -30,8 +28,8 @@
 + (void);
 + (void);
 + (_Bool);
-+ (_Bool);
-+ (void);
++ (_Bool);
++ (void);
 + (id);
 + (int);
 + (_Bool);
@@ -39,26 +37,26 @@
 + (_Bool);
 + (_Bool);
 + (void);
-+ (id);
++ (id)!;
 + (void);
 + (id);
 + (id)ewService frameOfServiceWindowDidChange:(struct _NSZone *)arg1 windowBackgroundColor:reply:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
 - (struct _NSModalSession *);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)Ru;
+- (_Bool)";
 - (_Bool);
 - (id);
 - (_Bool);
@@ -68,7 +66,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)9h";
 - (id);
 - (void);
 - (void);
@@ -87,7 +85,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (void);
 - (void);

@@ -7,8 +7,6 @@
 @interface NewsArticles.TableOfContentsRouter
 {
     id controller;
-    id resolver;
-    id actionHandler;
 }
 
 @end

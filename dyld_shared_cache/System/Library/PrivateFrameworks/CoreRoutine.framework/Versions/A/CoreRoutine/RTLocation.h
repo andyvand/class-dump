@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface RTLocation
 {
     int _referenceFrame;
-    double _latitude;
-    double _longitude;
-    double _horizontalUncertainty;
-    double _altitude;
-    double _verticalUncertainty;
-    NSDate *_date;
-    unsigned long long _sourceAccuracy;
-    double _speed;
 }
 
 @end

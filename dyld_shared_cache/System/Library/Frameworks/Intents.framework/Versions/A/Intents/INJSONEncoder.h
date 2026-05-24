@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INJSONEncoderConfiguration, NSString;
+@class INJSONEncoderConfiguration;
 
 @interface INJSONEncoder
 {
@@ -16,18 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)	;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)ectionForShareFile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideShareModeOptionsCollectionForShareFile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) INJSONEncoderConfiguration *_storedConfiguration;
-@property(readonly, copy, nonatomic) INJSONEncoderConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(copy, nonatomic) NSString *languageCode;
 
 @end
 

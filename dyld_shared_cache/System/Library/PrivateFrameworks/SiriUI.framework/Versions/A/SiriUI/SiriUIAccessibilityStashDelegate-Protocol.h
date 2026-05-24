@@ -5,5 +5,6 @@
 //
 
 @protocol SiriUIAccessibilityStashDelegate
+- (_Bool);
 @end
 

@@ -6,13 +6,9 @@
 
 #import <Metal/MTL4FunctionDescriptor.h>
 
-@class MTLFunctionConstantValues, NSString;
-
 @interface MTL4SpecializedFunctionDescriptor : MTL4FunctionDescriptor
 {
     MTL4FunctionDescriptor *_functionDescriptor;
-    NSString *_specializedName;
-    MTLFunctionConstantValues *_constantValues;
 }
 
 - (void);
@@ -28,9 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) MTLFunctionConstantValues *constantValues; // @synthesize constantValues=_constantValues;
 @property(copy, nonatomic) MTL4FunctionDescriptor *functionDescriptor; // @synthesize functionDescriptor=_functionDescriptor;
-@property(copy) NSString *specializedName; // @synthesize specializedName=_specializedName;
 
 @end
 

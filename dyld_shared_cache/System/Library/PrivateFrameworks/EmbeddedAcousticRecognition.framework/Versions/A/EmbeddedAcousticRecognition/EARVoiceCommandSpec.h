@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface EARVoiceCommandSpec
 {
     BOOL _valence;
-    NSString *_identifier;
-    NSSet *_fstRelativePaths;
-    NSString *_fstSymbol;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)work/Versions/A/ManagedOrganizationContacts;
+- (id)gedOrganizationContacts.framework/Versions/A/ManagedOrganizationContacts;
 - (BOOL);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)x;
 - (void)ÈüI;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *fstRelativePaths; // @synthesize fstRelativePaths=_fstRelativePaths;
-@property(readonly, nonatomic) NSString *fstSymbol; // @synthesize fstSymbol=_fstSymbol;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) BOOL valence; // @synthesize valence=_valence;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray, NSString;
 
 @interface IDSAuthenticationSigningResult
 {
     NSArray *_authenticationCertificateSignatures;
-    NSData *_inputData;
-    NSData *_nonce;
 }
 
 - (id);
@@ -19,12 +17,9 @@
 - (id);
 - (id);
 - (void);
-- (id)etIsInitialDonation: /* Error: Ran out of types for this method. */;
+- (id)setIsInitialDonation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *authenticationCertificateSignatures; // @synthesize authenticationCertificateSignatures=_authenticationCertificateSignatures;
-@property(readonly, nonatomic) NSData *inputData; // @synthesize inputData=_inputData;
-@property(readonly, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
 @property(readonly, nonatomic) NSString *serverVerifiableEncoding;
 
 @end

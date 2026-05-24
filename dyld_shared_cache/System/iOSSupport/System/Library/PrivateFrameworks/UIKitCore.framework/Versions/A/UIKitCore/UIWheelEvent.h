@@ -6,20 +6,16 @@
 
 #import <UIKitCore/UIEvent.h>
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface UIWheelEvent : UIEvent
 {
     long long _recentScrollDistance;
-    NSMutableArray *_recentScrollEvents;
-    long long lastSubtype;
 }
 
 - (double);
 - (long long)
 × ;
-- (_Bool)ryKey;
+- (_Bool)kBackForwardDictionaryKey;
 - (long long)onst id<_UIUpdateCompletionObserving>  _Nonnull const __strong, const BOOL);
 - (void);
 - (void)2á;

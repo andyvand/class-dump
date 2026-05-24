@@ -6,29 +6,24 @@
 
 #import <CloudKit/CKSyncEngineEvent.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CKSyncEngineSentDatabaseChangesEvent : CKSyncEngineEvent
 {
     NSArray *_savedZones;
-    NSArray *_failedZoneSaves;
-    NSArray *_deletedZoneIDs;
-    NSDictionary *_failedZoneDeletes;
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)?
+;
 - (id);
 - (long long);
 - (void);
-- (void)onCallbacks;
+- (void)CKModifyWebSharingOperationCallbacks;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *deletedZoneIDs; // @synthesize deletedZoneIDs=_deletedZoneIDs;
-@property(readonly, copy, nonatomic) NSDictionary *failedZoneDeletes; // @synthesize failedZoneDeletes=_failedZoneDeletes;
-@property(readonly, copy, nonatomic) NSArray *failedZoneSaves; // @synthesize failedZoneSaves=_failedZoneSaves;
 @property(readonly, copy, nonatomic) NSArray *savedZones; // @synthesize savedZones=_savedZones;
 
 @end

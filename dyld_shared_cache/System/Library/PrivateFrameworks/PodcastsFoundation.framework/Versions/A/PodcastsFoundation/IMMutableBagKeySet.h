@@ -9,20 +9,18 @@
 @interface IMMutableBagKeySet
 {
     NSMutableDictionary *_defaultValueMap;
-    NSMutableDictionary *_valueTypeMap;
 }
 
-- (void);
+- (void)W;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)'_;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *defaultValueMap; // @synthesize defaultValueMap=_defaultValueMap;
-@property(retain, nonatomic) NSMutableDictionary *valueTypeMap; // @synthesize valueTypeMap=_valueTypeMap;
 
 @end
 

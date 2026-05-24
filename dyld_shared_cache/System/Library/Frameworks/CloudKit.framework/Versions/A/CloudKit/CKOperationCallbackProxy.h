@@ -6,19 +6,17 @@
 
 #import <CloudKit/CKWeakObjectCallbackProxy.h>
 
-@class CKOperationCallbackProxyEndpoint, NSHashTable, NSString, NSXPCListener;
+@class NSXPCListener;
 
 @interface CKOperationCallbackProxy : CKWeakObjectCallbackProxy
 {
     NSXPCListener *_listener;
-    Class _cls;
-    NSHashTable *_connections;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (Class);
 - (void);
 - (id);
@@ -29,16 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) Class cls; // @synthesize cls=_cls;
-@property(readonly, nonatomic) NSHashTable *connections; // @synthesize connections=_connections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) CKOperationCallbackProxyEndpoint *endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) Class superclass;
 
 @end
 

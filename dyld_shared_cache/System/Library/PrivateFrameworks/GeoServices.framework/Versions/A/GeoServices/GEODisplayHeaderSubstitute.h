@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDDisplayHeaderSubstitute, GEORelatedSearchSuggestion, NSString;
+@class GEOPDDisplayHeaderSubstitute;
 
 @interface GEODisplayHeaderSubstitute
 {
     GEOPDDisplayHeaderSubstitute *_displayHeaderSubstitute;
-    GEORelatedSearchSuggestion *_relatedSearchSuggestion;
 }
 
 - (int);
@@ -17,15 +16,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)}24;
 - (id);
 - (void)aþþ;
 
 // Remaining properties
 @property(retain, nonatomic) GEOPDDisplayHeaderSubstitute *displayHeaderSubstitute; // @synthesize displayHeaderSubstitute=_displayHeaderSubstitute;
-@property(readonly, nonatomic) NSString *interpretedQuery;
-@property(retain, nonatomic) GEORelatedSearchSuggestion *relatedSearchSuggestion; // @synthesize relatedSearchSuggestion=_relatedSearchSuggestion;
-@property(readonly, nonatomic) int substituteType;
 
 @end
 

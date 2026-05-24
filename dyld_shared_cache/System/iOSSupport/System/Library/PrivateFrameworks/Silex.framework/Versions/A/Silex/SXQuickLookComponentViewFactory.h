@@ -6,12 +6,11 @@
 
 #import <Silex/SXComponentViewFactory.h>
 
-@protocol SXQuickLookComponentFileProvider, SXQuickLookModule;
+@protocol SXQuickLookModule;
 
 @interface SXQuickLookComponentViewFactory : SXComponentViewFactory
 {
     id <SXQuickLookModule> _quickLookModule;
-    id <SXQuickLookComponentFileProvider> _fileProvider;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXQuickLookComponentFileProvider> fileProvider; // @synthesize fileProvider=_fileProvider;
 @property(readonly, nonatomic) id <SXQuickLookModule> quickLookModule; // @synthesize quickLookModule=_quickLookModule;
 
 @end

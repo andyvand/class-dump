@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFSyncedSignaturesFile, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface MFSignatureManager
 {
     NSMutableDictionary *_signatures;
-    NSMutableArray *_accounts;
-    NSMutableDictionary *_lastDefaultSignatures;
-    _Bool _isDirty;
-    MFSyncedSignaturesFile *_syncedFile;
 }
 
-+ (id);
++ (id));
 + (id);
 + (id);
 + (id);
@@ -39,9 +35,9 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)H;
 - (id);
 - (void);
 - (id);
@@ -50,38 +46,26 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isDirty; // @synthesize isDirty=_isDirty;
-@property(readonly, nonatomic) unsigned long long numberOfSignatures;
-@property(nonatomic) _Bool placeSignatureAboveQuotedText;
-@property(readonly, copy, nonatomic) NSArray *signatureAccounts;
-@property(readonly, copy, nonatomic) NSDictionary *signatures;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MFSyncedSignaturesFile *syncedFile; // @synthesize syncedFile=_syncedFile;
 
 @end
 

@@ -13,37 +13,35 @@ __attribute__((visibility("hidden")))
     struct CGRect _regionFrame;
 }
 
-- (struct CGRect);
-- (id);
-- (id);
-- (void);
+- (struct CGRect)updatedMessagesForMessages: /* Error: Ran out of types for this method. */;
+- (id)updateVocabularyForRenamedChat:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)handler:(struct CGRect)arg1 localMessageSent:(id)arg2 wasInterworked:encrypted:storageContext: /* Error: Ran out of types for this method. */;
+- (void)IMFindChatProcessingParameter;
+- (_Bool)ink:r:path:/System/Library/Frameworks/IdentityLookup.framework/IdentityLookup /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (long long)eport for message:%s /* Error: Ran out of types for this method. */;
+- (id)ng to locate block for local message of type %@ ;
+- (_Bool)in _didReceiveMessageReadForMessageID because !_activated;
+- (_Bool)groupID from all chats.;
+- (id)ed messages;
+- (unsigned long long)ered quietly:%@ /* Error: Ran out of types for this method. */;
+- (id)hed status, not attempting to recover;
+- (float)ocessingPipelineComponent> Started processing;
+- (unsigned long long)or category:(unsigned long long)arg1 %ld. Resetting subCategory to None;
 - (unsigned long long);
-- (id);
-- (float);
+- (void)s done fetching %lu assets. Generating transfers;
+- (id)Coming %@ recordZoneError %@;
+- (id)to %@;
+- (id)ansfer guid %@:%@, %@, %@ /* Error: Ran out of types for this method. */;
+- (_Bool)ot relaying message to peers, it's typing indicators:%@, RCS encryption test:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)%@;
+- (unsigned long long)== nil;
+- (id)%;
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (_Bool)ButtonLanguageCode;
+- (_Bool)textEffectsButtonLanguageCode;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_debugAssociatedObject) __weak id debugAssociatedObject;
-@property(readonly, nonatomic) id <UICoordinateSpace> regionCoordinateSpace; // @synthesize regionCoordinateSpace=_regionCoordinateSpace;
 @property(readonly, nonatomic) struct CGRect regionFrame; // @synthesize regionFrame=_regionFrame;
 
 @end

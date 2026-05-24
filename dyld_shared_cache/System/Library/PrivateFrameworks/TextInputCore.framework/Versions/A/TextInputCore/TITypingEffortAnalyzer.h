@@ -4,46 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TITypingSession, TITypingSessionAligned;
+@class TITypingSession;
 
 __attribute__((visibility("hidden")))
 @interface TITypingEffortAnalyzer
 {
     TITypingSession *_session;
-    TITypingSessionAligned *_alignedSession;
-    _Bool _emojiPlaneActive;
-    _Bool _emojiSearchActive;
-    _Bool _hasEmojiInput;
-    _Bool _hasCursorMovement;
 }
 
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
+- (id)_AXFInvalidTextPosition;
+- (void);
+- (void)RACE_DATA_NEWTHREAD on thread 0x%llx:(id)arg1 %d
+;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool)ertyNamed:(id)arg1;
 - (id);
+- (void)commute1Hr15MinWarningEntityRelevanceLOIFeatures;
 - (void);
 - (void);
 - (void);
+- (_Bool)AssetStatus"@"NSError">48;
+- (void)namespaceString.;
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -52,15 +48,7 @@ __attribute__((visibility("hidden")))
 - (void)× ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCursorMovement; // @synthesize hasCursorMovement=_hasCursorMovement;
 @property(readonly, nonatomic) _Bool hasEmojiInput; // @synthesize hasEmojiInput=_hasEmojiInput;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDLaunchHandler;
+@class HMDLaunchHandler, HMFTimer;
 
 @protocol HMDEventTriggerDependencyFactory
+- (HMFTimer *)_purgeExpiredBlockedTripIdentifiers;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDLaunchHandler *launchHandler;

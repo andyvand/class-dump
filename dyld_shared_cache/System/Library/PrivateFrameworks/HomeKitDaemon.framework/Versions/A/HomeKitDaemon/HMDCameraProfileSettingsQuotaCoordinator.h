@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessory, NSObject, NSOperationQueue, NSString;
-@protocol HMDCameraCloudStorageManaging, HMDCameraProfileSettingsQuotaCoordinatorDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol HMDCameraProfileSettingsQuotaCoordinatorDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraProfileSettingsQuotaCoordinator
 {
     id <HMDCameraProfileSettingsQuotaCoordinatorDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDCameraCloudStorageManaging> _cloudStorageManager;
-    NSOperationQueue *_operationQueue;
-    HMDHAPAccessory *_accessory;
 }
 
 + (id);
 + (id)ù	ÔæB;
-- (void);
-- (void);
-- (id);
+- (void)queue:(unsigned long long)arg1 completion:(unsigned long long)arg2;
+- (void)_editedState;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -29,10 +25,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (void);
-- (id);
+- (id)setDefaultStartAndEndDatesIfNeededWithNumberOfDays: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -44,17 +40,6 @@ __attribute__((visibility("hidden")))
 - (void)ñ;
 
 // Remaining properties
-@property __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly) id <HMDCameraCloudStorageManaging> cloudStorageManager; // @synthesize cloudStorageManager=_cloudStorageManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDCameraProfileSettingsQuotaCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UITextIndirectEditableInteraction.h>
 
-@class NSString, UIKeyboardTaskQueue, _UIKeyboardTextSelectionController;
+@class UIKeyboardTaskQueue, _UIKeyboardTextSelectionController;
 
 __attribute__((visibility("hidden")))
 @interface UITextIndirectNonEditableInteraction : UITextIndirectEditableInteraction
@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void);
-- (void)tsForKeyboardNotification: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)SceneIdentifierForPersistentIdentifier;
+- (void);
+- (void)_updateConstraintsForKeyboardNotification: /* Error: Ran out of types for this method. */;
+- (void)contour;
+- (void)FUSceneIdentifierForPersistentIdentifier;
 - (id)lock_invoke_4;
 - (_Bool);
 - (id)Ö¸Í[;
@@ -27,19 +27,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UIKeyboardTaskQueue *taskQueue;
-@property(readonly, nonatomic) _UIKeyboardTextSelectionController *textSelectionController;
-@property(readonly, nonatomic) double timestampOfLastTouchesEnded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 
 @end
 

@@ -5,14 +5,12 @@
 //
 
 @protocol TUBarCompressionAnimating
+- (_Bool);
+
+@optional
+- (void)on;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool shouldAlwaysScrollToTopOnTap;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldCloseGapOnScroll;
 @property(readonly, nonatomic) _Bool shouldCompressAtTop;
-@property(readonly, nonatomic) double topOffset;
 @end
 

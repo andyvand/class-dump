@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SLSystemConfigManager
 {
     void *_prefs;
-    _Bool _notifyForExternalChangeOnly;
-    int _applySkipCount;
-    NSString *_serviceType;
 }
 
 + (id);
@@ -20,17 +15,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)-;
 - (void *);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__TEXT;
 
 @end
 

@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaMILAssetAcquisitionEnded, NLXSchemaMILAssetAcquisitionFailed, NLXSchemaMILAssetAcquisitionStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaMILAssetAcquisitionContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NLXSchemaMILAssetAcquisitionStarted *_startedOrChanged;
-    NLXSchemaMILAssetAcquisitionEnded *_ended;
-    NLXSchemaMILAssetAcquisitionFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -30,21 +22,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)D"{ITString="mUTF16Data"^v"mUTF8Data"^v}"storePurchasedAdamID"{ITString="mUTF16Data"^v"mUTF8Data"^v}"storeAdamID"{ITString="mUTF16Data"^v"mUTF8Data"^v}"utsItemID"{ITString="mUTF16Data"^v"mUTF8Data"^v}"rentalID"{ITString="mUTF16Data"^v"mUTF8Data"^v}"libraryItemID"{DBIdentifier="mDBID"Q"mPID"Q"mItemKind"C"mParentPID"Q"mPlaylistItemPID"Q}}};
+- (void)setAccountProperty:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ating extension;
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (id);
 - (id)
@@ -57,15 +49,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) NLXSchemaMILAssetAcquisitionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaMILAssetAcquisitionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaMILAssetAcquisitionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

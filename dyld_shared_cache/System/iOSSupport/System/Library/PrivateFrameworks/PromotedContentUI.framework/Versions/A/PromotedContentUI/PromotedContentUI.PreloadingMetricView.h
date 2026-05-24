@@ -7,8 +7,6 @@
 @interface PromotedContentUI.PreloadingMetricView
 {
     id metricsView;
-    id readyClosure;
-    id readyListeners;
 }
 
 @end

@@ -9,7 +9,6 @@
 @interface MPChangePlaybackPositionCommand : MPRemoteCommand
 {
     _Bool _canBeControlledByScrubbing;
-    _Bool _supportsReferencePosition;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool canBeControlledByScrubbing; // @synthesize canBeControlledByScrubbing=_canBeControlledByScrubbing;
-@property(nonatomic) _Bool supportsReferencePosition; // @synthesize supportsReferencePosition=_supportsReferencePosition;
 
 @end
 

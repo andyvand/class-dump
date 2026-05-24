@@ -9,13 +9,6 @@
 @interface PXBannerViewConfiguration
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_actionButtonTitle;
-    NSString *_cancelButtonTitle;
-    CDUnknownBlockType _actionButtonHandler;
-    CDUnknownBlockType _cancelButtonHandler;
-    NSString *_primaryActionIdentifier;
-    NSString *_cancelActionIdentifier;
 }
 
 - (_Bool);
@@ -29,21 +22,12 @@
 - (id);
 - (id);
 - (id);
-- (id)tchedWithReverseSortOrder:(struct _NSZone *)arg1 curatedFetchResult:curatedRefetchCondition:keyAssetsFetchResult:filterPredicate: /* Error: Ran out of types for this method. */;
+- (id)initWithFetchResult:(struct _NSZone *)arg1 fetchedWithReverseSortOrder:curatedFetchResult:curatedRefetchCondition:keyAssetsFetchResult:filterPredicate: /* Error: Ran out of types for this method. */;
 - (id)ng"16@?0@"PXAssetsDataSourceManager"8;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType actionButtonHandler; // @synthesize actionButtonHandler=_actionButtonHandler;
-@property(readonly, copy, nonatomic) NSString *actionButtonTitle; // @synthesize actionButtonTitle=_actionButtonTitle;
-@property(readonly, copy, nonatomic) NSString *cancelActionIdentifier; // @synthesize cancelActionIdentifier=_cancelActionIdentifier;
-@property(readonly, copy, nonatomic) CDUnknownBlockType cancelButtonHandler; // @synthesize cancelButtonHandler=_cancelButtonHandler;
-@property(readonly, copy, nonatomic) NSString *cancelButtonTitle; // @synthesize cancelButtonTitle=_cancelButtonTitle;
-@property(readonly, copy, nonatomic) NSString *primaryActionIdentifier; // @synthesize primaryActionIdentifier=_primaryActionIdentifier;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) _Bool wantsActionButton;
-@property(readonly, nonatomic) _Bool wantsCancelButton;
 
 @end
 

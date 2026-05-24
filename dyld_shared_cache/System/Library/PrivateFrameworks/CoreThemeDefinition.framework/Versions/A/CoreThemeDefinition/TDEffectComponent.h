@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, TDEffectRenditionSpec, TDEffectType;
+@class TDEffectRenditionSpec;
 
 @interface TDEffectComponent
 {
@@ -34,15 +34,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) TDEffectType *effectType; // @dynamic effectType;
-@property(nonatomic) _Bool isEnabled; // @dynamic isEnabled;
-@property(retain, nonatomic) NSSet *parameters; // @dynamic parameters;
 @property(retain, nonatomic) TDEffectRenditionSpec *rendition; // @dynamic rendition;
 
 @end

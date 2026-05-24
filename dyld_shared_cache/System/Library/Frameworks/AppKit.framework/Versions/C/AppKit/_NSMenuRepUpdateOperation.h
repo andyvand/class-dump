@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _NSMenuRepUpdateOperation
 {
     unsigned char _operation;
-    NSMenuItem *_menuItem;
-    long long _menuIndex;
 }
 
-- (void);
-- (void);
+- (void)data;
+- (void)uld not open %s:(long long)arg1 %s;
 - (id);
 - (long long);
-- (id);
+- (id)n@;
 - (void)t;
 - (unsigned char);
 - (void);
 
 // Remaining properties
-@property long long menuIndex; // @synthesize menuIndex=_menuIndex;
 @property __weak NSMenuItem *menuItem; // @synthesize menuItem=_menuItem;
-@property unsigned char operation; // @synthesize operation=_operation;
 
 @end
 

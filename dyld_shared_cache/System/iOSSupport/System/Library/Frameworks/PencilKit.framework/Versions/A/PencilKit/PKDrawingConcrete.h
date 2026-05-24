@@ -6,19 +6,11 @@
 
 #import <PencilKit/PKDrawing.h>
 
-@class NSMutableArray, NSMutableDictionary, NSUUID, PKVectorTimestamp;
+@class NSUUID;
 
 @interface PKDrawingConcrete : PKDrawing
 {
     NSUUID *_uuid;
-    NSMutableDictionary *_strokesIdentifierMap;
-    NSMutableArray *_allStrokes;
-    struct CGRect __canvasBounds;
-    struct CGRect __bounds;
-    NSUUID *_replicaUUID;
-    PKVectorTimestamp *_version;
-    shared_ptr_ad015234 _unknownFields;
-    struct _PKStrokeID _boundsVersion;
 }
 
 + (struct CGAffineTransform);
@@ -28,9 +20,9 @@
 - (id);
 - (id);
 - (id);
+- (void)3;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,8 +47,8 @@
 - (struct _PKStrokeID);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)N;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -82,14 +74,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (CDStruct_5f3a0cd7);
+- (CDStruct_33dcf794);
 - (id);
 - (double);
 - (void);
@@ -108,10 +100,10 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (struct CGRect);
+- (struct CGRect)(Y;
 - (_Bool);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (id);
@@ -122,13 +114,7 @@
 - (id)tInputFakeInteractions.m;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAllStrokes:) NSMutableArray *_allStrokes;
-@property(readonly, nonatomic) _Bool _hasReplicaUUID;
-@property(readonly, nonatomic) shared_ptr_ad015234 _unknownFields; // @synthesize _unknownFields;
 @property(nonatomic) struct _PKStrokeID boundsVersion; // @synthesize boundsVersion=_boundsVersion;
-@property(readonly, nonatomic) NSUUID *nsuuid;
-@property(readonly, nonatomic) NSUUID *replicaUUID; // @synthesize replicaUUID=_replicaUUID;
-@property(retain, nonatomic) PKVectorTimestamp *version; // @synthesize version=_version;
 
 @end
 

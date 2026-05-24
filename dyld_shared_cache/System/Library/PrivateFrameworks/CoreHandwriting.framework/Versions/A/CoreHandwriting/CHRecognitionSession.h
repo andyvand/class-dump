@@ -4,61 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHMathRecognizer, CHRecognitionSessionResult, CHRecognitionSessionVersion, CHRemoteTextSynthesizer, CHSessionStateTracker, CHTextInputQuery, NSArray, NSData, NSHashTable, NSMutableArray, NSMutableDictionary, NSObject, NSOrderedSet, NSString;
-@protocol CHCalculateDocumentProvider, CHCanvasAttachmentProvider, CHDocumentLayoutAnalyzing, CHLineWrapperProviding, CHRecognitionSessionDataSource, CHStrokeProvider, CHSynthesizingText, OS_dispatch_queue;
+@class CHRecognitionSessionResult;
 
 @interface CHRecognitionSession
 {
     CHRecognitionSessionResult *_lastRecognitionResult;
-    long long _status;
-    id <CHStrokeProvider> _latestStrokeProvider;
-    NSOrderedSet *_latestStrokeProviderVisibleStrokes;
-    id <CHCalculateDocumentProvider> _latestCalculateDocumentProvider;
-    id <CHCanvasAttachmentProvider> _latestCanvasAttachmentProvider;
-    CHTextInputQuery *_activeTextInputQuery;
-    _Bool _strokeGroupingOnly;
-    CHRecognitionSessionResult *_cachedFastGroupingRecognitionResult;
-    CHRecognitionSessionResult *_partialRecognitionResult;
-    int _autoCapitalizationMode;
-    int _autoCorrectionMode;
-    int _baseWritingDirection;
-    unsigned long long _strokeGroupOrdering;
-    CHRecognitionSessionVersion *_sessionVersion;
-    NSMutableDictionary *_recognitionOptions;
-    _Bool _disableMathTextSwapping;
-    _Bool _leverageAllProvidedVariables;
-    CHSessionStateTracker *_stateTracker;
-    _Bool __hasUnprocessedChanges;
-    _Bool __shouldForceFastGrouping;
-    _Bool __skipMathTransliterations;
-    _Bool __skipMathOperatorsInference;
-    _Bool __skipPopulatingStyleInventory;
-    _Bool __skipPrincipalLines;
-    _Bool __forceLocaleNumberFormat;
-    unsigned int __taskQueueQoSClass;
-    long long _mode;
-    NSArray *_preferredLocales;
-    id <CHRecognitionSessionDataSource> _dataSource;
-    long long _recognitionEnvironment;
-    long long _priority;
-    NSArray *__textRecognitionLocales;
-    NSMutableDictionary *__recognizersByLocaleID;
-    NSArray *__latestTextInputTargets;
-    NSMutableDictionary *__correctionRecognizersByLocalesKey;
-    id <CHDocumentLayoutAnalyzing> __documentLayoutAnalyzer;
-    CHMathRecognizer *__mathRecognizer;
-    id <CHSynthesizingText> __textSynthesizer;
-    CHRemoteTextSynthesizer *__remoteTextSynthesizer;
-    id <CHLineWrapperProviding> __lineWrapper;
-    unsigned long long __changeCoalescingIndex;
-    NSHashTable *__changeObserversTable;
-    NSMutableArray *__inputDrawingClients;
-    NSObject<OS_dispatch_queue> *__tasksWorkQueueForeground;
-    NSObject<OS_dispatch_queue> *__tasksWorkQueueBackground;
-    NSObject<OS_dispatch_queue> *__sessionQueue;
-    NSObject<OS_dispatch_queue> *__observersQueue;
-    NSObject<OS_dispatch_queue> *__highResponsivenessQueue;
-    NSMutableArray *__activeTasks;
 }
 
 + (void);
@@ -66,13 +16,13 @@
 + (id);
 + (_Bool);
 + (id);
++ (id)\S J;
 + (id);
 + (id);
-+ (id);
-+ (double);
-+ (id);
++ (double)!;
++ (id)JaqR1;
 + (_Bool);
-+ (_Bool);
++ (_Bool)_framebufferTexture;
 - (void);
 - (void);
 - (void);
@@ -92,7 +42,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void);
 - (void);
@@ -128,14 +78,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)J;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)r;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -145,7 +95,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)
+w	;
 - (void);
 - (int);
 - (int);
@@ -155,68 +106,33 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)sourceOrganizationEnqueued;
 - (void);
 - (int);
+- (void)59;
 - (void);
-- (void);
-- (void);
+- (void):]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)ackId>";
+- (void)unexpectedFormat;
 - (long long);
 - (void);
 - (void);
 - (long long)empty.;
 
 // Remaining properties
-@property(nonatomic) __weak CHTextInputQuery *activeTextInputQuery;
-@property(nonatomic) int autoCapitalizationMode;
-@property(nonatomic) int autoCorrectionMode;
-@property(nonatomic) int baseWritingDirection;
-@property(nonatomic) id <CHRecognitionSessionDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableMathTextSwapping;
-@property(nonatomic) _Bool forceLocaleNumberFormat;
-@property(readonly) unsigned long long hash;
-@property(retain, setter=_setLastRecognitionResult:) CHRecognitionSessionResult *lastRecognitionResult;
-@property(retain, setter=_setLatestCalculateDocumentProvider:) id <CHCalculateDocumentProvider> latestCalculateDocumentProvider;
-@property(retain, setter=_setLatestCanvasAttachmentProvider:) id <CHCanvasAttachmentProvider> latestCanvasAttachmentProvider;
-@property(retain, setter=_setLatestStrokeProvider:) id <CHStrokeProvider> latestStrokeProvider;
-@property(nonatomic) _Bool leverageAllProvidedVariables;
-@property(copy, nonatomic) NSArray *locales;
-@property(readonly, nonatomic) long long mode; // @synthesize mode=_mode;
-@property(copy, nonatomic) NSArray *preferredLocales; // @synthesize preferredLocales=_preferredLocales;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly) _Bool q_needsForegroundRecognition;
-@property(readonly) _Bool q_wantsAutoRefine;
-@property(nonatomic) long long recognitionEnvironment; // @synthesize recognitionEnvironment=_recognitionEnvironment;
-@property(readonly, nonatomic) NSData *sessionData;
-@property(retain, setter=_setSessionVersion:) CHRecognitionSessionVersion *sessionVersion;
-@property(nonatomic) _Bool shouldForceFastGrouping;
-@property(nonatomic) _Bool skipMathOperatorsInference;
-@property(nonatomic) _Bool skipMathTransliterations;
-@property(nonatomic) _Bool skipPopulatingStyleInventory;
-@property(nonatomic) _Bool skipPrincipalLines;
-@property(nonatomic, setter=_setStatus:) long long status;
-@property(nonatomic) unsigned long long strokeGroupOrdering;
 @property(nonatomic) _Bool strokeGroupingOnly;
-@property(readonly) Class superclass;
 
 @end
 

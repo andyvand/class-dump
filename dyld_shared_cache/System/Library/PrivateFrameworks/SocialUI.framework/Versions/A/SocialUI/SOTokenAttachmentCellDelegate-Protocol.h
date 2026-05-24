@@ -5,5 +5,6 @@
 //
 
 @protocol SOTokenAttachmentCellDelegate
+- (_Bool)P;
 @end
 

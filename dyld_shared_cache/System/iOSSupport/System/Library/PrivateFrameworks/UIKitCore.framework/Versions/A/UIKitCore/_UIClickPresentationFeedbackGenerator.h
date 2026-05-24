@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)contactsAvatarRecipeData;
+- (void):(struct CGPoint)arg1 sortedIdentifiers:serviceName: /* Error: Ran out of types for this method. */;
+- (void)$;
+- (id)#;
 - (void)üÁîÿ;
 - (void)nReusableView"8;
 - (void);
-- (void)tt;
+- (void)17preferredTintModeSb13prefersShadowSb0F13ScaledContentt;
 - (void)@;
 - (void)UÉ×°kd;
 - (id)ëÿq©×îd;

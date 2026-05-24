@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface HomeKitDaemon.ResidentStatusProtobufSerializerPreferredResidentsList
 {
     void residentIDSIdentifiers;
-    void modifiedTimestamp;
 }
 
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void)Þæu
 ?;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *modifiedTimestamp;
 @property(nonatomic, readonly) NSArray *residentIDSIdentifiers;
 
 @end

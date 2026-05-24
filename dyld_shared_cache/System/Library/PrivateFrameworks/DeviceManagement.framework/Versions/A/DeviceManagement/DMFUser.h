@@ -9,32 +9,24 @@
 @interface DMFUser
 {
     _Bool _hasDataToSync;
-    _Bool _isCurrentUser;
-    NSString *_username;
-    unsigned long long _dataQuota;
-    unsigned long long _dataUsed;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)H;
+- (id);
+- (unsigned long long)b;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
+- (void)control:didFailToFormatString:errorDescription: /* Error: Ran out of types for this method. */;
+- (_Bool)__objc_superrefs__DATA_CONST;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long dataQuota; // @synthesize dataQuota=_dataQuota;
-@property(readonly, nonatomic) unsigned long long dataUsed; // @synthesize dataUsed=_dataUsed;
-@property(readonly, nonatomic) _Bool hasDataToSync; // @synthesize hasDataToSync=_hasDataToSync;
-@property(readonly, nonatomic) _Bool isCurrentUser; // @synthesize isCurrentUser=_isCurrentUser;
 @property(readonly, copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

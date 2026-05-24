@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WKNavigation
 {
     struct AlignedStorage<API::Navigation, 16UL> _navigation;
@@ -16,19 +14,11 @@
 - (_Bool);
 - (id);
 - (struct Object *);
-- (void);
-- (id)gateAdapter;
+- (void)";
+- (id)WKUIDelegateAdapter;
 
 // Remaining properties
-@property(readonly) struct Object *_apiObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) long long effectiveContentMode;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

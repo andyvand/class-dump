@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMDocument, DOMHTMLElement, JSContext, NSArray, NSString, WebDataSource, WebFramePrivate, WebFrameView, WebScriptObject, WebView;
+@class WebFramePrivate;
 
 @interface WebFrame
 {
@@ -14,7 +14,8 @@
 + (Ref_cb00963e);
 + (Ref_cb00963e);
 + (void);
-- (id);
+- (id)٫
+;
 - (void);
 - (void);
 - (void);
@@ -24,11 +25,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (int);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)r;
 - (_Bool);
 - (struct OpaqueJSContext *);
 - (_Bool);
@@ -64,12 +65,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Ɂ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)ք;
 - (id);
 - (void);
 - (id);
@@ -92,16 +93,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)dΨ;
 - (optional_c088adaa);
+- (id)d�;
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)̪;
+- (void);
 - (id);
 - (struct CGRect);
 - (_Bool);
@@ -124,7 +125,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ublic}@;
 - (struct _NSRange);
 - (id);
 - (id);
@@ -133,19 +134,7 @@
 - (id)Ïí;
 
 // Remaining properties
-@property(readonly, nonatomic) DOMDocument *DOMDocument;
-@property(readonly, copy, nonatomic) NSArray *childFrames;
-@property(readonly, nonatomic) WebDataSource *dataSource;
-@property(readonly, nonatomic) DOMHTMLElement *frameElement;
-@property(readonly, nonatomic) WebFrameView *frameView;
-@property(readonly, nonatomic) struct OpaqueJSContext *globalContext;
 @property(readonly, nonatomic) _Bool hasRichlyEditableDragCaret;
-@property(readonly, nonatomic) JSContext *javaScriptContext;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) WebFrame *parentFrame;
-@property(readonly, nonatomic) WebDataSource *provisionalDataSource;
-@property(readonly, nonatomic) WebView *webView;
-@property(readonly, nonatomic) WebScriptObject *windowObject;
 
 @end
 

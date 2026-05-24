@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatSwitchNode
 {
     id _identifier;
-    id cases;
-    id default;
-    id _throws;
-    id throw;
-    id flex;
 }
 
 @end

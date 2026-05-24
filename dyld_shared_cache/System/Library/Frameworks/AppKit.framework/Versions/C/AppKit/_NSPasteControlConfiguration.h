@@ -10,19 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _NSPasteControlConfiguration
 {
     _Bool _enabled;
-    NSString *_localizedTitle;
-    long long _displayMode;
-    unsigned long long _controlSize;
-    unsigned long long _lineBreakMode;
-    long long _alignment;
-    long long _baseWritingDirection;
 }
 
 + (_Bool)Ü;
-- (void);
-- (void);
+- (void)_client;
+- (void)ublic}@) and application identifier entitlement (%{public}@) value.;
 - (long long);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
@@ -31,22 +25,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool):üÿ /* Error: Ran out of types for this method. */;
-- (void)Classes;
+- (void)NSConcurrentViewClasses;
 - (void)This is an app bug, please do not file a bug against AppKit or NSToolbar! Break on _NSToolbarAdjustedBorderedControlSizeBreakpoint;
 - (unsigned long long)& WeirdMask;
 - (void)*******
 ;
-- (long long)imeInterval;
-- (void)ientation;
+- (long long)NSTimeInterval;
+- (void)NSOrientation;
 - (id)álh$á;
 
 // Remaining properties
-@property long long alignment; // @synthesize alignment=_alignment;
-@property long long baseWritingDirection; // @synthesize baseWritingDirection=_baseWritingDirection;
-@property unsigned long long controlSize; // @synthesize controlSize=_controlSize;
-@property long long displayMode; // @synthesize displayMode=_displayMode;
-@property _Bool enabled; // @synthesize enabled=_enabled;
-@property unsigned long long lineBreakMode; // @synthesize lineBreakMode=_lineBreakMode;
 @property(copy) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end

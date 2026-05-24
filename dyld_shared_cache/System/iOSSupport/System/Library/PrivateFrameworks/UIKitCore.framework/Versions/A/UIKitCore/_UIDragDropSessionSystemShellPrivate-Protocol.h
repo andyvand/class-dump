@@ -5,7 +5,7 @@
 //
 
 @protocol _UIDragDropSessionSystemShellPrivate
-- (unsigned int)ITraitFocusSystemState;
+- (unsigned int)UITraitFocusSystemState;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int _sessionIdentifier;

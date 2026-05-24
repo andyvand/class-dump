@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, NSMutableDictionary, NSString;
+@class HMDHomeManager;
 @protocol HMDHomeWalletDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDWalletKeyStepUpFailureListener
 {
     HMDHomeManager *_homeManager;
-    id <HMDHomeWalletDataSource> _dataSource;
-    NSMutableDictionary *_auditedAccessories;
 }
 
 + (id)PÿpÙmþB;
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)setSenderRules:(id)arg1;
+- (void)[Server] %{private}s signedIntoiCloud %@;
+- (id)S;
 - (id);
 - (id);
 - (id);
 - (id)y:%@ /* Error: Ran out of types for this method. */;
 - (void)is at %ld, accepting new changes;
-- (void)Ratio16x9;
+- (void)HMDVideoResolutionAspectRatio16x9;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *auditedAccessories;
 @property(readonly) id <HMDHomeWalletDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly) Class superclass;
 
 @end
 

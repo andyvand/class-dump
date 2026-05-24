@@ -5,5 +5,6 @@
 //
 
 @protocol NETagImageShareAttributeProviderType
+- (void);
 @end
 

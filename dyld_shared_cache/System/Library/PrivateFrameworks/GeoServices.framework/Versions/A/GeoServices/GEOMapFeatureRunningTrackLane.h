@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface GEOMapFeatureRunningTrackLane
 {
     unsigned long long _type;
-    unsigned int _width;
-    unsigned int _flowlineOffset;
-    NSArray *_coordinates;
 }
 
 - (id);
 - (unsigned int);
 - (id);
-- (unsigned int);
-- (unsigned long long);
-- (id)nfosCount;
+- (unsigned int)ddddd}56^{CGPoint=dd}552;
+- (unsigned long long)tableView:draggingSession:endedAtPoint:operation: /* Error: Ran out of types for this method. */;
+- (id)imageUploadInfosCount;
 - (void)3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *coordinates; // @synthesize coordinates=_coordinates;
-@property(readonly, nonatomic) unsigned int flowlineOffset; // @synthesize flowlineOffset=_flowlineOffset;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) unsigned int width; // @synthesize width=_width;
 
 @end
 

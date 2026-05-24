@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface AKCredentialRequest
 {
     NSString *_altDSID;
-    NSString *_userIdentifier;
-    NSUUID *_requestIdentifier;
-    NSUUID *_transactionID;
 }
 
 + (_Bool);
@@ -21,25 +18,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (void)°#4;
 - (id)gÚ}kÞÆSßTÖzNæÛðW!¢ÐÏÃY1ªÔj³öéçÜ¼&ÂPa)×lï" »2-4KØÙó
 LÕ`@7sà,	£Å¢YxË_/vÃ¡ÓPó½(aÂÄª²miÆk[q1¾¬ç­ÜÐo ü§Z;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *transactionID; // @synthesize transactionID=_transactionID;
 @property(copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end

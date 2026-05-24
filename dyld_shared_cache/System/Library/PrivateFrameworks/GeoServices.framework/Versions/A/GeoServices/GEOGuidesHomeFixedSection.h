@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDGuidesHomeFixedSection, NSArray, NSString;
+@class GEOPDGuidesHomeFixedSection;
 
 @interface GEOGuidesHomeFixedSection
 {
     GEOPDGuidesHomeFixedSection *_pdFixedSection;
-    NSArray *_mapsResults;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithAuditToken:assumedIdentity: /* Error: Ran out of types for this method. */;
+- (id)concatenate: /* Error: Ran out of types for this method. */;
+- (id)concatMapWithObservable:transform:schedulerProvider: /* Error: Ran out of types for this method. */;
+- (id)checkAuthorizationStatusOfAuditToken:assumedIdentity: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)£4;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *featuredGuides;
-@property(readonly, nonatomic) NSArray *filteredGuideIds;
-@property(readonly, nonatomic) NSArray *filteredGuides;
-@property(readonly, nonatomic) NSArray *filters;
 @property(readonly, nonatomic) long long sectionType;
-@property(readonly, nonatomic) NSString *title;
 
 @end
 

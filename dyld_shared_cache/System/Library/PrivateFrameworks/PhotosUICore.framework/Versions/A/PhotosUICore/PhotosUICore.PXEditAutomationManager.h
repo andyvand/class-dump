@@ -7,7 +7,6 @@
 @interface PhotosUICore.PXEditAutomationManager
 {
     id _collectAssetObserver;
-    id _automationDelegate;
 }
 
 - (void);

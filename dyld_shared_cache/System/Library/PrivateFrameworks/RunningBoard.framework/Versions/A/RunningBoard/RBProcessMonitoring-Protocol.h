@@ -8,6 +8,8 @@
 @protocol OS_dispatch_queue;
 
 @protocol RBProcessMonitoring
+- (void);
+- (NSObject<OS_dispatch_queue> *)A;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *monitorSerializationQueue;

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSuggestionsContacts, MapsSuggestionsMapsSync, MapsSuggestionsMeCard, MapsSuggestionsObservers, MapsSuggestionsRoutine, NSArray, NSMutableArray, NSString;
-@protocol MapsSuggestionsShortcutStorage, MapsSuggestionsShortcutSuggestor;
+@class NSString;
 
 @interface MapsSuggestionsShortcutManager
 {
     struct Queue _queue;
-    id <MapsSuggestionsShortcutStorage> _storage;
-    id <MapsSuggestionsShortcutSuggestor> _suggestor;
-    MapsSuggestionsRoutine *_routine;
-    MapsSuggestionsContacts *_contacts;
-    MapsSuggestionsMapsSync *_mapsSync;
-    NSMutableArray *_hiddenShortcuts;
-    _Bool _usingMyPlaces;
-    MapsSuggestionsMeCard *_rawMeCard;
-    MapsSuggestionsObservers *_meCardObservers;
-    MapsSuggestionsMeCard *_currCorrectedMeCard;
-    NSArray *_rawHomeAddressStrings;
-    NSArray *_rawWorkAddressStrings;
-    NSArray *_rawSchoolAddressStrings;
 }
 
 - (BOOL);
@@ -44,20 +30,47 @@
 - (BOOL);
 - (BOOL);
 - (id);
-- (id);
-- (id);
-- (BOOL);
+- (id)_monitorDisplayEDRHeadroom:(id)arg1;
+- (id)effectAmount.x + effectAmount.y));					
+																					
+	slum = spix.b;																	
+	effectAmount = CalEffectAmount(slum, pix.r, coeff1, coeff2, coeff3, coeff4, coeff5, coeff6, coeff7);										
+    shdPix = pix * k.x;																
+    opix3 = mix(pix, shdPix, effectAmount.x);										
+    hltPix = mix(1.0, opix3.r, k.y);												
+    slum = mix(opix3.r, hltPix, effectAmount.y);									
+    midPix = mix(0.5, slum, k.z);													
+    opix3.rgb = mix(pix.rgb, opix3.rgb, k.w);										
+    opix3.r = mix(midPix, slum, (effectAmount.x + effectAmount.y));					
+																					
+	opix = (opix1 + opix2 + opix3) * 0.33333333;									
+	opix.a = pix.a;																	
+																					
+    return opix;																	
+}																					
+					 																
+kernel vec4 luminize (sampler src1, sampler src2, sampler src3)						
+	__attribute__ ((no_merge_sample))												
+{																					
+	vec4 pix, outv;																	
+	pix = unpremultiply(sample(src1, samplerCoord(src1)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.r   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src2, samplerCoord(src2)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.g   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src3, samplerCoord(src3)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.b   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	outv.a   = 1.0;																	
+	return outv;																	
+}																					
+;
+- (BOOL);
 - (void)0:8 /* Error: Ran out of types for this method. */;
 - (id)acker REFRESH;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

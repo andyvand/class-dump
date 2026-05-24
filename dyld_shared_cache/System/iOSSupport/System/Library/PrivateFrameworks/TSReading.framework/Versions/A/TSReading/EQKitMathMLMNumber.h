@@ -10,8 +10,8 @@
 {
 }
 
-- (struct Schemata);
-- (_Bool);
+- (struct Schemata)] ?;
+- (_Bool);
 
 @end
 

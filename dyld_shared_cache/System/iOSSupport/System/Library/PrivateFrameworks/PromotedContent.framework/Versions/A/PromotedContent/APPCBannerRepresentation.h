@@ -6,14 +6,11 @@
 
 #import <PromotedContent/APPCContentRepresentation.h>
 
-@class APPCOutstreamVideoInfo, NSNumber, NSString;
+@class NSString;
 
 @interface APPCBannerRepresentation : APPCContentRepresentation
 {
     void adTag;
-    NSNumber *adamIdentifier;
-    long long appAdTemplateType;
-    APPCOutstreamVideoInfo *outstreamVideoInfo;
 }
 
 - (id);
@@ -25,9 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *adTag;
-@property(nonatomic, readonly) NSNumber *adamIdentifier; // @synthesize adamIdentifier;
-@property(nonatomic, readonly) long long appAdTemplateType; // @synthesize appAdTemplateType;
-@property(nonatomic, readonly) APPCOutstreamVideoInfo *outstreamVideoInfo; // @synthesize outstreamVideoInfo;
 
 @end
 

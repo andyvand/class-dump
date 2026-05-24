@@ -7,12 +7,6 @@
 @interface NewsFeed.FeedPersonalizationDetailCommandHandler
 {
     id sceneProvider;
-    id cloudContext;
-    id feedPersonalizer;
-    id tagService;
-    id webEmbedDataSourceService;
-    id radarAttachmentProvider;
-    id history;
 }
 
 @end

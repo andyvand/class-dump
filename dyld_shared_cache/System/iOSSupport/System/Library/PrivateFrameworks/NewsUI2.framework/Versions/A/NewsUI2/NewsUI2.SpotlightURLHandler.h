@@ -7,10 +7,6 @@
 @interface NewsUI2.SpotlightURLHandler
 {
     id patterns;
-    id navigator;
-    id configurationManager;
-    id articleContextFactory;
-    id featureAvailability;
 }
 
 @end

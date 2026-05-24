@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class NSArray;
 
 @interface DODMLASRSchemaDODMLASRUserEditExperimentEnded : SISchemaInstrumentationMessage
 {
     NSArray *_redecodingResults;
-    SISchemaUUID *_linkId;
-    unsigned int _numAudioFilesAvailable;
-    unsigned int _numAudioFilesSelected;
-    int _errorCode;
-    struct {
-        unsigned int numAudioFilesAvailable:1;
-        unsigned int numAudioFilesSelected:1;
-        unsigned int errorCode:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -46,9 +36,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)PApp.mm;
+- (_Bool)kIPCGuidanceStateReplyIsAlertingKey;
+- (id)com.apple.nfcd.exceptions.hardwareFault;
 - (void);
 - (void);
 - (unsigned long long);
@@ -56,22 +46,13 @@
 - (_Bool);
 - (id);
 - (id)1};
-- (id)ded;
+- (id)ORCHSchemaORCHShimToolEnded;
 - (id)Lç;
 - (void)9%;
 - (void)ç(';
 - (int)¡Å³½A,;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasNumAudioFilesAvailable;
-@property(nonatomic) _Bool hasNumAudioFilesSelected;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) unsigned int numAudioFilesAvailable; // @synthesize numAudioFilesAvailable=_numAudioFilesAvailable;
-@property(nonatomic) unsigned int numAudioFilesSelected; // @synthesize numAudioFilesSelected=_numAudioFilesSelected;
 @property(copy, nonatomic) NSArray *redecodingResults; // @synthesize redecodingResults=_redecodingResults;
 
 @end

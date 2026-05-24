@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSDictionary, NSMutableDictionary;
 
 @interface _PXStoryMemoryGraphChapter
 {
@@ -14,16 +14,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)nt;
+- (void)1. + (.5 - absP1) * invRadii; 
+			shadowStrengthXY = 1. + (absP2 - .5) * shadow.zw; 
+		} 
+		;
+- (id)PXStoryInactiveImageAdjustment;
 - (void)ssion observable:(id)arg1 didChange:context:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)Mb?;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *graphChapterDictionary;
-@property(copy, nonatomic) NSString *localizedSubtitle;
-@property(copy, nonatomic) NSString *localizedTitle;
 
 @end
 

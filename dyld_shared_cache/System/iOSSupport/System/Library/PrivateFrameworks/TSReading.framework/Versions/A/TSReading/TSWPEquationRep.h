@@ -6,39 +6,32 @@
 
 #import <TSReading/TSDRep.h>
 
-@class CALayer, NSString;
+@class CALayer;
 
 @interface TSWPEquationRep : TSDRep
 {
     CALayer *_equationLayer;
 }
 
-- (struct CGRect);
-- (void);
-- (void);
-- (id);
+- (struct CGRect)teningQueueEvent:(id)arg1 %p unknown/invalid>;
+- (void)RE _ns > @lastNS && _ns < @maximumNS ORDER BY _ns;
+- (void)avSchedulingDelayCount;
+- (id)PodcastsArtworkCatalogDataSource;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id)ñÿÙ`[üJ;
 - (void)¸qËÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CALayer *equationLayer; // @synthesize equationLayer=_equationLayer;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

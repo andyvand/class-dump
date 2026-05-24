@@ -6,7 +6,7 @@
 
 #import <CloudKitDaemon/CKDPCSCacheFetchOperation.h>
 
-@class CKDSharePCSData, CKRecordID;
+@class CKRecordID;
 
 @interface CKDPCSCacheShareFetchOperation : CKDPCSCacheFetchOperation
 {
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CKRecordID *shareID;
-@property(retain, nonatomic) CKDSharePCSData *sharePCSData;
 
 @end
 

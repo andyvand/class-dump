@@ -5,5 +5,6 @@
 //
 
 @protocol CNCDManagedObjectContext
++ (id)Ã;
 @end
 

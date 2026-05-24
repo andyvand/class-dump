@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface BWNoiseReductionAndSharpeningParameters
 {
     NSString *_portType;
-    NSDictionary *_noiseReductionAndSharpeningConfiguration;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)ataForOriginalImage;
+- (id)spatialOverCaptureMetadataForOriginalImage;
 - (id)lsOverCapture;
 
 @end

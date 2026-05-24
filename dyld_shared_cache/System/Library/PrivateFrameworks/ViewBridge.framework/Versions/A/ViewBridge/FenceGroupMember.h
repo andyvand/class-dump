@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FenceGroup, NSString;
+@class FenceGroup;
 
 __attribute__((visibility("hidden")))
 @interface FenceGroupMember
 {
     unsigned int _fenceGroupAcquisition;
-    NSString *_senderDisplayName;
-    FenceGroup *_fenceGroup;
 }
 
-- (void);
+- (void)JDy(;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)p;
+- (void)_	ki2;
 - (id);
 
 // Remaining properties

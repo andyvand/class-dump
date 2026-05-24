@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)raphSubmeaningOfEdge;
+- (id)reportFetchCompletionOfType:forIconURL:iconSize:didSucceed:didUseOffScreenWebView:response:error: /* Error: Ran out of types for this method. */;
+- (id)PGGraphSubmeaningOfEdge;
 
 @end
 

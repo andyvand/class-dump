@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSSet;
 
 @interface HMCameraStreamAudioPreferences
 {
@@ -12,38 +12,21 @@
 }
 
 + (id);
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool)VCCommandObjCError;
+- (void)intensiveResourceTaskManager;
+- (id)initWithAsset:collectionShare:type: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)mutiny;
+- (id)ictiveInput.enabled;
 - (void);
 - (id);
 - (void)´	;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @property(copy) NSSet *codecs; // @synthesize codecs=_codecs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

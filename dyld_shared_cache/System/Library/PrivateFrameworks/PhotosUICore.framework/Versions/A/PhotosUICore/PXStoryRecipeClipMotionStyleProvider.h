@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFStoryAutoEditConfiguration, PFStoryAutoEditFrequencyTable, PXStoryConfiguration;
-@protocol PFRandomNumberGenerator;
+@class PFStoryAutoEditConfiguration, PFStoryAutoEditFrequencyTable;
 
 @interface PXStoryRecipeClipMotionStyleProvider
 {
     PFStoryAutoEditFrequencyTable *_frequencyTable;
-    PFStoryAutoEditFrequencyTable *_diptychFrequencyTable;
-    PFStoryAutoEditFrequencyTable *_triptychFrequencyTable;
-    id <PFRandomNumberGenerator> _randomNumberGenerator;
-    PFStoryAutoEditConfiguration *_configuration;
-    PXStoryConfiguration *_storyConfiguration;
 }
 
-- (CDStruct_b8e7e30c);
+- (CDStruct_412fc33d);
 - (id);
 - (void);
-- (CDStruct_b8e7e30c);
-- (CDStruct_b8e7e30c);
-- (CDStruct_b8e7e30c);
+- (CDStruct_412fc33d);
+- (CDStruct_412fc33d);
+- (CDStruct_412fc33d);
 - (id);
 - (long long);
 - (id);
@@ -31,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PFStoryAutoEditConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) PXStoryConfiguration *storyConfiguration; // @synthesize storyConfiguration=_storyConfiguration;
 
 @end
 

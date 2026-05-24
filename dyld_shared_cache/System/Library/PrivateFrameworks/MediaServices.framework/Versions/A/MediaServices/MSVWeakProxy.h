@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class Protocol;
-
 @interface MSVWeakProxy
 {
     id _object;
-    Protocol *_protocol;
 }
 
 + (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)configureLikenessEditorOnView:(id)arg1 forLikeness:contact:isMe: /* Error: Ran out of types for this method. */;
+- (id)h;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id object; // @synthesize object=_object;
-@property(readonly, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end
 

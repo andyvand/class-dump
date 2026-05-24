@@ -5,13 +5,13 @@
 //
 
 @interface UnknownClass (UIKitConvenienceAdditions)
-+ (id);
-- (struct _NSRange);
++ (id)tches to fetch as this is in demo mode.;
+- (struct _NSRange)ot get called;
 - (id);
 - (struct CGSize);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 @end
 

@@ -6,26 +6,17 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCloudContext, NSArray, NSString;
-@protocol FCCoreConfiguration;
-
 @interface FCTagFeedPromotedHeadlinesFetchOperation : FCOperation
 {
     CDUnknownBlockType _fetchCompletionHandler;
-    id <FCCoreConfiguration> _configuration;
-    FCCloudContext *_cloudContext;
-    NSString *_tagID;
-    double _expireAfterTimeWindow;
-    unsigned long long _filterOptions;
-    NSArray *_resultHeadlines;
 }
 
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)YouOntologyLevelConfig;
-- (void)ledHeadlines;
-- (void)0S_7jR0DQomAfs13u7DGdQ;
+- (void)shadowIntroToSportsGroupForYouOntologyLevelConfig;
+- (void)numberOfSampledHeadlines;
+- (void)T0S_7jR0DQomAfs13u7DGdQ;
 - (_Bool);
 
 // Remaining properties

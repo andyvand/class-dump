@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface USORedactedData
 {
     unique_ptr_455d35d0 mRedactedGraph;
-    NSArray *_redactedList;
 }
 
 - (void);
 - (void);
-- (id);
-- (unique_ptr_455d35d0);
+- (id);
+- (unique_ptr_455d35d0);
 - (id);
 - (id);
 - (void)1_ta_Generic;
 
 // Remaining properties
 @property(nonatomic) unique_ptr_455d35d0 redactedGraph;
-@property(retain, nonatomic) NSArray *redactedList; // @synthesize redactedList=_redactedList;
 
 @end
 

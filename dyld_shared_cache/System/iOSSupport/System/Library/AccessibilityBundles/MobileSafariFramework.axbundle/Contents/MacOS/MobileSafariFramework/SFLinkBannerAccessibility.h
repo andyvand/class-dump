@@ -11,14 +11,14 @@
 }
 
 + (Class);
-+ (id);
++ (id)isAccessibilityUserDefinedScrollAncestor;
 + (void);
 - (long long);
 - (id);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)PKEnhancedMerchantCollectionViewCellAccessibility;
 
 @end
 

@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSSearchAutoRedoThreshold
 {
     PBUnknownFields *_unknownFields;
-    double _panDeltaThresholdInMeters;
-    double _zoomInPercentThreshold;
-    double _zoomOutPercentThreshold;
-    unsigned int _numberOfVisiblePoisThreshold;
-    CDStruct_541951ee _flags;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)anifest"b1"read_wifiConnectionQualityProbeURLLegacy"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)acticAngle;
+- (id)_parallacticAngle;
 - (id)Ø5;
 - (void)3Mg'¯G@;
 

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface WPDPendingCompletions
 {
     NSMutableArray *_pendingCompletions;
-    unsigned long long _lastID;
-    NSString *_name;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -23,11 +21,9 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long),;
 
 // Remaining properties
-@property unsigned long long lastID; // @synthesize lastID=_lastID;
-@property(retain) NSString *name; // @synthesize name=_name;
 @property(retain) NSMutableArray *pendingCompletions; // @synthesize pendingCompletions=_pendingCompletions;
 
 @end

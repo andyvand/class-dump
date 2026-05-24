@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, NSCursor;
+@class AKController;
 
 @interface MUPDFViewBase
 {
     _Bool _restrainsMinZoomToViewSize;
-    AKController *_annotationController;
-    NSCursor *_annotationCursor;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=Q?	;
 - (_Bool);
 - (id);
 - (id);
@@ -30,14 +28,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)/;
 - (_Bool);
 
 // Remaining properties
 @property __weak AKController *annotationController; // @synthesize annotationController=_annotationController;
-@property(retain) NSCursor *annotationCursor; // @synthesize annotationCursor=_annotationCursor;
-@property(readonly) _Bool editable;
-@property _Bool restrainsMinZoomToViewSize; // @synthesize restrainsMinZoomToViewSize=_restrainsMinZoomToViewSize;
 
 @end
 

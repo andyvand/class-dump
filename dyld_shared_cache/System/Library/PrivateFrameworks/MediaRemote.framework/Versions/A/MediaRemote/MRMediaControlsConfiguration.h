@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
-
 @interface MRMediaControlsConfiguration
 {
     _Bool _shouldPreventAutorotation;
-    _Bool _allowsNowPlayingApplicationLaunch;
-    _Bool _sortByIsVideoRoute;
-    _Bool _useGenericDevicesIconInHeader;
-    int _presentingAppProcessIdentifier;
-    NSMutableArray *_customRows;
-    long long _style;
-    long long _initiatorStyle;
-    NSString *_routingContextUID;
-    NSString *_presentingAppBundleID;
-    NSString *_nowPlayingAppBundleID;
-    NSArray *_visibleMediaApps;
-    double _preferredWidth;
-    NSString *_routeUID;
-    struct CGRect _sourceRect;
 }
 
 + (_Bool);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (_Bool);
@@ -50,35 +34,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)errorTitle;
+- (_Bool)AFPowerContextPolicy::encodedPolicy /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)deType: /* Error: Ran out of types for this method. */;
+- (void)setEpisodeType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsNowPlayingApplicationLaunch; // @synthesize allowsNowPlayingApplicationLaunch=_allowsNowPlayingApplicationLaunch;
-@property(copy, nonatomic) NSMutableArray *customRows; // @synthesize customRows=_customRows;
-@property(nonatomic) long long initiatorStyle; // @synthesize initiatorStyle=_initiatorStyle;
-@property(copy, nonatomic) NSString *nowPlayingAppBundleID; // @synthesize nowPlayingAppBundleID=_nowPlayingAppBundleID;
-@property(nonatomic) double preferredWidth; // @synthesize preferredWidth=_preferredWidth;
-@property(copy, nonatomic) NSString *presentingAppBundleID; // @synthesize presentingAppBundleID=_presentingAppBundleID;
-@property(nonatomic) int presentingAppProcessIdentifier; // @synthesize presentingAppProcessIdentifier=_presentingAppProcessIdentifier;
-@property(copy, nonatomic) NSString *routeUID; // @synthesize routeUID=_routeUID;
-@property(copy, nonatomic) NSString *routingContextUID; // @synthesize routingContextUID=_routingContextUID;
-@property(nonatomic) _Bool shouldPreventAutorotation; // @synthesize shouldPreventAutorotation=_shouldPreventAutorotation;
-@property(nonatomic) _Bool sortByIsVideoRoute; // @synthesize sortByIsVideoRoute=_sortByIsVideoRoute;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
 @property(nonatomic) long long style; // @synthesize style=_style;
-@property(nonatomic) _Bool useGenericDevicesIconInHeader; // @synthesize useGenericDevicesIconInHeader=_useGenericDevicesIconInHeader;
-@property(copy, nonatomic) NSArray *visibleMediaApps; // @synthesize visibleMediaApps=_visibleMediaApps;
 
 @end
 

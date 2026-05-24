@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOXPCConnection, NSString;
+@class NSString;
 
 @interface GEOResourceManifestUpdateAssertion
 {
     NSString *_reason;
-    double _creationTimestamp;
-    GEOXPCConnection *_connection;
-    int _notifyToken;
 }
 
 - (void);
 - (void);
 - (id);
 - (id)pires;
-- (id);
+- (id)h;
 - (void)ùKú$3P@;
 
 @end

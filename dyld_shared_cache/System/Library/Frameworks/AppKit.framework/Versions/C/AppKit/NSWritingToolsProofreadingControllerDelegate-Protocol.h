@@ -5,5 +5,10 @@
 //
 
 @protocol NSWritingToolsProofreadingControllerDelegate
+
+@optional
+- (_Bool)%s;
+- (_Bool)d to connect to service %s;
+- (void)reenSN %@;
 @end
 

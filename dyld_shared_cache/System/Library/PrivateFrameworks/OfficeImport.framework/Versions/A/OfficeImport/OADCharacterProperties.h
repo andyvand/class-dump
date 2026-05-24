@@ -6,90 +6,54 @@
 
 #import <OfficeImport/OADProperties.h>
 
-@class NSArray, NSString, OADColor, OADFill, OADHyperlink, OADStroke;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface OADCharacterProperties : OADProperties
 {
     NSString *mLatinFont;
-    NSString *mEastAsianFont;
-    NSString *mBidiFont;
-    NSString *mHAnsiFont;
-    NSString *mSymbolFont;
-    OADHyperlink *mClickHyperlink;
-    OADHyperlink *mHoverHyperlink;
-    OADFill *mFill;
-    OADStroke *mStroke;
-    NSArray *mEffects;
-    OADFill *mUnderlineFill;
-    OADStroke *mUnderlineStroke;
-    OADColor *mHighlight;
-    float mOpacity;
-    float mSize;
-    float mSpacing;
-    float mBaseline;
-    unsigned char mUnderlineType;
-    unsigned char mFormatType;
-    unsigned char mFormatKerningType;
-    unsigned char mStrikeThroughType;
-    unsigned char mCaps;
-    int mLanguage;
-    unsigned int mHasUnderlineFill:1;
-    unsigned int mHasUnderlineStroke:1;
-    unsigned int mHasHighlight:1;
-    unsigned int mHasOpacity:1;
-    unsigned int mHasIsBold:1;
-    unsigned int mIsBold:1;
-    unsigned int mHasIsItalic:1;
-    unsigned int mIsItalic:1;
-    unsigned int mHasUnderlineType:1;
-    unsigned int mHasFormatType:1;
-    unsigned int mHasFormatKerningType:1;
-    unsigned int mHasStrikeThroughType:1;
-    unsigned int mHasSize:1;
-    unsigned int mHasSpacing:1;
-    unsigned int mHasKerning:1;
-    unsigned int mHasIsVerticalText:1;
-    unsigned int mIsVerticalText:1;
-    unsigned int mHasIsRightToLeft:1;
-    unsigned int mIsRightToLeft:1;
-    unsigned int mHasBaseline:1;
-    unsigned int mHasIsHorizontalNormalized:1;
-    unsigned int mIsHorizontalNormalized:1;
-    unsigned int mHasCaps:1;
-    unsigned int mHasLanguage:1;
 }
 
 + (void);
 - (unsigned char);
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)@9;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -97,28 +61,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned char);
-- (void);
-- (id);
 - (id);
 - (unsigned char);
+- (void);
+- (id);
+- (id);
+- (unsigned char);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned char);
 - (void);
 - (_Bool);
@@ -138,11 +92,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (float);
+- (float)4;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)CGPoint=dd}24;
 - (float);
 - (int);
 - (void);
@@ -152,17 +106,11 @@ __attribute__((visibility("hidden")))
 - (_Bool)sonAdditions) sfu_appendJsonStringToString:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ø;
-- (void)ConsolidationInfo;
+- (void)23XlDataConsolidationInfo;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,10 +12,10 @@
 
 + (Class);
 + (id);
-+ (void);
-- (_Bool);
-- (unsigned long long);
-- (id);
++ (void)__PUTransparentViewAccessibility_super;
+- (_Bool);
+- (unsigned long long);
+- (id)navigationItem;
 
 @end
 

@@ -12,15 +12,9 @@ __attribute__((visibility("hidden")))
 @interface ITMediaItem : ITMediaEntity
 {
     unsigned long long _nameOrder;
-    unsigned long long _albumOrder;
-    unsigned long long _artistOrder;
-    unsigned long long _genreOrder;
-    unsigned long long _composerOrder;
-    unsigned long long _albumArtistOrder;
-    ITLibMediaItem *_itLibMediaItem;
 }
 
-+ (unsigned long long);
++ (unsigned long long)1;
 - (id);
 - (id);
 - (id);

@@ -7,10 +7,6 @@
 @interface FamilyCircleUI.FamilyRemoteUIDataSource
 {
     id account;
-    id httpMethod;
-    id resourceLoadDelegate;
-    id serviceManager;
-    id akUrlSession;
 }
 
 @end

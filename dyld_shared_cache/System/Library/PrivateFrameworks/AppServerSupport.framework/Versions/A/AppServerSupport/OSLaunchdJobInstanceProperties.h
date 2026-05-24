@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface OSLaunchdJobInstanceProperties
 {
     NSString *_sandboxProfile;
-    NSURL *_sandboxContainer;
-    NSDictionary *_environmentVariables;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *environmentVariables; // @synthesize environmentVariables=_environmentVariables;
-@property(retain, nonatomic) NSURL *sandboxContainer; // @synthesize sandboxContainer=_sandboxContainer;
 @property(copy, nonatomic) NSString *sandboxProfile; // @synthesize sandboxProfile=_sandboxProfile;
 
 @end

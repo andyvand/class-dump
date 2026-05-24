@@ -7,33 +7,6 @@
 @interface Speech.OndeviceRecord
 {
     id asrId;
-    id requestId;
-    id timestamp;
-    id invocationType;
-    id triggerType;
-    id asrTask;
-    id bundleId;
-    id clientId;
-    id geoLMRegionId;
-    id locale;
-    id audioDurationMs;
-    id recognitionDurationMs;
-    id completionState;
-    id snrRatio;
-    id pitch;
-    id jitLmeUsed;
-    id aotLmeUsed;
-    id jitLmeRecognized;
-    id aotLmeRecognized;
-    id deviceClass;
-    id deviceType;
-    id deviceBuild;
-    id isSiriOptIn;
-    id isAssistantEnabled;
-    id isDictationEnabled;
-    id enabledDictationLocales;
-    id activeDictationLanguages;
-    id isMultipleDictationKeyboardsInstalled;
 }
 
 @end

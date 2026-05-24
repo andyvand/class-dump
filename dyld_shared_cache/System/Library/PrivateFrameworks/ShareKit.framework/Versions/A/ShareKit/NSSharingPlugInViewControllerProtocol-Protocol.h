@@ -8,14 +8,14 @@
 
 @protocol NSSharingPlugInViewControllerProtocol
 
+@optional
+- (void)`m;
+- (NSImage *);
+
 // Remaining properties
 @property(retain) NSImage *previewImage;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSImage",?,&
-
-@property(getter=isPreviewImageVisible) _Bool previewImageVisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,GisPreviewImageVisible
 
 @end
 

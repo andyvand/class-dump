@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerItem, AVPlayerLayer, NSObject;
-@protocol OS_dispatch_queue;
+@class AVPlayerLayer;
 
 @interface PXFooterAnimatedIconView
 {
     unsigned long long _reasonsToPause;
-    struct os_unfair_lock_s _lock;
-    long long _lock_desiredMode;
-    NSObject<OS_dispatch_queue> *_queue;
-    AVPlayer *_player;
-    CDStruct_1b6d18a9 _introStartTime;
-    CDStruct_1b6d18a9 _loopStartTime;
-    CDStruct_1b6d18a9 _loopEndTime;
-    CDStruct_1b6d18a9 _outroEndTime;
-    float _playerRateBeforePause;
-    id _gridCycleTimeObservationToken;
-    long long _waitingState;
-    double _waitingStateStartTime;
-    _Bool _wantsGridCycleTimeObservation;
-    _Bool _isPlayerHidden;
-    _Bool _isPlayerPaused;
-    AVPlayerItem *_playerItem;
-    long long _style;
-    AVPlayerLayer *_playerLayer;
 }
 
 - (_Bool);
@@ -35,9 +16,9 @@
 - (void);
 - (void);
 - (long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -64,7 +45,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)SampleTexture1; 
+			lowp vec4 textColor = SampleTexture0; 
+			lowp float selectedColor = abs(mod(vTextureCoordinates1.s * uFactorX + vTextureCoordinates1.t * uFactorY, 16.) - 8.) - 3.5; 
+			color.rgb = mix(color.rgb, textColor.rgb * selectedColor * vec3(1., 1., 0.), textColor.a * (1.-SampleTexture2.r)); 
+			color.a = 1.; 
+			gl_FragColor = uColor * color; 
+		} 
+		;
 - (id)Â0@ù
 × ;
 - (void)q<Ð1Â0@ù
@@ -72,20 +60,12 @@
 - (id)orerDisplayAssetsFetchResult";
 - (void)AssetsPerStack:(id)arg1;
 - (id);
-- (void)rnalAction;
-- (void)eryProgressViewConfiguration;
+- (void)PeoplePromoteAsMagicInternalAction;
+- (void)PXModelDeliveryProgressViewConfiguration;
 - (void);
 
 // Remaining properties
-@property long long desiredMode;
-@property(readonly, nonatomic) _Bool isObscured;
-@property(nonatomic) _Bool isPlayerHidden; // @synthesize isPlayerHidden=_isPlayerHidden;
-@property(nonatomic) _Bool isPlayerPaused; // @synthesize isPlayerPaused=_isPlayerPaused;
-@property(retain, nonatomic) AVPlayerItem *playerItem; // @synthesize playerItem=_playerItem;
 @property(retain, nonatomic) AVPlayerLayer *playerLayer; // @synthesize playerLayer=_playerLayer;
-@property(readonly, nonatomic) long long presentedState;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(nonatomic) _Bool wantsGridCycleTimeObservation; // @synthesize wantsGridCycleTimeObservation=_wantsGridCycleTimeObservation;
 
 @end
 

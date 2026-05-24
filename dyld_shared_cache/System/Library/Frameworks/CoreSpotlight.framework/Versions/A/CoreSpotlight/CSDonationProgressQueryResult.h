@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol DonationProgressReporting;
-
 @interface CSDonationProgressQueryResult
 {
     unsigned long long _status;
-    NSString *_bundleID;
-    NSString *_indexName;
-    id <DonationProgressReporting> _donationProgress;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly) id <DonationProgressReporting> donationProgress; // @synthesize donationProgress=_donationProgress;
-@property(readonly) NSString *indexName; // @synthesize indexName=_indexName;
 @property(readonly) unsigned long long status; // @synthesize status=_status;
 
 @end

@@ -4,43 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableAttribute, INCodableDescription, NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface INCodableAttributeRelationship
 {
     NSDictionary *_originalDictionary;
-    INCodableAttribute *_parentCodableAttribute;
-    unsigned long long _relation;
-    NSArray *_values;
-    INCodableAttribute *_codableAttribute;
 }
 
 + (_Bool);
-+ (id)nType:(id)arg1 destinationName:(id *)arg2;
++ (id)initWithEntityType:(id)arg1 entityName:(id *)arg2 destinationType:destinationName: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)/Versions/A/AppleAccount;
+- (id)N,V_devMode;
+- (id)GCUserDefaultsXPCProxyServiceRemoteClientInterface;
+- (id)`C;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)uartzCore;
 - (void);
-- (void);
+- (id)a;
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)associateToNetworkHandler;
+- (void)erface.m;
 - (unsigned long long);
+- (id)A;
+- (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)j;
 - (id);
 - (void);
 - (_Bool);
@@ -48,27 +44,14 @@
 - (void);
 - (id);
 - (id);
-- (void)eason;
-- (id)ableDescription:(unsigned long long)arg1;
-- (Class)ithCompletion: /* Error: Ran out of types for this method. */;
+- (void)startCallIntentContactsUnsupportedReason;
+- (id)_intents_encodeWithJSONEncoder:(unsigned long long)arg1 codableDescription: /* Error: Ran out of types for this method. */;
+- (Class)provideSearchQueryOptionsCollectionForFindEvents:withCompletion: /* Error: Ran out of types for this method. */;
 - (void)atusIntentResponse;
 - (id)b;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak INCodableDescription *_codableDescription;
 @property(retain, nonatomic, setter=_setOriginalDictionary:) NSDictionary *_originalDictionary; // @synthesize _originalDictionary;
-@property(nonatomic) __weak INCodableAttribute *codableAttribute; // @synthesize codableAttribute=_codableAttribute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak INCodableAttribute *parentCodableAttribute; // @synthesize parentCodableAttribute=_parentCodableAttribute;
-@property(nonatomic) unsigned long long relation; // @synthesize relation=_relation;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) Class valueClass;
-@property(retain, nonatomic) NSArray *values; // @synthesize values=_values;
 
 @end
 

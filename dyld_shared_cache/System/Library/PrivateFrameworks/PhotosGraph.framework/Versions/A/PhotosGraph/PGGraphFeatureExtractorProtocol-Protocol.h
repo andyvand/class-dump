@@ -5,6 +5,7 @@
 //
 
 @protocol PGGraphFeatureExtractorProtocol
+- (unsigned long long)setUnderlyingQueue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long featureLength;

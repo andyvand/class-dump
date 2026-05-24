@@ -10,7 +10,6 @@
 @interface DEDAttachmentHandler
 {
     _Bool _compressOnAttach;
-    NSObject<OS_os_log> *_log;
 }
 
 - (void);
@@ -32,14 +31,13 @@
 - (id);
 - (id);
 - (id);
+- (id)ccount %@;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)registerGlobalVendor: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property _Bool compressOnAttach; // @synthesize compressOnAttach=_compressOnAttach;
 @property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
 
 @end

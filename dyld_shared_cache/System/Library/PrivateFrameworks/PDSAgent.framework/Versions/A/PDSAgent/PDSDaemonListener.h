@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PDSEntryStore, PDSUserTracker;
+@class NSArray;
 
 @interface PDSDaemonListener
 {
     _Bool _bypassClientIDCheck;
-    NSArray *_clientIDs;
-    PDSEntryStore *_entryStore;
-    PDSUserTracker *_userTracker;
 }
 
 - (void);
@@ -20,7 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ng max distance used for facet visibility determination, tile centroid ID,%llu;
 - (void);
 - (void);
 - (void);
@@ -33,10 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool bypassClientIDCheck; // @synthesize bypassClientIDCheck=_bypassClientIDCheck;
 @property(retain, nonatomic) NSArray *clientIDs; // @synthesize clientIDs=_clientIDs;
-@property(retain, nonatomic) PDSEntryStore *entryStore; // @synthesize entryStore=_entryStore;
-@property(retain, nonatomic) PDSUserTracker *userTracker; // @synthesize userTracker=_userTracker;
 
 @end
 

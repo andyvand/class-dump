@@ -7,11 +7,6 @@
 @interface NewsFeed.DebugFormatLayoutTreeViewController
 {
     id delegate;
-    id editor;
-    id styler;
-    id $__lazy_storage_$_layoutTreeViewController;
-    id $__lazy_storage_$_model;
-    id subscribers;
 }
 
 - (void);

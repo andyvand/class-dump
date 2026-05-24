@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationContext, CLSSceneTaxonomyHierarchy, PGCurationManager, PGGraphMomentNodeCollection, PGSearchComputationCache, PHPhotoLibrary;
+@class PGGraphMomentNodeCollection, PHPhotoLibrary;
 
 @interface PGZeroKeywordComputer
 {
     PHPhotoLibrary *_photoLibrary;
-    PGCurationManager *_curationManager;
-    CLSSceneTaxonomyHierarchy *_sceneTaxonomy;
-    CLSCurationContext *_curationContext;
-    _Bool _shouldFilterMomentNodesWithPresence;
-    PGSearchComputationCache *_searchComputationCache;
-    PGGraphMomentNodeCollection *_momentNodesWhereMeIsPresent;
 }
 
-+ (id);
++ (id)wifiStatus;
 + (id);
 - (id);
 - (id);
@@ -33,22 +27,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithAttributedString:(id)arg1;
+- (id)_lineRangeForElement:(id)arg1 centeredAroundLine:(id)arg2 numberOfLines:(CDUnknownBlockType)arg3;
+- (id)_layoutHash;
+- (id)_lastTrackedElement;
+- (id)_keyboardFocusedElementController;
+- (id)_isSystemMenuExtra;
+- (id)_inputMarkingSessionRange;
+- (id)AXKCompositeAction;
+- (id)AXKOrAction;
+- (id)m,o q,qr(r;
 - (void)ic-MultiModal-V1.0-PersonaVectorMultiModal-V1.0_DEPRECATED;
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodesWhereMeIsPresent; // @synthesize momentNodesWhereMeIsPresent=_momentNodesWhereMeIsPresent;
-@property(readonly, nonatomic) PGSearchComputationCache *searchComputationCache; // @synthesize searchComputationCache=_searchComputationCache;
-@property(readonly, nonatomic) _Bool shouldFilterMomentNodesWithPresence; // @synthesize shouldFilterMomentNodesWithPresence=_shouldFilterMomentNodesWithPresence;
 
 @end
 

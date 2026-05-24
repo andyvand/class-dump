@@ -9,13 +9,11 @@
 @interface UISceneWindowingBehaviors
 {
     UIWindowScene *_scene;
-    unsigned long long _localStyleMask;
-    unsigned long long _styleChangesMask;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool):%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);

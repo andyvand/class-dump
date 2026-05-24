@@ -6,22 +6,17 @@
 
 #import <OSLog/OSLogEnumerator.h>
 
-@class NSObject, OSLogEntry, OSLogEventStream;
-@protocol OS_dispatch_semaphore;
+@class OSLogEventStream;
 
 __attribute__((visibility("hidden")))
 @interface OSLogSystemEnumerator : OSLogEnumerator
 {
     OSLogEventStream *_stream;
-    OSLogEntry *_next;
-    _Bool _done;
-    NSObject<OS_dispatch_semaphore> *_pushDone;
-    NSObject<OS_dispatch_semaphore> *_handlerDone;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (id);
 - (void);

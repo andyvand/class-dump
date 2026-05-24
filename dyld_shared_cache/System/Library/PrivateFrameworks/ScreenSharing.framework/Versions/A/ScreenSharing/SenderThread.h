@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SSSession;
+@class NSObject;
 @protocol OS_dispatch_semaphore;
 
 __attribute__((visibility("hidden")))
 @interface SenderThread
 {
     _Bool _suspended;
-    NSObject<OS_dispatch_semaphore> *_suspendSemaphore;
-    struct __CFRunLoop *_runLoop;
-    SSSession *_session;
 }
 
 - (id);
@@ -23,20 +20,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (struct __CFRunLoop *);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (struct __CFRunLoop *);
+- (void)8@16@24@32@40@?48;
+- (void)rogramTrainer",R,N,V_programTrainer;
+- (void)P;
+- (void);
+- (_Bool)ism;
 - (void)DevicesAndContacts"16;
 - (void)[SSCallWindowController toggleControlObserve:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property struct __CFRunLoop *runLoop; // @synthesize runLoop=_runLoop;
-@property __weak SSSession *session; // @synthesize session=_session;
 @property NSObject<OS_dispatch_semaphore> *suspendSemaphore; // @synthesize suspendSemaphore=_suspendSemaphore;
-@property _Bool suspended; // @synthesize suspended=_suspended;
 
 @end
 

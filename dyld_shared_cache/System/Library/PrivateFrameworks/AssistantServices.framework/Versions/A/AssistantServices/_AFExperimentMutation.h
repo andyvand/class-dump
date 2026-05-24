@@ -4,48 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFExperiment, NSDictionary, NSString;
+@class AFExperiment;
 
 @interface _AFExperimentMutation
 {
     AFExperiment *_base;
-    NSString *_configurationIdentifier;
-    NSString *_configurationVersion;
-    NSString *_deploymentGroupIdentifier;
-    NSDictionary *_deploymentGroupProperties;
-    long long _deploymentReason;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasConfigurationIdentifier:1;
-        unsigned int hasConfigurationVersion:1;
-        unsigned int hasDeploymentGroupIdentifier:1;
-        unsigned int hasDeploymentGroupProperties:1;
-        unsigned int hasDeploymentReason:1;
-    } _mutationFlags;
 }
 
-- (id);
+- (id)don't know how to handle;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)o error was supplied that describes why it wasn't allowed;
 - (_Bool);
-- (id);
+- (id)stewie:roadside /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long);
-- (id)kTriggerWithContext:(id)arg1;
-- (void)ers;
+- (id)startAdvertisingFromInTaskTriggerWithContext:(id)arg1;
+- (void)_listeners;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

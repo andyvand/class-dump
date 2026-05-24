@@ -6,40 +6,32 @@
 
 #import <CloudPhotoLibrary/CPLRecordChange.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSData;
 
 @interface CPLPersonChange : CPLRecordChange
 {
     short _detectionType;
-    NSString *_fullName;
-    long long _personType;
-    long long _manualSortOrder;
-    long long _assetSortOrder;
-    NSString *_displayName;
-    long long _verifiedType;
-    NSString *_mergeTargetPersonIdentifier;
-    NSData *_contactDescriptor;
 }
 
 + (Class);
 + (_Bool);
++ (_Bool)!;
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool)=;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool)Locked;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (long long);
+- (void)isHotel;
+- (id)G;
+- (void)parsec_url_ordered_word_min_pair_distance;
+- (long long)parsec_description_TermFrequencies_Max_Prefix;
 - (long long);
 - (void);
 - (void);
@@ -52,23 +44,14 @@
 - (void);
 - (long long);
 - (void);
-- (id)ace:error: /* Error: Ran out of types for this method. */;
-- (id)@aô°áFù ` Ü`h¡ÐAi¡Ð)Á7Ñàª±ýªsm;
-- (void)?Ö;
+- (id);
+- (id);
+- (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) long long assetSortOrder; // @synthesize assetSortOrder=_assetSortOrder;
 @property(copy, nonatomic) NSData *contactDescriptor; // @synthesize contactDescriptor=_contactDescriptor;
-@property(copy, nonatomic) NSDictionary *contactMatchingDictionary;
-@property(nonatomic) short detectionType; // @synthesize detectionType=_detectionType;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(nonatomic) long long manualSortOrder; // @synthesize manualSortOrder=_manualSortOrder;
-@property(copy, nonatomic) NSString *mergeTargetPersonIdentifier; // @synthesize mergeTargetPersonIdentifier=_mergeTargetPersonIdentifier;
-@property(nonatomic) long long personType; // @synthesize personType=_personType;
-@property(nonatomic) long long verifiedType; // @synthesize verifiedType=_verifiedType;
 
 @end
 

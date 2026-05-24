@@ -7,15 +7,9 @@
 @class NSData;
 
 @protocol NFTagA
-- (NSData *);
+- (NSData *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *atqa;
-@property(readonly, copy, nonatomic) NSData *historicalBytes;
-@property(readonly, copy, nonatomic) NSData *sak;
-@property(readonly, copy, nonatomic) NSData *selectedAID;
-@property(readonly, nonatomic) unsigned char sfgi;
-@property(readonly, nonatomic) double sfgt;
-@property(readonly, nonatomic) _Bool supportsPACE;
 @end
 

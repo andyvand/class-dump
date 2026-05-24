@@ -7,14 +7,12 @@
 @interface SGNotificationListener
 {
     CDUnknownBlockType _callback;
-    struct __CFString *_notification;
-    struct _opaque_pthread_mutex_t _lock;
 }
 
 - (void);
-- (id);
+- (id)tem to remove with {url:(struct __CFString *)arg1 %@, account:(CDUnknownBlockType)arg2 %@};
 - (_Bool);
-- (void);
+- (void)formUnionWithCharacterSet: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

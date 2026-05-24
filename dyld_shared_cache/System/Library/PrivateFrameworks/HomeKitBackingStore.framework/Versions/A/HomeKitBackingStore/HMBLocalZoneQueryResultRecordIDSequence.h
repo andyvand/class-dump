@@ -6,14 +6,12 @@
 
 #import <HomeKitBackingStore/HMBLocalZoneQueryResult.h>
 
-@class NSData, NSMutableSet;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMBLocalZoneQueryResultRecordIDSequence : HMBLocalZoneQueryResult
 {
     NSData *_currentSequenceAsData;
-    NSData *_lastReturnedSequence;
-    NSMutableSet *_returnedIDs;
 }
 
 - (void);
@@ -26,13 +24,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)},N,V_leadingIconSize;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *currentSequenceAsData; // @synthesize currentSequenceAsData=_currentSequenceAsData;
-@property(retain, nonatomic) NSData *lastReturnedSequence; // @synthesize lastReturnedSequence=_lastReturnedSequence;
-@property(retain, nonatomic) NSMutableSet *returnedIDs; // @synthesize returnedIDs=_returnedIDs;
 
 @end
 

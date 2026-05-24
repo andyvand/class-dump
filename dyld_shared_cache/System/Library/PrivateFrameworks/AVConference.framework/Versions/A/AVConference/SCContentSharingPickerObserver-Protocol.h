@@ -5,5 +5,7 @@
 //
 
 @protocol SCContentSharingPickerObserver
+- (void);
+- (void);
 @end
 

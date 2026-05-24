@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKCacheDatabase, IKCacheManager, IKCacheNode;
+@class IKCacheManager;
 
 @interface IKCacheData
 {
     IKCacheManager *_parent;
-    IKCacheDatabase *_db;
-    IKCacheNode *_lastRequestedNode;
-    int _lastRequestedSize;
-    unsigned long long _lastRequestedUID;
 }
 
 - (unsigned long long);
@@ -26,7 +22,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)historicEventsWithSourceBundleIdentifier:(id)arg1 andIntent:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

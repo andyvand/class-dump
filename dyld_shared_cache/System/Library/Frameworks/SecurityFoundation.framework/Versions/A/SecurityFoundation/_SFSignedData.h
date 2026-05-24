@@ -12,9 +12,10 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)4@?0@"CNContact"8^B16;
+- (id);
+- (id)A
+;
 - (void);
 - (id);
 - (id);
@@ -22,7 +23,6 @@
 
 // Remaining properties
 @property(readonly) NSData *data;
-@property(readonly) NSData *signature;
 
 @end
 

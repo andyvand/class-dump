@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol PRRequestDelegate;
 
 @interface PRRequestQueue
 {
     id <PRRequestDelegate> _delegate;
-    NSString *_identifier;
 }
 
 + (id);
@@ -39,7 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <PRRequestDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

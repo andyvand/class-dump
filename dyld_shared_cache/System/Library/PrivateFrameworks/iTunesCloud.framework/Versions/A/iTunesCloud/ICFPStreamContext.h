@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface ICFPStreamContext
 {
     unsigned long long _accountID;
-    NSData *_playerInfoContextRequestData;
 }
 
 - (id);
@@ -23,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long accountID; // @synthesize accountID=_accountID;
-@property(readonly, copy, nonatomic) NSData *playerInfoContextRequestData; // @synthesize playerInfoContextRequestData=_playerInfoContextRequestData;
 
 @end
 

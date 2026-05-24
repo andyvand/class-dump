@@ -5,6 +5,9 @@
 //
 
 @protocol IMDaemonChatMessageHistoryProtocol
-- (void)kItemContinuation;
+- (void)`;
+- (void)c;
+- (void);
+- (void)asyncWorkItemContinuation;
 @end
 

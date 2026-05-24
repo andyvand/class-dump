@@ -7,17 +7,16 @@
 @interface CKDPRecordCryptoFeatureSet
 {
     int _minimumSchemaVersion;
-    CDStruct_fe6a063f _has;
 }
 
 - (void);
-- (void);
+- (void)(;
 - (int);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ransport audio format changed:%{asbd} = %@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasMinimumSchemaVersion;
-@property(nonatomic) int minimumSchemaVersion; // @synthesize minimumSchemaVersion=_minimumSchemaVersion;
 
 @end
 

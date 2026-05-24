@@ -4,75 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, TSDInteractiveCanvasController, TSDLayoutController, TSKAccessController, TSKChangeNotifier, TSKDocumentRoot, TSPObjectContext;
 @protocol TSDCanvasDelegate;
 
 @interface TSDCanvas
 {
     id <TSDCanvasDelegate> mDelegate;
-    TSDInteractiveCanvasController *mCanvasController;
-    NSArray *mInfos;
-    NSArray *mTopLevelReps;
-    NSSet *mAllReps;
-    NSArray *mAllRepsOrdered;
-    struct __CFDictionary *mRepsByLayout;
-    TSDLayoutController *mLayoutController;
-    _Bool mIsTemporaryForLayout;
-    struct CGSize mUnscaledSize;
-    double mViewScale;
-    double mContentsScale;
-    _Bool mWideGamut;
-    struct {
-        unsigned int layout:1;
-        unsigned int reps:1;
-        unsigned int visibleBounds:1;
-        unsigned int layers:1;
-    } mInvalidFlags;
-    _Bool mInLayout;
-    NSArray *mPreviouslyVisibleLayouts;
-    struct CGColor *mBackgroundColor;
-    struct UIEdgeInsets mContentInset;
-    _Bool mClipToCanvas;
-    _Bool mAllowsFontSubpixelQuantization;
-    _Bool pInTearDown;
 }
 
-+ (void);
++ (void);
 - (struct CGRect);
 - (id);
+- (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (_Bool)*;
 - (_Bool);
-- (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)a;
 - (struct CGRect);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)ٚ@;
 - (id);
-- (struct CGRect);
+- (struct CGRect)$f;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct CGImage *);
+- (struct CGImage *);
 - (_Bool);
 - (struct CGImage *);
 - (struct CGImage *);
-- (void);
-- (void);
-- (void);
+- (void)]k;
+- (void);
+- (void)k;
 - (void);
 - (struct CGContext *);
-- (void);
+- (void)]Lm;
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGSize);
@@ -81,14 +55,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (struct CGImage *);
 - (id);
-- (id);
+- (id)C;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -105,7 +79,7 @@
 - (struct CGRect);
 - (struct CGPoint);
 - (_Bool);
-- (id);
+- (id);
 - (double);
 - (id);
 - (void);
@@ -126,26 +100,7 @@
 - (void)ó;
 
 // Remaining properties
-@property(readonly, nonatomic) TSKAccessController *accessController;
-@property(readonly, nonatomic) NSArray *allRepsOrdered;
-@property(nonatomic) _Bool allowsFontSubpixelQuantization; // @synthesize allowsFontSubpixelQuantization=mAllowsFontSubpixelQuantization;
-@property(nonatomic) struct CGColor *backgroundColor; // @synthesize backgroundColor=mBackgroundColor;
-@property(readonly, nonatomic) TSDInteractiveCanvasController *canvasController;
-@property(readonly, nonatomic) _Bool canvasIsWideGamut;
-@property(readonly, nonatomic) TSKChangeNotifier *changeNotifier;
-@property(nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=mContentInset;
-@property(readonly, nonatomic) double contentsScale;
-@property(nonatomic) id <TSDCanvasDelegate> delegate; // @synthesize delegate=mDelegate;
-@property(readonly, nonatomic) TSKDocumentRoot *documentRoot;
-@property(copy, nonatomic) NSArray *infosToDisplay; // @synthesize infosToDisplay=mInfos;
-@property(readonly, nonatomic) _Bool isCanvasInteractive;
-@property(readonly, nonatomic) _Bool isTemporaryForLayout; // @synthesize isTemporaryForLayout=mIsTemporaryForLayout;
-@property(readonly, nonatomic) TSDLayoutController *layoutController; // @synthesize layoutController=mLayoutController;
-@property(readonly, nonatomic) TSPObjectContext *objectContext;
 @property(nonatomic) _Bool pInTearDown; // @synthesize pInTearDown;
-@property(readonly, nonatomic) _Bool supportsAdaptiveLayout;
-@property(nonatomic) struct CGSize unscaledSize; // @synthesize unscaledSize=mUnscaledSize;
-@property(nonatomic) double viewScale; // @synthesize viewScale=mViewScale;
 
 @end
 

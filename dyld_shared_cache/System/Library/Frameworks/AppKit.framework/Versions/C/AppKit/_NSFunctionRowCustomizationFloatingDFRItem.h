@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSTouchBarItem *_representedItem;
 }
 
-- (void);
+- (void)isk0 failed!;
 - (_Bool);
-- (id);
+- (id)-> %s config %p;
 - (void);
-- (_Bool)rentNotificationCenter;
+- (_Bool)currentNotificationCenter;
 
 // Remaining properties
 @property(retain) NSTouchBarItem *representedItem; // @synthesize representedItem=_representedItem;

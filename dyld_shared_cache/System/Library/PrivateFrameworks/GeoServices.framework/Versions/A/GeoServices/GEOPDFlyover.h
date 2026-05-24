@@ -4,41 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDFlyover
 {
     PBDataReader *_reader;
-    struct GEOPDCameraPathFrame *_cameraPaths;
-    unsigned long long _cameraPathsCount;
-    unsigned long long _cameraPathsSpace;
-    struct GEOPDLabelFrame *_labelFrames;
-    unsigned long long _labelFramesCount;
-    unsigned long long _labelFramesSpace;
-    NSMutableArray *_labels;
-    NSMutableArray *_notificationMessages;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _useSplines;
-    struct {
-        unsigned int has_useSplines:1;
-        unsigned int read_cameraPaths:1;
-        unsigned int read_labelFrames:1;
-        unsigned int read_labels:1;
-        unsigned int read_notificationMessages:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
++ (Class)ion/RoundRobinScheduler.swift;
 + (id);
-+ (_Bool)keRouteType:(id)arg1;
++ (_Bool)setHikeRouteType:(id)arg1;
 + (Class)º<;
-- (_Bool);
+- (_Bool)from the contacts XPC service. Service returned:%{public}@ /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (unsigned long long);
@@ -68,30 +48,23 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)P;
+- (id)tEvaluator;
+- (void)steningEnabledConditions]_block_invoke;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id)b1"read_paginationParameters"b1"read_searchFilter"b1"read_searchLocation"b1"read_searchString"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id)me:fallbackBundle:fallbackNameHandler: /* Error: Ran out of types for this method. */;
-- (id)RL;
+- (id)isDevResourceWithName:fallbackBundle:fallbackNameHandler: /* Error: Ran out of types for this method. */;
+- (id)_directionsURL;
 - (id)ÀP0RR!ìSXpXÌX;
 - (id)is_blending_scope;
 - (void)ÍÌÌÌÌÌ@Âõ(\k@;
 
 // Remaining properties
-@property(readonly, nonatomic) struct GEOPDCameraPathFrame *cameraPaths;
 @property(readonly, nonatomic) unsigned long long cameraPathsCount;
-@property(nonatomic) _Bool hasUseSplines;
-@property(readonly, nonatomic) struct GEOPDLabelFrame *labelFrames;
-@property(readonly, nonatomic) unsigned long long labelFramesCount;
-@property(retain, nonatomic) NSMutableArray *labels;
-@property(retain, nonatomic) NSMutableArray *notificationMessages;
-@property(nonatomic) _Bool useSplines;
 
 @end
 

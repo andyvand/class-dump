@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, QDSchemaQDEntityType;
-
 @interface ASRSchemaASRContextualEntityState : SISchemaInstrumentationMessage
 {
     int _contextType;
-    QDSchemaQDEntityType *_entityType;
-    int _enrollmentResult;
-    int _rejectReason;
-    struct {
-        unsigned int contextType:1;
-        unsigned int enrollmentResult:1;
-        unsigned int rejectReason:1;
-    } _has;
-    _Bool _hasEntityType;
 }
 
 - (void);
@@ -39,31 +28,23 @@
 - (void);
 - (_Bool);
 - (void);
+- (id)notificationWithName:(id)arg1 object:userInfo: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)=;
 - (int);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)rType: /* Error: Ran out of types for this method. */;
+- (id)8;
+- (id)setVoiceTriggerType: /* Error: Ran out of types for this method. */;
 - (id)c;
 - (id);
 - (void)Ë§ÿþµ±';
 
 // Remaining properties
 @property(nonatomic) int contextType; // @synthesize contextType=_contextType;
-@property(nonatomic) int enrollmentResult; // @synthesize enrollmentResult=_enrollmentResult;
-@property(retain, nonatomic) QDSchemaQDEntityType *entityType; // @synthesize entityType=_entityType;
-@property(nonatomic) _Bool hasContextType;
-@property(nonatomic) _Bool hasEnrollmentResult;
-@property(nonatomic) _Bool hasEntityType; // @synthesize hasEntityType=_hasEntityType;
-@property(nonatomic) _Bool hasRejectReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int rejectReason; // @synthesize rejectReason=_rejectReason;
 
 @end
 

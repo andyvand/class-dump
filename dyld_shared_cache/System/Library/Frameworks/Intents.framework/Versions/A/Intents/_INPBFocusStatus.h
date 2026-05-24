@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _INPBFocusStatus
 {
     struct {
         unsigned int isFocused:1;
     } _has;
-    _Bool _isFocused;
 }
 
 + (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
+- (_Bool)c;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)ved dynamic store disconnect callback, re-registering notification patterns/keys;
 - (id);
 - (id);
-- (_Bool)s;
+- (_Bool)promptDialogs;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasIsFocused;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isFocused; // @synthesize isFocused=_isFocused;
-@property(readonly) Class superclass;
 
 @end
 

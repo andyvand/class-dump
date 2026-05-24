@@ -13,8 +13,8 @@
 }
 
 + (id);
-+ (id);
-- (void);
++ (id)P;
+- (void)q;
 - (id);
 - (_Bool);
 - (id);

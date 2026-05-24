@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 
 + (id)e to nw connection!!! New bitrate down to %u;
 - (unsigned char);
-- (void);
+- (void),;
 - (void);
 - (id);
 - (_Bool)isLocalConnectionUnstable;
 
 // Remaining properties
 @property(readonly) _Bool isAvailable;
-@property(readonly) unsigned char wifiAssistState; // @synthesize wifiAssistState=_wifiAssistState;
 
 @end
 

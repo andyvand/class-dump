@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSFont;
-
 @interface PXCMMInvitationSpec
 {
     long long _layoutVariant;
@@ -29,29 +27,12 @@
 - (id);
 - (double);
 - (id);
-- (double);
+- (double);
 - (double)o show in the People Picker;
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double aspectRatio;
-@property(readonly, nonatomic) double bulletSize;
-@property(readonly, nonatomic) double cornerRadius;
-@property(readonly, nonatomic) double insets;
 @property(readonly, nonatomic) long long layoutVariant; // @synthesize layoutVariant=_layoutVariant;
-@property(readonly, nonatomic) NSColor *posterTitleColor;
-@property(readonly, nonatomic) NSFont *posterTitleFont;
-@property(readonly, nonatomic) NSColor *subtitle1Color;
-@property(readonly, nonatomic) NSFont *subtitle1Font;
-@property(readonly, nonatomic) NSColor *subtitle2Color;
-@property(readonly, nonatomic) NSFont *subtitle2Font;
-@property(readonly, nonatomic) double subtitleSpacing;
-@property(readonly, nonatomic) NSColor *titleBulletColor;
-@property(readonly, nonatomic) NSColor *titleColor;
-@property(readonly, nonatomic) NSFont *titleEmphasizedFont;
-@property(readonly, nonatomic) NSFont *titleFont;
-@property(readonly, nonatomic) double titleSpacing;
-@property(readonly, nonatomic) double verticalPadding;
 
 @end
 

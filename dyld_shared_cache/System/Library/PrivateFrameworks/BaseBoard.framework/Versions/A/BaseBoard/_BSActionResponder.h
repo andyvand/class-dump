@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSActionResponse, BSMachPortSendOnceRight, NSArray, NSObject, NSString;
-@protocol OS_dispatch_mach, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _BSActionResponder
 {
     NSObject<OS_dispatch_queue> *_originator_responseQueue;
-    CDUnknownBlockType _lock_originator_responseHandler;
-    NSObject<OS_dispatch_source> *_lock_originator_timeoutSource;
-    NSObject<OS_dispatch_source> *_lock_originator_replySource;
-    BSMachPortSendOnceRight *_reply;
-    NSObject<OS_dispatch_mach> *_lock_nullificationMach;
-    NSString *_lock_action_identifier;
-    NSArray *_lock_inactivationCallStack;
-    BSActionResponse *_lock_response;
-    NSObject<OS_dispatch_queue> *_lock_nullificationQueue;
-    CDUnknownBlockType _lock_nullificationHandler;
-    struct os_unfair_lock_s _lock;
-    _Bool _isOriginator;
-    _Bool _isOriginatorNull;
-    _Bool _lock_invalidateSendsNotPossible;
-    _Bool _lock_action_encoded;
-    _Bool _lock_action_sent;
-    _Bool _lock_action_invalidated;
-    _Bool _lock_annulled;
-    _Bool _lock_nullificationHandlerIsLegacy;
 }
 
 - (void);
@@ -43,13 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

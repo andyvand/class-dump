@@ -13,10 +13,10 @@
 + (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)`;
+- (_Bool)NLContextLength;
 - (void);
-- (id);
+- (id);
 
 @end
 

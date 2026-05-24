@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface BMPBSiriQueryEvent
 {
     double _absoluteTimestamp;
-    NSString *_contentProtection;
-    NSString *_personaId;
-    NSString *_query;
-    NSMutableArray *_results;
-    NSString *_uniqueId;
-    CDStruct_d3e759b0 _has;
 }
 
 + (Class);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -33,7 +25,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)kAirPortSecurityTypeWPA3PersonalKey;
 - (_Bool);
 - (id);
 - (id);
@@ -52,17 +44,7 @@
 - (void)defg;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasContentProtection;
-@property(readonly, nonatomic) _Bool hasPersonaId;
-@property(readonly, nonatomic) _Bool hasQuery;
-@property(readonly, nonatomic) _Bool hasUniqueId;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) NSString *query; // @synthesize query=_query;
-@property(retain, nonatomic) NSMutableArray *results; // @synthesize results=_results;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

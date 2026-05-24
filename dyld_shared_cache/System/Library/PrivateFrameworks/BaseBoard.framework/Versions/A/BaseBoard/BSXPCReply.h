@@ -10,7 +10,6 @@
 @interface BSXPCReply
 {
     NSObject<OS_xpc_object> *_reply;
-    int _sent;
 }
 
 + (id);
@@ -20,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)u;
 
 @end
 

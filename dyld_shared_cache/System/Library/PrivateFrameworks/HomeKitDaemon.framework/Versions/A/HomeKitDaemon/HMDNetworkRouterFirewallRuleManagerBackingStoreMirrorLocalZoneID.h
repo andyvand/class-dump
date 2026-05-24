@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleManagerBackingStoreMirrorLocalZoneID
@@ -15,31 +15,13 @@ __attribute__((visibility("hidden")))
 + (id)ðz8ÿ±È;
 - (id);
 - (id);
-- (id)OLForResidentDeviceRunningSoftwareVersion:(struct _NSZone *)arg1;
-- (id)g;
+- (id)isHH1EOLForResidentDeviceRunningSoftwareVersion:(struct _NSZone *)arg1;
+- (id)_uuidToObjectMapping;
 - (id)cessfully wrote streaming control start request;
 - (id)ed;
-- (void)_HOME_BEHAVIOR_DETAIL;
+- (void)BRIDGE_ACCESSORIES_HOME_BEHAVIOR_DETAIL;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSData *token; // @synthesize token=_token;
 
 @end

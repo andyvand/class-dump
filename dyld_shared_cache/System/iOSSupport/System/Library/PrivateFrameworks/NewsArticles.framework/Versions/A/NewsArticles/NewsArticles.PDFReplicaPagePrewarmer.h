@@ -7,8 +7,6 @@
 @interface NewsArticles.PDFReplicaPagePrewarmer
 {
     id pages;
-    id assetFetchService;
-    id cancelHandler;
 }
 
 @end

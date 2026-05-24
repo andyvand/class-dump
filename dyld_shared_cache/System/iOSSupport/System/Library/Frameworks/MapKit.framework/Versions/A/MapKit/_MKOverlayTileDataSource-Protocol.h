@@ -5,6 +5,7 @@
 //
 
 @protocol _MKOverlayTileDataSource
+- (void);
 
 // Remaining properties
 @property(readonly, getter=isGeometryFlipped) _Bool geometryFlipped;

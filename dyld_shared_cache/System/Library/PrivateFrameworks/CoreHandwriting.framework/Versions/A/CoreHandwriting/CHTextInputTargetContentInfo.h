@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTextInputTarget, NSIndexSet, NSString;
+@class CHTextInputTarget;
 
 @interface CHTextInputTargetContentInfo
 {
     CHTextInputTarget *_textInputTarget;
-    long long _textContentLength;
-    NSString *_referenceSubstring;
-    struct _NSRange _referenceSubstringRange;
-    struct CGRect *_characterRectsInReferenceSubstring;
-    struct _NSRange _strokeCoveredTextRange;
-    struct _NSRange _selectedTextRange;
-    _Bool _isCursorStrong;
-    _Bool _containsCommittedStrokes;
-    struct _NSRange _activePreviewRange;
-    int _contentType;
-    int _autoCapitalizationMode;
-    int _autoCorrectionMode;
-    int _baseWritingDirection;
-    _Bool _isSingleLine;
-    _Bool _supportsAutoLineBreaks;
-    long long _lastCharacterLevelPosition;
-    NSIndexSet *_protectedCharacterIndexes;
 }
 
 - (struct CGRect);
@@ -50,15 +33,15 @@
 - (void);
 - (_Bool);
 - (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)c;
+- (struct CGRect)Q;
 - (int);
 - (int);
 - (struct _NSRange);
 - (long long);
 - (id);
-- (int);
-- (void);
+- (int)s/C/AppKit;
+- (void)d, creationType:%d, fav:%d, user:%d, reject:%d [%d/%d - %@], featuredState:%d, syndicatedContentState:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (int)0@ù
@@ -67,22 +50,6 @@
 - (struct _NSRange)Ô;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange activePreviewRange; // @synthesize activePreviewRange=_activePreviewRange;
-@property(readonly, nonatomic) int autoCapitalizationMode; // @synthesize autoCapitalizationMode=_autoCapitalizationMode;
-@property(readonly, nonatomic) int autoCorrectionMode; // @synthesize autoCorrectionMode=_autoCorrectionMode;
-@property(readonly, nonatomic) int baseWritingDirection; // @synthesize baseWritingDirection=_baseWritingDirection;
-@property(readonly, nonatomic) _Bool containsCommittedStrokes; // @synthesize containsCommittedStrokes=_containsCommittedStrokes;
-@property(readonly, nonatomic) int contentType; // @synthesize contentType=_contentType;
-@property(readonly, nonatomic) _Bool isCursorStrong; // @synthesize isCursorStrong=_isCursorStrong;
-@property(readonly, nonatomic) _Bool isSingleLine; // @synthesize isSingleLine=_isSingleLine;
-@property(readonly, nonatomic) long long lastCharacterLevelPosition; // @synthesize lastCharacterLevelPosition=_lastCharacterLevelPosition;
-@property(readonly, copy, nonatomic) NSIndexSet *protectedCharacterIndexes; // @synthesize protectedCharacterIndexes=_protectedCharacterIndexes;
-@property(readonly, copy, nonatomic) NSString *referenceSubstring; // @synthesize referenceSubstring=_referenceSubstring;
-@property(readonly, nonatomic) struct _NSRange referenceSubstringRange; // @synthesize referenceSubstringRange=_referenceSubstringRange;
-@property(readonly, nonatomic) struct _NSRange selectedTextRange; // @synthesize selectedTextRange=_selectedTextRange;
-@property(readonly, nonatomic) struct _NSRange strokeCoveredTextRange; // @synthesize strokeCoveredTextRange=_strokeCoveredTextRange;
-@property(readonly, nonatomic) _Bool supportsAutoLineBreaks; // @synthesize supportsAutoLineBreaks=_supportsAutoLineBreaks;
-@property(readonly, nonatomic) long long textContentLength; // @synthesize textContentLength=_textContentLength;
 @property(readonly, nonatomic) CHTextInputTarget *textInputTarget; // @synthesize textInputTarget=_textInputTarget;
 
 @end

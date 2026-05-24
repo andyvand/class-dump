@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol JetEngine.JSNetObjectExports__priv_E3DD9B86F26A226B87DD24EC834542AC
+- (JSValue *);
 @end
 

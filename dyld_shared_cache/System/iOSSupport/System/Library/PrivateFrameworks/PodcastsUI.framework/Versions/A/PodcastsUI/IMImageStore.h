@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMImageDiskCache, IMMemoryCache, NSOperationQueue, NSString;
+@class NSString;
 
 @interface IMImageStore
 {
     CDUnknownBlockType _alternativeSize;
-    NSString *_name;
-    NSOperationQueue *_fetchOperationQueue;
-    double _maxImageDimensionInPixels;
-    IMMemoryCache *_memoryCache;
-    IMImageDiskCache *_diskCache;
 }
 
 + (double);
 + (unsigned long long);
 + (int);
 + (CDUnknownBlockType);
-+ (unsigned long long);
++ (unsigned long long)0;
 + (id);
 + (id);
 + (id);
@@ -39,21 +34,21 @@
 - (void);
 - (id);
 - (id);
+- (id)e;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)*;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
+- (void);
+- (void)prcsprcs;
 - (void);
+- (void)csedcsed;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)rddardda;
 - (void);
 - (void);
 - (void);
@@ -61,10 +56,10 @@
 - (void);
 - (void);
 - (id);
+- (id) ;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -76,28 +71,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)AppStoreKit;
 - (void);
 - (_Bool);
-- (void);
+- (void)(;
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType alternativeSize; // @synthesize alternativeSize=_alternativeSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableMemoryCache;
-@property(readonly, nonatomic) IMImageDiskCache *diskCache; // @synthesize diskCache=_diskCache;
-@property(retain, nonatomic) NSOperationQueue *fetchOperationQueue; // @synthesize fetchOperationQueue=_fetchOperationQueue;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maxImageDimensionInPixels; // @synthesize maxImageDimensionInPixels=_maxImageDimensionInPixels;
-@property(readonly, nonatomic) IMMemoryCache *memoryCache; // @synthesize memoryCache=_memoryCache;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

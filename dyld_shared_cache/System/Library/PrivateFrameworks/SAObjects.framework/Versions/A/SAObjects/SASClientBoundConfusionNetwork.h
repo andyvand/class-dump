@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString, SASRecognition;
+@class SASRecognition;
 
 @interface SASClientBoundConfusionNetwork : SABaseClientBoundCommand
 {
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SASRecognition *rawRecognition;
-@property(copy, nonatomic) NSString *sessionId;
 
 @end
 

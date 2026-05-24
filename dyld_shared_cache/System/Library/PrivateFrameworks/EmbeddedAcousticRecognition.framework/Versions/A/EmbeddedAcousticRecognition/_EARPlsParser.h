@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSMutableString, NSString, NSXMLParser;
+@class NSMutableDictionary, NSString;
 
 @interface _EARPlsParser
 {
     NSString *_currentGrapheme;
-    NSMutableSet *_currentPhonemes;
-    NSXMLParser *_parser;
-    NSMutableString *_elementValue;
-    NSMutableDictionary *_lexemes;
 }
 
 - (id);
@@ -24,14 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMutableDictionary *lexemes; // @synthesize lexemes=_lexemes;
-@property(readonly) Class superclass;
 
 @end
 

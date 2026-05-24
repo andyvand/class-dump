@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXExtendedTraitCollection, PXStoryConfiguration, UXViewController;
+@class PXStoryConfiguration;
 
 @interface PXStoryViewConfiguration
 {
     PXStoryConfiguration *_configuration;
-    PXExtendedTraitCollection *_extendedTraitCollection;
-    UXViewController *_containerViewController;
 }
 
 - (void);
@@ -20,13 +18,11 @@
 - (id);
 - (id)Ô'Ð!ØBù±:(id)arg1 1Â0@ù
 × ;
-- (id)reshold:(struct _NSZone *)arg1;
+- (id)setSwipeDownDismissalDistanceThreshold:(struct _NSZone *)arg1;
 - (void)½É;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) __weak UXViewController *containerViewController; // @synthesize containerViewController=_containerViewController;
-@property(readonly, nonatomic) PXExtendedTraitCollection *extendedTraitCollection; // @synthesize extendedTraitCollection=_extendedTraitCollection;
 
 @end
 

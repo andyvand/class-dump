@@ -11,8 +11,6 @@
 @interface PKOrderWindowController : PKWindowController
 {
     NSURL *_orderURL;
-    CDUnknownBlockType _completion;
-    _Bool _didAddOrder;
 }
 
 - (id);
@@ -25,7 +23,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (struct CGSize)est;
+- (struct CGSize)isMultiTokenRequest;
 
 // Remaining properties
 @property _Bool didAddOrder; // @synthesize didAddOrder=_didAddOrder;

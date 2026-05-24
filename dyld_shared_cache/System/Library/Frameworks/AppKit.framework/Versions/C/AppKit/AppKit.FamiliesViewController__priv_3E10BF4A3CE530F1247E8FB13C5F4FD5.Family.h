@@ -7,13 +7,9 @@
 @interface AppKit.FamiliesViewController__priv_3E10BF4A3CE530F1247E8FB13C5F4FD5.Family
 {
     id name;
-    id localizedName;
-    id sectionIdentifier;
-    id $__lazy_storage_$_font;
-    id $__lazy_storage_$_sampleString;
 }
 
-- (id);
+- (id)P;
 - (long long);
 - (_Bool)
 × ;

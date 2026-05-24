@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDateInterval, __CFN_TaskMetrics;
+@class NSArray, __CFN_TaskMetrics;
 
 @interface NSURLSessionTaskMetrics
 {
@@ -15,8 +15,6 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned long long redirectCount;
-@property(readonly, copy) NSDateInterval *taskInterval;
 @property(readonly, copy) NSArray *transactionMetrics;
 
 @end

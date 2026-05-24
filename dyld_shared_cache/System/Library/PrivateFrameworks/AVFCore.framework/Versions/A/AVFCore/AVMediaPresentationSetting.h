@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AVMediaPresentationSetting
 {
     NSString *_mediaCharacteristic;
-    NSDictionary *_displayNames;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)F;
 - (id);
 - (unsigned long long);
 - (_Bool);

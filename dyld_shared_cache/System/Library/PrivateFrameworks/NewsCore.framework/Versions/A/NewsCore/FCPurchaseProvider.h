@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCPrivateChannelMembershipController, FCPurchaseController, NSSet, NSString;
+@class FCPurchaseController, NSSet;
 
 @interface FCPurchaseProvider
 {
     FCPurchaseController *_purchaseController;
-    FCPrivateChannelMembershipController *_privateChannelMembershipController;
 }
 
 - (id);
@@ -17,14 +16,7 @@
 - (void)eInternal/Library/BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCArticleContent.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSSet *purchasedTagIDs;
-@property(readonly) Class superclass;
 
 @end
 

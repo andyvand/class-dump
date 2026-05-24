@@ -6,29 +6,17 @@
 
 #import <CMCapture/BWFileSinkNode.h>
 
-@class FigCaptureAudioFileRecordingSettings, FigStateMachine, NSObject;
-@protocol OS_dispatch_queue;
+@class FigStateMachine;
 
 @interface BWAudioFileSinkNode : BWFileSinkNode
 {
     FigStateMachine *_stateMachine;
-    struct OpaqueFigFormatWriter *_formatWriter;
-    struct OpaqueCMByteStream *_byteStream;
-    int _trackID;
-    _Bool _didBeginFileWriterSession;
-    char *_parentPath;
-    FigCaptureAudioFileRecordingSettings *_settings;
-    CDStruct_1b6d18a9 _startPTS;
-    CDStruct_1b6d18a9 _curFileDuration;
-    unsigned long long _curFileSize;
-    unsigned long long _adjustedMinFreeDiskSpace;
-    NSObject<OS_dispatch_queue> *_propertySyncQueue;
 }
 
-+ (void)upported;
-- (void);
++ (void)_stopSupported;
+- (void)pO;
 - (CDStruct_1b6d18a9);
-- (void);
+- (void)%@;
 - (void);
 - (id);
 - (unsigned long long);

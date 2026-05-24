@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTMetalHelper, NSString;
-@protocol MTLRenderPipelineState, MTLTexture;
-
 __attribute__((visibility("hidden")))
 @interface AVTRendererViewTransitionTechnique
 {
     _Bool _viewIsOpaque;
-    float _framebufferTextureOpacity;
-    id <MTLTexture> _snapshotTexture;
-    AVTMetalHelper *_helper;
-    id <MTLRenderPipelineState> _renderPipelineState;
-    CDStruct_bf23ece6 _renderPipelineStateDescriptor;
 }
 
 - (_Bool);
@@ -31,15 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) float framebufferTextureOpacity;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <MTLTexture> snapshotTexture;
-@property(readonly) Class superclass;
 
 @end
 

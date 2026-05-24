@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKProtobufPaymentMethod, PKProtobufShippingMethod;
+@class PKProtobufPaymentMethod;
 
 @interface PKProtobufPaymentHostUpdate
 {
     PKProtobufPaymentMethod *_paymentMethod;
-    NSString *_remotePaymentRequestIdentifier;
-    NSData *_shippingContact;
-    PKProtobufShippingMethod *_shippingMethod;
 }
 
-- (id);
+- (id)9?;
 - (void);
 - (void);
 - (void);
@@ -26,26 +23,19 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_;
+- (_Bool)SecTunnelStatus"b1"iWLANStatus"b1"lTEQoSAvailable"b1"wOWEnabled"b1"wiFiBSSIDChange"b1"wiFiPreferred"b1};
 - (void);
 - (id);
 - (id);
-- (void)G_SOURCE_ERROR_TITLE;
+- (void)ACCOUNT_SERVICE_UNKNOWN_PAYMENT_FUNDING_SOURCE_ERROR_TITLE;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPaymentMethod;
 @property(readonly, nonatomic) _Bool hasRemotePaymentRequestIdentifier;
-@property(readonly, nonatomic) _Bool hasShippingContact;
-@property(readonly, nonatomic) _Bool hasShippingMethod;
-@property(retain, nonatomic) PKProtobufPaymentMethod *paymentMethod; // @synthesize paymentMethod=_paymentMethod;
-@property(retain, nonatomic) NSString *remotePaymentRequestIdentifier; // @synthesize remotePaymentRequestIdentifier=_remotePaymentRequestIdentifier;
-@property(retain, nonatomic) NSData *shippingContact; // @synthesize shippingContact=_shippingContact;
-@property(retain, nonatomic) PKProtobufShippingMethod *shippingMethod; // @synthesize shippingMethod=_shippingMethod;
 
 @end
 

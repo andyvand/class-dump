@@ -7,18 +7,6 @@
 @interface AppKit.WindowTabIndexer
 {
     id _idleTimer;
-    id _currentIndexState;
-    id _indexName;
-    id _bundleIdentifier;
-    id _domainIdentifier;
-    id _contentType;
-    id _tabGroupKey;
-    id _windowPidKey;
-    id _windowPidVersionKey;
-    id _donationQueue;
-    id _csIndex;
-    id _pid;
-    id _pidVersion;
 }
 
 @end

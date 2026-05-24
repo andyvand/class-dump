@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, NSMapTable, NSMutableSet, NSString, NSUndoManager;
+@class AKController;
 
 @interface AKUndoController
 {
     _Bool _externalSourceTrackingChanged;
-    _Bool _undoGroupHasChangesToMultipleProperties;
-    NSUndoManager *_undoManager;
-    AKController *_controller;
-    NSMutableSet *_observedPageModelControllers;
-    NSMutableSet *_observedAnnotations;
-    NSString *_undoGroupPresentablePropertyName;
-    NSMapTable *_undoGroupOldPropertiesPerAnnotation;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)m.do;
+- (void)PodcastEpisode;
+- (void)AppleMusicAlbum;
+- (void)143444;
+- (void)sr;
+- (void)textColor3;
+- (void)nkPreviewMetadata"8@"NSError"16;
 - (id);
 - (id);
 - (void);
@@ -33,6 +26,7 @@
 - (void);
 - (void);
 - (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -40,8 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)@;
 - (_Bool);
 - (void);
 - (void);
@@ -49,7 +42,1225 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)attenuation;
+    SCNShaderSurface    surface;
+};
+
+
+static float3 scn_lighting_direction(SCNLightData lightData, uint lightInfo, thread SCNShaderSurface& surface)
+{
+    uint lightType = LIGHT_TYPE(lightInfo);
+    if (lightType == kC3DLightTypeDirectional) {
+        return lightData.direction;
+    }
+    return normalize(lightData.position - surface.position);
+}
+
+    
+static void scn_lambert_lighting(SCNLightingParameters params, thread SCNShaderLightingContribution& lightingContribution)
+{
+    SCNLightData lightData      = params.lightData;
+    SCNShaderSurface surface    = params.surface;
+    float3 l                    = params.lightDirection;
+    
+    float3 intensity = lightData.color.rgb * max(0.f, dot(surface.normal, l));
+    lightingContribution.diffuse += intensity;
+}
+
+static void scn_blinn_lighting(SCNLightingParameters params, thread SCNShaderLightingContribution& lightingContribution)
+{
+    SCNLightData lightData      = params.lightData;
+    SCNShaderSurface surface    = params.surface;
+    float3 l                    = params.lightDirection;
+
+    float3 intensity =  lightData.color.rgb * max(0.f, dot(surface.normal, l));
+    lightingContribution.diffuse += intensity;
+
+    float3 h = normalize(l + surface.view);
+    lightingContribution.specular += powr(max(0.f, dot(surface.normal, h)), surface.shininess) * intensity;
+}
+
+static void scn_phong_lighting(SCNLightingParameters params, thread SCNShaderLightingContribution& lightingContribution)
+{
+    SCNLightData lightData      = params.lightData;
+    SCNShaderSurface surface    = params.surface;
+    float3 l                    = params.lightDirection;
+    
+    float3 intensity = lightData.color.rgb * max(0.f, dot(surface.normal, l));
+    lightingContribution.diffuse += intensity;
+    
+    float3 r = reflect(-l, surface.normal);
+    lightingContribution.specular += pow(max(0.f, dot(r, surface.view)), surface.shininess) * intensity;
+}
+
+inline void scn_pbr_lightingContribution_pointLight(float3         l,
+                                                    float3         n,
+                                                    float3         v,
+                                                    float3         albedo,
+                                                    float          metalness,
+                                                    float          roughness,
+                                                    thread float3& lightingContributionDiffuse,
+                                                    thread float3& lightingContributionSpecular)
+{
+    float3 h = normalize(l + v);
+    
+    float NoL = saturate(dot(n, l));
+    float NoH = saturate(dot(n, h));
+    float LoH = saturate(dot(l, h));
+    
+    float  effectiveAlbedo = (1.f - metalness); 
+    float3 reflectance = mix(float3(PBR_F0_NON_METALLIC), albedo, metalness);
+    
+    float alpha = roughness * roughness; 
+    
+    float D   = scn_brdf_D(alpha, NoH);
+    float3 F  = scn_brdf_F_opt(reflectance, LoH);
+#if 0 
+    float Vis = scn_brdf_V_opt(alpha, LoH);
+#else
+    float NoV = saturate(dot(n, v));
+    float Vis = scn_brdf_V(alpha, NoL, NoV);
+#endif
+    
+    lightingContributionDiffuse = NoL * effectiveAlbedo * M_1_PI_F;
+    lightingContributionSpecular = NoL * D * F * Vis;
+}
+
+static void scn_pbr_lighting(SCNLightingParameters params, thread SCNShaderLightingContribution& lightingContribution)
+{
+    SCNLightData lightData      = params.lightData;
+    SCNShaderSurface surface    = params.surface;
+    float3 l                    = params.lightDirection;
+    
+    float3 diffuseOut, specularOut;
+    scn_pbr_lightingContribution_pointLight(l, surface.normal.xyz, surface.view, surface.diffuse.rgb, surface.metalness, surface.roughness, diffuseOut, specularOut);
+    
+    lightingContribution.diffuse    += diffuseOut  * lightData.pbrColor.rgb;
+    lightingContribution.specular   += specularOut * lightData.pbrColor.rgb;
+}
+
+static float scn_distance_attenuation(SCNLightingParameters params)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+
+    float3 l = params.surface.position - lightData.position;
+
+    if (use_pbr) {
+        uint lightType = LIGHT_TYPE(lightInfo);
+        if (lightType == kC3DLightTypeDirectional) { 
+            return 1.f;
+        }
+        return scn_pbr_distanceAttenuation(l);
+    } else {
+        uint distAttType = LIGHT_DIST_ATT(lightInfo);
+        if (distAttType != kC3DLightAttenuationTypeNone) {
+            
+            float3 att = lightData.distanceAttenuation;
+            float dist = length(l);
+            switch (distAttType) {
+                case kC3DLightAttenuationTypeConstant:(id)arg1 return step(dist, att.x);
+                case kC3DLightAttenuationTypeLinear:return saturate(dist * att.x + att.y);
+                case kC3DLightAttenuationTypeQuadratic:return scn::sq(saturate(dist * att.x + att.y));
+                case kC3DLightAttenuationTypeExponent:return pow(saturate(dist * att.x + att.y), att.z);
+            }
+        }
+    }
+    return 1.f;
+}
+
+static float scn_spot_attenuation(SCNLightingParameters params)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+    float3 l                = params.lightDirection;
+    
+    uint spotAttType = LIGHT_SPOT_ATT(lightInfo);
+    if (spotAttType != kC3DLightAttenuationTypeNone) {
+        
+        float3 spotFactors = lightData.spotAttenuation;
+        switch (spotAttType) {
+            case kC3DLightAttenuationTypeConstant:return step(spotFactors.x, dot(l, lightData.direction));
+            case kC3DLightAttenuationTypeLinear:return saturate(dot(l, lightData.direction) * spotFactors.x + spotFactors.y);
+            case kC3DLightAttenuationTypeQuadratic:return scn::sq(saturate(dot(l, lightData.direction) * spotFactors.x + spotFactors.y));
+            case kC3DLightAttenuationTypeExponent:return pow(saturate(dot(l, lightData.direction) * spotFactors.x + spotFactors.y), spotFactors.z);
+        }
+    }
+    return 1.f;
+}
+
+
+
+static void scn_do_gobo(thread SCNLightingParameters& params, texture2d<float> goboMap)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+    float goboIntensity = lightData.color.a; 
+    float3 goboColor = texture2DProj(goboMap, linearSampler, (lightData.shadowMatrix * float4(params.surface.position, 1.f))).rgb;
+    if (LIGHT_IS_MODULATE(lightInfo)) {
+        params.attenuation *= mix(float3(1.), goboColor, goboIntensity);
+    } else {
+        params.attenuation *= goboColor * goboIntensity;
+    }
+}
+
+
+static void scn_do_ies(thread SCNLightingParameters& params, texture2d<float> iesMap, sampler iesSampler)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+    
+    params.lightDirection   = scn_lighting_direction(params.lightData, lightInfo, params.surface);
+    float3 spotFactors      = lightData.spotAttenuation;
+
+    float att = 0.f;
+    switch (LIGHT_IES_TYPE(lightInfo)) {
+        case kC3DLightIESType1D:att = iesMap.sample(iesSampler, float2(acos(dot(params.lightDirection, lightData.direction))*spotFactors.x, 0.f)).r;
+            break;
+            
+        case kC3DLightIESType2D:{
+            
+            float vertAngle     = acos(dot(params.lightDirection, lightData.direction));
+            
+            float3 surfaceRay   = params.surface.position - lightData.position;
+            float3 projPos = normalize(surfaceRay - dot(surfaceRay, lightData.direction) * lightData.direction);
+            float2 texCoord = float2(dot(projPos, lightData.right), dot(projPos, lightData.up)) * vertAngle * spotFactors.x;
+            att = iesMap.sample(iesSampler, texCoord * 0.5f + 0.5f).r;
+            
+        } break;
+    }
+    params.attenuation.rgb *= att;
+}
+
+
+static void scn_do_ies(thread SCNLightingParameters& params, texturecube<float> iesMap, sampler iesSampler)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+    
+    params.lightDirection   = scn_lighting_direction(params.lightData, lightInfo, params.surface);
+
+    if (LIGHT_IES_TYPE(lightInfo) == kC3DLightIESTypeCubemap) {
+        float att = iesMap.sample(iesSampler, (lightData.shadowMatrix * float4(params.surface.position, 1.f)).xyz).r;
+        params.attenuation.rgb *= att;
+    } 
+}
+
+static void scn_do_shadow(thread SCNLightingParameters& params, depth2d<float> shadowMap, constant float4* u_shadowKernel)
+{
+    uint lightInfo          = params.lightInfo;
+    SCNLightData lightData  = params.lightData;
+    
+    uchar sampleCount = LIGHT_SHADOW_SAMPLE(lightInfo);
+    
+    float4 lightScreen = lightData.shadowMatrix * float4(params.surface.position, 1.f);
+    
+    float shadowRadius = lightData.shadowRadius;
+    
+    float shadowingTerm = 0.f;
+    if (sampleCount > 1) { 
+        float filteringSizeFactor = shadowRadius * lightScreen.w;
+        for (int i = 0; i < sampleCount; i++) {
+            
+            shadowingTerm += shadow2DProj(shadowSampler, shadowMap, lightScreen + (u_shadowKernel[i] * filteringSizeFactor));
+        }
+        shadowingTerm /= float(sampleCount);
+    } else {
+        shadowingTerm = shadow2DProj(shadowSampler, shadowMap, lightScreen);
+    }
+    
+    
+    
+    params.attenuation *= (1.f - shadowingTerm * lightData.color.a);
+}
+
+static void scn_do_light(SCNLightingParameters params, thread SCNShaderLightingContribution& lightingContrib)
+{
+    uint lightInfo          = params.lightInfo;
+
+    
+    params.lightDirection   = scn_lighting_direction(params.lightData, lightInfo, params.surface);
+    
+    
+
+    
+    float attenuation = scn_distance_attenuation(params);
+    
+    
+    uint lightType = LIGHT_TYPE(lightInfo);
+    if (lightType == kC3DLightTypeSpot) {
+        attenuation *= scn_spot_attenuation(params);
+    }
+
+    params.attenuation *= attenuation;
+
+    
+    params.lightData.color.rgb *= params.attenuation;
+    params.lightData.pbrColor.rgb *= params.attenuation;
+
+    switch (lighting_model) {
+        case C3DLightingModelLambert:scn_lambert_lighting(params, lightingContrib);
+            break;
+        case C3DLightingModelBlinn:scn_blinn_lighting(params, lightingContrib);
+            break;
+        case C3DLightingModelPhong:scn_phong_lighting(params, lightingContrib);
+            break;
+        case C3DLightingModelPhysicallyBased:scn_pbr_lighting(params, lightingContrib);
+            break;
+        default:break;
+            
+            
+    }
+}
+
+
+
+inline SCNPBRSurface SCNShaderSurfaceToSCNPBRSurface(SCNShaderSurface surface)
+{
+    SCNPBRSurface s;
+    
+    s.n = surface.normal;
+    s.v = surface.view;
+    s.albedo = surface.diffuse.xyz;
+    
+    if (use_emission)
+        s.emission = surface.emission.xyz;
+    else
+        s.emission = float3(0.);
+    
+    s.metalness = surface.metalness;
+    s.roughness = surface.roughness;
+    s.ao = surface.ambientOcclusion;
+    return s;
+}
+
+
+static float4 scn_pbr_combine_cubemap(SCNPBRSurface                      surface,
+                                     SCNShaderLightingContribution      lighting,
+                                     texture2d<float, access::sample>   specularDFG,
+                                     texturecube<float, access::sample> specularLD,
+                                     texturecube<float, access::sample> irradianceTexture,
+                                     constant SCNSceneBuffer&           scn_frame)
+{
+    
+    float4x4 localDirToWorldCubemapDir = scn_frame.viewToCubeTransform;
+    float environmentIntensity = scn_frame.environmentIntensity;
+    
+    float3 n = surface.n;
+    float3 v = surface.v;
+    float3 albedo = surface.albedo;
+    float metalness = surface.metalness;
+    float roughness = surface.roughness;
+    float ambientOcclusion = surface.ao;
+    
+    float3 r = reflect(-v, n); 
+    float NoV = saturate(dot(n, v));
+    
+    float3 diffuseDominantNDirection = n;
+    float3 specularDominantNDirection = r;
+    
+    
+    diffuseDominantNDirection = scn::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
+    
+    float3 irradiance;
+    if (use_emission_as_selfIllumination) {
+        irradiance = surface.emission;
+    } else {
+        
+        irradiance = irradianceTexture.sample(linearSampler, diffuseDominantNDirection).rgb * environmentIntensity;
+    }
+    
+    
+    float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+    
+    float3 LD = specularLD.sample(linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, specularDominantNDirection), level(mipLevel)).rgb * environmentIntensity;
+    float2 DFG = specularDFG.sample(linearSampler, float2(NoV, roughness)).rg;
+    
+    float3 effectiveAlbedo = mix(albedo, float3(0.0), metalness);
+    float3 reflectance = mix(float3(PBR_F0_NON_METALLIC), albedo, metalness);
+    
+    float3 diffuse = effectiveAlbedo * irradiance;
+    float3 specular = LD * (reflectance * DFG.r + DFG.g);
+    
+    
+    float3 ibl_color;
+    if (use_emission_as_selfIllumination) { 
+        
+        float selfIlluminationAmbientOcclusion = saturate(mix(1., ambientOcclusion, surface.selfIlluminationOcclusion));
+        ibl_color = selfIlluminationAmbientOcclusion * diffuse + ambientOcclusion * specular;
+    } else {
+        ibl_color = ambientOcclusion * (diffuse + specular);
+    }
+    
+    float4 color;
+    color.rgb = (lighting.ambient * surface.ao + lighting.diffuse) * surface.albedo.rgb + lighting.specular + ibl_color;
+    
+    if (use_emission && !use_emission_as_selfIllumination)
+        color.rgb += surface.emission.rgb;
+    
+    return color;
+}
+
+static float4 scn_pbr_combine_probes(SCNPBRSurface                      surface,
+                              SCNShaderLightingContribution      lighting,
+                              texture2d<float, access::sample>   specularDFG,
+                              texturecube<float, access::sample> specularLD,
+                              sh3_coefficients                   shCoefficients,
+                              constant SCNSceneBuffer&           scn_frame)
+{
+    
+    float4x4 localDirToWorldCubemapDir = scn_frame.viewToCubeTransform;
+    float environmentIntensity = scn_frame.environmentIntensity;
+    
+    float3 n = surface.n;
+    float3 v = surface.v;
+    float3 albedo = surface.albedo;
+    float metalness = surface.metalness;
+    float roughness = surface.roughness;
+    float ambientOcclusion = surface.ao;
+    
+    float3 r = reflect(-v, n); 
+    float NoV = saturate(dot(n, v));
+    
+    float3 diffuseDominantNDirection = n;
+    float3 specularDominantNDirection = r;
+    
+    
+    diffuseDominantNDirection = scn::mat4_mult_float3(localDirToWorldCubemapDir, diffuseDominantNDirection);
+    
+    float3 irradiance;
+    if (use_emission_as_selfIllumination) {
+        irradiance = surface.emission;
+    } else {
+        irradiance = shEvalDirection(float4(diffuseDominantNDirection, 1.), shCoefficients) * environmentIntensity;
+    }
+    
+    
+    float mipLevel = roughness * float(specularLD.get_num_mip_levels() - 1);
+    
+    float3 LD = specularLD.sample(linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, specularDominantNDirection), level(mipLevel)).rgb * environmentIntensity;
+    float2 DFG = specularDFG.sample(linearSampler, float2(NoV, roughness)).rg;
+    
+    float3 effectiveAlbedo = mix(albedo, float3(0.0), metalness);
+    float3 reflectance = mix(float3(PBR_F0_NON_METALLIC), albedo, metalness);
+    
+    float3 diffuse = effectiveAlbedo * irradiance;
+    float3 specular = LD * (reflectance * DFG.r + DFG.g);
+    
+    
+    float3 ibl_color;
+    if (use_emission_as_selfIllumination) { 
+        
+        float selfIlluminationAmbientOcclusion = saturate(mix(1., ambientOcclusion, surface.selfIlluminationOcclusion));
+        ibl_color = selfIlluminationAmbientOcclusion * diffuse + ambientOcclusion * specular;
+    } else {
+        ibl_color = ambientOcclusion * (diffuse + specular);
+    }
+    
+    float4 color;
+    color.rgb = (lighting.ambient * surface.ao + lighting.diffuse) * surface.albedo.rgb + lighting.specular + ibl_color;
+    
+    if (use_emission && !use_emission_as_selfIllumination)
+        color.rgb += surface.emission.rgb;
+    
+    return color;
+}
+
+inline float4 illuminate(SCNShaderSurface surface, SCNShaderLightingContribution lighting)
+{
+    float4 color = {0.,0.,0., surface.diffuse.a};
+    
+    float3 D = lighting.diffuse;
+    if (use_ambient_lighting)
+        D += lighting.ambient * surface.ambientOcclusion;
+    if (use_emission_as_selfIllumination)
+        D += surface.emission.rgb;
+
+    
+    color.rgb = surface.diffuse.rgb * D;
+    if (use_specular || use_reflective) {
+        float3 S = (use_specular) ? lighting.specular :float3(0.);
+        if (use_reflective)
+            S += surface.reflective.rgb * surface.ambientOcclusion;
+        if (use_specular)
+            S *= surface.specular.rgb;
+        color.rgb += S;
+    }
+    
+    if (use_ambient && !use_ambient_as_ambientOcclusion)
+        color.rgb += surface.ambient.rgb * lighting.ambient;
+    if (use_emission && !use_emission_as_selfIllumination)
+        color.rgb += surface.emission.rgb;
+    if (use_multiply)
+        color.rgb *= surface.multiply.rgb;
+    if (use_modulate_lighting)
+        color.rgb *= lighting.modulate;
+    return color;
+}
+
+
+
+struct scn_patch_t {
+    patch_control_point<scn_vertex_t> controlPoints;
+};
+
+static void standard_initalize_surface(thread SCNShaderSurface&  surface,
+                                       thread SCNShaderGeometry& geometry,
+                                       thread scn_std_node&      in_node)
+{
+    
+    surface.position = (in_node.modelViewTransform * geometry.position).xyz;
+    
+    if (use_io_normal)
+        surface.normal = normalize(scn::mat3(in_node.normalTransform) * geometry.normal);
+    
+    if (need_tangent) {
+        surface.tangent = normalize(scn::mat3(in_node.normalTransform) * geometry.tangent.xyz);
+        
+        surface.bitangent = geometry.tangent.w * cross(surface.tangent, surface.normal);
+    }
+   
+    if (use_io_view)
+        surface.view = normalize(-surface.position);
+}
+
+static void standard_initalize_geometry(thread scn_vertex_t&      in,
+                                        thread SCNShaderGeometry& geometry)
+{
+    geometry.position = float4(in.position, 1.f);
+    
+    if (need_normal)
+        geometry.normal = in.normal;
+    
+    if (need_tangent)
+        geometry.tangent = in.tangent;
+    
+    if (need_texcoord0)
+        geometry.texcoords[0] = in.texcoord0;
+    if (need_texcoord1)
+        geometry.texcoords[1] = in.texcoord1;
+    if (need_texcoord2)
+        geometry.texcoords[2] = in.texcoord2;
+    if (need_texcoord3)
+        geometry.texcoords[3] = in.texcoord3;
+    if (need_texcoord4)
+        geometry.texcoords[4] = in.texcoord4;
+    if (need_texcoord5)
+        geometry.texcoords[5] = in.texcoord5;
+    if (need_texcoord6)
+        geometry.texcoords[6] = in.texcoord6;
+    if (need_texcoord7)
+        geometry.texcoords[7] = in.texcoord7;
+    
+    geometry.color = (need_vertex_color) ? in.color :float4(1.f);
+}
+
+static void standard_initalize_geometry_post_tessellation(thread scn_patch_t&       in,
+                                                          thread SCNShaderGeometry& geometry,
+                                                          float3                    patchCoord)
+{
+    geometry.position = float4(scn::barycentric_mix(in.controlPoints[0].position, in.controlPoints[1].position, in.controlPoints[2].position, patchCoord), 1.0);
+    
+    if (need_normal)
+        geometry.normal = normalize(scn::barycentric_mix(in.controlPoints[0].normal, in.controlPoints[1].normal, in.controlPoints[2].normal, patchCoord));
+    
+    if (need_tangent)
+        geometry.tangent = normalize(scn::barycentric_mix(in.controlPoints[0].tangent, in.controlPoints[1].tangent, in.controlPoints[2].tangent, patchCoord));
+    
+    if (need_texcoord0)
+        geometry.texcoords[0] = scn::barycentric_mix(in.controlPoints[0].texcoord0, in.controlPoints[1].texcoord0, in.controlPoints[2].texcoord0, patchCoord);
+    if (need_texcoord1)
+        geometry.texcoords[1] = scn::barycentric_mix(in.controlPoints[0].texcoord1, in.controlPoints[1].texcoord1, in.controlPoints[2].texcoord1, patchCoord);
+    if (need_texcoord2)
+        geometry.texcoords[2] = scn::barycentric_mix(in.controlPoints[0].texcoord2, in.controlPoints[1].texcoord2, in.controlPoints[2].texcoord2, patchCoord);
+    if (need_texcoord3)
+        geometry.texcoords[3] = scn::barycentric_mix(in.controlPoints[0].texcoord3, in.controlPoints[1].texcoord3, in.controlPoints[2].texcoord3, patchCoord);
+    if (need_texcoord4)
+        geometry.texcoords[4] = scn::barycentric_mix(in.controlPoints[0].texcoord4, in.controlPoints[1].texcoord4, in.controlPoints[2].texcoord4, patchCoord);
+    if (need_texcoord5)
+        geometry.texcoords[5] = scn::barycentric_mix(in.controlPoints[0].texcoord5, in.controlPoints[1].texcoord5, in.controlPoints[2].texcoord5, patchCoord);
+    if (need_texcoord6)
+        geometry.texcoords[6] = scn::barycentric_mix(in.controlPoints[0].texcoord6, in.controlPoints[1].texcoord6, in.controlPoints[2].texcoord6, patchCoord);
+    if (need_texcoord7)
+        geometry.texcoords[7] = scn::barycentric_mix(in.controlPoints[0].texcoord7, in.controlPoints[1].texcoord7, in.controlPoints[2].texcoord7, patchCoord);
+    
+    geometry.color = (need_vertex_color) ? scn::barycentric_mix(in.controlPoints[0].color, in.controlPoints[1].color, in.controlPoints[2].color, patchCoord) :float4(1.f);
+}
+
+static void standard_configure_out(constant commonprofile_uniforms& commonprofile,
+                                   thread SCNShaderSurface&         surface,
+                                   thread SCNShaderGeometry&        geometry,
+                                   thread commonprofile_io&         out)
+{
+    if (use_io_position)
+        out.position = surface.position;
+    
+    if (use_io_normal)
+        out.normal = surface.normal;
+    
+    if (need_tangent) {
+        out.tangent = surface.tangent;
+        out.bitangent = surface.bitangent;
+    }
+    
+    if (use_io_vertex_color)
+        out.vertexColor = geometry.color;
+    
+    float2 uvOut[kSCNTexcoordCount];
+    
+    if (is_function_constant_defined(diffuse_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ diffuse_channel ];
+        if (is_function_constant_defined(diffuse_transform_index))
+            uv = (commonprofile.textureTransforms[diffuse_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ diffuse_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(normal_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ normal_channel ];
+        if (is_function_constant_defined(normal_transform_index))
+            uv = (commonprofile.textureTransforms[normal_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ normal_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(transparent_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ transparent_channel ];
+        if (is_function_constant_defined(transparent_transform_index))
+            uv = (commonprofile.textureTransforms[transparent_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ transparent_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(emission_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ emission_channel ];
+        if (is_function_constant_defined(emission_transform_index))
+            uv = (commonprofile.textureTransforms[emission_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ emission_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(ambient_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ ambient_channel ];
+        if (is_function_constant_defined(ambient_transform_index))
+            uv = (commonprofile.textureTransforms[ambient_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ ambient_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(multiply_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ multiply_channel ];
+        if (is_function_constant_defined(multiply_transform_index))
+            uv = (commonprofile.textureTransforms[multiply_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ multiply_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(specular_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ specular_channel ];
+        if (is_function_constant_defined(specular_transform_index))
+            uv = (commonprofile.textureTransforms[specular_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ specular_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(roughness_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ roughness_channel ];
+        if (is_function_constant_defined(roughness_transform_index))
+            uv = (commonprofile.textureTransforms[roughness_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ roughness_texcoord_io_index ] = uv;
+    }
+    
+    if (is_function_constant_defined(metalness_texcoord_io_index)) {
+        float2 uv = geometry.texcoords[ metalness_channel ];
+        if (is_function_constant_defined(metalness_transform_index))
+            uv = (commonprofile.textureTransforms[metalness_transform_index] * float4(uv, 0.f, 1.f)).xy;
+        uvOut[ metalness_texcoord_io_index ] = uv;
+    }
+    
+    switch (io_texcoord_count - 1) {
+        case 7 :out.texcoord7 = uvOut[7];
+        case 6 :out.texcoord6 = uvOut[6];
+        case 5 :out.texcoord5 = uvOut[5];
+        case 4 :out.texcoord4 = uvOut[4];
+        case 3 :out.texcoord3 = uvOut[3];
+        case 2 :out.texcoord2 = uvOut[2];
+        case 1 :out.texcoord1 = uvOut[1];
+        case 0 :out.texcoord0 = uvOut[0];
+    }
+}
+
+vertex commonprofile_io standard_vert(scn_vertex_t                      in                        [[ stage_in ]],
+                                      constant SCNSceneBuffer&          scn_frame                 [[ buffer(0) ]],
+                                      constant scn_std_node&            scn_node                  [[ buffer(1), function_constant(use_no_instancing) ]],
+                                      
+                                      device scn_std_node*              scn_nodes                 [[ buffer(1), function_constant(use_instancing) ]],
+                                      device SCNLightData*              scn_lights                [[ buffer(2), function_constant(use_per_vertex_lighting) ]],
+                                      constant commonprofile_uniforms&  scn_commonprofile         [[ buffer(3) ]],
+                                      uint                              instanceID                [[ instance_id, function_constant(use_instancing) ]]
+                                      
+#ifdef USE_VERTEX_EXTRA_ARGUMENTS
+                                      __VertexExtraArguments__
+#endif
+                                      )
+{
+    scn_std_node in_node;
+    if (use_instancing) {
+        in_node = scn_nodes[instanceID];
+    } else {
+        in_node = scn_node;
+    }
+
+    SCNShaderGeometry _geometry;
+    standard_initalize_geometry(in, _geometry);
+    
+#ifdef USE_GEOMETRY_MODIFIER
+
+__DoGeometryModifier__
+
+#endif
+    
+    
+    SCNShaderSurface _surface;
+    standard_initalize_surface(_surface, _geometry, in_node);
+
+    commonprofile_io out;
+    
+    
+    if (use_per_vertex_lighting) {
+        SCNShaderLightingContribution _lightingContribution;
+        _lightingContribution.diffuse = 0.;
+        _lightingContribution.specular = 0.;
+        _surface.shininess = scn_commonprofile.materialShininess;
+
+        
+        
+
+        out.diffuse = _lightingContribution.diffuse;
+        if (use_specular)
+            out.specular = _lightingContribution.specular;
+    }
+
+    standard_configure_out(scn_commonprofile, _surface, _geometry, out);
+    
+    
+    
+
+    out.fragmentPosition = scn_frame.projectionTransform * float4(_surface.position, 1.f);
+    
+    if (use_point_rendering) 
+        out.fragmentSize = 1.f;
+    return out;
+}
+
+[[ patch(triangle, 3) ]]
+vertex commonprofile_io standard_post_tessellation_vert(scn_patch_t                       in                        [[ stage_in ]],
+                                                        float3                            patchCoord                [[ position_in_patch ]],
+                                                        constant SCNSceneBuffer&          scn_frame                 [[ buffer(0) ]],
+                                                        constant scn_std_node&            scn_node                  [[ buffer(1), function_constant(use_no_instancing) ]],
+                                                        
+                                                        device scn_std_node*              scn_nodes                 [[ buffer(1), function_constant(use_instancing) ]],
+                                                        device SCNLightData*              scn_lights                [[ buffer(2), function_constant(use_per_vertex_lighting) ]],
+                                                        constant commonprofile_uniforms&  scn_commonprofile         [[ buffer(3) ]],
+                                                        
+
+                                                        uint                              instanceID                [[ instance_id, function_constant(use_instancing) ]]
+                                                        
+#ifdef USE_VERTEX_EXTRA_ARGUMENTS
+                                      __VertexExtraArgumentsPostTessellation__
+#endif
+                                      )
+{
+    scn_std_node in_node;
+    if (use_instancing) {
+        in_node = scn_nodes[instanceID];
+    } else {
+        in_node = scn_node;
+    }
+    
+    SCNShaderGeometry _geometry;
+    standard_initalize_geometry_post_tessellation(in, _geometry, patchCoord);
+    
+#ifdef USE_GEOMETRY_MODIFIER
+    
+    __DoGeometryModifierPostTessellation__
+    
+#endif
+    
+    
+    SCNShaderSurface _surface;
+    standard_initalize_surface(_surface, _geometry, in_node);
+    
+    commonprofile_io out;
+    
+    
+    if (use_per_vertex_lighting) {
+        SCNShaderLightingContribution _lightingContribution;
+        _lightingContribution.diffuse = 0.;
+        _lightingContribution.specular = 0.;
+        _surface.shininess = scn_commonprofile.materialShininess;
+        
+        
+        
+        
+        out.diffuse = _lightingContribution.diffuse;
+        if (use_specular)
+            out.specular = _lightingContribution.specular;
+    }
+    
+    standard_configure_out(scn_commonprofile, _surface, _geometry, out);
+    
+    
+    
+    
+    out.fragmentPosition = scn_frame.projectionTransform * float4(_surface.position, 1.f);
+    
+    if (use_point_rendering) 
+        out.fragmentSize = 1.f;
+    return out;
+}
+
+struct SCNOutput
+{
+    float4 color;
+};
+
+
+
+fragment half4 standard_frag(commonprofile_io in [[stage_in]],
+                             constant commonprofile_uniforms& scn_commonprofile [[buffer(0)]],
+                             constant SCNSceneBuffer& scn_frame [[buffer(1)]]
+                             
+                             , device SCNLightData* scn_lights                     [[ buffer(2),  function_constant(use_per_pixel_lighting) ]]
+                             , constant scn_std_node& scn_node                     [[ buffer(3), function_constant(use_no_instancing) ]]
+                             , device scn_std_node* scn_nodes                      [[ buffer(3), function_constant(use_instancing) ]]
+                             , constant float4* u_shadowKernel                     [[ buffer(4) ]] 
+                             , constant sh3_coefficients& scn_shCoefficients       [[ buffer(5), function_constant(use_probes_lighting) ]]
+
+                             , texture2d<float> u_emissionTexture                  [[ texture(0), function_constant(use_emission_map)]]
+                             , sampler          u_emissionTextureSampler           [[ sampler(0), function_constant(use_emission_map)]]
+                             , texture2d<float> u_ambientTexture                   [[ texture(1), function_constant(use_ambient_map)]]
+                             , sampler          u_ambientTextureSampler            [[ sampler(1), function_constant(use_ambient_map)]]
+                             , texture2d<float> u_diffuseTexture                   [[ texture(2), function_constant(use_diffuse_map)]]
+                             , sampler          u_diffuseTextureSampler            [[ sampler(2), function_constant(use_diffuse_map)]]
+                             , texture2d<float> u_specularTexture                  [[ texture(3), function_constant(use_specular_map)]]
+                             , sampler          u_specularTextureSampler           [[ sampler(3), function_constant(use_specular_map)]]
+                             , texture2d<float> u_reflectiveTexture                [[ texture(4), function_constant(use_reflective_map)]]
+                             , sampler          u_reflectiveTextureSampler         [[ sampler(4), function_constant(use_reflective_map)]]
+                             , texturecube<float> u_reflectiveCubeTexture          [[ texture(4), function_constant(use_reflectivecube_map)]]
+                             , sampler            u_reflectiveCubeTextureSampler   [[ sampler(4), function_constant(use_reflectivecube_map)]]
+                             , texture2d<float> u_transparentTexture               [[ texture(5), function_constant(use_transparent_map)]]
+                             , sampler          u_transparentTextureSampler        [[ sampler(5), function_constant(use_transparent_map)]]
+                             , texture2d<float> u_multiplyTexture                  [[ texture(6), function_constant(use_multiply_map)]]
+                             , sampler          u_multiplyTextureSampler           [[ sampler(6), function_constant(use_multiply_map)]]
+                             , texture2d<float> u_normalTexture                    [[ texture(7), function_constant(use_normal_map)]]
+                             , sampler          u_normalTextureSampler             [[ sampler(7), function_constant(use_normal_map)]]
+                             , texture2d<float> u_metalnessTexture                 [[ texture(3), function_constant(use_metalness_map) ]]
+                             , sampler          u_metalnessTextureSampler          [[ sampler(3), function_constant(use_metalness_map) ]]
+                             , texture2d<float> u_roughnessTexture                 [[ texture(4), function_constant(use_roughness_map) ]]
+                             , sampler          u_roughnessTextureSampler          [[ sampler(4), function_constant(use_roughness_map) ]]
+                             , texturecube<float> u_irradianceTexture              [[ texture(8), function_constant(use_pbr) ]]
+                             
+                             , texturecube<float> u_radianceTexture                [[ texture(9), function_constant(use_pbr) ]]
+                             , texture2d<float>   u_specularDFGTexture             [[ texture(10), function_constant(use_pbr) ]]
+                             , texture2d<float> u_ssaoTexture                      [[ texture(11), function_constant(use_ssao) ]]
+
+                             
+                             , depth2d<float> u_shadowTexture0                     [[ texture(12), function_constant(use_shadow0) ]]
+                             , depth2d<float> u_shadowTexture1                     [[ texture(13), function_constant(use_shadow1) ]]
+                             , depth2d<float> u_shadowTexture2                     [[ texture(14), function_constant(use_shadow2) ]]
+                             , depth2d<float> u_shadowTexture3                     [[ texture(15), function_constant(use_shadow3) ]]
+                             
+                             
+                             , texture2d<float> u_goboTexture0                     [[ texture(16), function_constant(use_gobo0) ]]
+                             , texture2d<float> u_goboTexture1                     [[ texture(17), function_constant(use_gobo1) ]]
+                             , texture2d<float> u_goboTexture2                     [[ texture(18), function_constant(use_gobo2) ]]
+                             , texture2d<float> u_goboTexture3                     [[ texture(19), function_constant(use_gobo3) ]]
+
+                             
+                             
+                             
+                             
+                             
+                             , texture2d<float> u_iesTexture0                      [[ texture(16), function_constant(use_ies0) ]]
+                             , texture2d<float> u_iesTexture1                      [[ texture(17), function_constant(use_ies1) ]]
+                             , texture2d<float> u_iesTexture2                      [[ texture(18), function_constant(use_ies2) ]]
+                             , texture2d<float> u_iesTexture3                      [[ texture(19), function_constant(use_ies3) ]]
+
+                             
+                             , texturecube<float> u_iesCubeTexture0                [[ texture(16), function_constant(use_iesCube0) ]]
+                             , texturecube<float> u_iesCubeTexture1                [[ texture(17), function_constant(use_iesCube1) ]]
+                             , texturecube<float> u_iesCubeTexture2                [[ texture(18), function_constant(use_iesCube2) ]]
+                             , texturecube<float> u_iesCubeTexture3                [[ texture(19), function_constant(use_iesCube3) ]]
+                             
+                             , bool isFrontFacing                                  [[ front_facing, function_constant(use_double_sided) ]]
+
+#ifdef USE_FRAGMENT_EXTRA_ARGUMENTS
+__FragmentExtraArguments__
+#endif
+                             )
+{
+    
+    
+    scn_std_node in_node;
+    if (use_instancing) {
+        
+        in_node = scn_nodes[0];
+    } else {
+        in_node = scn_node;
+    }
+
+    SCNShaderSurface _surface;
+
+    float2 uv[kSCNTexcoordCount];
+    switch (io_texcoord_count - 1) {
+        case 7 :uv[7] = in.texcoord7;
+        case 6 :uv[6] = in.texcoord6;
+        case 5 :uv[5] = in.texcoord5;
+        case 4 :uv[4] = in.texcoord4;
+        case 3 :uv[3] = in.texcoord3;
+        case 2 :uv[2] = in.texcoord2;
+        case 1 :uv[1] = in.texcoord1;
+        case 0 :uv[0] = in.texcoord0;
+    }
+
+    if (is_function_constant_defined(diffuse_texcoord_io_index))
+        _surface.diffuseTexcoord = uv[diffuse_texcoord_io_index];
+    
+    if (is_function_constant_defined(normal_texcoord_io_index))
+        _surface.normalTexcoord = uv[normal_texcoord_io_index];
+    
+    if (is_function_constant_defined(transparent_texcoord_io_index))
+        _surface.transparentTexcoord = uv[transparent_texcoord_io_index];
+    
+    if (is_function_constant_defined(emission_texcoord_io_index))
+        _surface.emissionTexcoord = uv[emission_texcoord_io_index];
+    
+    if (is_function_constant_defined(ambient_texcoord_io_index))
+        _surface.ambientTexcoord = uv[ambient_texcoord_io_index];
+    
+    if (is_function_constant_defined(multiply_texcoord_io_index))
+        _surface.multiplyTexcoord = uv[multiply_texcoord_io_index];
+    
+    if (is_function_constant_defined(specular_texcoord_io_index))
+        _surface.specularTexcoord = uv[specular_texcoord_io_index];
+    
+    if (is_function_constant_defined(roughness_texcoord_io_index))
+        _surface.roughnessTexcoord = uv[roughness_texcoord_io_index];
+
+    if (is_function_constant_defined(metalness_texcoord_io_index))
+        _surface.metalnessTexcoord = uv[metalness_texcoord_io_index];
+
+    _surface.ambientOcclusion = 1.f; 
+    if (use_ambient_map) {
+        float4 c = u_ambientTexture.sample(u_ambientTextureSampler, _surface.ambientTexcoord);
+        if (is_function_constant_defined(ambient_texture_component)) {
+            c = c[ambient_texture_component];
+        }
+        
+        if (use_ambient_as_ambientOcclusion) {
+            _surface.ambientOcclusion = c.r;
+            if (use_ambient_intensity)
+                _surface.ambientOcclusion = saturate(mix(1.f, _surface.ambientOcclusion, scn_commonprofile.ambientIntensity));
+        } else {
+            _surface.ambient = c;
+            if (use_ambient_intensity)
+                _surface.ambient *= scn_commonprofile.ambientIntensity;
+        }
+    } else {
+        _surface.ambient = scn_commonprofile.ambientColor;
+    }
+    if (use_ambient && use_io_vertex_color)
+        _surface.ambient *= in.vertexColor;
+    if (use_ssao)
+        _surface.ambientOcclusion *= u_ssaoTexture.sample( linearSampler, in.fragmentPosition.xy * scn_frame.inverseResolution.xy ).x;
+    
+    if (use_diffuse_map) {
+        _surface.diffuse = u_diffuseTexture.sample(u_diffuseTextureSampler, _surface.diffuseTexcoord);
+        if (is_function_constant_defined(diffuse_texture_component))
+            _surface.diffuse = _surface.diffuse[diffuse_texture_component];
+        if (use_diffuse_intensity)
+            _surface.diffuse.rgb *= scn_commonprofile.diffuseIntensity;
+    } else {
+        _surface.diffuse = scn_commonprofile.diffuseColor;
+    }
+    if (use_diffuse && use_io_vertex_color) {
+        _surface.diffuse *= in.vertexColor;
+    }
+    
+    if (use_specular_map) {
+        _surface.specular = u_specularTexture.sample(u_specularTextureSampler, _surface.specularTexcoord);
+        if (is_function_constant_defined(specular_texture_component))
+            _surface.specular = _surface.specular[specular_texture_component];
+        if (use_specular_intensity)
+            _surface.specular *= scn_commonprofile.specularIntensity;
+    } else {
+        _surface.specular = scn_commonprofile.specularColor;
+    }
+
+    if (use_emission_map) {
+        _surface.emission = u_emissionTexture.sample(u_emissionTextureSampler, _surface.emissionTexcoord);
+        if (is_function_constant_defined(emission_texture_component))
+            _surface.emission = float4(_surface.emission[emission_texture_component]);
+        if (use_emission_intensity)
+            _surface.emission *= scn_commonprofile.emissionIntensity;
+    } else {
+        _surface.emission = scn_commonprofile.emissionColor;
+    }
+
+    if (use_multiply_map) {
+        _surface.multiply = u_multiplyTexture.sample(u_multiplyTextureSampler, _surface.multiplyTexcoord);
+        if (is_function_constant_defined(multiply_texture_component))
+            _surface.multiply = float4(_surface.multiply[multiply_texture_component]);
+        if (use_multiply_intensity)
+            _surface.multiply = mix(float4(1.f), _surface.multiply, scn_commonprofile.multiplyIntensity);
+    } else {
+        _surface.multiply = scn_commonprofile.multiplyColor;
+    }
+    
+    if (use_transparent_map) {
+        _surface.transparent = u_transparentTexture.sample(u_transparentTextureSampler, _surface.transparentTexcoord);
+        if (is_function_constant_defined(transparent_texture_component))
+            _surface.transparent = float4(_surface.transparent[transparent_texture_component]);
+        if (use_transparent_intensity)
+            _surface.transparent *= scn_commonprofile.transparentIntensity;
+    } else {
+        _surface.transparent = scn_commonprofile.transparentColor;
+    }
+
+    if (use_metalness_map) {
+        float4 c = u_metalnessTexture.sample(u_metalnessTextureSampler, _surface.metalnessTexcoord);
+        if (is_function_constant_defined(metalness_texture_component))
+            _surface.metalness = c[metalness_texture_component];
+        else 
+            _surface.metalness = c.r;
+        if (use_metalness_intensity)
+            _surface.metalness *= scn_commonprofile.metalnessIntensity;
+    } else {
+        _surface.metalness = scn_commonprofile.metalness;
+    }
+    
+    if (use_roughness_map) {
+        float4 c = u_roughnessTexture.sample(u_roughnessTextureSampler, _surface.roughnessTexcoord).r;
+        if (is_function_constant_defined(roughness_texture_component))
+            _surface.roughness = c[roughness_texture_component];
+        else 
+            _surface.roughness = c.r;
+        if (use_roughness_intensity)
+            _surface.roughness *= scn_commonprofile.roughnessIntensity;
+    } else {
+        _surface.roughness = scn_commonprofile.roughness;
+    }
+    
+    
+    if (use_io_normal) {
+        if (use_double_sided)
+            _surface.geometryNormal = normalize(in.normal.xyz) * (in.normal.z >= 0.f ? 1.f :-1.f );
+        else
+            _surface.geometryNormal = normalize(in.normal.xyz);
+        _surface.normal = _surface.geometryNormal;
+    }
+    if (need_tangent) {
+        _surface.tangent = in.tangent;
+        _surface.bitangent = in.bitangent;
+    }
+    if (use_io_position)
+        _surface.position = in.position;
+    if (use_io_view)
+        _surface.view = normalize(-in.position);
+
+    if (use_normal_map) {
+        float3x3 ts2vs = float3x3(_surface.tangent, _surface.bitangent, _surface.normal);
+        _surface._normalTS = u_normalTexture.sample(u_normalTextureSampler, _surface.normalTexcoord).rgb;
+        if (is_function_constant_defined(normal_texture_component)) { 
+            _surface._normalTS.xy = _surface._normalTS.xy * 2.f - 1.f;
+            _surface._normalTS.z = sqrt(1 - length_squared(_surface._normalTS.xy));
+        } else {
+            _surface._normalTS = _surface._normalTS * 2.f - 1.f;
+        }
+        if (use_normal_intensity)
+            _surface._normalTS = mix(float3(0.f, 0.f, 1.f), _surface._normalTS, scn_commonprofile.normalIntensity);
+        
+        _surface.normal.rgb = normalize(ts2vs * _surface._normalTS);
+    } else {
+        _surface._normalTS = float3(0.f);
+    }
+    
+    if (use_reflective_map) {
+        
+        float3 refl = reflect( -_surface.view, _surface.normal );
+        float m = 2.f * sqrt( refl.x*refl.x + refl.y*refl.y + scn::sq(refl.z + 1.f));
+        _surface.reflective = u_reflectiveTexture.sample(u_reflectiveTextureSampler, float2(float2(refl.x,-refl.y) / m) + 0.5f);
+
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else if (use_reflectivecube_map) {
+    
+        float3 refl = reflect( _surface.position, _surface.normal );
+        _surface.reflective = u_reflectiveCubeTexture.sample(u_reflectiveCubeTextureSampler, scn::mat4_mult_float3(scn_frame.viewToCubeTransform, refl)); 
+        if (is_function_constant_defined(reflective_texture_component))
+            _surface.reflective = _surface.reflective[reflective_texture_component];
+        
+        if (use_reflective_intensity)
+            _surface.reflective *= scn_commonprofile.reflectiveIntensity;
+    
+    } else {
+        _surface.reflective = scn_commonprofile.reflectiveColor;
+    }
+    
+    if (use_fresnel) {
+        _surface.fresnel = scn_commonprofile.fresnel.x + scn_commonprofile.fresnel.y * pow(1.f - saturate(dot(_surface.view, _surface.normal)), scn_commonprofile.fresnel.z);
+        _surface.reflective *= _surface.fresnel;
+    }
+    _surface.shininess = scn_commonprofile.materialShininess;
+    
+#ifdef USE_SURFACE_MODIFIER
+
+__DoSurfaceModifier__
+
+#endif
+
+    SCNShaderLightingContribution _lightingContribution = {0};
+    if (use_ambient_lighting)
+        _lightingContribution.ambient = scn_frame.ambientLightingColor.rgb;
+    
+    if (use_lighting) {
+        if (use_per_pixel_lighting) {
+            _lightingContribution.diffuse = float3(0.f);
+            if (use_modulate_lighting)
+                _lightingContribution.modulate = float3(1.f);
+            if (use_specular)
+                _lightingContribution.specular = float3(0.f);
+            
+            if (is_function_constant_defined(use_light0)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light0;
+                params.lightData = scn_lights[ in_node.lightIndices[0] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow0) scn_do_shadow(params, u_shadowTexture0, u_shadowKernel);
+                if (use_gobo0)   scn_do_gobo(params, u_goboTexture0);
+                if (use_ies0)    scn_do_ies(params, u_iesTexture0, linearSampler );
+                if (use_iesCube0)    scn_do_ies(params, u_iesCubeTexture0, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light1)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light1;
+                params.lightData = scn_lights[ in_node.lightIndices[1] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow1) scn_do_shadow(params, u_shadowTexture1, u_shadowKernel);
+                if (use_gobo1)   scn_do_gobo(params, u_goboTexture1);
+                if (use_ies1)    scn_do_ies(params, u_iesTexture1, linearSampler );
+                if (use_iesCube1)    scn_do_ies(params, u_iesCubeTexture1, linearSampler );
+
+                scn_do_light(params, _lightingContribution);
+            }
+
+            if (is_function_constant_defined(use_light2)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light2;
+                params.lightData = scn_lights[ in_node.lightIndices[2] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow2) scn_do_shadow(params, u_shadowTexture2, u_shadowKernel);
+                if (use_gobo2)   scn_do_gobo(params, u_goboTexture2);
+                if (use_ies2)    scn_do_ies(params, u_iesTexture2, linearSampler );
+                if (use_iesCube2)    scn_do_ies(params, u_iesCubeTexture2, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+            if (is_function_constant_defined(use_light3)) {
+                SCNLightingParameters params;
+                params.surface = _surface;
+                params.lightInfo = use_light3;
+                params.lightData = scn_lights[ in_node.lightIndices[3] ];
+                params.attenuation = float3(1.f);
+
+                if (use_shadow3) scn_do_shadow(params, u_shadowTexture3, u_shadowKernel);
+                if (use_gobo3)   scn_do_gobo(params, u_goboTexture3);
+                if (use_ies3)    scn_do_ies(params, u_iesTexture3, linearSampler );
+                if (use_iesCube3)    scn_do_ies(params, u_iesCubeTexture3, linearSampler );
+                scn_do_light(params, _lightingContribution);
+            }
+            
+        } else { 
+            _lightingContribution.diffuse = in.diffuse;
+            if (use_specular)
+                _lightingContribution.specular = in.specular;
+        }
+
+        if (avoid_overlighting) {
+            _lightingContribution.diffuse = saturate(_lightingContribution.diffuse);
+            if (use_specular)
+                _lightingContribution.specular = saturate(_lightingContribution.specular);
+        }
+    } else { 
+        _lightingContribution.diffuse = float3(1.f);
+    }
+    
+    
+    SCNOutput _output;
+    if (use_pbr) {
+        SCNPBRSurface pbr_surface = SCNShaderSurfaceToSCNPBRSurface(_surface);
+        pbr_surface.selfIlluminationOcclusion = scn_commonprofile.selfIlluminationOcclusion;
+
+        if (use_probes_lighting) {
+            _output.color = scn_pbr_combine_probes(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, scn_shCoefficients, scn_frame);
+        } else {
+            _output.color = scn_pbr_combine_cubemap(pbr_surface, _lightingContribution, u_specularDFGTexture, u_radianceTexture, u_irradianceTexture, scn_frame);
+        }
+
+        _output.color.a = _surface.diffuse.a;
+    } else {
+        _output.color = illuminate(_surface, _lightingContribution);
+    }
+    
+    if (use_fog) {
+        float fogFactor = pow(clamp(length(_surface.position.xyz) * scn_frame.fogParameters.x + scn_frame.fogParameters.y, 0., scn_frame.fogColor.a), scn_frame.fogParameters.z);
+        _output.color.rgb = mix(_output.color.rgb, scn_frame.fogColor.rgb * _output.color.a, fogFactor);
+    }
+
+    if (!diffuse_premultiplied)
+        _output.color.rgb *= _surface.diffuse.a;
+
+    float nodeOpacity = use_node_opacity ? in_node.nodeOpacity :1.f;
+    if (use_transparent) {
+
+        if (use_transparency)
+            _surface.transparent *= scn_commonprofile.transparency;
+        
+        if (use_transparency_rgbzero) {
+            
+            _surface.transparent.a = (_surface.transparent.r * 0.212671f) + (_surface.transparent.g * 0.715160f) + (_surface.transparent.b * 0.072169f);
+            _output.color *= nodeOpacity * (float4(1.f) - _surface.transparent);
+        } else { 
+            _output.color *= (nodeOpacity * _surface.transparent.a);
+        }
+    } else {
+        if (use_transparency) { 
+            _output.color *= (nodeOpacity * scn_commonprofile.transparency);
+        }
+    }
+    
+#ifdef USE_FRAGMENT_MODIFIER
+
+__DoFragmentModifier__
+
+#endif
+    
+
+
+
+    
+    if (use_discard && _output.color.a == 0.) 
+        discard_fragment();
+
+    return half4(_output.color);
+}
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -57,13 +1268,6 @@
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property _Bool externalSourceTrackingChanged; // @synthesize externalSourceTrackingChanged=_externalSourceTrackingChanged;
-@property(retain) NSMutableSet *observedAnnotations; // @synthesize observedAnnotations=_observedAnnotations;
-@property(retain) NSMutableSet *observedPageModelControllers; // @synthesize observedPageModelControllers=_observedPageModelControllers;
-@property _Bool undoGroupHasChangesToMultipleProperties; // @synthesize undoGroupHasChangesToMultipleProperties=_undoGroupHasChangesToMultipleProperties;
-@property(retain) NSMapTable *undoGroupOldPropertiesPerAnnotation; // @synthesize undoGroupOldPropertiesPerAnnotation=_undoGroupOldPropertiesPerAnnotation;
-@property(retain) NSString *undoGroupPresentablePropertyName; // @synthesize undoGroupPresentablePropertyName=_undoGroupPresentablePropertyName;
-@property(retain) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
 
 @end
 

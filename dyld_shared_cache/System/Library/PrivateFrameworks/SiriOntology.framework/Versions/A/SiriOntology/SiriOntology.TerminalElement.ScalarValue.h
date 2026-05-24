@@ -7,7 +7,6 @@
 @interface SiriOntology.TerminalElement.ScalarValue
 {
     id value;
-    id unit;
 }
 
 @end

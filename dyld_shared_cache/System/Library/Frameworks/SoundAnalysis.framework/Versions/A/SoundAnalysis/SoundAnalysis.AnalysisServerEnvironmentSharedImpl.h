@@ -7,17 +7,6 @@
 @interface SoundAnalysis.AnalysisServerEnvironmentSharedImpl
 {
     id aopAnalytics;
-    id sharedHIDReportStreamCache;
-    id sharedAOPReportStreamCache;
-    id sharedAOPDebugStreamCache;
-    id sharedAOPResultsStreamCache;
-    id sharedAudioSourceCache;
-    id sharedReformattedAudioSourceCache;
-    id sharedLogMelSpectrogramCache;
-    id sharedSoundPrintACache;
-    id sharedSoundPrintKCache;
-    id sharedVGGishCache;
-    id fileInterface;
 }
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FCLocalArea
 {
     _Bool _isBboxValid;
-    NSArray *_regionIds;
-    NSString *_identifier;
-    NSArray *_bbox;
 }
 
 - (struct CGRect);
@@ -27,25 +24,17 @@
 - (id);
 - (void);
 - (id);
+- (id)";
 - (id);
-- (id);
-- (void);
+- (void)ceholder promise:(id)arg1 %@;
 - (id);
 - (id)(	1Â0@ù
 × ;
-- (void)UserEventHistorySecure;
-- (_Bool)ng;
+- (void)RecipeUserEventHistorySecure;
+- (_Bool)encoding;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *areaID;
-@property(retain, nonatomic) NSArray *bbox; // @synthesize bbox=_bbox;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isBboxValid; // @synthesize isBboxValid=_isBboxValid;
-@property(readonly, nonatomic) double maxLat;
-@property(readonly, nonatomic) double maxLon;
-@property(readonly, nonatomic) double minLat;
-@property(readonly, nonatomic) double minLon;
-@property(readonly, nonatomic) NSArray *regionIds; // @synthesize regionIds=_regionIds;
 
 @end
 

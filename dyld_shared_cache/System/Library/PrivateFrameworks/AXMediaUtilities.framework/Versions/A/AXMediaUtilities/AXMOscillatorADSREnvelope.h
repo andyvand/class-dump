@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMSynth, AXMSynthEnvelopeParameters, NSString;
-
 @interface AXMOscillatorADSREnvelope
 {
     _Bool _isBypassed;
-    _Bool _shouldSustain;
-    _Bool _isActive;
-    AXMSynth *_parentSynth;
-    AXMSynthEnvelopeParameters *_parameters;
-    double *_sampleBuffer;
-    unsigned long long _currentSampleIndex;
-    double _sustainEndTime;
-    unsigned long long _releasePhaseSampleIndex;
 }
 
-- (float);
+- (float)z;
 - (double);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (float);
+- (float)\|;
 - (id);
-- (double);
-- (unsigned long long);
+- (double)|;
+- (unsigned long long)|;
 - (float);
 - (float);
 - (id);
@@ -47,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (void);
 - (id);
 - (double);
@@ -55,28 +45,7 @@
 - (void)ntObjects;
 
 // Remaining properties
-@property(nonatomic) float attackLevel; // @dynamic attackLevel;
-@property(nonatomic) float attackMS; // @dynamic attackMS;
-@property(nonatomic) unsigned long long currentSampleIndex; // @synthesize currentSampleIndex=_currentSampleIndex;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) float decayMS; // @dynamic decayMS;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(nonatomic) _Bool isBypassed; // @synthesize isBypassed=_isBypassed;
-@property(retain, nonatomic) AXMSynthEnvelopeParameters *parameters; // @synthesize parameters=_parameters;
-@property(nonatomic) __weak AXMSynth *parentSynth; // @synthesize parentSynth=_parentSynth;
-@property(nonatomic) float releaseMS; // @dynamic releaseMS;
-@property(nonatomic) unsigned long long releasePhaseSampleIndex; // @synthesize releasePhaseSampleIndex=_releasePhaseSampleIndex;
 @property(readonly, nonatomic) double *sampleBuffer; // @synthesize sampleBuffer=_sampleBuffer;
-@property(readonly, nonatomic) double sampleRate;
-@property(nonatomic) _Bool shouldSustain; // @synthesize shouldSustain=_shouldSustain;
-@property(readonly) Class superclass;
-@property(nonatomic) double sustainEndTime; // @synthesize sustainEndTime=_sustainEndTime;
-@property(nonatomic) float sustainLevel; // @dynamic sustainLevel;
 
 @end
 

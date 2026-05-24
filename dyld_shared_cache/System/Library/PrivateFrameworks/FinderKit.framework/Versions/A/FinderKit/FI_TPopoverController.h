@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TPopover, FI_TPopoverContentViewController, NSAppearance, NSArray, NSString;
+@class FI_TPopover, FI_TPopoverContentViewController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TPopoverController
 {
     FI_TPopoverContentViewController *_contentViewController;
-    FI_TPopover *_popover;
-    NSArray *_topLevelNibObjects;
-    FI_TPopoverController *_selfReference;
-    _Bool tornDown;
 }
 
 - (void);
@@ -25,37 +21,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)updateLastSeenDates:(id)arg1 forMailboxes:bucket: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (double);
 - (void);
 - (id);
 - (void);
-- (void)ningAsAService:(long long)arg1;
+- (void)fauxToolbarHeightForAppCentric:(long long)arg1 runningAsAService: /* Error: Ran out of types for this method. */;
 - (void)à;
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *appearance;
-@property(nonatomic) long long behavior;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isShown;
 @property(readonly, nonatomic) FI_TPopover *popover; // @synthesize popover=_popover;
-@property(nonatomic) _Bool releasedWhenClosed;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown;
-@property(nonatomic) double width;
 
 @end
 

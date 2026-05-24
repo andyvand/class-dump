@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBDisplayList;
-
 @interface RBSurface
 {
     struct objc_ptr<RBDisplayList *> _displayList;
-    struct refcounted_ptr<RB::Drawable> _drawable;
-    struct objc_ptr<id<MTLDevice>> _device;
-    struct refcounted_ptr<RB::Texture> _texture;
-    void *_lastItem;
-    struct Bounds _dirty;
-    _Bool _clearsBackground;
-    _Bool _opaque;
-    int _colorMode;
-    double _scale;
-    struct CGSize _size;
-    CDStruct_0b1c536a _clearColor;
 }
 
 - (void);
@@ -27,31 +14,25 @@
 - (id);
 - (struct CGImage *);
 - (void);
+- (void)4;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)transformSize: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
+- (void);
+- (_Bool);
 - (void);
-- (_Bool);
+- (CDStruct_818bb265);
 - (void);
-- (CDStruct_0b1c536a);
-- (void);
-- (int);
+- (int);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_0b1c536a clearColor; // @synthesize clearColor=_clearColor;
-@property(nonatomic) _Bool clearsBackground; // @synthesize clearsBackground=_clearsBackground;
-@property(nonatomic) int colorMode; // @synthesize colorMode=_colorMode;
-@property(retain, nonatomic) RBDisplayList *displayList;
-@property(nonatomic, getter=isOpaque) _Bool opaque; // @synthesize opaque=_opaque;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

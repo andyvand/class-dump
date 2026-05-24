@@ -6,14 +6,12 @@
 
 #import <PhotosUICore/PXCuratedLibraryAssetCollectionActionPerformer.h>
 
-@class PXCuratedLibraryActionManager, PXGLayout;
+@class PXCuratedLibraryActionManager;
 @protocol PXCuratedLibraryLayoutAssetCollectionReferenceProvider;
 
 @interface PXCuratedLibraryEllipsisButtonActionPerformer : PXCuratedLibraryAssetCollectionActionPerformer
 {
     id <PXCuratedLibraryLayoutAssetCollectionReferenceProvider> _assetCollectionReferenceProvider;
-    PXGLayout *_layout;
-    PXCuratedLibraryActionManager *_actionManager;
 }
 
 - (_Bool);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXCuratedLibraryActionManager *actionManager; // @synthesize actionManager=_actionManager;
-@property(readonly, nonatomic) __weak id <PXCuratedLibraryLayoutAssetCollectionReferenceProvider> assetCollectionReferenceProvider; // @synthesize assetCollectionReferenceProvider=_assetCollectionReferenceProvider;
-@property(nonatomic) __weak PXGLayout *layout; // @synthesize layout=_layout;
 
 @end
 

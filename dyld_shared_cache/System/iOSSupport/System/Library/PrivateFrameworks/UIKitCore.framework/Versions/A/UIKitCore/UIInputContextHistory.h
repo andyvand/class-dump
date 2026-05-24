@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, TIInputContextHistory;
+@class NSSet, TIInputContextHistory;
 
 @interface UIInputContextHistory
 {
@@ -13,10 +13,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *recipientIdentifiers;
-@property(readonly, nonatomic) NSSet *recipientNames;
-@property(readonly, nonatomic) NSString *senderIdentifier;
 @property(readonly, nonatomic) NSSet *senderIdentifiers;
-@property(readonly, nonatomic) TIInputContextHistory *tiInputContextHistory; // @synthesize tiInputContextHistory=_tiInputContextHistory;
 @end
 

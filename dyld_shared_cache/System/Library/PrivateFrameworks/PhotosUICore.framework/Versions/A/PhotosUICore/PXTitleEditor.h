@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextField;
+@class NSTextField;
 
 @interface PXTitleEditor
 {
     _Bool _includesSubtitle;
-    NSString *_message;
-    NSString *_title;
-    NSString *_titlePlaceholder;
-    NSString *_subtitle;
-    NSString *_subtitlePlaceholder;
-    NSString *_cancelButtonTitle;
-    NSString *_confirmButtonTitle;
-    CDUnknownBlockType _validation;
-    CDUnknownBlockType _completionHandler;
-    NSTextField *_titleTextField;
-    NSTextField *_subtitleTextField;
 }
 
 - (id);
@@ -29,13 +18,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -45,28 +34,27 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)uniform lowp vec4 borderColor, offsetColor, factorColor; 
+		varying lowp float borderAlpha; 
+		void main() 
+		{ 
+			lowp vec4 color = SampleTexture0; 
+            DoFilter0(color); 
+			color.a = 1.; 
+			color = color * factorColor + offsetColor; 
+			gl_FragColor = mix(color, borderColor, clamp(borderAlpha, 0., 1.)); 
+		} 
+		;
 - (CDUnknownBlockType);
 - (void);
 - (id)PXEngineDrivenAssetsTilingLayout;
 - (id)phone number;
 - (void)d update ReferencedAssets;
 - (void)berScrollLayout _invalidatePresentedScrubberPosition];
-- (void)Cell;
+- (void)LemonadeSharedLibraryInvitationsCell;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cancelButtonTitle; // @synthesize cancelButtonTitle=_cancelButtonTitle;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) NSString *confirmButtonTitle; // @synthesize confirmButtonTitle=_confirmButtonTitle;
-@property(nonatomic) _Bool includesSubtitle; // @synthesize includesSubtitle=_includesSubtitle;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *subtitlePlaceholder; // @synthesize subtitlePlaceholder=_subtitlePlaceholder;
-@property(retain, nonatomic) NSTextField *subtitleTextField; // @synthesize subtitleTextField=_subtitleTextField;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *titlePlaceholder; // @synthesize titlePlaceholder=_titlePlaceholder;
 @property(retain, nonatomic) NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
-@property(copy, nonatomic) CDUnknownBlockType validation; // @synthesize validation=_validation;
 
 @end
 

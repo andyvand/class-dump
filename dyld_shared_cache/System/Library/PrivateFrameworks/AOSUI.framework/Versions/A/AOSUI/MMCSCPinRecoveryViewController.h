@@ -4,28 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MMLinkTextField, MMPinFieldView, NSButton, NSImageView, NSLayoutConstraint, NSProgressIndicator, NSString, NSTextField, NSTouchBar, NSView, iCloudTouchBarController;
-@protocol MMCSCPinRecoveryViewControllerDelegate;
+@class MMPinFieldView;
 
 __attribute__((visibility("hidden")))
 @interface MMCSCPinRecoveryViewController
 {
     MMPinFieldView *_pinViewPinFieldView;
-    _Bool _needsVerification;
-    int _pinLength;
-    NSString *_passPhrase;
-    id <MMCSCPinRecoveryViewControllerDelegate> _delegate;
-    NSImageView *_pinViewImageView;
-    NSTextField *_pinViewTitle;
-    MMLinkTextField *_pinViewMessageTextField;
-    MMLinkTextField *_pinViewAlternateMessageTextField;
-    NSView *_pinViewPinFieldPlaceholder;
-    NSLayoutConstraint *_pinViewPinFieldWidthConstraint;
-    NSButton *_pinViewHelpButton;
-    NSButton *_pinViewConfirmButton;
-    NSButton *_pinViewCancelButton;
-    NSProgressIndicator *_pinViewProgressIndicator;
-    iCloudTouchBarController *_touchBarController;
 }
 
 - (void);
@@ -45,29 +29,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id)3;
+- (id);
+- (id)c;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)V;
 - (id);
 - (id);
 - (_Bool);
+- (id)1)3;
+- (void);
+- (void);
+- (void);
+- (void)k(3;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)CDPDRecoveryKeyValidatorInternalDelegate;
 - (int);
 - (void);
-- (id);
+- (id)-;
 - (void);
 - (void);
 - (id);
@@ -77,30 +61,7 @@ __attribute__((visibility("hidden")))
 - (id)eWithCompletionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <MMCSCPinRecoveryViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool needsVerification; // @synthesize needsVerification=_needsVerification;
-@property(copy) NSString *passPhrase; // @synthesize passPhrase=_passPhrase;
-@property int pinLength; // @synthesize pinLength=_pinLength;
-@property __weak MMLinkTextField *pinViewAlternateMessageTextField; // @synthesize pinViewAlternateMessageTextField=_pinViewAlternateMessageTextField;
-@property __weak NSButton *pinViewCancelButton; // @synthesize pinViewCancelButton=_pinViewCancelButton;
-@property __weak NSButton *pinViewConfirmButton; // @synthesize pinViewConfirmButton=_pinViewConfirmButton;
-@property __weak NSButton *pinViewHelpButton; // @synthesize pinViewHelpButton=_pinViewHelpButton;
-@property __weak NSImageView *pinViewImageView; // @synthesize pinViewImageView=_pinViewImageView;
-@property __weak MMLinkTextField *pinViewMessageTextField; // @synthesize pinViewMessageTextField=_pinViewMessageTextField;
-@property __weak NSView *pinViewPinFieldPlaceholder; // @synthesize pinViewPinFieldPlaceholder=_pinViewPinFieldPlaceholder;
 @property(retain) MMPinFieldView *pinViewPinFieldView; // @synthesize pinViewPinFieldView=_pinViewPinFieldView;
-@property __weak NSLayoutConstraint *pinViewPinFieldWidthConstraint; // @synthesize pinViewPinFieldWidthConstraint=_pinViewPinFieldWidthConstraint;
-@property __weak NSProgressIndicator *pinViewProgressIndicator; // @synthesize pinViewProgressIndicator=_pinViewProgressIndicator;
-@property __weak NSTextField *pinViewTitle; // @synthesize pinViewTitle=_pinViewTitle;
-@property(readonly) Class superclass;
-@property(readonly) NSTouchBar *touchBar;
-@property(retain) iCloudTouchBarController *touchBarController; // @synthesize touchBarController=_touchBarController;
 
 @end
 

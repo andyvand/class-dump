@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFRSAEncryptionOperation, SFSymmetricEncryptionOperation;
+@class SFRSAEncryptionOperation;
 
 __attribute__((visibility("hidden")))
 @interface SFRSA_WrappedKeyEncryptionOperation_Ivars
 {
     SFRSAEncryptionOperation *keyWrappingOperation;
-    SFSymmetricEncryptionOperation *sessionEncryptionOperation;
 }
 
 - (void);

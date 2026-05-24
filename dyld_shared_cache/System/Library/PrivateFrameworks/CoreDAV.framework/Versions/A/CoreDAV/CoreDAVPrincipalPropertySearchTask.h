@@ -6,21 +6,19 @@
 
 #import <CoreDAV/CoreDAVPropertyFindBaseTask.h>
 
-@class NSDictionary, NSSet;
+@class NSSet;
 
 @interface CoreDAVPrincipalPropertySearchTask : CoreDAVPropertyFindBaseTask
 {
     NSSet *_searchItems;
-    _Bool _applyToPrincipalCollectionSet;
-    NSDictionary *_extraAttributes;
 }
 
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)o4;
 - (void);
 - (void);
 - (id);
@@ -29,8 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool applyToPrincipalCollectionSet; // @synthesize applyToPrincipalCollectionSet=_applyToPrincipalCollectionSet;
-@property(retain, nonatomic) NSDictionary *extraAttributes; // @synthesize extraAttributes=_extraAttributes;
 @property(retain, nonatomic) NSSet *searchItems; // @synthesize searchItems=_searchItems;
 
 @end

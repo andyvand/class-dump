@@ -4,42 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, STBlueprint;
-@protocol STSerializableManagedObject;
-
 @interface STCoreDowntimeOverride
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)on_update_item_setIsMediaColumns;
+- (_Bool)T NULL DEFAULT 0, is_itunes_u INTEGER NOT NULL DEFAULT 0;
+- (_Bool)300 WHERE item_pid IN (SELECT item_pid FROM item JOIN base_location USING(base_location_id) WHERE path = '/var/mobile/Media/Purchases');
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (long long);
+- (_Bool);
+- (long long);
 - (long long);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy) NSString *calendarIdentifier; // @dynamic calendarIdentifier;
-@property(copy) NSDate *creationDate; // @dynamic creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) STBlueprint *downtime; // @dynamic downtime;
-@property(copy) NSDate *endDate; // @dynamic endDate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isTombstoned; // @dynamic isTombstoned;
-@property(nonatomic) long long state; // @dynamic state;
-@property(readonly) Class superclass;
-@property(readonly) id <STSerializableManagedObject> syncableRootObject;
 @property(nonatomic) long long type; // @dynamic type;
 
 @end

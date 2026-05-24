@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNSharingProfileAvatarItem
 {
     _Bool _wasSetFromFullPhotoPicker;
-    CDUnknownBlockType _imageProvider;
-    CDUnknownBlockType _originalImageProvider;
-    long long _type;
-    NSString *_variantIdentifier;
-    NSData *_memojiMetadata;
 }
 
 - (_Bool);
@@ -25,18 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)-[ISDConflictManager commit].;
 - (long long);
 - (void);
-- (void)erImageData;
+- (void)_watchWallpaperImageData;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(nonatomic) NSData *memojiMetadata; // @synthesize memojiMetadata=_memojiMetadata;
-@property(readonly, copy, nonatomic) CDUnknownBlockType originalImageProvider; // @synthesize originalImageProvider=_originalImageProvider;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *variantIdentifier; // @synthesize variantIdentifier=_variantIdentifier;
-@property(nonatomic) _Bool wasSetFromFullPhotoPicker; // @synthesize wasSetFromFullPhotoPicker=_wasSetFromFullPhotoPicker;
 
 @end
 

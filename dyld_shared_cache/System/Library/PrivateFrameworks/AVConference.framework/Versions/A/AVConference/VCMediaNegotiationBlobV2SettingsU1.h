@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobV2SettingsU1
 {
     NSMutableArray *_encodeDecodeFeatures;
-    unsigned int _rtpSSRC;
-    struct {
-        unsigned int rtpSSRC:1;
-    } _has;
 }
 
 + (int);
 + (int);
 + (id);
 + (long long);
-+ (Class);
++ (Class)T_;
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -44,12 +40,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)rRecognition;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *encodeDecodeFeatures; // @synthesize encodeDecodeFeatures=_encodeDecodeFeatures;
 @property(nonatomic) _Bool hasRtpSSRC;
-@property(nonatomic) unsigned int rtpSSRC; // @synthesize rtpSSRC=_rtpSSRC;
 
 @end
 

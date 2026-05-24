@@ -9,8 +9,6 @@
 @protocol UINSDragItem
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect frame;
 @property(readonly, nonatomic) NSItemProvider *itemProvider;
-@property(readonly, nonatomic) long long preferredPresentationStyle;
 @end
 

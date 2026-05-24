@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)setTileGlobalConstantsBase:(struct _NSZone *)arg1;
 @end
 

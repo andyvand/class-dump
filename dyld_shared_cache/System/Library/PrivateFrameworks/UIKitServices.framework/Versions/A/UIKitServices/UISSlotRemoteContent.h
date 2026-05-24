@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UISSlotRemoteContent
 {
     unsigned char _contentScale;
-    struct CGSize _contentSize;
-    unsigned int _slotID;
 }
 
 + (id);
-+ (_Bool);
-- (void);
++ (_Bool);
+- (void)6 ;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long)!;
 - (id);
 - (_Bool);
 - (unsigned char);
@@ -31,18 +27,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char contentScale;
-@property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isRemote;
-@property(readonly, nonatomic) _Bool shouldReplaceExistingContent;
 @property(readonly, nonatomic) unsigned int slotID; // @synthesize slotID=_slotID;
-@property(readonly) Class superclass;
 
 @end
 

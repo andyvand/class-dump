@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface FPErrorRedactionHelper
 {
     NSError *_error;
-    unsigned long long _depth;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)�;
 - (void)A>&°!´Fùñç)1Â0@ù
 × ;
 

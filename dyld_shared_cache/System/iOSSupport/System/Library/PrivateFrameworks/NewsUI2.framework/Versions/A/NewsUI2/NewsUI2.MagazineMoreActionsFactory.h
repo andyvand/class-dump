@@ -7,9 +7,6 @@
 @interface NewsUI2.MagazineMoreActionsFactory
 {
     id offlineIssueManager;
-    id myMagazinesStore;
-    id activityItemFactory;
-    id myMagazinesActivityItemFactory;
 }
 
 @end

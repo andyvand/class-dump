@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSXPCConnection, NSXPCListener;
+
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)ferToCxt:(NSXPCListener *)arg1 nvmeModeSelect(268):(NSXPCConnection *)arg2 Cannot add 4 elements to context;
 @end
 

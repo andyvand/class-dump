@@ -5,19 +5,17 @@
 //
 
 @class CSPipelineCompletenessReportStorage;
-@protocol CSDonationProgressFetching;
 
 @interface CSIndexingPipelineCompletenessCollector
 {
     CSPipelineCompletenessReportStorage *_pipelineCompleteness;
-    id <CSDonationProgressFetching> _donationProgressFetcher;
 }
 
 + (id);
-- (id);
+- (id)handleColorTemperatureAttributes:(id)arg1;
 - (void);
 - (void);
-- (void);
+- (void)!;
 
 @end
 

@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)ion date %@ since it is before %@;
 - (void);
-- (id)ePlain: /* Error: Ran out of types for this method. */;
+- (id)setDisplayStylePlain: /* Error: Ran out of types for this method. */;
 - (void)solving configuration (%@) effectiveBehavior (%@);
 - (void);
 

@@ -5,5 +5,8 @@
 //
 
 @protocol TIFeedbackControllerDelegate
+- (void);
+- (void)looks like garbage:%@ /* Error: Ran out of types for this method. */;
+- (void)remote string %@ for utterance:%@, sending to delegate:%@ /* Error: Ran out of types for this method. */;
 @end
 

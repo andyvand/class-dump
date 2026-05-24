@@ -8,9 +8,9 @@
 {
 }
 
++ (void)IsFullyEncrypted;
 + (void);
-+ (void);
-+ (void);
++ (void)trackingLevel;
 
 @end
 

@@ -11,9 +11,9 @@
 }
 
 + (id);
-+ (id);
++ (id)wrapperWithURL:(long long)arg1 readonly:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)ork/Versions/A/CoreFoundation;
 - (id);
 
 @end

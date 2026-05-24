@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)tImportKeychainAccessList uses 8021X apps;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageWrapper, NSString;
+@class IKImageWrapper;
 
 @interface IKFlockingDatasourceItem
 {
     IKImageWrapper *_image;
-    NSString *_title;
-    NSString *_imageUID;
-    unsigned long long _imageVersion;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)gh or extended dynamic range;
 - (id);
 - (void);
 

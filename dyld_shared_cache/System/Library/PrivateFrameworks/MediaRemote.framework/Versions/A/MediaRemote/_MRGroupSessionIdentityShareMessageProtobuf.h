@@ -14,20 +14,19 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (id);
-- (id);
+- (id)ms_MY;
 - (_Bool);
-- (void)er;
+- (void)_listener;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentity;
-@property(retain, nonatomic) _MRUserIdentityProtobuf *identity; // @synthesize identity=_identity;
 
 @end
 

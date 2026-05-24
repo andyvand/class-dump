@@ -14,8 +14,8 @@
 
 + (id);
 + (id);
-- (void);
-- (void);
+- (void)addPeriodicTimeObserverForInterval:queue:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)V_previewQueue;
 - (void);
 - (void);
 - (id);

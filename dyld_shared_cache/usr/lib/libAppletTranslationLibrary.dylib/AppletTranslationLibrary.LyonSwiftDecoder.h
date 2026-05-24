@@ -7,24 +7,14 @@
 @interface AppletTranslationLibrary.LyonSwiftDecoder
 {
     id state;
-    id endpointIdentifier;
-    id readerIdentifier;
-    id sw;
-    id endpointNotFoundReason;
-    id antiRelayResult;
-    id requestAuth;
-    id protocolVersion;
-    id readerVendorId;
-    id readerProductId;
-    id readerFirmwareVersion;
 }
 
 + (id);
 - (id);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (id);
+- (long long);
+- (id)defaultIndexer;
+- (id)= wal;;
 - (id);
 - (void);
 - (void)edSerialNumber;

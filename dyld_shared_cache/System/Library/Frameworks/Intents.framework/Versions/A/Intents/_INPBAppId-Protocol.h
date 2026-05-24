@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleId;
-@property(readonly, nonatomic) _Bool hasBundleId;
 @end
 

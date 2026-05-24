@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDInMemoryThreadQueryHandler, EDPrecomputedThreadQueryHandler, EDThreadMigrator, EMObjectID;
+@class EMObjectID;
 
 @interface _EDThreadQueryUnderlyingHandlers
 {
     EMObjectID *_inMemoryObservationID;
-    EMObjectID *_precomputedObservationID;
-    EDInMemoryThreadQueryHandler *_inMemoryQueryHandler;
-    EDPrecomputedThreadQueryHandler *_precomputedQueryHandler;
-    EDThreadMigrator *_threadMigrator;
 }
 
 - (id);
@@ -20,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -34,10 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EMObjectID *inMemoryObservationID; // @synthesize inMemoryObservationID=_inMemoryObservationID;
-@property(retain, nonatomic) EDInMemoryThreadQueryHandler *inMemoryQueryHandler; // @synthesize inMemoryQueryHandler=_inMemoryQueryHandler;
-@property(retain, nonatomic) EMObjectID *precomputedObservationID; // @synthesize precomputedObservationID=_precomputedObservationID;
-@property(retain, nonatomic) EDPrecomputedThreadQueryHandler *precomputedQueryHandler; // @synthesize precomputedQueryHandler=_precomputedQueryHandler;
-@property(retain, nonatomic) EDThreadMigrator *threadMigrator; // @synthesize threadMigrator=_threadMigrator;
 
 @end
 

@@ -4,12 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (void);
+- (struct CGSize)#;
+- (NSArray *)`;
 - (void)Ä;
 - (void);
-- (void);
+- (void)x;
 - (void);
 - (void);
 - (void)¨;

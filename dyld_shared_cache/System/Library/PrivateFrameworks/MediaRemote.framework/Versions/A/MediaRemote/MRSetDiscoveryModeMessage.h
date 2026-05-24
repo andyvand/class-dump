@@ -6,24 +6,20 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRAVRoutingDiscoverySessionConfiguration;
-
 @interface MRSetDiscoveryModeMessage : MRProtocolMessage
 {
     unsigned int _mode;
-    MRAVRoutingDiscoverySessionConfiguration *_configuration;
 }
 
 - (id);
 - (id);
 - (unsigned int);
 - (id);
-- (unsigned long long);
+- (unsigned long long)uest to generate preview to BlastDoor for %@;
 - (id);
 - (void)dler;
 
 // Remaining properties
-@property(readonly, nonatomic) MRAVRoutingDiscoverySessionConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) unsigned int mode; // @synthesize mode=_mode;
 
 @end

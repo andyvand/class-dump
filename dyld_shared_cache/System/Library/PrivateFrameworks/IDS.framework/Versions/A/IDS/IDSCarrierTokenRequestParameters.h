@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSCarrierTokenRequestParameters
 {
     long long _subscriptionSource;
-    NSString *_IMEI;
-    NSString *_carrierNonce;
 }
 
 - (id);
@@ -21,8 +17,6 @@
 - (long long)r changing from %@ to %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *IMEI; // @synthesize IMEI=_IMEI;
-@property(readonly, nonatomic) NSString *carrierNonce; // @synthesize carrierNonce=_carrierNonce;
 @property(readonly, nonatomic) long long subscriptionSource; // @synthesize subscriptionSource=_subscriptionSource;
 
 @end

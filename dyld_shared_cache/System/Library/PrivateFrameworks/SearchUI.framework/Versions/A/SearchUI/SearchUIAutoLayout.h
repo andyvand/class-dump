@@ -9,23 +9,23 @@
 }
 
 + (id);
-+ (id);
-+ (void);
-+ (id);
-+ (double);
++ (id);
++ (void)initWithAccessoryInfo:(id)arg1 discovery:operationQueue: /* Error: Ran out of types for this method. */;
++ (id)_resetSession;
++ (double)ion for %@. Current active sessions:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 + (void);
++ (void)$|;
 + (void);
 + (void);
-+ (void);
 + (id);
 + (id);
 + (void);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (double);
++ (double)AXTTSLegacyMacinTalkAssetPolicy;
 + (_Bool);
 + (id);
 + (void);
@@ -49,11 +49,11 @@
 + (void);
 + (void);
 + (id);
-+ (double);
++ (double)_diskWritesMiB;
 + (void);
 + (struct CGRect);
 + (id);
-+ (id);
++ (id)A;
 + (void);
 + (id);
 + (id);

@@ -14,13 +14,13 @@
 }
 
 + (id);
-- (id);
+- (id)_updateAttributesForDayCell:isPrevNextMonth: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)removeRecentContacts:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)`l;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *privileges; // @synthesize privileges=_privileges;

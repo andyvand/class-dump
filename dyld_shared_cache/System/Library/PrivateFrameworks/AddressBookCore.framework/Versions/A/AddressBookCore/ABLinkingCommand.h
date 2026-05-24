@@ -6,17 +6,11 @@
 
 #import <AddressBookCore/ABBookUndoableCommand.h>
 
-@class NSArray, NSDictionary;
-@protocol ABLinkingInfoDataSource;
+@class NSArray;
 
 @interface ABLinkingCommand : ABBookUndoableCommand
 {
     NSArray *_peopleUIDArrays;
-    id <ABLinkingInfoDataSource> _adapter;
-    NSArray *_peopleArrays;
-    NSDictionary *_peopleByUniqueId;
-    NSDictionary *_originalLinkingSnapshot;
-    NSDictionary *_modifiedLinkingSnapshot;
 }
 
 + (id);
@@ -33,24 +27,21 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)P;
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)ifier %{public}s and provider identifier %{public}s for %{public}s app;
 
 // Remaining properties
-@property(retain) NSDictionary *modifiedLinkingSnapshot; // @synthesize modifiedLinkingSnapshot=_modifiedLinkingSnapshot;
-@property(retain) NSDictionary *originalLinkingSnapshot; // @synthesize originalLinkingSnapshot=_originalLinkingSnapshot;
 @property(retain) NSArray *peopleArrays; // @synthesize peopleArrays=_peopleArrays;
-@property(retain) NSDictionary *peopleByUniqueId; // @synthesize peopleByUniqueId=_peopleByUniqueId;
 
 @end
 

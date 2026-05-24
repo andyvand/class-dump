@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebCLLocationManager
 {
     struct RetainPtr<CLLocationManager> _locationManager;
-    struct Client *_client;
-    struct String _websiteIdentifier;
-    _Bool _isWaitingForAuthorization;
-    _Bool _mode;
 }
 
 - (void);
@@ -31,13 +25,7 @@ aÑCS@ÁCsðá¡çgeíàÑØåa\à*úá±_unionmaòá%ôownå�
 ðäiown®p#ÉàÖÍåxaóðTåï,ó	`.4ïóßõà.istaiîéN­ôðãategõãTðî.Öorôç(ìïðûXãiaìì¨'cåï*mokinçîikiîðº¶áy.sõðLççwÔquicëðb¬ðraùê¾sïà.3etandyou.åê(Ðáò`.BðAintconsuìðöDîð÷;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

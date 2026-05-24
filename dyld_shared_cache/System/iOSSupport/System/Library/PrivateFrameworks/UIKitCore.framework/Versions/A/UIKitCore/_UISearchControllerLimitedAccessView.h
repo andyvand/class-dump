@@ -6,20 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIButton, UILabel;
+@class UIButton;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchControllerLimitedAccessView : UIView
 {
     UIView *_backgroundView;
-    UILabel *_keyboardLimitedLabel;
-    UIButton *_backButton;
 }
 
 - (void);
-- (id)ndow:(struct CGRect)arg1;
+- (id)_invalidateAppearanceInWindow:(struct CGRect)arg1;
 - (_Bool)9þÿ9þÿ9þÿõþÿ;
-- (id)x;
+- (id)SgXwz_Xx;
 - (void);
 
 // Remaining properties

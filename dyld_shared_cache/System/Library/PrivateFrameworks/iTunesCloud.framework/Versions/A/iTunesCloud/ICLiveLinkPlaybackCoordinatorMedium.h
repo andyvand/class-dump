@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLiveLink, NSMutableArray, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface ICLiveLinkPlaybackCoordinatorMedium
 {
     struct os_unfair_lock_s _fetchServerStateLock;
-    ICLiveLink *_liveLink;
-    NSUUID *_localParticipantUUID;
-    long long _fetchServerStateInProgressCount;
-    NSMutableArray *_fetchServerStateCompletions;
 }
 
 - (void);
@@ -32,13 +28,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)pantChangeAction;
+- (void)_ICLLParticipantChangeAction;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *fetchServerStateCompletions; // @synthesize fetchServerStateCompletions=_fetchServerStateCompletions;
-@property(readonly, nonatomic) long long fetchServerStateInProgressCount; // @synthesize fetchServerStateInProgressCount=_fetchServerStateInProgressCount;
-@property(readonly, nonatomic) struct os_unfair_lock_s fetchServerStateLock; // @synthesize fetchServerStateLock=_fetchServerStateLock;
-@property(readonly, nonatomic) __weak ICLiveLink *liveLink; // @synthesize liveLink=_liveLink;
 @property(readonly, copy, nonatomic) NSUUID *localParticipantUUID; // @synthesize localParticipantUUID=_localParticipantUUID;
 
 @end

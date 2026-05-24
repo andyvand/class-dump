@@ -10,20 +10,19 @@ __attribute__((visibility("hidden")))
 @interface OCBReader : OCDEncryptedReader
 {
     struct OcBinaryReader *mBinaryReader;
-    struct __sFILE *mFile;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)K<;
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (struct OCCEncryptionInfoReader *);
 - (struct OcBinaryReader *);
 - (id);
-- (struct OCCBinaryStreamer *);
+- (struct OCCBinaryStreamer *)kB;
 - (void);
-- (_Bool);
+- (_Bool)r;
 - (struct __sFILE *);
 - (void);
 - (void);
@@ -31,8 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct OcBinaryReader *binaryReader; // @synthesize binaryReader=mBinaryReader;
-@property(readonly, nonatomic) struct OCCEncryptionInfoReader *encryptionInfoReader;
-@property(nonatomic) struct __sFILE *file; // @synthesize file=mFile;
 
 @end
 

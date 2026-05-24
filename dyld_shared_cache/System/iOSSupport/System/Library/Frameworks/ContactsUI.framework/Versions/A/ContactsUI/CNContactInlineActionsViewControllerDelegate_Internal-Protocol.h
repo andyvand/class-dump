@@ -5,5 +5,8 @@
 //
 
 @protocol CNContactInlineActionsViewControllerDelegate_Internal
+
+@optional
+- (void);
 @end
 

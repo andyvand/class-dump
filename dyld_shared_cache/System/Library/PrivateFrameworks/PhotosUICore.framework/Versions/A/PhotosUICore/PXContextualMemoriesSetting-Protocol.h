@@ -8,14 +8,12 @@
 
 @protocol PXContextualMemoriesSetting
 - (NSString *)raphy script load completed with duration:%@ /* Error: Ran out of types for this method. */;
-- (NSString *)LStatusActionLearnMoreClientVersionTooOld_Title;
+- (NSString *)PXCPLStatusActionLearnMoreClientVersionTooOld_Title;
+
+@optional
+- (NSString *)˩#;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *headerTitle;
-@property(readonly, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *title;
 @end
 

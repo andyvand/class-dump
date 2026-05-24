@@ -7,10 +7,6 @@
 @interface APPCOutstreamVideoInfo
 {
     id videoAssetURL;
-    id videoDuration;
-    id bitrate;
-    id signalStrength;
-    id connectionType;
 }
 
 - (id);

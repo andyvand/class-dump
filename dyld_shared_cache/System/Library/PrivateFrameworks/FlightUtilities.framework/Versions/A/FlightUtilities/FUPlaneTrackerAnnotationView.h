@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface FUPlaneTrackerAnnotationView
 {
     _Bool _showsPlane;
-    NSMutableArray *_viewAddedBlock;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
-+ (struct CLLocationCoordinate2D);
-+ (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
++ (struct CLLocationCoordinate2D)k:(struct CLLocationCoordinate2D)arg1 event at bookmark %@ already in deleted state %u;
++ (id)hold off on pruning future events because time looks like it needs an NTP server sync;
+- (id)ithTimestamp:Attempting to acquire lockfile:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)pen framestore:%@ in %@ with error:%@ /* Error: Ran out of types for this method. */;
+- (void)client mismatch;
+- (void)lic}@(%d), process not properly entitled;
+- (void)using connection from %{public}@(%d), process not properly entitled;
+- (void)process write failed, wrong class;
+- (id)%d at offset %u, skipping frame in segment:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)rame returned a %d error for frame number:(CDUnknownBlockType)arg1 %d at offset %u, skipping frame in segment:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CLLocationCoordinate2D);
 - (void);
@@ -39,26 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly) struct CLLocationCoordinate2D currentLocation;
-@property(nonatomic) double currentProgress;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CLLocationCoordinate2D endLocation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CLLocationCoordinate2D startLocation;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(retain) NSMutableArray *viewAddedBlock; // @synthesize viewAddedBlock=_viewAddedBlock;
 
 @end
 

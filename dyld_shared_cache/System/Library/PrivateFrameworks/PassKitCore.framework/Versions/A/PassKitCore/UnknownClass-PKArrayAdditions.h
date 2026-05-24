@@ -5,14 +5,17 @@
 //
 
 @interface UnknownClass (PKArrayAdditions)
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id));
+- (id);
+- (id)
+kB;
 - (id);
 - (id);
 - (id);
@@ -25,9 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

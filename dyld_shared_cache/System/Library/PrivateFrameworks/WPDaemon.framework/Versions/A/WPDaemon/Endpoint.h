@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface Endpoint
 {
     unsigned char _requireAck;
-    _Bool _requireEncyption;
-    NSUUID *_clientUUID;
 }
 
 - (void);
@@ -23,9 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSUUID *clientUUID; // @synthesize clientUUID=_clientUUID;
 @property unsigned char requireAck; // @synthesize requireAck=_requireAck;
-@property _Bool requireEncyption; // @synthesize requireEncyption=_requireEncyption;
 
 @end
 

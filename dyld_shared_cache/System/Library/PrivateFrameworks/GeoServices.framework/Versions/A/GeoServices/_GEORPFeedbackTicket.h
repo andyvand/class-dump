@@ -6,20 +6,12 @@
 
 #import <GeoServices/GEOAbstractTicket.h>
 
-@class GEOMapServiceTraits, GEORPFeedbackRequest, GEORPFeedbackRequestParameters, GEORPUserCredentials, NSData, NSString;
-@protocol GEOMapItem;
+@class GEOMapServiceTraits, NSData;
 
 __attribute__((visibility("hidden")))
 @interface _GEORPFeedbackTicket : GEOAbstractTicket
 {
     NSData *_resubmissionData;
-    GEORPFeedbackRequestParameters *_feedbackRequestParameters;
-    id <GEOMapItem> _place;
-    GEORPFeedbackRequest *_feedbackRequest;
-    GEORPUserCredentials *_userCredentials;
-    NSData *_pushToken;
-    NSString *_emailAddress;
-    _Bool _started;
 }
 
 - (id);
@@ -28,17 +20,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (CDStruct_d1a7ebee)ó;
+- (CDStruct_026435ec)ó;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end

@@ -8,9 +8,6 @@
 {
     id identifier;
     id name;
-    id icon;
-    id _enabled;
-    id _$observationRegistrar;
 }
 
 @end

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
-- (double);
-- (struct UIEdgeInsets);
-- (id);
-- (double);
+- (double)i;
+- (struct UIEdgeInsets)r;
+- (id)n;
+- (double)a;
 
 @end
 

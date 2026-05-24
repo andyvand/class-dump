@@ -5,17 +5,14 @@
 //
 
 @class CDPContext;
-@protocol CDPDSecureBackupDelegate, CDPDSecureBackupProxy, CDPStateUIProviderInternal;
+@protocol CDPStateUIProviderInternal;
 
 @protocol CDPDSecureBackupControl
+- (id)ftwareUpdate.MacUpdateBrain;
 - (void)Ð0\1ü3ì4Ð5è5;
 - (id <CDPStateUIProviderInternal>)ferences.AppleIDSettings?email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE/ICLOUD_ADP_SPECIFIER_NAME;
 
 // Remaining properties
 @property(readonly, nonatomic) CDPContext *context;
-@property(readonly, nonatomic) __weak id <CDPDSecureBackupDelegate> delegate;
-@property(nonatomic) _Bool fakeNearlyDepletedRecords;
-@property(retain, nonatomic) id <CDPDSecureBackupProxy> secureBackupProxy;
-@property(readonly, nonatomic) id <CDPStateUIProviderInternal> uiProvider;
 @end
 

@@ -7,12 +7,10 @@
 @interface NewsFeed.DebugFormatHistoryViewController
 {
     id editor;
-    id sections;
-    id tableView;
 }
 
-- (id);
-- (id);
+- (id)ype;
+- (id)lP;
 - (id);
 - (long long);
 - (void);

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSFreeBusyView, EWSResponseMessageType, NSString;
+@class EWSResponseMessageType;
 
 @interface EWSFreeBusyResponseType
 {
     EWSResponseMessageType *_ResponseMessage;
-    EWSFreeBusyView *_FreeBusyView;
 }
 
 + (id);
@@ -20,15 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) EWSFreeBusyView *FreeBusyView; // @synthesize FreeBusyView=_FreeBusyView;
 @property(retain, nonatomic) EWSResponseMessageType *ResponseMessage; // @synthesize ResponseMessage=_ResponseMessage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

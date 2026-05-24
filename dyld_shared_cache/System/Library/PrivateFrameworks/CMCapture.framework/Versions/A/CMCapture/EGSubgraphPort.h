@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EGGraph, NSArray, NSMutableArray, NSString;
-@protocol EGElement, EGPortInterface, EGSourcePort;
+@class EGGraph, NSString;
 
 __attribute__((visibility("hidden")))
 @interface EGSubgraphPort
 {
     NSString *_name;
-    EGGraph *_parentGraph;
-    id <EGSourcePort> _source;
-    NSMutableArray *_destinations;
 }
 
 + (void)m.apple.avfoundation.avcapturedevice.built-in_video:2 /* Error: Ran out of types for this method. */;
-- (void);
+- (void);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)docSourceMasterStyleInfoOfType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -32,19 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)É]¶ÿÒZ´ÿÛX²ÿãV°ÿìU¯ÿöU®ÿþU®ÿþU­ÿþV¬ÿþV¬ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *destinations; // @synthesize destinations=_destinations;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) __weak id <EGElement> parent;
 @property(readonly, nonatomic) __weak EGGraph *parentGraph;
-@property(readonly, nonatomic) id <EGPortInterface> portInterface;
-@property(readonly, nonatomic) id <EGSourcePort> source;
-@property(readonly) Class superclass;
 
 @end
 

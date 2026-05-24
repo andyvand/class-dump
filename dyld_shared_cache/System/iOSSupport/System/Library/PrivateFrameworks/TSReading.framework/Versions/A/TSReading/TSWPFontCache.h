@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString, TSULRUCache;
+@class TSULRUCache;
 
 @interface TSWPFontCache
 {
     TSULRUCache *_fontCache;
-    NSArray *_familyNames;
-    NSMutableDictionary *_familyDisplayNames;
-    NSArray *_familyFonts;
-    NSMutableArray *_cachedAvailableMembers;
-    NSString *_cachedMembersFamilyName;
 }
 
 + (id);
 + (id);
 + (id)#È;
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)user identity for requestContext:(id)arg1 %@;
+- (id)adataResponse"8@"NSError"16;
+- (id)overlappingTransitionDidReachPivotPoint: /* Error: Ran out of types for this method. */;
+- (void)initialQueueItemCount;
+- (id);
 - (struct __CTFont *);
 - (struct __CTFont *);
 - (id);

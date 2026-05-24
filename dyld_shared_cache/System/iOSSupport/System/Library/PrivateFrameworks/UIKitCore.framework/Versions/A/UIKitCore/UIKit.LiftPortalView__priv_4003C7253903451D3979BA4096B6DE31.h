@@ -9,12 +9,10 @@
 @interface UIKit.LiftPortalView__priv_4003C7253903451D3979BA4096B6DE31 : UIView
 {
     id _lifted;
-    id $__lazy_storage_$_portalView;
-    id contentView;
 }
 
 - (id);
-- (id)ationItemButton;
+- (id)_UIStatusBarSystemNavigationItemButton;
 - (void)EíþoêÛl;
 
 @end

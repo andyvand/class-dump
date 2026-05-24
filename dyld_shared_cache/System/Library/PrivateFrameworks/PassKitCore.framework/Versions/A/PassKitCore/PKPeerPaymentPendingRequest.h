@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, PKCurrencyAmount;
+@class NSString;
 
 @interface PKPeerPaymentPendingRequest
 {
     _Bool _complete;
-    _Bool _sentOnThisDevice;
-    NSString *_requestToken;
-    NSString *_requesterAddress;
-    NSString *_requesteeAddress;
-    PKCurrencyAmount *_currencyAmount;
-    NSString *_memo;
-    NSString *_sessionID;
-    NSDate *_requestDate;
-    NSDate *_expiryDate;
-    NSDate *_lastDismissedDate;
-    NSArray *_actions;
-    NSString *_status;
-    unsigned long long _context;
-    NSArray *_receivedTransactions;
-    unsigned long long _validRecipientCount;
-    NSString *_messageGUID;
-    NSString *_groupID;
 }
 
 + (id);
@@ -49,10 +32,10 @@
 - (id);
 - (id);
 - (id);
+- (void)O;
+- (void)*>;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)gɗc^ɗ;
 - (id);
 - (void);
 - (void);
@@ -68,11 +51,11 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ssSyncChannelFlags"b1"completionTime"b1"peerChannel"b1"peerChannelFlags"b1"policyCode"b1"selfInfraChannel"b1"selfInfraChannelFlags"b1"targetChannel"b1"targetChannelFlags"b1"trafficType"b1};
+- (void)pletionsAtLastCheck;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -80,29 +63,12 @@
 - (_Bool)PROD trust policy.;
 - (void)ess.;
 - (void)ts:(_Bool)arg1 '%@'; ;
-- (_Bool)STATE_UNAVAILABLE_REASON_PERSONALIZING;
-- (id)tDetails;
+- (_Bool)PAYMENT_OPTIONS_CARD_STATE_UNAVAILABLE_REASON_PERSONALIZING;
+- (id)experimentDetails;
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(nonatomic, getter=isComplete) _Bool complete; // @synthesize complete=_complete;
-@property(nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(retain, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(retain, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
-@property(retain, nonatomic) NSString *groupID; // @synthesize groupID=_groupID;
-@property(retain, nonatomic) NSDate *lastDismissedDate; // @synthesize lastDismissedDate=_lastDismissedDate;
-@property(retain, nonatomic) NSString *memo; // @synthesize memo=_memo;
-@property(retain, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(retain, nonatomic) NSArray *receivedTransactions; // @synthesize receivedTransactions=_receivedTransactions;
-@property(retain, nonatomic) NSDate *requestDate; // @synthesize requestDate=_requestDate;
 @property(retain, nonatomic) NSString *requestToken; // @synthesize requestToken=_requestToken;
-@property(retain, nonatomic) NSString *requesteeAddress; // @synthesize requesteeAddress=_requesteeAddress;
-@property(retain, nonatomic) NSString *requesterAddress; // @synthesize requesterAddress=_requesterAddress;
-@property(nonatomic) _Bool sentOnThisDevice; // @synthesize sentOnThisDevice=_sentOnThisDevice;
-@property(retain, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(retain, nonatomic) NSString *status; // @synthesize status=_status;
-@property(nonatomic) unsigned long long validRecipientCount; // @synthesize validRecipientCount=_validRecipientCount;
 
 @end
 

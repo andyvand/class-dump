@@ -11,16 +11,11 @@
 @interface TSDConnectionLineInfo : TSDShapeInfo
 {
     TSDDrawableInfo *mConnectedFrom;
-    TSDDrawableInfo *mConnectedTo;
-    struct {
-        unsigned int connectedFrom:1;
-        unsigned int connectedTo:1;
-    } mInvalidFlags;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -38,7 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TSDDrawableInfo *connectedFrom; // @synthesize connectedFrom=mConnectedFrom;
-@property(retain, nonatomic) TSDDrawableInfo *connectedTo; // @synthesize connectedTo=mConnectedTo;
 
 @end
 

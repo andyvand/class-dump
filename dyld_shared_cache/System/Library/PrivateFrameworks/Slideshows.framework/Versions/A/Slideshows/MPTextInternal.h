@@ -9,18 +9,16 @@
 @interface MPTextInternal
 {
     NSAttributedString *attributedString;
-    NSAttributedString *nsAttributedString;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)/;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *attributedString; // @synthesize attributedString;
-@property(retain, nonatomic) NSAttributedString *nsAttributedString; // @synthesize nsAttributedString;
 
 @end
 

@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIView;
-@protocol UIFocusEnvironment, UIFocusItemContainer;
+@class NSArray, NSString;
 
 @protocol UIFocusEnvironment
+- (_Bool);
+
+@optional
+- (NSString *)constructWithArguments: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *focusGroupIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) id <UIFocusItemContainer> focusItemContainer;
-@property(readonly, nonatomic) __weak id <UIFocusEnvironment> parentFocusEnvironment;
 @property(readonly, copy, nonatomic) NSArray *preferredFocusEnvironments;
-@property(readonly, nonatomic) __weak UIView *preferredFocusedView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,W,N
-
 @end
 

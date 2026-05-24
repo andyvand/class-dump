@@ -13,7 +13,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *symbolName;
-@property(readonly, nonatomic) NSString *title;
 @end
 

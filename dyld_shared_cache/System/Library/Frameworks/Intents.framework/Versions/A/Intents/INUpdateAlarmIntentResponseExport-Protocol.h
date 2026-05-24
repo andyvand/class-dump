@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INAlarm, NSArray;
+@class INAlarm;
 
 @protocol INUpdateAlarmIntentResponseExport
+- (INAlarm *);
 - (long long)gnalsFrequencyDenominatorProd:entityConfidenceSignalsMaxItemsToDisambiguate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *conflictAlarms;
-@property(copy) INAlarm *updatedAlarm;
 @end
 

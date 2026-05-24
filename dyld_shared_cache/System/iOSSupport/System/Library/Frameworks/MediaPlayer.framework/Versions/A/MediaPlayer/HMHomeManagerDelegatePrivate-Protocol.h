@@ -4,6 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMHomeManager, NSArray;
+
 @protocol HMHomeManagerDelegatePrivate
+
+@optional
+- (void)%{public}ld requests coalesced into %{public}ld unique identifiers;
+- (void)ons:(HMHomeManager *)arg1 %ld;
+- (void){public}ld itemIdentifiers:(HMHomeManager *)arg1 %s typeIdentifier:%s options:%ld /* Error: Ran out of types for this method. */;
+- (void)otectionClass:(HMHomeManager *)arg1 %{public}s itemIdentifiersCount:%{public}ld itemIdentifiers:%s typeIdentifier:%s options:%ld /* Error: Ran out of types for this method. */;
+- (void)entifiers;
+- (void);
+- (void)blic}s got %{public}ld results for %{public}ld items:(HMHomeManager *)arg1 %s;
+- (void)s for %{public}ld items:(HMHomeManager *)arg1 %@ - item identifiers:(NSArray *)arg2 %s;
+- (void)mIdentifiers:(HMHomeManager *)arg1 %s;
+- (void)ceived prioirity messages %s, and relay to watch;
+- (void)%{public}ld guids:(HMHomeManager *)arg1 %s options:(_Bool)arg2 %ld;
+- (void)ate %s rcptVer %ld hadQOI %{bool}d;
+- (void)%s rcptVer %ld hadQOI %{bool}d];
+- (void)existing [%s %s rcptVer %ld hadQOI %{bool}d] incoming [%s %s rcptVer %ld hadQOI %{bool}d];
+- (void)t tracked read receipt for chat %s is the latest, existing [%s %s rcptVer %ld hadQOI %{bool}d] incoming [%s %s rcptVer %ld hadQOI %{bool}d];
+- (void);
+- (void)yteSize <= mBufferCapacity;
 @end
 

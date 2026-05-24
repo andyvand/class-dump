@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMDAccessoryDiagnosticsSessionInternal, HMFMessageDispatcher, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDAccessory;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryDiagnosticsManagerInternal
 {
     HMDAccessory *_accessory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_msgDispatcher;
-    NSString *_clientIdentifier;
-    HMDAccessoryDiagnosticsSessionInternal *_currentDiagnosticsSession;
 }
 
 + (id),îB;
@@ -23,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id)nodeClassByDomain;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -39,22 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) __weak HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain) HMDAccessoryDiagnosticsSessionInternal *currentDiagnosticsSession; // @synthesize currentDiagnosticsSession=_currentDiagnosticsSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) HMFMessageDispatcher *msgDispatcher; // @synthesize msgDispatcher=_msgDispatcher;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

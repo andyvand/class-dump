@@ -4,100 +4,66 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, TILanguageModelAdaptationContext;
-@protocol _ICContactFetchingDelegate;
+@class NSArray;
 
 @interface TILanguageModelLoader
 {
     NSArray *_customResourcePaths;
-    _Bool _isMultilingualModel;
-    _Bool _isSiriMode;
-    _Bool _multiLingualModeEnabled;
-    _Bool _validEnglishTransformerMultilingualConfig;
-    _Bool _usesLinguisticContext;
-    _Bool _isInlineCompletionEnabled;
-    int _inlineCompletionPrecision;
-    id <_ICContactFetchingDelegate> _contactFetchingDelegate;
-    NSString *_modelLocaleIdentifier;
-    NSString *_dynamicResourcePath;
-    NSArray *_mobileAssets;
-    NSString *_clientIdentifier;
-    NSString *_recipientIdentifier;
-    TILanguageModelAdaptationContext *_adaptationContext;
-    NSDictionary *_trialParameters;
-    shared_ptr_e9f752ce _model;
 }
 
+- (void)shouldUseRTTForContext: /* Error: Ran out of types for this method. */;
+- (_Bool)setTtyShouldBeRealtime: /* Error: Ran out of types for this method. */;
+- (void)setDeviceLostHandler: /* Error: Ran out of types for this method. */;
+- (shared_ptr_5685c32f)rangeOfComposedCharacterSequenceAtIndex:(id)arg1;
+- (id)performCallCenterTask:callCenter: /* Error: Ran out of types for this method. */;
+- (shared_ptr_5685c32f)incomingTTYCallCount;
+- (shared_ptr_5685c32f)idsDeviceIdentifier;
+- (void)componentsSeparatedByCharactersInSet:(id)arg1;
+- (void)compare:(id)arg1;
+- (void)callHistoryDBDidChange:(_Bool)arg1;
+- (void)attributes;
+- (void)_setValue:(id)arg1 forPreferenceKey: /* Error: Ran out of types for this method. */;
+- (void)settingsVersion;
+- (void)\*$,@,;
+- (shared_ptr_5685c32f)group wrong:(id)arg1 [%@] = |%@| '%@';
+- (_Bool)tion encoding data:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)for call UID result:(id)arg1 %@/%@;
+- (id)ged:%@ /* Error: Ran out of types for this method. */;
+- (id)ed character on non-endpoint device. Replying with re-pair request;
+- (void)g pairing challenge to %@;
+- (shared_ptr_5685c32f)%@ to re-pair with known devices:(id)arg1 %@;
+- (void)top %d;
+- (shared_ptr_5685c32f)ncy announce;
+- (shared_ptr_5685c32f)ut emergency RTT isn't supported, dialing as voice call immediately:(id)arg1 %@;
+- (_Bool)tripping;
+- (_Bool)private}@ with non-numeric character stripping;
+- (int)g at subscriptions:%@ /* Error: Ran out of types for this method. */;
+- (id)erance:(id)arg1 %@, sending to delegate:(_Bool)arg2 %@;
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (void);
-- (shared_ptr_e9f752ce);
-- (id);
-- (shared_ptr_e9f752ce);
-- (shared_ptr_e9f752ce);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (shared_ptr_e9f752ce);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (shared_ptr_e9f752ce);
-- (void);
-- (shared_ptr_e9f752ce);
-- (shared_ptr_e9f752ce);
-- (_Bool);
-- (_Bool);
-- (int);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)in proxy update, ignoring...;
 - (void);
-- (void);
+- (void):(id)arg1 event_type;
 - (id);
 - (void);
-- (id);
+- (id)edback"16;
 - (void);
 - (id);
-- (shared_ptr_e9f752ce);
+- (shared_ptr_5685c32f)ring",&,V_client;
 - (void)1Â0@ù
 × ;
 - (id)dÏÈÏ;
 
 // Remaining properties
-@property(retain, nonatomic) TILanguageModelAdaptationContext *adaptationContext; // @synthesize adaptationContext=_adaptationContext;
-@property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(nonatomic) id <_ICContactFetchingDelegate> contactFetchingDelegate; // @synthesize contactFetchingDelegate=_contactFetchingDelegate;
-@property(readonly, nonatomic) NSArray *customResourcePaths; // @synthesize customResourcePaths=_customResourcePaths;
-@property(readonly, nonatomic) NSString *dynamicResourcePath; // @synthesize dynamicResourcePath=_dynamicResourcePath;
-@property(nonatomic) int inlineCompletionPrecision; // @synthesize inlineCompletionPrecision=_inlineCompletionPrecision;
-@property(nonatomic) _Bool isInlineCompletionEnabled; // @synthesize isInlineCompletionEnabled=_isInlineCompletionEnabled;
-@property(readonly, nonatomic) _Bool isMultilingualModel; // @synthesize isMultilingualModel=_isMultilingualModel;
-@property(readonly, nonatomic) _Bool isSiriMode; // @synthesize isSiriMode=_isSiriMode;
-@property(readonly, nonatomic) NSArray *mobileAssets; // @synthesize mobileAssets=_mobileAssets;
-@property(nonatomic) shared_ptr_e9f752ce model; // @synthesize model=_model;
-@property(readonly, nonatomic) NSString *modelLocaleIdentifier; // @synthesize modelLocaleIdentifier=_modelLocaleIdentifier;
-@property(readonly, nonatomic, getter=isMultiLingualModeEnabled) _Bool multiLingualModeEnabled; // @synthesize multiLingualModeEnabled=_multiLingualModeEnabled;
-@property(retain, nonatomic) NSString *recipientIdentifier; // @synthesize recipientIdentifier=_recipientIdentifier;
-@property(readonly, nonatomic) NSArray *staticResourcePaths;
-@property(retain, nonatomic) NSDictionary *trialParameters; // @synthesize trialParameters=_trialParameters;
-@property(readonly, nonatomic) _Bool usesLinguisticContext; // @synthesize usesLinguisticContext=_usesLinguisticContext;
-@property(readonly, nonatomic) _Bool validEnglishTransformerMultilingualConfig; // @synthesize validEnglishTransformerMultilingualConfig=_validEnglishTransformerMultilingualConfig;
+@property(nonatomic) shared_ptr_5685c32f model; // @synthesize model=_model;
 
 @end
 

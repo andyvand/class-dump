@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-@protocol NLParameterTuningDelegate;
+@class NSArray;
 
 @interface NLParameterTuner
 {
     NSArray *_parameters;
-    NSArray *_parameterNames;
-    NSDictionary *_options;
-    id <NLParameterTuningDelegate> _delegate;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)zh_Hant;
 - (id);
 - (id);
 - (id);
@@ -27,9 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) __weak id <NLParameterTuningDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSDictionary *options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) NSArray *parameterNames; // @synthesize parameterNames=_parameterNames;
 @property(readonly, copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
 
 @end

@@ -6,22 +6,12 @@
 
 #import <TemplateKit/TLKStackView.h>
 
-@class NSFont, NSString, TLKIconsView, TLKLabel, TLKRichText, TLKRoundedCornerLabels, TLKStarsView;
-@protocol TLKObserver;
+@class TLKLabel;
 
 __attribute__((visibility("hidden")))
 @interface TLKRichTextField : TLKStackView
 {
     _Bool _useCompactMode;
-    _Bool _scaleIconsToFont;
-    id <TLKObserver> observer;
-    long long batchUpdateCount;
-    TLKRichText *_richText;
-    unsigned long long _roundedCornerLabelSizeConfiguration;
-    TLKLabel *_textLabel;
-    TLKRoundedCornerLabels *_roundedCornerLabels;
-    TLKStarsView *_starRatingView;
-    TLKIconsView *_iconView;
 }
 
 - (_Bool);
@@ -36,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
+- (void);
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (void);
 - (long long);
@@ -49,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)systemDidLeaveDataProtectionLock;
 - (id);
 - (id);
 - (id);
@@ -58,28 +48,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (unsigned long long)onPressed;
+- (unsigned long long)moreButtonPressed;
 
 // Remaining properties
-@property(nonatomic) long long batchUpdateCount; // @synthesize batchUpdateCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSFont *font;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TLKIconsView *iconView; // @synthesize iconView=_iconView;
-@property __weak id <TLKObserver> observer; // @synthesize observer;
-@property(nonatomic) unsigned long long prominence;
-@property(retain, nonatomic) TLKRichText *richText; // @synthesize richText=_richText;
-@property(nonatomic) unsigned long long roundedCornerLabelSizeConfiguration; // @synthesize roundedCornerLabelSizeConfiguration=_roundedCornerLabelSizeConfiguration;
-@property(retain, nonatomic) TLKRoundedCornerLabels *roundedCornerLabels; // @synthesize roundedCornerLabels=_roundedCornerLabels;
-@property(nonatomic) _Bool scaleIconsToFont; // @synthesize scaleIconsToFont=_scaleIconsToFont;
-@property(retain, nonatomic) TLKStarsView *starRatingView; // @synthesize starRatingView=_starRatingView;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) TLKLabel *textLabel; // @synthesize textLabel=_textLabel;
-@property(nonatomic) _Bool useCompactMode; // @synthesize useCompactMode=_useCompactMode;
 
 @end
 

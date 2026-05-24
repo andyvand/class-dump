@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)__UICollectionViewDiffableDataSourceAccessibility_super;
 - (void);
 - (_Bool);
 

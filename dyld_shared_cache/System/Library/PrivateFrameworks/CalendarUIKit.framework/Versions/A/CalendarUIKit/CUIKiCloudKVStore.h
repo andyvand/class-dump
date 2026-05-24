@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
 @protocol NSObject><NSCopying><NSCoding;
 
 @interface CUIKiCloudKVStore
 {
     _Bool _hasConnectedToCarBluetooth;
-    NSDate *_lastCarConnectionDate;
-    id <NSObject><NSCopying><NSCoding> _ubiquityIdentityToken;
 }
 
-+ (_Bool)ªãÛè?;
-+ (id);
++ (_Bool);
++ (id)photolibrary/Engine/CPLBeforeUploadCheckItems.m;
 - (void);
-- (void)ÀÚ@ù()e@© WøØA©áªóæýô;
-- (void)ªâª)«÷;
-- (id)#Î<hB¡<Ç<È<É<b­Ê<b­;
-- (void)T	«¦;
-- (void)?;
+- (void);
+- (void);
+- (id)_;
+- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Framework/Sources/CPLRecordChange.m;
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasConnectedToCarBluetooth; // @synthesize hasConnectedToCarBluetooth=_hasConnectedToCarBluetooth;
-@property(retain, nonatomic) NSDate *lastCarConnectionDate; // @synthesize lastCarConnectionDate=_lastCarConnectionDate;
 @property(retain) id <NSObject><NSCopying><NSCoding> ubiquityIdentityToken; // @synthesize ubiquityIdentityToken=_ubiquityIdentityToken;
 
 @end

@@ -5,12 +5,10 @@
 //
 
 @class NSArray;
-@protocol OMSlideshowMediaItemLookupDelegate;
 
 @interface OMSlideshowKeyedUnarchiver
 {
     NSArray *_mediaURLs;
-    id <OMSlideshowMediaItemLookupDelegate> _mediaItemLookupDelegate;
 }
 
 - (void);
@@ -19,7 +17,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) id <OMSlideshowMediaItemLookupDelegate> mediaItemLookupDelegate; // @synthesize mediaItemLookupDelegate=_mediaItemLookupDelegate;
 @property(nonatomic) NSArray *mediaURLs; // @synthesize mediaURLs=_mediaURLs;
 
 @end

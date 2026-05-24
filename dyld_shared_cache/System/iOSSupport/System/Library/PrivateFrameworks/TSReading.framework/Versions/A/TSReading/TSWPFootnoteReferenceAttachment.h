@@ -6,22 +6,24 @@
 
 #import <TSReading/TSWPTextualAttachment.h>
 
-@class NSString, TSWPStorage;
+@class TSWPStorage;
 
 @interface TSWPFootnoteReferenceAttachment : TSWPTextualAttachment
 {
     TSWPStorage *_containedStorage;
-    NSString *_customMarkString;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
+- (void)ehavior=%@;
+- (void)t to decode unsupported behaviorType:(id)arg1 %lld;
+- (id)from identifers.modelKind | potentialModelClass=MPModelGenericObject identifierSet=%@;
+- (void)@
+```
+
+;
+- (void)Consumer %@ already has a subscription to %@;
+- (void), type, monoAbsolute, monoContinuous, monoTimebaseNS, userNS, threadPriority, payload) VALUES (@identifier, @type, @monoAbsolute, @monoContinuous, @monoTimebaseNS, @userNS, @threadPriority, @payload);
+- (void)it;
 - (id);
 - (unsigned long long);
 - (id);
@@ -33,13 +35,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)SKSubscriptionStatusUpdatesLastChecked;
 - (int);
 - (id)sterLayout"16;
 
 // Remaining properties
 @property(retain, nonatomic) TSWPStorage *containedStorage; // @synthesize containedStorage=_containedStorage;
-@property(retain, nonatomic) NSString *customMarkString; // @synthesize customMarkString=_customMarkString;
 
 @end
 

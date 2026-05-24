@@ -6,24 +6,12 @@
 
 #import <CoreData/NSSQLStoreRequestContext.h>
 
-@class NSArray, NSDictionary, NSFaultHandler, NSMutableDictionary, NSSQLRowCache, NSSQLSavePlan, NSSet, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLSaveChangesRequestContext : NSSQLStoreRequestContext
 {
     NSDictionary *_metadataToWrite;
-    NSSQLSavePlan *_savePlan;
-    NSFaultHandler *_faultHandler;
-    NSArray *_objectIDsInsertUpdatedToPruneDATrigger;
-    NSArray *_objectIDsUpdatedToPruneDATrigger;
-    NSSet *_objectIDsToPruneTrigger;
-    NSMutableDictionary *_originalCachedRows;
-    NSMutableDictionary *_updateMasksForHistoryTracking;
-    NSString *_externalDataReferencesDirectory;
-    NSString *_externalDataLinksDirectory;
-    NSString *_fileBackedFuturesDirectory;
-    NSSQLRowCache *_primaryRowCache;
-    NSSQLRowCache *_contextGenerationRowCache;
 }
 
 - (void);

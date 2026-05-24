@@ -7,11 +7,10 @@
 @interface NewsFeed.SocialLayerSharedItemCenter
 {
     id lazyHighlightCenter;
-    id delegate;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void),ayþ;
 

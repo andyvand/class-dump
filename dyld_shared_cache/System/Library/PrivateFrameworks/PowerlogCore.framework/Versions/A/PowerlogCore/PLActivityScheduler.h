@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface PLActivityScheduler
 {
     NSMutableDictionary *_activities;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
@@ -21,12 +19,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void);
 
 // Remaining properties
 @property(retain) NSMutableDictionary *activities; // @synthesize activities=_activities;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

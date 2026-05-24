@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (void)seSession;
+- (void)ICMusicSubscriptionLeaseSession;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *responsePayload;

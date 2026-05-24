@@ -11,8 +11,6 @@
 @interface NUSlowMotionNode : NUTransformNode
 {
     float _rate;
-    NUGeometryTransform *_geomTransform;
-    CDStruct_e83c9415 _range;
 }
 
 - (_Bool);
@@ -25,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)7;
 - (id);
 - (id);
 - (CDStruct_e83c9415);
@@ -35,8 +33,6 @@
 
 // Remaining properties
 @property(readonly) NUGeometryTransform *geomTransform; // @synthesize geomTransform=_geomTransform;
-@property(readonly) CDStruct_e83c9415 range; // @synthesize range=_range;
-@property(readonly) float rate; // @synthesize rate=_rate;
 
 @end
 

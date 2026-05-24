@@ -25,8 +25,6 @@
 - (void)îþ>þ>Q1þ>ñFþ>³\þ>Trþ>ôþ>þ>5³þ>ÖÈþ>vÞþ>G;
 
 // Remaining properties
-@property(nonatomic) CDStruct_1b6d18a9 endTime;
-@property(nonatomic) double rate;
 @property(nonatomic) CDStruct_1b6d18a9 startTime;
 
 @end

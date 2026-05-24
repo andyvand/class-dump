@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PKIdentityProofingDisplayMessage;
+@class NSString;
 
 @interface PKIdentityProofingConfiguration
 {
     NSString *_state;
-    NSString *_country;
-    long long _target;
-    NSString *_credentialIdentifier;
-    long long _status;
-    NSString *_productIdentifier;
-    NSString *_accountKeyIdentifier;
-    long long _idType;
-    NSURL *_learnMoreURL;
-    PKIdentityProofingDisplayMessage *_proofingErrorMessage;
 }
 
 + (_Bool)0@ù
 × ;
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -34,40 +25,31 @@
 - (id);
 - (id);
 - (id);
+- (void)5;
+- (id);
+- (id);
+- (long long)H;
+- (id);
+- (void);
 - (void);
 - (id);
+- (unsigned long long);
+- (void);
+- (void);
 - (id);
+- (_Bool)scannedNetworksExcludedFromAJDueToBlacklistReasonCounts;
+- (void)placeCountTotal;
+- (void);
+- (id);
+- (id);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id):(id)arg1;
-- (_Bool)ocalizedSummaryItemsTitle;
+- (id)_updatePaymentSetupProductModelExtensionsWithCompletion:(id)arg1;
+- (_Bool)_localizedSummaryItemsTitle;
 - (void):%@, displayRegion:%.4f/%.4f, %.4f/%.4f> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountKeyIdentifier; // @synthesize accountKeyIdentifier=_accountKeyIdentifier;
-@property(retain, nonatomic) NSString *country; // @synthesize country=_country;
-@property(retain, nonatomic) NSString *credentialIdentifier; // @synthesize credentialIdentifier=_credentialIdentifier;
-@property(nonatomic) long long idType; // @synthesize idType=_idType;
-@property(retain, nonatomic) NSURL *learnMoreURL; // @synthesize learnMoreURL=_learnMoreURL;
-@property(retain, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(retain, nonatomic) PKIdentityProofingDisplayMessage *proofingErrorMessage; // @synthesize proofingErrorMessage=_proofingErrorMessage;
 @property(retain, nonatomic) NSString *state; // @synthesize state=_state;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(nonatomic) long long target; // @synthesize target=_target;
 
 @end
 

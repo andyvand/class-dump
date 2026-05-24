@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
-
 @interface PIPerfPowerRecord
 {
     struct PPSTelemetryIdentifier *_identifier;
-    long long _operation;
-    NSDate *_startTime;
-    NSDate *_endTime;
 }
 
+- (id)contextualSocialGroupZeroKeywordsWithGraph:options:progressBlock: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (struct PPSTelemetryIdentifier *);
-- (void)roxyImage: /* Error: Ran out of types for this method. */;
+- (struct PPSTelemetryIdentifier *)Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation;
+- (void)setSegmentationDebugRoundTripProxyImage: /* Error: Ran out of types for this method. */;
 - (long long)m already has full resolution resource loaded.;
 - (void)spaces/neutrino/PhotoImaging/Autocalculators/PIVideoStabilizeRequest.m;
 - (void)I;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
 @property(nonatomic) struct PPSTelemetryIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long operation; // @synthesize operation=_operation;
-@property(readonly, nonatomic) NSDictionary *payload;
-@property(copy, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
 
 @end
 

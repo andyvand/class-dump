@@ -4,45 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSUUID;
-@protocol HMDMediaGroupsUnconfiguredParticipantOnboardingManagerDataSource;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupsUnconfiguredParticipantOnboardingManager
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_queuedAssociatedGroupIdentifiers;
-    id <HMDMediaGroupsUnconfiguredParticipantOnboardingManagerDataSource> _dataSource;
-    NSUUID *_identifier;
 }
 
 + (id)?dÿ/@B;
+- (void)setLineColorString:(id)arg1;
+- (id)_checkAndAddCoalescedEditForContext:(id)arg1 identifiers:enqueuedBlock:completionQueue:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)rgbColorWashDuoKernel;
 - (id);
 - (void);
 - (id);
 - (id)¼lØþÿÿÿÿô;
-- (void)ssenger;
+- (void)CloudShareMessenger;
 
 // Remaining properties
-@property __weak id <HMDMediaGroupsUnconfiguredParticipantOnboardingManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

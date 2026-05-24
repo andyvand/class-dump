@@ -7,17 +7,15 @@
 @interface _NSCollectionViewFeedbackLoopDebugger
 {
     id currentlyTrackedChangeRecords;
-    id invalidationRecords;
-    id updateVisibleCellsRecords;
 }
 
+- (void)ringRef:(id)arg1 %@;
+- (void)unable to determine file-system usage for FS-backed cache at %@. Errno=%{errno}d;
+- (void)e is unable to open the file %s. Errno:(id)arg1 %{errno}d;
+- (void)response was provided. Unable to get the data to cache.;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)mainDocumentURL are in different domains;
+- (void)2V1;
 - (id);
 - (void)¬#ÿ;
 

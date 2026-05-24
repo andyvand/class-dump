@@ -9,10 +9,6 @@
 @interface FamilyCircleUI.FAFamilyImageLoader
 {
     void _authResults;
-    id _monogramDiameter;
-    id _loaders;
-    id _imageProvider;
-    id _$observationRegistrar;
 }
 
 + (id);
@@ -25,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSDictionary *_authResults;
-@property(nonatomic, copy) NSDictionary *authResults;
 
 @end
 

@@ -5,10 +5,11 @@
 //
 
 @protocol TUStateRestoreControllerType
+- (_Bool)__TEXT;
+- (_Bool)fc_encryptionErrorWithCode: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isStateRestorationAllowed;
-@property(nonatomic, readonly) _Bool isStateRestorationFeatureEnabled;
 @end
 

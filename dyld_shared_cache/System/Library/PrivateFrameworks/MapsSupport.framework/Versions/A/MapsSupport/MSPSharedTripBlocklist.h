@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray, NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface MSPSharedTripBlocklist
 {
     NSMutableSet *_blockedIdentifiers;
-    NSObject<OS_dispatch_queue> *_isolationQueue;
-    NSArray *storeSubscriptionTypes;
 }
 
 + (void);
@@ -20,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);

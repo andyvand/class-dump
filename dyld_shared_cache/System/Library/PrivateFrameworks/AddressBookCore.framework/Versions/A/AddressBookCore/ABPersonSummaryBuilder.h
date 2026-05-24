@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPropertySummaryBuilder, NSArray, NSDictionary, NSMutableArray, NSString;
+@class NSArray;
 
 @interface ABPersonSummaryBuilder
 {
     NSArray *_properties;
-    NSDictionary *_propertiesAndTypes;
-    NSMutableArray *_summaries;
-    ABPropertySummaryBuilder *_propertySummaryBuilder;
 }
 
 - (id);
-- (id);
+- (id)%;
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

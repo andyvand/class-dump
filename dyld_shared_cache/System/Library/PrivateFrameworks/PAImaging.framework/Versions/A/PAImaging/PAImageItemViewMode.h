@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableSet, NSObject, NSSet, NSString, PAImageItemViewController, PAItemController, PAItemViewConfiguration;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class PAImageItemViewController, PAItemViewConfiguration;
 
 @interface PAImageItemViewMode
 {
     PAItemViewConfiguration *_currentViewConfiguration;
-    _Bool _isActive;
-    _Atomic int _ignoreGeometryUpdates;
-    _Bool _failedToLoad;
-    NSSet *_clientKeys;
-    NSDictionary *_assetTypes;
-    NSDictionary *_assetClients;
-    NSMutableSet *_needGeometryUpdateKeys;
-    PAItemController *_imageItemController;
-    NSObject<OS_dispatch_group> *_loadGroup;
-    NSMutableSet *_waitingKeys;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSMutableSet *_pendingKeys;
-    _Bool _loadControllerBeginUpdate;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _willNotLoadImage;
-    PAImageItemViewController *_controllerImpl;
 }
 
 + (void)0@ù
@@ -119,25 +102,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(getter=isActive) _Bool active;
-@property(readonly) NSSet *clientKeys; // @synthesize clientKeys=_clientKeys;
-@property __weak PAImageItemViewController *controller;
 @property __weak PAImageItemViewController *controllerImpl; // @synthesize controllerImpl=_controllerImpl;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) PAItemController *imageItemController;
-@property(readonly) Class superclass;
-@property(readonly) _Bool willNotLoadImage; // @synthesize willNotLoadImage=_willNotLoadImage;
 
 @end
 

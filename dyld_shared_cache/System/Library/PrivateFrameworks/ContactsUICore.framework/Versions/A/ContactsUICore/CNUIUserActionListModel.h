@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIUserActionItem, NSArray;
+@class CNUIUserActionItem;
 
 @interface CNUIUserActionListModel
 {
     _Bool _hasDefaultApp;
-    CNUIUserActionItem *_defaultAction;
-    NSArray *_actions;
-    NSArray *_directoryServiceActions;
-    NSArray *_foundOnDeviceActions;
 }
 
 + (id);
@@ -24,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)i;
 - (id);
 - (id);
 - (id);
@@ -33,12 +29,7 @@
 - (void)@"<CNScheduler>"24@?<v@?@"NSArray">32;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
 @property(retain, nonatomic) CNUIUserActionItem *defaultAction; // @synthesize defaultAction=_defaultAction;
-@property(copy, nonatomic) NSArray *directoryServiceActions; // @synthesize directoryServiceActions=_directoryServiceActions;
-@property(copy, nonatomic) NSArray *foundOnDeviceActions; // @synthesize foundOnDeviceActions=_foundOnDeviceActions;
-@property(readonly, nonatomic) _Bool hasDefaultApp; // @synthesize hasDefaultApp=_hasDefaultApp;
-@property(readonly, nonatomic) _Bool isEmpty;
 
 @end
 

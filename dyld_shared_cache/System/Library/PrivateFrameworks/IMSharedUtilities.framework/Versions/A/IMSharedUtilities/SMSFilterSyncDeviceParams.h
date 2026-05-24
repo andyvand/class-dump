@@ -9,8 +9,6 @@
 @interface SMSFilterSyncDeviceParams
 {
     NSString *_deviceUniqueID;
-    unsigned long long _smsFilterCapabilitiesOptions;
-    NSString *_filterExtensionName;
 }
 
 + (_Bool);
@@ -18,17 +16,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)p;
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)remoteTerminationRequest;
 - (void);
 - (void)¸ëÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *deviceUniqueID; // @synthesize deviceUniqueID=_deviceUniqueID;
-@property(retain, nonatomic) NSString *filterExtensionName; // @synthesize filterExtensionName=_filterExtensionName;
-@property unsigned long long smsFilterCapabilitiesOptions; // @synthesize smsFilterCapabilitiesOptions=_smsFilterCapabilitiesOptions;
 
 @end
 

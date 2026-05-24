@@ -9,15 +9,15 @@
 }
 
 + (id);
-+ (id);
++ (id)participantAvatarCache;
 + (_Bool);
 + (id);
++ (id)e;
++ (id)n;
++ (id)d;
++ (id)arkdown;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (unsigned long long);
 + (id);
 + (id);

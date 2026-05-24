@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPersonListController, ABPersonListSharingHelper, NSMenu, NSString;
+@class ABPersonListController, NSMenu;
 
 @interface ABPersonListMenuHelper
 {
     ABPersonListController *_personListController;
-    ABPersonListSharingHelper *_sharingHelper;
-    NSMenu *_contextMenu;
 }
 
 - (id);
 - (id);
+- (id)ib;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)R";
 - (id);
 - (id);
 - (id);
@@ -33,13 +31,6 @@
 
 // Remaining properties
 @property(readonly) NSMenu *contextMenu; // @synthesize contextMenu=_contextMenu;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,15 +11,13 @@
     id messagePartAttribute;
 }
 
-- (unsigned long long);
+- (unsigned long long)ordinator"16@"UIViewController<CKBrowserViewControllerProtocol>"24;
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)siriSnippetViewController:willPresentViewController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) unsigned long long partNumber;
-@property(nonatomic, readonly) struct _NSRange range;
 
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecognitionSession, NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
-@protocol CHVisualizationManagerDelegate;
+@class CHRecognitionSession;
 
 @interface CHVisualizationManager
 {
     _Bool _statusReportingEnabled;
-    _Bool __registeredAsChangeObserver;
-    _Bool __registeredAsInputDrawingsClient;
-    CHRecognitionSession *_recognitionSession;
-    id <CHVisualizationManagerDelegate> _delegate;
-    NSMutableSet *__enabledVisualizationIDs;
-    NSMutableArray *__activeVisualizationIDs;
-    NSMutableDictionary *__activeVisualizationsByID;
-    NSMutableDictionary *__strokeGroupIndexByAncestorID;
-    NSMutableSet *__renderedResults;
 }
 
 + (_Bool);
@@ -27,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)&;
 - (void);
 - (long long);
 - (void);
@@ -36,31 +26,21 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)JN;
 - (void);
-- (void);
-- (id);
+- (id)B;
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void).uuid];
 - (id);
 - (id);
 - (void);
 - (void)r;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <CHVisualizationManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CHRecognitionSession *recognitionSession; // @synthesize recognitionSession=_recognitionSession;
-@property(readonly, nonatomic) NSArray *renderedResults;
-@property(nonatomic) _Bool statusReportingEnabled; // @synthesize statusReportingEnabled=_statusReportingEnabled;
-@property(readonly) Class superclass;
 
 @end
 

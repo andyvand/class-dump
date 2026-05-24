@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface DCAssetFetcherContext
 {
     _Bool _allowCatalogRefresh;
-    _Bool _ignoreCachedMetadata;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)initWithBag:(_Bool)arg1 deviceGUID:masterSerialNumber:urlSession: /* Error: Ran out of types for this method. */;
+- (void)initWithBag:(_Bool)arg1 clientIdentifier:clientVersion:placement:serviceType: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithAuthenticationResults:options: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithAccount:serviceIdentifier:useCachedServiceToken: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool allowCatalogRefresh; // @synthesize allowCatalogRefresh=_allowCatalogRefresh;
-@property(nonatomic) _Bool ignoreCachedMetadata; // @synthesize ignoreCachedMetadata=_ignoreCachedMetadata;
 
 @end
 

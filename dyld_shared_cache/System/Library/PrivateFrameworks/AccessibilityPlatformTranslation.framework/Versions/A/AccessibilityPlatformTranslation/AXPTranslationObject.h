@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface AXPTranslationObject
 {
     _Bool _isApplicationElement;
-    _Bool _didPopuldateAppInfo;
-    int _pid;
-    unsigned long long _objectID;
-    NSString *_remoteDebugDescription;
-    NSString *_bridgeDelegateToken;
-    NSData *_rawElementData;
-    CDUnknownBlockType _remoteDescriptionBlock;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)5;
 + (void);
 - (void);
 - (void);
@@ -27,34 +18,27 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)g;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (int);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)c;
 - (unsigned long long);
-- (void);
+- (void)\S;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bridgeDelegateToken; // @synthesize bridgeDelegateToken=_bridgeDelegateToken;
-@property(nonatomic) _Bool didPopuldateAppInfo; // @synthesize didPopuldateAppInfo=_didPopuldateAppInfo;
-@property(nonatomic) _Bool isApplicationElement; // @synthesize isApplicationElement=_isApplicationElement;
 @property(nonatomic) unsigned long long objectID; // @synthesize objectID=_objectID;
-@property(nonatomic) int pid; // @synthesize pid=_pid;
-@property(copy, nonatomic) NSData *rawElementData; // @synthesize rawElementData=_rawElementData;
-@property(copy, nonatomic) NSString *remoteDebugDescription; // @synthesize remoteDebugDescription=_remoteDebugDescription;
-@property(copy, nonatomic) CDUnknownBlockType remoteDescriptionBlock; // @synthesize remoteDescriptionBlock=_remoteDescriptionBlock;
 
 @end
 

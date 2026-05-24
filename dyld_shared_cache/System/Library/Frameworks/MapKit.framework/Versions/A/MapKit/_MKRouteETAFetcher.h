@@ -4,66 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAutomobileOptions, GEOCyclingOptions, GEOTransitOptions, GEOWalkingOptions, MKDirections, MKMapItem, NSMutableDictionary;
+@class GEOAutomobileOptions, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _MKRouteETAFetcher
 {
     NSMutableDictionary *_etaResults;
-    struct CLLocationCoordinate2D _lastUpdatedETAOriginCoordinate;
-    double _lastUpdatedETATime;
-    double _lastRequestTime;
-    MKDirections *_inProgressETAUpdate;
-    _Bool _lastETAUpdateHadError;
-    double _staleDistance;
-    double _staleTimeInterval;
-    _Bool _optionsHaveChangedSinceLastUpdate;
-    MKMapItem *_mapItem;
-    MKMapItem *_originMapItem;
-    GEOAutomobileOptions *_automobileOptions;
-    GEOWalkingOptions *_walkingOptions;
-    GEOTransitOptions *_transitOptions;
-    GEOCyclingOptions *_cyclingOptions;
 }
 
 - (_Bool);
-- (id);
+- (id)ect<OS_xpc_object>",&,N,V_xpcConnectionHelper;
+- (void)atch_source>",&,N,V_powerlogReportTimer;
+- (_Bool)XPCCacheFlush;
+- (void)GenerativeFunctionMetrics:(unsigned long long)arg1:assetLoad /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (struct CLLocationCoordinate2D);
-- (id);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)setObjectSetupFontCode: /* Error: Ran out of types for this method. */;
+- (id)kCBLePowerControlCmd;
+- (struct CLLocationCoordinate2D)kCBMsgArgIdentityAddress;
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)setValue:(id)arg1 forProperty:error: /* Error: Ran out of types for this method. */;
+- (id)D",R,V_allPoints;
+- (id)VNRectangleDetectorProcessOption_CropRect_Width;
 - (void);
-- (id);
-- (id);
+- (void);
+- (id)c;
+- (id)MX;
+- (void)_lastAccountOfTypeIdentifier:(id)arg1 inStore:updatePrefs:prefKey:prefAppID: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)nce: /* Error: Ran out of types for this method. */;
+- (void)setShowsDistance: /* Error: Ran out of types for this method. */;
 - (id)d;
 - (id)À;
 
 // Remaining properties
 @property(copy, nonatomic) GEOAutomobileOptions *automobileOptions; // @synthesize automobileOptions=_automobileOptions;
-@property(copy, nonatomic) GEOCyclingOptions *cyclingOptions; // @synthesize cyclingOptions=_cyclingOptions;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D destinationCoordinate;
-@property(readonly, nonatomic) NSMutableDictionary *etaResults; // @synthesize etaResults=_etaResults;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D originCoordinate;
-@property(retain, nonatomic) MKMapItem *originMapItem; // @synthesize originMapItem=_originMapItem;
-@property(copy, nonatomic) GEOTransitOptions *transitOptions; // @synthesize transitOptions=_transitOptions;
-@property(copy, nonatomic) GEOWalkingOptions *walkingOptions; // @synthesize walkingOptions=_walkingOptions;
 
 @end
 

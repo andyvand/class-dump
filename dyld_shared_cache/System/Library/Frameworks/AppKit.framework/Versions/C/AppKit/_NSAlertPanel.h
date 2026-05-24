@@ -6,38 +6,34 @@
 
 #import <AppKit/NSPanel.h>
 
-@class NSAlert, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface _NSAlertPanel : NSPanel
 {
     NSView *_clientInitialFirstResponder;
-    NSView *_fallbackInitialFirstResponder;
-    NSAlert *_alert;
 }
 
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void)resent;
+- (void)NbwB1egBxY8gECPU4nPA;
+- (void)seband-board-snum;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)initWithResumeData:ident:taskGroup: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
+- (unsigned long long)eived:session %@ with identifier %@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void)me:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak NSAlert *alert; // @synthesize alert=_alert;
 @property __weak NSView *clientInitialFirstResponder; // @synthesize clientInitialFirstResponder=_clientInitialFirstResponder;
-@property __weak NSView *fallbackInitialFirstResponder; // @synthesize fallbackInitialFirstResponder=_fallbackInitialFirstResponder;
 
 @end
 

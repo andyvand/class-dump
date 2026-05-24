@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata, _INPBSettingMetadata, _INPBTemporalEventTrigger;
+@class _INPBIntentMetadata;
 
 @interface _INPBSetLabeledSettingIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    NSString *_labeledValue;
-    _INPBSettingMetadata *_settingMetadata;
-    _INPBTemporalEventTrigger *_temporalEventTrigger;
 }
 
 + (_Bool);
@@ -23,7 +19,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (id);
@@ -39,21 +35,7 @@
 - (void)ionInfo _applicationRecord];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLabeledValue;
-@property(readonly, nonatomic) _Bool hasSettingMetadata;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSString *labeledValue; // @synthesize labeledValue=_labeledValue;
-@property(retain, nonatomic) _INPBSettingMetadata *settingMetadata; // @synthesize settingMetadata=_settingMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger; // @synthesize temporalEventTrigger=_temporalEventTrigger;
 
 @end
 

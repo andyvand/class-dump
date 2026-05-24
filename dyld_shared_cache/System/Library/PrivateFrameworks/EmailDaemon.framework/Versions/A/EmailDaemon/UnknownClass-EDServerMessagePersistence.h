@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface UnknownClass (EDServerMessagePersistence)
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -18,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ed_logDescription;
 @property(readonly, nonatomic) NSString *ed_uidQueryExpression;
 @end
 

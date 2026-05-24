@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SASourceInfo
 {
     unsigned int _lineNum;
-    unsigned int _columnNum;
-    unsigned long long _offsetIntoSegment;
-    unsigned long long _length;
-    NSString *_filePath;
 }
 
 - (unsigned int);
@@ -26,13 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int columnNum; // @synthesize columnNum=_columnNum;
-@property(readonly) NSString *fileName;
-@property(readonly) NSString *filePath; // @synthesize filePath=_filePath;
-@property(readonly) unsigned long long length; // @synthesize length=_length;
-@property(readonly) unsigned int lineNum; // @synthesize lineNum=_lineNum;
 @property(readonly) unsigned long long offsetIntoSegment;
-@property(readonly) unsigned long long offsetIntoTextSegment;
 
 @end
 

@@ -6,32 +6,26 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaSSUUserRequestEnded, NLXSchemaSSUUserRequestFailed, NLXSchemaSSUUserRequestStarted, NSData;
+@class NLXSchemaSSUUserRequestStarted;
 
 @interface NLXSchemaSSUUserRequestContext : SISchemaInstrumentationMessage
 {
     NLXSchemaSSUUserRequestStarted *_startedOrChanged;
-    NLXSchemaSSUUserRequestEnded *_ended;
-    NLXSchemaSSUUserRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (_Bool)@�A�B�C�;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)mber">16;
 - (id);
 - (id);
 - (id);
@@ -46,17 +40,10 @@
 × ;
 - (id)t;
 - (id)ntContext;
-- (void)OMMUNICATIONENTITYTYPE_ZONE;
+- (void)FLOWHOMECOMMUNICATIONENTITYTYPE_ZONE;
 
 // Remaining properties
-@property(retain, nonatomic) NLXSchemaSSUUserRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLXSchemaSSUUserRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaSSUUserRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

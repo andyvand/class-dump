@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AXVBrailleTextView : AXVTextView
 {
     long long _textViewType;
-    double _baseFontSize;
 }
 
 - (long long);
@@ -18,11 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double baseFontSize; // @synthesize baseFontSize=_baseFontSize;
 @property(nonatomic) long long textViewType; // @synthesize textViewType=_textViewType;
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUILabel, NSArray, NSImageView;
+@class CalUILabel, NSArray;
 
 @interface TrailingIconsAndTextView
 {
     NSArray *_changingConstraints;
-    _Bool _attachmentHidden;
-    _Bool _repeatHidden;
-    _Bool _attendeeHidden;
-    CalUILabel *_textView;
-    NSImageView *_repeatView;
-    NSImageView *_attachmentView;
-    NSImageView *_attendeeView;
 }
 
 - (void);
@@ -24,15 +17,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSImageView *attachmentView; // @synthesize attachmentView=_attachmentView;
-@property(readonly, nonatomic) NSImageView *attendeeView; // @synthesize attendeeView=_attendeeView;
-@property(readonly, nonatomic) NSImageView *repeatView; // @synthesize repeatView=_repeatView;
 @property(readonly, nonatomic) CalUILabel *textView; // @synthesize textView=_textView;
 
 @end

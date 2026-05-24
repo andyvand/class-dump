@@ -4,50 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSOperationQueue, NSString, NSUndoManager, VSAccount, VSKeychainEditingContext, VSPreferences, VSRemoteNotifier;
+@class VSAccount;
 
 @interface VSAccountStore
 {
     _Bool _needsUpdateCachedFirstAccount;
-    VSAccount *_cachedFirstAccount;
-    VSKeychainEditingContext *_keychainEditingContext;
-    NSOperationQueue *_keychainQueue;
-    id _changeObserver;
-    VSRemoteNotifier *_remoteNotifier;
-    VSPreferences *_preferences;
 }
 
 + (id);
 + (Class);
+- (void)@;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (id)~;
+- (void)(;
+- (id)}S;
+- (void);
+- (_Bool);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)NSt3__120__shared_ptr_emplaceI16TThreadSafeQueueIN20TInfoExtractorThread17TInfoQueuePayloadEENS_9allocatorIS4_EEEE;
 - (id);
 - (id);
 - (void);
@@ -56,26 +50,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *accounts;
 @property(retain) VSAccount *cachedFirstAccount; // @synthesize cachedFirstAccount=_cachedFirstAccount;
-@property(nonatomic) __weak id changeObserver; // @synthesize changeObserver=_changeObserver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) VSKeychainEditingContext *keychainEditingContext; // @synthesize keychainEditingContext=_keychainEditingContext;
-@property(retain, nonatomic) NSOperationQueue *keychainQueue; // @synthesize keychainQueue=_keychainQueue;
-@property _Bool needsUpdateCachedFirstAccount; // @synthesize needsUpdateCachedFirstAccount=_needsUpdateCachedFirstAccount;
-@property(retain, nonatomic) VSPreferences *preferences; // @synthesize preferences=_preferences;
-@property(retain, nonatomic) VSRemoteNotifier *remoteNotifier; // @synthesize remoteNotifier=_remoteNotifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUndoManager *undoManager;
 
 @end
 

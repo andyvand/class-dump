@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (_Bool)(;
+- (oneway void)h;
+- (_Bool);
 - (_Bool)1Â0@ù
 × ;
-- (struct _NSZone *)Core3DLoaderUI;
+- (struct _NSZone *)QCCore3DLoaderUI;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

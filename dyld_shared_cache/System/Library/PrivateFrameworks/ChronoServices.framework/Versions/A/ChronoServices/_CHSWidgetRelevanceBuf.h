@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFBBufRef, NSData, NSString, _CHSIntentReferenceBuf;
+@class AFBBufRef, NSString;
 
 @interface _CHSWidgetRelevanceBuf
 {
     AFBBufRef *_br;
-    const struct WidgetRelevanceBuf *_ptr;
 }
 
 - (id);
@@ -18,8 +17,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,14 +26,11 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)C;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *attributeKey;
-@property(readonly, nonatomic) const char *attributeKeyAsCString;
-@property(readonly, nonatomic) NSData *attributeKeyAsData;
-@property(readonly, nonatomic) _CHSIntentReferenceBuf *intentReference;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, PKCurrencyAmount;
+@class PKCurrencyAmount;
 
 @interface PKPaymentTransactionForeignExchangeInformation
 {
     PKCurrencyAmount *_destinationCurrencyAmount;
-    NSDecimalNumber *_exchangeRate;
 }
 
 + (id);
@@ -23,23 +22,22 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void)nMessageKey;
+- (_Bool)b1"closeError"b1"isToDefaultPairedDevice"b1"packetsReceived"b1"packetsSent"b1"priority"b1"socketError"b1"timestamp"b1};
+- (void)yRateAndAggregation",&,N,V_phyrate;
+- (void)PKAppleCardHasDismissedPhysicalCardExpiringSoonMessageKey;
 - (unsigned long long)u4d;
 
 // Remaining properties
 @property(copy, nonatomic) PKCurrencyAmount *destinationCurrencyAmount; // @synthesize destinationCurrencyAmount=_destinationCurrencyAmount;
-@property(copy, nonatomic) NSDecimalNumber *exchangeRate; // @synthesize exchangeRate=_exchangeRate;
 
 @end
 

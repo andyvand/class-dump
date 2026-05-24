@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTAccountPublicID, NSData, NSDate, NSSet, NSString;
+@class NSDate;
 
 @interface KTIDSSession
 {
     _Bool _peerDisconnected;
-    NSDate *sessionExpire;
-    NSString *sessionID;
-    NSString *peerHandle;
-    NSString *state;
-    NSString *sasCode;
-    NSSet *_expectedPeerHandles;
-    NSString *_contactIdentifier;
-    NSString *_peerSessionID;
-    NSString *_localSessionID;
-    KTAccountPublicID *_peerAccountIdentity;
 }
 
 + (_Bool);
@@ -28,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (id);
@@ -43,29 +33,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)overrideComponentsInContact: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id)__objc_imageinfo__DATA_CONST;
 - (id);
-- (id);
+- (void)6;
 - (void);
-- (void);
-- (id);
+- (id)ding with an apostrophe between nonseparators;
 - (void);
 
 // Remaining properties
-@property(retain) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(retain) NSSet *expectedPeerHandles; // @synthesize expectedPeerHandles=_expectedPeerHandles;
-@property(readonly, retain) NSData *jsonObject;
-@property(retain) NSString *localSessionID; // @synthesize localSessionID=_localSessionID;
-@property(retain) KTAccountPublicID *peerAccountIdentity; // @synthesize peerAccountIdentity=_peerAccountIdentity;
-@property _Bool peerDisconnected; // @synthesize peerDisconnected=_peerDisconnected;
-@property(retain) NSString *peerHandle; // @synthesize peerHandle;
-@property(retain) NSString *peerSessionID; // @synthesize peerSessionID=_peerSessionID;
-@property(retain) NSString *sasCode; // @synthesize sasCode;
 @property(retain) NSDate *sessionExpire; // @synthesize sessionExpire;
-@property(retain) NSString *sessionID; // @synthesize sessionID;
-@property(retain) NSString *state; // @synthesize state;
 
 @end
 

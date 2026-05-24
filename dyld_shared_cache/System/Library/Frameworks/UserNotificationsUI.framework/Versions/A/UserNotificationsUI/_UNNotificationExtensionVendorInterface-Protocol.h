@@ -5,5 +5,7 @@
 //
 
 @protocol _UNNotificationExtensionVendorInterface
+- (void))A;
+- (void);
 @end
 

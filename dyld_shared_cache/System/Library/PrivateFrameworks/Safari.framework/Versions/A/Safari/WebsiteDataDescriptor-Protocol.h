@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSString;
 
 @protocol WebsiteDataDescriptor
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *dataTypes;
 @property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly, copy, nonatomic) NSArray *identitiesURLs;
-@property(readonly, copy, nonatomic) NSString *profileIdentifier;
 @end
 

@@ -11,7 +11,7 @@
     VKIconManager *_iconManager;
 }
 
-+ (id)lySnapsToNorth;
++ (id)automaticallySnapsToNorth;
 - (id);
 - (id);
 - (id);
@@ -23,7 +23,7 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)Animations;
+- (void)removeAnnotationViewsRotationAnimations;
 
 // Remaining properties
 @property(readonly, nonatomic) VKIconManager *iconManager; // @synthesize iconManager=_iconManager;

@@ -15,20 +15,20 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
+- (_Bool)pted;
 - (void);
 - (id);
-- (long long);
+- (long long)be=^^?^{__CFAllocator}iB}8;
 - (void);
-- (void);
+- (void);
 - (Class);
-- (void);
+- (void)];
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id)bilityValueStringForBlack:(struct CGRect)arg1;
+- (void);
+- (id)accessibilityValueStringForBlack:(struct CGRect)arg1;
 - (void)bleColumn.m;
 
 // Remaining properties

@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSFileHandle, NSMutableArray, NSTimer, StressHUD;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface StressTest
 {
     NSDate *startTime;
-    NSDate *webProcessStartTime;
-    NSTimer *loadTimer;
-    NSMutableArray *URLHistory;
-    unsigned long long webProcessCrashCount;
-    NSFileHandle *sessionFileHandle;
-    NSMutableArray *sessionHistory;
-    _Bool logNextURLForReplay;
-    StressHUD *stressHUD;
 }
 
 + (id);
@@ -34,11 +26,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (double)ookmarksAndHistoryRow;
-- (void)ndleIdentifiersOfApplicationsThatInitiatedNavigation;
+- (double)bookmarksAndHistoryRow;
+- (void)_deferredBundleIdentifiersOfApplicationsThatInitiatedNavigation;
 - (void)ô/;
 - (void)Ð;
 - (unsigned long long);

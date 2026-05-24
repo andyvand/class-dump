@@ -6,31 +6,24 @@
 
 #import <ChatKit/CKAttachmentMessagePartChatItem.h>
 
-@class IMRichCards;
-
 @interface CKRichLinkCardStackChatItem : CKAttachmentMessagePartChatItem
 {
     id viewClass;
 }
 
-- (void);
+- (void)dentifier or type for a note (%@);
 - (id);
 - (id);
 - (Class);
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (id);
 - (_Bool);
 - (id);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 
 // Remaining properties
-@property(nonatomic, readonly) Class balloonViewClass;
-@property(nonatomic, readonly) _Bool canCopy;
 @property(nonatomic, readonly) _Bool canSendTapbacks;
-@property(nonatomic, readonly) struct UIEdgeInsets contentInsets;
-@property(nonatomic, readonly) _Bool hasTail;
-@property(nonatomic, readonly) IMRichCards *richCards;
 
 @end
 

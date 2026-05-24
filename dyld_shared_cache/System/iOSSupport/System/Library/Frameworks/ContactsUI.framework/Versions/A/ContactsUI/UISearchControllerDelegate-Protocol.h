@@ -7,6 +7,7 @@
 @protocol UISearchControllerDelegate
 
 @optional
-- (void)icEditingHeaderHeight;
+- (void)4;
+- (void)staticEditingHeaderHeight;
 @end
 

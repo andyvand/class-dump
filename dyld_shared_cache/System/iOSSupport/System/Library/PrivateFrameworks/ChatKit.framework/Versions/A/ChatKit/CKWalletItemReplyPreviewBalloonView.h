@@ -11,10 +11,9 @@
 @interface CKWalletItemReplyPreviewBalloonView : CKColoredBalloonView
 {
     CKMediaObject *_mediaObject;
-    LPLinkView *_linkView;
 }
 
-- (struct CGSize);
+- (struct CGSize)SRange=QQ}24@40@48;
 - (void);
 - (void);
 - (id);
@@ -23,12 +22,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)lt";
 - (void)loonView mediaObject:%@ %@] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
-@property(retain, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
 
 @end
 

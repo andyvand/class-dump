@@ -9,15 +9,13 @@
 @interface IMKUICandidateCollectionDocumentView
 {
     IMKUICandidateLayoutTraits *_layoutTraits;
-    _Bool _scrollsInLineIncrements;
-    _Bool _usingRubberbanding;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)#;
+- (_Bool)AVCBasebandAudioTap;
 - (id);
 - (id);
 - (void);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(retain) IMKUICandidateLayoutTraits *layoutTraits; // @synthesize layoutTraits=_layoutTraits;
-@property _Bool scrollsInLineIncrements; // @synthesize scrollsInLineIncrements=_scrollsInLineIncrements;
-@property(getter=isUsingRubberbanding) _Bool usingRubberbanding; // @synthesize usingRubberbanding=_usingRubberbanding;
 
 @end
 

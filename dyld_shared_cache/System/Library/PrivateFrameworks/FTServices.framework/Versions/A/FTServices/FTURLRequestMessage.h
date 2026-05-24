@@ -6,31 +6,21 @@
 
 #import <FTServices/FTIDSMessage.h>
 
-@class NSData, NSDictionary, NSNumber, NSURL;
-
 @interface FTURLRequestMessage : FTIDSMessage
 {
     unsigned long long _requestType;
-    NSURL *_requestURL;
-    NSDictionary *_requestHeaders;
-    NSDictionary *_requestStringParams;
-    NSData *_requestBody;
-    NSDictionary *_responseHeaders;
-    NSData *_responseBody;
-    NSNumber *_responseStatusCode;
-    NSDictionary *_timingData;
 }
 
+- (void)createDirectoryAtPath:(id)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (void)createDirectoryAtPath:(id)arg1 withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (id)tenLivePhoto:placeholderResourceURLToSourceResourceURLMap:photoLibrary: /* Error: Ran out of types for this method. */;
+- (id)createAssetResourcesForPlaceholderAsset:withSourceAsset:shouldBakeInAdjustments:shouldFlattenLivePhoto:placeholderResourceURLToSourceResourceURLMap:photoLibrary: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (_Bool)6;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -46,9 +36,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)swest"i"tz_dsttime"i}}"end"{?="stamp"Q"tv_gmt"{timeval="tv_sec"q"tv_usec"i}"tz"{timezone="tz_minuteswest"i"tz_dsttime"i}}"count"I})"statedump"{?="message_size"Q"ttl"C}};
 - (id);
-- (id);
+- (id)SUOSUEANReader;
 - (void);
 - (id);
 - (void);
@@ -57,15 +47,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *requestBody; // @synthesize requestBody=_requestBody;
-@property(copy, nonatomic) NSDictionary *requestHeaders; // @synthesize requestHeaders=_requestHeaders;
-@property(copy, nonatomic) NSDictionary *requestStringParams; // @synthesize requestStringParams=_requestStringParams;
 @property(nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
-@property(copy, nonatomic) NSURL *requestURL; // @synthesize requestURL=_requestURL;
-@property(copy, nonatomic) NSData *responseBody; // @synthesize responseBody=_responseBody;
-@property(copy, nonatomic) NSDictionary *responseHeaders; // @synthesize responseHeaders=_responseHeaders;
-@property(copy, nonatomic) NSNumber *responseStatusCode; // @synthesize responseStatusCode=_responseStatusCode;
-@property(copy, nonatomic) NSDictionary *timingData; // @synthesize timingData=_timingData;
 
 @end
 

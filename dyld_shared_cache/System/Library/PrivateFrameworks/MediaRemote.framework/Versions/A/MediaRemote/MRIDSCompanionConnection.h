@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSDevice, IDSService, MRDeviceInfo, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class IDSDevice, IDSService;
 
 @interface MRIDSCompanionConnection
 {
     IDSService *_service;
-    IDSDevice *_device;
-    MRDeviceInfo *_deviceInfo;
-    NSMutableDictionary *_messageHandlers;
-    NSMutableDictionary *_destinationMessageHandlers;
-    NSMutableDictionary *_responseHandlers;
-    unsigned long long _totalOutgoingMessageCount;
-    NSObject<OS_dispatch_queue> *_idsQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    int _firstUnlockToken;
 }
 
 + (id);
@@ -26,7 +16,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)k!;
 - (void);
 - (void);
 - (_Bool);
@@ -38,27 +28,18 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)etwork-failure;
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)pSessionIdentity;
+- (void)placeholderGroupSessionIdentity;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) IDSDevice *device;
-@property(readonly, nonatomic) MRDeviceInfo *deviceInfo;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isConnected;
-@property(readonly) Class superclass;
 
 @end
 

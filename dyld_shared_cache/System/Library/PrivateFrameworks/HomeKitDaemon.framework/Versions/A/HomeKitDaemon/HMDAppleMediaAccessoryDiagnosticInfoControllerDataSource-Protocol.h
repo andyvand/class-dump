@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleMediaAccessory;
+@class HMDAppleMediaAccessory, NSDictionary, NSString, NSUUID;
 
 @protocol HMDAppleMediaAccessoryDiagnosticInfoControllerDataSource
+- (NSDictionary *);
+- (unsigned long long)}s;
+- (NSString *)e request with error %@;
+- (NSUUID *)MapServiceRequest;
 - (_Bool)0@ù
 × ;
-- (HMDAppleMediaAccessory *)MediaAccessoryName;
-- (_Bool)apAccessory:transaction: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (HMDAppleMediaAccessory *)appleMediaAccessoryName;
+- (_Bool)_processUpdatedProductDataForAccessory:hapAccessory:transaction: /* Error: Ran out of types for this method. */;
 - (_Bool);
 @end
 

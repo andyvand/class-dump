@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WiFiP2PXPCExportedObjectProxy
 {
     Class _exportedObjectClass;
-    id _exportedObject;
 }
 
 - (void);

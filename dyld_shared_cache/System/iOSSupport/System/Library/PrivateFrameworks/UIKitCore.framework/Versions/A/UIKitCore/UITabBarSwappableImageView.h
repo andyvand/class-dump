@@ -12,19 +12,14 @@ __attribute__((visibility("hidden")))
 @interface UITabBarSwappableImageView : UIImageView
 {
     UIImage *_value;
-    UIImage *_alternate;
-    UIImage *_landscapeValue;
-    UIImage *_landscapeAlternate;
-    _Bool _showAlternate;
-    _Bool _showLandscape;
 }
 
 - (struct CGSize);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)indow:(_Bool)arg1;
+- (id)initWithItemIdentifiers:type:parentIdentifiers:childKey:relativeOrder: /* Error: Ran out of types for this method. */;
+- (void)_installLocalSheetPresentationControllerForWindow:(_Bool)arg1;
 - (void)ctionGestureRecognizer",&,N,V_previewGestureRecognizer;
 - (id)_fromValue;
 - (id);

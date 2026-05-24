@@ -6,18 +6,11 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceResponse.h>
 
-@class NSString, NSURL, PKPaymentRemoteCredential;
+@class NSString;
 
 @interface PKPeerPaymentPassDetailsResponse : PKPeerPaymentWebServiceResponse
 {
     NSString *_provisioningIdentifier;
-    long long _cardType;
-    long long _status;
-    NSURL *_passURL;
-    NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    NSString *_ownershipTokenIdentifier;
-    PKPaymentRemoteCredential *_remoteCredential;
 }
 
 - (id);
@@ -25,21 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (long long);
 - (id);
 - (long long);
-- (void)assword;
+- (void)strong_password;
 
 // Remaining properties
-@property(readonly, nonatomic) long long cardType; // @synthesize cardType=_cardType;
-@property(readonly, copy, nonatomic) NSString *ownershipTokenIdentifier; // @synthesize ownershipTokenIdentifier=_ownershipTokenIdentifier;
-@property(readonly, copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(readonly, copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(readonly, copy, nonatomic) NSURL *passURL; // @synthesize passURL=_passURL;
 @property(readonly, copy, nonatomic) NSString *provisioningIdentifier; // @synthesize provisioningIdentifier=_provisioningIdentifier;
-@property(readonly, nonatomic) PKPaymentRemoteCredential *remoteCredential; // @synthesize remoteCredential=_remoteCredential;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface LRSchemaLRPreprocessorInfo : SISchemaInstrumentationMessage
 {
     unsigned long long _preProcessorTriggerTimeNanosecondsSinceBoot;
-    _Bool _bootSessionUUIDChanged;
-    int _preProcessorTriggerReason;
-    struct {
-        unsigned int preProcessorTriggerTimeNanosecondsSinceBoot:1;
-        unsigned int bootSessionUUIDChanged:1;
-        unsigned int preProcessorTriggerReason:1;
-    } _has;
 }
 
 - (void);
@@ -47,12 +38,6 @@
 - (id)_ephemeralIdentifiers;
 
 // Remaining properties
-@property(nonatomic) _Bool bootSessionUUIDChanged; // @synthesize bootSessionUUIDChanged=_bootSessionUUIDChanged;
-@property(nonatomic) _Bool hasBootSessionUUIDChanged;
-@property(nonatomic) _Bool hasPreProcessorTriggerReason;
-@property(nonatomic) _Bool hasPreProcessorTriggerTimeNanosecondsSinceBoot;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int preProcessorTriggerReason; // @synthesize preProcessorTriggerReason=_preProcessorTriggerReason;
 @property(nonatomic) unsigned long long preProcessorTriggerTimeNanosecondsSinceBoot; // @synthesize preProcessorTriggerTimeNanosecondsSinceBoot=_preProcessorTriggerTimeNanosecondsSinceBoot;
 
 @end

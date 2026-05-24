@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Digest)
-- (id);
+- (id);
 - (id);
 @end
 

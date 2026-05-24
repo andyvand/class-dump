@@ -6,15 +6,12 @@
 
 #import <CoreData/NSSQLWhereIntermediate.h>
 
-@class NSArray, NSMutableArray, NSSQLEntity;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLCompoundWhereIntermediate : NSSQLWhereIntermediate
 {
     NSMutableArray *_subclauses;
-    NSSQLEntity *_disambiguatingEntity;
-    NSArray *_disambiguationKeypath;
-    _Bool _disambiguationKeypathHasToMany;
 }
 
 - (_Bool);
@@ -23,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id);;
+- (_Bool)numberWithUnsignedLong: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,16 +6,13 @@
 
 #import <AssistantServices/AFSiriRequest.h>
 
-@class STAlarm;
-
 @interface AFSearchAlarmsRequest : AFSiriRequest
 {
     long long _options;
-    STAlarm *_criteria;
 }
 
 + (_Bool);
-- (id);
+- (id)7(6r;
 - (id);
 - (void);
 - (long long);
@@ -26,7 +23,6 @@
 - (void)eviceLocked;
 
 // Remaining properties
-@property(retain, nonatomic) STAlarm *criteria; // @synthesize criteria=_criteria;
 @property(nonatomic) long long options; // @synthesize options=_options;
 
 @end

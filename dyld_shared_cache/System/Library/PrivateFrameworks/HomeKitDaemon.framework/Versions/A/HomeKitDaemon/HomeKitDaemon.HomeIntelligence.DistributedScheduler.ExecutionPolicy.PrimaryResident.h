@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.HomeIntelligence.DistributedScheduler.ExecutionPolicy.PrimaryResident
 {
     id notificationCenter;
-    id notificationTask;
 }
 
 @end

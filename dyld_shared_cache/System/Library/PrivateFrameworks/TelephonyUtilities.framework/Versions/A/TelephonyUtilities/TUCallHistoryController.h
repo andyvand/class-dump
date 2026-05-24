@@ -4,37 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHManager, NSArray, NSMutableSet, NSOperationQueue, NSPredicate, NSString, TUCallProviderManager, TUDispatcher, TUFeatureFlags;
-@protocol TUCallHistoryControllerDataSource;
+@class TUFeatureFlags;
 
 @interface TUCallHistoryController
 {
     _Bool _shouldUpdateMetadataCache;
-    unsigned long long _coalescingStrategy;
-    unsigned long long _options;
-    NSPredicate *_preFetchingPredicate;
-    NSArray *_recentCalls;
-    unsigned long long _unreadCallCount;
-    NSOperationQueue *_searchQueue;
-    TUFeatureFlags *_featureFlags;
-    CHManager *_callHistoryManager;
-    TUCallProviderManager *_callProviderManager;
-    TUDispatcher *_dispatcher;
-    TUDispatcher *_simpleIvarDispatcher;
-    NSArray *_thirdPartyCallProviders;
-    NSMutableSet *_metadataPreCachedOptions;
-    id <TUCallHistoryControllerDataSource> _dataSource;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (CDUnknownBlockType);
 - (void);
 - (long long);
@@ -43,38 +28,38 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)J;
 - (void);
 - (_Bool);
-- (void);
+- (void)(;
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)];
 - (CDUnknownBlockType);
+- (void)�;
+- (void);
+- (unsigned long long);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id)(;
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
 - (id);
 - (void);
 - (unsigned long long);
+- (void)bundleWithIdentifier:(unsigned long long)arg1;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)$f;
 - (_Bool);
 - (void)!1Â0@ù
 × ;
@@ -82,38 +67,17 @@
 × ;
 - (void)a(°!¤Bùq´!ð1Â0@ù
 × ;
-- (id)upportsSystemCapabilityWithName:(id)arg1 subscriptionContext:(unsigned long long)arg2;
-- (id)oken: /* Error: Ran out of types for this method. */;
-- (void)allFromClientUsingHandoffActivityUserInfo:reply: /* Error: Ran out of types for this method. */;
-- (id)egerForKey: /* Error: Ran out of types for this method. */;
+- (id)supportsSystemCapabilityWithName:(id)arg1 subscriptionContext:(unsigned long long)arg2;
+- (id)setShouldConnectToken: /* Error: Ran out of types for this method. */;
+- (void)pullCallFromClientUsingHandoffActivityUserInfo:reply: /* Error: Ran out of types for this method. */;
+- (id)integerForKey: /* Error: Ran out of types for this method. */;
 - (id)UID:creationQueue: /* Error: Ran out of types for this method. */;
 - (void)q,N,V_linkLifetimeScope;
 - (void)eAppCoupledRelay is enabled, so returning TUDefaultAppRelayTelephonySettingNotApplicable;
 - (void)¬æÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CHManager *callHistoryManager; // @synthesize callHistoryManager=_callHistoryManager;
-@property(retain, nonatomic) TUCallProviderManager *callProviderManager; // @synthesize callProviderManager=_callProviderManager;
-@property(nonatomic) unsigned long long coalescingStrategy; // @synthesize coalescingStrategy=_coalescingStrategy;
-@property(readonly, nonatomic) id <TUCallHistoryControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TUDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
 @property(readonly, nonatomic) TUFeatureFlags *featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableSet *metadataPreCachedOptions; // @synthesize metadataPreCachedOptions=_metadataPreCachedOptions;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(nonatomic) NSPredicate *preFetchingPredicate; // @synthesize preFetchingPredicate=_preFetchingPredicate;
-@property(retain, nonatomic) NSArray *recentCalls; // @synthesize recentCalls=_recentCalls;
-@property(retain, nonatomic) NSOperationQueue *searchQueue; // @synthesize searchQueue=_searchQueue;
-@property(readonly, nonatomic) _Bool shouldUpdateMetadataCache; // @synthesize shouldUpdateMetadataCache=_shouldUpdateMetadataCache;
-@property(retain, nonatomic) TUDispatcher *simpleIvarDispatcher; // @synthesize simpleIvarDispatcher=_simpleIvarDispatcher;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *thirdPartyCallProviders; // @synthesize thirdPartyCallProviders=_thirdPartyCallProviders;
-@property(nonatomic) unsigned long long unreadCallCount; // @synthesize unreadCallCount=_unreadCallCount;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface BSSecTask
 {
     struct __SecTask *_lock_taskRef;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);

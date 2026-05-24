@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PFAuxiliaryImageRecord
 {
     unsigned int _sourceImageOrientation;
-    NSString *_identifier;
-    NSDictionary *_auxiliaryImageInfo;
-    struct CGSize _sourceImageSize;
 }
 
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)x;
 - (struct CGSize);
-- (unsigned int);
+- (unsigned int);
 - (double);
 - (id);
-- (void);
+- (void)F;
 - (id);
-- (void);
+- (void)~;
 
 // Remaining properties
-@property(retain) NSDictionary *auxiliaryImageInfo; // @synthesize auxiliaryImageInfo=_auxiliaryImageInfo;
 @property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property unsigned int sourceImageOrientation; // @synthesize sourceImageOrientation=_sourceImageOrientation;
-@property struct CGSize sourceImageSize; // @synthesize sourceImageSize=_sourceImageSize;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCContentColorPair, NSArray, NSString;
+@class NSString;
 
 @interface FCChannelPickerConfig
 {
     _Bool _showRelatedChannels;
-    NSString *_pickerID;
-    NSString *_titleText;
-    NSString *_featureName;
-    NSString *_buttonTitle;
-    FCContentColorPair *_featureTextColor;
-    NSArray *_initialChannelIDs;
 }
 
 - (id);
@@ -22,19 +16,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)iptionTypeTag;
+- (void)FCSubscriptionTypeTag;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
-@property(readonly, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
-@property(readonly, nonatomic) FCContentColorPair *featureTextColor; // @synthesize featureTextColor=_featureTextColor;
-@property(readonly, copy, nonatomic) NSArray *initialChannelIDs; // @synthesize initialChannelIDs=_initialChannelIDs;
 @property(readonly, nonatomic) NSString *pickerID; // @synthesize pickerID=_pickerID;
-@property(readonly, nonatomic) _Bool showRelatedChannels; // @synthesize showRelatedChannels=_showRelatedChannels;
-@property(readonly, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
 
 @end
 

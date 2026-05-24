@@ -5,5 +5,8 @@
 //
 
 @protocol BSServiceConnectionCommonConfiguring
+- (void);
+- (void)Push tokens by activity id:(id)arg1;
+- (void)iconView;
 @end
 

@@ -6,25 +6,13 @@
 
 #import <iTunesCloud/ICAsyncOperation.h>
 
-@class ICStoreRequestContext, ICStoreURLRequest, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface ICMusicSubscriptionPlaybackRequestOperation : ICAsyncOperation
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    ICStoreURLRequest *_activeURLRequest;
-    _Bool _delegatedPlayback;
-    _Bool _followUp;
-    NSString *_assetSourceStorefrontID;
-    long long _requestType;
-    CDUnknownBlockType _willBeginExecutionHandler;
-    ICStoreRequestContext *_requestContext;
-    CDUnknownBlockType _responseHandler;
-    unsigned long long _storeCloudID;
-    long long _storeSubscriptionAdamID;
-    long long _storePurchasedAdamID;
-    NSString *_cloudUniversalLibraryID;
 }
 
 - (CDUnknownBlockType);
@@ -48,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)ForResponseURL:(id)arg1;
+- (void)mescalConfigurationForResponseURL:(id)arg1;
 - (void)tivityEnqueuerProperties",R,C,N,V_enqueuerProperties;
 - (void)cess-groups";
 - (long long)Code, void (^__strong _Nonnull)(DKDAAPWriter *__strong));
@@ -57,16 +45,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetSourceStorefrontID; // @synthesize assetSourceStorefrontID=_assetSourceStorefrontID;
-@property(copy, nonatomic) NSString *cloudUniversalLibraryID; // @synthesize cloudUniversalLibraryID=_cloudUniversalLibraryID;
-@property(nonatomic, getter=isDelegatedPlayback) _Bool delegatedPlayback; // @synthesize delegatedPlayback=_delegatedPlayback;
-@property(nonatomic, getter=isFollowUp) _Bool followUp; // @synthesize followUp=_followUp;
-@property(copy, nonatomic) ICStoreRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(nonatomic) long long requestType; // @synthesize requestType=_requestType;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(nonatomic) unsigned long long storeCloudID; // @synthesize storeCloudID=_storeCloudID;
-@property(nonatomic) long long storePurchasedAdamID; // @synthesize storePurchasedAdamID=_storePurchasedAdamID;
-@property(nonatomic) long long storeSubscriptionAdamID; // @synthesize storeSubscriptionAdamID=_storeSubscriptionAdamID;
-@property(copy, nonatomic) CDUnknownBlockType willBeginExecutionHandler; // @synthesize willBeginExecutionHandler=_willBeginExecutionHandler;
 
 @end
 

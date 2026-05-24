@@ -4,56 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSource, BMStream, NSMutableArray, NSMutableDictionary, NSObject, NSString, _CDReceiverNotifier, _CDSpotlightCoalescedDeletionManager, _CDUserActivityCache, _DKContactsPrivacyMaintainer, _DKPrivacyPolicyEnforcer, _DKRateLimitPolicyEnforcer, _PASBloomFilterForWriting, _PASLock;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_transaction, _CDInteractionQuerying><_CDInteractionRecording><_CDInteractionDeleting, _DKKnowledgeQuerying><_DKKnowledgeSaving><_DKKnowledgeEventStreamDeleting;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface _CDSpotlightItemRecorder
 {
     NSObject<OS_dispatch_source> *_batchExecutionSource;
-    NSObject<OS_dispatch_queue> *_batchExecutionSourceQueue;
-    NSObject<OS_dispatch_queue> *_pendingOperationsQueue;
-    NSMutableArray *_pendingOperations;
-    long long _pendingOperationsItemCount;
-    NSObject<OS_os_transaction> *_pendingOperationsTransaction;
-    NSObject<OS_dispatch_queue> *_activityRateLimiterQueue;
-    NSMutableDictionary *_activityPerBundleRateLimit;
-    id <_DKKnowledgeQuerying><_DKKnowledgeSaving><_DKKnowledgeEventStreamDeleting> _knowledgeStore;
-    _DKRateLimitPolicyEnforcer *_rateLimitEnforcer;
-    _DKPrivacyPolicyEnforcer *_privacyEnforcer;
-    _DKContactsPrivacyMaintainer *_contactsPrivacyMaintainer;
-    _PASBloomFilterForWriting *_calendarAddedItemsFilter;
-    _CDUserActivityCache *_userActivityCache;
-    _Bool _registeredSpotlightReceiver;
-    _CDSpotlightCoalescedDeletionManager *_coalescedDeletionManager;
-    _PASLock *_throttleStateByBundleId;
-    id <_CDInteractionQuerying><_CDInteractionRecording><_CDInteractionDeleting> _recorder;
-    BMSource *_intentSource;
-    BMSource *_appActivitySource;
-    BMSource *_appLocationActivitySource;
-    BMStream *_relevantShortcutsStream;
-    _CDReceiverNotifier *_receiverNotifier;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)amCallbacks}^{CGXConnection}IIb1b1b1b1b1b1b1b1}8^B16;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -61,27 +32,28 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)uccess %llus ago, consecutive failures %llu;
 - (id);
 - (void);
+- (void)2aC;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)TLS_AES_256_GCM_SHA384;
 - (void)
 × ;
-- (void)escriptionRedacted:(id)arg1;
+- (void)descriptionRedacted:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

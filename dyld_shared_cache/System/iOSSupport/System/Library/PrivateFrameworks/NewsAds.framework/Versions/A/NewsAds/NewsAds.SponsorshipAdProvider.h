@@ -7,7 +7,6 @@
 @interface NewsAds.SponsorshipAdProvider
 {
     id contextWrapper;
-    id $__lazy_storage_$_debugAdProvider;
 }
 
 @end

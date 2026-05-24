@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLShaderValidationConfiguration, NSDictionary;
+@class NSDictionary;
 
 @interface MTL4PipelineOptions
 {
     _Bool _enablePerformanceStatistics;
-    _Bool _enablePostVertexDump;
-    _Bool _enablePostMeshDump;
-    _Bool _enableAccelerationStructureViewerInstrumentation;
-    _Bool _enableResourcePatchingInstrumentation;
-    _Bool _enableResourceUsageInstrumentation;
-    long long _shaderValidation;
-    unsigned long long _shaderReflection;
-    NSDictionary *_pluginData;
-    MTLShaderValidationConfiguration *_shaderValidationConfig;
-    unsigned long long _maxNumRegisters;
-    unsigned long long _postVertexDumpBufferIndex;
 }
 
 - (void);
@@ -41,29 +30,18 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)dexBufferOffset:(unsigned long long)arg1;
+- (void)setPatchIndexBufferOffset:(unsigned long long)arg1;
 - (id)þÿÿ;
 - (void);
 - (void)Õùÿ;
 - (long long);
 
 // Remaining properties
-@property _Bool enableAccelerationStructureViewerInstrumentation; // @synthesize enableAccelerationStructureViewerInstrumentation=_enableAccelerationStructureViewerInstrumentation;
-@property _Bool enablePerformanceStatistics; // @synthesize enablePerformanceStatistics=_enablePerformanceStatistics;
-@property _Bool enablePostMeshDump; // @synthesize enablePostMeshDump=_enablePostMeshDump;
-@property _Bool enablePostVertexDump; // @synthesize enablePostVertexDump=_enablePostVertexDump;
-@property _Bool enableResourcePatchingInstrumentation; // @synthesize enableResourcePatchingInstrumentation=_enableResourcePatchingInstrumentation;
-@property _Bool enableResourceUsageInstrumentation; // @synthesize enableResourceUsageInstrumentation=_enableResourceUsageInstrumentation;
-@property unsigned long long maxNumRegisters; // @synthesize maxNumRegisters=_maxNumRegisters;
 @property(retain) NSDictionary *pluginData; // @synthesize pluginData=_pluginData;
-@property unsigned long long postVertexDumpBufferIndex; // @synthesize postVertexDumpBufferIndex=_postVertexDumpBufferIndex;
-@property(nonatomic) unsigned long long shaderReflection; // @synthesize shaderReflection=_shaderReflection;
-@property(nonatomic) long long shaderValidation; // @synthesize shaderValidation=_shaderValidation;
-@property(readonly) MTLShaderValidationConfiguration *shaderValidationConfig; // @synthesize shaderValidationConfig=_shaderValidationConfig;
 
 @end
 

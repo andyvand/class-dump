@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKIMSimulatedAccount, IMHandle, NSArray, NSString;
+@class CKIMSimulatedAccount;
 @protocol CKIMSimulatedChatDelegate;
 
 @interface CKIMSimulatedChat
 {
     id <CKIMSimulatedChatDelegate> _delegate;
-    CKIMSimulatedAccount *_simulatedAccount;
-    NSString *_simulatedGUID;
-    NSArray *_incomingHandles;
-    IMHandle *_outgoingHandle;
-    unsigned long long _currentMessageID;
-    NSString *_simulatedChatIdentifier;
 }
 
-+ (id);
++ (id)ation operations existed, not adding more for %@;
+- (id)_readWriteSharedSubObjectsInSource;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)e;
+- (void)ICMAppearanceAlwaysShowLightContentDidChangeNotification;
+- (id);
 - (void);
 - (void);
 - (id);
@@ -50,18 +44,12 @@
 - (id);
 - (void);
 - (void);
-- (void)w: /* Error: Ran out of types for this method. */;
-- (id)ENCE_ONBOARDING_MESSAGE_SUMMARIES_BULLET_DESCRIPTION;
+- (void)_addPollDetailsActionForChatItem:parentChatItem:sourceView: /* Error: Ran out of types for this method. */;
+- (id)APPLE_INTELLIGENCE_ONBOARDING_MESSAGE_SUMMARIES_BULLET_DESCRIPTION;
 - (void)´;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentMessageID; // @synthesize currentMessageID=_currentMessageID;
-@property(nonatomic) __weak id <CKIMSimulatedChatDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSArray *incomingHandles; // @synthesize incomingHandles=_incomingHandles;
-@property(readonly, nonatomic) IMHandle *outgoingHandle; // @synthesize outgoingHandle=_outgoingHandle;
 @property(readonly, nonatomic) CKIMSimulatedAccount *simulatedAccount; // @synthesize simulatedAccount=_simulatedAccount;
-@property(copy, nonatomic) NSString *simulatedChatIdentifier; // @synthesize simulatedChatIdentifier=_simulatedChatIdentifier;
-@property(readonly, nonatomic) NSString *simulatedGUID; // @synthesize simulatedGUID=_simulatedGUID;
 
 @end
 

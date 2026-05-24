@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (unsigned long long);
+- (void)V_downloadAssetsForTransferGUIDs;
+- (unsigned long long),R,&;
 - (id);
-- (void);
+- (void)SDictionary",R;
 
 @end
 

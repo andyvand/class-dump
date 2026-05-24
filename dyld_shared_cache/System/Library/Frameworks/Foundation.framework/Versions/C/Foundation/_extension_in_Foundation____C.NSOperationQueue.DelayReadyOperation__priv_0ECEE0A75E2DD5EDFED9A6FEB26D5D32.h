@@ -9,13 +9,9 @@
 @interface (extension in Foundation):__C.NSOperationQueue.DelayReadyOperation__priv_0ECEE0A75E2DD5EDFED9A6FEB26D5D32 : NSOperation
 {
     id action;
-    id readyFromAfter;
-    id queue;
-    id interval;
-    id context;
 }
 
-- (id);
+- (id)p;
 - (_Bool);
 - (void);
 - (void);

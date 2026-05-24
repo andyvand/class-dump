@@ -9,7 +9,6 @@
 @interface TIStatisticChangeCache
 {
     NSMutableDictionary *_cacheWithoutInputMode;
-    NSMutableDictionary *_cacheWithInputMode;
 }
 
 + (id)Á

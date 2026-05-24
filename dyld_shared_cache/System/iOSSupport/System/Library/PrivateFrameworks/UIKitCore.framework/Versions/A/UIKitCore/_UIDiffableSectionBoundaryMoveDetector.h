@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, _UIDiffableDataSourceState, _UIIdentifierDiffer;
+@class NSSet, _UIIdentifierDiffer;
 
 __attribute__((visibility("hidden")))
 @interface _UIDiffableSectionBoundaryMoveDetector
 {
     _UIIdentifierDiffer *_differ;
-    _UIDiffableDataSourceState *_beforeState;
-    _UIDiffableDataSourceState *_afterState;
-    NSSet *_movePairs;
-    _Bool _didShortCircuit;
 }
 
 - (id);

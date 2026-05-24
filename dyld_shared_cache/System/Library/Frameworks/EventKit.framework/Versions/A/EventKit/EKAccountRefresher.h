@@ -4,39 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSArray, NSDate;
+@class EKEventStore;
 @protocol EKAccountRefresherDelegate;
 
 @interface EKAccountRefresher
 {
     EKEventStore *_eventStore;
-    _Bool _currentlySyncing;
-    NSDate *_refreshStartDate;
-    NSArray *_refreshingSources;
-    NSArray *_refreshingCalendars;
-    _Bool _refreshing;
-    id <EKAccountRefresherDelegate> _delegate;
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)atching output devices:(id)arg1 %{public}@;
+- (_Bool)r service %{public}@;
+- (_Bool)ignoreNonLocalDevices;
+- (_Bool)usic;
+- (void)sion. Return local.;
+- (void)find endpoint for group session. Return local.;
+- (void)MRGroupSessionError;
+- (void)ontentItemSetCollectionIdentifier(MRContentItemRef, CFStringRef);
+- (void)sendOptions;
+- (void)systemAppPlaybackQueueData;
+- (void)MRUIContextScreenMirroring;
+- (_Bool)cdi;
+- (_Bool)/lpd:%u /* Error: Ran out of types for this method. */;
+- (_Bool)%@ (%lf seconds ago)
+   intialLoadDate=     %@ (%lf seconds ago)
+   updateDate=         %@ (%lf seconds ago)
+   invalidationDate=   %@ (%lf seconds ago)
+   lastErrorDate=      %@ (%lf seconds ago)
+   lastError=          %@
+   impl=               %@
+   response=           %@
+}>
+;
+- (_Bool)beginDate=          %@ (%lf seconds ago)
+   endDate=            %@ (%lf seconds ago)
+   intialLoadDate=     %@ (%lf seconds ago)
+   updateDate=         %@ (%lf seconds ago)
+   invalidationDate=   %@ (%lf seconds ago)
+   lastErrorDate=      %@ (%lf seconds ago)
+   lastError=          %@
+   impl=               %@
+   response=           %@
+}>
+;
+- (void)kMRMediaRemoteIndexPathDataUserInfoKey;
 - (void);
 - (id);
-- (void);
+- (void)Rk1;
 - (void);
 - (id);
 - (void);
@@ -44,9 +57,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allAccountsOffline;
 @property(nonatomic) __weak id <EKAccountRefresherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool refreshing; // @synthesize refreshing=_refreshing;
 
 @end
 

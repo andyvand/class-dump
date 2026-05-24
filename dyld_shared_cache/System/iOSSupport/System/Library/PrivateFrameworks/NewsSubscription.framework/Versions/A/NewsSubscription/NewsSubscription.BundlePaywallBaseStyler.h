@@ -7,8 +7,6 @@
 @interface NewsSubscription.BundlePaywallBaseStyler
 {
     id colorPaletteProvider;
-    id titleMaxLines;
-    id descriptionMaxLines;
 }
 
 @end

@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSSuggesterMediaSuggestionMetadata : SISchemaInstrumentationMessage
 {
     int _locality;
-    int _serverTreatment;
-    int _clientTreatment;
-    struct {
-        unsigned int locality:1;
-        unsigned int serverTreatment:1;
-        unsigned int clientTreatment:1;
-    } _has;
 }
 
 - (void);
@@ -32,27 +23,21 @@
 - (void);
 - (int);
 - (int);
-- (void);
+- (void)_bridgeOSManager;
 - (id);
-- (_Bool);
+- (_Bool)onaryRef, APSRTCReportingRef *, uint32_t *);
 - (void);
 - (int);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)e - asked to cache contact for nil key %@;
 - (id);
 - (id);
-- (id)eTriggerRejectDetected;
+- (id)_hasVoiceTriggerRejectDetected;
 - (id)PhoneCallPossible;
 
 // Remaining properties
-@property(nonatomic) int clientTreatment; // @synthesize clientTreatment=_clientTreatment;
-@property(nonatomic) _Bool hasClientTreatment;
-@property(nonatomic) _Bool hasLocality;
-@property(nonatomic) _Bool hasServerTreatment;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int locality; // @synthesize locality=_locality;
-@property(nonatomic) int serverTreatment; // @synthesize serverTreatment=_serverTreatment;
 
 @end
 

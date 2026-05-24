@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFeedPersonalizingEnvironment;
+@class FCFeedPersonalizedItems, FCFeedPersonalizingEnvironment, NSArray;
 
 @protocol FCFeedPersonalizing
+- (FCFeedPersonalizedItems *)rsation link resulted in error:(NSArray *)arg1 %@;
+
+@optional
+- (FCFeedPersonalizedItems *)%@;
+- (void)CallParticipantLabelDescriptor;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) FCFeedPersonalizingEnvironment *feedPersonalizingEnvironment;

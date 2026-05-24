@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSHashTable, NSMutableArray, NSMutableDictionary, NSObject, NSString, WBSCloudTabDevice;
-@protocol OS_dispatch_queue, WBSCloudTabStoreDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface WBSCloudTabStore
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    _Bool _isFetchingDataFromCloudKit;
-    _Bool _hasAttemptedToFetchDevicesAtLeastOnce;
-    NSMutableArray *_syncedCloudTabDevicesFromCloudKit;
-    NSArray *_filteredAndSortedSyncedCloudTabDevicesFromCloudKit;
-    WBSCloudTabDevice *_currentDevice;
-    NSMutableDictionary *_deviceUUIDsToCloseRequestsFromCloudKit;
-    NSError *_lastFetchError;
-    NSHashTable *_observers;
-    _Bool _syncAgentIsAvailable;
-    id <WBSCloudTabStoreDelegate> _wbsDelegate;
 }
 
 - (id);
@@ -30,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -54,32 +44,17 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)Only:(id)arg1 s})}function addEventListeners(){addGlobalEventHandler("webkitbeforefocus",(e=>eventQueue.processAndEnqueue(e))),addGlobalEventHandler("webkitbeforeblur",(e=>eventQueue.processAndEnqueue(e))),addGlobalEventHandler("webkitusertextinput",(e=>eventQueue.processAndEnqueue(e))),addGlobalEventHandler("keydown",(e=>eventQueue.processAndEnqueue(e)),!0,!0),addGlobalEventHandler("webkitsubmit",(e=>eventQueue.processAndEnqueue(e))),addGlobalEventHandler("webkitautofillrequest",(e=>eventQueue.processAndEnqueue(e)))}class EventQueue{#e=[];#t=null;#n(e){switch(e.type){case"webkitsubmit":case"webkitautofillrequest":return e.target;case"webkitbeforefocus":case"webkitbeforeblur":case"webkitusertextinput":case"keydown":return textFieldEventTarget(e);default:return null}}processAndEnqueue(e){const t=this.#n(e);if(!t)return;let n=null;"keydown"===e.type&&(n={key:e.key,shiftKey:e.shiftKey});const s={target:t,type:e.type,data:n};this.#t?this.#t.dispatchEvent(s):(mainScriptLoadRequest.scheduleIfNeeded(),this.#e.push(s))}setDelegate(e){this.#t=e;for(const e of this.#e)this.#t.dispatchEvent(e);this.#e.length=0}}const eventQueue=new EventQueue;class MainScriptLoadRequest{#s=null;#u=!1;scheduleIfNeeded(){this.#u||this.#s||("complete"===document.readyState?this.#i():this.#s=setTimeout(this.#i.bind(this),100))}#i(){this.#u=!0,window.webkit.messageHandlers.controller.postMessage({name:"loadMainScriptRequest"})}}const mainScriptLoadRequest=new MainScriptLoadRequest;addEventListeners();
+0; /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool atLeastOneOtherActiveDeviceIsRegistered;
-@property(readonly, nonatomic) _Bool cloudTabsAreEnabled;
-@property(readonly, nonatomic) _Bool currentDeviceIsRegisteredInCloudKit;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentationOfCurrentDeviceInCloudKit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSError *lastFetchError;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool syncAgentIsAvailable; // @synthesize syncAgentIsAvailable=_syncAgentIsAvailable;
-@property(readonly, copy, nonatomic) NSArray *syncedCloudTabDevices;
-@property(readonly, nonatomic) unsigned long long totalSyncedCloudTabDeviceCount;
-@property(readonly, nonatomic) long long uniqueDeviceMultiplicity;
-@property(nonatomic) __weak id <WBSCloudTabStoreDelegate> wbsDelegate; // @synthesize wbsDelegate=_wbsDelegate;
 
 @end
 

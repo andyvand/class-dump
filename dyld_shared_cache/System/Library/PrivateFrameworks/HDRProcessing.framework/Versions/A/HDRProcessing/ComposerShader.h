@@ -9,9 +9,6 @@
 @interface ComposerShader : ForwardDmShader
 {
     _Bool _dolby84;
-    _Bool _forLLDovi;
-    int _input_format;
-    int _output_format;
 }
 
 + (id);

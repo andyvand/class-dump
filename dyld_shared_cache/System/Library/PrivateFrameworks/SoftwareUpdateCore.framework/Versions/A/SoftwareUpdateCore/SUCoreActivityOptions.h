@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 @interface SUCoreActivityOptions
 {
     NSDate *_runDate;
-    NSNumber *_batteryLevelGreaterThan;
-    NSNumber *_batteryLevelLessThan;
-    int _plugInState;
-    int _screenOnState;
-    int _networkState;
-    int _wifiState;
-    int _waking;
-    int _phoneCallState;
-    int _carplayState;
-    int _mediaPlayingState;
-    int _priority;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,35 +29,24 @@
 - (void);
 - (id);
 - (void);
-- (int);
+- (int);
+- (void)reason;
+- (int)aggingInfo>"24@32q40;
+- (id)windowRestorationArchiveData;
+- (id)_invokeAndClearDeferredAccordionUpdatesIfNecessary;
+- (id);
+- (int)g0;
 - (void);
 - (int);
 - (id);
-- (id);
-- (id);
-- (int);
-- (void);
-- (int);
-- (id);
 - (void);
 - (void);
 - (void);
-- (int)mentationStashBuild;
+- (int)_documentationStashBuild;
 - (int)CacheDeleteErrorDuplicateService;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *batteryLevelGreaterThan; // @synthesize batteryLevelGreaterThan=_batteryLevelGreaterThan;
-@property(retain, nonatomic) NSNumber *batteryLevelLessThan; // @synthesize batteryLevelLessThan=_batteryLevelLessThan;
-@property(nonatomic) int carplayState; // @synthesize carplayState=_carplayState;
-@property(nonatomic) int mediaPlayingState; // @synthesize mediaPlayingState=_mediaPlayingState;
-@property(nonatomic) int networkState; // @synthesize networkState=_networkState;
-@property(nonatomic) int phoneCallState; // @synthesize phoneCallState=_phoneCallState;
-@property(nonatomic) int plugInState; // @synthesize plugInState=_plugInState;
-@property(nonatomic) int priority; // @synthesize priority=_priority;
 @property(retain, nonatomic) NSDate *runDate; // @synthesize runDate=_runDate;
-@property(nonatomic) int screenOnState; // @synthesize screenOnState=_screenOnState;
-@property(nonatomic) int waking; // @synthesize waking=_waking;
-@property(nonatomic) int wifiState; // @synthesize wifiState=_wifiState;
 
 @end
 

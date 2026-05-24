@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSImage, NSString;
+@class NSString;
 
 @interface SUMajorProduct
 {
     NSString *_displayTitle;
-    NSString *_displayVersion;
-    NSString *_moreInfoLinkString;
-    NSData *_iconData;
-    NSString *_majorOSBundleIdentifier;
-    NSString *_majorOSBundleVersion;
-    NSString *_majorOSBundleShortVersion;
 }
 
 + (_Bool);
+- (id);
 - (id);
+- (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)0;
 - (id);
 - (id);
 - (void);
+- (id)taSize %ld;
 - (id);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly) NSString *displayTitle; // @synthesize displayTitle=_displayTitle;
-@property(readonly) NSString *displayVersion; // @synthesize displayVersion=_displayVersion;
-@property(readonly) NSData *iconData; // @synthesize iconData=_iconData;
-@property(readonly) NSImage *iconImage;
-@property(readonly) NSString *majorOSBundleIdentifier; // @synthesize majorOSBundleIdentifier=_majorOSBundleIdentifier;
-@property(readonly) NSString *majorOSBundleShortVersion; // @synthesize majorOSBundleShortVersion=_majorOSBundleShortVersion;
-@property(readonly) NSString *majorOSBundleVersion; // @synthesize majorOSBundleVersion=_majorOSBundleVersion;
-@property(readonly) NSString *moreInfoLinkString; // @synthesize moreInfoLinkString=_moreInfoLinkString;
 
 @end
 

@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliMessageIDList, NSString;
+@class NSString;
 
 @interface CTLazuliSpamReportInformation
 {
     _Bool _isChatbot;
-    NSString *_destinationUri;
-    NSString *_spamReportingUri;
-    CTLazuliMessageIDList *_messageIDList;
-    NSString *_content;
-    long long _spamType;
-    NSString *_freeBodyText;
 }
 
-+ (_Bool);
-- (long long);
++ (_Bool)variantSwitchCount;
+- (long long)C;
 - (id);
 - (void);
 - (void);
+- (void)ؗur;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (_Bool);
-- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)#;
+- (void)_setServerPropertyForOption:(id)arg1 value: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -43,13 +37,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *content; // @synthesize content=_content;
-@property(retain, nonatomic) NSString *destinationUri; // @synthesize destinationUri=_destinationUri;
-@property(retain, nonatomic) NSString *freeBodyText; // @synthesize freeBodyText=_freeBodyText;
-@property(nonatomic) _Bool isChatbot; // @synthesize isChatbot=_isChatbot;
-@property(retain, nonatomic) CTLazuliMessageIDList *messageIDList; // @synthesize messageIDList=_messageIDList;
 @property(retain, nonatomic) NSString *spamReportingUri; // @synthesize spamReportingUri=_spamReportingUri;
-@property(nonatomic) long long spamType; // @synthesize spamType=_spamType;
 
 @end
 

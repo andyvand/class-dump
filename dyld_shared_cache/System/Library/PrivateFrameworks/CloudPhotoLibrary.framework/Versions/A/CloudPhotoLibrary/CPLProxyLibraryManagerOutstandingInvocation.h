@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLResource, NSData, NSError;
-
 __attribute__((visibility("hidden")))
 @interface CPLProxyLibraryManagerOutstandingInvocation
 {
     _Bool _inMemoryRequest;
-    _Bool _didStart;
-    _Bool _didFinish;
-    float _progress;
-    NSError *_finalError;
-    CPLResource *_finalResource;
-    NSData *_finalData;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)Rp;
 - (id);
 - (id);
 - (void);
@@ -37,13 +29,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool didFinish; // @synthesize didFinish=_didFinish;
-@property(nonatomic) _Bool didStart; // @synthesize didStart=_didStart;
-@property(retain, nonatomic) NSData *finalData; // @synthesize finalData=_finalData;
-@property(retain, nonatomic) NSError *finalError; // @synthesize finalError=_finalError;
-@property(retain, nonatomic) CPLResource *finalResource; // @synthesize finalResource=_finalResource;
 @property(nonatomic, getter=isInMemoryRequest) _Bool inMemoryRequest; // @synthesize inMemoryRequest=_inMemoryRequest;
-@property(nonatomic) float progress; // @synthesize progress=_progress;
 
 @end
 

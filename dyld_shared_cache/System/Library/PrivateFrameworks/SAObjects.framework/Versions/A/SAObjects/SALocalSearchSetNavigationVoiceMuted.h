@@ -12,11 +12,11 @@
 
 + (id);
 + (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)j;
 - (id);
-- (id);
-- (_Bool);
+- (id)`;
+- (_Bool)&;
 
 // Remaining properties
 @property(nonatomic) _Bool voiceMuted;

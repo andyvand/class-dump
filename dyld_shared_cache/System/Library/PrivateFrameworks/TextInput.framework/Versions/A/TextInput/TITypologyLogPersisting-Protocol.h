@@ -7,14 +7,14 @@
 @class NSDictionary, NSMutableString, NSString;
 
 @protocol TITypologyLogPersisting
++ (NSString *)_findCollectionMostSimilarToCollectionWithAssets:(NSString *)arg1 additionalPredicate: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (NSString *)insertInternalUserEditableAssets:atIndexes: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (NSDictionary *);
-- (NSMutableString *)aunchy;
+- (NSMutableString *)paunchy;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *recommendedTraceLogFilename;
-@property(readonly, nonatomic) NSString *recommendedTypologyLogFilename;
-@property(readonly, nonatomic) unsigned long long traceLogVersion;
 @property(readonly, nonatomic) unsigned long long typologyLogVersion;
 @end
 

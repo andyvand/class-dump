@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDAccessorySettingsMessenger, NSUUID;
+
 @protocol HMDAccessorySettingsMessengerFactory
+- (HMDAccessorySettingsMessenger *)ion | Recording KVS migration check at:(NSUUID *)arg1 %{public}@;
 @end
 

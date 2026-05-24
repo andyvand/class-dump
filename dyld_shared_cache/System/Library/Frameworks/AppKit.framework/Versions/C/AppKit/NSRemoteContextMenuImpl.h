@@ -6,17 +6,15 @@
 
 #import <AppKit/NSRemoteMenuImpl.h>
 
-@class NSCocoaMenuImpl, NSPopupMenuWindow, NSView;
-@protocol NSContextMenuLifecycleProtocol, NSContextMenuWindowProtocol;
+@protocol NSContextMenuWindowProtocol;
 
 __attribute__((visibility("hidden")))
 @interface NSRemoteContextMenuImpl : NSRemoteMenuImpl
 {
     id remoteView;
-    id focusedItemFrame;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -29,24 +27,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
+- (void)@;
+- (id)StatusCodes;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void)eSectionIndexer:frame:solution:section: /* Error: Ran out of types for this method. */;
-- (id)utUIChanged: /* Error: Ran out of types for this method. */;
-- (void)s;
+- (void)_updateSectionIndexer:frame:solution:section: /* Error: Ran out of types for this method. */;
+- (id)_lockoutUIChanged: /* Error: Ran out of types for this method. */;
+- (void)_bezelBrightness;
 - (void)qñ\}?;
 
 // Remaining properties
-@property(nonatomic, readonly) NSPopupMenuWindow *_hostWindow;
-@property(nonatomic, readonly) NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *deepestPresentedSubmenu;
-@property(nonatomic, readonly) _Bool shouldSendLifecycleNotifications;
-@property(nonatomic, retain) NSView *view;
 @property(nonatomic, retain) id <NSContextMenuWindowProtocol> windowProxy;
 
 @end

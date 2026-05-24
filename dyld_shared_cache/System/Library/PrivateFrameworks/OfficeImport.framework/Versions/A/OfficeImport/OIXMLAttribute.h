@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface OIXMLAttribute : OIXMLNode
 {
     NSString *_name;
-    NSString *_value;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)D;
 - (void);
 - (id);
 - (id);

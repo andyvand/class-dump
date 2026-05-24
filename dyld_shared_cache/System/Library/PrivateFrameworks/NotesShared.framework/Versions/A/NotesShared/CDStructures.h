@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -48,15 +46,15 @@ struct Document {
 struct Document_DocObject;
 
 struct ICDeviceHardwareInfo {
-    unsigned long long modelName;
-    long long version;
-    long long subVersion;
+    unsigned long long _field1;
+    long long _field2;
+    long long _field3;
 };
 
 struct ICDrawingCommandID {
-    unsigned int clock;
-    NSUUID *replicaUUID;
-    unsigned int subclock;
+    unsigned int _field1;
+    id _field2;
+    unsigned int _field3;
 };
 
 struct LegacyNoteDocument;
@@ -64,8 +62,8 @@ struct LegacyNoteDocument;
 struct NoteDocument;
 
 struct TopoID {
-    NSUUID *replicaID;
-    unsigned int clock;
+    id _field1;
+    unsigned int _field2;
 };
 
 struct TopoIDRange {
@@ -76,8 +74,8 @@ struct TopoIDRange {
 struct TopoSubstring;
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
@@ -98,23 +96,11 @@ struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
     } ;
 };
 
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
 struct vector<CRDT::Document_DocObject *, std::allocator<CRDT::Document_DocObject *>> {
     struct Document_DocObject **__begin_;
     struct Document_DocObject **__end_;
     struct {
         struct Document_DocObject **__cap_;
-    } ;
-};
-
-struct vector<ICDrawingOutputPoint, std::allocator<ICDrawingOutputPoint>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    struct {
-        CDStruct_183601bc *__cap_;
     } ;
 };
 
@@ -144,22 +130,20 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    double baseAlpha;
-    double blendAlpha;
-    double targetMultiple;
-} CDStruct_30364a2d;
-
-typedef struct CDStruct_183601bc;
+    double _field1;
+    double _field2;
+    double _field3;
+} CDStruct_39925896;
 
 typedef struct {
-    struct CGPoint point;
-    double radius;
-    double opacity;
-    double azimuth;
-    double edgeWidth;
-    double aspectRatio;
-    double timestamp;
-} CDStruct_4a3d0796;
+    struct CGPoint _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+} CDStruct_47a7c924;
 
 // Template types
 typedef struct basic_string<char, std::char_traits<char>, std::allocator<char>> {

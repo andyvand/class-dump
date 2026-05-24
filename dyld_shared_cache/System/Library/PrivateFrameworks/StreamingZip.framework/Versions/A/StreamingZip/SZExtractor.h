@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSObject, NSString, NSXPCConnection, SZExtractorInternalDelegate;
-@protocol OS_dispatch_queue;
-
 @interface SZExtractor
 {
     struct os_unfair_lock_s _ivarLock;
-    _Bool _privileged;
-    _Bool _needsPreparation;
-    _Bool _hasHadPostSetupMethodsCalled;
-    unsigned long long _lastResumptionOffset;
-    NSError *_error;
-    NSXPCConnection *_unzipServiceConnection;
-    NSString *_extractionPath;
-    NSDictionary *_options;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    SZExtractorInternalDelegate *_internalExtractorDelegate;
 }
 
 - (id);
@@ -43,22 +30,25 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
+- (void), wxh=%dx%d
+;
+- (void)d in "/AppleInternal/Library/BuildRoots/4~CNqLugDeO74yC6P4BXCqU2t86IJeTYdbBp4TQ6c/Library/Caches/com.apple.xbs/TemporaryDirectory.OZFslg/Sources/ASEFramework/ASEProcessingT1.m" at line 1720
+;
+- (void)SEConfigurationUnitsV3_NoiseConfig))))" warned in "/AppleInternal/Library/BuildRoots/4~CNqLugDeO74yC6P4BXCqU2t86IJeTYdbBp4TQ6c/Library/Caches/com.apple.xbs/TemporaryDirectory.OZFslg/Sources/ASEFramework/ASEProcessingT1.m" at line 1720
+;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -67,7 +57,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

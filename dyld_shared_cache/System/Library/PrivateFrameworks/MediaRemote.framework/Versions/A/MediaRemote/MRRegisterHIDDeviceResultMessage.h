@@ -11,12 +11,11 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)uetSyncInfo> LastFullSyncAttempt %@ <EndCoreDuetLastFullSyncInfo>;
 - (unsigned long long);
 - (long long)LÐêÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long deviceIdentifier;
 @property(readonly, nonatomic) long long errorCode;
 
 @end

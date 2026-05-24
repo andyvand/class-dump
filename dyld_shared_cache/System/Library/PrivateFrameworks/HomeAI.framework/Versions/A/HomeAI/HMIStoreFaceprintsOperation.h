@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
 @protocol HMIPersonManagerDataSource;
 
 @interface HMIStoreFaceprintsOperation
 {
     id <HMIPersonManagerDataSource> _dataSource;
-    NSSet *_faceprints;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)QqA;
 - (id);
 - (id);
 - (void);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) id <HMIPersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) NSSet *faceprints; // @synthesize faceprints=_faceprints;
 
 @end
 

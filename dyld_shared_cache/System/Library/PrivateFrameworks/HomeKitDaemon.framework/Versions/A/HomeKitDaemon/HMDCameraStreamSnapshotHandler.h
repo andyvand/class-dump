@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraStreamSnapshotHandler
 {
     struct os_unfair_lock_s _lock;
-    _Bool _streamAvailable;
-    _Bool _streamSetupInProgress;
-    NSMutableSet *_streamSnapshotCaptures;
-    NSMutableSet *_retiredStreamSnapshotCaptures;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_serviceInstanceStreamStatus;
-    NSHashTable *_delegates;
-    NSString *_logIdentifier;
 }
 
 + (id)C;
-- (void);
-- (void);
-- (void);
+- (void)cleanConnections;
+- (void)checkResourceIsReachableAndReturnError:(id)arg1;
+- (void)T@"NSString",&,N,V_fullDescription;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -32,21 +23,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c
+;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly, getter=isStreamAvailable) _Bool streamAvailable; // @synthesize streamAvailable=_streamAvailable;
-@property(readonly, getter=isStreamSetupInProgress) _Bool streamSetupInProgress; // @synthesize streamSetupInProgress=_streamSetupInProgress;
-@property(readonly) Class superclass;
 
 @end
 

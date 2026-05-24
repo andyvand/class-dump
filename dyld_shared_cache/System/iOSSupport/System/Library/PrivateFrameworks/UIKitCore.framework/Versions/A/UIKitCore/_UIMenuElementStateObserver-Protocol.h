@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIMenuElement;
+@protocol _UIMenuStateObserverableLeaf;
+
 @protocol _UIMenuElementStateObserver
+- (void)cordID;
+- (void)trackSpamEvent:(UIMenuElement<_UIMenuStateObserverableLeaf> *)arg1;
 @end
 

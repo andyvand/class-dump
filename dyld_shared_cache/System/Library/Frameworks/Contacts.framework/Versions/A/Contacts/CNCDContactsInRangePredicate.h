@@ -6,8 +6,6 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNCDContactsInRangePredicate : CNPredicate
 {
@@ -17,20 +15,13 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (id);
 - (id);
+- (id)N3ctu8LoggableI15SipTcpTransportNS_11OsLogLoggerEEE;
 - (id);
-- (id);
-- (struct _NSRange);
+- (struct _NSRange)fetchOperationServiceForProviderDomainID:handler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(readonly) Class superclass;
 
 @end
 

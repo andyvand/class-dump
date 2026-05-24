@@ -6,69 +6,29 @@
 
 #import <UIKitCore/UICollectionViewLayout.h>
 
-@class NSIndexPath, NSMutableArray, NSMutableSet, NSSet, NSString, UIColor, UIScrollView, UISwipeActionController, UITableMetricsAdapter, UITableViewRowData, UIView, UIVisualEffect;
-@protocol UICollectionViewDataSourceTableLayout, UICollectionViewDelegateTableLayout, UITableConstants;
+@class NSSet;
+@protocol UITableConstants;
 
 @interface UICollectionViewTableLayout : UICollectionViewLayout
 {
     NSSet *_floatingElementKinds;
-    UIColor *_separatorColor;
-    UIColor *_darkenedSeparatorColor;
-    struct UIEdgeInsets _sectionContentInset;
-    struct UIEdgeInsets _previousLayoutMargins;
-    NSMutableArray *_indexPathCache;
-    NSMutableSet *_preferredAttributesCache;
-    NSMutableSet *_headerPreferredAttributesCache;
-    NSMutableSet *_footerPreferredAttributesCache;
-    double _memoizedScale;
-    _Bool _sectionHeadersHugContent;
-    _Bool _usesVariableMargins;
-    _Bool _overlapsSectionHeaderViews;
-    _Bool _showingIndex;
-    _Bool _cellLayoutMarginsFollowReadableWidth;
-    _Bool _insetsContentViewsToSafeArea;
-    _Bool _separatorInsetIsRelativeToCellEdges;
-    _Bool _showsAdditionalSeparators;
-    double _rowHeight;
-    double _sectionHeaderHeight;
-    double _sectionFooterHeight;
-    double _estimatedRowHeight;
-    double _estimatedSectionHeaderHeight;
-    double _estimatedSectionFooterHeight;
-    double _backgroundInset;
-    double _topPadding;
-    double _bottomPadding;
-    UIColor *_accessoryBaseColor;
-    UIColor *_multiselectCheckmarkColor;
-    id <UITableConstants> _constants;
-    UITableMetricsAdapter *_metricsAdapter;
-    double _rowSpacing;
-    long long _separatorStyle;
-    UIVisualEffect *_separatorEffect;
-    UITableViewRowData *_rowData;
-    NSMutableArray *_deleteIndexPaths;
-    NSMutableArray *_insertIndexPaths;
-    UISwipeActionController *_swipeActionController;
-    NSIndexPath *_deletedIndexPath;
-    struct CGRect _indexFrame;
-    struct UIEdgeInsets _separatorInset;
 }
 
 + (Class);
-+ (Class)ityUserInputLabelsBlock;
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
++ (Class)accessibilityUserInputLabelsBlock;
+- (id)or replication based on loginID %@ canonicalLoginID %@;
+- (void)ferred replication account for %@ from %@;
+- (void)o zero, disabling;
+- (void)for %d of %lu chats;
+- (void)missed chat, no existing chat found with GUID %@;
+- (void)is not enabled or trying to verify on a group chat -- bailing verifying record ids;
+- (void)f moment share fetch after %{public}@ seconds;
+- (void)for message %@;
+- (void)Message via CT;
+- (void)ssagePipelineParameter> Unhandled BlastDoorTextMessageMessageType:(CDUnknownBlockType)arg1 %ld;
+- (_Bool)ata.db;
+- (id)EmojiParseResult;
+- (id)IMDPersistentTaskNotifier;
 - (id);
 - (id);
 - (id);
@@ -76,9 +36,9 @@
 - (_Bool);
 - (_Bool);
 - (double);
+- (id)A;
 - (id);
-- (id);
-- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (id);
@@ -140,7 +100,7 @@
 - (double);
 - (long long);
 - (double);
-- (double);
+- (double)�;
 - (double);
 - (double);
 - (double);
@@ -155,7 +115,7 @@
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (double);
 - (double);
 - (double);
@@ -168,12 +128,12 @@
 - (id);
 - (void);
 - (struct CGPoint);
-- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (void);
 - (_Bool);
 - (double);
-- (double);
+- (double);
 - (void);
 - (long long);
 - (id);
@@ -184,11 +144,11 @@
 - (id);
 - (_Bool);
 - (long long);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (struct CGRect);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (double);
@@ -200,11 +160,11 @@
 - (double);
 - (double);
 - (_Bool);
-- (void);
+- (void)setShadowOpacity:(double)arg1;
 - (_Bool);
 - (void);
-- (_Bool);
-- (long long);
+- (_Bool)beginTransaction;
+- (long long)__MPModelPropertyAlbumLastDevicePlaybackDate__MAPPING_MISSING__;
 - (_Bool);
 - (id);
 - (id);
@@ -225,16 +185,16 @@
 × ;
 - (_Bool)!tEùqfð1Â0@ù
 × ;
-- (void)ing:(id)arg1 withString:(id)arg2;
-- (id)ewController:(id)arg1;
-- (id);
-- (double)etFixedTrailingGroup: /* Error: Ran out of types for this method. */;
-- (void)SuggestionsForWebBrowserView:(_Bool)arg1;
-- (id)wsAlternateIcons;
-- (void)entationControllerUserActivityForTearOff:(id)arg1;
-- (double)y: /* Error: Ran out of types for this method. */;
-- (void)berSpacing;
-- (long long)tView;
+- (void)stringByReplacingOccurrencesOfString:(id)arg1 withString:(id)arg2;
+- (id)splitViewController:(id)arg1 popoverController:willPresentViewController: /* Error: Ran out of types for this method. */;
+- (id)setHorizontalScrollIndicatorInsets:(struct CGRect)arg1;
+- (double)setFixedTrailingGroup: /* Error: Ran out of types for this method. */;
+- (void)hasCurrentSuggestionsForWebBrowserView:(_Bool)arg1;
+- (id)allowsAlternateIcons;
+- (void)_sheetPresentationControllerUserActivityForTearOff:(id)arg1;
+- (double)_ensureLayoutsConfiguredForEntry: /* Error: Ran out of types for this method. */;
+- (void)__grabberSpacing;
+- (long long)__actionContentView;
 - (double)ardItemContainerView",&,N,V_containerView;
 - (void)?,N,V_button;
 - (id),þøþ;
@@ -273,90 +233,7 @@ OÄÑ¨qOÑèªOdÑ8PxÑPvP<ÑDPLÑt¡PlÑÄ¦P
 - (long long)sÉzp;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_contentInset) struct UIEdgeInsets _contentInset;
-@property(readonly, nonatomic, getter=_sectionFooterContentInsets) struct UIEdgeInsets _sectionFooterContentInsets;
-@property(readonly, nonatomic, getter=_sectionHeaderContentInsets) struct UIEdgeInsets _sectionHeaderContentInsets;
-@property(nonatomic, setter=_setHeadersHugContent:) _Bool _sectionHeadersHugContent; // @synthesize _sectionHeadersHugContent;
-@property(readonly, nonatomic, getter=_accessoryBaseColor) UIColor *accessoryBaseColor; // @synthesize accessoryBaseColor=_accessoryBaseColor;
-@property(readonly, nonatomic) _Bool allowsMultipleSelection;
-@property(readonly, nonatomic) _Bool allowsMultipleSelectionDuringEditing;
-@property(copy, nonatomic) UIColor *backgroundColor;
-@property(readonly, nonatomic, getter=_backgroundInset) double backgroundInset; // @synthesize backgroundInset=_backgroundInset;
-@property(readonly, nonatomic, getter=_bottomPadding) double bottomPadding; // @synthesize bottomPadding=_bottomPadding;
-@property(readonly, nonatomic) _Bool canBeEdited;
-@property(nonatomic) _Bool cellLayoutMarginsFollowReadableWidth; // @synthesize cellLayoutMarginsFollowReadableWidth=_cellLayoutMarginsFollowReadableWidth;
-@property(readonly, nonatomic, getter=_cellSafeAreaInsets) struct UIEdgeInsets cellSafeAreaInsets;
 @property(retain, nonatomic, getter=_constants) id <UITableConstants> constants; // @synthesize constants=_constants;
-@property(readonly, nonatomic, getter=_dataSourceActual) id <UICollectionViewDataSourceTableLayout> dataSourceActual;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic, getter=_defaultSectionFooterHeight) double defaultSectionFooterHeight;
-@property(readonly, nonatomic, getter=_defaultSectionHeaderHeight) double defaultSectionHeaderHeight;
-@property(readonly, nonatomic, getter=_delegateActual) id <UICollectionViewDelegateTableLayout> delegateActual;
-@property(readonly, nonatomic, getter=_delegateProxy) id <UICollectionViewDelegateTableLayout> delegateProxy;
-@property(retain, nonatomic) NSMutableArray *deleteIndexPaths; // @synthesize deleteIndexPaths=_deleteIndexPaths;
-@property(retain, nonatomic) NSIndexPath *deletedIndexPath; // @synthesize deletedIndexPath=_deletedIndexPath;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEditing) _Bool editing;
-@property(nonatomic) double estimatedRowHeight; // @synthesize estimatedRowHeight=_estimatedRowHeight;
-@property(nonatomic) double estimatedSectionFooterHeight; // @synthesize estimatedSectionFooterHeight=_estimatedSectionFooterHeight;
-@property(nonatomic) double estimatedSectionHeaderHeight; // @synthesize estimatedSectionHeaderHeight=_estimatedSectionHeaderHeight;
-@property(readonly, nonatomic, getter=_estimatesHeights) _Bool estimatesHeights;
-@property(readonly, nonatomic, getter=_estimatesRowHeights) _Bool estimatesRowHeights;
-@property(readonly, nonatomic, getter=_estimatesSectionFooterHeights) _Bool estimatesSectionFooterHeights;
-@property(readonly, nonatomic, getter=_estimatesSectionHeaderHeights) _Bool estimatesSectionHeaderHeights;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=_headerFooterPinningBehavior) long long headerFooterPinningBehavior;
-@property(readonly, nonatomic, getter=_headerFooterTrailingMarginWidth) double headerFooterTrailingMarginWidth;
-@property(readonly, nonatomic, getter=_heightForTableFooter) double heightForTableFooter;
-@property(readonly, nonatomic, getter=_heightForTableHeader) double heightForTableHeader;
-@property(readonly, nonatomic, getter=_indexBarExtentFromEdge) double indexBarExtentFromEdge;
-@property(readonly, nonatomic, getter=_indexFrame) struct CGRect indexFrame; // @synthesize indexFrame=_indexFrame;
-@property(retain, nonatomic) NSMutableArray *insertIndexPaths; // @synthesize insertIndexPaths=_insertIndexPaths;
-@property(nonatomic) _Bool insetsContentViewsToSafeArea; // @synthesize insetsContentViewsToSafeArea=_insetsContentViewsToSafeArea;
-@property(readonly, nonatomic, getter=_isTableHeaderAutohiding) _Bool isTableHeaderAutohiding;
-@property(readonly, nonatomic, getter=_metricsAdapter) UITableMetricsAdapter *metricsAdapter; // @synthesize metricsAdapter=_metricsAdapter;
-@property(readonly, nonatomic, getter=_multiselectCheckmarkColor) UIColor *multiselectCheckmarkColor; // @synthesize multiselectCheckmarkColor=_multiselectCheckmarkColor;
-@property(readonly, nonatomic, getter=_numberOfSections) long long numberOfSections;
-@property(readonly, nonatomic) _Bool overlapsSectionHeaderViews; // @synthesize overlapsSectionHeaderViews=_overlapsSectionHeaderViews;
-@property(readonly, nonatomic, getter=_paddingAboveFirstSectionHeader) double paddingAboveFirstSectionHeader;
-@property(readonly, nonatomic, getter=_paddingAboveSectionHeaders) double paddingAboveSectionHeaders;
-@property(readonly, nonatomic, getter=_providesRowHeights) _Bool providesRowHeights;
-@property(readonly, nonatomic, getter=_rawSectionContentInset) struct UIEdgeInsets rawSectionContentInset;
-@property(readonly, nonatomic, getter=_rawSeparatorInset) struct UIEdgeInsets rawSeparatorInset;
-@property(retain, nonatomic) UITableViewRowData *rowData; // @synthesize rowData=_rowData;
-@property(nonatomic) double rowHeight; // @synthesize rowHeight=_rowHeight;
-@property(readonly, nonatomic, getter=_rowSpacing) double rowSpacing; // @synthesize rowSpacing=_rowSpacing;
-@property(readonly, nonatomic, getter=_scrollView) UIScrollView *scrollView;
-@property(readonly, nonatomic, getter=_sectionContentInset) struct UIEdgeInsets sectionContentInset;
-@property(readonly, nonatomic, getter=_sectionContentInsetFollowsLayoutMargins) _Bool sectionContentInsetFollowsLayoutMargins;
-@property(readonly, nonatomic, getter=_sectionCornerRadius) double sectionCornerRadius;
-@property(nonatomic) double sectionFooterHeight; // @synthesize sectionFooterHeight=_sectionFooterHeight;
-@property(readonly, nonatomic, getter=_sectionFooterToLastRowPadding) double sectionFooterToLastRowPadding;
-@property(nonatomic) double sectionHeaderHeight; // @synthesize sectionHeaderHeight=_sectionHeaderHeight;
-@property(readonly, nonatomic, getter=_sectionHeaderToFirstRowPadding) double sectionHeaderToFirstRowPadding;
-@property(copy, nonatomic) UIColor *separatorColor;
-@property(retain, nonatomic) UIVisualEffect *separatorEffect; // @synthesize separatorEffect=_separatorEffect;
-@property(nonatomic) struct UIEdgeInsets separatorInset; // @synthesize separatorInset=_separatorInset;
-@property(nonatomic) _Bool separatorInsetIsRelativeToCellEdges; // @synthesize separatorInsetIsRelativeToCellEdges=_separatorInsetIsRelativeToCellEdges;
-@property(nonatomic) long long separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly, nonatomic, getter=_shouldUseNewHeaderFooterBehavior) _Bool shouldUseNewHeaderFooterBehavior;
-@property(readonly, nonatomic, getter=_shouldUseSearchBarHeaderBehavior) _Bool shouldUseSearchBarHeaderBehavior;
-@property(readonly, nonatomic, getter=_isShowingIndex) _Bool showingIndex; // @synthesize showingIndex=_showingIndex;
-@property(nonatomic, getter=_showsAdditionalSeparators, setter=_setShowsAdditionalSeparators:) _Bool showsAdditionalSeparators; // @synthesize showsAdditionalSeparators=_showsAdditionalSeparators;
-@property(readonly, nonatomic, getter=_sidePadding) double sidePadding;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=_supplementariesFollowSectionContentInsets) _Bool supplementariesFollowSectionContentInsets;
-@property(readonly, nonatomic, getter=_supplementarySectionHeadersHugContent) _Bool supplementarySectionHeadersHugContent;
-@property(retain, nonatomic, getter=_swipeActionController, setter=_setSwipeActionController:) UISwipeActionController *swipeActionController; // @synthesize swipeActionController=_swipeActionController;
-@property(readonly, nonatomic, getter=_tableContentInset) struct UIEdgeInsets tableContentInset;
-@property(readonly, nonatomic, getter=_tableFooterView) UIView *tableFooterView;
-@property(readonly, nonatomic, getter=_tableHeaderView) UIView *tableHeaderView;
-@property(readonly, nonatomic, getter=_tableStyle) long long tableStyle;
-@property(readonly, nonatomic, getter=_topPadding) double topPadding; // @synthesize topPadding=_topPadding;
-@property(readonly, nonatomic) _Bool usesVariableMargins; // @synthesize usesVariableMargins=_usesVariableMargins;
 
 @end
 

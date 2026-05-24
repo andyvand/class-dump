@@ -11,17 +11,16 @@
 @interface WFAppleScriptSafariWebPage : WFSafariWebPage
 {
     NSData *_selectionHTML;
-    NSAppleEventDescriptor *_specifier;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

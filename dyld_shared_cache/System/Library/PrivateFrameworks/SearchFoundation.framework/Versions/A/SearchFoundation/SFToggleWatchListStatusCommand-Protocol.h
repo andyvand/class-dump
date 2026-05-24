@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFWatchListItem;
+@class SFWatchListItem;
 
 @protocol SFToggleWatchListStatusCommand
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool shouldAddToWatchList;
 @property(retain, nonatomic) SFWatchListItem *watchListItem;
 @end
 

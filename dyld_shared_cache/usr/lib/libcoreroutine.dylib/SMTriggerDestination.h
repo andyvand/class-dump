@@ -4,56 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSMutableArray, NSMutableDictionary, NSObject, NSString, RTDataProtectionManager, RTDefaultsManager, RTDistanceCalculator, RTLocationManager, RTMotionActivityManager, RTPlatform, RTTimerManager, SMSessionConfiguration, SMSessionMetricManager, SMSessionStore, SMTriggerDestinationState;
+@class NSObject;
 @protocol OS_dispatch_queue, SMTriggerManagerProtocol;
 
 @interface SMTriggerDestination
 {
     id <SMTriggerManagerProtocol> sessionMonitorDelegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTDefaultsManager *_defaultsManager;
-    RTDataProtectionManager *_dataProtectionManager;
-    RTLocationManager *_locationManager;
-    RTMotionActivityManager *_motionActivityManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTPlatform *_platform;
-    SMSessionStore *_sessionStore;
-    SMTriggerDestinationState *_triggerState;
-    CLLocation *_originLocation;
-    RTTimerManager *_timerManager;
-    SMSessionMetricManager *_sessionMetricManager;
-    NSMutableDictionary *_timerIdentifierToTimers;
-    unsigned long long _triggerCategory;
-    NSMutableArray *_cachedLocationEvents;
-    SMSessionConfiguration *_sessionConfiguration;
-    double _idleTimeoutThreshold;
-    double _noProgressTimeoutThreshold;
-    NSDate *_coarseEta;
-    double _etaScaleFactor;
-    double _minDistanceUpdateThreshold;
-    double _destinationStatusUpdateTimeInterval;
-    double _significantMoveThreshold;
-    double _idleMaxDistanceThreshold;
 }
 
 + (id);
 + (void);
 + (double);
 + (void);
-+ (id);
-+ (id);
-+ (void);
-+ (double);
-+ (void);
-+ (double);
-+ (id);
-+ (unsigned long long);
-+ (void);
-+ (void);
++ (id)shareePublicKeyData;
++ (id)__PCSDeleteDBRRecord;
++ (void)cryptedData too short (length %u);
++ (double)n;
++ (void)OTEnableWalrus;
++ (double)ings walrus state to %d:(unsigned long long)arg1 %@;
++ (id)missing/lost escrow data, will attempt to restore.;
++ (unsigned long long)hain doesn't match!;
++ (void)PCSSPKeyList;
++ (void)CreateWithExported need an identity;
 + (id);
 + (void);
 + (_Bool);
-- (id);
+- (id)U;
 - (void);
 - (void);
 - (double);
@@ -72,10 +48,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)(9@;
 - (void);
 - (double);
 - (void);
@@ -90,7 +66,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -100,10 +76,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)__AUTH_CONST;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)__gcc_except_tab__TEXT;
 - (void);
 - (void);
 - (unsigned long long);
@@ -114,32 +90,32 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)t=}16@0:(id)arg1 8;
+- (void)updateWatch;
+- (id)removeDependency: /* Error: Ran out of types for this method. */;
+- (void)remoteObjectProxyWithErrorHandler:(id)arg1;
+- (void)queryMissingKeys;
+- (unsigned long long)getConfigData: /* Error: Ran out of types for this method. */;
+- (void)dataWithBytes:length: /* Error: Ran out of types for this method. */;
+- (void)setOldMetadata: /* Error: Ran out of types for this method. */;
+- (unsigned long long)reTestsEnabled;
+- (id);
+- (void);
+- (void)setWildcardSubscription:(id)arg1;
+- (void);
+- (void);
+- (void)od connection with id 0x%x;
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)s;
 - (id);
 - (id);
 - (void);
@@ -147,46 +123,12 @@
 - (id);
 - (void);
 - (id)ì;
-- (void)cificPlaceType;
+- (void)userSpecificPlaceType;
 - (id);
 - (void)cations.;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *cachedLocationEvents; // @synthesize cachedLocationEvents=_cachedLocationEvents;
-@property(retain, nonatomic) NSDate *coarseEta; // @synthesize coarseEta=_coarseEta;
-@property(retain, nonatomic) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double destinationStatusUpdateTimeInterval; // @synthesize destinationStatusUpdateTimeInterval=_destinationStatusUpdateTimeInterval;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(nonatomic) double etaScaleFactor; // @synthesize etaScaleFactor=_etaScaleFactor;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double idleMaxDistanceThreshold; // @synthesize idleMaxDistanceThreshold=_idleMaxDistanceThreshold;
-@property(nonatomic) double idleTimeoutThreshold; // @synthesize idleTimeoutThreshold=_idleTimeoutThreshold;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(nonatomic) double minDistanceUpdateThreshold; // @synthesize minDistanceUpdateThreshold=_minDistanceUpdateThreshold;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(nonatomic) double noProgressTimeoutThreshold; // @synthesize noProgressTimeoutThreshold=_noProgressTimeoutThreshold;
-@property(retain, nonatomic) CLLocation *originLocation; // @synthesize originLocation=_originLocation;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) SMSessionConfiguration *sessionConfiguration; // @synthesize sessionConfiguration=_sessionConfiguration;
-@property(retain, nonatomic) SMSessionMetricManager *sessionMetricManager; // @synthesize sessionMetricManager=_sessionMetricManager;
-@property(nonatomic) __weak id <SMTriggerManagerProtocol> sessionMonitorDelegate; // @synthesize sessionMonitorDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SMTriggerManagerProtocol>",?,W,N,VsessionMonitorDelegate
-
-@property(retain, nonatomic) SMSessionStore *sessionStore; // @synthesize sessionStore=_sessionStore;
-@property(nonatomic) double significantMoveThreshold; // @synthesize significantMoveThreshold=_significantMoveThreshold;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableDictionary *timerIdentifierToTimers; // @synthesize timerIdentifierToTimers=_timerIdentifierToTimers;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(nonatomic) unsigned long long triggerCategory; // @synthesize triggerCategory=_triggerCategory;
-@property(retain, nonatomic) SMTriggerDestinationState *triggerState; // @synthesize triggerState=_triggerState;
 
 @end
 

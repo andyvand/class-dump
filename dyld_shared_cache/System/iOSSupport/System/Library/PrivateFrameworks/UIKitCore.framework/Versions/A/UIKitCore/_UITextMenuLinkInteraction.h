@@ -6,17 +6,15 @@
 
 #import <UIKitCore/_UITextSimpleLinkInteraction.h>
 
-@class NSMapTable, NSString, UIEditMenuInteraction;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface _UITextMenuLinkInteraction : _UITextSimpleLinkInteraction
 {
     NSMapTable *_configurationItems;
-    UIEditMenuInteraction *_editMenuInteraction;
-    _Bool _isModifyingSelectionForLinkPresentation;
 }
 
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (void);
@@ -30,9 +28,9 @@ __attribute__((visibility("hidden")))
 - (id)ble);
 - (void)!= nil;
 - (void);
-- (void)Sg;
-- (void)TrackingSessionCSg;
-- (void)wCSg;
+- (void)So29_UITabBarContentLayoutManagerCSg;
+- (void)So33UISwitchMVEGestureTrackingSessionCSg;
+- (void)So11UIImageViewCSg;
 - (id)®Gáz®ã?Zd;ßOï?¼tVÖ?`åÐ"Ûù¾?Ñ"Ûù~jÔ?ÙÎ÷Sã¥ë?Év¾/­?Zd;ßO·?PnÀ?=
 ×£p=î?¢E¶óýÔØ?Clçûé?®GázÖ?#Ûù~j¼è?¾/Ý$Þ?¢E¶óýÔÐ?é&1¬Ú?7A`åÐÒ?¬Zd;ï?¬Zd;ë?7A`åÐâ?;
 - (_Bool);
@@ -45,13 +43,7 @@ __attribute__((visibility("hidden")))
 - (id)ðJ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

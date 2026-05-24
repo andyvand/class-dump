@@ -6,5 +6,6 @@
 
 @protocol BSServiceConnectionEndpointInjectorConfiguring
 - (void);
+- (void)h;
 @end
 

@@ -6,20 +6,18 @@
 
 #import <OfficeImport/ESDObject.h>
 
-@class CHDChart, NSData;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface EBEscherShape : ESDObject
 {
     NSData *mChartData;
-    _Bool mShowLegend;
-    CHDChart *mChart;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)\;
 - (void);
 - (id);
 - (void);

@@ -6,27 +6,25 @@
 
 #import <Foundation/NSURLHandle.h>
 
-@class NSDictionary, NSFileHandle, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSFileURLHandle : NSURLHandle
 {
     NSString *_path;
-    NSFileHandle *_fh;
-    NSDictionary *_properties;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)a;
 + (void);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id)reated from an endpoint;
 - (_Bool);

@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSEnumerator;
 
 @protocol HMFAssociativeCollection
+- (void);
+- (NSArray *);
+- (NSEnumerator *);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allKeys;
-@property(readonly, copy) NSArray *allValues;
 @property(readonly) unsigned long long count;
 @end
 

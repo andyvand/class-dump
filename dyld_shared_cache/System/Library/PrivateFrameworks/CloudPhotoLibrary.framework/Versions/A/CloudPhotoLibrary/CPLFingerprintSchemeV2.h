@@ -6,7 +6,7 @@
 
 #import <CloudPhotoLibrary/CPLFingerprintScheme.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CPLFingerprintSchemeV2 : CPLFingerprintScheme
 {
@@ -16,17 +16,16 @@
 - (_Bool);
 - (void **);
 - (_Bool);
+- (id)SEARCH_APP_STORE;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)h;
+- (id);
 - (id);
 - (void)Â°!,DùñÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *boundaryKey; // @synthesize boundaryKey=_boundaryKey;
-@property(readonly, nonatomic) NSString *boundaryKeyDescription;
 
 @end
 

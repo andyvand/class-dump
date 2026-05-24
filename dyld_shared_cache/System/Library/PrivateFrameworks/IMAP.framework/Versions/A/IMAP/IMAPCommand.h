@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSString;
-
 @interface IMAPCommand
 {
     long long _completionState;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
+- (id)b;
 - (_Bool);
 - (id);
 - (void);
@@ -27,22 +25,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)k!;
 - (long long);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *activityString;
 @property(readonly) _Bool alwaysAllowToComplete;
-@property(readonly) _Bool completedSuccessfully;
-@property long long completionState; // @synthesize completionState=_completionState;
-@property(readonly) long long composition;
-@property(readonly, copy) NSString *detailsString;
-@property(readonly) long long maxAllowedConnectionState;
-@property(readonly) long long minRequiredConnectionState;
-@property(readonly, copy, nonatomic) NSString *shallowDescription;
-@property(readonly) _Bool shouldSendAgainOnError;
-@property(readonly, copy, nonatomic) NSMutableString *simpleDescriptionString;
 
 @end
 

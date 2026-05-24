@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PKPeerPaymentAddress;
+@class PKPeerPaymentAddress;
 
 @interface PKPeerPaymentUserInfo
 {
     PKPeerPaymentAddress *_billingAddress;
-    NSDate *_lastUpdated;
-    double _proactiveFetchPeriod;
 }
 
 + (id);
@@ -19,24 +17,22 @@
 - (void);
 - (double);
 - (_Bool);
+- (id)b;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)anPreempted"b1};
+- (void)rSuccessCellFirstParty;
 - (id);
 - (id);
 - (void)1ï%°1Â0@ù
 × ;
 - (id)hantRawCANL:(id)arg1 merchantRawCity:merchantRawState:merchantRawCountry:merchantCity:merchantZip:merchantState:merchantCleanConfidenceLevel:rewardsAmount:rewardsCurrency:rewardsEligibilityReason:adamIdentifier:webURL:webMerchantIdentifier:webMerchantName:isIssuerInstallmentTransaction:issuerInstallmentManagementURL: /* Error: Ran out of types for this method. */;
-- (void)quiredDeviceMetadataFields;
+- (void)requiredDeviceMetadataFields;
 
 // Remaining properties
 @property(copy, nonatomic) PKPeerPaymentAddress *billingAddress; // @synthesize billingAddress=_billingAddress;
-@property(copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(nonatomic) double proactiveFetchPeriod; // @synthesize proactiveFetchPeriod=_proactiveFetchPeriod;
 
 @end
 

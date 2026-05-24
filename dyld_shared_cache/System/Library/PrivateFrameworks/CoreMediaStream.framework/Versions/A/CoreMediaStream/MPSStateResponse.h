@@ -7,56 +7,41 @@
 @interface MPSStateResponse
 {
     long long _retryAfterSeconds;
-    long long _version;
-    int _icplAction;
-    int _mpsAction;
-    struct {
-        unsigned int retryAfterSeconds:1;
-        unsigned int version:1;
-        unsigned int icplAction:1;
-        unsigned int mpsAction:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (id);
-- (int);
-- (_Bool);
-- (_Bool);
-- (int);
-- (int);
+- (void)ting <%{public}@> as %{public}@, migrated relationships:(int)arg1 %{public}@;
+- (void)] The interrupt value contains valid accessory Request To Send (0x%x);
+- (void)terrupt] The interrupt value does not contain any Request To Send (0x%x);
+- (void)arsed (error=%@);
+- (id)@Setting destination:(int)arg1 %@;
+- (int)r aggregator;
+- (id)urned with error:(int)arg1 %@;
+- (int)ring for all events returned with error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)n topic:%@ resulted in error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ory:%@ /* Error: Ran out of types for this method. */;
+- (int)@Dedicated ResidentStatusChannel already stopped;
+- (int)hannel publish manager;
 - (long long);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)p;
 - (void);
-- (_Bool);
+- (_Bool)<}
+�M;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIcplAction;
-@property(nonatomic) _Bool hasMpsAction;
 @property(nonatomic) _Bool hasRetryAfterSeconds;
-@property(nonatomic) _Bool hasVersion;
-@property(nonatomic) int icplAction; // @synthesize icplAction=_icplAction;
-@property(nonatomic) int mpsAction; // @synthesize mpsAction=_mpsAction;
-@property(nonatomic) long long retryAfterSeconds; // @synthesize retryAfterSeconds=_retryAfterSeconds;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

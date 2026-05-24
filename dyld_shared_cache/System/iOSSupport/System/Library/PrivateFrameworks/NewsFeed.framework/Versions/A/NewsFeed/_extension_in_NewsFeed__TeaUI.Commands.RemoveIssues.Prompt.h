@@ -7,8 +7,6 @@
 @interface (extension in NewsFeed):TeaUI.Commands.RemoveIssues.Prompt
 {
     id issues;
-    id actions;
-    id completion;
 }
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 @interface TSUDateFormatCategoryEntry
 {
     unsigned short mSeparator;
-    struct __CFArray *mFormatters;
-    NSMutableSet *mFormatStrings;
 }
 
-- (struct __CFDate *);
+- (struct __CFDate *)=;
 - (id);
 - (void);
 - (void);

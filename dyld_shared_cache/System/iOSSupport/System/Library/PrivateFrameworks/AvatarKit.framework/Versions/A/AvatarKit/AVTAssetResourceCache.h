@@ -10,16 +10,15 @@ __attribute__((visibility("hidden")))
 @interface AVTAssetResourceCache
 {
     NSMapTable *_resources;
-    unsigned long long _policy;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)Y;
 
 // Remaining properties
 @property(nonatomic) unsigned long long policy; // @synthesize policy=_policy;

@@ -5,5 +5,6 @@
 //
 
 @protocol MKRemoteUIPlaceCardSizingExtensionInterface
+- (void)BackgroundProcessing:(double)arg1:(void (^)(struct CGSize))arg2 TaskInstanceData;
 @end
 

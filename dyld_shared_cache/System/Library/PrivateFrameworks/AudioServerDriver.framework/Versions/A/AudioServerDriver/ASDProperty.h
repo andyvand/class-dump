@@ -9,14 +9,13 @@
 @interface ASDProperty
 {
     ASDPropertyAddress *_address;
-    id _value;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)PLIDSStatusChangedNotification;
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ASDPropertyAddress *address; // @synthesize address=_address;
-@property(retain, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

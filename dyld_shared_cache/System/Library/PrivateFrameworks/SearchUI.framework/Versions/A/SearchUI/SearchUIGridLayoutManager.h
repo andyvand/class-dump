@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, TLKGridLayoutManager;
+@class NSMapTable;
 
 @interface SearchUIGridLayoutManager
 {
     _Bool _isCompactTable;
-    TLKGridLayoutManager *_gridManager;
-    NSMapTable *_tableMapping;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);
@@ -29,8 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) TLKGridLayoutManager *gridManager; // @synthesize gridManager=_gridManager;
-@property(nonatomic) _Bool isCompactTable; // @synthesize isCompactTable=_isCompactTable;
 @property(retain, nonatomic) NSMapTable *tableMapping; // @synthesize tableMapping=_tableMapping;
 
 @end

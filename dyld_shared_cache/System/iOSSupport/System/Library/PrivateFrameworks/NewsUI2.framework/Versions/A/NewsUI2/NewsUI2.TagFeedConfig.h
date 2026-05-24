@@ -7,10 +7,6 @@
 @interface NewsUI2.TagFeedConfig
 {
     id publishDate;
-    id placements;
-    id background;
-    id theme;
-    id metadata;
 }
 
 @end

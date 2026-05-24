@@ -6,17 +6,9 @@
 
 #import <MetalTools/MTLToolsBuffer.h>
 
-@class NSString;
-@protocol MTLBuffer, MTLDevice, MTLHeap;
-
 @interface MTLGPUDebugBuffer : MTLToolsBuffer
 {
     unsigned long long _bufferIndex;
-    unsigned long long _offset;
-    unsigned long long _length;
-    unsigned long long _bufferEndAddress;
-    void *_descriptorHeap;
-    unordered_set_c419ef69 _activeViews;
 }
 
 - (void);
@@ -34,11 +26,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unordered_set_c419ef69);
+- (unordered_set_a92c6a78);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -49,34 +41,7 @@
 - (unsigned long long)fer length](%lu).;
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long allocationID;
-@property(retain, nonatomic) id <MTLBuffer> baseObject; // @dynamic baseObject;
-@property(nonatomic) unsigned long long bufferEndAddress; // @synthesize bufferEndAddress=_bufferEndAddress;
-@property(nonatomic) unsigned long long bufferIndex;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
-@property(readonly, nonatomic) _Bool isTracked;
-@property(copy) NSString *label;
-@property(readonly, nonatomic) unsigned long long length;
 @property(readonly, nonatomic) unsigned long long offset;
-@property(readonly) unsigned long long protectionOptions;
-@property(readonly) unsigned long long resourceOptions;
-@property int responsibleProcess;
-@property(readonly) unsigned long long storageMode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long underlyingGPUAddress;
-@property(readonly) unsigned long long unfilteredResourceOptions;
 
 @end
 

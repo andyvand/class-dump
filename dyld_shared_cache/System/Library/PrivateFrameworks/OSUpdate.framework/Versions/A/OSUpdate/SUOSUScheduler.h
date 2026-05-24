@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SUOSUAppQuitObserver, SUOSULaterObserver, SUOSULogoutObserver, SUOSUPowerEventObserver, SUOSUTonightObserver;
-@protocol SUOSULaterDelegate;
+@class SUOSUTonightObserver;
 
 @interface SUOSUScheduler
 {
     unsigned long long _mode;
-    SUOSULaterObserver *_armedObserver;
-    SUOSUTonightObserver *_tonightObserver;
-    SUOSUPowerEventObserver *_powerEventObserver;
-    SUOSUAppQuitObserver *_appQuitObserver;
-    SUOSULogoutObserver *_logoutObserver;
-    id <SUOSULaterDelegate> _delegate;
 }
 
 - (void);
@@ -40,19 +33,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)ks/ImageIO.framework/Versions/A/ImageIO;
 - (void);
 - (void);
-- (id);
+- (id)lal;
 - (void);
 
 // Remaining properties
-@property(retain) SUOSUAppQuitObserver *appQuitObserver; // @synthesize appQuitObserver=_appQuitObserver;
-@property(retain) SUOSULaterObserver *armedObserver; // @synthesize armedObserver=_armedObserver;
-@property(retain) id <SUOSULaterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) SUOSULogoutObserver *logoutObserver; // @synthesize logoutObserver=_logoutObserver;
-@property unsigned long long mode; // @synthesize mode=_mode;
-@property(retain) SUOSUPowerEventObserver *powerEventObserver; // @synthesize powerEventObserver=_powerEventObserver;
 @property(retain) SUOSUTonightObserver *tonightObserver; // @synthesize tonightObserver=_tonightObserver;
 
 @end

@@ -18,9 +18,9 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (id)mitResultsOnceWithCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)sSeedAllowlist;
+- (_Bool)postProcessingPhaseProportion;
+- (id)commitResultsOnceWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)analyticsEventNamesSeedAllowlist;
 
 // Remaining properties
 @property(readonly, nonatomic) FCPrivateChannelMembershipController *privateChannelMembershipController; // @synthesize privateChannelMembershipController=_privateChannelMembershipController;

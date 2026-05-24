@@ -8,11 +8,11 @@
 {
 }
 
-+ (id);
-+ (id)pÿÿÐ&ñsÒ0ÁÚâª¨#;
-+ (id)ª£ß;
 + (id);
-+ (_Bool);
++ (id);
++ (id);
++ (id)%@%s;
++ (_Bool)%@ but synchronization is disabled because of:(id)arg1 %@;
 
 @end
 

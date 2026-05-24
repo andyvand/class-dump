@@ -15,8 +15,8 @@
 
 + (id);
 - (struct CLLocationCoordinate2D);
-- (double);
-- (double);
+- (double)((;
+- (double);
 - (id);
 - (double);
 - (double);
@@ -35,11 +35,11 @@
 - (double);
 - (_Bool);
 - (double);
-- (double)nitWithIdentifier:(struct CLLocationCoordinate2D *)arg1 apToModelMapping:(struct CLLocationCoordinate2D *)arg2 date:(id *)arg3 downloadKey:geoCacheInfo:geoTileKey:hashedApToModelMapping:hashedApToModelMappingDataURL:hashSalt:modelCalibrationParameters:models:modelURLs:pointsOfInterest:singlePOIMuid:size: /* Error: Ran out of types for this method. */;
-- (struct CLLocationCoordinate2D *)Handler:(struct CLLocationCoordinate2D *)arg1;
-- (id)erNotification:(struct CLLocationCoordinate2D *)arg1;
-- (double)r:(id)arg1;
-- (void)ion_others;
+- (double)initWithIdentifier:(struct CLLocationCoordinate2D *)arg1 apToModelMapping:(struct CLLocationCoordinate2D *)arg2 date:(id *)arg3 downloadKey:geoCacheInfo:geoTileKey:hashedApToModelMapping:hashedApToModelMappingDataURL:hashSalt:modelCalibrationParameters:models:modelURLs:pointsOfInterest:singlePOIMuid:size: /* Error: Ran out of types for this method. */;
+- (struct CLLocationCoordinate2D *)fetchBluePOIMetadataWithHandler:(struct CLLocationCoordinate2D *)arg1;
+- (id)_onPersistenceManagerNotification:(struct CLLocationCoordinate2D *)arg1;
+- (double)_extractBluePOIQueriesJSONDObjectBetweenStartDate:(id)arg1 endDate:(id)arg2 error:(id *)arg3;
+- (void)mean_daily_total_charging_duration_others;
 - (void)oding json object, %@;
 
 // Remaining properties

@@ -7,11 +7,10 @@
 @interface OBHeaderAccessoryButton
 {
     _Bool _displayInfoIcon;
-    _Bool _underlineLinks;
 }
 
-+ (id);
-+ (id);
++ (id)32@"NSPasteboard"48;
++ (id)@16@0:8 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool displayInfoIcon; // @synthesize displayInfoIcon=_displayInfoIcon;
 @property(nonatomic) _Bool underlineLinks; // @synthesize underlineLinks=_underlineLinks;
 
 @end

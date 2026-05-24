@@ -7,10 +7,9 @@
 @class NSData;
 
 @protocol ASAuthorizationPublicKeyCredentialAssertion
+- (NSData *)(;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *rawAuthenticatorData;
-@property(readonly, copy, nonatomic) NSData *signature;
-@property(readonly, copy, nonatomic) NSData *userID;
 @end
 

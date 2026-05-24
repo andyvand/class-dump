@@ -5,6 +5,7 @@
 //
 
 @protocol MTLIntersectionFunctionTable
+- (void);
 
 // Remaining properties
 @property(readonly) struct MTLResourceID gpuResourceID;

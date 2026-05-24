@@ -11,9 +11,9 @@
     BMSource *searchToolTranscriptSource;
 }
 
-- (void);
-- (id);
-- (void)itWithFeatureProviderArray: /* Error: Ran out of types for this method. */;
+- (void)@32@0:(id)arg1 8@"NSKeyedArchiver"16@24;
+- (id)B;
+- (void)initWithFeatureProviderArray: /* Error: Ran out of types for this method. */;
 
 @end
 

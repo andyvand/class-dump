@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, SXJSONDictionary;
+@class NSURL, SXJSONDictionary;
 
 @protocol SXWebContentComponent
+- (SXJSONDictionary *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) SXJSONDictionary *dataSourceReferences;
-@property(readonly, nonatomic) NSString *resourceIdentifier;
 @end
 

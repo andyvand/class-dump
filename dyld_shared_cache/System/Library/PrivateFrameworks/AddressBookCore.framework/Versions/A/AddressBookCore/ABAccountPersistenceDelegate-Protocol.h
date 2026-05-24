@@ -5,5 +5,6 @@
 //
 
 @protocol ABAccountPersistenceDelegate
+- (void);
 @end
 

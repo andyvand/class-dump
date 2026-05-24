@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface PNRODSchemaPNRODDimension : SISchemaInstrumentationMessage
 {
     long long _dimensionNameIndex;
-    NSString *_toolId;
-    NSString *_modelIdentifier;
-    long long _dimensionValueInteger;
-    double _dimensionValueFloat;
-    _Bool _dimensionValueBoolean;
-    struct {
-        unsigned int dimensionNameIndex:1;
-        unsigned int dimensionValueInteger:1;
-        unsigned int dimensionValueFloat:1;
-        unsigned int dimensionValueBoolean:1;
-    } _has;
-    _Bool _hasToolId;
-    _Bool _hasModelIdentifier;
 }
 
 - (id);
@@ -31,14 +16,14 @@
 - (void);
 - (void);
 - (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -60,29 +45,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ighlight dictionary since call start date %@ is before message date %@;
 - (id);
 - (id)0@ù
 × ;
-- (id)isFromSRRSearch;
+- (id)_isFromSRRSearch;
 - (id)V_hasOrchestratorResultsStatsReported;
-- (void)_SELECTION;
+- (void)ASREDITMETHOD_ALTERNATIVE_SELECTION;
 - (id)\=ÿ;
 
 // Remaining properties
 @property(nonatomic) long long dimensionNameIndex; // @synthesize dimensionNameIndex=_dimensionNameIndex;
-@property(nonatomic) _Bool dimensionValueBoolean; // @synthesize dimensionValueBoolean=_dimensionValueBoolean;
-@property(nonatomic) double dimensionValueFloat; // @synthesize dimensionValueFloat=_dimensionValueFloat;
-@property(nonatomic) long long dimensionValueInteger; // @synthesize dimensionValueInteger=_dimensionValueInteger;
-@property(nonatomic) _Bool hasDimensionNameIndex;
-@property(nonatomic) _Bool hasDimensionValueBoolean;
-@property(nonatomic) _Bool hasDimensionValueFloat;
-@property(nonatomic) _Bool hasDimensionValueInteger;
-@property(nonatomic) _Bool hasModelIdentifier; // @synthesize hasModelIdentifier=_hasModelIdentifier;
-@property(nonatomic) _Bool hasToolId; // @synthesize hasToolId=_hasToolId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(copy, nonatomic) NSString *toolId; // @synthesize toolId=_toolId;
 
 @end
 

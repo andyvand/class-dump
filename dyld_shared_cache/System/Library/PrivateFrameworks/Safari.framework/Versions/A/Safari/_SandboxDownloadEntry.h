@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSUUID, WBSDownloadFileUnarchiver;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface _SandboxDownloadEntry
 {
     _Bool _allowsOverwrite;
-    NSUUID *_identifier;
-    NSData *_downloadBundleBookmarkData;
-    NSString *_downloadFilename;
-    NSString *_suggestedFilename;
-    WBSDownloadFileUnarchiver *_unarchiver;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -33,25 +28,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)
 × ;
-- (id)tInfo;
+- (id)selectElementInfo;
 - (id)hê;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsOverwrite; // @synthesize allowsOverwrite=_allowsOverwrite;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSData *downloadBundleBookmarkData; // @synthesize downloadBundleBookmarkData=_downloadBundleBookmarkData;
-@property(copy, nonatomic) NSString *downloadFilename; // @synthesize downloadFilename=_downloadFilename;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *suggestedFilename; // @synthesize suggestedFilename=_suggestedFilename;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) WBSDownloadFileUnarchiver *unarchiver; // @synthesize unarchiver=_unarchiver;
 
 @end
 

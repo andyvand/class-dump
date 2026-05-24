@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIColor;
+
 @protocol UIInterfaceActionConcreteVisualStyleImpl
+- (UIColor *);
+
+@optional
+- (void)L;
+- (void)ing %s for client %s as it has insufficient capabilities %s, needs %s;
+- (double)ssage has warn state;
 @end
 

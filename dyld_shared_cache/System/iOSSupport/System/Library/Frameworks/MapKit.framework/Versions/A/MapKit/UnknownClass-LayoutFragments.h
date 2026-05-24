@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSTextLayoutFragment;
+@class NSArray;
 
 @interface UnknownClass (LayoutFragments)
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSTextLayoutFragment *_mk_lastLineSegment;
 @property(readonly, nonatomic) NSArray *_mk_layoutFragments;
-@property(readonly, nonatomic) NSArray *_mk_truncatedRanges;
 @end
 

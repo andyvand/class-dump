@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, PAImageConversionServiceClient, PAVideoConversionServiceClient;
+@class PAVideoConversionServiceClient;
 
 @interface PHMediaFormatConversionImplementation_MediaConversionService
 {
     PAVideoConversionServiceClient *_videoConversionServiceClient;
-    PAImageConversionServiceClient *_imageConversionServiceClient;
 }
 
-- (id);
+- (id)ij8;
 - (long long);
 - (id);
 - (id);
@@ -21,28 +20,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)stroyFuture;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)commute15MinWarningEntityRelevanceUserFocusModeFeatures;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) PAImageConversionServiceClient *imageConversionServiceClient; // @synthesize imageConversionServiceClient=_imageConversionServiceClient;
-@property(readonly) Class superclass;
-@property(readonly) long long transferBehaviorUserPreference;
-@property(readonly) NSSet *ut_objectsToBeDeallocatedWithReceiver;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
 @property(retain) PAVideoConversionServiceClient *videoConversionServiceClient; // @synthesize videoConversionServiceClient=_videoConversionServiceClient;
 
 @end

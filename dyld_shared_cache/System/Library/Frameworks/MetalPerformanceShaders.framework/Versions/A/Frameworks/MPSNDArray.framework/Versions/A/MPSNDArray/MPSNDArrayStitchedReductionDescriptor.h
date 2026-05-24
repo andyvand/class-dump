@@ -7,10 +7,6 @@
 @interface MPSNDArrayStitchedReductionDescriptor
 {
     unsigned long long _stateSize;
-    CDUnknownBlockType _invariantValueFn;
-    CDUnknownBlockType _mapFn;
-    CDUnknownBlockType _reduceFn;
-    CDUnknownBlockType _writeFn;
 }
 
 - (unsigned long long);
@@ -27,11 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDUnknownBlockType invariantValueFn; // @synthesize invariantValueFn=_invariantValueFn;
-@property(nonatomic) CDUnknownBlockType mapFn; // @synthesize mapFn=_mapFn;
-@property(nonatomic) CDUnknownBlockType reduceFn; // @synthesize reduceFn=_reduceFn;
 @property(nonatomic) unsigned long long stateSize; // @synthesize stateSize=_stateSize;
-@property(nonatomic) CDUnknownBlockType writeFn; // @synthesize writeFn=_writeFn;
 
 @end
 

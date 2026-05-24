@@ -9,7 +9,6 @@
 @interface PKImageGenerationController
 {
     _Bool _cachedShouldShowImageGenerationUI;
-    id <PKImageGenerationControllerDelegate> _delegate;
 }
 
 - (_Bool);
@@ -27,11 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <PKImageGenerationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isGenerationModelAvailable;
-@property(readonly, nonatomic) _Bool isGenerationToolEnabled;
-@property(readonly, nonatomic) _Bool isImageGenerationAllowed;
-@property(readonly, nonatomic) _Bool shouldAddMagicWand;
-@property(readonly, nonatomic) _Bool shouldShowImageGenerationUI;
 
 @end
 

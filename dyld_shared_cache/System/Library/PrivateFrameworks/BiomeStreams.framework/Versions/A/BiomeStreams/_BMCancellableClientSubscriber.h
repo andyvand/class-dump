@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMComputePublisherClient, NSString;
+@class BMComputePublisherClient;
 
 @interface _BMCancellableClientSubscriber
 {
     BMComputePublisherClient *_client;
-    NSString *_identifier;
 }
 
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) BMComputePublisherClient *client; // @synthesize client=_client;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

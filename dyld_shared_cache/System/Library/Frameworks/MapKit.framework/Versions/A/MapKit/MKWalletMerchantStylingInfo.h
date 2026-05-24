@@ -12,16 +12,16 @@
 }
 
 + (_Bool);
+- (id)createIdentifierForSubsystem:(double)arg1 category: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_name;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void)dditive: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)setAdditive: /* Error: Ran out of types for this method. */;
 
 @end
 

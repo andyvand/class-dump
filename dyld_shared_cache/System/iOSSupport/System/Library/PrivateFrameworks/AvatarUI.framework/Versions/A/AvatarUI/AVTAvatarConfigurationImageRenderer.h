@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTMemoji, AVTSnapshotBuilder, NSObject;
-@protocol AVTUILogger, OS_dispatch_queue;
+@class AVTMemoji;
 
 @interface AVTAvatarConfigurationImageRenderer
 {
     AVTMemoji *_avatar;
-    AVTSnapshotBuilder *_snapshotBuilder;
-    id <AVTUILogger> _logger;
-    NSObject<OS_dispatch_queue> *_snapshotBuilderQueue;
 }
 
 - (id);
@@ -23,15 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)s.dylib;
 - (id);
 - (id)è`öÿyLö;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTMemoji *avatar; // @synthesize avatar=_avatar;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) AVTSnapshotBuilder *snapshotBuilder; // @synthesize snapshotBuilder=_snapshotBuilder;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *snapshotBuilderQueue; // @synthesize snapshotBuilderQueue=_snapshotBuilderQueue;
 
 @end
 

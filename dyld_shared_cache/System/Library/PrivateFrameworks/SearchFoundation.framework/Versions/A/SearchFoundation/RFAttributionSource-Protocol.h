@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFAttribution, RFVisualProperty, SFCardSection;
+@class NSString, RFAttribution;
 
 @protocol RFAttributionSource
+- (void);
+- (NSString *)setForceBreaks: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) RFAttribution *attribution;
-@property(retain, nonatomic) SFCardSection *card_section;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *text_1;
-@property(retain, nonatomic) RFVisualProperty *thumbnail;
 @end
 

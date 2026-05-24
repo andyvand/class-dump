@@ -4,76 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFAutoJoinParameters, NSArray, NSOrderedSet;
+@class CWFAutoJoinParameters;
 
 __attribute__((visibility("hidden")))
 @interface CWFAutoJoinContext
 {
     _Bool _BSSChannelsOnly;
-    _Bool _passiveScan;
-    _Bool _cacheOnly;
-    _Bool _useCacheForPreviouslyScannedChannels;
-    _Bool _includeAdjacent5GHzChannel;
-    _Bool _includeOnlyRemaining5GHzChannels;
-    _Bool _allowStandalone6GHz;
-    _Bool _include6GHzChannels;
-    _Bool _alwaysIncludeRemainingNon2GHzChannels;
-    _Bool _allowDeferredCandidates;
-    _Bool _didForceAllRemainingChannels;
-    _Bool _skipRemainingNon2GHzChannelsUnlessKnownNetworkFound;
-    _Bool _preferUserConfiguredNetworks;
-    _Bool _allowSSIDBasedMatchingForPasspointNetworks;
-    CWFAutoJoinParameters *_autoJoinParameters;
-    NSOrderedSet *_knownNetworks;
-    NSArray *_recentChannelList;
-    NSArray *_remainingChannelList;
-    NSArray *_SSIDList;
-    NSArray *_ANQPElementIDList;
-    unsigned long long _maxScanChannelCount;
-    unsigned long long _maxBSSChannelCount;
-    unsigned long long _maxBSSChannelAge;
-    unsigned long long _maxScanSSIDCount;
-    unsigned long long _maxHiddenKnownNetworkSSIDAge;
-    unsigned long long _maxScanCacheAge;
-    unsigned long long _maxANQPCacheAge;
-    unsigned long long _maxScanCycles;
-    long long _minRSSI;
-    unsigned long long _dwellTime;
-    double _minBSSLocationAccuracy;
-    double _maxBSSLocationDistance;
 }
 
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id)a;
+- (void);
+- (void);
+- (void);
+- (void)category;
+- (void);
+- (void);
+- (unsigned long long)createAccountButtonClicked: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (id)ld]:SignInCacheLoginResponse  enableTelemetry=YES  /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)cationRoleType;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (double);
-- (void);
+- (double)%;
+- (void)invalidateWithSession:(_Bool)arg1 environment: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -84,25 +53,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void)Gq;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)empty body
+;
+- (id)ld
+;
+- (void)hj;
+- (double)PKCS7_simple_smimecap;
 - (void);
-- (double);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)/;
 - (_Bool);
-- (_Bool);
-- (_Bool)oreRotation;
+- (_Bool)useCoreRotation;
 - (void)hÆ;
 - (void)em/Library/Frameworks/UserNotifications.framework/UserNotifications;
 - (_Bool)(;
@@ -114,38 +85,7 @@ __attribute__((visibility("hidden")))
 - (void)O JOIN STATE;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *ANQPElementIDList; // @synthesize ANQPElementIDList=_ANQPElementIDList;
-@property(nonatomic) _Bool BSSChannelsOnly; // @synthesize BSSChannelsOnly=_BSSChannelsOnly;
-@property(copy, nonatomic) NSArray *SSIDList; // @synthesize SSIDList=_SSIDList;
-@property(nonatomic) _Bool allowDeferredCandidates; // @synthesize allowDeferredCandidates=_allowDeferredCandidates;
-@property(nonatomic) _Bool allowSSIDBasedMatchingForPasspointNetworks; // @synthesize allowSSIDBasedMatchingForPasspointNetworks=_allowSSIDBasedMatchingForPasspointNetworks;
-@property(nonatomic) _Bool allowStandalone6GHz; // @synthesize allowStandalone6GHz=_allowStandalone6GHz;
-@property(nonatomic) _Bool alwaysIncludeRemainingNon2GHzChannels; // @synthesize alwaysIncludeRemainingNon2GHzChannels=_alwaysIncludeRemainingNon2GHzChannels;
 @property(copy, nonatomic) CWFAutoJoinParameters *autoJoinParameters; // @synthesize autoJoinParameters=_autoJoinParameters;
-@property(nonatomic) _Bool cacheOnly; // @synthesize cacheOnly=_cacheOnly;
-@property(nonatomic) _Bool didForceAllRemainingChannels; // @synthesize didForceAllRemainingChannels=_didForceAllRemainingChannels;
-@property(nonatomic) unsigned long long dwellTime; // @synthesize dwellTime=_dwellTime;
-@property(nonatomic) _Bool include6GHzChannels; // @synthesize include6GHzChannels=_include6GHzChannels;
-@property(nonatomic) _Bool includeAdjacent5GHzChannel; // @synthesize includeAdjacent5GHzChannel=_includeAdjacent5GHzChannel;
-@property(nonatomic) _Bool includeOnlyRemaining5GHzChannels; // @synthesize includeOnlyRemaining5GHzChannels=_includeOnlyRemaining5GHzChannels;
-@property(copy, nonatomic) NSOrderedSet *knownNetworks; // @synthesize knownNetworks=_knownNetworks;
-@property(nonatomic) unsigned long long maxANQPCacheAge; // @synthesize maxANQPCacheAge=_maxANQPCacheAge;
-@property(nonatomic) unsigned long long maxBSSChannelAge; // @synthesize maxBSSChannelAge=_maxBSSChannelAge;
-@property(nonatomic) unsigned long long maxBSSChannelCount; // @synthesize maxBSSChannelCount=_maxBSSChannelCount;
-@property(nonatomic) double maxBSSLocationDistance; // @synthesize maxBSSLocationDistance=_maxBSSLocationDistance;
-@property(nonatomic) unsigned long long maxHiddenKnownNetworkSSIDAge; // @synthesize maxHiddenKnownNetworkSSIDAge=_maxHiddenKnownNetworkSSIDAge;
-@property(nonatomic) unsigned long long maxScanCacheAge; // @synthesize maxScanCacheAge=_maxScanCacheAge;
-@property(nonatomic) unsigned long long maxScanChannelCount; // @synthesize maxScanChannelCount=_maxScanChannelCount;
-@property(nonatomic) unsigned long long maxScanCycles; // @synthesize maxScanCycles=_maxScanCycles;
-@property(nonatomic) unsigned long long maxScanSSIDCount; // @synthesize maxScanSSIDCount=_maxScanSSIDCount;
-@property(nonatomic) double minBSSLocationAccuracy; // @synthesize minBSSLocationAccuracy=_minBSSLocationAccuracy;
-@property(nonatomic) long long minRSSI; // @synthesize minRSSI=_minRSSI;
-@property(nonatomic) _Bool passiveScan; // @synthesize passiveScan=_passiveScan;
-@property(nonatomic) _Bool preferUserConfiguredNetworks; // @synthesize preferUserConfiguredNetworks=_preferUserConfiguredNetworks;
-@property(copy, nonatomic) NSArray *recentChannelList; // @synthesize recentChannelList=_recentChannelList;
-@property(copy, nonatomic) NSArray *remainingChannelList; // @synthesize remainingChannelList=_remainingChannelList;
-@property(nonatomic) _Bool skipRemainingNon2GHzChannelsUnlessKnownNetworkFound; // @synthesize skipRemainingNon2GHzChannelsUnlessKnownNetworkFound=_skipRemainingNon2GHzChannelsUnlessKnownNetworkFound;
-@property(nonatomic) _Bool useCacheForPreviouslyScannedChannels; // @synthesize useCacheForPreviouslyScannedChannels=_useCacheForPreviouslyScannedChannels;
 
 @end
 

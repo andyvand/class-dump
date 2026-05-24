@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURLRequest;
+@class NSURLRequest;
 
 __attribute__((visibility("hidden")))
 @interface WFDownloadURLTask
 {
     NSURLRequest *_request;
-    CDUnknownBlockType _expectedByteCountHandler;
-    CDUnknownBlockType _writtenByteCountHandler;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)setEdgeCreasesSource:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)M";
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType expectedByteCountHandler; // @synthesize expectedByteCountHandler=_expectedByteCountHandler;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSURLRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType writtenByteCountHandler; // @synthesize writtenByteCountHandler=_writtenByteCountHandler;
 
 @end
 

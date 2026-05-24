@@ -7,10 +7,6 @@
 @interface IMDIncomingClientConnectionListener
 {
     id queue;
-    id machServiceName;
-    id allowedEntitlements;
-    id requestHandlers;
-    id clientConnectionWorkloop;
 }
 
 - (void);

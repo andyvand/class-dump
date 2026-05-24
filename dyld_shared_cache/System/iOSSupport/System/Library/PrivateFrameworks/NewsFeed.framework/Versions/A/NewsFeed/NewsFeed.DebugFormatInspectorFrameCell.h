@@ -7,22 +7,12 @@
 @interface NewsFeed.DebugFormatInspectorFrameCell
 {
     id displayFrame;
-    id delegate;
-    id frameLayer;
-    id frameLabel;
-    id zIndexLabel;
-    id borderLayers;
-    id hiddenButton;
-    id leftBorderButton;
-    id rightBorderButton;
-    id topBorderButton;
-    id bottomBorderButton;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/utility/TSUNetworkReachability.m;
 - (id)¤Æ÷ÿoûÿÒ¢øÿ;
 - (void)Ì_yþ;
 

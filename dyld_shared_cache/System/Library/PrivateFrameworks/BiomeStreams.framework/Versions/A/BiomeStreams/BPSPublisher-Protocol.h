@@ -9,6 +9,7 @@
 @protocol BPSPublisher
 
 @optional
+- (id);
 - (NSError *)_responderDSID;
 - (_Bool)Ô¨Îÿÿÿÿÿè;
 @end

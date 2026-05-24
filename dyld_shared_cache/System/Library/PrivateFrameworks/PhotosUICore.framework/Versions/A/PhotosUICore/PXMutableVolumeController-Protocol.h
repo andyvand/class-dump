@@ -5,7 +5,8 @@
 //
 
 @protocol PXMutableVolumeController
-- (void)asteEditActionProgressToastRedoTitle;
+- (void);
+- (void)PXPasteEditActionProgressToastRedoTitle;
 
 // Remaining properties
 @property(nonatomic) _Bool isInSilentMode;

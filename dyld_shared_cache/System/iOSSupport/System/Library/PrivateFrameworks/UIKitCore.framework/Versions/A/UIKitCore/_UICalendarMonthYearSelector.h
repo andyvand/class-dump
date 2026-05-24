@@ -13,19 +13,17 @@ __attribute__((visibility("hidden")))
 @interface _UICalendarMonthYearSelector : UIView
 {
     UIDatePicker *_datePicker;
-    id <_UICalendarMonthYearSelectorDelegate> _delegate;
-    _UICalendarDataModel *_dataModel;
 }
 
+- (void)shareURLsToContexts;
+- (void)shareDirection;
+- (void);
+- (id)setCancellable:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)fault:failed to get exit record attempt %d, trying again in %0.02f seconds /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

@@ -10,7 +10,7 @@
 {
 }
 
-- (id)ck;
+- (id)pg_query__declare_cursor_stmt__pack;
 
 @end
 

@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDispatcher, NSObject;
-@protocol HMDPredictionSubscriberDataSource, HMDarwinNotificationProvider, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDPredictionSubscriber
 {
     int _predictionsChangedNotificationToken;
-    int _predictionGenerationCounterToken;
-    id <HMDPredictionSubscriberDataSource> _dataSource;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFMessageDispatcher *_messageDispatcher;
-    id <HMDarwinNotificationProvider> _darwinNotificationProvider;
-    long long _notificationBackend;
-    unsigned long long _predictionGenerationCounter;
 }
 
 - (void);
@@ -26,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (unsigned long long);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (id)touchedRules;
+- (long long)supportsRoutingPathLeg;
+- (id)dText;
+- (id)tring",&,N,V_receivingHandle;
+- (void)lzY28sIENBICA5NDEwMi02MTMwWg1Vbml0ZWQgU3RhdGVzevYBCg1Vbml0ZWQgU3RhdGVzEgJVUxoKQ2FsaWZvcm5pYSICQ0EqDVNhbiBGcmFuY2lzY28yDVNhbiBGcmFuY2lzY286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)rStyle"16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)to accessories for newly added user:%@ /* Error: Ran out of types for this method. */;
@@ -42,13 +35,6 @@ __attribute__((visibility("hidden")))
 - (id)löÿ;
 
 // Remaining properties
-@property(readonly) id <HMDarwinNotificationProvider> darwinNotificationProvider; // @synthesize darwinNotificationProvider=_darwinNotificationProvider;
-@property __weak id <HMDPredictionSubscriberDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property long long notificationBackend; // @synthesize notificationBackend=_notificationBackend;
-@property unsigned long long predictionGenerationCounter; // @synthesize predictionGenerationCounter=_predictionGenerationCounter;
-@property int predictionGenerationCounterToken; // @synthesize predictionGenerationCounterToken=_predictionGenerationCounterToken;
-@property int predictionsChangedNotificationToken; // @synthesize predictionsChangedNotificationToken=_predictionsChangedNotificationToken;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

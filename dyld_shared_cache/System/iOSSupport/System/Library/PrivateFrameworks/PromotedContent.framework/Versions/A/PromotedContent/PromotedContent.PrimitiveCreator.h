@@ -7,18 +7,10 @@
 @interface PromotedContent.PrimitiveCreator
 {
     id promotedContentIdentifier;
-    id contextIdentifier;
-    id journeyIdentifier;
-    id impressionId;
-    id receiver;
-    id branch;
-    id environment;
-    id eventPipeline;
-    id placeholder;
 }
 
 - (id);
-- (void);
+- (void)ndler:(long long)arg1 ];
 - (void);
 
 @end

@@ -7,7 +7,6 @@
 @interface NewsUI2.UnsupportedRecordURLHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

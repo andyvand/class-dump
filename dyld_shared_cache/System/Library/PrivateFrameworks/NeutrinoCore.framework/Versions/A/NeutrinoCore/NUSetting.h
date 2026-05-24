@@ -21,14 +21,12 @@
 - (id);
 - (long long);
 - (_Bool);
+- (id)A;
 - (id);
-- (id);
-- (id);
+- (id)AXTTSLegacyMacinTalkAssetPolicy;
 
 // Remaining properties
 @property(readonly) id defaultValue;
-@property(readonly, nonatomic) _Bool isRequired;
-@property(readonly, nonatomic) long long type;
 
 @end
 

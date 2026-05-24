@@ -6,44 +6,34 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSObject, NSString, VCNetworkAddress;
-@protocol OS_nw_connection, OS_nw_parameters;
+@class NSObject;
+@protocol OS_nw_connection;
 
 __attribute__((visibility("hidden")))
 @interface VCNWConnectionInfo : VCObject
 {
     NSObject<OS_nw_connection> *_connection;
-    NSObject<OS_nw_parameters> *_parameters;
-    NSString *_connectionID;
-    VCNetworkAddress *_remoteAddress;
-    unsigned int _remoteSSRC;
-    _Bool _isStarted;
 }
 
 - (void);
-- (unsigned int);
+- (unsigned int)qa;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)%;
+- (void);
+- (id);
+- (void)setBatteryLevelPollingTimer:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (_Bool)l;
-- (id)oReceiver_GetStreamWithStreamIndex;
+- (id)_VideoReceiver_GetStreamWithStreamIndex;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_nw_connection> *connection; // @synthesize connection=_connection;
-@property(copy, nonatomic) NSString *connectionID; // @synthesize connectionID=_connectionID;
-@property(nonatomic) _Bool isStarted; // @synthesize isStarted=_isStarted;
-@property(retain, nonatomic) NSObject<OS_nw_parameters> *parameters;
-@property(copy, nonatomic) VCNetworkAddress *remoteAddress;
-@property(nonatomic) unsigned int remoteSSRC; // @synthesize remoteSSRC=_remoteSSRC;
 
 @end
 

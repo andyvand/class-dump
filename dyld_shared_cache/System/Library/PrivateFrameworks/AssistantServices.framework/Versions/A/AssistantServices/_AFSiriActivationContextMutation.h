@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriActivationContext, NSDictionary, NSString;
+@class AFSiriActivationContext;
 
 @interface _AFSiriActivationContextMutation
 {
     AFSiriActivationContext *_base;
-    unsigned long long _timestamp;
-    long long _source;
-    long long _event;
-    unsigned long long _options;
-    NSString *_deviceID;
-    NSDictionary *_userInfo;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasTimestamp:1;
-        unsigned int hasSource:1;
-        unsigned int hasEvent:1;
-        unsigned int hasOptions:1;
-        unsigned int hasDeviceID:1;
-        unsigned int hasUserInfo:1;
-    } _mutationFlags;
 }
 
 - (id);
@@ -33,23 +18,17 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)ror"8;
+- (void)setCtErrorDomain:(id)arg1;
 - (void);
 - (unsigned long long);
 - (void);
-- (id)ForProduct:(id)arg1 forBuildVersion: /* Error: Ran out of types for this method. */;
-- (void)atEvent;
+- (id)supplementalLanguagesForProduct:(id)arg1 forBuildVersion: /* Error: Ran out of types for this method. */;
+- (void)_preheatEvent;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

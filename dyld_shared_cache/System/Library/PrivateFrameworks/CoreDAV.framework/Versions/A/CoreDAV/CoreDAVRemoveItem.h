@@ -13,10 +13,10 @@
 
 + (id);
 - (id);
+- (id)addShareeForEditingString: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)%i].sections[%i].segname;
+- (void)EWSArrayOfUnknownEntriesType;
 
 // Remaining properties
 @property(retain, nonatomic) CoreDAVItem *prop; // @synthesize prop=_prop;

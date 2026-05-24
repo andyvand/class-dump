@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet;
-
 @interface RBProcessIndex
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _capacity;
-    NSMutableOrderedSet *_processes;
-    NSMutableDictionary *_processByIdentity;
-    NSMutableDictionary *_processByInstance;
-    NSMutableDictionary *_processByIdentifier;
 }
 
 + (id);
@@ -21,19 +14,19 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)rollout id %@.%@ has unparseable rollout definition:(id)arg1 %@;
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)clientIdentifierForLastKeyboardSync;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
-- (unsigned long long)rgetIdentifier;
+- (unsigned long long)_targetIdentifier;
 
 @end
 

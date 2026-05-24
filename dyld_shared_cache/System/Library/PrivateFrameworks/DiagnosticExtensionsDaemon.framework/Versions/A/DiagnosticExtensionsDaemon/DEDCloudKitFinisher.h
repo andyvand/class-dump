@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDBugSession, DEDCloudKitAttachmentGroupModel, DEDCloudKitClient, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol OS_os_log;
-
 @interface DEDCloudKitFinisher
 {
     long long _state;
-    DEDCloudKitClient *_cloudKitClient;
-    _Bool _sandboxEnvironment;
-    NSUUID *_anonymousDeviceUUID;
-    DEDBugSession *_session;
-    NSObject<OS_os_log> *_log;
-    unsigned long long _totalUploadSize;
-    DEDCloudKitAttachmentGroupModel *_attachmentGroupModel;
-    NSMutableArray *_attachments;
-    NSMutableDictionary *_uploadedBytes;
-    NSDictionary *_queuePayload;
-    NSString *_timberLorryUUID;
 }
 
-+ (id);
-+ (_Bool);
++ (id)G;
++ (_Bool)ZN3ctu20SharedSynchronizableIN4QMux5StateEE15make_shared_ptrIS2_EENSt3__110shared_ptrIT_EEPS7_EUlPS2_E_;
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,42 +55,24 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)X;
 - (void);
-- (id);
+- (id)listener:shouldAcceptNewConnection: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)S2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)calizedDescription;
 - (id)Ôöð!°Cù±71Â0@ù
 × ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *anonymousDeviceUUID; // @synthesize anonymousDeviceUUID=_anonymousDeviceUUID;
-@property(retain) DEDCloudKitAttachmentGroupModel *attachmentGroupModel; // @synthesize attachmentGroupModel=_attachmentGroupModel;
-@property(retain) NSMutableArray *attachments; // @synthesize attachments=_attachments;
-@property(retain) DEDCloudKitClient *cloudKitClient;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) NSDictionary *queuePayload; // @synthesize queuePayload=_queuePayload;
-@property(nonatomic) _Bool sandboxEnvironment; // @synthesize sandboxEnvironment=_sandboxEnvironment;
-@property __weak DEDBugSession *session; // @synthesize session=_session;
 @property long long state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *timberLorryUUID; // @synthesize timberLorryUUID=_timberLorryUUID;
-@property unsigned long long totalUploadSize; // @synthesize totalUploadSize=_totalUploadSize;
-@property(retain) NSMutableDictionary *uploadedBytes; // @synthesize uploadedBytes=_uploadedBytes;
 
 @end
 

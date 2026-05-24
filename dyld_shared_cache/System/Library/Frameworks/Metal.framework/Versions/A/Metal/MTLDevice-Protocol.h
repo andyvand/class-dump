@@ -4,38 +4,85 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLAccelerationStructureDescriptor, MTLArchitecture, MTLMeshRenderPipelineDescriptor, MTLRenderPipelineDescriptor, NSArray, NSString;
-@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTLAccelerationStructure, MTLCommandQueue, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLLibrary, MTLRasterizationRateMap, MTLRenderPipelineState, MTLSharedEvent;
+@class MTLAccelerationStructureDescriptor, MTLArchitecture, MTLMeshRenderPipelineDescriptor, MTLRenderPipelineDescriptor, NSString;
+@protocol MTL4Archive, MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer, MTLAccelerationStructure, MTLCommandQueue, MTLComputePipelineState, MTLDynamicLibrary, MTLEvent, MTLFence, MTLFunctionHandle, MTLIOCommandQueue, MTLIOFileHandle, MTLLibrary, MTLLogState, MTLRasterizationRateMap, MTLRenderPipelineState, MTLSharedEvent;
 
 @protocol MTLDevice
+- (CDStruct_4bcfbbae)0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w0.x) * w1.y;
+  p.x = 0.0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w1.x) * w1.y;
+  p.x = 1.0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w2.x) * w1.y;
+  p.x = 2.0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w3.x) * w1.y;
+  p.y = 1.0;
+  p.x = -1.0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w0.x) * w2.y;
+  p.x = 0.0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w1.x) * w2.y;
+  p.x = 1.0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w2.x) * w2.y;
+  p.x = 2.0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w3.x) * w2.y;
+  p.y = 2.0;
+  p.x = -1.0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w0.x) * w3.y;
+  p.x = 0.0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w1.x) * w3.y;
+  p.x = 1.0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w2.x) * w3.y;
+  p.x = 2.0;
+  r += (sample(src, samplerTransform(src, srcCenterBefore + p)) * w3.x) * w3.y;
+  return r;
+}
+;
+- (id <MTLComputePipelineState>)$@m@8`;
+- (unsigned long long)) == 3);
+- (id <MTLRenderPipelineState>)must be simple;
+- (_Bool)F10 data '%c%c%c%c'
+;
+- (unsigned long long)kCGImageSourceAddMetadataFromPrimaryImage;
+- (_Bool)kCVImageBufferChromaSubsamplingKey;
+- (NSString *);
+- (id <MTLIOFileHandle>);
+- (_Bool);
+- (_Bool)kEventTextInputShowHideBottomWindow;
+- (id <MTLLibrary>);
+- (_Bool)F;
+- (id <MTLLogState>);
+- (void)@;
+- (_Bool);
+- (unsigned long long);
 - (id <MTLIOFileHandle>)
 × ;
 - (id <MTLAccelerationStructure>)_count}}24r^v40i48@52Q60{shared_ptr<std:(MTLAccelerationStructureDescriptor *)arg1:unordered_map<MTLUINT256_t, NSObject<OS_dispatch_data> *, UnorderedContainerHash, UnorderedContainerHash>>=^v^{__shared_weak_count}}68@?84 /* Error: Ran out of types for this method. */;
 - (unsigned int)bject<OS_dispatch_data>"16@0:8 /* Error: Ran out of types for this method. */;
 - (unsigned long long)celerationStructureTraversalDepth"Q"gpuCompilerSPIOptions"@"NSDictionary""shaderValidation"q"shaderValidationState"q"requiredThreadsPerThreadgroup"{?="width"Q"height"Q"depth"Q}"name"@"NSString"};
-- (_Bool)TLCommandQueue:inputsArray:resultsArray:executionDescriptor: /* Error: Ran out of types for this method. */;
-- (id <MTLIOCommandQueue>)terizationRateLayerCount;
+- (_Bool)runAsyncWithMTLCommandQueue:inputsArray:resultsArray:executionDescriptor: /* Error: Ran out of types for this method. */;
+- (id <MTLIOCommandQueue>)maxRasterizationRateLayerCount;
 - (id <MTLAccelerationStructure>)ERRUPTED;
 - (unsigned long long)6;
-- (_Bool);
-- (id <MTL4CommandAllocator>)andBufferStorageRebaseShmemHeader;
+- (id <MTL4CommandAllocator>)_mtlIOAccelCommandBufferStorageRebaseShmemHeader;
 - (id <MTLEvent>)x].device == peerDevice;
 - (id <MTL4Archive>)e allocated with MTLResourceStorageModeMemoryless on this device.;
 - (unsigned long long)uses compressionFootprint %d, but the pixel format %s does not support that lossy compression mode on this device;
 - (id <MTLRenderPipelineState>)escriptorInternal validateWithDevice:(MTLRenderPipelineDescriptor *)arg1 ];
 - (id <MTLDynamicLibrary>)rader;
 - (id <MTL4ArgumentTable>)MTLComputePipelineState>"8@"NSError"16;
-- (id <MTLCommandQueue>)OR_NAME;
-- (_Bool)lFormatRG12Uint_PACKED;
-- (void)_g16p;
+- (id <MTLCommandQueue>)METAL_FORCE_DEVICE_VENDOR_NAME;
+- (_Bool)MTLPixelFormatRG12Uint_PACKED;
+- (void)applegpu_g16p;
 - (void)path:(MTLMeshRenderPipelineDescriptor *)arg1 %s;
 - (void)eyframe count mismatch in MTLPrimitiveAccelerationStructureDescriptor (MTLPrimitiveAccelerationStructureDescriptor has %lu keyframes and MTLAccelerationStructureTriangleGeometryDescriptor which can have only one keyframe).;
 - (id <MTLRasterizationRateMap>)extractMTLGenericBVHGeometryKernel_1_5;
-- (_Bool)rnel_1_1;
+- (_Bool)extractMTLGenericBVHHeaderKernel_1_1;
+- (id <MTLFunctionHandle>)streaming;
 - (_Bool)t is not a MTLRenderPassStencilAttachmentDescriptor.;
-- (_Bool)Info;
-- (id <MTLDynamicLibrary>)ispatchThreadsPerThreadgroupArg;
-- (id <MTLSharedEvent>)ion;
+- (_Bool)StructTypeInfo;
+- (id <MTLDynamicLibrary>)DispatchThreadsPerThreadgroupArg;
+- (id <MTLSharedEvent>)VisibleFunction;
+- (void)MTLCodeGenServiceDestroy;
 - (id <MTLLibrary>)r or equal to colorSampleCount;
 - (id <MTLFence>), %lu, %lu];
 - (id <MTLCommandQueue>)(<;
@@ -52,49 +99,10 @@
 - (unsigned long long);
 - (id <MTLLibrary>);
 
+@optional
+- (CDStruct_4bcfbbae);
+
 // Remaining properties
-@property(readonly) MTLArchitecture *architecture;
-@property(readonly) unsigned long long argumentBuffersSupport;
-@property(readonly, getter=areBarycentricCoordsSupported) _Bool barycentricCoordsSupported;
-@property(readonly) NSArray *counterSets;
-@property(readonly) unsigned long long currentAllocatedSize;
-@property(readonly, getter=isDepth24Stencil8PixelFormatSupported) _Bool depth24Stencil8PixelFormatSupported;
-@property(readonly) _Bool hasUnifiedMemory;
-@property(readonly, getter=isHeadless) _Bool headless;
-@property(readonly) unsigned long long location;
-@property(readonly) unsigned long long locationNumber;
-@property(readonly, getter=isLowPower) _Bool lowPower;
-@property(readonly) unsigned long long maxArgumentBufferSamplerCount;
-@property(readonly) unsigned long long maxBufferLength;
-@property(readonly) unsigned long long maxThreadgroupMemoryLength;
-@property(readonly) CDStruct_da2e99ad maxThreadsPerThreadgroup;
-@property(readonly) unsigned long long maxTransferRate;
-@property(readonly) unsigned long long maximumConcurrentCompilationTaskCount;
 @property(readonly) NSString *name;
-@property(readonly) unsigned int peerCount;
-@property(readonly) unsigned long long peerGroupID;
-@property(readonly) unsigned int peerIndex;
-@property(readonly, getter=areProgrammableSamplePositionsSupported) _Bool programmableSamplePositionsSupported;
-@property(readonly, getter=areRasterOrderGroupsSupported) _Bool rasterOrderGroupsSupported;
-@property(readonly) unsigned long long readWriteTextureSupport;
-@property(readonly) unsigned long long recommendedMaxWorkingSetSize;
-@property(readonly) unsigned long long registryID;
-@property(readonly, getter=isRemovable) _Bool removable;
-@property _Bool shouldMaximizeConcurrentCompilation;
-@property(readonly) unsigned long long sparseTileSizeInBytes;
-@property(readonly) _Bool supports32BitFloatFiltering;
-@property(readonly) _Bool supports32BitMSAA;
-@property(readonly) _Bool supportsBCTextureCompression;
-@property(readonly) _Bool supportsDynamicLibraries;
-@property(readonly) _Bool supportsFunctionPointers;
-@property(readonly) _Bool supportsFunctionPointersFromRender;
-@property(readonly) _Bool supportsPlacementSparse;
-@property(readonly) _Bool supportsPrimitiveMotionBlur;
-@property(readonly) _Bool supportsPullModelInterpolation;
-@property(readonly) _Bool supportsQueryTextureLOD;
-@property(readonly) _Bool supportsRaytracing;
-@property(readonly) _Bool supportsRaytracingFromRender;
-@property(readonly) _Bool supportsRenderDynamicLibraries;
-@property(readonly) _Bool supportsShaderBarycentricCoordinates;
 @end
 

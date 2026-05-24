@@ -9,33 +9,21 @@
 @interface _UILegibilitySettingsProvider
 {
     _Bool _hasContrast;
-    _Bool _accumulatorIsPrimed;
-    double _mostRecentSaturation;
-    double _accumulatedSaturation;
-    double _mostRecentBrightness;
-    double _accumulatedBrightness;
-    UIColor *_contentColor;
-    double _mostRecentContrast;
-    double _accumulatedContrast;
-    double _mostRecentLuminance;
-    double _accumulatedLuminance;
-    double _nextChangeBarrier;
-    long long _currentStyle;
 }
 
 + (long long);
-+ (long long);
++ (long long)__MPModelPropertyAlbumHasCleanContent__MAPPING_MISSING__;
+- (void);
+- (double);
+- (void)buildWithAcceptEAPTypes:(double)arg1 withUserName:withUserPassword:withOneTimePassword:withPayloadCertificateAnchorUUID:withTLSTrustedCertificates:withTLSTrustedServerNames:withTLSAllowTrustExceptions:withTLSCertificateIsRequired:withTTLSInnerAuthentication:withTLSMinimumVersion:withTLSMaximumVersion:withOuterIdentity:withEAPFASTUsePAC:withEAPFASTProvisionPAC:withEAPFASTProvisionPACAnonymously:withEAPSIMNumberOfRANDs:withSystemModeCredentialsSource:withSystemModeUseOpenDirectoryCredentials:withOneTimeUserPassword:withEAPSIMAKAEncryptedIdentityEnabled: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (void);
+- (void)ErrorGetDomain(registerItem->error));
 - (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (_Bool);
+- (void)_adjustedItemPropertyAssetURLOfEntity:(id)arg1 withDefaultValue: /* Error: Ran out of types for this method. */;
+- (double)MPModelRelationshipGenericRadioStation;
+- (_Bool)genreRepresentativeItemPersistentID;
 - (void);
 - (_Bool);
 - (double);
@@ -52,29 +40,17 @@
 × ;
 - (double)Configuration"16B24@28@?<v@?@"NSError">36;
 - (void);
-- (double): /* Error: Ran out of types for this method. */;
-- (void)houldReportDigitizerLocation;
+- (double)metricsForTextStyle: /* Error: Ran out of types for this method. */;
+- (void)_shouldReportDigitizerLocation;
 - (double)&,N,G_preferredFocusReport,S_setPreferredFocusReport:,V_preferredFocusReport /* Error: Ran out of types for this method. */;
-- (long long)ageSystemImageVisualStyle;
+- (long long)_UIImageSystemImageVisualStyle;
 - (void)Üäåìæèé(éXê°ê|ìØí;
 - (_Bool)+UIKitAdditions.m;
-- (void)ontrollerHighlightDefault;
-- (void)ollerSpineLocationNone;
+- (void)UITextFormattingViewControllerHighlightDefault;
+- (void)UIPageViewControllerSpineLocationNone;
 
 // Remaining properties
-@property(nonatomic) double accumulatedBrightness; // @synthesize accumulatedBrightness=_accumulatedBrightness;
-@property(nonatomic) double accumulatedContrast; // @synthesize accumulatedContrast=_accumulatedContrast;
-@property(nonatomic) double accumulatedLuminance; // @synthesize accumulatedLuminance=_accumulatedLuminance;
-@property(nonatomic) double accumulatedSaturation; // @synthesize accumulatedSaturation=_accumulatedSaturation;
-@property(nonatomic) _Bool accumulatorIsPrimed; // @synthesize accumulatorIsPrimed=_accumulatorIsPrimed;
 @property(retain, nonatomic) UIColor *contentColor; // @synthesize contentColor=_contentColor;
-@property(nonatomic) long long currentStyle; // @synthesize currentStyle=_currentStyle;
-@property(nonatomic) _Bool hasContrast; // @synthesize hasContrast=_hasContrast;
-@property(nonatomic) double mostRecentBrightness; // @synthesize mostRecentBrightness=_mostRecentBrightness;
-@property(nonatomic) double mostRecentContrast; // @synthesize mostRecentContrast=_mostRecentContrast;
-@property(nonatomic) double mostRecentLuminance; // @synthesize mostRecentLuminance=_mostRecentLuminance;
-@property(nonatomic) double mostRecentSaturation; // @synthesize mostRecentSaturation=_mostRecentSaturation;
-@property(nonatomic) double nextChangeBarrier; // @synthesize nextChangeBarrier=_nextChangeBarrier;
 
 @end
 

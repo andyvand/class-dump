@@ -5,5 +5,6 @@
 //
 
 @protocol _UIHostedTextServiceSessionDelegate
+- (void);
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBRideStatus;
+@class _INPBRideStatus;
 
 @interface _INPBGetRideStatusIntentResponse
 {
     struct _has;
-    _INPBRideStatus *_rideStatus;
 }
 
 + (_Bool);
@@ -21,21 +20,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)rom nearby device (%{public}@) does not match the currently associated network (%{public}@), will not perform probe to remote endpoint;
 - (id);
 - (id);
-- (void)ype;
+- (void)EnumType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasRideStatus;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBRideStatus *rideStatus; // @synthesize rideStatus=_rideStatus;
-@property(readonly) Class superclass;
 
 @end
 

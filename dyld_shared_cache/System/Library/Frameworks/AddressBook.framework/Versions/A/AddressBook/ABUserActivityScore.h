@@ -9,10 +9,9 @@
 @interface ABUserActivityScore
 {
     unsigned long long _score;
-    ABPerson *_person;
 }
 
-+ (id);
++ (id);
 - (id);
 - (unsigned long long);
 - (long long);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain) ABPerson *person; // @synthesize person=_person;
-@property unsigned long long score; // @synthesize score=_score;
 
 @end
 

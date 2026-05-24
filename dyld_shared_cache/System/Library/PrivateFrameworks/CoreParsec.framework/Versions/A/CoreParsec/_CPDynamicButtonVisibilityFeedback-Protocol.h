@@ -4,14 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray, NSString, _CPButtonForFeedback;
 
 @protocol _CPDynamicButtonVisibilityFeedback
+- (unsigned long long)tents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/WeakRef.h;
+- (_CPButtonForFeedback *)s1EyaU8WzebByK7E/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/WeakRef.h;
+- (NSArray *)uildRoots/4~CN9qugDaj6yW3aidE-lucuns1EyaU8WzebByK7E/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/WeakRef.h;
+- (void):(NSArray *)arg1 WeakPtr<WebKit::WebProcessProxy>, WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>>, WTF::DefaultHash<WTF::WeakPtr<WebKit::WebProcessProxy>>, WTF::HashMap<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>::KeyValuePairTraits, WTF::HashTraits<WTF::WeakPtr<WebKit::WebProcessProxy>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::WebProcessProxy>, Value = WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebProcessProxy>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebProcessProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)PageIdentifierType, WTF:(NSString *)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)>, Traits = WTF::HashMap<WTF::String, WTF::RefPtr<WebKit::WebExtensionMatchPattern>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (NSString *)rules do not have unique IDs (;
+- (void)WeakPtr<WebKit:(_CPButtonForFeedback *)arg1:WebExtensionController>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionController>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cardSectionIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long timestamp;
-@property(copy, nonatomic) NSArray *visibleDynamicButton2s;
 @end
 

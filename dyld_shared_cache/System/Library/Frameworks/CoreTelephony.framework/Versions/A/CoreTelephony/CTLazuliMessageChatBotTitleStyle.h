@@ -11,7 +11,7 @@
     CTLazuliMessageChatBotFontStyle *_style;
 }
 
-+ (_Bool);
++ (_Bool)ndition:%@ subtitleRendition:%@ loadedTimeRanges:%@ didSucceed:%d> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)errorWithCode:(id)arg1 message:moreInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ª)°1Â0@ù
 × ;

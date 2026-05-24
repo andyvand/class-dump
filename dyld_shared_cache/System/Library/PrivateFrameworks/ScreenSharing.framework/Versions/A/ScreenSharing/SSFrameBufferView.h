@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, CALayer, NSArray, NSDraggingSession, NSImage, NSMutableDictionary, NSPasteboard, NSString, NSView, SSFrameBuffer;
-@protocol SSFrameBufferViewDelegate, SSInputEventConsumer;
+@protocol SSInputEventConsumer;
 
 @interface SSFrameBufferView
 {
     id <SSInputEventConsumer> mInputEventConsumer;
-    CALayer *cachedImageLayer;
-    CALayer *flashLayer;
-    _Bool mShouldWarnAboutScaling;
-    _Bool mShouldMaskScreen;
-    NSMutableDictionary *mScreenIdsAndRenderViews;
-    _Bool allowsDragAndDropFileCopyToRemote;
-    _Bool allowsDragAndDropFileCopyFromRemote;
-    _Bool _cursorInside;
-    _Bool _dynamicResizeVisualEffectsInProgress;
-    SSFrameBuffer *mFrameBuffer;
-    unsigned long long _screenNumOverride;
-    id <SSFrameBufferViewDelegate> _delegate;
-    double _mXScaleFactor;
-    double _mXInverseScaleFactor;
-    double _mYScaleFactor;
-    double _mYInverseScaleFactor;
-    NSPasteboard *_remotePasteboard;
-    NSImage *_remoteDragImage;
-    NSArray *_remoteFilePaths;
-    NSArray *_uniqueRemoteFilePaths;
-    NSDraggingSession *_dragSession;
-    NSArray *_savedRegisteredDraggedTypes;
-    double _independentViewerScaleAdjustment;
-    NSImage *_remoteDragImage2;
-    CAFilter *_blurFilter;
-    NSView *_dynamicResizeVisualEffectsCrossFadeView;
-    NSView *_dynamicResizeVisualEffectsBackDropView;
-    struct CGPoint _lastDragMousePosition;
 }
 
 + (_Bool);
@@ -46,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)c;
 - (void);
 - (void);
 - (void);
@@ -62,6 +33,8 @@
 - (void);
 - (void);
 - (void);
+- (void)A;
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -69,9 +42,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)?ר#;
 - (void);
 - (void);
 - (void);
@@ -115,7 +86,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)S;
 - (id);
 - (void);
 - (void);
@@ -125,7 +96,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (_Bool);
 - (void);
 - (void);
@@ -153,66 +124,29 @@
 - (void);
 - (void);
 - (void);
+- (id)securityTaskWithAuditToken: /* Error: Ran out of types for this method. */;
+- (void)o this context.;
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)eInternal/Library/BuildRoots/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Questions/Survey/LocationRepresentativeAsset/PGLocationRepresentativeAssetQuestionFactory.m;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void) ;
 - (id);
 - (id);
-- (void);
+- (void)j;
 - (_Bool);
 - (void)_zoomEnabled;
 - (void)tial update went past end;
 - (void)ÿ	.¥;
 
 // Remaining properties
-@property _Bool allowsDragAndDropFileCopyFromRemote; // @synthesize allowsDragAndDropFileCopyFromRemote;
-@property _Bool allowsDragAndDropFileCopyToRemote; // @synthesize allowsDragAndDropFileCopyToRemote;
-@property(retain) CAFilter *blurFilter; // @synthesize blurFilter=_blurFilter;
-@property(nonatomic) _Bool cursorInside; // @synthesize cursorInside=_cursorInside;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <SSFrameBufferViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) NSDraggingSession *dragSession; // @synthesize dragSession=_dragSession;
-@property(retain) NSView *dynamicResizeVisualEffectsBackDropView; // @synthesize dynamicResizeVisualEffectsBackDropView=_dynamicResizeVisualEffectsBackDropView;
-@property(retain) NSView *dynamicResizeVisualEffectsCrossFadeView; // @synthesize dynamicResizeVisualEffectsCrossFadeView=_dynamicResizeVisualEffectsCrossFadeView;
-@property(getter=isDynamicResizeVisualEffectsInProgress) _Bool dynamicResizeVisualEffectsInProgress; // @synthesize dynamicResizeVisualEffectsInProgress=_dynamicResizeVisualEffectsInProgress;
-@property(retain) SSFrameBuffer *frameBuffer; // @synthesize frameBuffer=mFrameBuffer;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double independentViewerScaleAdjustment; // @synthesize independentViewerScaleAdjustment=_independentViewerScaleAdjustment;
-@property(retain) id <SSInputEventConsumer> inputEventConsumer; // @synthesize inputEventConsumer=mInputEventConsumer;
-@property(readonly) _Bool isPBCopy;
 @property(nonatomic) struct CGPoint lastDragMousePosition; // @synthesize lastDragMousePosition=_lastDragMousePosition;
-@property double mXInverseScaleFactor; // @synthesize mXInverseScaleFactor=_mXInverseScaleFactor;
-@property double mXScaleFactor; // @synthesize mXScaleFactor=_mXScaleFactor;
-@property double mYInverseScaleFactor; // @synthesize mYInverseScaleFactor=_mYInverseScaleFactor;
-@property double mYScaleFactor; // @synthesize mYScaleFactor=_mYScaleFactor;
-@property(retain) NSImage *remoteDragImage; // @synthesize remoteDragImage=_remoteDragImage;
-@property(retain) NSImage *remoteDragImage2; // @synthesize remoteDragImage2=_remoteDragImage2;
-@property(copy) NSArray *remoteFilePaths; // @synthesize remoteFilePaths=_remoteFilePaths;
-@property(retain) NSPasteboard *remotePasteboard; // @synthesize remotePasteboard=_remotePasteboard;
-@property(readonly) id renderViewContents;
-@property(retain) NSArray *savedRegisteredDraggedTypes; // @synthesize savedRegisteredDraggedTypes=_savedRegisteredDraggedTypes;
-@property(readonly) _Bool scalingNotInSync;
-@property(retain) NSMutableDictionary *screenIdsAndRenderViews; // @synthesize screenIdsAndRenderViews=mScreenIdsAndRenderViews;
-@property unsigned long long screenNumOverride; // @synthesize screenNumOverride=_screenNumOverride;
-@property _Bool shouldMaskScreen; // @synthesize shouldMaskScreen=mShouldMaskScreen;
-@property(readonly) Class superclass;
-@property(copy) NSArray *uniqueRemoteFilePaths; // @synthesize uniqueRemoteFilePaths=_uniqueRemoteFilePaths;
-@property _Bool useCachedImage;
-@property(readonly, getter=isUsingAVCMediaStream) _Bool usingAVCMediaStream;
 
 @end
 

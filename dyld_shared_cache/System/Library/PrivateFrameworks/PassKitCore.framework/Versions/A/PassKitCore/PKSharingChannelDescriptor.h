@@ -9,12 +9,12 @@
     unsigned long long _type;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)_tcpiSndWnd;
 - (void);
 
 // Remaining properties

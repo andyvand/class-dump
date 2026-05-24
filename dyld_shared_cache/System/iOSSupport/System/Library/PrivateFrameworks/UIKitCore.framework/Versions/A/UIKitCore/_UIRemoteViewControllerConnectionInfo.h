@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMachPortSendRight, NSArray, _UIHostedWindowHostingHandle, _UIViewServiceHostSessionDeputyShim;
+@class _UIViewServiceHostSessionDeputyShim;
 
 __attribute__((visibility("hidden")))
 @interface _UIRemoteViewControllerConnectionInfo
 {
     int _preferredStatusBarVisibility;
-    _UIViewServiceHostSessionDeputyShim *_session;
-    id _viewControllerOperatorProxy;
-    id _serviceViewControllerProxy;
-    id _serviceViewControllerControlMessageProxy;
-    id _textEffectsOperatorProxy;
-    NSArray *_serviceViewControllerSupportedInterfaceOrientations;
-    BSMachPortSendRight *_serviceAccessibilityServerPortWrapper;
-    long long _preferredStatusBarStyle;
-    _UIHostedWindowHostingHandle *_hostedWindowHostingHandle;
-    _UIHostedWindowHostingHandle *_textEffectsWindowHostingHandle;
-    _UIHostedWindowHostingHandle *_textEffectsWindowAboveStatusBarHostingHandle;
-    _UIHostedWindowHostingHandle *_remoteKeyboardsWindowHostingHandle;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)num texture indirections;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)Tk;
 - (id);
 - (id);
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)ore a database when no override database was set;
 - (id);
 - (id);
 - (void)á	ð!¼FùQfÐ1Â0@ù
@@ -51,22 +39,10 @@ __attribute__((visibility("hidden")))
 - (id)W;
 - (void)3-Âþ¢13-Âþ}¢13-Âþ;
 - (void);
-- (long long)_;
+- (long long)TT_;
 
 // Remaining properties
-@property(retain) _UIHostedWindowHostingHandle *hostedWindowHostingHandle; // @synthesize hostedWindowHostingHandle=_hostedWindowHostingHandle;
-@property long long preferredStatusBarStyle; // @synthesize preferredStatusBarStyle=_preferredStatusBarStyle;
-@property int preferredStatusBarVisibility; // @synthesize preferredStatusBarVisibility=_preferredStatusBarVisibility;
-@property(retain) _UIHostedWindowHostingHandle *remoteKeyboardsWindowHostingHandle; // @synthesize remoteKeyboardsWindowHostingHandle=_remoteKeyboardsWindowHostingHandle;
-@property(retain) BSMachPortSendRight *serviceAccessibilityServerPortWrapper; // @synthesize serviceAccessibilityServerPortWrapper=_serviceAccessibilityServerPortWrapper;
-@property(retain) id serviceViewControllerControlMessageProxy; // @synthesize serviceViewControllerControlMessageProxy=_serviceViewControllerControlMessageProxy;
-@property(retain) id serviceViewControllerProxy; // @synthesize serviceViewControllerProxy=_serviceViewControllerProxy;
-@property(retain) NSArray *serviceViewControllerSupportedInterfaceOrientations; // @synthesize serviceViewControllerSupportedInterfaceOrientations=_serviceViewControllerSupportedInterfaceOrientations;
 @property(retain) _UIViewServiceHostSessionDeputyShim *session; // @synthesize session=_session;
-@property(retain) id textEffectsOperatorProxy; // @synthesize textEffectsOperatorProxy=_textEffectsOperatorProxy;
-@property(retain) _UIHostedWindowHostingHandle *textEffectsWindowAboveStatusBarHostingHandle; // @synthesize textEffectsWindowAboveStatusBarHostingHandle=_textEffectsWindowAboveStatusBarHostingHandle;
-@property(retain) _UIHostedWindowHostingHandle *textEffectsWindowHostingHandle; // @synthesize textEffectsWindowHostingHandle=_textEffectsWindowHostingHandle;
-@property(retain) id viewControllerOperatorProxy; // @synthesize viewControllerOperatorProxy=_viewControllerOperatorProxy;
 
 @end
 

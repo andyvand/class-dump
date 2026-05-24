@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, NSTimer, NSView;
+@class NSView;
 
 @interface IKAnimationManager
 {
     NSView *_view;
-    NSMutableArray *_groups;
-    int _perspectiveNeededCount;
-    float _frameRate;
-    NSArray *_channels;
-    _Bool _lockRemove;
-    NSMutableArray *_groupsToRemove;
-    NSMutableIndexSet *_cellsToRenderIndexes;
-    NSMutableIndexSet *_cellsRenderedIndexes;
-    NSMutableDictionary *_animatedCells;
-    NSMutableDictionary *_cellToIndexDictionaryCache;
-    unsigned int _datasourceVersionCache;
-    NSTimer *_animationTimer;
-    NSArray *_animatedCellsArrayCache;
-    _Bool _allowsSlowMotion;
 }
 
 - (void);
@@ -46,7 +32,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -61,10 +47,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_TtC13CoreKnowledge15CKTimedDispatch;
 - (_Bool);
-- (void)r:withCenter:animate:stickyFit: /* Error: Ran out of types for this method. */;
-- (id)ocks;
+- (void)setZoomFactor:withCenter:animate:stickyFit: /* Error: Ran out of types for this method. */;
+- (id)_redrawExistingBlocks;
 
 // Remaining properties
 @property _Bool allowsSlowMotion; // @synthesize allowsSlowMotion=_allowsSlowMotion;

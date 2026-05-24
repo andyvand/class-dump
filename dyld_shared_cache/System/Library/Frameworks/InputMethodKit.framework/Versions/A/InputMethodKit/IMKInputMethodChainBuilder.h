@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 @protocol IMKInputMethod><IMKChainable;
 
 @interface IMKInputMethodChainBuilder
 {
     NSMutableArray *_chainClasses;
-    id <IMKInputMethod><IMKChainable> _terminus;
-    id <IMKInputMethod><IMKChainable> _chain;
-    NSArray *_chainMembers;
-    CDUnknownBlockType _configureChain;
 }
 
-- (void);
+- (void)l;
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) CDUnknownBlockType configureChain; // @synthesize configureChain=_configureChain;
 @property(readonly, nonatomic) id <IMKInputMethod><IMKChainable> inputMethod;
-@property(readonly, nonatomic) NSArray *inputMethods;
 
 @end
 

@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSArray, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
+@class ACAccount;
 
 @interface ICDeviceListRequest
 {
     _Bool _didGetICloudDeviceList;
-    NSArray *_devices;
-    ACAccount *_account;
-    NSObject<OS_dispatch_semaphore> *_workSemaphore;
-    NSString *_name;
-    NSString *_model;
-    NSString *_modelDisplayName;
-    NSString *_softwareVersion;
 }
 
 + (id);
 + (id);
 + (id);
 - (_Bool);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (_Bool);
@@ -31,19 +23,19 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)clearOnDequeue;
 - (id);
 - (void);
-- (void);
+- (void)BarAssigneePickerModuleInterfaceP;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)alt="%@">;
 - (id);
-- (id);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (void)T4;
@@ -51,13 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSArray *devices; // @synthesize devices=_devices;
-@property _Bool didGetICloudDeviceList; // @synthesize didGetICloudDeviceList=_didGetICloudDeviceList;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *modelDisplayName; // @synthesize modelDisplayName=_modelDisplayName;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *softwareVersion; // @synthesize softwareVersion=_softwareVersion;
-@property(retain) NSObject<OS_dispatch_semaphore> *workSemaphore; // @synthesize workSemaphore=_workSemaphore;
 
 @end
 

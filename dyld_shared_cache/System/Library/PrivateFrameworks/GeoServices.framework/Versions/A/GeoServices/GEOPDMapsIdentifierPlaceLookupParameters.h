@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDMapsIdentifierPlaceLookupParameters
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_mapsIds;
-    int _resultProviderId;
-    _Bool _enablePartialClientization;
-    struct {
-        unsigned int has_resultProviderId:1;
-        unsigned int has_enablePartialClientization:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)#/;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (id)s"b1"wrote_anyField"b1};
 - (id)_firstRelatedPlaceListForType: /* Error: Ran out of types for this method. */;

@@ -7,9 +7,6 @@
 @interface AppleMediaServicesUI.CodeRedeemerModel
 {
     id _result;
-    id _sessionTimeout;
-    id handlers;
-    id controller;
 }
 
 @end

@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int deepFusionImageOutputIndex;
 @property(readonly, nonatomic) unsigned int mainImageOutputIndex;
 
 @end

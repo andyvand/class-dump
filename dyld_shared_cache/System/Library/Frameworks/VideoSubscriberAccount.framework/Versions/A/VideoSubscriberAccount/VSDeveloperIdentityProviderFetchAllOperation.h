@@ -6,23 +6,21 @@
 
 #import <VideoSubscriberAccount/VSAsyncOperation.h>
 
-@class VSDeveloperServiceConnection, VSOptional;
+@class VSOptional;
 
 @interface VSDeveloperIdentityProviderFetchAllOperation : VSAsyncOperation
 {
     VSOptional *_result;
-    VSDeveloperServiceConnection *_connection;
 }
 
 - (id);
-- (void);
-- (void);
+- (void)5callable_holderIZ49-[FIFinderView canCreateNewFolderWithReplyBlock:(id)arg1 ]E3$_2vJEEE;
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) VSDeveloperServiceConnection *connection; // @synthesize connection=_connection;
 @property(retain, nonatomic) VSOptional *result; // @synthesize result=_result;
 
 @end

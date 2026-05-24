@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFont;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileImageConfiguration
 {
     _Bool _imageContainedInBundle;
-    NSString *_string;
-    UIFont *_font;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
+- (_Bool)target;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(readonly, nonatomic) _Bool imageContainedInBundle; // @synthesize imageContainedInBundle=_imageContainedInBundle;
 @property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

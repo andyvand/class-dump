@@ -4,51 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDraggingSession, NSImage, NSLayoutConstraint, NSPasteboard, NSString, NSTrackingArea, NSViewController, NSVisualEffectView, NSWindow, SSCallScrollView, SSCallTrackingView, SSEventSession;
+@class NSWindow;
 
 @interface SSCallTrackingWindow
 {
     _Bool _persistentChrome;
-    _Bool _slowAnimation;
-    _Bool _supportsControlModeRequest;
-    _Bool _keyboardFocusEnabled;
-    _Bool _voiceOverEnabled;
-    _Bool _setInitialSize;
-    _Bool _exitFullScreenTransition;
-    _Bool _allowsFileTransferToRemote;
-    _Bool _allowsFileTransferFromRemote;
-    NSVisualEffectView *_backgroundView;
-    NSLayoutConstraint *_backgroundViewTop;
-    SSCallScrollView *_scrollView;
-    SSCallTrackingView *_trackingView;
-    double _contentCornerRadius;
-    double _callViewCornerRadius;
-    SSEventSession *_eventSession;
-    NSWindow *_window;
-    NSViewController *_callViewController;
-    NSLayoutConstraint *_remoteContentLeading;
-    NSLayoutConstraint *_remoteContentTrailing;
-    NSLayoutConstraint *_remoteContentTop;
-    NSLayoutConstraint *_remoteContentBottom;
-    double _wfLeadingAdjust;
-    double _wfTrailingAdjust;
-    double _wfTopAdjust;
-    double _wfBottomAdjust;
-    double _rcLeadingAdjust;
-    double _rcTrailingAdjust;
-    double _rcTopAdjust;
-    double _rcBottomAdjust;
-    NSLayoutConstraint *_trackingAreaLeading;
-    NSLayoutConstraint *_trackingAreaTrailing;
-    NSLayoutConstraint *_trackingAreaTop;
-    NSLayoutConstraint *_trackingAreaBottom;
-    NSTrackingArea *_scrollViewTrackingArea;
-    NSPasteboard *_remotePasteboard;
-    NSImage *_remoteDragImage;
-    NSArray *_remoteFilePaths;
-    NSArray *_uniqueRemoteFilePaths;
-    NSDraggingSession *_dragSession;
-    NSArray *_savedRegisteredDraggedTypes;
 }
 
 - (struct CGSize);
@@ -65,36 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -102,6 +33,35 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)U;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)q;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -136,13 +96,13 @@
 - (_Bool);
 - (struct CGSize);
 - (double);
-- (void);
+- (void)0(;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?שC;
 - (void);
 - (void);
 - (void);
@@ -166,7 +126,7 @@
 - (_Bool);
 - (struct CGPoint);
 - (double);
-- (id);
+- (id)accountProviderResponse;
 - (void);
 - (void);
 - (void);
@@ -182,64 +142,6 @@
 - (_Bool)ion terminated - close session;
 
 // Remaining properties
-@property _Bool allowsFileTransferFromRemote; // @synthesize allowsFileTransferFromRemote=_allowsFileTransferFromRemote;
-@property _Bool allowsFileTransferToRemote; // @synthesize allowsFileTransferToRemote=_allowsFileTransferToRemote;
-@property NSVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property NSLayoutConstraint *backgroundViewTop; // @synthesize backgroundViewTop=_backgroundViewTop;
-@property(retain) NSViewController *callViewController; // @synthesize callViewController=_callViewController;
-@property double callViewCornerRadius; // @synthesize callViewCornerRadius=_callViewCornerRadius;
-@property double contentCornerRadius; // @synthesize contentCornerRadius=_contentCornerRadius;
-@property(readonly) struct CGSize contentSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned int desiredLayerRotation;
-@property(retain) NSDraggingSession *dragSession; // @synthesize dragSession=_dragSession;
-@property(retain) SSEventSession *eventSession; // @synthesize eventSession=_eventSession;
-@property _Bool exitFullScreenTransition; // @synthesize exitFullScreenTransition=_exitFullScreenTransition;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool keyboardFocusEnabled; // @synthesize keyboardFocusEnabled=_keyboardFocusEnabled;
-@property _Bool persistentChrome; // @synthesize persistentChrome=_persistentChrome;
-@property double rcBottomAdjust; // @synthesize rcBottomAdjust=_rcBottomAdjust;
-@property double rcLeadingAdjust; // @synthesize rcLeadingAdjust=_rcLeadingAdjust;
-@property double rcTopAdjust; // @synthesize rcTopAdjust=_rcTopAdjust;
-@property double rcTrailingAdjust; // @synthesize rcTrailingAdjust=_rcTrailingAdjust;
-@property(retain) NSLayoutConstraint *remoteContentBottom; // @synthesize remoteContentBottom=_remoteContentBottom;
-@property(retain) NSLayoutConstraint *remoteContentLeading; // @synthesize remoteContentLeading=_remoteContentLeading;
-@property(retain) NSLayoutConstraint *remoteContentTop; // @synthesize remoteContentTop=_remoteContentTop;
-@property(retain) NSLayoutConstraint *remoteContentTrailing; // @synthesize remoteContentTrailing=_remoteContentTrailing;
-@property(retain) NSImage *remoteDragImage; // @synthesize remoteDragImage=_remoteDragImage;
-@property(copy) NSArray *remoteFilePaths; // @synthesize remoteFilePaths=_remoteFilePaths;
-@property(retain) NSPasteboard *remotePasteboard; // @synthesize remotePasteboard=_remotePasteboard;
-@property(retain) NSArray *savedRegisteredDraggedTypes; // @synthesize savedRegisteredDraggedTypes=_savedRegisteredDraggedTypes;
-@property(retain) SSCallScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain) NSTrackingArea *scrollViewTrackingArea; // @synthesize scrollViewTrackingArea=_scrollViewTrackingArea;
-@property(readonly) struct CGRect sessionFrame;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property _Bool setInitialSize; // @synthesize setInitialSize=_setInitialSize;
-@property _Bool slowAnimation; // @synthesize slowAnimation=_slowAnimation;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsControlModeRequest; // @synthesize supportsControlModeRequest=_supportsControlModeRequest;
-@property(readonly) _Bool supportsFileTransfer;
-@property(retain) NSLayoutConstraint *trackingAreaBottom; // @synthesize trackingAreaBottom=_trackingAreaBottom;
-@property(retain) NSLayoutConstraint *trackingAreaLeading; // @synthesize trackingAreaLeading=_trackingAreaLeading;
-@property(retain) NSLayoutConstraint *trackingAreaTop; // @synthesize trackingAreaTop=_trackingAreaTop;
-@property(retain) NSLayoutConstraint *trackingAreaTrailing; // @synthesize trackingAreaTrailing=_trackingAreaTrailing;
-@property(retain) SSCallTrackingView *trackingView; // @synthesize trackingView=_trackingView;
-@property(copy) NSArray *uniqueRemoteFilePaths; // @synthesize uniqueRemoteFilePaths=_uniqueRemoteFilePaths;
-@property(readonly) _Bool useAVConference;
-@property(readonly, nonatomic) _Bool voiceOverEnabled; // @synthesize voiceOverEnabled=_voiceOverEnabled;
-@property double wfBottomAdjust; // @synthesize wfBottomAdjust=_wfBottomAdjust;
-@property double wfLeadingAdjust; // @synthesize wfLeadingAdjust=_wfLeadingAdjust;
-@property double wfTopAdjust; // @synthesize wfTopAdjust=_wfTopAdjust;
-@property double wfTrailingAdjust; // @synthesize wfTrailingAdjust=_wfTrailingAdjust;
 @property(retain) NSWindow *window; // @synthesize window=_window;
 
 @end

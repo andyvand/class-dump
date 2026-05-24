@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol AFExperimentGroupMutating
+- (void)initWithSenderInfo:(NSString *)arg1 time:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:type: /* Error: Ran out of types for this method. */;
 @end
 

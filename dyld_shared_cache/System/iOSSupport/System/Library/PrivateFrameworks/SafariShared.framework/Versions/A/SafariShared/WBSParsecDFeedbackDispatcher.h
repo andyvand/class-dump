@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray, NSObject, NSString, NSTimer, WBSCompletionQuery;
-@protocol OS_dispatch_queue;
+@class NSMapTable;
 
 @interface WBSParsecDFeedbackDispatcher
 {
     NSMapTable *_queriesToDictionariesFromSearchTypesToStartSearchFeedbacks;
-    NSObject<OS_dispatch_queue> *_feedbackQueue;
-    NSObject<OS_dispatch_queue> *_queriesToDictionariesMappingQueue;
-    NSArray *_feedbackListeners;
-    WBSCompletionQuery *_previousQueryForVisibleResultsFeedback;
-    WBSCompletionQuery *_currentQueryForVisibleResultsFeedback;
-    NSTimer *_sendPendingVisibleResultsFeedbackFeedbackEventsTimer;
-    NSMutableArray *_visibleResultsFeedbackEventsToBeSent;
-    NSMutableArray *_previousRankingFeedbackEventsSentForCurrentQueryID;
-    long long _previousQueryIDForRankedResultsFeedback;
 }
 
 - (void);
@@ -32,6 +22,8 @@
 - (void);
 - (void);
 - (void);
+- (void)9(!*Q;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,12 +37,10 @@
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
@@ -58,19 +48,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void)D;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,19 +6,12 @@
 
 #import <AVConference/VCAudioCaptions.h>
 
-@class NSMutableDictionary, NSString, STSpeechTranslatorClient, STSpeechTranslatorConfiguration;
+@class STSpeechTranslatorClient;
 
 __attribute__((visibility("hidden")))
 @interface VCAudioCaptionsSpeechTranslator : VCAudioCaptions
 {
     STSpeechTranslatorClient *_translatorClient;
-    STSpeechTranslatorConfiguration *_translatorConfiguration;
-    unsigned int _currentTranslatedUpdateNumber;
-    unsigned int _currentSourceUpdateNumber;
-    _Bool _isStarted;
-    double _translatorStartTime;
-    double _translatorStartDuration;
-    NSMutableDictionary *_transcriptionTimes;
 }
 
 - (void);
@@ -44,13 +37,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

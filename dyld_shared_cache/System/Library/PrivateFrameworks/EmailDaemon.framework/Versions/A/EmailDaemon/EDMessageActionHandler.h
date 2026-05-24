@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFLocked, EFManualCancelationToken, MEAppExtensionsController, NSArray, NSString;
+@class MEAppExtensionsController, NSArray;
 
 @interface EDMessageActionHandler
 {
     MEAppExtensionsController *_extensionsController;
-    EFLocked *_remoteExtensions;
-    EFManualCancelationToken *_extensionsObserverCancelable;
 }
 
 + (id)tð!Ø@ù³ð1Â0@ù
 × ;
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void).searchableIndex.scheduler.maintenance;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *messageActionProviders;
-@property(readonly, copy, nonatomic) NSArray *requiredHeaders;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,51 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
-
 @interface WBSUserDefinedContentBlockerAction
 {
     _Bool _global;
-    long long _databaseID;
-    NSString *_selector;
-    NSString *_typeString;
-    NSString *_renderTreeText;
-    NSString *_imageAnalysisText;
-    NSString *_searchableText;
-    NSString *_screenReaderText;
-    NSArray *_allSelectorsIncludingShadowHosts;
-    NSSet *_mediaAndLinkURLs;
-    NSSet *_hostsWhereActionHasApplied;
-    long long _positionType;
-    unsigned long long _edgeAnchors;
-    double _viewZoomScale;
-    struct CGRect _bounds;
-    struct {
-        double left;
-        double top;
-        double right;
-        double bottom;
-    } _edgeInsets;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allSelectorsIncludingShadowHosts; // @synthesize allSelectorsIncludingShadowHosts=_allSelectorsIncludingShadowHosts;
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
 @property(readonly, nonatomic) long long databaseID; // @synthesize databaseID=_databaseID;
-@property(nonatomic) unsigned long long edgeAnchors; // @synthesize edgeAnchors=_edgeAnchors;
-@property(nonatomic) struct edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(readonly, nonatomic, getter=isGlobal) _Bool global; // @synthesize global=_global;
-@property(readonly, nonatomic) NSSet *hostsWhereActionHasApplied; // @synthesize hostsWhereActionHasApplied=_hostsWhereActionHasApplied;
-@property(copy, nonatomic) NSString *imageAnalysisText; // @synthesize imageAnalysisText=_imageAnalysisText;
-@property(retain, nonatomic) NSSet *mediaAndLinkURLs; // @synthesize mediaAndLinkURLs=_mediaAndLinkURLs;
-@property(nonatomic) long long positionType; // @synthesize positionType=_positionType;
-@property(copy, nonatomic) NSString *renderTreeText; // @synthesize renderTreeText=_renderTreeText;
-@property(copy, nonatomic) NSString *screenReaderText; // @synthesize screenReaderText=_screenReaderText;
-@property(copy, nonatomic) NSString *searchableText; // @synthesize searchableText=_searchableText;
-@property(retain, nonatomic) NSString *selector; // @synthesize selector=_selector;
-@property(readonly, nonatomic) NSArray *selectorsForStyleSheetRules;
-@property(retain, nonatomic) NSString *typeString; // @synthesize typeString=_typeString;
-@property(nonatomic) double viewZoomScale; // @synthesize viewZoomScale=_viewZoomScale;
 @end
 

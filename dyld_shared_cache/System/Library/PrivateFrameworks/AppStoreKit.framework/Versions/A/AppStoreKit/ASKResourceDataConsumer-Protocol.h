@@ -5,5 +5,6 @@
 //
 
 @protocol ASKResourceDataConsumer
+- (id);
 @end
 

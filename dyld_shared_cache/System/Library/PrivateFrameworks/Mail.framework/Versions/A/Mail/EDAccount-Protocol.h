@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString;
+@class NSString;
 
 @protocol EDAccount
-- (_Bool)etionHandler: /* Error: Ran out of types for this method. */;
-- (NSString *)oxes are unknown).;
 - (NSString *);
+- (_Bool)G;
+- (NSString *)G.;
+- (_Bool)replaceContentForRequestWithIdentifier:replacementContent:completionHandler: /* Error: Ran out of types for this method. */;
+- (NSString *)oxes are unknown).;
 
 // Remaining properties
-@property(readonly, copy) NSString *altDSID;
-@property(copy) NSString *displayName;
 @property(readonly, copy) NSString *identifier;
-@property(readonly) _Bool isActive;
-@property(readonly) _Bool primaryiCloudAccount;
-@property(readonly, copy, nonatomic) NSString *statisticsKind;
-@property(readonly) ACAccount *systemAccount;
-@property(readonly, copy) NSString *username;
 @end
 

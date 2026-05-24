@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, _UIBarButtonItemAppearanceStorage;
+@class _UIBarButtonItemAppearanceStorage;
 
 @interface UIKit.ButtonWrapper__priv_DDE14AA6B49FCAFC5A54255A118E1D87.AppearanceDelegate
 {
     id isCompact;
-    id isSingleItemSection;
-    id metrics;
 }
 
-- (id);
+- (id)g up sync metric using opGroup %@;
 - (double);
 - (struct CGRect);
 - (struct CGPoint);
@@ -21,11 +19,11 @@
 - (id)!À@ùQg°1Â0@ù
 × ;
 - (struct CGRect)isRepositioningRectDisabled"b1"sendingDelegateWillRepositionToRect"b1"isObservingFocusUpdateNotification"b1};
-- (struct CGRect)estrictionsUpdate;
-- (double)tRect: /* Error: Ran out of types for this method. */;
-- (_Bool)ey: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ortsImagePasteCached;
-- (id): /* Error: Ran out of types for this method. */;
+- (struct CGRect)setNeedsSizeRestrictionsUpdate;
+- (double)setContributesToPocketContentRect: /* Error: Ran out of types for this method. */;
+- (_Bool)queueDelayedTask:forKey: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_supportsImagePasteCached;
+- (id)_fbsSceneLayerForWindow: /* Error: Ran out of types for this method. */;
 - (double)är;
 - (id)ÀÔ;
 - (id)aceholder context reuseIdentifier (%@). Please file a bug against UICollectionView.;
@@ -38,15 +36,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _UIBarButtonItemAppearanceStorage *appearanceStorage;
-@property(nonatomic, readonly) double backButtonMargin;
-@property(nonatomic, readonly) double backButtonMaximumWidth;
-@property(nonatomic, readonly) long long barType;
-@property(nonatomic, readonly) struct CGRect bounds;
-@property(nonatomic, readonly) _Bool centerTextButtons;
-@property(nonatomic, readonly) _Bool compactMetrics;
-@property(nonatomic, readonly) double defaultEdgeSpacing;
-@property(nonatomic, readonly) double defaultTextPadding;
-@property(nonatomic, readonly) UIColor *tintColor;
 
 @end
 

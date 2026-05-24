@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SecSFAParsedCollection
 {
     _Bool _excludedVersion;
-    NSMutableDictionary *_matchingRules;
-    NSMutableDictionary *_allowedEvents;
 }
 
 - (void);
@@ -23,8 +21,6 @@ __attribute__((visibility("hidden")))
 - (void)Ä;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *allowedEvents; // @synthesize allowedEvents=_allowedEvents;
-@property _Bool excludedVersion; // @synthesize excludedVersion=_excludedVersion;
 @property(retain) NSMutableDictionary *matchingRules; // @synthesize matchingRules=_matchingRules;
 
 @end

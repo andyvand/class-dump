@@ -6,43 +6,26 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSString, NSUUID;
-
 @interface IMParticipantChangeChatItem : IMTranscriptChatItem
 {
     _Bool _failed;
-    IMHandle *_sender;
-    IMHandle *_otherHandle;
-    NSUUID *_activeTelephonyConversationUUID;
 }
 
-- (id);
-- (id);
+- (id)%s:(id)arg1 %d %@(%p) Max Screen capture frame rate:(id)arg2 = %d;
+- (id):(id)arg1 %d Max Screen capture frame rate:(id)arg2 = %d;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (long long);
 - (id);
 - (void)È?	@AC$E;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *activeTelephonyConversationUUID; // @synthesize activeTelephonyConversationUUID=_activeTelephonyConversationUUID;
 @property(readonly, nonatomic) long long changeType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool failed; // @synthesize failed=_failed;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) IMHandle *otherHandle; // @synthesize otherHandle=_otherHandle;
-@property(readonly, nonatomic) IMHandle *sender; // @synthesize sender=_sender;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool unattributed;
 
 @end
 

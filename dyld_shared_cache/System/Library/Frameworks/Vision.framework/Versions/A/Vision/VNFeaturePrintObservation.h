@@ -6,8 +6,6 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSData;
-
 @interface VNFeaturePrintObservation : VNObservation
 {
 }
@@ -20,8 +18,6 @@
 - (unsigned long long)Ô ;
 
 // Remaining properties
-@property(readonly) NSData *data;
-@property(readonly) unsigned long long elementCount;
 @property(readonly) unsigned long long elementType;
 
 @end

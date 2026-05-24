@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface WBSFormMetadataPasswordRules
 {
     void passwordFieldPasswordRules;
-    NSNumber *__passwordFieldMinLength;
-    NSNumber *__passwordFieldMaxLength;
-    void confirmPasswordFieldPasswordRules;
-    NSNumber *__confirmPasswordFieldMinLength;
-    NSNumber *__confirmPasswordFieldMaxLength;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -34,11 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSNumber *confirmPasswordFieldMaxLength; // @synthesize confirmPasswordFieldMaxLength=__confirmPasswordFieldMaxLength;
-@property(nonatomic, readonly) NSNumber *confirmPasswordFieldMinLength; // @synthesize confirmPasswordFieldMinLength=__confirmPasswordFieldMinLength;
-@property(nonatomic, copy) NSString *confirmPasswordFieldPasswordRules;
-@property(nonatomic, readonly) NSNumber *passwordFieldMaxLength; // @synthesize passwordFieldMaxLength=__passwordFieldMaxLength;
-@property(nonatomic, readonly) NSNumber *passwordFieldMinLength; // @synthesize passwordFieldMinLength=__passwordFieldMinLength;
 @property(nonatomic, readonly) NSString *passwordFieldPasswordRules;
 
 @end

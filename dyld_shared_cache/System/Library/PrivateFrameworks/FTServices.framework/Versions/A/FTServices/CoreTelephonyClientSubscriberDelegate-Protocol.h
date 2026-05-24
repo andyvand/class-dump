@@ -5,5 +5,11 @@
 //
 
 @protocol CoreTelephonyClientSubscriberDelegate
+
+@optional
+- (void);
+- (void)]%	;
+- (void)o;
+- (void)r was longer than %d characters.  Please choose a shorter identifer;
 @end
 

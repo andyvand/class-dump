@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GEOBluePOIAOIRing
 {
     unsigned long long _insertIdx;
-    CDStruct_c3b9c2ee *_points;
-    unsigned long long _pointCount;
 }
 
 - (void);
@@ -22,15 +18,7 @@
 - (CDStruct_c3b9c2ee *)B²6;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long pointCount; // @synthesize pointCount=_pointCount;
 @property(readonly, nonatomic) CDStruct_c3b9c2ee *points; // @synthesize points=_points;
-@property(readonly) Class superclass;
 
 @end
 

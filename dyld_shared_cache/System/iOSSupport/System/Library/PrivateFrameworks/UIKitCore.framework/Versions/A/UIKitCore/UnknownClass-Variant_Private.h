@@ -7,15 +7,15 @@
 @class NSNumber;
 
 @interface UnknownClass (Variant_Private)
-+ (double);
++ (double)ply edits, message edit is older than previously processed edit. ThisEdit:%@, DateOfLastEdit:%@ /* Error: Ran out of types for this method. */;
 + (void);
 + (void);
-+ (id);
++ (id)`-!;
 + (id);
 + (id);
 + (double);
 + (id)¼À;
-- (id);
+- (id)Sl;
 - (id);
 - (id);
 - (id);

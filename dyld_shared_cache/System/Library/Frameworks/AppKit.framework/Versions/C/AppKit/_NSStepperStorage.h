@@ -6,18 +6,13 @@
 
 #import <AppKit/_NSControlStorage.h>
 
-@protocol NSStepperVisualProvider;
-
 __attribute__((visibility("hidden")))
 @interface _NSStepperStorage : _NSControlStorage
 {
     _Bool _valueWraps;
-    _Bool _autorepeat;
-    id <NSStepperVisualProvider> _visualProvider;
-    double _increment;
 }
 
-- (void);
+- (void);
 
 @end
 

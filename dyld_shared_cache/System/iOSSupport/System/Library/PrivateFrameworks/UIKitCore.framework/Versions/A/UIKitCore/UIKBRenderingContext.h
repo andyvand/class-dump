@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIKBRenderConfig, UIView;
-@protocol UIKBRenderingContextPopupView;
+@class UIView;
 
 @interface UIKBRenderingContext
 {
     _Bool _isFloating;
-    _Bool _isColorAdaptiveNonLinearCarplayKeyboard;
-    unsigned long long _shiftState;
-    long long _keyboardType;
-    UIKBRenderConfig *_renderConfig;
-    long long _handBias;
-    UIView *_layoutView;
 }
 
-+ (id)ctToKeepValid;
++ (id)_rectToKeepValid;
 - (_Bool);
 - (unsigned long long);
 - (long long)1Â0@ù
 × ;
 - (id)!|Fù±bÐ1Â0@ù
 × ;
-- (id)onHeader;
-- (_Bool)attackSpeed:(id)arg1 decaySpeed: /* Error: Ran out of types for this method. */;
-- (id)ragSetDownAnimationWindow;
+- (id)sectionHeader;
+- (_Bool)initWithMinimumPower:(id)arg1 maximumPower:historyLength:attackSpeed:decaySpeed: /* Error: Ran out of types for this method. */;
+- (id)_UIDragSetDownAnimationWindow;
 - (void)presentation;
-- (_Bool)cer;
+- (_Bool)_UIAnimatedTextSpacer;
 - (id)entSubgraphForGestureRecognizer(UIGestureEnvironment *__unsafe_unretained, UIGestureRecognizer *__unsafe_unretained);
 - (void)entingViewController of %@, expected %@;
 - (id)allowed as individual navigation bar button item. Please use the rightBarButtonItems (that's plural) property.;
@@ -43,15 +36,7 @@
 - (void)(Àzÿ*÷ÚØk;
 
 // Remaining properties
-@property(nonatomic) long long handBias; // @synthesize handBias=_handBias;
-@property(readonly, nonatomic) UIView<UIKBRenderingContextPopupView> *inputSwitcherView;
-@property(nonatomic) _Bool isColorAdaptiveNonLinearCarplayKeyboard; // @synthesize isColorAdaptiveNonLinearCarplayKeyboard=_isColorAdaptiveNonLinearCarplayKeyboard;
-@property(nonatomic) _Bool isFloating; // @synthesize isFloating=_isFloating;
-@property(nonatomic) long long keyboardType; // @synthesize keyboardType=_keyboardType;
 @property(nonatomic) __weak UIView *layoutView; // @synthesize layoutView=_layoutView;
-@property(retain, nonatomic) UIKBRenderConfig *renderConfig; // @synthesize renderConfig=_renderConfig;
-@property(nonatomic) unsigned long long shiftState; // @synthesize shiftState=_shiftState;
-@property(readonly, nonatomic) UIView<UIKBRenderingContextPopupView> *splitControlView;
 
 @end
 

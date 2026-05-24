@@ -4,59 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessCodeValue, HMAccessoryAccessCodeValue, NSArray, NSError, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMAccessCodeModificationResponseValue
 {
     NSUUID *_accessoryUUID;
-    HMAccessoryAccessCodeValue *_accessoryAccessCodeValue;
-    HMAccessCodeValue *_accessCodeValue;
-    long long _operationType;
-    NSError *_error;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)c`LbALc;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)trademark;
 - (id);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (void)a system due to no home;
-- (id)aracteristicValueUpdateTime;
+- (id)kCharacteristicValueUpdateTime;
 
 // Remaining properties
-@property(readonly, copy) HMAccessCodeValue *accessCodeValue; // @synthesize accessCodeValue=_accessCodeValue;
-@property(readonly, copy) HMAccessoryAccessCodeValue *accessoryAccessCodeValue; // @synthesize accessoryAccessCodeValue=_accessoryAccessCodeValue;
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long operationType; // @synthesize operationType=_operationType;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

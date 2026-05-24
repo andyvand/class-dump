@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface AVTPreset
 {
     long long _category;
-    NSString *_identifier;
-    NSArray *_assets;
-    unsigned long long _editableColorCount;
-    NSString *_morphVariant;
-    NSString *_imageVariant;
-    NSString *_materialVariant;
-    float _morphVariantIntensity;
-    float _bodyPoseVariantIntensity;
-    float _textureAssetPresence;
-    NSArray *_dependencies;
-    NSDictionary *_assetSpecificMorphVariantDependencies;
-    NSDictionary *_assetSpecificImageVariantDependencies;
-    NSDictionary *_assetSpecificMaterialVariantDependencies;
-    NSDictionary *_presetSpecificPresetDependencies;
-    NSDictionary *_tags;
-    NSDictionary *_specializationSettings;
 }
 
 + (id);
 + (id);
-+ (unsigned long long);
++ (unsigned long long)C;
 + (id);
-+ (id);
-+ (id);
++ (id)age = NULL
+ WHERE ROWID IN (SELECT message_id FROM searchable_rebuild);;
++ (id)COALESCE(server_metadata, '{}'),
+    '$.;
 - (id);
 - (void);
 - (id);
@@ -43,27 +27,19 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)nsportStreams(FigEndpointRemoteControlSessionRef, FigTransportStreamRef *, FigTransportStreamRef *);
 - (id);
-- (id);
+- (id)hold, %.2lf, solution_to_check_against_position_unc, %.2f, sol_position_unc, %.2f.Marking the RavenSolution as unhealthy. Exiting with check passed return value.;
 - (id);
 - (long long);
+- (id)NDEX IF NOT EXISTS record_v2_store_uuid ON record_v2 (store_v2_id, uuid);;
 - (id);
-- (id);
-- (id);
+- (id)tingsAudioGroupTitle:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long category;
-@property(readonly, nonatomic) NSString *displayableName;
-@property(readonly, nonatomic) unsigned long long editableColorCount; // @synthesize editableColorCount=_editableColorCount;
-@property(readonly, nonatomic) _Bool hasComponent;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) NSString *localizedPairedName;
-@property(readonly) NSDictionary *specializationSettings; // @synthesize specializationSettings=_specializationSettings;
-@property(readonly, nonatomic) NSDictionary *tags; // @synthesize tags=_tags;
 
 @end
 

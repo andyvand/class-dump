@@ -7,21 +7,12 @@
 @interface OBEXSession
 {
     _Bool mHasOBEXConnection;
-    _Bool mIsServer;
-    unsigned short mMaxPacketLength;
-    char *mReceivePacketBuffer;
-    unsigned long long mResponsePacketDataLengthExpected;
-    unsigned long long mResponsePacketDataLengthSoFar;
-    unsigned char mIncompletePacketResponseCode;
-    struct OpaquePrivOBEXSessionData *mPrivateOBEXSessionData;
-    unsigned short mTheirMaxPacketLength;
-    unsigned short mOurMaxPacketLength;
 }
 
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)Rf;
 - (void);
 - (void);
 - (int);
@@ -30,23 +21,23 @@
 - (unsigned char);
 - (void);
 - (id);
-- (unsigned short);
+- (unsigned short)T?;
 - (void);
 - (char *);
-- (unsigned short);
+- (unsigned short);
 - (unsigned short);
 - (int);
 - (void);
 - (int);
 - (int);
+- (int);
 - (int);
 - (int);
 - (int);
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
+- (int)7(;
 - (int);
 - (int);
 - (void);

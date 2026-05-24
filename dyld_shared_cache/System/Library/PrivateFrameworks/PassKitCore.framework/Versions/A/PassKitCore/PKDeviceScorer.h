@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKDSPContext;
-
 @interface PKDeviceScorer
 {
     double _deviceScoreTimeout;
-    PKDSPContext *_context;
 }
 
-+ (_Bool);
++ (_Bool)*;
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
 - (id);
-- (id);
-- (id)gister;
+- (id)SGTSuggestion;
+- (id)provisioning:(id)arg1 preflight:register /* Error: Ran out of types for this method. */;
 - (void)cCompletion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) PKDSPContext *context; // @synthesize context=_context;
 @property(nonatomic) double deviceScoreTimeout; // @synthesize deviceScoreTimeout=_deviceScoreTimeout;
 
 @end

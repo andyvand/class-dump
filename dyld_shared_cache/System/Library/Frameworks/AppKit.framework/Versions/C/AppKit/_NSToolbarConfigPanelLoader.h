@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (void)rection;
+- (id)nsationTraits:failed to access device tree /* Error: Ran out of types for this method. */;
+- (void)LayoutDirection;
 
 @end
 

@@ -6,24 +6,11 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAP2PropertyLock, NSArray, NSNumber, NSString;
-@protocol HAP2AccessoryDelegate, HAP2PairedAccessoryServer, HAP2PairedAccessoryServerPrivate;
+@protocol HAP2AccessoryDelegate, HAP2PairedAccessoryServerPrivate;
 
 @interface HAP2Accessory : HAP2LoggingObject
 {
     id <HAP2AccessoryDelegate> _delegate;
-    unsigned long long _instanceID;
-    NSString *_identifier;
-    NSString *_name;
-    NSString *_model;
-    NSString *_manufacturer;
-    NSString *_serialNumber;
-    NSString *_firmwareVersion;
-    NSString *_productData;
-    NSNumber *_internalSleepIntervalMs;
-    NSArray *_services;
-    id <HAP2PairedAccessoryServerPrivate> _accessoryServerPrivate;
-    HAP2PropertyLock *_propertyLock;
 }
 
 + (_Bool);
@@ -51,55 +38,31 @@
 - (id);
 - (void);
 - (id);
+- (void)ive=%tu;
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)y;
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)tableView:nextTypeSelectMatchFromRow:toRow:forString: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id)@20@0:8I16 /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void)otificationStateForCharacteristic:error: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)B;
+- (void)peripheral:didUpdateNotificationStateForCharacteristic:error: /* Error: Ran out of types for this method. */;
+- (void)_reportHAPPeripheral:(id)arg1;
 - (void)ength of %tu bytes;
 - (id):%zu 
  /* Error: Ran out of types for this method. */;
 - (id)ðÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <HAP2PairedAccessoryServer> accessoryServer;
 @property(readonly, nonatomic) __weak id <HAP2PairedAccessoryServerPrivate> accessoryServerPrivate; // @synthesize accessoryServerPrivate=_accessoryServerPrivate;
-@property(readonly, nonatomic) unsigned long long category;
-@property(readonly, nonatomic) unsigned long long connectionState;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HAP2AccessoryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) unsigned long long instanceID; // @synthesize instanceID=_instanceID;
-@property(retain, nonatomic) NSNumber *internalSleepIntervalMs; // @synthesize internalSleepIntervalMs=_internalSleepIntervalMs;
-@property(copy, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic, getter=isPrimary) _Bool primary;
-@property(copy, nonatomic) NSString *productData; // @synthesize productData=_productData;
-@property(readonly, nonatomic) HAP2PropertyLock *propertyLock; // @synthesize propertyLock=_propertyLock;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(copy, nonatomic) NSArray *services; // @synthesize services=_services;
-@property(readonly, nonatomic) double sleepInterval;
-@property(readonly) Class superclass;
 
 @end
 

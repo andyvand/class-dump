@@ -7,8 +7,6 @@
 @interface AppleMediaServicesUI.ResolveHandler__priv_979071C457E1FFC1018DF21596B54FC0
 {
     id $defaultActor;
-    id resultPromise;
-    id hasResolved;
 }
 
 @end

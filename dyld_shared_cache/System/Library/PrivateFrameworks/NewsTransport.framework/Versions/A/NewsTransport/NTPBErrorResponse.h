@@ -13,20 +13,20 @@
 
 + (Class);
 - (unsigned long long);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)6__funcIZN15InputTranscoder26TouchTranscoderSessionImpl22getEditDistancePenaltyERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESB_E3$_0FdRNS2_14KeyboardLayoutEEEE;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)0;
 - (id);
-- (id);
-- (void);
+- (id)qI;
+- (void)locationMappingsAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *errors; // @synthesize errors=_errors;

@@ -9,32 +9,28 @@
 @interface PKPeerPaymentPreferencesRestriction
 {
     NSString *_altDSID;
-    unsigned long long _sendRestrictionType;
-    unsigned long long _receiveRestrictionType;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)on"b1"selfFgDuration"b1"timestamp"b1"pencilOffCount"b1"pencilOnCount"b1"remoteBgEntryCount"b1"remotePeerRssi24G"b1"remotePeerRssi5G"b1"selfBgEntryCount"b1"selfPeerRssi24G"b1"selfPeerRssi5G"b1"remotefIsSDB"b1"selfIsSDB"b1};
+- (void)AfterDecision;
 - (void);
 - (id);
 - (id);
-- (id)ecordName:(id)arg1;
+- (id)initWithItemType:(id)arg1 recordName: /* Error: Ran out of types for this method. */;
 - (void)tem is not a kind of PKPaymentSymmaryItem;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(nonatomic) unsigned long long receiveRestrictionType; // @synthesize receiveRestrictionType=_receiveRestrictionType;
-@property(nonatomic) unsigned long long sendRestrictionType; // @synthesize sendRestrictionType=_sendRestrictionType;
 
 @end
 

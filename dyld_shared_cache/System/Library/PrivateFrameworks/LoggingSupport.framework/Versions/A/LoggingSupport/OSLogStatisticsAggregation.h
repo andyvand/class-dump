@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSString, NSUUID;
-
 @interface OSLogStatisticsAggregation
 {
     unsigned char _tier;
-    NSMutableDictionary *_labelToChildTiers;
-    unsigned long long _eventCount;
-    unsigned long long _eventBytes;
-    NSString *_formatString;
-    NSString *_label;
-    NSUUID *_senderUUID;
-    NSNumber *_senderOffset;
 }
 
 + (id);
@@ -29,7 +20,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -43,20 +34,12 @@
 - (unsigned char);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (void);
+- (void)6;
 
 // Remaining properties
-@property(nonatomic) unsigned long long eventBytes; // @synthesize eventBytes=_eventBytes;
 @property(nonatomic) unsigned long long eventCount; // @synthesize eventCount=_eventCount;
-@property(readonly, nonatomic) NSString *formatString; // @synthesize formatString=_formatString;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSMutableDictionary *labelToChildTiers; // @synthesize labelToChildTiers=_labelToChildTiers;
-@property(readonly, nonatomic) NSNumber *senderOffset; // @synthesize senderOffset=_senderOffset;
-@property(readonly, nonatomic) NSUUID *senderUUID; // @synthesize senderUUID=_senderUUID;
-@property(readonly, nonatomic) unsigned char tier; // @synthesize tier=_tier;
-@property(readonly, nonatomic) NSString *tierString;
 
 @end
 

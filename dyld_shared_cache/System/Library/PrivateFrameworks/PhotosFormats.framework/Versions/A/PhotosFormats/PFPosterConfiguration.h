@@ -4,41 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, PFPosterEditConfiguration, PFPosterShuffleConfiguration, PFWallpaperCompoundDeviceConfiguration;
-
 @interface PFPosterConfiguration
 {
     long long _configurationType;
-    long long _options;
-    unsigned long long _allowedLayoutStrategies;
-    NSString *_identifier;
-    NSArray *_media;
-    PFPosterEditConfiguration *_editConfiguration;
-    PFPosterShuffleConfiguration *_shuffleConfiguration;
-    PFWallpaperCompoundDeviceConfiguration *_layoutConfiguration;
-    NSDictionary *_userInfo;
-    NSString *_photoLibraryPath;
 }
 
 
 // Remaining properties
-@property(nonatomic) unsigned long long allowedLayoutStrategies; // @synthesize allowedLayoutStrategies=_allowedLayoutStrategies;
-@property(readonly, nonatomic) long long configurationType; // @synthesize configurationType=_configurationType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PFPosterEditConfiguration *editConfiguration; // @synthesize editConfiguration=_editConfiguration;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) PFWallpaperCompoundDeviceConfiguration *layoutConfiguration; // @synthesize layoutConfiguration=_layoutConfiguration;
-@property(retain, nonatomic) NSArray *media; // @synthesize media=_media;
-@property(nonatomic) long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) NSString *photoLibraryPath; // @synthesize photoLibraryPath=_photoLibraryPath;
 @property(readonly, nonatomic) long long posterType;
-@property(retain, nonatomic) PFPosterShuffleConfiguration *shuffleConfiguration; // @synthesize shuffleConfiguration=_shuffleConfiguration;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 @end
 

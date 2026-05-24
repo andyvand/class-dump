@@ -4,47 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, NSUUID;
+@class NSNumber, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDSettingConstraint
 {
     NSUUID *_identifier;
-    NSUUID *_parentIdentifier;
-    NSNumber *_type;
-    NSNumber *_numberValue;
-    NSData *_dataValue;
 }
 
 + (_Bool)Lï;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)f %p;
+- (id)P;
+- (id);
 - (id);
 - (void);
 - (id)ñ1Â0@ù
 × ;
-- (id)outerXPCServer;
+- (id)eventRouterXPCServer;
 - (id)_TtCCC13HomeKitDaemon14ActionSetState19SubscriptionManager23MonitoredActionSetState;
-- (void)nModernTransportStartedFutureResolvedMS_HH2;
+- (void)primaryResidentElectionModernTransportStartedFutureResolvedMS_HH2;
 - (id)Hÿ·ÿ¼Ú>;
 
 // Remaining properties
-@property(readonly) NSData *dataValue; // @synthesize dataValue=_dataValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *name;
 @property(readonly) NSNumber *numberValue; // @synthesize numberValue=_numberValue;
-@property(readonly, copy) NSUUID *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSNumber *type; // @synthesize type=_type;
-@property(readonly, copy) id value;
 
 @end
 

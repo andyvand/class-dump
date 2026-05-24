@@ -7,25 +7,6 @@
 @interface NewsArticles.ArticleInteractor
 {
     id delegate;
-    id coordinator;
-    id articleModel;
-    id loadedArticle;
-    id articleAccess;
-    id dataManager;
-    id readingListObserver;
-    id paywallFactory;
-    id previewManager;
-    id contextBuilder;
-    id eventManager;
-    id offerManager;
-    id paywallTypeProvider;
-    id articlePurchaseOffersProvider;
-    id loadingIndicatorProvider;
-    id articleLoadingStateMachine;
-    id errorMessageFactory;
-    id loggingIdentifier;
-    id articleReadingHistoryRecorder;
-    id commandCenter;
 }
 
 @end

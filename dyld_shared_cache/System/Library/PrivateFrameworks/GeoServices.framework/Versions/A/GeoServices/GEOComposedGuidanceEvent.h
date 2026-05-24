@@ -4,102 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedString, GEOGuidanceEvent, GEOJunction, GEOJunctionView, GEONameInfo, NSArray, NSData, NSString, NSUUID;
-@protocol GEOServerFormattedString, GEOTransitArtworkDataSource;
+@class NSUUID;
 
 @interface GEOComposedGuidanceEvent
 {
     NSUUID *_uniqueID;
-    unsigned long long _creationOrder;
-    GEOGuidanceEvent *_guidanceEvent;
-    unsigned long long _stepIndex;
-    unsigned long long _legIndex;
-    NSArray *_lanes;
-    NSData *_serverRouteID;
-    unsigned int _stepID;
-    int _transportType;
-    NSString *_roadName;
-    double _distance;
-    NSArray *_primarySignStrings;
-    NSArray *_secondarySignStrings;
-    NSArray *_spokenStrings;
-    NSArray *_primaryLaneStrings;
-    NSArray *_secondaryLaneStrings;
-    GEOComposedString *_arInstructionString;
-    GEOJunction *_maneuverJunction;
-    int _maneuverType;
-    int _drivingSide;
-    CDStruct_3f2a7a20 _startValidRouteCoordinate;
-    CDStruct_3f2a7a20 _endValidRouteCoordinate;
-    CDStruct_3f2a7a20 _coordinateForDistanceStrings;
-    double _startValidDistance;
-    double _endValidDistance;
-    double _distanceForStrings;
-    unsigned long long _source;
-    unsigned long long _sourceIndex;
-    unsigned long long _enrouteNoticeIndex;
-    id <GEOTransitArtworkDataSource> _artworkOverride;
-    GEOComposedString *_navTrayTitleString;
-    GEOComposedString *_navTrayDetailString;
 }
 
 + (_Bool)resource '%{public}@':%{public}@. Loading normally. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *announcements;
-@property(readonly, nonatomic) NSString *arArrowLabel;
-@property(readonly, nonatomic) id <GEOServerFormattedString> arInstruction;
-@property(readonly, nonatomic) GEOComposedString *arInstructionString; // @synthesize arInstructionString=_arInstructionString;
-@property(readonly, nonatomic) int arType;
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artworkOverride; // @synthesize artworkOverride=_artworkOverride;
-@property(readonly, nonatomic) int composedGuidanceEventType;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 coordinateForDistanceStrings; // @synthesize coordinateForDistanceStrings=_coordinateForDistanceStrings;
-@property(readonly, nonatomic) double distance; // @synthesize distance=_distance;
-@property(readonly, nonatomic) double distanceForStrings; // @synthesize distanceForStrings=_distanceForStrings;
-@property(readonly, nonatomic) int drivingSide; // @synthesize drivingSide=_drivingSide;
-@property(readonly, nonatomic) double endValidDistance; // @synthesize endValidDistance=_endValidDistance;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 endValidRouteCoordinate; // @synthesize endValidRouteCoordinate=_endValidRouteCoordinate;
-@property(nonatomic) unsigned long long enrouteNoticeIndex; // @synthesize enrouteNoticeIndex=_enrouteNoticeIndex;
-@property(readonly, nonatomic) NSString *exclusiveSetIdentifier;
-@property(readonly, nonatomic) NSArray *gapRanges;
-@property(readonly, nonatomic) _Bool hasArGuidance;
-@property(readonly, nonatomic) _Bool hasHaptics;
-@property(readonly, nonatomic) _Bool hasJunctionView;
-@property(readonly, nonatomic) _Bool hasSignGuidance;
-@property(readonly, nonatomic) _Bool hasSpokenGuidance;
-@property(readonly, nonatomic) _Bool isImportant;
-@property(readonly, nonatomic) _Bool isLaneGuidanceForManeuver;
-@property(readonly, nonatomic) _Bool isSpecial;
-@property(readonly, nonatomic) _Bool isSticky;
-@property(readonly, nonatomic) GEOJunctionView *junctionView;
-@property(readonly, nonatomic) NSArray *laneInstructions;
-@property(readonly, nonatomic) NSArray *laneTitles;
-@property(readonly, nonatomic) NSArray *lanes;
-@property(readonly, nonatomic) unsigned long long legIndex; // @synthesize legIndex=_legIndex;
-@property(readonly, nonatomic) GEOJunction *maneuverJunction; // @synthesize maneuverJunction=_maneuverJunction;
-@property(readonly, nonatomic) int maneuverType; // @synthesize maneuverType=_maneuverType;
-@property(readonly, nonatomic) GEOComposedString *navTrayDetailString; // @synthesize navTrayDetailString=_navTrayDetailString;
-@property(readonly, nonatomic) GEOComposedString *navTrayTitleString; // @synthesize navTrayTitleString=_navTrayTitleString;
-@property(readonly, nonatomic) unsigned long long numChainedAnnouncements;
-@property(readonly, nonatomic) NSArray *primaryLaneStrings; // @synthesize primaryLaneStrings=_primaryLaneStrings;
-@property(readonly, nonatomic) NSArray *primarySignStrings; // @synthesize primarySignStrings=_primarySignStrings;
-@property(readonly, nonatomic) double repetitionInterval;
-@property(readonly, nonatomic) NSString *roadName; // @synthesize roadName=_roadName;
-@property(readonly, nonatomic) NSArray *secondaryLaneStrings; // @synthesize secondaryLaneStrings=_secondaryLaneStrings;
-@property(readonly, nonatomic) NSArray *secondarySignStrings; // @synthesize secondarySignStrings=_secondarySignStrings;
-@property(readonly, nonatomic) NSData *serverRouteID; // @synthesize serverRouteID=_serverRouteID;
-@property(readonly, nonatomic) GEONameInfo *shieldInfo;
-@property(readonly, nonatomic) NSArray *signDetails;
-@property(readonly, nonatomic) NSArray *signTitles;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(nonatomic) unsigned long long sourceIndex; // @synthesize sourceIndex=_sourceIndex;
-@property(readonly, nonatomic) NSArray *spokenStrings; // @synthesize spokenStrings=_spokenStrings;
-@property(readonly, nonatomic) unsigned long long stackRanking;
-@property(readonly, nonatomic) double startValidDistance; // @synthesize startValidDistance=_startValidDistance;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 startValidRouteCoordinate; // @synthesize startValidRouteCoordinate=_startValidRouteCoordinate;
-@property(readonly, nonatomic) unsigned int stepID; // @synthesize stepID=_stepID;
-@property(readonly, nonatomic) unsigned long long stepIndex; // @synthesize stepIndex=_stepIndex;
-@property(readonly, nonatomic) int transportType; // @synthesize transportType=_transportType;
 @property(readonly, nonatomic) NSUUID *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end

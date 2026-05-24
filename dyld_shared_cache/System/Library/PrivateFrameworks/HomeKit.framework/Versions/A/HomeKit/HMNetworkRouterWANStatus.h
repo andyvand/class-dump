@@ -9,7 +9,6 @@
 @interface HMNetworkRouterWANStatus
 {
     HAPTLVUnsignedNumberValue *_identifier;
-    HAPTLVUnsignedNumberValue *_status;
 }
 
 + (id);
@@ -18,17 +17,16 @@
 - (id);
 - (void);
 - (id);
+- (_Bool)eventually;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void)_face_time_data;
+- (id)=;
 - (id);
 - (id);
 - (void)d|;
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *status; // @synthesize status=_status;
 
 @end
 

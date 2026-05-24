@@ -6,32 +6,28 @@
 
 #import <UIKitCore/UILabel.h>
 
-@class NSAttributedString, UITableViewCell;
+@class UITableViewCell;
 
 @interface UITableViewLabel : UILabel
 {
     long long _savedNumberOfLines;
-    double _firstParagraphFirstLineHeadIndent;
-    NSAttributedString *_shadowAttributedText;
-    _Bool _usingDefaultFont;
-    UITableViewCell *_tableCell;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool)ransform:(id)arg1 reason: /* Error: Ran out of types for this method. */;
-- (id)oveAllNonVisibleTiles;
-- (void)le;
+- (void)shouldPurgeSideLoadedVocalAttenuationModels;
+- (void)orialNotes;
+- (_Bool)replaceTransform:(id)arg1 withTransform:reason: /* Error: Ran out of types for this method. */;
+- (id)removeAllNonVisibleTiles;
+- (void)_imageContextScale;
 - (id)B,R,N,GisScrollAnimating;
 - (void)&,N,G_magnifierLineColor,S_setMagnifierLineColor:(id)arg1;
 - (void)`A;
 - (id)d;
-- (void);
-- (void)or;
-- (void)ationShortcutIconTypeMail;
+- (void)_indexOfCurrentActiveOrDismissDetent;
+- (void)clearColor;
+- (void)UIApplicationShortcutIconTypeMail;
 - (void)UIAnyModifierComponent;
 - (void)ÿïÉ^;
 - (void)hÍ§ÿÈº;

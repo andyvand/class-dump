@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCControlChannelDialogV2 : VCControlChannelDialog
 {
     struct tagVCCryptor *_uplinkCryptor;
-    struct tagVCCryptor *_downlinkCryptor;
-    struct os_unfair_lock_s _uplinkCryptorLock;
 }
 
 - (void);

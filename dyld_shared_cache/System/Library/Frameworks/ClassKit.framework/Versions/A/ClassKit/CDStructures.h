@@ -16,12 +16,8 @@ struct CGSize {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
-struct atomic_flag {
-    _Atomic _Bool _Value;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct os_unfair_lock_s {

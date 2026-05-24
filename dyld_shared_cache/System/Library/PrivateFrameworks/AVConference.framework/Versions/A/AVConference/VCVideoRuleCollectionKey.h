@@ -8,23 +8,19 @@ __attribute__((visibility("hidden")))
 @interface VCVideoRuleCollectionKey
 {
     unsigned char _transportType;
-    unsigned char _encodingType;
-    int _payload;
 }
 
 - (id);
 - (unsigned char);
-- (id);
+- (id);
 - (unsigned long long);
 - (int);
 - (_Bool);
 - (id);
-- (unsigned char)nation;
+- (unsigned char)TPProcessICENomination;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char encodingType; // @synthesize encodingType=_encodingType;
 @property(readonly, nonatomic) int payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic) unsigned char transportType; // @synthesize transportType=_transportType;
 
 @end
 

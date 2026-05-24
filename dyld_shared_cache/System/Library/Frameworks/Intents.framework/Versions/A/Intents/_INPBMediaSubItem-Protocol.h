@@ -7,11 +7,10 @@
 @class NSString;
 
 @protocol _INPBMediaSubItem
+- (void) ;
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *assetInfo;
-@property(readonly, nonatomic) _Bool hasAssetInfo;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(copy, nonatomic) NSString *identifier;
 @end
 

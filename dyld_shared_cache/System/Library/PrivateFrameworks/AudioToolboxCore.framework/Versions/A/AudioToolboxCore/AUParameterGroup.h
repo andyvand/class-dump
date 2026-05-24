@@ -11,17 +11,16 @@
 @interface AUParameterGroup : AUParameterNode
 {
     NSArray *_children;
-    NSMutableDictionary *_childIndicesByIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)NSt3__110__function6__baseIFRNS_8functionIFvvEEERN4AMCP5Graph9Node_ProcEEEE;
 - (id);
 - (_Bool);
 - (id);
@@ -35,9 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *allParameters;
 @property(retain, nonatomic) NSMutableDictionary *childIndicesByIdentifier; // @synthesize childIndicesByIdentifier=_childIndicesByIdentifier;
-@property(readonly) NSArray *children; // @synthesize children=_children;
 
 @end
 

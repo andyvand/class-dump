@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface NUScheduledQueue
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_timer;
-    NSMutableArray *_items;
-    double _timerLeeway;
-    double _timerCoalesce;
 }
 
 - (double);
@@ -24,7 +20,7 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)isPasswordProtected: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -33,7 +29,6 @@
 × ;
 
 // Remaining properties
-@property double timerCoalesce; // @synthesize timerCoalesce=_timerCoalesce;
 @property double timerLeeway; // @synthesize timerLeeway=_timerLeeway;
 
 @end

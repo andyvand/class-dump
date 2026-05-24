@@ -4,42 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDecimalNumber, NSString, NSURL, PKCurrencyAmount, PKPeerPaymentDynamicFraudContent, PKPeerPaymentRecipient;
+@class PKCurrencyAmount;
 
 @interface PKPeerPaymentQuote
 {
     _Bool _isNewRecurringPayment;
-    NSString *_identifier;
-    NSArray *_items;
-    NSString *_disclosureText;
-    NSURL *_disclosureURL;
-    NSDecimalNumber *_currentBalance;
-    NSString *_currentBalanceCurrency;
-    NSData *_appleHash;
-    NSData *_externalHash;
-    NSDecimalNumber *_totalReceiveAmount;
-    NSString *_totalReceiveAmountCurrency;
-    NSDecimalNumber *_totalFees;
-    NSString *_totalFeesCurrency;
-    NSDate *_validUntil;
-    unsigned long long _riskLevel;
-    PKPeerPaymentDynamicFraudContent *_dynamicFraudContent;
-    NSString *_recurringPaymentIdentifier;
-    NSDate *_startDate;
-    NSDate *_nextPaymentDate;
-    unsigned long long _frequency;
-    NSDecimalNumber *_threshold;
-    NSString *_transactionIdentifier;
-    PKPeerPaymentRecipient *_recipient;
-    unsigned long long _destinationType;
-    NSString *_bankName;
-    NSString *_routingNumber;
-    NSString *_accountNumber;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)T	;
 - (id);
 - (id);
 - (void);
@@ -53,11 +27,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -68,7 +42,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (double);
 - (id);
 - (void);
@@ -77,52 +51,24 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)};
+- (void)Minutes;
+- (void)elsCnt;
 - (id);
 - (id);
 - (id);
-- (id)ntents:(id)arg1;
+- (id)initWithKeyMaterialContents:(id)arg1;
 - (void)ì;
-- (void)m;
+- (void)PKDeferredPaymentSummaryItem;
 - (id)è<kFè;
 - (unsigned long long)äÿðm³;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountNumber; // @synthesize accountNumber=_accountNumber;
-@property(readonly, copy, nonatomic) NSData *appleHash; // @synthesize appleHash=_appleHash;
-@property(copy, nonatomic) NSString *bankName; // @synthesize bankName=_bankName;
 @property(readonly, nonatomic) PKCurrencyAmount *calculatedTotalAmount;
-@property(readonly, copy, nonatomic) NSDecimalNumber *currentBalance; // @synthesize currentBalance=_currentBalance;
-@property(readonly, copy, nonatomic) NSString *currentBalanceCurrency; // @synthesize currentBalanceCurrency=_currentBalanceCurrency;
-@property(nonatomic) unsigned long long destinationType; // @synthesize destinationType=_destinationType;
-@property(readonly, copy, nonatomic) NSString *disclosureText; // @synthesize disclosureText=_disclosureText;
-@property(readonly, copy, nonatomic) NSURL *disclosureURL; // @synthesize disclosureURL=_disclosureURL;
-@property(readonly, copy, nonatomic) PKPeerPaymentDynamicFraudContent *dynamicFraudContent; // @synthesize dynamicFraudContent=_dynamicFraudContent;
-@property(readonly, copy, nonatomic) NSData *externalHash; // @synthesize externalHash=_externalHash;
-@property(nonatomic) unsigned long long frequency; // @synthesize frequency=_frequency;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isNewRecurringPayment; // @synthesize isNewRecurringPayment=_isNewRecurringPayment;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(copy, nonatomic) NSDate *nextPaymentDate; // @synthesize nextPaymentDate=_nextPaymentDate;
-@property(retain, nonatomic) PKPeerPaymentRecipient *recipient; // @synthesize recipient=_recipient;
-@property(copy, nonatomic) NSString *recurringPaymentIdentifier; // @synthesize recurringPaymentIdentifier=_recurringPaymentIdentifier;
-@property(readonly, nonatomic) unsigned long long riskLevel; // @synthesize riskLevel=_riskLevel;
-@property(copy, nonatomic) NSString *routingNumber; // @synthesize routingNumber=_routingNumber;
-@property(copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(copy, nonatomic) NSDecimalNumber *threshold; // @synthesize threshold=_threshold;
-@property(readonly, copy, nonatomic) NSDecimalNumber *totalFees; // @synthesize totalFees=_totalFees;
-@property(readonly, copy, nonatomic) NSString *totalFeesCurrency; // @synthesize totalFeesCurrency=_totalFeesCurrency;
-@property(readonly, copy, nonatomic) NSDecimalNumber *totalReceiveAmount; // @synthesize totalReceiveAmount=_totalReceiveAmount;
-@property(readonly, copy, nonatomic) NSString *totalReceiveAmountCurrency; // @synthesize totalReceiveAmountCurrency=_totalReceiveAmountCurrency;
-@property(copy, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
-@property(readonly, copy, nonatomic) NSDate *validUntil; // @synthesize validUntil=_validUntil;
-@property(readonly, nonatomic) double validityDuration;
 
 @end
 

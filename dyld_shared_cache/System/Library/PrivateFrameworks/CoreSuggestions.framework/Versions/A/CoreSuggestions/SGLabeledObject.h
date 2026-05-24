@@ -6,20 +6,19 @@
 
 #import <CoreSuggestions/SGObject.h>
 
-@class NSString, SGExtractionInfo;
+@class NSString;
 
 @interface SGLabeledObject : SGObject
 {
     NSString *_label;
-    SGExtractionInfo *_extractionInfo;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -28,8 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) SGExtractionInfo *extractionInfo; // @synthesize extractionInfo=_extractionInfo;
-@property(readonly, nonatomic) unsigned long long extractionType;
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end

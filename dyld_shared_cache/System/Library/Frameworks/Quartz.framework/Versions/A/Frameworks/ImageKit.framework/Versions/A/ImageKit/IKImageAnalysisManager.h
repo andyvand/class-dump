@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageContentView, NSData, NSMutableSet, NSString, NSURL, VKCImageAnalysisOverlayView, VKCImageAnalyzer;
-@protocol IKImageAnalysisManagerDelegate;
+@class NSMutableSet, VKCImageAnalyzer;
 
 @interface IKImageAnalysisManager
 {
     NSMutableSet *_requestIDs;
-    _Bool _inhibitAutomaticReanalysis;
-    _Bool _needsToBeginImageSubjectAnalysis;
-    id <IKImageAnalysisManagerDelegate> _delegate;
-    IKImageContentView *_imageContentView;
-    VKCImageAnalysisOverlayView *_overlayView;
-    VKCImageAnalyzer *_imageAnalyzer;
-    NSURL *_overrideImageURL;
-    NSData *_overrideImageData;
-    struct CGRect _analysisContentsRect;
 }
 
 + (id);
 + (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,53 +34,37 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)P;
 - (_Bool);
 - (struct CGRect);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)E!;
 - (void);
 - (_Bool);
 - (_Bool)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}24;
-- (void)es: /* Error: Ran out of types for this method. */;
-- (_Bool)eLayer;
+- (void)zSortWithZValues: /* Error: Ran out of types for this method. */;
+- (_Bool)wantsUpdateLayer;
 
 // Remaining properties
-@property(nonatomic) struct CGRect analysisContentsRect; // @synthesize analysisContentsRect=_analysisContentsRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IKImageAnalysisManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasActiveTextSelection;
-@property(readonly) unsigned long long hash;
 @property(retain) VKCImageAnalyzer *imageAnalyzer; // @synthesize imageAnalyzer=_imageAnalyzer;
-@property(nonatomic) __weak IKImageContentView *imageContentView; // @synthesize imageContentView=_imageContentView;
-@property(nonatomic) _Bool inhibitAutomaticReanalysis; // @synthesize inhibitAutomaticReanalysis=_inhibitAutomaticReanalysis;
-@property(nonatomic) _Bool needsToBeginImageSubjectAnalysis; // @synthesize needsToBeginImageSubjectAnalysis=_needsToBeginImageSubjectAnalysis;
-@property(retain) VKCImageAnalysisOverlayView *overlayView; // @synthesize overlayView=_overlayView;
-@property(retain) NSData *overrideImageData; // @synthesize overrideImageData=_overrideImageData;
-@property(retain) NSURL *overrideImageURL; // @synthesize overrideImageURL=_overrideImageURL;
-@property(readonly) Class superclass;
 
 @end
 

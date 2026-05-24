@@ -13,15 +13,15 @@
 
 - (void);
 - (id);
-- (id);
-- (long long);
+- (id)�E4F13�F/13D7'F;
+- (long long)';
 - (unsigned long long);
-- (float);
-- (struct CGSize);
+- (float)�H;
+- (struct CGSize)�1F';
 - (id);
-- (long long);
+- (long long)E2H1�1*';
 - (void);
-- (id)hBlockID;
+- (id)BOMStreamWithBlockID;
 
 // Remaining properties
 @property(copy) NSDictionary *rawOverrides; // @synthesize rawOverrides=_rawOverrides;

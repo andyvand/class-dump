@@ -9,26 +9,23 @@
 @interface FigPointCloudDataCaptureConnectionConfiguration : FigVideoCaptureConnectionConfiguration
 {
     int _projectorMode;
-    _Bool _supplementalPointCloudData;
-    _Bool _pointCloudOutputDisabled;
 }
 
 - (int);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)hashesForStorageContact:(_Bool)arg1 forMatching: /* Error: Ran out of types for this method. */;
+- (_Bool)`
+;
 - (id);
-- (id)FocalLength: /* Error: Ran out of types for this method. */;
+- (id)setFocalLength: /* Error: Ran out of types for this method. */;
 - (id)v;
 - (void)ÿËLËÿÍMËÿÏNËÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool pointCloudOutputDisabled; // @synthesize pointCloudOutputDisabled=_pointCloudOutputDisabled;
 @property(nonatomic) int projectorMode; // @synthesize projectorMode=_projectorMode;
-@property(nonatomic) _Bool supplementalPointCloudData; // @synthesize supplementalPointCloudData=_supplementalPointCloudData;
 
 @end
 

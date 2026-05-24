@@ -9,7 +9,6 @@
 @interface OBPrivacyBundleProvider
 {
     NSString *_enclosingBundleIdentifier;
-    NSString *_privacyBundleName;
 }
 
 - (void);
@@ -22,16 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) NSString *enclosingBundleIdentifier; // @synthesize enclosingBundleIdentifier=_enclosingBundleIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *path;
-@property(copy) NSString *privacyBundleName; // @synthesize privacyBundleName=_privacyBundleName;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,7 +12,7 @@
 + (Class);
 + (Class);
 - (id);
-- (id)sStatusIntentResponse;
+- (id)INShareFocusStatusIntentResponse;
 
 @end
 

@@ -6,20 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class NSArray;
 
 @interface EXPSiriSchemaEXPClientExperimentTriggeredTier1 : SISchemaInstrumentationMessage
 {
     NSArray *_allocations;
-    SISchemaUUID *_codepathId;
-    _Bool _hasCodepathId;
 }
 
-- (void);
+- (void)v;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -27,23 +25,20 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)ation] Call Delegate on new IAPNavigationAccessoryDidBecomeAvailable:(id)arg1 %@;
+- (id)ceeds the maximum length, %{public}@;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)SocialScore"b1"socialScore"b1"conversationalOdldScore"b1};
-- (id)asusSearchQuery;
+- (id)POMMESSchemaPOMMESPegasusSearchQuery;
 - (id)idi;
 - (void)°Ü±Gp%;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allocations; // @synthesize allocations=_allocations;
-@property(retain, nonatomic) SISchemaUUID *codepathId; // @synthesize codepathId=_codepathId;
-@property(nonatomic) _Bool hasCodepathId; // @synthesize hasCodepathId=_hasCodepathId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

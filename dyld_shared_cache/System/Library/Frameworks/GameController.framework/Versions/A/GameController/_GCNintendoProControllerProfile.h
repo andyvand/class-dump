@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-+ (id);
-+ (id);
++ (_Bool);
++ (id)u;
++ (id)v;
 + (void);
-+ (void);
++ (void)Ќ;
 + (id);
 + (id);
 + (id);

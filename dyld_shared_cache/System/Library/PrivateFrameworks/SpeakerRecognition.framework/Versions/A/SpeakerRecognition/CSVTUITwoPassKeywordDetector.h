@@ -6,19 +6,11 @@
 
 #import <SpeakerRecognition/CSVTUIKeywordDetector.h>
 
-@class CSAudioCircularBuffer, CSKeywordAnalyzerNDAPI, CSKeywordAnalyzerNDAPIResult, CSPhraseDetector;
+@class CSKeywordAnalyzerNDAPI;
 
 @interface CSVTUITwoPassKeywordDetector : CSVTUIKeywordDetector
 {
     CSKeywordAnalyzerNDAPI *_keywordAnalyzer;
-    CSPhraseDetector *_phraseDetector;
-    float _keywordThreshold;
-    CSAudioCircularBuffer *_audioBuffer;
-    unsigned long long _extraSamplesAtStart;
-    unsigned long long _analyzerTrailingSamples;
-    _Bool _isFirstPassTriggered;
-    CSKeywordAnalyzerNDAPIResult *_firstPassResult;
-    _Bool _supportsMph;
 }
 
 - (id);
@@ -26,9 +18,9 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long);
+- (void)imatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_18RavenSolutionEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (void)(;
 - (id)ple.voiceprofile.rpicleanup;
 
 @end

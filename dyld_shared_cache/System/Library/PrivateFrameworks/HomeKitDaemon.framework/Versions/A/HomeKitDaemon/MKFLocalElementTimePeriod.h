@@ -17,7 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) MKFLocalBulletinConditionTimePeriod *endCondition; // @dynamic endCondition;
-@property(retain, nonatomic) MKFLocalBulletinConditionTimePeriod *startCondition; // @dynamic startCondition;
 
 @end
 

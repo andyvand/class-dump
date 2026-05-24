@@ -13,7 +13,7 @@
 
 - (id);
 - (void);
-- (id)sizeMatrixOfColumnToFit:(struct CGRect)arg1;
+- (id)_sizeMatrixOfColumnToFit:(struct CGRect)arg1;
 - (void)¨sE;
 
 @end

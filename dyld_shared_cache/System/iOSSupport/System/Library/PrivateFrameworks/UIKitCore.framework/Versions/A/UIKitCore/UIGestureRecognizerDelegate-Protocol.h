@@ -9,9 +9,10 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)ntsAccessories:(UIGestureRecognizer *)arg1;
-- (_Bool)eTraitsDidChange;
-- (_Bool)ring:(UIGestureRecognizer *)arg1 withInputStringIgnoringModifiers:(UIGestureRecognizer *)arg2;
+- (_Bool)dNtPrincipalName;
+- (_Bool)setIndentsAccessories:(UIGestureRecognizer *)arg1;
+- (_Bool)_legibilityWeightOrPreferredContentSizeTraitsDidChange;
+- (_Bool)_handleWebKeyEvent:(UIGestureRecognizer *)arg1 withEventType:(UIGestureRecognizer *)arg2 withInputString:withInputStringIgnoringModifiers: /* Error: Ran out of types for this method. */;
 - (_Bool);
 @end
 

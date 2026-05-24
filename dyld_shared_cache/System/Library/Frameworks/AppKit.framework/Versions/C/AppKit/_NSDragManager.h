@@ -16,15 +16,15 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 + (double);
++ (_Bool);
 + (_Bool);
-+ (_Bool);
 - (void);
+- (_Bool)*I(8;
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (int);
+- (void)xmg5KyAMBBi/b0rojgQ;
+- (void)YlCg;
+- (int)DrSqlXYNVfYXCvAsuUrUDA;
 - (id);
 - (void);
 - (id);
@@ -33,10 +33,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_writeStream;
+- (void)_writeCount;
+- (id)_onqueue_cancelByProducingResumeData:(unsigned long long)arg1;
+- (void)_downloadTaskWithRequest:(id)arg1 downloadFilePath:(int)arg2;
 - (void);
 - (id);
 

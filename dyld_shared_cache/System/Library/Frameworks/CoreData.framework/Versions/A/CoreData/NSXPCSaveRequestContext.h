@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectContext, NSMutableDictionary, NSSaveChangesRequest, NSXPCStore;
+@class NSXPCStore;
 
 __attribute__((visibility("hidden")))
 @interface NSXPCSaveRequestContext
 {
     NSXPCStore *_store;
-    NSSaveChangesRequest *_request;
-    NSDictionary *_metadata;
-    NSManagedObjectContext *_context;
-    NSMutableDictionary *_changeCache;
-    unsigned long long _interrupts;
-    _Bool _forceUpdates;
 }
 
 - (void);
-- (id);
+- (id)eBoard/BaseBoard/BSCompoundAssertion.m;
 - (id);
 
 @end

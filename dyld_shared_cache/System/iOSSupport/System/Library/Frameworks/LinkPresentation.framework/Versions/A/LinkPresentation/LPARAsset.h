@@ -14,13 +14,13 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)splitViewController:(id)arg1 didHideColumn:(id)arg2;
+- (id)spatialStatusCache;
+- (_Bool)shouldShowSearchBarInConversationList;
+- (id)shouldShowExpanseFeatures;
+- (id)shouldScrollToSavedSticker;
+- (id)shouldReloadInsetsForFloatingKeyboard;
+- (id)_infoText;
 - (_Bool);
 - (void);
 - (void)°1Â0@ù

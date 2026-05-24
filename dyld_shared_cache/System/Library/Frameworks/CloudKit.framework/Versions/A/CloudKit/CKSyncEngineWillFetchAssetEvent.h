@@ -16,7 +16,7 @@
 - (long long);
 - (void);
 - (id);
-- (void)KCheckSupportedDeviceCapabilitiesOperationInfo;
+- (void)CKCheckSupportedDeviceCapabilitiesOperationInfo;
 - (id)Xb(`Óÿ;
 
 // Remaining properties

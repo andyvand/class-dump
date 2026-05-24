@@ -4,48 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue, SUCoreConnectServerDelegate;
+@class NSString;
 
 @interface SUCoreConnectServerPolicy
 {
     NSString *_serviceName;
-    NSSet *_entitlements;
-    id <SUCoreConnectServerDelegate> _serverDelegate;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 + (id);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
++ (void)processEventQueue:(id)arg1 clientList:(id)arg2;
++ (id)] %s:(id)arg1 %d AVCVirtualTTYDevice:notified client %p of didStop /* Error: Ran out of types for this method. */;
 + (id);
 + (void);
++ (void);
++ (id);
++ (void);
+- (id)ansit.;
+- (id)elegate>",N;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)Vv;
+- (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly, retain, nonatomic) NSSet *entitlements; // @synthesize entitlements=_entitlements;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak id <SUCoreConnectServerDelegate> serverDelegate; // @synthesize serverDelegate=_serverDelegate;
 @property(readonly, retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly) Class superclass;
 
 @end
 

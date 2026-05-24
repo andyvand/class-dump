@@ -9,15 +9,13 @@
 @interface SiriUI.SiriUIReportConcernButtonView
 {
     void delegate;
-    id reportConcernButtonView;
-    id viewModel;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)1Â0@ù
 × ;

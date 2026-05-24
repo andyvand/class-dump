@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)ttributeAtIndex: /* Error: Ran out of types for this method. */;
++ (long long)payloadMessageAttributeAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ncidentIntentResponse;
+- (id)INReportIncidentIntentResponse;
 
 @end
 

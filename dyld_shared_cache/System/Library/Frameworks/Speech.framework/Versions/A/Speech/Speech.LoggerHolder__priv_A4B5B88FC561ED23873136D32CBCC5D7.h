@@ -7,7 +7,6 @@
 @interface Speech.LoggerHolder__priv_A4B5B88FC561ED23873136D32CBCC5D7
 {
     id osLogger;
-    id logger;
 }
 
 @end

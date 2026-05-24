@@ -13,8 +13,8 @@
 }
 
 + (id);
-- (id);
-- (id);
+- (id)EFPropertyKey_originatingQuery;
+- (id)0@0:8@16Q24^@32 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

@@ -4,29 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSRegistrationProfileOperation
 {
     unsigned long long _timestamp;
-    unsigned int _connectionType;
-    int _genericError;
-    NSString *_guid;
-    int _pOSIXError;
-    unsigned int _registrationError;
-    unsigned int _resultCode;
-    unsigned int _success;
-    int _uRLError;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int connectionType:1;
-        unsigned int genericError:1;
-        unsigned int pOSIXError:1;
-        unsigned int registrationError:1;
-        unsigned int resultCode:1;
-        unsigned int success:1;
-        unsigned int uRLError:1;
-    } _has;
 }
 
 - (void);
@@ -34,7 +14,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)qh;
 - (id);
 - (int);
 - (_Bool);
@@ -47,12 +27,12 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)k);
 - (void);
 - (unsigned int);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)/;
 - (void);
 - (_Bool);
 - (void);
@@ -69,31 +49,14 @@
 - (void);
 - (id)son"b1};
 - (void)setHasHeapFreeMin:(_Bool)arg1;
-- (unsigned int)st;
-- (void)nce:(unsigned int)arg1;
-- (unsigned int)nce;
-- (int)rameMatchingRA;
+- (unsigned int)_nonBALost;
+- (void)setRTTvariance:(unsigned int)arg1;
+- (unsigned int)AWDCoreRoutineMagicMomentsSuggestionInstance;
+- (int)kMACRxControlFrameMatchingRA;
 - (void)Ä6pHÀ	;
 
 // Remaining properties
-@property(nonatomic) unsigned int connectionType; // @synthesize connectionType=_connectionType;
-@property(nonatomic) int genericError; // @synthesize genericError=_genericError;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasGenericError;
-@property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasPOSIXError;
-@property(nonatomic) _Bool hasRegistrationError;
-@property(nonatomic) _Bool hasResultCode;
-@property(nonatomic) _Bool hasSuccess;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasURLError;
-@property(nonatomic) int pOSIXError; // @synthesize pOSIXError=_pOSIXError;
-@property(nonatomic) unsigned int registrationError; // @synthesize registrationError=_registrationError;
-@property(nonatomic) unsigned int resultCode; // @synthesize resultCode=_resultCode;
-@property(nonatomic) unsigned int success; // @synthesize success=_success;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int uRLError; // @synthesize uRLError=_uRLError;
 
 @end
 

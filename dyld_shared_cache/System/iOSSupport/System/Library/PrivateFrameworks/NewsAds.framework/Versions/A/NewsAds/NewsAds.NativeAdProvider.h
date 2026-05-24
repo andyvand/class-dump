@@ -7,7 +7,6 @@
 @interface NewsAds.NativeAdProvider
 {
     id contextWrapper;
-    id $__lazy_storage_$_debugAdProvider;
 }
 
 @end

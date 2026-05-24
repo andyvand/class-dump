@@ -6,12 +6,11 @@
 
 #import <Vision/VNStatefulRequest.h>
 
-@class NSArray, VNTrajectoryProcessor, VNTrajectoryRequestState;
+@class VNTrajectoryProcessor;
 
 @interface VNDetectTrajectoriesRequest : VNStatefulRequest
 {
     VNTrajectoryProcessor *_trajectoryProcessor;
-    VNTrajectoryRequestState *_state;
 }
 
 + (_Bool);
@@ -29,20 +28,14 @@
 - (float);
 - (float);
 - (id);
-- (CDStruct_1b6d18a9);
-- (id);
+- (CDStruct_198678f7);
+- (id)be nonnull;
 - (void);
 - (void);
 - (_Bool)äPQ1§T¬Y	;
 - (_Bool)ÿ´`¼;
 
 // Remaining properties
-@property(nonatomic) float maximumObjectSize;
-@property(nonatomic) float minimumObjectSize;
-@property(nonatomic) float objectMaximumNormalizedRadius;
-@property(nonatomic) float objectMinimumNormalizedRadius;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(nonatomic) CDStruct_1b6d18a9 targetFrameTime;
 @property(readonly) long long trajectoryLength;
 
 @end

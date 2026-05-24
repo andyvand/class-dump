@@ -5,6 +5,10 @@
 //
 
 @protocol NSFileAccessArbiterXPCInterface
+- (oneway void);
+- (void);
+- (void)*;
+- (void);
 - (void)@ù
 × ;
 - (oneway void)pS¸StTUàU;

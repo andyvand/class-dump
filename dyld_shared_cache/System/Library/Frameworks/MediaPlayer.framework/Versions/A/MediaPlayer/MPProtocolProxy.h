@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, Protocol;
+@class Protocol;
 
 @interface MPProtocolProxy
 {
     Protocol *_protocol;
-    NSHashTable *_objects;
 }
 
 + (id);
@@ -19,12 +18,11 @@
 - (void);
 - (void);
 - (id);
-- (void)Route;
+- (void)_lowFidelityRoute;
 - (id)diaItemPropertyComposer(void);
-- (void)rySearchScopeItemProperties;
+- (void)MPModelLibrarySearchScopeItemProperties;
 
 // Remaining properties
-@property(retain, nonatomic) NSHashTable *objects; // @synthesize objects=_objects;
 @property(retain, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end

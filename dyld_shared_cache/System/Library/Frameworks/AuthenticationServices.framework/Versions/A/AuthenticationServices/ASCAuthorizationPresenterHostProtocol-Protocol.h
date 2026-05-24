@@ -7,6 +7,11 @@
 @protocol ASCAuthorizationPresenterDelegate;
 
 @protocol ASCAuthorizationPresenterHostProtocol
+- (void)8;
+- (void);
+- (void);
+- (void);
+- (id <ASCAuthorizationPresenterDelegate>)4|;
 
 // Remaining properties
 @property(nonatomic) __weak id <ASCAuthorizationPresenterDelegate> delegate;

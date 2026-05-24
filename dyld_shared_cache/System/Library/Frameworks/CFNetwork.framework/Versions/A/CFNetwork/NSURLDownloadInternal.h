@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSURLAuthenticationChallenge;
-
 __attribute__((visibility("hidden")))
 @interface NSURLDownloadInternal
 {
     struct _CFURLDownload *cfDownload;
-    struct _CFURLAuthChallenge *currCFChallenge;
-    NSURLAuthenticationChallenge *currNSChallenge;
-    id delegate;
-    _Bool downloadActive;
-    NSOperationQueue *_targetQueue;
 }
 
-- (void);
+- (void)Dzecyrillic;
 
 @end
 

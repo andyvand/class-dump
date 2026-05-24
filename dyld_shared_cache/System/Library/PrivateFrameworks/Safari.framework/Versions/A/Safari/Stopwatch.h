@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface Stopwatch
 {
     double startTime;
-    double finishTime;
 }
 
 - (void);

@@ -5,5 +5,7 @@
 //
 
 @protocol CADDiagnosticInterface
+- (void)cover endpoint.;
+- (void)ith type:(unsigned int)arg1 %@, titleOverride:(long long)arg2 %@, identifier:(unsigned long long)arg3 %@;
 @end
 

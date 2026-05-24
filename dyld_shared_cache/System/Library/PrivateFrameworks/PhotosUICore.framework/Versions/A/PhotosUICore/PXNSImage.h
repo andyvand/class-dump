@@ -7,10 +7,6 @@
 @interface PXNSImage
 {
     struct CGImageSource *_sourceRef;
-    unsigned long long _sourceCount;
-    unsigned long long _orientation;
-    struct CGSize _bitmapSize;
-    struct CGSize _pixelSize;
 }
 
 - (struct CGImage *);
@@ -19,13 +15,10 @@
 - (double);
 - (unsigned long long);
 - (id);
-- (struct CGSize)didateSubtimeline;
+- (struct CGSize)_precedingSubtimelineWithCandidateSubtimeline;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize bitmapSize; // @synthesize bitmapSize=_bitmapSize;
 @property(readonly, nonatomic) unsigned long long orientation; // @synthesize orientation=_orientation;
-@property(readonly, nonatomic) double pixelAspectRatio;
-@property(readonly, nonatomic) struct CGSize pixelSize; // @synthesize pixelSize=_pixelSize;
 
 @end
 

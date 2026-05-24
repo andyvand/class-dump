@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface _UISceneLiveResizePrototypeSettings
 {
     _Bool _snapshottingEnabled;
-    _Bool _stretchingEnabled;
-    _Bool _transparentTearingEnabled;
-    _Bool _animationFenceEnabled;
-    NSNumber *_animationMode;
-    NSNumber *_throttlingMode;
 }
 
 + (id);
@@ -22,16 +15,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (id)lastFullSyncDate;
+- (_Bool)lastDeviceBackUpDate;
 - (unsigned long long);
-- (void)nset: /* Error: Ran out of types for this method. */;
+- (void)setSelectionWithPoint:inset: /* Error: Ran out of types for this method. */;
 - (id)?²ï§ÆKÇ?¤p=
 ×£à?Tã¥Ä °?Ê?Ô?ëQ¸ë¡?¸ëQ¸Þ?
 ×£p=
@@ -39,12 +32,7 @@ __attribute__((visibility("hidden")))
 - (void)I;
 
 // Remaining properties
-@property(nonatomic) _Bool animationFenceEnabled; // @synthesize animationFenceEnabled=_animationFenceEnabled;
-@property(retain, nonatomic) NSNumber *animationMode; // @synthesize animationMode=_animationMode;
 @property(nonatomic) _Bool snapshottingEnabled; // @synthesize snapshottingEnabled=_snapshottingEnabled;
-@property(nonatomic) _Bool stretchingEnabled; // @synthesize stretchingEnabled=_stretchingEnabled;
-@property(retain, nonatomic) NSNumber *throttlingMode; // @synthesize throttlingMode=_throttlingMode;
-@property(nonatomic) _Bool transparentTearingEnabled; // @synthesize transparentTearingEnabled=_transparentTearingEnabled;
 
 @end
 

@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface FI_TTitleViewBadge : FI_TUpdateLayerView
 {
     _Bool _isClicked;
-    function_e88ba8d7 _clickHandler;
-    function_50d53740 _getImage;
-    function_86ad9f37 _stateMatcher;
-    function_fc492ecd _imageSizeConfigurator;
 }
 
-- (function_86ad9f37);
+- (function_453f1da2);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (function_fc492ecd);
+- (function_aaa1d509);
 - (function_e88ba8d7);
-- (function_50d53740);
+- (function_9e64755f);
 - (id);
-- (_Bool);
+- (_Bool)userInterfaceLayoutDirection;
 - (id);
 - (_Bool);
 - (void);
@@ -37,11 +33,7 @@ __attribute__((visibility("hidden")))
 - (void)Æ;
 
 // Remaining properties
-@property(nonatomic) function_e88ba8d7 clickHandler; // @synthesize clickHandler=_clickHandler;
-@property(nonatomic) function_50d53740 getImage; // @synthesize getImage=_getImage;
-@property(nonatomic) function_fc492ecd imageSizeConfigurator; // @synthesize imageSizeConfigurator=_imageSizeConfigurator;
 @property(getter=isDimmed) _Bool isClicked; // @synthesize isClicked=_isClicked;
-@property(nonatomic) function_86ad9f37 stateMatcher; // @synthesize stateMatcher=_stateMatcher;
 
 @end
 

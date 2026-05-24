@@ -6,37 +6,33 @@
 
 #import <HomeKit/HMAction.h>
 
-@class HMLightProfile;
-
 @interface HMLightProfileNaturalLightingAction : HMAction
 {
     struct os_unfair_lock_s _lock;
-    _Bool _naturalLightingEnabled;
-    HMLightProfile *_lightProfile;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)9;
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)w;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (_Bool);
+- (_Bool)f?9
+;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)partridge;
 - (id);
 - (id);
 - (void)|EGðHÐJôKM;
 
 // Remaining properties
-@property(readonly) HMLightProfile *lightProfile; // @synthesize lightProfile=_lightProfile;
 @property(readonly, getter=isNaturalLightingEnabled) _Bool naturalLightingEnabled; // @synthesize naturalLightingEnabled=_naturalLightingEnabled;
 
 @end

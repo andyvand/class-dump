@@ -9,18 +9,16 @@
 @interface IMDownloadingPendingMessagesChatItem : IMTranscriptChatItem
 {
     unsigned long long _pendingIncomingSatelliteMessageCount;
-    unsigned long long _totalSatelliteMessageCount;
 }
 
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
+- (unsigned long long)sMode=%hhu;
+- (unsigned long long)nce;
+- (void)e.;
+- (void)t stopped;
+- (id)efix:(id)arg1 ];
 
 // Remaining properties
 @property(nonatomic, setter=_setPendingIncomingSatelliteMessageCount:) unsigned long long pendingIncomingSatelliteMessageCount; // @synthesize pendingIncomingSatelliteMessageCount=_pendingIncomingSatelliteMessageCount;
-@property(nonatomic, setter=_setTotalSatelliteMessageCount:) unsigned long long totalSatelliteMessageCount; // @synthesize totalSatelliteMessageCount=_totalSatelliteMessageCount;
 
 @end
 

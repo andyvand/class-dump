@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVCapturePhotoBracketSettingsInternal
 {
     NSArray *bracketedSettings;
-    _Bool lensStabilizationEnabled;
 }
 
 - (id);

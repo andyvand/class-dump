@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue, TSBonjourBrowserDelegate;
+@protocol TSBonjourBrowserDelegate;
 
 @interface TSBonjourBrowser
 {
     struct _DNSServiceRef_t *_sdRef;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <TSBonjourBrowserDelegate> _delegate;
-    NSArray *_nodes;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)`: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) id <TSBonjourBrowserDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSArray *nodes; // @synthesize nodes=_nodes;
 
 @end
 

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol GEOVenueFloorInfo;
-
 @interface GEOVenueComponentIdentifier
 {
     _Bool _hasBuildingID;
-    unsigned long long _buildingID;
-    id <GEOVenueFloorInfo> _floorInfo;
-    NSArray *_sectionIDs;
-    _Bool _hasUnitID;
-    unsigned long long _unitID;
-    _Bool _hasFixtureID;
-    unsigned long long _fixtureID;
 }
 
 - (id);
@@ -29,28 +19,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)validateImageBuffer:ofNonZeroWidth:andHeight:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (id);
-- (void)putStreamE;
+- (id)_secondPassRejectionMHUUID;
+- (void)N6google8protobuf2io16ArrayInputStreamE;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long buildingID; // @synthesize buildingID=_buildingID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long fixtureID; // @synthesize fixtureID=_fixtureID;
-@property(readonly, nonatomic) id <GEOVenueFloorInfo> floorInfo; // @synthesize floorInfo=_floorInfo;
 @property(readonly, nonatomic, getter=_hasBuildingID) _Bool hasBuildingID; // @synthesize hasBuildingID=_hasBuildingID;
-@property(readonly, nonatomic, getter=_hasFixtureID) _Bool hasFixtureID; // @synthesize hasFixtureID=_hasFixtureID;
-@property(readonly, nonatomic, getter=_hasUnitID) _Bool hasUnitID; // @synthesize hasUnitID=_hasUnitID;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *sectionIDs; // @synthesize sectionIDs=_sectionIDs;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long unitID; // @synthesize unitID=_unitID;
 
 @end
 

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
+@class NSArray;
 
 @interface SCLMResult
 {
     unsigned long long _outcome;
     NSArray *_messages;
-    NSError *_error;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(retain, nonatomic) NSArray *messages; // @synthesize messages=_messages;
 @property(nonatomic) unsigned long long outcome; // @synthesize outcome=_outcome;
 

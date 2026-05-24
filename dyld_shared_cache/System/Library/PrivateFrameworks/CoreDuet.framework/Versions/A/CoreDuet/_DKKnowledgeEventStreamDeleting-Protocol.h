@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSPredicate;
+
 @protocol _DKKnowledgeEventStreamDeleting
+- (unsigned long long)2@0:(NSPredicate *)arg1 8@"MTLIOCommandQueueDescriptor"16^@24;
+- (void);
+- (void)r;
 @end
 

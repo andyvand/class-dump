@@ -9,10 +9,6 @@
 @interface PGPeopleWallpaperSuggesterFilteringContext : PGSinglePersonWallpaperAssetSuggesterFilteringContext
 {
     _Bool _favoritePersonsAreVIPs;
-    double _normalizedDeviationForVeryImportantPersons;
-    double _normalizedDeviationForImportantPersons;
-    long long _minimumPersonImportance;
-    unsigned long long _minimumNumberOfCandidatesForEligiblePerson;
 }
 
 - (void);
@@ -25,22 +21,18 @@
 - (double);
 - (long long);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)_signalForElement:(long long)arg1 selectionChanged:selectionRange:editTracker:isEditable: /* Error: Ran out of types for this method. */;
+- (id)le:(_Bool)arg1;
+- (id)_shouldDescribeEmptyElementWithRoleDescription;
+- (id)_setVerticallyOrderedChildControllers: /* Error: Ran out of types for this method. */;
+- (id)_setSpotlightApplicationController: /* Error: Ran out of types for this method. */;
+- (_Bool)SMutableSet",R,N,V__listenerWrappers;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool favoritePersonsAreVIPs; // @synthesize favoritePersonsAreVIPs=_favoritePersonsAreVIPs;
-@property(nonatomic) unsigned long long minimumNumberOfCandidatesForEligiblePerson; // @synthesize minimumNumberOfCandidatesForEligiblePerson=_minimumNumberOfCandidatesForEligiblePerson;
-@property(nonatomic) long long minimumPersonImportance; // @synthesize minimumPersonImportance=_minimumPersonImportance;
-@property(nonatomic) double normalizedDeviationForImportantPersons; // @synthesize normalizedDeviationForImportantPersons=_normalizedDeviationForImportantPersons;
 @property(nonatomic) double normalizedDeviationForVeryImportantPersons; // @synthesize normalizedDeviationForVeryImportantPersons=_normalizedDeviationForVeryImportantPersons;
 
 @end

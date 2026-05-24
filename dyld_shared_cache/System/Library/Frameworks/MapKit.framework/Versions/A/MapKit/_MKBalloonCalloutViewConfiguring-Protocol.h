@@ -4,34 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage, NSView;
+@class NSColor;
 
 @protocol _MKBalloonCalloutViewConfiguring
+- (NSColor *)9;
+
+@optional
+- (NSColor *)|: /* Error: Ran out of types for this method. */;
+- (NSColor *);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_balloonCalloutShouldCenterWhenOffscreen) _Bool balloonCalloutShouldCenterWhenOffscreen;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,G_balloonCalloutShouldCenterWhenOffscreen
-
-@property(readonly, nonatomic, getter=_balloonCalloutShouldShowArrow) _Bool balloonCalloutShouldShowArrow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,G_balloonCalloutShouldShowArrow
-
 @property(readonly, nonatomic, getter=_balloonCalloutStyle) long long balloonCalloutStyle;
-@property(readonly, nonatomic, getter=_balloonContentView) NSView *balloonContentView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSView",?,R,N,G_balloonContentView
-
-@property(readonly, nonatomic, getter=_balloonImage) NSImage *balloonImage;
-@property(readonly, nonatomic, getter=_balloonImageTintColor) NSColor *balloonImageTintColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSColor",?,R,N,G_balloonImageTintColor
-
-@property(readonly, nonatomic, getter=_balloonInnerStrokeColor) NSColor *balloonInnerStrokeColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSColor",?,R,N,G_balloonInnerStrokeColor
-
-@property(readonly, nonatomic, getter=_balloonStrokeColor) NSColor *balloonStrokeColor;
-@property(readonly, nonatomic, getter=_balloonTintColor) NSColor *balloonTintColor;
 @end
 

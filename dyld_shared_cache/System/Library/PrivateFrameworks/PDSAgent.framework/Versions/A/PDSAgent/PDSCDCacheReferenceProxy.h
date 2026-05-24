@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersistentContainer, PDSCDCacheContainer;
+@class PDSCDCacheContainer;
 
 __attribute__((visibility("hidden")))
 @interface PDSCDCacheReferenceProxy
 {
     PDSCDCacheContainer *_cacheContainer;
-    NSPersistentContainer *_persistentContainer;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)p;
 - (id);
 - (_Bool);
 - (void);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) PDSCDCacheContainer *cacheContainer; // @synthesize cacheContainer=_cacheContainer;
-@property(retain, nonatomic) NSPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
 
 @end
 

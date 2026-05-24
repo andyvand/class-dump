@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITableViewCell;
+
 @protocol UITableViewDataSource
+- (UITableViewCell *);
+
+@optional
+- (_Bool);
 @end
 

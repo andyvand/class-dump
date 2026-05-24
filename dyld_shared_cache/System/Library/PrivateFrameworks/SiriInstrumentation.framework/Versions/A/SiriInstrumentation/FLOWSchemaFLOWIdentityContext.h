@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWProfileSwitchContext, NSData;
+@class FLOWSchemaFLOWProfileSwitchContext;
 
 @interface FLOWSchemaFLOWIdentityContext : SISchemaInstrumentationMessage
 {
     FLOWSchemaFLOWProfileSwitchContext *_profileSwitchContext;
-    _Bool _hasProfileSwitchContext;
 }
 
 - (void);
@@ -24,7 +23,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)rted";
 - (id)sRecognizedPunctuation;
@@ -32,8 +31,6 @@
 - (void)ìê;
 
 // Remaining properties
-@property(nonatomic) _Bool hasProfileSwitchContext; // @synthesize hasProfileSwitchContext=_hasProfileSwitchContext;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWSchemaFLOWProfileSwitchContext *profileSwitchContext; // @synthesize profileSwitchContext=_profileSwitchContext;
 
 @end

@@ -11,9 +11,9 @@
     CalPreferences *_preferences;
 }
 
-+ (id)ner:center: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);
++ (id)initWithContainer:center: /* Error: Ran out of types for this method. */;
+- (_Bool)s;
+- (_Bool)X%s;
 - (void);
 - (void);
 - (id);
@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool showInviteesAndMoreRegion;
-@property(nonatomic) _Bool showReportAProblemNotificationButton;
 
 @end
 

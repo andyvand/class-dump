@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFHomePersonDatabaseID;
-@protocol MKFHome, MKFPhotosPerson;
+@protocol MKFHome;
 
 @protocol MKFHomePerson
 - (id <MKFHome>)qð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHomePersonDatabaseID *databaseID;
 @property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(retain, nonatomic) id <MKFPhotosPerson> linkedPhotosPerson;
 @end
 

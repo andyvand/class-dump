@@ -13,8 +13,8 @@
 }
 
 + (id);
-+ (id);
-- (_Bool);
++ (id)d=%u bytes=[%u,%u)>;
+- (_Bool)V;
 - (void);
 - (_Bool);
 - (void);
@@ -29,9 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *constraints;
-@property(nonatomic) long long maxResults;
-@property(copy, nonatomic) NSArray *searchTypes;
-@property(nonatomic) _Bool strict;
 
 @end
 

@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCollection, EDDifferentialStyle, NSString;
+@class EDCollection;
 
 __attribute__((visibility("hidden")))
 @interface EDTableStyleElement
 {
     EDCollection *mDifferentialStyles;
-    int mType;
-    unsigned int mBandSize;
-    EDDifferentialStyle *mDifferentialStyle;
 }
 
 + (id);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (id);
-- (unsigned int);
-- (id);
-- (id);
+- (unsigned int);
+- (id);
+- (id);
 - (long long);
 - (int);
 - (id);
@@ -30,13 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

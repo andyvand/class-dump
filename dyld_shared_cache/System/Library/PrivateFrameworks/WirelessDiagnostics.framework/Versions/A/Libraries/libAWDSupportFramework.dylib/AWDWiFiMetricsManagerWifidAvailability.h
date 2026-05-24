@@ -7,18 +7,11 @@
 @interface AWDWiFiMetricsManagerWifidAvailability
 {
     unsigned long long _timestamp;
-    double _wifidBootTimeDiff;
-    unsigned int _pid;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int wifidBootTimeDiff:1;
-        unsigned int pid:1;
-    } _has;
 }
 
 - (double);
-- (void);
-- (void);
+- (void)(;
+- (void);
 - (_Bool);
 - (unsigned int);
 - (id);
@@ -27,8 +20,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)h;
+- (_Bool)H;
 - (_Bool);
 - (void);
 - (void);
@@ -39,12 +32,7 @@
 - (_Bool)"timestamp"b1"updateCount"b1"batteryVoltage"b1"cltmIndex"b1"numActiveChains"b1"ppm"b1"temperature"b1"txDutyCycle"b1"txPowerBackoff"b1};
 
 // Remaining properties
-@property(nonatomic) _Bool hasPid;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasWifidBootTimeDiff;
-@property(nonatomic) unsigned int pid; // @synthesize pid=_pid;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) double wifidBootTimeDiff; // @synthesize wifidBootTimeDiff=_wifidBootTimeDiff;
 
 @end
 

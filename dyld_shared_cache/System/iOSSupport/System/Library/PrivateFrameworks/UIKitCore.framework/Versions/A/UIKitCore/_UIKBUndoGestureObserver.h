@@ -16,9 +16,9 @@
 - (_Bool)_Ð1Â0@ù
 × ;
 - (_Bool)FocusAnimationCoordinator"28;
-- (_Bool)aScale:(id)arg1;
-- (void)soundFileURL;
-- (_Bool)int:(id)arg1;
+- (_Bool)setSourceViewAlphaScale:(id)arg1;
+- (void)_soundFileURL;
+- (_Bool)setSourcePoint:(id)arg1;
 - (_Bool)ition;
 - (void)UIKitCore._UIBlurredEdgeMask;
 

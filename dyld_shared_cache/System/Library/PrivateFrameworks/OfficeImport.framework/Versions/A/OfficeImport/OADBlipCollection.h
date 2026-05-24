@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (id);
-- (unsigned int);
+- (unsigned int)1fI;
 - (id);
 - (void);
 

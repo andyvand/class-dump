@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface PHAssetResourceManager
 {
     _Atomic int _nextRequestID;
-    unsigned long long _managerID;
-    struct os_unfair_lock_s _requestsLock;
-    NSMutableDictionary *_requestsLock_requestsByID;
-    NSMutableDictionary *_requestsLock_supplementaryContextsByID;
 }
 
 - (void);
@@ -24,7 +18,7 @@
 - (void);
 - (void);
 - (int);
-- (int);
+- (int);
 - (void);
 - (id);
 - (id);
@@ -32,13 +26,7 @@
 - (void)ortIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

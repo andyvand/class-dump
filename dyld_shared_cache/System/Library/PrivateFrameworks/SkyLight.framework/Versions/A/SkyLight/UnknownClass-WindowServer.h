@@ -5,11 +5,10 @@
 //
 
 @interface UnknownClass (WindowServer)
-- (struct CPSProcessRec *);
+- (struct CPSProcessRec *)ilure for %@. During updateRow.  Original row = %p context version match = %d;
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int connectionID;
 @property(readonly, nonatomic) struct CPSProcessRec *processRecord;
 @end
 

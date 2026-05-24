@@ -7,6 +7,18 @@
 @class CPLDropDerivativesRecipe, NSArray, NSString;
 
 @protocol CPLDaemonLibraryManagerMinimalProtocol
+- (void)appEntityRelevanceCoarseGeoHashFeatures;
+- (void);
+- (void);
+- (void)A;
+- (void)9?;
+- (void);
+- (void)c;
+- (void)h;
+- (void)l;
+- (void)ort with Bonjour skipping sa_family %d;
+- (void)";
+- (void)_;
 - (void)0@ù
 × ;
 - (void)@ù1Â0@ù
@@ -14,20 +26,19 @@
 - (void)Ð!øBùñð1Â0@ù
 × ;
 - (void):(void (^)(CPLScopeChange *, NSError *))arg1 8@16q24@32;
-- (void)tifiers:(NSString *)arg1;
-- (void)houldAutoactivateScopeWithIdentifier:(CPLDropDerivativesRecipe *)arg1 scopeType:(_Bool)arg2;
-- (void)edsToPullFromTransport;
-- (void)lientLibraryBaseURL:(NSString *)arg1;
-- (void)uledSyncSession;
-- (void)gToPushChangesToTransport;
-- (void)sWithError:(NSArray *)arg1;
-- (void)ssetFlag;
-- (void)ll;
-- (void)cked:(NSArray *)arg1;
-- (void)tatusChanges:(NSArray *)arg1;
-- (void)Asset;
+- (void)unscopedIdentifiersFromSetOfScopedIdentifiers:(NSString *)arg1;
+- (void)shouldAutoactivateScopeWithIdentifier:(CPLDropDerivativesRecipe *)arg1 scopeType:(_Bool)arg2;
+- (void)noteScopeNeedsToPullFromTransport;
+- (void)initWithClientLibraryBaseURL:(NSString *)arg1;
+- (void)hasAScheduledSyncSession;
+- (void)enumeratorForScopesNeedingToPushChangesToTransport;
+- (void)confirmAllRecordsWithError:(NSArray *)arg1;
+- (void)assetFlag;
+- (void)_reallyNotifySchedulerPullQueueIsFull;
+- (void)_enableSynchronizationWithReasonLocked:(NSArray *)arg1;
+- (void)libraryManagerHasStatusChanges:(NSArray *)arg1;
+- (void)CPLSuggestionAsset;
 - (void)xì;
-- (void);
 - (void)PPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLEngineSystemMonitor.m;
 - (void)DMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/Storage/CPLEngineScopeStorage.m;
 - (void)ersion;

@@ -6,15 +6,9 @@
 
 #import <Foundation/NSXMLNode.h>
 
-@class NSString;
-
 @interface NSXMLElementDeclarationContent : NSXMLNode
 {
     unsigned long long _contentKind;
-    unsigned long long _occurrence;
-    NSString *_name;
-    NSXMLElementDeclarationContent *_leftChild;
-    NSXMLElementDeclarationContent *_rightChild;
 }
 
 + (id);
@@ -23,14 +17,14 @@
 - (void);
 - (id);
 - (struct _xmlElementContent *);
-- (id);
+- (id)h;
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)`";
+- (id)meterObserver=}16;
+- (unsigned long long)ԏ;
 - (_Bool);
 - (unsigned long long);
 - (void)*"+"+"+","-"."."."/"/"0"1"1"2"2"2"3"3"4"5"5"5"6"6"6"6"7"7"7"8"9"9"9"9":(id)arg1 ":":";"<"<"=">">">">">">">">">">"?"?"?"@"A"A"B"B"B"B"C"C"D"E"E"E"E"F"G"G"H"I"J"J"J"J"J"K"L"M"N"O"O"P"P"P"P"P"Q"R"R"S"T"T"U"V"W"W"W"X"Y"Z"["["["["\"]"^"^"_"_"_"`"a"a"a"b"b"c"c"d"d"d"d"e"e"e"e"f"g"g"g"h"i"j"k"k"k"k"k"l"l"l"m"m"n"n"o"p"q"q"q"q"r"r"r"s"s"t"t"t"u"u"v"v"v"v"v"v"w"w"x"y"y"z"z"{"|"|"}"~"~"~"~"~"~"~"~"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" " "¡"¢"¢"£"¤"¥"¦"¦"§"¨"¨"©"©"ª"«"¬"¬"¬"¬"¬"­"­"­"­"­"®"¯"¯"¯"¯"¯"°"°"±"²"²"³"´"´"µ"µ"µ"¶"¶"¶"¶"¶"¶"¶"·"¸"¹"º"º"º"º"»"»"»"»"¼"¼"½"½"¾"¿"¿"À"À"Á"Â"Â"Â"Â"Ã"Ã"Ä"Ä"Å"Æ"Ç"Ç"Ç"È"É"É"É"É"É"É"Ê"Ë"Ì"Í"Î"Î"Ï"Ï"Ð"Ð"Ñ"Ñ"Ò"Ò"Ó"Ó"Ô"Ô"Ô"Õ"Ö"Ö"×"×"×"×"Ø"Ù"Ú"Ú"Û"Ü"Ý"Þ"Þ"ß"ß"ß"à"à"á"á"á"á"á"á"á"â"â"â"â"â"â"ã"ã"ä"ä"å"æ"ç"ç"è"è"é"ê"ë"ë"ë"ì"ì"ì"ì"í"î"ï"ð"ñ"ò"ó"ó"ô"õ"ö"÷"ø"ù"ú"û"û"û"ü"ü"ü"ü"ý"ý"ý"ý"þ"ÿ"ÿ" /* Error: Ran out of types for this method. */;

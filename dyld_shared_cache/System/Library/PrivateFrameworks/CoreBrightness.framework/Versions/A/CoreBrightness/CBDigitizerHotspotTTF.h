@@ -12,30 +12,23 @@ __attribute__((visibility("hidden")))
 @interface CBDigitizerHotspotTTF : CBDigitizerHotspot
 {
     NSMutableArray *_buffer;
-    float _touchTriggerBaseDelay;
-    float _touchBufferWindowS;
-    unsigned long long _touchBufferPivot;
-    unsigned long long _touchBufferMaxCount;
 }
 
 - (float);
 - (float);
 - (unsigned long long);
 - (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (float);
+- (float)@;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property unsigned long long touchBufferMaxCount; // @synthesize touchBufferMaxCount=_touchBufferMaxCount;
-@property unsigned long long touchBufferPivot; // @synthesize touchBufferPivot=_touchBufferPivot;
-@property float touchBufferWindowS; // @synthesize touchBufferWindowS=_touchBufferWindowS;
 @property float touchTriggerBaseDelay; // @synthesize touchTriggerBaseDelay=_touchTriggerBaseDelay;
 
 @end

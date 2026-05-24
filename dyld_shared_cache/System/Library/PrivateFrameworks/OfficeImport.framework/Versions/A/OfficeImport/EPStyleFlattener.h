@@ -6,27 +6,12 @@
 
 #import <OfficeImport/EDProcessor.h>
 
-@class ECIntToTwoIntKeyCache, EDColumnInfoCollection, EDRowBlock, EDRowBlocks, EDWorksheet, NSArray, NSMutableArray;
+@class EDWorksheet;
 
 __attribute__((visibility("hidden")))
 @interface EPStyleFlattener : EDProcessor
 {
     EDWorksheet *mWorksheet;
-    EDRowBlocks *mRowBlocks;
-    EDRowBlock *mCurrentRowBlock;
-    EDColumnInfoCollection *mColumnInfos;
-    NSArray *mKeys;
-    NSMutableArray *mRanges;
-    ECIntToTwoIntKeyCache *mFlattenedStyleCache;
-    ECIntToTwoIntKeyCache *mFillCache;
-    int mFirstRow;
-    int mLastRow;
-    int mFirstColumn;
-    int mLastColumn;
-    unsigned int mFirstRowStripeSize;
-    unsigned int mSecondRowStripeSize;
-    unsigned int mFirstColumnStripeSize;
-    unsigned int mSecondColumnStripeSize;
 }
 
 - (id);
@@ -34,17 +19,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)9;
 - (id);
-- (id);
-- (id);
+- (id)TJ;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (struct EDCellHeader *);
 - (void);
-- (void);
+- (void)q`;
 - (int);
 - (void);
 - (void);

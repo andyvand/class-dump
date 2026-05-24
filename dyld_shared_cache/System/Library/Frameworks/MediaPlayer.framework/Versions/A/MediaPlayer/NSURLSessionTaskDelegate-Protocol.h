@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLSession;
+@class NSURLSession, NSURLSessionTask;
 
 @protocol NSURLSessionTaskDelegate
 
 @optional
 - (void)! Fù1Að1Â0@ù
 × ;
-- (void)aryDestination:(NSURLSession *)arg1;
+- (void)initWithImportElements:(NSURLSession *)arg1 usingCloudLibraryDestination:(NSURLSessionTask *)arg2;
 - (void)}@;
 - (void)èud3öS¼ªÛ»ÑZ«R_bÚ±[ÿ]ey½ØJ©³*\7M>>uÍ¹h·B=óý2§}ÿpõTÊÝòàf·${FçÈ<E X7xÈlòPp#´HPÍÕìÇJÑÒú	Ý8J£hh5 TD¯À­Æ¿;UÆP¶¸¾Û@i¦`EA v÷¶« ¬ÀË
 uUK·þú1"\zf·çá§º#VXWÐ¦+éAÈ¹ç}ÔÉ«ÙÉ8HðJÉ1}ÌÉ`ÙÕ ?¿ÎJ¸åäd

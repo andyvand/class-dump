@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UICollectionView;
+@class UICollectionView;
 @protocol VirtualConferenceRoomTypeSelectionDelegate;
 
 @interface EKUIHorizontalScrollingVirtualConferenceCell
 {
     UICollectionView *_items;
-    id <VirtualConferenceRoomTypeSelectionDelegate> _delegate;
-    NSArray *_roomTypes;
 }
 
-- (double);
-- (void);
+- (double)&s;
+- (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -26,15 +24,7 @@
 - (id)`" $ %$&8'¼';
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <VirtualConferenceRoomTypeSelectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *roomTypes; // @synthesize roomTypes=_roomTypes;
-@property(readonly) Class superclass;
 
 @end
 

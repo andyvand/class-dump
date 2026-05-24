@@ -7,11 +7,10 @@
 @class NSArray;
 
 @protocol SLDataTimelineServerSnapshot
+- (void)lts:(void (^)(id <SLDataTimelineSession>))arg1 %@;
 - (NSArray *)`r§ir@s§Is t§)t;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long index;
-@property(readonly, nonatomic) NSArray *sessions;
 @property(readonly, nonatomic) double timestamp;
 @end
 

@@ -9,7 +9,6 @@
 @interface TRISQLiteCKQueryCursor
 {
     CKQuery *_query;
-    unsigned long long _offset;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 - (unsigned long long)ÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long offset; // @synthesize offset=_offset;
 @property(retain, nonatomic) CKQuery *query; // @synthesize query=_query;
 
 @end

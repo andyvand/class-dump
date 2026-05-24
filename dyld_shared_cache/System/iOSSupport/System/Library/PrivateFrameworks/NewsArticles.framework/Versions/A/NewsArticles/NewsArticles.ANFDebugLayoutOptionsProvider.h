@@ -7,7 +7,6 @@
 @interface NewsArticles.ANFDebugLayoutOptionsProvider
 {
     id observers;
-    id anfOverrides;
 }
 
 - (struct CGSize);
@@ -17,7 +16,7 @@
 - (long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (double);
 - (id);
 - (long long);

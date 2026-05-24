@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HAP2TLVParamServiceList
@@ -15,24 +15,17 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (_Bool)n zero, size:(id)arg1 %zu offset:%lld file:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
 - (id);
-- (void)overAccessoriesOncePaired: /* Error: Ran out of types for this method. */;
+- (void)setDiscoverAccessoriesOncePaired: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableArray *serviceSignatureList; // @synthesize serviceSignatureList=_serviceSignatureList;
-@property(readonly) Class superclass;
 
 @end
 

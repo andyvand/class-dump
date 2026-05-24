@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DHPublicKey, NSData;
+@class DHPublicKey;
 
 __attribute__((visibility("hidden")))
 @interface NGMECDHPublicPreKey
 {
     DHPublicKey *_dhKey;
-    NSData *_signature;
-    double _timestamp;
 }
 
 - (_Bool);
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) DHPublicKey *dhKey; // @synthesize dhKey=_dhKey;
-@property(readonly, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

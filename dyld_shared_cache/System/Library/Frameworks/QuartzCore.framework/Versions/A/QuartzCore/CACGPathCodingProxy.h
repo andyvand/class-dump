@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)plays error %d due to CVDisplayLinkCreateWithCGDisplays failure;
+- (id)%;
 
 @end
 

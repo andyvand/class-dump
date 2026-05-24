@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface IdentityLookup.LiveLookupDBExtension
 {
 }
 
+- (id)a;
 - (id);
-- (id);
-- (id);
+- (id)36;
 
 // Remaining properties
-@property(nonatomic, copy) NSSet *blockingInfo; // @dynamic blockingInfo;
 @property(nonatomic, copy) NSString *identifier; // @dynamic identifier;
-@property(nonatomic, copy) NSSet *identityInfo; // @dynamic identityInfo;
-@property(nonatomic) _Bool isAppStoreVendable; // @dynamic isAppStoreVendable;
-@property(nonatomic) _Bool isEnabled; // @dynamic isEnabled;
-@property(nonatomic) _Bool isInstalled; // @dynamic isInstalled;
-@property(nonatomic) short priority; // @dynamic priority;
-@property(nonatomic) _Bool shouldRemove; // @dynamic shouldRemove;
 
 @end
 

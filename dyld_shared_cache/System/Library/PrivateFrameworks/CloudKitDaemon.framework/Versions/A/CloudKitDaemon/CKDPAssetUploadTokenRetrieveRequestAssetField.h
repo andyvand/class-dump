@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordFieldIdentifier, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKDPAssetUploadTokenRetrieveRequestAssetField
 {
     NSMutableArray *_assets;
-    CKDPRecordFieldIdentifier *_field;
 }
 
 + (Class)ÔAÐ!àGùQÛ°1Â0@ù
@@ -21,11 +20,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)SStatus interruptingStreamWrapper_yieldToInterruptibleIfNecessary(FigEndpointStreamAirPlayRef, CFStringRef);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -43,8 +42,6 @@
 = /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *assets; // @synthesize assets=_assets;
-@property(retain, nonatomic) CKDPRecordFieldIdentifier *field; // @synthesize field=_field;
 @property(readonly, nonatomic) _Bool hasField;
 
 @end

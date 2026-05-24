@@ -23,7 +23,7 @@
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id);
 + (_Bool);
 + (void);
 + (void);
@@ -32,6 +32,7 @@
 + (id);
 + (void);
 + (void);
++ (void)@;
 + (void);
 + (void);
 + (void);
@@ -43,21 +44,20 @@
 + (void);
 + (void);
 + (void);
++ (void);
 + (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
 + (id);
 + (id);
 + (void);
 + (id);
-+ (void);
 + (id);
++ (id);
++ (id);
++ (id);
++ (void);
++ (id)_fiveGHzDeniedUnii2cChannelCount;
++ (void)WiFiUsagePlatformConfig;
++ (id)__TEXT;
 
 @end
 

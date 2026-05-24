@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)sionProviderContext pullSampleBufferForStreamID:replyq:reply:] /* Error: Ran out of types for this method. */;
 @end
 

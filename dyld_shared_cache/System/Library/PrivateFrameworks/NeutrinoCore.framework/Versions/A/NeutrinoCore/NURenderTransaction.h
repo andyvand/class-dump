@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject;
-@protocol OS_dispatch_group;
+@class NSArray;
 
 @interface NURenderTransaction
 {
     long long _nestingLevel;
-    NSMutableArray *_requests;
-    NSObject<OS_dispatch_group> *_group;
 }
 
-+ (void);
++ (void)jh8	;
 + (id);
 + (void);
 + (id);
 + (void);
-+ (void);
++ (void)@], change [%{private}@] -> [%{private}@];
 + (void);
 + (id);
 + (void);
@@ -27,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

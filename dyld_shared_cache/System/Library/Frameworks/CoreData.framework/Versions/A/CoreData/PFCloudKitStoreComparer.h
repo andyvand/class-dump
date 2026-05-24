@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFCloudKitArchivingUtilities, PFCloudKitStoreComparisonCache;
+@class PFCloudKitStoreComparisonCache;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitStoreComparer
 {
     _Bool _onlyCompareSharedZones;
-    PFCloudKitStoreComparisonCache *_cache;
-    PFCloudKitArchivingUtilities *_archivingUtilities;
 }
 
 + (id);
 - (_Bool);
-- (void);
+- (void)C;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -40,9 +38,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PFCloudKitArchivingUtilities *archivingUtilities; // @synthesize archivingUtilities=_archivingUtilities;
 @property(readonly, nonatomic) PFCloudKitStoreComparisonCache *cache; // @synthesize cache=_cache;
-@property(nonatomic) _Bool onlyCompareSharedZones; // @synthesize onlyCompareSharedZones=_onlyCompareSharedZones;
 
 @end
 

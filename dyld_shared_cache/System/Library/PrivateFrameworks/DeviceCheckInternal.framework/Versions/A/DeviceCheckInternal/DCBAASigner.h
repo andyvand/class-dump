@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (id);
-- (id);
+- (void)initWithBaseSleepInterval:(id)arg1 maxSleepInterval:(CDUnknownBlockType)arg2;
+- (id)initWithAccount:(id)arg1 serviceIdentifier:(struct __SecKey *)arg2 useCachedServiceToken:(id *)arg3;
+- (id)initWithAccount:(id)arg1 responseDictionary:(id *)arg2;
 - (void);
 
 @end

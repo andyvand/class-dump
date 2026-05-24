@@ -4,54 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLFunction, NSArray, NSDictionary, NSObject;
-@protocol MTLBinaryArchive, MTLPipelineCache, OS_dispatch_data;
-
 @interface MTLCompileFunctionRequestData
 {
     _Bool _sync;
-    MTLFunction *_function;
-    unsigned long long _functionOptions;
-    unsigned long long _pipelineOptions;
-    NSObject<OS_dispatch_data> *_frameworkData;
-    NSObject<OS_dispatch_data> *_driverKeyData;
-    NSObject<OS_dispatch_data> *_airScript;
-    NSObject<OS_dispatch_data> *_archiverId;
-    id <MTLPipelineCache> _pipelineCache;
-    CDStruct_41a22ec7 _archiveHashKey;
-    id <MTLBinaryArchive> _destinationBinaryArchive;
-    NSArray *_binaryArchives;
-    NSArray *_visibleFunctions;
-    NSArray *_privateVisibleFunctions;
-    NSDictionary *_visibleFunctionGroups;
-    _Bool _useAIRNTInterfaces;
-    _Bool _meshShaderEmulatorEnabled;
-    _Bool _emulatorGeneratesVertexShader;
-    _Bool _emulatorLowersFragmentShader;
-    unsigned int _emulatorMaxVertexAmplificationCount;
-    unsigned int _maxAccelerationStructureTraversalDepth;
-    unsigned long long _timeoutInSeconds;
-    NSDictionary *_gpuCompilerSPIOptions;
-    CDStruct_41a22ec7 _vendorPluginFunctionId;
 }
 
-+ (id);
++ (id)B;
 - (void);
-- (_Bool);
+- (_Bool)y>faces.eyeToEyebrowRatio</key> <real>1.4</real> <key>faces.linearBlurGrowthM</key> <real>0.01</real> <key>faces.linearBlurGrowthC</key> <real>2.7901e-4</real> <key>faces.distToBlurScaling</key> <real>0.091</real> <key>faces.capMultip</key> <real>1.0</real> <key>faces.gainMultip</key> <real>1.0</real> <key>faces.chinThetaLimit</key> <real>1.0</real> <key>faces.chinThetaMultip</key> <real>1.0</real> <key>faces.chinVectorSnapping</key> <real>0.5</real> </dict> <key>SLM</key> <dict> <key>fallbackFocusROI_height</key> <real>0.10000000000000001</real> <key>fallbackFocusROI_left</key> <real>0.45000000000000001</real> <key>fallbackFocusROI_top</key> <real>0.45000000000000001</real> <key>fallbackFocusROI_width</key> <real>0.10000000000000001</real> <key>maxFGBlur</key> <real>0.00020000000000000001</real> <key>shiftDeadZone</key> <real>0.29999999999999999</real> <key>simulatedAperture</key> <real>4.5</real> <key>zeroShiftPercentile</key> <real>0.75</real> </dict> <key>BlurMapSmoothing</key> <dict> <key>nIterations</key> <real>5</real> <key>originalBlurValueT0</key> <real>0.2</real> <key>originalBlurValueT1</key> <real>0.5</real> <key>localMinimumBlurValueT0</key> <real>0.05</real> <key>localMinimumBlurValueT1</key> <real>0.3</real> </dict> </dict> </plist>;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (CDStruct_41a22ec7);
 - (id);
-- (_Bool);
+- (_Bool)0;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)end="w"?>;
+- (void)HorizontalPrismPower;
+- (void);
 - (CDStruct_41a22ec7);
 - (id);
 - (void);
@@ -61,7 +35,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)AppleEnabledInputSourcesFlavor;
 - (_Bool);
 - (id);
 - (void);
@@ -70,18 +44,18 @@
 - (id);
 - (void);
 - (unsigned int);
-- (void);
+- (void)o;
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_;
 - (void)e>""label"@"NSString""globalTraceObjectID"Q"labelTraceID"Q"resourceRef"^{__IOAccelResource}"clientSharedRO"^{IOAccelClientSharedRO}"clientSharedRW"^{IOAccelClientSharedRW}"virtualAddress"^v"options"Q"storageMode"Q"cpuCacheMode"Q"responsibleProcess"i"purgeableState"Q"purgeableAllowed"B"sharedAllocationInfo"@"MTLResourceAllocationInfo""cachedAllocationInfo"@"MTLResourceAllocationInfo""heap"@"MTLIOAccelHeap""resource"@"MTLIOAccelResource""offset"Q"length"Q"pinned"B"labelLock"{os_unfair_lock_s="_os_unfair_lock_opaque"I}"remoteStorageResource"@"MTLIOAccelResource"};
 - (id)tationData;
 - (id)terInfo,V_counterInfo;
 - (void);
 - (void)ä·ÿÿ;
-- (void)tionNever;
+- (void)MTLCompareFunctionNever;
 - (id)ectArgumentBufferLayout offsetForSampler:] /* Error: Ran out of types for this method. */;
 - (unsigned int),Ô
 ;
@@ -89,30 +63,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) NSObject<OS_dispatch_data> *airScript;
-@property(nonatomic) CDStruct_41a22ec7 archiveHashKey; // @synthesize archiveHashKey=_archiveHashKey;
-@property(nonatomic) NSObject<OS_dispatch_data> *archiverId;
-@property(copy, nonatomic) NSArray *binaryArchives; // @synthesize binaryArchives=_binaryArchives;
-@property(retain, nonatomic) id <MTLBinaryArchive> destinationBinaryArchive; // @synthesize destinationBinaryArchive=_destinationBinaryArchive;
-@property(nonatomic) NSObject<OS_dispatch_data> *driverKeyData;
-@property(nonatomic) _Bool emulatorGeneratesVertexShader; // @synthesize emulatorGeneratesVertexShader=_emulatorGeneratesVertexShader;
-@property(nonatomic) _Bool emulatorLowersFragmentShader; // @synthesize emulatorLowersFragmentShader=_emulatorLowersFragmentShader;
-@property(nonatomic) unsigned int emulatorMaxVertexAmplificationCount; // @synthesize emulatorMaxVertexAmplificationCount=_emulatorMaxVertexAmplificationCount;
-@property(nonatomic) NSObject<OS_dispatch_data> *frameworkData;
-@property(retain, nonatomic) MTLFunction *function; // @synthesize function=_function;
-@property(nonatomic) unsigned long long functionOptions; // @synthesize functionOptions=_functionOptions;
-@property(copy, nonatomic) NSDictionary *gpuCompilerSPIOptions; // @synthesize gpuCompilerSPIOptions=_gpuCompilerSPIOptions;
-@property(nonatomic) unsigned int maxAccelerationStructureTraversalDepth; // @synthesize maxAccelerationStructureTraversalDepth=_maxAccelerationStructureTraversalDepth;
-@property(nonatomic) _Bool meshShaderEmulatorEnabled; // @synthesize meshShaderEmulatorEnabled=_meshShaderEmulatorEnabled;
-@property(retain, nonatomic) id <MTLPipelineCache> pipelineCache; // @synthesize pipelineCache=_pipelineCache;
-@property(nonatomic) unsigned long long pipelineOptions; // @synthesize pipelineOptions=_pipelineOptions;
-@property(copy, nonatomic) NSArray *privateVisibleFunctions; // @synthesize privateVisibleFunctions=_privateVisibleFunctions;
 @property(nonatomic) _Bool sync; // @synthesize sync=_sync;
-@property(nonatomic) unsigned long long timeoutInSeconds; // @synthesize timeoutInSeconds=_timeoutInSeconds;
-@property _Bool useAIRNTInterfaces; // @synthesize useAIRNTInterfaces=_useAIRNTInterfaces;
-@property(nonatomic) CDStruct_41a22ec7 vendorPluginFunctionId; // @synthesize vendorPluginFunctionId=_vendorPluginFunctionId;
-@property(copy, nonatomic) NSDictionary *visibleFunctionGroups; // @synthesize visibleFunctionGroups=_visibleFunctionGroups;
-@property(copy, nonatomic) NSArray *visibleFunctions; // @synthesize visibleFunctions=_visibleFunctions;
 
 @end
 

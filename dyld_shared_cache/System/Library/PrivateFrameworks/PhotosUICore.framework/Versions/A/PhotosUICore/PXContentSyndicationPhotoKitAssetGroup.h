@@ -9,26 +9,18 @@
 @interface PXContentSyndicationPhotoKitAssetGroup
 {
     NSArray *_originalAssets;
-    NSArray *_userLibraryAssets;
-    NSArray *_unsavedSyndicatedAssets;
-    NSArray *_unsavedCMMSyndicatedAssets;
-    NSArray *_syndicationIdentifiers;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *originalAssets; // @synthesize originalAssets=_originalAssets;
-@property(readonly, nonatomic) NSArray *syndicationIdentifiers; // @synthesize syndicationIdentifiers=_syndicationIdentifiers;
-@property(readonly, nonatomic) NSArray *unsavedCMMSyndicatedAssets; // @synthesize unsavedCMMSyndicatedAssets=_unsavedCMMSyndicatedAssets;
-@property(readonly, nonatomic) NSArray *unsavedSyndicatedAssets; // @synthesize unsavedSyndicatedAssets=_unsavedSyndicatedAssets;
-@property(readonly, nonatomic) NSArray *userLibraryAssets; // @synthesize userLibraryAssets=_userLibraryAssets;
 
 @end
 

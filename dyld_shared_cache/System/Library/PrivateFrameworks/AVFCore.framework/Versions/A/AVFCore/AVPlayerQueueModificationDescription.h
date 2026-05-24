@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItem;
-
 __attribute__((visibility("hidden")))
 @interface AVPlayerQueueModificationDescription
 {
     long long _modificationType;
-    AVPlayerItem *_item;
-    AVPlayerItem *_afterItem;
 }
 
 + (id);
@@ -20,12 +16,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long):8@?<v@?@"NSError">16 /* Error: Ran out of types for this method. */;
+- (id)rchPathRemove] was provided a non string/url path to stop watching.;
 
 // Remaining properties
-@property(readonly, nonatomic) AVPlayerItem *afterItem; // @synthesize afterItem=_afterItem;
-@property(readonly, nonatomic) AVPlayerItem *item; // @synthesize item=_item;
 @property(readonly, nonatomic) long long modificationType; // @synthesize modificationType=_modificationType;
 
 @end

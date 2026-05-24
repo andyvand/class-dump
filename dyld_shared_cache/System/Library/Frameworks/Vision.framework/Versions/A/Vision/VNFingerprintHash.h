@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface VNFingerprintHash
 {
     NSData *_booleanBytesData_DO_NOT_DIRECTLY_ACCESS;
-    NSData *_hashData_DO_NOT_DIRECTLY_ACCESS;
 }
 
 + (_Bool);
@@ -18,18 +17,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)deleteSearchableItemsWithIdentifiers:(id)arg1 reason:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (id);
 - (void)add must be accompanied by grouping identifiers when performing clustering in torso mode.;
 
 // Remaining properties
 @property(readonly, copy) NSData *booleanBytesData;
-@property(readonly, copy) NSData *hashData;
-@property(readonly, copy) NSString *hashString;
 
 @end
 

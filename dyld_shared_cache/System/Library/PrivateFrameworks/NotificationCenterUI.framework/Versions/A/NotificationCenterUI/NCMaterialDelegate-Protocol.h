@@ -5,5 +5,6 @@
 //
 
 @protocol NCMaterialDelegate
+- (void)updateTextViewIfNecessary:(unsigned char)arg1 withAttributedString: /* Error: Ran out of types for this method. */;
 @end
 

@@ -9,10 +9,19 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (void)!;
+- (void)j!/;
+- (void);
+- (void)ectory() bundle - %@ function '%@' can't be found.;
+- (void);
+- (void);
+- (void)der"16;
+- (void)8	;
 - (_Bool)!4"ð!èDùÉ%1Â0@ù
 × ;
 - (void)Ô ;
-- (void)rtCustomAnimationToExitFullScreenWithDuration:(NSNotification *)arg1;
-- (struct CGSize)isplaysPageBreaks:(NSWindow *)arg1;
+- (void)window:(NSNotification *)arg1 startCustomAnimationToExitFullScreenWithDuration: /* Error: Ran out of types for this method. */;
+- (struct CGSize)setDisplaysPageBreaks:(NSWindow *)arg1;
 @end
 

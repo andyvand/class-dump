@@ -4,40 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSMutableDictionary, NSSet, NSString;
+@class NSMutableArray;
 
 @interface CLSPersonIdentity
 {
     NSMutableArray *_homeAddresses;
-    NSMutableArray *_workAddresses;
-    NSString *_sourceService;
-    _Bool _isFavorite;
-    _Bool _isHidden;
-    _Bool _isUserCreated;
-    _Bool _hasContactProfilePicture;
-    _Bool _hasPhoneNumber;
-    NSString *_localIdentifier;
-    NSString *_CNIdentifier;
-    NSString *_GDIdentifier;
-    NSString *_fullName;
-    NSString *_firstName;
-    NSString *_middleName;
-    NSString *_lastName;
-    NSString *_nickname;
-    unsigned long long _sex;
-    unsigned long long _ageCategory;
-    NSDate *_birthdayDate;
-    NSDate *_potentialBirthdayDate;
-    NSDate *_anniversaryDate;
-    NSString *_companyName;
-    NSMutableDictionary *_socialProfiles;
-    NSSet *_emailAddresses;
-    NSSet *_phoneNumbers;
-    unsigned long long _relationship;
-    NSArray *_sourceURLs;
-    NSString *_inferredLastName;
-    NSString *_localizedShortName;
-    NSString *_shareParticipantLocalIdentifier;
 }
 
 @end

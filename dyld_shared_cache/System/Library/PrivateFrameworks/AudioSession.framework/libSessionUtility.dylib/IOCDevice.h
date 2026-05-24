@@ -14,7 +14,7 @@
 + (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)reamBasicDescription=dIIIIIIII}16I24B28^@32;
 - (void);
 - (void);
 - (id);

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, UTType;
+@class NSString;
 
 @interface FPSearchOnServerResult
 {
     NSString *_filename;
-    NSDate *_creationDate;
-    NSDate *_contentModificationDate;
-    NSDate *_lastUsedDate;
-    UTType *_contentType;
-    NSNumber *_documentSize;
-    NSString *_itemIdentifier;
-    NSString *_providerID;
-    NSString *_domainIdentifier;
-    double _rankingHint;
 }
 
 + (_Bool);
@@ -27,9 +18,9 @@
 - (id);
 - (id);
 - (id);
+- (id)setDecoratedValueAnnotation: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (id);
@@ -38,13 +29,6 @@
 - (id)"8@"NSString"16@"NSError"24;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *contentModificationDate; // @synthesize contentModificationDate=_contentModificationDate;
-@property(readonly, copy, nonatomic) UTType *contentType; // @synthesize contentType=_contentType;
-@property(readonly, copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy, nonatomic) NSNumber *documentSize; // @synthesize documentSize=_documentSize;
-@property(readonly, copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(readonly, copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly, copy, nonatomic) NSDate *lastUsedDate; // @synthesize lastUsedDate=_lastUsedDate;
 @property(readonly, nonatomic) double rankingHint; // @synthesize rankingHint=_rankingHint;
 
 @end

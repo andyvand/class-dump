@@ -7,21 +7,10 @@
 @interface AWDWiFiMetricsManagerDeviceCount
 {
     double _timeSinceBoot;
-    unsigned long long _timestamp;
-    unsigned int _deviceCount;
-    unsigned int _deviceIdentifierMap;
-    unsigned int _deviceInitFailureReason;
-    struct {
-        unsigned int timeSinceBoot:1;
-        unsigned int timestamp:1;
-        unsigned int deviceCount:1;
-        unsigned int deviceIdentifierMap:1;
-        unsigned int deviceInitFailureReason:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)T?;
 - (void);
 - (void);
 - (void);
@@ -30,7 +19,7 @@
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
-- (double);
+- (double)s;
 - (void);
 - (id);
 - (void);
@@ -44,23 +33,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)J	;
 - (void);
 - (id);
 - (unsigned int);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int deviceCount; // @synthesize deviceCount=_deviceCount;
-@property(nonatomic) unsigned int deviceIdentifierMap; // @synthesize deviceIdentifierMap=_deviceIdentifierMap;
-@property(nonatomic) unsigned int deviceInitFailureReason; // @synthesize deviceInitFailureReason=_deviceInitFailureReason;
-@property(nonatomic) _Bool hasDeviceCount;
-@property(nonatomic) _Bool hasDeviceIdentifierMap;
-@property(nonatomic) _Bool hasDeviceInitFailureReason;
-@property(nonatomic) _Bool hasTimeSinceBoot;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) double timeSinceBoot; // @synthesize timeSinceBoot=_timeSinceBoot;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

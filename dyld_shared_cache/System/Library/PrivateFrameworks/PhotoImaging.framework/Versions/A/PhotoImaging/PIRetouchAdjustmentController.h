@@ -23,12 +23,11 @@
 + (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *detectedFaces;
-@property(readonly, nonatomic) unsigned long long retouchStrokeCount;
 
 @end
 

@@ -6,9 +6,6 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString, SXJSONArray;
-@protocol SXAutoPlacementLayout;
-
 @interface SXAdvertisementPlacementType : SXJSONObject
 {
 }
@@ -19,22 +16,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bannerType; // @dynamic bannerType;
-@property(readonly, nonatomic) SXJSONArray *conditional; // @dynamic conditional;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SXJSONArray",?,R,D,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct _SXConvertibleValue distanceFromMedia; // @dynamic distanceFromMedia;
-@property(readonly, nonatomic) _Bool enabled; // @dynamic enabled;
 @property(readonly, nonatomic) unsigned long long frequency; // @dynamic frequency;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXAutoPlacementLayout> layout; // @dynamic layout;
-@property(readonly) Class superclass;
 
 @end
 

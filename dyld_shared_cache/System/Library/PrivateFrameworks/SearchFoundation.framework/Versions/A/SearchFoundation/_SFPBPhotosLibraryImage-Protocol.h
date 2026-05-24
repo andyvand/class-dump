@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData, NSString;
 
 @protocol _SFPBPhotosLibraryImage
+- (NSString *)fullSizeImageOrientation;
+- (NSData *)ibraryURL;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(nonatomic) _Bool isSyndicated;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *peopleInPhotos;
 @property(copy, nonatomic) NSString *photoIdentifier;
 @end
 

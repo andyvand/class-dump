@@ -9,13 +9,9 @@
 @interface CTRegistrationDisplayStatus
 {
     _Bool _isInHomeCountry;
-    _Bool _changedDueToSimRemoval;
-    _Bool _isRegistrationForcedHome;
-    _Bool _isSatelliteSystem;
-    NSString *_registrationDisplayStatus;
 }
 
-+ (_Bool);
++ (_Bool)ot be set to YES when using an AVAssetReaderOutput.Provider;
 - (void);
 - (id);
 - (id);
@@ -26,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)initWithAutoRetry:(id)arg1 avoidUsingFaceIDCamera:allowedUsers:authenticationContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -36,13 +32,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool changedDueToSimRemoval; // @synthesize changedDueToSimRemoval=_changedDueToSimRemoval;
-@property(readonly, nonatomic) NSString *ct_shortDescription;
 @property(readonly, nonatomic) NSString *ct_shortName;
-@property(nonatomic) _Bool isInHomeCountry; // @synthesize isInHomeCountry=_isInHomeCountry;
-@property(nonatomic) _Bool isRegistrationForcedHome; // @synthesize isRegistrationForcedHome=_isRegistrationForcedHome;
-@property(nonatomic) _Bool isSatelliteSystem; // @synthesize isSatelliteSystem=_isSatelliteSystem;
-@property(retain, nonatomic) NSString *registrationDisplayStatus; // @synthesize registrationDisplayStatus=_registrationDisplayStatus;
 
 @end
 

@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray;
 
 @interface _SFPBTextColumnsCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    unsigned int _titleWeight;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSString *_title;
-    NSArray *_columns;
 }
 
 - (unsigned int);
-- (void);
+- (void)%;
 - (id);
 - (id);
 - (unsigned long long);
@@ -35,30 +24,30 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)bootpolicy_remove_all_other_local_policies;
+- (_Bool)_buildUserTokenBasedMusicKitURLRequestWithBaseURLRequest:developerToken:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_applicationWillEnterForeground: /* Error: Ran out of types for this method. */;
+- (void)lld, timeStamp %{public}@ with error %{public}@.;
+- (id);
 - (void);
+- (void);
+- (unsigned long long)P;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)setEvictsObjectsWithDiscardedContent:(id)arg1;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void)8Q16;
@@ -66,26 +55,7 @@
 - (int)o;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(copy, nonatomic) NSArray *columns; // @synthesize columns=_columns;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned int titleWeight; // @synthesize titleWeight=_titleWeight;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

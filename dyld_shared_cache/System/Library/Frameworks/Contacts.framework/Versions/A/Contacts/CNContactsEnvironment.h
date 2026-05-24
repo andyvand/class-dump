@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDPersistenceStack, NSArray, NSURL;
-@protocol CNAccountCollection, CNContactPosterDataStore, CNContactsLoggerProvider, CNSchedulerProvider, CNSiriIntelligenceSettingsProtocol, SGSuggestionsServiceContactsProtocol;
+@class NSArray;
+@protocol CNContactPosterDataStore;
 
 @interface CNContactsEnvironment
 {
     id <CNContactPosterDataStore> _posterDataStore;
-    _Bool _shouldUseNativeStack;
-    id <CNSchedulerProvider> _schedulerProvider;
-    id <CNAccountCollection> _accountCollection;
-    CNCDPersistenceStack *_existingPersistenceStack;
-    id <SGSuggestionsServiceContactsProtocol> _suggestionsService;
-    id <CNSiriIntelligenceSettingsProtocol> _siriIntelligenceSettings;
-    NSArray *_delegateInfos;
-    id <CNContactsLoggerProvider> _loggerProvider;
 }
 
 + (id);
@@ -34,11 +26,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)[ERROR]  abc reply failure:(%d) %@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -47,9 +39,9 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)Ng;
 - (void);
 - (id);
 - (void);
@@ -60,20 +52,10 @@
 - (id)Ôq&ð!ÌGù*°1Â0@ù
 × ;
 - (void)"<CNContactsAPIServiceAuthorizationCheck>";
-- (id)esToEntireURL;
+- (id)_cn_stringByAddingPercentEscapesToEntireURL;
 
 // Remaining properties
-@property(retain) id <CNAccountCollection> accountCollection; // @synthesize accountCollection=_accountCollection;
-@property(readonly, copy) NSURL *baseURL;
 @property(retain, nonatomic) NSArray *delegateInfos; // @synthesize delegateInfos=_delegateInfos;
-@property(retain) CNCDPersistenceStack *existingPersistenceStack; // @synthesize existingPersistenceStack=_existingPersistenceStack;
-@property(readonly, nonatomic) id <CNContactsLoggerProvider> loggerProvider; // @synthesize loggerProvider=_loggerProvider;
-@property(retain) id <CNContactPosterDataStore> posterDataStore;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(nonatomic, setter=setUseNativeStack:) _Bool shouldUseNativeStack; // @synthesize shouldUseNativeStack=_shouldUseNativeStack;
-@property(retain) id <CNSiriIntelligenceSettingsProtocol> siriIntelligenceSettings; // @synthesize siriIntelligenceSettings=_siriIntelligenceSettings;
-@property(retain) id <SGSuggestionsServiceContactsProtocol> suggestionsService; // @synthesize suggestionsService=_suggestionsService;
-@property(readonly) _Bool useInMemoryStores;
 
 @end
 

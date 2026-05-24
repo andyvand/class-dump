@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (unsigned char);
-+ (id);
++ (id)ler:(unsigned int)arg1;
 + (void);
 + (Class);
 + (unsigned char);
-+ (_Bool);
++ (_Bool)peripheral:(unsigned int *)arg1 didCompleteChannelSoundingProcedure:(id)arg2 error:(id *)arg3;
 + (_Bool);
 + (_Bool);
 

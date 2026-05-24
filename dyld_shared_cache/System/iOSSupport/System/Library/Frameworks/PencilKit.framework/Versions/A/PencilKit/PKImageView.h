@@ -9,11 +9,6 @@
 @interface PKImageView
 {
     UIView *_imageView;
-    UIView *_addView;
-    UIView *_mulView;
-    UIImage *_image;
-    UIImage *_addImage;
-    UIImage *_mulImage;
 }
 
 - (void);
@@ -24,19 +19,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)Ô;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *addImage; // @synthesize addImage=_addImage;
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UIImage *mulImage; // @synthesize mulImage=_mulImage;
 
 @end
 

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, NSString;
+@class NSString;
 
 @protocol SCNJSBasicAnimationJSExport
++ (id)tableView:(NSString *)arg1 accessoryButtonTappedForRowWithIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)put>"16@"NSArray"24@"NSString"32;
+- (void)performSelector:(NSString *)arg1 withObject:withObject: /* Error: Ran out of types for this method. */;
+- (void)Query success for:(_Bool)arg1 %@;
+- (float)_ASWebsiteNameDictionary;
+- (_Bool)initWithOptions:eventStore: /* Error: Ran out of types for this method. */;
+- (void)imageData;
+- (void)4;
+- (double)_handleManualAutoFillRequestMessage: /* Error: Ran out of types for this method. */;
+- (void)ct"==typeof r&&o.push(r)}}}return t},extractAllSchemaValuesFromJSONLD:(double)arg1 function(){let t={};const e=document.querySelector('script[type="application/ld+json"]');if(!e)return t;let r,a;try{r=JSON.parse(e.text)}catch(e){return t}if(a=Array.isArray(r)?r[0]["@context"]:r["@context"],"http://schema.org"!==a&&"https://schema.org"!==a)return t;t[SchemaDataExtractor.containsSchemaOrgKey]=!0;let o=[];o.unshift(r);const s=o.shift();for(let e in s)t[e]=s[e];return t},resultHasAddressOrTelephone:function(t){return null!=t&&(Object.prototype.hasOwnProperty.call(t,"streetAddress")||Object.prototype.hasOwnProperty.call(t,"telephone"))},resultHasSchemaOrgInfo:function(t){return null!=t&&Object.prototype.hasOwnProperty.call(t,SchemaDataExtractor.containsSchemaOrgKey)},extractSchemaValuesFromSchemaOrg:function(){let t=this.extractAllSchemaValuesFromMicroData(),e=this.extractFilteredSchemaValuesFromMicroData();return this.resultHasAddressOrTelephone(e)||(e=this.extractFilteredSchemaValuesFromJSONLD()),this.resultHasAddressOrTelephone(t)||(t=this.extractAllSchemaValuesFromJSONLD()),(this.resultHasAddressOrTelephone(e)||this.resultHasSchemaOrgInfo(e))&&(e.url=location.href),[e,t]}},"undefined"==typeof SchemaDataExtractorJS&&(SchemaDataExtractorJS=new SchemaDataExtractor),SchemaDataExtractorJS.extractSchemaValuesFromSchemaOrg(); /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(getter=isAdditive) _Bool additive;
-@property _Bool autoreverses;
-@property double beginTime;
-@property(retain) id byValue;
-@property(getter=isCumulative) _Bool cumulative;
-@property double duration;
-@property(copy) NSString *fillMode;
 @property(retain) id fromValue;
-@property(copy) NSString *keyPath;
-@property(getter=isRemovedOnCompletion) _Bool removedOnCompletion;
-@property float repeatCount;
-@property double repeatDuration;
-@property float speed;
-@property double timeOffset;
-@property(retain) CAMediaTimingFunction *timingFunction;
-@property(retain) id toValue;
 @end
 

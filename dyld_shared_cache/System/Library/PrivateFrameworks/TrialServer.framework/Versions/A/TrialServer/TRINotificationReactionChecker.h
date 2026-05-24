@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIExperimentDatabase, TRIRolloutDatabase;
 @protocol TRIDateProviding;
 
 @interface TRINotificationReactionChecker
 {
     id <TRIDateProviding> _dateProvider;
-    TRIRolloutDatabase *_rolloutDb;
-    TRIExperimentDatabase *_experimentDb;
 }
 
 - (CDStruct_6b48f683);
 - (id);
-- (CDStruct_6b48f683);
+- (CDStruct_6b48f683)imd_double2 &, const CGRect &, const double) const;
 - (CDStruct_6b48f683);
 - (_Bool);
 - (_Bool);

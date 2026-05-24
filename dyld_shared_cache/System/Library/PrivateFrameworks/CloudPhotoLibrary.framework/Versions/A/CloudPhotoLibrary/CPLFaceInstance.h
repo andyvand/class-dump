@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface CPLFaceInstance
 {
     double _bodyCenterX;
-    double _bodyCenterY;
-    double _bodyHeight;
-    double _bodyWidth;
-    double _centerX;
-    double _centerY;
-    double _size;
-    unsigned int _detectionType;
-    unsigned int _faceState;
-    unsigned int _nameSource;
-    NSString *_personIdentifier;
-    NSMutableArray *_rejectedPersonIdentifiers;
-    struct {
-        unsigned int bodyCenterX:1;
-        unsigned int bodyCenterY:1;
-        unsigned int bodyHeight:1;
-        unsigned int bodyWidth:1;
-        unsigned int centerX:1;
-        unsigned int centerY:1;
-        unsigned int size:1;
-        unsigned int detectionType:1;
-        unsigned int faceState:1;
-        unsigned int nameSource:1;
-    } _has;
 }
 
 + (Class);
@@ -45,29 +20,29 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)t;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)"4;
+- (void)@"NSDate",&,N,V_shortcutLastUsedDate;
 - (id);
+- (_Bool)y;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)] startDate=[%@] endDate=[%@]) retrievalType=%i documentEmbeddingAvailable=%d searchTermsMatchTitle=%@;
+- (_Bool)larity=%lf projectedEmbeddingSimilarity=%lf keywordMatchScore=%lf freshness=%lf engagement=%lf pommesL2Score=%lf searchtoolL2Score=%f) documentSignals=(detectedEventTypes=%@ cardType=%@ link=(type=%@ name=%@ url=%@ isInferred=%i isPromoted=%i) isMailCategoryHighImpact=%i isMailCategoryPromotions=%i startDueDateToNowInSeconds=%ld isCalendarFlightEventType=%i isCalendarHotelEventType=%i isCalendarRestaurantEventTyp=%i isCalendarOtherReservationEventType=%i mostRecentTimeToQueryInMinutes=%ld) topicalityAnonFeatDict=(%@) dates=(lastUsedDate=[%@] contentCreationDate=[%@] contentModificationDate=[%@] receivedDate=[%@] sentDate=[%@] startDate=[%@] endDate=[%@]) retrievalType=%i documentEmbeddingAvailable=%d searchTermsMatchTitle=%@;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -81,59 +56,34 @@
 - (double);
 - (double);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (double);
 - (unsigned int);
-- (double);
+- (double);
 - (double);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)D';
+- (void)P;
 - (unsigned long long);
 - (_Bool);
-- (double),V_changeType;
-- (void)À>Dùèö;
-- (_Bool)B@àª`à3;
+- (double);
+- (void);
+- (_Bool);
 - (void);
 - (unsigned int);
 - (id);
 - (id);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double bodyCenterX; // @synthesize bodyCenterX=_bodyCenterX;
-@property(nonatomic) double bodyCenterY; // @synthesize bodyCenterY=_bodyCenterY;
-@property(nonatomic) double bodyHeight; // @synthesize bodyHeight=_bodyHeight;
-@property(nonatomic) double bodyWidth; // @synthesize bodyWidth=_bodyWidth;
-@property(nonatomic) double centerX; // @synthesize centerX=_centerX;
-@property(nonatomic) double centerY; // @synthesize centerY=_centerY;
-@property(nonatomic) unsigned int detectionType; // @synthesize detectionType=_detectionType;
-@property(nonatomic) unsigned int faceState; // @synthesize faceState=_faceState;
-@property(nonatomic) _Bool hasBodyCenterX;
-@property(nonatomic) _Bool hasBodyCenterY;
-@property(nonatomic) _Bool hasBodyHeight;
-@property(nonatomic) _Bool hasBodyWidth;
-@property(nonatomic) _Bool hasCenterX;
-@property(nonatomic) _Bool hasCenterY;
-@property(nonatomic) _Bool hasDetectionType;
-@property(nonatomic) _Bool hasFaceState;
-@property(nonatomic) _Bool hasNameSource;
-@property(readonly, nonatomic) _Bool hasPersonIdentifier;
-@property(nonatomic) _Bool hasSize;
-@property(nonatomic, getter=isKeyFace) _Bool keyFace;
-@property(nonatomic, getter=isManual) _Bool manual;
-@property(nonatomic) unsigned int nameSource; // @synthesize nameSource=_nameSource;
 @property(readonly, nonatomic, getter=isNoneState) _Bool noneState;
-@property(retain, nonatomic) NSString *personIdentifier; // @synthesize personIdentifier=_personIdentifier;
-@property(retain, nonatomic) NSMutableArray *rejectedPersonIdentifiers; // @synthesize rejectedPersonIdentifiers=_rejectedPersonIdentifiers;
-@property(nonatomic) double size; // @synthesize size=_size;
 
 @end
 

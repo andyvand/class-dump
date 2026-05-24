@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
+@class NSData;
 
 @interface PKWebServiceResponse
 {
     NSData *_rawData;
-    id _JSONObject;
-    NSDictionary *_headers;
 }
 
 + (id);
@@ -22,14 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)clearSoftErrorUserConfirmationCounters;
 - (id);
-- (id)eLibrary;
-- (void)ceShadowImage;
+- (id)_remoteLibrary;
+- (void)faceShadowImage;
 
 // Remaining properties
-@property(readonly, nonatomic) id JSONObject; // @synthesize JSONObject=_JSONObject;
-@property(readonly, nonatomic) NSDictionary *headers; // @synthesize headers=_headers;
 @property(readonly, nonatomic) NSData *rawData; // @synthesize rawData=_rawData;
 
 @end

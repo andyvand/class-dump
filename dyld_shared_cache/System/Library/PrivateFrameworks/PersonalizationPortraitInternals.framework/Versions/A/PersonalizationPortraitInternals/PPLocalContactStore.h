@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPContactStorage, PPLocalNamedEntityStore;
+@class PPContactStorage;
 
 @interface PPLocalContactStore
 {
     PPContactStorage *_contactStorage;
-    PPLocalNamedEntityStore *_namedEntityStore;
 }
 
 + (id);
+- (id)R;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)B;
 - (void);
 - (id);
 - (_Bool);
@@ -25,16 +24,16 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (id);
-- (id);
+- (id)setNewPersonalNickname:(id)arg1;
 - (double);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void)d52^@60;
-- (id)omComponents:(id)arg1;
+- (id)dateFromComponents:(id)arg1;
 - (id)_engagedImplicitly;
 - (void);
 

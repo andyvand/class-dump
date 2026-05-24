@@ -5,5 +5,6 @@
 //
 
 @protocol PDSHeartbeatTrackerDelegate
+- (void);
 @end
 

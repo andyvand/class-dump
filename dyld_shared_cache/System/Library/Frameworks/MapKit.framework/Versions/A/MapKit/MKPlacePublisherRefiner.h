@@ -5,18 +5,16 @@
 //
 
 @class MKMapItemIdentifier;
-@protocol MKMapServicePublisherViewTicket;
 
 @interface MKPlacePublisherRefiner
 {
     MKMapItemIdentifier *_publisherIdentifier;
-    id <MKMapServicePublisherViewTicket> _ticket;
 }
 
 - (id);
 - (id);
 - (void);
-- (void)OfRatingsUsedForScore;
+- (void)numberOfRatingsUsedForScore;
 
 @end
 

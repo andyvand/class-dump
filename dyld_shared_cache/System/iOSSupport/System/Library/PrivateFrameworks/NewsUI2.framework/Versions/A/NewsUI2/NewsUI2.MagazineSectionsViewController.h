@@ -7,26 +7,15 @@
 @interface NewsUI2.MagazineSectionsViewController
 {
     id coverViewManager;
-    id styler;
-    id eventHandler;
-    id sectionViewControllerFactory;
-    id scrollViewProxyManager;
-    id viewControllerCache;
-    id eventManager;
-    id currentSection;
-    id currentViewController;
-    id presentation;
-    id sectionSelection;
-    id offlineBannerCoordinator;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)&;
 - (void),;
-- (void)zineSectionService;
+- (void)MagazineSectionService;
 - (void)¨Ê4;
 
 @end

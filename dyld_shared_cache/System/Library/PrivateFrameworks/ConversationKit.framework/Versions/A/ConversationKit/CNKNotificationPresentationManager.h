@@ -9,10 +9,6 @@
 @interface CNKNotificationPresentationManager
 {
     void notificationDelegate;
-    id callCenter;
-    id _conversationControlsManager;
-    id presentedNotification;
-    id presentedNotificationDismissalTimer;
 }
 
 - (void);

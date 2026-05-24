@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOURLWithHeaders, NSMutableDictionary, NSURL, NSURLComponents;
+@class NSURLComponents;
 
 @interface GEOURLComponentsWithHeaders
 {
     NSURLComponents *_URLComponents;
-    NSMutableDictionary *_headerFields;
 }
 
 - (void);
@@ -18,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)configureWithMessage:(id)arg1 incident:referenceDate:shouldShowImage:inSiri: /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
 - (id)%{public}@ is missing entitlement "%{private}@"; will not attribute to "%{private}s";
@@ -26,10 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
 @property(readonly, nonatomic) NSURLComponents *URLComponents; // @synthesize URLComponents=_URLComponents;
-@property(readonly, nonatomic) GEOURLWithHeaders *URLWithHeaders;
-@property(readonly, nonatomic) NSMutableDictionary *headerFields; // @synthesize headerFields=_headerFields;
 
 @end
 

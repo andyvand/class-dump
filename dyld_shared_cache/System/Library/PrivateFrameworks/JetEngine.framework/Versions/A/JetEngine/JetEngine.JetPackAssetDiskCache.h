@@ -7,9 +7,6 @@
 @interface JetEngine.JetPackAssetDiskCache
 {
     id assetsURL;
-    id metadataStore;
-    id evictionListenerLock;
-    id evictedUUIDs;
 }
 
 @end

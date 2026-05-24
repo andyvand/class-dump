@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, HMDBackingStoreCacheGroup, NSData, NSUUID;
+@class HMDBackingStoreCacheGroup;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheFetchRecordResult
 {
     HMDBackingStoreCacheGroup *_group;
-    NSData *_data;
-    CKRecord *_record;
-    unsigned long long _encoding;
-    NSUUID *_uuid;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long)tiveTemperatureAutomationsDisclosureStatus;
+- (unsigned long long)adaptiveTemperatureAutomationsDisclosureStatus;
 - (id)ublic}@Fetching firewall rules for accessory %@ with identifier %@;
 - (id)Ignoring attempt to send target-control whomai due to no active data stream (%@/%@);
 - (void)ûÛ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) unsigned long long encoding; // @synthesize encoding=_encoding;
 @property(readonly, nonatomic) HMDBackingStoreCacheGroup *group; // @synthesize group=_group;
-@property(readonly, nonatomic) CKRecord *record; // @synthesize record=_record;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

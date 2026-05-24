@@ -4,55 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, LPAudioPlayButtonStyle, LPAudioPlayButtonTheme, NSString, UIImageView, UILongPressGestureRecognizer, UIView;
+@class LPAudioPlayButtonStyle, UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface LPPlayButtonControl
 {
     LPAudioPlayButtonStyle *_style;
-    LPAudioPlayButtonTheme *_theme;
-    CAShapeLayer *_borderLayer;
-    CAShapeLayer *_innerProgressLayer;
-    CAShapeLayer *_outerProgressLayer;
-    CAShapeLayer *_highlightLayer;
-    UILongPressGestureRecognizer *_highlightRecognizer;
-    UIView *_backgroundView;
-    UIImageView *_imageView;
-    _Bool _indeterminate;
-    float _progress;
-    _Bool _showingProgress;
-    _Bool _isPlaying;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)toolbarSizeMetricsDidChange;
+- (void)tokenAddressesForFilteringWithContact:(unsigned long long)arg1;
 - (id);
-- (id);
-- (id);
+- (id)textView:shouldInteractWithTextAttachment:inRange:interaction: /* Error: Ran out of types for this method. */;
+- (id)textView:primaryActionForTextItem:defaultAction: /* Error: Ran out of types for this method. */;
+- (void)textFieldDidEndEditing: /* Error: Ran out of types for this method. */;
+- (void)textDroppableView:(id)arg1 dropSessionDidEnter: /* Error: Ran out of types for this method. */;
+- (id)testPerformSearch:(id)arg1;
+- (void)switcherView:indexPathOfModelWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)swipeTargetBalloonCell;
+- (void)supportsRaytracingFromRender;
+- (void)stickersCellCornerRadius;
+- (id)stickerDragActiveInCurrentProcess;
+- (void)stickerDetailsSubtitleText;
+- (void)stickerDetailsCellSubtitleTextColor;
+- (void)stickerDetailViewControllerCloseButtonPressed: /* Error: Ran out of types for this method. */;
+- (void)startEndSuggestedPinsAnimation;
+- (void)progressThresholdForTitleUpdateAnimation;
+- (void)recipients found in non-placeholder conversation:(_Bool)arg1 %@;
+- (void)orming drop using non-diffable reordering (performDropWithCoordinator:(_Bool)arg1 );
+- (void)an invalid destination index path, returning unspecified move drop proposal;
+- (void)response fetching moment share for URL:%@ /* Error: Ran out of types for this method. */;
+- (void)asource for existing view is nil. Setup the composition without a spinner animation.;
+- (void)n generated photoStackBalloonView preview:(float)arg1 %@;
+- (float);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (float);
-- (void);
-- (void);
-- (void);
+- (void)updateAttentionTimerForEvent:andState: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 - (void);
 - (id);
@@ -68,22 +56,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (float);
+- (void)%d!
+(Check LoggingSignpostModuleEntry_t table);
 - (void);
 - (void);
-- (void);
-- (void)tation;
+- (void)LinkPresentation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic, getter=isIndeterminate) _Bool indeterminate; // @synthesize indeterminate=_indeterminate;
-@property(nonatomic) float progress; // @synthesize progress=_progress;
-@property(readonly) Class superclass;
 
 @end
 

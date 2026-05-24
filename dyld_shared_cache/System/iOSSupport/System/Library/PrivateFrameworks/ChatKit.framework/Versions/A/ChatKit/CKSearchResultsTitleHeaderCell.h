@@ -4,49 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, UIButton, UILabel, UIView, UIVisualEffectView;
-@protocol CKSearchResultsTitleHeaderCellDelegate;
+@class UILabel;
 
 @interface CKSearchResultsTitleHeaderCell
 {
     _Bool _pinnedEffectVisible;
-    id <CKSearchResultsTitleHeaderCellDelegate> _delegate;
-    unsigned long long _sectionIndex;
-    UIButton *_showAllButton;
-    double _leadingSeparatorInsets;
-    unsigned long long _headerButtonMode;
-    UILabel *_sectionTitle;
-    CALayer *_topHairline;
-    double _titleTopPadding;
-    double _titleBottomPadding;
-    UIView *_separatorView;
-    UIVisualEffectView *_backgroundVisualEffectView;
-    struct UIEdgeInsets marginInsets;
 }
 
 + (id);
 + (double);
 + (id);
-- (void);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setWidgetSnippet:(unsigned long long)arg1;
+- (id)resetNotesButton;
+- (double)removeMainKeysFromKeychainForAccount: /* Error: Ran out of types for this method. */;
+- (void)ic_preferredFontForBodyTextWithContentSizeCategory:(double)arg1;
+- (void)ic_performWithoutAnimation:(double)arg1;
+- (void)fetchUserRecordIDWithCompletionHandler:(_Bool)arg1;
+- (void)didChangeAttachment;
+- (void)defaultListAttributes;
+- (void)colorWithHue:(unsigned long long)arg1 saturation:brightness:alpha: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets);
 - (double);
 - (void);
+- (void)<OP;
+- (void);
+- (_Bool);
+- (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
-- (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (double);
+- (double)S;
 - (id);
 - (void);
 - (void);
@@ -59,34 +46,15 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)!;
+- (id)elegate;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIVisualEffectView *backgroundVisualEffectView; // @synthesize backgroundVisualEffectView=_backgroundVisualEffectView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKSearchResultsTitleHeaderCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long headerButtonMode; // @synthesize headerButtonMode=_headerButtonMode;
-@property(nonatomic) double leadingSeparatorInsets; // @synthesize leadingSeparatorInsets=_leadingSeparatorInsets;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
-@property(nonatomic, getter=isPinnedEffectVisible) _Bool pinnedEffectVisible; // @synthesize pinnedEffectVisible=_pinnedEffectVisible;
-@property(nonatomic) unsigned long long sectionIndex; // @synthesize sectionIndex=_sectionIndex;
 @property(retain, nonatomic) UILabel *sectionTitle; // @synthesize sectionTitle=_sectionTitle;
-@property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
-@property(retain, nonatomic) UIButton *showAllButton; // @synthesize showAllButton=_showAllButton;
-@property(readonly) Class superclass;
-@property(nonatomic) double titleBottomPadding; // @synthesize titleBottomPadding=_titleBottomPadding;
-@property(nonatomic) double titleTopPadding; // @synthesize titleTopPadding=_titleTopPadding;
-@property(retain, nonatomic) CALayer *topHairline; // @synthesize topHairline=_topHairline;
 
 @end
 

@@ -6,16 +6,9 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSArray;
-@protocol FCContentContext, FCContentVariantProviding;
-
 @interface FCNotificationPoolOperation : FCOperation
 {
     CDUnknownBlockType _itemHandler;
-    CDUnknownBlockType _completionHandler;
-    id <FCContentContext> _context;
-    id <FCContentVariantProviding> _contentVariantProvider;
-    NSArray *_resultNotificationItems;
 }
 
 - (id);
@@ -23,13 +16,12 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (void)alArticleVersion;
+- (void)editorialArticleVersion;
 - (void)eldRecords(__strong id<FCCoreConfiguration>, FCAssetManager *__strong, NSString *__strong, FCHeldRecords<NTPBArticleRecord *> *__strong, NSDictionary<NSString *,id<FCChannelProviding>> *__strong, BOOL, NSDictionary<NSString *,FCIssue *> *__strong, FCHeadlineExperimentalTitleProvider *__strong);
 - (void)*> * _Nonnull __strong, double (^ _Nullable __strong)(NSSet<NSString *> * _Nonnull __strong), NSString * _Nonnull (^ _Nullable __strong)(NSString * _Nonnull __strong), double, double, double, double)_block_invoke_2;
-- (void)eDateDescending;
+- (void)referenceDateDescending;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(copy, nonatomic) CDUnknownBlockType itemHandler; // @synthesize itemHandler=_itemHandler;
 
 @end

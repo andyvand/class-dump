@@ -9,8 +9,6 @@
 @interface PPCalendar
 {
     NSString *_calendarIdentifier;
-    NSString *_title;
-    struct CGColor *_color;
 }
 
 + (_Bool);
@@ -19,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_singleFramebufferPipelineConfig;
 - (id);
 - (id);
 - (unsigned long long);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *calendarIdentifier; // @synthesize calendarIdentifier=_calendarIdentifier;
-@property(readonly, nonatomic) struct CGColor *color; // @synthesize color=_color;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

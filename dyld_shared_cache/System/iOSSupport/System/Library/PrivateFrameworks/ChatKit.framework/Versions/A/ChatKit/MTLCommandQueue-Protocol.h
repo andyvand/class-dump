@@ -5,15 +5,14 @@
 //
 
 @class NSString;
-@protocol MTLDevice;
 
 @protocol MTLCommandQueue
+- (void);
 - (void)!CùÑÐ1Â0@ù
 × ;
 - (void)}d;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
 @property(copy) NSString *label;
 @end
 

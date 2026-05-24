@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDResidentDevice, HMDResidentMesh, HMFTimer, NSDictionary, NSMutableDictionary, NSString;
+@class HMDResidentMesh;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentMeshResidentStorage
 {
     HMDResidentMesh *_owner;
-    HMDResidentDevice *_residentDevice;
-    NSMutableDictionary *_metrics;
-    NSDictionary *_lastSentMetrics;
-    HMFTimer *_transmitTimer;
 }
 
 + (id)SB;
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_fireDate;
 - (void);
 - (_Bool);
 - (id);
@@ -38,18 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)@?0@"NSArray"8@"NSArray"16@"NSError"24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDictionary *lastSentMetrics; // @synthesize lastSentMetrics=_lastSentMetrics;
-@property(retain, nonatomic) NSMutableDictionary *metrics; // @synthesize metrics=_metrics;
 @property(nonatomic) __weak HMDResidentMesh *owner; // @synthesize owner=_owner;
-@property(nonatomic) __weak HMDResidentDevice *residentDevice; // @synthesize residentDevice=_residentDevice;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HMFTimer *transmitTimer; // @synthesize transmitTimer=_transmitTimer;
 
 @end
 

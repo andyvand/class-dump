@@ -9,30 +9,28 @@
 @interface NTPBArticleInfoList
 {
     NSMutableArray *_articleInfos;
-    NSData *_urlHash;
 }
 
-+ (Class);
++ (Class)_normalizedStackHorizontalOffsets;
+- (void)_updateVisibleCountsForCollection:(id)arg1 withWithFetchResult: /* Error: Ran out of types for this method. */;
+- (void)_setTrimControlsHidden:animated: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_setComposition: /* Error: Ran out of types for this method. */;
+- (id)_setCollectionsFetchResultBySection: /* Error: Ran out of types for this method. */;
+- (id)_setCachedRecentAssets:(unsigned long long)arg1;
+- (void)andler:(id)arg1;
+- (void);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)*;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void)stID;
+- (void)hasDraftArticleListID;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *articleInfos; // @synthesize articleInfos=_articleInfos;
 @property(retain, nonatomic) NSData *urlHash; // @synthesize urlHash=_urlHash;
 
 @end

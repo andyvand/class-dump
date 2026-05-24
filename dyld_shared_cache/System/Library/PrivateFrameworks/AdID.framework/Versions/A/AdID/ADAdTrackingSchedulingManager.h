@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ADLoggingProfileMonitor, APSConnection, NSString;
-@protocol NSObject;
+@class ADLoggingProfileMonitor;
 
 @interface ADAdTrackingSchedulingManager
 {
     _Bool _isConfigRequestInFlight;
-    id <NSObject> _storeFrontNotifyToken;
-    id <NSObject> _accountChangedNotifyToken;
-    APSConnection *_pushConnection;
-    ADLoggingProfileMonitor *_loggingProfileMonitor;
 }
 
-+ (id);
++ (id)8;
 - (void);
 - (_Bool);
 - (void);
 - (long long);
 - (_Bool);
+- (_Bool)ricEvent.;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (_Bool);
@@ -35,8 +30,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)_lp_isEqualToAnyIgnoringCase: /* Error: Ran out of types for this method. */;
+- (id)bK;
 - (void);
 - (void);
 - (void);
@@ -53,18 +48,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <NSObject> accountChangedNotifyToken; // @synthesize accountChangedNotifyToken=_accountChangedNotifyToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isConfigRequestInFlight; // @synthesize isConfigRequestInFlight=_isConfigRequestInFlight;
 @property(retain, nonatomic) ADLoggingProfileMonitor *loggingProfileMonitor; // @synthesize loggingProfileMonitor=_loggingProfileMonitor;
-@property(retain, nonatomic) APSConnection *pushConnection; // @synthesize pushConnection=_pushConnection;
-@property(retain, nonatomic) id <NSObject> storeFrontNotifyToken; // @synthesize storeFrontNotifyToken=_storeFrontNotifyToken;
-@property(readonly) Class superclass;
 
 @end
 

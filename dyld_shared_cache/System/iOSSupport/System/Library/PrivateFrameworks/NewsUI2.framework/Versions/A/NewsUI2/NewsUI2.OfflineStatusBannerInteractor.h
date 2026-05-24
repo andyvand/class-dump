@@ -7,7 +7,6 @@
 @interface NewsUI2.OfflineStatusBannerInteractor
 {
     id delegate;
-    id dataManager;
 }
 
 @end

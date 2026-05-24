@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
 - (void);
@@ -18,7 +18,6 @@
 × ;
 
 // Remaining properties
-@property(readonly) double displayScale;
 @property struct CGSize displaySize; // @synthesize displaySize=_displaySize;
 
 @end

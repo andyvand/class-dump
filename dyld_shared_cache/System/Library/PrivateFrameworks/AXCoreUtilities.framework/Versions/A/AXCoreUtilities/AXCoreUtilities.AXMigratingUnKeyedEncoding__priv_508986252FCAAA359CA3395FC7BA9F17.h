@@ -7,8 +7,6 @@
 @interface AXCoreUtilities.AXMigratingUnKeyedEncoding__priv_508986252FCAAA359CA3395FC7BA9F17
 {
     id root;
-    id codingPath;
-    id count;
 }
 
 @end

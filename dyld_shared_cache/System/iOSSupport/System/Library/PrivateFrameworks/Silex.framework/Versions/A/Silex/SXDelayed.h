@@ -7,8 +7,6 @@
 @interface SXDelayed
 {
     _Bool _cancelled;
-    CDUnknownBlockType _block;
-    SXDelayed *_strongReference;
 }
 
 + (id);
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) SXDelayed *strongReference; // @synthesize strongReference=_strongReference;
 
 @end
 

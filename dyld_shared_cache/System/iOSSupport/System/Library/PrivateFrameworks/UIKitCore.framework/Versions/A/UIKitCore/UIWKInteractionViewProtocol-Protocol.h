@@ -7,17 +7,23 @@
 @class NSArray, NSString;
 
 @protocol UIWKInteractionViewProtocol
-- (void)n;
-- (void)ion;
-- (NSArray *)ckground;
+- (void)tatusAutomaticCheckEnabled;
+- (void)identifiersForSectionAtIndex:(struct CGPoint)arg1;
+- (void)inputViewsHidden;
+- (void)_registerForSpringBoardBlankedScreenNotification;
+- (NSArray *)background;
 - (void)be suppressed while it is already active (%@);
 - (void)yMode:(struct CGPoint)arg1 ];
 - (struct CGRect)ailable;
+- (struct CGRect)SayxG;
 - (void)­33\Èþ33`Èþ33Èþ}33Èþ33´Èþ;
 - (_Bool)àE[;
 - (NSString *)µ º;
 
 @optional
+- (void);
+- (double);
+- (void);
 - (void)!BùñX1Â0@ù
 × ;
 - (void);
@@ -29,12 +35,11 @@
 × ;
 - (void)ñb1Â0@ù
 × ;
-- (void)ordCustomMenu:(long long)arg1 afterStandardMenu:(long long)arg2;
-- (void)essLevel;
+- (void)recordCustomMenu:(long long)arg1 afterStandardMenu:(long long)arg2;
+- (void)brightnessLevel;
 - (void)¸ÇÈTÉ;
 - (_Bool)lues;
 - (void);
-- (void);
 - (NSArray *);
 - (struct CGRect)\;
 @end

@@ -7,17 +7,15 @@
 @interface _SWCPatternMatchingResult
 {
     _Bool _excluded;
-    unsigned long long _index;
 }
 
 + (id);
 - (_Bool);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)_;
+- (unsigned long long)I;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isExcluded) _Bool excluded; // @synthesize excluded=_excluded;
 @property(readonly, nonatomic) unsigned long long index; // @synthesize index=_index;
 
 @end

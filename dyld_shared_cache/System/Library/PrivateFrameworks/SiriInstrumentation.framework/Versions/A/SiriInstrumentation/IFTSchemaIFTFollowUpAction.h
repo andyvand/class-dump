@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTFollowUpActionExecutableAction, NSData;
+@class IFTSchemaIFTFollowUpActionExecutableAction;
 
 @interface IFTSchemaIFTFollowUpAction : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTFollowUpActionExecutableAction *_action;
-    _Bool _hasAction;
 }
 
 - (void);
@@ -19,22 +18,20 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void)tCoreDuet6Hr;
+- (void)_rawNowPlayingCountCoreDuet6Hr;
 - (id)SchemaABExperimentServerFeatureTriggered",&,N,V_serverFeatureTriggered;
-- (id)ClientEventMetadata;
+- (id)IFPlatformSchemaIFPlatformClientEventMetadata;
 - (id)Ô5ÿÿÿÿÿ|;
 - (void);
 - (void)!k#;
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTFollowUpActionExecutableAction *action; // @synthesize action=_action;
-@property(nonatomic) _Bool hasAction; // @synthesize hasAction=_hasAction;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

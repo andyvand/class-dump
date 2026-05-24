@@ -10,7 +10,7 @@
 {
 }
 
-- (void)ToSafeArea: /* Error: Ran out of types for this method. */;
+- (void)_setInsetsContentViewsToSafeArea: /* Error: Ran out of types for this method. */;
 - (id)ÿq;
 
 @end

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSString;
-@protocol AKCredentialDataManagerProtocol, OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_group;
 
 @interface AKAppleIDPasskeyAuthenticationController
 {
     NSObject<OS_dispatch_group> *_serializationGroup;
-    NSObject<OS_dispatch_queue> *_serializationQueue;
-    struct os_unfair_lock_s _stateByControllerLock;
-    NSMapTable *_stateByController;
-    NSObject<OS_dispatch_queue> *_passkeyRequestQueue;
-    id <AKCredentialDataManagerProtocol> _credentialDataManager;
 }
 
 - (void);
@@ -27,7 +22,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)� -;
 - (id);
 - (void);
 - (void);
@@ -35,13 +30,7 @@
 - (void)4¸;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

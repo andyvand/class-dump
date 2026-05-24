@@ -8,15 +8,10 @@
 
 @protocol VTFrameProcessorParameters
 
+@optional
+- (NSArray *);
+
 // Remaining properties
-@property(readonly, nonatomic) VTFrameProcessorFrame *destinationFrame;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"VTFrameProcessorFrame",?,R,N
-
-@property(readonly, nonatomic) NSArray *destinationFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
 @property(readonly, nonatomic) VTFrameProcessorFrame *sourceFrame;
 @end
 

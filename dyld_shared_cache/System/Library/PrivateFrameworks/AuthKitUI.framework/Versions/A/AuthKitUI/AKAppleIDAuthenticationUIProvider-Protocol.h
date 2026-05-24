@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AKAccountRecoveryContext, NSString;
+
 @protocol AKAppleIDAuthenticationUIProvider
+- (void)_diffPropertiesWithAccount:(AKAccountRecoveryContext *)arg1 firstPropertyOnly:(void (^)(NSDictionary *, NSError *))arg2;
+- (void)CalRecurrenceDayOfWeek;
+
+@optional
+- (void)eventsFoundInMailEnabled;
+- (void)_strictlyUnarchivedObjectOfClasses:(void (^)(_Bool, NSError *))arg1 fromData:error: /* Error: Ran out of types for this method. */;
+- (void)_startSearchWithQuery:(NSString *)arg1;
+- (void)_start;
+- (void)_searchableItemIdentifiers;
+- (void),R;
+- (void)defaultTimeZone;
+- (void);
 @end
 

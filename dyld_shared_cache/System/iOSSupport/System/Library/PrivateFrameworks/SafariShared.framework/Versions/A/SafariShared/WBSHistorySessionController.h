@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, WBSHistory, WBSHistorySessionIntervalCache;
+@class NSObject, WBSHistory;
 @protocol OS_dispatch_queue;
 
 @interface WBSHistorySessionController
 {
     NSObject<OS_dispatch_queue> *_sessionCacheAccessQueue;
-    NSMutableDictionary *_itemsBySession;
-    NSArray *_orderedSessions;
-    WBSHistorySessionIntervalCache *_intervalCache;
-    WBSHistory *_history;
 }
 
 + (id);
@@ -48,8 +44,6 @@ ReaderArticleFinder=function(e){this.contentDocument=e,this.didSearchForArticleN
 
 // Remaining properties
 @property(readonly, nonatomic) WBSHistory *history; // @synthesize history=_history;
-@property(readonly, nonatomic) unsigned long long numberOfSessions;
-@property(readonly, copy, nonatomic) NSArray *orderedSessions;
 
 @end
 

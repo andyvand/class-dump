@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerInterstitialEvent, NSArray, NSDate;
-
 @interface AVPlayerItemSegment
 {
     struct OpaqueFigPlaybackItemSegment *_figSegment;
 }
 
-- (CDStruct_82206317);
+- (CDStruct_82206317)_correctAlignedPartialResultIndexList;
 - (id);
 - (id);
-- (struct OpaqueFigPlaybackItemSegment *);
+- (struct OpaqueFigPlaybackItemSegment *)q;
 - (long long);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)cationServiceSpecification.m;
 - (id)dTimeRanges:timeRangeExpectedToLoad:selectedMediaArray: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) AVPlayerInterstitialEvent *interstitialEvent;
-@property(readonly) NSArray *loadedTimeRanges;
 @property(readonly, nonatomic) long long segmentType;
-@property(readonly, nonatomic) NSDate *startDate;
-@property(readonly, nonatomic) CDStruct_82206317 timeMapping;
 
 @end
 

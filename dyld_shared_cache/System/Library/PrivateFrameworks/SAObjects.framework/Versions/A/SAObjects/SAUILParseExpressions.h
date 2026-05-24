@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, SARemoteDevice;
+@class NSArray;
 
 @interface SAUILParseExpressions : SABaseClientBoundCommand
 {
@@ -20,11 +20,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (id)bleServerEndpointer;
+- (id)DisableServerEndpointer;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *expressions;
-@property(retain, nonatomic) SARemoteDevice *targetDevice;
 
 @end
 

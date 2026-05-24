@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PKTiledViewAnimationController
 {
     id tiledView;
-    id drawingContinuations;
-    id mtkView;
-    id renderer;
-    id newBehavior;
 }
 
 - (void);

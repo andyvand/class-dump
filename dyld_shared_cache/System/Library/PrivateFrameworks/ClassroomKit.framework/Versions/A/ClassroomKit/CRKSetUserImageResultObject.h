@@ -11,11 +11,11 @@
     NSString *_imageIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)&;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)resetSubscriberSyncForPersonID: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

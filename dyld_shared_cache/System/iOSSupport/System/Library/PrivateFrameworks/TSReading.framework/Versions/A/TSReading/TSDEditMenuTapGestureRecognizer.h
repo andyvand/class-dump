@@ -9,7 +9,6 @@
 @interface TSDEditMenuTapGestureRecognizer
 {
     TSDRep *mTouchedRep;
-    _Bool mIgnoreTargetAction;
 }
 
 - (id);

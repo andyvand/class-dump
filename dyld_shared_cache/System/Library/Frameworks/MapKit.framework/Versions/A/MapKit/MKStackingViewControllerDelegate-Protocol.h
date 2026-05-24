@@ -5,5 +5,8 @@
 //
 
 @protocol MKStackingViewControllerDelegate
+
+@optional
+- (double);
 @end
 

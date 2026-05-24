@@ -5,5 +5,6 @@
 //
 
 @protocol LSDatabaseBlockingFetchProtocol
+- (void);
 @end
 

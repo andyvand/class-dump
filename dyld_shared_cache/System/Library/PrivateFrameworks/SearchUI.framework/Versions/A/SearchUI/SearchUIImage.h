@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, SFImage, SFImageContext;
+@class SFImageContext;
 
 @interface SearchUIImage
 {
     _Bool _supportsFastPathShadow;
-    _Bool _needsTinting;
-    _Bool _shouldReadTemplateStatusFromLoadedImage;
-    NSImage *_uiImage;
-    SFImageContext *_lastLoadedContext;
-    SFImage *_sfImage;
 }
 
 + (id);
@@ -31,36 +26,28 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (int);
-- (id);
-- (unsigned long long);
+- (_Bool)parameters %tu;
+- (void)ot create espresso context;
+- (void)%@:(_Bool)arg1 %@;
+- (void)).;
+- (_Bool)nguage %@ not supported?);
+- (id)ndOfClass:NSDictionary.class] /* Error: Ran out of types for this method. */;
+- (_Bool)tache_horseshoe.aa;
+- (int)mid_sideLocks_AO.heic;
+- (id)hair_afro_medium_up;
+- (unsigned long long);
 - (double);
 - (struct CGSize);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (double);
-- (void);
-- (double)ingAnimationSettings;
+- (double)C;
+- (void);
+- (double)SearchUISpringAnimationSettings;
 
 // Remaining properties
-@property(readonly) double aspectRatio;
-@property(readonly, nonatomic) int defaultCornerRoundingStyle;
-@property(readonly) _Bool hasMultipleRepresentations;
 @property(retain) SFImageContext *lastLoadedContext; // @synthesize lastLoadedContext=_lastLoadedContext;
-@property(nonatomic) _Bool needsTinting; // @synthesize needsTinting=_needsTinting;
-@property(retain, nonatomic) SFImage *sfImage; // @synthesize sfImage=_sfImage;
-@property(nonatomic) _Bool shouldReadTemplateStatusFromLoadedImage; // @synthesize shouldReadTemplateStatusFromLoadedImage=_shouldReadTemplateStatusFromLoadedImage;
-@property(nonatomic) _Bool supportsFastPathShadow; // @synthesize supportsFastPathShadow=_supportsFastPathShadow;
-@property(retain, nonatomic) NSImage *uiImage; // @synthesize uiImage=_uiImage;
 
 @end
 

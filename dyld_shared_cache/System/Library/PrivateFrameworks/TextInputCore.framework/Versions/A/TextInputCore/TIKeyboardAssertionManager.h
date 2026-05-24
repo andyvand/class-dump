@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString;
-@protocol TIKeyboardAssertionManagerDelegate;
-
 @interface TIKeyboardAssertionManager
 {
     _Bool _hasAssertions;
-    _Bool _pendingUpdate;
-    _Bool _hasBackgroundActivityAssertions;
-    id <TIKeyboardAssertionManagerDelegate> _delegate;
-    NSHashTable *_assertions;
-    long long _backgroundActivityAssertions;
 }
 
 + (void);
-+ (id);
++ (id);
 + (id);
 - (_Bool);
 - (void);
@@ -27,13 +19,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void){public}@';
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)charactersIgnoringModifiers;
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (long long);
 - (void);
@@ -42,19 +34,7 @@
 - (id)agerMecabra",&,N,V_composingKeyboardInputManager;
 
 // Remaining properties
-@property(readonly, nonatomic) NSHashTable *assertions; // @synthesize assertions=_assertions;
-@property(nonatomic) long long backgroundActivityAssertions; // @synthesize backgroundActivityAssertions=_backgroundActivityAssertions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <TIKeyboardAssertionManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasAssertions; // @synthesize hasAssertions=_hasAssertions;
-@property(nonatomic) _Bool hasBackgroundActivityAssertions; // @synthesize hasBackgroundActivityAssertions=_hasBackgroundActivityAssertions;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool pendingUpdate; // @synthesize pendingUpdate=_pendingUpdate;
-@property(readonly) Class superclass;
 
 @end
 

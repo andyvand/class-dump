@@ -4,44 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PFParallaxAssetResourceOptions
 {
     _Bool _aspectFit;
-    _Bool _networkAccessAllowed;
-    CDUnknownBlockType _canHandleAdjustmentData;
-    NSObject<OS_dispatch_queue> *_resultHandlerQueue;
-    CDUnknownBlockType _downloadProgressHandler;
-    long long _priority;
-    struct CGSize _imageSize;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
-- (void);
+- (void)0;
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
+- (void);
 - (void);
 - (long long)r/level for %@;
 
 // Remaining properties
-@property(nonatomic) _Bool aspectFit; // @synthesize aspectFit=_aspectFit;
-@property(copy, nonatomic) CDUnknownBlockType canHandleAdjustmentData; // @synthesize canHandleAdjustmentData=_canHandleAdjustmentData;
-@property(copy, nonatomic) CDUnknownBlockType downloadProgressHandler; // @synthesize downloadProgressHandler=_downloadProgressHandler;
 @property(nonatomic) struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property(nonatomic) _Bool networkAccessAllowed; // @synthesize networkAccessAllowed=_networkAccessAllowed;
-@property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *resultHandlerQueue; // @synthesize resultHandlerQueue=_resultHandlerQueue;
 
 @end
 

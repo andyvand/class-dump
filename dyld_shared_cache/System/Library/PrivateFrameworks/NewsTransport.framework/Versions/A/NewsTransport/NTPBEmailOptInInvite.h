@@ -9,66 +9,44 @@
 @interface NTPBEmailOptInInvite
 {
     NSString *_articleId;
-    int _emailOptInInviteLocation;
-    int _newsletterSubscriptionType;
-    NSString *_parentFeedId;
-    int _parentFeedType;
-    int _userAction;
-    struct {
-        unsigned int emailOptInInviteLocation:1;
-        unsigned int newsletterSubscriptionType:1;
-        unsigned int parentFeedType:1;
-        unsigned int userAction:1;
-    } _has;
 }
 
+- (void)containers;
+- (void)containerWasDeletedForPhotosViewController:(id)arg1;
+- (void)configureWithRange:(int)arg1 resourcesDataSource:timelineStyle:nUpPlaybackStyleMapping: /* Error: Ran out of types for this method. */;
+- (void)changeDetailsFromPreviousDataSection;
+- (void)capitalizationStyleForLabelKind:(_Bool)arg1;
+- (void)assistantViewModel;
+- (id)allowedTransitionKinds;
+- (int)allowedInteractiveDismissBehaviors;
+- (id)allowedInteractiveDismissBehaviors;
+- (_Bool)_viewBasedDecorationsEnabled;
+- (_Bool);
+- (_Bool)_updatePlayheadIfNeeded;
+- (int)_updateAppNameColorForAttributedString:defaultFontValue: /* Error: Ran out of types for this method. */;
+- (int)_styleSwitcherShowsRestartButton;
+- (void)_stopObservingContentPrivacyPrefs;
+- (_Bool)_stateQueue_presentationStatesByContext;
+- (void)C;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (id);
+- (_Bool);
+- (void)uchE3$_0;
+- (void);
+- (unsigned long long)S5;
+- (id);
+- (_Bool)Y;
 - (int);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (int);
-- (int);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)o failure to decode maxTopicIds from configuration %{public}@;
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
+- (int)Z;
 - (id);
-- (_Bool);
-- (int);
-- (void);
-- (_Bool);
-- (id);
-- (int);
-- (id);
-- (void)d;
+- (void)isNewIssuesNotificationEnabled;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(nonatomic) int emailOptInInviteLocation; // @synthesize emailOptInInviteLocation=_emailOptInInviteLocation;
-@property(readonly, nonatomic) _Bool hasArticleId;
-@property(nonatomic) _Bool hasEmailOptInInviteLocation;
-@property(nonatomic) _Bool hasNewsletterSubscriptionType;
-@property(readonly, nonatomic) _Bool hasParentFeedId;
-@property(nonatomic) _Bool hasParentFeedType;
 @property(nonatomic) _Bool hasUserAction;
-@property(nonatomic) int newsletterSubscriptionType; // @synthesize newsletterSubscriptionType=_newsletterSubscriptionType;
-@property(retain, nonatomic) NSString *parentFeedId; // @synthesize parentFeedId=_parentFeedId;
-@property(nonatomic) int parentFeedType; // @synthesize parentFeedType=_parentFeedType;
-@property(nonatomic) int userAction; // @synthesize userAction=_userAction;
 
 @end
 

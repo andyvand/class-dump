@@ -5,27 +5,22 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface _PASNotificationDescriptor
 {
     _Atomic _Bool isCanceled;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_group;
-    CDUnknownBlockType _handler;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (CDUnknownBlockType);
+- (id)initWithCapacity: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)statusValueFromICSString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

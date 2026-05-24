@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString, SRCSCommandRecognizer;
+@class NSArray, NSString;
 
 @interface SRCSSpokenCommand
 {
     NSArray *_strings;
-    NSString *_identifier;
-    NSDictionary *_recognizedParameters;
-    NSMutableDictionary *_languageModelTree;
-    id _fstGrammar;
-    SRCSCommandRecognizer *_commandRecognizer;
 }
 
 - (void);
@@ -27,16 +22,14 @@
 - (id);
 - (id);
 - (id);
+- (id)G;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)predicateForCallsWithGroupUUID: /* Error: Ran out of types for this method. */;
+- (void)#;
 
 // Remaining properties
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSDictionary *recognizedParameters; // @synthesize recognizedParameters=_recognizedParameters;
-@property(readonly) NSArray *strings;
 
 @end
 

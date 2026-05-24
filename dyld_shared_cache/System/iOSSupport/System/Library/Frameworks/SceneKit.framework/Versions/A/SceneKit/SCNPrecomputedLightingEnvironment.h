@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface SCNPrecomputedLightingEnvironment
 {
     NSData *_radianceData;
-    NSData *_irradianceData;
 }
 
-+ (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
++ (_Bool)nController clearControls:inFrame:webView:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
+- (id);
 - (void);
+- (id);
+- (void)8;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *irradianceData; // @synthesize irradianceData=_irradianceData;
 @property(retain, nonatomic) NSData *radianceData; // @synthesize radianceData=_radianceData;
 
 @end

@@ -11,14 +11,10 @@
 @interface SCNLookAtConstraint : SCNConstraint
 {
     SCNNode *_target;
-    _Bool _gimbalLockEnabled;
-    struct SCNVector3 _targetOffset;
-    struct SCNVector3 _upVector;
-    struct SCNVector3 _localFront;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)Metadata"8;
 - (struct SCNVector3);
 - (void);
 - (void);
@@ -34,17 +30,13 @@
 - (void);
 - (id);
 - (struct SCNVector3);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id)vw	xèT´¼lì;
 
 // Remaining properties
-@property(nonatomic) _Bool gimbalLockEnabled;
-@property(nonatomic) struct SCNVector3 localFront;
 @property(retain, nonatomic) SCNNode *target;
-@property(nonatomic) struct SCNVector3 targetOffset;
-@property(nonatomic) struct SCNVector3 worldUp;
 
 @end
 

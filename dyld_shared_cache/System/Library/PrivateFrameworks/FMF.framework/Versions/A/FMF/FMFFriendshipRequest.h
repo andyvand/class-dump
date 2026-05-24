@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFHandle, NSDate, NSSet, NSString;
+@class NSString;
 
 @interface FMFFriendshipRequest
 {
     long long _requestType;
-    FMFHandle *_fromHandle;
-    NSSet *_toHandles;
-    NSDate *_endDate;
-    NSString *_groupId;
-    NSString *_requestId;
 }
 
-+ (id);
-+ (_Bool);
++ (id)oup_action_type IN (1,3) AND (m.ROWID IN (SELECT message_id FROM message_attachment_join))) );;
++ (_Bool)PersistenceServiceClient;
 - (void);
 - (void);
 - (id);
@@ -25,10 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)";
+- (void)PARAM_COPY_GOST01;
+- (id)getEmailAddressForBundleURL:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)indexOfItemWithRepresentedObject:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -38,12 +33,7 @@
 - (id)× ;
 
 // Remaining properties
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(retain) FMFHandle *fromHandle; // @synthesize fromHandle=_fromHandle;
-@property(retain) NSString *groupId; // @synthesize groupId=_groupId;
 @property(retain) NSString *requestId; // @synthesize requestId=_requestId;
-@property long long requestType; // @synthesize requestType=_requestType;
-@property(retain) NSSet *toHandles; // @synthesize toHandles=_toHandles;
 
 @end
 

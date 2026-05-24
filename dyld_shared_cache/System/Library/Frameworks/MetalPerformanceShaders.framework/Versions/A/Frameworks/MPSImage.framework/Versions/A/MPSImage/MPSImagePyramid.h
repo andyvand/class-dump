@@ -11,12 +11,6 @@
 @interface MPSImagePyramid : MPSUnaryImageKernel
 {
     id <MTLBuffer> wtBuffer;
-    id <MTLBuffer> wtBufferh;
-    float *wtArray;
-    unsigned short *wtArrayh;
-    unsigned long long _fWidth;
-    unsigned long long _fHeight;
-    _Bool separable;
 }
 
 - (id);
@@ -24,14 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)initWithItemContentType:(id)arg1;
 - (unsigned long long);
 - (unsigned long long);
 - (id)³GÌ?2ºËº?}¹Ãß(`»?;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_fHeight;
-@property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_fWidth;
 
 @end
 

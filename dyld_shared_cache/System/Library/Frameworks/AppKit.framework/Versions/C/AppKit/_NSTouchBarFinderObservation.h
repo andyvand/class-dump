@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarFinderObservation
 {
     id _object;
-    NSSet *_keyPaths;
-    CDUnknownBlockType _observer;
 }
 
 + (id);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (void);
 - (void);

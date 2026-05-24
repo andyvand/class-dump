@@ -6,37 +6,24 @@
 
 #import <NetworkExtension/NEAppRule.h>
 
-@class NSNumber, NSString;
-
 @interface NEPathRule : NEAppRule
 {
     _Bool _denyCellularFallback;
-    _Bool _denyMulticast;
-    _Bool _multicastPreferenceSet;
-    _Bool _isIdentifierExternal;
-    _Bool _denyAll;
-    NSString *_temporaryAllowMulticastNetworkName;
-    NSNumber *_aggregatePersonalCellular;
-    NSNumber *_aggregateEnterpriseCellular;
-    long long _internalCellularBehavior;
-    NSNumber *_aggregatePersonalWiFi;
-    NSNumber *_aggregateEnterpriseWiFi;
-    long long _internalWiFiBehavior;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)setRATType: /* Error: Ran out of types for this method. */;
+- (_Bool)conformsToProtocol: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)WaitingForContactShareBackResponseCodingKeys;
 - (_Bool);
+- (void)C;
+- (_Bool)`;
+- (_Bool)a;
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)TRANSACTIONID_LEN = %ld, return NO;
 - (id);
 - (_Bool);
 - (void);
@@ -58,15 +45,7 @@
 - (id)nder rekey followup KE);
 
 // Remaining properties
-@property long long cellularBehavior;
 @property(readonly, getter=isDefaultPathRule) _Bool defaultPathRule;
-@property _Bool denyAll; // @synthesize denyAll=_denyAll;
-@property _Bool denyCellularFallback; // @synthesize denyCellularFallback=_denyCellularFallback;
-@property _Bool denyMulticast; // @synthesize denyMulticast=_denyMulticast;
-@property _Bool isIdentifierExternal; // @synthesize isIdentifierExternal=_isIdentifierExternal;
-@property _Bool multicastPreferenceSet; // @synthesize multicastPreferenceSet=_multicastPreferenceSet;
-@property(copy) NSString *temporaryAllowMulticastNetworkName; // @synthesize temporaryAllowMulticastNetworkName=_temporaryAllowMulticastNetworkName;
-@property long long wifiBehavior;
 
 @end
 

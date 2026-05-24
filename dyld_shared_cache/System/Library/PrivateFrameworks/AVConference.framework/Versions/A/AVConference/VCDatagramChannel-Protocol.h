@@ -5,5 +5,7 @@
 //
 
 @protocol VCDatagramChannel
+- (int);
+- (void)=;
 @end
 

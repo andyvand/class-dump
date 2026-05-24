@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCOperationThrottler, NSString;
-@protocol FCOperationThrottlerDelegate;
+@class FCOperationThrottler;
 
 @interface FCTimedOperationThrottler
 {
     double _cooldownTime;
-    FCOperationThrottler *_operationThrottler;
-    id <FCOperationThrottlerDelegate> _delegate;
 }
 
 - (void);
@@ -26,22 +23,12 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (_Bool)etTitleEmbeddingDimension: /* Error: Ran out of types for this method. */;
-- (void)lisherBoostForSourceMoreFromFeedBaselineImpressionValue;
+- (_Bool)setTitleEmbeddingDimension: /* Error: Ran out of types for this method. */;
+- (void)publisherBoostForSourceMoreFromFeedBaselineImpressionValue;
 - (void)SELECT MAX(lookup_id) FROM feed;;
 
 // Remaining properties
-@property double cooldownTime; // @synthesize cooldownTime=_cooldownTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <FCOperationThrottlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) FCOperationThrottler *operationThrottler; // @synthesize operationThrottler=_operationThrottler;
-@property(readonly) Class superclass;
-@property _Bool suspended;
 
 @end
 

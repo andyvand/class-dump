@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBLocationValue;
+@class NSString, _INPBLocationValue;
 
 @protocol _INPBBoatTrip
-- (void)tedReasonCode;
+- (_Bool);
+- (_Bool);
+- (_Bool)getBytes:length: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (void)__INCodableAttributeUnsupportedReasonCode;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBLocationValue *arrivalBoatTerminalLocation;
-@property(copy, nonatomic) NSString *boatName;
-@property(copy, nonatomic) NSString *boatNumber;
-@property(retain, nonatomic) _INPBLocationValue *departureBoatTerminalLocation;
-@property(readonly, nonatomic) _Bool hasArrivalBoatTerminalLocation;
-@property(readonly, nonatomic) _Bool hasBoatName;
-@property(readonly, nonatomic) _Bool hasBoatNumber;
-@property(readonly, nonatomic) _Bool hasDepartureBoatTerminalLocation;
-@property(readonly, nonatomic) _Bool hasProvider;
-@property(readonly, nonatomic) _Bool hasTripDuration;
-@property(copy, nonatomic) NSString *provider;
-@property(retain, nonatomic) _INPBDateTimeRange *tripDuration;
 @end
 

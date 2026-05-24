@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarViewController, NSArray, NSImageView, NSStackView, NSString, NSTextField, NSTrackingArea, SOAVPopUpButtonViewController;
+@class NSStackView, NSTrackingArea;
 
 @interface SOParticipantTableCellView
 {
     NSTrackingArea *_iconsButtonTracking;
-    _Bool _hideAVButtonsOnRollover;
-    NSStackView *_horizontalLayoutStackView;
-    NSTextField *_locationLabel;
-    NSImageView *_verifiedBusinessImageView;
-    CNAvatarViewController *_avatarViewController;
-    SOAVPopUpButtonViewController *_audioPopUpButtonViewController;
-    SOAVPopUpButtonViewController *_videoPopUpButtonViewController;
-    SOAVPopUpButtonViewController *_screenSharingPopUpButtonViewController;
-    NSArray *_stackedLabelsConstraints;
 }
 
 + (id);
@@ -39,7 +30,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);
@@ -55,7 +46,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)me;
 - (void);
 - (void);
 - (void);
@@ -64,23 +55,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) SOAVPopUpButtonViewController *audioPopUpButtonViewController; // @synthesize audioPopUpButtonViewController=_audioPopUpButtonViewController;
-@property(retain) CNAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideAVButtonsOnRollover; // @synthesize hideAVButtonsOnRollover=_hideAVButtonsOnRollover;
 @property(retain) NSStackView *horizontalLayoutStackView; // @synthesize horizontalLayoutStackView=_horizontalLayoutStackView;
-@property(retain) NSTextField *locationLabel; // @synthesize locationLabel=_locationLabel;
-@property(retain) SOAVPopUpButtonViewController *screenSharingPopUpButtonViewController; // @synthesize screenSharingPopUpButtonViewController=_screenSharingPopUpButtonViewController;
-@property _Bool showsLocationLabel; // @dynamic showsLocationLabel;
-@property(retain) NSArray *stackedLabelsConstraints; // @synthesize stackedLabelsConstraints=_stackedLabelsConstraints;
-@property(readonly) Class superclass;
-@property(retain) NSImageView *verifiedBusinessImageView; // @synthesize verifiedBusinessImageView=_verifiedBusinessImageView;
-@property(retain) SOAVPopUpButtonViewController *videoPopUpButtonViewController; // @synthesize videoPopUpButtonViewController=_videoPopUpButtonViewController;
 
 @end
 

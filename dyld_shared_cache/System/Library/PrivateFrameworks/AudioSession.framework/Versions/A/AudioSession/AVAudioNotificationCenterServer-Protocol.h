@@ -5,5 +5,14 @@
 //
 
 @protocol AVAudioNotificationCenterServer
+- (void)NEExtensionPacketTunnelProviderContext;
+- (unsigned long long)_TtCE16NetworkExtensionCSo27NEExtensionBaseProviderHost21NEAppExtensionMonitor;
+
+@optional
+- (_Bool)NEFilterExtensionProviderContext;
+- (void)NEExtensionAppPushProviderHostProtocol;
+- (void)NEExtensionAppPushProviderProtocol;
+- (void)NEDNSOverTLSSettings;
+- (unsigned long long)NEDNSProxyProviderProtocol;
 @end
 

@@ -21,12 +21,12 @@
 - (unsigned short);
 - (void);
 - (float);
-- (short);
+- (short):%@ /* Error: Ran out of types for this method. */;
 - (unsigned char);
 - (int);
 - (const char *);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)%2;
 
 @end
 

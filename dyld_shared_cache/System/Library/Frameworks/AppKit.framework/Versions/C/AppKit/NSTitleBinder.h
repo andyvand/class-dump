@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
-+ (id);
-+ (id);
-- (Class);
++ (_Bool)ffing but not multipart/x-mixed-replace;
++ (id)resumableUploadData;
++ (id)@;
+- (Class)bridgeOS;
 - (_Bool);
-- (void);
+- (void)_NSCFTranslatedFileURLProtocol_PIMPL_4;
 
 @end
 

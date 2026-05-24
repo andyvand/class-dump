@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 @interface NUEmbedData
 {
 }
@@ -13,20 +11,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long autoPlayMedia; // @dynamic autoPlayMedia;
-@property(readonly, nonatomic) NSURL *baseURL; // @dynamic baseURL;
-@property(readonly, nonatomic) NSString *bodyHTML; // @dynamic bodyHTML;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *enclosingHTML; // @dynamic enclosingHTML;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *javaScript; // @dynamic javaScript;
-@property(readonly, nonatomic) double maximumWidth; // @dynamic maximumWidth;
 @property(readonly, nonatomic) double minimumWidth; // @dynamic minimumWidth;
-@property(readonly) Class superclass;
 
 @end
 

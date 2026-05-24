@@ -7,7 +7,7 @@
 @class NSString;
 
 @protocol UIActionSheetPresentationControllerDismissActionView
-- (void);
+- (void)_systemBackgroundSectionCellColor;
 - (void)h;
 - (NSString *)iewKeyboardLayoutGuide-viewBottom;
 

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCPacketRelayDriver, NSArray, NSObject;
-@protocol AVCPacketRelayConnectionProtocol, AVCPacketRelayDelegate, OS_dispatch_queue;
+@class AVCPacketRelayDriver, NSArray;
 
 @interface AVCPacketRelay
 {
     AVCPacketRelayDriver *_packetDriver;
-    id <AVCPacketRelayDelegate> _delegate;
-    NSArray *_connections;
-    id <AVCPacketRelayConnectionProtocol> _multiplexedConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct _AVCPacketRelayHealthStats _healthStats;
 }
 
-- (void);
+- (void)R;
 - (_Bool);
 - (int);
 - (void);
@@ -25,11 +19,11 @@
 - (_Bool);
 - (id);
 - (id);
+- (void));
+- (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id)ing];
@@ -37,8 +31,6 @@
 
 // Remaining properties
 @property(retain) NSArray *connections; // @synthesize connections=_connections;
-@property(nonatomic) id <AVCPacketRelayDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) id <AVCPacketRelayConnectionProtocol> multiplexedConnection; // @synthesize multiplexedConnection=_multiplexedConnection;
 
 @end
 

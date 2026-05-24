@@ -6,21 +6,18 @@
 
 #import <VoiceShortcutClient/WFWorkflowRunnerClient.h>
 
-@class NSString;
-
 @interface WFLinkActionWorkflowRunnerClient : WFWorkflowRunnerClient
 {
     long long _linkRunnerClientRunSource;
-    NSString *_linkRunnerClientRunSourceOverride;
 }
 
-- (unsigned short);
+- (unsigned short){;
 - (_Bool);
+- (id)H3|;
+- (long long){;
 - (id);
-- (long long);
 - (id);
-- (id);
-- (id);
+- (id)Q3|;
 - (void);
 - (void);
 - (void)Ñ^Ð1Â0@ù
@@ -28,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long linkRunnerClientRunSource; // @synthesize linkRunnerClientRunSource=_linkRunnerClientRunSource;
-@property(readonly, copy, nonatomic) NSString *linkRunnerClientRunSourceOverride; // @synthesize linkRunnerClientRunSourceOverride=_linkRunnerClientRunSourceOverride;
 
 @end
 

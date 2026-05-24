@@ -12,7 +12,7 @@
 + (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)pendencies";
 - (unsigned short);
 
 // Remaining properties

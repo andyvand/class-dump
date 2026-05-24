@@ -7,36 +7,29 @@
 #import <AVKit/AVView.h>
 
 @class NSArray;
-@protocol AVMobileChromelessContainerViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileChromelessContainerView : AVView
 {
     NSArray *_itemViews;
-    double _spacing;
-    id <AVMobileChromelessContainerViewDelegate> _delegate;
-    struct UIEdgeInsets _itemLayoutMargins;
 }
 
 - (void);
-- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (id);
 - (struct CGSize);
-- (void);
+- (void);
 - (struct CGSize);
 - (id);
-- (void);
+- (void);
 - (double);
 - (void)!¼@ù[°1Â0@ù
 × ;
 - (void)roller cannot update status bar visibility while hosted in view service. ***;
 
 // Remaining properties
-@property(nonatomic) __weak id <AVMobileChromelessContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) struct UIEdgeInsets itemLayoutMargins; // @synthesize itemLayoutMargins=_itemLayoutMargins;
 @property(retain, nonatomic) NSArray *itemViews; // @synthesize itemViews=_itemViews;
-@property(nonatomic) double spacing; // @synthesize spacing=_spacing;
 
 @end
 

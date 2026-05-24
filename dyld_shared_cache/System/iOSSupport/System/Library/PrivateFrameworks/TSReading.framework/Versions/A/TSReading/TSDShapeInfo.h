@@ -6,27 +6,24 @@
 
 #import <TSReading/TSDStyledInfo.h>
 
-@class NSString, TSDFill, TSDLineEnd, TSDPathSource, TSDShapeStyle;
+@class TSDPathSource;
 
 @interface TSDShapeInfo : TSDStyledInfo
 {
     TSDPathSource *mPathSource;
-    TSDShapeStyle *mStyle;
-    TSDLineEnd *mHeadLineEnd;
-    TSDLineEnd *mTailLineEnd;
 }
 
-- (struct CGSize);
-- (_Bool);
-- (_Bool);
-- (Class);
-- (void);
-- (void);
+- (struct CGSize)yerController - pause completed - AVPlayer current rate:(id)arg1;
+- (_Bool)ed - ;
+- (_Bool)eferenced - ;
+- (Class)ion;
+- (void));
+- (void)niSinf;
 - (id);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id) y;
 - (id);
 - (id);
 - (Class);
@@ -39,29 +36,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (Class);
 - (void);
 - (id);
 - (int);
-- (void)coding:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)stringWithContentsOfFile:(id)arg1 encoding:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) TSDFill *fill;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TSDLineEnd *headLineEnd;
 @property(retain, nonatomic) TSDPathSource *pathSource; // @synthesize pathSource=mPathSource;
-@property(readonly, nonatomic) TSDShapeStyle *shapeStyle;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsShrinkTextToFit;
-@property(readonly, nonatomic) _Bool supportsTextInset;
-@property(retain, nonatomic) TSDLineEnd *tailLineEnd;
 
 @end
 

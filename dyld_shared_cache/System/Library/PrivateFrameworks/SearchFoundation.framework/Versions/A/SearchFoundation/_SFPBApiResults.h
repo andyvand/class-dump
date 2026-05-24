@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface _SFPBApiResults
 {
     int _status;
-    int _resultType;
-    NSArray *_flights;
 }
 
 - (void);
@@ -25,27 +21,17 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)initWithLocalIdentifier:(id)arg1 libraryURL:collectionListType:collectionListSubtype:collectionReferences:transientIdentifier:transientTitle: /* Error: Ran out of types for this method. */;
+- (id)tExportRequest] Asset's original filename is '%{private}@', but using custom filename base (supplied in options):%{public}@ /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (void);
 - (id);
 - (int);
-- (void)tonItemsCount;
+- (void)leadingSwipeButtonItemsCount;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *flights; // @synthesize flights=_flights;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int resultType; // @synthesize resultType=_resultType;
 @property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

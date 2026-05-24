@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAudioCodecGroup, HMDAudioCodecParameters, HMDSelectedRTPParameters, NSData, NSNumber;
+@class HMDAudioCodecGroup;
 
 __attribute__((visibility("hidden")))
 @interface HMDSelectedAudioParameters
 {
     HMDAudioCodecGroup *_codecGroup;
-    HMDAudioCodecParameters *_codecParameters;
-    HMDSelectedRTPParameters *_rtpParameters;
-    NSNumber *_comfortNoiseEnabled;
 }
 
 + (_Bool)¤àìàáüÐáýâ;
@@ -24,16 +21,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)=;
 - (void);
 - (void)-B4DE-4622-A49D-F66FE296D6B5;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMDAudioCodecGroup *codecGroup; // @synthesize codecGroup=_codecGroup;
-@property(readonly, copy, nonatomic) HMDAudioCodecParameters *codecParameters; // @synthesize codecParameters=_codecParameters;
-@property(readonly, copy, nonatomic) NSNumber *comfortNoiseEnabled; // @synthesize comfortNoiseEnabled=_comfortNoiseEnabled;
-@property(readonly, copy, nonatomic) HMDSelectedRTPParameters *rtpParameters; // @synthesize rtpParameters=_rtpParameters;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

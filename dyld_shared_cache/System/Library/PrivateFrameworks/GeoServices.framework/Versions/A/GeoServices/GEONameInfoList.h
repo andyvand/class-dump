@@ -9,37 +9,35 @@
 @interface GEONameInfoList
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_nameInfos;
 }
 
-+ (Class);
-+ (_Bool)etSupport:(id)arg1;
++ (Class)FError=}16;
++ (_Bool)setHasTransitMarketSupport:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)E;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)checkOwnershipInVolume:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)O;
+- (void)ntext:(id)arg1 successfully:option:withEventUUID:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@;
 - (id)DispatchTimer}}};
-- (id)tureType: /* Error: Ran out of types for this method. */;
+- (id)initWithBusinessID:featureType: /* Error: Ran out of types for this method. */;
 - (id)Pz¯hÎ;
 - (id)GetRepeatedInt64;
 - (void)lCÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *nameInfos;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

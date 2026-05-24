@@ -6,17 +6,15 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSDictionary, NSString, PKAppletSubcredential;
+@class NSString, PKAppletSubcredential;
 
 @interface PKPaymentRegisterCredentialRequest : PKPaymentWebServiceRequest
 {
     NSString *_credentialIdentifier;
-    NSDictionary *_metadata;
-    PKAppletSubcredential *_credential;
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);

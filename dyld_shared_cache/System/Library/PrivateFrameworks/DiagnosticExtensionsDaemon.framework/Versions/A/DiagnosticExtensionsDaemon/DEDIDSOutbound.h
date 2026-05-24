@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDIDSConnection, NSObject, NSString;
-@protocol OS_os_log;
+@class DEDIDSConnection;
 
 @interface DEDIDSOutbound
 {
     DEDIDSConnection *_connection;
-    NSString *_deviceAddress;
-    NSString *_sessionID;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,45 +29,35 @@
 - (void);
 - (void);
 - (id);
+- (void)6;
+- (id);
+- (void);
+- (void)Rq;;
+- (void);
+- (void);
+- (id);
+- (void)#;
+- (void);
+- (void);
+- (void);
+- (id)om pcs %@;
+- (void);
+- (void);
+- (void);
+- (void)c;
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)localizedConsentTextWithLocalization:(id)arg1;
 - (long long);
 - (void);
-- (void)Type:(id)arg1;
+- (void)setDeviceActionType:(id)arg1;
 
 // Remaining properties
 @property __weak DEDIDSConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSString *deviceAddress; // @synthesize deviceAddress=_deviceAddress;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) Class superclass;
 
 @end
 

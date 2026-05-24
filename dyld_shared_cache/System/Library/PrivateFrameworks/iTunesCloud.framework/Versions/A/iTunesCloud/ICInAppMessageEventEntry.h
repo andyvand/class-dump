@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface ICInAppMessageEventEntry
 {
     NSString *_messageIdentifier;
-    NSDictionary *_params;
-    NSString *_eventIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)8i1;
 - (id);
 - (id);
 - (id);
+- (id)_homeSharingBasePlaylistID;
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void)enDefaultProvider;
+- (void)ICDeveloperTokenDefaultProvider;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
 @property(readonly, nonatomic) NSString *messageIdentifier; // @synthesize messageIdentifier=_messageIdentifier;
-@property(readonly, nonatomic) NSDictionary *params; // @synthesize params=_params;
 
 @end
 

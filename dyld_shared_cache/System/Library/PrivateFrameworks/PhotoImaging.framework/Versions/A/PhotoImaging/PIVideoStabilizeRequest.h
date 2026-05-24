@@ -7,8 +7,6 @@
 @interface PIVideoStabilizeRequest
 {
     double _allowedCropFraction;
-    CDUnknownBlockType _progressHandler;
-    unsigned long long _allowedAnalysisTypes;
 }
 
 + (_Bool);
@@ -27,9 +25,7 @@
 ð>=ð>p³ð>£Êð>9òð>	ùð>=ñ>p'ñ>£>ñ>´Uñ>èlñ>ùñ>,ñ>>²ñ>OÉñ>aàñ>s÷ñ>ò>%ò>§<ò>¹Sò>©jò>ºò>«ò>¼¯ò>¬Æò>Ýò>Iôò>|ó>l"ó>\9ó>LPó><gó>~ó>ûó>ë«ó>¹Âó>Ùó>xðó>Fô>ô>ã4ô>²Kô>bô>-yô>üô>Ê¦ô>w½ô>EÔô>8öô>õ>nõ>/õ>ÈEõ>t\õ>!sõ>Îõ>Z õ>·õ>³Íõ>?äõ>ìúõ>wö>(ö>>ö>;Uö>Ækö>Qö>»ö>G¯ö>ÒÅö>]Üö>Høö>S	÷>¼÷>H6÷>²L÷>c÷>y÷>ï÷>Y¦÷>Ã¼÷>,Ó÷>é÷>Þÿ÷>Hø>²,ø>úBø>CYø>¬oø>õø>=ø>²ø>ÍÈø>ßø>Yúø>¦ù>Í!ù>8ù>]Nù>dù>«zù>óù>§ù>@½ù>gÓù>éù>µÿù>Ûú>,ú>)Bú>.Xú>Tnú>{ú>ú>°ú>¬Æú>±Üú>Hüú>¼û>Áû>Æ4û>ËJû>Ð`û>´vû>¹û>¾¢û>¢¸û>§Îû>äû>núû>Rü>W&ü>:(CDUnknownBlockType)arg1 <ü>Rü>hü>å}ü>§ü>©ü>n¿ü>0Õü>Xþü>Ö;
 
 // Remaining properties
-@property(nonatomic) unsigned long long allowedAnalysisTypes; // @synthesize allowedAnalysisTypes=_allowedAnalysisTypes;
 @property(nonatomic) double allowedCropFraction; // @synthesize allowedCropFraction=_allowedCropFraction;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 
 @end
 

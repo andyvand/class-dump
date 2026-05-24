@@ -16,29 +16,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)';
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)_operationsToOptions;
 - (void);
-- (void);
+- (void)>;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *applicationName; // @synthesize applicationName=_applicationName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) AKAuthorizationScopeChoices *editableScopeChoices;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

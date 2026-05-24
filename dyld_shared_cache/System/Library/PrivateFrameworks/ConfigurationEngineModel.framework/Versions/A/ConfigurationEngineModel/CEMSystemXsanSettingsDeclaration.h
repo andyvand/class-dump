@@ -6,15 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CEMSystemXsanSettingsDeclaration : CEMConfigurationBase
 {
     NSString *_payloadSanName;
-    NSArray *_payloadSanConfigURLs;
-    NSArray *_payloadFsnameservers;
-    NSString *_payloadSanAuthMethod;
-    NSString *_payloadSharedSecret;
 }
 
 + (id);
@@ -37,25 +33,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)D 2yǣ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *payloadFsnameservers; // @synthesize payloadFsnameservers=_payloadFsnameservers;
-@property(copy, nonatomic) NSString *payloadSanAuthMethod; // @synthesize payloadSanAuthMethod=_payloadSanAuthMethod;
-@property(copy, nonatomic) NSArray *payloadSanConfigURLs; // @synthesize payloadSanConfigURLs=_payloadSanConfigURLs;
 @property(copy, nonatomic) NSString *payloadSanName; // @synthesize payloadSanName=_payloadSanName;
-@property(copy, nonatomic) NSString *payloadSharedSecret; // @synthesize payloadSharedSecret=_payloadSharedSecret;
-@property(readonly) Class superclass;
 
 @end
 

@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool)lectByPressGestureRequired;
-- (void)achView:(id)arg1 fromParentView: /* Error: Ran out of types for this method. */;
-- (void)ltHeightForTraitCollection:(id)arg1 size:(id)arg2;
+- (_Bool)selectByPressGestureRequired;
+- (void)detachView:(id)arg1 fromParentView: /* Error: Ran out of types for this method. */;
+- (void)_defaultHeightForTraitCollection:(id)arg1 size:(id)arg2;
 - (_Bool)ÿÿ2;
 - (id)entComponent>"8^B16;
 - (id);

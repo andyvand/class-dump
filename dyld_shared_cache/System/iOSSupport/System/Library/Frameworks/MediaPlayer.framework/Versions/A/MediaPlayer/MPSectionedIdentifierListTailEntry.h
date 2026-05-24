@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPSectionedIdentifierListEntry.h>
 
-@class MPSectionedIdentifierListHeadEntry, NSString;
+@class MPSectionedIdentifierListHeadEntry;
 
 __attribute__((visibility("hidden")))
 @interface MPSectionedIdentifierListTailEntry : MPSectionedIdentifierListEntry
@@ -19,20 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (void)e__MAPPING_MISSING__;
+- (void)__MPModelRelationshipPlaylistEntryReactionSocialProfile__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) long long branchDepth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long entryType;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak MPSectionedIdentifierListHeadEntry *sectionHeadEntry; // @synthesize sectionHeadEntry=_sectionHeadEntry;
-@property(readonly, nonatomic) NSString *sectionIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

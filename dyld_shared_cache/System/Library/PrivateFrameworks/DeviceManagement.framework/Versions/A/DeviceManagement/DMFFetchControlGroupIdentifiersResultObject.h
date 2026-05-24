@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)@;
+- (void)g;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *groupIdentifiers; // @synthesize groupIdentifiers=_groupIdentifiers;

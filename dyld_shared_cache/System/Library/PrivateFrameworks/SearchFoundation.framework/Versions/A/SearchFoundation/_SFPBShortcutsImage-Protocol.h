@@ -7,9 +7,9 @@
 @class NSData, NSString;
 
 @protocol _SFPBShortcutsImage
+- (NSData *)stalled;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *lnPropertyIdentifier;
 @end
 

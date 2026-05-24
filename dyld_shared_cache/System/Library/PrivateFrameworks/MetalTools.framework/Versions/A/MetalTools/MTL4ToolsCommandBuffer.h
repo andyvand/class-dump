@@ -7,34 +7,31 @@
 #import <MetalTools/MTLToolsObject.h>
 
 @class NSMutableArray, NSString;
-@protocol MTL4CommandAllocator, MTLBuffer, MTLDevice;
 
 @interface MTL4ToolsCommandBuffer : MTLToolsObject
 {
     NSMutableArray *_usedResidencySets;
-    id <MTL4CommandAllocator> _commandAllocator;
-    id <MTLBuffer> _privateData;
 }
 
+- (id));
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)ZW;
+- (id);
+- (id);
+- (void);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)n;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -49,19 +46,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) id <MTL4CommandAllocator> commandAllocator;
-@property(readonly, nonatomic) unsigned long long currentGeneration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *label;
-@property(retain, nonatomic) id <MTLBuffer> privateData;
-@property(nonatomic) unsigned long long privateDataOffset;
-@property(readonly) Class superclass;
 
 @end
 

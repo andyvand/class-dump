@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @interface SFTableAlignmentSchema
 {
     NSArray *_tableColumnAlignment;
-    NSDictionary *_metadata;
 }
 
 + (_Bool);
@@ -17,27 +16,17 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
+- (id)valid;
+- (void)initWithPropertyListRepresentation:(id)arg1 filePath: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)@, avchdAssetId (UUID):%@ ==> FOUND /* Error: Ran out of types for this method. */;
+- (id)d Month;
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)sIconType;
+- (void)hasIconType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *tableColumnAlignment; // @synthesize tableColumnAlignment=_tableColumnAlignment;
 
 @end

@@ -9,7 +9,6 @@
 @interface XCTElementQueryTransformerPredicateValidator
 {
     _Bool _expressionsAllowed;
-    NSError *_error;
 }
 
 + (void);
@@ -17,13 +16,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)aluationContext;
+- (void)_evaluationContext;
 - (void)nt than %@;
 - (void)!u;
 
 // Remaining properties
 @property(readonly) NSError *error; // @synthesize error=_error;
-@property _Bool expressionsAllowed; // @synthesize expressionsAllowed=_expressionsAllowed;
 
 @end
 

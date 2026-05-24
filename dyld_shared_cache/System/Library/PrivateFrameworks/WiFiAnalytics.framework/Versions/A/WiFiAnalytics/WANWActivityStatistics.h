@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PBCodable, WiFiAnalytics.WANWActivityTransform;
+@class PBCodable;
 
 @interface WANWActivityStatistics
 {
     _Bool _fromInitWithPBCodableData;
-    unsigned int _awdMetricID;
-    PBCodable *_awdReport;
-    NSArray *_activityUUIDs;
-    NSArray *_externallyVisibleActivityUUIDs;
-    WiFiAnalytics.WANWActivityTransform *_obj;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned int);
@@ -30,16 +25,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *activityUUIDs; // @synthesize activityUUIDs=_activityUUIDs;
-@property(nonatomic) unsigned int awdMetricID; // @synthesize awdMetricID=_awdMetricID;
 @property(retain, nonatomic) PBCodable *awdReport; // @synthesize awdReport=_awdReport;
-@property(retain) NSArray *externallyVisibleActivityUUIDs; // @synthesize externallyVisibleActivityUUIDs=_externallyVisibleActivityUUIDs;
-@property(retain, nonatomic) WiFiAnalytics.WANWActivityTransform *obj; // @synthesize obj=_obj;
 
 @end
 

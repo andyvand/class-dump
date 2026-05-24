@@ -14,9 +14,9 @@
 }
 
 + (Class);
-- (id);
-- (id);
-- (void)error: /* Error: Ran out of types for this method. */;
+- (id)ntAgent.enrollagent.plist;
+- (id)i;
+- (void)setAppleAccountConsentVersion:forAccount:error: /* Error: Ran out of types for this method. */;
 
 @end
 

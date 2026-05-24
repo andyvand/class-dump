@@ -6,24 +6,19 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGTripKeyAssetQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
 }
 
 - (double);
 - (id);
 - (unsigned short);
-- (id);
+- (id);
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)kedFeatureCache: /* Error: Ran out of types for this method. */;
+- (id)initWithLoggingConnection:photoLibrary:momentNodesWithBlockedFeatureCache: /* Error: Ran out of types for this method. */;
 - (void)/CameraStyleable/PGMeCameraStyleableSuggester.m;
 
 @end

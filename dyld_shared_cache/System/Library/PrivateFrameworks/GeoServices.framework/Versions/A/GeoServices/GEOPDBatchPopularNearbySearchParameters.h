@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDViewportInfo, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDBatchPopularNearbySearchParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _requestLocalTimestamp;
-    NSMutableArray *_suggestionEntryMetadatas;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _maxResults;
-    struct {
-        unsigned int has_requestLocalTimestamp:1;
-        unsigned int has_maxResults:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_suggestionEntryMetadatas:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)X;
+- (id)lyzerNDEAPIResult",&,N,V_jarvisTriggerResult;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)om_"C};
-- (id);
+- (id)_base64Path;
 - (id)|ÌSÂ³ÐÎSHÂ³ôSÂ³PõSÂ³øSÄÂ³ôTØÂ³tTìÂ³T;
 - (void);
 

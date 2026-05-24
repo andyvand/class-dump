@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NCNotificationSystemSettings;
+
 @protocol NCNotificationSystemSettingsProvider
+- (NCNotificationSystemSettings *)ng interactions found;
 @end
 

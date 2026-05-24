@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWVideoFormat, NSDictionary;
-@protocol BWInferenceCropDescriptor;
+@class BWVideoFormat;
 
 @interface BWInferenceVideoFormat
 {
     BWVideoFormat *_underlyingVideoFormat;
-    _Bool _deviceOriented;
-    _Bool _landscapeOriented;
-    _Bool _applyHorizontalFlip;
-    long long _videoContentMode;
-    _Bool _includesInvalidContent;
-    id <BWInferenceCropDescriptor> _cropDescriptor;
-    CDUnknownBlockType _histogramRequest;
-    int _rotationDegrees;
 }
 
 + (id);
@@ -28,10 +19,10 @@
 - (id);
 - (long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)F;
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)@?0@"NSArray"8;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -46,22 +37,6 @@
 - (int)ation in the %@ graph (possible hang%@);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool applyHorizontalFlip;
-@property(readonly, nonatomic) int colorSpaceProperties;
-@property(readonly, nonatomic) id <BWInferenceCropDescriptor> cropDescriptor;
-@property(readonly, nonatomic) _Bool deviceOriented;
-@property(readonly, nonatomic) unsigned long long extendedHeight;
-@property(readonly, nonatomic) unsigned long long extendedWidth;
-@property(readonly) struct opaqueCMFormatDescription *formatDescription;
-@property(readonly, nonatomic) unsigned long long height;
-@property(readonly, copy, nonatomic) CDUnknownBlockType histogramRequest; // @synthesize histogramRequest=_histogramRequest;
-@property(readonly, nonatomic) _Bool includesInvalidContent;
-@property(readonly, nonatomic) _Bool landscapeOriented;
-@property(readonly, nonatomic) NSDictionary *pixelBufferAttributes;
-@property(readonly, nonatomic) unsigned int pixelFormat;
-@property(readonly, nonatomic) int rotationDegrees;
-@property(readonly, nonatomic) BWVideoFormat *underlyingVideoFormat;
-@property(readonly, nonatomic) long long videoContentMode;
 @property(readonly, nonatomic) unsigned long long width;
 
 @end

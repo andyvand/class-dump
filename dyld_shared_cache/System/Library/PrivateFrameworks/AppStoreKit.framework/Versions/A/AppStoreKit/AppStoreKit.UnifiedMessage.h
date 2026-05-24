@@ -7,11 +7,6 @@
 @interface AppStoreKit.UnifiedMessage
 {
     id id;
-    id impressionMetrics;
-    id placement;
-    id context;
-    id deliveryMethod;
-    id automationMetadata;
 }
 
 @end

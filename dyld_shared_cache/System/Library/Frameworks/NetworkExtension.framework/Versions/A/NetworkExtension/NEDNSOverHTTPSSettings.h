@@ -6,31 +6,29 @@
 
 #import <NetworkExtension/NEDNSSettings.h>
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface NEDNSOverHTTPSSettings : NEDNSSettings
 {
     NSURL *_serverURL;
-    NSData *_identityReference;
 }
 
-+ (_Bool);
++ (_Bool)setKtAccountKeyErrorCode: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)block_invoke;
+- (id)M;
 - (_Bool);
 - (void);
 - (id);
-- (void)veAllDomainTries;
-- (_Bool)ntForKey:(id)arg1;
+- (void)removeAllDomainTries;
+- (_Bool)decodeIntForKey:(id)arg1;
 - (id)OtherConfiguration:(int)arg1 sameTypeCount:(unsigned long long)arg2 perAppCount:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSData *identityReference; // @synthesize identityReference=_identityReference;
 @property(copy) NSURL *serverURL; // @synthesize serverURL=_serverURL;
 
 @end

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDCoreRoutineModelClusterMovementNoiseSet
 {
     unsigned long long _timestamp;
-    NSMutableArray *_instances;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)i1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,12 +29,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *instances; // @synthesize instances=_instances;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

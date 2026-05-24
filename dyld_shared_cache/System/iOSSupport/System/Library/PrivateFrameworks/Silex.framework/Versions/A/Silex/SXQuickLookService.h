@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, QLThumbnailGenerator;
+@class QLThumbnailGenerator;
 
 @interface SXQuickLookService
 {
@@ -12,20 +12,13 @@
 }
 
 - (void);
-- (id);
+- (id)�;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) QLThumbnailGenerator *generator; // @synthesize generator=_generator;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface AVDispatchOnce
 {
     struct os_unfair_lock_s _lock;
-    _Bool _testFlag;
 }
 
 - (id);

@@ -7,10 +7,6 @@
 @interface AccessibilitySharedSupport.AXSSRemoteDesktopViewerBase
 {
     id remoteId;
-    id _coder;
-    id _delegate;
-    id _nextMessageId;
-    id _exchangePublicKeysMessageId;
 }
 
 @end

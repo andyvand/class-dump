@@ -6,77 +6,53 @@
 
 #import <AppKit/NSPanel.h>
 
-@class NSArray, NSAttributedString, NSCorrectionShadowView, NSCorrectionTextView, NSCorrectionTypedTextHighlightView, NSDictionary, NSEvent, NSMutableArray, NSObject, NSString, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSCorrectionPanel : NSPanel
 {
     NSView *hostView;
-    struct CGRect boundingBoxInHostView;
-    NSCorrectionTypedTextHighlightView *typedTextView;
-    NSCorrectionTextView *correctionView;
-    NSCorrectionShadowView *shadowView;
-    NSPanel *correctionSubPanel;
-    CDUnknownBlockType completionHandler;
-    CDUnknownBlockType stringCompletionHandler;
-    CDUnknownBlockType selectionCompletionHandler;
-    CDUnknownBlockType dismissalEventHandler;
-    NSAttributedString *primaryCandidate;
-    NSMutableArray *alternativeCandidates;
-    NSArray *candidateImages;
-    NSString *lastKeyString;
-    _Bool dismissedExternally;
-    _Bool dismissedExplicitly;
-    NSView *contentBackgroundMaterialView;
-    NSEvent *dismissEvent;
-    _Bool useLocalEventMonitor;
-    long long sourceType;
-    NSObject *localEventMonitor;
-    unsigned long long ignoredEventMask;
-    struct CGPoint initialHostWindowOrigin;
-    long long dismissType;
-    struct _NSRange _range;
 }
 
-+ (id);
++ (id)nTask"24q32q40q48;
 - (_Bool);
+- (void)l contains non-printable ASCII character(s);
+- (void)g and trailing hyphen is not allowed in label;
+- (void)size %d exceeded max label size %d;
+- (void)idate domain - invalid domain length of %d (max length is %d);
+- (void)4;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)setValue:forKey: /* Error: Ran out of types for this method. */;
+- (id)_inPrivateBrowsing;
+- (id)_immediatelyReconnectAfterInterruption;
+- (id)_ignoreHTTPOnlyCookie;
 - (_Bool);
 - (long long);
 - (void);
-- (long long);
-- (void);
+- (long long);
+- (void)uid_t}.16P>.<%lu> summary for %{public}s {transaction_duration_ms=%u, response_status=%ld, connection=%llu, reused=1, reused_after_ms=%u, reused_after_sleep=%{bool}d, request_start_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)LCache=^^?}8;
+- (void)_kCFHTTPCookiePolicyPropertyIsTopLevelNavigation;
 - (void);
 - (id);
 - (void);
 - (struct CGRect);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id):Yx /* Error: Ran out of types for this method. */;
 - (void);
 - (struct _NSRange);
 - (void)!Gùñä3Ð1Â0@ù
@@ -84,13 +60,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)\;
 
 // Remaining properties
-@property(readonly) NSString *correction; // @dynamic correction;
-@property(copy) NSDictionary *correctionAttributes; // @dynamic correctionAttributes;
-@property(readonly) long long correctionPanelType;
-@property long long dismissType; // @synthesize dismissType;
-@property _Bool dismissedExplicitly; // @synthesize dismissedExplicitly;
-@property(copy) NSString *lastKeyString; // @synthesize lastKeyString;
-@property(readonly) struct _NSRange range; // @synthesize range=_range;
 @property _Bool useDefaultStringAttributes; // @dynamic useDefaultStringAttributes;
 
 @end

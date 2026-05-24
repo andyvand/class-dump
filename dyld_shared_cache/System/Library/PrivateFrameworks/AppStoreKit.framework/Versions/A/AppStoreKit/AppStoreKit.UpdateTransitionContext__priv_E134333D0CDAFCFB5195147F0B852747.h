@@ -7,13 +7,6 @@
 @interface AppStoreKit.UpdateTransitionContext__priv_E134333D0CDAFCFB5195147F0B852747
 {
     id originalIndexPaths;
-    id finalPendingUpdates;
-    id finalRecentUpdates;
-    id finalIndexPaths;
-    id areServerUpdates;
-    id externalPendingUpdatesSectionIndex;
-    id recentUpdatesSectionIndex;
-    id includeUpdateAllInPendingUpdates;
 }
 
 @end

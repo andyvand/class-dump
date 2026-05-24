@@ -5,5 +5,6 @@
 //
 
 @protocol _ANEDaemonProtocol_Private
+- (void);
 @end
 

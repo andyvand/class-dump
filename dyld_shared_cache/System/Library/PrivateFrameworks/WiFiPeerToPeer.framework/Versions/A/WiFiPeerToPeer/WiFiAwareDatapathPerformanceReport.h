@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSNumber;
+@class NSDate;
 
 @interface WiFiAwareDatapathPerformanceReport
 {
     NSDate *_timestamp;
-    NSData *_localTimestamp;
-    NSNumber *_throughputCeilingMbps;
-    NSNumber *_throughputCapacityMbps;
-    NSDictionary *_txLatency;
-    NSNumber *_signalStrength;
-    double _durationActive;
 }
 
 + (_Bool);
@@ -30,16 +24,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)!;
 
 // Remaining properties
-@property(readonly, nonatomic) double durationActive; // @synthesize durationActive=_durationActive;
-@property(readonly, nonatomic) NSData *localTimestamp; // @synthesize localTimestamp=_localTimestamp;
-@property(readonly, nonatomic) NSNumber *signalStrength; // @synthesize signalStrength=_signalStrength;
-@property(readonly, nonatomic) NSNumber *throughputCapacityMbps; // @synthesize throughputCapacityMbps=_throughputCapacityMbps;
-@property(readonly, nonatomic) NSNumber *throughputCeilingMbps; // @synthesize throughputCeilingMbps=_throughputCeilingMbps;
 @property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) NSDictionary *txLatency; // @synthesize txLatency=_txLatency;
 
 @end
 

@@ -10,27 +10,27 @@
 
 + (id)°¬8;
 - (void);
+- (void)6;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)RH;
+- (void);
 - (long long);
 - (_Bool);
+- (void)#;
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void)3;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)lValueForKey:(struct _NSZone *)arg1;
+- (id)setNilValueForKey:(struct _NSZone *)arg1;
 - (void)   Àh°!;
 - (void);
-- (unsigned long long);
+- (unsigned long long)POSIXError;
 
 // Remaining properties
 @property(readonly) unsigned long long changeCount;

@@ -7,46 +7,33 @@
 @interface NTPBTelemetryStats
 {
     long long _count;
-    long long _max;
-    long long _mean;
-    long long _median;
-    long long _min;
-    long long _percentile95;
-    struct {
-        unsigned int count:1;
-        unsigned int max:1;
-        unsigned int mean:1;
-        unsigned int median:1;
-        unsigned int min:1;
-        unsigned int percentile95:1;
-    } _has;
 }
 
+- (void)initWithAttributedString:(long long)arg1 context: /* Error: Ran out of types for this method. */;
 - (void);
+- (long long)enumerateGeometriesForItemsInRect:usingBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)chromeLibraryScrubberEnabled;
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (long long);
-- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (unsigned long long)initWithAnimatedImage: /* Error: Ran out of types for this method. */;
+- (_Bool)e.pictures-folder;
+- (_Bool)identity loss error, will rebuild database;
+- (id);
 - (id);
 - (void);
 - (long long);
@@ -56,18 +43,7 @@
 - (void)iosSettingsNotificationsBadgeAppIconEnabled"b1"iosSettingsNotificationsEnabled"b1"iosSettingsNotificationsShowAsBannersEnabled"b1"iosSettingsNotificationsShowInHistoryEnabled"b1"iosSettingsNotificationsShowOnLockScreenEnabled"b1"iosSettingsNotificationsSoundEnabled"b1"isDiagnosticsUsageEnabled"b1"isNewUser"b1"isPaidSubscriber"b1"isPaidSubscriberFromAppStore"b1"isPaidSubscriberFromNews"b1"isPaidSubscriberFromThirdParty"b1"isStoreDemoModeEnabled"b1"locationPermissionGranted"b1"notificationsEnabled"b1"privateDataEncrypted"b1"privateDataSyncOn"b1"progressivePersonalizationAllowed"b1"runningObsolete"b1"signedIntoITunes"b1"signedIntoIcloud"b1"upgradedFromObsolete"b1};
 
 // Remaining properties
-@property(nonatomic) long long count; // @synthesize count=_count;
 @property(nonatomic) _Bool hasCount;
-@property(nonatomic) _Bool hasMax;
-@property(nonatomic) _Bool hasMean;
-@property(nonatomic) _Bool hasMedian;
-@property(nonatomic) _Bool hasMin;
-@property(nonatomic) _Bool hasPercentile95;
-@property(nonatomic) long long max; // @synthesize max=_max;
-@property(nonatomic) long long mean; // @synthesize mean=_mean;
-@property(nonatomic) long long median; // @synthesize median=_median;
-@property(nonatomic) long long min; // @synthesize min=_min;
-@property(nonatomic) long long percentile95; // @synthesize percentile95=_percentile95;
 
 @end
 

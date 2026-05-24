@@ -6,7 +6,6 @@
 
 #import <NearField/NFSession.h>
 
-@class NSString;
 @protocol NFHCESessionDelegate;
 
 @interface NFHCESession : NFSession
@@ -14,20 +13,20 @@
     id <NFHCESessionDelegate> _delegate;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)le.com;
+- (id)ontactPhoneticGivenNameKey(void);
+- (id)ary/BuildRoots/4~CNqZugD1ADkw0k1kbooLy7sY5cuP1RyCwoCeIBg/Library/Caches/com.apple.xbs/TemporaryDirectory.BCIcGs/Sources/AddressBook/Framework/AddressBook/ABUserActivityRestoration.m;
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)statementResults;
 - (void);
 - (id);
 - (void);
@@ -35,14 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property id <NFHCESessionDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

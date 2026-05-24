@@ -7,9 +7,6 @@
 @interface NewsPersonalization.CollabEmbeddingManager.CollabEmbedding.TokenEmbedding
 {
     id embedding;
-    id normalizer;
-    id $__lazy_storage_$_shapedArray;
-    id $__lazy_storage_$_cleanToken;
 }
 
 @end

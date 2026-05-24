@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)/libswiftQuartzCore.dylib;
 - (_Bool)&;
 
 // Remaining properties

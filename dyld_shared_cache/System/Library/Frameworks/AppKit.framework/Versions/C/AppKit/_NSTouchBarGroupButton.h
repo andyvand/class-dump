@@ -6,18 +6,10 @@
 
 #import <AppKit/NSButton.h>
 
-@class NSLayoutConstraint;
-
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarGroupButton : NSButton
 {
     double _preferredWidth;
-    _Bool _isAlertButton;
-    unsigned long long _compressedImagePosition;
-    unsigned long long _defaultImagePosition;
-    NSLayoutConstraint *_fullTitleWidthConstraint;
-    NSLayoutConstraint *_shortTitleWidthConstraint;
-    NSLayoutConstraint *_shortTitleCompressedWidthConstraint;
 }
 
 + (id);
@@ -27,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)iled to digest APTicket with error %d (0x%X);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)	;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (void);
 - (struct CGSize);
@@ -43,9 +35,6 @@ __attribute__((visibility("hidden")))
 - (id)b8"segmentedSeparated"b1"isObservingAllowsRollover"b1"visualProviderNeedsRefresh"b1};
 
 // Remaining properties
-@property unsigned long long compressedImagePosition;
-@property unsigned long long defaultImagePosition;
-@property _Bool isAlertButton;
 @property double preferredWidth;
 
 @end

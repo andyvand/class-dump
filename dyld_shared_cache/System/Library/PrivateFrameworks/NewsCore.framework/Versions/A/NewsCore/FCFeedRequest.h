@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCFeedContext, FCFeedItemFeature, FCFeedRange, NSString;
+@class NSString;
 
 @interface FCFeedRequest
 {
     _Bool _isExpendable;
-    _Bool _cachedOnly;
-    NSString *_feedID;
-    FCFeedRange *_feedRange;
-    unsigned long long _maxCount;
-    FCFeedContext *_feedContext;
-    FCFeedItemFeature *_requiredFeature;
 }
 
 - (id);
@@ -22,7 +16,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool)ID;
 - (unsigned long long)¸ü;
@@ -30,14 +24,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool cachedOnly; // @synthesize cachedOnly=_cachedOnly;
-@property(readonly, copy, nonatomic) FCFeedContext *feedContext; // @synthesize feedContext=_feedContext;
 @property(readonly, copy, nonatomic) NSString *feedID; // @synthesize feedID=_feedID;
-@property(readonly, copy, nonatomic) FCFeedRange *feedRange; // @synthesize feedRange=_feedRange;
-@property(readonly, nonatomic) _Bool hasMaxCount;
-@property(readonly, nonatomic) _Bool isExpendable; // @synthesize isExpendable=_isExpendable;
-@property(readonly, nonatomic) unsigned long long maxCount; // @synthesize maxCount=_maxCount;
-@property(readonly, copy, nonatomic) FCFeedItemFeature *requiredFeature; // @synthesize requiredFeature=_requiredFeature;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMergeableDeltaID, CKRecordID, NSData, NSString;
+@class CKRecordID;
 
 @interface CKDWrappingContext
 {
     CKRecordID *_recordID;
-    NSString *_fieldName;
-    CKMergeableDeltaID *_mergeableDeltaID;
-    NSData *_fileSignature;
-    NSData *_referenceSignature;
 }
 
 - (id);
@@ -41,11 +37,7 @@ create table if not exists DSIDMap (
 - (void)%@ with Reminders identity:(id)arg1 %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
-@property(retain, nonatomic) NSData *fileSignature; // @synthesize fileSignature=_fileSignature;
-@property(retain, nonatomic) CKMergeableDeltaID *mergeableDeltaID; // @synthesize mergeableDeltaID=_mergeableDeltaID;
 @property(retain, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(retain, nonatomic) NSData *referenceSignature; // @synthesize referenceSignature=_referenceSignature;
 
 @end
 

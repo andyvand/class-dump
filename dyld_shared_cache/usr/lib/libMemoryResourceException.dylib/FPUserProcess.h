@@ -6,18 +6,9 @@
 
 #import <MemoryResourceException/FPProcess.h>
 
-@class FPMemoryRegion, NSMutableArray, NSMutableDictionary;
-
 @interface FPUserProcess : FPProcess
 {
     unsigned int _task;
-    unsigned long long _ledgers[5];
-    NSMutableArray *_images;
-    NSMutableDictionary *_ownedVmObjects;
-    unsigned long long _cachedDispositionAddress;
-    int _cachedDisposition;
-    FPMemoryRegion *_pendingUnusedSharedRegion;
-    _Bool _bailedOut;
 }
 
 + (unsigned int);
@@ -42,15 +33,13 @@
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
-- (id);
+- (id)t;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)5;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool doOwnedAccountingAdjustments;
-@property(readonly, nonatomic) unsigned long long physFootprint;
 @property(readonly, nonatomic) unsigned int task; // @synthesize task=_task;
 
 @end

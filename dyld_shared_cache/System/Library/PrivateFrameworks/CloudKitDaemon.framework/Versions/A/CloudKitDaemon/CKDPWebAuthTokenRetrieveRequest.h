@@ -9,10 +9,6 @@
 @interface CKDPWebAuthTokenRetrieveRequest
 {
     NSString *_apiToken;
-    _Bool _forceFetchToken;
-    struct {
-        unsigned int forceFetchToken:1;
-    } _has;
 }
 
 + (id);
@@ -24,23 +20,21 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)@;
+- (void);
+- (unsigned long long)StopIO/StartIO to apply
+;
+- (_Bool);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (Class)izeCheck;
+- (Class)keyRollsSkippedBySizeCheck;
 - (void) ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *apiToken; // @synthesize apiToken=_apiToken;
-@property(nonatomic) _Bool forceFetchToken; // @synthesize forceFetchToken=_forceFetchToken;
 @property(readonly, nonatomic) _Bool hasApiToken;
-@property(nonatomic) _Bool hasForceFetchToken;
 
 @end
 

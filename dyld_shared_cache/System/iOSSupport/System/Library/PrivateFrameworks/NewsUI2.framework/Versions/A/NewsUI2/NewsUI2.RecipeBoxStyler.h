@@ -7,8 +7,6 @@
 @interface NewsUI2.RecipeBoxStyler
 {
     id baseStyler;
-    id headlineFontMetrics;
-    id subheadlineFontMetrics;
 }
 
 @end

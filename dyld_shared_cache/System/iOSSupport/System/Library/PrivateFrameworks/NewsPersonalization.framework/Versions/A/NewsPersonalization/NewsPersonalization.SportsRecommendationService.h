@@ -7,13 +7,6 @@
 @interface NewsPersonalization.SportsRecommendationService
 {
     id aggregateStore;
-    id appConfigurationManager;
-    id sportsLocationRecommendationMappingsService;
-    id sportsTaxonomyGraphTagService;
-    id sportsTopicMappingService;
-    id tagService;
-    id computeServiceCohortMembershipService;
-    id userContextProvider;
 }
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DHKey, MessageProtection.Kyber1024ObjCPrivateKey, MessageProtection.TetraRegistration, NGMECDHPublicPreKey;
+@class DHKey, MessageProtection.TetraRegistration;
 
 @interface NGMFullPrekey
 {
     MessageProtection.TetraRegistration *_tetraRegistration;
-    MessageProtection.Kyber1024ObjCPrivateKey *_tetraPrivateKey;
-    DHKey *_dhKey;
-    NGMECDHPublicPreKey *_publicPrekey;
 }
 
 + (id);
@@ -22,18 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)t.framework/Versions/A/CryptoTokenKit;
 
 // Remaining properties
 @property(readonly, nonatomic) DHKey *dhKey; // @synthesize dhKey=_dhKey;
-@property(readonly, nonatomic) NGMECDHPublicPreKey *publicPrekey; // @synthesize publicPrekey=_publicPrekey;
-@property(readonly, nonatomic) MessageProtection.Kyber1024ObjCPrivateKey *tetraPrivateKey; // @synthesize tetraPrivateKey=_tetraPrivateKey;
-@property(readonly, nonatomic) MessageProtection.TetraRegistration *tetraRegistration; // @synthesize tetraRegistration=_tetraRegistration;
 
 @end
 

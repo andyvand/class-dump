@@ -12,10 +12,10 @@
 
 - (id);
 - (id);
-- (id);
-- (struct CGRect);
-- (void);
-- (void);
+- (id)set_suppressedAutoAddedHTTPHeaders:(id)arg1;
+- (struct CGRect)NSProxyConnectionStreamTask;
+- (void)6;
+- (void)86;
 - (void);
 - (Class);
 

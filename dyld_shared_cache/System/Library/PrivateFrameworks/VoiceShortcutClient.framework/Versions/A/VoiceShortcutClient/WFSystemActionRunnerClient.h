@@ -6,30 +6,28 @@
 
 #import <VoiceShortcutClient/WFWorkflowRunnerClient.h>
 
-@class WFConfiguredSystemAction, WFContextualActionContext;
+@class WFConfiguredSystemAction;
 
 @interface WFSystemActionRunnerClient : WFWorkflowRunnerClient
 {
     WFConfiguredSystemAction *_action;
-    WFContextualActionContext *_actionContext;
 }
 
 + (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)|;
+- (id)|;
+- (id)3|;
+- (id)|;
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)$;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) WFConfiguredSystemAction *action; // @synthesize action=_action;
-@property(retain, nonatomic) WFContextualActionContext *actionContext; // @synthesize actionContext=_actionContext;
 
 @end
 

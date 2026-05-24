@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, SFSafariExtensionContext;
+@class NSUUID;
 
 @interface SFSafariToolbarItem
 {
     NSUUID *_uuid;
-    SFSafariExtensionContext *__extensionContext;
 }
 
 + (_Bool);
@@ -17,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -26,13 +25,12 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)e>"16@0:(id)arg1 8;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFSafariExtensionContext *_extensionContext; // @synthesize _extensionContext=__extensionContext;
 @property(readonly, nonatomic) NSUUID *_uuid;
 
 @end

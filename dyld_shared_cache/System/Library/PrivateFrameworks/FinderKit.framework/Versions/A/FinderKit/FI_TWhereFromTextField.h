@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface FI_TWhereFromTextField : FI_TTextField
 {
     function_e88ba8d7 _removeURLHandler;
-    function_f6846527 _removeURLValidator;
-    unsigned long long _numURLs;
 }
 
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)ction:(id)arg1 addedItemIDs:(id)arg2 before:(id)arg3 ];
 - (id);
 - (void)ÿÿ%H;
 

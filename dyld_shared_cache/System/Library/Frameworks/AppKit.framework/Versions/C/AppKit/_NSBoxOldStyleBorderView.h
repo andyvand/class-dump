@@ -10,28 +10,24 @@ __attribute__((visibility("hidden")))
 @interface _NSBoxOldStyleBorderView : NSView
 {
     unsigned long long _borderType;
-    struct CGRect _titleRect;
-    _Bool _shouldDrawFill;
 }
 
-+ (id);
++ (id)yRemove - failed to remove old cache dir %s.  Errno=%{errno}d;
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)digest must be non NULL and digestLength must be non 0;
+- (void)kFDRTag_clas) failed.;
+- (void)match published count;
+- (void)RgoxDxYGuZ0GzijFt6kSQQ;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)setExpectedProgressTarget:forTaskWithIdentifier: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (void);
-- (void);
-- (id)viewPanel:(struct CGRect)arg1;
+- (void)rces/boringssl/crypto/fipsmodule/bn/montgomery.c.inc;
+- (void)esting only;
+- (id)toggleQuickLookPreviewPanel:(struct CGRect)arg1;
 
 // Remaining properties
 @property unsigned long long borderType; // @synthesize borderType=_borderType;
-@property _Bool shouldDrawFill; // @synthesize shouldDrawFill=_shouldDrawFill;
-@property struct CGRect titleCutoutRect; // @synthesize titleCutoutRect=_titleRect;
 
 @end
 

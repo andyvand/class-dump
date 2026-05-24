@@ -6,19 +6,13 @@
 
 #import <LaunchServices/_LSRecordEnumerator.h>
 
-@class NSURL;
-
 __attribute__((visibility("hidden")))
 @interface _LSApplicationRecordsWithinDirectoryEnumerator : _LSRecordEnumerator
 {
     struct VolumeContainerResolutionAdapter _volumeContainerAdapter;
-    NSURL *_directoryURL;
-    struct vector<unsigned int, std::allocator<unsigned int>> _bundleIdentifiersOrUnits;
-    unsigned long long _enumerationOptions;
-    unsigned long long _filteringOptions;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (expected_d13fcbfa);
 - (_Bool);

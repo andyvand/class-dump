@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
+- (id)t"16@?<v@?@"NSError">24;
 - (id);
-- (id);
-- (id);
+- (id)Mask |= AddressFlavorNotReady;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)A(;
 - (void);
 
 @end

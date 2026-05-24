@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordIdentifier, CKDPRecordType, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKDPAssetUploadTokenRetrieveRequestRecordAssetUpload
 {
     NSMutableArray *_assetFields;
-    CKDPRecordIdentifier *_recordId;
-    CKDPRecordType *_type;
 }
 
-+ (Class);
-- (id);
++ (Class);
+- (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)r_CopyProperty(CMBaseObjectRef, CFStringRef, CFAllocatorRef, void *);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (void)roperty:(id)arg1 ];
+- (void)archable_rich_links table;
 - (void);
-- (void);
+- (id)";
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)nfo"16@?<v@?@"NSError">24;
 - (_Bool)xy>",&,D,N;
@@ -38,11 +36,7 @@
 - (void)ïÿ`;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *assetFields; // @synthesize assetFields=_assetFields;
 @property(readonly, nonatomic) _Bool hasRecordId;
-@property(readonly, nonatomic) _Bool hasType;
-@property(retain, nonatomic) CKDPRecordIdentifier *recordId; // @synthesize recordId=_recordId;
-@property(retain, nonatomic) CKDPRecordType *type; // @synthesize type=_type;
 
 @end
 

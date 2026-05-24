@@ -5,5 +5,9 @@
 //
 
 @protocol MKLocalSearchCompleterDelegate
+
+@optional
+- (void)C;
+- (void)RC;
 @end
 

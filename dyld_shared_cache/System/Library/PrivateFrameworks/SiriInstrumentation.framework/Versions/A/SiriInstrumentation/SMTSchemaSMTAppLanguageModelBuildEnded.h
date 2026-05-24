@@ -6,26 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface SMTSchemaSMTAppLanguageModelBuildEnded : SISchemaInstrumentationMessage
 {
     unsigned long long _trainingDataSizeInTokens;
-    unsigned long long _numOutOfVocabulary;
-    unsigned long long _numCustomPronunciations;
-    NSString *_assetName;
-    unsigned long long _trainingTimeInNs;
-    unsigned long long _languageModelFileSizeInBytes;
-    NSString *_artifactFilepath;
-    struct {
-        unsigned int trainingDataSizeInTokens:1;
-        unsigned int numOutOfVocabulary:1;
-        unsigned int numCustomPronunciations:1;
-        unsigned int trainingTimeInNs:1;
-        unsigned int languageModelFileSizeInBytes:1;
-    } _has;
-    _Bool _hasAssetName;
-    _Bool _hasArtifactFilepath;
 }
 
 - (unsigned long long);
@@ -48,7 +31,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -63,33 +46,19 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)processITMSServicesRequest:withReplyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)ABSubscribedPerson;
+- (_Bool)light. Tap this notification to file a radar.;
 - (id);
 - (id);
-- (id)p;
-- (id)oneCallPossibleForPhoneCallIntent;
-- (void)GACYCONTEXTSOURCE_POMMES;
-- (void)TYISSUECATEGORY_GRAMMATICAL_LINGUISTIC_ERROR;
+- (id)deleteIsDisambiguatedApp;
+- (id)_hasIsPhoneCallPossibleForPhoneCallIntent;
+- (void)NLXLEGACYCONTEXTSOURCE_POMMES;
+- (void)CHCONVERSATIONQUALITYISSUECATEGORY_GRAMMATICAL_LINGUISTIC_ERROR;
 - (id)k";
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artifactFilepath; // @synthesize artifactFilepath=_artifactFilepath;
-@property(copy, nonatomic) NSString *assetName; // @synthesize assetName=_assetName;
-@property(nonatomic) _Bool hasArtifactFilepath; // @synthesize hasArtifactFilepath=_hasArtifactFilepath;
-@property(nonatomic) _Bool hasAssetName; // @synthesize hasAssetName=_hasAssetName;
-@property(nonatomic) _Bool hasLanguageModelFileSizeInBytes;
-@property(nonatomic) _Bool hasNumCustomPronunciations;
-@property(nonatomic) _Bool hasNumOutOfVocabulary;
-@property(nonatomic) _Bool hasTrainingDataSizeInTokens;
-@property(nonatomic) _Bool hasTrainingTimeInNs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long languageModelFileSizeInBytes; // @synthesize languageModelFileSizeInBytes=_languageModelFileSizeInBytes;
-@property(nonatomic) unsigned long long numCustomPronunciations; // @synthesize numCustomPronunciations=_numCustomPronunciations;
-@property(nonatomic) unsigned long long numOutOfVocabulary; // @synthesize numOutOfVocabulary=_numOutOfVocabulary;
 @property(nonatomic) unsigned long long trainingDataSizeInTokens; // @synthesize trainingDataSizeInTokens=_trainingDataSizeInTokens;
-@property(nonatomic) unsigned long long trainingTimeInNs; // @synthesize trainingTimeInNs=_trainingTimeInNs;
 
 @end
 

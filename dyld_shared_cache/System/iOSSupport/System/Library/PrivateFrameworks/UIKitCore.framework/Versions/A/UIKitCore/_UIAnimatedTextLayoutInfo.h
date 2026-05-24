@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextRange, _UIAnimatedTextSpacer;
+@class _UIAnimatedTextSpacer;
 
 @interface _UIAnimatedTextLayoutInfo
 {
     _UIAnimatedTextSpacer *_animatedTextSpacer;
-    NSTextRange *_animatingTextRange;
-    double _heightAccumulation;
 }
 
-- (void);
-- (id);
-- (double);
+- (void)initWithFirstName:(double)arg1 lastName:avatar:pronouns:wallpaper: /* Error: Ran out of types for this method. */;
+- (id)4;
+- (double)pD;
 - (id);
 - (id);
 - (void)àÜ^;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIAnimatedTextSpacer *animatedTextSpacer; // @synthesize animatedTextSpacer=_animatedTextSpacer;
-@property(readonly, nonatomic) NSTextRange *animatingTextRange; // @synthesize animatingTextRange=_animatingTextRange;
-@property(nonatomic) double heightAccumulation; // @synthesize heightAccumulation=_heightAccumulation;
 
 @end
 

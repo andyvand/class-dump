@@ -9,12 +9,11 @@
 @interface CNReputationResult
 {
     CNReputationHandle *_handle;
-    long long _score;
 }
 
-+ (id);
-- (id);
-- (id);
++ (id);
+- (id);
+- (id)NoFallbackVoiceService;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy) CNReputationHandle *handle; // @synthesize handle=_handle;
-@property(readonly) long long score; // @synthesize score=_score;
 
 @end
 

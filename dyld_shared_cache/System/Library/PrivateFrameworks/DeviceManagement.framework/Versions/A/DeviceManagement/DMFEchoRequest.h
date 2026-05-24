@@ -11,25 +11,23 @@
 @interface DMFEchoRequest : DMFTaskRequest
 {
     NSString *_echo;
-    NSString *_resultStatus;
 }
 
 + (Class);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)(;
 + (id);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)7)-[headerView]-(7)-[scrollView]|;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *echo; // @synthesize echo=_echo;
-@property(copy, nonatomic) NSString *resultStatus; // @synthesize resultStatus=_resultStatus;
 
 @end
 

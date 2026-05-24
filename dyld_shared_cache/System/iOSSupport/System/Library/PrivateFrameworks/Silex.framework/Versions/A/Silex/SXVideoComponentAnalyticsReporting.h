@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXVideoComponent;
-@protocol SXAnalyticsReporting;
+@class SXVideoComponent;
 
 @interface SXVideoComponentAnalyticsReporting
 {
     SXVideoComponent *_component;
-    id <SXAnalyticsReporting> _analyticsReporting;
 }
 
 - (id);
@@ -21,15 +19,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <SXAnalyticsReporting> analyticsReporting; // @synthesize analyticsReporting=_analyticsReporting;
 @property(readonly, nonatomic) SXVideoComponent *component; // @synthesize component=_component;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

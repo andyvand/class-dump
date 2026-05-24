@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _GEOTileLoaderObserverWrapper
 {
     id <GEOTileLoaderObserver> _observer;
-    _Bool _implementsLoadedKeyWithSize;
-    _Bool _implementsLoadedKeyWithoutSize;
-    _Bool _implementsFailedToLoadKey;
 }
 
 - (void);

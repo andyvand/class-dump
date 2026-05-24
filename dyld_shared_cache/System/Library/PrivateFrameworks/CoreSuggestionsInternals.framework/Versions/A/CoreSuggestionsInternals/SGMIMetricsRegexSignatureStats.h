@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, SGMIMetricsTrialMetadata;
+@class NSString;
 
 @interface SGMIMetricsRegexSignatureStats
 {
     NSString *_locale;
-    unsigned int _numberOfLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20;
-    unsigned int _numberOfLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20;
-    unsigned int _numberOfPredictedAttachmentOnLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20;
-    unsigned int _numberOfPredictedAttachmentOnLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20;
-    NSMutableArray *_stats;
-    unsigned int _totalNumberOfEmailsProcessedForAttachmentDetectionRoundedToClosestMultipleOf20;
-    unsigned int _totalNumberOfEmailsProcessedForFollowUpDetectionRoundedToClosestMultipleOf20;
-    unsigned int _totalNumberOfEmailsProcessedForRecipientDetectionRoundedToClosestMultipleOf20;
-    SGMIMetricsTrialMetadata *_trialMetadata;
-    struct {
-        unsigned int numberOfLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20:1;
-        unsigned int numberOfLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20:1;
-        unsigned int numberOfPredictedAttachmentOnLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20:1;
-        unsigned int numberOfPredictedAttachmentOnLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20:1;
-        unsigned int totalNumberOfEmailsProcessedForAttachmentDetectionRoundedToClosestMultipleOf20:1;
-        unsigned int totalNumberOfEmailsProcessedForFollowUpDetectionRoundedToClosestMultipleOf20:1;
-        unsigned int totalNumberOfEmailsProcessedForRecipientDetectionRoundedToClosestMultipleOf20:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)startCacheEntryWithObservable:contacts:scope: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned int);
 - (unsigned int);
@@ -61,18 +43,18 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (unsigned long long)p;
+- (id);
+- (void)ASP has completed successfully, marking card provisioning as provisioned;
+- (void)kDataConnectionMMS;
+- (void)atorIcEEEENSK_ISM_EEEEENS_8functionISR_EEEENS2_5mutexEEEEEEEEE;
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)ing to nil in store <(%@)>;
 - (void);
 - (_Bool);
 - (id);
@@ -82,25 +64,7 @@
 - (void)´^`Pc`c´g\jPk;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocale;
-@property(nonatomic) _Bool hasNumberOfLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20;
-@property(nonatomic) _Bool hasNumberOfLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20;
-@property(nonatomic) _Bool hasNumberOfPredictedAttachmentOnLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20;
-@property(nonatomic) _Bool hasNumberOfPredictedAttachmentOnLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20;
-@property(nonatomic) _Bool hasTotalNumberOfEmailsProcessedForAttachmentDetectionRoundedToClosestMultipleOf20;
-@property(nonatomic) _Bool hasTotalNumberOfEmailsProcessedForFollowUpDetectionRoundedToClosestMultipleOf20;
-@property(nonatomic) _Bool hasTotalNumberOfEmailsProcessedForRecipientDetectionRoundedToClosestMultipleOf20;
 @property(readonly, nonatomic) _Bool hasTrialMetadata;
-@property(retain, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(nonatomic) unsigned int numberOfLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20; // @synthesize numberOfLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20=_numberOfLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20;
-@property(nonatomic) unsigned int numberOfLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20; // @synthesize numberOfLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20=_numberOfLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20;
-@property(nonatomic) unsigned int numberOfPredictedAttachmentOnLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20; // @synthesize numberOfPredictedAttachmentOnLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20=_numberOfPredictedAttachmentOnLargeIncomingMailsWithAttachmentRoundedToClosestMultipleOf20;
-@property(nonatomic) unsigned int numberOfPredictedAttachmentOnLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20; // @synthesize numberOfPredictedAttachmentOnLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20=_numberOfPredictedAttachmentOnLargeOutgoingMailsWithAttachmentRoundedToClosestMultipleOf20;
-@property(retain, nonatomic) NSMutableArray *stats; // @synthesize stats=_stats;
-@property(nonatomic) unsigned int totalNumberOfEmailsProcessedForAttachmentDetectionRoundedToClosestMultipleOf20; // @synthesize totalNumberOfEmailsProcessedForAttachmentDetectionRoundedToClosestMultipleOf20=_totalNumberOfEmailsProcessedForAttachmentDetectionRoundedToClosestMultipleOf20;
-@property(nonatomic) unsigned int totalNumberOfEmailsProcessedForFollowUpDetectionRoundedToClosestMultipleOf20; // @synthesize totalNumberOfEmailsProcessedForFollowUpDetectionRoundedToClosestMultipleOf20=_totalNumberOfEmailsProcessedForFollowUpDetectionRoundedToClosestMultipleOf20;
-@property(nonatomic) unsigned int totalNumberOfEmailsProcessedForRecipientDetectionRoundedToClosestMultipleOf20; // @synthesize totalNumberOfEmailsProcessedForRecipientDetectionRoundedToClosestMultipleOf20=_totalNumberOfEmailsProcessedForRecipientDetectionRoundedToClosestMultipleOf20;
-@property(retain, nonatomic) SGMIMetricsTrialMetadata *trialMetadata; // @synthesize trialMetadata=_trialMetadata;
 
 @end
 

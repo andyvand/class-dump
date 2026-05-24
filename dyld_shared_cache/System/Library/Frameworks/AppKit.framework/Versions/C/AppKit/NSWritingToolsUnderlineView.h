@@ -6,36 +6,30 @@
 
 #import <AppKit/NSView.h>
 
-@class NSBezierPath, NSUUID;
+@class NSBezierPath;
 
 @interface NSWritingToolsUnderlineView : NSView
 {
     NSBezierPath *_maskBezierPath;
-    NSView *_gradientSuperview;
-    NSUUID *_suggestionUUID;
-    double _fadeBeginTime;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)d FDR Trust Object Revoked, expected tag %c%c%c%c found tag %c%c%c%c;
+- (void)FirmwareVersion;
+- (void)mesaType;
+- (void)0jjK6IVSQzA8doQeSwmujA;
 - (id);
 - (id);
 - (double);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)outboundConnectionCompleteWithError:(id)arg1;
+- (void)_discretionaryOverride;
 - (_Bool);
 - (id);
-- (id)ontextMenuRequestorChain:(struct CGRect)arg1;
+- (id)textInputContextForExplicitAutoFillContextMenuRequestorChain:(struct CGRect)arg1;
 - (void)%@;
 
 // Remaining properties
-@property double fadeBeginTime; // @synthesize fadeBeginTime=_fadeBeginTime;
-@property __weak NSView *gradientSuperview;
 @property(retain) NSBezierPath *maskBezierPath; // @dynamic maskBezierPath;
-@property(copy) NSUUID *suggestionUUID; // @synthesize suggestionUUID=_suggestionUUID;
 
 @end
 

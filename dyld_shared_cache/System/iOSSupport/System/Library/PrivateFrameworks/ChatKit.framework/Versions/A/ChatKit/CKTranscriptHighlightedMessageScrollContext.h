@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class NSString;
 
 @interface CKTranscriptHighlightedMessageScrollContext
 {
     _Bool _allowOverScroll;
-    NSString *_messageGUID;
-    long long _messagePartIndex;
-    UIView *_viewToAlignWith;
-    unsigned long long _scrollPosition;
 }
 
-- (id);
-- (id);
-- (_Bool);
+- (id)p;
+- (id)setPassphrase:hint:] /* Error: Ran out of types for this method. */;
+- (_Bool)diaFilenameExtension:%@ /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (unsigned long long);
-- (void)ive;
+- (void)additive;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowOverScroll; // @synthesize allowOverScroll=_allowOverScroll;
 @property(readonly, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(readonly, nonatomic) long long messagePartIndex; // @synthesize messagePartIndex=_messagePartIndex;
-@property(readonly, nonatomic) unsigned long long scrollPosition; // @synthesize scrollPosition=_scrollPosition;
-@property(readonly, nonatomic) __weak UIView *viewToAlignWith; // @synthesize viewToAlignWith=_viewToAlignWith;
 
 @end
 

@@ -6,19 +6,18 @@
 
 #import <CoreML/MLModelEngine.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MLPipeline : MLModelEngine
 {
     NSArray *_models;
-    NSArray *_modelNames;
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)@Ob;
++ (id).;
 - (id);
 - (void);
 - (void);
@@ -27,27 +26,19 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)h6;
 - (void);
 - (void);
+- (id)AA9;
 - (id);
 - (id);
-- (id);
-- (_Bool)Writer;
+- (_Bool)_MLInternalNLPModelWriter;
 - (unsigned long long);
 - (void)init;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *modelNames; // @synthesize modelNames=_modelNames;
 @property(retain) NSArray *models; // @synthesize models=_models;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSString, NSUUID;
+@class NSString;
 
 @interface SPBeaconTaskInformation
 {
     NSString *_name;
-    NSDate *_lastUpdated;
-    NSError *_error;
-    long long _state;
-    NSUUID *_commandIdentifier;
 }
 
 + (id);
@@ -30,18 +26,14 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)MKMapSnapshotOptions;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *commandIdentifier; // @synthesize commandIdentifier=_commandIdentifier;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

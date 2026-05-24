@@ -19,18 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)5;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *XMLString;
-@property(readonly) NSString *closingTagString;
-@property(readonly) NSString *contentString;
 @property(readonly) NSString *name; // @dynamic name;
-@property(readonly) NSString *openingTagString;
-@property(retain) NSString *stringValue; // @dynamic stringValue;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VSKeychainItemKind
 {
     NSString *_itemClassName;
-    struct __CFString *_secItemClass;
-    NSArray *_properties;
 }
 
 - (void);
@@ -28,11 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *attributesByName;
-@property(readonly, copy, nonatomic) NSDictionary *attributesBySecItemAttributeKey;
 @property(copy, nonatomic) NSString *itemClassName; // @synthesize itemClassName=_itemClassName;
-@property(copy, nonatomic) NSArray *properties; // @synthesize properties=_properties;
-@property(nonatomic) struct __CFString *secItemClass; // @synthesize secItemClass=_secItemClass;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol SymptomsFileCleanerDelegate
+
+@optional
+- (void), bridgeOSExtractedSizeBytes:%{public}@ - %{public}@ /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,50 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FTABSubfile, NSArray, NSData, NSFileHandle, NSMutableArray, NSMutableData, NSString, NSURL;
+@class NSData, NSString;
 
 @interface FTABFile
 {
     NSData *_fileData;
-    NSMutableArray *_subFileArray;
-    NSFileHandle *_fileHandleWriteDestination;
-    NSMutableData *_dataWriteDestination;
-    unsigned int _generation;
-    unsigned int _valid;
-    const char *_filePointer;
-    unsigned long long _fileLength;
-    NSURL *_url;
-    NSData *_bootNonce;
-    NSData *_magic;
-    FTABSubfile *_manifest;
 }
 
-+ (id);
-- (_Bool);
++ (id)file after receiving error during download. Error:(id)arg1 %@;
+- (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (const char *);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)ile to final destination (%s -> %s).;
+- (const char *)s]:Decompressing temp file to final destination (%s -> %s). /* Error: Ran out of types for this method. */;
+- (unsigned long long)ss;
+- (id)led, but we don't have an observer. Bailing.;
+- (_Bool)on event for entities:(id)arg1 %s;
+- (void)ification.;
 - (id);
+- (id)secutive timeouts;
+- (void)s;
+- (_Bool);
+- (_Bool)figuring IMNetworkMonitor for reachability to %s;
+- (id)s]:(id)arg1 Suspending because we hit the maximum concurrent downloads (%ld). The download will resume when the next task finishes.;
 - (id);
 - (void);
-- (id);
+- (id)iceCommunicationChannel;
 - (id);
 - (id);
 - (_Bool);
@@ -57,19 +46,10 @@
 - (id);
 - (unsigned int);
 - (void);
-- (id)cessory;
+- (id)UARPAccessory;
 
 // Remaining properties
-@property(readonly) NSData *bootNonce; // @synthesize bootNonce=_bootNonce;
 @property(readonly) NSString *bverString;
-@property(readonly) unsigned long long fileLength; // @synthesize fileLength=_fileLength;
-@property(readonly) const char *filePointer; // @synthesize filePointer=_filePointer;
-@property(readonly) unsigned int generation; // @synthesize generation=_generation;
-@property(readonly) NSData *magic; // @synthesize magic=_magic;
-@property(readonly) FTABSubfile *manifest; // @synthesize manifest=_manifest;
-@property(readonly) NSArray *subfiles;
-@property(readonly) NSURL *url; // @synthesize url=_url;
-@property(readonly) unsigned int valid; // @synthesize valid=_valid;
 
 @end
 

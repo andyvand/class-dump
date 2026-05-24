@@ -11,11 +11,6 @@
 @interface BMSiriUIEvent : BMEventBase
 {
     _Bool _starting;
-    NSString *_sessionID;
-    NSString *_UUID;
-    NSString *_viewMode;
-    NSString *_dismissalReason;
-    double _absoluteTimestamp;
 }
 
 + (id);
@@ -24,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)K;
 - (id);
 - (id);
 - (id);
@@ -33,28 +28,15 @@
 - (double);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
-- (void)et_packed_size;
-- (id)uery__alter_type_stmt__pack_to_buffer;
+- (void)pg_query__multi_assign_ref__get_packed_size;
+- (id)pg_query__alter_type_stmt__pack_to_buffer;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *dismissalReason; // @synthesize dismissalReason=_dismissalReason;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(nonatomic, getter=isStarting) _Bool starting; // @synthesize starting=_starting;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *viewMode; // @synthesize viewMode=_viewMode;
 
 @end
 

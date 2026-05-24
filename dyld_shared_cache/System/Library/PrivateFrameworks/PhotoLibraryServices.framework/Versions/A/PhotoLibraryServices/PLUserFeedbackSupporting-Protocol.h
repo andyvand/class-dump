@@ -5,5 +5,6 @@
 //
 
 @protocol PLUserFeedbackSupporting
+- (id);
 @end
 

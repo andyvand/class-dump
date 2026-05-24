@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)sageListItemLeadingConfiguration",&,N,V_leadingConfiguration;
 + (id);
 - (_Bool);
 

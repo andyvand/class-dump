@@ -4,52 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTDataConnectionAvailabilityStatus, CTDataConnectionStatus, CTXPCServiceSubscriptionContext, NSNumber;
+@class NSNumber;
 
 @interface CTTetheringStatus
 {
     NSNumber *_carrierEnabled;
-    NSNumber *_userAuthenticated;
-    NSNumber *_asserted;
-    NSNumber *_activationFailure;
-    NSNumber *_misPdpMaxHosts;
-    CTDataConnectionAvailabilityStatus *_connectionAvailabilityStatus;
-    CTDataConnectionStatus *_connectionStatus;
-    CTXPCServiceSubscriptionContext *_context;
 }
 
-+ (_Bool);
++ (_Bool)thout setting %@ to YES;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)attribute;
+- (id);
+- (void)_patternDuration;
+- (id);
+- (void)prepareUnlockWithSmartCard:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (void);
+- (void)hotMapCacheAttribute(void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void),N,V_durationBeforeWhenSeeking;
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *activationFailure; // @synthesize activationFailure=_activationFailure;
-@property(retain, nonatomic) NSNumber *asserted; // @synthesize asserted=_asserted;
 @property(retain, nonatomic) NSNumber *carrierEnabled; // @synthesize carrierEnabled=_carrierEnabled;
-@property(retain, nonatomic) CTDataConnectionAvailabilityStatus *connectionAvailabilityStatus; // @synthesize connectionAvailabilityStatus=_connectionAvailabilityStatus;
-@property(retain, nonatomic) CTDataConnectionStatus *connectionStatus; // @synthesize connectionStatus=_connectionStatus;
-@property(retain, nonatomic) CTXPCServiceSubscriptionContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) NSNumber *misPdpMaxHosts; // @synthesize misPdpMaxHosts=_misPdpMaxHosts;
-@property(retain, nonatomic) NSNumber *userAuthenticated; // @synthesize userAuthenticated=_userAuthenticated;
 
 @end
 

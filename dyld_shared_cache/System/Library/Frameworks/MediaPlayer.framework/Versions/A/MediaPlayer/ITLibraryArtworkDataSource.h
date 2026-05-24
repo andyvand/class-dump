@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ITMediaLibrary, NSString;
+@class ITMediaLibrary;
 
 __attribute__((visibility("hidden")))
 @interface ITLibraryArtworkDataSource
@@ -17,26 +17,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)0;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)B;
 - (_Bool);
 - (void);
 - (id);
 - (void)toragePolicy;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkDataSourceIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) ITMediaLibrary *library; // @synthesize library=_library;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface PKProtobufPaymentStatus
 {
     NSString *_remotePaymentRequestIdentifier;
-    unsigned int _status;
-    CDStruct_47fe53f2 _has;
 }
 
 - (void);
@@ -20,22 +18,19 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (_Bool)Count;
+- (_Bool)_processedAttemptCount;
 - (void)son %lu for pass %@;
-- (void)US_CONCATENATED;
+- (void)RECURRING_PAYMENT_STATUS_CONCATENATED;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasRemotePaymentRequestIdentifier;
 @property(nonatomic) _Bool hasStatus;
-@property(retain, nonatomic) NSString *remotePaymentRequestIdentifier; // @synthesize remotePaymentRequestIdentifier=_remotePaymentRequestIdentifier;
-@property(nonatomic) unsigned int status; // @synthesize status=_status;
 
 @end
 

@@ -8,14 +8,10 @@
 - (double);
 - (struct CGRect);
 - (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint mf_maxContentOffset;
-@property(readonly, nonatomic) struct CGPoint mf_minContentOffset;
-@property(readonly, nonatomic) struct CGRect mf_visibleBounds;
 @property(readonly, nonatomic) struct CGRect mf_visibleFrame;
-@property(readonly, nonatomic) double mf_visibleHeight;
 @end
 

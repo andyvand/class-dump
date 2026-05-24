@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECAngleBracketIDHash, NSDate;
+@class ECAngleBracketIDHash;
 
 @interface EDReadLaterCloudStorageChangeElement
 {
     ECAngleBracketIDHash *_messageID;
-    NSDate *_readLaterDate;
-    NSDate *_displayDate;
 }
 
 - (id);
@@ -20,9 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *displayDate; // @synthesize displayDate=_displayDate;
 @property(readonly, nonatomic) ECAngleBracketIDHash *messageID; // @synthesize messageID=_messageID;
-@property(readonly, nonatomic) NSDate *readLaterDate; // @synthesize readLaterDate=_readLaterDate;
 
 @end
 

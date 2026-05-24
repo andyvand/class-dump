@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary, NSMutableSet, NSString;
-@protocol TMMountableBackupProtocol;
+@class NSDate;
 
 @interface TMTargetCache
 {
     _Bool _addBackupsOnPrime;
-    _Bool _isLiveSystemInfoPrimed;
-    struct os_unfair_lock_s _entriesLock;
-    struct os_unfair_lock_s _liveSystemInfoLock;
-    NSDate *_currentlySelectedDate;
-    NSMutableSet *_spotlightQueryRootPaths;
-    NSMutableDictionary *_backupEntries;
-    NSString *_currentDataVolumeUUID;
-    NSString *_currentDataVolumeMountPoint;
-    NSDictionary *_uuidsToMostRecentVolumeNames;
 }
 
-+ (id);
++ (id){;
 + (id);
 + (struct TMPathExtraction);
 + (id);
 + (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)!;
+- (void);
+- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
@@ -62,30 +52,20 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)#;
 - (struct TMTargetExtraction);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (void);
 
 // Remaining properties
-@property _Bool addBackupsOnPrime; // @synthesize addBackupsOnPrime=_addBackupsOnPrime;
-@property(readonly) NSMutableDictionary *backupEntries; // @synthesize backupEntries=_backupEntries;
-@property(copy) NSString *currentDataVolumeMountPoint; // @synthesize currentDataVolumeMountPoint=_currentDataVolumeMountPoint;
-@property(copy) NSString *currentDataVolumeUUID; // @synthesize currentDataVolumeUUID=_currentDataVolumeUUID;
-@property(readonly) id <TMMountableBackupProtocol> currentlySelected;
 @property(copy) NSDate *currentlySelectedDate; // @synthesize currentlySelectedDate=_currentlySelectedDate;
-@property(readonly) struct os_unfair_lock_s entriesLock; // @synthesize entriesLock=_entriesLock;
-@property _Bool isLiveSystemInfoPrimed; // @synthesize isLiveSystemInfoPrimed=_isLiveSystemInfoPrimed;
-@property(readonly) struct os_unfair_lock_s liveSystemInfoLock; // @synthesize liveSystemInfoLock=_liveSystemInfoLock;
-@property(readonly) NSMutableSet *spotlightQueryRootPaths; // @synthesize spotlightQueryRootPaths=_spotlightQueryRootPaths;
-@property(copy) NSDictionary *uuidsToMostRecentVolumeNames; // @synthesize uuidsToMostRecentVolumeNames=_uuidsToMostRecentVolumeNames;
 
 @end
 

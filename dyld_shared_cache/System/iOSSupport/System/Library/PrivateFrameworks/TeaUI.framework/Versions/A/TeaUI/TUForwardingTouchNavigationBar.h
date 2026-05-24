@@ -10,7 +10,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)setSubscribeUnsubscribeLocation:(struct CGRect)arg1;
 
 @end
 

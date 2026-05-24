@@ -5,19 +5,15 @@
 //
 
 @class CALayerHost, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface BU_DPRemoteDesktopPicture
 {
     NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned int _displayID;
-    unsigned int _context;
-    CALayerHost *desktopPictureLayer;
 }
 
-+ (void);
++ (void);
 - (void);
 - (_Bool);
 - (void);

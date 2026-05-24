@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfiguration, NEConfigurationManager, NEFilterProviderConfiguration, NEProfileIngestionPayloadInfo, NEVPNConnection, NSObject, NSString, NSUUID;
-@protocol NEFilterManagerDelegate;
+@class NEConfiguration;
 
 @interface NEFilterManager
 {
     _Bool _hasLoaded;
-    NEConfigurationManager *_configurationManager;
-    NEVPNConnection *_connection;
-    NSObject *_statusObserver;
-    NEConfiguration *_configuration;
-    id <NEFilterManagerDelegate> _delegate;
 }
 
 + (void);
@@ -23,46 +17,35 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool);
 - (_Bool);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)setTextOperations: /* Error: Ran out of types for this method. */;
+- (id)_collaborationCloudSharingResult;
+- (id).305-0800;
+- (id);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)s: /* Error: Ran out of types for this method. */;
-- (id)n;
+- (id)_initWithAccountUniqueID:fromID:loginID:serviceName: /* Error: Ran out of types for this method. */;
+- (void)setCustomIKESAInitVendorPayloads: /* Error: Ran out of types for this method. */;
+- (id)sourceAppAuditToken;
 - (long long)ôÿDs/Ìu;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appBundleIdentifier;
 @property(retain) NEConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) NEProfileIngestionPayloadInfo *configurationPayloadInfo;
-@property __weak id <NEFilterManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool disableEncryptedDNSSettings;
-@property(getter=isEnabled) _Bool enabled;
-@property long long grade;
-@property(readonly, nonatomic) NSUUID *identifier;
-@property(readonly, nonatomic, getter=isFromMDM) _Bool isFromMDM;
-@property(readonly, nonatomic, getter=isFromProfile) _Bool isFromProfile;
-@property(copy) NSString *localizedDescription;
-@property(retain) NEFilterProviderConfiguration *providerConfiguration;
 
 @end
 

@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageFlags, NSString;
+@class NSString;
 
 @protocol ECBaseServerMessageBuilderProtocol
+- (NSString *)rollerStatusFailed = %{public}s, isPictureInPictureAvailable = %{public}s;
+- (void)l unexpected! message will be dropped);
+- (NSString *)t key %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *messagePersistentID;
 @property(retain, nonatomic) NSString *persistentID;
-@property(retain, nonatomic) ECMessageFlags *serverFlags;
 @end
 

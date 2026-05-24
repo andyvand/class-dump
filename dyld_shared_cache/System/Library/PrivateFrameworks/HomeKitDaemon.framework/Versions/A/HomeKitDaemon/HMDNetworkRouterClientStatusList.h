@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterClientStatusList
@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_clientStatuses;
 }
 
-+ (id);
-- (void);
++ (id)momentNodeAsCollectionByMomentUUIDForArrayOfMomentUUIDs:(id)arg1 inGraph:(id *)arg2;
+- (void)rks/SafariFoundation.framework/Versions/A/SafariFoundation;
 - (id);
 - (id);
 - (id);
@@ -21,18 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)sCloudPhotosEnabledOnAccount;
+- (id)isCloudPhotosEnabledOnAccount;
 - (void)lletinNotificationRegistration"8^B16;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *clientStatuses; // @synthesize clientStatuses=_clientStatuses;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

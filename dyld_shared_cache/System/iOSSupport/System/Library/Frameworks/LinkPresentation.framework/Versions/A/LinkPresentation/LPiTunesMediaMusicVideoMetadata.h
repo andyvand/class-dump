@@ -6,34 +6,29 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPiTunesMediaMusicVideoMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
-+ (id);
++ (id)startEditingPayloadBypassingValidation:forPlugin:completion: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
+- (id)transcriptUpdateAnimated;
+- (void)h:(id)arg1 withOriginY: /* Error: Ran out of types for this method. */;
+- (id)transcriptCollectionViewController:(id)arg1 didTapPhotoStackButtonForPendingMomentShareChatItem: /* Error: Ran out of types for this method. */;
+- (id)ence:(id)arg1;
+- (id)transcriptCollectionViewController:(id)arg1 didTapPhotoStackAdditionalItemsForChatItem: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 didTapIntroductionsButton:ofType: /* Error: Ran out of types for this method. */;
+- (_Bool)throwAnimationUsesAnimatedReloadForMessages:(id)arg1;
+- (void)tableCellDefaultSelectionTintColor;
+- (id)supportsInlineAdaptiveImageGlyphs;
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -47,19 +42,7 @@
 - (id)´;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

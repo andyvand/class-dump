@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface deoc_modelOutput
 {
     long long _next_drain_is_significant;
-    NSDictionary *_classProbability;
 }
 
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
@@ -23,8 +20,6 @@ __attribute__((visibility("hidden")))
 - (id)levantDrainPredictionResult",&,N,V_prevStageResult;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *classProbability; // @synthesize classProbability=_classProbability;
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) long long next_drain_is_significant; // @synthesize next_drain_is_significant=_next_drain_is_significant;
 
 @end

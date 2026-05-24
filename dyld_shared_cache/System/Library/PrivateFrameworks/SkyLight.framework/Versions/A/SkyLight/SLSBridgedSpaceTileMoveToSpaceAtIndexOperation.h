@@ -9,13 +9,11 @@
 @interface SLSBridgedSpaceTileMoveToSpaceAtIndexOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned long long _tileID;
-    unsigned long long _parentID;
-    unsigned long long _index;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)ty;
+- (id)e indexes can only be created on attributes).;
 - (unsigned long long);
 - (id);
 - (void);
@@ -23,8 +21,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long index; // @synthesize index=_index;
-@property(readonly) unsigned long long parentID; // @synthesize parentID=_parentID;
 @property(readonly) unsigned long long tileID; // @synthesize tileID=_tileID;
 
 @end

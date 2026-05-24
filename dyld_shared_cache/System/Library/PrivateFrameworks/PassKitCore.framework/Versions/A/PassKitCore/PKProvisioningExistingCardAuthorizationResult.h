@@ -9,24 +9,20 @@
 @interface PKProvisioningExistingCardAuthorizationResult
 {
     NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    NSString *_token;
 }
 
 + (_Bool);
+- (id)	?׈R;
 - (id);
 - (id);
 - (id);
+- (void)_enteredKnownNetworkGeotagLocationTimeStamp;
 - (id);
-- (void);
-- (id);
-- (id)sedSelectedRange:(id)arg1 originalString:originalSelectedRange:errorDescription: /* Error: Ran out of types for this method. */;
-- (void)ccountUserInvitationSelectMember;
+- (id)isPartialStringValid:(id)arg1 proposedSelectedRange:originalString:originalSelectedRange:errorDescription: /* Error: Ran out of types for this method. */;
+- (void)accountUserInvitationSelectMember;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
 @property(readonly, copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(readonly, copy, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end
 

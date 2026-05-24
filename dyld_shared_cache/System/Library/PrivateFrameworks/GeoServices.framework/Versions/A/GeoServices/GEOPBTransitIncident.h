@@ -4,59 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBTransitArtwork, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPBTransitIncident
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_affectedEntitys;
-    unsigned long long _incidentMuid;
-    GEOPBTransitArtwork *_incidentTypeArtwork;
-    NSString *_longDescriptionString;
-    NSString *_messageForAllBlocking;
-    NSString *_messageForIncidentType;
-    NSString *_messageString;
-    NSString *_shortDescriptionString;
-    NSString *_titleString;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _creationDatetime;
-    unsigned int _endDatetime;
-    int _iconEnum;
-    unsigned int _incidentIndex;
-    unsigned int _startDatetime;
-    unsigned int _updatedDatetime;
-    _Bool _blocking;
-    struct {
-        unsigned int has_incidentMuid:1;
-        unsigned int has_creationDatetime:1;
-        unsigned int has_endDatetime:1;
-        unsigned int has_iconEnum:1;
-        unsigned int has_incidentIndex:1;
-        unsigned int has_startDatetime:1;
-        unsigned int has_updatedDatetime:1;
-        unsigned int has_blocking:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_affectedEntitys:1;
-        unsigned int read_incidentTypeArtwork:1;
-        unsigned int read_longDescriptionString:1;
-        unsigned int read_messageForAllBlocking:1;
-        unsigned int read_messageForIncidentType:1;
-        unsigned int read_messageString:1;
-        unsigned int read_shortDescriptionString:1;
-        unsigned int read_titleString:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)(;
+- (_Bool)@;
 - (_Bool);
 - (id);
 - (id)EOTileKey=b7b1(?={_GEOStandardTileKey=b40b6b26b26b14b4b4}{_GEOGloriaQuadIDTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16(?=I{?=b8(?={?=b14b4b4b2}{?=b8b16})})24B28;

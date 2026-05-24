@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSString;
 
 @interface PXStoryHUDViewConfiguration
 {
     NSString *_text;
-    NSString *_title;
-    double _fontSize;
-    NSColor *_tintColor;
-    double _borderWidth;
-    struct CGPoint _textRelativePosition;
-    struct CGPoint _textInsets;
 }
 
 - (struct CGPoint);
@@ -28,35 +22,18 @@
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id):(struct _NSZone *)arg1;
-- (id)orceReloadAfterRefresh: /* Error: Ran out of types for this method. */;
-- (double)unction;
+- (id)setLayoutProvider:(struct _NSZone *)arg1;
+- (id)setForceReloadAfterRefresh: /* Error: Ran out of types for this method. */;
+- (double)conjunction;
 - (void)ÎØÎ;
 - (id)al memories feed update;
-- (void)erOfPhotosSelected;
+- (void)PXNumberOfPhotosSelected;
 - (double)d;
 - (void)=j;
 - (void)ÌÔÿ²KNV>;
 
 // Remaining properties
-@property(nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) struct CGPoint textInsets; // @synthesize textInsets=_textInsets;
-@property(nonatomic) struct CGPoint textRelativePosition; // @synthesize textRelativePosition=_textRelativePosition;
-@property(retain, nonatomic) NSColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) long long viewFloatingAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 
 @end
 

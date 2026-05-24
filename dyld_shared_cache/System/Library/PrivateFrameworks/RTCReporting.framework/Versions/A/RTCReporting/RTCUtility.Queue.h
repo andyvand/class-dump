@@ -7,8 +7,6 @@
 @interface RTCUtility.Queue
 {
     id $defaultActor;
-    id _streamContinuation;
-    id _task;
 }
 
 @end

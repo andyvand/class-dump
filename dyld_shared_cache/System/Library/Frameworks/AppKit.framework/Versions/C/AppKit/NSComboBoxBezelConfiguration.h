@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface NSComboBoxBezelConfiguration : NSTextFieldBezelConfiguration
 {
     _Bool isDisclosureButtonBordered;
-    _Bool isDisclosureButtonPressed;
 }
 
-+ (id);
++ (id)sing configuration %@;
 - (void);
 - (void);
+- (_Bool)bytes;
+- (_Bool)bundleRecordForCurrentProcess;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id)ler:(struct _NSZone *)arg1 menu: /* Error: Ran out of types for this method. */;
+- (id)_initWithStyle:(struct _NSZone *)arg1 title:allowsFullSwipe:handler:menu: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool isDisclosureButtonBordered; // @synthesize isDisclosureButtonBordered;
-@property(nonatomic) _Bool isDisclosureButtonPressed; // @synthesize isDisclosureButtonPressed;
 
 @end
 

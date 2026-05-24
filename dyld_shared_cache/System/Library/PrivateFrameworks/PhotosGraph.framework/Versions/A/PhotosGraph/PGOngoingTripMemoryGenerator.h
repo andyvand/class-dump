@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)initWithString:(id)arg1 tokenizerUnit:locale: /* Error: Ran out of types for this method. */;
 + (unsigned long long);
 + (unsigned long long);
 

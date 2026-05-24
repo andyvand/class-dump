@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLTagger, NSDataDetector, NSMutableDictionary, NSNumberFormatter;
+@class NLTagger, NSDataDetector;
 
 @interface AXMSemanticTextFactory
 {
     NSDataDetector *_dataDetector;
-    NLTagger *_tagger;
-    NSMutableDictionary *_cachedLexicons;
-    NSNumberFormatter *_numberFormatter;
-    NSMutableDictionary *_compiledPatterns;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)\|;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (struct _LXLexicon *);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (struct _LXLexicon *)|;
+- (_Bool);
+- (void);
+- (void)z;
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void)ûÿHëaÍ[;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *cachedLexicons; // @synthesize cachedLexicons=_cachedLexicons;
-@property(retain, nonatomic) NSMutableDictionary *compiledPatterns; // @synthesize compiledPatterns=_compiledPatterns;
-@property(retain, nonatomic) NSDataDetector *dataDetector; // @synthesize dataDetector=_dataDetector;
-@property(retain, nonatomic) NSNumberFormatter *numberFormatter; // @synthesize numberFormatter=_numberFormatter;
 @property(retain, nonatomic) NLTagger *tagger; // @synthesize tagger=_tagger;
 
 @end

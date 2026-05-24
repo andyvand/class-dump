@@ -9,7 +9,6 @@
 @interface PRSDictionaryAsyncCard
 {
     NSString *_dictionaryId;
-    NSString *_query;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly) NSString *dictionaryId; // @synthesize dictionaryId=_dictionaryId;
-@property(readonly) NSString *query; // @synthesize query=_query;
 
 @end
 

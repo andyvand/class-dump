@@ -4,35 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSSet, NSString, NSURL, geo_isolater;
-
 __attribute__((visibility("hidden")))
 @interface _GEORegionStoreSharedCache
 {
     _Bool _initDone;
-    unsigned long long _area;
-    unsigned int _resourceVersion;
-    NSURL *_dbURL;
-    NSURL *_ccURL;
-    geo_isolater *_darwinListenersIsolater;
-    NSMutableDictionary *_darwinListeners;
-    NSSet *_supportedLanguageCodes;
-    NSCache *_regionCache;
 }
 
-- (void);
+- (void)preferredPhotoSortDescriptors;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

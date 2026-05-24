@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccountRepository, NSString;
+@class ABAccountRepository;
 
 @interface ABAccountDataDeletionOperation
 {
     ABAccountRepository *_accountRepository;
-    NSString *_accountIdentifier;
 }
 
 + (id);

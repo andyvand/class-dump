@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFRequestHandlingContext, NSString;
+@class AFRequestHandlingContext;
 
 @interface _AFRequestHandlingContextMutation
 {
     AFRequestHandlingContext *_base;
-    NSString *_requestID;
-    NSString *_inputDeviceID;
-    NSString *_inputAssistantID;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasRequestID:1;
-        unsigned int hasInputDeviceID:1;
-        unsigned int hasInputAssistantID:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -27,17 +18,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)ByReplacingOccurrencesOfString:(id)arg1 withString: /* Error: Ran out of types for this method. */;
-- (void)forBundleIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (id)stringByReplacingOccurrencesOfString:(id)arg1 withString: /* Error: Ran out of types for this method. */;
+- (void)_performCommandDictionary:forBundleIdentifier:reply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

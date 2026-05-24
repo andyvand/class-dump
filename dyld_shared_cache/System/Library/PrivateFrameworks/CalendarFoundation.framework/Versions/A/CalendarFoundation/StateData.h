@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSURL;
-
 @interface StateData
 {
     _Bool _joinMethodIsBroadcast;
-    unsigned long long _state;
-    NSString *_blockTitle;
-    NSString *_conferenceTitle;
-    NSString *_joinMethodTitle;
-    NSURL *_joinMethodURL;
-    NSMutableArray *_joinMethods;
-    NSMutableArray *_conferenceDetails;
-    NSMutableArray *_ranges;
-    struct _NSRange _startRange;
-    struct _NSRange _endRange;
 }
 
 - (struct _NSRange);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -45,20 +33,10 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)th from audit token. pid:%u path:%s /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *blockTitle; // @synthesize blockTitle=_blockTitle;
-@property(retain, nonatomic) NSMutableArray *conferenceDetails; // @synthesize conferenceDetails=_conferenceDetails;
-@property(retain, nonatomic) NSString *conferenceTitle; // @synthesize conferenceTitle=_conferenceTitle;
-@property(nonatomic) struct _NSRange endRange; // @synthesize endRange=_endRange;
-@property(nonatomic) _Bool joinMethodIsBroadcast; // @synthesize joinMethodIsBroadcast=_joinMethodIsBroadcast;
-@property(retain, nonatomic) NSString *joinMethodTitle; // @synthesize joinMethodTitle=_joinMethodTitle;
-@property(retain, nonatomic) NSURL *joinMethodURL; // @synthesize joinMethodURL=_joinMethodURL;
-@property(retain, nonatomic) NSMutableArray *joinMethods; // @synthesize joinMethods=_joinMethods;
-@property(retain, nonatomic) NSMutableArray *ranges; // @synthesize ranges=_ranges;
-@property(nonatomic) struct _NSRange startRange; // @synthesize startRange=_startRange;
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end

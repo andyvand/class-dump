@@ -7,8 +7,6 @@
 @interface CloudKit.CKSyncEngineObjCDelegateAdapter
 {
     id $defaultActor;
-    id weakDelegate;
-    id dataSourceAdapter;
 }
 
 @end

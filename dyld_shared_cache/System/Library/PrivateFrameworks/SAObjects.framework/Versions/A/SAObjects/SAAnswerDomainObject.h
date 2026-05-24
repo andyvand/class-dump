@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSString, SAAnswerDirectAnswer, SAUIAppPunchOut;
+@class SAUIAppPunchOut;
 
 @interface SAAnswerDomainObject : SADomainObject
 {
@@ -25,14 +25,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)l;
 
 // Remaining properties
 @property(retain, nonatomic) SAUIAppPunchOut *appPunchOut;
-@property(copy, nonatomic) NSString *category;
-@property(retain, nonatomic) SAAnswerDirectAnswer *directAnswer;
-@property(copy, nonatomic) NSArray *linkedAnswerGroups;
-@property(copy, nonatomic) NSArray *structuredAnswers;
 
 @end
 

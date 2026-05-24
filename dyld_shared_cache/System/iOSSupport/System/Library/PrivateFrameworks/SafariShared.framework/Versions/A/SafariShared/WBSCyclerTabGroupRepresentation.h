@@ -6,8 +6,6 @@
 
 #import <SafariShared/WBSCyclerItemListRepresentation.h>
 
-@class WBSCyclerBookmarkLeafRepresentation;
-
 @interface WBSCyclerTabGroupRepresentation : WBSCyclerItemListRepresentation
 {
 }
@@ -18,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long numberOfTabs;
-@property(readonly, nonatomic) WBSCyclerBookmarkLeafRepresentation *randomTabDescendant;
 
 @end
 

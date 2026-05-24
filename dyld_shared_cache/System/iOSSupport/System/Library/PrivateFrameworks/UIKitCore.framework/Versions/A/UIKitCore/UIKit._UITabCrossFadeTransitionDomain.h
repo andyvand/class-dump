@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id)t;
-+ (id)rCurrentUpdateWithoutAnimationsReusingDeletedViews;
++ (id)backgroundInsetAmount;
++ (id)_updateSubviewManagerForCurrentUpdateWithoutAnimationsReusingDeletedViews;
 + (Class);
 
 @end

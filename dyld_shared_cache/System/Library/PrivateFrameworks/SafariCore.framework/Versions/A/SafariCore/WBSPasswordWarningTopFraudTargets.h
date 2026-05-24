@@ -9,8 +9,6 @@
 @interface WBSPasswordWarningTopFraudTargets
 {
     NSArray *_highPriorityFraudTargets;
-    NSArray *_fraudTargets;
-    NSArray *_financialFraudTargets;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *financialFraudTargets; // @synthesize financialFraudTargets=_financialFraudTargets;
-@property(readonly, nonatomic) NSArray *fraudTargets; // @synthesize fraudTargets=_fraudTargets;
 @property(readonly, nonatomic) NSArray *highPriorityFraudTargets; // @synthesize highPriorityFraudTargets=_highPriorityFraudTargets;
 
 @end

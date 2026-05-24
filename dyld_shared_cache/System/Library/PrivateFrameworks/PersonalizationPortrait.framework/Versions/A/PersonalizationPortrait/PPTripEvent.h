@@ -17,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)drawTexture:(id)arg1 clippedToStrokeSpaceRect: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id);
+- (id)_backgroundScanInitiatedNotifyToken;
 - (void);
 
 // Remaining properties

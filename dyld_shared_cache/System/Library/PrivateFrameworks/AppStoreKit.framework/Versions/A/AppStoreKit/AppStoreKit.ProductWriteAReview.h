@@ -7,8 +7,6 @@
 @interface AppStoreKit.ProductWriteAReview
 {
     id writeReviewAction;
-    id supportAction;
-    id id;
 }
 
 @end

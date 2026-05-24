@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTAuthorizedLocationZDRLocationsStore : RTStore
 {
 }
@@ -15,9 +13,9 @@
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)absorb;
+- (void)ype,data,publicKey) VALUES(?,?,?,?);;
+- (void)kPCSSetupEnvionment;
 - (double);
 - (double);
 - (void);
@@ -28,13 +26,7 @@
 - (id)Å;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

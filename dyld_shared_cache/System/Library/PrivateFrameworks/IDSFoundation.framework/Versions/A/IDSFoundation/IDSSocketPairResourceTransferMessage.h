@@ -14,7 +14,7 @@
 + (id);
 - (unsigned char);
 - (unsigned long long);
-- (unsigned char);
+- (unsigned char)_sizeHint;
 - (unsigned char);
 
 @end

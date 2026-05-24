@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSWorkspaceNotificationCenter;
-@protocol OS_dispatch_queue;
+@class NSWorkspaceNotificationCenter;
 
 __attribute__((visibility("hidden")))
 @interface _NSWorkspacePowerNotifier
 {
     NSWorkspaceNotificationCenter *_workspaceCenter;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    struct IONotificationPort *_notificationPort;
-    unsigned int _notifierReference;
-    unsigned int _powerConnection;
-    unsigned long long _userActivityLevelNotificationHandle;
-    int _currentPowerState;
-    unsigned long long _lastUserActivityLevel;
-    unsigned int _lastPowerMessage;
-    _Bool _isInvalid;
-    _Bool _shouldInvalidateWhenInvalidatable;
-    unsigned long long _invalidationDisableCount;
 }
 
-- (id);
+- (id)a;
 - (void);
 - (void);
 

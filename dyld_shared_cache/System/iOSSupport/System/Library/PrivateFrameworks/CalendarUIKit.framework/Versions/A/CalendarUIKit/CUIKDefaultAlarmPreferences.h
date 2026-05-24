@@ -12,7 +12,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)redContentSize height of zero. Defaulting to 50pt height.;
 
 @end
 

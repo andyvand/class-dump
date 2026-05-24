@@ -5,6 +5,7 @@
 //
 
 @protocol KTPassiveDataCategory
+- (_Bool)umReady >= 0;
 - (id)when notify(3) delivers a notification.;
 @end
 

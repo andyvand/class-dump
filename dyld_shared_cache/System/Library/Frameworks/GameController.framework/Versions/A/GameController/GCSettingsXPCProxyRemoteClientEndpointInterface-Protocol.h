@@ -5,5 +5,6 @@
 //
 
 @protocol GCSettingsXPCProxyRemoteClientEndpointInterface
+- (void);
 @end
 

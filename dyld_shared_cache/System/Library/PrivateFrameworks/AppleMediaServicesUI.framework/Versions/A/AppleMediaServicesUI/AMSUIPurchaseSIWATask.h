@@ -13,14 +13,13 @@
 }
 
 - (id);
-- (id);
+- (id)eItem"8@"PLChoosableItem"16;
 - (id);
 - (void)ommonLabel";
-- (Class)ntAuthorizationController:didRequestMerchantSessionWithURL:merchantSessionUpdate: /* Error: Ran out of types for this method. */;
+- (Class)paymentAuthorizationController:didRequestMerchantSessionWithURL:merchantSessionUpdate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak id <AMSUIPurchaseDelegate> delegate; // @dynamic delegate;
-@property(readonly) NSWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
 
 @end
 

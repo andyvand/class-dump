@@ -7,10 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBPhotosAlbumImage
+- (NSString *)fragment;
+- (NSData *)setPeopleNames: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *albumIdentifier;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

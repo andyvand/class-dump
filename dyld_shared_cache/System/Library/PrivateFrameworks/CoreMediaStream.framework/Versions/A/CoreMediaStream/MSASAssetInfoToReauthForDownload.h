@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSASAlbum, MSAsset;
+@class MSAsset;
 
 @interface MSASAssetInfoToReauthForDownload
 {
     MSAsset *_asset;
-    MSASAlbum *_album;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)matrixRowMajor;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MSASAlbum *album; // @synthesize album=_album;
 @property(retain, nonatomic) MSAsset *asset; // @synthesize asset=_asset;
 
 @end

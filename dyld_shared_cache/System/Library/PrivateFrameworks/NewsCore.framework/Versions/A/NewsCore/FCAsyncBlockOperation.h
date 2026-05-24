@@ -7,16 +7,14 @@
 @interface FCAsyncBlockOperation
 {
     _Atomic _Bool _executing;
-    _Atomic _Bool _finished;
-    CDUnknownBlockType _block;
 }
 
 + (id);
-+ (id);
++ (id)?;
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)updateSize:forComponentWithIdentifier:sizeIsFinal: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)!ôFùq(	ð1Â0@ù
 × ;
 - (void)figObserver:] /* Error: Ran out of types for this method. */;

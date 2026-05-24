@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _AXFDiscontinuousArrayItem
 {
     id _object;
-    struct _NSRange _range;
 }
 
 - (id);
@@ -16,10 +15,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct _NSRange);
 - (void);
-- (void);
+- (void)olVersion;
 
 // Remaining properties
-@property(retain, nonatomic) id object; // @synthesize object=_object;
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end

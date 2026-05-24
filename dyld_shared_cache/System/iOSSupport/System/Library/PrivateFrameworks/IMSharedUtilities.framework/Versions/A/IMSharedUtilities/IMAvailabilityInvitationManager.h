@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DNDGlobalConfigurationService, NSCache, NSObject, SKStatusPublishingService;
-@protocol OS_dispatch_queue;
+@class SKStatusPublishingService;
 
 @interface IMAvailabilityInvitationManager
 {
     SKStatusPublishingService *_publishingService;
-    NSCache *_dateAttemptedInvitationByHandleCache;
-    NSObject<OS_dispatch_queue> *_dndBackgroundQueue;
-    DNDGlobalConfigurationService *_cachedDNDGlobalConfigurationService;
 }
 
 + (id)Success;
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
@@ -45,9 +41,6 @@
 - (void)415downloadedBytesAC05totalC0AC11averageRatetÂõñ4_pGSg;
 
 // Remaining properties
-@property(retain, nonatomic) DNDGlobalConfigurationService *cachedDNDGlobalConfigurationService; // @synthesize cachedDNDGlobalConfigurationService=_cachedDNDGlobalConfigurationService;
-@property(retain, nonatomic) NSCache *dateAttemptedInvitationByHandleCache; // @synthesize dateAttemptedInvitationByHandleCache=_dateAttemptedInvitationByHandleCache;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dndBackgroundQueue; // @synthesize dndBackgroundQueue=_dndBackgroundQueue;
 @property(retain, nonatomic) SKStatusPublishingService *publishingService; // @synthesize publishingService=_publishingService;
 
 @end

@@ -6,13 +6,11 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSColor, NSString;
+@class NSColor;
 
 @interface AKBorderMaskAnnotation : AKAnnotation
 {
     NSColor *_fillColorHDR;
-    NSColor *_fillColorSDR;
-    struct CGRect _rectangle;
 }
 
 + (id);
@@ -26,31 +24,21 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void);
+- (id)xt.;
+- (void)ompatibility version:(struct CGPoint)arg1 %s;
 - (void);
 - (struct CGRect);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSColor *fillColor;
-@property(retain) NSColor *fillColorHDR; // @synthesize fillColorHDR=_fillColorHDR;
-@property(retain) NSColor *fillColorSDR; // @synthesize fillColorSDR=_fillColorSDR;
-@property(readonly) unsigned long long hash;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property(readonly) Class superclass;
 
 @end
 

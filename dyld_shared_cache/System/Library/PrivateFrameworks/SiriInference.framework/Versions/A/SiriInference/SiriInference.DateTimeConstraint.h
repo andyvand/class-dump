@@ -7,15 +7,6 @@
 @interface SiriInference.DateTimeConstraint
 {
     id grain;
-    id value;
-    id bound;
-    id measure;
-    id source;
-    id convergeToBeginningOfGrain;
-    id setByUser;
-    id transient;
-    id solved;
-    id valuesThatAreSet;
 }
 
 @end

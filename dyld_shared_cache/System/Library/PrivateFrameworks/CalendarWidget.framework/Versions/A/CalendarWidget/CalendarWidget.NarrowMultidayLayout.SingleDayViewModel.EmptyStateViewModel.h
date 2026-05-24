@@ -7,10 +7,6 @@
 @interface CalendarWidget.NarrowMultidayLayout.SingleDayViewModel.EmptyStateViewModel
 {
     id id;
-    id noEventsAtAllToday;
-    id useNoEventsView;
-    id emptyStateLabelHeight;
-    id noEventsHeight;
 }
 
 @end

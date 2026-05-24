@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString;
+@class NSAttributedString;
 
 @interface PHSearchQuerySuggestion
 {
     NSAttributedString *_queryText;
-    unsigned long long _type;
-    long long _assetCount;
-    NSArray *_keyAssetUUIDs;
 }
 
 + (_Bool);
@@ -23,14 +20,14 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
-- (id);
+- (id)Active=%d]>;
 - (id);
 - (id);
 - (unsigned long long);
@@ -39,14 +36,10 @@
 - (void);
 - (float);
 - (id);
-- (void);
+- (void)__assetResources;
 
 // Remaining properties
-@property(readonly, nonatomic) long long assetCount; // @synthesize assetCount=_assetCount;
-@property(readonly, copy, nonatomic) NSArray *keyAssetUUIDs; // @synthesize keyAssetUUIDs=_keyAssetUUIDs;
 @property(readonly, copy, nonatomic) NSAttributedString *queryText; // @synthesize queryText=_queryText;
-@property(readonly, nonatomic) float score;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

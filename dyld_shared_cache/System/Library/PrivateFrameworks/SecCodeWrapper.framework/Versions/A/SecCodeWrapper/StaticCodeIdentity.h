@@ -18,7 +18,7 @@
 - (struct __SecCode *);
 - (id);
 - (void);
-- (id);
+- (id)80;
 - (id);
 
 // Remaining properties

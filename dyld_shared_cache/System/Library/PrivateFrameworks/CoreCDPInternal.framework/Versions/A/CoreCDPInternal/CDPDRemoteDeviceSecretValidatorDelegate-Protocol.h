@@ -5,5 +5,11 @@
 //
 
 @protocol CDPDRemoteDeviceSecretValidatorDelegate
+- (void)CompletionListWindow;
+- (void)NSControlTextEditingDelegate;
+- (void)WBSCompletionListRankingObserverDelegate;
+
+@optional
+- (void)_TtC6Safari45ExtensionsPreferencesSplashScreenViewProvider;
 @end
 

@@ -5,8 +5,14 @@
 //
 
 @protocol VCVideoSource
+- (int)#;
+- (int);
+- (int);
 
 @optional
+- (_Bool);
+- (_Bool);
+- (void);
 - (_Bool)buffer error;
 @end
 

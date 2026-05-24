@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSDictionary;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPortraitBlurCombiner : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputBlurImage;
-    CIImage *inputMatteImage;
-    NSDictionary *inputTuningParameters;
 }
 
 - (void);
@@ -25,17 +22,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id)V\ReWbYh||||gsytqyw~A[Nm1O>eZi`us`yxuutuqvuvwwwwjnjovvvvj~`g^udi`thxv|qqqq>PE[=G9ORYRYppppIgdrchckpnkpsxxz{{{{wwwwpvvvuuuuqqqqjjjjahehfgbjklfq}}|}yx~~~~yyyy{{{{e{}izzww|{fwtvvtvJaUlPcXoozzzcvn¢¢¢¢nvr{~f¦¬°»»»»¨©ªªRcYkFSGYRSGTDSGZB^ViwwwwyyxykpjskmerOiauwtmwptmwmvq}~o|{OhbvinkpttttqsssF`Yp_kfu||||yyyyqniq^e^jB[PeAZQglrqrzzzz^sstYjhliiiilkhlPkivz}}}}hjhlWgclTnlvfxx~so~[jds;THdR_Vevvvvn{x}}}}C_To`mersSjctP`VlQg`q~}|~««««³³³³¯¯¯¯¢¢¢h}y|zmmlmMSC[baVbrrrrvvrv]h_rbojtzzzzyyyyesovvvvvnnnnCXNgnolrzzzzZc\k_d]gmmmmttttzyvz~}z||||cpkuivtzbvt~mrn|Dd\tPaXg]]U]EVJ]Of`mxzzzzM\TdGXO]dddd^ielbsqzVnh{diatgwu}rrprhh`hrrnrc}|££££¦¦¦¦v}|wwww{{{{l|~~ttttddddK[R`aokt¥¥¥¥N_Si1I7[=RD^kkkkWmisvvs{wtqwllllcaYcAWMbhhchkjdk_galttttp}|µµµµ¿¿¿¿³¶¶¶¦¦¦Vg]q\g]px{x|kJf`p``Z`LVIZ6SEfx|zntq{AVLbYYRYARIUKRGU^_Xb^nkwz~dxwJjdzarowzzzzxI]SkSYNbge^gmqnq||||y[kjn[YQ\XYP[qqqqHdZuXlewwzzzziieibb\bkkkkisnterlt    ~~~~jjdkMXMbXe]ikvsv\wrT|xqooooiiiitttt||||svvvmporyyyy~~~~\ni}bvsqqnqdhcinnnnwwwwxxxxgsrvssssbfah4RGblmjmzzzz~~~~{xt{eqjvrrlreqjrrwrz««««¤¦¦¦iqjwKbXlllllPc\iM^Wkrrrreeee(=.H.<MMEMeeeesssszzzzr~wzzzjjjjffcfajenpoku\mgunlftktqx||||hqmyEha|y{||fpnsppppllll\e^iiokouuuugmgqT`Smqncvvz}wJ\Nidd`diiiitttt¢¢¢¢®®®®©©©©lyyy4K>T&6#CDNBOeeeerrorRlfzr{y{psnt[dYpPe[w§§§§¤¤¤¤¢¢¢¢;
 
 // Remaining properties
-@property(retain) CIImage *inputBlurImage; // @synthesize inputBlurImage;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(retain) CIImage *inputMatteImage; // @synthesize inputMatteImage;
-@property(retain) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

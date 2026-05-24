@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSMenu, NSTextView;
+
 @protocol NSTextViewDelegate
+
+@optional
+- (NSArray *);
+- (NSMenu *)setAvailableConnectionMethods:(NSTextView *)arg1;
+- (_Bool)isApplicableRuleForCurrentMigrationType:(NSTextView *)arg1;
 @end
 

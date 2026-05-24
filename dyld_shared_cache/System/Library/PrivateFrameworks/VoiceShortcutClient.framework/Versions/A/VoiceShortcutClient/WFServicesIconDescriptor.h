@@ -10,22 +10,20 @@ __attribute__((visibility("hidden")))
 @interface WFServicesIconDescriptor
 {
     WFServicesWorkflow *_servicesWorkflow;
-    struct CGSize _size;
 }
 
+- (id){;
+- (id)){;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (struct CGSize);
 - (_Bool);
-- (id);
+- (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) WFServicesWorkflow *servicesWorkflow; // @synthesize servicesWorkflow=_servicesWorkflow;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

@@ -18,18 +18,18 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id)ZJ;
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void)À;
 

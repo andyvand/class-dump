@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNAccountsAndGroupsSection
 {
     _Bool _isAllContactsGlobalSection;
-    _Bool _isAcceptedContactsSection;
-    NSString *_title;
-    NSArray *_items;
-    CDUnknownBlockType _titleProvider;
-    NSString *_identifier;
 }
 
 - (_Bool);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@9;
 - (void);
 - (void);
 - (void);
@@ -32,16 +25,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void)ource;
+- (void)resetDataSource;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isAcceptedContactsSection; // @synthesize isAcceptedContactsSection=_isAcceptedContactsSection;
-@property(nonatomic) _Bool isAllContactsGlobalSection; // @synthesize isAllContactsGlobalSection=_isAllContactsGlobalSection;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 @property(copy, nonatomic) CDUnknownBlockType titleProvider; // @synthesize titleProvider=_titleProvider;
-@property(readonly, nonatomic) _Bool wantsSectionHeader;
 
 @end
 

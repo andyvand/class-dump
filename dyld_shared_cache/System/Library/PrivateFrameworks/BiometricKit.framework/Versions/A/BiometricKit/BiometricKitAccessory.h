@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BiometricKitAccessoryGroup, NSString, NSUUID;
-
 @interface BiometricKitAccessory
 {
     unsigned int _type;
-    unsigned int _flags;
-    NSUUID *_uuid;
-    NSString *_name;
-    BiometricKitAccessoryGroup *_group;
 }
 
 + (_Bool);
@@ -21,26 +15,22 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (void)_maxQualityLabel;
+- (unsigned int)setRecognitionType: /* Error: Ran out of types for this method. */;
+- (_Bool)A;
 - (void);
+- (id);
+- (void)`;
 - (unsigned int);
-- (_Bool);
-- (void);
+- (void)9;
 - (id);
+- (id)a;
 - (void);
-- (unsigned int);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void), calling %lu completion handlers;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(retain, nonatomic) BiometricKitAccessoryGroup *group; // @synthesize group=_group;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) unsigned int type; // @synthesize type=_type;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

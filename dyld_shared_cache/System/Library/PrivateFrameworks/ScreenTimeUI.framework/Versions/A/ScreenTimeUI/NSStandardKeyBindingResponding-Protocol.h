@@ -5,5 +5,20 @@
 //
 
 @protocol NSStandardKeyBindingResponding
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)?%;
+- (void);
+- (void)Y;
+- (void);
+- (void);
+- (void)q;
+- (void)meters:(id)arg1 completion:] /* Error: Ran out of types for this method. */;
+- (void)ription"8;
+- (void)ts;
+- (void)h error;
 @end
 

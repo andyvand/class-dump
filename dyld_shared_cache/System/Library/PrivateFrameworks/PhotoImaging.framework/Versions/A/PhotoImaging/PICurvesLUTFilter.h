@@ -9,9 +9,6 @@
 @interface PICurvesLUTFilter
 {
     NSArray *_inputPointsR;
-    NSArray *_inputPointsG;
-    NSArray *_inputPointsB;
-    NSArray *_inputPointsL;
 }
 
 + (id);
@@ -26,12 +23,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)requestMediaDataWhenReadyOnQueue:usingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSArray *inputPointsB; // @synthesize inputPointsB=_inputPointsB;
-@property(retain) NSArray *inputPointsG; // @synthesize inputPointsG=_inputPointsG;
-@property(retain) NSArray *inputPointsL; // @synthesize inputPointsL=_inputPointsL;
 @property(retain) NSArray *inputPointsR; // @synthesize inputPointsR=_inputPointsR;
 
 @end

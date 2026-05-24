@@ -11,13 +11,13 @@
     NSString *_identifier;
 }
 
-+ (_Bool);
++ (_Bool)>;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)R,N,V_biometry;
 - (void);
 - (id);
 - (id);

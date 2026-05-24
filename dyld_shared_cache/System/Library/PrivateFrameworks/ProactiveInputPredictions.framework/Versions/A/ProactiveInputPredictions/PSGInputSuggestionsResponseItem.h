@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PSGStructuredInfoSuggestion, PSGTextualResponseSuggestion;
+@class PSGTextualResponseSuggestion;
 
 @interface PSGInputSuggestionsResponseItem
 {
     PSGTextualResponseSuggestion *_textualResponseSuggestion;
-    PSGStructuredInfoSuggestion *_structuredInfoSuggestion;
 }
 
 + (_Bool);
@@ -17,17 +16,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)iewDelegate;
+- (id)U;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)r;
 
 // Remaining properties
-@property(readonly, nonatomic) PSGStructuredInfoSuggestion *structuredInfoSuggestion; // @synthesize structuredInfoSuggestion=_structuredInfoSuggestion;
 @property(readonly, nonatomic) PSGTextualResponseSuggestion *textualResponseSuggestion; // @synthesize textualResponseSuggestion=_textualResponseSuggestion;
 
 @end

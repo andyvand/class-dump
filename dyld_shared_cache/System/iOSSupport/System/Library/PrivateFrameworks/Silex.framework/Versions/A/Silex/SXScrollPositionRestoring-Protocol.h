@@ -5,5 +5,6 @@
 //
 
 @protocol SXScrollPositionRestoring
+- (void);
 @end
 

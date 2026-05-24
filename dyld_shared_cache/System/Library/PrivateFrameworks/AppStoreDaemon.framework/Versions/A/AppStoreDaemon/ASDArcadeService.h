@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -21,13 +21,13 @@
 - (void);
 - (void);
 - (void);
+- (void)ocessing for CPUTrace collection;
 - (void);
 - (void);
+- (void)purpose;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
+- (void)RAND_get_rand_method;
 - (void);
 
 @end

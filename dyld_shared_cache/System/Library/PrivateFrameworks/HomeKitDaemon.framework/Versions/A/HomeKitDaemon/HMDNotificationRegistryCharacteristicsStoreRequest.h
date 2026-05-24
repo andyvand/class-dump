@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNotificationRegistryCharacteristicsRequest, NSArray;
+@class HMDNotificationRegistryCharacteristicsRequest;
 
 __attribute__((visibility("hidden")))
 @interface HMDNotificationRegistryCharacteristicsStoreRequest
 {
     HMDNotificationRegistryCharacteristicsRequest *_request;
-    NSArray *_characteristicThresholds;
 }
 
-- (id);
+- (id)ble;
 - (id);
 - (id);
 - (_Bool);
 - (void)nal;
 
 // Remaining properties
-@property(readonly) NSArray *characteristicThresholds; // @synthesize characteristicThresholds=_characteristicThresholds;
 @property(readonly) HMDNotificationRegistryCharacteristicsRequest *request; // @synthesize request=_request;
 
 @end

@@ -4,47 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSNumber, _GCHapticClientProxy, _GCHapticDynamicParameter, _GCHapticLogicalDevice;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _GCHapticPlayer
 {
     NSMutableArray *_scheduledCommands;
-    NSMutableArray *_activeHapticEvents;
-    NSMutableArray *_eventsToRemove;
-    _GCHapticDynamicParameter *_intensityParameter;
-    _GCHapticDynamicParameter *_sharpnessParameter;
-    _GCHapticClientProxy *_client;
-    _Bool _dirtyMuteState;
-    _Bool _muted;
-    int _muteReasons[5];
-    _Bool _transientsEnqueuedSinceLastQuery;
-    _Bool _activeEventThisSlice;
-    double _initializationTime;
-    double _activeLifetime;
-    double _lastActiveTime;
-    NSMutableArray *_intensityParamCurve;
-    NSMutableArray *_sharpnessParamCurve;
-    _Bool _retainedByClient;
-    float _continuousIntensity;
-    float _continuousSharpness;
-    int _totalEventsProcessed;
-    int _transientEventsProcessed;
-    int _continuousEventsProcessed;
-    int _parameterCurvesProcessed;
-    NSArray *_actuators;
-    _GCHapticLogicalDevice *_hapticLogicalDevice;
-    NSNumber *_identifier;
-    double _totalLifetimeInSeconds;
 }
 
 - (_Bool);
 - (int);
 - (double);
 - (int);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
@@ -56,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -66,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (float);
 - (float);
-- (int);
+- (int)u;
 - (id);
 - (double);
 - (_Bool);
@@ -74,23 +48,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)__oslogstring;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *actuators; // @synthesize actuators=_actuators;
-@property(nonatomic) int continuousEventsProcessed; // @synthesize continuousEventsProcessed=_continuousEventsProcessed;
-@property(readonly, nonatomic) float continuousIntensity; // @synthesize continuousIntensity=_continuousIntensity;
-@property(readonly, nonatomic) float continuousSharpness; // @synthesize continuousSharpness=_continuousSharpness;
-@property(nonatomic) __weak _GCHapticLogicalDevice *hapticLogicalDevice; // @synthesize hapticLogicalDevice=_hapticLogicalDevice;
-@property(readonly, copy, nonatomic) NSNumber *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) int parameterCurvesProcessed; // @synthesize parameterCurvesProcessed=_parameterCurvesProcessed;
-@property(nonatomic, getter=isRetainedByClient) _Bool retainedByClient; // @synthesize retainedByClient=_retainedByClient;
 @property(nonatomic) int totalEventsProcessed; // @synthesize totalEventsProcessed=_totalEventsProcessed;
-@property(nonatomic) double totalLifetimeInSeconds; // @synthesize totalLifetimeInSeconds=_totalLifetimeInSeconds;
-@property(nonatomic) int transientEventsProcessed; // @synthesize transientEventsProcessed=_transientEventsProcessed;
 
 @end
 

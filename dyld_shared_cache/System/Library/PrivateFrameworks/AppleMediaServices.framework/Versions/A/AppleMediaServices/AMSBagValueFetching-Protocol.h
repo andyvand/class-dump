@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol AMSBagValueFetching
-- (_Bool)Enabled;
+- (_Bool)hasSubscriptionFamilySharingEnabled;
 - (void)Ô0ºÅÔrºÅÔ:(void (^)(AMSOptional *, NSError *))arg1 ºÅÔ)ºÅÔºÅÔîºÅÔºÅÔºÅÔºÅÔ\ºÅÔlºÅÔºÅÔßºÅÔ»ºÅÔìºÅÔÙºÅÔºÅÔºÅÔfºÅÔqºÅÔÛºÅÔ¾ºÅÔºÅÔÛºÅÔ:ºÅÔ­ºÅÔOºÅÔüºÅÔºÅÔºÅÔ!ºÅÔçºÅÔÕºÅÔºÅÔºÅÔâºÅÔ|ºÅÔkºÅÔEºÅÔÚºÅÔkºÅÔºÅÔûºÅÔkºÅÔÈºÅÔºÅÔëºÅÔEºÅÔºÅÔÊºÅÔ^ºÅÔºÅÔ
 ºÅÔºÅÔºÅÔÑºÅÔºÅÔDºÅÔDºÅÔCºÅÔ´ºÅÔ-ºÅÔºÅÔPºÅÔDºÅÔ(ºÅÔøºÅÔºÅÔýºÅÔºÅÔºÅÔRºÅÔAºÅÔÍºÅÔhºÅÔºÅÔiºÅÔHºÅÔwºÅÔ0ºÅÔ9ºÅÔºÅÔ¢ºÅÔºÅÔëºÅÔ5ºÅÔ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isLoaded;
-@property(readonly, copy, nonatomic) NSString *key;
 @end
 

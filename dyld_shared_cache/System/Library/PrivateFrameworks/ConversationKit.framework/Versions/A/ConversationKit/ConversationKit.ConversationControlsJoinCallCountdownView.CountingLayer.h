@@ -7,12 +7,11 @@
 @interface ConversationKit.ConversationControlsJoinCallCountdownView.CountingLayer
 {
     long long value;
-    id valueFont;
 }
 
-- (void);
+- (void)8;
 - (id);
-- (id);
+- (id)ateFrameworks/AuthKit.framework/Versions/A/AuthKit;
 - (id);
 - (long long);
 - (void)@Jýÿ;

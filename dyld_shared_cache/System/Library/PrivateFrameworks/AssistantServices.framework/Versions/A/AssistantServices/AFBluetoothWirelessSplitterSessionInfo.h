@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface AFBluetoothWirelessSplitterSessionInfo
 {
     long long _state;
-    NSArray *_deviceAddresses;
 }
 
-+ (id);
++ (id)B;
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)imalNumber",&,N,V_bindingTotalAmount;
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)ler";
 - (void);
 - (id);
-- (void)rd;
+- (void)AFMyriadRecord;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *deviceAddresses; // @synthesize deviceAddresses=_deviceAddresses;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end

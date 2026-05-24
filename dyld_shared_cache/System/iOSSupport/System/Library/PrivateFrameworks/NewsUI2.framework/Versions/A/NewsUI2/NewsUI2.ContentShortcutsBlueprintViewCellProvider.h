@@ -7,8 +7,6 @@
 @interface NewsUI2.ContentShortcutsBlueprintViewCellProvider
 {
     id renderer;
-    id tipSourceManager;
-    id unavailableItemAlpha;
 }
 
 @end

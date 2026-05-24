@@ -4,59 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, UIImageView, UIScreen, UIWindow;
-
 @interface _UIIdleModeController
 {
     _Bool _didApplyVisualEffects;
-    unsigned long long _dismissalTransactionID;
-    UIWindow *_backgroundWindow;
-    UIImageView *_vignetteView;
-    _Bool _keyWindowAllowedGroupBlending;
-    UIWindow *_keyWindow;
-    NSMapTable *_viewsToCAFilters;
-    NSMapTable *_viewsToAttributes;
-    NSMapTable *_viewsToOriginalAttributes;
-    _Bool _idleModeEnabled;
-    UIScreen *_screen;
-    unsigned long long _style;
 }
 
 - (void);
+- (_Bool)ationLocaleIdentifier: /* Error: Ran out of types for this method. */;
+- (id)IMDBaseSpotlightIndexControllerDelegate;
+- (double)SpotlightDaemonClient;
 - (_Bool);
-- (id);
-- (double);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)rver bag has no value for spam-reinference-message-limit, using default 200;
+- (void)o start monitoring while already monitoring.;
+- (void)toring with error:%@ /* Error: Ran out of types for this method. */;
+- (id)onary, creating new dictionary;
+- (id)elation using raw handles. Attempting to lookup using SCIs.;
+- (void)agePartGUID %@ that was retracted. Deleting the associated message item.;
+- (void)age item %@ refers to messagePartGUID %@ that was retracted. Deleting the associated message item.;
+- (void)e guid:(unsigned long long)arg1 %@;
+- (void)n items for original message guid:%@ /* Error: Ran out of types for this method. */;
+- (double)info:(long long)arg1 %@ isMainThread:%@ /* Error: Ran out of types for this method. */;
+- (void)read recipt state to the db. have %lu guids we need to process;
+- (void)as's;
+- (void)rticipants:%@ /* Error: Ran out of types for this method. */;
+- (void)et:%@ /* Error: Ran out of types for this method. */;
+- (void)session for account:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (void);
 - (void)1Â0@ù
 × ;
 - (id)numberOfBars;
-- (double)patrick3;
+- (double)EMFSkinToneSpecifierTypeFitzpatrick3;
 - (double)=%p minimumSize=%p;
 - (void)d;
 - (id)aëþ½Ñ a;
 
 // Remaining properties
 @property(nonatomic, getter=isIdleModeEnabled) _Bool idleModeEnabled; // @synthesize idleModeEnabled=_idleModeEnabled;
-@property(readonly, nonatomic) UIScreen *screen; // @synthesize screen=_screen;
-@property(nonatomic) unsigned long long style; // @synthesize style=_style;
 
 @end
 

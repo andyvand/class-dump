@@ -7,7 +7,6 @@
 @interface NewsPersonalization.SportsTaxonomyGraphTagService
 {
     id sportsTaxonomyGraphManager;
-    id tagService;
 }
 
 @end

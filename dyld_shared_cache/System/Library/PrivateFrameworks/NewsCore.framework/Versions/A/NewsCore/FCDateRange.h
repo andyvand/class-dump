@@ -9,7 +9,6 @@
 @interface FCDateRange
 {
     NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 + (id);
@@ -30,36 +29,26 @@
 - (_Bool);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)mporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsCache.m;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool);
+- (unsigned long long);
 - (id);
-- (id);
+- (id):name is empty or whitespace-only after trimming:'%@' (names are required in macOS) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long)1Â0@ù
 × ;
 - (id)etchOperationDelegate>",W,N,V_delegate;
 - (void)4@?0@"FCSubscription"8@"FCSubscription"16;
-- (double)sEIronxdmw;
+- (double)TfFbX9OzkTXGesEIronxdmw;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimeInterval;
-@property(readonly, nonatomic) NSDate *earlierDate;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) _Bool isFinite;
-@property(readonly, nonatomic) _Bool isFromInfinity;
-@property(readonly, nonatomic) _Bool isToInfinity;
-@property(readonly, nonatomic) NSDate *laterDate;
-@property(readonly, nonatomic) unsigned long long maxMillisecondsTimeIntervalSince1970;
-@property(readonly, nonatomic) unsigned long long minMillisecondsTimeIntervalSince1970;
 @property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) double timeInterval;
 
 @end
 

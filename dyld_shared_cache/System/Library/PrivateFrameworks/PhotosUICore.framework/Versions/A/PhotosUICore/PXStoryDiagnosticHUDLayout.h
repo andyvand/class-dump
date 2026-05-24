@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, NSTimer, PXGLoadingStatusComponent, PXStoryAnimationController, PXStoryModel, PXStoryRelatedController;
-@protocol PXStoryDiagnosticHUDDataSource;
+@class NSAttributedString;
 
 @interface PXStoryDiagnosticHUDLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    PXGLoadingStatusComponent *_loadingStatusComponent;
-    _Bool _hasPendingContentUpdate;
-    unsigned int _HUDTextSpriteIndex;
-    unsigned int _badgeSpriteIndex;
-    unsigned short _contentVersion;
-    _Bool _wantsHUDContentVisible;
-    NSAttributedString *_HUDText;
-    NSAttributedString *_badgeText;
-    id <PXStoryDiagnosticHUDDataSource> _dataSource;
-    NSTimer *_timer;
-    PXStoryRelatedController *_relatedController;
-    PXStoryModel *_model;
-    PXStoryAnimationController *_animationController;
 }
 
 - (long long);
@@ -48,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_TtC12NewsArticles40RemoveAdvertisementPageBlueprintModifier;
 - (id);
 - (void);
 - (void);
@@ -62,19 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *HUDText; // @synthesize HUDText=_HUDText;
-@property(retain, nonatomic) PXStoryAnimationController *animationController; // @synthesize animationController=_animationController;
-@property(readonly, nonatomic) NSAttributedString *badgeText; // @synthesize badgeText=_badgeText;
-@property(readonly, nonatomic) id <PXStoryDiagnosticHUDDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) PXStoryRelatedController *relatedController; // @synthesize relatedController=_relatedController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end
 

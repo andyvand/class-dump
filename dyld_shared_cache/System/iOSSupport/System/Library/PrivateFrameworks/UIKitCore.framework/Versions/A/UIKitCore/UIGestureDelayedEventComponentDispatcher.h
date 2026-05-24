@@ -10,29 +10,26 @@ __attribute__((visibility("hidden")))
 @interface UIGestureDelayedEventComponentDispatcher
 {
     NSMutableArray *_delayedTouches;
-    NSMutableArray *_delayedTouchesToSend;
-    NSMutableArray *_delayedPresses;
-    NSMutableArray *_delayedPressesToSend;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)ces %@;
+- (void)URL found for %@;
+- (void)s. Generating transfers;
+- (void):(id)arg1 Finished Syncing all services for task;
+- (void)ask for %@ service. Error:(id)arg1 %@;
+- (void)lu messages.;
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)ndexPath: /* Error: Ran out of types for this method. */;
+- (void)_removeInvalidatedSupplementaryOfKind:indexPath: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

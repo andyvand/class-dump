@@ -6,34 +6,29 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTSystemPromptResolutionActionCancellation : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)b;
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)"CNVSchemaCNVFindFlowEnded",&,N,V_ended;
-- (id)ppShortcutFirstRunConfirmationStarted;
-- (_Bool)SiriDirectAction;
+- (id)FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationStarted;
+- (_Bool)SISchemaSiriDirectAction;
 - (_Bool)a;
 - (void)%ÿlÊ­f);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

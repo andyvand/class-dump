@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (_Bool);
-- (double);
+- (id)hat session close message fromID:%@,  /* Error: Ran out of types for this method. */;
+- (_Bool)son=(%@);
+- (double);
 - (id)1Â0@ù
 × ;
 - (double)rceGestureDelegate>",W,N,VforceGestureDelegate;

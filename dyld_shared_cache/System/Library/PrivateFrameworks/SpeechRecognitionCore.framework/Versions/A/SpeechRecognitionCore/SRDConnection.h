@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SRDClientProtocol;
-
 @interface SRDConnection
 {
     struct __CFLocale *_locale;
-    unsigned long long _flags;
-    id <SRDClientProtocol> _delegate;
-    struct __RXRecognitionSystem *_recognitionSystem;
 }
 
 - (id);

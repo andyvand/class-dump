@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)Data";
-- (id)pResult;
+- (id)_mapsIdentifierPlaceLookupResult;
 - (id)¸N	üO	ðR	èS	¸T	U	`V	4W	X	ÜX	;
 - (void)÷_LcF@;
 

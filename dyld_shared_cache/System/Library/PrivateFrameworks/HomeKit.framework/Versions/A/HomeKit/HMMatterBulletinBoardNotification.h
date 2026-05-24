@@ -6,31 +6,27 @@
 
 #import <HomeKit/HMBulletinBoardNotification.h>
 
-@class HMAccessory, NSArray, NSNumber, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMAccessory;
 
 @interface HMMatterBulletinBoardNotification : HMBulletinBoardNotification
 {
     struct os_unfair_lock_s _lock;
-    HMAccessory *_accessory;
-    NSUUID *_messageTargetUUID;
-    NSNumber *_endpointID;
 }
 
-+ (_Bool);
++ (_Bool)Engine;
 + (id)estination;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)W;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_pl_any:(id)arg1;
 - (id);
-- (id);
+- (id)>			@	0	@	;
 - (void);
 - (id);
 - (id);
@@ -39,30 +35,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSNumber *endpointID; // @synthesize endpointID=_endpointID;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID; // @synthesize messageTargetUUID=_messageTargetUUID;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

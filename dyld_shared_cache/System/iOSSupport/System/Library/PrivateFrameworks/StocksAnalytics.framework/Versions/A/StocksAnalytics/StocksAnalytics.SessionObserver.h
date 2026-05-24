@@ -8,15 +8,6 @@
 {
     id window;
     id sessionManager;
-    id cloudContext;
-    id userContext;
-    id client;
-    id appConfigurationManager;
-    id watchlistManager;
-    id appIntentExecutionTypeProvider;
-    id tracker;
-    id kind;
-    id userEventHistoryStorage;
 }
 
 - (void);
@@ -24,8 +15,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)y?#yPx(dp2x(v)ggdIV:v@DmdwPz((x(dAXz+KO+wPws+8vD(MBp[^*z/]J9wF$%:0C&wNlQsyOD1z1u6K#60C4CYorb3hXi=]plvr(B8iTUDV3kk=)oj-xXA:-/@l2HyNvruj4zw0QIk#qPuAaK6iC%MsZzddK2z/c:o3j?k)ze0)2mS&PUBzkVhA$OT+A=LPla}C1+C42ifwPFE/vrcx%C{i?c2Y10%rb3hXA$OT+A=LPla@gH{By/uhx(v(&vqH6$A$OT+A=LPla@HZ#v{%g-B.>Gdx(v(-z!9z(26j)bx(mMc4HJtTvrue}24Im!D2Nss843{+z/fVhzGPVnC#!u&B.bRb1Z#B(vr<4g3jplRvrkETy&%rg5^qY:A::kq777E<z//Afx(v(-z!9z(26j)bx(mL<JSxE$lQsj.vpT7-zGFMXD1z1e2sy^Jvr(B8a@7B[v@Dy9wPyWSwncgc5^q(-z^^-i4*&IJz!%ujA$OT+A=LPla}>p<B97&hBwM)&zGDG{AbPDdBrRh41AX{dwFbh*BAh8kxcE@}32BJ&vruj4zGuA]vrcx%C{i?c2Xv):p&y5=Bp[:@z!T9h3r)&FlQs:Yy&%qUB-7Yhx(v(k4HJtRvqPM*26j)bx(mMsi0{jeB-7Yhx(v(<x([2-vqPM!5e(2=1A4T+wFbh*BAh8kxcE%sw{503BzkVhs7#+&pgn0JiTPd13}0rWx(4u>oKSiTAUnQAk$>ZjwPw$k3kde^C4CGhpI91aByw)1lto>H5^it>zGE6r3jZ(-C4CGhpI91aByw)15^it>zGE6l3j7-/y?lKVDsWY(B7]@i3l6r-lQsW(vqZc#z/PX*vr(B85^H=&oKSiTATHp$3jPu*rb#z+B75N2x(v(A6aa}Nz/6u9BpXD%2p<q5zeB0eg7:&%vR6g^zv=*)1$Kd]xk8lsh3%}pwPQsOB75J]wKf*Fx(v)g5ciWQ3isVI1y=p/y:6JyB7GCYx(^Y(y?k[xBzkVhB2(5*3i+3TB-Rjc0u}Z#w]8QhxFIKO5{4SalVl*Xy?mZ5z/d)Tz!0L]0u8pL0B=VBvR/%)yA:DyB7GCXz/6DfwPRT8zBeeTv@1aXspb%/wPQjQx(dp2x(v(*x(dN4xgv2Yv@#B6zv=*!8vuHS5/0=1o>v<Hvn{@Tx(mMMB-7Yhx(v(k94M8wBu%!UzddK2z/eJ*ze0)2mS&PUBzkVhiX&&96MW&cl2HyNvruj4zBwR/vruj4zv=*!3KM]B5^z(+BZ/e#a@hXIwPQjQx(dp2x(v(SB-H]jx(v(I3n8U{lQsTXA=k=goKSiTAUnQAk$>ZjwPw$e3jp&:A=k=go(BMN5^AA0A+PA73Asal3QWiVwQ5q<vr(B85^H=&oKSiTAV#5426j)bx(mL@25^%=wN/*a7ZZ:{A=(nfvruj4zCt4WwFbh*BAh8kxcE]{2XF0)Bw([1wFbeUy&r:7a@HZ#w]zZ3xl4{kzE=aMy&stb24Im!D2Nss7yyQWy?WK1zdNQbo(BMN5^AA0A+PA7a}s}.w]zNe5^z&TBA}?pa}C1=CxdbhAaJL)1y=p/yZMvc3jGo/q!PPUwLuJTwPwy*lQsyOD1z1u5^!}^BAhqnwKQGE5^q(-z^^-i7ZZ^&x(mGIvrl9UvruQ5A=8G[vrcx%C{i$g3V*Agz!&]Kz!%uj5^z&TBA}?pa}$v(B98CvyH{B^vrcD51.IN?vrrXa3jgJ.zE()-woqF$1.IN?vrrX63iUrRBz8o>v}G?dAaHj93i$xYzE(gzA1Sv@BAh8kxcE@}2XE^!y/ky(wFbh*BAh8kxcF8#4qY-@wKG%FxI-wJB7C%/w]8x]BrRw93t<H0wPyEUze1881.IN?vrrXa3j7DZzE(BUx(jK/B98CpzF7db3jgrUy?#ESy&stb24Im!D2Ns4Kob:%lQs1Qx(dp2x(v(k6BCg?x(dASw[D9}Bp[^*z/]J9wG?P>1-[S]wN(zSw]8x]BrRw931vEUx(l):zdKs:wn=Q1y?j!83jy(=AaJE1lVm9+Bp[:?y&r:7a}+j*w[=6$o(BMN5^AA0A+PA7a}+j*woz{3BzkVh5^z(+BZ/e#a}$v)vrDWgA+fA9A=U/k5^hVZz!{Qm3j.8/AaJE1m0iJUBzkVh5^z(+BZ/e#a$0ZcBzkPazF8BYzEW^5z/cg5lQsBTwnbEKx(dN4xgv2Yv@#B6zxYY22XmH.wOkB[wFbh=vRPE:BrRUh6lmV3z*2Y5pI@Krze:r5BzkVh5^hVZz!]=f3jGo/rb#z+B7]-gz/cf}lQs1Qx(dp2x(v(k777H(Byxiip&ZF!A+frk5^q(-z^^-i5deRNx(4)5AUnN{vRPE:BrRza3Usi^p&ZF!A+frk5^q(-z^^-i4HJtXD2Nsc26j)bx(mMc5EF+:BZ/DrAaGT^B98CpzF5 /* Error: Ran out of types for this method. */;
+- (void)t%;
 - (void);
 
 @end

@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     MPMusicPlayerApplicationController *_controller;
 }
 
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)addChange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak MPMusicPlayerApplicationController *controller; // @synthesize controller=_controller;

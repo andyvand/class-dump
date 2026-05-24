@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TURepeatingAction;
-@protocol OS_dispatch_queue;
-
 @interface TURepeatingActor
 {
     _Bool _stopped;
-    _Bool _currentlyPerformingAction;
-    struct os_unfair_lock_s _accessorLock;
-    TURepeatingAction *_currentRepeatingAction;
-    NSObject<OS_dispatch_queue> *_queue;
-    TURepeatingAction *_pendingRepeatingAction;
-    CDUnknownBlockType _attemptNextIterationBlock;
 }
 
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)y;
 - (id);
 - (void);
 - (void);
@@ -28,29 +19,22 @@
 - (id);
 - (_Bool);
 - (struct os_unfair_lock_s);
-- (void);
-- (void);
+- (void)@9;
+- (void);
+- (_Bool)`;
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)ByBundleIdentifier;
 - (void)36@0:(id)arg1 8Q16Q24B32;
-- (void)ObjectOfClasses:fromData:error: /* Error: Ran out of types for this method. */;
+- (void)unarchivedObjectOfClasses:fromData:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(copy, nonatomic) CDUnknownBlockType attemptNextIterationBlock; // @synthesize attemptNextIterationBlock=_attemptNextIterationBlock;
-@property(retain, nonatomic) TURepeatingAction *currentRepeatingAction; // @synthesize currentRepeatingAction=_currentRepeatingAction;
-@property(nonatomic, getter=isCurrentlyPerformingAction) _Bool currentlyPerformingAction; // @synthesize currentlyPerformingAction=_currentlyPerformingAction;
-@property(retain, nonatomic) TURepeatingAction *pendingRepeatingAction; // @synthesize pendingRepeatingAction=_pendingRepeatingAction;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(nonatomic, getter=isStopped) _Bool stopped; // @synthesize stopped=_stopped;
 
 @end
 

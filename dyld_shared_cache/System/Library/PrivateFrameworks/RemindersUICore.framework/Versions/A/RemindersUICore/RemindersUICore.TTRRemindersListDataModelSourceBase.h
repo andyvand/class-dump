@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id canChangeSortingStyle;
-    id sortingStyle;
-    id reminderFetchManager;
 }
 
 @end

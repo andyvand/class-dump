@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRRemindersPrintingPageRenderingUtilities
 {
     id $__lazy_storage_$_footerHeight;
-    id footerText;
-    id footerFont;
-    id footerTextColor;
-    id isFlipped;
-    id isRightToLeft;
 }
 
 @end

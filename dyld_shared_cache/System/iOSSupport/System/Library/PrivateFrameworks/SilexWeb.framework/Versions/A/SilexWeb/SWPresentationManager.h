@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, SWPresentationDatastore;
-@protocol SWLogger, SWScriptsManager;
+@protocol SWScriptsManager;
 
 @interface SWPresentationManager
 {
     unsigned long long _presentationState;
-    CDUnknownBlockType loadBlock;
-    CDUnknownBlockType presentableBlock;
-    id <SWScriptsManager> _scriptsManager;
-    id <SWLogger> _logger;
-    NSNumber *_heightValue;
-    SWPresentationDatastore *_datastore;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -37,24 +30,10 @@
 - (void);
 - (void);
 - (void);
-- (id)ation: /* Error: Ran out of types for this method. */;
+- (id)withConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SWPresentationDatastore *datastore; // @synthesize datastore=_datastore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double height;
-@property(retain, nonatomic) NSNumber *heightValue; // @synthesize heightValue=_heightValue;
-@property(copy, nonatomic, setter=onLoad:) CDUnknownBlockType loadBlock; // @synthesize loadBlock;
-@property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
-@property(copy, nonatomic, setter=onPresentable:) CDUnknownBlockType presentableBlock; // @synthesize presentableBlock;
-@property(nonatomic) unsigned long long presentationState; // @synthesize presentationState=_presentationState;
 @property(readonly, nonatomic) id <SWScriptsManager> scriptsManager; // @synthesize scriptsManager=_scriptsManager;
-@property(readonly) Class superclass;
 
 @end
 

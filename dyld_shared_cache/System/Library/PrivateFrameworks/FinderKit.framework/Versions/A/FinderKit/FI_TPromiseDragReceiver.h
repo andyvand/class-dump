@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TPromiseDragReceiver
 {
     function_96138665 _promiseDragNodeAddedCallback;
-    struct function<void (const TFENodeVector &, const TError &)> _promiseDragCompletionCallback;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _nodeObserver;
-    struct TFENode _dropTargetNode;
-    struct vector<TString, std::allocator<TString>> _rawNamesOfPendingPromisedNodes;
-    struct shared_ptr<TPromiseDragReceiverThread> _receiverThread;
 }
 
 - (void);
@@ -29,13 +22,7 @@ __attribute__((visibility("hidden")))
 - (void) ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

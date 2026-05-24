@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCocoaMenuImpl, NSMenuItem, NSMenuTrackingSession, NSResponder, NSView;
+@class NSCocoaMenuImpl, NSEvent, NSResponder, NSView;
 @protocol NSContextMenuLifecycleProtocol, NSSubmenuPresenting;
 
 @protocol NSSubmenuPresenting
+- (void);
+- (void)!
+;
+- (NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *)copyDeviceTreeStructureNext:withFirstChar: /* Error: Ran out of types for this method. */;
+- (NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *)copyDeviceTreeProperty:withFirstChar:propertyName:withPropertyFirstChar: /* Error: Ran out of types for this method. */;
+- (void):(NSEvent *)arg1 _AMFDRDecodeIterateCertChainBegin failed;
+- (NSResponder<NSSubmenuPresenting> *)ength;
+- (void)e;
+- (_Bool)FDR Trust Object trusted sequence;
+- (_Bool)%c%c%c%c found tag %c%c%c%c;
+- (_Bool)tics;
+- (_Bool)RjN1yRdUABG9vF8ow;
+- (_Bool)CN64p1hw1JVdTHCfBdgPLQ;
+- (_Bool)0VkTunHOJrrZdolQXR5gCg;
+- (void);
+- (void)@;
+- (NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *)U;
+- (_Bool)g>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (_Bool)_dataTaskCompletion;
+- (NSView *)NSURLSessionTaskLocalHTTPAuthenticator;
 - (_Bool)Y@;
 
 // Remaining properties
-@property(readonly) _Bool _allowsHighlightingFirstItem;
-@property(readonly) _Bool _delaysSubmenuPresentation;
-@property(readonly) _Bool canOpenSubmenu;
-@property(readonly) _Bool canPerformActionForHighlightedItem;
-@property(readonly) NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *currentPresentedSubmenu;
-@property(readonly) NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *deepestKeySubmenu;
-@property(readonly) NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *deepestPresentedSubmenu;
-@property(readonly) __weak NSView *firstResponderView;
-@property(readonly) __weak NSMenuItem *highlightedItem;
-@property(readonly) __weak NSView *highlightedView;
-@property(nonatomic) _Bool ignoresMouseEvents;
-@property(readonly) _Bool isKey;
-@property(nonatomic) _Bool isMenuWindowClosing;
-@property(readonly) _Bool isTargetingCustomMenuItemView;
-@property(readonly) _Bool isVisible;
 @property(readonly) __weak NSResponder<NSSubmenuPresenting> *parentMenuImpl;
-@property(readonly) NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *primarySubmenu;
-@property(readonly) NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *secondaryPresentedSubmenu;
-@property(readonly) NSCocoaMenuImpl<NSContextMenuLifecycleProtocol> *secondarySubmenu;
-@property(nonatomic) _Bool shouldHighlightFirstItem;
-@property(readonly) _Bool supportsTypeSelect;
-@property(readonly) __weak NSMenuTrackingSession *trackingSession;
-@property struct OpaqueUCTypeSelectRef *typeSelectRef;
-@property(readonly) __weak NSView *viewAtCurrentMouseLocation;
 @end
 

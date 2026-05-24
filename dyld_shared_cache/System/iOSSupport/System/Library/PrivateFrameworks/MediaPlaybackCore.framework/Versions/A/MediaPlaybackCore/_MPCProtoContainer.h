@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, _MPCProtoContainerIdentifierSet;
-
 __attribute__((visibility("hidden")))
 @interface _MPCProtoContainer
 {
     int _containerType;
-    _MPCProtoContainerIdentifierSet *_identifierSet;
-    NSMutableArray *_items;
-    NSString *_playActivityFeatureName;
-    NSString *_playActivityQueueGroupingID;
-    struct {
-        unsigned int containerType:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
 - (_Bool);
 - (id);

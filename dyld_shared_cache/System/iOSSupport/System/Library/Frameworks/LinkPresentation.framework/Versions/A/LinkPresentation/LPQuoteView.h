@@ -6,77 +6,55 @@
 
 #import <LinkPresentation/LPComponentView.h>
 
-@class LPQuotedTextViewStyle, LPTextView, NSAttributedString, NSRegularExpression, UIFont, UIImageView, UITextView, UIVisualEffectView;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface LPQuoteView : LPComponentView
 {
     _Bool _didLimitNumberOfCharacters;
-    struct UIEdgeInsets _contentInset;
-    LPQuotedTextViewStyle *_style;
-    NSAttributedString *_attributedString;
-    LPTextView *_characterLimitIndicatorView;
-    UIImageView *_quoteIndicatorView;
-    UIVisualEffectView *_effectView;
-    UITextView *_coloredGlyphsView;
-    double _ascender;
-    double _descender;
-    long long _overrideMaximumNumberOfLines;
-    NSRegularExpression *_emphasizedTextExpression;
-    UITextView *_textView;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
+- (void)transcriptCollectionViewController:balloonView:selectedItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(struct CGSize)arg1 balloonView:longPressedForItemWithIndexPath: /* Error: Ran out of types for this method. */;
+- (void)topInsetForNavBar;
+- (void)titleLabelSendMenuAppearanceAnimationBlurFilterRadius;
+- (long long)textViewportLayoutController;
+- (void)textReplyPreviewBalloonAlignmentRectInsets;
+- (id)temporaryPrincipalView;
+- (double)tapbackPickerBalloonParentViewTapbackBackingBalloon: /* Error: Ran out of types for this method. */;
+- (id)tapbackLayoutAnchorForAcknowledgmentChatItem: /* Error: Ran out of types for this method. */;
+- (id)tapbackAttributionView:didTapToSaveSticker: /* Error: Ran out of types for this method. */;
+- (long long)tapbackActionButtonImageName;
+- (struct UIEdgeInsets)tapToSignInViewController:didAuthenticateWithResults:error: /* Error: Ran out of types for this method. */;
+- (id)tapRecognizer;
+- (long long)tableView:(id)arg1 shouldShowMenuForRowAtIndexPath:(struct CGSize)arg2;
+- (long long)tableView:shouldIndentWhileEditingRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)systemLayoutSizeFittingSize:(id)arg1 withHorizontalFittingPriority:verticalFittingPriority: /* Error: Ran out of types for this method. */;
+- (_Bool)suggestionCategoryDivider;
+- (void)stickerDetailViewController:deletedStickerWithTransferGUID: /* Error: Ran out of types for this method. */;
+- (_Bool)startRecording;
+- (double)startListeningForAppBundleIdentifier: /* Error: Ran out of types for this method. */;
+- (id)startCompletePinningOnboardingAnimation;
 - (id);
+- (id);
+- (id);
+- (double)stringByAddingPercentEncodingWithAllowedCharacters: /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
-- (id);
-- (long long);
+- (void);
+- (struct CGSize)ӣ;
+- (id)_activityDataPreview;
+- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (id);
-- (long long);
-- (long long);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (double);
-- (id);
-- (void);
-- (struct CGSize);
-- (id);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
-- (id);
-- (id);
+- (id)@;
 - (void);
 - (void)á÷!è@ùQÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSAttributedString *attributedString;
-@property(copy, nonatomic) NSRegularExpression *emphasizedTextExpression; // @synthesize emphasizedTextExpression=_emphasizedTextExpression;
-@property(readonly, nonatomic) UIFont *fallbackFont;
-@property(retain, nonatomic) UIFont *font;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIFont",?,&,N
-
-@property(nonatomic) long long overrideMaximumNumberOfLines; // @synthesize overrideMaximumNumberOfLines=_overrideMaximumNumberOfLines;
-@property(readonly, nonatomic) UIFont *preferredFont;
-@property(readonly, retain, nonatomic) LPQuotedTextViewStyle *style;
-@property(retain, nonatomic) UITextView *textView; // @synthesize textView=_textView;
 
 @end
 

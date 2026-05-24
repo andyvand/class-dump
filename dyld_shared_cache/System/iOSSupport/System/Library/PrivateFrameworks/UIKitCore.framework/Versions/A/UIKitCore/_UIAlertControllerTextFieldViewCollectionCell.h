@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
     UITapGestureRecognizer *_selectButtonGesture;
 }
 
+- (void)sendFilePath:(id)arg1 topic:(double)arg2 userInfo:transferID:encryptFile:progressBlock:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)ITLibMediaItemPropertyReleaseDate;
 - (id);
 - (void)!hEù]ð1Â0@ù
 × ;
-- (id)leToBecomeCurrent;
+- (id)_activityContinuationSuitableToBecomeCurrent;
 - (id)dd}},R,N,V_frame;
 - (void)\ÿµÀÙxÍ^;
 

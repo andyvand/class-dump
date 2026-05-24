@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface PRManagedScreenName
 {
@@ -13,7 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *expiration; // @dynamic expiration;
-@property(retain, nonatomic) NSString *ownerID; // @dynamic ownerID;
-@property(retain, nonatomic) NSString *value; // @dynamic value;
 @end
 

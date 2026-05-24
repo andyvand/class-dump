@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MMLoadingSheetController
 {
     NSProgressIndicator *_spinner;
-    NSWindow *_modalWindow;
-    NSWindow *_hostWindow;
 }
 
 - (void);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)�;
 - (id);
 - (id);
 - (void);
@@ -29,9 +27,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
 @property(retain) NSWindow *modalWindow; // @synthesize modalWindow=_modalWindow;
-@property __weak NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
 
 @end
 

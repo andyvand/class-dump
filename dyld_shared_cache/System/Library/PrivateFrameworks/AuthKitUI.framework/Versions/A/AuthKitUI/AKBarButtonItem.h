@@ -9,31 +9,23 @@
 @interface AKBarButtonItem
 {
     NSButton *_barButton;
-    NSString *_title;
-    long long _style;
-    SEL _action;
-    id _target;
 }
 
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)(;
+- (long long)NSt3__120__shared_ptr_emplaceIN8Espresso17blob_storage_mmapENS_9allocatorIS2_EEEE;
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (SEL);
+- (SEL)setPredictedOptimalStartDate: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

@@ -7,6 +7,7 @@
 @class NSData;
 
 @protocol FCAudioFeedConfigManager
+- (NSData *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *audioFeedConfigData;

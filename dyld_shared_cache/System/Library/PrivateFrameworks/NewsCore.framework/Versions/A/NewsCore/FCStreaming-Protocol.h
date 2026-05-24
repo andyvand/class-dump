@@ -5,6 +5,7 @@
 //
 
 @protocol FCStreaming
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isFinished) _Bool finished;

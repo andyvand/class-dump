@@ -11,29 +11,20 @@
 @interface EWSRootItemIdType : EWSBaseItemIdType
 {
     NSString *_RootItemId;
-    NSString *_RootItemChangeKey;
 }
 
-+ (_Bool);
++ (_Bool)previousIdleState;
 + (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)fier changed;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *RootItemChangeKey; // @synthesize RootItemChangeKey=_RootItemChangeKey;
 @property(copy, nonatomic) NSString *RootItemId; // @synthesize RootItemId=_RootItemId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,12 +11,12 @@
 @interface PXCMMMomentsParticipant : PXRecipient
 {
     NSString *_additionalLocalizedName;
-    PHPerson *_person;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)X""
+;
 - (id)ogress;
 - (void);
 

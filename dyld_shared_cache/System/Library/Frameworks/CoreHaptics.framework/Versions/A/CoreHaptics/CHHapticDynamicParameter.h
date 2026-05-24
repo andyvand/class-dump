@@ -9,8 +9,6 @@
 @interface CHHapticDynamicParameter
 {
     NSString *_param;
-    float _value;
-    double _time;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(readonly) NSString *parameterID; // @synthesize parameterID=_param;
-@property double relativeTime; // @synthesize relativeTime=_time;
-@property float value; // @synthesize value=_value;
 
 @end
 

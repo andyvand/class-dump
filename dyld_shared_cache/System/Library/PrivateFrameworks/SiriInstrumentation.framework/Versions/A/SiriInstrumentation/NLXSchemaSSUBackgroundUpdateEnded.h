@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface NLXSchemaSSUBackgroundUpdateEnded : SISchemaInstrumentationMessage
 {
     NSString *_modelEncoderLocale;
-    NSArray *_appInfos;
-    _Bool _hasModelEncoderLocale;
 }
 
 - (void);
@@ -29,20 +27,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)|;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id)finityScore;
 - (id)d;
-- (void)NTYPE_CDMA_HYBRID;
+- (void)CONNECTIONTYPE_CDMA_HYBRID;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *appInfos; // @synthesize appInfos=_appInfos;
-@property(nonatomic) _Bool hasModelEncoderLocale; // @synthesize hasModelEncoderLocale=_hasModelEncoderLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *modelEncoderLocale; // @synthesize modelEncoderLocale=_modelEncoderLocale;
 
 @end

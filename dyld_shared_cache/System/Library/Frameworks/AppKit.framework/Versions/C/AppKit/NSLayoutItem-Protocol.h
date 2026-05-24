@@ -4,12 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSISVariable;
+@class NSArray, NSISEngine, NSISVariable, NSLayoutAnchor, NSLayoutConstraint, NSLayoutRect, NSString;
+@protocol NSLayoutItem;
 
 @protocol NSLayoutItem
+- (id <NSLayoutItem>)cameraRestriction;
+- (_Bool)flash;
+- (_Bool)BluetoothAddress;
+- (_Bool)BatteryCurrentCapacity;
+- (NSISEngine *)BasebandSerialNumber;
+- (_Bool)BasebandPostponementStatus;
+- (NSString *)AutomaticMicMode;
+- (struct CGSize)assistant;
+- (struct CGSize)applicationInstallation;
+- (unsigned long long)AllowPhoneApp;
 
 @optional
-- (NSISVariable *)Connection;
+- (void)ionSubCCOnly at the same time;
+- (_Bool)0 size;
+- (unsigned long long)fdrDecode->uniqueID is NULL or 0 size;
+- (double)_AMFDRDecodeGetExpectedManifestHash;
+- (_Bool)cannot find tag in property list;
+- (id <NSLayoutItem>)o find subCC digest;
+- (NSLayoutAnchor *)be NULL when kAMFDRDecodeOptionSubCCOnly is set.;
+- (id <NSLayoutItem>)ying subCC payload, skip checking subCC digest;
+- (_Bool)) failed.;
+- (_Bool)Img4DecodeGetPropertyData(kFDRTag_SCDG) failed.;
+- (NSArray *)pertyData(kFDRTag_SrvT) failed.;
+- (struct CGSize)mg4.payload_hashed is false;
+- (_Bool)D;
+- (NSLayoutConstraint *)s:(NSLayoutAnchor *)arg1 Skip verifying assembly identifier;
+- (_Bool)Img4DecodeGetPropertyData(kFDRTag_asid) failed.;
+- (id <NSLayoutItem>)uniqueID is specified, cannot verify kFDRTag_inst property;
+- (void)s allowed, skip comparing kFDRTag_inst object property;
+- (void)niqueID is specified, but this is allowed, skip comparing kFDRTag_inst object property;
+- (NSLayoutRect *)shouldDoWorkConsideringTlsState;
+- (NSISVariable *)substringFromIndex: /* Error: Ran out of types for this method. */;
+- (NSISVariable *)_remoteConnection;
 
 // Remaining properties
 @property(setter=nsli_setPiercingToken:) unsigned long long nsli_piercingToken;

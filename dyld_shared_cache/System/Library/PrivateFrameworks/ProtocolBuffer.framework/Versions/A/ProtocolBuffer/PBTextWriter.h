@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableString;
-
 @interface PBTextWriter
 {
     _Bool _newlinesPrinted;
-    long long _indent;
-    NSMutableString *_dest;
-    NSMutableDictionary *_cachedObjectTypes;
 }
 
 - (void);

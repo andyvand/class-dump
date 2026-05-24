@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, _EARLanguageDetectorV2RequestOptions;
-@protocol OS_dispatch_queue, _EARLanguageDetectorV2Delegate;
+@protocol _EARLanguageDetectorV2Delegate;
 
 @interface _EARLanguageDetectorV2
 {
     struct shared_ptr<quasar::PSRAudioProcessor> _audioProcessor;
-    struct SystemConfig _sysConfig;
-    NSObject<OS_dispatch_queue> *_lidQueue;
-    struct shared_ptr<quasar::RecogAudioBuffer> _audioBuffer;
-    NSArray *_supportedLocales;
-    float _englishThreshold;
-    _EARLanguageDetectorV2RequestOptions *_requestOptions;
-    _Bool _useNNVad;
-    id <_EARLanguageDetectorV2Delegate> _lidDelegate;
 }
 
 + (void)¡;
@@ -30,9 +21,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)Ô	;
 

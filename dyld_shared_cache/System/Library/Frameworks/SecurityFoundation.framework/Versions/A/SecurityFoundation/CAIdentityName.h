@@ -9,12 +9,6 @@
 @interface CAIdentityName
 {
     NSString *_caIdentityName;
-    int _caLetUserOverrideDefaults;
-    int _caMakeCAConfigFileTheDefaultCA;
-    int _caSelfSignedChosen;
-    _Bool _caDidWarnAboutSelfSignedCert;
-    NSString *_caAdminCAEmailAddress;
-    int _certType;
 }
 
 - (void);
@@ -23,15 +17,15 @@
 - (void);
 - (void);
 - (void);
+- (int) ;
 - (int);
-- (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (int);
 - (void);

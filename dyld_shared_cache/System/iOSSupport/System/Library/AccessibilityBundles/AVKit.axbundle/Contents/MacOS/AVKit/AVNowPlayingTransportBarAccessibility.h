@@ -13,14 +13,14 @@
 + (Class);
 + (id);
 + (void);
-- (void);
+- (void)3;
 - (id);
 - (long long);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)AdAttributionKit;
 - (id);
 
 @end

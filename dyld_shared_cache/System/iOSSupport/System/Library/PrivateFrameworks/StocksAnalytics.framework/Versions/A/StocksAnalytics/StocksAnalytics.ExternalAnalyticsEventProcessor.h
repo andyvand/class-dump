@@ -8,12 +8,6 @@
 {
     id tracker;
     id appConfigurationManager;
-    id uploader;
-    id panelIdProvider;
-    id urlProvider;
-    id panelIdMapping;
-    id vpnProfileNames;
-    id sessionID;
 }
 
 @end

@@ -11,24 +11,24 @@
     NSMutableOrderedSet *_acceptableTypes;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool)This is a UIKit internal bug.;
 - (void);
 - (void);
+- (id)gistering chat identifier:(Class)arg1 %@   style:%d  guid:%@ handleInfo:%@ lastAddressedHandle %@ lastAddressedSIMID %@ /* Error: Ran out of types for this method. */;
+- (id)ot found for id %@ (it may have been deleted);
+- (id)ignoring;
+- (void):(Class)arg1 ';
+- (void)nt = %@, accounts = %@;
+- (id)@16^B24;
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool)ckground;
-- (void)eedback;
-- (id)List;
+- (_Bool)maskForShadowViewBlurredBackground;
+- (void)detentFeedback;
+- (id)UITableViewCellLayoutManagerSourceList;
 - (void);
 
 // Remaining properties

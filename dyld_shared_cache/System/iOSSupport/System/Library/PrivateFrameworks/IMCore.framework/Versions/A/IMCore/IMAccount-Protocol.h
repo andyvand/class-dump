@@ -5,15 +5,10 @@
 //
 
 @protocol IMAccount
+- (_Bool)qE;
 - (_Bool)|;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accountType;
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) _Bool isRegistered;
-@property(readonly, nonatomic) _Bool isSMSRelayCapable;
 @property(readonly, nonatomic) unsigned long long loginStatus;
-@property(readonly, nonatomic) long long profileValidationStatus;
-@property(readonly, nonatomic) long long registrationStatus;
 @end
 

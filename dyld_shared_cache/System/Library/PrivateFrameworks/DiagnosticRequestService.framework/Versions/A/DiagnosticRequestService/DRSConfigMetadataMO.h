@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRConfigMO, NSDate, NSString, NSUUID;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface DRSConfigMetadataMO
 {
 }
 
-+ (id);
++ (id)phoneCallContext;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *appliedDate; // @dynamic appliedDate;
-@property(copy, nonatomic) NSDate *completedDate; // @dynamic completedDate;
-@property(copy, nonatomic) NSString *completionDescription; // @dynamic completionDescription;
-@property(nonatomic) long long completionType; // @dynamic completionType;
-@property(retain, nonatomic) DRConfigMO *configMO; // @dynamic configMO;
-@property(copy, nonatomic) NSUUID *configUUID; // @dynamic configUUID;
-@property(nonatomic) _Bool logTelemetry; // @dynamic logTelemetry;
-@property(copy, nonatomic) NSDate *receivedDate; // @dynamic receivedDate;
-@property(nonatomic) _Bool reportToDecisionServer; // @dynamic reportToDecisionServer;
-@property(nonatomic) short state; // @dynamic state;
-@property(copy, nonatomic) NSString *teamID; // @dynamic teamID;
 
 @end
 

@@ -6,38 +6,25 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class CLSArchivedHandout, CLSArchivedSurvey, NSArray, NSString, NSURL;
-
 @interface CLSArchivedHandoutAttachment : CLSObject
 {
     int _shareType;
-    int _permissionType;
-    NSURL *_URL;
-    NSArray *_contextPath;
-    NSString *_contextSummary;
-    NSString *_contextCustomTypeName;
-    _Bool _contextSourceIsCatalog;
-    NSString *_title;
-    NSString *_bundleIdentifier;
-    NSString *_contentStoreIdentifier;
-    long long _displayOrder;
-    long long _contextType;
-    double _timeExpectation;
-    int _type;
-    NSString *_storeIdentifier;
 }
 
 + (id);
-+ (_Bool);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
++ (_Bool)_beneficiaryID;
+- (int)transactionID=0x%llx, reqCb->transactionID=0x%llx
+;
+- (void)tBufferSurface is NULL error = 0x%x
+;
+- (void)ANERequestReceiverStart;
+- (void)iled result= 0x%x
+;
+- (void)read argument buffer overrun.;
+- (void)onScheduleInfo;
+- (void)range next segment count;
+- (void)of range next segment id [0];
+- (int);
 - (id);
 - (id);
 - (_Bool);
@@ -46,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -55,7 +42,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)~;
 - (void);
 - (long long);
 - (int);
@@ -65,36 +52,10 @@
 - (id);
 - (void);
 - (void);
-- (id)fierPath: /* Error: Ran out of types for this method. */;
+- (id)authStatusAtIdentifierPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) NSArray *archivedAssets;
-@property(readonly, copy, nonatomic) CLSArchivedSurvey *archivedSurvey;
-@property(readonly, nonatomic) NSArray *assets;
-@property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSString *contentStoreIdentifier; // @synthesize contentStoreIdentifier=_contentStoreIdentifier;
-@property(readonly, nonatomic) NSString *contextCustomTypeName; // @synthesize contextCustomTypeName=_contextCustomTypeName;
-@property(readonly, nonatomic) NSArray *contextPath; // @synthesize contextPath=_contextPath;
-@property(readonly, nonatomic) _Bool contextSourceIsCatalog; // @synthesize contextSourceIsCatalog=_contextSourceIsCatalog;
-@property(readonly, nonatomic) NSString *contextSummary; // @synthesize contextSummary=_contextSummary;
-@property(readonly, nonatomic) long long contextType; // @synthesize contextType=_contextType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long displayOrder; // @synthesize displayOrder=_displayOrder;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CLSArchivedHandout *parent; // @dynamic parent;
-@property(readonly, nonatomic) NSString *parentObjectID; // @dynamic parentObjectID;
-@property(readonly, nonatomic) int permissionType; // @synthesize permissionType=_permissionType;
-@property(readonly, nonatomic) int shareType; // @synthesize shareType=_shareType;
-@property(readonly, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeExpectation; // @synthesize timeExpectation=_timeExpectation;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

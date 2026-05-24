@@ -9,8 +9,8 @@
     long long _contactID;
 }
 
-- (long long);
-- (void)isNegative;
+- (long long)P;
+- (void)_isNegative;
 
 // Remaining properties
 @property(nonatomic) long long contactID; // @synthesize contactID=_contactID;

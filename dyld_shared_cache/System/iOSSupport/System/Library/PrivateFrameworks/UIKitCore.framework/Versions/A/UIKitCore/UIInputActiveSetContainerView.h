@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (_Bool)"24;
 - (id)1Â0@ù
 × ;
-- (int)ngNavigationBarHiding;
+- (int)_allowDisablingNavigationBarHiding;
 
 @end
 

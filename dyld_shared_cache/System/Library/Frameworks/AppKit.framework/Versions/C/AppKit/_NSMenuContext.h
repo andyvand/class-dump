@@ -4,56 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSError, NSMutableArray, NSSet, NSString;
-
 @interface _NSMenuContext
 {
     id _requestor;
-    NSArray *_sendTypes;
-    NSMutableArray *_requestorInfos;
-    NSArray *_fileURLsToCheck;
-    NSSet *_preloadedUTIsOfFileURLsToCheck;
-    NSError *_errorLoadingUTIs;
-    NSString *_stringToCheck;
-    struct _NSRange _rangeOfStringToCheck;
-    NSAttributedString *_attrStringToCheck;
-    struct _NSRange _rangeOfAttrStringToCheck;
-    NSArray *_carbonCopyUTIs;
-    NSArray *_carbonPasteUTIs;
-    unsigned long long _duplicateServicesMask;
-    NSString *_presentationMode;
-    unsigned long long _source;
-    struct {
-        unsigned int requiresSelection:1;
-        unsigned int inspectsSelectionText:1;
-        unsigned int allowsAllWhitespaceText:1;
-        unsigned int checkedForString:1;
-        unsigned int checkedForAttrString:1;
-        unsigned int checkedForURLs:1;
-        unsigned int checkedForWhitespace:1;
-        unsigned int isAllWhitespace:1;
-        unsigned int reserved:24;
-    } _flags;
 }
 
-- (id);
+- (id);
+- (void)d;
+- (void)p	p	p	p	p	p	p	p	p	;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ig metadata:(_Bool)arg1 %d;
+- (_Bool)SIMTrayStatus;
+- (_Bool)SBCanForceDebuggingInfo;
+- (_Bool)twWCmmM9I0dxwv7Zs9v48Q;
+- (id)02x%02x%02x%02x%02x%02x%02x%02x%02x%02x;
+- (void)CameraOffset_2D path;
+- (_Bool)swFu0srn5UxdOug;
+- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -66,17 +40,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -84,15 +57,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)HTTPMaximumConnectionsPerHost;
+- (id)iggered;
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsAllWhitespaceText;
 @property(nonatomic) unsigned long long duplicateServicesMask; // @synthesize duplicateServicesMask=_duplicateServicesMask;
-@property(nonatomic) _Bool inspectsSelectionText;
-@property(nonatomic) _Bool requiresSelection;
 
 @end
 

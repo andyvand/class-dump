@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)<;
 - (struct CGPoint);
 - (double);
 - (void);
-- (double);
-- (struct UIEdgeInsets);
-- (unsigned long long);
-- (struct CGPoint);
+- (double)isEmergencySMSEnabled %@;
+- (struct UIEdgeInsets)@;
+- (unsigned long long)ignoreDeliveredQuietlyReceipts;
+- (struct CGPoint)IMDRelayChatValidationDisabled;
 - (id);
 - (double)VfromPlacement;
 

@@ -6,30 +6,29 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class AMSUIWebAppearance, AMSUIWebCameraReaderInfoView, AMSUIWebCameraReaderPageModel, AMSUIWebClientContext, AMSUIWebNavigationBarModel, NSDictionary, NSString, NSViewController;
+@class AMSUIWebAppearance;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebCameraReaderViewController : AMSUICommonViewController
 {
     _Bool _detectedInvalidDocument;
-    AMSUIWebAppearance *_appearance;
-    NSViewController *_childController;
-    AMSUIWebClientContext *_context;
-    AMSUIWebCameraReaderInfoView *_infoView;
-    AMSUIWebCameraReaderPageModel *_model;
-    AMSUIWebNavigationBarModel *_navigationBarModel;
-    NSDictionary *_output;
 }
 
 + (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)not handle did receive asset:(id)arg1 %@ for client:(id)arg2 %@;
+- (void)}@);
+- (void)0@"DDSAsset"8Q16;
+- (void)d, cacheOnly:(_Bool)arg1 %d)>;
+- (void)sForClientID:(id)arg1 ];
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)Y;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,23 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -73,6 +56,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void)unsubscribeWithCompletionHandler:(id)arg1;
+- (void)unsubscribeFromCollectionShare:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)unsafeRemoveManagedObjectModel;
+- (void)unregisterCacheDeleteSupport:(id)arg1 withLibraryServicesManager:(id)arg2;
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -81,27 +74,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)--bundle /usr/standalone/i386/SecureBoot.bundle --variant CustomerInstall --output /tmp/personalized
+               Personalize the "CustomerInstall" variant in the specified secure boot bundle for the currently booted
+               system and write the resulting image4 manifests to relative paths in the given output directory.
+
+;
 - (void)omata}^{_xmlAutomataState}}ii**ii^*qqiii***^iii^ii^{_xmlParserInput}iiii^vii^vii^{_xmlDict}^*ii***iii^*^i^{_xmlStartTag}^{_xmlHashTable}^{_xmlHashTable}iiii^{_xmlNode}i^{_xmlAttr}{_xmlError=ii*i*i***ii^v^v}iQQ^{_xmlParserNodeInfo}ii^{_xmlParserNodeInfo}iQ}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (void)@w;
 
 // Remaining properties
 @property(retain) AMSUIWebAppearance *appearance; // @synthesize appearance=_appearance;
-@property(retain) NSViewController *childController; // @synthesize childController=_childController;
-@property(retain) AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool detectedInvalidDocument; // @synthesize detectedInvalidDocument=_detectedInvalidDocument;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSUIWebCameraReaderInfoView *infoView; // @synthesize infoView=_infoView;
-@property(retain) AMSUIWebCameraReaderPageModel *model; // @synthesize model=_model;
-@property(retain) AMSUIWebNavigationBarModel *navigationBarModel; // @synthesize navigationBarModel=_navigationBarModel;
-@property(retain) NSDictionary *output; // @synthesize output=_output;
-@property(readonly) Class superclass;
 
 @end
 

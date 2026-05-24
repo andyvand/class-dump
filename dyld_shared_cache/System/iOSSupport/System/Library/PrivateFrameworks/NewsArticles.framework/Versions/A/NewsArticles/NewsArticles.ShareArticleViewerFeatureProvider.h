@@ -7,9 +7,6 @@
 @interface NewsArticles.ShareArticleViewerFeatureProvider
 {
     id commandCenter;
-    id tracker;
-    id visibilityProvider;
-    id tipSourceManager;
 }
 
 @end

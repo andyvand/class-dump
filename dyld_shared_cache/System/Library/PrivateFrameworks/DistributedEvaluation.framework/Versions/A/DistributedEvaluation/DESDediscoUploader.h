@@ -9,16 +9,15 @@
 @interface DESDediscoUploader
 {
     DESRecipe *_recipe;
-    DESDediscoKey *_key;
 }
 
-+ (_Bool);
-+ (_Bool);
-- (_Bool);
-- (id);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
++ (_Bool)ss.returnValue.value.enumeration.typeIdentifier.custom.bundleId;
++ (_Bool)esultTier1.modifiedTranscript;
+- (_Bool)mentResults.payload.outcome.parameterConfirmation.item.value.entity.typeIdentifier.custom.bundleId;
+- (id)responseGenerationRequest.statementResults.payload.outcome.success.returnValue.value.enumeration.typeIdentifier.custom.bundleId;
+- (unsigned int).resolvedParameters.parameters.candidate.value.collection.values.enumeration.typeIdentifier.custom.bundleId;
+- (_Bool)pp.bundleId;
+- (_Bool)ustom.bundleId;
 - (_Bool);
 - (id);
 - (void);

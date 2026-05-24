@@ -4,51 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADTable, OADTableProperties, OADTableStyle;
+@class OADTable;
 
 __attribute__((visibility("hidden")))
 @interface OADTableStyleResolver
 {
     OADTable *mTable;
-    OADTableProperties *mTableProperties;
-    OADTableStyle *mTableStyle;
-    int mColumnCount;
-    int mRowCount;
-    void *mCellMatrix;
-    void *mCellStyles;
-    void *mStrokes[2];
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (struct OADTMatrixPos);
 - (void);
-- (int);
+- (int)k;
+- (void);
+- (void);
+- (void);
+- (void)9e;
+- (void)j;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void) ;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)єz;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)q;
 - (int);
 - (void);
 - (void);

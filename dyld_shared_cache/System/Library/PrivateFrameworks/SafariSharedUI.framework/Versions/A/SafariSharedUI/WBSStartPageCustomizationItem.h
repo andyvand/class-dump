@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
-
 @interface WBSStartPageCustomizationItem
 {
     _Bool _enabled;
-    id _identifier;
-    NSString *_title;
-    NSImage *_icon;
 }
 
 + (id);
@@ -19,16 +14,13 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (void)vacyProxyAvailabilityManager;
+- (void)privacyProxyAvailabilityManager;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSImage *icon; // @synthesize icon=_icon;
 @property(readonly, nonatomic) id identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

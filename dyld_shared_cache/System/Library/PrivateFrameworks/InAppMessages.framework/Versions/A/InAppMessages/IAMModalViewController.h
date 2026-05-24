@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView, NSViewController;
-@protocol IAMViewControllerMetricsDelegate;
+@class NSView;
 
 @interface IAMModalViewController
 {
     _Bool _shouldPresentFullscreen;
-    NSViewController *_contentViewController;
-    id <IAMViewControllerMetricsDelegate> _metricsDelegate;
-    CDUnknownBlockType _viewControllerWillDismissBlock;
-    NSView *_contentView;
 }
 
 - (CDUnknownBlockType);
@@ -21,29 +16,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)th configuration [%{public}s];
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)shotWindow;
 - (void);
 - (void);
+- (void)th nil section. Skipping for this result.;
+- (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) NSViewController *contentViewController; // @synthesize contentViewController=_contentViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <IAMViewControllerMetricsDelegate> metricsDelegate; // @synthesize metricsDelegate=_metricsDelegate;
-@property(nonatomic) _Bool shouldPresentFullscreen; // @synthesize shouldPresentFullscreen=_shouldPresentFullscreen;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType viewControllerWillDismissBlock; // @synthesize viewControllerWillDismissBlock=_viewControllerWillDismissBlock;
 
 @end
 

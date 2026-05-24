@@ -6,14 +6,12 @@
 
 #import <ExchangeWebServices/EWSSearchExpressionType.h>
 
-@class NSString;
-
 @interface EWSNotType : EWSSearchExpressionType
 {
     EWSSearchExpressionType *_SearchExpression;
 }
 
-+ (id);
++ (id)_Qo_;
 - (void);
 - (id);
 - (id);
@@ -21,13 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) EWSSearchExpressionType *SearchExpression; // @synthesize SearchExpression=_SearchExpression;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

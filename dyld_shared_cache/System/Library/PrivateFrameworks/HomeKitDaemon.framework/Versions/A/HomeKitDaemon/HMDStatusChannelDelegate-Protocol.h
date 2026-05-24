@@ -5,5 +5,8 @@
 //
 
 @protocol HMDStatusChannelDelegate
+
+@optional
+- (void);
 @end
 

@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, TSDCanvas, TSDLayout, TSDRootLayout;
+@class TSDCanvas;
 
 @interface TSDLayoutController
 {
     TSDCanvas *mCanvas;
-    TSDRootLayout *mRootLayout;
-    struct __CFDictionary *mLayoutsByInfo;
-    NSMutableSet *mInvalidLayouts;
-    NSMutableSet *mLayoutsNeedingRecreating;
-    NSMutableSet *mInvalidChildrenLayouts;
-    TSDLayout *mValidatingLayout;
 }
 
 + (void);
-+ (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
++ (id)xP7;
+- (id)nsition data;
+- (id)ask cancelled after audio mix setup - clearing transition data;
+- (void)ses overlap start, cancelling crossfade;
+- (void)transitionProvided;
+- (void):(id)arg1;
 - (id);
 - (struct CGRect);
 - (id);
@@ -31,14 +25,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)p;
 - (void);
 - (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);

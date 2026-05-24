@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSObject, NSString, NSUserDefaults, PowerUIBatteryMitigationManager, PowerUITrialManager, _OSChargingPredictor;
-@protocol OS_dispatch_queue, OS_os_log, _CDLocalContext;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface PowerUICECPredictedTimeManager
 {
     _Bool _tBypassSignals;
-    NSDate *_deadline;
-    NSString *_debugStatus;
-    NSObject<OS_os_log> *_log;
-    id <_CDLocalContext> _context;
-    NSArray *_monitors;
-    PowerUITrialManager *_trialManager;
-    NSUserDefaults *_defaults;
-    NSObject<OS_dispatch_queue> *_queue;
-    _OSChargingPredictor *_pluggedInPredictor;
-    NSDate *_modelDeadline;
-    CDUnknownBlockType _handler;
-    NSDate *_tModelPredition;
-    double _predictionLeeway;
-    PowerUIBatteryMitigationManager *_batteryMitigationManager;
 }
 
-+ (id);
-- (double);
++ (id)c;
+- (double)C;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -41,7 +27,7 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (id);
 - (_Bool);
 - (id);
@@ -51,9 +37,9 @@
 - (void);
 - (id);
 - (void);
+- (void)i7	;
 - (void);
-- (void);
-- (void);
+- (void)est"24@?<v@?@"AMSDialogResult"@"NSError">32;
 - (id);
 - (id);
 - (void);
@@ -62,7 +48,7 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (void);
@@ -73,28 +59,7 @@
 - (void)üc,g;
 
 // Remaining properties
-@property(retain, nonatomic) PowerUIBatteryMitigationManager *batteryMitigationManager; // @synthesize batteryMitigationManager=_batteryMitigationManager;
-@property(retain, nonatomic) id <_CDLocalContext> context; // @synthesize context=_context;
-@property(retain, nonatomic) NSDate *deadline; // @synthesize deadline=_deadline;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSString *debugStatus; // @synthesize debugStatus=_debugStatus;
-@property(retain, nonatomic) NSUserDefaults *defaults; // @synthesize defaults=_defaults;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) NSDate *modelDeadline; // @synthesize modelDeadline=_modelDeadline;
-@property(retain, nonatomic) NSArray *monitors; // @synthesize monitors=_monitors;
-@property(retain, nonatomic) _OSChargingPredictor *pluggedInPredictor; // @synthesize pluggedInPredictor=_pluggedInPredictor;
-@property(nonatomic) double predictionLeeway; // @synthesize predictionLeeway=_predictionLeeway;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tBypassSignals; // @synthesize tBypassSignals=_tBypassSignals;
-@property(retain, nonatomic) NSDate *tModelPredition; // @synthesize tModelPredition=_tModelPredition;
-@property(retain, nonatomic) PowerUITrialManager *trialManager; // @synthesize trialManager=_trialManager;
 
 @end
 

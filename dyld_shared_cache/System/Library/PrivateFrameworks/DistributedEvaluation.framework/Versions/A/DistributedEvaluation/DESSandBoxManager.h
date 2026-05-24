@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface DESSandBoxManager
 {
     NSArray *_extensions;
-    NSMutableArray *_consumedSandboxExtensions;
 }
 
-+ (id);
-- (void);
++ (id)tom.bundleId;
+- (void)st.statementResults.payload.outcome.parameterNotAllowed.value.collection.values.primitive.app.bundleId;
 - (id);
-- (_Bool);
+- (_Bool)e.collection.values.query.typeIdentifier.custom.bundleId;
 - (void);
 - (void);
 

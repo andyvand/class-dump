@@ -8,12 +8,6 @@
 {
     id _$scope;
     id _showNotesButton;
-    id _showMarkAsCookedButton;
-    id _hasCooked;
-    id _hasRated;
-    id _recipeID;
-    id _popover;
-    id _$observationRegistrar;
 }
 
 @end

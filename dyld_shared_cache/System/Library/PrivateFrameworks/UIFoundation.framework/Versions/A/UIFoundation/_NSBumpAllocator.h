@@ -8,14 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _NSBumpAllocator
 {
     struct Slab *_firstSlab;
-    struct Slab *_curSlab;
-    char *_ptr;
-    char *_endPtr;
 }
 
 - (void);
 - (struct Slab *);
-- (void);
+- (void);
 - (void *);
 
 @end

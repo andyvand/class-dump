@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UITextFieldPaddedMetricsProvider
 {
     _Bool _canIntrinsicHeightExceedContentHeight;
-    double _minimumIntrinsicHeight;
-    struct UIEdgeInsets _padding;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (void)ndardItems:(_Bool)arg1;
-- (double)ContentSizeCategoryChange;
-- (id)ackgroundProviderDidChange;
+- (void)deleteStandardItems:(_Bool)arg1;
+- (double)_updateForPreferredContentSizeCategoryChange;
+- (id)_backgroundProviderDidChange;
 - (id)edIconBehavior;
 - (double);
 - (struct UIEdgeInsets)Å|43^;
@@ -29,18 +25,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)óàþÇWËP§];
 
 // Remaining properties
-@property(nonatomic) _Bool canIntrinsicHeightExceedContentHeight; // @synthesize canIntrinsicHeightExceedContentHeight=_canIntrinsicHeightExceedContentHeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double minimumIntrinsicHeight; // @synthesize minimumIntrinsicHeight=_minimumIntrinsicHeight;
-@property(readonly, nonatomic) double naturalHeight;
-@property(nonatomic) struct UIEdgeInsets padding; // @synthesize padding=_padding;
-@property(readonly, nonatomic) _Bool shouldExtendCaretHeight;
-@property(readonly) Class superclass;
 
 @end
 

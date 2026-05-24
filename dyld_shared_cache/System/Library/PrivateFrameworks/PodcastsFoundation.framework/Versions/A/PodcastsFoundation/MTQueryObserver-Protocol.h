@@ -5,5 +5,6 @@
 //
 
 @protocol MTQueryObserver
+- (void);
 @end
 

@@ -9,20 +9,18 @@
 @interface BMPBContentAttachment
 {
     NSString *_filename;
-    NSString *_path;
-    NSString *_type;
 }
 
-- (_Bool);
+- (_Bool)16;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)| BEGIN | session:(id)arg1 %ld, options:%{public}@, fncallback:%@, context:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)_westLongitude;
+- (void)dc_scaledImageMinDimension:(id)arg1 scale: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -35,12 +33,7 @@
 - (void)9;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(readonly, nonatomic) _Bool hasFilename;
-@property(readonly, nonatomic) _Bool hasPath;
 @property(readonly, nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

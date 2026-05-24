@@ -5,5 +5,8 @@
 //
 
 @protocol MPTimingSupport
+- (void);
+- (double)__TEXT;
+- (double);
 @end
 

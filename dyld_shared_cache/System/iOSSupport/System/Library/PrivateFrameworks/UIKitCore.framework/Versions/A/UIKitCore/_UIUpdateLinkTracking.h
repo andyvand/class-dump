@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)setOriginalUnformattedID: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 @end

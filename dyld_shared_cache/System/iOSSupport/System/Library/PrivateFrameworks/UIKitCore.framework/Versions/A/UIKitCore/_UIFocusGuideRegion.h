@@ -6,22 +6,15 @@
 
 #import <UIKitCore/_UIFocusRegion.h>
 
-@protocol UIFocusEnvironment, _UIFocusGuideRegionDelegate;
-
 __attribute__((visibility("hidden")))
 @interface _UIFocusGuideRegion : _UIFocusRegion
 {
     _Bool __isUnoccludable;
-    _Bool __ignoresSpeedBumpEdges;
-    _Bool __isUnclippable;
-    float __focusPriority;
-    id <_UIFocusGuideRegionDelegate> _delegate;
-    id <UIFocusEnvironment> _owningEnvironment;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)sessionWillBecomeInactiveWithAccount: /* Error: Ran out of types for this method. */;
+- (id)generateSafeRender:(struct CGRect)arg1 constraints:(id)arg2 completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -29,34 +22,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)ng plain text messages are unsupported on %@.;
+- (id)to %@, not a phone number %@;
+- (_Bool)uled message %@;
+- (_Bool)oredOnRecord:(id)arg1 %@;
+- (_Bool)@ to chat %@;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (float);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)k as updated %@;
+- (id)r pending map without a handle %@;
+- (float)@;
+- (id)n told drop incoming payloads from this or all unknown senders.;
+- (id)callerID to %@;
+- (id)for you!;
+- (_Bool)orationId:%@, error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)est payloadURL == nil;
 - (_Bool);
 - (id);
 - (void)¡Ð!¬Eùdð1Â0@ù
 × ;
-- (_Bool)ition;
+- (_Bool)targetPosition;
 - (void)Ø¥[;
 
 // Remaining properties
-@property(nonatomic, setter=_setFocusPriority:) float _focusPriority; // @synthesize _focusPriority=__focusPriority;
-@property(nonatomic, setter=_setIgnoresSpeedBumpEdges:) _Bool _ignoresSpeedBumpEdges; // @synthesize _ignoresSpeedBumpEdges=__ignoresSpeedBumpEdges;
-@property(nonatomic, setter=_setIsUnclippable:) _Bool _isUnclippable; // @synthesize _isUnclippable=__isUnclippable;
 @property(nonatomic, setter=_setIsUnoccludable:) _Bool _isUnoccludable; // @synthesize _isUnoccludable=__isUnoccludable;
-@property(nonatomic) __weak id <_UIFocusGuideRegionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak id <UIFocusEnvironment> owningEnvironment; // @synthesize owningEnvironment=_owningEnvironment;
 
 @end
 

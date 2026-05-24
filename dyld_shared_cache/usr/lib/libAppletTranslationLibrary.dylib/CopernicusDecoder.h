@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CopernicusDecoder
 {
     unsigned char _state;
-    unsigned int _transactionType;
-    NSString *_endPointIdentifier;
-    NSString *_readerIdentifier;
-    NSMutableDictionary *_stepUpData;
 }
 
 + (_Bool);
@@ -27,6 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,25 +35,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)7;
+- (id);
 - (unsigned int);
-- (id);
+- (id)fetchLastClientStateWithProtectionClass:(id)arg1 forBundleID:(id)arg2 clientStateName:(id)arg3 options:(id)arg4 completionHandler:(id *)arg5;
 - (void);
 - (id);
 - (void);
 - (unsigned char);
 - (id);
-- (void);
-- (void)NumRecords: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)decodeVGTyp23:withIfr:withBitmap:withNumRecords: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *endPointIdentifier; // @synthesize endPointIdentifier=_endPointIdentifier;
-@property(retain, nonatomic) NSString *readerIdentifier; // @synthesize readerIdentifier=_readerIdentifier;
-@property(nonatomic) unsigned char state; // @synthesize state=_state;
-@property(retain, nonatomic) NSMutableDictionary *stepUpData; // @synthesize stepUpData=_stepUpData;
-@property(nonatomic) unsigned int transactionType; // @synthesize transactionType=_transactionType;
 
 @end
 

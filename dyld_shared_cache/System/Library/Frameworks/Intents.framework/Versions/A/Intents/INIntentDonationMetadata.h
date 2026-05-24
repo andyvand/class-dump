@@ -8,12 +8,12 @@
 {
 }
 
-+ (Class);
++ (Class)_addRequest: /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (id)_bindingDescriptions;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)PasspointHomeOperatorNetwork;
+- (id);
 
 @end
 

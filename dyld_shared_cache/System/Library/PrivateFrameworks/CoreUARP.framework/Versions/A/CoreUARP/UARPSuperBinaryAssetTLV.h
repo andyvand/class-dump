@@ -4,56 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber, NSString, NSURL, UARPAssetVersion;
+@class NSURL;
 
 @interface UARPSuperBinaryAssetTLV
 {
     NSURL *_url;
-    NSData *_data;
-    NSString *_string;
-    unsigned char _val8;
-    unsigned short _val16;
-    unsigned int _val32;
-    unsigned long long _val64;
-    struct UARPVersion _version;
-    int _valueType;
-    struct uarpPayloadVersionInfo _versionInfo;
-    unsigned long long _type;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)en the next task finishes.;
++ (id)oadTransfers:(id)arg1 all file transfers have already been downloaded, or are disallowed:%s. Returning existing file urls. /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)};
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)U;
+- (id)";
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)Messages.shouldResetSetting;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
 @property(readonly) unsigned long long type; // @synthesize type=_type;
-@property(readonly) NSData *valueAsData;
-@property(readonly) NSNumber *valueAsNumber;
-@property(readonly) NSString *valueAsString;
-@property(readonly) NSArray *valueAsTLVs;
-@property(readonly) NSURL *valueAsURL;
-@property(readonly) UARPAssetVersion *valueAsVersion;
 
 @end
 

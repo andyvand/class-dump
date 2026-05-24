@@ -7,11 +7,10 @@
 @interface MPCAssistantDiscovery
 {
     void *_reconSession;
-    _Bool _waitForCompleteClusters;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

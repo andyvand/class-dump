@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSObject, NSString;
+@class NSDate, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _CDMultiLevelRateLimiter
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_lastRecorded;
-    long long _numberOfRateLimitPolicies;
-    NSArray *_periods;
-    NSMutableArray *_periodStart;
-    NSArray *_maxCounts;
-    NSMutableArray *_balances;
 }
 
 - (_Bool);
-- (id);
+- (id)(	;
 - (id);
 - (void);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (_Bool)ractionFeaturesForHandle:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)interactionFeaturesForHandle:reply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) NSDate *lastRecorded; // @synthesize lastRecorded=_lastRecorded;
-@property(readonly, nonatomic) long long numOfRateLimitPolicies; // @synthesize numOfRateLimitPolicies=_numberOfRateLimitPolicies;
-@property(readonly) Class superclass;
 
 @end
 

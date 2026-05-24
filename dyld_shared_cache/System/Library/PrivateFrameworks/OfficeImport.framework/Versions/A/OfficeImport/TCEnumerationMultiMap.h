@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface TCEnumerationMultiMap
 {
     struct __CFDictionary *m_valueToString;
-    struct __CFDictionary *m_stringToValue;
-    _Bool m_caseSensitive;
 }
 
 - (id);

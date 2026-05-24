@@ -12,7 +12,7 @@
 + (_Bool);
 - (int);
 - (id);
-- (void);
+- (void)ve 1 load-side power (Watts) (PH1R);
 - (void);
 - (id);
 

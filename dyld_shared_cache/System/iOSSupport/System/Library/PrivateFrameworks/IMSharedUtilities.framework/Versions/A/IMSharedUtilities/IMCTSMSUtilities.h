@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)7;
 + (id);
 + (id);
 + (id);
@@ -30,19 +30,19 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (void);
 + (id);
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool)#;
 + (_Bool);
 + (_Bool);
 + (int);
 + (double);
 + (int);
-+ (_Bool);
++ (_Bool)P;
 + (_Bool);
 + (_Bool);
 + (id);

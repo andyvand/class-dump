@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)lud v1MarkedAfterInitial %lud } numChats %lud { v0 %lud v1NoQOI %lud v1WithQOI %lud };
 + (void);
 + (void);
 + (void);

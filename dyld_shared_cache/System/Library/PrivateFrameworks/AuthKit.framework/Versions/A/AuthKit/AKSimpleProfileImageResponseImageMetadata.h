@@ -11,8 +11,6 @@
 @interface AKSimpleProfileImageResponseImageMetadata : AKDictionaryBackedModel
 {
     NSString *_imageID;
-    NSString *_imageURL;
-    NSString *_imageDescription;
 }
 
 - (id);
@@ -22,12 +20,10 @@
 - (id);
 - (void);
 - (void)Ð ì ;
-- (id)eIndex;
+- (id)_loginChoiceIndex;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *imageDescription; // @synthesize imageDescription=_imageDescription;
 @property(copy, nonatomic) NSString *imageID; // @synthesize imageID=_imageID;
-@property(copy, nonatomic) NSString *imageURL; // @synthesize imageURL=_imageURL;
 
 @end
 

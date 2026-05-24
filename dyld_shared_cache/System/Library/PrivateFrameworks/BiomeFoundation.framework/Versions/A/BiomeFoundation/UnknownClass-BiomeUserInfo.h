@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessControlPolicy, BMProcess, NSString;
+@class BMProcess;
 
 @interface UnknownClass (BiomeUserInfo)
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (void);
@@ -23,10 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) BMAccessControlPolicy *bm_accessControlPolicy;
-@property(nonatomic) unsigned long long bm_connectionFlags;
-@property(retain, nonatomic) NSString *bm_exportedUseCase;
 @property(readonly, nonatomic) BMProcess *bm_process;
-@property(readonly, nonatomic) NSString *bm_remoteUseCase;
 @end
 

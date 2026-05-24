@@ -6,34 +6,11 @@
 
 #import <PhotosUICore/PXStoryModelTimelineLayout.h>
 
-@class NSIndexSet, NSMutableDictionary, NSMutableIndexSet, NSString, PXNumberAnimator, PXStoryModel, PXStoryPagedTimelineSpec, PXStoryViewModel;
-@protocol PXGAXResponder;
+@class PXStoryPagedTimelineSpec;
 
 @interface PXStoryScrubberContentLayout : PXStoryModelTimelineLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    CDStruct_af00bf4e _postUpdateFlags;
-    unsigned int _backgroundSpriteIndex;
-    unsigned int _currentSegmentCursorSpriteIndex;
-    unsigned int _currentTimeCursorSpriteIndex;
-    unsigned int _scrollPositionCursorSpriteIndex;
-    unsigned int _wholeScrubberFocusSpriteIndex;
-    NSIndexSet *_supportedResourceKindsForClipLayouts;
-    _Bool _didUpdateTimelineTranslationXAnimatorOnce;
-    _Bool _isWaitingForFocusableViewUserDataUpdate;
-    NSMutableIndexSet *_axSpriteIndexes;
-    unsigned short _backgroundMediaVersion;
-    unsigned short _hostingSpritesMediaVersion;
-    NSMutableDictionary *_segmentIdentifiersToHostingSpriteIndexes;
-    struct _PXGSpriteIndexRange _hostingSpritesIndexRange;
-    _Bool _containsFocus;
-    id <PXGAXResponder> axNextResponder;
-    PXStoryViewModel *_viewModel;
-    PXStoryPagedTimelineSpec *_pagedTimelineSpec;
-    PXNumberAnimator *_timelineTranslationXAnimator;
-    PXNumberAnimator *_timelineTranslationYAnimator;
-    PXStoryModel *_mainModel;
-    double _focusHintTranslationY;
 }
 
 - (void);
@@ -53,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -64,13 +41,13 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (id);
 - (void);
@@ -101,10 +78,10 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)41;
 - (struct CGRect);
 - (id);
 - (void);
@@ -113,9 +90,9 @@
 - (void);
 - (void);
 - (void);
-- (void)ent:(id)arg1 progress:completion: /* Error: Ran out of types for this method. */;
+- (void)exitWithRetentionPolicy:(id)arg1 presentationEnvironment:progress:completion: /* Error: Ran out of types for this method. */;
 - (id)Td,N,V_feedItemCornerRadius;
-- (id)tle;
+- (id)actionConfirmationAlertSubtitle;
 - (void)ll PXLocalizedSharedLibraryString(NSString *__strong _Nonnull);
 - (void)CountPlacement;
 - (void)Constants;
@@ -123,21 +100,7 @@
 - (id)ðm: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXGAXResponder> axNextResponder; // @synthesize axNextResponder;
-@property(nonatomic) _Bool containsFocus; // @synthesize containsFocus=_containsFocus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double focusHintTranslationY; // @synthesize focusHintTranslationY=_focusHintTranslationY;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PXStoryModel *mainModel; // @synthesize mainModel=_mainModel;
 @property(retain, nonatomic) PXStoryPagedTimelineSpec *pagedTimelineSpec; // @synthesize pagedTimelineSpec=_pagedTimelineSpec;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXNumberAnimator *timelineTranslationXAnimator; // @synthesize timelineTranslationXAnimator=_timelineTranslationXAnimator;
-@property(readonly, nonatomic) PXNumberAnimator *timelineTranslationYAnimator; // @synthesize timelineTranslationYAnimator=_timelineTranslationYAnimator;
-@property(readonly, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

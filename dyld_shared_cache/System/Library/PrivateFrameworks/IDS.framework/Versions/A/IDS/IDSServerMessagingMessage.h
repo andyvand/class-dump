@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSNumber, NSString;
+@class NSData;
 
 @interface IDSServerMessagingMessage
 {
     NSData *_messageData;
-    NSDate *_expirationDate;
-    NSString *_messageID;
-    NSNumber *_userSpecifiedCommand;
-    NSDictionary *_userDefinedTopLevelFields;
 }
 
 - (_Bool);
@@ -23,7 +19,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setPhotosAssetIDs: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);
@@ -33,11 +29,7 @@
 - (id)ice Unpaired;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(retain, nonatomic) NSData *messageData; // @synthesize messageData=_messageData;
-@property(retain, nonatomic) NSString *messageID; // @synthesize messageID=_messageID;
-@property(retain, nonatomic) NSDictionary *userDefinedTopLevelFields; // @synthesize userDefinedTopLevelFields=_userDefinedTopLevelFields;
-@property(retain, nonatomic) NSNumber *userSpecifiedCommand; // @synthesize userSpecifiedCommand=_userSpecifiedCommand;
 
 @end
 

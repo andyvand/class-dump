@@ -7,9 +7,6 @@
 @interface SoundAnalysis.RecursiveMLModel
 {
     id model;
-    id modelDescription;
-    id recursiveInputs;
-    id feedbackConnections;
 }
 
 @end

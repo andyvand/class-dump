@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSConcurrentEventMonitor
 {
     _Bool isValid;
-    unsigned long long eventMask;
-    NSString *identifier;
-    struct os_unfair_lock_s eventLock;
-    struct __CFArray *eventQueue;
-    CDUnknownBlockType callback;
 }
 
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (_Bool);
@@ -26,15 +19,12 @@ __attribute__((visibility("hidden")))
 - (void)ingReuse"b1"stayHiddenAfterReuse"b1"updateAnimationCount"b16"dragging"b1"isTransientAccessibilityElement"b1"shouldConstrainWidth"b1"shouldConstrainHeight"b1"reserved"b4};
 - (id);
 - (unsigned long long);
-- (CDUnknownBlockType)onViewWeakDelegate;
+- (CDUnknownBlockType)NSCollectionViewWeakDelegate;
 - (void)beginSheetUsingPrintInfo:(_Bool)arg1 onWindow:completionHandler:] /* Error: Ran out of types for this method. */;
 - (_Bool)ÿPKõêC;
 - (void)ÙäfF;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType callback; // @synthesize callback;
-@property unsigned long long eventMask; // @synthesize eventMask;
-@property(copy) NSString *identifier; // @synthesize identifier;
 @property _Bool isValid; // @synthesize isValid;
 
 @end

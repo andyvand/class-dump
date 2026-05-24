@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSData, NSString;
+@class NSData;
 
 @interface HAPDataStreamHAPAccessoryPayload
 {
     NSData *_payload;
-    HAPTLVUnsignedNumberValue *_forceClose;
-    HAPTLVUnsignedNumberValue *_accessoryRequestToSend;
 }
 
 + (id);
@@ -21,25 +19,16 @@
 - (id);
 - (id);
 - (id);
+- (id)2;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)reliesOnDirectAccessForDomain:(id)arg1;
 - (_Bool);
 - (id);
 - (void)72C80Q84@92@100@108;
 - (void)ccessory %@;
 
 // Remaining properties
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *accessoryRequestToSend; // @synthesize accessoryRequestToSend=_accessoryRequestToSend;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *forceClose; // @synthesize forceClose=_forceClose;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(readonly) Class superclass;
 
 @end
 

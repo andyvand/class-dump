@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, UIView, _UIDragSessionProperties;
+
 @protocol UIDragInteractionDelegate_Private
+
+@optional
+- (UIView *)T;
+- (_Bool);
+- (_UIDragSessionProperties *);
+- (NSArray *);
+- (_Bool);
+- (long long)_invalidateWillPlayToEndObserver;
 @end
 

@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.TracingInstanceIDGenerator
 {
     id tracedGenerator;
-    id log;
 }
 
 @end

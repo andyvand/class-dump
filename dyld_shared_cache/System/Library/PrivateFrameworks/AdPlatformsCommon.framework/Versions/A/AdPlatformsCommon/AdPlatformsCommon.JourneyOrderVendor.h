@@ -7,10 +7,6 @@
 @interface AdPlatformsCommon.JourneyOrderVendor
 {
     id clock;
-    id receivedTimeFrame;
-    id createdTimeFrame;
-    id conversionTimeFrame;
-    id fallbackTimeFrame;
 }
 
 @end

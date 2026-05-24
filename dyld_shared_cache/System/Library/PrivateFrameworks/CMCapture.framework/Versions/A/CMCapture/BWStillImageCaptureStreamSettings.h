@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWBracketSettings, NSArray, NSDictionary, NSMutableArray, NSString;
-@protocol BWAdaptiveBracketingParameters;
+@class NSString;
 
 @interface BWStillImageCaptureStreamSettings
 {
     NSString *_portType;
-    NSString *_sensorIDString;
-    int _captureType;
-    unsigned long long _captureFlags;
-    BWBracketSettings *_bracketSettings;
-    NSArray *_validBracketedCaptureSequenceNumbers;
-    CDStruct_1b6d18a9 _preferredTimeMachinePTS;
-    int _timeMachineFrameCount;
-    int _referenceFrameIndex;
-    NSArray *_timeMachineBracketedCaptureParams;
-    NSDictionary *_preBracketFrameCaptureParams;
-    NSArray *_unifiedBracketedCaptureParams;
-    NSArray *_captureFrameInfos;
-    _Bool _lensStabilizationEnabledForClientBracket;
-    struct os_unfair_lock_s _adaptiveBracketingLock;
-    id <BWAdaptiveBracketingParameters> _adaptiveBracketingParameters;
-    NSArray *_adaptiveBracketingSphereOffsets;
-    NSMutableArray *_adaptiveBracketingFrameParameters;
-    NSMutableArray *_adaptiveTimeMachineBracketedCaptureParams;
-    NSMutableArray *_adaptivePreBracketFrameCaptureParams;
-    NSMutableArray *_adaptiveUnifiedBracketedCaptureParams;
-    NSMutableArray *_adaptiveCaptureFrameInfos;
-    _Bool _reachedEndOfAdaptiveBracketing;
-    CDStruct_1b6d18a9 _adaptiveBracketingLastFramePTS;
 }
 
 + (_Bool)0@ù
@@ -40,17 +16,18 @@
 - (id);
 - (int);
 - (_Bool);
-- (CDStruct_1b6d18a9);
-- (id);
-- (void);
-- (void);
+- (CDStruct_1b6d18a9)writeWrapPolygonChildren:to: /* Error: Ran out of types for this method. */;
+- (id)tsu_indexSetByInsertingIndexes:(id)arg1 inRange:(int)arg2;
+- (void)_formatCategories;
+- (void)STPropertyStorage;
+- (_Bool)size
+;
+- (int)s.openxmlformats.org/drawingml/2006/diagram;
 - (_Bool);
-- (int);
-- (_Bool);
-- (id);
+- (id)789:;<=>???@ABCDEFGHIJKLLMNNNOPQQQRSSSSSSSSSTUVWXYZ[[\]]]]]]]]]]]]]]]]]]]]]]^______`abcddddddddddef[[[[[[[[[[[[[[[[ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (id);
+- (id)yk;
 - (id);
 - (void);
 - (void);
@@ -73,19 +50,19 @@
 - (void);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)isNullForColumnName:table: /* Error: Ran out of types for this method. */;
 - (int);
-- (id);
+- (id);
 - (unsigned long long);
 - (CDStruct_77932685);
 - (void);
 - (int);
-- (int);
+- (int);
 - (int);
 - (id);
 - (_Bool);
-- (_Bool);
-- (CDStruct_1b6d18a9);
+- (_Bool)\;
+- (CDStruct_1b6d18a9);
 - (_Bool);
 - (void);
 - (int);
@@ -93,12 +70,12 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)6{CGPoint=dd}32{RBPath=^v^{RBPathCallbacks}}48{CGAffineTransform=dddddd}64I112;
 - (int);
 - (int);
-- (id);
+- (id)a;
 - (int)q36;
-- (int)s;
+- (int)manualExposureBracketedCaptureParams;
 - (id)fÿnÿwÿÿ!ÿ!ÿ ÿ¢{ÿ¬uÿµpÿ½kÿÆfÿÏaÿ×]ÿÞZÿã;
 - (id)roÁÿpÁÿqÁÿ¢qÁÿ±qÁÿÂpÀÿÎg¶ÿÙb«ÿå`¢ÿï`ÿ÷cÿÿeÿÿgÿÿiÿÿlÿÿnÿÿpÿÿsÿÿuÿÿwÿ;
 - (int):WéÿDWêÿNXêÿWXëÿ`XëÿjYìÿsYìÿ|YíÿZíÿZíÿZîÿ[îÿ¨[îÿ°[îÿ¹[íÿÂ[íÿÊ\ìÿÒ\ìÿÜ\êÿä\éÿí]èÿò^åÿò_ãÿ /* Error: Ran out of types for this method. */;
@@ -107,24 +84,7 @@
 - (id)ate is not currently supported on thermally limited devices;
 
 // Remaining properties
-@property(readonly, nonatomic) BWBracketSettings *bracketSettings; // @synthesize bracketSettings=_bracketSettings;
-@property(readonly, nonatomic) unsigned long long captureFlags; // @synthesize captureFlags=_captureFlags;
-@property(readonly, nonatomic) int captureType; // @synthesize captureType=_captureType;
-@property(readonly, nonatomic) _Bool expectPreBracketFrame;
-@property(readonly, nonatomic) int expectedFrameCaptureCount;
-@property(readonly, nonatomic) CDStruct_77932685 expectedFrameCaptureCounts;
-@property(readonly, nonatomic) int expectedFrameCount;
-@property(readonly, nonatomic) int expectedTimeMachineFrameCaptureCount;
-@property(readonly, nonatomic) int expectedUltraHighResFrameCaptureCount;
-@property(readonly, nonatomic) _Bool hasValidFrames;
-@property(readonly, nonatomic) _Bool isSensorRawCapture;
-@property(readonly, nonatomic) _Bool isYUVCapture;
 @property(readonly, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(nonatomic) CDStruct_1b6d18a9 preferredTimeMachinePTS; // @synthesize preferredTimeMachinePTS=_preferredTimeMachinePTS;
-@property(readonly, nonatomic) int resolutionFlavor;
-@property(retain, nonatomic) NSString *sensorIDString; // @synthesize sensorIDString=_sensorIDString;
-@property(readonly, nonatomic) int timeMachineFrameCount; // @synthesize timeMachineFrameCount=_timeMachineFrameCount;
-@property(readonly, nonatomic) NSArray *validBracketedCaptureSequenceNumbers; // @synthesize validBracketedCaptureSequenceNumbers=_validBracketedCaptureSequenceNumbers;
 
 @end
 

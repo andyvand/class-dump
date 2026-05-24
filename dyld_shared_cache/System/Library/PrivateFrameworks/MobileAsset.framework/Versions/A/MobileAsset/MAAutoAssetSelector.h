@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MAAutoAssetSelector
 {
     NSString *_assetType;
-    NSString *_assetSpecifier;
-    NSString *_assetVersion;
-    NSData *_downloadDecryptionKey;
-    NSString *_setAtomicInstanceUUID;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *assetSpecifier; // @synthesize assetSpecifier=_assetSpecifier;
-@property(readonly, retain, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
 @property(retain, nonatomic) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(readonly, retain, nonatomic) NSData *downloadDecryptionKey; // @synthesize downloadDecryptionKey=_downloadDecryptionKey;
-@property(retain, nonatomic) NSString *setAtomicInstanceUUID; // @synthesize setAtomicInstanceUUID=_setAtomicInstanceUUID;
 
 @end
 

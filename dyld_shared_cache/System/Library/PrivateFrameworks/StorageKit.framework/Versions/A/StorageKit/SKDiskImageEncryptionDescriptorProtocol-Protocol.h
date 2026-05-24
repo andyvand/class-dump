@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol SKDiskImageEncryptionDescriptorProtocol
+- (NSString *)selectBestVideoRuleForTransport:payload:encodingType:videoSettings:localVideoRuleCollection:remoteVideoRuleCollection:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long encryption;
-@property(readonly, nonatomic) NSString *name;
 @end
 

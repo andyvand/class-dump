@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CRKConcreteFileDescriptor
 {
@@ -18,19 +18,11 @@
 - (id);
 - (void);
 - (void);
-- (int);
+- (int)ribution Request made while reconcile is in progress. Postponing.;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *backingValue; // @synthesize backingValue=_backingValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int rawValue;
-@property(readonly) Class superclass;
 
 @end
 

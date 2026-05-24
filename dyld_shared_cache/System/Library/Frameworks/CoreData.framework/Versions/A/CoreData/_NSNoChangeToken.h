@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (oneway void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)H;
 - (_Bool);
 
 @end

@@ -15,13 +15,13 @@
 
 + (id);
 + (void);
-- (id);
+- (id)sabled(void);
 - (_Bool);
-- (void);
+- (void)authDelegateClassBundlePath;
 - (id);
 - (id);
 - (id);
-- (struct OpaqueCMClock *);
+- (struct OpaqueCMClock *)E;
 
 @end
 

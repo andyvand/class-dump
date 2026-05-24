@@ -7,9 +7,6 @@
 @interface CalendarUIKit.EKShareeWithData
 {
     id ekSharee;
-    id imageData;
-    id _isEditsAllowed;
-    id _$observationRegistrar;
 }
 
 @end

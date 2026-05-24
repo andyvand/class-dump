@@ -7,8 +7,6 @@
 @interface CoreUtilsSwift._CUDictionaryEncoder.SingleValueContainer__priv_749A67A7DE66CF40F515C99C4CCB32F0
 {
     id codingPath;
-    id _context;
-    id encodedValue;
 }
 
 @end

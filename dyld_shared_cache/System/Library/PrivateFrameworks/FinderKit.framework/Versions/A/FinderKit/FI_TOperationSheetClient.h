@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TOperationSheetClient
 {
     struct function<std::shared_ptr<TUndoableAction>()> _nextStep;
-    function_e88ba8d7 _cancel;
 }
 
 + (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void)Ä;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (IMTapbackSender)
-- (id);
-- (id);
+- (id)top (%p);
+- (id)=%@ present in carrier bundle, value=%d;
 @end
 

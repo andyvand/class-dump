@@ -9,18 +9,6 @@
 @interface SwiftUI.UIKitDialogBridge : SwiftUI.DialogActionDelegate
 {
     id hostingController;
-    id host;
-    id activePresentation;
-    id presentedVC;
-    id dialogSeed;
-    id lastDialogValues;
-    id alertSeed;
-    id lastAlertValues;
-    id lastAllowsSecureDrawing;
-    id lastEnvironment;
-    id lastActionContext;
-    id lastPlatformItemList;
-    id actionsChangeDetector;
 }
 
 @end

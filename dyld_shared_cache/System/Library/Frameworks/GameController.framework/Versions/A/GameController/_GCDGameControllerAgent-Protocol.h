@@ -5,5 +5,6 @@
 //
 
 @protocol _GCDGameControllerAgent
+- (void);
 @end
 

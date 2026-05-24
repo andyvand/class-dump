@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriterHelper, AVKeyPathDependencyManager, AVWeakReference, NSObject;
-@protocol AVAssetWriterDataWritingDelegate, AVAssetWriterFinishWritingDelegate, OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterInternal
 {
     AVWeakReference *weakReference;
-    AVAssetWriterHelper *helper;
-    NSObject<OS_dispatch_queue> *helperReadWriteQueue;
-    AVKeyPathDependencyManager *keyPathDependencyManager;
-    id <AVAssetWriterFinishWritingDelegate> finishWritingDelegate;
-    id <AVAssetWriterDataWritingDelegate> dataWritingDelegate;
 }
 
-- (void)ss:useContentKeyBoss:keySpecifier:initializationData:keyIDFromInitializationData:contentIdentifier:isRenewalRequest:requestID:providesPersistableKey:preloadingRequestOptions:identifier:supportsOfflineKey:originatingRecipientIdentifier: /* Error: Ran out of types for this method. */;
+- (void)initWithContentKeySession:contentKeyBoss:useContentKeyBoss:keySpecifier:initializationData:keyIDFromInitializationData:contentIdentifier:isRenewalRequest:requestID:providesPersistableKey:preloadingRequestOptions:identifier:supportsOfflineKey:originatingRecipientIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

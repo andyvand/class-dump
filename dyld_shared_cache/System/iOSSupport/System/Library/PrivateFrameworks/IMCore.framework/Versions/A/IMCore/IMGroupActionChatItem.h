@@ -6,20 +6,13 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSArray;
-
 @interface IMGroupActionChatItem : IMTranscriptChatItem
 {
     _Bool _failed;
-    IMHandle *_sender;
 }
 
 
 // Remaining properties
 @property(readonly, nonatomic) long long actionType;
-@property(readonly, nonatomic) _Bool failed; // @synthesize failed=_failed;
-@property(readonly, nonatomic) NSArray *fileTransferGUIDs;
-@property(readonly, nonatomic) IMHandle *sender; // @synthesize sender=_sender;
-@property(readonly, nonatomic) _Bool unattributed;
 @end
 

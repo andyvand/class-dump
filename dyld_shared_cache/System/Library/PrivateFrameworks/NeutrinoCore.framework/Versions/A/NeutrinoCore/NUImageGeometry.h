@@ -9,10 +9,6 @@
 @interface NUImageGeometry
 {
     long long _orientation;
-    id <NUTaggedSpaceMapping> _spaceMap;
-    long long _roundingPolicy;
-    CDStruct_1e2b2e48 _renderScale;
-    CDStruct_996ac03c _extent;
 }
 
 - (id);
@@ -20,15 +16,15 @@
 - (struct CGRect);
 - (long long);
 - (CDStruct_996ac03c);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
 - (id);
 - (CDStruct_912cb5d2);
-- (CDStruct_996ac03c);
+- (CDStruct_996ac03c)ookin' at you, '%@'.;
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9);
 - (id);
 - (CDStruct_912cb5d2);
 - (CDStruct_912cb5d2);
@@ -36,14 +32,6 @@
 - (void)fferTile>"^B>24;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_996ac03c extent; // @synthesize extent=_extent;
-@property(readonly, nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(readonly, nonatomic) CDStruct_996ac03c physicalScaledExtent;
-@property(readonly, nonatomic) CDStruct_912cb5d2 renderScale; // @synthesize renderScale=_renderScale;
-@property(readonly, nonatomic) long long roundingPolicy; // @synthesize roundingPolicy=_roundingPolicy;
-@property(readonly, nonatomic) struct CGRect scaledExtent;
-@property(readonly, nonatomic) CDStruct_912cb5d2 scaledSize;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size;
 @property(readonly, nonatomic) id <NUTaggedSpaceMapping> spaceMap; // @synthesize spaceMap=_spaceMap;
 
 @end

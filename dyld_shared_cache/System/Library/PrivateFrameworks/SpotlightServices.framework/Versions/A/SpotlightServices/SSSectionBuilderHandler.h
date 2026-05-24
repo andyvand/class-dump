@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, SPSearchContactEntity, SPSearchEntity, SPSearchQueryContext;
+@class NSArray;
 
 @interface SSSectionBuilderHandler
 {
     NSArray *_sections;
-    NSArray *_searchInAppInfo;
-    NSSet *_bundleIdentifiersForHiddenSections;
-    SPSearchContactEntity *_contactEntity;
-    SPSearchEntity *_searchEntity;
-    SPSearchQueryContext *_queryContext;
-    unsigned long long _renderState;
 }
 
-+ (Class);
++ (Class)ed;
++ (_Bool)loadValuesAsynchronouslyForKeys:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (void)domainNameForIndicator;
++ (id)configureSegmentedControl:(id)arg1;
++ (id)addTarget:(id)arg1 action:(id)arg2;
++ (id);
 + (_Bool);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)ѩV;
 + (id);
 + (void);
 - (void);
@@ -34,10 +28,10 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)nticationChallenge"32@?<v@?q@"NSURLCredential">40;
+- (id)timeControlStatus;
+- (id)systemPillButtonStyleForPlatform:sizeClass: /* Error: Ran out of types for this method. */;
+- (id)setDirectionsDestinationAddress: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -46,12 +40,6 @@
 - (void)mponent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *bundleIdentifiersForHiddenSections; // @synthesize bundleIdentifiersForHiddenSections=_bundleIdentifiersForHiddenSections;
-@property(retain, nonatomic) SPSearchContactEntity *contactEntity; // @synthesize contactEntity=_contactEntity;
-@property(retain, nonatomic) SPSearchQueryContext *queryContext; // @synthesize queryContext=_queryContext;
-@property(nonatomic) unsigned long long renderState; // @synthesize renderState=_renderState;
-@property(retain, nonatomic) SPSearchEntity *searchEntity; // @synthesize searchEntity=_searchEntity;
-@property(retain, nonatomic) NSArray *searchInAppInfo; // @synthesize searchInAppInfo=_searchInAppInfo;
 @property(retain, nonatomic) NSArray *sections; // @synthesize sections=_sections;
 
 @end

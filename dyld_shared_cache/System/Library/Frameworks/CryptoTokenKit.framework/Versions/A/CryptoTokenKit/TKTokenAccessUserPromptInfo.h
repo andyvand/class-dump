@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface TKTokenAccessUserPromptInfo
 {
     NSString *_clientDisplayName;
-    NSString *_providerDisplayName;
-    NSUUID *_correlationID;
 }
 
-+ (_Bool);
++ (_Bool)getStateResponseRemoteWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void)LocalAuthentication_Private.LAUserStore;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *clientDisplayName; // @synthesize clientDisplayName=_clientDisplayName;
-@property(readonly, nonatomic) NSUUID *correlationID; // @synthesize correlationID=_correlationID;
-@property(readonly, nonatomic) NSString *providerDisplayName; // @synthesize providerDisplayName=_providerDisplayName;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASRng;
-
 @interface SGModelSampler
 {
     double _positiveRate;
-    double _dynamicLabelRate;
-    double _negativeRate;
-    _PASRng *_rng;
 }
 
 - (_Bool);

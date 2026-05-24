@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface BWStillImageCaptureConstantColorAnalyticsPayload : BWStillImageCaptureAnalyticsPayload
 {
     _Bool _constantColorApplied;
-    float _constantColorCenterWeightedMeanConfidenceLevel;
-    unsigned int _constantColorAnalyticsVersion;
-    float _constantColorStrobeWhitePointRGain;
-    float _constantColorStrobeWhitePointGGain;
-    float _constantColorStrobeWhitePointBGain;
 }
 
 - (void);
@@ -31,16 +26,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)SharingAirDropAskToAirDrop;
 - (float)¬ÿ¼©ÿÃ¦ÿË£ÿÔ;
 
 // Remaining properties
-@property(nonatomic) unsigned int constantColorAnalyticsVersion; // @synthesize constantColorAnalyticsVersion=_constantColorAnalyticsVersion;
 @property(nonatomic) _Bool constantColorApplied; // @synthesize constantColorApplied=_constantColorApplied;
-@property(nonatomic) float constantColorCenterWeightedMeanConfidenceLevel; // @synthesize constantColorCenterWeightedMeanConfidenceLevel=_constantColorCenterWeightedMeanConfidenceLevel;
-@property(nonatomic) float constantColorStrobeWhitePointBGain; // @synthesize constantColorStrobeWhitePointBGain=_constantColorStrobeWhitePointBGain;
-@property(nonatomic) float constantColorStrobeWhitePointGGain; // @synthesize constantColorStrobeWhitePointGGain=_constantColorStrobeWhitePointGGain;
-@property(nonatomic) float constantColorStrobeWhitePointRGain; // @synthesize constantColorStrobeWhitePointRGain=_constantColorStrobeWhitePointRGain;
 
 @end
 

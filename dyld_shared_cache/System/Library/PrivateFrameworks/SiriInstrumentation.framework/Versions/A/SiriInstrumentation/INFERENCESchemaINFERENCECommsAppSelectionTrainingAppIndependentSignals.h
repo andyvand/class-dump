@@ -6,29 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface INFERENCESchemaINFERENCECommsAppSelectionTrainingAppIndependentSignals : SISchemaInstrumentationMessage
 {
     long long _requestOriginLocale;
-    long long _requestOriginLanguage;
-    long long _communicationType;
-    int _appResolutionType;
-    int _userPersona;
-    NSArray *_modelSelectedOptions;
-    NSString *_modelVersion;
-    _Bool _isModelDisambiguation;
-    _Bool _isModelConfirmation;
-    struct {
-        unsigned int requestOriginLocale:1;
-        unsigned int requestOriginLanguage:1;
-        unsigned int communicationType:1;
-        unsigned int appResolutionType:1;
-        unsigned int userPersona:1;
-        unsigned int isModelDisambiguation:1;
-        unsigned int isModelConfirmation:1;
-    } _has;
-    _Bool _hasModelVersion;
 }
 
 - (int);
@@ -52,7 +32,7 @@
 - (unsigned int);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -67,7 +47,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�v
+;
 - (void);
 - (long long);
 - (void);
@@ -75,8 +56,8 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)EAVehicleInfoMakeKey;
+- (void)F;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -84,30 +65,13 @@
 - (id);
 - (id);
 - (id)SchemaIFTSystemPromptResolution",&,N,V_promptResolution;
-- (id)dinFirstBufferReceipt;
-- (void)INTENT__UNSUPPORTEDMEDIAITEMSEMPTYLIBRARY__TITLE;
+- (id)MHSchemaMHAssistantDaemonAudioRecordinFirstBufferReceipt;
+- (void)DIALOGENGINENAMEDENTITYPARAMETER__PLAYMEDIAINTENT__UNSUPPORTEDMEDIAITEMSEMPTYLIBRARY__TITLE;
 - (void)éÏ";
 - (id)Q&;
 
 // Remaining properties
-@property(nonatomic) int appResolutionType; // @synthesize appResolutionType=_appResolutionType;
-@property(nonatomic) long long communicationType; // @synthesize communicationType=_communicationType;
-@property(nonatomic) _Bool hasAppResolutionType;
-@property(nonatomic) _Bool hasCommunicationType;
-@property(nonatomic) _Bool hasIsModelConfirmation;
-@property(nonatomic) _Bool hasIsModelDisambiguation;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasRequestOriginLanguage;
-@property(nonatomic) _Bool hasRequestOriginLocale;
-@property(nonatomic) _Bool hasUserPersona;
-@property(nonatomic) _Bool isModelConfirmation; // @synthesize isModelConfirmation=_isModelConfirmation;
-@property(nonatomic) _Bool isModelDisambiguation; // @synthesize isModelDisambiguation=_isModelDisambiguation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *modelSelectedOptions; // @synthesize modelSelectedOptions=_modelSelectedOptions;
-@property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(nonatomic) long long requestOriginLanguage; // @synthesize requestOriginLanguage=_requestOriginLanguage;
 @property(nonatomic) long long requestOriginLocale; // @synthesize requestOriginLocale=_requestOriginLocale;
-@property(nonatomic) int userPersona; // @synthesize userPersona=_userPersona;
 
 @end
 

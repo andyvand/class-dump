@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderDomainVersion, NSFileProviderManager, NSString;
+@class NSFileProviderDomainVersion, NSFileProviderManager;
 
 __attribute__((visibility("hidden")))
 @interface FPPendingSetEnumerator
 {
     NSFileProviderManager *_manager;
-    NSFileProviderDomainVersion *_domainVersion;
-    double _refreshInterval;
-    _Bool _maximumSizeReached;
 }
 
 - (_Bool);
@@ -20,23 +17,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)t;
+- (id)streamDidRTPTimeOut:] /* Error: Ran out of types for this method. */;
 - (double);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSFileProviderDomainVersion *domainVersion; // @synthesize domainVersion=_domainVersion;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isMaximumSizeReached) _Bool maximumSizeReached; // @synthesize maximumSizeReached=_maximumSizeReached;
-@property(readonly, nonatomic) double refreshInterval; // @synthesize refreshInterval=_refreshInterval;
-@property(readonly) Class superclass;
 
 @end
 

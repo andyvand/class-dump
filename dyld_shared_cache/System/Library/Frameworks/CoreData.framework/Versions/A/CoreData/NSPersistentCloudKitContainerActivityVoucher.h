@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOperationConfiguration, NSFetchRequest, NSString;
+@class NSString;
 
 @interface NSPersistentCloudKitContainerActivityVoucher
 {
     NSString *_processName;
-    NSString *_bundleIdentifier;
-    NSString *_label;
-    long long _eventType;
-    NSFetchRequest *_fetchRequest;
-    CKOperationConfiguration *_operationConfiguration;
 }
 
-+ (id);
++ (id);
 + (id);
 + (unsigned int);
 + (id);
-+ (id);
++ (id)hK;
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -36,11 +31,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) long long eventType; // @synthesize eventType=_eventType;
-@property(readonly, copy, nonatomic) NSFetchRequest *fetchRequest; // @synthesize fetchRequest=_fetchRequest;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, copy, nonatomic) CKOperationConfiguration *operationConfiguration; // @synthesize operationConfiguration=_operationConfiguration;
 @property(readonly, copy, nonatomic) NSString *processName; // @synthesize processName=_processName;
 
 @end

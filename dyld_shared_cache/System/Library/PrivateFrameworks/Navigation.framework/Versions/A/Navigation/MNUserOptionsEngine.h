@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOObserverHashTable, MNUserOptions, NSString;
+@class GEOObserverHashTable, NSString;
 
 __attribute__((visibility("hidden")))
 @interface MNUserOptionsEngine
 {
     GEOObserverHashTable *_observers;
-    NSString *_navSessionLanguage;
-    MNUserOptions *_options;
 }
 
-+ (id)rtNavigationWithDetails:activeBlock: /* Error: Ran out of types for this method. */;
++ (id)startNavigationWithDetails:activeBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -28,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *currentVoiceLanguage;
-@property(readonly, nonatomic) MNUserOptions *options; // @synthesize options=_options;
 
 @end
 

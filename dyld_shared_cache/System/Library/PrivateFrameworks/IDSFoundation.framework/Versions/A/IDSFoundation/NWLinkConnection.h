@@ -4,43 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSCapsuleParser, IDSNWQPodParameters, NSMutableSet, NSObject, NSString;
-@protocol OS_nw_connection, OS_nw_content_context, OS_nw_endpoint, OS_nw_parameters;
-
 @interface NWLinkConnection
 {
     _Bool _isH2Connection;
-    _Bool _hasRequiredInterface;
-    _Bool _supportsNAT64;
-    _Bool _peelOffNewConnection;
-    _Bool _ignoreCancel;
-    _Bool _hasQUICStarted;
-    _Bool _isQUICPod;
-    _Bool _shouldTreatNextTryAsFirstTry;
-    unsigned short _channelNumber;
-    unsigned int _interfaceIndex;
-    unsigned int _messageType;
-    NWLinkConnection *_parent;
-    NSMutableSet *_children;
-    NSObject<OS_nw_connection> *_connection;
-    unsigned long long _type;
-    NSString *_name;
-    unsigned long long _connectionID;
-    NSObject<OS_nw_endpoint> *_localEndpoint;
-    NSObject<OS_nw_endpoint> *_cachedH2LocalEndpoint;
-    NSObject<OS_nw_endpoint> *_remoteEndpoint;
-    unsigned long long _disconnectionState;
-    double _scheduledDisconnectTime;
-    NSString *_sessionID;
-    unsigned long long _transactionID;
-    IDSCapsuleParser *_capsuleParser;
-    IDSNWQPodParameters *_idsQPodParameters;
-    NSObject<OS_nw_parameters> *_quicPodParamaters;
-    unsigned long long _state;
-    NSString *_protocolStackDescription;
-    NSObject<OS_nw_content_context> *_contentContext;
-    NSString *_path;
-    NSString *_method;
 }
 
 - (_Bool);
@@ -65,7 +31,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -76,33 +42,33 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned short);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)Bp;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long)setCallbacks: /* Error: Ran out of types for this method. */;
+- (unsigned long long)twork plug-in at %@;
+- (unsigned long long)identities;
+- (void)viable;
 - (void);
 - (unsigned int);
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (void)ntIdUnknown;
+- (id)!;
+- (_Bool);
+- (void)participantIdUnknown;
 - (id);
 - (void)response %@ for %@.;
 - (unsigned int)³	;
@@ -112,41 +78,7 @@
 ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSObject<OS_nw_endpoint> *cachedH2LocalEndpoint; // @synthesize cachedH2LocalEndpoint=_cachedH2LocalEndpoint;
-@property(retain, nonatomic) IDSCapsuleParser *capsuleParser; // @synthesize capsuleParser=_capsuleParser;
-@property(nonatomic) unsigned short channelNumber; // @synthesize channelNumber=_channelNumber;
-@property(retain, nonatomic) NSMutableSet *children; // @synthesize children=_children;
-@property(retain, nonatomic) NSObject<OS_nw_connection> *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) unsigned long long connectionID; // @synthesize connectionID=_connectionID;
-@property(retain, nonatomic) NSObject<OS_nw_content_context> *contentContext; // @synthesize contentContext=_contentContext;
-@property(nonatomic) unsigned long long disconnectionState; // @synthesize disconnectionState=_disconnectionState;
-@property(readonly) _Bool hasDisconnected;
-@property(readonly) _Bool hasFailed;
-@property(nonatomic) _Bool hasQUICStarted; // @synthesize hasQUICStarted=_hasQUICStarted;
-@property(nonatomic) _Bool hasRequiredInterface; // @synthesize hasRequiredInterface=_hasRequiredInterface;
-@property(retain, nonatomic) IDSNWQPodParameters *idsQPodParameters; // @synthesize idsQPodParameters=_idsQPodParameters;
-@property(nonatomic) _Bool ignoreCancel; // @synthesize ignoreCancel=_ignoreCancel;
-@property(readonly, nonatomic) unsigned int interfaceIndex; // @synthesize interfaceIndex=_interfaceIndex;
-@property(readonly) _Bool isConnected;
-@property(nonatomic) _Bool isH2Connection; // @synthesize isH2Connection=_isH2Connection;
-@property(nonatomic) _Bool isQUICPod; // @synthesize isQUICPod=_isQUICPod;
-@property(retain, nonatomic) NSObject<OS_nw_endpoint> *localEndpoint; // @synthesize localEndpoint=_localEndpoint;
-@property(nonatomic) unsigned int messageType; // @synthesize messageType=_messageType;
-@property(retain, nonatomic) NSString *method; // @synthesize method=_method;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) __weak NWLinkConnection *parent; // @synthesize parent=_parent;
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(nonatomic) _Bool peelOffNewConnection; // @synthesize peelOffNewConnection=_peelOffNewConnection;
-@property(retain, nonatomic) NSString *protocolStackDescription; // @synthesize protocolStackDescription=_protocolStackDescription;
-@property(retain, nonatomic) NSObject<OS_nw_parameters> *quicPodParamaters; // @synthesize quicPodParamaters=_quicPodParamaters;
-@property(readonly, retain, nonatomic) NSObject<OS_nw_endpoint> *remoteEndpoint; // @synthesize remoteEndpoint=_remoteEndpoint;
-@property(nonatomic) double scheduledDisconnectTime; // @synthesize scheduledDisconnectTime=_scheduledDisconnectTime;
-@property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(nonatomic) _Bool shouldTreatNextTryAsFirstTry; // @synthesize shouldTreatNextTryAsFirstTry=_shouldTreatNextTryAsFirstTry;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(nonatomic) _Bool supportsNAT64; // @synthesize supportsNAT64=_supportsNAT64;
-@property(nonatomic) unsigned long long transactionID; // @synthesize transactionID=_transactionID;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

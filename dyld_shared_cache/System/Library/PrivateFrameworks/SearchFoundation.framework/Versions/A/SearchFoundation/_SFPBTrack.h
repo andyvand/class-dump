@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBActionItem, _SFPBURL;
+@class NSString;
 
 @interface _SFPBTrack
 {
     _Bool _highlighted;
-    NSString *_title;
-    NSString *_number;
-    NSString *_duration;
-    _SFPBURL *_preview;
-    _SFPBActionItem *_playAction;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)ManagerView_Category;
+- (void)à;
+- (id)hju8i;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (id)setFractionOfAssetsWithEmbeddingsInIndex:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)t worked on second try in %s;
 - (id);
 - (void);
 - (id);
@@ -40,19 +35,6 @@
 - (void)BRFTextEncapsulation";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *number; // @synthesize number=_number;
-@property(retain, nonatomic) _SFPBActionItem *playAction; // @synthesize playAction=_playAction;
-@property(retain, nonatomic) _SFPBURL *preview; // @synthesize preview=_preview;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

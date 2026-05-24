@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
+@class NSArray;
 
 @interface PPContactQueryResultGuardedData
 {
     _Bool _joined;
-    NSArray *_cnContacts;
-    NSArray *_fiaContacts;
-    NSError *_latestError;
 }
 
 - (void);
@@ -20,15 +17,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void)light: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)valueForHighlight: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *cnContacts; // @synthesize cnContacts=_cnContacts;
-@property(retain, nonatomic) NSArray *fiaContacts; // @synthesize fiaContacts=_fiaContacts;
-@property(nonatomic) _Bool joined; // @synthesize joined=_joined;
-@property(retain, nonatomic) NSError *latestError; // @synthesize latestError=_latestError;
 
 @end
 

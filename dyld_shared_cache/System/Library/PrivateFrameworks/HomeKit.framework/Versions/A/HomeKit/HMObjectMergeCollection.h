@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface HMObjectMergeCollection
 {
     NSArray *_addedObjects;
-    NSArray *_removedObjects;
-    NSMutableArray *_currentUpdatedObjects;
-    NSArray *_commonObjectPairs;
 }
 
 - (void);
-- (void);
+- (void)S;
 - (id);
 - (id);
 - (id);
@@ -30,12 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *addedObjects; // @synthesize addedObjects=_addedObjects;
-@property(readonly, nonatomic) NSArray *commonObjectPairs; // @synthesize commonObjectPairs=_commonObjectPairs;
-@property(readonly, nonatomic) NSMutableArray *currentUpdatedObjects; // @synthesize currentUpdatedObjects=_currentUpdatedObjects;
-@property(readonly, nonatomic) NSArray *finalObjects;
-@property(readonly, nonatomic, getter=isModified) _Bool modified;
-@property(readonly, nonatomic) NSArray *removedObjects; // @synthesize removedObjects=_removedObjects;
-@property(readonly, nonatomic) NSArray *updatedObjects;
 
 @end
 

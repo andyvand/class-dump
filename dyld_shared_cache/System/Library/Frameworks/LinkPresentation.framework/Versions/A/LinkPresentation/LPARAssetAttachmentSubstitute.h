@@ -14,8 +14,8 @@
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)cordID"8B16@"NSArray"20@"CKDPResponseOperationResult"28;
+- (void)i;
 - (long long);
 - (void)ÿÿ;
 

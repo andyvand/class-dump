@@ -4,42 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarCache, CNAvatarPickerUserSetupMemojiData, CNAvatarPickerUserSetupPictureData, CNAvatarView, CNAvatarViewModel, CNContactStore, CNLikenessEditorPresentationController, CNVariableChangeHelper, NSArray, NSLayoutConstraint, NSViewController;
-@protocol CNAvatarUpdating, CNAvatarViewDelegate, CNCancelable, CNScheduler;
-
 @interface CNAvatarViewController
 {
     _Bool _monogramOnly;
-    _Bool _isFullAvatar;
-    _Bool _overrideIsMe;
-    _Bool _shouldInvalidateCache;
-    _Bool _alwaysAcceptDrop;
-    _Bool _directEditing;
-    _Bool _userSetup;
-    _Bool _allowEditingMemojiAndMonogramOnly;
-    CNAvatarCache *_avatarCache;
-    CNAvatarView<CNAvatarUpdating> *_avatarView;
-    NSLayoutConstraint *_avatarHeightConstraint;
-    NSLayoutConstraint *_topMarginConstraint;
-    CNAvatarViewModel *_viewModel;
-    CNLikenessEditorPresentationController *_likenessEditorController;
-    NSViewController *_presentingViewController;
-    CNVariableChangeHelper *_contactDebouncer;
-    id <CNCancelable> _likenessResolverToken;
-    id <CNCancelable> _likenessSaveToken;
-    NSArray *_overrideLikenesses;
-    long long _displayStyle;
-    id <CNScheduler> _offMainSerialScheduler;
-    CNAvatarPickerUserSetupMemojiData *_userSetupMemojiData;
-    CNAvatarPickerUserSetupPictureData *_userSetupPictureData;
-    CNContactStore *_contactStore;
-    unsigned long long _style;
-    id <CNAvatarViewDelegate> _delegate;
 }
 
 + (void);
 + (void);
-+ (id);
++ (id)0;
 + (id);
 + (id);
 + (_Bool);
@@ -49,8 +21,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)ێRH;
++ (id)ӆ;
 + (id);
 + (id)vatar picker max image length, downsampling image;
 

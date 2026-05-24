@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-@protocol PXDisplayAsset, PXDisplayAssetFetchResult, PXStoryMemoryMomentClusteringDistanceCalculator;
+@protocol PXDisplayAssetFetchResult;
 
 @interface PXStoryMemoryMoment
 {
     id <PXDisplayAssetFetchResult> _displayAssets;
-    NSIndexSet *_indices;
-    _Bool _diagnosticsCalculated;
-    double _totalWeightedClusteringDistance;
-    double _locationClusteringDistance;
-    double _timeClusteringDistance;
-    double _faceClusteringDistance;
-    id <PXStoryMemoryMomentClusteringDistanceCalculator> _diagnosticDistanceCalculator;
 }
 
 - (double);
@@ -42,18 +34,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange assetIndexRange;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) id <PXStoryMemoryMomentClusteringDistanceCalculator> diagnosticDistanceCalculator; // @synthesize diagnosticDistanceCalculator=_diagnosticDistanceCalculator;
 @property(readonly, nonatomic) id <PXDisplayAssetFetchResult> displayAssets;
-@property(readonly, nonatomic) double faceClusteringDistance;
-@property(readonly, nonatomic) id <PXDisplayAsset> firstAsset;
-@property(readonly, nonatomic) unsigned long long firstGlobalIndex;
-@property(readonly, nonatomic) id <PXDisplayAsset> lastAsset;
-@property(readonly, nonatomic) unsigned long long lastGlobalIndex;
-@property(readonly, nonatomic) double locationClusteringDistance;
-@property(readonly, nonatomic) double timeClusteringDistance;
-@property(readonly, nonatomic) double totalWeightedClusteringDistance;
 
 @end
 

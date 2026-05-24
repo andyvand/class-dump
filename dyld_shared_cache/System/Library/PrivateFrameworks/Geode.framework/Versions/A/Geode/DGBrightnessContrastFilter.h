@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGBrightnessContrastFilter
 {
     CIImage *inputImage;
-    NSNumber *inputContrast;
-    NSNumber *inputBrightness;
-    NSNumber *inputMean;
-    NSNumber *inputClamp;
 }
 
 + (id);

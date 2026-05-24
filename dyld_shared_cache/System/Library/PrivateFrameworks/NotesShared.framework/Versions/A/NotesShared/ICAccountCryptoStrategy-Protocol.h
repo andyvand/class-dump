@@ -5,5 +5,6 @@
 //
 
 @protocol ICAccountCryptoStrategy
+- (_Bool)the default realm;
 @end
 

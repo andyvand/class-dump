@@ -12,10 +12,10 @@
 + (_Bool);
 + (void);
 + (id);
-+ (long long);
++ (long long);
 + (unsigned long long);
 + (_Bool);
-- (id);
+- (id)ple.passbook.payment.consistency.delete-aids;
 
 @end
 

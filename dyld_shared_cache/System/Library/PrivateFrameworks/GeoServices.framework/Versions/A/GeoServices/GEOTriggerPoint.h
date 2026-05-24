@@ -9,39 +9,29 @@
 @interface GEOTriggerPoint
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _referenceOffsetCm;
-    unsigned int _time;
-    _Bool _allowsShifting;
-    _Bool _countBeforeReferenceOffset;
-    struct {
-        unsigned int has_referenceOffsetCm:1;
-        unsigned int has_time:1;
-        unsigned int has_allowsShifting:1;
-        unsigned int has_countBeforeReferenceOffset:1;
-    } _flags;
 }
 
-+ (_Bool)ate:(id)arg1;
++ (_Bool)setNearestEdgeCoordinate:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
+- (_Bool)4^@32;
+- (_Bool)encodeInteger:forKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)_inputImagePixelWidth;
+- (_Bool)imageTransformForCGOrientation: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)numberWithInteger:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -49,23 +39,15 @@
 - (void);
 - (id)1º*°1Â0@ù
 × ;
-- (id)dpoint: /* Error: Ran out of types for this method. */;
-- (id)ighlights;
-- (unsigned int)r;
+- (id)initWithEndpoint: /* Error: Ran out of types for this method. */;
+- (id)_textHighlights;
+- (unsigned int)GEOPDVendorAmenitiesFilter;
 - (id)called once per object;
 - (void)Ì;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsShifting;
-@property(nonatomic) _Bool countBeforeReferenceOffset;
-@property(nonatomic) _Bool hasAllowsShifting;
-@property(nonatomic) _Bool hasCountBeforeReferenceOffset;
-@property(nonatomic) _Bool hasReferenceOffsetCm;
 @property(nonatomic) _Bool hasTime;
-@property(nonatomic) unsigned int referenceOffsetCm;
-@property(nonatomic) unsigned int time;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

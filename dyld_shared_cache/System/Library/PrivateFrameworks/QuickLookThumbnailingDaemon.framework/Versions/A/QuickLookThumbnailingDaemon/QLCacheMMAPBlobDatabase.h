@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, QLCacheFragHandler, _QLCacheThread;
+@class NSString, _QLCacheThread;
 
 @interface QLCacheMMAPBlobDatabase
 {
     NSString *_path;
-    QLCacheFragHandler *_fragHandler;
-    int _file;
-    unsigned long long _maxSize;
-    void *_vmFile;
-    NSMutableArray *_reservedBuffers;
-    _QLCacheThread *_cacheThread;
 }
 
 - (void);
@@ -22,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (void *);
+- (void *)(a!@e;
 - (id);
 - (_Bool);
 - (void);
@@ -45,9 +39,6 @@
 
 // Remaining properties
 @property __weak _QLCacheThread *cacheThread; // @synthesize cacheThread=_cacheThread;
-@property(readonly) float fragmentation;
-@property(readonly) unsigned long long maxSize; // @synthesize maxSize=_maxSize;
-@property(readonly) unsigned long long size;
 
 @end
 

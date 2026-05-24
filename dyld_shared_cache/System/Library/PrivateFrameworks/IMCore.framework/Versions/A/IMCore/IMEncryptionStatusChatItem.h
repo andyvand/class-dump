@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)kProbing:(id)arg1 queryProbingResults failed:(id)arg2 Link probing not in progress;
 
 @end
 

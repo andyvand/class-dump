@@ -6,42 +6,27 @@
 
 #import <EventKitUI/EKUIAutocompleteSearchResultBaseCell.h>
 
-@class NSArray, NSAttributedString, NSString, UIColor, UIImageView, UILabel;
+@class UIImageView;
 
 @interface EKUIAutocompleteOccurrenceTableViewCell : EKUIAutocompleteSearchResultBaseCell
 {
     UIImageView *_colorDotView;
-    UILabel *_titleTextLabel;
-    UILabel *_locationTextLabel;
-    UILabel *_timeTextLabelWithThisTimeZone;
-    UILabel *_timeTextLabelWithResultTimeZone;
-    UILabel *_inviteesTextLabel;
-    UILabel *_foundInTextLabel;
-    NSArray *_secondaryLabels;
-    UIColor *_eventCalendarColor;
-    NSString *_eventTitle;
-    NSAttributedString *_eventLocation;
-    NSString *_eventTimeWithThisTimeZone;
-    NSString *_eventTimeWithResultTimeZone;
-    NSString *_eventInvitees;
-    NSAttributedString *_eventFoundIn;
-    NSArray *_ekUIAutocompleteOccurrenceTableViewCellConstraints;
 }
 
-+ (double);
-+ (id);
++ (double);
++ (id)[%s;
 + (id);
 + (_Bool);
++ (id)(s;
++ (id)%s;
++ (id)s;
 + (id);
-+ (id);
-+ (id);
-+ (id);
+- (void);
+- (void)s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)$nPop;
+- (void)showsLine;
 
 @end
 

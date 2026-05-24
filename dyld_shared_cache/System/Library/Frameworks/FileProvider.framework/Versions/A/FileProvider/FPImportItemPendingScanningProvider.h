@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileProviderDiagnosticAttributesDescriptor, NSString;
+@class NSString;
 
 @interface FPImportItemPendingScanningProvider
 {
     _Bool _itemPendingScanningProviderHasMultiplePagesEnumeration;
-    NSString *_itemIdentifier;
-    NSFileProviderDiagnosticAttributesDescriptor *_diagnosticAttributes;
-    long long _itemPendingScanningProviderEnumerationStatus;
-    long long _itemPendingScanningProviderNumberOfChildren;
-    long long _itemPendingScanningProviderNumberOfChildrenPendingCreation;
-    long long _itemPendingScanningProviderNumberOfChildrenFailingCreation;
-    long long _itemPendingScanningProviderRemovalOfDatalessBitStatus;
 }
 
 + (_Bool);
@@ -23,33 +16,26 @@
 - (void);
 - (void);
 - (void);
+- (void)M;
+- (void)bM;
 - (void);
-- (void);
-- (void);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (long long);
+- (id)�;
 - (id);
-- (id);
-- (void);
+- (void)|;
 - (void);
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)aceholdIdentifier;
+- (id)_placeholdIdentifier;
 
 // Remaining properties
-@property(copy, nonatomic) NSFileProviderDiagnosticAttributesDescriptor *diagnosticAttributes; // @synthesize diagnosticAttributes=_diagnosticAttributes;
 @property(copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(nonatomic) long long itemPendingScanningProviderEnumerationStatus; // @synthesize itemPendingScanningProviderEnumerationStatus=_itemPendingScanningProviderEnumerationStatus;
-@property(nonatomic) _Bool itemPendingScanningProviderHasMultiplePagesEnumeration; // @synthesize itemPendingScanningProviderHasMultiplePagesEnumeration=_itemPendingScanningProviderHasMultiplePagesEnumeration;
-@property(nonatomic) long long itemPendingScanningProviderNumberOfChildren; // @synthesize itemPendingScanningProviderNumberOfChildren=_itemPendingScanningProviderNumberOfChildren;
-@property(nonatomic) long long itemPendingScanningProviderNumberOfChildrenFailingCreation; // @synthesize itemPendingScanningProviderNumberOfChildrenFailingCreation=_itemPendingScanningProviderNumberOfChildrenFailingCreation;
-@property(nonatomic) long long itemPendingScanningProviderNumberOfChildrenPendingCreation; // @synthesize itemPendingScanningProviderNumberOfChildrenPendingCreation=_itemPendingScanningProviderNumberOfChildrenPendingCreation;
-@property(nonatomic) long long itemPendingScanningProviderRemovalOfDatalessBitStatus; // @synthesize itemPendingScanningProviderRemovalOfDatalessBitStatus=_itemPendingScanningProviderRemovalOfDatalessBitStatus;
 
 @end
 

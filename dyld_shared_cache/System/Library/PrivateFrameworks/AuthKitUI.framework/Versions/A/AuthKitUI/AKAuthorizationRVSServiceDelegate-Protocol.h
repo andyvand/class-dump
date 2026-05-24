@@ -5,5 +5,6 @@
 //
 
 @protocol AKAuthorizationRVSServiceDelegate
+- (void)0q;
 @end
 

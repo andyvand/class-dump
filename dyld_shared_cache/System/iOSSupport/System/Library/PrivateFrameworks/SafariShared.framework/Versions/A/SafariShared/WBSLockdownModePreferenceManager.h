@@ -6,12 +6,11 @@
 
 #import <SafariShared/WBSPerSitePreferenceManager.h>
 
-@class NSString, WBSPerSitePreference, WBSPerSitePreferencesSQLiteStore;
+@class WBSPerSitePreference, WBSPerSitePreferencesSQLiteStore;
 
 @interface WBSLockdownModePreferenceManager : WBSPerSitePreferenceManager
 {
     WBSPerSitePreferencesSQLiteStore *_perSitePreferenceStore;
-    WBSPerSitePreference *_lockdownPreference;
 }
 
 - (id);
@@ -31,15 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) WBSPerSitePreference *lockdownPreference; // @synthesize lockdownPreference=_lockdownPreference;
-@property(readonly, nonatomic) WBSPerSitePreferencesSQLiteStore *perSitePreferencesStore;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSHashTable, NSMapTable, NSMutableArray;
+@class NSDictionary, NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface FPStitchingManager
 {
     NSHashTable *_stitchingSessions;
-    NSMapTable *_bouncedItems;
 }
 
 + (id);
@@ -22,18 +21,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)R';
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *allDeletedIDs;
 @property(readonly, nonatomic) NSDictionary *allPlaceholderItemsByParentIdentifierAndName;
-@property(readonly, nonatomic) NSArray *allPlaceholderReplacementsIDs;
-@property(readonly, nonatomic) NSDictionary *stitchedFieldsAndItemsByItemIDs;
 
 @end
 

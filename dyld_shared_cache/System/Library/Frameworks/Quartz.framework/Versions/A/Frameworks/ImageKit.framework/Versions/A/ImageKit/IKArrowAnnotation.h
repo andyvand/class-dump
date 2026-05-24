@@ -9,8 +9,6 @@
 @interface IKArrowAnnotation : IKAnnotation
 {
     double _lineWidth;
-    _Bool _arrowAtStart;
-    _Bool _arrowAtEnd;
 }
 
 - (void);

@@ -6,19 +6,17 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 @interface CKSQLiteDatabaseRegistryEntry : CKSQLiteTableEntry
 {
     NSNumber *_databaseID;
-    NSUUID *_databaseUUID;
-    NSString *_databaseDirectory;
 }
 
 + (Class);
-- (void);
+- (void)];
 - (id);
-- (id);
+- (id))	;
 - (void);
 - (void);
 - (id);
@@ -26,9 +24,7 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *databaseDirectory; // @synthesize databaseDirectory=_databaseDirectory;
 @property(retain, nonatomic) NSNumber *databaseID; // @synthesize databaseID=_databaseID;
-@property(retain, nonatomic) NSUUID *databaseUUID; // @synthesize databaseUUID=_databaseUUID;
 
 @end
 

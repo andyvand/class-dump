@@ -7,14 +7,6 @@
 @interface NewsUI2.MySportsTopicTagFeedGroupSection
 {
     id tag;
-    id headlines;
-    id scores;
-    id standings;
-    id brackets;
-    id content;
-    id nativeAdInsertionLocation;
-    id debugCandidates;
-    id baseScoreConstant;
 }
 
 @end

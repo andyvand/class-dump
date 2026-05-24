@@ -21,15 +21,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) double angle;
-@property(nonatomic) double angleRadians;
-@property(nonatomic) long long constraintHeight;
-@property(nonatomic) long long constraintWidth;
 @property(nonatomic) struct CGRect cropRect;
-@property(nonatomic) double pitch;
-@property(nonatomic) double pitchRadians;
-@property(nonatomic) double yaw;
-@property(nonatomic) double yawRadians;
 
 @end
 

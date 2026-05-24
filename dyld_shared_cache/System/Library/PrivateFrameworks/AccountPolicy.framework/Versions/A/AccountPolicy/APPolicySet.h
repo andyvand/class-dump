@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableSet;
+@class NSDictionary, NSMutableSet;
 
 @interface APPolicySet
 {
     NSMutableSet *_authentication;
-    NSMutableSet *_passwordChange;
-    NSMutableSet *_passwordContent;
 }
 
 + (id);
@@ -24,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -51,19 +49,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *attributesUsed;
-@property(retain) NSMutableSet *authentication; // @synthesize authentication=_authentication;
-@property(readonly, copy) NSArray *authenticationPolicies;
-@property(readonly, copy) NSDictionary *dictionaryRepresentation;
 @property(readonly, copy) NSDictionary *legacyPolicies;
-@property(retain) NSMutableSet *passwordChange; // @synthesize passwordChange=_passwordChange;
-@property(readonly, copy) NSArray *passwordChangePolicies;
-@property(retain) NSMutableSet *passwordContent; // @synthesize passwordContent=_passwordContent;
-@property(readonly, copy) NSArray *passwordContentPolicies;
-@property(readonly, copy) NSDictionary *passwordContentSummariesForAllLanguages;
 
 @end
 

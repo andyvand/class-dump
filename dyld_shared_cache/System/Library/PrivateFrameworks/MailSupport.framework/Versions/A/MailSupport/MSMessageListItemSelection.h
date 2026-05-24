@@ -9,9 +9,6 @@
 @interface MSMessageListItemSelection
 {
     _Bool _isSelectAll;
-    _Bool _actingOnSender;
-    NSArray *_messageListItems;
-    NSArray *_mailboxes;
 }
 
 - (_Bool);
@@ -20,12 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)y<NSNumber*>*;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActingOnSender) _Bool actingOnSender; // @synthesize actingOnSender=_actingOnSender;
-@property(readonly, nonatomic) _Bool isSelectAll; // @synthesize isSelectAll=_isSelectAll;
-@property(readonly, nonatomic) NSArray *mailboxes; // @synthesize mailboxes=_mailboxes;
 @property(readonly, nonatomic) NSArray *messageListItems; // @synthesize messageListItems=_messageListItems;
 
 @end

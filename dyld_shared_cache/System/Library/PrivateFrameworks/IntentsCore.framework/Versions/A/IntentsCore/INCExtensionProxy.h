@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCExtensionConnection, NSExtension, NSValue;
-@protocol _INExtensionContextVending;
-
 @interface INCExtensionProxy
 {
     _Bool _shouldCache;
-    INCExtensionConnection *_connection;
-    NSExtension *_extension;
-    id <_INExtensionContextVending> _vendorRemote;
-    NSValue *_auditTokenValue;
-    CDUnknownBlockType _imageCachingHandler;
-    CDUnknownBlockType _imageProcessingHandler;
-    CDUnknownBlockType _responseHandler;
 }
 
 + (id);
 + (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (_Bool);
@@ -31,14 +21,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (_Bool);
 - (void);
@@ -49,22 +39,13 @@
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (_Bool);
-- (void);
+- (_Bool)%';
+- (void)H;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSValue *_auditTokenValue; // @synthesize _auditTokenValue;
-@property(readonly, nonatomic) INCExtensionConnection *_connection; // @synthesize _connection;
-@property(readonly, nonatomic) NSExtension *_extension; // @synthesize _extension;
 @property(readonly, nonatomic, getter=_isExtensionBeingDebugged) _Bool _extensionBeingDebugged;
-@property(readonly, nonatomic) id <_INExtensionContextVending> _vendorRemote; // @synthesize _vendorRemote;
-@property(copy, nonatomic) CDUnknownBlockType imageCachingHandler; // @synthesize imageCachingHandler=_imageCachingHandler;
-@property(copy, nonatomic) CDUnknownBlockType imageProcessingHandler; // @synthesize imageProcessingHandler=_imageProcessingHandler;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(nonatomic) _Bool shouldCache; // @synthesize shouldCache=_shouldCache;
-@property(nonatomic) _Bool shouldResetRequestAfterHandle;
 
 @end
 

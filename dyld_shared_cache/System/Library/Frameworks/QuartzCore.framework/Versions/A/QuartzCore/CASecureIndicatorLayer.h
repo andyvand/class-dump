@@ -6,14 +6,14 @@
 
 #import <QuartzCore/CALayer.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CASecureIndicatorLayer : CALayer
 {
 }
 
 + (_Bool);
-+ (id);
++ (id)F;
 + (_Bool);
 - (id);
 - (id);
@@ -23,13 +23,10 @@
 - (id);
 - (void *);
 - (_Bool);
-- (void);
+- (void)cords(saving:(id)arg1 deleting:savePolicy:atomically:wrappingDatabase:convenienceConfiguration:) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property double glyphScale;
 @property(copy) NSString *privacyIndicatorType;
-@property(readonly) NSArray *validDynamicPositions;
-@property(readonly) NSArray *validPositions;
 
 @end
 

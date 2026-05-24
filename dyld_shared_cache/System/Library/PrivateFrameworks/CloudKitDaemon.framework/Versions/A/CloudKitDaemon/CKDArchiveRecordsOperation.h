@@ -7,18 +7,16 @@
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
 @class NSArray;
-@protocol CKArchiveRecordsOperationCallbacks><CKDOperationCallbackProxy;
 
 @interface CKDArchiveRecordsOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _recordArchivedBlock;
-    NSArray *_recordIDs;
 }
 
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)Available;
 - (void);
 - (id);
 - (void);
@@ -29,8 +27,6 @@
 - (id)%@;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKArchiveRecordsOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) CDUnknownBlockType recordArchivedBlock; // @synthesize recordArchivedBlock=_recordArchivedBlock;
 @property(retain, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
 
 @end

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface DIMSchemaDIMLocaleNotRecognized : SISchemaInstrumentationMessage
 {
     NSString *_unknownLocale;
-    _Bool _hasUnknownLocale;
 }
 
 - (id);
@@ -21,18 +20,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)@;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"b1};
-- (id)aCDMAssetsReported;
+- (id)NLXSchemaCDMAssetsReported;
 - (id)°I;
 - (void)SÌ%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUnknownLocale; // @synthesize hasUnknownLocale=_hasUnknownLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *unknownLocale; // @synthesize unknownLocale=_unknownLocale;
 
 @end

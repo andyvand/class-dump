@@ -7,15 +7,12 @@
 @interface NewsFeed.DebugFormatBindingTreeViewController
 {
     id editor;
-    id styler;
-    id $__lazy_storage_$_bindingTreeViewController;
-    id $__lazy_storage_$_model;
 }
 
 - (id);
 - (id);
 - (void);
-- (void)eenStrategy;
+- (void)FormatCodingSixteenStrategy;
 - (void)¥A:ð+ÿ¥A:0¢wþ¥A:ømªþ /* Error: Ran out of types for this method. */;
 - (void);
 

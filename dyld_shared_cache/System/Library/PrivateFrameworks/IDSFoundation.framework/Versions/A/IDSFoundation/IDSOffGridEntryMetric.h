@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface IDSOffGridEntryMetric
 {
     _Bool _success;
-    NSNumber *_service;
-    NSString *_source;
-    NSDate *_date;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (_Bool);
 - (void)tityContainer mismatch nullability for kNGMVersion an dkNGMFullDeviceIdentity {ngmVersion:%@, ngmData==nil:%@} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
 @property(readonly, nonatomic) NSNumber *service; // @synthesize service=_service;
-@property(readonly, nonatomic) NSString *source; // @synthesize source=_source;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

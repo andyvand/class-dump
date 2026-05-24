@@ -7,10 +7,6 @@
 @interface HomeKitDaemon.LocalPresence.Detector.AggregatedAccessoryPresenceDetector
 {
     id $defaultActor;
-    id stream;
-    id continuation;
-    id detectors;
-    id detectorHandlerTasks;
 }
 
 @end

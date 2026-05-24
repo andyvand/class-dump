@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (id)fosToDiscover;
+- (id)infosToDiscover;
 - (void)ordID"8@"NSDate"16^B24;
 
 // Remaining properties

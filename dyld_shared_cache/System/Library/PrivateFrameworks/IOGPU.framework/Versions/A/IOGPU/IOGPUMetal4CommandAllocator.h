@@ -7,12 +7,6 @@
 @interface IOGPUMetal4CommandAllocator
 {
     struct commandBufferStorageBusyQueue _busyQueue;
-    int _busyQueueCount;
-    struct os_unfair_lock_s _lock;
-    CDStruct_f5fd6011 _storageCreateParams;
-    struct IOGPUMetalCommandBufferStoragePool *_commandBufferStoragePool;
-    unsigned int _generation;
-    _Bool _aliasToDevice;
 }
 
 - (void);
@@ -21,7 +15,7 @@
 - (struct IOGPUMetalCommandBufferStorage *);
 - (void);
 - (void);
-- (void);
+- (void):(id *)arg1;
 - (void);
 - (id);
 - (unsigned int);

@@ -6,13 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CIMetalWrapper : CIFilter
 {
     NSMutableDictionary *_dict;
-    NSString *inputFilterName;
 }
 
 - (void);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)b: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -29,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSMutableDictionary *_dict; // @synthesize _dict;
-@property(copy) NSString *inputFilterName; // @synthesize inputFilterName;
 
 @end
 

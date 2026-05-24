@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatAccessibilityViewController
 {
     id tableView;
-    id editor;
-    id sections;
-    id contentSizeObserver;
 }
 
 - (id);
@@ -18,7 +15,7 @@
 - (id);
 - (long long);
 - (void);
-- (long long);
+- (long long)zR;
 - (void):þ /* Error: Ran out of types for this method. */;
 - (void);
 

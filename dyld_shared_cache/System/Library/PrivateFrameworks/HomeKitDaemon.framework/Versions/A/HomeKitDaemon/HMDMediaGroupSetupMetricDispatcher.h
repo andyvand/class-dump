@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSString, NSUUID;
-@protocol HMDMediaGroupSetupMetricDispatcherDataSource, HMMLogEventSubmitting;
+@protocol HMDMediaGroupSetupMetricDispatcherDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupSetupMetricDispatcher
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _requestReceivedTimeMS;
-    unsigned long long _requestCommittedTimeMS;
-    NSUUID *_setupSessionIdentifier;
-    unsigned long long _setupRequestOption;
-    unsigned long long _setupSessionStartTimeMS;
-    id <HMDMediaGroupSetupMetricDispatcherDataSource> _dataSource;
-    unsigned long long _metricType;
-    CDUnknownBlockType _currentUpTicksFactory;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    CDUnknownBlockType _submissionTimerFactory;
-    NSUUID *_activeGroupIdentifier;
-    HMFTimer *_submissionTimer;
 }
 
 + (id)Q;
@@ -31,21 +18,21 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long):8@"GEONavigationListener"16@"NSData"24 /* Error: Ran out of types for this method. */;
+- (unsigned long long)lFetcher"16@"NSSet"24;
+- (void)MSPMutableObject;
+- (void)MSPHistoryEntry;
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)processContainer:forEachComponent:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long)1Â0@ù
 × ;
@@ -54,25 +41,7 @@ __attribute__((visibility("hidden")))
 - (id)83=;
 
 // Remaining properties
-@property(retain) NSUUID *activeGroupIdentifier; // @synthesize activeGroupIdentifier=_activeGroupIdentifier;
-@property(readonly) CDUnknownBlockType currentUpTicksFactory; // @synthesize currentUpTicksFactory=_currentUpTicksFactory;
 @property(readonly) __weak id <HMDMediaGroupSetupMetricDispatcherDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) unsigned long long metricType; // @synthesize metricType=_metricType;
-@property(readonly) unsigned long long requestCommittedTimeMS; // @synthesize requestCommittedTimeMS=_requestCommittedTimeMS;
-@property(readonly) unsigned long long requestReceivedTimeMS; // @synthesize requestReceivedTimeMS=_requestReceivedTimeMS;
-@property(readonly) unsigned long long setupRequestOption; // @synthesize setupRequestOption=_setupRequestOption;
-@property(readonly, copy) NSUUID *setupSessionIdentifier; // @synthesize setupSessionIdentifier=_setupSessionIdentifier;
-@property(readonly) unsigned long long setupSessionStartTimeMS; // @synthesize setupSessionStartTimeMS=_setupSessionStartTimeMS;
-@property(retain) HMFTimer *submissionTimer; // @synthesize submissionTimer=_submissionTimer;
-@property(readonly) CDUnknownBlockType submissionTimerFactory; // @synthesize submissionTimerFactory=_submissionTimerFactory;
-@property(readonly) Class superclass;
 
 @end
 

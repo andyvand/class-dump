@@ -20,33 +20,37 @@
 - (id);
 - (id);
 - (id);
+- (id)ic_showAlertWithMessage:informativeText:window:alertStyle: /* Error: Ran out of types for this method. */;
+- (id)ic_shouldIgnoreObserveValue:ofObject:forKeyPath: /* Error: Ran out of types for this method. */;
+- (id)ic_rangeByTrimmingCharactersInSet:inRange: /* Error: Ran out of types for this method. */;
+- (id)hairlineColors;
+- (id)callingParticipant;
+- (id)analyticsSessionWillEnd: /* Error: Ran out of types for this method. */;
+- (id)_shouldInhibitAddingExtraNewlinesAtEndDuringFixup;
+- (id)_setNeedsStorageAccessFromFileURLsQuirk: /* Error: Ran out of types for this method. */;
+- (id)_setEditableLinkBehavior:(long long)arg1;
+- (id)_setDrawsBackground: /* Error: Ran out of types for this method. */;
+- (id)ICNoteEditorIconImageView;
+- (id)ICAccessibilityFocusedUIElementProvider;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)So7CKShareC;
+- (id);
+- (id)NoteCSo8ICFolderCSgG;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)aking some extra time to generate it:%@ /* Error: Ran out of types for this method. */;
+- (id)ioned in an attachment;
+- (id)%@ (people) joined the note;
+- (id)eed to remember a separate password for them. Just use the login password or passcode of any device with your iCloud account to lock or unlock a note.
+
+iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
+- (id)account’s locked notes, and you won’t need to remember a separate password for them. Just use the login password or passcode of any device with your iCloud account to lock or unlock a note.
+
+iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
+- (id)date asset thumbnails;
 
 // Remaining properties
 @property(readonly, nonatomic) UIColor *filledGrayBalloonColor;

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVRunLoopConditionRunLoopState
 {
     struct __CFRunLoop *_runLoop;
-    struct __CFRunLoopSource *_signalSource;
-    _Bool _signaled;
 }
 
 + (id);
@@ -17,14 +15,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (struct __CFRunLoop *);
-- (void);
-- (struct __CFRunLoopSource *);
+- (void)SpeechSynthesisWordTimingInfo;
+- (struct __CFRunLoopSource *)C;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CFRunLoop *runLoop; // @synthesize runLoop=_runLoop;
-@property(nonatomic) struct __CFRunLoopSource *signalSource; // @synthesize signalSource=_signalSource;
-@property(nonatomic) _Bool signaled; // @synthesize signaled=_signaled;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INStartCallRequestMetadata, NSArray;
-
 @protocol INStartVideoCallIntentExport
+- (id);
+- (long long);
 
 // Remaining properties
 @property long long audioRoute;
-@property(copy) INStartCallRequestMetadata *callRequestMetadata;
-@property(copy) NSArray *contacts;
 @end
 

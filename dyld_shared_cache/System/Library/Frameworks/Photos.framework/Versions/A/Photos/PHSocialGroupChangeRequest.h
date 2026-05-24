@@ -6,22 +6,9 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSManagedObjectID, NSSet, NSString;
-@protocol PLChangesForServiceHandling;
-
 @interface PHSocialGroupChangeRequest : PHChangeRequest
 {
     _Bool _userAction;
-    NSString *_customTitle;
-    _Bool _didSetCustomTitle;
-    _Bool _didRejectSocialGroup;
-    _Bool _didUnrejectSocialGroup;
-    NSSet *_initialMemberPersonIDs;
-    NSManagedObjectID *_keyAssetID;
-    _Bool _didSetManualOrder;
-    long long _manualOrder;
-    _Bool _didSetAutomaticOrder;
-    long long _automaticOrder;
 }
 
 + (void);
@@ -30,9 +17,9 @@
 + (id);
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -41,7 +28,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool).;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -52,26 +39,11 @@
 - (void);
 - (id);
 - (id);
-- (void)etIdentifierCache;
+- (void)_assetIdentifierCache;
 - (void)ICATE CHECK:(long long)arg1 Looking for size:%@, name:%@ (%@), date:%@ ==> NOT FOUND:No matching size. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *managedEntityName;
 @property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly) Class superclass;
 
 @end
 

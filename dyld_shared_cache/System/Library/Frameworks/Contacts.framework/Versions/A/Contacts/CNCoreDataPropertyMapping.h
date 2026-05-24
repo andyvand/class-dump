@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CNCoreDataPropertyMapping
 {
     NSString *_coreDataPredicateKeyPath;
-    NSDictionary *_subCoreDataPredicatePropertiesByKey;
-    Class _valueClass;
-    long long _coreDataBitMask;
-    NSDictionary *_coreDataBitMaskedValuesMap;
 }
 
 + (id);
 + (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -31,20 +27,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long coreDataBitMask; // @synthesize coreDataBitMask=_coreDataBitMask;
-@property(readonly, nonatomic) NSDictionary *coreDataBitMaskedValuesMap; // @synthesize coreDataBitMaskedValuesMap=_coreDataBitMaskedValuesMap;
 @property(readonly, copy, nonatomic) NSString *coreDataPredicateKeyPath; // @synthesize coreDataPredicateKeyPath=_coreDataPredicateKeyPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isMultiValue;
-@property(readonly, nonatomic) _Bool isRelationship;
-@property(readonly, nonatomic) NSDictionary *subCoreDataPredicatePropertiesByKey; // @synthesize subCoreDataPredicatePropertiesByKey=_subCoreDataPredicatePropertiesByKey;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) Class valueClass; // @synthesize valueClass=_valueClass;
 
 @end
 

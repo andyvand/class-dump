@@ -7,35 +7,22 @@
 @class NSArray, NSCollectionLayoutSection, NSIndexSet, NSString, UITraitCollection, _UICollectionLayoutContainer, _UICollectionLayoutFramesQueryResult;
 
 @protocol _UICollectionLayoutSectionSolver
+- (struct CGRect);
+- (_UICollectionLayoutFramesQueryResult *)_minVocalsLevel;
 - (NSArray *)stomizedTextToButtonPadding"b1"hasCustomizedButtonToSecondaryButtonPadding"b1};
-- (struct CGVector)itle:forSegmentAtIndex: /* Error: Ran out of types for this method. */;
-- (void)iewController;
-- (_UICollectionLayoutFramesQueryResult *)r:(long long)arg1;
+- (struct CGVector)_setAttributedTitle:forSegmentAtIndex: /* Error: Ran out of types for this method. */;
+- (void)_containedRemoteViewController;
+- (_UICollectionLayoutFramesQueryResult *)_columnForMonitoredNavigationController:(long long)arg1;
 - (double)%@;
 - (_Bool)%s for appearance setter, %@;
 - (_UICollectionLayoutContainer *)attempt to delete and reload the same index path (%@);
 - (NSString *)tor;
 - (NSIndexSet *)stMetricsCellProvidingP;
 - (UITraitCollection *)[(ÚÀ?;
-- (void);
 - (long long);
 - (unsigned long long)ê[;
 
 // Remaining properties
-@property(readonly, nonatomic) _UICollectionLayoutContainer *container;
-@property(readonly, nonatomic) unsigned long long containerSizeDependentAxes;
-@property(readonly, nonatomic) struct CGRect contentFrameIncludingAuxiliaries;
-@property(readonly, nonatomic) NSString *errorDescription;
-@property(readonly, nonatomic) long long frameCount;
-@property(readonly, nonatomic) unsigned long long layoutAxis;
-@property(readonly, nonatomic) _Bool layoutRTL;
 @property(readonly, nonatomic) NSCollectionLayoutSection *layoutSection;
-@property(nonatomic) struct CGPoint orthogonalOffset;
-@property(readonly, nonatomic) struct CGVector orthogonalScrollingPrefetchingUnitVector;
-@property(readonly, nonatomic) NSIndexSet *pinnedSupplementaryIndexes;
-@property(readonly, nonatomic) struct CGRect primaryContentFrame;
-@property(nonatomic) _Bool shouldAdjustContentSizeForPartialLastGroupSolution;
-@property(readonly, nonatomic) _UICollectionLayoutContainer *supplementaryContainer;
-@property(readonly, nonatomic) UITraitCollection *traitCollection;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol STPINRemoteViewController
+- (void)AllowMessageAggregation;
 @end
 

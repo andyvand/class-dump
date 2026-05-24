@@ -5,13 +5,13 @@
 //
 
 @protocol CUIKSingleDayTimelineGeometryDelegate
+- (_Bool);
 - (struct CGPoint)X;
+
+@optional
+- (_Bool)owUIServices33ParameterSummaryViewModelDelegateP;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect displayedRect;
-@property(readonly, nonatomic) double hourHeight;
-@property(readonly, nonatomic) _Bool originIsUpperLeft;
-@property(readonly, nonatomic) double timeWidth;
-@property(readonly, nonatomic) double topPadding;
 @end
 

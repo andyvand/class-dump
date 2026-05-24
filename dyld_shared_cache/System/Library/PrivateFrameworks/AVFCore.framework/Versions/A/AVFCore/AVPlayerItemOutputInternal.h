@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSObject;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVPlayerItemOutputInternal
 {
     AVWeakReference *weakReference;
-    NSObject<OS_dispatch_queue> *timebaseReadWriteQueue;
-    struct OpaqueCMTimebase *timebase;
 }
 
 @end

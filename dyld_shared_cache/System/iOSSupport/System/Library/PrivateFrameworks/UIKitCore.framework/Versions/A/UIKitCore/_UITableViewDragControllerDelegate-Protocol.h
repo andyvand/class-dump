@@ -4,6 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSIndexPath, NSOrderedSet, UIDragPreviewParameters, _UIDragSessionProperties, _UITableViewDropAnimationContainerView;
+@protocol UIDragSession;
+
 @protocol _UITableViewDragControllerDelegate
+- (NSOrderedSet *)retrieveLocalFileURLForFileTransferWithGUIDs:(id <UIDragSession>)arg1 options:(NSIndexPath *)arg2;
+- (NSArray *)canonicalFormOfID:(id <UIDragSession>)arg1 withIDSensitivity:(NSIndexPath *)arg2;
+- (NSArray *)cancelVCRequestWithPerson:(id <UIDragSession>)arg1 properties:(NSIndexPath *)arg2 conference:(struct CGPoint)arg3 reason:(long long)arg4;
+- (void)ngLastSync;
+- (void)abilityResult",&,N,V_result;
+- (_UIDragSessionProperties *)quest;
+- (_Bool)errorIndicatesBatchSizeFailure:(id <UIDragSession>)arg1;
+- (void)ntHandler;
+- (_Bool)PurgedAttachmentHandler",&,N,V_purgedAttachmentHandler;
+- (UIDragPreviewParameters *)enabledAccounts;
+- (_UITableViewDropAnimationContainerView *);
+- (void);
+- (void);
 @end
 

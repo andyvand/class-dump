@@ -9,25 +9,21 @@
 @interface ML3StoreItemPlaylistData
 {
     NSArray *_lookupItems;
-    NSData *_playlistData;
-    NSArray *_parsedPlaylistsImportProperties;
 }
 
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)BO1mUeT7Qg9RO7Er9w;
+- (id)_addUBFBundleScopedOrderedAssetsToImport:onDiskURLsToSkip: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_addSceneAnalysisToProcessingSnapshot:photoLibrary:progress:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_addMediaAnalysisIndexingToProcessingSnapshot:photoLibrary:progress:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_abortFromMocExecFail_NSMOC_SQLITE_AUTH_23_withCode:(id)arg1;
+- (id)_CPLPrefetchingWasCancelled;
+- (id)setCommentGUID:(id)arg1;
+- (id),N,V_person;
+- (id)N;
+- (id)dditionalAssetAttributes",&,D,N;
+- (id)T@"PIAdjustmentConstants",R,N;
+- (void)ji56BO1mUeT7Qg9RO7Er9w;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *parsedStorePlaylistsImportProperties;
-@property(readonly, nonatomic) unsigned long long playlistCount;
 @property(readonly, nonatomic) NSData *playlistsData;
 
 @end

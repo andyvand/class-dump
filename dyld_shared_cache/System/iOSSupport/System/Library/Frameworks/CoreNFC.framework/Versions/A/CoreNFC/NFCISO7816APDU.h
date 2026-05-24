@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NFCISO7816APDU
 {
     struct _NSRange _payloadOffset;
     long long _le;
-    NSData *_fullPacket;
 }
 
 - (unsigned char);
 - (unsigned char);
 - (unsigned char);
 - (id);
-- (long long);
+- (long long);
 - (unsigned char);
 - (id);
 - (id);
@@ -27,12 +24,8 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *data;
-@property(readonly, nonatomic) long long expectedResponseLength;
 @property(readonly, nonatomic) unsigned char instructionClass;
 @property(readonly, nonatomic) unsigned char instructionCode;
-@property(readonly, nonatomic) unsigned char p1Parameter;
-@property(readonly, nonatomic) unsigned char p2Parameter;
 
 @end
 

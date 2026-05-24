@@ -7,55 +7,10 @@
 @interface AppKit._NSTextFormattingViewModel
 {
     id bold;
-    id canToggleBold;
-    id italic;
-    id canToggleItalic;
-    id underline;
-    id strikethrough;
-    id foregroundColor;
-    id backgroundColor;
-    id selectedFamily;
-    id selectedFace;
-    id fontSize;
-    id highlight;
-    id textAlignment;
-    id textAlignmentFullyJustified;
-    id textList;
-    id lineHeightMultiple;
-    id blockquote;
-    id fontOptionName;
-    id formattingStyles;
-    id families;
-    id recentFamilies;
-    id favoriteFamilies;
-    id faces;
-    id fontSizes;
-    id fontOptions;
-    id lineHeightMultiples;
-    id customLineSpacingItemTitle;
-    id multipleFontsSelected;
-    id multipleFontSizesSelected;
-    id controlSize;
-    id disabledComponents;
-    id layoutVariant;
-    id isInspectorUI;
-    id syncClient;
-    id asyncClient;
-    id viewController;
-    id currentFormattingDescriptor;
-    id modelStateUpdatingInProgress;
-    id dependentViews;
-    id attributeConversionHandler;
-    id fontConversionHandler;
-    id textView;
-    id textFormattingResponder;
-    id skipFormattingDescriptorCheckOnUpdate;
-    id clientMethods;
-    id allComponentViews;
 }
 
-- (id);
-- (id);
+- (id)echanism.;
+- (id)ATE for item:(id)arg1 %@.  Error-code:%d /* Error: Ran out of types for this method. */;
 - (long long);
 
 @end

@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAffineTransform, NSAppearance;
-
 @interface NSViewHostingTraits
 {
     struct CGRect _hostingBounds;
-    NSAppearance *_appearance;
-    long long _layoutDirection;
-    NSAffineTransform *_screenTransform;
-    double _displayScale;
-    _Bool _appearsKey;
-    _Bool _flipped;
-    _Bool _visible;
 }
 
-- (void);
+- (void)om.apple.itunesstored.accountschanged,com.apple.springboard.green-tea-changed;
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (id);
+- (id)_kCFNTimingDataNStatMinRTT;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (double)gnizer";
-- (id)tonBounds;
+- (id)cancelButtonBounds;
 - (void)T;
 - (_Bool);
 - (void)2@;
@@ -39,14 +30,7 @@
 - (long long)·B;
 
 // Remaining properties
-@property(retain) NSAppearance *appearance; // @synthesize appearance=_appearance;
-@property _Bool appearsKey; // @synthesize appearsKey=_appearsKey;
-@property double displayScale; // @synthesize displayScale=_displayScale;
-@property(getter=isFlipped) _Bool flipped; // @synthesize flipped=_flipped;
 @property struct CGRect hostingBounds; // @synthesize hostingBounds=_hostingBounds;
-@property long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(copy) NSAffineTransform *screenTransform; // @synthesize screenTransform=_screenTransform;
-@property(getter=isVisible) _Bool visible; // @synthesize visible=_visible;
 
 @end
 

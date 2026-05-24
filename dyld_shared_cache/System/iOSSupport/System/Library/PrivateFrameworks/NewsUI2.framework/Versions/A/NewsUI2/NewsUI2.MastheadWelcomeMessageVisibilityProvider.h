@@ -7,10 +7,6 @@
 @interface NewsUI2.MastheadWelcomeMessageVisibilityProvider
 {
     id featureAvailability;
-    id bundleSessionManager;
-    id configurationManager;
-    id bundleSubscriptionManager;
-    id bundleSubscriptionDetectionManager;
 }
 
 @end

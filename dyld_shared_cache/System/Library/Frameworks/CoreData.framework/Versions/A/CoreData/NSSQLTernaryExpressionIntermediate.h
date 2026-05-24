@@ -6,22 +6,20 @@
 
 #import <CoreData/NSSQLExpressionIntermediate.h>
 
-@class NSArray, NSSQLEntity;
+@class NSSQLEntity;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLTernaryExpressionIntermediate : NSSQLExpressionIntermediate
 {
     NSSQLEntity *_disambiguatingEntity;
-    NSArray *_disambiguationKeypath;
-    _Bool _disambiguationKeypathHasToMany;
 }
 
+- (void);
+- (id)B;
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)ionTask"24i32;
 
 @end
 

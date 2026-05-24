@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface STSchemaSTHallucinationDetectionStarted : SISchemaInstrumentationMessage
 {
     int _hallucinationDetectionSource;
-    struct {
-        unsigned int hallucinationDetectionSource:1;
-    } _has;
 }
 
 - (void);
@@ -23,18 +18,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)softwareVersionExternalIdentifier;
+- (_Bool)d;
+- (_Bool)TEGER;
 - (id);
 - (id);
-- (id)dex;
-- (id)sResponseViewId;
+- (id)deleteMatchedIndex;
+- (id)_hasResponseViewId;
 
 // Remaining properties
 @property(nonatomic) int hallucinationDetectionSource; // @synthesize hallucinationDetectionSource=_hallucinationDetectionSource;
-@property(nonatomic) _Bool hasHallucinationDetectionSource;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

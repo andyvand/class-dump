@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMDaemonInterface, NSArray, NSData, NSString, WFEmailAddress;
+@class EMDaemonInterface;
 
 @interface WFEmail
 {
     EMDaemonInterface *_interface;
-    NSString *_subject;
-    unsigned long long _subjectPrefix;
-    WFEmailAddress *_sender;
-    NSArray *_recipients;
-    NSData *_identifier;
-    NSString *_accountIdentifier;
 }
 
 + (_Bool);
@@ -27,23 +21,16 @@
 - (id);
 - (void);
 - (id);
+- (id)ea;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)ork/Versions/C/Foundation;
 - (id)ÿÿÿÿH;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) EMDaemonInterface *interface; // @synthesize interface=_interface;
-@property(readonly, copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, nonatomic) WFEmailAddress *sender; // @synthesize sender=_sender;
-@property(readonly, copy, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(readonly, nonatomic) unsigned long long subjectPrefix; // @synthesize subjectPrefix=_subjectPrefix;
-@property(readonly, copy, nonatomic) NSString *wfName;
 
 @end
 

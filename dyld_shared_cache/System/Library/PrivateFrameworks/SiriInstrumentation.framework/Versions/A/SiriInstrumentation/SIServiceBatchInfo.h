@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SIServiceDeviceUploadInfo, SIServiceServerUploadInfo;
+@class NSData;
 
 @interface SIServiceBatchInfo : SISchemaInstrumentationMessage
 {
     NSData *_batch_id;
-    SIServiceDeviceUploadInfo *_device_upload_info;
-    SIServiceServerUploadInfo *_server_upload_info;
-    int _batch_type;
-    struct {
-        unsigned int batch_type:1;
-    } _has;
-    _Bool _hasBatch_id;
-    _Bool _hasDevice_upload_info;
-    _Bool _hasServer_upload_info;
-    unsigned long long _whichUpload_Info;
 }
 
 - (unsigned long long);
@@ -35,38 +25,29 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)2(;
 - (int);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)loadUpdateMetadataIfNecessary;
 - (_Bool);
-- (_Bool);
+- (_Bool)solutionLibrary(void);
 - (id);
 - (id);
-- (id)leteInverseTextNormalizationDurationInNs;
-- (id)roup;
+- (id)deleteInverseTextNormalizationDurationInNs;
+- (id)_hasGroup;
 - (void)apple.aiml.siri.nlx.NLXClientEvent.MARRSMentionDetectorEndedTier1;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *batch_id; // @synthesize batch_id=_batch_id;
-@property(nonatomic) int batch_type; // @synthesize batch_type=_batch_type;
-@property(retain, nonatomic) SIServiceDeviceUploadInfo *device_upload_info; // @synthesize device_upload_info=_device_upload_info;
-@property(nonatomic) _Bool hasBatch_id; // @synthesize hasBatch_id=_hasBatch_id;
-@property(nonatomic) _Bool hasBatch_type;
-@property(nonatomic) _Bool hasDevice_upload_info; // @synthesize hasDevice_upload_info=_hasDevice_upload_info;
-@property(nonatomic) _Bool hasServer_upload_info; // @synthesize hasServer_upload_info=_hasServer_upload_info;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SIServiceServerUploadInfo *server_upload_info; // @synthesize server_upload_info=_server_upload_info;
-@property(readonly, nonatomic) unsigned long long whichUpload_Info; // @synthesize whichUpload_Info=_whichUpload_Info;
 
 @end
 

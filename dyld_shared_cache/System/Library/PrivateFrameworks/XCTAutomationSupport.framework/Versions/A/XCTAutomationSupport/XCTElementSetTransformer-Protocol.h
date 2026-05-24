@@ -7,11 +7,10 @@
 @class NSSet, NSString;
 
 @protocol XCTElementSetTransformer
+- (void);
+- (NSSet *)8A;
 
 // Remaining properties
-@property(readonly, copy) NSSet *elementTypes;
-@property _Bool stopsOnFirstMatch;
-@property(readonly) _Bool supportsAttributeKeyPathAnalysis;
 @property(copy) NSString *transformationDescription;
 @end
 

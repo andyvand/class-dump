@@ -9,8 +9,6 @@
 @interface ASDCellularIdentity
 {
     _Bool _roaming;
-    NSString *_defaultsKey;
-    NSString *_simIdentity;
 }
 
 + (id);
@@ -19,13 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool)oningProfiles: /* Error: Ran out of types for this method. */;
+- (void)Tl;
+- (_Bool)setProvisioningProfiles: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSString *defaultsKey; // @synthesize defaultsKey=_defaultsKey;
-@property(readonly, getter=isRoaming) _Bool roaming; // @synthesize roaming=_roaming;
-@property(readonly) NSString *simIdentity; // @synthesize simIdentity=_simIdentity;
 
 @end
 

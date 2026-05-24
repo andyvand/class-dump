@@ -6,25 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSLayoutConstraint, NSString, UIImageView;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIKBSplitImageView : UIView
 {
     _Bool _canStretchAsFullWidth;
-    UIImageView *_fullView;
-    UIImageView *_splitLeft;
-    UIImageView *_splitRight;
-    NSString *_currentFilterType;
-    NSArray *_splitConstraints;
-    NSLayoutConstraint *_leftWidthConstraint;
-    NSLayoutConstraint *_rightWidthConstraint;
 }
 
-- (void);
+- (void)P;
 - (id)hççÿççÿÈççÿøççÿ èçÿhèçÿèçÿÈèçÿøèçÿ éçÿhéçÿéçÿÈéçÿøéçÿ êçÿhêçÿêçÿÈêçÿøêçÿ ëçÿhëçÿëçÿ¸ëçÿìëçÿ°ìçÿäìçÿíçÿDíçÿpíçÿ¤íçÿhîçÿîçÿÀîçÿôîçÿ ïçÿDïçÿïçÿ°ïçÿàïçÿ ðçÿhðçÿðçÿÀðçÿ;
 - (void)wportLayoutController"8{CGRect={CGPoint=dd}{CGSize=dd}}16@"NSTextRange"48;
-- (void)ntextMenuSubmenuTitleHeader;
+- (void)kContextMenuSubmenuTitleHeader;
 - (void)sProvidingP;
 - (void)!13;
 - (id)Åó;

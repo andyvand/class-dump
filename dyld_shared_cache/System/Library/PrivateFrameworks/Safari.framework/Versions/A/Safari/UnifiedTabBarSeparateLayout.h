@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UnifiedTabBarSeparateLayout : UnifiedTabBarLayout
 {
     unsigned long long _numberOfUnpinnedInactiveTabs;
-    unsigned long long _numberOfUnpinnedInactiveInterTabButtonSpacings;
 }
 
 - (_Bool);

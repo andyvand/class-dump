@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface ACTVSchemaACTVButtonInteractionDetected : SISchemaInstrumentationMessage
 {
     int _buttonInteractionType;
-    NSString *_buttonName;
-    struct {
-        unsigned int buttonInteractionType:1;
-    } _has;
-    _Bool _hasButtonName;
 }
 
 - (void);
@@ -28,23 +21,19 @@
 - (void);
 - (id);
 - (int);
-- (id);
+- (id)EACameraBitDepth;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)ystemErrorOccurred: /* Error: Ran out of types for this method. */;
+- (id)setSystemErrorOccurred: /* Error: Ran out of types for this method. */;
 - (id)l¥;
-- (id)REREASON_INVALID_INPUT;
+- (id)TTMFAILUREREASON_INVALID_INPUT;
 - (void),M¥ÿ¾ßtÉO';
 
 // Remaining properties
 @property(nonatomic) int buttonInteractionType; // @synthesize buttonInteractionType=_buttonInteractionType;
-@property(copy, nonatomic) NSString *buttonName; // @synthesize buttonName=_buttonName;
-@property(nonatomic) _Bool hasButtonInteractionType;
-@property(nonatomic) _Bool hasButtonName; // @synthesize hasButtonName=_hasButtonName;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSetRadioStationIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
++ (int)d}{CGSize=dd}}24^i32^B40^@48;
++ (int)provideCachedResultsOnly;
++ (long long)needsAdditionalTime;
++ (_Bool)isFileBased;
 + (_Bool);
-+ (_Bool);
-- (void);
+- (void)R;
 - (id);
 - (long long);
 - (id);
 - (long long);
 - (id);
+- (id)setAnonymizedIdentifier:(id)arg1;
 - (id);
+- (void)%u) Invalidating interfaceDeactivationTimer;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)6;
 - (long long)unt",C,V_tip;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

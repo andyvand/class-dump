@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISingleChannelColorMap : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputChannelIndex;
-    NSNumber *inputShouldNormalize;
-    NSNumber *inputColorMapIndex;
 }
 
 + (id);
@@ -29,10 +26,7 @@ __attribute__((visibility("hidden")))
 - (id)xxvxuuuuUcZjDZMeSbWmGh_xn{wp~o}xwwwww`cZiQ^UgUgbq{{{{{{{{[pkx}zw}b~~zzzzTibrruuuttttCZMhKO>[YVFYbaVbmmmmjmmmKZNdV_TellllQibopsnvt^|uW{tv    ¡¡¡¡ ag}yxvqxXd[jQ^Th]miu~Thbodd]dEXK^9O?`Hd[q ¦ªªª¤§§§swwwwYqmv||||};
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputChannelIndex; // @synthesize inputChannelIndex;
-@property(retain, nonatomic) NSNumber *inputColorMapIndex; // @synthesize inputColorMapIndex;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputShouldNormalize; // @synthesize inputShouldNormalize;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKTransactionAuthenticationContext;
+@class PKTransactionAuthenticationContext;
 
 @interface PKTransactionAuthenticationResult
 {
     PKTransactionAuthenticationContext *_authenticationContext;
-    NSData *_encryptedPIN;
-    NSData *_transactionDetailsSignature;
-    NSData *_userConfirmation;
-    NSString *_transactionServiceIdentifier;
 }
 
 + (_Bool);
@@ -21,27 +17,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)rJ;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)addFrameErasureRateHistogram:(id)arg1;
 - (void)oto/wIBZ8Ey6BrdSGLWk9kUzcQ/o.jpg;
 
 // Remaining properties
 @property(retain, nonatomic) PKTransactionAuthenticationContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
-@property(copy, nonatomic) NSData *encryptedPIN; // @synthesize encryptedPIN=_encryptedPIN;
-@property(readonly, nonatomic) _Bool hasDataForAllRequestedAuthenticationMechanisms;
-@property(copy, nonatomic) NSData *transactionDetailsSignature; // @synthesize transactionDetailsSignature=_transactionDetailsSignature;
-@property(copy, nonatomic) NSString *transactionServiceIdentifier; // @synthesize transactionServiceIdentifier=_transactionServiceIdentifier;
-@property(copy, nonatomic) NSData *userConfirmation; // @synthesize userConfirmation=_userConfirmation;
 
 @end
 

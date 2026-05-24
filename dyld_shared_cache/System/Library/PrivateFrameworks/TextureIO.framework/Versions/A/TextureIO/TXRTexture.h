@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
 @protocol TXRBufferAllocator;
 
 @interface TXRTexture
 {
     id <TXRBufferAllocator> _bufferAllocator;
-    NSMutableArray *_mipmapLevels;
-    id _dimensions;
-    _Bool _cubemap;
-    unsigned long long _pixelFormat;
-    unsigned long long _alphaInfo;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
+- (id)B;
 - (id);
-- (id);
-- (void);
+- (void)H1E31*;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long alphaInfo; // @synthesize alphaInfo=_alphaInfo;
-@property(readonly, nonatomic) _Bool cubemap; // @synthesize cubemap=_cubemap;
 @property(readonly, nonatomic) id dimensions; // @synthesize dimensions=_dimensions;
-@property(readonly, nonatomic) NSArray *mipmapLevels; // @synthesize mipmapLevels=_mipmapLevels;
-@property(readonly, nonatomic) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
 
 @end
 

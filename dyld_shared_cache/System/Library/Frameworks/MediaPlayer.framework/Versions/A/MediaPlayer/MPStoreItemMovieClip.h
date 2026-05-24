@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPStoreArtworkRequestToken, NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface MPStoreItemMovieClip
 {
@@ -16,13 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void)dAutomaticallyLoad;
+- (void)_shouldAutomaticallyLoad;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *assets;
 @property(readonly, copy, nonatomic) NSDictionary *lookupDictionary; // @synthesize lookupDictionary=_lookupDictionary;
-@property(readonly, copy, nonatomic) MPStoreArtworkRequestToken *previewArtworkRequestToken;
-@property(readonly, copy, nonatomic) NSString *title;
 
 @end
 

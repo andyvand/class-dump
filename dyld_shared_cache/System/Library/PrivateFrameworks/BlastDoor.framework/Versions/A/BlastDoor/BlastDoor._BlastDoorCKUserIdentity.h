@@ -7,25 +7,6 @@
 @interface BlastDoor._BlastDoorCKUserIdentity
 {
     id userRecordID;
-    id nameComponents;
-    id lookupInfo;
-    id contactIdentifiers;
-    id publicSharingKey;
-    id outOfNetworkPrivateKey;
-    id isCached;
-    id hasICloudAccount;
-    id encryptedPersonalInfo;
-    id publicKeyVersion;
-    id UserRecordIDKey;
-    id NameComponentsKey;
-    id LookupInfoKey;
-    id ContactIdentifiersKey;
-    id ProtectionDataKey;
-    id OONProtectionDataKey;
-    id IsCachedKey;
-    id HasICloudAccountKey;
-    id EncryptedPersonalInfoKey;
-    id PublicKeyVersionKey;
 }
 
 + (void);

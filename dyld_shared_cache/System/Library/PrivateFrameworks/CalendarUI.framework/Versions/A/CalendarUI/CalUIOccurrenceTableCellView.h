@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKAutocompleteSearchResult, NSArray, NSImageView, NSTextField, NSView;
+@class EKAutocompleteSearchResult, NSImageView;
 
 @interface CalUIOccurrenceTableCellView
 {
     NSImageView *_checkmarkView;
-    EKAutocompleteSearchResult *_searchResult;
-    NSArray *_detailsFields;
-    NSImageView *_dotImageView;
-    NSTextField *_titleField;
-    NSView *_dotViewBorder;
 }
 
 + (id);
 + (_Bool);
 + (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -35,20 +30,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)B;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)_֠;
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *detailsFields; // @synthesize detailsFields=_detailsFields;
-@property(retain) NSImageView *dotImageView; // @synthesize dotImageView=_dotImageView;
-@property(retain) NSView *dotViewBorder; // @synthesize dotViewBorder=_dotViewBorder;
 @property(retain) EKAutocompleteSearchResult *searchResult; // @synthesize searchResult=_searchResult;
-@property(retain) NSTextField *titleField; // @synthesize titleField=_titleField;
 
 @end
 

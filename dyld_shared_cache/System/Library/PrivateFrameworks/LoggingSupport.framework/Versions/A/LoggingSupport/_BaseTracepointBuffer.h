@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet;
-
 __attribute__((visibility("hidden")))
 @interface _BaseTracepointBuffer
 {
     CDStruct_d142dd21 *_events;
-    _Bool _canMutate;
-    unsigned long long _cursor;
-    unsigned long long _count;
-    unsigned long long _size;
-    NSMutableOrderedSet *_fileNames;
 }
 
 - (void);
@@ -33,8 +26,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)A;
 - (void);
 - (void);
 - (_Bool);
@@ -42,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)IK_AS_IC_TextBrightness;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -51,10 +44,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool canMutate; // @synthesize canMutate=_canMutate;
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) unsigned long long cursor; // @synthesize cursor=_cursor;
-@property(retain, nonatomic) NSMutableOrderedSet *fileNames; // @synthesize fileNames=_fileNames;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

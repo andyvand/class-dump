@@ -6,7 +6,7 @@
 
 #import <Email/EMObjectID.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface EMMailboxObjectID : EMObjectID
 {
@@ -15,33 +15,20 @@
 
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)A;
+- (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)initWithFireDate:(id)arg1 interval:target:selector:userInfo:repeats: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)provideFileURLForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)=°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

@@ -6,19 +6,17 @@
 
 #import <Slideshows/MCContainer.h>
 
-@class MCPlugHaven, NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary, NSSet;
 
 @interface MCContainerNavigator : MCContainer
 {
     NSMutableDictionary *mPlugs;
-    NSString *mStartPlugID;
-    MCPlugHaven *mStartPlug;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)&;
 - (void);
 - (void);
 - (id);
@@ -28,15 +26,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long countOfPlugs;
 @property(readonly) NSSet *plugs;
-@property(readonly) MCPlugHaven *startPlug; // @synthesize startPlug=mStartPlug;
-@property(copy, nonatomic) NSString *startPlugID; // @synthesize startPlugID=mStartPlugID;
 
 @end
 

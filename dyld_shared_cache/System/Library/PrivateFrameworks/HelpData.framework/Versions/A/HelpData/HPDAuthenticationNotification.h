@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface HPDAuthenticationNotification
 {
     NSString *_name;
-    NSDictionary *_userInfo;
 }
 
 + (_Bool);
@@ -17,14 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)Q;
+- (void)';
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

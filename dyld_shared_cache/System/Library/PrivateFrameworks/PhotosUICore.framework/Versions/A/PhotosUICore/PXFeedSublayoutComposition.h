@@ -10,10 +10,9 @@
 @interface PXFeedSublayoutComposition
 {
     PXLayoutGenerator *_cachedLayoutGenerator;
-    id <PXFeedViewLayoutSpec> _spec;
 }
 
-- (void);
+- (void)!;
 - (long long);
 - (id);
 - (void);
@@ -21,7 +20,6 @@
 - (void)8Ù)ÿõ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long scrollableAxis;
 @property(retain, nonatomic) id <PXFeedViewLayoutSpec> spec; // @synthesize spec=_spec;
 
 @end

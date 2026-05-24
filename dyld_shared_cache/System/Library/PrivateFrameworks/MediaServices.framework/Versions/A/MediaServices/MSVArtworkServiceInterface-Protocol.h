@@ -5,5 +5,7 @@
 //
 
 @protocol MSVArtworkServiceInterface
+- (void);
+- (void)b;
 @end
 

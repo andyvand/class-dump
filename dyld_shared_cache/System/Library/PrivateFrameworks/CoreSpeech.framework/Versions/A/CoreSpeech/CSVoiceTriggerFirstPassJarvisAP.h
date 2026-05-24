@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAsset, CSAudioProvider, CSAudioStream, CSKeywordAnalyzerNDAPI, CSOSTransaction, CSPolicy, CSSiriClientBehaviorMonitor, CSSpeechManager, CSVoiceTriggerSecondChanceContext, CSVoiceTriggerSecondPass, CSVoiceTriggerUserSelectedPhrase, NSMutableArray, NSObject, NSString;
-@protocol CSVoiceTriggerDelegate, OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSVoiceTriggerFirstPassJarvisAP
 {
     _Bool _isAPJarvisFirstPassEnabled;
-    _Bool _isSiriClientListening;
-    _Bool _isSecondPassRunning;
-    float _keywordThreshold;
-    id <CSVoiceTriggerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSAsset *_currentAsset;
-    CSKeywordAnalyzerNDAPI *_keywordAnalyzerNDAPI;
-    CSAudioStream *_audioStream;
-    NSObject<OS_dispatch_group> *_recordingWillStartGroup;
-    CSVoiceTriggerSecondPass *_voiceTriggerSecondPass;
-    CSOSTransaction *_secondPassTransaction;
-    NSString *_deviceId;
-    CSAudioProvider *_audioProvider;
-    NSMutableArray *_audioStreamHoldings;
-    CSSiriClientBehaviorMonitor *_siriClientBehaviorMonitor;
-    CSSpeechManager *_speechManager;
-    CSPolicy *_voiceTriggerJarvisAPEnabledPolicy;
-    CSVoiceTriggerSecondChanceContext *_secondChanceContext;
-    unsigned long long _heartbeatFactor;
-    CSVoiceTriggerUserSelectedPhrase *_multiPhraseSelectedStatus;
 }
 
 - (id);
@@ -46,34 +26,34 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)(	;
+- (void)UT:(id)arg1 Notification name not recognized;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (float);
+- (void)H;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)`;
 - (id);
-- (id);
+- (id)copyPasteboardStringForRecords: /* Error: Ran out of types for this method. */;
+- (void)n migration from from (%@) to (%@);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
+- (void)SS_ypt;
+- (id)(P;
 - (id);
-- (void);
-- (void);
+- (void)registerRequestSpecifier:(id)arg1 equivalencyToRequestSpecifier:error: /* Error: Ran out of types for this method. */;
+- (void)VNClustererQueryOptions;
 - (void);
 - (void);
 - (id);
@@ -85,16 +65,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)�;
 - (void);
 - (id);
 - (void);
+- (void)URLSession:(id)arg1 downloadTask:didResumeAtOffset:expectedTotalBytes: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void)evice: /* Error: Ran out of types for this method. */;
-- (id)udioFiles:aesKey:encryptedAudioSampleBypeDepth:languageCode:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)isOutputDevice:relatedToInputDevice: /* Error: Ran out of types for this method. */;
+- (id)createRemoteVoiceProfileWithAudioFiles:aesKey:encryptedAudioSampleBypeDepth:languageCode:completion: /* Error: Ran out of types for this method. */;
 - (void)inquishmentContext = %@);
 - (id)emon:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)hMHUUID:(id)arg1 ];
@@ -102,34 +82,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CSAudioProvider *audioProvider; // @synthesize audioProvider=_audioProvider;
-@property(retain, nonatomic) CSAudioStream *audioStream; // @synthesize audioStream=_audioStream;
-@property(retain, nonatomic) NSMutableArray *audioStreamHoldings; // @synthesize audioStreamHoldings=_audioStreamHoldings;
-@property(retain, nonatomic) CSAsset *currentAsset; // @synthesize currentAsset=_currentAsset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSVoiceTriggerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long heartbeatFactor; // @synthesize heartbeatFactor=_heartbeatFactor;
-@property(nonatomic) _Bool isAPJarvisFirstPassEnabled; // @synthesize isAPJarvisFirstPassEnabled=_isAPJarvisFirstPassEnabled;
-@property(nonatomic) _Bool isSecondPassRunning; // @synthesize isSecondPassRunning=_isSecondPassRunning;
-@property(nonatomic) _Bool isSiriClientListening; // @synthesize isSiriClientListening=_isSiriClientListening;
-@property(retain, nonatomic) CSKeywordAnalyzerNDAPI *keywordAnalyzerNDAPI; // @synthesize keywordAnalyzerNDAPI=_keywordAnalyzerNDAPI;
-@property(nonatomic) float keywordThreshold; // @synthesize keywordThreshold=_keywordThreshold;
-@property(retain, nonatomic) CSVoiceTriggerUserSelectedPhrase *multiPhraseSelectedStatus; // @synthesize multiPhraseSelectedStatus=_multiPhraseSelectedStatus;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *recordingWillStartGroup; // @synthesize recordingWillStartGroup=_recordingWillStartGroup;
-@property(retain, nonatomic) CSVoiceTriggerSecondChanceContext *secondChanceContext; // @synthesize secondChanceContext=_secondChanceContext;
-@property(retain, nonatomic) CSOSTransaction *secondPassTransaction; // @synthesize secondPassTransaction=_secondPassTransaction;
-@property(retain, nonatomic) CSSiriClientBehaviorMonitor *siriClientBehaviorMonitor; // @synthesize siriClientBehaviorMonitor=_siriClientBehaviorMonitor;
-@property(retain, nonatomic) CSSpeechManager *speechManager; // @synthesize speechManager=_speechManager;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CSPolicy *voiceTriggerJarvisAPEnabledPolicy; // @synthesize voiceTriggerJarvisAPEnabledPolicy=_voiceTriggerJarvisAPEnabledPolicy;
-@property(retain, nonatomic) CSVoiceTriggerSecondPass *voiceTriggerSecondPass; // @synthesize voiceTriggerSecondPass=_voiceTriggerSecondPass;
 
 @end
 

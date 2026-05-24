@@ -8,7 +8,7 @@
 {
 }
 
-- (id)esage:(id)arg1;
+- (id)download:(id)arg1 receiveLogWithLevel:withLogMesage: /* Error: Ran out of types for this method. */;
 
 @end
 

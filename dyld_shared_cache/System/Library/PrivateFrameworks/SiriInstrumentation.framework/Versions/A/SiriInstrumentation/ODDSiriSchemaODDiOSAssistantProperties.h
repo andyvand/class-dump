@@ -6,31 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDAnnounceProperties, ODDSiriSchemaODDAutoSendMessageProperties, ODDSiriSchemaODDCarPlayProperties, ODDSiriSchemaODDHeadGestureProperties, ODDSiriSchemaODDSiriInCallProperties, ODDSiriSchemaODDiOSAccessibilityProperties, ODDSiriSchemaODDiOSResponseProperties;
-
 @interface ODDSiriSchemaODDiOSAssistantProperties : SISchemaInstrumentationMessage
 {
     _Bool _isPressSideButtonForSiriEnabled;
-    _Bool _isAllowSiriWhenLockedEnabled;
-    ODDSiriSchemaODDiOSResponseProperties *_response;
-    ODDSiriSchemaODDiOSAccessibilityProperties *_accessibility;
-    ODDSiriSchemaODDCarPlayProperties *_carPlay;
-    ODDSiriSchemaODDSiriInCallProperties *_siriInCall;
-    ODDSiriSchemaODDAnnounceProperties *_announce;
-    ODDSiriSchemaODDAutoSendMessageProperties *_autoSendMessage;
-    NSArray *_activeSubscriptions;
-    ODDSiriSchemaODDHeadGestureProperties *_headGestures;
-    struct {
-        unsigned int isPressSideButtonForSiriEnabled:1;
-        unsigned int isAllowSiriWhenLockedEnabled:1;
-    } _has;
-    _Bool _hasResponse;
-    _Bool _hasAccessibility;
-    _Bool _hasCarPlay;
-    _Bool _hasSiriInCall;
-    _Bool _hasAnnounce;
-    _Bool _hasAutoSendMessage;
-    _Bool _hasHeadGestures;
 }
 
 - (id);
@@ -46,16 +24,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)	?׺;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,12 +50,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -95,32 +73,13 @@
 × ;
 - (id)@ù
 × ;
-- (void)ceDynamicContext;
+- (void)_orchDeviceDynamicContext;
 - (id)tionType;
 - (id)fiers;
 - (void)entEvent.rrUsoGraphTier1.usoGraphTier1.linkedUsoNodeDatas.normalizedStringPayloads;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDiOSAccessibilityProperties *accessibility; // @synthesize accessibility=_accessibility;
-@property(copy, nonatomic) NSArray *activeSubscriptions; // @synthesize activeSubscriptions=_activeSubscriptions;
-@property(retain, nonatomic) ODDSiriSchemaODDAnnounceProperties *announce; // @synthesize announce=_announce;
-@property(retain, nonatomic) ODDSiriSchemaODDAutoSendMessageProperties *autoSendMessage; // @synthesize autoSendMessage=_autoSendMessage;
-@property(retain, nonatomic) ODDSiriSchemaODDCarPlayProperties *carPlay; // @synthesize carPlay=_carPlay;
-@property(nonatomic) _Bool hasAccessibility; // @synthesize hasAccessibility=_hasAccessibility;
-@property(nonatomic) _Bool hasAnnounce; // @synthesize hasAnnounce=_hasAnnounce;
-@property(nonatomic) _Bool hasAutoSendMessage; // @synthesize hasAutoSendMessage=_hasAutoSendMessage;
-@property(nonatomic) _Bool hasCarPlay; // @synthesize hasCarPlay=_hasCarPlay;
-@property(nonatomic) _Bool hasHeadGestures; // @synthesize hasHeadGestures=_hasHeadGestures;
-@property(nonatomic) _Bool hasIsAllowSiriWhenLockedEnabled;
-@property(nonatomic) _Bool hasIsPressSideButtonForSiriEnabled;
-@property(nonatomic) _Bool hasResponse; // @synthesize hasResponse=_hasResponse;
-@property(nonatomic) _Bool hasSiriInCall; // @synthesize hasSiriInCall=_hasSiriInCall;
-@property(retain, nonatomic) ODDSiriSchemaODDHeadGestureProperties *headGestures; // @synthesize headGestures=_headGestures;
-@property(nonatomic) _Bool isAllowSiriWhenLockedEnabled; // @synthesize isAllowSiriWhenLockedEnabled=_isAllowSiriWhenLockedEnabled;
 @property(nonatomic) _Bool isPressSideButtonForSiriEnabled; // @synthesize isPressSideButtonForSiriEnabled=_isPressSideButtonForSiriEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDiOSResponseProperties *response; // @synthesize response=_response;
-@property(retain, nonatomic) ODDSiriSchemaODDSiriInCallProperties *siriInCall; // @synthesize siriInCall=_siriInCall;
 
 @end
 

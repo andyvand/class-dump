@@ -9,30 +9,22 @@
 @interface NSFileAccessIntent
 {
     NSURL *_url;
-    long long _options;
-    unsigned int _removedResolveFlags;
-    _Bool _isRead;
 }
 
 + (id);
-+ (id);
++ (id)N;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long)-;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy) NSURL *URL; // @synthesize URL=_url;
-@property(readonly) NSFileAccessIntent *canonicalIntent;
-@property(readonly) _Bool isRead; // @synthesize isRead=_isRead;
-@property(readonly) unsigned long long readingOptions;
-@property(readonly) unsigned int removedResolveFlags; // @synthesize removedResolveFlags=_removedResolveFlags;
-@property(readonly) unsigned long long writingOptions;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface SUOSUServiceClient
 {
     _Bool _isPreventingBackgroundScans;
-    int _pid;
-    unsigned int _uid;
-    NSString *_name;
-    NSString *_path;
-    unsigned long long _type;
-    NSXPCConnection *_connection;
 }
 
 - (void);
@@ -53,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)PKMetalParticleRenderCache;
 - (unsigned int);
 - (unsigned long long);
 - (void);
@@ -66,13 +60,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly) _Bool isPreventingBackgroundScans; // @synthesize isPreventingBackgroundScans=_isPreventingBackgroundScans;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSString *path; // @synthesize path=_path;
-@property int pid; // @synthesize pid=_pid;
-@property(readonly) unsigned long long type; // @synthesize type=_type;
-@property unsigned int uid; // @synthesize uid=_uid;
-@property(readonly) _Bool userIsOnConsole;
 
 @end
 

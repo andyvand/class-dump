@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (void)ÜTH;
 - (_Bool);
-- (void);
+- (void)g;
 - (_Bool);
 
 // Remaining properties

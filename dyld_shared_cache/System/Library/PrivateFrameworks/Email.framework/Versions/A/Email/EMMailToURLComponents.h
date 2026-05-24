@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface EMMailToURLComponents
 {
     NSArray *_toRecipients;
-    NSArray *_ccRecipients;
-    NSArray *_bccRecipients;
-    NSString *_subject;
-    NSString *_body;
-    NSString *_from;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)E_COORDINATION_ELECTION;
 - (void);
 - (id);
 - (id);
@@ -29,11 +24,6 @@
 - (id)à;;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bccRecipients; // @synthesize bccRecipients=_bccRecipients;
-@property(readonly, nonatomic) NSString *body; // @synthesize body=_body;
-@property(readonly, nonatomic) NSArray *ccRecipients; // @synthesize ccRecipients=_ccRecipients;
-@property(readonly, nonatomic) NSString *from; // @synthesize from=_from;
-@property(readonly, nonatomic) NSString *subject; // @synthesize subject=_subject;
 @property(readonly, nonatomic) NSArray *toRecipients; // @synthesize toRecipients=_toRecipients;
 
 @end

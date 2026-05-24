@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLSessionTask, NSURLSessionTaskDependencyDescription;
+@class NSURLSessionTaskDependencyDescription;
 
 @interface NSURLSessionTaskDependency
 {
     NSURLSessionTaskDependencyDescription *_taskDependencyDescription;
-    NSURLSessionTask *_parentTask;
-    NSURLSessionTask *_mainDocumentTask;
 }
 
-+ (id);
++ (id)Z;
 + (id);
 + (id);
 - (id);
-- (void);
+- (void)h
+;
 - (id);
 - (id);
-- (void);
+- (void)bilabialclick;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSURLSessionTask *mainDocumentTask; // @synthesize mainDocumentTask=_mainDocumentTask;
-@property(readonly, retain, nonatomic) NSURLSessionTask *parentTask; // @synthesize parentTask=_parentTask;
 @property(retain, nonatomic) NSURLSessionTaskDependencyDescription *taskDependencyDescription; // @synthesize taskDependencyDescription=_taskDependencyDescription;
 
 @end

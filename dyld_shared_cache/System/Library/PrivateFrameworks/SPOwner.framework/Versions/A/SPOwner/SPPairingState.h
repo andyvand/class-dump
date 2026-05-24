@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSUUID;
+@class NSUUID;
 
 @interface SPPairingState
 {
     unsigned char _partId;
-    NSUUID *_beaconIdentifier;
-    NSData *_macAddress;
-    NSNumber *_pairingEpoch;
-    long long _pairingType;
-    long long _status;
 }
 
 + (_Bool);
@@ -38,11 +33,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *beaconIdentifier; // @synthesize beaconIdentifier=_beaconIdentifier;
-@property(copy, nonatomic) NSData *macAddress; // @synthesize macAddress=_macAddress;
-@property(copy, nonatomic) NSNumber *pairingEpoch; // @synthesize pairingEpoch=_pairingEpoch;
-@property(nonatomic) long long pairingType; // @synthesize pairingType=_pairingType;
-@property(nonatomic) unsigned char partId; // @synthesize partId=_partId;
-@property(nonatomic) long long status; // @synthesize status=_status;
 
 @end
 

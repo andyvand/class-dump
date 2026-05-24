@@ -5,6 +5,7 @@
 //
 
 @protocol PPTopicReadWriteServerProtocol
+- (void);
 - (void)¸½;
 @end
 

@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PASLock, _PASNotificationToken;
-
 @interface PPSentiment
 {
     float _weightBucketSize;
-    float _intercept;
-    _PASLock *_lock;
-    _PASNotificationToken *_assetUpdateNotificationToken;
 }
 
-+ (id)rValueCount;
-- (float);
++ (id)scalarValueCount;
+- (float)O;
 - (id);
 - (void)0@ù
 × ;

@@ -11,16 +11,14 @@
     id sMSParserTextPart;
 }
 
-- (id);
+- (id)r action is configured for the current focus, with a value of %{bool}d;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *contentLocation;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *text;
 
 @end
 

@@ -7,15 +7,13 @@
 @interface BWStillImageFocusPixelBlurScoreResult
 {
     int _status;
-    float _score;
 }
 
-- (id);
+- (id)&;
 - (int);
 - (float)rePreview"f"exponentialRampDurationRecording"f"zoomOutDurationScaleRecording"f}"jumpZoomIn"[3{BWSpringSettings="snapFraction"f"tension"f"friction"f}]"jumpZoomOut"[3{BWSpringSettings="snapFraction"f"tension"f"friction"f}]"jumpFrontFacingZoomIn"[3{BWSpringSettings="snapFraction"f"tension"f"friction"f}]"jumpFrontFacingZoomOut"[3{BWSpringSettings="snapFraction"f"tension"f"friction"f}]"earlySwitchOverScaleFactorForZoomIn"f"allowableMinimumDigitalZoomFactorDuringZoomOut"f};
 
 // Remaining properties
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
 @property(readonly, nonatomic) int status; // @synthesize status=_status;
 
 @end

@@ -11,12 +11,11 @@
 @interface Safari.BookmarksSidebarTableRecentlySavedCarousel : Safari.BookmarksSidebarTableCarouselView
 {
     id linkPreviewMetadataProvider;
-    void items;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)Changed;
 - (id);
 - (void);
 - (void) ;

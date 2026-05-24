@@ -8,12 +8,12 @@
 {
 }
 
-+ (id);
++ (id)_rebuildEntireView;
 + (void);
 + (id);
 + (id);
 + (id);
-+ (void)_prefix;
++ (void)kMDItemCategory_norm_match_count_prefix;
 
 @end
 

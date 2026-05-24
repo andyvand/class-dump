@@ -6,21 +6,11 @@
 
 #import <MLCompute/MLCLayer.h>
 
-@class MLCActivationDescriptor, MLCLSTMDescriptor, NSArray;
+@class MLCLSTMDescriptor;
 
 @interface MLCLSTMLayer : MLCLayer
 {
     MLCLSTMDescriptor *_descriptor;
-    NSArray *_gateActivations;
-    MLCActivationDescriptor *_outputResultActivation;
-    NSArray *_inputWeights;
-    NSArray *_hiddenWeights;
-    NSArray *_peepholeWeights;
-    NSArray *_biases;
-    NSArray *_inputWeightsParameters;
-    NSArray *_hiddenWeightsParameters;
-    NSArray *_peepholeWeightsParameters;
-    NSArray *_biasesParameters;
 }
 
 - (void);
@@ -37,31 +27,21 @@
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)9;
 - (void);
-- (_Bool);
+- (_Bool)?;
 - (unsigned long long);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)t:resultStructure:predicationBuffer:predicationOffset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *biases; // @synthesize biases=_biases;
-@property(readonly, retain, nonatomic) NSArray *biasesParameters; // @synthesize biasesParameters=_biasesParameters;
 @property(readonly, copy, nonatomic) MLCLSTMDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, copy, nonatomic) NSArray *gateActivations; // @synthesize gateActivations=_gateActivations;
-@property(readonly, retain, nonatomic) NSArray *hiddenWeights; // @synthesize hiddenWeights=_hiddenWeights;
-@property(readonly, retain, nonatomic) NSArray *hiddenWeightsParameters; // @synthesize hiddenWeightsParameters=_hiddenWeightsParameters;
-@property(readonly, retain, nonatomic) NSArray *inputWeights; // @synthesize inputWeights=_inputWeights;
-@property(readonly, retain, nonatomic) NSArray *inputWeightsParameters; // @synthesize inputWeightsParameters=_inputWeightsParameters;
-@property(readonly, copy, nonatomic) MLCActivationDescriptor *outputResultActivation; // @synthesize outputResultActivation=_outputResultActivation;
-@property(readonly, retain, nonatomic) NSArray *peepholeWeights; // @synthesize peepholeWeights=_peepholeWeights;
-@property(readonly, retain, nonatomic) NSArray *peepholeWeightsParameters; // @synthesize peepholeWeightsParameters=_peepholeWeightsParameters;
 
 @end
 

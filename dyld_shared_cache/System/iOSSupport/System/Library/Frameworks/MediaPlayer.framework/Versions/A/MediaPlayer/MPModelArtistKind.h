@@ -14,14 +14,14 @@
 }
 
 + (id);
-+ (id);
++ (id)SS7message_t;
 + (_Bool);
+- (id)catalogname;
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)sPreauthorizedTransferDictionaryAccountKey;
+- (unsigned long long)lazyProviderWithFeaturesProvidedBy:addedToFeaturesProvidedBy: /* Error: Ran out of types for this method. */;
+- (id)readNumRepetitionsPerTimeShiftFromHallucinator:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void)R,N,GisOnboardedPerson;

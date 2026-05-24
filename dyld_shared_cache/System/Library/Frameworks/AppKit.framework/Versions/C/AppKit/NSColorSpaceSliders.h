@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColorPickerSliders, NSColorSpace;
-
 __attribute__((visibility("hidden")))
 @interface NSColorSpaceSliders
 {
     id colorPanel;
-    NSColorPickerSliders *controllingPicker;
-    NSColorSpace *activeColorSpace;
 }
 
-+ (id);
-- (void);
++ (id);
+- (void)P);
 - (void);
 - (id);
 - (id);
@@ -25,9 +21,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)initWithIdentifier:type:customIdentifier:displayName:displayType:personId:personIdType:displayImageURL:participantStatus: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)leAccessCanContinueInvokeBlock:(id)arg1;
+- (void)whenFileAccessCanContinueInvokeBlock:(id)arg1;
 
 @end
 

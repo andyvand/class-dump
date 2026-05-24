@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface SOPublisherCache
 {
     NSMutableDictionary *_cache;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (void);
 

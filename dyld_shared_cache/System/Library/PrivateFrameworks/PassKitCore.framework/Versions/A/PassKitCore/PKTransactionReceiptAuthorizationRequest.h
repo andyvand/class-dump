@@ -11,10 +11,6 @@
 @interface PKTransactionReceiptAuthorizationRequest : PKPaymentWebServiceRequest
 {
     NSString *_receiptServiceIdentifier;
-    NSString *_receiptIdentifier;
-    NSString *_cardNumberSuffix;
-    NSString *_altDSID;
-    unsigned long long _featureIdentifier;
 }
 
 - (id);
@@ -28,10 +24,6 @@
 - (id)NGSg;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, nonatomic) NSString *cardNumberSuffix; // @synthesize cardNumberSuffix=_cardNumberSuffix;
-@property(readonly, nonatomic) unsigned long long featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
-@property(readonly, nonatomic) NSString *receiptIdentifier; // @synthesize receiptIdentifier=_receiptIdentifier;
 @property(readonly, nonatomic) NSString *receiptServiceIdentifier; // @synthesize receiptServiceIdentifier=_receiptServiceIdentifier;
 
 @end

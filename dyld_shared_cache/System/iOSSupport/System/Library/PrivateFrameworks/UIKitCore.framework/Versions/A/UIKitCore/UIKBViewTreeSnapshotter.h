@@ -12,7 +12,7 @@
     UIView *_snapshotView;
 }
 
-+ (id);
++ (id)from me, bail;
 - (void)f;
 - (id);
 

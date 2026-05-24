@@ -13,9 +13,9 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)createAdaptive;
 - (void);
-- (void);
+- (void)re == true;
 - (id);
 - (void);
 

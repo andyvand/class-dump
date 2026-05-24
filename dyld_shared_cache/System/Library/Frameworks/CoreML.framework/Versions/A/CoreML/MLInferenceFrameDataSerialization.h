@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface MLInferenceFrameDataSerialization
 {
     _Bool _shouldOverwrite;
-    _Bool _modelIOFrameData;
-    _Bool _segmentIOFrameData;
-    NSURL *_outputDirectoryURL;
-    NSString *_prefix;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)T;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -31,11 +27,7 @@
 - (void)feature value to one hot encoded format.;
 
 // Remaining properties
-@property(nonatomic) _Bool modelIOFrameData; // @synthesize modelIOFrameData=_modelIOFrameData;
 @property(copy, nonatomic) NSURL *outputDirectoryURL; // @synthesize outputDirectoryURL=_outputDirectoryURL;
-@property(copy, nonatomic) NSString *prefix; // @synthesize prefix=_prefix;
-@property(nonatomic) _Bool segmentIOFrameData; // @synthesize segmentIOFrameData=_segmentIOFrameData;
-@property(nonatomic) _Bool shouldOverwrite; // @synthesize shouldOverwrite=_shouldOverwrite;
 
 @end
 

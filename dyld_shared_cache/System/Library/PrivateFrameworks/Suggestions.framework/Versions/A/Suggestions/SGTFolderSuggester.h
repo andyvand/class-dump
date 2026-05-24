@@ -12,15 +12,14 @@
 @interface SGTFolderSuggester : SGTSuggester
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSURL *_rootPath;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)setImage:withArchivedModelData: /* Error: Ran out of types for this method. */;
 - (void)Ô!7"!(GùÌ%ð1Â0@ù
 × ;
 

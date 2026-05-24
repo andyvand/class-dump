@@ -7,15 +7,13 @@
 @interface DiagnosticPipelineRapidServiceFunctionsClientObjc
 {
     long long environment;
-    id client;
-    id container;
 }
 
 - (id);
 - (void);
-- (long long);
+- (long long):2 /* Error: Ran out of types for this method. */;
 - (void);
-- (id)erviceFunctionsClient;
+- (id)DiagnosticPipelineRapidServiceFunctionsClient;
 
 // Remaining properties
 @property(nonatomic, readonly) long long environment; // @synthesize environment;

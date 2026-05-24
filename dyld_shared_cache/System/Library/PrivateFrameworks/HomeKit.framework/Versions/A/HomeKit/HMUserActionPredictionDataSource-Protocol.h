@@ -7,7 +7,7 @@
 @class NSArray;
 
 @protocol HMUserActionPredictionDataSource
-- (NSArray *)ation;
+- (NSArray *)configuration;
 
 // Remaining properties
 @property(readonly, copy) NSArray *predictions;

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @protocol GEOTransitIncidentEntity
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasNextStopIDs;
 @property(readonly, nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) NSSet *nextStopIDs;
 @end
 

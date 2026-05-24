@@ -10,21 +10,21 @@ __attribute__((visibility("hidden")))
 @interface NSBoxCoreUIVisualProvider
 {
     id configuration;
-    void box;
-    id backgroundView;
-    id titleTextField;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (struct CGRect);
+- (_Bool)4;
+- (struct CGRect)HTTPAdditionalHeaders;
 - (void);
-- (struct CGRect);
-- (void);
-- (id);
+- (struct CGRect))8
+)8
+)8
+)8;
+- (void)2xo;
+- (id)6k/;
 - (struct CGRect);
 - (void);
 - (id);
@@ -35,14 +35,7 @@ __attribute__((visibility("hidden")))
 - (struct NSEdgeInsets)Æ;
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) struct CGRect borderRect;
 @property(nonatomic) __weak NSBox *box; // @synthesize box;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, readonly) _Bool isFixedHeight;
-@property(nonatomic, readonly) _Bool isFixedWidth;
-@property(nonatomic, readonly) struct CGRect titleRect;
-@property(nonatomic, readonly) _Bool wantsSubviews;
 
 @end
 

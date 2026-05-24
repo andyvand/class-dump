@@ -7,7 +7,7 @@
 @protocol CAAnimationDelegate
 
 @optional
-- (void)oller;
+- (void)_navigationController;
 - (void)}@ %{public}@;
 @end
 

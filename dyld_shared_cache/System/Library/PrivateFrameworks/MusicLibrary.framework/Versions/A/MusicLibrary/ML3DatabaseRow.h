@@ -9,7 +9,6 @@
 @interface ML3DatabaseRow
 {
     struct sqlite3_stmt *_stmt;
-    ML3DatabaseResult *_parentResult;
 }
 
 - (id);
@@ -22,7 +21,7 @@
 - (const char *);
 - (id);
 - (id);
-- (id);
+- (id)Open the interactive Voice Control Tutorial.;
 - (id);
 - (id);
 - (id);
@@ -37,7 +36,7 @@
 - (long long)Ô È;
 - (int),ðf;
 - (int);
-- (id)iptionImportItemNS_10shared_ptrI17ML3DAAPImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
+- (id)NSt3__120__shared_ptr_pointerIP25ML3SubscriptionImportItemNS_10shared_ptrI17ML3DAAPImportItemE27__shared_ptr_default_deleteIS4_S1_EENS_9allocatorIS1_EEEE;
 - (double);
 
 // Remaining properties

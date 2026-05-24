@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UISwipeActionDeleteScanlineView : UIView
 {
     UIView *_bottomLineWrapper;
-    UIView *_topLine;
-    UIView *_bottomLine;
 }
 
 + (double);

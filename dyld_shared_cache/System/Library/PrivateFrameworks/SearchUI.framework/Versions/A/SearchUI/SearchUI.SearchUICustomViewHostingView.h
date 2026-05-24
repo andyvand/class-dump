@@ -9,7 +9,7 @@
     id delegate;
 }
 
-- (id);
+- (id)ng BLE Server with resumeSessionID:(id)arg1 %llu;
 - (void);
 - (void);
 

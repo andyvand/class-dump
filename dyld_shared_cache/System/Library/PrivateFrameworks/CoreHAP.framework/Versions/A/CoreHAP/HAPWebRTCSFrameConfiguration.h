@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSData, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPWebRTCSFrameConfiguration
 {
     HAPTLVUnsignedNumberValue *_audioCipherSuite;
-    HAPTLVUnsignedNumberValue *_videoCipherSuite;
-    NSData *_baseKey;
-    NSData *_keyID;
-    HAPTLVUnsignedNumberValue *_ratchetBits;
-    HAPTLVUnsignedNumberValue *_ratchetTime;
 }
 
 + (id);
@@ -24,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -40,18 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *audioCipherSuite; // @synthesize audioCipherSuite=_audioCipherSuite;
-@property(retain, nonatomic) NSData *baseKey; // @synthesize baseKey=_baseKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *keyID; // @synthesize keyID=_keyID;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *ratchetBits; // @synthesize ratchetBits=_ratchetBits;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *ratchetTime; // @synthesize ratchetTime=_ratchetTime;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *videoCipherSuite; // @synthesize videoCipherSuite=_videoCipherSuite;
 
 @end
 

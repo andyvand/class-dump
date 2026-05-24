@@ -14,7 +14,7 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)_clusterType;
 - (void);
 
 // Remaining properties

@@ -5,5 +5,8 @@
 //
 
 @protocol NSTokenFieldDelegate
+
+@optional
+- (_Bool);
 @end
 

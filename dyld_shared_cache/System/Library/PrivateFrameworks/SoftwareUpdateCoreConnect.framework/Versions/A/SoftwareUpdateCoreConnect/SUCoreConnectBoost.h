@@ -5,29 +5,24 @@
 //
 
 @class NSString;
-@protocol NSObject;
 
 @interface SUCoreConnectBoost
 {
     NSString *_messageClientID;
-    NSString *_messageName;
-    id <NSObject> _xpcActivityBoost;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)etupPiggybackBlob;
+- (id)] %s:%d %@(%p) Uplink TargetBitrate changed from %u to %u /* Error: Ran out of types for this method. */;
+- (id)nChange;
 - (void);
-- (void);
+- (void)k;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *messageClientID; // @synthesize messageClientID=_messageClientID;
-@property(readonly, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;
-@property(retain) id <NSObject> xpcActivityBoost; // @synthesize xpcActivityBoost=_xpcActivityBoost;
 
 @end
 

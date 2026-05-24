@@ -6,20 +6,19 @@
 
 #import <TextInput/TITypologyStatisticComposite.h>
 
-@class TITypologyStatisticBasicCounts, TITypologyStatisticTimeElapsed;
+@class TITypologyStatisticTimeElapsed;
 
 @interface TITypologyStatisticTypingSpeed : TITypologyStatisticComposite
 {
     TITypologyStatisticTimeElapsed *_timeElapsed;
-    TITypologyStatisticBasicCounts *_basicCounts;
 }
 
-+ (id);
-+ (id);
++ (id)didCreateSqliteErrorIndicator;
++ (id)PLChangeNotificationCenter;
 - (id);
 - (id);
 - (id);
-- (float);
+- (float);
 - (id);
 - (void)¾
 ª
@@ -33,9 +32,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) TITypologyStatisticBasicCounts *basicCounts; // @synthesize basicCounts=_basicCounts;
 @property(readonly, nonatomic) TITypologyStatisticTimeElapsed *timeElapsed; // @synthesize timeElapsed=_timeElapsed;
-@property(readonly, nonatomic) float typingSpeed;
 
 @end
 

@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDAssetZoneKey, NSMutableDictionary, NSMutableOrderedSet;
+@class CKDAssetZoneKey, NSMutableOrderedSet;
 
 @interface CKDAssetZone
 {
     CKDAssetZoneKey *_assetZoneKey;
-    NSMutableOrderedSet *_assetRecords;
-    NSMutableDictionary *_assetRecordsByRecordID;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)_vote_FastTD_BeaconPER_Duration;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)ryptionTypes;
+- (id);
+- (void);
+- (void)_assetKeyEncryptionTypes;
 - (void)device encrypted share %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableOrderedSet *assetRecords; // @synthesize assetRecords=_assetRecords;
-@property(retain, nonatomic) NSMutableDictionary *assetRecordsByRecordID; // @synthesize assetRecordsByRecordID=_assetRecordsByRecordID;
-@property(retain, nonatomic) CKDAssetZoneKey *assetZoneKey; // @synthesize assetZoneKey=_assetZoneKey;
 
 @end
 

@@ -4,42 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_nw_context;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_pac_resolver
 {
     CDUnknownBlockType result_block;
-    NSObject<OS_nw_context> *context;
-    struct __CFURL *endpointURL;
-    struct __CFURL *pacURL;
-    struct __CFString *pacScript;
-    struct __CFData *auditToken;
-    struct __CFString *bundleIdentifier;
-    struct __CFRunLoopSource *pacResolver;
-    struct __CFRunLoopTimer *timeoutTimer;
-    struct mutex runloopLock;
-    char logging_id_str[75];
-    unsigned int https_is_opaque:1;
-    unsigned int use_tls:1;
-    unsigned int should_trust_invalid_certs:1;
-    unsigned int is_dry_run:1;
 }
 
-- (void);
+- (void)PushButton;
 - (id);
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

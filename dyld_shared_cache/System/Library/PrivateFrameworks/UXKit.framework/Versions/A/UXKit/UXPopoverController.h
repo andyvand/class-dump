@@ -6,14 +6,11 @@
 
 #import <UXKit/UXViewController.h>
 
-@class NSArray, NSString, UXPopover;
-@protocol UXPopoverControllerDelegate;
+@class UXPopover;
 
 @interface UXPopoverController : UXViewController
 {
     UXPopover *_popover;
-    id <UXPopoverControllerDelegate> _delegate;
-    NSArray *_passthroughViews;
 }
 
 - (void);
@@ -36,27 +33,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)min = min(s.rgb, vec3(0.0)); // preserve negative values 
+s.rgb = (1.0 + contrast) *s.rgb +  brt - contrast*xmean ;  
+s.rgb = max(s.rgb, rgbmin); // but don't let values get MORE negative 
+s.rgb = sign(s.rgb) * s.rgb * s.rgb; 
+return s; 
+} 
+;
+- (void);
 - (struct CGSize);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UXViewController *contentViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UXPopoverControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *passthroughViews; // @synthesize passthroughViews=_passthroughViews;
 @property(readonly, nonatomic) UXPopover *popover;
-@property(nonatomic) long long popoverBehavior;
-@property(nonatomic) struct CGSize popoverContentSize;
-@property(readonly, nonatomic, getter=isPopoverVisible) _Bool popoverVisible;
-@property(readonly) Class superclass;
 
 @end
 

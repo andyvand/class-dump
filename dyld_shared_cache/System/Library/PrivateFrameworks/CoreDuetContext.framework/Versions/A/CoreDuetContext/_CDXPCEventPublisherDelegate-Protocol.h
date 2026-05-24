@@ -5,5 +5,6 @@
 //
 
 @protocol _CDXPCEventPublisherDelegate
+- (void)hasEntityName;
 @end
 

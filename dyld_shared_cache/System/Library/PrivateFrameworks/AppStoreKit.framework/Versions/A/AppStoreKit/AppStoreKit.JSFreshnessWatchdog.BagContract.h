@@ -7,8 +7,6 @@
 @interface AppStoreKit.JSFreshnessWatchdog.BagContract
 {
     id bag;
-    id isOfflineBag;
-    id bagOfflinePolicy;
 }
 
 @end

@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FCContentArchive, FCInterestToken, NSArray, NSString;
+
 @protocol FCAVAssetCacheType
+- (FCContentArchive *);
+- (NSArray *)48@0:8@16Q24B32B36^@40 /* Error: Ran out of types for this method. */;
+- (FCInterestToken *)d to find class for coordinator intent %@ for coordinator %@ :(NSString *)arg1 %@;
 
 // Remaining properties
 @property(readonly, nonatomic) long long storageSize;

@@ -7,16 +7,6 @@
 @interface ConversationKit.RecentsLinkController
 {
     id conversationManager;
-    id delegate;
-    id suggestionToken;
-    id signposter;
-    id loadLinksSignpostID;
-    id loadLinksState;
-    id _hasFinishedInitialLoad;
-    id timingData;
-    id $__lazy_storage_$_callItemsLocked;
-    id $__lazy_storage_$_modelLocked;
-    id $__lazy_storage_$_suggestionsService;
 }
 
 @end

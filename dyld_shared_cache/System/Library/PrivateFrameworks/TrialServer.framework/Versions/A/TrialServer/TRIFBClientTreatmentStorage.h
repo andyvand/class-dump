@@ -4,42 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol TRIAssetExtracting, TRIPaths;
+@protocol TRIPaths;
 
 @interface TRIFBClientTreatmentStorage
 {
     id <TRIPaths> _paths;
-    id <TRIAssetExtracting> _extractor;
 }
 
 + (id);
-- (void);
+- (void)precision0point6Threshold;
+- (_Bool)indexOfObject:(id)arg1 inSortedRange:(id)arg2 options:(id)arg3 usingComparator: /* Error: Ran out of types for this method. */;
+- (_Bool)frameAtIndexIfReady:(id)arg1;
+- (_Bool)effectiveAcceptableRectForClassification:(id)arg1 havePetFaces:(id)arg2 sourcePreferredCropRectNormalized:(id)arg3 sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized:sourceGazeAreaRectNormalized: /* Error: Ran out of types for this method. */;
+- (id)effectFilterName;
+- (id)dictionaryWithStyle:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)AppleTCONDP855RestoreInfoGetTags:(id)arg1 Cannot allocate memory for tagsInBI;
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)2;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)$X;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (_Bool)/AppleInternal/Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Image/NUImageStorage.mm;
+- (id)ceNode _evaluateImageWithSourceOptions:(id)arg1 subsampleFactor:(id)arg2 error:(id)arg3 ];
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);

@@ -5,25 +5,22 @@
 //
 
 @class STPINRemoteViewController;
-@protocol FAPINContainerViewControllerDelegate;
 
 @interface FAPINContainerViewController
 {
     STPINRemoteViewController *_pinViewController;
-    id <FAPINContainerViewControllerDelegate> _delegate;
 }
 
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)e violation;
+- (id)HDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/rsa/rsa_pmeth.c;
 - (id);
 - (void);
 - (void);
 - (void)Ô<äÕ;
 
 // Remaining properties
-@property __weak id <FAPINContainerViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain) STPINRemoteViewController *pinViewController; // @synthesize pinViewController=_pinViewController;
 
 @end

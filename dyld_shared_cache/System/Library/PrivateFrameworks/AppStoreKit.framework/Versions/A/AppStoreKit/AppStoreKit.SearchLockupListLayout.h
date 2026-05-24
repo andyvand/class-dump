@@ -7,9 +7,6 @@
 @interface AppStoreKit.SearchLockupListLayout
 {
     id iconHeadingView;
-    id titleHeadingView;
-    id lockupCollectionView;
-    id metrics;
 }
 
 @end

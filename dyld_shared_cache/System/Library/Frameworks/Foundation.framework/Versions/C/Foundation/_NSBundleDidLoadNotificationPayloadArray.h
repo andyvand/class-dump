@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSBundleDidLoadNotificationPayloadArray
 {
     const struct mach_header *_libraryHeader;
-    NSArray *_storage;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)7;
 - (id);
 - (unsigned long long)½½½½½½¾¾¿¿ÀÀÀÀÀÀÁÁÂÂÃÃÄÄÅÅÅÅÆÆÇÈÉÉÊÊËËËÌÍÎÏÏÏÏÏÏÏÐÑÒÓÔÕÕÖÖ×ØØØÙÙÚÚÚÚÛÜÜÝÝÞßßßßàááâãääååååæçèéêëëììííîîîïïðñòòóóôôõõõõö÷øùúúúûûûüüüýýþÿÿ;
 

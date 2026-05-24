@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCCCMessage
 {
     unsigned long long _transactionID;
-    NSData *_payload;
-    NSString *_topic;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (void);
 - (void);
@@ -25,18 +21,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)VisionComposer.mm" at line 1996
+;
 - (_Bool);
-- (void);
+- (void)A;
 - (id);
 - (id)1Â0@ù
 × ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPayload;
-@property(retain, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(retain, nonatomic) NSString *topic; // @synthesize topic=_topic;
 @property(nonatomic) unsigned long long transactionID; // @synthesize transactionID=_transactionID;
 
 @end

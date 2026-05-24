@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCondition;
+@class _INPBCondition;
 
 @interface _INPBStringList
 {
     struct _has;
-    _INPBCondition *_conditionType;
-    NSArray *_dataStrings;
 }
 
 + (Class);
@@ -25,27 +23,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)u;
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)actServiceNotAvailable;
+- (void)INSetNicknameIntentResponseCodeFailureContactServiceNotAvailable;
 - (id)rivateFrameworks/VoiceShortcuts.framework/Contents/MacOS/VoiceShortcuts;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *conditionType; // @synthesize conditionType=_conditionType;
-@property(copy, nonatomic) NSArray *dataStrings; // @synthesize dataStrings=_dataStrings;
-@property(readonly, nonatomic) unsigned long long dataStringsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasConditionType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

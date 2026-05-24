@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface STUserDescription
 {
     NSString *_givenName;
-    NSString *_familyName;
-    NSNumber *_userDSID;
-    NSString *_userAltDSID;
 }
 
 + (void);
 + (id)ÿ'Í;
 - (id);
-- (id);
+- (id)MPRandomDistribution;
 - (id);
 - (id);
 - (void);
-- (id)it;
+- (id)hasGamesLimit;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
 @property(readonly, copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly, copy, nonatomic) NSString *userAltDSID; // @synthesize userAltDSID=_userAltDSID;
-@property(readonly, copy, nonatomic) NSNumber *userDSID; // @synthesize userDSID=_userDSID;
 
 @end
 

@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (center)
-- (struct CGPoint);
+- (struct CGPoint)$;
 - (void);
 @end
 

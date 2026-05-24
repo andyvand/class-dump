@@ -5,5 +5,9 @@
 //
 
 @protocol AMSURLProtocolDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

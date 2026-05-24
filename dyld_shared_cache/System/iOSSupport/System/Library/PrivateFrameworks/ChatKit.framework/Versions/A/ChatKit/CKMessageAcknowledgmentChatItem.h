@@ -6,49 +6,33 @@
 
 #import <ChatKit/CKAssociatedMessageChatItem.h>
 
-@class IMMessageAcknowledgmentChatItem, NSString, UIColor;
-
 @interface CKMessageAcknowledgmentChatItem : CKAssociatedMessageChatItem
 {
     long long _messageAcknowledgmentType;
 }
 
-- (_Bool);
-- (BOOL);
-- (long long);
+- (_Bool)localizedDescription;
+- (BOOL)ic_nextTableStringFromIndex:tableRange: /* Error: Ran out of types for this method. */;
+- (long long)fetchThumbnailImageWithMinSize:scale:appearanceInfo:cache:cacheKey:processingBlock:completionBlock:fallbackBlock:aboutToLoadHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (struct CGSize);
 - (id);
-- (BOOL);
-- (BOOL);
-- (id);
-- (id);
-- (id);
-- (struct CKBalloonDescriptor_t);
-- (id);
+- (BOOL)Remove Note;
+- (BOOL)w. Try again soon.;
+- (id)nerating PDF URL for pasteboard image gallery attachment;
+- (id)tsRequests;
+- (id)llipsis;
+- (struct CKBalloonDescriptor_t)=;
+- (id)=;
 - (long long);
 - (struct UIEdgeInsets);
-- (id)pe;
+- (id)UIViewType;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *acknowledgmentImageColor;
-@property(readonly, nonatomic) NSString *acknowledgmentImageName;
-@property(readonly, nonatomic) BOOL balloonColorType;
 @property(readonly, nonatomic) BOOL balloonOrientation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) IMMessageAcknowledgmentChatItem *messageAcknowledgmentChatItem;
-@property(readonly, nonatomic) long long messageAcknowledgmentType; // @synthesize messageAcknowledgmentType=_messageAcknowledgmentType;
-@property(readonly, nonatomic) UIColor *selectedAcknowledgmentImageColor;
-@property(readonly, nonatomic) UIColor *selectedBalloonColor;
-@property(readonly) Class superclass;
 
 @end
 

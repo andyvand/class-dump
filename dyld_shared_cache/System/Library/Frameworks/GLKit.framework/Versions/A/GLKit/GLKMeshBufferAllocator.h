@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface GLKMeshBufferAllocator
 {
     struct _CGLContextObject *_context;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ed too many bytes - %ld requested, %ld received;
+- (id)ssion:(unsigned long long)arg1 %p>;
+- (id)ISRC '%.*s' for track %d is an invalid format.
+;
+- (id)the drive may fail the burn.
+;
+- (id)than digits 0-9.
+;
+- (id)DRTaskEraseAppearedNotification;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

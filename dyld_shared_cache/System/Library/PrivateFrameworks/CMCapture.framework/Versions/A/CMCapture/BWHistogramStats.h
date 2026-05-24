@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface BWHistogramStats : BWStats
 {
     double *_bins;
-    unsigned long long *_counts;
-    double *_areas;
-    unsigned long long _binsCount;
-    double _estimatedMedian;
 }
 
 - (id);
@@ -26,7 +22,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)Ì;ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) double estimatedMedian; // @synthesize estimatedMedian=_estimatedMedian;
 @property(readonly, nonatomic) NSDictionary *histogramAsDictionary;
 
 @end

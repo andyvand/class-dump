@@ -4,49 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, NSUUID, NWEndpoint, NWInterface, NWNetworkDescription, NWParameters, NWPathEvaluator;
-
 @interface NWMonitor
 {
     unsigned int _mID;
-    long long _status;
-    NWNetworkDescription *_bestAvailableNetworkDescription;
-    NSArray *_networkDescriptionArray;
-    NWEndpoint *_endpoint;
-    NWParameters *_parameters;
-    NWPathEvaluator *_pathEvaluator;
-    NSUUID *_lastProbeUUID;
-    NSURL *_lastProbeURL;
-    NWInterface *_interface;
 }
 
 + (void);
 + (id);
-+ (id)_nw_endpoint_edge;
++ (id)OS_nw_endpoint_edge;
 + (id)È;
 + (id)0;
 + (id)c}s called with null closed_handler, dumping backtrace:%{public}s /* Error: Ran out of types for this method. */;
 + (void)CeA1CeA2CeAaCeAcCeAeCeAiCeAoCeAsCeAt.eA;
 + (_Bool)C2psC2pt.2p;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (void)n groups. The problem:not all renditions come from the same part. /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (void);
+- (_Bool)MTL4CommandQueue>"16;
+- (void)large count (%zu) for value (%@);
+- (id)kDisplayDetachReasonCodeCompressionNotSupported;
 - (id);
 - (void);
-- (void);
+- (void)2;
 - (unsigned long long);
 - (void);
+- (void)4?;
+- (id)s;
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (_Bool);
 - (id);
 - (void);
@@ -61,24 +50,7 @@
 - (void)@;
 
 // Remaining properties
-@property(retain) NWNetworkDescription *bestAvailableNetworkDescription; // @synthesize bestAvailableNetworkDescription=_bestAvailableNetworkDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NWEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) unsigned long long hash;
-@property(retain) NWInterface *interface; // @synthesize interface=_interface;
-@property(retain) NSURL *lastProbeURL; // @synthesize lastProbeURL=_lastProbeURL;
-@property(retain) NSUUID *lastProbeUUID; // @synthesize lastProbeUUID=_lastProbeUUID;
-@property unsigned int mID; // @synthesize mID=_mID;
-@property(retain) NSArray *networkDescriptionArray; // @synthesize networkDescriptionArray=_networkDescriptionArray;
-@property(retain) NWParameters *parameters; // @synthesize parameters=_parameters;
-@property(retain) NWPathEvaluator *pathEvaluator; // @synthesize pathEvaluator=_pathEvaluator;
-@property(readonly, nonatomic) NSString *privateDescription;
 @property long long status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface ContactsAutocomplete.AutocompleteStore.AppIntentImpl
 {
     id client;
-    id personaIdentifier;
-    id clientLabel;
-    id idsProxy;
 }
 
 @end

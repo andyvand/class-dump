@@ -6,16 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDMovePhotosURLRequest : CKDURLRequest
 {
     _Bool _atomic;
-    CDUnknownBlockType _recordPostedBlock;
-    NSArray *_moveChanges;
-    long long _sourceDatabaseScope;
-    NSMutableDictionary *_recordIDByRequestID;
-    NSMutableDictionary *_recordByRequestID;
 }
 
 - (id);
@@ -25,14 +20,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id)expiration signature;
-- (void)equest;
+- (void)zoneDescendantsRetrieveRequest;
 - (id)nse objects parsed with error %@;
 - (id)nResources";
 - (long long)ag for zone %@:%@ /* Error: Ran out of types for this method. */;
@@ -45,12 +40,7 @@
 - (void)¨ðÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool atomic; // @synthesize atomic=_atomic;
 @property(retain, nonatomic) NSArray *moveChanges; // @synthesize moveChanges=_moveChanges;
-@property(retain, nonatomic) NSMutableDictionary *recordByRequestID; // @synthesize recordByRequestID=_recordByRequestID;
-@property(retain, nonatomic) NSMutableDictionary *recordIDByRequestID; // @synthesize recordIDByRequestID=_recordIDByRequestID;
-@property(copy, nonatomic) CDUnknownBlockType recordPostedBlock; // @synthesize recordPostedBlock=_recordPostedBlock;
-@property(nonatomic) long long sourceDatabaseScope; // @synthesize sourceDatabaseScope=_sourceDatabaseScope;
 
 @end
 

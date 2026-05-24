@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (struct __CVBuffer *);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (id);
 

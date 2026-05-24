@@ -7,14 +7,6 @@
 @interface NewsUI2.QueryNewsPlusAudioEngagementDonorProperty
 {
     id id;
-    id configuration;
-    id lastAudioPlayedDate;
-    id lastAudioPlayedFromInConversationsDate;
-    id lastAudioPlayedFromBusinessDate;
-    id lastDailyBriefingPlayedDate;
-    id $__lazy_storage_$_inConversationsAudioTagID;
-    id $__lazy_storage_$_businessAudioTagID;
-    id configurationManager;
 }
 
 @end

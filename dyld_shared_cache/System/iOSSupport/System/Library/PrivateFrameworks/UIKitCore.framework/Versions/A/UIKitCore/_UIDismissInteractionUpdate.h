@@ -4,66 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIDismissInteractionUpdate
 {
     _Bool _isTracking;
-    _Bool _wantsHeightClamping;
-    double _scale;
-    double _progressToMinScale;
-    double _dampingRatio;
-    double _response;
-    struct CGPoint _originalTrackingViewPosition;
-    struct CGAffineTransform _translation;
-    struct CGAffineTransform _transform;
 }
 
-+ (_Bool)tTextStyleHeadline1;
++ (_Bool)UICTFontTextStyleHeadline1;
 + (_Bool)*?þÿ(?þÿ;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (struct CGPoint);
+- (void)0:(_Bool)arg1 8@16C24@28@36@44B52;
+- (double)purgedAttachmentsForChat:services:limit: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)isLocalDeviceProxyRegistered;
 - (void);
 - (struct CGAffineTransform);
 - (double);
-- (id);
-- (struct CGAffineTransform);
+- (id)_systemAppearanceProxy;
+- (struct CGAffineTransform)us;
 - (double);
 - (double)!Dù±\ð1Â0@ù
 × ;
 - (id);
-- (_Bool)debarArrowButtonRecognizer;
-- (void)n;
-- (void)sedViewPrioritizationType;
-- (void)micAutoScrollInsets;
+- (_Bool)sidebarArrowButtonRecognizer;
+- (void)safeAreaInsetsPortraitUpsideDown;
+- (void)_subclassPreferredFocusedViewPrioritizationType;
+- (void)_dynamicAutoScrollInsets;
 - (void)View;
-- (void)eView;
+- (void)UITabBarCustomizeView;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) double dampingRatio; // @synthesize dampingRatio=_dampingRatio;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isTracking; // @synthesize isTracking=_isTracking;
 @property(nonatomic) struct CGPoint originalTrackingViewPosition; // @synthesize originalTrackingViewPosition=_originalTrackingViewPosition;
-@property(nonatomic) double progressToMinScale; // @synthesize progressToMinScale=_progressToMinScale;
-@property(nonatomic) double response; // @synthesize response=_response;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGAffineTransform transform; // @synthesize transform=_transform;
-@property(nonatomic) struct CGAffineTransform translation; // @synthesize translation=_translation;
-@property(nonatomic) _Bool wantsHeightClamping; // @synthesize wantsHeightClamping=_wantsHeightClamping;
 
 @end
 

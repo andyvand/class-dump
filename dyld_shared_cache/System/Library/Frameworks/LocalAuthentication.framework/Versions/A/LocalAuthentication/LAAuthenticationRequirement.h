@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 @interface LAAuthenticationRequirement
 {
     long long _authType;
-    NSMutableSet *_subrequirements;
 }
 
 + (id);
@@ -17,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);

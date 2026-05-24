@@ -7,35 +7,21 @@
 @interface NewsFeed.DebugPersonalizationInspectViewController
 {
     id cloudContext;
-    id feedPersonalizer;
-    id targetGroupData;
-    id extraDebugKeys;
-    id commandCenter;
-    id tableView;
-    id submitView;
-    id submitContainerView;
-    id headlineService;
-    id tagService;
-    id radarAttachmentProvider;
-    id webEmbedDataSourceService;
-    id submitButton;
-    id header;
-    id titleView;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (double);
 - (double);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)(;
+- (long long)?;
 - (void);
-- (long long);
-- (void)ayConfiguration;
+- (long long)0;
+- (void)timesOfDayConfiguration;
 - (void)]:%÷þ /* Error: Ran out of types for this method. */;
 - (void);
 

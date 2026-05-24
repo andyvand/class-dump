@@ -8,33 +8,27 @@ __attribute__((visibility("hidden")))
 @interface RBJetsamProperties
 {
     id _memoryLimitCategories;
-    id _globalProperties;
-    int _taskLimit;
-    int _unLimit;
-    _Bool _freezerEligible;
-    _Bool _freezerEligibleSet;
 }
 
 + (id);
+- (id)reads;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)NSArray",R,N,V_longFrameLatencies;
 - (_Bool);
 - (unsigned char);
-- (_Bool);
+- (_Bool)kMDItemTopic_TermFrequencies_Var_Word;
 - (int);
 - (id);
 - (int);
 - (id);
-- (id);
+- (id)_char5WordsOutput;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFreezerEligible) _Bool freezerEligible; // @synthesize freezerEligible=_freezerEligible;
 @property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end

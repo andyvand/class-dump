@@ -9,12 +9,12 @@
 @interface UNNotificationActionIcon
 {
     _Bool _systemIcon;
-    NSString *_imageName;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)Q	S(*
+;
 + (_Bool);
 - (id);
 - (id);
@@ -32,7 +32,6 @@
 
 // Remaining properties
 @property(copy) NSString *imageName; // @synthesize imageName=_imageName;
-@property(getter=isSystemIcon) _Bool systemIcon; // @synthesize systemIcon=_systemIcon;
 
 @end
 

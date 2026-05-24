@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRRemindersListTreeViewModel
 {
     id reminderCount;
-    id presentationTree;
-    id reminderIDProvider;
-    id tree;
-    id reminderIDsWithActiveChangeItem;
-    id sectionIDsByID;
-    id makePresentationTree;
 }
 
 @end

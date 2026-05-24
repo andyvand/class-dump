@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSString;
 
 @interface NSPPrivacyProxyTokenInfo
 {
     NSString *_proxyURL;
-    NSData *_tokenKeyID;
-    NSMutableArray *_tokenRequestLists;
-    NSMutableArray *_unactivatedTokenLists;
-    NSString *_vendor;
 }
 
 + (Class);
 + (Class);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -34,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -42,18 +38,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasVendor;
 @property(retain, nonatomic) NSString *proxyURL; // @synthesize proxyURL=_proxyURL;
-@property(retain, nonatomic) NSData *tokenKeyID; // @synthesize tokenKeyID=_tokenKeyID;
-@property(retain, nonatomic) NSMutableArray *tokenRequestLists; // @synthesize tokenRequestLists=_tokenRequestLists;
-@property(retain, nonatomic) NSMutableArray *unactivatedTokenLists; // @synthesize unactivatedTokenLists=_unactivatedTokenLists;
-@property(retain, nonatomic) NSString *vendor; // @synthesize vendor=_vendor;
 
 @end
 

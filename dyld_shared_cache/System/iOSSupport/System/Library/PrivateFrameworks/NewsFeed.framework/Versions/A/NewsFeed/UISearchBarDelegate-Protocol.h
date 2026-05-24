@@ -5,5 +5,8 @@
 //
 
 @protocol UISearchBarDelegate
+
+@optional
+- (_Bool);
 @end
 

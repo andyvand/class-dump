@@ -14,12 +14,12 @@
 }
 
 + (_Bool);
-- (id);
+- (id);;
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)áêð!ìAùñr °1Â0@ù
 × ;

@@ -13,7 +13,7 @@
 }
 
 + (long long);
-- (id);
+- (id)T�L;
 - (long long);
 - (_Bool)es json string is not of type array;
 

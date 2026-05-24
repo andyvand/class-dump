@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)9	A;
+- (id);
 - (unsigned long long);
 - (unsigned long long);
 

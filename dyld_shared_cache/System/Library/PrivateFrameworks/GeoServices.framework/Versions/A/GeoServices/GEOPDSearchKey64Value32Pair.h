@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchKey64Value32Pair
 {
     unsigned long long _key;
-    unsigned int _value;
-    CDStruct_a4cc0a70 _flags;
 }
 
 - (id);
-- (void);
+- (void)es', got %@;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id)Info"b1"read_chargingArguments"b1"read_consumptionArguments"b1"read_vehicleArguments"b1"read_vehicleIdentifier"b1"wrote_anyField"b1};
-- (id)atformType;
+- (id)_platformType;
 - (id)dl;
 
 @end

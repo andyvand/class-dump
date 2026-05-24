@@ -33,20 +33,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (short);
 - (double);
-- (float);
+- (float)@;
 - (BOOL);
 - (unsigned short);
 - (unsigned char);
 - (id);
-- (unsigned int);
-- (id);
-- (struct _Stream *);
+- (unsigned int)q;
+- (id);
+- (struct _Stream *);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
 - (unsigned int);
-- (int)ntext;
+- (int)_context;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _Stream *cStream; // @synthesize cStream=m_pCStream;

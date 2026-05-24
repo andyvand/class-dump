@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)CGImageForProposedRect:context:hints: /* Error: Ran out of types for this method. */;
 
 @end
 

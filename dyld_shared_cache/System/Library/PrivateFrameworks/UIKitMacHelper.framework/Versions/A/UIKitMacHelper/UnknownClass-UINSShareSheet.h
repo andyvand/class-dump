@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (UINSShareSheet)
-+ (void)xpansionToolTips: /* Error: Ran out of types for this method. */;
++ (void)setWantsExpansionToolTips: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 @end

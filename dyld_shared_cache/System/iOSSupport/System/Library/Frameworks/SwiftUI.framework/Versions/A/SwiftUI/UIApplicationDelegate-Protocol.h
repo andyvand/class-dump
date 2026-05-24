@@ -4,12 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIWindow;
+@class UISceneConfiguration, UIWindow;
 
 @protocol UIApplicationDelegate
 
 @optional
-- (void)ckBuilder;
+- (void);
+- (_Bool)q;
+- (_Bool)Լ;
+- (_Bool);
+- (_Bool);
+- (UISceneConfiguration *)serviceConnectivityEvaluator;
+- (void)=;
+- (void)SliderTickBuilder;
 
 // Remaining properties
 @property(retain, nonatomic) UIWindow *window;

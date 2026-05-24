@@ -7,11 +7,6 @@
 @interface NewsUI2.TodayOfflineFeedPrimer
 {
     id offlineContentManager;
-    id offlineFeedsSupervisor;
-    id contentContext;
-    id appConfigManager;
-    id resolver;
-    id workQueue;
 }
 
 @end

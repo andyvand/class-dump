@@ -9,7 +9,6 @@
 @interface NUFillKernel : NUComputeKernel
 {
     CDStruct_3ead2808 _color;
-    CDStruct_1e3be3a8 _region;
 }
 
 + (void);
@@ -18,11 +17,10 @@
 - (CDStruct_3ead2808);
 - (void);
 - (void);
-- (CDStruct_1e3be3a8)+[NUChannelPortRef input:at:] /* Error: Ran out of types for this method. */;
+- (CDStruct_4c83c94d)+[NUChannelPortRef input:at:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) CDStruct_3ead2808 color; // @synthesize color=_color;
-@property(nonatomic) CDStruct_1e3be3a8 region; // @synthesize region=_region;
 
 @end
 

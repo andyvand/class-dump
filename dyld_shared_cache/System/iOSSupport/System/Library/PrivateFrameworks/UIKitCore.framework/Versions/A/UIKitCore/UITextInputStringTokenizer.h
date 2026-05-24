@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIResponder;
+@class UIResponder;
 @protocol UITextInput;
 
 @interface UITextInputStringTokenizer
@@ -12,26 +12,20 @@
     UIResponder<UITextInput> *_textInput;
 }
 
-- (long long);
-- (_Bool);
-- (_Bool);
+- (long long)b;
+- (_Bool);
+- (_Bool)_slider:(id)arg1 shouldBeginDragAtPoint:(long long)arg2;
 - (id);
 - (id);
 - (id);
-- (id)dGapAtIndexPath:(id)arg1;
+- (id)addGapAtIndexPath:(id)arg1;
 - (_Bool)§wþÿ"Êîÿ;
 - (id)Context:(id)arg1 ]_block_invoke;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

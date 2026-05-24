@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerViewController, AVTCircularButton, AVTTouchDownGestureRecognizer, AVTUILogger, NSArray, UIView;
-@protocol AVTPaddleViewDelegate;
+@class UIView;
 
 @interface AVTPaddleView
 {
     _Bool _automaticallyStartsPlaying;
-    double _padding;
-    id <AVTPaddleViewDelegate> _delegate;
-    UIView *_videoViewContainer;
-    UIView *_addButtonViewContainer;
-    AVTCircularButton *_addButton;
-    AVPlayer *_player;
-    AVPlayerViewController *_videoController;
-    NSArray *_activeConstraints;
-    long long _layoutDirection;
-    AVTTouchDownGestureRecognizer *_tapGestureRecognizer;
-    AVTTouchDownGestureRecognizer *_dismissGestureRecognizer;
-    AVTUILogger *_logger;
-    CDUnknownBlockType _preCommitBlock;
 }
 
 + (id);
 + (double);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,7 +26,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)H;
 - (id);
 - (void);
 - (void);
@@ -65,36 +51,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id)dftSetup;
+- (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (_Bool)ilboxObjectIDsWithCompletion:error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)r:(id)arg1;
-- (double)Identifier: /* Error: Ran out of types for this method. */;
-- (void)teger:(double)arg1;
+- (void)setCurrentAvatar:(id)arg1;
+- (double)registerClass:forCellWithReuseIdentifier: /* Error: Ran out of types for this method. */;
+- (void)numberWithUnsignedInteger:(double)arg1;
 - (id)@-%@;
 - (long long);
 - (void)Û;7ä;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activeConstraints; // @synthesize activeConstraints=_activeConstraints;
-@property(retain, nonatomic) AVTCircularButton *addButton; // @synthesize addButton=_addButton;
-@property(retain, nonatomic) UIView *addButtonViewContainer; // @synthesize addButtonViewContainer=_addButtonViewContainer;
-@property(nonatomic) _Bool automaticallyStartsPlaying; // @synthesize automaticallyStartsPlaying=_automaticallyStartsPlaying;
-@property(nonatomic) __weak id <AVTPaddleViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) AVTTouchDownGestureRecognizer *dismissGestureRecognizer; // @synthesize dismissGestureRecognizer=_dismissGestureRecognizer;
-@property(readonly, nonatomic) long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(retain, nonatomic) AVTUILogger *logger; // @synthesize logger=_logger;
-@property(nonatomic) double padding; // @synthesize padding=_padding;
-@property(retain, nonatomic) AVPlayer *player; // @synthesize player=_player;
-@property(copy, nonatomic) CDUnknownBlockType preCommitBlock; // @synthesize preCommitBlock=_preCommitBlock;
-@property(retain, nonatomic) AVTTouchDownGestureRecognizer *tapGestureRecognizer; // @synthesize tapGestureRecognizer=_tapGestureRecognizer;
-@property(retain, nonatomic) AVPlayerViewController *videoController; // @synthesize videoController=_videoController;
 @property(retain, nonatomic) UIView *videoViewContainer; // @synthesize videoViewContainer=_videoViewContainer;
 
 @end

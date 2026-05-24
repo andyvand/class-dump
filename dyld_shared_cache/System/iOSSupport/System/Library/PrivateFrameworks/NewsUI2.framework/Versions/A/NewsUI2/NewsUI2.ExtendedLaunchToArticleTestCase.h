@@ -9,9 +9,6 @@
 @interface NewsUI2.ExtendedLaunchToArticleTestCase
 {
     void testName;
-    double timeoutInSeconds;
-    unsigned long long aggregate;
-    id articleLoadingStateMachine;
 }
 
 - (id);
@@ -22,9 +19,7 @@
 - (id)Û;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;
 @property(nonatomic, readonly) NSString *testName;
-@property(nonatomic, readonly) double timeoutInSeconds; // @synthesize timeoutInSeconds;
 
 @end
 

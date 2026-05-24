@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMSetupAccessoryDescription, NSString, NSUUID;
+@class NSString;
 
 @interface HMAddAccessoryRequestPayload
 {
@@ -24,18 +24,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)c4;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) HMSetupAccessoryDescription *accessoryDescription;
-@property(nonatomic, copy) NSString *accessoryPairingPassword;
-@property(nonatomic, copy) NSUUID *accessoryPeerIdentifier;
-@property(nonatomic, copy) NSUUID *accessoryUUID;
 @property(nonatomic, readonly) NSString *messageName;
-@property(nonatomic) _Bool setupCodeDeferred;
-@property(nonatomic) _Bool shouldRetrySetup;
 
 @end
 

@@ -7,11 +7,10 @@
 @class NSNumber;
 
 @protocol HMDHAPAccessoryTask
-- (void)nForDevice: /* Error: Ran out of types for this method. */;
-- (NSNumber *)aSource;
+- (void)needsUserConfirmationForDevice: /* Error: Ran out of types for this method. */;
+- (NSNumber *)HMDMediaBrowserDataSource;
 
 // Remaining properties
-@property(readonly) double executionTimeInterval;
 @property(readonly) NSNumber *identifier;
 @end
 

@@ -6,34 +6,24 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebMetricsAction : AMSUIWebAction
 {
     _Bool _shouldFlush;
-    NSArray *_events;
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)ter interest in auto assets for query:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)be request failed with error:%{public}@ for query:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)2@?0@"MAAutoAssetSelector"8@"NSDictionary"16@"NSError"24;
 - (void);
 - (void);
 - (id);
 - (void)@?<v@?q>32;
 
 // Remaining properties
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSArray *events; // @synthesize events=_events;
-@property(readonly) unsigned long long hash;
-@property _Bool shouldFlush; // @synthesize shouldFlush=_shouldFlush;
-@property(readonly) Class superclass;
 
 @end
 

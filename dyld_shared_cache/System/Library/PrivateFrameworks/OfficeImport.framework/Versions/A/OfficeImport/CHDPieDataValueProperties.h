@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CHDPieDataValueProperties : CHDDataValueProperties
 {
     int mExplosion;
-    _Bool mIsExplosionSet;
 }
 
 - (id);

@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *remoteLinks; // @synthesize remoteLinks=_remoteLinks;

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKTextInputDebugSharpenerLog, UIViewController;
+@class PKTextInputDebugSharpenerLog;
 
 @interface PKPaletteTapToRadarConfiguration
 {
     PKTextInputDebugSharpenerLog *_debugSharpenerLog;
-    UIViewController *_presentationViewController;
 }
 
 - (void);
@@ -17,11 +16,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)isLogger;
+- (void)PKHandwritingSynthesisLogger;
 
 // Remaining properties
 @property(retain, nonatomic) PKTextInputDebugSharpenerLog *debugSharpenerLog; // @synthesize debugSharpenerLog=_debugSharpenerLog;
-@property(retain, nonatomic) UIViewController *presentationViewController; // @synthesize presentationViewController=_presentationViewController;
 
 @end
 

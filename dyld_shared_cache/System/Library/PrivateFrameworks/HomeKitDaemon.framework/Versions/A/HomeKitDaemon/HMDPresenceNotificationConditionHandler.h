@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSString;
-@protocol HMDFeaturesDataSource, HMDPresenceNotificationConditionPresenceProvider;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDPresenceNotificationConditionHandler
 {
     HMDHome *_home;
-    id <HMDPresenceNotificationConditionPresenceProvider> _presenceProvider;
-    id <HMDFeaturesDataSource> _featuresDataSource;
 }
 
 + (id)B;
 - (id);
-- (id);
+- (id)ed load of stored sessions, already completed;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)map;
 - (id)â!Aùñ1Â0@ù
 × ;
-- (id):onContainer: /* Error: Ran out of types for this method. */;
-- (void)maryClientConnectMessageUnderlyingErrorCode;
+- (id)cloudDatabase:encounteredError:withOperation:onContainer: /* Error: Ran out of types for this method. */;
+- (void)hmd_primaryClientConnectMessageUnderlyingErrorCode;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) id <HMDPresenceNotificationConditionPresenceProvider> presenceProvider; // @synthesize presenceProvider=_presenceProvider;
-@property(readonly) Class superclass;
 
 @end
 

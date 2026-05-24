@@ -6,34 +6,23 @@
 
 #import <ChatKit/CKImageBalloonView.h>
 
-@class NSString, UIButton, UIImageView, UILabel, UIView, UIVisualEffectView;
-@protocol CKLocationShareBalloonViewDelegate;
+@class UILabel;
 
 @interface CKLocationShareBalloonView : CKImageBalloonView
 {
     long long _offerState;
-    NSString *_titleString;
-    NSString *_locationString;
-    UILabel *_titleLabel;
-    UILabel *_locationLabel;
-    UIButton *_startSharingButton;
-    UIButton *_ignoreButton;
-    UIView *_horizontalSeparator;
-    UIView *_verticalSeparator;
-    UIImageView *_chevron;
-    UIVisualEffectView *_effectView;
 }
 
-- (id);
-- (id);
-- (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)initWithData:contentID:mimeType:filename: /* Error: Ran out of types for this method. */;
+- (id)attributedStringWithNSTextTablesForColumns:rows:context: /* Error: Ran out of types for this method. */;
+- (struct CGSize)animateInsertionIfNecessary;
+- (void)_displayingSnippet;
+- (void)deTrash;
+- (void)deleteDataFiles;
+- (void)ewRightLayoutConstraint;
+- (id)m;
+- (void)%@ preview generation failed for size:(id)arg1 %.1f, scale %.1f;
+- (void)ICSwiftSystemPaperImageGenerator;
 - (void);
 - (void);
 - (id);
@@ -60,18 +49,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *chevron; // @synthesize chevron=_chevron;
-@property(nonatomic) __weak id <CKLocationShareBalloonViewDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) UIVisualEffectView *effectView; // @synthesize effectView=_effectView;
-@property(retain, nonatomic) UIView *horizontalSeparator; // @synthesize horizontalSeparator=_horizontalSeparator;
-@property(retain, nonatomic) UIButton *ignoreButton; // @synthesize ignoreButton=_ignoreButton;
-@property(retain, nonatomic) UILabel *locationLabel; // @synthesize locationLabel=_locationLabel;
-@property(copy, nonatomic) NSString *locationString; // @synthesize locationString=_locationString;
-@property(nonatomic) long long offerState; // @synthesize offerState=_offerState;
-@property(retain, nonatomic) UIButton *startSharingButton; // @synthesize startSharingButton=_startSharingButton;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(copy, nonatomic) NSString *titleString; // @synthesize titleString=_titleString;
-@property(retain, nonatomic) UIView *verticalSeparator; // @synthesize verticalSeparator=_verticalSeparator;
 
 @end
 

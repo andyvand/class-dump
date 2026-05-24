@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface WBSTrackingCapableThirdParty
 {
     NSString *_domain;
-    NSArray *_firstParties;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ame != ""
+ORDER BY chat.ROWID ASC;;
 - (_Bool);
 - (id);
-- (void)SVGFromImages: /* Error: Ran out of types for this method. */;
+- (void)safari_largestSizedBitmapImageOrSVGFromImages: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, copy, nonatomic) NSArray *firstParties; // @synthesize firstParties=_firstParties;
 
 @end
 

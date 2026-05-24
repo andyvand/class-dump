@@ -11,7 +11,6 @@
 @interface ASBContainerActionSymlink : ASBContainerAction
 {
     NSString *_linkSpec;
-    NSString *_destSpec;
 }
 
 - (_Bool);

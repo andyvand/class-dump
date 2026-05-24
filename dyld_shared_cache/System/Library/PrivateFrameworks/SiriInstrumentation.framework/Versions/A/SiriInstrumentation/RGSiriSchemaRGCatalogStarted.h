@@ -6,43 +6,34 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface RGSiriSchemaRGCatalogStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSString *_responseCatalogMobileAssetVersion;
-    CDStruct_b33ad018 _has;
-    _Bool _hasResponseCatalogMobileAssetVersion;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void)R;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ces/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAppCapabilityMetadata_macOS.m:33 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)essage (ROWID) ON DELETE CASCADE, message_date INTEGER DEFAULT 0, index_state INTEGER NOT NULL DEFAULT 0, PRIMARY KEY (chat_id, message_id);
 - (id);
 - (id);
-- (id)Tasks:(id)arg1;
+- (id)addExecutedTasks:(id)arg1;
 - (id)V_whichCommandevent;
-- (_Bool)atus;
-- (void)T;
+- (_Bool)multiUserSetupStatus;
+- (void)HALACTION_QUICKSTOP_ANNOUNCEMENT;
 - (_Bool)puts.userHistorys.toolId;
 - (void)¥Öÿ?´Õß";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasResponseCatalogMobileAssetVersion; // @synthesize hasResponseCatalogMobileAssetVersion=_hasResponseCatalogMobileAssetVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *responseCatalogMobileAssetVersion; // @synthesize responseCatalogMobileAssetVersion=_responseCatalogMobileAssetVersion;
 
 @end
 

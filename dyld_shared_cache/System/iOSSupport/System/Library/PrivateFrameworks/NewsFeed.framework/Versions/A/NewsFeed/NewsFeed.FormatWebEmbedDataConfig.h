@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatWebEmbedDataConfig
 {
     id feedConfiguration;
-    id json;
 }
 
 @end

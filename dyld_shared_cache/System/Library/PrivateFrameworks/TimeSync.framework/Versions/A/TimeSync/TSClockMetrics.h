@@ -7,10 +7,6 @@
 @interface TSClockMetrics
 {
     unsigned long long _clockIdentity;
-    unsigned long long _gmChangesCount;
-    unsigned long long _timeToChangeGm;
-    unsigned long long _timeToLock;
-    unsigned long long _coreAudioReanchors;
 }
 
 - (unsigned long long);
@@ -25,10 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long clockIdentity; // @synthesize clockIdentity=_clockIdentity;
-@property(readonly, nonatomic) unsigned long long coreAudioReanchors; // @synthesize coreAudioReanchors=_coreAudioReanchors;
-@property(readonly, nonatomic) unsigned long long gmChangesCount; // @synthesize gmChangesCount=_gmChangesCount;
-@property(readonly, nonatomic) unsigned long long timeToChangeGm; // @synthesize timeToChangeGm=_timeToChangeGm;
-@property(readonly, nonatomic) unsigned long long timeToLock; // @synthesize timeToLock=_timeToLock;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface SACFPEXQuery : SABaseClientBoundCommand
 {
@@ -27,13 +27,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)};
 - (void);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (id);
@@ -44,24 +44,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *criteriaFields;
-@property(copy, nonatomic) NSString *criteriaSemanticTag;
-@property(copy, nonatomic) NSString *criteriaSubType;
-@property(copy, nonatomic) NSString *criteriaTimeType;
-@property(copy, nonatomic) NSString *criteriaType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSString *localeIdentifier;
-@property(copy, nonatomic) NSArray *people;
-@property(nonatomic) long long queryLimit;
-@property(copy, nonatomic) NSNumber *queryTimeOut;
-@property(copy, nonatomic) NSArray *recipients;
-@property(copy, nonatomic) NSString *socialLabelType;
-@property(readonly) Class superclass;
 
 @end
 

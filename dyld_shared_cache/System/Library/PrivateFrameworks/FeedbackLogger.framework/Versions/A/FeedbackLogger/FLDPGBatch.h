@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface FLDPGBatch
 {
     NSString *_bundleID;
-    NSData *_payload;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)removeObjectsInArray: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSData *payload; // @synthesize payload=_payload;
 
 @end
 

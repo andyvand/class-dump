@@ -9,18 +9,16 @@
 @interface AVPictureInPicturePrerollAttributes
 {
     UIColor *_preferredTintColor;
-    CDStruct_1b6d18a9 _requiredLinearPlaybackEndTime;
 }
 
 + (id);
 + (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7)C;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *preferredTintColor; // @synthesize preferredTintColor=_preferredTintColor;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 requiredLinearPlaybackEndTime; // @synthesize requiredLinearPlaybackEndTime=_requiredLinearPlaybackEndTime;
+@property(readonly, nonatomic) CDStruct_198678f7 requiredLinearPlaybackEndTime; // @synthesize requiredLinearPlaybackEndTime=_requiredLinearPlaybackEndTime;
 
 @end
 

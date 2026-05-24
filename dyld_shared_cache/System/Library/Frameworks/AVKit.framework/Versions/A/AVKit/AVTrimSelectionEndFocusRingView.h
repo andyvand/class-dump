@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id);
+- (void)l_devices = 1;
+- (id)CompileDynamicLibraryPass];
 
 @end
 

@@ -4,38 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationDebugCluster, NSMapTable, NSString;
+@class CLSCurationDebugCluster, NSString;
 
 @interface CLSCurationDebugInfo
 {
     CLSCurationDebugCluster *_rootCluster;
-    NSMapTable *_debugItemByItem;
-    NSMapTable *_debugClusterByCluster;
-    NSString *_agent;
-    NSString *_stage;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)@9�*;
 - (void);
 - (void);
 - (void);
@@ -43,6 +20,25 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)A;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)RkJkJ)	;
 - (id);
 - (void);
 - (id);
@@ -50,7 +46,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *agent; // @synthesize agent=_agent;
-@property(copy, nonatomic) NSString *stage; // @synthesize stage=_stage;
 
 @end
 

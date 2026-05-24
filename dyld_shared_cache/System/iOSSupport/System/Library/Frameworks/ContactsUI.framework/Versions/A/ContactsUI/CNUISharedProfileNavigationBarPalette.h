@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)stringWithFormat: /* Error: Ran out of types for this method. */;
 
 @end
 

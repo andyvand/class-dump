@@ -10,20 +10,17 @@ __attribute__((visibility("hidden")))
 @interface CKMeCardSharingNameProvider
 {
     NSString *_givenName;
-    NSString *_middleName;
-    NSString *_familyName;
-    NSString *_nickname;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
++ (id)on for attachment (%@) attachmentIsInNote=%@ wasMarkedForDeletion=%@;
++ (id)tachment:(id)arg1 %@;
++ (id)%@ %@;
++ (id)an attachment without an identifier:(id)arg1 %@ %@;
++ (id)(affectChangeCounts:from:) /* Error: Ran out of types for this method. */;
+- (void)P;
 - (id);
-- (void);
-- (void)ilFillToSize:(id)arg1 contentAlignmentInsets: /* Error: Ran out of types for this method. */;
+- (void)Z;
+- (void)generatePlaceholderThumbnailFillToSize:(id)arg1 contentAlignmentInsets: /* Error: Ran out of types for this method. */;
 - (void)bQ;
 - (void);
 - (id)~¾7,û.;
@@ -31,17 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)9äæ1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
 @property(retain, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *middleName; // @synthesize middleName=_middleName;
-@property(retain, nonatomic) NSString *nickname; // @synthesize nickname=_nickname;
-@property(readonly) Class superclass;
 
 @end
 

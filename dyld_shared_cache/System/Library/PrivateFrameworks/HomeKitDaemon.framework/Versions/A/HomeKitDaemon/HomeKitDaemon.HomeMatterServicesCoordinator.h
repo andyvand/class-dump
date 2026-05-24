@@ -7,14 +7,11 @@
 @interface HomeKitDaemon.HomeMatterServicesCoordinator
 {
     id featuresDataSource;
-    id matterServer;
-    id matterServicesFactory;
-    id home;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)hasHandleWithAllowedType;
 - (void)¨%ÿGõx¶>;
 
 @end

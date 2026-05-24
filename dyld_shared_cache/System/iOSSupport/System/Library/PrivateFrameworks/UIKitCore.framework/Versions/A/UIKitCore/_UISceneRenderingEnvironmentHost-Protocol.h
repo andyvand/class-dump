@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol _UISceneRenderingEnvironmentHost
 - (void)load_factor_"f}}};
 - (void)%@, value %@, and variable name %@.;
 
 // Remaining properties
-@property(nonatomic) long long activeAppearance;
 @property(nonatomic) _Bool isCapturingContentForAdditionalRenderingDestination;
-@property(readonly, nonatomic) _Bool prefersContentProtection;
-@property(copy, nonatomic) NSString *systemDisplayIdentifier;
 @end
 

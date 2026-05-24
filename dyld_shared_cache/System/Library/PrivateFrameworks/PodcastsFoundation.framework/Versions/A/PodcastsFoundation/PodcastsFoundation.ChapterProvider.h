@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.ChapterProvider
 {
     id id3ChapterProvider;
-    id modernChapterProvider;
-    id inFlightRequests;
 }
 
 @end

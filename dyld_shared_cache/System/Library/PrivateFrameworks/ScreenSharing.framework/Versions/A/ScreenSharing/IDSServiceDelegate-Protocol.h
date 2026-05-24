@@ -4,9 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class IDSService, NSSet;
+
 @protocol IDSServiceDelegate
 
 @optional
+- (void)personDedupingType;
+- (void);
+- (void)d;
+- (void)40@0:(IDSService *)arg1 8@"NSDictionary"16@"NSString"24@?<v@?@"NSString"@"NSError">32;
+- (void)dejunkedDedupedItemIdentifiersWithItems:(IDSService *)arg1 options:(NSSet *)arg2 debugInfo: /* Error: Ran out of types for this method. */;
+- (void);
 - (void)!EùqÒ°1Â0@ù
 × ;
 - (void)L&;

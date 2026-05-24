@@ -5,17 +5,14 @@
 //
 
 @class NSString;
-@protocol IDSLinkDelegate;
 
 @protocol IDSLink
+- (unsigned long long)`;
+- (NSString *);
+- (NSString *);
+- (unsigned long long)primarySerializedEscrowRecord;
 
 // Remaining properties
-@property __weak id <IDSLinkDelegate> alternateDelegate;
 @property(retain) NSString *cbuuid;
-@property __weak id <IDSLinkDelegate> delegate;
-@property(retain) NSString *deviceUniqueID;
-@property(readonly) unsigned long long headerOverhead;
-@property(readonly, getter=linkTypeString) NSString *linkTypeString;
-@property(readonly) unsigned long long state;
 @end
 

@@ -7,7 +7,6 @@
 @interface TeaUI.CachedFont
 {
     id fontBlock;
-    id cachedFont;
 }
 
 - (void);

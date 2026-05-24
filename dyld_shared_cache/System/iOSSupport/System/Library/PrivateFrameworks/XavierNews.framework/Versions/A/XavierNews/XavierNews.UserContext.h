@@ -7,20 +7,6 @@
 @interface XavierNews.UserContext
 {
     id subscribed;
-    id autofavorited;
-    id muted;
-    id ignored;
-    id groupable;
-    id subscriptionState;
-    id bundled;
-    id purchased;
-    id read;
-    id listened;
-    id seen;
-    id readClusters;
-    id seenClusters;
-    id location;
-    id newlySubscribed;
 }
 
 @end

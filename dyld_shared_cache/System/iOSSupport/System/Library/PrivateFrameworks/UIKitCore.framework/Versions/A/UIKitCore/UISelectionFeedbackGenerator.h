@@ -15,7 +15,7 @@
 
 + (Class);
 - (void);
-- (void)llerDidExpand: /* Error: Ran out of types for this method. */;
+- (void)panelControllerDidExpand: /* Error: Ran out of types for this method. */;
 - (double);
 - (void) ;
 - (void)%@>;

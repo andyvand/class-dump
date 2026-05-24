@@ -7,6 +7,7 @@
 @interface WeatherAppSupport.IsSameDayCache
 {
     id startOfDayCache;
+    id;
 }
 
 @end

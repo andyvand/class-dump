@@ -12,26 +12,26 @@
 + (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)nary"16@0:(id)arg1 8;
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)cloudOwnerLastName;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)setDescriptionCardSection:(id)arg1;
+- (id)",&,N,V_entitySearchOnlyMetadata;
 - (_Bool);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)';
+- (void)s;
 
 @end
 

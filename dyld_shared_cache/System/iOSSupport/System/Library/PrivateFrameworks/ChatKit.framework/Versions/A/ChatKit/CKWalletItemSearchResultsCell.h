@@ -12,8 +12,8 @@
 
 + (id);
 - (double);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)ces of losing access to your locked notes.;
+- (struct CGPoint)ow your information is secured? ;
 - (id);
 - (void);
 

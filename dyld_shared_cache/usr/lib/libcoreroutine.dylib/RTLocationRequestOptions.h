@@ -7,35 +7,21 @@
 @interface RTLocationRequestOptions
 {
     _Bool _fallback;
-    _Bool _yieldLastLocation;
-    double _desiredAccuracy;
-    double _horizontalAccuracy;
-    double _maxAge;
-    double _fallbackHorizontalAccuracy;
-    double _fallbackMaxAge;
-    double _timeout;
 }
 
-- (_Bool);
+- (_Bool)V;
+- (double)_updateMirrorKey;
+- (id)kPCSSetupDontImportManatee;
 - (double);
-- (id);
-- (double);
-- (id);
+- (id)ed due to invalid token.;
 - (double);
 - (double);
-- (_Bool)WeeksWithNonZeroDwellTimePruning;
+- (_Bool)numPlacesAfterWeeksWithNonZeroDwellTimePruning;
 - (double)ons for clusterID,%@;
 - (double)8Âºÿ©;
 
 // Remaining properties
-@property(readonly, nonatomic) double desiredAccuracy; // @synthesize desiredAccuracy=_desiredAccuracy;
 @property(readonly, nonatomic) _Bool fallback; // @synthesize fallback=_fallback;
-@property(readonly, nonatomic) double fallbackHorizontalAccuracy; // @synthesize fallbackHorizontalAccuracy=_fallbackHorizontalAccuracy;
-@property(readonly, nonatomic) double fallbackMaxAge; // @synthesize fallbackMaxAge=_fallbackMaxAge;
-@property(readonly, nonatomic) double horizontalAccuracy; // @synthesize horizontalAccuracy=_horizontalAccuracy;
-@property(readonly, nonatomic) double maxAge; // @synthesize maxAge=_maxAge;
-@property(readonly, nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(readonly, nonatomic) _Bool yieldLastLocation; // @synthesize yieldLastLocation=_yieldLastLocation;
 
 @end
 

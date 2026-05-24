@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLAnimatedVector3, NSString;
-
 @interface MDLTransformRotateOp
 {
     _Bool _inverse;
-    NSString *_name;
-    MDLAnimatedVector3 *_animatedValue;
-    unsigned long long _order;
 }
 
 - (id);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (id);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
-- (void)neWithCamera:(unsigned long long)arg1 reflection:irradiance:size: /* Error: Ran out of types for this method. */;
+- (void)raytraceSceneWithCamera:(unsigned long long)arg1 reflection:irradiance:size: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MDLAnimatedVector3 *animatedValue; // @synthesize animatedValue=_animatedValue;
 @property(nonatomic) _Bool inverse; // @synthesize inverse=_inverse;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long order; // @synthesize order=_order;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, _EFLRUCacheNode;
-
 @interface EFLRUCache
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _capacity;
-    NSMutableDictionary *_nodesByKey;
-    unsigned long long _size;
-    _EFLRUCacheNode *_firstNode;
-    _EFLRUCacheNode *_lastNode;
 }
 
 + (id);
@@ -29,33 +22,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)g the voice profile %@;
 - (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)n %@ description %@;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(retain, nonatomic) _EFLRUCacheNode *firstNode; // @synthesize firstNode=_firstNode;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _EFLRUCacheNode *lastNode; // @synthesize lastNode=_lastNode;
-@property(readonly, nonatomic) NSMutableDictionary *nodesByKey; // @synthesize nodesByKey=_nodesByKey;
-@property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 
 @end
 

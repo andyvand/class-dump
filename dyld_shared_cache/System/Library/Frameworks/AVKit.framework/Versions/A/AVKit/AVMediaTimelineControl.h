@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMediaTimelineControlConfiguration, AVObservationController, AVScrollSliderView, AVScrubberSlider, CADisplayLink, NSArray, NSString, NSTextField;
-@protocol AVMediaTimelineControlDelegate, AVMediaTimelineControlSource;
+@class CADisplayLink, NSTextField;
 
 @interface AVMediaTimelineControl
 {
     CADisplayLink *_displayLink;
-    AVObservationController *_observationController;
-    _Bool _observationControllerObserving;
-    float _lastPreferredFramesPerSecond;
-    float _timelineValuesUpdateInterval;
-    _Bool _timelineViewsHaveBeenSetUp;
-    float _lastUpdatedTime;
-    _Bool _isSliderTracking;
-    _Bool _enabled;
-    id <AVMediaTimelineControlSource> _source;
-    AVMediaTimelineControlConfiguration *_configuration;
-    id <AVMediaTimelineControlDelegate> _delegate;
-    NSTextField *_leadingLabel;
-    AVScrubberSlider *_scrubber;
-    NSTextField *_trailingLabel;
-    NSArray *_timeRangeMarks;
-    AVScrollSliderView *_scrollSliderContainerView;
 }
 
 - (double);
@@ -36,9 +19,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -51,7 +34,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (struct CGSize);
@@ -70,23 +53,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) AVMediaTimelineControlConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVMediaTimelineControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSliderTracking; // @synthesize isSliderTracking=_isSliderTracking;
 @property(retain, nonatomic) NSTextField *leadingLabel; // @synthesize leadingLabel=_leadingLabel;
-@property(retain, nonatomic) AVScrollSliderView *scrollSliderContainerView; // @synthesize scrollSliderContainerView=_scrollSliderContainerView;
-@property(retain, nonatomic) AVScrubberSlider *scrubber; // @synthesize scrubber=_scrubber;
-@property(nonatomic) __weak id <AVMediaTimelineControlSource> source; // @synthesize source=_source;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *timeRangeMarks; // @synthesize timeRangeMarks=_timeRangeMarks;
-@property(retain, nonatomic) NSTextField *trailingLabel; // @synthesize trailingLabel=_trailingLabel;
 
 @end
 

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSStackView, NSString, NSTextField, _AXKAlertImageView;
+@class NSStackView;
 
 @interface AXKAlertWindowController
 {
     _Bool _confirmButtonVisible;
-    _Bool _cancelButtonVisible;
-    _Bool _suppressionButtonVisible;
-    CDUnknownBlockType _completionBlock;
-    NSString *_titleText;
-    NSString *_subtitleText;
-    CDUnknownBlockType _isEventAllowedToActivate;
-    NSStackView *__stackView;
-    _AXKAlertImageView *__iconImage;
-    NSButton *__confirmButton;
-    NSButton *__cancelButton;
-    NSButton *__suppressionCheckbox;
-    NSTextField *__titleTextView;
-    NSTextField *__subtitleTextView;
-    NSString *__confirmButtonText;
 }
 
 - (_Bool);
@@ -32,12 +18,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)@9;
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -58,31 +44,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)sizeOfDeadResources:(id)arg1;
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)reserveViewForSubmenuIndicator;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *_cancelButton; // @synthesize _cancelButton=__cancelButton;
-@property(nonatomic) __weak NSButton *_confirmButton; // @synthesize _confirmButton=__confirmButton;
-@property(copy, nonatomic) NSString *_confirmButtonText; // @synthesize _confirmButtonText=__confirmButtonText;
-@property(nonatomic) __weak _AXKAlertImageView *_iconImage; // @synthesize _iconImage=__iconImage;
 @property(nonatomic) __weak NSStackView *_stackView; // @synthesize _stackView=__stackView;
-@property(nonatomic) __weak NSTextField *_subtitleTextView; // @synthesize _subtitleTextView=__subtitleTextView;
-@property(nonatomic) __weak NSButton *_suppressionCheckbox; // @synthesize _suppressionCheckbox=__suppressionCheckbox;
-@property(nonatomic) __weak NSTextField *_titleTextView; // @synthesize _titleTextView=__titleTextView;
-@property(nonatomic) _Bool cancelButtonVisible; // @synthesize cancelButtonVisible=_cancelButtonVisible;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(copy, nonatomic) NSString *confirmButtonText;
-@property(nonatomic) _Bool confirmButtonVisible; // @synthesize confirmButtonVisible=_confirmButtonVisible;
-@property(copy, nonatomic) CDUnknownBlockType isEventAllowedToActivate; // @synthesize isEventAllowedToActivate=_isEventAllowedToActivate;
-@property(copy, nonatomic) NSString *subtitleText; // @synthesize subtitleText=_subtitleText;
-@property(nonatomic) _Bool suppressionButtonVisible; // @synthesize suppressionButtonVisible=_suppressionButtonVisible;
-@property(copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
 
 @end
 

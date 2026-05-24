@@ -11,8 +11,6 @@
 @interface CHTurkishOVSConfusableCharactersStep : CHPostprocessingStepModifyingOriginalTokens
 {
     CHStringOVSChecker *_ovsStringChecker;
-    struct _LXLexicon *_staticLexicon;
-    struct _LXLexicon *_customLexicon;
 }
 
 - (id);

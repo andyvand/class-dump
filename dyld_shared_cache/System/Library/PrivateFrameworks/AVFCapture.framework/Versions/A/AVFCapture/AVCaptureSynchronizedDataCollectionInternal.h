@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureSynchronizedDataCollectionInternal
 {
     id *dataOutputs;
-    id *synchronizedData;
-    BOOL count;
-    BOOL maxCount;
-    unsigned long long changeSeed;
-    CDStruct_1b6d18a9 creationTime;
-    NSArray *possibleDataOutputs;
 }
 
 @end

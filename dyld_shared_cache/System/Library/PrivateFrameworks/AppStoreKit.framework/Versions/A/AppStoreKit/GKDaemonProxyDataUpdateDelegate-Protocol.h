@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AMSAuthenticateRequest;
+
 @protocol GKDaemonProxyDataUpdateDelegate
+
+@optional
+- (void)leting Calendar %@;
+- (void);
+- (void)collectionView:(AMSAuthenticateRequest *)arg1 validateDrop:(void (^)(AMSAuthenticateResult *, NSError *))arg2 proposedIndex:dropOperation: /* Error: Ran out of types for this method. */;
 @end
 

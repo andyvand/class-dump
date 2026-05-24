@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PHCameraSmartSharingIdentity
 {
     NSString *_phoneNumber;
-    NSString *_emailAddress;
-    NSArray *_contactIdentifiers;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)reportingEnabled;
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)9;
 - (id);
 - (void);
 - (id);
 - (void)icate;
 
 // Remaining properties
-@property(readonly) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(readonly) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
 @property(readonly) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end

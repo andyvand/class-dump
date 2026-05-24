@@ -7,8 +7,6 @@
 @interface PhotosUICore.PhotosSearchReportAConcernFeature__priv_476B0F06ED59354F41C905D0821043F8
 {
     id loggingCategory;
-    id availabilityStatus;
-    id isAcceptedInterfaceIdiomForReportAConcernInSearch;
 }
 
 @end

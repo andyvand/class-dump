@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSUUID;
+@class NSNumber;
 
 @interface ASDVPPRequest
 {
     NSNumber *_accountIdentifier;
-    long long _archiveType;
-    NSString *_bundleIdentifier;
-    NSNumber *_externalVersionIdentifier;
-    NSNumber *_itemIdentifier;
-    NSUUID *_requestIdentifier;
-    long long _requestType;
-    long long _softwarePlatform;
 }
 
 + (_Bool);
@@ -31,8 +24,8 @@
 - (void);
 - (void);
 - (void);
-- (long long);
-- (id);
+- (long long)FormattedString_Countdownlist_Min_Format;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -42,13 +35,6 @@
 
 // Remaining properties
 @property(copy) NSNumber *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property long long archiveType; // @synthesize archiveType=_archiveType;
-@property(copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy) NSNumber *externalVersionIdentifier; // @synthesize externalVersionIdentifier=_externalVersionIdentifier;
-@property(copy) NSNumber *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(retain) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(nonatomic) long long requestType; // @synthesize requestType=_requestType;
-@property long long softwarePlatform; // @synthesize softwarePlatform=_softwarePlatform;
 
 @end
 

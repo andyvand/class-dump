@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, NSMutableArray;
+@class ACAccountStore;
 
 @interface AAAccountManager
 {
     ACAccountStore *_accountStore;
-    NSMutableArray *_accounts;
-    NSMutableArray *_originalAccounts;
-    id _accountStoreDidChangeObserver;
 }
 
 + (id);
@@ -29,7 +26,7 @@
 - (void);
 - (void);
 - (id)B16B20;
-- (void)aclassActionsForDataclasses:fromAccount:completion: /* Error: Ran out of types for this method. */;
+- (void)enableDataclassesWithoutLocalDataDataclassActionsForDataclasses:fromAccount:completion: /* Error: Ran out of types for this method. */;
 - (void):(id)arg1 u`ïþ^©­EØôÛQé±rjPÖÈFY4D úáÔ#Hw¶·LZ?t2Ê	]kýº¢!ÄÝ-¤åU¨²"§Õ»iòã°1µÚT~¥}3h*@_GKWÎùS=[ëÂJ¾öAõeÆÌ{è üNÁ¯
 ðËÍÙäM)û8ÿª$¦9.;Þ¼×I¿5&R'fnêß¸íoÑ<Àg÷VpvódÓìÇq¹ÅyC>;
 

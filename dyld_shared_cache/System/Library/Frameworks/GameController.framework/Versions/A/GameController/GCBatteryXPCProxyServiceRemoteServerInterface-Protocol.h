@@ -5,5 +5,6 @@
 //
 
 @protocol GCBatteryXPCProxyServiceRemoteServerInterface
+- (void);
 @end
 

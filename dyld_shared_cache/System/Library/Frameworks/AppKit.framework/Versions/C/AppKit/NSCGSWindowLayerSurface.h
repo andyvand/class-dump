@@ -6,23 +6,15 @@
 
 #import <AppKit/NSCGSWindowSurface.h>
 
-@class CALayer;
-
 __attribute__((visibility("hidden")))
 @interface NSCGSWindowLayerSurface : NSCGSWindowSurface
 {
 }
 
-- (_Bool);
+- (_Bool)_onqueue_postConnectConfiguration:parameters:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property struct CGColorSpace *colorSpace; // @dynamic colorSpace;
-@property unsigned int displayMask; // @dynamic displayMask;
-@property unsigned int displayNumber; // @dynamic displayNumber;
-@property(retain) CALayer *layer; // @dynamic layer;
 @property(readonly, getter=isLocallyRendered) _Bool locallyRendered;
-@property(getter=isOpaque) _Bool opaque; // @dynamic opaque;
-@property double scale; // @dynamic scale;
 
 @end
 

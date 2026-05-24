@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMIFAutocompleteResultSection, NSArray, NSString;
+@class GEOPDMIFAutocompleteResultSection, NSString;
 
 @interface GEOMIFAutocompleteResultSection
 {
     GEOPDMIFAutocompleteResultSection *_resultSection;
-    NSString *_sectionHeader;
-    NSArray *_autocompleteEntries;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)@32;
 - (id);
 - (void)Ú#3;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *autocompleteEntries; // @synthesize autocompleteEntries=_autocompleteEntries;
 @property(readonly, nonatomic) NSString *sectionHeader; // @synthesize sectionHeader=_sectionHeader;
 
 @end

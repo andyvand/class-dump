@@ -6,30 +6,27 @@
 
 #import <Intents/INIntentForwardingAction.h>
 
-@class NSArray;
-
 @interface INResolveIntentParametersForwardingAction : INIntentForwardingAction
 {
     _Bool _resolvesAllParameters;
-    NSArray *_parameterNames;
 }
 
-+ (_Bool);
++ (_Bool);
 + (Class)TC;
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)ignoredByDoublePressRecognizer;
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void)hForNotebookItems:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)ic}s:(id)arg1 %u) Invalid TD network provided
+;
+- (void),	;
+- (id);
+- (void)provideGroupNameOptionsForSearchForNotebookItems:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *parameterNames; // @synthesize parameterNames=_parameterNames;
 @property(readonly, nonatomic) _Bool resolvesAllParameters; // @synthesize resolvesAllParameters=_resolvesAllParameters;
 
 @end

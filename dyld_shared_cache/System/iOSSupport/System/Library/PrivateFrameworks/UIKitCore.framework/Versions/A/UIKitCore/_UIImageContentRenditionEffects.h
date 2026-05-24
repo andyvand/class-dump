@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageContentRenditionEffects
 {
     _Bool _bold;
-    unsigned int _drawMode;
-    UIColor *_tintColor;
-    NSArray *_visualEffects;
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)ource;
+- (_Bool)amedEntities:%@ is donating %tu locations /* Error: Ran out of types for this method. */;
 - (void);
 - (id)tViews;
 - (void);
@@ -27,10 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)¸õa;
 
 // Remaining properties
-@property(nonatomic) _Bool bold; // @synthesize bold=_bold;
-@property(nonatomic) unsigned int drawMode; // @synthesize drawMode=_drawMode;
 @property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(retain, nonatomic) NSArray *visualEffects; // @synthesize visualEffects=_visualEffects;
 
 @end
 

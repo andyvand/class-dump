@@ -6,31 +6,27 @@
 
 #import <IMAP/IMAPMailboxCommand.h>
 
-@class NSDictionary;
-
 @interface IMAPStatusCommand : IMAPMailboxCommand
 {
     unsigned long long _dataItems;
-    NSDictionary *_statusEntries;
 }
 
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)5;
 - (id);
 - (id);
-- (id);
+- (id)k;
 - (void);
 
 // Remaining properties
 @property unsigned long long dataItems; // @synthesize dataItems=_dataItems;
-@property(copy) NSDictionary *statusEntries; // @synthesize statusEntries=_statusEntries;
 
 @end
 

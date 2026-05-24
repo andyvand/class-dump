@@ -6,44 +6,33 @@
 
 #import <CoreDAV/CoreDAVContainer.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface CardDAVAddressBookContainer : CoreDAVContainer
 {
     NSString *_maxResourceSize;
-    NSString *_maxImageSize;
-    NSURL *_meCardURL;
-    _Bool _isGuardianRestricted;
-    _Bool _isImageUploadRestricted;
 }
 
-+ (id);
++ (id)initWithHost:userInfo: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
+- (void)N5boost6detail17sp_counted_impl_pINS_8signals219optional_last_valueIvEEEE;
+- (void);
+- (id)_prepareAttachmentsForQuickLook: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)calnNotificationRequestFromUNNotificationRequest: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)};
+- (void)EWSExchangeWebServicesErrorDomain;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAddressBook;
-@property(nonatomic) _Bool isGuardianRestricted; // @synthesize isGuardianRestricted=_isGuardianRestricted;
-@property(nonatomic) _Bool isImageUploadRestricted; // @synthesize isImageUploadRestricted=_isImageUploadRestricted;
-@property(readonly, nonatomic) _Bool isSearchAddressBook;
-@property(readonly, nonatomic) _Bool isSharedAddressBook;
-@property(retain, nonatomic) NSString *maxImageSize; // @synthesize maxImageSize=_maxImageSize;
 @property(retain, nonatomic) NSString *maxResourceSize; // @synthesize maxResourceSize=_maxResourceSize;
-@property(retain, nonatomic) NSURL *meCardURL; // @synthesize meCardURL=_meCardURL;
 
 @end
 

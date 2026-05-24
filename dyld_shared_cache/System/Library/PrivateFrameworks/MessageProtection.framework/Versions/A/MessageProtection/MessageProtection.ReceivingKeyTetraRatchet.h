@@ -7,8 +7,6 @@
 @interface MessageProtection.ReceivingKeyTetraRatchet
 {
     id receivingKey;
-    id receivingKEMKey;
-    id incomingSymmetricRatchet;
 }
 
 @end

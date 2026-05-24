@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     double _differentLegScorePenalty;
 }
 
-- (id);
-- (_Bool);
-- (id);
+- (id)";
+- (_Bool)plsdatabase;
+- (id)principalPath;
 - (double);
 - (double);
 - (double);
-- (double);
-- (void);
+- (double);
+- (void);
 - (double);
 - (double);
 - (CDStruct_c3b9c2ee);

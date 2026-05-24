@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIImage;
+@class NSString;
 
 @interface NUArticleActivity
 {
     NSString *_activityType;
-    NSString *_activityTitle;
-    UIImage *_activityImage;
-    CDUnknownBlockType _performBlock;
-    NSArray *_activityItems;
 }
 
 - (id);
@@ -23,12 +19,11 @@
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
-- (id);
-- (void);
+- (CDUnknownBlockType)P;
+- (id);
+- (void)+;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activityItems; // @synthesize activityItems=_activityItems;
 @property(readonly, copy, nonatomic) CDUnknownBlockType performBlock; // @synthesize performBlock=_performBlock;
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface SUPackageIntegrityInformation
 {
     NSURL *_integrityDataURL;
-    NSNumber *_integrityDataSize;
-    NSString *_integrityDataChecksum;
 }
 
 + (_Bool);
@@ -20,13 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)LinkID:(id)arg1 %d, %@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *integrityDataChecksum; // @synthesize integrityDataChecksum=_integrityDataChecksum;
-@property(readonly) NSNumber *integrityDataSize; // @synthesize integrityDataSize=_integrityDataSize;
 @property(readonly) NSURL *integrityDataURL; // @synthesize integrityDataURL=_integrityDataURL;
 
 @end

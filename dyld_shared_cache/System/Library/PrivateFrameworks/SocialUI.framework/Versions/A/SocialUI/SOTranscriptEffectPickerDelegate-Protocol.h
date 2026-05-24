@@ -5,5 +5,6 @@
 //
 
 @protocol SOTranscriptEffectPickerDelegate
+- (void);
 @end
 

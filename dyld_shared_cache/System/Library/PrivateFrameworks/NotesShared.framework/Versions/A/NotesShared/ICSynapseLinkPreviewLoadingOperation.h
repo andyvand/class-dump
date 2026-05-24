@@ -9,11 +9,10 @@
 @interface ICSynapseLinkPreviewLoadingOperation
 {
     SYContentItem *_synapseItem;
-    CDUnknownBlockType _completionBlock;
 }
 
-- (void);
-- (id);
+- (void)__got;
+- (id)recordWithRecordType:(id)arg1 name:attributes:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

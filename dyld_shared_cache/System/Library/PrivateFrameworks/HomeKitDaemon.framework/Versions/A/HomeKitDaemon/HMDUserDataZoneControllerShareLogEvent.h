@@ -4,47 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDUserDataZoneControllerShareLogEvent
 {
     _Bool _didAccept;
-    unsigned long long _result;
 }
 
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (id);
+- (id)8@"IDSService"16@"IDSAccount"24@"IDSSession"32@"NSString"40;
+- (_Bool)ntAssertionsForDuplicateStorageIdentifiers;
+- (unsigned long long)ur;
+- (id)class:%s, streamDidRTCPTimeOut /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long)airing identifier %@ and error %@ for request UUID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool didAccept; // @synthesize didAccept=_didAccept;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly) unsigned long long result; // @synthesize result=_result;
-@property(readonly) Class superclass;
 
 @end
 

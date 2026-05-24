@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSMutableString, NSString;
+@class NSMutableDictionary;
 
 @interface BKSinfRightsParser
 {
     NSMutableDictionary *_rightsInfo;
-    NSData *_sinfData;
-    NSString *_rightsId;
-    NSMutableString *_foundText;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)`;
+- (id)@;
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)e no handles in the chat;
 - (void);
 - (void);
 - (id);
@@ -30,17 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableString *foundText; // @synthesize foundText=_foundText;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *rightsId; // @synthesize rightsId=_rightsId;
 @property(retain, nonatomic) NSMutableDictionary *rightsInfo; // @synthesize rightsInfo=_rightsInfo;
-@property(retain, nonatomic) NSData *sinfData; // @synthesize sinfData=_sinfData;
-@property(readonly) Class superclass;
 
 @end
 

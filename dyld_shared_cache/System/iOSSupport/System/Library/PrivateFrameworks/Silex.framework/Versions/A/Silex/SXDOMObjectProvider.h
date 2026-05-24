@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXComponents, SXDOM, SXJSONObjectMerger;
-@protocol SXAutoPlacement, SXDocumentControllerProvider, SXDocumentStyle;
+@class SXDOM;
 
 @interface SXDOMObjectProvider
 {
     SXDOM *_DOM;
-    id <SXDocumentControllerProvider> _documentControllerProvider;
-    SXJSONObjectMerger *_componentStyleMerger;
-    SXJSONObjectMerger *_componentTextStyleMerger;
 }
 
 - (id);
@@ -28,23 +24,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)ntageProviding>";
 
 // Remaining properties
 @property(retain, nonatomic) SXDOM *DOM; // @synthesize DOM=_DOM;
-@property(readonly, nonatomic) id <SXAutoPlacement> autoPlacement;
-@property(readonly, nonatomic) SXComponents *components;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SXDocumentStyle> documentStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

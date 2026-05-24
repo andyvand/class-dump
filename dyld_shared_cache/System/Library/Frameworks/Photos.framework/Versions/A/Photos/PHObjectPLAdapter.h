@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet, NSString, PHPhotoLibrary, PLManagedObject;
+@class PHPhotoLibrary, PLManagedObject;
 
 @interface PHObjectPLAdapter
 {
     PHPhotoLibrary *_photoLibrary;
-    PLManagedObject *_backingManagedObject;
-    NSMutableOrderedSet *_ignoredKeys;
-    NSMutableDictionary *_modifiedKeyValues;
 }
 
+- (void)R(c;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)valueForDate:(id)arg1;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void)_useLimitedLibraryMode;
-- (id)nadj;
+- (id)unadj;
 
 // Remaining properties
 @property(readonly, nonatomic) PLManagedObject *backingManagedObject; // @synthesize backingManagedObject=_backingManagedObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableOrderedSet *ignoredKeys; // @synthesize ignoredKeys=_ignoredKeys;
-@property(retain, nonatomic) NSMutableDictionary *modifiedKeyValues; // @synthesize modifiedKeyValues=_modifiedKeyValues;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
 
 @end
 

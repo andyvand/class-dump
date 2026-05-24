@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-@protocol TRINamespaceFactorProviding, TRIPaths;
+@class NSString;
 
 @interface TRINamespaceFactorProviderChain
 {
     NSString *_namespaceName;
-    id <TRIPaths> _paths;
-    NSArray *_providerChain;
-    id <TRINamespaceFactorProviding> _installedProvider;
-    id <TRINamespaceFactorProviding> _rolloutProvider;
-    id <TRINamespaceFactorProviding> _experimentProvider;
-    id <TRINamespaceFactorProviding> _factorPackExperimentProvider;
-    id <TRINamespaceFactorProviding> _devOverrideProvider;
-    NSDictionary *_aliasMap;
 }
 
 + (id);
@@ -29,31 +20,25 @@
 - (id);
 - (id);
 - (_Bool);
+- (id),&,N,V_queryEmbedding;
+- (void)lement when duplicating a non-iris asset;
+- (id)`;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (id);
+- (id)';
 - (void);
 - (int);
 - (id);
 - (void);
-- (_Bool)ationWithCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)activeRolloutInformationWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

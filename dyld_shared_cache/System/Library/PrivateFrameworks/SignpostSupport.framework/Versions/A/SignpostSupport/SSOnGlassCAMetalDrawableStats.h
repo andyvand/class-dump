@@ -4,50 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SignpostSupportValueStats;
+@class SignpostSupportValueStats;
 
 @interface SSOnGlassCAMetalDrawableStats
 {
     SignpostSupportValueStats *_onGlassIntervalStats;
-    SignpostSupportValueStats *_inFlightTotalEndToEndIntervalStats;
-    SignpostSupportValueStats *_inFlightCPUEndToEndIntervalStats;
-    SignpostSupportValueStats *_inFlightGPUEndToEndIntervalStats;
-    SignpostSupportValueStats *_inFlightWaitForGlassStats;
-    SignpostSupportValueStats *_inFlightOnGPUTimeStats;
-    SignpostSupportValueStats *_inFlightCommandBufferCountStats;
-    SignpostSupportValueStats *_inFlightGPUResidencyStats;
 }
 
+- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)<;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SignpostSupportValueStats *inFlightCPUEndToEndIntervalStats; // @synthesize inFlightCPUEndToEndIntervalStats=_inFlightCPUEndToEndIntervalStats;
-@property(readonly, nonatomic) SignpostSupportValueStats *inFlightCommandBufferCountStats; // @synthesize inFlightCommandBufferCountStats=_inFlightCommandBufferCountStats;
-@property(readonly, nonatomic) SignpostSupportValueStats *inFlightGPUEndToEndIntervalStats; // @synthesize inFlightGPUEndToEndIntervalStats=_inFlightGPUEndToEndIntervalStats;
-@property(readonly, nonatomic) SignpostSupportValueStats *inFlightGPUResidencyStats; // @synthesize inFlightGPUResidencyStats=_inFlightGPUResidencyStats;
-@property(readonly, nonatomic) SignpostSupportValueStats *inFlightOnGPUTimeStats; // @synthesize inFlightOnGPUTimeStats=_inFlightOnGPUTimeStats;
-@property(readonly, nonatomic) SignpostSupportValueStats *inFlightTotalEndToEndIntervalStats; // @synthesize inFlightTotalEndToEndIntervalStats=_inFlightTotalEndToEndIntervalStats;
-@property(readonly, nonatomic) SignpostSupportValueStats *inFlightWaitForGlassStats; // @synthesize inFlightWaitForGlassStats=_inFlightWaitForGlassStats;
 @property(readonly, nonatomic) SignpostSupportValueStats *onGlassIntervalStats; // @synthesize onGlassIntervalStats=_onGlassIntervalStats;
-@property(readonly) Class superclass;
 
 @end
 

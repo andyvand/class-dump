@@ -7,26 +7,15 @@
 @interface CKDPThrottlingConfigRateLimit
 {
     long long _startTimeSecondsAfterLocalMidnight;
-    long long _startTimeSecondsAfterUnixEpoch;
-    int _allowedRequestCount;
-    int _intervalLengthSec;
-    int _repeatEverySec;
-    struct {
-        unsigned int startTimeSecondsAfterLocalMidnight:1;
-        unsigned int startTimeSecondsAfterUnixEpoch:1;
-        unsigned int allowedRequestCount:1;
-        unsigned int intervalLengthSec:1;
-        unsigned int repeatEverySec:1;
-    } _has;
 }
 
 - (long long);
 - (long long);
 - (void);
 - (void);
+- (void)B;
 - (void);
-- (void);
-- (void);
+- (void)n;
 - (void);
 - (void);
 - (void);
@@ -34,33 +23,25 @@
 - (int);
 - (int);
 - (_Bool);
+- (_Bool)^@9*;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (void);
-- (int);
+- (int)_և;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)tting audio source:%{ptr}
+ /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) int allowedRequestCount; // @synthesize allowedRequestCount=_allowedRequestCount;
-@property(nonatomic) _Bool hasAllowedRequestCount;
 @property(nonatomic) _Bool hasIntervalLengthSec;
-@property(nonatomic) _Bool hasRepeatEverySec;
-@property(nonatomic) _Bool hasStartTimeSecondsAfterLocalMidnight;
-@property(nonatomic) _Bool hasStartTimeSecondsAfterUnixEpoch;
-@property(nonatomic) int intervalLengthSec; // @synthesize intervalLengthSec=_intervalLengthSec;
-@property(nonatomic) int repeatEverySec; // @synthesize repeatEverySec=_repeatEverySec;
-@property(nonatomic) long long startTimeSecondsAfterLocalMidnight; // @synthesize startTimeSecondsAfterLocalMidnight=_startTimeSecondsAfterLocalMidnight;
-@property(nonatomic) long long startTimeSecondsAfterUnixEpoch; // @synthesize startTimeSecondsAfterUnixEpoch=_startTimeSecondsAfterUnixEpoch;
 
 @end
 

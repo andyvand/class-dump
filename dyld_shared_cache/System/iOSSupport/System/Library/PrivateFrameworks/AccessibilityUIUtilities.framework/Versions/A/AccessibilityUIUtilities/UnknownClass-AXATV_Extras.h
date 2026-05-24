@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (AXATV_Extras)
-- (double);
+- (double);
 @end
 

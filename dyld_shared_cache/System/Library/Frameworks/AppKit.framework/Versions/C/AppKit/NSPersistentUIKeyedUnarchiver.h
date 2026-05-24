@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindowRestorationOptions;
-
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIKeyedUnarchiver
 {
     NSPersistentUIKeyedUnarchiver *_secureCoder;
-    NSWindowRestorationOptions *_restorationOptions;
 }
 
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)L",&,N,V_siteForCookies;
+- (id)8;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_resultsHandler;
 - (id);
 - (id);
 - (const char *);

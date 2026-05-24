@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface AVCTestMonitor
 {
     id _delegate;
-    NSObject<OS_dispatch_queue> *_delegateNotificationQueue;
-    AVConferenceXPCClient *_connection;
-    unsigned int _reportToken;
 }
 
 - (void);
 - (void);
+- (void);
+- (void)";
+- (void);
+- (void);
+- (void);
+- (void)}Kc;
+- (void)J;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id))iy8?;
+- (void)`.;
 - (id);
-- (void);
-- (id);
-- (id)hes;
+- (id)abSwitches;
 
 @end
 

@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOProtobufSession, GEOProtobufSessionTask, NSString;
+@class GEOProtobufSession;
 
 @interface GEORPProblemProvider
 {
     GEOProtobufSession *_protobufSession;
-    GEOProtobufSessionTask *_submissionTask;
-    GEOProtobufSessionTask *_statusTask;
-    CDUnknownBlockType _submissionErrorHandler;
-    CDUnknownBlockType _submissionFinishedHandler;
-    CDUnknownBlockType _statusErrorHandler;
-    CDUnknownBlockType _statusFinishedHandler;
 }
 
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (id);
+- (id)";
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (void)3;
 - (void);
 - (void);
 - (void);
@@ -30,31 +25,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)customProperties;
+- (void)3;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)meProcessor>";
+- (void)_clampedASRFeatureLatencyMsForClientLag;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) GEOProtobufSession *protobufSession; // @synthesize protobufSession=_protobufSession;
-@property(copy, nonatomic) CDUnknownBlockType statusErrorHandler; // @synthesize statusErrorHandler=_statusErrorHandler;
-@property(copy, nonatomic) CDUnknownBlockType statusFinishedHandler; // @synthesize statusFinishedHandler=_statusFinishedHandler;
-@property(retain, nonatomic) GEOProtobufSessionTask *statusTask; // @synthesize statusTask=_statusTask;
-@property(copy, nonatomic) CDUnknownBlockType submissionErrorHandler; // @synthesize submissionErrorHandler=_submissionErrorHandler;
-@property(copy, nonatomic) CDUnknownBlockType submissionFinishedHandler; // @synthesize submissionFinishedHandler=_submissionFinishedHandler;
-@property(retain, nonatomic) GEOProtobufSessionTask *submissionTask; // @synthesize submissionTask=_submissionTask;
-@property(readonly) Class superclass;
 
 @end
 

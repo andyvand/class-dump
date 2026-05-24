@@ -6,20 +6,19 @@
 
 #import <Contacts/CNSaveRequest.h>
 
-@class NSMutableSet, NSSet;
+@class NSMutableSet;
 
 @interface CNSuggestedSaveRequest : CNSaveRequest
 {
     NSMutableSet *_mutableConfirmedSuggestions;
-    NSMutableSet *_mutableRejectedSuggestions;
 }
 
 - (void);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (void);
 - (void)1Â0@ù
@@ -27,10 +26,7 @@
 - (id)Add (%{public}@); will treat as a single Add.;
 
 // Remaining properties
-@property(readonly, copy) NSSet *confirmedSuggestions;
 @property(retain, nonatomic) NSMutableSet *mutableConfirmedSuggestions; // @synthesize mutableConfirmedSuggestions=_mutableConfirmedSuggestions;
-@property(retain, nonatomic) NSMutableSet *mutableRejectedSuggestions; // @synthesize mutableRejectedSuggestions=_mutableRejectedSuggestions;
-@property(readonly, copy) NSSet *rejectedSuggestions;
 
 @end
 

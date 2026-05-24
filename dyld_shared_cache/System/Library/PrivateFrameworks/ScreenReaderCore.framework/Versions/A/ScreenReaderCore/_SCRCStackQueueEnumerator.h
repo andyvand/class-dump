@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     _SCRCStackNode *_currentListMemeber;
 }
 
+- (id)+z;
 - (id);
-- (id);
-- (void);
+- (void)/Versions/A/IMFoundation;
 
 @end
 

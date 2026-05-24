@@ -12,8 +12,8 @@
 + (double);
 + (double);
 + (_Bool);
-+ (_Bool);
-+ (double);
++ (_Bool)8w;
++ (double)rvice identity %lu;
 
 @end
 

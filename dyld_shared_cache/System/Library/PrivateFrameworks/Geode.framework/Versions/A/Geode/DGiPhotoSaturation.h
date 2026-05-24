@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGiPhotoSaturation
 {
     CIImage *inputImage;
-    NSNumber *inputSaturation;
-    NSNumber *inputAlgorithm;
 }
 
-+ (void)ter;
++ (void)DGFastHighShadFilter;
 - (id);
 - (id);
 

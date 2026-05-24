@@ -9,10 +9,10 @@
     id photoLibrary;
 }
 
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (id);
-- (void)tionWithPhotoLibrary: /* Error: Ran out of types for this method. */;
+- (void)_fetchOptionsForMusicCurationWithPhotoLibrary: /* Error: Ran out of types for this method. */;
 
 @end
 

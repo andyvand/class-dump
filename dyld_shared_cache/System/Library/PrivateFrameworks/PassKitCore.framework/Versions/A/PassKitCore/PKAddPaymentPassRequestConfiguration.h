@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
-
 @interface PKAddPaymentPassRequestConfiguration
 {
     _Bool _requiresFelicaSecureElement;
-    NSString *_encryptionScheme;
-    long long _style;
-    NSString *_cardholderName;
-    NSString *_primaryAccountSuffix;
-    NSArray *_cardDetails;
-    NSString *_localizedDescription;
-    NSString *_primaryAccountIdentifier;
-    NSString *_paymentNetwork;
-    NSSet *_productIdentifiers;
-    unsigned long long _allowManagedAppleID;
 }
 
 + (_Bool)X"ð!èAùî%ð1Â0@ù
@@ -34,7 +22,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)q;
 - (id);
 - (unsigned long long);
 - (id);
@@ -47,27 +35,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)k;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)tedDate;
+- (void)lastUpdatedDate;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allowManagedAppleID; // @synthesize allowManagedAppleID=_allowManagedAppleID;
-@property(copy, nonatomic) NSArray *cardDetails; // @synthesize cardDetails=_cardDetails;
-@property(copy, nonatomic) NSString *cardholderName; // @synthesize cardholderName=_cardholderName;
-@property(readonly, copy, nonatomic) NSString *encryptionScheme; // @synthesize encryptionScheme=_encryptionScheme;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 @property(readonly, nonatomic, getter=isPaymentAccount) _Bool paymentAccount;
-@property(copy, nonatomic) NSString *paymentNetwork; // @synthesize paymentNetwork=_paymentNetwork;
-@property(copy, nonatomic) NSString *primaryAccountIdentifier; // @synthesize primaryAccountIdentifier=_primaryAccountIdentifier;
-@property(copy, nonatomic) NSString *primaryAccountSuffix; // @synthesize primaryAccountSuffix=_primaryAccountSuffix;
-@property(copy, nonatomic) NSSet *productIdentifiers; // @synthesize productIdentifiers=_productIdentifiers;
-@property(nonatomic) _Bool requiresFelicaSecureElement; // @synthesize requiresFelicaSecureElement=_requiresFelicaSecureElement;
-@property(nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

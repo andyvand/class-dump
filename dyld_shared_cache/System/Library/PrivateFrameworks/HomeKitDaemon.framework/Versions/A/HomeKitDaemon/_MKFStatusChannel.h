@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFStatusChannelDatabaseID, NSData, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFHome;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface _MKFStatusChannel : _MKFModel
@@ -15,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
@@ -23,19 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSData *channelMetadata; // @dynamic channelMetadata;
-@property(copy, nonatomic) NSNumber *channelType; // @dynamic channelType;
-@property(copy, nonatomic) NSDate *creationTimestamp; // @dynamic creationTimestamp;
-@property(readonly, copy, nonatomic) MKFStatusChannelDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

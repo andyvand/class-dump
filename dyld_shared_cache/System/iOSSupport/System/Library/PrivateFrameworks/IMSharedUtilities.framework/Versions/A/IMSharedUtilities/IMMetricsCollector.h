@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SDRDiagnosticReporter;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMMetricsCollector
 {
     NSObject<OS_dispatch_queue> *_metricsQueue;
-    SDRDiagnosticReporter *_diagnosticReporter;
 }
 
 + (id);

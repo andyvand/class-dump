@@ -7,13 +7,6 @@
 @interface AWDRxPhyErrors
 {
     unsigned long long _bphyBadplcp;
-    unsigned long long _bphyRxcrsglitch;
-    unsigned long long _rfdisable;
-    struct {
-        unsigned int bphyBadplcp:1;
-        unsigned int bphyRxcrsglitch:1;
-        unsigned int rfdisable:1;
-    } _has;
 }
 
 - (void);
@@ -23,12 +16,12 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
+- (id));
 - (void);
 - (void);
 - (unsigned long long);
@@ -39,12 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long bphyBadplcp; // @synthesize bphyBadplcp=_bphyBadplcp;
-@property(nonatomic) unsigned long long bphyRxcrsglitch; // @synthesize bphyRxcrsglitch=_bphyRxcrsglitch;
-@property(nonatomic) _Bool hasBphyBadplcp;
-@property(nonatomic) _Bool hasBphyRxcrsglitch;
 @property(nonatomic) _Bool hasRfdisable;
-@property(nonatomic) unsigned long long rfdisable; // @synthesize rfdisable=_rfdisable;
 
 @end
 

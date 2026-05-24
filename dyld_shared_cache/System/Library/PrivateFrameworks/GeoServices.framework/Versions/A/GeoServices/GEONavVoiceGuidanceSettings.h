@@ -9,33 +9,27 @@
 @interface GEONavVoiceGuidanceSettings
 {
     PBUnknownFields *_unknownFields;
-    int _navVoiceGuidanceLevel;
-    int _transportMode;
-    struct {
-        unsigned int has_navVoiceGuidanceLevel:1;
-        unsigned int has_transportMode:1;
-    } _flags;
 }
 
-+ (_Bool)TransitTypeEnumValue:(id)arg1;
++ (_Bool)setHasTransitTypeEnumValue:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (int);
+- (int);
 - (_Bool);
 - (_Bool);
-- (int);
-- (int);
+- (int)stringForTimeInterval:(id)arg1;
+- (int)loggingIdentifierForCurrentProcess;
 - (int);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)directorySizeAtPath:(_Bool)arg1 authorization:result: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)Writer flushWithCompletion:(id)arg1 ]_block_invoke;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -49,10 +43,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasNavVoiceGuidanceLevel;
-@property(nonatomic) _Bool hasTransportMode;
-@property(nonatomic) int navVoiceGuidanceLevel;
-@property(nonatomic) int transportMode;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

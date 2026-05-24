@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface MDLAnimatedValue
 {
     struct vector<(anonymous namespace)::TimeSampledVtValue, std::allocator<(anonymous namespace)::TimeSampledVtValue>> _timeSampledData;
-    unsigned long long _interpolation;
 }
 
 - (void);
@@ -17,27 +14,22 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (struct VtValue);
+- (struct VtValue)R,;
 - (double);
 - (double);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)tectorProtocol>";
+- (id)cessory server notification %@;
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (id);
+- (void)PrivateFrameworks/CoreSymbolication.framework/Versions/A/CoreSymbolication;
+- (unsigned long long);
+- (_Bool)S>;
 
 // Remaining properties
-@property(nonatomic) unsigned long long interpolation; // @synthesize interpolation=_interpolation;
-@property(readonly, nonatomic) NSArray *keyTimes;
-@property(readonly, nonatomic) double maximumTime;
-@property(readonly, nonatomic) double minimumTime;
 @property(readonly, nonatomic) unsigned long long precision;
-@property(readonly, nonatomic) unsigned long long timeSampleCount;
 
 @end
 

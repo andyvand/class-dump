@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString, PXVideoContentProviderLoadingResult;
+@class PXVideoContentProviderLoadingResult;
 
 @interface PXVideoContentProvider
 {
     PXVideoContentProviderLoadingResult *_loadingResult;
-    double _loadingProgress;
-    NSNumber *_videoAspectRatio;
-    NSString *_contentIdentifier;
-    long long _audioSessionKind;
 }
 
 - (id);
@@ -24,8 +20,8 @@
 - (long long);
 - (_Bool);
 - (id);
-- (id);
-- (double);
+- (id)ion>";
+- (double)initWithObject: /* Error: Ran out of types for this method. */;
 - (id)!pAùñ91Â0@ù
 × ;
 - (void)ellation:%@. /* Error: Ran out of types for this method. */;
@@ -33,13 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *analyticsPayload;
-@property(readonly, nonatomic) long long audioSessionKind; // @synthesize audioSessionKind=_audioSessionKind;
-@property(readonly, copy, nonatomic) NSString *contentIdentifier; // @synthesize contentIdentifier=_contentIdentifier;
-@property(nonatomic) double loadingProgress; // @synthesize loadingProgress=_loadingProgress;
 @property(retain, nonatomic) PXVideoContentProviderLoadingResult *loadingResult; // @synthesize loadingResult=_loadingResult;
-@property(readonly, nonatomic) _Bool mayContainAudio;
-@property(retain, nonatomic) NSNumber *videoAspectRatio; // @synthesize videoAspectRatio=_videoAspectRatio;
 
 @end
 

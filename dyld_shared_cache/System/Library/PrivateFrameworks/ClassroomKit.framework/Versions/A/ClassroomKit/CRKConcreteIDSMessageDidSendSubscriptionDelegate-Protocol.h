@@ -5,5 +5,6 @@
 //
 
 @protocol CRKConcreteIDSMessageDidSendSubscriptionDelegate
+- (void);
 @end
 

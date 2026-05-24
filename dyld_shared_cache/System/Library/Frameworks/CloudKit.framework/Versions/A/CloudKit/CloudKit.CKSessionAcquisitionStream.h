@@ -7,9 +7,6 @@
 @interface CloudKit.CKSessionAcquisitionStream
 {
     id hasMadeIterator;
-    id acquisitionStream;
-    id acquisitionStreamIterator;
-    id acquirer;
 }
 
 @end

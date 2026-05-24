@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     id <HMDHouseholdMetricsDataSource> _dataSource;
 }
 
-- (id);
+- (id)ay",&,N,V_incidents;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)setDisableIntermediateCaching: /* Error: Ran out of types for this method. */;
 - (id)ntermediate response payload:(id)arg1 %@;
 - (void)onWakeUpTypeWrapper value=%@>;
 

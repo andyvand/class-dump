@@ -6,12 +6,11 @@
 
 #import <CloudKit/CKPredicateValidatorInstance.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CKFunctionExpressionValidator : CKPredicateValidatorInstance
 {
     NSString *_functionName;
-    NSArray *_argumentValidators;
 }
 
 - (id);

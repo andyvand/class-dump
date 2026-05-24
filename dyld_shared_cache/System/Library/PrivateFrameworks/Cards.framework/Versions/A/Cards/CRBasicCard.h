@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, SFCard;
+@class NSArray, NSString;
 
 @interface CRBasicCard
 {
     NSString *_cardIdentifier;
-    unsigned long long cardFormat;
-    NSArray *_cardSections;
-    NSSet *_interactions;
-    NSArray *_dismissalCommands;
 }
 
 + (_Bool);
@@ -24,40 +20,16 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)tLayoutVisualRankBuilderTypeP;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool asynchronous;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) SFCard *backingCard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SFCard",?,R,N
-
-@property(readonly, nonatomic) unsigned long long cardFormat; // @synthesize cardFormat;
-@property(readonly, copy, nonatomic) NSString *cardIdentifier; // @synthesize cardIdentifier=_cardIdentifier;
 @property(retain, nonatomic) NSArray *cardSections; // @synthesize cardSections=_cardSections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *dismissalCommands; // @synthesize dismissalCommands=_dismissalCommands;
-@property(readonly, nonatomic) _Bool flexibleSectionOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *interactions; // @synthesize interactions=_interactions;
-@property(readonly, nonatomic) NSArray *resolvedCardSections;
-@property(readonly) Class superclass;
 
 @end
 

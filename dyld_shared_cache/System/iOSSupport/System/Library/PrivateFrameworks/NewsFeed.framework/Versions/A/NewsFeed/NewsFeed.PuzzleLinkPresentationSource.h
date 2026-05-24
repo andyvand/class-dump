@@ -9,7 +9,6 @@
 @interface NewsFeed.PuzzleLinkPresentationSource
 {
     id puzzle;
-    id puzzleImageShareAttributeProvider;
 }
 
 - (id);

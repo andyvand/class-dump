@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, PXExtendedTraitCollection, PXGadgetSpec;
+@class PXGadgetSpec;
 
 @interface PXGadgetSpecManager
 {
     PXGadgetSpec *_currentGadgetSpec;
-    Class _gadgetSpecClass;
-    long long _scrollAxis;
-    PXExtendedTraitCollection *_traitCollection;
-    NSHashTable *_updatedGadgets;
 }
 
 - (id);
@@ -20,9 +16,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (Class);
+- (Class);
 - (id);
 - (long long);
 - (void);
@@ -33,17 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PXGadgetSpec *currentGadgetSpec; // @synthesize currentGadgetSpec=_currentGadgetSpec;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) Class gadgetSpecClass; // @synthesize gadgetSpecClass=_gadgetSpecClass;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long scrollAxis; // @synthesize scrollAxis=_scrollAxis;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PXExtendedTraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
-@property(retain, nonatomic) NSHashTable *updatedGadgets; // @synthesize updatedGadgets=_updatedGadgets;
 
 @end
 

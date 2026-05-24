@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSCKMirroredRelationshipSystemFieldsAsset, NSCKRecordZoneMetadata, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface NSCKMirroredRelationship : NSManagedObject
@@ -15,29 +15,16 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cdEntityName; // @dynamic cdEntityName;
-@property(retain, nonatomic) NSString *ckRecordID; // @dynamic ckRecordID;
 @property(retain, nonatomic) NSNumber *isPending; // @dynamic isPending;
-@property(nonatomic) _Bool isPendingBool;
-@property(retain, nonatomic) NSNumber *isUploaded; // @dynamic isUploaded;
-@property(nonatomic) _Bool isUploadedBool;
-@property(retain, nonatomic) NSNumber *needsDelete; // @dynamic needsDelete;
-@property(nonatomic) _Bool needsDeleteBool;
-@property(retain, nonatomic) NSString *recordName; // @dynamic recordName;
-@property(retain, nonatomic) NSCKRecordZoneMetadata *recordZone; // @dynamic recordZone;
-@property(retain, nonatomic) NSString *relatedEntityName; // @dynamic relatedEntityName;
-@property(retain, nonatomic) NSString *relatedRecordName; // @dynamic relatedRecordName;
-@property(retain, nonatomic) NSString *relationshipName; // @dynamic relationshipName;
-@property(retain, nonatomic) NSCKMirroredRelationshipSystemFieldsAsset *systemFieldsAsset; // @dynamic systemFieldsAsset;
 
 @end
 

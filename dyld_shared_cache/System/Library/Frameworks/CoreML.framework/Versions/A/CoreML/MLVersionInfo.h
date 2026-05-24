@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MLVersionInfo
 {
     long long _majorVersion;
-    long long _minorVersion;
-    long long _patchVersion;
-    NSString *_variantString;
 }
 
 + (id);
 + (id);
 + (id)does not have a parameter for requested key '%@'. Note:(id)arg1 only updatable neural network models can provide parameter values and these values are only accessible in the context of an MLUpdateTask completion or progress handler.;
-- (id);
+- (id)rray size;
 - (id);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long)+;
 - (long long);
 - (id)cted pixel type.;
 - (void)E5Engine.outputPortBinder;
@@ -29,11 +24,6 @@
 
 // Remaining properties
 @property(readonly) long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly) long long minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(readonly) long long patchVersion; // @synthesize patchVersion=_patchVersion;
-@property(readonly) NSString *variantString; // @synthesize variantString=_variantString;
-@property(readonly, nonatomic) NSString *versionNumberString;
-@property(readonly, nonatomic) NSString *versionString;
 
 @end
 

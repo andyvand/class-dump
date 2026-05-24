@@ -7,10 +7,9 @@
 @class NSSet;
 
 @protocol EMUserProfileProvider
+- (NSSet *);
 
 // Remaining properties
-@property(readonly, copy) NSSet *accountsEmailAddresses;
 @property(readonly, copy) NSSet *allEmailAddresses;
-@property(readonly, copy) NSSet *contactEmailAddresses;
 @end
 

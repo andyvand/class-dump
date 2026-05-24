@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet, NSString;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface HMIFaceQualityFilterModelInput
 {
     MLMultiArray *_input;
-    NSString *_inputName;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id)omodel for personUUID:(id)arg1 %@ homeUUID:%@ error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *input; // @synthesize input=_input;
-@property(readonly) NSString *inputName; // @synthesize inputName=_inputName;
 
 @end
 

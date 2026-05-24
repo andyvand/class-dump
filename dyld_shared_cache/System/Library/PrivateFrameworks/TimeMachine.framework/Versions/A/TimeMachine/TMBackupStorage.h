@@ -6,7 +6,7 @@
 
 #import <TimeMachine/TMMonoStructure.h>
 
-@class NSArray, NSDictionary, NSString, NSURL, TMBackup, TMMachineStore;
+@class TMMachineStore;
 
 @interface TMBackupStorage : TMMonoStructure
 {
@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
@@ -40,22 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *backupDateHistory;
-@property(readonly) NSDictionary *backupHistoryDictionary;
-@property(readonly) TMBackup *baselineBackupCandidate;
-@property(retain) TMMachineStore *currentMachineStore; // @synthesize currentMachineStore=_currentMachineStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSURL *inheritanceHistoryURL;
-@property(readonly) NSURL *liveVolumeMountPoint;
 @property(readonly) Class machineStoreClass;
-@property(readonly) NSURL *machineStoreURL;
-@property(readonly) NSArray *sortedCompleteBackups;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CNVCardLineSerialization
+- (unsigned long long)h;
 @end
 

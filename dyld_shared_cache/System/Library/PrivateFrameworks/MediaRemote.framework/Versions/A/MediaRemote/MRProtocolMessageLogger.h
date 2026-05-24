@@ -7,7 +7,6 @@
 @interface MRProtocolMessageLogger
 {
     _Bool _shouldLog;
-    _Bool _shouldVerboselyLog;
 }
 
 + (id);
@@ -17,11 +16,10 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)omeUserIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)setHomeUserIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldLog; // @synthesize shouldLog=_shouldLog;
-@property(nonatomic) _Bool shouldVerboselyLog; // @synthesize shouldVerboselyLog=_shouldVerboselyLog;
 
 @end
 

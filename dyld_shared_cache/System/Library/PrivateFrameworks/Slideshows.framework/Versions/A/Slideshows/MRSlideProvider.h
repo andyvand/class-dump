@@ -4,53 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCAnimationPathKeyframed, MCSlide, MRAssetPlayer, MRAudioDucker, MRFrame, MRImage, MRLayer, MRLayerEffect, NSDictionary, NSInvocationOperation, NSLock, NSString;
-
 @interface MRSlideProvider
 {
     struct CGSize mDefaultSize;
-    float mStillTime;
-    NSString *mImageSizeScript;
-    NSDictionary *mEffectAttributes;
-    NSString *mShowTimeScript;
-    NSInvocationOperation *mPreloadOperation;
-    NSLock *mPreloadOperationLock;
-    MRFrame *mFrame;
-    MRImage *mOriginalImage;
-    MRImage *mOutputImage;
-    struct CGSize mRequestedSize;
-    MRLayerEffect *mEffectLayer;
-    int mKenBurnsType;
-    MRAssetPlayer *mSlidePlayer;
-    MRLayer *mSlideLayer;
-    unsigned long long mSlideIndex;
-    struct CGSize mImageSize;
-    struct CGSize mLastImageSize;
-    double mLastTime;
-    struct CGSize mLastDaSize;
-    struct CGSize mSizeFactor;
-    unsigned int mFlags;
-    double _centerAnimationPathTriggerTime;
-    double _scaleAnimationPathTriggerTime;
-    double _rotationAnimationPathTriggerTime;
-    double _timeToPreloadFor;
-    MRAudioDucker *_audioDucker;
-    int mDefaultKenBurnsType;
-    double _showTime;
-    double _showDuration;
-    MCSlide *_slide;
-    double mOriginalImageAspectRatio;
-    double _slideStartTime;
-    double _slideDuration;
-    NSString *_assetPath;
-    double _scale;
-    double _rotation;
-    MCAnimationPathKeyframed *_centerAnimationPath;
-    MCAnimationPathKeyframed *_scaleAnimationPath;
-    MCAnimationPathKeyframed *_rotationAnimationPath;
-    NSString *_filterID;
-    id _playerHint;
-    struct CGPoint _center;
 }
 
 - (_Bool);
@@ -65,6 +21,7 @@
 - (id);
 - (double);
 - (double);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -76,36 +33,35 @@
 - (void);
 - (void);
 - (void);
+- (void)eGraphics.framework/Versions/A/CoreGraphics;
 - (void);
+- (void)ramework/Versions/A/SilexWeb;
+- (void)ateFrameworks/Silex.framework/Versions/A/Silex;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)__TEXT;
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)@40@0:(double)arg1 8:(id)arg2 16@24@32;
+- (_Bool)AnalyticsPayloadUploader";
+- (void)fc_containsObjectPassingTest:(id)arg1;
+- (void)fc_GregorianCalendarDaysSinceDate:(double)arg1;
+- (_Bool)_lastUploadDatesByContentType;
+- (_Bool)_handleOutcomeOfUploadAttemptWithPayload:(double)arg1 success:error:willRetry:hitEndpoint: /* Error: Ran out of types for this method. */;
+- (id)NDAnalyticsUploadScheduler;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool);
 - (struct CGSize);
 - (_Bool);
 - (id);
-- (int);
+- (int)vents for group type %d;
 - (id);
-- (id);
-- (void);
+- (id)lopeTracker.m;
+- (void)ger handleLaunchEventForBackgroundSessionWithIdentifier:(double)arg1 completion:(struct CGSize)arg2 ];
 - (void);
 - (void);
 - (_Bool);
@@ -118,7 +74,7 @@
 - (id);
 - (double);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
 - (void);
 - (void);
@@ -126,13 +82,13 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)~;
 - (_Bool);
 - (double);
 - (void);
 - (struct CGPoint);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
 - (double);
@@ -146,52 +102,7 @@
 - (void)e of a |number| > 1 not allowed;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetPath; // @synthesize assetPath=_assetPath;
-@property(readonly) _Bool canPlay;
-@property(nonatomic) struct CGPoint center; // @synthesize center=_center;
-@property(retain, nonatomic) MCAnimationPathKeyframed *centerAnimationPath; // @synthesize centerAnimationPath=_centerAnimationPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property int defaultKenBurnsType; // @synthesize defaultKenBurnsType=mDefaultKenBurnsType;
 @property(nonatomic) struct CGSize defaultSize; // @synthesize defaultSize=mDefaultSize;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *effectAttributes; // @synthesize effectAttributes=mEffectAttributes;
-@property(copy, nonatomic) NSString *filterID; // @synthesize filterID=_filterID;
-@property(readonly) MRFrame *frame; // @synthesize frame=mFrame;
-@property(readonly) _Bool hasFilters;
-@property(readonly) unsigned long long hash;
-@property(readonly) double imageAspectRatio; // @synthesize imageAspectRatio=mOriginalImageAspectRatio;
-@property(copy, nonatomic) NSString *imageSizeScript; // @synthesize imageSizeScript=mImageSizeScript;
-@property(readonly, nonatomic) _Bool isAlphaFriendly;
-@property(readonly, nonatomic) _Bool isInfinite;
-@property(readonly) _Bool isLoaded;
-@property(nonatomic) _Bool isMuted;
-@property(readonly, nonatomic) _Bool isNative3D;
-@property(readonly, nonatomic) _Bool isOpaque;
-@property(nonatomic) _Bool isPlaying;
-@property(nonatomic) _Bool isStill;
-@property(nonatomic) _Bool needsToUpdateLayout;
-@property id playerHint; // @synthesize playerHint=_playerHint;
-@property(readonly) struct CGSize requestedSize; // @synthesize requestedSize=mRequestedSize;
-@property(nonatomic) double rotation; // @synthesize rotation=_rotation;
-@property(retain, nonatomic) MCAnimationPathKeyframed *rotationAnimationPath; // @synthesize rotationAnimationPath=_rotationAnimationPath;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(retain, nonatomic) MCAnimationPathKeyframed *scaleAnimationPath; // @synthesize scaleAnimationPath=_scaleAnimationPath;
-@property(nonatomic) double showDuration; // @synthesize showDuration=_showDuration;
-@property(nonatomic) double showTime; // @synthesize showTime=_showTime;
-@property(copy, nonatomic) NSString *showTimeScript; // @synthesize showTimeScript=mShowTimeScript;
-@property(nonatomic) struct CGSize sizeFactor; // @synthesize sizeFactor=mSizeFactor;
-@property(retain, nonatomic) MCSlide *slide; // @synthesize slide=_slide;
-@property(readonly) double slideDuration; // @synthesize slideDuration=_slideDuration;
-@property(nonatomic) _Bool slideIsReadonly;
-@property(readonly) double slideStartTime; // @synthesize slideStartTime=_slideStartTime;
-@property(nonatomic) float stillTime; // @synthesize stillTime=mStillTime;
-@property(readonly) Class superclass;
-@property(nonatomic) double time;
-@property(nonatomic) _Bool wantsMipmap;
-@property(nonatomic) _Bool wantsMonochromatic;
 
 @end
 

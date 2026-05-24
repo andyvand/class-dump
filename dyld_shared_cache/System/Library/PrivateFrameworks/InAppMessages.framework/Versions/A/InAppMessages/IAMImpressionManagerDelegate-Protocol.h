@@ -5,5 +5,6 @@
 //
 
 @protocol IAMImpressionManagerDelegate
+- (void);
 @end
 

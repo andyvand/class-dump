@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface IAMContent
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSString *_body;
-    NSArray *_images;
-    NSArray *_actions;
-    NSDictionary *_contentParameters;
-    NSString *_identifier;
 }
 
 - (id);
 - (id);
 - (id);
+- (id),V_didRemoteMute;
 - (id);
 - (id);
 - (id);
+- (id)getWhitespaceCharacterAtIndex:(struct _NSZone *)arg1 ofString: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)H;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, copy, nonatomic) NSString *body; // @synthesize body=_body;
-@property(readonly, nonatomic) NSDictionary *contentParameters; // @synthesize contentParameters=_contentParameters;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

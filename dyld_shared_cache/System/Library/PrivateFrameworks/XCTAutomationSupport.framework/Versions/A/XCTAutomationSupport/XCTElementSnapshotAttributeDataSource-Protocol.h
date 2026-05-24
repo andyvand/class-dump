@@ -5,12 +5,9 @@
 //
 
 @protocol XCTElementSnapshotAttributeDataSource
+- (_Bool);
 
 // Remaining properties
 @property(readonly) _Bool allowsRemoteAccess;
-@property(readonly) _Bool hasBannerNotificationIsStickyAttribute;
-@property(readonly) _Bool providesValuesForPrivilegedAttributes;
-@property(readonly) _Bool supportsHostedViewCoordinateTransformations;
-@property(readonly) _Bool usePointTransformationsForFrameConversions;
 @end
 

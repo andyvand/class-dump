@@ -8,9 +8,9 @@
 {
 }
 
++ (_Bool) ;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)P;
 + (id);
 + (id);
 + (id);

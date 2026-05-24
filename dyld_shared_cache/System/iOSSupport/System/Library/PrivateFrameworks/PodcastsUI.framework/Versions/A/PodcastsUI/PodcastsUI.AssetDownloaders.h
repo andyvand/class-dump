@@ -7,13 +7,10 @@
 @interface PodcastsUI.AssetDownloaders
 {
     id backgroundArtworkDownloader;
-    id backgroundArtworkSource;
-    id storeArtworkSource;
-    id libraryArtworkSource;
 }
 
 - (id);
-- (void);
+- (void)";
 
 @end
 

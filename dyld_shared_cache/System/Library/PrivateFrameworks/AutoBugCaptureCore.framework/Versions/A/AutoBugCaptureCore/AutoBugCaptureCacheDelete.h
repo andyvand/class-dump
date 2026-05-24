@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DiagnosticStorageManager, NSMutableArray, NSString;
+@class DiagnosticStorageManager, NSString;
 
 @interface AutoBugCaptureCacheDelete
 {
     NSString *logArchivePath;
-    NSMutableArray *purgedFilePaths;
-    DiagnosticStorageManager *_storageManager;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)NSError">24;
 - (void);
 - (id);
-- (void);
+- (void),R,C,N,V_glassOptions;
 - (id);
 - (void);
 

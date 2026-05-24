@@ -4,32 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCInterface, PKXPCForwarder;
-@protocol NSObject, PKForegroundActiveArbiter, PKInvalidatable, PKXPCServiceDelegate;
+@class NSString, NSXPCInterface;
 
 @interface PKXPCService
 {
     NSXPCInterface *_remoteObjectInterface;
-    NSXPCInterface *_exportedObjectInterface;
-    NSString *_className;
-    NSString *_serviceResumedNotificationName;
-    struct os_unfair_lock_s _lock;
-    NSXPCConnection *_connection;
-    PKXPCForwarder *_templateExportedProxy;
-    PKXPCForwarder *_currentExportedProxy;
-    _Bool _suspendCallbacks;
-    _Bool _forceConnectionOnResume;
-    id <PKForegroundActiveArbiter> _foregroundActiveArbiter;
-    id <NSObject> _foregroundListener;
-    id <NSObject> _backgroundListener;
-    id <PKInvalidatable> _serviceResumedListenerInvalidater;
-    id <PKXPCServiceDelegate> _delegate;
-    NSString *_machServiceName;
-    unsigned long long _options;
 }
 
 + (void);
-- (id);
+- (id)=;
 - (id);
 - (void);
 - (id);
@@ -37,35 +20,23 @@
 - (void);
 - (id);
 - (id);
+- (id)h6;
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
+- (unsigned long long);
+- (void));
+- (id)W;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)sAccountStatementsArray2;
-- (id)TypeForPaymentApplication:(CDUnknownBlockType)arg1;
-- (void)IPTION;
+- (id)savingsAccountStatementsArray2;
+- (id)refreshTypeForPaymentApplication:(CDUnknownBlockType)arg1;
+- (void)UNABLE_TO_SHARE_GENERIC_DESCRIPTION;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool connectionEstablished;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKXPCServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool forceConnectionOnResume;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *machServiceName; // @synthesize machServiceName=_machServiceName;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isSuspended) _Bool suspended;
 
 @end
 

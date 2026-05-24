@@ -18,7 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_detile is set true.
+;
 
 @end
 

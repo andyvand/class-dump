@@ -6,13 +6,11 @@
 
 #import <MediaPlayer/MPModelLibraryRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MPModelLibrarySearchRequest : MPModelLibraryRequest
 {
     NSArray *_scopes;
-    long long _maximumResultsPerScope;
-    NSString *_searchString;
 }
 
 + (_Bool);
@@ -25,14 +23,12 @@
 - (id);
 - (void);
 - (id)long, MPIdentifierSet *>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
-- (void)eRepeatModeCommand;
+- (void)_changeRepeatModeCommand;
 - (void)ation * _Nullable MPChangeDetailOperationGenerateEx(NSInteger, NSInteger, size_t * _Nonnull, BOOL * _Nonnull, __strong MPChangeDetailOperationIsEqualBlock _Nonnull);
 - (id)aterQueue;
 
 // Remaining properties
-@property(nonatomic) long long maximumResultsPerScope; // @synthesize maximumResultsPerScope=_maximumResultsPerScope;
 @property(copy, nonatomic) NSArray *scopes; // @synthesize scopes=_scopes;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end
 

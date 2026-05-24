@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double buildingRowContentHeight;
-@property(readonly, nonatomic) double buildingRowSpacing;
 @end
 

@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError;
-
 @interface FMLocationShifterItem
 {
     _Bool _shifted;
-    double _accuracy;
-    NSDate *_timestamp;
-    id _context;
-    NSError *_error;
-    struct CLLocationCoordinate2D _coordinate;
 }
 
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (id)_outTotalAPDUExecutionDuration;
+- (_Bool)_invokeDidStartCallback: /* Error: Ran out of types for this method. */;
+- (void)PLCarouselAgent_EventForward_DisplayReason;
+- (id)_inLibraryPerform_donateManagedObjects for library:%@ /* Error: Ran out of types for this method. */;
+- (void)with url %@;
 - (double);
 - (void);
 - (id);
@@ -28,16 +21,11 @@
 - (id);
 - (id);
 - (void);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)><;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double accuracy; // @synthesize accuracy=_accuracy;
-@property(readonly, nonatomic) id context; // @synthesize context=_context;
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool shifted; // @synthesize shifted=_shifted;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

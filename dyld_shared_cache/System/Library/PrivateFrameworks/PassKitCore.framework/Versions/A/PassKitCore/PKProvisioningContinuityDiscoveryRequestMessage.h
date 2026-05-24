@@ -6,12 +6,9 @@
 
 #import <PassKitCore/PKSharingGenericMessage.h>
 
-@class PKContinuityProximityAdvertisement;
-
 @interface PKProvisioningContinuityDiscoveryRequestMessage : PKSharingGenericMessage
 {
     unsigned long long _continuityType;
-    PKContinuityProximityAdvertisement *_advertisement;
 }
 
 + (_Bool);
@@ -21,10 +18,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)dUndefinedField;
+- (void)invalidUndefinedField;
 
 // Remaining properties
-@property(readonly, nonatomic) PKContinuityProximityAdvertisement *advertisement; // @synthesize advertisement=_advertisement;
 @property(readonly, nonatomic) unsigned long long continuityType; // @synthesize continuityType=_continuityType;
 
 @end

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu;
-@protocol CollectionViewPlusDelegate;
-
 __attribute__((visibility("hidden")))
 @interface CollectionViewPlus
 {
     _Bool _hasEnclosingScrollView;
-    NSMenu *_menu;
 }
 
 - (void);
@@ -30,7 +26,6 @@ __attribute__((visibility("hidden")))
 - (id)ÿ§}M;
 
 // Remaining properties
-@property __weak id <CollectionViewPlusDelegate> delegate; // @dynamic delegate;
 @property(nonatomic) _Bool hasEnclosingScrollView; // @synthesize hasEnclosingScrollView=_hasEnclosingScrollView;
 
 @end

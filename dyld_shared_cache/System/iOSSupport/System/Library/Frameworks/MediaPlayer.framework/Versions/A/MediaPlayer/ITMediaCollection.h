@@ -6,14 +6,10 @@
 
 #import <MediaPlayer/ITMediaEntity.h>
 
-@class ITMediaItem;
-
 __attribute__((visibility("hidden")))
 @interface ITMediaCollection : ITMediaEntity
 {
     struct unordered_set<unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<unsigned long long>> _persistentIDSet;
-    unsigned long long _representativeItemPersistentID;
-    ITMediaItem *_representativeItem;
 }
 
 - (_Bool);
@@ -28,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) ITMediaItem *representativeItem;
 
 @end
 

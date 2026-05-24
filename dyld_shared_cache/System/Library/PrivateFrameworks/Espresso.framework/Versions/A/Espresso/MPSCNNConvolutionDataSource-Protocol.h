@@ -4,15 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSCNNConvolutionDescriptor;
+@class MPSCNNConvolutionDescriptor, MPSCNNConvolutionGradientState, MPSCNNConvolutionWeightsAndBiasesState;
+@protocol MTLCommandBuffer;
 
 @protocol MPSCNNConvolutionDataSource
 - (void *)Î;
 - (MPSCNNConvolutionDescriptor *)operation yet.;
 - (void);
-- (_Bool)yer_ioINS1_30generic_linear_quantize_kernelEEENS_9allocatorIS5_EEEE;
+- (_Bool)NSt3__120__shared_ptr_emplaceIN8Espresso6SerDes8layer_ioINS1_30generic_linear_quantize_kernelEEENS_9allocatorIS5_EEEE;
 
 @optional
+- (unsigned int)setIsAffectingAvailability: /* Error: Ran out of types for this method. */;
+- (_Bool)setInternalSearchingForMoreTimesWhenAllAttendeesCanAttend:(MPSCNNConvolutionGradientState *)arg1;
+- (MPSCNNConvolutionWeightsAndBiasesState *)setInternalPurgingAllowed:(id <MTLCommandBuffer>)arg1;
+- (unsigned int)setCommentLastModifiedDate: /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned int)orm_large_separated_pool;
 @end
 

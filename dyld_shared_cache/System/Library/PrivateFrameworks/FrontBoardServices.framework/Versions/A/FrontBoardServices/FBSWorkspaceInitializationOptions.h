@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceQueue;
-@protocol FBSWorkspaceDelegate;
-
 @interface FBSWorkspaceInitializationOptions
 {
     _Bool _endpointMonitoringEnabled;
-    _Bool _defaultShellEndpointEnabled;
-    id <FBSWorkspaceDelegate> _delegate;
-    BSServiceQueue *_callOutQueue;
 }
 
 + (id);
@@ -26,12 +20,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)eIDs;
+- (id)_workQueue_managedApplicationBundleIDs;
 
 // Remaining properties
-@property(retain, nonatomic) BSServiceQueue *callOutQueue; // @synthesize callOutQueue=_callOutQueue;
-@property(nonatomic, getter=isDefaultShellEndpointEnabled) _Bool defaultShellEndpointEnabled; // @synthesize defaultShellEndpointEnabled=_defaultShellEndpointEnabled;
-@property(readonly, nonatomic) id <FBSWorkspaceDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic, getter=isEndpointMonitoringEnabled) _Bool endpointMonitoringEnabled; // @synthesize endpointMonitoringEnabled=_endpointMonitoringEnabled;
 
 @end

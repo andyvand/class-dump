@@ -5,5 +5,8 @@
 //
 
 @protocol MMWebViewButtonBarDelegate
+
+@optional
+- (void);
 @end
 

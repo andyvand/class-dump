@@ -6,31 +6,26 @@
 
 #import <Suggestions/SGTSuggester.h>
 
-@class NSArray, NSObject, NSSet;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface SGTDateSuggester : SGTSuggester
 {
     NSArray *attributeNames;
-    NSSet *attributeNamesAsSet;
-    _Bool future;
-    NSObject<OS_dispatch_queue> *queryQueue;
-    long long queryID;
 }
 
 + (id);
-- (void);
+- (void);
 - (id);
+- (id)`#;
 - (id);
-- (id);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)k`;
+- (void)B;
 - (id);
-- (void);
+- (void)_pointSizeFromAppearanceTokens: /* Error: Ran out of types for this method. */;
 
 @end
 

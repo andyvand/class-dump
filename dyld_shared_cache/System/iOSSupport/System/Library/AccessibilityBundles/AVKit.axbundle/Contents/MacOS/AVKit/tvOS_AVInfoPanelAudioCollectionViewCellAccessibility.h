@@ -15,7 +15,7 @@
 + (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)AdAnalyticsError;
 - (unsigned long long);
 - (id);
 

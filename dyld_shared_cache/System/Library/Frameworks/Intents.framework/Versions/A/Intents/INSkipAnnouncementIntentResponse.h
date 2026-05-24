@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSkipAnnouncementIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)requestPreparationQueue;
++ (long long)ql_realpathURL;
++ (_Bool)permanentStorageForItemAtURL:(long long)arg1 allocateIfNone:error: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)';
 - (long long);
 - (id);
+- (id)setModeVibrationWithStartPosition:(id)arg1 amplitude:frequency: /* Error: Ran out of types for this method. */;
+- (id)@;
+- (void)corewifi] AUTO-JOIN:(id)arg1 Auto-join manager is invalidated, unable to cancel auto-join request with UUID=%{public}@;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)rkData;
+- (long long)hasBookmarkData;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

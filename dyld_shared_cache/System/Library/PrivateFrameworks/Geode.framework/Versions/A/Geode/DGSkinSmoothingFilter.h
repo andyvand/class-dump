@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGSkinSmoothingFilter
 {
     CIImage *inputImage;
-    NSNumber *inputRadius;
-    NSNumber *inputEdgeDetail;
-    NSNumber *inputIntensity;
-    NSNumber *inputVersion;
 }
 
 + (id);
-+ (void)nderPipelineGeometry;
++ (void)PARenderPipelineGeometry;
 - (id);
 - (id);
 

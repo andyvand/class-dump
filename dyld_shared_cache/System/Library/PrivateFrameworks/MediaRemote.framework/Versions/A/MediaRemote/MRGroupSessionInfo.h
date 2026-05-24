@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRGroupSessionHostInfo, NSString, _MRGroupSessionInfoProtobuf;
+@class _MRGroupSessionInfoProtobuf;
 
 @interface MRGroupSessionInfo
 {
     _Bool _isHosted;
-    _Bool _placeholder;
-    NSString *_identifier;
-    NSString *_equivalentMediaIdentifier;
-    MRGroupSessionHostInfo *_hostInfo;
 }
 
 + (_Bool);
+- (id)/7;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)contactVenuePhoneNumber;
 - (id);
 - (id);
 - (unsigned long long);
@@ -29,18 +25,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)assistantConnection:setUserActivtiyInfoAndMakeCurrent:webpageURL: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool)ve;
-- (void)ailable;
+- (_Bool)hasEnhanceDialogueActive;
+- (void)lyricsAvailable;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *effectiveIdentifier;
-@property(readonly, nonatomic) NSString *equivalentMediaIdentifier; // @synthesize equivalentMediaIdentifier=_equivalentMediaIdentifier;
-@property(readonly, nonatomic) MRGroupSessionHostInfo *hostInfo; // @synthesize hostInfo=_hostInfo;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isHosted; // @synthesize isHosted=_isHosted;
-@property(readonly, nonatomic, getter=isPlaceholder) _Bool placeholder; // @synthesize placeholder=_placeholder;
 @property(readonly, nonatomic) _MRGroupSessionInfoProtobuf *protobuf;
 
 @end

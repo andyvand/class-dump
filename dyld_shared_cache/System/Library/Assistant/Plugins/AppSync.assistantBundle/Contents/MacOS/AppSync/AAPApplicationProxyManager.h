@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AAPApplicationProxyManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSDictionary *_map;
 }
 
 + (id);
@@ -20,12 +19,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)CE{;
+- (id)D|;
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
 

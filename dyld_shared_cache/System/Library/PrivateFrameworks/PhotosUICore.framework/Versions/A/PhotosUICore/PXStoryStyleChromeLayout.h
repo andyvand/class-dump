@@ -4,37 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSIndexSet, NSString, PXStoryViewModel;
-@protocol PXStoryColorGradingRepository, PXStoryStyleDescriptor, PXStoryViewLayoutSpec;
-
 @interface PXStoryStyleChromeLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    unsigned int _songArtworkSpriteIndex;
-    unsigned int _songTitleSpriteIndex;
-    unsigned int _songTitleAccessorySpriteIndex;
-    unsigned int _songSubtitleSpriteIndex;
-    unsigned int _colorGradeNameSpriteIndex;
-    unsigned int _filterButtonSpriteIndex;
-    unsigned int _musicButtonSpriteIndex;
-    unsigned int _customLabelSpriteIndex;
-    unsigned int _spriteCount;
-    NSIndexSet *_axSpriteIndexes;
-    unsigned short _mediaVersion;
-    NSAttributedString *_titleAttributedString;
-    NSAttributedString *_titleAccessoryAttributedString;
-    NSAttributedString *_subtitleAttributedString;
-    NSAttributedString *_colorGradeNameAttributedString;
-    id _musicFeedbackContextMenuDelegate;
-    PXStoryViewModel *_viewModel;
-    id <PXStoryStyleDescriptor> _styleInfo;
-    id <PXStoryViewLayoutSpec> _viewLayoutSpec;
-    id <PXStoryColorGradingRepository> _colorGradingRepository;
 }
 
 + (void);
 + (void);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (Class);
@@ -49,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned short);
@@ -60,9 +37,9 @@
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -81,23 +58,7 @@
 - (id)X: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *colorGradeNameAttributedString; // @synthesize colorGradeNameAttributedString=_colorGradeNameAttributedString;
-@property(retain, nonatomic) id <PXStoryColorGradingRepository> colorGradingRepository; // @synthesize colorGradingRepository=_colorGradingRepository;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned short mediaVersion; // @synthesize mediaVersion=_mediaVersion;
-@property(readonly, nonatomic) id musicFeedbackContextMenuDelegate; // @synthesize musicFeedbackContextMenuDelegate=_musicFeedbackContextMenuDelegate;
-@property(retain, nonatomic) id <PXStoryStyleDescriptor> styleInfo; // @synthesize styleInfo=_styleInfo;
-@property(readonly, nonatomic) NSAttributedString *subtitleAttributedString; // @synthesize subtitleAttributedString=_subtitleAttributedString;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSAttributedString *titleAccessoryAttributedString; // @synthesize titleAccessoryAttributedString=_titleAccessoryAttributedString;
-@property(readonly, nonatomic) NSAttributedString *titleAttributedString; // @synthesize titleAttributedString=_titleAttributedString;
-@property(retain, nonatomic) id <PXStoryViewLayoutSpec> viewLayoutSpec; // @synthesize viewLayoutSpec=_viewLayoutSpec;
-@property(readonly, nonatomic) PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

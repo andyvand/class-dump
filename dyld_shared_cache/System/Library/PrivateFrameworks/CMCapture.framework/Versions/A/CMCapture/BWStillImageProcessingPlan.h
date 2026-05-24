@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWStillImageSettings, NSMutableDictionary;
+@class BWStillImageSettings;
 
 __attribute__((visibility("hidden")))
 @interface BWStillImageProcessingPlan
 {
     BWStillImageSettings *_settings;
-    NSMutableDictionary *_inputsByBufferTypeByPortTypeBySequenceNumber;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)CHPChangeDirection;
 - (id);
 - (id);
 

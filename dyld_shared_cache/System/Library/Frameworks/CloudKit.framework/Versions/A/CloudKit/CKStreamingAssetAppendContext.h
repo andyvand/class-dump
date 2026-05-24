@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKStreamingAsset, NSObject, NSString, NSURLSessionDataTask;
-@protocol OS_dispatch_queue, OS_os_activity;
+@class CKStreamingAsset;
 
 @interface CKStreamingAssetAppendContext
 {
     _Bool _appending;
-    _Bool _currentAppendCancelled;
-    _Bool _fakeMissingUploadReceipt;
-    CKStreamingAsset *_streamingAsset;
-    NSObject<OS_dispatch_queue> *_appendQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    unsigned long long _currentSegmentLength;
-    NSURLSessionDataTask *_dataTask;
-    NSString *_requestUUID;
-    NSObject<OS_os_activity> *_osActivity;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,7 +21,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -42,7 +31,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)0;
 - (void);
 - (void);
 - (void);
@@ -51,36 +40,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)E:(id)arg1 Unable to retrieve base path for current persona :(id)arg2 %@%@;
 - (id);
 - (void);
 - (id):8@"NSString"16@"NSString"24@"NSArray"32@"NSArray"40@"NSNumber"48@?<v@?@"NSDictionary"^B>56 /* Error: Ran out of types for this method. */;
 - (id)"24@"NSError"32;
-- (void)s:(id)arg1;
-- (void)oadStagingManager;
+- (void)setRevokedRecordIDs:(id)arg1;
+- (void)CKAssetDownloadStagingManager;
 - (void)nge-type;
 - (void);
 - (void)NA;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *appendQueue; // @synthesize appendQueue=_appendQueue;
-@property(nonatomic, getter=isAppending) _Bool appending; // @synthesize appending=_appending;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic, getter=isCurrentAppendCancelled) _Bool currentAppendCancelled; // @synthesize currentAppendCancelled=_currentAppendCancelled;
-@property(nonatomic) unsigned long long currentSegmentLength; // @synthesize currentSegmentLength=_currentSegmentLength;
-@property(retain, nonatomic) NSURLSessionDataTask *dataTask; // @synthesize dataTask=_dataTask;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool fakeMissingUploadReceipt; // @synthesize fakeMissingUploadReceipt=_fakeMissingUploadReceipt;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_os_activity> *osActivity; // @synthesize osActivity=_osActivity;
-@property(retain, nonatomic) NSString *requestUUID; // @synthesize requestUUID=_requestUUID;
 @property(readonly, nonatomic) CKStreamingAsset *streamingAsset; // @synthesize streamingAsset=_streamingAsset;
-@property(readonly) Class superclass;
 
 @end
 

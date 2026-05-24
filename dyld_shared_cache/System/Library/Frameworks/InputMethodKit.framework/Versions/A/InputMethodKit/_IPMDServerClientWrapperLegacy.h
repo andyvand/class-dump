@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSMutableDictionary, NSString, NSXPCConnection;
 @protocol NSObject><IMKTextInput><IMKUnicodeTextInput><IMTSMSupport;
 
 @interface _IPMDServerClientWrapperLegacy
 {
     id <NSObject><IMKTextInput><IMKUnicodeTextInput><IMTSMSupport> _clientDOProxy;
-    NSXPCConnection *_xpcConnection;
-    _Bool _usesXPC;
-    _Bool _inserting;
-    unsigned long long _markedCharacterCount;
-    long long _documentIDCache;
-    struct CGRect _touchBarAvailableFrameCache;
-    NSString *_markedTextCache;
-    _Bool _currentAttributesCacheValid;
-    _Bool _currentIndexZeroAttributeCacheValid;
-    long long _keyboardType;
-    NSMutableDictionary *_validEvents;
-    double _replyTimeout;
-    _Bool _isForcedSilentCommitComposition;
-    int _windowLevel_Cache;
-    NSString *_bundleIdentifier_Cache;
-    NSAppearance *_viewEffectiveAppearance_Cache;
-    NSMutableDictionary *_attributes_Cache;
 }
 
 + (void);
@@ -46,9 +28,9 @@
 - (void);
 - (void);
 - (void);
+- (void))E9;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (unsigned long long);
@@ -57,7 +39,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (_Bool);
@@ -65,12 +47,12 @@
 - (id);
 - (id);
 - (id);
+- (void)=;
+- (_Bool);
+- (id);
+- (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void)=;
 - (_Bool);
 - (long long);
 - (void);
@@ -87,7 +69,7 @@
 - (void);
 - (int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -131,12 +113,12 @@
 - (unsigned long long);
 - (void);
 - (double);
-- (id);
+- (id)function:%@ with error:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (long long);
-- (void);
-- (id);
+- (id)!;
+- (long long)5;
+- (void)setFrameRateInternal:(id)arg1 forceSourceFrameRateDidChange: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (int);
 - (struct _NSRange);
@@ -146,17 +128,10 @@
 × ;
 - (void)Ôì!ÜAù1>ð1Â0@ù
 × ;
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)setLastAutoCapCharacter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *attributes_Cache; // @synthesize attributes_Cache=_attributes_Cache;
-@property(copy, nonatomic) NSString *bundleIdentifier_Cache; // @synthesize bundleIdentifier_Cache=_bundleIdentifier_Cache;
-@property(nonatomic) _Bool currentAttributesCacheValid; // @synthesize currentAttributesCacheValid=_currentAttributesCacheValid;
-@property(nonatomic) _Bool currentIndexZeroAttributeCacheValid; // @synthesize currentIndexZeroAttributeCacheValid=_currentIndexZeroAttributeCacheValid;
 @property(nonatomic) long long documentIDCache; // @synthesize documentIDCache=_documentIDCache;
-@property(nonatomic) struct CGRect touchBarAvailableFrameCache; // @synthesize touchBarAvailableFrameCache=_touchBarAvailableFrameCache;
-@property(retain, nonatomic) NSAppearance *viewEffectiveAppearance_Cache; // @synthesize viewEffectiveAppearance_Cache=_viewEffectiveAppearance_Cache;
-@property(nonatomic) int windowLevel_Cache; // @synthesize windowLevel_Cache=_windowLevel_Cache;
 
 @end
 

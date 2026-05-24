@@ -4,74 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, UIColor, UIImageView, UITextView;
-@protocol CKDetailsDownloadAttachmentsHeaderFooterViewDelegate;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsDownloadAttachmentsHeaderFooterView
 {
     _Bool _logoHidden;
-    NSString *_titleText;
-    NSString *_buttonText;
-    id <CKDetailsDownloadAttachmentsHeaderFooterViewDelegate> _delegate;
-    UIColor *_downloadButtonTextColor;
-    UIColor *_titleTextColor;
-    UIImageView *_iCloudImageView;
-    UITextView *_titleTextView;
-    UITextView *_buttonTextView;
-    NSLayoutConstraint *_titleTextTopToLogoConstraint;
-    NSLayoutConstraint *_titleTextTopToViewConstraint;
 }
 
 + (id);
+- (id)_oldPasswordIncorrectTextViewHeightConstraint;
+- (id)_oldPasswordIncorrectTextView;
+- (void);
+- (void)ableAttachmentSelection",R,N,V_tableSelection;
+- (void);
+- (void);
+- (void);
+- (_Bool)t;
+- (void)l;
+- (id)neAttachment:atTextRange:with an out of bound range:%@. Adding token attachment to the end of text storage instead, %lu. /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id)@;
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void)eteChatItems:(id)arg1;
-- (id)eadAtFileURL:isResolved: /* Error: Ran out of types for this method. */;
+- (void)transcriptCollectionViewController:(id)arg1 willDeleteChatItems: /* Error: Ran out of types for this method. */;
+- (id)_hostSandboxAllowsFileReadAtFileURL:isResolved: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *buttonText; // @synthesize buttonText=_buttonText;
-@property(retain, nonatomic) UITextView *buttonTextView; // @synthesize buttonTextView=_buttonTextView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKDetailsDownloadAttachmentsHeaderFooterViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIColor *downloadButtonTextColor; // @synthesize downloadButtonTextColor=_downloadButtonTextColor;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIImageView *iCloudImageView; // @synthesize iCloudImageView=_iCloudImageView;
-@property(nonatomic) _Bool logoHidden; // @synthesize logoHidden=_logoHidden;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
-@property(retain, nonatomic) UIColor *titleTextColor; // @synthesize titleTextColor=_titleTextColor;
-@property(retain, nonatomic) NSLayoutConstraint *titleTextTopToLogoConstraint; // @synthesize titleTextTopToLogoConstraint=_titleTextTopToLogoConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *titleTextTopToViewConstraint; // @synthesize titleTextTopToViewConstraint=_titleTextTopToViewConstraint;
-@property(retain, nonatomic) UITextView *titleTextView; // @synthesize titleTextView=_titleTextView;
 
 @end
 

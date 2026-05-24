@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)aPresentInV2FabricDataStore:(id)arg1 error:(id)arg2;
-+ (_Bool)ded;
++ (_Bool)storedFabricDataWithDataPresentInV2FabricDataStore:(id)arg1 error:(id)arg2;
++ (_Bool)isActiveNetworkRouterInitialSetupNeeded;
 
 @end
 

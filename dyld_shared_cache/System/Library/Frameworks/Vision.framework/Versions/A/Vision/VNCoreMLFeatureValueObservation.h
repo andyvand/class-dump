@@ -6,26 +6,24 @@
 
 #import <Vision/VNObservation.h>
 
-@class MLFeatureValue, NSString;
+@class MLFeatureValue;
 
 @interface VNCoreMLFeatureValueObservation : VNObservation
 {
     MLFeatureValue *_featureValue;
-    NSString *_featureName;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)_predicate;
 - (id);
-- (id);
-- (id);
+- (id)_arePropertiesOfContacts:inSaveRequest:authorizedForSavingWithContext:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *featureName; // @synthesize featureName=_featureName;
 @property(readonly, copy, nonatomic) MLFeatureValue *featureValue; // @synthesize featureValue=_featureValue;
 
 @end

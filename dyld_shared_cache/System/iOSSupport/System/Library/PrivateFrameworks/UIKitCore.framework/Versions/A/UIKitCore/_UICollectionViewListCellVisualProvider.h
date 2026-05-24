@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionViewListCell, UIView;
+@class UICollectionViewListCell;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewListCellVisualProvider
@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
     UICollectionViewListCell *_cell;
 }
 
-- (id);
+- (id)_cachedServiceDefaults;
 - (long long);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void)itle:(id)arg1 forState: /* Error: Ran out of types for this method. */;
+- (void)setAttributedTitle:(id)arg1 forState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *accessoryManagerContainerView;
-@property(readonly, nonatomic) _Bool canFocusProgrammatically;
 @property(readonly, nonatomic) long long defaultFocusStyle;
 
 @end

@@ -9,9 +9,6 @@
 @interface IMDPersistenceServiceListener
 {
     id listener;
-    id anonymousListener;
-    id queue;
-    id state;
 }
 
 - (void);

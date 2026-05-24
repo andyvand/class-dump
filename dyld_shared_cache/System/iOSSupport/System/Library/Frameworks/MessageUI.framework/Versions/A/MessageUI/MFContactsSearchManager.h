@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteStore, NSArray, NSMutableArray, NSMutableDictionary, NSOperationQueue, NSString;
+@class NSArray, NSMutableDictionary;
 
 @interface MFContactsSearchManager
 {
     NSMutableDictionary *_taskContextsByTaskID;
-    CNAutocompleteStore *_autocompleteStore;
-    NSOperationQueue *_queue;
-    unsigned int _genNumber;
-    unsigned long long _searchTypes;
-    NSArray *_explicitSearchAccountIDs;
-    NSArray *_searchAccounts;
-    int _contactSearchAccountChangedToken;
-    _Bool _registeredForAddressBookChanges;
-    NSMutableArray *_corecipientSearchTaskIDs;
-    NSString *_sendingAddress;
-    _Bool _includeUpcomingEventMembers;
-    _Bool _simulatedResultsEnabled;
-    NSString *_recentsBundleIdentifier;
-    unsigned long long _implicitGroupCreationThreshold;
-    unsigned long long _autocompleteSearchType;
-    NSString *_sendingAccountIdentifier;
 }
 
 - (void);
@@ -57,20 +41,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ons;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long autocompleteSearchType; // @synthesize autocompleteSearchType=_autocompleteSearchType;
-@property(nonatomic) unsigned long long implicitGroupCreationThreshold; // @synthesize implicitGroupCreationThreshold=_implicitGroupCreationThreshold;
-@property(nonatomic) _Bool includeUpcomingEventMembers; // @synthesize includeUpcomingEventMembers=_includeUpcomingEventMembers;
-@property(copy, nonatomic) NSString *recentsBundleIdentifier; // @synthesize recentsBundleIdentifier=_recentsBundleIdentifier;
-@property(retain) NSArray *searchAccountIDs; // @synthesize searchAccountIDs=_explicitSearchAccountIDs;
 @property(readonly, nonatomic) NSArray *searchAccounts; // @synthesize searchAccounts=_searchAccounts;
-@property(copy, nonatomic) NSString *sendingAccountIdentifier; // @synthesize sendingAccountIdentifier=_sendingAccountIdentifier;
-@property(copy, nonatomic) NSString *sendingAddress; // @synthesize sendingAddress=_sendingAddress;
-@property(nonatomic, getter=isSimulatedResultsEnabled) _Bool simulatedResultsEnabled; // @synthesize simulatedResultsEnabled=_simulatedResultsEnabled;
 
 @end
 

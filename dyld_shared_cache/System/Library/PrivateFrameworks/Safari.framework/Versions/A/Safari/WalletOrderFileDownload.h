@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 @protocol WalletOrderFileDownloadDelegate;
 
 __attribute__((visibility("hidden")))
 @interface WalletOrderFileDownload
 {
     NSURL *_temporaryDirectoryURL;
-    NSURL *_tempFileURL;
-    _Bool _wasCanceled;
-    id <WalletOrderFileDownloadDelegate> _delegate;
-    NSString *_mimeType;
 }
 
 - (void);
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)bn;
 - (void);
 - (void);
 - (id);
@@ -34,7 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <WalletOrderFileDownloadDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy, nonatomic) NSString *mimeType; // @synthesize mimeType=_mimeType;
 
 @end
 

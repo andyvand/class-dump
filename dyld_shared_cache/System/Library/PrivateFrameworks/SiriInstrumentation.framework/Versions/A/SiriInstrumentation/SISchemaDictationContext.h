@@ -6,26 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SISchemaLocaleIdentifier, SISchemaUUID;
+@class NSString;
 
 @interface SISchemaDictationContext : SISchemaInstrumentationMessage
 {
     NSString *_keyboardLanguage;
-    SISchemaLocaleIdentifier *_keyboardLocale;
-    SISchemaLocaleIdentifier *_dictationLocale;
-    SISchemaLocaleIdentifier *_userSelectedLocale;
-    SISchemaLocaleIdentifier *_siriSelectedLocale;
-    NSArray *_keyboardLocalesEnableds;
-    NSArray *_dictationLocalesEnableds;
-    NSString *_bundleId;
-    SISchemaUUID *_textInputSessionId;
-    _Bool _hasKeyboardLanguage;
-    _Bool _hasKeyboardLocale;
-    _Bool _hasDictationLocale;
-    _Bool _hasUserSelectedLocale;
-    _Bool _hasSiriSelectedLocale;
-    _Bool _hasBundleId;
-    _Bool _hasTextInputSessionId;
 }
 
 - (id);
@@ -49,13 +34,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (void)8;
 - (void);
 - (void);
 - (void);
@@ -67,47 +53,30 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)*;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
+- (unsigned long long)asd_decodeJSONDictionaryForKey: /* Error: Ran out of types for this method. */;
+- (_Bool)arentUidsProperty;
+- (id)Ɲ;
+- (_Bool)tion_id = ?   AND is_madrid = 0 ;
 - (void);
 - (id);
 - (id);
 - (id)1Â0@ù
 × ;
 - (void)INFERENCESchemaINFERENCEClientEventMetadata";
-- (id)dDimensions;
-- (_Bool)ightDays;
+- (id)deleteAttentionInvocationFixedDimensions;
+- (_Bool)_numSelectedAppDisambiguationsLastTwentyEightDays;
 - (id)_cmInitialStartupItemCreationToLtluDurationInMs;
 - (void)mitigationAssetVersion;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) SISchemaLocaleIdentifier *dictationLocale; // @synthesize dictationLocale=_dictationLocale;
-@property(copy, nonatomic) NSArray *dictationLocalesEnableds; // @synthesize dictationLocalesEnableds=_dictationLocalesEnableds;
-@property(nonatomic) _Bool hasBundleId; // @synthesize hasBundleId=_hasBundleId;
-@property(nonatomic) _Bool hasDictationLocale; // @synthesize hasDictationLocale=_hasDictationLocale;
-@property(nonatomic) _Bool hasKeyboardLanguage; // @synthesize hasKeyboardLanguage=_hasKeyboardLanguage;
-@property(nonatomic) _Bool hasKeyboardLocale; // @synthesize hasKeyboardLocale=_hasKeyboardLocale;
-@property(nonatomic) _Bool hasSiriSelectedLocale; // @synthesize hasSiriSelectedLocale=_hasSiriSelectedLocale;
-@property(nonatomic) _Bool hasTextInputSessionId; // @synthesize hasTextInputSessionId=_hasTextInputSessionId;
-@property(nonatomic) _Bool hasUserSelectedLocale; // @synthesize hasUserSelectedLocale=_hasUserSelectedLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *keyboardLanguage; // @synthesize keyboardLanguage=_keyboardLanguage;
-@property(retain, nonatomic) SISchemaLocaleIdentifier *keyboardLocale; // @synthesize keyboardLocale=_keyboardLocale;
-@property(copy, nonatomic) NSArray *keyboardLocalesEnableds; // @synthesize keyboardLocalesEnableds=_keyboardLocalesEnableds;
-@property(retain, nonatomic) SISchemaLocaleIdentifier *siriSelectedLocale; // @synthesize siriSelectedLocale=_siriSelectedLocale;
-@property(retain, nonatomic) SISchemaUUID *textInputSessionId; // @synthesize textInputSessionId=_textInputSessionId;
-@property(retain, nonatomic) SISchemaLocaleIdentifier *userSelectedLocale; // @synthesize userSelectedLocale=_userSelectedLocale;
 
 @end
 

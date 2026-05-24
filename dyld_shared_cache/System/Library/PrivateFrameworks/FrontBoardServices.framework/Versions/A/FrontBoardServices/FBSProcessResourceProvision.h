@@ -6,28 +6,18 @@
 
 #import <FrontBoardServices/FBSProcessExecutionProvision.h>
 
-@class BSAbsoluteMachTimer, NSObject, RBSProcessHandle;
-@protocol OS_dispatch_queue;
-
 @interface FBSProcessResourceProvision : FBSProcessExecutionProvision
 {
     CDStruct_4e83c7bf _allowance;
-    unsigned long long _baselineValue;
-    unsigned long long _consumedValue;
-    NSObject<OS_dispatch_queue> *_queue;
-    BSAbsoluteMachTimer *_timer;
-    RBSProcessHandle *_processHandle;
-    double _timerFireInterval;
-    unsigned long long _timerFireCount;
 }
 
 + (id);
-+ (id);
++ (id)_performAsync:(long long)arg1 withHandoff:(double)arg2;
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (CDStruct_4e83c7bf);
 - (void);
@@ -37,14 +27,13 @@
 - (long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)chunkWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_4e83c7bf allowance; // @synthesize allowance=_allowance;
 @property(nonatomic) long long type; // @dynamic type;
 
 @end

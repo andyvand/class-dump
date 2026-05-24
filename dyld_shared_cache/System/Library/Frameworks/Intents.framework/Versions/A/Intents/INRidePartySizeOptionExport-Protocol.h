@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPriceRange, NSString;
-
 @protocol INRidePartySizeOptionExport
 
 // Remaining properties
 @property struct _NSRange partySizeRange;
-@property(copy) INPriceRange *priceRange;
-@property(copy) NSString *sizeDescription;
 @end
 

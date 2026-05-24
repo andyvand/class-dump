@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
+@class NSString;
 
 @interface RTEventLocationIdentifierMO
 {
 }
 
-+ (id);
++ (id)clearMetadata;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *calendarIdentifier; // @dynamic calendarIdentifier;
-@property(retain, nonatomic) NSSet *loiHistogramItems; // @dynamic loiHistogramItems;
 @property(retain, nonatomic) NSString *name; // @dynamic name;
-@property(retain, nonatomic) NSNumber *source; // @dynamic source;
 
 @end
 

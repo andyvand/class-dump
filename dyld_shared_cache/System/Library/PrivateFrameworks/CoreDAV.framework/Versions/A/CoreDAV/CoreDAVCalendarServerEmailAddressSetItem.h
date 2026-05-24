@@ -6,27 +6,25 @@
 
 #import <CoreDAV/CoreDAVItem.h>
 
-@class CoreDAVItemWithNoChildren, NSMutableArray;
+@class NSMutableArray;
 
 @interface CoreDAVCalendarServerEmailAddressSetItem : CoreDAVItem
 {
     NSMutableArray *_emailAddresses;
-    CoreDAVItemWithNoChildren *_unauthenticated;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
+- (id)_scrollViewFrameDidChange: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (void)j;
 - (void);
-- (void);
-- (void);
+- (void)false;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(retain, nonatomic) CoreDAVItemWithNoChildren *unauthenticated; // @synthesize unauthenticated=_unauthenticated;
 
 @end
 

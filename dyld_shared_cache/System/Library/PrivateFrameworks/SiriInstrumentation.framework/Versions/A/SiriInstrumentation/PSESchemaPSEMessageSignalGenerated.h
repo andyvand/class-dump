@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PSESchemaPSECommonSignal, PSESchemaPSEMessage;
+@class PSESchemaPSECommonSignal;
 
 @interface PSESchemaPSEMessageSignalGenerated : SISchemaInstrumentationMessage
 {
     PSESchemaPSECommonSignal *_commonSignal;
-    PSESchemaPSEMessage *_messageSignal;
-    _Bool _hasCommonSignal;
-    _Bool _hasMessageSignal;
 }
 
 - (void);
@@ -28,22 +25,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)bs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:116 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)cy split chats;
 - (id);
 - (id);
-- (id)ashChangeInSeconds;
+- (id)_timeSinceLastSubscriptionHashChangeInSeconds;
 - (id),V_kgCount;
-- (void)ERSONAL_DOMAINS_SETTING;
+- (void)FLOWSTATUSREASON_UNSUPPORTED_PERSONAL_DOMAINS_SETTING;
 
 // Remaining properties
 @property(retain, nonatomic) PSESchemaPSECommonSignal *commonSignal; // @synthesize commonSignal=_commonSignal;
-@property(nonatomic) _Bool hasCommonSignal; // @synthesize hasCommonSignal=_hasCommonSignal;
-@property(nonatomic) _Bool hasMessageSignal; // @synthesize hasMessageSignal=_hasMessageSignal;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PSESchemaPSEMessage *messageSignal; // @synthesize messageSignal=_messageSignal;
 
 @end
 

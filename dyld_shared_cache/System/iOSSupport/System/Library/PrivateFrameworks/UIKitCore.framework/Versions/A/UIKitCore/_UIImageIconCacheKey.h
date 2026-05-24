@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     long long _userInterfaceStyle;
 }
 
-+ (id);
++ (id)>;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)ngOutsideAction:(id)arg1;
+- (_Bool)trackingOutsideAction:(id)arg1;
 - (id)_isTitleSectionHidden;
 - (void)ÉÜC[;
 - (long long)$CæþÍ&;

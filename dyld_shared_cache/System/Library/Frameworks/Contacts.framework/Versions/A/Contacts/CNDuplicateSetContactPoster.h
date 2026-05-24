@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNDuplicateSet, NSData;
+@class NSData;
 
 @interface CNDuplicateSetContactPoster
 {
 }
 
-- (id);
+- (id)kSmsIsPhoneNumberRegistrationSupported;
 
 // Remaining properties
-@property(nonatomic, retain) CNDuplicateSet *duplicateSet; // @dynamic duplicateSet;
 @property(nonatomic, copy) NSData *posterData; // @dynamic posterData;
 
 @end

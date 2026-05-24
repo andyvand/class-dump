@@ -6,19 +6,11 @@
 
 #import <RemoteConfiguration/RCOperation.h>
 
-@class NSDictionary, NSObject, NSURL, RCConfigurationSettings, RCNetworkActivity;
-@protocol OS_dispatch_queue;
+@class NSDictionary, RCConfigurationSettings;
 
 @interface RCEndpointOperation : RCOperation
 {
     RCConfigurationSettings *_configurationSettings;
-    NSDictionary *_changeTagsByRequestKey;
-    NSURL *_endpointURL;
-    CDUnknownBlockType _configurationCompletionHandler;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    CDUnknownBlockType _networkEventHandler;
-    RCNetworkActivity *_networkActivity;
-    NSDictionary *_configurationResourcesByRequestKey;
 }
 
 - (void);
@@ -32,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)e;
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
@@ -48,14 +40,7 @@
 - (_Bool)T@"NSString",R,C,N,V_lastModifiedString;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *changeTagsByRequestKey; // @synthesize changeTagsByRequestKey=_changeTagsByRequestKey;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(copy, nonatomic) CDUnknownBlockType configurationCompletionHandler; // @synthesize configurationCompletionHandler=_configurationCompletionHandler;
 @property(retain, nonatomic) NSDictionary *configurationResourcesByRequestKey; // @synthesize configurationResourcesByRequestKey=_configurationResourcesByRequestKey;
-@property(retain, nonatomic) RCConfigurationSettings *configurationSettings; // @synthesize configurationSettings=_configurationSettings;
-@property(retain, nonatomic) NSURL *endpointURL; // @synthesize endpointURL=_endpointURL;
-@property(retain, nonatomic) RCNetworkActivity *networkActivity; // @synthesize networkActivity=_networkActivity;
-@property(copy, nonatomic) CDUnknownBlockType networkEventHandler; // @synthesize networkEventHandler=_networkEventHandler;
 
 @end
 

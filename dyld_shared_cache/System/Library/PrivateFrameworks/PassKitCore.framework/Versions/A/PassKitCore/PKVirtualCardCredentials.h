@@ -9,40 +9,32 @@
 @interface PKVirtualCardCredentials
 {
     NSString *_primaryAccountNumber;
-    NSString *_cardSecurityCode;
-    long long _cardType;
-    NSString *_expiration;
-    NSString *_formattedExpiration;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)L;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)9#;
 - (id);
-- (id);
-- (void);
+- (void)a;
 - (long long);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (_Bool);
-- (void);
+- (void)clearCltmIndexBucketeds;
 - (id);
-- (id)ataWithAlternateDSID:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)ancingPlans;
-- (id)S_VERSION_UPDATE_REQUIRED_ERROR_MESSAGE_MAC;
+- (id)peerPaymentEnrollmentDataWithAlternateDSID:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)financingPlans;
+- (id)OS_VERSION_UPDATE_REQUIRED_ERROR_MESSAGE_MAC;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cardSecurityCode; // @synthesize cardSecurityCode=_cardSecurityCode;
-@property(nonatomic) long long cardType; // @synthesize cardType=_cardType;
-@property(copy, nonatomic) NSString *expiration; // @synthesize expiration=_expiration;
-@property(copy, nonatomic) NSString *formattedExpiration; // @synthesize formattedExpiration=_formattedExpiration;
 @property(copy, nonatomic) NSString *primaryAccountNumber; // @synthesize primaryAccountNumber=_primaryAccountNumber;
 
 @end

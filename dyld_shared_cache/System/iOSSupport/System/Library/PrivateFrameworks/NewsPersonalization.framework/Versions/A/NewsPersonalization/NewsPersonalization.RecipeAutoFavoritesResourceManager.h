@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCPersonalizationBundleIDMapping, FCPersonalizationURLMapping, FCPersonalizationWhitelist;
+@class FCPersonalizationWhitelist;
 
 @interface NewsPersonalization.RecipeAutoFavoritesResourceManager
 {
     id appConfigurationManager;
-    id resourceService;
-    id allowlistResource;
-    id bundleIdMappingResource;
-    id urlMappingResource;
-    id lazyAllowlist;
-    id lazyBundleIdMapping;
-    id lazyUrlMapping;
 }
 
 - (id);
@@ -25,8 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) FCPersonalizationWhitelist *allowlist;
-@property(nonatomic, readonly) FCPersonalizationBundleIDMapping *bundleIDMapping;
-@property(nonatomic, readonly) FCPersonalizationURLMapping *urlMapping;
 
 @end
 

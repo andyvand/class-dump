@@ -6,21 +6,12 @@
 
 #import <Foundation/NSFileAccessClaim.h>
 
-@class NSFileAccessNode, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface NSFileReadingWritingClaim : NSFileAccessClaim
 {
     NSURL *_readingURL;
-    _Bool _readingURLDidChange;
-    unsigned long long _readingOptions;
-    NSURL *_writingURL;
-    _Bool _writingURLDidChange;
-    unsigned long long _writingOptions;
-    NSFileAccessNode *_readingLocation;
-    NSFileAccessNode *_writingLocation;
-    NSFileAccessNode *_rootNode;
-    long long _readingLinkResolutionCount;
 }
 
 + (_Bool))
@@ -33,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)m_displayNitsReferencePeak;
+- (void)at *, float *);
+- (void);
+- (void);
+- (void)(;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void)nit: /* Error: Ran out of types for this method. */;
+- (_Bool)h;
+- (void)unitStringFromValue:unit: /* Error: Ran out of types for this method. */;
 - (void)
 
 

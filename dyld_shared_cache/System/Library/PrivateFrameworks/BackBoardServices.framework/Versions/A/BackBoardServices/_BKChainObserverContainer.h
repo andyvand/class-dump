@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSEventDeferringChainIdentity, BKSHIDEventDeliveryChainObserver;
 @protocol BKSHIDEventDeliveryChainObserving;
 
 @interface _BKChainObserverContainer
 {
     id <BKSHIDEventDeliveryChainObserving> _observingClient;
-    BKSHIDEventDeliveryChainObserver *_observerInterface;
-    BKSEventDeferringChainIdentity *_requestedChainIdentity;
 }
 
 - (void);
@@ -25,9 +22,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) BKSHIDEventDeliveryChainObserver *observerInterface; // @synthesize observerInterface=_observerInterface;
 @property(retain, nonatomic) id <BKSHIDEventDeliveryChainObserving> observingClient; // @synthesize observingClient=_observingClient;
-@property(retain, nonatomic) BKSEventDeferringChainIdentity *requestedChainIdentity; // @synthesize requestedChainIdentity=_requestedChainIdentity;
 
 @end
 

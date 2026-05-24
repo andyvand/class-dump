@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol EFContentProtectionObserver, OS_dispatch_queue;
+@protocol EFContentProtectionObserver;
 
 @interface _EFContentProtectionObserverWrapper
 {
     id <EFContentProtectionObserver> _observer;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (id);
+- (id)addRegistration:(id)arg1 toUser:(id)arg2 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)icates: /* Error: Ran out of types for this method. */;
+- (id)ef_insertObject:usingSortFunction:context:allowDuplicates: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <EFContentProtectionObserver> observer; // @synthesize observer=_observer;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

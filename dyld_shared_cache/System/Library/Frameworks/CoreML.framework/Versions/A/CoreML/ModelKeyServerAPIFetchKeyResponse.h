@@ -4,52 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ModelKeyServerAPIFetchKeyResult, ModelKeyServerAPIResultError;
+@class ModelKeyServerAPIResultError;
 
 __attribute__((visibility("hidden")))
 @interface ModelKeyServerAPIFetchKeyResponse
 {
     ModelKeyServerAPIResultError *_error;
-    int _result;
-    ModelKeyServerAPIFetchKeyResult *_success;
-    struct {
-        unsigned int result:1;
-    } _has;
 }
 
-- (void);
-- (int);
+- (void)1;
+- (int)p;
 - (id);
 - (id);
-- (id);
+- (id)H2Fgo5tmM8vtIg6yfmyfRDs4wRRprzk/Library/Caches/com.apple.xbs/TemporaryDirectory.V8n6pu/Sources/libwebrtc/Source/ThirdParty/libwebrtc/Source/webrtc/video/encoder_rtcp_feedback.cc;
 - (_Bool);
-- (void);
-- (void);
+- (void)(@9;
+- (void)H*;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)z;
 - (id);
 - (_Bool);
 - (void);
-- (int)Type: /* Error: Ran out of types for this method. */;
+- (int)convolutionBiasesDescriptorWithFeatureChannelCount:dataType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Ø,Ü;
 - (void)compiler error: /* Error: Ran out of types for this method. */;
-- (void)ayerParamsE;
+- (void)N6CoreML13Specification15AtanLayerParamsE;
 - (_Bool)´¬Å½ÕÍåÝõíý%5-E=UMe]um}¥µ­Æ¾ÖÎæÞöîþ&6.F>VNf^vn~¦¶®]Zf
 ÑÓÕ×éëíïáãåçùûýÿ9;=?ÉËÍÏÁÃÅÇÙÛÝß¡£¥§©«­¯±³µ·ñóõ÷QSUWikmoacegy{}¹»½¿IKMOACEGY[]_!#%')+-/1357qsuw	ÒÔÖØêìîÐâäæèúüþà:<>0ÊÌÎ8ÂÄÆÈÚÜÞÀ¢¤¦ª¬® ²´¶¨òôöøðRTVXjlnPbdfhz|~`º¼¾°JLN¸BDFHZ\^@"$&*,. 246(rtvxp
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) ModelKeyServerAPIResultError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) _Bool hasError;
-@property(nonatomic) _Bool hasResult;
 @property(readonly, nonatomic) _Bool hasSuccess;
-@property(nonatomic) int result; // @synthesize result=_result;
-@property(retain, nonatomic) ModelKeyServerAPIFetchKeyResult *success; // @synthesize success=_success;
 
 @end
 

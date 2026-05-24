@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu, NSMenuItem, NSMutableDictionary, NSString, NSTimer, Watchdog;
-@protocol WBSPageTestDelegate;
+@class NSMenu;
 
 __attribute__((visibility("hidden")))
 @interface DebugUtilities
 {
     NSMenu *debugMenu;
-    Watchdog *watchdog;
-    NSMutableDictionary *stopwatches;
-    int numTestsLeftToComplete;
-    _Bool memorySamplerIsRunning;
-    NSTimer *memorySamplerFinishedTimer;
-    _Bool automatedTestRunning;
-    NSMenu *_fastSyncStateMenu;
-    NSMenuItem *_fastSyncStateIsLoadingMenuItem;
-    long long _sandboxExtensionForTesting;
-    id <WBSPageTestDelegate> _pageTestDelegate;
 }
 
 + (void);
@@ -36,40 +25,40 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id)(K;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)A;
 - (double);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,13 +69,7 @@ __attribute__((visibility("hidden")))
 - (void)X;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,21 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (Class);
+- (unsigned long long)];
+- (id)8;
 - (_Bool)ø¢;
 - (id)layout-window-width;
-- (_Bool);
 - (struct _NSZone *);
 
 @optional
 - (NSString *)r placement=%{public}@, position=%{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

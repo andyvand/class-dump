@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMNameComponents, NSString;
+@class NSString;
 
 @interface BMPersonName
 {
     NSString *_name;
-    BMNameComponents *_nameComponents;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id)g_query__notify_stmt__descriptor;
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) BMNameComponents *nameComponents; // @synthesize nameComponents=_nameComponents;
 
 @end
 

@@ -11,9 +11,9 @@
     NSMutableArray *_handlers;
 }
 
-- (_Bool);
+- (_Bool)e*;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void)ñ©ð1Â0@ù

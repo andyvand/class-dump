@@ -7,16 +7,6 @@
 @interface PhotoAnalysis.ActivitySession
 {
     id $defaultActor;
-    id submittedTasks;
-    id taskSource;
-    id taskScheduler;
-    id workerFactory;
-    id logger;
-    id state;
-    id taskSubmissionTask;
-    id cancellationTask;
-    id taskProductivityReporter;
-    id identifier;
 }
 
 @end

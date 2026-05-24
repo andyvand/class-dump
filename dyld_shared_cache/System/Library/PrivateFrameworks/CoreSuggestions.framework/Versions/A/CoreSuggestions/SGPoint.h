@@ -7,36 +7,28 @@
 @interface SGPoint
 {
     double _lat;
-    double _lng;
-    struct {
-        unsigned int lat:1;
-        unsigned int lng:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)[;
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
+- (_Bool)lized %d;
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void)m.;
+- (id)(;
 - (id);
 - (double);
 - (double);
 
 // Remaining properties
 @property(nonatomic) _Bool hasLat;
-@property(nonatomic) _Bool hasLng;
-@property(nonatomic) double lat; // @synthesize lat=_lat;
-@property(nonatomic) double lng; // @synthesize lng=_lng;
 
 @end
 

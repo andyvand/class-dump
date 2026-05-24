@@ -8,27 +8,25 @@ __attribute__((visibility("hidden")))
 @interface CXDatabaseStatement
 {
     struct sqlite3_stmt *_statement;
-    struct sqlite3 *_database;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (struct sqlite3 *);
-- (_Bool);
-- (void);
+- (_Bool)initWithCharactersNoCopy:(id *)arg1 length:freeWhenDone: /* Error: Ran out of types for this method. */;
+- (void)setSupportsSecureCoding:(struct sqlite3 *)arg1;
 - (_Bool);
 - (void);
 - (struct sqlite3_stmt *)aðÐ!Cùqr°1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) struct sqlite3 *database; // @synthesize database=_database;
 @property(nonatomic) struct sqlite3_stmt *statement; // @synthesize statement=_statement;
 
 @end

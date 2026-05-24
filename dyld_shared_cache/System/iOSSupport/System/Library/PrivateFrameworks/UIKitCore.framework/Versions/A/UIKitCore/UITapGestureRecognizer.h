@@ -6,15 +6,9 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class UITapRecognizer;
-
 @interface UITapGestureRecognizer : UIGestureRecognizer
 {
     struct CGPoint _locationInView;
-    UITapRecognizer *_imp;
-    unsigned int _delaysRecognitionForGreaterTapCounts;
-    _Bool _isSingleKeyPressGesture;
-    long long _buttonType;
 }
 
 + (_Bool)±`°1Â0@ù

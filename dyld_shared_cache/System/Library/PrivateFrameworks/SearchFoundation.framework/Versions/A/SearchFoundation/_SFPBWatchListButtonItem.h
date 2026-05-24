@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBToggleButtonConfiguration, _SFPBWatchListItem;
+@class _SFPBWatchListItem;
 
 @interface _SFPBWatchListButtonItem
 {
     _SFPBWatchListItem *_watchListItem;
-    _SFPBToggleButtonConfiguration *_toggleButtonConfiguration;
-    unsigned long long _uniqueId;
 }
 
 - (id);
@@ -22,8 +20,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)setIncludeOnlyFacesInFaceGroups:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -32,16 +30,6 @@
 - (void)potlightShareItem";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBToggleButtonConfiguration *toggleButtonConfiguration; // @synthesize toggleButtonConfiguration=_toggleButtonConfiguration;
-@property(nonatomic) unsigned long long uniqueId; // @synthesize uniqueId=_uniqueId;
 @property(retain, nonatomic) _SFPBWatchListItem *watchListItem; // @synthesize watchListItem=_watchListItem;
 
 @end

@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface GEOPDActionDataFilter
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _linkTypes;
 }
 
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)oundation;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

@@ -6,18 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutConstraint, NSString, UIAccessibilityHUDItem, _UIStatusBarCellularSignalView;
-
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarDualCellularSignalView : UIView
 {
     _Bool _rounded;
-    _UIStatusBarCellularSignalView *_topSignalView;
-    _UIStatusBarCellularSignalView *_bottomSignalView;
-    long long _iconSize;
-    NSLayoutConstraint *_topConstraint;
-    NSLayoutConstraint *_verticalInterspaceConstraint;
-    struct UIEdgeInsets _alignmentRectInsets;
 }
 
 + (double)ngGroupsMode;
@@ -27,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (void)
 × ;
 - (long long)Interaction"16q24@?<{CGPoint=dd}@?>32@?<{CGPoint=dd}@?>40@?<{CGPoint=dd}@?>48q56^B64;
-- (void)rame;
-- (id)inDroppingInto;
-- (id)nd:(struct CGRect)arg1;
+- (void)hasMaskViewFrame;
+- (id)didBeginDroppingInto;
+- (id)_keyboardEventCorrespondsToKeyCommand:(struct CGRect)arg1;
 - (void),N,G_contentScrollsAlongYAxis,S_setContentScrollsAlongYAxis:(_Bool)arg1;
 - (id)%s svc = %p; transition = %p; currentLayout = %@; proposedLayout = %@; originalLayout = %@;
 - (void)Bottom Edge Window Size;
@@ -45,40 +37,7 @@ __attribute__((visibility("hidden")))
 - (void)Ä^;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(nonatomic) struct UIEdgeInsets alignmentRectInsets; // @synthesize alignmentRectInsets=_alignmentRectInsets;
-@property(readonly) _UIStatusBarCellularSignalView *bottomSignalView; // @synthesize bottomSignalView=_bottomSignalView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long iconSize; // @synthesize iconSize=_iconSize;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(nonatomic) _Bool rounded; // @synthesize rounded=_rounded;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSLayoutConstraint *topConstraint; // @synthesize topConstraint=_topConstraint;
-@property(readonly) _UIStatusBarCellularSignalView *topSignalView; // @synthesize topSignalView=_topSignalView;
-@property(retain, nonatomic) NSLayoutConstraint *verticalInterspaceConstraint; // @synthesize verticalInterspaceConstraint=_verticalInterspaceConstraint;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

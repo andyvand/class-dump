@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PPMockRTMapItem;
+@class PPMockRTMapItem;
 
 @interface PPMockRTLocationOfInterest
 {
     PPMockRTMapItem *_mapItem;
-    long long _type;
-    NSArray *_visits;
 }
 
 + (id);
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)4;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) PPMockRTMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSArray *visits; // @synthesize visits=_visits;
 
 @end
 

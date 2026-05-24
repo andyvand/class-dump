@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultDetourInfo, NSData;
+@class GEOPDResultDetourInfo;
 
 @interface GEOMapItemDetourInfo
 {
@@ -17,19 +17,13 @@
 - (double);
 - (id);
 - (double);
-- (id);
-- (double);
-- (id);
+- (id)observeValueForKeyPath:ofObject:change:context: /* Error: Ran out of types for this method. */;
+- (double)errorWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
+- (id)because the device isn't unlocked since boot;
 - (void)tó2;
 
 // Remaining properties
-@property(readonly, nonatomic) double detourDistance;
 @property(readonly, nonatomic, getter=_detourInfo) GEOPDResultDetourInfo *detourInfo; // @synthesize detourInfo=_detourInfo;
-@property(readonly, nonatomic) NSData *detourInfoAsData;
-@property(readonly, nonatomic) double detourTime;
-@property(readonly, nonatomic) double distanceToPlace;
-@property(readonly, nonatomic) GEOPDResultDetourInfo *pdDetourInfo;
-@property(readonly, nonatomic) double timeToPlace;
 
 @end
 

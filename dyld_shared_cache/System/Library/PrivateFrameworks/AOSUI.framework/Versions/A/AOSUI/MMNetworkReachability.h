@@ -8,7 +8,7 @@
 {
 }
 
-+ (_Bool)onCallback;
++ (_Bool)_alternateButtonCallback;
 
 @end
 

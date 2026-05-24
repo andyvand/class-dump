@@ -7,7 +7,7 @@
 @interface UnknownClass (CKHack)
 + (id);
 + (id);
-+ (id);
++ (id)	;
 - (void);
 @end
 

@@ -6,24 +6,13 @@
 
 #import <IMCore/IMMessagePartChatItem.h>
 
-@class NSString;
-
 @interface IMAttachmentMessagePartChatItem : IMMessagePartChatItem
 {
     _Bool _wantsAttachmentContiguous;
-    NSString *_transferGUID;
-    unsigned long long _numberOfMomentShareSavedAssets;
-    unsigned long long _numberOfMomentSharePhotos;
-    unsigned long long _numberOfMomentShareVideos;
 }
 
 
 // Remaining properties
-@property(nonatomic) unsigned long long numberOfMomentSharePhotos; // @synthesize numberOfMomentSharePhotos=_numberOfMomentSharePhotos;
 @property(nonatomic) unsigned long long numberOfMomentShareSavedAssets; // @synthesize numberOfMomentShareSavedAssets=_numberOfMomentShareSavedAssets;
-@property(nonatomic) unsigned long long numberOfMomentShareVideos; // @synthesize numberOfMomentShareVideos=_numberOfMomentShareVideos;
-@property(readonly, nonatomic) _Bool parentChatIsSpam;
-@property(readonly, copy, nonatomic) NSString *transferGUID; // @synthesize transferGUID=_transferGUID;
-@property(readonly, nonatomic) _Bool wantsAttachmentContiguous; // @synthesize wantsAttachmentContiguous=_wantsAttachmentContiguous;
 @end
 

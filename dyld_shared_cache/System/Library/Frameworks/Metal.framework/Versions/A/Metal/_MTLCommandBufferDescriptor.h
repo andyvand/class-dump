@@ -6,42 +6,31 @@
 
 #import <Metal/MTLCommandBufferDescriptor.h>
 
-@protocol MTLDeadlineProfile, MTLLogState;
-
 @interface _MTLCommandBufferDescriptor : MTLCommandBufferDescriptor
 {
     _Bool _retainedReferences;
-    _Bool _captureProgramAddressTable;
-    _Bool _cloneIntersectionFunctionTablesPerDispatch;
-    _Bool _disableFineGrainedComputePreemption;
-    unsigned long long _errorOptions;
-    id <MTLLogState> _logState;
-    id <MTLDeadlineProfile> _deadlineProfile;
 }
 
-- (void);
+- (void)il.  Use _filterArrayFromProperties:(_Bool)arg1 inputImageExtent:instead /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)`;
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)P;
 
 // Remaining properties
 @property(nonatomic) _Bool captureProgramAddressTable; // @synthesize captureProgramAddressTable=_captureProgramAddressTable;
-@property(nonatomic) _Bool cloneIntersectionFunctionTablesPerDispatch; // @synthesize cloneIntersectionFunctionTablesPerDispatch=_cloneIntersectionFunctionTablesPerDispatch;
-@property(nonatomic) id <MTLDeadlineProfile> deadlineProfile; // @synthesize deadlineProfile=_deadlineProfile;
-@property(nonatomic) _Bool disableFineGrainedComputePreemption; // @synthesize disableFineGrainedComputePreemption=_disableFineGrainedComputePreemption;
 
 @end
 

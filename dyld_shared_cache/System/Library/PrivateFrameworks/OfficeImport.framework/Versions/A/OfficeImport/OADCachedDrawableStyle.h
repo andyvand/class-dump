@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADCachedDrawableStyle
 {
     int mFillCategory;
-    unsigned long long mFillIndex;
-    unsigned long long mStrokeIndex;
-    unsigned long long mShadowIndex;
-    unsigned char mReflectionOpacity;
-    unsigned long long mTextStyleIndex;
 }
 
 - (unsigned long long);
@@ -23,15 +18,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (int);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 
 // Remaining properties
 @property(readonly, nonatomic) int fillCategory; // @synthesize fillCategory=mFillCategory;
-@property(readonly, nonatomic) unsigned long long fillIndex; // @synthesize fillIndex=mFillIndex;
-@property(readonly, nonatomic) unsigned char reflectionOpacity; // @synthesize reflectionOpacity=mReflectionOpacity;
-@property(readonly, nonatomic) unsigned long long shadowIndex; // @synthesize shadowIndex=mShadowIndex;
-@property(readonly, nonatomic) unsigned long long strokeIndex; // @synthesize strokeIndex=mStrokeIndex;
-@property(readonly, nonatomic) unsigned long long textStyleIndex; // @synthesize textStyleIndex=mTextStyleIndex;
 
 @end
 

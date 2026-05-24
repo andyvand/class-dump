@@ -5,15 +5,18 @@
 //
 
 @protocol ISBasePlayerOutput
+- (void)_documentStyleResolver;
+- (void)_documentSectionManager;
+- (void)LL_STATS_PREF_5G_CHAN_COUNT;
+
+@optional
+- (_Bool)_isPresenting;
+- (void)r;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isVideoReadyForDisplay;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic) CDUnknownBlockType videoLayerReadyForDisplayChangeHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,C,N
 
 @end
 

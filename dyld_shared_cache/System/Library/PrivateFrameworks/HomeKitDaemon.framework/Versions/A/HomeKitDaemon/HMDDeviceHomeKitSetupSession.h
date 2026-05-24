@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDXPCClientConnection;
-
 __attribute__((visibility("hidden")))
 @interface HMDDeviceHomeKitSetupSession
 {
     _Bool _firstResidentForHome;
-    _Bool _hasFailedRelayAttempt;
-    HMDXPCClientConnection *_clientConnection;
 }
 
-- (_Bool);
+- (_Bool)scheduledTimerWithTimeInterval:queue:repeating:block: /* Error: Ran out of types for this method. */;
+- (void)_unmappedContents;
+- (void)age",&,N,V_senderSessionStorage;
 - (void);
-- (void);
-- (void);
 - (_Bool);
-- (id);
+- (id)T;
 - (_Bool);
-- (id)ryUpdateApplyCounter;
+- (id)HMDLogEventPeakConcurrentIPAccessoryUpdateApplyCounter;
 - (void)er storage failed to load;
 
 // Remaining properties
-@property(readonly) __weak HMDXPCClientConnection *clientConnection; // @synthesize clientConnection=_clientConnection;
 @property(getter=isFirstResidentForHome) _Bool firstResidentForHome; // @synthesize firstResidentForHome=_firstResidentForHome;
-@property _Bool hasFailedRelayAttempt; // @synthesize hasFailedRelayAttempt=_hasFailedRelayAttempt;
-@property(readonly) _Bool shouldRelayRequest;
 
 @end
 

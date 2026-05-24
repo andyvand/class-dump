@@ -8,10 +8,9 @@
 + (id);
 + (id);
 - (CDStruct_8b1c126c);
-- (CDStruct_4d759c64);
+- (CDStruct_4323666f);
 
 // Remaining properties
-@property(readonly) CDStruct_4d759c64 integerByBandTransitionValue;
 @property(readonly) CDStruct_8b1c126c integerByBandValue;
 @end
 

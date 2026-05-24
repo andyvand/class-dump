@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AAPSyncMetaDataItemDelete)
-- (_Bool);
+- (_Bool){;
 - (_Bool);
 @end
 

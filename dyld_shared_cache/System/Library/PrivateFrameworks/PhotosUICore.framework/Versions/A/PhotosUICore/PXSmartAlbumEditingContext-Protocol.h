@@ -7,13 +7,9 @@
 @class NSArray;
 
 @protocol PXSmartAlbumEditingContext
+- (NSArray *)sb;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *albumValues;
-@property(readonly, nonatomic) NSArray *cameraModels;
 @property(readonly, nonatomic) NSArray *conditionTypeValues;
-@property(readonly, nonatomic) NSArray *keywordValues;
-@property(readonly, nonatomic) NSArray *lensModels;
-@property(readonly, nonatomic) NSArray *personNames;
 @end
 

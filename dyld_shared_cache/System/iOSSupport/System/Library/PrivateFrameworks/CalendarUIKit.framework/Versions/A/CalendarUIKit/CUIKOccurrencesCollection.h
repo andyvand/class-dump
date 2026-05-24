@@ -9,16 +9,10 @@
 @interface CUIKOccurrencesCollection
 {
     int _generation;
-    NSArray *_occurrences;
-    NSArray *_allDayOccurrences;
-    NSArray *_timedOccurrences;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allDayOccurrences; // @synthesize allDayOccurrences=_allDayOccurrences;
-@property(nonatomic) int generation; // @synthesize generation=_generation;
 @property(readonly, nonatomic) NSArray *occurrences; // @synthesize occurrences=_occurrences;
-@property(readonly, nonatomic) NSArray *timedOccurrences; // @synthesize timedOccurrences=_timedOccurrences;
 @end
 

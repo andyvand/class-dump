@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _PSContactSuggestionHandleAndApp
 {
     NSString *_handle;
-    NSString *_appBundleId;
-    NSNumber *_interactionMechanism;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)_entityPartialAppCount28Day;
+- (id)_commandDuration;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)y;
 - (id);
 - (void);
 - (id);
@@ -28,9 +26,7 @@
 - (void)try with absolute path encountered...ignoring leading %zu of %zu bytes.;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
 @property(copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(copy, nonatomic) NSNumber *interactionMechanism; // @synthesize interactionMechanism=_interactionMechanism;
 
 @end
 

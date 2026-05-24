@@ -6,32 +6,22 @@
 
 #import <GeoServices/GEOAbstractRequestResponseTicket.h>
 
-@class GEOMapItemIdentifier, GEOMapServiceTraits, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GEOPlaceComingledPhotoLookupTicket : GEOAbstractRequestResponseTicket
 {
     NSString *_categoryIdentifier;
-    GEOMapItemIdentifier *_mapItemIdentifier;
-    struct _NSRange _range;
-    GEOMapServiceTraits *_traits;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)x",&,D,N;
+- (void)_Buffer=^vQQQ}16r^{_Geometry2D_rect2D_={_Geometry2D_point2D_=ff}{_Geometry2D_size2D_=ff}}24r^v32^@40;
+- (void)A;
 - (void);
 - (void)ýÿÿÿÿÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

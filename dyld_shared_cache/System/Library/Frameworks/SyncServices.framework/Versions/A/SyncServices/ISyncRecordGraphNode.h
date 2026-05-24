@@ -25,13 +25,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (void);
 - (int);
-- (id)nLoopMode;
+- (id)ISyncSessionRunLoopMode;
 
 @end
 

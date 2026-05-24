@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKPassVerificationMethod
 {
     _Bool _requiresUserInteraction;
-    _Bool _usesExternalView;
-    unsigned long long _type;
-    NSString *_identifier;
-    NSString *_organizationName;
 }
 
 + (id);
@@ -21,38 +15,31 @@
 × ;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (id)7;
+- (id);
+- (id)qa;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
+- (id)(;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)E#;
+- (void)btrequestReason;
 - (id);
 - (id);
 - (void)d HTTP %@;
 - (id)ÍÚÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isSMSOTP;
-@property(readonly, nonatomic) _Bool needsServerRequest;
-@property(readonly, nonatomic) NSString *organizationName; // @synthesize organizationName=_organizationName;
-@property(readonly, nonatomic) _Bool requiresUserInteraction; // @synthesize requiresUserInteraction=_requiresUserInteraction;
-@property(readonly, nonatomic) _Bool supportedOnCurrentDevice;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) _Bool usesExternalView; // @synthesize usesExternalView=_usesExternalView;
 
 @end
 

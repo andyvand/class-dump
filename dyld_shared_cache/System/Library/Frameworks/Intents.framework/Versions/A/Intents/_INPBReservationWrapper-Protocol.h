@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBBoatReservation, _INPBBusReservation, _INPBFlightReservation, _INPBLodgingReservation, _INPBRentalCarReservation, _INPBRestaurantReservation, _INPBTicketedEventReservation, _INPBTrainReservation;
+@class _INPBBoatReservation;
 
 @protocol _INPBReservationWrapper
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBBoatReservation *boatReservation;
-@property(retain, nonatomic) _INPBBusReservation *busReservation;
-@property(retain, nonatomic) _INPBFlightReservation *flightReservation;
-@property(readonly, nonatomic) _Bool hasBoatReservation;
-@property(readonly, nonatomic) _Bool hasBusReservation;
-@property(readonly, nonatomic) _Bool hasFlightReservation;
-@property(readonly, nonatomic) _Bool hasLodgingReservation;
-@property(readonly, nonatomic) _Bool hasRentalCarReservation;
-@property(readonly, nonatomic) _Bool hasRestaurantReservation;
-@property(readonly, nonatomic) _Bool hasTicketedEventReservation;
-@property(readonly, nonatomic) _Bool hasTrainReservation;
-@property(retain, nonatomic) _INPBLodgingReservation *lodgingReservation;
-@property(retain, nonatomic) _INPBRentalCarReservation *rentalCarReservation;
-@property(retain, nonatomic) _INPBRestaurantReservation *restaurantReservation;
-@property(retain, nonatomic) _INPBTicketedEventReservation *ticketedEventReservation;
-@property(retain, nonatomic) _INPBTrainReservation *trainReservation;
 @end
 

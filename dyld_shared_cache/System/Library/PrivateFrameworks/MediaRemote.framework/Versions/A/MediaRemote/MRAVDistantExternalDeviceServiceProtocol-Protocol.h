@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class MRGroupTopologyModificationRequest, NSArray;
 
 @protocol MRAVDistantExternalDeviceServiceProtocol
+- (void);
+- (void)T;
+- (void)setHomeAnnouncementState:(MRGroupTopologyModificationRequest *)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *subscribedPlayerPaths;

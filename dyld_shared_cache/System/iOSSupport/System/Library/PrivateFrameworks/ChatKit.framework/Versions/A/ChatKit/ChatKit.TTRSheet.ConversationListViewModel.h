@@ -7,9 +7,6 @@
 @interface ChatKit.TTRSheet.ConversationListViewModel
 {
     id sections;
-    id conversation;
-    id chat;
-    id chatGUID;
 }
 
 @end

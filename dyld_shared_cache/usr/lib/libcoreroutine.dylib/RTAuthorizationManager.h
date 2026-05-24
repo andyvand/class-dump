@@ -6,16 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class RTInvocationDispatcher, RTPlatform, RTUserSessionMonitor;
+@class RTInvocationDispatcher;
 
 @interface RTAuthorizationManager : RTService
 {
     _Bool _supported;
-    _Bool _enabled;
-    _Bool _ready;
-    RTInvocationDispatcher *_dispatcher;
-    RTPlatform *_platform;
-    RTUserSessionMonitor *_userSessionMonitor;
 }
 
 + (_Bool)Ô!(!¨@ùqA,ð1Â0@ù
@@ -25,21 +20,21 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)setAreTestsEnabled: /* Error: Ran out of types for this method. */;
+- (_Bool)queryEscrowKeysAll;
+- (id)x_destruct;
+- (void)s:%d /* Error: Ran out of types for this method. */;
+- (void)lyrics;
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)_messageIDToMessageDictionary;
 - (void);
 - (void);
 - (id);
@@ -59,11 +54,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(nonatomic, getter=isReady) _Bool ready; // @synthesize ready=_ready;
-@property(nonatomic, getter=isSupported) _Bool supported; // @synthesize supported=_supported;
-@property(retain) RTUserSessionMonitor *userSessionMonitor; // @synthesize userSessionMonitor=_userSessionMonitor;
 
 @end
 

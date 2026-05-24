@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBookNotificationInfo, ABManagedObjectContext, CNCDManagedObjectContextSaveListener, CNFuture, NSString;
+@class CNCDManagedObjectContextSaveListener, NSString;
 
 @interface ABAddressBookChangesNotifier
 {
     NSString *_addressBookDirectory;
-    _Bool _isUsingDefaultAddressBookDirectory;
-    NSString *_notificationID;
-    id _notificationSource;
-    CNFuture *_metadataController;
-    ABManagedObjectContext *_context;
-    _Bool _isSharedInstanceOrClone;
-    ABAddressBookNotificationInfo *_preparedNotificationInfo;
-    CNCDManagedObjectContextSaveListener *_saveListener;
 }
 
 + (_Bool);
@@ -50,21 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *addressBookDirectory; // @synthesize addressBookDirectory=_addressBookDirectory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isUsingDefaultAddressBookDirectory; // @synthesize isUsingDefaultAddressBookDirectory=_isUsingDefaultAddressBookDirectory;
-@property(readonly, retain) ABManagedObjectContext *managedObjectContext;
-@property(readonly, retain) CNFuture *metadataController; // @synthesize metadataController=_metadataController;
-@property(readonly, copy) NSString *notificationID; // @synthesize notificationID=_notificationID;
-@property(readonly) __weak id notificationSource; // @synthesize notificationSource=_notificationSource;
-@property(retain) ABAddressBookNotificationInfo *preparedNotificationInfo; // @synthesize preparedNotificationInfo=_preparedNotificationInfo;
 @property(retain) CNCDManagedObjectContextSaveListener *saveListener; // @synthesize saveListener=_saveListener;
-@property(readonly) Class superclass;
 
 @end
 

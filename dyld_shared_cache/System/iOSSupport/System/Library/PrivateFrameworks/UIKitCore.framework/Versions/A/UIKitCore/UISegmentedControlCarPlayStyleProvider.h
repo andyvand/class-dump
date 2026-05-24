@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct UIEdgeInsets);
-- (_Bool)ancyStyle: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithStyle:vibrancyStyle: /* Error: Ran out of types for this method. */;
 - (double)ource>",R,W,N,V_source;
 - (double)lu - %lu) (global item index %lu), but there are only %lu total items.;
 

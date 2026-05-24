@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)appBundleIDsFromSharingURL:(long long)arg1;
 - (void);
 
 // Remaining properties

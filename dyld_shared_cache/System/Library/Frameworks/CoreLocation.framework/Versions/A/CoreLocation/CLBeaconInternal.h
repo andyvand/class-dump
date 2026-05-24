@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSUUID;
+@class NSUUID;
 
 @interface CLBeaconInternal
 {
     NSUUID *proximityUUID;
-    NSNumber *major;
-    NSNumber *minor;
-    long long proximity;
-    double accuracy;
-    long long rssi;
-    double timestamp;
 }
 
 @end

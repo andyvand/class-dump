@@ -7,18 +7,16 @@
 @interface CSGestureMonitor
 {
     unsigned long long _wakeGestureTimestamp;
-    unsigned long long _dismissalTimestamp;
 }
 
-+ (id)ActivationEvent:completion: /* Error: Ran out of types for this method. */;
++ (id)_notifyActivationEvent:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)n;
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long dismissalTimestamp; // @synthesize dismissalTimestamp=_dismissalTimestamp;
 @property(nonatomic) unsigned long long wakeGestureTimestamp; // @synthesize wakeGestureTimestamp=_wakeGestureTimestamp;
 
 @end

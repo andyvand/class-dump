@@ -12,12 +12,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (int);
+- (int)reply: /* Error: Ran out of types for this method. */;
 - (id);
-- (int);
+- (int)I
+;
 - (_Bool);
 - (void);
-- (id)ldOfGroupMovement:(struct CGRect)arg1;
+- (id)moveGroupTo:(struct CGRect)arg1 delta:isChildOfGroupMovement: /* Error: Ran out of types for this method. */;
 - (struct NSEdgeInsets)â@;
 
 @end

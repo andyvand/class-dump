@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineEventStream, MSVBlockGuard, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPlaybackEngineEventStreamDeferralAssertion
 {
     struct os_unfair_lock_s _lock;
-    _Bool _invalidated;
-    NSString *_identifier;
-    MPCPlaybackEngineEventStream *_eventStream;
-    long long _type;
-    NSString *_reason;
-    MSVBlockGuard *_timeoutGuard;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -31,19 +25,7 @@ __attribute__((visibility("hidden")))
 - (void)tion=%{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) __weak MPCPlaybackEngineEventStream *eventStream; // @synthesize eventStream=_eventStream;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool invalidated; // @synthesize invalidated=_invalidated;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MSVBlockGuard *timeoutGuard; // @synthesize timeoutGuard=_timeoutGuard;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBAppEntityAnnotation;
+@class NSData;
 
 @interface _SFPBFillToolAppEntityParameterCommand
 {
     NSData *_encodedTypedValue;
-    _SFPBAppEntityAnnotation *_entity;
 }
 
-- (void);
+- (void)!+;
 - (id);
 - (id);
-- (void);
+- (void)I;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)K;
+- (id)localeWithLocaleIdentifier:(id)arg1;
+- (id)@;
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)oughBackground: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setPunchThroughBackground: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSData *encodedTypedValue; // @synthesize encodedTypedValue=_encodedTypedValue;
-@property(retain, nonatomic) _SFPBAppEntityAnnotation *entity; // @synthesize entity=_entity;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

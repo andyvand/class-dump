@@ -6,52 +6,46 @@
 
 #import <CoreSuggestionsInternals/SGPipelineDissector.h>
 
-@class GDXPCKnosisService, NSString, NSXPCConnection, _PASLock;
-@protocol SGReverseTemplateJS;
+@class NSXPCConnection;
 
 @interface SGExtractionDissector : SGPipelineDissector
 {
     NSXPCConnection *_xpcConnection;
-    id <SGReverseTemplateJS> _reverseTemplateJSNoXPC;
-    _PASLock *_classifierCache;
-    _PASLock *_ddScannerLock;
-    _Bool shouldExtractFromFwdMail;
-    GDXPCKnosisService *knosisService;
 }
 
 + (id);
++ (id)PBColorScheme;
++ (_Bool);
 + (id);
-+ (_Bool);
-+ (id);
 + (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id)oreFoundation;
+- (void);
+- (id)removeDefaultActionFromListOfActions;
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id)R;
+- (id);
+- (_Bool)=;
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (id);
@@ -61,27 +55,28 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)napshot
+;
+- (_Bool)de in device tree;
 - (id);
-- (_Bool);
+- (id)msv_stringByResolvingRealPath;
+- (void)msv_firstWhere:(id)arg1;
+- (id)7;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)eteActions:(id)arg1;
+- (_Bool)cdvArrayWithIntegers: /* Error: Ran out of types for this method. */;
+- (id)allocation requires MTLResourceStorageModePrivate storage mode;
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
 - (id);
+- (id)writeShapePathPoint:(id)arg1 origin:to: /* Error: Ran out of types for this method. */;
+- (id)mContentOutOfLassoBoundsCache;
+- (id);
+- (id)LTL;
+- (_Bool);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -91,7 +86,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -99,14 +94,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)Ԏt;
+- (id)_supportiCloudKeychainSyncDataclass;
 - (_Bool);
 - (id);
 - (id);
@@ -119,13 +114,7 @@
 - (void)vent for cancellation found, but eventIdentifier is nil.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

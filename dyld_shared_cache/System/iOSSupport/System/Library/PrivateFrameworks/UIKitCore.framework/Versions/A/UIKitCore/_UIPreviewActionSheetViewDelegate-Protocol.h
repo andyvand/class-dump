@@ -5,5 +5,8 @@
 //
 
 @protocol _UIPreviewActionSheetViewDelegate
+
+@optional
+- (_Bool)`;
 @end
 

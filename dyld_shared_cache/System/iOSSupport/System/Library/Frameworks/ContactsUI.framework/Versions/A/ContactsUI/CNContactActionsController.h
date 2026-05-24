@@ -4,42 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSDictionary, NSString, UIViewController;
-@protocol CNContactActionsControllerDelegate, CNUINavigationListStyle, CNUIUserActionListDataSource;
-
 __attribute__((visibility("hidden")))
 @interface CNContactActionsController
 {
     _Bool _shouldUseOutlinedActionGlyphStyle;
-    _Bool _displayMenuIconAtTopLevel;
-    _Bool _displayNonDefaultAppsMenuTitle;
-    _Bool _displayDefaultAppsSectionedMenus;
-    _Bool _generateFaceTimeListItemsOnly;
-    _Bool _generateFavoritesListItemsOnly;
-    _Bool _generateDefaultAppListItemsOnly;
-    CNContact *_contact;
-    id <CNUIUserActionListDataSource> _actionsDataSource;
-    NSDictionary *_modelsByActionTypes;
-    NSArray *_modelCancelables;
-    UIViewController *_viewController;
-    id <CNContactActionsControllerDelegate> _delegate;
-    id <CNUINavigationListStyle> _navigationListStyle;
-    long long _actionsOrder;
-    NSArray *_actionTypes;
-    NSString *_defaultAppBundleIdentifier;
 }
 
 + (id);
-+ (id)tleTextAttributes: /* Error: Ran out of types for this method. */;
++ (id)setTitleTextAttributes: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)qA;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)';
 - (void);
 - (void);
 - (void);
@@ -52,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
@@ -64,9 +45,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (long long);
-- (id);
+- (id)qa;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -80,35 +61,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_responseHandler;
 - (void)ngManager;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *actionTypes; // @synthesize actionTypes=_actionTypes;
-@property(retain, nonatomic) id <CNUIUserActionListDataSource> actionsDataSource; // @synthesize actionsDataSource=_actionsDataSource;
-@property(nonatomic) long long actionsOrder; // @synthesize actionsOrder=_actionsOrder;
 @property(nonatomic) _Bool actionsReversed;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *defaultAppBundleIdentifier; // @synthesize defaultAppBundleIdentifier=_defaultAppBundleIdentifier;
-@property(nonatomic) __weak id <CNContactActionsControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool displayDefaultAppsSectionedMenus; // @synthesize displayDefaultAppsSectionedMenus=_displayDefaultAppsSectionedMenus;
-@property(nonatomic) _Bool displayMenuIconAtTopLevel; // @synthesize displayMenuIconAtTopLevel=_displayMenuIconAtTopLevel;
-@property(nonatomic) _Bool displayNonDefaultAppsMenuTitle; // @synthesize displayNonDefaultAppsMenuTitle=_displayNonDefaultAppsMenuTitle;
-@property(nonatomic) _Bool generateDefaultAppListItemsOnly; // @synthesize generateDefaultAppListItemsOnly=_generateDefaultAppListItemsOnly;
-@property(nonatomic) _Bool generateFaceTimeListItemsOnly; // @synthesize generateFaceTimeListItemsOnly=_generateFaceTimeListItemsOnly;
-@property(nonatomic) _Bool generateFavoritesListItemsOnly; // @synthesize generateFavoritesListItemsOnly=_generateFavoritesListItemsOnly;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *modelCancelables; // @synthesize modelCancelables=_modelCancelables;
-@property(copy, nonatomic) NSDictionary *modelsByActionTypes; // @synthesize modelsByActionTypes=_modelsByActionTypes;
-@property(nonatomic) __weak id <CNUINavigationListStyle> navigationListStyle; // @synthesize navigationListStyle=_navigationListStyle;
-@property(nonatomic) _Bool shouldUseOutlinedActionGlyphStyle; // @synthesize shouldUseOutlinedActionGlyphStyle=_shouldUseOutlinedActionGlyphStyle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

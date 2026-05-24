@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)createAppleIDWithParameters:(id)arg1 handler: /* Error: Ran out of types for this method. */;
 
 @end
 

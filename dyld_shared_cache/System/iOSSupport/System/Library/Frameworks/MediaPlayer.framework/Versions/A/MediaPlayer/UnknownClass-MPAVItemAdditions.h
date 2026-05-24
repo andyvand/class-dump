@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPAVItem, NSDictionary;
+@class MPAVItem;
 
 @interface UnknownClass (MPAVItemAdditions)
 - (void);
 - (id);
-- (id);
-- (id)sToMappingResponse;
-- (void)ingID;
+- (id)iColumn:%@; op:%@; usable:%@ /* Error: Ran out of types for this method. */;
+- (id)relativeModelClassToMappingResponse;
+- (void)stationStringID;
 
 // Remaining properties
 @property(retain, nonatomic) MPAVItem *MPAVItem;
-@property(copy, nonatomic) NSDictionary *nowPlayingInfo; // @dynamic nowPlayingInfo;
 @end
 

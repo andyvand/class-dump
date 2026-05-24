@@ -11,6 +11,7 @@
 + (id);
 + (id);
 + (id);
++ (id)?;
 + (id);
 + (id);
 + (id);
@@ -42,6 +43,19 @@
 + (id);
 + (id);
 + (id);
++ (id)isInstantOffEnabled;
++ (id)ce:%@ /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)launchableApplications;
++ (id);
++ (id);
++ (id)__common;
++ (id)enableUnlockWithDevice:fromKey:withPasscode:completionHandler: /* Error: Ran out of types for this method. */;
++ (id)_userUniqueIdentifier;
++ (id)featureFlagsDomain;
 + (id);
 + (id);
 + (id);
@@ -54,29 +68,15 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)essageState: /* Error: Ran out of types for this method. */;
++ (id)setLocalMessageState: /* Error: Ran out of types for this method. */;
 + (id)initWithGuid:success:connectionType:resultCode:registrationType:genericError:URLError:POSIXError: /* Error: Ran out of types for this method. */;
-+ (id)_MMCSFileLength;
++ (id)has_MMCSFileLength;
 + (id)0ÜÿücÂÿÔ*ßÿBßÿHßÿTßÿÀ½ßÿÄhßÿÄqßÿlzßÿ\ßÿPßÿ@ßÿÌcÂÿ½ßÿ Ôÿðàÿàÿ`×ÿXIÛÿOÛÿTfæÿX]æÿLfæÿHfæÿ¬ðæÿ,%ÕÿcÂÿhÍèÿlßèÿcÂÿ¸[êÿjêÿLnêÿ°pêÿ}êÿðêÿ`êÿÌêÿÄÚÿ8Ñêÿ´Ùêÿ¸ÛêÿÄÚÿÄÚÿÌóêÿìùêÿìÿxÄÚÿ8ëÿ 	ëÿëÿhÄÚÿ\ëÿ¸#ëÿä%ëÿXÄÚÿ0ëÿ(:ëÿ$<ëÿHÄÚÿJëÿÀXëÿ[ëÿ¬ìÿhëÿ¼qëÿìÿìÿ@|ëÿëÿ¼ëÿÄÚÿ ëÿ°¤ëÿè¦ëÿÄÚÿÄÚÿ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id)ration at file URL:%s, error:%@ /* Error: Ran out of types for this method. */;
-+ (id)imumSize;
-+ (id)extEngramGroupIDKey;
++ (id)groupEncryptionDebugLogMaximumSize;
++ (id)IDSMessageContextEngramGroupIDKey;
 + (id);
 
 @end

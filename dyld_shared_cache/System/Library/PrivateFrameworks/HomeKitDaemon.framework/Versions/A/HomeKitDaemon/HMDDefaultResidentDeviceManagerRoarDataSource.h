@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAppleAccountManager, NSNotificationCenter, NSObject, NSString;
+@class NSObject;
 @protocol HMDFeaturesDataSource, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
@@ -19,26 +19,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)Size;
+- (id)_preferencesSize;
 - (id)ntersManager",R,N,V_legacyCountersManager;
 - (id)ic;
-- (void)esidentRapportDiscoverable;
+- (void)primaryResidentRapportDiscoverable;
 - (id)2@;
 - (_Bool)A;
 
 // Remaining properties
-@property(readonly) HMDAppleAccountManager *appleAccountManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) id <HMDFeaturesDataSource> featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isResidentCapable;
-@property(readonly) NSNotificationCenter *notificationCenter;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

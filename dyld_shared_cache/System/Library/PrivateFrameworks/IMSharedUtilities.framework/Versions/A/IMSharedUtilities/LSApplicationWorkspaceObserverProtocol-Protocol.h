@@ -7,6 +7,15 @@
 @protocol LSApplicationWorkspaceObserverProtocol
 
 @optional
-- (void)rEmailAddress:(_Bool)arg1 displayName:metadata: /* Error: Ran out of types for this method. */;
+- (_Bool)_kMACRxDataFrameMatchingRA;
+- (void)rOfRequests;
+- (void)WifiCritical;
+- (void)signatureCarConnectivityConsortium;
+- (void)oneTimeDepositFeatureDescriptor;
+- (void)eta data for the value type:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)ACCOUNT_SERVICE_APPLE_CASH_INSUFFICIENT_FUNDS_ERROR_MESSAGE;
+- (void)aymentAccount"8;
+- (void);
+- (void)recentEventForEmailAddress:(_Bool)arg1 displayName:metadata: /* Error: Ran out of types for this method. */;
 @end
 

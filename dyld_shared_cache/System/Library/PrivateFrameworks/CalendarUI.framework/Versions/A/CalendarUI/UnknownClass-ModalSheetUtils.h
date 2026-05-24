@@ -6,6 +6,6 @@
 
 @interface UnknownClass (ModalSheetUtils)
 - (long long);
-- (long long);
+- (long long);
 @end
 

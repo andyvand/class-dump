@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVPlayerItem, AVPlayerItemIntegratedTimelineSnapshot;
+
 @protocol AVPlayerItemIntegratedTimelineObserver_Internal
+- (void)stVoiceCommandInterpretations:(AVPlayerItemIntegratedTimelineSnapshot *)arg1 preITNNBestVoiceCommandInterpretations:(AVPlayerItem *)arg2 recognitionPaused:firstResultAfterResume:endOfSentenceLikelihood: /* Error: Ran out of types for this method. */;
+- (_Bool)EMTAlternativeDescription;
 @end
 

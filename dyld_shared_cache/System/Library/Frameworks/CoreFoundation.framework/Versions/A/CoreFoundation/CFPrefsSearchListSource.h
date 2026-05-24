@@ -6,37 +6,28 @@
 
 #import <CoreFoundation/CFPrefsSource.h>
 
-@class CFPrefsCloudSource, CFPrefsPlistSource;
-
 __attribute__((visibility("hidden")))
 @interface CFPrefsSearchListSource : CFPrefsSource
 {
     struct __CFDictionary *_keysToSources;
-    struct __CFString *_identifier;
-    struct __CFArray *_sourceList;
-    struct __CFSet *_cloudKeys;
-    struct __CFArray *_cloudPrefixKeys;
-    CFPrefsPlistSource *_standardSetTarget;
-    CFPrefsCloudSource *_cloudSetTarget;
-    _Bool initialized;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (id);
-- (id);
+- (id)ipk;
 - (_Bool)2~`e;
 - (void);
 - (void);
 - (long long)            ! " # $ % & ' ( ) ;
 - (void)>opYvt;
 - (struct __CFArray *);
-- (struct __CFString *)canParameters;
+- (struct __CFString *)CWFScanParameters;
 - (id);
-- (void)DisplayArrangement;
+- (void)SBSRelativeDisplayArrangement;
 - (struct __CFDictionary *);
 - (void);
 - (void);

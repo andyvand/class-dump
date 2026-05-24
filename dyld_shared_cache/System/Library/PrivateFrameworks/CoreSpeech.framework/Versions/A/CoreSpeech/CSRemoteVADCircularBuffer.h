@@ -7,28 +7,22 @@
 @interface CSRemoteVADCircularBuffer
 {
     struct unique_ptr<corespeech::CSAudioCircularBufferImpl<unsigned char>, std::default_delete<corespeech::CSAudioCircularBufferImpl<unsigned char>>> _remoteVADCircularBufferImpl;
-    int _audioSamplesPerRemoteVAD;
-    unsigned long long _capacity;
-    unsigned long long _size;
-    unsigned long long _beginSampleCount;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)B;
+- (id)P;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)b;
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long beginSampleCount; // @synthesize beginSampleCount=_beginSampleCount;
 @property(readonly, nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

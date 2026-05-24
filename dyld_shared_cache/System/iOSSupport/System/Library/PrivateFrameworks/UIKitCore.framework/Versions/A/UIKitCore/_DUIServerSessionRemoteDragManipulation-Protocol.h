@@ -5,5 +5,6 @@
 //
 
 @protocol _DUIServerSessionRemoteDragManipulation
+- (oneway void)__const;
 @end
 

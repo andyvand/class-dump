@@ -10,15 +10,15 @@
 {
 }
 
-- (void);
-- (void);
-- (void);
+- (void)dReachEndOfQueue;
+- (void)orPodcasts-currentItemChanged;
+- (void)CoreMediaErrorDomain;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Q;
 - (void)r"24;
 
 @end

@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface OADGradientFillStop
 {
     OADColor *mColor;
-    float mPosition;
 }
 
 + (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (unsigned long long);

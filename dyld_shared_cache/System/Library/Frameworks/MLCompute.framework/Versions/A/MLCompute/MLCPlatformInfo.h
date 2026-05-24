@@ -15,11 +15,11 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool),@;
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (id);
++ (id);
 + (_Bool);
 + (int);
 + (id);
@@ -29,7 +29,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)ystem/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
 + (_Bool)v;
 + (id)device;
 

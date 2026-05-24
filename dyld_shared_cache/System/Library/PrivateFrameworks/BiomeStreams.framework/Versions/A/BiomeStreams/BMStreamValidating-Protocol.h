@@ -5,5 +5,6 @@
 //
 
 @protocol BMStreamValidating
+- (_Bool);
 @end
 

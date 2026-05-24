@@ -8,27 +8,25 @@ __attribute__((visibility("hidden")))
 @interface CKFocusStatusAuthorizationManager
 {
     _Bool _presentingFocusStatusAuthorizationPrompt;
-    _Bool _presentingInconsistentFocusStatusAuthorizationPrompt;
 }
 
-+ (id)sageBalloonView;
++ (id)TapbackPickerTintableMessageBalloonView;
+- (void)foregroundColorAttributeName;
+- (void),N,V_encryptionStateChecker;
+- (void)r;
+- (void)cachedRange;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)tGAKGtGG;
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (id)f;
+- (void)save on Done, but we've already saved;
+- (void)e:(id)arg1 %@;
+- (_Bool)%@ %@:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isPresentingFocusStatusAuthorizationPrompt) _Bool presentingFocusStatusAuthorizationPrompt; // @synthesize presentingFocusStatusAuthorizationPrompt=_presentingFocusStatusAuthorizationPrompt;
-@property(nonatomic, getter=isPresentingInconsistentFocusStatusAuthorizationPrompt) _Bool presentingInconsistentFocusStatusAuthorizationPrompt; // @synthesize presentingInconsistentFocusStatusAuthorizationPrompt=_presentingInconsistentFocusStatusAuthorizationPrompt;
 
 @end
 

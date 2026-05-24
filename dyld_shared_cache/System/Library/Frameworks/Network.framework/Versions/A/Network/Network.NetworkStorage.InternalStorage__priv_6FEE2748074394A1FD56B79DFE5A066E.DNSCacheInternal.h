@@ -7,11 +7,6 @@
 @interface Network.NetworkStorage.InternalStorage__priv_6FEE2748074394A1FD56B79DFE5A066E.DNSCacheInternal
 {
     id _expirationDate;
-    id _reversedHost;
-    id _port;
-    id _addresses;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

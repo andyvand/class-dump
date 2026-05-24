@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.AccountResolver
 {
     id $__lazy_storage_$_signpostID;
-    id multiUserConnection;
 }
 
 @end

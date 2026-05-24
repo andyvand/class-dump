@@ -5,5 +5,7 @@
 //
 
 @protocol CPXConnectionManaging
+- (int)ringDelegate recoverFromError:(struct CGXConnection *)arg1 ]_block_invoke;
+- (struct CGXConnection *)or NSFetchRequest with NSDictionaryResultType and fetchBatchSize > 0 however propertiesToFetch includes sentinel value 'isDeleted' property:(unsigned int)arg1 %@;
 @end
 

@@ -10,17 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _UISearchFieldCloneManager
 {
     NSMutableSet *_recentClones;
-    UISearchTextField *_activeClone;
-    UISearchTextField *_cloneUndergoingUpdates;
-    _Bool _updatingClone;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)setMessageItems:(id)arg1;
+- (id)messageSyncController;
+- (_Bool)Store history token updated.;
 - (id);
 - (void)was saved, skipping save;
 - (void);

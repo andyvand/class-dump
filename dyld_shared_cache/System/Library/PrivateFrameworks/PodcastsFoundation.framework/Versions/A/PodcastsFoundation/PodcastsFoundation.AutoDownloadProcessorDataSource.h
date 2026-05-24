@@ -7,14 +7,6 @@
 @interface PodcastsFoundation.AutoDownloadProcessorDataSource
 {
     id name;
-    id context;
-    id accountController;
-    id observedShowKeys;
-    id observedEpisodeKeys;
-    id workQueue;
-    id capacityMonitor;
-    id deviceCapacity;
-    id capacityObserver;
 }
 
 @end

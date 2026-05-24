@@ -17,19 +17,19 @@
 + (unsigned long long);
 + (id);
 + (int);
-+ (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
-+ (id);
-+ (id);
++ (id)distantFuture;
 + (id);
 + (id);
 + (unsigned long long);
 + (id);
 + (id);
++ (id)A;
++ (id)setIncludeTemporary:(unsigned long long)arg1;
++ (unsigned long long);
 + (id);
-+ (CDStruct_a16f0967);
++ (id);
++ (id)UsoEntityBuilder_common_Workout;
++ (CDStruct_a16f0967);
 + (id);
 + (id);
 + (unsigned long long);
@@ -42,15 +42,15 @@
 + (id);
 + (CDStruct_908ff15f);
 + (unsigned long long);
-+ (id);
++ (id)tion;
 + (id);
 + (id);
 + (CDStruct_5e29f3d9);
 + (id);
 + (id);
-+ (id);
-+ (CDStruct_33dcf794)AtJoin:(unsigned long long)arg1;
-+ (void)d;
++ (id)Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox;
++ (CDStruct_33dcf794)setRssiAtJoin:(unsigned long long)arg1;
++ (void)_firstRoamAfterRoamRecommLifted;
 
 @end
 

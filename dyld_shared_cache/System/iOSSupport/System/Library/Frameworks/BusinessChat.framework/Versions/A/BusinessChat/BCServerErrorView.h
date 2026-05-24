@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)>",W,N,V_delegate;
 - (id);
 
 // Remaining properties

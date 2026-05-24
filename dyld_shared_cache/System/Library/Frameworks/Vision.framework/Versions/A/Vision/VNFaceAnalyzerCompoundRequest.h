@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (Class);
++ (Class);
 + (const CDStruct_3a02d5a8 *);
 + (unsigned long long);
-- (void);
+- (void)metadataToDictionary:(id)arg1;
 - (unsigned long long);
 - (id);
 - (long long)þÿ8;

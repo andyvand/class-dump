@@ -12,17 +12,17 @@
 }
 
 + (void);
-+ (void);
-+ (void);
++ (void)#;
++ (void)kVaultTrackpadPeripheralKey;
 + (void);
 + (void);
 + (id);
++ (void)`;
 + (void);
-+ (void);
-- (id);
+- (id)io;
 - (id);
 - (void);
-- (void)alDateProvider;
+- (void)CalDateProvider;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *handlers; // @synthesize handlers=_handlers;

@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSString;
+@class NSString;
 
 @interface ICMentionsParticipantNode
 {
     _Bool _isPossibleAll;
-    _Bool _isAll;
-    NSMutableSet *_participants;
-    NSMutableSet *_possibleParticipants;
-    NSString *_key;
-    NSMutableDictionary *_children;
 }
 
-- (void);
-- (void);
+- (void)b;
+- (void)u;
 - (_Bool);
-- (_Bool);
+- (_Bool)R7;
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void)ForIdentifier:(id)arg1 account:isSynced: /* Error: Ran out of types for this method. */;
+- (void)stringForIdentifier:(id)arg1 account:isSynced: /* Error: Ran out of types for this method. */;
 - (void)PÄ\Ç´Ç;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *children; // @synthesize children=_children;
-@property(nonatomic) _Bool isAll; // @synthesize isAll=_isAll;
-@property(nonatomic) _Bool isPossibleAll; // @synthesize isPossibleAll=_isPossibleAll;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSMutableSet *participants; // @synthesize participants=_participants;
-@property(readonly, nonatomic) NSMutableSet *possibleParticipants; // @synthesize possibleParticipants=_possibleParticipants;
 
 @end
 

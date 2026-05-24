@@ -5,31 +5,27 @@
 //
 
 @class NSObject;
-@protocol BUReadChannel, OS_dispatch_group;
+@protocol OS_dispatch_group;
 
 @interface BUZipFileDescriptorWrapper
 {
     int _fileDescriptor;
-    id <BUReadChannel> _readChannel;
-    NSObject<OS_dispatch_group> *_accessGroup;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)pluginChatItem:(int)arg1 didRelenquishNonResuableController:(id)arg2 contextIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
+- (id)";
 - (id);
-- (id);
-- (void);
+- (void)T@"SiriUIBuddyController",W,V_parentController;
 - (void);
 - (int);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_group> *accessGroup; // @synthesize accessGroup=_accessGroup;
-@property(readonly, nonatomic) int fileDescriptor; // @synthesize fileDescriptor=_fileDescriptor;
-@property(readonly, nonatomic) id <BUReadChannel> readChannel; // @synthesize readChannel=_readChannel;
 
 @end
 

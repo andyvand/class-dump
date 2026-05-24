@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSHashTable, NSObject, NSSet, NSString;
-@protocol OS_os_log;
+@class NSHashTable;
 
 @interface _UXSettings
 {
     NSHashTable *_internal_keyObservers;
-    NSHashTable *_internal_keyPathObservers;
-    NSSet *_internal_childKeys;
-    NSSet *_internal_leafKeys;
-    NSDictionary *_internal_keyClasses;
-    NSDictionary *_internal_keyStructs;
-    _Bool _internal_isObservingPropertiesAndChildren;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
-+ (id);
++ (id)nderlying change details:(id)arg1 %{public}@.;
 + (_Bool);
 - (void);
 - (void);
@@ -31,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -51,36 +43,30 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ytSgIeAgHr_;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)zo_;
+- (void)So31PXCMMInvitationViewModelManagerC;
+- (void)So15PXCMMInvitation_p;
+- (id)SaySo7VFXNodeCG;
+- (id)So7NSImageCSg;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id) !b!;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

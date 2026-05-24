@@ -14,11 +14,12 @@
 + (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)olume fade
+;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -28,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasSignedShareUsage;
-@property(retain, nonatomic) CKDPSignedVersionedBlob *signedShareUsage; // @synthesize signedShareUsage=_signedShareUsage;
 
 @end
 

@@ -13,11 +13,11 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)titleDeemphasizedAttributes;
 - (id);
 - (id);
-- (void)erprintLabelStatusCode;
+- (void)wifiFingerprintLabelStatusCode;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *uniqueName;

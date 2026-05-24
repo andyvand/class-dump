@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSAttributedString, NSDateComponents, NSString, NSURL, NSUserActivity;
 @protocol SGSuggestionDelegate;
 
 @interface CoreSuggestionsUI.SGReminderSuggestion
 {
     void suggestionDelegate;
-    id reminder;
-    id reminderNotes;
-    id logger;
-    id realTimeReminder;
-    id bannerForVisionDevice;
 }
 
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)R;
 - (id);
 - (id);
 - (id);
@@ -36,31 +30,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)qA;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)T5;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDateComponents *dueDateComponents;
-@property(nonatomic, readonly) CLLocation *location;
-@property(nonatomic, readonly) long long locationProximity;
-@property(nonatomic, readonly) NSString *locationString;
-@property(nonatomic, readonly) NSAttributedString *notes;
 @property(nonatomic) __weak id <SGSuggestionDelegate> suggestionDelegate; // @synthesize suggestionDelegate;
-@property(nonatomic, readonly) NSAttributedString *title;
-@property(nonatomic, readonly) NSURL *url;
-@property(nonatomic, readonly) NSUserActivity *userActivity;
-@property(nonatomic, readonly) _Bool wantsExtendedDetailOnlyView;
 
 @end
 

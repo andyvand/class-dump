@@ -8,7 +8,6 @@
 {
     id _state;
     id _stackState;
-    id _$observationRegistrar;
 }
 
 @end

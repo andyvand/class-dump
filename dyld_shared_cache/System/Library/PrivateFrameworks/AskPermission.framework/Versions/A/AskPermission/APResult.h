@@ -9,9 +9,6 @@
 @interface APResult
 {
     NSString *_bundleIdentifier;
-    NSString *_buyParams;
-    NSString *_itemIdentifier;
-    NSString *_productType;
 }
 
 - (id);
@@ -27,9 +24,6 @@
 
 // Remaining properties
 @property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) NSString *buyParams; // @synthesize buyParams=_buyParams;
-@property(readonly) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly) NSString *productType; // @synthesize productType=_productType;
 
 @end
 

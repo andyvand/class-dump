@@ -6,20 +6,19 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSSet, PGGraphBusinessNodeCollection;
+@class NSSet;
 
 @interface PGGraphBusinessCategoryNodeCollection : PGGraphNodeCollection
 {
 }
 
-+ (id);
++ (id)h;
 + (id);
 + (Class);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PGGraphBusinessNodeCollection *businessNodes;
 @property(readonly) NSSet *categories;
 
 @end

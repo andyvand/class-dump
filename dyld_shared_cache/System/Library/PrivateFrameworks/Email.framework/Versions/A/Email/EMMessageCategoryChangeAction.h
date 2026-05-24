@@ -6,20 +6,16 @@
 
 #import <Email/EMMessageChangeAction.h>
 
-@protocol ECEmailAddressConvertible;
-
 @interface EMMessageCategoryChangeAction : EMMessageChangeAction
 {
     unsigned long long _categoryType;
-    unsigned long long _changeOptions;
-    id <ECEmailAddressConvertible> _senderAddress;
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)on;
++ (_Bool)P;
 - (void);
 - (id);
-- (id);
+- (id)LocalPresence;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -34,9 +30,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long categoryType; // @synthesize categoryType=_categoryType;
-@property(nonatomic) unsigned long long changeOptions; // @synthesize changeOptions=_changeOptions;
-@property(readonly, nonatomic) _Bool isModelCategoryRestoration;
-@property(copy, nonatomic) id <ECEmailAddressConvertible> senderAddress; // @synthesize senderAddress=_senderAddress;
 
 @end
 

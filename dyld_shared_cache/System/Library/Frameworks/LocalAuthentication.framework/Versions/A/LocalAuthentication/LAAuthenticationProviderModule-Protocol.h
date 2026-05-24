@@ -5,5 +5,6 @@
 //
 
 @protocol LAAuthenticationProviderModule
+- (void);
 @end
 

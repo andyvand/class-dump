@@ -5,5 +5,8 @@
 //
 
 @protocol NUIContainerViewDelegate
+
+@optional
+- (void);
 @end
 

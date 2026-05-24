@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOGenericInstruction
 {
     PBUnknownFields *_unknownFields;
-    NSString *_maneuver;
 }
 
-+ (_Bool)sResultType:(id)arg1;
++ (_Bool)setHasResultType:(id)arg1;
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)resultWithValue:orError: /* Error: Ran out of types for this method. */;
+- (void)?U;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)SMyriadPHash";
+- (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)setIcons:(struct _NSZone *)arg1;
-- (id)verConditionEvaluator;
+- (id)GEOServerConditionEvaluator;
 - (id)on task '%{public}@' succeeded. Allowing it to update the active tile group.;
 - (id);
 - (void)dåÿ_&#;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasManeuver;
-@property(retain, nonatomic) NSString *maneuver;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

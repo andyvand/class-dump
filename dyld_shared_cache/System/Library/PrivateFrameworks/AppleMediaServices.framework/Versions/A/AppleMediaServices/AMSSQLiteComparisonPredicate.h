@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AMSSQLiteComparisonPredicate : AMSSQLitePropertyPredicate
 {
     long long _comparisonType;
-    id _value;
 }
 
 + (id);
@@ -32,7 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) long long comparisonType; // @synthesize comparisonType=_comparisonType;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

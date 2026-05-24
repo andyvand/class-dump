@@ -4,61 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPSharingRestorationStorage
 {
     PBUnknownFields *_unknownFields;
-    double _createdTimestamp;
-    NSString *_groupIdentifier;
-    NSMutableArray *_mapsIdentifiers;
-    NSMutableArray *_messagesIdentifiers;
-    struct {
-        unsigned int createdTimestamp:1;
-    } _has;
 }
 
 + (Class);
-+ (Class);
++ (Class);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (unsigned long long);
 - (id);
+- (id);
+- (unsigned long long)l;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (_Bool);
+- (double)FI_TAddressTextFieldCell;
+- (void)dC;
+- (id)ile ID for node doesn't match item %{public}@;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (double);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)ize=dd}32{CGSize=dd}48@64Q72;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double createdTimestamp; // @synthesize createdTimestamp=_createdTimestamp;
-@property(retain, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
 @property(nonatomic) _Bool hasCreatedTimestamp;
-@property(readonly, nonatomic) _Bool hasGroupIdentifier;
-@property(retain, nonatomic) NSMutableArray *mapsIdentifiers; // @synthesize mapsIdentifiers=_mapsIdentifiers;
-@property(retain, nonatomic) NSMutableArray *messagesIdentifiers; // @synthesize messagesIdentifiers=_messagesIdentifiers;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

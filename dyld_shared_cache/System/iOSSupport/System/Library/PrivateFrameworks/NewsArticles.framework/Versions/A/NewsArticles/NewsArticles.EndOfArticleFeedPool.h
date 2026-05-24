@@ -7,10 +7,6 @@
 @interface NewsArticles.EndOfArticleFeedPool
 {
     id mainHeadline;
-    id moreFromHeadlines;
-    id relatedHeadlines;
-    id recommendedHeadlines;
-    id moreToReadHeadlines;
 }
 
 @end

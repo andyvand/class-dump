@@ -7,8 +7,6 @@
 @interface IMRichCardStyle
 {
     _Bool bold;
-    _Bool italics;
-    _Bool underline;
 }
 
 - (id);
@@ -23,9 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool bold; // @synthesize bold;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) _Bool italics; // @synthesize italics;
-@property(nonatomic, readonly) _Bool underline; // @synthesize underline;
 
 @end
 

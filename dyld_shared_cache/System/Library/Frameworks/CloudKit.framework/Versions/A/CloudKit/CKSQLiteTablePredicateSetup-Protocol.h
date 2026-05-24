@@ -7,6 +7,6 @@
 @class NSPredicate;
 
 @protocol CKSQLiteTablePredicateSetup
-- (void)placementDeltasContainNewData:(NSPredicate *)arg1;
+- (void)initWithValueID:(NSPredicate *)arg1 deltaIdentifiersToReplace:replacementDeltas:replacementDeltasContainNewData: /* Error: Ran out of types for this method. */;
 @end
 

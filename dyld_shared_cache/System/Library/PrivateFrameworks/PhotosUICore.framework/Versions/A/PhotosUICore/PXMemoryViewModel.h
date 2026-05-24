@@ -5,23 +5,16 @@
 //
 
 @class NSString;
-@protocol PXDisplayAsset;
 
 @interface PXMemoryViewModel
 {
     _Bool _isHighlighted;
-    NSString *_localizedDateText;
-    NSString *_localizedTitle;
-    id <PXDisplayAsset> _keyAsset;
-    long long _specSet;
-    long long _variant;
-    struct NSEdgeInsets _layoutMargins;
 }
 
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (id);
@@ -30,27 +23,14 @@
 - (void);
 - (void);
 - (void);
-- (void)apToRadarButton;
+- (void)GenerativeStoryTapToRadarButton;
 - (long long);
 - (struct NSEdgeInsets);
 - (_Bool);
 - (id)Ð¶·ÿq;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isHighlighted; // @synthesize isHighlighted=_isHighlighted;
-@property(readonly, nonatomic) id <PXDisplayAsset> keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(readonly, nonatomic) struct NSEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
 @property(readonly, nonatomic) NSString *localizedDateText; // @synthesize localizedDateText=_localizedDateText;
-@property(readonly, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly, nonatomic) long long specSet; // @synthesize specSet=_specSet;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long variant; // @synthesize variant=_variant;
 
 @end
 

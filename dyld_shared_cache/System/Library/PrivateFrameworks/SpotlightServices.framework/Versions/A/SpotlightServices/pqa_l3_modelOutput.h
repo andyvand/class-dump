@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface pqa_l3_modelOutput
 {
     long long _label;
-    NSDictionary *_prob;
 }
 
 - (void);
@@ -20,13 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)ò°!@ù<1Â0@ù
 × ;
-- (void)hY:id_features: /* Error: Ran out of types for this method. */;
-- (id)e_astyped;
+- (void)initWithY:id_features: /* Error: Ran out of types for this method. */;
+- (id)kMDItemGenre_astyped;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(nonatomic) long long label; // @synthesize label=_label;
-@property(retain, nonatomic) NSDictionary *prob; // @synthesize prob=_prob;
 
 @end
 

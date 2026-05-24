@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface MSRadarInteraction
 {
     NSURL *_radarURL;
-    NSString *_title;
-    NSString *_message;
-    NSString *_openButtonTitle;
-    CDUnknownBlockType _openHandler;
-    NSString *_cancelButtonTitle;
-    CDUnknownBlockType _cancelHandler;
-    NSString *_maybeLaterButtonTitle;
-    CDUnknownBlockType _maybeLaterHandler;
 }
 
 + (id);
@@ -25,7 +17,7 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)@;
 - (id);
 - (void);
 - (void);
@@ -35,24 +27,16 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_didRegisterWindowDidMiniaturizeNotification;
 - (void);
-- (void);
+- (void)0x40;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cancelButtonTitle; // @synthesize cancelButtonTitle=_cancelButtonTitle;
-@property(copy, nonatomic) CDUnknownBlockType cancelHandler; // @synthesize cancelHandler=_cancelHandler;
-@property(copy, nonatomic) NSString *maybeLaterButtonTitle; // @synthesize maybeLaterButtonTitle=_maybeLaterButtonTitle;
-@property(copy, nonatomic) CDUnknownBlockType maybeLaterHandler; // @synthesize maybeLaterHandler=_maybeLaterHandler;
-@property(readonly, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *openButtonTitle; // @synthesize openButtonTitle=_openButtonTitle;
-@property(copy, nonatomic) CDUnknownBlockType openHandler; // @synthesize openHandler=_openHandler;
 @property(readonly, nonatomic) NSURL *radarURL; // @synthesize radarURL=_radarURL;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

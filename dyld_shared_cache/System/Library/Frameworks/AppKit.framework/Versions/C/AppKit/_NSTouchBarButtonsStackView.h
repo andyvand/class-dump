@@ -6,39 +6,33 @@
 
 #import <AppKit/NSStackView.h>
 
-@class NSButtonGroupTouchBarItem, NSLayoutConstraint, NSMutableArray, NSString;
+@class NSButtonGroupTouchBarItem;
 
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarButtonsStackView : NSStackView
 {
     NSButtonGroupTouchBarItem *_groupTouchBarItem;
-    NSLayoutConstraint *_desiredWidthConstraint;
-    NSMutableArray *_preferredWidthConstraints;
-    NSMutableArray *_equalWidthConstraints;
-    NSMutableArray *_adjustableButtons;
-    NSMutableArray *_popoverItems;
-    double _maxWidth;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)T\6;
++ (id)P;
++ (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)chain_blob must be non NULL and chain_blob_length must be non 0;
+- (void)ttributeTypeAndValue format:%d /* Error: Ran out of types for this method. */;
+- (id)copy EAN data for 'seal' - non-fatal.;
+- (id)no error;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (struct CGSize);
@@ -47,72 +41,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)_personaUniqueString;
+- (_Bool)oreHostOnlyFlag;
+- (_Bool)TB,V_ignoreHTTPOnlyCookie;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)%@;
 - (void);
-- (void);
-- (void)antsToolTip:(struct CGRect)arg1 wantsRevealover:atPoint: /* Error: Ran out of types for this method. */;
+- (void)_getColumn:(struct CGRect)arg1 row:cell:cellFrame:toolTipRect:wantsToolTip:wantsRevealover:atPoint: /* Error: Ran out of types for this method. */;
 - (void)mViewer"16;
 - (void)your documents, all your changes will be lost.;
 - (struct CGSize)nt.screenLockUIIsShowing;
 - (struct CGSize)¥l7@;
 
 // Remaining properties
-@property(retain) NSMutableArray *adjustableButtons; // @synthesize adjustableButtons=_adjustableButtons;
-@property(readonly) struct CGSize compressedMinSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) struct CGSize contentClippingSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSLayoutConstraint *desiredWidthConstraint; // @synthesize desiredWidthConstraint=_desiredWidthConstraint;
-@property(retain) NSMutableArray *equalWidthConstraints; // @synthesize equalWidthConstraints=_equalWidthConstraints;
 @property __weak NSButtonGroupTouchBarItem *groupTouchBarItem; // @synthesize groupTouchBarItem=_groupTouchBarItem;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isSpace;
-@property(readonly) _Bool isTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long itemPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) struct CGSize maxSize;
-@property(readonly) struct CGSize minSize;
-@property(readonly) _Bool participatesInOverflow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(retain) NSMutableArray *popoverItems; // @synthesize popoverItems=_popoverItems;
-@property(readonly) struct CGSize preferredSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) double preferredTrailingPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(retain) NSMutableArray *preferredWidthConstraints; // @synthesize preferredWidthConstraints=_preferredWidthConstraints;
-@property(readonly) double preferredZOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) long long priorityIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) Class superclass;
 
 @end
 

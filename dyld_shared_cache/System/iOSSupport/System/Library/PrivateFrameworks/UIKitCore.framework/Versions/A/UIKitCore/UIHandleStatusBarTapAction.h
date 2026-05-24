@@ -8,12 +8,12 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)ecause input is nil;
+- (id)m.apple.private.IMDAvailabilityAutoReplier;
+- (id)est.;
 - (id);
 - (id);
-- (id);
-- (id);
-- (long long)ChangeViewportSize: /* Error: Ran out of types for this method. */;
+- (long long)viewportHandler:didChangeViewportSize: /* Error: Ran out of types for this method. */;
 - (id):(id)arg1;
 - (long long);
 

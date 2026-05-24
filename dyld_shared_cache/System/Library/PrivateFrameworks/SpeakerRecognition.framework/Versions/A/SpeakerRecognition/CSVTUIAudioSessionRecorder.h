@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioPowerMeter, CSAudioProvider, CSAudioStream, NSObject, NSString;
-@protocol CSAudioProviderSelecting, CSVTUIAudioSessionDelegate, OS_dispatch_queue;
+@class CSAudioPowerMeter, CSAudioProvider;
 
 @interface CSVTUIAudioSessionRecorder
 {
     CSAudioProvider *_audioProvider;
-    CSAudioStream *_audioStream;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _startRecordingHostTime;
-    _Bool _shouldUseRecordingStartHostTime;
-    id <CSVTUIAudioSessionDelegate> _delegate;
-    CSAudioPowerMeter *_powerMeter;
-    unsigned long long _audioStreamHandleId;
-    id <CSAudioProviderSelecting> _audioProviderSelector;
 }
 
 - (void);
@@ -26,7 +17,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -39,36 +30,26 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)R-I            |  Rejected measurement because the [I]nnovation test result was a Reject                            |;
 - (void);
 - (void);
 - (void);
 - (float);
-- (id);
+- (id)kCLClientServiceRegionBeacon;
 - (_Bool);
 - (void);
 - (unsigned int);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)temporalAntialiasingEnabled;
 - (void);
 - (void)s Retaining the voice profile with profile id:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)r :%{public}@, appDomain :%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <CSAudioProviderSelecting> audioProviderSelector; // @synthesize audioProviderSelector=_audioProviderSelector;
-@property(nonatomic) unsigned long long audioStreamHandleId; // @synthesize audioStreamHandleId=_audioStreamHandleId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSVTUIAudioSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CSAudioPowerMeter *powerMeter; // @synthesize powerMeter=_powerMeter;
-@property(readonly) Class superclass;
 
 @end
 

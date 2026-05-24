@@ -13,14 +13,26 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (void)ix = sample(src, samplerTransform(src, p));
+  pixA += sample(src, samplerTransform(src, p + vec2(2.0, 0.0)));
+  pixB += sample(src, samplerTransform(src, p + vec2(-2.0, -2.0)));
+  pixA += sample(src, samplerTransform(src, p + vec2(0.0, -2.0)));
+  pixB += sample(src, samplerTransform(src, p + vec2(2.0, -2.0)));
+  pix.b = ((pix.g * 0.25) + (pixA.g * 1.250000e-01)) + (pixB.g * 6.250000e-02);
+  return pix;
+}
+;
+- (void), samplerTransform(b, dc + p.xw))) * w.z;
+  c += sample(a, samplerCoord(a)) * w.x;
+  return c;
+}
+;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)D;
 - (unsigned long long);
 - (id);
 - (void);
@@ -28,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (unsigned int);
 - (void);
@@ -37,16 +49,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)f;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (void)bits (%#x);
-- (const struct MTLRenderPassAttachmentDescriptorPrivate *)FunctionThreadPositionInGridX;
+- (const struct MTLRenderPassAttachmentDescriptorPrivate *)MTLStepFunctionThreadPositionInGridX;
 - (id);
 - (unsigned long long);
 

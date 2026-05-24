@@ -6,8 +6,6 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSString;
-
 @interface SAMPBasicPodcastAppSearch : SADomainCommand
 {
 }
@@ -29,9 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool acceptPodcastCollections;
-@property(nonatomic) _Bool acceptPodcastStations;
-@property(nonatomic) long long maxResults;
-@property(copy, nonatomic) NSString *query;
 
 @end
 

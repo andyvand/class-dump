@@ -13,17 +13,16 @@
 }
 
 + (id);
-+ (id);
++ (id)e;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *companyName;
-@property(copy, nonatomic) NSString *symbol;
 
 @end
 

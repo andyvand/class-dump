@@ -9,23 +9,11 @@
 @interface GEOLogMsgStateMapUIShown
 {
     PBUnknownFields *_unknownFields;
-    int _activeNavMode;
-    _Bool _isAirQualityShown;
-    _Bool _isLookAroundEntryIconShown;
-    _Bool _isVenueExperienceShown;
-    _Bool _isWeatherShown;
-    struct {
-        unsigned int has_activeNavMode:1;
-        unsigned int has_isAirQualityShown:1;
-        unsigned int has_isLookAroundEntryIconShown:1;
-        unsigned int has_isVenueExperienceShown:1;
-        unsigned int has_isWeatherShown:1;
-    } _flags;
 }
 
-+ (_Bool)portEnrichment:(id)arg1;
++ (_Bool)setHasSupportEnrichment:(id)arg1;
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -35,17 +23,17 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -53,7 +41,7 @@
 - (void)data"b1"read_stateOffline"b1"read_stateUserSession"b1"wrote_anyField"b1};
 - (void)wnFields"b1"read_mapsIds"b1"read_trails"b1"wrote_anyField"b1};
 - (_Bool)esourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16C24@28;
-- (id)ng:(struct _NSZone *)arg1;
+- (id)summaryPeriodAsString:(struct _NSZone *)arg1;
 - (id)oute;
 - (void)tÃ;
 - (id)ertion failed:pointStarts != nullptr /* Error: Ran out of types for this method. */;
@@ -64,17 +52,7 @@
 - (void)»;
 
 // Remaining properties
-@property(nonatomic) int activeNavMode;
-@property(nonatomic) _Bool hasActiveNavMode;
 @property(nonatomic) _Bool hasIsAirQualityShown;
-@property(nonatomic) _Bool hasIsLookAroundEntryIconShown;
-@property(nonatomic) _Bool hasIsVenueExperienceShown;
-@property(nonatomic) _Bool hasIsWeatherShown;
-@property(nonatomic) _Bool isAirQualityShown;
-@property(nonatomic) _Bool isLookAroundEntryIconShown;
-@property(nonatomic) _Bool isVenueExperienceShown;
-@property(nonatomic) _Bool isWeatherShown;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

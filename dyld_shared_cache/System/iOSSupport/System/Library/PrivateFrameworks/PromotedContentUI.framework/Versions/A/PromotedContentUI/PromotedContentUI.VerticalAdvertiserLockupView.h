@@ -7,9 +7,6 @@
 @interface PromotedContentUI.VerticalAdvertiserLockupView
 {
     id $__lazy_storage_$_stackView;
-    id textLabel;
-    id imageView;
-    id configuration;
 }
 
 - (id);

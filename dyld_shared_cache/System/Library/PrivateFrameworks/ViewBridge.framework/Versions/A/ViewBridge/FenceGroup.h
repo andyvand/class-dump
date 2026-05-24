@@ -10,16 +10,15 @@ __attribute__((visibility("hidden")))
 @interface FenceGroup
 {
     NSNumber *_fenceGroupID;
-    FenceGroupMember *_activeMember;
 }
 
 + (void);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)^,;
 
 // Remaining properties
 @property __weak FenceGroupMember *activeMember; // @synthesize activeMember=_activeMember;

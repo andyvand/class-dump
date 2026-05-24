@@ -5,5 +5,6 @@
 //
 
 @protocol AFHearablesExperienceManagerClientProtocol
+- (void);
 @end
 

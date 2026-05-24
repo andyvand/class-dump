@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CloudSettingsManager;
-
 @interface MTMouseGesturesBackEnd
 {
     long long _updateDelay;
-    unsigned long long _updateBSCounter;
-    CDUnknownBlockType _updateBSBlock;
-    CloudSettingsManager *_csManager;
-    _Bool _shouldSyncChangesToCloud;
 }
 
 + (id);
@@ -32,30 +26,20 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (long long);
+- (long long):8@"UITextView"16 /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)1F;
 - (long long);
-- (void);
+- (void);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties
-@property long long buttonMode; // @dynamic buttonMode;
-@property _Bool momentumScroll; // @dynamic momentumScroll;
-@property(readonly) unsigned long long mouseType;
-@property long long oneFingerDoubleTap; // @dynamic oneFingerDoubleTap;
-@property long long scrollMode;
-@property double scrollSpeedRaw;
-@property _Bool shouldSyncChangesToCloud; // @synthesize shouldSyncChangesToCloud=_shouldSyncChangesToCloud;
-@property long long twoFingerDoubleTap; // @dynamic twoFingerDoubleTap;
-@property long long twoFingerSwipe; // @dynamic twoFingerSwipe;
 @property unsigned long long updateBSCounter; // @synthesize updateBSCounter=_updateBSCounter;
-@property long long updateDelay; // @synthesize updateDelay=_updateDelay;
 
 @end
 

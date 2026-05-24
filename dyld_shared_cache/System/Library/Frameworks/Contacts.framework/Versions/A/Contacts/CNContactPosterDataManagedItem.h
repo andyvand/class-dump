@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactExternalDetailsManagedObject, NSDate, NSNumber, NSString, NSUUID;
+@class NSDate;
 
 @interface CNContactPosterDataManagedItem
 {
@@ -12,16 +12,9 @@
 
 + (id)g"8;
 - (id);
-- (void)entifier:(id)arg1;
+- (void)internalIdentifiersForStoreWithIdentifier:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contactIdentifier; // @dynamic contactIdentifier;
-@property(retain, nonatomic) NSDate *deletionDate; // @dynamic deletionDate;
-@property(retain, nonatomic) CNContactExternalDetailsManagedObject *externalDetails; // @dynamic externalDetails;
-@property(retain, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic) _Bool ignoredForRevert; // @dynamic ignoredForRevert;
-@property(nonatomic) _Bool isCurrent; // @dynamic isCurrent;
-@property(retain, nonatomic) NSNumber *itemDetailsNumber; // @dynamic itemDetailsNumber;
 @property(retain, nonatomic) NSDate *lastUsedDate; // @dynamic lastUsedDate;
 
 @end

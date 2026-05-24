@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPSecuritySessionEncryption, NSData, NSDictionary, NSObject, NSString;
-@protocol HAPSecuritySessionDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HAPSecuritySession
 {
     struct os_unfair_lock_s _lock;
-    unsigned long long _state;
-    unsigned long long _resumeSessionID;
-    NSData *_broadcastKey;
-    NSDictionary *_additionalDerivedKeys;
-    unsigned long long _sessionStartTime;
-    id <HAPSecuritySessionDelegate> _delegate;
-    unsigned long long _role;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct PairingSessionPrivate *_pairingSession;
-    HAPSecuritySessionEncryption *_encryption;
 }
 
 + (id)dating HTTP client and tearing down pairing session %{public}@;
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,7 +27,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (void);
 - (_Bool);
 - (void);
@@ -47,8 +37,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (struct PairingSessionPrivate *);
+- (void)N8cnmatrix11CNSubMatrixILj20ELj1ELj20ELj1EdEE;
+- (struct PairingSessionPrivate *)N8cnmatrix8CNMatrixILj2ELj1EPFiRKNS0_ILj8ELj1EdEES3_dPvRS1_RNS0_ILj8ELj8EdEES7_EEE;
 - (_Bool);
 - (void);
 - (id);
@@ -59,34 +49,16 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)should come in chronological order. Input %f < last %f, (%@ < %@) segment:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)openFirmwareInRestoreOptions;
 - (unsigned long long);
 - (void)ryServerBrowser>"16@"<HAP2PairedAccessoryServer>"24@"NSError"32;
 - (_Bool)26BB765291;
 
 // Remaining properties
-@property(readonly) NSDictionary *additionalDerivedKeys; // @synthesize additionalDerivedKeys=_additionalDerivedKeys;
-@property(readonly) NSData *broadcastKey; // @synthesize broadcastKey=_broadcastKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HAPSecuritySessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HAPSecuritySessionEncryption *encryption; // @synthesize encryption=_encryption;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isOpen) _Bool open;
-@property(readonly, getter=isOpening) _Bool opening;
-@property(nonatomic) struct PairingSessionPrivate *pairingSession; // @synthesize pairingSession=_pairingSession;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) unsigned long long resumeSessionID; // @synthesize resumeSessionID=_resumeSessionID;
-@property(readonly, nonatomic) unsigned long long role; // @synthesize role=_role;
-@property(readonly) unsigned long long sessionStartTime; // @synthesize sessionStartTime=_sessionStartTime;
-@property unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

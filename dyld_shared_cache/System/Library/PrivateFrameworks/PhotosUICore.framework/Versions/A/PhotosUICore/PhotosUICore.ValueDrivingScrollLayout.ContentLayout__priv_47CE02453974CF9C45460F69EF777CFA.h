@@ -9,13 +9,11 @@
 @interface PhotosUICore.ValueDrivingScrollLayout.ContentLayout__priv_47CE02453974CF9C45460F69EF777CFA
 {
     id firstPageSpriteIndex;
-    id numberOfPages;
-    id updater;
 }
 
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)á;

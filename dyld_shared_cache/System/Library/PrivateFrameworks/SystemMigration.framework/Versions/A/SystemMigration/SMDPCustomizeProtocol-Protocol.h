@@ -5,5 +5,6 @@
 //
 
 @protocol SMDPCustomizeProtocol
+- (void);
 @end
 

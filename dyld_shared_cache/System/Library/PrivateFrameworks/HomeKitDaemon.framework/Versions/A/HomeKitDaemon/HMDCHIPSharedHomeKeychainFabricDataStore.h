@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMTROperationalFabricData, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPSharedHomeKeychainFabricDataStore
 {
     NSUUID *_homeUUID;
-    NSString *_iCloudIdentifier;
 }
 
 + (id);
-- (id);
+- (id)storeDidChange:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,9 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) HMMTROperationalFabricData *fabricData; // @dynamic fabricData;
 @property(readonly, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly, nonatomic) NSString *iCloudIdentifier; // @synthesize iCloudIdentifier=_iCloudIdentifier;
 
 @end
 

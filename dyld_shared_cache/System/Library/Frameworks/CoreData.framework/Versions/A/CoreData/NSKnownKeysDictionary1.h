@@ -6,21 +6,16 @@
 
 #import <CoreData/NSKnownKeysDictionary.h>
 
-@class NSKnownKeysMappingStrategy;
-
 __attribute__((visibility("hidden")))
 @interface NSKnownKeysDictionary1 : NSKnownKeysDictionary
 {
     int _cd_rc;
-    int _count;
-    NSKnownKeysMappingStrategy *_keySearch;
-    id _values[0];
 }
 
 + (id);
 + (id);
-+ (_Bool);
-+ (id);
++ (_Bool)TJ;
++ (id);
 + (_Bool);
 + (id);
 + (id);
@@ -52,7 +47,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)k
+K*;
 - (void)er failed with unknown excception
 ;
 - (id)%@;

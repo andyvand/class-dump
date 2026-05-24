@@ -6,33 +6,12 @@
 
 #import <EventKitUI/EKEventDetailCell.h>
 
-@class EKEventDetailConferenceCell, EKEventDetailSuggestedLocationCell, NSMutableArray, NSObject, NSString, UIButton, UILabel, UIView;
+@class NSObject, UILabel;
 @protocol EKEventDetailTitleCellDelegate;
 
 @interface EKEventDetailTitleCell : EKEventDetailCell
 {
     UILabel *_titleView;
-    NSMutableArray *_locationItems;
-    _Bool _showAllLocation;
-    struct _NSRange _showLocationRange;
-    EKEventDetailSuggestedLocationCell *_suggestedLocationCell;
-    EKEventDetailConferenceCell *_conferenceDetailView;
-    UILabel *_travelTimeView;
-    NSMutableArray *_dateTimeViews;
-    UILabel *_recurrenceView;
-    UILabel *_statusView;
-    UIButton *_editButton;
-    UIButton *_recurrenceButton;
-    unsigned int _visibleItems;
-    _Bool _observingLocaleChanges;
-    _Bool _hideTopCellSeparator;
-    _Bool _hideBottomCellSeparator;
-    int _lastPosition;
-    _Bool _hasMapItemLaunchOptionFromTimeToLeaveNotification;
-    _Bool _showingInlineDayView;
-    _Bool _nonInteractivePlatterMode;
-    NSObject<EKEventDetailTitleCellDelegate> *_delegate;
-    unsigned long long _numberOfTitleLines;
 }
 
 + (id);
@@ -42,27 +21,27 @@
 + (void);
 + (id);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
+- (_Bool)e;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)@@?;
+- (void)o";
 - (double);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)G;
 - (id);
 - (void);
 - (id);
@@ -73,46 +52,34 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)includedLayerContextIDs;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)isKindOfClass: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)sR;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)o Load;
 - (void);
 - (void);
-- (void);
-- (id);
+- (void).;
+- (id)NSString",R,C,N,V_actionIdentifier;
 - (unsigned long long);
-- (void)geView: /* Error: Ran out of types for this method. */;
+- (void)setBackgroundImageView: /* Error: Ran out of types for this method. */;
 - (void)rsvpStatusContainerView;
 - (void)ÔPÀ";
 - (void)àUóÿæ^Îµ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak NSObject<EKEventDetailTitleCellDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasMapItemLaunchOptionFromTimeToLeaveNotification; // @synthesize hasMapItemLaunchOptionFromTimeToLeaveNotification=_hasMapItemLaunchOptionFromTimeToLeaveNotification;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool nonInteractivePlatterMode; // @synthesize nonInteractivePlatterMode=_nonInteractivePlatterMode;
-@property(nonatomic) unsigned long long numberOfTitleLines; // @synthesize numberOfTitleLines=_numberOfTitleLines;
-@property(nonatomic) _Bool showingInlineDayView; // @synthesize showingInlineDayView=_showingInlineDayView;
-@property(readonly, nonatomic) UIView *sourceViewForPopover;
-@property(readonly) Class superclass;
 
 @end
 

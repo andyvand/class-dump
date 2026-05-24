@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PFAPreprocessorExecutionStarted : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
-- (int);
+- (int)ers;
 - (_Bool);
 - (void);
-- (void);
+- (void)ALa;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ail!;
 - (void);
 - (id);
 - (id);
-- (id)eported;
+- (id)_hasMwtCheckpointReported;
 - (id)nt;
-- (void)erSecond;
+- (void)loadScreenContentRateKBsPerSecond;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

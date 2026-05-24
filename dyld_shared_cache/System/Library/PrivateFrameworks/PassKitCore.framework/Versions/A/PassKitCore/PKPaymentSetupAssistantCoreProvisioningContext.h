@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableIndexSet, NSString, PKPaymentProvisioningController;
+@class NSArray, NSMutableIndexSet;
 
 @interface PKPaymentSetupAssistantCoreProvisioningContext
 {
     NSMutableIndexSet *_mutableSelectedIndices;
-    unsigned long long _maximumSelectable;
-    NSArray *_setupAssistantCoreCredentials;
-    PKPaymentProvisioningController *_provisioningController;
 }
 
 - (id);
@@ -21,22 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void)sskitui.spending.work;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) PKPaymentProvisioningController *provisioningController; // @synthesize provisioningController=_provisioningController;
-@property(readonly, retain, nonatomic) NSIndexSet *selectedIndices;
 @property(readonly, retain, nonatomic) NSArray *setupAssistantCoreCredentials; // @synthesize setupAssistantCoreCredentials=_setupAssistantCoreCredentials;
-@property(readonly) Class superclass;
 
 @end
 

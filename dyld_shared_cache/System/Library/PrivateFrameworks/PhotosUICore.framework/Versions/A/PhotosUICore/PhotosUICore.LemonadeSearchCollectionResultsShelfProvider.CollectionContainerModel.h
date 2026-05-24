@@ -7,11 +7,6 @@
 @interface PhotosUICore.LemonadeSearchCollectionResultsShelfProvider.CollectionContainerModel
 {
     id collectionSectionProvider;
-    id _providerObserver;
-    id _localizedTitle;
-    id _isDisabled;
-    id _collectionSortKey;
-    id _$observationRegistrar;
 }
 
 @end

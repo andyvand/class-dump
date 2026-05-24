@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface EspressoInnerProductWeightsForMPS
 {
     struct inner_product_uniforms params;
-    shared_ptr_9dc4c196 weights_blob;
-    struct shared_ptr<Espresso::blob<unsigned short, 2>> weights_f16_blob;
-    struct shared_ptr<Espresso::blob<unsigned char, 2>> quantized_weights_blob;
-    shared_ptr_b3167edd biases_blob;
-    struct shared_ptr<Espresso::blob<float __attribute__((ext_vector_type(2))), 1>> quantization_ranges;
-    shared_ptr_b3167edd quantization_lut;
-    unsigned int data_type;
 }
 
 - (float *);
@@ -32,16 +23,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool)rnelEEENS_9allocatorIS5_EEEE;
-- (_Bool)red_ptr_pointerIPN4E5RT10AsyncEventENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE;
+- (_Bool)NSt3__120__shared_ptr_pointerIPN4E5RT10AsyncEventENS_14default_deleteIS2_EENS_9allocatorIS2_EEEE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray;
 
 @protocol SFTextColumnSection
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *textLines;
-@property(nonatomic) _Bool textNoWrap;
-@property(nonatomic) unsigned long long textWeight;
 @end
 

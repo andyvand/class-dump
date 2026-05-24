@@ -11,31 +11,25 @@ __attribute__((visibility("hidden")))
 @interface CWFEAP8021X
 {
     NSObject<OS_dispatch_queue> *_mutexQueue;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    struct __SCDynamicStore *_storeRef;
-    _Bool _isMonitoringEvents;
-    NSString *_interfaceName;
-    CDUnknownBlockType _eventHandler;
 }
 
 - (_Bool);
 - (void);
+- (id)lob for altDSID:(id *)arg1 %@;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)r presentInheritanceInvitationUIWithBeneficiaryID:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
+- (id);
+- (id))?liga)?spiel?) .{0,40}(im (fernsehen|tv|stadion)|live)? (an|zu)?;
+- (void)!;
 - (CDUnknownBlockType);
-- (void)mePrefix: /* Error: Ran out of types for this method. */;
+- (void)__cancelRequestsWithNamePrefix: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
 @property(readonly, copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
 
 @end

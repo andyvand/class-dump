@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIVisualEffectView;
+@class UIVisualEffectView;
 
 @interface PKTextInputFloatingBackgroundView
 {
     UIVisualEffectView *__blurView;
-    UIView *__textureView;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)hjh8?	;
 - (id);
 - (void)atingCurrentInputMode;
 
 // Remaining properties
 @property(readonly, nonatomic) UIVisualEffectView *_blurView; // @synthesize _blurView=__blurView;
-@property(readonly, nonatomic) UIView *_textureView; // @synthesize _textureView=__textureView;
 
 @end
 

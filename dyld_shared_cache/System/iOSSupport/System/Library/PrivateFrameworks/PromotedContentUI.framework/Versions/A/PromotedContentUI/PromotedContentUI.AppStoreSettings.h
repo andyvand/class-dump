@@ -7,12 +7,6 @@
 @interface PromotedContentUI.AppStoreSettings
 {
     id subsequentThetisFetchDisabled;
-    id enableIrisPrefetch;
-    id irisPrefetchValidTime;
-    id configs;
-    id storeFront;
-    id storeFrontLocale;
-    id defaultAppRequestMetaFields;
 }
 
 @end

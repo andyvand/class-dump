@@ -7,15 +7,19 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)CHCONVERSATIONQUALITYISSUECATEGORY_CRITICAL_ACTION_FAILURE;
+- (id)CHCONVERSATIONQUALITYISSUECATEGORY_ON_SCREEN_CONTEXT_FAILURE;
+- (id)CHCONVERSATIONQUALITYISSUECATEGORY_PERSONAL_CONTEXT_PROFILE_ISSUE;
+- (id)CHCONVERSATIONQUALITYISSUECATEGORY_LOCATION_AWARENESS_FAILURE;
+- (Class)CHCONVERSATIONQUALITYISSUECATEGORY_SPATIAL_CONTEXT_FAILURE;
+- (_Bool)`;
+- (_Bool)nition;
 - (struct _NSZone *)¼7KX1Oý¿8(y´ß;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

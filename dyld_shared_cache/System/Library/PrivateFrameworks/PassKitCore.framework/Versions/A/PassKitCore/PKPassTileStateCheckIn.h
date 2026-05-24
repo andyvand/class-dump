@@ -6,30 +6,29 @@
 
 #import <PassKitCore/PKPassTileState.h>
 
-@class PKDateContainer, PKPassTileAccessory;
+@class PKDateContainer;
 
 @interface PKPassTileStateCheckIn : PKPassTileState
 {
     PKDateContainer *_availableFrom;
-    PKPassTileAccessory *_secondaryAccessory;
 }
 
 + (_Bool)qî%ð1Â0@ù
 × ;
+- (void)R;
 - (void);
-- (void);
+- (id);
+- (_Bool)
+kB;
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)cachedPeersSameInfra;
 - (void)8;
 
 // Remaining properties
 @property(retain, nonatomic) PKDateContainer *availableFrom; // @synthesize availableFrom=_availableFrom;
-@property(retain, nonatomic) PKPassTileAccessory *secondaryAccessory; // @synthesize secondaryAccessory=_secondaryAccessory;
 
 @end
 

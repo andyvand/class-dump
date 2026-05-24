@@ -5,5 +5,8 @@
 //
 
 @protocol JUNQMLParserDelegate
+- (void);
+- (void)yFilterType";
+- (void)"SESLegacyKeySignResponse";
 @end
 

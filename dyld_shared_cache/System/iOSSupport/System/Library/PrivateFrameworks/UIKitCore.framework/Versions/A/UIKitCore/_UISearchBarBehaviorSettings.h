@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UISearchBarBehaviorSettings
 {
     _Bool _useGenerousPadding;
-    double _buttonMinimumHeight;
-    double _buttonTightPadding;
-    double _buttonGenerousPadding;
 }
 
 + (id);
@@ -19,15 +16,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
-- (double);
-- (double);
-- (void);
+- (double)removeParticipants: /* Error: Ran out of types for this method. */;
+- (double)removeObjectAtIndex: /* Error: Ran out of types for this method. */;
+- (double)removeFailedEditsFrom: /* Error: Ran out of types for this method. */;
+- (void)setSourceSceneIdentityString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double buttonGenerousPadding; // @synthesize buttonGenerousPadding=_buttonGenerousPadding;
-@property(nonatomic) double buttonMinimumHeight; // @synthesize buttonMinimumHeight=_buttonMinimumHeight;
-@property(nonatomic) double buttonTightPadding; // @synthesize buttonTightPadding=_buttonTightPadding;
 @property(nonatomic) _Bool useGenerousPadding; // @synthesize useGenerousPadding=_useGenerousPadding;
 
 @end

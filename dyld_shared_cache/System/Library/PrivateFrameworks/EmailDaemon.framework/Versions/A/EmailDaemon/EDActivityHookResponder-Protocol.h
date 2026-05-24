@@ -5,5 +5,8 @@
 //
 
 @protocol EDActivityHookResponder
+
+@optional
+- (void);
 @end
 

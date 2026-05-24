@@ -6,31 +6,22 @@
 
 #import <PassKitCore/PKWebService.h>
 
-@class NSMutableDictionary, NSObject, NSString, NSURL, PKPaymentDevice, PKPeerPaymentService, PKPeerPaymentWebServiceContext, PKSecureElement;
-@protocol OS_dispatch_queue, PKPeerPaymentWebServiceArchiver, PKPeerPaymentWebServiceTargetDeviceProtocol;
+@class PKSecureElement;
 
 @interface PKPeerPaymentWebService : PKWebService
 {
     PKSecureElement *_secureElement;
-    NSMutableDictionary *_prewarmedDeviceScorers;
-    NSObject<OS_dispatch_queue> *_prewarmedDeviceScorersQueue;
-    PKPaymentDevice *_paymentDevice;
-    _Bool _sharedService;
-    PKPeerPaymentWebServiceContext *_context;
-    id <PKPeerPaymentWebServiceArchiver> _archiver;
-    id <PKPeerPaymentWebServiceTargetDeviceProtocol> _targetDevice;
-    PKPeerPaymentService *_peerPaymentService;
 }
 
 + (id)completion: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)R;
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)!;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -40,7 +31,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -51,11 +42,11 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ire updating (applet).;
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ZF;
+- (unsigned long long);
+- (unsigned long long)NW_DEVICE_THERMAL_PRESSURE_SLEEPING_MAC;
 - (void);
 - (id);
 - (unsigned long long);
@@ -76,10 +67,10 @@
 - (unsigned long long)aY"!ÄDùQð%Ð1Â0@ù
 × ;
 - (unsigned long long)y">32;
-- (unsigned long long)actionKeyAttestation:(CDUnknownBlockType)arg1;
+- (unsigned long long)setTransactionKeyAttestation:(CDUnknownBlockType)arg1;
 - (unsigned long long);
-- (_Bool)teDivergentState;
-- (void)etion:(id)arg1;
+- (_Bool)createDivergentState;
+- (void)_setupAccountCredentialForProvisioning:(id)arg1 completion:(id)arg2;
 - (unsigned long long)T@"NSString",C,N,V_provisionedPassUniqueID;
 - (void)e",&,N,V_title;
 - (void)ðh jkPl;
@@ -89,15 +80,15 @@
 - (void)shippingContactFieldsSpecified;
 - (void);
 - (void)t.offers.merchandising.key;
-- (id)leDataInPreTrackRequestKey;
+- (id)PKSharingForceNilVehicleDataInPreTrackRequestKey;
 - (_Bool)ndRestrictionType:'%@';  /* Error: Ran out of types for this method. */;
 - (unsigned long long)hare.cancel;
 - (void)ical-card;
-- (void)ook_transactionTags;
+- (void)Passbook_transactionTags;
 - (_Bool)erWebServiceSelectedOfferResponse"8@"NSError"16;
-- (id)E;
-- (id)stalledInBackup;
-- (void)rdinatorC;
+- (id)NETWORK_NAME_CARTEBLEUE;
+- (id)walletInstalledInBackup;
+- (void)So33PKPaymentAuthorizationCoordinatorC;
 - (id)õãL\§ÿ;
 - (void)T)ÿ;
 - (id)X;
@@ -105,21 +96,7 @@
 - (id)gklì;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountIdentifier;
-@property(readonly, nonatomic) id <PKPeerPaymentWebServiceArchiver> archiver; // @synthesize archiver=_archiver;
-@property(retain, nonatomic) PKPeerPaymentWebServiceContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool needsRegistration;
-@property(retain, nonatomic) PKPeerPaymentService *peerPaymentService; // @synthesize peerPaymentService=_peerPaymentService;
-@property(readonly, nonatomic) NSURL *peerPaymentServiceURL;
 @property(nonatomic, getter=isSharedService) _Bool sharedService; // @synthesize sharedService=_sharedService;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PKPeerPaymentWebServiceTargetDeviceProtocol> targetDevice; // @synthesize targetDevice=_targetDevice;
 
 @end
 

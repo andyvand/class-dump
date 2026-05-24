@@ -9,11 +9,10 @@
 @interface NWStatisticsTCPSource : NWStatisticsSource
 {
     struct nstat_tcp_descriptor _descriptor;
-    unsigned long long _eventFlags;
 }
 
-- (id);
-- (id);
+- (id)eDictionary",R,N,V_mutableAggregationAdditionErrorCounts;
+- (id)TRITreatmentId;
 - (int);
 - (id);
 

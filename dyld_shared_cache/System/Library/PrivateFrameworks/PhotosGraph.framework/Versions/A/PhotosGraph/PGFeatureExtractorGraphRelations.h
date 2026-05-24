@@ -6,27 +6,25 @@
 
 #import <PhotosGraph/PGAssetFeatureExtractor.h>
 
-@class MAFeatureExtractor, PGGraph;
+@class PGGraph;
 
 @interface PGFeatureExtractorGraphRelations : PGAssetFeatureExtractor
 {
     PGGraph *_graph;
-    MAFeatureExtractor *_featureExtractor;
 }
 
+- (id)_;
+- (id);
+- (long long)x;
 - (id);
 - (id);
-- (long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)GHighlightItem;
-- (void)are;
+- (id)reportFirstInteractionAfterTranslation:maxVisibleHeightPercentage: /* Error: Ran out of types for this method. */;
+- (id)PGHighlightItem;
+- (void)tableware;
 - (id)NSNumberCGG;
 
 // Remaining properties
-@property(readonly, nonatomic) MAFeatureExtractor *featureExtractor; // @synthesize featureExtractor=_featureExtractor;
 @property(readonly, nonatomic) PGGraph *graph; // @synthesize graph=_graph;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol SKMessageReceiverProtocol
+- (void);
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface SXBlockActionActivity
 {
     NSString *_label;
-    unsigned long long _type;
-    UIImage *_image;
-    CDUnknownBlockType _genericBlock;
-    CDUnknownBlockType _immediateBlock;
-    CDUnknownBlockType _userSelectedBlock;
 }
 
 - (CDUnknownBlockType);
@@ -29,19 +24,7 @@
 - (void)aption";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) CDUnknownBlockType genericBlock; // @synthesize genericBlock=_genericBlock;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(readonly, copy, nonatomic) CDUnknownBlockType immediateBlock; // @synthesize immediateBlock=_immediateBlock;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) CDUnknownBlockType userSelectedBlock; // @synthesize userSelectedBlock=_userSelectedBlock;
 
 @end
 

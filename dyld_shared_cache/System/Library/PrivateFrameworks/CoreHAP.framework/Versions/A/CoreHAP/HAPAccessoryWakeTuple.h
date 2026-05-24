@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface HAPAccessoryWakeTuple
 {
     NSString *_wakeAddress;
-    long long _wakePort;
-    NSData *_wakePattern;
 }
 
 - (long long);
@@ -18,13 +16,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void)rowser:didFindAirPlayDevice: /* Error: Ran out of types for this method. */;
+- (_Bool)@"BMPruningPolicy",&,N,V_pruningPolicy;
+- (void)wacBrowser:didFindAirPlayDevice: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *wakeAddress; // @synthesize wakeAddress=_wakeAddress;
-@property(readonly, nonatomic) NSData *wakePattern; // @synthesize wakePattern=_wakePattern;
-@property(readonly, nonatomic) long long wakePort; // @synthesize wakePort=_wakePort;
 
 @end
 

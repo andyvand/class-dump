@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSMutableArray, NSSet, NSString, NSURL, WBSHistoryVisit;
-
 @interface WBSHistoryItem
 {
     long long _databaseID;
-    int _visitCount;
-    int _visitCountScore;
-    struct unique_ptr<WBSHistoryItemVisitCountScoresStorage, std::default_delete<WBSHistoryItemVisitCountScoresStorage>> _visitCountScores;
-    NSMutableArray *_visits;
-    WBSHistoryVisit *_lastVisit;
-    _Bool _shouldRecomputeDerivedVisitCountScores;
-    NSURL *_url;
-    NSString *_urlString;
-    long long _statusCode;
 }
 
 + (double);
@@ -36,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)S�;
 - (void);
 - (id);
 - (_Bool);
@@ -74,7 +63,7 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)';
 - (id);
 - (id);
 - (void)ì;
@@ -85,31 +74,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long dailyVisitCountScoresCountOnSynchronizationQueue;
-@property(readonly, nonatomic) NSData *dailyVisitCountScoresDataOnSynchronizationQueue;
-@property(readonly, nonatomic) const int *dailyVisitCountScoresPtrOnSynchronizationQueue;
-@property(nonatomic) long long databaseID; // @synthesize databaseID=_databaseID;
-@property(readonly, nonatomic) WBSHistoryItem *endOfLastVisitRedirectChain;
-@property(readonly, nonatomic) WBSHistoryVisit *lastVisit;
-@property(readonly, nonatomic) WBSHistoryItem *lastVisitRedirectDestinationItem;
-@property(nonatomic) _Bool lastVisitWasFailure;
-@property(readonly, nonatomic) _Bool lastVisitWasHTTPNonGet;
-@property(readonly, nonatomic) NSDate *lastVisitedDate;
-@property(readonly, nonatomic) double lastVisitedTimeInterval;
-@property(readonly, nonatomic) _Bool shouldRecomputeDerivedVisitCountScores; // @synthesize shouldRecomputeDerivedVisitCountScores=_shouldRecomputeDerivedVisitCountScores;
-@property(nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly, nonatomic) NSString *stringForUserTypedDomainExpansion;
-@property(readonly, copy, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
-@property(readonly, copy, nonatomic) NSString *userVisibleHostOrFallbackURLString;
-@property(readonly, nonatomic) NSString *userVisibleURLString;
-@property(readonly, nonatomic) int visitCount;
-@property(readonly, nonatomic) int visitCountScore; // @synthesize visitCountScore=_visitCountScore;
-@property(readonly, nonatomic) NSArray *visits; // @synthesize visits=_visits;
-@property(readonly, nonatomic) NSSet *visitsPendingWriteToDataStoreOnSynchronizationQueue;
-@property(readonly, nonatomic) unsigned long long weeklyVisitCountScoresCountOnSynchronizationQueue;
-@property(readonly, nonatomic) NSData *weeklyVisitCountScoresDataOnSynchronizationQueue;
-@property(readonly, nonatomic) const int *weeklyVisitCountScoresPtrOnSynchronizationQueue;
 
 @end
 

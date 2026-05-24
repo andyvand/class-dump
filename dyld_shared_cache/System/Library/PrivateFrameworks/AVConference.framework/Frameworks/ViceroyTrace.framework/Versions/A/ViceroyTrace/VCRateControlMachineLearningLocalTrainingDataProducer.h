@@ -10,16 +10,13 @@ __attribute__((visibility("hidden")))
 @interface VCRateControlMachineLearningLocalTrainingDataProducer
 {
     NSString *_databasePath;
-    struct sqlite3 *_database;
-    NSString *_directoryPath;
-    NSString *_recipeID;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)_;
+- (void);
+- (void)+;
+- (id)8;
 - (_Bool);
 - (void);
 

@@ -6,19 +6,16 @@
 
 #import <EventKit/EKPersistentObject.h>
 
-@class EKChangeSet, EKReminderStore, NSArray;
+@class EKChangeSet;
 
 __attribute__((visibility("hidden")))
 @interface EKFrozenReminderObject : EKPersistentObject
 {
     EKChangeSet *_changeSet;
-    EKReminderStore *_reminderStore;
-    id _remObject;
-    NSArray *_path;
 }
 
-+ (id);
-+ (_Bool);
++ (id)ller] <%@> deferring PlaybackQueueContentItemsChangedNotification for content items %@ because we are requesting a new playback queue.;
++ (_Bool)ckQueue *_onClientQueue_MRCreatePlaybackQueueForOffset(NSRange, __strong MRPlaybackQueueDataSourceCreateContentItemCallback);
 + (Class);
 + (Class);
 - (id);
@@ -27,32 +24,31 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)ds;
+- (id)n.availableOutputDevices took %lf seconds;
+- (id)Failed to decode MRDiscoveredGroupSession:%@ /* Error: Ran out of types for this method. */;
+- (id)hot Init:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)kClient] Received request %{public}@<%{public}@> from <%{public}@> (%{public}@) with %@ <%{public}@> userInfo %@;
+- (id)r] <%p> Initialized.;
+- (_Bool)", attribs=%@>;
+- (id)supportsConversationDetection;
 - (_Bool);
 - (id);
 - (int);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)P;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)tion;
 - (void)!Dùq2'ð1Â0@ù
 × ;
 - (id)e EKObject from deserialized EKPersistentObject;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *path; // @synthesize path=_path;
 @property(readonly, nonatomic) EKChangeSet *uncommittedChanges;
 
 @end

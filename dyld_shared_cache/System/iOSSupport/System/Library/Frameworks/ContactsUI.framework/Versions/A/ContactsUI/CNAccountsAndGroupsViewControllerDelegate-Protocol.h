@@ -7,10 +7,16 @@
 @class CNAccountsAndGroupsViewController;
 
 @protocol CNAccountsAndGroupsViewControllerDelegate
-- (void)eaderContainerView;
-- (void)ONTACT;
+- (_Bool)toGeneration;
+- (void)bundleRef=%@
+    %@attributes="%@"
+    relationships="%@"
+    uiHelperClassName="%@"
+    propertyDependencies=%@};
+- (void)_headerContainerView;
+- (void)CARD_ACTION_BLOCK_CONTACT;
 
 @optional
-- (void)rchController:(CNAccountsAndGroupsViewController *)arg1;
+- (void)didDismissSearchController:(CNAccountsAndGroupsViewController *)arg1;
 @end
 

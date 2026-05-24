@@ -5,5 +5,9 @@
 //
 
 @protocol AVDetachedFullscreenControllerDelegate
+
+@optional
+- (void)N;
+- (void);
 @end
 

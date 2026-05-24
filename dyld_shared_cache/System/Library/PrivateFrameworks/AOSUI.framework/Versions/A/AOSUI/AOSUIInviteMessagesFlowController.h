@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AALocalContactInfo, AAMessagesInviteContext, AOSUIAccountContactBaseViewModel, AOSUIAccountContactsSharingController, AOSUIOBBaseViewController, NSString, NSWindow;
+@class AAMessagesInviteContext;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIInviteMessagesFlowController
 {
     _Bool _attemptedToSendMessage;
-    AOSUIOBBaseViewController *_baseViewController;
-    NSWindow *_hostWindow;
-    AAMessagesInviteContext *_context;
-    AALocalContactInfo *_contact;
-    AOSUIAccountContactBaseViewModel *_defaultMessageViewModel;
-    AOSUIAccountContactBaseViewModel *_messageSentViewModel;
-    NSWindow *_modalWindow;
-    AOSUIAccountContactsSharingController *_sharingController;
 }
 
 - (id);
@@ -30,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)R_k*3;
 - (id);
 - (_Bool);
 - (void);
@@ -50,22 +42,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property _Bool attemptedToSendMessage; // @synthesize attemptedToSendMessage=_attemptedToSendMessage;
-@property(retain) AOSUIOBBaseViewController *baseViewController; // @synthesize baseViewController=_baseViewController;
-@property(retain) AALocalContactInfo *contact; // @synthesize contact=_contact;
 @property(retain) AAMessagesInviteContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) AOSUIAccountContactBaseViewModel *defaultMessageViewModel; // @synthesize defaultMessageViewModel=_defaultMessageViewModel;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(retain) AOSUIAccountContactBaseViewModel *messageSentViewModel; // @synthesize messageSentViewModel=_messageSentViewModel;
-@property(retain) NSWindow *modalWindow; // @synthesize modalWindow=_modalWindow;
-@property(retain) AOSUIAccountContactsSharingController *sharingController; // @synthesize sharingController=_sharingController;
-@property(readonly) Class superclass;
 
 @end
 

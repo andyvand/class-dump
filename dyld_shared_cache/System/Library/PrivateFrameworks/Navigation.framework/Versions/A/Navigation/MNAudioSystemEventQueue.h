@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol MNAudioEventQueueDelegate, OS_dispatch_queue;
+@class NSMutableArray;
+@protocol MNAudioEventQueueDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MNAudioSystemEventQueue
 {
     NSMutableArray *_container;
-    unsigned long long _capacity;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    id <MNAudioEventQueueDelegate> _delegate;
 }
 
 - (_Bool);
@@ -24,19 +21,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned long long);
 - (void)"16@?<v@?>24;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capacity;
-@property(readonly, nonatomic) unsigned long long count;
 @property(nonatomic) __weak id <MNAudioEventQueueDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool empty;
-@property(readonly, nonatomic) _Bool full;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol VCStreamInputCaptureSourceDelegate
+- (void);
+- (void);
+- (void)";
 @end
 

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPSearchOnServerEnumerator, NSObject, NSSet, SFMutableResultSection;
-@protocol OS_dispatch_queue;
+@class SFMutableResultSection;
 
 @interface SPFileProviderServerQuery
 {
     SFMutableResultSection *_fpServerSection;
-    NSSet *_filterTypes;
-    NSSet *_domainIDs;
-    NSObject<OS_dispatch_queue> *_queue;
-    FPSearchOnServerEnumerator *_enumerator;
 }
 
 + (int);
 + (id);
-+ (unsigned int);
++ (unsigned int);
 + (id);
 - (id);
 - (_Bool);
@@ -32,13 +27,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)!*;
+- (void);
 - (id);
-- (id);
+- (id)ntrol Center module availability status to preferences :%{BOOL}d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)of %ld. startIndex %ld of %ld;
 - (void);
 - (id);
 - (void);
@@ -46,11 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSSet *domainIDs; // @synthesize domainIDs=_domainIDs;
-@property(retain) FPSearchOnServerEnumerator *enumerator; // @synthesize enumerator=_enumerator;
-@property(retain) NSSet *filterTypes; // @synthesize filterTypes=_filterTypes;
 @property(retain) SFMutableResultSection *fpServerSection; // @synthesize fpServerSection=_fpServerSection;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

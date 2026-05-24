@@ -6,15 +6,11 @@
 
 #import <ViewBridge/NSRemoteViewControllerParametersForServiceBase.h>
 
-@class NSObject, NSString, NSUUID;
-@protocol NSSecureCoding;
+@class NSString;
 
 @interface NSRemoteViewControllerParametersForService : NSRemoteViewControllerParametersForServiceBase
 {
     NSString *_serviceViewControllerClassName;
-    NSUUID *_extensionIdentifier;
-    NSObject<NSSecureCoding> *_hostAppClientParameters;
-    NSString *_serviceViewControllerInstanceIdentifier;
 }
 
 + (_Bool);
@@ -22,20 +18,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSUUID *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(copy) NSObject<NSSecureCoding> *hostAppClientParameters; // @synthesize hostAppClientParameters=_hostAppClientParameters;
 @property(copy) NSString *serviceViewControllerClassName; // @synthesize serviceViewControllerClassName=_serviceViewControllerClassName;
-@property(copy) NSString *serviceViewControllerInstanceIdentifier; // @synthesize serviceViewControllerInstanceIdentifier=_serviceViewControllerInstanceIdentifier;
 
 @end
 

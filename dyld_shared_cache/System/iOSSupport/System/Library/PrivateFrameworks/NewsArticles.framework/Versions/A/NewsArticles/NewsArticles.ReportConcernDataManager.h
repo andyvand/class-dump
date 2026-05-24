@@ -7,9 +7,6 @@
 @interface NewsArticles.ReportConcernDataManager
 {
     id service;
-    id context;
-    id userConcernConfigManager;
-    id userConcernConfig;
 }
 
 @end

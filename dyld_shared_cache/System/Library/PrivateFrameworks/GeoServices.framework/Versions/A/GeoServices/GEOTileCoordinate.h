@@ -9,29 +9,21 @@
 @interface GEOTileCoordinate
 {
     PBUnknownFields *_unknownFields;
-    int _x;
-    int _y;
-    int _zoom;
-    struct {
-        unsigned int has_x:1;
-        unsigned int has_y:1;
-        unsigned int has_zoom:1;
-    } _flags;
 }
 
-+ (_Bool)ns:(id)arg1;
++ (_Bool)setMaxSuggestions:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)defaultAudioRouteChangeMonitorMac:(id)arg1 didReceivedOutputAudioRouteChangeEvent: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)MKURLSourceAppId;
 - (_Bool);
 - (void);
 - (void);
@@ -40,9 +32,9 @@
 - (id)entTableBookedSession";
 - (_Bool)eld"b1};
 - (void)1};
-- (id)reviousState;
-- (id)aceReply;
-- (id)ION_ROUTE_STEP_LANE_GUIDANCE;
+- (id)hasPreviousState;
+- (id)GEOPlaceCachePlaceReply;
+- (id)FEEDBACK_FIELD_OPTION_ROUTE_STEP_LANE_GUIDANCE;
 - (int)in (5, 3);
 - (int)ta_refs.subscription_pk, subscription_access_times.timestamp    FROM subscription_data_refs    LEFT JOIN subscription_access_times ON subscription_data_refs.subscription_pk = subscription_access_times.subscription_pk    WHERE subscription_data_refs.data_pk = @data_pk;;
 - (void)´;
@@ -51,12 +43,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(nonatomic) _Bool hasZoom;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) int x;
-@property(nonatomic) int y;
-@property(nonatomic) int zoom;
 
 @end
 

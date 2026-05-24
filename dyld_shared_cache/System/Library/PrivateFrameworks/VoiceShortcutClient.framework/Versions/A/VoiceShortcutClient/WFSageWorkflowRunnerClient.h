@@ -6,16 +6,11 @@
 
 #import <VoiceShortcutClient/WFWorkflowRunnerClient.h>
 
-@class NSString, NSXPCListener;
-@protocol WFSageWorkflowRunnerClientDelegate;
+@class NSString;
 
 @interface WFSageWorkflowRunnerClient : WFWorkflowRunnerClient
 {
     struct os_unfair_lock_s _stepLock;
-    NSString *_siriSessionID;
-    NSXPCListener *_dialogRequestListener;
-    CDUnknownBlockType _startCompletionBlock;
-    CDUnknownBlockType _stepCompletionBlock;
 }
 
 - (void);
@@ -23,53 +18,41 @@
 - (void);
 - (struct os_unfair_lock_s);
 - (CDUnknownBlockType);
-- (id);
+- (id)?l;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)&{;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)�#{;
+- (void)|;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)2|;
+- (void)2|;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WFSageWorkflowRunnerClientDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSXPCListener *dialogRequestListener; // @synthesize dialogRequestListener=_dialogRequestListener;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *siriSessionID; // @synthesize siriSessionID=_siriSessionID;
-@property(copy, nonatomic) CDUnknownBlockType startCompletionBlock; // @synthesize startCompletionBlock=_startCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType stepCompletionBlock; // @synthesize stepCompletionBlock=_stepCompletionBlock;
-@property(readonly, nonatomic) struct os_unfair_lock_s stepLock; // @synthesize stepLock=_stepLock;
-@property(readonly) Class superclass;
 
 @end
 

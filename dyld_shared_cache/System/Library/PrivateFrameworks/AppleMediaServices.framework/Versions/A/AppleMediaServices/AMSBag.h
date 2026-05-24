@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSBagCachedValueUpdateHandlers, AMSBagUnderlyingData, AMSBagUnderlyingDataPersistence, AMSProcessInfo, NSObject;
-@protocol AMSBagDataSourceProtocol, OS_dispatch_queue;
-
 @interface AMSBag
 {
     _Bool _persistenceAPIWasCalled;
-    struct os_unfair_lock_s _updateHandlerConsistencyLock;
-    NSObject<OS_dispatch_queue> *_changeNotificationQueue;
-    NSObject<OS_dispatch_queue> *_persistenceQueue;
-    AMSBagUnderlyingDataPersistence *_persistence;
-    AMSBagUnderlyingData *_temporaryPreloadedBagData;
-    id <AMSBagDataSourceProtocol> _dataSource;
-    AMSProcessInfo *_processInfo;
-    AMSBagCachedValueUpdateHandlers *_updateHandlers;
 }
 
 @end

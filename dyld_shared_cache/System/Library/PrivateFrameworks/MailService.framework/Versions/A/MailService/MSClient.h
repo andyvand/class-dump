@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)stringByReplacingMatchesInString:options:range:withTemplate: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     _Bool _configuredForSolarium;
 }
 
-+ (id);
++ (id)6;
 - (void);
 - (id)40@0:(struct CGRect)arg1 8q16q24q32;
 - (void);

@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFImage;
+@class NSData, SFImage;
 
 @protocol SFImageCopyItem
+- (void)vision=%d, .databaseStorage={ .options={%d}, .occurrenceCount=%d } };
+- (NSData *)N;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(retain, nonatomic) SFImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

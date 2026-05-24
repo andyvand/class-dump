@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MAAutoAssetSetAssetOriginReport
 {
     NSString *_clientDomainName;
-    NSString *_assetSetIdentifier;
-    NSString *_originAtomicInstance;
-    NSArray *_assetOriginEntries;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)d ;
 - (id);
 - (void);
-- (id)sionAttributes;
+- (id);
+- (id);
+- (void);
+- (id)newerVersionAttributes;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *assetOriginEntries; // @synthesize assetOriginEntries=_assetOriginEntries;
-@property(retain, nonatomic) NSString *assetSetIdentifier; // @synthesize assetSetIdentifier=_assetSetIdentifier;
 @property(retain, nonatomic) NSString *clientDomainName; // @synthesize clientDomainName=_clientDomainName;
-@property(retain, nonatomic) NSString *originAtomicInstance; // @synthesize originAtomicInstance=_originAtomicInstance;
 
 @end
 

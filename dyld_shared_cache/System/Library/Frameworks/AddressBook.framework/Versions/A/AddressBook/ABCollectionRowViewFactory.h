@@ -4,45 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewStyleProvider;
-
 @interface ABCollectionRowViewFactory
 {
     _Bool _shouldFormatURLs;
-    _Bool _shouldBuildActionGlyphs;
-    ABCardViewStyleProvider *_styleProvider;
 }
 
-+ (id);
++ (id)R;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
+- (id)7;
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)q;
 - (id);
 - (void);
 - (id);
@@ -54,9 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool shouldBuildActionGlyphs; // @synthesize shouldBuildActionGlyphs=_shouldBuildActionGlyphs;
 @property(nonatomic) _Bool shouldFormatURLs; // @synthesize shouldFormatURLs=_shouldFormatURLs;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
 
 @end
 

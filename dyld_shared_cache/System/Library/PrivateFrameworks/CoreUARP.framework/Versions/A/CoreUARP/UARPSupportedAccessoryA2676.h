@@ -15,8 +15,8 @@
 
 + (id);
 + (unsigned short);
-- (id);
-- (void);
+- (id)AMSPaymentSheetMetricsEvent;
+- (void)6>;
 
 @end
 

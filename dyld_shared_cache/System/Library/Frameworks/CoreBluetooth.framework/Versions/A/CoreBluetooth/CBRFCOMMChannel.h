@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBClassicPeer, CBUUID, NSInputStream, NSOutputStream;
-
 @interface CBRFCOMMChannel
 {
     unsigned char _channelID;
-    _Bool _isIncoming;
-    unsigned char _dataBits;
-    unsigned char _parity;
-    unsigned char _stopBits;
-    unsigned short _mtu;
-    int _socketFD;
-    unsigned int _baudRate;
-    CBClassicPeer *_peer;
-    NSInputStream *_inputStream;
-    NSOutputStream *_outputStream;
-    CBUUID *_serviceUUID;
 }
 
 - (unsigned char);
@@ -30,33 +17,22 @@
 - (id);
 - (unsigned char);
 - (void);
-- (int);
+- (int)i;
 - (void);
 - (unsigned int);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)`K;
 - (id);
 - (unsigned char);
-- (void);
-- (unsigned short)InfoIsReconnecting;
+- (void)Service;
+- (unsigned short)kCBDisconnectInfoIsReconnecting;
 - (id)KitV2;
 
 // Remaining properties
-@property(nonatomic) unsigned int baudRate; // @synthesize baudRate=_baudRate;
-@property(readonly, nonatomic) unsigned char channelID; // @synthesize channelID=_channelID;
-@property(nonatomic) unsigned char dataBits; // @synthesize dataBits=_dataBits;
-@property(readonly, nonatomic) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(readonly, nonatomic) _Bool isIncoming; // @synthesize isIncoming=_isIncoming;
-@property(readonly, nonatomic) unsigned short mtu; // @synthesize mtu=_mtu;
-@property(readonly, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(nonatomic) unsigned char parity; // @synthesize parity=_parity;
-@property(readonly, nonatomic) CBClassicPeer *peer; // @synthesize peer=_peer;
-@property(readonly, nonatomic) CBUUID *serviceUUID; // @synthesize serviceUUID=_serviceUUID;
 @property(readonly, nonatomic) int socketFD; // @synthesize socketFD=_socketFD;
-@property(nonatomic) unsigned char stopBits; // @synthesize stopBits=_stopBits;
 
 @end
 

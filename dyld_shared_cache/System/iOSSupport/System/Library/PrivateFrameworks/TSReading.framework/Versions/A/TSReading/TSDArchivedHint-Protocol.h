@@ -7,6 +7,7 @@
 @protocol TSDHint;
 
 @protocol TSDArchivedHint
+- (id)playStartPosition;
 
 // Remaining properties
 @property(retain, nonatomic) id <TSDHint> hint;

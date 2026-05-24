@@ -9,11 +9,10 @@
 @interface BMBehaviorRetriever
 {
     BMBehaviorStorage *_storage;
-    unsigned long long _fetchLimit;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,10 +22,9 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long)em: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithStartDate:endDate:item: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
 @property(retain, nonatomic) BMBehaviorStorage *storage; // @synthesize storage=_storage;
 
 @end

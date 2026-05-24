@@ -25,7 +25,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)EKPersistentAttendee;
 - (id);
 - (id);
 - (_Bool);
@@ -33,7 +33,7 @@
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *distinctRanges; // @synthesize distinctRanges=_distinctRanges;

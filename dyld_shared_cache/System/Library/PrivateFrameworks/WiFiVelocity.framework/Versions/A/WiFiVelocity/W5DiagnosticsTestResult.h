@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSUUID;
+@class NSUUID;
 
 @interface W5DiagnosticsTestResult
 {
     _Bool _result;
-    _Bool _didPass;
-    NSUUID *_uuid;
-    long long _testID;
-    NSDictionary *_configuration;
-    NSDictionary *_info;
-    NSError *_error;
-    double _testStarted;
-    double _testCompleted;
 }
 
 + (_Bool);
@@ -24,39 +16,31 @@
 - (long long);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (void)4;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (unsigned long long)ContentSupported;
+- (void);
+- (void)E;
+- (_Bool);
+- (void);
+- (id);
+- (void)to transcode...;
+- (id);
+- (id)`;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) _Bool didPass; // @synthesize didPass=_didPass;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(copy, nonatomic) NSDictionary *info; // @synthesize info=_info;
-@property(nonatomic) _Bool result; // @synthesize result=_result;
-@property(nonatomic) double testCompleted; // @synthesize testCompleted=_testCompleted;
-@property(nonatomic) long long testID; // @synthesize testID=_testID;
-@property(nonatomic) double testStarted; // @synthesize testStarted=_testStarted;
 @property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

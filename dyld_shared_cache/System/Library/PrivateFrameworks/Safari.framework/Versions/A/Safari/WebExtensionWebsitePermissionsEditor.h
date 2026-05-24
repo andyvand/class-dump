@@ -6,25 +6,12 @@
 
 #import <Safari/SheetWithTableController.h>
 
-@class NSArray, NSImageView, NSLayoutConstraint, NSPopUpButton, NSString, NSTextField, WBSFaviconRequestsController, WBSPerSitePreference;
+@class NSTextField, WBSPerSitePreference;
 
 __attribute__((visibility("hidden")))
 @interface WebExtensionWebsitePermissionsEditor : SheetWithTableController
 {
     WBSPerSitePreference *_preference;
-    NSArray *_openDomains;
-    NSArray *_configuredDomains;
-    _Bool _shouldSuppressDynamicPreferenceRefresh;
-    _Bool _didAwakeFromNib;
-    WBSFaviconRequestsController *_requestsController;
-    NSTextField *_descriptionLabel;
-    NSTextField *_emptyTablePlaceholderText;
-    NSTextField *_policyWarningLabel;
-    NSImageView *_policyWarningIcon;
-    NSPopUpButton *_defaultPolicyPopUpButton;
-    NSTextField *_defaultPolicyPreferencesLabel;
-    NSLayoutConstraint *_policyWarningIconWidthConstraint;
-    NSLayoutConstraint *_policyWarningIconHeightConstraint;
 }
 
 - (void);
@@ -52,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)L;
 - (void);
 - (id);
 - (id);
@@ -63,21 +50,7 @@ __attribute__((visibility("hidden")))
 - (void)Ì;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak NSPopUpButton *defaultPolicyPopUpButton; // @synthesize defaultPolicyPopUpButton=_defaultPolicyPopUpButton;
-@property __weak NSTextField *defaultPolicyPreferencesLabel; // @synthesize defaultPolicyPreferencesLabel=_defaultPolicyPreferencesLabel;
-@property(readonly, copy) NSString *description;
 @property __weak NSTextField *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property __weak NSTextField *emptyTablePlaceholderText; // @synthesize emptyTablePlaceholderText=_emptyTablePlaceholderText;
-@property(readonly) unsigned long long hash;
-@property __weak NSImageView *policyWarningIcon; // @synthesize policyWarningIcon=_policyWarningIcon;
-@property __weak NSLayoutConstraint *policyWarningIconHeightConstraint; // @synthesize policyWarningIconHeightConstraint=_policyWarningIconHeightConstraint;
-@property __weak NSLayoutConstraint *policyWarningIconWidthConstraint; // @synthesize policyWarningIconWidthConstraint=_policyWarningIconWidthConstraint;
-@property __weak NSTextField *policyWarningLabel; // @synthesize policyWarningLabel=_policyWarningLabel;
-@property(readonly) Class superclass;
 
 @end
 

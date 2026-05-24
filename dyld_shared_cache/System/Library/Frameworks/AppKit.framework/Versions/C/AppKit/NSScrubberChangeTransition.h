@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScrubberLayoutAttributes;
-
 __attribute__((visibility("hidden")))
 @interface NSScrubberChangeTransition
 {
     id _view;
-    NSScrubberLayoutAttributes *_fromAttr;
-    NSScrubberLayoutAttributes *_toAttr;
-    _Bool _isExiting;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)iled to validate domain - label size %d exceeded max label size %d;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)vedBars;
+- (id)_observedBars;
 - (id);
 
 // Remaining properties
-@property(getter=isExiting) _Bool exiting; // @synthesize exiting=_isExiting;
-@property(retain) NSScrubberLayoutAttributes *fromAttr; // @synthesize fromAttr=_fromAttr;
-@property(retain) NSScrubberLayoutAttributes *toAttr; // @synthesize toAttr=_toAttr;
 @property(retain) id view; // @synthesize view=_view;
 
 @end

@@ -11,7 +11,7 @@
     NSDictionary *_contents;
 }
 
-+ (id);
++ (id)@;
 - (id);
 - (id)iew %@.;
 - (void)(ûµÿÄ;

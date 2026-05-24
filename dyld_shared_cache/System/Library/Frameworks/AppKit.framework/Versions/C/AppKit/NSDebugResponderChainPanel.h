@@ -6,16 +6,14 @@
 
 #import <AppKit/NSPanel.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSDebugResponderChainPanel : NSPanel
 {
     _Bool _isObservingKVO;
 }
 
-+ (id);
-+ (id);
++ (id)8@"AVURLAsset"16@"NSString"24@"NSData"32@"NSDictionary"40@"AVAssetDownloadConfiguration"48;
++ (id)NSURLSessionAVAssetDownloadTask"56@0:8@"AVURLAsset"16@"NSString"24@"NSData"32@"NSDictionary"40@"AVAssetDownloadConfiguration"48 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -26,13 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)<{D;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

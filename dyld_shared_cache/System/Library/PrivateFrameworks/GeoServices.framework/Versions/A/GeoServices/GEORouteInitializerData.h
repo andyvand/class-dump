@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAddressObject, GEOComposedRouteAnchorPointList, GEODirectionsRequest, GEODirectionsResponse, GEOETATrafficUpdateResponse, GEORouteAttributes, GEOStyleAttributes, NSArray;
+@class NSArray;
 
 @interface GEORouteInitializerData
 {
     NSArray *_waypoints;
-    GEODirectionsRequest *_directionsRequest;
-    GEODirectionsResponse *_directionsResponse;
-    GEOETATrafficUpdateResponse *_etaTrafficUpdateResponse;
-    GEORouteAttributes *_routeAttributes;
-    GEOStyleAttributes *_styleAttributes;
-    GEOAddressObject *_address;
-    _Bool _isOriginalRouteNavigable;
-    GEOComposedRouteAnchorPointList *_anchorPoints;
 }
 
 + (_Bool)provided ETA route starts from coordinate [%@]. Mixing travel times from directions responses and ETAU responses is not supported yet.;
 
 // Remaining properties
-@property(retain, nonatomic) GEOAddressObject *address; // @synthesize address=_address;
-@property(copy, nonatomic) GEOComposedRouteAnchorPointList *anchorPoints; // @synthesize anchorPoints=_anchorPoints;
-@property(readonly, nonatomic) GEODirectionsRequest *directionsRequest; // @synthesize directionsRequest=_directionsRequest;
-@property(readonly, nonatomic) GEODirectionsResponse *directionsResponse; // @synthesize directionsResponse=_directionsResponse;
-@property(readonly, nonatomic) GEOETATrafficUpdateResponse *etaTrafficUpdateResponse; // @synthesize etaTrafficUpdateResponse=_etaTrafficUpdateResponse;
-@property(nonatomic) _Bool isOriginalRouteNavigable; // @synthesize isOriginalRouteNavigable=_isOriginalRouteNavigable;
-@property(readonly, nonatomic) GEORouteAttributes *routeAttributes; // @synthesize routeAttributes=_routeAttributes;
-@property(readonly, nonatomic) GEOStyleAttributes *styleAttributes; // @synthesize styleAttributes=_styleAttributes;
 @property(readonly, nonatomic) NSArray *waypoints; // @synthesize waypoints=_waypoints;
 
 @end

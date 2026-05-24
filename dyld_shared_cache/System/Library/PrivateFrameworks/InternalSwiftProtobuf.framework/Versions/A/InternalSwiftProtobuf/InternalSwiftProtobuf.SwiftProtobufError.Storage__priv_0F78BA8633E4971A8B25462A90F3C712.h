@@ -7,8 +7,6 @@
 @interface InternalSwiftProtobuf.SwiftProtobufError.Storage__priv_0F78BA8633E4971A8B25462A90F3C712
 {
     id code;
-    id message;
-    id location;
 }
 
 @end

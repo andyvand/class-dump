@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaInstrumentationMessage, SRSTSchemaSRSTClientEventMetadata, SRSTSchemaSRSTStateTransitionEvent;
+@class SISchemaInstrumentationMessage, SRSTSchemaSRSTClientEventMetadata;
 
 @interface SRSTSchemaSRSTClientEvent : SISchemaTopLevelUnionType
 {
     SRSTSchemaSRSTClientEventMetadata *_eventMetadata;
-    SRSTSchemaSRSTStateTransitionEvent *_stateTransitionEvent;
-    _Bool _hasEventMetadata;
-    _Bool _hasStateTransitionEvent;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -29,33 +25,27 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool){;
+- (void)P;
 - (id);
 - (id);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)reloadFromServerWithCompletionBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)CNUIContactRelationsValueTransformer;
+- (_Bool)__strong);
 - (id);
 - (id);
 - (id)Ô ;
-- (unsigned long long)HrTo6Hr;
-- (id)d;
-- (id)arted;
+- (unsigned long long)hasFreqSameGroup1HrTo6Hr;
+- (id)deleteIsLanguageIdentificationEnabled;
+- (id)_hasMeasureStarted;
 - (int)BargeInDetected",&,N,V_ueiUserBargeInDetected;
 - (void)assistantDimensions;
 
 // Remaining properties
-@property(retain, nonatomic) SRSTSchemaSRSTClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasStateTransitionEvent; // @synthesize hasStateTransitionEvent=_hasStateTransitionEvent;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SRSTSchemaSRSTStateTransitionEvent *stateTransitionEvent; // @synthesize stateTransitionEvent=_stateTransitionEvent;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

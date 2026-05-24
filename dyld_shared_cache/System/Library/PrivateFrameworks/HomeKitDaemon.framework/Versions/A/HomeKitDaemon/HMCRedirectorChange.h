@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMCRedirectorChange
 {
     NSSet *_updates;
-    NSSet *_inserts;
-    NSSet *_deletes;
-    NSString *_context;
-    NSString *_author;
 }
 
 - (void);
@@ -27,10 +23,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *author; // @synthesize author=_author;
-@property(readonly) NSString *context; // @synthesize context=_context;
-@property(readonly) NSSet *deletes; // @synthesize deletes=_deletes;
-@property(readonly) NSSet *inserts; // @synthesize inserts=_inserts;
 @property(readonly) NSSet *updates; // @synthesize updates=_updates;
 
 @end

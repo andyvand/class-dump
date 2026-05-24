@@ -6,13 +6,11 @@
 
 #import <MLCompute/MLCLayer.h>
 
-@class MLCEmbeddingDescriptor, MLCTensor, MLCTensorParameter;
+@class MLCEmbeddingDescriptor;
 
 @interface MLCEmbeddingLayer : MLCLayer
 {
     MLCEmbeddingDescriptor *_descriptor;
-    MLCTensor *_weights;
-    MLCTensorParameter *_weightsParameter;
 }
 
 + (_Bool);
@@ -22,22 +20,20 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)R;
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)MPSMatrixDecompositionCholesky;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MLCEmbeddingDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, retain, nonatomic) MLCTensor *weights; // @synthesize weights=_weights;
-@property(readonly, retain, nonatomic) MLCTensorParameter *weightsParameter; // @synthesize weightsParameter=_weightsParameter;
 
 @end
 

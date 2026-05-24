@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome, HMHomeInvitationData, NSDate, NSString, NSURL, NSUUID, _HMContext;
+@class _HMContext;
 
 @interface HMHomeInvitation
 {
     struct os_unfair_lock_s _lock;
-    HMHome *_home;
-    NSURL *_homeObjectURL;
-    _HMContext *_context;
-    HMHomeInvitationData *_invitationData;
 }
 
 + (_Bool);
@@ -22,40 +18,26 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)H(3'
+;
+- (void)PLIOReportAgent_EventBackward_AOPlasreceived;
+- (id)CaptureButtonAction;
+- (id);
+- (unsigned long long);
+- (id);
+- (void)behaviorForSpaceKey:(id)arg1 forReturnKey:forTabKey: /* Error: Ran out of types for this method. */;
+- (id)8	>	0	#	;
+- (_Bool)cosmopolitan;
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void)äp;
 
 // Remaining properties
 @property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDate *endDate;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak HMHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) NSURL *homeObjectURL; // @synthesize homeObjectURL=_homeObjectURL;
-@property(readonly, copy, nonatomic) NSUUID *identifier;
-@property(retain, nonatomic) HMHomeInvitationData *invitationData; // @synthesize invitationData=_invitationData;
-@property(readonly, nonatomic) long long invitationState;
-@property(readonly, copy, nonatomic) NSDate *startDate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

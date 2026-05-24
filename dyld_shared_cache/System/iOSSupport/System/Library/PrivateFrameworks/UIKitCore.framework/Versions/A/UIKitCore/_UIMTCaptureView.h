@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class);
-- (id);
-- (_Bool);
-- (id);
-- (id)clusiveTouchViewAllowsTouchDeliveryWithRecognizerView:(struct CGRect)arg1;
++ (Class)_setSystemVolumeHUDEnabled:forAudioCategory: /* Error: Ran out of types for this method. */;
+- (id)0C48@"NSString"52;
+- (_Bool)ndling message read push:%@ /* Error: Ran out of types for this method. */;
+- (id)nsfer %@ not found for asset %@;
+- (id)_exclusiveTouchViewAllowsTouchDeliveryWithRecognizerView:(struct CGRect)arg1;
 
 @end
 

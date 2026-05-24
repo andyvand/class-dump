@@ -5,5 +5,6 @@
 //
 
 @protocol Core_Audio_Driver_Host_Callback_Delegate
+- (int);
 @end
 

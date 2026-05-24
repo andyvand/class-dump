@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol CWFAssetRootMonitorDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class NSString;
+@protocol CWFAssetRootMonitorDelegate;
 
 @interface CWFAssetRootMonitor
 {
     NSString *monitoredPath;
-    NSString *monitoredParentPath;
-    NSMutableSet *pathsUpdated;
-    NSMutableDictionary *pathsFileAttributes;
-    NSMutableDictionary *pathsFileAttributesAtLastCheck;
-    NSMutableSet *pathsExisting;
-    NSMutableSet *pathsExistingAtLastCheck;
-    long long pathPollingInterval;
-    NSObject<OS_dispatch_queue> *timerQueue;
-    NSObject<OS_dispatch_source> *timer;
-    id <CWFAssetRootMonitorDelegate> _delegate;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)b;
 - (id);
 - (void);
 - (void);

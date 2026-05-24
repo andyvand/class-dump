@@ -4,51 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSString, UIColor;
+@class CAShapeLayer;
 
 __attribute__((visibility("hidden")))
 @interface _UIDropInteractionHighlightEffect
 {
     long long _visualState;
-    double _highlightWidth;
-    double _cornerRadius;
-    double _highlightInset;
-    UIColor *_highlightColor;
-    CAShapeLayer *_shapeLayer;
 }
 
 - (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (struct CGRect);
-- (double);
-- (struct CGRect);
+- (void)8@"NSPredicate"16@?<v@?@"NSArray">24;
+- (void)y"28;
+- (void)sendVCUpdate:toPerson:conference:account: /* Error: Ran out of types for this method. */;
+- (double)_shouldSendBackwardsCompatibleUnreadCountUpdates;
+- (struct CGRect)_shouldMarkAttachmentsAsNeedingReupload;
+- (double)_shouldForceReplicationForStaleChatWithLastKnownReplicationDate: /* Error: Ran out of types for this method. */;
+- (struct CGRect)IMDaemonListenerChatMessageHistoryProtocol;
+- (void)__TEXT;
+- (id);
+- (void)rithm;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)rotateFullScreenSceneWithSceneIdentifier:(id)arg1 toInterfaceOrientation:resultSize: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)nterfaceOrientation:(id)arg1 resultSize: /* Error: Ran out of types for this method. */;
-- (id);
-- (double)rientation;
+- (double)uiInterfaceOrientation;
 - (void);
 - (void)¹;
 
 // Remaining properties
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) UIColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(nonatomic) double highlightInset; // @synthesize highlightInset=_highlightInset;
-@property(nonatomic) double highlightWidth; // @synthesize highlightWidth=_highlightWidth;
 @property(retain, nonatomic) CAShapeLayer *shapeLayer; // @synthesize shapeLayer=_shapeLayer;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,46 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEProcessIdentity, NEUserNotification, NSString, NSXPCConnection;
-@protocol NEExtensionProviderHostDelegate, NEExtensionProviderProtocol;
+@protocol NEExtensionProviderProtocol;
 
 @interface NEExtensionProviderHostContext
 {
     id <NEExtensionProviderProtocol> _vendorContext;
-    NSString *_description;
-    NEUserNotification *_notification;
-    _Bool _stopped;
-    _Bool _isHostingSystemExtension;
-    id <NEExtensionProviderHostDelegate> _delegate;
-    NEProcessIdentity *_extensionProcessIdentity;
-    NSXPCConnection *_vendorConnection;
 }
 
 + (id);
-+ (id);
++ (id)8@16C24@28;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)t create type from system identifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (int);
-- (void)tActiveInterfaceProtocolKey: /* Error: Ran out of types for this method. */;
+- (void)setActiveInterfaceProtocolKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) int requiredEntitlement;
-@property(readonly) Class superclass;
 
 @end
 

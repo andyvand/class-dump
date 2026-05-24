@@ -7,13 +7,11 @@
 @interface MailUI.SectionTitleSupplementaryView_macOS
 {
     id verticalPadding;
-    id horizontalPadding;
-    id $__lazy_storage_$_titleTextField;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)HMIExternalPersonManagerSettings;
 - (void)mailboxToDateLeadingConstraint;
 
 @end

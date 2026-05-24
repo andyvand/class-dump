@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface _SchemaRenditionTuple
 {
     struct _renditionkeytoken key[22];
-    NSMutableDictionary *info;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id).;
 
 @end
 

@@ -6,33 +6,20 @@
 
 #import <SAObjects/SAUITemplateBaseItem.h>
 
-@class NSArray, NSString, SAUITemplateEdgeInsets;
+@class NSArray;
 
 @interface SAUITemplateBaseItemGroup : SAUITemplateBaseItem
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)B;
+- (id)@;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *communicationOptions; // @dynamic communicationOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) SAUITemplateEdgeInsets *fullScreenPaddingDelta; // @dynamic fullScreenPaddingDelta;
-@property(nonatomic) _Bool hasPriorityLayout; // @dynamic hasPriorityLayout;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUITemplateEdgeInsets *padding; // @dynamic padding;
-@property(copy, nonatomic) NSArray *presentationOptions; // @dynamic presentationOptions;
-@property(nonatomic) _Bool shouldBeOffscreenInPartial; // @dynamic shouldBeOffscreenInPartial;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *templateItems;
 
 @end

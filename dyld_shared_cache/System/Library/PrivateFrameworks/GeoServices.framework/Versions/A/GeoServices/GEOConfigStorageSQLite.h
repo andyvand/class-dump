@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
+- (void)C,N,V_valueKeyPath;
+- (id)useCounts,ServerASR_silencePosterior,ClientSPG_silenceProbailitySPGRaw] @ effectiveClientProcessedAudioMs :[HEPPosteriorOut,HEPDecision] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
-- (_Bool)t;
+- (_Bool)GEOSnapScorePoint;
 
 @end
 

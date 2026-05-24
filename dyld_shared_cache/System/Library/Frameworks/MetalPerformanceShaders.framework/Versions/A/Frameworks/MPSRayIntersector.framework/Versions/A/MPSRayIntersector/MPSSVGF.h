@@ -7,25 +7,11 @@
 @interface MPSSVGF
 {
     float _variancePrefilterSigma;
-    float _bilateralFilterSigma;
-    unsigned long long _temporalWeighting;
-    float _temporalReprojectionBlendFactor;
-    float _depthWeight;
-    float _normalWeight;
-    float _luminanceWeight;
-    float _reprojectionThreshold;
-    float _varianceEstimationSigma;
-    unsigned long long _channelCount;
-    unsigned long long _channelCount2;
-    unsigned long long _minimumFramesForVarianceEstimation;
-    unsigned long long _varianceEstimationRadius;
-    unsigned long long _variancePrefilterRadius;
-    unsigned long long _bilateralFilterRadius;
 }
 
 + (const struct MPSLibraryInfo *);
 + (_Bool);
-- (float);
+- (float)q(;
 - (unsigned long long);
 - (float);
 - (unsigned long long);
@@ -42,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (float);
 - (struct MPSSVGFParams);
 - (float);
@@ -55,15 +41,15 @@
 - (void);
 - (void);
 - (void);
-- (float);
+- (float)l;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)?;
 - (float);
 - (unsigned long long);
 - (void);
 - (float);
-- (float);
-- (void);
+- (float);
+- (void)Ȃ;
 - (void);
 - (id);
 - (id);
@@ -73,21 +59,7 @@
 - (unsigned long long)8;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bilateralFilterRadius; // @synthesize bilateralFilterRadius=_bilateralFilterRadius;
-@property(nonatomic) float bilateralFilterSigma;
-@property(nonatomic) unsigned long long channelCount;
-@property(nonatomic) unsigned long long channelCount2;
 @property(nonatomic) float depthWeight;
-@property(nonatomic) float luminanceWeight;
-@property(nonatomic) unsigned long long minimumFramesForVarianceEstimation; // @synthesize minimumFramesForVarianceEstimation=_minimumFramesForVarianceEstimation;
-@property(nonatomic) float normalWeight;
-@property(nonatomic) float reprojectionThreshold;
-@property(nonatomic) float temporalReprojectionBlendFactor;
-@property(nonatomic) unsigned long long temporalWeighting;
-@property(nonatomic) unsigned long long varianceEstimationRadius; // @synthesize varianceEstimationRadius=_varianceEstimationRadius;
-@property(nonatomic) float varianceEstimationSigma;
-@property(nonatomic) unsigned long long variancePrefilterRadius; // @synthesize variancePrefilterRadius=_variancePrefilterRadius;
-@property(nonatomic) float variancePrefilterSigma;
 
 @end
 

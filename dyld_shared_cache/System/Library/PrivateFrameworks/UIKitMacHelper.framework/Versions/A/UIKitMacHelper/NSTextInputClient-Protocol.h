@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSAttributedString;
+
 @protocol NSTextInputClient
+- (void)};
+- (struct CGRect)H;
+- (NSAttributedString *)setDrain_depth_p_0_50_at_charge_start_secs_curr_dynamic_bin_1:(struct _NSRange)arg1;
+- (struct _NSRange);
 - (void)1Â0@ù
 × ;
 - (struct _NSRange)'1Â0@ù
@@ -13,17 +19,12 @@
 - (_Bool)enSceneWindowController _updateForFullscreen:phase:] /* Error: Ran out of types for this method. */;
 
 @optional
+- (double)setDrain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_1:(unsigned long long)arg1;
+- (NSAttributedString *)!;
+- (void)pleted with result %@ ;
 - (_Bool)WÏ;
 
 // Remaining properties
-@property(readonly) struct CGRect documentVisibleRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property(readonly) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property(readonly) struct CGRect unionRectInVisibleSelectedRange;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R

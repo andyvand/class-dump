@@ -8,13 +8,13 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_comparableProbability;
++ (id)_companionSyncPluginSyncObjectAcquisitionStarted;
++ (id)_cirAlertKgWaBoostWebPost;
++ (id)_appDependentEntityFrequencyAndRecencySignals;
++ (id)_appContactFreqForPhoneCallUsingSiri;
++ (id)_appContactFreqForPhoneCallInf;
++ (id)_allHandlesMatched;
 
 @end
 

@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PRSRankingItemRanker, SPMetadataPattern;
+@class NSString;
 
 @interface SPApplicationQuery
 {
     struct __MDAppRankEvaluator *_appRankEvaluator;
-    NSString *_filterQuery;
-    NSArray *_rankingPatterns;
-    PRSRankingItemRanker *_ranker;
-    _Bool _fuzzy;
-    _Bool _isFuzzy;
-    NSString *_queryString;
-    SPMetadataPattern *_queryPattern;
 }
 
 + (void);
 + (int);
 + (void);
-+ (unsigned int);
++ (unsigned int);
 + (void);
 + (_Bool);
 + (_Bool);
@@ -32,20 +25,20 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (void);
 + (void);
 + (void);
 + (void);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (void);
@@ -73,18 +66,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)ST header (%s)
+;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)itWithPrototype: /* Error: Ran out of types for this method. */;
+- (id)initWithPrototype: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool isFuzzy; // @synthesize isFuzzy=_isFuzzy;
-@property(readonly) SPMetadataPattern *queryPattern; // @synthesize queryPattern=_queryPattern;
 @property(readonly) NSString *queryString; // @synthesize queryString=_queryString;
 
 @end

@@ -4,61 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TIInputMode;
-@protocol TIKeyboardInputManagerLogging, TITypologyPreferences;
+@class TIInputMode;
 
 @interface TIKeyboardInputManagerBase
 {
     _Bool _hasHandledInput;
-    TIInputMode *_inputMode;
-    id <TITypologyPreferences> _typologyPreferences;
-    id <TIKeyboardInputManagerLogging> _inputManagerLogger;
 }
 
-- (void);
-- (void);
-- (struct _NSRange);
-- (void);
-- (void);
+- (void)_telephonyClient;
+- (void)_contactIsEmergencyServices: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)scoveryClient;
+- (void)Context;
+- (void)stem/Library/PrivateFrameworks/LiveTranscription.framework/LiveTranscription;
+- (void)ng remote device received text %@;
+- (void)hing subscription contexts %@;
+- (long long)ng support;
+- (_Bool);
+- (id);
+- (id);
+- (id)γ;
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)customLanguageModel;
+- (void)addObserver:(id)arg1 selector:name:object: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (_Bool)kenCount contents:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (id)performSelector:withObject:withObject: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)1Â0@ù
 × ;
@@ -67,11 +63,7 @@
 - (void)pÖ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *currentInputModeIdentifier;
-@property(readonly, nonatomic) _Bool hasHandledInput; // @synthesize hasHandledInput=_hasHandledInput;
-@property(retain, nonatomic) id <TIKeyboardInputManagerLogging> inputManagerLogger; // @synthesize inputManagerLogger=_inputManagerLogger;
 @property(readonly, nonatomic) TIInputMode *inputMode; // @synthesize inputMode=_inputMode;
-@property(retain, nonatomic) id <TITypologyPreferences> typologyPreferences; // @synthesize typologyPreferences=_typologyPreferences;
 
 @end
 

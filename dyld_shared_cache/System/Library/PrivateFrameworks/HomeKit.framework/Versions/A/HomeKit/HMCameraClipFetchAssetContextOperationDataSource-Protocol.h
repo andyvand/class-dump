@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURL;
+
 @protocol HMCameraClipFetchAssetContextOperationDataSource
+- (_Bool)n_mode=? AND badge_type=?                                    AND icon_variant=? AND interpolation=? AND externalGeneratorDataHash=?;
+- (NSURL *);
+- (_Bool)ecclesiology;
 @end
 

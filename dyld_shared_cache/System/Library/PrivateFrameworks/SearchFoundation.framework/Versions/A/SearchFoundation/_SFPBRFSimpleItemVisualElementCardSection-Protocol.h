@@ -7,15 +7,13 @@
 @class NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
 
 @protocol _SFPBRFSimpleItemVisualElementCardSection
-- (void)idDisplayHandleOptions;
+- (_SFPBRFTextProperty *);
+- (_SFPBRFTextProperty *)Q16B24;
+- (void)MPModelRelationshipPlayEventArtist;
+- (NSData *)o;
+- (void)hasDidDisplayHandleOptions;
 
 // Remaining properties
-@property(nonatomic) int attribution_style;
-@property(retain, nonatomic) _SFPBRFTextProperty *footnote;
-@property(nonatomic) int horizontal_alignment;
 @property(retain, nonatomic) _SFPBRFVisualProperty *image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
 @end
 

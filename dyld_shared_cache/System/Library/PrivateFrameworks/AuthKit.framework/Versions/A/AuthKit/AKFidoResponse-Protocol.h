@@ -9,10 +9,6 @@
 @protocol AKFidoResponse
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *challenge;
 @property(readonly, nonatomic) NSString *clientData;
-@property(readonly, nonatomic) NSString *credentialID;
-@property(readonly, nonatomic) NSString *relyingPartyIdentifier;
-@property(readonly, nonatomic) NSString *userIdentifier;
 @end
 

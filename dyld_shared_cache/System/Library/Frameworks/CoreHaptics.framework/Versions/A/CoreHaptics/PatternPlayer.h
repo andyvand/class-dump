@@ -6,7 +6,7 @@
 
 #import <CoreHaptics/PatternPlayerBase.h>
 
-@class AVHapticPlayerChannel, NSString;
+@class AVHapticPlayerChannel;
 
 __attribute__((visibility("hidden")))
 @interface PatternPlayer : PatternPlayerBase
@@ -19,27 +19,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)NSt3__110__function6__baseIFbRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEE;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool isMuted;
-@property(readonly) Class superclass;
 
 @end
 

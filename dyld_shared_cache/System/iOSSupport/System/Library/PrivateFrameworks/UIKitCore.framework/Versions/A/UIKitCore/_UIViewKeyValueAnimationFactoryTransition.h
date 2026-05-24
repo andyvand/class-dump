@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     CABasicAnimation *_toAnimation;
 }
 
-- (void);
+- (void)initWithEventCadence:(id)arg1 maximumLatency:serverObjectDatabase:queue: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)1Â0@ù

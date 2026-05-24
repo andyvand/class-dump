@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSFastEnumeration;
+
 @protocol CPLBatchExtractionStrategyStorage
+- (_Bool)bluetoothDeviceEntityRelevanceCoarseGeoHashAndTimeOfDayFeatures;
+- (_Bool)uploadPausedFileWithFailOnConflict;
+- (id <NSFastEnumeration>)l;
 @end
 

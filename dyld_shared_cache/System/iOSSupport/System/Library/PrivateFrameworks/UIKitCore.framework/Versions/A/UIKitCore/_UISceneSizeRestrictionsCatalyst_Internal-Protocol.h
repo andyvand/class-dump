@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation;
-
 @protocol _UISceneSizeRestrictionsCatalyst_Internal
-- (struct CGSize)e;
+- (void)unreadCountChanged:(struct CGSize)arg1;
+- (struct CGSize)_UIViewGlassState;
 
 // Remaining properties
-@property(nonatomic, setter=_setNeedsStyleMaskUpdates:) _Bool _needsStyleMaskUpdates;
-@property(nonatomic, setter=_setOriginRequestPending:) _Bool _originRequestPending;
 @property(nonatomic, setter=_setPreferredContentSize:) struct CGSize _preferredContentSize;
-@property(nonatomic, setter=_setSizeRequestPending:) _Bool _sizeRequestPending;
-@property(retain, nonatomic, setter=_setWindowFrameAnimationForNextPendingRequest:) CAAnimation *_windowFrameAnimationForNextPendingRequest;
 @end
 

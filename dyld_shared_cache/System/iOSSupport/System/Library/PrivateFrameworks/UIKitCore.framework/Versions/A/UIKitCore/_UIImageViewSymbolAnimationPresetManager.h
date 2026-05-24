@@ -4,40 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSSymbolContentTransition, _UIImageViewPendingSymbolContentTransition;
+@class NSMutableArray;
 @protocol _UIImageViewSymbolAnimationPresetClient;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageViewSymbolAnimationPresetManager
 {
     NSMutableArray *_activeSymbolEffects;
-    NSMutableArray *_pendingSymbolEffects;
-    NSSymbolContentTransition *_activeSymbolContentTransition;
-    _UIImageViewPendingSymbolContentTransition *_pendingSymbolContentTransition;
-    id <_UIImageViewSymbolAnimationPresetClient> _client;
 }
 
 + (id);
+- (_Bool)Item"24q32Q40@"NSString"48C56@"NSString"60;
+- (id)updateRepairHistoryOfChat:(id)arg1 withRepairHistory: /* Error: Ran out of types for this method. */;
+- (_Bool)hideAttachment;
+- (_Bool)haveSeenReceiptsWithQOIThisBatchSet;
+- (void)chatWithGUID: /* Error: Ran out of types for this method. */;
+- (void)originalRequest;
+- (void)rAssetFetchOperations;
+- (void)accounts;
+- (void)ageIDSTrustedData",R,N,V_idsTrustedData;
+- (void)ta",&,N,V_trustedData;
+- (void)n",R,N;
+- (void)bgstMessageProcessingController;
 - (_Bool);
-- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)TAPBACK_INTERPRETATON_REMOVED_STRAIGHT_QUOTES;
 - (id);
 - (id)ionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32@0:8{CGSize=dd}16 /* Error: Ran out of types for this method. */;
-- (void)illEstimated:(id)arg1;
+- (void)dispatchUpdateWithRollAngle:(id)arg1 stillEstimated: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)rItemTitleStyle;
+- (void)_UITabBarItemTitleStyle;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIImageViewSymbolAnimationPresetClient> client; // @synthesize client=_client;

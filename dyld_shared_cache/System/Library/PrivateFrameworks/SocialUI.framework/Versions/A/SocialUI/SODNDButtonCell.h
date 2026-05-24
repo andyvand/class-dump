@@ -8,7 +8,7 @@
 {
 }
 
-- (struct CGRect);
+- (struct CGRect)setScaleAnchorOffset:(struct CGRect)arg1;
 - (struct CGSize);
 
 @end

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2MPGenericEventMetricValue, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface C2MPGenericEventMetric
 {
     NSString *_key;
-    C2MPGenericEventMetricValue *_value;
 }
 
 - (void);
@@ -19,22 +18,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)!7;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) C2MPGenericEventMetricValue *value; // @synthesize value=_value;
 
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
-
 @interface PKDistributionHelperController
 {
     struct os_unfair_lock_s _serviceConnectionLock;
-    NSXPCConnection *_serviceConnection;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)I;
 
 @end
 

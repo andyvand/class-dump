@@ -7,11 +7,6 @@
 @interface Vision.CoreMLPerformingOperation
 {
     id requests;
-    id options;
-    id model;
-    id modelType;
-    id descriptor;
-    id regionOfInterest;
 }
 
 @end

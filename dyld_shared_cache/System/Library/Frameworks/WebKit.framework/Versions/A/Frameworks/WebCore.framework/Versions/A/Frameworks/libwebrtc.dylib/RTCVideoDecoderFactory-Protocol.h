@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+@protocol RTCVideoDecoder;
+
 @protocol RTCVideoDecoderFactory
+- (id <RTCVideoDecoder>);
+- (NSArray *)xmpScript:sceneSetting /* Error: Ran out of types for this method. */;
 @end
 

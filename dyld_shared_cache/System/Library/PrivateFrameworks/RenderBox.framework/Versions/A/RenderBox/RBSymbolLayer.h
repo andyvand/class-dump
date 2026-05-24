@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RBSymbolAnimator;
+@class RBSymbolAnimator;
 
 @interface RBSymbolLayer
 {
     struct objc_ptr<RBSymbolAnimator *> _animator;
-    struct objc_ptr<RBColor (^)(RBSymbolStyle, NSString *)> _styleResolver;
-    struct objc_ptr<bool (^)(RBFill *, CGRect, RBSymbolStyle, NSString *)> _fillResolver;
-    struct objc_ptr<id<RBDisplayListContents>> _drawnList;
-    double _last_time;
-    struct spin_lock _lock;
-    struct atomic<unsigned int> _update_count;
-    unsigned char _state;
-    _Bool _visible;
-    unsigned int _drawingOptions;
-    CDStruct_cb0563aa _symbolTransform;
 }
 
-- (void);
+- (void)p;
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (CDStruct_0b1c536a);
-- (_Bool);
+- (CDStruct_818bb265);
+- (_Bool)o;
 - (CDUnknownBlockType);
 - (unsigned int);
 - (void);
-- (CDStruct_cb0563aa);
+- (CDStruct_7281bdf6);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)newSubscriptionRequest;
+- (id)Ё;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)flightArrivalAirportLocality;
+- (void)PI and SpotlightknowledgedTUV2 enabled, disabling mail message dissector.;
 - (id);
 - (void);
 - (void);
@@ -53,17 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RBSymbolAnimator *animator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int drawingOptions; // @synthesize drawingOptions=_drawingOptions;
-@property(copy, nonatomic) CDUnknownBlockType fillResolver;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType styleResolver;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_cb0563aa symbolTransform; // @synthesize symbolTransform=_symbolTransform;
 
 @end
 

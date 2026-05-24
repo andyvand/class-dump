@@ -9,6 +9,7 @@
     void *_privateData;
 }
 
+- (void)т;
 - (void);
 - (void);
 - (void);
@@ -19,19 +20,19 @@
 - (void);
 - (void);
 - (void);
+- (void)fetyEnabled:(unsigned long long)arg1 eyeReliefEnabled:imageGenerationRestriction:communicationPolicy:communicationWhileLimitedPolicy:contactEditingDisabled:contactManagementEnabled: /* Error: Ran out of types for this method. */;
+- (void)ed:(unsigned long long)arg1 imageGenerationRestriction: /* Error: Ran out of types for this method. */;
+- (void)initWithAppAndWebsiteActivityEnabled:(unsigned long long)arg1 downtimeStartTime:downtimeEndTime:restrictions:passcode:communicationSafetyEnabled:eyeReliefEnabled:imageGenerationRestriction: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)haracterRecognitionData.length = %lu)
+;
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool)î1Â0@ù
 × ;
-- (void)willStartEditing;
+- (void)_willStartEditing;
 
 @end
 

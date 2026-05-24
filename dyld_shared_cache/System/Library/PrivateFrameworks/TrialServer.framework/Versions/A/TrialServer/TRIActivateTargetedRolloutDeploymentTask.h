@@ -6,29 +6,25 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSString, TRIRolloutDeployment, TRIRolloutTaskSupport, TRITaskCapabilityModifier;
-@protocol TRIFactorPackSetId, TRITaskAttributing, TRITaskQueueStateProviding;
+@class TRIRolloutDeployment;
+@protocol TRITaskAttributing;
 
 @interface TRIActivateTargetedRolloutDeploymentTask : TRIBaseTask
 {
     id <TRITaskAttributing> _taskAttribution;
-    TRIRolloutTaskSupport *_support;
-    TRITaskCapabilityModifier *_capabilityModifier;
-    TRIRolloutDeployment *_deployment;
-    NSString<TRIFactorPackSetId> *_factorPackSetId;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)tup exchange response value, %@, is invalid;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)gramRenderJob complete:(id)arg1 ];
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -44,21 +40,7 @@
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
 @property(readonly, nonatomic) TRIRolloutDeployment *deployment; // @synthesize deployment=_deployment;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString<TRIFactorPackSetId> *factorPackSetId; // @synthesize factorPackSetId=_factorPackSetId;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
 
 @end
 

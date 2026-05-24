@@ -5,5 +5,6 @@
 //
 
 @protocol IDSGFTMetricsLinkAttributes
+- (void)ications;
 @end
 

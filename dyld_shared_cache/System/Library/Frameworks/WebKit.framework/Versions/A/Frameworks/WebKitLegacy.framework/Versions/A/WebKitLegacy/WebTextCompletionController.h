@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSTableView, NSWindow, WebHTMLView, WebView;
+@class WebView;
 
 __attribute__((visibility("hidden")))
 @interface WebTextCompletionController
 {
     WebView *_view;
-    WebHTMLView *_htmlView;
-    NSWindow *_popupWindow;
-    NSTableView *_tableView;
-    NSArray *_completions;
-    NSString *_originalString;
-    int prefixLength;
 }
 
 - (_Bool);
@@ -31,16 +25,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)succeeded;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

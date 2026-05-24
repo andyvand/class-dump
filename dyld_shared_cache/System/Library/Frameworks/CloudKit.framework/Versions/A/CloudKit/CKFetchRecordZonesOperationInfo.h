@@ -11,8 +11,6 @@
 @interface CKFetchRecordZonesOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _isFetchAllRecordZonesOperation;
-    _Bool _ignorePCSFailures;
-    NSArray *_recordZoneIDs;
 }
 
 + (_Bool);
@@ -23,12 +21,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (id)rInfo:error:format: /* Error: Ran out of types for this method. */;
+- (id)errorWithDomain:code:userInfo:error:format: /* Error: Ran out of types for this method. */;
 - (void)è/;
 
 // Remaining properties
-@property(nonatomic) _Bool ignorePCSFailures; // @synthesize ignorePCSFailures=_ignorePCSFailures;
-@property(nonatomic) _Bool isFetchAllRecordZonesOperation; // @synthesize isFetchAllRecordZonesOperation=_isFetchAllRecordZonesOperation;
 @property(retain, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
 
 @end

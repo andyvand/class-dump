@@ -10,10 +10,10 @@
 {
 }
 
-- (void);
+- (void)dBufferDescriptor"16;
 - (void);
 - (SEL){;
-- (void)ntext;
+- (void)MOXPCContext;
 - (void);
 
 @end

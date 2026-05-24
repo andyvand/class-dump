@@ -6,28 +6,23 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIInputView;
-
 __attribute__((visibility("hidden")))
 @interface _UIInputViewContent : UIView
 {
     double _contentHeight;
-    double _contentWidth;
-    UIInputView *_inputView;
-    unsigned long long _unclippableCorners;
 }
 
 - (void);
-- (id);
+- (id)markAsSpamForIDs:(struct CGRect)arg1 style:(id)arg2 onServices:chatID:queryID:autoReport:isJunkReportedToCarrier: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (struct CGSize);
-- (void);
-- (void);
-- (_Bool);
+- (void)orDelegateP;
+- (void)s12IMDaemonCore33IMDPersistentTaskExecutorDelegateP;
+- (_Bool)ng Read Reciept Message;
 - (struct CGSize)|;
 - (void);
-- (void)rFluidUpdateSource;
+- (void)_UISliderFluidUpdateSource;
 
 // Remaining properties
 @property(nonatomic) unsigned long long _unclippableCorners; // @synthesize _unclippableCorners;

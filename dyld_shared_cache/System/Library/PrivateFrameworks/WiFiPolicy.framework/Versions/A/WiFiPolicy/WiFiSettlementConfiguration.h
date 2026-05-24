@@ -7,9 +7,6 @@
 @interface WiFiSettlementConfiguration
 {
     unsigned long long _maxScansWithoutMatchForUnsettlement;
-    unsigned long long _maxNetworksForSettlement;
-    double _lowConfidenceSettlementTime;
-    double _highConfidenceSettlementTime;
 }
 
 - (unsigned long long);
@@ -24,9 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double highConfidenceSettlementTime; // @synthesize highConfidenceSettlementTime=_highConfidenceSettlementTime;
-@property(nonatomic) double lowConfidenceSettlementTime; // @synthesize lowConfidenceSettlementTime=_lowConfidenceSettlementTime;
-@property(nonatomic) unsigned long long maxNetworksForSettlement; // @synthesize maxNetworksForSettlement=_maxNetworksForSettlement;
 @property(nonatomic) unsigned long long maxScansWithoutMatchForUnsettlement; // @synthesize maxScansWithoutMatchForUnsettlement=_maxScansWithoutMatchForUnsettlement;
 
 @end

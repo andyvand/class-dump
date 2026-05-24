@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol ISIconSegmentationFeedbackBackground, ISIconSegmentationFeedbackForeground, ISIconSegmentationFeedbackRecolor;
+@protocol ISIconSegmentationFeedbackForeground;
 
 __attribute__((visibility("hidden")))
 @interface ISIconSegmentationFeedback
 {
     id <ISIconSegmentationFeedbackForeground> _foreground;
-    id <ISIconSegmentationFeedbackBackground> _background;
-    id <ISIconSegmentationFeedbackRecolor> _recolorForeground;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (id)ÔÁ.*ð!`Eù±õ-Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <ISIconSegmentationFeedbackBackground> background; // @synthesize background=_background;
 @property(readonly, nonatomic) id <ISIconSegmentationFeedbackForeground> foreground; // @synthesize foreground=_foreground;
-@property(readonly, nonatomic) id <ISIconSegmentationFeedbackRecolor> recolorForeground; // @synthesize recolorForeground=_recolorForeground;
 
 @end
 

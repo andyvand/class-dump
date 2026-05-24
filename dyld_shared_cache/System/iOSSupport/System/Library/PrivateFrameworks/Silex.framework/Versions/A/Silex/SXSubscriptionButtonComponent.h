@@ -10,7 +10,7 @@
 {
 }
 
-- (id)fosWithBlock: /* Error: Ran out of types for this method. */;
+- (id)updateInfosWithBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RMTimedDispatch
 {
     _Bool _complete;
-    NSString *_timerID;
-    CDUnknownBlockType _timerCompletionBlock;
 }
 
 + (id);
@@ -19,15 +15,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool complete; // @synthesize complete=_complete;
 @property(copy) CDUnknownBlockType timerCompletionBlock; // @synthesize timerCompletionBlock=_timerCompletionBlock;
-@property(retain) NSString *timerID; // @synthesize timerID=_timerID;
 
 @end
 

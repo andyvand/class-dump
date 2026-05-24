@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SignpostSupportValueStats
 {
     double *_values;
-    unsigned long long _capacity;
-    _Bool _isSorted;
-    struct {
-        double sum;
-        double min;
-        double max;
-        double variance;
-        double p50;
-        double p90;
-        double p95;
-        double p99;
-    } _stats;
-    unsigned long long _count;
-    NSString *_unitsLabel;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (double);
 - (void);
 - (id);
@@ -35,45 +19,26 @@
 - (void);
 - (double);
 - (double);
-- (double);
+- (double)configWithLanguage:mode:plistPath:vocabPath: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)ject:(id)arg1 %@, %@;
+- (double)J;
+- (double)9!;
 - (double);
 - (double);
-- (double);
-- (double);
-- (void);
+- (void)ER;
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (double);
 - (double);
 - (double);
 - (void);
-- (void)portSubsystemCategoryBlocklist;
+- (void)SignpostSupportSubsystemCategoryBlocklist;
 
 // Remaining properties
-@property(readonly, nonatomic) double average;
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double max;
-@property(readonly, nonatomic) double min;
-@property(readonly, nonatomic) double p50;
-@property(readonly, nonatomic) double p90;
-@property(readonly, nonatomic) double p95;
-@property(readonly, nonatomic) double p99;
-@property(readonly, nonatomic) double stddev;
-@property(readonly, nonatomic) double sum;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsDynamicPercentiles;
-@property(readonly, nonatomic) NSString *unitsLabel; // @synthesize unitsLabel=_unitsLabel;
-@property(readonly, nonatomic) double variance;
 
 @end
 

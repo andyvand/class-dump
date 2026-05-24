@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface SignpostAnimationOverrunQuery
 {
     unsigned long long _overrunType;
-    unsigned long long _overrunClass;
-    NSNumber *_contributingPID;
-    NSNumber *_displayID;
 }
 
 + (id);
-+ (id);
++ (id)Failed to complete pair-verify - error:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)";
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -29,9 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *contributingPID; // @synthesize contributingPID=_contributingPID;
-@property(copy, nonatomic) NSNumber *displayID; // @synthesize displayID=_displayID;
-@property(nonatomic) unsigned long long overrunClass; // @synthesize overrunClass=_overrunClass;
 @property(nonatomic) unsigned long long overrunType; // @synthesize overrunType=_overrunType;
 
 @end

@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface GKRingBuffer
 {
     void *ringBufRef;
-    unsigned int endTime;
-    unsigned int capacity;
-    unsigned int bytesPerFrame;
 }
 
 - (_Bool);
@@ -18,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (id);
-- (void);
+- (void);
 - (id);
 
 @end

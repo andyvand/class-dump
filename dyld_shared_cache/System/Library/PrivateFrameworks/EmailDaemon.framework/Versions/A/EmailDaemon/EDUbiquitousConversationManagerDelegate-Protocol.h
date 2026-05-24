@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol EDUbiquitousConversationManagerDelegate
+- (NSArray *);
+- (long long);
+- (void);
+- (void);
 @end
 

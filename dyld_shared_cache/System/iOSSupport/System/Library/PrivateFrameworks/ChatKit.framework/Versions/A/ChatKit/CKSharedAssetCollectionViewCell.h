@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UILabel, UIView;
+@class NSString, UIView;
 
 __attribute__((visibility("hidden")))
 @interface CKSharedAssetCollectionViewCell
 {
     UIView *_previewView;
-    UILabel *_previewTitleLabel;
-    NSString *_name;
-    NSString *_url;
-    UIView *_previewTitleContainerView;
 }
 
 + (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)ic_applicationHasKeyWindow;
+- (void)ic_appearanceInfoForContent;
+- (id)setIsDroppingLastChecklistItem: /* Error: Ran out of types for this method. */;
+- (id)&,N,V_smartFolderManagedObjectIDs;
 - (id);
 - (void);
-- (void);
 - (id);
+- (id);
+- (void)=;
+- (void);
+- (id)",&,N,V_suggestionsFetchDebounceTimer;
 - (id)1Â0@ù
 × ;
 - (double);
@@ -36,10 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) UIView *previewTitleContainerView; // @synthesize previewTitleContainerView=_previewTitleContainerView;
-@property(retain, nonatomic) UILabel *previewTitleLabel; // @synthesize previewTitleLabel=_previewTitleLabel;
-@property(retain, nonatomic) UIView *previewView; // @synthesize previewView=_previewView;
-@property(retain, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

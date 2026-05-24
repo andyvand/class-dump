@@ -7,16 +7,13 @@
 @class NSData, NSString, _INPBValueMetadata;
 
 @protocol _INPBURLValue
-- (_Bool)tCodableDescription:intentResponseCodableDescription:appInfo:localizer: /* Error: Ran out of types for this method. */;
-- (void)orSearchForMedia:(_INPBValueMetadata *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (_INPBValueMetadata *)ionsCollectionForAddMedia:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSData *)gary stampede;
+- (_Bool)_dictionaryRepresentationForIntentCodableDescription:intentResponseCodableDescription:appInfo:localizer: /* Error: Ran out of types for this method. */;
+- (void)provideMediaItemsOptionsCollectionForSearchForMedia:(_INPBValueMetadata *)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBValueMetadata *)provideMediaItemsOptionsCollectionForAddMedia:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *absoluteString;
-@property(readonly, nonatomic) _Bool hasAbsoluteString;
-@property(readonly, nonatomic) _Bool hasScope;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(copy, nonatomic) NSData *scope;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, geo_isolater;
-@protocol OS_dispatch_source;
+@class geo_isolater;
 
 @interface GEORequestThrottler
 {
     geo_isolater *_isolater;
-    NSMutableDictionary *_enqueuedTickets;
-    _Bool _isSubmitting;
-    double _nextSubmissionTime;
-    NSObject<OS_dispatch_source> *_submissionTimer;
 }
 
-+ (id)obalPmiScore;
++ (id)_globalPmiScore;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)sWifiBand:(double)arg1;
+- (void)setHasWifiBand:(double)arg1;
 - (void)«uâr¼(P@;
 
 @end

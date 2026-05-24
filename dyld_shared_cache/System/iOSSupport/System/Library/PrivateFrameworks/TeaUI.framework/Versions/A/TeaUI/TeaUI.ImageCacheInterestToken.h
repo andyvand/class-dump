@@ -7,7 +7,6 @@
 @interface TeaUI.ImageCacheInterestToken
 {
     id rawState;
-    id onRelease;
 }
 
 @end

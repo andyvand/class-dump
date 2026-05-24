@@ -7,7 +7,6 @@
 @interface NewsUI2.WebViewerModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

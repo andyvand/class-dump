@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet;
+@class NSSet;
 @protocol RBSInvalidatable;
 
 __attribute__((visibility("hidden")))
 @interface RBSStateCaptureSet
 {
     id <RBSInvalidatable> _invalidatable;
-    NSMutableSet *_stateCaptureSegments;
 }
 
 - (id);
-- (id);
+- (id)fetchResultForPhotoIdentifiers:isSyndicated: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSet *itemsCopy;

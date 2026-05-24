@@ -7,9 +7,6 @@
 @interface UIAcceleration
 {
     double _timestamp;
-    double _x;
-    double _y;
-    double _z;
 }
 
 - (id);
@@ -17,7 +14,7 @@
 - (void)!Bù]1Â0@ù
 × ;
 - (double)fTimer"b1"versionWithoutRecentChangesIsNotLastOpened"b1"ignoreUndoAndRedoNotifications"b1"editingTemporarilyDisabled"b1"editingDisabledDueToPermissions"b1"isRegisteredAsFilePresenter"b1"movingFile"b1"savingError"b1"inConflict"b1"needToStopAccessingSecurityScopedResource"b1"replacedDefaultUserActivity"b1};
-- (void)tionRequestOptions;
+- (void)UISceneActivationRequestOptions;
 - (void);
 - (void)`¨;
 - (double);
@@ -25,9 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
-@property(nonatomic) double z; // @synthesize z=_z;
 
 @end
 

@@ -6,14 +6,12 @@
 
 #import <CoreData/NSSQLProperty.h>
 
-@class NSSQLEntity, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLRelationship : NSSQLProperty
 {
     NSString *_name;
-    NSSQLEntity *_destinationEntity;
-    NSSQLRelationship *_inverse;
 }
 
 - (void);

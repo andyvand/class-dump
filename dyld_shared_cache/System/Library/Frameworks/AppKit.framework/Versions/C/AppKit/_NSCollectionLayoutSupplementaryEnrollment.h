@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutSupplementaryEnrollment
 {
     NSString *_kind;
-    NSUUID *_enrollmentIdentifier;
 }
 
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (void)progress;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *enrollmentIdentifier; // @synthesize enrollmentIdentifier=_enrollmentIdentifier;
 @property(readonly, nonatomic) NSString *kind; // @synthesize kind=_kind;
 
 @end

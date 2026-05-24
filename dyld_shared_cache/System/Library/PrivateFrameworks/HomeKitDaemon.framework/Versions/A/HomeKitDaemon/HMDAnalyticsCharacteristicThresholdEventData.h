@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface HMDAnalyticsCharacteristicThresholdEventData
 {
     _Bool _maxPresent;
-    _Bool _minPresent;
 }
 
-- (void);
-- (void);
+- (void).;
+- (void);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property _Bool maxPresent; // @synthesize maxPresent=_maxPresent;
-@property _Bool minPresent; // @synthesize minPresent=_minPresent;
 
 @end
 

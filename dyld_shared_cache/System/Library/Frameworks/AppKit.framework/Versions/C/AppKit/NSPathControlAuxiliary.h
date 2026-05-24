@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPathComponentCell;
-
 __attribute__((visibility("hidden")))
 @interface NSPathControlAuxiliary
 {
     unsigned long long _dropOperation;
-    NSPathComponentCell *_dropCell;
-    id _unsafeDelegate;
 }
 
 - (void);
@@ -21,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) NSPathComponentCell *dropCell; // @synthesize dropCell=_dropCell;
 @property unsigned long long dropOperation; // @synthesize dropOperation=_dropOperation;
 
 @end

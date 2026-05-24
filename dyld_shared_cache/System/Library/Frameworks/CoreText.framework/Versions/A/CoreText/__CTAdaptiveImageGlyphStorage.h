@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface __CTAdaptiveImageGlyphStorage
 {
     NSData *_fallbackImageData;
-    NSData *_RTFDImageData;
-    NSData *_imageContent;
-    NSString *_contentIdentifier;
-    NSString *_imageDescription;
-    struct CGImageSource *_imageSourceRef;
-    id _nominalTextAttachment;
 }
 
 + (void);
 + (id);
+- (id);
+- (struct CGImageSource *);
+- (id);
+- (id);
+- (void);
 - (id);
-- (struct CGImageSource *);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void)¬;
 
 // Remaining properties
-@property(readonly) NSData *_RTFDImageData;
-@property(readonly) NSData *_fallbackImageData;
-@property(retain, nonatomic, setter=_setNominalTextAttachment:) id _nominalTextAttachment; // @synthesize _nominalTextAttachment;
-@property(readonly) NSString *contentIdentifier; // @synthesize contentIdentifier=_contentIdentifier;
 @property(readonly) NSData *imageContent; // @synthesize imageContent=_imageContent;
-@property(readonly) NSString *imageDescription; // @synthesize imageDescription=_imageDescription;
-@property(readonly) struct CGImageSource *imageSourceRef; // @synthesize imageSourceRef=_imageSourceRef;
 
 @end
 

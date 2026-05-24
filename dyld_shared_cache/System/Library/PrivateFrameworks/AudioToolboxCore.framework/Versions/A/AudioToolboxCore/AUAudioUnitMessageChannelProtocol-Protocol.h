@@ -5,5 +5,8 @@
 //
 
 @protocol AUAudioUnitMessageChannelProtocol
+
+@optional
+- (void);
 @end
 

@@ -9,9 +9,6 @@
 @interface TRIPBBoolEnumDictionary
 {
     TRIPBMessage *_autocreator;
-    CDUnknownFunctionPointerType _validationFunc;
-    int _values[2];
-    _Bool _valueSet[2];
 }
 
 - (id);
@@ -28,8 +25,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)SFSafariAttributes;
+- (void);
 - (id);
 - (void);
 - (id);
@@ -39,11 +36,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)nu;
+- (void)CoreosXnu;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType validationFunc; // @synthesize validationFunc=_validationFunc;
 
 @end
 

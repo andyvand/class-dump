@@ -9,7 +9,6 @@
 @interface PCSKeybagKey
 {
     NSData *_data;
-    long long _flags;
 }
 
 + (_Bool);
@@ -19,11 +18,10 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)n factories for %@;
 
 // Remaining properties
 @property(retain) NSData *data; // @synthesize data=_data;
-@property long long flags; // @synthesize flags=_flags;
 
 @end
 

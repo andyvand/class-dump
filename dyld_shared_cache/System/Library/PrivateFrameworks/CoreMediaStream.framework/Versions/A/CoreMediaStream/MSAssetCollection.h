@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSAsset, NSArray, NSData, NSDate, NSString;
+@class NSString;
 
 @interface MSAssetCollection
 {
     NSString *_assetCollectionID;
-    NSString *_ctag;
-    MSAsset *_masterAsset;
-    NSArray *_derivedAssets;
-    NSString *_fileName;
-    _Bool _wasDeleted;
-    NSDate *_serverUploadedDate;
-    long long _initialFailureDate;
 }
 
 + (id);
-+ (id);
++ (id)d 1 element to context;
 + (_Bool);
+- (void)t device because it isn't a part of any homes:(id)arg1 %{public}@;
+- (void){public}@We do not have a current device (probably logged out from iCloud).;
+- (void)nding status update (our resident device identifier is not set (probably unaccessible));
+- (void)nding status update with force:(id)arg1 %@;
+- (id)mit timer for %{public}@ for %fs;
+- (id)pture has started after relay;
+- (long long)blic,uuid_t}.16P (class:%@) /* Error: Ran out of types for this method. */;
+- (id):(id)arg1 %@;
+- (id)on with HMDCameraSnapshotRemoteStreamReceiver;
+- (id)g this to remote pending request queue;
+- (void)ial state %@;
+- (id)nager;
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)*****a;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -47,14 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *assetCollectionID; // @synthesize assetCollectionID=_assetCollectionID;
-@property(retain, nonatomic) NSString *ctag; // @synthesize ctag=_ctag;
-@property(retain, nonatomic) NSArray *derivedAssets;
-@property(retain, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(nonatomic) long long initialFailureDate; // @synthesize initialFailureDate=_initialFailureDate;
-@property(retain, nonatomic) MSAsset *masterAsset; // @synthesize masterAsset=_masterAsset;
-@property(readonly, nonatomic) __weak NSData *masterAssetHash;
-@property(retain, nonatomic) NSDate *serverUploadedDate; // @synthesize serverUploadedDate=_serverUploadedDate;
-@property(nonatomic) _Bool wasDeleted; // @synthesize wasDeleted=_wasDeleted;
 
 @end
 

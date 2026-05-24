@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAWebWebResult.h>
 
-@class NSArray, NSNumber, SAWebAcePicture;
+@class NSNumber;
 
 @interface SAWebImageResult : SAWebWebResult
 {
@@ -25,8 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *fileSize;
-@property(retain, nonatomic) SAWebAcePicture *picture;
-@property(copy, nonatomic) NSArray *thumbNails;
 
 @end
 

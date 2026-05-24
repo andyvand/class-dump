@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGGraph, PGMeaningfulEventCollectionTrait, PGMeaningfulEventLocationCollectionTrait, PGMeaningfulEventLocationMobilityTrait, PGMeaningfulEventNumberTrait, PGMeaningfulEventPartOfDayTrait, PGMeaningfulEventSceneCollectionTrait;
+@class PGGraph;
 
 @interface PGMeaningfulEventCriteria
 {
     _Bool _debug;
-    PGGraph *_graph;
-    PGMeaningfulEventSceneCollectionTrait *_scenesTrait;
-    PGMeaningfulEventCollectionTrait *_roisTrait;
-    PGMeaningfulEventCollectionTrait *_poisTrait;
-    PGMeaningfulEventLocationCollectionTrait *_locationsTrait;
-    PGMeaningfulEventCollectionTrait *_datesTrait;
-    PGMeaningfulEventCollectionTrait *_peopleTrait;
-    PGMeaningfulEventNumberTrait *_numberOfPeopleTrait;
-    PGMeaningfulEventCollectionTrait *_socialGroupsTrait;
-    PGMeaningfulEventNumberTrait *_minimumDurationTrait;
-    PGMeaningfulEventNumberTrait *_maximumDurationTrait;
-    PGMeaningfulEventPartOfDayTrait *_significantPartsOfDayTrait;
-    PGMeaningfulEventPartOfDayTrait *_allPartsOfDayTrait;
-    PGMeaningfulEventLocationMobilityTrait *_locationMobilityTrait;
-    PGMeaningfulEventCollectionTrait *_publicEventCategoriesTrait;
 }
 
 - (id);
@@ -31,6 +16,7 @@
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -38,17 +24,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)__objc_protolist__DATA_CONST;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)nager"16@"AXEGestureEvent"24^{__CGEvent=}32^{__CGEventTapProxy=}40;
+- (id)sharedMultipleLinesTracker;
+- (id)set_didRegisterSelectedChildrenChangedNotification: /* Error: Ran out of types for this method. */;
+- (id)setTrackFocusedElement: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -59,25 +44,10 @@
 - (void)Bm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Memories/PGMomentFeatureSpecificationFactory.m;
 - (void)ÿLýÿ¤¿ÿDDÿÿ;
 - (id)þÿ;
-- (id)valuableAlgorithmKingsDay;
+- (id)PhotosChallengeEvaluableAlgorithmKingsDay;
 
 // Remaining properties
-@property(retain, nonatomic) PGMeaningfulEventPartOfDayTrait *allPartsOfDayTrait; // @synthesize allPartsOfDayTrait=_allPartsOfDayTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *datesTrait; // @synthesize datesTrait=_datesTrait;
-@property(nonatomic, getter=isDebug) _Bool debug; // @synthesize debug=_debug;
 @property(readonly, nonatomic) PGGraph *graph; // @synthesize graph=_graph;
-@property(retain, nonatomic) PGMeaningfulEventLocationMobilityTrait *locationMobilityTrait; // @synthesize locationMobilityTrait=_locationMobilityTrait;
-@property(retain, nonatomic) PGMeaningfulEventLocationCollectionTrait *locationsTrait; // @synthesize locationsTrait=_locationsTrait;
-@property(retain, nonatomic) PGMeaningfulEventNumberTrait *maximumDurationTrait; // @synthesize maximumDurationTrait=_maximumDurationTrait;
-@property(retain, nonatomic) PGMeaningfulEventNumberTrait *minimumDurationTrait; // @synthesize minimumDurationTrait=_minimumDurationTrait;
-@property(retain, nonatomic) PGMeaningfulEventNumberTrait *numberOfPeopleTrait; // @synthesize numberOfPeopleTrait=_numberOfPeopleTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *peopleTrait; // @synthesize peopleTrait=_peopleTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *poisTrait; // @synthesize poisTrait=_poisTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *publicEventCategoriesTrait; // @synthesize publicEventCategoriesTrait=_publicEventCategoriesTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *roisTrait; // @synthesize roisTrait=_roisTrait;
-@property(retain, nonatomic) PGMeaningfulEventSceneCollectionTrait *scenesTrait; // @synthesize scenesTrait=_scenesTrait;
-@property(retain, nonatomic) PGMeaningfulEventPartOfDayTrait *significantPartsOfDayTrait; // @synthesize significantPartsOfDayTrait=_significantPartsOfDayTrait;
-@property(retain, nonatomic) PGMeaningfulEventCollectionTrait *socialGroupsTrait; // @synthesize socialGroupsTrait=_socialGroupsTrait;
 
 @end
 

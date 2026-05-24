@@ -7,9 +7,6 @@
 @interface AppStoreKit.AccountSection
 {
     id title;
-    id footer;
-    id contents;
-    id id;
 }
 
 @end

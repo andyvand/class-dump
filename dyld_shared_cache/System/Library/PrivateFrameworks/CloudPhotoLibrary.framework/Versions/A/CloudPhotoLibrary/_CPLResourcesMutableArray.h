@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _CPLResourcesMutableArray
 {
     NSMutableDictionary *_resourcesPerType;
-    NSMutableDictionary *_updatedResourcesPerType;
 }
 
-- (id);
+- (id)appEntityRelevanceCoarseTimeOfDayAndDayOfWeekFeatures;
 - (id);
 - (id);
 - (void);

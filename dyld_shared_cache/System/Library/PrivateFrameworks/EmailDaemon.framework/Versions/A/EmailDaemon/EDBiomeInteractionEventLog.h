@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSource, BMStoreStream, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface EDBiomeInteractionEventLog
 {
     NSObject<OS_dispatch_queue> *_queue;
-    BMStoreStream *_stream;
-    BMSource *_source;
 }
 
 + (id);
 + (id)0@ù
 × ;
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (void);
+- (void)ScanCountForAutoJoinAllChannels;
 - (void);
 - (void);
-- (void);
-- (void)_ancestor_index;
+- (void)message_fuzzy_ancestor_index;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

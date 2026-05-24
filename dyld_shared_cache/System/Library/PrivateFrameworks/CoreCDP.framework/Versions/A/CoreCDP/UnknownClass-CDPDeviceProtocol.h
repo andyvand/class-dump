@@ -9,7 +9,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMixedSecretType;
 @property(readonly, nonatomic) unsigned long long prevailingLocalSecretType;
 @end
 

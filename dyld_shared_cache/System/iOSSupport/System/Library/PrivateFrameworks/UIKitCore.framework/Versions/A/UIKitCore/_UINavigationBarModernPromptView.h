@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface _UINavigationBarModernPromptView : UIView
 {
     UILabel *_promptLabel;
-    NSString *_prompt;
-    UIColor *_textColor;
 }
 
 - (struct CGSize);
 - (struct CGSize);
-- (id)wNeedsAnimationRestorationMessage;
-- (id)heritedClientSettings:(struct CGRect)arg1;
+- (id)_setSubviewNeedsAnimationRestorationMessage;
+- (id)_fixupInheritedClientSettings:(struct CGRect)arg1;
 - (id)yEffectsOnProxyView;
 - (void)n;
 - (void)ault style should never be returned at this point;
-- (void)ctivityProvider;
-- (void)t;
+- (void)primaryActivityProvider;
+- (void)Alignment;
 - (void)X];
 
 // Remaining properties

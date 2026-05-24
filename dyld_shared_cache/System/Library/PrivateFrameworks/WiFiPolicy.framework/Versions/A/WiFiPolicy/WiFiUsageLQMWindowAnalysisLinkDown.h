@@ -6,14 +6,9 @@
 
 #import <WiFiPolicy/WiFiUsageLQMWindowAnalysis.h>
 
-@class NSString;
-
 @interface WiFiUsageLQMWindowAnalysisLinkDown : WiFiUsageLQMWindowAnalysis
 {
     _Bool _isInvoluntary;
-    NSString *_linkDownReason;
-    long long _linkDownSubreason;
-    unsigned long long _linkUpDuration;
 }
 
 - (void);
@@ -31,9 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool isInvoluntary; // @synthesize isInvoluntary=_isInvoluntary;
-@property(retain, nonatomic) NSString *linkDownReason; // @synthesize linkDownReason=_linkDownReason;
-@property(nonatomic) long long linkDownSubreason; // @synthesize linkDownSubreason=_linkDownSubreason;
-@property(nonatomic) unsigned long long linkUpDuration; // @synthesize linkUpDuration=_linkUpDuration;
 
 @end
 

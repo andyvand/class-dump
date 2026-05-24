@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageAuthenticator, EDMessagePersistence, NSString;
+@class EDMessagePersistence;
 
 @interface EDMessageAuthenticator
 {
     EDMessagePersistence *_messagePersistence;
-    ECMessageAuthenticator *_authenticator;
 }
 
 + (id);
@@ -23,14 +22,7 @@
 - (void)INDEX IF EXISTS searchable_messages_message_id_reindex_type_index;;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
 
 @end
 

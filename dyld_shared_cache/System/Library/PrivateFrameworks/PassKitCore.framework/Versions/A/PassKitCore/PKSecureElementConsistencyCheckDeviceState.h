@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface PKSecureElementConsistencyCheckDeviceState
 {
     NSArray *_applets;
-    NSArray *_devicePaymentApplications;
-    NSArray *_passCredentials;
-    NSArray *_deviceCredentials;
-    NSDictionary *_passIsoBlobHashForCredentialIdentifier;
 }
 
 - (void);
@@ -21,18 +17,14 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)COUNT_SERVICE_BILL_PAYMENT_CATEGORY_LAST_PAYMENT_NO_DATE_MESSAGE;
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_LAST_PAYMENT_NO_DATE_MESSAGE;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *applets; // @synthesize applets=_applets;
-@property(retain, nonatomic) NSArray *deviceCredentials; // @synthesize deviceCredentials=_deviceCredentials;
-@property(retain, nonatomic) NSArray *devicePaymentApplications; // @synthesize devicePaymentApplications=_devicePaymentApplications;
-@property(retain, nonatomic) NSArray *passCredentials; // @synthesize passCredentials=_passCredentials;
-@property(retain, nonatomic) NSDictionary *passIsoBlobHashForCredentialIdentifier; // @synthesize passIsoBlobHashForCredentialIdentifier=_passIsoBlobHashForCredentialIdentifier;
 
 @end
 

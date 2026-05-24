@@ -6,32 +6,12 @@
 
 #import <AppKit/NSButton.h>
 
-@class NSCandidateBarCompositeCandidate, NSCandidateListViewController, NSMutableArray, NSTouch;
+@class NSCandidateListViewController;
 
 __attribute__((visibility("hidden")))
 @interface _NSCandidateBarFunctionRowButton : NSButton
 {
     NSCandidateListViewController *_controller;
-    NSTouch *_trackingTouch;
-    NSMutableArray *_segments;
-    NSMutableArray *_collapsedSegments;
-    NSCandidateBarCompositeCandidate *_left;
-    NSCandidateBarCompositeCandidate *_middle;
-    NSCandidateBarCompositeCandidate *_right1;
-    NSCandidateBarCompositeCandidate *_right2;
-    NSCandidateBarCompositeCandidate *_right3;
-    double _expandedWidth;
-    _Bool _leftPressed;
-    _Bool _middlePressed;
-    _Bool _right1Pressed;
-    _Bool _right2Pressed;
-    _Bool _right3Pressed;
-    _Bool _hasCorrection;
-    _Bool _collapsed;
-    _Bool _allowsCollapsing;
-    _Bool _layoutDone;
-    _Bool _allowsCandidateVariation;
-    _Bool _isComplex;
 }
 
 - (id);
@@ -40,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)X;
+- (void)explicitContentRestriction;
+- (void)DeviceSupportsCollisionSOS;
+- (void)DeviceSupportsBreathingDisturbancesMeasurements;
+- (void)D3LeXyjrxDFYSi6pWFEL4A;
+- (void)s8TgWYc7BjtSNbtuycqauw;
+- (void)2rXU0z8mWiOung;
+- (void)nAl8QWlApaJQkipRf38fdg;
 - (id);
 - (_Bool);
 - (void);
@@ -59,32 +39,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)nt->N);
+- (id)fetchSyncChanges;
 - (void);
 - (double);
-- (void)InContent;
+- (void)_cursorWasOriginallyInContent;
 - (_Bool)ð	;
 - (_Bool)XihG:ohGG /* Error: Ran out of types for this method. */;
 - (id)succeeded already);
 - (void);
 
 // Remaining properties
-@property _Bool allowsCandidateVariation; // @synthesize allowsCandidateVariation=_allowsCandidateVariation;
-@property _Bool allowsCollapsing; // @synthesize allowsCollapsing=_allowsCollapsing;
-@property(getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
 @property NSCandidateListViewController *controller; // @synthesize controller=_controller;
-@property double expandedWidth; // @synthesize expandedWidth=_expandedWidth;
-@property(readonly) _Bool hasContent;
-@property(readonly) _Bool hasSplitRight;
-@property _Bool layoutDone; // @synthesize layoutDone=_layoutDone;
-@property(retain) NSTouch *trackingTouch; // @synthesize trackingTouch=_trackingTouch;
 
 @end
 

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNRegionOfInterestTile
 {
     VNRegionOfInterestTiling *_tiling;
-    struct CGRect _pixelPixelCropRect;
-    struct CGRect _pixelCropRect;
 }
 
 - (struct CGRect);

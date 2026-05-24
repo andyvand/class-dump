@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 @interface PGAllowlistAssetFilter
 {
     NSSet *_allowedAssetUUIDs;
 }
 
-+ (id);
-- (_Bool);
-- (id);
-- (id);
++ (id)didCompleteSiteIconFetchOfType:iconURL:iconSize:didSucceed:didUseOffScreenWebView:numberOfDownloadAttempts: /* Error: Ran out of types for this method. */;
+- (_Bool)iometryMatched;
+- (id)`;
+- (id);
 - (id);
 - (void)s/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Suggestions/PGSuggestionSession.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allowedAssetUUIDs; // @synthesize allowedAssetUUIDs=_allowedAssetUUIDs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

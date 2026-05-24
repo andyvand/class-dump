@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray, NSString;
 
 @protocol SFPerson
+- (void)isKnownCaller;
+- (void)ferencedImport;
 - (NSArray *)n",&,N;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contactIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *displayName;
-@property(copy, nonatomic) NSArray *emailAddresses;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *personIdentifier;
-@property(copy, nonatomic) NSArray *phoneNumbers;
-@property(copy, nonatomic) NSString *photosIdentifier;
 @end
 

@@ -9,9 +9,6 @@
 @interface PPM2DatabaseRemoteRecordCount
 {
     NSString *_activeTreatments;
-    unsigned int _schemaVersion;
-    NSString *_tableName;
-    CDStruct_278ffb8f _has;
 }
 
 - (void);
@@ -24,24 +21,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)d;
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_capacity;
 - (id);
 - (id);
 - (id);
 - (void)8@"NSString"16;
-- (unsigned int)earCalculatedFeatures;
+- (unsigned int)clearCalculatedFeatures;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
 @property(nonatomic) _Bool hasSchemaVersion;
-@property(readonly, nonatomic) _Bool hasTableName;
-@property(nonatomic) unsigned int schemaVersion; // @synthesize schemaVersion=_schemaVersion;
-@property(retain, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
 
 @end
 

@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUState, NSArray, NSMutableArray, NSPointerArray;
+@class CUState;
 
 @interface CUStateMachine
 {
     CUState *_currentState;
-    NSMutableArray *_eventQueue;
-    _Bool _dispatching;
-    NSPointerArray *_lcaPath;
-    _Bool _started;
-    CUState *_targetState;
-    CUState *_initialState;
-    NSArray *_states;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)kMPSMatrixRandomDistributionKey;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)sHandle";
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CUState *initialState; // @synthesize initialState=_initialState;
-@property(retain, nonatomic) NSArray *states; // @synthesize states=_states;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWStillImageSettings, FigCaptureRecordingSettings, NSDictionary, NSString;
-
 @interface BWNodeError
 {
     long long _uniqueID;
-    int _errorCode;
-    NSString *_sourceNodeDescription;
-    BWStillImageSettings *_stillImageSettings;
-    FigCaptureRecordingSettings *_recordingSettings;
-    NSDictionary *_metadata;
 }
 
 + (id);
@@ -21,19 +14,15 @@
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)a;
 - (id)W5ÿ;
 - (int),"Éÿ;
 
 // Remaining properties
 @property(readonly) int errorCode;
-@property(readonly) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(readonly) FigCaptureRecordingSettings *recordingSettings; // @synthesize recordingSettings=_recordingSettings;
-@property(readonly) NSString *sourceNodeDescription;
-@property(readonly) BWStillImageSettings *stillImageSettings;
 
 @end
 

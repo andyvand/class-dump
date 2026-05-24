@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface DRAudioGenerator
 {
     void *audioProducer;
-    unsigned int length;
 }
 
 - (unsigned int);

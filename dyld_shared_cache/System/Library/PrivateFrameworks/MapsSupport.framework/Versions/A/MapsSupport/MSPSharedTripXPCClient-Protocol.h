@@ -5,5 +5,8 @@
 //
 
 @protocol MSPSharedTripXPCClient
+- (void)5;
+- (void)D	Q;
+- (void)26UpdateIconForFavoritesNodeERK7TFENodeE3$_0vJEEE;
 @end
 

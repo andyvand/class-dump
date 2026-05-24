@@ -7,22 +7,11 @@
 @interface NewsUI2.WelcomeInteractor
 {
     id delegate;
-    id dataManager;
-    id userTypePromise;
-    id feedLoadedPromise;
-    id minimumTimePromise;
-    id maximumTimePromise;
-    id isCloudKitReachablePromise;
-    id minimumTimer;
-    id maximumTimer;
-    id appActivityMonitor;
-    id networkReachability;
-    id heartbeatEventService;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)sions/A/PencilKit;
+- (void)meworks/PencilKit.framework/Versions/A/PencilKit;
 - (void);
 - (id);
 - (void);

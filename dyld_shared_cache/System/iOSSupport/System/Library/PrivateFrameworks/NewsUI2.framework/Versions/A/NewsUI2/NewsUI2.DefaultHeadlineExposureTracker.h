@@ -7,8 +7,6 @@
 @interface NewsUI2.DefaultHeadlineExposureTracker
 {
     id tracker;
-    id contentAvailabilityValidator;
-    id feedDismissingManager;
 }
 
 @end

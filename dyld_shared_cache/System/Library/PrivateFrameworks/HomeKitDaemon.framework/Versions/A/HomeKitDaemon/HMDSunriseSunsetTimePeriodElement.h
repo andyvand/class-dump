@@ -6,13 +6,12 @@
 
 #import <HomeKitDaemon/HMDTimePeriodElement.h>
 
-@class NSDateComponents, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDSunriseSunsetTimePeriodElement : HMDTimePeriodElement
 {
     NSString *_significantEvent;
-    NSDateComponents *_offset;
 }
 
 + (id);
@@ -20,18 +19,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)BCommon.c;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)numTriggers;
 - (id);
 - (id)lic}@Session with identifier:(id)arg1 %@ send event close timer has expired;
-- (void)utSettings_timeoutInterval_readVersion;
+- (void)root_general_accessibility_vision_doubleTapSettings_timeoutSettings_timeoutInterval_readVersion;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSDateComponents *offset; // @synthesize offset=_offset;
 @property(readonly, copy) NSString *significantEvent; // @synthesize significantEvent=_significantEvent;
 
 @end

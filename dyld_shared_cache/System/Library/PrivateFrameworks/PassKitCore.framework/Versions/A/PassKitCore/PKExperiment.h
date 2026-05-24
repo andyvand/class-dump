@@ -9,7 +9,6 @@
 @interface PKExperiment
 {
     TRIClient *_trialClient;
-    _Bool _isExposed;
 }
 
 - (void);
@@ -20,14 +19,14 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)tcpECNIntOnTotalTxPkts;
 - (id)1Â0@ù
 × ;
-- (void)onfiguredInstallmentOffer;
+- (void)loadPreconfiguredInstallmentOffer;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isExposed; // @synthesize isExposed=_isExposed;

@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)';
 - (long long)_PIParallaxLayerStackJob prepare:] /* Error: Ran out of types for this method. */;
 
 @end

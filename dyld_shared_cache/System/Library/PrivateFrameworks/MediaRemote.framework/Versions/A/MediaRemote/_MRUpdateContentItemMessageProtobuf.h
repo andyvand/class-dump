@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _MRNowPlayingPlayerPathProtobuf;
+@class NSMutableArray;
 
 @interface _MRUpdateContentItemMessageProtobuf
 {
     NSMutableArray *_contentItems;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
 }
 
 + (Class);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -25,18 +24,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
+- (id)ray",R,V_policies;
+- (unsigned long long)iCloudAltDSID:%@ /* Error: Ran out of types for this method. */;
+- (void)references!;
+- (id)n.received;
 - (void);
 - (id)× ;
-- (void)s;
+- (void)clearSupportedPlaybackQueueTypes;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *contentItems; // @synthesize contentItems=_contentItems;
-@property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

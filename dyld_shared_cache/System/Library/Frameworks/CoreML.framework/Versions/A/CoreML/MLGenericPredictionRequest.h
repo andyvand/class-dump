@@ -4,40 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, MLPredictionOptions, NSString;
-@protocol MLFeatureProvider;
+@class MLModel;
 
 __attribute__((visibility("hidden")))
 @interface MLGenericPredictionRequest
 {
     struct atomic<bool> _used;
-    struct atomic<bool> _cancelled;
-    id <MLFeatureProvider> _inputFeatures;
-    MLPredictionOptions *_predictionOptions;
-    MLModel *_model;
 }
 
-- (void);
+- (void)$t;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (_Bool)$0;
 - (void)mender:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <MLFeatureProvider> inputFeatures; // @synthesize inputFeatures=_inputFeatures;
-@property(readonly, nonatomic) _Bool isCancelled;
 @property(readonly, nonatomic) MLModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) MLPredictionOptions *predictionOptions; // @synthesize predictionOptions=_predictionOptions;
-@property(readonly) Class superclass;
 
 @end
 

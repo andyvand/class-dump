@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEntityDescription, NSManagedObjectContext, NSMutableSet;
+@class NSMutableSet;
 
 @interface PHObjectDeleteValidator
 {
     NSMutableSet *_deletedObjectIDs;
-    NSEntityDescription *_entity;
-    NSManagedObjectContext *_context;
 }
 
 - (_Bool);

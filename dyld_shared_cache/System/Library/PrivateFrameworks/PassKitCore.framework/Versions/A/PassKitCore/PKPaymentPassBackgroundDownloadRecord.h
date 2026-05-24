@@ -16,7 +16,7 @@
 + (_Bool)qî%Ð1Â0@ù
 × ;
 - (id);
-- (void);
+- (void)StringAsTrafficDensity:(id)arg1;
 - (void);
 - (void)le.passbook.webservices.error.ignored_if_modified_since;
 - (id)ã»;

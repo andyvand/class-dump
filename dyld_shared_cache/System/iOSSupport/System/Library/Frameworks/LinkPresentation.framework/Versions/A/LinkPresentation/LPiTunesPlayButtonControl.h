@@ -6,15 +6,12 @@
 
 #import <LinkPresentation/LPPlayButtonControl.h>
 
-@class LPInlineMediaPlaybackInformation, NSString;
-@protocol NSObject;
+@class LPInlineMediaPlaybackInformation;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesPlayButtonControl : LPPlayButtonControl
 {
     LPInlineMediaPlaybackInformation *_playbackInformation;
-    id <NSObject> _playbackDidEndNotificationToken;
-    _Bool _wasPlayingMusicWhenLyricExcerptPlaybackStarted;
 }
 
 - (void);
@@ -24,28 +21,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (struct _MRSystemAppPlaybackQueue *);
+- (void)transcriptHeaderChevronRotationAnimationSpeed;
+- (_Bool)transcriptBalloonCell:textBalloonView:didChangeTextEffectPlaybackCandidateStatus: /* Error: Ran out of types for this method. */;
+- (void)automaticallyShowsKeyboard;
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)R;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)Z;
 - (void)t has been laid out.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasMuteControl;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isPlaying) _Bool playing;
-@property(readonly) Class superclass;
 
 @end
 

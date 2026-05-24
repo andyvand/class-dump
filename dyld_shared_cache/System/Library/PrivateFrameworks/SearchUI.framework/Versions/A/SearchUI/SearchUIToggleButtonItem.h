@@ -16,11 +16,11 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)50.heic;
+- (id)rounded_thin_variant_age_child_50.heic;
+- (id)I;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) SFButtonItem<SearchUIToggleButtonItemProtocol> *sfButtonItem; // @dynamic sfButtonItem;

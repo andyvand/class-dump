@@ -5,10 +5,10 @@
 //
 
 @protocol RBStroke
+- (float);
+- (struct CGRect)ing legacy setup.;
 
 // Remaining properties
-@property(readonly, nonatomic) float borderWidth;
-@property(readonly, nonatomic) struct CGRect boundingRect;
 @property(readonly, nonatomic) int strokeType;
 @end
 

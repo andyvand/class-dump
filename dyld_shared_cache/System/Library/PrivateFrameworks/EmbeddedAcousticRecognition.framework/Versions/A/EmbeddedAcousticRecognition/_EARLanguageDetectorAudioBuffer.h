@@ -9,8 +9,8 @@
     struct shared_ptr<quasar::RecogAudioBuffer> _buffer;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)Management;
 - (id);
 - (void);
 - (id);

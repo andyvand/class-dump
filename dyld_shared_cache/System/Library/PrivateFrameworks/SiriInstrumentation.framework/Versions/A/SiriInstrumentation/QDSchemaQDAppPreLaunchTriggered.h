@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface QDSchemaQDAppPreLaunchTriggered : SISchemaInstrumentationMessage
 {
     _Bool _isPredictionCorrect;
-    _Bool _isPreLaunchExecuted;
-    struct {
-        unsigned int isPredictionCorrect:1;
-        unsigned int isPreLaunchExecuted:1;
-    } _has;
 }
 
 - (void);
@@ -30,20 +23,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:120 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ionary}^vi{?=ii^q^{__CFSet}}}8^{CSDBSqliteDatabase=^{__CFString}^{CSDBSqliteConnection}^?^?^?^v^?^?B^vi{?=b1b1b1}{_opaque_pthread_mutex_t=q[56c]}i^?^v^{__CFString}I{CSDBLookAsideBufferConfig=iib1}}16^{CSDBSqliteStatement=^{CSDBSqliteConnection}^{sqlite3_stmt}i}24;
 - (id);
 - (id);
-- (id)an;
+- (id)_timeSpan;
 - (id)ageNumber;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsPreLaunchExecuted;
-@property(nonatomic) _Bool hasIsPredictionCorrect;
-@property(nonatomic) _Bool isPreLaunchExecuted; // @synthesize isPreLaunchExecuted=_isPreLaunchExecuted;
 @property(nonatomic) _Bool isPredictionCorrect; // @synthesize isPredictionCorrect=_isPredictionCorrect;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

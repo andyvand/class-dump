@@ -6,63 +6,42 @@
 
 #import <PhotosPlayer/ISSettings.h>
 
-@class ISVitalitySpecificSettings, NSString;
-
 @interface ISVitalitySettings : ISSettings
 {
     _Bool _shouldPreroll;
-    _Bool _useLegacyBehavior;
-    float _vitalityTransitionScoreMinimumValueForPlayback;
-    ISVitalitySpecificSettings *_oneUpSettings;
-    ISVitalitySpecificSettings *_shareViewSettings;
-    ISVitalitySpecificSettings *_activityViewSettings;
-    ISVitalitySpecificSettings *_orbPreviewSettings;
 }
 
 + (id);
-+ (id);
-- (float);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
++ (id)p;
+- (float)_patternSize;
+- (_Bool)_offerIdentifierProvider;
+- (_Bool)_myWrapPolygon;
+- (id)_mediaType;
+- (void)_mediaPlaybackDelegate;
+- (void)_luminance;
+- (void)_loadingBlock;
+- (void)_loadEvent;
+- (void)_layoutInvalidator;
+- (void)_layoutCoordinator;
+- (void)_interfaceOrientationListeners;
+- (id)_hasValidSize;
+- (id)_hasReroutedInitiatedPlaybackEvent;
+- (double)_handler;
+- (double)_gradientFillView;
+- (double)_gotActiveViewIndexChange;
+- (double)_getHSBA: /* Error: Ran out of types for this method. */;
+- (double)_descriptor;
+- (id)_componentTextStyleReferences;
+- (id)IEdgeInsets=dddd},N,V_componentLayoutMargins;
 - (double);
 - (double);
 - (long long);
 - (void);
-- (double);
+- (double)isEmpty;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ISVitalitySpecificSettings *activityViewSettings; // @synthesize activityViewSettings=_activityViewSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) ISVitalitySpecificSettings *oneUpSettings; // @synthesize oneUpSettings=_oneUpSettings;
-@property(retain, nonatomic) ISVitalitySpecificSettings *orbPreviewSettings; // @synthesize orbPreviewSettings=_orbPreviewSettings;
-@property(retain, nonatomic) ISVitalitySpecificSettings *shareViewSettings; // @synthesize shareViewSettings=_shareViewSettings;
-@property(nonatomic) _Bool shouldPreroll; // @synthesize shouldPreroll=_shouldPreroll;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool useLegacyBehavior; // @synthesize useLegacyBehavior=_useLegacyBehavior;
-@property(nonatomic) float vitalityTransitionScoreMinimumValueForPlayback; // @synthesize vitalityTransitionScoreMinimumValueForPlayback=_vitalityTransitionScoreMinimumValueForPlayback;
 
 @end
 

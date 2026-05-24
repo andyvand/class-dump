@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDDeviceCapabilityCheckResult, CKRecordZoneID, NSArray, NSError;
+@class CKRecordZoneID;
 
 @interface CKDDeviceCapabilityCheckPerRequestResult
 {
     _Bool _isValidatedWithKT;
-    CKRecordZoneID *_zoneID;
-    NSArray *_capabilitySet;
-    CKDDeviceCapabilityCheckResult *_result;
-    NSError *_error;
 }
 
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (id)es: /* Error: Ran out of types for this method. */;
-- (void)lock;
+- (id)setResolvedAutomaticallyRetryNetworkFailures: /* Error: Ran out of types for this method. */;
+- (void)_cloneContextReturnBlock;
 - (void)ssing shareRecordID;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *capabilitySet; // @synthesize capabilitySet=_capabilitySet;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool isValidatedWithKT; // @synthesize isValidatedWithKT=_isValidatedWithKT;
-@property(copy, nonatomic) CKDDeviceCapabilityCheckResult *result; // @synthesize result=_result;
 @property(retain, nonatomic) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end

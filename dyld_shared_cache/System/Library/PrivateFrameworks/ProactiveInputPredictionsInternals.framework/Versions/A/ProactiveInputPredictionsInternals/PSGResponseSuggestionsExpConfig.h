@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIClient, TRIExperimentIdentifiers, TRIRolloutIdentifiers;
+@class NSString, TRIClient;
 
 @interface PSGResponseSuggestionsExpConfig
 {
     TRIClient *_trialClient;
-    NSString *_namespaceName;
-    _Bool _isMLModelEnabled;
-    _Bool _isMLModelDownloading;
-    NSString *_treatmentName;
-    NSString *_inferenceModelDescription;
-    TRIRolloutIdentifiers *_rolloutIdentifiers;
-    TRIExperimentIdentifiers *_experimentIdentifiers;
-    NSString *_inferenceModelFilePath;
-    NSString *_inferenceModelConfigPath;
-    NSString *_espressoBinFilePath;
-    NSString *_vocabFilePath;
-    NSString *_language;
 }
 
 - (_Bool);
@@ -33,32 +21,15 @@
 - (id);
 - (id);
 - (void);
+- (id)entHandlerForActiveObjectINS4_13RateGyroEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (id);
+- (id)@m;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)lFittingMinibatchStats"24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *espressoBinFilePath; // @synthesize espressoBinFilePath=_espressoBinFilePath;
-@property(readonly, nonatomic) TRIExperimentIdentifiers *experimentIdentifiers; // @synthesize experimentIdentifiers=_experimentIdentifiers;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *inferenceModelConfigPath; // @synthesize inferenceModelConfigPath=_inferenceModelConfigPath;
-@property(readonly, nonatomic) NSString *inferenceModelDescription; // @synthesize inferenceModelDescription=_inferenceModelDescription;
-@property(readonly, nonatomic) NSString *inferenceModelFilePath; // @synthesize inferenceModelFilePath=_inferenceModelFilePath;
-@property(readonly, nonatomic) _Bool isMLModelDownloading; // @synthesize isMLModelDownloading=_isMLModelDownloading;
-@property(readonly, nonatomic) _Bool isMLModelEnabled; // @synthesize isMLModelEnabled=_isMLModelEnabled;
-@property(readonly, nonatomic) NSString *language; // @synthesize language=_language;
-@property(readonly, nonatomic) TRIRolloutIdentifiers *rolloutIdentifiers; // @synthesize rolloutIdentifiers=_rolloutIdentifiers;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *treatmentName; // @synthesize treatmentName=_treatmentName;
-@property(readonly, nonatomic) NSString *vocabFilePath; // @synthesize vocabFilePath=_vocabFilePath;
 
 @end
 

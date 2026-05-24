@@ -6,38 +6,32 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSData, NSString, NSURL, PKApplePayTrustHashResponse, PKPaymentDeviceMetadata, PKPhysicalCardOrder;
+@class NSString, NSURL;
 
 @interface PKAccountWebServiceRequestPhysicalCardRequest : PKAccountWebServiceRequest
 {
     NSURL *baseURL;
-    PKApplePayTrustHashResponse *hashResponse;
-    NSData *_publicKeyHash;
-    NSString *_accountIdentifier;
-    NSString *_accountUserAltDSID;
-    PKPhysicalCardOrder *_order;
-    PKPaymentDeviceMetadata *_deviceMetadata;
 }
 
 + (_Bool)0@ù
 × ;
 - (Class);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)eationMetadata;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id)PKPassAuxiliaryCapabilityDecryptionISO18013KeyCreationMetadata;
 - (id)in paymentRequestMerchantUpdatedEvent;
-- (void)tAmount;
+- (void)installmentAmount;
 - (void)LF;
 - (id)­Ôh<1;
 - (void);
@@ -45,19 +39,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSString *accountUserAltDSID; // @synthesize accountUserAltDSID=_accountUserAltDSID;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKApplePayTrustHashResponse *hashResponse; // @synthesize hashResponse;
-@property(retain, nonatomic) PKPhysicalCardOrder *order; // @synthesize order=_order;
-@property(copy, nonatomic) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(readonly) Class superclass;
 
 @end
 

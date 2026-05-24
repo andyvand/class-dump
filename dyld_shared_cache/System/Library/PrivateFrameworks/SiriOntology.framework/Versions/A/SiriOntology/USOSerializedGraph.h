@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface USOSerializedGraph
 {
     NSString *_printedForm;
-    NSArray *_nodes;
-    NSArray *_edges;
-    NSArray *_identifiers;
-    NSArray *_alignments;
 }
 
 + (_Bool);
 - (unique_ptr_455d35d0);
-- (id);
+- (id)3;
 - (id);
 - (id);
 - (id);
@@ -31,20 +27,16 @@
 - (void);
 - (id);
 - (void);
+- (id)a;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id)TimeUnit;
+- (id)common_TimeUnit;
 - (void)Ontology.UsoTaskBuilder_state_common_UserPossession;
-- (id)ode;
+- (id)AppOntologyNode;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *alignments; // @synthesize alignments=_alignments;
-@property(retain, nonatomic) NSArray *edges; // @synthesize edges=_edges;
-@property(retain, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(retain, nonatomic) NSArray *nodes; // @synthesize nodes=_nodes;
 @property(retain, nonatomic) NSString *printedForm; // @synthesize printedForm=_printedForm;
 
 @end

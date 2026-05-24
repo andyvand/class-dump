@@ -6,24 +6,19 @@
 
 #import <OfficeImport/OCXReadState.h>
 
-@class NSMutableDictionary, NSMutableSet, OAXDrawingState, OCPPackagePart;
+@class OAXDrawingState;
 
 __attribute__((visibility("hidden")))
 @interface OAVReadState : OCXReadState
 {
     Class mClient;
-    OCPPackagePart *mPackagePart;
-    NSMutableDictionary *mShapeTypes;
-    NSMutableDictionary *mShapeIdMap;
-    NSMutableSet *mDualDrawables;
-    OAXDrawingState *mOAXState;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

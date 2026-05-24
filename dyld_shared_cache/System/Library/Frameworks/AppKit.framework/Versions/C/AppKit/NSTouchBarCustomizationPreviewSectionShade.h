@@ -6,47 +6,31 @@
 
 #import <AppKit/NSView.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewSectionShade : NSView
 {
     id _target;
-    SEL _action;
-    long long _tag;
-    NSString *_accessibilityLabel;
 }
 
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)drop_all_level;
+- (id)T�;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (long long);
-- (id)er:(struct CGRect)arg1;
+- (long long)3;
+- (id)setPreviousSpaceOrder:(struct CGRect)arg1;
 - (SEL)earch field cancel;
 - (id);
 - (void)Ë^Dhyß;
-- (void)htedSwitch;
+- (void)NSHighlightedSwitch;
 - (id)ÿGÿ;
 - (void);
 
 // Remaining properties
-@property(copy) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property SEL action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier;
-@property(readonly) Class superclass;
-@property long long tag; // @synthesize tag=_tag;
-@property __weak id target; // @synthesize target=_target;
 
 @end
 

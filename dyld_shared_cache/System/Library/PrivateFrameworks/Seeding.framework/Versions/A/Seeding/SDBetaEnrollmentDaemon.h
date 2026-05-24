@@ -4,42 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface SDBetaEnrollmentDaemon
 {
     NSXPCConnection *_connection;
 }
 
-+ (id);
++ (id)ts is %d;
+- (void)0:(id)arg1 8@16q24q32q40@48@56@64@72@80;
+- (void)32;
+- (void)onary"16q24@?<v@?@"NSDictionary"@"NSDictionary">32;
+- (void)@"NSError">32;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)4@32;
+- (void)0:(CDUnknownBlockType)arg1 8@"AFAudioPlaybackRequest"16;
+- (void)artialResult"16;
+- (void)gumentSafetyBlock";
+- (void)4@0:(CDUnknownBlockType)arg1 8B16B20;
+- (void)"NSNumber"16;
+- (void)24@0:(CDUnknownBlockType)arg1 8@"Protocol"16;
+- (void)valueForEntitlement:(CDUnknownBlockType)arg1;
+- (id)_updateHarFileFilters;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)eeded;
 
 // Remaining properties
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

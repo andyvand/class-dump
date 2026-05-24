@@ -4,37 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCodableAttributeMetadata, INCodableAttributeRelationship, INCodableDescription, NSArray, NSDictionary, NSMutableDictionary, NSNumber, NSString;
+@class NSMutableDictionary;
 
 @interface INCodableAttribute
 {
     NSMutableDictionary *_promptDialogsByType;
-    NSDictionary *_arraySizesBySizeClass;
-    _Bool _fixedSizeArray;
-    _Bool _defaultAttribute;
-    _Bool _configurable;
-    _Bool _supportsResolution;
-    _Bool _supportsDynamicEnumeration;
-    _Bool _supportsSearch;
-    INCodableDescription *_internalCodableDescription;
-    NSString *_typeString;
-    long long _modifier;
-    NSString *_propertyName;
-    NSString *_displayName;
-    NSString *_displayNameID;
-    INCodableAttributeMetadata *_metadata;
-    INCodableAttributeRelationship *_relationship;
-    NSArray *_unsupportedReasons;
-    NSString *_entityKeypath;
-    NSArray *_promptDialogs;
-    long long _windowSize;
-    NSString *_languageCode;
-    NSNumber *_displayPriorityRank;
-    Class __relationshipValueTransformerClass;
 }
 
 + (_Bool);
-+ (id)yType:(id)arg1 entityName:(id *)arg2;
++ (id)initWithEntityType:(id)arg1 entityName:(id *)arg2;
 
 @end
 

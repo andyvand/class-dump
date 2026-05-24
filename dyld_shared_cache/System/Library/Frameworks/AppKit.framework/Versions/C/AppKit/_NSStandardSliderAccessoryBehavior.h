@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)tials had a bad username/password, trying again handle %p;
 - (id);
 - (unsigned long long);
-- (long long);
-- (_Bool);
+- (long long);
+- (_Bool);
 - (void);
-- (id)orItemIdentifier:(struct _NSZone *)arg1;
+- (id)indexPathForItemIdentifier:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly) long long behavior; // @synthesize behavior=_behavior;

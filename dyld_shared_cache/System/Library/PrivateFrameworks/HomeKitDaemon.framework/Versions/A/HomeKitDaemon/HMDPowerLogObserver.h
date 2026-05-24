@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDPowerLogObserverContext, NSString;
+@class HMDPowerLogObserverContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDPowerLogObserver
@@ -14,27 +14,20 @@ __attribute__((visibility("hidden")))
 
 + (id)$Dù±ð1Â0@ù
 × ;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)H;
 - (id);
 - (id);
-- (void)etAuthMethod:(id)arg1;
+- (void)setAuthMethod:(id)arg1;
 - (void);
 - (id)Set reference:(id)arg1 %@;
-- (void)out;
+- (void)mediaAccessoryResolutionTimeout;
 - (void)=;
 
 // Remaining properties
 @property(retain, nonatomic) HMDPowerLogObserverContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,9 +15,6 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsExtension; // @dynamic hasIsExtension;
-@property(nonatomic) _Bool hasNamePart; // @dynamic hasNamePart;
-@property(nonatomic) _Bool isExtension; // @dynamic isExtension;
 @property(copy, nonatomic) NSString *namePart; // @dynamic namePart;
 
 @end

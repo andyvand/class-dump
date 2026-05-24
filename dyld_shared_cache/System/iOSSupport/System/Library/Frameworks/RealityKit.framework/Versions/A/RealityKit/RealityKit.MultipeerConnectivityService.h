@@ -8,11 +8,6 @@
 {
     id coreInvalidPeerID;
     id coreMultipeerConnectivityService;
-    id coreServiceLocator;
-    id coreNetworkSystem;
-    id coreHandshakeCount;
-    id coreHandshakeTimeoutMs;
-    id session;
 }
 
 @end

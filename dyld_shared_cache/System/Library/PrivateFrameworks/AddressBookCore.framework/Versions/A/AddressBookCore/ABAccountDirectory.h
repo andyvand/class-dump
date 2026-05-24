@@ -5,13 +5,10 @@
 //
 
 @class NSString;
-@protocol ABSearchOperationsFactory;
 
 @interface ABAccountDirectory
 {
     NSString *_identifier;
-    NSString *_name;
-    id <ABSearchOperationsFactory> _searchOperationsFactory;
 }
 
 - (id);
@@ -22,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) id <ABSearchOperationsFactory> searchOperationsFactory; // @synthesize searchOperationsFactory=_searchOperationsFactory;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol UIRVPresenterHighlightDelegate
+
+@optional
+- (void);
 @end
 

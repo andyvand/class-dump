@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (long long)ials;
+- (long long)_completedCredentials;
 - (void)fiers;
 
 // Remaining properties

@@ -4,53 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface LPImagePresentationProperties
 {
     _Bool _shouldApplyBackground;
-    _Bool _requireFixedSize;
-    _Bool _canAdjustHorizontalPaddingForFixedSize;
-    UIColor *_backgroundColor;
-    long long _filter;
-    long long _scalingMode;
-    UIColor *_maskColor;
-    long long _verticalAlignment;
-    struct CGSize _fixedSize;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)textAutocapitalization;
+- (void)SafetySensitiveProvider:(_Bool)arg1 adaptiveImageGlyphProvider:effectString: /* Error: Ran out of types for this method. */;
+- (void)tapbackPickerViewControllerEmojiKeyboardCellDelegate;
+- (void)tapbackDismissalDuration;
+- (void)tableView:(_Bool)arg1 selectionFollowsFocusForRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)tableView:accessoryButtonTappedForRowWithIndexPath: /* Error: Ran out of types for this method. */;
+- (id)switcherViewControllerDidCollapse: /* Error: Ran out of types for this method. */;
+- (_Bool)stickerSizeScaledWithInitialSize:imageScale:userScale:rectifiedScreenScale:maxWidth: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (struct CGSize);
-- (id);
-- (void);
+- (id)_reconnectGuardTimeout;
+- (void)P&;
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)M ;
 - (void)qÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canAdjustHorizontalPaddingForFixedSize; // @synthesize canAdjustHorizontalPaddingForFixedSize=_canAdjustHorizontalPaddingForFixedSize;
 @property(nonatomic) long long filter; // @synthesize filter=_filter;
-@property(nonatomic) struct CGSize fixedSize; // @synthesize fixedSize=_fixedSize;
-@property(retain, nonatomic) UIColor *maskColor; // @synthesize maskColor=_maskColor;
-@property(nonatomic) _Bool requireFixedSize; // @synthesize requireFixedSize=_requireFixedSize;
-@property(nonatomic) long long scalingMode; // @synthesize scalingMode=_scalingMode;
-@property(nonatomic) _Bool shouldApplyBackground; // @synthesize shouldApplyBackground=_shouldApplyBackground;
-@property(nonatomic) long long verticalAlignment; // @synthesize verticalAlignment=_verticalAlignment;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADColorScheme, OADFontScheme, OADStyleMatrix;
+@class OADColorScheme;
 
 __attribute__((visibility("hidden")))
 @interface OADBaseStylesBase
 {
     OADColorScheme *mColorScheme;
-    OADStyleMatrix *mStyleMatrix;
-    OADFontScheme *mFontScheme;
 }
 
 - (id);
@@ -25,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) OADColorScheme *colorScheme; // @synthesize colorScheme=mColorScheme;
-@property(retain, nonatomic) OADFontScheme *fontScheme; // @synthesize fontScheme=mFontScheme;
-@property(retain, nonatomic) OADStyleMatrix *styleMatrix; // @synthesize styleMatrix=mStyleMatrix;
 
 @end
 

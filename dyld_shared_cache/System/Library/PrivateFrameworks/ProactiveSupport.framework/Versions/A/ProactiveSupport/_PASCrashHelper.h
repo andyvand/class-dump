@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)@?0@"NSError"8I16;
 + (void);
 
 @end

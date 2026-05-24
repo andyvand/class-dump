@@ -4,56 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UILabel, UIProgressView, UIView, UIVisualEffectView;
+@class UIVisualEffectView;
 
 @interface CKCloudSyncStatusView
 {
     _Bool _hasFinishedFirstLayoutPass;
-    UIVisualEffectView *_backgroundVisualEffectView;
-    UIView *_hairlineView;
-    UIView *_containerView;
-    UIProgressView *_progressView;
-    UILabel *_progressLabel;
 }
 
+- (void)t",&,N,V_buttonIdentifiers;
 - (void);
 - (void);
+- (void)selectorDelayer;
 - (void);
 - (void);
+- (_Bool)t;
+- (_Bool)note (%@) that doesn't have a typeUTI;
+- (id)or locked notes can provide additional security, but if you forget this password, there is no way to recover access to these locked notes.;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id)enerateFilters;
-- (void)sViewController;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)shouldGenerateFilters;
+- (void)ImagePlaygroundGenerationProgressViewController;
 - (void);
 - (id)ìá±ÿi5ðþ.;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *backgroundVisualEffectView; // @synthesize backgroundVisualEffectView=_backgroundVisualEffectView;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIView *hairlineView; // @synthesize hairlineView=_hairlineView;
-@property(nonatomic) _Bool hasFinishedFirstLayoutPass; // @synthesize hasFinishedFirstLayoutPass=_hasFinishedFirstLayoutPass;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UILabel *progressLabel; // @synthesize progressLabel=_progressLabel;
-@property(retain, nonatomic) UIProgressView *progressView; // @synthesize progressView=_progressView;
-@property(nonatomic, getter=isProgressViewHidden) _Bool progressViewHidden;
-@property(readonly) Class superclass;
 
 @end
 

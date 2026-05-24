@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NEDNSQuery
 {
     unsigned int _answerTTL;
-    NSString *_name;
-    long long _recordType;
-    long long _recordClass;
-    NSData *_answerData;
 }
 
 - (void);
@@ -23,14 +19,10 @@
 - (id);
 - (id);
 - (long long);
-- (void)alkMessage: /* Error: Ran out of types for this method. */;
+- (void)reportPushToTalkMessage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSData *answerData; // @synthesize answerData=_answerData;
-@property unsigned int answerTTL; // @synthesize answerTTL=_answerTTL;
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) long long recordClass; // @synthesize recordClass=_recordClass;
-@property(readonly) long long recordType; // @synthesize recordType=_recordType;
 
 @end
 

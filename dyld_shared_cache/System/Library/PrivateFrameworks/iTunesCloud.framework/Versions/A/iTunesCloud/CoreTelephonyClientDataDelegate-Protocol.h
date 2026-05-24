@@ -5,5 +5,9 @@
 //
 
 @protocol CoreTelephonyClientDataDelegate
+
+@optional
+- (void);
+- (void)USKRoleTypeTextureCoordinate;
 @end
 

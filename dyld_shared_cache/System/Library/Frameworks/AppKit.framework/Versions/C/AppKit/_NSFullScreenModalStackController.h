@@ -4,55 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, NSWindow, NSWindowStackController, _NSFullScreenModalCollapsedTabWindow, _NSFullScreenModalDimmingWindow, _NSFullScreenSpace;
+@class _NSFullScreenSpace;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenModalStackController
 {
     _NSFullScreenSpace *_space;
-    NSWindowStackController *_windowStackController;
-    _NSFullScreenModalDimmingWindow *_dimmingWindow;
-    _NSFullScreenModalCollapsedTabWindow *_collapsedTabWindow;
-    _Bool _disableBeginPresentation;
-    _Bool _isPresentedModally;
-    _Bool _isFrontWindowOrderedIn;
-    NSTimer *_deferredDragStartTimer;
-    id _showDragEffectEventMonitor;
-    _Bool _isFrontWindowDragging;
-    _Bool _isDragActive;
-    _Bool _dragShouldSnapBackForDropTarget;
-    _Bool _dragShouldSnapBackForMinimize;
-    _Bool _hasDragProhibitChangePoint;
-    struct CGPoint _dragSnapBackForMinimizeProhibitChangePosition;
-    _Bool _dragShouldSnapBack;
-    NSWindow *_frontWindow;
-    _Bool _isRegisteredForNotifications;
-    _Bool _invalid;
-    NSString *_beforeStackedSavedWindowFrameString;
-    struct CGRect _windowDragStartFrame;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)2;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)h;
+- (void)a;
 - (void);
 - (id);
+- (void)postponement info for copyBasebandStatusKey;
+- (void)ustObject), invalid tag length;
+- (id)syscfg-vmpv-data;
+- (void)t SInt64 value for kIOMediaSizeKey!;
 - (void);
-- (void);
-- (double);
+- (double)`;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (_Bool);
 - (id);
@@ -64,33 +44,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_onqueue_didReceiveProgressUpdateWithTotalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
+- (struct CGRect)th error:(struct CGRect)arg1 %d;
+- (void)the only caller; they pass kCFHTTPCookieStorageAcceptPolicyAlways here;
+- (id)CoreMedia should be the only caller; they pass NULL here;
+- (void)sing found mapping %@ to %@ config %p;
+- (void)<%{public}@> backgroundSessionDidFinishAppWake block not invoked for UUID %@ for session %@ with identifier %@ outstanding auth tasks %@;
+- (void).;
+- (void)col received response %@ error %@ canceling;
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)q}16;
 
 // Remaining properties
-@property(readonly, nonatomic) _NSFullScreenModalCollapsedTabWindow *collapsedTabWindow; // @synthesize collapsedTabWindow=_collapsedTabWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableBeginPresentation; // @synthesize disableBeginPresentation=_disableBeginPresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDragActive; // @synthesize isDragActive=_isDragActive;
-@property(readonly, nonatomic) _Bool isPresentedModally; // @synthesize isPresentedModally=_isPresentedModally;
 @property(nonatomic) _NSFullScreenSpace *space; // @synthesize space=_space;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSWindowStackController *windowStackController; // @synthesize windowStackController=_windowStackController;
 
 @end
 

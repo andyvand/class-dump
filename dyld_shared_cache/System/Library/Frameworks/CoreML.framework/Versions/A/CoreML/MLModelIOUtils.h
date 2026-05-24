@@ -9,26 +9,26 @@
 }
 
 + (id);
-+ (id);
++ (id):(void *)arg1 %{sensitive, location:(_Bool)arg2 CLClientLocation}.*P, "eventType":%{public, location:escape_only}@} /* Error: Ran out of types for this method. */;
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)A;
 + (id);
 + (id);
 + (_Bool);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)h;
++ (_Bool)h?;
++ (id);
++ (id);
++ (id)9(;
 + (struct _NSRange);
 + (id);
 + (id);

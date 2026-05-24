@@ -9,21 +9,19 @@
 @interface XCTProcessSpecifier
 {
     NSString *_bundleID;
-    NSString *_path;
 }
 
-+ (_Bool);
++ (_Bool)ail";
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)";
 - (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy) NSString *path; // @synthesize path=_path;
 
 @end
 

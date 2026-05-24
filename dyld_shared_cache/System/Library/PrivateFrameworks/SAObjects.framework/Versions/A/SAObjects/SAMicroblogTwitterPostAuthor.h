@@ -6,8 +6,6 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSNumber, NSString, NSURL;
-
 @interface SAMicroblogTwitterPostAuthor : SADomainObject
 {
 }
@@ -27,15 +25,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)h;
 
 // Remaining properties
 @property(nonatomic) long long followersCount;
-@property(copy, nonatomic) NSString *fullName;
-@property(copy, nonatomic) NSURL *profileImageUrl;
-@property(copy, nonatomic) NSString *screenName;
-@property(copy, nonatomic) NSNumber *userId;
-@property(nonatomic) _Bool verified;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, SANPGetNowPlayingQueueDetails;
+@class NSArray;
 
 @interface SANPGetNowPlayingQueueDetailsRemote : SABaseClientBoundCommand
 {
@@ -17,8 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *hashedRouteUIDs;
-@property(retain, nonatomic) SANPGetNowPlayingQueueDetails *queueDetails;
-@property(nonatomic) double routeTimeout;
 
 @end
 

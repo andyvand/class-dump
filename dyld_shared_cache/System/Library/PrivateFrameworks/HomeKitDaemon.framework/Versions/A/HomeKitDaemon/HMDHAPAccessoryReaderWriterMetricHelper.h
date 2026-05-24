@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)initWithURL:(id)arg1 configuration:(long long)arg2 useCache: /* Error: Ran out of types for this method. */;
 
 @end
 

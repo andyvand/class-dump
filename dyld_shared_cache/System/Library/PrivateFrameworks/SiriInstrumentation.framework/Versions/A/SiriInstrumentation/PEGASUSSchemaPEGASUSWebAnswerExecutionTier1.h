@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSWebAnswerExecutionTier1 : SISchemaInstrumentationMessage
 {
     NSString *_answerId;
-    NSString *_entityUrl;
-    _Bool _hasAnswerId;
-    _Bool _hasEntityUrl;
 }
 
 - (void);
@@ -21,7 +18,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (void);
@@ -30,21 +27,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)";
+- (_Bool)essage item with GUID %@ did not update its syndication ranges;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)ralSearchResultId;
+- (id)_hasGeneralSearchResultId;
 - (id)maUSOGraph",&,N,V_reference;
-- (void)ENROLLMENTRESULT_UNKNOWN;
+- (void)ASRENTITYENROLLMENTRESULT_UNKNOWN;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *answerId; // @synthesize answerId=_answerId;
-@property(copy, nonatomic) NSString *entityUrl; // @synthesize entityUrl=_entityUrl;
-@property(nonatomic) _Bool hasAnswerId; // @synthesize hasAnswerId=_hasAnswerId;
-@property(nonatomic) _Bool hasEntityUrl; // @synthesize hasEntityUrl=_hasEntityUrl;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

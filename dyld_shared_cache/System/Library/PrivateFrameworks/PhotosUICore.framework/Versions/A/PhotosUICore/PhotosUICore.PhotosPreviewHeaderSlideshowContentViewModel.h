@@ -7,18 +7,6 @@
 @interface PhotosUICore.PhotosPreviewHeaderSlideshowContentViewModel
 {
     id _asset;
-    id _nextAsset;
-    id _assetChangeAnimation;
-    id _isActive;
-    id collection;
-    id initialAsset;
-    id assetChangeTimeInterval;
-    id _assets;
-    id _lastChangeDate;
-    id _didStartLoading;
-    id logger;
-    id $__lazy_storage_$_proxy;
-    id _$observationRegistrar;
 }
 
 @end

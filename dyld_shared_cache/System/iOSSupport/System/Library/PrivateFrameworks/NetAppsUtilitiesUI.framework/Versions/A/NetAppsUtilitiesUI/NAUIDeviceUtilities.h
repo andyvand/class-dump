@@ -8,18 +8,18 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)l;
++ (_Bool)Xl;
++ (_Bool)l;
 + (_Bool);
 + (double);
-+ (id);
++ (id)ؠin;
 + (id);
 + (id);
 + (_Bool);
-+ (id);
++ (id)textResponse";
 + (int);
-+ (id);
++ (id),;
 + (id);
 + (id);
 + (id);

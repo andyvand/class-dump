@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface _SFKeychainFetchResult
 {
     id _keychainFetchResultInternal;
 }
 
-+ (id);
++ (id) ;
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)rangesForUInt8Kernel;
 - (id);
 - (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSError *error;
 @property(readonly) long long resultType;
-@property(readonly) id value;
 
 @end
 

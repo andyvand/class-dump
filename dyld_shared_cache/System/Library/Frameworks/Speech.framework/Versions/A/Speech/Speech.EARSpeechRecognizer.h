@@ -7,8 +7,6 @@
 @interface Speech.EARSpeechRecognizer
 {
     id $defaultActor;
-    id id;
-    id actorSystem;
 }
 
 @end

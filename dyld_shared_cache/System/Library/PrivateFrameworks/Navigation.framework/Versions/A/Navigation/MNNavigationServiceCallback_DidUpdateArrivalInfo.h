@@ -11,22 +11,20 @@
 @interface MNNavigationServiceCallback_DidUpdateArrivalInfo : MNNavigationServiceCallbackParameters
 {
     MNArrivalInfo *_arrivalInfo;
-    long long _previousState;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)9H;
 - (id);
 - (long long);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)oudFollowUpActionDelegate>";
+- (void)startAnimation:(id)arg1;
 - (void)GEODirectionsServiceFamiliarRoute">32;
 
 // Remaining properties
 @property(retain, nonatomic) MNArrivalInfo *arrivalInfo; // @synthesize arrivalInfo=_arrivalInfo;
-@property(nonatomic) long long previousState; // @synthesize previousState=_previousState;
 
 @end
 

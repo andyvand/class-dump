@@ -6,27 +6,23 @@
 
 #import <AppKit/_NSFullScreenTransitionController.h>
 
-@class NSWindow, _NSFullScreenSpace, _NSFullScreenTileToTabTransitionOverlayWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenTileToTabTransitionController : _NSFullScreenTransitionController
 {
     NSWindow *_sourceWindow;
-    _NSFullScreenSpace *_startingSpace;
-    _NSFullScreenSpace *_remainingSpace;
-    NSWindow *_destinationWindow;
-    _NSFullScreenTileToTabTransitionOverlayWindow *_overlayWindow;
 }
 
 + (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)NSFileProviderErrorDomain;
 
 @end
 

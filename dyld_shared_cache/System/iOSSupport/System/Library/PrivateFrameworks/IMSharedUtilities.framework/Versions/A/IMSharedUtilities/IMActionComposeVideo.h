@@ -21,7 +21,6 @@
 - (void)ration, not rescheduling timer;
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *phoneNumber;
 
 @end

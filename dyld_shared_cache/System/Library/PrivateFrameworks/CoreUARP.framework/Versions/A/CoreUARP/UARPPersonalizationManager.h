@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCListener;
-@protocol OS_dispatch_queue, OS_os_log, UARPPersonalizationHelperProtocol;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface UARPPersonalizationManager
 {
     NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_serviceName;
-    NSString *_entitlement;
-    NSXPCListener *_listener;
-    id <UARPPersonalizationHelperProtocol> _delegate;
 }
 
 - (_Bool);
@@ -26,13 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

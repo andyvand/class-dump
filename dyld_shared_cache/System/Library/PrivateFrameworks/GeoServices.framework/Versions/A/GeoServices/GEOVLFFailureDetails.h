@@ -9,24 +9,20 @@
 @interface GEOVLFFailureDetails
 {
     PBUnknownFields *_unknownFields;
-    int _failureReason;
-    struct {
-        unsigned int has_failureReason:1;
-    } _flags;
 }
 
-+ (_Bool)ars:(id)arg1;
++ (_Bool)setNumberOfCars:(id)arg1;
 - (void);
 - (_Bool);
 - (id);
 - (int);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz./;
+- (void)selfTriggerEnabled;
+- (id)sCompletionWatchDog];
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -36,15 +32,13 @@
 × ;
 - (id)º*Ð1Â0@ù
 × ;
-- (id)hOptions:capacity: /* Error: Ran out of types for this method. */;
+- (id)initWithOptions:capacity: /* Error: Ran out of types for this method. */;
 - (id)s",&,N;
 - (id)eSearchSessionReadAllFrom can only be called once per object;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int failureReason;
 @property(nonatomic) _Bool hasFailureReason;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

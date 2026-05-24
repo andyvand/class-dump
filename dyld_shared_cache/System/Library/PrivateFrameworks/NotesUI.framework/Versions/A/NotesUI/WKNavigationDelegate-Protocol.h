@@ -5,5 +5,13 @@
 //
 
 @protocol WKNavigationDelegate
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)OContentAttachmentsViewController";
+- (void)animoji-inline-video;
+- (void)TTRRemindersListEditingSessionFinishingOption;
 @end
 

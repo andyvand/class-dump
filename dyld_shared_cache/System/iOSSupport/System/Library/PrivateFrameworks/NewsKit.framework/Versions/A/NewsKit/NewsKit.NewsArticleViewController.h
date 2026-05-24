@@ -8,14 +8,13 @@
 {
     id contentViewController;
     id articleViewController;
-    id sceneProvider;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_Qo_AQGGG_AnAyC;
 - (void);
 - (void);
 

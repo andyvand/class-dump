@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLRequest;
+@class NSError, NSURLRequest;
 
 @protocol WKURLSchemeTask
+- (NSURLRequest *);
+- (void)setLineCapStyle:(NSError *)arg1;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURLRequest *request;

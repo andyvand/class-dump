@@ -9,10 +9,9 @@
 @interface SCRCWebDateTimeParser
 {
     NSMutableDictionary *_expressions;
-    NSMutableDictionary *_dateFormats;
 }
 
-+ (id);
++ (id)X;
 - (id);
 - (id);
 - (id);

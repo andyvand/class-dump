@@ -4,42 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventAuthenticationMessage, NSMutableOrderedSet, NSMutableSet, NSSet, UIEventEnvironment, UIScreen;
+@class UIEventEnvironment;
 
 @interface UIEvent
 {
     struct __GSEvent *_gsEvent;
-    struct __IOHIDEvent *_hidEvent;
-    _Bool _hasValidModifiers;
-    long long _mzModifierFlags;
-    unsigned long long _mzClickCount;
-    long long _buttonMask;
-    UIScreen *_cachedScreen;
-    NSMutableSet *_eventObservers;
-    NSMutableOrderedSet *_hitTestObservers;
-    _Bool _isInteractionBehaviorInactive;
-    unsigned long long _lastPointerSenderID;
-    double _timestamp;
-    UIEventEnvironment *_eventEnvironment;
-    double __initialTouchTimestamp;
 }
 
 + (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *_allWindows;
-@property(readonly, nonatomic) BKSHIDEventAuthenticationMessage *_authenticationMessage;
-@property(readonly, nonatomic) unsigned long long _currentPointerEventSource;
-@property(readonly, nonatomic) NSSet *_dispatchWindows;
-@property(readonly, nonatomic) double _initialTouchTimestamp; // @synthesize _initialTouchTimestamp=__initialTouchTimestamp;
-@property(readonly, nonatomic) unsigned long long _inputPrecision;
-@property(readonly, nonatomic) NSSet *allTouches;
-@property(readonly, nonatomic) long long buttonMask;
 @property(nonatomic) __weak UIEventEnvironment *eventEnvironment; // @synthesize eventEnvironment=_eventEnvironment;
-@property(readonly, nonatomic) long long modifierFlags;
-@property(readonly, nonatomic) long long subtype;
-@property(nonatomic, setter=_setTimestamp:) double timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) long long type;
 
 @end
 

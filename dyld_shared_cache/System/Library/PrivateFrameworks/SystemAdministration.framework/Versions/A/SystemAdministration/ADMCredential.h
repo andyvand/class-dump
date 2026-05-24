@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ADMLocalUser, ADMSystem, NSString;
+@class NSString;
 
 @interface ADMCredential
 {
     _Bool _isDiskUser;
-    _Bool _isRootUser;
-    ADMSystem *_system;
-    ADMLocalUser *_user;
-    NSString *_password;
 }
 
 + (id);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)aa_hexString;
 - (id);
 - (id);
 - (id);
@@ -30,11 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool isDiskUser; // @synthesize isDiskUser=_isDiskUser;
-@property(readonly) _Bool isRootUser; // @synthesize isRootUser=_isRootUser;
 @property(readonly, copy) NSString *password; // @synthesize password=_password;
-@property(readonly, retain) ADMSystem *system; // @synthesize system=_system;
-@property(readonly, retain) ADMLocalUser *user; // @synthesize user=_user;
 
 @end
 

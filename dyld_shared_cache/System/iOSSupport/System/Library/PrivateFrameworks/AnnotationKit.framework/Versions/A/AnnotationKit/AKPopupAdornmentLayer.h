@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void);
+- (void)mage"8;
 
 @end
 

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@protocol RBDisplayListContents;
 
 @protocol RBDisplayListContents
++ (id <RBDisplayListContents>);
 - (_Bool)ëôÿxróÿ;
 - (float);
 - (void)ÀÌÓ;
 - (void)Õ44ìþ½<ÕD4ìþ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) float contentHeadroom;
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, copy, nonatomic) NSString *xmlDescription;
 @end
 

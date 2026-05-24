@@ -4,56 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSISEngine, NSObject, NSString, NSToolbar, NSURL, NSView, NSViewHost, NSWindow, UINSSceneViewController, UIScene, UIWindow;
-@protocol NSSidebarTrackingAdapter, NSSplitViewItemSeparatorTrackingAdapter, UINSTouchBarCoordinator;
+@class NSISEngine, NSObject, NSString, NSTitlebarAccessoryViewController, NSWindow;
+@protocol NSSidebarTrackingAdapter, NSSplitViewItemSeparatorTrackingAdapter;
 
 @protocol UINSWindow
-- (_Bool)ier:originalItem: /* Error: Ran out of types for this method. */;
+- (NSObject<NSSidebarTrackingAdapter> *)A;
+- (void)9	;
+- (void)J;
+- (_Bool);
+- (NSObject<NSSplitViewItemSeparatorTrackingAdapter> *)B;
+- (_Bool);
+- (_Bool)J ;
+- (_Bool)@;
+- (long long)h;
+- (void)�;
+- (void);
+- (void);
+- (void)9h;
+- (_Bool);
+- (_Bool);
+- (_Bool)setDrain_depth_p_0_50_at_charge_start_soc_curr_static_bin: /* Error: Ran out of types for this method. */;
+- (void)setCharge_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_4:(NSTitlebarAccessoryViewController *)arg1;
+- (void)drain_duration_p_0_10_at_charge_start_soc_curr_static_bin;
+- (void)drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_2;
+- (void)_classic_time_between_uses_std_dur_24;
+- (void)_classic_time_between_uses_std_dur_2;
+- (_Bool)deoc_model;
+- (NSISEngine *)thresholdForCECWithPluginModel;
+- (void)_outstandingTasksGroup;
+- (NSString *)`;
+- (_Bool)initWithItemIdentifier:originalItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIScene *UIScene;
-@property(nonatomic, setter=_setHostedView:) __weak NSViewHost *_hostedView;
-@property(readonly) NSISEngine *_layoutEngine;
-@property(readonly, nonatomic) _Bool appearsKey;
-@property(readonly, nonatomic) _Bool appearsKeyIncludingSheets;
 @property(readonly, nonatomic) __weak NSWindow *attachedWindow;
-@property(nonatomic) _Bool autoHidesToolbarInFullScreen;
-@property(nonatomic) struct CGSize contentMinSize;
-@property(nonatomic) _Bool drawsBottomDividerWhenTransparent;
-@property(nonatomic, getter=isExcludedFromWindowsMenu) _Bool excludedFromWindowsMenu;
-@property(readonly, nonatomic, getter=isFullscreen) _Bool fullscreen;
-@property(readonly, nonatomic) _Bool hasFullSizeContentView;
-@property(nonatomic) struct CGRect hostWindowContentFrame;
-@property(nonatomic) struct CGRect hostWindowFrame;
-@property(readonly, nonatomic, getter=isInLiveResize) _Bool inLiveResize;
-@property(retain) NSObject<NSSidebarTrackingAdapter> *inspectorSidebarAdapter;
-@property(retain) NSObject<NSSplitViewItemSeparatorTrackingAdapter> *inspectorSplitViewItemSeparatorTrackingAdapter;
-@property(readonly, nonatomic) _Bool isMovableByWindowBackground;
-@property(readonly, nonatomic) __weak UIWindow *keyUIWindow;
-@property(readonly, copy, nonatomic) NSString *persistentIdentifier;
-@property(retain) NSObject<NSSidebarTrackingAdapter> *primarySidebarAdapter;
-@property(retain) NSObject<NSSplitViewItemSeparatorTrackingAdapter> *primarySplitViewItemSeparatorTrackingAdapter;
-@property(copy, nonatomic) CDUnknownBlockType representedDragItemsProvider;
-@property(copy) NSURL *representedURL;
-@property(readonly, copy, nonatomic) NSString *sceneIdentifier;
-@property(readonly, nonatomic) __weak NSView *sceneView;
-@property(readonly, nonatomic) __weak UINSSceneViewController *sceneViewController;
-@property(retain) NSObject<NSSplitViewItemSeparatorTrackingAdapter> *splitViewItemSeparatorTrackingAdapter;
-@property(retain) NSObject<NSSidebarTrackingAdapter> *supplementarySidebarAdapter;
-@property(nonatomic) long long tabbingMode;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic, getter=isTitleHidden) _Bool titleHidden;
-@property(readonly, nonatomic) NSArray *titlebarAccessoryViewControllers;
-@property(nonatomic) _Bool titlebarAppearsTransparentWhenFullscreen;
-@property(nonatomic, getter=isTitlebarHidden) _Bool titlebarHidden;
-@property(nonatomic) long long titlebarSeparatorStyle;
-@property(nonatomic, getter=isTitlebarTransparent) _Bool titlebarTransparent;
-@property(copy, nonatomic) CDUnknownBlockType toggleFullScreenOverride;
-@property(retain, nonatomic) NSToolbar *toolbar;
-@property(nonatomic) long long toolbarStyle;
-@property(retain, nonatomic) NSObject<UINSTouchBarCoordinator> *touchBarCoordinator;
-@property(readonly, nonatomic) NSArray *uiWindows;
-@property(readonly, nonatomic, getter=isVisible) _Bool visible;
-@property(nonatomic) long long windowAppearance;
 @end
 

@@ -7,14 +7,6 @@
 @interface NewsArticles.ArticleProviderService
 {
     id tagService;
-    id headlineService;
-    id stocksFeedService;
-    id paidAccessChecker;
-    id endOfArticleItemFactory;
-    id configurationManager;
-    id createdDate;
-    id cache;
-    id articleGroupData;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol NSCoding
+- (void)FPBRFReferenceFootnoteCardSection",&,N,V_rfReferenceFootnoteCardSection;
 @end
 

@@ -9,12 +9,11 @@
 @interface ML3StoreItemArtistData
 {
     NSDictionary *_parsedStoreArtistImportProperties;
-    NSDictionary *_trackItemImportProperties;
 }
 
-- (id);
-- (id);
-- (void)iaPlayer;
+- (id)_addLibrarySummaryDataToCollectionIfPresent:fromCPLEventData:forKey: /* Error: Ran out of types for this method. */;
+- (id)_abortFromMocExecFail_NSMOC_SQLITE_ERROR_1_SQLITE_ERROR_SNAPSHOT_769_withCode:(id)arg1;
+- (void)MediaPlayer;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *parsedStoreArtistItemImportProperties;

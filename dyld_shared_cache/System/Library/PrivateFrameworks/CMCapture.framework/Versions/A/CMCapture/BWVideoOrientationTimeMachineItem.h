@@ -7,7 +7,6 @@
 @interface BWVideoOrientationTimeMachineItem
 {
     short _exifOrientation;
-    double _ptsSeconds;
 }
 
 - (void);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) short exifOrientation; // @synthesize exifOrientation=_exifOrientation;
 @property(nonatomic) double ptsSeconds; // @synthesize ptsSeconds=_ptsSeconds;
 
 @end

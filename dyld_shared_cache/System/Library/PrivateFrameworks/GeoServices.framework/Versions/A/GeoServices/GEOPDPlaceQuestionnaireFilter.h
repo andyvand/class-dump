@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)lter";
-- (id)ializeFeatures;
+- (id)_initializeFeatures;
 - (id)D;8=	È@ØBpC@DEàEIKdK;
 - (void);
 

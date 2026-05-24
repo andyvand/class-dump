@@ -6,37 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSString, UIColor, UIFont, UIMorphingLabelGlyphSet, _UIViewAnimationAttributes;
+@class NSString, UIMorphingLabelGlyphSet;
 
 @interface UIMorphingLabel : UIView
 {
     UIMorphingLabelGlyphSet *_srcGlyphSet;
-    UIMorphingLabelGlyphSet *_dstGlyphSet;
-    NSMutableArray *_hiddenGlyphViews;
-    UIView *_colorView;
-    unsigned long long _alignmentSrc[100];
-    unsigned long long _alignmentDst[100];
-    _Bool _alignmentIsEqual[100];
-    unsigned long long _alignmentSize;
-    double _alignmentDelays[100];
-    _UIViewAnimationAttributes *_textAnimationAttributes;
-    double _lastUpdateTime;
-    double _slowdown;
-    double _rippleFactor;
-    double _scaleFactor;
-    _Bool _isDoingFastAnimation;
-    _Bool _textDidChange;
-    _Bool _textColorDidChange;
-    _Bool _suppressLayoutSubviews;
-    _Bool _enableAnimation;
-    NSString *_text;
-    UIFont *_font;
-    UIColor *_textColor;
-    long long _textAlignment;
-    double _initialScale;
-    double _glyphScaleAnimationSpeed;
-    double _rippleDuration;
-    struct CGRect _visibleRect;
 }
 
 + (id)°!0Cùqf1Â0@ù
@@ -49,21 +23,21 @@
 - (void);
 - (id);
 - (double);
-- (void);
-- (void);
+- (void)dd}24B40@44@?52;
+- (void)setPrioritizeStartupOverQuality:(id)arg1;
+- (double)setEndTime:forItemWithPlayParameters: /* Error: Ran out of types for this method. */;
+- (void)generateCGImagesAsynchronouslyForTimes:(id)arg1 completionHandler:(double)arg2;
+- (void)CacheAvailableSize] dataTask=%{public}@ URL=%{public}@ expectedEntrySize=%lld memoryCacheAvailableSize=%lld;
+- (double)ITLibMediaItemPropertyVideoSeries;
 - (double);
 - (void);
-- (void);
-- (double);
-- (double);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void)1Â0@ù
 × ;
 - (_Bool)A!ðEù±ZÐ1Â0@ù
@@ -85,15 +59,15 @@
 - (_Bool)Ô ;
 - (double)icker>";
 - (_Bool)TraitCollection"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)wShouldShareTouchesWithHost:(double)arg1;
-- (void)te;
-- (double)hRemoteViewControllerProxy:(unsigned long long)arg1 hostPID:hostBundleID:hostAuditToken:sessionIdentifier: /* Error: Ran out of types for this method. */;
-- (void)lassIfNeededForSuperview:(_Bool)arg1 traitCollection: /* Error: Ran out of types for this method. */;
-- (void)ryDragOffset;
-- (struct CGRect)poverController:textInputView:caretRect:isVerticalText:completion: /* Error: Ran out of types for this method. */;
+- (void)setServiceViewShouldShareTouchesWithHost:(double)arg1;
+- (void)q_updateHardwareState;
+- (double)operatorWithRemoteViewControllerProxy:(unsigned long long)arg1 hostPID:hostBundleID:hostAuditToken:sessionIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_updateForGlassIfNeededForSuperview:(_Bool)arg1 traitCollection: /* Error: Ran out of types for this method. */;
+- (void)_supplementaryDragOffset;
+- (struct CGRect)_presentKeyboardPopoverWithType:keyString:popoverController:textInputView:caretRect:isVerticalText:completion: /* Error: Ran out of types for this method. */;
 - (id)review",&,N,V_targetedPreview;
 - (double)olor",&,N,V_buttonTextColor;
-- (id)ationShortcutAction;
+- (id)UIHandleApplicationShortcutAction;
 - (void)Ðª;
 - (void)D2¼2Ü2¼344T445¬5Ì5¬6¤89:(unsigned long long)arg1 è:D; /* Error: Ran out of types for this method. */;
 - (_Bool)nt:%@ (currentPlacement:%@) /* Error: Ran out of types for this method. */;
@@ -101,9 +75,9 @@
 - (void);
 - (id)>8;
 - (void)ionsConfigurationForRowAtIndexPath:(id)arg1 but returned %@.;
-- (void)te;
+- (void)inputBleedColorMatrixWhite;
 - (void)/System/Library/PrivateFrameworks/EmojiFoundation.framework/EmojiFoundation;
-- (id)rnerRadii;
+- (id)UIRectCornerRadii;
 - (void);
 - (double)q;
 - (void)hf?;
@@ -116,16 +90,7 @@
 - (void)(l;
 
 // Remaining properties
-@property(nonatomic) _Bool enableAnimation; // @synthesize enableAnimation=_enableAnimation;
-@property(copy, nonatomic) UIFont *font; // @synthesize font=_font;
-@property(nonatomic) double glyphScaleAnimationSpeed; // @synthesize glyphScaleAnimationSpeed=_glyphScaleAnimationSpeed;
-@property(nonatomic) double initialScale; // @synthesize initialScale=_initialScale;
-@property(nonatomic) double rippleDuration; // @synthesize rippleDuration=_rippleDuration;
-@property(nonatomic) _Bool suppressLayoutSubviews; // @synthesize suppressLayoutSubviews=_suppressLayoutSubviews;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(copy, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
-@property(nonatomic) struct CGRect visibleRect; // @synthesize visibleRect=_visibleRect;
 
 @end
 

@@ -4,37 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NWBrowseDescriptor, NWParameters;
+@class NSObject, NWBrowseDescriptor;
 @protocol OS_nw_browser;
 
 @interface NWBrowser
 {
     NWBrowseDescriptor *_descriptor;
-    NWParameters *_parameters;
-    NSObject<OS_nw_browser> *_internalBrowser;
-    NSSet *_internalDiscoveredEndpoints;
 }
 
 + (_Bool)C2lsC2lt.2l;
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)Text;
+- (void);
 - (id)¨;
-- (id)esolver_set_cancel_handler;
+- (id)nw_nat64_prefixes_resolver_set_cancel_handler;
 - (void)@;
 
 // Remaining properties
-@property(readonly) NWBrowseDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly, nonatomic) NSSet *discoveredEndpoints;
 @property(readonly) NSObject<OS_nw_browser> *internalBrowser; // @synthesize internalBrowser=_internalBrowser;
-@property(retain) NSSet *internalDiscoveredEndpoints; // @synthesize internalDiscoveredEndpoints=_internalDiscoveredEndpoints;
-@property(readonly) NWParameters *parameters; // @synthesize parameters=_parameters;
 
 @end
 

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLocale, NSString;
+@class NSArray;
 
 @interface CLSHolidayCalendarEventService
 {
     NSArray *_eventRules;
-    NSLocale *_locale;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)*;
 - (unsigned long long);
 - (id);
 - (id);
@@ -24,26 +23,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T	;
+- (void)"@9?;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSArray *eventRules; // @synthesize eventRules=_eventRules;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly) Class superclass;
 
 @end
 

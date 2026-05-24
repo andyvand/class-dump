@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)A;
 + (id);
 + (id)rSettings"24;
 

@@ -6,13 +6,9 @@
 
 #import <ReminderKit/REMStoreInvocation.h>
 
-@class REMObjectID;
-
 @interface REMRemindersDataViewInvocation_fetchByListID : REMStoreInvocation
 {
     _Bool _includingSubtasks;
-    _Bool _includingCompleted;
-    REMObjectID *_listID;
 }
 
 + (_Bool);
@@ -21,7 +17,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
@@ -29,9 +25,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool includingCompleted; // @synthesize includingCompleted=_includingCompleted;
 @property(readonly, nonatomic) _Bool includingSubtasks; // @synthesize includingSubtasks=_includingSubtasks;
-@property(readonly, nonatomic) REMObjectID *listID; // @synthesize listID=_listID;
 
 @end
 

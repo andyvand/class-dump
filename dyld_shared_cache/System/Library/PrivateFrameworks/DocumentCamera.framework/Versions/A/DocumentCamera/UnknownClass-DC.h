@@ -5,16 +5,14 @@
 //
 
 @interface UnknownClass (DC)
++ (id)blic}@ have associated web domains %{public}@;
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (struct CGSize);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGRect);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint CGPointValue;
-@property(readonly, nonatomic) struct CGRect CGRectValue;
-@property(readonly, nonatomic) struct CGSize CGSizeValue;
 @end
 

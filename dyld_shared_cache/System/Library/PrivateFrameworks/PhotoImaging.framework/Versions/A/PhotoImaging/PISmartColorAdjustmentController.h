@@ -6,8 +6,6 @@
 
 #import <PhotoImaging/PIAdjustmentController.h>
 
-@class NSDictionary;
-
 @interface PISmartColorAdjustmentController : PIAdjustmentController
 {
     struct {
@@ -16,7 +14,6 @@
         double autoValue;
         double g98;
     } _stats;
-    CDStruct_7982ab34 _smartSettings;
 }
 
 + (id);
@@ -28,15 +25,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)";
 + (id);
 
 // Remaining properties
 @property(nonatomic) double inputColor;
-@property(nonatomic) double offsetCast;
-@property(nonatomic) double offsetContrast;
-@property(nonatomic) double offsetSaturation;
-@property(copy, nonatomic) NSDictionary *statistics;
 
 @end
 

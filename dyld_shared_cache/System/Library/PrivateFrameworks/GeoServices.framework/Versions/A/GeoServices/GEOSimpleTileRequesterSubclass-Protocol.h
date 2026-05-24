@@ -7,11 +7,13 @@
 @class GEOURLWithHeaders;
 
 @protocol GEOSimpleTileRequesterSubclass
-- (GEOURLWithHeaders *)KNOWN;
+- (GEOURLWithHeaders *)SERVICE_UNKNOWN;
 
 @optional
+- (CDStruct_026435ec)addedStoreURL;
+- (_Bool)qqqqqqqqqqqqqqqqqqqrrssrr;
+- (_Bool);
 - (_Bool)ote_anyField"b1};
-- (GEOURLWithHeaders *);
 - (_Bool)9Ä:(const struct _GEOTileKey *)arg1 ¸:À:¼:t /* Error: Ran out of types for this method. */;
 @end
 

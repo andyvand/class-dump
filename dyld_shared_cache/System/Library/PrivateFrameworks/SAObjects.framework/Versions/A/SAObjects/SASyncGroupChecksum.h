@@ -6,8 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SASyncAnchor;
-
 @interface SASyncGroupChecksum : AceObject
 {
 }
@@ -18,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -27,16 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *domainObjectClass;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifierChecksum;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SASyncAnchor *syncAnchor;
 
 @end
 

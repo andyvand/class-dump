@@ -4,43 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SFEntitledAssetManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_downloadQueue;
-    NSObject<OS_dispatch_source> *_cleanupTimer;
-    unsigned long long _cleanupDuration;
-    NSMutableDictionary *_assetSetDict;
-    NSMutableDictionary *_observers;
-    NSMutableDictionary *_delegates;
 }
 
-+ (_Bool);
++ (_Bool);
 + (void);
-+ (id);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (void);
++ (id);
 + (_Bool);
 + (void);
 + (void);
 + (void);
 + (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (_Bool);
++ (void);
++ (_Bool);
++ (void);
++ (void);
 + (void);
 + (id);
-+ (id);
++ (void);
++ (id)5;
++ (id)q,;
 + (id);
 + (id);
 + (id);
@@ -66,8 +60,8 @@
 + (id);
 + (void);
 + (unsigned long long);
-+ (id);
-+ (id);
++ (id)!;
++ (id);
 + (id);
 + (id);
 + (void);
@@ -80,13 +74,14 @@
 Ø
 ;
 + (void)¶0i;
+- (void)�
+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -108,12 +103,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)MessageSubsystem, CFDataRef, CFErrorRef *);
 - (void);
 - (void);
 - (id);

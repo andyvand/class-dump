@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, UIView;
+@class NSMutableArray;
 
 @interface EKUIAvailabilityTimelineView
 {
     NSMutableArray *_labels;
-    UIView *_bottomPixelBorder;
-    double _offset;
-    double _largestLabelWidth;
 }
 
 - (void);
 - (void);
-- (void);
+- (void){;
 - (id);
-- (void);
-- (double);
-- (void)ions:usingComparator: /* Error: Ran out of types for this method. */;
+- (void)AXAttributeAccessors;
+- (double)aG;
+- (void)sortWithOptions:usingComparator: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,35 +6,25 @@
 
 #import <IMCore/IMMessageStatusChatItem.h>
 
-@class NSString;
-
 @interface IMSyndicationStatusChatItem : IMMessageStatusChatItem
 {
     _Bool _isSpamOrUnknown;
-    _Bool _wasDetectedAsSWYSpam;
-    NSString *_swyAppName;
-    NSString *_swyBundleID;
-    long long _syndicationStatus;
 }
 
-- (void);
-- (id);
-- (id);
+- (void):(_Bool)arg1 %d;
+- (id):(unsigned long long)arg1 %d holeDetectionThreshold=%f;
+- (id)%s for mode %d;
+- (_Bool)ell tech is nil;
 - (_Bool);
-- (_Bool);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isSpamOrUnknown; // @synthesize isSpamOrUnknown=_isSpamOrUnknown;
-@property(readonly, copy, nonatomic) NSString *swyAppName; // @synthesize swyAppName=_swyAppName;
-@property(readonly, copy, nonatomic) NSString *swyBundleID; // @synthesize swyBundleID=_swyBundleID;
 @property(readonly, nonatomic) long long syndicationStatus; // @synthesize syndicationStatus=_syndicationStatus;
-@property(readonly, nonatomic) _Bool wasDetectedAsSWYSpam; // @synthesize wasDetectedAsSWYSpam=_wasDetectedAsSWYSpam;
 
 @end
 

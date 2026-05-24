@@ -6,32 +6,21 @@
 
 #import <UIKitCore/UILabel.h>
 
-@class NSAttributedString, NSNumber, UIColor, UITabBarButton, _UITabBarItemAppearanceStorage;
-
 __attribute__((visibility("hidden")))
 @interface UITabBarButtonLabel : UILabel
 {
     double _boundsWidth;
-    _UITabBarItemAppearanceStorage *_appearanceStorage;
-    _Bool _isSelected;
-    _Bool _isHighlighted;
-    _Bool _hasSeenIdiom;
-    NSNumber *_previousKernAttributeForSizing;
-    NSAttributedString *_previousAttributedTextForSizingExcludingKern;
-    Class _appearanceGuideClass;
-    UIColor *_unselectedTintColor;
-    UITabBarButton *_tabBarButton;
 }
 
 + (double)UIAbbreviatedWeekdayMonthDayFormat;
 - (void);
 - (void);
-- (id);
+- (id)h_geom_trans_y_delta_range;
 - (id);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id)1Â0@ù
 × ;
@@ -43,9 +32,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (void):(id)arg1 8q16@?24;
 - (void)IDragItem"24@"UITargetedDragPreview"32;
-- (void)oreInput;
-- (void)sitionFromTopOfCaret:(id)arg1 distanceFromCaret:(unsigned long long)arg2;
-- (id)MinWidth;
+- (void)documentContextBeforeInput;
+- (void)assertInitialPositionFromTopOfCaret:(id)arg1 distanceFromCaret:(unsigned long long)arg2;
+- (id)_textButtonMinWidth;
 - (_Bool)orAnimations;
 - (id)OnViewportResize;
 - (void)V_headerAction;
@@ -66,8 +55,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAppearanceGuideClass:) Class _appearanceGuideClass; // @synthesize _appearanceGuideClass;
-@property(nonatomic) __weak UITabBarButton *tabBarButton; // @synthesize tabBarButton=_tabBarButton;
-@property(retain, nonatomic) UIColor *unselectedTintColor; // @synthesize unselectedTintColor=_unselectedTintColor;
 
 @end
 

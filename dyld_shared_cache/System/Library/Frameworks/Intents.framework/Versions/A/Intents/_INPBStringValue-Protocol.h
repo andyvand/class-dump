@@ -7,14 +7,13 @@
 @class NSString, _INPBValueMetadata;
 
 @protocol _INPBStringValue
-- (_Bool)rCombinationDictionary;
-- (void)rovideTimeOptionsCollectionForShowHome:(_INPBValueMetadata *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
-- (_INPBValueMetadata *)eRecipientsOptionsCollectionForStopShareETA:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void);
+- (NSString *)`;
+- (_Bool)_configurableParameterCombinationDictionary;
+- (void)provideTimeOptionsCollectionForShowHome:(_INPBValueMetadata *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBValueMetadata *)provideRecipientsOptionsCollectionForStopShareETA:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(copy, nonatomic) NSString *value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

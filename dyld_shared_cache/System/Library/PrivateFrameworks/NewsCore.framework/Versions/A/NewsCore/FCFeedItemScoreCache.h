@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCThreadSafeMutableDictionary;
 @protocol FCFeedPersonalizing;
 
 @interface FCFeedItemScoreCache
 {
     id <FCFeedPersonalizing> _feedPersonalizer;
-    FCThreadSafeMutableDictionary *_scoreProfilesByConfigurationSet;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)j;
 - (void)mbedding_training_history.json;
 - (id)Õÿ¾jEí;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCFeedPersonalizing> feedPersonalizer; // @synthesize feedPersonalizer=_feedPersonalizer;
-@property(readonly, nonatomic) FCThreadSafeMutableDictionary *scoreProfilesByConfigurationSet; // @synthesize scoreProfilesByConfigurationSet=_scoreProfilesByConfigurationSet;
 
 @end
 

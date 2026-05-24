@@ -5,5 +5,8 @@
 //
 
 @protocol STAMSStorefrontClientProtocol
+- (void)ERT OR IGNORE INTO item_artwork (item_pid) SELECT item_pid FROM item;
+- (void), grouping_key, cloud_status, representative_item_pid, keep_local, keep_local_status FROM genre;
+- (void)ry_screenshot_token != '' THEN 3 ELSE (CASE WHEN store_screenshot_token != '' THEN 4 ELSE 0 END) END) END) END);
 @end
 

@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface GEOLunarEvent
 {
     _Bool _isAboveHorizon;
-    long long _type;
-    double _bearing;
-    double _altitude;
-    NSDate *_date;
 }
 
 - (_Bool);
-- (double);
+- (double)_cn_insertNonNilObject:atIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (long long);
-- (double)CaptiveDetermination: /* Error: Ran out of types for this method. */;
+- (long long)shouldRetryForError: /* Error: Ran out of types for this method. */;
+- (double)setCaptiveDetermination: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(readonly, nonatomic) double bearing; // @synthesize bearing=_bearing;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) _Bool isAboveHorizon; // @synthesize isAboveHorizon=_isAboveHorizon;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

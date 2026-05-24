@@ -7,12 +7,10 @@
 @class NSString;
 
 @protocol CKPinnedConversationActivityItem
+- (NSString *)g;
+- (_Bool)t;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool activityItemAppearsWithAnimation;
-@property(readonly, nonatomic) double activityItemContentScale;
-@property(readonly, nonatomic) _Bool activityItemDisappearsWithAnimation;
 @property(readonly, nonatomic) NSString *activityItemIdentifier;
-@property(readonly, nonatomic) NSString *attachedContactItemIdentifier;
 @end
 

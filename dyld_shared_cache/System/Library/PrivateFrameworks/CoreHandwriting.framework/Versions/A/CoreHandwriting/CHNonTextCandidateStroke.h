@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHEncodedStrokeIdentifier, NSDictionary, NSMutableDictionary;
+@class NSDictionary, NSMutableDictionary;
 
 @interface CHNonTextCandidateStroke
 {
     NSMutableDictionary *_supportByStrokeIdentifier;
-    NSMutableDictionary *_sizeRatioByStrokeIdentifier;
-    double _support;
-    long long _fallbackClassification;
-    long long _classificationAsNonText;
-    long long _substrokesCount;
-    double _lineError;
-    double _containerScore;
-    double _lineOrientationAngle;
-    double _boundsDiagonal;
-    CHEncodedStrokeIdentifier *_strokeIdentifier;
-    struct CGRect _bounds;
-    struct CGRect _enlargedBounds;
-    struct CGRect _rotatedBounds;
 }
 
-+ (_Bool);
++ (_Bool)_flashSaturation;
 - (id);
 - (id);
 - (_Bool);
@@ -32,16 +19,14 @@
 - (id);
 - (double);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *sizeRatioByStrokeIdentifier; // @synthesize sizeRatioByStrokeIdentifier=_sizeRatioByStrokeIdentifier;
-@property(readonly, nonatomic) double support; // @synthesize support=_support;
 @property(readonly, nonatomic) NSDictionary *supportByStrokeIdentifier; // @synthesize supportByStrokeIdentifier=_supportByStrokeIdentifier;
 
 @end

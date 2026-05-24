@@ -18,16 +18,15 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)_chat:cancelScheduledMessageWithGUID:destinations:cancelType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)std::vector<float>, std::default_delete<std::vector<float>>>=""{?="__ptr_"^v}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
 @property(readonly, nonatomic) _Bool hasActiveTreatments;
 
 @end

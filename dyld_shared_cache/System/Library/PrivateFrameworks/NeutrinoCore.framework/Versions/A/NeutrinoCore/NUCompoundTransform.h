@@ -17,7 +17,7 @@
 - (CDStruct_95fa7c00);
 - (id);
 - (id);
-- (id);
+- (id);
 - (struct CGPoint);
 - (id);
 - (void)24q32;

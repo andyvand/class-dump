@@ -13,7 +13,7 @@
 - (unsigned short);
 - (void);
 - (int);
-- (void);
+- (void)IOKitErrorDomain;
 
 // Remaining properties
 @property(nonatomic) int index; // @synthesize index=_index;

@@ -6,26 +6,23 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIColor, UIImage, UIImageSymbolConfiguration, _UIBarButtonItemAppearanceStorage;
+@class _UIBarButtonItemAppearanceStorage;
 
 __attribute__((visibility("hidden")))
 @interface _UIBarContentView : UIView
 {
     _Bool _centerTextButtons;
-    Class _appearanceGuideClass;
-    _UIBarButtonItemAppearanceStorage *_appearanceStorage;
-    UIImage *_backIndicatorMaskImage;
 }
 
 - (id)!GùQ`Ð1Â0@ù
 × ;
 - (double)";
 - (_Bool)1"delegateRespondsToRowHeightForComponent"b1"showsSelectionBar"b1"allowsMultipleSelection"b1"allowSelectingCells"b1"soundsDisabled"b1"usesCheckedSelection"b1"skipsBackground"b1"isInLayoutSubviews"b1"usesDynamicRowHeight"b1"selectionBarIgnoresInset"b1};
-- (unsigned long long)ath:(id)arg1;
+- (unsigned long long)removeViewForSupplementaryOfKind:(id)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
 - (id)allbackTextContainerOrigin: /* Error: Ran out of types for this method. */;
-- (id)nteractiveDismissWhenFullScreen;
+- (id)_allowsInteractiveDismissWhenFullScreen;
 - (double)V_selectByIndirectPointerTouchEnabled;
-- (id)DynamicButtonDelegate;
+- (id)_UISwipeActionDynamicButtonDelegate;
 - (void)ÜH;
 - (unsigned long long)passed to windowDidUpdateOrientationPreferences. Expected:%@, Received:%@ /* Error: Ran out of types for this method. */;
 - (void);
@@ -33,19 +30,19 @@ __attribute__((visibility("hidden")))
 - (double)lidBaselineConstraints=%p;
 - (void)4;
 - (Class)sistency:unexpected layout requesting collapse. Split view controller:%@ /* Error: Ran out of types for this method. */;
-- (void)sure;
+- (void)UITableCellViewDisclosure;
 - (void)thout valid pointers for data=%p, requestedData=%p and overrides=%p;
-- (void);
+- (void)UIApplicationShortcutItemUserInfo;
 - (void)@"UITouchForceGestureRecognizer"8;
 - (void)from state %@;
 - (void).2f, {%.1f%+.1f, %.1f%+.1f}, %s%s%s%s;
-- (double)TextFormattingViewControllerSetItalicChange;
+- (double)UITextFormattingViewControllerSetItalicChange;
 - (void)UIKitDidEncode;
-- (_Bool)ural;
-- (void)eyDeviceUnsilenced;
+- (_Bool)UITextFormattingViewControllerTextAlignmentNatural;
+- (void)CHHapticPatternLibraryKeyDeviceUnsilenced;
 - (void). Cells must be retrieved by calling -dequeueConfiguredReusableCellWithRegistration:(id)arg1 forIndexPath:(unsigned long long)arg2 item:or -dequeueReusableCellWithReuseIdentifier:forIndexPath:. Collection view:%@; index path:%@; cell:%@ /* Error: Ran out of types for this method. */;
 - (long long)ing;
-- (void)rmMinWidth;
+- (void)UISolariumFloatingContentViewModifyTransformMinWidth;
 - (void);
 - (double);
 - (id);
@@ -60,34 +57,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAppearanceGuideClass:) Class _appearanceGuideClass; // @synthesize _appearanceGuideClass;
-@property(readonly, nonatomic) _Bool _useLeadingAlignedTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) _UIBarButtonItemAppearanceStorage *appearanceStorage; // @synthesize appearanceStorage=_appearanceStorage;
-@property(readonly, nonatomic) double backButtonMargin;
-@property(readonly, nonatomic) double backButtonMaximumWidth;
-@property(retain, nonatomic) UIImage *backIndicatorImage;
-@property(retain, nonatomic) UIImage *backIndicatorMaskImage; // @synthesize backIndicatorMaskImage=_backIndicatorMaskImage;
-@property(readonly, nonatomic) long long barType;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(nonatomic) _Bool centerTextButtons; // @synthesize centerTextButtons=_centerTextButtons;
-@property(readonly, nonatomic) _Bool compactMetrics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double defaultEdgeSpacing;
-@property(readonly, nonatomic) double defaultTextPadding;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *imageSymbolConfiguration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIImageSymbolConfiguration",?,R,N
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIColor *tintColor; // @dynamic tintColor;
 
 @end
 

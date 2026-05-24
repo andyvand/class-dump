@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessCodeConstraints, NSArray, NSError, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMAccessoryAccessCodeConstraintsFetchResponseValue
 {
     NSUUID *_accessoryUUID;
-    HMAccessCodeConstraints *_constraints;
-    NSError *_error;
 }
 
 + (id);
@@ -22,36 +20,17 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
+- (void)dispossession;
+- (_Bool)apogee;
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (id);
 - (void)ssfully onboarded accessory for natural lighting:%@ /* Error: Ran out of types for this method. */;
-- (id)ccessoryDiagnosticInfoRequestMessage;
+- (id)HMAccessoryDiagnosticInfoRequestMessage;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) HMAccessCodeConstraints *constraints; // @synthesize constraints=_constraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

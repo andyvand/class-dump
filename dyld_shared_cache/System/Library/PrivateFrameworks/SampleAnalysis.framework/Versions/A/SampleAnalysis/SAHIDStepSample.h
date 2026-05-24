@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SATask, SATimestamp;
+@class SATask;
 
 __attribute__((visibility("hidden")))
 @interface SAHIDStepSample
 {
     SATask *_task;
-    unsigned long long _threadId;
-    SATimestamp *_startTimestamp;
-    SATimestamp *_endTimestamp;
-    unsigned long long _startSampleIndex;
-    unsigned long long _endSampleIndex;
 }
 
 - (id);

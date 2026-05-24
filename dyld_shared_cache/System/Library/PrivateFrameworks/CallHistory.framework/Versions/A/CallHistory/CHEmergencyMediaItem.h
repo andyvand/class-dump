@@ -9,7 +9,6 @@
 @interface CHEmergencyMediaItem
 {
     NSString *_assetId;
-    long long _emergencyMediaType;
 }
 
 + (_Bool);
@@ -18,21 +17,20 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)d;
 - (long long);
-- (id);
-- (id);
+- (id)er",R;
+- (id)as completed;
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id)H;
+- (id)Q_rm;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)a;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *assetId; // @synthesize assetId=_assetId;
-@property(nonatomic) long long emergencyMediaType; // @synthesize emergencyMediaType=_emergencyMediaType;
 
 @end
 

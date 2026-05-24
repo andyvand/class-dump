@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, PEGASUSSchemaPEGASUSCirAlerts, PEGASUSSchemaPEGASUSDomainCards, PEGASUSSchemaPEGASUSSortedScore;
+@class NSArray;
 
 @interface PEGASUSSchemaPEGASUSCrossIntentRankerResponse : SISchemaInstrumentationMessage
 {
     NSArray *_crossDomainRankerScoreKeepers;
-    NSArray *_crossIntentRankerScoreKeepers;
-    PEGASUSSchemaPEGASUSDomainCards *_domainCards;
-    NSString *_cirPireneConfidenceDebug;
-    PEGASUSSchemaPEGASUSSortedScore *_sortedScore;
-    PEGASUSSchemaPEGASUSCirAlerts *_cirAlerts;
-    _Bool _cirFallbackTriggered;
-    struct {
-        unsigned int cirFallbackTriggered:1;
-    } _has;
-    _Bool _hasDomainCards;
-    _Bool _hasCirPireneConfidenceDebug;
-    _Bool _hasSortedScore;
-    _Bool _hasCirAlerts;
 }
 
 - (id);
@@ -35,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -62,7 +49,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
@@ -70,28 +57,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)e chats progressively:(id)arg1 total number copied was %ld;
 - (id);
 - (id)
 × ;
-- (id)nName;
+- (id)_hasActionName;
 - (id)Pair;
 - (void)meterNotAllowed.value.collection.values.enumeration.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSCirAlerts *cirAlerts; // @synthesize cirAlerts=_cirAlerts;
-@property(nonatomic) _Bool cirFallbackTriggered; // @synthesize cirFallbackTriggered=_cirFallbackTriggered;
-@property(copy, nonatomic) NSString *cirPireneConfidenceDebug; // @synthesize cirPireneConfidenceDebug=_cirPireneConfidenceDebug;
 @property(copy, nonatomic) NSArray *crossDomainRankerScoreKeepers; // @synthesize crossDomainRankerScoreKeepers=_crossDomainRankerScoreKeepers;
-@property(copy, nonatomic) NSArray *crossIntentRankerScoreKeepers; // @synthesize crossIntentRankerScoreKeepers=_crossIntentRankerScoreKeepers;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSDomainCards *domainCards; // @synthesize domainCards=_domainCards;
-@property(nonatomic) _Bool hasCirAlerts; // @synthesize hasCirAlerts=_hasCirAlerts;
-@property(nonatomic) _Bool hasCirFallbackTriggered;
-@property(nonatomic) _Bool hasCirPireneConfidenceDebug; // @synthesize hasCirPireneConfidenceDebug=_hasCirPireneConfidenceDebug;
-@property(nonatomic) _Bool hasDomainCards; // @synthesize hasDomainCards=_hasDomainCards;
-@property(nonatomic) _Bool hasSortedScore; // @synthesize hasSortedScore=_hasSortedScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSSortedScore *sortedScore; // @synthesize sortedScore=_sortedScore;
 
 @end
 

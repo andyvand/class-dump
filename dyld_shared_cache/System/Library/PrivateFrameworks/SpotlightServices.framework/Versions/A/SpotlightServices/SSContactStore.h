@@ -8,16 +8,16 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)absoluteString;
++ (id)_webView;
++ (id)_lp_stringByTrimmingWhitespace;
++ (id)_lp_strictlyDecodeTopLevelObjectOfClass:(id)arg1 forKey:error: /* Error: Ran out of types for this method. */;
++ (id)_lp_strictlyDecodeObjectOfClasses:(id)arg1 forKey:(id)arg2;
++ (id)_lp_strictlyDecodeObjectOfClass:(id)arg1 forKey:(id)arg2;
++ (void)_lp_strictlyDecodeLPARAssetForKey: /* Error: Ran out of types for this method. */;
++ (id)_layoutRatioThreshold;
 + (void);
-+ (id);
-+ (void);
-+ (void)Var_Word;
++ (void)kMDItemTopic_QueryTermsNum_Var_Word;
 + (id);
 
 @end

@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDMediaGroupsAggregateDataGeneratorData
 {
     NSArray *_destinations;
-    NSArray *_destinationControllersData;
-    NSArray *_groups;
-    NSArray *_generatedMediaSystemDestinationIdentifiers;
 }
 
 - (void);
@@ -34,10 +31,7 @@ __attribute__((visibility("hidden")))
 - (void)$=;
 
 // Remaining properties
-@property(copy) NSArray *destinationControllersData; // @synthesize destinationControllersData=_destinationControllersData;
 @property(copy) NSArray *destinations; // @synthesize destinations=_destinations;
-@property(copy) NSArray *generatedMediaSystemDestinationIdentifiers; // @synthesize generatedMediaSystemDestinationIdentifiers=_generatedMediaSystemDestinationIdentifiers;
-@property(copy) NSArray *groups; // @synthesize groups=_groups;
 
 @end
 

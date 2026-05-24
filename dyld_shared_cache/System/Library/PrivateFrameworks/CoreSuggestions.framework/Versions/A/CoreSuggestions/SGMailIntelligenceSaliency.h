@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
-
 @interface SGMailIntelligenceSaliency
 {
     _Bool _isSalient;
-    _Bool _isCounted;
-    NSNumber *_score;
-    NSString *_messageId;
-    NSString *_mailboxId;
-    long long _gteSaliency;
-    NSDate *_creationDate;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)P;
 - (void);
 - (id);
 - (_Bool);
@@ -33,20 +25,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)v;
 - (id);
-- (id);
+- (id)__objc_data;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) NSNumber *decayedScore;
 @property(nonatomic) long long gteSaliency; // @synthesize gteSaliency=_gteSaliency;
-@property(nonatomic) _Bool isCounted; // @synthesize isCounted=_isCounted;
-@property(readonly, nonatomic) _Bool isSalient; // @synthesize isSalient=_isSalient;
-@property(readonly, nonatomic) NSString *mailboxId; // @synthesize mailboxId=_mailboxId;
-@property(readonly, nonatomic) NSString *messageId; // @synthesize messageId=_messageId;
-@property(readonly, nonatomic) NSNumber *score; // @synthesize score=_score;
 
 @end
 

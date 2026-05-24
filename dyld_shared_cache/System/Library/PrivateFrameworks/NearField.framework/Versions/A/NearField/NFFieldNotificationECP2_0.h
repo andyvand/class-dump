@@ -6,33 +6,20 @@
 
 #import <NearField/NFFieldNotification.h>
 
-@class NSArray, NSData, NSMutableDictionary;
-
 @interface NFFieldNotificationECP2_0 : NFFieldNotification
 {
     _Bool _odaRequired;
-    unsigned char _terminalSubType;
-    _Bool _ignoreRFTechOnIsEqual;
-    unsigned int _terminalMode;
-    unsigned int _pairingMode;
-    unsigned long long _terminalType;
-    NSArray *_tciArray;
-    NSData *_openLoopSchemeBitfield;
-    NSData *_homeKitSchemeDataPayload;
-    NSData *_readerIdentifier;
-    NSData *_terminalTypeData;
-    NSMutableDictionary *_userInfo;
 }
 
 + (_Bool);
-- (id);
+- (id)eNameKey(void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (id);
 - (unsigned int);
@@ -42,26 +29,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)c;
 
 // Remaining properties
-@property(readonly, retain) NSData *homeKitSchemeDataPayload; // @synthesize homeKitSchemeDataPayload=_homeKitSchemeDataPayload;
 @property(nonatomic) _Bool ignoreRFTechOnIsEqual; // @synthesize ignoreRFTechOnIsEqual=_ignoreRFTechOnIsEqual;
-@property(readonly) _Bool odaRequired; // @synthesize odaRequired=_odaRequired;
-@property(readonly, retain) NSData *openLoopSchemeBitfield; // @synthesize openLoopSchemeBitfield=_openLoopSchemeBitfield;
-@property(readonly, nonatomic) unsigned int pairingMode; // @synthesize pairingMode=_pairingMode;
-@property(readonly, nonatomic) NSData *readerIdentifier; // @synthesize readerIdentifier=_readerIdentifier;
-@property(readonly, retain) NSArray *tciArray; // @synthesize tciArray=_tciArray;
-@property(readonly) unsigned int terminalMode; // @synthesize terminalMode=_terminalMode;
-@property(readonly) unsigned char terminalSubType; // @synthesize terminalSubType=_terminalSubType;
-@property(readonly) unsigned long long terminalType; // @synthesize terminalType=_terminalType;
-@property(readonly) NSData *terminalTypeData; // @synthesize terminalTypeData=_terminalTypeData;
-@property(retain, nonatomic) NSMutableDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

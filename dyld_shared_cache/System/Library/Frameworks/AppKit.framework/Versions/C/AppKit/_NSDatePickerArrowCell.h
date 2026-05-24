@@ -6,40 +6,38 @@
 
 #import <AppKit/NSActionCell.h>
 
-@class NSDate, NSTimer;
+@class NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface _NSDatePickerArrowCell : NSActionCell
 {
     NSTimer *_timer;
-    NSDate *_lastFireDateForTimer;
-    double _doubleValue;
 }
 
-+ (_Bool);
++ (_Bool)__NSCFURLSessionXPC;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)k`;
 - (id);
 - (void);
 - (_Bool);
 - (id);
+- (void);
+- (double)j;
+- (void);
+- (void);
+- (id);
+- (double)taskDependencyWithMainDocumentTask: /* Error: Ran out of types for this method. */;
+- (_Bool)setAllowsExpensiveNetworkAccess: /* Error: Ran out of types for this method. */;
+- (id)_allowsConstrainedNetworkAccess;
+- (void)for client certificates (%ld elements);
+- (_Bool)pdate on [%s], error code:(id)arg1 %d;
+- (void);
+- (void);
 - (void);
 - (double);
-- (void);
-- (void);
-- (id);
-- (double);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void)on:(id)arg1;
-- (void)iceAction;
+- (void)setRespectOrientation:(id)arg1;
+- (void)TrustedUIServiceAction;
 
 @end
 

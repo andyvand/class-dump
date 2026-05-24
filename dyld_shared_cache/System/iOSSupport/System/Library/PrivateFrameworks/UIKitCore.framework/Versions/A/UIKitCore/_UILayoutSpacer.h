@@ -6,49 +6,31 @@
 
 #import <UIKitCore/UILayoutGuide.h>
 
-@class NSArray, NSLayoutDimension, NSLayoutYAxisAnchor, NSString;
-
 @interface _UILayoutSpacer : UILayoutGuide
 {
     _Bool _compatibilityGuideAllowsArchivingAsSubview;
-    _Bool _horizontal;
-    NSArray *_constraintsToRemoveAtRuntime;
 }
 
-+ (id)nimation: /* Error: Ran out of types for this method. */;
++ (id)_reloadSectionHeaderFooters:withRowAnimation: /* Error: Ran out of types for this method. */;
 + (id)13Døÿí13hñnþí13|þõ13`ð¸þ;
-- (void);
+- (void);
 - (id);
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)Middleware_Oversize;
 - (_Bool);
 - (void);
 - (void)!Dù1]ð1Â0@ù
 × ;
-- (_Bool)unt: /* Error: Ran out of types for this method. */;
-- (void)se:(id)arg1;
-- (id)nspectorWidthMetrics: /* Error: Ran out of types for this method. */;
-- (id)ellSelectionTogglesExpansionState: /* Error: Ran out of types for this method. */;
+- (_Bool)updateCount: /* Error: Ran out of types for this method. */;
+- (void)setIsInEdgeFlickPhase:(id)arg1;
+- (id)setInspectorWidthMetrics: /* Error: Ran out of types for this method. */;
+- (id)initWithCellSelectionTogglesExpansionState: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setArchivedIdentifier:) NSString *_archivedIdentifier;
-@property(nonatomic, setter=_setCompatibilityGuideAllowsArchivingAsSubview:) _Bool _compatibilityGuideAllowsArchivingAsSubview; // @synthesize _compatibilityGuideAllowsArchivingAsSubview;
-@property(copy, nonatomic, setter=_setConstraintsToRemoveAtRuntime:) NSArray *_constraintsToRemoveAtRuntime; // @synthesize _constraintsToRemoveAtRuntime;
 @property(nonatomic, getter=_isHorizontal, setter=_setHorizontal:) _Bool _horizontal; // @synthesize _horizontal;
-@property(readonly) NSLayoutYAxisAnchor *bottomAnchor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSLayoutDimension *heightAnchor;
-@property(readonly, nonatomic) double length;
-@property(readonly) Class superclass;
-@property(readonly) NSLayoutYAxisAnchor *topAnchor;
 
 @end
 

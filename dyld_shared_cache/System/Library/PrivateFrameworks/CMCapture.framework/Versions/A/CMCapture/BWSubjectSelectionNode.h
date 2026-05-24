@@ -6,36 +6,20 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWDeviceOrientationMonitor, NSArray, NSDictionary, NSMutableDictionary, NSString, SubjectSelectionSession;
+@class NSDictionary, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface BWSubjectSelectionNode : BWNode
 {
     NSMutableDictionary *_videoCaptureInputsByPortType;
-    NSMutableDictionary *_videoCaptureOutputsByPortType;
-    struct os_unfair_lock_s _bufferServicingLock;
-    int _horizontalSensorBinningFactor;
-    int _verticalSensorBinningFactor;
-    NSDictionary *_cameraInfoByPortType;
-    CDStruct_79c71658 _outputDimensions;
-    SubjectSelectionSession *_subjectSelectionSession;
-    BWDeviceOrientationMonitor *_deviceOrientationMonitor;
-    unsigned int _minLuxLevelNeeded;
-    _Bool _deviceOrientationCorrectionEnabled;
-    NSArray *_portTypes;
-    int _endOfDataInputsCount;
-    _Bool _cameraHasDistortionCoefficients;
-    _Bool _cameraHasCalibrationValidMaxRadius;
-    int _centerStageFramingMode;
-    _Bool _gazeSelectionEnabled;
 }
 
 + (void)ld not set session properties;
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)PDAnimationSoundTarget;
 - (void);
 - (void);
 - (void);
@@ -56,15 +40,7 @@ __attribute__((visibility("hidden")))
 ÿòÿòÿ¢òÿ¤òÿ¨òÿ¬òÿ°òÿ´óÿ¹óÿ¾óÿÃóÿÈóÿÍôÿÔôÿÙôÿßôÿåôÿëõÿòõ ÿøõ!ÿþõ"ÿÿö#ÿÿö%ÿÿö%ÿÿö&ÿÿö'ÿÿ÷(ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSDictionary *videoCaptureInputsByPortType;
-@property(readonly, nonatomic) NSDictionary *videoCaptureOutputsByPortType;
 
 @end
 

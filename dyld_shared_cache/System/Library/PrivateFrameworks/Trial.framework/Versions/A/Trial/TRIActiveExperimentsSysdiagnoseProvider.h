@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TRIAllocationStatusDefaultProvider;
+@class TRIAllocationStatusDefaultProvider;
 
 @interface TRIActiveExperimentsSysdiagnoseProvider
 {
     TRIAllocationStatusDefaultProvider *_statusProvider;
-    NSArray *_environments;
-    NSString *_filename;
 }
 
 + (_Bool);

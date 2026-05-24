@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MessageProtection.Kyber1024ObjCPublicKey, NSData, TetraPublicSigningKeyWrapper;
+@class NSData;
 
 @interface MessageProtection.TetraRegistration
 {
     id ecdhPublicKey;
-    MessageProtection.Kyber1024ObjCPublicKey *kyberPublicKey;
-    void signature;
-    double timestamp;
-    unsigned int tetraVersion;
-    TetraPublicSigningKeyWrapper *signingPublicKey;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (unsigned int);
 - (id);
-- (double);
+- (double)qA;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) MessageProtection.Kyber1024ObjCPublicKey *kyberPublicKey; // @synthesize kyberPublicKey;
-@property(nonatomic, readonly) NSData *registrationData;
 @property(nonatomic, readonly) NSData *serializedECDHPublicKey;
-@property(nonatomic, readonly) NSData *signature;
-@property(nonatomic, readonly) TetraPublicSigningKeyWrapper *signingPublicKey; // @synthesize signingPublicKey;
-@property(nonatomic, readonly) unsigned int tetraVersion; // @synthesize tetraVersion;
-@property(nonatomic, readonly) double timestamp; // @synthesize timestamp;
 
 @end
 

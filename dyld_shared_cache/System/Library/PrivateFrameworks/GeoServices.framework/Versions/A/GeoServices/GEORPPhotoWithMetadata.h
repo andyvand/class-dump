@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSData, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPPhotoWithMetadata
 {
     PBDataReader *_reader;
-    double _creationDate;
-    NSData *_imageData;
-    GEOLatLng *_geotagCoordinate;
-    double _geotagHorizontalAccuracy;
-    double _geotagTimestamp;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_creationDate:1;
-        unsigned int has_geotagHorizontalAccuracy:1;
-        unsigned int has_geotagTimestamp:1;
-        unsigned int read_imageData:1;
-        unsigned int read_geotagCoordinate:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)i:(id)arg1;
++ (_Bool)setLaunchUri:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)CNCDPersistenceContext"24@0:(_Bool)arg1 8@16;
+- (void)upgradeAddressingGrammarProperties;
+- (void)updateWithPropertyKey:(double)arg1 value: /* Error: Ran out of types for this method. */;
+- (void)updateTargetWithAccounts:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)o;
 - (double);
 - (id);
 - (void);
@@ -48,11 +32,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)8@0:8@"CSASRFeatures"16B24 /* Error: Ran out of types for this method. */;
+- (void)CSTimerMonitor:(id)arg1 didReceiveTimerChanged: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)MKMapServiceAllCollectionsViewTicket;
 - (_Bool);
 - (id);
 - (id);
@@ -60,22 +44,13 @@
 - (void)!Eù¹*°1Â0@ù
 × ;
 - (id)GeoCodecsLabelSummaryIcon=III}16@0:(struct _NSZone *)arg1 8;
-- (id)ARoutes;
+- (id)clearIncidentsOnETARoutes;
 - (id)x;;
 - (id)MODULE_CONFIG_TYPE_UNKNOWN;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double creationDate;
-@property(retain, nonatomic) GEOLatLng *geotagCoordinate;
-@property(nonatomic) double geotagHorizontalAccuracy;
-@property(nonatomic) double geotagTimestamp;
-@property(nonatomic) _Bool hasCreationDate;
-@property(readonly, nonatomic) _Bool hasGeotagCoordinate;
-@property(nonatomic) _Bool hasGeotagHorizontalAccuracy;
-@property(nonatomic) _Bool hasGeotagTimestamp;
 @property(readonly, nonatomic) _Bool hasImageData;
-@property(retain, nonatomic) NSData *imageData;
 
 @end
 

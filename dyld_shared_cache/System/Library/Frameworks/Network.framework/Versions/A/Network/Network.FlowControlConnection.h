@@ -9,8 +9,6 @@
 @interface Network.FlowControlConnection : Network.FlowControl
 {
     id initialReceiveSpace;
-    id initialSendSpace;
-    id datagramBytesRead;
 }
 
 @end

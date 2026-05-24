@@ -4,45 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSObject, NSSet;
-@protocol OS_dispatch_queue;
-
 @interface PHSearchQueryOptions
 {
     _Bool _disableSemanticSearch;
-    _Bool _disableMetadataSearch;
-    _Bool _enableQueryMatchDetails;
-    _Bool _fetchContextualThumbnails;
-    _Bool _enableNextTokenSuggestions;
-    _Bool _limitSuggestionsToExactTextMatches;
-    _Bool _disableU2;
-    _Bool _disableSafetyCheck;
-    _Bool _enableEmbeddingOnlyResultsInExactMatches;
-    unsigned long long _searchQueryResultTypes;
-    NSSet *_scopedIdentifiers;
-    long long _maxRankedAssetSearchResults;
-    long long _maxRankedCollectionSearchResults;
-    NSObject<OS_dispatch_queue> *_resultsHandlerQueue;
-    long long _maxSearchResults;
-    NSArray *_sortDescriptors;
-    unsigned long long _spotlightQUTypes;
-    unsigned long long _suggestionLimit;
-    unsigned long long _locationInQueryStringForSuggestionGeneration;
-    NSIndexSet *_substringMatchedCategories;
-    double _embeddingRelevanceThreshold;
-    long long _embeddingGenerationTimeout;
-    double _collectionThreshold;
-    unsigned long long _matchType;
-    unsigned long long _minNumberOfResultsForNextTokenGeneration;
-    double _spotlightQueryTimeout;
-    NSArray *_bundleIdentifiers;
-    NSArray *_filterQueries;
 }
 
 + (id);
-- (id);
+- (id)N$;
 - (double);
-- (unsigned long long);
+- (unsigned long long)hD9;
 - (void);
 - (void);
 - (void);
@@ -51,11 +21,11 @@
 - (void);
 - (void);
 - (void);
+- (void)f@ $m!;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)b";
 - (void);
 - (void);
 - (void);
@@ -70,31 +40,40 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (_Bool);;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (double);
+- (id);
+- (void);
+- (unsigned long long);
+- (void)le = open(outputFilePath, "w")
+
+outputFile.write("""
+// This source file has been automatically generated in the "collect shaders" build phase.
+// Do not edit by hand. Modify the *.vert / *.frag files instead.
+// You can change the shaders included here by modifying the input files of the build phase
+
+""" + definesMaker("BUILT_IN_SHADERS_VERTEX_", vertexShaders) + "\n" + definesMaker("BUILT_IN_SHADERS_FRAGMENT_", fragmentShaders))
+
+outputFile.close;
+- (unsigned long long);
+- (void)xt Style;
+- (void);
+- (void);
 - (id);
+- (long long);
+- (void);
 - (_Bool);
 - (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (double)iteRow";
+- (id);
+- (_Bool);
+- (id)__LINKEDIT;
 - (_Bool);
 - (id);
 - (void);
@@ -105,34 +84,7 @@
 - (id)@ request for %{public}@ but asset %{public}@ has legacy slomo adjustment;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(nonatomic) double collectionThreshold; // @synthesize collectionThreshold=_collectionThreshold;
-@property(nonatomic) _Bool disableMetadataSearch; // @synthesize disableMetadataSearch=_disableMetadataSearch;
-@property(nonatomic) _Bool disableSafetyCheck; // @synthesize disableSafetyCheck=_disableSafetyCheck;
-@property(nonatomic) _Bool disableSemanticSearch; // @synthesize disableSemanticSearch=_disableSemanticSearch;
-@property(nonatomic) _Bool disableU2; // @synthesize disableU2=_disableU2;
-@property(nonatomic) long long embeddingGenerationTimeout; // @synthesize embeddingGenerationTimeout=_embeddingGenerationTimeout;
-@property(nonatomic) double embeddingRelevanceThreshold; // @synthesize embeddingRelevanceThreshold=_embeddingRelevanceThreshold;
-@property(nonatomic) _Bool enableEmbeddingOnlyResultsInExactMatches; // @synthesize enableEmbeddingOnlyResultsInExactMatches=_enableEmbeddingOnlyResultsInExactMatches;
-@property(nonatomic) _Bool enableNextTokenSuggestions; // @synthesize enableNextTokenSuggestions=_enableNextTokenSuggestions;
-@property(nonatomic) _Bool enableQueryMatchDetails; // @synthesize enableQueryMatchDetails=_enableQueryMatchDetails;
-@property(nonatomic) _Bool fetchContextualThumbnails; // @synthesize fetchContextualThumbnails=_fetchContextualThumbnails;
-@property(readonly, nonatomic) NSArray *filterQueries; // @synthesize filterQueries=_filterQueries;
 @property(nonatomic) _Bool limitSuggestionsToExactTextMatches; // @synthesize limitSuggestionsToExactTextMatches=_limitSuggestionsToExactTextMatches;
-@property(nonatomic) unsigned long long locationInQueryStringForSuggestionGeneration; // @synthesize locationInQueryStringForSuggestionGeneration=_locationInQueryStringForSuggestionGeneration;
-@property(nonatomic) unsigned long long matchType; // @synthesize matchType=_matchType;
-@property(nonatomic) long long maxRankedAssetSearchResults; // @synthesize maxRankedAssetSearchResults=_maxRankedAssetSearchResults;
-@property(nonatomic) long long maxRankedCollectionSearchResults; // @synthesize maxRankedCollectionSearchResults=_maxRankedCollectionSearchResults;
-@property(nonatomic) long long maxSearchResults; // @synthesize maxSearchResults=_maxSearchResults;
-@property(nonatomic) unsigned long long minNumberOfResultsForNextTokenGeneration; // @synthesize minNumberOfResultsForNextTokenGeneration=_minNumberOfResultsForNextTokenGeneration;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *resultsHandlerQueue; // @synthesize resultsHandlerQueue=_resultsHandlerQueue;
-@property(retain, nonatomic) NSSet *scopedIdentifiers; // @synthesize scopedIdentifiers=_scopedIdentifiers;
-@property(nonatomic) unsigned long long searchQueryResultTypes; // @synthesize searchQueryResultTypes=_searchQueryResultTypes;
-@property(copy, nonatomic) NSArray *sortDescriptors; // @synthesize sortDescriptors=_sortDescriptors;
-@property(nonatomic) unsigned long long spotlightQUTypes; // @synthesize spotlightQUTypes=_spotlightQUTypes;
-@property(nonatomic) double spotlightQueryTimeout; // @synthesize spotlightQueryTimeout=_spotlightQueryTimeout;
-@property(retain, nonatomic) NSIndexSet *substringMatchedCategories; // @synthesize substringMatchedCategories=_substringMatchedCategories;
-@property(nonatomic) unsigned long long suggestionLimit; // @synthesize suggestionLimit=_suggestionLimit;
 
 @end
 

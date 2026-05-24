@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction;
-
 __attribute__((visibility("hidden")))
 @interface BU_TMFloatParameterController
 {
     double _initialValue;
-    double _targetValue;
-    CAMediaTimingFunction *_mediaTimingFunction;
-    double _startTime;
-    double _targetTime;
 }
 
 + (id);
-- (void);
+- (void)9;
 - (double);
 - (void);
 - (double);
-- (double);
+- (double);
 - (double);
 - (id);
 - (void);

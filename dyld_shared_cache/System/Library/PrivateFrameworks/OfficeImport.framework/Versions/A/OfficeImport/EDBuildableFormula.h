@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface EDBuildableFormula
 {
     struct EDBuildablePtg *mTree;
-    int mWarning;
 }
 
 - (_Bool);
@@ -18,25 +15,22 @@ __attribute__((visibility("hidden")))
 - (int);
 - (struct EDBuildablePtg *);
 - (struct EDBuildablePtg *);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (char *);
+- (char *)";
 - (void);
 - (_Bool);
 - (unsigned int);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)
+k`;
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,28 +38,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)T(;
 - (int);
 - (_Bool);
 - (char *);
 - (char *);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (int);
-- (void);
+- (void);
 - (void)Ú;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

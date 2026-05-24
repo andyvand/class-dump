@@ -6,12 +6,11 @@
 
 #import <IMSharedUtilities/IMFromSuperParserContext.h>
 
-@class NSMutableString, NSString;
+@class NSString;
 
 @interface IMSuperToPlainParserContext : IMFromSuperParserContext
 {
     _Bool _extractLinks;
-    NSMutableString *_mutablePlainString;
 }
 
 - (id);
@@ -24,7 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableString *mutablePlainString; // @synthesize mutablePlainString=_mutablePlainString;
 @property(readonly, nonatomic) NSString *plainString;
 
 @end

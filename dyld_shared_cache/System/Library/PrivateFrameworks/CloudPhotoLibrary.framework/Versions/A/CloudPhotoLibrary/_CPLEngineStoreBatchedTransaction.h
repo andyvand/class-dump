@@ -9,14 +9,12 @@
 @interface _CPLEngineStoreBatchedTransaction
 {
     CPLTransaction *_dirty;
-    CDUnknownBlockType _block;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
 - (id);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)?;
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 
 @end
 

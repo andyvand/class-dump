@@ -6,33 +6,22 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSString;
-
 @interface GEOConfigStorageGetValueForKeyReply : GEOXPCReply
 {
     id _keyValue;
-    long long _keySource;
 }
 
-- (void);
+- (void)A;
 - (id);
-- (_Bool);
-- (void)courseWeightForLocation:(id)arg1 accuracyType: /* Error: Ran out of types for this method. */;
-- (long long)WaypointRouteFeatures;
+- (_Bool)locationManagerDidChangeAuthorization: /* Error: Ran out of types for this method. */;
+- (void)_courseWeightForLocation:(id)arg1 accuracyType: /* Error: Ran out of types for this method. */;
+- (long long)GEOWaypointRouteFeatures;
 - (void)°)¼*p+´+è,¼-;
 - (id)'3;
 - (void)n©þ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long keySource; // @synthesize keySource=_keySource;
 @property(retain, nonatomic) id keyValue; // @synthesize keyValue=_keyValue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, RTWatchdogManager;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface RTLifeCycleManager
 {
     NSMutableArray *_signals;
-    NSMutableDictionary *_listeners;
-    NSMutableSet *_services;
-    RTWatchdogManager *_watchdogManager;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)";
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)";
 - (void);
 - (id);
 - (void);
@@ -41,11 +36,7 @@
 - (void)cationsOfInterest, error, %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *listeners; // @synthesize listeners=_listeners;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableSet *services; // @synthesize services=_services;
 @property(retain, nonatomic) NSMutableArray *signals; // @synthesize signals=_signals;
-@property(retain, nonatomic) RTWatchdogManager *watchdogManager; // @synthesize watchdogManager=_watchdogManager;
 
 @end
 

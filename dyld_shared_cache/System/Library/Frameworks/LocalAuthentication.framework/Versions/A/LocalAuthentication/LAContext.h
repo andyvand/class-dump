@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LACCacheSync, LACContextCredentialCoder, LACEntitlementsChecker, LAClient, NSData, NSHashTable, NSNumber;
 @protocol LAPrearmContextXPC;
 
 @interface LAContext
 {
     id <LAPrearmContextXPC> _prearmContext;
-    LACCacheSync *_domainStateCache;
-    long long _flags;
-    unsigned int _instanceId;
-    NSNumber *_maxBiometryFailures;
-    long long _biometryType;
-    NSData *_evaluatedPolicyDomainState;
-    NSData *_externalizedContext;
-    NSHashTable *_observers;
-    LAClient *_client;
-    LACEntitlementsChecker *_entitlementsChecker;
-    LACContextCredentialCoder *_credentialCoder;
-    NSNumber *_optionRedactErrors;
 }
 
 + (unsigned int);
-+ (void);
-+ (id);
++ (void);
++ (id)o;
 + (void);
 + (unsigned int);
 + (_Bool);

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKOnboardingController, UIViewController;
+
 @protocol CKOnboardingControllerDelegate
+- (UIViewController *)initWithStartDate:(CKOnboardingController *)arg1;
+- (void)hideIfNotScrubbing;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SXPostActionHandlerManager
+- (void);
 @end
 

@@ -7,6 +7,12 @@
 @class NSString;
 
 @protocol CDPLocalSecretFollowUpProvider
+- (void)NSCollectionViewElement;
+- (void)_TtCC6Safari38CompletionListCollectionViewController17SectionHeaderView;
+- (void)NSUserInterfaceItemIdentification;
+- (void)VisualTabPickerShadowTileView;
+- (void)VisualTabPickerSearchField;
+- (void)SafariNSMutableSetExtras;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *telemetryFlowID;

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIExperimentIdentifiers, TRIRolloutIdentifiers;
+@class NSString;
 
 @protocol PSGExpConfigProtocol
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) TRIExperimentIdentifiers *experimentIdentifiers;
-@property(readonly, nonatomic) TRIRolloutIdentifiers *rolloutIdentifiers;
 @property(readonly, nonatomic) NSString *treatmentName;
 @end
 

@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (void);
-- (void)ingValueForKey: /* Error: Ran out of types for this method. */;
+- (void)keyPathsForValuesAffectingValueForKey: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKUserIdentityLookupInfo, NSUUID;
+@class CKUserIdentityLookupInfo;
 
 @interface HMBShareInvitationContext
 {
     _Bool _shouldGrantWriteAccess;
-    NSUUID *_participantClientIdentifier;
-    CKUserIdentityLookupInfo *_lookupInfo;
 }
 
-+ (_Bool);
++ (_Bool)imesAccessed integer NOT NULL DEFAULT 0, FOREIGN KEY (sessionId) REFERENCES sessions (id) ON DELETE CASCADE );
 
 // Remaining properties
 @property(readonly) CKUserIdentityLookupInfo *lookupInfo; // @synthesize lookupInfo=_lookupInfo;
-@property(readonly, copy) NSUUID *participantClientIdentifier; // @synthesize participantClientIdentifier=_participantClientIdentifier;
-@property _Bool shouldGrantWriteAccess; // @synthesize shouldGrantWriteAccess=_shouldGrantWriteAccess;
 
 @end
 

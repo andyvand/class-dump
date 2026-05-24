@@ -5,5 +5,6 @@
 //
 
 @protocol NSColorPickerSpectrumScrollerViewDelegate
+- (void)HighestSupportedVideoMode;
 @end
 

@@ -6,41 +6,10 @@
 
 #import <OfficeImport/OADCharacterProperties.h>
 
-@class NSArray, OADBulletColor, OADBulletFont, OADBulletProperties, OADBulletSize, OADTextSpacing;
-
 __attribute__((visibility("hidden")))
 @interface OADParagraphProperties : OADCharacterProperties
 {
     int mLevel;
-    OADBulletSize *mBulletSize;
-    OADBulletColor *mBulletColor;
-    OADBulletFont *mBulletFont;
-    OADBulletProperties *mBulletProperties;
-    OADTextSpacing *mLineSpacing;
-    OADTextSpacing *mBeforeSpacing;
-    OADTextSpacing *mAfterSpacing;
-    NSArray *mTabStops;
-    float mLeftMargin;
-    float mRightMargin;
-    float mIndent;
-    float mDefaultTab;
-    int mBulletCharSet;
-    unsigned char mAlign;
-    unsigned char mWrap;
-    unsigned char mFontAlign;
-    unsigned int mIsLatinLineBreak:1;
-    unsigned int mIsHangingPunctuation:1;
-    unsigned int mHasLevel:1;
-    unsigned int mHasLeftMargin:1;
-    unsigned int mHasRightMargin:1;
-    unsigned int mHasIndent:1;
-    unsigned int mHasDefaultTab:1;
-    unsigned int mHasBulletCharSet:1;
-    unsigned int mHasAlign:1;
-    unsigned int mHasWrap:1;
-    unsigned int mHasFontAlign:1;
-    unsigned int mHasIsLatinLineBreak:1;
-    unsigned int mHasIsHangingPunctuation:1;
 }
 
 + (id);
@@ -51,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -65,36 +34,36 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)";
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned char);
 - (void);
 - (float);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (int);
 - (id);
-- (id);
+- (id)7;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned char);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)o;
 - (unsigned char);
 - (void);
 - (void);
@@ -104,11 +73,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (float);
+- (float)initWithStatusTypeIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
-- (float);
+- (float)_sentCredentials;
 - (id);
 - (void)Ô!¬  ¼ Ðüì;
 - (int);

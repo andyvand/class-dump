@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliAlternateIdentities, NSString;
+@class NSString;
 
 @interface CTLazuliDestination
 {
     _Bool _isBot;
-    NSString *_uri;
-    NSString *_extractedUri;
-    CTLazuliAlternateIdentities *_identities;
-    NSString *_conversationID;
 }
 
-+ (_Bool);
++ (_Bool)nt:%p %@> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -25,9 +21,9 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (_Bool);
-- (void);
+- (void)LASRPChallenge;
 - (void);
 - (id);
 - (id);
@@ -37,11 +33,7 @@
 - (id)±È;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *conversationID; // @synthesize conversationID=_conversationID;
 @property(copy, nonatomic) NSString *extractedUri; // @synthesize extractedUri=_extractedUri;
-@property(retain, nonatomic) CTLazuliAlternateIdentities *identities; // @synthesize identities=_identities;
-@property(nonatomic) _Bool isBot; // @synthesize isBot=_isBot;
-@property(copy, nonatomic) NSString *uri; // @synthesize uri=_uri;
 
 @end
 

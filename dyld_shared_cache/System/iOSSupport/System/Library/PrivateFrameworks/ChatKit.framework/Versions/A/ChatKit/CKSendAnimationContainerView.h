@@ -11,7 +11,7 @@
     CKGradientReferenceView *_gradientReferenceView;
 }
 
-- (id);
+- (id)ss;
 - (id)@ù
 × ;
 - (void)× ;

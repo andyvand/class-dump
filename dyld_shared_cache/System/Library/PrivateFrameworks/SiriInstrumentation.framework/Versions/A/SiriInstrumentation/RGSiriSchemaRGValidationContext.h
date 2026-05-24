@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RGSiriSchemaRGValidationEnded, RGSiriSchemaRGValidationFailed, RGSiriSchemaRGValidationStarted;
+@class RGSiriSchemaRGValidationStarted;
 
 @interface RGSiriSchemaRGValidationContext : SISchemaInstrumentationMessage
 {
     RGSiriSchemaRGValidationStarted *_startedOrChanged;
-    RGSiriSchemaRGValidationEnded *_ended;
-    RGSiriSchemaRGValidationFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -38,24 +32,17 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)es/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobAsset_macOS.m:40 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)attachments_cache;
+- (id)";
 - (id);
-- (id);
-- (id)waysShowSiriDialog;
+- (id)alwaysShowSiriDialog;
 - (id)heckerHSThreshold;
-- (void)CTIONCLASS_APP_INTENT;
+- (void)IFTACTIONCLASS_APP_INTENT;
 
 // Remaining properties
-@property(retain, nonatomic) RGSiriSchemaRGValidationEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RGSiriSchemaRGValidationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RGSiriSchemaRGValidationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

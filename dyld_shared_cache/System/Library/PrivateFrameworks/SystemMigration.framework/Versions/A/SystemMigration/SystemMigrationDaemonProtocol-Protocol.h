@@ -5,5 +5,7 @@
 //
 
 @protocol SystemMigrationDaemonProtocol
+- (void);
+- (void);
 @end
 

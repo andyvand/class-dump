@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBPhotosLibraryImage, _SFPBURL;
-
 @interface _SFPBMessageAttachment
 {
     int _type;
-    _SFPBURL *_url;
-    NSData *_linkMetadata;
-    _SFPBPhotosLibraryImage *_photosLibraryImage;
 }
 
 - (void);
+- (id);
+- (void);
+- (id)_libraryBagKey;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)d;
 - (_Bool);
 - (int);
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id)ph_decodeSandboxedURLForKey:(id)arg1 sandboxExtensionWrapper: /* Error: Ran out of types for this method. */;
+- (id)ary:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -34,18 +29,7 @@
 - (void):8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *linkMetadata; // @synthesize linkMetadata=_linkMetadata;
-@property(retain, nonatomic) _SFPBPhotosLibraryImage *photosLibraryImage; // @synthesize photosLibraryImage=_photosLibraryImage;
-@property(readonly) Class superclass;
 @property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) _SFPBURL *url; // @synthesize url=_url;
 
 @end
 

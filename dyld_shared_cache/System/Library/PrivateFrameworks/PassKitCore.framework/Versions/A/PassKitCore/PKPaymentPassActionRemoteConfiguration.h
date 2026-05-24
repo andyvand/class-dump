@@ -7,7 +7,6 @@
 @interface PKPaymentPassActionRemoteConfiguration
 {
     _Bool _requiresAppletData;
-    _Bool _appletDataRequiresEncryption;
 }
 
 + (_Bool)0@ù
@@ -15,15 +14,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
+- (id) ;
 - (id);
+- (void)StringAsSymptomsDnsRecommendation:(id)arg1;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id)iscoveryCardIdentifier;
+- (id)discoveryCardIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool appletDataRequiresEncryption; // @synthesize appletDataRequiresEncryption=_appletDataRequiresEncryption;
 @property(readonly, nonatomic) _Bool requiresAppletData; // @synthesize requiresAppletData=_requiresAppletData;
 
 @end

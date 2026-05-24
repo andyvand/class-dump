@@ -4,12 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NSPPrivateAccessTokenClientState
 {
-    struct __SecKey *_clientKey;
-    NSData *_clientSecret;
+    struct __SecKey {
+        struct __CFRuntimeBase {
+            unsigned long long _field1;
+            _Atomic unsigned long long _field2;
+        } _field1;
+        struct __SecKeyDescriptor *_field2;
+        void *_field3;
+    } *_clientKey;
 }
 
 - (void);

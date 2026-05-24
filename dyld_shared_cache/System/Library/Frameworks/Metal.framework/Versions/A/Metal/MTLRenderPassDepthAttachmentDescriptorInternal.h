@@ -13,27 +13,34 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (void)ansform(src, c + vec2(-offset.y, offset.y)));
+  t0 = (((((t0 + t1) + t2) + t3) * weight.x) + ((((t4 + t5) + t6) + t7) * weight.y)) + (cn * weight.z);
+  vec4 d = abs(t0 - cn);
+  float s = intensity.x + (intensity.y * ((d.r + d.g) + d.b));
+  s = clamp(s, intensity.z, 1.0);
+  return mix(cn, t0, s);
+}
+;
 - (void);
-- (void);
-- (void);
+- (void)U;
 - (void);
 - (double);
-- (id);
+- (id)A8!;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void);
 - (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
+- (unsigned long long)�T;
 - (id);
-- (_Bool);
+- (_Bool)ul;
 - (void);
 - (id);
 - (void);

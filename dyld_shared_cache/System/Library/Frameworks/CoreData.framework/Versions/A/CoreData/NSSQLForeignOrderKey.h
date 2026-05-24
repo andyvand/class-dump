@@ -6,13 +6,12 @@
 
 #import <CoreData/NSSQLColumn.h>
 
-@class NSSQLForeignKey, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLForeignOrderKey : NSSQLColumn
 {
     NSString *_name;
-    NSSQLForeignKey *_foreignKey;
 }
 
 - (void);

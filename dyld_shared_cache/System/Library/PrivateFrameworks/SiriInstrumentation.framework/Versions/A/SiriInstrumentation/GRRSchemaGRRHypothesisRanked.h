@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface GRRSchemaGRRHypothesisRanked : SISchemaInstrumentationMessage
 {
@@ -25,15 +25,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)s;
+- (id)1;
 - (id)"STSchemaTopicalityAttributes";
 - (id)tenUtterancesMetadatas;
 - (id)¨;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *rankings; // @synthesize rankings=_rankings;
 
 @end

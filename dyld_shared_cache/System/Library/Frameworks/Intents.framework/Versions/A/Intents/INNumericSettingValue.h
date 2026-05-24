@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface INNumericSettingValue
 {
     NSNumber *_value;
-    long long _unit;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)_touchpadRelativeOriginBufferSize;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)clientAssociatedToHostPersonalHotspot:(id)arg1;
+- (void)g || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':(id)arg1 nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('click', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox' && event.target.value == '') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:true}); }); await p; return p; /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void)ForPlayMedia: /* Error: Ran out of types for this method. */;
+- (id)clearPaymentMethods;
+- (void)defaultMediaItemsForPlayMedia: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);z;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) long long unit; // @synthesize unit=_unit;
 @property(readonly, copy) NSNumber *value; // @synthesize value=_value;
 
 @end

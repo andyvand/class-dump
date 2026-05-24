@@ -7,11 +7,6 @@
 @interface CalendarUIKit.AttendeeStatusListViewModel
 {
     id _editViewModel;
-    id _isEditing;
-    id _displayPeople;
-    id _availability;
-    id _infoViewModels;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPAccessCodeControlRequest
 {
     HAPTLVUnsignedNumberValue *_identifier;
-    NSString *_accessCode;
 }
 
 + (id);
@@ -19,23 +18,15 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)requested for frame:(id)arg1 %u is beyond totalFrames:%u:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)tIdentifyCharacteristic: /* Error: Ran out of types for this method. */;
+- (void)setIdentifyCharacteristic: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accessCode; // @synthesize accessCode=_accessCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (struct CGSize);
 - (struct CGSize);
-- (void);
+- (void)H�;
 
 @end
 

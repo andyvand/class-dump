@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScrollView;
+@class UIScrollView;
 @protocol _UIScrollViewScrollObserver_Internal;
 
 __attribute__((visibility("hidden")))
@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)ateIndex;
+- (void)_highPassStateIndex;
 - (id)symbols.png;
 - (id)corner;
 - (void);
@@ -24,14 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIScrollViewScrollObserver_Internal> controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly) Class superclass;
 
 @end
 

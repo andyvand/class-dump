@@ -9,14 +9,11 @@
 @interface IKImageBrowserExpandCollapseGroupAnimation : IKAnimationGroup
 {
     _Bool _initialized;
-    double _tailOffset0;
-    double _headerOffset0;
-    id _group;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)h&;
 - (void);
 - (id);
 

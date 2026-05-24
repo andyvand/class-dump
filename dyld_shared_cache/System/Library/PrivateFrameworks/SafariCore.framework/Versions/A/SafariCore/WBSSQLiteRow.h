@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)rotocol:(id)arg1;
 - (id);
 - (double)AutoFilledThenModified;
 - (id)le.MobileSafari.Tabs.AutomaticTabClosingIntervalPreferenceFromFirstTimeExperiencePrompt;

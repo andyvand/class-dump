@@ -6,7 +6,7 @@
 
 #import <ChronoServices/CHSAvocadoDescriptor.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CHSMutableAvocadoDescriptor : CHSAvocadoDescriptor
 {
@@ -18,17 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *containerBundleIdentifier; // @dynamic containerBundleIdentifier;
-@property(copy, nonatomic) NSString *displayName; // @dynamic displayName;
-@property(copy, nonatomic) NSString *eventMachServiceName; // @dynamic eventMachServiceName;
 @property(copy, nonatomic) NSString *extensionBundleIdentifier; // @dynamic extensionBundleIdentifier;
-@property(copy, nonatomic) NSString *intentType; // @dynamic intentType;
-@property(copy, nonatomic) NSString *kind; // @dynamic kind;
-@property(copy, nonatomic) NSData *localeToken; // @dynamic localeToken;
-@property(nonatomic) unsigned long long supportedFamilies; // @dynamic supportedFamilies;
-@property(nonatomic, getter=isTransparent) _Bool transparent; // @dynamic transparent;
-@property(copy, nonatomic) NSString *widgetDescription; // @dynamic widgetDescription;
-@property(nonatomic) long long widgetVisibility; // @dynamic widgetVisibility;
 
 @end
 

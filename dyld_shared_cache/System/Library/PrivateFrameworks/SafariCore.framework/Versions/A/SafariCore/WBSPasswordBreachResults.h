@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, WBSPasswordBreachContext;
-
 @interface WBSPasswordBreachResults
 {
     struct os_unfair_lock_s _lock;
-    WBSPasswordBreachContext *_context;
-    NSMutableDictionary *_resultRecordsByPersistentIdentifier;
-    NSMutableSet *_recentlyBreachedPersistentIdentifiers;
 }
 
 - (void);
@@ -19,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ranslator was missing mapping for MPModelPropertyArtistCleanDownloadedSongCount;
 - (id);
 - (void);
 - (void);

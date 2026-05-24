@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, _CDXPCEventPublisher;
-@protocol OS_dispatch_queue;
-
 @interface _CDInteractionStoreNotifier
 {
     int _notifierToken;
-    NSObject<OS_dispatch_queue> *_queue;
-    _CDXPCEventPublisher *_interactionRecordedEventPublisher;
-    _CDXPCEventPublisher *_interactionDeletedEventPublisher;
-    NSMutableDictionary *_interactionStoreRecordedEventSubscribersByToken;
-    NSMutableDictionary *_interactionStoreDeletedEventSubscribersByToken;
-    _Bool _isRootProcess;
 }
 
 + (id)48;
@@ -27,12 +18,12 @@
 - (void);
 - (void);
 - (id);
+- (void)?ր;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)6;
 - (void)·/!¬Aùª31Â0@ù
 × ;
 

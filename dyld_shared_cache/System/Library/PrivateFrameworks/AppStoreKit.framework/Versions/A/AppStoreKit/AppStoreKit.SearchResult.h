@@ -7,12 +7,6 @@
 @interface AppStoreKit.SearchResult
 {
     id condensedBehavior;
-    id resultType;
-    id id;
-    id segue;
-    id impressionMetrics;
-    id automationMetadata;
-    id searchAdOpportunity;
 }
 
 @end

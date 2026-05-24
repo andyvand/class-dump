@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIView;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface OBContentView
 {
     _Bool _aboveHeaderLayout;
-    _Bool _customizedBackgroundColor;
-    UIView *_bleedView;
-    UIColor *_lightColor;
-    UIColor *_darkColor;
 }
 
 - (void);
@@ -26,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -35,10 +31,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool aboveHeaderLayout; // @synthesize aboveHeaderLayout=_aboveHeaderLayout;
-@property(nonatomic) __weak UIView *bleedView; // @synthesize bleedView=_bleedView;
-@property(nonatomic) _Bool customizedBackgroundColor; // @synthesize customizedBackgroundColor=_customizedBackgroundColor;
-@property(retain, nonatomic) UIColor *darkColor; // @synthesize darkColor=_darkColor;
 @property(retain, nonatomic) UIColor *lightColor; // @synthesize lightColor=_lightColor;
 
 @end

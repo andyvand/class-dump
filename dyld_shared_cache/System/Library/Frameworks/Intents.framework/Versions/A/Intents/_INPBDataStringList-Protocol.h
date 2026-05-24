@@ -7,12 +7,13 @@
 @class NSArray, _INPBCondition;
 
 @protocol _INPBDataStringList
-- (_INPBCondition *);
+- (NSArray *);
+- (void);
+- (void)%
+;
+- (_INPBCondition *)PhotoAlbumNameType;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *conditionType;
-@property(copy, nonatomic) NSArray *dataStrings;
-@property(readonly, nonatomic) unsigned long long dataStringsCount;
-@property(readonly, nonatomic) _Bool hasConditionType;
 @end
 

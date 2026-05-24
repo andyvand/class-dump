@@ -13,14 +13,14 @@
     NSArray *_sections;
 }
 
-+ (_Bool);
++ (_Bool);
+- (id)setHasCredits:(id)arg1;
 - (id);
+- (void)%{public}@:(id)arg1 -_currentToneIdentifierForAlertType:(%{public}@) […]. Persisted value was invalid; falling back to non-silent default tone. currentToneIdentifier = %{public}@. /* Error: Ran out of types for this method. */;
+- (id)PHSearchParsedTokenRangeInQueryKey;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)uItemCommand;
+- (void)_executeMenuItemCommand;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;

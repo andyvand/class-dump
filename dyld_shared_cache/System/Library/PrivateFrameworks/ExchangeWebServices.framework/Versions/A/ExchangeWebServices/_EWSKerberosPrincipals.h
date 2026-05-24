@@ -9,7 +9,6 @@
 @interface _EWSKerberosPrincipals
 {
     NSString *_clientPrincipal;
-    NSString *_servicePrincipal;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clientPrincipal; // @synthesize clientPrincipal=_clientPrincipal;
-@property(copy, nonatomic) NSString *servicePrincipal; // @synthesize servicePrincipal=_servicePrincipal;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFDebouncer, EMMessageRepository, NSArray, NSPredicate;
-@protocol MUIHighlightedMessagesControllerDelegate;
+@class EMMessageRepository;
 
 @interface MUIHighlightedMessagesController
 {
     EMMessageRepository *repository;
-    void delegate;
-    id $__lazy_storage_$_reloadDebouncer;
-    id $__lazy_storage_$_reloadWithEmptyUpdateDebouncer;
-    void mailboxes;
-    NSPredicate *filterPredicate;
-    id model;
 }
 
 - (void);
@@ -26,15 +19,16 @@
 - (id);
 - (void);
 - (void);
+- (void)@9;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)@;
+- (void)A;
+- (void)u
+;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -42,14 +36,9 @@
 - (id);
 - (void)
 × ;
-- (void)ForUnreadMessages;
+- (void)predicateForUnreadMessages;
 
 // Remaining properties
-@property(nonatomic) __weak id <MUIHighlightedMessagesControllerDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, retain) NSPredicate *filterPredicate; // @synthesize filterPredicate;
-@property(nonatomic, copy) NSArray *mailboxes;
-@property(nonatomic, retain) EFDebouncer *reloadDebouncer;
-@property(nonatomic, retain) EFDebouncer *reloadWithEmptyUpdateDebouncer;
 @property(nonatomic, readonly) EMMessageRepository *repository; // @synthesize repository;
 
 @end

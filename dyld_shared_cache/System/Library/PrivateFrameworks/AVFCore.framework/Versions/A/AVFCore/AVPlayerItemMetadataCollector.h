@@ -6,8 +6,8 @@
 
 #import <AVFCore/AVPlayerItemMediaDataCollector.h>
 
-@class AVPlayerItemMetadataCollectorInternal, NSObject;
-@protocol AVPlayerItemMetadataCollectorPushDelegate, OS_dispatch_queue;
+@class AVPlayerItemMetadataCollectorInternal;
+@protocol AVPlayerItemMetadataCollectorPushDelegate;
 
 @interface AVPlayerItemMetadataCollector : AVPlayerItemMediaDataCollector
 {
@@ -15,20 +15,19 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)kLm;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void):(id)arg1 %{public}@ on %{public}@ cid:%u returned %{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <AVPlayerItemMetadataCollectorPushDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue;
 
 @end
 

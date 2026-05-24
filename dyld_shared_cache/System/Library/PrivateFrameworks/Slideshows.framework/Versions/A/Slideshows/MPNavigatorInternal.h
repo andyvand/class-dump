@@ -4,45 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface MPNavigatorInternal
 {
     NSString *startPlugID;
-    double opacity;
-    struct CGPoint position;
-    double zPosition;
-    struct CGSize size;
-    double rotationAngle;
-    double xRotationAngle;
-    double yRotationAngle;
-    double scale;
-    long long zIndex;
-    NSString *uuid;
-    double numberOfLoops;
-    double duration;
-    double timeIn;
-    double phaseInDuration;
-    double phaseOutDuration;
-    NSMutableDictionary *layerKeyDictionary;
-    _Bool isTriggered;
-    _Bool startsPaused;
 }
 
 - (double);
 - (double);
+- (double)_backgroundSession;
+- (_Bool)ore",&,N,V_envelopeStore;
+- (id)V_deliveryWindow;
+- (void);
+- (void);
+- (void)xF;
+- (void)utcOffset;
+- (void);
+- (void);
+- (void);
 - (double);
-- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
 - (double);
 - (void);
 - (_Bool);
@@ -50,14 +32,14 @@
 - (double);
 - (void);
 - (double);
+- (double);
+- (void);
+- (void);
+- (void)(;
 - (double);
 - (void);
-- (void);
-- (void);
 - (double);
-- (void);
-- (double);
-- (struct CGSize);
+- (struct CGSize)DefaultClientSideEngagementBoostReduceVisibilityMultiplier;
 - (void);
 - (struct CGPoint);
 - (double);
@@ -70,25 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration;
-@property(nonatomic) _Bool isTriggered; // @synthesize isTriggered;
-@property(retain, nonatomic) NSMutableDictionary *layerKeyDictionary; // @synthesize layerKeyDictionary;
-@property(nonatomic) double numberOfLoops; // @synthesize numberOfLoops;
-@property(nonatomic) double opacity; // @synthesize opacity;
-@property(nonatomic) double phaseInDuration; // @synthesize phaseInDuration;
-@property(nonatomic) double phaseOutDuration; // @synthesize phaseOutDuration;
-@property(nonatomic) struct CGPoint position; // @synthesize position;
-@property(nonatomic) double rotationAngle; // @synthesize rotationAngle;
-@property(nonatomic) double scale; // @synthesize scale;
-@property(nonatomic) struct CGSize size; // @synthesize size;
 @property(retain, nonatomic) NSString *startPlugID; // @synthesize startPlugID;
-@property(nonatomic) _Bool startsPaused; // @synthesize startsPaused;
-@property(nonatomic) double timeIn; // @synthesize timeIn;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid;
-@property(nonatomic) double xRotationAngle; // @synthesize xRotationAngle;
-@property(nonatomic) double yRotationAngle; // @synthesize yRotationAngle;
-@property(nonatomic) long long zIndex; // @synthesize zIndex;
-@property(nonatomic) double zPosition; // @synthesize zPosition;
 
 @end
 

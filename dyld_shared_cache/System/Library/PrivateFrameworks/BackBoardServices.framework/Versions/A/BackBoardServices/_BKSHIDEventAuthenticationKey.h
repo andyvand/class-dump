@@ -9,8 +9,6 @@
 @interface _BKSHIDEventAuthenticationKey
 {
     NSData *_keyData;
-    CDStruct_43cfb2c2 _hmacContext;
-    struct atomic_flag _hmacInitialized;
 }
 
 - (void);

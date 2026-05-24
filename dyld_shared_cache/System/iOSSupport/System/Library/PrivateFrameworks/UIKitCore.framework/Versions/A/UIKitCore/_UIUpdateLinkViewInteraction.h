@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, _UIUpdateLinkTrackingView;
+@class UIView, _UIUpdateLinkTrackingView;
 @protocol UIInteractionEffect;
 
 __attribute__((visibility("hidden")))
@@ -15,27 +15,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (void)updateLastReadMessageTimeStampIfNeeded:(id)arg1;
+- (void)_TtC12IMDaemonCore35IntentClientConnectionRouteProvider;
 - (void);
-- (void);
-- (void);
-- (void)r;
-- (id)ion;
+- (void)activationDelayHandler;
+- (id)__guardAgainstDegenerateBaselineCalculation;
 - (void)aceholder context that isn't contained in the placeholderContexts array;
 - (void),;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <UIInteractionEffect> interactionEffect;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<UIInteractionEffect>",?,&,N
 
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view;
 
 @end
 

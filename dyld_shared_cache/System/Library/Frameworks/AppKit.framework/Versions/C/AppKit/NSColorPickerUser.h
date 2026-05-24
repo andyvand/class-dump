@@ -6,44 +6,31 @@
 
 #import <AppKit/NSColorPicker.h>
 
-@class NSMenuItem, NSMutableDictionary, NSPopUpButton, NSString, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSColorPickerUser : NSColorPicker
 {
     NSView *_userPickerView;
-    id tiffView;
-    id reserved1;
-    id renamePanelController;
-    NSPopUpButton *palettePopUpButton;
-    NSPopUpButton *optionsPopUp;
-    _Bool bScaleOrNot;
-    NSMutableDictionary *imageDictionary;
-    id paste;
-    id renameField;
-    id defaultTiffImage;
-    id removeField;
-    NSString *currImageName;
-    NSMenuItem *spectrumMenuItem;
 }
 
 - (_Bool);
 - (id);
 - (id);
+- (void)sandbox check failed;
+- (_Bool)ass %llu;
+- (void);
+- (void)webSocketTaskWithRequest:(id)arg1;
+- (id)_allowsTLSSessionTickets;
+- (id)ssertion(%d);
+- (void)weak_count}}12{shared_ptr<const __CFArray>=^{__CFArray}^{__shared_weak_count}}28{?=qi}44;
+- (id)shared_tcpConnWorkQueue;
 - (void);
+- (void);
+- (void);
+- (void)@;
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -51,15 +38,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (double);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (void)isualTabPickerTileContainerView:(id)arg1 titleForTileAtIndex: /* Error: Ran out of types for this method. */;
-- (void)hContentSize:(id)arg1 preferredEdge: /* Error: Ran out of types for this method. */;
+- (void)visualTabPickerTileContainerView:(id)arg1 titleForTileAtIndex: /* Error: Ran out of types for this method. */;
+- (void)_initWithContentSize:(id)arg1 preferredEdge: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSView *userPickerView; // @synthesize userPickerView=_userPickerView;

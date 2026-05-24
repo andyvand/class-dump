@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)table untrustable identifiers;
++ (id)ntine;
 
 @end
 

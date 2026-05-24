@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDelegationConsumerService, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ICUserCredentialProvider
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    long long _delegationDiscoveryCount;
-    ICDelegationConsumerService *_delegationConsumerService;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)en sources must be of the same length for interval list creation;
 - (void);
 - (id);
 - (void);

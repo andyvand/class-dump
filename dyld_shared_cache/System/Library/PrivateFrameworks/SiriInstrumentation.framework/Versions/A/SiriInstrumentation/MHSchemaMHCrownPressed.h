@@ -6,24 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHCrownPressed : SISchemaInstrumentationMessage
 {
     _Bool _isAlwaysOnMicAudioUsed;
-    struct {
-        unsigned int isAlwaysOnMicAudioUsed:1;
-    } _has;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)by zero;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -32,9 +27,7 @@
 - (id)d;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsAlwaysOnMicAudioUsed;
 @property(nonatomic) _Bool isAlwaysOnMicAudioUsed; // @synthesize isAlwaysOnMicAudioUsed=_isAlwaysOnMicAudioUsed;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

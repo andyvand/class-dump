@@ -10,12 +10,12 @@
 }
 
 - (id);
-- (struct IPAChecksumBytes);
+- (struct IPAChecksumBytes)w!;
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (id);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGSqlEntityStore;
+@class SGSqlEntityStore;
 
 @interface SGSGtoCNContactsCacheUpdateAdapter
 {
@@ -21,14 +21,7 @@
 - (void)ALUES ('*', :(id)arg1 regexLanguage, :type, :incomingMessage, :signature, 0, 1, 0, 0) ON CONFLICT (emailLanguage, regexLanguage, type, incomingMessage, signature) DO UPDATE SET noEngagement = noEngagement + 1 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak SGSqlEntityStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

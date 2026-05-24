@@ -9,8 +9,6 @@
 @interface ICSProperty
 {
     NSMutableDictionary *_parameters;
-    unsigned long long _type;
-    id _value;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void):(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -27,7 +25,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void).;
 - (void);
 - (void);
 - (void);
@@ -36,7 +34,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)devicePairingPINCodeRequest: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (void);

@@ -4,54 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOExperimentMetadata, GEOModelMetadata, NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLogMsgEventClientACSuggestions
 {
     PBDataReader *_reader;
-    NSMutableArray *_entries;
-    GEOModelMetadata *_modelMetadata;
-    long long _overallLatencyInMs;
-    NSMutableArray *_queryTokens;
-    NSString *_query;
-    GEOExperimentMetadata *_trialExperimentMetadata;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _autocompleteSequenceNumber;
-    int _keypressStatus;
-    int _responseStatus;
-    int _selectedIndex;
-    int _selectedSectionIndex;
-    int _trigger;
-    int _withinSectionSelectedIndex;
-    _Bool _isRerankerTriggered;
-    _Bool _isRetainedQuery;
-    _Bool _shouldDifferentiateClientAndServerResults;
-    struct {
-        unsigned int has_overallLatencyInMs:1;
-        unsigned int has_autocompleteSequenceNumber:1;
-        unsigned int has_keypressStatus:1;
-        unsigned int has_responseStatus:1;
-        unsigned int has_selectedIndex:1;
-        unsigned int has_selectedSectionIndex:1;
-        unsigned int has_trigger:1;
-        unsigned int has_withinSectionSelectedIndex:1;
-        unsigned int has_isRerankerTriggered:1;
-        unsigned int has_isRetainedQuery:1;
-        unsigned int has_shouldDifferentiateClientAndServerResults:1;
-        unsigned int read_entries:1;
-        unsigned int read_modelMetadata:1;
-        unsigned int read_queryTokens:1;
-        unsigned int read_query:1;
-        unsigned int read_trialExperimentMetadata:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)ex:(id)arg1;
++ (_Bool)setHasSignTitleIndex:(id)arg1;
 - (int);
 - (id);
 - (id);
@@ -98,39 +60,39 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)itToken"16@"NSObject<OS_tcc_identity>"24;
+- (unsigned long long)resourceLock_swapBufferingStrategiesGivenNewTerminatingEvent: /* Error: Ran out of types for this method. */;
+- (void)currentProcessIsFirstOrSecondPartyWithError: /* Error: Ran out of types for this method. */;
+- (void)cachedAuthorizationStatus;
+- (unsigned int)_cn_addNonNilObject: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ss to path %@;
+- (int)for pronoun;
+- (int)lic}@;
+- (void);
+- (_Bool)idays;
+- (int)art);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)arding:forReason:] /* Error: Ran out of types for this method. */;
+- (void);
+- (int);
 - (unsigned long long);
 - (void);
-- (void);
-- (unsigned int);
-- (id);
-- (void);
-- (int);
-- (int);
-- (void);
-- (_Bool);
-- (int);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (int);
-- (unsigned long long);
-- (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)tableView:(int)arg1 willDisplayCell:forTableColumn:row: /* Error: Ran out of types for this method. */;
 - (int);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id)utStyle:(struct _NSZone *)arg1;
+- (id)setRestoreLayoutStyle:(struct _NSZone *)arg1;
 - (id)uestFeedback",&,N,V_feedback;
 - (id)t_bcÈjk$l¨lDm¨mp@r;
 - (id)Unable to unarchive resource "%@" to "%@" - %@;
@@ -142,36 +104,7 @@
 - (void)¸9B36;
 
 // Remaining properties
-@property(nonatomic) unsigned int autocompleteSequenceNumber;
-@property(retain, nonatomic) NSMutableArray *entries;
-@property(nonatomic) _Bool hasAutocompleteSequenceNumber;
-@property(nonatomic) _Bool hasIsRerankerTriggered;
-@property(nonatomic) _Bool hasIsRetainedQuery;
-@property(nonatomic) _Bool hasKeypressStatus;
-@property(readonly, nonatomic) _Bool hasModelMetadata;
-@property(nonatomic) _Bool hasOverallLatencyInMs;
 @property(readonly, nonatomic) _Bool hasQuery;
-@property(nonatomic) _Bool hasResponseStatus;
-@property(nonatomic) _Bool hasSelectedIndex;
-@property(nonatomic) _Bool hasSelectedSectionIndex;
-@property(nonatomic) _Bool hasShouldDifferentiateClientAndServerResults;
-@property(readonly, nonatomic) _Bool hasTrialExperimentMetadata;
-@property(nonatomic) _Bool hasTrigger;
-@property(nonatomic) _Bool hasWithinSectionSelectedIndex;
-@property(nonatomic) _Bool isRerankerTriggered;
-@property(nonatomic) _Bool isRetainedQuery;
-@property(nonatomic) int keypressStatus;
-@property(retain, nonatomic) GEOModelMetadata *modelMetadata;
-@property(nonatomic) long long overallLatencyInMs;
-@property(retain, nonatomic) NSString *query;
-@property(retain, nonatomic) NSMutableArray *queryTokens;
-@property(nonatomic) int responseStatus;
-@property(nonatomic) int selectedIndex;
-@property(nonatomic) int selectedSectionIndex;
-@property(nonatomic) _Bool shouldDifferentiateClientAndServerResults;
-@property(retain, nonatomic) GEOExperimentMetadata *trialExperimentMetadata;
-@property(nonatomic) int trigger;
-@property(nonatomic) int withinSectionSelectedIndex;
 
 @end
 

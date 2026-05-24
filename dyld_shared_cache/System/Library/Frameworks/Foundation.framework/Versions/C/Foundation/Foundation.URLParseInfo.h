@@ -7,18 +7,6 @@
 @interface Foundation.URLParseInfo
 {
     id urlString;
-    id schemeRange;
-    id userRange;
-    id passwordRange;
-    id hostRange;
-    id portRange;
-    id pathRange;
-    id queryRange;
-    id fragmentRange;
-    id isIPLiteral;
-    id didPercentEncodeHost;
-    id pathHasFileID;
-    id encodedComponents;
 }
 
 @end

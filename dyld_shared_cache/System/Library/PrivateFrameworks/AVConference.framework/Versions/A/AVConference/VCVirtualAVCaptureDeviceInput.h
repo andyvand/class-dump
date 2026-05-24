@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, VCVirtualAVCaptureDevice;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface VCVirtualAVCaptureDeviceInput
 {
     NSArray *_ports;
-    VCVirtualAVCaptureDevice *_device;
-    struct os_unfair_lock_s _stateLock;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
-- (void)sitiveMode;
+- (id).  Format 5.;
+- (void)useErasureSensitiveMode;
 
 @end
 

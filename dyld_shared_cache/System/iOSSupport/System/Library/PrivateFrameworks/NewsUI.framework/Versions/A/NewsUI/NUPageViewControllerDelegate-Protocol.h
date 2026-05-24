@@ -5,5 +5,8 @@
 //
 
 @protocol NUPageViewControllerDelegate
+
+@optional
+- (void);
 @end
 

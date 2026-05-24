@@ -9,8 +9,6 @@
 @interface SXComponentLayoutAttributeDescriptor : SXComponentDependencyDescriptor
 {
     _Bool _ignoreMargins;
-    int _fromLayoutAttribute;
-    int _toLayoutAttribute;
 }
 
 @end

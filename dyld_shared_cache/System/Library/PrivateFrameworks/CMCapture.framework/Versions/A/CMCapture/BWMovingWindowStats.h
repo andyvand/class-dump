@@ -9,10 +9,9 @@
 @interface BWMovingWindowStats : BWMedianStats
 {
     int _windowSize;
-    int _dataPointIndex;
 }
 
-- (void);
+- (void)8]T^;
 - (id);
 - (id);
 - (id);

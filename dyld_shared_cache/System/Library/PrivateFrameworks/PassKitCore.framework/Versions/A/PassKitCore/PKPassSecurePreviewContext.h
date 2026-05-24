@@ -9,15 +9,6 @@
 @interface PKPassSecurePreviewContext
 {
     struct CGImage *_icon;
-    struct CGImage *_image;
-    struct CGImage *_backgroundImage;
-    NSString *_backgroundColor;
-    NSString *_primaryText;
-    NSString *_primaryColor;
-    NSString *_secondaryText;
-    NSString *_secondaryColor;
-    NSString *_tertiaryText;
-    NSString *_tertiaryColor;
 }
 
 + (id);
@@ -25,40 +16,32 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
+- (void)';
 - (void);
-- (void);
-- (void);
+- (void)?
+ka;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (struct CGImage *);
-- (id);
-- (void);
+- (id)setHasPnoSSIDDur: /* Error: Ran out of types for this method. */;
+- (void)addRxLatencyTID0:(id)arg1;
 - (void);
 - (struct CGImage *);
 - (struct CGImage *)Y"!èFù1ð%°1Â0@ù
 × ;
-- (id)yValue;
+- (id)displayValue;
 - (id)on!;
 - (void)d to get provisioning nonce, deviceID unavailable for context:(struct CGImage *)arg1 %@;
-- (void)ayInformation;
+- (void)displayInformation;
 - (id)î´;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) struct CGImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(readonly, nonatomic) struct CGImage *icon; // @synthesize icon=_icon;
-@property(readonly, nonatomic) struct CGImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *primaryColor; // @synthesize primaryColor=_primaryColor;
-@property(copy, nonatomic) NSString *primaryText; // @synthesize primaryText=_primaryText;
-@property(copy, nonatomic) NSString *secondaryColor; // @synthesize secondaryColor=_secondaryColor;
-@property(copy, nonatomic) NSString *secondaryText; // @synthesize secondaryText=_secondaryText;
-@property(copy, nonatomic) NSString *tertiaryColor; // @synthesize tertiaryColor=_tertiaryColor;
-@property(copy, nonatomic) NSString *tertiaryText; // @synthesize tertiaryText=_tertiaryText;
 
 @end
 

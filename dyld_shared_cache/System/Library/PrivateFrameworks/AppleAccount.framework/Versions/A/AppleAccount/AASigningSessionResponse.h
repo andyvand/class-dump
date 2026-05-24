@@ -13,10 +13,10 @@
     NSData *_sessionData;
 }
 
-- (void);
+- (void)%ld;
 - (id);
-- (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setAreParentalControlsEnabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *sessionData; // @synthesize sessionData=_sessionData;

@@ -11,7 +11,7 @@
     NSDictionary *_voiceDefaults;
 }
 
-+ (id);
++ (id)25;
 - (id);
 - (void);
 - (id);
@@ -25,7 +25,7 @@
 - (id);
 - (float);
 - (id);
-- (void);
+- (void)_locationStoreAvailable;
 - (id);
 - (void);
 - (void)¬ÿ;

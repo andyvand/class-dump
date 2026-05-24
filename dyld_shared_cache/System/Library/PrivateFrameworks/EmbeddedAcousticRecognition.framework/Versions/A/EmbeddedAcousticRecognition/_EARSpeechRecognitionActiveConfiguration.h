@@ -9,14 +9,6 @@
 @interface _EARSpeechRecognitionActiveConfiguration
 {
     NSSet *_samplingRateFilter;
-    NSSet *_taskTypeFilter;
-    NSSet *_farFieldFilter;
-    NSSet *_deviceIdFilter;
-    NSSet *_bluetoothDeviceIdFilter;
-    NSSet *_aneContextFilter;
-    NSSet *_cpuContextFilter;
-    NSSet *_gpuContextFilter;
-    NSSet *_atypicalSpeechFilter;
 }
 
 + (id);
@@ -46,15 +38,7 @@
 - (void)\;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *aneContextFilter; // @synthesize aneContextFilter=_aneContextFilter;
-@property(copy, nonatomic) NSSet *atypicalSpeechFilter; // @synthesize atypicalSpeechFilter=_atypicalSpeechFilter;
-@property(copy, nonatomic) NSSet *bluetoothDeviceIdFilter; // @synthesize bluetoothDeviceIdFilter=_bluetoothDeviceIdFilter;
-@property(copy, nonatomic) NSSet *cpuContextFilter; // @synthesize cpuContextFilter=_cpuContextFilter;
-@property(copy, nonatomic) NSSet *deviceIdFilter; // @synthesize deviceIdFilter=_deviceIdFilter;
-@property(copy, nonatomic) NSSet *farFieldFilter; // @synthesize farFieldFilter=_farFieldFilter;
-@property(copy, nonatomic) NSSet *gpuContextFilter; // @synthesize gpuContextFilter=_gpuContextFilter;
 @property(copy, nonatomic) NSSet *samplingRateFilter; // @synthesize samplingRateFilter=_samplingRateFilter;
-@property(copy, nonatomic) NSSet *taskTypeFilter; // @synthesize taskTypeFilter=_taskTypeFilter;
 
 @end
 

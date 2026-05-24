@@ -5,16 +5,16 @@
 //
 
 @interface UnknownClass (CharacterInformationAdditions)
-- (id);
-- (long long);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (id)tableDictionary"}"aux"{?="inProcessConnection"B"performingAuxUndo"B""(?="xpc"{?="listener"@"NSXPCListener""endpoint"@"NSXPCListenerEndpoint""connection"@"NSXPCConnection"}"inProcess"{?="mainInterface"@"_NSUndoManagerMainExportedObject""uuid"@"NSUUID"})})};
+- (long long)Q]Q};
+- (long long)S];
+- (id)o}};
+- (id)8@"NSURLConnection"16@"NSError"24;
+- (id)8;
+- (id)q^v^?^?^?}16@0:(unsigned long long)arg1 8;
+- (long long)2@?36;
+- (id)haracterSet=}16Q24{_NSRange=QQ}32;
+- (id)@16Q24;
 - (id);
 @end
 

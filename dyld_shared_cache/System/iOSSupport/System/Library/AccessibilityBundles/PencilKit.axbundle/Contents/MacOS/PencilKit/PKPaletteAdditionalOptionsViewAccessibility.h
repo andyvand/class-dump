@@ -10,12 +10,12 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
 - (void);
 - (_Bool);
-- (void);
+- (void):New leading bar buttons:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

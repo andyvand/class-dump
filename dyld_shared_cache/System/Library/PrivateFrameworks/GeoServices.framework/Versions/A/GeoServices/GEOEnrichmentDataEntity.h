@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOEnrichmentInfo, GEOPDEnrichmentDataEntity, NSArray, NSData, NSString;
+@class GEOEnrichmentInfo, GEOPDEnrichmentDataEntity;
 
 @interface GEOEnrichmentDataEntity
 {
     GEOPDEnrichmentDataEntity *_enrichmentDataEntity;
-    GEOEnrichmentInfo *_enrichmentInfo;
-    NSString *_enrichmentHtml;
-    NSData *_enrichmentMetadata;
-    NSArray *_appAdamIds;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)profileWithTimeProvider:os_log: /* Error: Ran out of types for this method. */;
+- (id)umber",&,N,V_isClientTCCRegionalAllowedCachedValue;
+- (id)alue;
 - (id);
 - (id);
 - (unsigned long long);
@@ -26,10 +22,7 @@
 - (void)îÜ4;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *appAdamIds; // @synthesize appAdamIds=_appAdamIds;
-@property(readonly, nonatomic) NSString *enrichmentHtml; // @synthesize enrichmentHtml=_enrichmentHtml;
 @property(readonly, nonatomic) GEOEnrichmentInfo *enrichmentInfo; // @synthesize enrichmentInfo=_enrichmentInfo;
-@property(readonly, nonatomic) NSData *enrichmentMetadata; // @synthesize enrichmentMetadata=_enrichmentMetadata;
 
 @end
 

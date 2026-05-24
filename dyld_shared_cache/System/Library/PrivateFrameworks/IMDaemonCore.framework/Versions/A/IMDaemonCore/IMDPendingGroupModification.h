@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface IMDPendingGroupModification
 {
     NSArray *_participantsToAdd;
-    NSArray *_participantsToRemove;
-    NSString *_previousDisplayName;
 }
 
 - (id);
@@ -19,15 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)*;
 - (_Bool);
 - (id);
 - (void)üH;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *participantsToAdd; // @synthesize participantsToAdd=_participantsToAdd;
-@property(readonly, nonatomic) NSArray *participantsToRemove; // @synthesize participantsToRemove=_participantsToRemove;
-@property(readonly, copy, nonatomic) NSString *previousDisplayName; // @synthesize previousDisplayName=_previousDisplayName;
 
 @end
 

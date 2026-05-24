@@ -5,5 +5,6 @@
 //
 
 @protocol AVPlaybackContentTransitioningViewDelegate
+- (_Bool);
 @end
 

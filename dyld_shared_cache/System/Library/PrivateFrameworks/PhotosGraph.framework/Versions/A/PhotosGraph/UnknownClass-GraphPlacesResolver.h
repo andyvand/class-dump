@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCircularRegion, NSArray, NSString;
+@class CLCircularRegion;
 
 @interface UnknownClass (GraphPlacesResolver)
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categoryNames;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CLCircularRegion *region;
-@property(readonly) Class superclass;
 @end
 

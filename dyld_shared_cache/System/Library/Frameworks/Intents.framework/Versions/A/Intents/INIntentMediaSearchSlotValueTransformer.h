@@ -9,11 +9,11 @@
 }
 
 + (_Bool);
++ (Class);
 + (Class);
-+ (Class);
-+ (long long)ol: /* Error: Ran out of types for this method. */;
++ (long long)setInternationalCurrencySymbol: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)Types:(id)arg1;
+- (id)StringAsEntityTypes:(id)arg1;
 
 @end
 

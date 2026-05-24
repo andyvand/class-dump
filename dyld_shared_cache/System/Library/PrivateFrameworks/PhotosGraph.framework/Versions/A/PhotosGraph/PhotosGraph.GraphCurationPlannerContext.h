@@ -7,10 +7,6 @@
 @interface PhotosGraph.GraphCurationPlannerContext
 {
     id date;
-    id graphWorkingContext;
-    id photoLibrary;
-    id avoidedPeopleUUIDs;
-    id logger;
 }
 
 @end

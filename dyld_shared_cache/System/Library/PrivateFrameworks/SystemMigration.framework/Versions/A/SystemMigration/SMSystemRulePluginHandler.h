@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, SMMigrationRequest, SMSystemRulePlugin;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSURL;
 
 @interface SMSystemRulePluginHandler
 {
     NSURL *_toolPath;
-    SMMigrationRequest *_request;
-    SMSystemRulePlugin *_plugin;
-    NSObject<OS_dispatch_semaphore> *_pluginSemaphore;
-    NSObject<OS_dispatch_queue> *_pluginQueue;
 }
 
 - (void);
@@ -30,18 +25,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)O;
 - (_Bool);
 - (id);
-- (void);
+- (void)vate>"16@"UIImage"24{CGRect={CGPoint=dd}{CGSize=dd}}32@"BKSAnimationFenceHandle"64@?<v@?B@"NSError">72;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) SMSystemRulePlugin *plugin; // @synthesize plugin=_plugin;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *pluginQueue; // @synthesize pluginQueue=_pluginQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *pluginSemaphore; // @synthesize pluginSemaphore=_pluginSemaphore;
-@property(retain, nonatomic) SMMigrationRequest *request; // @synthesize request=_request;
 @property(retain, nonatomic) NSURL *toolPath; // @synthesize toolPath=_toolPath;
 
 @end

@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (int);
++ (id)Ti,N,V_pegasusPromptType;
++ (int)Ms;
 
 @end
 

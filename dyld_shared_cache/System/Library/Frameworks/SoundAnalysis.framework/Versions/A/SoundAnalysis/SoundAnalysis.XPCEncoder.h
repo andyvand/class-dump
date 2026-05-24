@@ -7,7 +7,6 @@
 @interface SoundAnalysis.XPCEncoder
 {
     id dataEncoder;
-    id proxyEncoder;
 }
 
 @end

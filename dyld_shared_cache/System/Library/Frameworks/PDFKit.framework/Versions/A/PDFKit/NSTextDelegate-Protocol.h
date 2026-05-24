@@ -5,5 +5,11 @@
 //
 
 @protocol NSTextDelegate
+
+@optional
+- (_Bool)@"NSString",&,N,V_controllerSetupSessionIdentifier;
+- (_Bool),V_connectedClientIdentifierString;
+- (void)ispatch_queue>",R,N,V_clientQueue;
+- (void)ue>",R,C,V_queue;
 @end
 

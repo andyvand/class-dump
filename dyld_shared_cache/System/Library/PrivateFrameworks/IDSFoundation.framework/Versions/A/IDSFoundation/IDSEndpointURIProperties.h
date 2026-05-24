@@ -9,10 +9,9 @@
 @interface IDSEndpointURIProperties
 {
     NSString *_senderCorrelationIdentifier;
-    NSString *_shortHandle;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -20,7 +19,6 @@
 - (void)Data:%p, accountKey:%@, optInStatus:%@, ktApplication:%@, serviceIdentifier:%@ changeReason:%@> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *senderCorrelationIdentifier; // @synthesize senderCorrelationIdentifier=_senderCorrelationIdentifier;
 @property(retain, nonatomic) NSString *shortHandle; // @synthesize shortHandle=_shortHandle;
 
 @end

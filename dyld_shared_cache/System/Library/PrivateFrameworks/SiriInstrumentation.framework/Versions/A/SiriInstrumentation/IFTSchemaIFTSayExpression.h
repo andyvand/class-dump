@@ -6,14 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IFTSchemaIFTSayExpression : SISchemaInstrumentationMessage
 {
     NSArray *_statementIds;
 }
 
-- (unsigned long long);
+- (unsigned long long)˟;
 - (id);
 - (id);
 - (void);
@@ -26,14 +26,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id)AARSchemaCAARClientEventMetadata",&,N,V_eventMetadata;
-- (id)rics;
+- (id)DODMLASRSchemaDODMLASRLanguageModelMetrics;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *statementIds; // @synthesize statementIds=_statementIds;
 
 @end

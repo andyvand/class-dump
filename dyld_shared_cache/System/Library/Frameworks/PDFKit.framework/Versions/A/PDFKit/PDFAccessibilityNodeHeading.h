@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (id)callRecordContext;
+- (struct _NSRange)sabled;
 - (id);
-- (struct _NSRange);
+- (unsigned long long)R#;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

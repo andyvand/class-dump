@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface ReaderThemeButton
 {
     NSColor *_fillColor;
-    NSColor *_checkColor;
-    _Bool _checked;
 }
 
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)4;
 - (void);
 - (void)Ô;
 

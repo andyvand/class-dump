@@ -7,8 +7,6 @@
 @interface NewsUI2.NewsActivityInfoDeserializer
 {
     id analyticsReferralFactory;
-    id intentDeserializer;
-    id featureAvailability;
 }
 
 - (id);

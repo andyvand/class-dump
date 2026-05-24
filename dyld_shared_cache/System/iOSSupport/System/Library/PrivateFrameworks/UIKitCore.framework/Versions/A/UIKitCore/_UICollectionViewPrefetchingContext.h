@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewPrefetchingContext
 {
     NSArray *_remainingIndexPaths;
-    NSMutableArray *_items;
-    NSMutableDictionary *_itemsDict;
-    struct CGRect _prefetchRect;
 }
 
 - (id);
-- (void);
+- (void)EnableAssistiveTouch;
 - (id);
-- (id)geItemsTo:removingItems:selectedItem:animate: /* Error: Ran out of types for this method. */;
-- (id)son;
+- (id)changeItemsTo:removingItems:selectedItem:animate: /* Error: Ran out of types for this method. */;
+- (id)_isInternallyHiddenForAnyReason;
 - (_Bool):,V_dictationReplacementAction /* Error: Ran out of types for this method. */;
 - (id)ðxð;
 - (id)Jþÿ;
 - (struct CGRect)ould not decode SceneSession for identifier %@, skipping;
-- (void)rimaryLanguage;
+- (void)PrimaryLanguage;
 - (void);
 - (void)hó];
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSMutableDictionary *itemsDict; // @synthesize itemsDict=_itemsDict;
-@property(readonly, nonatomic) struct CGRect prefetchRect; // @synthesize prefetchRect=_prefetchRect;
 @property(retain, nonatomic) NSArray *remainingIndexPaths; // @synthesize remainingIndexPaths=_remainingIndexPaths;
 
 @end

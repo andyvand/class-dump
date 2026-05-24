@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSData;
 
 @interface ECBIMIInfo
 {
     unsigned long long _hash;
-    NSData *_indicator;
-    NSURL *_location;
-    NSURL *_evidenceLocation;
-    NSString *_indicatorHash;
-    NSString *_hashAlgorithm;
 }
 
 + (id);
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)hutting down streams %p and %p;
+- (id)state to:%@ /* Error: Ran out of types for this method. */;
+- (id)AppleTV (%@);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)2N;
 - (id);
-- (void);
+- (void)FMMSetComputerName;
 - (id)notification:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *evidenceLocation; // @synthesize evidenceLocation=_evidenceLocation;
-@property(readonly, nonatomic) NSString *hashAlgorithm; // @synthesize hashAlgorithm=_hashAlgorithm;
 @property(readonly, copy, nonatomic) NSData *indicator; // @synthesize indicator=_indicator;
-@property(readonly, nonatomic) NSString *indicatorHash; // @synthesize indicatorHash=_indicatorHash;
-@property(readonly, nonatomic) NSURL *location; // @synthesize location=_location;
 
 @end
 

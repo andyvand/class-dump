@@ -11,8 +11,8 @@
     NSMutableArray *_significantLocations;
 }
 
-+ (Class);
-+ (_Bool)ate:(id)arg1;
++ (Class)setIsClientTCCRegionalAllowedCachedValue: /* Error: Ran out of types for this method. */;
++ (_Bool)setHasMapsUseStartDate:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
@@ -20,20 +20,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)hb;
 - (_Bool);
 - (id);
-- (void);
+- (void)_secondPassCheckerModelKeywordDetectionStartTime;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
-- (_Bool);
+- (_Bool)B;
 - (void);
-- (id)elAtIndex:(struct _NSZone *)arg1;
+- (id)modelAtIndex:(struct _NSZone *)arg1;
 - (id)Ü0Þ;
-- (id)igenceCameraBatchSpatialPlaceLookupMaxResultCount;
+- (id)VisualIntelligenceCameraBatchSpatialPlaceLookupMaxResultCount;
 - (id)ì;
 - (Class)Àº@;
 - (void)<5$ê6;

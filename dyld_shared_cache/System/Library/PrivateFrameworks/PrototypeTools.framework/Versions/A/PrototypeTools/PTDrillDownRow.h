@@ -11,11 +11,10 @@
 @interface PTDrillDownRow : PTSRow
 {
     PTSettings *_childSettings;
-    NSString *_childKeyPath;
 }
 
 + (id);
-+ (id);
++ (id)b;
 + (_Bool);
 - (void);
 - (id);
@@ -24,11 +23,11 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)rrupt;
 - (void);
+- (id)@  L;
 - (id);
-- (id);
-- (void);
+- (void)/4~CNqkugBhcZYxCpFyKBY9cTeFR0o3wl3GtaQxQk0/Library/Caches/com.apple.xbs/TemporaryDirectory.duXmje/Sources/Admin/AdminDirectoryService.m;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *childKeyPath; // @synthesize childKeyPath=_childKeyPath;

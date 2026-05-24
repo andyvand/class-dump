@@ -6,37 +6,31 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIColor;
-
 __attribute__((visibility("hidden")))
 @interface _UICircleProgressView : UIView
 {
 }
 
-+ (Class);
-- (_Bool);
++ (Class)_onQueue_controllerDidDiscoverTelevision: /* Error: Ran out of types for this method. */;
+- (_Bool)"NSString"60@"NSString"68@?<v@?@"NSArray"@"NSArray">76;
+- (void)syncType;
+- (void)setSeenAsOffGrid:(long long)arg1;
+- (void)setScheduledMessageOriginalTransferGUIDs:(double)arg1;
+- (void)setSavePolicy:(id)arg1;
+- (void)setRoomName:(double)arg1;
+- (void)setResultsLimit:(double)arg1;
+- (long long)contextWithKnownSender:serviceName: /* Error: Ran out of types for this method. */;
+- (double)contextWithKnownSender: /* Error: Ran out of types for this method. */;
+- (double)contents;
+- (id)containsRichLink;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (double);
-- (double);
-- (id);
-- (void);
-- (void);
-- (id)ngDifferences:(struct CGRect)arg1 viewPropertyAnimator:animationsProvider:isOnDiffableApplyQueue:completion: /* Error: Ran out of types for this method. */;
+- (id)_applySnapshot:(struct CGRect)arg1 toSection:animatingDifferences:viewPropertyAnimator:animationsProvider:isOnDiffableApplyQueue:completion: /* Error: Ran out of types for this method. */;
 - (double)g id<UIFocusEnvironment> _Nonnull);
 - (void)onBar.maximumAlignmentSize;
 
 // Remaining properties
-@property(nonatomic) double progress;
-@property(readonly, nonatomic) UIColor *progressColor;
-@property(nonatomic) double progressLineWidth;
 @property(nonatomic) long long progressStartPoint;
-@property(nonatomic) _Bool showProgressTray;
 
 @end
 

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _EARSpeechMessagesContext
 {
     NSString *_sender;
-    NSArray *_messages;
 }
 
 - (id);
-- (void);
+- (void)to a volume UUID %@ which has already been visited. Visited:(id)arg1 %@;
 - (id)|  PCPU | OTHER |
 |             |         | %5.1f | %5.1f | %5.1f |
 |------------------------------------------------
@@ -36,7 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *messages; // @synthesize messages=_messages;
 @property(copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
 
 @end

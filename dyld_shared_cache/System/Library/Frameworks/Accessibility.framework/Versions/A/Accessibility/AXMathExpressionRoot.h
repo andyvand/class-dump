@@ -11,18 +11,16 @@
 @interface AXMathExpressionRoot : AXMathExpression
 {
     NSArray *_radicandExpressions;
-    AXMathExpression *_rootIndexExpression;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)ath:(id)arg1 force:errorDict:] /* Error: Ran out of types for this method. */;
+- (void)%d;
+- (id)argscfstr**=%p;
+- (id)=%@ path=%@ opts=%u cb=%p ctx=%p argscfstr**=%p;
+- (id)waitForDACallBack;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *radicandExpressions; // @synthesize radicandExpressions=_radicandExpressions;
 @property(retain, nonatomic) AXMathExpression *rootIndexExpression; // @synthesize rootIndexExpression=_rootIndexExpression;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WBSPasswordImportCSVHeaderChecker;
+@class WBSPasswordImportCSVHeaderChecker;
 
 @interface WBSPasswordImportCSVCredentialExtractor
 {
     WBSPasswordImportCSVHeaderChecker *_csvHeaderChecker;
-    NSArray *_csvContents;
 }
 
 + (id);

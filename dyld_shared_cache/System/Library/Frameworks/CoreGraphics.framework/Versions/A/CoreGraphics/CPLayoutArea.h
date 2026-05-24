@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPLayoutArea : CPRotatedRegion
 {
     _Bool isFirstLayout;
-    _Bool hasRotatedCharacters;
 }
 
 - (void);
@@ -29,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)H˓R(;
 - (id);
 
 @end

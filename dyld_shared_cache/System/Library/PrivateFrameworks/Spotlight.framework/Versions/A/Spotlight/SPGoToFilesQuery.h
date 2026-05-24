@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSFilesSearchQuery, NSArray, NSString;
+@class CSFilesSearchQuery;
 
 @interface SPGoToFilesQuery
 {
     CSFilesSearchQuery *_query;
-    NSArray *_results;
-    NSString *_searchString;
-    NSString *_folderScope;
 }
 
 + (int);
 + (_Bool);
 + (unsigned int);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -32,12 +29,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)vices;
 - (id);
-- (id);
+- (id)d, identifier:%@, connectionUUID:%@, publishConnection:%s) /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)llx %x;
 - (void);
 - (void);
 - (void);
@@ -45,10 +42,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *folderScope; // @synthesize folderScope=_folderScope;
 @property(retain, nonatomic) CSFilesSearchQuery *query; // @synthesize query=_query;
-@property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(retain, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
 
 @end
 

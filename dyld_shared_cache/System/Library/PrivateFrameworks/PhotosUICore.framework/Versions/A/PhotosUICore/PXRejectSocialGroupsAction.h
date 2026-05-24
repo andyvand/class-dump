@@ -13,7 +13,7 @@
     id <PXFastEnumeration> _collections;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);

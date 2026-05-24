@@ -11,10 +11,10 @@
     NSDictionary *_items;
 }
 
-+ (id);
++ (id)1�H;
 + (id);
 - (id);
-- (id);
+- (id)|\n)*;
 - (void);
 - (void);
 

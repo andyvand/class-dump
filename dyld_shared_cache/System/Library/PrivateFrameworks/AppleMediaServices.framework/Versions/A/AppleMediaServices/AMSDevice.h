@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AMSDevice
 {
 }
@@ -20,47 +18,43 @@
 + (id);
 + (unsigned long long);
 + (void);
++ (_Bool)_policyDetails;
++ (_Bool);
++ (_Bool)H;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)setTranscoderUserInfoObject:forKey: /* Error: Ran out of types for this method. */;
++ (_Bool)initWithSenderInfo:time:timeRead:timeDelivered:timePlayed:subject:body:bodyData:attributes:fileTransferGUIDs:flags:guid:messageID:account:accountID:service:handle:roomName:unformattedID:countryCode:expireState:balloonBundleID:payloadData:expressiveSendStyleID:timeExpressiveSendPlayed:bizIntent:locale:biaReferenceID:errorType:type:threadIdentifier:syndicationRanges:syncedSyndicationRanges:partCount:dateEdited:dateRecovered:scheduleType:scheduleState:cloudKitChatID: /* Error: Ran out of types for this method. */;
 + (void);
 + (_Bool);
-+ (void);
++ (void);
 + (_Bool);
-+ (_Bool);
-+ (id);
-+ (void);
-+ (_Bool);
-+ (void);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
 + (_Bool);
 + (id);
 + (void);
 + (_Bool);
++ (void);
 + (id);
 + (id);
 + (_Bool);
++ (id);
++ (id);
++ (id);
++ (_Bool);
++ (id));
++ (_Bool);
++ (id);
++ (id)P;
++ (_Bool);
++ (id);
++ (void);
++ (_Bool);
++ (id);
++ (id);
++ (_Bool)initWithRecognition:unfilteredRecognition:rawRecognition:audioAnalytics:isFinal:utteranceStart:latticeMitigatorResult:recognitionPaused: /* Error: Ran out of types for this method. */;
 + (void);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (void);
 + (_Bool);
 + (_Bool);
 + (id);
@@ -68,8 +62,12 @@
 + (_Bool);
 + (_Bool);
 + (id);
++ (void);
++ (_Bool);
++ (_Bool);
 + (id);
-+ (id);
++ (id)Hm;
++ (id)kMRMediaRemoteOptionPlaybackSessionType;
 + (_Bool);
 + (_Bool);
 + (void);
@@ -86,14 +84,14 @@
 + (long long);
 + (id);
 + (_Bool);
-+ (id);
++ (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)X6;
 + (id)Q§&1Â0@ù
 × ;
 + (id);
 + (void)0:(id)arg1 8@16@24@32;
-+ (id)e: /* Error: Ran out of types for this method. */;
++ (id)paymentAuthorizationController:didRequestMerchantSessionUpdate: /* Error: Ran out of types for this method. */;
 + (void);
 + (id);
 + (id)<(¤( )*¬+Ü+Ø,;
@@ -120,13 +118,7 @@ wYp6®Kÿ×TïÊ±CbGä&Å¿EÀè`©§¼\0ã¾ÒÃ:}W½ÜÍßÕ�
 + (id)ØÿRÀ,;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

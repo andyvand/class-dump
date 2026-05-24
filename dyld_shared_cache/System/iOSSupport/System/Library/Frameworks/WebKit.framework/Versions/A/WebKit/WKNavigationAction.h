@@ -7,7 +7,6 @@
 @interface WKNavigationAction
 {
     struct AlignedStorage<API::NavigationAction, 16UL> _navigationAction;
-    _Bool _isContentRuleListRedirect;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol CNKSharedContentSourceInfoProviding
+- (void);
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSFormMetadata, WKFrameInfo;
+@class WKFrameInfo;
 
 @interface WBSAutoFillFrameAssociatedFormMetadata
 {
     WKFrameInfo *frameInfo;
-    WBSFormMetadata *formMetadata;
 }
 
 - (id);
@@ -17,11 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void)hDomain:openedDomain:visited:property:accessedPropertyDirectly: /* Error: Ran out of types for this method. */;
+- (void)initWithDomain:openedDomain:visited:property:accessedPropertyDirectly: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) WBSFormMetadata *formMetadata; // @synthesize formMetadata;
 @property(nonatomic, readonly) WKFrameInfo *frameInfo; // @synthesize frameInfo;
 
 @end

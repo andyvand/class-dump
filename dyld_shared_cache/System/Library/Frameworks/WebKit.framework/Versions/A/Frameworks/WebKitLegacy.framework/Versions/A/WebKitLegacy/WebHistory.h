@@ -12,7 +12,7 @@
 }
 
 + (void);
-+ (id);
++ (id)>;
 + (void);
 + (void);
 - (void);
@@ -22,16 +22,16 @@
 - (id);
 - (id);
 - (id);
+- (int)ʬ;
 - (int);
-- (int);
-- (_Bool);
+- (_Bool)d>;
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)ia type was set for the current process. defaultMediaType = %{public}@;
 - (id);
 - (id);
 - (void);
@@ -39,8 +39,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int historyAgeInDaysLimit;
-@property(nonatomic) int historyItemLimit;
 @property(readonly, copy, nonatomic) NSArray *orderedLastVisitedDays;
 
 @end

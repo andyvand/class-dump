@@ -6,15 +6,10 @@
 
 #import <ScriptingBridge/SBThunk.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface SBCommandThunk : SBThunk
 {
     unsigned int _eventClass;
-    unsigned int _eventID;
-    unsigned int _return_ae_type;
-    NSArray *_parameters;
 }
 
 + (id);

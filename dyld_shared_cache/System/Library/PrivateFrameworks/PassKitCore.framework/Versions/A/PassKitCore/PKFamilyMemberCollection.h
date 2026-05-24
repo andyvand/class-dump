@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, PKFamilyMember;
+@class NSDictionary;
 
 @interface PKFamilyMemberCollection
 {
     NSDictionary *_familyMembersByAltDSID;
-    NSArray *_familyMembers;
-    PKFamilyMember *_currentUser;
-    NSString *_currentUserAltDSID;
 }
 
 - (id);
@@ -19,15 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)nCellularGood;
 - (void)"16@?0@"NSDictionary"8;
 - (id)ì ;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PKFamilyMember *currentUser; // @synthesize currentUser=_currentUser;
-@property(readonly, copy, nonatomic) NSString *currentUserAltDSID; // @synthesize currentUserAltDSID=_currentUserAltDSID;
-@property(readonly, copy, nonatomic) NSArray *familyMembers; // @synthesize familyMembers=_familyMembers;
 @property(readonly, copy, nonatomic) NSDictionary *familyMembersByAltDSID; // @synthesize familyMembersByAltDSID=_familyMembersByAltDSID;
 
 @end

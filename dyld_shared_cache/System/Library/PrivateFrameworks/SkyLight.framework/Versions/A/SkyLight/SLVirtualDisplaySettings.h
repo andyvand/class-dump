@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SLVirtualDisplayMode;
+@class SLVirtualDisplayMode;
 
 @interface SLVirtualDisplaySettings
 {
     SLVirtualDisplayMode *_nativeMode;
-    SLVirtualDisplayMode *_preferredMode;
-    NSArray *_optionalModes;
-    unsigned long long _rotations;
 }
 
-+ (id);
-+ (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
++ (id)OM %@ LIMIT 1);
++ (id)) FROM ;
+- (unsigned long long)lockContext:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)tion"8@"NSString"16;
+- (id)ing with CloudKit in this process.;
+- (id)%@, ;
 - (void);
 - (id);
 - (id);
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SLVirtualDisplayMode *nativeMode; // @synthesize nativeMode=_nativeMode;
-@property(readonly, nonatomic) NSArray *optionalModes; // @synthesize optionalModes=_optionalModes;
-@property(readonly, nonatomic) SLVirtualDisplayMode *preferredMode; // @synthesize preferredMode=_preferredMode;
-@property(readonly, nonatomic) unsigned long long rotations; // @synthesize rotations=_rotations;
 
 @end
 

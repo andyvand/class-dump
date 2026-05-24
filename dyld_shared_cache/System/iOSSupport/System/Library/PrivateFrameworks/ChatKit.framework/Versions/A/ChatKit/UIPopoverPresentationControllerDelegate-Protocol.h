@@ -7,6 +7,7 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
+- (_Bool);
 - (void)RÜÿ;
 @end
 

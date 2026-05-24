@@ -9,12 +9,11 @@
 @interface PKInputPointReduceFramerateFilter : PKInputPointBaseFilter
 {
     unsigned long long _coalescingCounter;
-    long long _numPointsToCoalesce;
 }
 
 - (void);
 - (long long);
-- (void);
+- (void)!;
 
 // Remaining properties
 @property(nonatomic) long long numPointsToCoalesce; // @synthesize numPointsToCoalesce=_numPointsToCoalesce;

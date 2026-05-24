@@ -5,5 +5,8 @@
 //
 
 @protocol CKKnowledgeStoreWriteBatch
+- (void)_alertSystemSoundContexts;
+- (void)titleNoteSize;
+- (_Bool);
 @end
 

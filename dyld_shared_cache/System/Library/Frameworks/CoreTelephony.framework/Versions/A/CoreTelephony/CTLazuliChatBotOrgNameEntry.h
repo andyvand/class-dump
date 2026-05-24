@@ -9,10 +9,9 @@
 @interface CTLazuliChatBotOrgNameEntry
 {
     NSString *_displayName;
-    long long _type;
 }
 
-+ (_Bool);
++ (_Bool)readFromCache;
 - (_Bool);
 - (id);
 - (void);
@@ -23,13 +22,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void):(long long)arg1 8@16@24^@32;
 - (void)ª)ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

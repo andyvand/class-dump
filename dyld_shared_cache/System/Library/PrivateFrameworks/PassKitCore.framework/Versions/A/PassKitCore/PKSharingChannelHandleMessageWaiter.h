@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PKSharingChannelHandle;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface PKSharingChannelHandleMessageWaiter
 {
     double _timeout;
-    CDUnknownBlockType _messageHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    PKSharingChannelHandle *_handle;
-    _Bool _isHandlingMessage;
-    _Bool _isPendingInvalidation;
-    NSObject<OS_dispatch_source> *_timer;
-    struct os_unfair_lock_s _lock;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)�@y;
 - (void);
 - (void);
 - (void);

@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
-- (id);
++ (Class));
++ (id)isAutoShifted;
++ (void);
+- (id)PKPaymentTransactionDetailHeaderViewAccessibility;
 
 @end
 

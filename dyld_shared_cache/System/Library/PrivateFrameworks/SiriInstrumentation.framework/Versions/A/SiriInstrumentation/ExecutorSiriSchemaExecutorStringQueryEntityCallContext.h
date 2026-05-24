@@ -6,56 +6,43 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ExecutorSiriSchemaExecutorStringQueryEntityCallEnded, ExecutorSiriSchemaExecutorStringQueryEntityCallFailed, ExecutorSiriSchemaExecutorStringQueryEntityCallStarted, NSData;
+@class ExecutorSiriSchemaExecutorStringQueryEntityCallStarted;
 
 @interface ExecutorSiriSchemaExecutorStringQueryEntityCallContext : SISchemaInstrumentationMessage
 {
     ExecutorSiriSchemaExecutorStringQueryEntityCallStarted *_startedOrChanged;
-    ExecutorSiriSchemaExecutorStringQueryEntityCallEnded *_ended;
-    ExecutorSiriSchemaExecutorStringQueryEntityCallFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)`C;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)hwtrace_live_topology_t soft_hwtrace_live_topology();
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)dDataHandlerQueue;
+- (id)ompletionNotification;
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)u);
 - (_Bool);
 - (id);
 - (id)leStarted";
-- (id)mViewAppearContext;
+- (id)SISchemaUEIHostingPlatformViewAppearContext;
 - (id)x³;
 - (void)r»ÿÇ;
 
 // Remaining properties
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryEntityCallEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryEntityCallFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryEntityCallStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

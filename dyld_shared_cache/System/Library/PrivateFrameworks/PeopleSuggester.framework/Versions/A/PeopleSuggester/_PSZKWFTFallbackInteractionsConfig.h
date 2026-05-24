@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _PSZKWFTFallbackInteractionsConfig
 {
     _Bool _isEnabled;
-    long long _defaultConfidenceCategory;
-    NSArray *_mechanisms;
-    NSArray *_interactionCountMaxDepths;
-    NSArray *_interactionHistoryRelativeStartDates;
-    NSArray *_bundleIds;
-    long long _modelType;
-    unsigned long long _maxSuggestions;
-    unsigned long long _clusterPruneThreshold;
 }
 
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (id);
+- (id)LoginArrayElementCompareLongNames():ptr1 and ptr2 NULL /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -33,15 +23,7 @@
 - (long long)ristic;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *bundleIds; // @synthesize bundleIds=_bundleIds;
-@property(readonly, nonatomic) unsigned long long clusterPruneThreshold; // @synthesize clusterPruneThreshold=_clusterPruneThreshold;
-@property(readonly, nonatomic) long long defaultConfidenceCategory; // @synthesize defaultConfidenceCategory=_defaultConfidenceCategory;
-@property(readonly, copy, nonatomic) NSArray *interactionCountMaxDepths; // @synthesize interactionCountMaxDepths=_interactionCountMaxDepths;
-@property(readonly, copy, nonatomic) NSArray *interactionHistoryRelativeStartDates; // @synthesize interactionHistoryRelativeStartDates=_interactionHistoryRelativeStartDates;
 @property(readonly, nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(readonly, nonatomic) unsigned long long maxSuggestions; // @synthesize maxSuggestions=_maxSuggestions;
-@property(readonly, copy, nonatomic) NSArray *mechanisms; // @synthesize mechanisms=_mechanisms;
-@property(readonly, nonatomic) long long modelType; // @synthesize modelType=_modelType;
 
 @end
 

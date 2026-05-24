@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextStorage, UIColor, UIView;
+@class UIColor, UIView;
 @protocol UITextDragSupporting;
 
 @interface _UITextStorageDraggableGeometry
 {
     UIColor *_previousBackgroundColor;
-    long long _geometryOptions;
-    UIView<UITextDragSupporting> *_view;
-    NSTextStorage *_textStorage;
 }
 
 - (id);
@@ -23,30 +20,21 @@
 - (CDUnknownBlockType);
 - (id)Ð1Â0@ù
 × ;
-- (id)uggingPriority:(id)arg1 forAxis: /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)hesWithEvent:(id)arg1;
-- (void)RectForCell:(long long)arg1;
-- (id)e;
-- (CDUnknownBlockType)resenter;
+- (id)setContentHuggingPriority:(id)arg1 forAxis: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_predictedTouchesWithEvent:(id)arg1;
+- (void)_adjustedBackgroundContentRectForCell:(long long)arg1;
+- (id)UIKBHandwritingPointValue;
+- (CDUnknownBlockType)_UIScenePresenter;
 - (id);
 - (void);
 - (id)animation cannot be performed more than once.;
 - (id)plitViewControllerAdaptiveImpl _enableAppearanceTransitionsInViewController:(id)arg1 ];
-- (long long)ttonConfigurationImageColorTransformer;
+- (long long)UIButtonConfigurationImageColorTransformer;
 - (id)upplementaryColWidth=%g;
 - (id)SWorkspaceSceneUpdateResponse">8;
 - (void)¢;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long geometryOptions; // @synthesize geometryOptions=_geometryOptions;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak NSTextStorage *textStorage; // @synthesize textStorage=_textStorage;
 @property(readonly, nonatomic) __weak UIView<UITextDragSupporting> *view; // @synthesize view=_view;
 
 @end

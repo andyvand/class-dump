@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MELoader, NSCondition, NSMutableArray;
+@class MELoader;
 
 @interface MEExporterManager
 {
     MELoader *_loader;
-    NSMutableArray *_exportQueue;
-    NSCondition *_exportWaitCondition;
 }
 
 + (void);
 + (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);

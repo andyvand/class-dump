@@ -7,11 +7,11 @@
 @class NSArray;
 
 @protocol EDClientStateReporting
-- (_Bool)operties;
+- (_Bool)UIScrollView"16;
+- (NSArray *);
+- (_Bool)EDSortableThreadProxyAdditionalProperties;
 
 // Remaining properties
 @property(readonly) _Bool isForeground;
-@property(readonly) _Bool isRunningTests;
-@property(readonly, copy) NSArray *visibleMailboxObjectIDs;
 @end
 

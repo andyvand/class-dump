@@ -9,7 +9,6 @@
 @interface SPClientSession
 {
     SPSearchQueryContext *_currentQueryContext;
-    _Bool _infinitePatience;
 }
 
 

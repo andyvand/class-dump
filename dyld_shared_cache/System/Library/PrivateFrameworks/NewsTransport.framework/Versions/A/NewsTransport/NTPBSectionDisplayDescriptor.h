@@ -9,14 +9,6 @@
 @interface NTPBSectionDisplayDescriptor
 {
     NSString *_actionTitle;
-    NSString *_actionURLString;
-    NSString *_backgroundColorDark;
-    NSString *_backgroundColorLight;
-    NSString *_backgroundGradientColor;
-    NSString *_name;
-    NSString *_nameActionURLString;
-    NSString *_nameColorDark;
-    NSString *_nameColorLight;
 }
 
 @end

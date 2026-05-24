@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface GEOCoordinateArraySupportPoint
 {
     struct PolylineCoordinate _routeCoordinate;
-    unsigned long long _index;
-    long long _roadID;
-    double _heading;
-    _Bool _isUTurn;
-    int _legacyRoadClass;
-    int _legacyFormOfWay;
-    NSUUID *_anchorPointID;
-    long long _matchType;
 }
 
 + (_Bool)@" was built without attributedStringHandler set.;
@@ -32,28 +22,20 @@
 - (int);
 - (_Bool);
 - (void);
+- (long long);
 - (long long);
-- (long long);
 - (id);
 - (id);
-- (id);
+- (id)BufferFrom:to:toURL:] /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)setPlaceInBookmarks: /* Error: Ran out of types for this method. */;
 - (void);
-- (double)tiatedHypothesisCacheAccessValue;
+- (double)NavdInitialSelfInitiatedHypothesisCacheAccessValue;
 - (unsigned long long)Dð;
 - (void)±È;
 - (void)Àm¶ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *anchorPointID; // @synthesize anchorPointID=_anchorPointID;
-@property(nonatomic) double heading; // @synthesize heading=_heading;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(nonatomic) _Bool isUTurn; // @synthesize isUTurn=_isUTurn;
-@property(nonatomic) int legacyFormOfWay; // @synthesize legacyFormOfWay=_legacyFormOfWay;
-@property(nonatomic) int legacyRoadClass; // @synthesize legacyRoadClass=_legacyRoadClass;
-@property(nonatomic) long long matchType; // @synthesize matchType=_matchType;
-@property(nonatomic) long long roadID; // @synthesize roadID=_roadID;
 @property(nonatomic) struct PolylineCoordinate routeCoordinate; // @synthesize routeCoordinate=_routeCoordinate;
 
 @end

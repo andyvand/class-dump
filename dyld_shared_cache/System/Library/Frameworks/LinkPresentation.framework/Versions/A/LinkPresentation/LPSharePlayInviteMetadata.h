@@ -6,21 +6,18 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPSharePlayInviteMetadata : LPSpecializationMetadata
 {
     NSString *_title;
-    NSString *_applicationBundleIdentifier;
-    NSString *_application;
-    LPImage *_icon;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (void);
@@ -28,31 +25,21 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)zone ID:(id)arg1 %@;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)requested minimal metadata. No caching will occur.;
 - (id);
 - (void);
-- (id);
+- (id)7f;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *application; // @synthesize application=_application;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -4,59 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIBandSelectionInteraction, UIKeyCommand, UIPanGestureRecognizer, UITapGestureRecognizer, UIView, _UIMultiSelectOneFingerPanGesture, _UISingleFingerTapExtensionGesture;
-@protocol UIMultiSelectInteractionDelegate;
+@class UIView;
 
 @interface UIMultiSelectInteraction
 {
     _Bool _isScrollView;
-    _Bool _delegateConformsToProtocol;
-    UIKeyCommand *_extendToCellAboveCommand;
-    UIKeyCommand *_extendToCellBelowCommand;
-    UIKeyCommand *_extendToCellRightCommand;
-    UIKeyCommand *_extendToCellLeftCommand;
-    struct {
-        unsigned int respondsToShouldPreventDragLiftGesture:1;
-        unsigned int respondsToShouldAllowSelectionExtensionAtPoint:1;
-        unsigned int respondsToShouldAllowSelectionExtensionAtIndexPath:1;
-        unsigned int respondsToShouldAllowSelectionAppendageAtPoint:1;
-        unsigned int respondsToDidCancelMultiSelectInteraction:1;
-        unsigned int respondsToSelectItemsWithinRect:1;
-        unsigned int respondsToToggleSelectionWithinRect:1;
-        unsigned int respondsToShouldStartBandSelectionAtPoint:1;
-        unsigned int respondsToShouldShowBandForSelectionStartingAtPoint:1;
-        unsigned int respondsToSupportsKeyboardSelectionExtension:1;
-        unsigned int respondsToExtendSelectionInDirection:1;
-        unsigned int respondsToChildScrollViewAtLocation:1;
-        unsigned int respondsToShouldBeginMultiSelectInteraction:1;
-        unsigned int respondsToWillBeginMultiSelectInteractionKeepingSelection:1;
-    } _optionalDelegateFlags;
-    _Bool _enabled;
-    _UIMultiSelectOneFingerPanGesture *_multiSelectModePan;
-    UIPanGestureRecognizer *_multiFingerPan;
-    UITapGestureRecognizer *_multiFingerTap;
-    _UISingleFingerTapExtensionGesture *_singleFingerExtensionTap;
-    long long _activeGestureType;
-    id <UIMultiSelectInteractionDelegate> _delegate;
-    UIView *_view;
-    UIBandSelectionInteraction *_bandSelectionInteraction;
 }
 
 - (long long);
 - (_Bool);
 - (unsigned long long);
+- (void)Host;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)setAllowsGroupOpacity:(id)arg1;
+- (void)_detailFieldStackView;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)mmcs_update_request_process_response_put_chunk_keys;
 - (_Bool);
-- (void);
+- (void).%lld;
 - (void);
 - (id);
 - (_Bool);
@@ -81,22 +50,22 @@
 × ;
 - (void)× ;
 - (void)8@0:(id)arg1 8@"NSString"16{CGPoint=dd}24@?<v@?>40;
-- (id)HasInlineSearchBar: /* Error: Ran out of types for this method. */;
-- (id)h: /* Error: Ran out of types for this method. */;
-- (id)AXHUDImage: /* Error: Ran out of types for this method. */;
-- (void)rderedRowsForType:(id)arg1;
-- (_Bool)lIndexValid:(id)arg1;
-- (void)ntrollerContainerViewTopAlignmentConstraint;
-- (void)mage: /* Error: Ran out of types for this method. */;
-- (_Bool)ebar;
-- (void)d:(id)arg1 animationCurve:animationAdjustsForContentOffsetDelta:animation:animationConfigurator: /* Error: Ran out of types for this method. */;
-- (long long)iveContainerSizeForContainer:(id)arg1;
+- (id)setHasInlineSearchBar: /* Error: Ran out of types for this method. */;
+- (id)setFilePath: /* Error: Ran out of types for this method. */;
+- (id)setCachedAXHUDImage: /* Error: Ran out of types for this method. */;
+- (void)orderedRowsForType:(id)arg1;
+- (_Bool)isGlobalIndexValid:(id)arg1;
+- (void)headerContentViewControllerContainerViewTopAlignmentConstraint;
+- (void)chooseFilenames:displayString:iconImage: /* Error: Ran out of types for this method. */;
+- (_Bool)_topLayoutInsetForSidebar;
+- (void)_setContentOffset:(id)arg1 animated:animationCurve:animationAdjustsForContentOffsetDelta:animation:animationConfigurator: /* Error: Ran out of types for this method. */;
+- (long long)_effectiveContainerSizeForContainer:(id)arg1;
 - (double),V_preview;
 - (void)IButton",R,N,G_secondaryButton,V_secondaryButton;
 - (_Bool)s:(struct CGPoint)arg1 ,V__alongsideAnimationViews;
-- (_Bool)ouchForceDuration;
+- (_Bool)minimumSteadyTouchForceDuration;
 - (void)setStrokeColor:(id)arg1 ,V_strokeColor;
-- (id)ontroller;
+- (id)_UIAlertControllerPresentationController;
 - (void)ms in section %ld. Collection view:(struct CGPoint)arg1 %@. This will become an assert in a future version.;
 - (void)þLþÿ;
 - (_Bool)t(UIView *, CGSize);
@@ -116,23 +85,6 @@
 - (id)zk;
 
 // Remaining properties
-@property(retain, nonatomic) UIPanGestureRecognizer *_multiFingerPan; // @synthesize _multiFingerPan;
-@property(retain, nonatomic) UITapGestureRecognizer *_multiFingerTap; // @synthesize _multiFingerTap;
-@property(retain, nonatomic) _UIMultiSelectOneFingerPanGesture *_multiSelectModePan; // @synthesize _multiSelectModePan;
-@property(retain, nonatomic) _UISingleFingerTapExtensionGesture *_singleFingerExtensionTap; // @synthesize _singleFingerExtensionTap;
-@property(readonly, nonatomic) long long activeGestureType; // @synthesize activeGestureType=_activeGestureType;
-@property(retain, nonatomic) UIBandSelectionInteraction *bandSelectionInteraction; // @synthesize bandSelectionInteraction=_bandSelectionInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIMultiSelectInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) NSArray *gesturesForFailureRequirements;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double singleTouchPanGestureHysteresis; // @dynamic singleTouchPanGestureHysteresis;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end

@@ -7,7 +7,6 @@
 @interface NewsUI2.LocationSharingURLHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

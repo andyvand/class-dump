@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaCardSectionKeyboardInvocationContext : SISchemaInstrumentationMessage
 {
     _Bool _keyboardPresented;
-    int _keyboardLocale;
-    _Bool _existingText;
-    struct {
-        unsigned int keyboardPresented:1;
-        unsigned int keyboardLocale:1;
-        unsigned int existingText:1;
-    } _has;
 }
 
 - (void);
@@ -37,21 +28,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ASDInstallationServiceProtocol;
+- (_Bool)CNSaveRequest;
+- (_Bool)ROM message m LEFT JOIN chat_message_join cm ON m.ROWID = cm.message_id LEFT JOIN chat_recoverable_message_join crmj ON m.ROWID = crmj.message_id WHERE cm.message_id IS NULL AND crmj.message_id IS NULL AND m.item_type = 0;;
 - (id);
-- (id);
-- (id)ViewClass;
-- (id)ext;
+- (id)tent (%u) is unknown
+;
+- (id)deleteAceViewClass;
+- (id)_appLanguageModelProfileRebuildContext;
 
 // Remaining properties
-@property(nonatomic) _Bool existingText; // @synthesize existingText=_existingText;
-@property(nonatomic) _Bool hasExistingText;
-@property(nonatomic) _Bool hasKeyboardLocale;
-@property(nonatomic) _Bool hasKeyboardPresented;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int keyboardLocale; // @synthesize keyboardLocale=_keyboardLocale;
 @property(nonatomic) _Bool keyboardPresented; // @synthesize keyboardPresented=_keyboardPresented;
 
 @end

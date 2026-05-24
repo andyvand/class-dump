@@ -6,44 +6,33 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRRescoringDeliberationEvent : SISchemaInstrumentationMessage
 {
     int _eventType;
-    float _eventDuration;
-    struct {
-        unsigned int eventType:1;
-        unsigned int eventDuration:1;
-    } _has;
 }
 
 - (void);
+- (void);
 - (void);
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (float);
+- (float)oreLocation;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)threadOriginator;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void)nt"b1"abandonmentCount"b1"domain"b1};
-- (id)Reason;
+- (id)typingWindowEndReason;
 - (id)$¡D¢;
 - (id);
 - (void)a(;
 
 // Remaining properties
-@property(nonatomic) float eventDuration; // @synthesize eventDuration=_eventDuration;
 @property(nonatomic) int eventType; // @synthesize eventType=_eventType;
-@property(nonatomic) _Bool hasEventDuration;
-@property(nonatomic) _Bool hasEventType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAudioPlaylist, FCIssueReadingHistory, FCKeyValueStore, FCPrivateChannelMembershipController, FCPuzzleHistory, FCPuzzleTypeSettings, FCReadingHistory, FCReadingList, FCRecipeUserEventHistory, FCShortcutList, FCSubscriptionList, FCTagSettings, FCUserEventHistory, FCUserInfo, NSString;
+@class FCAudioPlaylist, FCIssueReadingHistory, FCKeyValueStore, FCPrivateChannelMembershipController, FCPuzzleHistory, FCPuzzleTypeSettings, FCReadingHistory, FCReadingList, FCRecipeUserEventHistory, FCShortcutList, FCSubscriptionList, FCTagSettings, FCUserEventHistory, NSString;
 @protocol FCNetworkBehaviorMonitor, FCPrivateDataContextInternal, FCPushNotificationHandling;
 
 @protocol FCPrivateDataContext
-- (FCPrivateChannelMembershipController *)bled: /* Error: Ran out of types for this method. */;
+- (FCPrivateChannelMembershipController *)setCloudBackupEnabled: /* Error: Ran out of types for this method. */;
 - (FCRecipeUserEventHistory *)mingKeysWithBlock:] /* Error: Ran out of types for this method. */;
-- (NSString *)ImpressionValue;
+- (NSString *)topicBoostForSourceRelatedFeedImpressionValue;
 - (FCTagSettings *)HistoryItem"8;
 - (FCReadingList *)token;
 - (FCPuzzleHistory *)rd name is invalid:%@ /* Error: Ran out of types for this method. */;
 - (FCSubscriptionList *)ecordSource initWithContentDatabase:contentDirectory:appActivityMonitor:backgroundTaskable:defaultTTL:desiredArticleRecordFieldOptions:experimentalizableFieldsPostfix:engagementCohortsExpField:conversionCohortsExpField:activeTreatmentID:] /* Error: Ran out of types for this method. */;
-- (FCKeyValueStore *)ggregationPersonalizationData;
+- (FCKeyValueStore *)eventAggregationPersonalizationData;
 - (FCUserEventHistory *):storeDirectory:] /* Error: Ran out of types for this method. */;
-- (FCReadingHistory *)FetchBaseUrl;
+- (FCReadingHistory *)ckEdgeCachedMultiFetchBaseUrl;
 - (FCShortcutList *)oller.m;
 - (FCIssueReadingHistory *)ttempt %d failed with %@;
 - (_Bool)nsactionState:%lu /* Error: Ran out of types for this method. */;
@@ -28,23 +28,6 @@
 - (FCAudioPlaylist *);
 
 // Remaining properties
-@property(readonly, nonatomic) FCAudioPlaylist *audioPlaylist;
-@property(readonly, nonatomic) id <FCPrivateDataContextInternal> internalPrivateDataContext;
 @property(readonly, nonatomic) FCIssueReadingHistory *issueReadingHistory;
-@property(readonly, nonatomic) id <FCNetworkBehaviorMonitor> networkBehaviorMonitor;
-@property(readonly, nonatomic) FCPrivateChannelMembershipController *privateChannelMembershipController;
-@property(readonly, copy, nonatomic) NSString *privateDataDirectory;
-@property(readonly, nonatomic, getter=isPrivateDataSyncingEnabled) _Bool privateDataSyncingEnabled;
-@property(readonly, nonatomic) id <FCPushNotificationHandling> privatePushNotificationHandler;
-@property(readonly, nonatomic) FCPuzzleHistory *puzzleHistory;
-@property(readonly, nonatomic) FCPuzzleTypeSettings *puzzleTypeSettings;
-@property(readonly, nonatomic) FCReadingHistory *readingHistory;
-@property(readonly, nonatomic) FCReadingList *readingList;
-@property(readonly, nonatomic) FCRecipeUserEventHistory *recipeUserEventHistory;
-@property(readonly, nonatomic) FCShortcutList *shortcutList;
-@property(readonly, nonatomic) FCSubscriptionList *subscriptionList;
-@property(readonly, nonatomic) FCTagSettings *tagSettings;
-@property(readonly, nonatomic) FCUserEventHistory *userEventHistory;
-@property(readonly, nonatomic) FCUserInfo *userInfo;
 @end
 

@@ -7,7 +7,6 @@
 @interface CoreML.MLTensorStorageView
 {
     id wrappedStorage;
-    id descriptor;
 }
 
 @end

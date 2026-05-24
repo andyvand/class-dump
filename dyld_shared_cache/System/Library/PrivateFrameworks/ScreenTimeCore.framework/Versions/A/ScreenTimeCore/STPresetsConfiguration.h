@@ -10,30 +10,20 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (_Bool)ontainer SET play_order = 45 WHERE store_cloud_id != 0 AND play_order = 42;
+- (_Bool)!= 0 AND play_order = 41;
+- (_Bool)ote_location_id = 200);
+- (_Bool)TE item_store_new SET is_protected = 1 WHERE item_pid IN (SELECT item_pid FROM item WHERE base_location_id IN (100, 200));
+- (_Bool)d) WHERE base_location_id > 0 AND base_location_id <= 3840);
+- (_Bool)screenshot_cache_id != 0 AND store_saga_id = 0 AND sync_id != 0 AND screenshot_cache_id < 10001;
+- (_Bool)screenshot_cache_id IS NOT NULL AND screenshot_cache_id != 0 AND store_saga_id = 0 AND sync_id != 0 AND screenshot_cache_id < 10001;
+- (long long)pid, artwork_cache_id FROM item_extra JOIN item_store USING (item_pid) WHERE artwork_cache_id IS NOT NULL AND artwork_cache_id != 0 AND store_saga_id = 0 AND sync_id != 0 AND artwork_cache_id < 10001;
+- (id)item_artwork (item_pid, sync_artwork_token) SELECT item_pid, artwork_cache_id FROM item_extra JOIN item_store USING (item_pid) WHERE artwork_cache_id IS NOT NULL AND artwork_cache_id != 0 AND store_saga_id = 0 AND sync_id != 0 AND artwork_cache_id < 10001;
+- (id)artwork_cache_id IS NOT NULL AND artwork_cache_id != 0 AND store_saga_id != 0;
+- (id)OT IN (19, 20, 32));
 
 // Remaining properties
 @property(readonly) NSNumber *allowedAppStoreRating;
-@property(readonly) NSNumber *allowedMovieRating;
-@property(readonly) NSNumber *allowedTVRating;
-@property(readonly) long long allowedWebContent;
-@property(readonly, getter=isBooksAllowed) _Bool booksAllowed;
-@property(readonly, getter=isDeletingAppsAllowed) _Bool deletingAppsAllowed;
-@property(readonly, getter=isExplicitMediaAllowed) _Bool explicitMediaAllowed;
-@property(readonly, getter=areMusicProfilesAllowed) _Bool musicProfilesAllowed;
-@property(readonly, getter=areMusicVideosAllowed) _Bool musicVideosAllowed;
-@property(readonly, getter=isSiriExplicitAllowed) _Bool siriExplicitAllowed;
-@property(readonly, getter=isSiriWebSearchAllowed) _Bool siriWebSearchAllowed;
 
 @end
 

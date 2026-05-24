@@ -5,5 +5,7 @@
 //
 
 @protocol IDSXPCKeyTransparency
+- (void);
+- (void)8J;
 @end
 

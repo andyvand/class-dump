@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface LSSettingsStore
 {
     NSObject<OS_dispatch_queue> *_observerQueue;
-    NSMutableSet *_observerSet;
 }
 
 + (id);
@@ -18,9 +17,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)e 0 (full image) for %s.;
 - (unsigned char);
-- (id)SecondaryExtension: /* Error: Ran out of types for this method. */;
+- (id)cleanSecondaryExtension: /* Error: Ran out of types for this method. */;
 - (void)Ô
 ;
 - (void);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(readonly) NSObject<OS_dispatch_queue> *observerQueue; // @synthesize observerQueue=_observerQueue;
-@property(readonly) NSMutableSet *observerSet; // @synthesize observerSet=_observerSet;
 
 @end
 

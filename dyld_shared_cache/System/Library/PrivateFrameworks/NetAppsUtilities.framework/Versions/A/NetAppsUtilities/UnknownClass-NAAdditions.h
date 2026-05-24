@@ -14,8 +14,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long na_item;
 @property(readonly, nonatomic) long long na_row;
-@property(readonly, nonatomic) long long na_section;
 @end
 

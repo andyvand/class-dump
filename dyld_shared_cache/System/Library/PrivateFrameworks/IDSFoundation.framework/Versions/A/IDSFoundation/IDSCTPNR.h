@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSCTPNRInfo, NSString;
 @protocol IDSCTPNRDelegate;
 
 @interface IDSCTPNR
 {
     id _coreTelephonyClient;
-    NSString *_labelID;
-    id _context;
-    id <IDSCTPNRDelegate> _PNRDelegate;
-    long long _carrierShortcodeSupported;
-    struct os_unfair_lock_s _contextLock;
-    NSString *_uniqueIdentifier;
-    unsigned long long _slotID;
-    unsigned long long _hardwareType;
 }
 
 - (_Bool);
@@ -27,21 +18,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (unsigned long long);
-- (id);
+- (id)E;
 - (unsigned long long)ôhà;
 - (void)edunlock;
 
 // Remaining properties
 @property(nonatomic) __weak id <IDSCTPNRDelegate> PNRDelegate;
-@property(readonly, nonatomic) IDSCTPNRInfo *PNRInfo;
-@property(readonly, nonatomic) unsigned long long hardwareType; // @synthesize hardwareType=_hardwareType;
-@property(readonly, nonatomic) _Bool isPNRSupported;
-@property(readonly, nonatomic) _Bool isSIMReady;
-@property(readonly, nonatomic) unsigned long long slotID; // @synthesize slotID=_slotID;
-@property(readonly, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly, nonatomic) _Bool userOptInRequired;
 
 @end
 

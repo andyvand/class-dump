@@ -5,11 +5,11 @@
 //
 
 @protocol TSAppMonitorType
-- (_Bool)omCompression;
+- (_Bool)h;
+- (_Bool)bottomCompression;
 - (void)´!ôÿîÌÍäÿîÌ!ôÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive;
-@property(nonatomic, readonly) _Bool isTracking;
 @end
 

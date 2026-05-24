@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
+- (void)_writeCKRecordsToChatZone:activity:withCompletion: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)or was missing mapping for MPModelPropertyPodcastEpisodeTitle;
 - (struct CGSize);
 - (void)items;
 - (void)s not allowed. Check the backtrace to see what's causing this. Collection view:(id)arg1 %@;

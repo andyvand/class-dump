@@ -7,23 +7,19 @@
 @interface PFParallaxLayoutTextOverlapParameters
 {
     double _bottomAreaHeight;
-    double _targetBottomOverlap;
-    double _maxBottomOverlap;
 }
 
 + (id);
 + (id);
 + (id);
 + (void);
-- (double);
-- (double);
+- (double)sions/A/PlugInKit;
+- (double);
 - (double);
 - (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double bottomAreaHeight; // @synthesize bottomAreaHeight=_bottomAreaHeight;
-@property(readonly, nonatomic) double maxBottomOverlap; // @synthesize maxBottomOverlap=_maxBottomOverlap;
-@property(readonly, nonatomic) double targetBottomOverlap; // @synthesize targetBottomOverlap=_targetBottomOverlap;
 
 @end
 

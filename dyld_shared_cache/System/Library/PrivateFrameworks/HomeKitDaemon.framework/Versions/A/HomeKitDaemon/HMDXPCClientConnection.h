@@ -4,35 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDProcessInfo, HMDXPCMessageCountTracker, HMDXPCMessageSendPolicyParameters, HMDXPCRequestTracker, NSDictionary, NSObject, NSString;
-@protocol HMDXPCClientConnectionDelegate, HMXPCConnection, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDXPCClientConnection
 {
     struct os_unfair_lock_s _lock;
-    _Bool _entitledForAPIAccess;
-    _Bool _entitledForBackgroundMode;
-    _Bool _entitledForCameraClipsAccess;
-    _Bool _entitledForMultiUserSetupAccess;
-    _Bool _entitledForPersonManagerAccess;
-    _Bool _entitledForWalletKeyAccess;
-    _Bool _hasExternallyManagedActivation;
-    id <HMDXPCClientConnectionDelegate> _delegate;
-    HMDXPCMessageSendPolicyParameters *_sendPolicyParameters;
-    NSDictionary *_userInfo;
-    HMDProcessInfo *_processInfo;
-    NSString *_clientIdentifier;
-    NSString *_logIdentifier;
-    id <HMXPCConnection> _xpcConnection;
-    unsigned long long _entitlements;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMDXPCMessageCountTracker *_messageCountTracker;
-    HMDXPCRequestTracker *_requestTracker;
-    unsigned long long _state;
 }
 
-+ (unsigned long long)mNetworkSignatures;
++ (unsigned long long)_numNetworkSignatures;
 + (id);
 - (id);
 - (id);
@@ -43,34 +24,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
+- (_Bool)initWithManagedObjectModel: /* Error: Ran out of types for this method. */;
+- (_Bool)Tq,N,V_endYear;
+- (_Bool)IeAgH_;
+- (id);
+- (unsigned long long);
+- (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)#;
 - (_Bool);
 - (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
 - (unsigned long long);
-- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)qC;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -88,17 +69,17 @@ __attribute__((visibility("hidden")))
 - (void)
 × ;
 - (id)seID"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)Status;
-- (_Bool)stics: /* Error: Ran out of types for this method. */;
-- (_Bool)esponseMessage: /* Error: Ran out of types for this method. */;
-- (void)ipKeyValueStore;
-- (_Bool)ientConnectMessageFailUnderlyingErrorCode_HH2;
-- (id)quest: /* Error: Ran out of types for this method. */;
+- (void)presenceComputeStatus;
+- (_Bool)notifyClientsOfSupportedDiagnostics: /* Error: Ran out of types for this method. */;
+- (_Bool)handleResponseMessage: /* Error: Ran out of types for this method. */;
+- (void)chipKeyValueStore;
+- (_Bool)_lastPrimaryClientConnectMessageFailUnderlyingErrorCode_HH2;
+- (id)_handlePairingIdentityRequest: /* Error: Ran out of types for this method. */;
 - (_Bool)_allowDecodingCyclesInSecureMode;
 - (id)veTriggers;
 - (id),R,C,N,V_parameters;
 - (_Bool)<HMDDemoModeManager>",R,N,V_demoModeManager;
-- (id)yReachabilityObserver;
+- (id)HMDRemotelyAddedAccessoryReachabilityObserver;
 - (void)Ä d!#8$$¬%@' /¼0ü6d7¸7@8ä8;
 - (int)ÄHI;
 - (id)U\´] a	b`c´fÄidkpo(qäux¸z¤|~t<ÔLt¡è¢¨¤§d©ÈªÌ²³;
@@ -112,61 +93,13 @@ __attribute__((visibility("hidden")))
 - (id)c}@Updating home person manager settings from %@ to %@;
 - (void)error:(id)arg1 %@;
 - (void)isplay Name:(id)arg1 %@;
-- (void)odifiedObjectPropertyNames;
+- (void)modifiedObjectPropertyNames;
 - (id)anner;
 - (id)serPresenceUpdateSubscriptionManager;
 - (id)UID;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActivated) _Bool activated;
-@property(readonly, nonatomic) NSString *applicationBundleIdentifier;
-@property(readonly, nonatomic, getter=isAuthorizedForHomeDataAccess) _Bool authorizedForHomeDataAccess;
-@property(readonly, nonatomic, getter=isAuthorizedForLocationAccess) _Bool authorizedForLocationAccess;
-@property(readonly, nonatomic, getter=isAuthorizedForMicrophoneAccess) _Bool authorizedForMicrophoneAccess;
-@property(readonly, copy) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) NSString *clientName;
-@property(readonly, nonatomic) int clientPid;
-@property(readonly, nonatomic) NSString *companionAppBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDXPCClientConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEntitledForAPIAccess) _Bool entitledForAPIAccess; // @synthesize entitledForAPIAccess=_entitledForAPIAccess;
-@property(readonly, nonatomic, getter=isEntitledForAssistantIdentifiers) _Bool entitledForAssistantIdentifiers;
-@property(readonly, nonatomic, getter=isEntitledForBackgroundMode) _Bool entitledForBackgroundMode; // @synthesize entitledForBackgroundMode=_entitledForBackgroundMode;
-@property(readonly, nonatomic, getter=isEntitledForCameraClipsAccess) _Bool entitledForCameraClipsAccess; // @synthesize entitledForCameraClipsAccess=_entitledForCameraClipsAccess;
-@property(readonly, nonatomic, getter=isEntitledForHomeLocationAccess) _Bool entitledForHomeLocationAccess;
-@property(readonly, nonatomic, getter=isEntitledForHomeLocationFeedbackAccess) _Bool entitledForHomeLocationFeedbackAccess;
-@property(readonly, nonatomic, getter=isEntitledForMultiUserSetupAccess) _Bool entitledForMultiUserSetupAccess; // @synthesize entitledForMultiUserSetupAccess=_entitledForMultiUserSetupAccess;
-@property(readonly, nonatomic, getter=isEntitledForPersonManagerAccess) _Bool entitledForPersonManagerAccess; // @synthesize entitledForPersonManagerAccess=_entitledForPersonManagerAccess;
-@property(readonly, getter=isEntitledForSPIAccess) _Bool entitledForSPIAccess;
-@property(readonly, nonatomic, getter=isEntitledForSecureAccess) _Bool entitledForSecureAccess;
-@property(readonly, nonatomic, getter=isEntitledForShortcutsAutomationAccess) _Bool entitledForShortcutsAutomationAccess;
-@property(readonly, nonatomic, getter=isEntitledForStateDump) _Bool entitledForStateDump;
-@property(readonly, nonatomic, getter=isEntitledForWalletKeyAccess) _Bool entitledForWalletKeyAccess; // @synthesize entitledForWalletKeyAccess=_entitledForWalletKeyAccess;
-@property(readonly, nonatomic, getter=isEntitledToProvideAccessorySetupPayload) _Bool entitledToProvideAccessorySetupPayload;
-@property(readonly, nonatomic, getter=isEntitledToProvideMatterSetupPayload) _Bool entitledToProvideMatterSetupPayload;
-@property(readonly) unsigned long long entitlements; // @synthesize entitlements=_entitlements;
-@property _Bool hasExternallyManagedActivation; // @synthesize hasExternallyManagedActivation=_hasExternallyManagedActivation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long homeManagerOptions;
-@property(readonly) unsigned long long inactiveUpdatingLevel;
-@property(copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) HMDXPCMessageCountTracker *messageCountTracker; // @synthesize messageCountTracker=_messageCountTracker;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, getter=isPlatformBinary) _Bool platformBinary;
-@property(readonly) Class principalClass;
-@property(retain) HMDProcessInfo *processInfo; // @synthesize processInfo=_processInfo;
 @property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) HMDXPCRequestTracker *requestTracker; // @synthesize requestTracker=_requestTracker;
-@property(copy, nonatomic) HMDXPCMessageSendPolicyParameters *sendPolicyParameters; // @synthesize sendPolicyParameters=_sendPolicyParameters;
-@property unsigned long long state; // @synthesize state=_state;
-@property(readonly, copy) NSDictionary *stateDump;
-@property(readonly) Class superclass;
-@property(copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(readonly, nonatomic) id <HMXPCConnection> xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

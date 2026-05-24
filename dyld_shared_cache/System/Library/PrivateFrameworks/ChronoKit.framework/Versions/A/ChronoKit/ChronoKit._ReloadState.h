@@ -7,7 +7,6 @@
 @interface ChronoKit._ReloadState
 {
     id key;
-    id dateReloadRequested;
 }
 
 @end

@@ -7,16 +7,6 @@
 @interface SwiftUI.DragReorderableLayoutCoordinator__priv_1B0CD5E46D60A3CA175732DDA089171C
 {
     id containerID;
-    id contentTypes;
-    id spacing;
-    id delegate;
-    id responders;
-    id containerTransform;
-    id _state;
-    id cachedTopYPosition;
-    id placeholderFrame;
-    id lastFrames;
-    id animationCount;
 }
 
 @end

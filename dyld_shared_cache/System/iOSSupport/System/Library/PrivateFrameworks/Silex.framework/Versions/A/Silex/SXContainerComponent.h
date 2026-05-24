@@ -7,7 +7,6 @@
 #import <Silex/SXComponent.h>
 
 @class SXJSONArray;
-@protocol SXContentDisplay;
 
 @interface SXContainerComponent : SXComponent
 {
@@ -16,15 +15,12 @@
 + (CDUnknownBlockType);
 + (Class);
 + (CDUnknownBlockType);
-+ (id);
++ (id);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) SXJSONArray *allComponents; // @dynamic allComponents;
-@property(readonly, nonatomic) _Bool allowAutoplacedAds; // @dynamic allowAutoplacedAds;
-@property(readonly, nonatomic) SXJSONArray *components; // @dynamic components;
-@property(readonly, nonatomic) id <SXContentDisplay> contentDisplay; // @dynamic contentDisplay;
 
 @end
 

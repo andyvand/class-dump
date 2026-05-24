@@ -5,5 +5,7 @@
 //
 
 @protocol BSServiceConnectionConfiguring
+- (void)CNObjectTracker;
+- (void);
 @end
 

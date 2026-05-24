@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface RGSiriSchemaRGRequestEndedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_displayString;
-    NSString *_spokenString;
-    NSString *_catId;
-    NSString *_staticDialogId;
-    _Bool _hasLinkId;
-    _Bool _hasDisplayString;
-    _Bool _hasSpokenString;
-    _Bool _hasCatId;
-    _Bool _hasStaticDialogId;
 }
 
 - (id);
@@ -36,41 +27,31 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (void)_finishSavingAccountDetails;
+- (void)_didFinishLoadingResource:(_Bool)arg1 withError: /* Error: Ran out of types for this method. */;
+- (id)riginalHTTPMethod;
+- (_Bool)_matterhornView;
+- (id)՜;
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)k9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDUpdateMetricsStore_macOS.m:30 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)DataRef, CFStringRef, int64_t, CFDataRef, int64_t, CFStringRef, CFDataRef, CFStringRef, CFStringRef, CFStringRef, int64_t, CFStringRef, CFStringRef, CFStringRef, CFStringRef, int64_t, int64_t, int64_t, CFStringRef, CFStringRef, CFStringRef, int64_t, int64_t, CFStringRef);
 - (id);
-- (id);
-- (id)onChanged;
+- (id);
+- (id)allocationChanged;
 - (id),N,V_anchorSocialScore;
 - (void)4;
-- (void)ion;
-- (id)_NOT_SELECTED;
+- (void)selectedInDisambiguation;
+- (id)CNVCANCELLATIONREASON_NOT_SELECTED;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *catId; // @synthesize catId=_catId;
-@property(copy, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;
-@property(nonatomic) _Bool hasCatId; // @synthesize hasCatId=_hasCatId;
-@property(nonatomic) _Bool hasDisplayString; // @synthesize hasDisplayString=_hasDisplayString;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasSpokenString; // @synthesize hasSpokenString=_hasSpokenString;
-@property(nonatomic) _Bool hasStaticDialogId; // @synthesize hasStaticDialogId=_hasStaticDialogId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *spokenString; // @synthesize spokenString=_spokenString;
-@property(copy, nonatomic) NSString *staticDialogId; // @synthesize staticDialogId=_staticDialogId;
 
 @end
 

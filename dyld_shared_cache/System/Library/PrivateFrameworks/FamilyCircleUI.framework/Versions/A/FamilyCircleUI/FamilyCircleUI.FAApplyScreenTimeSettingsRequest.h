@@ -7,10 +7,6 @@
 @interface FamilyCircleUI.FAApplyScreenTimeSettingsRequest
 {
     id presetsProvider;
-    id settingsStoreProvider;
-    id userProvider;
-    id altDSID;
-    id storeFront;
 }
 
 @end

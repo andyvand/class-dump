@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _LSDatabase;
+@class _LSDatabase;
 
 @interface LSRecordPromise
 {
     _LSDatabase *_db;
-    NSData *_pi;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)tionPipeline>"24@0:8@"MTLMotionEstimationPipelineDescriptor"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

@@ -9,17 +9,16 @@
 @interface CKDPLocale
 {
     NSString *_languageCode;
-    NSString *_regionCode;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)getTransactionTypeModifierStringFromCode:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)l(FigEndpointStreamAudioEngineRef, APSEndpointStreamAudioHoseRef, CFMutableArrayRef, Boolean *);
+- (_Bool),;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -32,9 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLanguageCode;
-@property(readonly, nonatomic) _Bool hasRegionCode;
-@property(retain, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(retain, nonatomic) NSString *regionCode; // @synthesize regionCode=_regionCode;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol SOSControlProtocol
+- (void);
+- (void)";
+- (void)W;
+- (void)U;
 @end
 

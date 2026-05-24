@@ -15,8 +15,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)led;
+- (id)ecureElement:%d; hasRemoteDevices:%d; isSRD:%d;  /* Error: Ran out of types for this method. */;
+- (void)ituCodeLookupFailed;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *debuggingService; // @synthesize debuggingService=_debuggingService;

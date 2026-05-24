@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _AXFResourceMonitor;
-@protocol AXFProcessManagerDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class _AXFResourceMonitor;
+@protocol AXFProcessManagerDelegate;
 
 @interface AXFProcessManager
 {
     id <AXFProcessManagerDelegate> _delegate;
-    _AXFResourceMonitor *__CPUMonitor;
-    _AXFResourceMonitor *__memoryMonitor;
-    NSObject<OS_dispatch_source> *__timer;
-    NSObject<OS_dispatch_queue> *__processManagerDispatchQueue;
 }
 
 - (void);
@@ -26,29 +22,25 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)RE;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)in Network;
 
 // Remaining properties
 @property(retain, nonatomic) _AXFResourceMonitor *_CPUMonitor; // @synthesize _CPUMonitor=__CPUMonitor;
-@property(retain, nonatomic) _AXFResourceMonitor *_memoryMonitor; // @synthesize _memoryMonitor=__memoryMonitor;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_processManagerDispatchQueue; // @synthesize _processManagerDispatchQueue=__processManagerDispatchQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *_timer; // @synthesize _timer=__timer;
-@property(nonatomic) __weak id <AXFProcessManagerDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

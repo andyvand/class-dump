@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString, NSUUID;
+@class NSDate;
 
 @interface MapsSyncManagedCachedMapItemStorage
 {
@@ -15,14 +15,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSDate *createTime; // @dynamic createTime;
-@property(nonatomic, copy) NSString *customName; // @dynamic customName;
-@property(nonatomic, copy) NSUUID *identifier; // @dynamic identifier;
-@property(nonatomic, retain) NSNumber *latitude; // @dynamic latitude;
-@property(nonatomic, retain) NSNumber *longitude; // @dynamic longitude;
-@property(nonatomic, copy) NSData *mapItemStorage; // @dynamic mapItemStorage;
-@property(nonatomic, copy) NSDate *modificationTime; // @dynamic modificationTime;
-@property(nonatomic, retain) NSNumber *muid; // @dynamic muid;
-@property(nonatomic, retain) NSNumber *resultsProvider; // @dynamic resultsProvider;
 
 @end
 

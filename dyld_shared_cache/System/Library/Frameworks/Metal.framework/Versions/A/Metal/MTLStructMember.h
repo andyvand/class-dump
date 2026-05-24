@@ -14,16 +14,13 @@
 + (id)-;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)';
 - (id);
 - (id)neDescriptor"16^@24;
-- (id)ttachments;
+- (id)colorAttachments;
 
 // Remaining properties
-@property(readonly) unsigned long long argumentIndex; // @dynamic argumentIndex;
-@property(readonly) unsigned long long dataType; // @dynamic dataType;
 @property(readonly) NSString *name; // @dynamic name;
-@property(readonly) unsigned long long offset; // @dynamic offset;
 
 @end
 

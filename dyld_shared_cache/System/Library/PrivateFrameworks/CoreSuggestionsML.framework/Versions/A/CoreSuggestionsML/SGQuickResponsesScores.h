@@ -9,7 +9,6 @@
 @interface SGQuickResponsesScores
 {
     NSArray *_modelScores;
-    NSArray *_normalizedModelScores;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *modelScores; // @synthesize modelScores=_modelScores;
-@property(readonly, nonatomic) NSArray *normalizedModelScores; // @synthesize normalizedModelScores=_normalizedModelScores;
 
 @end
 

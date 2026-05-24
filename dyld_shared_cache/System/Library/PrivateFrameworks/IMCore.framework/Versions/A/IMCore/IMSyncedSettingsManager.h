@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMSyncedSettingsManager_Impl, NSString;
+@class IMSyncedSettingsManager_Impl;
 
 @interface IMSyncedSettingsManager
 {
@@ -12,23 +12,16 @@
 }
 
 + (id);
-- (id);
-- (void);
-- (void);
+- (id)invalidating the connection;
+- (void)op the VCAudioIO. error=%@;
+- (void):(id)arg1 new session (%08X)...;
 - (void);
 - (id);
 - (id);
 - (void)ìó;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) IMSyncedSettingsManager_Impl *impl; // @synthesize impl=_impl;
-@property(readonly) Class superclass;
 
 @end
 

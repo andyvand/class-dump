@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext;
-@protocol MTLBuffer, MTLCommandQueue, MTLComputePipelineState, MTLDevice;
+@protocol MTLDevice;
 
 __attribute__((visibility("hidden")))
 @interface FastMetalColorSampler
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLComputePipelineState> _pipelineState;
-    CIContext *_ciContext;
-    id <MTLBuffer> _reusableOutputBuffer;
-    unsigned long long _bufferCapacity;
 }
 
 + (id);
@@ -30,21 +24,16 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
-- (void);
+- (void)_batteryPercentRight;
 - (void)
 × ;
 - (id)@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long bufferCapacity; // @synthesize bufferCapacity=_bufferCapacity;
-@property(retain, nonatomic) CIContext *ciContext; // @synthesize ciContext=_ciContext;
-@property(retain, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
 @property(retain, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(retain, nonatomic) id <MTLComputePipelineState> pipelineState; // @synthesize pipelineState=_pipelineState;
-@property(retain, nonatomic) id <MTLBuffer> reusableOutputBuffer; // @synthesize reusableOutputBuffer=_reusableOutputBuffer;
 
 @end
 

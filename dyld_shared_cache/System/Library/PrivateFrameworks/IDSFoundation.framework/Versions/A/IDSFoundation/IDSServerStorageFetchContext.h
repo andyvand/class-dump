@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface IDSServerStorageFetchContext
 {
     NSData *_serverStorageSSM;
-    NSString *_service;
-    NSString *_reason;
 }
 
 + (_Bool);
@@ -27,9 +25,7 @@
 - (void)%@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *reason; // @synthesize reason=_reason;
 @property(readonly, nonatomic) NSData *serverStorageSSM; // @synthesize serverStorageSSM=_serverStorageSSM;
-@property(readonly, nonatomic) NSString *service; // @synthesize service=_service;
 
 @end
 

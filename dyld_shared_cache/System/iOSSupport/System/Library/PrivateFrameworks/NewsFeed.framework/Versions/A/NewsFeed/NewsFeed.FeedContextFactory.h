@@ -7,15 +7,6 @@
 @interface NewsFeed.FeedContextFactory
 {
     id paidBundleConfigManager;
-    id paidAccessChecker;
-    id bundleSubscriptionManager;
-    id bundleSessionManager;
-    id bundleCampaignSessionManager;
-    id featureAvailability;
-    id appConfigManager;
-    id platform;
-    id userInfo;
-    id subscriptionController;
 }
 
 @end

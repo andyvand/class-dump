@@ -6,8 +6,7 @@
 
 #import <MetalTools/MTL4ToolsCommandEncoder.h>
 
-@class NSString;
-@protocol MTL4ArgumentTable, MTL4CommandAllocator, MTL4CommandBuffer;
+@protocol MTL4ArgumentTable;
 
 @interface MTL4ToolsComputeCommandEncoder : MTL4ToolsCommandEncoder
 {
@@ -23,21 +22,38 @@
 - (void);
 - (void);
 - (void);
+- (void)H;
+- (void);
+- (unsigned long long);
+- (void)2 ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
 - (void);
 - (void);
 - (void);
@@ -50,15 +66,6 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -71,22 +78,14 @@
 - (void);
 - (void);
 - (void);
+- (void)?;
+- (void);
+- (void)Rv;
 - (void);
 - (void);
+- (void)s;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
@@ -94,17 +93,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTL4CommandAllocator> commandAllocator;
-@property(readonly, nonatomic) id <MTL4CommandBuffer> commandBuffer;
 @property(readonly, nonatomic) id <MTL4ArgumentTable> currentArgumentTable; // @synthesize currentArgumentTable=_currentArgumentTable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label;
-@property(readonly) Class superclass;
 
 @end
 

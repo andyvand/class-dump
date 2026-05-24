@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, CNContactCardWidgetProviderDelegateWrapper;
+@class CNContactCardWidgetProviderDelegateWrapper;
 
 @interface CNContactCardWidgetProvider
 {
     CNContactCardWidgetProviderDelegateWrapper *_safeDelegate;
-    CNCache *_viewControllerCache;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (_Bool);
-- (id);
+- (id)q!;
 - (void);
 - (void);
 - (id);
@@ -30,12 +29,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)EEE;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CNContactCardWidgetProviderDelegateWrapper *safeDelegate; // @synthesize safeDelegate=_safeDelegate;
-@property(retain, nonatomic) CNCache *viewControllerCache; // @synthesize viewControllerCache=_viewControllerCache;
 
 @end
 

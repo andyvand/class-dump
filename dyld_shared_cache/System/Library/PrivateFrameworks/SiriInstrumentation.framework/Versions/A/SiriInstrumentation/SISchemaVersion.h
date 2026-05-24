@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface SISchemaVersion : SISchemaInstrumentationMessage
 {
     unsigned int _major;
-    unsigned int _minor;
-    unsigned int _patch;
-    NSString *_prerelease;
-    struct {
-        unsigned int major:1;
-        unsigned int minor:1;
-        unsigned int patch:1;
-    } _has;
-    _Bool _hasPrerelease;
 }
 
 - (void);
@@ -32,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned int);
+- (void);
+- (unsigned int);
 - (void);
 - (void);
 - (void);
@@ -42,27 +31,19 @@
 - (_Bool);
 - (id);
 - (unsigned int);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long)isCapableOfAction:capability: /* Error: Ran out of types for this method. */;
+- (_Bool)0v;
+- (_Bool)lld, ck_sync_state:(id)arg1 %@, transfer_state:%@, uti:%@, file path:%@, is_sticker:%@, mime_type:%@, plugin_identifier:%@ /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
 - (id);
-- (id)tSignals;
-- (id)ntainingSpeechReadyUpstream;
-- (void)RRSQUERYREWRITETYPE_CORRECTION;
+- (id)deleteInferenceCommsAppSelectionTrainingAppDependentSignals;
+- (id)_hasFinalAudioPacketContainingSpeechReadyUpstream;
+- (void)MARRSQUERYREWRITETYPE_CORRECTION;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMajor;
-@property(nonatomic) _Bool hasMinor;
-@property(nonatomic) _Bool hasPatch;
-@property(nonatomic) _Bool hasPrerelease; // @synthesize hasPrerelease=_hasPrerelease;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int major; // @synthesize major=_major;
-@property(nonatomic) unsigned int minor; // @synthesize minor=_minor;
-@property(nonatomic) unsigned int patch; // @synthesize patch=_patch;
-@property(copy, nonatomic) NSString *prerelease; // @synthesize prerelease=_prerelease;
 
 @end
 

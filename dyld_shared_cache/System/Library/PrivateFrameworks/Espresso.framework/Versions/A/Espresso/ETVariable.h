@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ETModelDef, NSString;
+@class ETModelDef;
 
 @interface ETVariable
 {
     float _initializationAlpha;
-    float _initializationBeta;
-    unsigned long long _kind;
-    NSString *_name;
-    NSString *_layerName;
-    unsigned long long _initializationMode;
-    ETModelDef *_model;
 }
 
 - (id);
@@ -30,8 +24,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ner>""horzDist"q"vertDist"q"hasValidMeasurement"B"cells"{vector<_NUIBoxArrangementCell, std::allocator<_NUIBoxArrangementCell>>="__begin_"^{_NUIBoxArrangementCell}"__end_"^{_NUIBoxArrangementCell}""{?="__cap_"^{_NUIBoxArrangementCell}}}"measureSize"{CGSize="width"d"height"d}"viewFrames"{vector<CGRect, std::allocator<CGRect>>="__begin_"^{CGRect}"__end_"^{CGRect}""{?="__cap_"^{CGRect}}}"maxBaseLinePair"{?="baseLineFromTop"d"baseLineFromBottom"d}} /* Error: Ran out of types for this method. */;
+- (id)updateHTML:withEventNotes: /* Error: Ran out of types for this method. */;
 - (unsigned long long)pilation.;
 - (void)1;
 - (void)ü¦;
@@ -39,13 +33,7 @@
 - (void);
 
 // Remaining properties
-@property float initializationAlpha; // @synthesize initializationAlpha=_initializationAlpha;
-@property float initializationBeta; // @synthesize initializationBeta=_initializationBeta;
-@property unsigned long long initializationMode; // @synthesize initializationMode=_initializationMode;
-@property(nonatomic) unsigned long long kind; // @synthesize kind=_kind;
-@property(retain, nonatomic) NSString *layerName; // @synthesize layerName=_layerName;
 @property(nonatomic) __weak ETModelDef *model; // @synthesize model=_model;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

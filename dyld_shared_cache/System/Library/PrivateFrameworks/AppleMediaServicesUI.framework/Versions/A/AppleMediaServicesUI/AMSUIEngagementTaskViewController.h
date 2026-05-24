@@ -6,40 +6,30 @@
 
 #import <AppleMediaServicesUI/AMSUICommonViewController.h>
 
-@class AMSEngagementRequest, AMSEngagementResult, AMSProcessInfo, AMSPromise, NSError, NSString, NSViewController;
 @protocol AMSBagProtocol;
 
 @interface AMSUIEngagementTaskViewController : AMSUICommonViewController
 {
     _Bool _presented;
-    _Bool _ignoresDismissDetection;
-    AMSProcessInfo *_clientInfo;
-    id <AMSBagProtocol> _bag;
-    NSViewController *_childController;
-    AMSPromise *_childPromise;
-    CDUnknownBlockType _dismissBlock;
-    NSError *_error;
-    AMSEngagementRequest *_request;
-    AMSEngagementResult *_result;
 }
 
 + (id);
-+ (id)Continuation;
++ (id)_authenticateContinuation;
 + (id)GGÐò=G;
 + (id)ror:%@ /* Error: Ran out of types for this method. */;
 - (void);
+- (void)~Y;
+- (void)y;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
+- (_Bool)(;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -47,29 +37,29 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)ѿ_8�H;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void)opTimeoutInterruption;
-- (id)rrentLoadState: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)set:%@ /* Error: Ran out of types for this method. */;
+- (void)@;
+- (void);
+- (id);
+- (void)stopTimeoutInterruption;
+- (id)setCurrentLoadState: /* Error: Ran out of types for this method. */;
 - (void)0Õ=s=G%«=G_ACyACyACyµ.Ó@`Ð=y2Ù=SgGGAGGAGGtGG;
 - (void)Ì;
 - (void)
@@ -77,22 +67,6 @@
 
 // Remaining properties
 @property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) NSViewController *childController; // @synthesize childController=_childController;
-@property(retain) AMSPromise *childPromise; // @synthesize childPromise=_childPromise;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType dismissBlock; // @synthesize dismissBlock=_dismissBlock;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property _Bool ignoresDismissDetection; // @synthesize ignoresDismissDetection=_ignoresDismissDetection;
-@property _Bool presented; // @synthesize presented=_presented;
-@property(retain) AMSEngagementRequest *request; // @synthesize request=_request;
-@property(retain) AMSEngagementResult *result; // @synthesize result=_result;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol MTRestorableBackgroundSession
+- (void (^)(void));
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType sessionCompletionHandler;

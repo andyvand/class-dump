@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)s_clientCreatedAt"b1"has_originatingAuxiliaryControlIndex"b1"has_deviceGmtOffset"b1"has_pinType"b1"has_isSprMap"b1"read_unknownFields"b1"read_userPaths"b1"read_auxiliaryControls"b1"read_combinedUserPath"b1"read_currentAbAssignmentResponse"b1"read_currentEnvironmentManifestUrls"b1"read_mapLocation"b1"read_navigationSettings"b1"read_searchCommon"b1"read_sourceInfo"b1"read_visibleTileSets"b1"wrote_anyField"b1};
-- (id)nessHoursData;
+- (id)_businessHoursData;
 - (id)þx¨0´y¼0´È yÐ0´"yä0´8$yø0´Xy1´T%|1´x*|1´/|Ì1´´2|2´(>| 2´hA|42´ |H2´Ô|\2´l|2´,|À2´T¢|Ô2´ø¥|è2´0¬|ü2´ì}t3´¤~4´d~4´~¬4´~À4´ £~<5´Ä¥~5´©~à5´¼ª~ô5´`­~@6´°~6´¨²~Ø6´ ¾~ì6´xÂ~;
 - (void)aTR' >@;
 

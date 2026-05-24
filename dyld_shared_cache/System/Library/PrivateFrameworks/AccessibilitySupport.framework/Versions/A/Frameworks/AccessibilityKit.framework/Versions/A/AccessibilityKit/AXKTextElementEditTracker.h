@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXKApplicationController, AXKElementController, AXKInputMarkingSessionTracker, AXKKeyboardFocusTracker, AXKTextElementEditListenerElementInfo, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AXKTextElementEditListenerElementInfo;
 
 @interface AXKTextElementEditTracker
 {
     _Bool __isEditable;
-    _Bool __singleLineMode;
-    AXKTextElementEditListenerElementInfo *__elementInfo;
-    AXKKeyboardFocusTracker *__keyFocusTracker;
-    NSMutableArray *__listeners;
-    NSObject<OS_dispatch_queue> *__trackerQueue;
-    AXKApplicationController *__lastApplicationController;
-    AXKInputMarkingSessionTracker *__inlineSessionTracker;
-    AXKElementController *__lastTrackedElement;
 }
 
 + (id);
@@ -27,20 +18,20 @@
 + (id);
 + (struct CGRect);
 + (struct CGRect);
-+ (struct CGRect);
++ (struct CGRect);
 + (struct CGRect);
 + (id);
 + (long long);
 + (void);
 + (id);
 + (struct _NSRange);
-+ (id);
-+ (id);
++ (id)(;
++ (id)	;
 + (id);
 + (_Bool);
 + (void);
 + (id);
-+ (id);
++ (id);
 + (struct CGRect);
 + (id);
 + (id);
@@ -58,19 +49,19 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (id);
 - (id);
@@ -90,29 +81,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)setZoomWindowFrameCarbonCoordinates: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) AXKTextElementEditListenerElementInfo *_elementInfo; // @synthesize _elementInfo=__elementInfo;
-@property(retain, nonatomic) AXKInputMarkingSessionTracker *_inlineSessionTracker; // @synthesize _inlineSessionTracker=__inlineSessionTracker;
-@property(nonatomic) _Bool _isEditable; // @synthesize _isEditable=__isEditable;
-@property(retain, nonatomic) AXKKeyboardFocusTracker *_keyFocusTracker; // @synthesize _keyFocusTracker=__keyFocusTracker;
-@property(retain, nonatomic) AXKApplicationController *_lastApplicationController; // @synthesize _lastApplicationController=__lastApplicationController;
-@property(retain, nonatomic) AXKElementController *_lastTrackedElement; // @synthesize _lastTrackedElement=__lastTrackedElement;
-@property(retain, nonatomic) NSMutableArray *_listeners; // @synthesize _listeners=__listeners;
-@property(nonatomic) _Bool _singleLineMode; // @synthesize _singleLineMode=__singleLineMode;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_trackerQueue; // @synthesize _trackerQueue=__trackerQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

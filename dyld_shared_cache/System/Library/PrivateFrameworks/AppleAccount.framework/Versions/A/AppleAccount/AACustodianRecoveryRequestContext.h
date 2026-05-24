@@ -4,65 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface AACustodianRecoveryRequestContext
 {
     _Bool _isAccountRecovery;
-    _Bool _CLIMode;
-    _Bool _dataOnlyRecovery;
-    NSString *_recoverySessionID;
-    NSString *_ownerAppleID;
-    NSString *_recoveryCode;
-    NSUUID *_custodianUUID;
-    NSString *_custodianRecoveryToken;
-    NSString *_recordBuildVersion;
-    NSString *_telemetryFlowID;
-    NSString *_altDSID;
 }
 
 + (_Bool);
-- (void);
+- (void)dsAttrTypeStandard:(id)arg1 AppleMetaNodeLocation;
+- (void)to '%s'; bytes written = %ld; error = %ld;
+- (void)rTimes raw time = %.2f;
+- (void)ailed;
+- (id)I.bundle/Contents/Resources/ProfilesPrefPane.icns;
+- (_Bool)qosconfiguration result = %d;
+- (_Bool)= %d;
+- (_Bool)failed to acquire Apple Root CA certificates;
+- (void)ent tasks if we unsubscribed for notifications from the event.;
+- (void)ueue;
+- (void)QuantOperation;
+- (void)ot supported yet.;
+- (id)orm reshape for tensor = ;
+- (id)MLC error during execution.;
+- (id)nput & output to be both static or both dynamic.;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)NSDate",&,V_lastScored;
 - (void)initWithAccount:termsEntries:preferPassword: /* Error: Ran out of types for this method. */;
 - (id)Óû½»pUdêÛ¼Úøã V&²Y©l#Þé×yj1ÊíËm"}¿ÕÇH¥ÔoJÐg.?«9¨bEk[ ùµôr¶´Ü/ï(3\ó£MÌhSònTå!Ñ@%Îñü4|æú¯á,a8WÿÍÃsçZ¶u­Té¿Ì1%;
 
 // Remaining properties
 @property(nonatomic) _Bool CLIMode; // @synthesize CLIMode=_CLIMode;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *custodianRecoveryToken; // @synthesize custodianRecoveryToken=_custodianRecoveryToken;
-@property(copy, nonatomic) NSUUID *custodianUUID; // @synthesize custodianUUID=_custodianUUID;
-@property(nonatomic, getter=isDataOnlyRecovery) _Bool dataOnlyRecovery; // @synthesize dataOnlyRecovery=_dataOnlyRecovery;
-@property(nonatomic) _Bool isAccountRecovery; // @synthesize isAccountRecovery=_isAccountRecovery;
-@property(copy, nonatomic) NSString *ownerAppleID; // @synthesize ownerAppleID=_ownerAppleID;
-@property(copy, nonatomic) NSString *recordBuildVersion; // @synthesize recordBuildVersion=_recordBuildVersion;
-@property(copy, nonatomic) NSString *recoveryCode; // @synthesize recoveryCode=_recoveryCode;
-@property(copy, nonatomic) NSString *recoverySessionID; // @synthesize recoverySessionID=_recoverySessionID;
-@property(copy, nonatomic) NSString *telemetryFlowID; // @synthesize telemetryFlowID=_telemetryFlowID;
 
 @end
 

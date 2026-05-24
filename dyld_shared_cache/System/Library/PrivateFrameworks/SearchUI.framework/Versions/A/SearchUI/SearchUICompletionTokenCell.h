@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont, NSImage, NSSearchField;
+@class NSImage;
 
 @interface SearchUICompletionTokenCell
 {
     _Bool _useClearToken;
-    _Bool _showsImagePlaceholder;
-    NSImage *_tokenImage;
-    NSFont *_tokenFont;
-    NSSearchField *_searchField;
 }
 
 + (double);
-+ (double);
-+ (double);
++ (double)available;
++ (double)erializedTask) + (sizeof(SASerializedIndex) * (serializedTask->numRootUserFrames + serializedTask->numImageInfos + serializedTask->numTaskStates + serializedTask->numThreads + serializedTask->numDispatchQueues));
 + (double);
 - (_Bool);
 - (struct CGSize);
@@ -29,16 +25,16 @@
 - (struct CGSize);
 - (double);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)l;
 - (void);
 - (struct CGSize);
 - (struct CGRect);
-- (id);
+- (id)failed. Informing server.;
 - (void);
 - (id);
 - (void);
@@ -47,11 +43,7 @@
 × ;
 
 // Remaining properties
-@property __weak NSSearchField *searchField; // @synthesize searchField=_searchField;
-@property _Bool showsImagePlaceholder; // @synthesize showsImagePlaceholder=_showsImagePlaceholder;
-@property(retain) NSFont *tokenFont; // @synthesize tokenFont=_tokenFont;
 @property(retain) NSImage *tokenImage; // @synthesize tokenImage=_tokenImage;
-@property _Bool useClearToken; // @synthesize useClearToken=_useClearToken;
 
 @end
 

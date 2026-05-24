@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (id)teListProperties:(struct CGRect)arg1;
+- (_Bool)e is no SQL cache DB located at %@.;
+- (id)setCandidateListProperties:(struct CGRect)arg1;
 
 @end
 

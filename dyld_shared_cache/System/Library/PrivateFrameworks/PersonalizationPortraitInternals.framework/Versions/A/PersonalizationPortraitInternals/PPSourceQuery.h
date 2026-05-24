@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
-
 @interface PPSourceQuery
 {
     unsigned long long _limit;
-    NSDate *_fromDate;
-    NSDate *_toDate;
-    NSSet *_matchingBundleIds;
-    NSSet *_matchingDocumentIds;
-    NSString *_matchingContactHandle;
 }
 
 + (_Bool);
@@ -21,14 +14,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)(0;
+- (id)\;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)AMFDRDataMultiPatchWithOptions;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -37,15 +30,10 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id)ss: /* Error: Ran out of types for this method. */;
+- (id)deleteFeedbackCountRecordsOlderThanDate:txnWitness: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *fromDate; // @synthesize fromDate=_fromDate;
 @property(nonatomic) unsigned long long limit; // @synthesize limit=_limit;
-@property(retain, nonatomic) NSSet *matchingBundleIds; // @synthesize matchingBundleIds=_matchingBundleIds;
-@property(retain, nonatomic) NSString *matchingContactHandle; // @synthesize matchingContactHandle=_matchingContactHandle;
-@property(retain, nonatomic) NSSet *matchingDocumentIds; // @synthesize matchingDocumentIds=_matchingDocumentIds;
-@property(retain, nonatomic) NSDate *toDate; // @synthesize toDate=_toDate;
 
 @end
 

@@ -7,13 +7,11 @@
 @interface CLFindMyAccessoryAccelerometerSlopeModeConfiguration
 {
     unsigned char _sampleCount;
-    unsigned char _sampleRate;
-    float _threshold;
 }
 
 + (float);
 + (unsigned char);
-+ (float);
++ (float);
 + (unsigned char);
 + (_Bool);
 - (void);
@@ -27,8 +25,6 @@
 - (float)LClientInterruptionHandler;
 
 // Remaining properties
-@property(nonatomic) unsigned char sampleCount; // @synthesize sampleCount=_sampleCount;
-@property(nonatomic) unsigned char sampleRate; // @synthesize sampleRate=_sampleRate;
 @property(nonatomic) float threshold; // @synthesize threshold=_threshold;
 
 @end

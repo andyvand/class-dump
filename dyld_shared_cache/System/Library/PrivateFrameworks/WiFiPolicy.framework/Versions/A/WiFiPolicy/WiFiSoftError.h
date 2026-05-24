@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableString, NSNumber, NSString, SDRDiagnosticReporter;
+@class NSString;
 
 @interface WiFiSoftError
 {
     _Bool _isRecommendedPriority;
-    long long _maxOccurrences;
-    long long _metricSubmissionSamplingRate;
-    long long _maxNonUIActions;
-    long long _intervalForMaxNonUIActions;
-    long long _maxUIActions;
-    long long _intervalForMaxUIActions;
-    long long _maxLogMessageLength;
-    NSString *_name;
-    long long _enabled;
-    long long _metricsEnabled;
-    double _creationDate;
-    NSMutableArray *_occurrenceTimestamps;
-    NSNumber *_lastTimestamp;
-    NSMutableString *_logMessage;
-    NSString *_metricEventName;
-    SDRDiagnosticReporter *_abcReporter;
-    NSMutableArray *_abcSubmissionTimestamps;
-    NSMutableArray *_simulateCrashTimestamps;
-    NSMutableArray *_hudTimestamps;
-    NSMutableArray *_askToLaunchTapToRadarTimestamps;
-    NSMutableArray *_tapToRadarTimestamps;
 }
 
 + (void);
@@ -46,7 +25,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)0:8@16@24@32@40@48@?56 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -54,18 +33,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (void)initWithAllowedRequestPrefixes:(id)arg1 operationPrefix: /* Error: Ran out of types for this method. */;
+- (long long)tructord transport;
 - (_Bool);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (long long);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (_Bool);
@@ -85,12 +64,13 @@
 - (void);
 - (id);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
+- (void)FigEndpointDisableBluetoothConnectivityToDevice;
+- (void)moteControlSession_sendTeardownRequest(FigEndpointRemoteControlSessionRef);
+- (void)ef);
+- (void)OSStatus audioHoseManagerBuffered_hoseSetRateAndAnchorTimeCallbackCompletionHandler(APSEndpointStreamAudioHoseRef, uint32_t, APSAudioTransportTime, APSNetworkTime, APSAudioTransportTime, APSNetworkTime, OSStatus, void *);
+- (id)endpointAggregate_registerSubEndpointAggregateStreamMembership;
+- (long long)r}] %s[0x%04X] Playback started, forward set rate 1 to hoses. 
+;
 - (_Bool);
 - (id);
 - (id);
@@ -106,28 +86,7 @@
 - (void)criptionContext"16@"NSString"24;
 
 // Remaining properties
-@property(retain, nonatomic) SDRDiagnosticReporter *abcReporter; // @synthesize abcReporter=_abcReporter;
-@property(retain, nonatomic) NSMutableArray *abcSubmissionTimestamps; // @synthesize abcSubmissionTimestamps=_abcSubmissionTimestamps;
-@property(retain, nonatomic) NSMutableArray *askToLaunchTapToRadarTimestamps; // @synthesize askToLaunchTapToRadarTimestamps=_askToLaunchTapToRadarTimestamps;
-@property(nonatomic) double creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) long long enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSMutableArray *hudTimestamps; // @synthesize hudTimestamps=_hudTimestamps;
-@property(readonly, nonatomic) long long intervalForMaxNonUIActions; // @synthesize intervalForMaxNonUIActions=_intervalForMaxNonUIActions;
-@property(readonly, nonatomic) long long intervalForMaxUIActions; // @synthesize intervalForMaxUIActions=_intervalForMaxUIActions;
-@property(readonly, nonatomic) _Bool isRecommendedPriority; // @synthesize isRecommendedPriority=_isRecommendedPriority;
-@property(retain, nonatomic) NSNumber *lastTimestamp; // @synthesize lastTimestamp=_lastTimestamp;
-@property(retain, nonatomic) NSMutableString *logMessage; // @synthesize logMessage=_logMessage;
-@property(readonly, nonatomic) long long maxLogMessageLength; // @synthesize maxLogMessageLength=_maxLogMessageLength;
-@property(readonly, nonatomic) long long maxNonUIActions; // @synthesize maxNonUIActions=_maxNonUIActions;
-@property(readonly, nonatomic) long long maxOccurrences; // @synthesize maxOccurrences=_maxOccurrences;
-@property(readonly, nonatomic) long long maxUIActions; // @synthesize maxUIActions=_maxUIActions;
-@property(retain, nonatomic) NSString *metricEventName; // @synthesize metricEventName=_metricEventName;
-@property(readonly, nonatomic) long long metricSubmissionSamplingRate; // @synthesize metricSubmissionSamplingRate=_metricSubmissionSamplingRate;
-@property(nonatomic) long long metricsEnabled; // @synthesize metricsEnabled=_metricsEnabled;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSMutableArray *occurrenceTimestamps; // @synthesize occurrenceTimestamps=_occurrenceTimestamps;
-@property(retain, nonatomic) NSMutableArray *simulateCrashTimestamps; // @synthesize simulateCrashTimestamps=_simulateCrashTimestamps;
-@property(retain, nonatomic) NSMutableArray *tapToRadarTimestamps; // @synthesize tapToRadarTimestamps=_tapToRadarTimestamps;
 
 @end
 

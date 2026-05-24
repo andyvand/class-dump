@@ -7,11 +7,6 @@
 @interface TeaCharts.LineChartRenderer
 {
     id imageLoader;
-    id styler;
-    id zoneMaskProvider;
-    id animationSynchronizer;
-    id reuseProtector;
-    id accessibilityElementProvider;
 }
 
 @end

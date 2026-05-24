@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, MKModernControlAppearanceHelper, NSButton, NSImageView, NSString, NSView;
+@class MKModernControlAppearanceHelper;
 
 @interface MKZoomControl
 {
     MKModernControlAppearanceHelper *_appearanceHelper;
-    int _zoomState;
-    NSImageView *_minusImageView;
-    NSImageView *_plusImageView;
-    NSButton *_minusButton;
-    NSButton *_plusButton;
-    _Bool _userInteractionEnabled;
-    NSView *_effectiveAppearanceObserved;
-    _Bool _hovering;
-    MKMapView *_mapView;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)setInterruptionHandler:(id)arg1;
+- (void)setInternalHUDEnabled:(id)arg1;
+- (void)ng up XPC service;
 - (id);
 - (_Bool);
-- (void);
+- (void)performDeleteRequest:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (struct CGSize);
@@ -35,23 +26,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)st score = %{public}f for channel = %{public}tu;
 - (void);
-- (void)legate: /* Error: Ran out of types for this method. */;
-- (id)rimentId;
+- (void)setAnalyticsDelegate: /* Error: Ran out of types for this method. */;
+- (id)experimentId;
 - (void),V_location;
 - (void)elegate>",R,N;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hovering; // @synthesize hovering=_hovering;
-@property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(readonly) Class superclass;
 @property(nonatomic) _Bool userInteractionEnabled;
 
 @end

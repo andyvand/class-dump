@@ -4,42 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSOperationQueue, NSString, NSTextAttachment, NSTimer, PKDrawing, PKImageRenderer, PKLinedPaper, PKMacLinedPaperView;
-
 @interface PKTextAttachmentDrawingView
 {
     _Bool _currentModeIsDarkMode;
-    NSTextAttachment *_textAttachment;
-    PKLinedPaper *_linedPaper;
-    NSOperationQueue *_renderTileQueue;
-    NSTimer *_redrawTimer;
-    PKImageRenderer *_tileRenderer;
-    PKMacLinedPaperView *_linedPaperView;
-    PKDrawing *_drawing;
-    NSImage *_liveResizeImage;
-    struct CGSize _currentImageSize;
-    struct CGRect _liveResizeImageDrawingFrame;
 }
 
 
 // Remaining properties
 @property(nonatomic) struct CGSize currentImageSize; // @synthesize currentImageSize=_currentImageSize;
-@property(nonatomic) _Bool currentModeIsDarkMode; // @synthesize currentModeIsDarkMode=_currentModeIsDarkMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKLinedPaper *linedPaper; // @synthesize linedPaper=_linedPaper;
-@property(retain, nonatomic) PKMacLinedPaperView *linedPaperView; // @synthesize linedPaperView=_linedPaperView;
-@property(retain, nonatomic) NSImage *liveResizeImage; // @synthesize liveResizeImage=_liveResizeImage;
-@property(nonatomic) struct CGRect liveResizeImageDrawingFrame; // @synthesize liveResizeImageDrawingFrame=_liveResizeImageDrawingFrame;
-@property(retain, nonatomic) NSTimer *redrawTimer; // @synthesize redrawTimer=_redrawTimer;
-@property(retain, nonatomic) NSOperationQueue *renderTileQueue; // @synthesize renderTileQueue=_renderTileQueue;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSTextAttachment *textAttachment; // @synthesize textAttachment=_textAttachment;
-@property(retain, nonatomic) PKImageRenderer *tileRenderer; // @synthesize tileRenderer=_tileRenderer;
 @end
 

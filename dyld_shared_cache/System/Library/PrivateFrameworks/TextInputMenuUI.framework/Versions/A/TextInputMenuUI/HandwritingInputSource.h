@@ -6,7 +6,7 @@
 
 #import <TextInputMenuUI/CPInputSource.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface HandwritingInputSource : CPInputSource
 {
@@ -22,11 +22,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(retain) NSArray *enabledLanguages;
-@property(retain) NSString *selectedLanguage;
 @property(readonly, retain) NSArray *supportedLanguages;
 
 @end

@@ -11,7 +11,6 @@
 @interface REMSmartListSectionsDataViewInvocation_fetchByReminderID : REMStoreInvocation
 {
     REMObjectID *_reminderID;
-    REMObjectID *_smartListID;
 }
 
 + (_Bool);
@@ -19,16 +18,15 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)t;;
 - (_Bool);
-- (void);
+- (void))!;
 - (id);
 - (void)Ñr °1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) REMObjectID *reminderID; // @synthesize reminderID=_reminderID;
-@property(readonly, nonatomic) REMObjectID *smartListID; // @synthesize smartListID=_smartListID;
 
 @end
 

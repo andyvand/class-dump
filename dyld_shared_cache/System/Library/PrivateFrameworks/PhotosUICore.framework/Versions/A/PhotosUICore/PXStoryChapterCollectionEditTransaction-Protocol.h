@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol PXStoryChapterCollection;
 
 @protocol PXStoryChapterCollectionEditTransaction
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *edits;
 @property(readonly, nonatomic) id <PXStoryChapterCollection> originalChapterCollection;
 @end
 

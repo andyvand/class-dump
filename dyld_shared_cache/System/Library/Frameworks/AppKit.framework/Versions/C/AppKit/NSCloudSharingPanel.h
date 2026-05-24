@@ -4,62 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString, NSURL;
+@class NSURL;
 @protocol NSCloudSharingPanelDelegate;
 
 @interface NSCloudSharingPanel
 {
     NSURL *_ubiquitousDocumentURL;
-    id _delegate;
-    NSImage *_thumbnailImage;
-    NSString *_helpAnchor;
-    NSString *_messageTemplate1;
-    NSString *_messageTemplate2;
-    NSString *_message3;
-    NSString *_message4;
-    NSString *_shareButtonLabel;
-    _Bool _documentHasPassword;
-    NSArray *_servicesToCustomize;
 }
 
-+ (id);
++ (id)FXURLCache that isn't a true CFURLCache;
+- (id)ss;
+- (id);
+- (id)kA;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)set_timeWindowDuration: /* Error: Ran out of types for this method. */;
+- (id)set_timeWindowDelay: /* Error: Ran out of types for this method. */;
+- (_Bool)credentials not present, querying AuthBrokerAgent with uuid %@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (void)2sU;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)zj{8_;
 
 // Remaining properties
 @property id <NSCloudSharingPanelDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool documentHasPassword; // @synthesize documentHasPassword=_documentHasPassword;
-@property(copy) NSString *helpAnchor; // @synthesize helpAnchor=_helpAnchor;
-@property(copy) NSString *primaryMessageTemplate; // @synthesize primaryMessageTemplate=_messageTemplate1;
-@property(copy) NSString *primaryMessageTemplateForSharedDocument; // @synthesize primaryMessageTemplateForSharedDocument=_messageTemplate2;
-@property(copy) NSString *secondaryMessage; // @synthesize secondaryMessage=_message3;
-@property(copy) NSString *secondaryMessageForSharedDocument; // @synthesize secondaryMessageForSharedDocument=_message4;
-@property(copy) NSArray *servicesToCustomize; // @synthesize servicesToCustomize=_servicesToCustomize;
-@property(copy) NSString *shareButtonLabel; // @synthesize shareButtonLabel=_shareButtonLabel;
-@property(retain) NSImage *thumbnailImage; // @synthesize thumbnailImage=_thumbnailImage;
-@property(copy) NSURL *ubiquitousDocumentURL; // @synthesize ubiquitousDocumentURL=_ubiquitousDocumentURL;
 
 @end
 

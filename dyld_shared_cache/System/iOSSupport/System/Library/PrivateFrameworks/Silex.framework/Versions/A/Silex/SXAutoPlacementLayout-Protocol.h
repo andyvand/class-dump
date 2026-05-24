@@ -7,7 +7,7 @@
 @protocol SXEdgeSpacing;
 
 @protocol SXAutoPlacementLayout
-- (id <SXEdgeSpacing>);
+- (id <SXEdgeSpacing>)SXTextStroke;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXEdgeSpacing> margin;

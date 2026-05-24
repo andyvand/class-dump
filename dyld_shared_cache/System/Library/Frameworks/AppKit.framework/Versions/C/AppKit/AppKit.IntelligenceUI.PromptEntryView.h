@@ -9,44 +9,15 @@
 @interface AppKit.IntelligenceUI.PromptEntryView : NSView
 {
     id delegate;
-    id suggestionsDelegate;
-    id wrappedSuggestionsDelegate;
-    id controlSize;
-    id textField;
-    id visibleLineLimit;
-    id accessoryView;
-    id leadingImage;
-    id backgroundConfiguration;
-    id characterLimit;
-    id trailingButton;
-    id overrideLeadingImage;
-    id leadingImageContainerView;
-    id backgroundView;
-    id ambiguitiesByID;
-    id needsStyleUpdate;
-    id textDidChangeObserver;
-    id linesOfTextObserver;
-    id isInKeyWindow;
-    id windowDidBecomeKeyNotificationObserver;
-    id windowDidResignKeyNotificationObserver;
-    id entryContainerView;
-    id scrollView;
-    id glassView;
-    id disambiguationMenuIsOpen;
-    id isCallingTextFieldDidSelectSuggestionItem;
-    id textFieldLeadingConstraint;
-    id textFieldTrailingConstraint;
-    id leadingImageContainerViewCenterXConstraint;
-    id leadingImageContainerViewCenterYConstraint;
 }
 
-- (id);
+- (id)& _timeout == 0.0 && _cb == nullptr;
 - (void);
-- (id);
+- (id){;
 - (void);
 - (void);
 - (void);
-- (id)s;
+- (id)_startPredownloadingNonLocalVersions;
 - (void);
 - (void)«E;
 

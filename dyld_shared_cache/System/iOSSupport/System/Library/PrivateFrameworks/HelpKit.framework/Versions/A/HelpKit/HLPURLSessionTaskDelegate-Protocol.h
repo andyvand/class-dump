@@ -5,5 +5,6 @@
 //
 
 @protocol HLPURLSessionTaskDelegate
+- (void);
 @end
 

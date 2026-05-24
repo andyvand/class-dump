@@ -14,21 +14,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)4;
+- (void)setPersonalNickname:(id)arg1 oldRecordID:(id)arg2 completionBlockWithWallpaperAndRecipeDataTags: /* Error: Ran out of types for this method. */;
+- (void)setPersonalNickname:(id)arg1;
+- (void)_calculateHandlersForLocalMessage:(id)arg1 userInfo:(id)arg2 completionBlock:(CDUnknownBlockType)arg3;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)@:(id)arg1 @;
+- (void)@;
+- (void)kSwitchCompleted %@;
+- (void)tion:(id)arg1 %@;
+- (id)version to %@;
+- (id)nerated mapping from %@ to %@;
+- (id)e is not supported;
+- (id)BmDmFmP ;
+- (id)MPModelRelationshipTVSeasonRepresentativeEpisode;
 - (void);
 - (id);
 

@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContainerPermissions, CNProviderMetadata, NSData, NSDate, NSString;
+@class NSString;
 
 @interface CNContainer
 {
     NSString *_identifier;
-    NSString *_name;
-    long long _type;
-    int _iOSLegacyIdentifier;
-    NSString *_accountIdentifier;
-    _Bool _enabled;
-    CNContainerPermissions *_permissions;
-    NSString *_externalIdentifier;
-    NSString *_externalModificationTag;
-    NSString *_externalSyncTag;
-    NSData *_externalSyncData;
-    NSString *_constraintsPath;
-    NSString *_meIdentifier;
-    unsigned long long _restrictions;
-    CNContainer *_snapshot;
-    _Bool _guardianRestricted;
-    _Bool _guardianStateDirty;
-    NSDate *_lastSyncDate;
-    NSString *_providerIdentifier;
-    CNProviderMetadata *_providerMetadata;
 }
 
 + (id);
@@ -44,9 +25,9 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)Err=%d outContainerIOEntry=%d=0x%x;
++ (id)overrideDisableInternalBuild;
 + (id);
 + (_Bool);
 + (id);
@@ -65,7 +46,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)nating transaction;
 - (id);
 - (id);
 - (id);
@@ -74,14 +55,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)e;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)tion;
+- (id));
 - (id);
 - (id);
 - (void);

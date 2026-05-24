@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, PBItemCollection;
+
 @protocol _UIDruidSourceConnection
+- (void (^)(NSIndexSet *, void (^)(NSArray *, BKSAnimationFenceHandle *)))USupport.framework/Versions/A/Libraries/libGPUSupportMercury.dylib;
+- (void);
+- (void)canonicalFormOfID:(NSArray *)arg1 withIDSensitivity: /* Error: Ran out of types for this method. */;
+- (PBItemCollection *);
 - (_Bool)-[UIBannerAction _initWithBannerContent:responseHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType canHandOffCancelledItemsBlock;
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(copy, nonatomic) CDUnknownBlockType dataTransferFinishedBlock;
-@property(copy, nonatomic) CDUnknownBlockType dragCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType dragPreviewProviderBlock;
-@property(copy, nonatomic) CDUnknownBlockType handOffCancelledItemsBlock;
-@property(copy, nonatomic) CDUnknownBlockType updatedPresentationBlock;
 @end
 

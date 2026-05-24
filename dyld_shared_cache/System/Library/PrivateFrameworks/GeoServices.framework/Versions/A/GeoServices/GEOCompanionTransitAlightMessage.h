@@ -4,54 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOPBTransitArtwork, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOCompanionTransitAlightMessage
 {
     PBDataReader *_reader;
-    GEOPBTransitArtwork *_artwork;
-    GEOFormattedString *_detail;
-    NSString *_identifier;
-    GEOFormattedString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _stepID;
-    unsigned int _stopID;
-    struct {
-        unsigned int has_stepID:1;
-        unsigned int has_stopID:1;
-        unsigned int read_artwork:1;
-        unsigned int read_detail:1;
-        unsigned int read_identifier:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)lineMetadataIndex:(id)arg1;
++ (_Bool)setHasOfflineMetadataIndex:(id)arg1;
 - (unsigned int);
 - (unsigned int);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool)heduler>",R,V_scheduler;
+- (_Bool)_TtC18ContactsFoundation15CNDataEncryptor;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ror:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)jarvisAudioLogDirectory;
+- (id)f Threshold:%.3f DeltaTime:%lu /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)stalt.dylib;
+- (_Bool)Stores_Action_Row;
 - (_Bool);
 - (id);
 - (void);
@@ -60,28 +42,17 @@
 - (void)!ÌFùQ¹*1Â0@ù
 × ;
 - (void);
-- (id)etAddressResults:(struct _NSZone *)arg1;
+- (id)setAddressResults:(struct _NSZone *)arg1;
 - (id)pÏDÐ8ÑÒ;
 - (id)faulting to beginning of route.;
 - (id)eadAllFrom can only be called once per object;
-- (_Bool)netarium;
+- (_Bool)GEOPOICategoryPlanetarium;
 - (id);
 - (id);
 - (void)Ìcçþ;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPBTransitArtwork *artwork;
-@property(retain, nonatomic) GEOFormattedString *detail;
-@property(readonly, nonatomic) _Bool hasArtwork;
-@property(readonly, nonatomic) _Bool hasDetail;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasStepID;
-@property(nonatomic) _Bool hasStopID;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) NSString *identifier;
-@property(nonatomic) unsigned int stepID;
-@property(nonatomic) unsigned int stopID;
-@property(retain, nonatomic) GEOFormattedString *title;
 
 @end
 

@@ -4,32 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTerritoryDataPolygon, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOTerritoryDataTerritoryInfo
 {
     PBDataReader *_reader;
-    CDStruct_9f2792e4 _interestedPartys;
-    CDStruct_95bda58d _territoryTypes;
-    unsigned long long _featureId;
-    NSString *_interestedPartyCountryCode;
-    NSString *_name;
-    GEOTerritoryDataPolygon *_polygon;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _nameId;
-    struct {
-        unsigned int has_featureId:1;
-        unsigned int has_nameId:1;
-        unsigned int read_interestedPartys:1;
-        unsigned int read_territoryTypes:1;
-        unsigned int read_interestedPartyCountryCode:1;
-        unsigned int read_name:1;
-        unsigned int read_polygon:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
@@ -42,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)etId"b1"has_currentlySaved"b1"read_unknownFields"b1"read_collectionIds"b1"read_collectionCategory"b1"wrote_anyField"b1};
 - (id)hasPoiBusynessActivityCollectionURL;
-- (id)OPDSearchTokenSet;
+- (id)GEOPDSearchTokenSet;
 - (void):Yj½ß0Q@ /* Error: Ran out of types for this method. */;
 
 @end

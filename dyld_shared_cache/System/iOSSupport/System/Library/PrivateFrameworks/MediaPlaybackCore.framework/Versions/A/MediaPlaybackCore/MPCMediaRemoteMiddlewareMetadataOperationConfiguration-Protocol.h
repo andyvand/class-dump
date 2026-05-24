@@ -7,16 +7,13 @@
 @class MPCPlayerPath, MPPropertySet, NSString;
 
 @protocol MPCMediaRemoteMiddlewareMetadataOperationConfiguration
+- (MPPropertySet *);
+- (MPPropertySet *)4@0:8:16 /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPCPlayerPath *playerPath;
-@property(readonly, nonatomic) MPPropertySet *playingItemProperties;
-@property(readonly, nonatomic) NSString *preferredFallbackItemRelationship;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) MPPropertySet *queueItemProperties;
-@property(readonly, nonatomic) MPPropertySet *queueSectionProperties;
-@property(readonly) CDStruct_339ad95e tracklistRange;
 @end
 

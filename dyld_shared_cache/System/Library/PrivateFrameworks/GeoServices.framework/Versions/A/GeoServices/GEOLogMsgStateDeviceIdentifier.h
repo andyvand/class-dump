@@ -4,61 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateDeviceIdentifier
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_deviceHwIdentifier;
-    NSString *_deviceOsVersion;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _deviceDarkMode;
-    _Bool _isInternalInstall;
-    _Bool _isInternalTool;
-    struct {
-        unsigned int has_deviceDarkMode:1;
-        unsigned int has_isInternalInstall:1;
-        unsigned int has_isInternalTool:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_deviceHwIdentifier:1;
-        unsigned int read_deviceOsVersion:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)isherResults:(id)arg1;
++ (_Bool)setHasSupportAutocompletePublisherResults:(id)arg1;
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)oprovider;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
+- (void)hB;
+- (void)cancelPreviousPerformRequestsWithTarget:(id)arg1 selector:object: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)_MKLineHeaderModel",&,N,V_secondaryNameLine;
 - (_Bool);
 - (id);
 - (void);
 - (void)ount}}16@0:(_Bool)arg1 8;
-- (id)tepIndexOfStepWithID:(struct _NSZone *)arg1;
+- (id)stepIndexOfStepWithID:(struct _NSZone *)arg1;
 - (_Bool)setHasUserPreferredTransportType: /* Error: Ran out of types for this method. */;
-- (void)rpolationParameter;
+- (void)_interpolationParameter;
 - (id)archQuery;
 - (id);
 - (void)AND key_b == @key_b AND key_c == @key_c AND key_d == @key_d;;
 - (_Bool);
 - (id)Ü	;
-- (_Bool)8;
+- (_Bool)88;
 - (_Bool)¸;
 - (_Bool)È";
 - (void)ÿÿÿÿÿÿÿÿ°;
@@ -68,17 +50,7 @@
 - (_Bool)kU9{: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool deviceDarkMode;
-@property(retain, nonatomic) NSString *deviceHwIdentifier;
-@property(retain, nonatomic) NSString *deviceOsVersion;
-@property(nonatomic) _Bool hasDeviceDarkMode;
-@property(readonly, nonatomic) _Bool hasDeviceHwIdentifier;
 @property(readonly, nonatomic) _Bool hasDeviceOsVersion;
-@property(nonatomic) _Bool hasIsInternalInstall;
-@property(nonatomic) _Bool hasIsInternalTool;
-@property(nonatomic) _Bool isInternalInstall;
-@property(nonatomic) _Bool isInternalTool;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMDueDateDeltaAlert, REMReminder;
+@class REMReminder;
 
 @interface REMReminderDueDateDeltaAlertContext
 {
@@ -20,8 +20,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *dueDateDeltaAlerts;
-@property(readonly, nonatomic) REMDueDateDeltaAlert *fetchedCurrentDueDateDeltaAlert;
 @property(retain, nonatomic) REMReminder *reminder; // @synthesize reminder=_reminder;
 
 @end

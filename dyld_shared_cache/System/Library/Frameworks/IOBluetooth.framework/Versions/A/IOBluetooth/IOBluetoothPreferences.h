@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSUserDefaults;
+@class NSUserDefaults;
 
 @interface IOBluetoothPreferences
 {
@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -54,7 +54,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -63,7 +63,7 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int);
 - (_Bool);
 - (id);
 - (int);
@@ -83,48 +83,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)�;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *BRPairedDevices;
-@property(readonly) NSArray *LEPairedDevices;
-@property(readonly) NSArray *MagicCloudPairedDevices;
-@property int OBEXBrowseConnectionHandling;
-@property(copy) NSString *OBEXBrowseRootDirectory;
-@property _Bool OBEXFTPRequiresPairing;
-@property int OBEXFileHandling;
-@property _Bool OBEXFileTransferAllowsDelete;
-@property _Bool OBEXObjectPushRequiresPairing;
-@property unsigned int OBEXOtherDataDisposition;
-@property(copy) NSString *OBEXPushDestinationDirectory;
-@property _Bool autoSeekKeyboard;
-@property _Bool autoSeekPointingDevice;
-@property(readonly) NSArray *configuredDevices;
-@property(readonly) NSDictionary *deviceAccessTimes;
-@property(readonly) NSDictionary *deviceCache;
-@property(readonly) _Bool disableUIServerLegacyPairingConfirmation;
-@property(readonly) _Bool disableUIServerSSPConfirmation;
-@property(readonly) NSArray *disallowRoleSwitchDevices;
-@property _Bool discoverable;
-@property(readonly) NSArray *fastConnectReadyDevices;
-@property(readonly) NSArray *favoriteDevices;
-@property _Bool fileTransferServicesEnabled;
-@property(readonly) NSArray *hidDevices;
-@property(readonly) NSArray *idsPairedDevices;
-@property(readonly) NSArray *idsPairedDevicesForUser;
-@property _Bool isLocked;
-@property(readonly) _Bool isServer;
-@property(readonly) NSArray *launchableApplications;
-@property _Bool loggingEnabled;
-@property(readonly) NSArray *pairedDevices;
-@property(readonly) NSArray *panDevices;
-@property _Bool poweredOn;
-@property _Bool remoteWakeEnabled;
-@property(readonly) NSArray *serialDevices;
-@property(readonly) NSArray *usbBluetoothDevices;
 @property _Bool wasUpdated;
 
 @end

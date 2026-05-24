@@ -6,34 +6,31 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CAMSchemaCAMResponse, NSData;
+@class CAMSchemaCAMResponse;
 
 @interface CAMSchemaCAMResponseGenerated : SISchemaInstrumentationMessage
 {
     CAMSchemaCAMResponse *_response;
-    _Bool _hasResponse;
 }
 
 - (void);
-- (void);
-- (id);
+- (void)#;
+- (id)P;
 - (id);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)d JSON incompatible array value of class %@:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (id)ctDeviceSelected"b1"userReportedResponseDeviceDistance"b1"dataCollectionGroup"b1"hasResponseFromMultipleDevices"b1};
-- (id)oFileStorageFailed;
+- (id)ASRSchemaASRSampledAudioFileStorageFailed;
 - (id)hbÿÿbÿÿ bÿÿ¼bÿÿØbÿÿôbÿÿcÿÿ,cÿÿHcÿÿdcÿÿcÿÿcÿÿ¸cÿÿÔcÿÿðcÿÿdÿÿ(dÿÿDdÿÿ`dÿÿ|dÿÿdÿÿ´dÿÿÐdÿÿìdÿÿeÿÿ$eÿÿ@eÿÿ\eÿÿxeÿÿeÿÿ°eÿÿÌeÿÿèeÿÿfÿÿ fÿÿ<fÿÿXfÿÿtfÿÿfÿÿ¬fÿÿÈfÿÿäfÿÿ;
 - (void)4®ÿçó²9t&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasResponse; // @synthesize hasResponse=_hasResponse;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CAMSchemaCAMResponse *response; // @synthesize response=_response;
 
 @end

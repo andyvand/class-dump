@@ -9,18 +9,6 @@
 @interface AppStoreKit.OfferStateAction : AppStoreKit.Action
 {
     id defaultAction;
-    id buyAction;
-    id updateAction;
-    id downloadAction;
-    id purchasedAction;
-    id installedAction;
-    id resumeAction;
-    id openAction;
-    id subscribePageAction;
-    id restrictedAction;
-    id cancelAction;
-    id adamId;
-    id includeBetaApps;
 }
 
 @end

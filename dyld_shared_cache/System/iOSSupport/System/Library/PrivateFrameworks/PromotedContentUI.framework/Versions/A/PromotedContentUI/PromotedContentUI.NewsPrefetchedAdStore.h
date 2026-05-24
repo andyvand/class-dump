@@ -7,8 +7,6 @@
 @interface PromotedContentUI.NewsPrefetchedAdStore
 {
     id storage;
-    id validator;
-    id promotedContentCache;
 }
 
 @end

@@ -10,29 +10,24 @@ __attribute__((visibility("hidden")))
 @interface MKAttributionLabel
 {
     NSAttributedString *_strokeText;
-    NSAttributedString *_innerText;
-    unsigned long long _mapType;
-    _Bool _useDarkText;
-    long long _displayStyle;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
+- (unsigned long long)sions/A/ImageIO;
+- (void)g from daemon;
+- (id);
 - (void)@ù
 × ;
 - (long long)× ;
-- (void)ptions;
+- (void)_placecardOptions;
 - (void)W^	;
 
 // Remaining properties
-@property(nonatomic) long long displayStyle; // @synthesize displayStyle=_displayStyle;
 @property(nonatomic) unsigned long long mapType; // @synthesize mapType=_mapType;
 
 @end

@@ -7,10 +7,6 @@
 @interface PXNewMagazineFrame
 {
     long long _width;
-    long long _height;
-    double _aspectRatio;
-    double _minAspectRatio;
-    double _maxAspectRatio;
 }
 
 - (void);
@@ -21,18 +17,20 @@
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)ute lowp vec4 aColor; varying lowp vec4 vColor 
+		#define ComputeVertex					gl_Position = uModelViewProjectionMatrix * aVertex 
+		#define ComputeTextureCoordinates0		vTextureCoordinates0 = (uTextureMatrix0 * aTextureCoordinates0).st 
+		#define ComputeTextureCoordinates1		vTextureCoordinates1 = (uTextureMatrix1 * aTextureCoordinates1).st 
+		#define ComputeTextureCoordinates2		vTextureCoordinates2 = (uTextureMatrix2 * aTextureCoordinates2).st 
+		#define ComputeInSpriteCoordinates		vInSpriteCoordinates = aInSpriteCoordinates 
+		#define ComputeForeColor				vColor = aColor 
+		;
 - (void);
 - (void);
-- (void)ity;
+- (void)_currentUserActivity;
 - (double)Ü->;
 
 // Remaining properties
-@property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;
-@property(nonatomic) long long height; // @synthesize height=_height;
-@property(nonatomic) double maxAspectRatio; // @synthesize maxAspectRatio=_maxAspectRatio;
-@property(nonatomic) double minAspectRatio; // @synthesize minAspectRatio=_minAspectRatio;
-@property(readonly, nonatomic) long long numberOfTiles;
 @property(nonatomic) long long width; // @synthesize width=_width;
 
 @end

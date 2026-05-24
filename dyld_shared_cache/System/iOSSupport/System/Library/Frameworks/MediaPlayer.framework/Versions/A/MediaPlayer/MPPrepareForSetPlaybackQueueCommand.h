@@ -11,14 +11,13 @@
 @interface MPPrepareForSetPlaybackQueueCommand : MPRemoteCommand
 {
     struct os_unfair_lock_s _lock;
-    NSDictionary *_proactiveCommandOptions;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)yRecordLabelArtwork__MAPPING_MISSING__;
+- (void)__MPModelPropertyRecordLabelArtwork__MAPPING_MISSING__;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *proactiveCommandOptions; // @synthesize proactiveCommandOptions=_proactiveCommandOptions;

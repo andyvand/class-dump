@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICSettingsCloudContextDelegate
 {
 }
 
 - (id);
-- (_Bool);
+- (_Bool)cipal alias supplied;
 - (id);
 - (_Bool);
 - (void);
@@ -22,19 +20,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id).apple.com/content/catalogs/others/index-noticeboard-10.10-noticeboard-10.9-noticeboard.merged-1.sucatalog;
 - (_Bool);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

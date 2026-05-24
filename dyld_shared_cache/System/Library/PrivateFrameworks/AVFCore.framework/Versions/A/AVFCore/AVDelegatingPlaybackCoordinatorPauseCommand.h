@@ -6,28 +6,22 @@
 
 #import <AVFCore/AVDelegatingPlaybackCoordinatorPlaybackControlCommand.h>
 
-@class AVCoordinatedPlaybackParticipant, AVDelegatingPlaybackCoordinator, NSString;
+@class AVDelegatingPlaybackCoordinator;
 
 @interface AVDelegatingPlaybackCoordinatorPauseCommand : AVDelegatingPlaybackCoordinatorPlaybackControlCommand
 {
     AVDelegatingPlaybackCoordinator *_coordinator;
-    AVCoordinatedPlaybackParticipant *_originator;
-    NSString *_expectedCurrentItemIdentifier;
-    long long _commandOrderIndex;
-    _Bool _shouldBufferInAnticipationOfPlayback;
-    float _anticipatedPlaybackRate;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (float);
+- (float)dDe;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) float anticipatedPlaybackRate; // @synthesize anticipatedPlaybackRate=_anticipatedPlaybackRate;
 @property(readonly, nonatomic) _Bool shouldBufferInAnticipationOfPlayback; // @synthesize shouldBufferInAnticipationOfPlayback=_shouldBufferInAnticipationOfPlayback;
 
 @end

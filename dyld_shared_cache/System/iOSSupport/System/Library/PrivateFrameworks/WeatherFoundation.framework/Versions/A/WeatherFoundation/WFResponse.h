@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, NSUUID;
+@class NSUUID;
 
 @interface WFResponse
 {
     NSUUID *_identifier;
-    NSString *_type;
-    NSError *_error;
-    double _executionTime;
 }
 
 + (id);
@@ -29,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
 @property(nonatomic) double executionTime; // @synthesize executionTime=_executionTime;
-@property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSString *type; // @synthesize type=_type;
 
 @end
 

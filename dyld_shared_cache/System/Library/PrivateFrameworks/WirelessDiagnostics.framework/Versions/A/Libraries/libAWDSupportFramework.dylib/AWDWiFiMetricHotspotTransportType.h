@@ -7,15 +7,6 @@
 @interface AWDWiFiMetricHotspotTransportType
 {
     unsigned long long _timestamp;
-    unsigned int _bt;
-    unsigned int _usb;
-    unsigned int _wifi;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int bt:1;
-        unsigned int usb:1;
-        unsigned int wifi:1;
-    } _has;
 }
 
 - (void);
@@ -27,13 +18,13 @@
 - (unsigned int);
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -45,14 +36,7 @@
 - (unsigned int)õÿ}nçX;
 
 // Remaining properties
-@property(nonatomic) unsigned int bt; // @synthesize bt=_bt;
-@property(nonatomic) _Bool hasBt;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasUsb;
 @property(nonatomic) _Bool hasWifi;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int usb; // @synthesize usb=_usb;
-@property(nonatomic) unsigned int wifi; // @synthesize wifi=_wifi;
 
 @end
 

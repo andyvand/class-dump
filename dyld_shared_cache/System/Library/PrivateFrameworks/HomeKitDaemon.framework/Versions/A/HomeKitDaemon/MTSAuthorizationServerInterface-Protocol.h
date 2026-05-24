@@ -5,5 +5,6 @@
 //
 
 @protocol MTSAuthorizationServerInterface
+- (void)MSPSharedTripContactControllerDelegate;
 @end
 

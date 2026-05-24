@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, GEOCountryConfiguration;
-
 @interface MNSuggestedNavigationModeFinder
 {
     _Bool _ignoreDeviceNavigability;
-    unsigned long long _context;
-    GEOComposedRoute *_route;
-    GEOCountryConfiguration *_countryConfiguration;
 }
 
 - (unsigned long long);
@@ -19,20 +14,17 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)IsSearchImplementedModifier;
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)pe (%@), issuing asset type update event;
 - (void);
 - (void)QÐ1Â0@ù
 × ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(retain, nonatomic) GEOCountryConfiguration *countryConfiguration; // @synthesize countryConfiguration=_countryConfiguration;
-@property(nonatomic) _Bool ignoreDeviceNavigability; // @synthesize ignoreDeviceNavigability=_ignoreDeviceNavigability;
-@property(retain, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
 
 @end
 

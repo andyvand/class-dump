@@ -7,14 +7,6 @@
 @interface Network.QUICStreamProtocol.QUICStreamMetadata
 {
     id streamID;
-    id datagramFlowID;
-    id applicationError;
-    id reliableSize;
-    id setApplicationErrorHandler;
-    id quicConnectionMetadata;
-    id usableDatagramFrameSize;
-    id streamType;
-    id systemLock;
 }
 
 @end

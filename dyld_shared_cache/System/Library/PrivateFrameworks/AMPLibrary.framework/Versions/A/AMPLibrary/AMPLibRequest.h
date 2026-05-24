@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMPLibModelKind, NSArray;
+@class AMPLibModelKind;
 
 @interface AMPLibRequest
 {
     _Bool _needsTitledSections;
-    _Bool _needsAlbumIDs;
-    AMPLibModelKind *_libModelItemKind;
-    AMPLibModelKind *_libModelSectionKind;
-    NSArray *_allowedItemIdentifierSets;
-    NSArray *_allowedSectionIdentifierSets;
-    unsigned long long _mediaDomains;
-    unsigned long long _mediaKinds;
-    unsigned long long _deviceCapabilities;
-    NSArray *_scopedContainers;
-    NSArray *_itemSortDescriptors;
-    NSArray *_sectionSortDescriptors;
-    unsigned long long _filteringOptions;
-    NSArray *_itemPropertyFilters;
-    NSArray *_sectionPropertyFilters;
-    struct _NSRange _contentRange;
 }
 
 + (_Bool);
@@ -56,7 +41,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)I;
 - (struct _NSRange);
 - (void);
 - (id);
@@ -65,22 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allowedItemIdentifierSets; // @synthesize allowedItemIdentifierSets=_allowedItemIdentifierSets;
-@property(copy, nonatomic) NSArray *allowedSectionIdentifierSets; // @synthesize allowedSectionIdentifierSets=_allowedSectionIdentifierSets;
-@property(nonatomic) struct _NSRange contentRange; // @synthesize contentRange=_contentRange;
-@property(nonatomic) unsigned long long deviceCapabilities; // @synthesize deviceCapabilities=_deviceCapabilities;
-@property(nonatomic) unsigned long long filteringOptions; // @synthesize filteringOptions=_filteringOptions;
-@property(copy, nonatomic) NSArray *itemPropertyFilters; // @synthesize itemPropertyFilters=_itemPropertyFilters;
-@property(copy, nonatomic) NSArray *itemSortDescriptors; // @synthesize itemSortDescriptors=_itemSortDescriptors;
 @property(retain, nonatomic) AMPLibModelKind *libModelItemKind; // @synthesize libModelItemKind=_libModelItemKind;
-@property(retain, nonatomic) AMPLibModelKind *libModelSectionKind; // @synthesize libModelSectionKind=_libModelSectionKind;
-@property(nonatomic) unsigned long long mediaDomains; // @synthesize mediaDomains=_mediaDomains;
-@property(nonatomic) unsigned long long mediaKinds; // @synthesize mediaKinds=_mediaKinds;
-@property(nonatomic) _Bool needsAlbumIDs; // @synthesize needsAlbumIDs=_needsAlbumIDs;
-@property(nonatomic) _Bool needsTitledSections; // @synthesize needsTitledSections=_needsTitledSections;
-@property(copy, nonatomic) NSArray *scopedContainers; // @synthesize scopedContainers=_scopedContainers;
-@property(copy, nonatomic) NSArray *sectionPropertyFilters; // @synthesize sectionPropertyFilters=_sectionPropertyFilters;
-@property(copy, nonatomic) NSArray *sectionSortDescriptors; // @synthesize sectionSortDescriptors=_sectionSortDescriptors;
 
 @end
 

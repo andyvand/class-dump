@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableSet, NSNumber, NSRecursiveLock, NSRunLoop, NSString, NSThread;
+@class NSRecursiveLock;
 
 @interface CUTWiFiManager
 {
     _Bool _shouldAutoAssociateAsForeground;
-    _Bool _isHostingHotSpot;
-    _Bool _isWifiEnabled;
-    _Bool _isWakeOnWiFiEnabled;
-    _Bool _isWakeOnWiFiSupported;
-    int _linkToken;
-    NSMutableSet *_wiFiAutoAssociationTokens;
-    NSRecursiveLock *_lock;
-    NSHashTable *_delegateMap;
-    NSHashTable *_wowClients;
-    void *_currentNetwork;
-    void *_wifiManager;
-    void *_wifiDevice;
-    void *_dynamicStore;
-    NSThread *_wifiThread;
-    struct __CFRunLoopSource *_runLoopSource;
-    NSRunLoop *_wifiRunLoop;
 }
 
 + (id);
@@ -38,15 +22,15 @@
 - (void);
 - (void);
 - (_Bool);
+- (void *)!#;
+- (_Bool);
+- (void)R;
+- (void);
+- (id)`;
 - (void *);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void *);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)3;
 - (void);
 - (id);
 - (id);
@@ -58,7 +42,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (id);
 - (id);
@@ -68,54 +52,29 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (int);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)), sending %{public}s;
 - (_Bool);
 - (struct __CFRunLoopSource *);
-- (id);
+- (id)3;
 - (void *);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool autoAssociateWiFi;
-@property(nonatomic) _Bool autoAssociateWiFiAsForegroundClient; // @synthesize autoAssociateWiFiAsForegroundClient=_shouldAutoAssociateAsForeground;
-@property(nonatomic) void *currentNetwork; // @synthesize currentNetwork=_currentNetwork;
-@property(readonly, nonatomic) NSString *currentSSID;
-@property(retain, nonatomic) NSHashTable *delegateMap; // @synthesize delegateMap=_delegateMap;
-@property(nonatomic) void *dynamicStore; // @synthesize dynamicStore=_dynamicStore;
-@property(readonly, nonatomic) _Bool isHostingWiFiHotSpot; // @synthesize isHostingWiFiHotSpot=_isHostingHotSpot;
-@property(readonly, nonatomic) _Bool isWiFiAssociated;
-@property(readonly, nonatomic) _Bool isWiFiCaptive;
-@property(readonly, nonatomic) _Bool isWiFiEnabled; // @synthesize isWiFiEnabled=_isWifiEnabled;
-@property(readonly, nonatomic) _Bool isWoWEnabled; // @synthesize isWoWEnabled=_isWakeOnWiFiEnabled;
-@property(readonly, nonatomic) _Bool isWoWSupported; // @synthesize isWoWSupported=_isWakeOnWiFiSupported;
-@property(nonatomic) int linkToken; // @synthesize linkToken=_linkToken;
 @property(retain, nonatomic) NSRecursiveLock *lock; // @synthesize lock=_lock;
-@property(nonatomic) struct __CFRunLoopSource *runLoopSource; // @synthesize runLoopSource=_runLoopSource;
-@property(retain, nonatomic) NSMutableSet *wiFiAutoAssociationTokens; // @synthesize wiFiAutoAssociationTokens=_wiFiAutoAssociationTokens;
-@property(readonly, nonatomic) NSNumber *wiFiScaledRSSI;
-@property(readonly, nonatomic) NSNumber *wiFiScaledRate;
-@property(readonly, nonatomic) NSNumber *wiFiSignalStrength;
-@property(nonatomic) void *wifiDevice; // @synthesize wifiDevice=_wifiDevice;
-@property(nonatomic) void *wifiManager; // @synthesize wifiManager=_wifiManager;
-@property(retain, nonatomic) NSRunLoop *wifiRunLoop; // @synthesize wifiRunLoop=_wifiRunLoop;
-@property(retain, nonatomic) NSThread *wifiThread; // @synthesize wifiThread=_wifiThread;
-@property(readonly, nonatomic) _Bool willTryToAutoAssociateWiFiNetwork;
-@property(readonly, nonatomic) _Bool willTryToSearchForWiFiNetwork;
-@property(retain, nonatomic) NSHashTable *wowClients; // @synthesize wowClients=_wowClients;
 
 @end
 

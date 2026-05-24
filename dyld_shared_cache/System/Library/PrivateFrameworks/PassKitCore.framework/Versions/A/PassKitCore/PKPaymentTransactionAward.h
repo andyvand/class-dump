@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PKTransactionAmount;
+@class NSString;
 
 @interface PKPaymentTransactionAward
 {
     _Bool _hasDeepLink;
-    _Bool _claimExpired;
-    _Bool _redeemExpired;
-    NSString *_identifier;
-    long long _type;
-    NSString *_subtype;
-    long long _order;
-    PKTransactionAmount *_amount;
-    NSString *_localizedAmount;
-    NSString *_awardDescription;
-    NSString *_relevantAccountName;
-    NSDate *_claimExpiryDate;
-    NSDate *_redeemExpiryDate;
-    NSString *_typeString;
 }
 
 + (_Bool)áW"Ð!lEùqî%°1Â0@ù
@@ -30,9 +17,9 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -40,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -51,34 +38,21 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)"clientInitToClientOpenSocketHandler"b1"clientInitToDaemonOpenSocket"b1"clientOpenSocketHandlerToIncomingFirstPacket"b1"connectionInitToIncomingFirstPacket"b1"daemonCompletionHandlerToClientOpenSocketCompletion"b1"daemonCompletionHandlerToIncomingFirstPacket"b1"daemonOpenSocketToDaemonCompletionHandler"b1"timestamp"b1"success"b1};
+- (void)fiRssi;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id)s;
+- (id)hasOutstandingRemoteAssetTasks;
 - (long long)InstantFundsOutFeeSummaryItem",&,N,V_instantFundsOutFeeSummaryItem;
 - (id)V_shinkansenSecondaryDestinationStationString;
-- (void)ceNativeTopUpEnabledKey;
+- (void)PKAppleBalanceNativeTopUpEnabledKey;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) PKTransactionAmount *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *awardDescription; // @synthesize awardDescription=_awardDescription;
-@property(nonatomic) _Bool claimExpired; // @synthesize claimExpired=_claimExpired;
-@property(copy, nonatomic) NSDate *claimExpiryDate; // @synthesize claimExpiryDate=_claimExpiryDate;
-@property(nonatomic) _Bool hasDeepLink; // @synthesize hasDeepLink=_hasDeepLink;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *localizedAmount; // @synthesize localizedAmount=_localizedAmount;
-@property(nonatomic) long long order; // @synthesize order=_order;
-@property(nonatomic) _Bool redeemExpired; // @synthesize redeemExpired=_redeemExpired;
-@property(copy, nonatomic) NSDate *redeemExpiryDate; // @synthesize redeemExpiryDate=_redeemExpiryDate;
-@property(copy, nonatomic) NSString *relevantAccountName; // @synthesize relevantAccountName=_relevantAccountName;
-@property(copy, nonatomic) NSString *subtype; // @synthesize subtype=_subtype;
-@property(nonatomic) long long type; // @synthesize type=_type;
 @property(copy, nonatomic) NSString *typeString; // @synthesize typeString=_typeString;
 
 @end

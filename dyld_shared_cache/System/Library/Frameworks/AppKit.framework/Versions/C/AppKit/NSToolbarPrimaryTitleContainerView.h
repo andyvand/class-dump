@@ -6,31 +6,19 @@
 
 #import <AppKit/NSView.h>
 
-@class NSButton, NSDocumentAutosaveButton, NSLayoutConstraint, NSStackView, NSString, NSTextField, NSThemeDocumentButton, NSWindow, _NSToolbarTitleField;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSToolbarPrimaryTitleContainerView : NSView
 {
     NSWindow *_representedWindow;
-    NSStackView *_primaryTitleStack;
-    _NSToolbarTitleField *_titleTextField;
-    NSThemeDocumentButton *_documentProxyButton;
-    NSDocumentAutosaveButton *_autosaveButton;
-    NSLayoutConstraint *_leadingTitleConstraint;
-    NSLayoutConstraint *_leadingDocumentConstraint;
-    struct {
-        unsigned int isShowingDocumentMenu:1;
-        unsigned int alwaysShowDocumentProxy:1;
-        unsigned int expanded:1;
-    } _flags;
-    _Bool _isShowingDocumentMenu;
 }
 
-+ (id);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
++ (id)error handler called with error %@;
+- (void)iled to initialize Img4 manifest with status:(id)arg1 0x%X;
+- (void)ysConfig3 returned NULL;
+- (id)sc1xQM/7bwlrqLXA;
+- (struct CGRect)x;
 - (_Bool);
 - (void);
 - (void);
@@ -50,44 +38,27 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_conditionalRequirementsChanged:(id)arg1;
+- (void)}@> An error occurred on the xpc connection requesting pending callbacks for the background session:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void)_kTCPKeepAliveParametersInterval;
+- (void)heme = %d};
+- (void)com.apple.CFNetwork-cc-%d-%lld;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
-- (double);
-- (id)me:(struct CGRect)arg1;
+- (struct CGRect)R;
+- (void)u;
+- (double)B;
+- (id)setKnobMaskFrame:(struct CGRect)arg1;
 - (void);
 - (void)À;
 
 // Remaining properties
-@property(readonly) NSDocumentAutosaveButton *autosaveButton; // @synthesize autosaveButton=_autosaveButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSThemeDocumentButton *documentProxyButton; // @synthesize documentProxyButton=_documentProxyButton;
-@property(readonly) double expandedWidth;
-@property(readonly) NSButton *fileButton;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isShowingAutosavePopup;
-@property(readonly) _Bool isShowingDocumentMenu; // @synthesize isShowingDocumentMenu=_isShowingDocumentMenu;
-@property(readonly) struct CGRect mouseHoverSensitiveRect;
 @property __weak NSWindow *representedWindow; // @synthesize representedWindow=_representedWindow;
-@property(readonly) _Bool showsDocumentProxy;
-@property(readonly) Class superclass;
-@property(readonly) struct CGRect titleRect;
-@property(readonly) NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
 
 @end
 

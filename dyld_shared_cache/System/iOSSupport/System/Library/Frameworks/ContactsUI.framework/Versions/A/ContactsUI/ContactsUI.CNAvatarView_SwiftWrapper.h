@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor;
+@class NSArray;
 
 @interface ContactsUI.CNAvatarView_SwiftWrapper
 {
     id model;
-    id singleAvatarView;
-    id snowglobeAvatarView;
-    id listenerWrapper;
-    id showGrayCircle;
-    id contactStore;
-    unsigned long long backgroundStyle;
-    UIColor *borderColor;
-    double borderWidth;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id)xpc_connection_t;
 - (id);
 - (id);
-- (id);
-- (void)Provider:(unsigned long long)arg1;
-- (double)ctImage:didSaveToMeContact: /* Error: Ran out of types for this method. */;
-- (void)owsDeletion;
-- (unsigned long long)adata;
+- (void)zoomWithOptions:(unsigned long long)arg1 sourceViewProvider: /* Error: Ran out of types for this method. */;
+- (double)notifyDelegateWithContactImage:didSaveToMeContact: /* Error: Ran out of types for this method. */;
+- (void)_allowsDeletion;
+- (unsigned long long)LPFileMetadata;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long backgroundStyle; // @synthesize backgroundStyle;
-@property(nonatomic, retain) UIColor *borderColor; // @synthesize borderColor;
-@property(nonatomic) double borderWidth; // @synthesize borderWidth;
 @property(nonatomic, copy) NSArray *contacts;
 
 @end

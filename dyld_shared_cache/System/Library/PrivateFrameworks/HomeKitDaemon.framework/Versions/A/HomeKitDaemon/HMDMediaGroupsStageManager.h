@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaGroupsAggregateData, HMFStagedValue, NSString, NSUUID, NSUserDefaults;
+@class NSUUID;
 @protocol HMDMediaGroupsStageManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupsStageManager
 {
     id <HMDMediaGroupsStageManagerDelegate> _delegate;
-    NSUUID *_identifier;
-    NSUserDefaults *_userDefaults;
-    HMFStagedValue *_stagedAggregateData;
-    HMDMediaGroupsAggregateData *_committedAggregateData;
-    HMDMediaGroupsAggregateData *_lastNotifiedAggregateData;
-    NSUUID *_stagedUnpairedCurrentDestinationControllerIdentifier;
 }
 
 + (id)ùcÿ]yB;
@@ -28,23 +22,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)__objc_data;
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)sydromeReceiverCapabilities;
+- (void)arrayWithCapacity: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)Y286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
 - (_Bool);
 - (id);
 - (void);
@@ -61,21 +55,7 @@ __attribute__((visibility("hidden")))
 - (void).Client;
 
 // Remaining properties
-@property(readonly, copy) HMDMediaGroupsAggregateData *aggregateData;
-@property(retain) HMDMediaGroupsAggregateData *committedAggregateData; // @synthesize committedAggregateData=_committedAggregateData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDMediaGroupsStageManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy) HMDMediaGroupsAggregateData *lastNotifiedAggregateData; // @synthesize lastNotifiedAggregateData=_lastNotifiedAggregateData;
-@property(readonly) HMFStagedValue *stagedAggregateData; // @synthesize stagedAggregateData=_stagedAggregateData;
-@property(retain) NSUUID *stagedUnpairedCurrentDestinationControllerIdentifier; // @synthesize stagedUnpairedCurrentDestinationControllerIdentifier=_stagedUnpairedCurrentDestinationControllerIdentifier;
-@property(readonly) Class superclass;
-@property(readonly) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

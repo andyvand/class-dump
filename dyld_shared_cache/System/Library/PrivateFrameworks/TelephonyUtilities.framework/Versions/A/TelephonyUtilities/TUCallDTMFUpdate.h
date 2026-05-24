@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface TUCallDTMFUpdate
 {
     NSString *_digits;
-    NSUUID *_UUID;
 }
 
 + (_Bool);
@@ -18,14 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (id);
-- (void);
-- (void)idReceiveFirstPreviewFrameFromCameraUniqueID: /* Error: Ran out of types for this method. */;
+- (void)setIncludeSuggestions:(id)arg1;
+- (void)provider:didReceiveFirstPreviewFrameFromCameraUniqueID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(copy, nonatomic) NSString *digits; // @synthesize digits=_digits;
 
 @end

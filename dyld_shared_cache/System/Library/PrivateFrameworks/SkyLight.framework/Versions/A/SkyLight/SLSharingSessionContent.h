@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, SLWindowFilter;
+@class NSDictionary, SLWindowFilter;
 
 @interface SLSharingSessionContent
 {
     SLWindowFilter *_filter;
-    NSNumber *_displayID;
-    NSDictionary *_metaData;
 }
 
-- (id);
-- (id);
+- (id)%@ FROM %@ WHERE %@ = NEW.%@ AND (%@));;
+- (id)eted' property:(id)arg1 %@;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id)4@0:8Q16Q24{CGRect={CGPoint=dd}{CGSize=dd}}32 /* Error: Ran out of types for this method. */;
-- (void)itID;
+- (void)auditID;
 
 // Remaining properties
-@property(retain) NSNumber *displayID; // @synthesize displayID=_displayID;
-@property(retain) SLWindowFilter *filter; // @synthesize filter=_filter;
 @property(retain) NSDictionary *metaData; // @synthesize metaData=_metaData;
 
 @end

@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface _MLCANEConvolutionParameters
 {
     NSDictionary *_convolutionParams;
-    NSDictionary *_biasParams;
-    NSArray *_neuronParams;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)];
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDictionary *biasParams; // @synthesize biasParams=_biasParams;
 @property(readonly, retain, nonatomic) NSDictionary *convolutionParams; // @synthesize convolutionParams=_convolutionParams;
-@property(readonly, retain, nonatomic) NSArray *neuronParams; // @synthesize neuronParams=_neuronParams;
 
 @end
 

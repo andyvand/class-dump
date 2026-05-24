@@ -7,7 +7,6 @@
 @interface NewsFeed.MaxPresentationCountFeaturePromotionEligibilityProvider
 {
     id maxPresentationCount;
-    id presentationArchive;
 }
 
 @end

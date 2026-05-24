@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, UIKBTree, UIKeyboardSliceSet, UIKeyboardTransitionSlice;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface UIKBSplitKeyplaneGenerator
 {
     NSMutableArray *_rows;
-    NSDictionary *_splitLayoutHints;
-    UIKBTree *_sourceKeyboard;
-    UIKBTree *_sourceKeyplane;
-    struct CGSize _splitKeySizeFactor;
-    struct CGSize _keyboardSize;
-    double _leftSideWidestRow;
-    double _rightSideWidestRow;
-    long long _keyboardType;
-    UIKeyboardSliceSet *_sliceSet;
-    UIKeyboardTransitionSlice *_leftSlice;
-    UIKeyboardTransitionSlice *_rightSlice;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)singPipelineComponent> Started processing for Message GUID:%@ /* Error: Ran out of types for this method. */;
+- (void)chment GUID %@, to get message GUID;
+- (id)for Messages:(id)arg1 %@;
+- (id)tNetwork %@;
+- (id)nt;
 - (void);
 - (void);
 - (void);

@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface USOSchemaUSOSpanPropertyTier1 : SISchemaInstrumentationMessage
 {
     NSString *_key;
-    NSString *_valueString;
-    int _valueInt;
-    float _valueFloat;
-    struct {
-        unsigned int valueInt:1;
-        unsigned int valueFloat:1;
-    } _has;
-    _Bool _hasKey;
-    _Bool _hasValueString;
 }
 
 - (int);
@@ -42,28 +33,20 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_peoplePickerController;
 - (id);
-- (_Bool);
+- (_Bool)D error = 39);
 - (id);
 - (id);
 - (id);
-- (id)eStocksCount;
-- (id)rInterpretationIdx;
-- (_Bool)BExperimentAllocation;
+- (id)deleteStocksCount;
+- (id)_originalAsrInterpretationIdx;
+- (_Bool)SISchemaABExperimentAllocation;
 - (void)pÍhÎ;
-- (void)imeInNs;
+- (void)executionTimeInNs;
 
 // Remaining properties
-@property(nonatomic) _Bool hasKey; // @synthesize hasKey=_hasKey;
-@property(nonatomic) _Bool hasValueFloat;
-@property(nonatomic) _Bool hasValueInt;
-@property(nonatomic) _Bool hasValueString; // @synthesize hasValueString=_hasValueString;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) float valueFloat; // @synthesize valueFloat=_valueFloat;
-@property(nonatomic) int valueInt; // @synthesize valueInt=_valueInt;
-@property(copy, nonatomic) NSString *valueString; // @synthesize valueString=_valueString;
 
 @end
 

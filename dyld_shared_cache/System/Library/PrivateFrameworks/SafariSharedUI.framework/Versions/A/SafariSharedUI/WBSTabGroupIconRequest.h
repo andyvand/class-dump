@@ -6,14 +6,11 @@
 
 #import <SafariSharedUI/WBSSiteMetadataRequest.h>
 
-@class NSArray, NSColor, NSString;
-@protocol WBTabProvider;
+@class NSColor, NSString;
 
 @interface WBSTabGroupIconRequest : WBSSiteMetadataRequest
 {
     NSColor *backgroundColor;
-    NSString *_tabGroupUUID;
-    id <WBTabProvider> _tabProvider;
 }
 
 - (id);
@@ -28,19 +25,7 @@
 - (void)ScribbleElement;
 
 // Remaining properties
-@property(readonly, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize sizeForDrawing;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSString *tabGroupUUID; // @synthesize tabGroupUUID=_tabGroupUUID;
-@property(readonly, nonatomic) __weak id <WBTabProvider> tabProvider; // @synthesize tabProvider=_tabProvider;
-@property(readonly, copy, nonatomic) NSArray *tabs;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier;
 
 @end
 

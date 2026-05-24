@@ -8,30 +8,22 @@ __attribute__((visibility("hidden")))
 @interface UIInputSwitcherGestureState
 {
     _Bool _didMoveBeyondThreshold;
-    _Bool _hideSwitcher;
-    double _touchDown;
-    double _lastSeenKeyboardTouchDown;
-    struct CGPoint _firstReferencePoint;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void)heck for incoming message:(double)arg1 %@ in chat:%@ was determined to be %@ /* Error: Ran out of types for this method. */;
+- (void)as a display name and service does not merge display names;
+- (void)apped Cancel, Goodbye!!;
+- (void)lback from fetch archived records;
+- (double)pletion date:%@ error:%@ fetchedExitDateOnLaunch:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)IMDMomentShareManagerErrorDomain;
+- (_Bool)stFromStorage:%@, isFromMe:%@, output messageItems:%lu, hadChat:%@} /* Error: Ran out of types for this method. */;
+- (struct CGPoint)AKAppleIDSecurityLevelHSA2;
 - (_Bool);
-- (_Bool);
-- (struct CGPoint);
-- (_Bool);
-- (double);
-- (void);
+- (double)in the allow list are present;
+- (void)eedback;
 
 // Remaining properties
 @property(nonatomic) _Bool didMoveBeyondThreshold; // @synthesize didMoveBeyondThreshold=_didMoveBeyondThreshold;
-@property(nonatomic) struct CGPoint firstReferencePoint; // @synthesize firstReferencePoint=_firstReferencePoint;
-@property(nonatomic) _Bool hideSwitcher; // @synthesize hideSwitcher=_hideSwitcher;
-@property(nonatomic) double lastSeenKeyboardTouchDown; // @synthesize lastSeenKeyboardTouchDown=_lastSeenKeyboardTouchDown;
-@property(nonatomic) double touchDown; // @synthesize touchDown=_touchDown;
 
 @end
 

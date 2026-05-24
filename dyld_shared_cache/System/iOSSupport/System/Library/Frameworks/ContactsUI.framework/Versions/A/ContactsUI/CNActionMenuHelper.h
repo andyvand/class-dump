@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIDeferredMenuElement;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNActionMenuHelper
 {
     _Bool _isMenuDisplayed;
-    NSString *_menuTitle;
-    NSArray *_currentMenuItems;
-    NSArray *_displayedMenuItems;
-    UIDeferredMenuElement *_deferredMenuItem;
-    CDUnknownBlockType _deferredMenuElementCompletionBlock;
 }
 
-- (void);
+- (void)|;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -32,22 +27,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)delegate;
 - (id);
 - (id);
 - (id)ion"24@"<UIContextMenuInteractionCommitAnimating>"32;
-- (void)WithMultiSelect:(id)arg1;
+- (void)isPickerLimitedAccessWithMultiSelect:(id)arg1;
 - (void)_viewController;
 - (void)istItem",&,N,V_displayedExpandedItem;
 - (void)shared profile photo and poster;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *currentMenuItems; // @synthesize currentMenuItems=_currentMenuItems;
-@property(copy, nonatomic) CDUnknownBlockType deferredMenuElementCompletionBlock; // @synthesize deferredMenuElementCompletionBlock=_deferredMenuElementCompletionBlock;
-@property(retain, nonatomic) UIDeferredMenuElement *deferredMenuItem; // @synthesize deferredMenuItem=_deferredMenuItem;
-@property(retain, nonatomic) NSArray *displayedMenuItems; // @synthesize displayedMenuItems=_displayedMenuItems;
-@property(nonatomic) _Bool isMenuDisplayed; // @synthesize isMenuDisplayed=_isMenuDisplayed;
-@property(retain, nonatomic) NSString *menuTitle; // @synthesize menuTitle=_menuTitle;
 
 @end
 

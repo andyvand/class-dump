@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBDate;
+@class _SFPBDate;
 
 @interface _SFPBCalendarImage
 {
     _SFPBDate *_date;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)h;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)pinEntryForKey:(id)arg1 requestID:inFlightRequestID: /* Error: Ran out of types for this method. */;
+- (id)nfidenceAlgorithmVersion:(id)arg1 vaAnalysisVersion:vaLocationAnalysisVersion:mediaAnalysisVersion:mediaAnalysisImageVersion:captionGenerationVersion:imageEmbeddingVersion:videoEmbeddingVersion: /* Error: Ran out of types for this method. */;
+- (id)trying after %f due to error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)eCardSection;
+- (void)rfPrimaryHeaderStackedImageCardSection;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

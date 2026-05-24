@@ -5,5 +5,6 @@
 //
 
 @protocol TRINotificationReactionCheckerProtocol
+- (CDStruct_6b48f683)iliary image;
 @end
 

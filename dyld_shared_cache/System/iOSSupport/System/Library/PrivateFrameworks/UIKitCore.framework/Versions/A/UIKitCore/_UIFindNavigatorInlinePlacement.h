@@ -14,7 +14,7 @@
     struct CGSize _intrinsicContentSize;
 }
 
-- (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (id);

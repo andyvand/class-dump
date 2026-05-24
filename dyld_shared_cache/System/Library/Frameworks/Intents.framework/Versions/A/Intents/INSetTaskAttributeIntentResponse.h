@@ -6,29 +6,27 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INTask, NSString;
-
 @interface INSetTaskAttributeIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)}"size"{CGSize="width"d"height"d}};
++ (int)remoteObjectProxyWithErrorHandler:(long long)arg1;
++ (long long)parentDirectorySandboxWrapper;
++ (_Bool)localizedDescription;
 + (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)B;
 - (long long);
 - (id);
-- (id);
+- (id)setConfigurationsIN:(id)arg1;
 - (id);
 - (void);
-- (void);
+- (void)%s:(id)arg1 validNames='%@';
 - (id);
 - (id);
 - (unsigned long long);
@@ -36,15 +34,6 @@
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) INTask *modifiedTask;
-@property(readonly) Class superclass;
-@property unsigned long long warnings;
 
 @end
 

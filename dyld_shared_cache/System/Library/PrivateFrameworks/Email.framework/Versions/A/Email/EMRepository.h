@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMRemoteConnection, Protocol;
-@protocol EFScheduler;
+@class EMRemoteConnection;
 
 @interface EMRepository
 {
     EMRemoteConnection *_connection;
-    id <EFScheduler> _observerScheduler;
-    Protocol *_interfaceProtocol;
 }
 
 + (id);
@@ -29,8 +26,6 @@
 
 // Remaining properties
 @property(readonly) EMRemoteConnection *connection; // @synthesize connection=_connection;
-@property(readonly) Protocol *interfaceProtocol; // @synthesize interfaceProtocol=_interfaceProtocol;
-@property(retain, nonatomic) id <EFScheduler> observerScheduler; // @synthesize observerScheduler=_observerScheduler;
 
 @end
 

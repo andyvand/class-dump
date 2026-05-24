@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MABinaryAdjacency, NSDate, NSMutableDictionary, NSString, PGGraphBuilder, PGMemoryController;
+@class NSDate, PGGraphBuilder;
 
 @interface PGGraphIngestMemoryProcessor
 {
     PGGraphBuilder *_graphBuilder;
-    PGMemoryController *_memoryController;
-    NSMutableDictionary *_existingMemoryNodeByUniqueMemoryIdentifier;
-    MABinaryAdjacency *_momentNodesByMemoryNodeAdjancy;
-    NSDate *_localDate;
 }
 
 + (id);
 + (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)setTrackFocusedWindow:(id)arg1;
+- (void)setCurrentLocation:(id)arg1;
+- (id)ineIndex;
+- (id)@"AXKElementDescriberConfiguration",&,N,V_configuration;
+- (id)XFUIElement",&,N;
+- (void)created (flags=0x%x).
+;
+- (void)appropriate). Consider implementing %@ for %@.;
+- (id)en=%u):(id)arg1 operation:(id)arg2;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void)eringContextMinimumNumberOfCandidatesForEligiblePerson;
+- (void)PGPeopleWallpaperSuggesterFilteringContextMinimumNumberOfCandidatesForEligiblePerson;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDate *localDate; // @synthesize localDate=_localDate;
-@property(readonly) Class superclass;
 
 @end
 

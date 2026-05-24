@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaymentPassAction;
+@class NSString;
 
 @interface PKPaymentApplicationStateMessageOverride
 {
     NSString *_title;
-    NSString *_body;
-    PKPaymentPassAction *_action;
 }
 
 + (_Bool)X"!¸Bùqî%ð1Â0@ù
 × ;
+- (id)9;
 - (id);
 - (id);
+- (void)fwTxPerSign;
 - (id);
-- (void);
-- (id);
-- (id)FromResolveError: /* Error: Ran out of types for this method. */;
-- (id)mentUpdatePreferencesResponse;
-- (void)reElementOwnershipStateForeignDrivePartition;
+- (id)_advanceToNextStateFromResolveError: /* Error: Ran out of types for this method. */;
+- (id)PKPeerPaymentUpdatePreferencesResponse;
+- (void)PKSecureElementOwnershipStateForeignDrivePartition;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) PKPaymentPassAction *action; // @synthesize action=_action;
-@property(readonly, retain, nonatomic) NSString *body; // @synthesize body=_body;
 @property(readonly, retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

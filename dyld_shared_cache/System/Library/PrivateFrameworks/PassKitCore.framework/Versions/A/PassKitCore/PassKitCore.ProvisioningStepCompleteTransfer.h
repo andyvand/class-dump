@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningStepCompleteTransfer
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
 @end

@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PCInterfaceUsabilityMonitorDelegate;
-
 @protocol PCInterfaceUsabilityMonitorProtocol
+- (void);
+- (void){;
+- (void);
 
 // Remaining properties
-@property(nonatomic) id <PCInterfaceUsabilityMonitorDelegate> delegate;
 @property(readonly, nonatomic) _Bool isRadioHot;
 @end
 

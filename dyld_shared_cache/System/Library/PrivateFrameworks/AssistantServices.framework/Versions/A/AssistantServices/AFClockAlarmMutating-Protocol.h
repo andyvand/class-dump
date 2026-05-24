@@ -4,8 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol AFClockAlarmMutating
-- (void)tionSnapshot:(_Bool)arg1:longitude /* Error: Ran out of types for this method. */;
+- (void)j;
+- (void)i;
+- (void)or:(NSString *)arg1 %@;
+- (void)c;
+- (void)h;
+- (void)AFLocationSnapshot:(_Bool)arg1:longitude /* Error: Ran out of types for this method. */;
 - (void)rFlushTimerWithDelay:(_Bool)arg1 ];
 @end
 

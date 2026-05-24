@@ -6,24 +6,23 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliGroupChatInformation, CTLazuliOperationID;
+@class CTLazuliGroupChatInformation;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCCreateGroupChatRequest : CTXPCSubscriptionContextRequest
 {
 }
 
-+ (id);
++ (id)B;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliGroupChatInformation *groupChatInfo;
-@property(readonly, nonatomic) CTLazuliOperationID *operationID;
 
 @end
 

@@ -6,25 +6,19 @@
 
 #import <CalendarUIKit/CUIKUserActivity.h>
 
-@class NSString;
-
 @interface CUIKUserActivityWithSource : CUIKUserActivity
 {
     long long _sourceType;
-    NSString *_sourceHost;
-    NSString *_sourceOwner;
 }
 
-- (unsigned long long)ªáªãª;
-- (id)ª{ýhòAù(;
-- (_Bool)ëBüÿT¨Xø¨üÿ´aàª";
+- (unsigned long long);
+- (id);
 - (_Bool);
-- (_Bool)@©öãA©ê@ù
-ëK;
-- (_Bool)ò0ÁÚ"@ùéª±Úð10@ù
-?×é;
+- (_Bool);
+- (_Bool);
+- (_Bool)�<;
 - (id);
-- (id);
+- (id)hdr10_tm_reserveConfig:(id)arg1 HDRControl:TCControl:EdrAdaptationParam:AmbAdaptationParam: /* Error: Ran out of types for this method. */;
 - (void)ñÍ1Â0@ù
 × ;
 

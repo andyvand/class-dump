@@ -4,81 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioFormat, FigCaptureSourceDepthDataFormat, FigCaptureSourceVideoFormat, NSArray, NSDictionary, NSNumber, NSObject, NSString, SCVideoStreamAnalyzer;
-@protocol OS_xpc_object;
+@class NSString;
 
 @interface FigCaptureSourceConfiguration
 {
     NSString *_sourceID;
-    struct OpaqueFigCaptureSource *_source;
-    int _sourceType;
-    NSDictionary *_sourceAttributes;
-    FigCaptureSourceVideoFormat *_requiredFormat;
-    CDStruct_bc6a056e _requiredMaxFrameRate;
-    CDStruct_bc6a056e _requiredMinFrameRate;
-    float _maxFrameRateClientOverride;
-    float _maxGainClientOverride;
-    _Bool _hasSetVideoZoomFactorOnCaptureSource;
-    float _videoZoomFactor;
-    float _videoZoomRampAcceleration;
-    NSArray *_fallbackPrimaryConstituentDeviceTypes;
-    int _imageControlMode;
-    _Bool _applyMaxExposureDurationFrameworkOverrideWhenAvailable;
-    CDStruct_1b6d18a9 _maxExposureDurationClientOverride;
-    NSDictionary *_faceDetectionConfiguration;
-    _Bool _sensorHDREnabled;
-    _Bool _highlightRecoveryEnabled;
-    int _colorSpace;
-    _Bool _depthDataDeliveryEnabled;
-    FigCaptureSourceDepthDataFormat *_depthDataFormat;
-    float _depthDataMaxFrameRate;
-    _Bool _lowLightVideoCaptureEnabled;
-    CDStruct_bc6a056e _lockedFrameRate;
-    CDStruct_bc6a056e _externalSyncFrameRate;
-    _Bool _spatialOverCaptureEnabled;
-    _Bool _nonDestructiveCropEnabled;
-    struct CGSize _normalizedNonDestructiveCropSize;
-    _Bool _geometricDistortionCorrectionEnabled;
-    _Bool _variableFrameRateVideoCaptureEnabled;
-    int _videoStabilizationStrength;
-    _Bool _cinematicFramingEnabled;
-    _Bool _cinematicFramingSupported;
-    int _cinematicFramingControlMode;
-    _Bool _smartFramingEnabled;
-    _Bool _backgroundBlurSupported;
-    _Bool _backgroundBlurEnabled;
-    _Bool _studioLightingSupported;
-    _Bool _studioLightingEnabled;
-    _Bool _reactionEffectsSupported;
-    _Bool _reactionEffectsEnabled;
-    _Bool _backgroundReplacementSupported;
-    _Bool _backgroundReplacementEnabled;
-    int _faceDrivenAEAFMode;
-    _Bool _faceDrivenAEAFEnabledByDefault;
-    _Bool _deskCamEnabled;
-    CDStruct_79c71658 _deskCamOutputDimensions;
-    _Bool _manualCinematicFramingEnabled;
-    float _manualFramingPanningAngleX;
-    float _manualFramingPanningAngleY;
-    double _manualFramingDefaultZoomFactor;
-    _Bool _gazeSelectionEnabled;
-    _Bool _dockedTrackingEnabled;
-    _Bool _clientExpectsCameraMountedInLandscapeOrientation;
-    _Bool _cinematicVideoCaptureEnabled;
-    float _simulatedAperture;
-    _Bool _hasSetSimulatedApertureOnCaptureSource;
-    int _outputAspectRatio;
-    long long _outputAspectRatioRequestID;
-    _Bool _lensSmudgeDetectionEnabled;
-    CDStruct_1b6d18a9 _lensSmudgeDetectionInterval;
-    NSObject<OS_xpc_object> *_sensitiveContentAnalyzerXPCObject;
-    SCVideoStreamAnalyzer *_sensitiveContentAnalyzer;
-    _Bool _sensitiveContentAnalyzerEnabled;
-    _Bool _clientOSVersionSupportsDecoupledIO;
-    NSString *_clientAudioClockDeviceUID;
-    NSNumber *_preferredIOBufferDuration;
-    AVAudioFormat *_remoteIOOutputFormat;
-    _Bool _smartCameraEnabled;
 }
 
 + (id);
@@ -87,30 +17,30 @@
 + (int)GÿæFÿçDÿ¡èAÿ®ê?ÿºë=ÿÆì;ÿÑî9ÿÝï7ÿæð6ÿíñ5ÿðñ4ÿññ4ÿ;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)pportunistically asking for the password;
 - (void);
 - (void);
 - (int);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)t=dd}16d32d40d48;
+- (_Bool)readAllFromChannel:offset:length:completion: /* Error: Ran out of types for this method. */;
+- (void)_formatCurrencyStringMinus;
+- (void)bundle;
 - (float);
 - (void);
-- (int);
+- (int)k;
 - (void);
 - (_Bool);
-- (CDStruct_bc6a056e);
+- (CDStruct_12225535);
 - (void);
 - (id);
 - (_Bool);
-- (CDStruct_bc6a056e);
+- (CDStruct_12225535);
 - (_Bool);
 - (id);
 - (void);
-- (CDStruct_bc6a056e);
+- (CDStruct_12225535);
 - (_Bool);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)h";
 - (float);
 - (void);
 - (_Bool);
@@ -120,39 +50,39 @@
 - (void);
 - (_Bool);
 - (void);
-- (float);
+- (float)`;
 - (id);
 - (void);
-- (int);
+- (int)`";
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)@24Q32@40@?48;
+- (_Bool)receivedOnBattery;
+- (void);
+- (void)ATE UNIQUE INDEX cnContactsToSgContactsUniqueJoin ON cnContactsToSgContacts(cnContactIdentifier, entityId);
+- (id)E TABLE IF NOT EXISTS identityPhones (    recordId INTEGER NOT NULL,    phone TEXT NOT NULL);
+- (_Bool)r;
 - (void);
 - (void);
+- (void);
+- (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (CDStruct_bc6a056e);
+- (CDStruct_12225535);
 - (CDStruct_1b6d18a9);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (float);
+- (float);
 - (_Bool);
 - (void);
 - (float);
-- (void);
+- (void)setAdvertisingRate:(double)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -172,14 +102,14 @@
 × ;
 - (id);
 - (_Bool)";
-- (void)ut:(id)arg1 flags:dictionary:error: /* Error: Ran out of types for this method. */;
-- (void)t;
-- (_Bool)ExpectsMarkerBuffers;
+- (void)initNotificationWithTimeout:(id)arg1 flags:dictionary:error: /* Error: Ran out of types for this method. */;
+- (void)captureStreamDidStart;
+- (_Bool)_liveExpectsMarkerBuffers;
 - (void)_cropDimensionsWhenFESIsEnabled;
 - (id)ons;
 - (id)eResolvedGroup, timedOut %d;
 - (int)ISP Motion Data on a stream that doesn't support it;
-- (void)&JKÿ.JMÿ5KNÿ<KPÿBLRÿJLTÿRMSÿ]LNÿhLLÿrLJÿ}KIÿKHÿKGÿKFÿ£LFÿ¬LFÿ¶LEÿ¿LEÿÈMEÿÑMEÿÚNEÿãNEÿëOEÿõOEÿýPFÿÿQFÿÿQGÿÿRGÿPEÿPEÿPFÿ#QFÿ*QGÿ2QHÿ9RIÿ@RKÿGSLÿNTNÿUTPÿWVVÿfTNÿqTLÿ|TJÿTIÿTHÿTHÿ£TGÿ¬TGÿµTFÿ¾TFÿÇUFÿÑUFÿÚUFÿãVFÿëVFÿõWFÿýXGÿÿXGÿÿYGÿÿZHÿXBÿXCÿXCÿ&XDÿ,YEÿ4YFÿ<YGÿCZHÿJZIÿR[JÿY\Lÿ_\Oÿf]Pÿp\Nÿ{\Lÿ\Kÿ\Jÿ\Iÿ£\Hÿ¬\Hÿµ\Gÿ¾\GÿÇ]GÿÑ]GÿÚ]Gÿã^Gÿë^Gÿõ_Gÿý_Gÿÿ`HÿÿaHÿÿaIÿ_Aÿ`Bÿ"`Aÿ+`Aÿ1aBÿ9aCÿ@bDÿGbEÿNbGÿVcHÿ\cJÿcdMÿidNÿqdOÿ{dMÿdLÿdKÿdJÿ¢dIÿ¬dIÿµdIÿ¾eHÿÇeHÿÑeHÿÚeHÿãfHÿìfHÿõgHÿþgHÿÿhHÿÿhIÿÿiIÿ#i?ÿ'i?ÿ,i@ÿ1iAÿ6jAÿ=jBÿDjCÿKkEÿRkFÿZlGÿ`lIÿglKÿmmMÿtmNÿ}mNÿmMÿmLÿmLÿ¢mKÿ¬mJÿµnJÿ¾nIÿÇnIÿÑnIÿÚnIÿãoIÿìoIÿõpIÿþpIÿÿpIÿÿqJÿÿrJÿ+q?ÿ/q?ÿ2q@ÿ6r@ÿ<rAÿBrBÿHrCÿOsDÿVsEÿ]sGÿdtHÿjtJÿqtKÿwuMÿuMÿuMÿuMÿvLÿ£vLÿ¬vKÿµvKÿ¾vJÿÇvJÿÑvJÿÚwJÿãwJÿìwJÿöwJÿþxJÿÿxJÿÿyJÿÿyKÿ3y?ÿ6y@ÿ9y@ÿ<z@ÿAzAÿGzBÿMzCÿS{DÿY{Eÿa{Fÿg{Hÿn|Iÿt|Jÿ{|Lÿ}Mÿ}Mÿ}Mÿ}Mÿ£~Mÿ¬~Lÿµ~Lÿ¾~KÿÇ~KÿÑ~KÿÚKÿãKÿìKÿöKÿþKÿÿKÿÿKÿÿLÿ:(CDStruct_bc6a056e)arg1 ?ÿ<@ÿ?@ÿB@ÿGAÿLBÿRCÿWDÿ]EÿdFÿkGÿqHÿxJÿ~KÿLÿMÿMÿMÿ¥Mÿ­Mÿ¶Mÿ¿LÿÈLÿÒLÿÛLÿãLÿìLÿöLÿÿLÿÿLÿÿLÿÿLÿB@ÿD@ÿF@ÿIAÿMAÿRBÿWCÿ\CÿbDÿiEÿoGÿuHÿ{IÿJÿKÿLÿMÿMÿ§Nÿ¯Nÿ·MÿÀMÿÈMÿÒMÿÛMÿäMÿíMÿöMÿÿMÿÿMÿÿMÿÿMÿH@ÿJ@ÿL@ÿOAÿRAÿWBÿ\CÿaCÿfDÿmEÿsFÿyGÿIÿJÿKÿLÿMÿ¡Mÿ©Nÿ±Nÿ¹NÿÁNÿÉNÿÓNÿÜNÿäMÿíMÿ÷MÿÿMÿÿNÿÿNÿÿNÿO@ÿP@ÿRAÿUAÿXAÿ\Bÿ`CÿeCÿjDÿqEÿvFÿ|GÿHÿIÿJÿKÿLÿ¤Mÿ«Nÿ³NÿºNÿÂOÿÊOÿÔ NÿÜ Nÿå Nÿí Nÿ÷ Nÿÿ¡Nÿÿ¡Nÿÿ¡Oÿÿ¡OÿU¢AÿV¢AÿX¢AÿZ¢Aÿ]¢Bÿa£Bÿe£Cÿj£Cÿo£Dÿu£Eÿz¤Fÿ¤Gÿ¤Hÿ¤Iÿ¥Jÿ¥Kÿ ¥Lÿ§¦Mÿ®¦Nÿµ¦Nÿ½§OÿÄ§OÿÌ§OÿÕ§OÿÝ¨Oÿæ¨Oÿî¨Oÿø¨Oÿÿ¨Oÿÿ©Oÿÿ©Oÿÿ©Oÿ[ªAÿ\ªAÿ^ªAÿ`ªBÿcªBÿf«Bÿj«Cÿn«Dÿs«Dÿy«Eÿ~«Fÿ¬Gÿ¬Hÿ¬Iÿ­Jÿ­Kÿ£­Lÿª­Mÿ±®Nÿ¸®Nÿ¿®OÿÆ¯OÿÎ¯Oÿ×¯Pÿß¯Pÿç°Pÿï°Pÿø°Pÿÿ°Pÿÿ±Pÿÿ±Pÿÿ±Pÿb³Aÿc³Bÿd³Bÿf³Bÿi³Bÿl³Cÿp´Cÿt´Dÿx´Dÿ~´Eÿ´FÿµGÿµHÿµIÿµJÿ¡¶Kÿ§¶Lÿ­¶Lÿ´¶Mÿ»·NÿÂ·OÿÉ·OÿÐ¸PÿÙ¸Pÿà¸Pÿè¹Pÿð¹Qÿù¹Qÿÿ¹Qÿÿ¹Qÿÿ¹QÿÿºQÿg»Bÿi»Bÿj»Bÿl»Bÿn»Cÿq»Cÿu»Dÿx¼Dÿ}¼Eÿ¼Eÿ¼Fÿ¼Gÿ½Hÿ½Iÿ½Jÿ¤½Kÿª¾Kÿ°¾Lÿ¸¾Mÿ¾¿NÿÅ¿OÿÌ¿OÿÓ¿PÿÛÀPÿâÀQÿêÀQÿòÀQÿûÁQÿÿÁQÿÿÁQÿÿÁQÿÿÁRÿmÃBÿnÃBÿoÃCÿqÃCÿsÃCÿvÃCÿzÃDÿ}ÄDÿÄEÿÄFÿÄFÿÄGÿÅHÿÅIÿ¢ÅJÿ§ÅJÿ­ÅKÿ´ÆLÿ»ÆMÿÁÆNÿÈÇOÿÎÇOÿÕÇPÿÝÇQÿäÈQÿìÈQÿóÈRÿüÈRÿÿÉRÿÿÉRÿÿÉRÿÿÉRÿsËCÿtËCÿuËCÿwËCÿyËDÿ{ËDÿËDÿËEÿÌEÿÌFÿÌGÿÌGÿÌHÿÍIÿ¥ÍJÿ«ÍKÿ±ÍKÿ·ÎLÿ¾ÎMÿÄÎNÿËÎOÿÑÏOÿØÏPÿàÏQÿçÏQÿîÐRÿõÐRÿþÐRÿÿÐRÿÿÐRÿÿÑSÿÿÑSÿyÔCÿzÔDÿ{ÔDÿ}ÔDÿÔDÿÔDÿÔEÿÔEÿÔFÿÕFÿÕGÿÕGÿÕHÿ£ÕIÿ©ÖJÿ¯ÖKÿµÖKÿ»ÖLÿÁ×MÿÈ×NÿÎ×OÿÔ×OÿÛ×PÿâØQÿéØQÿðØRÿ÷ØRÿÿÙSÿÿÙSÿÿÙSÿÿÙSÿÿÙSÿÛDÿÜDÿÜDÿÜDÿÜEÿÜEÿÜEÿÜFÿÜFÿÜGÿÝGÿÝHÿ¢ÝHÿ§ÝIÿ­ÝJÿ²ÞKÿ¸ÞKÿ¾ÞLÿÅÞMÿËÞNÿÑßOÿ×ßOÿÞßPÿåßQÿìàQÿòàRÿùàRÿÿàSÿÿàSÿÿáSÿÿáSÿÿáTÿãEÿãEÿãEÿãEÿãEÿäFÿäFÿäFÿäGÿäGÿäHÿ¡äHÿ¦åIÿ«åIÿ±åJÿ¶åKÿ¼åLÿÁæLÿÈæMÿÎæNÿÔæOÿÚçOÿàçPÿèçQÿîçQÿõçRÿüèSÿÿèSÿÿèSÿÿèTÿÿèTÿÿèTÿëEÿëEÿëFÿëFÿëFÿëFÿëFÿìGÿìGÿìHÿ¡ìHÿ¦ìIÿªìIÿ¯íJÿµíJÿºíKÿ¿íLÿÅíLÿËîMÿÑîNÿ×îOÿÝîOÿãîPÿêïQÿñïQÿ÷ïRÿþïSÿÿïSÿÿïSÿÿïTÿÿðTÿÿðTÿôFÿôFÿôFÿôFÿôGÿôGÿôGÿôGÿôHÿ£ôHÿ¦õIÿªõIÿ¯õJÿ³õJÿ¹õKÿ¾öKÿÃöLÿÉöMÿÏöMÿÕöNÿÚöOÿà÷Oÿæ÷Pÿí÷Qÿô÷Qÿú÷Rÿÿ÷SÿÿøSÿÿøSÿÿøTÿÿøTÿÿøTÿ;
+- (void)&JKÿ.JMÿ5KNÿ<KPÿBLRÿJLTÿRMSÿ]LNÿhLLÿrLJÿ}KIÿKHÿKGÿKFÿ£LFÿ¬LFÿ¶LEÿ¿LEÿÈMEÿÑMEÿÚNEÿãNEÿëOEÿõOEÿýPFÿÿQFÿÿQGÿÿRGÿPEÿPEÿPFÿ#QFÿ*QGÿ2QHÿ9RIÿ@RKÿGSLÿNTNÿUTPÿWVVÿfTNÿqTLÿ|TJÿTIÿTHÿTHÿ£TGÿ¬TGÿµTFÿ¾TFÿÇUFÿÑUFÿÚUFÿãVFÿëVFÿõWFÿýXGÿÿXGÿÿYGÿÿZHÿXBÿXCÿXCÿ&XDÿ,YEÿ4YFÿ<YGÿCZHÿJZIÿR[JÿY\Lÿ_\Oÿf]Pÿp\Nÿ{\Lÿ\Kÿ\Jÿ\Iÿ£\Hÿ¬\Hÿµ\Gÿ¾\GÿÇ]GÿÑ]GÿÚ]Gÿã^Gÿë^Gÿõ_Gÿý_Gÿÿ`HÿÿaHÿÿaIÿ_Aÿ`Bÿ"`Aÿ+`Aÿ1aBÿ9aCÿ@bDÿGbEÿNbGÿVcHÿ\cJÿcdMÿidNÿqdOÿ{dMÿdLÿdKÿdJÿ¢dIÿ¬dIÿµdIÿ¾eHÿÇeHÿÑeHÿÚeHÿãfHÿìfHÿõgHÿþgHÿÿhHÿÿhIÿÿiIÿ#i?ÿ'i?ÿ,i@ÿ1iAÿ6jAÿ=jBÿDjCÿKkEÿRkFÿZlGÿ`lIÿglKÿmmMÿtmNÿ}mNÿmMÿmLÿmLÿ¢mKÿ¬mJÿµnJÿ¾nIÿÇnIÿÑnIÿÚnIÿãoIÿìoIÿõpIÿþpIÿÿpIÿÿqJÿÿrJÿ+q?ÿ/q?ÿ2q@ÿ6r@ÿ<rAÿBrBÿHrCÿOsDÿVsEÿ]sGÿdtHÿjtJÿqtKÿwuMÿuMÿuMÿuMÿvLÿ£vLÿ¬vKÿµvKÿ¾vJÿÇvJÿÑvJÿÚwJÿãwJÿìwJÿöwJÿþxJÿÿxJÿÿyJÿÿyKÿ3y?ÿ6y@ÿ9y@ÿ<z@ÿAzAÿGzBÿMzCÿS{DÿY{Eÿa{Fÿg{Hÿn|Iÿt|Jÿ{|Lÿ}Mÿ}Mÿ}Mÿ}Mÿ£~Mÿ¬~Lÿµ~Lÿ¾~KÿÇ~KÿÑ~KÿÚKÿãKÿìKÿöKÿþKÿÿKÿÿKÿÿLÿ:(CDStruct_12225535)arg1 ?ÿ<@ÿ?@ÿB@ÿGAÿLBÿRCÿWDÿ]EÿdFÿkGÿqHÿxJÿ~KÿLÿMÿMÿMÿ¥Mÿ­Mÿ¶Mÿ¿LÿÈLÿÒLÿÛLÿãLÿìLÿöLÿÿLÿÿLÿÿLÿÿLÿB@ÿD@ÿF@ÿIAÿMAÿRBÿWCÿ\CÿbDÿiEÿoGÿuHÿ{IÿJÿKÿLÿMÿMÿ§Nÿ¯Nÿ·MÿÀMÿÈMÿÒMÿÛMÿäMÿíMÿöMÿÿMÿÿMÿÿMÿÿMÿH@ÿJ@ÿL@ÿOAÿRAÿWBÿ\CÿaCÿfDÿmEÿsFÿyGÿIÿJÿKÿLÿMÿ¡Mÿ©Nÿ±Nÿ¹NÿÁNÿÉNÿÓNÿÜNÿäMÿíMÿ÷MÿÿMÿÿNÿÿNÿÿNÿO@ÿP@ÿRAÿUAÿXAÿ\Bÿ`CÿeCÿjDÿqEÿvFÿ|GÿHÿIÿJÿKÿLÿ¤Mÿ«Nÿ³NÿºNÿÂOÿÊOÿÔ NÿÜ Nÿå Nÿí Nÿ÷ Nÿÿ¡Nÿÿ¡Nÿÿ¡Oÿÿ¡OÿU¢AÿV¢AÿX¢AÿZ¢Aÿ]¢Bÿa£Bÿe£Cÿj£Cÿo£Dÿu£Eÿz¤Fÿ¤Gÿ¤Hÿ¤Iÿ¥Jÿ¥Kÿ ¥Lÿ§¦Mÿ®¦Nÿµ¦Nÿ½§OÿÄ§OÿÌ§OÿÕ§OÿÝ¨Oÿæ¨Oÿî¨Oÿø¨Oÿÿ¨Oÿÿ©Oÿÿ©Oÿÿ©Oÿ[ªAÿ\ªAÿ^ªAÿ`ªBÿcªBÿf«Bÿj«Cÿn«Dÿs«Dÿy«Eÿ~«Fÿ¬Gÿ¬Hÿ¬Iÿ­Jÿ­Kÿ£­Lÿª­Mÿ±®Nÿ¸®Nÿ¿®OÿÆ¯OÿÎ¯Oÿ×¯Pÿß¯Pÿç°Pÿï°Pÿø°Pÿÿ°Pÿÿ±Pÿÿ±Pÿÿ±Pÿb³Aÿc³Bÿd³Bÿf³Bÿi³Bÿl³Cÿp´Cÿt´Dÿx´Dÿ~´Eÿ´FÿµGÿµHÿµIÿµJÿ¡¶Kÿ§¶Lÿ­¶Lÿ´¶Mÿ»·NÿÂ·OÿÉ·OÿÐ¸PÿÙ¸Pÿà¸Pÿè¹Pÿð¹Qÿù¹Qÿÿ¹Qÿÿ¹Qÿÿ¹QÿÿºQÿg»Bÿi»Bÿj»Bÿl»Bÿn»Cÿq»Cÿu»Dÿx¼Dÿ}¼Eÿ¼Eÿ¼Fÿ¼Gÿ½Hÿ½Iÿ½Jÿ¤½Kÿª¾Kÿ°¾Lÿ¸¾Mÿ¾¿NÿÅ¿OÿÌ¿OÿÓ¿PÿÛÀPÿâÀQÿêÀQÿòÀQÿûÁQÿÿÁQÿÿÁQÿÿÁQÿÿÁRÿmÃBÿnÃBÿoÃCÿqÃCÿsÃCÿvÃCÿzÃDÿ}ÄDÿÄEÿÄFÿÄFÿÄGÿÅHÿÅIÿ¢ÅJÿ§ÅJÿ­ÅKÿ´ÆLÿ»ÆMÿÁÆNÿÈÇOÿÎÇOÿÕÇPÿÝÇQÿäÈQÿìÈQÿóÈRÿüÈRÿÿÉRÿÿÉRÿÿÉRÿÿÉRÿsËCÿtËCÿuËCÿwËCÿyËDÿ{ËDÿËDÿËEÿÌEÿÌFÿÌGÿÌGÿÌHÿÍIÿ¥ÍJÿ«ÍKÿ±ÍKÿ·ÎLÿ¾ÎMÿÄÎNÿËÎOÿÑÏOÿØÏPÿàÏQÿçÏQÿîÐRÿõÐRÿþÐRÿÿÐRÿÿÐRÿÿÑSÿÿÑSÿyÔCÿzÔDÿ{ÔDÿ}ÔDÿÔDÿÔDÿÔEÿÔEÿÔFÿÕFÿÕGÿÕGÿÕHÿ£ÕIÿ©ÖJÿ¯ÖKÿµÖKÿ»ÖLÿÁ×MÿÈ×NÿÎ×OÿÔ×OÿÛ×PÿâØQÿéØQÿðØRÿ÷ØRÿÿÙSÿÿÙSÿÿÙSÿÿÙSÿÿÙSÿÛDÿÜDÿÜDÿÜDÿÜEÿÜEÿÜEÿÜFÿÜFÿÜGÿÝGÿÝHÿ¢ÝHÿ§ÝIÿ­ÝJÿ²ÞKÿ¸ÞKÿ¾ÞLÿÅÞMÿËÞNÿÑßOÿ×ßOÿÞßPÿåßQÿìàQÿòàRÿùàRÿÿàSÿÿàSÿÿáSÿÿáSÿÿáTÿãEÿãEÿãEÿãEÿãEÿäFÿäFÿäFÿäGÿäGÿäHÿ¡äHÿ¦åIÿ«åIÿ±åJÿ¶åKÿ¼åLÿÁæLÿÈæMÿÎæNÿÔæOÿÚçOÿàçPÿèçQÿîçQÿõçRÿüèSÿÿèSÿÿèSÿÿèTÿÿèTÿÿèTÿëEÿëEÿëFÿëFÿëFÿëFÿëFÿìGÿìGÿìHÿ¡ìHÿ¦ìIÿªìIÿ¯íJÿµíJÿºíKÿ¿íLÿÅíLÿËîMÿÑîNÿ×îOÿÝîOÿãîPÿêïQÿñïQÿ÷ïRÿþïSÿÿïSÿÿïSÿÿïTÿÿðTÿÿðTÿôFÿôFÿôFÿôFÿôGÿôGÿôGÿôGÿôHÿ£ôHÿ¦õIÿªõIÿ¯õJÿ³õJÿ¹õKÿ¾öKÿÃöLÿÉöMÿÏöMÿÕöNÿÚöOÿà÷Oÿæ÷Pÿí÷Qÿô÷Qÿú÷Rÿÿ÷SÿÿøSÿÿøSÿÿøTÿÿøTÿÿøTÿ;
 - (float)õ;ÿõ;ÿõ;ÿõ;ÿõ<ÿõ<ÿõ<ÿõ=ÿõ=ÿõ>ÿõ?ÿõ@ÿõBÿõCÿdþOÿ~ÿSÿÿVÿ©ÿ[ÿºÿ`ÿÉÿfÿ×ÿmÿãýsÿïúxÿúùzÿÿ÷yÿÿöwÿÿöqÿÿõkÿÿóeÿÿò_ÿÿðZÿô%ÿô&ÿô&ÿô&ÿô&ÿô'ÿô'ÿô(ÿô)ÿô*ÿô,ÿô.ÿô1ÿô4ÿõ8ÿVýEÿwÿLÿÿSÿ¤ÿXÿ¶ÿ]ÿÅÿbÿÔÿhÿàÿnÿíÿtÿ÷ÿwÿÿÿyÿÿþyÿÿývÿÿürÿÿûlÿÿúgÿÿùaÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿô%ÿDù5ÿmÿ@ÿÿIÿÿQÿ°ÿWÿÀÿ^ÿÏÿcÿÜÿiÿéÿoÿôÿtÿýÿwÿÿÿyÿÿÿxÿÿÿvÿÿÿrÿÿÿnÿÿÿiÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿbý+ÿ~ÿ;ÿÿFÿ©ÿNÿºÿVÿÉÿ]ÿ×ÿdÿåÿjÿðÿoÿúÿtÿÿÿwÿÿÿyÿÿÿyÿÿÿwÿÿÿtÿÿÿqÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿZüÿwÿ+ÿÿ>ÿ£ÿHÿ´ÿPÿÄÿWÿÓÿ^ÿâÿfÿíÿlÿøÿqÿÿÿuÿÿÿxÿÿÿyÿÿÿyÿÿÿxÿÿÿuÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿTûÿrÿ"ÿÿ9ÿÿDÿ°ÿLÿÀÿTÿÏÿZÿÞÿbÿëÿhÿõÿmÿÿÿrÿÿÿvÿÿÿxÿÿÿyÿÿÿyÿÿÿxÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿRúÿpÿ"ÿÿ:ÿÿDÿ­ÿKÿ¼ÿRÿËÿXÿÛÿ_ÿèÿeÿóÿjÿýÿoÿÿÿsÿÿÿvÿÿÿxÿÿÿyÿÿÿzÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿóÿTû)ÿpÿ6ÿÿ?ÿÿFÿªÿLÿ¹ÿQÿÈÿVÿ×ÿ\ÿäÿbÿðÿgÿûÿlÿÿÿpÿÿÿtÿÿÿvÿÿÿxÿÿÿyÿ /* Error: Ran out of types for this method. */;
 - (id)ÿãDÿÿâCÿ;
 - (void)áKÿçNÿéPÿéQÿéRÿ;
@@ -197,126 +127,46 @@
 - (void)params on existing distortion model;
 - (void)stShownDate:(_Bool)arg1 BWFrameStatistics.m:680 /* Error: Ran out of types for this method. */;
 - (id)16^{opaqueCMSampleBuffer=}24^{opaqueCMSampleBuffer=}32^{opaqueCMSampleBuffer=}40^{opaqueCMSampleBuffer=}48^{opaqueCMSampleBuffer=}56^@64;
-- (float)amsStereoFusionZoomFactorRange;
-- (int)tachingSupported;
+- (float)synchronizedStreamsStereoFusionZoomFactorRange;
+- (int)metadataCameraAttachingSupported;
 - (_Bool)eltaangle;
 - (void)aph/Utilities/BWAggdDataReporter.m;
 - (void)ty to %@;
-- (int)hotoMovie;
-- (_Bool)urce_MetadataSampleBuffer;
-- (double)livery;
+- (int)IsOriginalPhotoMovie;
+- (_Bool)CaptureSessionMetadataSource_MetadataSampleBuffer;
+- (double)NominalSlaveFrameRateForDepthDataDelivery;
 - (void)alid);
 - (void)put toInput:(_Bool)arg1 faceDetectionNode.input pipelineStage:((void *)0)] /* Error: Ran out of types for this method. */;
 - (_Bool)ut;
 - (void)lID has already been initialized;
-- (void)ameraMetadataObject;
+- (void)CMCaptureLocalSessionSinkID_MetadataCameraMetadataObject;
 - (_Bool)ncedTime.timescale == _quantizationFrameDuration.timescale;
-- (void)entage;
-- (_Bool)gCaptureTCCAccessRequest_block_invoke;
+- (void)maxTeleToWideEITThresholdPercentage;
+- (_Bool)FigCaptureTCCAccessRequest_block_invoke;
 - (int)msGroup initWithFigCaptureSynchronizedStreamsGroup:bwFigCaptureStreams:figCaptureStreams:] /* Error: Ran out of types for this method. */;
-- (void)eDeviceTypePearl;
-- (void)cient;
-- (_Bool)ionInMilliseconds;
-- (int)peratureAverage;
-- (void)kErrorTele;
-- (void)sion;
-- (void)turesynchronizedstreamsgroup_trace;
+- (void)captureDeviceTypePearl;
+- (void)xAxisDampingCoefficient;
+- (_Bool)graphPrepareDurationInMilliseconds;
+- (int)infaredSensorTemperatureAverage;
+- (void)afMaxTrackErrorTele;
+- (void)constantColorAnalyticsVersion;
+- (void)bwfigvideocapturesynchronizedstreamsgroup_trace;
 - (_Bool)demand);
-- (void)shold;
+- (void)Band0StrengthModulationExitThreshold;
 - (int)on thermally limited devices;
 - (_Bool)>>>> Fig;
 - (void)eaudio-format;
 - (void);
 - (_Bool)l buffer for conversion;
 - (void)amCameraSourceNode _updateZoomForOutputIndex:(_Bool)arg1 sampleBuffer:additionalScaleFactor:deliverSushiRaw:] /* Error: Ran out of types for this method. */;
-- (float)gAndMetadata;
+- (float)laccConfigAndMetadata;
 - (id)@;
 - (struct CGSize)er"8@"NSNumber"16^B24;
 - (_Bool)|êÑÿtãN%;
 - (void)RL%;
 
 // Remaining properties
-@property(nonatomic) _Bool applyMaxExposureDurationFrameworkOverrideWhenAvailable; // @synthesize applyMaxExposureDurationFrameworkOverrideWhenAvailable=_applyMaxExposureDurationFrameworkOverrideWhenAvailable;
-@property(nonatomic) _Bool backgroundBlurEnabled; // @synthesize backgroundBlurEnabled=_backgroundBlurEnabled;
-@property(nonatomic, getter=isBackgroundBlurSupported) _Bool backgroundBlurSupported; // @synthesize backgroundBlurSupported=_backgroundBlurSupported;
-@property(nonatomic) _Bool backgroundReplacementEnabled; // @synthesize backgroundReplacementEnabled=_backgroundReplacementEnabled;
-@property(nonatomic, getter=isBackgroundReplacementSupported) _Bool backgroundReplacementSupported; // @synthesize backgroundReplacementSupported=_backgroundReplacementSupported;
-@property(readonly) _Bool bravoShiftMitigationEnabled;
-@property(nonatomic) int cinematicFramingControlMode; // @synthesize cinematicFramingControlMode=_cinematicFramingControlMode;
-@property(nonatomic) _Bool cinematicFramingEnabled; // @synthesize cinematicFramingEnabled=_cinematicFramingEnabled;
-@property(nonatomic, getter=isCinematicFramingSupported) _Bool cinematicFramingSupported; // @synthesize cinematicFramingSupported=_cinematicFramingSupported;
-@property(nonatomic, getter=isCinematicVideoCaptureEnabled) _Bool cinematicVideoCaptureEnabled; // @synthesize cinematicVideoCaptureEnabled=_cinematicVideoCaptureEnabled;
-@property(retain, nonatomic) NSString *clientAudioClockDeviceUID; // @synthesize clientAudioClockDeviceUID=_clientAudioClockDeviceUID;
-@property(nonatomic) _Bool clientExpectsCameraMountedInLandscapeOrientation; // @synthesize clientExpectsCameraMountedInLandscapeOrientation=_clientExpectsCameraMountedInLandscapeOrientation;
-@property(nonatomic) _Bool clientOSVersionSupportsDecoupledIO; // @synthesize clientOSVersionSupportsDecoupledIO=_clientOSVersionSupportsDecoupledIO;
-@property(nonatomic) int colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool depthDataDeliveryEnabled; // @synthesize depthDataDeliveryEnabled=_depthDataDeliveryEnabled;
-@property(retain, nonatomic) FigCaptureSourceDepthDataFormat *depthDataFormat; // @synthesize depthDataFormat=_depthDataFormat;
-@property(nonatomic) float depthDataMaxFrameRate; // @synthesize depthDataMaxFrameRate=_depthDataMaxFrameRate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool deskCamEnabled; // @synthesize deskCamEnabled=_deskCamEnabled;
-@property(nonatomic) CDStruct_1ef3fb1f deskCamOutputDimensions; // @synthesize deskCamOutputDimensions=_deskCamOutputDimensions;
-@property(nonatomic, getter=isDockedTrackingEnabled) _Bool dockedTrackingEnabled; // @synthesize dockedTrackingEnabled=_dockedTrackingEnabled;
-@property(nonatomic) CDStruct_bc6a056e externalSyncFrameRate; // @synthesize externalSyncFrameRate=_externalSyncFrameRate;
-@property(copy, nonatomic) NSDictionary *faceDetectionConfiguration; // @synthesize faceDetectionConfiguration=_faceDetectionConfiguration;
-@property(nonatomic) _Bool faceDrivenAEAFEnabledByDefault; // @synthesize faceDrivenAEAFEnabledByDefault=_faceDrivenAEAFEnabledByDefault;
-@property(nonatomic) int faceDrivenAEAFMode; // @synthesize faceDrivenAEAFMode=_faceDrivenAEAFMode;
-@property(retain, nonatomic) NSArray *fallbackPrimaryConstituentDeviceTypes; // @synthesize fallbackPrimaryConstituentDeviceTypes=_fallbackPrimaryConstituentDeviceTypes;
-@property(nonatomic) _Bool gazeSelectionEnabled; // @synthesize gazeSelectionEnabled=_gazeSelectionEnabled;
-@property(nonatomic) _Bool geometricDistortionCorrectionEnabled; // @synthesize geometricDistortionCorrectionEnabled=_geometricDistortionCorrectionEnabled;
-@property(nonatomic) _Bool hasSetSimulatedApertureOnCaptureSource; // @synthesize hasSetSimulatedApertureOnCaptureSource=_hasSetSimulatedApertureOnCaptureSource;
-@property(nonatomic) _Bool hasSetVideoZoomFactorOnCaptureSource; // @synthesize hasSetVideoZoomFactorOnCaptureSource=_hasSetVideoZoomFactorOnCaptureSource;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool highlightRecoveryEnabled; // @synthesize highlightRecoveryEnabled=_highlightRecoveryEnabled;
-@property(nonatomic) int imageControlMode; // @synthesize imageControlMode=_imageControlMode;
-@property(nonatomic) _Bool lensSmudgeDetectionEnabled; // @synthesize lensSmudgeDetectionEnabled=_lensSmudgeDetectionEnabled;
-@property(nonatomic) CDStruct_1b6d18a9 lensSmudgeDetectionInterval; // @synthesize lensSmudgeDetectionInterval=_lensSmudgeDetectionInterval;
-@property(nonatomic) CDStruct_bc6a056e lockedFrameRate; // @synthesize lockedFrameRate=_lockedFrameRate;
-@property(nonatomic) _Bool lowLightVideoCaptureEnabled; // @synthesize lowLightVideoCaptureEnabled=_lowLightVideoCaptureEnabled;
-@property(readonly, nonatomic) _Bool lowResStillsForBackgroundBlurEffectsEnabled;
-@property(nonatomic) _Bool manualCinematicFramingEnabled; // @synthesize manualCinematicFramingEnabled=_manualCinematicFramingEnabled;
-@property(nonatomic) double manualFramingDefaultZoomFactor; // @synthesize manualFramingDefaultZoomFactor=_manualFramingDefaultZoomFactor;
-@property(nonatomic) float manualFramingPanningAngleX; // @synthesize manualFramingPanningAngleX=_manualFramingPanningAngleX;
-@property(nonatomic) float manualFramingPanningAngleY; // @synthesize manualFramingPanningAngleY=_manualFramingPanningAngleY;
-@property(nonatomic) CDStruct_1b6d18a9 maxExposureDurationClientOverride; // @synthesize maxExposureDurationClientOverride=_maxExposureDurationClientOverride;
-@property(nonatomic) float maxFrameRateClientOverride; // @synthesize maxFrameRateClientOverride=_maxFrameRateClientOverride;
-@property(nonatomic) float maxGainClientOverride; // @synthesize maxGainClientOverride=_maxGainClientOverride;
-@property(nonatomic) _Bool nonDestructiveCropEnabled; // @synthesize nonDestructiveCropEnabled=_nonDestructiveCropEnabled;
-@property(nonatomic) struct CGSize normalizedNonDestructiveCropSize; // @synthesize normalizedNonDestructiveCropSize=_normalizedNonDestructiveCropSize;
-@property(nonatomic) int outputAspectRatio; // @synthesize outputAspectRatio=_outputAspectRatio;
-@property(nonatomic) long long outputAspectRatioRequestID; // @synthesize outputAspectRatioRequestID=_outputAspectRatioRequestID;
-@property(retain, nonatomic) NSNumber *preferredIOBufferDuration; // @synthesize preferredIOBufferDuration=_preferredIOBufferDuration;
-@property(readonly) _Bool proResRawCaptureEnabled;
-@property(nonatomic) _Bool reactionEffectsEnabled; // @synthesize reactionEffectsEnabled=_reactionEffectsEnabled;
-@property(nonatomic) _Bool reactionEffectsSupported; // @synthesize reactionEffectsSupported=_reactionEffectsSupported;
-@property(retain, nonatomic) AVAudioFormat *remoteIOOutputFormat; // @synthesize remoteIOOutputFormat=_remoteIOOutputFormat;
-@property(retain, nonatomic) FigCaptureSourceVideoFormat *requiredFormat; // @synthesize requiredFormat=_requiredFormat;
-@property(nonatomic) CDStruct_bc6a056e requiredMaxFrameRate; // @synthesize requiredMaxFrameRate=_requiredMaxFrameRate;
-@property(nonatomic) CDStruct_bc6a056e requiredMinFrameRate; // @synthesize requiredMinFrameRate=_requiredMinFrameRate;
-@property(readonly, nonatomic) SCVideoStreamAnalyzer *sensitiveContentAnalyzer; // @synthesize sensitiveContentAnalyzer=_sensitiveContentAnalyzer;
-@property(nonatomic) _Bool sensitiveContentAnalyzerEnabled; // @synthesize sensitiveContentAnalyzerEnabled=_sensitiveContentAnalyzerEnabled;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *sensitiveContentAnalyzerXPCObject; // @synthesize sensitiveContentAnalyzerXPCObject=_sensitiveContentAnalyzerXPCObject;
-@property(nonatomic) _Bool sensorHDREnabled; // @synthesize sensorHDREnabled=_sensorHDREnabled;
-@property(nonatomic) float simulatedAperture; // @synthesize simulatedAperture=_simulatedAperture;
 @property(nonatomic) _Bool smartCameraEnabled;
-@property(nonatomic, getter=isSmartFramingEnabled) _Bool smartFramingEnabled; // @synthesize smartFramingEnabled=_smartFramingEnabled;
-@property(readonly, nonatomic) struct OpaqueFigCaptureSource *source;
-@property(readonly, nonatomic) int sourceDeviceType;
-@property(copy, nonatomic) NSString *sourceID; // @synthesize sourceID=_sourceID;
-@property(readonly, nonatomic) int sourcePosition;
-@property(readonly, nonatomic) int sourceType;
-@property(nonatomic) _Bool spatialOverCaptureEnabled; // @synthesize spatialOverCaptureEnabled=_spatialOverCaptureEnabled;
-@property(nonatomic) _Bool studioLightingEnabled; // @synthesize studioLightingEnabled=_studioLightingEnabled;
-@property(nonatomic, getter=isStudioLightingSupported) _Bool studioLightingSupported; // @synthesize studioLightingSupported=_studioLightingSupported;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool variableFrameRateVideoCaptureEnabled; // @synthesize variableFrameRateVideoCaptureEnabled=_variableFrameRateVideoCaptureEnabled;
-@property(nonatomic) int videoStabilizationStrength; // @synthesize videoStabilizationStrength=_videoStabilizationStrength;
-@property(nonatomic) float videoZoomFactor; // @synthesize videoZoomFactor=_videoZoomFactor;
-@property(nonatomic) float videoZoomRampAcceleration; // @synthesize videoZoomRampAcceleration=_videoZoomRampAcceleration;
 
 @end
 

@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)dateByAddingTimeInterval: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)p/Ø°¶þØ°¶þ;
 

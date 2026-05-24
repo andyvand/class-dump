@@ -7,13 +7,6 @@
 @interface BlastDoor._BlastDoorCKRecordZoneID
 {
     id zoneName;
-    id ownerName;
-    id anonymousCKUserID;
-    id databaseScope;
-    id ZoneNameKey;
-    id OwnerNameKey;
-    id AnonymousCKUserIDKey;
-    id DatabaseScopeKey;
 }
 
 + (void);

@@ -6,34 +6,25 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSArray, NSScrubber, NSString;
+@class NSScrubber;
 
 __attribute__((visibility("hidden")))
 @interface _NSUserDefinedScrubberTouchBarItem : NSTouchBarItem
 {
     NSScrubber *_scrubber;
-    NSArray *_keyChars;
-    NSArray *_labels;
-    NSString *_label;
 }
 
 - (id);
 - (void);
-- (long long);
+- (long long)IOAccessoryManager;
 - (id);
+- (void);
 - (void);
-- (void);
-- (id)Picker:didChangeCurrentModeFrom:to: /* Error: Ran out of types for this method. */;
+- (id)colorPicker:didChangeCurrentModeFrom:to: /* Error: Ran out of types for this method. */;
 - (id)ÿÿ$;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

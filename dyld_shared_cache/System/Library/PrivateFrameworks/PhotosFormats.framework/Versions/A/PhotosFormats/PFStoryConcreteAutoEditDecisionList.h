@@ -9,23 +9,19 @@
 @interface PFStoryConcreteAutoEditDecisionList
 {
     NSString *_songAssetIdentifier;
-    NSArray *_clips;
 }
 
-- (id);
+- (id)Th;
 - (long long);
-- (_Bool);
+- (_Bool)__oslogstring;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)_replacementView;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *clips; // @synthesize clips=_clips;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) long long numberOfClips;
-@property(readonly, nonatomic) NSString *songAssetIdentifier; // @synthesize songAssetIdentifier=_songAssetIdentifier;
 
 @end
 

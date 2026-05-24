@@ -10,7 +10,7 @@
 {
 }
 
-- (long long)ages: /* Error: Ran out of types for this method. */;
+- (long long)setSendAssetURLsToMessages: /* Error: Ran out of types for this method. */;
 
 @end
 

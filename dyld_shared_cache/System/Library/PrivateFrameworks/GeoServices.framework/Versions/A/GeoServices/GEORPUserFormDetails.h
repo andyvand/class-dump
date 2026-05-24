@@ -9,40 +9,34 @@
 @interface GEORPUserFormDetails
 {
     PBUnknownFields *_unknownFields;
-    int _userFormStyle;
-    struct {
-        unsigned int has_userFormStyle:1;
-    } _flags;
 }
 
-+ (_Bool)lizedIncidentSpokenTexts:(id)arg1;
++ (_Bool)setLocalizedIncidentSpokenTexts:(id)arg1;
 - (id);
 - (int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)$!<EX-SpouseName>!$_;
 - (int);
-- (void);
+- (void);
+- (id)J;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void),V_ssrAssets;
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id)ecureConnectEnd"b1"has_secureConnectStart"b1"has_multipathServiceType"b1"has_protocolName"b1"has_resourceFetchType"b1"has_isMultipath"b1"has_proxyConnection"b1"has_reusedConnection"b1"has_usedCellular"b1};
-- (id)g;
+- (id)debugLog;
 - (id)ôLÄMðVÀY[,]^`;
 - (id)an only be called once per object;
 - (void)mtÎOqP@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasUserFormStyle;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) int userFormStyle;
 
 @end
 

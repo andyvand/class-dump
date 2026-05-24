@@ -7,10 +7,6 @@
 @interface IMSharedUtilities.RemoteIntentFileMirrorRequestTask
 {
     id transferGUIDs;
-    id isCancelled;
-    id result;
-    id continuations;
-    id activeTask;
 }
 
 @end

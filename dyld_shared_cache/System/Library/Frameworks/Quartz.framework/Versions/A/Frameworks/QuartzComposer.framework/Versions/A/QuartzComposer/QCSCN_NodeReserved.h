@@ -4,38 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString, QCSCN_Camera, QCSCN_Geometry, QCSCN_Light, QCSCN_Morpher, QCSCN_Node, QCSCN_Skinner;
-
 @interface QCSCN_NodeReserved
 {
     struct __C3DNode *_node;
-    QCSCN_Node *_parent;
-    struct __C3DScene *_sceneRef;
-    NSMutableArray *_subnodes;
-    QCSCN_Light *_light;
-    QCSCN_Geometry *_geometry;
-    QCSCN_Camera *_camera;
-    QCSCN_Skinner *_skinner;
-    QCSCN_Morpher *_morpher;
-    unsigned int _lightLoaded:1;
-    unsigned int _geometryLoaded:1;
-    unsigned int _cameraLoaded:1;
-    unsigned int _skinnerLoaded:1;
-    unsigned int _morpherLoaded:1;
-    unsigned int _presentationInstance:1;
-    NSMutableDictionary *_animations;
-    struct __C3DTransforms *_transform;
-    float _opacity;
-    _Bool _hidden;
-    int _renderingOrder;
-    NSString *_name;
-    NSString *_identifier;
-    NSMutableDictionary *_valueForKey;
-    id _rendererDelegate;
 }
 
 - (void);
-- (id);
+- (id), content_rating, content_rating_level, is_user_disabled, bpm, genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, category_id, location_kind_id, version, display_version, classical_work, classical_movement, classical_movement_count, classical_movement_number) SELECT item_pid, title, sort_title, IFNULL(disc_count, 0), IFNULL(track_count, 0), total_time_ms, IFNULL(year, 0), location, file_size, integrity, is_audible_audio_book, date_modified, media_kind, content_rating, content_rating_level, is_user_disabled, IFNULL(bpm, 0), genius_id, comment, grouping, description, description_long, collection_description, copyright, pending_genius_checksum, IFNULL(category_id, 0), location_kind_id, version, display_version, classical_work, classical_movement, classical_movement_count, classical_movement_number FROM item_extra;
 - (void);
 
 @end

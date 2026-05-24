@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UITraitRegistration
 {
     _Bool _targetIsSender;
-    CDUnknownBlockType _handler;
-    id _target;
-    SEL _action;
 }
 
 - (_Bool);
@@ -20,25 +15,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)1YÐ1Â0@ù
 × ;
-- (void)sGesture;
-- (CDUnknownBlockType)ntDidChange:fromContent: /* Error: Ran out of types for this method. */;
-- (id)bleMirroring;
-- (SEL)phaThresholdD;
+- (void)longPressGesture;
+- (CDUnknownBlockType)_contentDidChange:fromContent: /* Error: Ran out of types for this method. */;
+- (id)_canDisableMirroring;
+- (SEL)replayAlphaThresholdD;
 - (void)ll, _UIDragLiftEvent);
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(nonatomic) _Bool targetIsSender; // @synthesize targetIsSender=_targetIsSender;
 
 @end
 

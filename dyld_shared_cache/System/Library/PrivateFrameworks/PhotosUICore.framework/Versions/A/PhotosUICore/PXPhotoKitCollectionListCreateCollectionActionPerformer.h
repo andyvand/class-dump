@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXPhotoKitCollectionListActionPerformer.h>
 
-@class NSArray, PHCollection;
+@class PHCollection;
 
 @interface PXPhotoKitCollectionListCreateCollectionActionPerformer : PXPhotoKitCollectionListActionPerformer
 {
     PHCollection *_createdCollection;
-    NSArray *_preselectedAssets;
-    CDUnknownBlockType _finishedPickingBlock;
 }
 
 + (id);
@@ -28,9 +26,7 @@
 - (void)`ÿÿ [Ê;
 
 // Remaining properties
-@property(retain, nonatomic) PHCollection *createdCollection; // @synthesize createdCollection=_createdCollection;
 @property(copy, nonatomic) CDUnknownBlockType finishedPickingBlock; // @synthesize finishedPickingBlock=_finishedPickingBlock;
-@property(retain, nonatomic) NSArray *preselectedAssets; // @synthesize preselectedAssets=_preselectedAssets;
 
 @end
 

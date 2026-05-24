@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface MLCDeviceCPU
 {
     int _deviceType;
-    NSArray *_deviceList;
-    NSData *_deviceHeap;
 }
 
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (id);
@@ -34,28 +30,28 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
+- (void)[;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -71,15 +67,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)4i;
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (id)1;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -87,18 +86,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)!;
+- (id)J!;
 - (void);
 - (void);
-- (void);
+- (void)(ĀJ;
 - (id);
-- (id);
+- (id)!;
 - (CDStruct_5250fed0);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -109,7 +106,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -135,7 +131,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -176,7 +172,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -187,28 +183,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)encodeToCommandBuffer...] input matrix may not be nil;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSData *deviceHeap; // @synthesize deviceHeap=_deviceHeap;
-@property(readonly, nonatomic) NSArray *deviceList; // @synthesize deviceList=_deviceList;
-@property(readonly, nonatomic) int deviceType; // @synthesize deviceType=_deviceType;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

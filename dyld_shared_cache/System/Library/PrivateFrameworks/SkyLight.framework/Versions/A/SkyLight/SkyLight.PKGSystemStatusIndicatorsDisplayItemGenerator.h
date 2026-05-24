@@ -7,14 +7,6 @@
 @interface SkyLight.PKGSystemStatusIndicatorsDisplayItemGenerator
 {
     id delegate;
-    id displays;
-    id indicators;
-    id suspendDisplayItemUpdates;
-    id allowMediaDotsOverControlCenter;
-    id displayItemContainers;
-    id ccLocationController;
-    id ccMediaController;
-    id screenCornerMediaController;
 }
 
 @end

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHCollection, PHFetchOptions, PHFetchResult;
+@class PHFetchResult;
 @protocol PXCollectionFetchOperationDelegate;
 
 @interface PXCollectionFetchOperation
 {
     id <PXCollectionFetchOperationDelegate> _delegate;
-    PHFetchOptions *_fetchOptions;
-    PHCollection *_collection;
-    PHFetchResult *_outputFetchResult;
 }
 
 + (id);
@@ -33,9 +30,6 @@
 - (id)À;
 
 // Remaining properties
-@property(readonly, nonatomic) PHCollection *collection; // @synthesize collection=_collection;
-@property(nonatomic) __weak id <PXCollectionFetchOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) PHFetchOptions *fetchOptions; // @synthesize fetchOptions=_fetchOptions;
 @property(retain, nonatomic) PHFetchResult *outputFetchResult; // @synthesize outputFetchResult=_outputFetchResult;
 
 @end

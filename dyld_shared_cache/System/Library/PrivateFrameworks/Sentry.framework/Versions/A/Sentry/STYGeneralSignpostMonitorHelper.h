@@ -6,14 +6,11 @@
 
 #import <Sentry/STYSignpostsMonitorHelper.h>
 
-@class STYAbcHelper, SignpostSupportSubsystemCategoryAllowlist;
+@class SignpostSupportSubsystemCategoryAllowlist;
 
 @interface STYGeneralSignpostMonitorHelper : STYSignpostsMonitorHelper
 {
     SignpostSupportSubsystemCategoryAllowlist *_allowList;
-    _Bool _seedUserMode;
-    _Bool _avoidGeneratingTailspinsForAppLaunches;
-    STYAbcHelper *_abcHelper;
 }
 
 - (_Bool);
@@ -32,8 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) STYAbcHelper *abcHelper; // @synthesize abcHelper=_abcHelper;
-@property _Bool avoidGeneratingTailspinsForAppLaunches; // @synthesize avoidGeneratingTailspinsForAppLaunches=_avoidGeneratingTailspinsForAppLaunches;
 @property _Bool seedUserMode; // @synthesize seedUserMode=_seedUserMode;
 
 @end

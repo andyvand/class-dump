@@ -6,13 +6,10 @@
 
 #import <OfficeImport/TSUZipArchive.h>
 
-@class TSUZipEntry;
-
 __attribute__((visibility("hidden")))
 @interface TSUContainedZipArchive : TSUZipArchive
 {
     TSUZipArchive *_zipArchive;
-    TSUZipEntry *_entry;
 }
 
 + (id);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void)sShowCompleteCurrencyList;
+- (void)SFTDefaultsShowCompleteCurrencyList;
 
 @end
 

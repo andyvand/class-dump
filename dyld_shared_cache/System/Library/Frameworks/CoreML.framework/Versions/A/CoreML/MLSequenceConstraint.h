@@ -9,12 +9,11 @@
 @interface MLSequenceConstraint
 {
     MLFeatureDescription *_valueDescription;
-    struct _NSRange _countRange;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)writeMTLGenericBVHSizesKernel_1_5;
+- (id)at =;
 - (struct _NSRange);
 - (id);
 - (void);
@@ -23,7 +22,6 @@
 - (void)) dimension is not supported;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange countRange; // @synthesize countRange=_countRange;
 @property(readonly, nonatomic) MLFeatureDescription *valueDescription; // @synthesize valueDescription=_valueDescription;
 
 @end

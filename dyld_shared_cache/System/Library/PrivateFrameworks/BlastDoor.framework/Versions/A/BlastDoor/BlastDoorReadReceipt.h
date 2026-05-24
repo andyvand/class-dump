@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMetadata, NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorReadReceipt
 {
@@ -14,7 +14,7 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -23,12 +23,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *groupID;
-@property(nonatomic, readonly) NSString *groupName;
-@property(nonatomic, readonly) _Bool has_originalMessageTimestamp;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) unsigned long long originalMessageTimestamp;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
 
 @end
 

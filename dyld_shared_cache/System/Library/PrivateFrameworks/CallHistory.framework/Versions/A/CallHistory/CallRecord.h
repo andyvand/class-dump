@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHHandle, CHManagedHandle, CHRecentCall, NSDate, NSNumber, NSSet, NSString, NSURL, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CallRecord
 {
 }
 
-+ (id);
++ (id)ction.class];
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -35,19 +35,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
+- (id)=;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)i;
 - (id);
 - (id);
 - (id);
@@ -59,76 +59,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *address; // @dynamic address;
-@property(copy, nonatomic) NSNumber *answered; // @dynamic answered;
-@property(copy, nonatomic) NSNumber *autoAnsweredReason; // @dynamic autoAnsweredReason;
-@property(copy, nonatomic) NSString *blockedByExtension; // @dynamic blockedByExtension;
-@property(copy, nonatomic) NSString *blockedByExtensionName; // @dynamic blockedByExtensionName;
-@property(copy, nonatomic) NSNumber *callDirectoryIdentityType; // @dynamic callDirectoryIdentityType;
-@property(copy, nonatomic) NSNumber *call_category; // @dynamic call_category;
-@property(copy, nonatomic) NSNumber *calltype; // @dynamic calltype;
-@property(nonatomic) unsigned int chCallStatus;
-@property(readonly, copy, nonatomic) NSSet *chEmergencyMediaItems;
-@property(readonly, nonatomic) long long chHandleType;
-@property(readonly, copy, nonatomic) CHHandle *chInitiator;
-@property(readonly, nonatomic) CHRecentCall *chRecentCall;
-@property(readonly, copy, nonatomic) NSSet *chRemoteParticipantHandles;
-@property(copy, nonatomic) NSNumber *communicationTrustScore; // @dynamic communicationTrustScore;
-@property(copy, nonatomic) NSUUID *conversationID; // @dynamic conversationID;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(copy, nonatomic) NSNumber *disconnected_cause; // @dynamic disconnected_cause;
-@property(copy, nonatomic) NSNumber *duration; // @dynamic duration;
-@property(retain, nonatomic) NSSet *emergencyMediaItems; // @dynamic emergencyMediaItems;
-@property(copy, nonatomic) NSNumber *face_time_data; // @dynamic face_time_data;
-@property(copy, nonatomic) NSNumber *filtered_out_reason; // @dynamic filtered_out_reason;
-@property(copy, nonatomic) NSNumber *handle_type; // @dynamic handle_type;
-@property(copy, nonatomic) NSNumber *hasMessage; // @dynamic hasMessage;
-@property(copy, nonatomic) NSString *identityExtension; // @dynamic identityExtension;
-@property(copy, nonatomic) NSURL *imageURL; // @dynamic imageURL;
-@property(retain, nonatomic) CHManagedHandle *initiator; // @dynamic initiator;
-@property(copy, nonatomic) NSString *iso_country_code; // @dynamic iso_country_code;
-@property(copy, nonatomic) NSNumber *junkConfidence; // @dynamic junkConfidence;
-@property(copy, nonatomic) NSString *junkIdentificationCategory; // @dynamic junkIdentificationCategory;
-@property(copy, nonatomic) NSUUID *localParticipantUUID; // @dynamic localParticipantUUID;
-@property(copy, nonatomic) NSString *location; // @dynamic location;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSNumber *number_availability; // @dynamic number_availability;
-@property(copy, nonatomic) NSNumber *originated; // @dynamic originated;
-@property(copy, nonatomic) NSString *originatingDeviceName; // @dynamic originatingDeviceName;
-@property(copy, nonatomic) NSNumber *originatingUIType; // @dynamic originatingUIType;
-@property(copy, nonatomic) NSUUID *outgoingLocalParticipantUUID; // @dynamic outgoingLocalParticipantUUID;
-@property(copy, nonatomic) NSUUID *participantGroupUUID; // @dynamic participantGroupUUID;
-@property(copy, nonatomic) NSNumber *read; // @dynamic read;
-@property(copy, nonatomic) NSUUID *reminderUUID; // @dynamic reminderUUID;
-@property(retain, nonatomic) NSSet *remoteParticipantHandles; // @dynamic remoteParticipantHandles;
-@property(copy, nonatomic) NSNumber *screenSharingType; // @dynamic screenSharingType;
-@property(copy, nonatomic) NSString *service_provider; // @dynamic service_provider;
-@property(readonly, nonatomic) _Bool supportsAutoAnsweredReason;
-@property(readonly, nonatomic) _Bool supportsBlockedBy;
-@property(readonly, nonatomic) _Bool supportsBlockedByName;
-@property(readonly, nonatomic) _Bool supportsCallCategory;
-@property(readonly, nonatomic) _Bool supportsCallDirectoryIdentityType;
-@property(readonly, nonatomic) _Bool supportsCommunicationTrustScore;
-@property(readonly, nonatomic) _Bool supportsEmergencyMedia;
-@property(readonly, nonatomic) _Bool supportsHandleType;
-@property(readonly, nonatomic) _Bool supportsHasMessage;
-@property(readonly, nonatomic) _Bool supportsIdentityExtension;
-@property(readonly, nonatomic) _Bool supportsImageURL;
-@property(readonly, nonatomic) _Bool supportsInitiator;
-@property(readonly, nonatomic) _Bool supportsJunkIdentificationCategory;
-@property(readonly, nonatomic) _Bool supportsLocalParticipantUUID;
-@property(readonly, nonatomic) _Bool supportsOriginatingDeviceName;
-@property(readonly, nonatomic) _Bool supportsOriginatingUIType;
-@property(readonly, nonatomic) _Bool supportsOutgoingLocalParticipantUUID;
-@property(readonly, nonatomic) _Bool supportsParticipantGroupUUID;
-@property(readonly, nonatomic) _Bool supportsReminderUUID;
-@property(readonly, nonatomic) _Bool supportsRemoteParticipantHandles;
-@property(readonly, nonatomic) _Bool supportsScreenSharingType;
-@property(readonly, nonatomic) _Bool supportsServiceProvider;
-@property(readonly, nonatomic) _Bool supportsVerificationStatus;
-@property(copy, nonatomic) NSString *unique_id; // @dynamic unique_id;
-@property(nonatomic) _Bool usedEmergencyVideoStreaming; // @dynamic usedEmergencyVideoStreaming;
-@property(copy, nonatomic) NSNumber *verificationStatus; // @dynamic verificationStatus;
-@property(nonatomic) _Bool wasEmergencyCall; // @dynamic wasEmergencyCall;
 
 @end
 

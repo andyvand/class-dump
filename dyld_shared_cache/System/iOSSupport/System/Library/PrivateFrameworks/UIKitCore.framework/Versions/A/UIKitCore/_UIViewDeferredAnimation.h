@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIViewDeferredAnimation
 {
     _Bool _finalized;
-    _Bool _autoreverses;
-    NSString *_key;
-    double _duration;
-    id _initialValue;
-    double _repeatCount;
 }
 
 - (void);
@@ -23,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (void);
+- (id)delObject.identifiers=%@>;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,22 +26,15 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)Dictionary"24;
 - (_Bool)int=dd}{CGSize=dd}}16@48Q56@64q72B80;
-- (void)ext:(id)arg1 withTextInput:withView: /* Error: Ran out of types for this method. */;
-- (void)nControllerSlide;
+- (void)initForType:(id)arg1 withText:withTextInput:withView: /* Error: Ran out of types for this method. */;
+- (void)UIInputViewAnimationControllerSlide;
 - (_Bool)ì;
 - (void)tReplacement;
-- (_Bool)larBG;
-- (void)ellCIegg_;
+- (_Bool)VRegularBG;
+- (void)So15UITableViewCellCIegg_;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *animationFrames;
-@property(nonatomic) _Bool autoreverses; // @synthesize autoreverses=_autoreverses;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic, getter=isFinalized) _Bool finalized; // @synthesize finalized=_finalized;
-@property(retain, nonatomic) id initialValue; // @synthesize initialValue=_initialValue;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) double repeatCount; // @synthesize repeatCount=_repeatCount;
 
 @end
 

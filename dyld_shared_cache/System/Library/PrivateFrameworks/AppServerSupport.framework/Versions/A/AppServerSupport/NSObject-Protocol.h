@@ -7,14 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (id)2;
+- (id);
+- (Class);
+- (unsigned long long)�'1;
+- (_Bool)tory.2ICmsN/Sources/PrintingCore/SNMPQuery.cpp;
+- (NSString *)Nonce;
+- (_Bool)d;
+- (_Bool)assTMLocalSnapshotMessenger%@%@%@%@%@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

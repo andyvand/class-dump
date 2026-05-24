@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKImageView, NSArray, NSImage, NSString, _MKUILabel;
+@class MKImageView, NSImage;
 
 @interface MKTransitItemIncidentView
 {
     MKImageView *_incidentIconImageView;
-    _Bool _needsConstraintsRebuild;
-    NSArray *_constraints;
-    _MKUILabel *_messageLabel;
-    struct NSEdgeInsets _contentInsets;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)o snapshot identifer=%@;
+- (void)alitionID not found, unable to snapshot identifer=%@;
+- (void)@;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -28,20 +24,11 @@
 - (void);
 - (struct NSEdgeInsets);
 - (void);
-- (id);
-- (void)dChangeActiveTileGroup: /* Error: Ran out of types for this method. */;
+- (id)ic}@ deallocated;
+- (void)resourceManifestManagerDidChangeActiveTileGroup: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct NSEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSImage *incidentIcon;
-@property(copy, nonatomic) NSString *incidentMessage;
-@property(readonly) Class superclass;
 
 @end
 

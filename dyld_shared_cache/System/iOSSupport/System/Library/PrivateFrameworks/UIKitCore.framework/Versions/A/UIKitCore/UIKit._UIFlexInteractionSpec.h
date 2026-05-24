@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIKit._UIFlexInteractionLargeVariantSpec, UIKit._UIFlexInteractionLoupeVariantSpec, UIKit._UIFlexInteractionMenuVariantSpec, UIKit._UIFlexInteractionSmallLoupeVariantSpec, UIKit._UIFlexInteractionSmallVariantSpec, UIKit._UIFlexInteractionUltraSmallVariantSpec;
+@class UIKit._UIFlexInteractionUltraSmallVariantSpec;
 
 @interface UIKit._UIFlexInteractionSpec
 {
     UIKit._UIFlexInteractionUltraSmallVariantSpec *ultraSmall;
-    UIKit._UIFlexInteractionSmallVariantSpec *small;
-    UIKit._UIFlexInteractionLargeVariantSpec *large;
-    UIKit._UIFlexInteractionLoupeVariantSpec *loupe;
-    UIKit._UIFlexInteractionSmallLoupeVariantSpec *smallLoupe;
-    UIKit._UIFlexInteractionMenuVariantSpec *menu;
 }
 
 + (id);
+- (id)ved Outgoing Plain Text Message From Push Handler From %@ To %@;
+- (id)Keychain;
+- (void)ExceededMaxFetchChatAttempts;
+- (void)apple.IMDaemonCore.IMDCollaborationNoticeController.NoticeArrayQueue;
+- (void)chat = %@;;
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id)ttributes: /* Error: Ran out of types for this method. */;
+- (id)__MPModelRelationshipPlayEventArtist__MAPPING_MISSING__;
+- (id)_fulfillPromisedFocusRegionForLayoutAttributes: /* Error: Ran out of types for this method. */;
 - (void)¨oþ0Û;
 - (id);
 - (void)´¾l;
 - (id)aÿ;
 
 // Remaining properties
-@property(nonatomic, retain) UIKit._UIFlexInteractionLargeVariantSpec *large; // @synthesize large;
-@property(nonatomic, retain) UIKit._UIFlexInteractionLoupeVariantSpec *loupe; // @synthesize loupe;
-@property(nonatomic, retain) UIKit._UIFlexInteractionMenuVariantSpec *menu; // @synthesize menu;
-@property(nonatomic, retain) UIKit._UIFlexInteractionSmallVariantSpec *small; // @synthesize small;
-@property(nonatomic, retain) UIKit._UIFlexInteractionSmallLoupeVariantSpec *smallLoupe; // @synthesize smallLoupe;
 @property(nonatomic, retain) UIKit._UIFlexInteractionUltraSmallVariantSpec *ultraSmall; // @synthesize ultraSmall;
 
 @end

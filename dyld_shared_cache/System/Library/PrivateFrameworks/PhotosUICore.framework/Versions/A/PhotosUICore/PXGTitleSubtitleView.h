@@ -11,7 +11,6 @@
 @interface PXGTitleSubtitleView : PXTitleSubtitleNSLabel
 {
     PXGTitleSubtitleViewConfiguration *_userData;
-    struct CGRect _clippingRect;
 }
 
 - (void);
@@ -25,19 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(copy, nonatomic) PXGTitleSubtitleViewConfiguration *userData; // @synthesize userData=_userData;
 
 @end

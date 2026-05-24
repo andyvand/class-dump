@@ -11,8 +11,6 @@
 @interface RTReachabilityManager : RTService
 {
     _Bool _observingReachabilityChanges;
-    NWPathEvaluator *_pathEvaluator;
-    unsigned long long _currentReachability;
 }
 
 + (id);
@@ -30,14 +28,13 @@
 - (void)0@ù
 × ;
 - (void)RedactionDetails";
-- (void)ntage_of_days_with_static_motion_bucketed;
+- (void)percentage_of_days_with_static_motion_bucketed;
 - (void)ce stats for the same best identifier %@. Aborting fallback.;
 - (void)blocked by user defaults or feature flag;
 - (void)arted, identifier, %@;
 - (void)location, %{sensitive}@;
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentReachability; // @synthesize currentReachability=_currentReachability;
 @property(retain, nonatomic) NWPathEvaluator *pathEvaluator; // @synthesize pathEvaluator=_pathEvaluator;
 
 @end

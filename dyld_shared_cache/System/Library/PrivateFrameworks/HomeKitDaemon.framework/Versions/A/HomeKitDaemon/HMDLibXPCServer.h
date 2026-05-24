@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol HMDLibXPCInterfacing, HMDLibXPCServerDelegate, OS_dispatch_queue, OS_xpc_object;
+@class NSString;
+@protocol HMDLibXPCServerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDLibXPCServer
 {
     id <HMDLibXPCServerDelegate> _delegate;
-    NSString *_name;
-    id <HMDLibXPCInterfacing> _libXPCInterface;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_xpc_object> *_listenerConnection;
 }
 
 + (id)B;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)6;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (id)Aáð!ÌGù°1Â0@ù
 × ;
-- (id)ProfileEnabled;
-- (void)iUserSettingsLogEventBackingStoreControllerRunStateNotRunningDueToError;
+- (id)ownerMediaContentProfileEnabled;
+- (void)HMDMultiUserSettingsLogEventBackingStoreControllerRunStateNotRunningDueToError;
 
 // Remaining properties
-@property __weak id <HMDLibXPCServerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) id <HMDLibXPCInterfacing> libXPCInterface; // @synthesize libXPCInterface=_libXPCInterface;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *listenerConnection; // @synthesize listenerConnection=_listenerConnection;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

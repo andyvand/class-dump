@@ -11,23 +11,21 @@
 @interface PHAssetCloudLocalStateProperties : PHAssetPropertySet
 {
     unsigned short _assetCloudLocalState;
-    NSManagedObjectID *_cloudMasterObjectID;
 }
 
 + (id);
-+ (unsigned short);
++ (unsigned short)TL9;
 + (_Bool);
 + (id);
 + (id);
 + (id)PHMemoryCurationAvailabilityOptionMinimumDurationForLongCurationKey;
 + (id)ÿ´n;
 - (id);
-- (unsigned short);
-- (void)s;
+- (unsigned short)L;
+- (void)PHLivePhotoExportSessionOptions;
 - (id)d failure with nil error;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short assetCloudLocalState; // @synthesize assetCloudLocalState=_assetCloudLocalState;
 @property(readonly, nonatomic) NSManagedObjectID *cloudMasterObjectID; // @synthesize cloudMasterObjectID=_cloudMasterObjectID;
 
 @end

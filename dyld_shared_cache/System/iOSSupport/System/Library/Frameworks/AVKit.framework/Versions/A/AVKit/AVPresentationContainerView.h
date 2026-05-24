@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPresentationContainerViewAppearanceProxy, AVPresentationContainerViewLayer, UIView;
+@class AVPresentationContainerViewLayer;
 
 __attribute__((visibility("hidden")))
 @interface AVPresentationContainerView
 {
     _Bool _counterRotatingContentView;
-    _Bool _wantsAppearanceConfigValues;
-    _Bool _beingPresented;
-    _Bool _beingDismissed;
-    _Bool _willBeginOrientationChange;
-    UIView *_presentationContainerContentView;
-    long long _fromOrientation;
-    long long _toOrientation;
 }
 
 + (Class);
@@ -24,20 +17,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
+- (void)._pG;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
+- (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (double);
 - (struct CGAffineTransform);
 - (long long);
@@ -45,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (_Bool);
-- (void);
+- (void)%ld records from index %ld;
 - (void);
 - (double);
 - (_Bool);
@@ -54,21 +47,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (double);
+- (double)7;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AVPresentationContainerViewAppearanceProxy *appearanceProxy;
-@property(nonatomic, getter=isBeingDismissed) _Bool beingDismissed; // @synthesize beingDismissed=_beingDismissed;
-@property(nonatomic, getter=isBeingPresented) _Bool beingPresented; // @synthesize beingPresented=_beingPresented;
-@property(nonatomic, getter=isCounterRotatingContentView) _Bool counterRotatingContentView; // @synthesize counterRotatingContentView=_counterRotatingContentView;
-@property(nonatomic) long long fromOrientation; // @synthesize fromOrientation=_fromOrientation;
 @property(readonly, nonatomic) AVPresentationContainerViewLayer *layer; // @dynamic layer;
-@property(nonatomic) __weak UIView *presentationContainerContentView; // @synthesize presentationContainerContentView=_presentationContainerContentView;
-@property(nonatomic) long long toOrientation; // @synthesize toOrientation=_toOrientation;
-@property(nonatomic) _Bool wantsAppearanceConfigValues; // @synthesize wantsAppearanceConfigValues=_wantsAppearanceConfigValues;
-@property(nonatomic) _Bool willBeginOrientationChange; // @synthesize willBeginOrientationChange=_willBeginOrientationChange;
 
 @end
 

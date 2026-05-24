@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFOptionalBool;
+@class NSData, NSString;
 
 @protocol _SFPBRFShowMoreOnTap
+- (NSString *);
+- (NSData *)appendThreadID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *affordanceLabel;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFOptionalBool *shows_without_truncation;
 @end
 

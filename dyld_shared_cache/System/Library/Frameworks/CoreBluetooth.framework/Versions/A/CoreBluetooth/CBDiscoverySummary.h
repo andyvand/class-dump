@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)fp_realPathRelationshipToItemAtRealPathURL:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) double scanTime; // @synthesize scanTime=_scanTime;

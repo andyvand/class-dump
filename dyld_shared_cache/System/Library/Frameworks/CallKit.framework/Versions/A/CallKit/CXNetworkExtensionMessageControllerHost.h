@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableSet, NSString, NSXPCListener;
-
 @interface CXNetworkExtensionMessageControllerHost
 {
     struct os_unfair_lock_s _accessorLock;
-    NSMutableSet *_connections;
-    NSMapTable *_delegateToQueue;
-    NSXPCListener *_xpcListener;
 }
 
 - (void);
@@ -20,7 +15,7 @@
 - (void);
 - (void);
 - (struct os_unfair_lock_s);
-- (_Bool);
+- (_Bool)ing:(id)arg1 control character U+000E (SO) must be escaped to \u000E;
 - (id);
 - (void);
 - (id);
@@ -29,16 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(readonly, nonatomic) NSMutableSet *connections; // @synthesize connections=_connections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSMapTable *delegateToQueue; // @synthesize delegateToQueue=_delegateToQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSXPCListener *xpcListener; // @synthesize xpcListener=_xpcListener;
 
 @end
 

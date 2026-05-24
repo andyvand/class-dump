@@ -6,31 +6,27 @@
 
 #import <PhotoImaging/PIParallaxStyleParameter.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface PIParallaxStylePointParameter : PIParallaxStyleParameter
 {
     NSNumber *_xValue;
-    NSNumber *_yValue;
-    NSString *_unit;
 }
 
 - (_Bool);
+- (id)(;
+- (id);
+- (id);
+- (id)}AHJ};
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)ue: /* Error: Ran out of types for this method. */;
+- (void)setSanitizeQueue: /* Error: Ran out of types for this method. */;
 - (id)sidecar data source identifier;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *unit; // @synthesize unit=_unit;
 @property(readonly, nonatomic) NSNumber *xValue; // @synthesize xValue=_xValue;
-@property(readonly, nonatomic) NSNumber *yValue; // @synthesize yValue=_yValue;
 
 @end
 

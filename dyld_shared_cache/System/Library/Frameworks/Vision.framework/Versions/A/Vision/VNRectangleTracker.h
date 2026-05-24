@@ -6,25 +6,23 @@
 
 #import <Vision/VNTracker.h>
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VNRectangleTracker : VNTracker
 {
     NSMutableDictionary *_cornerTrackersImpl;
-    NSObject<OS_dispatch_queue> *_rectangleTrackingProcessingQueue;
 }
 
++ (id)@;
 + (id);
-+ (id);
-+ (id);
-+ (Class);
++ (id)sSiblingMothersElderSibling>!$_;
++ (Class)'];
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (_Bool);
 - (void)GImage from CVPixelBuffer;
 - (_Bool);

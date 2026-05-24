@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFActivity;
 @protocol HAP2CoAPIOConsumer;
 
 __attribute__((visibility("hidden")))
 @interface HAP2CoAPIOThreadQueueEntry
 {
     id <HAP2CoAPIOConsumer> _consumer;
-    unsigned long long _operationType;
-    CDUnknownBlockType _sessionBlock;
-    double _timeout;
-    HMFActivity *_activity;
 }
 
-- (long long);
-- (void)etAirplayDelegate: /* Error: Ran out of types for this method. */;
+- (long long);
+- (void)setAirplayDelegate: /* Error: Ran out of types for this method. */;
 
 @end
 

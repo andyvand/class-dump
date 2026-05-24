@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface FPGracePeriodTimer
 {
     CDUnknownBlockType _action;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    double _delay;
-    NSObject<OS_dispatch_source> *_timer;
-    double _expectedFiringTimeSinceReferenceDate;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)c;
 - (void);
 - (void);
 - (void)

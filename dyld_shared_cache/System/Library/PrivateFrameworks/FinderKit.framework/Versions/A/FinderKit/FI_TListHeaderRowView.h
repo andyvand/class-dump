@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TListHeaderCellView, NSMutableArray, NSObject, NSTrackingArea;
-@protocol TListHeaderRowViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface FI_TListHeaderRowView
 {
     struct TFENode _node;
-    long long _columnBeingDragged;
-    FI_TListHeaderCellView *_cellViewForDrag;
-    NSMutableArray *_cellViews;
-    long long _sortColumnIndex;
-    _Bool _isSortAscending;
-    NSTrackingArea *_headerTrackingArea;
-    _Bool _isCursorOverDivider;
-    struct TNSWeakPtr<NSObject<TListHeaderRowViewDelegate>> _delegate;
-    double _tableInset;
 }
 
 - (void);
@@ -38,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)initWithMessageListSelection:(const struct TFENode *)arg1 origin:actor:delegate:followUp: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -57,9 +45,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak NSObject<TListHeaderRowViewDelegate> *delegate;
-@property(nonatomic, getter=isSortAscending) _Bool sortAscending; // @synthesize sortAscending=_isSortAscending;
-@property(nonatomic) long long sortColumnIndex; // @synthesize sortColumnIndex=_sortColumnIndex;
 @property(nonatomic) double tableInset; // @synthesize tableInset=_tableInset;
 
 @end

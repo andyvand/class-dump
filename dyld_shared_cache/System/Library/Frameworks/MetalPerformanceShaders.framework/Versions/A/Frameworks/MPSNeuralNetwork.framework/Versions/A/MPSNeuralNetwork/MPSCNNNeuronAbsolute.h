@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)ompareLogicalOpForward;
 - (id);
 - (id)e...] destinationMatrices[%d].columns == %d, should match layer output feature channels == %d;
 

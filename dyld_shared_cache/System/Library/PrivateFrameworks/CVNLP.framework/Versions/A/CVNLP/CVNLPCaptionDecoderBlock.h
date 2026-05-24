@@ -6,98 +6,61 @@
 
 #import <CVNLP/CVNLPCaptionModelBase.h>
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface CVNLPCaptionDecoderBlock : CVNLPCaptionModelBase
 {
     unsigned long long _modelIndex;
-    void *_decoderPlan;
-    void *_decoderCtx;
-    NSObject<OS_dispatch_queue> *_decoderQueue;
-    CVNLPCaptionDecoderBlock *_nextBlock;
-    NSString *_metricString;
-    NSString *_metricCopyString;
-    CDStruct_2bc666a5 _decoderNet;
-    map_a5898371 _stateOutputEspressoBuffers;
-    map_a5898371 _stateInputEspressoBuffers;
-    map_241eb896 _stateInputEspressoBuffersShape;
-    vector_64acebbd _decoderInputNames;
-    CDStruct_0a65202a _attFeatsPlaceholderBlob;
-    CDStruct_0a65202a _scaleInput;
-    CDStruct_0a65202a _positionInput;
-    CDStruct_0a65202a _maskInput;
-    CDStruct_0a65202a _blockInput;
-    CDStruct_0a65202a _blockOutput;
 }
 
-- (map_a5898371);
-- (map_241eb896);
-- (map_a5898371);
+- (map_43b39b45);
+- (map_53a53aaf)�F';
+- (map_43b39b45);
 - (void);
 - (void);
 - (void);
+- (void)D3H;
+- (void)3*';
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)H1;
+- (void)/'1;
+- (void)';
+- (void);
 - (void);
 - (void);
 - (void);
+- (CDStruct_cf098810)�'1F';
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDStruct_0a65202a);
-- (void);
-- (void);
-- (CDStruct_0a65202a);
+- (void)�F';
+- (CDStruct_cf098810);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (CDStruct_0a65202a);
+- (CDStruct_cf098810)~;
 - (id);
 - (id);
-- (void *);
-- (CDStruct_2bc666a5);
-- (vector_64acebbd);
-- (void *);
+- (void *)4';
+- (CDStruct_e4961688);
+- (vector_1399404a);
+- (void *);
 - (void);
 - (void);
-- (CDStruct_0a65202a);
-- (CDStruct_0a65202a);
-- (CDStruct_0a65202a);
+- (CDStruct_cf098810);
+- (CDStruct_cf098810);
+- (CDStruct_cf098810);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)D'F';
 - (void);
 - (void);
-- (id);
 - (void);
+- (void)P;
+- (id)(;
+- (void)A;
 
 // Remaining properties
-@property(nonatomic) CDStruct_0a65202a attFeatsPlaceholderBlob; // @synthesize attFeatsPlaceholderBlob=_attFeatsPlaceholderBlob;
-@property(nonatomic) CDStruct_0a65202a blockInput; // @synthesize blockInput=_blockInput;
-@property(nonatomic) CDStruct_0a65202a blockOutput; // @synthesize blockOutput=_blockOutput;
-@property(nonatomic) void *decoderCtx; // @synthesize decoderCtx=_decoderCtx;
-@property(nonatomic) vector_64acebbd decoderInputNames; // @synthesize decoderInputNames=_decoderInputNames;
-@property(nonatomic) CDStruct_2bc666a5 decoderNet; // @synthesize decoderNet=_decoderNet;
-@property(nonatomic) void *decoderPlan; // @synthesize decoderPlan=_decoderPlan;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *decoderQueue; // @synthesize decoderQueue=_decoderQueue;
-@property(nonatomic) CDStruct_0a65202a maskInput; // @synthesize maskInput=_maskInput;
-@property(retain, nonatomic) NSString *metricCopyString; // @synthesize metricCopyString=_metricCopyString;
-@property(retain, nonatomic) NSString *metricString; // @synthesize metricString=_metricString;
 @property(nonatomic) unsigned long long modelIndex; // @synthesize modelIndex=_modelIndex;
-@property(retain, nonatomic) CVNLPCaptionDecoderBlock *nextBlock; // @synthesize nextBlock=_nextBlock;
-@property(nonatomic) CDStruct_0a65202a positionInput; // @synthesize positionInput=_positionInput;
-@property(nonatomic) CDStruct_0a65202a scaleInput; // @synthesize scaleInput=_scaleInput;
-@property(nonatomic) map_a5898371 stateInputEspressoBuffers; // @synthesize stateInputEspressoBuffers=_stateInputEspressoBuffers;
-@property(nonatomic) map_241eb896 stateInputEspressoBuffersShape; // @synthesize stateInputEspressoBuffersShape=_stateInputEspressoBuffersShape;
-@property(nonatomic) map_a5898371 stateOutputEspressoBuffers; // @synthesize stateOutputEspressoBuffers=_stateOutputEspressoBuffers;
 
 @end
 

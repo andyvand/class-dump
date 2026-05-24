@@ -7,14 +7,10 @@
 @interface IDSFileOperationPublisher
 {
     id baseDirectory;
-    id outputFormatStyle;
-    id maxFileCount;
-    id debugLogger;
-    id fileURLs;
 }
 
-- (id);
-- (void)ateExceeded;
+- (id)P;
+- (void)AttemptRateExceeded;
 
 @end
 

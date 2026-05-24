@@ -7,13 +7,12 @@
 @interface PXGPPTRowStackLayout
 {
     double _rowHeight;
-    long long _numberOfItemsPerRow;
 }
 
 - (id);
 - (struct CGSize);
 - (id);
-- (id);
+- (id);
 
 @end
 

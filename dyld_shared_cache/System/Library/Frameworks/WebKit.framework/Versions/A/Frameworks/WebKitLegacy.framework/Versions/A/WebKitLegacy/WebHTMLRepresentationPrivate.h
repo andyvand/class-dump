@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView, WebDataSource;
-@protocol WebPluginManualLoader;
+@class WebDataSource;
 
 __attribute__((visibility("hidden")))
 @interface WebHTMLRepresentationPrivate
 {
     WebDataSource *dataSource;
-    _Bool hasSentResponseToPlugin;
-    _Bool includedInWebKitStatistics;
-    id <WebPluginManualLoader> manualLoader;
-    NSView *pluginView;
 }
 
 @end

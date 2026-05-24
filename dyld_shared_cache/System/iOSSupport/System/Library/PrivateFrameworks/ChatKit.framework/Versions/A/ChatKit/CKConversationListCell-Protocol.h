@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversationListCellLayout;
+@class CKConversationListCellLayout, NSString;
 
 @protocol CKConversationListCell
++ (NSString *);
+- (void)saveShare:(CKConversationListCellLayout *)arg1 attemptNumber:forObject:accountID:container:qualityOfService:retryPrepHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (CKConversationListCellLayout *)E;
 
 // Remaining properties
 @property(retain, nonatomic) CKConversationListCellLayout *cellLayout;

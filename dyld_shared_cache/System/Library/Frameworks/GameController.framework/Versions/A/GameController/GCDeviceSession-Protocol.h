@@ -8,9 +8,9 @@
 @protocol OS_dispatch_queue;
 
 @protocol GCDeviceSession
+- (NSObject<OS_dispatch_queue> *)B;
 
 // Remaining properties
-@property(readonly) NSObject<OS_dispatch_queue> *sessionQueue;
 @property(readonly) NSObject<OS_dispatch_queue> *targetQueue;
 @end
 

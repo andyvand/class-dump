@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatServiceHistory
 {
     id issueReadingHistory;
-    id readingHistory;
-    id recipeHistory;
-    id puzzleHistory;
 }
 
 @end

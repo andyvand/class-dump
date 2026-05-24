@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAFAnalyticsEvent, NSObject;
-@protocol OS_dispatch_queue;
+@class AAFAnalyticsEvent;
 
 @interface AAFAnalyticsEventPCS
 {
     _Bool _areTestsEnabled;
-    _Bool _canSendMetrics;
-    _Bool _isAuthKitAvailable;
-    NSObject<OS_dispatch_queue> *_queue;
-    AAFAnalyticsEvent *_event;
 }
 
 + (_Bool);
@@ -33,15 +28,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)cklook;
 - (void)TION;
 
 // Remaining properties
-@property _Bool areTestsEnabled; // @synthesize areTestsEnabled=_areTestsEnabled;
-@property _Bool canSendMetrics; // @synthesize canSendMetrics=_canSendMetrics;
 @property(retain) AAFAnalyticsEvent *event; // @synthesize event=_event;
-@property _Bool isAuthKitAvailable; // @synthesize isAuthKitAvailable=_isAuthKitAvailable;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

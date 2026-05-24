@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)<;
 
 // Remaining properties
 @property(readonly) _Bool allowsTextInputForCurrentEditorType;

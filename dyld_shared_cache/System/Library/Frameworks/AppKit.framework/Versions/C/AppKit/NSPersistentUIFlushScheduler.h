@@ -10,20 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSPersistentUIFlushScheduler
 {
     id <NSPersistentUIFlushHandler> _handler;
-    struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _hysteresisBlock;
-    double _scheduledFlushDeadline;
-    double _scheduledFlushDate;
-    unsigned int _contiguousInactiveFlushCount;
-    unsigned int _disableRestorableStateWritingCounter;
-    _Bool _applicationIsActive;
 }
 
 - (void);
+- (void)allowsPersistentDNS;
+- (void)@ThW;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ing;
 - (void);
 - (void);
 - (void);

@@ -5,5 +5,8 @@
 //
 
 @protocol _RWIRelayToClientMessageReceiver
+- (void);
+- (void);
+- (void);
 @end
 

@@ -9,8 +9,6 @@
 @interface WFFocusConfigurationButton
 {
     _Bool _isDestructive;
-    NSString *_identifier;
-    NSString *_localizedTitle;
 }
 
 + (_Bool);
@@ -21,13 +19,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)k;
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isDestructive; // @synthesize isDestructive=_isDestructive;
-@property(readonly, copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end
 

@@ -9,11 +9,10 @@
 @interface PKImageSet
 {
     NSURL *_originCacheURL;
-    long long _version;
 }
 
 + (_Bool);
-+ (long long);
++ (long long)a;
 + (id);
 + (id);
 + (id);
@@ -31,17 +30,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
-- (long long);
+- (long long)P;
 - (id);
-- (void);
-- (void);
+- (void)IPAddressAttemptCount;
+- (void)availability;
 - (void)yName:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *originCacheURL; // @synthesize originCacheURL=_originCacheURL;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

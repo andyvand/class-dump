@@ -9,11 +9,11 @@
 }
 
 + (id);
++ (id);
 + (id);
++ (id)newTrashCollection;
 + (id);
-+ (id);
-+ (id);
-+ (int);
++ (int)changed bad type;
 + (id);
 + (id);
 

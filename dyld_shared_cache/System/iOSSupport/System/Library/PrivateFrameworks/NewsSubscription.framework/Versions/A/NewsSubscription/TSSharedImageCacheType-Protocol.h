@@ -7,6 +7,6 @@
 @class UIImage;
 
 @protocol TSSharedImageCacheType
-- (UIImage *)ssionManager;
+- (UIImage *)bundleCampaignSessionManager;
 @end
 

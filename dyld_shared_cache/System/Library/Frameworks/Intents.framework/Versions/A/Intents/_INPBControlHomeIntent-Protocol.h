@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBDateTimeRange, _INPBHomeUserTask, _INPBIntentMetadata;
+@class NSArray, _INPBDateTimeRange, _INPBHomeFilter, _INPBIntentMetadata;
 
 @protocol _INPBControlHomeIntent
-- (void)quiredWithWellnessMetadataPairToConfirm:(_INPBDateTimeRange *)arg1;
-- (_Bool)articipants: /* Error: Ran out of types for this method. */;
+- (void);
+- (_INPBIntentMetadata *)apshotsToKeep:%lu, age:%.0f; prevDateKept:%@; intervalSincePrevDateKept:%.0f } /* Error: Ran out of types for this method. */;
+- (_INPBHomeFilter *)| go to| watch) the hockey game;
+- (void)ecid-wtls5;
+- (void)primaryIPv6InterfaceDuration;
+- (void)confirmationRequiredWithWellnessMetadataPairToConfirm:(_INPBDateTimeRange *)arg1;
+- (_Bool)addAddParticipants: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contents;
-@property(readonly, nonatomic) unsigned long long contentsCount;
-@property(copy, nonatomic) NSArray *filters;
-@property(readonly, nonatomic) unsigned long long filtersCount;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(readonly, nonatomic) _Bool hasUserTask;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBDateTimeRange *time;
-@property(retain, nonatomic) _INPBHomeUserTask *userTask;
 @end
 

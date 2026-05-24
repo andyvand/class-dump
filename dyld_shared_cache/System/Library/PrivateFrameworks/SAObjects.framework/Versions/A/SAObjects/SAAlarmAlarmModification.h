@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSNumber, NSString, NSURL;
+@class NSArray;
 
 @interface SAAlarmAlarmModification : AceObject
 {
@@ -18,34 +18,21 @@
 - (void);
 - (id);
 - (id);
+- (void)i;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)?5;
 - (void);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *addedFrequency;
-@property(copy, nonatomic) NSURL *alarmId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *enabled;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *hour;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSNumber *minute;
-@property(copy, nonatomic) NSArray *removedFrequency;
-@property(readonly) Class superclass;
 
 @end
 

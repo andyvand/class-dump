@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)SS8database_t;
 - (id);
 
 @end

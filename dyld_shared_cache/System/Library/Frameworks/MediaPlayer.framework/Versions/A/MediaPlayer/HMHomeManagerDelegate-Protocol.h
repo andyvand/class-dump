@@ -5,5 +5,9 @@
 //
 
 @protocol HMHomeManagerDelegate
+
+@optional
+- (void)u_transparentColor;
+- (void)u_multiplyTexture;
 @end
 

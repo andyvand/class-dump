@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TIKeyboardInput;
-@protocol NSSecureCoding;
-
 @interface RTIInputOperation
 {
     int _inputModality;
-    TIKeyboardInput *_keyboardInput;
-    SEL _actionSelector;
-    NSString *_customInfoType;
-    NSObject<NSSecureCoding> *_customInfo;
 }
 
 + (id);
-+ (void);
++ (void);
 + (id);
 + (void);
 + (_Bool);
@@ -28,38 +21,25 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (struct CGAffineTransform);
-- (SEL);
+- (void);
+- (struct CGAffineTransform)	K
+KJJ)
+K)K))JJKJ	KT=IJs2;
+- (SEL)*;
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (struct CGAffineTransform);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL actionSelector; // @synthesize actionSelector=_actionSelector;
-@property(readonly, nonatomic) struct CGAffineTransform contentTransform;
-@property(retain, nonatomic) NSObject<NSSecureCoding> *customInfo; // @synthesize customInfo=_customInfo;
-@property(retain, nonatomic) NSString *customInfoType; // @synthesize customInfoType=_customInfoType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGAffineTransform environmentTransform;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int inputModality; // @synthesize inputModality=_inputModality;
 @property(readonly, nonatomic) _Bool isScrollingInputOperation;
-@property(retain, nonatomic) TIKeyboardInput *keyboardInput; // @synthesize keyboardInput=_keyboardInput;
-@property(readonly, nonatomic) unsigned long long scrollType;
-@property(readonly) Class superclass;
 
 @end
 

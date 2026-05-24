@@ -6,51 +6,21 @@
 
 #import <HomeKitDaemon/HMDCoordinationPrimaryElectionLogEvent.h>
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDCoordinationPrimaryElectionDetailedLogEvent : HMDCoordinationPrimaryElectionLogEvent
 {
     _Bool _meshAndPrimaryCandidateCountEqual;
-    _Bool _previousPrimaryInMesh;
-    unsigned long long _electionTriggerReason;
-    unsigned long long _confirmationCriteria;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) unsigned long long confirmationCriteria; // @synthesize confirmationCriteria=_confirmationCriteria;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long electionTriggerReason; // @synthesize electionTriggerReason=_electionTriggerReason;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) _Bool meshAndPrimaryCandidateCountEqual; // @synthesize meshAndPrimaryCandidateCountEqual=_meshAndPrimaryCandidateCountEqual;
-@property(readonly) _Bool previousPrimaryInMesh; // @synthesize previousPrimaryInMesh=_previousPrimaryInMesh;
-@property(readonly) Class superclass;
 
 @end
 

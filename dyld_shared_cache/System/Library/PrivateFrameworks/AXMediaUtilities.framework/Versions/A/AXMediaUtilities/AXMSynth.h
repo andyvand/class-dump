@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXMADSREnvelope, AXMOscillator, AXMSynthMainParameters;
-
 @interface AXMSynth
 {
     double _sampleRate;
-    AXMADSREnvelope *_envelope;
-    double _gain;
-    AXMSynthMainParameters *_parameters;
-    AXMOscillator *_mainOscillator;
-    AXMOscillator *_mainOperator;
-    double *_sampleBuffer;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)\|;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -27,17 +19,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)z;
 - (id);
 - (double);
+- (void);
 - (void);
-- (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (float);
 - (id);
-- (void);
+- (void)@;o;
 - (void);
 - (double *);
 - (void);
@@ -45,18 +37,10 @@
 - (id);
 - (double);
 - (void);
-- (double)geData:error: /* Error: Ran out of types for this method. */;
+- (double)numberOfChannelsInImageData:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double baseFrequency; // @dynamic baseFrequency;
-@property(readonly, nonatomic) AXMADSREnvelope *envelope; // @synthesize envelope=_envelope;
-@property(nonatomic) double gain; // @synthesize gain=_gain;
-@property(retain, nonatomic) AXMOscillator *mainOperator; // @synthesize mainOperator=_mainOperator;
-@property(retain, nonatomic) AXMOscillator *mainOscillator; // @synthesize mainOscillator=_mainOscillator;
-@property(nonatomic) float mainVolume; // @dynamic mainVolume;
-@property(retain, nonatomic) AXMSynthMainParameters *parameters; // @synthesize parameters=_parameters;
 @property(nonatomic) double *sampleBuffer; // @synthesize sampleBuffer=_sampleBuffer;
-@property(readonly, nonatomic) double sampleRate; // @synthesize sampleRate=_sampleRate;
 
 @end
 

@@ -13,9 +13,9 @@
 + (id);
 + (void);
 + (void);
-+ (id);
-+ (id);
-+ (id);
++ (id)ewControllerDelegate>";
++ (id)Q;
++ (id)_webAuthVC;
 
 @end
 

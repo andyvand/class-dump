@@ -11,26 +11,22 @@
 @interface TSDButtonKnob : TSDKnob
 {
     TSUImage *mImage;
-    _Bool mEnabled;
-    _Bool mHighlighted;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)TN;
+- (id)he today feed while the masthead is not showing;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool)rokeProperty;
+- (_Bool)TSCHChartSeriesLineSymbolStrokeProperty;
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=mEnabled;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=mHighlighted;
 @property(retain, nonatomic) TSUImage *image; // @synthesize image=mImage;
 
 @end

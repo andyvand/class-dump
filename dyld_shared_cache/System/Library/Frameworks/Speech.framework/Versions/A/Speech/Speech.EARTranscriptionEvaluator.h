@@ -7,8 +7,6 @@
 @interface Speech.EARTranscriptionEvaluator
 {
     id $defaultActor;
-    id id;
-    id actorSystem;
 }
 
 @end

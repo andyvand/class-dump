@@ -9,13 +9,12 @@
 @interface PKPaletteTooltipPresentationHandle
 {
     UIView *_hostingView;
-    UIView *_floatingLabel;
 }
 
 - (void);
 - (void);
 - (id);
-- (void)er;
+- (void)PKUIPencilInteractionObserver;
 
 @end
 

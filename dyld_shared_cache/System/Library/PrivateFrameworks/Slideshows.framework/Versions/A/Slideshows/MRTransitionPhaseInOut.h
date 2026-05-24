@@ -10,15 +10,15 @@
 {
 }
 
-- (id);
+- (id)ystem/Library/PrivateFrameworks/NewsServicesInternal.framework/Versions/A/NewsServicesInternal;
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)ription %@, error %@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool)d;
+- (_Bool)hasEnded;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MessageProtection.TetraRegistration, NGMECDHPublicPreKey, SigningPublicKey;
+@class SigningPublicKey;
 
 @interface NGMPublicDeviceIdentity
 {
     SigningPublicKey *_signingKey;
-    NGMECDHPublicPreKey *_echnidaRegistration;
-    MessageProtection.TetraRegistration *_tetraRegistration;
 }
 
 + (_Bool);
@@ -21,30 +19,28 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (id)appletAID;
 - (id);
 - (id);
 - (id);
+- (id)lastFetchedKey;
+- (_Bool)T@"NSMutableArray",&,N,V_occurrenceTimestamps;
+- (_Bool)cellularWRMScoreConfidenceAtLinkDown;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NGMECDHPublicPreKey *echnidaRegistration; // @synthesize echnidaRegistration=_echnidaRegistration;
 @property(retain, nonatomic) SigningPublicKey *signingKey; // @synthesize signingKey=_signingKey;
-@property(retain, nonatomic) MessageProtection.TetraRegistration *tetraRegistration; // @synthesize tetraRegistration=_tetraRegistration;
 
 @end
 

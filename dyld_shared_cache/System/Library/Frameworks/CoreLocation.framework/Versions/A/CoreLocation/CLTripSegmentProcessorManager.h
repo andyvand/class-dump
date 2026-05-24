@@ -10,34 +10,34 @@
 @interface CLTripSegmentProcessorManager
 {
     NSObject<OS_dispatch_queue> *fQueue;
-    struct CLTripSegmentProcessor cltsp;
 }
 
+- (void)/;
 - (void);
+- (id);
 - (void);
+- (id)?;
+- (void)@;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)when creating properties from AppleMakerNote
+;
 - (id);
 - (id);
 

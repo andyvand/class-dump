@@ -4,34 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID, RTLocation, RTMapItem;
+@class RTLocation;
 
 @interface RTLocationOfInterest
 {
     RTLocation *_location;
-    double _confidence;
-    NSUUID *_identifier;
-    long long _type;
-    unsigned long long _typeSource;
-    RTMapItem *_mapItem;
-    NSArray *_visits;
-    NSString *_customLabel;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) NSString *customLabel; // @synthesize customLabel=_customLabel;
-@property(readonly, nonatomic) unsigned long long geoMapItemSource;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) double latitude;
-@property(readonly, nonatomic) RTLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) double longitude;
-@property(readonly, nonatomic) RTMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic) NSString *preferredName;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) unsigned long long typeSource; // @synthesize typeSource=_typeSource;
-@property(readonly, nonatomic) double uncertainty;
-@property(readonly, nonatomic) NSArray *visits; // @synthesize visits=_visits;
 @end
 

@@ -7,9 +7,6 @@
 @interface PhotosUICore.PhotoStyleRenderUpdater
 {
     id compositionControllerProvider;
-    id sharedRenderContext;
-    id styleCacheRows;
-    id _testAllowCacheUpdatesAfterRenderFailure;
 }
 
 @end

@@ -6,17 +6,10 @@
 
 #import <GameController/_GCDevicePhysicalInputView.h>
 
-@class NSSet, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputAxisInput : _GCDevicePhysicalInputView
 {
     unsigned long long _sourcesSlot;
-    unsigned long long _isAnalogSlot;
-    unsigned long long _canWrapSlot;
-    unsigned long long _valueChangedHandlerSlot;
-    unsigned long long _valueSlot;
-    unsigned long long _valueTimestampSlot;
 }
 
 + (unsigned short);
@@ -24,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (double);
 - (double);
 - (_Bool);
@@ -38,19 +31,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isAnalog) _Bool analog;
-@property(readonly) _Bool canWrap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) double lastValueLatency;
-@property(readonly) double lastValueTimestamp;
-@property(readonly, copy) NSSet *sources;
-@property(readonly) Class superclass;
-@property(readonly) float value;
 @property(copy) CDUnknownBlockType valueDidChangeHandler;
 
 @end

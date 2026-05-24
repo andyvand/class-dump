@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PLEntryNotificationOperatorComposition, PLXPCListenerOperatorComposition;
+@class PLEntryNotificationOperatorComposition;
 
 @interface PLNetworkAgent
 {
     int _wakeSocket;
-    PLEntryNotificationOperatorComposition *_batteryLevelChanged;
-    PLXPCListenerOperatorComposition *_downloadAutoAssetDownloadsListener;
-    PLXPCListenerOperatorComposition *_downloadV2AssetDownloadsListener;
 }
 
 + (id);
@@ -34,20 +31,17 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)orkAgent;
+- (void)PLProcessNetworkAgent;
 - (id)erToCxt:readStageNumOfFails108(4232):cfg 64 elements; (64*4) cfg bytes != (%d) buffer bytes /* Error: Ran out of types for this method. */;
-- (void)umOfThrottlingEntriesPerReadLevel_;
+- (void)numOfThrottlingEntriesPerReadLevel_;
 
 // Remaining properties
 @property(retain) PLEntryNotificationOperatorComposition *batteryLevelChanged; // @synthesize batteryLevelChanged=_batteryLevelChanged;
-@property(retain) PLXPCListenerOperatorComposition *downloadAutoAssetDownloadsListener; // @synthesize downloadAutoAssetDownloadsListener=_downloadAutoAssetDownloadsListener;
-@property(retain) PLXPCListenerOperatorComposition *downloadV2AssetDownloadsListener; // @synthesize downloadV2AssetDownloadsListener=_downloadV2AssetDownloadsListener;
-@property(nonatomic) int wakeSocket; // @synthesize wakeSocket=_wakeSocket;
 
 @end
 

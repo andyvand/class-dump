@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSData;
 
 @interface SPAdvertisement
 {
     unsigned char _status;
-    _Bool _isPosh;
-    NSData *_address;
-    NSData *_advertisementData;
-    NSData *_reserved;
-    long long _rssi;
-    NSDate *_scanDate;
 }
 
 + (_Bool);
@@ -35,8 +29,9 @@
 - (_Bool);
 - (void);
 - (unsigned char);
-- (long long);
-- (id);
+- (long long)ry.framework/Versions/A/BiomeLibrary;
+- (id)SZommcUtxVPEtFxhE/Library/Caches/com.apple.xbs/TemporaryDirectory.vrZUgA/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm" at line 1782
+;
 - (id);
 - (void);
 - (void);
@@ -44,12 +39,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *address; // @synthesize address=_address;
-@property(copy, nonatomic) NSData *advertisementData; // @synthesize advertisementData=_advertisementData;
-@property(nonatomic) _Bool isPosh; // @synthesize isPosh=_isPosh;
-@property(copy, nonatomic) NSData *reserved; // @synthesize reserved=_reserved;
-@property(nonatomic) long long rssi; // @synthesize rssi=_rssi;
-@property(copy, nonatomic) NSDate *scanDate; // @synthesize scanDate=_scanDate;
-@property(nonatomic) unsigned char status; // @synthesize status=_status;
 
 @end
 

@@ -4,47 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSFont, NSImage, NSMenuItemBadge, NSMenuItemViewer, NSString, NSUUID, _NSBindingAdaptor;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface NSExtraMIData
 {
     NSAttributedString *attributedTitle;
-    NSString *subtitle;
-    NSString *tooltip;
-    NSMenuItemBadge *badge;
-    _NSBindingAdaptor *bindingAdaptor;
-    NSMenuItemViewer *menuItemViewer;
-    NSImage *onStateImage;
-    NSImage *offStateImage;
-    NSImage *mixedStateImage;
-    NSFont *font;
-    NSString *actionImageName;
-    NSImage *_image;
-    NSImage *highlightedImage;
-    struct CGSize imageSize;
-    NSString *userKE;
-    NSString *kbdKE;
-    NSString *keInputSourceIdentifier;
-    NSString *keDisplayOverride;
-    NSUUID *uniqueIdentifier;
-    unsigned int hotKeyShortcut;
-    unsigned char hotKeyAdditionalModifiers;
-    unsigned char userKEMask;
-    unsigned char kbdKEMask;
-    unsigned char hotKeyKEMask;
-    NSString *hotKeyKE;
-    struct CGSize cachedAttributedTitleSize;
-    long long cachedAttributedTitleHeightForDrawing;
-    unsigned long long cachedTitleHashForMeasurement;
-    unsigned long long cachedFontHashForMeasurement;
-    _Bool attributedTitleHasAttachment;
-    unsigned short virtualKeyCode;
-    unsigned short defaultKEPriority;
-    unsigned long long newItemsCount;
-    CDUnknownBlockType actionBlock;
-    _Bool scaleDownImageToFit;
-    _Bool shouldRemoveNewlines;
 }
 
 - (id);

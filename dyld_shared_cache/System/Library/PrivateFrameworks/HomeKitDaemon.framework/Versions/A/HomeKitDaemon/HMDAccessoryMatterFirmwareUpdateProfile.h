@@ -4,46 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessory, HMDMatterSoftwareUpdateProviderDelegate, NSNotificationCenter, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryMatterFirmwareUpdateProfile
 {
     _Bool _wasPreviousStateInstalling;
-    NSNumber *_matterFirmwareRevisionNumber;
-    HMDHAPAccessory *_accessory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDMatterSoftwareUpdateProviderDelegate *_matterSoftwareUpdateProviderDelegate;
 }
 
 + (id)Åÿ5
 C;
-- (_Bool);
+- (_Bool)%@;
+- (void)W;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)R)V;
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)_prepareDeviceAuthenticationWithCompletion:(id)arg1;
+- (void)_prepareChannelWithRequest:(id)arg1 continueWith: /* Error: Ran out of types for this method. */;
+- (void)_deviceAttestionVersion;
+- (void)setAreasOfInterest: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)noEventsAtAllToday;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id)Â0@ù
 × ;
 - (id)±Ð1Â0@ù
@@ -55,19 +50,7 @@ C;
 - (void)s¿;
 
 // Remaining properties
-@property(readonly) __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSNumber *matterFirmwareRevisionNumber; // @synthesize matterFirmwareRevisionNumber=_matterFirmwareRevisionNumber;
-@property __weak HMDMatterSoftwareUpdateProviderDelegate *matterSoftwareUpdateProviderDelegate; // @synthesize matterSoftwareUpdateProviderDelegate=_matterSoftwareUpdateProviderDelegate;
-@property(readonly) NSNotificationCenter *notificationCenter;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wasPreviousStateInstalling; // @synthesize wasPreviousStateInstalling=_wasPreviousStateInstalling;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

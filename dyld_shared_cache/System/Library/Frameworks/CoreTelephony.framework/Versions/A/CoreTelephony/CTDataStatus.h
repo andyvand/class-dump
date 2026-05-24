@@ -7,27 +7,13 @@
 @interface CTDataStatus
 {
     _Bool _attached;
-    _Bool _dataSim;
-    _Bool _roamAllowed;
-    _Bool _dataPlanSignalingReductionOverride;
-    _Bool _cellularDataPossible;
-    _Bool _inHomeCountry;
-    int _indicator;
-    int _indicatorOverride;
-    int _radioTechnology;
-    int _dataMode;
-    int _dataBearerTechnology;
-    unsigned int _dataBearerSoMask;
-    unsigned int _activeContexts;
-    unsigned int _totalActiveContexts;
-    int _reason;
 }
 
-+ (_Bool);
-- (int);
++ (_Bool)GET;
+- (int));
 - (unsigned int);
 - (_Bool);
-- (int);
+- (int)AG;
 - (id);
 - (unsigned int);
 - (void);
@@ -38,19 +24,19 @@
 - (int);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void)setReadingListPosition:(_Bool)arg1;
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)SaySSG;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -63,35 +49,13 @@
 - (_Bool);
 - (void);
 - (int);
-- (void)ccOrPlmnsListForIso3CountryCode:(unsigned int)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)copyMccOrPlmnsListForIso3CountryCode:(unsigned int)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)kFileTransferMaxRecipientsKey;
 - (int)MessageIDList"8@"NSError"16;
 - (int);
 
 // Remaining properties
-@property(nonatomic) unsigned int activeContexts; // @synthesize activeContexts=_activeContexts;
-@property(nonatomic) _Bool attached; // @synthesize attached=_attached;
-@property(nonatomic) _Bool cellularDataPossible; // @synthesize cellularDataPossible=_cellularDataPossible;
-@property(nonatomic) unsigned int dataBearerSoMask; // @synthesize dataBearerSoMask=_dataBearerSoMask;
-@property(nonatomic) int dataBearerTechnology; // @synthesize dataBearerTechnology=_dataBearerTechnology;
-@property(nonatomic) int dataMode; // @synthesize dataMode=_dataMode;
-@property(nonatomic) _Bool dataPlanSignalingReductionOverride; // @synthesize dataPlanSignalingReductionOverride=_dataPlanSignalingReductionOverride;
-@property(nonatomic) _Bool dataSim; // @synthesize dataSim=_dataSim;
-@property(nonatomic) _Bool inHomeCountry; // @synthesize inHomeCountry=_inHomeCountry;
-@property(nonatomic) int indicator; // @synthesize indicator=_indicator;
-@property(nonatomic) int indicatorOverride; // @synthesize indicatorOverride=_indicatorOverride;
 @property(readonly, nonatomic) _Bool newRadioCoverage;
-@property(readonly, nonatomic) _Bool newRadioDataBearer;
-@property(readonly, nonatomic) _Bool newRadioMmWaveDataBearer;
-@property(readonly, nonatomic) _Bool newRadioNsaCoverage;
-@property(readonly, nonatomic) _Bool newRadioNsaDataBearer;
-@property(readonly, nonatomic) _Bool newRadioSaCoverage;
-@property(readonly, nonatomic) _Bool newRadioSaDataBearer;
-@property(readonly, nonatomic) _Bool newRadioSub6DataBearer;
-@property(nonatomic) int radioTechnology; // @synthesize radioTechnology=_radioTechnology;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(nonatomic) _Bool roamAllowed; // @synthesize roamAllowed=_roamAllowed;
-@property(nonatomic) unsigned int totalActiveContexts; // @synthesize totalActiveContexts=_totalActiveContexts;
 
 @end
 

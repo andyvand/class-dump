@@ -5,5 +5,6 @@
 //
 
 @protocol _KSTextReplacementSyncProtocol
+- (void);
 @end
 

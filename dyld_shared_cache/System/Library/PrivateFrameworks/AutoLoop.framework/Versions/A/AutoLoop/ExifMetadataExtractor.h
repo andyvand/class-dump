@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSURL;
+@class NSDictionary, NSURL;
 
 @interface ExifMetadataExtractor
 {
     NSDictionary *desiredAppleMakerKeyPairs;
-    _Bool hadAllRequestedKeys;
-    _Bool saveAllMetadata;
-    NSURL *inFileURL;
-    NSMutableDictionary *metadataDictionary;
-    NSMutableArray *desiredExifKeysArray;
-    NSMutableArray *facesArray;
-    NSDictionary *allMetadata;
 }
 
 - (void);
@@ -33,18 +26,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)__objc_classname__TEXT;
 
 // Remaining properties
-@property(readonly) NSDictionary *allMetadata; // @synthesize allMetadata;
-@property(retain) NSMutableArray *desiredExifKeysArray; // @synthesize desiredExifKeysArray;
-@property(readonly) NSMutableArray *facesArray; // @synthesize facesArray;
-@property(readonly) _Bool hadAllRequestedKeys; // @synthesize hadAllRequestedKeys;
 @property(retain) NSURL *inFileURL; // @synthesize inFileURL;
-@property(readonly) NSMutableDictionary *metadataDictionary; // @synthesize metadataDictionary;
-@property _Bool saveAllMetadata; // @synthesize saveAllMetadata;
 
 @end
 

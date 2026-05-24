@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDIndexingContext, IMTimingCollection, NSMutableArray, NSMutableSet, NSString;
+@class NSMutableSet;
 
 @interface IMDCoreSpotlightMessageIndexingJob
 {
     NSMutableSet *_populatedChatItems;
-    NSMutableArray *_indexableItems;
-    NSMutableArray *_rejectedItems;
-    IMDIndexingContext *_context;
-    IMTimingCollection *_timing;
 }
 
 - (id);
@@ -23,21 +19,10 @@
 - (id);
 - (id);
 - (void)ionAfterDeleteMessagePlugin:wrong number of arguments /* Error: Ran out of types for this method. */;
-- (void)PERSON_FAILED_FORMAT_USER_OFFGRID;
+- (void)MESSAGE_SEND_TO_PERSON_FAILED_FORMAT_USER_OFFGRID;
 
 // Remaining properties
-@property(readonly, nonatomic) IMDIndexingContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *indexableItems; // @synthesize indexableItems=_indexableItems;
 @property(readonly, nonatomic) NSMutableSet *populatedChatItems; // @synthesize populatedChatItems=_populatedChatItems;
-@property(readonly, nonatomic) NSMutableArray *rejectedItems; // @synthesize rejectedItems=_rejectedItems;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) IMTimingCollection *timing; // @synthesize timing=_timing;
 
 @end
 

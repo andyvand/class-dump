@@ -10,7 +10,6 @@
 @interface WBSCRDTPositionGenerator
 {
     NSDictionary *_recordNamesToPositions;
-    id <WBSCRDTPositionGeneratorDelegate> _delegate;
 }
 
 - (id);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

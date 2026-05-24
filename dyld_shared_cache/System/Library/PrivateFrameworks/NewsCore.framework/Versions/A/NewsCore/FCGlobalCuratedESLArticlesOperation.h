@@ -6,18 +6,9 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSArray;
-@protocol FCContentContext, FCContentVariantProviding, FCCoreConfiguration;
-
 @interface FCGlobalCuratedESLArticlesOperation : FCOperation
 {
     CDUnknownBlockType _feedItemHandler;
-    CDUnknownBlockType _completionHandler;
-    NSArray *_networkEvents;
-    id <FCContentContext> _context;
-    id <FCCoreConfiguration> _configuration;
-    id <FCContentVariantProviding> _contentVariantProvider;
-    NSArray *_evergreenArticleListIDs;
 }
 
 - (void);
@@ -25,17 +16,15 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)E;
 - (id);
-- (void)addClientInfoHeader;
-- (void)umbnailWidgetHQMetadata;
+- (void)ak_addClientInfoHeader;
+- (void)thumbnailWidgetHQMetadata;
 - (void)point due to failure to decode packageAssetID from configuration %{public}@;
 - (void)t for article ID:(id)arg1 %{public}@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(copy, nonatomic) CDUnknownBlockType feedItemHandler; // @synthesize feedItemHandler=_feedItemHandler;
-@property(readonly, nonatomic) NSArray *networkEvents;
 
 @end
 

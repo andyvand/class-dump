@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SFAppleIDContactInfo
 {
     NSString *_firstName;
-    NSString *_lastName;
-    NSArray *_validatedEmailAddresses;
-    NSArray *_validatedPhoneNumbers;
 }
 
 + (_Bool);
@@ -20,23 +17,20 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)Q;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)c;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) NSArray *validatedEmailAddresses; // @synthesize validatedEmailAddresses=_validatedEmailAddresses;
-@property(retain, nonatomic) NSArray *validatedPhoneNumbers; // @synthesize validatedPhoneNumbers=_validatedPhoneNumbers;
 
 @end
 

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDataOutputDelegateCallbackHelper, AVWeakReference;
+@class AVCaptureDataOutputDelegateCallbackHelper;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureAudioDataOutputInternal
 {
     AVCaptureDataOutputDelegateCallbackHelper *delegateCallbackHelper;
-    AVWeakReference *weakReference;
-    unsigned int spatialAudioChannelLayoutTag;
 }
 
 - (void);

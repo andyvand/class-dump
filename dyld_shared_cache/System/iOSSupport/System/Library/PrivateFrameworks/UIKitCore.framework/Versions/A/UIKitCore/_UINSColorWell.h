@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UINSColorWell
 {
     UIView *_host;
-    _Bool _pickerSupportsAlpha;
-    NSString *_pickerTitle;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)ccess.;
+- (void),N,V_payloadAllowSpellCheck;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool pickerSupportsAlpha; // @synthesize pickerSupportsAlpha=_pickerSupportsAlpha;
-@property(retain, nonatomic) NSString *pickerTitle; // @synthesize pickerTitle=_pickerTitle;
 @property(nonatomic) _Bool supportsAlpha;
 
 @end

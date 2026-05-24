@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (oneway void);
-- (id);
-- (id);
+- (id);
+- (id)_imageWithIcon:(unsigned long long)arg1 size:masked: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 

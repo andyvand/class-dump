@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOStyleAttributes, NSArray, NSString, NSTimeZone;
-@protocol GEOTransitDeparture;
+@class NSTimeZone;
 
 __attribute__((visibility("hidden")))
 @interface _GEOTransitTripStop
 {
     NSTimeZone *_timeZone;
-    unsigned long long _stationIdentifier;
-    NSString *_transitName;
-    NSArray *_labelItems;
-    GEOLatLng *_location;
-    GEOStyleAttributes *_styleAttributes;
-    _Bool _isHidden;
-    id <GEOTransitDeparture> _departure;
 }
 
 + (id);
 - (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)se no cache entry was found for route pair %@, %@;
 - (_Bool);
 - (id)OCompanionStepReadAllFrom can only be called once per object;
-- (id)RAY;
+- (id)LIST_TYPE_SEARCH_TRAY;
 - (void);
 - (id)phonetic_name (	0
 phonetic_address (2.addr_obj.geo3.Address*dÈ"¹
@@ -73,20 +65,6 @@ VenueField
 	LONG_NAME;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <GEOTransitDeparture> departure; // @synthesize departure=_departure;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden;
-@property(readonly, nonatomic) NSArray *labelItems;
-@property(readonly, nonatomic) GEOLatLng *location;
-@property(readonly, nonatomic) unsigned long long stationIdentifier;
-@property(readonly, nonatomic) GEOStyleAttributes *styleAttributes;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSTimeZone *timeZone;
 
 @end

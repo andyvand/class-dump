@@ -13,19 +13,19 @@
 
 + (_Bool);
 + (id);
-+ (id);
-- (void);
-- (id);
++ (id)error:(unsigned char)arg1 hasCode:subcode: /* Error: Ran out of types for this method. */;
+- (void)namespaceString;
+- (id)compareClock:(id)arg1 subclock:forUUID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (void)Handle;
+- (void)contactHandle;
 
 @end
 

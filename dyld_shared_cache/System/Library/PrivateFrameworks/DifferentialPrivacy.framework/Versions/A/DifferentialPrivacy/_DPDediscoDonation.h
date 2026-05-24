@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface _DPDediscoDonation
 {
     NSString *_key;
-    NSData *_share1;
-    NSData *_share2;
-    long long _dimension;
-    NSDictionary *_metadata;
-    NSString *_serverAlgorithm;
-    NSDictionary *_algorithmParameters;
 }
 
 + (id);
@@ -35,24 +29,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)<d;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)"<SPSystemAutoFillViewControllerDelegate>",W,N,V_delegate;
 - (long long)T;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *algorithmParameters; // @synthesize algorithmParameters=_algorithmParameters;
-@property(nonatomic) long long dimension; // @synthesize dimension=_dimension;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) NSString *serverAlgorithm; // @synthesize serverAlgorithm=_serverAlgorithm;
-@property(copy, nonatomic) NSData *share1; // @synthesize share1=_share1;
-@property(copy, nonatomic) NSData *share2; // @synthesize share2=_share2;
 
 @end
 

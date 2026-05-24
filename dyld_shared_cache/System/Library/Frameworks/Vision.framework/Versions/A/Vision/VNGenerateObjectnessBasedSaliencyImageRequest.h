@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id):(unsigned long long)arg1 %@;
 - (id)VÜ	;
 - (_Bool)e;
 

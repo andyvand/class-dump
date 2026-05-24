@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXAccessQueue, NSObject, NSString;
-@protocol OS_dispatch_source;
-
 @interface AXAccessQueueTimer
 {
     _Bool _automaticallyCancelPendingBlockUponSchedulingNewBlock;
-    _Bool _active;
-    _Bool _accessQueueIsExternal;
-    int _state;
-    NSString *_label;
-    AXAccessQueue *_accessQueue;
-    NSObject<OS_dispatch_source> *_dispatchTimer;
 }
 
 + (id);
-- (void);
-- (id);
+- (void)!;
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,38 +25,24 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) AXAccessQueue *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(nonatomic) _Bool accessQueueIsExternal; // @synthesize accessQueueIsExternal=_accessQueueIsExternal;
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) _Bool automaticallyCancelPendingBlockUponSchedulingNewBlock; // @synthesize automaticallyCancelPendingBlockUponSchedulingNewBlock=_automaticallyCancelPendingBlockUponSchedulingNewBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *dispatchTimer; // @synthesize dispatchTimer=_dispatchTimer;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic, getter=isPending) _Bool pending;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

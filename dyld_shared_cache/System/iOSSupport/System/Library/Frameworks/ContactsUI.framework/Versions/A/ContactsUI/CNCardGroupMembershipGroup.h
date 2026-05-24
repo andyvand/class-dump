@@ -12,22 +12,20 @@ __attribute__((visibility("hidden")))
 @interface CNCardGroupMembershipGroup : CNCardGroup
 {
     NSArray *_parentGroups;
-    NSArray *_groupsToDisplayForEditing;
 }
 
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)NSharedProfileBannerViewDelegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *groupsToDisplayForEditing; // @synthesize groupsToDisplayForEditing=_groupsToDisplayForEditing;
 @property(retain, nonatomic) NSArray *parentGroups; // @synthesize parentGroups=_parentGroups;
 
 @end

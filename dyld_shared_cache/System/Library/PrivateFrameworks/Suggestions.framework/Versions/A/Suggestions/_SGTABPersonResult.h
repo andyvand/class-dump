@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _SGTABPersonResult
 {
     NSString *displayName;
-    NSArray *values;
-    id representedObject;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
+- (id))A;
 - (id);
-- (id);
-- (void);
+- (void)editable;
 - (void)× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName;
-@property(readonly, nonatomic) id representedObject; // @synthesize representedObject;
-@property(readonly, nonatomic) NSArray *values; // @synthesize values;
 
 @end
 

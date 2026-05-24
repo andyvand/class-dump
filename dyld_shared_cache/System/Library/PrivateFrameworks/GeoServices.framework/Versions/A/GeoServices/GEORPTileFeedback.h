@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPCorrectedCoordinate, GEORPCorrectedLabel, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPTileFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORPCorrectedCoordinate *_coordinate;
-    GEORPCorrectedLabel *_label;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_coordinate:1;
-        unsigned int read_label:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ttributions:(id)arg1;
-- (void);
++ (_Bool)setLocalizedAttributions:(id)arg1;
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -34,20 +20,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)removeListener:(id)arg1;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (int);
+- (_Bool)c;
+- (int)__gcc_except_tab__TEXT;
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)t;
-- (id)nt;
-- (int)DAppClipParams;
+- (void)hasTapBeforeAnnouncement;
+- (id)daVinciRenderableCount;
+- (int)GEOPDAppClipParams;
 - (id)Øn¬ophq q;
 - (id)-Token;
 - (_Bool)e;
@@ -59,13 +45,7 @@
 - (_Bool).ÇRL@;
 
 // Remaining properties
-@property(retain, nonatomic) GEORPCorrectedCoordinate *coordinate;
-@property(readonly, nonatomic) _Bool hasCoordinate;
 @property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) GEORPCorrectedLabel *label;
-@property(nonatomic) int type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

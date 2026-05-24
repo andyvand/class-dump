@@ -4,47 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCapturePhotoSettings, NSString;
+@class AVCapturePhotoSettings;
 
 @interface AVMomentCaptureSettings
 {
     AVCapturePhotoSettings *_photoSettings;
-    long long _uniqueID;
-    unsigned long long _userInitiatedCaptureTime;
-    long long _flashMode;
-    _Bool _autoRedEyeReductionEnabled;
-    long long _digitalFlashMode;
-    long long _photoQualityPrioritization;
-    long long _HDRMode;
-    _Bool _autoOriginalPhotoDeliveryEnabled;
-    _Bool _autoSpatialOverCaptureEnabled;
-    _Bool _autoDeferredPhotoDeliveryEnabled;
-    unsigned int _rawOutputFormat;
-    CDStruct_79c71658 _maxPhotoDimensions;
-    _Bool _depthDataDeliveryEnabled;
-    long long _torchMode;
-    NSString *_bravoCameraSelectionBehaviorForRecording;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
++ (id)instrumental;
++ (id)chorus;
++ (id)%@), %ld lines, element:(id)arg1 %@;
+- (unsigned long long)setOutputBuffer: /* Error: Ran out of types for this method. */;
+- (void)numberOfItemsInSection:(long long)arg1;
+- (void)isEqualToString:(id)arg1;
+- (void)initWithUUIDString:(_Bool)arg1;
+- (void)initWithURL:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)initWithTimeout:(_Bool)arg1 interruptionHandler: /* Error: Ran out of types for this method. */;
+- (void)initWithTimeInterval:(_Bool)arg1 serviceIdentifier:target:selector:userInfo: /* Error: Ran out of types for this method. */;
+- (id)dictionary:willRemoveObject:forKey: /* Error: Ran out of types for this method. */;
+- (long long)destinationFormat;
+- (_Bool)_resizeDestinations;
+- (_Bool)_removeNode: /* Error: Ran out of types for this method. */;
+- (id)MSVSQLDatabaseTransactionSavepoint;
+- (id)e:(unsigned long long)arg1 %d, len:(long long)arg2 %d;
+- (id)th error %{public}@;
+- (_Bool)system random bytes.;
+- (_Bool)CTION;
 - (void);
 - (long long);
 - (void);
@@ -55,36 +40,20 @@
 - (_Bool);
 - (void);
 - (long long);
-- (long long);
+- (long long)a;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)and y of a fiducial in a valid QR code is unique.;
+- (id);
 - (long long)undra";
-- (void)PowerLevel;
+- (void)averagePowerLevel;
 - (void)È~8;
-- (_Bool)tTypeInterleaved2of5Code;
-- (CDStruct_79c71658)Rate to %f (%lld / %d);
+- (_Bool)AVMetadataObjectTypeInterleaved2of5Code;
+- (CDStruct_1ef3fb1f)Rate to %f (%lld / %d);
 - (void)oke;
 
 // Remaining properties
-@property(nonatomic) long long HDRMode;
-@property(nonatomic, getter=isAutoDeferredPhotoDeliveryEnabled) _Bool autoDeferredPhotoDeliveryEnabled; // @synthesize autoDeferredPhotoDeliveryEnabled=_autoDeferredPhotoDeliveryEnabled;
-@property(nonatomic, getter=isAutoDeferredProcessingEnabled) _Bool autoDeferredProcessingEnabled;
-@property(nonatomic, getter=isAutoOriginalPhotoDeliveryEnabled) _Bool autoOriginalPhotoDeliveryEnabled; // @synthesize autoOriginalPhotoDeliveryEnabled=_autoOriginalPhotoDeliveryEnabled;
-@property(nonatomic, getter=isAutoRedEyeReductionEnabled) _Bool autoRedEyeReductionEnabled; // @synthesize autoRedEyeReductionEnabled=_autoRedEyeReductionEnabled;
-@property(nonatomic, getter=isAutoSpatialOverCaptureEnabled) _Bool autoSpatialOverCaptureEnabled; // @synthesize autoSpatialOverCaptureEnabled=_autoSpatialOverCaptureEnabled;
-@property(copy, nonatomic) NSString *bravoCameraSelectionBehaviorForRecording;
-@property(nonatomic, getter=isDepthDataDeliveryEnabled) _Bool depthDataDeliveryEnabled; // @synthesize depthDataDeliveryEnabled=_depthDataDeliveryEnabled;
-@property(nonatomic) long long digitalFlashMode;
-@property(nonatomic) long long flashMode;
-@property(nonatomic) CDStruct_79c71658 maxPhotoDimensions; // @synthesize maxPhotoDimensions=_maxPhotoDimensions;
-@property(nonatomic) long long photoQualityPrioritization;
-@property(readonly, nonatomic) AVCapturePhotoSettings *photoSettings;
-@property(nonatomic) unsigned int rawOutputFormat; // @synthesize rawOutputFormat=_rawOutputFormat;
-@property(nonatomic) long long torchMode;
 @property(readonly, nonatomic) long long uniqueID;
-@property(readonly, nonatomic) unsigned long long userInitiatedCaptureTime;
 
 @end
 

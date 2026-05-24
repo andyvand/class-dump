@@ -9,7 +9,6 @@
 @interface _CNCompactMapEnumerator
 {
     NSEnumerator *_enumerator;
-    CDUnknownBlockType _transform;
 }
 
 - (id);

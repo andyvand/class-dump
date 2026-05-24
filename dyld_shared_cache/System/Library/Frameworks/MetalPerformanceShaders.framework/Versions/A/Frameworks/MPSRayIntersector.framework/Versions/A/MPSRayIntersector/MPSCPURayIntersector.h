@@ -7,9 +7,6 @@
 @interface MPSCPURayIntersector
 {
     unsigned long long _rayDataType;
-    unsigned long long _rayStride;
-    unsigned long long _intersectionDataType;
-    unsigned long long _intersectionStride;
 }
 
 - (void);
@@ -20,14 +17,11 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long intersectionDataType; // @synthesize intersectionDataType=_intersectionDataType;
-@property(nonatomic) unsigned long long intersectionStride; // @synthesize intersectionStride=_intersectionStride;
 @property(nonatomic) unsigned long long rayDataType; // @synthesize rayDataType=_rayDataType;
-@property(nonatomic) unsigned long long rayStride; // @synthesize rayStride=_rayStride;
 
 @end
 

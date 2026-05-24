@@ -4,45 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSArray, NSMutableArray, UIScreen;
+@class CAContext, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIDragManager
 {
     CAContext *_dragImageContext;
-    long long _pendingSessionRequests;
-    NSMutableArray *_pendingSessionRequestsCompletionBlocks;
-    NSArray *_dragSessionSources;
-    NSArray *_dragSessionDestinations;
-    UIScreen *_screen;
 }
 
 + (void);
 - (unsigned int);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)ring"24;
+- (void)NSString"40;
+- (id)sortPersonCentricChatGroups:(unsigned int)arg1;
+- (void)sortOrderForServiceName:(id)arg1;
+- (void)simulateReceivedPendingSatelliteMessageForChatWithGUID:(id)arg1;
+- (void)micDeviceIdentifier;
+- (void)messageItemQuery:(CDUnknownBlockType)arg1 finishedWithResult:chatGUIDs: /* Error: Ran out of types for this method. */;
+- (_Bool)_replicatedFallbackHistory;
+- (id)_chatBotAttachmentRecordZoneID;
+- (id)_chat1RecordZone;
+- (id)_carrierReportJunkMetricsForSMSWithSubject:isGroupchat:hasAttachments: /* Error: Ran out of types for this method. */;
+- (id)_callerIDUsingFromIdentifier:(id)arg1;
+- (void)updateEngramID:(id)arg1;
+- (id);
+- (void);
 - (id)sOnScreen;
 - (void)\;
 - (id)hb;
 
 // Remaining properties
-@property(readonly, nonatomic) CAContext *dragImageContext;
-@property(copy, nonatomic) NSArray *dragSessionDestinations; // @synthesize dragSessionDestinations=_dragSessionDestinations;
 @property(copy, nonatomic) NSArray *dragSessionSources; // @synthesize dragSessionSources=_dragSessionSources;
-@property(readonly, nonatomic) __weak UIScreen *screen; // @synthesize screen=_screen;
 
 @end
 

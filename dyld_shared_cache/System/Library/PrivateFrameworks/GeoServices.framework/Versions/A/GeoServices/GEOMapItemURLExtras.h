@@ -10,12 +10,12 @@
 
 + (id);
 + (id);
++ (id)S8Q16;
++ (id)ary/PrivateFrameworks/CoreEmoji.framework/CoreEmoji;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)|;
 + (id);
 
 @end

@@ -6,15 +6,12 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSSet, PXStoryModel;
+@class PXStoryModel;
 @protocol PXStorySongResource;
 
 @interface PXStorySongController : PXStoryController
 {
     PXStoryModel *_model;
-    NSSet *_failedAudioAssets;
-    id <PXStorySongResource> _currentSongResource;
-    double _failedSongDelayBeforeSwitchingToFallback;
 }
 
 - (void);
@@ -29,17 +26,26 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)ayout: /* Error: Ran out of types for this method. */;
+- (void); 
+		const lowp vec4				shadowColor = vec4(0., 0., 0., .6); 
+		varying lowp vec2			borderAlphaXY; 
+		varying lowp vec2			shadowStrengthXY; 
+		void main() 
+		{ 
+			lowp float borderAlpha = min(borderAlphaXY.x, borderAlphaXY.y); 
+			lowp float shadowStrength = 1. - smoothstep(0., 1., length(max(shadowStrengthXY, 0.))); 
+			lowp vec4 color = SampleTexture0_2D; 
+			DoFilter0(color); 
+			gl_FragColor = mix(vec4(shadowColor.rgb, shadowColor.a * shadowStrength), color, clamp(borderAlpha, 0., 1.)); 
+		} 
+		;
+- (id)selectionDecorationStyleInLayout: /* Error: Ran out of types for this method. */;
 - (id)nds;
-- (void)m;
+- (void)Album;
 - (void)Dãwÿ;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXStorySongResource> currentSongResource; // @synthesize currentSongResource=_currentSongResource;
-@property(readonly, nonatomic) NSSet *failedAudioAssets; // @synthesize failedAudioAssets=_failedAudioAssets;
-@property(nonatomic) double failedSongDelayBeforeSwitchingToFallback; // @synthesize failedSongDelayBeforeSwitchingToFallback=_failedSongDelayBeforeSwitchingToFallback;
-@property(readonly, nonatomic) __weak PXStoryModel *model; // @synthesize model=_model;
 
 @end
 

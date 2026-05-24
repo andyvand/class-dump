@@ -4,39 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapSnapshotOptions, NSObject, VKMapSnapshotCreator, geo_isolater;
-@protocol OS_dispatch_queue;
+@class MKMapSnapshotOptions;
 
 @interface MKMapSnapshotter
 {
     MKMapSnapshotOptions *_options;
-    int _loadingFlag;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    CDUnknownBlockType _completionHandler;
-    geo_isolater *_isolation;
-    VKMapSnapshotCreator *_lodpiSnapshotCreator;
-    VKMapSnapshotCreator *_hidpiSnapshotCreator;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
+- (void)r %@;
+- (void)ckUploadFallbackCount;
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)source_scaled.vdump;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)ceneIdentifier:remoteObjectInterface:placeholderView: /* Error: Ran out of types for this method. */;
+- (void)getRecordBufferDuration;
+- (void)@;
+- (void)initWithSceneIdentifier:remoteObjectInterface:placeholderView: /* Error: Ran out of types for this method. */;
 - (_Bool)(%@);
 
 // Remaining properties

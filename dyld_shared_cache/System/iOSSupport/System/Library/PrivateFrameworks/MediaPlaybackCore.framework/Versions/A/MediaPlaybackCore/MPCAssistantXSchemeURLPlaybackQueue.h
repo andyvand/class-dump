@@ -6,23 +6,21 @@
 
 #import <MediaPlaybackCore/MPCAssistantPlaybackQueue.h>
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface MPCAssistantXSchemeURLPlaybackQueue : MPCAssistantPlaybackQueue
 {
     id _storage;
-    long long repeatType;
-    long long shuffleType;
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)2@0:(id)arg1 8@"ACAccount"16@"NSArray"24;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (long long);
 - (void);
@@ -31,10 +29,6 @@
 - (void)<%{public}@> returned <%@> for %{public}@ in %.4lf seconds;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *itemURLs;
-@property(nonatomic) long long repeatType; // @synthesize repeatType;
-@property(nonatomic) long long shuffleType; // @synthesize shuffleType;
 @property(nonatomic, readonly) NSURL *url;
 
 @end

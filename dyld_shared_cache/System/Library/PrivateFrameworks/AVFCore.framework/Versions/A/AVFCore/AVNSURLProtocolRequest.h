@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface AVNSURLProtocolRequest : AVAssetCustomURLRequest
 {
     AVAssetCustomURLBridgeForNSURLProtocol *_bridge;
-    struct _CFURLConnection *_connection;
-    struct __CFError *_error;
 }
 
 - (void);
@@ -21,11 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct _CFURLConnection *);
 - (void);
-- (void)idesPreferredDynamicRangeForVideo;
+- (void)overridesPreferredDynamicRangeForVideo;
 
 // Remaining properties
 @property(nonatomic) __weak AVAssetCustomURLBridgeForNSURLProtocol *bridge; // @synthesize bridge=_bridge;
-@property(nonatomic) struct _CFURLConnection *connection;
 
 @end
 

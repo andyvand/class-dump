@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIColor;
-@protocol EKUIDividedGridViewControllerDelegate;
+@class NSArray;
 
 @interface EKUIDividedGridViewController
 {
     long long _type;
-    UIColor *_cellBackgroundColor;
-    NSArray *_buttonTitles;
-    NSArray *_allCells;
-    id <EKUIDividedGridViewControllerDelegate> _delegate;
-    NSArray *_weekViews;
-    double _preferredWidth;
-    double _preferredInset;
 }
 
-+ (id);
-- (id);
++ (id)cn;
+- (id)&s;
 - (void);
-- (void);
+- (void)s;
 - (void);
 - (void);
 - (double);
-- (id);
-- (void);
-- (double);
+- (id)%s;
+- (void)s;
+- (double)X%s;
 - (double);
 - (id);
 - (id);
@@ -45,11 +37,6 @@
 
 // Remaining properties
 @property(retain) NSArray *allCells; // @synthesize allCells=_allCells;
-@property(retain, nonatomic) NSArray *buttonTitles; // @synthesize buttonTitles=_buttonTitles;
-@property __weak id <EKUIDividedGridViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double preferredInset; // @synthesize preferredInset=_preferredInset;
-@property(nonatomic) double preferredWidth; // @synthesize preferredWidth=_preferredWidth;
-@property(retain) NSArray *weekViews; // @synthesize weekViews=_weekViews;
 
 @end
 

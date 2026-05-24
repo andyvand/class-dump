@@ -14,7 +14,7 @@
 - (struct uarpRestoreLayer4Callbacks *);
 - (void *);
 - (_Bool);
-- (const char *);
+- (const char *);
 
 @end
 

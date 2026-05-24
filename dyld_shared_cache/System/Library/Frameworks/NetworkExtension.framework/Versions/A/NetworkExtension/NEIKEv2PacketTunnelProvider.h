@@ -6,45 +6,9 @@
 
 #import <NetworkExtension/NEPacketTunnelProvider.h>
 
-@class NEIKEv2CompanionDatapath, NEIKEv2MOBIKE, NEIKEv2Rekey, NEIKEv2Server, NEIKEv2Session, NEUserNotification, NSArray, NSDictionary, NSObject, NWPath, NWPathEvaluator, NWResolver;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, OS_dispatch_source;
-
 @interface NEIKEv2PacketTunnelProvider : NEPacketTunnelProvider
 {
     _Bool _isIfCellular;
-    _Bool _isIfCompanion;
-    _Bool _companionHasOutboundPath;
-    _Bool _hasNAT;
-    _Bool _dispose;
-    _Bool _sessionDidConnect;
-    _Bool _mobikeCapable;
-    _Bool _authenticationPrompted;
-    _Bool _isObserving;
-    unsigned int _flags;
-    NSArray *_ikeConfig;
-    NSArray *_localTrafficSelectors;
-    NSArray *_remoteTrafficSelectors;
-    NSDictionary *_options;
-    struct NEVirtualInterface_s *_interface;
-    NEIKEv2Server *_server;
-    NWResolver *_resolver;
-    NSObject<OS_dispatch_source> *_resolverWaitTimer;
-    NEIKEv2Rekey *_rekey;
-    NSObject<OS_dispatch_semaphore> *_getSocketSemaphore;
-    NEIKEv2MOBIKE *_mobikeHandle;
-    CDUnknownBlockType _startTunnelCompletionHandler;
-    CDUnknownBlockType _stopTunnelCompletionHandler;
-    CDUnknownBlockType _dnsResolverCompletionHandler;
-    long long _tunnelKind;
-    NWPath *_path;
-    NEUserNotification *_g_notification;
-    unsigned long long _randomLocalPortFallbackRetryCount;
-    NEIKEv2CompanionDatapath *_companionProxyDatapath;
-    NEIKEv2Session *_session;
-    unsigned long long _ifIndex;
-    long long _pathStatus;
-    NSObject<OS_dispatch_queue> *_queue;
-    NWPathEvaluator *_scopedPathEvaluator;
 }
 
 - (void);
@@ -52,11 +16,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)ch;
+- (id);
 - (void);
 - (void);
-- (void)ocol;
+- (void)socketProtocol;
 
 @end
 

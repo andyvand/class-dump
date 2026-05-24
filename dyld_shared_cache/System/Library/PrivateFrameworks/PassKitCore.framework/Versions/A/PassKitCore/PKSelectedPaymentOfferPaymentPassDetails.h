@@ -9,10 +9,6 @@
 @interface PKSelectedPaymentOfferPaymentPassDetails
 {
     NSString *_passUniqueID;
-    NSString *_passSerialNumber;
-    NSString *_passTypeIdentifier;
-    NSString *_dpanIdentifier;
-    NSString *_primaryAccountIdentifier;
 }
 
 + (_Bool);
@@ -27,21 +23,17 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)(-;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)_sectionCounts;
 - (id);
 - (void)@'; ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *dpanIdentifier; // @synthesize dpanIdentifier=_dpanIdentifier;
-@property(copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
 @property(copy, nonatomic) NSString *passUniqueID; // @synthesize passUniqueID=_passUniqueID;
-@property(copy, nonatomic) NSString *primaryAccountIdentifier; // @synthesize primaryAccountIdentifier=_primaryAccountIdentifier;
 
 @end
 

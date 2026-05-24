@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, TISmartPunctuationOptions;
-
 @interface TISmartPunctuationController
 {
     _Bool _leftSingleQuotationMarkInserted;
-    _Bool _leftDoubleQuotationMarkInserted;
-    NSCharacterSet *_alphanumericCharacterSet;
-    NSCharacterSet *_whitespaceAndNewlineCharacterSet;
-    NSCharacterSet *_decimalDigitCharacterSet;
-    NSCharacterSet *_punctuationCharacterSet;
-    NSCharacterSet *_openerCharacterSet;
-    NSCharacterSet *_germanApostrophePrecedingSet;
-    NSCharacterSet *_dutchApostropheFollowingSet;
-    NSCharacterSet *_cornerBracketCharacterSet;
-    NSCharacterSet *_bookTitleMarkCharacterSet;
-    NSCharacterSet *_dashCharacterSet;
-    NSCharacterSet *_enDashCharacterSet;
-    NSCharacterSet *_emDashCharacterSet;
-    _Bool _smartQuotesEnabled;
-    _Bool _smartDashesEnabled;
-    unsigned long long _autoQuoteType;
-    TISmartPunctuationOptions *_smartPunctuationOptions;
 }
 
 + (id);
@@ -33,10 +14,10 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
+- (unsigned long long)vGeoCompoundNameInfo";
+- (void)initWithAllKnownItems:(unsigned long long)arg1 itemsNeedingDonation:donatedItems:partiallyDonatedItems:itemsNeedingDonationForRedonationRequests: /* Error: Ran out of types for this method. */;
+- (id)public}lu (img) %{public}lu (vid) masters;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -54,9 +35,6 @@
 ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long autoQuoteType; // @synthesize autoQuoteType=_autoQuoteType;
-@property(nonatomic) _Bool smartDashesEnabled; // @synthesize smartDashesEnabled=_smartDashesEnabled;
-@property(retain, nonatomic) TISmartPunctuationOptions *smartPunctuationOptions; // @synthesize smartPunctuationOptions=_smartPunctuationOptions;
 @property(nonatomic) _Bool smartQuotesEnabled; // @synthesize smartQuotesEnabled=_smartQuotesEnabled;
 
 @end

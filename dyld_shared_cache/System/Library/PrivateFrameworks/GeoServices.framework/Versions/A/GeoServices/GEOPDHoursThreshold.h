@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDHoursThreshold
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _closingSoonMessageThresholdSecond;
-    unsigned int _openingSoonMessageThresholdSecond;
-    struct {
-        unsigned int has_closingSoonMessageThresholdSecond:1;
-        unsigned int has_openingSoonMessageThresholdSecond:1;
-    } _flags;
 }
 
 - (id);
@@ -24,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)SearchResultsSuggestionResult"b1"read_siriSearchResult"b1"read_territoryLookupResult"b1"read_transitScheduleLookupResult"b1"read_vendorSpecificPlaceRefinementResult"b1"read_wifiFingerprintResult"b1"wrote_anyField"b1};
-- (id)ronmentReleaseName;
+- (id)_environmentReleaseName;
 - (id)¨
 ;
 - (void);

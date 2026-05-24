@@ -6,12 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSString, PKServiceProviderPurchase;
+@class NSString;
 
 @interface PKPaymentServiceProviderPerformActionRequest : PKPaymentWebServiceRequest
 {
     NSString *_action;
-    PKServiceProviderPurchase *_purchase;
 }
 
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *action; // @synthesize action=_action;
-@property(retain, nonatomic) PKServiceProviderPurchase *purchase; // @synthesize purchase=_purchase;
 
 @end
 

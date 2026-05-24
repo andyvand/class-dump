@@ -4,30 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SATimestamp;
+@class SATimestamp;
 
 @interface SATimeRange
 {
     SATimestamp *_startTime;
-    SATimestamp *_endTime;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)accessibilityMaxValueAsNumber;
 - (id);
 - (long long);
 - (double);
 - (unsigned long long);
 - (double);
-- (id);
+- (id)shouldCacheNodeForPipelineState: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (double);
 - (unsigned long long);
 - (double);
-- (void);
+- (void)#;
 - (long long);
 - (void);
 - (id);
@@ -36,20 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) unsigned long long deltaMachAbsTime;
-@property(readonly) double deltaMachAbsTimeSeconds;
-@property(readonly) unsigned long long deltaMachContTime;
-@property(readonly) double deltaMachContTimeSeconds;
-@property(readonly) double deltaWallTime;
-@property(readonly, copy) NSString *description;
-@property(readonly) SATimestamp *endTime;
 @property(readonly) unsigned long long hash;
-@property(readonly) SATimestamp *startTime;
-@property(readonly) Class superclass;
 
 @end
 

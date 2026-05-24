@@ -9,18 +9,13 @@
 @interface NSServiceMaster
 {
     NSMutableDictionary *_localObjects;
-    id _reserved;
-    struct {
-        unsigned int serviceVendingIsActive:1;
-        unsigned int reserved:31;
-    } _serviceFlags;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)valid URL scheme for background downloads:(id)arg1 %@. Valid schemes are http or https;
++ (id)schemes are http or https;
++ (id)orks/GSS.framework/Versions/A/GSS;
++ (id)mework/Versions/A/CoreGraphics;
 - (void);
 - (id);
 - (id);

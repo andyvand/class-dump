@@ -10,7 +10,7 @@
     id onDismiss;
 }
 
-- (void);
+- (void)>{;
 - (id);
 - (id);
 - (void);

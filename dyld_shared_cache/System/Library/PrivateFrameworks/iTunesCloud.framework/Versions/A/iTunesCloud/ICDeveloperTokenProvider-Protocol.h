@@ -7,6 +7,7 @@
 @class ICClientInfo;
 
 @protocol ICDeveloperTokenProvider
-- (void)loudIdentityProperties:(ICClientInfo *)arg1;
+- (void);
+- (void)setICloudIdentityProperties:(ICClientInfo *)arg1;
 @end
 

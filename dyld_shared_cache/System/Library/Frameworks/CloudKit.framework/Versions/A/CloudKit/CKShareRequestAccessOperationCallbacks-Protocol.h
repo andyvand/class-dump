@@ -5,5 +5,6 @@
 //
 
 @protocol CKShareRequestAccessOperationCallbacks
+- (void);
 @end
 

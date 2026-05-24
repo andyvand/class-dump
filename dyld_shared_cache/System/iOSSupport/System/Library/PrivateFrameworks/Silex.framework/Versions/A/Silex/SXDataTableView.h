@@ -6,19 +6,14 @@
 
 #import <Silex/SXDataTableDrawView.h>
 
-@class NSMutableDictionary, SXDataTableBlueprint;
-@protocol SXDataTableDataSource, SXDataTableViewDataSource;
+@protocol SXDataTableViewDataSource;
 
 @interface SXDataTableView : SXDataTableDrawView
 {
     id <SXDataTableViewDataSource> _viewDataSource;
-    id <SXDataTableDataSource> _dataSource;
-    SXDataTableBlueprint *_blueprint;
-    NSMutableDictionary *_rowViews;
-    NSMutableDictionary *_columnViews;
 }
 
-- (struct CGPoint);
+- (struct CGPoint)";
 - (void)NavigationBarView";
 
 @end

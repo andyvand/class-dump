@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDWiFiMetricsAssociationHistory
 {
     unsigned long long _timestamp;
-    NSMutableArray *_associationEvents;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
@@ -19,9 +15,9 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (void));
 - (void);
-- (void);
-- (id);
+- (id)K}̛_%;
 - (void);
 - (void);
 - (unsigned long long);
@@ -30,15 +26,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)?;
+- (void)d	PdU;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *associationEvents; // @synthesize associationEvents=_associationEvents;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

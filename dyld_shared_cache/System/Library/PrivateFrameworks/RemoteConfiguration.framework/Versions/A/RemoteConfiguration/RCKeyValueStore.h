@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, RCMutexLock;
-@protocol RCKeyValueStoreMigrating, RCOperationThrottler;
+@class NSString;
 
 @interface RCKeyValueStore
 {
     _Bool _shouldExportJSONSidecar;
-    _Bool _needSave;
-    NSString *_name;
-    unsigned long long _storeSize;
-    NSMutableDictionary *_objectsByKey;
-    NSString *_storeDirectory;
-    unsigned long long _clientVersion;
-    unsigned long long _optionsMask;
-    id <RCKeyValueStoreMigrating> _migrator;
-    RCMutexLock *_writeLock;
-    id <RCOperationThrottler> _saveThrottler;
 }
 
 + (_Bool);
@@ -36,15 +25,15 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void);
@@ -52,10 +41,10 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -80,28 +69,10 @@
 - (void);
 - (id)
 × ;
-- (void)ange:(id)arg1;
+- (void)firstMatchInString:(id)arg1 options:range: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *asDictionary;
-@property(nonatomic) unsigned long long clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <RCKeyValueStoreMigrating> migrator; // @synthesize migrator=_migrator;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool needSave; // @synthesize needSave=_needSave;
-@property(retain, nonatomic) NSMutableDictionary *objectsByKey; // @synthesize objectsByKey=_objectsByKey;
-@property(nonatomic) unsigned long long optionsMask; // @synthesize optionsMask=_optionsMask;
-@property(retain, nonatomic) id <RCOperationThrottler> saveThrottler; // @synthesize saveThrottler=_saveThrottler;
-@property(nonatomic) _Bool shouldExportJSONSidecar; // @synthesize shouldExportJSONSidecar=_shouldExportJSONSidecar;
-@property(retain, nonatomic) NSString *storeDirectory; // @synthesize storeDirectory=_storeDirectory;
-@property(nonatomic) unsigned long long storeSize; // @synthesize storeSize=_storeSize;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RCMutexLock *writeLock; // @synthesize writeLock=_writeLock;
 
 @end
 

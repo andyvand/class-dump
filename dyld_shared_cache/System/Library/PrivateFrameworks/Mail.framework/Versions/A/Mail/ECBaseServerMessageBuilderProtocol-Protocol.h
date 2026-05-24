@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageFlags, NSString;
+@class NSString;
 
 @protocol ECBaseServerMessageBuilderProtocol
+- (void)B;
+- (void);
+- (void)RX;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *messagePersistentID;
 @property(retain, nonatomic) NSString *persistentID;
-@property(retain, nonatomic) ECMessageFlags *serverFlags;
 @end
 

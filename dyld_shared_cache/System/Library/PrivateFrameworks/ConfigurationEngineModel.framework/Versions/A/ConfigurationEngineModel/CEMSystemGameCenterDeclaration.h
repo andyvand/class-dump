@@ -6,19 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemGameCenterDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowGameCenter;
-    NSNumber *_payloadAllowMultiplayerGaming;
-    NSNumber *_payloadAllowAddingGameCenterFriends;
-    NSNumber *_payloadAllowGameCenterNearbyMultiplayer;
-    NSNumber *_payloadAllowGameCenterPrivateMessaging;
-    NSNumber *_payloadAllowGameCenterProfilePrivacyModification;
-    NSNumber *_payloadAllowGameCenterProfileModification;
-    NSNumber *_payloadAllowedGameCenterOtherPlayerTypes;
-    NSNumber *_payloadAllowGameCenterFriendsSharingModification;
 }
 
 + (id);
@@ -46,33 +38,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (int);
+- (id)a1;
 - (id);
 - (id);
+- (_Bool)sk with id:(id)arg1 %s is periodic and failed.;
 - (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)__TEXT;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowAddingGameCenterFriends; // @synthesize payloadAllowAddingGameCenterFriends=_payloadAllowAddingGameCenterFriends;
 @property(copy, nonatomic) NSNumber *payloadAllowGameCenter; // @synthesize payloadAllowGameCenter=_payloadAllowGameCenter;
-@property(copy, nonatomic) NSNumber *payloadAllowGameCenterFriendsSharingModification; // @synthesize payloadAllowGameCenterFriendsSharingModification=_payloadAllowGameCenterFriendsSharingModification;
-@property(copy, nonatomic) NSNumber *payloadAllowGameCenterNearbyMultiplayer; // @synthesize payloadAllowGameCenterNearbyMultiplayer=_payloadAllowGameCenterNearbyMultiplayer;
-@property(copy, nonatomic) NSNumber *payloadAllowGameCenterPrivateMessaging; // @synthesize payloadAllowGameCenterPrivateMessaging=_payloadAllowGameCenterPrivateMessaging;
-@property(copy, nonatomic) NSNumber *payloadAllowGameCenterProfileModification; // @synthesize payloadAllowGameCenterProfileModification=_payloadAllowGameCenterProfileModification;
-@property(copy, nonatomic) NSNumber *payloadAllowGameCenterProfilePrivacyModification; // @synthesize payloadAllowGameCenterProfilePrivacyModification=_payloadAllowGameCenterProfilePrivacyModification;
-@property(copy, nonatomic) NSNumber *payloadAllowMultiplayerGaming; // @synthesize payloadAllowMultiplayerGaming=_payloadAllowMultiplayerGaming;
-@property(copy, nonatomic) NSNumber *payloadAllowedGameCenterOtherPlayerTypes; // @synthesize payloadAllowedGameCenterOtherPlayerTypes=_payloadAllowedGameCenterOtherPlayerTypes;
-@property(readonly) Class superclass;
 
 @end
 

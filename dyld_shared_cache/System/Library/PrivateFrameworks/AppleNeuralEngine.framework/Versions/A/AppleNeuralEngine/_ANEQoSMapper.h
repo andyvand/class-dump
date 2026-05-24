@@ -14,12 +14,12 @@
 + (unsigned int);
 + (int);
 + (id);
-+ (unsigned int);
-+ (unsigned int);
-+ (unsigned int);
-+ (unsigned int);
-+ (unsigned int);
-+ (unsigned int);
++ (unsigned int):8@16q24@32@40@48 /* Error: Ran out of types for this method. */;
++ (unsigned int)dListItem";
++ (unsigned int)ryOptions";
++ (unsigned int)AB;
++ (unsigned int)6@24@?32@40;
++ (unsigned int)NPC] <%{public}@> _requestAndUpdateArtworkForContentItems because %{public}@.;
 
 @end
 

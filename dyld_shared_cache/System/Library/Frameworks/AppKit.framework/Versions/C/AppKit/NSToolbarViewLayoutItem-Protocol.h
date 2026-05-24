@@ -5,15 +5,12 @@
 //
 
 @protocol NSToolbarViewLayoutItem
+- (_Bool)verify cert was issued by trusted key %d;
+- (unsigned long long)on failed;
+- (void)accept__willRetryBackgroundDataTask_withError;
+- (void);
 
 // Remaining properties
 @property(setter=_setNeedsModeConfiguration:) _Bool _needsModeConfiguration;
-@property(readonly) _Bool alwaysWantsOverflowTransitions;
-@property _Bool animatingIn;
-@property _Bool animatingOut;
-@property _Bool inGlassSidebar;
-@property(readonly) _Bool isGroup;
-@property(readonly) unsigned long long itemPosition;
-@property(readonly) _Bool participatesInOverflow;
 @end
 

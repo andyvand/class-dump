@@ -6,21 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface TTMSchemaTTMClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ttmId;
-    SISchemaUUID *_trpId;
-    _Bool _hasTtmId;
-    _Bool _hasTrpId;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -30,19 +27,15 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool),R,V_manager;
+- (_Bool)s_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join AS cmj ON m.ROWID = cmj.message_id WHERE error == 0 AND is_from_me == 0 AND is_finished == 1 ORDER BY date DESC, ROWID DESC LIMIT 1;;
 - (id);
 - (id);
-- (id)tn1Best;
-- (id)ataOnlyRequest;
-- (void)Context;
+- (id)deletePostItn1Best;
+- (id)_isDataOnlyRequest;
+- (void)executeOnRemoteRequestContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(nonatomic) _Bool hasTtmId; // @synthesize hasTtmId=_hasTtmId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 @property(retain, nonatomic) SISchemaUUID *ttmId; // @synthesize ttmId=_ttmId;
 
 @end

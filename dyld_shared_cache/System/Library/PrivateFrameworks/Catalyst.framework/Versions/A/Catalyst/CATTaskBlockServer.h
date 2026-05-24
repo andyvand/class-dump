@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATTaskServer, NSArray, NSMapTable, NSMutableDictionary, NSMutableSet, NSString;
+@class CATTaskServer, NSArray;
 
 @interface CATTaskBlockServer
 {
     CATTaskServer *mServer;
-    NSMutableDictionary *mOperationBlocksByRequestClassName;
-    NSMutableSet *mLongRunningOperationRequestClassNames;
-    NSMapTable *mLongRunningOperationsByUUID;
-    NSArray *_clientSessions;
-    CDUnknownBlockType _sessionDidConnect;
-    CDUnknownBlockType _sessionDidReceiveNotification;
-    CDUnknownBlockType _sessionDidInterruptWithError;
-    CDUnknownBlockType _sessionDidDisconnect;
-    CDUnknownBlockType _sessionDidInvalidate;
-    CDUnknownBlockType _didInvalidate;
 }
 
 - (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
+- (CDUnknownBlockType)R;;
+- (CDUnknownBlockType);
+- (CDUnknownBlockType)L;
+- (CDUnknownBlockType)T9;
 - (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)v;
 - (id);
 - (void);
 - (id);
@@ -49,24 +39,11 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *clientSessions; // @synthesize clientSessions=_clientSessions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didInvalidate; // @synthesize didInvalidate=_didInvalidate;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType sessionDidConnect; // @synthesize sessionDidConnect=_sessionDidConnect;
-@property(copy, nonatomic) CDUnknownBlockType sessionDidDisconnect; // @synthesize sessionDidDisconnect=_sessionDidDisconnect;
-@property(copy, nonatomic) CDUnknownBlockType sessionDidInterruptWithError; // @synthesize sessionDidInterruptWithError=_sessionDidInterruptWithError;
-@property(copy, nonatomic) CDUnknownBlockType sessionDidInvalidate; // @synthesize sessionDidInvalidate=_sessionDidInvalidate;
-@property(copy, nonatomic) CDUnknownBlockType sessionDidReceiveNotification; // @synthesize sessionDidReceiveNotification=_sessionDidReceiveNotification;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,7 +11,7 @@
     NSSet *_notificationTypeNamesToFetch;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);

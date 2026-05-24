@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (id);
+- (id)!;
+- (id)_payloadProxyAutoDiscoveryEnable;
 - (void);
-- (id);
+- (id)MPStoreModelGenericObjectBuilder;
 - (long long);
 - (void);
 - (void)1"position"b3"autosizeText"b1"isMomentary"b1"wasSelected"b1"needsBackgroundAndContentViewUpdate"b1"usesAXTextSize"b1"selectionIndicatorDragged"b1"adjustsForContentSizeCategory"b1"hovered"b1"animatingSelectionIndicator"b1"hasCustomInfoView"b1"hasMaterial"b1"useSpringBoardVibrancy"b1};
-- (id)nishingModalTransition;
+- (id)finishingModalTransition;
 - (id)buttonTitle;
-- (id)PhoneTVMacView;
+- (id)_UIAlertControllerPhoneTVMacView;
 - (id)ported. Animation key path '%@' value '%@';
 - (_Bool)edFrameGuide-topConstraint;
 - (void)X.3Qo__Qo_AQyi¯.3GGGGGG;

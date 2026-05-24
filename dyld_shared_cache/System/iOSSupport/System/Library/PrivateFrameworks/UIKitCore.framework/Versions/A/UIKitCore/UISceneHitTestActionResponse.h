@@ -9,7 +9,7 @@
 }
 
 - (int);
-- (id)inFrame:(int)arg1;
+- (id)adjustForTranslucentGapsWithSize:(int)arg1 inFrame: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) int processIdentifer;

@@ -11,8 +11,8 @@
     unsigned int _uid;
 }
 
-- (id);
-- (unsigned int);
+- (id)i;
+- (unsigned int)GGAFGGAUGAUGytG;
 - (void);
 
 // Remaining properties

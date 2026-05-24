@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIView, UIWindow;
+@class NSArray, UIView;
 @protocol _UIGestureRecognizerContainer;
 
 @protocol _UIGestureRecognizerContainer
+- (id <_UIGestureRecognizerContainer>)etAlgebraP;
+- (UIView *);
+- (void)3;
 
 // Remaining properties
-@property(readonly, nonatomic) id <_UIGestureRecognizerContainer> _actingParentGestureRecognizerContainer;
-@property(readonly, nonatomic) NSArray *_childGestureRecognizerContainers;
-@property(readonly, nonatomic) UIWindow *_eventReceivingWindow;
-@property(readonly, nonatomic) id <_UIGestureRecognizerContainer> _parentGestureRecognizerContainer;
-@property(readonly, nonatomic) UIView *_proxyView;
 @property(readonly, nonatomic) NSArray *gestureRecognizers;
 @end
 

@@ -6,15 +6,11 @@
 
 #import <WiFiPolicy/TBDataSource.h>
 
-@class NSManagedObjectContext, NSString, TBCoreDataStoreDescriptor, TBPersistenceManager;
+@class NSManagedObjectContext;
 
 @interface TBCoreDataSource : TBDataSource
 {
     _Bool _hasStorageError;
-    unsigned long long _cacheExpirationInDays;
-    NSManagedObjectContext *_context;
-    TBPersistenceManager *_persistenceManager;
-    TBCoreDataStoreDescriptor *_descriptor;
 }
 
 - (void);
@@ -23,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)_TtC12SiriOntology52UsoTaskBuilder_convert_common_RecurringDateTimeRange;
+- (id)Lu8;
 - (void);
 - (void);
 - (_Bool);
@@ -36,7 +32,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)y;
 - (id);
 - (void);
 - (void)
@@ -44,18 +40,7 @@
 - (void)ÿåÌ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cacheExpirationInDays; // @synthesize cacheExpirationInDays=_cacheExpirationInDays;
 @property(retain, nonatomic) NSManagedObjectContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TBCoreDataStoreDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(nonatomic) _Bool hasStorageError; // @synthesize hasStorageError=_hasStorageError;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TBPersistenceManager *persistenceManager; // @synthesize persistenceManager=_persistenceManager;
-@property(readonly) Class superclass;
 
 @end
 

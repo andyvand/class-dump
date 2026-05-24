@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     NSArray *_extractedContentAbsolutePaths;
 }
 
-+ (_Bool);
++ (_Bool)s in initial fetch;
 + (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)sendAVMessageToPerson:(id)arg1 sessionID:type:userInfo:conference:account: /* Error: Ran out of types for this method. */;
+- (id)markJunkForTrustKitDecisionWithGUID:reason:metadataData:fromService: /* Error: Ran out of types for this method. */;
+- (_Bool)markHasHadSuccessfulQueryForIDs:(id)arg1 style:(id)arg2 onServices:(id *)arg3;
+- (id)da0kDGxz-sNUlGSu45C4/Library/Caches/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMCore/Source/Public API/IMBalloonApp.m;
 - (void);
 
 // Remaining properties

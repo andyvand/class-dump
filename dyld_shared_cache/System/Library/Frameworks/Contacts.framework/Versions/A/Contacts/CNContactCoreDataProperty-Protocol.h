@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol CNContactCoreDataProperty
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *coreDataKey;
-@property(readonly, retain, nonatomic) NSArray *coreDataPropertyKeysForPrefetching;
-@property(readonly, retain, nonatomic) NSArray *coreDataRelationshipKeyPathsForPrefetching;
 @end
 

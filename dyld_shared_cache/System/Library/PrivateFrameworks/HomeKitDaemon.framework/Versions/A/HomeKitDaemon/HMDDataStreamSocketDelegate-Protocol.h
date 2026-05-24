@@ -5,5 +5,7 @@
 //
 
 @protocol HMDDataStreamSocketDelegate
+- (void);
+- (void)noSongIdentifiersFound;
 @end
 

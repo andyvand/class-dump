@@ -9,7 +9,6 @@
 @interface IMCollaborationNoticeDeduplicationResult
 {
     NSArray *_deduplicatedNotices;
-    NSArray *_duplicateNotices;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *deduplicatedNotices; // @synthesize deduplicatedNotices=_deduplicatedNotices;
-@property(readonly, nonatomic) NSArray *duplicateNotices; // @synthesize duplicateNotices=_duplicateNotices;
 
 @end
 

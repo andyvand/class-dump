@@ -9,22 +9,25 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (NSArray *);
+- (struct CGSize)qa;
+- (id);
 - (void)@ù
 × ;
 - (NSArray *)
 × ;
 - (void)× ;
-- (void);
 - (void)Ô ;
 - (void)aringService"16@24^{CGRect={CGPoint=dd}{CGSize=dd}}32;
 - (void)28;
-- (void)entlyHandledKeyPress:(NSNotification *)arg1;
-- (unsigned long long)n:(NSWindow *)arg1;
-- (void)layerHostedContext;
+- (void)setCurrentlyHandledKeyPress:(NSNotification *)arg1;
+- (unsigned long long)convertPointToScreen:(NSWindow *)arg1;
+- (void)_layerHostedContext;
 - (void)unchingIsComplete;
 - (void)licitly;
 - (struct CGRect)ame;
-- (void)ebarPocketEnabled;
+- (void)NSTitlebarPocketEnabled;
 - (void)ntroller validateMenuItem:(NSNotification *)arg1 ];
 - (_Bool)tateDidChangeNotification(void);
 - (void)eneWithIdentifier(NSString *__strong);

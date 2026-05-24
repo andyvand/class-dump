@@ -7,12 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceTree
 {
     id editor;
-    id _groups;
-    id _device;
-    id _isDevicesExpanded;
-    id _devices;
-    id _workspace;
-    id _filter;
 }
 
 @end

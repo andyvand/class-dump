@@ -7,10 +7,6 @@
 @interface BiomeSQLParser.PgQuery_AlterObjectDependsStmt._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _objectType;
-    id _relation;
-    id _object;
-    id _extname;
-    id _remove;
 }
 
 @end

@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateDeviceConnection
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_deviceCarrierName;
-    NSString *_deviceCountryCode;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _cellularDataState;
-    int _deviceNetworkConnectivity;
-    struct {
-        unsigned int has_cellularDataState:1;
-        unsigned int has_deviceNetworkConnectivity:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_deviceCarrierName:1;
-        unsigned int read_deviceCountryCode:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sSupportAutocompletePublisherResults:(id)arg1;
++ (_Bool)setHasSupportAutocompletePublisherResults:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (int);
@@ -41,20 +25,20 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)chunkSz=%{public}lu, stopOptions=%{public}@, _numTrailingSamplesAfterSchedulingStop=%{public}lu, maxAllowedSamples=%{public}lu;
 - (void);
-- (id);
+- (id)I;
 - (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
 - (int);
 - (_Bool);
-- (id);
+- (id)`;
 - (void);
 - (id)× ;
-- (id)ishedHandler;
-- (_Bool)onseStart: /* Error: Ran out of types for this method. */;
+- (id)statusFinishedHandler;
+- (_Bool)setHasResponseStart: /* Error: Ran out of types for this method. */;
 - (id)guationName;
 - (int)p;
 - (id)ound in the index;
@@ -86,15 +70,7 @@
 - (void)ìê;
 
 // Remaining properties
-@property(nonatomic) int cellularDataState;
-@property(retain, nonatomic) NSString *deviceCarrierName;
-@property(retain, nonatomic) NSString *deviceCountryCode;
-@property(nonatomic) int deviceNetworkConnectivity;
-@property(nonatomic) _Bool hasCellularDataState;
-@property(readonly, nonatomic) _Bool hasDeviceCarrierName;
-@property(readonly, nonatomic) _Bool hasDeviceCountryCode;
 @property(nonatomic) _Bool hasDeviceNetworkConnectivity;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

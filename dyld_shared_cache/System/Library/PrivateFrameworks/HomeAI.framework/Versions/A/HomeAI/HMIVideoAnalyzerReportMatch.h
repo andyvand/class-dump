@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMIVideoAnalyzerReportMatch
 {
     float _score;
-    NSNumber *_truth;
-    NSNumber *_prediction;
 }
 
 - (id);
@@ -21,8 +19,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSNumber *prediction; // @synthesize prediction=_prediction;
-@property(readonly) float score; // @synthesize score=_score;
 @property(readonly) NSNumber *truth; // @synthesize truth=_truth;
 
 @end

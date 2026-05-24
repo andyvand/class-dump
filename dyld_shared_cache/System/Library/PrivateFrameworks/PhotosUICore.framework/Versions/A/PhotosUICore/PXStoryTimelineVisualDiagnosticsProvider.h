@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXStoryAutoEditMomentsProvider, PXStoryConfiguration, PXStoryModel, PXStoryResourcesDataSource, PXStoryVisualDiagnosticsProviderHelper;
-@protocol PXStoryTimeline;
+@class PXStoryVisualDiagnosticsProviderHelper;
 
 @interface PXStoryTimelineVisualDiagnosticsProvider
 {
     PXStoryVisualDiagnosticsProviderHelper *_helper;
-    PXStoryModel *_model;
-    id <PXStoryTimeline> _timeline;
-    PXStoryAutoEditMomentsProvider *_momentsProvider;
-    PXStoryResourcesDataSource *_resourcesDataSource;
-    PXStoryConfiguration *_configuration;
-    double _screenScale;
 }
 
 - (id);
@@ -33,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ҡB;
 - (id);
 - (unsigned long long);
 - (void);
@@ -47,21 +40,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)tabiResourcesContentDirectory;
 - (id);
 - (double);
-- (id)iguousTokensPauseStoryGeneration: /* Error: Ran out of types for this method. */;
+- (id)setAmbiguousTokensPauseStoryGeneration: /* Error: Ran out of types for this method. */;
 - (id)y#¥GGó#¥ySSGGÁ¥G;2¥yåB¥GGACySiSgGG_SNyy¥GQo_@4¥G_Qo__Qo_;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXStoryConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) PXStoryVisualDiagnosticsProviderHelper *helper; // @synthesize helper=_helper;
-@property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(readonly, nonatomic) PXStoryAutoEditMomentsProvider *momentsProvider; // @synthesize momentsProvider=_momentsProvider;
-@property(readonly, nonatomic) PXStoryResourcesDataSource *resourcesDataSource; // @synthesize resourcesDataSource=_resourcesDataSource;
-@property(readonly, nonatomic) double screenScale; // @synthesize screenScale=_screenScale;
-@property(readonly, nonatomic) id <PXStoryTimeline> timeline; // @synthesize timeline=_timeline;
 
 @end
 

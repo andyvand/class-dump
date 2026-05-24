@@ -10,20 +10,19 @@
 @interface TSDTrackerManipulatorCoordinator
 {
     NSMutableSet *mRegisteredTMs;
-    NSObject<TSDTrackerManipulator> *mControllingTM;
 }
 
 + (void);
 + (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)d to the player.;
+- (_Bool)MPC_LIVE_LINK_UNABLE_TO_SHAREPLAY_ALERT_ACTION;
+- (_Bool)OpenMusicCodingKeys;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)Hh;
 - (void);
 - (id);
 

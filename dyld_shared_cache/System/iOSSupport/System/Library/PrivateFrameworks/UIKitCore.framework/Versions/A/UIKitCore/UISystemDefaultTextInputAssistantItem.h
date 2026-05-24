@@ -6,31 +6,24 @@
 
 #import <UIKitCore/UITextInputAssistantItem.h>
 
-@class NSArray;
-@protocol UISystemDefaultTextInputAssistantItemDelegate;
-
 @interface UISystemDefaultTextInputAssistantItem : UITextInputAssistantItem
 {
     _Bool _systemItem;
-    _Bool _isKeyboardCameraItem;
-    id <UISystemDefaultTextInputAssistantItemDelegate> _delegate;
-    NSArray *_defaultSystemLeadingBarButtonGroups;
-    NSArray *_defaultSystemTrailingBarButtonGroups;
 }
 
 - (SEL);
 - (void);
 - (void);
+- (void)C;
 - (void);
+- (void)DSS;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)imageWithSymbolConfiguration: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
+- (void)ger stopped coalescing content item updates. Pushing changes, if any.;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (id);
 - (void);
@@ -45,12 +38,12 @@
 - (void);
 - (void){CGPoint=dd}32@"UIView"48;
 - (void)e"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
-- (void)Container: /* Error: Ran out of types for this method. */;
-- (void)tputOnInputSourceSession:shouldFlush: /* Error: Ran out of types for this method. */;
+- (void)setScopeBarContainer: /* Error: Ran out of types for this method. */;
+- (void)performKeyboardOutputOnInputSourceSession:shouldFlush: /* Error: Ran out of types for this method. */;
 - (void)doubleSided;
-- (void)utocorrect;
-- (void)ect: /* Error: Ran out of types for this method. */;
-- (void)nedAlertController;
+- (void)autocorrect;
+- (void)_setDetachedBackgroundEffect: /* Error: Ran out of types for this method. */;
+- (void)_containedAlertController;
 - (_Bool)PendingAnimations;
 - (void)abel;
 - (_Bool)ionTintColor;
@@ -59,10 +52,6 @@
 - (void)°e;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *defaultSystemLeadingBarButtonGroups; // @synthesize defaultSystemLeadingBarButtonGroups=_defaultSystemLeadingBarButtonGroups;
-@property(retain, nonatomic) NSArray *defaultSystemTrailingBarButtonGroups; // @synthesize defaultSystemTrailingBarButtonGroups=_defaultSystemTrailingBarButtonGroups;
-@property(nonatomic) __weak id <UISystemDefaultTextInputAssistantItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isKeyboardCameraItem; // @synthesize isKeyboardCameraItem=_isKeyboardCameraItem;
 @property(nonatomic, getter=_isSystemItem) _Bool systemItem; // @synthesize systemItem=_systemItem;
 
 @end

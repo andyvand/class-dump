@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteSearchManager, NSArray, NSCharacterSet, NSMutableArray, NSNumber, NSString;
-@protocol CKContactsSearchManagerDelegate;
+@class CNAutocompleteSearchManager;
 
 @interface CKContactsSearchManager
 {
     _Bool _suppressGroupSuggestions;
-    _Bool _biasForOutgoingInteraction;
-    _Bool _zkwGroupSuggestionsEnabled;
-    id <CKContactsSearchManagerDelegate> _delegate;
-    NSArray *_enteredRecipients;
-    CNAutocompleteSearchManager *_searchManager;
-    NSCharacterSet *_emojiCharacterSet;
-    NSMutableArray *_searchResults;
-    NSNumber *_currentSearchTaskID;
-    NSString *_searchText;
 }
 
+- (_Bool)_webView:printFrame: /* Error: Ran out of types for this method. */;
+- (id)_webView:mouseDidMoveOverElement:withFlags:userInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)RLError;
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (void) ;
+- (void);
+- (void)I;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)isKeyboardMathSolvingAllowedObservation;
 - (void);
 - (id);
+- (id)o;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)t;
+- (_Bool)p;
+- (_Bool)xist for attachment, taking some extra time to generate it:(id)arg1 %@;
+- (id)ICNoteAnalyticsAudioRecordingStoppedNotificationDidNoteMultitaskingOccurKey;
+- (void)tyEvent+Conversion.swift;
+- (id)ved Video;
+- (id)png;
 - (_Bool);
 - (void);
 - (id);
@@ -52,7 +42,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
@@ -70,23 +60,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool biasForOutgoingInteraction; // @synthesize biasForOutgoingInteraction=_biasForOutgoingInteraction;
-@property(retain, nonatomic) NSNumber *currentSearchTaskID; // @synthesize currentSearchTaskID=_currentSearchTaskID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKContactsSearchManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSCharacterSet *emojiCharacterSet; // @synthesize emojiCharacterSet=_emojiCharacterSet;
-@property(retain, nonatomic) NSArray *enteredRecipients; // @synthesize enteredRecipients=_enteredRecipients;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CNAutocompleteSearchManager *searchManager; // @synthesize searchManager=_searchManager;
-@property(retain, nonatomic) NSMutableArray *searchResults; // @synthesize searchResults=_searchResults;
-@property(retain, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressGroupSuggestions; // @synthesize suppressGroupSuggestions=_suppressGroupSuggestions;
-@property(nonatomic) _Bool zkwGroupSuggestionsEnabled; // @synthesize zkwGroupSuggestionsEnabled=_zkwGroupSuggestionsEnabled;
 
 @end
 

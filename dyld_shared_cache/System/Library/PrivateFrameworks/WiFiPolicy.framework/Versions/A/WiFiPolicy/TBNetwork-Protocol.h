@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSString;
 
 @protocol TBNetwork
+- (unsigned int)onsumed == ioBufferFrameSize;
+- (_Bool)oxes;
+- (_Bool)UsoTaskBuilder_noVerb_common_ListPosition;
 - (_Bool)edian change>)
 ;
 
@@ -14,36 +17,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *SSID;
-@property(readonly, nonatomic) unsigned long long accessPointCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) NSSet *accessPoints;
-@property(readonly, nonatomic) NSString *attributesDescription;
-@property(readonly, nonatomic) NSString *authDescription;
-@property(readonly, nonatomic) unsigned long long authMask;
-@property(readonly, nonatomic, getter=isCaptive) _Bool captive;
-@property(readonly, nonatomic) double centroidLat;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) double centroidLng;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic, getter=isLowQuality) _Bool lowQuality;
-@property(readonly, nonatomic, getter=isMoving) _Bool moving;
-@property(readonly, nonatomic) NSArray *ownerIdentifiers;
-@property(readonly, nonatomic, getter=isPublic) _Bool public;
 @property(readonly, nonatomic) NSString *remoteIdentifier;
-@property(readonly, nonatomic, getter=isSuspicious) _Bool suspicious;
-@property(readonly, nonatomic) unsigned long long tileKey;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) unsigned long long venueGroup;
-@property(readonly, nonatomic) unsigned int venueType;
 @end
 

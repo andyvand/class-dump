@@ -7,7 +7,6 @@
 @interface ContactsUI.CNContactActionsViewControllerView.Coordinator
 {
     id didSelectActionOfType;
-    id willPresentDisambiguationUIForActionType;
 }
 
 - (void);

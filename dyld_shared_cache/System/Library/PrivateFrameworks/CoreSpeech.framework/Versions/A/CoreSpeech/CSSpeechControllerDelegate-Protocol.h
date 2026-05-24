@@ -7,6 +7,9 @@
 @protocol CSSpeechControllerDelegate
 
 @optional
+- (void);
+- (void);
+- (void);
 - (void)rsonalizedLMPath=%@;
 @end
 

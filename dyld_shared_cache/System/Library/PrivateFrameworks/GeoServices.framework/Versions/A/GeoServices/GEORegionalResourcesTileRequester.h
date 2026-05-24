@@ -6,14 +6,11 @@
 
 #import <GeoServices/GEOTileRequester.h>
 
-@class GEOTileKeyMap, NSMutableArray, geo_isolater;
+@class NSMutableArray;
 
 @interface GEORegionalResourcesTileRequester : GEOTileRequester
 {
     NSMutableArray *_loaders;
-    geo_isolater *_loadersIsolater;
-    GEOTileKeyMap *_signpostIDs;
-    geo_isolater *_signpostIDsIsolater;
 }
 
 + (unsigned char)	¸²È´Ø¶¸º8¼H¾XÀ	ôÂHÃ;

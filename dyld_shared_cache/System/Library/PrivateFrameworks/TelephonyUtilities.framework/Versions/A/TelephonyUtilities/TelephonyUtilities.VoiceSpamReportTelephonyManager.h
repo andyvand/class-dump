@@ -7,9 +7,6 @@
 @interface TelephonyUtilities.VoiceSpamReportTelephonyManager
 {
     id carrierVoiceCallSpamReportAddressCarrierBundleKeyHierarchy;
-    id carrierNameCarrierBundleKey;
-    id logger;
-    id ctClient;
 }
 
 @end

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol NSTextViewDelegate
+
+@optional
+- (void);
+- (void)@9;
+- (NSArray *);
+- (_Bool);
+- (NSArray *);
 @end
 

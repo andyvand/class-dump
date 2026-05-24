@@ -9,23 +9,18 @@
 @interface BTCloudDevice
 {
     NSString *_bluetoothAddress;
-    NSString *_manufacturer;
-    NSString *_modelNumber;
-    NSString *_nickname;
-    NSString *_productID;
-    NSString *_vendorID;
 }
 
-+ (id);
++ (id)transformFileRepresentationsForType:(id)arg1 usingBlock:completionHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
+- (id)wf_dateFormatterDateStyleForDisplayableCalendarUnits:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)queue>",&,N,V_delegateQueue;
 - (void);
 - (void);
 - (void);
@@ -39,11 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bluetoothAddress; // @synthesize bluetoothAddress=_bluetoothAddress;
-@property(retain, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(retain, nonatomic) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
-@property(retain, nonatomic) NSString *nickname; // @synthesize nickname=_nickname;
-@property(retain, nonatomic) NSString *productID; // @synthesize productID=_productID;
-@property(retain, nonatomic) NSString *vendorID; // @synthesize vendorID=_vendorID;
 
 @end
 

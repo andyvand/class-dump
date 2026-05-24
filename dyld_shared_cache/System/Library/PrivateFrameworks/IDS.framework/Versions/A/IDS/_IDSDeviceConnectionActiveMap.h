@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface _IDSDeviceConnectionActiveMap
 {
     NSMutableDictionary *_activeConnectionMap;
-    NSMutableSet *_openConnections;
-    struct os_unfair_lock_s _writeLock;
 }
 
 + (id)ount"24@"IDSSession"32@"NSString"40;
@@ -18,7 +16,7 @@
 - (void);
 - (_Bool);
 - (int);
-- (id);
+- (id)_isAdvToBrowserConnection;
 - (void)ñ,°1Â0@ù
 × ;
 

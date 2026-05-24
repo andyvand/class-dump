@@ -6,15 +6,11 @@
 
 #import <CalendarUI/CalUIListViewCell.h>
 
-@class CalUILabel, CalUIListViewCellBackground, EKEvent, NSImageView;
+@class CalUILabel;
 
 @interface CalUIListViewAllDayEventCell : CalUIListViewCell
 {
     CalUILabel *_titleField;
-    CalUIListViewCellBackground *_backgroundView;
-    NSImageView *_imageView;
-    CalUILabel *_dateField;
-    EKEvent *_event;
 }
 
 + (double);
@@ -23,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (void);

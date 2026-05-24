@@ -4,24 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAAuthenticationSheetController, NSMutableSet, NSString;
-
 __attribute__((visibility("hidden")))
 @interface SheetSupport
 {
     id _laContext;
-    LAAuthenticationSheetController *_sheetController;
-    struct AuthorizationOpaqueRef *_authorization;
-    const CDStruct_166d2db6 *_rights;
-    CDStruct_166d2db6 *_authorizedRights;
-    CDStruct_166d2db6 *_environment;
-    unsigned int _flags;
-    int _sheetResult;
-    _Bool _checkRights;
-    unsigned long long _originalEnvironmentItemsCount;
-    long long _sheetMechanism;
-    NSMutableSet *_requiredGroups;
-    _Bool _passwordOnly;
 }
 
 + (Class);
@@ -40,13 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

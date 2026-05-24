@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (_Bool),V_kind;
++ (_Bool)tyPartialSiriCount10Min;
++ (id)e;
 
 @end
 

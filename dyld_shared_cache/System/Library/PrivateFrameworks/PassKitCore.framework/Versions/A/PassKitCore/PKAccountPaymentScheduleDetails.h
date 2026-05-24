@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimeZone;
+@class NSTimeZone;
 
 @interface PKAccountPaymentScheduleDetails
 {
     NSTimeZone *_productTimeZone;
-    long long _frequency;
-    long long _scheduledDay;
-    long long _preset;
-    NSDate *_scheduledDate;
-    NSString *_paymentTermsIdentifier;
 }
 
 + (_Bool)!X"!8Aù±î%1Â0@ù
@@ -32,21 +27,17 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (void)2;
+- (_Bool)_tcpECNSynAckLost;
 - (void);
-- (_Bool);
 - (void);
-- (void);
-- (id)tAccountUser;
+- (id)_currentAccountUser;
 - (long long)anced merchants to within cooldown level %ld;
-- (void)y;
+- (void)country;
 - (long long)!;
 
 // Remaining properties
 @property(nonatomic) long long frequency; // @synthesize frequency=_frequency;
-@property(copy, nonatomic) NSString *paymentTermsIdentifier; // @synthesize paymentTermsIdentifier=_paymentTermsIdentifier;
-@property(nonatomic) long long preset; // @synthesize preset=_preset;
-@property(copy, nonatomic) NSDate *scheduledDate; // @synthesize scheduledDate=_scheduledDate;
-@property(nonatomic) long long scheduledDay; // @synthesize scheduledDay=_scheduledDay;
 
 @end
 

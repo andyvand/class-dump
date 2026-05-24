@@ -6,8 +6,6 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSURL;
-
 @interface MPModelStaticAsset : MPModelObject
 {
 }
@@ -23,9 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) double duration; // @dynamic duration;
-@property(nonatomic) long long flavorType; // @dynamic flavorType;
-@property(nonatomic) long long mediaType; // @dynamic mediaType;
-@property(copy, nonatomic) NSURL *url; // @dynamic url;
 
 @end
 

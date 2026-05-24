@@ -5,5 +5,6 @@
 //
 
 @protocol AKInkIsUpdatable
+- (_Bool)"8;
 @end
 

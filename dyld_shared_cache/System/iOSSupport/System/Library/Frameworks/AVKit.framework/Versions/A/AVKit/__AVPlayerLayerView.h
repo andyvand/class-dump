@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPictureInPicturePlayerLayerView, AVPlayerController, AVPlayerLayer, NSDictionary;
+@class AVPictureInPicturePlayerLayerView, AVPlayerLayer;
 
 @interface __AVPlayerLayerView
 {
     AVPictureInPicturePlayerLayerView *_pictureInPicturePlayerLayerView;
-    AVPlayerController *_playerController;
-    AVPlayerLayer *_pictureInPicturePlayerLayer;
 }
 
-+ (id);
++ (id)realOperation;
 + (id);
 + (id);
 + (id);
@@ -24,33 +22,24 @@
 - (id);
 - (struct CGSize);
 - (id);
+- (void)udeActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS4_18ActivityStateEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (_Bool)llScreenButton;
+- (_Bool)_fullScreenButton;
 - (_Bool)oint=dd},R,N,V_velocity;
 - (struct CGRect);
 - (long long);
-- (void)aging;
+- (void)airmessaging;
 
 // Remaining properties
 @property(retain, nonatomic) AVPlayerLayer *pictureInPicturePlayerLayer; // @synthesize pictureInPicturePlayerLayer=_pictureInPicturePlayerLayer;
-@property(readonly, nonatomic) AVPictureInPicturePlayerLayerView *pictureInPicturePlayerLayerView;
-@property(copy, nonatomic) NSDictionary *pixelBufferAttributes;
-@property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(readonly, nonatomic) AVPlayerLayer *playerLayer;
-@property(readonly, nonatomic, getter=isReadyForDisplay) _Bool readyForDisplay;
-@property(readonly, nonatomic) struct CGRect videoBounds;
-@property(readonly, nonatomic) struct CGSize videoDisplaySize;
-@property(nonatomic) long long videoGravity;
-@property(nonatomic, getter=isVideoScaled) _Bool videoScaled;
 
 @end
 

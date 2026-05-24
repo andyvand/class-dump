@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountType, NSDictionary, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class ACAccount;
 
 @interface AMSPushPayload
 {
     ACAccount *_account;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSString *_logKey;
-    NSDictionary *_metricsOverlay;
-    NSDictionary *_payload;
 }
 
 + (id);
@@ -27,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)userInfo = %@};
 - (id);
 - (id);
 - (id);
@@ -39,21 +34,7 @@
 - (long long)/;
 
 // Remaining properties
-@property(readonly) NSString *URLString;
 @property(readonly) ACAccount *account;
-@property(readonly) NSNumber *accountIdentifier;
-@property(readonly) ACAccountType *accountType;
-@property(readonly) NSString *actionType;
-@property(readonly) long long alertType;
-@property(readonly) NSDictionary *aps;
-@property(readonly) NSString *clientIdentifier;
-@property(readonly) NSDictionary *flags;
-@property(readonly) ACAccount *iCloudAccount;
-@property(readonly) _Bool isAccountTypeActive;
-@property(readonly) NSString *logKey; // @synthesize logKey=_logKey;
-@property(retain) NSDictionary *metricsOverlay; // @synthesize metricsOverlay=_metricsOverlay;
-@property(readonly) NSDictionary *payload; // @synthesize payload=_payload;
-@property(readonly) long long priority;
 
 @end
 

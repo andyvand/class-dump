@@ -11,22 +11,22 @@
     NSMutableArray *_locationMappings;
 }
 
-+ (Class);
-- (void);
-- (unsigned long long);
++ (Class)_simulateEmptyImportSource;
+- (void)defaultFilterStateForContainerCollection:(id)arg1 photoLibrary: /* Error: Ran out of types for this method. */;
+- (unsigned long long)boundingSize;
+- (id)boundingRectWithSize:(unsigned long long)arg1 options:context: /* Error: Ran out of types for this method. */;
+- (id)boundingRectWithSize:options:attributes:context: /* Error: Ran out of types for this method. */;
+- (void)_wantsBackground;
+- (void)_useMusicCuesForPacing;
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)entId: /* Error: Ran out of types for this method. */;
+- (void)setEngagementId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *locationMappings; // @synthesize locationMappings=_locationMappings;

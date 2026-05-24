@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSPersistentUIRestorationCrashDataHandler, NSPersistentUISecureURLHerder;
+@class NSPersistentUIRestorationCrashDataHandler, NSPersistentUISecureURLHerder;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIRestorer
 {
     NSPersistentUISecureURLHerder *_urlHerder;
-    NSPersistentUIRestorationCrashDataHandler *_restorationCrashDataHandler;
-    _Bool _hasFinishedRestoringWindows;
-    _Bool _performingWindowOrdering;
-    _Bool _suppressedCGWindowOrderingSuccessfully;
-    int _suppressedCGWindowOrderingStatus;
-    NSMutableArray *_windowRestorations;
-    NSMutableDictionary *_windowRestorationsByWindowID;
-    NSArray *_previousSpaceOrder;
 }
 
 - (id);
@@ -29,31 +21,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)__dlopen_cstrs;
 - (id);
+- (void)- out of printable acsii range <%X>;
+- (void)bytes used = %d);
+- (void)n(s) for socket - invalid domain syntax in <%{private}s>;
+- (_Bool)trailing hyphen is not allowed in label;
+- (void)ne_session_add_necp_drop_dest_from_dest_list;
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ureConnectionDuration"I"secure"B};
+- (void)_includesPeerToPeer;
+- (void)_ZN5STube26_onqueue_notifyTubeManagerE13CFStreamError;
+- (void):(id)arg1 :(id)arg2 :(CDUnknownBlockType)arg3 :::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool hasFinishedRestoringWindows; // @synthesize hasFinishedRestoringWindows=_hasFinishedRestoringWindows;
-@property(copy) NSArray *previousSpaceOrder; // @synthesize previousSpaceOrder=_previousSpaceOrder;
 @property(retain) NSPersistentUIRestorationCrashDataHandler *restorationCrashDataHandler; // @synthesize restorationCrashDataHandler=_restorationCrashDataHandler;
-@property(retain, nonatomic, setter=setURLHerder:) NSPersistentUISecureURLHerder *urlHerder; // @synthesize urlHerder=_urlHerder;
 
 @end
 

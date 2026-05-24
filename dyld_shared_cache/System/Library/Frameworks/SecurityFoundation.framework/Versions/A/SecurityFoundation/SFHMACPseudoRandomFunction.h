@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol SFDigestOperation;
 
 __attribute__((visibility("hidden")))
@@ -16,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)INTENT_RESTAURANT_RESERVATION_ID_SEARCH;
 - (id);
 - (void);
 - (void);
@@ -25,14 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) id <SFDigestOperation> digestOperation;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

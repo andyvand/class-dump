@@ -5,6 +5,6 @@
 //
 
 @protocol MLWritable
-- (_Bool)delCreateWithDataImpl;
+- (_Bool)NLPClassifierModelCreateWithDataImpl;
 @end
 

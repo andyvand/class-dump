@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class ACTVSchemaACTVButtonInteractionDetected, ACTVSchemaACTVClientEventMetadata, ACTVSchemaACTVTurnActivated, NSData, SISchemaInstrumentationMessage;
+@class ACTVSchemaACTVClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface ACTVSchemaACTVClientEvent : SISchemaTopLevelUnionType
 {
     ACTVSchemaACTVClientEventMetadata *_eventMetadata;
-    ACTVSchemaACTVButtonInteractionDetected *_buttonInteractionDetected;
-    ACTVSchemaACTVTurnActivated *_turnActivated;
-    _Bool _hasEventMetadata;
-    _Bool _hasButtonInteractionDetected;
-    _Bool _hasTurnActivated;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -31,40 +25,32 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)A;
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)EACameraLensPosition;
 - (int);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id)IsSecondChance;
-- (unsigned long long)ction;
+- (id)_;
+- (id)setTargetLanguage: /* Error: Ran out of types for this method. */;
+- (id)deleteIsSecondChance;
+- (unsigned long long)SISchemaGridCardSection;
 - (id)|Ù;
 - (id)ml.siri.tts.TTSClientEvent.TTSClientSpeechContext;
 - (int)ges.siriEventTypeUnion.nlxClientEvent.cdmMatchingSpanTier1.internalSpanData.siriVocabularySpanData.priorOrdinality;
 - (void)áN';
 
 // Remaining properties
-@property(retain, nonatomic) ACTVSchemaACTVButtonInteractionDetected *buttonInteractionDetected; // @synthesize buttonInteractionDetected=_buttonInteractionDetected;
-@property(retain, nonatomic) ACTVSchemaACTVClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasButtonInteractionDetected; // @synthesize hasButtonInteractionDetected=_hasButtonInteractionDetected;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasTurnActivated; // @synthesize hasTurnActivated=_hasTurnActivated;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ACTVSchemaACTVTurnActivated *turnActivated; // @synthesize turnActivated=_turnActivated;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

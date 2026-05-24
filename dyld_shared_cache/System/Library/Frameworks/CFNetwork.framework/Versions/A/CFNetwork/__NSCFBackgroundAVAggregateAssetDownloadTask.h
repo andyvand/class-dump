@@ -6,37 +6,27 @@
 
 #import <CFNetwork/__NSCFBackgroundSessionTask.h>
 
-@class AVURLAsset, NSArray, NSData, NSDictionary, NSString, NSURLSession;
+@class AVURLAsset;
 
 __attribute__((visibility("hidden")))
 @interface __NSCFBackgroundAVAggregateAssetDownloadTask : __NSCFBackgroundSessionTask
 {
     _Bool _sentWillDownloadToURL;
-    _Bool _sentWillBeginDelayedRequest;
-    AVURLAsset *_URLAsset;
-    unsigned long long _AVAssetDownloadToken;
-    NSArray *_mediaSelections;
-    NSString *_assetTitle;
-    NSData *_assetArtworkData;
-    NSDictionary *_options;
-    NSString *_childAssetDownloadTasksSessionIdentifier;
-    NSURLSession *_childAssetDownloadSession;
-    NSArray *_childAssetDownloadTasks;
 }
 
-- (void);
+- (void)dbsquare;
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)@;
+- (id)ZgIjA7Nwd2jSo13lhDO1Iw;
 - (void);
-- (id);
+- (id)@;
 - (_Bool);
-- (void)age;
+- (void)_nscfBridgeURLCacheCurrentDiskUsage;
 - (void)_CFN_CoreSchedulingSetRunnable startedRunLoop:] /* Error: Ran out of types for this method. */;
 - (void)@;
 - (id)Y;
@@ -44,13 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) AVURLAsset *URLAsset; // @synthesize URLAsset=_URLAsset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

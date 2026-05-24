@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLRacingRouteState, CLRacingRouteVariables, CLRouteBoundingBox, NSArray;
+@class NSArray;
 
 @interface CLRacingRouteParameters
 {
     NSArray *_routeMatrixIndexVec;
-    CLRacingRouteVariables *_racingRouteVariables;
-    CLRacingRouteState *_startPointOnCurrentRoute;
-    CLRacingRouteState *_startPointOnReferenceRoute;
-    CLRacingRouteState *_lastOnRouteDataPoint;
-    CLRacingRouteState *_lastProjectedDataPoint;
-    CLRouteBoundingBox *_routeBoundingBox;
 }
 
 + (_Bool);
+- (id)&;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)R;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setInstanceTransformBufferOffset:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CLRacingRouteState *lastOnRouteDataPoint; // @synthesize lastOnRouteDataPoint=_lastOnRouteDataPoint;
-@property(readonly, copy, nonatomic) CLRacingRouteState *lastProjectedDataPoint; // @synthesize lastProjectedDataPoint=_lastProjectedDataPoint;
-@property(readonly, copy, nonatomic) CLRacingRouteVariables *racingRouteVariables; // @synthesize racingRouteVariables=_racingRouteVariables;
-@property(readonly, copy, nonatomic) CLRouteBoundingBox *routeBoundingBox; // @synthesize routeBoundingBox=_routeBoundingBox;
 @property(readonly, copy, nonatomic) NSArray *routeMatrixIndexVec; // @synthesize routeMatrixIndexVec=_routeMatrixIndexVec;
-@property(readonly, copy, nonatomic) CLRacingRouteState *startPointOnCurrentRoute; // @synthesize startPointOnCurrentRoute=_startPointOnCurrentRoute;
-@property(readonly, copy, nonatomic) CLRacingRouteState *startPointOnReferenceRoute; // @synthesize startPointOnReferenceRoute=_startPointOnReferenceRoute;
 
 @end
 

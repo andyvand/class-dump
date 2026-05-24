@@ -9,76 +9,48 @@
 @interface NTPBNotificationSubscribeUnsubscribe
 {
     NSString *_campaignId;
-    NSString *_campaignType;
-    NSString *_channelId;
-    NSString *_creativeId;
-    int _notificationSettingType;
-    int _notificationSubscribeUnsubscribeLocation;
-    int _userAction;
-    _Bool _isPaidUserOfChannel;
-    struct {
-        unsigned int notificationSettingType:1;
-        unsigned int notificationSubscribeUnsubscribeLocation:1;
-        unsigned int userAction:1;
-        unsigned int isPaidUserOfChannel:1;
-    } _has;
 }
 
+- (void)enableBatchedSearchResults;
+- (void)enableAggregatedHighlightGridInEditorial;
+- (void)distanceBetweenBufferingIndicatorCenterAndBottom;
+- (void)dataWithPropertyList:(_Bool)arg1 format:options:error: /* Error: Ran out of types for this method. */;
+- (void)dataWithContentsOfURL:(_Bool)arg1;
+- (void)currentInvitationsDataSourceManagerForPhotoLibrary:(_Bool)arg1;
+- (void)containsAnyAssets:(id)arg1;
+- (void)confirmOperation:(id)arg1;
+- (int)cloudStatusMonitor;
+- (int)cloudSharedAlbumInvitationRecordsWithAlbumGUID:inLibrary: /* Error: Ran out of types for this method. */;
+- (_Bool)checkOutIndexWithInitialConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)becomeCurrentWithPendingUnitCount: /* Error: Ran out of types for this method. */;
+- (_Bool)batchSize;
+- (_Bool)audioQueue_audioWriterDefaultTrack;
+- (_Bool)assetCollectionActionManager;
+- (_Bool)applyToImage:targetSize: /* Error: Ran out of types for this method. */;
+- (id)allFeaturedStateEnabledSuggestionTypesForWidget;
+- (id)ssetIdentifiers: /* Error: Ran out of types for this method. */;
+- (_Bool)_willDismissMenuActionHandler;
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (int);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)L;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)gsFromRequest];
+- (_Bool)(;
 - (id);
 - (int);
 - (id);
 - (void)setHasGlobalScoreStretchingFactor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *campaignId; // @synthesize campaignId=_campaignId;
-@property(retain, nonatomic) NSString *campaignType; // @synthesize campaignType=_campaignType;
-@property(retain, nonatomic) NSString *channelId; // @synthesize channelId=_channelId;
-@property(retain, nonatomic) NSString *creativeId; // @synthesize creativeId=_creativeId;
-@property(readonly, nonatomic) _Bool hasCampaignId;
-@property(readonly, nonatomic) _Bool hasCampaignType;
-@property(readonly, nonatomic) _Bool hasChannelId;
-@property(readonly, nonatomic) _Bool hasCreativeId;
-@property(nonatomic) _Bool hasIsPaidUserOfChannel;
-@property(nonatomic) _Bool hasNotificationSettingType;
-@property(nonatomic) _Bool hasNotificationSubscribeUnsubscribeLocation;
 @property(nonatomic) _Bool hasUserAction;
-@property(nonatomic) _Bool isPaidUserOfChannel; // @synthesize isPaidUserOfChannel=_isPaidUserOfChannel;
-@property(nonatomic) int notificationSettingType; // @synthesize notificationSettingType=_notificationSettingType;
-@property(nonatomic) int notificationSubscribeUnsubscribeLocation; // @synthesize notificationSubscribeUnsubscribeLocation=_notificationSubscribeUnsubscribeLocation;
-@property(nonatomic) int userAction; // @synthesize userAction=_userAction;
 
 @end
 

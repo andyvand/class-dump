@@ -11,7 +11,6 @@
 @interface CNChangeHistoryPreferredContactForNameEvent : CNChangeHistoryEvent
 {
     CNContact *_preferredContact;
-    CNContact *_unifiedContact;
 }
 
 + (unsigned long long);
@@ -22,7 +21,7 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)l: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *preferredContact; // @synthesize preferredContact=_preferredContact;
-@property(readonly, nonatomic) CNContact *unifiedContact; // @synthesize unifiedContact=_unifiedContact;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol EFProtectedFile
+- (_Bool)Jz %;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool backgroundProcessingIsAllowed;

@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface FAAgeRange
 {
     NSString *_altDSID;
-    NSString *_bundleID;
-    NSNumber *_lowerbound;
-    NSNumber *_upperbound;
-    long long _response;
-    long long _responseType;
-    long long _validationLevel;
-    NSDate *_createdAt;
-    NSDate *_invalidatedAt;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)d;
 + (_Bool);
+- (id)rightText;
+- (id)dict>;
+- (_Bool)usefulnessScore;
+- (id)lockScreenTextDialogIdentifier;
 - (id);
 - (id);
-- (_Bool);
+- (id)x;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (long long);
-- (long long);
-- (id);
+- (long long);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -44,19 +36,11 @@
 - (void);
 - (id);
 - (void);
-- (id)ed;
+- (id)enabled;
 - (id)óÿÇODô©;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;
-@property(readonly, nonatomic) NSDate *invalidatedAt; // @synthesize invalidatedAt=_invalidatedAt;
-@property(readonly, nonatomic) NSNumber *lowerbound; // @synthesize lowerbound=_lowerbound;
-@property(readonly, nonatomic) long long response; // @synthesize response=_response;
-@property(readonly, nonatomic) long long responseType; // @synthesize responseType=_responseType;
-@property(readonly, nonatomic) NSNumber *upperbound; // @synthesize upperbound=_upperbound;
-@property(readonly, nonatomic) long long validationLevel; // @synthesize validationLevel=_validationLevel;
 
 @end
 

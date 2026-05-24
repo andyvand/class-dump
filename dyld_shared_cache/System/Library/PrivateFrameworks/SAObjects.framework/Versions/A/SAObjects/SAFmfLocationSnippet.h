@@ -6,19 +6,19 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, NSNumber, NSString, NSURL;
+@class NSNumber;
 
 @interface SAFmfLocationSnippet : SAUISnippet
 {
 }
 
-+ (id);
++ (id)Y;
 + (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)o;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -27,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *atRequestedLocation;
-@property(copy, nonatomic) NSArray *locations;
-@property(copy, nonatomic) NSString *proximity;
-@property(copy, nonatomic) NSURL *searchContext;
 
 @end
 

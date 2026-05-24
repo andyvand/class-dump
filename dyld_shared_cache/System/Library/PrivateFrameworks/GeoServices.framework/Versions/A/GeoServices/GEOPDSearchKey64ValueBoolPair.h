@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchKey64ValueBoolPair
 {
     unsigned long long _key;
-    _Bool _value;
-    CDStruct_a4cc0a70 _flags;
 }
 
 - (id);
-- (void);
+- (void)outletKeys;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)read_points"b1"read_segmentDescriptions"b1"wrote_anyField"b1};
-- (id);
+- (id)_poiId;
 - (id)AA;
 
 @end

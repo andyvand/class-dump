@@ -15,11 +15,10 @@
 - (struct CGSize);
 - (id);
 - (struct CGSize);
-- (id);
+- (id)P;
 
 // Remaining properties
 @property(nonatomic) BOOL ckTintColor; // @synthesize ckTintColor;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 
 @end
 

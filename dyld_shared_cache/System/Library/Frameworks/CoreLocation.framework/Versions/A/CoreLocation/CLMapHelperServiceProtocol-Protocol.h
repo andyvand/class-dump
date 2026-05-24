@@ -5,5 +5,6 @@
 //
 
 @protocol CLMapHelperServiceProtocol
+- (void);
 @end
 

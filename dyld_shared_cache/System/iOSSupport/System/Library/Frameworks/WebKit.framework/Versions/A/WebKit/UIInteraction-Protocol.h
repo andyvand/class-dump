@@ -8,7 +8,7 @@
 
 @protocol UIInteraction
 - (void);
-- (void)ourceLoader_DidReceiveData;
+- (void)WebResourceLoader_DidReceiveData;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIView *view;

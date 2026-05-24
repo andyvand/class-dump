@@ -9,36 +9,29 @@
 @interface NTPBDiscoverMoreVideosInfo
 {
     NSString *_actionURLString;
-    NSString *_subtitle;
-    NSString *_title;
 }
 
-- (void);
+- (void)setAngle:(id)arg1;
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)der16KeyCandidateImplENS_14default_deleteIS5_EEEEEEE;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)aggregateVectorProvider;
+- (_Bool)_callToActionText;
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_accessibilitySetAllowsSiblingsWhenOvergrown: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionURLString; // @synthesize actionURLString=_actionURLString;
-@property(readonly, nonatomic) _Bool hasActionURLString;
-@property(readonly, nonatomic) _Bool hasSubtitle;
 @property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

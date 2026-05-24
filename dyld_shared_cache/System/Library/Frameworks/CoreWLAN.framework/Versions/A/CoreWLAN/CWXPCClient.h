@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFInterface, NSXPCConnection;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface CWXPCClient
 {
     NSXPCConnection *_xpcConnection;
-    CWFInterface *_corewifi;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)(M;
 - (void);
-- (id);
+- (id)-;
 - (void);
 
 // Remaining properties
-@property(readonly) CWFInterface *corewifi; // @dynamic corewifi;
 @property(retain) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

@@ -11,11 +11,11 @@
 }
 
 - (id);
-- (long long);
+- (long long)';
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)=;
 - (void);
 
 @end

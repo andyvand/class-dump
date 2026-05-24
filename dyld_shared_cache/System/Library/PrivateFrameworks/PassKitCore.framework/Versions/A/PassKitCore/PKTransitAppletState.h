@@ -4,41 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDecimalNumber, NSNumber, NSString, PKFelicaTransitAppletState;
+@class PKFelicaTransitAppletState;
 
 @interface PKTransitAppletState
 {
     _Bool _blacklisted;
-    _Bool _needsStationProcessing;
-    _Bool _appletStateDirty;
-    NSNumber *_historySequenceNumber;
-    NSNumber *_serverRefreshIdentifier;
-    NSDecimalNumber *_balance;
-    NSNumber *_loyaltyBalance;
-    NSString *_currency;
-    NSDate *_expirationDate;
-    NSArray *_balances;
-    NSArray *_commutePlans;
-    NSArray *_enrouteTransitTypes;
 }
 
-+ (_Bool);
++ (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool appletStateDirty; // @synthesize appletStateDirty=_appletStateDirty;
-@property(copy, nonatomic) NSDecimalNumber *balance; // @synthesize balance=_balance;
-@property(copy, nonatomic) NSArray *balances; // @synthesize balances=_balances;
-@property(nonatomic, getter=isBlacklisted) _Bool blacklisted; // @synthesize blacklisted=_blacklisted;
-@property(copy, nonatomic) NSArray *commutePlans; // @synthesize commutePlans=_commutePlans;
-@property(copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(copy, nonatomic) NSArray *enrouteTransitTypes; // @synthesize enrouteTransitTypes=_enrouteTransitTypes;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(readonly, nonatomic) PKFelicaTransitAppletState *felicaState;
-@property(copy, nonatomic) NSNumber *historySequenceNumber; // @synthesize historySequenceNumber=_historySequenceNumber;
-@property(readonly, nonatomic, getter=isInStation) _Bool inStation; // @dynamic inStation;
-@property(copy, nonatomic) NSNumber *loyaltyBalance; // @synthesize loyaltyBalance=_loyaltyBalance;
-@property(nonatomic) _Bool needsStationProcessing; // @synthesize needsStationProcessing=_needsStationProcessing;
-@property(copy, nonatomic) NSNumber *serverRefreshIdentifier; // @synthesize serverRefreshIdentifier=_serverRefreshIdentifier;
 
 @end
 

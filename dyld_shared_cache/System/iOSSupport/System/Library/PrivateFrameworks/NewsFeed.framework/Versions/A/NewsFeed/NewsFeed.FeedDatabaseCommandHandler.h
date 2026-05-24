@@ -7,7 +7,6 @@
 @interface NewsFeed.FeedDatabaseCommandHandler
 {
     id sceneProvider;
-    id databaseExporter;
 }
 
 @end

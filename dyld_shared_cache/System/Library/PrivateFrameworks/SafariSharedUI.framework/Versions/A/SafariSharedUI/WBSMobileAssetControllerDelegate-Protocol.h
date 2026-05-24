@@ -5,5 +5,8 @@
 //
 
 @protocol WBSMobileAssetControllerDelegate
+- (void)�	;
+- (void);
+- (void);
 @end
 

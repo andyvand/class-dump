@@ -7,16 +7,6 @@
 @interface IMAP2Connection.Connection
 {
     id logger;
-    id createdAt;
-    id configuration;
-    id delegate;
-    id connection;
-    id receiveTranscoder;
-    id queue;
-    id pendingHandshakeReplyCount;
-    id underlyingID;
-    id throttleInfo;
-    id lastMessageTime;
 }
 
 @end

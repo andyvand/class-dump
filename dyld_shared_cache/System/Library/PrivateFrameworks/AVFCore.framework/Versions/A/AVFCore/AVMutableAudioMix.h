@@ -14,7 +14,7 @@
 }
 
 + (id);
-- (void);
+- (void)]ldhe;
 - (id);
 
 // Remaining properties

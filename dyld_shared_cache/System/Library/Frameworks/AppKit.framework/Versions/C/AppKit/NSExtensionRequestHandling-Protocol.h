@@ -5,5 +5,6 @@
 //
 
 @protocol NSExtensionRequestHandling
+- (void)d to create a background NSURLSessionUploadTask, as remote session is unavailable;
 @end
 

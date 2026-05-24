@@ -6,17 +6,17 @@
 
 #import <AVFCore/AVVideoCompositionInstruction.h>
 
-@class AVMutableVideoCompositionInstructionInternal, NSArray;
+@class AVMutableVideoCompositionInstructionInternal;
 
 @interface AVMutableVideoCompositionInstruction : AVVideoCompositionInstruction
 {
     AVMutableVideoCompositionInstructionInternal *_mutableInstruction;
 }
 
-+ (id);
++ (id)(;
+- (void)_EARUserProfileConfig;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -26,10 +26,6 @@
 - (CDStruct_e83c9415);
 
 // Remaining properties
-@property(retain, nonatomic) struct CGColor *backgroundColor;
-@property(nonatomic) _Bool enablePostProcessing;
-@property(copy, nonatomic) NSArray *layerInstructions;
-@property(copy, nonatomic) NSArray *requiredSourceSampleDataTrackIDs;
 @property(nonatomic) CDStruct_e83c9415 timeRange;
 
 @end

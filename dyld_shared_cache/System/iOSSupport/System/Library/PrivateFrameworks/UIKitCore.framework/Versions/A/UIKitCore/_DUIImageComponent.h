@@ -7,50 +7,37 @@
 @interface _DUIImageComponent
 {
     struct CAPoint3D _origin;
-    CDStruct_bd34ff7f _size;
-    _Bool _ignoresAccessibilityFilters;
-    _Bool _hidesImage;
-    unsigned int _slotID;
-    unsigned int _contextID;
-    unsigned long long _renderID;
 }
 
 + (_Bool)port Document;
-- (CDStruct_39925896);
-- (void);
-- (void);
-- (void);
+- (CDStruct_bd34ff7f)setLastTUConversationCreatedDate: /* Error: Ran out of types for this method. */;
+- (void)nishedWithResult:(CDStruct_bd34ff7f)arg1 hasMessagesBefore:hasMessagesAfter: /* Error: Ran out of types for this method. */;
+- (void)loadRecoverableMessagesMetadataGroupedByChatGUID;
+- (void)extensionName;
+- (_Bool)_processAssetFetchPerRecordCompletionBlock:recordID:error: /* Error: Ran out of types for this method. */;
+- (id)_chatBotAttachmentRecordZoneID;
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)tainer key:%s /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (unsigned int)
 × ;
-- (_Bool)xFingerInfo:(id)arg1;
-- (struct CGRect)llBeginZooming:withView: /* Error: Ran out of types for this method. */;
-- (void)ToEndOfWord;
+- (_Bool)setLeftIndexFingerInfo:(id)arg1;
+- (struct CGRect)scrollViewWillBeginZooming:withView: /* Error: Ran out of types for this method. */;
+- (void)moveSelectionToEndOfWord;
 - (void)è<p=Ì=P>;
 - (void)isplayMode:(unsigned int)arg1 ];
 
 // Remaining properties
-@property(nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;
 @property(nonatomic) struct CGRect frame;
-@property(nonatomic) _Bool hidesImage; // @synthesize hidesImage=_hidesImage;
-@property(nonatomic) _Bool ignoresAccessibilityFilters; // @synthesize ignoresAccessibilityFilters=_ignoresAccessibilityFilters;
-@property(nonatomic) unsigned long long renderID; // @synthesize renderID=_renderID;
-@property(readonly, nonatomic) _Bool representsPortal;
-@property(nonatomic) CDStruct_39925896 size3D;
-@property(nonatomic) unsigned int slotID; // @synthesize slotID=_slotID;
 
 @end
 

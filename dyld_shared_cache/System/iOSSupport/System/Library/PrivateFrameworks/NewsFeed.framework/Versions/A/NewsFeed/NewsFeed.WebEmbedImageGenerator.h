@@ -7,12 +7,6 @@
 @interface NewsFeed.WebEmbedImageGenerator
 {
     id webContentFactory;
-    id webEmbedDataSourceManager;
-    id webEmbedConfigurationProvider;
-    id queue;
-    id operationQueue;
-    id cache;
-    id webContentViewControllers;
 }
 
 @end

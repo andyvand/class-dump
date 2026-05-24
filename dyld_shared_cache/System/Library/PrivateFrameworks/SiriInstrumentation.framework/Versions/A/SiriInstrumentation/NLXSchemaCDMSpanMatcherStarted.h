@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMSpanMatcherStarted : SISchemaInstrumentationMessage
 {
     int _name;
-    CDStruct_39a9b417 _has;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)sI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/x509/by_mem.c;
 - (int);
 - (unsigned long long);
 - (_Bool);
@@ -31,8 +28,6 @@
 - (void)L"ø"|# %;
 
 // Remaining properties
-@property(nonatomic) _Bool hasName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int name; // @synthesize name=_name;
 
 @end

@@ -13,7 +13,7 @@
 }
 
 - (void);
-- (void);
+- (void)e) and 'norm-mode' (new name) at the same time is not allowed.;
 - (id);
 - (id);
 - (id);
@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *system;
-@property(copy, nonatomic) NSString *value;
 
 @end
 

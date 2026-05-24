@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHVoiceProfileConfusionScore : SISchemaInstrumentationMessage
 {
     NSString *_homeMemberUserId;
-    unsigned int _similarityScore;
-    CDStruct_76ff307a _has;
-    _Bool _hasHomeMemberUserId;
 }
 
 - (void);
@@ -27,7 +24,7 @@
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void)Sources/libressl/libressl-2.2/crypto/ec/ec_lib.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -36,14 +33,10 @@
 × ;
 - (id)V_usoGraph;
 - (id)nectionNetwork",&,N,V_network;
-- (void)aTTMNeuralCombinerMode;
+- (void)TTMSchemaTTMNeuralCombinerMode;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHomeMemberUserId; // @synthesize hasHomeMemberUserId=_hasHomeMemberUserId;
-@property(nonatomic) _Bool hasSimilarityScore;
 @property(copy, nonatomic) NSString *homeMemberUserId; // @synthesize homeMemberUserId=_homeMemberUserId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int similarityScore; // @synthesize similarityScore=_similarityScore;
 
 @end
 

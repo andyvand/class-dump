@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHNLClassicDeprecationFlags : SISchemaInstrumentationMessage
 {
     _Bool _isNLServerFallbackDisabled;
-    _Bool _isDomainServerFallbackDisabled;
-    struct {
-        unsigned int isNLServerFallbackDisabled:1;
-        unsigned int isDomainServerFallbackDisabled:1;
-    } _has;
 }
 
 - (void);
@@ -31,20 +24,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)nVersion;
+- (id)_configurationVersion;
 - (_Bool)RODSchemaPNRODMetricDuration",&,N,V_responseGenerationOverrideTime;
 - (id)estionOutcomeReported;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsDomainServerFallbackDisabled;
-@property(nonatomic) _Bool hasIsNLServerFallbackDisabled;
-@property(nonatomic) _Bool isDomainServerFallbackDisabled; // @synthesize isDomainServerFallbackDisabled=_isDomainServerFallbackDisabled;
 @property(nonatomic) _Bool isNLServerFallbackDisabled; // @synthesize isNLServerFallbackDisabled=_isNLServerFallbackDisabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

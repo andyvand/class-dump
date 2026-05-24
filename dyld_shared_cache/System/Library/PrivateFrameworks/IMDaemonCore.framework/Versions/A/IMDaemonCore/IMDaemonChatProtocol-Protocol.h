@@ -5,5 +5,10 @@
 //
 
 @protocol IMDaemonChatProtocol
+- (void)qk;
+- (void);
+- (void);
+- (void);
+- (void);
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol CoreDAVPropPatchTaskDelegate
+
+@optional
+- (void)a;
 @end
 

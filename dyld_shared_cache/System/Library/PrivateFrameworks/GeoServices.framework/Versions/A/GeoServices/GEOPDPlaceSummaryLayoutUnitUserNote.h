@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)etIncludeGeoId:(id)arg1;
++ (_Bool)setIncludeGeoId:(id)arg1;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (void)gger Second Pass has failed :(id)arg1 %{public}@;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)"NSArray"@"NSError">16q24@?<v@?B>32;
-- (id)ceDataOnSteps: /* Error: Ran out of types for this method. */;
+- (id)_makePreloadBatchForPlaceDataOnSteps: /* Error: Ran out of types for this method. */;
 - (id)xi;
-- (id)result;
+- (id)place_global_common_result;
 
 @end
 

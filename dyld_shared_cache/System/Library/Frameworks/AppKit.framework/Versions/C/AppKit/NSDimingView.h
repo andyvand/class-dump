@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)_initWithLoadingCFURLConnection:(struct CGPoint)arg1 request:response:delegate:proxy: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

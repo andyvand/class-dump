@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSData;
 
 @interface SFCSR
 {
     NSData *_csrData;
-    char *_csrDer;
-    unsigned int _csrDerLength;
-    NSString *_commonName;
-    NSString *_emailAddress;
-    struct cssm_key _publicKey;
-    NSMutableArray *_rfc822Names;
-    NSMutableArray *_dnsNames;
-    NSMutableArray *_uriNames;
-    NSMutableArray *_ipAddrs;
-    NSMutableArray *_crlDistrbutionPoints;
 }
 
 + (_Bool);
 + (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)r( ;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
+- (id);
+- (id)H ;
+- (id);
+- (id) ;
 - (void *);
 - (id);
 - (void);

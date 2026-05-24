@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OADTabStop
 {
     unsigned char mAlign;
-    int mPosition;
 }
 
 - (void);

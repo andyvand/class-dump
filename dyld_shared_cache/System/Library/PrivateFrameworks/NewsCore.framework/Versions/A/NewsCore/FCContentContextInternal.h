@@ -4,39 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAVAssetDownloadManager, FCArticleListRecordSource, FCArticleRecordSource, FCAudioConfigRecordSource, FCCKContentDatabase, FCChannelMembershipController, FCFeedDatabase, FCFeedPrewarmer, FCForYouConfigRecordSource, FCIssueListRecordSource, FCIssueRecordSource, FCNotificationItemListRecordSource, FCNotificationItemRecordSource, FCPurchaseLookupRecordSource, FCPuzzleRecordSource, FCPuzzleTypeRecordSource, FCRecipeListRecordSource, FCRecipeRecordSource, FCResourceRecordSource, FCSportsEventRecordSource, FCTagListRecordSource, FCTagRecordSource, FCWidgetSectionConfigRecordSource, NSArray, NSString;
-@protocol FCAVAssetCacheType, FCAVAssetFactoryType, FCAVAssetKeyCacheType, FCAssetKeyCacheType, FCAssetKeyManagerType;
+@class FCArticleRecordSource;
 
 @interface FCContentContextInternal
 {
     FCArticleRecordSource *_articleRecordSource;
-    FCTagRecordSource *_tagRecordSource;
-    FCSportsEventRecordSource *_sportsEventRecordSource;
-    FCRecipeRecordSource *_recipeRecordSource;
-    FCRecipeListRecordSource *_recipeListRecordSource;
-    FCTagListRecordSource *_tagListRecordSource;
-    FCChannelMembershipController *_channelMembershipController;
-    FCResourceRecordSource *_resourceRecordSource;
-    FCArticleListRecordSource *_articleListRecordSource;
-    FCPurchaseLookupRecordSource *_purchaseLookupRecordSource;
-    FCForYouConfigRecordSource *_forYouConfigRecordSource;
-    FCWidgetSectionConfigRecordSource *_widgetSectionConfigRecordSource;
-    FCIssueRecordSource *_issueRecordSource;
-    FCIssueListRecordSource *_issueListRecordSource;
-    FCAudioConfigRecordSource *_audioConfigRecordSource;
-    FCPuzzleRecordSource *_puzzleRecordSource;
-    FCPuzzleTypeRecordSource *_puzzleTypeRecordSource;
-    FCNotificationItemRecordSource *_notificationItemRecordSource;
-    FCNotificationItemListRecordSource *_notificationItemListRecordSource;
-    FCFeedDatabase *_feedDatabase;
-    FCCKContentDatabase *_contentDatabase;
-    id <FCAssetKeyCacheType> _assetKeyCache;
-    id <FCAssetKeyManagerType> _assetKeyManager;
-    id <FCAVAssetFactoryType> _avAssetFactory;
-    id <FCAVAssetCacheType> _avAssetCache;
-    id <FCAVAssetKeyCacheType> _avAssetKeyCache;
-    FCAVAssetDownloadManager *_avAssetDownloadManager;
-    FCFeedPrewarmer *_feedPrewarmer;
 }
 
 - (id);
@@ -53,34 +25,34 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (id);
-- (void);
+- (void)_observedCompositionEditController;
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)30;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)_childViewControllerAbleToNavigateToDestination: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id)%@' '%@';
 - (id);
+- (void);
+- (id): /* Error: Ran out of types for this method. */;
+- (id);
+- (id)Be;
+- (id);
+- (void);
+- (void)lifecyleScenarioWithScenarioId:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)0;
+- (void);
+- (id)DynamicDesktopAnimationFrames: /* Error: Ran out of types for this method. */;
+- (void)SMEngineProgressPhaseNameWindowsImport;
+- (void);
+- (id);
 - (void);
 - (void)Â0@ù
 × ;
@@ -90,7 +62,7 @@
 - (id)X,ÄÿmissingRecordValue;
 - (void);
 - (void)1;
-- (id)12NTPBFeedItemCG;
+- (id)SaySo12NTPBFeedItemCG;
 - (id)jÀ¥;
 - (id)j¤I¶ÿ]j8ºµÿMjÜI¶ÿ;
 - (void)Üj|*µÿ}Üjx*µÿÜjt*µÿeÜjp*µÿ;
@@ -103,42 +75,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) FCArticleListRecordSource *articleListRecordSource; // @synthesize articleListRecordSource=_articleListRecordSource;
 @property(retain, nonatomic) FCArticleRecordSource *articleRecordSource; // @synthesize articleRecordSource=_articleRecordSource;
-@property(retain, nonatomic) id <FCAssetKeyCacheType> assetKeyCache; // @synthesize assetKeyCache=_assetKeyCache;
-@property(retain, nonatomic) id <FCAssetKeyManagerType> assetKeyManager; // @synthesize assetKeyManager=_assetKeyManager;
-@property(retain, nonatomic) FCAudioConfigRecordSource *audioConfigRecordSource; // @synthesize audioConfigRecordSource=_audioConfigRecordSource;
-@property(retain, nonatomic) id <FCAVAssetCacheType> avAssetCache; // @synthesize avAssetCache=_avAssetCache;
-@property(retain, nonatomic) FCAVAssetDownloadManager *avAssetDownloadManager; // @synthesize avAssetDownloadManager=_avAssetDownloadManager;
-@property(retain, nonatomic) id <FCAVAssetFactoryType> avAssetFactory; // @synthesize avAssetFactory=_avAssetFactory;
-@property(retain, nonatomic) id <FCAVAssetKeyCacheType> avAssetKeyCache; // @synthesize avAssetKeyCache=_avAssetKeyCache;
-@property(retain, nonatomic) FCChannelMembershipController *channelMembershipController; // @synthesize channelMembershipController=_channelMembershipController;
-@property(retain, nonatomic) FCCKContentDatabase *contentDatabase; // @synthesize contentDatabase=_contentDatabase;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) FCFeedDatabase *feedDatabase; // @synthesize feedDatabase=_feedDatabase;
-@property(retain, nonatomic) FCFeedPrewarmer *feedPrewarmer; // @synthesize feedPrewarmer=_feedPrewarmer;
-@property(retain, nonatomic) FCForYouConfigRecordSource *forYouConfigRecordSource; // @synthesize forYouConfigRecordSource=_forYouConfigRecordSource;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) FCIssueListRecordSource *issueListRecordSource; // @synthesize issueListRecordSource=_issueListRecordSource;
-@property(retain, nonatomic) FCIssueRecordSource *issueRecordSource; // @synthesize issueRecordSource=_issueRecordSource;
-@property(retain, nonatomic) FCNotificationItemListRecordSource *notificationItemListRecordSource; // @synthesize notificationItemListRecordSource=_notificationItemListRecordSource;
-@property(retain, nonatomic) FCNotificationItemRecordSource *notificationItemRecordSource; // @synthesize notificationItemRecordSource=_notificationItemRecordSource;
-@property(retain, nonatomic) FCPurchaseLookupRecordSource *purchaseLookupRecordSource; // @synthesize purchaseLookupRecordSource=_purchaseLookupRecordSource;
-@property(retain, nonatomic) FCPuzzleRecordSource *puzzleRecordSource; // @synthesize puzzleRecordSource=_puzzleRecordSource;
-@property(retain, nonatomic) FCPuzzleTypeRecordSource *puzzleTypeRecordSource; // @synthesize puzzleTypeRecordSource=_puzzleTypeRecordSource;
-@property(retain, nonatomic) FCRecipeListRecordSource *recipeListRecordSource; // @synthesize recipeListRecordSource=_recipeListRecordSource;
-@property(retain, nonatomic) FCRecipeRecordSource *recipeRecordSource; // @synthesize recipeRecordSource=_recipeRecordSource;
-@property(readonly, nonatomic) NSArray *recordSources;
-@property(retain, nonatomic) FCResourceRecordSource *resourceRecordSource; // @synthesize resourceRecordSource=_resourceRecordSource;
-@property(retain, nonatomic) FCSportsEventRecordSource *sportsEventRecordSource; // @synthesize sportsEventRecordSource=_sportsEventRecordSource;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) FCTagListRecordSource *tagListRecordSource; // @synthesize tagListRecordSource=_tagListRecordSource;
-@property(retain, nonatomic) FCTagRecordSource *tagRecordSource; // @synthesize tagRecordSource=_tagRecordSource;
-@property(retain, nonatomic) FCWidgetSectionConfigRecordSource *widgetSectionConfigRecordSource; // @synthesize widgetSectionConfigRecordSource=_widgetSectionConfigRecordSource;
 
 @end
 

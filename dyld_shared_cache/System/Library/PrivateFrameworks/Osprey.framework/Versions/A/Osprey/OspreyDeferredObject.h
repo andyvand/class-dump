@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface OspreyDeferredObject
 {
     id _promised;
-    NSObject<OS_dispatch_queue> *_deferralQueue;
-    NSObject<OS_dispatch_queue> *_fulfillmentQueue;
-    NSObject<OS_dispatch_group> *_fulfillmentGroup;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)çÀÑçÀÑçÀøÑçÀÑçÀdÑçÀ÷ÑçÀÔÑçÀÑçÀmÑçÀoÑçÀÑçÀ3ÑçÀñÑçÀùÑçÀfÑçÀÑçÀÑçÀÑçÀúÑçÀÆÑçÀèÑçÀûÑçÀÑçÀYÑçÀÑçÀÉÑçÀ(ÑçÀ|ÑçÀ%ÑçÀ9ÑçÀÑçÀvÑçÀxÑçÀÎÑçÀwÑçÀÅÑçÀMÑçÀ¡ÑçÀÑçÀ»ÑçÀ¬ÑçÀ`ÑçÀçÑçÀ-ÑçÀ©ÑçÀÑçÀbÑçÀ}ÑçÀ¤ÑçÀÑÑçÀäÑçÀHÑçÀ/ÑçÀÑçÀõÑçÀÑçÀÑçÀÑçÀ§ÑçÀÑçÀJÑçÀ]ÑçÀ¹ÑçÀÑçÀÑçÀÜÑçÀÙÑçÀ¦ÑçÀíÑçÀ1ÑçÀÂÑçÀ®ÑçÀÀÑçÀÍÑçÀáÑçÀhÑçÀ2ÑçÀeÑçÀ!ÑçÀéÑçÀÑçÀSÑçÀÑçÀ+ÑçÀÇÑçÀ¥ÑçÀzÑçÀüÑçÀÑçÀCÑçÀåÑçÀØÑçÀÑçÀÝÑçÀWÑçÀæÑçÀ"ÑçÀÑçÀ×ÑçÀòÑçÀ¼ÑçÀÁÑçÀÑçÀsÑçÀÿÑçÀEÑçÀÑçÀºÑçÀÑçÀîÑçÀ,ÑçÀÑçÀVÑçÀÑçÀÑçÀ_ÑçÀ°ÑçÀÑçÀ±ÑçÀ ÑçÀPÑçÀÑçÀrÑçÀ;ÑçÀTÑçÀ·ÑçÀ'ÑçÀÑçÀOÑçÀRÑçÀ ÑçÀDÑçÀuÑçÀêÑçÀÑçÀIÑçÀªÑçÀ«ÑçÀÑçÀÑ÷½µÔkd^aé;°hÔéoyÈ	l6XR¶Ìs·o¿Âæ,-²@ØV#ìsBOÜ³4DÃkHåeáx~;
 
 @end

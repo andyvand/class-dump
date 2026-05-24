@@ -11,7 +11,7 @@
     NTPBCKRecord *_record;
 }
 
-- (_Bool);
+- (_Bool)7;
 - (id);
 - (void);
 - (id);
@@ -19,14 +19,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (id);
 - (void);
-- (void)earchBranchDecayIPad;
+- (void)hasSearchBranchDecayIPad;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRecord;
-@property(retain, nonatomic) NTPBCKRecord *record; // @synthesize record=_record;
 
 @end
 

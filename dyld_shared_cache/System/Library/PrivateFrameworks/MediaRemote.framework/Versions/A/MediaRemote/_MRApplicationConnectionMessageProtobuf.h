@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _MRApplicationConnectionMessageHeaderProtobuf;
+@class _MRApplicationConnectionMessageHeaderProtobuf;
 
 @interface _MRApplicationConnectionMessageProtobuf
 {
     _MRApplicationConnectionMessageHeaderProtobuf *_header;
-    NSData *_underlyingMessage;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)userCollectionViewControllerHeightConstraint;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)tteranceDetectionEnabled:] /* Error: Ran out of types for this method. */;
 - (void)N,V_defaultPlaybackRate;
 - (id)bìö	;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasHeader;
-@property(readonly, nonatomic) _Bool hasUnderlyingMessage;
-@property(retain, nonatomic) _MRApplicationConnectionMessageHeaderProtobuf *header; // @synthesize header=_header;
-@property(retain, nonatomic) NSData *underlyingMessage; // @synthesize underlyingMessage=_underlyingMessage;
 
 @end
 

@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSString, SoCUpdaterHelper;
+@class NSString, SoCUpdaterHelper;
 
 @interface UARPSoCUpdaterController
 {
     SoCUpdaterHelper *_log;
     _Bool _skipSameVersion;
-    NSMutableArray *_updaters;
-    NSDictionary *_personalizationRequests;
-    _Bool _forceLocalSigning;
-    _Bool _isDone;
-    NSString *_restorePartition;
 }
 
 - (id);
@@ -28,14 +23,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly) _Bool isDone; // @synthesize isDone=_isDone;
-@property(readonly) NSDictionary *personalizationRequests;
 @property(readonly) NSString *restorePartition; // @synthesize restorePartition=_restorePartition;
 
 @end

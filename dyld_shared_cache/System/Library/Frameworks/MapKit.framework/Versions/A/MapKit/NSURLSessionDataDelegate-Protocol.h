@@ -5,5 +5,8 @@
 //
 
 @protocol NSURLSessionDataDelegate
+
+@optional
+- (void)newCommandQueue;
 @end
 

@@ -21,7 +21,7 @@
 + (id);
 - (id);
 - (unsigned long long);
-- (struct _NSRange);
+- (struct _NSRange)l;
 - (id);
 - (id);
 - (id);
@@ -31,8 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long cardinality;
-@property(readonly, nonatomic) NSString *longestValueString;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

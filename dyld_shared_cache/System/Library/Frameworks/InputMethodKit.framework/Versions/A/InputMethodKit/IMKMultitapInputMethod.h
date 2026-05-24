@@ -6,13 +6,11 @@
 
 #import <InputMethodKit/IMKAbstractInputMethod.h>
 
-@class IMKKey, IMKKeyboardState, NSString;
+@class IMKKey;
 
 @interface IMKMultitapInputMethod : IMKAbstractInputMethod
 {
     IMKKey *_multitapKey;
-    IMKKeyboardState *_multitapKeyboardState;
-    NSString *_multitapCharacter;
 }
 
 - (void);
@@ -31,10 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *multitapCharacter; // @synthesize multitapCharacter=_multitapCharacter;
 @property(retain, nonatomic) IMKKey *multitapKey; // @synthesize multitapKey=_multitapKey;
-@property(retain, nonatomic) IMKKeyboardState *multitapKeyboardState; // @synthesize multitapKeyboardState=_multitapKeyboardState;
-@property(readonly, nonatomic, getter=isMultitapping) _Bool multitapping;
 
 @end
 

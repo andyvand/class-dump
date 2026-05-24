@@ -9,17 +9,14 @@
 @interface CPLScopeStatusCounts
 {
     _Bool _hasCachedSummaries;
-    unsigned long long _countOfSharingRecords;
-    unsigned long long _countOfUnsharingRecords;
-    NSDictionary *_countPerFlags;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)er=%@ MDItemIdentifier=%@ as departureLocationFromQU=%@ does not match departureLocationsText=%@;
+- (unsigned long long)query=%@, filtered eventType=%@ with title=%@ identifier=%@ MDItemIdentifier=%@ as departureLocationFromQU=%@ does not match departureLocationsText=%@;
 - (id);
 - (id);
 - (void);
@@ -27,8 +24,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long countOfSharingRecords; // @synthesize countOfSharingRecords=_countOfSharingRecords;
-@property(readonly, nonatomic) unsigned long long countOfUnsharingRecords; // @synthesize countOfUnsharingRecords=_countOfUnsharingRecords;
 @property(readonly, nonatomic) NSDictionary *countPerFlags; // @synthesize countPerFlags=_countPerFlags;
 
 @end

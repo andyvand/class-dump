@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (void);

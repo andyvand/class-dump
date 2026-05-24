@@ -7,21 +7,16 @@
 @interface GEOWiFiQualitySearchTile
 {
     unsigned long long _tileKey;
-    int _type;
-    struct {
-        unsigned int has_tileKey:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
-+ (_Bool)tOriginalRapId:(id)arg1;
++ (_Bool)setOriginalRapId:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)stopAllRequestsSynchronously;
 - (unsigned long long);
 - (_Bool);
 - (int);
@@ -29,9 +24,9 @@
 - (void);
 - (id)0@ù
 × ;
-- (void)routeNoticeIndex:(int)arg1;
-- (id)oCountryCodeIso2AtIndex: /* Error: Ran out of types for this method. */;
-- (int)tionSpace;
+- (void)setEnrouteNoticeIndex:(int)arg1;
+- (id)limitToCountryCodeIso2AtIndex: /* Error: Ran out of types for this method. */;
+- (int)protectionSpace;
 - (id)asBusinessID;
 - (id)"16^B24;
 - (id);
@@ -42,9 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasTileKey;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned long long tileKey;
-@property(nonatomic) int type;
 
 @end
 

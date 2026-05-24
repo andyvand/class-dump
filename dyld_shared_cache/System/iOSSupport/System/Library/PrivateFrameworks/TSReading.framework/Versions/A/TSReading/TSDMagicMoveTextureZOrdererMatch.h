@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDMagicMoveAnimationMatch, TSDTextureSet;
+@class TSDTextureSet;
 
 @interface TSDMagicMoveTextureZOrdererMatch
 {
     _Bool _isOutgoingZIndexUnmatched;
-    _Bool _isIncomingZIndexUnmatched;
-    TSDTextureSet *_outgoingTexture;
-    TSDTextureSet *_incomingTexture;
-    long long _outgoingZIndex;
-    long long _incomingZIndex;
-    TSDMagicMoveAnimationMatch *_animationMatch;
 }
 
 - (void);
-- (void);
+- (void)AssetQueueController;
 - (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double)i;
 - (double);
 - (id);
 - (long long);
@@ -36,13 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) TSDMagicMoveAnimationMatch *animationMatch; // @synthesize animationMatch=_animationMatch;
-@property(readonly, nonatomic) TSDTextureSet *incomingTexture; // @synthesize incomingTexture=_incomingTexture;
-@property(nonatomic) long long incomingZIndex; // @synthesize incomingZIndex=_incomingZIndex;
-@property(readonly, nonatomic) _Bool isIncomingZIndexUnmatched; // @synthesize isIncomingZIndexUnmatched=_isIncomingZIndexUnmatched;
-@property(readonly, nonatomic) _Bool isOutgoingZIndexUnmatched; // @synthesize isOutgoingZIndexUnmatched=_isOutgoingZIndexUnmatched;
 @property(readonly, nonatomic) TSDTextureSet *outgoingTexture; // @synthesize outgoingTexture=_outgoingTexture;
-@property(nonatomic) long long outgoingZIndex; // @synthesize outgoingZIndex=_outgoingZIndex;
 
 @end
 

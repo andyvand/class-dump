@@ -9,7 +9,6 @@
 @interface PXRecipientTransport
 {
     NSString *_address;
-    long long _addressKind;
 }
 
 + (id);
@@ -17,15 +16,15 @@
 - (long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (id)dMemoryEvent:(struct _NSZone *)arg1 model:payload: /* Error: Ran out of types for this method. */;
+- (unsigned long long);
+- (_Bool)h
+;
+- (id)sendMemoryEvent:(struct _NSZone *)arg1 model:payload: /* Error: Ran out of types for this method. */;
 - (id)yMockAutoEditDecisionList papertrail;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *address; // @synthesize address=_address;
-@property(readonly, nonatomic) long long addressKind; // @synthesize addressKind=_addressKind;
 
 @end
 

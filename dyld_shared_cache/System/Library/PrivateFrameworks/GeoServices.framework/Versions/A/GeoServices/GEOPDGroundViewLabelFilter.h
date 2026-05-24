@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ds"b1"read_childBrandMuids"b1"read_variantBrandMuids"b1"read_geoHashs"b1"read_scope"b1"wrote_anyField"b1};
-- (id)gment;
+- (id)_distanceFromSegment;
 - (id)È¿ø¿(À°À;
 - (void);
 

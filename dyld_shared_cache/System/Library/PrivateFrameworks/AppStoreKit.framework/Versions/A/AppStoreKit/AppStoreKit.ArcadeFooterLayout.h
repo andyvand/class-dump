@@ -7,10 +7,6 @@
 @interface AppStoreKit.ArcadeFooterLayout
 {
     id metrics;
-    id riverView;
-    id wordmarkView;
-    id buttonView;
-    id footnoteView;
 }
 
 @end

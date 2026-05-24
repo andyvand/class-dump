@@ -11,15 +11,14 @@
 @interface CUINamedRecognitionGroup : CUINamedLookup
 {
     NSMutableDictionary *_imageContents;
-    NSMutableDictionary *_objectContents;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@xK%;
 - (id);
 - (void);
 

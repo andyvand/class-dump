@@ -6,38 +6,37 @@
 
 #import <AppKit/NSImageRep.h>
 
-@class NSData, _NSPDFDocument;
+@class NSData;
 
 @interface NSPDFImageRep : NSImageRep
 {
     NSData *_pdfData;
-    _NSPDFDocument *_private;
 }
 
++ (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (_Bool), password = %@, persistence = %d, attributes = %@, identifier = %@};
 + (_Bool)T¨;
 + (void)&;
-- (long long);
-- (long long);
-- (long long);
-- (_Bool);
+- (long long);
+- (long long)Task %@ (PowerNap);
+- (long long)32@?0@8@16^B24;
+- (_Bool)@;
 - (struct CGPattern *);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (struct CGRect);
 - (void)1Â0@ù
 × ;
 - (id)Áï/°!x@ùæ3°1Â0@ù
 × ;
-- (id)moveUserPreferredThicknessForArrangedSubview:(struct _NSZone *)arg1;
+- (id)_removeUserPreferredThicknessForArrangedSubview:(struct _NSZone *)arg1;
 - (_Bool)ì¡¢X£è¤¥¦,§<¨¨ ©
 ªT«t«,¬­;
 - (_Bool)hG;
@@ -45,9 +44,6 @@
 
 // Remaining properties
 @property(readonly) NSData *PDFRepresentation;
-@property(readonly) struct CGRect bounds;
-@property long long currentPage;
-@property(readonly) long long pageCount;
 
 @end
 

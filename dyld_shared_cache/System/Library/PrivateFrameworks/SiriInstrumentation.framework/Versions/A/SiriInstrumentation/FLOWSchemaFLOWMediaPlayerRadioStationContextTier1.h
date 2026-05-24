@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWMediaPlayerRadioStationContextTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_stationSeedName;
-    _Bool _hasLinkId;
-    _Bool _hasStationSeedName;
 }
 
 - (void);
@@ -26,8 +23,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)state:(id)arg1 %s;
+- (id)__objc_arraydata__DATA_CONST;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -39,11 +36,7 @@
 - (void)1Ò$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasStationSeedName; // @synthesize hasStationSeedName=_hasStationSeedName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *stationSeedName; // @synthesize stationSeedName=_stationSeedName;
 
 @end
 

@@ -4,34 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUCoalescer, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface SFPowerSourceMonitor
 {
     struct LogCategory *_ucat;
-    _Bool _activateCalled;
-    long long _previousSourcesCount;
-    unsigned short _powerSourcesUpdateIndex;
-    CUCoalescer *_updateCoalescer;
-    NSMutableDictionary *_powerSources;
-    int _psNotifyTokenAccessoryAttach;
-    int _psNotifyTokenAccessoryPowerSource;
-    int _psNotifyTokenAccessoryTimeRemaining;
-    int _psNotifyTokenAnyPowerSource;
-    _Bool _skipCoalescing;
-    unsigned int _changeFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _powerSourcesFoundHandler;
-    CDUnknownBlockType _powerSourcesLostHandler;
-    CDUnknownBlockType _powerSourcesChangedHandler;
 }
 
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -40,8 +21,8 @@
 - (void);
 - (id);
 - (unsigned int);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,12 +43,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int changeFlags; // @synthesize changeFlags=_changeFlags;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType powerSourcesChangedHandler; // @synthesize powerSourcesChangedHandler=_powerSourcesChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType powerSourcesFoundHandler; // @synthesize powerSourcesFoundHandler=_powerSourcesFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType powerSourcesLostHandler; // @synthesize powerSourcesLostHandler=_powerSourcesLostHandler;
-@property(nonatomic) _Bool skipCoalescing; // @synthesize skipCoalescing=_skipCoalescing;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaRedactableString;
+@class NSString;
 
 @interface SISchemaDialogOutput : SISchemaInstrumentationMessage
 {
     NSString *_viewID;
-    SISchemaRedactableString *_spokenDialogOutput;
-    SISchemaRedactableString *_displayedDialogOutput;
-    _Bool _hasViewID;
-    _Bool _hasSpokenDialogOutput;
-    _Bool _hasDisplayedDialogOutput;
 }
 
 - (id);
@@ -30,28 +25,22 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)*;
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (id);
+- (void);
+- (id)sdsicert;
+- (unsigned long long)kageType,V_packageType;
+- (_Bool)https;
+- (_Bool)id,   message_id ) VALUES (   ?,   ? );
 - (id);
 - (id);
-- (id)oBluetoothInfo;
-- (id)foreActivationScores;
-- (void)TYPE_DEFAULT;
+- (id)deleteAssistantDaemonAudioBluetoothInfo;
+- (id)_checkerHSRejectBeforeActivationScores;
+- (void)MHTRPDETECTIONTYPE_DEFAULT;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaRedactableString *displayedDialogOutput; // @synthesize displayedDialogOutput=_displayedDialogOutput;
-@property(nonatomic) _Bool hasDisplayedDialogOutput; // @synthesize hasDisplayedDialogOutput=_hasDisplayedDialogOutput;
-@property(nonatomic) _Bool hasSpokenDialogOutput; // @synthesize hasSpokenDialogOutput=_hasSpokenDialogOutput;
-@property(nonatomic) _Bool hasViewID; // @synthesize hasViewID=_hasViewID;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaRedactableString *spokenDialogOutput; // @synthesize spokenDialogOutput=_spokenDialogOutput;
 @property(copy, nonatomic) NSString *viewID; // @synthesize viewID=_viewID;
 
 @end

@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AKExtensionlessFollowUpHelperContext;
 @protocol AKFollowUpProvider;
 
 @protocol AKFollowupExtensionlessServerUIProvider
+- (void);
+- (void)t  PROJECT:(AKExtensionlessFollowUpHelperContext *)arg1 Spotlight-2418.5.9.101
+;
+- (void);
 
 // Remaining properties
 @property(retain) id <AKFollowUpProvider> followUpProvider;

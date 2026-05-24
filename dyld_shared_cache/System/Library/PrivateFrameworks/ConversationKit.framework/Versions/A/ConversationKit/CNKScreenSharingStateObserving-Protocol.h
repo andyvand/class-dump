@@ -5,5 +5,9 @@
 //
 
 @protocol CNKScreenSharingStateObserving
+
+@optional
+- (void);
+- (void)z;
 @end
 

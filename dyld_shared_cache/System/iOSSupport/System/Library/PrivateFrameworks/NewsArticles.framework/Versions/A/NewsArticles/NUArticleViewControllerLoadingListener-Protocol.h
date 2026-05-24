@@ -5,5 +5,8 @@
 //
 
 @protocol NUArticleViewControllerLoadingListener
+
+@optional
+- (void);
 @end
 

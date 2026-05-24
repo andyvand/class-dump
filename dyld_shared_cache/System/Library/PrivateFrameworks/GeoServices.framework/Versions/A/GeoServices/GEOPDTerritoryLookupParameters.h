@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTerritoryLookupParameters
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_locations;
-    _Bool _useDeviceExtendedLocation;
-    struct {
-        unsigned int has_useDeviceExtendedLocation:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)indexSet;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)de"b1"has_pitch"b1};
-- (id)routingFeaturesInfos;
+- (id)_routingFeaturesInfos;
 - (id)°Ô|ØÚÛ;
 - (void);
 

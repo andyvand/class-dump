@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSTimeZone, SFLatLng;
+@class NSString, NSTimeZone;
 
 @protocol SFAirport
+- (void)_MPAbstractNetworkArtworkDataSourceVisualIdenticalityIdentifier;
+- (void);
+- (NSString *);
+- (NSString *)O;
 - (void)tion"16;
 - (void):(NSTimeZone *)arg1 8#16;
-- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *city;
 @property(copy, nonatomic) NSString *code;
-@property(copy, nonatomic) NSString *country;
-@property(copy, nonatomic) NSString *countryCode;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *district;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFLatLng *location;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *postalCode;
-@property(copy, nonatomic) NSString *state;
-@property(copy, nonatomic) NSString *street;
-@property(copy, nonatomic) NSTimeZone *timezone;
 @end
 

@@ -10,10 +10,10 @@
 {
 }
 
-+ (id);
-+ (id);
-- (id)ª¶ú;
-- (id);
++ (id)-;
++ (id)5;
+- (id)e;
+- (id)ansaction outside of any transaction;
 
 @end
 

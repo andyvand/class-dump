@@ -7,16 +7,6 @@
 @interface AppleMediaServicesUI.AccountWrapper
 {
     id account;
-    id mediaTypes;
-    id bagWrapper;
-    id delegateWrapper;
-    id preferredClient;
-    id _lockoutReason;
-    id _shouldShowBiometricSection;
-    id _isUpdating;
-    id _isBiometricsEnabled;
-    id accountStoreObserver;
-    id disposables;
 }
 
 - (void);

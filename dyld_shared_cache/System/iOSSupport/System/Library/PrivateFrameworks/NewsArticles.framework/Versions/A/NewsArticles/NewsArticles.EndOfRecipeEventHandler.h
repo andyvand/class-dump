@@ -7,9 +7,6 @@
 @interface NewsArticles.EndOfRecipeEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id coordinator;
 }
 
 @end

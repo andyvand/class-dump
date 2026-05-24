@@ -6,19 +6,17 @@
 
 #import <MailUI/MessageListSectionDataSource.h>
 
-@class EMObjectID, NSArray, NSViewController;
+@class EMObjectID;
 
 @interface MUIMessageListBucketBarSectionDataSource : MessageListSectionDataSource
 {
     EMObjectID *_itemIdentifier;
-    NSViewController *_bucketsViewController;
-    NSArray *_layoutConstraints;
 }
 
 - (id);
 - (void);
 - (void);
-- (void)readContainsItemID: /* Error: Ran out of types for this method. */;
+- (void)recentlyCollapsedThreadContainsItemID: /* Error: Ran out of types for this method. */;
 
 @end
 

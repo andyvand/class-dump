@@ -11,7 +11,7 @@
     NSEnumerator *_enumerator;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 

@@ -9,10 +9,9 @@
 @interface (extension in PhotosUICore):__C.PXApplicationState.VisibilityChangeHandler__priv_F7335C9F0C324821A31E9D1547FA77F6
 {
     id identifier;
-    id action;
 }
 
-- (id);
+- (id);
 - (id);
 - (void)õPLq: /* Error: Ran out of types for this method. */;
 

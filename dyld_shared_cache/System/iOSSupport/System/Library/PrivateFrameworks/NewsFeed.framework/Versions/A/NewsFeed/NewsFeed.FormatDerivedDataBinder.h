@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatDerivedDataBinder
 {
     id slotDefinitions;
-    id scopedOptions;
-    id unresolvedOptions;
-    id resolvedOptions;
-    id references;
-    id strings;
 }
 
 @end

@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface InteractionAnalysisPETInteractionEvents
 {
     NSString *_deviceID;
-    NSMutableArray *_interactionEvents;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)`
+;
 - (_Bool);
 - (_Bool);
 - (id);

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ICIAMSynchronizeMessagesRequest
 {
     long long _commandSerialNumber;
-    long long _dSID;
-    NSString *_deviceID;
-    _Bool _activeCommandsOnly;
-    struct {
-        unsigned int commandSerialNumber:1;
-        unsigned int dSID:1;
-        unsigned int activeCommandsOnly:1;
-    } _has;
 }
 
 - (void);
@@ -42,18 +32,11 @@
 - (id);
 - (id);
 - (void);
-- (void)udClientCloudService;
+- (void)ICCloudClientCloudService;
 - (void)D¡U×á¦Ãí&ÃÏ½á7c×ÓÛX"ß¨×T7,EøV`2f£m¿>0æMÄü2®ôZ¢n½BuRH·ae÷FìAÑïG¬òÀ~+c;
 
 // Remaining properties
-@property(nonatomic) _Bool activeCommandsOnly; // @synthesize activeCommandsOnly=_activeCommandsOnly;
-@property(nonatomic) long long commandSerialNumber; // @synthesize commandSerialNumber=_commandSerialNumber;
-@property(nonatomic) long long dSID; // @synthesize dSID=_dSID;
-@property(retain, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(nonatomic) _Bool hasActiveCommandsOnly;
 @property(nonatomic) _Bool hasCommandSerialNumber;
-@property(nonatomic) _Bool hasDSID;
-@property(readonly, nonatomic) _Bool hasDeviceID;
 
 @end
 

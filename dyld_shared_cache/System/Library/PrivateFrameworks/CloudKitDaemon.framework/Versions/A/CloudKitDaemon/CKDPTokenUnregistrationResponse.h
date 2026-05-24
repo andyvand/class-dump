@@ -11,7 +11,8 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)apacity %lu Fullness percent %.2f%% FullnessTime (secs):%1.4f
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);

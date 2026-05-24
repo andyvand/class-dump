@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDeviceToDeviceShareInvitationToken, CKUserIdentityLookupInfo, NSString;
+@class NSString;
 
 @interface PKCloudStoreZoneShareParticipant
 {
     NSString *_participantHandle;
-    CKUserIdentityLookupInfo *_lookupInfo;
-    CKDeviceToDeviceShareInvitationToken *_invitationToken;
 }
 
 + (_Bool);
@@ -26,14 +24,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasLteMaxScheduledMimoLayersInACell;
 - (void);
 - (id);
 - (void)sed!;
 
 // Remaining properties
-@property(retain, nonatomic) CKDeviceToDeviceShareInvitationToken *invitationToken; // @synthesize invitationToken=_invitationToken;
-@property(retain, nonatomic) CKUserIdentityLookupInfo *lookupInfo; // @synthesize lookupInfo=_lookupInfo;
 @property(copy, nonatomic) NSString *participantHandle; // @synthesize participantHandle=_participantHandle;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol ADAppTracking_XPC
+- (void);
+- (void)|;
+- (void)%@:(void (^)(_Bool))arg1 prepare to slow sync %@;
 @end
 

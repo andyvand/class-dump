@@ -6,84 +6,51 @@
 
 #import <CoreML/MLTreeEnsembleXGBoostClassifier.h>
 
-@class MLModelConfiguration, MLModelDescription, MLModelMetadata, MLParameterContainer, MLUpdateProgressHandlers, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MLUpdateProgressHandlers;
 
 @interface MLTreeEnsembleXGBoostUpdateEngine : MLTreeEnsembleXGBoostClassifier
 {
     _Bool _continueWithUpdate;
-    _Bool _personalization;
-    MLUpdateProgressHandlers *_progressHandlers;
-    NSObject<OS_dispatch_queue> *_progressHandlersDispatchQueue;
-    MLParameterContainer *_parameterContainer;
-    unsigned long long _numDimensions;
-    shared_ptr_0841df90 _mmappedModel;
-    vector_64acebbd _classesByString;
-    vector_ef673ceb _classesByInt;
-    vector_7dc4c282 _cachedModel;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (shared_ptr_0841df90);
+- (void)refitGeometriesKernel;
+- (void)refitCurveControlPointsInPlaceKernel;
+- (void)copyMTLBVHResourceIDsKernel;
+- (void)%v[234][h][l]?[aAeEfFgG];
+- (void)]([h]{1,2}|[h]?[l])[diuoxXc];
+- (_Bool):(void *)arg1 %M:(id *)arg2 %S;
+- (unsigned long long)payloadMemoryLength;
+- (shared_ptr_912cf19d)MTLRenderPipelineDescriptor;
+- (id)of the attributes set bufferIndex to %d, but %s set buffer layout[%d].stride(%lu).;
 - (id);
-- (id);
-- (vector_ef673ceb);
+- (vector_cd3d9677);
 - (vector_7dc4c282);
 - (_Bool);
-- (vector_64acebbd);
+- (vector_76d36e47)P;
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)2;
+- (void);
+- (id);
+- (id);
 - (void);
-- (void)FeatureChannelCount:(id)arg1 outputFeatureChannelCount:dataType: /* Error: Ran out of types for this method. */;
+- (void)convolutionWeightsDescriptorWithWidth:(id)arg1 height:inputFeatureChannelCount:outputFeatureChannelCount:dataType: /* Error: Ran out of types for this method. */;
 - (_Bool)<MLBatchProvider>",&,N,V_fullBatch;
 - (_Bool)N,V_modelConfiguration;
 - (id)z;
 - (void)eate E5 surface object from IOSurface. E5RT:%s (%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) vector_7dc4c282 cachedModel; // @synthesize cachedModel=_cachedModel;
-@property(nonatomic) vector_ef673ceb classesByInt; // @synthesize classesByInt=_classesByInt;
-@property(nonatomic) vector_64acebbd classesByString; // @synthesize classesByString=_classesByString;
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
-@property(nonatomic) _Bool continueWithUpdate; // @synthesize continueWithUpdate=_continueWithUpdate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelMetadata *metadata;
-@property(nonatomic) shared_ptr_0841df90 mmappedModel; // @synthesize mmappedModel=_mmappedModel;
-@property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(nonatomic) unsigned long long numDimensions; // @synthesize numDimensions=_numDimensions;
-@property(retain, nonatomic) MLParameterContainer *parameterContainer; // @synthesize parameterContainer=_parameterContainer;
-@property(nonatomic) _Bool personalization; // @synthesize personalization=_personalization;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
 @property(retain, nonatomic) MLUpdateProgressHandlers *progressHandlers; // @synthesize progressHandlers=_progressHandlers;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *progressHandlersDispatchQueue; // @synthesize progressHandlersDispatchQueue=_progressHandlersDispatchQueue;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
 
 @end
 

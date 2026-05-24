@@ -4,57 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalizedString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPRapProfileInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLocalizedString *_summary;
-    GEOLocalizedString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_summary:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)layStringIndex:(id)arg1;
++ (_Bool)setLinkDisplayStringIndex:(id)arg1;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)`;
 - (id);
 - (void);
+- (void)A;
+- (id)6@44@52@60I68@72d80d88d96Q104Q112@120B128q132;
+- (void)CSVoiceTriggerAssetDownloadMonitor:(id)arg1 didInstallNewAsset: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)Coordinate2D=dd}16{CLLocationCoordinate2D=dd}32@?<v@?Q>48;
 - (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)l;
+- (void)decodeObjectOfClass:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (id)"b1"has_maxRouteIncidentSupported"b1"has_maxTrafficSpeedSupported"b1"has_maxSupportedTransitFareVersion"b1"has_maxZilchMessageVersionSupported"b1"has_transitMarketSupport"b1"has_clusteredTransitRoutesSupported"b1"has_hasPartnerProfileInstalled"b1"has_includeCrossLanguagePhonetics"b1"has_internalInstall"b1"has_internalTool"b1"has_isAdvancedMap"b1"has_isGlobeProjection"b1"has_replaceAccidentStringWithCrash"b1"has_routeOptionsSupported"b1"has_snapToClosestStopSupported"b1"has_supportEmissionsTagging"b1"has_supportsAdvancedMap"b1"has_supportsAreaEventsEnhancements"b1"has_supportsArrivalMapRegion"b1"has_supportsBannerQueuingDirections"b1"has_supportsBannerQueuing"b1"has_supportsCongestionZones"b1"has_supportsDefaultToNewRouteFlag"b1"has_supportsDisablingProgressBarFromBannerButtons"b1"has_supportsDodgeballCameraInput"b1"has_supportsElectricVehicleRoutes"b1"has_supportsEv2"b1"has_supportsEvRoutingPreconditioning"b1"has_supportsExtendedSpringfieldRegions"b1"has_supportsGenericCombinationsInstructionsForAllModes"b1"has_supportsGuidanceEventImportanceInfo"b1"has_supportsGuidanceEventPrivacyFilters"b1"has_supportsGuidanceEventsInlineShields"b1"has_supportsGuidanceEvents"b1"has_supportsInternalInfo"b1"has_supportsJunctionView"b1"has_supportsLicensePlateRestrictions"b1"has_supportsLongShieldStrings"b1"has_supportsNaturalGuidance"b1"has_supportsRoadComplexities"b1"has_supportsRouteCameraInputUpdates"b1"has_supportsRouteNameRanges"b1"has_supportsSilentRouteUpdates"b1"has_supportsSpeedTrapAnnouncements"b1"has_supportsTrafficCameras"b1"has_supportsUserIncidentReports"b1"has_supportsWalkingSuggestionsAfterParking"b1"has_supportsWaypointRoutes"b1"has_willSendEvDirectionsFeedback"b1"read_unknownFields"b1"read_supportedElevationModels"b1"read_supportedTransitFeatures"b1"read_supportsMultipointRoutings"b1"read_abAssignInfo"b1"read_advisoryClientCapabilities"b1"read_appMajorVersion"b1"read_appMinorVersion"b1"read_artworkCapabilities"b1"read_deviceCountryCode"b1"read_deviceSku"b1"read_displayLanguages"b1"read_displayRegion"b1"read_formattedStringClientCapabilities"b1"read_hardwareModel"b1"read_hardwareClass"b1"read_localizationCapabilities"b1"read_osVersion"b1"read_requestTime"b1"read_userCurrentTimezone"b1"read_walkingSupportedFeatures"b1"wrote_anyField"b1};
-- (id)fromPointIndex:pointCount: /* Error: Ran out of types for this method. */;
+- (id)compressedZilchDataFromPoints:fromPointIndex:pointCount: /* Error: Ran out of types for this method. */;
 - (id)L"l$¼')Ü,¬.ü1I7Ì7!D9: /* Error: Ran out of types for this method. */;
-- (id)iginalQueryDisplayString;
+- (id)originalQueryDisplayString;
 - (id)(;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSummary;
 @property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) GEOLocalizedString *summary;
-@property(retain, nonatomic) GEOLocalizedString *title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

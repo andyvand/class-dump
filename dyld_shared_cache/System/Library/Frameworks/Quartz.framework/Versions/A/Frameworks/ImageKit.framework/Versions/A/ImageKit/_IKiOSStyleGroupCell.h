@@ -6,18 +6,11 @@
 
 #import <ImageKit/IKIconCell.h>
 
-@class IKImageBrowserGridGroup, IKImageWrapper;
+@class IKImageWrapper;
 
 @interface _IKiOSStyleGroupCell : IKIconCell
 {
     IKImageWrapper *_titleSelectionImage;
-    double _dimFactor;
-    double _highlightFactor;
-    unsigned int _ghost:1;
-    unsigned int _highlighted:1;
-    unsigned int _supportsStatusImage:2;
-    IKImageBrowserGridGroup *_group;
-    double _contentScroll;
 }
 
 + (double);
@@ -30,7 +23,7 @@
 - (void);
 - (_Bool);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (void);
 - (void);
@@ -39,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (double);
 - (_Bool);
 - (_Bool);
@@ -47,7 +40,7 @@
 - (float);
 - (_Bool);
 - (id);
-- (id);
+- (id)q;
 - (void);
 - (void);
 - (double);
@@ -60,27 +53,23 @@
 - (struct CGRect);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)awakeFromInsert;
+- (void)reenTime.shadowMigrationResult;
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)secondsSince1970;
 - (void);
 - (_Bool);
 - (double);
 - (void);
-- (void);
-- (id);
+- (void)̎;
+- (id);
 - (_Bool)erToDisplay called with something other than a CALayer:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)englTextureRGBA :error after glTexImage2D:%x /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property double dimFactor;
-@property _Bool ghost;
-@property(retain) IKImageBrowserGridGroup *group; // @synthesize group=_group;
-@property double highlightFactor; // @synthesize highlightFactor=_highlightFactor;
-@property _Bool highlighted;
 
 @end
 

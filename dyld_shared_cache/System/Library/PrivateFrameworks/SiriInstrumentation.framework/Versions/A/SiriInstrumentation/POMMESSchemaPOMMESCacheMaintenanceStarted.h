@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESCacheMaintenanceStarted : SISchemaInstrumentationMessage
 {
     unsigned int _timeSinceLastMaintenanceInSeconds;
-    struct {
-        unsigned int timeSinceLastMaintenanceInSeconds:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -23,17 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAccountLookupRequest_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)>y;
+- (_Bool)t back %ld rows;
 - (id);
 - (id);
-- (id)s;
+- (id)_numberOfSecondaryPassRuns;
 - (id)asTarget;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTimeSinceLastMaintenanceInSeconds;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int timeSinceLastMaintenanceInSeconds; // @synthesize timeSinceLastMaintenanceInSeconds=_timeSinceLastMaintenanceInSeconds;
 
 @end

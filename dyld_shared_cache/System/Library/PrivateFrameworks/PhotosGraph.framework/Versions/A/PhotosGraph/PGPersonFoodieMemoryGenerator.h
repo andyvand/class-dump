@@ -14,8 +14,8 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)isCalculatingTime;
+- (void)derdKeysForPruning;
 
 @end
 

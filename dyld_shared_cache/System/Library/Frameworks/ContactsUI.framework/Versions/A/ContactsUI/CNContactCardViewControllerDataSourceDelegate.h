@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPerson, AKCardViewDataSource, CNContactCardViewController, CNContactDetailsViewController, NSString;
-
 @interface CNContactCardViewControllerDataSourceDelegate
 {
     _Bool _saveChangesToABPerson;
-    _Bool _removingEmptyData;
-    ABPerson *_legacySaveTarget;
-    AKCardViewDataSource *_dataSource;
-    CNContactDetailsViewController *_contactDetailsViewController;
-    CNContactCardViewController *_contactCardViewController;
 }
 
 - (void);
@@ -27,27 +20,15 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (void)H;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)<;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak CNContactCardViewController *contactCardViewController; // @synthesize contactCardViewController=_contactCardViewController;
-@property(nonatomic) __weak CNContactDetailsViewController *contactDetailsViewController; // @synthesize contactDetailsViewController=_contactDetailsViewController;
-@property(nonatomic) __weak AKCardViewDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak ABPerson *legacySaveTarget; // @synthesize legacySaveTarget=_legacySaveTarget;
 @property(nonatomic) _Bool removingEmptyData; // @synthesize removingEmptyData=_removingEmptyData;
-@property(nonatomic) _Bool saveChangesToABPerson; // @synthesize saveChangesToABPerson=_saveChangesToABPerson;
-@property(readonly) Class superclass;
 
 @end
 

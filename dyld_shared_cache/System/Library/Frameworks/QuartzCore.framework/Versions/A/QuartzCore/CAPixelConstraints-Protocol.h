@@ -7,9 +7,6 @@
 @protocol CAPixelConstraints
 
 // Remaining properties
-@property(readonly, nonatomic) const float *averagePixelTable;
 @property(readonly, nonatomic) const float *nitsTable;
-@property(readonly, nonatomic) const float *rgbWeights;
-@property(readonly, nonatomic) unsigned long long tableSize;
 @end
 

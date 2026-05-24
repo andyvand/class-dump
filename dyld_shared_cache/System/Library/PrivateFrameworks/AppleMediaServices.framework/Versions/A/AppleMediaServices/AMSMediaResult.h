@@ -6,7 +6,7 @@
 
 #import <AppleMediaServices/AMSURLResult.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface AMSMediaResult : AMSURLResult
 {
@@ -15,7 +15,6 @@
 
 
 // Remaining properties
-@property(readonly) NSArray *responseDataItems;
 @property(readonly) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
 @end
 

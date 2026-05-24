@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPContainmentCorrection
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_62a50c50 _addedMuids;
-    CDStruct_62a50c50 _originalMuids;
-    CDStruct_62a50c50 _removedMuids;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_addedMuids:1;
-        unsigned int read_originalMuids:1;
-        unsigned int read_removedMuids:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)etIsOptedIntoFamiliarRoutePreservation:(id)arg1;
++ (_Bool)setIsOptedIntoFamiliarRoutePreservation:(id)arg1;
 - (void);
+- (void)40@0:(unsigned long long *)arg1 8@16@24^@32;
 - (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long *);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long *);
+- (unsigned long long)l connect to remote endpoint;
+- (unsigned long long *)e endpoint %{public}@;
+- (unsigned long long)}@;
+- (unsigned long long)CNCDContactVCardParsedResultBuilder;
+- (unsigned long long *)ContactsPersistence;
 - (unsigned long long);
 - (void);
 - (void);
@@ -48,10 +34,10 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)setAdditionalMetrics: /* Error: Ran out of types for this method. */;
+- (void)ublic}lfs waiting for Borealis buffer to become available.;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -59,19 +45,13 @@
 - (id);
 - (void);
 - (id)b1"read_exploreGuidesSubtitle"b1"read_exploreImageUrlTemplate"b1"read_guidesLocationEntry"b1"wrote_anyField"b1};
-- (id)AlternateSearchableName: /* Error: Ran out of types for this method. */;
+- (id)addAlternateSearchableName: /* Error: Ran out of types for this method. */;
 - (id)Ä345X66 8ô8@:L; <(== /* Error: Ran out of types for this method. */;
-- (id)O_GUIDES;
+- (id)BUTTON_TYPE_ADD_TO_GUIDES;
 - (void)Ñ¯­ML@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long *addedMuids;
 @property(readonly, nonatomic) unsigned long long addedMuidsCount;
-@property(readonly, nonatomic) unsigned long long *originalMuids;
-@property(readonly, nonatomic) unsigned long long originalMuidsCount;
-@property(readonly, nonatomic) unsigned long long *removedMuids;
-@property(readonly, nonatomic) unsigned long long removedMuidsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

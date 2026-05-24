@@ -4,47 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, PGTitleGenerationContext, PGTitleTuple, PHAsset, PHAssetCollection;
+@class PGTitleGenerationContext;
 @protocol PGEventEnrichment;
 
 @interface PGCollectionTitleGenerator
 {
     PGTitleGenerationContext *_titleGenerationContext;
-    _Bool _forDiagnostics;
-    id <PGEventEnrichment> _collection;
-    PGTitleTuple *_titleTuple;
-    PHAsset *_keyAsset;
-    PHAssetCollection *_curatedAssetCollection;
-    NSSet *_whitelistedMeaningLabels;
 }
 
+- (id)48B56;
+- (id)showWindow: /* Error: Ran out of types for this method. */;
+- (void)initWithFilterStrategy:(id)arg1 traversalStrategy: /* Error: Ran out of types for this method. */;
+- (void)firstKeyboardFocusableItemUnderElement:(id)arg1;
+- (void)_frame;
+- (void)_describeFromLargestSection:(id)arg1;
 - (id);
 - (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)oryTitlePersonActionSweetMoments;
+- (void)PGChildActivityMemoryTitlePersonActionSweetMoments;
 - (id).Æýÿ	àó$Ñ;
-- (void)s;
+- (void)AudioAnalysis;
 
 // Remaining properties
 @property(retain, nonatomic) id <PGEventEnrichment> collection; // @synthesize collection=_collection;
-@property(retain, nonatomic) PHAssetCollection *curatedAssetCollection; // @synthesize curatedAssetCollection=_curatedAssetCollection;
-@property(nonatomic) _Bool forDiagnostics; // @synthesize forDiagnostics=_forDiagnostics;
-@property(retain, nonatomic) PHAsset *keyAsset; // @synthesize keyAsset=_keyAsset;
-@property(retain, nonatomic) PGTitleTuple *titleTuple; // @synthesize titleTuple=_titleTuple;
-@property(retain, nonatomic) NSSet *whitelistedMeaningLabels; // @synthesize whitelistedMeaningLabels=_whitelistedMeaningLabels;
 
 @end
 

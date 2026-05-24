@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class QLThumbnailQueue;
-
 __attribute__((visibility("hidden")))
 @interface QLThumbnailQueueOperation
 {
     struct __QLThumbnail *_thumbnail;
-    QLThumbnailQueue *_delegate;
-    _Bool _finished;
-    _Bool _executing;
 }
 
 - (void);
@@ -23,16 +18,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (struct __QLThumbnail *);
+- (_Bool)\;
+- (struct __QLThumbnail *)fo.eventQueue;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void)oding;
+- (void)textEncoding;
 
 // Remaining properties
-@property __weak QLThumbnailQueue *delegate; // @synthesize delegate=_delegate;
 @property struct __QLThumbnail *thumbnail; // @synthesize thumbnail=_thumbnail;
 
 @end

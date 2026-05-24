@@ -4,62 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2EventBannerRejected
 {
     int _app;
-    int _category;
-    int _extracted;
-    NSString *_key;
-    struct {
-        unsigned int app:1;
-        unsigned int category:1;
-        unsigned int extracted:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
 - (id);
 - (void);
+- (int);
 - (int);
 - (int);
-- (int);
-- (id);
+- (id)defaultPaymentPassIdentifier;
 - (void);
-- (int);
+- (int)_createImageRefForImageSource:(id)arg1 screenScale:outAssetScale: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)nRefWhiteNits key missing from modelStateDictionary, returning sentinel;
 - (id);
 - (_Bool);
 - (int);
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)c;
+- (void)serializeConference:(int)arg1 serializationBlockTitle: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) int category; // @synthesize category=_category;
-@property(nonatomic) int extracted; // @synthesize extracted=_extracted;
-@property(nonatomic) _Bool hasApp;
-@property(nonatomic) _Bool hasCategory;
-@property(nonatomic) _Bool hasExtracted;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

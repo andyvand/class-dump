@@ -7,17 +7,16 @@
 @interface AVCaptureEventSound
 {
     unsigned int __identifier;
-    _Bool isCustomSound;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (id);
 - (void);
-- (unsigned int);
-- (id)nerationControl:(id)arg1;
+- (unsigned int)"16@?0^{sqlite3_stmt=}8;
+- (id)setFirstGenerationControl:(id)arg1;
 
 @end
 

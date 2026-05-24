@@ -7,12 +7,6 @@
 @interface AppleMediaServices.QRCodeHandler
 {
     id $defaultActor;
-    id delegate;
-    id configuration;
-    id pollingSource;
-    id setupDataSource;
-    id isActive;
-    id currentTask;
 }
 
 @end

@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
+- (void)+;
+- (void)MPPlaybackUserDefaultsMusicRepeatTypeDidChangeNotification;
+- (id);
 
 // Remaining properties
 @property(nonatomic, getter=isVideoEnabled) _Bool videoEnabled; // @synthesize videoEnabled=_videoEnabled;

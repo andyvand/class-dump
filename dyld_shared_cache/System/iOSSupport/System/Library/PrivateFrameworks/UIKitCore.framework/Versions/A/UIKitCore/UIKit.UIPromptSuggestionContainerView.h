@@ -15,7 +15,7 @@
 - (id);
 - (void);
 - (id)nceNames"b1};
-- (id)t;
+- (id)_UIImageSymbolAnimationPreset;
 - (void)lîìþ;
 
 @end

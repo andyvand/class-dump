@@ -4,6 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CBPeripheral;
+
 @protocol CBPeripheralDelegate
+
+@optional
+- (void)_shouldDither;
+- (void)_shouldDeleteDestinationURLOnDeallocation;
+- (void)_sharedScene;
+- (void)_setupEncryptionContextForWritingWithError:(CBPeripheral *)arg1;
+- (void)_settlingEffectEnabled;
+- (void)_setVideoURL:(CBPeripheral *)arg1;
+- (void)_setUUID:(CBPeripheral *)arg1;
+- (void)_setOperationError:(CBPeripheral *)arg1;
+- (void)_setImageOutputURL:(CBPeripheral *)arg1;
+- (void)_setCompletionHandler:(CBPeripheral *)arg1;
+- (void)_semanticEnhanceScene;
+- (void)_seedSongIdentifiersByCatalog;
+- (void)_screenScale;
+- (void)d}{CGSize=dd}},R,N,V_visibleFrame;
+- (void)>P>;
 @end
 

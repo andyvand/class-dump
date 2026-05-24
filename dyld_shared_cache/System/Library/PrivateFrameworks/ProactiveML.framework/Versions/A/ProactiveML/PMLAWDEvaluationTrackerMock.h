@@ -13,12 +13,12 @@
     PMLTrackerMockAdapter *_adapter;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)deserializeColorSuggestions:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

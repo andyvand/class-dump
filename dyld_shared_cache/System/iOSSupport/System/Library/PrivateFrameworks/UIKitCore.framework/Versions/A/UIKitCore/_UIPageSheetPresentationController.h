@@ -12,7 +12,7 @@
 
 + (long long)0@ù
 × ;
-- (_Bool);
+- (_Bool)buildWithType:withDisplayName:withBundleID:withPages:withURL: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (struct CGRect);
 

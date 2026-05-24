@@ -4,45 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCFNetworkTransactionMetrics
 {
     unsigned long long _requestEnd;
-    unsigned long long _requestStart;
-    unsigned long long _responseEnd;
-    unsigned long long _responseStart;
-    unsigned long long _timestamp;
-    unsigned long long _totalBytesExpectedToRead;
-    unsigned long long _totalBytesExpectedToWrite;
-    unsigned long long _totalBytesRead;
-    unsigned long long _totalBytesWritten;
-    NSString *_connectionUUID;
-    int _http3Status;
-    int _networkLoadType;
-    int _networkProtocolName;
-    _Bool _apsRelayAttempted;
-    _Bool _apsRelaySucceeded;
-    _Bool _isRedirected;
-    _Bool _reusedConnection;
-    struct {
-        unsigned int requestEnd:1;
-        unsigned int requestStart:1;
-        unsigned int responseEnd:1;
-        unsigned int responseStart:1;
-        unsigned int timestamp:1;
-        unsigned int totalBytesExpectedToRead:1;
-        unsigned int totalBytesExpectedToWrite:1;
-        unsigned int totalBytesRead:1;
-        unsigned int totalBytesWritten:1;
-        unsigned int http3Status:1;
-        unsigned int networkLoadType:1;
-        unsigned int networkProtocolName:1;
-        unsigned int apsRelayAttempted:1;
-        unsigned int apsRelaySucceeded:1;
-        unsigned int isRedirected:1;
-        unsigned int reusedConnection:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -58,10 +22,10 @@
 - (void);
 - (void);
 - (void);
+- (void)T;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -101,8 +65,8 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -112,17 +76,17 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool):8 /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (_Bool)peCount"b1"foldersWithDupesCount"b1"timestamp"b1};
-- (void)e:(unsigned long long)arg1;
-- (void);
-- (unsigned long long)Size;
-- (void)nnelFlags;
+- (void)setHasScanInternalDone:(unsigned long long)arg1;
+- (void)hasAssociatedSleepDur;
+- (unsigned long long)byteSize;
+- (void)_targetChannelFlags;
 - (int)sizedIPv6Address;
-- (void)EventFirstMKMTimeDelta;
-- (unsigned long long)hLocationServiceEnabledRoutineEnabledWifiOff;
+- (void)AWDIDSRealTimeEncryptionMembershipChangeEventFirstMKMTimeDelta;
+- (unsigned long long)activeRequestTimeoutWithLocationServiceEnabledRoutineEnabledWifiOff;
 - (_Bool)Ôwôÿ¥ooj;
 - (unsigned long long)ÿÕpR;
 - (void);
@@ -131,40 +95,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool apsRelayAttempted; // @synthesize apsRelayAttempted=_apsRelayAttempted;
-@property(nonatomic) _Bool apsRelaySucceeded; // @synthesize apsRelaySucceeded=_apsRelaySucceeded;
-@property(retain, nonatomic) NSString *connectionUUID; // @synthesize connectionUUID=_connectionUUID;
-@property(nonatomic) _Bool hasApsRelayAttempted;
-@property(nonatomic) _Bool hasApsRelaySucceeded;
-@property(readonly, nonatomic) _Bool hasConnectionUUID;
-@property(nonatomic) _Bool hasHttp3Status;
-@property(nonatomic) _Bool hasIsRedirected;
-@property(nonatomic) _Bool hasNetworkLoadType;
-@property(nonatomic) _Bool hasNetworkProtocolName;
-@property(nonatomic) _Bool hasRequestEnd;
-@property(nonatomic) _Bool hasRequestStart;
-@property(nonatomic) _Bool hasResponseEnd;
-@property(nonatomic) _Bool hasResponseStart;
-@property(nonatomic) _Bool hasReusedConnection;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTotalBytesExpectedToRead;
-@property(nonatomic) _Bool hasTotalBytesExpectedToWrite;
-@property(nonatomic) _Bool hasTotalBytesRead;
-@property(nonatomic) _Bool hasTotalBytesWritten;
-@property(nonatomic) int http3Status; // @synthesize http3Status=_http3Status;
-@property(nonatomic) _Bool isRedirected; // @synthesize isRedirected=_isRedirected;
-@property(nonatomic) int networkLoadType; // @synthesize networkLoadType=_networkLoadType;
-@property(nonatomic) int networkProtocolName; // @synthesize networkProtocolName=_networkProtocolName;
-@property(nonatomic) unsigned long long requestEnd; // @synthesize requestEnd=_requestEnd;
-@property(nonatomic) unsigned long long requestStart; // @synthesize requestStart=_requestStart;
-@property(nonatomic) unsigned long long responseEnd; // @synthesize responseEnd=_responseEnd;
-@property(nonatomic) unsigned long long responseStart; // @synthesize responseStart=_responseStart;
-@property(nonatomic) _Bool reusedConnection; // @synthesize reusedConnection=_reusedConnection;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned long long totalBytesExpectedToRead; // @synthesize totalBytesExpectedToRead=_totalBytesExpectedToRead;
-@property(nonatomic) unsigned long long totalBytesExpectedToWrite; // @synthesize totalBytesExpectedToWrite=_totalBytesExpectedToWrite;
-@property(nonatomic) unsigned long long totalBytesRead; // @synthesize totalBytesRead=_totalBytesRead;
-@property(nonatomic) unsigned long long totalBytesWritten; // @synthesize totalBytesWritten=_totalBytesWritten;
 
 @end
 

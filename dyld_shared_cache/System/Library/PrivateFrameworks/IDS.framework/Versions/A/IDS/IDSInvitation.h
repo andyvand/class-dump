@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSUUID;
-@protocol IDSInvitationContext;
+@class NSString, NSUUID;
 
 @interface IDSInvitation
 {
     NSString *_senderMergeID;
-    NSString *_selfHandle;
-    long long _state;
-    id <IDSInvitationContext> _context;
-    NSUUID *_uniqueID;
-    NSDate *_expirationDate;
 }
 
 - (id);
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long)conversationGroupWithParent:members:sponsor:applicationData:error: /* Error: Ran out of types for this method. */;
+- (id)_canUseLargePayload;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <IDSInvitationContext> context; // @synthesize context=_context;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, copy, nonatomic) NSString *selfHandle; // @synthesize selfHandle=_selfHandle;
-@property(readonly, copy, nonatomic) NSString *senderMergeID; // @synthesize senderMergeID=_senderMergeID;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 @property(readonly, copy, nonatomic) NSUUID *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end

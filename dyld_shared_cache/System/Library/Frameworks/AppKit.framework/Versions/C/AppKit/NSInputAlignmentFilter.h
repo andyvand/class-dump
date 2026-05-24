@@ -4,44 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-@protocol NSObject;
-
 @interface NSInputAlignmentFilter
 {
     long long _reserved0;
-    long long _flags;
-    id _velocityFilter;
-    NSTimer *_periodicUpdateTimer;
-    struct CGPoint _currentLocation;
-    double _currentTimestamp;
-    double _lastMovementTimestamp;
-    unsigned long long _modifierFlags;
-    struct CGPoint _movementSinceLastAlignment;
-    struct CGPoint _cumulativeMovementSinceLastAlignment;
-    struct CGPoint _lastAlignmentDistance;
-    id <NSObject> _references[4];
-    id _reserved1;
 }
 
++ (unsigned long long)e:initWithResumeData unarchiver returned nil /* Error: Ran out of types for this method. */;
 + (unsigned long long);
-+ (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)performDefaultHandlingForAuthenticationChallenge:(id)arg1;
+- (void)netServiceDidResolveAddress:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)Protocol did not receive HTTP response;
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)t<OS_nw_data_transfer_report>"8;
+- (void)kNetworkProxyAuthorizationElementsKeyClientProcessName;
+- (void)establishmentReport;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,7 +35,7 @@
 - (double);
 - (struct CGPoint);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);

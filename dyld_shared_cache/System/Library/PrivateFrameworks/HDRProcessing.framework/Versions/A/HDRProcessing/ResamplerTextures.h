@@ -9,11 +9,6 @@
 @interface ResamplerTextures
 {
     id <MTLTexture> _inputTexture;
-    id <MTLTexture> _inputTexureUV;
-    id <MTLTexture> _tempTextureY;
-    id <MTLTexture> _tempTextureUV;
-    id <MTLTexture> _outputTextureY;
-    id <MTLTexture> _outputTextureUV;
 }
 
 - (id);
@@ -26,17 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)ng_view gdc:(id)arg1:typeName() [T = md::ls::TextureHandleForType<DaVinci::Gradient2Texture>] /* Error: Ran out of types for this method. */;
+- (id)InstanceTransform;
 - (void);
 
 // Remaining properties
 @property(retain) id <MTLTexture> inputTexture; // @synthesize inputTexture=_inputTexture;
-@property(retain) id <MTLTexture> inputTexureUV; // @synthesize inputTexureUV=_inputTexureUV;
-@property(retain) id <MTLTexture> outputTextureUV; // @synthesize outputTextureUV=_outputTextureUV;
-@property(retain) id <MTLTexture> outputTextureY; // @synthesize outputTextureY=_outputTextureY;
-@property(retain) id <MTLTexture> tempTextureUV; // @synthesize tempTextureUV=_tempTextureUV;
-@property(retain) id <MTLTexture> tempTextureY; // @synthesize tempTextureY=_tempTextureY;
 
 @end
 

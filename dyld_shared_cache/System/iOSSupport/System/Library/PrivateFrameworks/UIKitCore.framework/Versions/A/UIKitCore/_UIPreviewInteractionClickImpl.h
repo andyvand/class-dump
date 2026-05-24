@@ -4,70 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIDragInteraction, UIPreviewInteraction, UIView, _UIClickInteraction, _UIPreviewInteractionHighlighter, _UIPreviewInteractionPresentationAssistant, _UIRelationshipGestureRecognizer;
-@protocol UIInteractionEffect, UIPreviewInteractionDelegate, UIPreviewInteractionDelegatePrivate, _UIPreviewInteractionTouchForceProviding;
+@protocol UIPreviewInteractionDelegatePrivate;
 
 __attribute__((visibility("hidden")))
 @interface _UIPreviewInteractionClickImpl
 {
     unsigned long long _currentState;
-    struct {
-        _Bool shouldBegin;
-        _Bool didUpdateCommitTransition;
-        _Bool highlighterForPreviewTransition;
-        _Bool viewControllerPresentationForPresentingViewController;
-        _Bool shouldFinishTransitionToPreview;
-        _Bool targetedPreviewForPreviewingAtLocation;
-        _Bool overrideViewForCommitPhase;
-    } _delegateImplements;
-    id <UIPreviewInteractionDelegate> _delegate;
-    id <UIPreviewInteractionDelegatePrivate> _privateDelegate;
-    UIView *_view;
-    id <_UIPreviewInteractionTouchForceProviding> _touchForceProvider;
-    UIPreviewInteraction *_previewInteraction;
-    id <UIInteractionEffect> _interactionEffect;
-    _UIClickInteraction *_previewClickInteraction;
-    _UIClickInteraction *_commitClickInteraction;
-    _UIRelationshipGestureRecognizer *_exclusionRelationshipGestureRecognizer;
-    _UIPreviewInteractionPresentationAssistant *_presentationAssistant;
-    _UIPreviewInteractionHighlighter *_highlighter;
-    UIDragInteraction *_associatedDragInteraction;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)v24@0:(id)arg1 8@"IMNetworkMonitor"16;
+- (id)loadUncachedAttachmentCountForIDs:style:onServices:chatID:queryID: /* Error: Ran out of types for this method. */;
+- (_Bool)lastFailedMessageDateChanged:(id)arg1;
+- (void);
+- (void)lastDownloadProgress;
+- (void)lastAddressedSIMID;
+- (void)_crossServiceDeduplicationMechanism;
+- (void)_createWrapperForTransfer: /* Error: Ran out of types for this method. */;
+- (void)NSString",C,D,N;
+- (_Bool)};
+- (unsigned long long);
+- (id)ositive for message:%s /* Error: Ran out of types for this method. */;
+- (void)receipt for read receipt for %s, context not cached;
+- (void)%@;
+- (void)te updates T1 operation %@;
 - (id);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (_Bool)te;
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (struct CGPoint);
+- (struct CGPoint)h	;
 - (id);
 - (unsigned long long);
 - (id);
@@ -78,42 +56,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)0@ù
 × ;
-- (void)oothness: /* Error: Ran out of types for this method. */;
-- (_Bool)uchDown:touchUp:touchDuration:inputSource:inputType:uiInterfaceOrientation: /* Error: Ran out of types for this method. */;
-- (id)edCornersForSystemBackgroundView;
-- (unsigned long long)veOperation:changeCount: /* Error: Ran out of types for this method. */;
-- (_Bool)estureNeedsUpdate:(id)arg1;
+- (void)setSmoothness: /* Error: Ran out of types for this method. */;
+- (_Bool)didKeyboardDockItemButtonPress:buttonType:buttonSize:touchDown:touchUp:touchDuration:inputSource:inputType:uiInterfaceOrientation: /* Error: Ran out of types for this method. */;
+- (id)_maskedCornersForSystemBackgroundView;
+- (unsigned long long)_finishSavingToURL:forSaveOperation:changeCount: /* Error: Ran out of types for this method. */;
+- (_Bool)_clearGestureNeedsUpdate:(id)arg1;
 - (id)rmedInitialLayout;
 - (void)to load scene session internal user info:(id)arg1 %{public}@; scene session:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)s;
-- (id)iveDetent;
+- (void)overrideBackgroundProperties;
+- (id)_offsetForCurrentActiveDetent;
 - (void))-;
 - (void)R0Æ.;
 - (id)0/\;
 
 // Remaining properties
-@property(nonatomic) __weak UIDragInteraction *associatedDragInteraction; // @synthesize associatedDragInteraction=_associatedDragInteraction;
-@property(retain, nonatomic) _UIClickInteraction *commitClickInteraction; // @synthesize commitClickInteraction=_commitClickInteraction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIPreviewInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) _UIRelationshipGestureRecognizer *exclusionRelationshipGestureRecognizer; // @synthesize exclusionRelationshipGestureRecognizer=_exclusionRelationshipGestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIPreviewInteractionHighlighter *highlighter; // @synthesize highlighter=_highlighter;
-@property(retain, nonatomic) id <UIInteractionEffect> interactionEffect; // @synthesize interactionEffect=_interactionEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UIInteractionEffect>",?,&,N,V_interactionEffect
-
-@property(retain, nonatomic) _UIPreviewInteractionPresentationAssistant *presentationAssistant; // @synthesize presentationAssistant=_presentationAssistant;
-@property(retain, nonatomic) _UIClickInteraction *previewClickInteraction; // @synthesize previewClickInteraction=_previewClickInteraction;
-@property(nonatomic) __weak UIPreviewInteraction *previewInteraction; // @synthesize previewInteraction=_previewInteraction;
 @property(readonly, nonatomic) __weak id <UIPreviewInteractionDelegatePrivate> privateDelegate; // @synthesize privateDelegate=_privateDelegate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <_UIPreviewInteractionTouchForceProviding> touchForceProvider; // @synthesize touchForceProvider=_touchForceProvider;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

@@ -6,21 +6,15 @@
 
 #import <IconServices/ISAssetCatalogResource.h>
 
-@class ISCompositingDescriptor, ISGenerationReport, NSMutableDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ISIconStackAssetCatalogResource : ISAssetCatalogResource
 {
     _Bool _usesExternalCompositor;
-    ISCompositingDescriptor *compositingDescriptor;
-    ISGenerationReport *generationReport;
-    unsigned long long _languageDirection;
-    NSMutableDictionary *_finalizedIcons;
 }
 
 - (_Bool);
-- (void);
-- (void);
+- (void)__objc_intobj;
+- (void)__const;
 - (id);
 - (id);
 - (id);
@@ -34,21 +28,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)T;
 
 // Remaining properties
-@property(copy) ISCompositingDescriptor *compositingDescriptor; // @synthesize compositingDescriptor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSMutableDictionary *finalizedIcons; // @synthesize finalizedIcons=_finalizedIcons;
-@property(retain) ISGenerationReport *generationReport; // @synthesize generationReport;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long languageDirection; // @synthesize languageDirection=_languageDirection;
-@property(readonly) unsigned long long platform;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool usesExternalCompositor; // @synthesize usesExternalCompositor=_usesExternalCompositor;
 
 @end

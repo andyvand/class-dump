@@ -7,12 +7,13 @@
 @class NSArray, _INPBCondition, _INPBContact;
 
 @protocol _INPBContactList
-- (void)nsCollectionForStopShareETA:(_INPBContact *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
++ (Class)_alignmentRectInsetsOverride;
+- (unsigned long long);
+- (_INPBCondition *)e;
+- (NSArray *);
+- (void)provideRecipientsOptionsCollectionForStopShareETA:(_INPBContact *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *condition;
-@property(copy, nonatomic) NSArray *contacts;
-@property(readonly, nonatomic) unsigned long long contactsCount;
-@property(readonly, nonatomic) _Bool hasCondition;
 @end
 

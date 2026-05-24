@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, NSView, NSWindow, WBSCreditCardData;
+@class NSURL, NSWindow, WBSCreditCardData;
 
 @protocol FormCompletionPresentationContext
+- (WBSCreditCardData *);
+- (NSWindow *);
 - (NSURL *)A!Ä@ù1¢ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSView *browserView;
-@property(readonly, nonatomic) struct Frame frame;
-@property(readonly, nonatomic) WBSCreditCardData *lastFilledCreditCard;
-@property(readonly, nonatomic) _Bool shouldSavePasswordsToCloudKeychain;
-@property(readonly, nonatomic) _Bool shouldSaveUsernamesAndPasswords;
 @property(readonly, nonatomic) NSURL *url;
-@property(readonly, nonatomic) __weak NSWindow *window;
 @end
 

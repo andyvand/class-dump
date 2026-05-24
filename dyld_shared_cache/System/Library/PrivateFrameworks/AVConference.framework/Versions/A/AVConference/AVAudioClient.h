@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioDevice, AVAudioDeviceList, AVConferenceXPCClient, NSCondition, NSObject;
-@protocol OS_dispatch_queue;
+@class AVAudioDeviceList;
 
 @interface AVAudioClient
 {
     AVAudioDeviceList *deviceList;
-    unsigned int _connectionAttempts;
-    CDUnknownBlockType _mutedTalkerNotificationHandler;
-    CDUnknownBlockType _muteStateChangedHandler;
-    NSObject<OS_dispatch_queue> *_clientAudioSessionQueue;
-    CDUnknownBlockType _secureMicrophoneEngagedHandler;
-    _Bool _audioSessionIsActive;
-    _Bool _audioSessionIsStarted;
-    NSCondition *_audioSessionRefCondVar;
-    AVConferenceXPCClient *_xpcConnection;
-    _Bool _mixingVoiceWithMediaEnabled;
-    _Bool _followSystemInputEnabled;
-    _Bool _followSystemOutputEnabled;
-    int _processId;
 }
 
 + (void);
@@ -33,11 +19,11 @@
 + (void);
 + (int);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (int);
 + (_Bool);
 + (void);
-+ (void);
++ (void)images/border_full.pngPK;
 + (void);
 + (void);
 + (_Bool);
@@ -47,9 +33,9 @@
 + (id);
 + (id);
 + (id);
-+ (id)reClient;
++ (id)SystemAudioCaptureClient;
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -66,7 +52,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -76,12 +62,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)	
+ !"#$%&';
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)a;
 - (void);
 - (id);
 - (id);
@@ -95,12 +82,7 @@
 - (id)eam [%s] %s:%d %@(%p) destination=%@, callID=%@, error=%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) CDUnknownBlockType changeListener;
-@property(readonly, nonatomic) AVAudioDevice *currentInputDevice;
-@property(readonly, nonatomic) AVAudioDevice *currentOutputDevice;
 @property(retain, nonatomic) AVAudioDeviceList *deviceList; // @synthesize deviceList;
-@property(nonatomic, getter=isMicrophoneMuted) _Bool microphoneMuted;
-@property(nonatomic, getter=isMixingVoiceWithMediaEnabled) _Bool mixingVoiceWithMediaEnabled;
 
 @end
 

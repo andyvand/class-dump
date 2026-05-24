@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (RTNavigationManagerExtension)
-- (_Bool);
-- (id);
+- (_Bool)lk;
+- (id)ed out.;
 - (_Bool);
 @end
 

@@ -4,91 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMDocument, NSDictionary, NSLayoutConstraint, NSString;
+@class NSString;
 
 @interface IPKeyboardLayoutWebView
 {
     unsigned char _physicalKeyboardHardwareID;
-    _Bool _isKeyboardLayoutDocumentTrackpadHandwriting;
-    unsigned int _modifiedKeyState;
-    NSString *_keyboardLayoutIdentifier;
-    NSString *_inputSourceID;
-    NSString *_inputSourceLanguageCode;
-    NSString *_localizedInputSourceName;
-    NSString *_HTMLFilename;
-    id _eventMonitor;
-    struct UCKeyboardLayout *_keyboardLayout;
-    DOMDocument *_keyboardLayoutDocument;
-    NSLayoutConstraint *_heightConstraint;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned char);
-- (unsigned int);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned char);
-- (unsigned char);
-- (void);
-- (void);
-- (id);
++ (id)clearCoat;
++ (id)captureOutput:didOutputSampleBuffer:fromConnection: /* Error: Ran out of types for this method. */;
+- (id)copyTextureByConvertingToCubeMapIfApplicable:engineContext:needsMipmap: /* Error: Ran out of types for this method. */;
+- (void)nationLevel:destinationOrigin: /* Error: Ran out of types for this method. */;
+- (void)exture:(unsigned long long)arg1 destinationSlice:destinationLevel:destinationOrigin: /* Error: Ran out of types for this method. */;
+- (void)convertSparseTileRegions:toPixelRegions:withTileSize:numRegions: /* Error: Ran out of types for this method. */;
+- (void)contentsOfDirectoryAtPath:(unsigned char)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)contactTestWithBody:(unsigned int)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)consumeExtensions:(id)arg1;
+- (void)computePipelineStateForKernel:(id)arg1 threadGroupSizeIsMultipleOfThreadExecutionWidth: /* Error: Ran out of types for this method. */;
+- (void)computePipelineStateForKernel:(id)arg1 constants:constantsHash: /* Error: Ran out of types for this method. */;
+- (void)computeEvaluatorWithContext:(_Bool)arg1 srcDesc:dstDesc:duDesc:dvDesc: /* Error: Ran out of types for this method. */;
+- (void)computeAutomaticTargetPoint;
+- (void)componentsSeparatedByString:(id)arg1;
+- (unsigned char)clearCache;
+- (unsigned int)centerOfMassOffset;
+- (id)canImportFileUTI: /* Error: Ran out of types for this method. */;
+- (void)cameraWithMDLCamera: /* Error: Ran out of types for this method. */;
+- (id)bufferForCommonProfileArgumentNamed: /* Error: Ran out of types for this method. */;
+- (_Bool)boxWithWidth:height:length:chamferRadius: /* Error: Ran out of types for this method. */;
+- (id)boneIndices;
+- (id)bloomIterationSpread;
+- (_Bool)avoidsOverLighting;
+- (unsigned char)autoAdjustCamera;
+- (unsigned char)assetCatalogWithURL:(unsigned char)arg1;
+- (void)addPresentedHandler: /* Error: Ran out of types for this method. */;
+- (void)addItems:toScene: /* Error: Ran out of types for this method. */;
+- (id)adaptativeFrameRate;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned char);
+- (void);
+- (void)7Z;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
 - (struct UCKeyboardLayout *);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy) NSString *HTMLFilename; // @synthesize HTMLFilename=_HTMLFilename;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) id eventMonitor; // @synthesize eventMonitor=_eventMonitor;
-@property(readonly) unsigned long long hash;
-@property __weak NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property(readonly) NSDictionary *inputModeKeyboardLayoutMappingTable;
 @property(copy) NSString *inputSourceID; // @synthesize inputSourceID=_inputSourceID;
-@property(copy) NSString *inputSourceLanguageCode; // @synthesize inputSourceLanguageCode=_inputSourceLanguageCode;
-@property _Bool isKeyboardLayoutDocumentTrackpadHandwriting; // @synthesize isKeyboardLayoutDocumentTrackpadHandwriting=_isKeyboardLayoutDocumentTrackpadHandwriting;
-@property struct UCKeyboardLayout *keyboardLayout; // @synthesize keyboardLayout=_keyboardLayout;
-@property(retain) DOMDocument *keyboardLayoutDocument; // @synthesize keyboardLayoutDocument=_keyboardLayoutDocument;
-@property(copy) NSString *keyboardLayoutIdentifier; // @synthesize keyboardLayoutIdentifier=_keyboardLayoutIdentifier;
-@property(copy) NSString *localizedInputSourceName; // @synthesize localizedInputSourceName=_localizedInputSourceName;
-@property(nonatomic) unsigned int modifiedKeyState; // @synthesize modifiedKeyState=_modifiedKeyState;
-@property(nonatomic) unsigned char physicalKeyboardHardwareID; // @synthesize physicalKeyboardHardwareID=_physicalKeyboardHardwareID;
-@property(readonly) Class superclass;
-@property(readonly) NSDictionary *wubihuaWorkaroundMappingTable;
 
 @end
 

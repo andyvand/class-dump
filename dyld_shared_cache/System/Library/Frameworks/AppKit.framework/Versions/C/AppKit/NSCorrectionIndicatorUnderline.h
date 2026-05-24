@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCorrectionIndicatorUnderlineView, NSTimer, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSCorrectionIndicatorUnderline
 {
     NSView *_hostView;
-    struct CGRect _boundingBoxInHostView;
-    NSCorrectionIndicatorUnderlineView *_underlineView;
-    NSTimer *_fadeTimer;
-    struct _NSRange _range;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (void);
++ (id)websocketCloseWithCodeAndReason;
++ (id)content_context>"16B24@"NSObject<OS_nw_error>"28;
++ (id)"NSObject<OS_dispatch_data>"8@"NSObject<OS_nw_content_context>"16B24@"NSObject<OS_nw_error>"28;
+- (void)invalid port;
 - (struct CGRect);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);

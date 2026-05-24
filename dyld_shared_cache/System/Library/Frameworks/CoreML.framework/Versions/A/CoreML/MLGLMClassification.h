@@ -6,17 +6,9 @@
 
 #import <CoreML/MLClassifier.h>
 
-@class NSMutableArray, NSString;
-
 @interface MLGLMClassification : MLClassifier
 {
     struct vector<double, std::allocator<double>> intercept;
-    struct vector<std::vector<double>, std::allocator<std::vector<double>>> weights;
-    NSMutableArray *classLabels;
-    long long classType;
-    int postEvalTransForm;
-    int classEncoding;
-    struct shared_ptr<CoreML::Specification::Model> m_spec;
 }
 
 + (id);
@@ -29,13 +21,7 @@
 - (id)·kÜ·yÜ¯Ü¯ÉÜ¯´Ü¯#Ü·?Ü·JÜ·dÜ·EÜ¿GÜ¿åÜ¿ Ü¿YÜWÜWÜW}ÜWØÜ/4Ü/Ü/»Ü/+ÜWÜW*ÜWÜWàÜ_hÜ_Ü_bÜ_QÜ7Ü7ÁÜ7Ü7ÃÜ/oÜ/Ü/ÑÜ/Ü7DÜ7ôÜ7µÜ7ÒÜ?Ü?]Ü?-Ü?þÜ¤Ü«Ü¡ÜÿÜ/òÜ/Ü/Ü/±ÜÅÜBÜÜçÜ¿ÜXÜÜ¹Ü7ÇÜ7,Ü7KÜ7@Ü/NÜ/÷Ü/Ü/ÐÜ7æÜ7ÈÜ7TÜ7ÚÜ?'Ü?FÜ?Ü?ÜWÜWîÜW!ÜWAÜ¯Ü¯;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

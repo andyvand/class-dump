@@ -13,7 +13,7 @@
     NSDateComponents *_EndDate;
 }
 
-+ (id);
++ (id)HySbGGG;
 - (id);
 - (void);
 - (void);

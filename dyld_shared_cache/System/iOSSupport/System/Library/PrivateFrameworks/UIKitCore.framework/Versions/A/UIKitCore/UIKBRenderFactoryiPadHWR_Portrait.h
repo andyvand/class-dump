@@ -12,18 +12,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (struct CGPoint);
 - (double);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (double);
-- (struct CGPoint);
-- (double);
-- (double);
-- (double);
+- (id)evel props %@;
+- (double)c}s File transfer guid %@ does not exist or is not cached, retrieving;
+- (struct CGPoint)location;
+- (double)co;
+- (double)FailCreateCKRecordForMessage;
+- (double)SWCollaborationNoticeTransmissionMessage;
 - (double);
 - (double);
 - (id);
@@ -32,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (_Bool);
 - (double);
-- (double);
+- (double);
 - (id);
 - (long long)ûsþ;
 

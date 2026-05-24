@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol UITabBarControllerDelegate
+
+@optional
+- (void);
+- (long long);
+- (NSArray *);
+- (unsigned long long);
 @end
 

@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOGenericStringData
 {
     PBUnknownFields *_unknownFields;
-    NSString *_tokenSubstitute;
-    int _privacyFilterType;
-    int _stringSubstituteType;
-    struct {
-        unsigned int has_privacyFilterType:1;
-        unsigned int has_stringSubstituteType:1;
-    } _flags;
 }
 
-+ (_Bool)ed:(id)arg1;
++ (_Bool)setHasResumed:(id)arg1;
 - (id);
 - (int);
 - (void);
@@ -28,37 +21,31 @@
 - (void);
 - (id);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)NSMutableIndexSet";
+- (_Bool)CachedURLResponse">40;
+- (_Bool)stringByAddingPercentEncodingWithAllowedCharacters: /* Error: Ran out of types for this method. */;
+- (id)Indonesia;
 - (int);
 - (int);
-- (void);
+- (void)));
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Manager";
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)Id:(struct _NSZone *)arg1;
-- (id)aypointDisplayInfo;
+- (id)setImageId:(struct _NSZone *)arg1;
+- (id)GEOComposedWaypointDisplayInfo;
 - (id)ter.;
 - (id)¤;
 - (void)²E4N·4;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPrivacyFilterType;
-@property(nonatomic) _Bool hasStringSubstituteType;
 @property(readonly, nonatomic) _Bool hasTokenSubstitute;
-@property(nonatomic) int privacyFilterType;
-@property(nonatomic) int stringSubstituteType;
-@property(retain, nonatomic) NSString *tokenSubstitute;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

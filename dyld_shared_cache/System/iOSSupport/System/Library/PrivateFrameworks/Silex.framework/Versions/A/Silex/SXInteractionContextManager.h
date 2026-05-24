@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, SXViewport, UITargetedPreview;
-@protocol SXInteractionContextManagerDelegate, SXInteractionContextProviding;
+@class SXViewport;
+@protocol SXInteractionContextManagerDelegate;
 
 @interface SXInteractionContextManager
 {
     id <SXInteractionContextManagerDelegate> delegate;
-    SXViewport *_viewport;
-    NSMutableArray *_providers;
-    id <SXInteractionContextProviding> _activeProvider;
-    UITargetedPreview *_activePreview;
 }
 
 - (void);
@@ -25,11 +21,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -37,20 +33,9 @@
 - (void)Condition"16@0:8 /* Error: Ran out of types for this method. */;
 - (void),R,N,V_aboveRepsHost;
 - (id)ayers;
-- (id)mponentStyleFactory;
+- (id)SXDataTableComponentStyleFactory;
 
 // Remaining properties
-@property(retain, nonatomic) UITargetedPreview *activePreview; // @synthesize activePreview=_activePreview;
-@property(retain, nonatomic) id <SXInteractionContextProviding> activeProvider; // @synthesize activeProvider=_activeProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SXInteractionContextManagerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *providers; // @synthesize providers=_providers;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end

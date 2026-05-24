@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface AFDisambiguationInfo
 {
     long long _version;
-    NSArray *_history;
 }
 
 + (_Bool);
@@ -22,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *history; // @synthesize history=_history;
 @property(readonly, nonatomic) long long version; // @synthesize version=_version;
 
 @end

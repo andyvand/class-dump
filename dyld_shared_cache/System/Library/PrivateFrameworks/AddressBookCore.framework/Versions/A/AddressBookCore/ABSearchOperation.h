@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, NSArray, NSString, PHXSource;
-@protocol ABCNDirectoryResultBuilder, ABSearchOperationDelegate;
+@class PHXSource;
+@protocol ABCNDirectoryResultBuilder;
 
 @interface ABSearchOperation
 {
     PHXSource *_source;
-    NSArray *_terms;
-    NSString *_originalTerm;
-    ABAddressBook *_addressBook;
-    id <ABSearchOperationDelegate> _delegate;
-    CDUnknownBlockType _completionHandler;
-    int _phase;
-    _Bool _shouldSearchLocal;
-    _Bool _shouldSearchServer;
-    _Bool _shouldReturnDistributionLists;
-    _Bool _shouldReturnFullContactData;
-    int _resultType;
-    NSArray *_prefixFields;
-    id <ABCNDirectoryResultBuilder> _resultBuilderPrototype;
 }
 
 + (_Bool);
@@ -48,36 +35,23 @@
 - (void);
 - (int);
 - (id);
+- (void)@;
+- (id);
+- (id);
+- (void);
+- (CDUnknownBlockType)too few, server sent %ld;
+- (void)kCBScanOptionScanWindow;
+- (void);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (int);
+- (int)c;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ABAddressBook *addressBook; // @synthesize addressBook=_addressBook;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) id <ABSearchOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSString *originalTerm; // @synthesize originalTerm=_originalTerm;
-@property(nonatomic) int phase; // @synthesize phase=_phase;
-@property(retain, nonatomic) NSArray *prefixFields; // @synthesize prefixFields=_prefixFields;
 @property(retain) id <ABCNDirectoryResultBuilder> resultBuilderPrototype; // @synthesize resultBuilderPrototype=_resultBuilderPrototype;
-@property(nonatomic) int resultType; // @synthesize resultType=_resultType;
-@property(nonatomic) _Bool shouldReturnDistributionLists; // @synthesize shouldReturnDistributionLists=_shouldReturnDistributionLists;
-@property(nonatomic) _Bool shouldReturnFullContactData; // @synthesize shouldReturnFullContactData=_shouldReturnFullContactData;
-@property(nonatomic) _Bool shouldSearchLocal; // @synthesize shouldSearchLocal=_shouldSearchLocal;
-@property(nonatomic) _Bool shouldSearchServer; // @synthesize shouldSearchServer=_shouldSearchServer;
-@property(retain, nonatomic) PHXSource *source; // @synthesize source=_source;
-@property(copy, nonatomic) NSArray *terms; // @synthesize terms=_terms;
 
 @end
 

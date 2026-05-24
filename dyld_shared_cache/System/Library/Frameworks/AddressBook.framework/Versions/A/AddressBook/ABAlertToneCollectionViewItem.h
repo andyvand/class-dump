@@ -6,7 +6,7 @@
 
 #import <AddressBook/ABCollectionViewItem.h>
 
-@class NSString, TKTonePickerViewController;
+@class TKTonePickerViewController;
 
 @interface ABAlertToneCollectionViewItem : ABCollectionViewItem
 {
@@ -23,20 +23,13 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)9;
 - (id);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) TKTonePickerViewController *tonePickerViewController; // @synthesize tonePickerViewController=_tonePickerViewController;
 
 @end

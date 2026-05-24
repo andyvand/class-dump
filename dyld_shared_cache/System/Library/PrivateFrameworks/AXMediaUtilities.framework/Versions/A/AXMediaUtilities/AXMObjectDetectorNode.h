@@ -13,15 +13,15 @@
     VNRecognizeObjectsRequest *_recognizeObjectsRequest;
 }
 
-+ (id);
-+ (_Bool);
++ (id)[|;
++ (_Bool)setFamilyName: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)4˟;
 
 @end
 

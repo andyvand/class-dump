@@ -6,20 +6,19 @@
 
 #import <EventKit/EKiMIPHandler.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface EKiMIPCancel : EKiMIPHandler
 {
     NSArray *_attendees;
-    NSData *_attachmentData;
 }
 
-+ (_Bool);
++ (_Bool)blic}@) destination=%{public}@, session=%{public}@;
 - (id);
-- (int);
+- (int)(;
 - (id);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);

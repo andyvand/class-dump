@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double);
-- (void);
-- (long long);
+- (double)HasSpringBoard;
+- (void)CompassCalibrationDictionary;
+- (long long)4 NANDSize(void);
+- (id)+JBmvASakDdObg;
 - (id);
-- (id);
-- (id);
+- (id)re both nullptr; Error:(double)arg1 %p [%ld:%d] /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 @end

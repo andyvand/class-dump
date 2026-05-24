@@ -6,8 +6,6 @@
 
 #import <PhotosGraph/PGAssetFeatureExtractor.h>
 
-@class NSArray, NSString;
-
 @interface PGFeatureExtractorCircularDatetime : PGAssetFeatureExtractor
 {
 }
@@ -15,14 +13,12 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)contents;
 - (id)	
 ;
 
 // Remaining properties
 @property(nonatomic, readonly) long long featureLength;
-@property(nonatomic, readonly) NSArray *featureNames;
-@property(nonatomic, readonly) NSString *name;
 
 @end
 

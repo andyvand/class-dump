@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata;
-
 @interface CKSearchActivityItemProvider
 {
     id _payload;
-    LPLinkMetadata *_metadata;
 }
 
 - (id);
@@ -19,12 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (void)tKit28CKTapbackBackdropCaptureView;
+- (void)_TtC7ChatKit28CKTapbackBackdropCaptureView;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
 @property(retain, nonatomic) id payload; // @synthesize payload=_payload;
 
 @end

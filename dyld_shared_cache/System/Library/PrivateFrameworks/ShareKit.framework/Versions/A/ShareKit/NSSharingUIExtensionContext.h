@@ -6,14 +6,12 @@
 
 #import <ShareKit/NSSharingExtensionContext.h>
 
-@class NSViewController, SHKServiceCompletionInfo, SHKSharingViewService;
+@class NSViewController, SHKSharingViewService;
 @protocol NSSharingPlugInViewControllerProtocol;
 
 @interface NSSharingUIExtensionContext : NSSharingExtensionContext
 {
     NSViewController<NSSharingPlugInViewControllerProtocol> *_viewController;
-    SHKServiceCompletionInfo *_completionInfo;
-    SHKSharingViewService *_viewService;
 }
 
 + (_Bool);
@@ -37,21 +35,19 @@
 - (void);
 - (void);
 - (_Bool);
+- (id)unregisterForAKSEventsNotifications: /* Error: Ran out of types for this method. */;
+- (void)quisitionCompletionAttributeClass(void)_block_invoke;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)NMHContactPickerHelperDelegate>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) SHKServiceCompletionInfo *completionInfo; // @synthesize completionInfo=_completionInfo;
-@property __weak NSViewController<NSSharingPlugInViewControllerProtocol> *viewController; // @synthesize viewController=_viewController;
 @property __weak SHKSharingViewService *viewService; // @synthesize viewService=_viewService;
 
 @end

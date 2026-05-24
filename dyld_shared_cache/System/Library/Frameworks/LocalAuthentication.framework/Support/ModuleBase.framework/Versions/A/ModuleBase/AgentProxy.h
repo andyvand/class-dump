@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 @interface AgentProxy
 {
     _Bool _hasDisabledFUS;
-    _Bool _daemonProxy;
-    unsigned int _uid;
-    int _pid;
-    NSMapTable *_contextsByUuid;
-    NSMapTable *_contextsByHash;
 }
 
 + (id);
@@ -24,34 +17,29 @@
 + (id);
 + (id);
 - (id);
+- (id)i^;
+- (_Bool);
+- (id);
+- (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void)C;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)_a;
+- (_Bool)L;
 - (int);
 - (id);
-- (unsigned int);
+- (unsigned int)J!;
 - (id);
-- (id);
+- (id)[3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}24^{?=IIIIIIIIIIIIIfIIIII[9f][9f]IfIIfiBiIBB}32;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *contextsByHash; // @synthesize contextsByHash=_contextsByHash;
-@property(readonly, nonatomic) NSMapTable *contextsByUuid; // @synthesize contextsByUuid=_contextsByUuid;
 @property(readonly, nonatomic) _Bool daemonProxy; // @synthesize daemonProxy=_daemonProxy;
-@property(readonly, nonatomic) _Bool hasDisabledFUS; // @synthesize hasDisabledFUS=_hasDisabledFUS;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) unsigned int uid; // @synthesize uid=_uid;
 
 @end
 

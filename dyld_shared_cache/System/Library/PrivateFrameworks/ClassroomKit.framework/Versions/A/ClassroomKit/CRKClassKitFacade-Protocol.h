@@ -5,6 +5,9 @@
 //
 
 @protocol CRKClassKitFacade
+- (void);
+- (void)P;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long accountState;

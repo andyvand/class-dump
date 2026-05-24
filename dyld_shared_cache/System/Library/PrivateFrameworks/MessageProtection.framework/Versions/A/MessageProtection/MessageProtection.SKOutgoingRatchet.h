@@ -7,14 +7,11 @@
 @interface MessageProtection.SKOutgoingRatchet
 {
     id ratchet;
-    id signingKey;
-    id currentSubscriptionKey;
-    id currentMessageKey;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);

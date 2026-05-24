@@ -5,5 +5,9 @@
 //
 
 @protocol NSKeyedArchiverDelegate
+
+@optional
+- (void)9;
+- (id)@;
 @end
 

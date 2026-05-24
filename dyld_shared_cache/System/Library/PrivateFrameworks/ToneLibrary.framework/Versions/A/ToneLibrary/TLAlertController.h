@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSString, TLAlertQueuePlayerController, TLAlertSystemSoundController;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TLAlertController
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSString *_accessQueueLabel;
-    TLAlertQueuePlayerController *_queuePlayerController;
-    TLAlertSystemSoundController *_systemSoundController;
-    NSMapTable *_alertContexts;
 }
 
 + (_Bool);
 + (long long);
-+ (long long);
-+ (id);
++ (long long)Keychain:(long long)arg1;
++ (id)˔;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)4@0:8^{potrace_path_s=ii{potrace_curve_s=i^i^[3{potrace_dpoint_s}]}^{potrace_path_s}^{potrace_path_s}^{potrace_path_s}^{potrace_privpath_s}}16 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (_Bool);
@@ -42,13 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

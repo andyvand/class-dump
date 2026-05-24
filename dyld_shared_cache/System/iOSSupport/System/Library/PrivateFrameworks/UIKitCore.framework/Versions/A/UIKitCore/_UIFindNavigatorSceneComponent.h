@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene, _UIFindNavigatorResponder, _UIFindNavigatorViewController;
+@class UIScene, _UIFindNavigatorResponder;
 
 __attribute__((visibility("hidden")))
 @interface _UIFindNavigatorSceneComponent
 {
     UIScene *_scene;
-    _UIFindNavigatorResponder *_findNavigatorResponder;
-    _UIFindNavigatorViewController *_findNavigatorViewController;
 }
 
 + (id)Ô ;
 - (void);
+- (void)sendReadReceiptForMessageGUID:(id)arg1 timeRead:(_Bool)arg2 reflectOnly:(long long)arg3;
+- (void)_sendingDecisionForMessageItem:(id)arg1 callerID:lastAddressedLocalHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
+- (void)_senderURIWithItem:(id)arg1 chat: /* Error: Ran out of types for this method. */;
+- (id)_senderRegistrationProperties;
+- (_Bool)_senderCorrelationIdentifier;
+- (id)_sendZippedFileAtPath:withCommand: /* Error: Ran out of types for this method. */;
+- (void)_handleModifyRecordsOperation:(_Bool)arg1;
 - (void);
+- (_Bool)ished processing translation, type:%d /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)_fileAssetInfoList;
 - (_Bool);
 - (void)
 × ;
@@ -38,17 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)¸Ü_;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _UIFindNavigatorResponder *findNavigatorResponder; // @synthesize findNavigatorResponder=_findNavigatorResponder;
-@property(retain, nonatomic) _UIFindNavigatorViewController *findNavigatorViewController; // @synthesize findNavigatorViewController=_findNavigatorViewController;
-@property(readonly, nonatomic, getter=isFindNavigatorVisible) _Bool findNavigatorVisible;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

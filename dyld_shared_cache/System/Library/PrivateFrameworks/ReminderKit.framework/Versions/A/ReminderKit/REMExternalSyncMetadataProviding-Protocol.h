@@ -7,11 +7,9 @@
 @class NSString;
 
 @protocol REMExternalSyncMetadataProviding
+- (NSString *)ObservingInProgressInstallForProduct:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *daPushKey;
-@property(readonly, nonatomic) NSString *daSyncToken;
 @property(readonly, nonatomic) NSString *externalIdentifier;
-@property(readonly, nonatomic) NSString *externalModificationTag;
 @end
 

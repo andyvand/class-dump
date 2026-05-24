@@ -7,19 +7,16 @@
 @interface PXNewMagazineGrid
 {
     long long *_table;
-    unsigned long long _tableSizeInBytes;
-    long long _maxRows;
-    unsigned long long _numberOfColumns;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)n;
+- (void);
 - (unsigned long long);
 - (long long);
 - (long long);
@@ -36,8 +33,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long currentRowsUsed;
-@property(readonly, nonatomic) unsigned long long endingType;
-@property(readonly, nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
 
 @end
 

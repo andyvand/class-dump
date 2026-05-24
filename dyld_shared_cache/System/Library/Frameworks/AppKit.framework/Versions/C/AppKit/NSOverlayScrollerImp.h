@@ -10,27 +10,26 @@ __attribute__((visibility("hidden")))
 @interface NSOverlayScrollerImp : NSScrollerImp
 {
     double _expansionTransitionProgress;
-    _Bool _expanded;
 }
 
 - (double);
 - (void);
 - (long long);
 - (unsigned long long);
-- (double);
+- (double)c;
 - (_Bool);
 - (double);
 - (struct CGRect);
-- (struct __CFDictionary *);
-- (struct __CFDictionary *);
-- (struct __CFDictionary *);
-- (struct CGRect);
+- (struct __CFDictionary *)ionDataTask"24@"NSURLResponse"32@?<v@?q>40;
+- (struct __CFDictionary *):8@"NSURLSession"16@"NSURLSessionDataTask"24@"NSURLResponse"32@?<v@?q>40 /* Error: Ran out of types for this method. */;
+- (struct __CFDictionary *)RLSessionTask"24@"NSError"32;
+- (struct CGRect)p;
+- (double)AVAssetDownloadSessionMediaSelectionPrefersMultichannelKey;
 - (double);
-- (double);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void);
 - (id);
 - (void);
 - (_Bool);

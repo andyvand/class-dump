@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDThreadManager, NSArray, NSString;
+@class NSString;
 @protocol DDOperationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface DDOperation
 {
     id <DDOperationDelegate> _delegate;
-    DDThreadManager *_threadManager;
-    struct __DDScanQuery *_query;
-    NSString *_scannedTextID;
-    id _viewOrController;
-    NSArray *_results;
-    int _tag;
-    int _failuresCount;
-    long long _jobIdentifier;
 }
 
 - (id);
@@ -39,18 +31,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (void);
-- (void);
-- (void);
+- (void)dEntityStore";
+- (void)cordZoneSaveBlock;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property int failuresCount; // @synthesize failuresCount=_failuresCount;
-@property(retain) NSArray *results; // @synthesize results=_results;
 @property(copy) NSString *scannedTextID; // @synthesize scannedTextID=_scannedTextID;
-@property int tag; // @synthesize tag=_tag;
-@property __weak id viewOrController; // @synthesize viewOrController=_viewOrController;
 
 @end
 

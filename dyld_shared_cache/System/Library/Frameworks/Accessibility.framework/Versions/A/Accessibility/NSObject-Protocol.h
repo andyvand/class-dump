@@ -7,14 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (_Bool)Versions/A/Vision;
+- (oneway void)ache;
+- (NSString *)NSImageInterpolationHigh;
+- (unsigned long long)_mmHeightCard;
+- (id);
+- (_Bool)_generateClassNamesIfNecessary;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

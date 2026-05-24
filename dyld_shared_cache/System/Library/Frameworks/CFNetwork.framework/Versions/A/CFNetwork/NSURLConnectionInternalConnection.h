@@ -6,30 +6,20 @@
 
 #import <CFNetwork/NSURLConnectionInternal.h>
 
-@class NSString, NSURLAuthenticationChallenge, _NSHTTPBodyStreamWrapper;
-
 __attribute__((visibility("hidden")))
 @interface NSURLConnectionInternalConnection : NSURLConnectionInternal
 {
     int _cfConnLock;
-    struct _CFURLConnection *_cfConn;
-    struct _CFURLAuthChallenge *_currCFChallenge;
-    NSURLAuthenticationChallenge *_currNSChallenge;
-    struct __CFString *_fileName;
-    _Bool _shouldSkipCancelOnRelease;
-    _NSHTTPBodyStreamWrapper *_bodyStreamWrapper;
-    long long _totalBytes;
-    long long _expectedTotalBytes;
 }
 
+- (void)Acircumflexgrave;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)mO;
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -42,13 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

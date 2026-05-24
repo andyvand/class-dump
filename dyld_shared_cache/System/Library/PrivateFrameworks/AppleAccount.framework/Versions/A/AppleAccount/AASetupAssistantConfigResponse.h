@@ -13,46 +13,29 @@
     NSDictionary *_urls;
 }
 
+- (id)e.Twitter.set-profile-image;
+- (id)load-Facebook;
+- (id)upload-video-Flickr;
+- (id):%@ /* Error: Ran out of types for this method. */;
+- (_Bool)RemovalPassword;
+- (id)exLocalizedDescription:returning localizedDescription = %s /* Error: Ran out of types for this method. */;
+- (id)type mismatch;
+- (id)s'; bytes written = %ld; error = %ld;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)tionURL;
+- (void)secondaryAuthenticationURL;
 - (id)ä¿ó2ÕwWPúJuß¢¹V;{ìøÂÏQ¶¥5ºzb-ê/v½É`Òà4×î¾Ã"Î}²,«[È#ÝIô| E³»ÚKo$8GýÍ?&g÷'ËæmâYF9_Ùe3ð(´®éë:yèµiLÅÓåtÜdAÔ@1TÆ¸MCØ¡ñ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *aboutURL;
-@property(readonly, nonatomic) NSString *activeEmailDomain;
-@property(readonly, nonatomic) NSString *authenticateURL;
-@property(readonly, nonatomic) NSString *checkValidityURL;
-@property(readonly, nonatomic) NSString *createAppleIDURL;
-@property(readonly, nonatomic) NSString *createDelegateAccountsURL;
-@property(readonly, nonatomic) NSString *existingAppleIDTermsUIURL;
-@property(readonly, nonatomic) NSString *genericTermsURL;
-@property(readonly, nonatomic) NSString *iForgotUIURL;
-@property(readonly, nonatomic) NSString *iForgotURL;
-@property(readonly, nonatomic) NSString *loginDelegatesURL;
-@property(readonly, nonatomic) _Bool setupAssistantServerEnabled;
 @property(readonly, nonatomic) NSString *signingSessionCertURL;
-@property(readonly, nonatomic) NSString *signingSessionURL;
-@property(readonly, nonatomic) NSString *updateAppleIDURL;
-@property(readonly, nonatomic) NSString *upgradeIOSTermsUI;
-@property(readonly, nonatomic) NSString *upgradeStatusURL;
-@property(readonly, nonatomic) NSString *xmlUI;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsSubscription.MetricsProvider
 {
     id configurationManager;
-    id offerManager;
 }
 
 @end

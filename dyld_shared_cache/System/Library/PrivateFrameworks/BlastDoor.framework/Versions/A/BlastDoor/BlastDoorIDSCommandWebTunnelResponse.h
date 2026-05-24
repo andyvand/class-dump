@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorAPSUserPayloadHttpHeaders, NSData, NSString;
+@class NSString;
 
 @interface BlastDoorIDSCommandWebTunnelResponse
 {
@@ -22,8 +22,8 @@
 - (id);
 - (_Bool);
 - (long long);
-- (long long);
-- (id);
+- (long long)2;
+- (id);
 - (id);
 - (long long);
 - (long long);
@@ -33,24 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) long long command;
-@property(nonatomic, readonly) NSString *contentType;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long epochTimeNanos;
-@property(nonatomic, readonly) _Bool has_epochTimeNanos;
-@property(nonatomic, readonly) _Bool has_httpResponseStatus;
-@property(nonatomic, readonly) _Bool has_messageId;
-@property(nonatomic, readonly) _Bool has_responseStatus;
-@property(nonatomic, readonly) NSData *httpBody;
-@property(nonatomic, readonly) NSData *httpBodyKey;
-@property(nonatomic, readonly) NSString *httpBodyUrl;
-@property(nonatomic, readonly) NSString *httpErrorMsg;
-@property(nonatomic, readonly) BlastDoorAPSUserPayloadHttpHeaders *httpHeaders;
-@property(nonatomic, readonly) long long httpResponseStatus;
-@property(nonatomic, readonly) NSString *httpUrl;
-@property(nonatomic, readonly) long long messageId;
-@property(nonatomic, readonly) NSData *messageUUID;
-@property(nonatomic, readonly) long long responseStatus;
 
 @end
 

@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, PKSecureElementCertificateSet;
+@class NSString;
 
 @interface PKWrappedPayment
 {
     NSString *_transactionIdentifier;
-    NSData *_transactionData;
-    NSData *_transactionInstructionsSignature;
-    PKSecureElementCertificateSet *_certificates;
-    NSString *_merchantCountryCode;
-    NSString *_kextBlacklistVersion;
-    NSData *_enrollmentSignature;
-    NSArray *_SEPCertificates;
-    NSData *_confirmationBlobHash;
-    long long _confirmationBlobVersion;
 }
 
 + (_Bool);
 - (id);
 - (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)IL;
 - (id);
 - (long long);
 - (id);
@@ -40,23 +31,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)cltmIndexBucketeds;
 - (id)called.;
 - (void)@"NSString"8@"CNLabeledValue"16^B24;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *SEPCertificates; // @synthesize SEPCertificates=_SEPCertificates;
-@property(copy, nonatomic) PKSecureElementCertificateSet *certificates; // @synthesize certificates=_certificates;
-@property(copy, nonatomic) NSData *confirmationBlobHash; // @synthesize confirmationBlobHash=_confirmationBlobHash;
-@property(nonatomic) long long confirmationBlobVersion; // @synthesize confirmationBlobVersion=_confirmationBlobVersion;
-@property(copy, nonatomic) NSData *enrollmentSignature; // @synthesize enrollmentSignature=_enrollmentSignature;
-@property(copy, nonatomic) NSString *kextBlacklistVersion; // @synthesize kextBlacklistVersion=_kextBlacklistVersion;
-@property(copy, nonatomic) NSString *merchantCountryCode; // @synthesize merchantCountryCode=_merchantCountryCode;
-@property(copy, nonatomic) NSData *transactionData; // @synthesize transactionData=_transactionData;
 @property(copy, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
-@property(copy, nonatomic) NSData *transactionInstructionsSignature; // @synthesize transactionInstructionsSignature=_transactionInstructionsSignature;
 
 @end
 

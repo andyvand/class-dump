@@ -9,9 +9,6 @@
 @interface SXRenderedBorders
 {
     UIImage *_top;
-    UIImage *_bottom;
-    UIImage *_left;
-    UIImage *_right;
 }
 
 - (void)1ï°1Â0@ù

@@ -6,7 +6,7 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VNCreateTorsoprintRequest : VNImageBasedRequest
 {
@@ -28,16 +28,7 @@
 - (_Bool)(à;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *inputDetectedObjectObservations;
-@property(copy, nonatomic) NSArray *inputFaceObservations;
 @property(readonly, copy) NSArray *results; // @dynamic results;
-@property(readonly) Class superclass;
 
 @end
 

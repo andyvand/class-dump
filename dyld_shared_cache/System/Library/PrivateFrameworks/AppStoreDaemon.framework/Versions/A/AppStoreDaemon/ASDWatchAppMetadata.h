@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface ASDWatchAppMetadata
 {
     _Bool _userInitiated;
-    _Bool _skipIfInstalled;
-    NSString *_altDSID;
-    NSString *_appleID;
-    NSString *_bundleID;
-    NSNumber *_downloaderID;
-    NSNumber *_externalVersionID;
-    NSNumber *_itemID;
-    NSNumber *_previousExternalVersionID;
-    NSString *_previousVariantID;
-    NSNumber *_purchaserID;
-    NSString *_redownloadParams;
 }
 
 + (_Bool);
@@ -27,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -38,13 +25,13 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)!;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)_updateIntervalSpeedMultiplier;
+- (id)UnableToSplitString;
 - (id);
 - (id);
 - (long long);
@@ -54,26 +41,7 @@
 - (void)V_isBeta;
 
 // Remaining properties
-@property(copy) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy) NSString *appleID; // @synthesize appleID=_appleID;
-@property(copy) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSNumber *downloaderID; // @synthesize downloaderID=_downloaderID;
-@property(copy) NSNumber *externalVersionID; // @synthesize externalVersionID=_externalVersionID;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(readonly) long long metadataType;
-@property(copy) NSNumber *previousExternalVersionID; // @synthesize previousExternalVersionID=_previousExternalVersionID;
-@property(copy) NSString *previousVariantID; // @synthesize previousVariantID=_previousVariantID;
-@property(copy) NSNumber *purchaserID; // @synthesize purchaserID=_purchaserID;
-@property(copy) NSString *redownloadParams; // @synthesize redownloadParams=_redownloadParams;
 @property _Bool skipIfInstalled; // @synthesize skipIfInstalled=_skipIfInstalled;
-@property(readonly) Class superclass;
-@property(getter=isUserInitiated) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end
 

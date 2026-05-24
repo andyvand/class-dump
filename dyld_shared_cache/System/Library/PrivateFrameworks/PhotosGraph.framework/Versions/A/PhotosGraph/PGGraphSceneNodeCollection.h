@@ -6,22 +6,22 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSSet, NSString, PGGraphFeatureNodeCollection, PGGraphMomentNodeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGGraphSceneNodeCollection : PGGraphNodeCollection
 {
 }
 
-+ (id);
-+ (id);
++ (id)ystem setting alone for reason %li;
++ (id)dialog for reason %li;
 + (id);
 + (Class);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)contentTitle;
+- (id)commandWithStandardCommandIdentifier: /* Error: Ran out of types for this method. */;
+- (id)colorWithCGColor: /* Error: Ran out of types for this method. */;
+- (id)_overrides;
+- (id);
 - (void);
 - (void);
 - (id);
@@ -29,22 +29,7 @@
 - (id)ßÿÿ¬ßÿÿdú¤ÿpßÿÿ¨ßÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSet *localizedSceneNames;
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodesThroughReliableEdges;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodesWithDominantSceneAssets;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodesWithHighConfidenceAssets;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodesWithSearchConfidenceAssets;
-@property(readonly) NSSet *sceneIdentifiers;
-@property(readonly) NSSet *sceneNames;
-@property(readonly) Class superclass;
 
 @end
 

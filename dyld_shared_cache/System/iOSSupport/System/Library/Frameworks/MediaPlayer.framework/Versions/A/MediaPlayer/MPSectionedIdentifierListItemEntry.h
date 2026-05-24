@@ -6,32 +6,24 @@
 
 #import <MediaPlayer/MPSectionedIdentifierListEntry.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPSectionedIdentifierListItemEntry : MPSectionedIdentifierListEntry
 {
     _Bool _hasClones;
-    _Bool _dataSourceCloned;
-    _Bool _dataSourceMoved;
-    _Bool _userRemoved;
-    _Bool _userMoved;
-    _Bool _userCloned;
-    NSString *_itemIdentifier;
-    MPSectionedIdentifierListItemEntry *_rootEntry;
-    NSMutableArray *_clonedEntries;
 }
 
-+ (id);
-+ (id);
++ (id)_isNotNull;
++ (id)- iColumn:(id)arg1 %@; op:(id)arg2 %@; usable:(id)arg3 %@;
 + (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)*;
+- (void)$;
 - (void);
 - (void);
 - (id);
@@ -42,46 +34,24 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
+- (id)IMDAttachmentRecordCopyAttachmentForGUID;
+- (long long);
 - (id);
-- (long long);
 - (id);
-- (id);
-- (CDStruct_d4f770cf);
+- (CDStruct_d4f770cf)Float16CodingKeys;
 - (void);
-- (_Bool);
-- (void)EventArtist__MAPPING_MISSING__;
+- (_Bool)ypointsPerRegion;
+- (void)__MPModelRelationshipPlayEventArtist__MAPPING_MISSING__;
 - (id)g mapping for MPModelPropertyAlbumCleanDownloadedTrackCount;
 
 // Remaining properties
-@property(readonly, nonatomic) long long branchDepth;
-@property(retain, nonatomic) NSMutableArray *clonedEntries; // @synthesize clonedEntries=_clonedEntries;
-@property(readonly, nonatomic, getter=isDataSourceCloned) _Bool dataSourceCloned; // @synthesize dataSourceCloned=_dataSourceCloned;
-@property(readonly, nonatomic, getter=isDataSourceMoved) _Bool dataSourceMoved; // @synthesize dataSourceMoved=_dataSourceMoved;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long entryType;
-@property(readonly, nonatomic) _Bool hasClones; // @synthesize hasClones=_hasClones;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(readonly, nonatomic) MPSectionedIdentifierListItemEntry *latestDataSourceClone;
-@property(readonly, nonatomic) MPSectionedIdentifierListItemEntry *latestUserClone;
-@property(readonly, nonatomic, getter=isRemoved) _Bool removed;
-@property(nonatomic) __weak MPSectionedIdentifierListItemEntry *rootEntry; // @synthesize rootEntry=_rootEntry;
-@property(readonly, nonatomic) NSString *sectionIdentifier;
-@property(readonly, nonatomic) CDStruct_d4f770cf state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isUserCloned) _Bool userCloned; // @synthesize userCloned=_userCloned;
-@property(readonly, nonatomic, getter=isUserMoved) _Bool userMoved; // @synthesize userMoved=_userMoved;
-@property(readonly, nonatomic, getter=isUserRemoved) _Bool userRemoved; // @synthesize userRemoved=_userRemoved;
 
 @end
 

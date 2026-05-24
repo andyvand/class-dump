@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NTPBBloomFilterInfo, NTPBBucketGroupConfig;
+@class NTPBBucketGroupConfig;
 
 @interface NTPBBucketGroupConfigResponse
 {
     NTPBBucketGroupConfig *_bucketGroupConfig;
-    NTPBBloomFilterInfo *_domainBloomFilterInfo;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (void)addRepresentation:(id)arg1;
+- (void)addAttribute:(id)arg1 value:range: /* Error: Ran out of types for this method. */;
+- (_Bool)_timeWeight;
+- (_Bool)_targetLayoutItem;
+- (id)_stateQueue_shouldDisableAutomaticPixelBufferUpdates;
+- (id)_skimmingInfo;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)D);
 - (id);
 - (id);
-- (void)PaidArticle;
+- (void)hasPaidArticle;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBBucketGroupConfig *bucketGroupConfig; // @synthesize bucketGroupConfig=_bucketGroupConfig;
-@property(retain, nonatomic) NTPBBloomFilterInfo *domainBloomFilterInfo; // @synthesize domainBloomFilterInfo=_domainBloomFilterInfo;
 @property(readonly, nonatomic) _Bool hasBucketGroupConfig;
-@property(readonly, nonatomic) _Bool hasDomainBloomFilterInfo;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSObservation, NSSet, NSString, UIView, _UITouchesObservingGestureRecognizer;
+@class UIView;
 
 @interface _UITouchForceObservable
 {
     UIView *_view;
-    long long _observerCount;
-    _UITouchesObservingGestureRecognizer *_gestureRecognizer;
-    NSObservation *_touchesObservation;
-    CADisplayLink *_continuousEvaluationDisplayLink;
-    NSSet *_currentTouches;
-    double _lastObservationTime;
 }
 
 - (void);
@@ -27,8 +21,8 @@
 - (void);
 - (void)
 × ;
-- (_Bool)BottomMargin;
-- (void)dex;
+- (_Bool)_topItemsViewBottomMargin;
+- (void)_selectionViewIndex;
 - (id),V_fromIndex;
 - (void)ntationDelegate>",W,N,V_presentationDelegate;
 - (id)ss NSPersistentStoreCoordinator;
@@ -36,13 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

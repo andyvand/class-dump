@@ -14,9 +14,9 @@
 - (id);
 - (id);
 - (id);
+- (id)B;
 - (id);
-- (id);
-- (void)signThemeNamed:adapterVersion:uemVersion:confidence: /* Error: Ran out of types for this method. */;
+- (void)assignThemeNamed:adapterVersion:uemVersion:confidence: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *augmenterNameToClass; // @synthesize augmenterNameToClass=_augmenterNameToClass;

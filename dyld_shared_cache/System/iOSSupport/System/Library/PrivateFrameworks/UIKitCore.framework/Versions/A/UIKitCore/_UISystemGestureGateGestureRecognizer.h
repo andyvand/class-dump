@@ -6,24 +6,17 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSObject;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface _UISystemGestureGateGestureRecognizer : UIGestureRecognizer
 {
     unsigned char _systemGestureGateType;
-    unsigned int _systemGesturesRecognitionPossible:1;
-    unsigned int _waitingForSystemGestureStateNotification:1;
-    double _lastTouchTime;
-    NSObject<OS_dispatch_source> *_delayTimeoutTimer;
 }
 
-+ (_Bool);
++ (_Bool)us 0x%x checksum 0x%x;
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (void),C,N,V_payloadRepeatingPowerOn;
 - (id);
 - (void);
 - (void);
@@ -33,11 +26,11 @@ __attribute__((visibility("hidden")))
 - (id)ñg1Â0@ù
 × ;
 - (void)UICandidateViewController";
-- (_Bool)isibilityOffsetForGestureState:(id)arg1 touchType:locationInSceneReferenceSpace:majorRadius: /* Error: Ran out of types for this method. */;
-- (void)mpletionHandlers:(id)arg1;
-- (_Bool)iews;
-- (void)dow:(id)arg1;
-- (void)tionProgress;
+- (_Bool)updateVisibilityOffsetForGestureState:(id)arg1 touchType:locationInSceneReferenceSpace:majorRadius: /* Error: Ran out of types for this method. */;
+- (void)setCompletionHandlers:(id)arg1;
+- (_Bool)runtimeOnlyViews;
+- (void)addBorderToWindow:(id)arg1;
+- (void)_effectiveDelegateSupportsScrollEdgeTransitionProgress;
 - (id),&,N,S_setPreviousInternalState:,V__previousInternalState /* Error: Ran out of types for this method. */;
 - (void)lication (peekAppEvent) stealKB:%s scene:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);

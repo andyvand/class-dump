@@ -5,9 +5,12 @@
 //
 
 @protocol MKOverlay
+- (struct CLLocationCoordinate2D)remoteVADSignalExtractor;
+
+@optional
+- (_Bool)setHomeKitV1SetupHash:(CDStruct_2f492f29)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_02837cd9 boundingMapRect;
 @property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
 @end
 

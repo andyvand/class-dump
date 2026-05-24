@@ -4,10 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDCameraSnapshotLocal, HMDCameraSnapshotLocalSession, HMDCameraSnapshotRemoteRelayReceiver, HMDCameraSnapshotSessionInfo;
+
 @protocol HMDCameraSnapshotManagerDataSource
+- (HMDCameraSnapshotRemoteRelayReceiver *)Virtual Senders are supported;
+- (HMDCameraSnapshotLocal *)r] live participant did leave %@;
+- (HMDCameraSnapshotLocalSession *)ervers for %lu updated handles:(HMDCameraSnapshotSessionInfo *)arg1 %{private}@;
+- (_Bool)generateStyleDataFromStyleBuffer:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) _Bool supportsCameraSnapshotRequestViaRelay;
-@property(readonly, getter=isWatchDevice) _Bool watchDevice;
 @end
 

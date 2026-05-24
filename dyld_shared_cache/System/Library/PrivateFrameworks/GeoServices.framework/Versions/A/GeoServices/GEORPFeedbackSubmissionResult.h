@@ -4,35 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPPhotoAttributionPreferencesUpdateResult, GEORPRapProfileInfo, GEORPTdmFraudRequestInfo, GEORPThirdPartyPhotoSharingPreferenceUpdateResult, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackSubmissionResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_feedbackId;
-    NSMutableArray *_imageIdMapEntrys;
-    GEORPPhotoAttributionPreferencesUpdateResult *_photoAttributionPreferencesUpdateResult;
-    GEORPRapProfileInfo *_rapInfo;
-    GEORPTdmFraudRequestInfo *_tdmFraudRequestInfo;
-    GEORPThirdPartyPhotoSharingPreferenceUpdateResult *_thirdPartyPhotoSharingPreferenceUpdateResult;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_feedbackId:1;
-        unsigned int read_imageIdMapEntrys:1;
-        unsigned int read_photoAttributionPreferencesUpdateResult:1;
-        unsigned int read_rapInfo:1;
-        unsigned int read_tdmFraudRequestInfo:1;
-        unsigned int read_thirdPartyPhotoSharingPreferenceUpdateResult:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)ing:(id)arg1;
++ (Class)$;
++ (_Bool)setLabelTextString:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -40,52 +20,41 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)makeDeprecatedLockableContext;
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)strRepForFloatData;
+- (void);
+- (id)H;
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void)a;
 - (id)rote_anyField"b1};
-- (id)uildingFootprints;
+- (id)buildingFootprints;
 - (id)u¨zðz(|;
-- (id)ECIFIED;
+- (id)WAYPOINT_UNSPECIFIED;
 - (void)ó-$`fN@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *feedbackId;
 @property(readonly, nonatomic) _Bool hasFeedbackId;
-@property(readonly, nonatomic) _Bool hasPhotoAttributionPreferencesUpdateResult;
-@property(readonly, nonatomic) _Bool hasRapInfo;
-@property(readonly, nonatomic) _Bool hasTdmFraudRequestInfo;
-@property(readonly, nonatomic) _Bool hasThirdPartyPhotoSharingPreferenceUpdateResult;
-@property(retain, nonatomic) NSMutableArray *imageIdMapEntrys;
-@property(retain, nonatomic) GEORPPhotoAttributionPreferencesUpdateResult *photoAttributionPreferencesUpdateResult;
-@property(retain, nonatomic) GEORPRapProfileInfo *rapInfo;
-@property(retain, nonatomic) GEORPTdmFraudRequestInfo *tdmFraudRequestInfo;
-@property(retain, nonatomic) GEORPThirdPartyPhotoSharingPreferenceUpdateResult *thirdPartyPhotoSharingPreferenceUpdateResult;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

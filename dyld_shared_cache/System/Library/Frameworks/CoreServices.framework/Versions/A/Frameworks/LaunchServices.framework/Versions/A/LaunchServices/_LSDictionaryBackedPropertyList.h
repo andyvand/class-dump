@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSDictionary *_plist;
 }
 
-+ (_Bool);
++ (_Bool)24@"MTLTextureDescriptor"32@?<v@?^vQ>40;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)( ;
 - (_Bool)L;
 - (void)¨;
 

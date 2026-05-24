@@ -11,7 +11,6 @@ __attribute__((visibility("hidden")))
 @interface CBBootArgsConfigProvider
 {
     NSObject<OS_os_log> *_logHandle;
-    NSString *_bootargs;
 }
 
 - (unsigned long long);
@@ -23,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)Q9;
 - (unsigned long long);
 - (void);
 - (void);
@@ -34,14 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSString *bootargs; // @synthesize bootargs=_bootargs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,9 +5,9 @@
 //
 
 @protocol _RBDisplayListContents
+- (const void *);
 
 // Remaining properties
 @property(readonly, nonatomic) const void *_rb_contents;
-@property(readonly, nonatomic) const void *_rb_xml_document;
 @end
 

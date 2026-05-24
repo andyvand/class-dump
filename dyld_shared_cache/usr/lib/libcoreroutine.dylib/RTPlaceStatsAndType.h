@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, RTLearnedPlaceTypeInferencePlaceStats;
+@class RTLearnedPlaceTypeInferencePlaceStats;
 
 __attribute__((visibility("hidden")))
 @interface RTPlaceStatsAndType
 {
     RTLearnedPlaceTypeInferencePlaceStats *_placeStats;
-    unsigned long long _type;
-    NSUUID *_placeIdentifier;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)onnectResponse] ### ERROR:send connect response failed (err=0x%x)
+ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void)rror occurred while fetching visits with options, %{sensitive}@, error, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *placeIdentifier; // @synthesize placeIdentifier=_placeIdentifier;
 @property(readonly, nonatomic) RTLearnedPlaceTypeInferencePlaceStats *placeStats; // @synthesize placeStats=_placeStats;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -4,70 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCapabilitiesManager, CNContactAction, CNContactAddFavoriteAction, CNContactAddLinkedCardAction, CNContactAddStaticIdentityAction, CNContactAddToExistingContactAction, CNContactCreateNewContactAction, CNContactSelectContainersAction, CNContactStore, CNContainer, CNMutableContact, CNPropertyFaceTimeAction, CNPropertyGroupsDataSource, CNPropertyLinkedCardsAction, CNPropertySendMessageAction, CNPropertyStaticIdentityAction, CNUIContactsEnvironment, CNUIUserActionListDataSource;
-@protocol CNPropertyActionDelegate;
+@class CNContactAction, CNMutableContact;
 
 __attribute__((visibility("hidden")))
 @interface CNContactActionProvider
 {
     CNContactAction *_shareWithFamilyAction;
-    id <CNPropertyActionDelegate> _actionDelegate;
-    CNPropertySendMessageAction *_sendMessageAction;
-    CNPropertyFaceTimeAction *_faceTimeAction;
-    CNPropertyFaceTimeAction *_faceTimeAudioAction;
-    CNContactAction *_shareContactAction;
-    CNContactAddFavoriteAction *_addFavoriteAction;
-    CNContactAction *_createReminderAction;
-    CNContactAction *_shareLocationAction;
-    CNContactAction *_stopSharingLocationAction;
-    CNPropertyLinkedCardsAction *_linkedCardsAction;
-    CNContactAddLinkedCardAction *_addLinkedCardAction;
-    CNContactCreateNewContactAction *_createNewContactAction;
-    CNContactAddToExistingContactAction *_addToExistingContactAction;
-    CNContactSelectContainersAction *_containerSelectionAction;
-    CNPropertyStaticIdentityAction *_staticIdentityAction;
-    CNContactAddStaticIdentityAction *_addStaticIdentityAction;
-    CNContactAction *_stopSharingWithFamilyAction;
-    CNContactAction *_enableGuardianRestrictionsAction;
-    CNContactAction *_disableGuardianRestrictionsAction;
-    CNMutableContact *_contact;
-    CNContainer *_container;
-    CNContactStore *_contactStore;
-    CNPropertyGroupsDataSource *_propertyGroupsDataSource;
-    CNUIUserActionListDataSource *_actionsDataSource;
-    CNCapabilitiesManager *_capabilities;
-    CNUIContactsEnvironment *_environment;
 }
 
+- (id)9;
+- (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -78,45 +31,39 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id)setAddedDate: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)p Topics;
 - (id)!GùÑt°1Â0@ù
 × ;
-- (id)ctCardViewController;
+- (id)displayContactCardViewController;
 - (void)ource",&,N,V_accountsDataSource;
 - (id)¯{;
 
 // Remaining properties
-@property(nonatomic) __weak id <CNPropertyActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property(readonly, nonatomic) CNUIUserActionListDataSource *actionsDataSource; // @synthesize actionsDataSource=_actionsDataSource;
-@property(readonly, nonatomic) CNContactAddFavoriteAction *addFavoriteAction; // @synthesize addFavoriteAction=_addFavoriteAction;
-@property(readonly, nonatomic) CNContactAddLinkedCardAction *addLinkedCardAction; // @synthesize addLinkedCardAction=_addLinkedCardAction;
-@property(readonly, nonatomic) CNContactAddStaticIdentityAction *addStaticIdentityAction; // @synthesize addStaticIdentityAction=_addStaticIdentityAction;
-@property(readonly, nonatomic) CNContactAddToExistingContactAction *addToExistingContactAction; // @synthesize addToExistingContactAction=_addToExistingContactAction;
-@property(readonly, nonatomic) CNCapabilitiesManager *capabilities; // @synthesize capabilities=_capabilities;
 @property(readonly, nonatomic) CNMutableContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) CNContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) CNContactSelectContainersAction *containerSelectionAction; // @synthesize containerSelectionAction=_containerSelectionAction;
-@property(readonly, nonatomic) CNContactCreateNewContactAction *createNewContactAction; // @synthesize createNewContactAction=_createNewContactAction;
-@property(readonly, nonatomic) CNContactAction *createReminderAction; // @synthesize createReminderAction=_createReminderAction;
-@property(readonly, nonatomic) CNContactAction *disableGuardianRestrictionsAction; // @synthesize disableGuardianRestrictionsAction=_disableGuardianRestrictionsAction;
-@property(readonly, nonatomic) CNContactAction *enableGuardianRestrictionsAction; // @synthesize enableGuardianRestrictionsAction=_enableGuardianRestrictionsAction;
-@property(readonly, nonatomic) CNUIContactsEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly, nonatomic) CNPropertyFaceTimeAction *faceTimeAction; // @synthesize faceTimeAction=_faceTimeAction;
-@property(readonly, nonatomic) CNPropertyFaceTimeAction *faceTimeAudioAction; // @synthesize faceTimeAudioAction=_faceTimeAudioAction;
-@property(readonly, nonatomic) CNPropertyLinkedCardsAction *linkedCardsAction; // @synthesize linkedCardsAction=_linkedCardsAction;
-@property(readonly, nonatomic) CNPropertyGroupsDataSource *propertyGroupsDataSource; // @synthesize propertyGroupsDataSource=_propertyGroupsDataSource;
-@property(readonly, nonatomic) CNPropertySendMessageAction *sendMessageAction; // @synthesize sendMessageAction=_sendMessageAction;
-@property(readonly, nonatomic) CNContactAction *shareContactAction; // @synthesize shareContactAction=_shareContactAction;
-@property(readonly, nonatomic) CNContactAction *shareLocationAction; // @synthesize shareLocationAction=_shareLocationAction;
-@property(readonly, nonatomic) CNContactAction *shareWithFamilyAction; // @synthesize shareWithFamilyAction=_shareWithFamilyAction;
-@property(readonly, nonatomic) CNPropertyStaticIdentityAction *staticIdentityAction; // @synthesize staticIdentityAction=_staticIdentityAction;
-@property(readonly, nonatomic) CNContactAction *stopSharingLocationAction; // @synthesize stopSharingLocationAction=_stopSharingLocationAction;
-@property(readonly, nonatomic) CNContactAction *stopSharingWithFamilyAction; // @synthesize stopSharingWithFamilyAction=_stopSharingWithFamilyAction;
 
 @end
 

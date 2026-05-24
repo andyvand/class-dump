@@ -6,21 +6,9 @@
 
 #import <UIFoundation/NSTextParagraph.h>
 
-@class NSArray, NSAttributedString, NSDictionary, NSTextList;
-
 @interface NSTextListElement : NSTextParagraph
 {
     long long _indentLevel;
-    long long _itemNumber;
-    long long _contentsLocationOffset;
-    _Bool _contentsOnly;
-    NSTextListElement *_parentElement;
-    NSTextList *_textList;
-    NSAttributedString *_contents;
-    NSArray *_childElements;
-    CDUnknownBlockType _markerTextAttributeOverrides;
-    NSDictionary *_markerAttributes;
-    CDUnknownBlockType _markerTextAttributesForTextList;
 }
 
 + (id);
@@ -33,20 +21,20 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (void)LineModeCell: /* Error: Ran out of types for this method. */;
-- (id);
++ (id)8;
++ (void)baseFontForSingleLineModeCell: /* Error: Ran out of types for this method. */;
+- (id)backdrop;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
-- (long long);
+- (long long)7;
 - (void);
 - (void);
-- (id);
-- (CDUnknownBlockType);
+- (id)./a;
+- (CDUnknownBlockType)2iL;
 - (id);
 - (void);
 - (_Bool);
@@ -56,28 +44,20 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (double);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) long long _contentsLocationOffset;
-@property(readonly) NSAttributedString *attributedString;
-@property(readonly, copy) NSArray *childElements; // @synthesize childElements=_childElements;
-@property(readonly) NSAttributedString *contents; // @synthesize contents=_contents;
-@property(readonly) NSDictionary *markerAttributes; // @synthesize markerAttributes=_markerAttributes;
-@property(copy) CDUnknownBlockType markerTextAttributeOverrides; // @synthesize markerTextAttributeOverrides=_markerTextAttributeOverrides;
-@property(copy) CDUnknownBlockType markerTextAttributesForTextList; // @synthesize markerTextAttributesForTextList=_markerTextAttributesForTextList;
 @property __weak NSTextListElement *parentElement; // @synthesize parentElement=_parentElement;
-@property(readonly) NSTextList *textList; // @synthesize textList=_textList;
 
 @end
 

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
-
 @interface CHTilePosition
 {
     long long _row;
-    long long _column;
-    NSIndexPath *_subtileIndex;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_inlinePreviewMouseEnteredInCellAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (long long);
@@ -29,9 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long column; // @synthesize column=_column;
 @property(readonly, nonatomic) long long row; // @synthesize row=_row;
-@property(readonly, nonatomic) NSIndexPath *subtileIndex; // @synthesize subtileIndex=_subtileIndex;
 
 @end
 

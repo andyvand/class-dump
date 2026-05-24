@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSString;
 
 @interface PKSearchPaymentSetupProductResult
 {
     NSString *_productIdentifier;
-    NSURL *_thumbnailURL;
-    NSData *_thumbnailData;
-    NSString *_displayName;
-    NSString *_contentDescription;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)1;
 - (void);
 - (void);
 - (void);
@@ -28,17 +24,13 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)_numIpv6DnsServers;
 - (void)ould not create data for %@:%@ /* Error: Ran out of types for this method. */;
-- (id)icationId;
+- (id)applicationId;
 - (void)¥máå;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contentDescription; // @synthesize contentDescription=_contentDescription;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(copy, nonatomic) NSData *thumbnailData; // @synthesize thumbnailData=_thumbnailData;
-@property(retain, nonatomic) NSURL *thumbnailURL; // @synthesize thumbnailURL=_thumbnailURL;
 
 @end
 

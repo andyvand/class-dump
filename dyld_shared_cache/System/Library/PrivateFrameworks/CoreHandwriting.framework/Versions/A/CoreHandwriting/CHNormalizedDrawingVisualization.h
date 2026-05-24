@@ -10,11 +10,11 @@
 {
 }
 
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (long long);
 - (void);
-- (struct CGRect);
+- (struct CGRect)1;
 
 @end
 

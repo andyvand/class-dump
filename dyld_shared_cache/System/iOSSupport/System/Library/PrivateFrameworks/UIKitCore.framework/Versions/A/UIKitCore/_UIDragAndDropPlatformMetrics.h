@@ -7,23 +7,19 @@
 @interface _UIDragAndDropPlatformMetrics
 {
     CDUnknownBlockType _defaultPreviewOutlineProvider;
-    CDUnknownBlockType _playDropFeedback;
-    struct CGSize _previewMinimumSize;
 }
 
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (void)16@24B32;
+- (struct CGSize)recordFilteringMetricsForMessageItem:filteredToChat:filterExtensionMetadata: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)mutableProperties;
+- (CDUnknownBlockType)e",&,N,V_latestReadReceipt;
 - (id);
 - (void)Ø¡\;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType defaultPreviewOutlineProvider; // @synthesize defaultPreviewOutlineProvider=_defaultPreviewOutlineProvider;
-@property(copy, nonatomic) CDUnknownBlockType playDropFeedback; // @synthesize playDropFeedback=_playDropFeedback;
-@property(nonatomic) struct CGSize previewMinimumSize; // @synthesize previewMinimumSize=_previewMinimumSize;
 
 @end
 

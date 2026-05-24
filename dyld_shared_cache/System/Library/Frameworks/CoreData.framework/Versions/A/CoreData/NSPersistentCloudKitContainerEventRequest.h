@@ -6,19 +6,16 @@
 
 #import <CoreData/NSPersistentStoreRequest.h>
 
-@class NSFetchRequest;
-
 @interface NSPersistentCloudKitContainerEventRequest : NSPersistentStoreRequest
 {
     long long _resultType;
-    NSFetchRequest *_ckEventFetchRequest;
 }
 
 + (id);
 + (id);
++ (id)C;
 + (id);
-+ (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (long long);

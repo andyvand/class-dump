@@ -5,5 +5,6 @@
 //
 
 @protocol ProgressReceiver
+- (void);
 @end
 

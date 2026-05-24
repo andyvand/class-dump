@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)EntityTypes: /* Error: Ran out of types for this method. */;
++ (long long)StringAsPayloadHomeEntityTypes: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)armsUnsupportedReason:(id)arg1;
+- (id)StringAsSnoozeAlarmIntentAlarmsUnsupportedReason:(id)arg1;
 
 @end
 

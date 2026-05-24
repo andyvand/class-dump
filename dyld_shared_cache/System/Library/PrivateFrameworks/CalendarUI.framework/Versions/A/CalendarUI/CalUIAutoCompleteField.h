@@ -13,14 +13,14 @@
     CNAutocompleteStore *_autocompleteStore;
 }
 
+- (void)Ts;
+- (void);
 - (void);
-- (void);
-- (void);
+- (id)c;
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

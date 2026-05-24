@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol CLEEDRequestDelegate, OS_dispatch_queue;
+@protocol CLEEDRequestDelegate;
 
 @interface CLEEDHelper
 {
     id <CLEEDRequestDelegate> _helperDelegate;
-    NSXPCConnection *_fConnection;
-    NSObject<OS_dispatch_queue> *_fClientQueue;
 }
 
 + (long long);
@@ -27,23 +24,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)(;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void)o, cannot clamp buffer
+;
+- (void)_removeSurface: /* Error: Ran out of types for this method. */;
 - (id)n;
-- (void)DisablementAssertion;
+- (void)CLGnssDisablementAssertion;
 - (void)}s, SecTrustEvaluateWithError returned error:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak NSObject<OS_dispatch_queue> *fClientQueue; // @synthesize fClientQueue=_fClientQueue;
-@property(retain, nonatomic) NSXPCConnection *fConnection; // @synthesize fConnection=_fConnection;
 @property(nonatomic) __weak id <CLEEDRequestDelegate> helperDelegate; // @synthesize helperDelegate=_helperDelegate;
 
 @end

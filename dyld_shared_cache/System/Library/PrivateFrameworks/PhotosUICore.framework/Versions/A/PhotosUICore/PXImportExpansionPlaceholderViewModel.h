@@ -11,7 +11,6 @@
 @interface PXImportExpansionPlaceholderViewModel : PXImportItemViewModel
 {
     NSDate *_placeholderDate;
-    id _placeholderUUID;
 }
 
 + (id);
@@ -26,11 +25,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)tusPresentation;
+- (id)momentShareStatusPresentation;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *placeholderDate; // @synthesize placeholderDate=_placeholderDate;
 @property(retain, nonatomic) id placeholderUUID; // @synthesize placeholderUUID=_placeholderUUID;
 
 @end

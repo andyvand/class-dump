@@ -5,18 +5,16 @@
 //
 
 @class NSUUID;
-@protocol HMMLogEventSubmitting;
 
 __attribute__((visibility("hidden")))
 @interface HMDMessageHandlerMetricsDispatcher
 {
     NSUUID *_identifier;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
 }
 
 + (id)uB;
 - (void);
-- (id);
+- (id)around %2$@;
 - (id);
 - (id);
 - (id);
@@ -26,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
 
 @end
 

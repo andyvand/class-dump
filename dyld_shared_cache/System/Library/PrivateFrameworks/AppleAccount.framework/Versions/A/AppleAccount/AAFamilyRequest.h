@@ -6,22 +6,20 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class AAGrandSlamSigner, ACAccount;
+@class ACAccount;
 
 @interface AAFamilyRequest : AARequest
 {
     ACAccount *_appleAccount;
-    AAGrandSlamSigner *_grandSlamSigner;
-    AAGrandSlamSigner *_familyGrandSlamSigner;
 }
 
+- (id)CPBootstrapToken;
+- (id)trapToken:(id)arg1 Error %d (0x%08x) adding ACM Credential;
 - (id);
 - (id);
+- (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void)ildVersion: /* Error: Ran out of types for this method. */;
+- (void)initWithWrappedRKC:wrappingKey:custodianUUID:recordBuildVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isUserInitiated;

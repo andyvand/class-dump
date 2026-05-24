@@ -11,7 +11,7 @@
 }
 
 - (_Bool);
-- (id);
+- (id)__DATA;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isAA;

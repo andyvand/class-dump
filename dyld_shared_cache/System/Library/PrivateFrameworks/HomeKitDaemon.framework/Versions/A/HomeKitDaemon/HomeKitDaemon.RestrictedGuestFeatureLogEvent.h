@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface HomeKitDaemon.RestrictedGuestFeatureLogEvent
 {
     id hasRGSupportedAccessory;
-    id numberOfRGs;
-    id numEnabledResidentsInHome;
-    void coreAnalyticsEventName;
-    unsigned long long coreAnalyticsEventOptions;
 }
 
 - (void);
-- (void);
+- (void)Q;
 - (id);
 - (id);
 - (unsigned long long);
@@ -25,9 +21,7 @@
 - (void)%ÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
 @property(nonatomic, copy) NSString *coreAnalyticsEventName;
-@property(nonatomic) unsigned long long coreAnalyticsEventOptions; // @synthesize coreAnalyticsEventOptions;
 
 @end
 

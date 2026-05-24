@@ -7,9 +7,9 @@
 @class NSString;
 
 @protocol MSBucketBarMailbox
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bucketBarConfigurationIdentifier;
 @property(readonly, nonatomic) _Bool isInboxMailbox;
 @end
 

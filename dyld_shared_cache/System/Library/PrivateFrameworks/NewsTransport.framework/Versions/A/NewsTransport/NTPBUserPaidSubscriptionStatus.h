@@ -9,36 +9,29 @@
 @interface NTPBUserPaidSubscriptionStatus
 {
     NSString *_paidSubscriptionChannelId;
-    int _paidSubscriptionStatus;
-    struct {
-        unsigned int paidSubscriptionStatus:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (int);
+- (void)initWithKind:(int)arg1 duration:event:clipLayouts: /* Error: Ran out of types for this method. */;
+- (void)initWithKeyAsset:(id)arg1 overallDurationInfo:userCuratedAssets:customUserAssetsEdit: /* Error: Ran out of types for this method. */;
+- (void)initWithAsset:(_Bool)arg1 analysis: /* Error: Ran out of types for this method. */;
+- (int)fetchSharedAlbumWithScopeIdentifier:inPhotoLibrary:allowPending: /* Error: Ran out of types for this method. */;
+- (id)fetchResultCountObserver:didChangeFetchResultCount: /* Error: Ran out of types for this method. */;
+- (_Bool)enableOneUpAnimation;
+- (_Bool)enableLocationDisambiguation;
+- (id)copyWithCustomUserAssets:(int)arg1;
+- (int)contextWithFace:(id)arg1 type:delayedPersonBlock: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (id);
+- (void)%;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ckStyleIdentifier"B"contentSupportsVitality"B};
+- (_Bool)maryIdentifier];
+- (_Bool)ser id local record to remote:(id)arg1 (masked) remoteID=%{mask.hash}@, localID=%{mask.hash}@, remoteDate=%@, localDate=%@;
 - (id);
-- (id);
+- (id)T;
 - (void)b1"isDigitalReplicaAd"b1"isFreeArticle"b1"isGroupedArticle"b1"isNativeAd"b1"isPaidSubscriberToSourceChannel"b1"isSearchResultArticle"b1"isTopStoryArticle"b1"isUserSubscribedToFeed"b1};
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPaidSubscriptionChannelId;
 @property(nonatomic) _Bool hasPaidSubscriptionStatus;
-@property(retain, nonatomic) NSString *paidSubscriptionChannelId; // @synthesize paidSubscriptionChannelId=_paidSubscriptionChannelId;
-@property(nonatomic) int paidSubscriptionStatus; // @synthesize paidSubscriptionStatus=_paidSubscriptionStatus;
 
 @end
 

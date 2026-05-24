@@ -7,37 +7,23 @@
 @interface _MDPlistBytes
 {
     unsigned long long _byteVector;
-    unsigned int _byteVectorCnt;
-    unsigned int _byteVectorCapacity;
-    CDUnknownBlockType _deallocator;
-    unsigned int _isBad:16;
-    unsigned int _isMutable:1;
-    unsigned int _isMutating:1;
-    unsigned int _didFinalize:1;
-    unsigned int _useMalloc:1;
-    unsigned long long *_wrapperPtr;
-    unsigned long long *_uidVector;
-    int _uidCount;
-    int _uidCapacity;
-    struct _malloc_zone_t *_zone;
-    unsigned int _owner;
 }
 
 + (struct __MDPlistBytes *);
 + (void);
-+ (struct __MDPlistBytes *);
-+ (struct __MDPlistBytes *);
++ (struct __MDPlistBytes *)s;
++ (struct __MDPlistBytes *);
 + (struct __MDPlistBytes *);
 + (struct __MDPlistBytes *);
 + (struct __MDPlistBytes *);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)drawIndexedPrimitives:(char *)arg1 indexCount:(unsigned int)arg2 indexType:(_Bool)arg3 indexBuffer:indexBufferOffset: /* Error: Ran out of types for this method. */;
+- (id);
 - (struct __CFData *);
 - (_Bool);
 - (struct __CFData *);

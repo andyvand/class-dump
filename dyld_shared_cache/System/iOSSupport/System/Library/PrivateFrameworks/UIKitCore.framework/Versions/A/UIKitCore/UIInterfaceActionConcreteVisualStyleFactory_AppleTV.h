@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)essingPipelineComponent> No chat found, nothing to converge;
 
 @end
 

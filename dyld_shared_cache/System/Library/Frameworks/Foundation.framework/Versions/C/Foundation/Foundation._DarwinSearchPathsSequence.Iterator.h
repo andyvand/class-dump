@@ -7,8 +7,6 @@
 @interface Foundation._DarwinSearchPathsSequence.Iterator
 {
     id directory;
-    id domainMask;
-    id state;
 }
 
 @end

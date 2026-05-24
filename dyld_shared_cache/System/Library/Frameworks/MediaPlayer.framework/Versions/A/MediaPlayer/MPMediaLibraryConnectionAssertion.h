@@ -9,14 +9,13 @@
 @interface MPMediaLibraryConnectionAssertion
 {
     MPMediaLibrary *_library;
-    NSString *_identifier;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void)aryLyrics_KEY;
+- (void)__hasLibraryLyrics_KEY;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

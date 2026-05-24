@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKURLBag, CDPLocalDevice, NSArray, NSUUID, NSUserDefaults;
+@class NSArray;
 
 @interface CDPDFirstUnlockObserver
 {
     void listeners;
-    NSUserDefaults *userDefaults;
-    AKURLBag *urlBag;
-    CDPLocalDevice *localDevice;
-    id bootSessionIDWrapper;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)SafeAutoFillChoicesPopUpButton;
+- (id)RolloverTextButtonCell;
+- (void)ReadingListSidebarContentFilter;
+- (void)ReadingListSegmentedCell;
+- (id)PrintingAccessoryViewController;
+- (id)PreferencesPopoverPopUpItemViewController;
+- (_Bool);
+- (id)HTTPAuthenticationDialogViewDelegate;
+- (id)_performAuthorizationRequests:requestStyle:requestOptions: /* Error: Ran out of types for this method. */;
+- (void)DecideBeginRollback;
 - (id);
 - (id);
 - (id);
@@ -35,13 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSUUID *bootSessionID;
-@property(nonatomic, readonly) _Bool currentDeviceUnlockedForTheFirstTime;
 @property(nonatomic, copy) NSArray *listeners;
-@property(nonatomic, readonly) CDPLocalDevice *localDevice; // @synthesize localDevice;
-@property(nonatomic, readonly) NSUUID *savedBootSessionID;
-@property(nonatomic, readonly) AKURLBag *urlBag; // @synthesize urlBag;
-@property(nonatomic, readonly) NSUserDefaults *userDefaults; // @synthesize userDefaults;
 
 @end
 

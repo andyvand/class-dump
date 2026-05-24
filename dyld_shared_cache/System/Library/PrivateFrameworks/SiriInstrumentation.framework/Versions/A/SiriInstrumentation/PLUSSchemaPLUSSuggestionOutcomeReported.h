@@ -6,30 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSSuggestionDomainMetadata, PLUSSchemaPLUSSuggestionDomainOutcome, SISchemaUUID;
+@class PLUSSchemaPLUSSuggestionDomainMetadata;
 
 @interface PLUSSchemaPLUSSuggestionOutcomeReported : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSSuggestionDomainMetadata *_suggestionDomainMetadata;
-    SISchemaUUID *_suggestionLinkId;
-    SISchemaUUID *_originalRequestId;
-    int _suggestionOutcome;
-    PLUSSchemaPLUSSuggestionDomainOutcome *_domainOutcome;
-    struct {
-        unsigned int suggestionOutcome:1;
-    } _has;
-    _Bool _hasSuggestionDomainMetadata;
-    _Bool _hasSuggestionLinkId;
-    _Bool _hasOriginalRequestId;
-    _Bool _hasDomainOutcome;
 }
 
 - (int);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)`;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,7 +26,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,26 +43,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ng a new person.;
 - (id);
 - (id)
 × ;
-- (id)gs;
+- (id)_intentArgs;
 - (id)ybackContext;
-- (void)I;
+- (void)COUNTRYCODE_BI;
 
 // Remaining properties
-@property(retain, nonatomic) PLUSSchemaPLUSSuggestionDomainOutcome *domainOutcome; // @synthesize domainOutcome=_domainOutcome;
-@property(nonatomic) _Bool hasDomainOutcome; // @synthesize hasDomainOutcome=_hasDomainOutcome;
-@property(nonatomic) _Bool hasOriginalRequestId; // @synthesize hasOriginalRequestId=_hasOriginalRequestId;
-@property(nonatomic) _Bool hasSuggestionDomainMetadata; // @synthesize hasSuggestionDomainMetadata=_hasSuggestionDomainMetadata;
-@property(nonatomic) _Bool hasSuggestionLinkId; // @synthesize hasSuggestionLinkId=_hasSuggestionLinkId;
-@property(nonatomic) _Bool hasSuggestionOutcome;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *originalRequestId; // @synthesize originalRequestId=_originalRequestId;
 @property(retain, nonatomic) PLUSSchemaPLUSSuggestionDomainMetadata *suggestionDomainMetadata; // @synthesize suggestionDomainMetadata=_suggestionDomainMetadata;
-@property(retain, nonatomic) SISchemaUUID *suggestionLinkId; // @synthesize suggestionLinkId=_suggestionLinkId;
-@property(nonatomic) int suggestionOutcome; // @synthesize suggestionOutcome=_suggestionOutcome;
 
 @end
 

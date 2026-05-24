@@ -7,8 +7,6 @@
 @interface SWScrollSettings
 {
     _Bool _scrollEnabled;
-    _Bool _scrollsToTop;
-    _Bool _showsVerticalScrollIndicator;
 }
 
 - (id);
@@ -18,8 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool scrollEnabled; // @synthesize scrollEnabled=_scrollEnabled;
-@property(readonly, nonatomic) _Bool scrollsToTop; // @synthesize scrollsToTop=_scrollsToTop;
-@property(readonly, nonatomic) _Bool showsVerticalScrollIndicator; // @synthesize showsVerticalScrollIndicator=_showsVerticalScrollIndicator;
 
 @end
 

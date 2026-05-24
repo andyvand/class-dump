@@ -9,7 +9,6 @@
 @interface PETAggregateState
 {
     PETAggregateStateStorage *_storage;
-    CDStruct_9981aeec _rng;
 }
 
 + (unsigned char);
@@ -19,7 +18,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)qA;
 - (_Bool);
 - (id);
 - (void);
@@ -27,7 +26,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)B;
 - (void);
 
 @end

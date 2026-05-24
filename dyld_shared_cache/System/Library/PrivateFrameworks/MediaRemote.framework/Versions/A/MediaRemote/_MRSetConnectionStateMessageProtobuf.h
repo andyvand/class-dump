@@ -7,15 +7,14 @@
 @interface _MRSetConnectionStateMessageProtobuf
 {
     int _state;
-    CDStruct_5accba53 _has;
 }
 
 - (void);
 - (_Bool);
 - (int);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)@;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -24,11 +23,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)nConnection relinquishWithError:options:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool hasState;
-@property(nonatomic) int state; // @synthesize state=_state;
 
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow, PHAsset, PHAssetCollection, PhotosUICore.PXSensitiveAssetMoreHelpAlertDelegateHandler__priv_72957237144B45E4FC71425D02BA38B1, SCNSMoreHelpMenu;
+@class PHAsset;
 
 @interface PXSensitiveAssetMoreHelpAlertManager
 {
     PHAsset *asset;
-    SCNSMoreHelpMenu *alert;
-    PhotosUICore.PXSensitiveAssetMoreHelpAlertDelegateHandler__priv_72957237144B45E4FC71425D02BA38B1 *delegateHandler;
-    PHAssetCollection *sharedAlbum;
-    void presentingWindow;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -24,18 +20,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id)Index:%ld resourcesDataSource:%@> /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) SCNSMoreHelpMenu *alert; // @synthesize alert;
 @property(nonatomic, readonly) PHAsset *asset; // @synthesize asset;
-@property(nonatomic, readonly) _Bool canPresentAlert;
-@property(nonatomic, readonly) PhotosUICore.PXSensitiveAssetMoreHelpAlertDelegateHandler__priv_72957237144B45E4FC71425D02BA38B1 *delegateHandler; // @synthesize delegateHandler;
-@property(nonatomic) __weak NSWindow *presentingWindow; // @synthesize presentingWindow;
-@property(nonatomic, readonly) PHAssetCollection *sharedAlbum; // @synthesize sharedAlbum;
 
 @end
 

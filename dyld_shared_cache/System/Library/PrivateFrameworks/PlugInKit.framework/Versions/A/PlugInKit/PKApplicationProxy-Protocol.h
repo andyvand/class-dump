@@ -9,7 +9,6 @@
 @protocol PKApplicationProxy
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isPlaceholder) _Bool placeholder;
 @property(readonly, nonatomic) NSArray *plugInKitPlugins;
 @end
 

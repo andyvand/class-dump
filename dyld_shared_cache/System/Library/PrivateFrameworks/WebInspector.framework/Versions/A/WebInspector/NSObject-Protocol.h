@@ -4,18 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, Protocol;
 
 @protocol NSObject
+- (Class);
+- (unsigned long long)?;
+- (id)j
+J,
+
+*;
+- (_Bool)P;
+- (_Bool)_hashableStringsForDonation:(Protocol *)arg1;
 - (struct _NSZone *),N,V_type;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)B;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerImplementation, NSNumber, NSObject, NSOperationQueue, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class CKContainerImplementation, NSString;
 
 @interface CKCodeServiceImplementation
 {
     NSString *_serviceName;
-    NSURL *_serviceInstanceURL;
-    NSNumber *_boxedDatabaseScope;
-    CKContainerImplementation *_containerImplementation;
-    NSObject<OS_dispatch_queue> *_underlyingDispatchQueue;
-    NSOperationQueue *_operationQueue;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -27,17 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (id)pe: /* Error: Ran out of types for this method. */;
+- (id)authorizationStatusForEntityType: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)voke;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *boxedDatabaseScope; // @synthesize boxedDatabaseScope=_boxedDatabaseScope;
 @property(readonly, nonatomic) __weak CKContainerImplementation *containerImplementation; // @synthesize containerImplementation=_containerImplementation;
-@property(readonly, nonatomic) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(readonly, copy, nonatomic) NSURL *serviceInstanceURL; // @synthesize serviceInstanceURL=_serviceInstanceURL;
-@property(readonly, copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *underlyingDispatchQueue; // @synthesize underlyingDispatchQueue=_underlyingDispatchQueue;
 
 @end
 

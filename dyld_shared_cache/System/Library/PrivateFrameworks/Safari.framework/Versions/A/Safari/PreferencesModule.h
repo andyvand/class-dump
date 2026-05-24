@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSWindow;
-
 __attribute__((visibility("hidden")))
 @interface PreferencesModule
 {
@@ -31,9 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSWindow *preferencesWindowIfMain;
 @property(nonatomic) double preferredMinWidth; // @synthesize preferredMinWidth=_preferredMinWidth;
-@property(readonly, nonatomic) NSString *safariHelpAnchor;
 
 @end
 

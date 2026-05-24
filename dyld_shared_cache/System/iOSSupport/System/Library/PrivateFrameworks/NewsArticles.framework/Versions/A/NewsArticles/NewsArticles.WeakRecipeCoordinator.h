@@ -7,7 +7,6 @@
 @interface NewsArticles.WeakRecipeCoordinator
 {
     id coordinator;
-    id _tracker;
 }
 
 @end

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface EWSStreamingSubscriptionRequestType
 {
     _Bool _SubscribeToAllFolders;
-    _Bool _SubscribeToAllFoldersIsSpecified;
-    NSArray *_FolderIds;
-    NSArray *_EventTypes;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
+- (void)	;
+- (void)J+
+
+*;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -27,17 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *EventTypes; // @synthesize EventTypes=_EventTypes;
-@property(copy, nonatomic) NSArray *FolderIds; // @synthesize FolderIds=_FolderIds;
 @property(nonatomic) _Bool SubscribeToAllFolders; // @synthesize SubscribeToAllFolders=_SubscribeToAllFolders;
-@property(nonatomic) _Bool SubscribeToAllFoldersIsSpecified; // @synthesize SubscribeToAllFoldersIsSpecified=_SubscribeToAllFoldersIsSpecified;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MSRadarURLBuilder
 {
     _Bool _prependSystemVersionToTitle;
-    _Bool _appendStandardDisclaimerToDescription;
-    _Bool _appendSysdiagnoseHowTo;
-    _Bool _customFooter;
-    NSString *_title;
-    NSString *_radarDescription;
-    long long _component;
-    long long _reproducibility;
-    long long _classification;
-    NSString *_attachmentPath;
-    NSArray *_extensionIdentifiers;
-    long long _autoDiagnostics;
 }
 
 + (id);
@@ -33,7 +22,7 @@
 + (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)Aq;
 - (id);
 - (id);
 - (_Bool);
@@ -51,26 +40,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)qA;
 - (long long);
-- (long long);
+- (long long)'TP;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)r;
 
 // Remaining properties
-@property(nonatomic) _Bool appendStandardDisclaimerToDescription; // @synthesize appendStandardDisclaimerToDescription=_appendStandardDisclaimerToDescription;
-@property(nonatomic) _Bool appendSysdiagnoseHowTo; // @synthesize appendSysdiagnoseHowTo=_appendSysdiagnoseHowTo;
-@property(copy, nonatomic) NSString *attachmentPath; // @synthesize attachmentPath=_attachmentPath;
-@property(nonatomic) long long autoDiagnostics; // @synthesize autoDiagnostics=_autoDiagnostics;
-@property(nonatomic) long long classification; // @synthesize classification=_classification;
-@property(nonatomic) long long component; // @synthesize component=_component;
-@property(nonatomic) _Bool customFooter; // @synthesize customFooter=_customFooter;
-@property(copy, nonatomic) NSArray *extensionIdentifiers; // @synthesize extensionIdentifiers=_extensionIdentifiers;
-@property(nonatomic) _Bool prependSystemVersionToTitle; // @synthesize prependSystemVersionToTitle=_prependSystemVersionToTitle;
-@property(copy, nonatomic) NSString *radarDescription; // @synthesize radarDescription=_radarDescription;
-@property(nonatomic) long long reproducibility; // @synthesize reproducibility=_reproducibility;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

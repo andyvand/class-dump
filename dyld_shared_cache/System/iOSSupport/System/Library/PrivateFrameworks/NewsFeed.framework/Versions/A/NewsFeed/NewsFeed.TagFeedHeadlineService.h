@@ -7,8 +7,6 @@
 @interface NewsFeed.TagFeedHeadlineService
 {
     id cloudContext;
-    id feedPersonalizer;
-    id eslInventory;
 }
 
 @end

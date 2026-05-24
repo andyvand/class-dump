@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval;
 @protocol PGMemoryNodeProtocol;
 
 @interface PGMemoryTriggerResult
 {
     id <PGMemoryNodeProtocol> _memoryNode;
-    NSDateInterval *_validityInterval;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)accessibilitySections;
+- (id)setAccessibilityCancelButton: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)%@, with birthday:%@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PGMemoryNodeProtocol> memoryNode; // @synthesize memoryNode=_memoryNode;
-@property(readonly, nonatomic) NSDateInterval *validityInterval; // @synthesize validityInterval=_validityInterval;
 
 @end
 

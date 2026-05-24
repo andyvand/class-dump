@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute;
-
 @interface GEOProbeCrumbs
 {
     _Bool _enabled;
-    unsigned long long _crumbCounter;
-    unsigned long long _maxCrumbs;
-    GEOComposedRoute *_route;
-    int _baseE7Lat;
-    int _baseE7Lng;
-    unsigned long long _baseTimestamp;
-    int _baseDistance;
-    struct deque<_GEOProbeCrumbsLocation, std::allocator<_GEOProbeCrumbsLocation>> _locations;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void);
+- (void)nniversary>!$_;
+- (id)type;
 - (void);
 - (id);
-- (id);
 - (void);
-- (id)NKNOWN;
+- (id)pruneOnDeviceSMRAudioLogs;
+- (id);
+- (void);
+- (id)TRANSACTION_STATUS_UNKNOWN;
 - (_Bool);
 - (void);
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSDialogRequest, AMSURLTaskInfo, NSDictionary, NSString;
+@class AMSDialogRequest;
 
 __attribute__((visibility("hidden")))
 @interface AMSFinanceVerifyPurchaseResponse
 {
     AMSDialogRequest *_dialogRequest;
-    NSDictionary *_responseDictionary;
-    AMSURLTaskInfo *_taskInfo;
-    long long _verifyType;
 }
 
 + (long long);
@@ -40,17 +37,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) AMSDialogRequest *dialogRequest; // @synthesize dialogRequest=_dialogRequest;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *responseDictionary; // @synthesize responseDictionary=_responseDictionary;
-@property(readonly) Class superclass;
-@property(retain) AMSURLTaskInfo *taskInfo; // @synthesize taskInfo=_taskInfo;
-@property long long verifyType; // @synthesize verifyType=_verifyType;
 
 @end
 

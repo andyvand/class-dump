@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATAddress;
-@protocol CATNetworkReachabilityDelegate;
-
 @interface CATNetworkReachability
 {
     struct __SCNetworkReachability *mReachabilityRef;
-    unsigned int _flags;
-    CATAddress *_address;
-    id <CATNetworkReachabilityDelegate> _delegate;
 }
 
 + (id);
@@ -20,7 +14,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -28,20 +22,17 @@
 - (id);
 - (void);
 - (unsigned int);
-- (id);
+- (id)ion while mutable;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)IO postNotification:(id)arg1 ];
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) CATAddress *address; // @synthesize address=_address;
-@property(nonatomic) __weak id <CATNetworkReachabilityDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic, getter=isReachable) _Bool reachable;
 
 @end
 

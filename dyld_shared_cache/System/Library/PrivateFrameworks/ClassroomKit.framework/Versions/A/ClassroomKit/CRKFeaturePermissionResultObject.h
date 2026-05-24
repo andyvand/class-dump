@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface CRKFeaturePermissionResultObject
 {
     _Bool _modifiable;
-    unsigned long long _permission;
 }
 
 + (_Bool);
@@ -22,8 +19,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryValue;
-@property(nonatomic, getter=isModifiable) _Bool modifiable; // @synthesize modifiable=_modifiable;
 @property(nonatomic) unsigned long long permission; // @synthesize permission=_permission;
 
 @end

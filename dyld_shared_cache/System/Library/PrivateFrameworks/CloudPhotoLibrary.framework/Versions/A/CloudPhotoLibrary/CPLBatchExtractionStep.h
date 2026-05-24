@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CPLBatchExtractionStrategyStorage;
 
 __attribute__((visibility("hidden")))
 @interface CPLBatchExtractionStep
 {
     id <CPLBatchExtractionStrategyStorage> _storage;
-    NSString *_scopeIdentifier;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool),;
 - (void);
 - (id);
 - (id);
@@ -26,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *scopeIdentifier; // @synthesize scopeIdentifier=_scopeIdentifier;
 @property(readonly, nonatomic) id <CPLBatchExtractionStrategyStorage> storage; // @synthesize storage=_storage;
 
 @end

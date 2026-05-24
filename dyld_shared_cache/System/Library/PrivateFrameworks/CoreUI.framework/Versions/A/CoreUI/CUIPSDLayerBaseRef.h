@@ -9,14 +9,13 @@
 @interface CUIPSDLayerBaseRef
 {
     CUIPSDImageRef *_imageRef;
-    unsigned int _layerIndex;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (double);
@@ -30,18 +29,10 @@
 - (void);
 - (double);
 - (_Bool);
-- (id);
+- (id)tered nil identifier;
 
 // Remaining properties
-@property(readonly) int blendMode;
-@property(readonly) struct CGRect bounds;
-@property(readonly) double fillOpacity;
-@property(readonly) _Bool hasLayerMask;
-@property(readonly) _Bool hasVectorMask;
 @property(retain, nonatomic) CUIPSDImageRef *imageRef; // @synthesize imageRef=_imageRef;
-@property(nonatomic) unsigned int layerIndex; // @synthesize layerIndex=_layerIndex;
-@property(readonly) double opacity;
-@property(readonly) _Bool visibility;
 
 @end
 

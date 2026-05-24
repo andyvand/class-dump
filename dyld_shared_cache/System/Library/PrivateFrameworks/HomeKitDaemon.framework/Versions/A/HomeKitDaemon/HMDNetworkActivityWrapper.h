@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSSet;
-@protocol OS_nw_activity;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkActivityWrapper
 {
     _Bool _completed;
-    NSObject<OS_nw_activity> *_activity;
-    HMDNetworkActivityWrapper *_parent;
-    NSMutableSet *_mutableChildren;
 }
 
 - (void);
@@ -24,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)IsFaceTimeableSignalProvider::fetchIsFaceTimeable - Starting legacy IDS (IDSServiceNameFaceTime & IDSServiceNameCalling) search for FaceTime support /* Error: Ran out of types for this method. */;
 - (void);
 - (void)hh1ControllerIdentity;
 - (_Bool)ject<OS_dispatch_queue>",&,V_queue;
@@ -33,13 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)pleInternal/Library/BuildRoots/4~CNq2ugAkPu1J5tpxsJhoEij_8UkpwZy7n46xuGY/Library/Caches/com.apple.xbs/TemporaryDirectory.4buT1B/Sources/HomeKit_executables/Sources/homed/Assistant/HMDAssistantCommandHelper.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_nw_activity> *activity; // @synthesize activity=_activity;
-@property(readonly, nonatomic) NSSet *children;
-@property(nonatomic) _Bool completed; // @synthesize completed=_completed;
-@property(readonly, nonatomic) _Bool isActivated;
-@property(readonly, nonatomic) unsigned long long label;
 @property(readonly, nonatomic) NSMutableSet *mutableChildren; // @synthesize mutableChildren=_mutableChildren;
-@property(readonly, nonatomic) __weak HMDNetworkActivityWrapper *parent; // @synthesize parent=_parent;
 
 @end
 

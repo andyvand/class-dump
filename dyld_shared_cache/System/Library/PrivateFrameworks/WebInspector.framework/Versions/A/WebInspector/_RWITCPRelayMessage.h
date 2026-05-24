@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface _RWITCPRelayMessage
 {
     _Bool _writtenHeader;
-    unsigned long long _writtenPayloadOffset;
-    NSData *_payload;
 }
 
 + (id);
-+ (id);
++ (id)6 ;
 - (long long);
 - (long long);
 - (unsigned long long);
-- (long long);
+- (long long)�;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long length;
-@property(readonly, copy, nonatomic) NSData *payload; // @synthesize payload=_payload;
 
 @end
 

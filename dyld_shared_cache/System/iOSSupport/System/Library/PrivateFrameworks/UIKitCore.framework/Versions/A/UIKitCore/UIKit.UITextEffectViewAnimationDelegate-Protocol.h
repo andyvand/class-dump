@@ -5,5 +5,6 @@
 //
 
 @protocol UIKit.UITextEffectViewAnimationDelegate
+- (void);
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.ForYouFeedURLHandler
 {
     id patterns;
-    id navigator;
 }
 
 @end

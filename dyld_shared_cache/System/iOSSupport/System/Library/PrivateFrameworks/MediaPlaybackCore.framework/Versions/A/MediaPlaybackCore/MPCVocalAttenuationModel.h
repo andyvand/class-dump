@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPCVocalAttenuationModel
 {
     NSString *_identifier;
-    NSArray *_files;
-    NSString *_basePath;
-    NSString *_plistPath;
-    unsigned long long _blockSize;
-    unsigned long long _batchSize;
-    unsigned long long _sampleRate;
-    unsigned long long _lookaheadSize;
-    unsigned long long _taskIteration;
-    double _processingDelay;
 }
 
++ (id):(id)arg1 New %@ account was added;
 + (id);
-+ (id);
 - (void);
-- (void);
-- (void);
+- (void)n:(id)arg1;
+- (void)aaf_filter:(unsigned long long)arg1;
 - (void);
 - (void);
 - (void);
@@ -37,16 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)| restoration failed [adding playback context failed] dataSourceState=%p sectionID=%{public}@ error=%{public}@;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *basePath; // @synthesize basePath=_basePath;
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(nonatomic) unsigned long long blockSize; // @synthesize blockSize=_blockSize;
-@property(copy, nonatomic) NSArray *files; // @synthesize files=_files;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long lookaheadSize; // @synthesize lookaheadSize=_lookaheadSize;
-@property(copy, nonatomic) NSString *plistPath; // @synthesize plistPath=_plistPath;
-@property(nonatomic) double processingDelay; // @synthesize processingDelay=_processingDelay;
-@property(nonatomic) unsigned long long sampleRate; // @synthesize sampleRate=_sampleRate;
-@property(nonatomic) unsigned long long taskIteration; // @synthesize taskIteration=_taskIteration;
 
 @end
 

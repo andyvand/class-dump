@@ -6,14 +6,10 @@
 
 #import <CoreData/NSSQLSelectIntermediate.h>
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NSSQLReadOnlySelectIntermediate : NSSQLSelectIntermediate
 {
     _Bool _onlyFetchesAggregates;
-    NSMutableDictionary *_variableToAliasMappings;
-    NSMutableDictionary *_propertyToAliasMappings;
 }
 
 - (void);

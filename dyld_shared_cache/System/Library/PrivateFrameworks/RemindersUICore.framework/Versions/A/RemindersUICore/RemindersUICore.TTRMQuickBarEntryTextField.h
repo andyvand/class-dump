@@ -6,20 +6,16 @@
 
 #import <RemindersUICore/RemindersUICore.TTRMRemindersListTextField.h>
 
-@class NSAttributedString, NSString;
-
 @interface RemindersUICore.TTRMQuickBarEntryTextField : RemindersUICore.TTRMRemindersListTextField
 {
     id isHitTestEnabled;
-    id horizontalCompressionResistanceInfo;
-    id minimumHorizontalWidthWhenPopulatedConstraint;
 }
 
 + (void);
 + (Class);
 - (id);
 - (id);
-- (void);
+- (void)addSubscriptionToTag:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (struct CGSize);
@@ -29,8 +25,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, retain) NSAttributedString *placeholderAttributedString;
-@property(nonatomic, copy) NSString *stringValue;
 
 @end
 

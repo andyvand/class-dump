@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSRewrittenUtterance : SISchemaInstrumentationMessage
 {
     int _rewriteType;
-    _Bool _isUsed;
-    struct {
-        unsigned int rewriteType:1;
-        unsigned int isUsed:1;
-    } _has;
 }
 
 - (void);
@@ -27,23 +20,19 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)8;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)%@;
 - (void);
 - (id);
 - (id)!rÐ!dAùÑÝ1Â0@ù
 × ;
-- (id)yInfo;
+- (id)_hasCoreSpeechTrailingPacketLatencyInfo;
 - (id)CopyContext;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsUsed;
-@property(nonatomic) _Bool hasRewriteType;
-@property(nonatomic) _Bool isUsed; // @synthesize isUsed=_isUsed;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int rewriteType; // @synthesize rewriteType=_rewriteType;
 
 @end

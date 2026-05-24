@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString, NSUUID, SFPasswordSharingInfo, SFService, SFUserAlert;
-@protocol OS_dispatch_queue, SFPasswordSharingServiceDelegate;
+@protocol SFPasswordSharingServiceDelegate;
 
 @interface SFPasswordSharingService
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    SFUserAlert *_notification;
-    NSUUID *_peer;
-    SFPasswordSharingInfo *_promptedInfo;
-    SFService *_service;
-    int _serviceState;
-    NSDate *_shareClock;
-    double _shareTime;
-    id <SFPasswordSharingServiceDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_networkName;
 }
 
 + (unsigned int);
@@ -40,11 +28,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,8 +42,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <SFPasswordSharingServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain, nonatomic) NSString *networkName; // @synthesize networkName=_networkName;
 
 @end
 

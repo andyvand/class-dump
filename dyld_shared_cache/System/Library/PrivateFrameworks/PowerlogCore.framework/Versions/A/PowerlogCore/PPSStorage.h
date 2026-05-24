@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (id);
+- (id)anging AppleID for purchase sharing;
 - (void);
 - (void);
 

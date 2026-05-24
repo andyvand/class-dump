@@ -9,7 +9,6 @@
 @interface SRCSCommandSegmentInfo
 {
     NSString *_text;
-    struct _NSRange _range;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end
 

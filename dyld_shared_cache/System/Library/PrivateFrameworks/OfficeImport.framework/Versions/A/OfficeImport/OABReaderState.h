@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ESDContainer, NSMutableArray, NSMutableDictionary;
-@protocol OADColorPalette;
+@class ESDContainer;
 
 __attribute__((visibility("hidden")))
 @interface OABReaderState
 {
     Class mClient;
-    NSMutableDictionary *mShapeIdMap;
-    NSMutableDictionary *mEshContentIdMap;
-    id <OADColorPalette> mColorPalette;
-    NSMutableArray *mGroupStack;
-    ESDContainer *mBstoreContainerHolder;
 }
 
 - (_Bool);
@@ -26,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (int);
 - (id);
@@ -34,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)16r^v24S32;
 - (void);
 - (Class);
 - (id);

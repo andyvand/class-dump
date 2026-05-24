@@ -5,5 +5,8 @@
 //
 
 @protocol CSClientXPCConnectionDelegate
+
+@optional
+- (void)m;
 @end
 

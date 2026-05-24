@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SASTTemplatePercentageRating;
+@class NSString;
 
 @interface SASTMovieStatItem : AceObject
 {
@@ -18,19 +18,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)v2;
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contentRating;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SASTTemplatePercentageRating *reviewerRating;
-@property(readonly) Class superclass;
 
 @end
 

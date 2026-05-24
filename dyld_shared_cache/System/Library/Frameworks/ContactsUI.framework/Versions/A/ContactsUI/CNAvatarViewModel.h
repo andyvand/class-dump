@@ -9,11 +9,6 @@
 @interface CNAvatarViewModel
 {
     _Bool _monogramOnly;
-    NSArray *_contacts;
-    NSArray *_likenesses;
-    long long _behavior;
-    unsigned long long _style;
-    unsigned long long _placeholderContactCount;
 }
 
 - (void);
@@ -35,16 +30,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)P;
+- (void)amework/Versions/A/IDS;
 
 // Remaining properties
-@property(nonatomic) long long behavior; // @synthesize behavior=_behavior;
 @property(retain, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(retain, nonatomic) NSArray *likenesses; // @synthesize likenesses=_likenesses;
-@property(nonatomic) _Bool monogramOnly; // @synthesize monogramOnly=_monogramOnly;
-@property(nonatomic) unsigned long long placeholderContactCount; // @synthesize placeholderContactCount=_placeholderContactCount;
-@property(nonatomic) unsigned long long style; // @synthesize style=_style;
 
 @end
 

@@ -7,24 +7,6 @@
 @interface RTLearnedRouteClusterStatisticsMetrics
 {
     float _clusterProcessingRunTimeAvg;
-    float _clusterProcessingRunTimeMax;
-    float _dtwForMatchedTripAvg;
-    float _dtwForMatchedTripMax;
-    float _dtwForUnmatchedTripAvg;
-    float _dtwForUnmatchedTripMax;
-    float _dtwForUnmatchedTripMin;
-    float _routeLengthAvg;
-    float _routeLengthMax;
-    float _tripsToFormLearnedRouteAvg;
-    int _tripsToFormLearnedRouteMax;
-    float _waypointCountAvg;
-    float _waypointCountMax;
-    int _numOfDaysSinceClusterTraversalMax;
-    int _numClustersBetweenODPairMax;
-    int _numRoadsDifferenceBetweenTripSegmentAndLearnedRoute;
-    int _learningPipelineDeferralCount;
-    float _tspRunTimeAvg;
-    float _tspRunTimeMax;
 }
 
 - (float);
@@ -42,9 +24,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,39 +37,21 @@
 - (int);
 - (int);
 - (int);
-- (id);
+- (id)type;
+- (float);
 - (float);
 - (float);
 - (float);
-- (float);
-- (float);
-- (float);
-- (float);
-- (void);
+- (float);
+- (float)y is valid for the current record. No need to recover via p_password;
+- (float)neration:%@ /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property float clusterProcessingRunTimeAvg; // @synthesize clusterProcessingRunTimeAvg=_clusterProcessingRunTimeAvg;
-@property float clusterProcessingRunTimeMax; // @synthesize clusterProcessingRunTimeMax=_clusterProcessingRunTimeMax;
-@property float dtwForMatchedTripAvg; // @synthesize dtwForMatchedTripAvg=_dtwForMatchedTripAvg;
-@property float dtwForMatchedTripMax; // @synthesize dtwForMatchedTripMax=_dtwForMatchedTripMax;
-@property float dtwForUnmatchedTripAvg; // @synthesize dtwForUnmatchedTripAvg=_dtwForUnmatchedTripAvg;
-@property float dtwForUnmatchedTripMax; // @synthesize dtwForUnmatchedTripMax=_dtwForUnmatchedTripMax;
-@property float dtwForUnmatchedTripMin; // @synthesize dtwForUnmatchedTripMin=_dtwForUnmatchedTripMin;
-@property int learningPipelineDeferralCount; // @synthesize learningPipelineDeferralCount=_learningPipelineDeferralCount;
-@property int numClustersBetweenODPairMax; // @synthesize numClustersBetweenODPairMax=_numClustersBetweenODPairMax;
-@property int numOfDaysSinceClusterTraversalMax; // @synthesize numOfDaysSinceClusterTraversalMax=_numOfDaysSinceClusterTraversalMax;
-@property int numRoadsDifferenceBetweenTripSegmentAndLearnedRoute; // @synthesize numRoadsDifferenceBetweenTripSegmentAndLearnedRoute=_numRoadsDifferenceBetweenTripSegmentAndLearnedRoute;
-@property float routeLengthAvg; // @synthesize routeLengthAvg=_routeLengthAvg;
-@property float routeLengthMax; // @synthesize routeLengthMax=_routeLengthMax;
-@property float tripsToFormLearnedRouteAvg; // @synthesize tripsToFormLearnedRouteAvg=_tripsToFormLearnedRouteAvg;
-@property int tripsToFormLearnedRouteMax; // @synthesize tripsToFormLearnedRouteMax=_tripsToFormLearnedRouteMax;
-@property float tspRunTimeAvg; // @synthesize tspRunTimeAvg=_tspRunTimeAvg;
-@property float tspRunTimeMax; // @synthesize tspRunTimeMax=_tspRunTimeMax;
-@property float waypointCountAvg; // @synthesize waypointCountAvg=_waypointCountAvg;
-@property float waypointCountMax; // @synthesize waypointCountMax=_waypointCountMax;
 
 @end
 

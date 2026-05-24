@@ -12,16 +12,16 @@
 }
 
 + (id);
-+ (_Bool)ew;
++ (_Bool)UITableViewCellDetailDisclosureView;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool)
 × ;
 - (_Bool)16@24;
-- (void)ForFullScreenSceneWithSceneIdentifier:(id)arg1;
-- (id)ct:withStyle:pressed: /* Error: Ran out of types for this method. */;
-- (id)nces;
+- (void)sizeForFullScreenSceneWithSceneIdentifier:(id)arg1;
+- (id)drawBackButtonBackgroundInRect:withStyle:pressed: /* Error: Ran out of types for this method. */;
+- (id)_allowsInferringPreferences;
 - (void)tyPropagationView.m;
 
 // Remaining properties

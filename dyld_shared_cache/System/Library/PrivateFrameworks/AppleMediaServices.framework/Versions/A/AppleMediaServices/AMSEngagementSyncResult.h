@@ -11,7 +11,7 @@
     NSArray *_actions;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);

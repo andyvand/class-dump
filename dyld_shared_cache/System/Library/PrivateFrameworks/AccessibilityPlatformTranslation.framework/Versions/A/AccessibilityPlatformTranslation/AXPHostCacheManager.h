@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol AXPHostCacheManagerDelegate, AXPTranslationTransportCancellable, AXPTranslationTransportDelegate;
+@protocol AXPTranslationTransportCancellable, AXPTranslationTransportDelegate;
 
 @interface AXPHostCacheManager
 {
     id <AXPTranslationTransportDelegate> _transportDelegate;
-    id <AXPHostCacheManagerDelegate> _managerDelegate;
-    id <AXPTranslationTransportCancellable> __transportChannel;
-    NSMutableDictionary *__tokenToOverlayViewLookup;
-    NSMutableDictionary *__tokenToDeviceSizeLookup;
-    unsigned long long _failedSendAttempts;
-    unsigned long long _cachedTreeClientType;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,26 +38,13 @@
 - (struct CGRect);
 - (struct CGRect);
 - (void);
-- (void);
-- (id);
+- (void)ll-attachment-item-plus-count-background;
+- (id)@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *_tokenToDeviceSizeLookup; // @synthesize _tokenToDeviceSizeLookup=__tokenToDeviceSizeLookup;
-@property(retain, nonatomic) NSMutableDictionary *_tokenToOverlayViewLookup; // @synthesize _tokenToOverlayViewLookup=__tokenToOverlayViewLookup;
 @property(retain, nonatomic) id <AXPTranslationTransportCancellable> _transportChannel; // @synthesize _transportChannel=__transportChannel;
-@property(nonatomic) unsigned long long cachedTreeClientType; // @synthesize cachedTreeClientType=_cachedTreeClientType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long failedSendAttempts; // @synthesize failedSendAttempts=_failedSendAttempts;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <AXPHostCacheManagerDelegate> managerDelegate; // @synthesize managerDelegate=_managerDelegate;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <AXPTranslationTransportDelegate> transportDelegate; // @synthesize transportDelegate=_transportDelegate;
 
 @end
 

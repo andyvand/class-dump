@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
+@class NSArray;
 
 @interface PGUpNextMemoriesGenerationRequest
 {
     _Bool _wantsVerboseDebugInfo;
-    unsigned short _sharingFilter;
-    NSString *_rootMemoryLocalIdentifier;
-    NSArray *_momentUUIDs;
-    NSSet *_memoryLocalIdentifiersToAvoid;
-    unsigned long long _targetUpNextMemoryCount;
-    NSArray *_customVectors;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (unsigned long long);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)_menuExtraItemsForSystemUIServer;
+- (id)AXKApplicationController assertApplicationQueue];
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned short);
-- (void)mportantSceneWeight;
+- (void)ImportantSceneWeight;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *customVectors; // @synthesize customVectors=_customVectors;
-@property(readonly, nonatomic) NSSet *memoryLocalIdentifiersToAvoid; // @synthesize memoryLocalIdentifiersToAvoid=_memoryLocalIdentifiersToAvoid;
-@property(readonly, nonatomic) NSArray *momentUUIDs; // @synthesize momentUUIDs=_momentUUIDs;
-@property(readonly, nonatomic) NSString *rootMemoryLocalIdentifier; // @synthesize rootMemoryLocalIdentifier=_rootMemoryLocalIdentifier;
-@property(readonly, nonatomic) unsigned short sharingFilter; // @synthesize sharingFilter=_sharingFilter;
-@property(readonly, nonatomic) unsigned long long targetUpNextMemoryCount; // @synthesize targetUpNextMemoryCount=_targetUpNextMemoryCount;
-@property(readonly, nonatomic) _Bool wantsVerboseDebugInfo; // @synthesize wantsVerboseDebugInfo=_wantsVerboseDebugInfo;
 
 @end
 

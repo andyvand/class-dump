@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFPunchout;
+@class NSString;
 
 @protocol SFUserReportRequest
+- (void);
 - (NSString *)howWrapperResponseViewCommand";
 
 // Remaining properties
 @property(copy, nonatomic) NSString *affordanceText;
-@property(copy, nonatomic) NSString *attachmentSectionTitle;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFPunchout *disclaimerLearnMorePunchout;
-@property(copy, nonatomic) NSString *disclaimerText;
-@property(copy, nonatomic) NSString *dismissText;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *reportOptionsSectionTitle;
-@property(nonatomic) int reportType;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSArray *userReportOptions;
 @end
 

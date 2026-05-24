@@ -4,49 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOPlaceFormattedString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOAlertNonRecommendedRouteText
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPlaceFormattedString *_body;
-    GEOFormattedString *_responseAlertPrimary;
-    GEOFormattedString *_responseAlertSecondary;
-    GEOPlaceFormattedString *_title;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_body:1;
-        unsigned int read_responseAlertPrimary:1;
-        unsigned int read_responseAlertSecondary:1;
-        unsigned int read_title:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)xFormatterSupported:(id)arg1;
++ (_Bool)setHasMaxFormatterSupported:(id)arg1;
 - (void);
+- (void);
+- (id)active;
+- (id)accountsWithAccountType: /* Error: Ran out of types for this method. */;
+- (_Bool)c Eritrea;
+- (_Bool)State, City, Country;
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void);
+- (void)_siriLocale;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool){;
+- (void)_showsArrow;
+- (_Bool);
 - (_Bool);
 - (id);
 - (void)0@ù
@@ -54,23 +38,15 @@
 - (void)!Aù±¹*ð1Â0@ù
 × ;
 - (_Bool)alidLanes"b1"has_startOffsetCm"b1};
-- (id)nWhenRenderedInFullScreen;
+- (id)needsObfuscationWhenRenderedInFullScreen;
 - (id)Ô34L;>ô>\??AÜAB`C;
-- (id)onHadShareAction;
+- (id)lookaroundSessionHadShareAction;
 - (id);
 - (id)ÿÿÿÿ;
 - (void)À[ÿ±È;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPlaceFormattedString *body;
-@property(readonly, nonatomic) _Bool hasBody;
 @property(readonly, nonatomic) _Bool hasResponseAlertPrimary;
-@property(readonly, nonatomic) _Bool hasResponseAlertSecondary;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) GEOFormattedString *responseAlertPrimary;
-@property(retain, nonatomic) GEOFormattedString *responseAlertSecondary;
-@property(retain, nonatomic) GEOPlaceFormattedString *title;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

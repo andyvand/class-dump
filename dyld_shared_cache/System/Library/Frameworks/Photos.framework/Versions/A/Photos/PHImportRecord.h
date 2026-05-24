@@ -6,58 +6,43 @@
 
 #import <Photos/PHImportExceptionRecorder.h>
 
-@class NSMutableArray, NSString, PHImportAsset, PHImportTimerCollection;
+@class NSMutableArray, NSString;
 
 @interface PHImportRecord : PHImportExceptionRecorder
 {
     NSString *_rawAssetIdentifier;
-    _Bool _referencedImport;
-    unsigned char _importType;
-    NSString *_assetIdentifier;
-    PHImportAsset *_importAsset;
-    NSMutableArray *_relatedRecords;
-    NSString *_downloadedPath;
-    PHImportTimerCollection *_timers;
 }
 
-- (void);
+- (void)%;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (id);
 - (_Bool);
 - (id);
 - (unsigned char);
 - (id);
+- (id)	?׀	;
+- (id);
+- (void);
+- (_Bool)A;
+- (id);
+- (id)m;
+- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)l;
 - (id);
 - (void)AImageConversionServiceClient",&,N,V_imageConversionServiceClient;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assetIdentifier; // @synthesize assetIdentifier=_assetIdentifier;
-@property(readonly) _Bool canReference;
-@property(retain, nonatomic) NSString *downloadedPath; // @synthesize downloadedPath=_downloadedPath;
-@property(retain, nonatomic) PHImportAsset *importAsset; // @synthesize importAsset=_importAsset;
-@property(nonatomic) unsigned char importType; // @synthesize importType=_importType;
-@property(readonly, nonatomic) NSString *rawAssetIdentifier;
-@property(nonatomic) _Bool referencedImport; // @synthesize referencedImport=_referencedImport;
 @property(retain, nonatomic) NSMutableArray *relatedRecords; // @synthesize relatedRecords=_relatedRecords;
-@property(retain, nonatomic) PHImportTimerCollection *timers; // @synthesize timers=_timers;
 
 @end
 

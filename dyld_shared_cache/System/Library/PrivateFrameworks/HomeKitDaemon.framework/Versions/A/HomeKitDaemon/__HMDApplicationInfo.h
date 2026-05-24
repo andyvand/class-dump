@@ -6,13 +6,10 @@
 
 #import <HomeKitDaemon/__HMDBundleApplicationInfo.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface __HMDApplicationInfo : __HMDBundleApplicationInfo
 {
     _Bool _installed;
-    NSData *_vendorIdentifier;
 }
 
 - (id);

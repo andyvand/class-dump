@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSString;
 
 @interface _SFReaderExtractedData
 {
     NSString *_title;
-    NSString *_author;
-    NSString *_publishedDate;
-    NSData *_body;
-    NSURL *_mainImageURL;
-    NSURL *_url;
 }
 
-+ (_Bool);
++ (_Bool)safari_indexOfIdentifier:forWBSProperty: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (id)d,R,N,V_upperBound;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id))	;
 - (id);
 - (id);
 - (void);
 - (id)@"NSData",R,C,N;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *author; // @synthesize author=_author;
-@property(readonly, nonatomic) NSData *body; // @synthesize body=_body;
-@property(readonly, nonatomic) NSURL *mainImageURL; // @synthesize mainImageURL=_mainImageURL;
-@property(readonly, copy, nonatomic) NSString *publishedDate; // @synthesize publishedDate=_publishedDate;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

@@ -8,12 +8,6 @@
 {
     id applicationPolicyManager;
     id callCenter;
-    id sharePlayManager;
-    id appNameFetcher;
-    id appIconFetcher;
-    id logger;
-    id _sharePlaySettings;
-    id queue;
 }
 
 - (void);

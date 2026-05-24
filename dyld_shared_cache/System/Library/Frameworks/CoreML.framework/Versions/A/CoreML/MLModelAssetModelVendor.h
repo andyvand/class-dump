@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, MLModelAssetResourceFactory, MLModelConfiguration;
+@class MLModelAssetResourceFactory;
 
 __attribute__((visibility("hidden")))
 @interface MLModelAssetModelVendor
 {
     struct os_unfair_lock_s _lock;
-    MLModelAssetResourceFactory *_resourceFactory;
-    MLModelConfiguration *_cachedConfiguration;
-    MLModel *_cachedModel;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)P;
 - (void);
 - (id);
 - (id);
-- (id)r;
+- (void);
+- (id);
+- (id);
+- (id)MLNeuralNetworkContainer;
 - (void)Unknown;
 
 // Remaining properties
-@property(copy, nonatomic) MLModelConfiguration *cachedConfiguration; // @synthesize cachedConfiguration=_cachedConfiguration;
-@property(retain, nonatomic) MLModel *cachedModel; // @synthesize cachedModel=_cachedModel;
 @property(readonly, nonatomic) MLModelAssetResourceFactory *resourceFactory; // @synthesize resourceFactory=_resourceFactory;
 
 @end

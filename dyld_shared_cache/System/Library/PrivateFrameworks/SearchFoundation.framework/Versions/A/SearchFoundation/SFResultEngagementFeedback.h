@@ -9,10 +9,6 @@
 @interface SFResultEngagementFeedback : SFResultFeedback
 {
     _Bool _actionEngaged;
-    _Bool _matchesUnengagedSuggestion;
-    unsigned long long _triggerEvent;
-    unsigned long long _destination;
-    unsigned long long _actionTarget;
 }
 
 + (_Bool);
@@ -23,21 +19,17 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)b;
+- (id)size;
 - (unsigned long long);
-- (void);
-- (id);
+- (void),N,V_attenuationRampInStartTime;
+- (id)rySource.m;
 - (void);
 - (void)îça;
 - (unsigned long long)§z;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool actionEngaged; // @synthesize actionEngaged=_actionEngaged;
-@property(nonatomic) unsigned long long actionTarget; // @synthesize actionTarget=_actionTarget;
-@property(nonatomic) unsigned long long destination; // @synthesize destination=_destination;
-@property(nonatomic) _Bool matchesUnengagedSuggestion; // @synthesize matchesUnengagedSuggestion=_matchesUnengagedSuggestion;
-@property(nonatomic) unsigned long long triggerEvent; // @synthesize triggerEvent=_triggerEvent;
 
 @end
 

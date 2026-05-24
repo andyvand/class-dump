@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSAECoercerData
 {
     id coercer;
-    SEL selector;
 }
 
 - (id);

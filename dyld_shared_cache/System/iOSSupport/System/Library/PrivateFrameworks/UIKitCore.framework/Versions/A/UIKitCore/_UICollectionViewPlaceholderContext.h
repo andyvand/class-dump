@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, NSUUID, UIDragItem, _UIDropAnimationHandlers;
+@class NSUUID;
 @protocol _UICollectionViewPlaceholderContextDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewPlaceholderContext
 {
     NSUUID *_shadowUpdateIdentifier;
-    NSString *_reuseIdentifier;
-    NSIndexPath *_originalInsertionIndexPath;
-    CDUnknownBlockType _cellUpdateHandler;
-    _UIDropAnimationHandlers *_animationHandlers;
-    id <_UICollectionViewPlaceholderContextDelegate> _delegate;
-    UIDragItem *_dragItem;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)er"16@"IMDRelayGroupMutationMessage"24@"NSNumber"32@"NSNumber"40@"NSData"48@"NSString"56B64;
+- (void)syncToken;
+- (void)streamEventID;
+- (void)scheduleTypeWithBlastDoorTextMessage:(id)arg1;
+- (void)provideFileURLsForBundleID:(CDUnknownBlockType)arg1 protectionClass:itemIdentifiers:typeIdentifier:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)notifyForSpotlightEvents;
+- (id)clearRecoverableMessageTombStones;
+- (id)_crossServiceDeduplicationMechanism;
+- (id)IMTextMessageProcessingParameter;
 - (_Bool);
 - (_Bool);
 - (CDUnknownBlockType);
@@ -38,25 +32,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)ceneClass;
+- (void)sceneClass;
 - (void)ÔÊ7b;
 - (void)h0b;
 
 // Remaining properties
-@property(retain, nonatomic) _UIDropAnimationHandlers *animationHandlers; // @synthesize animationHandlers=_animationHandlers;
-@property(copy, nonatomic) CDUnknownBlockType cellUpdateHandler; // @synthesize cellUpdateHandler=_cellUpdateHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_UICollectionViewPlaceholderContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIDragItem *dragItem; // @synthesize dragItem=_dragItem;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSIndexPath *originalInsertionIndexPath; // @synthesize originalInsertionIndexPath=_originalInsertionIndexPath;
-@property(retain, nonatomic) NSString *reuseIdentifier; // @synthesize reuseIdentifier=_reuseIdentifier;
-@property(retain, nonatomic) NSUUID *shadowUpdateIdentifier; // @synthesize shadowUpdateIdentifier=_shadowUpdateIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,9 +10,6 @@
 @interface AVAssetResourceLoaderRemoteHandlerContext
 {
     NSObject<OS_xpc_object> *_endpoint;
-    unsigned long long _customURLHandlerObjectID;
-    unsigned long long _authHandlerObjectID;
-    unsigned long long _contentKeySessionHandlerObjectID;
 }
 
 + (_Bool);
@@ -21,14 +18,11 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
+- (id)b;
 - (id);
-- (id);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long authHandlerObjectID; // @synthesize authHandlerObjectID=_authHandlerObjectID;
-@property(readonly, nonatomic) unsigned long long contentKeySessionHandlerObjectID; // @synthesize contentKeySessionHandlerObjectID=_contentKeySessionHandlerObjectID;
-@property(readonly, nonatomic) unsigned long long customURLHandlerObjectID; // @synthesize customURLHandlerObjectID=_customURLHandlerObjectID;
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *endpoint; // @synthesize endpoint=_endpoint;
 
 @end

@@ -7,8 +7,6 @@
 @interface (extension in SwiftUI):Foundation.AttributedString.PasteboardOwner
 {
     id content;
-    id environment;
-    id changeCount;
 }
 
 - (void);

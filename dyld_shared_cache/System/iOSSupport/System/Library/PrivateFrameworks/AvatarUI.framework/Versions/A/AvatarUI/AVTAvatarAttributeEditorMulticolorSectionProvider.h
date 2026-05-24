@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarAttributeEditorMulticolorPickerSection, AVTAvatarAttributeEditorSectionSupplementalPicker, AVTAvatarAttributeEditorState, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface AVTAvatarAttributeEditorMulticolorSectionProvider
 {
     _Bool _allowsRemoval;
-    NSArray *_subsections;
-    NSDictionary *_nestedPresetPickers;
-    NSArray *_subpickerRemovalUpdaters;
-    NSString *_identifier;
-    NSString *_localizedName;
-    AVTAvatarAttributeEditorMulticolorPickerSection *_pickerSection;
-    NSArray *_pickerItems;
-    NSArray *_subpickers;
-    AVTAvatarAttributeEditorSectionSupplementalPicker *_supplementalPicker;
-    AVTAvatarAttributeEditorState *_editorState;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,26 +30,15 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)-+;
+- (void)DStoreOIDArray=}^{__MDPlistBytes=}@"NSString">32;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)__objc_classname__TEXT;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=allowsRemoval) _Bool allowsRemoval; // @synthesize allowsRemoval=_allowsRemoval;
-@property(readonly, nonatomic) AVTAvatarAttributeEditorState *editorState; // @synthesize editorState=_editorState;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(retain, nonatomic) NSDictionary *nestedPresetPickers; // @synthesize nestedPresetPickers=_nestedPresetPickers;
-@property(retain, nonatomic) NSArray *pickerItems; // @synthesize pickerItems=_pickerItems;
-@property(retain, nonatomic) AVTAvatarAttributeEditorMulticolorPickerSection *pickerSection; // @synthesize pickerSection=_pickerSection;
-@property(readonly, copy, nonatomic) NSArray *sections;
-@property(readonly, nonatomic) NSArray *subpickerRemovalUpdaters; // @synthesize subpickerRemovalUpdaters=_subpickerRemovalUpdaters;
-@property(retain, nonatomic) NSArray *subpickers; // @synthesize subpickers=_subpickers;
-@property(readonly, nonatomic) NSArray *subsections; // @synthesize subsections=_subsections;
-@property(retain, nonatomic) AVTAvatarAttributeEditorSectionSupplementalPicker *supplementalPicker; // @synthesize supplementalPicker=_supplementalPicker;
 
 @end
 

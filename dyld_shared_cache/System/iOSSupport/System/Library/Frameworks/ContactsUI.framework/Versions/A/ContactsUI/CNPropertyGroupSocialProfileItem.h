@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)aybackErrorTransforming:Unhandled ICKeyServerError error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

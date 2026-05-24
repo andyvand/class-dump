@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, OS_remote_device;
+@class OS_remote_device;
 
 @interface BOSDevice
 {
     _Bool _productionStatus;
-    _Bool _isAppleInternal;
-    NSString *_buildVersion;
-    NSString *_bridgeVersion;
-    NSString *_hardwareModel;
-    OS_remote_device *_device;
 }
 
 - (void);
@@ -34,12 +29,7 @@
 - (id)cting brain bundle from package component:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSString *bridgeVersion; // @synthesize bridgeVersion=_bridgeVersion;
-@property(retain) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
 @property(retain) OS_remote_device *device; // @synthesize device=_device;
-@property(retain) NSString *hardwareModel; // @synthesize hardwareModel=_hardwareModel;
-@property _Bool isAppleInternal; // @synthesize isAppleInternal=_isAppleInternal;
-@property _Bool productionStatus; // @synthesize productionStatus=_productionStatus;
 
 @end
 

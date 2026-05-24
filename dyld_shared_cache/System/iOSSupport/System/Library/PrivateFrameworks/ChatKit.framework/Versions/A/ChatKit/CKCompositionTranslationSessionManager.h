@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKCompositionTranslator;
 @protocol CKCompositionTranslationSessionManagerDelegate;
 
 @interface CKCompositionTranslationSessionManager
 {
     void delegate;
-    id _translator;
-    id _translationVersion;
-    id _translationResultVersion;
-    id _sessionIdentifier;
 }
 
 - (long long);
 - (long long);
-- (void);
+- (void)w image integrity;
 - (void);
 - (void);
 - (void);
@@ -31,9 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <CKCompositionTranslationSessionManagerDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, readonly) long long translationResultVersion;
-@property(nonatomic, readonly) long long translationVersion;
-@property(nonatomic, readonly) CKCompositionTranslator *translator;
 
 @end
 

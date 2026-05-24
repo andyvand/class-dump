@@ -9,8 +9,6 @@
 @interface SFTokenBucketWithDups
 {
     SFTokenBucket *_bucket;
-    unsigned long long _maxDups;
-    struct __CFArray *_dups;
 }
 
 - (void);

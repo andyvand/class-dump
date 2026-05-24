@@ -6,41 +6,30 @@
 
 #import <UIKitCore/_UIFeedback.h>
 
-@class CHHapticPattern, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIFeedbackLibraryPattern : _UIFeedback
 {
     NSString *_libraryKey;
-    CHHapticPattern *_pattern;
-    _Bool _highPriority;
 }
 
-+ (id);
++ (id);
 + (id)CGSize=dd}}16d48B56B60;
 + (_Bool)ry<NSString *,NSObject *> *(^__strong)(void));
-- (id);
-- (id);
+- (id)isMessageSentFromMe;
+- (id)currentRemoteDevicesForDestinations:(id)arg1 service:listenerID:queue:completionBlock: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (_Bool)r:(id)arg1;
+- (_Bool)styleForContentColor:(id)arg1;
 - (id)noreApplicationEntitlementForImport,S_setIgnoreApplicationEntitlementForImport:(struct _NSZone *)arg1 ,V_ignoreApplicationEntitlementForImport;
 - (id);
 - (id)LÅîÿ¼vþÿ;
-- (id)utF7;
+- (id)UIKeyInputF7;
 - (void)G;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHighPriority) _Bool highPriority; // @synthesize highPriority=_highPriority;
 @property(readonly, nonatomic) NSString *libraryKey; // @synthesize libraryKey=_libraryKey;
-@property(readonly, nonatomic) CHHapticPattern *pattern;
-@property(readonly) Class superclass;
 
 @end
 

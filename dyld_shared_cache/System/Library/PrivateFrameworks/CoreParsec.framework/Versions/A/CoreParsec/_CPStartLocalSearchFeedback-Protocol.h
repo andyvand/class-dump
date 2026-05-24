@@ -7,39 +7,28 @@
 @class NSData, NSString, _CPIndexStateForFeedback, _CPPerformEntityQueryCommandForFeedback;
 
 @protocol _CPStartLocalSearchFeedback
+- (_CPIndexStateForFeedback *);
+- (void)0;
+- (NSData *);
+- (void)CNAutocompleteFetchDelegate;
+- (int);
+- (NSString *)ld;
+- (int)T;
 - (void):(int)arg1 Ð! AùqÆ!1Â0@ù
 × ;
-- (int)bjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (int)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
 - (void)semanticScore;
 - (void)T@"NSString",R,N,G_poiSurveyURLString;
 - (void)ninViewState;
-- (void);
 - (unsigned int)ÿÿ;
-- (void)laceCardSection;
-- (void)umber;
+- (void)SFMapPlaceCardSection;
+- (void)carrier_phone_number;
 - (void)Å¢ÆFSg;
 - (void)3CySs_SstG;
 - (_CPPerformEntityQueryCommandForFeedback *)ath:/System/Library/PrivateFrameworks/DialogEngine.framework/DialogEngine /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
-@property(nonatomic) int coreSpotlightIndexUsed;
-@property(retain, nonatomic) _CPPerformEntityQueryCommandForFeedback *entityQueryCommand;
-@property(retain, nonatomic) _CPIndexStateForFeedback *indexState;
-@property(nonatomic) int indexType;
-@property(copy, nonatomic) NSString *input;
-@property(nonatomic) unsigned int inputCharCount;
-@property(nonatomic) unsigned int inputWordCount;
-@property(nonatomic) _Bool isPhotosScopedSearch;
-@property(nonatomic) _Bool isSemanticSearchEligible;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *originatingApp;
-@property(nonatomic) unsigned long long queryId;
-@property(nonatomic) int searchType;
-@property(nonatomic) int spotlightBrowsingSearchScope;
-@property(nonatomic) int spotlightInitialPageType;
 @property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) int triggerEvent;
-@property(copy, nonatomic) NSString *uuid;
 @end
 

@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_queue> *queue;
 }
 
-- (void);
-- (void);
+- (void)89;
+- (void)ting to create CFData with %p and length:(CDUnknownBlockType)arg1 %d;
 - (void);
 - (id);
 - (void);

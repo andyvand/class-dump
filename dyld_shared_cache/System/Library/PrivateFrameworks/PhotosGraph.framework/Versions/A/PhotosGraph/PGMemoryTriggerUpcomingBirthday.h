@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)ents.framework/Versions/A/AccessibilityEvents;
+- (id)__gcc_except_tab__TEXT;
+- (unsigned long long)le.mail;
 
 @end
 

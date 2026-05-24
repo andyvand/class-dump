@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     struct sqlite3_stmt *_statement;
 }
 
-- (struct sqlite3_stmt *)set;
+- (struct sqlite3_stmt *)sequenceBindOffset;
 - (id)rging results;
 
 // Remaining properties

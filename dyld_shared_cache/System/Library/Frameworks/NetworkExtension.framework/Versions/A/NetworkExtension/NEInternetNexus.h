@@ -11,7 +11,6 @@
 @interface NEInternetNexus : NENexus
 {
     struct nw_protocol *_utunProtocol;
-    NWRemotePacketProxy *_packetProxy;
 }
 
 - (_Bool);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain) NWRemotePacketProxy *packetProxy; // @synthesize packetProxy=_packetProxy;
-@property(readonly) struct NEVirtualInterface_s *virtualInterface; // @dynamic virtualInterface;
 
 @end
 

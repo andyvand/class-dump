@@ -5,17 +5,10 @@
 //
 
 @class CIImage;
-@protocol CNPhotoLikenessEditorCroppingDataSource;
 
 @interface CNPhotoLikenessEditorCroppingView
 {
     _Bool _shouldUpdateCropRect;
-    id <CNPhotoLikenessEditorCroppingDataSource> _croppingDataSource;
-    double _zoomPosition;
-    double _cornerRadius;
-    CIImage *_currentImage;
-    double _fittingZoom;
-    long long _zoomIndex;
 }
 
 + (double);
@@ -26,18 +19,18 @@
 + (struct CGPoint);
 - (double);
 - (long long);
-- (double);
+- (double);
+- (void));
+- (void)R;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
+- (void)lM9;
+- (void)V;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (struct CGPoint);
 - (void);
 - (double);
@@ -46,7 +39,7 @@
 - (struct CGImage *);
 - (void);
 - (void);
-- (id);
+- (id)Ybc_G;
 - (void);
 - (id);
 - (double);
@@ -55,13 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) __weak id <CNPhotoLikenessEditorCroppingDataSource> croppingDataSource; // @synthesize croppingDataSource=_croppingDataSource;
 @property(retain, nonatomic) CIImage *currentImage; // @synthesize currentImage=_currentImage;
-@property(nonatomic) double fittingZoom; // @synthesize fittingZoom=_fittingZoom;
-@property(nonatomic) _Bool shouldUpdateCropRect; // @synthesize shouldUpdateCropRect=_shouldUpdateCropRect;
-@property(nonatomic) long long zoomIndex; // @synthesize zoomIndex=_zoomIndex;
-@property(nonatomic) double zoomPosition; // @synthesize zoomPosition=_zoomPosition;
 
 @end
 

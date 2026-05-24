@@ -7,14 +7,6 @@
 @interface NewsUI2.TipConfigFactory
 {
     id appConfigurationManager;
-    id featureAvailability;
-    id userInfo;
-    id subscriptionController;
-    id bundleSubscriptionDetectionManager;
-    id bundleSubscriptionManager;
-    id gameCenterService;
-    id maxPuzzleLeaderboardsInfoBubbleTipPresentations;
-    id tipGroupFactory;
 }
 
 @end

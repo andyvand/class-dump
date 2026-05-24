@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXExtendedTraitCollection, PXStoryChromeButtonSpec;
+@class PXStoryChromeButtonSpec;
 
 @interface PXStoryPlayButtonSpec
 {
     PXStoryChromeButtonSpec *_chromeButtonSpec;
-    double _playButtonProgressIndicatorLineWidth;
 }
 
 - (double);
@@ -20,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryChromeButtonSpec *chromeButtonSpec; // @synthesize chromeButtonSpec=_chromeButtonSpec;
-@property(readonly, nonatomic) PXExtendedTraitCollection *extendedTraitCollection;
-@property(readonly, nonatomic) double playButtonProgressIndicatorLineWidth; // @synthesize playButtonProgressIndicatorLineWidth=_playButtonProgressIndicatorLineWidth;
 
 @end
 

@@ -10,27 +10,24 @@ __attribute__((visibility("hidden")))
 @interface UIKBAutoFillTestTableViewDataSource
 {
     NSMutableDictionary *_rowCountMap;
-    NSMutableDictionary *_visibleCellDataMap;
-    NSMutableDictionary *_headerDataMap;
-    NSMutableDictionary *_footerDataMap;
 }
 
 - (id);
+- (id)N;
+- (id);
+- (void)ed error %@;
+- (void)%@;
+- (void)shed Sync;
+- (void)omming pin code alert from a non SMS Device;
+- (double)UID:(id)arg1 ];
+- (double)igner compareMessageToOtherMessagesWithSameReplyToGUIDAndAssignSortID:(long long)arg1 existingMessagesWithSameReplyToGUID:] /* Error: Ran out of types for this method. */;
+- (double)/body></html>;
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (long long)SearchingStyles;
+- (long long)_UITextSearchingStyles;
 - (long long)L;
 - (void)XGg;
 

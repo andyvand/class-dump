@@ -6,37 +6,33 @@
 
 #import <Photos/PHFetchResult.h>
 
-@class NSArray, NSOrderedSet, NSString, PHGraphQuery, PHPhotoLibrary;
+@class NSArray, NSOrderedSet;
 
 @interface PHManualFetchResult : PHFetchResult
 {
     NSOrderedSet *_objectIDs;
-    PHPhotoLibrary *_photoLibrary;
-    PHGraphQuery *_graphQuery;
-    NSArray *_objects;
-    NSString *_identifier;
 }
 
 + (id);
 + (id);
 - (id);
+- (id)compareVectorDirectionsFirstVector:secondVector: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)A;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
+- (id)t:canceled data task:%{public}@. loadingRequest=%p URL=%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)@?24;
+- (id)_mergeDuplicateSavedAccountsWithPasswordsOnInternalQueueForGroupID:(id)arg1;
+- (_Bool)4;
 - (void);
 - (id);
 - (id);
@@ -50,12 +46,10 @@
 - (id);
 - (void)ettings",R,V_cplSettings;
 - (id)PHPhotosErrorLibraryImportIsLegacyLibrary;
-- (_Bool)ck_invoke_80;
+- (_Bool)PHQueryForAssetInAlbumKind_FacesStandIn_block_invoke_80;
 - (id)ed argument;
 
 // Remaining properties
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) NSOrderedSet *objectIDs;
 @property(readonly) NSArray *objects; // @synthesize objects=_objects;
 
 @end

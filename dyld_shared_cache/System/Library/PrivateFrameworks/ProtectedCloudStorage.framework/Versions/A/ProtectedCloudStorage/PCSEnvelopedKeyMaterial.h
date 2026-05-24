@@ -10,17 +10,13 @@ __attribute__((visibility("hidden")))
 @interface PCSEnvelopedKeyMaterial
 {
     NSData *_encryptedSeed;
-    NSData *_masterKeyId;
-    int _version;
-    struct {
-        unsigned int version:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)
+k;
+- (_Bool)8jjj8;
 - (_Bool);
 - (id);
 - (int);
@@ -32,21 +28,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)>;
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
 - (_Bool);
-- (void);
+- (void)tion (%@). Resetting Generator caches.;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *encryptedSeed; // @synthesize encryptedSeed=_encryptedSeed;
-@property(readonly, nonatomic) _Bool hasEncryptedSeed;
-@property(readonly, nonatomic) _Bool hasMasterKeyId;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSData *masterKeyId; // @synthesize masterKeyId=_masterKeyId;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

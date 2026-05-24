@@ -4,33 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NewsArticles.SliderView
 {
     id stackView;
-    id elapsedTrack;
-    id remainingTrack;
-    id $__lazy_storage_$_elapsedTrackWidthConstraint;
-    id $__lazy_storage_$_trackHeightConstraint;
-    id feedbackGenerator;
-    id startingWidth;
-    id lastSeenBounds;
-    id $__lazy_storage_$_panRecognizer;
-    id trackLayoutGuide;
-    id elapsedTrackColor;
-    id remainingTrackColor;
-    id trackingColor;
-    id value;
-    id isEnabled;
-    id isTracking;
-    id valueChangedHandler;
 }
 
 - (void);
 - (void);
 - (struct CGPoint);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -39,11 +21,9 @@
 - (id);
 - (void);
 - (void);
-- (void)dler;
+- (void)urlHandler;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint accessibilityActivationPoint;
-@property(nonatomic, copy) NSString *accessibilityValue;
 @property(nonatomic) long long semanticContentAttribute;
 
 @end

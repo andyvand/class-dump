@@ -9,7 +9,7 @@
 @protocol UIDropInteractionContext
 - (long long)!PBù±c1Â0@ù
 × ;
-- (NSArray *)vailable;
+- (NSArray *)protectedDataAvailable;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *items;

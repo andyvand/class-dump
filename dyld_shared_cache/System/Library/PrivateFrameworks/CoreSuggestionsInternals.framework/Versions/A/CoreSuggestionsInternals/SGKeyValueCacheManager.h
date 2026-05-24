@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface SGKeyValueCacheManager
 {
     NSString *_basePath;
-    NSMutableArray *_cacheFiles;
-    struct _opaque_pthread_mutex_t _lock;
 }
 
 - (id);
 - (void);
+- (id)D(;
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (void);
-- (void);
+- (void)xEK;
 - (void);
 
 @end

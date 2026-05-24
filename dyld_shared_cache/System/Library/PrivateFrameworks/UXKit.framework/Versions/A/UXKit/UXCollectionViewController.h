@@ -6,15 +6,14 @@
 
 #import <UXKit/UXViewController.h>
 
-@class NSString, UXCollectionView, UXCollectionViewLayout;
+@class UXCollectionView, UXCollectionViewLayout;
 
 @interface UXCollectionViewController : UXViewController
 {
     UXCollectionViewLayout *_layout;
-    UXCollectionView *_collectionView;
 }
 
-+ (Class);
++ (Class);
 - (id);
 - (double);
 - (void);
@@ -30,13 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UXCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,48 +7,34 @@
 @class IMMessage, NSDictionary, NSError, NSString, NSURL;
 
 @protocol CKFileTransfer
+- (void)setShouldAutoExpandSingleSection:(IMMessage *)arg1;
+- (void)cachedControlViewForPlaceView;
+- (void)bulletTextAttributesWithTextFont:paragraphStyle:zoomFactor: /* Error: Ran out of types for this method. */;
+- (_Bool)_shouldIncludeTagOperator;
+- (_Bool)_readWriteSharedSubObjectsInSource;
+- (_Bool)_pendingSeekTime;
+- (NSString *)_lineHeight;
+- (id)_keepAlive;
+- (id)_latestDrawing;
+- (_Bool)fallbackPDFData;
+- (void)W,N,V_invalidHighlightsTextStorage;
+- (NSURL *)dispatch_queueCG;
+- (_Bool)attachment thumbnail operation;
+- (IMMessage *)tachment:%@ /* Error: Ran out of types for this method. */;
+- (id)%@;
+- (_Bool);
+- (NSError *);
+- (long long);
+- (_Bool);
 - (NSString *)Üt;
 - (NSString *)med out while fetching num saved. Assuming none are saved.;
-- (NSURL *)ettingTrait;
+- (NSURL *)CKSystemGlassLegibilitySettingTrait;
+
+@optional
+- (id)dler:(NSURL *)arg1;
+- (id)me:(NSURL *)arg1 decisionHandler:(NSDictionary *)arg2;
 
 // Remaining properties
 @property(retain, nonatomic) IMMessage *IMMessage;
-@property(readonly, copy, nonatomic) NSString *adaptiveImageGlyphContentDescription;
-@property(readonly, copy, nonatomic) NSString *adaptiveImageGlyphContentIdentifier;
-@property(readonly, copy, nonatomic) NSURL *animatedImageCacheURL;
-@property(readonly, copy, nonatomic) NSDictionary *attributionInfo;
-@property(readonly, nonatomic) NSString *audioTranscriptionText;
-@property(readonly, nonatomic) long long commSafetySensitive;
-@property(readonly, nonatomic) unsigned long long currentBytes;
-@property(readonly, nonatomic, getter=isDownloadable) _Bool downloadable;
-@property(readonly, nonatomic, getter=isDownloading) _Bool downloading;
-@property(readonly, copy, nonatomic) NSError *error;
-@property(readonly, nonatomic, getter=isFileDataReady) _Bool fileDataReady;
-@property(readonly, nonatomic) _Bool fileIsAnimated;
-@property(readonly, copy, nonatomic) NSURL *fileURL;
-@property(readonly, nonatomic, getter=isFileURLFinalized) _Bool fileURLFinalized;
-@property(readonly, copy, nonatomic) NSString *filename;
-@property(readonly, copy, nonatomic) NSString *guid;
-@property(readonly, nonatomic) _Bool hideAttachment;
-@property(readonly, copy, nonatomic) NSString *irisVideoPath;
-@property(readonly, nonatomic) _Bool isAdaptiveImageGlyph;
-@property(readonly, nonatomic) _Bool isDirectory;
-@property(readonly, nonatomic) _Bool isFromMomentShare;
-@property(readonly, nonatomic) _Bool isIrisAsset;
-@property(readonly, nonatomic) _Bool isScreenshot;
-@property(readonly, nonatomic) _Bool isSticker;
-@property(readonly, copy, nonatomic) NSString *originalFilename;
-@property(readonly, nonatomic) long long previewGenerationState;
-@property(readonly, nonatomic, getter=isRejected) _Bool rejected;
-@property(readonly, nonatomic, getter=isReset) _Bool reset;
-@property(readonly, nonatomic, getter=isRestoring) _Bool restoring;
-@property(readonly, copy, nonatomic) NSURL *shareURL;
-@property(nonatomic) unsigned long long stickerEffectType;
-@property(readonly, copy, nonatomic) NSDictionary *stickerUserInfo;
-@property(readonly, nonatomic, getter=isThumbnail) _Bool thumbnail;
-@property(readonly, copy, nonatomic) NSURL *thumbnailURL;
-@property(readonly, nonatomic) unsigned long long totalBytes;
-@property(readonly, copy, nonatomic) NSDictionary *transcoderUserInfo;
-@property(readonly, nonatomic) long long updateReason;
 @end
 

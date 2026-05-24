@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKMerchant;
+@class NSString;
 
 @interface PKSearchDisplayNameResult
 {
     NSString *_displayName;
-    PKMerchant *_merchant;
-    NSString *_orderSpotlightDisplayName;
 }
 
-+ (_Bool);
++ (_Bool)__auth_got;
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)*
+?=;
 - (id);
-- (id);
-- (unsigned long long);
+- (id)`;
+- (unsigned long long)";
 - (id);
 - (_Bool);
-- (void);
-- (void)udedTransactionSourceIdentifiers;
+- (void)_netscoreHealthBeforeDecision;
+- (void)excludedTransactionSourceIdentifiers;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKMerchant *merchant; // @synthesize merchant=_merchant;
-@property(retain, nonatomic) NSString *orderSpotlightDisplayName; // @synthesize orderSpotlightDisplayName=_orderSpotlightDisplayName;
-@property(readonly) Class superclass;
 
 @end
 

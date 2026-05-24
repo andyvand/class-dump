@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _OSLogChunkFileReference
 {
     _OSLogCollectionReference *_oslcr;
-    char *_path;
-    unsigned long long _xot;
-    unsigned long long _xet;
 }
 
 - (void);
@@ -26,8 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) char *path; // @synthesize path=_path;
-@property(readonly, nonatomic) unsigned long long xattrEndTime; // @synthesize xattrEndTime=_xet;
-@property(readonly, nonatomic) unsigned long long xattrOldestTime; // @synthesize xattrOldestTime=_xot;
 
 @end
 

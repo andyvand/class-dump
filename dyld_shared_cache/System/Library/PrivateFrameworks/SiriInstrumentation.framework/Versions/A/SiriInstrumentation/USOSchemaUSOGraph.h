@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID, SISchemaVersion;
+@class SISchemaVersion;
 
 @interface USOSchemaUSOGraph : SISchemaInstrumentationMessage
 {
     SISchemaVersion *_version;
-    SISchemaUUID *_linkId;
-    NSArray *_nodes;
-    NSArray *_edges;
-    NSArray *_identifiers;
-    NSArray *_alignments;
-    NSArray *_spans;
-    _Bool _hasVersion;
-    _Bool _hasLinkId;
 }
 
 - (id);
@@ -36,58 +28,49 @@
 - (void);
 - (void);
 - (void);
+- (id)( @y ;
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long)4;
+- (unsigned long long)B;
 - (id);
 - (void);
+- (unsigned long long);
 - (void);
 - (void);
+- (void)"<MBWebKitViewControllerDelegate>";
+- (void)ACustodianController";
+- (id)Window"16@"NSString"24;
+- (_Bool)showDisableErrorSheet;
+- (void);
+- (id);
+- (id);
+- (id)kIPCGuidanceStateReplyRemainingDistanceOnRouteKey;
+- (id);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (_Bool)_includeAllContactsForEachAccount;
+- (_Bool)OWID, guid, text, replace, service_center, handle_id, subject, country, attributedBody, version, type, service, account, account_guid, error, date, date_read, date_delivered, is_delivered, is_finished, is_emote, is_from_me, is_empty, is_delayed, is_auto_reply, is_prepared, is_read, is_system_message, is_sent, has_dd_results, is_service_message, is_forward, was_downgraded, is_archive, cache_has_attachments, cache_roomnames, was_data_detected, was_deduplicated, is_audio_message, is_played, date_played, item_type, other_handle, group_title, group_action_type, share_status, share_direction, is_expirable, expire_state, message_action_type, message_source, associated_message_guid, associated_message_type, balloon_bundle_id, payload_data, expressive_send_style_id, associated_message_range_location, associated_message_range_length, time_expressive_send_played, message_summary_info, ck_sync_state, ck_record_id, ck_record_change_tag, destination_caller_id, is_corrupt, reply_to_guid, sort_id, is_spam, has_unseen_mention, thread_originator_guid, thread_originator_part, syndication_ranges, synced_syndication_ranges, was_delivered_quietly, did_notify_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id, index_state FROM message WHERE subject = ?   AND item_type = ? ORDER BY message.ROWID ASC;;
+- (void);
+- (void);
+- (id))A;
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool)irmationContext: /* Error: Ran out of types for this method. */;
-- (id)ollmentDataReportedTier1;
-- (id)neDay;
+- (_Bool)setActionParameterConfirmationContext: /* Error: Ran out of types for this method. */;
+- (id)deleteSpeakerIdEnrollmentDataReportedTier1;
+- (id)_numSelectedActionDisambiguationsLastOneDay;
 - (void)ery;
-- (id)_AUTO_PROMPT;
-- (void)TRACKER;
-- (id)EASON_SPEECH_CANCELED;
+- (id)INVOCATIONACTION_AUTO_PROMPT;
+- (void)PROACTIVE_EVENT_TRACKER;
+- (id)IFTMGRUSERTURNCANCELLEDREASON_SPEECH_CANCELED;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *alignments; // @synthesize alignments=_alignments;
-@property(copy, nonatomic) NSArray *edges; // @synthesize edges=_edges;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasVersion; // @synthesize hasVersion=_hasVersion;
-@property(copy, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *nodes; // @synthesize nodes=_nodes;
-@property(copy, nonatomic) NSArray *spans; // @synthesize spans=_spans;
 @property(retain, nonatomic) SISchemaVersion *version; // @synthesize version=_version;
 
 @end

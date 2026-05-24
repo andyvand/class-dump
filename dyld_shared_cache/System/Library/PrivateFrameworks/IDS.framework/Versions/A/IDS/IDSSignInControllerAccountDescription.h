@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface IDSSignInControllerAccountDescription
 {
     NSString *_serviceName;
-    NSNumber *_state;
-    CDUnknownBlockType _completion;
 }
 
 - (id);
 - (void);
+- (void)q;
 - (void);
-- (void);
-- (id);
+- (id)fromUniqueID;
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(retain, nonatomic) NSNumber *state; // @synthesize state=_state;
 
 @end
 

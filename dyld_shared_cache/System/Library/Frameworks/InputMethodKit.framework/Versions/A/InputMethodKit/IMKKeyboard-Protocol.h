@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMKCandidateMenu, IMKTextDocument;
+@protocol IMKTextDocument;
 
 @protocol IMKKeyboard
+- (id <IMKTextDocument>);
 
 // Remaining properties
 @property(retain, nonatomic) id <IMKTextDocument> attachedTextDocument;
-@property(readonly, nonatomic) id <IMKCandidateMenu> candidateMenu;
 @end
 

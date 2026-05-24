@@ -8,9 +8,6 @@
 {
     id _remainingTime;
     id _timer;
-    id _totalTime;
-    id timerPublisher;
-    id _$observationRegistrar;
 }
 
 @end

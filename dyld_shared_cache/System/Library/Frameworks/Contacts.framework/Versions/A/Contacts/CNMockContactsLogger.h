@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface CNMockContactsLogger
 {
@@ -13,6 +11,51 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (void)application_darwin_cache_dir;
+- (void)kCTCapabilityNetworkSlicing;
+- (void);
+- (void);
+- (void)!;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)P;
+- (void);
+- (void);
+- (void)	;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)Ti;
+- (void)?ןF;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)valid type for spec.clients;
+- (void)zipWithArray1:(const char *)arg1 array2:(id)arg2;
+- (void)setSupportsMostRecentVersionDownloaded:(CDUnknownBlockType)arg1;
+- (void)propertyListWithData:(id)arg1 options:(id)arg2 format:error: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)k�;
+- (void);
+- (void)ve APFS;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -22,61 +65,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)AsPosterDataUpdates;
+- (void)updatesAsPosterDataUpdates;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

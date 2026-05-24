@@ -7,14 +7,11 @@
 @interface ContactsUICore._AppExtensionHostView.Coordinator
 {
     id hostViewController;
-    id connection;
-    id salientRect;
-    id configuration;
 }
 
 - (void);
 - (id);
-- (void)hpadByRemovingContacts: /* Error: Ran out of types for this method. */;
+- (void)scratchpadByRemovingContacts: /* Error: Ran out of types for this method. */;
 
 @end
 

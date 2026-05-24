@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _MRRemoteArtworkProtobuf
 {
     NSString *_artworkURLString;
-    NSData *_artworkURLTemplateData;
-    NSString *_type;
 }
 
 - (void);
@@ -18,28 +16,23 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)ten count now is %@;
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ntifier;
+- (id)ror:options:] /* Error: Ran out of types for this method. */;
 - (_Bool)utableOrderedSet";
-- (void)ayingActivityAssertionForRouteIdentifier:withDuration:preferredState:withReply: /* Error: Ran out of types for this method. */;
+- (void)acquireNowPlayingActivityAssertionForRouteIdentifier:withDuration:preferredState:withReply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *artworkURLString; // @synthesize artworkURLString=_artworkURLString;
-@property(retain, nonatomic) NSData *artworkURLTemplateData; // @synthesize artworkURLTemplateData=_artworkURLTemplateData;
-@property(readonly, nonatomic) _Bool hasArtworkURLString;
-@property(readonly, nonatomic) _Bool hasArtworkURLTemplateData;
 @property(readonly, nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <CalendarStore/CalCalendarItem.h>
 
-@class CalRecurrenceRule, EKEvent, NSArray, NSDate, NSString;
+@class EKEvent;
 
 @interface CalEvent : CalCalendarItem
 {
@@ -22,33 +22,25 @@
 - (long long);
 - (id);
 - (id);
+- (_Bool)_shouldBadgeOrganizer;
+- (id);
+- (id);
+- (id)correspondingObjectForRelationshipFromObject: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)isPrebound;
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void)ate:(id)arg1;
+- (_Bool)gn flow message;
+- (void)_dateFromPotentialNSCalendarDate:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attendees;
 @property(retain, nonatomic) EKEvent *ekEvent; // @synthesize ekEvent=_ekEvent;
-@property(copy, nonatomic) NSDate *endDate;
-@property(nonatomic) _Bool isAllDay;
-@property(readonly, nonatomic) _Bool isDetached;
-@property(copy, nonatomic) NSString *location;
-@property(readonly, copy, nonatomic) NSDate *occurrence;
-@property(copy, nonatomic) CalRecurrenceRule *recurrenceRule;
-@property(copy, nonatomic) NSDate *startDate;
 
 @end
 

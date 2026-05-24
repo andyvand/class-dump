@@ -5,5 +5,9 @@
 //
 
 @protocol VCAudioSessionDelegate
+
+@optional
+- (void);
+- (void)a;
 @end
 

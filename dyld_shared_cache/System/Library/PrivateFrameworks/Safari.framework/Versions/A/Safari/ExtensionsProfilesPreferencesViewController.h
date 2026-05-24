@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSTableView, NSTextField, ProfilesPreferences, WBProfile;
+@class NSMutableArray, NSTableView;
 
 __attribute__((visibility("hidden")))
 @interface ExtensionsProfilesPreferencesViewController
 {
     NSMutableArray *_orderedExtensions;
-    ProfilesPreferences *_profilesPreferences;
-    WBProfile *_profile;
-    NSTableView *_tableView;
-    NSTextField *_descriptionLabel;
 }
 
 - (void);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -33,16 +29,13 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id)KÂ*;
 
 // Remaining properties
-@property(nonatomic) __weak NSTextField *descriptionLabel; // @synthesize descriptionLabel=_descriptionLabel;
-@property(retain, nonatomic) WBProfile *profile; // @synthesize profile=_profile;
-@property(nonatomic) __weak ProfilesPreferences *profilesPreferences; // @synthesize profilesPreferences=_profilesPreferences;
 @property(nonatomic) __weak NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end

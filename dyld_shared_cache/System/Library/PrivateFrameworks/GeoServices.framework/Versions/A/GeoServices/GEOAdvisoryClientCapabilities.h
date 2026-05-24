@@ -9,19 +9,13 @@
 @interface GEOAdvisoryClientCapabilities
 {
     PBUnknownFields *_unknownFields;
-    _Bool _downloadOfflineMapActionSupported;
-    _Bool _multipleCardsPerNoticeSupported;
-    struct {
-        unsigned int has_downloadOfflineMapActionSupported:1;
-        unsigned int has_multipleCardsPerNoticeSupported:1;
-    } _flags;
 }
 
-+ (_Bool)tHasMaxBusinessResults:(id)arg1;
++ (_Bool)setHasMaxBusinessResults:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)vableSkipUntilInputObserverDelegate>";
+- (void)sendValue:(_Bool)arg1 forKey:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)keyForEntitlement:(_Bool)arg1 auditToken: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -30,25 +24,21 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_shouldAllowRecordWhileBeepWithRecordRoute:(id)arg1 playbackRoute:supportsEchoCancellation:speechRecordingMode:recordingInfo: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)Waypoint:(struct _NSZone *)arg1 endOfLegIndex: /* Error: Ran out of types for this method. */;
+- (id)navigationListener:(struct _NSZone *)arg1 didResumeNavigatingFromWaypoint:endOfLegIndex: /* Error: Ran out of types for this method. */;
 - (id)Ì	\ä¨´;
-- (id);
+- (id)mapSettingsAvoidTolls;
 - (id)ÿÿ(;
 - (void)·ÿ!6ÈÚ6;
 
 // Remaining properties
-@property(nonatomic) _Bool downloadOfflineMapActionSupported;
-@property(nonatomic) _Bool hasDownloadOfflineMapActionSupported;
 @property(nonatomic) _Bool hasMultipleCardsPerNoticeSupported;
-@property(nonatomic) _Bool multipleCardsPerNoticeSupported;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

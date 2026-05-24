@@ -6,37 +6,16 @@
 
 #import <UIKitCore/UIKBSplitImageView.h>
 
-@class NSMutableDictionary, NSString, UIKBCacheToken, UIKBKeyView, UIKBKeyViewAnimator, UIKBRenderConfig, UIKBRenderFactory, UIKBRenderingContext, UIKBScreenTraits, UIKBTree, UIKeyboardEmojiKeyDisplayController, UIView;
+@class UIKBTree;
 @protocol UIKBKeyplaneViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UIKBKeyplaneView : UIKBSplitImageView
 {
     UIKBTree *_keyplane;
-    UIKBTree *_defaultKeyplane;
-    UIKBCacheToken *_cacheToken;
-    UIKBCacheToken *_defaultKeyplaneCacheToken;
-    UIKBKeyViewAnimator *_keyViewAnimator;
-    UIKeyboardEmojiKeyDisplayController *_emojiKeyManager;
-    UIKBKeyView *_candidateGapView;
-    NSMutableDictionary *_subviewIndex;
-    NSMutableDictionary *_activeViewIndex;
-    NSMutableDictionary *_renderedKeyViews;
-    NSMutableDictionary *_delayedDeactivationKeys;
-    _Bool _shouldDrawRect;
-    UIKBRenderConfig *_renderConfig;
-    UIKBRenderingContext *_renderingContext;
-    UIKBRenderFactory *_factory;
-    UIKBSplitImageView *_keyBorders;
-    UIKBSplitImageView *_keyBackgrounds;
-    UIKBSplitImageView *_keyCaps;
-    UIView *_keyplaneMaskView;
-    _Bool _suppressDrawing;
-    UIKBScreenTraits *_overrideScreenTraits;
-    id <UIKBKeyplaneViewDelegate> _delegate;
 }
 
-- (_Bool);
+- (_Bool)t access denied;
 - (void);
 - (_Bool);
 - (void);
@@ -44,16 +23,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)R;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
+- (_Bool)w;
 - (void);
 - (id);
 - (void);
 - (void);
+- (id)_entityWithIdentifier:mediaEntityType:collectionGroupingType:loadEntityBlock: /* Error: Ran out of types for this method. */;
+- (void)erController",R,W,N,V_controller;
+- (void)_MPKeyPathEntityRelationshipTranslator;
 - (void);
 - (void);
 - (_Bool);
@@ -82,14 +61,14 @@ __attribute__((visibility("hidden")))
 - (id)="x"d"y"d}"size"{CGSize="width"d"height"d}}};
 - (void)PCCoder"24@32;
 - (void)eneUpdate"24;
-- (_Bool)onControllerDidChangeNavigationBarHidden:(id)arg1;
-- (void)ot:finalSnapshot:source:difference:finalSectionSnapshots: /* Error: Ran out of types for this method. */;
-- (id)rmForKey:(id)arg1;
-- (void)WithSize:(id)arg1 inFrame: /* Error: Ran out of types for this method. */;
-- (void)inksOnly;
-- (id)ontrolClass;
-- (void)quiresProxyInterface;
-- (void)CheckForRequest:(_Bool)arg1;
+- (_Bool)navigationControllerDidChangeNavigationBarHidden:(id)arg1;
+- (void)initWithInitialSnapshot:finalSnapshot:source:difference:finalSectionSnapshots: /* Error: Ran out of types for this method. */;
+- (id)decodeCGAffineTransformForKey:(id)arg1;
+- (void)adjustForConsistentGapsWithSize:(id)arg1 inFrame: /* Error: Ran out of types for this method. */;
+- (void)_universalLinksOnly;
+- (id)_segmentedControlClass;
+- (void)_requiresProxyInterface;
+- (void)_environmentContainersToCheckForRequest:(_Bool)arg1;
 - (id),N,V_state;
 - (void)IDForChosenSuggestion;
 - (_Bool)ackGenerator",&,N,V_selectionRetargetFeedbackGenerator;
@@ -99,10 +78,10 @@ __attribute__((visibility("hidden")))
 - (void)âÎîÿºÎîÿ;
 - (id)ject %@ from State Restoration archive;
 - (void)changed;
-- (id)chive_read_data_block;
-- (_Bool)eCurlControllerIncomingLeftViewControllerKey;
+- (id)archive_read_data_block;
+- (_Bool)UIPageCurlControllerIncomingLeftViewControllerKey;
 - (id)om view:(id)arg1 %@; collection view:%@ /* Error: Ran out of types for this method. */;
-- (id)a;
+- (id)UISolariumFloatingContentViewModifyTransformMinArea;
 - (double)IsContentStatic;
 - (_Bool)und.inputBleedBlurRadius;
 - (_Bool)ð/þÿò/þÿü/þÿ;
@@ -110,7 +89,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void)t;
+- (void)Placement;
 - (long long);
 - (_Bool);
 - (void)ÌÍ2ÿÃÝl#^;
@@ -133,36 +112,7 @@ __attribute__((visibility("hidden")))
 - (id)$gÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long assetIdiom;
-@property(readonly, nonatomic) long long cacheDeferPriority;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool cacheDeferable;
-@property(readonly, nonatomic) NSString *cacheKey;
-@property(retain, nonatomic) UIKBCacheToken *cacheToken; // @synthesize cacheToken=_cacheToken;
-@property(readonly, nonatomic) double cachedWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) UIKBTree *defaultKeyplane; // @synthesize defaultKeyplane=_defaultKeyplane;
-@property(retain, nonatomic) UIKBCacheToken *defaultKeyplaneCacheToken; // @synthesize defaultKeyplaneCacheToken=_defaultKeyplaneCacheToken;
 @property(nonatomic) __weak id <UIKBKeyplaneViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool displaysColorImage;
-@property(retain, nonatomic) UIKeyboardEmojiKeyDisplayController *emojiKeyManager; // @synthesize emojiKeyManager=_emojiKeyManager;
-@property(retain, nonatomic) UIKBRenderFactory *factory; // @synthesize factory=_factory;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool keepNonPersistent;
-@property(retain, nonatomic) UIKBKeyViewAnimator *keyViewAnimator; // @synthesize keyViewAnimator=_keyViewAnimator;
-@property(retain, nonatomic) UIKBTree *keyplane; // @synthesize keyplane=_keyplane;
-@property(readonly, nonatomic) UIView *keyplaneMaskView; // @synthesize keyplaneMaskView=_keyplaneMaskView;
-@property(retain, nonatomic) UIKBScreenTraits *overrideScreenTraits; // @synthesize overrideScreenTraits=_overrideScreenTraits;
-@property(retain, nonatomic) UIKBRenderConfig *renderConfig; // @synthesize renderConfig=_renderConfig;
-@property(retain, nonatomic) UIKBRenderingContext *renderingContext; // @synthesize renderingContext=_renderingContext;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressDrawing; // @synthesize suppressDrawing=_suppressDrawing;
 
 @end
 

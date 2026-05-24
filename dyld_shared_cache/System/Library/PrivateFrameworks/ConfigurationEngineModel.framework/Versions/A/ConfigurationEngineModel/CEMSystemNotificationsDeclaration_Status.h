@@ -11,11 +11,11 @@
 }
 
 + (id);
++ (id);;
 + (id);
-+ (id);
-+ (id);
++ (id)!;
 - (id);
-- (_Bool);
+- (_Bool)th:(id)arg1 /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities;
 
 @end
 

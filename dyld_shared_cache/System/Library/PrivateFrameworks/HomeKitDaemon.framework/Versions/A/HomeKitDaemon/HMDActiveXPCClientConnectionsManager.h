@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSSet, NSString;
-@protocol HMDActiveXPCClientConnectionsManagerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDActiveXPCClientConnectionsManager
 {
     struct os_unfair_lock_s _lock;
-    NSString *_logIdentifier;
-    id <HMDActiveXPCClientConnectionsManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSHashTable *_mutableClientConnections;
 }
 
 + (id)mÿâJHC;
@@ -23,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)--;
+- (id)t;
 - (void);
 - (id);
 - (id)1Â0@ù
@@ -34,17 +30,6 @@ __attribute__((visibility("hidden")))
 - (void)SØ#l&Dë;
 
 // Remaining properties
-@property(readonly, copy) NSSet *clientConnections;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDActiveXPCClientConnectionsManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) NSHashTable *mutableClientConnections; // @synthesize mutableClientConnections=_mutableClientConnections;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

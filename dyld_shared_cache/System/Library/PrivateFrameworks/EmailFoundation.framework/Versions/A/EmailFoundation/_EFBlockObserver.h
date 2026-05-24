@@ -9,12 +9,10 @@
 @interface _EFBlockObserver : EFObserver
 {
     CDUnknownBlockType _resultBlock;
-    CDUnknownBlockType _completionBlock;
-    CDUnknownBlockType _failureBlock;
 }
 
 - (void);
-- (id);
+- (id)kSpeedDidChangeTo:(CDUnknownBlockType)arg1 ];
 - (void);
 - (void);
 - (void);

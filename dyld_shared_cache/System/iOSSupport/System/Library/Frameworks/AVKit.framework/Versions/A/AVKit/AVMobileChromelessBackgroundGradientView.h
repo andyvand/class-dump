@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVMobileChromelessBackgroundGradientView
 {
     NSArray *_colorsDark;
-    NSArray *_colorsLight;
-    _Bool _active;
 }
 
 + (Class);

@@ -13,11 +13,11 @@
     NSString *_parameterKey;
 }
 
-+ (_Bool);
++ (_Bool)__objc_protorefs__DATA_CONST;
 - (id);
+- (id)3|;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void)Ñ^°1Â0@ù
 × ;
 

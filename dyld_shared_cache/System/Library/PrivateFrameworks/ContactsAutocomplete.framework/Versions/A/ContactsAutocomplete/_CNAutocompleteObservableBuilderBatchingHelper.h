@@ -11,7 +11,7 @@
     NSArray *_batches;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSDictionary *_dictionary;
 }
 
-+ (id);
++ (id)signInViewController:(id)arg1 didAuthenticateWithResults:(id)arg2 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);
@@ -23,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) long long height;
-@property(readonly, nonatomic) long long width;
 
 @end
 

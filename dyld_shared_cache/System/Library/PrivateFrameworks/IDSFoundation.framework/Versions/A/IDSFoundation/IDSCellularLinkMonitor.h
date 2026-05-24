@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSString;
-
 @interface IDSCellularLinkMonitor
 {
     _Bool _dataUsable;
-    NSString *_dataIndicator;
-    NSString *_cellularDataInterfaceName;
-    unsigned int _radioAccessTechnology;
-    unsigned int _cellularMTU;
-    NSHashTable *_cellularLinkDelegates;
-    NSMutableDictionary *_notificationRegInfo;
-    unsigned int _dataSoMaskBits;
-    unsigned int _remoteDeviceVersion;
 }
 
 + (id)uestToQR:] /* Error: Ran out of types for this method. */;
@@ -47,11 +37,7 @@
 - (void)n-sessioninfo-cookie;
 
 // Remaining properties
-@property(readonly) NSString *cellularDataInterfaceName; // @synthesize cellularDataInterfaceName=_cellularDataInterfaceName;
-@property(readonly) unsigned int cellularMTU; // @synthesize cellularMTU=_cellularMTU;
-@property(readonly) unsigned int dataSoMaskBits; // @synthesize dataSoMaskBits=_dataSoMaskBits;
 @property(readonly) _Bool dataUsable; // @synthesize dataUsable=_dataUsable;
-@property(readonly) unsigned int radioAccessTechnology; // @synthesize radioAccessTechnology=_radioAccessTechnology;
 
 @end
 

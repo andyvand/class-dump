@@ -5,5 +5,6 @@
 //
 
 @protocol CADDatabaseStorageManagementInterface
+- (void)%{public}@;
 @end
 

@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBLocalDate, _INPBLocalTime;
-
 @interface _INPBDateTime
 {
     struct {
         unsigned int calendarSystem:1;
     } _has;
-    int _calendarSystem;
-    _INPBLocalDate *_date;
-    _INPBLocalTime *_time;
-    NSString *_timeZoneID;
 }
 
 + (_Bool);
-- (id);
+- (id)`	;
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,31 +28,17 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)%@ CWFNetworkAddReasonNone and TelemetryApproved %d networkName %@;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)oupName;
-- (void)essesKey;
+- (void)CNContactEmailAddressesKey;
 - (_Bool)ith description %@ and data %@ due to error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int calendarSystem; // @synthesize calendarSystem=_calendarSystem;
-@property(retain, nonatomic) _INPBLocalDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasCalendarSystem;
-@property(readonly, nonatomic) _Bool hasDate;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(readonly, nonatomic) _Bool hasTimeZoneID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBLocalTime *time; // @synthesize time=_time;
-@property(copy, nonatomic) NSString *timeZoneID; // @synthesize timeZoneID=_timeZoneID;
 
 @end
 

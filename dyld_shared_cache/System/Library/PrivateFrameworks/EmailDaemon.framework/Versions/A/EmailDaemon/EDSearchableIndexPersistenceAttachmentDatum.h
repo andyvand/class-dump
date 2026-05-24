@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistedAttachmentID, EDPersistedMessageID, NSString;
+@class EDPersistedAttachmentID;
 
 @interface EDSearchableIndexPersistenceAttachmentDatum
 {
     EDPersistedAttachmentID *_attachmentPersistentID;
-    EDPersistedMessageID *_messagePersistentID;
-    NSString *_attachmentID;
-    NSString *_name;
-    long long _mailboxID;
 }
 
 - (id);
@@ -20,15 +16,11 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (void)rsistence_ThreadMessages.m;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *attachmentID; // @synthesize attachmentID=_attachmentID;
 @property(readonly, copy, nonatomic) EDPersistedAttachmentID *attachmentPersistentID; // @synthesize attachmentPersistentID=_attachmentPersistentID;
-@property(readonly, nonatomic) long long mailboxID; // @synthesize mailboxID=_mailboxID;
-@property(readonly, copy, nonatomic) EDPersistedMessageID *messagePersistentID; // @synthesize messagePersistentID=_messagePersistentID;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

@@ -6,101 +6,86 @@
 
 #import <ChatKit/CKSearchViewController.h>
 
-@class CKConversation, CKDetailsSearchResultsFooterCell, CKDetailsSearchResultsTitleHeaderCell, CKQLPreviewControllerDataSource, CKSearchController, CKSearchIndexingFooterCell, NSArray, NSDate, NSString, UIBarButtonItem, UICollectionViewCell;
-@protocol CKDetailsSearchControllerDelegate, QLPreviewControllerConforming;
+@class NSArray;
 
 @interface CKDetailsSearchViewController : CKSearchViewController
 {
     _Bool _searchComplete;
-    id <CKDetailsSearchControllerDelegate> _detailsDelegate;
-    CKConversation *_conversation;
-    CKSearchController *_associatedDetailsSubsectionSearchController;
-    NSArray *_chatGUIDs;
-    CKQLPreviewControllerDataSource *_qlPreviewDataSource;
-    id <QLPreviewControllerConforming> _previewController;
-    CKDetailsSearchResultsTitleHeaderCell *_titleSizingCell;
-    CKDetailsSearchResultsFooterCell *_footerSizingCell;
-    CKSearchIndexingFooterCell *_sizingIndexingFooterCell;
-    UIBarButtonItem *_selectButton;
-    UIBarButtonItem *_cancelButton;
-    UIBarButtonItem *_flexibleItem;
-    UIBarButtonItem *_saveButton;
-    UIBarButtonItem *_deleteButton;
-    NSDate *_lastUserSelectedCellTime;
-    UICollectionViewCell *_lastUserSelectedCell;
 }
 
-- (_Bool);
+- (_Bool)endSkippingTimestampUpdates;
+- (id)wing;
+- (id)_rowID;
+- (_Bool)tionQueue",&,N,V_asyncGeneratorQueue;
+- (void)startAnimation:(id)arg1;
+- (void)isHandwritingRecognitionEnabled;
+- (void)accountObjectID;
+- (void)_TtC7NotesUI28AVAudioEngineRecordingMethod;
+- (void)ICMBaseTouchBarController;
+- (void)ICManagedObjectContextChangeControllerDelegate;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)cantAddInput;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)P;
 - (struct UIEdgeInsets);
+- (id)v;
+- (id)e;
+- (id)s;
+- (id)n;
+- (id)l;
+- (void)s;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (Class);
-- (void);
+- (id)r;
+- (id)y;
+- (id)a;
+- (void)%@;
+- (void)%@;
+- (void)generate PDF Document from fallback PDF Data for attachment:(id)arg1 %@;
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (Class)$9
+;
 - (void);
 - (id);
+- (void)>7
+;
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -120,7 +105,7 @@
 × ;
 - (void)ÑÐ1Â0@ù
 × ;
-- (void)e;
+- (void)observingApplicationWorkspace;
 - (void)llerDelegate>",W,N,V_delegate;
 - (_Bool)X4H5 8;
 - (void)identifier %@, indexPath:(_Bool)arg1 %@;
@@ -130,30 +115,7 @@
 - (void)hÿ~W:ä2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CKSearchController *associatedDetailsSubsectionSearchController; // @synthesize associatedDetailsSubsectionSearchController=_associatedDetailsSubsectionSearchController;
-@property(retain, nonatomic) UIBarButtonItem *cancelButton; // @synthesize cancelButton=_cancelButton;
 @property(retain, nonatomic) NSArray *chatGUIDs; // @synthesize chatGUIDs=_chatGUIDs;
-@property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) UIBarButtonItem *deleteButton; // @synthesize deleteButton=_deleteButton;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <CKDetailsSearchControllerDelegate> detailsDelegate; // @synthesize detailsDelegate=_detailsDelegate;
-@property(retain, nonatomic) UIBarButtonItem *flexibleItem; // @synthesize flexibleItem=_flexibleItem;
-@property(retain, nonatomic) CKDetailsSearchResultsFooterCell *footerSizingCell; // @synthesize footerSizingCell=_footerSizingCell;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UICollectionViewCell *lastUserSelectedCell; // @synthesize lastUserSelectedCell=_lastUserSelectedCell;
-@property(retain, nonatomic) NSDate *lastUserSelectedCellTime; // @synthesize lastUserSelectedCellTime=_lastUserSelectedCellTime;
-@property(retain, nonatomic) id <QLPreviewControllerConforming> previewController; // @synthesize previewController=_previewController;
-@property(retain, nonatomic) CKQLPreviewControllerDataSource *qlPreviewDataSource; // @synthesize qlPreviewDataSource=_qlPreviewDataSource;
-@property(retain, nonatomic) UIBarButtonItem *saveButton; // @synthesize saveButton=_saveButton;
-@property(nonatomic) _Bool searchComplete; // @synthesize searchComplete=_searchComplete;
-@property(retain, nonatomic) UIBarButtonItem *selectButton; // @synthesize selectButton=_selectButton;
-@property(retain, nonatomic) CKSearchIndexingFooterCell *sizingIndexingFooterCell; // @synthesize sizingIndexingFooterCell=_sizingIndexingFooterCell;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CKDetailsSearchResultsTitleHeaderCell *titleSizingCell; // @synthesize titleSizingCell=_titleSizingCell;
 
 @end
 

@@ -11,21 +11,19 @@
 @interface PKPaymentDeprovisionRequest : PKPaymentWebServiceRequest
 {
     NSString *_passTypeIdentifier;
-    NSString *_serialNumber;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id)se:searchMapItem:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)_mapsDataWithResponse:searchMapItem:completion: /* Error: Ran out of types for this method. */;
 - (void)T@"NSArray",&,N,V_thumbnailURLs;
-- (void)OR_ACCOUNT_DO_NOT_EXIST_TITLE;
+- (void)PEER_PAYMENT_ERROR_ACCOUNT_DO_NOT_EXIST_TITLE;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(retain, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 
 @end
 

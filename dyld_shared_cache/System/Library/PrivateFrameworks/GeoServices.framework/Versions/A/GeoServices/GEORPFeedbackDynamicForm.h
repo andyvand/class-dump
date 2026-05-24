@@ -4,42 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPFeedbackDynamicForm
 {
     PBDataReader *_reader;
-    NSString *_abBranchId;
-    NSString *_abManifestVersion;
-    NSMutableArray *_formFields;
-    NSMutableArray *_userPaths;
-    NSString *_version;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_abBranchId:1;
-        unsigned int read_abManifestVersion:1;
-        unsigned int read_formFields:1;
-        unsigned int read_userPaths:1;
-        unsigned int read_version:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)nsitionToFindmyTermination:(id)arg1;
++ (_Bool)setIsTransitionToFindmyTermination:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)changedValues;
+- (void)ACMonitoredAccountStore",&,N,V_accountStore;
+- (void)etadata",&,N,V_providerMetadata;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -54,30 +38,23 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)setSecondPassAnalyzerStartSampleCount: /* Error: Ran out of types for this method. */;
+- (void)$6;
+- (unsigned long long)L;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id)BackgroundPlatter"b1};
-- (id)nSeconds;
+- (id)ageOfSessionIdInSeconds;
 - (id)h ;
 - (_Bool)es;
-- (id)it_scaling;
+- (id)enable_unit_scaling;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *abBranchId;
-@property(retain, nonatomic) NSString *abManifestVersion;
-@property(retain, nonatomic) NSMutableArray *formFields;
-@property(readonly, nonatomic) _Bool hasAbBranchId;
-@property(readonly, nonatomic) _Bool hasAbManifestVersion;
 @property(readonly, nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSMutableArray *userPaths;
-@property(retain, nonatomic) NSString *version;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsArticles.LiveCoverageState
 {
     id status;
-    id postCount;
-    id lastModifiedDate;
-    id isCompleted;
-    id activeWindow;
-    id inactiveWindow;
 }
 
 @end

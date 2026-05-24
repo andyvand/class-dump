@@ -6,25 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DonationSchemaSDSpeechDonationEventMetaData : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_sdId;
-    int _deviceType;
-    NSString *_systemBuild;
-    struct {
-        unsigned int deviceType:1;
-    } _has;
-    _Bool _hasSdId;
-    _Bool _hasSystemBuild;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -32,29 +25,24 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)port received an XPC_ERROR_CONNECTION_INVALID error.
+;
+- (id)totalPeerPaymentRequest;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)}: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)ainMetadata;
+- (id)PLUSSchemaPLUSSuggestionDomainMetadata;
 - (int)\;
 - (id)dÌÍ;
 - (void)>;
 - (void)¥µÈÞ,;
 
 // Remaining properties
-@property(nonatomic) int deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) _Bool hasDeviceType;
-@property(nonatomic) _Bool hasSdId; // @synthesize hasSdId=_hasSdId;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *sdId; // @synthesize sdId=_sdId;
-@property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
 
 @end
 

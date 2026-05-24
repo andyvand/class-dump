@@ -4,37 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegionE7, NSMutableArray, NSString, PBDataReader;
+@class NSString, PBDataReader;
 
 @interface GEOLPRLicensePlateRegion
 {
     PBDataReader *_reader;
-    NSString *_identifier;
-    NSMutableArray *_licensePlateInfos;
-    GEOMapRegionE7 *_mapRegion;
-    NSMutableArray *_regions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_identifier:1;
-        unsigned int read_licensePlateInfos:1;
-        unsigned int read_mapRegion:1;
-        unsigned int read_regions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (Class);
-+ (_Bool)d:(id)arg1;
++ (Class)@;
++ (Class)observer;
++ (_Bool)setHasSearchEnrichmentIsOptInEnabled:(id)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMapRegion;
 @property(retain, nonatomic) NSString *identifier;
-@property(retain, nonatomic) NSMutableArray *licensePlateInfos;
-@property(retain, nonatomic) GEOMapRegionE7 *mapRegion;
-@property(retain, nonatomic) NSMutableArray *regions;
 
 @end
 

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBAppAutoShortcutsButtonItem, _SFPBButtonItemAppearance, _SFPBCommandButtonItem, _SFPBContactButtonItem, _SFPBCoreSpotlightButtonItem, _SFPBPlayAudioButtonItem, _SFPBPlayWatchListItemButtonItem, _SFPBSportsFollowButtonItem, _SFPBStoreButtonItem, _SFPBWatchListButtonItem;
+@class _SFPBCommandButtonItem, _SFPBContactButtonItem;
 
 @protocol _SFPBButtonItem
+- (_SFPBContactButtonItem *);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBAppAutoShortcutsButtonItem *appActionsButtonItem;
-@property(retain, nonatomic) _SFPBButtonItemAppearance *buttonAppearance;
 @property(retain, nonatomic) _SFPBCommandButtonItem *commandButtonItem;
-@property(retain, nonatomic) _SFPBContactButtonItem *contactButtonItem;
-@property(retain, nonatomic) _SFPBCoreSpotlightButtonItem *coreSpotlightButtonItem;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBPlayAudioButtonItem *playAudioButtonItem;
-@property(retain, nonatomic) _SFPBPlayWatchListItemButtonItem *playWatchListItemButtonItem;
-@property(retain, nonatomic) _SFPBSportsFollowButtonItem *sportsFollowButtonItem;
-@property(retain, nonatomic) _SFPBStoreButtonItem *storeButtonItem;
-@property(nonatomic) unsigned long long uniqueId;
-@property(retain, nonatomic) _SFPBWatchListButtonItem *watchListButtonItem;
-@property(readonly, nonatomic) unsigned long long whichValue;
 @end
 

@@ -8,11 +8,10 @@
 
 @protocol EFPubliclyDescribable
 
+@optional
+- (NSString *);
+
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 @end
 

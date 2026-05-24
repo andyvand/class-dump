@@ -4,38 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPTdmFraudNotificationParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_anonymousId;
-    NSString *_fsrData;
-    NSString *_tdmNamespace;
-    NSString *_token;
-    NSString *_transactionId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_anonymousId:1;
-        unsigned int read_fsrData:1;
-        unsigned int read_tdmNamespace:1;
-        unsigned int read_token:1;
-        unsigned int read_transactionId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (_Bool)setLocalizationCapabilities:(id)arg1;
 - (id);
 - (void);
 - (void);
+- (_Bool)ABCDDistributionListConfig;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -43,40 +25,30 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)H;
 - (id);
 - (void);
+- (void);
+- (id)4Q28;
+- (void)asset;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (void);
 - (id);
 - (void)0@ù
 × ;
 - (id)b1"has_score"b1"has_numberOfRatings"b1"has_numberOfReviews"b1"read_unknownFields"b1"read_uRL"b1"read_provider"b1"read_ratingCategoryId"b1"read_reviews"b1"wrote_anyField"b1};
-- (id)dPhotos;
+- (id)croppedPhotos;
 - (id)tDÜDÈE8F;
-- (_Bool)omapsgdTapewormTimerIntervalMs;
+- (_Bool)__perf_NanomapsgdTapewormTimerIntervalMs;
 - (id)able;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *anonymousId;
-@property(retain, nonatomic) NSString *fsrData;
-@property(readonly, nonatomic) _Bool hasAnonymousId;
-@property(readonly, nonatomic) _Bool hasFsrData;
 @property(readonly, nonatomic) _Bool hasTdmNamespace;
-@property(readonly, nonatomic) _Bool hasToken;
-@property(readonly, nonatomic) _Bool hasTransactionId;
-@property(retain, nonatomic) NSString *tdmNamespace;
-@property(retain, nonatomic) NSString *token;
-@property(retain, nonatomic) NSString *transactionId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

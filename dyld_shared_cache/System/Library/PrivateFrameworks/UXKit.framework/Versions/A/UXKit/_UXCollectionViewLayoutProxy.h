@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UXCollectionViewLayout;
 @protocol UXCollectionViewLayoutProxyDelegate;
 
 @interface _UXCollectionViewLayoutProxy
 {
     id <UXCollectionViewLayoutProxyDelegate> _delegate;
-    UXCollectionViewLayout *_layout;
 }
 
 + (Class);
 + (Class);
 + (Class);
-- (Class);
+- (Class);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)t;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) id <UXCollectionViewLayoutProxyDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) UXCollectionViewLayout *layout; // @synthesize layout=_layout;
 
 @end
 

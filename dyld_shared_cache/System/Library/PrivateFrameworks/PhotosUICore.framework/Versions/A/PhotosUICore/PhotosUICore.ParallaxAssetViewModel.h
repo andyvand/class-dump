@@ -7,28 +7,6 @@
 @interface PhotosUICore.ParallaxAssetViewModel
 {
     id _assets;
-    id _shufflesAssets;
-    id _overlapViewCandidates;
-    id _showsDebugInfo;
-    id _showsFallbackAssets;
-    id _currentAssetCompositeImage;
-    id _useParallax;
-    id _currentStatus;
-    id _pauseShuffleFrequency;
-    id _shouldScaleImageContentWhenInactive;
-    id _shouldScaleClockContentWhenInactive;
-    id _backlightLuminance;
-    id _backlightProgress;
-    id _isUpdatingLayers;
-    id viewSize;
-    id isForPreview;
-    id maxPreloadedAssetCount;
-    id _clientID;
-    id _assetDirectoryURL;
-    id _initialShuffleStateDictionaryRepresentation;
-    id _skipSegmentation;
-    id __assetsManager;
-    id _$observationRegistrar;
 }
 
 @end

@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)g='%s' and token_id=%d;
+- (void);
 - (void);
 - (void);
 - (void);

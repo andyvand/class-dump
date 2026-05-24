@@ -4,46 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKDayOccurrenceView, EKEvent, EKUIVisualEffectView, NSMutableArray, NSMutableDictionary, NSString, UIColor, UILabel, UIScrollView, UIView;
 @protocol EKDayAllDayViewDelegate;
 
 @interface EKDayAllDayView
 {
     long long _orientation;
-    NSMutableArray *_occurrenceViews;
-    UILabel *_allDay;
-    _Bool _allDayLabelHighlighted;
-    UIScrollView *_scroller;
-    double _occurrenceInset;
-    _Bool _allowSelection;
-    _Bool _showSelection;
-    EKEvent *_selectedEvent;
-    _Bool _usesSmallText;
-    _Bool _smallTextSettingLocked;
-    _Bool _showBirthdayCount;
-    long long _birthdayCount;
-    long long _targetSizeClass;
-    UIView *_dividerLineViewTop;
-    UIView *_dividerLineViewBottom;
-    EKUIVisualEffectView *_dividerLineSuperview;
-    UIColor *_dividerLineVisualEffectColor;
-    EKDayOccurrenceView *_birthdayCountOccurrenceView;
-    NSMutableDictionary *_temporaryViewCache;
-    _Bool _showsBorderLines;
-    _Bool _showsLabel;
-    _Bool _forceSingleColumnLayout;
-    int _maxVisibleRows;
-    id <EKDayAllDayViewDelegate> _delegate;
-    double _fixedHeight;
-    EKEvent *_dimmedOccurrence;
 }
 
 + (double);
-+ (id);
++ (id)vv;
 + (_Bool);
 + (id);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (double);
 + (double);
 + (double);
@@ -52,28 +25,28 @@
 - (void);
 - (_Bool);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
-- (id);
+- (void){;
 - (void);
 - (void);
 - (double);
-- (_Bool);
+- (id);
+- (id)PlanProvisioningRequest";
+- (id);
 - (void);
-- (struct CGSize);
+- (void):: /* Error: Ran out of types for this method. */;
+- (double);
+- (_Bool)cc;
 - (void);
+- (struct CGSize):(struct CGSize)arg1: /* Error: Ran out of types for this method. */;
+- (void)dManifestRequest";
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
-- (void);
-- (void);
+- (void):(_Bool)arg1: /* Error: Ran out of types for this method. */;
+- (void)(ԙe;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -81,62 +54,45 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
+- (double)O;
+- (void);
+- (void)retainCount;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)mpleBuffer=}16q24B32@36@44;
+- (void);
+- (double);
+- (id)writeToFile:(struct CGRect)arg1 atomically: /* Error: Ran out of types for this method. */;
+- (_Bool)}5;
+- (void);
+- (void)leadingPadding;
+- (void);
+- (double)addObserver:(id)arg1 forKeyPath:options:context: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (double);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (double);
-- (void);
-- (void);
+- (void);
 - (_Bool)0@ù
 × ;
-- (void)ipantTapped;
-- (void)mentOfKind:(_Bool)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
-- (double)ceViewModel;
+- (void)participantTapped;
+- (void)finalLayoutAttributesForDisappearingSupplementaryElementOfKind:(_Bool)arg1 atIndexPath: /* Error: Ran out of types for this method. */;
+- (double)conferenceViewModel;
 - (void)xn;
 - (void)ÿ¬+=v;
 - (void)àÿ#ø^Ï[;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsOccurrenceSelection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EKDayAllDayViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) EKEvent *dimmedOccurrence; // @synthesize dimmedOccurrence=_dimmedOccurrence;
-@property(nonatomic) double fixedHeight; // @synthesize fixedHeight=_fixedHeight;
-@property(nonatomic) _Bool forceSingleColumnLayout; // @synthesize forceSingleColumnLayout=_forceSingleColumnLayout;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int maxVisibleRows; // @synthesize maxVisibleRows=_maxVisibleRows;
-@property(readonly, nonatomic) double naturalHeight;
-@property(nonatomic) _Bool showBirthdayCountInsteadOfEvents;
-@property(nonatomic) _Bool showsBorderLines; // @synthesize showsBorderLines=_showsBorderLines;
-@property(nonatomic) _Bool showsLabel; // @synthesize showsLabel=_showsLabel;
-@property(nonatomic) _Bool showsSelection;
-@property(readonly) Class superclass;
 
 @end
 

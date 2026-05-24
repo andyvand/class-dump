@@ -9,17 +9,15 @@
 @interface PKPaymentSetupPartner
 {
     NSString *_displayName;
-    NSString *_identifier;
 }
 
+- (id)~;
 - (id);
-- (id);
-- (id)rBundleResourceNamed:(id)arg1 withExtension:objectUniqueIdentifier:handler: /* Error: Ran out of types for this method. */;
+- (id)getDataForBundleResourceNamed:(id)arg1 withExtension:objectUniqueIdentifier:handler: /* Error: Ran out of types for this method. */;
 - (void)ningController:Offers Catalog Fetch /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

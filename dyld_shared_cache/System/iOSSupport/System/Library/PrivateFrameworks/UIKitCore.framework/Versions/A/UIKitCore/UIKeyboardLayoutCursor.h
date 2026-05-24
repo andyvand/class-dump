@@ -6,67 +6,44 @@
 
 #import <UIKitCore/UIKeyboardLayoutStar.h>
 
-@class NSArray, NSString, UIAlertController, UIKBTree, UILabel, UILexicon, UIView, UIWindow;
+@class UIAlertController, UIKBTree;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardLayoutCursor : UIKeyboardLayoutStar
 {
     UIKBTree *_indirectKeyboard;
-    UIView *_selectionView;
-    NSArray *_keyplaneKeys;
-    long long _selectedKeyIndex;
-    _Bool _ignoreEventsUntilPressEnds;
-    UILexicon *_recentInputs;
-    _Bool _disableTouchInput;
-    UIKBTree *_cachedMultitapKeyplane;
-    _Bool _cachedCanMultitap;
-    UILabel *_dictationHelpLabel;
-    _Bool _didVariantDelete;
-    _Bool _isForwardingEvent;
-    int _overridenSelectedKeyType;
-    struct CGPoint _keyplaneSwitchSelectedKeyFrameCenter;
-    _Bool _selectInitialKey;
-    _Bool _suppressOperations;
-    _Bool _overrideInitialKey;
-    _Bool _shouldConfigureFloatingContentView;
-    _Bool _shouldToggleLetterCaseNext;
-    UIAlertController *_recentInputsAlert;
-    NSString *_keyplaneBeforeDictation;
-    long long _selectedKeyBeforeDictation;
-    unsigned long long _lastSelectedKeyIndex;
-    UIWindow *_focusWindow;
 }
 
-+ (struct CGSize);
++ (struct CGSize)leLibraryPersistentID:(id)arg1 ,V_musicKit_possibleLibraryPersistentID;
 + (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)CEMCertificateIdentityCredentialsDeclaration;
 - (_Bool);
 - (int);
 - (double);
-- (void);
-- (id);
-- (_Bool);
+- (void)_selectionsEnqueued;
+- (id)_entityCache;
+- (_Bool)_clearAssetNow;
 - (void);
 - (void)Qb1Â0@ù
 × ;
-- (_Bool)r;
-- (id)itWithSolver:(struct CGRect)arg1;
-- (void)layTypeDualString;
+- (_Bool)finalDataSourceSnapshotter;
+- (id)initWithSolver:(struct CGRect)arg1;
+- (void)UIKBKeyDisplayTypeDualString;
 - (_Bool)ister for;
 - (void)ng id<_UIUpdateCycleIdleObserver> _Nonnull);
-- (void)udioPitch;
+- (void)predictiveTextEvenAudioPitch;
 - (_Bool)unknown for trait %@;
 - (void)iew=%p;
-- (void)assNameKey;
+- (void)_UIARACustomizationsClassNameKey;
 - (void)lator:(_Bool)arg1 performIncreaseWithActions() called! Please implement this method or use a child class.;
 - (int)ardingHostingScene.m;
 - (void)inateReport;
 - (struct CGRect)_%li;
-- (_Bool)ad;
+- (_Bool)iPad;
 - (unsigned long long)g view controller;
-- (unsigned long long)trollerKey;
+- (unsigned long long)UIPageCurlControllerIncomingRightViewControllerKey;
 - (void)dragItem = %@>;
 - (id)didateBarReset(void);
 - (long long)utGuide-constraint;
@@ -78,7 +55,7 @@ __attribute__((visibility("hidden")))
 - (id)ceneSafeAreaEdgeInsetConcreteResolver:(id)arg1;
 - (void)_UIMagicMorphView.swift;
 - (_Bool)ITransitionOverlayView;
-- (void)kingIntermediateShapeRatio;
+- (void)shrinkingIntermediateShapeRatio;
 - (unsigned char)gLayer;
 - (int);
 - (id);
@@ -87,7 +64,7 @@ __attribute__((visibility("hidden")))
 - (void)_e>h;ï¬?Øõs?Û6L=kñ)?;
 - (unsigned long long);
 - (void)?????;
-- (_Bool)rialTraitDefinition;
+- (_Bool)UIContainedInBarMaterialTraitDefinition;
 - (_Bool)°JÀ7;
 - (_Bool);
 - (void)hj|þ%Í13PÊnþÍ13j|þ;
@@ -95,8 +72,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void)©;
-- (void)x;
-- (_Bool)r;
+- (void)WeakBox;
+- (_Bool)ShadowLayer;
 - (int);
 - (void);
 - (_Bool)3sþu¦43èsþu¦43<sþ;
@@ -160,24 +137,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) UIKBTree *currentKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak UIWindow *focusWindow; // @synthesize focusWindow=_focusWindow;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *keyplaneBeforeDictation; // @synthesize keyplaneBeforeDictation=_keyplaneBeforeDictation;
-@property(nonatomic) unsigned long long lastSelectedKeyIndex; // @synthesize lastSelectedKeyIndex=_lastSelectedKeyIndex;
-@property(nonatomic) _Bool overrideInitialKey; // @synthesize overrideInitialKey=_overrideInitialKey;
 @property(retain, nonatomic) UIAlertController *recentInputsAlert; // @synthesize recentInputsAlert=_recentInputsAlert;
-@property(nonatomic) long long selectedKeyBeforeDictation; // @synthesize selectedKeyBeforeDictation=_selectedKeyBeforeDictation;
-@property(nonatomic) _Bool shouldConfigureFloatingContentView; // @synthesize shouldConfigureFloatingContentView=_shouldConfigureFloatingContentView;
-@property(nonatomic) _Bool shouldToggleLetterCaseNext; // @synthesize shouldToggleLetterCaseNext=_shouldToggleLetterCaseNext;
-@property(readonly, nonatomic, getter=isSlimLinearKeyboardTV) _Bool slimLinearKeyboardTV;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressOperations; // @synthesize suppressOperations=_suppressOperations;
 
 @end
 

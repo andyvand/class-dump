@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSKeyValueDebuggingDeallocSentinel
 {
     _Atomic _Bool _isInvalid;
-    unsigned long long _objectPointer;
-    CDUnknownBlockType _callbackBlock;
 }
 
 + (void);

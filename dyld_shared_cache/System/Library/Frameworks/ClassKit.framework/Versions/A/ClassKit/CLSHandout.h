@@ -6,51 +6,47 @@
 
 #import <ClassKit/CLSAbstractHandout.h>
 
-@class CLSClass, CLSSchedule, NSArray, NSDate, NSError, NSString;
+@class CLSClass, NSString;
 
 @interface CLSHandout : CLSAbstractHandout
 {
     NSString *_title;
-    NSString *_instructions;
-    NSDate *_dueDate;
-    _Bool _reviewed;
-    unsigned long long _flags;
-    NSDate *_dateLastReviewed;
-    long long _state;
-    unsigned long long _substate;
-    long long _publishingState;
-    NSError *_publishError;
-    long long _type;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)_custodianDelegate;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)loop source
+;
+- (void)_create:(id)arg1 %s
+;
+- (void)ocessor:(id)arg1 %08X
+;
+- (id)lx, programHandle=0x%llx
+;
+- (void)t=0x%x
+;
+- (id)o an integer;
+- (id)rom kernel. remaining:%d.
+ /* Error: Ran out of types for this method. */;
+- (id)H11ANEIn;
+- (id)mzYtcwyA/Library/Caches/com.apple.xbs/TemporaryDirectory.A9dB46/Sources/AppleH11ANEInterface/aneexclave/ANELoader/src/ZinComputeDebugInfoParser.cpp;
+- (id)ComputeProgramGetInitSection(const ZinComputeProgram *, ZinComputeProgramSection **);
+- (void)oid *, const void *, uint32_t &);
+- (void)ne_thread_state_64 *const, const void *, const void *, uint32_t &);
+- (void);
 - (void);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)N8Espresso35generic_general_slice_update_kernelE;
 - (id);
-- (id);
+- (id)W;
 - (id);
 - (id);
 - (void);
@@ -59,39 +55,17 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)C;
+- (void)DSLibrary(void);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)lJ));
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *assets;
-@property(readonly, nonatomic) NSArray *attachmentCollaborationStates;
-@property(readonly, nonatomic) NSArray *attachments;
-@property(readonly, nonatomic) NSArray *collaborationStates;
-@property(retain, nonatomic) NSDate *dateLastReviewed; // @synthesize dateLastReviewed=_dateLastReviewed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) CLSClass *effectiveClass;
-@property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *lastReviewedDate;
-@property(retain, nonatomic) NSError *publishError; // @synthesize publishError=_publishError;
-@property(nonatomic) long long publishingState; // @synthesize publishingState=_publishingState;
-@property(readonly, nonatomic) NSArray *recipients;
-@property(nonatomic, getter=isReviewed) _Bool reviewed;
-@property(retain, nonatomic) CLSSchedule *schedule;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) unsigned long long substate; // @synthesize substate=_substate;
-@property(readonly) Class superclass;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

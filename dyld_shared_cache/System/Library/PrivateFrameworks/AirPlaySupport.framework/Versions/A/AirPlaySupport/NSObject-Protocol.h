@@ -7,15 +7,14 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool);
+- (_Bool)@"NSString"16@"CHSControlConfiguration"24@"NSNumber"32;
 - (struct _NSZone *)ed:format mismatch /* Error: Ran out of types for this method. */;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)h;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UITextClippingDebugInfo
 {
     _Bool _ignoresResult;
-    _Bool _leftEdgeClipped;
-    _Bool _rightEdgeClipped;
-    _Bool _bottomEdgeClipped;
-    _Bool _topEdgeClipped;
-    UIView *_clippingView;
-    unsigned long long _edgesClipped;
-    struct CGRect _visibleBounds;
 }
 
 - (_Bool);
@@ -30,25 +23,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ionary"16B24;
+- (_Bool)lling into reflectMarkAsReviewedToPeerDevicesForChatGUIDs:from service that doesn't support it. File a radar-------*/ /* Error: Ran out of types for this method. */;
+- (_Bool)e does not support text auto reply;
 - (void);
-- (id);
-- (struct CGRect)nflightItems;
+- (id);
+- (struct CGRect)_inflightItems;
 - (void)be of type _UISearchATVPresentationController.;
 - (void)ypSgÃ¿7Spy03GIgnyy_;
 
 // Remaining properties
-@property(nonatomic) _Bool bottomEdgeClipped; // @synthesize bottomEdgeClipped=_bottomEdgeClipped;
 @property(nonatomic) __weak UIView *clippingView; // @synthesize clippingView=_clippingView;
-@property(nonatomic) unsigned long long edgesClipped; // @synthesize edgesClipped=_edgesClipped;
-@property(readonly, nonatomic) _Bool hasClippedEdges;
-@property(nonatomic) _Bool ignoresResult; // @synthesize ignoresResult=_ignoresResult;
-@property(nonatomic) _Bool leftEdgeClipped; // @synthesize leftEdgeClipped=_leftEdgeClipped;
-@property(nonatomic) _Bool rightEdgeClipped; // @synthesize rightEdgeClipped=_rightEdgeClipped;
-@property(nonatomic) _Bool topEdgeClipped; // @synthesize topEdgeClipped=_topEdgeClipped;
-@property(nonatomic) struct CGRect visibleBounds; // @synthesize visibleBounds=_visibleBounds;
 
 @end
 

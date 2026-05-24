@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface UnknownClass (Alertable)
 - (id);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (id);
@@ -23,13 +23,5 @@
 
 // Remaining properties
 @property(retain) NSDate *alarmTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *personIdentifier;
-@property(readonly) Class superclass;
 @end
 

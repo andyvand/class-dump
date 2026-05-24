@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INMediaDestination, INMediaSearch, INPrivateAddMediaIntentData, NSArray, NSString;
+@class NSArray;
 
 @interface INAddMediaIntent : INIntent
 {
@@ -15,7 +15,7 @@
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (id);
@@ -26,27 +26,17 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)setVariantOptions:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) INMediaDestination *mediaDestination;
 @property(readonly, copy) NSArray *mediaItems;
-@property(readonly, copy) INMediaSearch *mediaSearch;
-@property(copy) INPrivateAddMediaIntentData *privateAddMediaIntentData;
-@property(readonly) Class superclass;
 
 @end
 

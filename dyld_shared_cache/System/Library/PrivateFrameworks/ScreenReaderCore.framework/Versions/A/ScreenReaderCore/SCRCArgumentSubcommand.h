@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface SCRCArgumentSubcommand
 {
     NSString *_subcommandName;
-    NSMutableArray *__optionMutableArray;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Z-m;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)̽);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (long long);
-- (void);
-- (int);
+- (long long)!;
+- (void)firmwareUpdateStateForBeaconUUID:completion: /* Error: Ran out of types for this method. */;
+- (int);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *_optionMutableArray; // @synthesize _optionMutableArray=__optionMutableArray;
-@property(readonly, copy, nonatomic) NSArray *optionArray;
-@property(copy, nonatomic) NSString *subcommandName; // @synthesize subcommandName=_subcommandName;
 
 @end
 

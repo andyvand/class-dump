@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTMotionActivityManager, RTVisitPipelineMotionAccumulatorParams;
+@class RTVisitPipelineMotionAccumulatorParams;
 
 @interface RTVisitPipelineModuleMotionStateTrimmer
 {
     RTVisitPipelineMotionAccumulatorParams *_motionAccumulatorParams;
-    RTMotionActivityManager *_motionActivityManager;
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -22,15 +21,7 @@
 - (id)last, %{sensitive}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) RTVisitPipelineMotionAccumulatorParams *motionAccumulatorParams; // @synthesize motionAccumulatorParams=_motionAccumulatorParams;
-@property(readonly, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(readonly) Class superclass;
 
 @end
 

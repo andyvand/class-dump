@@ -4,106 +4,70 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMusicSubscriptionFairPlayKeyStatus, ICMusicSubscriptionStatus, ICMusicSubscriptionStatusMonitor, ICUserIdentity, NSObject, NSString, SSVFairPlaySubscriptionStatus, SSVSubscriptionStatus;
-@protocol NSCopying, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MPCloudServiceStatusController
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    NSObject<OS_dispatch_queue> *_cloudLibraryStatusAccessQueue;
-    long long _cloudLibraryStatus;
-    unsigned long long _cloudLibraryObservationCount;
-    _Bool _hasLoadedMatchStatus;
-    _Bool _hasLoadedSubscriptionAvailability;
-    ICMusicSubscriptionStatusMonitor *_subscriptionStatusMonitor;
-    id <NSCopying> _subscriptionStatusObservationToken;
-    unsigned long long _matchStatusObservationCount;
-    unsigned long long _matchStatus;
-    _Bool _observingNetworkReachability;
-    _Bool _hasSubscriptionLease;
-    _Bool _shouldPlaybackRequireSubscriptionLease;
-    _Bool _subscriptionAvailable;
-    ICUserIdentity *_userIdentity;
-    ICMusicSubscriptionFairPlayKeyStatus *_lastKnownSubscriptionFairPlayKeyStatus;
-    SSVSubscriptionStatus *_subscriptionStatus;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);
 + (id);
 + (void);
 + (void);
++ (id)FocusComputedModeEvent:(id)arg1 unable to convert BMUserFocusComputedModeSemanticType enum value:(_Bool)arg2 %@;
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)convertRowtypeExpr;
+- (void)currentDate;
+- (void)create;
+- (void)continueP;
+- (void)conflict;
+- (void);
+- (void)expressionEvaluator;
+- (void)stream;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)Streams15ReadWriteStreamP;
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (void);
 - (void);
+- (_Bool)v;
+- (void)Q;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)C;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)Filtered to NO;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)AllowsEnteringFullScreen:(id)arg1;
+- (void)setAllowsEnteringFullScreen:(id)arg1;
 - (void)rrentAdTimeRanges;
 - (id)LibPlaylist;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCloudLibraryEnabled) _Bool cloudLibraryEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasLoadedSubscriptionAvailability;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) SSVFairPlaySubscriptionStatus *lastKnownFairPlaySubscriptionStatus;
-@property(readonly, nonatomic) ICMusicSubscriptionFairPlayKeyStatus *lastKnownSubscriptionFairPlayKeyStatus; // @synthesize lastKnownSubscriptionFairPlayKeyStatus=_lastKnownSubscriptionFairPlayKeyStatus;
-@property(readonly, nonatomic) unsigned long long matchStatus;
-@property(readonly, copy, nonatomic) ICMusicSubscriptionStatus *musicSubscriptionStatus;
-@property(readonly, nonatomic, getter=isPurchaseHistoryEnabled) _Bool purchaseHistoryEnabled;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly, nonatomic) _Bool shouldPlaybackRequireSubscriptionLease;
-@property(readonly, nonatomic, getter=isSubscriptionAvailable) _Bool subscriptionAvailable;
-@property(readonly, copy, nonatomic) SSVSubscriptionStatus *subscriptionStatus; // @synthesize subscriptionStatus=_subscriptionStatus;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

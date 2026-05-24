@@ -7,8 +7,6 @@
 @interface AppStoreKit.AnnotationViewState
 {
     id _isExpanded;
-    id _collapsedTruncationState;
-    id _$observationRegistrar;
 }
 
 @end

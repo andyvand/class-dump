@@ -10,8 +10,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool isAirPods;
 @property(readonly) _Bool isVoiceTriggerCapable;
-@property(readonly) _Bool supportsCompactTrigger;
 @end
 

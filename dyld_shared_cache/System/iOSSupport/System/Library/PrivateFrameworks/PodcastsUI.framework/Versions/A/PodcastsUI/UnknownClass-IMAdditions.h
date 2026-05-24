@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol IMMetricsDataSource;
-
 @interface UnknownClass (IMAdditions)
 + (void);
-+ (id);
-+ (void);
++ (id)w0;
++ (void);
 - (double);
-- (void);
+- (void)';
 - (void);
 - (void);
 - (void);
@@ -26,14 +23,14 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)0;
 - (void);
 - (id);
-- (id);
+- (id)?;
 - (_Bool);
 - (void);
 - (id)isThinClient;
-- (id)able;
+- (id)isStreamable;
 - (void)@;
 - (long long)T
 ¸îÿuT
@@ -41,18 +38,6 @@
 ¸îÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long layoutDirection;
-@property(nonatomic) id <IMMetricsDataSource> metricDataSource;
-@property(retain, nonatomic) NSDictionary *metricsAdditionalData;
-@property(retain, nonatomic) id metricsContentIdentifier;
 @property(nonatomic) _Bool metricsEnabled;
-@property(retain, nonatomic) NSString *metricsName;
-@property(readonly) Class superclass;
 @end
 

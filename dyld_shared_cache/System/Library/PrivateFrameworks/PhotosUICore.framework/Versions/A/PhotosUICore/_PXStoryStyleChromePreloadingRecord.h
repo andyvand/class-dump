@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXStoryStyleDescriptor, PXStoryViewLayoutSpec;
-
 @interface _PXStoryStyleChromePreloadingRecord
 {
     double _displayScale;
-    id <PXStoryStyleDescriptor> _styleInfo;
-    id <PXStoryViewLayoutSpec> _viewLayoutSpec;
 }
 
 - (id);
@@ -25,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double displayScale; // @synthesize displayScale=_displayScale;
-@property(readonly, nonatomic) id <PXStoryStyleDescriptor> styleInfo; // @synthesize styleInfo=_styleInfo;
-@property(readonly, nonatomic) id <PXStoryViewLayoutSpec> viewLayoutSpec; // @synthesize viewLayoutSpec=_viewLayoutSpec;
 
 @end
 

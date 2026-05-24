@@ -6,8 +6,6 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class UIColor;
-
 @interface SXTextShadow : SXJSONObject
 {
 }
@@ -15,9 +13,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *color; // @dynamic color;
-@property(readonly, nonatomic) struct CGPoint offset; // @dynamic offset;
-@property(readonly, nonatomic) double opacity; // @dynamic opacity;
 @property(readonly, nonatomic) double radius; // @dynamic radius;
 
 @end

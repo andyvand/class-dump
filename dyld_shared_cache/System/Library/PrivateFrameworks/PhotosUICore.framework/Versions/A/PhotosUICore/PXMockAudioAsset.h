@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol PXAudioAsset, PXDisplayAsset;
+@class NSString;
+@protocol PXAudioAsset;
 
 @interface PXMockAudioAsset
 {
     NSString *_identifier;
-    NSString *_title;
-    NSString *_albumTitle;
-    NSString *_artworkURLFormat;
-    NSString *_artistName;
-    NSString *_subtitle;
-    NSString *_colorGradeCategory;
-    long long _pace;
-    Class _audioSessionClass;
-    NSArray *_entryPoints;
-    unsigned long long _flags;
-    CDStruct_1b6d18a9 _duration;
-    CDStruct_1b6d18a9 _exportableDuration;
 }
 
 - (void);
@@ -47,9 +35,9 @@
 - (long long);
 - (id);
 - (void);
-- (CDStruct_1b6d18a9);
-- (void);
-- (id);
+- (CDStruct_1b6d18a9)curatedMessage;
+- (void)NTUPageViewControllerDirection;
+- (id)I;
 - (id);
 - (void);
 - (long long);
@@ -58,45 +46,18 @@
 × ;
 - (id)(Ð!|Aù±<1Â0@ù
 × ;
-- (id)wControllerForInvitation:(struct _NSZone *)arg1;
-- (unsigned long long)LayoutWillBeginScrolling: /* Error: Ran out of types for this method. */;
+- (id)presentViewControllerForInvitation:(struct _NSZone *)arg1;
+- (unsigned long long)scrollLayoutWillBeginScrolling: /* Error: Ran out of types for this method. */;
 - (void)	
 ;
 - (id)ÿÿÿÿ¨;
 - (id)l1éÿ\ÿ;
-- (id)tionSkipPhotosButtonTitle;
-- (void)SHARED_ALBUMS_ACTIVITY;
+- (id)PXContentSyndicationSkipPhotosButtonTitle;
+- (void)DESTINATION_SHARED_ALBUMS_ACTIVITY;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *albumTitle; // @synthesize albumTitle=_albumTitle;
-@property(copy, nonatomic) NSString *artistName; // @synthesize artistName=_artistName;
-@property(readonly, nonatomic) id <PXDisplayAsset> artworkDisplayAsset;
-@property(copy, nonatomic) NSString *artworkURLFormat; // @synthesize artworkURLFormat=_artworkURLFormat;
-@property(readonly, copy, nonatomic) NSString *assetTagsDescription;
-@property(retain, nonatomic) Class audioSessionClass; // @synthesize audioSessionClass=_audioSessionClass;
-@property(readonly, nonatomic) long long catalog;
-@property(copy, nonatomic) NSString *colorGradeCategory; // @synthesize colorGradeCategory=_colorGradeCategory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) Class defaultMediaProviderClass;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) NSArray *entryPoints; // @synthesize entryPoints=_entryPoints;
-@property(nonatomic) CDStruct_1b6d18a9 exportableDuration; // @synthesize exportableDuration=_exportableDuration;
-@property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long pace; // @synthesize pace=_pace;
-@property(readonly, nonatomic) id <PXAudioAsset> previewAudioAsset;
-@property(readonly, nonatomic) NSString *px_storyResourceIdentifier;
-@property(readonly, nonatomic) long long px_storyResourceKind;
 @property(readonly, nonatomic) id <PXAudioAsset> px_storyResourceSongAsset;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

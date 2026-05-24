@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLHeading, CLLocation, MKUserLocationInternal, NSString;
+@class MKUserLocationInternal;
 
 @interface MKUserLocation
 {
     MKUserLocationInternal *_internal;
-    double _expectedCoordinateUpdateInterval;
-    double _expectedHeadingUpdateInterval;
 }
 
 + (id);
-+ (void);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
++ (void)SYMPTOM_RNF_EXCEEDED_STAY;
++ (id)H;
+- (void)UG OUTPUT:(id)arg1 Discretionary Intervals: /* Error: Ran out of types for this method. */;
+- (void)tential unclosed interval=%@ for identifier=%@;
+- (void)val without snapshotting for identifier=%@, snapshottingEnabled=%d;
+- (void)diff between self=%@ and otherSnapshot=%@;
+- (id)($;
 - (double);
 - (id);
 - (double);
@@ -34,46 +32,26 @@
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)e;
 - (double);
 - (id);
 - (void);
+- (void)";
 - (void);
-- (void);
-- (void);
-- (struct CLLocationCoordinate2D);
-- (_Bool);
+- (void)satScoreThresholdForPhId:(id)arg1;
+- (struct CLLocationCoordinate2D)handleFailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (_Bool)riggerAssetHandlerDelegate:(id)arg1 %@;
 - (void);
 - (double);
 - (id);
+- (id)#;
 - (id);
-- (id);
-- (_Bool);
-- (void)ene;
+- (_Bool)SString",&,V_identifier;
+- (void)scene;
 - (void)h·øÿÃ <<E;
 
 // Remaining properties
-@property(readonly, nonatomic) double accuracy;
 @property(nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double expectedCoordinateUpdateInterval; // @synthesize expectedCoordinateUpdateInterval=_expectedCoordinateUpdateInterval;
-@property(nonatomic) double expectedHeadingUpdateInterval; // @synthesize expectedHeadingUpdateInterval=_expectedHeadingUpdateInterval;
-@property(retain, nonatomic) CLLocation *fixedLocation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CLHeading *heading;
-@property(readonly, nonatomic) double headingDegrees;
-@property(retain, nonatomic) CLLocation *location;
-@property(retain, nonatomic) CLLocation *predictedLocation;
-@property(readonly, nonatomic) NSString *shortDescription;
-@property(copy, nonatomic) NSString *subtitle;
-@property(readonly) Class superclass;
-@property(nonatomic) double timestamp;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic, getter=isUpdating) _Bool updating;
 
 @end
 

@@ -11,7 +11,7 @@
     id impl;
 }
 
-+ (_Bool);
++ (_Bool)~];
 - (id);
 - (void);
 - (void);
@@ -21,13 +21,11 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)@;
 - (id);
 - (void)röûÿÌüÿØüÿl)üÿ°üÿ;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *destinationFeatureName;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, copy) NSString *sourceFeatureName;
 
 @end

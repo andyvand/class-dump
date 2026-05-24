@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBGetReservationDetailsIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDataString *_reservationContainerReference;
-    NSArray *_reservationItemReferences;
 }
 
-+ (Class);
++ (Class)a;
 + (_Bool);
 - (void);
 - (void);
@@ -24,14 +21,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ved nearby request to perform probe to remote endpoint (timeout=%lums, count=%lu, network=%{public}@);
 - (id);
 - (id);
 - (void);
@@ -39,19 +36,7 @@
 - (void)ardingActionWithResponseHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasReservationContainerReference;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(retain, nonatomic) _INPBDataString *reservationContainerReference; // @synthesize reservationContainerReference=_reservationContainerReference;
-@property(copy, nonatomic) NSArray *reservationItemReferences; // @synthesize reservationItemReferences=_reservationItemReferences;
-@property(readonly, nonatomic) unsigned long long reservationItemReferencesCount;
-@property(readonly) Class superclass;
 
 @end
 

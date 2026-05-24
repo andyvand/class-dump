@@ -9,14 +9,13 @@
 @interface WBSFaviconProviderRecordCache
 {
     NSMutableDictionary *_iconURLStringToInfoDictionary;
-    NSMutableDictionary *_iconUUIDToURLStringDictionary;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)SelectedBucketDidChangeNotification;
 - (id);
 - (void)edElements;
 

@@ -5,5 +5,6 @@
 //
 
 @protocol ASDNotificationCenterProgressObserver
+- (void);
 @end
 

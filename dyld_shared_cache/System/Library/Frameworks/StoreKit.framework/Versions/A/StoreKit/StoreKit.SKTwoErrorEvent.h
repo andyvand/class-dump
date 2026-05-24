@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)32;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *eventName;

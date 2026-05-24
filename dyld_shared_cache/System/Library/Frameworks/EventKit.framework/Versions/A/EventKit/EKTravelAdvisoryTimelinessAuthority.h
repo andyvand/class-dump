@@ -4,45 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject;
-@protocol CalDateProvider, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface EKTravelAdvisoryTimelinessAuthority
 {
     _Bool _internalActive;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_source> *_timer;
-    NSDate *_startOfLeaveNowPeriodInternal;
-    NSDate *_startOfRunningLatePeriodInternal;
-    unsigned long long _internalPeriod;
-    CDUnknownBlockType _internalPeriodChangedCallback;
-    id <CalDateProvider> _dateProvider;
 }
 
-+ (id);
++ (id)SDSUPreferences;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id)RatioPeaktoAdaptation:%f (based on referencePeakNits %f, sourceAdaptationNits %f /* Error: Ran out of types for this method. */;
+- (id);
+- (void))d&;
 - (unsigned long long);
 - (void);
 - (void);
@@ -50,26 +42,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (void);
-- (id)dEventID: /* Error: Ran out of types for this method. */;
-- (_Bool)plyNotifications: /* Error: Ran out of types for this method. */;
+- (id)_handleResults:resultsBlock:ignoredEventID: /* Error: Ran out of types for this method. */;
+- (_Bool)CADDatabaseGetInviteReplyNotifications: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, nonatomic) id <CalDateProvider> dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(nonatomic) _Bool internalActive; // @synthesize internalActive=_internalActive;
-@property(nonatomic) unsigned long long internalPeriod; // @synthesize internalPeriod=_internalPeriod;
-@property(copy, nonatomic) CDUnknownBlockType internalPeriodChangedCallback; // @synthesize internalPeriodChangedCallback=_internalPeriodChangedCallback;
-@property(readonly, nonatomic) unsigned long long period;
-@property(copy, nonatomic) CDUnknownBlockType periodChangedCallback;
-@property(readonly, nonatomic) NSDate *startOfLeaveNowPeriod;
-@property(retain, nonatomic) NSDate *startOfLeaveNowPeriodInternal; // @synthesize startOfLeaveNowPeriodInternal=_startOfLeaveNowPeriodInternal;
-@property(readonly, nonatomic) NSDate *startOfRunningLatePeriod;
-@property(retain, nonatomic) NSDate *startOfRunningLatePeriodInternal; // @synthesize startOfRunningLatePeriodInternal=_startOfRunningLatePeriodInternal;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

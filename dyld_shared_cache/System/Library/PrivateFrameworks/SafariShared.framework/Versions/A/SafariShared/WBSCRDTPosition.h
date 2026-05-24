@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface WBSCRDTPosition
 {
@@ -22,17 +22,16 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)u;
 - (id);
 - (long long);
 - (id);
 - (void)°;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(readonly, copy, nonatomic) NSArray *sortValues; // @synthesize sortValues=_sortValues;
 
 @end

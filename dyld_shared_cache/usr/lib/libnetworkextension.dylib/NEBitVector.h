@@ -7,8 +7,6 @@
 @interface NEBitVector
 {
     unsigned int _bitmapSize;
-    unsigned int _bitCount;
-    char *_bitmap;
 }
 
 + (void);

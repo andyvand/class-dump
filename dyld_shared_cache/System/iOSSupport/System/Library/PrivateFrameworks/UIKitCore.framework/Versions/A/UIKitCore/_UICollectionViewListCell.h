@@ -6,40 +6,32 @@
 
 #import <UIKitCore/UICollectionViewListCell.h>
 
-@class NSArray, UILayoutGuide;
+@class NSArray;
 
 @interface _UICollectionViewListCell : UICollectionViewListCell
 {
     long long __backgroundViewConfigurationGrouping;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)setAssociatedMessageRange:(_Bool)arg1;
+- (void):(id)arg1;
+- (void)sendDuration:(long long)arg1 errorCode:(long long)arg2 messageProtocol: /* Error: Ran out of types for this method. */;
+- (_Bool)bleSet",&,N,V_pendingRemoteFileRequests;
 - (id);
 - (long long);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
+- (void)ng instant delivery of %@, skipDeferral is set;
+- (void)uid %@ in chatGuid %@;
+- (id)or the other session, nothing to do here:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)already done;
+- (id)MutedChatList+Rebuild;
 - (id);
 - (long long);
-- (void);
+- (void);
 - (_Bool)@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, setter=_setBackgroundViewConfigurationGrouping:) long long _backgroundViewConfigurationGrouping; // @synthesize _backgroundViewConfigurationGrouping=__backgroundViewConfigurationGrouping;
-@property(readonly, nonatomic) UILayoutGuide *_separatorLayoutGuide;
-@property(nonatomic) _Bool expanded; // @dynamic expanded;
-@property(nonatomic) _Bool indentsLeadingAccessories;
 @property(copy, nonatomic) NSArray *leadingAccessoryConfigurations;
-@property(copy, nonatomic) NSArray *leadingEditingAccessoryConfigurations;
-@property(nonatomic) long long selectionStyle; // @dynamic selectionStyle;
-@property(copy, nonatomic) NSArray *trailingAccessoryConfigurations;
-@property(copy, nonatomic) NSArray *trailingEditingAccessoryConfigurations;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <coreroutine/RTMetric.h>
 
-@class NSString, RTDefaultsManager;
+@class RTDefaultsManager;
 
 @interface SMCheckInRemindersTipResponseMetricManager : RTMetric
 {
@@ -26,15 +26,7 @@
 - (void)effectivePairedDevice.nearby, %{Bool}d, sessionID, %@, lastSessionIDDuringMagnetBreak, %@, magnetBreakTimer, %{Bool}d, is state active state, %{Bool}d, state, %{sensitive}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long mostRecentResponse;
-@property(readonly) Class superclass;
 
 @end
 

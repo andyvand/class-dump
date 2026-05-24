@@ -8,7 +8,7 @@
 {
 }
 
-+ (void)vePreviousConversationFromStore;
++ (void)_removePreviousConversationFromStore;
 
 @end
 

@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWLINKSchemaFLOWLINKAction : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_actionIdentifierName;
-    int _systemProtocol;
-    int _presentationStyle;
-    NSArray *_parameters;
-    struct {
-        unsigned int systemProtocol:1;
-        unsigned int presentationStyle:1;
-    } _has;
-    _Bool _hasLinkId;
-    _Bool _hasActionIdentifierName;
 }
 
 - (int);
@@ -37,42 +27,33 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)=;
+- (id)PHOTOSTREAM_HFSWARNING_TITLE;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)replaceKind: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
+- (id)identifier;
+- (id)_initialSelectBeforeRun;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)hemaContextualSpanData";
 - (id)Rate"b1"trialConfirmationRate"b1"signalToNoiseRatio"b1"loudnessLevel"b1};
-- (id)aSTAnswerSynthesisDataMetrics;
+- (id)STSchemaSTAnswerSynthesisDataMetrics;
 - (id)%;
-- (int)sambiguationsLastOneDay;
+- (int)numSelectedActionDisambiguationsLastOneDay;
 - (void)]%e¥9%;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionIdentifierName; // @synthesize actionIdentifierName=_actionIdentifierName;
-@property(nonatomic) _Bool hasActionIdentifierName; // @synthesize hasActionIdentifierName=_hasActionIdentifierName;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasPresentationStyle;
-@property(nonatomic) _Bool hasSystemProtocol;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(nonatomic) int presentationStyle; // @synthesize presentationStyle=_presentationStyle;
-@property(nonatomic) int systemProtocol; // @synthesize systemProtocol=_systemProtocol;
 
 @end
 

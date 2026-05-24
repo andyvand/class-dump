@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCListener;
+@class NSString;
 
 @interface MSVXPCListener
 {
     NSString *_registeredServiceName;
-    NSXPCListener *_localProxy;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)ttracker.trackDistribution;
 - (void);
 - (void);
 - (id);

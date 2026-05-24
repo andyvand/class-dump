@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPLocalPickerAlbumCell, MPMediaItemCollection, MPMediaQuery, NSLayoutConstraint;
-@protocol MPLocalPickerResponder;
+@class MPMediaItemCollection;
 
 __attribute__((visibility("hidden")))
 @interface MPLocalPickerAlbumGridViewController
 {
     _Bool _mShowArtists;
-    MPMediaItemCollection *_mCollection;
-    MPMediaQuery *_mQuery;
-    id <MPLocalPickerResponder> _mPickerResponder;
-    double _mLastViewWidth;
-    MPLocalPickerAlbumCell *_mLayoutTemplateCell;
-    NSLayoutConstraint *_mLayoutTemplateWidthConstraint;
 }
 
 + (id);
@@ -37,21 +30,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (long long);
-- (long long);
-- (void);
+- (long long)y;
+- (long long)P;
+- (void)h_geom_keystone1_delta_std;
 - (void);
 - (void)"NSString",C,N;
 - (id)ng mapping for MPModelPropertySongArtwork;
 
 // Remaining properties
 @property(retain, nonatomic) MPMediaItemCollection *mCollection; // @synthesize mCollection=_mCollection;
-@property(nonatomic) double mLastViewWidth; // @synthesize mLastViewWidth=_mLastViewWidth;
-@property(retain, nonatomic) MPLocalPickerAlbumCell *mLayoutTemplateCell; // @synthesize mLayoutTemplateCell=_mLayoutTemplateCell;
-@property(retain, nonatomic) NSLayoutConstraint *mLayoutTemplateWidthConstraint; // @synthesize mLayoutTemplateWidthConstraint=_mLayoutTemplateWidthConstraint;
-@property(nonatomic) __weak id <MPLocalPickerResponder> mPickerResponder; // @synthesize mPickerResponder=_mPickerResponder;
-@property(retain, nonatomic) MPMediaQuery *mQuery; // @synthesize mQuery=_mQuery;
-@property(nonatomic) _Bool mShowArtists; // @synthesize mShowArtists=_mShowArtists;
 
 @end
 

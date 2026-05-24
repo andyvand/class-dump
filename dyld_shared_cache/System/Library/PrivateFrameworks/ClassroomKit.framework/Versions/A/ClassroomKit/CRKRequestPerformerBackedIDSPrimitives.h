@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, NSDictionary;
 @protocol CRKRequestPerformingProtocol;
 
 @interface CRKRequestPerformerBackedIDSPrimitives
 {
     id <CRKRequestPerformingProtocol> _requestPerformer;
-    CATOperationQueue *_operationQueue;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -26,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *debugInfo;
-@property(readonly, nonatomic) CATOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
 @property(readonly, nonatomic) id <CRKRequestPerformingProtocol> requestPerformer; // @synthesize requestPerformer=_requestPerformer;
 
 @end

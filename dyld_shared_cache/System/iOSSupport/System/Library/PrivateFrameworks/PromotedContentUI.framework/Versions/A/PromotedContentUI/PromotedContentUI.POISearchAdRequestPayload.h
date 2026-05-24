@@ -9,7 +9,6 @@
 @interface PromotedContentUI.POISearchAdRequestPayload : PromotedContentUI.SearchAdRequestPayload
 {
     id anonymousSessionId;
-    id forceShowAds;
 }
 
 @end

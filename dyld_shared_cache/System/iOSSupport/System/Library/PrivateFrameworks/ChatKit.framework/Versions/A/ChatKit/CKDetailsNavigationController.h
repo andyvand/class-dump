@@ -6,24 +6,20 @@
 
 #import <ChatKit/CKNavigationControllerAdaptivePresentationCollectionView.h>
 
-@class CKDetailsControllerAdapter;
-
 @interface CKDetailsNavigationController : CKNavigationControllerAdaptivePresentationCollectionView
 {
     _Bool _isDetached;
-    CKDetailsControllerAdapter *_detailsAdapter;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)n;
+- (id)a didn't exist for attachment, taking some extra time to generate it:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (void)lassicQuestionAsset;
+- (void)TapbackClassicQuestionAsset;
 
 // Remaining properties
-@property(retain, nonatomic) CKDetailsControllerAdapter *detailsAdapter; // @synthesize detailsAdapter=_detailsAdapter;
 @property(nonatomic) _Bool isDetached; // @synthesize isDetached=_isDetached;
 
 @end

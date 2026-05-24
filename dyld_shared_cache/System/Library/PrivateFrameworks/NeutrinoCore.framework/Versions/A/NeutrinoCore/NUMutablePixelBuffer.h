@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUBufferStorage, NUPixelFormat;
-@protocol NUMutableBuffer;
+@class NUBufferStorage;
 
 @interface NUMutablePixelBuffer
 {
     NUBufferStorage *_storage;
-    id <NUMutableBuffer> _buffer;
 }
 
 - (id);
@@ -21,27 +19,16 @@
 - (void);
 - (id);
 - (id);
-- (CDStruct_912cb5d2);
-- (const void *);
+- (CDStruct_912cb5d2)qt;
+- (const void *)7;
 - (id);
-- (id);
+- (id);
 - (void *);
 - (void)iIq}48o^@72;
 - (id):name:version:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) const void *bytes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NUPixelFormat *format;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) void *mutableBytes;
-@property(readonly, nonatomic) long long rowBytes;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size;
-@property(readonly) Class superclass;
 
 @end
 

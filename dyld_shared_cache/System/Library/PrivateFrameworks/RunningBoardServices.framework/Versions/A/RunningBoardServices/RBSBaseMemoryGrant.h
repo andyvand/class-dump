@@ -11,7 +11,6 @@
 @interface RBSBaseMemoryGrant : RBSGrant
 {
     NSString *_category;
-    unsigned char _strength;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, nonatomic) unsigned char strength; // @synthesize strength=_strength;
 
 @end
 

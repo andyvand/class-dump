@@ -12,21 +12,19 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)endSignpost:forEventName:withPayload: /* Error: Ran out of types for this method. */;
+- (id)/Frameworks/CoreSpotlight.framework/CoreSpotlight;
+- (_Bool):userInfo:completion:] /* Error: Ran out of types for this method. */;
 - (Class)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isWritable;
 @property(readonly, copy, nonatomic) NSString *key;
-@property(readonly, nonatomic) Class valueClass;
 
 @end
 

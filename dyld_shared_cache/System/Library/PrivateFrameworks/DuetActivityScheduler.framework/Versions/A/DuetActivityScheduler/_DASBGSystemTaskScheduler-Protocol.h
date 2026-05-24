@@ -5,5 +5,9 @@
 //
 
 @protocol _DASBGSystemTaskScheduler
+- (void);
+- (void)too big %lld;
+- (void);
+- (void);
 @end
 

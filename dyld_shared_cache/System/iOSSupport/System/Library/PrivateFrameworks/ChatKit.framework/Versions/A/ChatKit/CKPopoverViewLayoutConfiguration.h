@@ -7,36 +7,26 @@
 @interface CKPopoverViewLayoutConfiguration
 {
     double _minimumSendMenuDimension;
-    double _defaultAppCompactHeight;
-    double _preferredAppWidth;
-    double _minimumTopSpacing;
-    double _minimumTrailingSpacing;
-    double _maximumHeight;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void)cloudAccountName;
+- (void)audioPlayer:(double)arg1 didChangeProgress: /* Error: Ran out of types for this method. */;
+- (void)audioModel;
+- (void)attributesForSharingHTMLWithTagName:(double)arg1 textContent: /* Error: Ran out of types for this method. */;
+- (void)_paragraphSpacing;
+- (double)ICCalculateGraphExpressionTextAttachment;
 - (struct CGSize);
 - (struct CGSize);
 - (struct CGSize);
+- (double);
+- (double)M;
 - (double);
-- (double);
-- (double);
-- (double);
+- (double)e;
 - (double);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double defaultAppCompactHeight; // @synthesize defaultAppCompactHeight=_defaultAppCompactHeight;
-@property(nonatomic) double maximumHeight; // @synthesize maximumHeight=_maximumHeight;
 @property(nonatomic) double minimumSendMenuDimension; // @synthesize minimumSendMenuDimension=_minimumSendMenuDimension;
-@property(nonatomic) double minimumTopSpacing; // @synthesize minimumTopSpacing=_minimumTopSpacing;
-@property(nonatomic) double minimumTrailingSpacing; // @synthesize minimumTrailingSpacing=_minimumTrailingSpacing;
-@property(nonatomic) double preferredAppWidth; // @synthesize preferredAppWidth=_preferredAppWidth;
 
 @end
 

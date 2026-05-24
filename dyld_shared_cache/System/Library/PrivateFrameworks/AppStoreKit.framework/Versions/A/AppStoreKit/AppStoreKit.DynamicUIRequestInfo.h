@@ -7,12 +7,6 @@
 @interface AppStoreKit.DynamicUIRequestInfo
 {
     id clientOptions;
-    id metricsOverlay;
-    id purchaseSuccessAction;
-    id purchaseFailureAction;
-    id carrierLinkSuccessAction;
-    id carrierLinkFailureAction;
-    id onDismissalAction;
 }
 
 @end

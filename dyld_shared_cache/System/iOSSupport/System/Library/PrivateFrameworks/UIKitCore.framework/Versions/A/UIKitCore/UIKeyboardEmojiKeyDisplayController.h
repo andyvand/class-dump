@@ -4,56 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIKeyboardEmojiCategory, UIKeyboardEmojiKeyView;
+@class UIKeyboardEmojiKeyView;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiKeyDisplayController
 {
     UIKeyboardEmojiKeyView *_inputView;
-    UIKeyboardEmojiKeyView *_categoryView;
-    UIKeyboardEmojiCategory *_lastViewedCategory;
 }
 
-+ (void);
++ (void)age GUID successfully:%{bool}d error:%@ /* Error: Ran out of types for this method. */;
 + (Class);
 + (Class);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void)ignoring;
+- (void)ge should handle.;
+- (long long)public}@ yet;
+- (void)receipt;
+- (id)%@;
+- (long long)or key %@ error %@;
+- (id)key %@ -  %@;
+- (id)contain nickname %@;
+- (_Bool)handling using chat found from RCS identifier (chat:(id)arg1 %@) rather than chat from participants because no chat was found from participants.;
+- (id)thGUID invalid parameters [key length] %@ guid %@;
 - (void);
-- (void);
-- (long long);
+- (void)count security level %@;
+- (void)collaborationClearNoticeRateLimiterOverride;
 - (void);
 - (id);
-- (long long);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)CEMNetworkSettingsDeclaration;
 - (id);
 - (void)lStackViewLeading;
 - (id)ük[;
 - (void)tf;
 
 // Remaining properties
-@property(nonatomic) __weak UIKeyboardEmojiKeyView *categoryView; // @synthesize categoryView=_categoryView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UIKeyboardEmojiKeyView *inputView; // @synthesize inputView=_inputView;
-@property __weak UIKeyboardEmojiCategory *lastViewedCategory;
-@property(readonly) Class superclass;
 
 @end
 

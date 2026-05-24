@@ -7,16 +7,10 @@
 @interface NewsFeed.DebugFormatEditorPathView
 {
     id onShowSourceMap;
-    id label;
-    id scrollView;
-    id separatorView;
-    id textLink;
-    id linkHandler;
-    id editor;
 }
 
 - (id);
-- (void);
+- (void)ForEntry:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

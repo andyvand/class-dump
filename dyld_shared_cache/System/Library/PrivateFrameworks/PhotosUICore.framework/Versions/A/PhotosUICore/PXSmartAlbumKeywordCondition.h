@@ -6,7 +6,7 @@
 
 #import <PhotosUICore/PXSmartAlbumCondition.h>
 
-@class NSArray, PXLabeledValue;
+@class NSArray;
 
 @interface PXSmartAlbumKeywordCondition : PXSmartAlbumCondition
 {
@@ -21,7 +21,6 @@
 - (void)xúÉ­©»Ô;
 
 // Remaining properties
-@property(retain, nonatomic) PXLabeledValue *keywordValue;
 @property(readonly, nonatomic) NSArray *keywordValues;
 
 @end

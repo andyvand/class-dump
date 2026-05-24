@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, UTType;
+@class NSString;
 
 @interface MFComposePhotoPickerItem
 {
     void assetIdentifier;
-    void assetURL;
-    void assetData;
-    void contentType;
-    void contentIdentifier;
 }
 
 + (id);
@@ -22,19 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)LPLinkMetadataSourceApplicationTransformer;
+- (_Bool)writeCurrentPencilSharpenerLogsToURL:fullLogs:windowScene: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)\ô;
 
 // Remaining properties
-@property(nonatomic, readonly) NSData *assetData;
 @property(nonatomic, readonly) NSString *assetIdentifier;
-@property(nonatomic, readonly) NSURL *assetURL;
-@property(nonatomic, readonly) NSString *contentIdentifier;
-@property(nonatomic, readonly) UTType *contentType;
-@property(nonatomic, readonly) _Bool isVideo;
 
 @end
 

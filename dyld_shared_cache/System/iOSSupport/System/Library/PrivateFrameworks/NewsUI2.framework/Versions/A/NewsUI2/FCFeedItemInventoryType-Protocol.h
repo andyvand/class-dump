@@ -4,12 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class FCMapTable, NSArray;
 
 @protocol FCFeedItemInventoryType
+- (NSArray *)SensitiveContentRecentsTipView;
+- (NSArray *);
+- (NSArray *)SensitiveContentRecentsTipViewModel;
+- (FCMapTable *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allFeedItems;
-@property(readonly, nonatomic) NSArray *allNetworkEvents;
 @end
 

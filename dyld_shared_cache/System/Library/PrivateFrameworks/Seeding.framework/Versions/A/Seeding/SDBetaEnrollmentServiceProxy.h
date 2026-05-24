@@ -4,54 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface SDBetaEnrollmentServiceProxy
 {
     NSXPCConnection *_daemonConnection;
 }
 
-+ (id);
++ (id)queueDepth=%ld :self.currentAsyncRequestsInFlight=%ld lModel=%@ /* Error: Ran out of types for this method. */;
+- (void)v40@0:(id)arg1 8d16d24@?32;
+- (id)on"@"NSError">32;
+- (id)?Qq@"NSError">28;
+- (void)@32q40@48B56B60B64B68B72@76;
+- (void)tIdentifier"b1};
+- (id)hasProductVersion"b1"hasSchemaVersion"b1"hasLogEventIdentifier"b1};
+- (void)Set"16@"NSString"24B32@?<v@?@"NSArray">36;
+- (id)ng"24@"NSUUID"32@"AFSyncInfo"40@?<v@?>48;
+- (void)ctionary"@"NSDictionary">32;
+- (_Bool)or">32;
+- (void)onfiguration";
+- (void)0:8@"AFExperimentGroup"16 /* Error: Ran out of types for this method. */;
+- (void)tent"24@?<v@?BB>32;
+- (id)"16;
+- (id)8@"NSArray"16@"NSArray"24@"NSString"32;
+- (void)6;
+- (void)8@"NSDictionary"16@"NSURL"24;
+- (void)6;
+- (void)v20@0:(id)arg1 8B16;
+- (id)SafetyBlock";
+- (void)NSArray";
+- (void)v52@0:(id)arg1 8@16B24q28d36@?44;
+- (void)chObserver"16q24;
+- (_Bool)0@0:8@"AFAccessibilityObserver"16@"AFAccessibilityState"24@"AFAccessibilityState"32 /* Error: Ran out of types for this method. */;
+- (void)};
+- (id)willPresentUsefulUserResultWithType: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)0;
+- (void)error event %p for model %@
+;
 - (id);
 
 // Remaining properties
 @property(retain) NSXPCConnection *daemonConnection; // @synthesize daemonConnection=_daemonConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

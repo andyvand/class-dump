@@ -6,17 +6,12 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSArray, NSDictionary, NSSet;
+@class NSDictionary;
 @protocol FCContentContext;
 
 @interface FCCheckDraftContentAccessOperation : FCOperation
 {
     id <FCContentContext> _context;
-    NSArray *_channelMemberships;
-    NSSet *_issueIDs;
-    NSSet *_articleIDs;
-    CDUnknownBlockType _checkAccessCompletion;
-    NSDictionary *_resultAccessByContentID;
 }
 
 - (void);
@@ -38,11 +33,6 @@
 - (_Bool)¬éÐÿnY;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *articleIDs; // @synthesize articleIDs=_articleIDs;
-@property(copy, nonatomic) NSArray *channelMemberships; // @synthesize channelMemberships=_channelMemberships;
-@property(copy, nonatomic) CDUnknownBlockType checkAccessCompletion; // @synthesize checkAccessCompletion=_checkAccessCompletion;
-@property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) NSSet *issueIDs; // @synthesize issueIDs=_issueIDs;
 @property(copy, nonatomic) NSDictionary *resultAccessByContentID; // @synthesize resultAccessByContentID=_resultAccessByContentID;
 
 @end

@@ -7,8 +7,6 @@
 @interface HomeKitDaemon.HindsightDigestController
 {
     id weakHomeManager;
-    id configuration;
-    id delegate;
 }
 
 @end

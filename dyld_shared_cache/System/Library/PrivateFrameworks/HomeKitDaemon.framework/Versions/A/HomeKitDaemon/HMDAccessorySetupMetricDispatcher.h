@@ -4,72 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryDiagnosticInfoProtoDiagnosticInfo, HMDHome, HMDHomeManager, HMFTimer, NSError, NSObject, NSString, NSUUID;
-@protocol HMDAccessorySetupMetricDispatcherDelegate, HMDDeviceSetupTrackingInfo, HMFCancellable, HMMLogEventSubmitting, HMMRadarInitiating, OS_dispatch_queue, OS_os_log;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySetupMetricDispatcher
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_os_log> *_logger;
-    _Bool _submitted;
-    _Bool _isRepairSession;
-    _Bool _isUserAtOtherOwnedHome;
-    _Bool _didSendAddAccessoryRequestToPrimary;
-    _Bool _didAddAccessoryLocally;
-    _Bool _primaryResidentIdenticalToAccessoryBeingAdded;
-    _Bool _primaryResidentAssignedInHomeWhenAddAccessory;
-    unsigned int _numberOfTimesPrimaryResidentChanged;
-    unsigned int _numberOfTimesPrimaryClientConnected;
-    unsigned int _numberOfTimesPrimaryClientDisconnected;
-    unsigned int _numberOfTimesPrimaryClientConnectMessageFailed;
-    unsigned int _numberOfMediaAccessoriesnHome;
-    unsigned int _numberOfAvailableResidentsInHome;
-    unsigned int _numberOfResidentsInHome;
-    id <HMDDeviceSetupTrackingInfo> _trackingInfo;
-    id <HMDAccessorySetupMetricDispatcherDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    HMFTimer *_timer;
-    id <HMMLogEventSubmitting> _submitter;
-    id <HMMRadarInitiating> _radarInitiator;
-    HMDHomeManager *_homeManager;
-    id _discoveryController;
-    id _networkInfoController;
-    HMDHome *_home;
-    HMAccessoryDiagnosticInfoProtoDiagnosticInfo *_accessoryDiagnosticInfo;
-    NSError *_accessoryDiagnosticInfoFetchError;
-    HMAccessoryDiagnosticInfoProtoDiagnosticInfo *_primaryResidentDiagnosticInfo;
-    NSError *_primaryResidentDiagnosticInfoFetchError;
-    id <HMFCancellable> _remoteEventRouterAssertion;
-    id _discoveryAssertion;
-    NSUUID *_setupSessionIdentifier;
-    unsigned long long _firstSettingTime;
-    unsigned long long _languageSettingTime;
-    unsigned long long _addAccessoryFinishTime;
-    unsigned long long _accessoryRemovedTime;
-    long long _selectedHomeLocationStatus;
-    unsigned long long _lastPrimaryResidentAvailableTime;
-    unsigned long long _lastPrimaryClientConnectedTime;
-    NSError *_lastPrimaryClientConnectMessageFailError;
-    NSError *_addAccessoryOnPrimaryFailError;
 }
 
 + (id)C;
-- (void);
-- (id);
+- (void)te}@ to %{public}@/%{public}@;
+- (id)d GEOPolylineCoordinateInvalid;
 - (long long);
 - (void);
 - (_Bool);
 - (_Bool);
+- (id)c;
+- (unsigned int);
+- (unsigned int)2e;
+- (unsigned int);
+- (unsigned int);
+- (unsigned int);
+- (unsigned int);
+- (unsigned int);
 - (id);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -81,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -97,8 +55,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)clientStreamingRequestWithMethodName:requestBuilder:responseHandler: /* Error: Ran out of types for this method. */;
+- (id)supersetLocationNodes;
 - (void);
 - (void);
 - (_Bool);
@@ -106,45 +64,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)ð1Â0@ù
 × ;
-- (void)IntoAtHomeRegion;
+- (void)dateCrossedIntoAtHomeRegion;
 - (void)ic}@[Flow:(id)arg1 %@] Failed to remove reader key from:(id)arg2 %@, its home:(id)arg3 %@ doesn't match current home:%@ /* Error: Ran out of types for this method. */;
 - (void)LÜ;
 - (void)ï*w>;
 
 // Remaining properties
-@property(readonly) unsigned long long accessoryRemovedTime;
-@property(readonly) unsigned long long addAccessoryFinishTime;
-@property(readonly, copy) NSError *addAccessoryOnPrimaryFailError;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDAccessorySetupMetricDispatcherDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool didAddAccessoryLocally;
-@property(readonly) _Bool didSendAddAccessoryRequestToPrimary;
-@property(readonly) unsigned long long firstSettingTime;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isRepairSession;
-@property(readonly) _Bool isUserAtOtherOwnedHome;
-@property(readonly) unsigned long long languageSettingTime;
-@property(readonly, copy) NSError *lastPrimaryClientConnectMessageFailError;
-@property(readonly) unsigned long long lastPrimaryClientConnectedTime;
-@property(readonly) unsigned long long lastPrimaryResidentAvailableTime;
-@property(readonly) unsigned int numberOfAvailableResidentsInHome;
-@property(readonly) unsigned int numberOfMediaAccessoriesnHome;
-@property(readonly) unsigned int numberOfResidentsInHome;
-@property(readonly) unsigned int numberOfTimesPrimaryClientConnectMessageFailed;
-@property(readonly) unsigned int numberOfTimesPrimaryClientConnected;
-@property(readonly) unsigned int numberOfTimesPrimaryClientDisconnected;
-@property(readonly) unsigned int numberOfTimesPrimaryResidentChanged;
-@property(readonly) _Bool primaryResidentAssignedInHomeWhenAddAccessory;
-@property(readonly) _Bool primaryResidentIdenticalToAccessoryBeingAdded;
-@property(readonly) long long selectedHomeLocationStatus;
-@property(readonly, copy, nonatomic) NSUUID *setupSessionIdentifier;
-@property(readonly) _Bool submitted;
-@property(readonly) Class superclass;
-@property(readonly) id <HMDDeviceSetupTrackingInfo> trackingInfo;
+@property(readonly, copy, nonatomic) NSUUID *setupSessionIdentifier; // @synthesize setupSessionIdentifier=_setupSessionIdentifier;
 
 @end
 

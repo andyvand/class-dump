@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BPSSubscriptionStatus, NSString;
-@protocol BPSPublisher;
-
 @interface BPSSink
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_recursive_lock_s _rlock;
-    _Bool _finished;
-    BPSSubscriptionStatus *_status;
-    CDUnknownBlockType _receivedCompletion;
-    CDUnknownBlockType _receivedValue;
-    long long _demand;
-    id <BPSPublisher> _publisher;
 }
 
 + (id);
@@ -29,10 +19,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)setSessionDidStartBlocks: /* Error: Ran out of types for this method. */;
+- (void)Failed to create sendData directory:(id)arg1 [%{public}@];
 - (void);
-- (void);
-- (id);
+- (id)numberWithUnsignedInt:(CDUnknownBlockType)arg1;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -49,19 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) long long demand; // @synthesize demand=_demand;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <BPSPublisher> publisher; // @synthesize publisher=_publisher;
 @property(copy, nonatomic) CDUnknownBlockType receivedCompletion; // @synthesize receivedCompletion=_receivedCompletion;
-@property(copy, nonatomic) CDUnknownBlockType receivedValue; // @synthesize receivedValue=_receivedValue;
-@property(retain, nonatomic) BPSSubscriptionStatus *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

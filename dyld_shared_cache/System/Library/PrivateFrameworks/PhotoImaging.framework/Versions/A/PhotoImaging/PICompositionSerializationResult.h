@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface PICompositionSerializationResult
 {
     NSData *_data;
-    NSString *_formatIdentifier;
-    NSString *_formatVersion;
 }
 
 - (void);
-- (id);
+- (id)C9;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)erURL:asset:completion: /* Error: Ran out of types for this method. */;
+- (void)reloadSegmentationItemFromWallpaperURL:asset:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSString *formatIdentifier; // @synthesize formatIdentifier=_formatIdentifier;
-@property(retain, nonatomic) NSString *formatVersion; // @synthesize formatVersion=_formatVersion;
 
 @end
 

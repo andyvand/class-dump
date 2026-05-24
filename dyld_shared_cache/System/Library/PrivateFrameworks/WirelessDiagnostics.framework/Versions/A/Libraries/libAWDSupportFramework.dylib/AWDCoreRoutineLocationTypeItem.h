@@ -7,11 +7,6 @@
 @interface AWDCoreRoutineLocationTypeItem
 {
     int _locationType;
-    int _percentage;
-    struct {
-        unsigned int locationType:1;
-        unsigned int percentage:1;
-    } _has;
 }
 
 - (void);
@@ -29,14 +24,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (int)rMS;
+- (void)componentsFromLocaleIdentifier:(_Bool)arg1;
+- (int)concurrentIntDurMS;
 
 // Remaining properties
 @property(nonatomic) _Bool hasLocationType;
-@property(nonatomic) _Bool hasPercentage;
-@property(nonatomic) int locationType; // @synthesize locationType=_locationType;
-@property(nonatomic) int percentage; // @synthesize percentage=_percentage;
 
 @end
 

@@ -4,59 +4,130 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, RadiosPreferences;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ICCloudAvailabilityController
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    _Bool _hasProperNetworkConditionsToShowCloudMedia;
-    _Bool _isAirplaneModeActive;
-    _Bool _isAutoDownloadOnCellularAllowed;
-    _Bool _isCellularDataRestrictedForMusic;
-    _Bool _isShowingAllMusic;
-    _Bool _isShowingAllVideo;
-    _Bool _isUpdateInProgress;
-    _Bool _isWiFiEnabled;
-    _Bool _isWiFiAssociated;
-    _Bool _isEthernetWired;
-    _Bool _isNetworkReachable;
-    _Bool _canShowCloudMusic;
-    _Bool _canShowCloudVideo;
-    _Bool _canShowCloudDownloadButtons;
-    int _preferencesChangedNotifyToken;
-    _Bool _preferencesChangedNotifyTokenIsValid;
-    long long _networkType;
-    RadiosPreferences *_radiosPreferences;
-    struct __CTServerConnection *_ctServerConnection;
 }
 
 + (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)@;
 - (void);
 - (_Bool);
+- (_Bool)newRenderPipelineStateWithMeshDescriptor:options:reflection:error: /* Error: Ran out of types for this method. */;
+- (void)C3DEngineNotificationQueueTransientWrapper;
+- (_Bool)e1*sinfn(np, prev_p);
+    }
+
+    float3 Ep_im;
+    if (v[im].valence < -2) {
+        int j = (nm + start_m - v[im].zerothNeighbor) % nm;
+        Ep_im = v[im].P + cospi(j/float(nm-1))*v[im].e0 + sinpi(j/float(nm-1))*v[im].e1;
+    } else {
+        Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+    }
+
+    if (v[i].valence < 0) {
+        n = (n-1)*2;
+    }
+    if (v[im].valence < 0) {
+        nm = (nm-1)*2;
+    }
+    if (v[ip].valence < 0) {
+        np = (np-1)*2;
+    }
+
+    if (v[i].valence > 2) {
+        result.Ep = v[i].P + (v[i].e0*cosfn(n, start) + v[i].e1*sinfn(n, start));
+        result.Em = v[i].P + (v[i].e0*cosfn(n, prev) +  v[i].e1*sinfn(n, prev));
+
+        float s1=3-2*cosfn(n,1)-cosfn(np,1);
+        float s2=2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+    } else if (v[i].valence < -2) {
+        int j = (valence + start - v[i].zerothNeighbor) % valence;
+
+        result.Ep = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+        j = (valence + prev - v[i].zerothNeighbor) % valence;
+        result.Em = v[i].P + cospi(j/float(valence-1))*v[i].e0 + sinpi(j/float(valence-1))*v[i].e1;
+
+        float3 Rp = ((-2.0f * v[i].org - 1.0f * v[im].org) + (2.0f * v[ip].org + 1.0f * v[(i+2)%4].org))/3.0f;
+        float3 Rm = ((-2.0f * v[i].org - 1.0f * v[ip].org) + (2.0f * v[im].org + 1.0f * v[(i+2)%4].org))/3.0f;
+
+        float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+        float s2 = 2*cosfn(n,1);
+
+        result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+        result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+
+        if (v[im].valence < 0) {
+            s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+            result.Fp = result.Fm = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+        } else if (v[ip].valence < 0) {
+            s1 = 3.0f-2.0f*cospi(2.0f/n)-cospi(2.0f/nm);
+            result.Fm = result.Fp = (cosfn(nm,1)*v[i].P + s1*result.Em + s2*Ep_im - v[i].r[prev])/3.0f;
+        }
+
+    } else if (v[i].valence == -2) {
+        result.Ep = (2.0f * v[i].org + v[ip].org)/3.0f;
+        result.Em = (2.0f * v[i].org + v[im].org)/3.0f;
+        result.Fp = result.Fm = (4.0f * v[i].org + v[(i+2)%n].org + 2.0f * v[ip].org + 2.0f * v[im].org)/9.0f;
+    }
+
+#else // not OSD_PATCH_GREGORY_BOUNDARY
+
+    result.Ep = v[i].P + v[i].e0 * cosfn(n, start) + v[i].e1*sinfn(n, start);
+    result.Em = v[i].P + v[i].e0 * cosfn(n, prev ) + v[i].e1*sinfn(n, prev );
+
+    float3 Em_ip = v[ip].P + v[ip].e0*cosfn(np, prev_p) + v[ip].e1*sinfn(np, prev_p);
+    float3 Ep_im = v[im].P + v[im].e0*cosfn(nm, start_m) + v[im].e1*sinfn(nm, start_m);
+
+    float s1 = 3-2*cosfn(n,1)-cosfn(np,1);
+    float s2 = 2*cosfn(n,1);
+
+    result.Fp = (cosfn(np,1)*v[i].P + s1*result.Ep + s2*Em_ip + v[i].r[start])/3.0f;
+    s1 = 3.0f-2.0f*cospi(2.0f/float(n))-cospi(2.0f/float(nm));
+    result.Fm = (cosfn(nm,1)*v[i].P + s1*result.Em +s2*Ep_im - v[i].r[prev])/3.0f;
+
+#endif
+}
+
+#endif  // OSD_PATCH_GREGORY || OSD_PATCH_GREGORY_BOUNDARY
+
+
+
+
+
+
+
+;
 - (void);
 - (_Bool);
-- (void);
+- (void)b9H
+;
 - (id);
 - (void);
 - (_Bool);
+- (_Bool)setPopupDrawsCloseWidget: /* Error: Ran out of types for this method. */;
+- (void)_addRect:withTransform:withColor: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)librated RGB <%p>;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)AKHighlightAnnotationEventHandler;
 - (_Bool)× ;
 - (void):(_Bool)arg1 8@16Q24I32^@36^@44;
 - (void)X
@@ -65,13 +136,7 @@
 - (void)ðèÿÿp;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

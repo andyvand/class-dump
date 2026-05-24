@@ -9,17 +9,13 @@
 @interface CKTuple5 : CKTuple
 {
     id _v1;
-    id _v2;
-    id _v3;
-    id _v4;
-    id _v5;
 }
 
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)P$;
 - (id);
 - (void);
 - (_Bool);
@@ -28,16 +24,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)CKSyncEngineFetchChangesScope;
 - (id)0O;
 - (id)89éÿ;
 
 // Remaining properties
 @property(retain, nonatomic) id v1; // @synthesize v1=_v1;
-@property(retain, nonatomic) id v2; // @synthesize v2=_v2;
-@property(retain, nonatomic) id v3; // @synthesize v3=_v3;
-@property(retain, nonatomic) id v4; // @synthesize v4=_v4;
-@property(retain, nonatomic) id v5; // @synthesize v5=_v5;
 
 @end
 

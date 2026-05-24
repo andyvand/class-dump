@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, _UITypeSelectInteraction;
+
 @protocol _UITypeSelectInteractionDelegate
+- (CDStruct_c2cb4a46)didJoinReadOnlyChat:(_UITypeSelectInteraction *)arg1 style:displayName:groupID:handleInfo:category:spamExtensionName: /* Error: Ran out of types for this method. */;
+- (NSArray *)checkBlackholedChatsExistAfterUpdatingChatWithAdd:(_UITypeSelectInteraction *)arg1;
 @end
 

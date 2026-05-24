@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVVolumeControlSliderStyleSheet : AVContainerStyleSheet
 {
     double _leadingSliderControlsSpacing;
-    double _sliderControlsSpacing;
 }
 
 - (double);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double leadingSliderControlsSpacing; // @synthesize leadingSliderControlsSpacing=_leadingSliderControlsSpacing;
-@property(nonatomic) double sliderControlsSpacing; // @synthesize sliderControlsSpacing=_sliderControlsSpacing;
 
 @end
 

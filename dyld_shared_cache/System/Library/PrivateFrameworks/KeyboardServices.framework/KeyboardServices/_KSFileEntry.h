@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface _KSFileEntry
 {
     NSString *_name;
-    NSMutableDictionary *_extendedAttributes;
-    NSMutableArray *_tempFiles;
-    NSMutableArray *_fileArray;
-    NSData *_fileBlob;
 }
 
 + (id);
 + (_Bool);
+- (id);
 - (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)C;
+- (void)@"<CNLikenessEditorPresentationStrategy>",&,N,V_presentationStrategy;
+- (id);
+- (id)nt=dd};
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)Ʀ;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSMutableDictionary *extendedAttributes; // @synthesize extendedAttributes=_extendedAttributes;
 @property(readonly, retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

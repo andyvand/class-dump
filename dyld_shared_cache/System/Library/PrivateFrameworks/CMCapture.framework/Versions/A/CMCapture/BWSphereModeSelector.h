@@ -9,57 +9,34 @@
 @interface BWSphereModeSelector
 {
     NSString *_portType;
-    struct __CFString *_currentSphereMode;
-    struct __CFString *_currentNonLowPowerSphereMode;
-    float _maximumFrameRate;
-    _Bool _sphereVideoSupported;
-    _Bool _sphereVideoEnabled;
-    _Bool _sphereVideoRecenteringEnabled;
-    _Bool _avoidsSphereRecentering;
-    _Bool _enablesSphereWhenAvailable;
-    _Bool _motionDataInvalid;
-    _Bool _lowPowerSphereModeEnabled;
-    _Bool _stillPreviewActiveSupported;
-    _Bool _zeroShutterLagEnabled;
-    int _sphereThermalLevel;
-    _Bool _tripodModeEnabled;
-    _Bool _depthDataDeliveryEnabled;
-    _Bool _spherePanoSupported;
-    _Bool _panoModeEnabled;
-    _Bool _overCaptureEnabled;
-    _Bool _trueVideoCaptureEnabled;
-    _Bool _trueVideoUsesSphereModeVideoHighRange;
-    _Bool _variableFrameRateVideoEnabled;
-    float _maximumFrameRateSupported;
-    _Bool _visualIntelligenceCameraEnabled;
 }
 
 + (void)marker;
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id){_xmlDoc=^vi*^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlDoc}ii^{_xmlDtd}^{_xmlDtd}^{_xmlNs}**^v^v*i^{_xmlDict}^vii}24^{_xmlDoc=^vi*^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlDoc}ii^{_xmlDtd}^{_xmlDtd}^{_xmlNs}**^v^v*i^{_xmlDict}^vii}32^{_xmlDoc=^vi*^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlDoc}ii^{_xmlDtd}^{_xmlDtd}^{_xmlNs}**^v^v*i^{_xmlDict}^vii}40;
+- (void)CXUnqualifiedNamespace;
 - (void);
 - (void);
 - (int);
 - (void);
+- (_Bool),V_componentName;
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (void);
 - (_Bool)ááÿæâÿèâÿLÈÿLÈÿLÈÿLÈÿLÈÿMÈÿMÈÿMÈÿMÈÿNÈÿNÈÿNÉÿOÉÿOÉÿXÊÿaÌÿjÍÿsÏÿ~ÑÿÒÿÔÿÖÿ£Øÿ­Úÿ¶Üÿ¿ÞÿÈáÿÒãÿÛåÿâçÿççÿéèÿMËÿMËÿMËÿMËÿMËÿMËÿMËÿNËÿNËÿNËÿNËÿOËÿOËÿPËÿWÌÿ_ÍÿhÏÿrÐÿ|ÒÿÔÿÖÿ×ÿ£Ùÿ­Ûÿ¶Þÿ¿àÿÈãÿÓåÿÛçÿãéÿçêÿêêÿ;
 - (void)ÜSÿäT#ÿêW(ÿìX*ÿìY+ÿìZ,ÿ;
 - (void)±yÇÿ¹zÈÿÀzÉÿÆyËÿÍyÌÿÐwÌÿÓvÌÿÕtËÿÕsËÿÂÿÂÿÂÿ~Âÿ~Âÿ~Âÿ~Âÿ}Âÿ}Âÿ*}Ãÿ7}ÃÿC}ÄÿM}ÅÿX}Åÿc}Æÿm}Æÿw~ÆÿÆÿÆÿÇÿÇÿ¤Èÿ«Èÿ´Êÿ»ËÿÂÌÿÉÍÿÏÎÿÓÎÿÖÎÿ×Îÿ×~ÎÿÅÿÅÿÅÿÅÿÅÿÅÿÅÿÅÿÅÿ%Åÿ4Æÿ@ÇÿLÈÿWÈÿcÉÿmÊÿwÊÿÊÿÊÿÊÿËÿ¦Ëÿ®Ìÿ·Íÿ¾ÎÿÅÏÿËÐÿÒÑÿÖÑÿÙÑÿÚÑÿÚÑÿ"Èÿ"Èÿ"Èÿ"Èÿ"Èÿ"Èÿ"Èÿ!Èÿ!Èÿ$Èÿ3Èÿ?ÉÿKÊÿVËÿbÌÿmÍÿxÍÿÎÿÎÿÎÿ Îÿ©Îÿ±Ïÿ¹ÐÿÁÑÿÇÒÿÎÓÿÔÔÿØÔÿÛÔÿÝÔÿÜÓÿ,Êÿ,Êÿ+Êÿ+Êÿ+Êÿ+Êÿ+Êÿ+Êÿ*Êÿ*Êÿ4ËÿAÌÿLÍÿWÎÿcÏÿnÐÿxÑÿÑÿ Òÿ¡Òÿ¢¢Òÿ«£Òÿ´¥Òÿ¼¦ÒÿÃ§ÓÿÊ§ÔÿÐ§Õÿ×§ÖÿÛ¦×ÿÞ¤×ÿß£×ÿß¡Öÿ6©Íÿ6©Íÿ6©Íÿ5©Íÿ5©Íÿ5©Íÿ5¨Íÿ5¨Íÿ5¨Íÿ4¨Ìÿ8§ÍÿD¨ÎÿO¨ÏÿZ¨Ðÿe¨Ñÿo©Òÿz©Óÿ©ÔÿªÕÿ«Õÿ¤¬Õÿ­­Õÿ¶¯Õÿ¿°ÕÿÆ±ÖÿÍ²×ÿÓ²ØÿÙ²ÙÿÞ±Ùÿá°Úÿâ¯Úÿâ­Ùÿ@³Ïÿ@³Ïÿ@³Ïÿ@²Ïÿ@²Ïÿ@²Ïÿ@²Ïÿ?²Ïÿ?²Ïÿ?±Ïÿ?±ÏÿI²ÏÿT²Ðÿ^²Ñÿi³Òÿs³Óÿ|³Õÿ´Öÿ´×ÿµØÿ¥¶Øÿ¯·Øÿ¸¸ØÿÂºØÿÉ¼ÙÿÏ½ÙÿÖ½ÛÿÜ¾Üÿà½Üÿä¼Ýÿæ»Ýÿæ¹ÝÿK¼ÑÿK¼ÑÿK¼ÑÿK¼ÑÿK¼ÑÿK¼ÑÿK¼ÑÿK¼ÑÿK¼ÑÿK¼ÑÿJ»ÑÿP¼ÑÿZ¼Òÿd½Óÿo½Ôÿx¾Õÿ¾Öÿ¿×ÿÀØÿÀÚÿ¨ÁÛÿ²ÂÛÿ»ÃÜÿÅÅÜÿÌÇÜÿÓÈÝÿÙÉÞÿßÊßÿäÉàÿèÉàÿêÈáÿêÇáÿUÅÓÿUÅÓÿUÄÓÿUÄÓÿUÄÓÿUÄÓÿTÄÓÿTÄÓÿTÄÓÿTÄÓÿTÄÒÿVÄÒÿ`ÄÓÿjÅÔÿtÆÕÿ~ÆÖÿÇ×ÿÈØÿÉÚÿ£ÊÛÿ¬ËÜÿµÌÝÿ¾ÍÞÿÈÎßÿÐÐßÿÖÒàÿÜÓáÿâÔâÿçÔãÿëÔäÿíÓäÿîÒäÿ]ÌÕÿ]ÌÕÿ^ÌÕÿ]ÌÕÿ]ÌÕÿ]ÌÕÿ]ÌÕÿ]ÌÕÿ]ÌÕÿ]ËÔÿ]ËÔÿ]ËÔÿeÌÕÿoÌÖÿzÍ×ÿÎØÿÏÙÿÐÚÿ¡ÑÛÿ©ÒÜÿ²ÓÞÿºÕßÿÂÖàÿË×âÿÓØãÿÚÚãÿàÜäÿåÝåÿêÞæÿîÞçÿñÞèÿòÝèÿeÓ×ÿeÓ×ÿeÒ×ÿeÒ×ÿeÒ×ÿeÒ×ÿeÒ×ÿeÒ×ÿeÒ×ÿeÒÖÿeÒÖÿeÒÖÿiÒ×ÿsÓ×ÿ~ÔØÿÕÚÿÖÛÿ×Üÿ¦ÙÝÿ¯ÚÞÿ¸ÛàÿÀÜáÿÈÞâÿÑßäÿ×áåÿÞâæÿääçÿèåéÿíæêÿñçëÿôçìÿöçìÿlÙÙÿlÙÙÿlÙÙÿlÙÙÿlÙÙÿlÙÙÿlÙÙÿlÙÙÿlÙÙÿlÙÙÿlÙØÿlÙØÿlÙØÿvÙÙÿÛÚÿÜÛÿÝÝÿ ÞÞÿªàßÿ´ááÿ½ââÿÆääÿÎååÿ×ççÿÞèèÿäêêÿéëëÿíííÿðîîÿõïïÿøððÿúððÿqÝÚÿqÝÚÿqÝÚÿqÝÚÿqÝÚÿqÝÚÿqÝÚÿqÝÚÿqÝÚÿqÝÚÿqÝÚÿqÝÚÿqÝÚÿvÞÚÿßÛÿàÜÿáÞÿ¡ãßÿ¬äáÿ¶æâÿ¿çäÿÈéæÿÑëèÿÚìêÿáîëÿçðíÿìñïÿñóñÿôôòÿøõóÿûöóÿü÷óÿtáÛÿtáÛÿtáÛÿtáÛÿtáÛÿtáÛÿtáÛÿtáÛÿtáÛÿtáÛÿtáÛÿtáÛÿtàÚÿtàÚÿâÜÿãÝÿäßÿ æàÿ¬èâÿ¶éäÿÀëæÿÉíçÿÒïéÿÛñìÿâóîÿèôðÿîöñÿóøóÿ÷ùôÿúúõÿýûõÿþüõÿvãÛÿvãÛÿvãÛÿvãÛÿvãÛÿvãÛÿvãÛÿvãÛÿvãÛÿvãÛÿvãÛÿvãÛÿvãÛÿvãÛÿ}ãÜÿåÝÿæßÿèàÿªêâÿ´ëäÿ¿íæÿÈïèÿÑñêÿÛóíÿâõïÿé÷ñÿïùóÿôûôÿøüõÿüþöÿþþöÿÿÿöÿwãÛÿwãÛÿwãÛÿwãÛÿwãÛÿwãÛÿwãÛÿwãÛÿwãÛÿwãÛÿwãÛÿwãÛÿwãÛÿwãÛÿwãÛÿäÜÿæÞÿçßÿ¦éáÿ°ëãÿ»íåÿÅïçÿÏñêÿÙóìÿàöîÿçøðÿîúòÿôüôÿùýõÿüÿõÿÿÿöÿÿÿöÿ;
 - (_Bool)·~¥ÿ¿{£ÿÆy ÿÏwÿ×uÿßsÿèrÿòqÿûqÿÿqÿÿqÿÿqÿ;
-- (_Bool)ce;
+- (_Bool)captureutilities_trace;
 - (void)apture.camera-stolen-interruptor.allow;
 - (void)n->opSampleBuffer.sbuf;
 - (struct __CFString *)mapsSpacingH;
@@ -68,30 +45,12 @@
 - (void)t-onboarding-state;
 - (_Bool)per addNode:metadataFunnelNode error:&error] /* Error: Ran out of types for this method. */;
 - (_Bool)derURL isEqual:archiveBaseFolderURL] /* Error: Ran out of types for this method. */;
-- (id)BackgroundShiftSumTooLowThreshold;
+- (id)StageBackgroundShiftSumTooLowThreshold;
 - (float)6$%;
 - (void)(ÈÎÿ¼6tþ&;
 
 // Remaining properties
-@property(nonatomic) _Bool avoidsSphereRecentering;
-@property(readonly) struct __CFString *currentNonLowPowerSphereMode;
-@property(readonly) struct __CFString *currentSphereMode;
-@property(nonatomic) _Bool depthDataDeliveryEnabled;
-@property(nonatomic) _Bool enablesSphereWhenAvailable;
-@property(nonatomic) _Bool lowPowerSphereModeEnabled;
-@property(nonatomic) float maximumFrameRate;
-@property(nonatomic) _Bool overCaptureEnabled;
-@property(nonatomic) _Bool panoModeEnabled;
 @property(readonly) NSString *portType;
-@property(nonatomic) _Bool sphereVideoEnabled;
-@property(nonatomic) _Bool sphereVideoRecenteringEnabled;
-@property(readonly, nonatomic) _Bool sphereVideoSupported;
-@property(nonatomic) int systemThermalLevel;
-@property(nonatomic) _Bool tripodModeEnabled;
-@property(nonatomic) _Bool trueVideoCaptureEnabled;
-@property(nonatomic) _Bool variableFrameRateVideoEnabled;
-@property(nonatomic) _Bool visualIntelligenceCameraEnabled;
-@property(nonatomic) _Bool zeroShutterLagEnabled;
 
 @end
 

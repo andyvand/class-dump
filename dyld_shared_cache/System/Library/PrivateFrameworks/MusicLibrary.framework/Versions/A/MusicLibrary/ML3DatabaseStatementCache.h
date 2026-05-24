@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3StatementCacheList, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ML3DatabaseStatementCache
 {
     NSMutableDictionary *_statementsDictionary;
-    ML3StatementCacheList *_nodeList;
-    unsigned long long _cacheSize;
 }
 
 - (void);

@@ -4,53 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNMutableOrderedDictionary, NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface CNChangeHistoryEventCoalescer
 {
     NSMutableArray *_controlEvents;
-    CNMutableOrderedDictionary *_addedContacts;
-    CNMutableOrderedDictionary *_updatedContacts;
-    CNMutableOrderedDictionary *_deletedContacts;
-    CNMutableOrderedDictionary *_addedGroups;
-    CNMutableOrderedDictionary *_updatedGroups;
-    CNMutableOrderedDictionary *_deletedGroups;
-    NSMutableArray *_contactLinkingEvents;
-    NSMutableArray *_groupMembershipEvents;
-    NSMutableArray *_otherContactEvents;
 }
 
 + (id);
 + (id);
 - (void);
+- (void)@"CTXPCServiceSubscriptionContext"16@"CTLazuliDestinationUpdate"24;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)BYE in a terminated session;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void)derkit:(id)arg1 //root;
 - (void);
 - (void);
-- (void);
-- (void)e_contact;
+- (void)you_used_a_property_that_you_didnt_request_when_you_fetched_the_contact;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSArray *events;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

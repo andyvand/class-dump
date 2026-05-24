@@ -9,8 +9,6 @@
 @interface CRKConcreteNotificationCenterSubscription
 {
     NSNotificationCenter *_notificationCenter;
-    id _object;
-    CDUnknownBlockType _notificationHandler;
 }
 
 + (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(copy) CDUnknownBlockType notificationHandler; // @synthesize notificationHandler=_notificationHandler;
-@property(retain, nonatomic) id object; // @synthesize object=_object;
 
 @end
 

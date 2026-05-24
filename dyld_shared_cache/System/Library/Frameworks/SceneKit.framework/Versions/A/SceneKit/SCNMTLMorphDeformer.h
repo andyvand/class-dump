@@ -4,40 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SCNMTLComputePipeline, SCNMTLResourceManager;
-@protocol MTLBuffer;
-
 __attribute__((visibility("hidden")))
 @interface SCNMTLMorphDeformer
 {
     struct __C3DMorpher *_morpher;
-    unsigned char _finalMeshDataKind;
-    unsigned char _dataKindForComputeKernel;
-    SCNMTLResourceManager *_resourceManager;
-    _Bool _morphNormals;
-    unsigned long long _morphKind;
-    unsigned long long _currentFrameHash;
-    unsigned int _lastMorpherIncrementalPassState;
-    unsigned int _finalMeshVertexCount;
-    unsigned int _vertexCountForComputeKernel;
-    unsigned int _runtimeMorphTargetCount;
-    CDStruct_a37fce9e *_runtimeMorphTargets;
-    short _morphTargetPositionDataType;
-    short _morphTargetNormalDataType;
-    short _basePositionDataType;
-    short _baseNormalDataType;
-    id <MTLBuffer> _baseBufferForComputeKernel;
-    id <MTLBuffer> _originalToFirstDeindexedTableBuffer;
-    id <MTLBuffer> _deindexedToFirstDeindexedTableBuffer;
-    id <MTLBuffer> _morphTargetsVertexBuffer;
-    id <MTLBuffer> _morphTargetsSparseIndicesBuffer;
-    SCNMTLComputePipeline *_incrementalInitPipeline;
-    SCNMTLComputePipeline *_incrementalAddPipeline;
-    SCNMTLComputePipeline *_copyBaseBufferPipeline;
-    SCNMTLComputePipeline *_blendDensePipeline;
-    SCNMTLComputePipeline *_blendDenseIndexedPipeline;
-    SCNMTLComputePipeline *_blendSparsePipeline;
-    SCNMTLComputePipeline *_splatPipeline;
 }
 
 + (unsigned long long);
@@ -52,13 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

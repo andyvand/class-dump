@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRDocument, NSDictionary, NSString, NSUUID;
+@class ICCRDocument, NSUUID;
 
 @interface ICCRObject
 {
     NSUUID *_identity;
-    NSDictionary *_fields;
-    ICCRDocument *_document;
 }
 
 + (_Bool);
 + (id);
 + (id);
 + (_Bool);
-- (id);
-- (id);
+- (id)ytes);
+- (id)NBDebugMode;
 - (void);
 - (void);
-- (id);
+- (id)b;
 - (void);
 - (id);
 - (id);
@@ -39,16 +37,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak ICCRDocument *document; // @synthesize document=_document;
-@property(readonly, nonatomic) NSDictionary *fields; // @synthesize fields=_fields;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *identity; // @synthesize identity=_identity;
-@property(readonly) Class superclass;
 
 @end
 

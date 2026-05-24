@@ -9,19 +9,9 @@
 @interface GEOMapKitCount
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _appCount;
-    int _appType;
-    int _countType;
-    unsigned int _useCount;
-    struct {
-        unsigned int has_appCount:1;
-        unsigned int has_appType:1;
-        unsigned int has_countType:1;
-        unsigned int has_useCount:1;
-    } _flags;
 }
 
-+ (_Bool)erType:(id)arg1;
++ (_Bool)setHasSynthesizedStepManeuverType:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -30,25 +20,25 @@
 - (_Bool);
 - (id);
 - (int);
-- (void);
-- (void);
-- (int);
+- (void)namePrefixElements;
+- (void)dateFormatterWithYearFormat:(_Bool)arg1 hasLongFormat:locale: /* Error: Ran out of types for this method. */;
+- (int)_logTime;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ple/Remote Desktop/RemoteManagement.launchd;
 - (id);
 - (void);
-- (void);
+- (void)PModeSuspendPolicyMac _addMacBargeInConditions]_block_invoke;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)V_mapSnapshotAuditToken;
 - (_Bool);
-- (void);
-- (id):(struct _NSZone *)arg1;
-- (int)eData:(id)arg1;
+- (void);
+- (id)valueChangedForMapsFeature:(struct _NSZone *)arg1 enabled: /* Error: Ran out of types for this method. */;
+- (int)searchResultPhotosFromPlaceData:(id)arg1;
 - (id)ent",&,N;
 - (_Bool)dJüLÔO¨S;
 - (id)À¶­ú?;
@@ -60,15 +50,7 @@
 - (unsigned int)éO6;
 
 // Remaining properties
-@property(nonatomic) unsigned int appCount;
-@property(nonatomic) int appType;
-@property(nonatomic) int countType;
-@property(nonatomic) _Bool hasAppCount;
-@property(nonatomic) _Bool hasAppType;
 @property(nonatomic) _Bool hasCountType;
-@property(nonatomic) _Bool hasUseCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int useCount;
 
 @end
 

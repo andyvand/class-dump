@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (UITextServiceSession)
-- (void);
+- (void)Wgt;
 - (CDUnknownBlockType);
 
 // Remaining properties

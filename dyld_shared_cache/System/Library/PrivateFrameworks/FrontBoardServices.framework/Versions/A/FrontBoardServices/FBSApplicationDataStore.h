@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationIdentity, NSString;
-@protocol FBSApplicationDataStoreRepositoryClient, FBSApplicationIdentifying;
+@class NSString;
 
 @interface FBSApplicationDataStore
 {
     NSString *_identifier;
-    id <FBSApplicationDataStoreRepositoryClient> _client;
-    _Bool _clientNeedsCheckin;
-    NSString *_bundleId;
-    LSApplicationIdentity *_identity;
 }
 
 + (id);
@@ -23,10 +18,10 @@
 + (void);
 + (void);
 + (id);
-+ (void);
++ (void)mismatching current transaction:(CDUnknownBlockType)arg1 %@;
 + (id);
 + (id);
-+ (void);
++ (void)*;
 + (id);
 + (id);
 - (void);
@@ -41,25 +36,23 @@
 - (void);
 - (id);
 - (id);
+- (id){;
+- (_Bool);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)�;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <FBSApplicationIdentifying> applicationIdentifier; // @synthesize applicationIdentifier=_identifier;
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleId;
-@property(readonly, nonatomic) LSApplicationIdentity *identity; // @synthesize identity=_identity;
 
 @end
 

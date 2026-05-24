@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface MTLCaptureDescriptor
 {
     id _captureObject;
-    long long _destination;
-    NSURL *_outputURL;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)KQe;
 - (void);
 - (unsigned long long);
 - (id);
@@ -27,8 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id captureObject; // @synthesize captureObject=_captureObject;
-@property(nonatomic) long long destination; // @synthesize destination=_destination;
-@property(copy, nonatomic) NSURL *outputURL; // @synthesize outputURL=_outputURL;
 
 @end
 

@@ -7,8 +7,8 @@
 @interface UnknownClass (DAKeychainAddition)
 + (int);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)P;
 - (id);
 - (id);
 - (id);
@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);

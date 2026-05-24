@@ -7,6 +7,7 @@
 @interface Distributed._Lock__priv_670906D6F767C8D8F71D2E8FF1D478F7
 {
     id underlying;
+    id;
 }
 
 @end

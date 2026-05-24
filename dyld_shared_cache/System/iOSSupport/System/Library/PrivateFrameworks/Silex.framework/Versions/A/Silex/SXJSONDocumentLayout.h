@@ -6,8 +6,6 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString;
-
 @interface SXJSONDocumentLayout : SXJSONObject
 {
 }
@@ -15,16 +13,6 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long columns; // @dynamic columns;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long gutter; // @dynamic gutter;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long margin; // @dynamic margin;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long width; // @dynamic width;
 
 @end

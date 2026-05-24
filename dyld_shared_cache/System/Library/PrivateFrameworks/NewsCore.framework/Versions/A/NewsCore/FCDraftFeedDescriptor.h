@@ -6,16 +6,11 @@
 
 #import <NewsCore/FCFeedDescriptor.h>
 
-@class FCTagChannelPickerConfiguration, NSString;
 @protocol FCChannelProviding;
 
 @interface FCDraftFeedDescriptor : FCFeedDescriptor
 {
     _Bool _feedIsSponsored;
-    FCTagChannelPickerConfiguration *_channelPickerConfiguration;
-    NSString *_articleListID;
-    NSString *_issueListID;
-    id <FCChannelProviding> _channel;
 }
 
 - (void);
@@ -26,15 +21,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)updateVerticalAngle: /* Error: Ran out of types for this method. */;
+- (id)N;
 - (long long);
 - (void)h;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *articleListID; // @synthesize articleListID=_articleListID;
 @property(readonly, nonatomic) id <FCChannelProviding> channel; // @synthesize channel=_channel;
-@property(readonly, nonatomic) NSString *issueListID; // @synthesize issueListID=_issueListID;
 
 @end
 

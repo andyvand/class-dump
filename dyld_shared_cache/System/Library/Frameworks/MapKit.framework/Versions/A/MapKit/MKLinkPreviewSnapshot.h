@@ -9,18 +9,16 @@
 @interface MKLinkPreviewSnapshot
 {
     NSImage *_lightImage;
-    NSImage *_darkImage;
 }
 
 + (struct CGSize);
 - (void);
-- (void);
+- (void),;
 - (id);
-- (id);
-- (void)TimePoint;
+- (id)ySo12BGSystemTaskCG;
+- (void)hasTimePoint;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *darkImage; // @synthesize darkImage=_darkImage;
 @property(retain, nonatomic) NSImage *lightImage; // @synthesize lightImage=_lightImage;
 
 @end

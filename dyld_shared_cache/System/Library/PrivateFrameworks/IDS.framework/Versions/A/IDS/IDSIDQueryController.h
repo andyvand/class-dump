@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSInternalQueueController, _IDSIDQueryController;
+@class _IDSIDQueryController;
 
 @interface IDSIDQueryController
 {
     _IDSIDQueryController *_internal;
-    IDSInternalQueueController *_queueController;
 }
 
 + (id)6I24@"NSError"28;

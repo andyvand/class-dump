@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCardViewStyleProvider, ABNameView, AKCardViewDataSource, CNAddFieldTouchBar, CNContact, NSArray, NSLayoutConstraint, NSString, NSTextField;
-@protocol CNContactNameViewControllerDelegate;
+@class ABNameView;
 
 @interface CNContactNameViewController
 {
     _Bool _shouldDisableShowingShareLabel;
-    CNContact *_contact;
-    id <CNContactNameViewControllerDelegate> _delegate;
-    unsigned long long _mode;
-    AKCardViewDataSource *_dataSource;
-    ABNameView *_nameView;
-    NSArray *_nameViewConstraints;
-    NSLayoutConstraint *_downtimeLabelOffsetConstraint;
-    NSTextField *_shareTextField;
-    NSTextField *_downtimeTextField;
-    CNAddFieldTouchBar *_addFieldTouchBar;
 }
 
 + (id);
@@ -29,24 +18,24 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (void)V;
+- (void);
+- (void);
+- (void)q`;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
+- (id)H;
 - (_Bool);
 - (void);
 - (void);
@@ -62,7 +51,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)9	;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -72,7 +61,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)grated lock to device to spatial audio %@;
 - (void);
 - (void);
 - (void);
@@ -85,25 +74,7 @@
 - (void)Z ;
 
 // Remaining properties
-@property(retain, nonatomic) CNAddFieldTouchBar *addFieldTouchBar; // @synthesize addFieldTouchBar=_addFieldTouchBar;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) AKCardViewDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNContactNameViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSLayoutConstraint *downtimeLabelOffsetConstraint; // @synthesize downtimeLabelOffsetConstraint=_downtimeLabelOffsetConstraint;
-@property(retain, nonatomic) NSTextField *downtimeTextField; // @synthesize downtimeTextField=_downtimeTextField;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
 @property(retain, nonatomic) ABNameView *nameView; // @synthesize nameView=_nameView;
-@property(retain, nonatomic) NSArray *nameViewConstraints; // @synthesize nameViewConstraints=_nameViewConstraints;
-@property(retain, nonatomic) NSTextField *shareTextField; // @synthesize shareTextField=_shareTextField;
-@property(nonatomic) _Bool shouldDisableShowingShareLabel; // @synthesize shouldDisableShowingShareLabel=_shouldDisableShowingShareLabel;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider;
-@property(readonly) Class superclass;
 
 @end
 

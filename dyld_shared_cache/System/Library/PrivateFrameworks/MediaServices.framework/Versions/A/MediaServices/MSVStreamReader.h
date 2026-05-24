@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInputStream, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSInputStream;
 
 @interface MSVStreamReader
 {
     _Bool _closeOnStop;
-    _Bool _stopped;
-    struct z_stream_s *_zstreamp;
-    _Bool _compress;
-    CDUnknownBlockType _didReadDataBlock;
-    CDUnknownBlockType _didFinishReadingBlock;
-    CDUnknownBlockType _didEncounterErrorBlock;
-    unsigned long long _maximumBufferSize;
-    double _timestamp;
-    NSInputStream *_stream;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -53,21 +42,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic, getter=shouldCompress) _Bool compress; // @synthesize compress=_compress;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType didEncounterErrorBlock; // @synthesize didEncounterErrorBlock=_didEncounterErrorBlock;
-@property(copy, nonatomic) CDUnknownBlockType didFinishReadingBlock; // @synthesize didFinishReadingBlock=_didFinishReadingBlock;
-@property(copy, nonatomic) CDUnknownBlockType didReadDataBlock; // @synthesize didReadDataBlock=_didReadDataBlock;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maximumBufferSize; // @synthesize maximumBufferSize=_maximumBufferSize;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) NSInputStream *stream; // @synthesize stream=_stream;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -11,23 +11,19 @@
 @interface _NSKeyboardFocusClipView : NSClipView
 {
     NSView *_representedView;
-    struct CGRect _adjustment;
-    struct CGRect _lastFocusRingRect;
-    _Bool _drawFocus;
-    BOOL _bezelStyle;
 }
 
+- (void)ning-identifier;
+- (void);
+- (struct CGRect)siteForCookies;
+- (_Bool)backgroundTask:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (void)backgroundAVAssetDownloadTask:(struct CGRect)arg1 didResolveMediaSelectionProperyList:(id)arg2 reply: /* Error: Ran out of types for this method. */;
+- (void)backgroundAVAssetDownloadTask:(struct CGRect)arg1 didReceiveMetricEvent:reply: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (struct CGRect);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)?;
+- (void)credentials had a bad username/password, trying again handle %p;
+- (void)q;
 - (_Bool);
 - (void);
 

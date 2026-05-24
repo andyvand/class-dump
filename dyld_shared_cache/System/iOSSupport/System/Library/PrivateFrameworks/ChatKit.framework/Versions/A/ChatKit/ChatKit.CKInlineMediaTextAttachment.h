@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObject, UIImage;
+@class CKMediaObject;
 
 @interface ChatKit.CKInlineMediaTextAttachment
 {
     id viewProvider;
-    id mediaView;
-    CKMediaObject *mediaObject;
-    id delegate;
 }
 
-+ (_Bool)sets;
-- (void);
-- (id);
++ (_Bool)ckShouldUpdatetaillessAttachmentBalloonAlignmentRectInsets;
+- (void)dwritingRecognitionEnabled;
+- (id)OperatorItemIdentifier",R,N;
 - (id);
 - (id);
 - (_Bool);
@@ -28,9 +25,7 @@
 - (void)heics;
 
 // Remaining properties
-@property(nonatomic, retain) UIImage *image;
 @property(nonatomic, readonly) CKMediaObject *mediaObject; // @synthesize mediaObject;
-@property(nonatomic, readonly) _Bool usesTextAttachmentView;
 
 @end
 

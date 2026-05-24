@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVAssetDownloadStorageManagementPolicy.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface AVMutableAssetDownloadStorageManagementPolicy : AVAssetDownloadStorageManagementPolicy
 {
@@ -15,11 +15,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)u;
 - (id)ected content support session;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *expirationDate;
 @property(copy, nonatomic) NSString *priority;
 
 @end

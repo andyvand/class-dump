@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKDisplayablePassEntitlement, PKPassEntitlementsComposer, PKPassSharedEntitlement;
-@protocol NSCopying;
+@class PKDisplayablePassEntitlement, PKPassEntitlementsComposer;
 
 @interface PKPassEntitlementsComposerEntry
 {
     PKPassEntitlementsComposer *_parentEntitlementComposer;
-    PKDisplayablePassEntitlement *_displayableEntitlement;
-    PKPassSharedEntitlement *_sharedEntitlement;
 }
 
-- (id);
+- (id)(;
+- (void)#;
 - (void);
-- (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)setHasClientConnectionCount:(id)arg1;
 - (id);
 - (void)eMachine _performAuthorizationWithParam:]_block_invoke_5 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) PKDisplayablePassEntitlement *displayableEntitlement; // @synthesize displayableEntitlement=_displayableEntitlement;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <NSCopying> identifier;
-@property(retain, nonatomic) PKPassSharedEntitlement *sharedEntitlement; // @synthesize sharedEntitlement=_sharedEntitlement;
-@property(readonly) Class superclass;
 
 @end
 

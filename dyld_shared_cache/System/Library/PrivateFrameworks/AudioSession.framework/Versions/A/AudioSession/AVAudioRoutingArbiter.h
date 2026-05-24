@@ -10,16 +10,15 @@
 @interface AVAudioRoutingArbiter
 {
     BTAudioSession *_bluetoothAudioSession;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
++ (id)NEAgentExtension;
+- (void)NEIKEv2FragmentMap;
+- (void)NENexusFlowDivertFlow;
+- (void)NEEthernetTunnelNetworkSettings;
+- (void)NEFilterExtensionProviderContext;
+- (_Bool)NEExtensionAppPushProviderHostContext;
+- (void)NERelay;
 - (id);
 - (id);
 - (void);

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BSUIVibrancyValues
 {
     long long _resolvedEffectType;
-    NSString *_resolvedGroupName;
 }
 
 - (id);
@@ -22,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long resolvedEffectType; // @synthesize resolvedEffectType=_resolvedEffectType;
-@property(readonly, nonatomic) NSString *resolvedGroupName; // @synthesize resolvedGroupName=_resolvedGroupName;
 
 @end
 

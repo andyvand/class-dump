@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOWiFiQualityLocationSearch
 {
     PBDataReader *_reader;
-    GEOLocation *_location;
-    unsigned long long _radius;
-    NSMutableArray *_tiles;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_radius:1;
-        unsigned int read_location:1;
-        unsigned int read_tiles:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)sResponseID:(id)arg1;
++ (_Bool)setOriginalDirectionsResponseID:(id)arg1;
 - (id);
-- (void);
+- (void)initWithUrlString:(id)arg1 username:userIdentifier:service:displayName: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
@@ -35,8 +23,8 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)speechManagerLPCMRecordBufferAvailable:(id)arg1 chunk: /* Error: Ran out of types for this method. */;
+- (void)4S;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -50,8 +38,8 @@
 - (id)!4BùÑ¹*Ð1Â0@ù
 × ;
 - (unsigned long long)ousLatlng"b1"read_automobileOptions"b1"read_carHeadunitManufacturer"b1"read_carHeadunitModel"b1"read_currentLocaleCurrencySymbol"b1"read_cyclingOptions"b1"read_deviceLocation"b1"read_deviceDisplayLanguages"b1"read_deviceKeyboardLocale"b1"read_deviceSpokenLocale"b1"read_displayRegion"b1"read_evChargingPorts"b1"read_hardwareIdentifier"b1"read_historicalLocations"b1"read_mapRegion"b1"read_photoSizes"b1"read_previousSearchViewport"b1"read_privacyMetadata"b1"read_providerID"b1"read_recentAutocompleteSessionData"b1"read_resultRefinementQuery"b1"read_reviewUserPhotoSizes"b1"read_searchEnrichmentClientRequestId"b1"read_searchEnrichmentRoutingInfoData"b1"read_searchImplicitFilterInfo"b1"read_searchOriginationPreviousLatlng"b1"read_spotlightSearchPunchinEncodedString"b1"read_transitOptions"b1"read_transitScheduleFilter"b1"read_transitTripStopTimeFilter"b1"read_userActionMetadata"b1"read_venueIdentifier"b1"read_walkingOptions"b1"wrote_anyField"b1};
-- (id)ScheduleValidDate;
-- (id)ourist: /* Error: Ran out of types for this method. */;
+- (id)lastFullScheduleValidDate;
+- (id)setHasMapViewLocationIsTourist: /* Error: Ran out of types for this method. */;
 - (id)stsubtype, source    FROM externalreqcountdata;;
 - (id)ss_times.timestamp > @access_times_timestamp    ORDER BY data.size DESC;;
 - (void);
@@ -61,10 +49,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasRadius;
-@property(retain, nonatomic) GEOLocation *location;
-@property(nonatomic) unsigned long long radius;
-@property(retain, nonatomic) NSMutableArray *tiles;
 
 @end
 

@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString;
 @protocol HMSoftwareUpdateDocumentationAssetExtractorDelegate;
 
 @protocol HMSoftwareUpdateDocumentationAssetExtractor
+- (id <HMSoftwareUpdateDocumentationAssetExtractorDelegate>);
+- (void)%i specificationInfo %@ collectionGUID %@;
+- (void)tionInfosData, error:(NSString *)arg1 %@;
+- (void)n %@ matching cloudPlaceholderKind %d;
+- (id)ServicesForLibrary:(NSString *)arg1 reply:(NSDictionary *)arg2;
 
 // Remaining properties
 @property(nonatomic) __weak id <HMSoftwareUpdateDocumentationAssetExtractorDelegate> extractorDelegate;

@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.AssertionHandle
 {
     id assertion;
-    id assertable;
 }
 
 @end

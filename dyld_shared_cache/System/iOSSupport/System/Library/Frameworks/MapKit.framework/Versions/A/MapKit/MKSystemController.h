@@ -11,12 +11,12 @@
     id <MKSystemControllerOpenURLDelegate> _openURLDelegate;
 }
 
-+ (id)ContentMarginConstraint;
++ (id)_leftViewCenterContentMarginConstraint;
 - (_Bool);
-- (void);
-- (void);
+- (void)@;
+- (void)H;
 - (_Bool);
-- (_Bool);
+- (_Bool)G;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -43,7 +43,7 @@
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
-- (void)nter;
+- (void)defaultCenter;
 - (_Bool);
 
 // Remaining properties

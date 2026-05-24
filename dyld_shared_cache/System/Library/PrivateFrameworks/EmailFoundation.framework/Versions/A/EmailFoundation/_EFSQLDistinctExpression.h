@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol EFSQLExpressable;
 
 @interface _EFSQLDistinctExpression
@@ -12,23 +11,15 @@
     id <EFSQLExpressable> _expression;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)Block:(id)arg1;
+- (void)ef_enumerateObjectsInBatchesOfSize:(id)arg1 objectArrayBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_SQLExpression;
 @property(readonly, nonatomic) id <EFSQLExpressable> expression; // @synthesize expression=_expression;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)pleSlices;
+- (void)videoSampleSlices;
 - (id)X;
 
 // Remaining properties

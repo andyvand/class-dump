@@ -7,25 +7,23 @@
 @interface NTPBCKResponseOperationResultErrorClient
 {
     int _type;
-    CDStruct_f953fb60 _has;
 }
 
-- (id);
+- (id)`";
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)listeningHistoryIncludesChannel: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (void)yRank;
+- (void)widgetSectionDisplayRank;
 
 // Remaining properties
 @property(nonatomic) _Bool hasType;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

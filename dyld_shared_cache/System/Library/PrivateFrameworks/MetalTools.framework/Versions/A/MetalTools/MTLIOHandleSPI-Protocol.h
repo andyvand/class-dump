@@ -5,13 +5,10 @@
 //
 
 @protocol MTLIOHandleSPI
+- (long long);
 - (unsigned long long)ue"[56c]}}"_bufferList"{list<id<MTLBuffer>, std::allocator<id<MTLBuffer>>>="__end_"{__list_node_base<id<MTLBuffer>, void *>="__prev_"^v"__next_"^v}""{?="__size_"Q}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long globalTraceObjectID;
-@property(readonly) unsigned int vnioID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TI,?,R
-
 @end
 

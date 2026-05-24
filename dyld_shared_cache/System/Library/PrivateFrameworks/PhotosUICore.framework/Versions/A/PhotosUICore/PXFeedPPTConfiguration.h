@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXFeedConfiguration;
+@class NSString;
 
 @interface PXFeedPPTConfiguration
 {
     NSString *_name;
-    PXFeedConfiguration *_feedConfiguration;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void)E·)ÿ;
 - (id)ÿ|QÈ¶;;
 
 // Remaining properties
-@property(readonly, nonatomic) PXFeedConfiguration *feedConfiguration; // @synthesize feedConfiguration=_feedConfiguration;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapCamera, MKMapSnapshotOptions, MKMapSnapshotter, NSAppearance, NSArray;
+@class MKMapCamera, NSArray;
 
 @interface MKAnnotatedMapSnapshotter
 {
     NSArray *_mapItems;
-    CDStruct_b7cb895d _region;
-    MKMapCamera *_camera;
-    struct CGSize _mapSize;
-    unsigned long long _mapType;
-    MKMapSnapshotOptions *_snapshotOptions;
-    _Bool _useSnapshotService;
-    MKMapSnapshotter *_snapshotter;
-    NSAppearance *_appearance;
 }
 
 - (id);
 - (id);
 - (id);
+- (void)o;
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)nueBuilding: /* Error: Ran out of types for this method. */;
+- (void)defaultFloorOrdinalForVenueBuilding: /* Error: Ran out of types for this method. */;
 - (_Bool)]X;
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
 @property(readonly, nonatomic) MKMapCamera *camera;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
 
 @end
 

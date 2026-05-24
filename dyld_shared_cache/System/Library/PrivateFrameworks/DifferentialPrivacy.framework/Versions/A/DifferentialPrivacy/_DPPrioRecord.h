@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSManagedObjectID, NSString;
+@class NSString;
 
 @interface _DPPrioRecord
 {
     _Bool _submitted;
-    NSString *_key;
-    NSData *_share1;
-    NSData *_share2;
-    long long _dimension;
-    NSDictionary *_metadata;
-    double _creationDate;
-    long long _reportVersion;
-    NSManagedObjectID *_objectId;
 }
 
 + (id);
@@ -32,7 +24,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (double);
+- (double)dentifier from %{public}@. Falling back to in-memory content blocker statistics store.;
 - (void);
 - (id);
 - (id);
@@ -44,36 +36,21 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void)`;
 - (_Bool);
-- (void);
+- (void)disableAlternateUpdate;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setPartialUsername:inSecureTextField:isTextFieldEmpty:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
 - (long long)6ì276899<:(? /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long dimension; // @synthesize dimension=_dimension;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSDictionary *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSManagedObjectID *objectId; // @synthesize objectId=_objectId;
-@property(nonatomic) long long reportVersion; // @synthesize reportVersion=_reportVersion;
-@property(copy, nonatomic) NSData *share1; // @synthesize share1=_share1;
-@property(copy, nonatomic) NSData *share2; // @synthesize share2=_share2;
-@property(nonatomic) _Bool submitted; // @synthesize submitted=_submitted;
-@property(readonly) Class superclass;
 
 @end
 

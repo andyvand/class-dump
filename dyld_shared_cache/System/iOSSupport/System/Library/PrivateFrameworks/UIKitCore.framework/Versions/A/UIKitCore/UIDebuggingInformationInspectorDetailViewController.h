@@ -6,36 +6,28 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UITableView, UIView;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UIDebuggingInformationInspectorDetailViewController : UIViewController
 {
     NSArray *_data;
-    UIView *_inspectedView;
-    UITableView *_tableView;
 }
 
+- (void)chat1ManateeZone;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)o provide valid base url %@ for mobileme request.;
 - (id);
 - (long long);
-- (void);
-- (void);
+- (void)uploadArtworkForPlaylist:(id)arg1 completionHandler:(id)arg2;
+- (void)MPMoviePlayerPlaybackStateDidChangeNotification;
 - (void);
 - (void)~8ÿ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

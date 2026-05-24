@@ -9,20 +9,11 @@
 @interface GEOLogMsgStateSearchHome
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_displayedSections;
-    int _originationType;
-    _Bool _includesEnrichedResult;
-    _Bool _includesPlacesSections;
-    struct {
-        unsigned int has_originationType:1;
-        unsigned int has_includesEnrichedResult:1;
-        unsigned int has_includesPlacesSections:1;
-    } _flags;
 }
 
 + (Class);
 + (_Bool)setHasSupportsDodgeballCameraInput:(id)arg1;
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,18 +21,18 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
-- (int);
-- (int);
+- (void)readCurrentBootSessionUUID;
+- (int)_recordType;
+- (int)URLSession:(id)arg1 dataTask:didBecomeDownloadTask: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -50,7 +41,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id)EmailAddress:(struct _NSZone *)arg1 traits: /* Error: Ran out of types for this method. */;
@@ -61,13 +52,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *displayedSections;
-@property(nonatomic) _Bool hasIncludesEnrichedResult;
-@property(nonatomic) _Bool hasIncludesPlacesSections;
-@property(nonatomic) _Bool hasOriginationType;
-@property(nonatomic) _Bool includesEnrichedResult;
-@property(nonatomic) _Bool includesPlacesSections;
-@property(nonatomic) int originationType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

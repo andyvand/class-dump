@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (id)ϰ;
 - (id);
-- (id);
-- (void);
+- (void)dicate:(id)arg1 synchronous:error:responseQueue:withCompletion:] /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

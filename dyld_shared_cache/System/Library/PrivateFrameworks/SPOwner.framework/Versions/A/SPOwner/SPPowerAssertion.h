@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SPPowerAssertion
 {
     unsigned int _powerAssertionId;
-    NSString *_reason;
-    double _timeout;
-    unsigned long long _type;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-- (void);
+- (void)#;
 - (void);
 - (id);
 - (void);
@@ -28,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)RemoteIntentBroadcastCenter;
 - (void);
 - (id);
 - (double);
@@ -38,11 +33,7 @@ __attribute__((visibility("hidden")))
 - (void):completion:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int powerAssertionId; // @synthesize powerAssertionId=_powerAssertionId;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

@@ -17,7 +17,7 @@
 + (id);
 - (id);
 - (id);
-- (id)ControllerPartitionAdapter;
+- (id)UISplitViewControllerPartitionAdapter;
 - (id)33àrnþ;
 - (void)Nô;
 

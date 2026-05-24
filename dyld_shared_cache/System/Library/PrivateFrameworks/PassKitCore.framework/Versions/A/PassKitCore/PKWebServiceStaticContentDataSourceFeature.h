@@ -6,25 +6,19 @@
 
 #import <PassKitCore/PKWebServiceRegionFeature.h>
 
-@class NSURL;
-
 @interface PKWebServiceStaticContentDataSourceFeature : PKWebServiceRegionFeature
 {
     _Bool _enabled;
-    _Bool _blockStaticContentFetching;
-    NSURL *_contentURL;
 }
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id)Ô$ ¨!;
 - (id)È;
-- (void)e;
+- (void)transactionEffectEmitterShapeImage;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool blockStaticContentFetching; // @synthesize blockStaticContentFetching=_blockStaticContentFetching;
-@property(readonly, nonatomic) NSURL *contentURL; // @synthesize contentURL=_contentURL;
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 
 @end

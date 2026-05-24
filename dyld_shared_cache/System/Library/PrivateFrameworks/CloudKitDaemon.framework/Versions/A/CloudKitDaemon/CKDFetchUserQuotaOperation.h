@@ -6,22 +6,20 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@protocol CKFetchUserQuotaOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDFetchUserQuotaOperation : CKDDatabaseOperation
 {
     unsigned long long _quotaAvailable;
 }
 
-- (unsigned long long);
+- (unsigned long long)e to error %#m
+;
 - (void);
 - (id);
 - (void);
-- (int);
+- (int)isHidden;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <CKFetchUserQuotaOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
 @property(nonatomic) unsigned long long quotaAvailable; // @synthesize quotaAvailable=_quotaAvailable;
 
 @end

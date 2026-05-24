@@ -12,23 +12,19 @@ __attribute__((visibility("hidden")))
 @interface SATurnstileInfoWithPortLabel : SATurnstileInfo
 {
     NSString *_portName;
-    unsigned short _portFlags;
-    unsigned char _portDomain;
 }
 
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (void)tecu,%.3f;
+- (void)nge,verification failed,C0_tecu,%.3f;
+- (unsigned long long)hinShellIonosphereModel::IsValid,check for validity failed, requires time of interest /* Error: Ran out of types for this method. */;
+- (unsigned long long)_function,%.3lf;
+- (id)length,num_samples,%u,length,%u;
 - (void);
 - (void);
 - (id)ceeded total thread limit (%u) for %lu sample%s (too many dispatch threads blocked in synchronous operations)
 ;
 
 // Remaining properties
-@property unsigned long long portDomain;
-@property unsigned long long portFlags;
 @property(retain) NSString *portName;
 
 @end

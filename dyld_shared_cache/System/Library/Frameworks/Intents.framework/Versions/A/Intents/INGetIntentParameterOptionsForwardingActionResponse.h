@@ -16,9 +16,9 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)etClimateSettingsInCar: /* Error: Ran out of types for this method. */;
+- (id)CControllerButtonInput",R,N,V_leftButton;
+- (void)estamp=(%@);
+- (void)defaultEnableAirConditionerForSetClimateSettingsInCar: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *archivedObjectCollection; // @synthesize archivedObjectCollection=_archivedObjectCollection;

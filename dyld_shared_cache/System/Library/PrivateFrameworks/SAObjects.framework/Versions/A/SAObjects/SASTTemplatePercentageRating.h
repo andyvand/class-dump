@@ -6,7 +6,7 @@
 
 #import <SAObjects/SASTTemplateRating.h>
 
-@class SAUIDecoratedText, SAUILocalImageResource;
+@class SAUILocalImageResource;
 
 @interface SASTTemplatePercentageRating : SASTTemplateRating
 {
@@ -16,14 +16,13 @@
 + (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)wn stop-mode:(id)arg1;
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAUILocalImageResource *localImageResource;
-@property(retain, nonatomic) SAUIDecoratedText *value;
 
 @end
 

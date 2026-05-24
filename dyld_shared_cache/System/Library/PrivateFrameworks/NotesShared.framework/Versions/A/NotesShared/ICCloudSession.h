@@ -4,44 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString, NSUUID;
-@protocol ICCloudSessionDelegate;
-
 @interface ICCloudSession
 {
     id _metrics;
-    id _hasCompletedInitialSync;
-    id _error;
-    id _wasCancelled;
-    void identifier;
-    void reason;
-    void delegate;
-    id zoneChanges;
-    id fetchedRecordChanges;
-    id pushedRecordChanges;
-    id recordTypesToIdentifiers;
-    id startDate;
-    id endDate;
-    id unknownRecordType;
-    id preferredLoggingOrder;
-    id logger;
-    id signPoster;
-    id $__lazy_storage_$_sessionSignpostID;
-    id sessionSignpostState;
-    id signpostIDForPhase;
-    id signpostStateForPhase;
-    id sessionSignpostName;
-    id queue;
 }
 
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)_serviceConnection;
+- (_Bool)_lastCatalogCheckTimestamp;
+- (void)_installedProduct;
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,16 +43,7 @@
 - (void)¸ÿÿ*ÿÿ|ÿÿ;
 
 // Remaining properties
-@property(nonatomic) __weak id <ICCloudSessionDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, readonly) _Bool didPush;
-@property(nonatomic, copy) NSError *error;
-@property(nonatomic, readonly) _Bool hasBegun;
-@property(nonatomic) _Bool hasCompletedInitialSync;
-@property(nonatomic, readonly) _Bool hasEnded;
-@property(nonatomic, copy) NSUUID *identifier;
-@property(nonatomic, copy) NSString *reason;
-@property(nonatomic, readonly) _Bool sessionCompletedInitialSync;
-@property(nonatomic, readonly) _Bool wasCancelled;
 
 @end
 

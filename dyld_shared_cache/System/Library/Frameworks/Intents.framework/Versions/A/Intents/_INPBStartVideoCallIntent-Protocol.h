@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata, _INPBStartCallRequestMetadata;
+@class _INPBDialingContact, _INPBIntentMetadata;
 
 @protocol _INPBStartVideoCallIntent
-- (_Bool)tyName:type:entityIdentifier:deviceTypes:sceneType:room:zone:home:group: /* Error: Ran out of types for this method. */;
++ (Class)_didFailWithErrorRequiringPasswordAuth;
+- (unsigned long long);
+- (_INPBDialingContact *);
+- (_INPBIntentMetadata *)ilesystemTypeName;
+- (_Bool)initWithEntityName:type:entityIdentifier:deviceTypes:sceneType:room:zone:home:group: /* Error: Ran out of types for this method. */;
 - (void)ed exception confirming Intent;
 
 // Remaining properties
 @property(nonatomic) int audioRoute;
-@property(retain, nonatomic) _INPBStartCallRequestMetadata *callRequestMetadata;
-@property(copy, nonatomic) NSArray *contacts;
-@property(readonly, nonatomic) unsigned long long contactsCount;
-@property(nonatomic) _Bool hasAudioRoute;
-@property(readonly, nonatomic) _Bool hasCallRequestMetadata;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *targetContacts;
-@property(readonly, nonatomic) unsigned long long targetContactsCount;
 @end
 

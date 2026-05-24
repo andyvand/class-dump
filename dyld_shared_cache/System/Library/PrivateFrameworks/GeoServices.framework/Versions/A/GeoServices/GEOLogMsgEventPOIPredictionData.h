@@ -9,16 +9,10 @@
 @interface GEOLogMsgEventPOIPredictionData
 {
     PBUnknownFields *_unknownFields;
-    double _confidence;
-    unsigned long long _muid;
-    struct {
-        unsigned int has_confidence:1;
-        unsigned int has_muid:1;
-    } _flags;
 }
 
-+ (_Bool)ingTime:(id)arg1;
-- (void);
++ (_Bool)setHasStartingTime:(id)arg1;
+- (void)f.descriptor:(_Bool)arg1 outputDescriptor ;
 - (_Bool);
 - (void);
 - (id);
@@ -32,23 +26,19 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)extraStorage;
 - (_Bool);
 - (void);
 - (id)setSystems:(struct _NSZone *)arg1;
-- (id)tionAverage;
+- (id)durationAverage;
 - (id)ionary -> %{private}@. Error -> %{private}@;
 - (double)Type == GEOPDAllCollectionsViewResultFilterType_ALL_COLLECTIONS_VIEW_RESULT_FILTER_TYPE_KEYWORD;
-- (void)E_RESTRICTION;
+- (void)LICENSE_PLATE_RESTRICTION;
 - (id);
 - (void)ðÓþ;
 
 // Remaining properties
-@property(nonatomic) double confidence;
-@property(nonatomic) _Bool hasConfidence;
 @property(nonatomic) _Bool hasMuid;
-@property(nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

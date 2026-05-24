@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OCCancel, OITSUTemporaryDirectory;
+@class OCCancel;
 
 __attribute__((visibility("hidden")))
 @interface OCMapper
 {
     OCCancel *mCancel;
-    OITSUTemporaryDirectory *mTemporaryDirectoryObject;
 }
 
 + (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)tring;
+- (_Bool)CHBString;
 - (void)À	;
 - (void)r;
 

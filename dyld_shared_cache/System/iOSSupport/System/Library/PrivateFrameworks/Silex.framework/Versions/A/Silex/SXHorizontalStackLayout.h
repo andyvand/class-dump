@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface SXHorizontalStackLayout
 {
     NSMutableDictionary *_widths;
-    NSMutableDictionary *_positions;
 }
 
 - (double);
@@ -23,14 +22,6 @@
 - (void)ze=dd}}]48@56B64^B68^d76@84;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *positions; // @synthesize positions=_positions;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSMutableDictionary *widths; // @synthesize widths=_widths;
 
 @end

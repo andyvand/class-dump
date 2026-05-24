@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (id);
+- (id)submenuForIndividualParticipantWithHandle:forConversation:includeAddToContactsAction:includeRemoveAction: /* Error: Ran out of types for this method. */;
+- (id)subitems;
 - (double);
-- (id);
+- (id)ig;
 
 // Remaining properties
 @property(readonly, nonatomic) double value; // @synthesize value=_value;

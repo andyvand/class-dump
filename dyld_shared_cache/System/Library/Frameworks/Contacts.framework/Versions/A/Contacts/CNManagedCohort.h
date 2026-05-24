@@ -7,16 +7,10 @@
 @interface CNManagedCohort
 {
     id identifier;
-    id imageData;
-    id posterData;
-    id internalStore;
-    id cropRect;
-    id _privateContact;
-    id _privateContainerName;
 }
 
 - (id);
-- (void)dPreferredContactForImageEvents;
+- (void)sendPreferredContactForImageEvents;
 
 @end
 

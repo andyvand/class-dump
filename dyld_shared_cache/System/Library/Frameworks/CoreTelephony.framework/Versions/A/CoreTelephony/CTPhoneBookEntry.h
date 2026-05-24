@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CTPhoneBookEntry
 {
     _Bool _isHidden;
-    NSString *_name;
-    NSString *_number;
-    NSString *_altNumber;
-    NSString *_altText;
-    NSString *_email;
-    NSString *_group;
 }
 
-+ (_Bool);
++ (_Bool)encoded video;
 - (void);
 - (void);
 - (void);
@@ -25,14 +17,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)`;
+- (id)_messagingReady;
 - (void);
-- (void);
-- (_Bool);
+- (void)exchangeKeysWithPublicKey:(id)arg1 secKeyAlgorithm:secKeyParameters:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)cations;
 - (id);
 - (id);
-- (id);
+- (id)imebase;
 - (id);
 - (void);
 - (void);
@@ -40,13 +32,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *altNumber; // @synthesize altNumber=_altNumber;
-@property(retain, nonatomic) NSString *altText; // @synthesize altText=_altText;
-@property(retain, nonatomic) NSString *email; // @synthesize email=_email;
-@property(retain, nonatomic) NSString *group; // @synthesize group=_group;
 @property(nonatomic) _Bool isHidden; // @synthesize isHidden=_isHidden;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *number; // @synthesize number=_number;
 
 @end
 

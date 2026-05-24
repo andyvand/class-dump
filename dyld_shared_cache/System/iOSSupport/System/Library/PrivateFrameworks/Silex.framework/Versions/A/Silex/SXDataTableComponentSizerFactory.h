@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXDOMObjectProviding, SXDataRecordValueTransformerFactory, SXDataTableTextSourceFactory, SXTextComponentLayoutHosting;
+@protocol SXDOMObjectProviding;
 
 @interface SXDataTableComponentSizerFactory
 {
     id <SXDOMObjectProviding> _DOMObjectProvider;
-    id <SXTextComponentLayoutHosting> _textComponentLayoutHosting;
-    id <SXDataTableTextSourceFactory> _textSourceFactory;
-    id <SXDataRecordValueTransformerFactory> _recordValueTransformerFactory;
 }
 
 - (id);
@@ -22,23 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (int);
+- (int)@;
 - (void)=dd}24;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXDataRecordValueTransformerFactory> recordValueTransformerFactory; // @synthesize recordValueTransformerFactory=_recordValueTransformerFactory;
-@property(readonly, nonatomic) int role;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <SXTextComponentLayoutHosting> textComponentLayoutHosting; // @synthesize textComponentLayoutHosting=_textComponentLayoutHosting;
-@property(readonly, nonatomic) id <SXDataTableTextSourceFactory> textSourceFactory; // @synthesize textSourceFactory=_textSourceFactory;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

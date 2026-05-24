@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)0:(id)arg1 8@16^B24;
 - (id);
 - (id);
 - (void)0@ù
 × ;
-- (void)nSelected;
+- (void)searchResultsButtonSelected;
 - (void);
 
 // Remaining properties

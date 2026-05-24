@@ -9,7 +9,6 @@
 @interface PKAccountReport
 {
     NSString *_accountIdentifier;
-    unsigned long long _reportType;
 }
 
 + (_Bool)0@ù
@@ -17,18 +16,17 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)@;
+- (unsigned long long);
+- (_Bool)_transportSwitchReasonErrorDomain;
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
-- (void)ed;
+- (void)walletUnrestricted;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(readonly, nonatomic) unsigned long long reportType; // @synthesize reportType=_reportType;
 
 @end
 

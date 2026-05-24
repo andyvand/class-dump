@@ -4,41 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString, SMMessage;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SMIDSMessageWaitingForAck
 {
     NSString *_identifier;
-    NSSet *_destinations;
-    SMMessage *_message;
-    long long _pendingRetryCount;
-    CDUnknownBlockType _callback;
-    NSDate *_messageSentDate;
 }
 
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
-- (id);
+- (id)U;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (CDUnknownBlockType)iteria: /* Error: Ran out of types for this method. */;
+- (void);
+- (CDUnknownBlockType)setCurrentSessionDeactivationCriteria: /* Error: Ran out of types for this method. */;
 - (void)gnalEnvironmentType <= kCLClientSignalEnvFoliage;
 - (void)ro routes/locations fetched from table4,clusterId,%@;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(copy, nonatomic) NSSet *destinations; // @synthesize destinations=_destinations;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) SMMessage *message; // @synthesize message=_message;
-@property(retain, nonatomic) NSDate *messageSentDate; // @synthesize messageSentDate=_messageSentDate;
-@property(nonatomic) long long pendingRetryCount; // @synthesize pendingRetryCount=_pendingRetryCount;
 
 @end
 

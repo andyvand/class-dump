@@ -4,44 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface AWDMPTCPConnectionReport
 {
     double _establishmentTime;
-    double _postConnectSessionLifetime;
-    unsigned long long _timestamp;
-    NSString *_clientId;
-    int _establishmentFailureError;
-    NSString *_establishmentInterfaceName;
-    int _establishmentSynRetransmits;
-    NSMutableArray *_interfaceReports;
-    int _postConnectSubflowAttemptCount;
-    int _postConnectSubflowMaxSubflowCount;
-    int _subflowSwitchingCount;
-    NSMutableArray *_subflowSwitchingReports;
-    _Bool _establishmentCellularFallback;
-    _Bool _establishmentForcedTcpFallback;
-    _Bool _establishmentSuccess;
-    _Bool _establishmentTcpFallback;
-    _Bool _postConnectMultiHomed;
-    _Bool _postConnectSingleHomed;
-    struct {
-        unsigned int establishmentTime:1;
-        unsigned int postConnectSessionLifetime:1;
-        unsigned int timestamp:1;
-        unsigned int establishmentFailureError:1;
-        unsigned int establishmentSynRetransmits:1;
-        unsigned int postConnectSubflowAttemptCount:1;
-        unsigned int postConnectSubflowMaxSubflowCount:1;
-        unsigned int subflowSwitchingCount:1;
-        unsigned int establishmentCellularFallback:1;
-        unsigned int establishmentForcedTcpFallback:1;
-        unsigned int establishmentSuccess:1;
-        unsigned int establishmentTcpFallback:1;
-        unsigned int postConnectMultiHomed:1;
-        unsigned int postConnectSingleHomed:1;
-    } _has;
 }
 
 + (Class);
@@ -49,6 +14,7 @@
 - (unsigned long long);
 - (id);
 - (int);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,16 +26,15 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)`";
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)	;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -77,13 +42,14 @@
 - (void);
 - (void);
 - (int);
-- (int);
+- (int);
 - (_Bool);
 - (double);
-- (_Bool);
+- (_Bool)c;
 - (unsigned long long);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -93,20 +59,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)@9?;
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
+- (double))		;
 - (_Bool);
+- (int)9>;
 - (_Bool);
-- (_Bool);
-- (double);
-- (_Bool);
+- (id);
+- (_Bool);
 - (int);
 - (_Bool);
-- (id);
-- (_Bool);
-- (int);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -116,56 +81,23 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)T;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)!;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (void)}Sy;
+- (id);
+- (id)i;
+- (id)setHasCellNrSNR: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientId; // @synthesize clientId=_clientId;
-@property(nonatomic) _Bool establishmentCellularFallback; // @synthesize establishmentCellularFallback=_establishmentCellularFallback;
-@property(nonatomic) int establishmentFailureError; // @synthesize establishmentFailureError=_establishmentFailureError;
-@property(nonatomic) _Bool establishmentForcedTcpFallback; // @synthesize establishmentForcedTcpFallback=_establishmentForcedTcpFallback;
-@property(retain, nonatomic) NSString *establishmentInterfaceName; // @synthesize establishmentInterfaceName=_establishmentInterfaceName;
-@property(nonatomic) _Bool establishmentSuccess; // @synthesize establishmentSuccess=_establishmentSuccess;
-@property(nonatomic) int establishmentSynRetransmits; // @synthesize establishmentSynRetransmits=_establishmentSynRetransmits;
-@property(nonatomic) _Bool establishmentTcpFallback; // @synthesize establishmentTcpFallback=_establishmentTcpFallback;
-@property(nonatomic) double establishmentTime; // @synthesize establishmentTime=_establishmentTime;
-@property(readonly, nonatomic) _Bool hasClientId;
-@property(nonatomic) _Bool hasEstablishmentCellularFallback;
-@property(nonatomic) _Bool hasEstablishmentFailureError;
-@property(nonatomic) _Bool hasEstablishmentForcedTcpFallback;
-@property(readonly, nonatomic) _Bool hasEstablishmentInterfaceName;
-@property(nonatomic) _Bool hasEstablishmentSuccess;
-@property(nonatomic) _Bool hasEstablishmentSynRetransmits;
-@property(nonatomic) _Bool hasEstablishmentTcpFallback;
-@property(nonatomic) _Bool hasEstablishmentTime;
-@property(nonatomic) _Bool hasPostConnectMultiHomed;
-@property(nonatomic) _Bool hasPostConnectSessionLifetime;
-@property(nonatomic) _Bool hasPostConnectSingleHomed;
-@property(nonatomic) _Bool hasPostConnectSubflowAttemptCount;
-@property(nonatomic) _Bool hasPostConnectSubflowMaxSubflowCount;
-@property(nonatomic) _Bool hasSubflowSwitchingCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *interfaceReports; // @synthesize interfaceReports=_interfaceReports;
-@property(nonatomic) _Bool postConnectMultiHomed; // @synthesize postConnectMultiHomed=_postConnectMultiHomed;
-@property(nonatomic) double postConnectSessionLifetime; // @synthesize postConnectSessionLifetime=_postConnectSessionLifetime;
-@property(nonatomic) _Bool postConnectSingleHomed; // @synthesize postConnectSingleHomed=_postConnectSingleHomed;
-@property(nonatomic) int postConnectSubflowAttemptCount; // @synthesize postConnectSubflowAttemptCount=_postConnectSubflowAttemptCount;
-@property(nonatomic) int postConnectSubflowMaxSubflowCount; // @synthesize postConnectSubflowMaxSubflowCount=_postConnectSubflowMaxSubflowCount;
-@property(nonatomic) int subflowSwitchingCount; // @synthesize subflowSwitchingCount=_subflowSwitchingCount;
-@property(retain, nonatomic) NSMutableArray *subflowSwitchingReports; // @synthesize subflowSwitchingReports=_subflowSwitchingReports;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

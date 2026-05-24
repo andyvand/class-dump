@@ -5,5 +5,10 @@
 //
 
 @protocol BPSSubscriber
+- (void);
+- (void);
+
+@optional
+- (void)%@;
 @end
 

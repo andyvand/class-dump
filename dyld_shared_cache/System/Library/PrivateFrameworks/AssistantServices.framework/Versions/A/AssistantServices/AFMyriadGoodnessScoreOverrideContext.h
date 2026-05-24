@@ -7,7 +7,6 @@
 @interface AFMyriadGoodnessScoreOverrideContext
 {
     _Bool _overrideContext;
-    unsigned char _overriddenAdjustedScore;
 }
 
 - (void);
@@ -16,7 +15,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned char overriddenAdjustedScore; // @synthesize overriddenAdjustedScore=_overriddenAdjustedScore;
 @property(nonatomic) _Bool overrideContext; // @synthesize overrideContext=_overrideContext;
 
 @end

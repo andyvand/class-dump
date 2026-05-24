@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSpeechSynthesisRecord, NSString;
+@class AFSpeechSynthesisRecord;
 
 @interface _AFSpeechSynthesisRecordMutation
 {
     AFSpeechSynthesisRecord *_base;
-    NSString *_utterance;
-    unsigned long long _beginTimestamp;
-    unsigned long long _endTimestamp;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasUtterance:1;
-        unsigned int hasBeginTimestamp:1;
-        unsigned int hasEndTimestamp:1;
-    } _mutationFlags;
 }
 
 - (id);
@@ -26,18 +17,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id)kRequest;
-- (void);
+- (void)due to ECONNREFUSED;
+- (id)tapToSiriAudioPlaybackRequest;
+- (void)_rawGoodnessScore;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

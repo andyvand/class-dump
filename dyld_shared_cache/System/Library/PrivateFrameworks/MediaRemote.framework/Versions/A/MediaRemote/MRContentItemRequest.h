@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRContentItem, MRPlaybackQueueRequest;
+@class MRContentItem;
 
 __attribute__((visibility("hidden")))
 @interface MRContentItemRequest
 {
     MRContentItem *_item;
-    MRPlaybackQueueRequest *_request;
 }
 
 + (_Bool);
@@ -20,14 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)
 × ;
-- (void)s: /* Error: Ran out of types for this method. */;
+- (void)StringAsEndpointOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MRContentItem *item; // @synthesize item=_item;
-@property(retain, nonatomic) MRPlaybackQueueRequest *request; // @synthesize request=_request;
 
 @end
 

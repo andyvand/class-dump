@@ -7,8 +7,6 @@
 @interface NewsUI2.OfflineIssuePruningRuleProvider
 {
     id offlineIssueList;
-    id issueHistory;
-    id appConfigurationManager;
 }
 
 @end

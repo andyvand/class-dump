@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SGTCategory, SGTQueryGenius, SGTSuggesterReserved;
-@protocol SGTSuggesterDelegate;
+@class SGTSuggesterReserved;
 
 @interface SGTSuggester
 {
@@ -15,32 +14,28 @@
 + (id);
 + (id);
 + (id);
++ (id)A;
 + (id);
-+ (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (void)RA;
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)contentViewControllerCropEnabled;
 
 // Remaining properties
 @property(readonly) _Bool canHaveStaticSuggestions;
-@property(retain) SGTCategory *category;
-@property __weak id <SGTSuggesterDelegate> delegate;
-@property(retain) SGTQueryGenius *genius;
-@property(readonly) NSArray *staticSuggestions;
 
 @end
 

@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)accessibilityValue;
 + (void);
 - (unsigned long long);
 

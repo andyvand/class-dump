@@ -7,6 +7,10 @@
 @class NSString;
 
 @protocol CDPSecureChannelApprovingProxy
+- (NSString *)BrowserBookmarkImporterDelegate>",W,N,V_delegate;
+- (void)MIMETypeFromFileExtension;
+- (void)_TtCC6Safari38CompletionListCollectionViewController24CollectionViewSuggestion;
+- (void)SafariNSVisualEffectViewExtras;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *telemetryFlowIDFromRequester;

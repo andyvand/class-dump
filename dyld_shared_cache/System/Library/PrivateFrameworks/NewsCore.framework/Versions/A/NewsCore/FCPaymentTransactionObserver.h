@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol FCPaymentTransactionObserverDelegate;
 
 @interface FCPaymentTransactionObserver
@@ -15,19 +14,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)p;
 - (void)entsConfiguration.m;
 - (void)iticInsensitivePredicateOption, and NSLocaleSensitivePredicateOption tokenization options on tokenize() function:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <FCPaymentTransactionObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,9 +12,6 @@
 @interface SCNAvoidOccluderConstraint : SCNConstraint
 {
     SCNNode *_target;
-    unsigned long long _categoryBitMask;
-    float _offset;
-    id _delegate;
 }
 
 + (id);
@@ -37,10 +34,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double bias;
 @property(nonatomic) id <SCNAvoidOccluderConstraintDelegate> delegate;
-@property(nonatomic) unsigned long long occluderCategoryBitMask;
-@property(retain, nonatomic) SCNNode *target;
 
 @end
 

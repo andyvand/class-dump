@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol PXDisplayAssetFetchResult;
-
 @interface PXDisplayAssetViewPPTConfiguration
 {
     CDUnknownBlockType _assetViewFactory;
-    id <PXDisplayAssetFetchResult> _assets;
-    NSString *_label;
 }
 
 + (id);
-+ (id);
++ (id)?ל;
 - (id);
 - (id);
 - (CDUnknownBlockType);
@@ -26,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType assetViewFactory; // @synthesize assetViewFactory=_assetViewFactory;
-@property(readonly, nonatomic) id <PXDisplayAssetFetchResult> assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

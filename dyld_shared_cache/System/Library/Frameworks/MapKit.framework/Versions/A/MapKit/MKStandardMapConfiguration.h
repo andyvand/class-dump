@@ -6,8 +6,6 @@
 
 #import <MapKit/MKMapConfiguration.h>
 
-@class MKPointOfInterestFilter, NSString;
-
 @interface MKStandardMapConfiguration : MKMapConfiguration
 {
     long long _emphasisStyle;
@@ -18,43 +16,31 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
+- (_Bool)on -- event data (%lu) and configuration (%lu) should have the same number of keys;
+- (_Bool)configuration:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)eck completed. Invalidating XPC Connection.;
+- (void)nterval;
+- (void)eck open interval duration for a closed interval;
+- (void)Battery;;
+- (void)startCount=%f;
+- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long);
+- (void)M;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_allowsTerrainModePromotion) _Bool allowsTerrainModePromotion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long emphasisStyle; // @synthesize emphasisStyle=_emphasisStyle;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) MKPointOfInterestFilter *pointOfInterestFilter;
-@property(nonatomic) _Bool showsHiking;
-@property(nonatomic) _Bool showsTopographicFeatures;
-@property(nonatomic) _Bool showsTraffic;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,16 +7,14 @@
 @interface AudioQualityPreferenceConfigurationObserver
 {
     id preferenceChangeSubscription;
-    id preferenceSnapshot;
-    void preferenceChangeClosure;
 }
 
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)__cstring;
 - (CDUnknownBlockType);
-- (void);
-- (void);
+- (void)_availableAccountTypesForBeneficiaryAccounts;
+- (void)h error:(CDUnknownBlockType)arg1 %@;
 - (void);
 - (id);
 - (void)getRemotePlaybackQueue;

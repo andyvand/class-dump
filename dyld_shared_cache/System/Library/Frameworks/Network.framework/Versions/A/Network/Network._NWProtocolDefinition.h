@@ -7,7 +7,6 @@
 @interface Network._NWProtocolDefinition
 {
     id name;
-    id nw;
 }
 
 @end

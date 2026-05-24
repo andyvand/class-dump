@@ -6,15 +6,12 @@
 
 #import <GameController/GCDeviceSession.h>
 
-@class GCController, GCExtendedGamepad, GCMicroGamepad, GCMouse, NSArray;
+@class GCMouse, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _GCLegacyDeviceSession : GCDeviceSession
 {
     GCMouse *_currentMouse;
-    GCController *_currentController;
-    GCMicroGamepad *_currentMicroGamepad;
-    GCExtendedGamepad *_currentExtendedGamepad;
 }
 
 + (id);
@@ -28,22 +25,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)+;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)t;
 - (void);
 
 // Remaining properties
-@property(readonly) GCController *currentController;
-@property(readonly) GCExtendedGamepad *currentExtendedGamepad;
-@property(readonly) GCMicroGamepad *currentMicroGamepad;
-@property(readonly) GCMouse *currentMouse;
 @property(readonly) NSArray *orderedControllers;
-@property(readonly) NSArray *orderedMice;
-@property(readonly) NSArray *orderedSpatialAccessories;
-@property(readonly) NSArray *orderedStyli;
 
 @end
 

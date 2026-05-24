@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLBufferViewAllocator;
-
 @interface MDLBufferView
 {
     const void *_data;
-    unsigned long long _length;
-    unsigned long long _offset;
-    long long _regionIndex;
-    MDLBufferViewAllocator *_allocator;
-    _Bool _writable;
 }
 
 - (id);
 - (unsigned long long);
-- (const void *);
+- (const void *)yG;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) const void *data;
-@property(readonly, nonatomic) unsigned long long length;
 
 @end
 

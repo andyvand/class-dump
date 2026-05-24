@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)gister for active notifications;
+- (void);
 @end
 

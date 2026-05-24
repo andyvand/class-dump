@@ -6,35 +6,27 @@
 
 #import <ModelIO/MDLObject.h>
 
-@class MDLVertexDescriptor, NSArray, NSMutableArray;
-@protocol MDLMeshBufferAllocator;
+@class NSMutableArray;
 
 @interface MDLMesh : MDLObject
 {
     NSMutableArray *_submeshes;
-    NSMutableArray *_vertexBuffers;
-    MDLVertexDescriptor *_vertexDescriptor;
-    struct MDLAABB _bounds;
-    NSArray *_controlNodes;
-    id <MDLMeshBufferAllocator> _allocator;
-    unsigned long long _vertexCount;
-    unsigned long long _subdivisionScheme;
 }
 
 - (id);
-- (void);
+- (void)B;
 - (_Bool);
 - (int);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -44,8 +36,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)pf;
 - (void);
 - (id);
 - (long long);
@@ -55,27 +47,27 @@
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)d_domainId ON sessionsDomainIds (bundleIdentifier, domainIdentifier);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)cv;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id)l;
+- (void)fQ;
 - (id);
 - (id);
 - (unsigned long long);
@@ -83,16 +75,10 @@
 - (id);
 - (void);
 - (id);
-- (id): /* Error: Ran out of types for this method. */;
+- (id)setFocalLengthAnimation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MDLMeshBufferAllocator> allocator; // @synthesize allocator=_allocator;
-@property(readonly, nonatomic) struct boundingBox;
 @property(nonatomic) unsigned long long subdivisionScheme; // @synthesize subdivisionScheme=_subdivisionScheme;
-@property(copy, nonatomic) NSMutableArray *submeshes;
-@property(retain, nonatomic) NSArray *vertexBuffers;
-@property(nonatomic) unsigned long long vertexCount; // @synthesize vertexCount=_vertexCount;
-@property(copy, nonatomic) MDLVertexDescriptor *vertexDescriptor;
 
 @end
 

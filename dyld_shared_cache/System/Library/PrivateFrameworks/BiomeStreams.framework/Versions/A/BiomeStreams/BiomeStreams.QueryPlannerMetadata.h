@@ -7,9 +7,6 @@
 @interface BiomeStreams.QueryPlannerMetadata
 {
     id materializedView;
-    id bookmark;
-    id keyedAggregationMetadata;
-    id keyedFirstMatchingRecord;
 }
 
 @end

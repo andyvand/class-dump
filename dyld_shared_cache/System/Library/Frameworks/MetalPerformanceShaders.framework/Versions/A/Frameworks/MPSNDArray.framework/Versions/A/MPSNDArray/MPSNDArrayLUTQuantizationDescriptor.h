@@ -15,12 +15,12 @@
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *vectorAxes; // @synthesize vectorAxes=_vectorAxes;

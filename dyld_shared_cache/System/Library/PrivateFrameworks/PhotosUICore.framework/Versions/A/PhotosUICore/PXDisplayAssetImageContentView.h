@@ -17,8 +17,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
@@ -28,7 +28,7 @@
 - (long long);
 - (void);
 - (double);
-- (void)rectionalEdgeInsets;
+- (void)NSDirectionalEdgeInsets;
 - (id)Y>;
 
 // Remaining properties

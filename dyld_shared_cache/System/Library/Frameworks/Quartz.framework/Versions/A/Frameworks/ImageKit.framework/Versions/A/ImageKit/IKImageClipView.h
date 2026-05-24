@@ -9,8 +9,8 @@
 }
 
 - (struct CGRect);
-- (_Bool);
-- (id);
+- (_Bool)14ScreenTimeCore21UserSettingsProviding_p;
+- (id)STUserNotificationAskForTimeResponseReceivedDontApprove;
 - (void);
 
 @end

@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError, NSURLSession, NSURLSessionTask;
+
 @protocol NSURLSessionTaskDelegate
 
 @optional
-- (void)rDefaults;
+- (void)makeStretchableLayerWithImage:(NSURLSession *)arg1 leftCap:(NSURLSessionTask *)arg2 rightCap:(NSError *)arg3 topCap:bottomCap: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)setTotalBytesExpectedToBeDownloaded:(NSURLSession *)arg1;
+- (void)standardUserDefaults;
 @end
 

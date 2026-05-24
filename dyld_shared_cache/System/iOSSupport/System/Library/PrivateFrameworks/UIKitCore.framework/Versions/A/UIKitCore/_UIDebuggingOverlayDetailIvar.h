@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void);
+- (void)d;
+- (void)v16@?0@"IMFileCopier"8;
 - (id)id="bottomRight" x="%g" y="%g"/></Rectangle>;
 - (void);
 

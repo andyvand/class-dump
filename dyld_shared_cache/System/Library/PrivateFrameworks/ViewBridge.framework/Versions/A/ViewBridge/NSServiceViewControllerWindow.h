@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 @interface NSServiceViewControllerWindow : NSAutolayoutJailWindow
 {
     NSServiceViewController *_viewController;
-    unsigned int _adjustWindowContextInProgress;
 }
 
 - (_Bool);
-- (id);
+- (id)R;
 - (_Bool);
 - (_Bool);
 - (void);

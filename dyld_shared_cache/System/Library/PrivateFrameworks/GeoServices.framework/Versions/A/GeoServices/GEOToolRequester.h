@@ -13,9 +13,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
+- (id)cacheKey;
+- (unsigned long long)accessViolationReporter;
+- (unsigned long long)teamIdentifier;
 - (void);
 - (void)'Ð!Ð@ù1¹*ð1Â0@ù
 × ;

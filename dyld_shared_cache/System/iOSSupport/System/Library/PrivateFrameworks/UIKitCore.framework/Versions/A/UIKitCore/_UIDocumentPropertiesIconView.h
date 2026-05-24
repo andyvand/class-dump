@@ -6,29 +6,22 @@
 
 #import <UIKitCore/UIView.h>
 
-@class LPLinkMetadata, LPLinkView, NSLayoutConstraint, UIDocumentProperties;
+@class LPLinkMetadata, UIDocumentProperties;
 
 __attribute__((visibility("hidden")))
 @interface _UIDocumentPropertiesIconView : UIView
 {
     UIDocumentProperties *_properties;
-    LPLinkView *_linkView;
-    NSLayoutConstraint *_centerXInsetConstraint;
-    NSLayoutConstraint *_trailingInsetConstraint;
-    NSLayoutConstraint *_centerYInsetConstraint;
-    NSLayoutConstraint *_bottomInsetConstraint;
-    LPLinkMetadata *_metadata;
-    struct NSDirectionalEdgeInsets _iconInsets;
 }
 
+- (void)AccountController"16@"IDSAccount"24;
+- (id)callStackSymbols;
+- (struct NSDirectionalEdgeInsets)_scheduledMessageRecordZoneID;
+- (id)to update display name to existing name. Bailing. Name:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (struct NSDirectionalEdgeInsets);
-- (id);
-- (void);
-- (id);
-- (id)Insets;
-- (void)oViewLayerOriginalRasterizationScale;
+- (id)scrollAccessoryInsets;
+- (void)_toViewLayerOriginalRasterizationScale;
 - (void);
 - (void);
 - (id)­^;

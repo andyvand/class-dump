@@ -7,11 +7,6 @@
 @interface Speech.EndpointDetector
 {
     id taskHint;
-    id detectionOptions;
-    id availableLocale;
-    id _workerWithLocked;
-    id _results;
-    id resultsBuilder;
 }
 
 @end

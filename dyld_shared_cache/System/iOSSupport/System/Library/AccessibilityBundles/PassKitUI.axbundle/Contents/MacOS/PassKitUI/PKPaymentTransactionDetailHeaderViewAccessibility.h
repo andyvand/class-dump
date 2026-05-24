@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)__VKCImageVisualSearchViewAccessibility_super;
 + (void);
 - (void);
 - (void);

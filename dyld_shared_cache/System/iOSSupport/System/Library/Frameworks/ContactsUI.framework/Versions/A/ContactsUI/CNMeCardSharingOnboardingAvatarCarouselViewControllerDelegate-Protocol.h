@@ -5,5 +5,7 @@
 //
 
 @protocol CNMeCardSharingOnboardingAvatarCarouselViewControllerDelegate
+- (void)5;
+- (void)*;
 @end
 

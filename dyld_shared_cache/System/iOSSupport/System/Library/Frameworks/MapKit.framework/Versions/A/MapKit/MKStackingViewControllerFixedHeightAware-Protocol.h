@@ -5,6 +5,7 @@
 //
 
 @protocol MKStackingViewControllerFixedHeightAware
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool resizableViewsDisabled;

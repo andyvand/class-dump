@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface HMIFFArchive
 {
     NSDictionary *_ffData;
-    NSArray *_homePersonsAndFaceCrops;
-    NSArray *_photosPersonsAndFaceCrops;
-    NSArray *_allPersonsAndFaceCrops;
 }
 
 - (id);
 - (id);
+- (id)9;
 - (id);
-- (id);
-- (id);
+- (id)k";
 - (id);
 - (id);
 - (id);
@@ -27,13 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *allPersons;
-@property(readonly) NSArray *allPersonsAndFaceCrops; // @synthesize allPersonsAndFaceCrops=_allPersonsAndFaceCrops;
 @property(readonly) NSDictionary *ffData; // @synthesize ffData=_ffData;
-@property(readonly) NSArray *homePersons;
-@property(readonly) NSArray *homePersonsAndFaceCrops; // @synthesize homePersonsAndFaceCrops=_homePersonsAndFaceCrops;
-@property(readonly) NSArray *photosPersons;
-@property(readonly) NSArray *photosPersonsAndFaceCrops; // @synthesize photosPersonsAndFaceCrops=_photosPersonsAndFaceCrops;
 
 @end
 

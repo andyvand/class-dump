@@ -9,14 +9,11 @@
 @interface MFEMLXUpgrader
 {
     NSBackgroundActivityScheduler *_mimeSnipActivityScheduler;
-    CDUnknownBlockType _mimeSnipActivityCompletionHandler;
-    NSBackgroundActivityScheduler *_libraryCompressionActivityScheduler;
-    CDUnknownBlockType _libraryCompressionCompletionHandler;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (id);
@@ -24,21 +21,18 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)d;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSBackgroundActivityScheduler *libraryCompressionActivityScheduler; // @synthesize libraryCompressionActivityScheduler=_libraryCompressionActivityScheduler;
-@property(copy, nonatomic) CDUnknownBlockType libraryCompressionCompletionHandler; // @synthesize libraryCompressionCompletionHandler=_libraryCompressionCompletionHandler;
-@property(copy, nonatomic) CDUnknownBlockType mimeSnipActivityCompletionHandler; // @synthesize mimeSnipActivityCompletionHandler=_mimeSnipActivityCompletionHandler;
 @property(retain, nonatomic) NSBackgroundActivityScheduler *mimeSnipActivityScheduler; // @synthesize mimeSnipActivityScheduler=_mimeSnipActivityScheduler;
 
 @end

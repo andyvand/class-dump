@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKObjectID, EKSourceConstraints, NSString;
+@class NSString;
 
 @interface EKCalendarWrapper
 {
     NSString *_calendarIdentifier;
-    EKObjectID *_calendarObjectID;
-    EKSourceConstraints *_constraints;
 }
 
-+ (_Bool);
++ (_Bool)serializedPossibleState;
+- (id);
+- (id)cator<char> >={__rep}}}}iiiiiiiiiiiii};
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)nflictedParticipants;
+- (void)setImage_PlaceholderWithCGImage:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)originalConflictedParticipants;
 
 @end
 

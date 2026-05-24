@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
-+ (id)ptionStringForRequest: /* Error: Ran out of types for this method. */;
-- (id);
++ (Class)itMigrationManagerDelegateP;
++ (id)descriptionStringForRequest: /* Error: Ran out of types for this method. */;
+- (id)"24;
 - (id);
 - (unsigned long long);
 - (void);

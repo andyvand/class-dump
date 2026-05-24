@@ -6,31 +6,25 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCloudContext, FCSpotlightOperationResult, NSArray, NSError;
+@class NSArray;
 @protocol FCCoreConfiguration;
 
 @interface FCEditorialOperation : FCOperation
 {
     id <FCCoreConfiguration> _configuration;
-    FCCloudContext *_context;
-    NSArray *_trendingHeadlines;
-    FCSpotlightOperationResult *_spotlightResult;
-    NSError *_error;
-    CDUnknownBlockType _fetchCompletionHandler;
-    NSArray *_editorialSectionGroups;
 }
 
 - (id);
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)P;
 - (id);
 - (void);
 - (void);
+- (id);
+- (void)i;
+- (void)8q16@?<v@?@"NSData">24;
 - (void);
 - (void)× ;
 - (id)egroundColor;
@@ -41,12 +35,6 @@
 - (_Bool)¿;
 
 // Remaining properties
-@property(copy, nonatomic) id <FCCoreConfiguration> configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) FCCloudContext *context; // @synthesize context=_context;
-@property(copy) NSArray *editorialSectionGroups; // @synthesize editorialSectionGroups=_editorialSectionGroups;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(copy) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(retain) FCSpotlightOperationResult *spotlightResult; // @synthesize spotlightResult=_spotlightResult;
 @property(copy) NSArray *trendingHeadlines; // @synthesize trendingHeadlines=_trendingHeadlines;
 
 @end

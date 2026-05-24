@@ -9,27 +9,9 @@
 @interface GEORPFeedbackLayoutFieldName
 {
     GEORPIncidentField *_incidentField;
-    int _addressFieldName;
-    int _curatedCollectionFieldName;
-    int _groundviewFieldName;
-    int _incidentType;
-    int _otherFieldName;
-    int _poiFieldName;
-    int _poiImageCorrectionType;
-    int _workflowFieldName;
-    struct {
-        unsigned int has_addressFieldName:1;
-        unsigned int has_curatedCollectionFieldName:1;
-        unsigned int has_groundviewFieldName:1;
-        unsigned int has_incidentType:1;
-        unsigned int has_otherFieldName:1;
-        unsigned int has_poiFieldName:1;
-        unsigned int has_poiImageCorrectionType:1;
-        unsigned int has_workflowFieldName:1;
-    } _flags;
 }
 
-+ (_Bool)ServiceURL:(id)arg1;
++ (_Bool)setJunctionImageServiceURL:(id)arg1;
 - (id);
 - (int);
 - (void);
@@ -39,38 +21,38 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)updatePersistentStoresWithBuilder:(_Bool)arg1 addedUrls:removedUrls:resultBlock: /* Error: Ran out of types for this method. */;
+- (void)updatePersistentStoresWithBuilder:(_Bool)arg1 addedUrls:removedUrls:resultBlock: /* Error: Ran out of types for this method. */;
+- (void)type;
+- (void)rebuildIOSLegacyIdentifiersIfNeeded;
+- (void)preferredForLinkPhoto;
+- (void)libraryImageData;
+- (void)entifiers:(_Bool)arg1;
+- (void)imageDirectory;
+- (void)applyDictionaryRepresentation:(int)arg1;
+- (void),R,V_url;
 - (int);
+- (id);
+- (int);
+- (id)c}@):(int)arg1 %{public}@;
+- (int)ess book directory (%{public}@):%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
+- (int);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);;
+- (int);
 - (id);
 - (int);
 - (id);
 - (int);
-- (id);
-- (int);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (id);
-- (int);
-- (id);
-- (int);
-- (_Bool);
+- (_Bool)ԃ�;
 - (_Bool);
 - (int);
 - (int);
@@ -91,30 +73,13 @@
 - (_Bool);
 - (void);
 - (id)=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24;
-- (id)adataTiles;
+- (id)assetMetadataTiles;
 - (id)ôõÐö;
 - (id)can only be called once per object;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int addressFieldName;
-@property(nonatomic) int curatedCollectionFieldName;
-@property(nonatomic) int groundviewFieldName;
-@property(nonatomic) _Bool hasAddressFieldName;
-@property(nonatomic) _Bool hasCuratedCollectionFieldName;
-@property(nonatomic) _Bool hasGroundviewFieldName;
-@property(readonly, nonatomic) _Bool hasIncidentField;
-@property(nonatomic) _Bool hasIncidentType;
-@property(nonatomic) _Bool hasOtherFieldName;
-@property(nonatomic) _Bool hasPoiFieldName;
-@property(nonatomic) _Bool hasPoiImageCorrectionType;
 @property(nonatomic) _Bool hasWorkflowFieldName;
-@property(retain, nonatomic) GEORPIncidentField *incidentField;
-@property(nonatomic) int incidentType;
-@property(nonatomic) int otherFieldName;
-@property(nonatomic) int poiFieldName;
-@property(nonatomic) int poiImageCorrectionType;
-@property(nonatomic) int workflowFieldName;
 
 @end
 

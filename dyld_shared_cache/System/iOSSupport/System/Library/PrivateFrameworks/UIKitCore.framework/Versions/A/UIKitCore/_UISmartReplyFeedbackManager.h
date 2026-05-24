@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSTimer, _UIKeyboardStateManager;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UISmartReplyFeedbackManager
 {
     _Bool _isLongFormCandidate;
-    _Bool _isPollAction;
-    unsigned long long _state;
-    _UIKeyboardStateManager *_keyboardStateManagerDelegate;
-    NSString *_analyticsSessionId;
-    NSArray *_previouslyShownCandidates;
-    NSString *_selectedCandidateDescription;
-    NSDate *_reportFeedbackUIPresentedCalledTime;
-    double _predictionBarDebounceTimeInterval;
-    NSTimer *_predictionBarDebounceTimeIntervalTimer;
 }
 
-+ (void);
++ (void)age earlier (%@):(id)arg1 %@;
++ (_Bool)ng local attachment as synced, to skip to;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)Rܥ;
 + (void);
 + (id);
 - (_Bool);
@@ -33,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (void);
 - (_Bool);
 - (void);
@@ -44,14 +35,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void)infoForAllScreenNames;
+- (void)imageNameForStatus: /* Error: Ran out of types for this method. */;
+- (void)createUnusedBuffer;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)3;
 - (void);
 - (id);
 - (_Bool);
@@ -65,29 +56,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (void)telephonyCountryCodesEligibleForJunkFiltering;
+- (id)retainCount;
+- (void)linkMetadataForPluginPayload:(id)arg1;
+- (void)ng",C,N,V_senderHandle;
+- (_Bool)r | Recently Deleted:(id)arg1 returning nil record. messageGUID:%@, deleteDateNanosecondIntervalNumber:%@ /* Error: Ran out of types for this method. */;
+- (void)st message:(id)arg1 %@ for chat:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ifiers.;
+- (id)@]>;
 - (unsigned long long);
 - (void);
 - (void)q[;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *analyticsSessionId; // @synthesize analyticsSessionId=_analyticsSessionId;
-@property(readonly, nonatomic) _Bool isLongFormCandidate; // @synthesize isLongFormCandidate=_isLongFormCandidate;
-@property(readonly, nonatomic) _Bool isPollAction; // @synthesize isPollAction=_isPollAction;
-@property(nonatomic) __weak _UIKeyboardStateManager *keyboardStateManagerDelegate; // @synthesize keyboardStateManagerDelegate=_keyboardStateManagerDelegate;
-@property(nonatomic) double predictionBarDebounceTimeInterval; // @synthesize predictionBarDebounceTimeInterval=_predictionBarDebounceTimeInterval;
-@property(retain, nonatomic) NSTimer *predictionBarDebounceTimeIntervalTimer; // @synthesize predictionBarDebounceTimeIntervalTimer=_predictionBarDebounceTimeIntervalTimer;
-@property(retain, nonatomic) NSArray *previouslyShownCandidates; // @synthesize previouslyShownCandidates=_previouslyShownCandidates;
-@property(retain, nonatomic) NSDate *reportFeedbackUIPresentedCalledTime; // @synthesize reportFeedbackUIPresentedCalledTime=_reportFeedbackUIPresentedCalledTime;
-@property(copy, nonatomic) NSString *selectedCandidateDescription; // @synthesize selectedCandidateDescription=_selectedCandidateDescription;
-@property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

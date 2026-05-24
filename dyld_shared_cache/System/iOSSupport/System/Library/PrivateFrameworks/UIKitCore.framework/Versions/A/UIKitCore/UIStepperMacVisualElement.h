@@ -6,55 +6,42 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CALayer, NSString, NSTimer;
-@protocol UIStepperControl;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface UIStepperMacVisualElement : UIView
 {
     CALayer *_backingLayer;
-    NSTimer *_repeatTimer;
-    _Bool _isPressed;
-    _Bool _isIncrementing;
-    _Bool _autorepeat;
-    _Bool _continuous;
-    _Bool _enabled;
-    _Bool _wraps;
-    double _stepValue;
-    double _value;
-    id <UIStepperControl> _stepperControl;
-    double _minimumValue;
-    double _maximumValue;
 }
 
-+ (struct CGSize);
-+ (struct CGSize);
++ (struct CGSize);
++ (struct CGSize)+;
 + (struct UIEdgeInsets);
-- (id);
+- (id)_dedupeRequestIfNeeded:responseHandler: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_beginExitStateCleanupIfNeededWithActivity:(struct CGSize)arg1;
+- (void)fixInvalidTransferStateIfNeeded;
+- (void);
+- (void);
+- (void);
 - (struct CGSize);
+- (id)ublic}ld items:(unsigned long long)arg1 %s;
+- (id)for:(unsigned long long)arg1 %@   success:(unsigned long long)arg2 %{BOOL}d;
+- (id)tly Deleted | could not find messageItem for GUID:(unsigned long long)arg1 %@;
+- (struct UIEdgeInsets)e is disabled, not sending personal nickname to chat;
+- (void)tion ID %@;
+- (void)ontain a valid edited message guid;
+- (void)should never have been relayed, not processing message;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)CNqeugD4i4YPoE-q0iq936FIRsVd59Xx5VwUaas/Library/Caches/com.apple.xbs/TemporaryDirectory.LLyPBF/Sources/Listen/Framework/Internal/Core/DSPGraph/Utilities/SNDSPGraphBox.mm:198:29)] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)performSelector:(double)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (_Bool)
 × ;
@@ -65,11 +52,11 @@ __attribute__((visibility("hidden")))
 - (void)etFrame:(id)arg1;
 - (void)s;
 - (id)sScrollingResizesWhenDetentDirectionIsDown:(struct CGRect)arg1;
-- (void)yboardSplitControlMenu;
-- (double)ingDelegate;
+- (void)UIKeyboardSplitControlMenu;
+- (double)_UIColorPickerViewProvidingDelegate;
 - (double);
 - (void)of old gap for %@ of row at index path %@;
-- (double)ardAppForegrounded;
+- (double)IASignalMissingKeyboardAppForegrounded;
 - (void)chBarPinnedWhenScrolling;
 - (_Bool)ort encoding;
 - (void)4b;
@@ -80,22 +67,7 @@ __attribute__((visibility("hidden")))
 - (double)¯Éÿq9ÌTJh;
 
 // Remaining properties
-@property(nonatomic) _Bool autorepeat; // @synthesize autorepeat=_autorepeat;
-@property(nonatomic, getter=isContinuous) _Bool continuous; // @synthesize continuous=_continuous;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double maximumValue; // @synthesize maximumValue=_maximumValue;
-@property(nonatomic) double minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(nonatomic) double stepValue; // @synthesize stepValue=_stepValue;
-@property(nonatomic) __weak id <UIStepperControl> stepperControl; // @synthesize stepperControl=_stepperControl;
-@property(readonly) Class superclass;
-@property(nonatomic) double value; // @synthesize value=_value;
-@property(nonatomic) _Bool wraps; // @synthesize wraps=_wraps;
 
 @end
 

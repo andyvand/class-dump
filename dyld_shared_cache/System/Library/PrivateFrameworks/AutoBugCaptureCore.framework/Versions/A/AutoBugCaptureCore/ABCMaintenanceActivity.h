@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface ABCMaintenanceActivity
 {
     CDUnknownBlockType _activityBlock;
-    NSObject<OS_dispatch_queue> *_activityQueue;
-    NSString *_activityIdentifier;
 }
 
 - (CDUnknownBlockType);
@@ -21,12 +16,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)rences;
+- (id)_preferences;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType activityBlock; // @synthesize activityBlock=_activityBlock;
-@property(retain, nonatomic) NSString *activityIdentifier; // @synthesize activityIdentifier=_activityIdentifier;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *activityQueue; // @synthesize activityQueue=_activityQueue;
 
 @end
 

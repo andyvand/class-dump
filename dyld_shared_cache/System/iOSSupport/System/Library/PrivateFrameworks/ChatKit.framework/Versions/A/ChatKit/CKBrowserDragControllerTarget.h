@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAssociatedStickerChatItem;
-
 @interface CKBrowserDragControllerTarget
 {
     _Bool _stickerIsRepositioning;
-    double _scale;
-    double _meshScaleFactor;
-    double _rotation;
-    unsigned long long _associatedLayoutIntent;
-    CKAssociatedStickerChatItem *_stickerChatItem;
-    struct CGPoint _screenCoordinate;
-    struct CGSize _initialSize;
 }
 
 + (id);
@@ -23,7 +14,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGPoint);
@@ -36,18 +27,11 @@
 - (id);
 - (double);
 - (double);
-- (void)nPreviewFontSizeOverrideLarge;
+- (void)conversationListPinnedConversationPreviewFontSizeOverrideLarge;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long associatedLayoutIntent; // @synthesize associatedLayoutIntent=_associatedLayoutIntent;
-@property(nonatomic) struct CGSize initialSize; // @synthesize initialSize=_initialSize;
-@property(nonatomic) double meshScaleFactor; // @synthesize meshScaleFactor=_meshScaleFactor;
-@property(nonatomic) double rotation; // @synthesize rotation=_rotation;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 @property(nonatomic) struct CGPoint screenCoordinate; // @synthesize screenCoordinate=_screenCoordinate;
-@property(retain, nonatomic) CKAssociatedStickerChatItem *stickerChatItem; // @synthesize stickerChatItem=_stickerChatItem;
-@property(nonatomic) _Bool stickerIsRepositioning; // @synthesize stickerIsRepositioning=_stickerIsRepositioning;
 
 @end
 

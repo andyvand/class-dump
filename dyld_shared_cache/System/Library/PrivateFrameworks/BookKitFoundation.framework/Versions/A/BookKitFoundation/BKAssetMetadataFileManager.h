@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileCoordinator, NSFileManager;
+@class NSFileManager;
 
 @interface BKAssetMetadataFileManager
 {
     NSFileManager *_fileManager;
-    NSFileCoordinator *_fileCoordinator;
 }
 
-+ (id);
++ (id)җ;
 + (id);
 + (id);
 - (id);
@@ -44,7 +43,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)needsFetching;
 - (id);
 - (id);
 - (void);
@@ -52,7 +51,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSFileCoordinator *fileCoordinator; // @synthesize fileCoordinator=_fileCoordinator;
 @property(retain, nonatomic) NSFileManager *fileManager; // @synthesize fileManager=_fileManager;
 
 @end

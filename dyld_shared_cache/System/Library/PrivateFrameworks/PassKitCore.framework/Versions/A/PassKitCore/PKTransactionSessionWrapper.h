@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class STSSession;
 @protocol NFSession;
 
 @interface PKTransactionSessionWrapper
 {
     id <NFSession> _nfSession;
-    STSSession *_stsSession;
 }
 
 - (id);
-- (id);
+- (id)IL;
 - (id);
 - (id);
 - (void);
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <NFSession> nfSession; // @synthesize nfSession=_nfSession;
-@property(readonly, nonatomic) STSSession *stsSession; // @synthesize stsSession=_stsSession;
 
 @end
 

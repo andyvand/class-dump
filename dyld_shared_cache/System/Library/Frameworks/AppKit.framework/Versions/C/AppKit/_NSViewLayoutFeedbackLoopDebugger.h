@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSView;
+@class NSView;
 
 @interface _NSViewLayoutFeedbackLoopDebugger
 {
     long long _debuggingState;
-    NSView *_rootView;
-    NSMutableSet *_viewsWithChangingGeometry;
-    NSMutableSet *_viewsWithVariableChangesTriggeringLayout;
-    NSMutableSet *_turningPointViews;
-    NSMutableSet *_involvedViews;
-    NSMutableArray *_layoutList;
-    NSArray *_reducedLayoutList;
-    _Bool _rootViewConfirmed;
-    _Bool _feedbackLoopConfirmed;
-    long long _rootViewLayoutCount;
-    NSView *_currentLayoutView;
 }
 
-+ (void);
++ (void);
 + (void);
 - (id);
 - (id);

@@ -5,5 +5,7 @@
 //
 
 @protocol _DKSyncRemoteContextStorageDelegate
+- (void)Albums (GUID, name, ctag, foreignCtag, obj, url, userInfo, clientOrgKey) values (?, ?, ?, ?, ?, ?, ?, ?);;
+- (void)c;
 @end
 

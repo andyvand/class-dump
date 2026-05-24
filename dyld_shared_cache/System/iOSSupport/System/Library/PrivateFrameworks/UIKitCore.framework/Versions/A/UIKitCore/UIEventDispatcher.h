@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIEventEnvironment, UIEventFetcher;
+@class UIEventEnvironment;
 
 __attribute__((visibility("hidden")))
 @interface UIEventDispatcher
 {
     UIEventEnvironment *_mainEnvironment;
-    UIEventFetcher *_eventFetcher;
-    struct __CFRunLoopSource *_handleEventQueueRunLoopSource;
-    struct __CFRunLoopSource *_collectHIDEventsRunLoopSource;
-    struct __CFRunLoop *_runLoop;
 }
 
 - (void);
 - (void);
-- (void):(struct __CFRunLoop *)arg1;
-- (void)eStateQueue;
+- (void)_setSelectionHighlightContinuousCornerRadius:(struct __CFRunLoop *)arg1;
+- (void)_activeStateQueue;
 - (void)offPresentation;
 - (id);
 - (void)lic}@, for expected property type, %{public}s;

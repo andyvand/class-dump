@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleRecordSource, NSArray, NSString;
+@class FCArticleRecordSource;
 
 @interface FCFeedItemFactory
 {
     FCArticleRecordSource *_articleRecordSource;
-    NSString *_storefrontID;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_invalidateLayoutWithContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ateDataContext:networkBehaviorMonitor:networkReachability:options:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) FCArticleRecordSource *articleRecordSource; // @synthesize articleRecordSource=_articleRecordSource;
-@property(readonly, nonatomic) NSArray *requiredArticleKeys;
-@property(readonly, copy, nonatomic) NSString *storefrontID; // @synthesize storefrontID=_storefrontID;
 
 @end
 

@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, QCSCN_Camera, QCSCN_Geometry, QCSCN_Light;
-@protocol QCSCN_NodeRendererDelegate;
-
 @interface QCSCN_Node
 {
     id _reserved;
@@ -15,7 +12,7 @@
 + (Class);
 + (id);
 + (id);
-+ (id);
++ (id)(;
 + (id);
 + (int);
 + (id);
@@ -35,7 +32,7 @@
 - (struct __C3DScene *);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (long long);
 - (id);
 - (void);
@@ -61,7 +58,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -93,18 +90,18 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct __C3DAnimationManager *);
-- (struct CATransform3D);
-- (struct __C3DAnimationTarget *);
+- (struct CATransform3D)deleteInteractionsWithIdentifiers:bundleID:protectionClass:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct __C3DAnimationTarget *)",R,N,V_contactStore;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)verlayLabel};
 - (id);
-- (void);
+- (void)nue.;
 - (id);
 - (void);
 - (id);
@@ -124,18 +121,18 @@
 - (void);
 - (id);
 - (struct _SCNVector4);
-- (struct CATransform3D);
-- (_Bool);
-- (id);
+- (struct CATransform3D)ASC, remote_location_id ASC, base_location_id ASC, album_artist_order_section ASC, in_my_library ASC, is_compilation ASC) WHERE ((in_my_library OR album_artist_order) OR is_compilation);
+- (_Bool)in (select DISTINCT container_pid from (select container_pid from container_item join container using(container_pid) where keep_local > 0 AND item_pid=?));
+- (id)EGER NOT NULL DEFAULT 0, track_count INTEGER NOT NULL DEFAULT 0, total_time_ms REAL NOT NULL DEFAULT 0, year INTEGER NOT NULL DEFAULT 0, location TEXT NOT NULL DEFAULT '', file_size INTEGER NOT NULL DEFAULT 0, integrity BLOB, is_audible_audio_book INTEGER NOT NULL DEFAULT 0, date_modified INTEGER NOT NULL DEFAULT 0, media_kind INTEGER NOT NULL DEFAULT 0, content_rating INTEGER NOT NULL DEFAULT 0, content_rating_level INTEGER NOT NULL DEFAULT 0, is_user_disabled INTEGER NOT NULL DEFAULT 0, bpm INTEGER NOT NULL DEFAULT 0, genius_id INTEGER NOT NULL DEFAULT 0, comment TEXT, grouping TEXT, description TEXT, description_long TEXT, collection_description TEXT, copyright TEXT, pending_genius_checksum INTEGER NOT NULL DEFAULT 0, category_id INTEGER NOT NULL DEFAULT 0, location_kind_id INTEGER NOT NULL DEFAULT 0, version TEXT NOT NULL DEFAULT '', display_version TEXT NOT NULL DEFAULT '', classical_work TEXT NOT NULL DEFAULT '', classical_movement TEXT NOT NULL DEFAULT '', classical_movement_count INTEGER NOT NULL DEFAULT 0, classical_movement_number INTEGER NOT NULL DEFAULT 0);
 - (id);
 - (struct _SCNVector3);
-- (void);
+- (void);
 - (id);
 - (void);
 - (struct _SCNVector3);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (double);
 - (void);
 - (void);
@@ -145,7 +142,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_;
 - (void);
 - (id);
 - (void);
@@ -157,27 +154,12 @@
 - (id)Q56Q64@72;
 - (void)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}20;
 - (id);
-- (void)ram_complexType11domSemanticE;
-- (void)plexType10domPrimaryE;
+- (void)N28domGles_newparam_complexType11domSemanticE;
+- (void)N42domFx_surface_init_cube_common_complexType10domPrimaryE;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) QCSCN_Camera *camera;
-@property(readonly, copy, nonatomic) NSArray *childNodes;
-@property(retain, nonatomic) QCSCN_Geometry *geometry;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(retain, nonatomic) QCSCN_Light *light;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic) double opacity;
-@property(readonly, nonatomic) QCSCN_Node *parentNode;
-@property(nonatomic) struct CATransform3D pivot;
-@property(nonatomic) struct _SCNVector3 position;
-@property(nonatomic) id <QCSCN_NodeRendererDelegate> rendererDelegate;
-@property(nonatomic) long long renderingOrder;
-@property(nonatomic) struct _SCNVector4 rotation;
-@property(nonatomic) struct _SCNVector3 scale;
 @property(nonatomic) struct CATransform3D transform;
-@property(readonly, nonatomic) struct CATransform3D worldTransform;
 
 @end
 

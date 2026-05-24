@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDRecentInfo, NSObject;
-@protocol OS_dispatch_queue;
+@class CDRecentInfo;
 
 @interface CDPurgeableResultCache
 {
     CDRecentInfo *_recentPurgeableResults;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
-+ (id);
-- (void);
++ (id);
++ (id)lastWorkoutComparisonDate;
+- (void)connection:(id)arg1 messageIdentifier:alternateCallbackID:updatedWithResponseCode:error:lastCall:messageContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -23,8 +21,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)tch location at date, %@, error, %@;
+- (id), of expected %tu, next interval from %@ to %@;
 - (void);
 - (void);
 - (_Bool);
@@ -45,7 +43,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) CDRecentInfo *recentPurgeableResults; // @synthesize recentPurgeableResults=_recentPurgeableResults;
 
 @end

@@ -11,20 +11,6 @@
 @interface VMUObjectGraph : VMUDirectedGraph
 {
     struct _VMUObjectGraphEdge *_referenceTable;
-    unsigned int _referenceTableCapacity;
-    struct _VMUObjectGraphEdgeLarge *_referenceTableLarge;
-    unsigned int _referenceTableLargeCount;
-    unsigned int _referenceTableLargeCapacity;
-    struct _VMUBlockNode *_internalizedNodes;
-    unsigned int _internalizedCount;
-    id *_classInfos;
-    VMUClassInfoMap *_knownClassInfos;
-    unsigned int _classInfosCount;
-    CDUnknownBlockType _nodeProvider;
-    VMUObjectGraph *_referenceGraph;
-    unsigned int _referenceGraphNodeNamespaceSize;
-    unsigned int _referenceGraphEdgeNamespaceSize;
-    int _referencingCount;
 }
 
 - (id);
@@ -34,37 +20,37 @@
 - (void);
 - (unsigned int);
 - (CDStruct_8b65991f);
-- (unsigned int);
-- (_Bool);
+- (unsigned int)5S~;
+- (_Bool)q(;
 - (void);
-- (id);
+- (id)=;
 - (id);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (void *);
 - (void *);
-- (unsigned int);
+- (unsigned int)k"q;
 - (unsigned int);
 - (void);
 - (CDStruct_8b65991f);
 - (void);
-- (void *);
+- (void *);
 - (_Bool);
 - (id);
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void)_;
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void)	;
 - (unsigned int);
-- (CDStruct_599faf0f);
-- (id);
+- (CDStruct_599faf0f)ed to write the record id map table %@;
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)NSAccessibilityElement;
 
 // Remaining properties
 @property(retain, nonatomic) VMUClassInfoMap *indexedClassInfos; // @synthesize indexedClassInfos=_knownClassInfos;

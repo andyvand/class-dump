@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarActionsMenuController, AVTAvatarActionsProvider, AVTAvatarPickerDataSource, AVTEdgeDisappearingCollectionViewLayout, AVTImageStore, AVTRenderingScope, AVTSimpleAvatarPickerHeaderView, AVTViewSessionProvider, NSMutableDictionary, NSString, UICollectionView, UIView, _AVTAvatarRecordImageProvider;
-@protocol AVTAvatarPickerDelegate, AVTPresenterDelegate, AVTStickerTaskScheduler, AVTStickerViewControllerImageDelegate;
+@class UIView;
 
 @interface AVTSimpleAvatarPicker
 {
     _Bool _allowEditing;
-    _Bool _shouldHideUserInfoView;
-    _Bool _shouldReverseNaturalLayout;
-    _Bool _doesDisplayEditIconWhenAvailable;
-    id <AVTPresenterDelegate> presenterDelegate;
-    id <AVTAvatarPickerDelegate> avatarPickerDelegate;
-    double _minimumInteritemSpacing;
-    id <AVTStickerViewControllerImageDelegate> _imageDelegate;
-    UIView *_view;
-    UICollectionView *_collectionView;
-    AVTEdgeDisappearingCollectionViewLayout *_collectionViewLayout;
-    AVTAvatarPickerDataSource *_dataSource;
-    AVTImageStore *_imageStore;
-    NSMutableDictionary *_itemsToTasksMap;
-    id <AVTStickerTaskScheduler> _taskScheduler;
-    _AVTAvatarRecordImageProvider *_imageProvider;
-    AVTViewSessionProvider *_viewSessionProvider;
-    AVTRenderingScope *_renderingScope;
-    AVTSimpleAvatarPickerHeaderView *_headerView;
-    AVTAvatarActionsMenuController *_actionsController;
-    AVTAvatarActionsProvider *_actionsModel;
-    struct UIEdgeInsets _contentInset;
 }
 
 - (void);
@@ -79,7 +57,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -94,42 +72,42 @@
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (double);
+- (double);
 - (id);
-- (id);
+- (id)lectConcept has empty locale;
 - (void);
 - (void);
 - (id);
 - (id);
-- (struct CGSize);
+- (struct CGSize)ceptionParameter144(12324):cfg 1 elements; (1*8) cfg bytes != (%d) buffer bytes /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets);
 - (void);
+- (void)#;
 - (void);
-- (void);
-- (id);
+- (id)fileHandleForReadingFromURL:error: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
-- (void);
-- (void);
+- (void)unpurgeOnceTouchFileExists;
+- (void);
 - (void);
 - (id);
 - (id);
 - (long long);
 - (struct UIEdgeInsets);
-- (struct CGSize);
-- (long long);
-- (_Bool);
+- (struct CGSize)ction updates.;
+- (long long)D;
+- (_Bool)liveryAccount"16;
 - (void);
 - (void);
 - (_Bool);
@@ -140,35 +118,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVTAvatarActionsMenuController *actionsController; // @synthesize actionsController=_actionsController;
-@property(retain, nonatomic) AVTAvatarActionsProvider *actionsModel; // @synthesize actionsModel=_actionsModel;
-@property(nonatomic) _Bool allowEditing; // @synthesize allowEditing=_allowEditing;
-@property(nonatomic) __weak id <AVTAvatarPickerDelegate> avatarPickerDelegate; // @synthesize avatarPickerDelegate;
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) AVTEdgeDisappearingCollectionViewLayout *collectionViewLayout; // @synthesize collectionViewLayout=_collectionViewLayout;
-@property(nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=_contentInset;
-@property(retain, nonatomic) AVTAvatarPickerDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool doesDisplayEditIconWhenAvailable; // @synthesize doesDisplayEditIconWhenAvailable=_doesDisplayEditIconWhenAvailable;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak AVTSimpleAvatarPickerHeaderView *headerView; // @synthesize headerView=_headerView;
-@property(nonatomic) __weak id <AVTStickerViewControllerImageDelegate> imageDelegate; // @synthesize imageDelegate=_imageDelegate;
-@property(readonly, nonatomic) _AVTAvatarRecordImageProvider *imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(retain, nonatomic) AVTImageStore *imageStore; // @synthesize imageStore=_imageStore;
-@property(retain, nonatomic) NSMutableDictionary *itemsToTasksMap; // @synthesize itemsToTasksMap=_itemsToTasksMap;
-@property(nonatomic) double minimumInteritemSpacing; // @synthesize minimumInteritemSpacing=_minimumInteritemSpacing;
-@property(nonatomic) __weak id <AVTPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate;
-@property(readonly, nonatomic) AVTRenderingScope *renderingScope; // @synthesize renderingScope=_renderingScope;
-@property(nonatomic) _Bool shouldHideUserInfoView; // @synthesize shouldHideUserInfoView=_shouldHideUserInfoView;
-@property(nonatomic) _Bool shouldReverseNaturalLayout; // @synthesize shouldReverseNaturalLayout=_shouldReverseNaturalLayout;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <AVTStickerTaskScheduler> taskScheduler; // @synthesize taskScheduler=_taskScheduler;
 @property(retain, nonatomic) UIView *view; // @synthesize view=_view;
-@property(readonly, nonatomic) AVTViewSessionProvider *viewSessionProvider; // @synthesize viewSessionProvider=_viewSessionProvider;
 
 @end
 

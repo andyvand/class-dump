@@ -6,36 +6,28 @@
 
 #import <EmailCore/ECMessageBodyParser.h>
 
-@class ECPriceFormattingThresholds, NSScanner, NSString;
+@class NSScanner;
 
 @interface ECMessageBodyHTMLParser : ECMessageBodyParser
 {
     NSScanner *_scanner;
-    ECPriceFormattingThresholds *_priceFormattingThresholds;
 }
 
 + (id);
-- (unsigned long long);
-- (Class);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (unsigned long long)reInPictureContentSourceTypeSampleBufferDisplayLayer;
+- (Class)er the requested restore;
+- (id)ming message type %d is unrecognized!;
+- (id)environ %{public}@;
+- (void)ror:(id)arg1 backgroundView is already a subview of another view.;
+- (_Bool)showing the content info panel.;
+- (void)Has control that can only overflow, but no layout views can substitute others.;
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool)ory in /AppleInternal/Library/BuildRoots/4~CNqyugANfjeykhXE7zlFjn-MBVpr5AKcVYUFpSU/Library/Caches/com.apple.xbs/TemporaryDirectory.277BGj/Sources/Mail_Email/Email/SASL/cyrus_sasl/common/plugin_common.c near line %d;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
 
 @end
 

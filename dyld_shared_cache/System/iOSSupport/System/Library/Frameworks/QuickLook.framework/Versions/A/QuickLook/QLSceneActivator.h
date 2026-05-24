@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, QLPreviewMockScene;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface QLSceneActivator
 {
     NSArray *urls;
-    long long initialPreviewIndex;
-    QLPreviewMockScene *previewScene;
 }
 
 + (id);
@@ -19,24 +17,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (id);
-- (long long);
+- (id)placeholderImageView;
+- (long long)_prepareConstraints;
 - (void);
-- (id);
+- (id)ROWID = cm.message_id INNER JOIN chat c ON   c.ROWID = cm.chat_id INNER JOIN chat_handle_join ch ON   c.ROWID = ch.chat_id WHERE   ch.handle_id = ?   AND c.room_name IS NULL   AND m.replace = ? ORDER BY m.ROWID DESC LIMIT ?;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long initialPreviewIndex; // @synthesize initialPreviewIndex;
-@property(retain) QLPreviewMockScene *previewScene; // @synthesize previewScene;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSArray *urls; // @synthesize urls;
 
 @end

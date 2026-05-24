@@ -11,9 +11,9 @@
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)NSString"@"NSError">24;
++ (id)sharedSerialResponseQueue;
++ (id)k.ThumbnailsAgent;
 - (void);
 - (id);
 - (id);

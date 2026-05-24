@@ -12,8 +12,8 @@
     NSString *_checkerWarmingLanguage;
 }
 
-+ (void);
-+ (void);
++ (void)ng junk chat command not from me for message:(id)arg1 %@;
++ (void);
 + (id);
 + (id);
 + (id);
@@ -35,12 +35,12 @@
 + (_Bool);
 + (id);
 + (id);
-+ (void)ordinator:didReceiveContexts: /* Error: Ran out of types for this method. */;
++ (void)_writingToolsCoordinator:didReceiveContexts: /* Error: Ran out of types for this method. */;
 + (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)chat:(id)arg1 isRecoveredUpdated: /* Error: Ran out of types for this method. */;
+- (id)cancelVCRequestWithPerson:(id)arg1 properties:(id)arg2 conference: /* Error: Ran out of types for this method. */;
+- (void)tring",C;
+- (void)+;
 - (void);
 - (void);
 - (struct _NSRange);
@@ -53,16 +53,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (struct _NSRange);
-- (struct _NSRange);
-- (struct _NSRange);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (id)updating security level with error:(struct _NSRange)arg1 %@;
+- (id)ncoming local message error push:(struct _NSRange)arg1 %@;
+- (id)g sticker me-sticker with error %@, outputURLS %@;
+- (struct _NSRange)icker found in cache %@;
+- (struct _NSRange)ompletionBlock %@;
+- (struct _NSRange)ing legacy Sticker folder at path %@, error %@;
+- (_Bool)blackholed by TrustKit:(id)arg1 %@;
+- (id)or SMS relay %@;
+- (void)ue exists;
+- (void)AllowInstantReplicationDelivery;
 - (id);
 - (_Bool);
 - (struct _NSRange);
@@ -73,7 +73,7 @@
 - (long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void)lÍÔ²a;
 

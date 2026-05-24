@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSKeyValueObservationInfo, NSKeyValueSharedObserversSnapshot;
-
 @interface NSKeyValueSharedObservers
 {
     Class _observableClass;
-    Class _currentClass;
-    NSKeyValueObservationInfo *_currentObservationInfo;
-    NSKeyValueSharedObserversSnapshot *_snapshot;
 }
 
 - (id);

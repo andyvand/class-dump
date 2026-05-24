@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @protocol CalDAVSubscribedCalendar
+- (void);
+- (NSURL *)9;
+
+@optional
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool autoprovisioned;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool hasAlarmFilter;
-@property(nonatomic) _Bool hasAttachmentFilter;
-@property(nonatomic) _Bool hasTaskFilter;
-@property(retain, nonatomic) NSString *languageCode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(retain, nonatomic) NSString *locationCode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,&,N
-
-@property(nonatomic) double refreshInterval;
 @property(retain, nonatomic) NSURL *subscriptionURL;
 @end
 

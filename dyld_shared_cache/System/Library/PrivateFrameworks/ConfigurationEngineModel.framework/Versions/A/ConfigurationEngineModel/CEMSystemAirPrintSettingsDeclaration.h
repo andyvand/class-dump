@@ -6,19 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemAirPrintSettingsDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowAirPrint;
-    NSNumber *_payloadForceAirPrintTrustedTLSRequirement;
-    NSNumber *_payloadAllowAirPrintiBeaconDiscovery;
-    NSNumber *_payloadAllowAirPrintCredentialsStorage;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)b `;
 + (id);
 + (id);
 + (id);
@@ -27,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
@@ -37,21 +34,11 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)ceSlQZ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *payloadAllowAirPrint; // @synthesize payloadAllowAirPrint=_payloadAllowAirPrint;
-@property(copy, nonatomic) NSNumber *payloadAllowAirPrintCredentialsStorage; // @synthesize payloadAllowAirPrintCredentialsStorage=_payloadAllowAirPrintCredentialsStorage;
-@property(copy, nonatomic) NSNumber *payloadAllowAirPrintiBeaconDiscovery; // @synthesize payloadAllowAirPrintiBeaconDiscovery=_payloadAllowAirPrintiBeaconDiscovery;
-@property(copy, nonatomic) NSNumber *payloadForceAirPrintTrustedTLSRequirement; // @synthesize payloadForceAirPrintTrustedTLSRequirement=_payloadForceAirPrintTrustedTLSRequirement;
-@property(readonly) Class superclass;
 
 @end
 

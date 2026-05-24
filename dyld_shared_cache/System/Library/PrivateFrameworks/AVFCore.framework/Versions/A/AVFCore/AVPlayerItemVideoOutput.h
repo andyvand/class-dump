@@ -6,22 +6,22 @@
 
 #import <AVFCore/AVPlayerItemOutput.h>
 
-@class AVPlayerItemVideoOutputInternal, NSObject;
-@protocol AVPlayerItemOutputPullDelegate, OS_dispatch_queue;
+@class AVPlayerItemVideoOutputInternal;
+@protocol AVPlayerItemOutputPullDelegate;
 
 @interface AVPlayerItemVideoOutput : AVPlayerItemOutput
 {
     AVPlayerItemVideoOutputInternal *_videoOutputInternal;
 }
 
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (_Bool)_currentGrapheme;
+- (_Bool)g<char, std:(id)arg1:(_Bool)arg2 char_traits<char>, std:(id *)arg3:allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{vector<std::pair<std::string, float>, std::allocator<std::pair<std::string, float>>>=^v^v{?=^v}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}iBB{basic_string<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}B{DecodingSignals=ffff}{optional<long long>=(?=cq)B}{optional<long long>=(?=cq)B}{optional<long long>=(?=cq)B}},R,N,V_quasarToken /* Error: Ran out of types for this method. */;
+- (void)ode_base<void *> *>=^v}}{?=Q}}})B}},R;
+- (void)InfoData;
+- (void)ixState;
 - (id);
 - (_Bool);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)\];
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (long long);
@@ -29,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (id);
 - (void);
@@ -39,14 +39,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(readonly) __weak id <AVPlayerItemOutputPullDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue;
 
 @end
 

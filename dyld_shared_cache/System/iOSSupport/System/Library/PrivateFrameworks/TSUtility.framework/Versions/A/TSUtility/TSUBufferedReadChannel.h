@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString;
-@protocol OS_dispatch_data, OS_dispatch_queue, OS_dispatch_semaphore, TSUReadChannel, TSUStreamReadChannel;
+@class NSObject;
+@protocol OS_dispatch_semaphore;
 
 @interface TSUBufferedReadChannel
 {
     NSObject<OS_dispatch_semaphore> *_readSemaphore;
-    id <TSUReadChannel> _sourceReadChannel;
-    unsigned long long _sourceReadBufferSize;
-    NSObject<OS_dispatch_queue> *_sourceReadQueue;
-    long long _sourceOffset;
-    NSError *_sourceReadChannelError;
-    CDUnknownBlockType _streamReadChannelBlock;
-    id <TSUStreamReadChannel> _streamReadChannel;
-    NSObject<OS_dispatch_queue> *_streamReadChannelSourceQueue;
-    CDUnknownBlockType _streamReadChannelSourceHandler;
-    NSObject<OS_dispatch_queue> *_streamReadChannelOutputQueue;
-    _Bool _isStreamOutputDone;
-    long long _streamOutputOffset;
-    unsigned long long _streamOutputLength;
-    NSObject<OS_dispatch_data> *_currentStreamOutputData;
 }
 
-- (void);
+- (void)offlineFeedsSupervisor;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ypeP;
 - (void);
 - (void);
 - (void);
@@ -41,13 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

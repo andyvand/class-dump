@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet;
+@class NSArray;
 
 @interface PXStoryTimeBasedChapterCollection
 {
     _Bool _usesAssetLocalCreationDates;
-    NSArray *_chapters;
-    NSDictionary *_chapterIndexesByIdentifier;
-    NSSet *_chapterBeginningAssetLocalIdentifiers;
 }
 
 - (_Bool);
@@ -22,7 +19,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -33,11 +30,7 @@
 - (void)e;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *chapterBeginningAssetLocalIdentifiers; // @synthesize chapterBeginningAssetLocalIdentifiers=_chapterBeginningAssetLocalIdentifiers;
-@property(readonly, nonatomic) NSDictionary *chapterIndexesByIdentifier; // @synthesize chapterIndexesByIdentifier=_chapterIndexesByIdentifier;
 @property(readonly, nonatomic) NSArray *chapters; // @synthesize chapters=_chapters;
-@property(readonly, nonatomic) long long numberOfChapters;
-@property(readonly, nonatomic) _Bool usesAssetLocalCreationDates; // @synthesize usesAssetLocalCreationDates=_usesAssetLocalCreationDates;
 
 @end
 

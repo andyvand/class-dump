@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface SidecarSubmenu
 {
     long long _generation;
-    unsigned long long _options;
-    NSArray *_services;
-    id _target;
-    SEL _action;
 }
 
 - (id);
@@ -22,14 +16,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (SEL);
+- (SEL)UNKNOWN_CONTAINER;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(copy, nonatomic) NSArray *services; // @synthesize services=_services;
 @property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

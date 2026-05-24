@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SPTTRResult
 {
     NSString *_userQuery;
-    NSURL *_ttrURL;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (id)works/CoreAnalytics.framework/Versions/A/CoreAnalytics;
 - (id);
-- (id);
-- (void);
+- (void)OR = vi_onefixedsize_disk_allocator, POSTINGS_DATA = vi_disk_postings];
 - (void);
 
 @end

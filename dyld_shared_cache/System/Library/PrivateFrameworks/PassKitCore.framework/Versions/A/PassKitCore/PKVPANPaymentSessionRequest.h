@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (id)legatePurchaseRequestWithProtobuf: /* Error: Ran out of types for this method. */;
+- (id)l5;
+- (id)delegatePurchaseRequestWithProtobuf: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

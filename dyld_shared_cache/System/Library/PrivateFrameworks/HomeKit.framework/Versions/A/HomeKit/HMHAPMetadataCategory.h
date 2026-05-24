@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMHAPMetadataCategory
 {
     NSString *_uuidStr;
-    NSString *_catDescription;
-    NSNumber *_identifier;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)k/CoreDuet;
 - (id);
 - (id);
 - (void)ÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *catDescription; // @synthesize catDescription=_catDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSString *uuidStr; // @synthesize uuidStr=_uuidStr;
 
 @end

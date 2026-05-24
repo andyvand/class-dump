@@ -7,28 +7,24 @@
 @interface INRecurrenceRule
 {
     unsigned long long _interval;
-    long long _frequency;
-    unsigned long long _weeklyRecurrenceDays;
 }
 
 - (unsigned long long);
+- (id)9h;
 - (id);
-- (id);
-- (id);
+- (id)enqueueTransient:(id)arg1 hapticMotor: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)initWithDisplayName:(id)arg1 identifier:sharingMode: /* Error: Ran out of types for this method. */;
+- (void)aded = %@;
 - (id);
 - (id);
-- (id)leAtPath:(unsigned long long)arg1 contents:attributes: /* Error: Ran out of types for this method. */;
+- (id)createFileAtPath:(unsigned long long)arg1 contents:attributes: /* Error: Ran out of types for this method. */;
 - (long long)NÑ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long frequency; // @synthesize frequency=_frequency;
 @property(readonly, nonatomic) unsigned long long interval; // @synthesize interval=_interval;
-@property(readonly, nonatomic) unsigned long long weeklyRecurrenceDays; // @synthesize weeklyRecurrenceDays=_weeklyRecurrenceDays;
 
 @end
 

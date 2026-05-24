@@ -7,8 +7,6 @@
 @interface PIDisparitySampleJob
 {
     float _sampledDisparityValue;
-    CDStruct_1b6d18a9 _sampleTime;
-    struct CGRect _sampleRect;
 }
 
 - (void);
@@ -25,9 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct CGRect sampleRect; // @synthesize sampleRect=_sampleRect;
 @property(nonatomic) CDStruct_1b6d18a9 sampleTime; // @synthesize sampleTime=_sampleTime;
-@property(nonatomic) float sampledDisparityValue; // @synthesize sampledDisparityValue=_sampledDisparityValue;
 
 @end
 

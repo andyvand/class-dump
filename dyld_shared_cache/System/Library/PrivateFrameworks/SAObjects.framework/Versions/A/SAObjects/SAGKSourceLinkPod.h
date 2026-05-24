@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAGKPodView.h>
 
-@class NSString, SAUIAppPunchOut;
+@class NSString;
 
 @interface SAGKSourceLinkPod : SAGKPodView
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *linkText;
-@property(retain, nonatomic) SAUIAppPunchOut *punchOut;
 
 @end
 

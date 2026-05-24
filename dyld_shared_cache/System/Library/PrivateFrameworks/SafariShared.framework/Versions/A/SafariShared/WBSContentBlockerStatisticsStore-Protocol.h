@@ -5,5 +5,7 @@
 //
 
 @protocol WBSContentBlockerStatisticsStore
+- (void);
+- (void);
 @end
 

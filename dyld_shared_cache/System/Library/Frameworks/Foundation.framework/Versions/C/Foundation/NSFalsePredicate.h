@@ -10,17 +10,17 @@
 {
 }
 
-+ (id);
++ (id)aling factor on port %d (%x);
 + (_Bool)apple.xcstringstool;
 + (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (oneway void);
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 @interface LSBundleWrapperStagingReceipt
 {
     NSURL *_wrappedBundleURL;
-    NSDictionary *_wrappedBundleInfo;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSDictionary *wrappedBundleInfo; // @synthesize wrappedBundleInfo=_wrappedBundleInfo;
 @property(readonly) NSURL *wrappedBundleURL; // @synthesize wrappedBundleURL=_wrappedBundleURL;
 
 @end

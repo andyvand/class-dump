@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRActiveConfigUpdateEnded, ASRSchemaASRActiveConfigUpdateStarted, NSData;
+@class ASRSchemaASRActiveConfigUpdateStarted;
 
 @interface ASRSchemaASRActiveConfigUpdateContext : SISchemaInstrumentationMessage
 {
     ASRSchemaASRActiveConfigUpdateStarted *_startedOrChanged;
-    ASRSchemaASRActiveConfigUpdateEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -22,11 +18,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)webView:(id)arg1 didFailLoadWithError:forFrame: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 mouseDownInHeaderOfTableColumn: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -34,19 +30,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)setTimedOut: /* Error: Ran out of types for this method. */;
 - (id)Leøe|fhhpjHk;
-- (id)oad;
+- (id)stringPayload;
 - (void)\¦ÿ°>';
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRActiveConfigUpdateEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRActiveConfigUpdateStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

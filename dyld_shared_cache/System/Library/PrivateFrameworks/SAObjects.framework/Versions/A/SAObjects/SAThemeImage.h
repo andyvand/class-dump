@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SAThemeImage : SADomainObject
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appearanceSetting;
-@property(copy, nonatomic) NSData *dynamicImage;
 
 @end
 

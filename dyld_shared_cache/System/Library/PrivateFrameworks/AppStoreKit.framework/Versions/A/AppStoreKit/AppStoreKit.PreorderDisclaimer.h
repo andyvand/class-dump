@@ -7,9 +7,6 @@
 @interface AppStoreKit.PreorderDisclaimer
 {
     id disclaimer;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AVInternalDeviceList
 {
     CDUnknownBlockType propertyListener;
-    CDUnknownBlockType hardwareListener;
-    CDUnknownBlockType changeListener;
-    NSMutableArray *deviceList;
-    struct _opaque_pthread_mutex_t listLock;
 }
 
 + (id);
-+ (id);
++ (id)K?;
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (CDUnknownBlockType);
-- (void);
+- (void)X;
 - (id);
 - (void);
 - (id);

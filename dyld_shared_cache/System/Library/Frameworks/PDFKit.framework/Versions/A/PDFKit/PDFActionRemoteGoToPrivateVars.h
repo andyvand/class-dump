@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, PDFDestination;
-
 __attribute__((visibility("hidden")))
 @interface PDFActionRemoteGoToPrivateVars
 {
     unsigned long long pageIndex;
-    struct CGPoint point;
-    NSURL *url;
-    PDFDestination *destination;
 }
 
 - (void);

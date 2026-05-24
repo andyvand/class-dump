@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSDate, NSDictionary, NSNumber, NSString, NSURL, SALocation, SAPersonAttribute;
+@class NSURL;
 
 @interface SAMicroblogObject : SADomainObject
 {
@@ -19,20 +19,20 @@
 - (void);
 - (void);
 - (void);
+- (void)v;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)`+;
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -43,17 +43,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *attachment;
-@property(copy, nonatomic) NSString *content;
-@property(copy, nonatomic) NSDate *dateSent;
-@property(copy, nonatomic) NSDictionary *hashtagAlternatives;
-@property(retain, nonatomic) SALocation *location;
-@property(copy, nonatomic) NSNumber *outgoing;
-@property(copy, nonatomic) NSArray *recipients;
-@property(copy, nonatomic) NSURL *refereceId;
-@property(retain, nonatomic) SAPersonAttribute *sender;
-@property(copy, nonatomic) NSString *serviceType;
-@property(copy, nonatomic) NSDictionary *socialProfileReferences;
-@property(copy, nonatomic) NSNumber *useLocation;
 
 @end
 

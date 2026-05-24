@@ -7,6 +7,10 @@
 @class NSString;
 
 @protocol MMQuotaProtocol
+- (void);
+- (NSString *)3;
+- (void)qA;
+- (void);
 - (NSString *)ù
 × ;
 @end

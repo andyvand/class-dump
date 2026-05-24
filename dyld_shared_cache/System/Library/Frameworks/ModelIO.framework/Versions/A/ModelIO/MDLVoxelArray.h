@@ -9,24 +9,13 @@
 @interface MDLVoxelArray : MDLObject
 {
     struct unordered_map<unsigned long long, int, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, int>>> _voxels;
-    struct {
-        id minimumExtent__maximumExtent;
-    } _extent;
-    struct MDLAABB _bounds;
-    float _voxelExtent;
-    struct MortonCode mortonCoder;
-    struct unique_ptr<ModelIO::Octree, std::default_delete<ModelIO::Octree>> _octreeData;
-    _Bool _levelSet;
-    float _interiorThickness;
-    float _exteriorThickness;
-    id _originatingOffset;
 }
 
 - (id);
 - (id);
 - (struct);
-- (struct);
-- (void);
+- (struct)R;
+- (void)(;
 - (id);
 - (float);
 - (float);
@@ -34,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)RK;
 - (id);
 - (_Bool);
 - (void);
@@ -44,29 +33,24 @@
 - (id);
 - (id);
 - (void);
+- (void)?;
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (vector_5ed94be2);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)th Identifiers:%{public}@ /* Error: Ran out of types for this method. */;
 - (struct);
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct boundingBox;
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) _Bool isValidSignedShellField;
-@property(nonatomic) float shellFieldExteriorThickness; // @synthesize shellFieldExteriorThickness=_exteriorThickness;
-@property(nonatomic) float shellFieldInteriorThickness; // @synthesize shellFieldInteriorThickness=_interiorThickness;
-@property(readonly, nonatomic) struct voxelIndexExtent; // @synthesize voxelIndexExtent=_extent;
 
 @end
 

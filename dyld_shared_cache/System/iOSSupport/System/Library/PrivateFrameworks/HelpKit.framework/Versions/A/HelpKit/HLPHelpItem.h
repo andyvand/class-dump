@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface HLPHelpItem
 {
     NSString *_decodedName;
     HLPHelpItem *_parent;
-    long long _serverType;
-    long long _level;
-    NSURL *_iconURL;
-    NSString *_name;
-    NSString *_identifier;
 }
 
 - (id);
@@ -26,9 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)que"[192c]};
+- (void)il;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -37,11 +32,6 @@
 - (long long)ror:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *decodedName;
-@property(copy, nonatomic) NSURL *iconURL; // @synthesize iconURL=_iconURL;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long level; // @synthesize level=_level;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) __weak HLPHelpItem *parent; // @synthesize parent=_parent;
 @property(nonatomic) long long serverType; // @synthesize serverType=_serverType;
 

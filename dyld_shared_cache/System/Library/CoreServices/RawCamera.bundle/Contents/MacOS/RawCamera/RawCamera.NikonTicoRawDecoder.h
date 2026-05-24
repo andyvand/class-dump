@@ -7,9 +7,6 @@
 @interface RawCamera.NikonTicoRawDecoder
 {
     id imageGeometry;
-    id config;
-    id img;
-    id source;
 }
 
 @end

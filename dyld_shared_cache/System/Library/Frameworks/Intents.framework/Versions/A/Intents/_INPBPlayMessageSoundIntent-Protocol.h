@@ -7,14 +7,12 @@
 @class NSString, _INPBIntentMetadata;
 
 @protocol _INPBPlayMessageSoundIntent
-- (_Bool)chForTimers:completion: /* Error: Ran out of types for this method. */;
+- (void)2O;
+- (NSString *);
+- (int);
+- (_Bool)handleSearchForTimers:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasMessageIdentifier;
-@property(nonatomic) _Bool hasSoundType;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSString *messageIdentifier;
-@property(nonatomic) int soundType;
 @end
 

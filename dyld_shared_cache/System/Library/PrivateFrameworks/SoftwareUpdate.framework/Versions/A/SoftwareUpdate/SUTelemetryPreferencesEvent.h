@@ -6,7 +6,7 @@
 
 #import <SoftwareUpdate/SUTelemetryEvent.h>
 
-@class NSString, SUSharedPrefs;
+@class SUSharedPrefs;
 
 @interface SUTelemetryPreferencesEvent : SUTelemetryEvent
 {
@@ -16,16 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void);
-- (id);
+- (long long)4;
+- (void);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *eventName;
 @property SUSharedPrefs *sharedPrefs; // @synthesize sharedPrefs=_sharedPrefs;
-@property(readonly) long long telemetryServer;
 
 @end
 

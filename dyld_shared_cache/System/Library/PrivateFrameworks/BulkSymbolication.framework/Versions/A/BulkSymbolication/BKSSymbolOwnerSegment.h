@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSSymbolOwner, NSNumber, NSString;
+@class BKSSymbolOwner;
 
 @interface BKSSymbolOwnerSegment
 {
     BKSSymbolOwner *_symbolOwner;
-    NSString *_name;
-    unsigned long long _offsetFromSymbolOwnerStart;
-    unsigned long long _defaultLoadAddress;
-    NSNumber *_size;
 }
 
 + (id);
@@ -20,16 +16,12 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id),0;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long defaultLoadAddress; // @synthesize defaultLoadAddress=_defaultLoadAddress;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long offsetFromSymbolOwnerStart; // @synthesize offsetFromSymbolOwnerStart=_offsetFromSymbolOwnerStart;
-@property(readonly, nonatomic) NSNumber *size; // @synthesize size=_size;
 @property(readonly, nonatomic) __weak BKSSymbolOwner *symbolOwner; // @synthesize symbolOwner=_symbolOwner;
 
 @end

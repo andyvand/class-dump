@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableIndex, LimitQueue, NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface SPAppManager
 {
     NSArray *_appSources;
-    LimitQueue *_scanningQueue;
-    NSMutableDictionary *_appsByPath;
-    NSMutableDictionary *_appsByMDIdentifier;
-    struct os_unfair_lock_s _appsCacheLock;
-    CSSearchableIndex *_appIndex;
-    struct atomic<bool> _appQueryComplete;
 }
 
 + (id);
@@ -30,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)zation.;
 - (void);
 
 @end

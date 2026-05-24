@@ -10,15 +10,15 @@
 
 + (_Bool);
 + (_Bool);
-+ (int);
-+ (_Bool);
++ (int);
++ (_Bool)h;
 + (_Bool);
 + (id);
 + (float);
-+ (_Bool);
++ (_Bool)?׿;
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)PostPersonalDomainActivityNotification;
 + (_Bool);
 
 @end

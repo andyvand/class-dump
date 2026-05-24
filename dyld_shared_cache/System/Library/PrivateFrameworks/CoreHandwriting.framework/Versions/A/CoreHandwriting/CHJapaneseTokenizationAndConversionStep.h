@@ -6,20 +6,14 @@
 
 #import <CoreHandwriting/CHPostprocessingStep.h>
 
-@class CHMecabraWrapper, CHStringOVSChecker;
-
 @interface CHJapaneseTokenizationAndConversionStep : CHPostprocessingStep
 {
     _Bool _promoteKanaConversion;
-    CHMecabraWrapper *_mecabraWrapper;
-    struct __MecabraContext *_mecabraContextRef;
-    ObjectRef_49a81d6f _wordLanguageModel;
-    CHStringOVSChecker *_ovsStringChecker;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)ptions.variant == PHAssetExportRequestVariantCurrent) || self.variants[@(options.variant)];
 - (id);
 - (void);
 

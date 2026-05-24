@@ -6,13 +6,9 @@
 
 #import <CoreUI/CUINamedLookup.h>
 
-@class NSString;
-
 @interface CUINamedColor : CUINamedLookup
 {
     struct CGColor *_cgColor;
-    NSString *_colorName;
-    _Bool _substituteWithSystemColor;
 }
 
 - (void);
@@ -21,12 +17,10 @@
 - (_Bool);
 - (id);
 - (struct CGColor *);
-- (id);
+- (id)FluidTouchGesture;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColor *cgColor;
-@property(readonly, nonatomic) _Bool substituteWithSystemColor; // @synthesize substituteWithSystemColor=_substituteWithSystemColor;
-@property(readonly, nonatomic) NSString *systemColorName; // @synthesize systemColorName=_colorName;
 
 @end
 

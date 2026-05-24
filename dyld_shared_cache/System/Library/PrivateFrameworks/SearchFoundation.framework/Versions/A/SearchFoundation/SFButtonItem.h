@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SFButtonItemAppearance;
-
 @interface SFButtonItem
 {
     struct {
         unsigned int uniqueId:1;
     } _has;
-    SFButtonItemAppearance *_buttonAppearance;
-    unsigned long long _uniqueId;
 }
 
 + (_Bool);

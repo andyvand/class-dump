@@ -6,16 +6,11 @@
 
 #import <PassKitCore/PKAccountWebServiceResponse.h>
 
-@class NSArray, NSDate, NSNumber;
+@class NSArray;
 
 @interface PKAccountWebServicePromotionsResponse : PKAccountWebServiceResponse
 {
     NSArray *_promotions;
-    NSArray *_orderings;
-    NSDate *_lastAddedDate;
-    NSNumber *_minRefreshPeriod;
-    NSNumber *_maxImpressionCount;
-    NSNumber *_timeVisibleAfterCompleted;
 }
 
 - (id);
@@ -28,12 +23,7 @@
 - (void)codeUpgradeFlowWillBegin failed with error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastAddedDate; // @synthesize lastAddedDate=_lastAddedDate;
-@property(readonly, nonatomic) NSNumber *maxImpressionCount; // @synthesize maxImpressionCount=_maxImpressionCount;
-@property(readonly, nonatomic) NSNumber *minRefreshPeriod; // @synthesize minRefreshPeriod=_minRefreshPeriod;
-@property(readonly, nonatomic) NSArray *orderings; // @synthesize orderings=_orderings;
 @property(readonly, nonatomic) NSArray *promotions; // @synthesize promotions=_promotions;
-@property(readonly, nonatomic) NSNumber *timeVisibleAfterCompleted; // @synthesize timeVisibleAfterCompleted=_timeVisibleAfterCompleted;
 
 @end
 

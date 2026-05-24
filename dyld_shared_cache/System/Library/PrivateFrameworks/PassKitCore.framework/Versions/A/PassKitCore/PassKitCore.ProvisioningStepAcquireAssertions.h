@@ -7,13 +7,10 @@
 @interface PassKitCore.ProvisioningStepAcquireAssertions
 {
     id context;
-    id credential;
-    id sharedState;
-    id hasAcquiredProvisioningAssertion;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

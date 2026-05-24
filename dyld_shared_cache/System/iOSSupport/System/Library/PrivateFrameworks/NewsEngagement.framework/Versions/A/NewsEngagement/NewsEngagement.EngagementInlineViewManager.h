@@ -8,14 +8,12 @@
 {
     id state;
     id engagementBannerLayoutStore;
-    id inlineDialogViewControllerFactory;
-    id featureSettings;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)"PXGEntityManager"16;
+- (void)GSize=dd}dB}16@0:(id)arg1 8;
+- (void)r=qqq{CGSize=dd}dB}16;
+- (void):(id)arg1 8q16q24q32d40B48;
 - (id);
 - (void);
 

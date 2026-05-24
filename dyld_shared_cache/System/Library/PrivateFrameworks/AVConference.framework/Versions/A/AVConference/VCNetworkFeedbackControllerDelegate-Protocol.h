@@ -5,5 +5,7 @@
 //
 
 @protocol VCNetworkFeedbackControllerDelegate
+- (void)	ʚ	;
+- (void);
 @end
 

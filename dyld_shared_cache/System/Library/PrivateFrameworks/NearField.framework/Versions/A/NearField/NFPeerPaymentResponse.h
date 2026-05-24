@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData;
 
 @interface NFPeerPaymentResponse
 {
     NSData *_transactionData;
-    NSDictionary *_certificates;
-    NSString *_transactionIdentifier;
 }
 
 + (_Bool);
 - (id);
+- (id)MWTSchemaMWTMusicMetadataReported;
 - (id);
-- (id);
-- (void);
+- (void));
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDictionary *certificates; // @synthesize certificates=_certificates;
 @property(readonly, retain, nonatomic) NSData *transactionData; // @synthesize transactionData=_transactionData;
-@property(readonly, retain, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end
 

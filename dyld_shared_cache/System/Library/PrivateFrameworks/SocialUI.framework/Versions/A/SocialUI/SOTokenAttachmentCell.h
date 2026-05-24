@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteResult, NSImage, NSString, QLPreviewMenuItem, SOTokenField;
-@protocol SOTokenAttachmentCellDelegate;
+@class QLPreviewMenuItem;
 
 @interface SOTokenAttachmentCell
 {
     _Bool _alwaysDisplayBackground;
-    id <SOTokenAttachmentCellDelegate> _delegate;
-    QLPreviewMenuItem *_previewMenuItem;
-    NSImage *_icon;
-    CNAutocompleteResult *_autocompleteResult;
 }
 
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
 - (id);
@@ -30,38 +25,26 @@
 - (id);
 - (struct CGRect);
 - (long long);
-- (void);
-- (struct CGSize);
+- (void)dragInteraction:(struct CGRect)arg1 session:(id)arg2 willAddItems:forInteraction: /* Error: Ran out of types for this method. */;
+- (struct CGSize);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ate.framework/Versions/A/MiniSoftwareUpdate;
+- (id)calendarIdentifier;
+- (void);
+- (void)__objc_protorefs__DATA_CONST;
+- (void)TagIDs:(id)arg1 mutedTagIDs:ignoredTagIDs:readingHistoryItems:playlistArticleIDs:downloadedArticleIDs:briefingsTagID:paidAccessChecker:bundleSubscription:paywalledArticlesMaxCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)doDone;
 - (void);
 
 // Remaining properties
-@property _Bool alwaysDisplayBackground; // @synthesize alwaysDisplayBackground=_alwaysDisplayBackground;
-@property(retain, nonatomic) CNAutocompleteResult *autocompleteResult; // @synthesize autocompleteResult=_autocompleteResult;
-@property(readonly) SOTokenField *controlTokenField; // @dynamic controlTokenField;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SOTokenAttachmentCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSImage *icon; // @synthesize icon=_icon;
 @property(retain, nonatomic) QLPreviewMenuItem *previewMenuItem; // @synthesize previewMenuItem=_previewMenuItem;
-@property(readonly) Class superclass;
 
 @end
 

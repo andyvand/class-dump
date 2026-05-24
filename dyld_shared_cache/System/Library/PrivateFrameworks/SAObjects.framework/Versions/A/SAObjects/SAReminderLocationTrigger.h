@@ -6,14 +6,14 @@
 
 #import <SAObjects/SAReminderTrigger.h>
 
-@class NSString, NSURL, SALocation;
+@class NSURL;
 
 @interface SAReminderLocationTrigger : SAReminderTrigger
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
@@ -24,15 +24,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)-;
 - (void)h¬üÿ¡LÁ;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *contactIdentifier;
-@property(copy, nonatomic) NSString *internalGUID;
-@property(retain, nonatomic) SALocation *location;
-@property(copy, nonatomic) NSString *mobileSpace;
-@property(copy, nonatomic) NSString *timing;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatStateViewNodeStateDataLayoutAttributes
 {
     id state;
-    id layoutAttributes;
-    id resizing;
 }
 
 @end

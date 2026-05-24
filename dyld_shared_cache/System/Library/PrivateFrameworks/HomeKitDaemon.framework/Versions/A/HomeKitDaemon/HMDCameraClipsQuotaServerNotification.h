@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipsQuotaServerNotification
 {
     NSString *_containerIdentifier;
-    long long _reason;
-    NSString *_requestID;
-    NSString *_userDSID;
 }
 
 - (id);
-- (long long);
+- (long long)%p;
 - (id);
 - (id);
 - (id);
 - (id)%{public}@;
-- (void)eSnapshot;
+- (void)StateSnapshot;
 - (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(readonly, copy) NSDictionary *dictionaryRepresentation;
-@property(readonly) long long reason; // @synthesize reason=_reason;
-@property(readonly, copy) NSString *requestID; // @synthesize requestID=_requestID;
-@property(readonly, copy) NSString *userDSID; // @synthesize userDSID=_userDSID;
 
 @end
 

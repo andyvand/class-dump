@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGEnrichmentWritebackAdapter
 {
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)_accountTypeIdentifierForDataclass:(long long)arg1;
++ (_Bool)fyingCredential;
++ (id)setAccessibilityTitleUIElement:(id)arg1;
++ (id)safeDescription;
 + (id);
-+ (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -24,20 +22,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)webView:(id)arg1 didFailProvisionalNavigation:(id)arg2 withError:(id)arg3;
+- (id)webView:(id)arg1 didCommitNavigation:(_Bool)arg2;
+- (void)subTitleOverrideForAccount: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, _IntArray2D;
-@protocol _EditScriptData;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _EditScript
 {
     _Bool _orderAtomsAscending;
-    _IntArray2D *_distanceMatrix;
-    long long _currentOperation;
-    id <_EditScriptData> _itemAData;
-    id <_EditScriptData> _itemBData;
-    NSArray *_operationPrecedenceArray;
-    NSMutableArray *_script;
 }
 
+- (void)initWithSize:(id)arg1 scale: /* Error: Ran out of types for this method. */;
+- (id)dApi;
+- (id)pdateMessageCache;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)verflow detected in computing the memory size to be allocated;
 - (void)0@ù
 × ;
 - (id)uWithoutAnimation];

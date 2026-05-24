@@ -6,27 +6,13 @@
 
 #import <PhotosUICore/PXMediaViewControllerEventTracker.h>
 
-@class NSMutableDictionary, NSString, NSTimer, PXCuratedLibraryLayout, PXCuratedLibraryViewModel, PXSectionedObjectReference;
-
 @interface PXCuratedLibraryEventTracker : PXMediaViewControllerEventTracker
 {
     _Bool _loggedFirstTimeExperience;
-    NSTimer *_slowScrollRegimeTimer;
-    float _analysisProgress;
-    float _firstTimeExperienceAnalysisProgress;
-    PXCuratedLibraryViewModel *_viewModel;
-    PXCuratedLibraryLayout *_layout;
-    long long _currentlyViewedZoomLevel;
-    long long _currentZoomLevelSignpost;
-    NSString *_currentAllPhotosZoomStateName;
-    long long _currentAllPhotosZoomStateSignpost;
-    PXSectionedObjectReference *_dominantObjectReference;
-    long long _libraryItemsCount;
-    long long _firstTimeExperienceLibraryItemsCount;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)5;
 - (void);
 - (void);
 - (void);
@@ -45,9 +31,9 @@
 - (long long);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (float);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -67,25 +53,7 @@
 - (id)GPÔ>;
 
 // Remaining properties
-@property(nonatomic) float analysisProgress; // @synthesize analysisProgress=_analysisProgress;
-@property(retain, nonatomic) NSString *currentAllPhotosZoomStateName; // @synthesize currentAllPhotosZoomStateName=_currentAllPhotosZoomStateName;
-@property(nonatomic) long long currentAllPhotosZoomStateSignpost; // @synthesize currentAllPhotosZoomStateSignpost=_currentAllPhotosZoomStateSignpost;
-@property(nonatomic) long long currentZoomLevelSignpost; // @synthesize currentZoomLevelSignpost=_currentZoomLevelSignpost;
 @property(nonatomic) long long currentlyViewedZoomLevel; // @synthesize currentlyViewedZoomLevel=_currentlyViewedZoomLevel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PXSectionedObjectReference *dominantObjectReference; // @synthesize dominantObjectReference=_dominantObjectReference;
-@property(nonatomic) float firstTimeExperienceAnalysisProgress; // @synthesize firstTimeExperienceAnalysisProgress=_firstTimeExperienceAnalysisProgress;
-@property(nonatomic) long long firstTimeExperienceLibraryItemsCount; // @synthesize firstTimeExperienceLibraryItemsCount=_firstTimeExperienceLibraryItemsCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXCuratedLibraryLayout *layout; // @synthesize layout=_layout;
-@property(nonatomic) long long libraryItemsCount; // @synthesize libraryItemsCount=_libraryItemsCount;
-@property(copy, nonatomic) NSMutableDictionary *payload;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXCuratedLibraryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

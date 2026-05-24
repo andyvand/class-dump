@@ -7,22 +7,17 @@
 @interface PeopleSuggesterPhotoFeatures
 {
     _Bool _isFavorited;
-    _Bool _isScreenShot;
-    struct {
-        unsigned int isFavorited:1;
-        unsigned int isScreenShot:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)_countAttributeUnigramPrefixMatch;
+- (void)_contactSuggestionRedundancyState;
+- (void)_contactSuggestionGenerated;
+- (_Bool)_audioPacketContainingEndOfFirstWordReadyUpstream;
+- (_Bool)_abModelEvaluated;
+- (void)sersWithSiriCloudSyncEnabled;
+- (_Bool)ntextNumberOfLibraryItems;
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)`e;
 - (void);
 - (void);
 - (unsigned long long);
@@ -34,9 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsFavorited;
-@property(nonatomic) _Bool hasIsScreenShot;
-@property(nonatomic) _Bool isFavorited; // @synthesize isFavorited=_isFavorited;
-@property(nonatomic) _Bool isScreenShot; // @synthesize isScreenShot=_isScreenShot;
 
 @end
 

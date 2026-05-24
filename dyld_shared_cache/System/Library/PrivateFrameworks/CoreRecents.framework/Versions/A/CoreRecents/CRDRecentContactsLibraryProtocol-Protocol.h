@@ -5,5 +5,7 @@
 //
 
 @protocol CRDRecentContactsLibraryProtocol
+- (void)[;
+- (void);
 @end
 

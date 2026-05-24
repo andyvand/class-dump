@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void)supported;
+- (void)paymentMethodTypeUnsupported;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *passUniqueIdentifier; // @synthesize passUniqueIdentifier=_passUniqueIdentifier;

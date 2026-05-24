@@ -9,10 +9,6 @@
 @interface FCNewsTabiChannelPickerSuggestionsInputOutputConfiguration
 {
     NSString *_contextFeatureKey;
-    NSString *_generalChannelSuggestionsOutputName;
-    NSString *_generalChannelSuggestionsScoreOutputName;
-    NSString *_newsPlusChannelSuggestionsOutputName;
-    NSString *_newsPlusChannelSuggestionsScoreOutputName;
 }
 
 - (void);
@@ -33,10 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *contextFeatureKey; // @synthesize contextFeatureKey=_contextFeatureKey;
-@property(retain, nonatomic) NSString *generalChannelSuggestionsOutputName; // @synthesize generalChannelSuggestionsOutputName=_generalChannelSuggestionsOutputName;
-@property(retain, nonatomic) NSString *generalChannelSuggestionsScoreOutputName; // @synthesize generalChannelSuggestionsScoreOutputName=_generalChannelSuggestionsScoreOutputName;
-@property(retain, nonatomic) NSString *newsPlusChannelSuggestionsOutputName; // @synthesize newsPlusChannelSuggestionsOutputName=_newsPlusChannelSuggestionsOutputName;
-@property(retain, nonatomic) NSString *newsPlusChannelSuggestionsScoreOutputName; // @synthesize newsPlusChannelSuggestionsScoreOutputName=_newsPlusChannelSuggestionsScoreOutputName;
 
 @end
 

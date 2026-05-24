@@ -7,9 +7,11 @@
 @class BMBookmarkablePublisher, BMPublishers, NSArray;
 
 @protocol BMSyncableStream
-- (BMPublishers *);
+- (BMPublishers *)$;
+- (BMPublishers *)l;
 - (BMPublishers *)ÿÿÿÿÿÿÿÿÿ !"#$%&'()*+,-.ÿÿ01234567ÿÿ9:(NSArray *)arg1 ;<=>?@ABCDEFGÿÿIJKLMNOPQRSTÿÿVWXYZ[\]^_`abcdefgÿÿijklmnopqrstuvwxÿÿz{|}~ÿÿÿÿÿÿÿÿÿÿ ¡¢£¤¥¦§ÿÿ©ª«¬­®¯ÿÿ±²³´µ¶·¸¹º»¼½¾ÿÿÿÿÁÿÿÿÿÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÿÿÿÿÿÿÿÿÿÿÞÿÿàáâÿÿÿÿÿÿÿÿÿÿÿÿéê;
 - (BMPublishers *)×;
 - (BMBookmarkablePublisher *)5×;
+- (BMPublishers *);
 @end
 

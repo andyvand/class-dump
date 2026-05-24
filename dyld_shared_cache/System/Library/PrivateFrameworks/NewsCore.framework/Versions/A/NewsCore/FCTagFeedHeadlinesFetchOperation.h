@@ -6,28 +6,9 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCloudContext, FCFeedDescriptor, FCFeedRange, NSArray, NSDate, NSSet;
-@protocol FCCoreConfiguration, FCFeedPersonalizing;
-
 @interface FCTagFeedHeadlinesFetchOperation : FCOperation
 {
     _Bool _fetchOrdinaryItemsFromCache;
-    _Bool _resultFinished;
-    CDUnknownBlockType _fetchCompletionHandler;
-    NSDate *_topOfFeedDate;
-    FCFeedRange *_freeFeedRange;
-    FCFeedRange *_paidFeedRange;
-    long long _maxFetchCount;
-    NSArray *_precedingHeadlines;
-    id <FCCoreConfiguration> _configuration;
-    FCCloudContext *_cloudContext;
-    FCFeedDescriptor *_feedDescriptor;
-    id <FCFeedPersonalizing> _personalizer;
-    NSSet *_shownArticleIDs;
-    NSSet *_shownClusterIDs;
-    NSArray *_resultOrdinaryHeadlines;
-    FCFeedRange *_resultFetchedFreeRange;
-    FCFeedRange *_resultFetchedPaidRange;
 }
 
 - (id);
@@ -45,19 +26,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)h;
 - (unsigned long long);
-- (void)getOntologyLevelConfig;
-- (void)peningConfig;
-- (void)7HXURvOhG9_2M3GPEA;
+- (void)shadowTagWidgetOntologyLevelConfig;
+- (void)publisherDampeningConfig;
+- (void)TdXPQ7HXURvOhG9_2M3GPEA;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType fetchCompletionHandler; // @synthesize fetchCompletionHandler=_fetchCompletionHandler;
-@property(copy, nonatomic) FCFeedRange *freeFeedRange; // @synthesize freeFeedRange=_freeFeedRange;
-@property(nonatomic) long long maxFetchCount; // @synthesize maxFetchCount=_maxFetchCount;
-@property(copy, nonatomic) FCFeedRange *paidFeedRange; // @synthesize paidFeedRange=_paidFeedRange;
-@property(copy, nonatomic) NSArray *precedingHeadlines; // @synthesize precedingHeadlines=_precedingHeadlines;
-@property(copy, nonatomic) NSDate *topOfFeedDate; // @synthesize topOfFeedDate=_topOfFeedDate;
 
 @end
 

@@ -16,20 +16,20 @@
 + (struct CGContext *);
 + (void);
 + (void);
-+ (Class)onFootersPinToVisibleBounds;
++ (Class)sectionFootersPinToVisibleBounds;
 + (struct CGContext *)$NêÿPNêÿ|NêÿÈNêÿôNêÿ OêÿlOêÿOêÿÄOêÿPêÿ<PêÿhPêÿ´PêÿàPêÿQêÿXQêÿQêÿ°QêÿüQêÿ(RêÿTRêÿ RêÿÌRêÿøRêÿDSêÿpSêÿSêÿèSêÿTêÿ@TêÿTêÿ¸TêÿäTêÿ0Uêÿ\UêÿUêÿÄUêÿôXêÿtYêÿÔYêÿ8ZêÿdZêÿ|Zêÿ¨Zêÿðiêÿ,jêÿhjêÿ¤jêÿàjêÿkêÿXkêÿkêÿÐkêÿlêÿHlêÿlêÿÀlêÿülêÿ8mêÿtmêÿ°mêÿìmêÿ(nêÿdnêÿ nêÿÜnêÿoêÿToêÿoêÿÌoêÿpêÿDpêÿpêÿ¼pêÿøpêÿ4qêÿpqêÿ¬qêÿèqêÿ$rêÿ`rêÿrêÿØrêÿsêÿPsêÿsêÿÈsêÿtêÿ@têÿ|têÿ¸têÿôtêÿ0uêÿluêÿ¨uêÿäuêÿ vêÿ\vêÿvêÿÔvêÿwêÿLwêÿwêÿÄwêÿ;
 - (id);
-- (_Bool);
+- (_Bool)red for %@;
 - (void);
-- (void);
+- (void)slator was missing mapping for MPModelRelationshipGenericRadioStation;
 - (id);
 - (id)
 × ;
 - (struct CGContext *)Qa°1Â0@ù
 × ;
 - (void);
-- (_Bool)Transform;
-- (id);
+- (_Bool)_updateHostingTraitsScreenTransform;
+- (id)_buttonFont;
 - (void)d=Ì=¬>;
 - (void)onShouldFocusWithBundle:%{public}@ (userSelectedApp) /* Error: Ran out of types for this method. */;
 - (_Bool);

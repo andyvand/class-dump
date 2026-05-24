@@ -5,5 +5,6 @@
 //
 
 @protocol PLAssetsdDemoServiceProtocol
+- (id);
 @end
 

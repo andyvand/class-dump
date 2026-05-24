@@ -7,7 +7,6 @@
 @interface NewsAnalytics.SharedItemEventProcessor
 {
     id sharedItemManager;
-    id jsonDecoder;
 }
 
 @end

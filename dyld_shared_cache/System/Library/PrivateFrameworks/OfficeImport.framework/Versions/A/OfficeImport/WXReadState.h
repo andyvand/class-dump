@@ -6,54 +6,12 @@
 
 #import <OfficeImport/OCXReadState.h>
 
-@class CXNamespace, NSMutableArray, NSMutableDictionary, OAXDrawingState, OCPPackagePart, OITSUNoCopyDictionary, WDCharacterRun, WDDocument, WXOAVReadState;
-@protocol TCCancelDelegate;
+@class WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WXReadState : OCXReadState
 {
     WDDocument *mDocument;
-    OITSUNoCopyDictionary *mTextNodesToBeAdded;
-    OITSUNoCopyDictionary *mMapBookmarkIdToName;
-    OITSUNoCopyDictionary *mMapAnnotationIdToAnnotation;
-    OITSUNoCopyDictionary *mMapAnnotationParaIdToAnnotation;
-    NSMutableDictionary *mMapFlowIdToTextBox;
-    OCPPackagePart *mPackagePart;
-    OCPPackagePart *mAnnotationPart;
-    OCPPackagePart *mAnnotationExtendedPart;
-    struct _xmlDoc *mFootnoteDocument;
-    struct _xmlNode *mFootnotes;
-    struct _xmlDoc *mEndnoteDocument;
-    struct _xmlNode *mEndnotes;
-    struct _xmlDoc *mAnnotationDocument;
-    struct _xmlNode *mAnnotations;
-    struct _xmlDoc *mAnnotationExtendedDocument;
-    struct _xmlNode *mAnnotationsExtended;
-    NSMutableArray *mDeleteAuthorStack;
-    NSMutableArray *mDeleteDateStack;
-    NSMutableArray *mEditAuthorStack;
-    NSMutableArray *mEditDateStack;
-    NSMutableArray *mFormatAuthorStack;
-    NSMutableArray *mFormatDateStack;
-    NSMutableArray *mPendingCommentNodes;
-    NSMutableArray *mPendingBookmarkNodes;
-    WXOAVReadState *mWXOavState;
-    OAXDrawingState *mDrawingState;
-    int mCurrentOfficeArtTextType;
-    WDCharacterRun *mReadSymbolTo;
-    _Bool mNewSectionRequested;
-    _Bool mReadingMath;
-    unsigned long long mCurrentRowCNFStyle;
-    unsigned long long mCurrentCellCNFStyle;
-    _Bool mCurrentTableWraps;
-    id <TCCancelDelegate> mCancelDelegate;
-    CXNamespace *mWXMainNamespace;
-    CXNamespace *mWXDrawingNamespace;
-    CXNamespace *mWXShapeNamespace;
-    CXNamespace *mWXGroupNamespace;
-    CXNamespace *mWXOOBibliographyNamespace;
-    CXNamespace *mWXRelationshipNamespace;
-    _Bool mIsThumbnail;
 }
 
 - (struct _xmlNode *);
@@ -70,10 +28,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)9;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -84,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -96,11 +54,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (int);
+- (id)j@;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)s";
 - (unsigned long long);
 - (void);
 - (void);
@@ -117,7 +75,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -140,15 +98,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(retain, nonatomic) CXNamespace *WXDrawingNamespace; // @synthesize WXDrawingNamespace=mWXDrawingNamespace;
-@property(retain, nonatomic) CXNamespace *WXGroupNamespace; // @synthesize WXGroupNamespace=mWXGroupNamespace;
-@property(retain, nonatomic) CXNamespace *WXMainNamespace; // @synthesize WXMainNamespace=mWXMainNamespace;
-@property(retain, nonatomic) CXNamespace *WXOOBibliographyNamespace; // @synthesize WXOOBibliographyNamespace=mWXOOBibliographyNamespace;
-@property(retain, nonatomic) CXNamespace *WXRelationshipNamespace; // @synthesize WXRelationshipNamespace=mWXRelationshipNamespace;
-@property(retain, nonatomic) CXNamespace *WXShapeNamespace; // @synthesize WXShapeNamespace=mWXShapeNamespace;
-@property(retain, nonatomic) id <TCCancelDelegate> cancelDelegate; // @synthesize cancelDelegate=mCancelDelegate;
 @property(nonatomic) int currentOfficeArtTextType; // @synthesize currentOfficeArtTextType=mCurrentOfficeArtTextType;
-@property(nonatomic) _Bool readingMath; // @synthesize readingMath=mReadingMath;
 
 @end
 

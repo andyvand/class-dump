@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NAIdentityCharacteristic
 {
     CDUnknownBlockType _retrievalBlock;
-    CDUnknownBlockType _comparisonBlock;
-    CDUnknownBlockType _hashBlock;
-    long long _role;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)3;
 - (id);
 - (unsigned long long);
 - (void);
@@ -31,17 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType comparisonBlock; // @synthesize comparisonBlock=_comparisonBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType hashBlock; // @synthesize hashBlock=_hashBlock;
 @property(copy, nonatomic) CDUnknownBlockType retrievalBlock; // @synthesize retrievalBlock=_retrievalBlock;
-@property(nonatomic) long long role; // @synthesize role=_role;
-@property(readonly) Class superclass;
 
 @end
 

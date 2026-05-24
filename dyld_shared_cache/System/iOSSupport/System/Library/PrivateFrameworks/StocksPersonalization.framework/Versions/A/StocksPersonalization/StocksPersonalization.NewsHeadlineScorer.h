@@ -8,10 +8,6 @@
 {
     id stockEntities;
     id appConfiguration;
-    id subscribedStockEntities;
-    id articleScorer;
-    id newsPersonalizationScorer;
-    id workServiceScoringService;
 }
 
 @end

@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (NSCalendarUnit)
-+ (unsigned long long);
++ (unsigned long long)elaying attachment to SMS capable device.;
 + (unsigned long long);
 + (id);
-+ (unsigned long long);
++ (unsigned long long);
 - (long long);
 - (void);
 - (void);

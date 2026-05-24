@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PILCalibration
 {
     unsigned short _cilCalibration;
-    unsigned short _milCalibration;
 }
 
 - (unsigned short);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned short cilCalibration; // @synthesize cilCalibration=_cilCalibration;
-@property(readonly, nonatomic) unsigned short milCalibration; // @synthesize milCalibration=_milCalibration;
 
 @end
 

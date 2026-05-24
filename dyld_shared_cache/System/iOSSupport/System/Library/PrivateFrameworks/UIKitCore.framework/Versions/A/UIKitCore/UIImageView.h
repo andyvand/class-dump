@@ -6,36 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImage, UIImageSymbolConfiguration, UILayoutGuide, UITraitCollection, _UIImageViewStorage;
+@class _UIImageViewStorage;
 
 @interface UIImageView : UIView
 {
     _UIImageViewStorage *_storage;
-    struct UIEdgeInsets _cachedEdgeInsetsForEffects;
-    UITraitCollection *_lastResolvedImageViewTraitCollection;
-    UIImage *_cachedSymbolConfigurationImage;
-    UIImageSymbolConfiguration *_cachedSymbolConfiguration;
-    double _previousBaselineOffsetFromBottom;
-    double _previousFirstBaselineOffsetFromTop;
-    struct {
-        unsigned int canDrawContentIsValid:1;
-        unsigned int canDrawContent:1;
-        unsigned int needsUpdateState:1;
-        unsigned int templateSettingsAreInvalid:1;
-        unsigned int edgeInsetsForEffectsAreInvalid:1;
-        unsigned int suppressPixelAlignment:1;
-        unsigned int previousPixelAlignment:1;
-        unsigned int previousEdgeAntialiasing:1;
-        unsigned int ignoreAutomaticEdgeAntialiasing:1;
-        unsigned int guardAgainstDegenerateBaselineCalculation:1;
-        unsigned int preferredImageDynamicRange:2;
-        unsigned int animateHDRHeadroomUsageTraitChange:1;
-    } _imageViewFlags;
-    _Bool _adjustsImageWhenAncestorFocused;
-    _Bool _masksFocusEffectToContents;
-    _Bool __animatesContents;
-    long long _preferredVibrancy;
-    UILayoutGuide *_focusedFrameGuide;
 }
 
 @end

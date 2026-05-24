@@ -9,7 +9,6 @@
 @interface HMAccessoryCategory
 {
     NSString *_categoryType;
-    NSString *_name;
 }
 
 - (id);
@@ -24,25 +23,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)beigaben;
 - (void);
 - (id);
 - (id);
 - (void)letion;
 
 // Remaining properties
-@property(readonly, copy) NSString *categoryType; // @synthesize categoryType=_categoryType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isTelevisionAccessoryCategory;
-@property(readonly) _Bool isWiFiRouterAccessoryCategory;
-@property(readonly, copy) NSString *localizedDescription;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol BRXPCAutomaticErrorProxy
+- (void)*\@9K;
 @end
 

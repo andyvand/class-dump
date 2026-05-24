@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIVortexDistortion : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputCenter;
-    NSNumber *inputRadius;
-    NSNumber *inputAngle;
 }
 
 + (id);
@@ -25,16 +22,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id)xzw}Qe\u\utWb\fBNAUa]Ta{|||pyx}caYh=QEY?PESAPERBJ;RMSEYY^SeGbXtqyvxxxxLhco`icloomouuru}}}}}££££····¸¸¸¸£¦©©s££££djdopmhqmuq~apjz~~|_sm~Zlczv{w|zxurxwwwwwwwwEd]vUpl~x}zuw¨¨¨¨¹¹¹¹»»»»µµµµ´´´´¶¶¶¶°°°°§§§§[uns|¢¢¢¢¦¥¦¦£byvu~~{{{{uxxxwwwwuuuuXto} §®®¬´ºº····¤¤¤¤~~~~K_Qrdh\ukuuv^^U^)>+N8J=UffafB`Ynookppppp;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAngle; // @synthesize inputAngle;
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
 
 @end
 

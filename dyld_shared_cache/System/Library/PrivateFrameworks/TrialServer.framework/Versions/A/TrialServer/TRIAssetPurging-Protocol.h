@@ -5,5 +5,6 @@
 //
 
 @protocol TRIAssetPurging
+- (unsigned long long)h;
 @end
 

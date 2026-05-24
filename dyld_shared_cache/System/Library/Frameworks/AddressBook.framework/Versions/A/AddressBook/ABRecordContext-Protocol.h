@@ -5,5 +5,7 @@
 //
 
 @protocol ABRecordContext
+- (_Bool);
+- (_Bool)I;
 @end
 

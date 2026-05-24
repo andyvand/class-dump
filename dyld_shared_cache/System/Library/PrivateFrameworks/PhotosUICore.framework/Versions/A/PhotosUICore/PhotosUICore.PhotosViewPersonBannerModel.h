@@ -7,9 +7,6 @@
 @interface PhotosUICore.PhotosViewPersonBannerModel
 {
     id completion;
-    id subBanner;
-    id id;
-    id _$observationRegistrar;
 }
 
 @end

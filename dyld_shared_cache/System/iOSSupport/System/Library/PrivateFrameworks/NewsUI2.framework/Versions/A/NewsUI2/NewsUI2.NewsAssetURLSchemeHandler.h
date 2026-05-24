@@ -9,14 +9,11 @@
 @interface NewsUI2.NewsAssetURLSchemeHandler
 {
     id <WKURLSchemeTask> task;
-    id assetFetchService;
-    id resourceIdentifier;
-    id cancelHandler;
 }
 
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)anced audio is not available - type selected randomly;
 - (void);
 - (void);
 - (void);

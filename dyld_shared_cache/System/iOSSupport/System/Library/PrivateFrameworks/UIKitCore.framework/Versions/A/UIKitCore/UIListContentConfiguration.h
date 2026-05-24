@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UIImage, UIListContentImageProperties, UIListContentTextProperties, _UIContentViewEditingConfiguration;
-
 @interface UIListContentConfiguration
 {
     struct {
@@ -19,34 +17,20 @@
         unsigned int hasCustomizedAlpha:1;
         unsigned int isSidebarStyle:1;
     } _configurationFlags;
-    _Bool _prefersSideBySideTextAndSecondaryText;
-    _Bool _enforcesMinimumHeight;
-    _Bool __disableAutomaticDefaultStyleUpdates;
-    unsigned long long _axesPreservingSuperviewLayoutMargins;
-    double _imageToTextPadding;
-    double _textToSecondaryTextHorizontalPadding;
-    double _textToSecondaryTextVerticalPadding;
-    double _alpha;
-    _UIContentViewEditingConfiguration *_textEditingConfiguration;
-    long long _defaultStyle;
-    UIListContentImageProperties *_imageProperties;
-    UIListContentTextProperties *_textProperties;
-    UIListContentTextProperties *_secondaryTextProperties;
-    struct NSDirectionalEdgeInsets _directionalLayoutMargins;
 }
 
 + (id);
++ (id)C;
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)N;
++ (id)u;
 + (void);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)headEntryWithSectionIdentifier:(long long)arg1;
++ (id)MPModelPropertyCreditsArtistArtwork;
++ (id)P;
 + (id);
 + (id);
 + (id);
@@ -67,15 +51,15 @@
 + (id)Ôá	ð!AùQf°1Â0@ù
 × ;
 + (id)ts=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{NSDirectionalEdgeInsets=dddd}{CGSize=dd}}16;
-+ (id);
-+ (id)onToStateRequest:(id)arg1 predictedDetailSize:(id)arg2 predictedDuration: /* Error: Ran out of types for this method. */;
-+ (id)ingUnderneathDescendantForDepthLevel;
++ (id)setLeadingBorderWidthInPixels: /* Error: Ran out of types for this method. */;
++ (id)_splitViewController:(id)arg1 willBeginAnimatedTransitionToStateRequest:(id)arg2 predictedDetailSize:predictedDuration: /* Error: Ran out of types for this method. */;
++ (id)_isHidingUnderneathDescendantForDepthLevel;
 + (id)malizedForceVelocity;
 + (id)istantView;
 + (id);
 + (id)ple.UIKit.large;
-+ (_Bool)roxyUpdateRelatedToolbarsNotification;
-+ (id)tegoryXS;
++ (_Bool)_UINavigationBarToolbarProxyUpdateRelatedToolbarsNotification;
++ (id)UICTContentSizeCategoryXS;
 + (id)ttings>"8;
 + (id)V;
 + (id);
@@ -84,7 +68,7 @@
 + (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -116,31 +100,31 @@
 - (_Bool);
 - (_Bool)`Ð1Â0@ù
 × ;
-- (void)meInterval:(long long)arg1 onQueue:do: /* Error: Ran out of types for this method. */;
-- (_Bool)e: /* Error: Ran out of types for this method. */;
-- (void)ementaryNib:(double)arg1 elementKind:configurationHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)ultValue: /* Error: Ran out of types for this method. */;
-- (_Bool)ble;
-- (double)leToTypeFast;
-- (void):(id)arg1;
-- (void)DataSource;
-- (_Bool)fromASP: /* Error: Ran out of types for this method. */;
-- (void)sideActions:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (double)nces: /* Error: Ran out of types for this method. */;
-- (double)sible;
-- (void)dentifier:(id)arg1;
-- (double)ataWhenPossible: /* Error: Ran out of types for this method. */;
+- (void)setTimerWithTimeInterval:(long long)arg1 onQueue:do: /* Error: Ran out of types for this method. */;
+- (_Bool)setOverrideSize: /* Error: Ran out of types for this method. */;
+- (void)registrationWithSupplementaryNib:(double)arg1 elementKind:configurationHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)parser:foundAttributeDeclarationWithName:forElement:type:defaultValue: /* Error: Ran out of types for this method. */;
+- (_Bool)isSupplementaryVisible;
+- (double)isPossibleToTypeFast;
+- (void)initWithFocusSystem:(id)arg1 environment: /* Error: Ran out of types for this method. */;
+- (void)imageGlyphDataSource;
+- (_Bool)handleAutofillCredentialSaveIfNeeded:fromASP: /* Error: Ran out of types for this method. */;
+- (void)contextMenuPresentation:(id)arg1 didRequestDismissalWithReason:alongsideActions:completion: /* Error: Ran out of types for this method. */;
+- (double)computeApplyTransactionIncludingSectionDifferences: /* Error: Ran out of types for this method. */;
+- (double)autocorrectInlinePromptIsVisible;
+- (void)appearanceWithSmallestDimmedDetentIdentifier:(id)arg1;
+- (double)_setShouldPersistSelectionOnReloadDataWhenPossible: /* Error: Ran out of types for this method. */;
 - (void)InputExpected;
 - (void)sualStyleOverrideSeparatorAttributes;
-- (id)er;
+- (id)UITrackingElementWindowController;
 - (unsigned long long)ewFlags.hasFocusEffect (%d).;
 - (double)ndow:(id)arg1 %@.;
-- (id)scription;
+- (id)_debuggableEquationLegendDescription;
 - (long long)lFillDenominator=%f;
 - (void)pdate:(id)arg1 invalid number of rows in section %lu. Attempt to delete more rows than exist in section. Table view:%@ /* Error: Ran out of types for this method. */;
 - (id)statusBarIsHidden;
 - (double)Found activity to become current:%@, title = %@, identifier = %@ /* Error: Ran out of types for this method. */;
-- (void);
+- (void)secondaryLandscapeSmallKeyDeltaX;
 - (id)tCore/UIPasteboard.swift;
 - (id);
 - (double)A`Å?ï§ÆKw-Àü©ñÒM²N@/Ý$ÑH@C\A@lçû©ñ>ÀÛù~j¼´:@Év¾o0ÀHáz®&@R¸ëR@®Gázô:@VVVVVVæ?ÒÑÑÑÑÑá?Ò?Ò?Õ?è?ë?ë?Ì?¼?à?À?í?É?ìQ¸ëÑ?
@@ -166,43 +150,7 @@
 - (void)ØÞj;
 
 // Remaining properties
-@property(nonatomic, setter=__setEnforcesMinimumHeight:) _Bool __enforcesMinimumHeight; // @synthesize __enforcesMinimumHeight=_enforcesMinimumHeight;
-@property(nonatomic, setter=_setAlpha:) double _alpha; // @synthesize _alpha;
 @property(nonatomic, setter=_setAxesPreservingSuperviewLayoutMargins:) unsigned long long _axesPreservingSuperviewLayoutMargins; // @synthesize _axesPreservingSuperviewLayoutMargins;
-@property(readonly, nonatomic) long long _contentViewCellProminence;
-@property(readonly, nonatomic) long long _contentViewCellStyle;
-@property(nonatomic, setter=_setDefaultStyle:) long long _defaultStyle; // @synthesize _defaultStyle;
-@property(nonatomic, setter=_setDirectionalLayoutMargins:) struct NSDirectionalEdgeInsets _directionalLayoutMargins; // @synthesize _directionalLayoutMargins;
-@property(nonatomic, setter=_setDisableAutomaticDefaultStyleUpdates:) _Bool _disableAutomaticDefaultStyleUpdates; // @synthesize _disableAutomaticDefaultStyleUpdates=__disableAutomaticDefaultStyleUpdates;
-@property(nonatomic, setter=_setEnforcesMinimumHeight:) _Bool _enforcesMinimumHeight;
-@property(nonatomic, setter=_setImageToTextPadding:) double _imageToTextPadding; // @synthesize _imageToTextPadding;
-@property(readonly, nonatomic) _Bool _isSidebarStyle;
-@property(nonatomic, setter=_setPrefersSideBySideTextAndSecondaryText:) _Bool _prefersSideBySideTextAndSecondaryText; // @synthesize _prefersSideBySideTextAndSecondaryText;
-@property(copy, nonatomic, setter=_setTextEditingConfiguration:) _UIContentViewEditingConfiguration *_textEditingConfiguration; // @synthesize _textEditingConfiguration;
-@property(nonatomic, setter=_setTextToSecondaryTextHorizontalPadding:) double _textToSecondaryTextHorizontalPadding; // @synthesize _textToSecondaryTextHorizontalPadding;
-@property(nonatomic, setter=_setTextToSecondaryTextVerticalPadding:) double _textToSecondaryTextVerticalPadding; // @synthesize _textToSecondaryTextVerticalPadding;
-@property(nonatomic) double alpha;
-@property(copy, nonatomic) NSAttributedString *attributedText;
-@property(nonatomic) unsigned long long axesPreservingSuperviewLayoutMargins;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIImage *image;
-@property(readonly, nonatomic) UIListContentImageProperties *imageProperties; // @synthesize imageProperties=_imageProperties;
-@property(nonatomic) double imageToTextPadding;
-@property(nonatomic) _Bool prefersSideBySideTextAndSecondaryText;
-@property(copy, nonatomic) NSAttributedString *secondaryAttributedText;
-@property(copy, nonatomic) NSString *secondaryText;
-@property(readonly, nonatomic) UIListContentTextProperties *secondaryTextProperties; // @synthesize secondaryTextProperties=_secondaryTextProperties;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text;
-@property(readonly, nonatomic) UIListContentTextProperties *textProperties; // @synthesize textProperties=_textProperties;
-@property(nonatomic) double textToSecondaryTextHorizontalPadding;
-@property(nonatomic) double textToSecondaryTextVerticalPadding;
 
 @end
 

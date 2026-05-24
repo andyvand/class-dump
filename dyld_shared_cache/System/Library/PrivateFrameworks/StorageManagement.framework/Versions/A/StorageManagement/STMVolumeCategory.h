@@ -9,8 +9,6 @@
 @interface STMVolumeCategory
 {
     NSString *_identifier;
-    NSString *_name;
-    long long _size;
 }
 
 + (_Bool);
@@ -18,17 +16,15 @@
 - (id);
 - (id);
 - (long long);
+- (void)setReordering:(long long)arg1;
 - (void);
-- (void);
-- (void);
+- (void)4;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long size; // @synthesize size=_size;
 
 @end
 

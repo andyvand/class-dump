@@ -7,46 +7,6 @@
 @interface Network.QUICConnectionProtocol.QUICConnectionOptions
 {
     id _initialMaxData;
-    id _initialMaxStreamDataBidirectionalLocal;
-    id _initialMaxStreamDataBidirectionalRemote;
-    id _initialMaxStreamDataUnidirectional;
-    id _initialMaxStreamsBidirectional;
-    id _initialMaxStreamsUnidirectional;
-    id _peerMaxStreamDataBidirectionalLocal;
-    id _peerMaxStreamDataBidirectionalRemote;
-    id _peerMaxData;
-    id _peerMaxDataUnidirectional;
-    id _peerMaxStreamsBidirectional;
-    id _peerMaxStreamsUnidirectional;
-    id securityOptions;
-    id serverRawPublicKeys;
-    id clientIdentityReference;
-    id clientCertificateReferences;
-    id localPublicKey;
-    id quicState;
-    id tlsState;
-    id sourceConnectionID;
-    id sessionStateUpdateBlock;
-    id sessionStateUpdateQueue;
-    id maxStreamsUpdateQueue;
-    id maxStreamsUpdateBlock;
-    id _idleTimeout;
-    id streamPathAffinity;
-    id enableL4S;
-    id _maxUDPPayloadSize;
-    id _maxDatagramFrameSize;
-    id _supportWebTransport;
-    id _supportResetStreamAt;
-    id _initialPacketSize;
-    id _keepaliveCount;
-    id _ackDelaySize;
-    id _maxPathsPerInterface;
-    id _keyIndex;
-    id _pqtlsMode;
-    id pmtudUpdateInterval;
-    id pmtudUpdateBlock;
-    id pmtudUpdateQueue;
-    id flags;
 }
 
 @end

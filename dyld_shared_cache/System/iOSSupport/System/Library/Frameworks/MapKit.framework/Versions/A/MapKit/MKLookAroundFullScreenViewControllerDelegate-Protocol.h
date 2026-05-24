@@ -5,5 +5,6 @@
 //
 
 @protocol MKLookAroundFullScreenViewControllerDelegate
+- (void)Ț?;
 @end
 

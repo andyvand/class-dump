@@ -7,20 +7,15 @@
 @class _INPBString;
 
 @protocol _INPBCreateFileIntentResponse
-- (_Bool)at: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (int);
+- (void);
+- (_Bool);
+- (_Bool)setHasEncodingFormat: /* Error: Ran out of types for this method. */;
 - (void)ll be reformed to notRequired.;
-- (_INPBString *)Launch;
+- (_INPBString *)INStartPhotoPlaybackIntentResponseCodeFailureRequiringAppLaunch;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *destinationName;
-@property(retain, nonatomic) _INPBString *entityName;
-@property(nonatomic) int entityType;
-@property(readonly, nonatomic) _Bool hasDestinationName;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(nonatomic) _Bool hasOverwrite;
-@property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool overwrite;
-@property(nonatomic) _Bool success;
 @end
 

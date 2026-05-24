@@ -7,17 +7,12 @@
 @interface GEORideBookingIntentResponseFailure
 {
     int _failure;
-    int _intent;
-    struct {
-        unsigned int has_failure:1;
-        unsigned int has_intent:1;
-    } _flags;
 }
 
-+ (_Bool)apAccessRestrictions:(id)arg1;
++ (_Bool)setMapAccessRestrictions:(id)arg1;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)?0^@8;
 - (id);
 - (int);
 - (int);
@@ -27,25 +22,23 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)f=%@;
+- (void)_currentClientConfiguration;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ctor does not hold a valid factor subobject.
+;
 - (int);
-- (int);
+- (int)setContentsGravity: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id)lyVisible"b1"has_initiallyVisible"b1};
-- (id)teredGuides;
-- (id)nMetadata;
-- (id);
+- (id)filteredGuides;
+- (id)GEOTileDBSubscriptionMetadata;
+- (id)include_icon_category_filter;
 
 // Remaining properties
-@property(nonatomic) int failure;
-@property(nonatomic) _Bool hasFailure;
 @property(nonatomic) _Bool hasIntent;
-@property(nonatomic) int intent;
 
 @end
 

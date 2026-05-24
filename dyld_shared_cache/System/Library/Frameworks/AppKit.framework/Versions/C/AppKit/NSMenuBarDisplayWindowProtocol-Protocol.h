@@ -8,10 +8,13 @@
 @protocol NSMenuBarLifecycleProtocol;
 
 @protocol NSMenuBarDisplayWindowProtocol
+- (NSDictionary *)er data or string must be non-null;
+- (void)!;
+- (NSObject<NSMenuBarLifecycleProtocol> *);
 - (void)aí/!°DùÑâ3ð1Â0@ù
 × ;
 - (void)_incrementSectionCount:(struct CGRect)arg1;
-- (NSUUID *)pUpdateOperation;
+- (NSUUID *)_NSMenuRepUpdateOperation;
 - (_Bool)È ;
 - (unsigned int)ndexPath=nil for representedObject=%p %@;
 - (_Bool)d>o;«?Añs?Ö&è.>ÍÌÌÌÌÌð?¤p=
@@ -19,14 +22,6 @@
 - (void)ècdUh*;
 
 // Remaining properties
-@property struct CGRect apertureFrame;
-@property double backingScaleFactor;
-@property unsigned int displayID;
-@property struct CGRect frame;
 @property(retain) NSUUID *identifier;
-@property __weak NSObject<NSMenuBarLifecycleProtocol> *impl;
-@property _Bool isRTL;
-@property(setter=setVisible:) _Bool isVisible;
-@property(readonly, copy) NSDictionary *presentationSettings;
 @end
 

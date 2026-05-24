@@ -5,5 +5,9 @@
 //
 
 @protocol EKUITitleTableViewCellDelegate
+- (_Bool);
+- (void)Y%s;
+- (void)p
+m{;
 @end
 

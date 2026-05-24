@@ -6,8 +6,7 @@
 
 #import <UIKitCore/UIPopoverPresentationController.h>
 
-@class NSString, UIPresentationController, UIView, _UISearchPresentationAssistant;
-@protocol _UISearchControllerPresenting;
+@class UIView, _UISearchPresentationAssistant;
 
 __attribute__((visibility("hidden")))
 @interface _UISearchPopoverPresentationController : UIPopoverPresentationController
@@ -26,45 +25,26 @@ __attribute__((visibility("hidden")))
 - (void)ÿÈîÿÒÕïÿðÔïÿ;
 - (void);
 - (void)@;
-- (_Bool)torInsetAdjustmentBehavior;
+- (_Bool)UIScrollViewIndicatorInsetAdjustmentBehavior;
 - (_Bool)%u), %s;
 - (unsigned long long)eprecated. This application should use the smoother single-stage animation.;
 - (double)ust be called for tab-only content.;
 - (struct CGRect)o:%@ /* Error: Ran out of types for this method. */;
-- (void)ation;
+- (void)UIDeviceBatteryLevelDidChangeNotification;
 - (_Bool)ocused item prevented the focus update from occurring: /* Error: Ran out of types for this method. */;
 - (id)a different rename session (%@).;
 - (void)sKeyboardFocusAlwaysEnabledForSceneAndIdiom(UIScene *__unsafe_unretained, UIUserInterfaceIdiom);
-- (id)G;
+- (id)SgG;
 - (void)(;
 - (id)D23°!¶þåC23´!¶þíC23Ð!¶þÝC23ì!¶þåC23"¶þ;
-- (_Bool)eTransparencyStatusDidChangeMessage;
+- (_Bool)ReduceTransparencyStatusDidChangeMessage;
 - (_Bool)$;
 - (void)ÐDÛÄõ];
 - (_Bool)¬_;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) UIPresentationController<_UISearchControllerPresenting> *adaptivePresentationController;
-@property(readonly, nonatomic) _Bool animatorShouldLayoutPresentationViews;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long edgeForHidingNavigationBar;
-@property(readonly, nonatomic) struct CGRect finalFrameForContainerView; // @synthesize finalFrameForContainerView;
-@property(readonly, nonatomic) _Bool forceObeyNavigationBarInsets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double resultsControllerContentOffset;
-@property(readonly, nonatomic) _Bool resultsUnderlapsSearchBar;
-@property(readonly, nonatomic) _Bool searchBarCanContainScopeBar;
 @property(readonly, retain, nonatomic) UIView *searchBarContainerView;
-@property(readonly, nonatomic) _Bool searchBarShouldClipToBounds;
-@property(readonly, nonatomic) _Bool searchBarToBecomeTopAttached;
-@property(readonly, nonatomic) _Bool shouldAccountForStatusBar;
-@property(readonly, nonatomic) double statusBarAdjustment;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (void);
-- (id)AtIndexPath:(long long)arg1;
++ (id)�;
+- (void)ensureGlyphsForCharacterRange:(BOOL)arg1;
+- (id)createShareFocusStatusCellAtIndexPath:(long long)arg1;
 
 @end
 

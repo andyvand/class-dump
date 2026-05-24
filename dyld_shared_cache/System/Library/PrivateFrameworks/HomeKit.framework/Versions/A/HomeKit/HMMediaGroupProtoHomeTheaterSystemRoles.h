@@ -9,10 +9,6 @@
 @interface HMMediaGroupProtoHomeTheaterSystemRoles
 {
     NSString *_audioDestinationIdentifier;
-    int _audioDestinationType;
-    struct {
-        unsigned int audioDestinationType:1;
-    } _has;
 }
 
 - (void);
@@ -24,20 +20,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)+�NM;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool)sunshade;
+- (void);
+- (id)?;
+- (id);
 - (void)Ô(;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *audioDestinationIdentifier; // @synthesize audioDestinationIdentifier=_audioDestinationIdentifier;
-@property(nonatomic) int audioDestinationType; // @synthesize audioDestinationType=_audioDestinationType;
 @property(readonly, nonatomic) _Bool hasAudioDestinationIdentifier;
-@property(nonatomic) _Bool hasAudioDestinationType;
 
 @end
 

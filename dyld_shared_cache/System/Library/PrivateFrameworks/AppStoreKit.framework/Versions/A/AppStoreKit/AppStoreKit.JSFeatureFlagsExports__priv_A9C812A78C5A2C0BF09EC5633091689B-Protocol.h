@@ -5,5 +5,7 @@
 //
 
 @protocol AppStoreKit.JSFeatureFlagsExports__priv_A9C812A78C5A2C0BF09EC5633091689B
+- (_Bool)o;
+- (_Bool)l;
 @end
 

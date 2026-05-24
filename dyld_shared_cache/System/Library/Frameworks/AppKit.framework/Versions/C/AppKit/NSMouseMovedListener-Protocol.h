@@ -5,6 +5,7 @@
 //
 
 @protocol NSMouseMovedListener
+- (void)APTicket_s *);
 
 // Remaining properties
 @property(readonly) unsigned long long options;

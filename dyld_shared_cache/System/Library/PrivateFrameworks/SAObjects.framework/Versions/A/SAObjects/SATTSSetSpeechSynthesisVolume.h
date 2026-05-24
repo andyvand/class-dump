@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SATTSSetSpeechSynthesisVolume : SABaseClientBoundCommand
 {
@@ -19,13 +19,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionType;
-@property(copy, nonatomic) NSNumber *volumeValue;
 
 @end
 

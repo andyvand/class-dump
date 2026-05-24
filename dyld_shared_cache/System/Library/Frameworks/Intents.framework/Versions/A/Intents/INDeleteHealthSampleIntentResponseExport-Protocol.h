@@ -5,7 +5,7 @@
 //
 
 @protocol INDeleteHealthSampleIntentResponseExport
-- (long long)leSendRideFeedback:completion: /* Error: Ran out of types for this method. */;
+- (long long)handleSendRideFeedback:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;

@@ -6,26 +6,23 @@
 
 #import <RunningBoard/RBConcreteTarget.h>
 
-@class NSString, RBProcess, RBSProcessIdentity;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface RBComplexConcreteTarget : RBConcreteTarget
 {
     NSString *_description;
-    RBProcess *_process;
-    RBSProcessIdentity *_identity;
-    NSString *_environment;
 }
 
 - (id);
-- (id);
+- (id)bleDictionary",R,N,V_mutableAggregationAdditionErrorCounts;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)ary/Caches/com.apple.xbs/TemporaryDirectory.277BGj/Sources/Mail_Email/Email/SASL/cyrus_sasl/plugins/gssapi.c near line %d;
+- (id)rangeOfUnclosedQuoteMatchingQuote:inString:range: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)#;
 
 @end
 

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol TIAggdReporting
+- (void);
+- (void);
+- (void)_prefetchComputeSyncResources:(NSString *)arg1 photoLibrary:prefetchPhase:shouldAutoPrefetchNextBatch: /* Error: Ran out of types for this method. */;
+- (void)_mergeCrashRecovery;
+- (void)ublic}@, %{private}@, %{private}@;
+- (void)#;
+- (void)	)=;
 @end
 

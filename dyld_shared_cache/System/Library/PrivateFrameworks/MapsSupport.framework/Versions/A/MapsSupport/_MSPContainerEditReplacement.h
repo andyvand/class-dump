@@ -6,22 +6,18 @@
 
 #import <MapsSupport/_MSPContainerEdit.h>
 
-@class NSArray, NSIndexSet, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _MSPContainerEditReplacement : _MSPContainerEdit
 {
     NSArray *_originalObjects;
-    NSArray *_originalImmutableObjects;
-    NSArray *_replacementObjects;
-    NSArray *_replacementImmutableObjects;
-    NSIndexSet *_indexesOfReplacedObjects;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,18 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSIndexSet *indexesOfReplacedObjects; // @synthesize indexesOfReplacedObjects=_indexesOfReplacedObjects;
-@property(readonly, nonatomic) NSArray *originalImmutableObjects; // @synthesize originalImmutableObjects=_originalImmutableObjects;
 @property(readonly, nonatomic) NSArray *originalObjects; // @synthesize originalObjects=_originalObjects;
-@property(readonly, nonatomic) NSArray *replacementImmutableObjects; // @synthesize replacementImmutableObjects=_replacementImmutableObjects;
-@property(readonly, nonatomic) NSArray *replacementObjects; // @synthesize replacementObjects=_replacementObjects;
-@property(readonly) Class superclass;
 
 @end
 

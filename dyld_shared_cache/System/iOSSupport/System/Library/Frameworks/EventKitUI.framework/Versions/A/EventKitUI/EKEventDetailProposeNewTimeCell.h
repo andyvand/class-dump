@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)&s;
 - (id);
-- (_Bool);
+- (_Bool)meKitCore10HomesStoreC0C4DataO010PersistentE11CoordinatorP;
 
 @end
 

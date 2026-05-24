@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface WBSPasswordPatternMatch
 {
     unsigned long long _type;
-    NSString *_matchedSubstring;
-    double _guessesRequired;
-    NSDictionary *_userInfo;
-    struct _NSRange _range;
 }
 
 - (id);
@@ -23,23 +17,17 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (struct _NSRange);
+- (unsigned long long)_setOrRemoveInternalDefaultsObject:forKey: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)HERE identity==?;
 - (_Bool);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)library ;
 - (id);
 - (void)A×°!¼Cù±XÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) unsigned long long endIndex;
-@property(readonly, nonatomic) double guessesRequired; // @synthesize guessesRequired=_guessesRequired;
-@property(readonly, copy, nonatomic) NSString *matchedSubstring; // @synthesize matchedSubstring=_matchedSubstring;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

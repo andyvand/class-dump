@@ -9,21 +9,17 @@
 @interface CKDPCSIdentityWrapper
 {
     NSString *_identityString;
-    struct _PCSIdentitySetData *_identitySet;
-    NSString *_primaryServiceName;
 }
 
-- (id);
+- (id)UsoTaskBuilder_ReferenceString_uso_unknown_entity;
 - (struct _PCSIdentitySetData *);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (void)s request was cancelled;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _PCSIdentitySetData *identitySet; // @synthesize identitySet=_identitySet;
-@property(readonly, nonatomic) NSString *identityString; // @synthesize identityString=_identityString;
-@property(readonly, nonatomic) NSString *primaryServiceName; // @synthesize primaryServiceName=_primaryServiceName;
 
 @end
 

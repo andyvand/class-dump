@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVUpdateACLTaskGroup, NSDictionary, NSMutableDictionary, NSSet, NSString, NSURL;
-@protocol CoreDAVTaskGroupDelegate;
-
 @interface CalDAVAddDropBoxAttachmentsTaskGroup
 {
     _Bool _attendeesCanManageDropBox;
-    int _state;
-    NSDictionary *_putFailureSizes;
-    NSMutableDictionary *_sentAttachmentURLsToETags;
-    NSURL *_dropboxURL;
-    NSDictionary *_attachments;
-    NSDictionary *_contentTypes;
-    NSSet *_attendeePrincipalURLs;
-    NSSet *_aceItems;
-    CoreDAVUpdateACLTaskGroup *_updateACLTaskGroup;
 }
 
 + (id);
@@ -44,35 +32,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)!;
 - (int);
-- (id);
-- (void);
-- (void);
+- (id)_setPaginationBehavesLikeColumns: /* Error: Ran out of types for this method. */;
+- (void)MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/HashTable.h;
+- (void)+;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *aceItems; // @synthesize aceItems=_aceItems;
-@property(retain, nonatomic) NSDictionary *attachments; // @synthesize attachments=_attachments;
-@property(retain, nonatomic) NSSet *attendeePrincipalURLs; // @synthesize attendeePrincipalURLs=_attendeePrincipalURLs;
-@property(nonatomic) _Bool attendeesCanManageDropBox; // @synthesize attendeesCanManageDropBox=_attendeesCanManageDropBox;
-@property(retain, nonatomic) NSDictionary *contentTypes; // @synthesize contentTypes=_contentTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <CoreDAVTaskGroupDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSURL *dropboxURL; // @synthesize dropboxURL=_dropboxURL;
-@property(readonly, retain, nonatomic) NSDictionary *etags;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDictionary *putFailureSizes; // @synthesize putFailureSizes=_putFailureSizes;
-@property(retain, nonatomic) NSMutableDictionary *sentAttachmentURLsToETags; // @synthesize sentAttachmentURLsToETags=_sentAttachmentURLsToETags;
 @property(nonatomic) int state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CoreDAVUpdateACLTaskGroup *updateACLTaskGroup; // @synthesize updateACLTaskGroup=_updateACLTaskGroup;
 
 @end
 

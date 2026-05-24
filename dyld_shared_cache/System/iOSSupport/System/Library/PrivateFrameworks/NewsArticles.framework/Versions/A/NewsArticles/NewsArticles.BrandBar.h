@@ -7,12 +7,6 @@
 @interface NewsArticles.BrandBar
 {
     id iconView;
-    id ctaButton;
-    id titleLabel;
-    id bodyLabel;
-    id backgroundView;
-    id pinstripe;
-    id renderer;
 }
 
 - (void);

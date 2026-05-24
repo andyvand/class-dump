@@ -9,9 +9,6 @@
 @interface CRKHeaderTable
 {
     CRKTable *_table;
-    NSArray *_headers;
-    NSArray *_keyPaths;
-    NSArray *_objects;
 }
 
 - (id);
@@ -20,14 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)encodeObject: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *headers; // @synthesize headers=_headers;
-@property(readonly, copy, nonatomic) NSArray *keyPaths; // @synthesize keyPaths=_keyPaths;
-@property(readonly, copy, nonatomic) NSArray *objects; // @synthesize objects=_objects;
-@property(readonly, nonatomic) CRKTable *table; // @synthesize table=_table;
 
 @end
 

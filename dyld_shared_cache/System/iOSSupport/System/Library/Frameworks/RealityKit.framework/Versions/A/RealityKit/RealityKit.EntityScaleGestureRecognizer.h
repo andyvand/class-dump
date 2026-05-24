@@ -7,11 +7,12 @@
 @interface RealityKit.EntityScaleGestureRecognizer
 {
     id entity;
+    id;
 }
 
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (void);
 
 @end

@@ -9,9 +9,6 @@
 @interface MPSNNPadNode : MPSNNFilterNode
 {
     struct MPSImageCoordinate _paddingSizeBefore;
-    struct MPSImageCoordinate _paddingSizeAfter;
-    unsigned long long _edgeMode;
-    float _fillValue;
 }
 
 + (id);

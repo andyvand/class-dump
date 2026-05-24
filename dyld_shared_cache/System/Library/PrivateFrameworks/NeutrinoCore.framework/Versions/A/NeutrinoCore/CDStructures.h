@@ -10,17 +10,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct CC_MD5state_st {
-    unsigned int A;
-    unsigned int B;
-    unsigned int C;
-    unsigned int D;
-    unsigned int Nl;
-    unsigned int Nh;
-    unsigned int data[16];
-    int num;
-};
-
 struct CGAffineTransform {
     double a;
     double b;
@@ -31,27 +20,23 @@ struct CGAffineTransform {
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct CGVector {
-    double dx;
-    double dy;
-};
-
-struct DataSet {
-    struct vector<double, std::allocator<double>> _values;
+    double _field1;
+    double _field2;
 };
 
 struct FigLivePhotoDetectedFaceV1Struct {
@@ -86,29 +71,9 @@ struct FigLivePhotoMetadataV1Struct {
     struct FigLivePhotoDetectedFaceV1Struct _field13[0];
 };
 
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
 struct unique_ptr<NU::Histogram<long, double>, std::default_delete<NU::Histogram<long, double>>> {
     struct {
         void *__ptr_;
-    } ;
-};
-
-struct vector<double, std::allocator<double>> {
-    double *__begin_;
-    double *__end_;
-    struct {
-        double *__cap_;
-    } ;
-};
-
-struct vector<unsigned char, std::allocator<unsigned char>> {
-    char *__begin_;
-    char *__end_;
-    struct {
-        char *__cap_;
     } ;
 };
 
@@ -119,6 +84,12 @@ typedef struct {
     _Bool _field2;
     _Bool _field3;
 } CDStruct_2a4d9400;
+
+typedef struct {
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+} CDStruct_14f26992;
 
 typedef struct {
     unsigned short _field1;
@@ -132,8 +103,8 @@ typedef struct {
 } CDStruct_254c824e;
 
 typedef struct {
-    id columns[3];
-} CDStruct_1fe29af2;
+    id _field1[3];
+} CDStruct_c27faaab;
 
 typedef struct {
     id columns[4];
@@ -147,9 +118,9 @@ typedef struct {
 } CDStruct_3ead2808;
 
 typedef struct {
-    double min;
-    double max;
-} CDStruct_59a221c9;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
 
 typedef struct {
     float r;
@@ -172,13 +143,9 @@ typedef struct {
 } CDStruct_1b6d18a9;
 
 typedef struct {
-    CDStruct_67e7699a origin;
-    struct {
-        unsigned long long width;
-        unsigned long long height;
-        unsigned long long depth;
-    } size;
-} CDStruct_1e3be3a8;
+    CDStruct_14f26992 _field1;
+    CDStruct_14f26992 _field2;
+} CDStruct_4c83c94d;
 
 typedef struct {
     CDStruct_83984b6f r;
@@ -193,23 +160,14 @@ typedef struct {
 } CDStruct_e83c9415;
 
 typedef struct {
-    CDStruct_f261e59c origin;
+    struct {
+        long long x;
+        long long y;
+    } origin;
     CDStruct_d58201db size;
 } CDStruct_996ac03c;
 
 // Ambiguous groups
-typedef struct {
-    unsigned long long _field1;
-    unsigned long long _field2;
-    unsigned long long _field3;
-} CDStruct_14f26992;
-
-typedef struct {
-    unsigned long long x;
-    unsigned long long y;
-    unsigned long long z;
-} CDStruct_67e7699a;
-
 typedef struct {
     long long _field1;
     long long _field2;
@@ -224,9 +182,4 @@ typedef struct {
     long long width;
     long long height;
 } CDStruct_d58201db;
-
-typedef struct {
-    long long x;
-    long long y;
-} CDStruct_f261e59c;
 

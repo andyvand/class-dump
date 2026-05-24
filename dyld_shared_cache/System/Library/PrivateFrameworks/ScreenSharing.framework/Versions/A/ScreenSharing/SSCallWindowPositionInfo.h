@@ -8,18 +8,12 @@ __attribute__((visibility("hidden")))
 @interface SSCallWindowPositionInfo
 {
     _Bool _hasDodgeArea;
-    _Bool _moveRight;
-    _Bool _scaleToShowAllOfFaceTimeWindow;
-    double _roomOnLeft;
-    double _roomOnRight;
-    struct CGSize _maxSize;
-    struct CGRect _visibleFrame;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (double);
 - (double);
@@ -28,19 +22,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)_suggestionsToReuseWithSuggestionSession:(struct CGRect)arg1 numberOfSuggestionsToReuse: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (struct CGSize)ñ;
 - (void)veRTCPPackets:(struct CGSize)arg1 %lu packets;
 
 // Remaining properties
 @property _Bool hasDodgeArea; // @synthesize hasDodgeArea=_hasDodgeArea;
-@property struct CGSize maxSize; // @synthesize maxSize=_maxSize;
-@property _Bool moveRight; // @synthesize moveRight=_moveRight;
-@property double roomOnLeft; // @synthesize roomOnLeft=_roomOnLeft;
-@property double roomOnRight; // @synthesize roomOnRight=_roomOnRight;
-@property _Bool scaleToShowAllOfFaceTimeWindow; // @synthesize scaleToShowAllOfFaceTimeWindow=_scaleToShowAllOfFaceTimeWindow;
-@property struct CGRect visibleFrame; // @synthesize visibleFrame=_visibleFrame;
 
 @end
 

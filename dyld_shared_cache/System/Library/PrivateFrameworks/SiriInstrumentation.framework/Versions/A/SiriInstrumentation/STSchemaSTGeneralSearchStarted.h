@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface STSchemaSTGeneralSearchStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    _Bool _preWarmed;
-    struct {
-        unsigned int exists:1;
-        unsigned int preWarmed:1;
-    } _has;
 }
 
 - (void);
@@ -23,27 +16,23 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (id)#;
+- (void)APSEndpointStreamAudioHoseProtocolProperty_SupportsRFC2198Redundancy;
 - (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setShouldPostNotificationOnDefaultBrowserInstallation: /* Error: Ran out of types for this method. */;
+- (_Bool)ABTableEntry;
+- (_Bool)part INTEGER, content_type TEXT, height INTEGER, version INTEGER, flags INTEGER, content_id TEXT, content_loc TEXT, headers BLOB);;
 - (id);
 - (id);
-- (id)alTime;
+- (id)deleteLlmQUTotalTime;
 - (id)_hasRanking;
-- (_Bool)ABLEMENTSTATE_USER_ENABLED;
-- (_Bool)NEXECUTIONTYPE_MEDIAPLAYER_AIRPLAY_SET_AUDIO_SESSION_CATEGORY;
-- (void);
+- (_Bool)SIRIINCALLENABLEMENTSTATE_USER_ENABLED;
+- (_Bool)FLOWDOMAINEXECUTIONTYPE_MEDIAPLAYER_AIRPLAY_SET_AUDIO_SESSION_CATEGORY;
+- (void)POMMESSchemaPOMMESPegasusRequestLocationPreciseStatus;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasPreWarmed;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool preWarmed; // @synthesize preWarmed=_preWarmed;
 
 @end
 

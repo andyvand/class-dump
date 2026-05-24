@@ -5,14 +5,8 @@
 //
 
 @protocol CPLSyncSessionConfiguration
-- (long long)P;
-- (_Bool)@ù;
 
 // Remaining properties
-@property(readonly) _Bool allowsLocalConflictResolution;
 @property(readonly) _Bool allowsLocalConflictResolutionWhenOverQuota;
-@property(readonly) _Bool isComputeStateTaskUploadEnabled;
-@property(readonly) long long maximumComputeStatesToUploadPerBatch;
-@property(readonly, nonatomic) _Bool shouldCheckEPPCapability;
 @end
 

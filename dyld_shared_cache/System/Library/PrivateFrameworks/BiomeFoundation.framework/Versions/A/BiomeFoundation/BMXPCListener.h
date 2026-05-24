@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCListenerEndpoint;
-@protocol BMXPCListenerDelegate, OS_dispatch_queue, OS_xpc_object;
+@protocol BMXPCListenerDelegate;
 
 @interface BMXPCListener
 {
     unsigned long long _type;
-    NSObject<OS_xpc_object> *_listener;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <BMXPCListenerDelegate> _delegate;
 }
 
 + (id);
@@ -25,15 +21,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)re newly downloaded, and %ld were already present on disk. All requested guids:%s /* Error: Ran out of types for this method. */;
+- (void)%@ ;
 - (id);
 - (void);
 
 // Remaining properties
 @property __weak id <BMXPCListenerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSXPCListenerEndpoint *endpoint;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue;
 
 @end
 

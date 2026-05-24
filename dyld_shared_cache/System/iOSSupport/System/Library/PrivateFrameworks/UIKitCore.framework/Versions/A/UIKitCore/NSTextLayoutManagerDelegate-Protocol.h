@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
+@class NSDictionary, NSTextLayoutFragment;
 
 @protocol NSTextLayoutManagerDelegate
 
 @optional
-- (NSDictionary *)pper;
+- (_Bool);
+- (NSTextLayoutFragment *)SS_Sdt;
+- (_Bool)MLFeatureValueCtG;
+- (NSDictionary *)fileWrapper;
 @end
 

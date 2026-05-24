@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLocalizedString
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_locale;
-    NSString *_stringValue;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_locale:1;
-        unsigned int read_stringValue:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 + (id);
-+ (_Bool)rd:(id)arg1;
++ (_Bool)setHasShouldAlwaysShowAdvisoryCard:(id)arg1;
 + (id)§p§4¨l©;
 + (id){øN@;
 - (void);
@@ -35,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)CSAttendingOptions:::audioStreamHoldingDurationInSec /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -45,8 +33,8 @@
 - (id);
 - (id);
 - (void);
-- (id)onType:(struct _NSZone *)arg1;
-- (id)nate;
+- (id)setPoiImageCorrectionType:(struct _NSZone *)arg1;
+- (id)_originCoordinate;
 - (id)T@"<GEOPictureItemContainer>",R,N,V_pictureItemContainer;
 - (id)er of attributed strings (%d) is greater than number of separators (%d) + 1. Unable to join attributed strings.;
 - (_Bool)k_invoke;
@@ -55,10 +43,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLocale;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(retain, nonatomic) NSString *locale;
-@property(retain, nonatomic) NSString *stringValue;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

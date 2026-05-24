@@ -171,7 +171,3 @@ struct MPSTemporalAAParams {
     float _field1;
 };
 
-struct _MPSAxisAlignedBoundingBox {
-    id min__max;
-};
-

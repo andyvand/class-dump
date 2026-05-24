@@ -10,41 +10,26 @@
 {
 }
 
-+ (id);
++ (id)trix;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long)7;
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)X;
 - (unsigned long long);
+- (unsigned long long)<;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (id)(<;
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, copy) UARPAssetTag *hsModel4cc;
-@property(readonly) unsigned long long hsModelDownloaded;
-@property(readonly) unsigned long long hsModelEngineCompact;
-@property(readonly) unsigned long long hsModelEngineNormal;
-@property(readonly) unsigned long long hsModelFallback;
-@property(readonly) unsigned long long hsModelPreInstalled;
-@property(readonly) unsigned long long hsModelPrimary;
-@property(readonly) unsigned long long hsModelTlvModelCertificate;
-@property(readonly) unsigned long long hsModelTlvModelDigest;
-@property(readonly) unsigned long long hsModelTlvModelEngineType;
-@property(readonly) unsigned long long hsModelTlvModelEngineVersion;
-@property(readonly) unsigned long long hsModelTlvModelHash;
-@property(readonly) unsigned long long hsModelTlvModelLocale;
-@property(readonly) unsigned long long hsModelTlvModelRole;
-@property(readonly) unsigned long long hsModelTlvModelSignature;
-@property(readonly) unsigned long long hsModelTlvModelType;
 
 @end
 

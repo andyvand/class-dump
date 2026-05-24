@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextField, NSViewController;
+@class NSTextField;
 
 @interface AMSUISpyglassViewController
 {
     _Bool _visible;
-    NSTextField *_noAccountLabel;
-    NSViewController *_wrapperController;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)e:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)ionID:(id)arg1 clientID:] /* Error: Ran out of types for this method. */;
+- (void)_ContentVersion;
 - (id);
 - (void);
 - (void);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain) NSTextField *noAccountLabel; // @synthesize noAccountLabel=_noAccountLabel;
-@property(getter=isVisible) _Bool visible; // @synthesize visible=_visible;
-@property(retain) NSViewController *wrapperController; // @synthesize wrapperController=_wrapperController;
 
 @end
 

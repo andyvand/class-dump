@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol _GEOPolygonRingBuilder;
+
 @protocol _GEOPolygonBuilder
+- (id <_GEOPolygonRingBuilder>)initWithObjectID:propertyName:recordType:valueType: /* Error: Ran out of types for this method. */;
 @end
 

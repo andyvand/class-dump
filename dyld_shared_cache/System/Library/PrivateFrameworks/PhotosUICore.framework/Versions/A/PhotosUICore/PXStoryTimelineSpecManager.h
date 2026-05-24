@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-@protocol PXStoryTimelineSpec;
-
 @interface PXStoryTimelineSpecManager
 {
     BOOL _fallbackTransitionKind;
-    unsigned long long _allowedInlineTitles;
-    NSIndexSet *_allowedTransitionKinds;
-    unsigned long long _storyTransitionCurveType;
-    CDStruct_1b6d18a9 _fixedSegmentDuration;
 }
 
 - (id);
 - (unsigned long long);
 - (Class);
 - (id);
-- (id);
+- (id)W;
 - (CDStruct_1b6d18a9);
 - (BOOL);
 - (unsigned long long);
@@ -29,12 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long allowedInlineTitles; // @synthesize allowedInlineTitles=_allowedInlineTitles;
-@property(readonly, nonatomic) NSIndexSet *allowedTransitionKinds; // @synthesize allowedTransitionKinds=_allowedTransitionKinds;
-@property(readonly, nonatomic) BOOL fallbackTransitionKind; // @synthesize fallbackTransitionKind=_fallbackTransitionKind;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 fixedSegmentDuration; // @synthesize fixedSegmentDuration=_fixedSegmentDuration;
-@property(readonly, nonatomic) unsigned long long storyTransitionCurveType; // @synthesize storyTransitionCurveType=_storyTransitionCurveType;
-@property(readonly, nonatomic) id <PXStoryTimelineSpec> timelineSpec;
 
 @end
 

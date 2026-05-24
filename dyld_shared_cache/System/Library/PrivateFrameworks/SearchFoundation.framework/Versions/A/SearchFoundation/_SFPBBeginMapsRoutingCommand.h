@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBLatLng;
+@class _SFPBLatLng;
 
 @interface _SFPBBeginMapsRoutingCommand
 {
     _Bool _shouldSearchDirectionsAlongCurrentRoute;
-    int _directionsMode;
-    _SFPBLatLng *_location;
-    NSData *_mapsData;
-    NSString *_name;
 }
 
 - (void);
@@ -23,33 +19,21 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)safari_possibleTopLevelDomainCorrectionForUserTypedString;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)initWithPropertyKeysByEntityKey:(id)arg1;
+- (id)rom client:%{public}@ at %{public}@, %{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)Command;
+- (void);
+- (void)playVideoCommand;
 - (void)Ä3øÿ\ µï;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int directionsMode; // @synthesize directionsMode=_directionsMode;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBLatLng *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSData *mapsData; // @synthesize mapsData=_mapsData;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool shouldSearchDirectionsAlongCurrentRoute; // @synthesize shouldSearchDirectionsAlongCurrentRoute=_shouldSearchDirectionsAlongCurrentRoute;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface MPStoreItemMetadataCacheKey
 {
     _Bool _personalized;
-    NSNumber *_accountIdentifier;
-    NSNumber *_enqueuerAccountIdentifier;
-    NSString *_storefrontIdentifier;
 }
 
 + (void);
@@ -21,14 +18,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)_useOr;
+- (id)!;
+- (unsigned long long)userInfo;
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (id);
-- (void)KEY;
+- (void)__tiledArtworkCatalogBlock_KEY;
 - (void) à;
 - (void)pEntityPath"16@?0@"MPAppEntityPath"8;
 - (id)}DÖ´
@@ -36,9 +33,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSNumber *enqueuerAccountIdentifier; // @synthesize enqueuerAccountIdentifier=_enqueuerAccountIdentifier;
-@property(nonatomic, getter=isPersonalized) _Bool personalized; // @synthesize personalized=_personalized;
-@property(copy, nonatomic) NSString *storefrontIdentifier; // @synthesize storefrontIdentifier=_storefrontIdentifier;
 
 @end
 

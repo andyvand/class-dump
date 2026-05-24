@@ -4,36 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol _NSTextAnimation, _NSTextAnimatorStateSnapshot;
+@class NSString;
+@protocol _NSTextAnimation;
 
 @protocol _NSTextAnimator
+- (id <_NSTextAnimation>);
 - (void)!;
 - (void);
 
+@optional
+- (double)initWithTitle: /* Error: Ran out of types for this method. */;
+- (NSString *)oomFactor;
+- (void)(;
+
 // Remaining properties
 @property(readonly, nonatomic) id <_NSTextAnimation> animation;
-@property(copy, nonatomic) NSDictionary *configuration;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDictionary",?,C,N
-
-@property(readonly, nonatomic) double duration;
-@property(readonly, nonatomic) NSString *fromPhase;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) double nextAnimationTriggerDelay;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) long long state;
-@property(retain, nonatomic) id <_NSTextAnimatorStateSnapshot> stateSnapshot;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<_NSTextAnimatorStateSnapshot>",?,&,N
-
-@property(copy, nonatomic) NSString *toPhase;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
 @end
 

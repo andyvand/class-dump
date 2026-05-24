@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDReference;
-
 __attribute__((visibility("hidden")))
 @interface EDPane
 {
     double mXSplitPosition;
-    double mYSplitPosition;
-    EDReference *mTopLeftCell;
-    int mActivePane;
-    int mPaneState;
 }
 
 + (id);
@@ -21,14 +15,14 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)	;
 - (int);
 - (int);
 - (void);
-- (id);
-- (id);
+- (id)z;
+- (id)modelManagerRequestIdentifier;
 - (void)+Ô6;
 
 @end

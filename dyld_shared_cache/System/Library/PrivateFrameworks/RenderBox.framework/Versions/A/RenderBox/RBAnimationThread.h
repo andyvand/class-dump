@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface RBAnimationThread
 {
     struct objc_ptr<NSThread *> _thread;
-    struct objc_ptr<CADisplayLink *> _link;
-    unsigned int _empty_ttl;
-    int _frame_rate;
-    int _pending_frame_rate;
 }
 
 - (void);

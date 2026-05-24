@@ -9,12 +9,11 @@
 }
 
 + (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool iconStackAppIconsAllowed;
 @property(readonly) _Bool isSolariumEnabled;
 
 @end

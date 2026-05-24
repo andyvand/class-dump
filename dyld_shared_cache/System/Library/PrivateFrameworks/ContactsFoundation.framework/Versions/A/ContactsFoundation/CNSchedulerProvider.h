@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CNScheduler;
 
 @interface CNSchedulerProvider
 {
     id <CNScheduler> _backgroundScheduler;
-    id <CNScheduler> _mainThreadScheduler;
-    id <CNScheduler> _inlineScheduler;
-    id <CNScheduler> _immediateScheduler;
-    CDUnknownBlockType _serialSchedulerProvider;
-    CDUnknownBlockType _workloopSchedulerProvider;
-    CDUnknownBlockType _synchronousSerialSchedulerProvider;
-    CDUnknownBlockType _readerWriterSchedulerProvider;
 }
 
++ (id)#;
++ (id)@;
 + (id);
-+ (id);
-+ (id);
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -29,32 +21,18 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)on-BT pointing (other than trackpad);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNScheduler> backgroundScheduler; // @synthesize backgroundScheduler=_backgroundScheduler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNScheduler> immediateScheduler; // @synthesize immediateScheduler=_immediateScheduler;
-@property(readonly, nonatomic) id <CNScheduler> inlineScheduler; // @synthesize inlineScheduler=_inlineScheduler;
-@property(readonly, nonatomic) id <CNScheduler> mainThreadScheduler; // @synthesize mainThreadScheduler=_mainThreadScheduler;
-@property(readonly, copy, nonatomic) CDUnknownBlockType readerWriterSchedulerProvider; // @synthesize readerWriterSchedulerProvider=_readerWriterSchedulerProvider;
 @property(readonly, copy, nonatomic) CDUnknownBlockType serialSchedulerProvider; // @synthesize serialSchedulerProvider=_serialSchedulerProvider;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) CDUnknownBlockType synchronousSerialSchedulerProvider; // @synthesize synchronousSerialSchedulerProvider=_synchronousSerialSchedulerProvider;
-@property(readonly, copy, nonatomic) CDUnknownBlockType workloopSchedulerProvider; // @synthesize workloopSchedulerProvider=_workloopSchedulerProvider;
 
 @end
 

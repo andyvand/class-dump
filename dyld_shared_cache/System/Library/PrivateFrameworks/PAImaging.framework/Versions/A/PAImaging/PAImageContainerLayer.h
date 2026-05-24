@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PALayerAnimationFactory, PANeutrinoImageLayer;
+@class NSObject, PANeutrinoImageLayer;
 @protocol OS_dispatch_queue;
 
 @interface PAImageContainerLayer
 {
     NSObject<OS_dispatch_queue> *_animQueue;
-    PALayerAnimationFactory *_animFactory;
-    PANeutrinoImageLayer *_imageLayer;
-    struct CGSize _minSize;
 }
 
 + (void);
@@ -37,9 +34,9 @@
 - (void);
 - (struct CATransform3D);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)Snapshot;
+- (void)navigationContext;
+- (id);
 - (struct CATransform3D);
 - (void);
 - (void);
@@ -48,10 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CATransform3D contentTransform;
 @property(retain, nonatomic) PANeutrinoImageLayer *imageLayer; // @synthesize imageLayer=_imageLayer;
-@property(readonly, nonatomic) struct CATransform3D imageTransform;
-@property(nonatomic) struct CGSize minLayerSize; // @synthesize minLayerSize=_minSize;
 
 @end
 

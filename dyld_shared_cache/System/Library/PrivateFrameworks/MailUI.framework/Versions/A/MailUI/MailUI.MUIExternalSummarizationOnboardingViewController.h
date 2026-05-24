@@ -7,14 +7,13 @@
 @interface MailUI.MUIExternalSummarizationOnboardingViewController
 {
     id didDismissOnboardingUI;
-    id onboardingView;
 }
 
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (id);
-- (void)ilboxView;
+- (void)mailboxView;
 
 @end
 

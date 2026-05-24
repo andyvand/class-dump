@@ -14,9 +14,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)inflatable;
 - (id);
-- (void)ionSetsResponse;
+- (void)HMWidgetManagerMonitorActionSetsResponse;
 
 // Remaining properties
 @property(readonly, copy) NSArray *accessories;

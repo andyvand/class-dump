@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPersistentStoreCoordinatorFactory, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface ABPersistentStoreCoordinatorMap
 {
     NSMutableDictionary *_cache;
-    ABPersistentStoreCoordinatorFactory *_coordinatorFactory;
 }
 
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);

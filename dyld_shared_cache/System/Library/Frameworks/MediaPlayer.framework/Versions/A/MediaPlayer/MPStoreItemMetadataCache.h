@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVLRUDictionary, NSMapTable;
+@class MSVLRUDictionary;
 
 @interface MPStoreItemMetadataCache
 {
     MSVLRUDictionary *_itemIdentifierToCompositeStoreItemMetadataLRUDictionary;
-    NSMapTable *_itemIdentifierToCompositeStoreItemMetadataMapTable;
 }
 
 - (void);
@@ -18,7 +17,7 @@
 - (id);
 - (id);
 - (long long);
-- (void)forRequestingContext: /* Error: Ran out of types for this method. */;
+- (void)_setCacheIdentifier:forRequestingContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

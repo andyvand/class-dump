@@ -5,5 +5,6 @@
 //
 
 @protocol MKQuickRouteTransportTypeFinding
+- (void)BackgroundProcessing:(struct CLLocationCoordinate2D)arg1:(struct CLLocationCoordinate2D)arg2 TaskRuntimeAllocation;
 @end
 

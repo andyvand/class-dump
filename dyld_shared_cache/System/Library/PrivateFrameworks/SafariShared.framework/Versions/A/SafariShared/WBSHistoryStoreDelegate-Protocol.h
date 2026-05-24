@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WBSHistoryItem;
+
 @protocol WBSHistoryStoreDelegate
+- (WBSHistoryItem *)3;
+- (void);
+- (void);
+
+@optional
+- (_Bool)k!;
 @end
 

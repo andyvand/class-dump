@@ -9,9 +9,6 @@
 @interface NSSubTextStorage
 {
     NSTextStorage *_parent;
-    struct _NSRange _range;
-    _Bool _releasing;
-    _Bool _editing;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol PKPaletteUndoRedoViewDelegate
+- (void);
 @end
 

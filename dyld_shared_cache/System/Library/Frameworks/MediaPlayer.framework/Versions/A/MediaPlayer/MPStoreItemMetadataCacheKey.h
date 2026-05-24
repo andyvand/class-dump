@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface MPStoreItemMetadataCacheKey
 {
     _Bool _personalized;
-    NSNumber *_accountIdentifier;
-    NSNumber *_enqueuerAccountIdentifier;
-    NSString *_storefrontIdentifier;
 }
 
 + (void);
@@ -25,19 +22,16 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)addOperationWithBlock:(id)arg1;
 - (id);
 - (id);
-- (void)sentationKind: /* Error: Ran out of types for this method. */;
+- (void)_setCacheLimit:forCacheIdentifier:requestingContext:representationKind: /* Error: Ran out of types for this method. */;
 - (void)  ;
 - (void)pGenericArtist;
 - (id)LÖ;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSNumber *enqueuerAccountIdentifier; // @synthesize enqueuerAccountIdentifier=_enqueuerAccountIdentifier;
-@property(nonatomic, getter=isPersonalized) _Bool personalized; // @synthesize personalized=_personalized;
-@property(copy, nonatomic) NSString *storefrontIdentifier; // @synthesize storefrontIdentifier=_storefrontIdentifier;
 
 @end
 

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSStoreReviewGatingController, NSObject, NSString;
-@protocol AMSBagProtocol, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AMSSharedStoreReview
 {
     NSObject<OS_dispatch_queue> *_sharedStoreReviewQueue;
-    AMSStoreReviewGatingController *_storeReviewGatingController;
-    id <AMSBagProtocol> _bag;
 }
 
 + (_Bool);
 + (id);
 + (void);
-+ (void);
-+ (_Bool);
++ (void)serUtterance updateDictationResult:(id)arg1 withAlternativeUtteranceAtIndex:(id)arg2 ];
++ (_Bool)e;
 + (_Bool);
 + (id);
 + (void);
 + (_Bool);
-+ (_Bool)mpletion: /* Error: Ran out of types for this method. */;
++ (_Bool)paymentAuthorizationController:didSelectPaymentMethod:completion: /* Error: Ran out of types for this method. */;
 + (void)­Ä@ñ<I[Ø¨òízå=$®AÐe¿Ú1Ì¦|³üáÉÖEà§7ìÕÛz£:(id)arg1 à³'}1RHMñ>
 þXvµ"LT®0ÑawøxT VKAÿ¨7Þpí)ë¦vÂ6Gß÷J
  ë	´qÃ_ "½jÜoÂk)çÅ4;
@@ -35,8 +33,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void)setUsePrelisteningMode: /* Error: Ran out of types for this method. */;
+- (_Bool)stfixText;
 - (id);
 - (id);
 - (void);
@@ -47,16 +45,7 @@
 _H;
 
 // Remaining properties
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSObject<OS_dispatch_queue> *sharedStoreReviewQueue; // @synthesize sharedStoreReviewQueue=_sharedStoreReviewQueue;
-@property(retain, nonatomic) AMSStoreReviewGatingController *storeReviewGatingController; // @synthesize storeReviewGatingController=_storeReviewGatingController;
-@property(readonly) Class superclass;
 
 @end
 

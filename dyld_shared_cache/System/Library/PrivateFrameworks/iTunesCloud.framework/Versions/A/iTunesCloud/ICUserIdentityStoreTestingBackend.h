@@ -4,47 +4,69 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLocalStoreAccountProperties, NSMutableDictionary, NSNumber, NSString;
+@class NSNumber;
 @protocol ICUserIdentityStoreBackendDelegate;
 
 @interface ICUserIdentityStoreTestingBackend
 {
     NSNumber *_activeAccountDSID;
-    NSNumber *_activeLockerAccountDSID;
-    NSMutableDictionary *_identityProperties;
-    ICLocalStoreAccountProperties *_localStoreAccountProperties;
-    id <ICUserIdentityStoreBackendDelegate> _delegate;
 }
 
 + (void);
++ (void)tScreen.w;
+    
+    
+    float totalAccum = 0.0;
+    for(int i=0; i<MAX_SAMPLE; i++){
+        totalAccum += __shadow2DProj(lightDepthSampler, lightScreen + (u_kernel[i] * filteringSizeFactor));
+    }
+    
+    float shadow = totalAccum / float(MAX_SAMPLE);
+#endif
+    
+#if !USE_SPOT_ATTENUATION
+    shadow *= step(0., lightScreen.w);
+#endif
+    
+    
+    
+    shadow *= shadowColor.a;
+#if USE_SPOT_ATTENUATION
+    shadow = shadow * att;
+#endif
+    
+    
+    gl_FragColor = mix(color.rgba, vec4(shadowColor.rgb, 1.0),  shadow);
+}
+
+;
 + (void);
-+ (void);
 + (id);
 + (id);
-+ (id);
++ (id)_C3DUnProjectPoints;
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)s:(id)arg1 object with uid %@ exists but is not a camera;
 - (id);
 - (void);
+- (id)tr;
+- (id);
+- (id);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void){_cl_device_id=}16;
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -52,14 +74,7 @@
 - (void)R,C;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <ICUserIdentityStoreBackendDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 @interface MFMessageFileLocations
 {
     _Bool _isPartial;
-    NSURL *_primaryEmlxURL;
-    NSURL *_attachmentDirectory;
-    long long _libraryID;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)(;
 - (id);
 - (_Bool);
 - (id);
@@ -30,11 +27,6 @@
 - (void)<H;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *attachmentDirectory; // @synthesize attachmentDirectory=_attachmentDirectory;
-@property(readonly, copy, nonatomic) NSDictionary *attachmentURLsByPartNumber;
-@property(readonly, copy, nonatomic) NSDictionary *emlxPartURLsByPartNumber;
-@property(readonly, nonatomic) _Bool isPartial; // @synthesize isPartial=_isPartial;
-@property(readonly, nonatomic) long long libraryID; // @synthesize libraryID=_libraryID;
 @property(readonly, nonatomic) NSURL *primaryEmlxURL; // @synthesize primaryEmlxURL=_primaryEmlxURL;
 
 @end

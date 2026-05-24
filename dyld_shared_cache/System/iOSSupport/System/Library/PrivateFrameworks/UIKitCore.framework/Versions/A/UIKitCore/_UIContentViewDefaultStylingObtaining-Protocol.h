@@ -7,20 +7,14 @@
 @protocol _UIContentViewDefaultStylingObtaining
 
 @optional
+- (void)isOneChatEnabled;
+- (void)@;
 - (long long);
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setDefaultListContentConfigurationProvider:) CDUnknownBlockType _defaultListContentConfigurationProvider;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@?,?,C,N,S_setDefaultListContentConfigurationProvider:
-
-@property(readonly, nonatomic) long long _listCellProminence;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long _listCellStyle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICLiveLinkCustomEvent, ICLiveLinkIdentity, ICLiveLinkPlaybackEvent, ICLiveLinkQueueEvent, ICLiveLinkReactionEvent, ICLiveLinkSessionEvent, NSString;
+@class ICLiveLinkIdentity;
 
 @interface ICLiveLinkEvent
 {
     ICLiveLinkIdentity *_participant;
-    long long _type;
-    ICLiveLinkSessionEvent *_sessionEvent;
-    ICLiveLinkPlaybackEvent *_playbackEvent;
-    ICLiveLinkQueueEvent *_queueEvent;
-    ICLiveLinkReactionEvent *_reactionEvent;
-    ICLiveLinkCustomEvent *_customEvent;
 }
 
 + (id);
@@ -29,20 +23,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ocal_constraints INTEGER NOT NULL DEFAULT 0, app_data BLOB, sync_id INTEGER NOT NULL DEFAULT 0, classical_experience_available INTEGER NOT NULL DEFAULT 0);
 - (id);
 - (long long);
-- (void)adioStreamAssetInfo;
+- (void)ICStoreRadioStreamAssetInfo;
 
 // Remaining properties
-@property(readonly, nonatomic) ICLiveLinkCustomEvent *customEvent; // @synthesize customEvent=_customEvent;
 @property(readonly, nonatomic) ICLiveLinkIdentity *participant; // @synthesize participant=_participant;
-@property(readonly, nonatomic) ICLiveLinkPlaybackEvent *playbackEvent; // @synthesize playbackEvent=_playbackEvent;
-@property(readonly, copy, nonatomic) NSString *primaryReferencedIdentifier;
-@property(readonly, nonatomic) ICLiveLinkQueueEvent *queueEvent; // @synthesize queueEvent=_queueEvent;
-@property(readonly, nonatomic) ICLiveLinkReactionEvent *reactionEvent; // @synthesize reactionEvent=_reactionEvent;
-@property(readonly, nonatomic) ICLiveLinkSessionEvent *sessionEvent; // @synthesize sessionEvent=_sessionEvent;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

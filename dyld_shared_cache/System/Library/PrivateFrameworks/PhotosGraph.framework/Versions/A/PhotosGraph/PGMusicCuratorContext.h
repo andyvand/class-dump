@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PGMusicCache, PGMusicCurationRecentlyUsedSongs;
-@protocol PGFlexMusicSongProviderProtocol;
+@class NSString;
 
 @interface PGMusicCuratorContext
 {
     id configuration;
-    id blocklistConfiguration;
-    PGMusicCache *cache;
-    id photoLibrary;
-    id musicBag;
-    id adamIDsWithNegativeUserFeedback;
-    id allowExplicitMusicContent;
-    id keywordsForAdamId;
-    _Bool useOnlyMusicForTopicInTopPickSuggestions;
-    _Bool allowChillMixElection;
-    _Bool allowGetUpMixElection;
-    _Bool refreshSongMetadata;
-    _Bool forceShareableInBestSuggestions;
-    PGMusicCurationRecentlyUsedSongs *recentlyUsedSongs;
-    void musicCurationOverrideDictionary;
-    _Bool bypassMusicForTopicElection;
-    void genre;
-    _Bool isMemoryCreationCuration;
-    id <PGFlexMusicSongProviderProtocol> flexSongProvider;
-    id musicForTopicUseTopicOnly;
-    id $__lazy_storage_$_keywordsByAdamID;
-    id $__lazy_storage_$_flexMusicSongs;
 }
 
 + (id);
@@ -45,13 +23,13 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)16@24^{__CGEventTapProxy=}32;
 - (id);
-- (id);
+- (id)SMutableDictionary",&,N,V_focusChains;
 - (_Bool);
+- (_Bool)]5;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (_Bool);
 - (id);
@@ -63,19 +41,7 @@
 - (void)iday moments:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowChillMixElection; // @synthesize allowChillMixElection;
-@property(nonatomic) _Bool allowGetUpMixElection; // @synthesize allowGetUpMixElection;
-@property(nonatomic) _Bool bypassMusicForTopicElection; // @synthesize bypassMusicForTopicElection;
-@property(nonatomic, readonly) PGMusicCache *cache; // @synthesize cache;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, retain) id <PGFlexMusicSongProviderProtocol> flexSongProvider; // @synthesize flexSongProvider;
-@property(nonatomic) _Bool forceShareableInBestSuggestions; // @synthesize forceShareableInBestSuggestions;
-@property(nonatomic, copy) NSString *genre;
-@property(nonatomic) _Bool isMemoryCreationCuration; // @synthesize isMemoryCreationCuration;
-@property(nonatomic, copy) NSDictionary *musicCurationOverrideDictionary;
-@property(nonatomic, readonly) PGMusicCurationRecentlyUsedSongs *recentlyUsedSongs; // @synthesize recentlyUsedSongs;
-@property(nonatomic) _Bool refreshSongMetadata; // @synthesize refreshSongMetadata;
-@property(nonatomic) _Bool useOnlyMusicForTopicInTopPickSuggestions; // @synthesize useOnlyMusicForTopicInTopPickSuggestions;
 
 @end
 

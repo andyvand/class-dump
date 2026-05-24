@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
-
 @interface LPArtworkMetadata
 {
     unsigned int _version;
-    NSURL *_URL;
-    NSDictionary *_colors;
 }
 
 + (_Bool);
 - (void);
-- (id);
-- (void);
-- (unsigned int);
-- (id);
+- (id)archiveCallback:forOperationID: /* Error: Ran out of types for this method. */;
+- (void)CKDPRecordType;
+- (unsigned int)K BEGINSWITH %@;
+- (id)rd PCS for %@ because there is no %@%@%@;
 - (id);
 - (unsigned long long);
 - (id);
@@ -29,8 +25,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSDictionary *colors; // @synthesize colors=_colors;
 @property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

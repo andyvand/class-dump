@@ -6,12 +6,11 @@
 
 #import <ChatKit/CKImageBalloonView.h>
 
-@class UIView, UIVisualEffectView;
+@class UIVisualEffectView;
 
 @interface CKBlurEffectBalloonView : CKImageBalloonView
 {
     UIVisualEffectView *_blurEffectView;
-    UIView *_commSafetyBadgeView;
 }
 
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *blurEffectView; // @synthesize blurEffectView=_blurEffectView;
-@property(retain, nonatomic) UIView *commSafetyBadgeView; // @synthesize commSafetyBadgeView=_commSafetyBadgeView;
 
 @end
 

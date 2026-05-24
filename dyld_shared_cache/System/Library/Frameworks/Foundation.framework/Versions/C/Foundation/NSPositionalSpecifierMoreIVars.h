@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScriptObjectSpecifier, NSString;
+@class NSScriptObjectSpecifier;
 
 __attribute__((visibility("hidden")))
 @interface NSPositionalSpecifierMoreIVars
 {
     NSScriptObjectSpecifier *insertionContainerSpecifier;
-    NSString *insertionKey;
-    unsigned long long insertionPosition;
-    _Bool evaluated;
-    id insertionContainer;
-    _Bool specifiesSetting;
-    long long insertionIndex;
-    _Bool insertionReplaces;
 }
 
 @end

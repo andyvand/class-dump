@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKStudentDaemonProxy, NSHashTable, NSString;
+@class CRKStudentDaemonProxy;
 
 @interface CRKConcreteStudentConnection
 {
     CRKStudentDaemonProxy *_studentDaemonProxy;
-    CDUnknownBlockType _invalidationHandler;
-    NSHashTable *_notificationObservations;
 }
 
 + (id);
@@ -23,21 +21,12 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)Y;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) NSHashTable *notificationObservations; // @synthesize notificationObservations=_notificationObservations;
 @property(readonly, nonatomic) CRKStudentDaemonProxy *studentDaemonProxy; // @synthesize studentDaemonProxy=_studentDaemonProxy;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCStatisticsCollector, NSObject;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface VCRateControlTrafficMetricCollector
 {
     struct tagVCRateControlTrafficMetrics _trafficMetrics;
-    NSObject<OS_dispatch_source> *_trafficMetricSource;
-    void *_mediaController;
-    AVCStatisticsCollector *_statisticsCollector;
-    _Bool _isStopped;
 }
 
 - (void);

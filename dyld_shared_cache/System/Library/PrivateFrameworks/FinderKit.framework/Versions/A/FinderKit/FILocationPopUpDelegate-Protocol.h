@@ -5,5 +5,8 @@
 //
 
 @protocol FILocationPopUpDelegate
+
+@optional
+- (unsigned long long);
 @end
 

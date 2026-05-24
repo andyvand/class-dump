@@ -9,13 +9,12 @@
 @interface IndicatorImageView
 {
     struct CGPoint mSavedOrigin;
-    NSTextField *mParent;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)0;
 - (void);
 
 // Remaining properties

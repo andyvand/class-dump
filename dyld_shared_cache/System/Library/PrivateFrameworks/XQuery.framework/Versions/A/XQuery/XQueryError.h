@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface XQueryError
 {
     long long _err;
-    long long _line;
-    NSString *_msg;
 }
 
 + (id);

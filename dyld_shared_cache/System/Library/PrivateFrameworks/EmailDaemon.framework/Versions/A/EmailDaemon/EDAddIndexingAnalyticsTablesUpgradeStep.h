@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-- (id);
+- (id)UsoTaskBuilder_checkExistence_common_SiriProperty;
 
 @end
 

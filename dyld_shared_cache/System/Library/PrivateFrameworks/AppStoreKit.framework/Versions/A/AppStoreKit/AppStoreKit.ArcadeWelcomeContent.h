@@ -7,14 +7,6 @@
 @interface AppStoreKit.ArcadeWelcomeContent
 {
     id title;
-    id subtitle;
-    id items;
-    id continueAction;
-    id familyAction;
-    id dismissingContinueAction;
-    id nonDismissingContinueAction;
-    id dismissingFamilyAction;
-    id nonDismissingFamilyAction;
 }
 
 @end

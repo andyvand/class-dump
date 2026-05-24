@@ -6,24 +6,17 @@
 
 #import <UIKitCore/_UITabBarControllerVisualStyle.h>
 
-@class NSString, UIFocusContainerGuide, UIFocusGuide, UIGestureRecognizer, UIView, _UITVScrollViewManager;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarControllerVisualStyle_TV : _UITabBarControllerVisualStyle
 {
     UIView *_tabBarContainerView;
-    UIFocusContainerGuide *_contentFocusContainerGuide;
-    UIFocusGuide *_tabBarOffscreenFocusGuide;
-    UIGestureRecognizer *_touchDetectionGestureRecognizer;
-    _UITVScrollViewManager *_scrollViewManager;
-    struct {
-        unsigned int hidNavigationBar:1;
-    } _flags;
 }
 
-- (id);
-- (void);
-- (void);
+- (id);
+- (void);
+- (void)l;
 - (void);
 - (void);
 - (long long);
@@ -31,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -40,36 +33,30 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct UIEdgeInsets);
 - (id);
-- (long long);
-- (struct CGRect);
-- (struct CGRect);
+- (long long)updateSyncedSyndicationRanges:forGUID: /* Error: Ran out of types for this method. */;
+- (struct CGRect)shouldDropIncomingCheckInMessageWithURL:(struct CGRect)arg1 senderHandle:isFromMe: /* Error: Ran out of types for this method. */;
+- (struct CGRect)shouldDisplayAttachmentDownloadFailure;
+- (void)sharedList;
+- (void)pathExtensionForMIMEType:(_Bool)arg1;
+- (_Bool)categorizeIncomingRCSMessageGUID:(id)arg1 sender:(struct CGRect)arg2 wasRelayed:chatIdentifier:participants:checkingForSpam:trustIndicator:myReceiverISOCountryCode:messageBody:foundChat:service:containsOneTimeCode:fileTransferGUIDs:isEncrypted:completion: /* Error: Ran out of types for this method. */;
+- (void)_archivedNicknames;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)TG@;
 - (double);
-- (unsigned long long);
+- (unsigned long long)t in driving focus, not sending text auto reply;
 - (void);
 - (void)@16@24Q32;
-- (void)TraitWithMetadata:(_Bool)arg1;
-- (_Bool)disablePlatterController;
+- (void)_setValue:(_Bool)arg1 forBuiltInTraitWithMetadata: /* Error: Ran out of types for this method. */;
+- (_Bool)_disablePlatterController;
 - (void)Dþÿ;
-- (void)leInset;
+- (void)topTitleInset;
 - (void);
 - (id)jnþÝ13Ì·¬þ;
 - (void)5°33Xõ;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

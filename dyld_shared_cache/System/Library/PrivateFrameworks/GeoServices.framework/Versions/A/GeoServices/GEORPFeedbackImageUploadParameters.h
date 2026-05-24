@@ -9,19 +9,14 @@
 @interface GEORPFeedbackImageUploadParameters
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_images;
-    _Bool _isEnrichment;
-    struct {
-        unsigned int has_isEnrichment:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)ndary:(id)arg1;
++ (_Bool)setIsWithinHikingBoundary:(id)arg1;
 - (void);
-- (void);
+- (void)relationshipsByName;
+- (_Bool)B;
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -33,25 +28,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)WithCompletion:(unsigned long long)arg1 ]_block_invoke_2;
 - (id);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id)eID"b1"has_completedStep"b1"has_lightGuidance"b1"has_routePaused"b1"has_routeResumed"b1"read_etaTrafficUpdateResponseId"b1"read_evStepInfo"b1"read_routeID"b1"read_stepZilch"b1"read_tripID"b1"wrote_anyField"b1};
-- (id)eTypes;
+- (id)arFailureTypes;
 - (id)(ÿ¤;
-- (id)talMode;
+- (id)enableExperimentalMode;
 - (void)big; only ;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsEnrichment;
 @property(retain, nonatomic) NSMutableArray *images;
-@property(nonatomic) _Bool isEnrichment;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

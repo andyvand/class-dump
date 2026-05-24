@@ -13,12 +13,12 @@
     RTDefaultsManager *_defaultsManager;
 }
 
-+ (id);
++ (id)not find pppcs signature for key:(long long)arg1 %@;
 + (_Bool)Ô(Ð!´DùqA,°1Â0@ù
 × ;
 + (id)Ý!.";
 - (void);
-- (void);
+- (void)cationSupport directory:(CDUnknownBlockType)arg1 %@;
 - (id);
 - (void);
 - (id)om.apple.MobileAddressBook;

@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSException, NSManagedObjectContext, NSNumber, NSPersistentStoreRequest, NSQueryGenerationToken, NSSQLCore, NSSQLRowCache, NSSQLiteConnection;
+@class NSPersistentStoreRequest, NSSQLCore;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLStoreRequestContext
 {
     NSSQLCore *_sqlCore;
-    NSPersistentStoreRequest *_persistentStoreRequest;
-    NSSQLiteConnection *_connection;
-    NSManagedObjectContext *_context;
-    NSError *_error;
-    NSException *_exception;
-    id _result;
-    NSQueryGenerationToken *_queryGeneration;
-    NSNumber *_transactionID;
-    _Bool _useColoredLogging;
-    _Bool _useConcurrentFetching;
-    _Bool _hasHistoryTracking;
-    _Bool _storeIsInMemory;
 }
 
 - (id);
@@ -30,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -39,10 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isWritingRequest;
 @property(readonly, nonatomic) NSPersistentStoreRequest *persistentStoreRequest; // @synthesize persistentStoreRequest=_persistentStoreRequest;
-@property(retain, nonatomic) id result; // @synthesize result=_result;
-@property(readonly, nonatomic) NSSQLRowCache *rowCache;
 
 @end
 

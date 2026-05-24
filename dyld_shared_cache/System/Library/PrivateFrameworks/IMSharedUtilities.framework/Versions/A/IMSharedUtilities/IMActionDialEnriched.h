@@ -9,26 +9,21 @@
 @interface IMActionDialEnriched
 {
     void phoneNumber;
-    void fallbackUrl;
-    void subject;
 }
 
 - (id);
 - (id);
-- (id);
+- (id).passbook.payment.transaction.processing.location-timed-out;
 - (long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)asTriedToEnableCKAndSyncAfterFirstImagentConnection;
+- (id)hasTriedToEnableCKAndSyncAfterFirstImagentConnection;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *fallbackUrl;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *phoneNumber;
-@property(nonatomic, readonly) NSString *subject;
 
 @end
 

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSConfigPersistedStore, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_event_publisher;
+@class NSMutableSet;
 
 @interface DRSTaskingEventPublisher
 {
     NSMutableSet *_subscribers;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_xpc_event_publisher> *_publisher;
-    DRSConfigPersistedStore *_configStore;
 }
 
 + (_Bool);
-- (void);
+- (void)getElementsByClassName:(id)arg1;
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (void);
@@ -30,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) DRSConfigPersistedStore *configStore; // @synthesize configStore=_configStore;
-@property(readonly, nonatomic) NSObject<OS_xpc_event_publisher> *publisher; // @synthesize publisher=_publisher;
 @property(readonly, nonatomic) NSMutableSet *subscribers; // @synthesize subscribers=_subscribers;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

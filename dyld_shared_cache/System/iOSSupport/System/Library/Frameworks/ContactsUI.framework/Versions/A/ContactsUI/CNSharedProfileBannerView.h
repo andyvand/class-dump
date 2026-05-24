@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarView, CNSharedProfileAnimationGenerator, CNSharedProfileBannerStyle, CNSharedProfileStateOracle, NSArray, NSString, UIButton, UILabel, UIStackView;
-@protocol CNSharedProfileBannerViewDelegate;
+@class CNAvatarView;
 
 @interface CNSharedProfileBannerView
 {
     _Bool _isIgnored;
-    _Bool _shouldPerformActionUponCacheInvalidation;
-    id <CNSharedProfileBannerViewDelegate> _delegate;
-    CNSharedProfileBannerStyle *_style;
-    CNAvatarView *_avatarView;
-    UIStackView *_labelStackView;
-    UILabel *_titleLabel;
-    UILabel *_subtitleLabel;
-    UIButton *_actionButton;
-    UIButton *_dismissButton;
-    NSArray *_constraints;
-    CNSharedProfileStateOracle *_sharedProfileStateOracle;
-    CNSharedProfileAnimationGenerator *_animationGenerator;
-    unsigned long long _tappedAction;
 }
 
 + (id)ÁD°!lCùQtð1Â0@ù
@@ -33,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)3;
 - (id);
 - (id);
 - (id);
@@ -41,6 +27,7 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -50,70 +37,48 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
+- (double).;
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
 - (id);
-- (id);
+- (id)R	jaD;
 - (void);
 - (_Bool);
 - (double);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)P;
+- (void)<;
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)<A;
+- (id)removeKeyDataFor: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (void):addContact:toGroupContext:contactsToLink: /* Error: Ran out of types for this method. */;
-- (id)AvatarConstraints;
+- (void)_updateSaveRequest:addContact:toGroupContext:contactsToLink: /* Error: Ran out of types for this method. */;
+- (id)_hasAvatarConstraints;
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *actionButton; // @synthesize actionButton=_actionButton;
-@property(retain, nonatomic) CNSharedProfileAnimationGenerator *animationGenerator; // @synthesize animationGenerator=_animationGenerator;
 @property(retain, nonatomic) CNAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNSharedProfileBannerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIButton *dismissButton; // @synthesize dismissButton=_dismissButton;
-@property(readonly, nonatomic) double estimatedHeight;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isIgnored; // @synthesize isIgnored=_isIgnored;
-@property(retain, nonatomic) UIStackView *labelStackView; // @synthesize labelStackView=_labelStackView;
-@property(retain, nonatomic) CNSharedProfileStateOracle *sharedProfileStateOracle; // @synthesize sharedProfileStateOracle=_sharedProfileStateOracle;
-@property(nonatomic) _Bool shouldPerformActionUponCacheInvalidation; // @synthesize shouldPerformActionUponCacheInvalidation=_shouldPerformActionUponCacheInvalidation;
-@property(retain, nonatomic) CNSharedProfileBannerStyle *style; // @synthesize style=_style;
-@property(retain, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long tappedAction; // @synthesize tappedAction=_tappedAction;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

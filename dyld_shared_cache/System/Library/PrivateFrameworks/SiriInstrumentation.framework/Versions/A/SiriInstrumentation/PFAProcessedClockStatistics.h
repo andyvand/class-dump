@@ -6,19 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PFAProcessedClockStatistics : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_clockIdentifier;
-    unsigned int _messageCount;
-    NSArray *_publishedEventStatistics;
-    NSArray *_redactedEventStatistics;
-    CDStruct_e50d6a1b _has;
-    _Bool _hasClockIdentifier;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,7 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,22 +42,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)urning path:(id)arg1 %@;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)setVersion;
+- (id)_hasNlv4AssetVersion;
 - (id)DaemonAudioConfigureContext;
-- (void)USERINTENTTYPE_UNKNOWN;
+- (void)ASVUSERINTENTTYPE_UNKNOWN;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(nonatomic) _Bool hasClockIdentifier; // @synthesize hasClockIdentifier=_hasClockIdentifier;
-@property(nonatomic) _Bool hasMessageCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int messageCount; // @synthesize messageCount=_messageCount;
-@property(copy, nonatomic) NSArray *publishedEventStatistics; // @synthesize publishedEventStatistics=_publishedEventStatistics;
-@property(copy, nonatomic) NSArray *redactedEventStatistics; // @synthesize redactedEventStatistics=_redactedEventStatistics;
 
 @end
 

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
-
 __attribute__((visibility("hidden")))
 @interface _LSDDisseminationRemoteClient
 {
     _Bool _hasCheckedIn;
-    NSXPCConnection *_connection;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
-- (void)amicDiskUsage;
+- (void)dynamicDiskUsage;
 - (void)ÿÿq;
 
 @end

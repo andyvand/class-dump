@@ -5,15 +5,28 @@
 //
 
 @protocol CKTranscriptCellProtocol
+- (void)24@"WKNavigationAction"32@"WKWindowFeatures"40;
+- (void)subtitleText;
+- (void)stringByPaddingToLength:(_Bool)arg1 withString:startingAtIndex: /* Error: Ran out of types for this method. */;
+- (void)setStopIndexingToken:(double)arg1;
+- (void)setOldPasswordIncorrectTextViewScrollView:(struct CGRect)arg1;
+- (void)setExpansionStateContext:(double)arg1;
+- (void)ic_rangeIsValid:(_Bool)arg1;
+- (void)ic_rangeForTextRange:(void (^)(void))arg1;
+- (void)ic_rangeForBaseAttachment:(void (^)(void))arg1 withTextAttachment:(void (^)(_Bool))arg2;
+- (void)ic_preferredFontForTitleTextWithContentSizeCategory:(void (^)(_Bool))arg1;
+- (void)ic_preferredFontForSubheadingText;
+- (void)autoupdatingCurrentLocale;
+- (void)automaticallyMergesChangesFromParent;
+- (void)autoListInsertionEnabled;
+- (_Bool)_webViewEndXRSession: /* Error: Ran out of types for this method. */;
+- (_Bool)_webView:didAdjustVisibilityWithSelectors: /* Error: Ran out of types for this method. */;
+- (double)ndexable>",&,N,V_currentContextObject;
+- (double)tyle_SaySo18ICTTParagraphStyleCG15paragraphStylestGz_Xx;
+- (void)l;
 - (void)õõö;
 
 // Remaining properties
-@property(nonatomic) double associatedItemOffset;
-@property(nonatomic) struct CGRect contentAlignmentRect;
-@property(nonatomic) double drawerPercentRevealed;
-@property(nonatomic) _Bool isAnimatingInDarkEffect;
-@property(nonatomic) _Bool isInReplyContext;
-@property(nonatomic) BOOL orientation;
 @property(nonatomic) _Bool wantsDrawerLayout;
 @end
 

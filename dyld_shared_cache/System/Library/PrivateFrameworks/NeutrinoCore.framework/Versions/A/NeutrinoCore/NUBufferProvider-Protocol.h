@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUPixelFormat;
-
 @protocol NUBufferProvider
 
 // Remaining properties
-@property(readonly, nonatomic) NUPixelFormat *format;
 @property(readonly, nonatomic) CDStruct_912cb5d2 size;
 @end
 

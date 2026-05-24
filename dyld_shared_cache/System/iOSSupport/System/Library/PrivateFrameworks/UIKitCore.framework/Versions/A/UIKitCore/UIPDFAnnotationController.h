@@ -4,86 +4,73 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, UIColor, UIPDFAnnotation, UIPDFMarkupAnnotation, UIPDFPageView;
-@protocol NSObject><UIPDFAnnotationControllerDelegate;
+@class UIPDFPageView;
 
 @interface UIPDFAnnotationController
 {
     UIPDFPageView *_pageView;
-    struct os_unfair_lock_s _lock;
-    struct CGPoint _startPoint;
-    _Bool _moving;
-    UIPDFMarkupAnnotation *_currentAnnotation;
-    CDStruct_627e0f85 _initialRange;
-    _Bool _tracking;
-    CALayer *_drawingSurface;
-    id <NSObject><UIPDFAnnotationControllerDelegate> _delegate;
-    struct CGSize _cachedMarginNoteSize;
-    _Bool makeUnderlineAnnotation;
-    _Bool _allowEditing;
-    UIColor *_currentColor;
 }
 
 + (_Bool);
 + (struct CGImage *);
-+ (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (struct CGImage *);
++ (id)^;
+- (_Bool)Resources",R,N,V_pipelineResources;
+- (_Bool)blackholedChats;
+- (_Bool)vice",W,N,V_mainService;
+- (struct CGImage *);
 - (void);
 - (_Bool);
+- (void)entConnectionRouteProvidingP;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGImage *);
-- (void);
-- (struct CGSize);
+- (struct CGImage *)e T2 writes completed sucess:(struct CGRect)arg1 %@ error %@;
+- (void)es:(id)arg1 %{BOOL}d;
+- (struct CGSize):%@  (Error:%@) /* Error: Ran out of types for this method. */;
+- (id)et for:(id)arg1 %@   success:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (_Bool)mall Size:%d /* Error: Ran out of types for this method. */;
+- (_Bool)c token %@ for zone %@ limit %@;
+- (void)%@, default set;
+- (_Bool)is not replicated.;
+- (id)stant delivery of %@, message is not replicated.;
+- (void)y in the last %ld messages.;
+- (_Bool);
+- (_Bool)ed command, no messages found for guid:(struct CGPoint)arg1 %@;
+- (_Bool)gPipelineComponent> Failed to find fromIdentifier;
+- (id)tch fetch for transfer:(id)arg1 %@ addedTransfer %@ for messageItem:%@ groupPhotoUpdate:%@ /* Error: Ran out of types for this method. */;
+- (void)messages as unread in spotlight;
+- (void)ng pending message:(struct CGPoint)arg1 %@ on service %@ with context %@;
+- (id)n=(%@);
+- (void)sferGUIDS from CMM message %@, rl transfers left %@;
+- (void)o reset transfers;
+- (void)ay this message for me;
+- (id)oving participant:%@ /* Error: Ran out of types for this method. */;
+- (void)tee status by fetching chat zone.;
+- (struct CGRect)nitializing fetchOperation ;
+- (struct CGPoint)%@;
+- (void)other identifiers.;
+- (_Bool)il>;
+- (_Bool)tifiers.;
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (struct CGRect);
-- (struct CGPoint);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (id)milyProcessingQueue;
+- (_Bool)lete-update-zone;
+- (void)angeToken"16;
+- (void)= %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)_messageInReplyTo;
 - (id);
 - (id)0@ù
 × ;
@@ -96,21 +83,7 @@
 - (void)EñÌd7l;
 
 // Remaining properties
-@property(nonatomic) _Bool allowEditing; // @synthesize allowEditing=_allowEditing;
-@property(retain, nonatomic) UIPDFAnnotation *currentAnnotation; // @synthesize currentAnnotation=_currentAnnotation;
-@property(nonatomic) UIColor *currentColor; // @synthesize currentColor=_currentColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <NSObject><UIPDFAnnotationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) CALayer *drawingSurface; // @synthesize drawingSurface=_drawingSurface;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool makeUnderlineAnnotation; // @synthesize makeUnderlineAnnotation;
 @property(readonly, nonatomic) UIPDFPageView *pageView; // @synthesize pageView=_pageView;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool tracking; // @synthesize tracking=_tracking;
 
 @end
 

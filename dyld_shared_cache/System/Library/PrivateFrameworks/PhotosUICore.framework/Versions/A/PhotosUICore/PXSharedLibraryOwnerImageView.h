@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBox, NSImageView, NSView;
+@class NSImageView;
 @protocol PXSharedLibraryParticipant;
 
 @interface PXSharedLibraryOwnerImageView
 {
     id <PXSharedLibraryParticipant> _owner;
-    NSImageView *_avatarImageView;
-    NSImageView *_badgeImageView;
-    NSView *_avatarContainer;
-    NSBox *_badgeBox;
-    double _badgeInset;
 }
 
 - (id);

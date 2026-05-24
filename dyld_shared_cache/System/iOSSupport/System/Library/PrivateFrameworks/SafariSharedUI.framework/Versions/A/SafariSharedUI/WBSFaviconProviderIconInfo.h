@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface WBSFaviconProviderIconInfo
 {
     _Bool _hasGeneratedResolutions;
-    _Bool _isRejectedResource;
-    NSString *_pageURLString;
-    NSString *_iconURLString;
-    NSString *_UUIDString;
-    NSDate *_dateAdded;
-    struct CGSize _size;
 }
 
 - (id);
@@ -22,20 +16,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)D;
 - (id);
 - (id);
 - (struct CGSize);
-- (void)imumNumberOfThumbnailRows;
+- (void)maximumNumberOfThumbnailRows;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *UUIDString; // @synthesize UUIDString=_UUIDString;
-@property(readonly, nonatomic) NSDate *dateAdded; // @synthesize dateAdded=_dateAdded;
-@property(readonly, nonatomic) _Bool hasGeneratedResolutions; // @synthesize hasGeneratedResolutions=_hasGeneratedResolutions;
-@property(readonly, copy, nonatomic) NSString *iconURLString; // @synthesize iconURLString=_iconURLString;
-@property(readonly, nonatomic) _Bool isRejectedResource; // @synthesize isRejectedResource=_isRejectedResource;
 @property(readonly, copy, nonatomic) NSString *pageURLString; // @synthesize pageURLString=_pageURLString;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

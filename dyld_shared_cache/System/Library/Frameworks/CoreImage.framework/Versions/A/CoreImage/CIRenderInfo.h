@@ -20,13 +20,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)?;
 
 // Remaining properties
-@property(readonly) double kernelCompileTime;
 @property(readonly) double kernelExecutionTime;
-@property(readonly) long long passCount;
-@property(readonly) long long pixelsProcessed;
 
 @end
 

@@ -11,11 +11,6 @@
 @interface UIFontDescriptor : NSFontDescriptor
 {
     NSMutableDictionary *_attributes;
-    id _reserved1;
-    id _reserved2;
-    id _reserved3;
-    id _reserved4;
-    id _reserved5;
 }
 
 @end

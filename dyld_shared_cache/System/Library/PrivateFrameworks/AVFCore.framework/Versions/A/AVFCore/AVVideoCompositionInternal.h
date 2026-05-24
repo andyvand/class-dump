@@ -4,31 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVVideoCompositionCoreAnimationTool, NSArray, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AVVideoCompositionInternal
 {
     unsigned long long changeSeed;
-    NSString *builtInCompositorName;
-    Class customCompositorClass;
-    CDStruct_1b6d18a9 frameDuration;
-    int sourceTrackIDForFrameTiming;
-    struct CGSize renderSize;
-    float renderScale;
-    NSString *colorPrimaries;
-    NSString *colorYCbCrMatrix;
-    NSString *colorTransferFunction;
-    NSString *perFrameHDRDisplayMetadataPolicy;
-    NSArray *instructions;
-    _Bool auxiliaryTrackLayerSetLast;
-    AVVideoCompositionCoreAnimationTool *animationTool;
-    NSArray *sourceSampleDataTracks;
-    NSDictionary *sourceVideoTrackWindowsForTrackIDs;
-    NSDictionary *sourceSampleDataTrackWindowsForTrackIDs;
-    NSArray *outputBufferDescription;
-    NSArray *spatialVideoConfigurations;
-    NSArray *lookupableSpatialVideoConfigurations;
 }
 
 @end

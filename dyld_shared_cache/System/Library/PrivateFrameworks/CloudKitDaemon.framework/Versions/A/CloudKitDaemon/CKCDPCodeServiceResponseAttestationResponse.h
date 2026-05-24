@@ -19,14 +19,14 @@
 - (void);
 - (id);
 - (id);
+- (void)alypsoRecord"8Q16^B24;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)APAudioSourceSharedMemoryWriterSetMessageParameters;
 - (_Bool);
-- (_Bool);
+- (_Bool)webView:(id)arg1 didStartProvisionalNavigation: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)eAssetsForUploadWithError:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties

@@ -7,14 +7,6 @@
 @interface NewsFeed.FormatAccessibilityRenderer
 {
     id identifier;
-    id accessibilityRole;
-    id dataAccessibilityValues;
-    id nestedRenderers;
-    id breakoutAccessibilityElements;
-    id customActions;
-    id commandCenter;
-    id view;
-    id $__lazy_storage_$_shadowElement;
 }
 
 @end

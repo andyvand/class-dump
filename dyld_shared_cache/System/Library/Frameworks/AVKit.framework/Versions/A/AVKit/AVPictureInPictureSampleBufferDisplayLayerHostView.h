@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVPictureInPictureSampleBufferDisplayLayerHostView
 {
     _Bool _needsGeometryUpdate;
-    _Bool _deferringGeometryUpdates;
-    AVPictureInPictureCALayerHostView *_hostView;
-    struct CGSize _imageQueueSize;
-    struct CGSize _contentDimensions;
-    struct CGRect _lastKnownFrame;
-    struct CGRect _lastKnownBounds;
 }
 
 - (void);
@@ -33,25 +27,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (void);
+- (id)internalPerPatch_ID;
+- (void)than %llu;
+- (void)@9@9@9@9@9 @9$@9(@9,@90@94@98@9;
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (struct CGSize)selineOffsetFromBottom;
+- (struct CGSize)lastBaselineOffsetFromBottom;
 - (void)¨.;
 - (unsigned int)ices:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double beginTime;
-@property(nonatomic) struct CGSize contentDimensions; // @synthesize contentDimensions=_contentDimensions;
-@property(nonatomic) unsigned int contextId;
-@property(nonatomic, getter=isDeferringGeometryUpdates) _Bool deferringGeometryUpdates; // @synthesize deferringGeometryUpdates=_deferringGeometryUpdates;
 @property(readonly, nonatomic) AVPictureInPictureCALayerHostView *hostView; // @synthesize hostView=_hostView;
-@property(nonatomic) struct CGSize imageQueueSize; // @synthesize imageQueueSize=_imageQueueSize;
-@property(nonatomic) struct CGRect lastKnownBounds; // @synthesize lastKnownBounds=_lastKnownBounds;
-@property(nonatomic) struct CGRect lastKnownFrame; // @synthesize lastKnownFrame=_lastKnownFrame;
-@property(nonatomic) _Bool needsGeometryUpdate; // @synthesize needsGeometryUpdate=_needsGeometryUpdate;
 
 @end
 

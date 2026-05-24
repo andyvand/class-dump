@@ -10,16 +10,14 @@
 {
 }
 
-+ (id);
++ (id)imageForResource: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@"HMFTimer",R,V_analyticsTimer;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *soundClickUrl;
-@property(readonly, nonatomic) NSURL *soundDoubleClickUrl;
-@property(readonly, nonatomic) NSURL *soundTripleClickUrl;
 
 @end
 

@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXElementGroup, AXUIElement, NSArray, NSDictionary, NSString, NSURL;
+@class AXUIElement;
 
 @interface AXElement
 {
     _Bool _hoverTypingShouldAdjustDockedMode;
-    _Bool _representsScannerGroup;
-    AXUIElement *_uiElement;
-    AXElementGroup *_parentGroup;
-    NSString *_localizedStringKey;
-    NSString *_localizationBundleID;
-    NSString *_localizationBundlePath;
-    NSString *_localizedStringTableName;
-    AXElement *_cachedRemoteParent;
-    AXElement *_cachedRemoteParentForContextID;
-    struct CGPath *_cachedPath;
-    struct CGRect _cachedFrame;
-    struct CGRect _cachedVisibleFrame;
 }
 
 + (void);
-+ (id);
++ (id)-;
 + (id);
 + (int);
 + (void);
@@ -47,7 +35,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)˄ ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -78,12 +66,13 @@
 - (struct __AXUIElement *);
 - (unsigned long long);
 - (long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)!;
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -94,8 +83,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -123,15 +111,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -161,7 +149,8 @@
 - (void);
 - (id);
 - (id);
-- (struct CGRect);
+- (struct CGRect)$Em
+,Fm4Gm<Hm-;
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
@@ -182,20 +171,20 @@
 - (id);
 - (struct CGPath *);
 - (struct CGRect);
-- (id);
-- (id);
-- (_Bool);
+- (id)!;
 - (id);
 - (_Bool);
-- (long long);
+- (id);
+- (_Bool);
+- (long long)-;
 - (_Bool);
 - (id);
 - (id);
+- (id)-;
+- (id)ք;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -224,11 +213,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)),;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)T: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -239,25 +228,25 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)m;
 - (id);
 - (_Bool);
 - (void);
 - (struct _NSRange);
 - (double);
-- (id);
+- (id)7;
 - (_Bool);
 - (struct CGPoint);
 - (id);
 - (id);
-- (id);
+- (id)K;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)a;
 - (struct CGPoint);
 - (void);
 - (int);
@@ -267,24 +256,24 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (id);
+- (id)J_A;
 - (_Bool);
 - (struct CGPoint);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)RESTRICTED;
+- (_Bool)mt_dictionaryWithValuesForKeyPaths:(id)arg1;
+- (struct CGRect)x;
+- (id)PodcastsStateCoordinatorPersistentStoreProtocol;
 - (_Bool);
-- (struct CGRect);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (id);
 - (struct CGPoint);
-- (struct CGPath *);
+- (struct CGPath *);
 - (id);
 - (struct CGPoint);
 - (struct CGRect);
@@ -292,133 +281,11 @@
 - (void);
 - (struct _NSRange);
 - (_Bool);
-- (_Bool);
-- (void)Sound;
+- (_Bool)defaultManager;
+- (void)AXAnnouncementTypeFolderOpenedSound;
 
 // Remaining properties
-@property(readonly, nonatomic) AXElement *accessibilityUIServerApplication;
-@property(readonly, nonatomic) AXElement *accessibleAncestor;
-@property(readonly, nonatomic) NSArray *accessibleDescendants;
-@property(readonly, nonatomic) AXElement *application;
-@property(readonly, nonatomic) _Bool applicationIsModal;
-@property(readonly, nonatomic) long long applicationOrientation;
-@property(nonatomic) _Bool assistiveTechFocused;
-@property(retain, nonatomic) AXElement *autoscrollTarget;
-@property(readonly, nonatomic) NSString *axIdentifier;
-@property(readonly, nonatomic) NSString *bundleId;
-@property(nonatomic) struct CGRect cachedFrame; // @synthesize cachedFrame=_cachedFrame;
-@property(retain, nonatomic) struct CGPath *cachedPath; // @synthesize cachedPath=_cachedPath;
-@property(retain, nonatomic) AXElement *cachedRemoteParent; // @synthesize cachedRemoteParent=_cachedRemoteParent;
-@property(retain, nonatomic) AXElement *cachedRemoteParentForContextID; // @synthesize cachedRemoteParentForContextID=_cachedRemoteParentForContextID;
-@property(nonatomic) struct CGRect cachedVisibleFrame; // @synthesize cachedVisibleFrame=_cachedVisibleFrame;
-@property(readonly, nonatomic) _Bool canPerformEscape;
-@property(readonly, nonatomic) _Bool canPerformZoom;
-@property(readonly, nonatomic) struct CGPoint centerPoint;
-@property(readonly, nonatomic) NSArray *children;
-@property(readonly, nonatomic) unsigned long long containerType;
-@property(readonly, nonatomic) AXElement *currentApplication;
-@property(readonly, nonatomic) NSArray *currentApplications;
-@property(readonly, nonatomic) NSArray *currentApplicationsIgnoringSiri;
-@property(readonly, nonatomic) AXElement *currentFocusContainer;
-@property(readonly, nonatomic) NSArray *customActions;
-@property(readonly, nonatomic) NSArray *customContent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *drags;
-@property(readonly, nonatomic) NSArray *drops;
-@property(readonly, nonatomic) AXElement *elementForTextInsertionAndDeletion;
-@property(readonly, nonatomic) AXElement *elementParent;
-@property(readonly, nonatomic) struct __AXUIElement *elementRef;
-@property(readonly, nonatomic) NSString *elementTransactionSummary;
-@property(readonly, nonatomic) NSArray *elementsWithSemanticContext;
-@property(readonly, nonatomic) NSArray *explorerElements;
-@property(readonly, nonatomic) NSString *fbSceneIdentifier;
-@property(readonly, nonatomic) AXElement *firstElementInApplication;
-@property(readonly, nonatomic) AXElement *firstElementInApplicationForFocus;
-@property(readonly, nonatomic) AXElement *firstResponder;
-@property(readonly, nonatomic) struct CGRect focusableFrameForZoom;
-@property(readonly, nonatomic) NSArray *focusedOccludedAppSceneIdentifiers;
-@property(readonly, nonatomic) NSString *focusedSceneIdentifier;
-@property(readonly, nonatomic) struct CGRect frame;
-@property(readonly, nonatomic) _Bool hasTextEntry;
-@property(readonly, nonatomic) _Bool hasVariantKeys;
-@property(readonly, nonatomic) _Bool hasWebContent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *hint;
-@property(readonly, nonatomic) _Bool hoverTypingShouldAdjustDockedMode; // @synthesize hoverTypingShouldAdjustDockedMode=_hoverTypingShouldAdjustDockedMode;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isAXUIServer;
-@property(readonly, nonatomic) _Bool isAccessibilityOpaqueElementProvider;
-@property(readonly, nonatomic) _Bool isAccessibleElement;
-@property(readonly, nonatomic) _Bool isAutoscrolling;
-@property(readonly, nonatomic) _Bool isComboBox;
-@property(readonly, nonatomic) _Bool isControlCenterVisible;
-@property(readonly, nonatomic) _Bool isDictationListening;
-@property(readonly, nonatomic) _Bool isKeyboardKey;
-@property(readonly, nonatomic) _Bool isMathEquation;
-@property(readonly, nonatomic) _Bool isScannerElement;
-@property(readonly, nonatomic) _Bool isScreenLocked;
-@property(readonly, nonatomic) _Bool isSpringBoard;
-@property(readonly, nonatomic) _Bool isSystemApplication;
-@property(readonly, nonatomic) _Bool isSystemWideElement;
-@property(readonly, nonatomic) _Bool isTouchContainer;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) _Bool isVisible;
-@property(readonly, nonatomic) NSString *label;
-@property(readonly, nonatomic) NSString *language;
-@property(readonly, nonatomic) NSString *localizationBundleID; // @synthesize localizationBundleID=_localizationBundleID;
-@property(readonly, nonatomic) NSString *localizationBundlePath; // @synthesize localizationBundlePath=_localizationBundlePath;
-@property(readonly, nonatomic) NSString *localizedStringKey; // @synthesize localizedStringKey=_localizedStringKey;
-@property(readonly, nonatomic) NSString *localizedStringTableName; // @synthesize localizedStringTableName=_localizedStringTableName;
-@property(readonly, nonatomic, getter=isNativeFocused) _Bool nativeFocus;
-@property(readonly, nonatomic) AXElement *nativeFocusElement;
-@property(readonly, nonatomic) AXElement *nativeFocusPreferredElement;
-@property(readonly, nonatomic) NSArray *nativeFocusableElements;
-@property(readonly, nonatomic) NSArray *ornamentWindows;
-@property(readonly, nonatomic) NSArray *parent;
-@property(nonatomic) AXElementGroup *parentGroup; // @synthesize parentGroup=_parentGroup;
-@property(nonatomic, getter=isPassivelyListeningForEvents) _Bool passivelyListeningForEvents;
-@property(readonly, nonatomic) struct CGPath *path;
-@property(readonly, nonatomic) int pid;
-@property(readonly, nonatomic) NSString *processName;
-@property(readonly, nonatomic) AXElement *remoteParent;
-@property(readonly, nonatomic) _Bool representsScannerGroup; // @synthesize representsScannerGroup=_representsScannerGroup;
-@property(readonly, nonatomic) _Bool required;
-@property(readonly, nonatomic) _Bool respondsToUserInteraction;
-@property(readonly, nonatomic) NSString *roleDescription;
-@property(readonly, nonatomic) struct _NSRange rowRange;
-@property(readonly, nonatomic) long long scannerActivateBehavior;
-@property(readonly, nonatomic) unsigned long long scanningBehaviorTraits;
-@property(nonatomic) struct _NSRange selectedTextRange;
-@property(readonly, nonatomic) NSDictionary *semanticContext;
-@property(readonly, nonatomic) NSArray *siriContentElementsWithSemanticContext;
-@property(readonly, nonatomic) NSArray *siriContentNativeFocusableElements;
-@property(readonly, nonatomic) NSString *speakThisString;
-@property(readonly, nonatomic) NSString *speechInputLabel;
-@property(readonly, nonatomic) AXElement *springBoardApplication;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *supportedGestures;
-@property(readonly, nonatomic) AXElement *systemApplication;
-@property(readonly, nonatomic) struct CGRect textCursorFrame;
-@property(readonly, nonatomic) NSArray *textOperations;
-@property(readonly, nonatomic) NSString *textualContext;
-@property(readonly, nonatomic) AXElement *touchContainer;
-@property(readonly, nonatomic) unsigned long long traits;
-@property(readonly, nonatomic) NSArray *typingCandidates;
 @property(retain, nonatomic) AXUIElement *uiElement; // @synthesize uiElement=_uiElement;
-@property(readonly, nonatomic) NSURL *url;
-@property(readonly, nonatomic) NSArray *userInputLabels;
-@property(nonatomic) NSString *value;
-@property(readonly, nonatomic) NSArray *variantKeys;
-@property(readonly, nonatomic) NSArray *visibleElements;
-@property(readonly, nonatomic) struct CGRect visibleFrame;
-@property(readonly, nonatomic) struct CGPoint visiblePoint;
-@property(readonly, nonatomic) unsigned int windowContextId;
-@property(readonly, nonatomic) unsigned int windowDisplayId;
-@property(readonly, nonatomic) NSString *windowSceneIdentifier;
 
 @end
 

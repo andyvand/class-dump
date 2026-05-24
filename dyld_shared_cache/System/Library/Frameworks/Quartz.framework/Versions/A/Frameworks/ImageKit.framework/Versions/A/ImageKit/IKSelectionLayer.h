@@ -28,11 +28,11 @@
 - (void);
 - (struct CGImage *);
 - (void);
-- (_Bool);
+- (_Bool)u;
 - (void);
 - (void);
 - (struct CGRect);
-- (void)eAtIndexes: /* Error: Ran out of types for this method. */;
+- (void)contentDidChangeAtIndexes: /* Error: Ran out of types for this method. */;
 - (void)eviceViewHandler.hasDisplayModeSimple;
 
 @end

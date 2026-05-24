@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRTemplatesListInteractor
 {
     id delegate;
-    id lastFetchedTemplates;
-    id account;
-    id undoManager;
-    id committer;
-    id removeTemplateCapability;
-    id dataViewMonitor;
 }
 
 @end

@@ -11,15 +11,6 @@
 @interface INFERENCESchemaINFERENCENotebookAppSelectionTrainingIndependentSignals : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCECommonAppIndependentSignals *_commonIndependent;
-    _Bool _isNotebookTitlePresent;
-    _Bool _isNotebookPayloadPresent;
-    _Bool _isNotebookGroupPresent;
-    struct {
-        unsigned int isNotebookTitlePresent:1;
-        unsigned int isNotebookPayloadPresent:1;
-        unsigned int isNotebookGroupPresent:1;
-    } _has;
-    _Bool _hasCommonIndependent;
 }
 
 @end

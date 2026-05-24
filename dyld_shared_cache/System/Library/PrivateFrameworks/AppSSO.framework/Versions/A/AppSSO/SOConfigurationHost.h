@@ -4,88 +4,76 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSTimer, SOConfiguration, SOConfigurationVersion;
+@class NSMutableDictionary, SOConfiguration;
 
 @interface SOConfigurationHost
 {
     SOConfiguration *_configuration;
-    SOConfigurationVersion *_configurationVersion;
-    NSMutableArray *_removedProfiles;
-    _Bool _configurationPending;
-    NSMutableDictionary *_associatedDomainCache;
-    NSObject *_configurationPendingLock;
-    NSTimer *_configLoadTimer;
-    NSObject *_configLoadTimerLock;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long)%;
+- (id)?;
+- (_Bool)_;
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (_Bool)DIDNT_GET_VERIFICATION_CODE_BUTTON_TITLE;
+- (id)AUTHORIZE_FIRST_TIME_TITLE;
+- (id);
+- (_Bool);;
+- (_Bool);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)INHERITANCE_SHARE_KEY_OPTION_PRINT_DETAILTEXT;
+- (_Bool);
 - (void);
+- (_Bool);
 - (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id)settingsCustomizedChangedHandlers;
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
 - (long long);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (long long);
-- (id)abled;
+- (id)createUsersEnabled;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *associatedDomainCache; // @synthesize associatedDomainCache=_associatedDomainCache;
-@property(retain) NSTimer *configLoadTimer; // @synthesize configLoadTimer=_configLoadTimer;
-@property(retain) NSObject *configLoadTimerLock; // @synthesize configLoadTimerLock=_configLoadTimerLock;
-@property(readonly, nonatomic) long long configVersion;
-@property _Bool configurationPending; // @synthesize configurationPending=_configurationPending;
-@property(retain) NSObject *configurationPendingLock; // @synthesize configurationPendingLock=_configurationPendingLock;
 
 @end
 

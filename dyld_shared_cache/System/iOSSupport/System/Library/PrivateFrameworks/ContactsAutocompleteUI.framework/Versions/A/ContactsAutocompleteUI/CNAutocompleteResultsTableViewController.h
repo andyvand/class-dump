@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteSearchControllerOptions, CNAvatarViewControllerSettings, NSArray, NSMutableArray, NSMutableSet, NSString, _CNAutocompleteResultsTableViewModel;
-@protocol CNAutocompleteResultsTableViewControllerDelegate;
+@class NSMutableArray, NSMutableSet;
 
 @interface CNAutocompleteResultsTableViewController
 {
     NSMutableArray *_searchResults;
-    NSMutableArray *_suggestedSearchResults;
-    NSMutableArray *_serverSearchResults;
-    _CNAutocompleteResultsTableViewModel *_tableViewModel;
-    _Bool _tableViewNeedsReload;
-    _Bool _ignoreDidEndDisplayingCell;
-    _Bool _cachedIsInPopover;
-    _Bool _deferTableViewUpdates;
-    _Bool _inDisambiguationMode;
-    _Bool _hasPerformedRecipientExpansion;
-    _Bool _supportsInfoButton;
-    _Bool _shouldHideInfoButton;
-    id <CNAutocompleteResultsTableViewControllerDelegate> _delegate;
-    NSArray *_recipients;
-    double _trailingButtonMidlineInsetFromLayoutMargin;
-    NSMutableSet *_expandedIdentifiers;
-    CNAvatarViewControllerSettings *_sharedAvatarViewControllerSettings;
-    CNAutocompleteSearchControllerOptions *_options;
 }
 
 + (_Bool);
@@ -44,8 +26,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,7 +57,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (void);
 - (void);
@@ -96,10 +78,10 @@
 - (double);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -115,24 +97,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic, getter=isDeferringTableViewUpdates) _Bool deferTableViewUpdates; // @synthesize deferTableViewUpdates=_deferTableViewUpdates;
-@property(nonatomic) __weak id <CNAutocompleteResultsTableViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableSet *expandedIdentifiers; // @synthesize expandedIdentifiers=_expandedIdentifiers;
-@property(nonatomic) _Bool hasPerformedRecipientExpansion; // @synthesize hasPerformedRecipientExpansion=_hasPerformedRecipientExpansion;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inDisambiguationMode; // @synthesize inDisambiguationMode=_inDisambiguationMode;
-@property(retain, nonatomic) CNAutocompleteSearchControllerOptions *options; // @synthesize options=_options;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(retain, nonatomic) CNAvatarViewControllerSettings *sharedAvatarViewControllerSettings; // @synthesize sharedAvatarViewControllerSettings=_sharedAvatarViewControllerSettings;
-@property(nonatomic) _Bool shouldHideInfoButton; // @synthesize shouldHideInfoButton=_shouldHideInfoButton;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsInfoButton; // @synthesize supportsInfoButton=_supportsInfoButton;
-@property(nonatomic) double trailingButtonMidlineInsetFromLayoutMargin; // @synthesize trailingButtonMidlineInsetFromLayoutMargin=_trailingButtonMidlineInsetFromLayoutMargin;
 
 @end
 

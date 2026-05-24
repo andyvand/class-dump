@@ -16,13 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)%d times;
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (_Bool);

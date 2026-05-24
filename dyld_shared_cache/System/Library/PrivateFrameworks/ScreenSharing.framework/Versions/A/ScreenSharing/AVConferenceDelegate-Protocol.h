@@ -5,5 +5,9 @@
 //
 
 @protocol AVConferenceDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

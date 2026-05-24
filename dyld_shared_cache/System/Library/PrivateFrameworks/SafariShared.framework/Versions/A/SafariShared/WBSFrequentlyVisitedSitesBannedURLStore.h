@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 @interface WBSFrequentlyVisitedSitesBannedURLStore
 {
     NSURL *_storeURL;
-    NSObject<OS_dispatch_queue> *_storeQueue;
-    NSMutableDictionary *_bannedURLStringsToEntriesMap;
 }
 
 - (void);

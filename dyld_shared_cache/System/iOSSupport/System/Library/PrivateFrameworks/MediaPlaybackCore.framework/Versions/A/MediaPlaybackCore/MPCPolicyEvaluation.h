@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MPCPolicyEvaluation
 {
     _Bool _disableVocalAttenuation;
-    _Bool _canBeOverriden;
-    long long _policyType;
-    NSString *_explanation;
 }
 
-- (_Bool);
+- (_Bool)aa_accountClass;
 - (void);
 - (void);
 - (_Bool);
@@ -27,10 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)ate=%{public}@;
 
 // Remaining properties
-@property(nonatomic) _Bool canBeOverriden; // @synthesize canBeOverriden=_canBeOverriden;
 @property(nonatomic, getter=shouldDisableVocalAttenuation) _Bool disableVocalAttenuation; // @synthesize disableVocalAttenuation=_disableVocalAttenuation;
-@property(copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
-@property(nonatomic) long long policyType; // @synthesize policyType=_policyType;
 
 @end
 

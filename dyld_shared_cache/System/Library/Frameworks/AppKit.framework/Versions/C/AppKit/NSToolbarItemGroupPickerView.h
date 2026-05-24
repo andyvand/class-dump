@@ -6,33 +6,12 @@
 
 #import <AppKit/NSView.h>
 
-@class NSArray, NSFont, NSImage, NSLayoutConstraint, NSMutableIndexSet, NSPopUpButton, NSString, NSToolbarItemGroupPickerExpandedView;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSToolbarItemGroupPickerView : NSView
 {
     NSArray *_subitems;
-    long long _controlRepresentation;
-    long long _effectiveControlRepresentation;
-    long long _selectionMode;
-    NSString *_title;
-    NSImage *_image;
-    unsigned long long _controlSize;
-    NSFont *_font;
-    long long _selectedIndex;
-    NSMutableIndexSet *_selectedIndexes;
-    _Bool _enabled;
-    _Bool _supportsCollapsedRepresentation;
-    id _target;
-    SEL _action;
-    struct CGSize _minimumCollapsedSize;
-    struct CGSize _minimumExpandedSize;
-    struct CGSize _maximumExpandedSize;
-    NSLayoutConstraint *_minWidthConstraint;
-    NSLayoutConstraint *_maxWidthConstraint;
-    NSLayoutConstraint *_heightConstraint;
-    NSToolbarItemGroupPickerExpandedView *_segmentedControl;
-    NSPopUpButton *_popUpButton;
 }
 
 - (void);
@@ -49,30 +28,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (struct CGSize)loadedTimeRanges;
+- (struct CGSize)figuration",&,V_downloadConfig;
 - (struct CGSize);
-- (struct CGSize);
-- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (void)6;
+- (id)nHandler:(id)arg1 ]_block_invoke;
+- (void)oundSession <%{public}@> error creating background downloads directory:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
+- (void)ry_ID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, 	 version INTEGER, hash_value INTEGER, storage_policy INTEGER, request_key TEXT UNIQUE, 	 time_stamp NOT NULL DEFAULT CURRENT_TIMESTAMP, partition TEXT);;
+- (struct CGSize)tate}^{__shared_weak_count}}8;
+- (id);
 - (void);
 - (unsigned long long);
 - (void);
@@ -84,40 +63,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)y;
 - (void);
 - (void)te>";
 - (id)ó¢;
 - (id)¼;
 - (SEL);
-- (void)es;
+- (void)_targetAlphaValues;
 - (void)hAByAByð;
 - (id)want to keep this new copy \U201C%@\U201D?;
-- (void)ityDescription;
-- (void)QRSTUVWXYZ;
-- (struct NSEdgeInsets)hunkedBySequence;
-- (void)uttonRepresentable;
+- (void)NSAccessibilityDescription;
+- (void)ABCDEFGHIJKLMNOPQRSTUVWXYZ;
+- (struct NSEdgeInsets)ChunkedBySequence;
+- (void)SearchFieldAccessoryButtonRepresentable;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property long long controlRepresentation;
-@property unsigned long long controlSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) long long effectiveControlRepresentation;
-@property(getter=isEnabled) _Bool enabled;
-@property(copy) NSFont *font;
-@property(readonly) unsigned long long hash;
-@property(retain) NSImage *image;
-@property long long selectedIndex;
-@property long long selectionMode;
 @property(retain) NSArray *subitems;
-@property(readonly) Class superclass;
-@property __weak id target; // @synthesize target=_target;
-@property(copy) NSString *title;
 
 @end
 

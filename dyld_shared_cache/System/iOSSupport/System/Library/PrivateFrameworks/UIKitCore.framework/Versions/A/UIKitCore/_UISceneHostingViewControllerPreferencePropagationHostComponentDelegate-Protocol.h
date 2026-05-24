@@ -5,5 +5,7 @@
 //
 
 @protocol _UISceneHostingViewControllerPreferencePropagationHostComponentDelegate
+- (void);
+- (void);
 @end
 

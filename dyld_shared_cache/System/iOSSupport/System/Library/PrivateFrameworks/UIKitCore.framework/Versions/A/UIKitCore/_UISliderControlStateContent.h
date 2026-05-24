@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _UISliderControlStateContent
 {
     UIImage *_thumb;
-    UIImage *_minTrack;
-    UIImage *_maxTrack;
 }
 
 - (void);
@@ -24,9 +22,6 @@ __attribute__((visibility("hidden")))
 - (void)______ß?ÑÐÐÐÐÐà?qqqqqqá?Û?Ü?YYYYYYÙ?ZZZZZZÚ?;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(retain, nonatomic) UIImage *maxTrack; // @synthesize maxTrack=_maxTrack;
-@property(retain, nonatomic) UIImage *minTrack; // @synthesize minTrack=_minTrack;
 @property(retain, nonatomic) UIImage *thumb; // @synthesize thumb=_thumb;
 
 @end

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPXExtensionContext, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class FPXExtensionContext;
 
 __attribute__((visibility("hidden")))
 @interface FPXConnectionHandler
 {
     FPXExtensionContext *_currentContext;
-    int _activeConnections;
-    NSObject<OS_dispatch_source> *_terminationTimer;
-    NSObject<OS_dispatch_queue> *_timerQueue;
 }
 
 - (id);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)setChatCapabilities:(double)arg1;
 - (_Bool);
 - (Class);
 - (void);

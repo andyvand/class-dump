@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface HMCConformanceCache
 {
     struct os_unfair_lock_s _lock;
-    NSSet *_protocols;
-    NSMapTable *_conformanceCache;
 }
 
 - (void);

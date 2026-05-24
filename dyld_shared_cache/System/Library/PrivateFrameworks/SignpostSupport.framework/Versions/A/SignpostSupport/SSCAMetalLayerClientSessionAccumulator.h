@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface SSCAMetalLayerClientSessionAccumulator
 {
     _Bool _includeTimelines;
-    CDUnknownBlockType _layerStatsProcessingBlock;
-    CDUnknownBlockType _resourceUsageStatsProcessingBlock;
-    NSObject<OS_dispatch_queue> *_processingBlockTargetQueue;
-    NSMutableArray *_mutableBootSessions;
-    NSMutableArray *_mutableProcessingErrors;
 }
 
 + (_Bool);
@@ -37,37 +31,20 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)";
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
+- (void)TH;
+- (void);
+- (id);
+- (void)event time range, clearing target process;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bootSessions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *earliestDateProcessed;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeTimelines; // @synthesize includeTimelines=_includeTimelines;
-@property(readonly, nonatomic) NSDate *latestDateProcessed;
-@property(copy, nonatomic) CDUnknownBlockType layerStatsProcessingBlock; // @synthesize layerStatsProcessingBlock=_layerStatsProcessingBlock;
 @property(readonly, nonatomic) NSMutableArray *mutableBootSessions; // @synthesize mutableBootSessions=_mutableBootSessions;
-@property(readonly, nonatomic) NSMutableArray *mutableProcessingErrors; // @synthesize mutableProcessingErrors=_mutableProcessingErrors;
-@property(readonly, nonatomic) NSDictionary *processNameToClientSessions;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *processingBlockTargetQueue; // @synthesize processingBlockTargetQueue=_processingBlockTargetQueue;
-@property(readonly, nonatomic) NSArray *processingErrors;
-@property(copy, nonatomic) CDUnknownBlockType resourceUsageStatsProcessingBlock; // @synthesize resourceUsageStatsProcessingBlock=_resourceUsageStatsProcessingBlock;
-@property(readonly) Class superclass;
 
 @end
 

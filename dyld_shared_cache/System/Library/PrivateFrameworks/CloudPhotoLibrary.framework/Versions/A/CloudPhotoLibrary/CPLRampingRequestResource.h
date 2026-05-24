@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CPLRampingRequestResource
 {
     long long _numRequested;
-    NSString *_resource;
-    struct {
-        unsigned int numRequested:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)asks);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)(;
 - (_Bool);
-- (void)!tGùq°1Â0@ù
-× ;
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -36,10 +29,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumRequested;
 @property(readonly, nonatomic) _Bool hasResource;
-@property(nonatomic) long long numRequested; // @synthesize numRequested=_numRequested;
-@property(retain, nonatomic) NSString *resource; // @synthesize resource=_resource;
 
 @end
 

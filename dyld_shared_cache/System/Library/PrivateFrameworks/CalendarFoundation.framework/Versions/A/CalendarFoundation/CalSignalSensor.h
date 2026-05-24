@@ -10,24 +10,21 @@
 @interface CalSignalSensor
 {
     NSObject<OS_dispatch_source> *_signalSource;
-    int _signal;
-    CDUnknownBlockType _fireBlock;
 }
 
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (id);
+- (void)L;
 - (void);
 - (void);
-- (void);
-- (int);
+- (int)dsAttrTypeStandard:AppleMetaNodeLocation /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fireBlock; // @synthesize fireBlock=_fireBlock;
 @property(nonatomic) int signal; // @synthesize signal=_signal;
 
 @end

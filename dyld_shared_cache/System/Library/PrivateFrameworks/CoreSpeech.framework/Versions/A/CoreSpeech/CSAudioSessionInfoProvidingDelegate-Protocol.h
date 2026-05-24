@@ -5,5 +5,9 @@
 //
 
 @protocol CSAudioSessionInfoProvidingDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

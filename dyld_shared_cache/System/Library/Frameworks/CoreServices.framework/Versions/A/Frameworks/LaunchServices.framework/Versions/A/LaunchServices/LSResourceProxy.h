@@ -6,16 +6,14 @@
 
 #import <LaunchServices/_LSQueryResult.h>
 
-@class NSDictionary, NSString, _LSLazyPropertyList;
-@protocol LSIconResourceLocator;
+@class NSString;
 
 @interface LSResourceProxy : _LSQueryResult
 {
     NSString *_localizedName;
-    _LSLazyPropertyList *__iconsDictionary;
 }
 
-+ (_Bool);
++ (_Bool)tor"16;
 - (unsigned long long);
 - (id);
 - (id);
@@ -31,19 +29,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)@#;
+- (id)h ;
 - (id);
 - (void)øV;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setIconsDictionary:) _LSLazyPropertyList *_iconsDictionary; // @synthesize _iconsDictionary=__iconsDictionary;
-@property(readonly, nonatomic) _Bool boundIconIsBadge;
-@property(readonly, nonatomic) id <LSIconResourceLocator> iconResourceLocator;
-@property(readonly, nonatomic) NSDictionary *iconsDictionary;
 @property(copy, nonatomic, setter=_setLocalizedName:) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, nonatomic) NSString *primaryIconName;
-@property(nonatomic) unsigned long long propertyListCachingStrategy;
 
 @end
 

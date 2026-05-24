@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLSessionTaskDelegatePrivate
+
+@optional
+- (void);
+- (void);
 @end
 

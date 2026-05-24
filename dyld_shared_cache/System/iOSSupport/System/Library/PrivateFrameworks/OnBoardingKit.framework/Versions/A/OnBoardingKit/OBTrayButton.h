@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)nt=dd}{CGSize=dd}}96d128d136d144;
 
 @end
 

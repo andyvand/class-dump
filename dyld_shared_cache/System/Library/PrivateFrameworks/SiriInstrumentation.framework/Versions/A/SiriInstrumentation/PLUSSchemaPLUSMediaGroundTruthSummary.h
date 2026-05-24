@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PLUSSchemaPLUSMediaGroundTruthSummary : SISchemaInstrumentationMessage
 {
     int _source;
-    int _groundTruthCount;
-    int _mediaEntityCount;
-    struct {
-        unsigned int source:1;
-        unsigned int groundTruthCount:1;
-        unsigned int mediaEntityCount:1;
-    } _has;
 }
 
 - (void);
@@ -30,29 +21,23 @@
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool):(id)arg1 %@;
 - (void);
 - (id);
 - (int);
 - (id)qÝð1Â0@ù
 × ;
-- (id)eiDictationEuclidAlternativesEvent;
+- (id)_hasUeiDictationEuclidAlternativesEvent;
 - (id)_hasGmsModelRequestContext;
-- (_Bool)tionContext;
-- (void)AILUREREASON_PROFILE_WRITE_FAILED;
+- (_Bool)homeAutomationContext;
+- (void)ASRSPEECHPROFILEUPDATEFAILUREREASON_PROFILE_WRITE_FAILED;
 
 // Remaining properties
-@property(nonatomic) int groundTruthCount; // @synthesize groundTruthCount=_groundTruthCount;
-@property(nonatomic) _Bool hasGroundTruthCount;
-@property(nonatomic) _Bool hasMediaEntityCount;
-@property(nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int mediaEntityCount; // @synthesize mediaEntityCount=_mediaEntityCount;
 @property(nonatomic) int source; // @synthesize source=_source;
 
 @end

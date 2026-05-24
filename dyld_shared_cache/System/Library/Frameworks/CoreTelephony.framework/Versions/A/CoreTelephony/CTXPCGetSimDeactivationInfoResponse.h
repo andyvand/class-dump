@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)V$cK;
+- (id)�;
 
 // Remaining properties
 @property(readonly, nonatomic) CTSimDeactivationInfo *info;

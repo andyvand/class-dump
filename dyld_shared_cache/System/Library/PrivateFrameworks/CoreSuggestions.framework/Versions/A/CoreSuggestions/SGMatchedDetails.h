@@ -9,10 +9,9 @@
 @interface SGMatchedDetails
 {
     NSDictionary *_tokenDetailMap;
-    NSDictionary *_detailTokenMap;
 }
 
-+ (long long);
++ (long long);
 + (long long);
 + (long long);
 + (id);

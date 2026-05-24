@@ -17,9 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long attachment; // @dynamic attachment;
-@property(readonly, nonatomic) unsigned long long fillMode; // @dynamic fillMode;
-@property(readonly, nonatomic) unsigned long long horizontalAlignment; // @dynamic horizontalAlignment;
-@property(readonly, nonatomic) unsigned long long verticalAlignment; // @dynamic verticalAlignment;
 
 @end
 

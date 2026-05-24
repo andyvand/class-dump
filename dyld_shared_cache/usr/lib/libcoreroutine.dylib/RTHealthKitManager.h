@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSString;
-
 @interface RTHealthKitManager : RTService
 {
 }
@@ -15,21 +13,15 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-- (id);
++ (id)endorse;
+- (id)createNewIdentities:(id)arg1 roll:(id)arg2 sync:(id)arg3 forceSync:(id)arg4 complete: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

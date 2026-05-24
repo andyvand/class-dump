@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol NSURLSessionDataDelegate><NSURLSessionDelegate><NSURLSessionTaskDelegate;
 
 @interface _AAURLSessionDelegate
@@ -14,22 +13,15 @@
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void)Account:completion: /* Error: Ran out of types for this method. */;
+- (id)SError"8;
+- (void)signOutFlowController:startSignOutForAccount:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <NSURLSessionDataDelegate><NSURLSessionDelegate><NSURLSessionTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

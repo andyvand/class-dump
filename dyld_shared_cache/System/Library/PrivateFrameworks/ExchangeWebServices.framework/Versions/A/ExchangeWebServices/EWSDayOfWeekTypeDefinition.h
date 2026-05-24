@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)m writer is already stopped;
 
 @end
 

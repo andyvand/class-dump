@@ -6,7 +6,7 @@
 
 #import <AddressBook/ABCardCollectionRowView.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ABCardCollectionNoteRowView : ABCardCollectionRowView
 {
@@ -15,7 +15,7 @@
 
 + (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)&;
 - (id);
 - (double);
 - (double);
@@ -33,27 +33,20 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)ionPolicyLayer:%@, versionSUCore:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)1ªð1Â0@ù
 × ;
 - (void);
-- (void)mmandWithImage:(struct _NSRange)arg1;
+- (void)makeSetImageCommandWithImage:(struct _NSRange)arg1;
 - (void)¼;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long noteInsertionPoint;
-@property(readonly) Class superclass;
 
 @end
 

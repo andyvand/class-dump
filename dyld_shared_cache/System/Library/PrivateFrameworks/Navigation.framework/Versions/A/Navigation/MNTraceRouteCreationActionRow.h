@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsRequest, GEODirectionsResponse, NSArray, NSError;
-
 @interface MNTraceRouteCreationActionRow
 {
     double _requestTimestamp;
-    double _responseTimestamp;
-    GEODirectionsRequest *_request;
-    GEODirectionsResponse *_response;
-    NSError *_error;
-    NSArray *_anchorPoints;
-    unsigned long long _action;
 }
 
 - (void);
 - (void);
-- (double);
-- (double);
+- (double);
+- (double)H886;
 - (void);
 - (id);
 - (id);
@@ -35,13 +27,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long action; // @synthesize action=_action;
-@property(retain, nonatomic) NSArray *anchorPoints; // @synthesize anchorPoints=_anchorPoints;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) GEODirectionsRequest *request; // @synthesize request=_request;
 @property(nonatomic) double requestTimestamp; // @synthesize requestTimestamp=_requestTimestamp;
-@property(retain, nonatomic) GEODirectionsResponse *response; // @synthesize response=_response;
-@property(nonatomic) double responseTimestamp; // @synthesize responseTimestamp=_responseTimestamp;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <ReminderKit/REMBaseSectionChangeItem.h>
 
-@class NSString, REMObjectID;
+@class REMObjectID;
 
 @interface REMListSectionChangeItem : REMBaseSectionChangeItem
 {
@@ -22,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *canonicalName; // @dynamic canonicalName;
 @property(retain, nonatomic) REMObjectID *listID;
 
 @end

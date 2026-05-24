@@ -4,81 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPItem, NSError, NSNumber, NSObject, NSSet, NSString, NSURL, QLDiskStore, QLPreviewThumbnailGenerator, QLThumbnailGenerationRequest;
-@protocol OS_dispatch_group, OS_os_activity, QLIncrementalThumbnailGenerationHandler;
+@class NSNumber;
 
 @interface QLTGeneratorThumbnailRequest
 {
     _Bool _cancelled;
-    _Bool _didCheckCache;
-    _Bool _isUbiquitousKnown;
-    _Bool _isDownloadedKnown;
-    _Bool _isUbiquitous;
-    _Bool _isDownloaded;
-    QLThumbnailGenerationRequest *_request;
-    QLPreviewThumbnailGenerator *_generator;
-    NSObject<OS_dispatch_group> *_batchDispatchGroup;
-    NSError *_generationError;
-    id <QLIncrementalThumbnailGenerationHandler> _generationHandler;
-    unsigned long long _handledRequestedTypes;
-    unsigned long long _successfullyHandldedRequestedTypes;
-    unsigned long long _badgeType;
-    NSObject<OS_os_activity> *_topActivity;
-    NSObject<OS_os_activity> *_activity;
-    NSURL *_taggedLogicalURL;
-    FPItem *_item;
-    NSString *_clientApplicationIdentifier;
-    NSSet *_allowedTypesForGeneration;
-    long long _extensionMatchingType;
-    CDUnknownBlockType _downloadCompletionHandler;
-    NSNumber *_requestBadgeType;
-    QLDiskStore *_diskStore;
 }
 
+- (unsigned long long)BasebandFirmwareVersion;
+- (id)BasebandChipset;
+- (id)SerialNumber;
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)rrierSeedBuild = %s, CustomerSeedBuild = %s, DeviceSerialNumber = %@;
+- (void)= %s, dualSIMCapable = %s, dualSIMEnabled = %s, Baseband Chipset = %@, WiFi Chipset = %@, InternalBuild = %s, FactoryBuild = %s, VendorBuild = %s, CarrierBuild = %s, SeedBuild = %s, CarrierSeedBuild = %s, CustomerSeedBuild = %s, DeviceSerialNumber = %@;
+- (void)atform = %@, BuildVariant = %@, basebandCapability = %s, dualSIMCapable = %s, dualSIMEnabled = %s, Baseband Chipset = %@, WiFi Chipset = %@, InternalBuild = %s, FactoryBuild = %s, VendorBuild = %s, CarrierBuild = %s, SeedBuild = %s, CarrierSeedBuild = %s, CustomerSeedBuild = %s, DeviceSerialNumber = %@;
+- (void)?0i8^{__CFDictionary=}12;
+- (void)te;
+- (void)com.apple.symptomsd-diag.CacheDelete;
+- (void)hasAppleEmail;
+- (void)seedBuild;
+- (void)omsd-diag;
+- (void)ation;
+- (void)@?0@"NSArray"8;
+- (void)nsions-service;
 - (void);
 - (void);
+- (id)totalSize;
+- (_Bool)"8@"NSError"16;
+- (_Bool)kTestProbeStatusFailure;
+- (_Bool)kTestProbeStatusSuccess;
+- (id)gcapture.configurationchanged;
+- (_Bool)n Affordance;
+- (unsigned long long)istantErrorDomain.1_NonCarry;
+- (id)HighConsecutiveAudioErasuresGroup;
+- (void)M NV Wear;
+- (void)cy rat:(CDUnknownBlockType)arg1 WiFi;
+- (long long)rgency rat:LTE /* Error: Ran out of types for this method. */;
+- (id)h Bootup Time;
+- (_Bool)rop;
+- (void)etup Failure;
+- (id)Emergency;
+- (id)SYMPTOM_RNF_FLOW_WHEN_DISABLED;
+- (id)HourlyQuotaExceeded;
+- (void)PriorityAllowed;
+- (void)dampeningType;
+- (unsigned long long)relatedNames;
+- (void)DatabaseIntegrityCheckFailed;
+- (void)alternateName;
+- (void)tensions.tailspin;
+- (id)i;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)hasGmsPrivateCloudSpeculativeDecodingMetrics;
 - (unsigned long long);
 - (void);
 - (CDUnknownBlockType);
@@ -86,9 +62,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -99,32 +75,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSObject<OS_os_activity> *activity; // @synthesize activity=_activity;
-@property(copy, nonatomic) NSSet *allowedTypesForGeneration; // @synthesize allowedTypesForGeneration=_allowedTypesForGeneration;
-@property(readonly, nonatomic) unsigned long long badgeType; // @synthesize badgeType=_badgeType;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *batchDispatchGroup; // @synthesize batchDispatchGroup=_batchDispatchGroup;
-@property(readonly) _Bool cacheEnabled;
-@property _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(retain) NSString *clientApplicationIdentifier; // @synthesize clientApplicationIdentifier=_clientApplicationIdentifier;
-@property _Bool didCheckCache; // @synthesize didCheckCache=_didCheckCache;
-@property(retain) QLDiskStore *diskStore; // @synthesize diskStore=_diskStore;
-@property(copy) CDUnknownBlockType downloadCompletionHandler; // @synthesize downloadCompletionHandler=_downloadCompletionHandler;
-@property long long extensionMatchingType; // @synthesize extensionMatchingType=_extensionMatchingType;
-@property(retain, nonatomic) NSError *generationError; // @synthesize generationError=_generationError;
-@property(readonly, nonatomic) id <QLIncrementalThumbnailGenerationHandler> generationHandler; // @synthesize generationHandler=_generationHandler;
-@property(retain, nonatomic) QLPreviewThumbnailGenerator *generator; // @synthesize generator=_generator;
-@property(nonatomic) unsigned long long handledRequestedTypes; // @synthesize handledRequestedTypes=_handledRequestedTypes;
-@property _Bool isDownloaded; // @synthesize isDownloaded=_isDownloaded;
-@property _Bool isDownloadedKnown; // @synthesize isDownloadedKnown=_isDownloadedKnown;
-@property _Bool isUbiquitous; // @synthesize isUbiquitous=_isUbiquitous;
-@property _Bool isUbiquitousKnown; // @synthesize isUbiquitousKnown=_isUbiquitousKnown;
-@property(retain) FPItem *item; // @synthesize item=_item;
-@property(readonly, nonatomic) QLThumbnailGenerationRequest *request; // @synthesize request=_request;
 @property(retain, nonatomic) NSNumber *requestBadgeType; // @synthesize requestBadgeType=_requestBadgeType;
-@property(nonatomic) unsigned long long successfullyHandldedRequestedTypes; // @synthesize successfullyHandldedRequestedTypes=_successfullyHandldedRequestedTypes;
-@property(retain) NSURL *taggedLogicalURL; // @synthesize taggedLogicalURL=_taggedLogicalURL;
-@property(retain) NSObject<OS_os_activity> *topActivity; // @synthesize topActivity=_topActivity;
-@property(readonly, nonatomic) unsigned long long unhandledRequestedTypes;
 
 @end
 

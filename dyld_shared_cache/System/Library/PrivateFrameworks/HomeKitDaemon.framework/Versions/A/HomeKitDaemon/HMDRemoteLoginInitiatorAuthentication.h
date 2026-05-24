@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)ZB;
-- (id);
+- (id)ntents;
 - (void);
 - (void);
-- (id);
-- (void)lutionTimeout;
+- (id)";
+- (void)accountResolutionTimeout;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HMDRemoteLoginInitiatorAuthenticationDelegate> delegate; // @synthesize delegate=_delegate;

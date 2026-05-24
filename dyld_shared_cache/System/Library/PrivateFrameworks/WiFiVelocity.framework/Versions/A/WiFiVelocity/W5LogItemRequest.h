@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
+@class NSUUID;
 
 @interface W5LogItemRequest
 {
     NSUUID *_uuid;
-    long long _itemID;
-    NSDictionary *_configuration;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
+- (_Bool);
+- (void)#;
+- (id);
+- (id);
+- (id)__AUTH_CONST;
+- (id);
+- (unsigned long long)Style;
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (id)Sh;
 - (long long);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)!;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) long long itemID; // @synthesize itemID=_itemID;
 @property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

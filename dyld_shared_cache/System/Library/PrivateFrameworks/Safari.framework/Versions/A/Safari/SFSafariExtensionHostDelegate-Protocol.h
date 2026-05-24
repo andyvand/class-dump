@@ -5,5 +5,6 @@
 //
 
 @protocol SFSafariExtensionHostDelegate
+- (void);
 @end
 

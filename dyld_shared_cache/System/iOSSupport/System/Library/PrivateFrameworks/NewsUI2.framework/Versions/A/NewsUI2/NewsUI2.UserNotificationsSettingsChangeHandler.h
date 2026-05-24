@@ -7,16 +7,6 @@
 @interface NewsUI2.UserNotificationsSettingsChangeHandler
 {
     id notificationService;
-    id tracker;
-    id navigator;
-    id subscriptionController;
-    id appConfigurationManager;
-    id notificationController;
-    id bundleSubscriptionManager;
-    id tagService;
-    id authorizationStatus;
-    id onAuthorizedNotificationsEnableTagID;
-    id onAuthorizedNotificationsEnableNewIssues;
 }
 
 @end

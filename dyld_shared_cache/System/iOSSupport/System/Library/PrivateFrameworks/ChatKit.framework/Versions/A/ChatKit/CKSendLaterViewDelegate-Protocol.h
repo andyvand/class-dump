@@ -5,5 +5,7 @@
 //
 
 @protocol CKSendLaterViewDelegate
+- (void);
+- (void)for %@;
 @end
 

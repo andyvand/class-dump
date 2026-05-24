@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSButtonCell, NSDictionary, NSImageView, NSTextField, NSTimer, SOBigMicrophoneView, SODictationHotKeyController, SOMicrophoneLevelMeterController, SOMicrophonePopUpButton, SOSRLanguagePopUpButton;
+@class NSButtonCell, NSDictionary;
 
 @interface SODictationPreferencesViewController
 {
     NSButtonCell *_disableDictationRadioButton;
-    NSButtonCell *_enableDictationRadioButton;
-    SOSRLanguagePopUpButton *_dictationLanguagePopUpButton;
-    NSButton *_showPrivacyPanelButton;
-    NSTextField *_descriptionText;
-    NSTextField *_onDeviceDictationStatusText;
-    NSTextField *_parentalControlsNoteText;
-    NSImageView *_parentalControlsNoteImage;
-    NSTextField *_dictationShortcutLabelTextField;
-    NSTextField *_disabledWarningTextField;
-    NSImageView *_disabledWarningImage;
-    SOMicrophonePopUpButton *_microphonePopUpButton;
-    SOBigMicrophoneView *_microphoneLevelMeterView;
-    SOMicrophoneLevelMeterController *_microphoneLevelMeterController;
-    SODictationHotKeyController *_hotKeyController;
-    _Bool _isMicrophoneMeteringAllowed;
-    NSDictionary *_offlineDictationStatus;
-    NSTimer *_offlineDictationStatusRefreshTimer;
 }
 
 + (id);
@@ -49,9 +32,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)orActiveObjectINS4_34ThinShellIonosphereParametersEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (void)ObjectINS1_15MountStateEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (void)ZN11cnframework12ActiveObjectIN5raven37RavenConvergenceEstimatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_13AltitudeEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (void);
 - (void);
 - (id);
@@ -62,7 +45,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *offlineDictationStatus; // @synthesize offlineDictationStatus=_offlineDictationStatus;
-@property(retain, nonatomic) NSTimer *offlineDictationStatusRefreshTimer; // @synthesize offlineDictationStatusRefreshTimer=_offlineDictationStatusRefreshTimer;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeHistoryStyler
 {
     id baseStyler;
-    id headlineFontMetrics;
 }
 
 @end

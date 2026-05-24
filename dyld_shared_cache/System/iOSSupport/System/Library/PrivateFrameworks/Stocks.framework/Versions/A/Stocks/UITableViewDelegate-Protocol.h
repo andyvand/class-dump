@@ -4,6 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UIContextMenuConfiguration, UITargetedPreview;
+
 @protocol UITableViewDelegate
+
+@optional
+- (void)m;
+- (void)8y{m;
+- (void)u{m;
+- (void)s{m;
+- (void)q{m;
+- (void)n{m;
+- (NSIndexPath *);
+- (_Bool);
+- (UITargetedPreview *)KJ=;
+- (void)-PJ=;
+- (void)P{m;
+- (void)l{m;
+- (UIContextMenuConfiguration *)0m{m;
+- (NSIndexPath *){;
 @end
 

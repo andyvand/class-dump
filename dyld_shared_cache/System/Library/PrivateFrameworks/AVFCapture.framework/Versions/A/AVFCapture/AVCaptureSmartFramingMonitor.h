@@ -4,46 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureFraming, AVCaptureSmartFraming, AVCaptureSmartFramingMonitorObservationRegistrar, AVWeakReference, NSArray;
+@class AVWeakReference, NSArray;
 
 @interface AVCaptureSmartFramingMonitor
 {
     AVWeakReference *_monitorWeakReference;
-    AVWeakReference *_deviceWeakReference;
-    NSArray *_photoModeFramings;
-    NSArray *_photoModeSmartFramings;
-    NSArray *_photoModeFieldsOfView;
-    struct os_unfair_lock_s _framingsLock;
-    NSArray *_supportedFramings;
-    AVCaptureFraming *_recommendedFraming;
-    NSArray *_enabledFramings;
-    NSArray *_supportedSmartFramings;
-    AVCaptureSmartFraming *_recommendedSmartFraming;
-    NSArray *_enabledSmartFramings;
-    struct os_unfair_lock_s _isMonitoringLock;
-    _Bool _isMonitoring;
-    AVCaptureSmartFramingMonitorObservationRegistrar *_observationRegistrar;
 }
 
 + (void) ;
-- (void);
+- (void)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
+- (id)createDirectoryAtPath:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (id)connectionDidStart: /* Error: Ran out of types for this method. */;
+- (_Bool)cStringUsingEncoding:(id *)arg1;
+- (void)_flushOutputBuffer;
+- (void)_finished;
+- (id),N,V_invalidationHandler;
+- (id)tion",&,N,V_serverConnection;
 - (id);
-- (id);
+- (id)u, bytesWritten:%d /* Error: Ran out of types for this method. */;
+- (void)eToDestination(CGImageSourceRef, size_t, MSVImageFormat, CGImageDestinationRef, CGFloat);
+- (void)geFromSource:(id)arg1 imageSource cannot be NULL;
+- (void)an array as the root object or if the current parent is an array. To stream an array into the value of a dictionary key use startArrayForKey:(id)arg1;
+- (void)Hant;
+- (id)a PID with %@.;
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (void)unsignedIntegerValue;
+- (id)P;
 - (void);
 - (_Bool);
 - (void);
@@ -51,9 +37,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *enabledFramings;
-@property(readonly, nonatomic, getter=isMonitoring) _Bool monitoring;
-@property(readonly, nonatomic) AVCaptureFraming *recommendedFraming;
 @property(readonly, nonatomic) NSArray *supportedFramings;
 
 @end

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-
 @protocol CRKAnimationCoordinating
+- (void (^)(void));
+- (void)initWithName:(void (^)(_Bool))arg1 teamId:appContainer:cloudKitContainer:compatibilityVersion:defaultsFileURL:hasFetched: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;
-@property(copy, nonatomic) CDUnknownBlockType animations;
-@property(copy, nonatomic) CDUnknownBlockType completion;
-@property(readonly, nonatomic) NSView *containerView;
-@property(nonatomic) double duration;
-@property(copy, nonatomic) CDUnknownBlockType finalSetup;
-@property(copy, nonatomic) CDUnknownBlockType initialSetup;
 @end
 

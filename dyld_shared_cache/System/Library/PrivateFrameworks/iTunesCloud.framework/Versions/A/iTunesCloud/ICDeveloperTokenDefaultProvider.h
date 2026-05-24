@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSOperationQueue, NSString;
+@class NSOperationQueue;
 
 @interface ICDeveloperTokenDefaultProvider
 {
     NSOperationQueue *_requestOperationQueue;
-    NSMutableDictionary *_pendingCompletionHandlers;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
@@ -22,17 +20,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)teTokensUsingBlock:(id)arg1 completionHandler:(CDUnknownBlockType)arg2;
+- (void)enumerateDelegateTokensUsingBlock:(id)arg1 completionHandler:(CDUnknownBlockType)arg2;
 - (void)@||ì|;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

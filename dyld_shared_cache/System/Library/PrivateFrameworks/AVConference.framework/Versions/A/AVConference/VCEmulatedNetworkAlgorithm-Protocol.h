@@ -5,10 +5,9 @@
 //
 
 @protocol VCEmulatedNetworkAlgorithm
+- (void)fD9;
 
 // Remaining properties
 @property(readonly, nonatomic) double expectedProcessEndTime;
-@property int packetCountBytesInNetworkQueue;
-@property unsigned int packetCountInNetworkQueue;
 @end
 

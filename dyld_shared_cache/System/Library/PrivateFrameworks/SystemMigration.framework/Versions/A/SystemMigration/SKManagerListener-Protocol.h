@@ -5,5 +5,8 @@
 //
 
 @protocol SKManagerListener
+
+@optional
+- (void);
 @end
 

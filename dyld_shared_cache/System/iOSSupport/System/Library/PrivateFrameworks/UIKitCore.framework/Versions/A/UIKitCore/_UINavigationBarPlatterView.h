@@ -12,28 +12,15 @@ __attribute__((visibility("hidden")))
 @interface _UINavigationBarPlatterView : _UITouchPassthroughView
 {
     id translationKick;
-    id scaleOffset;
-    id transformViewA;
-    id transformViewB;
-    id contentView;
-    id scalePulseScheduler;
-    id translationKickScheduler;
-    id layoutChangeScheduler;
-    id mode;
-    id id;
-    id platter;
-    id overrideBackgroundProperties;
-    id transitionPhase;
-    id pointerAssistantID;
 }
 
-- (id);
+- (id)P;
 - (id);
 - (void);
 - (struct CGRect)1Â0@ù
 × ;
-- (void)orResizeWidth:(struct CGRect)arg1;
-- (id)TabBarRect;
+- (void)_splitViewController:(struct CGRect)arg1 constrainSupplementaryColumnWidthForResizeWidth: /* Error: Ran out of types for this method. */;
+- (id)_floatingTabBarRect;
 - (id);
 - (id)search bar without a search controller are not supported. This is an internal UIKit bug.;
 - (void)¢þ;

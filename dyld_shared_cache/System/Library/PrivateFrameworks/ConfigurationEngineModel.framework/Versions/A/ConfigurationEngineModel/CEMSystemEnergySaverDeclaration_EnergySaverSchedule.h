@@ -11,7 +11,6 @@
 @interface CEMSystemEnergySaverDeclaration_EnergySaverSchedule : CEMPayloadBase
 {
     CEMSystemEnergySaverDeclaration_RepeatingPowerItem *_payloadRepeatingPowerOn;
-    CEMSystemEnergySaverDeclaration_RepeatingPowerItem *_payloadRepeatingPowerOff;
 }
 
 + (id);
@@ -22,12 +21,11 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)te}s;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CEMSystemEnergySaverDeclaration_RepeatingPowerItem *payloadRepeatingPowerOff; // @synthesize payloadRepeatingPowerOff=_payloadRepeatingPowerOff;
 @property(copy, nonatomic) CEMSystemEnergySaverDeclaration_RepeatingPowerItem *payloadRepeatingPowerOn; // @synthesize payloadRepeatingPowerOn=_payloadRepeatingPowerOn;
 
 @end

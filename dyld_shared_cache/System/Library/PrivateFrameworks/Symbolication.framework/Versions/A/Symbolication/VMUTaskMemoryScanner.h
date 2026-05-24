@@ -4,89 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMapTable, NSMutableArray, NSMutableDictionary, NSString, VMUClassInfoMap, VMUDebugTimer, VMUObjectIdentifier, VMUProcessObjectGraph, VMURangeArray, VMUScanOverlay, VMUTask, VMUTaskMemoryCache, VMUTaskThreadStates, VMUVMRegionIdentifier;
+@class VMUTask;
 
 @interface VMUTaskMemoryScanner
 {
     VMUTask *_task;
-    int _pid;
-    NSDate *_suspendDate;
-    unsigned long long _suspendTime;
-    unsigned long long _suspendTimeContinuous;
-    unsigned int _suspensionToken;
-    VMUTaskMemoryCache *_memoryCache;
-    VMUObjectIdentifier *_objectIdentifier;
-    VMUVMRegionIdentifier *_regionIdentifier;
-    struct _VMUBlockNode *_blocks;
-    unsigned int _blocksCount;
-    unsigned int _blocksSize;
-    struct _VMURegionNode *_regions;
-    unsigned int _regionsCount;
-    struct _VMURegionMap *_regionMap;
-    _Bool _initializedRegionMallocBlockCounts;
-    CDUnknownBlockType _regionInfoBlock;
-    VMURangeArray *_stackRanges;
-    NSMutableArray *_zoneNames;
-    struct _VMURange _dataSegmentsRangeInSharedCache;
-    struct _VMURange _dataSegmentsRangeOutsideSharedCache;
-    VMURangeArray *_dataSegmentsRangeArrayOutsideSharedCache;
-    _Bool _targetProcessHasObjCPatches;
-    _Bool _recordRuntimeMetadataChunkInfo;
-    NSMutableDictionary *_addressToRuntimeMetadataChunkInfoDict;
-    struct _VMUZoneNode *_zones;
-    unsigned int _zonesCount;
-    unsigned int _zonesSize;
-    VMUTaskThreadStates *_threadStates;
-    unsigned int _threadsCount;
-    id *_classInfos;
-    unsigned int _classInfosCount;
-    VMUClassInfoMap *_classInfoIndexer;
-    unsigned int _autoreleasePoolBoundaryNode;
-    unsigned int _recordAutoreleasePoolBoundaries;
-    unsigned int _webKitMallocFakeRootNode;
-    unsigned int _webKitZoneIndex;
-    unsigned int _attributeGraphFakeRootNode;
-    unsigned int _attributeGraphZoneIndex;
-    unsigned int _swiftTaskAllocationsFakeRootNode;
-    unsigned int *_swiftTaskAllocationBlockIndexes;
-    unsigned int _swiftTaskAllocationBlockIndexesCount;
-    unsigned int _swiftTaskAllocationBlockIndexesSize;
-    NSMutableDictionary *_mappedFileNameToLengthDict;
-    NSMapTable *_classStructureAddressToDestinationMapTable;
-    unsigned int _objcClassStructureClassInfoIndex;
-    unsigned int _classDataMethodsClassInfoIndex;
-    unsigned int _swiftClassStructureClassInfoIndex;
-    unsigned int _swiftMetadataClassInfoIndex;
-    unsigned int _swiftHeapGenericLocalVariableClassInfoIndex;
-    unsigned int _swiftMetadataMinBlockIndex;
-    unsigned int _swiftMetadataMaxBlockIndex;
-    unsigned int _xpcDictionaryStorageClassInfoIndex;
-    unsigned int _attributeGraphVMRegionBlockIndex;
-    _Bool _exactScanningEnabled;
-    unsigned long long _maxInteriorOffset;
-    unsigned int _scanningMask;
-    VMUDebugTimer *_debugTimer;
-    _Bool _showRawClassNames;
-    NSString *_processName;
-    NSString *_processDescriptionString;
-    NSString *_executablePath;
-    NSString *_binaryImagesDescription;
-    unsigned long long _physicalFootprint;
-    unsigned long long _physicalFootprintPeak;
-    NSDictionary *_ledger;
-    unsigned int _idleExitStatus;
-    unsigned long long _regionDescriptionOptions;
-    CDUnknownBlockType _referenceLogger;
-    CDUnknownBlockType _nodeLogger;
-    _Bool _abandonedMarkingEnabled;
-    VMUProcessObjectGraph *_processObjectGraph;
-    void *_userMarkedAbandoned;
-    NSMutableDictionary *_variantCachesByIsaIndex;
-    NSMutableDictionary *_srcAddressToExtraAutoreleaseCountDict;
-    unsigned long long _cfPasteboardReservedBase;
-    unsigned long long _mallocZonesBufferAddress;
-    _Bool _mallocEnumerationShouldFail;
-    VMUScanOverlay *_scanOverlay;
 }
 
 + (void)¡,Ð!FùQ[°1Â0@ù
@@ -103,8 +25,8 @@
 - (void);
 - (unsigned int);
 - (void);
-- (void);
-- (int);
+- (void),;
+- (int);
 - (void);
 - (unsigned int);
 - (void);
@@ -114,7 +36,7 @@
 - (void);
 - (void);
 - (struct _VMURange);
-- (struct _VMURegionNode *);
+- (struct _VMURegionNode *);
 - (void);
 - (id);
 - (unsigned int);
@@ -122,31 +44,33 @@
 - (id);
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void)hz9x9;
 - (_Bool);
 - (id);
-- (unsigned int);
+- (unsigned int)h;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)k;
 - (void);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)w;
 - (_Bool);
-- (id);
+- (id)#;
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)setOfferingToUseResetProtectedData:(CDUnknownBlockType)arg1;
 - (unsigned int);
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDStruct_599faf0f);
-- (void);
-- (id);
+- (void)stringByAppendingString: /* Error: Ran out of types for this method. */;
+- (CDStruct_599faf0f)ties %@;
+- (void)%@    sync states = %@
+ local ids are guids = %@
+};
+- (id),?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
 - (void);
 - (void);
 - (unsigned int);
@@ -154,27 +78,27 @@
 - (_Bool);
 - (unsigned long long);
 - (void *);
+- (void)_connectionToService;
+- (unsigned int)istener connection %p;
 - (void);
+- (void)nonce;
+- (id);
+- (unsigned long long)TimeRangeModel;
+- (id);
 - (unsigned int);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned int);
-- (void);
-- (void);
 - (unsigned long long);
 - (void);
 - (id);
+- (void)	;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)(=;
 - (id);
 - (void);
 - (const struct _VMUScanLocationCache *);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -187,15 +111,15 @@
 - (id);
 - (id);
 - (id);
-- (struct _VMUBlockNode *);
+- (struct _VMUBlockNode *)";
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (struct _VMUBlockNode *);
-- (void);
-- (void);
+- (void)4;
+- (void)_makeAccessibilityElements;
 - (id);
 - (id);
 - (_Bool);
@@ -212,66 +136,22 @@
 × ;
 - (void)size_"Q}""{?="__max_load_factor_"f}}};
 - (void)24;
-- (id)cription: /* Error: Ran out of types for this method. */;
-- (void)ject;
-- (_Bool)bolOwners;
-- (id)autoreleasePoolNodesByThreadIndex;
-- (void)tifier;
+- (id)setPurposeDescription: /* Error: Ran out of types for this method. */;
+- (void)removeLastObject;
+- (_Bool)_cfOriginalSymbolOwners;
+- (id)_autoreleasePoolNodesByThreadIndex;
+- (void)VMUAttributeGraphTypeIdentifier;
 - (_Bool)failed - symbol _AGGraphVMRegionBaseAddress exists but is smaller than expected;
 - (id)nfo:%@ (PID %d)> /* Error: Ran out of types for this method. */;
 - (_Bool)tiguous with current;
 - (unsigned int)tem shared lib __TEXT;
 - (id)field;
-- (id)o;
+- (id)Audio;
 - (id)% <region-description> pattern '%@':(unsigned int)arg1 %s;
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) _Bool abandonedMarkingEnabled; // @synthesize abandonedMarkingEnabled=_abandonedMarkingEnabled;
-@property(readonly, nonatomic) NSString *binaryImagesDescription; // @synthesize binaryImagesDescription=_binaryImagesDescription;
-@property(readonly, nonatomic) struct _VMUBlockNode *blocks; // @synthesize blocks=_blocks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) VMUDebugTimer *debugTimer; // @synthesize debugTimer=_debugTimer;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool exactScanningEnabled; // @synthesize exactScanningEnabled=_exactScanningEnabled;
-@property(readonly, nonatomic) NSString *executablePath; // @synthesize executablePath=_executablePath;
-@property(readonly, nonatomic) _Bool hasClassInfosDerivedFromStackBacktraces;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int idleExitStatus; // @synthesize idleExitStatus=_idleExitStatus;
-@property(readonly, nonatomic) _Bool is64bit;
-@property(readonly, nonatomic) _Bool isTranslatedByRosetta;
-@property(readonly, nonatomic) unsigned int kernelPageSize;
-@property(readonly, nonatomic) NSDictionary *ledger; // @synthesize ledger=_ledger;
-@property(nonatomic) _Bool mallocEnumerationShouldFail; // @synthesize mallocEnumerationShouldFail=_mallocEnumerationShouldFail;
-@property(readonly, nonatomic) unsigned int mallocNodeCount;
-@property(nonatomic) unsigned long long maxInteriorOffset; // @synthesize maxInteriorOffset=_maxInteriorOffset;
-@property(readonly, nonatomic) VMUTaskMemoryCache *memoryCache; // @synthesize memoryCache=_memoryCache;
-@property(readonly, nonatomic) unsigned int nodeCount; // @synthesize nodeCount=_blocksCount;
-@property(readonly, nonatomic) unsigned int nodeNamespaceSize;
-@property(nonatomic) unsigned int objectContentLevel;
-@property(readonly, nonatomic) VMUObjectIdentifier *objectIdentifier; // @synthesize objectIdentifier=_objectIdentifier;
-@property(readonly, nonatomic) unsigned long long physicalFootprint; // @synthesize physicalFootprint=_physicalFootprint;
-@property(readonly, nonatomic) unsigned long long physicalFootprintPeak; // @synthesize physicalFootprintPeak=_physicalFootprintPeak;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) NSString *processDescriptionString; // @synthesize processDescriptionString=_processDescriptionString;
-@property(readonly, nonatomic) NSString *processName; // @synthesize processName=_processName;
-@property(readonly, nonatomic) VMUClassInfoMap *realizedClasses;
-@property(nonatomic) _Bool recordRuntimeMetadataChunkInfo; // @synthesize recordRuntimeMetadataChunkInfo=_recordRuntimeMetadataChunkInfo;
-@property(readonly, nonatomic) unsigned int regionCount; // @synthesize regionCount=_regionsCount;
-@property(readonly, nonatomic) VMUVMRegionIdentifier *regionIdentifier; // @synthesize regionIdentifier=_regionIdentifier;
-@property(readonly, nonatomic) struct _VMURegionNode *regions; // @synthesize regions=_regions;
-@property(readonly, nonatomic) VMUScanOverlay *scanOverlay; // @synthesize scanOverlay=_scanOverlay;
-@property(nonatomic) unsigned int scanningMask; // @synthesize scanningMask=_scanningMask;
-@property(nonatomic) _Bool showRawClassNames; // @synthesize showRawClassNames=_showRawClassNames;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long suspendTimeContinuous; // @synthesize suspendTimeContinuous=_suspendTimeContinuous;
-@property(readonly, nonatomic) unsigned int task;
-@property(readonly, nonatomic) unsigned int vmPageSize;
-@property(readonly, nonatomic) VMUTask *vmuTask; // @synthesize vmuTask=_task;
-@property(readonly, nonatomic) unsigned int zoneCount; // @synthesize zoneCount=_zonesCount;
 
 @end
 

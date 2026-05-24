@@ -5,5 +5,10 @@
 //
 
 @protocol FPItemCollectionIndexPathBasedDelegate
+- (void)IMBusinessNameManager;
+- (void)ctionary"20;
+- (void)@48^@56^@64;
+- (void)IMDNotificationsController_CommSafety;
+- (void)contactFormatterTitle;
 @end
 

@@ -9,7 +9,6 @@
 @interface NSHTTPCookieStorage
 {
     NSHTTPCookieStorageInternal *_internal;
-    _Bool __overrideSessionCookieAcceptPolicy;
 }
 
 @end

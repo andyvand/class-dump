@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CGAdditions)
-- (void);
+- (void);
 @end
 

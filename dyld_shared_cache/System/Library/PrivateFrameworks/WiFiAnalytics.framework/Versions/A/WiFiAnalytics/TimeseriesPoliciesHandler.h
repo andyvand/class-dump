@@ -13,7 +13,7 @@
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -22,7 +22,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)T;
 - (void);
 - (void)istentContainer:(id)arg1 ];
 

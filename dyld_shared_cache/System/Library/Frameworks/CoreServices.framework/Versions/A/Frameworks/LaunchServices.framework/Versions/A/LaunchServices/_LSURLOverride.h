@@ -9,7 +9,6 @@
 @interface _LSURLOverride
 {
     NSURL *_originalURL;
-    NSURL *_overrideURL;
 }
 
 + (void);
@@ -26,7 +25,7 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
@@ -35,7 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *originalURL; // @synthesize originalURL=_originalURL;
-@property(readonly, copy, nonatomic) NSURL *overrideURL; // @synthesize overrideURL=_overrideURL;
 
 @end
 

@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersistentStore, NSPersistentStoreCoordinator, NSString;
+@class NSPersistentStoreCoordinator;
 
 @interface CNAddPersistentStoreResult
 {
     _Bool _pristineDatabase;
-    _Bool _readOnly;
-    _Bool _didMigrate;
-    _Bool _shouldCache;
-    NSPersistentStoreCoordinator *_coordinator;
-    NSPersistentStore *_store;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -28,18 +23,6 @@
 
 // Remaining properties
 @property(readonly) NSPersistentStoreCoordinator *coordinator; // @synthesize coordinator=_coordinator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool didMigrate; // @synthesize didMigrate=_didMigrate;
-@property(readonly) unsigned long long hash;
-@property(readonly, getter=isPristineDatabase) _Bool pristineDatabase; // @synthesize pristineDatabase=_pristineDatabase;
-@property(readonly, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(readonly) _Bool shouldCache; // @synthesize shouldCache=_shouldCache;
-@property(readonly) NSPersistentStore *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

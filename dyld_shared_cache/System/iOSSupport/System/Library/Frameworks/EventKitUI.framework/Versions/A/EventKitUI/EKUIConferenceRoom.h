@@ -9,9 +9,6 @@
 @interface EKUIConferenceRoom
 {
     _Bool _supportsAvailability;
-    _Bool _availabilityRequestInProgress;
-    EKDirectoryLocation *_location;
-    long long _availability;
 }
 
 - (_Bool);
@@ -19,17 +16,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (long long);
-- (void);
-- (id);
+- (long long)led and connection does not have 'com.apple.private.dt.xctest.internal-client';
+- (void)_durationEncodingValue;
+- (id)`;
 - (void)stringRemovingMailto;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long availability; // @synthesize availability=_availability;
-@property(nonatomic) _Bool availabilityRequestInProgress; // @synthesize availabilityRequestInProgress=_availabilityRequestInProgress;
 @property(retain, nonatomic) EKDirectoryLocation *location; // @synthesize location=_location;
-@property(nonatomic) _Bool supportsAvailability; // @synthesize supportsAvailability=_supportsAvailability;
 
 @end
 

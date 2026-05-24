@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFCHardwareManager, NSNumber, NSObject, NSString;
-@protocol NFTag, OS_dispatch_queue;
+@class NFCHardwareManager, NSNumber;
+@protocol NFTag;
 
 @interface NFCNDEFTag
 {
     id <NFTag> _tag;
     NSNumber *_sessionKey;
-    _Bool _writeLocked;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NFCHardwareManager *_hardwareManager;
 }
 
-+ (_Bool);
++ (_Bool)OrderDetailsStatusDescriptionSheet_iOS;
 - (void);
 - (void);
 - (void);
@@ -37,18 +34,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)z;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAvailable) _Bool available;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NFCHardwareManager *hardwareManager; // @synthesize hardwareManager=_hardwareManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

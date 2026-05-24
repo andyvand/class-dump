@@ -6,25 +6,17 @@
 
 #import <Intents/INObject.h>
 
-@class INCodable, INCodableDescription, NSString;
+@class INCodable;
 
 @interface INCustomObject : INObject
 {
     INCodable *_backingStore;
 }
 
-+ (_Bool);
++ (_Bool)`;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setBackingStore:) INCodable *_backingStore; // @synthesize _backingStore;
-@property(readonly, nonatomic) INCodableDescription *codableDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

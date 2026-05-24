@@ -9,7 +9,6 @@
 @interface PKPaletteInputAssistantButtonProvider
 {
     UITextInputAssistantItem *_inputAssistantItem;
-    CDUnknownBlockType _inclusionFilter;
 }
 
 - (void);
@@ -20,11 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (void)ew;
+- (void)_PKAnimatableBorderCornerRadiusView;
 - (id)H;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType inclusionFilter; // @synthesize inclusionFilter=_inclusionFilter;
 @property(retain, nonatomic) UITextInputAssistantItem *inputAssistantItem; // @synthesize inputAssistantItem=_inputAssistantItem;
 
 @end

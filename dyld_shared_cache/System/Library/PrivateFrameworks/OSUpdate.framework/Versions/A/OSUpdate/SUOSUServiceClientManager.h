@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface SUOSUServiceClientManager
 {
     NSMutableArray *_clients;
-    NSMutableArray *_sunmClients;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (void);
-- (id);
+- (id)ݦ;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)sarmLaterObserver;
+- (void)_;
+- (id)_queue_disarmLaterObserver;
 - (void)isabled);
 
 // Remaining properties
-@property(readonly) NSArray *allClients;
 @property(retain) NSMutableArray *clients; // @synthesize clients=_clients;
-@property(readonly) NSArray *notificationManagerClients;
-@property(retain) NSMutableArray *sunmClients; // @synthesize sunmClients=_sunmClients;
 
 @end
 

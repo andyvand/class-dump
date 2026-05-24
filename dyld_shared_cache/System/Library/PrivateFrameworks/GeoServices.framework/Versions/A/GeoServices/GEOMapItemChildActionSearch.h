@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORelatedSearchSuggestion, NSString;
+@class GEORelatedSearchSuggestion;
 
 @interface GEOMapItemChildActionSearch
 {
@@ -18,7 +18,6 @@
 - (id)n4;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayString;
 @property(retain, nonatomic) GEORelatedSearchSuggestion *relatedSearchSuggestion; // @synthesize relatedSearchSuggestion=_relatedSearchSuggestion;
 
 @end

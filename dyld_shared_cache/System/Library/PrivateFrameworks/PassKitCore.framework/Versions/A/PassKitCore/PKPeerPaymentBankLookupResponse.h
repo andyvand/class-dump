@@ -6,21 +6,17 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceResponse.h>
 
-@class NSString;
-
 @interface PKPeerPaymentBankLookupResponse : PKPeerPaymentWebServiceResponse
 {
     _Bool _success;
-    NSString *_displayName;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (void)estination;
+- (void)currentDestination;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end

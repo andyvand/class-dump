@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
+@class NSArray;
 
 @interface AVCoordinatedPlaybackParticipant
 {
     NSArray *_suspensionReasons;
-    _Bool _readyToPlay;
-    NSUUID *_identifier;
 }
 
-- (id);
+- (id)g;
 - (void);
 - (unsigned long long);
 - (id);
@@ -22,8 +20,6 @@
 - (_Bool)current item to match Fig (FigPlaybackItem = %p);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic, getter=isReadyToPlay) _Bool readyToPlay; // @synthesize readyToPlay=_readyToPlay;
 @property(readonly, nonatomic) NSArray *suspensionReasons; // @synthesize suspensionReasons=_suspensionReasons;
 
 @end

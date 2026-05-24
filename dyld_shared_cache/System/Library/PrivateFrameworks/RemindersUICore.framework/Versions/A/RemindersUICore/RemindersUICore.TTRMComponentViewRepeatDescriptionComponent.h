@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewRepeatDescriptionComponent
 {
     id descriptionText;
-    id descriptionTextColor;
-    id accessibilityAdditionalDescription;
-    id repeatDescriptionView;
 }
 
 @end

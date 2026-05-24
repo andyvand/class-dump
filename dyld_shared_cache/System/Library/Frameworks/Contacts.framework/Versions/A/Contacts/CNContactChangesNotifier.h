@@ -4,42 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCoalescingTimer, CNContactStore, CNMutableMultiDictionary, NSString;
-@protocol CNScheduler;
-
 @interface CNContactChangesNotifier
 {
     _Bool _observingNotification;
-    id <CNScheduler> _resourceLock;
-    id <CNScheduler> _workQueue;
-    id <CNScheduler> _downstream;
-    CNContactStore *_contactStore;
-    CNCoalescingTimer *_entryCompactionTimer;
-    CNMutableMultiDictionary *_registeredObservers;
 }
 
 + (id);
-+ (id);
-- (void);
++ (id);
+- (void)_isSimDataOnly;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)persistentIdentifierInStorage:(id)arg1 forAdditionNamed:(id)arg2 inNameSpace:(id)arg3;
 - (void);
 - (id);
 - (void)SNumber"@"NSError">24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

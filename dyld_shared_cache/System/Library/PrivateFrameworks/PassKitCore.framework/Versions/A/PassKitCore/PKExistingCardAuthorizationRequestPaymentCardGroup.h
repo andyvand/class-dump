@@ -6,29 +6,27 @@
 
 #import <PassKitCore/PKExistingCardAuthorizationRequestGroup.h>
 
-@class NSArray, PKExistingCardAuthorizationRequestDestinationDeviceSignature;
+@class NSArray;
 
 @interface PKExistingCardAuthorizationRequestPaymentCardGroup : PKExistingCardAuthorizationRequestGroup
 {
     NSArray *_entries;
-    PKExistingCardAuthorizationRequestDestinationDeviceSignature *_destinationDeviceSignature;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)c;
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)isUsingQRDirectly;
 - (void);
 - (id);
 - (id);
 - (void)aymentTransactionRewardsItem"8;
 
 // Remaining properties
-@property(readonly, nonatomic) PKExistingCardAuthorizationRequestDestinationDeviceSignature *destinationDeviceSignature; // @synthesize destinationDeviceSignature=_destinationDeviceSignature;
 @property(readonly, nonatomic) NSArray *entries; // @synthesize entries=_entries;
 
 @end

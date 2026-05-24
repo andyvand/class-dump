@@ -9,14 +9,13 @@
 @interface ILMediaBrowserClipboardButton
 {
     NSTimer *_dragTimer;
-    id _delegate;
 }
 
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long)mageCacheOperation ;
+- (void)priority boost;
 - (void);
 - (void);
 - (id);

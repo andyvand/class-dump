@@ -6,28 +6,11 @@
 
 #import <AccessibilityVisuals/AXVHighlightView.h>
 
-@class CAShapeLayer, NSArray, NSColor, NSPopover, NSString;
+@class CAShapeLayer;
 
 @interface AXVHighlightOutlineView : AXVHighlightView
 {
     _Bool _hasHighlightOutline;
-    _Bool _screenShotWhileScaled;
-    _Bool _centeredInMainScreen;
-    _Bool _hasGlow;
-    NSColor *_outlineOuterColor;
-    NSColor *_outlineInnerColor;
-    double _outlineWidth;
-    double _outlineRadius;
-    NSColor *_highlightFillColor;
-    double _scaleFactor;
-    NSString *_hintText;
-    CAShapeLayer *__highlightOutlineLayer;
-    CAShapeLayer *__innerHighlightOutlineLayer;
-    CAShapeLayer *__highlightFillLayer;
-    NSArray *__preScaledRects;
-    CAShapeLayer *__maskingLayer;
-    NSPopover *__hintPopover;
-    struct CGRect __preScaledBoundingFrame;
 }
 
 - (id);
@@ -35,9 +18,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (_Bool);
@@ -49,11 +32,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)?%@qa;
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -80,34 +63,16 @@
 - (void);
 - (id);
 - (void);
-- (double);
+- (double)!;
 - (id);
-- (id);
+- (id)(;
 - (void);
-- (double);
+- (double)filteringLevel;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setHighlightFillLayer:) CAShapeLayer *_highlightFillLayer; // @synthesize _highlightFillLayer=__highlightFillLayer;
 @property(retain, nonatomic, setter=_setHighlightOutlineLayer:) CAShapeLayer *_highlightOutlineLayer; // @synthesize _highlightOutlineLayer=__highlightOutlineLayer;
-@property(retain, nonatomic, setter=_setHintPopover:) NSPopover *_hintPopover; // @synthesize _hintPopover=__hintPopover;
-@property(retain, nonatomic, setter=_setInnerHighlightOutlineLayer:) CAShapeLayer *_innerHighlightOutlineLayer; // @synthesize _innerHighlightOutlineLayer=__innerHighlightOutlineLayer;
-@property(retain, nonatomic, setter=_setMaskingLayer:) CAShapeLayer *_maskingLayer; // @synthesize _maskingLayer=__maskingLayer;
-@property(nonatomic, setter=_setPreScaledBoundingFrame:) struct CGRect _preScaledBoundingFrame; // @synthesize _preScaledBoundingFrame=__preScaledBoundingFrame;
-@property(retain, nonatomic, setter=_setPreScaledRects:) NSArray *_preScaledRects; // @synthesize _preScaledRects=__preScaledRects;
-@property(nonatomic) _Bool centeredInMainScreen; // @synthesize centeredInMainScreen=_centeredInMainScreen;
-@property(nonatomic) _Bool hasGlow; // @synthesize hasGlow=_hasGlow;
-@property(nonatomic) _Bool hasHighlightOutline; // @synthesize hasHighlightOutline=_hasHighlightOutline;
-@property(retain, nonatomic) NSColor *highlightFillColor; // @synthesize highlightFillColor=_highlightFillColor;
-@property(retain, nonatomic) NSArray *highlightRects;
-@property(retain, nonatomic) NSString *hintText; // @synthesize hintText=_hintText;
-@property(retain, nonatomic) NSColor *outlineInnerColor; // @synthesize outlineInnerColor=_outlineInnerColor;
-@property(retain, nonatomic) NSColor *outlineOuterColor; // @synthesize outlineOuterColor=_outlineOuterColor;
-@property(nonatomic) double outlineRadius; // @synthesize outlineRadius=_outlineRadius;
-@property(nonatomic) double outlineWidth; // @synthesize outlineWidth=_outlineWidth;
-@property(nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(nonatomic) _Bool screenShotWhileScaled; // @synthesize screenShotWhileScaled=_screenShotWhileScaled;
 
 @end
 

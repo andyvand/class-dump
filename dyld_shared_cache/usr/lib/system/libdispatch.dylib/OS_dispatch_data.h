@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface OS_dispatch_data
 {
 }
@@ -19,24 +17,16 @@
 - (id);
 - (const void *);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)ds.jpg;
+- (void))6;
+- (void);
+- (void)�;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) const void *bytes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long length;
-@property(readonly) Class superclass;
 
 @end
 

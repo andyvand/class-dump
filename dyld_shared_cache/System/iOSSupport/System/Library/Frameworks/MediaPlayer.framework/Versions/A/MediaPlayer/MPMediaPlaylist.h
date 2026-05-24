@@ -6,22 +6,21 @@
 
 #import <MediaPlayer/MPMediaItemCollection.h>
 
-@class MPMediaQuery, NSArray, NSString;
+@class NSArray;
 
 @interface MPMediaPlaylist : MPMediaItemCollection
 {
     NSArray *_representativeArtists;
-    MPMediaQuery *_seedTracksQuery;
 }
 
-+ (_Bool);
++ (_Bool)n;
 + (_Bool);
 + (void);
 + (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -29,23 +28,23 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)objectType;
+- (id)joinLeft;
+- (id)partitionCmd;
+- (id)defElem;
+- (void)fields;
+- (void)pubname;
+- (id)ɭ;
 - (void);
 - (_Bool);
 - (id);
+- (unsigned long long)Q;
 - (unsigned long long);
-- (unsigned long long);
+- (id)al/Library/BuildRoots/4~CN4kugAG2sfPAn4RIPhda0kDGxz-sNUlGSu45C4/Library/Caches/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMCore/Source/Down Time Whitelisting/IMDowntimeController.m;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)int64Value;
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -53,13 +52,7 @@
 - (void)_itemDidEnd;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *authorDisplayName;
-@property(readonly, nonatomic) NSString *cloudGlobalID;
-@property(readonly, nonatomic) NSString *descriptionText;
-@property(readonly, nonatomic) NSString *name;
 @property(readonly, nonatomic) unsigned long long persistentID;
-@property(readonly, nonatomic) unsigned long long playlistAttributes;
-@property(readonly, nonatomic) NSArray *seedItems;
 
 @end
 

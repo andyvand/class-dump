@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface BabelFish
 {
     NSMutableDictionary *_speechChannelMap;
-    NSMutableDictionary *_languageToCharacterRangesCache;
-    NSArray *_cachedVoices;
-    NSDictionary *_voicesBySpec;
-    NSMutableDictionary *_localeNameCache;
-    NSDictionary *_disambiguationMap;
-    NSObject<OS_dispatch_queue> *_voiceAccessQueue;
 }
 
 + (id);
-+ (struct VoiceSpec);
++ (struct VoiceSpec);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)|;
 + (id);
 - (id);
 - (id);
@@ -34,7 +27,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,7 +52,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -67,23 +60,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)(;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *cachedVoices; // @synthesize cachedVoices=_cachedVoices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *disambiguationMap; // @synthesize disambiguationMap=_disambiguationMap;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *languageToCharacterRangesCache; // @synthesize languageToCharacterRangesCache=_languageToCharacterRangesCache;
-@property(retain, nonatomic) NSMutableDictionary *localeNameCache; // @synthesize localeNameCache=_localeNameCache;
 @property(retain, nonatomic) NSMutableDictionary *speechChannelMap; // @synthesize speechChannelMap=_speechChannelMap;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *voiceAccessQueue; // @synthesize voiceAccessQueue=_voiceAccessQueue;
-@property(retain, nonatomic) NSDictionary *voicesBySpec; // @synthesize voicesBySpec=_voicesBySpec;
 
 @end
 

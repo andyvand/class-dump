@@ -9,39 +9,25 @@
 @interface _DPToolArguments
 {
     _Bool _verbose;
-    _Bool _enforceMetadata;
-    _Bool _writeOK;
-    NSString *_command;
-    NSString *_arguments;
-    NSString *_metadata;
-    NSString *_recordKey;
-    NSString *_databasePath;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ithout distractions with full access to video controls.;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *arguments; // @synthesize arguments=_arguments;
 @property(readonly, copy, nonatomic) NSString *command; // @synthesize command=_command;
-@property(readonly, copy, nonatomic) NSString *databasePath; // @synthesize databasePath=_databasePath;
-@property(readonly, nonatomic) _Bool enforceMetadata; // @synthesize enforceMetadata=_enforceMetadata;
-@property(readonly, copy, nonatomic) NSString *metadata; // @synthesize metadata=_metadata;
-@property(readonly, copy, nonatomic) NSString *recordKey; // @synthesize recordKey=_recordKey;
-@property(readonly, nonatomic) _Bool verbose; // @synthesize verbose=_verbose;
-@property(readonly, nonatomic) _Bool writeOK; // @synthesize writeOK=_writeOK;
 
 @end
 

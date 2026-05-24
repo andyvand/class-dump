@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (double);
+- (_Bool)description;
+- (double)for %{public}@;
 - (const struct NSIBSnapSet *);
-- (const struct NSIBSnapSet *);
+- (const struct NSIBSnapSet *)@;
 - (id);
 - (id);
 

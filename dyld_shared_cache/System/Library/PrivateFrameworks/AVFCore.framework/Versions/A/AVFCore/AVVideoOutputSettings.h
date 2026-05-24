@@ -6,8 +6,6 @@
 
 #import <AVFCore/AVOutputSettings.h>
 
-@class NSDictionary, NSString;
-
 @interface AVVideoOutputSettings : AVOutputSettings
 {
 }
@@ -19,12 +17,12 @@
 + (id);
 + (id);
 + (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)fstRelativePaths;
+- (id)formattedTokensWithoutEmojiModifier:emojiTokenIndices:recognizeEmoji: /* Error: Ran out of types for this method. */;
+- (_Bool)enumerateAnchoredReplacementCandidatesForContext:(id)arg1 withOptions:(id *)arg2 usingBlock: /* Error: Ran out of types for this method. */;
+- (id)ng<char, std::char_traits<char>, std::allocator<char>>={?=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}})B}{optional<std::map<quasar::language_detector::Locale, double>>=(?=c{map<quasar::language_detector::Locale, double, std::less<quasar::language_detector::Locale>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>={__tree<std::__value_type<quasar::language_detector::Locale, double>, std::__map_value_compare<quasar::language_detector::Locale, std::pair<const quasar::language_detector::Locale, double>, std::less<quasar::language_detector::Locale>>, std::allocator<std::pair<const quasar::language_detector::Locale, double>>>=^v{?={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{?=Q}}})B}},R /* Error: Ran out of types for this method. */;
+- (_Bool)toothDeviceId;
+- (id),C,N,V_interpretationIndices;
 - (id);
 - (_Bool);
 - (id);
@@ -32,24 +30,13 @@
 - (_Bool);
 - (id);
 - (id);
+- (int)TemporarySelf;
 - (int);
-- (int);
-- (_Bool);
+- (_Bool)nt:%d, current variant index:%d
+ /* Error: Ran out of types for this method. */;
 - (CDStruct_1b6d18a9);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowWideColor;
-@property(readonly, nonatomic) NSDictionary *cleanApertureDictionary;
-@property(readonly, nonatomic) _Bool dimensionsAreBoundingBox;
-@property(readonly, nonatomic) NSString *frameRateConversionAlgorithm;
-@property(readonly, nonatomic) int height;
-@property(readonly, nonatomic) _Bool isProRes;
-@property(readonly, nonatomic) _Bool isProRes4KHighFPSSetting;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 minimumFrameDuration;
-@property(readonly, nonatomic) NSDictionary *pixelAspectRatioDictionary;
-@property(readonly, nonatomic) NSDictionary *pixelTransferProperties;
-@property(readonly, nonatomic) NSDictionary *videoScalingProperties;
-@property(readonly, nonatomic) NSDictionary *videoSettingsDictionary;
 @property(readonly, nonatomic) int width;
 
 @end

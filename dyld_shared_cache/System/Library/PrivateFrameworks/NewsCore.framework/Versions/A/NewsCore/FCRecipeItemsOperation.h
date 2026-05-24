@@ -6,17 +6,12 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class NSArray, NSObject;
-@protocol FCContentContext, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface FCRecipeItemsOperation : FCOperation
 {
     NSObject<OS_dispatch_queue> *_recipeItemHandlerQueue;
-    CDUnknownBlockType _recipeItemHandler;
-    CDUnknownBlockType _completionHandler;
-    NSArray *_networkEvents;
-    id <FCContentContext> _context;
-    NSArray *_recipeListIDs;
 }
 
 - (void);
@@ -27,15 +22,12 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void)ffer;
+- (void)hasUsedIntroPricingOffer;
 - (void)es/FCOnce.m;
 - (void)kQUFDg;
 - (void)arServices/feldsparcore/Classes/FCIssueDraftAccessChecker.m;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, nonatomic) NSArray *networkEvents;
-@property(copy, nonatomic) CDUnknownBlockType recipeItemHandler; // @synthesize recipeItemHandler=_recipeItemHandler;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *recipeItemHandlerQueue; // @synthesize recipeItemHandlerQueue=_recipeItemHandlerQueue;
 
 @end

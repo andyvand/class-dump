@@ -13,7 +13,7 @@
 
 + (id);
 - (void);
-- (id);
+- (id)\;
 - (void);
 - (_Bool)ature index (%u) for tile %u.%u.%d. Feature count:(id)arg1 %d;
 - (void)B2;

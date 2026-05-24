@@ -7,10 +7,6 @@
 @interface SiriIntentEvents.IntentEvent
 {
     id intentId;
-    id eventType;
-    id eventData;
-    id createdAt;
-    id _content;
 }
 
 @end

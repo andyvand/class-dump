@@ -7,6 +7,7 @@
 @protocol SXTextTangierRepAccessibilityDataSource;
 
 @protocol SXTextTangierRepAccessibilityElement
+- (id <SXTextTangierRepAccessibilityDataSource>);
 
 // Remaining properties
 @property(nonatomic) __weak id <SXTextTangierRepAccessibilityDataSource> accessibilityDataSource;

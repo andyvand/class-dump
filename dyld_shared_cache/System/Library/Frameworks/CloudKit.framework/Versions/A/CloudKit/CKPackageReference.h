@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, NSString;
+@class CKRecordID;
 
 @interface CKPackageReference
 {
     CKRecordID *_recordID;
-    long long _databaseScope;
-    NSString *_fieldName;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -24,8 +22,6 @@
 - (id)ck as asked, but without any `savedRecordZones` or `deletedRecordZoneIDs` values;
 
 // Remaining properties
-@property(readonly, nonatomic) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(readonly, nonatomic) NSString *fieldName; // @synthesize fieldName=_fieldName;
 @property(readonly, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
 
 @end

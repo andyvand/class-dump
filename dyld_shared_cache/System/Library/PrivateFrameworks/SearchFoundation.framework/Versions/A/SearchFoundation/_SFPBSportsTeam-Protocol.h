@@ -7,16 +7,12 @@
 @class NSData, NSString, _SFPBButtonItem, _SFPBImage;
 
 @protocol _SFPBSportsTeam
-- (_SFPBButtonItem *)bject: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (NSString *)isEqualToDowntimeOverride: /* Error: Ran out of types for this method. */;
+- (NSData *),V_displaySpec;
+- (_SFPBButtonItem *)isValidJSONObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityDescription;
-@property(retain, nonatomic) _SFPBButtonItem *button;
-@property(nonatomic) _Bool isWinner;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBImage *logo;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *record;
-@property(copy, nonatomic) NSString *score;
 @end
 

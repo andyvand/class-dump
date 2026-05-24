@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, REMListChangeItem;
+@class REMListChangeItem;
 
 @interface REMListAutoCategorizeContextChangeItem
 {
@@ -13,18 +13,16 @@
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void)ë!tEùñr ð1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) REMListChangeItem *listChangeItem; // @synthesize listChangeItem=_listChangeItem;
-@property(nonatomic) _Bool shouldAutoCategorizeItems;
-@property(readonly, nonatomic) NSArray *unsavedReminderIDsForCategorization;
 
 @end
 

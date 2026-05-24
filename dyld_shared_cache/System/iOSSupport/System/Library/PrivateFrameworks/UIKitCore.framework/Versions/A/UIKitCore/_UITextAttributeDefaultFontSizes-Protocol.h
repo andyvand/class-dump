@@ -5,12 +5,10 @@
 //
 
 @protocol _UITextAttributeDefaultFontSizes
+- (double)16;
 - (double)N,V_isPressed;
 
 // Remaining properties
-@property(readonly, nonatomic) double _buttonFontSize;
 @property(readonly, nonatomic) double _labelFontSize;
-@property(readonly, nonatomic) double _smallSystemFontSize;
-@property(readonly, nonatomic) double _systemFontSize;
 @end
 

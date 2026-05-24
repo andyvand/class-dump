@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HAPFragmentationStream;
+
 @protocol HAPFragmentationStreamDelegate
+- (void)rceFaceAreaRectNormalized:(HAPFragmentationStream *)arg1;
+- (void);
 @end
 

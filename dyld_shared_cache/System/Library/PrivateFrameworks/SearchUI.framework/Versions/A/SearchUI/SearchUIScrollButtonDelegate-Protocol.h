@@ -5,5 +5,37 @@
 //
 
 @protocol SearchUIScrollButtonDelegate
+- (void)num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes)
+
+macf      count          %llu (%llu bytes)
+          num_load_infos %llu
+          num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes)
+
+vm_fault  count          %llu (%llu bytes)
+          num_load_infos %llu
+          num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes)
+
+page grab count          %llu (%llu bytes)
+          num_load_infos %llu
+          num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes)
+
+unknown   count          %llu (%llu bytes)
+          num_load_infos %llu
+          num_frames     %llu
+          duplicate      %llu (%llu bytes)
+          out_of_order   %llu (%llu bytes)
+          no_load_info   %llu (%llu bytes);
 @end
 

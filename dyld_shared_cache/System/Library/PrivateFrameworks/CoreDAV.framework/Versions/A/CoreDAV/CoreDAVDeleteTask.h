@@ -14,18 +14,17 @@
     NSString *_previousETag;
 }
 
+- (id)_sortedShareesPreservingCurrentOrderFromSharees: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void)meZonesForEntourageTimeZones.plist is nil.;
 
 // Remaining properties
 @property(nonatomic) __weak id <CoreDAVTaskDelegate> delegate; // @dynamic delegate;
-@property(retain, nonatomic) NSString *previousETag; // @synthesize previousETag=_previousETag;
 
 @end
 

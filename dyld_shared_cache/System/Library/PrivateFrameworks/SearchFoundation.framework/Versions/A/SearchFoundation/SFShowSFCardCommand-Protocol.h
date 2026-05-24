@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFCard;
+@class SFCard;
 
 @protocol SFShowSFCardCommand
 
 // Remaining properties
 @property(retain, nonatomic) SFCard *card;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

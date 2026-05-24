@@ -22,12 +22,12 @@
 - (void);
 - (id);
 - (id);
+- (id)archivedNicknameRecordIds;
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)EntryCellText;
+- (_Bool)H9k;
 - (id);
 - (void);
 - (id);

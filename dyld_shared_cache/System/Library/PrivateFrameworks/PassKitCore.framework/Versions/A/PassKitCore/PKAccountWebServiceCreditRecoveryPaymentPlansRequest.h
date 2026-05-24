@@ -6,24 +6,22 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceCreditRecoveryPaymentPlansRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
 }
 
 - (id);
 - (id)ce eligibility requirements;
-- (void)rnalModeType;
+- (void)externalModeType;
 - (void);
 - (id)+;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 
 @end
 

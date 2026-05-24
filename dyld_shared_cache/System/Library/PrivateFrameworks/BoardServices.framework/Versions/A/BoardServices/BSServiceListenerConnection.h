@@ -6,9 +6,6 @@
 
 #import <BoardServices/BSServiceConnection.h>
 
-@class BSAuditToken, BSProcessHandle, NSString;
-@protocol BSXPCDecoding;
-
 @interface BSServiceListenerConnection : BSServiceConnection
 {
 }
@@ -22,17 +19,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <BSXPCDecoding> initiatingContext;
-@property(readonly, nonatomic) BSProcessHandle *remoteProcess;
-@property(readonly, nonatomic) BSAuditToken *remoteToken; // @dynamic remoteToken;
 @property(readonly, nonatomic, getter=isRevoked) _Bool revoked;
-@property(readonly) Class superclass;
 
 @end
 

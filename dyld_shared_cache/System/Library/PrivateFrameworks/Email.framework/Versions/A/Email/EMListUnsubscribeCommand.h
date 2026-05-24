@@ -4,60 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMListUnsubscribeMailtoValues, EMListUnsubscribePostValues, NSString;
+@class NSString;
 
 @interface EMListUnsubscribeCommand
 {
     NSString *_listID;
-    NSString *_sender;
-    NSString *_senderForUnsubscribeMessage;
-    long long _headerUnsubscribeTypes;
-    EMListUnsubscribeMailtoValues *_mailtoValues;
-    EMListUnsubscribePostValues *_postValues;
 }
 
-+ (void);
++ (void)ECTION_TYPE_WIFI;
 + (id);
 + (id);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType);
 + (id);
 + (_Bool);
 - (id);
 - (id);
+- (id);
+- (long long)d;
 - (id);
-- (long long);
-- (id);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)_performBlockOnRefreshManagerThread:(id)arg1;
 - (void);
-- (id);
+- (id)rom albumGUID %{public}@. Error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long headerUnsubscribeTypes; // @synthesize headerUnsubscribeTypes=_headerUnsubscribeTypes;
-@property(readonly, nonatomic) _Bool isMailtoOperation;
 @property(readonly, nonatomic) NSString *listID; // @synthesize listID=_listID;
-@property(readonly, nonatomic) EMListUnsubscribeMailtoValues *mailtoValues; // @synthesize mailtoValues=_mailtoValues;
-@property(readonly, nonatomic) EMListUnsubscribePostValues *postValues; // @synthesize postValues=_postValues;
-@property(readonly, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(readonly, nonatomic) NSString *senderForUnsubscribeMessage; // @synthesize senderForUnsubscribeMessage=_senderForUnsubscribeMessage;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,44 +6,33 @@
 
 #import <AppKit/NSView.h>
 
-@class NSString, NSTextLayoutFragment, NSTextView;
+@class NSTextLayoutFragment, NSTextView;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextViewportElementView : NSView
 {
     NSTextView *_textView;
-    struct CGPoint _renderingOrigin;
-    _Bool _prefersHidingOverInvalidation;
-    NSTextLayoutFragment *_element;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)FDR Trust Object revoked public key found;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)TLSV1_ALERT_BAD_CERTIFICATE_HASH_VALUE;
 - (_Bool);
-- (id)rsorForVerticalLayout;
+- (id)IBeamCursorForVerticalLayout;
 - (id)ent notification;
 - (void)view or its subview(s)? Try adding constraints or give the view an intrinsicContentSize;
 - (struct CGRect)s Control;
-- (id)e: /* Error: Ran out of types for this method. */;
+- (id)deleteToEndOfLine: /* Error: Ran out of types for this method. */;
 - (void)ÜÜÜÜÜ?<<<<<<ì?ÒÑÑÑÑÑá?222222â?]]]]]]í?Ö?é?______ï?Ö?Õ?ÛÚÚÚÚÚê?Ø×××××ç?ZZZZZZÚ?ÜÛÛÛÛÛÛ?{®Gáz´?¸ëQ¸?¸ëQ¸?ì?Ï?ÿþþþþþî?PPPPPPà? ï?×ÖÖÖÖÖæ?Ã?Ø?WWWWWWç?Ñ?Þ?Î?ÓÒÒÒÒÒâ?ÔÓÓÓÓÓÓ?ÔÓÓÓÓÓã?QQQQQQá?òñññññá?ttttttä?ã?{®GázÄ?¹?É?ÍÌÌÌÌÌè?«ªª>«ª*?333?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSTextLayoutFragment *element; // @synthesize element=_element;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSTextView *textView; // @synthesize textView=_textView;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface IDSDaemonResponseHandler
 {
     id _block;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _isSync;
 }
 
 - (id);
@@ -24,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id block; // @synthesize block=_block;
-@property(readonly, nonatomic) _Bool isSync; // @synthesize isSync=_isSync;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

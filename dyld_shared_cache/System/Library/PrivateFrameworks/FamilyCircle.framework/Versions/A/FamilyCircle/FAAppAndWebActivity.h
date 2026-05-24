@@ -7,23 +7,21 @@
 @interface FAAppAndWebActivity
 {
     _Bool enabled;
-    _Bool strictPolicy;
 }
 
 + (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)PCM_Mono_16Bit_22050Hz;
+- (void)topicSwitchDetected;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)16;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled;
-@property(nonatomic) _Bool strictPolicy; // @synthesize strictPolicy;
 
 @end
 

@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool)eFieldObject;
+- (void)wanHealthBeforeDecision;
+- (_Bool)dateFieldObject;
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;

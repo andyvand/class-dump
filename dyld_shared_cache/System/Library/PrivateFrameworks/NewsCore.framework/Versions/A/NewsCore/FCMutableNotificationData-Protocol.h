@@ -7,13 +7,10 @@
 @class NSString;
 
 @protocol FCMutableNotificationData
+- (NSString *);
 - (void)ectionHeadlinesFetchOperation _sectionsPromiseWithTagsByID:(int)arg1 sectionIDs:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *baseURLString;
-@property(nonatomic) int deviceDigestMode;
-@property(copy, nonatomic) NSString *deviceToken;
-@property(copy, nonatomic) NSString *notificationUserID;
-@property(copy, nonatomic) NSString *storefrontID;
 @end
 

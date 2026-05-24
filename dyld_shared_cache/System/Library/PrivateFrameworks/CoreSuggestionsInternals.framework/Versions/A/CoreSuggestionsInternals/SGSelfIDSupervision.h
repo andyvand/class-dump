@@ -7,21 +7,17 @@
 @interface SGSelfIDSupervision
 {
     _Bool _isPositiveExample;
-    _Bool _isNegativeExample;
-    struct _NSRange _candidateNameRange;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)em/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (_Bool)eworks/Combine.framework/Versions/A/Combine;
 - (id);
 - (struct _NSRange);
 
 // Remaining properties
-@property(nonatomic) struct _NSRange candidateNameRange; // @synthesize candidateNameRange=_candidateNameRange;
-@property(nonatomic) _Bool isNegativeExample; // @synthesize isNegativeExample=_isNegativeExample;
 @property(nonatomic) _Bool isPositiveExample; // @synthesize isPositiveExample=_isPositiveExample;
 
 @end

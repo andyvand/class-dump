@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, NSData, TKSharedResource;
+@class LAContext;
 
 __attribute__((visibility("hidden")))
 @interface TKAuthContext
 {
     LAContext *_authContext;
-    NSData *_ACMHandle;
-    TKSharedResource *_sharedResource;
 }
 
 - (id);
@@ -21,9 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *ACMHandle; // @synthesize ACMHandle=_ACMHandle;
 @property(readonly, nonatomic) LAContext *authContext; // @synthesize authContext=_authContext;
-@property(readonly, nonatomic) TKSharedResource *sharedResource; // @synthesize sharedResource=_sharedResource;
 
 @end
 

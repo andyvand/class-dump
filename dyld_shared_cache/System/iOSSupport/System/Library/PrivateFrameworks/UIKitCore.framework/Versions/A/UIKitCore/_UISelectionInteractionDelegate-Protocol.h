@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UISelectionInteraction;
+
 @protocol _UISelectionInteractionDelegate
-- (void)_UINavigationItemSwiftRenameHandler;
+- (void)_TtCE5UIKitCSo16UINavigationItem35_UINavigationItemSwiftRenameHandler;
 
 @optional
+- (_Bool)informOfCancelledMessageWithMessageGUID:(_UISelectionInteraction *)arg1 success:cancelType:error: /* Error: Ran out of types for this method. */;
 - (void)debarWidths=ddd},N,V_wideWidthMetrics;
 - (void)xLayoutWidth;
 @end

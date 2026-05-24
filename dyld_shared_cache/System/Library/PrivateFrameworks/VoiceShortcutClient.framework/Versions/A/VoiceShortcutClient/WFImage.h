@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSData, NSImage, NSString, NSURL, UIImage, WFColor, WFImageSymbolConfiguration;
-
 @interface WFImage
 {
     id _internalCGImage;
-    id _internalImageSource;
-    NSImage *_NSImage;
-    UIImage *_UIImage;
-    _Bool _allowsAnimated;
-    unsigned int _orientation;
-    struct CGImage *_CGImage;
-    double _scale;
-    unsigned long long _displayStyle;
-    unsigned long long _renderingMode;
-    long long _representationType;
-    NSURL *_URL;
-    NSData *_data;
-    NSString *_name;
-    NSBundle *_bundle;
-    NSString *_symbolName;
-    WFImageSymbolConfiguration *_symbolConfiguration;
-    WFColor *_tintColor;
 }
 
 @end

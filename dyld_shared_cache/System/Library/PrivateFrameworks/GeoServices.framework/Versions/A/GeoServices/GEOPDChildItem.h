@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDChildAction, GEOPDChildPlace, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDChildItem
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDChildAction *_childAction;
-    GEOPDChildPlace *_childPlace;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _childItemType;
-    struct {
-        unsigned int has_childItemType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_childAction:1;
-        unsigned int read_childPlace:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)SSVCAMaximumLinearSoundLevel;
+- (unsigned long long)�;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)Result";
-- (id)Attributes;
+- (id)_categoriesStyleAttributes;
 - (id)ôY´Z´ðZ´\$Z´È4Z´4DZ´ TZ´dZ´xtZ´äZ´PZ´¼¤Z´(´Z´ÄZ´;
 - (void)ýÿÿÿûÿþÿûÿúÿýÿþÿõÿöÿøÿ÷ÿõÿþÿöÿÿÿóÿùÿ÷ÿôÿ÷ÿöÿüÿýÿúÿûÿùÿüÿüÿþÿýÿûÿüÿýÿþÿûÿóÿòÿôÿõÿ ;
 

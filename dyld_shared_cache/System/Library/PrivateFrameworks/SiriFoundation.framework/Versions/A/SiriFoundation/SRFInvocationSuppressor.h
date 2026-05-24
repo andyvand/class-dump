@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface SRFInvocationSuppressor
 {
     NSMutableDictionary *_voiceTriggerSuppressionsCountTable;
-    NSMutableSet *_voiceTriggerSuppressingProcesses;
-    NSMutableSet *_fullInvocationSuppressingProcesses;
 }
 
 - (id);
@@ -29,14 +27,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableSet *fullInvocationSuppressingProcesses; // @synthesize fullInvocationSuppressingProcesses=_fullInvocationSuppressingProcesses;
-@property(retain) NSMutableSet *voiceTriggerSuppressingProcesses; // @synthesize voiceTriggerSuppressingProcesses=_voiceTriggerSuppressingProcesses;
 @property(retain) NSMutableDictionary *voiceTriggerSuppressionsCountTable; // @synthesize voiceTriggerSuppressionsCountTable=_voiceTriggerSuppressionsCountTable;
 
 @end

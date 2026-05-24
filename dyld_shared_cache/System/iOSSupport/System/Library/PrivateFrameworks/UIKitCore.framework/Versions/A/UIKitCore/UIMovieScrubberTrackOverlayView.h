@@ -6,24 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImageView;
-
 __attribute__((visibility("hidden")))
 @interface UIMovieScrubberTrackOverlayView : UIView
 {
     double _value;
-    double _minimumValue;
-    double _maximumValue;
-    double _startValue;
-    double _endValue;
-    UIImageView *_leftFillView;
-    UIImageView *_rightFillView;
-    unsigned int _editingHandle;
-    unsigned int _editing:1;
-    unsigned int _zoomed:1;
 }
 
 - (void);
+- (void)SSFirstPartyTextMessageFilterAvailableNotification;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)container:(_Bool)arg1;
+- (void)nsli_lowerAttribute:(_Bool)arg1 intoExpression:withCoefficient:container: /* Error: Ran out of types for this method. */;
 - (id)selectedRange;
 - (void);
 - (void)»¥Ùàyd;

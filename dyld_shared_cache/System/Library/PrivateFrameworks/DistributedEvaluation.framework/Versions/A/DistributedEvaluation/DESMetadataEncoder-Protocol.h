@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData;
+
 @protocol DESMetadataEncoder
+- (NSData *)me.parameterDisambiguation.items.value.primitive.app.bundleId;
+- (NSData *)uest.statementResults.payload.outcome.parameterDisambiguation.items.value.primitive.app.bundleId;
+- (NSData *).custom.bundleId;
+- (NSData *)lection.values.query.typeIdentifier.custom.bundleId;
+- (NSData *)est.statementResults.payload.outcome.success.returnValue.collection.values.primitive.app.bundleId;
 @end
 

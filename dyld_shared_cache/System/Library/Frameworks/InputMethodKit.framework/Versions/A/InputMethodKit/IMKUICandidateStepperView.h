@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKUIDelimiter, NSImageView;
+@class IMKUIDelimiter;
 @protocol IMKUICandidateStepperViewDelegate;
 
 @interface IMKUICandidateStepperView
 {
     id <IMKUICandidateStepperViewDelegate> _delegate;
-    _Bool _initialized;
-    long long _alignment;
-    double _fontPointSize;
-    IMKUIDelimiter *_delimiter;
-    NSImageView *_topArrowView;
-    NSImageView *_bottomArrowView;
 }
 
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)_;
+- (struct CGRect)g;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)haNak�<)A;
 - (void);
 - (double);
 - (id);
-- (void);
+- (void)h;
 - (struct CGRect);
 - (id);
 - (id);
@@ -43,17 +37,11 @@
 - (void);
 - (_Bool)AìÐ!ìAùñ=ð1Â0@ù
 × ;
-- (void)s:(id)arg1 atCursorPosition: /* Error: Ran out of types for this method. */;
+- (void)insertCharacters:(id)arg1 atCursorPosition: /* Error: Ran out of types for this method. */;
 - (void)x;
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(retain, nonatomic) NSImageView *bottomArrowView; // @synthesize bottomArrowView=_bottomArrowView;
-@property(nonatomic) __weak id <IMKUICandidateStepperViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) IMKUIDelimiter *delimiter; // @synthesize delimiter=_delimiter;
-@property(nonatomic) double fontPointSize; // @synthesize fontPointSize=_fontPointSize;
-@property(nonatomic) _Bool initialized; // @synthesize initialized=_initialized;
-@property(retain, nonatomic) NSImageView *topArrowView; // @synthesize topArrowView=_topArrowView;
 
 @end
 

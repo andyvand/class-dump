@@ -5,5 +5,7 @@
 //
 
 @protocol ABCompare
+- (_Bool)C;
+- (_Bool);
 @end
 

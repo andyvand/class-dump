@@ -9,7 +9,6 @@
 @interface CLFindMyAccessoryFragmentAccumulator
 {
     NSMutableDictionary *_uuidToData;
-    unsigned long long _maxBytesPerUUID;
 }
 
 + (id);
@@ -21,11 +20,11 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)ERROR:CameraModel/Intrinsics should be a CFArray with 9 entries of type 'double'
+ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long maxBytesPerUUID; // @synthesize maxBytesPerUUID=_maxBytesPerUUID;
 @property(nonatomic) NSMutableDictionary *uuidToData; // @synthesize uuidToData=_uuidToData;
 
 @end

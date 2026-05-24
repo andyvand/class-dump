@@ -7,13 +7,12 @@
 @interface NewsArticles.URLHandler
 {
     id closures;
-    id newWindowClosures;
 }
 
 - (void);
 - (void);
 - (id);
-- (void)sIssueArticle;
+- (void)isIssueArticle;
 
 @end
 

@@ -7,14 +7,12 @@
 @interface SwiftUI.UIKitBarButtonItemGroup
 {
     id groupItem;
-    id edge;
-    id viewController;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void)difier;
+- (void)TabViewBottomAccessoryModifier;
 
 @end
 

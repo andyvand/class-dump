@@ -6,17 +6,12 @@
 
 #import <HomeKitDaemon/HMDHierarchicalStateMachine.h>
 
-@class HMDHomeActivityState, HMDHomeActivityStateTimedHoldInfo, NSString;
-@protocol HMDHomeActivityStateAggregatorStateDataSource, HMDHomeActivityStateMachineTransitionDelegate, HMDHomeActivityStateManagerDataSource;
+@protocol HMDHomeActivityStateManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateMachine : HMDHierarchicalStateMachine
 {
     struct os_unfair_lock_s _lock;
-    id <HMDHomeActivityStateMachineTransitionDelegate> _stateTransitionDelegate;
-    id <HMDHomeActivityStateManagerDataSource> _dataSource;
-    id <HMDHomeActivityStateAggregatorStateDataSource> _aggregatorStateDataSource;
-    HMDHomeActivityStateTimedHoldInfo *_initialStateHoldDetails;
 }
 
 + (long long);
@@ -35,26 +30,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_styleFeatureVectorData;
 - (id);
 - (void)ccessory:%@, let's schedule database audit on the database /* Error: Ran out of types for this method. */;
 - (void)y with target network protection mode %@;
-- (void);
+- (void)HMDBulletinBoardNotificationServiceGroupUpdatedSaveReason;
 
 // Remaining properties
-@property(readonly, nonatomic) id <HMDHomeActivityStateAggregatorStateDataSource> aggregatorStateDataSource; // @synthesize aggregatorStateDataSource=_aggregatorStateDataSource;
-@property(readonly, nonatomic) HMDHomeActivityState *currentHomeActivityState;
 @property(readonly, nonatomic) id <HMDHomeActivityStateManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) double holdTimeOutInSeconds;
-@property(readonly, nonatomic) HMDHomeActivityStateTimedHoldInfo *initialStateHoldDetails; // @synthesize initialStateHoldDetails=_initialStateHoldDetails;
-@property(nonatomic) __weak id <HMDHomeActivityStateMachineTransitionDelegate> stateTransitionDelegate; // @synthesize stateTransitionDelegate=_stateTransitionDelegate;
-@property(readonly) Class superclass;
 
 @end
 

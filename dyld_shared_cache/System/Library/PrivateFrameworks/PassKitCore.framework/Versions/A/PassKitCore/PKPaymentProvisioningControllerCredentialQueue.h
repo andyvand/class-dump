@@ -9,13 +9,11 @@
 @interface PKPaymentProvisioningControllerCredentialQueue
 {
     NSMutableArray *_credentials;
-    NSMutableArray *_completedCredentials;
-    unsigned long long _currentIndex;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)!;
+- (void);
 - (id);
 - (id);
 - (unsigned long long);

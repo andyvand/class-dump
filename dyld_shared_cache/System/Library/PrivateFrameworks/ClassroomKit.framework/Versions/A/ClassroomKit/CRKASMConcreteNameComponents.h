@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @interface CRKASMConcreteNameComponents
 {
     NSString *_givenName;
-    NSString *_phoneticGivenName;
-    NSString *_familyName;
-    NSString *_phoneticFamilyName;
-    NSString *_fullName;
-    NSString *_phoneticFullName;
-    NSString *_monogram;
-    NSAttributedString *_attributedFullName;
 }
 
 + (id);
@@ -36,26 +29,12 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (id)er;
+- (id)_dataObserver;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSAttributedString *attributedFullName; // @synthesize attributedFullName=_attributedFullName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly, copy, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
 @property(readonly, copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *monogram; // @synthesize monogram=_monogram;
-@property(readonly, copy, nonatomic) NSString *phoneticFamilyName; // @synthesize phoneticFamilyName=_phoneticFamilyName;
-@property(readonly, copy, nonatomic) NSString *phoneticFullName; // @synthesize phoneticFullName=_phoneticFullName;
-@property(readonly, copy, nonatomic) NSString *phoneticGivenName; // @synthesize phoneticGivenName=_phoneticGivenName;
-@property(readonly) Class superclass;
 
 @end
 

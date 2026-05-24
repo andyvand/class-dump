@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, UTType;
+@class NSDate;
 
 @interface PHAssetResourceCreationOptions
 {
     _Bool _shouldMoveFile;
-    _Bool _shouldIngestInPlace;
-    int _burstPickType;
-    NSDate *_alternateImportImageDate;
-    NSString *_originalFilename;
-    NSString *_uniformTypeIdentifier;
-    NSString *_forcePairingIdentifier;
 }
 
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -27,28 +21,21 @@
 - (id);
 - (int);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)@9;
+- (void)purgePageLayout;
 - (id);
-- (id);
+- (id)_localMemberIdentity;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)gOnParticipationState: /* Error: Ran out of types for this method. */;
-- (void)Value;
+- (id)predicateToIncludeSharedLibraryAssetsAllowingIndexingOnParticipationState: /* Error: Ran out of types for this method. */;
+- (void)hdrGainMapPercentageValue;
 - (void)ableDictionary",&,N,V_changeNotificationInfo;
 - (void)CONTAINS %@;
 - (id)ect %@ passed to %@, objects must be of type PHMomentShare;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *alternateImportImageDate; // @synthesize alternateImportImageDate=_alternateImportImageDate;
-@property(nonatomic) int burstPickType; // @synthesize burstPickType=_burstPickType;
-@property(copy, nonatomic) UTType *contentType;
-@property(retain, nonatomic) NSString *forcePairingIdentifier; // @synthesize forcePairingIdentifier=_forcePairingIdentifier;
-@property(copy, nonatomic) NSString *originalFilename; // @synthesize originalFilename=_originalFilename;
-@property(nonatomic) _Bool shouldIngestInPlace; // @synthesize shouldIngestInPlace=_shouldIngestInPlace;
-@property(nonatomic) _Bool shouldMoveFile; // @synthesize shouldMoveFile=_shouldMoveFile;
-@property(copy, nonatomic) NSString *uniformTypeIdentifier; // @synthesize uniformTypeIdentifier=_uniformTypeIdentifier;
 
 @end
 

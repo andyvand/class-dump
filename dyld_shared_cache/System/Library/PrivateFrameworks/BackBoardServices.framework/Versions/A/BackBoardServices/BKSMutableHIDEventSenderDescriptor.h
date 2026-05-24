@@ -6,25 +6,20 @@
 
 #import <BackBoardServices/BKSHIDEventSenderDescriptor.h>
 
-@class BKSHIDEventDisplay;
-
 @interface BKSMutableHIDEventSenderDescriptor : BKSHIDEventSenderDescriptor
 {
 }
 
-+ (id);
-- (void);
++ (id)DISTRUSTED_RECOVERY_KEY_REPAIR_INFORMATIVE;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)tm_getStringValue:(long long)arg1 forExtendedAttribute:options:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) BKSHIDEventDisplay *associatedDisplay; // @dynamic associatedDisplay;
-@property(nonatomic, getter=isAuthenticated) _Bool authenticated; // @dynamic authenticated;
 @property(nonatomic) long long hardwareType; // @dynamic hardwareType;
-@property(nonatomic) unsigned long long senderID; // @dynamic senderID;
 
 @end
 

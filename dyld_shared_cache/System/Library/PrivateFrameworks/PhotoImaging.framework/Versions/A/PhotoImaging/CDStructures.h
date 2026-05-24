@@ -63,18 +63,18 @@ typedef struct {
 } CDStruct_31328b19;
 
 typedef struct {
-    id columns[3];
-} CDStruct_1fe29af2;
+    id _field1[3];
+} CDStruct_c27faaab;
 
 typedef struct {
     double _field1[4];
 } CDStruct_145c54d4;
 
 typedef struct {
-    double sat;
-    double contrast;
-    double cast;
-} CDStruct_7982ab34;
+    double _field1;
+    double _field2;
+    double _field3;
+} CDStruct_39925896;
 
 typedef struct {
     double _field1;
@@ -82,11 +82,11 @@ typedef struct {
 } CDStruct_c3b9c2ee;
 
 typedef struct {
-    float r;
-    float g;
-    float b;
-    float a;
-} CDStruct_83984b6f;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+} CDStruct_818bb265;
 
 typedef struct {
     int _field1;
@@ -105,9 +105,9 @@ typedef struct {
 } CDStruct_3e3b199e;
 
 typedef struct {
-    int major;
-    int minor;
-} CDStruct_6ed351db;
+    int _field1;
+    int _field2;
+} CDStruct_1ef3fb1f;
 
 typedef struct {
     long long value;
@@ -123,33 +123,26 @@ typedef struct {
 } CDStruct_92960315;
 
 typedef struct {
-    CDStruct_1b6d18a9 start;
-    CDStruct_1b6d18a9 duration;
-} CDStruct_e83c9415;
+    CDStruct_1b6d18a9 _field1;
+    CDStruct_1b6d18a9 _field2;
+} CDStruct_5c5366e1;
 
 typedef struct {
     struct {
-        long long x;
-        long long y;
-    } origin;
-    CDStruct_d58201db size;
-} CDStruct_996ac03c;
+        long long _field1;
+        long long _field2;
+    } _field1;
+    struct {
+        long long _field1;
+        long long _field2;
+    } _field2;
+} CDStruct_0973877e;
 
 // Ambiguous groups
 typedef struct {
     long long _field1;
     long long _field2;
 } CDStruct_912cb5d2;
-
-typedef struct {
-    long long numerator;
-    long long denominator;
-} CDStruct_1e2b2e48;
-
-typedef struct {
-    long long width;
-    long long height;
-} CDStruct_d58201db;
 
 typedef struct vector<float, std::allocator<float>> {
     float *_field1;

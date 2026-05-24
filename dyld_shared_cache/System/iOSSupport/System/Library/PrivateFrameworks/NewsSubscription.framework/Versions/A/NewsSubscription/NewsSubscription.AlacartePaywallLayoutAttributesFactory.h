@@ -7,12 +7,6 @@
 @interface NewsSubscription.AlacartePaywallLayoutAttributesFactory
 {
     id marginWidth;
-    id softPaywallTitleOffset;
-    id descriptionTextViewRegularWidth;
-    id subscribeButtonTopOffset;
-    id descriptionTextViewTopOffset;
-    id webAuthButtonTopOffset;
-    id styler;
 }
 
 @end

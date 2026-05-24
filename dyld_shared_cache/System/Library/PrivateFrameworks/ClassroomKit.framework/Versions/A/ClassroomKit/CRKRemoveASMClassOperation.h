@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol CRKClassKitRosterRequirements;
 
 @interface CRKRemoveASMClassOperation
 {
     NSString *_objectID;
-    id <CRKClassKitRosterRequirements> _requirements;
 }
 
 - (id);
@@ -20,13 +18,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)r"16d24;
 - (void);
-- (_Bool)ctorClassroomAppVersion;
+- (_Bool)instructorClassroomAppVersion;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *objectID; // @synthesize objectID=_objectID;
-@property(readonly, nonatomic) id <CRKClassKitRosterRequirements> requirements; // @synthesize requirements=_requirements;
 
 @end
 

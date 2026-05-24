@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEntityMapping, NSMutableArray, NSMutableDictionary, NSSQLEntity;
+@class NSEntityMapping, NSSQLEntity;
 
 __attribute__((visibility("hidden")))
 @interface _NSSQLEntityMigrationDescription
 {
     NSEntityMapping *_entityMapping;
-    NSMutableDictionary *_sqlValuesByColumnName;
-    NSMutableDictionary *_sourceEntitiesByToOneWithNewEntityKey;
-    NSSQLEntity *_dstEntity;
-    NSSQLEntity *_srcEntity;
-    int _migrationType;
-    NSMutableArray *_addedManyToManys;
-    NSMutableArray *_removedManyToManys;
-    NSMutableArray *_transformedManyToManys;
-    NSMutableArray *_processedTransforms;
-    NSMutableArray *_pendingTransforms;
-    _Bool _updateUsingCopy;
 }
 
 - (void);

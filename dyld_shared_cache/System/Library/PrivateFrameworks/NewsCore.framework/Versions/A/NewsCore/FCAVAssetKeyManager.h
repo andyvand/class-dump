@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCThreadSafeMutableArray, NFLazy, NSString;
-@protocol FCAVAssetKeyCacheType, FCAVAssetKeyServiceType;
+@protocol FCAVAssetKeyServiceType;
 
 @interface FCAVAssetKeyManager
 {
     id <FCAVAssetKeyServiceType> _service;
-    id <FCAVAssetKeyCacheType> _cache;
-    NFLazy *_sharedContentKeySession;
-    FCThreadSafeMutableArray *_fetchRequests;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)SportsRecommendable:(id)arg1;
-- (void)torageThreshold;
+- (void)�I;
+- (void)setIsSportsRecommendable:(id)arg1;
+- (void)criticalStorageThreshold;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

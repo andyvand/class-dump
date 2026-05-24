@@ -6,25 +6,20 @@
 
 #import <MediaPlayer/MPAVRoutingDataSource.h>
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface MPAVTelevisionRoutingDataSource : MPAVRoutingDataSource
 {
     void *_discoveryController;
-    NSMutableArray *_discoveredTelevisions;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
+- (id)_sortClause;
+- (void)_exclRelTlist;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool)tObject:forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)setObject:forKey: /* Error: Ran out of types for this method. */;
 - (void)lessInfo",&,D,N;
 
 @end

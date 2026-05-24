@@ -6,22 +6,12 @@
 
 #import <TemplateKit/TLKSButton.h>
 
-@class NSTrackingArea, TLKImage, TLKImageView, TLKRichText;
-
 @interface TLKTextButton : TLKSButton
 {
     _Bool _matchesHeightForAlignmentRectWithIntrinsicContentSize;
-    _Bool _shadowDisabled;
-    _Bool _attributedTitleExplicitlySet;
-    _Bool _inHoverState;
-    unsigned long long _prominence;
-    TLKRichText *_richTitle;
-    TLKImage *_tlkImage;
-    TLKImageView *_tlkImageView;
-    NSTrackingArea *_hoverTrackingArea;
 }
 
-- (_Bool);
+- (_Bool)of fetching;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -33,7 +23,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)*;
 - (void);
 - (id);
 - (id);
@@ -43,8 +33,8 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)lugin failed to deserialize MKMapItem dict:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
@@ -60,27 +50,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)#;
+- (void)buildWithEnabled:(_Bool)arg1 withRangeType:withStart:withEnd:withSecondsPerDay: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (void);
-- (unsigned long long);
+- (unsigned long long)setDistribution: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysShowPlaceholderView;
 @property _Bool attributedTitleExplicitlySet; // @synthesize attributedTitleExplicitlySet=_attributedTitleExplicitlySet;
-@property(retain) NSTrackingArea *hoverTrackingArea; // @synthesize hoverTrackingArea=_hoverTrackingArea;
-@property(nonatomic) _Bool inHoverState; // @synthesize inHoverState=_inHoverState;
-@property _Bool matchesHeightForAlignmentRectWithIntrinsicContentSize; // @synthesize matchesHeightForAlignmentRectWithIntrinsicContentSize=_matchesHeightForAlignmentRectWithIntrinsicContentSize;
-@property(nonatomic) unsigned long long prominence; // @synthesize prominence=_prominence;
-@property(copy, nonatomic) TLKRichText *richTitle; // @synthesize richTitle=_richTitle;
-@property(nonatomic) _Bool shadowDisabled; // @synthesize shadowDisabled=_shadowDisabled;
-@property(copy, nonatomic) TLKImage *tlkImage; // @synthesize tlkImage=_tlkImage;
-@property(retain, nonatomic) TLKImageView *tlkImageView; // @synthesize tlkImageView=_tlkImageView;
 
 @end
 

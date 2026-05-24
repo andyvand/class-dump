@@ -13,14 +13,14 @@
     NSString *_timestampString;
 }
 
-- (_Bool);
-- (BOOL);
+- (_Bool)populatedRows;
+- (BOOL)initWithSystemPaperThumbnailService: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGSize);
 - (id);
-- (Class);
+- (Class)its;
 - (BOOL);
-- (id);
+- (id)gin password in System Settings to use it to lock notes.;
 - (_Bool);
 - (struct IMAssociatedMessageGeometryDescriptor);
 - (id);
@@ -28,9 +28,9 @@
 - (_Bool);
 - (struct UIEdgeInsets);
 - (Class);
-- (id)reURL;
-- (id)alBaseDelayInSeconds;
-- (id)ickname;
+- (id)alternateShareURL;
+- (id)initialExponentialBaseDelayInSeconds;
+- (id)Nickname;
 - (void)´;
 
 // Remaining properties

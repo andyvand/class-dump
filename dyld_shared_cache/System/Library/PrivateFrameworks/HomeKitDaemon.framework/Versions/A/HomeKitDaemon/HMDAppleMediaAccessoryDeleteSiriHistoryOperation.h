@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSettingsConnection, NSString;
+@class AFSettingsConnection;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryDeleteSiriHistoryOperation
@@ -16,17 +16,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)manceLogEvent;
+- (void)HouseholdArrivalPredictionPerformanceLogEvent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) AFSettingsConnection *settingsConnection; // @synthesize settingsConnection=_settingsConnection;
-@property(readonly) Class superclass;
 
 @end
 

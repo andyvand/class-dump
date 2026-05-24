@@ -10,8 +10,14 @@
 {
 }
 
-- (void);
-- (void);
+- (void)ndicator:(id)arg1 %d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
+- (void)Content:(id)arg1 %d
+	isPopoverBeingPresented:(id)arg2 %d
+	showsLoadingIndicator:%d
+	canHidePlaybackControls:%d
+} /* Error: Ran out of types for this method. */;
 
 @end
 

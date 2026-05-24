@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CRKFetchScreenshotResultObject
 {
     NSData *_screenshotData;
-    NSString *_studentIdentifier;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)s;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *screenshotData; // @synthesize screenshotData=_screenshotData;
-@property(copy, nonatomic) NSString *studentIdentifier; // @synthesize studentIdentifier=_studentIdentifier;
 
 @end
 

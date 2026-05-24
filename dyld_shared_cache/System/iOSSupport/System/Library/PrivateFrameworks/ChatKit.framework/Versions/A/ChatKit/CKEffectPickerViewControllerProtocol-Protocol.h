@@ -7,9 +7,16 @@
 @protocol CKEffectPickerViewControllerDelegate;
 
 @protocol CKEffectPickerViewControllerProtocol
+- (void)waveformBuffer;
+- (void)setTimingFunction:(_Bool)arg1;
+- (void)setBackgroundQueue:(double)arg1;
+- (void)imageViewTopLayoutConstraint;
+- (_Bool)_passwordTextField;
+- (void)R,N,V_account;
+- (void)_isPlayingMedia;
+- (id <CKEffectPickerViewControllerDelegate>);
 
 // Remaining properties
 @property(nonatomic) __weak id <CKEffectPickerViewControllerDelegate> delegate;
-@property(nonatomic) _Bool isInlineReply;
 @end
 

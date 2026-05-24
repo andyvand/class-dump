@@ -9,25 +9,21 @@
 @interface TUSmartHoldingRequest
 {
     NSUUID *_uuid;
-    NSUUID *_callUUID;
-    long long _requestType;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)ategy>];
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void)reRemoteRequestFromRequesterID: /* Error: Ran out of types for this method. */;
+- (id)ork/Versions/A/CoreFoundation;
+- (void)willCaptureRemoteRequestFromRequesterID: /* Error: Ran out of types for this method. */;
 - (long long)icationCategory;
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *callUUID; // @synthesize callUUID=_callUUID;
-@property(readonly, nonatomic) long long requestType; // @synthesize requestType=_requestType;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

@@ -9,24 +9,22 @@
 @interface CTPrivateNetworkSimInfo
 {
     NSString *_csgNetworkIdentifier;
-    NSString *_networkIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)ed must belong to the same movie;
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)fetchQueryForKeyWithPublicKeyHash:(id)arg1;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *csgNetworkIdentifier; // @synthesize csgNetworkIdentifier=_csgNetworkIdentifier;
-@property(retain, nonatomic) NSString *networkIdentifier; // @synthesize networkIdentifier=_networkIdentifier;
 
 @end
 

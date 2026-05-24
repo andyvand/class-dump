@@ -4,113 +4,76 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUINavigationListStyleApplier, NSLayoutConstraint, UIImageView, UILabel, UILayoutGuide;
-@protocol CNUINavigationListStyle;
-
 __attribute__((visibility("hidden")))
 @interface CNUINavigationListViewCell
 {
     _Bool _accessoryControlExpanded;
-    _Bool _contentViewConstraintsLoaded;
-    _Bool _showSeparator;
-    UIImageView *_accessoryImageView;
-    UILabel *_subtitleLabel;
-    UIImageView *_titleImageView;
-    UILabel *_titleLabel;
-    id <CNUINavigationListStyle> _navigationListStyle;
-    CNUINavigationListStyleApplier *_styleApplier;
-    NSLayoutConstraint *_contentViewBottomAnchorConstraint;
-    NSLayoutConstraint *_subtitleLabelFirstBaselineAnchorConstraint;
-    NSLayoutConstraint *_subtitleLabelLeadingAnchorConstraint;
-    NSLayoutConstraint *_subtitleLabelTrailingAnchorConstraint;
-    NSLayoutConstraint *_titleLabelFirstBaselineAnchorConstraint;
-    NSLayoutConstraint *_titleLabelLeadingAnchorConstraint;
-    NSLayoutConstraint *_titleLabelTrailingAnchorConstraint;
-    UILayoutGuide *_accessoryImageViewLayoutGuide;
-    UILayoutGuide *_titleImageViewLayoutGuide;
 }
 
-+ (double);
++ (double)+1~)m;
 + (double);
 + (id);
 + (id);
 + (struct CGSize);
 + (double);
 + (id);
++ (id)@3;
 + (id);
-+ (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
 - (id);
 - (id);
 - (double);
 - (id);
+- (id);
+- (id);
+- (id)	ja;
+- (double);
+- (id);
 - (void);
 - (id);
 - (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (double);
 - (id);
-- (id);
+- (id)	ja&;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)TkA;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id)setNeedsDisplay: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void)e:useIgnorableKeys:findMissingKeys: /* Error: Ran out of types for this method. */;
+- (void)areKeysAvailable:useIgnorableKeys:findMissingKeys: /* Error: Ran out of types for this method. */;
 - (id)_shouldFetchSharedMeContactPhoto;
-- (void)leKey;
+- (void)ContactAccessButtonImageStyleKey;
 
 // Remaining properties
 @property(nonatomic, getter=isAccessoryControlExpanded) _Bool accessoryControlExpanded; // @synthesize accessoryControlExpanded=_accessoryControlExpanded;
-@property(readonly, nonatomic) UIImageView *accessoryImageView; // @synthesize accessoryImageView=_accessoryImageView;
-@property(readonly, nonatomic) UILayoutGuide *accessoryImageViewLayoutGuide; // @synthesize accessoryImageViewLayoutGuide=_accessoryImageViewLayoutGuide;
-@property(retain, nonatomic) NSLayoutConstraint *contentViewBottomAnchorConstraint; // @synthesize contentViewBottomAnchorConstraint=_contentViewBottomAnchorConstraint;
-@property(nonatomic, getter=isContentViewConstraintsLoaded) _Bool contentViewConstraintsLoaded; // @synthesize contentViewConstraintsLoaded=_contentViewConstraintsLoaded;
-@property(retain, nonatomic) id <CNUINavigationListStyle> navigationListStyle; // @synthesize navigationListStyle=_navigationListStyle;
-@property(nonatomic) _Bool showSeparator; // @synthesize showSeparator=_showSeparator;
-@property(retain, nonatomic) CNUINavigationListStyleApplier *styleApplier; // @synthesize styleApplier=_styleApplier;
-@property(readonly, nonatomic) UILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(retain, nonatomic) NSLayoutConstraint *subtitleLabelFirstBaselineAnchorConstraint; // @synthesize subtitleLabelFirstBaselineAnchorConstraint=_subtitleLabelFirstBaselineAnchorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *subtitleLabelLeadingAnchorConstraint; // @synthesize subtitleLabelLeadingAnchorConstraint=_subtitleLabelLeadingAnchorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *subtitleLabelTrailingAnchorConstraint; // @synthesize subtitleLabelTrailingAnchorConstraint=_subtitleLabelTrailingAnchorConstraint;
-@property(readonly, nonatomic) UIImageView *titleImageView; // @synthesize titleImageView=_titleImageView;
-@property(readonly, nonatomic) UILayoutGuide *titleImageViewLayoutGuide; // @synthesize titleImageViewLayoutGuide=_titleImageViewLayoutGuide;
-@property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) NSLayoutConstraint *titleLabelFirstBaselineAnchorConstraint; // @synthesize titleLabelFirstBaselineAnchorConstraint=_titleLabelFirstBaselineAnchorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *titleLabelLeadingAnchorConstraint; // @synthesize titleLabelLeadingAnchorConstraint=_titleLabelLeadingAnchorConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *titleLabelTrailingAnchorConstraint; // @synthesize titleLabelTrailingAnchorConstraint=_titleLabelTrailingAnchorConstraint;
 
 @end
 

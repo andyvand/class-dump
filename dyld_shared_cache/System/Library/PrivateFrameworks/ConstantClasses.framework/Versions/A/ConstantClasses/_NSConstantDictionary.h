@@ -10,7 +10,7 @@
 
 + (id);
 - (unsigned long long);
-- (void);
+- (void)setIsAskToBuy: /* Error: Ran out of types for this method. */;
 - (id);
 - (oneway void);
 - (id);
@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (unsigned long long);
 - (id);

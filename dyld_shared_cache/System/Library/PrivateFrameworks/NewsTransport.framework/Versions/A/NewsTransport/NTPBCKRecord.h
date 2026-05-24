@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NTPBCKDateStatistics, NTPBCKRecordIdentifier, NTPBCKRecordType;
+@class NSString;
 
 @interface NTPBCKRecord
 {
     NSString *_etag;
-    NSMutableArray *_fields;
-    NTPBCKRecordIdentifier *_recordIdentifier;
-    NTPBCKDateStatistics *_timeStatistics;
-    NTPBCKRecordType *_type;
 }
 
 + (Class);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
+- (id)isSimilarToColorGradient:withinPercentage: /* Error: Ran out of types for this method. */;
+- (_Bool)(';
 - (id);
 - (unsigned long long);
 - (void);
@@ -39,21 +35,13 @@
 - (void);
 - (id);
 - (_Bool)nfigurationFieldValue";
-- (void)etrieveRequest;
+- (void)hasRecordRetrieveRequest;
 - (void)zationTreatment;
 - (id);
 - (id)T×êÿÒDBÿh;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(retain, nonatomic) NSMutableArray *fields; // @synthesize fields=_fields;
 @property(readonly, nonatomic) _Bool hasEtag;
-@property(readonly, nonatomic) _Bool hasRecordIdentifier;
-@property(readonly, nonatomic) _Bool hasTimeStatistics;
-@property(readonly, nonatomic) _Bool hasType;
-@property(retain, nonatomic) NTPBCKRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(retain, nonatomic) NTPBCKDateStatistics *timeStatistics; // @synthesize timeStatistics=_timeStatistics;
-@property(retain, nonatomic) NTPBCKRecordType *type; // @synthesize type=_type;
 
 @end
 

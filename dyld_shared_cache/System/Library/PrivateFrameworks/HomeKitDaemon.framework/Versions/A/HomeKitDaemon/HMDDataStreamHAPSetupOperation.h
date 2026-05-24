@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface HMDDataStreamHAPSetupOperation : HMDDataStreamSetupOperation
 {
     unsigned long long _maxControllerTransportMTU;
-    long long _sessionIdentifier;
 }
 
 + (id)®B;
-- (void);
+- (void)g",&,N,V_name;
 - (void);
 - (unsigned long long);
 - (id);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long maxControllerTransportMTU; // @synthesize maxControllerTransportMTU=_maxControllerTransportMTU;
-@property(nonatomic) long long sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end
 

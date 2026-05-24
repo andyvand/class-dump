@@ -6,17 +6,12 @@
 
 #import <AVConference/VCObject.h>
 
-@class IDSDataChannelLinkContext, IDSDatagramChannel, NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface VCDatagramChannelIDS : VCObject
 {
     unsigned int _token;
-    IDSDatagramChannel *_idsChannel;
-    NSString *_destination;
-    int _vtpSocket;
-    CDUnknownBlockType _eventHandler;
-    int _dataPath;
 }
 
 - (id);
@@ -52,15 +47,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (int);
+- (int);
 - (void);
-- (id);
+- (id)fffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}56i64;
 
 // Remaining properties
 @property(readonly) NSArray *connectedLinks;
-@property(readonly) int dataPath; // @synthesize dataPath=_dataPath;
-@property(readonly) IDSDataChannelLinkContext *defaultLink;
-@property(readonly) NSString *destination; // @synthesize destination=_destination;
 
 @end
 

@@ -6,21 +6,19 @@
 
 #import <BackBoardServices/BKSHIDEventDeliveryRuleWrapper.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BKSHIDEventDiscreteDispatchingRoot : BKSHIDEventDeliveryRuleWrapper
 {
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *reason; // @dynamic reason;
-@property(readonly, copy, nonatomic) NSArray *rules;
-@property(readonly, nonatomic) unsigned int seed; // @dynamic seed;
 
 @end
 

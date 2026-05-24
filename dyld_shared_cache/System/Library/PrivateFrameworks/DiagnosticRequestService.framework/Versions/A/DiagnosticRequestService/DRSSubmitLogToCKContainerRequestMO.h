@@ -6,20 +6,17 @@
 
 #import <DiagnosticRequestService/DRSSubmitLogRequestMO.h>
 
-@class NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRSSubmitLogToCKContainerRequestMO : DRSSubmitLogRequestMO
 {
 }
 
-+ (id);
++ (id)filterOperation;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *containerName; // @dynamic containerName;
-@property(copy, nonatomic) NSString *fileAssetField; // @dynamic fileAssetField;
-@property(retain, nonatomic) NSData *recordDictionaryData; // @dynamic recordDictionaryData;
-@property(copy, nonatomic) NSString *recordType; // @dynamic recordType;
 
 @end
 

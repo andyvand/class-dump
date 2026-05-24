@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOSnapScorePoint, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOSnapScoreMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_destinationAccessPoints;
-    NSMutableArray *_destinationPoints;
-    NSMutableArray *_originAccessPoints;
-    GEOSnapScorePoint *_originPoint;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_destinationAccessPoints:1;
-        unsigned int read_destinationPoints:1;
-        unsigned int read_originAccessPoints:1;
-        unsigned int read_originPoint:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)M+;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)OfflinePerformanceMetrics";
-- (id)afficSummary;
-- (id)IconFilter;
+- (id)hasIncludeShortTrafficSummary;
+- (id)GEOPDIconFilter;
 - (void)OWw,¶ÎP@;
 
 @end

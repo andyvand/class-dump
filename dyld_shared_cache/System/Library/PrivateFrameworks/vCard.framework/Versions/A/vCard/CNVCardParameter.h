@@ -9,18 +9,16 @@
 @interface CNVCardParameter
 {
     NSString *_name;
-    NSString *_value;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSString *value; // @synthesize value=_value;
 
 @end
 

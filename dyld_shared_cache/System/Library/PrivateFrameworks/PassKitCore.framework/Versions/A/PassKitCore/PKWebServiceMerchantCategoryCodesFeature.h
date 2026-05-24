@@ -11,18 +11,16 @@
 @interface PKWebServiceMerchantCategoryCodesFeature : PKWebServiceRegionFeature
 {
     NSArray *_appleCardUnsupportedMerchantCategoryCodes;
-    NSArray *_appleCashUnsupportedMerchantCategoryCodes;
 }
 
 + (id);
-- (id);
-- (id);
+- (id);
+- (id)qa;
 - (id) ;
-- (void)ENT;
+- (void)AMP_ENROLLMENT;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *appleCardUnsupportedMerchantCategoryCodes; // @synthesize appleCardUnsupportedMerchantCategoryCodes=_appleCardUnsupportedMerchantCategoryCodes;
-@property(readonly, copy, nonatomic) NSArray *appleCashUnsupportedMerchantCategoryCodes; // @synthesize appleCashUnsupportedMerchantCategoryCodes=_appleCashUnsupportedMerchantCategoryCodes;
 
 @end
 

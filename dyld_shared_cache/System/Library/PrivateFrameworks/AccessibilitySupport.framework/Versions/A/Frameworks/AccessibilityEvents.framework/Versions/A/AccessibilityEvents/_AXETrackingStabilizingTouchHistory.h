@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXETrackingTouchEvent, NSMutableArray;
 @protocol NSObject><NSCopying;
 
 __attribute__((visibility("hidden")))
 @interface _AXETrackingStabilizingTouchHistory
 {
     _Bool __allowInstabilityBeforeHold;
-    _Bool __hasBeenUnstable;
-    id <NSObject><NSCopying> _identity;
-    AXETrackingTouchEvent *_firstTouchEvent;
-    AXETrackingTouchEvent *_lastTouchEvent;
-    NSMutableArray *__stabilizingTouches;
-    unsigned long long __state;
-    double __maximumHoldDeviation;
-    double __minimumHoldDuration;
-    double __minimumPreStabilizationDuration;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)7	;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (id)!;
+- (_Bool);
 - (id);
 - (double);
 - (double);
@@ -49,17 +39,7 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(nonatomic) _Bool _allowInstabilityBeforeHold; // @synthesize _allowInstabilityBeforeHold=__allowInstabilityBeforeHold;
-@property(nonatomic) _Bool _hasBeenUnstable; // @synthesize _hasBeenUnstable=__hasBeenUnstable;
-@property(nonatomic) double _maximumHoldDeviation; // @synthesize _maximumHoldDeviation=__maximumHoldDeviation;
-@property(nonatomic) double _minimumHoldDuration; // @synthesize _minimumHoldDuration=__minimumHoldDuration;
-@property(nonatomic) double _minimumPreStabilizationDuration; // @synthesize _minimumPreStabilizationDuration=__minimumPreStabilizationDuration;
-@property(retain, nonatomic) NSMutableArray *_stabilizingTouches; // @synthesize _stabilizingTouches=__stabilizingTouches;
-@property(nonatomic) unsigned long long _state; // @synthesize _state=__state;
-@property(retain, nonatomic) AXETrackingTouchEvent *firstTouchEvent; // @synthesize firstTouchEvent=_firstTouchEvent;
 @property(retain, nonatomic) id <NSObject><NSCopying> identity; // @synthesize identity=_identity;
-@property(retain, nonatomic) AXETrackingTouchEvent *lastTouchEvent; // @synthesize lastTouchEvent=_lastTouchEvent;
-@property(readonly, nonatomic) double touchDuration;
 
 @end
 

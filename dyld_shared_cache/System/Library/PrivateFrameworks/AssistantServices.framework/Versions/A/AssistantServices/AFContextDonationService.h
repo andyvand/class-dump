@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFDeviceContextConnection, NSMapTable, NSObject, NSString;
-@protocol AFContextDonation, OS_dispatch_queue;
+@class NSMapTable;
 
 @interface AFContextDonationService
 {
     NSMapTable *_transformersByType;
-    AFDeviceContextConnection *_connection;
-    id <AFContextDonation> _donationService;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id)s Couldn't create speech log directory at path %{public}@ %{public}@;
@@ -22,17 +18,11 @@
 - (void);
 - (void);
 - (id);
-- (void)nMutation;
+- (void)_AFInterstitialConfigurationMutation;
 - (id)outeMonitor _updateAudioRouteAvailabilityAndBroadcast:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMAssetBase.h>
 
-@class CEMAssetBaseDescriptor, NSNumber, NSString;
+@class CEMAssetBaseDescriptor;
 
 @interface CEMApplicationAppStoreDeclaration : CEMAssetBase
 {
     CEMAssetBaseDescriptor *_payloadDescriptor;
-    NSString *_payloadBundleIdentifier;
-    NSNumber *_payloadITunesStoreID;
 }
 
 + (id);
@@ -27,21 +25,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)F;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *payloadBundleIdentifier; // @synthesize payloadBundleIdentifier=_payloadBundleIdentifier;
 @property(copy, nonatomic) CEMAssetBaseDescriptor *payloadDescriptor; // @synthesize payloadDescriptor=_payloadDescriptor;
-@property(copy, nonatomic) NSNumber *payloadITunesStoreID; // @synthesize payloadITunesStoreID=_payloadITunesStoreID;
-@property(readonly) Class superclass;
 
 @end
 

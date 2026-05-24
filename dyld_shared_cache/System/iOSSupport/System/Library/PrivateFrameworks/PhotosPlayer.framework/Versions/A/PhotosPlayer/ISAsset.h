@@ -9,39 +9,28 @@
 @interface ISAsset
 {
     id _UIImage;
-    int _photoEXIFOrientation;
-    AVAsset *_videoAsset;
-    struct CGImage *_photo;
-    double _photoTime;
-    unsigned long long _options;
 }
 
-+ (id);
++ (id)ocation;
 - (void);
-- (int);
-- (CDStruct_1b6d18a9);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (int)dd},N,V_blueprintSize;
+- (CDStruct_1b6d18a9)Size=dd},?,R,N;
+- (id){CGPoint=dd},R,D,N;
+- (id)int=dd},N,V_longPressStartLocation;
+- (id)ion;
+- (id)ransformInRoot;
+- (id)dd},N,V_wrapSpaceToCanvasSpace;
+- (_Bool)rection;
 - (id);
 - (double);
 - (struct CGImage *);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasColorAdjustments;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) struct CGImage *photo; // @synthesize photo=_photo;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 photoCMTime;
-@property(readonly, nonatomic) int photoEXIFOrientation; // @synthesize photoEXIFOrientation=_photoEXIFOrientation;
-@property(readonly, nonatomic) double photoTime; // @synthesize photoTime=_photoTime;
 @property(readonly, copy, nonatomic) AVAsset *videoAsset; // @synthesize videoAsset=_videoAsset;
 
 @end

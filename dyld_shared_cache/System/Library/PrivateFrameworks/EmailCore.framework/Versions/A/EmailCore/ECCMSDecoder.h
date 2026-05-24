@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSCMSContentInfo, NSData;
+@class MSCMSContentInfo;
 
 @interface ECCMSDecoder
 {
     MSCMSContentInfo *_contentInfo;
-    NSData *_detachedContentData;
 }
 
 + (id);
 + (id);
-- (id);
-- (id);
+- (id)d;
+- (id)ceRef = %@;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)FMMRestartToActivationLockRecovery;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *decryptedContentData;
 @property(readonly, nonatomic) _Bool isEncrypted;
-@property(readonly, nonatomic) _Bool isSigned;
 
 @end
 

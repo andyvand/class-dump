@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface FPSearchableItemVersion
 {
     NSData *_contentVersion;
-    NSData *_metadataVersion;
 }
 
 + (id);
@@ -21,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)prerollForRenderingUsingHint:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)fer/;
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (id);
@@ -34,10 +33,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *contentVersion; // @synthesize contentVersion=_contentVersion;
 @property(readonly, nonatomic) _Bool hasContentVersion;
-@property(readonly, nonatomic) _Bool hasMetadataVersion;
-@property(retain, nonatomic) NSData *metadataVersion; // @synthesize metadataVersion=_metadataVersion;
 
 @end
 

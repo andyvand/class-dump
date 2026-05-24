@@ -6,14 +6,13 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSString;
 @protocol SAClientBoundCommand;
 
 @interface SAARParaphrasedAlternativeResult : SAAceView
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
@@ -26,8 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <SAClientBoundCommand> command;
-@property(copy, nonatomic) NSString *displayText;
-@property(copy, nonatomic) NSString *paraphrasedIntent;
 
 @end
 

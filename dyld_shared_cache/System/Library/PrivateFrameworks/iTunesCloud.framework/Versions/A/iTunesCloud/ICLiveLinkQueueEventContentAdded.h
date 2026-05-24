@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface ICLiveLinkQueueEventContentAdded
 {
     NSString *_containerIdentifier;
-    long long _containerKind;
-    NSString *_containerMediaIdentifier;
-    NSArray *_itemIdentifiers;
 }
 
 - (id);
@@ -25,9 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(readonly, nonatomic) long long containerKind; // @synthesize containerKind=_containerKind;
-@property(readonly, copy, nonatomic) NSString *containerMediaIdentifier; // @synthesize containerMediaIdentifier=_containerMediaIdentifier;
-@property(readonly, copy, nonatomic) NSArray *itemIdentifiers; // @synthesize itemIdentifiers=_itemIdentifiers;
 
 @end
 

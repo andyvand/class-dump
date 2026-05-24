@@ -6,18 +6,14 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKFetchWebAuthTokenOperationInfo, NSString;
-@protocol CKFetchWebAuthTokenOperationCallbacks;
+@class NSString;
 
 @interface CKFetchWebAuthTokenOperation : CKDatabaseOperation
 {
     CDUnknownBlockType _fetchWebAuthTokenCompletionBlock;
-    NSString *_APIToken;
-    NSString *_webAuthToken;
-    CDUnknownBlockType _fetchWebAuthTokenCompletionBlock_wrapper;
 }
 
-+ (SEL);
++ (SEL)qb;
 + (void);
 + (SEL);
 - (id);
@@ -31,10 +27,10 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void)<¦à¦;
@@ -42,18 +38,6 @@
 - (void)àÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *APIToken; // @synthesize APIToken=_APIToken;
-@property(readonly, nonatomic) id <CKFetchWebAuthTokenOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType fetchWebAuthTokenCompletionBlock; // @synthesize fetchWebAuthTokenCompletionBlock=_fetchWebAuthTokenCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType fetchWebAuthTokenCompletionBlock_wrapper; // @synthesize fetchWebAuthTokenCompletionBlock_wrapper=_fetchWebAuthTokenCompletionBlock_wrapper;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKFetchWebAuthTokenOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *webAuthToken; // @synthesize webAuthToken=_webAuthToken;
 
 @end

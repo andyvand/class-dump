@@ -7,15 +7,16 @@
 @class PRPosterContentOcclusionRectSet, UIColor;
 
 @protocol PRUISPosterRenderingViewControlling
+- (void);
+- (void)36@0:(struct CGRect)arg1 8{_NSRange=QQ}16B32;
+- (void)unarchiveEvernoteResourceFromArchiveId:(PRPosterContentOcclusionRectSet *)arg1 resourceArchiveId:completionBlock: /* Error: Ran out of types for this method. */;
+- (UIColor *)setMaximumNumberOfNotesPerAccount: /* Error: Ran out of types for this method. */;
+- (UIColor *)th is %zu, but should be %ld.;
 - (void)Ð1Â0@ù
 × ;
-- (struct CGRect)ViewControllers;
+- (struct CGRect)automaticallyForwardAppearanceAndRotationMethodsToChildViewControllers;
 
 // Remaining properties
-@property(retain, nonatomic) PRPosterContentOcclusionRectSet *contentOcclusionRectangles;
 @property(nonatomic) unsigned long long renderingMode;
-@property(nonatomic) struct CGRect salientContentRectangle;
-@property(retain, nonatomic) UIColor *sceneViewBackgroundColor;
-@property(retain, nonatomic) UIColor *viewBackgroundColor;
 @end
 

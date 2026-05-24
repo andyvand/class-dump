@@ -9,7 +9,6 @@
 @interface AMSAutoDecorationPrivateIdentifiers
 {
     id beginTimeInterval;
-    id identifiers;
 }
 
 + (id);

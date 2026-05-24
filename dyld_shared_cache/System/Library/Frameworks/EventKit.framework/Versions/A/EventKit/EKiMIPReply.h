@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-- (int);
-- (id);
-- (id);
++ (_Bool)@(%{public}@) destination=%{public}@, session=%{public}@;
+- (int)f;
+- (id)@;
+- (id)%;
 - (id);
 - (id);
 

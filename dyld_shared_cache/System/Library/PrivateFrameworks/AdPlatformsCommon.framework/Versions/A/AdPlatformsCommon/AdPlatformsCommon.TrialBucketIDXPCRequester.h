@@ -7,9 +7,6 @@
 @interface AdPlatformsCommon.TrialBucketIDXPCRequester
 {
     id queue;
-    id queueLabel;
-    id sessionLock;
-    id _session;
 }
 
 @end

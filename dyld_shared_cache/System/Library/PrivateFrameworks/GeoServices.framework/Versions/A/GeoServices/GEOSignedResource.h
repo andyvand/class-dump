@@ -12,8 +12,8 @@
 + (id);
 + (id);
 + (unsigned long long);
-+ (id);
-+ (id);
++ (id)ing %@;
++ (id)not available because the future has deallocated;
 + (_Bool);
 + (_Bool);
 

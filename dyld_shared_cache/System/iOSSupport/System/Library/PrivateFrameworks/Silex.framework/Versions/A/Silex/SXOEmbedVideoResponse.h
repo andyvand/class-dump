@@ -6,8 +6,6 @@
 
 #import <Silex/SXOEmbedResponse.h>
 
-@class NSString;
-
 @interface SXOEmbedVideoResponse : SXOEmbedResponse
 {
 }
@@ -16,9 +14,6 @@
 - (struct CGSize);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *HTML; // @dynamic HTML;
-@property(readonly, nonatomic) double height; // @dynamic height;
-@property(readonly, nonatomic) struct CGSize size;
 @property(readonly, nonatomic) double width; // @dynamic width;
 
 @end

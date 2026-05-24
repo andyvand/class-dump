@@ -9,22 +9,18 @@
 @interface SecureBackupEscrowReason
 {
     NSString *_expectedFederationID;
-    int _reason;
-    struct {
-        unsigned int reason:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (int);
+- (int)setCenterViewAlignmentConstraint: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long){public}@) %@;
+- (_Bool)4g;
 - (int);
 - (_Bool);
 - (void);
@@ -36,10 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *expectedFederationID; // @synthesize expectedFederationID=_expectedFederationID;
-@property(readonly, nonatomic) _Bool hasExpectedFederationID;
 @property(nonatomic) _Bool hasReason;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end
 

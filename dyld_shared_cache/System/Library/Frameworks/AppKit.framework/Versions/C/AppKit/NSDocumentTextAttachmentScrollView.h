@@ -6,29 +6,25 @@
 
 #import <AppKit/NSScrollView.h>
 
-@class NSImageView, NSLayoutManager, NSView;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentTextAttachmentScrollView : NSScrollView
 {
     NSImageView *_imageView;
-    NSView *_expandedView;
-    NSLayoutManager *_layoutManager;
-    unsigned long long _charIndex;
-    _Bool _isExpanded;
 }
 
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)__shouldSkipPreferredClientCertificateLookup;
+- (unsigned long long)tV6;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id)layView;
+- (id)createTouchBarColorListPickerSelectionOverlayView;
 - (id)ÐPE;
 
 @end

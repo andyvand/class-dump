@@ -7,10 +7,11 @@
 @class NSString, REMObjectID;
 
 @protocol REMDAAccountProviding
+- (REMObjectID *);
+- (NSString *)setOperation: /* Error: Ran out of types for this method. */;
+- (NSString *)runMethod;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountDescription;
 @property(readonly, nonatomic) NSString *accountID;
-@property(readonly, nonatomic) REMObjectID *rem_accountObjectID;
 @end
 

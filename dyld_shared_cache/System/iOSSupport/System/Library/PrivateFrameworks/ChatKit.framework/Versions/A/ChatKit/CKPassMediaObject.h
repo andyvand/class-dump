@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id)yABGGGAAyRéý©[yOéSSGGG;
 - (void);
 

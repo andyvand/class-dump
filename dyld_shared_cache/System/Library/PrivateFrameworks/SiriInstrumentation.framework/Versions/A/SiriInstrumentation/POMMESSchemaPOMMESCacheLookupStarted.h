@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESCacheLookupStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
@@ -19,20 +16,18 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)ssage for guid:(id)arg1 %@ is nil;
 - (id);
 - (id);
-- (id)imatedExamined;
+- (id)_numTokensEstimatedExamined;
 - (id)tedProperties;
-- (_Bool)WAVE_6_1;
+- (_Bool)MWTFORMATLAYOUT_WAVE_6_1;
 - (_Bool)mmaryReported.suggestionEvaluation.inferredMediaEntityAdamId;
 - (void)¡#;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

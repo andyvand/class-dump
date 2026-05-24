@@ -6,21 +6,16 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class LUI2SecureTextField, LUI2TextFieldBackgroundView, NSButton, NSStackView, NSString;
-@protocol LUI2SecureTextFieldViewControllerDelegate;
+@class LUI2SecureTextField, LUI2TextFieldBackgroundView;
 
 @interface LUI2SecureTextFieldViewController : LUI2ViewController
 {
     LUI2SecureTextField *_secureTextField;
-    NSButton *_hintButton;
-    id <LUI2SecureTextFieldViewControllerDelegate> _delegate;
-    LUI2TextFieldBackgroundView *_backgroundView;
-    NSStackView *_stackView;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)T*;
 - (id);
 - (void);
 - (void);
@@ -28,28 +23,16 @@
 - (void);
 - (void);
 - (void);
+- (id)PKPaymentWebServiceContext"8;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain) LUI2TextFieldBackgroundView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property long long blendingMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <LUI2SecureTextFieldViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSButton *hintButton; // @synthesize hintButton=_hintButton;
-@property(readonly) LUI2SecureTextField *secureTextField; // @synthesize secureTextField=_secureTextField;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
 
 @end
 

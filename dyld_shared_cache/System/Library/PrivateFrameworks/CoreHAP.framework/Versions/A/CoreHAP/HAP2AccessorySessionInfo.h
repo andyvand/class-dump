@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HAP2AccessorySessionInfo
 {
     _Bool _resolveAttempted;
-    unsigned long long _numIPAddresses;
-    unsigned long long _numIPAddressesTried;
-    unsigned long long _numBonjourNames;
-    NSString *_ipAddress;
-    NSString *_serviceName;
 }
 
 - (_Bool);
@@ -23,18 +16,13 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (void)sensorDimensions;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ipAddress; // @synthesize ipAddress=_ipAddress;
-@property(readonly, nonatomic) unsigned long long numBonjourNames; // @synthesize numBonjourNames=_numBonjourNames;
 @property(readonly, nonatomic) unsigned long long numIPAddresses; // @synthesize numIPAddresses=_numIPAddresses;
-@property(readonly, nonatomic) unsigned long long numIPAddressesTried; // @synthesize numIPAddressesTried=_numIPAddressesTried;
-@property(readonly, nonatomic) _Bool resolveAttempted; // @synthesize resolveAttempted=_resolveAttempted;
-@property(readonly, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

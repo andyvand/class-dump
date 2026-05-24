@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString, NSTableView;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (void);
+- (void):(NSTableView *)arg1;
+- (NSString *)y	;
+- (_Bool);
+- (_Bool);
+- (NSArray *)O;
+- (void)ing inputs;
 @end
 

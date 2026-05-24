@@ -4,55 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBTocCellExposureArticleElement
 {
     long long _publisherArticleVersionInt64;
-    NSString *_articleId;
-    int _articleType;
-    NSString *_sourceChannelId;
-    struct {
-        unsigned int publisherArticleVersionInt64:1;
-        unsigned int articleType:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)initWithCollectionViewLayout:(long long)arg1;
+- (void)headerTitleButtonAlignmentSpacing;
+- (void)finalNUpPlaybackStyleForOriginalPlaybackStyle:(_Bool)arg1;
+- (long long)estimatedCountForAssetCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)createTimelineWithConfiguration:detailsFraction: /* Error: Ran out of types for this method. */;
+- (id)configurationsFromSharableString:(int)arg1;
+- (int)configurationsForPreset:testOptions: /* Error: Ran out of types for this method. */;
+- (void)clientTargetSize;
 - (_Bool);
+- (int)checkOutSessionWithContentProvider:(id)arg1;
 - (id);
-- (int);
-- (void);
-- (_Bool);
-- (int);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (void)ds:(id)arg1 %{public}s. Requires a completion callback;
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (void);
+- (_Bool);
+- (unsigned long long)ectRatio: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool)MExtensions) serverURLForNetworkMountPoint:(id)arg1 ];
+- (void)PrivateDataController requiresPushNotificationSupport];
+- (_Bool)asset store:(id)arg1 %{public}@;
 - (id);
 - (id);
-- (void)TopicsAtIndex: /* Error: Ran out of types for this method. */;
+- (void)trendingTopicsAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(nonatomic) int articleType; // @synthesize articleType=_articleType;
 @property(readonly, nonatomic) _Bool hasArticleId;
-@property(nonatomic) _Bool hasArticleType;
-@property(nonatomic) _Bool hasPublisherArticleVersionInt64;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(nonatomic) long long publisherArticleVersionInt64; // @synthesize publisherArticleVersionInt64=_publisherArticleVersionInt64;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

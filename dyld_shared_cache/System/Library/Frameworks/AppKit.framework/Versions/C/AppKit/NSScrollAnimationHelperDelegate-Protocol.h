@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScreen;
+@class NSScreen, NSView;
 
 @protocol NSScrollAnimationHelperDelegate
+- (NSView *);
+- (struct CGPoint);
+- (struct CGRect)webView:didStartProvisionalLoadForFrame: /* Error: Ran out of types for this method. */;
 
 @optional
 - (NSScreen *)²8;

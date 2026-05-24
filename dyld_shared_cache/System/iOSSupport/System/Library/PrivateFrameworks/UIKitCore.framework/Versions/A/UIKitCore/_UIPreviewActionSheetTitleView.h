@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
     UILabel *_label;
 }
 
-- (void);
-- (void);
+- (void)_saveRecoverableMessagesOperationFactory:token:batchSize:recordNameToPartIndexAndRowID:activity: /* Error: Ran out of types for this method. */;
+- (void)%@ country:(id)arg1 %@ status update:%d  style:%c /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)tViews;
-- (id)asSetupWindowInteractions;
-- (id)tArrow;
+- (void)_reloadContentDistributionConstraintsForArrangedContentViews;
+- (id)_hasSetupWindowInteractions;
+- (id)UIKBKeyDisplayTypeRightArrow;
 - (void);
 - (void)vþµÆ23èvþ;
 

@@ -11,7 +11,7 @@
 
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);

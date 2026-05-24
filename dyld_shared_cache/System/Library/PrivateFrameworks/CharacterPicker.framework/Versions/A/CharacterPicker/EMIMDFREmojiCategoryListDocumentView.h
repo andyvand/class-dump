@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)inary range [%#llx, %#llx) in %s;
 
 @end
 

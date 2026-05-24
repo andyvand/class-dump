@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPersonNameComponents, NSString, NSURL;
+@class NSString;
 
 @interface TUCallDisplayContext
 {
     int _legacyAddressBookIdentifier;
-    NSString *_name;
-    NSPersonNameComponents *_personNameComponents;
-    NSString *_suggestedName;
-    NSString *_label;
-    NSString *_companyName;
-    NSString *_companyDepartment;
-    NSURL *_companyLogoURL;
-    NSString *_mapName;
-    NSString *_location;
-    NSString *_contactName;
-    NSString *_contactLabel;
-    NSString *_callDirectoryLabel;
-    NSString *_callDirectoryLocalizedExtensionContainingAppName;
-    NSString *_callDirectoryExtensionIdentifier;
-    long long _callDirectoryIdentityType;
-    NSArray *_contactIdentifiers;
 }
 
 + (_Bool);
@@ -35,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (int);
@@ -47,8 +31,8 @@
 - (long long);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)rkCache:(id)arg1:Storage::WriteOperationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::NetworkCache::Storage::WriteOperationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::NetworkCache::Storage::WriteOperationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, unsigned int>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::NetworkCache::Storage::WriteOperationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, unsigned int>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::NetworkCache::Storage::WriteOperationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::NetworkCache::Storage::WriteOperationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::NetworkCache::Storage::WriteOperationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)erType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -63,40 +47,22 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
+- (id)@9	;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)"G;
 - (void)±³!Ð1Â0@ù
 × ;
-- (void)Token;
+- (void)providerByVideoStreamToken;
 - (void)É;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *callDirectoryExtensionIdentifier; // @synthesize callDirectoryExtensionIdentifier=_callDirectoryExtensionIdentifier;
-@property(nonatomic) long long callDirectoryIdentityType; // @synthesize callDirectoryIdentityType=_callDirectoryIdentityType;
-@property(copy, nonatomic) NSString *callDirectoryLabel; // @synthesize callDirectoryLabel=_callDirectoryLabel;
-@property(copy, nonatomic) NSString *callDirectoryLocalizedExtensionContainingAppName; // @synthesize callDirectoryLocalizedExtensionContainingAppName=_callDirectoryLocalizedExtensionContainingAppName;
-@property(copy, nonatomic) NSString *companyDepartment; // @synthesize companyDepartment=_companyDepartment;
-@property(copy, nonatomic) NSURL *companyLogoURL; // @synthesize companyLogoURL=_companyLogoURL;
-@property(copy, nonatomic) NSString *companyName; // @synthesize companyName=_companyName;
-@property(copy, nonatomic) NSString *contactIdentifier;
-@property(copy, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(copy, nonatomic) NSString *contactLabel; // @synthesize contactLabel=_contactLabel;
-@property(copy, nonatomic) NSString *contactName; // @synthesize contactName=_contactName;
-@property(readonly, copy, nonatomic) NSString *firstName;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) int legacyAddressBookIdentifier; // @synthesize legacyAddressBookIdentifier=_legacyAddressBookIdentifier;
-@property(copy, nonatomic) NSString *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *mapName; // @synthesize mapName=_mapName;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSPersonNameComponents *personNameComponents; // @synthesize personNameComponents=_personNameComponents;
-@property(copy, nonatomic) NSString *suggestedName; // @synthesize suggestedName=_suggestedName;
 
 @end
 

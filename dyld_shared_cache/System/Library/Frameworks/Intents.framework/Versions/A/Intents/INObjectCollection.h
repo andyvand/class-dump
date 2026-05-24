@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface INObjectCollection
 {
     _Bool _usesIndexedCollation;
-    NSArray *_sections;
 }
 
 + (_Bool);

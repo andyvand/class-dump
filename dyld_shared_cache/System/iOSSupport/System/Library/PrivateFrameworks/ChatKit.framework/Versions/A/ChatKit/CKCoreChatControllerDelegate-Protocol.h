@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKCoreChatController;
+
 @protocol CKCoreChatControllerDelegate
+- (struct UIEdgeInsets)rOfLines;
+- (struct UIEdgeInsets)ordAttempts;
+- (void)?;
+- (void);
+- (void);
+
+@optional
+- (_Bool),V_maximumNumberOfNotesPerAccount;
+- (void)o;
+- (void)d to finish writing audio file:(CKCoreChatController *)arg1 %@;
 @end
 

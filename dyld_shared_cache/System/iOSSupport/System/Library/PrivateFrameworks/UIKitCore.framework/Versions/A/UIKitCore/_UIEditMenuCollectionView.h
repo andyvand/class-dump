@@ -18,25 +18,23 @@ __attribute__((visibility("hidden")))
 - (double);
 - (long long);
 - (void);
+- (void)shouldInferRecoverableDeleteForCommandDictionary:(_Bool)arg1;
+- (double)nicknameIsUploadingToCK;
+- (void)account:postedError: /* Error: Ran out of types for this method. */;
+- (void),N,V_groupPhotoCreationTime;
+- (struct CGPoint)g",&,N,V_idsDestination;
+- (double)_TtC12IMDaemonCore26IMDaemonCoreBridgeDelegate;
+- (void)Defaulting to %@;
+- (_Bool)t bot, data in bytes:(struct CGPoint)arg1 %lu;
 - (void);
-- (double);
 - (void);
-- (void);
-- (struct CGPoint);
-- (double);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id);
 - (double)
 × ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double currentPage;
 @property(retain, nonatomic) NSArray *pages; // @synthesize pages=_pages;
-@property(nonatomic) long long targetPage; // @synthesize targetPage=_targetPage;
 
 @end
 

@@ -11,19 +11,19 @@
     NSMutableArray *_wrappingKeyIds;
 }
 
-+ (Class);
++ (Class)assetResourcesForAsset: /* Error: Ran out of types for this method. */;
+- (unsigned long long)invitationsByAssetCollectionObjectID;
+- (id)invitationWithUpdatedPreviewAssetsFetchResult:(unsigned long long)arg1;
+- (id)invitationWithUpdatedPreviewAssetsFetchResult: /* Error: Ran out of types for this method. */;
+- (void)initWithViewModel:(id)arg1 sharedLibraryStatusProvider:libraryFilterState: /* Error: Ran out of types for this method. */;
+- (void)defaultAnimationOptionsForTilingController:withInvalidationContexts: /* Error: Ran out of types for this method. */;
+- (void)currentNotificationCenter;
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)removeSystem:(id)arg1 lockQueue:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)observers.;
 - (id);
 - (id);
 - (void)b1"parentFeedType"b1"arrivedFromAd"b1"subscriptionOnlyArticlePreview"b1"successfulNewsTokenVerification"b1};

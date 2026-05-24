@@ -6,7 +6,7 @@
 
 @interface UnknownClass (EKExpandedReminderStackLayoutAdditions)
 + (id);
-+ (id);
++ (id)n%s;
 + (id);
 @end
 

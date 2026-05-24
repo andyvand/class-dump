@@ -9,42 +9,35 @@
 @interface GEORoadComplexity
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_attributes;
-    unsigned int _offset;
-    unsigned int _zilchPathIndex;
-    struct {
-        unsigned int has_offset:1;
-        unsigned int has_zilchPathIndex:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)eatureElectronicVehicleCount:(id)arg1;
++ (_Bool)setMapFeatureElectronicVehicleCount:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)CNCDInMemoryPersistenceBackend;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)AtOffset:(id)arg1 %lld expectedTotalBytes:%lld self=%@ /* Error: Ran out of types for this method. */;
+- (void)_dictationInputOrigin;
+- (void)SCoreSpeechServices Invalidated;
+- (id)P;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)@48@0:8q16Q24@32@40 /* Error: Ran out of types for this method. */;
+- (id)imageWithName:andColor: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id)dGeometryRoutePersistentData";
 - (void)data"b1"read_redoButtonThreshold"b1"read_relatedEntitySections"b1"read_relatedSearchSuggestions"b1"read_resultDetourInfos"b1"read_resultRefinementGroup"b1"read_searchClientBehavior"b1"read_searchSessionData"b1"read_searchTierMetadatas"b1"read_sectionList"b1"wrote_anyField"b1};
-- (id)rectionality:handler:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)findRoadsAtJunction:desiredRoadDirectionality:handler:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)GEOBGSystemTaskCompleter;
 - (void)sectionGuide;
-- (id)ikingSuggestion;
+- (id)isHikingSuggestion;
 - (id)BAU÷ÈæªeP@;
 - (void)¹BAJDøAVP@;
 - (void)AÔbð0í;O@;
@@ -53,11 +46,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *attributes;
-@property(nonatomic) _Bool hasOffset;
-@property(nonatomic) _Bool hasZilchPathIndex;
-@property(nonatomic) unsigned int offset;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int zilchPathIndex;
 
 @end
 

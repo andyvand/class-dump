@@ -10,9 +10,9 @@
 {
 }
 
-+ (id);
++ (id)focusChains;
 - (id);
-- (_Bool);
+- (_Bool);
 
 @end
 

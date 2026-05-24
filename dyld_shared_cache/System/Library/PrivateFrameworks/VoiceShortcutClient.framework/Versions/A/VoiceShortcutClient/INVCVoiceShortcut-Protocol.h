@@ -7,10 +7,10 @@
 @class INShortcut, NSString;
 
 @protocol INVCVoiceShortcut
+- (INShortcut *)n;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *phrase;
-@property(readonly, nonatomic) INShortcut *shortcut;
 @end
 

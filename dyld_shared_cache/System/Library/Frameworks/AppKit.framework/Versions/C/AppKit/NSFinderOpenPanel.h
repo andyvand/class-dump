@@ -10,19 +10,14 @@ __attribute__((visibility("hidden")))
 @interface NSFinderOpenPanel : NSFinderSavePanel
 {
     _Bool _resolvesAliases;
-    _Bool _canChooseDirectories;
-    _Bool _allowsMultipleSelection;
-    _Bool _canChooseFiles;
-    _Bool _canResolveUbiquitousConflicts;
-    _Bool _canDownloadUbiquitousContents;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ly performed:%@ /* Error: Ran out of types for this method. */;
++ (id)H;
++ (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,22 +29,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)ved response, status %ld content %c;
+- (id), r.time_stamp FROM cfurl_cache_response r, cfurl_cache_blob_data b, cfurl_cache_receiver_data d WHERE r.request_key=%q AND b.entry_ID=r.entry_ID AND b.entry_ID=d.entry_ID;;
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)StoryboardSegueTemplate;
+- (_Bool)NSStoryboardSegueTemplate;
 
 // Remaining properties
-@property(getter=isAccessoryViewDisclosed) _Bool accessoryViewDisclosed; // @dynamic accessoryViewDisclosed;
-@property _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=_allowsMultipleSelection;
-@property _Bool canChooseDirectories; // @synthesize canChooseDirectories=_canChooseDirectories;
-@property _Bool canChooseFiles; // @synthesize canChooseFiles=_canChooseFiles;
-@property _Bool canDownloadUbiquitousContents; // @synthesize canDownloadUbiquitousContents=_canDownloadUbiquitousContents;
-@property _Bool canResolveUbiquitousConflicts; // @synthesize canResolveUbiquitousConflicts=_canResolveUbiquitousConflicts;
 @property _Bool resolvesAliases; // @synthesize resolvesAliases=_resolvesAliases;
 
 @end

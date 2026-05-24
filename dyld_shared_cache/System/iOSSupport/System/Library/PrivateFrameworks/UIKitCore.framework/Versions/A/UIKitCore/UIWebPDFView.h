@@ -6,116 +6,91 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSData, NSMutableArray, NSObject, NSString, NSURL, UIColor, UIPDFDocument, UITapGestureRecognizer, WebPDFViewPlaceholder;
-@protocol UIWebPDFViewDelegate;
+@class NSMutableArray, WebPDFViewPlaceholder;
 
 @interface UIWebPDFView : UIView
 {
     NSMutableArray *_backingLayerImageViews;
-    struct CGPDFDocument *_cgPDFDocument;
-    UIPDFDocument *_document;
-    _Bool _hasScheduledCacheUpdate;
-    struct CGRect _documentBounds;
-    NSObject<UIWebPDFViewDelegate> *_pdfDelegate;
-    _Bool _delegateRespondsToDidScroll;
-    UITapGestureRecognizer *_tapGestureRecognizer;
-    NSURL *_documentURL;
-    _Bool _rotating;
-    _Bool _zooming;
-    double _initialZoomScale;
-    struct CGAffineTransform _documentTransform;
-    double _documentScale;
-    long long _ignoreContentOffsetChanges;
-    struct CGPoint _contentOffsetAtScrollStart;
-    NSMutableArray *_pageViews;
-    NSArray *_pageMinYs;
-    _Bool hidePageViewsUntilReadyToRender;
-    _Bool hideActivityIndicatorForUnRenderedContent;
-    _Bool readyForSnapshot;
-    WebPDFViewPlaceholder *pdfPlaceHolderView;
-    UIColor *backgroundColorForUnRenderedContent;
-    NSString *documentPassword;
-    NSArray *pageRects;
 }
 
-+ (void);
++ (void)BackwardCompatibilityMessageIdentifier;
 + (void)CÞþzèÎ`Än;
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)@24@?32;
+- (void)2@"NSString"40;
+- (void)SString"32@"NSString"40;
+- (id)ionManager"16B24;
+- (void)n"24@"NSData"32;
+- (id)updateSyncedSyndicationRanges:forGUID: /* Error: Ran out of types for this method. */;
+- (void)scheme;
+- (void)initWithBroadcaster:(_Bool)arg1 otcUtilities: /* Error: Ran out of types for this method. */;
+- (void)handleChatSessionCloseWithPipeline:(id)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)groupActionProtobufForCompressedData:(id)arg1;
+- (void)grabContextIfAppropriate:(id)arg1;
+- (void)currentBatch;
+- (void)coordinator;
+- (void)conversationManager:(_Bool)arg1 linkInvitedMemberHandlesChangedForConversation: /* Error: Ran out of types for this method. */;
+- (void)conversationManager:(_Bool)arg1 linkChangedForConversation: /* Error: Ran out of types for this method. */;
+- (void)canonicalFormOfChatRoom:(struct CGAffineTransform)arg1;
+- (void)cancelVCRequestWithPerson:(id)arg1 properties:conference: /* Error: Ran out of types for this method. */;
+- (void)_syncTaskFactory;
+- (void)_handleFileTransfer:(id)arg1 updatedWithProperties:isStickerReposition:repositionedLocally: /* Error: Ran out of types for this method. */;
+- (_Bool):completionBlock: /* Error: Ran out of types for this method. */;
+- (void)wantsCheckpointing;
+- (id)ry",R,&,V_chatRegistry;
+- (id)R,N,V_chat;
+- (id)_handleScheduledMessageFailure: /* Error: Ran out of types for this method. */;
+- (id),R,N;
 - (double);
-- (id);
-- (id);
+- (id);
+- (id)<@;
 - (long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)B;
 - (struct CGAffineTransform);
 - (double);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (struct CGPDFDocument *);
 - (id);
 - (void);
 - (void);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (_Bool);
+- (struct CGRect)rt monitoring while already monitoring.;
+- (struct CGRect)rt monitoring with error:(id)arg1 %@;
+- (struct CGRect)Controller not available;
+- (_Bool)you do not have the required entitlement.;
+- (id)areURL %@ for message %@ with state %@ (%lu);
+- (void)shed download of assets with Error:%@ /* Error: Ran out of types for this method. */;
+- (void)iginalAndEdit:(struct CGRect)arg1 %ld, MaximumInterval:%ld, OriginalDate:%@, EditedDate:%@ /* Error: Ran out of types for this method. */;
+- (void)imestamp exceeds maximum receive timeout. TimeBetweenOriginalAndEdit:%ld, MaximumInterval:%ld, OriginalDate:%@, EditedDate:%@ /* Error: Ran out of types for this method. */;
+- (void)pParticipantVersion:(id)arg1 %@, timeDifference:%lld, lastUpdated:%lld, timestamp:%lld, incomingParticipants:%@, protocolVersion:%@, isIncomingParticipantSetSame %@ /* Error: Ran out of types for this method. */;
+- (void)dation. Message with GUID %@ is being forced to fail. Error:%@ /* Error: Ran out of types for this method. */;
+- (id)ting parse;
+- (unsigned long long)ge to NSDictionary;
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (_Bool)_;
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)g;
 - (void);
 - (void)0@ù
 × ;
-- (void)idesForReloadData;
+- (void)_clearControlledSubviewParentOverridesForReloadData;
 - (struct CGRect)s;
 - (void)eued reuse identifier:(id)arg1 %@; Original reuse identifier:%@; Existing cell:%@ /* Error: Ran out of types for this method. */;
 - (void)min[singular];
@@ -123,36 +98,11 @@
 - (_Bool)tesTransformer;
 - (void);
 - (void)H`;
-- (id)Ib;
+- (id)TIb;
 - (void)¬;<ÿý7;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColorForUnRenderedContent; // @synthesize backgroundColorForUnRenderedContent;
-@property(readonly, nonatomic) struct CGPDFDocument *cgPDFDocument;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIPDFDocument *document;
-@property(readonly, nonatomic) struct CGRect documentBounds; // @synthesize documentBounds=_documentBounds;
-@property(readonly, nonatomic) NSData *documentData;
-@property(retain, nonatomic) NSString *documentPassword; // @synthesize documentPassword;
-@property(readonly, nonatomic) double documentScale; // @synthesize documentScale=_documentScale;
-@property(nonatomic) struct CGAffineTransform documentTransform; // @synthesize documentTransform=_documentTransform;
-@property(retain, nonatomic) NSURL *documentURL; // @synthesize documentURL=_documentURL;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideActivityIndicatorForUnRenderedContent; // @synthesize hideActivityIndicatorForUnRenderedContent;
-@property(nonatomic) _Bool hidePageViewsUntilReadyToRender; // @synthesize hidePageViewsUntilReadyToRender;
-@property(nonatomic) long long ignoreContentOffsetChanges; // @synthesize ignoreContentOffsetChanges=_ignoreContentOffsetChanges;
-@property(nonatomic) double initialZoomScale; // @synthesize initialZoomScale=_initialZoomScale;
-@property(retain, nonatomic) NSArray *pageMinYs; // @synthesize pageMinYs=_pageMinYs;
-@property(retain, nonatomic) NSArray *pageRects; // @synthesize pageRects;
-@property(nonatomic) NSObject<UIWebPDFViewDelegate> *pdfDelegate; // @synthesize pdfDelegate=_pdfDelegate;
 @property WebPDFViewPlaceholder *pdfPlaceHolderView; // @synthesize pdfPlaceHolderView;
-@property(nonatomic) _Bool readyForSnapshot; // @synthesize readyForSnapshot;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long totalPages;
 
 @end
 

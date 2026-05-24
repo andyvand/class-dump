@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchTokenSet, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchTokenCandidates
 {
     PBDataReader *_reader;
-    NSMutableArray *_candidates;
-    GEOPDSearchTokenSet *_token;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isMerged;
-    _Bool _isSplit;
-    struct {
-        unsigned int has_isMerged:1;
-        unsigned int has_isSplit:1;
-        unsigned int read_candidates:1;
-        unsigned int read_token:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)containsObject:(id)arg1;
+- (id)estimatedSpeechEndHostTimeWithLastAudioChunkHostTime: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)?="read_unknownFields"b1"read_stepIds"b1"read_groupInstruction"b1"wrote_anyField"b1};
-- (id)mAttributedString: /* Error: Ran out of types for this method. */;
+- (id)_removeTokensFromAttributedString: /* Error: Ran out of types for this method. */;
 - (id)PÁ¸ÁhÂ8ÃÄìÄ$Å;
 - (void)É!âæTdI@;
 

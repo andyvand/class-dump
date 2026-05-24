@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSStartPageBackgroundImagesDataSource
 {
     NSObject<OS_dispatch_queue> *_imageLoadingQueue;
-    NSObject<OS_dispatch_queue> *_imageSavingQueue;
-    NSArray *_defaultImageURLs;
-    NSArray *_imageURLsWithLuminance;
-    NSMutableDictionary *_pendingImageThumbnailRequests;
-    NSMutableDictionary *_imageCache;
-    NSURL *_thumbnailsPath;
 }
 
 - (id);
@@ -23,8 +17,8 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id)?;
+- (void);
 - (long long);
 - (void)kError:error: /* Error: Ran out of types for this method. */;
 

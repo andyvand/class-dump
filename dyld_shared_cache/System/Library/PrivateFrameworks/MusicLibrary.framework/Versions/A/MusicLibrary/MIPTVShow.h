@@ -4,51 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIPArtist, MIPGenre, MIPSeries, NSString;
+@class MIPArtist;
 
 @interface MIPTVShow
 {
     MIPArtist *_artist;
-    NSString *_episodeId;
-    NSString *_episodeSortId;
-    MIPGenre *_genre;
-    NSString *_networkName;
-    int _seasonNumber;
-    MIPSeries *_series;
-    int _videoQuality;
-    struct {
-        unsigned int seasonNumber:1;
-        unsigned int videoQuality:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)umber;
+- (void)stUsed;
+- (void)t;
+- (void)lCuratedAssetForScenesCount;
+- (_Bool)maskForTagScreenshotsExclusions;
+- (_Bool)Description;
+- (_Bool)",R,C,V_shortCode;
+- (_Bool)ption;
+- (id)SString",&,N,V_mergeTargetPersonUUID;
+- (id)getCloudScopedIdentifiersForLocalIdentifiers:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (int);
-- (void);
-- (id);
+- (int)c;
 - (void);
 - (id);
+- (void);
 - (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)isAccessAllowedWhenLocked;
+- (void)to decode isSiriEnabled due to error:(id)arg1 %@;
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)supportsSecureCoding;
 - (id);
 - (id);
 - (void);
@@ -60,22 +49,7 @@
 - (void)Tiìÿ;
 
 // Remaining properties
-@property(retain, nonatomic) MIPArtist *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) NSString *episodeId; // @synthesize episodeId=_episodeId;
-@property(retain, nonatomic) NSString *episodeSortId; // @synthesize episodeSortId=_episodeSortId;
-@property(retain, nonatomic) MIPGenre *genre; // @synthesize genre=_genre;
 @property(readonly, nonatomic) _Bool hasArtist;
-@property(readonly, nonatomic) _Bool hasEpisodeId;
-@property(readonly, nonatomic) _Bool hasEpisodeSortId;
-@property(readonly, nonatomic) _Bool hasGenre;
-@property(readonly, nonatomic) _Bool hasNetworkName;
-@property(nonatomic) _Bool hasSeasonNumber;
-@property(readonly, nonatomic) _Bool hasSeries;
-@property(nonatomic) _Bool hasVideoQuality;
-@property(retain, nonatomic) NSString *networkName; // @synthesize networkName=_networkName;
-@property(nonatomic) int seasonNumber; // @synthesize seasonNumber=_seasonNumber;
-@property(retain, nonatomic) MIPSeries *series; // @synthesize series=_series;
-@property(nonatomic) int videoQuality; // @synthesize videoQuality=_videoQuality;
 
 @end
 

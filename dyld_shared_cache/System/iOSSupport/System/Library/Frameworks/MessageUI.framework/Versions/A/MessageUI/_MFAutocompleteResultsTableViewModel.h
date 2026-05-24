@@ -9,7 +9,6 @@
 @interface _MFAutocompleteResultsTableViewModel
 {
     NSMutableDictionary *_sections;
-    unsigned long long _numberOfSections;
 }
 
 - (void);
@@ -26,7 +25,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numberOfNonEmptySections;
 @property(nonatomic) unsigned long long numberOfSections; // @synthesize numberOfSections=_numberOfSections;
 
 @end

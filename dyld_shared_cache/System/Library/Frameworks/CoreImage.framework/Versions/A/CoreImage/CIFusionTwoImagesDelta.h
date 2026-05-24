@@ -6,18 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIFusionTwoImagesDelta : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputSecondaryImage;
-    NSNumber *inputProtectStrength;
-    NSNumber *inputApertureScaling;
-    CIVector *inputAdditive;
-    CIVector *inputSubtractive;
-    NSNumber *inputMaxBlur;
 }
 
 - (void);
@@ -26,25 +20,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id)hf;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)E;
 - (id);
 - (void);
 - (id)KZQbA[SiTf_sr}}bur|^kdoKd[pTql««««¥¥¥x}y~w}d{{{{pppp[`\`OQHUWWSW\`_`iiiippppQictMjcz{³³³³¶¶¶¶¦¦¦¦brn{Of`ttpmtxxxx{{{{zzzzuvt}w;
 
 // Remaining properties
-@property(retain) CIVector *inputAdditive; // @synthesize inputAdditive;
-@property(retain) NSNumber *inputApertureScaling; // @synthesize inputApertureScaling;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(retain) NSNumber *inputMaxBlur; // @synthesize inputMaxBlur;
-@property(retain) NSNumber *inputProtectStrength; // @synthesize inputProtectStrength;
-@property(retain) CIImage *inputSecondaryImage; // @synthesize inputSecondaryImage;
-@property(retain) CIVector *inputSubtractive; // @synthesize inputSubtractive;
 
 @end
 

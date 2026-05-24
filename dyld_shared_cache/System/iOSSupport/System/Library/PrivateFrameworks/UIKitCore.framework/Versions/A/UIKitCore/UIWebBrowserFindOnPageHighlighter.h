@@ -4,71 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, UIView, UIWebBrowserView, UIWebPDFViewHandler;
-@protocol UIWebFindOnPageHighlighterDelegate;
+@class NSMutableArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIWebBrowserFindOnPageHighlighter
 {
     NSMutableArray *_highlightBubbleViews;
-    NSArray *_pdfHighlightViews;
-    UIView *_highlightHostView;
-    UIWebBrowserView *_browserView;
-    UIWebPDFViewHandler *_pdfHandler;
-    _Bool _zoomToHighlightSelection;
-    id <UIWebFindOnPageHighlighterDelegate> _delegate;
-    NSString *_searchText;
-    unsigned long long _numberOfMatches;
-    unsigned long long _highlightedMatchIndex;
 }
 
 + (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)updateLastReadMessageTimeStampIfNeeded:(_Bool)arg1;
+- (void)has_associatedPositionIntent;
+- (void)hasValidDowngradeRequestForHandleID:(struct CGRect)arg1;
+- (void)handler:(id)arg1 incomingSMSFilteringSettingsMessage:(unsigned long long)arg2 fromToken: /* Error: Ran out of types for this method. */;
+- (void)_handleMessageProcessedWithGUID:(id)arg1;
+- (void)_groupParticipantVersion;
+- (void)_groupChatsByService:(id)arg1;
+- (void)_generateParticipantChangeNoticesForChat:(id)arg1 highlights:(id)arg2 participants:noticeType: /* Error: Ran out of types for this method. */;
+- (id),O;
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)SaySo17IMDPersistentTaskCG;
 - (void);
+- (_Bool)ate to the server, updating syncedSyndicationRanges for message guid %@ ;
+- (void)unarchiving data %@;
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void)RU';
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)q;
 - (unsigned long long);
-- (void);
-- (id);
+- (void)s:%d:rec->data != rec->input
+ /* Error: Ran out of types for this method. */;
+- (id)R;
 - (id);
 - (void)!
 ð!@Cù±f1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <UIWebFindOnPageHighlighterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long highlightedMatchIndex; // @synthesize highlightedMatchIndex=_highlightedMatchIndex;
-@property(readonly, nonatomic) unsigned long long numberOfMatches; // @synthesize numberOfMatches=_numberOfMatches;
 @property(readonly, copy, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(readonly) Class superclass;
 
 @end
 

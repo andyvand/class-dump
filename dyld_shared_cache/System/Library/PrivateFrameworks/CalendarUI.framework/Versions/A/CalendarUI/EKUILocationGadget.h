@@ -6,40 +6,16 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class CalUISuggestionsField, EKAutocompleter, EKEvent, EKSyncStatusChangeListener, EKUITokenField, EKUIVirtualConferencePopupButton, NSArray, NSLayoutConstraint, NSMutableDictionary, NSOperationQueue, NSProgressIndicator, NSSet, NSStackView, NSString, NSView;
+@class EKSyncStatusChangeListener, NSStackView;
 
 @interface EKUILocationGadget : EKUISingleViewGadget
 {
     EKSyncStatusChangeListener *_syncStatusChangeListener;
-    _Bool _handlingSuggestionSelected;
-    _Bool _sortRoomTokensOnNextUpdate;
-    _Bool _searchingRooms;
-    _Bool _ignoreNextEmptySuggestion;
-    NSStackView *_stackView;
-    EKUITokenField *_roomTokenField;
-    NSView *_editingView;
-    CalUISuggestionsField *_editingField;
-    EKUIVirtualConferencePopupButton *_virtualConferencePopupButton;
-    NSLayoutConstraint *_virtualConferencePopupButtonWidthConstraint;
-    NSMutableDictionary *_cachedFreeBusyInfo;
-    EKAutocompleter *_autocompleter;
-    NSString *_lastEventID;
-    CDUnknownBlockType _suggestionsUpdatedBlock;
-    NSString *_currentQuery;
-    NSArray *_locationResults;
-    NSArray *_roomResults;
-    NSString *_currentEditingString;
-    NSOperationQueue *_availabilityRequestQueue;
-    NSArray *_virtualRoomTypes;
-    NSArray *_virtualRoomResults;
-    NSProgressIndicator *_spinner;
-    EKEvent *_videoLookupDispatchedForEvent;
-    NSSet *_lastAttendeesForAvailability;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -54,13 +30,14 @@
 - (double);
 - (struct CGPoint);
 - (CDUnknownBlockType);
-- (void);
+- (void)A9;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -73,16 +50,15 @@
 - (void);
 - (void);
 - (void);
+- (void)J-;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)JkJl-K_;
 - (_Bool);
-- (void);
+- (void)^;
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (id);
 - (unsigned long long);
@@ -90,7 +66,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -102,7 +78,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)A9	;
 - (id);
 - (id);
 - (id);
@@ -115,12 +91,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (long long);
+- (void)B;
 - (void);
-- (void);
-- (void);
+- (void)hR;
 - (void);
 - (double);
 - (void);
@@ -141,51 +117,21 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)+;
+- (id);
 - (id);
 - (void);
 - (double);
 - (double);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)P;
+- (void)j;
+- (void);
+- (void);
 - (_Bool);
-- (_Bool)ngManager:(id)arg1;
+- (_Bool)setEditingManager:(id)arg1;
 
 // Remaining properties
-@property(retain) EKAutocompleter *autocompleter; // @synthesize autocompleter=_autocompleter;
-@property(retain) NSOperationQueue *availabilityRequestQueue; // @synthesize availabilityRequestQueue=_availabilityRequestQueue;
-@property(retain) NSMutableDictionary *cachedFreeBusyInfo; // @synthesize cachedFreeBusyInfo=_cachedFreeBusyInfo;
-@property(retain) NSString *currentEditingString; // @synthesize currentEditingString=_currentEditingString;
-@property(retain) NSString *currentQuery; // @synthesize currentQuery=_currentQuery;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) CalUISuggestionsField *editingField; // @synthesize editingField=_editingField;
-@property(retain) NSView *editingView; // @synthesize editingView=_editingView;
-@property(readonly) unsigned long long hash;
-@property _Bool ignoreNextEmptySuggestion; // @synthesize ignoreNextEmptySuggestion=_ignoreNextEmptySuggestion;
-@property(retain, nonatomic) NSSet *lastAttendeesForAvailability; // @synthesize lastAttendeesForAvailability=_lastAttendeesForAvailability;
-@property(retain) NSString *lastEventID; // @synthesize lastEventID=_lastEventID;
-@property(retain) NSArray *locationResults; // @synthesize locationResults=_locationResults;
-@property(retain) NSArray *roomResults; // @synthesize roomResults=_roomResults;
-@property(retain) EKUITokenField *roomTokenField; // @synthesize roomTokenField=_roomTokenField;
-@property _Bool searchingRooms; // @synthesize searchingRooms=_searchingRooms;
-@property _Bool sortRoomTokensOnNextUpdate; // @synthesize sortRoomTokensOnNextUpdate=_sortRoomTokensOnNextUpdate;
-@property(retain) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
 @property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(copy) CDUnknownBlockType suggestionsUpdatedBlock; // @synthesize suggestionsUpdatedBlock=_suggestionsUpdatedBlock;
-@property(readonly) Class superclass;
-@property(readonly) CalUISuggestionsField *textField;
-@property __weak EKEvent *videoLookupDispatchedForEvent; // @synthesize videoLookupDispatchedForEvent=_videoLookupDispatchedForEvent;
-@property(retain) EKUIVirtualConferencePopupButton *virtualConferencePopupButton; // @synthesize virtualConferencePopupButton=_virtualConferencePopupButton;
-@property(retain) NSLayoutConstraint *virtualConferencePopupButtonWidthConstraint; // @synthesize virtualConferencePopupButtonWidthConstraint=_virtualConferencePopupButtonWidthConstraint;
-@property(retain) NSArray *virtualRoomResults; // @synthesize virtualRoomResults=_virtualRoomResults;
-@property(retain) NSArray *virtualRoomTypes; // @synthesize virtualRoomTypes=_virtualRoomTypes;
 
 @end
 

@@ -9,14 +9,13 @@
 @interface TRISizedCKRecordID
 {
     CKRecordID *_recordId;
-    unsigned long long _downloadSize;
 }
 
-+ (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
++ (id)initWithAVAsset:(id)arg1 options:(unsigned long long)arg2 timeZoneLookup:preloadValues: /* Error: Ran out of types for this method. */;
+- (_Bool)setCancellationHandler:(id)arg1;
+- (id)serializedDataFromClientMetadata:(id)arg1 error:(unsigned long long)arg2;
+- (id)playbackVariation;
+- (id)P;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -28,7 +27,6 @@
 - (unsigned long long)24;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long downloadSize; // @synthesize downloadSize=_downloadSize;
 @property(readonly, nonatomic) CKRecordID *recordId; // @synthesize recordId=_recordId;
 
 @end

@@ -4,28 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
+@class NSNumber;
 
 @protocol SFCoreSpotlightRankingSignals
+- (NSNumber *);
+- (NSNumber *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int embeddingStatus;
-@property(copy, nonatomic) NSNumber *engagementScore;
-@property(copy, nonatomic) NSNumber *freshness;
-@property(nonatomic) _Bool isExactMatchOfLaunchString;
-@property(nonatomic) _Bool isSemanticMatch;
-@property(nonatomic) _Bool isSyntacticMatch;
-@property(nonatomic) unsigned long long itemAgeInDays;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *pommesL2Score;
-@property(copy, nonatomic) NSNumber *predictedLikelihoodOfEngagement;
-@property(nonatomic) int resultQueryRecency;
-@property(copy, nonatomic) NSNumber *semanticScore;
-@property(copy, nonatomic) NSNumber *sodiumL2Score;
-@property(copy, nonatomic) NSNumber *syntacticScore;
 @property(copy, nonatomic) NSNumber *topicalityScore;
-@property(nonatomic) _Bool wasEngagedInSpotlight;
-@property(nonatomic) _Bool wasNominatedAsTopHit;
 @end
 

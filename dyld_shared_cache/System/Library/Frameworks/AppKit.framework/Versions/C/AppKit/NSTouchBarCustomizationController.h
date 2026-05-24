@@ -4,45 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFunctionRow, NSMenu, NSMenuItem, NSMutableArray, NSString, NSTouchBar, NSTouchBarCustomizationCursorManager, NSTouchBarCustomizationPaletteOverlayWindow, NSTouchBarCustomizationPaletteViewController, NSTouchBarCustomizationPreviewViewController, NSTouchBarItem, NSTouchBarItemTree, NSValue;
+@class NSMenuItem;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationController
 {
     NSMenuItem *_mainMenuItem;
-    _Bool _mainMenuItemWasAutomaticallyAdded;
-    NSMenu *_mainSubmenu;
-    NSArray *_auxiliaryMenuItems;
-    NSArray *_overlayWindows;
-    NSTouchBarCustomizationPaletteOverlayWindow *_paletteWindow;
-    NSTouchBarCustomizationPaletteViewController *_appPaletteViewController;
-    NSTouchBarCustomizationPaletteViewController *_miniBarPaletteViewController;
-    NSTouchBarCustomizationPaletteViewController *_systemBarPaletteViewController;
-    NSArray *_currentResponderTouchBars;
-    NSArray *_activeTouchBars;
-    NSTouchBar *_currentPopoverTouchBar;
-    NSFunctionRow *_customizationRow;
-    NSTouchBarCustomizationPreviewViewController *_customizationRowViewController;
-    NSTouchBarCustomizationCursorManager *_cursorManager;
-    NSTouchBarItemTree *_draggedItemTree;
-    NSTouchBarItem *_draggedItem;
-    unsigned long long _oldPresentationOptions;
-    struct __CFString *_oldMenuBarDisplayIdentifier;
-    NSMutableArray *_barsToReset;
-    NSMutableArray *_barsToUpdate;
-    NSValue *_oldKeyWindow;
-    long long _activeState;
 }
 
-+ (id);
-- (_Bool);
++ (id)challenge failed %@;
+- (_Bool)SecondaryBluetoothMacAddress;
+- (void)Apple Vision;
+- (void)le TV;
+- (void)lished count;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)z#;
 - (void);
 - (void);
 - (id);
@@ -53,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (unsigned long long);
 - (void);
@@ -75,32 +53,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool)signing-identifier;
 - (_Bool);
-- (_Bool);
+- (void);
+- (void)connection:(id)arg1 didReceiveResponse: /* Error: Ran out of types for this method. */;
+- (void)_uploadTaskWithTaskForClass: /* Error: Ran out of types for this method. */;
+- (void)_task_onqueue_didReceiveDispatchData:(struct CGRect)arg1 completionHandler:(_Bool)arg2;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)HTTPMaximumConnectionsPerHost;
+- (id)_currentResponse;
+- (void);
 - (_Bool){(
 ØB;
 
 // Remaining properties
-@property(copy) NSArray *activeTouchBars; // @synthesize activeTouchBars=_activeTouchBars;
-@property(retain) NSTouchBar *currentPopoverTouchBar; // @synthesize currentPopoverTouchBar=_currentPopoverTouchBar;
-@property(copy) NSArray *currentResponderTouchBars; // @synthesize currentResponderTouchBars=_currentResponderTouchBars;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSTouchBarItemTree *itemTree;
-@property(readonly) Class superclass;
 
 @end
 

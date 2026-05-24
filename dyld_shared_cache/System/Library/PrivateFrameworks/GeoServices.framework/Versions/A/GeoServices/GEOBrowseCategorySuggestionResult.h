@@ -9,17 +9,15 @@
 @interface GEOBrowseCategorySuggestionResult
 {
     _Bool _shouldRenderAsTopSectionSearchHome;
-    NSArray *_searchCategories;
 }
 
 - (_Bool);
-- (id);
-- (id);
+- (id)preferNickname;
+- (id)&,D;
 - (void)nu6;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *searchCategories; // @synthesize searchCategories=_searchCategories;
-@property(readonly, nonatomic) _Bool shouldRenderAsTopSectionSearchHome; // @synthesize shouldRenderAsTopSectionSearchHome=_shouldRenderAsTopSectionSearchHome;
 
 @end
 

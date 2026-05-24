@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, _MRDictionaryProtobuf;
-
 @interface _MRValueProtobuf
 {
     double _doubleValue;
-    long long _int64Value;
-    NSMutableArray *_arrayValues;
-    NSData *_dataValue;
-    NSString *_dateValue;
-    _MRDictionaryProtobuf *_dictionaryValue;
-    float _floatValue;
-    NSString *_stringValue;
-    _Bool _boolValue;
-    struct {
-        unsigned int doubleValue:1;
-        unsigned int int64Value:1;
-        unsigned int floatValue:1;
-        unsigned int boolValue:1;
-    } _has;
 }
 
 + (Class);
@@ -36,10 +20,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void):(_Bool)arg1 8q16@"NSString"24@"NSString"32@?<v@?@"PKVirtualCard"@"PKAccount"@"NSError">40;
+- (_Bool)SString"24@?<v@?@"NSDictionary">32;
+- (void)t.notificationservices.getupdates;
+- (_Bool)ook.payment.provisioning.webservices.check-card.ineligible;
 - (void);
 - (void);
 - (_Bool);
@@ -50,45 +34,29 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (long long);
-- (void);
+- (_Bool)"NSArray"32@"NSArray"40I48B52@"NSDictionary"56Q64Q72@"NSString"80;
+- (long long)IMMetricsCollectorEventPhotoStackTranscriptOrientationKey;
+- (void) ;
 - (_Bool);
 - (double);
 - (_Bool);
 - (void);
-- (id);
-- (float);
-- (id);
-- (id);
-- (void);
+- (id)amp;
+- (float)setMyriadDeviceVTEndTimeDistanceThreshold: /* Error: Ran out of types for this method. */;
+- (id)AFDictationConnectionServiceDelegate;
+- (id)session.reset-on-request-boundary;
+- (void)@5;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void)AtIndex: /* Error: Ran out of types for this method. */;
-- (id)MediaRemoteErrorTelevisionPairingLockOutDelayUserInfoKey;
-- (id)onSleepTimerStopMode;
+- (void)clusterCompositionAtIndex: /* Error: Ran out of types for this method. */;
+- (id)kMRMediaRemoteErrorTelevisionPairingLockOutDelayUserInfoKey;
+- (id)kMRMediaRemoteOptionSleepTimerStopMode;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *arrayValues; // @synthesize arrayValues=_arrayValues;
-@property(nonatomic) _Bool boolValue; // @synthesize boolValue=_boolValue;
-@property(retain, nonatomic) NSData *dataValue; // @synthesize dataValue=_dataValue;
-@property(retain, nonatomic) NSString *dateValue; // @synthesize dateValue=_dateValue;
-@property(retain, nonatomic) _MRDictionaryProtobuf *dictionaryValue; // @synthesize dictionaryValue=_dictionaryValue;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(nonatomic) float floatValue; // @synthesize floatValue=_floatValue;
-@property(nonatomic) _Bool hasBoolValue;
-@property(readonly, nonatomic) _Bool hasDataValue;
-@property(readonly, nonatomic) _Bool hasDateValue;
-@property(readonly, nonatomic) _Bool hasDictionaryValue;
-@property(nonatomic) _Bool hasDoubleValue;
-@property(nonatomic) _Bool hasFloatValue;
-@property(nonatomic) _Bool hasInt64Value;
 @property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) long long int64Value; // @synthesize int64Value=_int64Value;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end
 

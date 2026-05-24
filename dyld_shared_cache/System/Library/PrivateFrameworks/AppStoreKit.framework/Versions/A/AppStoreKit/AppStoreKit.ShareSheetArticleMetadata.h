@@ -7,9 +7,6 @@
 @interface AppStoreKit.ShareSheetArticleMetadata
 {
     id id;
-    id text;
-    id subtitle;
-    id artwork;
 }
 
 @end

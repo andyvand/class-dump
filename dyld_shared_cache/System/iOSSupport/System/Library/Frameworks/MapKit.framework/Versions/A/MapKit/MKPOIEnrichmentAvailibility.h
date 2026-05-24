@@ -9,18 +9,18 @@
 }
 
 + (_Bool);
++ (_Bool)*;
++ (_Bool)70;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool)@9h";
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
 
 @end
 

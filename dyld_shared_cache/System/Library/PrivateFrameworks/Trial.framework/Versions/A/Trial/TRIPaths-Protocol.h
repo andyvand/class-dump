@@ -7,6 +7,10 @@
 @class NSString;
 
 @protocol TRIPaths
+- (NSString *)?;
+- (NSString *)initWithDictionary:(_Bool)arg1 parentFolder:device: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (NSString *);
 - (_Bool)Ä¬;
 - (NSString *)TRIFBTrialManagedAsset) trifbCreateVectorOfTrialManagedAssetWithOffsets:]E3$_2 /* Error: Ran out of types for this method. */;
 

@@ -7,18 +7,16 @@
 @interface PXAssistantTraitCollection
 {
     _Bool _isRTL;
-    double _displayScale;
 }
 
 - (id);
 - (id);
 - (double)SDiffableDataSourceSnapshot";
 - (id)sWithSettlingEffectIfPossible:(struct _NSZone *)arg1;
-- (_Bool)p;
+- (_Bool)So39PXStoryMutableExplicitChapterCollection_p;
 
 // Remaining properties
 @property(readonly, nonatomic) double displayScale; // @synthesize displayScale=_displayScale;
-@property(readonly, nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
 
 @end
 

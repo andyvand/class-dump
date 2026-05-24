@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SUCorePolicyPreflightWakeup
 {
     _Bool _performPhase;
-    NSDictionary *_basePreflightOptions;
-    NSDictionary *_additionalOptions;
 }
 
 + (_Bool);
@@ -21,17 +17,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)cation"16B24;
+- (id)_logInvalidCertificateErrorWithErrorCode:trustIncludesRevokedCertificate: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(retain, nonatomic) NSDictionary *basePreflightOptions; // @synthesize basePreflightOptions=_basePreflightOptions;
 @property(nonatomic) _Bool performPhase; // @synthesize performPhase=_performPhase;
 
 @end

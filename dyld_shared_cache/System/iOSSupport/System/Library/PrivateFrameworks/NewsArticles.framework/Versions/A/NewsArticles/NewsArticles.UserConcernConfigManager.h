@@ -7,8 +7,6 @@
 @interface NewsArticles.UserConcernConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
 }
 
 @end

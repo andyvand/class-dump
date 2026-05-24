@@ -5,8 +5,9 @@
 //
 
 @protocol PHMediaRequestLiveRenderingOptions
+- (_Bool);
 - (void (^)(double, NSError *, _Bool *, NSDictionary *))ources: /* Error: Ran out of types for this method. */;
-- (_Bool)setsCountShared;
+- (_Bool)dayGroupAssetsCountShared;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType progressHandler;

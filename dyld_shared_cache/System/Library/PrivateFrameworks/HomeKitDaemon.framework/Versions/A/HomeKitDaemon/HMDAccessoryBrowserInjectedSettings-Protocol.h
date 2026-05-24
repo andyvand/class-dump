@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPAccessoryServerBrowser, HAPAccessoryServerBrowserBTLE;
+@class HAPAccessoryServerBrowser, HAPAccessoryServerBrowserBTLE, HAPAccessoryServerBrowserIP;
 
 @protocol HMDAccessoryBrowserInjectedSettings
+- (HAPAccessoryServerBrowserIP *);
 - (HAPAccessoryServerBrowserBTLE *)è`,¡;
 - (HAPAccessoryServerBrowser *)session;
 @end

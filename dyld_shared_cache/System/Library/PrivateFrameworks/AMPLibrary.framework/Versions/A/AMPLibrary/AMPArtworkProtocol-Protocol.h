@@ -5,5 +5,8 @@
 //
 
 @protocol AMPArtworkProtocol
+- (void);
+- (void);
+- (void),;
 @end
 

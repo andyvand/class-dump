@@ -4,60 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFSafariViewControllerActivityButton, UIEventAttribution;
-
 @interface SFSafariViewControllerConfiguration
 {
     _Bool _ephemeral;
-    _Bool _performingAccountSecurityUpgrade;
-    _Bool _jitEnabled;
-    _Bool _entersReaderIfAvailable;
-    _Bool _barCollapsingEnabled;
-    long long _redirectNotificationBehavior;
-    unsigned long long _storageModeForAuthenticationSession;
-    NSString *_networkAttributionApplicationBundleIdentifier;
-    SFSafariViewControllerActivityButton *_activityButton;
-    UIEventAttribution *_eventAttribution;
 }
 
-+ (_Bool);
++ (_Bool)safari_highLevelDomain;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)CodingKeys;
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)FindMyAccessoryFamilyShareResponseEnvelope;
 - (void);
 - (void);
-- (long long);
+- (long long)FamilyCryptoKeysV1;
+- (_Bool)KeyRequestEnvelope;
+- (_Bool)BeaconObservation;
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ict>
+		<key>C3D-blur-weights</key>
+		<dict>
+			<key>type</key>
+			<string>float[31]</string>
+		</dict>
+		<key>C3D-blur-samples</key>
+		<dict>
+			<key>type</key>
+			<string>int</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=_isEphemeral, setter=_setEphemeral:) _Bool _ephemeral; // @synthesize _ephemeral;
-@property(nonatomic, getter=_isJITEnabled, setter=_setJITEnabled:) _Bool _jitEnabled; // @synthesize _jitEnabled;
-@property(copy, nonatomic, setter=_setNetworkAttributionApplicationBundleIdentifier:) NSString *_networkAttributionApplicationBundleIdentifier; // @synthesize _networkAttributionApplicationBundleIdentifier;
-@property(nonatomic, getter=_isPerformingAccountSecurityUpgrade, setter=_setPerformingAccountSecurityUpgrade:) _Bool _performingAccountSecurityUpgrade; // @synthesize _performingAccountSecurityUpgrade;
 @property(nonatomic) long long _redirectNotificationBehavior; // @synthesize _redirectNotificationBehavior;
-@property(nonatomic) unsigned long long _storageModeForAuthenticationSession; // @synthesize _storageModeForAuthenticationSession;
-@property(copy, nonatomic) SFSafariViewControllerActivityButton *activityButton; // @synthesize activityButton=_activityButton;
-@property(nonatomic) _Bool barCollapsingEnabled; // @synthesize barCollapsingEnabled=_barCollapsingEnabled;
-@property(nonatomic) _Bool entersReaderIfAvailable; // @synthesize entersReaderIfAvailable=_entersReaderIfAvailable;
-@property(copy, nonatomic) UIEventAttribution *eventAttribution; // @synthesize eventAttribution=_eventAttribution;
 
 @end
 

@@ -11,8 +11,8 @@
     id configuration;
 }
 
-- (void);
-- (void);
+- (void)view controller was nil;
+- (void)}s;
 - (id);
 - (void);
 

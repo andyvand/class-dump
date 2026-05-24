@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _DASExtension;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface _DASExtensionRemoteContext
@@ -26,15 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _DASExtension *extension;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface EXPSchemaEXPTrialRollout : SISchemaInstrumentationMessage
 {
     NSString *_rolloutId;
-    NSString *_rampId;
-    unsigned int _deploymentId;
-    int _status;
-    NSArray *_namespaces;
-    struct {
-        unsigned int deploymentId:1;
-        unsigned int status:1;
-    } _has;
-    _Bool _hasRolloutId;
-    _Bool _hasRampId;
 }
 
 - (void);
@@ -32,47 +22,38 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (void)@;
 - (void);
 - (void);
 - (unsigned long long);
+- (void)ntroller dealloc;
+- (void)dleFollowUpItem:(_Bool)arg1 andAction:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (void);
+- (id)_startNewDownloadWithEventInfo: /* Error: Ran out of types for this method. */;
+- (id)nceInfo:(id)arg1 info=%@ accessory=%@ component=%@;
+- (_Bool);
+- (void);
+- (id)en %s;
+- (void);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (id)in message_attachment_join maj on attachment.ROWID=maj.attachment_id ORDER BY ROWID limit ?;;
 - (_Bool);
 - (id);
 - (int);
 - (id)"statsComputed"b1"beepPower"b1"signalPower"b1"originalPower"b1"absMaxVal"b1"aboveNinetyFivepcOfMax"b1"numTotalInputSamples"b1"numTotalOutputSamples"b1"initialContinousZeros"b1"maxContinousZeros"b1};
 - (id)iaTypeUsageSignalPodcast;
 - (id)POMMESSchemaPOMMESCacheLookupStarted;
-- (unsigned int)riggerFirstPassDailyMetadata;
+- (unsigned int)MHSchemaMHVoiceTriggerFirstPassDailyMetadata;
 - (id);
 - (_Bool)ÉlÊ;
 - (void)uerySuggestionCandidateTier1s;
 - (void)Q¹ÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int deploymentId; // @synthesize deploymentId=_deploymentId;
-@property(nonatomic) _Bool hasDeploymentId;
-@property(nonatomic) _Bool hasRampId; // @synthesize hasRampId=_hasRampId;
-@property(nonatomic) _Bool hasRolloutId; // @synthesize hasRolloutId=_hasRolloutId;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *namespaces; // @synthesize namespaces=_namespaces;
-@property(copy, nonatomic) NSString *rampId; // @synthesize rampId=_rampId;
 @property(copy, nonatomic) NSString *rolloutId; // @synthesize rolloutId=_rolloutId;
-@property(nonatomic) int status; // @synthesize status=_status;
 
 @end
 

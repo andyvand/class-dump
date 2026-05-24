@@ -5,5 +5,10 @@
 //
 
 @protocol NFNdefTagSessionInterface
+- (oneway void)CNActionTypeVideoCall;
+- (oneway void)CUSTOM_POPUP;
+- (oneway void)_allowsNoteEditing;
+- (oneway void)leting contacts %@;
+- (oneway void)tion;
 @end
 

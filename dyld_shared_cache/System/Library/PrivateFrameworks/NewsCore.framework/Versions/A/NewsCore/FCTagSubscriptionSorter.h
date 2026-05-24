@@ -11,7 +11,7 @@
     id <FCTagRanking> _tagRanker;
 }
 
-- (void)ionValue;
+- (void)muteImpressionValue;
 
 @end
 

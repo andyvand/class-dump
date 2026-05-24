@@ -5,14 +5,11 @@
 //
 
 @class NSArray, NSString;
-@protocol FCBundleChannelProviderDelegate;
 
 @protocol FCBundleChannelProviderType
-- (NSString *)able;
+- (NSString *)isSubscribable;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *bundleChannelIDs;
-@property(readonly, nonatomic) NSString *bundleChannelIDsVersion;
-@property(nonatomic) __weak id <FCBundleChannelProviderDelegate> delegate;
 @end
 

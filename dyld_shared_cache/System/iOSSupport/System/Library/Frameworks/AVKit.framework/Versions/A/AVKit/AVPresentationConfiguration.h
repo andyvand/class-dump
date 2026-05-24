@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVPresentationConfiguration
 {
     unsigned long long _transitionStyle;
-    double _transitionDuration;
 }
 
 + (id);
@@ -16,7 +15,6 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double transitionDuration; // @synthesize transitionDuration=_transitionDuration;
 @property(readonly, nonatomic) unsigned long long transitionStyle; // @synthesize transitionStyle=_transitionStyle;
 
 @end

@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)styleSheetShouldUseCompactFullScreenItemSize;
 
 // Remaining properties
 @property(readonly) unsigned int tssOption; // @synthesize tssOption=_tssOption;

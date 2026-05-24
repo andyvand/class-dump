@@ -4,46 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PipelineStatePromise;
-@protocol MTLCommandQueue, MTLComputePipelineState, MTLDevice, MTLFunction, MTLLibrary, MTLSamplerState;
+@protocol MTLDevice;
 
 @interface MetalFAST9BRIEF
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _queue;
-    id <MTLLibrary> _library;
-    id <MTLFunction> _response4MapKernel;
-    id <MTLFunction> _suppress4MapKernel;
-    id <MTLFunction> _compute4HistogramKernel;
-    id <MTLFunction> _responseMapKernel;
-    id <MTLFunction> _suppressMapKernel;
-    id <MTLFunction> _computeHistogramKernel;
-    id <MTLFunction> _histogramThresholdKernel;
-    id <MTLFunction> _cumulativeSumSimpleKernel;
-    id <MTLFunction> _compactMPSBuffersKernel;
-    id <MTLComputePipelineState> _histogramThresholdPipelineState;
-    id <MTLComputePipelineState> _cumulativeSumSimplePipelineState;
-    id <MTLComputePipelineState> _compactMPSBuffersPipelineState;
-    id <MTLFunction> _listKeypointsSimpleKernel;
-    id <MTLFunction> _listKeypointsKernel;
-    id <MTLFunction> _listKeypoints2Kernel;
-    id <MTLFunction> _listKeypoints3Kernel;
-    id <MTLComputePipelineState> _listKeypointsSimplePipelineState;
-    id <MTLComputePipelineState> _listKeypointsPipelineState;
-    id <MTLComputePipelineState> _listKeypoints2PipelineState;
-    id <MTLComputePipelineState> _listKeypoints3PipelineState;
-    id <MTLFunction> _refineKeypointKernel;
-    id <MTLFunction> _extractORBKernel;
-    id <MTLFunction> _boxBlurKernel;
-    id <MTLFunction> _boxBlurKernel_R8;
-    id <MTLComputePipelineState> _refineKeypointPipelineState;
-    id <MTLComputePipelineState> _extractORBPipelineState;
-    id <MTLComputePipelineState> _boxBlurPipelineState;
-    id <MTLComputePipelineState> _boxBlurR8PipelineState;
-    id <MTLFunction> _gaussianishBlurKernel;
-    id <MTLSamplerState> _clampedLinearNonNormSamplerState;
-    PipelineStatePromise *_pipelineStates;
-    struct __CVMetalTextureCache *_textureCache;
 }
 
 + (id);
@@ -52,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,11 +34,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)leView"16@"NSTableColumn"24q32;
 
 // Remaining properties
 @property(readonly, retain) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly, retain) id <MTLCommandQueue> queue; // @synthesize queue=_queue;
 
 @end
 

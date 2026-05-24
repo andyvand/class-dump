@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface SSOperationProgress
 {
     _Bool _canPause;
-    double _changeRate;
-    double _currentValue;
-    double _estimatedTimeRemaining;
-    double _maxValue;
-    double _normalizedCurrentValue;
-    double _normalizedMaxValue;
-    long long _operationType;
-    long long _units;
-    NSMutableArray *_snapshotTimes;
-    NSMutableArray *_snapshotValues;
 }
 
 + (_Bool);
@@ -28,39 +16,32 @@
 - (double);
 - (double);
 - (void);
+- (void)_startedOrChanged;
+- (double)_responseGenerationTime;
+- (void)hemaCNVIntentEagerExecutionCancelled",&,N,V_cancelled;
 - (void);
+- (double);
+- (void)B;
+- (id);
+- (void);
+- (id);
+- (long long);
+- (id);
 - (double);
 - (void);
 - (void);
-- (double);
+- (double);
+- (id)noteRemoteThumbnailPresentForItems:(struct _NSZone *)arg1;
 - (void);
-- (id);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (double);
-- (void);
-- (void);
-- (double);
-- (id);
-- (void);
-- (long long);
+- (long long)1J
+;
 - (void);
 - (void);
 - (void);
-- (_Bool)umberWithReplyBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)explicitBookContentRestrictedNumberWithReplyBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool canPause; // @synthesize canPause=_canPause;
-@property(nonatomic) double changeRate; // @synthesize changeRate=_changeRate;
-@property(nonatomic) double currentValue; // @synthesize currentValue=_currentValue;
-@property(nonatomic) double estimatedTimeRemaining; // @synthesize estimatedTimeRemaining=_estimatedTimeRemaining;
-@property(nonatomic) double maxValue; // @synthesize maxValue=_maxValue;
-@property(nonatomic) double normalizedCurrentValue; // @synthesize normalizedCurrentValue=_normalizedCurrentValue;
-@property(nonatomic) double normalizedMaxValue; // @synthesize normalizedMaxValue=_normalizedMaxValue;
-@property(nonatomic) long long operationType; // @synthesize operationType=_operationType;
-@property(nonatomic) long long units; // @synthesize units=_units;
 
 @end
 

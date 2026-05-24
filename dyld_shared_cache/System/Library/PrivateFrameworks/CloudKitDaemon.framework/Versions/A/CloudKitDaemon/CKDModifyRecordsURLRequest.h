@@ -6,37 +6,15 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSData, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSArray;
 
 @interface CKDModifyRecordsURLRequest : CKDURLRequest
 {
     _Bool _atomic;
-    _Bool _sendMergeableDeltas;
-    _Bool _markAsParticipantNeedsNewInvitationToken;
-    _Bool _oplock;
-    _Bool _sendAllFields;
-    _Bool _containsMergeableValues;
-    NSDictionary *_recordIDsToDeleteToEtags;
-    NSDictionary *_conflictLosersToResolveByRecordID;
-    NSDictionary *_pluginFieldsForRecordDeletesByID;
-    NSArray *_userPublicKeys;
-    CDUnknownBlockType _recordPostedBlock;
-    CDUnknownBlockType _mergeableDeltaSavedBlock;
-    CDUnknownBlockType _replacedDeltasBlock;
-    NSArray *_records;
-    NSArray *_recordIDsToDelete;
-    NSDictionary *_recordIDsToDeleteToSigningPCSIdentity;
-    NSData *_clientChangeTokenData;
-    NSDictionary *_requestedFieldsByRecordID;
-    NSMutableDictionary *_recordIDByRequestID;
-    NSMutableDictionary *_recordByRequestID;
-    NSMutableDictionary *_mergeableFieldKeyByRequestID;
-    NSMutableDictionary *_replacementRequestsByRequestID;
-    NSMutableArray *_skippedRecordsWithPurelyMergeableChanges;
 }
 
-- (void);
-- (void);
+- (void)common_DateTimeRangeQualifier_LaterPartOf;
+- (void)userCurrent;
 - (id);
 - (void);
 - (int);
@@ -50,33 +28,34 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)apPlayback_handleMessageCreatingReply_block_invoke;
+- (_Bool)ut
+;
+- (CDUnknownBlockType)APSenderSessionRef);
+- (id)true;
+- (CDUnknownBlockType);
+- (_Bool);
+- (_Bool)<= %@ && %@ >= %@ && %@ <= %@;
+- (id)diagnosticsForForMessageObjectIDs: /* Error: Ran out of types for this method. */;
+- (void)er"16@?0@"EMThreadObjectID"8;
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
-- (CDUnknownBlockType);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (id);
+- (id)copyRTCResetCountWithError_block_invoke;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id)ity:%@ /* Error: Ran out of types for this method. */;
-- (void)blicKeys;
+- (void)publicKeys;
 - (void)ary key;
-- (id)dArchived;
+- (id)recordArchived;
 - (id)onded with an error %@;
 - (id)Returning record %{public}@ from cache.;
 - (void)D:(id)arg1 %@;
@@ -102,29 +81,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool atomic; // @synthesize atomic=_atomic;
-@property(retain, nonatomic) NSData *clientChangeTokenData; // @synthesize clientChangeTokenData=_clientChangeTokenData;
-@property(retain, nonatomic) NSDictionary *conflictLosersToResolveByRecordID; // @synthesize conflictLosersToResolveByRecordID=_conflictLosersToResolveByRecordID;
-@property(nonatomic) _Bool containsMergeableValues; // @synthesize containsMergeableValues=_containsMergeableValues;
-@property(nonatomic) _Bool markAsParticipantNeedsNewInvitationToken; // @synthesize markAsParticipantNeedsNewInvitationToken=_markAsParticipantNeedsNewInvitationToken;
-@property(copy, nonatomic) CDUnknownBlockType mergeableDeltaSavedBlock; // @synthesize mergeableDeltaSavedBlock=_mergeableDeltaSavedBlock;
-@property(retain, nonatomic) NSMutableDictionary *mergeableFieldKeyByRequestID; // @synthesize mergeableFieldKeyByRequestID=_mergeableFieldKeyByRequestID;
-@property(nonatomic) _Bool oplock; // @synthesize oplock=_oplock;
-@property(retain, nonatomic) NSDictionary *pluginFieldsForRecordDeletesByID; // @synthesize pluginFieldsForRecordDeletesByID=_pluginFieldsForRecordDeletesByID;
-@property(retain, nonatomic) NSMutableDictionary *recordByRequestID; // @synthesize recordByRequestID=_recordByRequestID;
-@property(retain, nonatomic) NSMutableDictionary *recordIDByRequestID; // @synthesize recordIDByRequestID=_recordIDByRequestID;
-@property(retain, nonatomic) NSArray *recordIDsToDelete; // @synthesize recordIDsToDelete=_recordIDsToDelete;
-@property(retain, nonatomic) NSDictionary *recordIDsToDeleteToEtags; // @synthesize recordIDsToDeleteToEtags=_recordIDsToDeleteToEtags;
-@property(retain, nonatomic) NSDictionary *recordIDsToDeleteToSigningPCSIdentity; // @synthesize recordIDsToDeleteToSigningPCSIdentity=_recordIDsToDeleteToSigningPCSIdentity;
-@property(copy, nonatomic) CDUnknownBlockType recordPostedBlock; // @synthesize recordPostedBlock=_recordPostedBlock;
 @property(retain, nonatomic) NSArray *records; // @synthesize records=_records;
-@property(copy, nonatomic) CDUnknownBlockType replacedDeltasBlock; // @synthesize replacedDeltasBlock=_replacedDeltasBlock;
-@property(retain, nonatomic) NSMutableDictionary *replacementRequestsByRequestID; // @synthesize replacementRequestsByRequestID=_replacementRequestsByRequestID;
-@property(retain, nonatomic) NSDictionary *requestedFieldsByRecordID; // @synthesize requestedFieldsByRecordID=_requestedFieldsByRecordID;
-@property(nonatomic) _Bool sendAllFields; // @synthesize sendAllFields=_sendAllFields;
-@property(nonatomic) _Bool sendMergeableDeltas; // @synthesize sendMergeableDeltas=_sendMergeableDeltas;
-@property(retain, nonatomic) NSMutableArray *skippedRecordsWithPurelyMergeableChanges; // @synthesize skippedRecordsWithPurelyMergeableChanges=_skippedRecordsWithPurelyMergeableChanges;
-@property(retain, nonatomic) NSArray *userPublicKeys; // @synthesize userPublicKeys=_userPublicKeys;
 
 @end
 

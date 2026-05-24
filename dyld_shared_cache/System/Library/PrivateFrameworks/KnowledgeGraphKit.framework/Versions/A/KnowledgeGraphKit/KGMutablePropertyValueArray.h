@@ -6,7 +6,7 @@
 
 #import <KnowledgeGraphKit/KGPropertyValueArray.h>
 
-@class KGMutableElementIdentifierSet, NSMutableArray;
+@class NSMutableArray;
 
 @interface KGMutablePropertyValueArray : KGPropertyValueArray
 {
@@ -16,7 +16,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) KGMutableElementIdentifierSet *elementIdentifiers; // @dynamic elementIdentifiers;
 @property(readonly, nonatomic) NSMutableArray *values; // @dynamic values;
 
 @end

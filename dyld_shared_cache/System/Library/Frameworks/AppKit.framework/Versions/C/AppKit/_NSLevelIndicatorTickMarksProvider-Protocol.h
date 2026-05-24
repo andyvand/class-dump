@@ -5,5 +5,11 @@
 //
 
 @protocol _NSLevelIndicatorTickMarksProvider
++ (void)colors;
++ (void)1Bk5Dr0hTb0bYXl04068MQ;
+- (struct CGRect);
+- (void)VolumeUpButtonNormalizedCGRect;
+- (void);
+- (void)E;
 @end
 

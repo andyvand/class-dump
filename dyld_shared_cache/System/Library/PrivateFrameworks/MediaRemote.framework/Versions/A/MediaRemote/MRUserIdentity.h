@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _MRUserIdentityProtobuf;
+@class NSString, _MRUserIdentityProtobuf;
 
 @interface MRUserIdentity
 {
     NSString *_identifier;
-    NSString *_displayName;
-    long long _type;
 }
 
 + (id);
@@ -24,7 +22,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (long long);
+- (long long)to %@;
 - (_Bool);
 - (void);
 - (id);
@@ -35,11 +33,7 @@
 - (void)st;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, nonatomic) _MRUserIdentityProtobuf *protobuf;
-@property(readonly, nonatomic) NSData *protobufData;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

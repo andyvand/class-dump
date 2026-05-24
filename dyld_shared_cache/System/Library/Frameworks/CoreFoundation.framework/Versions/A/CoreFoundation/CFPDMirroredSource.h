@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface CFPDMirroredSource : CFPDSource
 {
     struct __CFSet *_mirroredKeys;
-    CFPDSource *_mirrorSource;
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (id);

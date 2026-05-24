@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (Class);
 + (id);
 - (void);
-- (id);
+- (id)ionConnection] Error %@ sending message;
 - (int);
 - (id);
 - (void);

@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSURL;
+@class NSManagedObjectContext;
 
 @interface ICModernSearchIndexProgressDataSource
 {
     NSManagedObjectContext *managedObjectContext;
-    long long batchDepth;
-    _Bool batchDirty;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)installWaitSemaphore;
+- (void)installPackageWithReference:(long long)arg1;
+- (void)loading assets:0%%... /* Error: Ran out of types for this method. */;
+- (void)ge specifiers:(id)arg1 %@;
 - (id);
 - (id);
 - (void);
@@ -32,15 +30,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long batchDepth; // @synthesize batchDepth;
-@property(nonatomic) _Bool batchDirty; // @synthesize batchDirty;
 @property(nonatomic, readonly) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext;
-@property(nonatomic, readonly) NSURL *persistenceURL;
 
 @end
 

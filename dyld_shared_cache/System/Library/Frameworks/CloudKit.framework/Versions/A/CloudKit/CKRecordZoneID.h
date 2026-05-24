@@ -9,9 +9,6 @@
 @interface CKRecordZoneID
 {
     NSString *_zoneName;
-    NSString *_ownerName;
-    NSString *_anonymousCKUserID;
-    long long _databaseScope;
 }
 
 @end

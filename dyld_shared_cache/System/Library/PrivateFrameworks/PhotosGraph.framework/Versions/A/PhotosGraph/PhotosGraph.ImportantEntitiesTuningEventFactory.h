@@ -7,7 +7,6 @@
 @interface PhotosGraph.ImportantEntitiesTuningEventFactory
 {
     id graph;
-    id sentEvent;
 }
 
 @end

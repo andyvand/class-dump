@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEISiriCarCommandFailed : SISchemaInstrumentationMessage
 {
     _Bool _isSiriDigitalCarKeyRequest;
-    CDStruct_b9429cd9 _has;
 }
 
 - (void);
@@ -20,19 +17,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)forceRevoke;
 - (_Bool);
-- (_Bool);
+- (_Bool)SendStyleID from %@ to %@;
 - (id);
 - (id);
-- (id)core;
+- (id)deleteFirstPassTriggerScore;
 - (id)_hasCirAlertWaBoost;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsSiriDigitalCarKeyRequest;
 @property(nonatomic) _Bool isSiriDigitalCarKeyRequest; // @synthesize isSiriDigitalCarKeyRequest=_isSiriDigitalCarKeyRequest;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

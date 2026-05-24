@@ -14,12 +14,12 @@
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q;
 - (id);
 - (void)nt directory %@, %@;
 - (void);

@@ -7,11 +7,9 @@
 @interface PIRetouchBrushStroke
 {
     _Bool _repairEdges;
-    long long _type;
-    struct CGPoint _sourceOffset;
 }
 
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (void);
@@ -22,9 +20,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSource;
-@property(nonatomic) _Bool repairEdges; // @synthesize repairEdges=_repairEdges;
-@property(nonatomic) struct CGPoint sourceOffset; // @synthesize sourceOffset=_sourceOffset;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

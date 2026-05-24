@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSData, NSDictionary;
+@class NSDictionary;
 
 @interface PXStoryMediaAnalysisMovieHighlight
 {
     NSDictionary *_analysis;
-    long long _highlightIndex;
-    NSCache *_movieHighlightTimeRangeCache;
 }
 
-+ (id);
++ (id)=;
 + (id);
 + (id);
 + (id);
@@ -54,15 +52,6 @@
 - (void)mÿdmÿ8ÊÉ;
 
 // Remaining properties
-@property(readonly, nonatomic) float audioQualityScore;
-@property(readonly, nonatomic) struct CGRect bestPlaybackRect;
-@property(readonly, nonatomic) _Bool hasFace;
-@property(readonly, nonatomic) _Bool hasMusic;
-@property(readonly, nonatomic) _Bool hasVoice;
-@property(readonly, nonatomic) float loudness;
-@property(readonly, nonatomic) NSData *normalizationData;
-@property(readonly, nonatomic) float peakVolume;
-@property(readonly, nonatomic) float qualityScore;
 @property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 
 @end

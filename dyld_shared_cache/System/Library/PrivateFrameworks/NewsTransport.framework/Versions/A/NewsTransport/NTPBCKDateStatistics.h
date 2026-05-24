@@ -9,7 +9,6 @@
 @interface NTPBCKDateStatistics
 {
     NTPBCKDate *_creation;
-    NTPBCKDate *_modification;
 }
 
 - (id);
@@ -18,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_visibilityOffsetHelper;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -26,13 +25,10 @@
 - (id);
 - (id);
 - (void);
-- (void)reviousArticleHostViewTypeIfSwipe;
+- (void)hasPreviousArticleHostViewTypeIfSwipe;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBCKDate *creation; // @synthesize creation=_creation;
 @property(readonly, nonatomic) _Bool hasCreation;
-@property(readonly, nonatomic) _Bool hasModification;
-@property(retain, nonatomic) NTPBCKDate *modification; // @synthesize modification=_modification;
 
 @end
 

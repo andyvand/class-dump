@@ -9,7 +9,7 @@
 struct __CFDictionary;
 
 struct aotkey {
-    unsigned char key[32];
+    unsigned char _field1[32];
 };
 
 struct ktrace_chunk {

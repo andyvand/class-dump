@@ -7,7 +7,6 @@
 @interface NewsPersonalization.ComputeServiceAdSegmentProvider
 {
     id needsUpdate;
-    id computeService;
 }
 
 @end

@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
-
 @interface BMMicroLocationRestrictedLocalizationEvent
 {
     double _absoluteTimestamp;
-    NSString *_clientBundleIdentifier;
-    NSUUID *_maxProbabilityLabelIdentifier;
-    double _maxProbability;
-    NSArray *_probabilityVector;
-    NSArray *_numDevicesVector;
 }
 
 + (id);
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (unsigned int);
@@ -28,7 +21,7 @@
 - (id);
 - (double);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)0Sg;
 - (id);
 - (id);
 - (id)tForeignSchemaStmt":(id)arg1 {;
@@ -36,19 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, copy, nonatomic) NSString *clientBundleIdentifier; // @synthesize clientBundleIdentifier=_clientBundleIdentifier;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double maxProbability; // @synthesize maxProbability=_maxProbability;
-@property(readonly, copy, nonatomic) NSUUID *maxProbabilityLabelIdentifier; // @synthesize maxProbabilityLabelIdentifier=_maxProbabilityLabelIdentifier;
-@property(readonly, nonatomic) NSArray *numDevicesVector; // @synthesize numDevicesVector=_numDevicesVector;
-@property(readonly, nonatomic) NSArray *probabilityVector; // @synthesize probabilityVector=_probabilityVector;
-@property(readonly) Class superclass;
 
 @end
 

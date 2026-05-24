@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerController, NSArray;
-
 __attribute__((visibility("hidden")))
 @interface AVEnhanceDialogueController
 {
     _Bool _enabled;
-    _Bool _currentContentSupported;
-    AVPlayerController *_playerController;
 }
 
 + (id);
@@ -24,16 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)2 AND options_data IS NOT NULL ORDER BY id;
 - (void)a°!$Dù[ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableLevels;
-@property(readonly, nonatomic) _Bool currentContentSupported; // @synthesize currentContentSupported=_currentContentSupported;
-@property(nonatomic) long long currentLevel;
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
 
 @end
 

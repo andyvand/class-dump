@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface CKDPZoneEtagValidationInformation
 {
     NSMutableArray *_ancestorInformations;
-    NSString *_localZoneEtag;
-    int _validationType;
-    struct {
-        unsigned int validationType:1;
-    } _has;
 }
 
 + (Class);
 - (id);
 - (int);
-- (void);
+- (void)R%}S;
 - (void);
 - (void);
 - (void);
@@ -35,7 +30,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)e, FigEndpointStreamAirPlaySetRateAndAnchorTimeCallback, void *);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -45,10 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *ancestorInformations; // @synthesize ancestorInformations=_ancestorInformations;
-@property(readonly, nonatomic) _Bool hasLocalZoneEtag;
-@property(nonatomic) _Bool hasValidationType;
-@property(retain, nonatomic) NSString *localZoneEtag; // @synthesize localZoneEtag=_localZoneEtag;
-@property(nonatomic) int validationType; // @synthesize validationType=_validationType;
 
 @end
 

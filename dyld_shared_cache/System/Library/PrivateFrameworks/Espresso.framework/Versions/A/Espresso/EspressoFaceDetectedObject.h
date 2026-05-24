@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface EspressoFaceDetectedObject
 {
     float confidence;
-    long long objectType;
-    struct CGPoint center;
-    struct CGRect bounds;
 }
 
 - (id);
 - (void);
-- (struct CGPoint);
-- (struct CGRect);
+- (struct CGPoint);
+- (struct CGRect);
 - (long long);
 - (void);
 - (float);
-- (void);
+- (void){D;
 - (void)|4;
 
 // Remaining properties
-@property struct CGRect bounds; // @synthesize bounds;
-@property struct CGPoint center; // @synthesize center;
 @property float confidence; // @synthesize confidence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long objectType; // @synthesize objectType;
-@property(readonly) Class superclass;
 
 @end
 

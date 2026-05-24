@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface OTSupportOctagonMessage
 {
     int _supported;
-    CDStruct_495da94c _has;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (int);
-- (id);
+- (id)v16Q24;
 - (void);
 - (void);
 - (unsigned long long);
@@ -29,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool hasSupported;
-@property(nonatomic) int supported; // @synthesize supported=_supported;
 
 @end
 

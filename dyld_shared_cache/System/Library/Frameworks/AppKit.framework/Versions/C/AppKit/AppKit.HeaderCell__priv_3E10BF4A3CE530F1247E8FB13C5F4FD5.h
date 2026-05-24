@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id)canSpringLoadRevealArrangedSubview:(struct CGRect)arg1;
+- (id)_splitView:(struct CGRect)arg1 canSpringLoadRevealArrangedSubview: /* Error: Ran out of types for this method. */;
 - (void)ÈCÿ@	aE;
 
 @end

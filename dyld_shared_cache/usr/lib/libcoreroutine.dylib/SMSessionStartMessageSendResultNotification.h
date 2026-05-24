@@ -6,29 +6,23 @@
 
 #import <coreroutine/RTNotification.h>
 
-@class NSError, NSString, SMSessionStartMessage;
+@class SMSessionStartMessage;
 
 @interface SMSessionStartMessageSendResultNotification : RTNotification
 {
     _Bool _success;
-    SMSessionStartMessage *_message;
-    NSString *_messageGUID;
-    NSError *_error;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (_Bool)otocol>",W,N,V_delegate;
-- (void)zedLocationsForAltitudeSpeedAccuracy;
+- (void)RTDefaultsTripSegmentCheckSynthesizedLocationsForAltitudeSpeedAccuracy;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) SMSessionStartMessage *message; // @synthesize message=_message;
-@property(readonly, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end
 

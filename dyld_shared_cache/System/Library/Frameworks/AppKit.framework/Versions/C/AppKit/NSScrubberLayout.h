@@ -9,8 +9,6 @@
 @interface NSScrubberLayout
 {
     id _private;
-    unsigned int _dirty:1;
-    unsigned int _reservedFlags:31;
 }
 
 + (Class);
@@ -29,10 +27,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (id);
-- (void);
+- (void)*;
 - (void)0@ù
 × ;
 - (struct CGRect)! EùÑã3ð1Â0@ù
@@ -42,12 +40,7 @@
 - (void)ª´;
 
 // Remaining properties
-@property(readonly) _Bool automaticallyMirrorsInRightToLeftLayout;
 @property(readonly) __weak NSScrubber *scrubber;
-@property(readonly) struct CGSize scrubberContentSize;
-@property(readonly) _Bool shouldInvalidateLayoutForHighlightChange;
-@property(readonly) _Bool shouldInvalidateLayoutForSelectionChange;
-@property(readonly) struct CGRect visibleRect;
 
 @end
 

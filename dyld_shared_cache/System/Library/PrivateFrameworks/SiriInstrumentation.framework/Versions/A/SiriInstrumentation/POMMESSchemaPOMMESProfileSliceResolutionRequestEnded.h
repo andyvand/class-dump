@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESProfileSliceResolutionRequestEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)q7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDExternalManifestResponse_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)database to the real database;
 - (id);
 - (id);
-- (id)nalizeDuration;
+- (id)_rescoringFinalizeDuration;
 - (id)TB,N,V_isHandledByPreflight;
-- (_Bool)_EMBEDDING;
+- (_Bool)CDMSERVICEGRAPHNAME_EMBEDDING;
 - (_Bool)n.flowClientEvent.mediaPlayerPlaybackContextTier1.u2UsoGraphTier1.linkedUsoGraphNodeDatas.linkedUsoEntityIdentifiers.value;
 - (void)v#;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -7,11 +7,11 @@
 @class NSArray, NSString;
 
 @protocol INShareFileIntent
-- (NSArray *)Description;
+- (void);
+- (void);
+- (NSArray *)_bookingDescription;
 
 // Remaining properties
-@property(copy) NSArray *entityNames;
-@property(copy) NSArray *recipients;
 @property(copy) NSString *shareMode;
 @end
 

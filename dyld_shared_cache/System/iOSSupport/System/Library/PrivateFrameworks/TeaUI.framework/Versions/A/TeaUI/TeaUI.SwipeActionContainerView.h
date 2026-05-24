@@ -7,19 +7,11 @@
 @interface TeaUI.SwipeActionContainerView
 {
     id swipeActionViews;
-    id isAutoActionEnabled;
-    id isAutoActionActivated;
-    id presentation;
-    id autoActionThreshold;
-    id pinningEdge;
-    id feedbackGenerator;
-    id swipeActionViewWidth;
-    id minimumSwipeActionAreaWidth;
 }
 
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)ReadingHistoryItemSecure;
+- (id)setUserAction:(struct CGRect)arg1;
 - (void)¤7þÿÄÿÿ;
 
 @end

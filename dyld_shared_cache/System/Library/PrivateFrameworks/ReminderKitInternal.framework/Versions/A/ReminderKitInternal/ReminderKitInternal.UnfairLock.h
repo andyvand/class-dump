@@ -7,7 +7,6 @@
 @interface ReminderKitInternal.UnfairLock
 {
     id unfairLock;
-    id options;
 }
 
 @end

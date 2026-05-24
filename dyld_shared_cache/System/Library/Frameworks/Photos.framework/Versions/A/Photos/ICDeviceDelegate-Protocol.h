@@ -5,5 +5,9 @@
 //
 
 @protocol ICDeviceDelegate
+- (void);
+
+@optional
+- (void);
 @end
 

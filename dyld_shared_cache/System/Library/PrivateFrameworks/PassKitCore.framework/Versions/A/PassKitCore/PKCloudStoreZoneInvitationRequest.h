@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, PKCloudStoreZoneInvitation, PKSharingDestination;
+@class PKCloudStoreZoneInvitation;
 
 @interface PKCloudStoreZoneInvitationRequest
 {
     PKCloudStoreZoneInvitation *_invitation;
-    PKSharingDestination *_destination;
-    NSError *_invitationError;
 }
 
 + (id);
@@ -25,16 +23,14 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)hasLinkTimeDelta;
 - (void);
 - (id);
 - (void);
-- (void)_FILE;
+- (void)CARD_ON_FILE;
 
 // Remaining properties
-@property(retain, nonatomic) PKSharingDestination *destination; // @synthesize destination=_destination;
 @property(retain, nonatomic) PKCloudStoreZoneInvitation *invitation; // @synthesize invitation=_invitation;
-@property(copy, nonatomic) NSError *invitationError; // @synthesize invitationError=_invitationError;
 
 @end
 

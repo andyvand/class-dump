@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSString;
+@class NSString;
 
 @interface AXVMenuInfo
 {
     NSString *_menuTitle;
-    NSArray *_menuItems;
-    NSArray *_addedMenuItems;
-    NSIndexSet *_addedMenuItemIndexes;
-    long long _rowCountToShow;
 }
 
 + (_Bool);
@@ -22,14 +18,14 @@
 - (long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
+- (id)?;
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -37,11 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSIndexSet *addedMenuItemIndexes; // @synthesize addedMenuItemIndexes=_addedMenuItemIndexes;
-@property(copy, nonatomic) NSArray *addedMenuItems; // @synthesize addedMenuItems=_addedMenuItems;
-@property(copy, nonatomic) NSArray *menuItems; // @synthesize menuItems=_menuItems;
 @property(copy, nonatomic) NSString *menuTitle; // @synthesize menuTitle=_menuTitle;
-@property(nonatomic) long long rowCountToShow; // @synthesize rowCountToShow=_rowCountToShow;
 
 @end
 

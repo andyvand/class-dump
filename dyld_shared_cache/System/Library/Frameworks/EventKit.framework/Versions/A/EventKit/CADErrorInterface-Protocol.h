@@ -5,5 +5,7 @@
 //
 
 @protocol CADErrorInterface
+- (void)ransactionDestination] %@ received interrupted/invalid connection;
+- (void)tination] %@ could not extract connection;
 @end
 

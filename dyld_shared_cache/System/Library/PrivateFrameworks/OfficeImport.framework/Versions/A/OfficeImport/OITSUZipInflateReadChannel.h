@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol TSUStreamReadChannel;
 
 __attribute__((visibility("hidden")))
 @interface OITSUZipInflateReadChannel
 {
     id <TSUStreamReadChannel> _readChannel;
-    unsigned long long _remainingUncompressedSize;
-    unsigned int _CRC;
-    _Bool _validateCRC;
-    struct z_stream_s _stream;
-    unsigned long long _outBufferSize;
-    char *_outBuffer;
 }
 
 - (void);
@@ -26,16 +19,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Xl;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

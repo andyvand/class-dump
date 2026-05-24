@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableArray, NSString;
-@protocol SXDOMCacheKeyFactory, SXDOMFactory, SXDOMModificationContextFactory;
+@protocol SXDOMFactory;
 
 @interface SXDOMModifierManager
 {
     id <SXDOMFactory> _DOMFactory;
-    id <SXDOMModificationContextFactory> _contextFactory;
-    id <SXDOMCacheKeyFactory> _cacheKeyFactory;
-    NSMutableArray *_modifiers;
-    NSCache *_cache;
 }
 
 - (id);
@@ -21,24 +16,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (void){CGSize=dd}}24{_NSRange=QQ}56@72B80Q84B92;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXDOMFactory> DOMFactory; // @synthesize DOMFactory=_DOMFactory;
-@property(readonly, nonatomic) NSCache *cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) id <SXDOMCacheKeyFactory> cacheKeyFactory; // @synthesize cacheKeyFactory=_cacheKeyFactory;
-@property(readonly, nonatomic) id <SXDOMModificationContextFactory> contextFactory; // @synthesize contextFactory=_contextFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *modifiers; // @synthesize modifiers=_modifiers;
-@property(readonly) Class superclass;
 
 @end
 

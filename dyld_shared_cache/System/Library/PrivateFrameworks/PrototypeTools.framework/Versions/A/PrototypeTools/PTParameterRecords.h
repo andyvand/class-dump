@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)dsAuthMethodStandard:dsAuthSetPasswdAsRoot /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *recordDictionary; // @synthesize recordDictionary=_recordDictionary;

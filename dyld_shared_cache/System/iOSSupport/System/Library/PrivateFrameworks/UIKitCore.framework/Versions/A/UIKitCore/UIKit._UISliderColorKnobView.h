@@ -12,7 +12,7 @@
 
 + (Class);
 - (id);
-- (id)apshotState;
+- (id)_NSDiffableDataSourceSectionSnapshotState;
 
 @end
 

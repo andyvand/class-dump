@@ -6,17 +6,12 @@
 
 #import <SafariSharedUI/WBSSiteMetadataResponse.h>
 
-@class NSColor, NSDate, NSImage;
-
 @interface WBSTouchIconResponse : WBSSiteMetadataResponse
 {
     _Bool _generated;
-    NSImage *_touchIcon;
-    NSColor *_extractedBackgroundColor;
-    NSDate *_nextIconDownloadRetryDate;
 }
 
-+ (id);
++ (id);
 
 @end
 

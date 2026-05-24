@@ -5,6 +5,7 @@
 //
 
 @protocol PXStoryMutableStyleManager
+- (void)&;
 
 // Remaining properties
 @property(nonatomic) double selectionFocus;

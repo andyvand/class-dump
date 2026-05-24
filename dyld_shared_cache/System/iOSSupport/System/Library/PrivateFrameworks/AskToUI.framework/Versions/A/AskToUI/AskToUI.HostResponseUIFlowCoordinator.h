@@ -8,15 +8,10 @@
 {
     id state;
     id dismissBlock;
-    id onEnd;
-    id remoteController;
-    id xpcConnection;
-    id currentPayload;
-    id onAnswer;
 }
 
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (void);

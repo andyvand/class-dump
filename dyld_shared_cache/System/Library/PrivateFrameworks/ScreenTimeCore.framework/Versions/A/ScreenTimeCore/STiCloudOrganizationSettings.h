@@ -6,34 +6,23 @@
 
 #import <ScreenTimeCore/STCoreOrganizationSettings.h>
 
-@class NSString, STiCloudOrganization;
-
 @interface STiCloudOrganizationSettings : STCoreOrganizationSettings
 {
 }
 
 + (id);
+- (_Bool)INTEGER NOT NULL DEFAULT 0);
+- (_Bool)T item_pid, screenshot_cache_id FROM item_extra JOIN item_store USING (item_pid) WHERE screenshot_cache_id IS NOT NULL AND screenshot_cache_id != 0 AND store_saga_id = 0 AND purchase_history_id != 0 AND sync_id = 0;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)(expected_file_name, 2 > 1 ? 1 :(id)arg1 0)) < sizeof(expected_file_name);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isAppAndWebsiteActivityEnabled; // @dynamic isAppAndWebsiteActivityEnabled;
-@property(retain, nonatomic) STiCloudOrganization *organization; // @dynamic organization;
-@property(copy, nonatomic) NSString *recoveryAltDSID; // @dynamic recoveryAltDSID;
-@property(readonly) Class superclass;
 
 @end
 

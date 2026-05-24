@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface VMUCallTreeNode
 {
     VMUCallTreeNode *_parent;
-    NSString *_name;
-    unsigned long long _address;
-    unsigned long long _numBytes;
-    unsigned int _count;
-    unsigned int _numChildren;
-    void *_children;
 }
 
 + (id);
++ (id)9;
 + (id);
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (id);
 - (id);
+- (id)*;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)J;
 - (void);
 - (void);
 - (void);
@@ -48,7 +40,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
@@ -63,14 +55,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (unsigned int);
 - (unsigned long long);

@@ -7,28 +7,21 @@
 @interface AWDCoreRoutinePersistenceStore
 {
     unsigned long long _timestamp;
-    int _migratorDestroyedStoreReason;
-    _Bool _migratorFailed;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int migratorDestroyedStoreReason:1;
-        unsigned int migratorFailed:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void),;
 - (void);
 - (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
+- (void)H;
+- (void);
+- (unsigned long long)";
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,15 +29,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)K;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMigratorDestroyedStoreReason;
-@property(nonatomic) _Bool hasMigratorFailed;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int migratorDestroyedStoreReason; // @synthesize migratorDestroyedStoreReason=_migratorDestroyedStoreReason;
-@property(nonatomic) _Bool migratorFailed; // @synthesize migratorFailed=_migratorFailed;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

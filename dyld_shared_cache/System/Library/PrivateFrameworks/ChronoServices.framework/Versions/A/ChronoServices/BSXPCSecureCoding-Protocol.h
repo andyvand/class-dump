@@ -5,5 +5,6 @@
 //
 
 @protocol BSXPCSecureCoding
++ (_Bool)symbolConfigurationForItem;
 @end
 

@@ -11,14 +11,14 @@
     double mHeight;
 }
 
-+ (id);
++ (id);
 - (struct CGRect);
 - (struct CGImage *);
 - (struct CGImage *);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)(;
 - (double);
 - (double);
 - (struct CGRect);
@@ -27,12 +27,11 @@
 - (double);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)SKErrorEventContext;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double height; // @synthesize height=mHeight;
-@property(readonly, nonatomic) double perspective;
 
 @end
 

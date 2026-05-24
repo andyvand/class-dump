@@ -7,7 +7,6 @@
 @interface PKPeerPaymentPreferencesProfileAppearance
 {
     _Bool _shareLastName;
-    _Bool _shareProfilePicture;
 }
 
 + (_Bool);
@@ -19,15 +18,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)ype"b1"frameType"b1"status"b1};
+- (void)V_version;
 - (id);
 - (id);
-- (id)tedNetworkIDs:(id)arg1 merchantCapabilities:merchantCountryCode:paymentMode:paymentApplicationStates:paymentRequestType:isMultiTokensRequest:webService: /* Error: Ran out of types for this method. */;
+- (id)initWithIssuedOnTheWeb:(id)arg1 supportedNetworkIDs:merchantCapabilities:merchantCountryCode:paymentMode:paymentApplicationStates:paymentRequestType:isMultiTokensRequest:webService: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool shareLastName; // @synthesize shareLastName=_shareLastName;
-@property(nonatomic) _Bool shareProfilePicture; // @synthesize shareProfilePicture=_shareProfilePicture;
 
 @end
 

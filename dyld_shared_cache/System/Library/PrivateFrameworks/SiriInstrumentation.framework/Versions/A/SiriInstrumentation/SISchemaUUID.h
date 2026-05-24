@@ -11,13 +11,10 @@
 @interface SISchemaUUID : SISchemaInstrumentationMessage
 {
     NSData *_value;
-    _Bool _hasValue;
 }
 
 
 // Remaining properties
-@property(nonatomic) _Bool hasValue; // @synthesize hasValue=_hasValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSData *value; // @synthesize value=_value;
 @end
 

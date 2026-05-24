@@ -4,85 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CIContext, CIFilter, CIImage, IKImageAnalysisManager, IKImageRenderInfo, IKImageView2, IKImageViewLayerQueue, NSClipView, NSData, NSDictionary, NSMutableArray, NSString, NSTimer, NSURL, NSView;
-
 @interface IKImageContentView
 {
     _Bool _initialized;
-    _Bool _loadsImageSynchronously;
-    IKImageRenderInfo *_renderInfo;
-    CIImage *_ciImage;
-    CIImage *_scaledCIImage;
-    CIImage *_flattenedCIImage;
-    CIImage *_thumbnailCIImage;
-    CIImage *_drawingCIImage;
-    CIContext *_flatteningContext;
-    _Bool _thumbnailNeedsToUpdateFilters;
-    _Bool _drawingCIImageNeedsToUpdate;
-    struct CGImage *_originalCGImage;
-    struct CGImage *_cachedHigherResThumbnailImage;
-    struct CGImage *_thumbnailCGImage;
-    NSDictionary *_displayProperties;
-    _Bool _needToReloadThumbnailForHigherResolution;
-    _Bool _finishedFirstLowResThumbnail;
-    double _imageWidth;
-    double _imageHeight;
-    double _zoomedWidth;
-    double _zoomedHeight;
-    double _zoomFactor;
-    double _startingScreenScaleFactor;
-    _Bool _stickyZoomToFit;
-    _Bool _isAnimatingZoom;
-    _Bool _isAnimating;
-    double _minNearestNeighborScale;
-    _Bool _alwaysHidesScrollers;
-    double _edrAnimationTarget;
-    _Bool _isAnimatingEDR;
-    struct CGPoint _startingViewCenter;
-    NSMutableArray *_blockCollection;
-    NSMutableArray *_lastEnqueuedBlockCollection;
-    IKImageViewLayerQueue *_layerRenderingQueue;
-    NSTimer *_blockCleanupTimer;
-    _Bool _canInvalidateBlockCleanupTimer;
-    struct CGRect _lastUpdatedBounds;
-    struct CGRect _loadedRect;
-    CALayer *_backgroundThumbnailLayer;
-    CALayer *_backgroundThumbnailMask;
-    NSView *_contentView;
-    CALayer *_oldbgThumbnailLayer;
-    CALayer *_contentViewContainerLayer;
-    CALayer *_incomingContentViewContainerLayer;
-    CALayer *_combinedCurrentTilesAndBGLayer;
-    CALayer *_animationLayer;
-    CALayer *_flipLayer;
-    NSView *_annotationsView;
-    CALayer *_annotationsLayer;
-    _Bool _inMagnifyGesture;
-    NSTimer *_zoomTimer;
-    _Bool _completedInitialImageLoading;
-    long long _exifOrientation;
-    double _rotationAngle;
-    _Bool _canAnimateImage;
-    NSURL *_imgURL;
-    NSData *_imgData;
-    IKImageView2 *_imageView;
-    NSClipView *_clipView;
-    CIFilter *_softProofFilter;
-    _Bool _shouldUseTiles;
-    _Bool _scrollingLoadsTiles;
-    unsigned long long _imageIndex;
-    _Bool _quickActionsEnabled;
-    _Bool _documentViewLayerSetupComplete;
-    _Bool _backgroundThumbnailLoadingComplete;
-    _Bool _ignoreWindowUpdates;
-    _Bool _isReloading;
-    _Bool _animatingImageContent;
-    _Bool _inhibitAutomaticReanalysis;
-    unsigned long long _visionKitInteractionTypes;
-    NSURL *_webImageURL;
-    NSURL *_webPageURL;
-    IKImageAnalysisManager *_imageAnalysisManager;
-    NSString *_highlightedString;
 }
 
 + (id);
@@ -90,7 +14,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (void)8ÌdÌ(àìâÜä<å;
 - (void);
 - (double);
@@ -109,14 +33,14 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)6;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -128,9 +52,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -146,7 +70,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)R;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -164,11 +88,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)>;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (double);
@@ -179,11 +103,11 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void)`6;
 - (void);
 - (struct CGImage *);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -198,7 +122,7 @@
 - (struct CGPoint);
 - (_Bool);
 - (void);
-- (void);
+- (void)v;
 - (void);
 - (void);
 - (void);
@@ -220,7 +144,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (struct CGPoint);
@@ -241,11 +165,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);;
 - (struct CGSize);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -255,9 +179,9 @@
 - (void);
 - (void);
 - (void);
+- (void)H;
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (void);
@@ -293,32 +217,32 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (_Bool);
-- (id);
+- (id)iIi8	J;
 - (id);
 - (void);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)hasLimitWithBlockEnabled;
 - (double);
-- (double);
+- (double);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)AlertTypeMaximumAllowedValue in TLAlertType_Internal.h.;
+- (void)externalDirectoryWithSubType:(_Bool)arg1 createIfNeeded:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (struct CGImage *);
+- (struct CGImage *);
 - (void);
 - (struct CGSize);
 - (void);
@@ -326,50 +250,12 @@
 - (_Bool)oint=dd}32@"NSSet"48;
 - (_Bool)NSRange=QQ}16@0:(struct CGPoint)arg1 8;
 - (void)24@0:(id)arg1 8:16 /* Error: Ran out of types for this method. */;
-- (void)ble;
-- (void)n;
+- (void)_encoderRowVisible;
+- (void)allowsMultipleSelection;
 - (double)@òÿÆ«ê;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysHidesScrollers; // @synthesize alwaysHidesScrollers=_alwaysHidesScrollers;
-@property(nonatomic) struct CGRect analysisContentsRect;
-@property(getter=isAnimatingImageContent) _Bool animatingImageContent; // @synthesize animatingImageContent=_animatingImageContent;
-@property(readonly) CALayer *annotationsLayer;
-@property(readonly) NSView *annotationsView;
-@property(retain) CALayer *backgroundThumbnailLayer; // @synthesize backgroundThumbnailLayer=_backgroundThumbnailLayer;
-@property _Bool backgroundThumbnailLoadingComplete; // @synthesize backgroundThumbnailLoadingComplete=_backgroundThumbnailLoadingComplete;
-@property struct CGImage *cachedHigherResThumbnailImage;
-@property(readonly) double contentsEDRStrength;
-@property(readonly) double contentsMaximumDesiredEDR;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool documentViewLayerSetupComplete; // @synthesize documentViewLayerSetupComplete=_documentViewLayerSetupComplete;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *highlightedString; // @synthesize highlightedString=_highlightedString;
-@property _Bool ignoreWindowUpdates; // @synthesize ignoreWindowUpdates=_ignoreWindowUpdates;
-@property(retain) IKImageAnalysisManager *imageAnalysisManager; // @synthesize imageAnalysisManager=_imageAnalysisManager;
-@property(readonly) _Bool imageHasHDR;
-@property unsigned long long imageIndex; // @synthesize imageIndex=_imageIndex;
-@property(readonly) IKImageView2 *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) _Bool inhibitAutomaticReanalysis; // @synthesize inhibitAutomaticReanalysis=_inhibitAutomaticReanalysis;
-@property _Bool isReloading; // @synthesize isReloading=_isReloading;
-@property _Bool loadsSynchronously; // @synthesize loadsSynchronously=_loadsImageSynchronously;
-@property struct CGImage *originalCGImage;
-@property(nonatomic) _Bool quickActionsEnabled; // @synthesize quickActionsEnabled=_quickActionsEnabled;
-@property(retain) IKImageRenderInfo *renderInfo; // @synthesize renderInfo=_renderInfo;
-@property double rotationAngle;
-@property _Bool scrollingLoadsTiles; // @synthesize scrollingLoadsTiles=_scrollingLoadsTiles;
-@property _Bool shouldUseTiles;
-@property _Bool stickyZoomToFit;
-@property(readonly) Class superclass;
-@property struct CGImage *thumbnailCGImage;
-@property(nonatomic) unsigned long long visionKitInteractionTypes; // @synthesize visionKitInteractionTypes=_visionKitInteractionTypes;
-@property(retain) NSURL *webImageURL; // @synthesize webImageURL=_webImageURL;
-@property(retain) NSURL *webPageURL; // @synthesize webPageURL=_webPageURL;
-@property(nonatomic) double zoomFactor; // @synthesize zoomFactor=_zoomFactor;
 
 @end
 

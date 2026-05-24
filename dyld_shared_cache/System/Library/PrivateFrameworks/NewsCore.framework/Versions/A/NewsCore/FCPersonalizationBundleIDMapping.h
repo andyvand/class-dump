@@ -9,26 +9,24 @@
 @interface FCPersonalizationBundleIDMapping
 {
     NTPBBundleIDMapping *_pbBundleIDMapping;
-    NSDictionary *_bundleIDMapping;
 }
 
-+ (id);
++ (id)catalogData;
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id)Y;
 - (void);
-- (unsigned long long)rtExcerpt: /* Error: Ran out of types for this method. */;
+- (unsigned long long)overrideShortExcerpt: /* Error: Ran out of types for this method. */;
 - (void)hould only clear the command queue when it's suspended;
 - (id)¢;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *bundleIDMapping; // @synthesize bundleIDMapping=_bundleIDMapping;
-@property(readonly, nonatomic) unsigned long long count;
 
 @end
 

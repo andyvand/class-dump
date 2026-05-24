@@ -5,5 +5,6 @@
 //
 
 @protocol CalDAVAccountPropertyRefreshDelegate
+- (void);
 @end
 

@@ -5,5 +5,11 @@
 //
 
 @protocol TUNeighborhoodActivityConduitXPCClient
+- (oneway void)P;
+- (oneway void);
+- (oneway void)	;
+
+@optional
+- (void)@9	;
 @end
 

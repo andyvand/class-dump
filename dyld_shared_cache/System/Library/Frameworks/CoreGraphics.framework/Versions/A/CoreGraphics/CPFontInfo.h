@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CPFontInfo
 {
     struct __CFData *fontData;
-    const char *dataPtr;
-    unsigned int offset;
-    unsigned int fontDataLength;
-    _Bool valid;
 }
 
 - (unsigned int);
@@ -25,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (float);
-- (void);
+- (void)a;
 
 @end
 

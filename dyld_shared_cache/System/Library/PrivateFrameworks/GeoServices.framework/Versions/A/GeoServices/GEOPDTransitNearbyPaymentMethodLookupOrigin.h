@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOWaypointTyped, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitNearbyPaymentMethodLookupOrigin
 {
     PBUnknownFields *_unknownFields;
-    GEOWaypointTyped *_waypointTyped;
 }
 
 - (id);
-- (void);
+- (void)setObject:(id)arg1 forKeyedSubscript: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ece, std:(struct _NSZone *)arg1:allocator<geo::TransitEdgePiece>>="__map_"{__split_buffer<geo::TransitEdgePiece *, std::allocator<geo::TransitEdgePiece *>>="__first_"^^{TransitEdgePiece}"__begin_"^^{TransitEdgePiece}"__end_"^^{TransitEdgePiece}""{?="__cap_"^^{TransitEdgePiece}}}"__start_"Q""{?="__size_"Q}} /* Error: Ran out of types for this method. */;
-- (id)electionFromQuery;
+- (id)_selectionFromQuery;
 - (id)D, ;
 - (void)áÓ¼ÈLJ@;
 

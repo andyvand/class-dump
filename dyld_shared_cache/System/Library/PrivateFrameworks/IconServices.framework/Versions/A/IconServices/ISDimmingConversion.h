@@ -8,21 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ISDimmingConversion
 {
     struct CGImage *_cgImage;
-    float _targetHighlightBrightnessLevel;
-    float _targetMeanBrightnessLevel;
-    float _minMeanBrightnessAdjustmentFactor;
-    struct __CFData *_data;
-    CDStruct_4489c482 _samples;
-    int _width;
-    int _height;
-    int _numberOfSamples;
-    _Bool _hasDimmingParameters;
-    _Bool _isDimmable;
-    float _highlightBrightnessAdjustmentFactor;
-    _Bool _shouldAdjustHighlightBrightness;
-    float _meanBrightnessAfterHighlightAdjustment;
-    _Bool _shouldAdjustMeanBrightness;
-    id *_ucharDimmed;
 }
 
 - (float);
@@ -32,18 +17,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (float);
 - (_Bool);
-- (struct CGImage *);
-- (_Bool);
-- (void);
-- (_Bool);
+- (struct CGImage *)@"NSNumber"24@?<v@?B>32;
+- (_Bool)writeSourceFromJSONFile:source:withReply: /* Error: Ran out of types for this method. */;
+- (void)resultFromText:personName:jobTitle:department:company: /* Error: Ran out of types for this method. */;
+- (_Bool)resultFromCoreResult: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDimmable;
-@property(nonatomic) float minMeanBrightnessAdjustmentFactor; // @synthesize minMeanBrightnessAdjustmentFactor=_minMeanBrightnessAdjustmentFactor;
 @property(nonatomic) float targetHighlightBrightnessLevel; // @synthesize targetHighlightBrightnessLevel=_targetHighlightBrightnessLevel;
-@property(nonatomic) float targetMeanBrightnessLevel; // @synthesize targetMeanBrightnessLevel=_targetMeanBrightnessLevel;
 
 @end
 

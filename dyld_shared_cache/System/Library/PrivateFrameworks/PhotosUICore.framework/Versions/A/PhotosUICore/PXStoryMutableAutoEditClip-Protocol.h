@@ -7,18 +7,12 @@
 @class NSDictionary;
 
 @protocol PXStoryMutableAutoEditClip
-- (NSDictionary *)ddThreeItemsToSixColumnRowWithHeroItemType:options:rowType: /* Error: Ran out of types for this method. */;
-- (CDStruct_618113c1);
-- (CDStruct_3ac0dd7e)utton;
+- (void);
+- (NSDictionary *)_addThreeItemsToSixColumnRowWithHeroItemType:options:rowType: /* Error: Ran out of types for this method. */;
+- (CDStruct_4ae65f2e);
+- (CDStruct_fa0c26dd)LemonadeCollectionCustomizationNavigationViewCreateButton;
 
 // Remaining properties
-@property(nonatomic) CDStruct_273850af audioInfo;
-@property(copy, nonatomic) NSDictionary *debugInfo;
-@property(nonatomic) CDStruct_c8943d03 durationInfo;
-@property(nonatomic) double durationMultiplier;
-@property(nonatomic) CDStruct_3ac0dd7e moduleInfo;
-@property(nonatomic) CDStruct_b8e7e30c motionInfo;
 @property(nonatomic) long long playbackStyle;
-@property(nonatomic) CDStruct_618113c1 transitionInfo;
 @end
 

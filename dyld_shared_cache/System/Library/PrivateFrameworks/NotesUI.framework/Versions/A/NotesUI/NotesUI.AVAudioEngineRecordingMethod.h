@@ -7,8 +7,6 @@
 @interface NotesUI.AVAudioEngineRecordingMethod
 {
     id outputContinuation;
-    id audioEngine;
-    id assetWriter;
 }
 
 @end

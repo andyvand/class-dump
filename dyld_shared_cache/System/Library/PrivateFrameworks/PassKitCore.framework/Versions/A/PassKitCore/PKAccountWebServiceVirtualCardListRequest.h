@@ -6,24 +6,22 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceVirtualCardListRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
 }
 
 - (id);
 - (id)nt checker;
-- (void)ainFeatureOnboardingPageIdentifier;
+- (void)mainFeatureOnboardingPageIdentifier;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 
 @end
 

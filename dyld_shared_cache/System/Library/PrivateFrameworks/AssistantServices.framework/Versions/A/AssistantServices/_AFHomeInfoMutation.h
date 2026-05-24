@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFHomeInfo, NSString, NSUUID;
+@class AFHomeInfo;
 
 @interface _AFHomeInfoMutation
 {
     AFHomeInfo *_base;
-    NSUUID *_homeIdentifier;
-    _Bool _activityNotificationsEnabledForPersonalRequests;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasHomeIdentifier:1;
-        unsigned int hasActivityNotificationsEnabledForPersonalRequests:1;
-    } _mutationFlags;
 }
 
 - (void);
@@ -23,17 +16,11 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)onWithOptions:(id)arg1 forLanguage: /* Error: Ran out of types for this method. */;
-- (void)ltiLingualKeyboardLanguages;
+- (id)startRecordedAudioDictationWithOptions:(id)arg1 forLanguage: /* Error: Ran out of types for this method. */;
+- (void)_multiLingualKeyboardLanguages;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

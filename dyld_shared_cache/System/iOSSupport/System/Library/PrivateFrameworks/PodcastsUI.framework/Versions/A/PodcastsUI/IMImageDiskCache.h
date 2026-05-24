@@ -6,65 +6,51 @@
 
 #import <PodcastsUI/IMBaseDiskCache.h>
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSRecursiveLock, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface IMImageDiskCache : IMBaseDiskCache
 {
     NSString *_onDiskFileType;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    double _maxImageDimensionInPixels;
-    double _saveCompressionQuality;
-    NSRecursiveLock *_syncLock;
-    NSMutableSet *_proccessingKeys;
-    NSMutableDictionary *_completionHandlers;
-    NSMutableDictionary *_pendingPerformWhenAvailableOnDiskBlocks;
 }
 
-- (id);
+- (id);
 - (double);
 - (void);
 - (id);
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)�/;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)e;
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
+- (void);
+- (id);
+- (id);
+- (struct CGImageSource *);
+- (void);
 - (_Bool);
+- (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
 - (id);
 - (id);
-- (struct CGImageSource *);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)B;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *completionHandlers; // @synthesize completionHandlers=_completionHandlers;
-@property(readonly, nonatomic) double maxImageDimensionInPixels; // @synthesize maxImageDimensionInPixels=_maxImageDimensionInPixels;
-@property(readonly, nonatomic) NSString *onDiskFileType; // @synthesize onDiskFileType=_onDiskFileType;
-@property(readonly, nonatomic) NSMutableDictionary *pendingPerformWhenAvailableOnDiskBlocks; // @synthesize pendingPerformWhenAvailableOnDiskBlocks=_pendingPerformWhenAvailableOnDiskBlocks;
-@property(readonly, nonatomic) NSMutableSet *proccessingKeys; // @synthesize proccessingKeys=_proccessingKeys;
-@property(readonly, nonatomic) double saveCompressionQuality; // @synthesize saveCompressionQuality=_saveCompressionQuality;
-@property(readonly, nonatomic) NSRecursiveLock *syncLock; // @synthesize syncLock=_syncLock;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

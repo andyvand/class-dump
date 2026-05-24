@@ -6,12 +6,31 @@
 
 #import <UserNotificationsKit/NCNotificationRequest.h>
 
-@class DNDClientEventBehavior, NCNotificationAction, NCNotificationAlertOptions, NCNotificationContent, NCNotificationOptions, NCNotificationSound, NSArray, NSDate, NSDictionary, NSSet, NSString, NSUUID, UNNotification;
+@class NSString;
 
 @interface NCMutableNotificationRequest : NCNotificationRequest
 {
 }
 
+- (void)"8Q16^B24;
+- (void)expectedly missing workflow ids;
+- (void)oingAlertSession handleIncomingProtobuf:(id)arg1 ];
+- (void)-[WFRemoteExecutionOutgoingAlertSession sendToDestinations:(id)arg1 options:] /* Error: Ran out of types for this method. */;
+- (void)ting with the app.;
+- (void)WFHMService;
+- (void)mpatible asset. Found version:(_Bool)arg1 %ld. Expected:%ld /* Error: Ran out of types for this method. */;
+- (void)st 1 asset, as defined in the request call.;
+- (void)andler:(id)arg1 ]_block_invoke;
+- (void)Handler:(id)arg1 ]_block_invoke_2;
+- (void);
+- (void)Documents;
+- (void)Private.WFUserVisibleString;
+- (void)he device's Personal Hotspot to on or off.;
+- (void);
+- (void);
+- (void)Sun.;
+- (void);
+- (void)ion:(id)arg1 ];
 - (void);
 - (void);
 - (void);
@@ -22,26 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -55,46 +55,8 @@
 - (void)× ;
 
 // Remaining properties
-@property(retain, nonatomic) NCNotificationAlertOptions *alertOptions; // @dynamic alertOptions;
-@property(retain, nonatomic) NCNotificationAction *cancelAction; // @dynamic cancelAction;
-@property(copy, nonatomic) NSString *categoryIdentifier; // @dynamic categoryIdentifier;
-@property(retain, nonatomic) NCNotificationAction *clearAction; // @dynamic clearAction;
-@property(retain, nonatomic) NCNotificationAction *closeAction; // @dynamic closeAction;
-@property(nonatomic) unsigned long long collapsedNotificationsCount; // @dynamic collapsedNotificationsCount;
-@property(retain, nonatomic) NCNotificationContent *content; // @dynamic content;
-@property(copy, nonatomic) NSDictionary *context; // @dynamic context;
-@property(nonatomic, getter=isCriticalAlert) _Bool criticalAlert; // @dynamic criticalAlert;
-@property(retain, nonatomic) NCNotificationAction *defaultAction; // @dynamic defaultAction;
-@property(copy, nonatomic) DNDClientEventBehavior *eventBehavior; // @dynamic eventBehavior;
-@property(copy, nonatomic) NSString *filterCriteria; // @dynamic filterCriteria;
-@property(copy, nonatomic) NSString *highestPrioritySubSectionIdentifier; // @dynamic highestPrioritySubSectionIdentifier;
-@property(retain, nonatomic) NCNotificationAction *inlineAction; // @dynamic inlineAction;
-@property(copy, nonatomic) NSArray *intentIdentifiers; // @dynamic intentIdentifiers;
-@property(nonatomic) unsigned long long interruptionLevel; // @dynamic interruptionLevel;
-@property(nonatomic) _Bool isCollapsedNotification; // @dynamic isCollapsedNotification;
-@property(nonatomic) _Bool isHighlight; // @dynamic isHighlight;
-@property(nonatomic) _Bool isPresentedAsBanner; // @dynamic isPresentedAsBanner;
-@property(nonatomic) _Bool isRemoved; // @dynamic isRemoved;
 @property(copy, nonatomic) NSString *notificationIdentifier; // @dynamic notificationIdentifier;
-@property(retain, nonatomic) NCNotificationOptions *options; // @dynamic options;
-@property(copy, nonatomic) NSString *parentSectionIdentifier; // @dynamic parentSectionIdentifier;
-@property(copy, nonatomic) NSArray *peopleIdentifiers; // @dynamic peopleIdentifiers;
-@property(nonatomic) unsigned long long priorityStatus; // @dynamic priorityStatus;
-@property(nonatomic) float relevanceScore; // @dynamic relevanceScore;
-@property(copy, nonatomic) NSSet *requestDestinations; // @dynamic requestDestinations;
 @property(copy, nonatomic) NSString *sectionIdentifier; // @dynamic sectionIdentifier;
-@property(copy, nonatomic) NSSet *settingsSections; // @dynamic settingsSections;
-@property(retain, nonatomic) NCNotificationAction *silenceAction; // @dynamic silenceAction;
-@property(retain, nonatomic) NCNotificationSound *sound; // @dynamic sound;
-@property(copy, nonatomic) NSDictionary *sourceInfo; // @dynamic sourceInfo;
-@property(copy, nonatomic) NSSet *subSectionIdentifiers; // @dynamic subSectionIdentifiers;
-@property(nonatomic) unsigned long long summaryStatus; // @dynamic summaryStatus;
-@property(copy, nonatomic) NSDictionary *supplementaryActions; // @dynamic supplementaryActions;
-@property(copy, nonatomic) NSString *threadIdentifier; // @dynamic threadIdentifier;
-@property(nonatomic, getter=isUniqueThreadIdentifier) _Bool threadIdentifierUnique; // @dynamic threadIdentifierUnique;
-@property(retain, nonatomic) NSDate *timestamp; // @dynamic timestamp;
-@property(retain, nonatomic) UNNotification *userNotification; // @dynamic userNotification;
-@property(copy, nonatomic) NSUUID *uuid; // @dynamic uuid;
 
 @end
 

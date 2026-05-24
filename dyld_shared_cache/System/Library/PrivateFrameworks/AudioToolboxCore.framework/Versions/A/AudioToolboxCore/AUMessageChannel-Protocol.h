@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol AUMessageChannel
+
+@optional
+- (NSDictionary * (^)(NSDictionary *));
+- (NSDictionary *);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType callHostBlock;

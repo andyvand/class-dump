@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMSingleServiceSetupAttemptEnded, NLXSchemaCDMSingleServiceSetupAttemptStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMSingleServiceSetupAttemptContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NLXSchemaCDMSingleServiceSetupAttemptStarted *_startedOrChanged;
-    NLXSchemaCDMSingleServiceSetupAttemptEnded *_ended;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,38 +18,31 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)albumsForDomains:(id)arg1 withMediaKinds:withDeviceCapabilities:withReply: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)s time source is not available;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)TextToSpeak;
-- (id)tEvent: /* Error: Ran out of types for this method. */;
+- (id)setIsTestEvent: /* Error: Ran out of types for this method. */;
 - (void)¹Èæ9<Ø>;
 - (void)&²ÿ@³;
 - (id)õ¦ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) NLXSchemaCDMSingleServiceSetupAttemptEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaCDMSingleServiceSetupAttemptStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

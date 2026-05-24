@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
 @protocol LUI2WindowDelegate;
 
 @interface LUI2Window
 {
     _Bool _isSecondary;
-    NSMutableDictionary *_animationCompletions;
 }
 
 - (_Bool);
@@ -18,7 +16,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)^;
 - (void);
 - (void);
 - (void);
@@ -31,9 +29,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)j;
 - (id);
-- (void);
+- (void)ult' region has unexpected type:(id)arg1 %@;
 - (id);
 - (id);
 - (void);
@@ -41,18 +39,10 @@
 - (_Bool)@ù
 × ;
 - (void);
-- (void)s;
+- (void)markMCXSettings;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <LUI2WindowDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isSecondary;
-@property(readonly) Class superclass;
 
 @end
 

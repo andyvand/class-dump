@@ -5,5 +5,6 @@
 //
 
 @protocol AVTStickerRecentsOverlayDelegate
+- (void);
 @end
 

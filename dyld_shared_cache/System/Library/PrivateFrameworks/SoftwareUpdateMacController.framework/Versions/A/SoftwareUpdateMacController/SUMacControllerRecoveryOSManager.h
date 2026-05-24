@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, SUCoreFSM, SUCoreLog, SUMacControllerRecoveryOSEventInfo;
-@protocol OS_dispatch_queue;
+@class SUCoreLog;
 
 @interface SUMacControllerRecoveryOSManager
 {
     SUCoreLog *_logger;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    SUCoreFSM *_stateMachine;
-    SUMacControllerRecoveryOSEventInfo *_currentEvent;
-    SUMacControllerRecoveryOSEventInfo *_pendingEvent;
 }
 
 + (_Bool);
@@ -23,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -53,20 +48,16 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (id)dedRequestCancel;
+- (id)DownloadedRequestCancel;
 - (id)jor software update documentation;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(retain, nonatomic) SUMacControllerRecoveryOSEventInfo *currentEvent; // @synthesize currentEvent=_currentEvent;
 @property(readonly, retain, nonatomic) SUCoreLog *logger; // @synthesize logger=_logger;
-@property(retain, nonatomic) SUMacControllerRecoveryOSEventInfo *pendingEvent; // @synthesize pendingEvent=_pendingEvent;
-@property(retain, nonatomic) SUCoreFSM *stateMachine; // @synthesize stateMachine=_stateMachine;
 
 @end
 

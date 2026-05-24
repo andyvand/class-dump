@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MXCoreSessionBase, NSNumber;
+@class MXCoreSessionBase;
 
 @interface MXSessionBase
 {
     MXCoreSessionBase *_parentCoreSession;
-    NSNumber *_ID;
 }
 
 + (_Bool);
@@ -33,16 +32,15 @@
 - (int);
 - (void);
 - (int);
-- (void);
+- (void)diaextension.videodecoder;
 - (int);
 - (id);
 - (int);
-- (int);
+- (int)e stream;
 - (id);
 - (int);
 
 // Remaining properties
-@property(retain) NSNumber *ID; // @synthesize ID=_ID;
 @property(retain) MXCoreSessionBase *parentCoreSession; // @synthesize parentCoreSession=_parentCoreSession;
 
 @end

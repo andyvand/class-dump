@@ -4,45 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObject, IMMessage, NSString;
+@class IMMessage;
 
 @interface CKPinnedConversationMediaObjectActivityItem
 {
     double _activityItemContentScale;
-    NSString *_attachedContactItemIdentifier;
-    IMMessage *_message;
-    CKMediaObject *_mediaObject;
 }
 
-+ (id);
-+ (id);
++ (id)e;
++ (id)o;
 + (_Bool);
 - (id);
+- (id)converting HTML to attributed string:%@ /* Error: Ran out of types for this method. */;
 - (id);
+- (id)ou** copied the note;
+- (_Bool)the note;
+- (double)the folder;
+- (_Bool)note;
 - (id);
-- (id);
-- (_Bool);
-- (double);
-- (_Bool);
-- (id);
-- (id)ionListSearchBarForLayoutMargins:isRTL: /* Error: Ran out of types for this method. */;
+- (id)contentInsetsForConversationListSearchBarForLayoutMargins:isRTL: /* Error: Ran out of types for this method. */;
 - (void)ø;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool activityItemAppearsWithAnimation;
-@property(readonly, nonatomic) double activityItemContentScale; // @synthesize activityItemContentScale=_activityItemContentScale;
-@property(readonly, nonatomic) _Bool activityItemDisappearsWithAnimation;
-@property(readonly, nonatomic) NSString *activityItemIdentifier;
-@property(readonly, nonatomic) NSString *attachedContactItemIdentifier; // @synthesize attachedContactItemIdentifier=_attachedContactItemIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
 @property(readonly, nonatomic) IMMessage *message; // @synthesize message=_message;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,13 +10,13 @@
 {
 }
 
+- (id)a;
+- (id);
+- (id)registerThroughputTrackingFor:(id)arg1 withStartTime:error: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)didUpdateStepIndex: /* Error: Ran out of types for this method. */;
+- (void)navigationListener:didUpdateStepIndex: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

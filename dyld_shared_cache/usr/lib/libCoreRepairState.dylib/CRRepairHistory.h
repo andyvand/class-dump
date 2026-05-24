@@ -10,10 +10,9 @@
 {
     NSDictionary *repairHistoryMap;
     NSSet *useCountExceptionKeys;
-    NSDictionary *componentMap;
 }
 
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (_Bool);
@@ -33,10 +32,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (id);
-- (id);
+- (id)Ȁ;
 - (id);
 - (_Bool);
 - (id);

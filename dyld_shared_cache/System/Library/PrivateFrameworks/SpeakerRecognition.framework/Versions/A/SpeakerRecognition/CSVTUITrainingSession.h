@@ -4,43 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioZeroCounter, CSVTUITrainingSessionHelper, NSDictionary, NSMutableArray, NSObject, NSString, NSTimer, NSUUID, SFSpeechAudioBufferRecognitionRequest, SFSpeechRecognitionTask, SFSpeechRecognizer, SpeakerRecognition.SSRSpeechTranscriberIntf;
-@protocol CSVTUIAudioSession, CSVTUIKeywordDetectorProtocol, CSVTUITrainingSessionDelegate, OS_dispatch_queue;
+@class SpeakerRecognition.SSRSpeechTranscriberIntf;
 
 @interface CSVTUITrainingSession
 {
     long long _status;
-    long long _utteranceId;
-    long long _sessionNumber;
-    NSString *_locale;
-    NSUUID *_mhUUID;
-    unsigned long long _phId;
-    NSString *_vtAssetConfigVersion;
-    id <CSVTUIKeywordDetectorProtocol> _keywordDetector;
-    id <CSVTUIAudioSession> _audioSession;
-    SFSpeechRecognizer *_speechRecognizer;
-    SFSpeechAudioBufferRecognitionRequest *_speechRecognitionRequest;
-    SFSpeechRecognitionTask *_speechRecognitionTask;
-    NSTimer *_masterTimer;
-    NSMutableArray *_pcmBufArray;
-    _Bool _resultReported;
-    _Bool _sessionProcess;
-    _Bool _sessionSuspended;
-    _Bool _ASRErrorOccured;
-    _Bool _speechStartDetected;
-    _Bool _didFirstPassTrigger;
-    _Bool _snrCheckEnabled;
-    id <CSVTUITrainingSessionDelegate> _sessionDelegate;
-    CDUnknownBlockType _trainingCompletion;
-    CDUnknownBlockType _trainingCompletionWithResult;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSVTUITrainingSessionHelper *_helper;
-    long long _numRequiredTrailingSamples;
-    long long _numTrailingSamples;
-    CSAudioZeroCounter *_continuousZeroCounter;
-    _Bool _shouldUseEnhancedSpeechTranscriber;
-    SpeakerRecognition.SSRSpeechTranscriberIntf *_speechTranscriber;
-    NSDictionary *_voiceTriggerEventInfo;
 }
 
 - (void);
@@ -72,7 +40,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -81,26 +55,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SpeakerRecognition.SSRSpeechTranscriberIntf *speechTranscriber; // @synthesize speechTranscriber=_speechTranscriber;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *voiceTriggerEventInfo; // @synthesize voiceTriggerEventInfo=_voiceTriggerEventInfo;
 
 @end
 

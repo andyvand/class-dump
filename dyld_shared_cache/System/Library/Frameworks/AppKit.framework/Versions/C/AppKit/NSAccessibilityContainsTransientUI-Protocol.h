@@ -5,5 +5,6 @@
 //
 
 @protocol NSAccessibilityContainsTransientUI
+- (_Bool)%s;
 @end
 

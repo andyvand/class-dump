@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, HMISystemResourceUsageMonitor, NSArray, NSPointerArray, NSString;
+@class NSPointerArray;
 
 @interface HMIVideoAnalyzerScheduler
 {
     struct os_unfair_lock_s _lock;
-    struct os_unfair_lock_s _registerLock;
-    HMFTimer *_tick;
-    HMISystemResourceUsageMonitor *_usageMonitor;
-    _Bool _ignoreThermalAndSystemResourceUsageLevel;
-    long long _usageLevel;
-    unsigned long long _maxH264VideoDecoders;
-    unsigned long long _maxH264VideoEncoders;
-    unsigned long long _maxH265VideoEncoders;
-    NSPointerArray *_internalAnalyzers;
-    long long _logStateCount;
 }
 
 + (id);
@@ -35,7 +25,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -54,23 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *analyzerConfigurations;
-@property(readonly) NSArray *analyzerStates;
-@property(readonly) NSArray *analyzers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool ignoreThermalAndSystemResourceUsageLevel; // @synthesize ignoreThermalAndSystemResourceUsageLevel=_ignoreThermalAndSystemResourceUsageLevel;
 @property(readonly) NSPointerArray *internalAnalyzers; // @synthesize internalAnalyzers=_internalAnalyzers;
-@property long long logStateCount; // @synthesize logStateCount=_logStateCount;
-@property unsigned long long maxH264VideoDecoders; // @synthesize maxH264VideoDecoders=_maxH264VideoDecoders;
-@property unsigned long long maxH264VideoEncoders; // @synthesize maxH264VideoEncoders=_maxH264VideoEncoders;
-@property unsigned long long maxH265VideoEncoders; // @synthesize maxH265VideoEncoders=_maxH265VideoEncoders;
-@property(readonly) Class superclass;
-@property(readonly) long long usageLevel; // @synthesize usageLevel=_usageLevel;
 
 @end
 

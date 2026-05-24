@@ -7,9 +7,6 @@
 @interface TeaUI.FlowBlueprintLayoutCollectionSectionSolver
 {
     id supplementarySolver;
-    id layoutDirection;
-    id layoutOptions;
-    id options;
 }
 
 @end

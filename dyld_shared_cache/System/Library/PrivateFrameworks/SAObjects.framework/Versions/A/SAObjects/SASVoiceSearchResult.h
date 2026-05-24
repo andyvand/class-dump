@@ -6,37 +6,27 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSDictionary;
 
 @interface SASVoiceSearchResult : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (void);
 - (void);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDictionary *headers;
-@property(copy, nonatomic) NSData *result;
-@property(copy, nonatomic) NSString *searchType;
-@property(copy, nonatomic) NSNumber *statusCode;
-@property(readonly) Class superclass;
 
 @end
 

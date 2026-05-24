@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSFDERecordFDEClientMetadata, NSData, NSString;
+@class NSData;
 
 @interface CSFDERecord
 {
     NSData *_backupKeybagSHA256;
-    CSFDERecordFDEClientMetadata *_clientMetadata;
-    NSString *_timestamp;
 }
 
 + (id);
 - (void);
-- (_Bool);
+- (_Bool)R;
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ter. Request identifier = %{public}@, request = %@;
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)OfSpeech == %@ && ( word == 't\'' || string == 'tu' );
+- (_Bool)ActionItem"8;
 - (_Bool);
 - (void);
 - (void);
@@ -35,12 +33,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *backupKeybagSHA256; // @synthesize backupKeybagSHA256=_backupKeybagSHA256;
-@property(retain, nonatomic) CSFDERecordFDEClientMetadata *clientMetadata; // @synthesize clientMetadata=_clientMetadata;
-@property(readonly, nonatomic) _Bool hasBackupKeybagSHA256;
 @property(readonly, nonatomic) _Bool hasClientMetadata;
-@property(readonly, nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

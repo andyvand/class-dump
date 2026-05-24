@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
 + (id);
 - (double);
 - (void);
-- (void);
-- (id);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)24Q32@40@?48;
+- (id)copyIndexableMessageDictionariesWithLimit:(double)arg1 requireIndexableAttachments:(double)arg2 completionHandler: /* Error: Ran out of types for this method. */;
+- (id):(long long)arg1 service:(long long)arg2 containsOneTimeCode:fileTransferGUIDs:isEncrypted:completion: /* Error: Ran out of types for this method. */;
+- (double)_convertIMDHandleToDictionary: /* Error: Ran out of types for this method. */;
+- (void)pe:(long long)arg1 %lld, associatedMessageGUID:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (void)IMStickerMessagePipelineParameter %p> { guid:(long long)arg1 %@, assocatedMessageType:%lld, associatedMessageGUID:%@, timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (void)ld; trustKitSpamReport = %{BOOL}d>;
+- (void)@?0@"NSArray"8;
+- (void)s:(long long)arg1 ];
 
 // Remaining properties
 @property(nonatomic) double dwellTimeThreshold; // @synthesize dwellTimeThreshold=_dwellTimeThreshold;

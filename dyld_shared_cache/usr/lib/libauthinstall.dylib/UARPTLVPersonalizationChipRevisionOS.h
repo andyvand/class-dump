@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)slider:didUpdateFrame:forSliderMark: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned int chipRevision; // @synthesize chipRevision=_chipRevision;

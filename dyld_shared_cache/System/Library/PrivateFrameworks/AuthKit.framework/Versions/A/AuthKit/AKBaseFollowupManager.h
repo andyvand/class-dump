@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AKFollowUpItemFactory, AKFollowUpProvider;
+@protocol AKFollowUpItemFactory;
 
 @interface AKBaseFollowupManager
 {
     id <AKFollowUpItemFactory> _factory;
-    id <AKFollowUpProvider> _provider;
 }
 
 - (void);

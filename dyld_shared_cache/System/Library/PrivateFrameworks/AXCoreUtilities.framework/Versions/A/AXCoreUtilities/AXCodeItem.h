@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSMutableDictionary, NSString;
+@class NSBundle;
 
 @interface AXCodeItem
 {
     NSBundle *_cachedBundle;
-    struct {
-        unsigned int isDyldOpened:1;
-    } _flags;
-    unsigned long long _loadedAtTimestamp;
-    unsigned short _loadOrder;
-    long long _type;
-    NSMutableDictionary *_platformToTarget;
-    NSString *_name;
-    NSString *_path;
-    NSArray *_excludedProcesses;
-    AXCodeItem *_associatedAccessibilityCodeItem;
-    long long _targetType;
-    AXCodeItem *_targetCodeItem;
 }
 
 + (long long);
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -36,17 +23,17 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (unsigned short);
+- (unsigned short)C;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)"!L"@  ;
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (id);
@@ -63,19 +50,6 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) __weak AXCodeItem *associatedAccessibilityCodeItem; // @synthesize associatedAccessibilityCodeItem=_associatedAccessibilityCodeItem;
-@property(readonly, nonatomic) NSBundle *cachedBundle;
-@property(readonly, nonatomic) NSString *debugCodeTypeDescription;
-@property(retain, nonatomic) NSArray *excludedProcesses; // @synthesize excludedProcesses=_excludedProcesses;
-@property(readonly, nonatomic) _Bool isAccessibilityBundle;
-@property(nonatomic) _Bool isLoaded;
-@property(nonatomic) unsigned short loadOrder; // @synthesize loadOrder=_loadOrder;
-@property(readonly, nonatomic) unsigned long long loadedAtTimestamp;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSMutableDictionary *platformToTarget; // @synthesize platformToTarget=_platformToTarget;
-@property(nonatomic) __weak AXCodeItem *targetCodeItem; // @synthesize targetCodeItem=_targetCodeItem;
-@property(nonatomic) long long targetType; // @synthesize targetType=_targetType;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

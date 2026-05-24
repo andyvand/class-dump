@@ -4,6 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIBarButtonItem;
+
 @protocol _UIBarButtonItemViewOwner
 - (void);
 - (void)3P|þu»33¼wþe»33wþ;
@@ -11,9 +13,14 @@
 - (void)sþ;
 
 @optional
-- (_Bool)eSurface;
+- (void)__im_filteredRemoteMembers;
+- (_Bool)__im_dateWithNanosecondTimeIntervalSinceReferenceDate:(UIBarButtonItem *)arg1;
+- (void)__im_countMessageParts;
+- (UIBarButtonItem *)D;
+- (_Bool);
+- (_Bool)_UILightEffectProxiedEdgeSurface;
 - (_Bool)@;
-- (_Bool)izationStorage;
+- (_Bool)_UIWritingToolsCoordinatorVisualizationStorage;
 - (void);
 @end
 

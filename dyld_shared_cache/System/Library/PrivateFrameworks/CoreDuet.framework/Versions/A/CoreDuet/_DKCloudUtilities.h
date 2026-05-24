@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _DKThrottledActivity;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _DKCloudUtilities
 {
     NSObject<OS_dispatch_queue> *_fetchQueue;
-    _DKThrottledActivity *_activityThrottler;
-    _Bool _supportsDeviceToDeviceEncryption;
-    _Bool _isSingleDevice;
 }
 
 + (void);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (void);
 + (id)@40;
 + (_Bool)nding %{public}@];
 + (id)ibrary/PrivateFrameworks/KnowledgeMonitor.framework/Contents/MacOS/KnowledgeMonitor;
 + (_Bool)ò;
-- (void);
+- (void)J;
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -36,10 +33,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isCloudSyncAvailable;
 @property(readonly, nonatomic) _Bool isSingleDevice;
-@property(readonly, nonatomic) _Bool isSiriCloudSyncEnabled;
-@property(readonly, nonatomic) _Bool supportsDeviceToDeviceEncryption;
 
 @end
 

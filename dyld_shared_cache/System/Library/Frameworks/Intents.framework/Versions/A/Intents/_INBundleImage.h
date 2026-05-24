@@ -6,13 +6,12 @@
 
 #import <Intents/INImage.h>
 
-@class INImageBundle, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _INBundleImage : INImage
 {
     NSString *_imageName;
-    INImageBundle *_imageBundle;
 }
 
 + (_Bool);
@@ -22,27 +21,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)presentProximityPairingUIWithVerificationCode:completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
+- (id)"GCDeviceCollection";
+- (id);
+- (void)etwork is NULL;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id)!Ð@ùQ¿(1Â0@ù
 × ;
-- (void)etRadioStationIntentResponseCodeFailure;
+- (void)INSetRadioStationIntentResponseCodeFailure;
 
 // Remaining properties
-@property(copy, nonatomic) INImageBundle *imageBundle; // @synthesize imageBundle=_imageBundle;
 @property(copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
 
 @end

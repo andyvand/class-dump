@@ -7,7 +7,6 @@
 @interface ChatKit.TranscriptNavigationBarTitleView
 {
     id principalView;
-    id delegate;
 }
 
 - (struct CGSize);

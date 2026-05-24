@@ -11,26 +11,22 @@
 @interface IPFeatureData : IPFeature
 {
     NSMutableDictionary *_contextDictionary;
-    unsigned long long _type;
-    id _value;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
-- (unsigned long long);
+- (unsigned long long)<AAContactsIDSStatusDelegate>",W,N,V_delegate;
 - (id);
 - (void);
 - (void);
 - (id)NÃ_|;
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *contextDictionary; // @synthesize contextDictionary=_contextDictionary;
 @property unsigned long long type; // @synthesize type=_type;
-@property(retain) id value; // @synthesize value=_value;
 
 @end
 

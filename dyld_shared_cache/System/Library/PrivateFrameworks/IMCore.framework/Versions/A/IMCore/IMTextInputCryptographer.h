@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
+@class NSData, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMTextInputCryptographer
 {
     NSData *_deviceSalt;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *_cachedRecipientName;
-    NSString *_cachedRecipientDigest;
 }
 
 + (id);
-- (void);
+- (void)articipant audio is not enabled;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)So20IMDMessageTranslatorCXMT;
 - (void);
 - (void)T¾;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cachedRecipientDigest; // @synthesize cachedRecipientDigest=_cachedRecipientDigest;
-@property(copy, nonatomic) NSString *cachedRecipientName; // @synthesize cachedRecipientName=_cachedRecipientName;
-@property(readonly, nonatomic) NSData *deviceSalt;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
 
 @end

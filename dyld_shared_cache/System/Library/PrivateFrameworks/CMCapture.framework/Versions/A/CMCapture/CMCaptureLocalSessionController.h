@@ -4,46 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSessionConfiguration, FigCaptureSourceVideoFormat, NSArray, NSDictionary, NSMutableDictionary, NSMutableSet, NSNumber, NSObject, NSSet;
+@class NSNumber, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CMCaptureLocalSessionController
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_streamsBySinkID;
-    NSMutableSet *_activeVideoCameraSinkIDs;
-    struct OpaqueFigCaptureSession *_videoCameraCaptureSession;
-    NSNumber *_activeMaxFrameRate;
-    NSNumber *_activeMinFrameRate;
-    NSMutableSet *_activeVideoCameraOutputMetadataIdentifiers;
-    struct OpaqueFigCaptureSource *_videoCameraCaptureSource;
-    NSDictionary *_videoCameraCaptureSourceAttributes;
-    FigCaptureSessionConfiguration *_videoCameraCaptureSessionConfig;
-    NSArray *_videoCameraDeviceFormats;
-    FigCaptureSourceVideoFormat *_videoCameraActiveDeviceFormat;
-    _Bool _videoCameraCaptureSessionRunning;
-    struct OpaqueFigCaptureSession *_metadataCameraCaptureSession;
-    NSSet *_activeMetadataCameraMetadataIdentifiers;
-    NSDictionary *_activeMetadataCameraFaceTrackingAttributes;
-    struct OpaqueFigCaptureSource *_metadataCameraCaptureSource;
-    NSDictionary *_metadataCameraCaptureSourceAttributes;
-    FigCaptureSessionConfiguration *_metadataCameraCaptureSessionConfig;
-    FigCaptureSourceVideoFormat *_metadataDeviceFormat;
-    _Bool _metadataCameraCaptureSessionRunning;
-    _Bool _metadataCameraSinkIDActive;
-    _Atomic _Bool _invalidated;
-    id _availabilityChangedNotificationToken;
-    unsigned long long _frameTimeoutNotificationRegistrationCount;
-    _Bool _registeredForSystemStateChangeNotification;
 }
 
 + (void)Node.input pipelineStage:((void *)0)] /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -69,20 +44,17 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)allocTempFileWithBase:filename: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)identity tokens to %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *activeMaxFrameRate;
-@property(retain, nonatomic) NSNumber *activeMinFrameRate;
-@property(readonly, nonatomic) NSDictionary *metadataCameraSourceAttributes;
-@property(readonly, nonatomic) NSDictionary *videoCameraSourceAttributes;
 
 @end
 

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorTextMessage_MessageSummaryInfo
 {
     id textMessage_MessageSummaryInfo;
 }
 
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)l;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -23,14 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *associatedBalloonBundleID;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool hasBeenRetried;
-@property(nonatomic, readonly) _Bool has_hasBeenRetried;
-@property(nonatomic, readonly) _Bool has_updatedDateWithServerTime;
-@property(nonatomic, readonly) NSString *sourceApplicationID;
-@property(nonatomic, readonly) NSArray *translatedMessageParts;
-@property(nonatomic, readonly) _Bool updatedDateWithServerTime;
 
 @end
 

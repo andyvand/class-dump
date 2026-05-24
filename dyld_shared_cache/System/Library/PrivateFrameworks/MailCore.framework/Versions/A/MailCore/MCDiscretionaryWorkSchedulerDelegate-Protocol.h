@@ -5,5 +5,6 @@
 //
 
 @protocol MCDiscretionaryWorkSchedulerDelegate
+- (void)(;
 @end
 

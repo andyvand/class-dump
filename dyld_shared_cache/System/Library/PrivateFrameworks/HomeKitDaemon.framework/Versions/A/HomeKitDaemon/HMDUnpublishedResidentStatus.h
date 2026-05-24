@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeKitVersion, HMDPreferredResidentsList, HMDResidentSelectionInfo, NSDictionary, NSNumber, NSUUID;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDUnpublishedResidentStatus
 {
     _Bool _hasReachableAccessories;
-    HMDHomeKitVersion *_swVersion;
-    NSUUID *_generationID;
-    HMDPreferredResidentsList *_preferredResidentsList;
-    NSNumber *_locationRawValue;
-    HMDResidentSelectionInfo *_selectionInfo;
-    unsigned long long _networkConnectionType;
 }
 
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)n;
 - (id);
 - (unsigned long long);
+- (id)fetched from asset %@;
 - (id);
 - (id);
-- (id);
-- (void)ION_SENSOR_OCCUPANCY;
-- (id)DirectionEnum;
+- (void)BULLETIN_ACTION_SENSOR_OCCUPANCY;
+- (id)remoteMessageDirectionEnum;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *channelRecordPayload;
-@property(readonly, nonatomic) NSUUID *generationID; // @synthesize generationID=_generationID;
-@property(readonly, nonatomic) _Bool hasReachableAccessories; // @synthesize hasReachableAccessories=_hasReachableAccessories;
-@property(readonly, nonatomic) NSNumber *locationRawValue; // @synthesize locationRawValue=_locationRawValue;
-@property(readonly, nonatomic) unsigned long long networkConnectionType; // @synthesize networkConnectionType=_networkConnectionType;
-@property(readonly, nonatomic) HMDPreferredResidentsList *preferredResidentsList; // @synthesize preferredResidentsList=_preferredResidentsList;
-@property(readonly, nonatomic) HMDResidentSelectionInfo *selectionInfo; // @synthesize selectionInfo=_selectionInfo;
-@property(readonly, nonatomic) HMDHomeKitVersion *swVersion; // @synthesize swVersion=_swVersion;
 
 @end
 

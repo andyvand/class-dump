@@ -7,8 +7,6 @@
 @interface VoiceShortcutClient.XPCEncoder
 {
     id codingPath;
-    id userInfo;
-    id storage;
 }
 
 @end

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (id)htReceiver:(NSCoder *)arg1 deleteAllSearchableItemsWithBundleID:%{public}@ error sending deletion to ProactiveHarvesting:%@ /* Error: Ran out of types for this method. */;
+- (void)captureSession_beginDeferredGraphSetupAndWaitForCameraSourcesToStart;
 @end
 

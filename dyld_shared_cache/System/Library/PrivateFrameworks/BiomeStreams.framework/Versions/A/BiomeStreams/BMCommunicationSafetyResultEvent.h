@@ -4,38 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL;
-
 @interface BMCommunicationSafetyResultEvent
 {
     unsigned int _contentCount;
-    double _absoluteTimestamp;
-    NSString *_childID;
-    NSString *_deviceID;
-    NSString *_sourceBundleID;
-    unsigned long long _eventDirection;
-    unsigned long long _eventType;
-    unsigned long long _contentType;
-    NSArray *_contactHandles;
-    NSString *_contentID;
-    NSString *_conversationID;
-    NSString *_senderHandle;
-    NSURL *_contentURL;
-    NSURL *_conversationURL;
-    NSData *_imageData;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)-shift, assigning MAX index;
 + (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (unsigned long long);
-- (id);
+- (id))!;
 - (id);
 - (id);
 - (id);
@@ -43,53 +27,31 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)c;;
 - (double);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)mReportingConfiguration:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool);
+- (id);
+- (void)3;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id)_token;
-- (id)omeStreams17SQLDatabaseHandle;
-- (id)IKE_STORAGE;
-- (id)_used;
-- (unsigned long long);
+- (id)_TtC12BiomeStreams17SQLDatabaseHandle;
+- (id)PG_QUERY__TABLE_LIKE_OPTION__CREATE_TABLE_LIKE_STORAGE;
+- (id)sqlite_compileoption_used;
+- (unsigned long long)senderHandle;
 - (void);
 - (void)ÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿzìÿÿ·;
 
 // Remaining properties
 @property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, copy, nonatomic) NSString *childID; // @synthesize childID=_childID;
-@property(readonly, copy, nonatomic) NSArray *contactHandles; // @synthesize contactHandles=_contactHandles;
-@property(nonatomic) unsigned int contentCount; // @synthesize contentCount=_contentCount;
-@property(readonly, copy, nonatomic) NSString *contentID; // @synthesize contentID=_contentID;
-@property(nonatomic) unsigned long long contentType; // @synthesize contentType=_contentType;
-@property(readonly, copy, nonatomic) NSURL *contentURL; // @synthesize contentURL=_contentURL;
-@property(readonly, copy, nonatomic) NSString *conversationID; // @synthesize conversationID=_conversationID;
-@property(readonly, copy, nonatomic) NSURL *conversationURL; // @synthesize conversationURL=_conversationURL;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(nonatomic) unsigned long long eventDirection; // @synthesize eventDirection=_eventDirection;
-@property(nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(readonly, copy, nonatomic) NSString *senderHandle; // @synthesize senderHandle=_senderHandle;
-@property(readonly, copy, nonatomic) NSString *sourceBundleID; // @synthesize sourceBundleID=_sourceBundleID;
-@property(readonly) Class superclass;
 
 @end
 

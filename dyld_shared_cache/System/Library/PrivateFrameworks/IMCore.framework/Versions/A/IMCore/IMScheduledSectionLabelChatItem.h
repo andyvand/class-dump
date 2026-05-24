@@ -13,11 +13,11 @@
     IMScheduledSectionDateChatItem *dateChatItem;
 }
 
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
+- (void)tream;
+- (_Bool)ession change to muted[%d];
+- (id)gGroup=%u trialModelID=%@;
+- (id)reSinks;
+- (unsigned long long);
 - (_Bool);
 - (void)Hä® ¯¨ ;
 

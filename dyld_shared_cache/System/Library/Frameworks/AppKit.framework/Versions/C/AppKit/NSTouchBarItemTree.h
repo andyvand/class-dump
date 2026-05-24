@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSTouchBarItemTreeBarProviderNode, NSTouchBarItemTreeNode;
+@class NSArray, NSTouchBarItemTreeBarProviderNode;
 
 @interface NSTouchBarItemTree
 {
     NSTouchBarItemTreeBarProviderNode *_rootNode;
-    NSTouchBarItemTreeNode *_centeredRootNode;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)d;
++ (id)evaluate %p;
+- (id)DeviceSupportsSiriBargeIn;
+- (id)DeviceSupportsSingleDisplayEnhancedMultitasking;
+- (id)DeviceSupportsSimplisticRoadMesh;
+- (id)DeviceSupportsSideButtonClickSpeed;
+- (id)DeviceSupportsScandium;
 - (id);
 - (id);
 - (id);
@@ -33,10 +32,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)õ;
 - (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -44,22 +43,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)TPConnectionInfo"8;
+- (_Bool)le '%s' not created, %s failed, errno %d;
+- (id)e a CFDataRef of size %ld.;
 - (void);
 - (id);
-- (id)alue;
-- (id)didFailToRegisterForRemoteNotificationsWithError:(struct _NSZone *)arg1;
-- (id)onfiguration;
+- (id)propertyListValue;
+- (id)application:(struct _NSZone *)arg1 didFailToRegisterForRemoteNotificationsWithError: /* Error: Ran out of types for this method. */;
+- (id)_latestConfiguration;
 
 // Remaining properties
-@property(readonly, copy) NSArray *centeredLeafNodes;
-@property(readonly, copy) NSTouchBarItemTreeNode *centeredRootNode; // @synthesize centeredRootNode=_centeredRootNode;
-@property(readonly, copy) NSArray *layoutOrderedLeafNodes;
 @property(readonly, copy) NSArray *leafNodes;
-@property(readonly, copy) NSArray *prioritizedLeafNodes;
-@property(readonly, copy) NSTouchBarItemTreeBarProviderNode *rootNode; // @synthesize rootNode=_rootNode;
 
 @end
 

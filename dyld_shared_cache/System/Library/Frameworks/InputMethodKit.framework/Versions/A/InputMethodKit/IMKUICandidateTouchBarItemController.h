@@ -4,52 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidate, IMKCandidateListDictionary, IMKUICandidateItemLayout, IMKUICandidateLayoutTraits, IMKUICandidateLineLayout, IMKUICandidateLineLayoutIterator, IMKUIScrubberView, NSArray, NSString, NSViewController;
-@protocol IMKUICandidateControllerDelegate;
-
 @interface IMKUICandidateTouchBarItemController
 {
     double _annotationFontSize;
-    long long _annotationType;
-    IMKCandidateListDictionary *_candidateGroups;
-    id <IMKUICandidateControllerDelegate> _delegate;
-    double _fixedWidth;
-    IMKUICandidateItemLayout *_itemLayout;
-    IMKUICandidateLayoutTraits *_layoutTraits;
-    long long _lineIndex;
-    IMKUICandidateLineLayout *_lineLayout;
-    IMKUICandidateLineLayoutIterator *_lineLayoutIterator;
-    unsigned long long _numberOfFixedWidthCandidates;
-    IMKUIScrubberView *_scrubberView;
-    IMKCandidate *_selectedCandidate;
-    _Bool _showsChevron;
-    long long _style;
-    IMKUIScrubberView *_view;
-    NSViewController *_viewController;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*)q;
 - (struct CGSize);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (long long);
+- (void)geSoftwareInfoForDeviceWithIdentifier:(long long)arg1 ];
+- (long long)H;
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)R";
+- (void);
 - (void);
 - (void);
 - (void);
@@ -66,13 +47,13 @@
 - (id);
 - (void);
 - (double);
-- (void);
+- (void);
 - (double);
 - (long long);
 - (double);
 - (id);
 - (long long);
-- (id);
+- (id)audioSessionIDSet;
 - (id);
 - (id);
 - (void);
@@ -85,31 +66,7 @@
 - (void)<;
 
 // Remaining properties
-@property(nonatomic) double annotationFontSize; // @synthesize annotationFontSize=_annotationFontSize;
-@property(nonatomic) long long annotationType; // @synthesize annotationType=_annotationType;
-@property(retain, nonatomic) IMKCandidateListDictionary *candidateGroups; // @synthesize candidateGroups=_candidateGroups;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMKUICandidateControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double fixedWidth; // @synthesize fixedWidth=_fixedWidth;
-@property(nonatomic) double fontSize;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) IMKUICandidateItemLayout *itemLayout; // @synthesize itemLayout=_itemLayout;
-@property(retain, nonatomic) IMKUICandidateLayoutTraits *layoutTraits; // @synthesize layoutTraits=_layoutTraits;
 @property(nonatomic) long long lineIndex; // @synthesize lineIndex=_lineIndex;
-@property(retain, nonatomic) IMKUICandidateLineLayout *lineLayout; // @synthesize lineLayout=_lineLayout;
-@property(retain, nonatomic) IMKUICandidateLineLayoutIterator *lineLayoutIterator; // @synthesize lineLayoutIterator=_lineLayoutIterator;
-@property(nonatomic) unsigned long long numberOfFixedWidthCandidates; // @synthesize numberOfFixedWidthCandidates=_numberOfFixedWidthCandidates;
-@property(retain, nonatomic) IMKUIScrubberView *scrubberView; // @synthesize scrubberView=_scrubberView;
-@property(retain, nonatomic) IMKCandidate *selectedCandidate;
-@property(nonatomic) _Bool showsChevron; // @synthesize showsChevron=_showsChevron;
-@property(nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSViewController *viewController;
-@property(readonly, nonatomic) NSArray *visibleCandidates;
 
 @end
 

@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, UIView;
-@protocol WebAllowDenyPolicyListener;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIWebGeolocationChallengeData
 {
     NSString *_userVisibleDomain;
-    NSString *_token;
-    NSURL *_requestingURL;
-    UIView *_view;
-    id <WebAllowDenyPolicyListener> _listener;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (void)e°1Â0@ù
 × ;
-- (id)ntroller:sidebar:itemsForBeginningDragSession:tab: /* Error: Ran out of types for this method. */;
-- (void)ribute:(id)arg1;
-- (id)ForView;
-- (id)bilityPostReorderingAnnouncementForCurrentIndexPath:targetIndexPath:previousIndexPath: /* Error: Ran out of types for this method. */;
+- (id)_tabBarController:sidebar:itemsForBeginningDragSession:tab: /* Error: Ran out of types for this method. */;
+- (void)_layoutRelationForCanvasConnectionForAttribute:(id)arg1;
+- (id)_isFirstTouchForView;
+- (id)_accessibilityPostReorderingAnnouncementForCurrentIndexPath:targetIndexPath:previousIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <WebAllowDenyPolicyListener> listener; // @synthesize listener=_listener;
-@property(retain, nonatomic) NSURL *requestingURL; // @synthesize requestingURL=_requestingURL;
-@property(retain, nonatomic) NSString *token; // @synthesize token=_token;
 @property(retain, nonatomic) NSString *userVisibleDomain; // @synthesize userVisibleDomain=_userVisibleDomain;
-@property(retain, nonatomic) UIView *view; // @synthesize view=_view;
 
 @end
 

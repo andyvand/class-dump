@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)xt;
+- (void)qa;
+- (void)_context;
 
 // Remaining properties
 @property(nonatomic) __weak ICTTTextStorage *textStorage; // @synthesize textStorage=_textStorage;

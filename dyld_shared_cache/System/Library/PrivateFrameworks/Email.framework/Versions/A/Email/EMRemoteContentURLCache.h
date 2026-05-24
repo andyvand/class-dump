@@ -8,9 +8,9 @@
 {
 }
 
+- (void)all_lt;
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (void);
 
 @end

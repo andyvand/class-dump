@@ -6,15 +6,11 @@
 
 #import <MediaPlayer/MPRemoteCommandEvent.h>
 
-@class MPRemotePlaybackQueue, NSArray, NSString;
+@class NSArray;
 
 @interface MPInsertIntoPlaybackQueueCommandEvent : MPRemoteCommandEvent
 {
     NSArray *_supportedInsertionPositions;
-    long long _insertionPosition;
-    MPRemotePlaybackQueue *_playbackQueue;
-    NSString *_insertAfterContentItemID;
-    long long _destinationOffset;
 }
 
 - (long long);
@@ -24,13 +20,9 @@
 - (id);
 - (id);
 - (id);
-- (void)_MAPPING_MISSING__;
+- (void)__MPModelPropertyTVSeasonLibraryAddedDate__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) long long destinationOffset; // @synthesize destinationOffset=_destinationOffset;
-@property(readonly, nonatomic) NSString *insertAfterContentItemID; // @synthesize insertAfterContentItemID=_insertAfterContentItemID;
-@property(readonly, nonatomic) long long insertionPosition; // @synthesize insertionPosition=_insertionPosition;
-@property(readonly, nonatomic) MPRemotePlaybackQueue *playbackQueue; // @synthesize playbackQueue=_playbackQueue;
 @property(readonly, copy, nonatomic) NSArray *supportedInsertionPositions; // @synthesize supportedInsertionPositions=_supportedInsertionPositions;
 
 @end

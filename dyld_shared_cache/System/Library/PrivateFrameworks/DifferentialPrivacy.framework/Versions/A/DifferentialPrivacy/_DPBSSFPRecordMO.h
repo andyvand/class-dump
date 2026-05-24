@@ -13,14 +13,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) double creationDate; // @dynamic creationDate;
-@property(retain, nonatomic) NSString *key; // @dynamic key;
 @property(retain, nonatomic) NSString *privateValue; // @dynamic privateValue;
-@property(nonatomic) long long reportVersion; // @dynamic reportVersion;
-@property(nonatomic) long long segmentIndex; // @dynamic segmentIndex;
-@property(nonatomic) _Bool submitted; // @dynamic submitted;
-@property(retain, nonatomic) NSString *tableVersion; // @dynamic tableVersion;
-@property(nonatomic) _Bool verificationMode; // @dynamic verificationMode;
 
 @end
 

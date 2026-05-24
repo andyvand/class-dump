@@ -5,7 +5,7 @@
 //
 
 @protocol INSearchAlarmIntentResponseExport
-- (long long)nce;
+- (long long)hasSecondaryBalance;
 
 // Remaining properties
 @property(readonly) long long code;

@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface CPInterval
 {
     double left;
-    double right;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (double);
 - (double);
-- (void)r;
+- (void)extractedBorder;
 - (_Bool)UU/UUéUU*UUÃUU7UU3U£U£S&U¤U¤K,U§U§LU¨U¨=U©U©;UªUª
 ÕU«U«dU¬U¬¤U­U­A¨U®U®8U°U°ìU²U²K-U¶U¶æU¿U¿CåUÁUÁS'UÃUÃK.UÄUÄAUÅUÅ?UÆUÆK/UÇUÇxUÉUÉCæUËUËS(UÌUÌCçUÎUÎA©UÑUÑCèUÒUÒCâUÓUÓK0UÔUÔDU×UØS)UÚUÚ>UÛUÛK1UÜUÜBUÝUÝCéUÞUÞS+UßUß@UâUâCëUãUãUäUäCUéUéCíUìUìK2UîUîK3UñUñK4UöUöK5U÷U÷FUøUøK6UùUùKUýUýIUþUþHUÿUÿS,VVK7VVpVVCðVV8<V	V	EV
 V

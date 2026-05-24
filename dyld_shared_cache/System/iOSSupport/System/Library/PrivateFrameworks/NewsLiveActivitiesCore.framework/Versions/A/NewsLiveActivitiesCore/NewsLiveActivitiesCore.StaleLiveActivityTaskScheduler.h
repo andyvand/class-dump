@@ -7,6 +7,7 @@
 @interface NewsLiveActivitiesCore.StaleLiveActivityTaskScheduler
 {
     id liveActivityController;
+    id;
 }
 
 @end

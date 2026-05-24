@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLRouterSchemaNLRouterSubComponentHandleEnded, NLRouterSchemaNLRouterSubComponentHandleFailed, NLRouterSchemaNLRouterSubComponentHandleStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLRouterSchemaNLRouterSubComponentHandleContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NLRouterSchemaNLRouterSubComponentHandleStarted *_startedOrChanged;
-    NLRouterSchemaNLRouterSubComponentHandleEnded *_ended;
-    NLRouterSchemaNLRouterSubComponentHandleFailed *_failed;
-    SISchemaUUID *_traceId;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTraceId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -40,14 +30,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)';
+- (void)esWithReply:(id)arg1 failed! error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)PEM_X509_INFO_read;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -56,7 +46,7 @@
 - (id)0@ù
 × ;
 - (id),V_hasPnrodIntelligenceFlowResponseGenerationComponentSummary;
-- (id)dpointLatencyInfoReported: /* Error: Ran out of types for this method. */;
+- (id)setEndpointLatencyInfoReported: /* Error: Ran out of types for this method. */;
 - (void)Íç9Tl=ÿ;
 - (void)ä<°%q&;
 - (id)¨ÿ£¥²º';
@@ -64,17 +54,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) NLRouterSchemaNLRouterSubComponentHandleEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) NLRouterSchemaNLRouterSubComponentHandleFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLRouterSchemaNLRouterSubComponentHandleStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

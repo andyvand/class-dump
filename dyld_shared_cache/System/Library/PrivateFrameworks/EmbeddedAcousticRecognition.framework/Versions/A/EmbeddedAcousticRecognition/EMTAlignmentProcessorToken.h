@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EMTAlignmentProcessorToken
 {
     NSString *_text;
-    NSArray *_alignment;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)setPlaybackQueueLocation: /* Error: Ran out of types for this method. */;
+- (id)A;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *alignment; // @synthesize alignment=_alignment;
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

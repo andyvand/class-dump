@@ -7,10 +7,10 @@
 @class _INPBIntentMetadata;
 
 @protocol _INPBListCarsIntent
-- (_Bool)Applying;
+- (_INPBIntentMetadata *);
+- (_Bool)countOfVocabularyItemsAfterApplying;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

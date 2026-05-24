@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGRect);
-- (id);
-- (id);
-- (void);
+- (struct CGRect)kT61qoH1b/B1USWqjQ;
+- (id)Otw/w;
 - (id);
 - (void);
-- (void);
+- (id);
+- (void);
+- (void)lt pending;
 - (_Bool);
 - (void);
 

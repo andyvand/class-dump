@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @protocol TUConfiguration
+- (NSString *)!;
+- (unsigned long long)NSHTTPURLResponse"32@"NSURLRequest"40@?<v@?@"NSURLRequest">48;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long announceCalls;
-@property(readonly, nonatomic) NSURL *conversationLinkBaseURL;
-@property(readonly, nonatomic) NSString *conversationLinkBaseURLString;
-@property(readonly, nonatomic) _Bool simulateFatalPersistentStoreError;
-@property(readonly, nonatomic) _Bool simulateInternationalCall;
 @end
 

@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     NSUUID *_accessoryUUID;
 }
 
-+ (id);
++ (id){C;
 + (_Bool)H;H²Á;
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)onEventWithDatabaseID:(struct _NSZone *)arg1;
+- (id)findDurationEventWithDatabaseID:(struct _NSZone *)arg1;
 - (id)stream configuration:accessory reference is nil /* Error: Ran out of types for this method. */;
 - (id)for existing sent invite %@;
 - (void);

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPAudioPlayButtonTheme, LPPointUnit, LPSize;
+@class LPSize;
 
 __attribute__((visibility("hidden")))
 @interface LPAudioPlayButtonStyle
 {
     LPSize *_size;
-    LPPointUnit *_glyphSize;
-    LPAudioPlayButtonTheme *_defaultTheme;
-    LPAudioPlayButtonTheme *_appleMusicTheme;
-    LPAudioPlayButtonTheme *_podcastsTheme;
-    LPAudioPlayButtonTheme *_audioBookTheme;
-    LPAudioPlayButtonTheme *_lyricExcerptTheme;
 }
 
 - (id);
@@ -27,16 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)locale char(5) NOT NULL               );
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) LPAudioPlayButtonTheme *appleMusicTheme; // @synthesize appleMusicTheme=_appleMusicTheme;
-@property(readonly, retain, nonatomic) LPAudioPlayButtonTheme *audioBookTheme; // @synthesize audioBookTheme=_audioBookTheme;
-@property(readonly, retain, nonatomic) LPAudioPlayButtonTheme *defaultTheme; // @synthesize defaultTheme=_defaultTheme;
-@property(retain, nonatomic) LPPointUnit *glyphSize; // @synthesize glyphSize=_glyphSize;
-@property(readonly, retain, nonatomic) LPAudioPlayButtonTheme *lyricExcerptTheme; // @synthesize lyricExcerptTheme=_lyricExcerptTheme;
-@property(readonly, retain, nonatomic) LPAudioPlayButtonTheme *podcastsTheme; // @synthesize podcastsTheme=_podcastsTheme;
 @property(retain, nonatomic) LPSize *size; // @synthesize size=_size;
 
 @end

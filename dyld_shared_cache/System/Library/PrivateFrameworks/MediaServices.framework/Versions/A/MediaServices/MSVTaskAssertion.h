@@ -4,49 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSProcessAssertion, NSObject, NSString;
-@protocol OS_dispatch_source;
+@class NSString;
 
 @interface MSVTaskAssertion
 {
     NSString *_uuid;
-    NSString *_bundleID;
-    NSString *_subsystem;
-    int _pid;
-    NSObject<OS_dispatch_source> *_invalidationTimer;
-    _Bool _acquired;
-    double _startTime;
-    BKSProcessAssertion *_processAssertion;
-    NSString *_name;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)#;
+- (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)ranksWithLocales:cachedOnly: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (_Bool);
 - (unsigned int);
-- (id);
-- (CDUnknownBlockType);
+- (id);
+- (CDUnknownBlockType);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

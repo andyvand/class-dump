@@ -7,23 +7,18 @@
 @interface TUStateRestoreController
 {
     id timeWindow;
-    id store;
-    id anyNavigationHappenAfterBackground;
-    _Bool isStateRestorationFeatureEnabled;
-    id alwaysAllowStateRestoration;
 }
 
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
+- (void)@"AVContentKeyRequest"24@"NSError"32;
+- (id)targetsMaximumCachedAge;
+- (_Bool)channelSectionIDs;
 - (id);
 - (id);
 - (void)tBüÿ¸BüÿÐBüÿèBüÿ4CüÿCüÿ¤Cüÿ¼CüÿÔCüÿDüÿ$DüÿhDüÿ¨DüÿÀDüÿäDüÿüDüÿdEüÿEüÿ¬EüÿÄEüÿÜEüÿ4FüÿlFüÿFüÿFüÿÔFüÿìFüÿ0GüÿhGüÿHüÿxHüÿèHüÿÀIüÿJüÿÐJüÿ(Küÿ`KüÿxKüÿÜKüÿLüÿ4LüÿlLüÿLüÿàLüÿMüÿ<MüÿMüÿ¼MüÿNüÿOüÿ¨OüÿÀOüÿPüÿPPüÿÀPüÿÈQüÿ°RüÿSüÿSüÿ0TüÿpTüÿTüÿ¨TüÿUüÿ0Uüÿ¸UüÿVüÿVüÿ¨VüÿWüÿdWüÿ|WüÿWüÿ¬WüÿÄWüÿÜWüÿXüÿ<XüÿdXüÿÌXüÿäXüÿüXüÿYüÿäYüÿlZüÿ¬ZüÿÐZüÿèZüÿ[üÿ]üÿÐ]üÿ8^üÿP^üÿx^üÿ^üÿ¸^üÿ_üÿ´_üÿÌ_üÿä_üÿü_üÿ$`üÿ`üÿØ`üÿaüÿÄaüÿ(büÿhbüÿ büÿpcüÿÐcüÿdüÿpdüÿ¨düÿ;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isStateRestorationAllowed;
 @property(nonatomic, readonly) _Bool isStateRestorationFeatureEnabled; // @synthesize isStateRestorationFeatureEnabled;
 
 @end

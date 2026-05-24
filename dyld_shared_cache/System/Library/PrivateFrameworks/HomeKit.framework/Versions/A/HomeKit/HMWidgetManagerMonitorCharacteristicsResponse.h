@@ -9,16 +9,14 @@
 @interface HMWidgetManagerMonitorCharacteristicsResponse
 {
     NSDictionary *_valueByCharacteristicUniqueIdentifier;
-    NSDictionary *_reachabilityByAccessoryUniqueIdentifier;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)ssoryPayload;
+- (void)HMSetupAccessoryPayload;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *reachabilityByAccessoryUniqueIdentifier; // @synthesize reachabilityByAccessoryUniqueIdentifier=_reachabilityByAccessoryUniqueIdentifier;
 @property(readonly, copy) NSDictionary *valueByCharacteristicUniqueIdentifier; // @synthesize valueByCharacteristicUniqueIdentifier=_valueByCharacteristicUniqueIdentifier;
 
 @end

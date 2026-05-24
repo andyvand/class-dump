@@ -6,18 +6,12 @@
 
 #import <SwiftUI/SwiftUI.UIKitButtonBase.h>
 
-@class NSArray;
-@protocol _UIGestureRecognizerContainer;
-
 @interface SwiftUI.HostingUIButton : SwiftUI.UIKitButtonBase
 {
     id isPressed;
-    id childLayoutComputer;
-    id responder;
-    id host;
 }
 
-+ (_Bool);
++ (_Bool)c;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -30,18 +24,13 @@
 - (id);
 - (id);
 - (void)L,¬- /ø/X1L3;
-- (void)andOperation;
+- (void)CommandOperation;
 - (_Bool)®;
 - (id)Î;
 - (id)ins;
 
 // Remaining properties
-@property(nonatomic, readonly) id <_UIGestureRecognizerContainer> _parentGestureRecognizerContainer;
-@property(nonatomic, copy) NSArray *automationElements;
 @property(nonatomic) _Bool highlighted;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic) _Bool isAccessibilityElement;
-@property(nonatomic, readonly) CDUnknownBlockType swiftUI_accessibilityActivateBlock;
 
 @end
 

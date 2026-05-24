@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SARDNlOutcomeCandidate : SABaseClientBoundCommand
 {
@@ -17,14 +17,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *nlIntentHierarchyContainerProto;
-@property(copy, nonatomic) NSString *resultCandidateId;
 
 @end
 

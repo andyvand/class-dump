@@ -7,10 +7,10 @@
 @class INIntent;
 
 @interface UnknownClass (ShareExtension)
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)nails.cache.sqlite;
 - (id);
 
 // Remaining properties

@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface NSIBSortedEncodingMutableSet
 {
     NSMutableArray *storageArray;
-    CDUnknownBlockType comparator;
-    _Bool needsSorting;
 }
 
 - (void);
-- (id);
+- (id)BlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (void)};
+- (Class);
 - (void);
-- (Class);
-- (void);
-- (id)startAutoExpandingItemFlash;
-- (id)BoundingDivider;
+- (id)_startAutoExpandingItemFlash;
+- (id)NSWindowSectionControllerBoundingDivider;
 - (void);
 - (void)3000;
-- (unsigned long long)DismissAfterInvoking;
+- (unsigned long long)_NSQuickActionTouchBarDismissAfterInvoking;
 - (id)üØD;
 - (unsigned long long)(G;
 

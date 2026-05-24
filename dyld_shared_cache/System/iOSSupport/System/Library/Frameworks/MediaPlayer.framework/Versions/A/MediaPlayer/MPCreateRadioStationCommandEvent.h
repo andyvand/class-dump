@@ -6,24 +6,20 @@
 
 #import <MediaPlayer/MPRemoteCommandEvent.h>
 
-@class NSNumber, NSURL;
+@class NSURL;
 
 @interface MPCreateRadioStationCommandEvent : MPRemoteCommandEvent
 {
     _Bool _requestingPlaybackInitialization;
-    NSURL *_stationURL;
-    NSNumber *_privateListeningOverride;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void)erForCollectionWithPersistentID:groupingType: /* Error: Ran out of types for this method. */;
+- (void)multiverseIdentifierForCollectionWithPersistentID:groupingType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *privateListeningOverride; // @synthesize privateListeningOverride=_privateListeningOverride;
-@property(readonly, nonatomic, getter=isRequestingPlaybackInitialization) _Bool requestingPlaybackInitialization; // @synthesize requestingPlaybackInitialization=_requestingPlaybackInitialization;
 @property(readonly, nonatomic) NSURL *stationURL; // @synthesize stationURL=_stationURL;
 
 @end

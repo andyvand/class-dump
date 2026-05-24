@@ -8,9 +8,10 @@
 
 @interface RDMutex
 {
-    struct _opaque_pthread_mutex_t pthreadLock;
-    NSString *whoHasTheLock;
-    _Bool trackOwner;
+    struct _opaque_pthread_mutex_t {
+        long long __sig;
+        char __opaque[56];
+    } pthreadLock;
 }
 
 - (id);
@@ -18,7 +19,7 @@
 - (id);
 - (int);
 - (void);
-- (id);
+- (id)_fillGenericStatisticsWithGraph: /* Error: Ran out of types for this method. */;
 - (id);
 - (int);
 - (int);

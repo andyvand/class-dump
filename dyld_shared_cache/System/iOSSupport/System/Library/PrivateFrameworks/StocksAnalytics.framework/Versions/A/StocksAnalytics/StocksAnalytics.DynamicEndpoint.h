@@ -9,6 +9,7 @@
 @interface StocksAnalytics.DynamicEndpoint
 {
     id appConfigurationManager;
+    id;
 }
 
 - (id);
@@ -17,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSString *sharedContainerIdentifier;
 @property(nonatomic, readonly) NSURL *url;
 
 @end

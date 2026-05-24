@@ -11,23 +11,20 @@
     AVAssetResourceLoadingDataRequestInternal *_dataRequest;
 }
 
-- (void);
+- (void)?;
 - (long long);
-- (long long);
-- (id);
+- (long long)TB;
+- (id)+;
 - (id);
 - (struct __CFDictionary *);
 - (_Bool);
-- (id);
-- (void);
+- (id)jsonEncodedIntentSlotResolutionResult;
+- (void)tCardIdentifier;
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long currentOffset;
-@property(readonly, nonatomic) long long requestedLength;
 @property(readonly, nonatomic) long long requestedOffset;
-@property(readonly, nonatomic) _Bool requestsAllDataToEndOfResource;
 
 @end
 

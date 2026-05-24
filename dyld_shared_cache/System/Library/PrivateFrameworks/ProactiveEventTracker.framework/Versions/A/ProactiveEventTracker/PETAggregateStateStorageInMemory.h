@@ -11,7 +11,6 @@
 @interface PETAggregateStateStorageInMemory : PETAggregateStateStorage
 {
     NSMutableData *_data;
-    struct _opaque_pthread_mutex_t _lock;
 }
 
 - (void);

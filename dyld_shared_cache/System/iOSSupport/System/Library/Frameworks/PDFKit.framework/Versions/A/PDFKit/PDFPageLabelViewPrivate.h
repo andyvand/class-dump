@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PDFTimer, UILabel, _UIBackdropView;
+@class _UIBackdropView;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageLabelViewPrivate
 {
     _UIBackdropView *backdropView;
-    UILabel *label;
-    PDFTimer *visibilityTimer;
 }
 
 - (void);

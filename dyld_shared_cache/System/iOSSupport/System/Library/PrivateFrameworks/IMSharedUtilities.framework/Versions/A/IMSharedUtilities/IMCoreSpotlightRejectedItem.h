@@ -9,8 +9,6 @@
 @interface IMCoreSpotlightRejectedItem
 {
     NSString *_proposedDomain;
-    NSString *_proposedIdentifier;
-    long long _reason;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *proposedDomain; // @synthesize proposedDomain=_proposedDomain;
-@property(readonly, nonatomic) NSString *proposedIdentifier; // @synthesize proposedIdentifier=_proposedIdentifier;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
 
 @end
 

@@ -9,11 +9,6 @@
 @interface PLVideoAgent
 {
     PLXPCListenerOperatorComposition *_notification;
-    PLXPCListenerOperatorComposition *_cMVideoQueueListener;
-    PLXPCListenerOperatorComposition *_vTSessionListener;
-    PLXPCListenerOperatorComposition *_vTTileListener;
-    PLXPCListenerOperatorComposition *_cMVideoPlaybackListener;
-    PLXPCListenerOperatorComposition *_groupSessionListener;
 }
 
 + (id);
@@ -42,22 +37,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void)Ôá»Ð!AùÑ÷1Â0@ù
 × ;
-- (void)tAttentionServiceXPCListener: /* Error: Ran out of types for this method. */;
+- (void)setAttentionServiceXPCListener: /* Error: Ran out of types for this method. */;
 - (void)rToCxt:flushNwToTlc(559) cannot add 1 element to context /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) PLXPCListenerOperatorComposition *cMVideoPlaybackListener; // @synthesize cMVideoPlaybackListener=_cMVideoPlaybackListener;
-@property(retain) PLXPCListenerOperatorComposition *cMVideoQueueListener; // @synthesize cMVideoQueueListener=_cMVideoQueueListener;
-@property(retain) PLXPCListenerOperatorComposition *groupSessionListener; // @synthesize groupSessionListener=_groupSessionListener;
 @property(retain) PLXPCListenerOperatorComposition *notification; // @synthesize notification=_notification;
-@property(retain) PLXPCListenerOperatorComposition *vTSessionListener; // @synthesize vTSessionListener=_vTSessionListener;
-@property(retain) PLXPCListenerOperatorComposition *vTTileListener; // @synthesize vTTileListener=_vTTileListener;
 
 @end
 

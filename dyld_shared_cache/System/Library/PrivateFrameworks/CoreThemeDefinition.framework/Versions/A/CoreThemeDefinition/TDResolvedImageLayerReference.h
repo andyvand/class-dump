@@ -6,7 +6,7 @@
 
 #import <CoreThemeDefinition/TDAbstractLayerReference.h>
 
-@class TDFlattenedImageRenditionSpec, TDSimpleArtworkRenditionSpec;
+@class TDSimpleArtworkRenditionSpec;
 
 @interface TDResolvedImageLayerReference : TDAbstractLayerReference
 {
@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) TDSimpleArtworkRenditionSpec *reference; // @dynamic reference;
-@property(retain, nonatomic) TDFlattenedImageRenditionSpec *stack; // @dynamic stack;
 @end
 

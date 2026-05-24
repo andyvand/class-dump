@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)",&,N,V_containers;
++ (id),N,V_excludeDynamicResources;
 + (id)qÐ1Â0@ù
 × ;
 + (void)DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);

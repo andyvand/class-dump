@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImage, NSImageView, NSString;
+@class NSImageView;
 
 @interface AKLineStyleMenuViewItem
 {
     long long _tag;
-    _Bool _enabled;
-    long long _state;
-    NSImageView *_stateIndicatorView;
-    NSButton *_button;
 }
 
 - (id);
@@ -20,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)/;
 - (void);
 - (long long);
 - (long long);
@@ -30,18 +26,7 @@
 - (id)Picker"24@"NSArray"32;
 
 // Remaining properties
-@property(retain) NSButton *button; // @synthesize button=_button;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSImage *image;
-@property(nonatomic) long long state; // @synthesize state=_state;
 @property(retain) NSImageView *stateIndicatorView; // @synthesize stateIndicatorView=_stateIndicatorView;
-@property(readonly) Class superclass;
 
 @end
 

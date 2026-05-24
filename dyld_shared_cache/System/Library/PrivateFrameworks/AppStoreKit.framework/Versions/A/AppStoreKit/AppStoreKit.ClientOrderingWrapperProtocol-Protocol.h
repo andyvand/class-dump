@@ -5,5 +5,7 @@
 //
 
 @protocol AppStoreKit.ClientOrderingWrapperProtocol
+- (void)o;
+- (void);
 @end
 

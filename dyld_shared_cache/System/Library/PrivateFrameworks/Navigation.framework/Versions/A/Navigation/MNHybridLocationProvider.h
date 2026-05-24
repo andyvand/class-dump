@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNCoreLocationProvider, NSString;
-@protocol MNLocationProviderDelegate;
-
 @interface MNHybridLocationProvider
 {
     unsigned long long _mode;
-    double _distanceFilter;
-    double _nonLeechedDesiredAccuracy;
-    double _effectiveAccuracy;
-    MNCoreLocationProvider *_coreLocationProvider;
-    id <MNLocationProviderDelegate> _delegate;
 }
 
-- (void);
-- (void);
-- (_Bool);
+- (void)hb;
+- (void)*;
+- (_Bool)F;
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -35,9 +27,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long)/System/Library/PrivateFrameworks/ReplicatorEngine.framework/Versions/A/ReplicatorEngine;
+- (void)setAllowSameSplatRestoreVersion:(id)arg1;
+- (void)RecoveryOSManagerState;
 - (void);
 - (void);
 - (void);
@@ -45,18 +37,18 @@
 - (void)1Â0@ù
 × ;
 - (void)ceNetworkEvent"24;
-- (void)ointIndex: /* Error: Ran out of types for this method. */;
-- (void)dex: /* Error: Ran out of types for this method. */;
-- (id)Threshold;
-- (void)ationServiceProxy:(double)arg1 didArriveAtWaypoint:endOfLegIndex: /* Error: Ran out of types for this method. */;
-- (_Bool)eason: /* Error: Ran out of types for this method. */;
-- (void)tring;
-- (void)Dodgeball;
+- (void)setWaypointIndex: /* Error: Ran out of types for this method. */;
+- (void)setArrivedAtWaypoint:endOfLegIndex: /* Error: Ran out of types for this method. */;
+- (id)proximityThreshold;
+- (void)navigationServiceProxy:(double)arg1 didArriveAtWaypoint:endOfLegIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)forceDepartureWithReason: /* Error: Ran out of types for this method. */;
+- (void)UUIDString;
+- (void)FakeDodgeball;
 - (void);
 - (void)place of traces directory at path:%@. Please remove it. /* Error: Ran out of types for this method. */;
 - (void)lert:] /* Error: Ran out of types for this method. */;
 - (id)%s";
-- (double)ace_type;
+- (double):trace_type /* Error: Ran out of types for this method. */;
 - (int)ionSessionManager:didUpdateAlternateRoutes:] /* Error: Ran out of types for this method. */;
 - (double)South;
 - (void)t release.;
@@ -312,22 +304,7 @@ CREATE VIEW route_creation_actions_view AS
 - (void)¹ÔÔ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool coarseModeEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MNLocationProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double expectedGpsUpdateInterval;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int headingOrientation;
-@property(readonly, nonatomic) _Bool isAuthorized;
-@property(readonly, nonatomic) _Bool isTracePlayer;
 @property(nonatomic) unsigned long long mode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeScale;
-@property(readonly, nonatomic) unsigned long long traceVersion;
 
 @end
 

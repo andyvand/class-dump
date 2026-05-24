@@ -6,7 +6,7 @@
 
 #import <iTunesCloud/ICRadioResponse.h>
 
-@class ICRadioStationMetadata, NSArray, NSDate;
+@class ICRadioStationMetadata, NSDate;
 
 @interface ICRadioGetTracksResponse : ICRadioResponse
 {
@@ -22,10 +22,7 @@
 té4téötéîtévté /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *assetExpirationDate; // @synthesize assetExpirationDate=_assetExpirationDate;
 @property(readonly, nonatomic) ICRadioStationMetadata *stationMetadata;
-@property(readonly, nonatomic) long long tracklistActionType;
-@property(readonly, copy, nonatomic) NSArray *tracks;
 
 @end
 

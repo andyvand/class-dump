@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface CLSNSOperationsManager
 {
     struct os_unfair_recursive_lock_s _lock;
-    NSMutableArray *_operations;
 }
 
-- (void);
+- (void)ServicesProgramStop;
 - (id);
 - (void);
 - (unsigned long long);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CWFChannel, NSData, NSDate, NSDictionary, NSMutableDictionary, NSSet, NSString;
+@class NSMutableDictionary;
 
 @interface CWFBSS
 {
@@ -14,7 +14,7 @@
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (void)@9)	;
 - (id);
 - (void);
 - (id);
@@ -23,49 +23,49 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (_Bool)there is no action implementation!;
+- (id);
+- (void);
+- (void);
+- (id)2;
+- (void);
+- (void)availableSharingOptionsWithCompletion:(id)arg1;
+- (id);
+- (id);
+- (id);
+- (unsigned long long)Q;
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)|;
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)8(;
 - (id);
 - (id);
 - (long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)tionRefs;
 - (void);
 - (id);
-- (id)tting:requestParams:reply: /* Error: Ran out of types for this method. */;
-- (void)ation;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)setPrivateMACAddressModeSystemSetting:requestParams:reply: /* Error: Ran out of types for this method. */;
+- (void)CWFHostAPStation;
 - (id)list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('click', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox' && event.target.value == '') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:true}); }); await p; return p; /* Error: Ran out of types for this method. */;
 - (void)keydown', function(event){ let target = event.target; let selector = getSelectorPathForElement(target); let value = target.value; var capturedData = {}; if (selector && value){ capturedData[selector] = value; } resolve(capturedData); }, { once:(id)arg1 true }); document.addEventListener('keyup', function(event){ let target = event.target; let selector = getSelectorPathForElement(target); let value = target.value; var capturedData = {}; if (selector && value){ capturedData[selector] = value; } resolve(capturedData); }, { once:true }); document.addEventListener('input', function(event){ let target = event.target; let selector = getSelectorPathForElement(target); let value = target.value; var capturedData = {}; if (selector && value && (target.type.toLowerCase() != 'checkbox' || target.checked)){ capturedData[selector] = value; } resolve(capturedData); }, { once:true }); }); await p; return p; /* Error: Ran out of types for this method. */;
-- (id)ncelled;
+- (id)_wasCancelled;
 - (id)t"16;
 - (id)tworkSharingProviderC7NetworkV11CredentialsO14EAPCredentialsV17TTLSConfigurationV19InnerAuthenticationO16MschapCodingKeys33_06FE7286EE86D3BAB68533216BA86AE9LLO;
 - (id);
@@ -73,27 +73,7 @@
 - (void)°7ôÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *AWDLRealTimeModeTimestamp; // @dynamic AWDLRealTimeModeTimestamp;
-@property(copy, nonatomic) NSString *BSSID; // @dynamic BSSID;
-@property(copy, nonatomic) NSData *DHCPServerID; // @dynamic DHCPServerID;
-@property(copy, nonatomic) NSData *DHCPv6ServerID; // @dynamic DHCPv6ServerID;
-@property(copy, nonatomic) NSString *IPv4NetworkSignature; // @dynamic IPv4NetworkSignature;
-@property(copy, nonatomic) NSString *IPv6NetworkSignature; // @dynamic IPv6NetworkSignature;
-@property(copy, nonatomic) NSDictionary *OSSpecificAttributes; // @dynamic OSSpecificAttributes;
-@property(copy, nonatomic) CWFChannel *channel; // @dynamic channel;
-@property(copy, nonatomic) CWFChannel *colocated2GHzRNRChannel; // @dynamic colocated2GHzRNRChannel;
-@property(copy, nonatomic) CWFChannel *colocated5GHzRNRChannel; // @dynamic colocated5GHzRNRChannel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *internal; // @synthesize internal=_internal;
-@property(copy, nonatomic) NSDate *lastAssociatedAt; // @dynamic lastAssociatedAt;
-@property(copy, nonatomic) CLLocation *location; // @dynamic location;
-@property(readonly, copy, nonatomic) NSSet *properties; // @dynamic properties;
-@property(readonly) Class superclass;
 
 @end
 

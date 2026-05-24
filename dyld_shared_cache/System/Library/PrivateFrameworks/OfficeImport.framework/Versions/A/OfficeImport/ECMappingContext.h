@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface ECMappingContext
 {
     struct map<unsigned long, unsigned long, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, unsigned long>>> mIndexToMappedIndex;
-    NSMutableDictionary *mSheetNameToMappedIndex;
-    struct __CFDictionary *mObjectToMappingInfo;
-    NSMutableArray *mMappingInfos;
 }
 
 + (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id):(unsigned long long)arg1 qC;
 - (void *);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);

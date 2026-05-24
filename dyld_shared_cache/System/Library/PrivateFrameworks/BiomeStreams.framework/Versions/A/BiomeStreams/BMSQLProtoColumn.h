@@ -11,8 +11,6 @@
 @interface BMSQLProtoColumn : BMSQLColumn
 {
     NSArray *_fieldPath;
-    long long _protoDataType;
-    long long _convertedType;
 }
 
 + (id);
@@ -25,15 +23,13 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)6;
 - (_Bool);
 - (void)
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long convertedType; // @synthesize convertedType=_convertedType;
 @property(readonly, nonatomic) NSArray *fieldPath; // @synthesize fieldPath=_fieldPath;
-@property(readonly, nonatomic) long long protoDataType; // @synthesize protoDataType=_protoDataType;
 
 @end
 

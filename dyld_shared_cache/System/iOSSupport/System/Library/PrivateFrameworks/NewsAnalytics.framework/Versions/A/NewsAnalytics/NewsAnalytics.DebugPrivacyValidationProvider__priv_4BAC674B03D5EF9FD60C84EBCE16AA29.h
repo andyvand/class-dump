@@ -7,7 +7,6 @@
 @interface NewsAnalytics.DebugPrivacyValidationProvider__priv_4BAC674B03D5EF9FD60C84EBCE16AA29
 {
     id appConfig;
-    id privacyValidation;
 }
 
 @end

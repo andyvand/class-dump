@@ -6,22 +6,18 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSMutableDictionary, RTInterimPersistenceManager, RTInvocationDispatcher, RTPersistenceManager;
+@class RTInvocationDispatcher;
 
 @interface RTStore : RTService
 {
     RTInvocationDispatcher *_dispatcher;
-    unsigned long long _availability;
-    NSMutableDictionary *_contexts;
-    RTPersistenceManager *_persistenceManager;
-    RTInterimPersistenceManager *_interimPersistenceManager;
 }
 
-+ (_Bool);
-+ (id);
-+ (long long);
-+ (id);
-+ (id);
++ (_Bool)speak;
++ (id)fishEscrow;
++ (long long)o key for primary hsm secret;
++ (id)HKDF_SIV_GCM_HMAC_256;
++ (id)Bladerunner;
 - (void);
 - (void);
 - (void);
@@ -34,25 +30,25 @@
 - (void);
 - (id);
 - (id);
+- (void)ons/A/Network;
+- (void)__objc_methlist;
+- (void);
+- (void);
+- (void)dropHSM;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)t we have LRC keys in memory...;
+- (void)NULL;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)updateAuthorizationCredentials:token:forAccount: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -64,11 +60,7 @@
 - (void)Ë-Ê;
 
 // Remaining properties
-@property(nonatomic) unsigned long long availability; // @synthesize availability=_availability;
-@property(retain, nonatomic) NSMutableDictionary *contexts; // @synthesize contexts=_contexts;
 @property(retain, nonatomic) RTInvocationDispatcher *dispatcher; // @synthesize dispatcher=_dispatcher;
-@property(retain, nonatomic) RTInterimPersistenceManager *interimPersistenceManager; // @synthesize interimPersistenceManager=_interimPersistenceManager;
-@property(retain, nonatomic) RTPersistenceManager *persistenceManager; // @synthesize persistenceManager=_persistenceManager;
 
 @end
 

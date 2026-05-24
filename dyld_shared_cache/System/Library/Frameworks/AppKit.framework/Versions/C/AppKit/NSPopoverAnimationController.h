@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopover, NSString, NSView;
+@class NSPopover;
 
 @interface NSPopoverAnimationController
 {
     NSPopover *_popover;
-    unsigned long long _preferredEdge;
-    NSView *_anchorView;
-    struct CGRect _positioningRect;
-    id _reserved2;
-    unsigned int _reservedPopoverFlags:32;
 }
 
 + (id);
@@ -25,25 +20,15 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)checked_didReceiveData_withCB;
+- (void)@;
 - (struct CGRect);
-- (id);
+- (id)Ci42Ci4aCi4cCi4eCi4iCi4oCi4sCi4t.i4;
 - (void);
 - (void)X\ó?;
 
 // Remaining properties
-@property __weak NSView *anchorView; // @synthesize anchorView=_anchorView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSPopover *popover; // @synthesize popover=_popover;
-@property struct CGRect positioningRect; // @synthesize positioningRect=_positioningRect;
-@property unsigned long long preferredEdge; // @synthesize preferredEdge=_preferredEdge;
-@property(readonly) Class superclass;
 
 @end
 

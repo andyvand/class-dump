@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSArray, NSDictionary;
-@protocol NSTextPhraseAttributesProvider;
+@class NSArray;
 
 @interface NSTextPhraseAnimationController
 {
     NSArray *_animatingAttributedStringPhrases;
-    long long _animationState;
-    unsigned long long _frameRequestCount;
-    double _startTime;
-    double _lastFrameTime;
-    id <NSTextPhraseAttributesProvider> _attributesProvider;
-    NSDictionary *_defaultAttributes;
-    CDUnknownBlockType _completionHandler;
-    CADisplayLink *_animationDisplayLink;
 }
 
 - (void);
@@ -25,9 +16,9 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)1;
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -42,24 +33,16 @@
 - (long long);
 - (double);
 - (void);
+- (void)@;
 - (void);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *animatingAttributedStringPhrases; // @synthesize animatingAttributedStringPhrases=_animatingAttributedStringPhrases;
-@property(retain) CADisplayLink *animationDisplayLink; // @synthesize animationDisplayLink=_animationDisplayLink;
-@property long long animationState; // @synthesize animationState=_animationState;
-@property(retain) id <NSTextPhraseAttributesProvider> attributesProvider; // @synthesize attributesProvider=_attributesProvider;
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy) NSDictionary *defaultAttributes; // @synthesize defaultAttributes=_defaultAttributes;
 @property unsigned long long frameRequestCount; // @synthesize frameRequestCount=_frameRequestCount;
-@property double lastFrameTime; // @synthesize lastFrameTime=_lastFrameTime;
-@property double startTime; // @synthesize startTime=_startTime;
 
 @end
 

@@ -9,7 +9,7 @@
 }
 
 + (id);
-- (void)RepairBatchCountLimit:(id)arg1;
+- (void)setAssetRepairSchedulerRepairBatchCountLimit:(id)arg1;
 
 @end
 

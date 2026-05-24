@@ -6,17 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSLayoutConstraint, NSString, UIAccessibilityHUDItem, UIVectorLabel, _UIStatusBarStringView;
-
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarCellularNetworkTypeView : UIView
 {
     _Bool _animatingUpdate;
-    long long _type;
-    _UIStatusBarStringView *_stringView;
-    UIVectorLabel *_prefixLabel;
-    UIVectorLabel *_accessoryLabel;
-    NSLayoutConstraint *_widthConstraint;
 }
 
 - (id);
@@ -25,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)Block: /* Error: Ran out of types for this method. */;
+- (void)eProcessingPipelineComponent> Started processing for Message GUID:(id)arg1 %@;
+- (void)as a non error case;
 - (void);
 - (void);
 - (id);
 - (long long);
-- (id)mSizeForHorizontalLayout:(struct CGRect)arg1;
+- (id)_itemSizeForHorizontalLayout:(struct CGRect)arg1;
 - (void)"UISDeviceContext",R,N;
 - (id)he import handler when either the document has been created or the request has been canceled. Browser view controller:%@ /* Error: Ran out of types for this method. */;
 - (void);
@@ -40,38 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(retain, nonatomic) UIVectorLabel *accessoryLabel; // @synthesize accessoryLabel=_accessoryLabel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) UIVectorLabel *prefixLabel; // @synthesize prefixLabel=_prefixLabel;
-@property(retain, nonatomic) _UIStatusBarStringView *stringView; // @synthesize stringView=_stringView;
-@property(readonly) Class superclass;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) NSLayoutConstraint *widthConstraint; // @synthesize widthConstraint=_widthConstraint;
 
 @end
 

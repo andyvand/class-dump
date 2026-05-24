@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPPadding, LPPointUnit, LPTextRowStyle;
+@class LPPointUnit;
 
 __attribute__((visibility("hidden")))
 @interface LPVerticalTextStackViewStyle
 {
     _Bool _shouldAlignToBaselines;
-    _Bool _shouldApplyFallbackFontForTruncatedSingleLine;
-    unsigned int _maximumNumberOfLines;
-    LPPointUnit *_firstLineLeading;
-    LPPointUnit *_lastLineDescent;
-    LPTextRowStyle *_aboveTopCaption;
-    LPTextRowStyle *_topCaption;
-    LPTextRowStyle *_bottomCaption;
-    LPTextRowStyle *_belowBottomCaption;
-    LPPadding *_captionTextPadding;
-    LPPadding *_emailCompatibleMargin;
 }
 
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -35,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -44,17 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) LPTextRowStyle *aboveTopCaption; // @synthesize aboveTopCaption=_aboveTopCaption;
-@property(readonly, nonatomic) LPTextRowStyle *belowBottomCaption; // @synthesize belowBottomCaption=_belowBottomCaption;
-@property(readonly, nonatomic) LPTextRowStyle *bottomCaption; // @synthesize bottomCaption=_bottomCaption;
-@property(readonly, retain, nonatomic) LPPadding *captionTextPadding; // @synthesize captionTextPadding=_captionTextPadding;
-@property(readonly, retain, nonatomic) LPPadding *emailCompatibleMargin; // @synthesize emailCompatibleMargin=_emailCompatibleMargin;
 @property(retain, nonatomic) LPPointUnit *firstLineLeading; // @synthesize firstLineLeading=_firstLineLeading;
-@property(retain, nonatomic) LPPointUnit *lastLineDescent; // @synthesize lastLineDescent=_lastLineDescent;
-@property(nonatomic) unsigned int maximumNumberOfLines; // @synthesize maximumNumberOfLines=_maximumNumberOfLines;
-@property(nonatomic) _Bool shouldAlignToBaselines; // @synthesize shouldAlignToBaselines=_shouldAlignToBaselines;
-@property(nonatomic) _Bool shouldApplyFallbackFontForTruncatedSingleLine; // @synthesize shouldApplyFallbackFontForTruncatedSingleLine=_shouldApplyFallbackFontForTruncatedSingleLine;
-@property(readonly, nonatomic) LPTextRowStyle *topCaption; // @synthesize topCaption=_topCaption;
 
 @end
 

@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)id remove duplicate custom property definitions in store;
 
 @end
 

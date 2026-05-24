@@ -13,20 +13,20 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (double);
-- (struct UIEdgeInsets);
-- (id);
-- (id);
-- (void);
+- (_Bool)tryToRepairCallerID:forIDSAccount: /* Error: Ran out of types for this method. */;
+- (double)initWithMemberStatus:forHandle:fromHandle:unformattedNumber:countryCode:forChat:style:account:destinationCallerID: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)initWithMemberStatus:forHandle:fromHandle:unformattedNumber:countryCode:forChat:style: /* Error: Ran out of types for this method. */;
+- (id)im_enqueuiMessageBlock:(id)arg1 withTimeout:description: /* Error: Ran out of types for this method. */;
+- (id)im_enqueuSMSBlock:(id)arg1 withTimeout:description: /* Error: Ran out of types for this method. */;
+- (void)torage:(id)arg1;
 - (void);
 - (struct CATransform3D);
 - (_Bool);
 - (double);
 - (double);
-- (struct CGSize);
+- (struct CGSize)@;
 - (struct CATransform3D);
-- (double);
+- (double)"libraryAdded"b1"keepLocalEnableState"b1"keepLocalManagedStatus"b1"keepLocalManagedStatusReason"b1"keepLocalConstraints"b1"curatorPlaylist"b1"owner"b1"publicPlaylist"b1"visiblePlaylist"b1"subscribed"b1"userEditableComponents"b1"shareURL"b1"shareShortURL"b1"descriptionText"b1"cloudVersionHash"b1"traits"b1"versionHash"b1"isFavorite"b1"isDisliked"b1"dateFavorited"b1"favoriteSongsPlaylist"b1"coverArtworkRecipe"b1"collaborative"b1"collaborationSharingMode"b1"collaborationMode"b1"collaboratorPermissions"b1"collaborationInvitationURL"b1"collaborationInvitationURLExpirationDate"b1"collaborationJoinRequestIsPending"b1"collaboratorStatus"b1"storeRedownloadable"b1"isPinned"b1"hasAnyCleanTracks"b1"hasAnyCleanDownloadedTracks"b1"isLibraryAdded"b1"curator"{?="identifiers"b1"name"b1"handle"b1}};
 - (double)0@ù
 × ;
 - (double)1Â0@ù
@@ -34,17 +34,14 @@
 - (double)Ô ;
 - (void)
 × ;
-- (id)etShowsAlpha: /* Error: Ran out of types for this method. */;
-- (double)estsFirstResponderResignation:(struct CGSize)arg1;
-- (double)hlightedRange:inDocument: /* Error: Ran out of types for this method. */;
-- (struct CGSize)oundBlurEffect;
+- (id)setShowsAlpha: /* Error: Ran out of types for this method. */;
+- (double)_textFormattingRequestsFirstResponderResignation:(struct CGSize)arg1;
+- (double)_setHighlightedRange:inDocument: /* Error: Ran out of types for this method. */;
+- (struct CGSize)__titleForBackgroundBlurEffect;
 - (double)xPath *__strong, UITableViewCell *__strong, UIView *__strong, UISwipeOccurrence *__strong, UIColor *__strong, void (^__strong)(BOOL), void (^__strong)(BOOL))_block_invoke;
 
 // Remaining properties
 @property(readonly, nonatomic) double columnHighlightCornerRadius;
-@property(nonatomic) _Bool highlightViewIsOverlay; // @synthesize highlightViewIsOverlay=_highlightViewIsOverlay;
-@property(readonly, nonatomic) double labelSideOffset;
-@property(readonly, nonatomic) double selectionBarSideInset;
 
 @end
 

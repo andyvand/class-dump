@@ -7,10 +7,9 @@
 @protocol MPCVocalAttenuationPolicyDelegate;
 
 @protocol MPCVocalAttenuationPolicy
+- (id <MPCVocalAttenuationPolicyDelegate>);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canBeReset;
-@property(readonly, nonatomic) __weak id <MPCVocalAttenuationPolicyDelegate> delegate;
 @property(readonly, nonatomic) long long type;
 @end
 

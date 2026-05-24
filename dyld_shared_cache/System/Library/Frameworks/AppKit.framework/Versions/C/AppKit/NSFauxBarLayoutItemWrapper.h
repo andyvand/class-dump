@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol _NSTouchBarItemLayoutWrapper;
 
 __attribute__((visibility("hidden")))
 @interface NSFauxBarLayoutItemWrapper
 {
     NSObject<_NSTouchBarItemLayoutWrapper> *_backingItem;
-    _Bool _isCentered;
 }
 
 - (_Bool);
@@ -19,13 +18,13 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGSize);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)RecursiveLock";
 - (struct CGSize);
 - (struct CGSize);
 - (id);
+- (double)ntTypeWithData():(struct CGSize)arg1 Already sniffed, or no response to work;
 - (double);
-- (double);
-- (_Bool);
+- (_Bool)x;
 - (_Bool);
 - (id);
 - (struct CGSize);
@@ -37,53 +36,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSObject<_NSTouchBarItemLayoutWrapper> *backingItem;
-@property(readonly) struct CGSize compressedMinSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) struct CGSize contentClippingSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isSpace;
-@property(readonly) _Bool isTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long itemPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) struct CGSize maxSize;
-@property(readonly) struct CGSize minSize;
-@property(readonly) _Bool participatesInOverflow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) struct CGSize preferredSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) double preferredTrailingPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double preferredZOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) long long priorityIndex;
-@property(readonly) Class superclass;
-@property(readonly) _Bool wantsToBeCentered;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

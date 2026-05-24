@@ -6,35 +6,29 @@
 
 #import <FinderKit/FI_TButton.h>
 
-@class NSView;
-
 __attribute__((visibility("hidden")))
 @interface FI_TMouseOverButton : FI_TButton
 {
     struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _observers;
-    struct vector<std::pair<MouseState, TMouseOverButtonTransition>, std::allocator<std::pair<MouseState, TMouseOverButtonTransition>>> fMouseOverTransitions;
-    int _mouseState;
-    NSView *_axProxy;
-    function_447c01cc _anchorPointUpdater;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)?%@qa;
 - (void);
 - (void);
 - (void);
 - (void);
 - (int);
 - (void);
-- (function_447c01cc);
+- (function_5300ac5b);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)setAutoresizingMask:(id)arg1;
+- (id)setAutomaticallySummarizeMessages: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -50,8 +44,6 @@ __attribute__((visibility("hidden")))
 - (void)ÿ÷¬a;
 
 // Remaining properties
-@property(nonatomic) function_447c01cc anchorPointUpdater; // @synthesize anchorPointUpdater=_anchorPointUpdater;
-@property(retain, nonatomic) NSView *axProxy; // @synthesize axProxy=_axProxy;
 @property(nonatomic) int mouseState; // @synthesize mouseState=_mouseState;
 
 @end

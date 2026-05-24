@@ -7,6 +7,9 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void)	@�};
+- (void)!;
 - (void)ld-version;
 - (void)pPlaceholderPath;
 @end

@@ -7,31 +7,17 @@
 @class NSDate, NSString;
 
 @protocol PGGraphIngestMoment
-- (unsigned long long)alGroupsVersion:simulateMeNodeNotSet:validGroupsBlock:invalidGroupsBlock:averageWeight: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)__DATA_CONST;
+- (_Bool)rver>";
+- (double)setReadingElement: /* Error: Ran out of types for this method. */;
+- (NSString *)initWithListener: /* Error: Ran out of types for this method. */;
+- (double)_updateLineIndexForElement:withElementInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateBatteryStatusIfNeeded;
+- (_Bool)_totalCharacterCount:exceedsLimit: /* Error: Ran out of types for this method. */;
+- (unsigned long long)enumerateSocialGroupsIncludingMeNode:socialGroupsVersion:simulateMeNodeNotSet:validGroupsBlock:invalidGroupsBlock:averageWeight: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsBetterScoringAsset;
-@property(readonly, nonatomic) _Bool containsNonJunkAssets;
-@property(readonly, nonatomic) double contentScore;
-@property(readonly, nonatomic) NSString *encodedCLIPFeatureVector;
-@property(readonly, nonatomic) double facesProcessedRatio;
-@property(readonly, nonatomic) _Bool happensAtSensitiveLocation;
-@property(readonly, nonatomic) _Bool hasAssetsWithInterestingScenes;
-@property(readonly, nonatomic) _Bool hasHigherThanImprovedAssets;
-@property(readonly, nonatomic) double inhabitationScore;
-@property(readonly, nonatomic) _Bool isInteresting;
-@property(readonly, nonatomic) _Bool isInterestingWithAlternateJunking;
-@property(readonly, nonatomic) _Bool isSmartInteresting;
-@property(readonly, nonatomic) NSDate *localEndDate;
 @property(readonly, nonatomic) NSDate *localStartDate;
-@property(readonly, nonatomic) unsigned long long numberOfAssetsInExtendedCuration;
-@property(readonly, nonatomic) unsigned long long numberOfItems;
-@property(readonly, nonatomic) unsigned long long numberOfItemsWithPersons;
-@property(readonly, nonatomic) double scenesProcessedRatio;
-@property(readonly, nonatomic) unsigned short sharingComposition;
-@property(readonly, nonatomic) unsigned long long totalNumberOfPersons;
-@property(readonly, nonatomic) NSDate *universalEndDate;
-@property(readonly, nonatomic) NSDate *universalStartDate;
-@property(readonly, nonatomic) NSString *uuid;
 @end
 

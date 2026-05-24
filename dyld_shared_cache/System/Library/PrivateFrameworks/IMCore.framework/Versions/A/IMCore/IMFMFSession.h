@@ -4,74 +4,70 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMFSession, IMFindMyDevice, NSString;
+@class FMFSession, IMFindMyDevice;
 
 @interface IMFMFSession
 {
     FMFSession *_session;
-    IMFindMyDevice *_activeDevice;
-    NSString *_establishingAccountID;
-    id _fmlSession;
-    unsigned long long _fmfProvisionedState;
 }
 
 + (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)articipant audio already set to enabled[%d];
+- (void)stream=%@;
+- (void)am=%d, error=%@;
+- (void)oStream [%s] %s:(id)arg1 %d stream=%@, didStartStream=%d, error=%@;
+- (void)teVideoConfiguration [%d];
+- (void)ified client %p of didPause [%d];
+- (void)(%p) didSucceed=%d, error=%@;
+- (void)eoStream [%s] %s:(id)arg1 %d @:(long long)arg2 @ AVCVideoStream-didPause (%p) didSucceed=%d, error=%@;
+- (void)lSession [%s] %s:(unsigned long long)arg1 %d Provided playout time is NULL;
+- (void)d [AR_RX] remoteScreenAttributes=%@;
+- (void)h buffer for connection stats;
+- (_Bool)meter 'stream' should not be NULL;
+- (void)SamplesTS=%u samples=%d sampleCount=%d;
+- (void)for implicit erasure. originalInputSamplesTS=%u samples=%d sampleCount=%d;
+- (void)reamToken:%@, %@ /* Error: Ran out of types for this method. */;
+- (_Bool)s:%d %@(%p) Setting audioTxBitrate to %d, %d audio + %d ((%d/%d+%d)*%d/%d) header for mode=%d /* Error: Ran out of types for this method. */;
+- (_Bool)ioTransmitter[%p] Codec rate mode change requested for payload=%u:(id)arg1 mode=%u bitrate=%u;
+- (_Bool)u:(id)arg1 mode=%u bandwidth=%u;
+- (void)et, possible corruption;
+- (void)eue:(id)arg1 Too many frames seen in audio packet, possible corruption;
+- (unsigned long long)for metadata;
+- (id)for left pixel buffer;
+- (id)s:(id)arg1 %d Failed to create tagCollection for pixel buffer at channel index=%d;
+- (id)talJBLossCount=%u totalFramesPlayed=%u jitterBufferMode=%u);
+- (id)acketsReceived=%u, packetsLost=%u, totalJBLossCount=%u totalFramesPlayed=%u jitterBufferMode=%u);
+- (id)rrivalJitter=%u, jitterBufferLossRate=%f, packetsReceived=%u, packetsLost=%u, totalJBLossCount=%u totalFramesPlayed=%u jitterBufferMode=%u);
+- (id)ime=%f, maxInterArrivalJitter=%u, averageInterArrivalJitter=%u, jitterBufferLossRate=%f, packetsReceived=%u, packetsLost=%u, totalJBLossCount=%u totalFramesPlayed=%u jitterBufferMode=%u);
+- (id)ePacketLifetime=%f, maxPacketLifetime=%f, maxInterArrivalJitter=%u, averageInterArrivalJitter=%u, jitterBufferLossRate=%f, packetsReceived=%u, packetsLost=%u, totalJBLossCount=%u totalFramesPlayed=%u jitterBufferMode=%u);
+- (_Bool)ate=%f, speechTimescaleRate=%f, silenceTimescaleRate=%f, averagePacketLifetime=%f, maxPacketLifetime=%f, maxInterArrivalJitter=%u, averageInterArrivalJitter=%u, jitterBufferLossRate=%f, packetsReceived=%u, packetsLost=%u, totalJBLossCount=%u totalFramesPlayed=%u jitterBufferMode=%u);
+- (_Bool)mpleRate=%d, bitRate=%d, ratType=%d, timescaleRate=%f, speechTimescaleRate=%f, silenceTimescaleRate=%f, averagePacketLifetime=%f, maxPacketLifetime=%f, maxInterArrivalJitter=%u, averageInterArrivalJitter=%u, jitterBufferLossRate=%f, packetsReceived=%u, packetsLost=%u, totalJBLossCount=%u totalFramesPlayed=%u jitterBufferMode=%u);
+- (id)iver [%s] %s:%d [%p] /* Error: Ran out of types for this method. */;
+- (_Bool)ing torn down;
+- (void)trics:(id)arg1 audioReceiver is nil;
+- (_Bool)or=%d, connection=%@;
+- (_Bool), _maxAllowedBitrateWifi = %d;
+- (_Bool)lowedBitrateLTE = %d, _maxAllowedBitrateHighRat = %d, _maxAllowedBitrateWifi = %d;
+- (_Bool)'%@' sends un-encrypted messages. Dropping un-encrypted message. FIX ENCRYPTION INCONSYSTENCY!!!);
+- (_Bool)essage encryption is enabled but remote participant '%@' sends un-encrypted messages. Dropping un-encrypted message. FIX ENCRYPTION INCONSYSTENCY!!!);
+- (void)tEnableLoopbackInterfaceBlock=%d;
+- (void)ting it...;
+- (void)instance of NAT64Resolver does not exist. Creating it...;
+- (void)%s:(id)arg1 %d VCNAT64ResolverGetSharedInstance:(id)arg2 shared instance of NAT64Resolver does not exist. Creating it...;
+- (void)fix:(id)arg1 could not create a shared instance of NAT64Resolver;
+- (void)l:(id)arg1 nothing to deregister;
+- (void)has already been registered for interface %s;
+- (void)lityDegradedMessage message is invalid;
+- (id)switch iRATDuplicationEnabled %d;
+- (_Bool)ate with devices that do not support one to one mode;
+- (id)chTime=%f switchingToOneToOne=%d;
+- (id)] %s:(id)arg1 %d %@(%p) Failed to allocate 1:1 media controller /* Error: Ran out of types for this method. */;
+- (Class)he endpoints array;
 - (Class);
-- (Class);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)or NACK;
+- (id)%d;
+- (id)(%p) %@ streamToken=%u;
+- (void)%@(%p) Resuming group. groupEntries=%@;
 - (void);
 - (void);
 - (void);
@@ -97,19 +93,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IMFindMyDevice *activeDevice; // @synthesize activeDevice=_activeDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool disableLocationSharing;
-@property(retain, nonatomic) NSString *establishingAccountID; // @synthesize establishingAccountID=_establishingAccountID;
-@property(nonatomic) unsigned long long fmfProvisionedState; // @synthesize fmfProvisionedState=_fmfProvisionedState;
-@property(retain, nonatomic) id fmlSession; // @synthesize fmlSession=_fmlSession;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool restrictLocationSharing;
-@property(retain, nonatomic) FMFSession *session; // @synthesize session=_session;
-@property(readonly) Class superclass;
 
 @end
 

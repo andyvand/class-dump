@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CUIKIcon)
-- (id)	;
+- (id);
 - (id);
 @end
 

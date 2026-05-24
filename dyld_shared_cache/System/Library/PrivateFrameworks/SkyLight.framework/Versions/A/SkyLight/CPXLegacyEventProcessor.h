@@ -4,45 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPXNotificationCenter, NSString;
-@protocol CPXCallbackScheduling, CPXFocusManaging, CPXProcessManaging, CPXSymbolicHotKeyRegistry;
+@protocol CPXProcessManaging;
 
 __attribute__((visibility("hidden")))
 @interface CPXLegacyEventProcessor
 {
     id <CPXProcessManaging> _processManager;
-    id <CPXFocusManaging> _focusManager;
-    id <CPXSymbolicHotKeyRegistry> _symbolicHotKeyRegistry;
-    id <CPXCallbackScheduling> _callbackScheduler;
-    CPXNotificationCenter *_notificationCenter;
-    struct {
-        struct SpecialKeyState specialKeys[7];
-        unsigned int _gActiveSpecialKey;
-        struct CPSProcessSerNum _sGrabber;
-        unsigned int _sGrabberInitiatingMouseDownEvent;
-    } _legacySessionProcessData;
 }
 
-- (int);
-- (int);
-- (long long);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (int)ctory.aLAJrA/Sources/Persistence/NSCloudKitMirroringRequestManager.m;
+- (int)%d;
+- (long long)o_vacuum=%@;
+- (long long)ld = %qd and new = %qd;
+- (id)ntents of intarray. SQLite error code:(id)arg1 %d;
+- (void)%@ INTEGER PRIMARY KEY, %@ VARCHAR(255), %@ BLOB);
+- (void)SQLite error code:(unsigned int)arg1 %d, '%@' errno:(struct CPSProcessRec *)arg2 %d;
+- (void)(%@, %@, %@, %@, %@) SELECT %u, Z_PK, Z_ENT, %ld, %@ %@ %@;;
+- (void)K = NEW.Z_PK;;
 - (void)!Ø-;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

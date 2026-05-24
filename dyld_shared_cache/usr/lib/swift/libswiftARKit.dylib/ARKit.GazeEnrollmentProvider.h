@@ -8,11 +8,6 @@
 {
     id _cGazeEnrollmentProvider;
     id _cGazeEnrollmentConfiguration;
-    id updateQueue;
-    id fixationCandidateResultContinuations;
-    id gazeValidationPointResultContinuations;
-    id pointResultContinuations;
-    id feedbackResultContinuations;
 }
 
 @end

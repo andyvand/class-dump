@@ -6,7 +6,7 @@
 
 #import <ContentKit/WFContentItem.h>
 
-@class LNEntity, WFLinkMetadata;
+@class WFLinkMetadata;
 
 @interface WFLinkMetadataContentItem : WFContentItem
 {
@@ -19,13 +19,12 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)UniformTypeIdentifiers;
 
 // Remaining properties
 @property(readonly, nonatomic) WFLinkMetadata *linkMetadata;
-@property(readonly, nonatomic) LNEntity *linkMetadataValue;
 
 @end
 

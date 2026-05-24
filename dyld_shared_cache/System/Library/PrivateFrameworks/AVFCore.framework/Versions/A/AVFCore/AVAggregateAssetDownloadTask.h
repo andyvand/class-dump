@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVURLAsset, NSURLRequest, NSURLResponse;
+@class AVURLAsset;
 
 @interface AVAggregateAssetDownloadTask
 {
@@ -13,13 +13,10 @@
 - (id);
 - (id);
 - (id);
-- (id)Information;
+- (id)_cacheTrackInformation;
 
 // Remaining properties
 @property(readonly, nonatomic) AVURLAsset *URLAsset;
-@property(readonly, copy) NSURLRequest *currentRequest;
-@property(readonly, copy) NSURLRequest *originalRequest;
-@property(readonly, copy) NSURLResponse *response;
 
 @end
 

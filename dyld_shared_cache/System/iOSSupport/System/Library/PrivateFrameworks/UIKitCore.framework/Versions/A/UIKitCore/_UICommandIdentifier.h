@@ -11,13 +11,13 @@
 }
 
 + (id);
-+ (_Bool)sionCompletionType;
-- (id);
++ (_Bool)UITextMathExpressionCompletionType;
+- (id)_allowedToProcessMessageFromToken:(SEL)arg1 fromID:(id)arg2 reflectOnly:isInProxyMode: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)gToSizeCoordinator:(id)arg1;
-- (void)thTextAlternatives:(id)arg1 atPosition: /* Error: Ran out of types for this method. */;
+- (_Bool)setTransitioningToSizeCoordinator:(id)arg1;
+- (void)rangeWithTextAlternatives:(id)arg1 atPosition: /* Error: Ran out of types for this method. */;
 - (id)Presentation;
 - (SEL)row %ld;
 - (void)2;

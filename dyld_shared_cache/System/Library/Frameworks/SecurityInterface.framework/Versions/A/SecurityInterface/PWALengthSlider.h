@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (void);
+- (void)cols;
 - (id);
-- (id);
+- (id)setStagingClientName:(struct CGRect)arg1;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItem, NSURL, NSURLRequest;
+@class MKMapItem, NSURLRequest;
 
 @interface MKMapItemMetadataRequest
 {
@@ -15,13 +15,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)v;
 - (void);
-- (void)nitWithMapItem:review: /* Error: Ran out of types for this method. */;
+- (void)initWithMapItem:review: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
-@property(readonly, nonatomic) NSURL *url;
 @property(readonly, nonatomic) NSURLRequest *urlRequest;
 
 @end

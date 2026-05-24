@@ -15,7 +15,6 @@
 - (void)5ó;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *processBundleIdentifier;
 @property(readonly, copy, nonatomic) NSString *processName;
 @end
 

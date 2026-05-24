@@ -14,8 +14,8 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)PFCloudKitMetadataFrameworkVersionKey;
+- (id)ble migration statements;
 - (id);
 - (void);
 - (void)ÿÿ;

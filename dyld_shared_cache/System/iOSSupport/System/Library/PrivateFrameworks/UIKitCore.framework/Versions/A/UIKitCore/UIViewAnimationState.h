@@ -4,73 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, NSDictionary, NSMapTable, NSMutableArray, NSString, NSUUID, UIView, UIViewPropertyAnimator;
-@protocol _UIBasicAnimationFactory;
-
 @interface UIViewAnimationState
 {
     UIViewAnimationState *_nextState;
-    NSString *_animationID;
-    void *_context;
-    id _delegate;
-    double _duration;
-    double _delay;
-    double _frameInterval;
-    double _start;
-    long long _curve;
-    float _repeatCount;
-    long long _transition;
-    UIView *_transitionView;
-    NSDictionary *_transitionOptions;
-    int _filter;
-    UIView *_filterView;
-    float _filterValue;
-    SEL _willStartSelector;
-    SEL _didEndSelector;
-    int _didEndCount;
-    unsigned int _willStartSent:1;
-    unsigned int _useCurrentLayerState:1;
-    unsigned int _cacheTransition:1;
-    unsigned int _autoreverses:1;
-    unsigned int _layoutSubviews:1;
-    unsigned int _hasOuterAnimator:1;
-    unsigned int _hasOuterTrackingAnimator:1;
-    unsigned int _disallowCaptureWithinPropertyAnimator:1;
-    unsigned int _completionCallbacksDisabledOnPop:1;
-    unsigned int _shouldDecomposeGeometricTypes:1;
-    unsigned int _shouldSuppressVelocityForVFD:1;
-    NSMutableArray *_trackedAnimations;
-    NSUUID *_uuid;
-    id <_UIBasicAnimationFactory> _animationFactory;
-    CAMediaTimingFunction *_customCurve;
-    _Bool _animationFactoryMakesPerAnimationCustomCurves;
-    _Bool _disallowAdditiveAnimations;
-    CDUnknownBlockType _alongsideAnimations;
-    NSMutableArray *_addedCompletions;
-    _Bool _flushUpdates;
-    _Bool _animationDidStopSent;
-    _Bool _animationDidStopForced;
-    _Bool _allowUserInteraction;
-    _Bool _allowUserInteractionToCutOffEndOfAnimation;
-    _Bool _allowsHitTesting;
-    _Bool _belongsToTrackingAnimator;
-    _Bool _disallowInheritance;
-    _Bool _useBackingOutermostLayerForTransition;
-    long long _finishedPosition;
-    UIViewAnimationState *_retainedSelf;
-    NSMutableArray *_viewsPendingConstraintBasedAnimation;
-    NSMapTable *_viewToDeferredAnimationsMap;
-    UIViewPropertyAnimator *_propertyAnimator;
-    unsigned int _updateReason;
-    struct CAFrameRateRange _preferredFrameRateRange;
 }
 
 + (id);
 + (void);
 + (void);
 + (void);
-+ (void)rmSpringAnimations:(id)arg1;
-+ (void)usSystemSceneComponent;
++ (void)performSpringAnimations:(id)arg1;
++ (void)focusSystemSceneComponent;
 + (void)¤0	ÿç+Îhüi;
 - (void);
 - (void);
@@ -81,28 +25,28 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)yB;
+- (void)adTargetPathInUserHome;
+- (void)RequiredURLStringProbe;
 - (_Bool);
 - (unsigned int);
+- (_Bool)animationWithKeyPath: /* Error: Ran out of types for this method. */;
+- (_Bool)_footnoteButton;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)8B52;
+- (id)short>, std:(_Bool)arg1:hash<unsigned short>>, std::allocator<std::pair<const unsigned short, unsigned long>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
+- (void)nge=%{BOOL}u;
 - (_Bool);
+- (id)?;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id)1Â0@ù
@@ -124,17 +68,17 @@
 - (void)rContextDescription"32@"_UIBoundingPath"40d48B56@"BKSAnimationFenceHandle"60{_UIUpdateTiming=QQQ}68@?<v@?{CGSize=dd}d>92;
 - (id)Point=dd}{CGSize=dd}}28@0:(id)arg1 8q16B24;
 - (id)sion>"16;
-- (void)rstResponder:(id)arg1;
-- (int)tion: /* Error: Ran out of types for this method. */;
-- (_Bool)ControlSize:bounds: /* Error: Ran out of types for this method. */;
-- (_Bool)g;
-- (id)ludingCalloutBarAdjustments:(id)arg1;
-- (_Bool)ndIfAppropriate;
+- (void)setIsFirstResponder:(id)arg1;
+- (int)arrowAccessoryWithPosition: /* Error: Ran out of types for this method. */;
+- (_Bool)alignmentInsetsForControlSize:bounds: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateWrapperClipping;
+- (id)_extendedHitTestingRectWithPrecision:(id)arg1 includingCalloutBarAdjustments:(id)arg2;
+- (_Bool)_addReturnKeyCommandIfAppropriate;
 - (_Bool)ExtendedLayout;
 - (_Bool)tionDelegate;
 - (void)nfiguration;
 - (void)bel",&,N,V_unreleasedBanner;
-- (id)rShapePathProviderTV;
+- (id)_UIPopoverShapePathProviderTV;
 - (_Bool)ì;
 - (_Bool)ng replacement animation;
 - (id)self;
@@ -146,30 +90,14 @@
 ;
 - (void)³;
 - (double)LKb;
-- (void)A;
+- (void)4A;
 - (struct CAFrameRateRange)Ôd;
 - (void)Ànd;
 - (void)?;
 - (void)ø*f;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _allowsUserInteraction;
 @property(readonly, nonatomic) _Bool _runsAlongsideAnimations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disallowInheritance; // @synthesize disallowInheritance=_disallowInheritance;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isInProcess;
-@property(readonly, nonatomic) UIViewAnimationState *nextState; // @synthesize nextState=_nextState;
-@property(readonly, nonatomic) struct CAFrameRateRange preferredFrameRateRange; // @synthesize preferredFrameRateRange=_preferredFrameRateRange;
-@property(readonly, nonatomic) _Bool shouldDecomposeGeometricTypes;
-@property(readonly, nonatomic) _Bool shouldSuppressVelocityForVFD;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned int updateReason; // @synthesize updateReason=_updateReason;
 
 @end
 

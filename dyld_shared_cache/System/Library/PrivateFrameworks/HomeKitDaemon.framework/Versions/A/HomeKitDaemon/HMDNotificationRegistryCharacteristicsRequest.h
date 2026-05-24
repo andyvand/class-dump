@@ -6,27 +6,23 @@
 
 #import <HomeKitDaemon/HMDNotificationRegistryRequest.h>
 
-@class NSMutableDictionary, NSMutableSet, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDNotificationRegistryCharacteristicsRequest : HMDNotificationRegistryRequest
 {
     NSUUID *_accessoryUUID;
-    NSMutableSet *_characteristicInstanceIDs;
-    NSMutableDictionary *_characteristicChangeThresholds;
 }
 
+- (id)liveStrategyIdentifier;
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (id)no setting returned in result:%@ /* Error: Ran out of types for this method. */;
 - (void)ces non-existent attribute %@;
 - (id)=;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly) NSMutableDictionary *characteristicChangeThresholds; // @synthesize characteristicChangeThresholds=_characteristicChangeThresholds;
-@property(readonly) NSMutableSet *characteristicInstanceIDs; // @synthesize characteristicInstanceIDs=_characteristicInstanceIDs;
 
 @end
 

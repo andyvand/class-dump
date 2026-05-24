@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMQuery, NSArray, NSString;
-
 @interface EMMessageChangeAction
 {
     long long _origin;
-    long long _actor;
-    NSArray *_objectIDs;
-    EMQuery *_query;
 }
 
 + (_Bool);
-- (id);
+- (id)DefaultRoomPresenceStorage;
 - (id);
 - (id);
 - (void);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (long long);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)LoadWebView;
+- (id);
+- (void);
+- (long long)tivities, options:0x%lx /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
@@ -36,23 +31,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) long long actor; // @synthesize actor=_actor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *objectIDs; // @synthesize objectIDs=_objectIDs;
 @property(nonatomic) long long origin; // @synthesize origin=_origin;
-@property(retain, nonatomic) EMQuery *query; // @synthesize query=_query;
-@property(readonly, nonatomic) long long signpostType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface DEPatternParamsResult
 {
     NSString *_patternId;
-    NSDictionary *_params;
 }
 
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)kSupportedVideoConfigurationCodecConfigurations;
 - (id);
 - (void)ÐµÐ±Ð°Ð½ÑÑÐ¾Ð³Ð¾;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *params; // @synthesize params=_params;
 @property(retain, nonatomic) NSString *patternId; // @synthesize patternId=_patternId;
 
 @end

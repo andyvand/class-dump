@@ -7,7 +7,6 @@
 @interface StoreKit.ProductRequest.LocaleParser__priv_DC0A48A3F0D8937D8DF43F186834B5E2
 {
     id $defaultActor;
-    id locales;
 }
 
 @end

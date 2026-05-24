@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject;
-@protocol OS_os_log;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface PCSLockManager
 {
     NSHashTable *_observers;
-    NSHashTable *_holders;
-    NSObject<OS_os_log> *_log;
 }
 
 + (_Bool);
@@ -29,12 +26,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)rrides %@;
 - (void);
 
 // Remaining properties
-@property(retain) NSHashTable *holders; // @synthesize holders=_holders;
-@property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
 @property(retain) NSHashTable *observers; // @synthesize observers=_observers;
 
 @end

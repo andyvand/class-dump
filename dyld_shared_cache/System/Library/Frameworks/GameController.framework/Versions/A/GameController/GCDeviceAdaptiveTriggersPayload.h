@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface GCDeviceAdaptiveTriggersPayload
 {
     NSNumber *_mode;
-    NSNumber *_startPosition;
-    NSNumber *_endPosition;
-    NSArray *_strengths;
-    NSArray *_amplitudes;
-    NSNumber *_frequency;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id)N8Espresso6SerDes8layer_ioINS_22generic_one_hot_kernelEEE;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void)@;
 - (id);
 - (void);
 - (id)Sªn;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *amplitudes; // @synthesize amplitudes=_amplitudes;
-@property(readonly, nonatomic) NSNumber *endPosition; // @synthesize endPosition=_endPosition;
-@property(readonly, nonatomic) NSNumber *frequency; // @synthesize frequency=_frequency;
 @property(readonly, nonatomic) NSNumber *mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) NSNumber *startPosition; // @synthesize startPosition=_startPosition;
-@property(readonly, nonatomic) NSArray *strengths; // @synthesize strengths=_strengths;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet, SDConnectionConfiguration;
-
 @interface CSSearchClientConnection
 {
     _Atomic unsigned int _outBatchCount;
-    NSMutableDictionary *_queryTasks;
-    SDConnectionConfiguration *_configuration;
-    NSMutableOrderedSet *_pausedTasks;
 }
 
 - (id);
@@ -22,18 +17,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)1;
 - (id);
 - (unsigned int);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)eak, std:(id)arg1:allocator<DSPProcessor *__weak>>="__begin_"^@"__end_"^@""{?="__cap_"^@}} /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,10 +36,7 @@
 - (id)ored) %d uid:%d state:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SDConnectionConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) unsigned int outBatchCount;
-@property(retain, nonatomic) NSMutableOrderedSet *pausedTasks; // @synthesize pausedTasks=_pausedTasks;
-@property(retain, nonatomic) NSMutableDictionary *queryTasks; // @synthesize queryTasks=_queryTasks;
 
 @end
 

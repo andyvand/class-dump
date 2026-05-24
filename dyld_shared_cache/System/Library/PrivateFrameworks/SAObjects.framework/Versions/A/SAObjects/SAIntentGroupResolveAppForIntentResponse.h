@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface SAIntentGroupResolveAppForIntentResponse : SABaseCommand
 {
@@ -17,26 +17,15 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
+- (id)#'@ #;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)0;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSArray *appsList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *needsConfirmation;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(copy, nonatomic) NSString *resolutionType;
-@property(readonly) Class superclass;
 
 @end
 

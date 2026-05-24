@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNMTLBuffer, SCNMTLComputePipeline;
-@protocol MTLBuffer;
-
 __attribute__((visibility("hidden")))
 @interface SCNGeometryVariableTopologySampleDeformerMeshElementData
 {
     unsigned long long _originalPrimitiveCount;
-    SCNMTLBuffer *_originalIndexBuffer;
-    id <MTLBuffer> _deformedIndexBuffer;
-    unsigned long long _drawIndexedPrimitivesIndirectBufferOffset;
-    unsigned long long _subdividedVertexStartIndex;
-    unsigned long long _deformedPrimitiveCountBufferOffset;
-    SCNMTLComputePipeline *_computePipeline;
 }
 
 - (void);

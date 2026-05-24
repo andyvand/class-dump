@@ -25,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *inputManagers;
-@property __weak id <FCFetchedValueDescriptorObserving> observer; // @synthesize observer=_observer;
 
 @end
 

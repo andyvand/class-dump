@@ -18,13 +18,12 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (void *)sizeAspectFill;
+- (void *)resizeAspectFill;
 
 // Remaining properties
 @property(readonly) unsigned long long animId;
-@property(copy) CDUnknownBlockType presentationBlock; // @synthesize presentationBlock=_presentationBlock;
 
 @end
 

@@ -4,51 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOStyleAttributes, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPBTransitStop
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOLatLng *_latLng;
-    unsigned long long _muid;
-    NSString *_nameDisplayString;
-    GEOStyleAttributes *_styleAttributes;
-    NSString *_timezone;
-    NSMutableArray *_zoomNames;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _hallIndex;
-    unsigned int _stopIndex;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_hallIndex:1;
-        unsigned int has_stopIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_latLng:1;
-        unsigned int read_nameDisplayString:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int read_timezone:1;
-        unsigned int read_zoomNames:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)cy:(id)arg1;
++ (_Bool)setHasVerticalAccuracy:(id)arg1;
 - (unsigned long long);
-- (id);
+- (id)e;
 - (id);
 - (unsigned int);
+- (void)?ר;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)l;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -56,64 +32,42 @@
 - (unsigned int);
 - (void);
 - (id);
+- (void)/Versions/A/Accounts;
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)oiceTriggerFirstPassJarvisAP siriClientBehaviorMonitor:(id)arg1 didStartStreamWithContext:successfully:option:withEventUUID:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
+- (void)ne_filter_handle_input_finished;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)updateLocation:routeMatch:locationUpdateUUID: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (void);
 - (id)region"b24"type"b14"pixelSize"b8"padding"b42}"flyover"{_GEOFlyoverKey="z"b6"x"b26"y"b26"h"b8"region"b24"type"b14"pixelSize"b8"textScale"b8}"transitLineSelection"{_GEOTransitLineSelectionKey="z"b6"x"b25"y"b25"muid"b64}"polygonSelection"{_GEOPolygonSelectionKey="z"b6"x"b25"y"b25"polyId"b64}"roadSelection"{_GEORoadSelectionKey="z"b6"x"b25"y"b25"roadId"b64}"contourLines"{_GEOContourLinesKey="z"b6"x"b26"y"b26"pixelSize"b4"units"b8"padding"b50}"tileOverlay"{_GEOTileOverlayKey="z"b6"x"b26"y"b26"contentScale"b8"providerId"b32"keyframeIndex"b16"padding"b6}"identifiedResource"{_GEOIdentifiedResourceKey="identifier"Q"levelOfDetail"C"type"C"supportsASTC"b1"padding"b39}"muninMesh"{_GEOMuninMeshKey="pointId"b64"buildId"b32"bucketId"b16"cameraId"b5"lod"b3}"s2Tile"{_GEOS2TileKey="z"b6"x"b26"y"b26"f"b3"type"b14"pixelSize"b4"textScale"b4"padding"b37}"liveTile"{_GEOLiveTileKey="z"b6"x"b26"y"b26"type"b14"pixelSize"b4"textScale"b4"domain"b4"padding"b36})};
 - (id)N,V_radiusMeters;
 - (id)Ü§D¨;
 - (id)±±¤ù;
-- (id)egory_names;
-- (id)_position_info;
+- (id)pref_category_names;
+- (id)vehicle_position_info;
 - (void);
 - (void)@3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int hallIndex;
-@property(nonatomic) _Bool hasHallIndex;
-@property(readonly, nonatomic) _Bool hasLatLng;
 @property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasNameDisplayString;
-@property(nonatomic) _Bool hasStopIndex;
-@property(readonly, nonatomic) _Bool hasStyleAttributes;
-@property(readonly, nonatomic) _Bool hasTimezone;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOLatLng *latLng;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *nameDisplayString;
-@property(nonatomic) unsigned int stopIndex;
-@property(retain, nonatomic) GEOStyleAttributes *styleAttributes;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *timezone;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSMutableArray *zoomNames;
 
 @end
 

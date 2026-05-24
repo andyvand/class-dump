@@ -12,15 +12,15 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)ror:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)areRecoveryKeysDistrusted:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)entifier:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

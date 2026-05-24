@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWDNGEncoderManager
 {
     struct CMPhotoDNGCompressor *_dngCompressor;
-    long long _currentSettingsID;
-    unsigned long long _previewImageSize;
-    unsigned long long _auxiliaryImagesSize;
-    unsigned long long _containerSize;
 }
 
 + (void)e error:&error] /* Error: Ran out of types for this method. */;
@@ -33,21 +27,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long auxiliaryImagesSize;
-@property(readonly, nonatomic) unsigned long long containerSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long thumbnailImageSize;
 
 @end
 

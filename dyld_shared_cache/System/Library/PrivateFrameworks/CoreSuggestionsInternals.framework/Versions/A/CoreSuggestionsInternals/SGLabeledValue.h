@@ -9,13 +9,12 @@
 @interface SGLabeledValue
 {
     NSString *_label;
-    NSString *_value;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)setRawPayload: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

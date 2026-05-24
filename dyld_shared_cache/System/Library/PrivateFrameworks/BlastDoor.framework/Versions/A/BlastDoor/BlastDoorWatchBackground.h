@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorImage, NSString;
+@class NSString;
 
 @interface BlastDoorWatchBackground
 {
     id watchBackground;
 }
 
-- (_Bool);
+- (_Bool)EdgeInsets=dddd}48B80B84B88B92@96B104B108B112@116;
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)%;
 - (id);
 - (void)¹Ü: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorImage *backgroundImage;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *extensionIdentifier;
-@property(nonatomic, readonly) _Bool isHighKey;
-@property(nonatomic, readonly) double luminance;
 
 @end
 

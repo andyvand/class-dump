@@ -7,11 +7,6 @@
 @interface IMSwizzledMethod
 {
     IMSwizzledMethod *_swizzledWithMethod;
-    struct objc_method *_method;
-    CDUnknownFunctionPointerType _implementation;
-    const char *_typeEncoding;
-    Class _swizzledClass;
-    SEL _swizzledSelector;
 }
 
 - (_Bool);
@@ -29,13 +24,7 @@
 - (void)H/ÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownFunctionPointerType implementation; // @synthesize implementation=_implementation;
-@property(readonly, nonatomic) struct objc_method *method; // @synthesize method=_method;
-@property(readonly, nonatomic, getter=isSwizzled) _Bool swizzled;
-@property(readonly, nonatomic) Class swizzledClass; // @synthesize swizzledClass=_swizzledClass;
-@property(readonly, nonatomic) SEL swizzledSelector; // @synthesize swizzledSelector=_swizzledSelector;
 @property(retain, nonatomic) IMSwizzledMethod *swizzledWithMethod; // @synthesize swizzledWithMethod=_swizzledWithMethod;
-@property(readonly, nonatomic) const char *typeEncoding; // @synthesize typeEncoding=_typeEncoding;
 
 @end
 

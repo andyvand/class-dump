@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSString;
 
 @interface PXCuratedLibraryLabelConfiguration
 {
     NSString *_text;
-    long long _textAlignment;
-    NSColor *_textColor;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id)nvalidateView;
+- (id)invalidateView;
 - (id)hasHeavyResourceUsage;
 - (void)Ø~üÿDüÿüÿüüÿüÿHüÿ`üÿ´üÿ;
 - (void);
@@ -25,20 +23,7 @@
 - (void)¡ÿÎ¹R\I?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(retain, nonatomic) NSColor *textColor; // @synthesize textColor=_textColor;
-@property(readonly, nonatomic) long long viewFloatingAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 
 @end
 

@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFColor, IFIconSpecification, NSString;
-
 @interface ISiOSAppRecipe
 {
     _Bool shouldApplyMask;
-    _Bool shouldDrawBorder;
-    _Bool _templateVariant;
-    _Bool _allowDarkAndTintable;
-    _Bool _segment;
-    _Bool _generic;
-    IFColor *tintColor;
-    long long appearance;
-    unsigned long long background;
 }
 
-- (long long);
+- (long long)�,�;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id)se-prox-for-occlusion;
+- (_Bool);
+- (void)nd selector are required;
+- (id);
 - (void);
 - (void);
 - (unsigned long long)ÔÁ.*Ð!Bù±õ-1Â0@ù
@@ -47,22 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool allowDarkAndTintable; // @synthesize allowDarkAndTintable=_allowDarkAndTintable;
-@property long long appearance; // @synthesize appearance;
-@property unsigned long long background; // @synthesize background;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool generic; // @synthesize generic=_generic;
-@property(readonly) unsigned long long hash;
-@property(readonly) IFIconSpecification *iconSpecification;
-@property(nonatomic) _Bool segment; // @synthesize segment=_segment;
-@property _Bool shouldApplyMask; // @synthesize shouldApplyMask;
-@property _Bool shouldDrawBorder; // @synthesize shouldDrawBorder;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool templateVariant; // @synthesize templateVariant=_templateVariant;
-@property(retain) IFColor *tintColor; // @synthesize tintColor;
 
 @end
 

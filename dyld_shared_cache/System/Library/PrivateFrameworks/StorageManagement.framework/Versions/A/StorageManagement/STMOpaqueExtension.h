@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSString, STMHostExtensionContext;
+@class NSExtension;
 
 @interface STMOpaqueExtension
 {
     NSExtension *_underlyingExtension;
-    STMHostExtensionContext *_context;
 }
 
 - (id);
@@ -20,20 +19,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)/;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) STMHostExtensionContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly) Class superclass;
 @property(retain) NSExtension *underlyingExtension; // @synthesize underlyingExtension=_underlyingExtension;
 
 @end

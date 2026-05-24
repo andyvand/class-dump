@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface GEOMapsURLShortenerReply : GEOXPCReply
 {
@@ -14,20 +14,13 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)texturingEnabled;
 - (void);
-- (id)s;
-- (void)dex:(id)arg1;
+- (id)mapsFeatures;
+- (void)chargingStationsAtIndex:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURL;
+
 @protocol FPUIActionRemoteContextProtocol
+- (void)_cachedImagePathForIdentifier:(NSURL *)arg1 assetURL:(void (^)(_Bool))arg2;
+- (void)_cacheable;
+- (void)_cacheKey;
 @end
 

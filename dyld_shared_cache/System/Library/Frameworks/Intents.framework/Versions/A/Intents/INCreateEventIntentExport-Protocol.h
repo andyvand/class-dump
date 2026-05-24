@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INDateComponentsRange, NSArray, NSString;
+@class CLPlacemark, NSArray, NSString;
 
 @protocol INCreateEventIntentExport
+- (NSArray *)rnalServerRandom failed, %s (%d)
+;
 - (NSString *)%ð!Eù¾(Ð1Â0@ù
 × ;
 - (CLPlacemark *)
@@ -14,9 +16,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) INDateComponentsRange *dateTimeRange;
-@property(copy) CLPlacemark *location;
-@property(copy) NSArray *participants;
 @property(copy) NSString *title;
 @end
 

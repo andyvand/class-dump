@@ -7,12 +7,9 @@
 @class NSArray;
 
 @protocol TSSharingActivityProviderType
+- (NSArray *);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *activities;
 @property(nonatomic, readonly) NSArray *activityItemSources;
-@property(nonatomic, readonly) NSArray *activityItems;
-@property(nonatomic, readonly) NSArray *excludedActivityTypes;
-@property(nonatomic, readonly) id linkPresentationSource;
 @end
 

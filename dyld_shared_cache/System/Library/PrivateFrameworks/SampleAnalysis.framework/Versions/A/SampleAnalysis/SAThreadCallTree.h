@@ -6,23 +6,19 @@
 
 #import <SampleAnalysis/SACallTree.h>
 
-@class SADispatchQueue, SASwiftTask, SAThread;
+@class SAThread;
 
 @interface SAThreadCallTree : SACallTree
 {
     SAThread *_thread;
-    SADispatchQueue *_dispatchQueue;
-    SASwiftTask *_swiftTask;
 }
 
+- (id)%s setting event queue delay to %.3lf;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)Ȃ;
 
 // Remaining properties
-@property(readonly) SADispatchQueue *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) SASwiftTask *swiftTask; // @synthesize swiftTask=_swiftTask;
 @property(readonly) SAThread *thread; // @synthesize thread=_thread;
 
 @end

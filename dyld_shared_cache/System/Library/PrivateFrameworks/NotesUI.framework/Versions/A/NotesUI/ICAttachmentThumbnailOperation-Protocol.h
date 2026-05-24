@@ -5,5 +5,6 @@
 //
 
 @protocol ICAttachmentThumbnailOperation
+- (_Bool);
 @end
 

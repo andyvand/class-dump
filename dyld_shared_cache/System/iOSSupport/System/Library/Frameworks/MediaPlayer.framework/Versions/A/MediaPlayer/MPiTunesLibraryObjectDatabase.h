@@ -9,26 +9,23 @@
 @interface MPiTunesLibraryObjectDatabase
 {
     ITLibrary *_library;
-    _Bool _playParamsContainStartItem;
-    _Bool _hasRadioItem;
 }
 
-- (void);
-- (void);
+- (void)4|;
+- (void)3	;
+- (_Bool)|0;
+- (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
 - (id);
+- (id)currentSchema;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)ingUpdates;
+- (void)_coalescingUpdates;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRadioItem; // @synthesize hasRadioItem=_hasRadioItem;
 @property(nonatomic) _Bool playParamsContainStartItem; // @synthesize playParamsContainStartItem=_playParamsContainStartItem;
 
 @end

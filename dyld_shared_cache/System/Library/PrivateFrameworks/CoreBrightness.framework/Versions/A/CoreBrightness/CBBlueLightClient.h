@@ -9,25 +9,17 @@
 @interface CBBlueLightClient
 {
     BrightnessSystemClient *bsc;
-    CDUnknownBlockType clientBlock;
-    _Bool ownsClient;
-    _Bool notificationActive;
-    _Bool rangeSet;
-    CDStruct_6ede4ed5 defaultCctRange;
-    _Bool rangeOverridden;
-    CDStruct_6ede4ed5 cctRange;
-    _Bool _supported;
 }
 
 + (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)1;
+- (_Bool)'F';
 - (void);
-- (void);
-- (_Bool);
+- (void)D�14FF;
+- (_Bool)A;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -35,16 +27,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)E;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)@;
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (_Bool)4óóôõLö°ö;
 - (_Bool)n-rise-time;
 - (void)e>F¶s>%>'1>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>;

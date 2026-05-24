@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSMapTable, NSMutableArray, NSString;
-@protocol HMFDateProvider, HMFTimerProvider;
-
 __attribute__((visibility("hidden")))
 @interface HMDModernTransportDeviceReachabilityObserver
 {
     struct os_unfair_lock_s _lock;
-    NSMapTable *_deviceToListenersMap;
-    NSMutableArray *_devicesWithPendingUnreachability;
-    id <HMFTimerProvider> _timerProvider;
-    id <HMFDateProvider> _dateProvider;
-    HMFTimer *_debounceTimer;
 }
 
 + (id)­ïÿ8KÐB;
-- (void);
+- (void)16@"IDSAccount"24@"IDSSession"32@"NSString"40;
 - (void);
 - (void);
 - (id);
@@ -27,20 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)eIntervalSinceReferenceDate: /* Error: Ran out of types for this method. */;
+- (void)initWithTimeIntervalSinceReferenceDate: /* Error: Ran out of types for this method. */;
 - (void)BpBüC`FLG;
 - (void)associated list;
 - (id)Can't add room %@ to home; namespace error %@;
 - (void)managedObjectType isSubclassOfClass:_MKFModel.class] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

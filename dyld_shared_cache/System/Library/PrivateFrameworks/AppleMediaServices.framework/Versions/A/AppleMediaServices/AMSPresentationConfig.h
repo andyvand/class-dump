@@ -9,21 +9,18 @@
 @interface AMSPresentationConfig
 {
     void style;
-    void subsystem;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)initWithDeviceFeatures:(id)arg1;
 - (void)ªIßØü¨ÚÇUbÝDD0½ÕÔ¬D H¯6`÷zå£oC»©WÓætìÿU;
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *style;
-@property(nonatomic, readonly) NSString *subsystem;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <PhotoAnalysis/PHAPrivateFederatedLearningRecipeOptions.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PHACurareShadowEvaluationRecipeOptions : PHAPrivateFederatedLearningRecipeOptions
 {
     NSString *_trialDeploymentID;
-    NSString *_trialExperimentID;
-    NSString *_trialTreatmentID;
-    NSArray *_modelInfoArray;
 }
 
 - (id);
@@ -23,15 +20,12 @@
 - (void);
 - (void);
 - (void);
+- (id)*t";
 - (id);
-- (id);
-- (void)ifiers:forceReload: /* Error: Ran out of types for this method. */;
+- (void)_reloadWallpaperSuggestionsWithRejectedPersonsForLocalIdentifiers:forceReload: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *modelInfoArray; // @synthesize modelInfoArray=_modelInfoArray;
 @property(retain, nonatomic) NSString *trialDeploymentID; // @synthesize trialDeploymentID=_trialDeploymentID;
-@property(retain, nonatomic) NSString *trialExperimentID; // @synthesize trialExperimentID=_trialExperimentID;
-@property(retain, nonatomic) NSString *trialTreatmentID; // @synthesize trialTreatmentID=_trialTreatmentID;
 
 @end
 

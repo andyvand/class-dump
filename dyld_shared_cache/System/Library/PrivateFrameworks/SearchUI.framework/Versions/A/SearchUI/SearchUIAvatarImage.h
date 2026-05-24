@@ -6,15 +6,11 @@
 
 #import <SearchUI/SearchUIImage.h>
 
-@class NSArray, NSString;
-@protocol CNCancelable;
+@class NSArray;
 
 @interface SearchUIAvatarImage : SearchUIImage
 {
     _Bool _requiresImageDataToLoad;
-    NSArray *_contactIdentifiers;
-    NSString *_letters;
-    id <CNCancelable> _renderingToken;
 }
 
 + (id);
@@ -26,7 +22,7 @@
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)y_locale) VALUES($current_version, $profanity_locale);
 - (void);
 - (id);
 - (id);
@@ -35,9 +31,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contactIdentifiers; // @synthesize contactIdentifiers=_contactIdentifiers;
-@property(retain, nonatomic) NSString *letters; // @synthesize letters=_letters;
-@property(retain) id <CNCancelable> renderingToken; // @synthesize renderingToken=_renderingToken;
-@property(nonatomic) _Bool requiresImageDataToLoad; // @synthesize requiresImageDataToLoad=_requiresImageDataToLoad;
 
 @end
 

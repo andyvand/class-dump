@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIGestureRecognizer, UIView;
+@class UIView;
 @protocol UILargeContentViewerInteractionDelegate;
 
 @interface UILargeContentViewerInteraction
@@ -24,25 +24,16 @@
 - (id);
 - (id)@ù
 × ;
-- (id)yView: /* Error: Ran out of types for this method. */;
+- (id)_setLargeTitleAccessoryView: /* Error: Ran out of types for this method. */;
 - (id)bModel;
-- (id)eyboardSplitControlMenu_Floating;
-- (id)8D101770CCFE86694726ManagerDriverShimPresenter;
-- (void)ze;
+- (id)UIKeyboardSplitControlMenu_Floating;
+- (id)_TtC5UIKitP33_3F2359D4CD32AF8D101770CCFE86694726ManagerDriverShimPresenter;
+- (void)inLiveResize;
 - (void)ifying a tab bar managed by a tab bar controller is not allowed.;
 - (void)dy¿ÿÖ}e;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <UILargeContentViewerInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIGestureRecognizer *gestureRecognizerForExclusionRelationship;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view;
 
 @end
 

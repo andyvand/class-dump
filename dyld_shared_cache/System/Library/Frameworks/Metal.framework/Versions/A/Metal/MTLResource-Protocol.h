@@ -5,24 +5,19 @@
 //
 
 @class NSString;
-@protocol MTLDevice, MTLHeap;
+@protocol MTLDevice;
 
 @protocol MTLResource
+- (NSString *);
+- (id <MTLDevice>)nkatakanahalfwidth;
+- (unsigned long long)?	;
+- (void);
 - (unsigned long long)h_value_type<MTLHashKey, MTLOpaqueGPUArchiverUnitId *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}};
 - (void)sAndLeafNodes"b1"useFastWideBuild"b1"deterministic"b1"fragmentPhase"b1"supportsSIMDReduction"b1"supportsSIMDShuffleAndFill"b1"useFastBestObjectSplit"b1"maxSubKeyframeTemporalSplits"b4"disallowTemporalSplits"b1"rowMajorInstanceMatrix"b1"refitUpdatesOpacityAndFunctionTableOffset"b1}"vertexStride"I"boundingBoxStride"I"minOverlap"f"traversalCost"f"fragmentCost"f"temporalSplitBias"f};
-- (unsigned long long)portsDeviceCoherency;
+- (unsigned long long)_familySupportsDeviceCoherency;
 - (unsigned long long);
-- (id <MTLHeap>);
 
 // Remaining properties
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly) unsigned long long cpuCacheMode;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hazardTrackingMode;
-@property(readonly) id <MTLHeap> heap;
-@property(readonly) unsigned long long heapOffset;
 @property(copy) NSString *label;
-@property(readonly) unsigned long long resourceOptions;
-@property(readonly) unsigned long long storageMode;
 @end
 

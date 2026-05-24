@@ -4,47 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationController, NSMutableDictionary, NSObject, NSString;
-@protocol AKAppleIDAuthenticationDelegate, OS_dispatch_queue;
+@class NSMutableDictionary;
+@protocol AKAppleIDAuthenticationDelegate;
 
 @interface AKAppleIDAuthenticationContextManager
 {
     NSMutableDictionary *_authContextsByUUID;
-    AKAppleIDAuthenticationController *_authController;
-    NSObject<OS_dispatch_queue> *_authContextsQueue;
-    id <AKAppleIDAuthenticationDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)+;
+- (void);
+- (void);
+- (void);
+- (void)a	a;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)+;
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void)km;
+- (void)(;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void)	;
@@ -54,14 +51,7 @@ knjL\.à~>°ÓQdc U{vNò]ìÚÆÒû¶rSI³+DÅT¹¼4CØOèZ�
 üL¤üLáüL\üL=üLËüL'üLrüLüLüLßüLýüLZüLÄüLFüLüLcüLGüLdüLÉüL>üLDüL®üL·üLAüL"üL£üLüLüL¢üLÒüLÝüLàüLüLüLèüL@üLoüL_üL7üLäüLTüLSüLiüL­üLüLÃüL üLüLãüLþüLºüL4üLüLgüLUüL§üLÙüLüL&üL /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <AKAppleIDAuthenticationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDFActionURLPrivateVars
 {
     NSURL *url;
-    _Bool suspiciousURL;
 }
 
 - (void);

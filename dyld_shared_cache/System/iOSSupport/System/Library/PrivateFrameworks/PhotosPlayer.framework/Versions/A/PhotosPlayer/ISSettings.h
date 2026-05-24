@@ -9,7 +9,7 @@
 }
 
 + (id);
-- (void);
+- (void)uninstallAppWithBundleID:error: /* Error: Ran out of types for this method. */;
 
 @end
 

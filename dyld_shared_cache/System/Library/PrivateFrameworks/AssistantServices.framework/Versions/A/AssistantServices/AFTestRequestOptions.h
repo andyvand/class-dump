@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface AFTestRequestOptions
 {
     long long _requestPath;
-    NSString *_inputOrigin;
-    NSNumber *_isEyesFree;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)=;
 - (long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)er",&,N,V_underlyingCredentialState;
 - (id);
 - (id);
 - (id);
@@ -32,8 +28,6 @@
 - (void)_contexts;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *inputOrigin; // @synthesize inputOrigin=_inputOrigin;
-@property(readonly, copy, nonatomic) NSNumber *isEyesFree; // @synthesize isEyesFree=_isEyesFree;
 @property(readonly, nonatomic) long long requestPath; // @synthesize requestPath=_requestPath;
 
 @end

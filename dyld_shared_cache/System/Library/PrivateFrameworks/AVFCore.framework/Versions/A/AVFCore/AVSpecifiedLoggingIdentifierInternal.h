@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVSpecifiedLoggingIdentifierInternal
 {
     NSString *identifierName;
-    unsigned int derivedIdentifierCounter;
 }
 
 @end

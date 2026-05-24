@@ -6,14 +6,11 @@
 
 #import <PassKitCore/PKPassTileState.h>
 
-@class NSString, PKPassTileAccessory;
+@class NSString;
 
 @interface PKPassTileStateDefault : PKPassTileState
 {
     NSString *_title;
-    NSString *_body;
-    PKPassTileAccessory *_accessory;
-    PKPassTileAccessory *_secondaryAccessory;
 }
 
 + (_Bool)X"!Bùqî%ð1Â0@ù
@@ -22,21 +19,18 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)jA;
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void)hopCountHistogram;
 - (void);
-- (id)mentSessionRequest;
-- (void);
+- (id)PKPaymentAugmentSessionRequest;
+- (void)configurationDataType;
 
 // Remaining properties
-@property(retain, nonatomic) PKPassTileAccessory *accessory; // @synthesize accessory=_accessory;
-@property(copy, nonatomic) NSString *body; // @synthesize body=_body;
-@property(retain, nonatomic) PKPassTileAccessory *secondaryAccessory; // @synthesize secondaryAccessory=_secondaryAccessory;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

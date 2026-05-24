@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CPKEmojiIMPreviewWindow
 {
     NSString *_emojiString;
-    CPKEmojiPreviewView *_previewView;
 }
 
 - (void);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(copy) NSString *emojiString; // @synthesize emojiString=_emojiString;
 @property CPKEmojiPreviewView *previewView; // @synthesize previewView=_previewView;
 
 @end

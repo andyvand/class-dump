@@ -7,27 +7,12 @@
 @interface NewsUI2.SportsSyncManager
 {
     id sportsDataService;
-    id subscriptionController;
-    id syncService;
-    id tagService;
-    id userInfo;
-    id accessQueue;
-    id prepareQueue;
-    id $__lazy_storage_$_operationQueue;
-    id appConfigurationManager;
-    id _ignoreSyncingNewsChanges;
-    id prepareSyncingGroup;
-    id suspendSyncingGroup;
-    id suspendedTokensLock;
-    id suspendedTokens;
-    id iCloudAccountStatusObservable;
-    id _sportsSyncServiceVersion;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)s/A/CoreFoundation;
+- (void)brary/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (void)arUIKit;
+- (void)TranscriptParticipantBadge;
 - (void);
 - (void);
 - (void);

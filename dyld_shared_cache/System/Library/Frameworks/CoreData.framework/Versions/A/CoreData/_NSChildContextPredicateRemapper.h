@@ -15,7 +15,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)*@9j
+;
 - (void)store metadata changes to Spotlight import tracking, %@;
 - (void)ionship "%@" (on entity "%@") does not have an inverse;
 - (void)Ôôèÿ;

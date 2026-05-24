@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol DDSMAAutoAssetManagerDataSource
+- (NSSet *)setHasDeviceLockStateChanged: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasDeviceBuild: /* Error: Ran out of types for this method. */;
+- (long long)setHasDebugElectionDecisionMade: /* Error: Ran out of types for this method. */;
 @end
 

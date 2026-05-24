@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView;
+
 @protocol _UIScrollViewScrollObserver
+- (void)setHasTopicFeedSubscribedTopicsScoreCoefficient:(UIScrollView *)arg1;
 @end
 

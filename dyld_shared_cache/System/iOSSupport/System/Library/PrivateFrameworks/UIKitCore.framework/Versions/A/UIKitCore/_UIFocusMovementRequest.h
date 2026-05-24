@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIFocusSystem, _UIFocusInputDeviceInfo, _UIFocusItemInfo, _UIFocusMovementInfo, _UIFocusSearchInfo;
-
 @interface _UIFocusMovementRequest
 {
     _Bool _shouldPerformHapticFeedback;
-    _Bool _overridesDeferredFocusUpdate;
-    UIFocusSystem *_focusSystem;
-    _UIFocusInputDeviceInfo *_inputDeviceInfo;
-    _UIFocusItemInfo *_focusedItemInfo;
-    _UIFocusMovementInfo *_movementInfo;
-    _UIFocusSearchInfo *_searchInfo;
 }
 
 - (_Bool);
@@ -24,17 +16,17 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)"NSString"40@"NSString"48@"IDSMessageContext"56;
+- (_Bool)ter";
+- (_Bool)setErrorToAccountNeedsRepair;
+- (id)sendClearNotice:toHandles:reply: /* Error: Ran out of types for this method. */;
+- (_Bool)nicknamePreferencesDidChange;
+- (_Bool)N,V_replicationService;
+- (_Bool)roller",&,N,V_relayEnrollmentController;
+- (_Bool)cachedChatCount;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)ollaborationNoticeRateLimiter didSendNotice:] /* Error: Ran out of types for this method. */;
+- (id)collaborationNoticeDefaultThreshold;
 - (void);
 - (id);
 - (void);
@@ -45,29 +37,7 @@
 - (void)VÉÒ4[;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsDeferral;
-@property(readonly, nonatomic) _Bool allowsFocusingCurrentItem;
-@property(readonly, nonatomic) _Bool allowsOverridingPreferedFocusEnvironments;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _UIFocusMovementRequest *fallbackRequest;
-@property(readonly, nonatomic) __weak UIFocusSystem *focusSystem; // @synthesize focusSystem=_focusSystem;
-@property(retain, nonatomic) _UIFocusItemInfo *focusedItemInfo; // @synthesize focusedItemInfo=_focusedItemInfo;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIFocusInputDeviceInfo *inputDeviceInfo; // @synthesize inputDeviceInfo=_inputDeviceInfo;
-@property(retain, nonatomic) _UIFocusMovementInfo *movementInfo; // @synthesize movementInfo=_movementInfo;
-@property(readonly, nonatomic, getter=isMovementRequest) _Bool movementRequest;
-@property(nonatomic) _Bool overridesDeferredFocusUpdate; // @synthesize overridesDeferredFocusUpdate=_overridesDeferredFocusUpdate;
-@property(readonly, nonatomic) _Bool requiresEnvironmentValidation;
-@property(readonly, nonatomic) _Bool requiresNextFocusedItem;
-@property(readonly, nonatomic, getter=shouldScrollIfNecessary) _Bool scrollIfNecessary;
-@property(retain, nonatomic) _UIFocusSearchInfo *searchInfo; // @synthesize searchInfo=_searchInfo;
-@property(nonatomic) _Bool shouldPerformHapticFeedback; // @synthesize shouldPerformHapticFeedback=_shouldPerformHapticFeedback;
-@property(readonly, nonatomic) _Bool shouldPlayFocusSound;
-@property(readonly) Class superclass;
 
 @end
 

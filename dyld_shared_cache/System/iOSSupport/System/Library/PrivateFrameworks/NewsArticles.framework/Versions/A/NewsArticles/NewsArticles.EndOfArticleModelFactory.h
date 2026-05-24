@@ -7,9 +7,6 @@
 @interface NewsArticles.EndOfArticleModelFactory
 {
     id feedModelFactory;
-    id paidAccessChecker;
-    id readingList;
-    id allowFollowing;
 }
 
 @end

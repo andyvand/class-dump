@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSHTTPURLResponse;
+@class NSHTTPURLResponse;
 
 @interface CKDURLResponseOverrideProxy
 {
     NSHTTPURLResponse *_realResponse;
-    long long _statusCode;
-    NSDictionary *_responseHeaderOverrides;
 }
 
 - (id);

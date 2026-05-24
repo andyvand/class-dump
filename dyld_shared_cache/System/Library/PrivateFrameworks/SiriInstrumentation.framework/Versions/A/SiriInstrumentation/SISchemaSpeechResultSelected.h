@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaSpeechResultSelected : SISchemaInstrumentationMessage
 {
     NSString *_resultCandidateId;
-    int _source;
-    CDStruct_dbbab10b _has;
-    _Bool _hasResultCandidateId;
 }
 
 - (void);
@@ -24,25 +21,21 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_purgeableType;
+- (_Bool)stions (%d);
+- (_Bool)te, ROWID);
 - (void);
 - (id);
 - (int);
 - (id);
-- (id)nsions;
-- (id)rModelInferenceCallTime;
-- (_Bool)TION_FROM_KEYBOARD_WHILE_SEARCH_BAR_VISIBLE;
-- (void)ICE_SPEAKER;
-- (void)ndpointerScore;
+- (id)deleteDictationDimensions;
+- (id)_fullPlannerModelInferenceCallTime;
+- (_Bool)INVOCATIONSOURCE_DICTATION_FROM_KEYBOARD_WHILE_SEARCH_BAR_VISIBLE;
+- (void)MWTAUDIOROUTETYPE_DEVICE_SPEAKER;
+- (void)endpointerScore;
 
 // Remaining properties
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
-@property(nonatomic) int source; // @synthesize source=_source;
 
 @end
 

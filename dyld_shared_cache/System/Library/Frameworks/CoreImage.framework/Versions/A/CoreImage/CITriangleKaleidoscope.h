@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CITriangleKaleidoscope : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputPoint;
-    NSNumber *inputSize;
-    NSNumber *inputRotation;
-    NSNumber *inputDecay;
 }
 
 + (id);
@@ -25,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)R(;
 - (void);
 - (id);
 - (id);
@@ -82,11 +78,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputDecay; // @synthesize inputDecay;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputPoint; // @synthesize inputPoint;
-@property(retain, nonatomic) NSNumber *inputRotation; // @synthesize inputRotation;
-@property(retain, nonatomic) NSNumber *inputSize; // @synthesize inputSize;
 
 @end
 

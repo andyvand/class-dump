@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPDisplay, NSScreen, NSString, WFImage;
-
 @interface WFDisplay
 {
     _Bool _isMainScreen;
-    _Bool _isBuiltInScreen;
-    _Bool _mainScreenLoaded;
-    _Bool _builtInScreenLoaded;
-    NSScreen *_screen;
-    WFImage *_image;
-    NSString *_serializationUUID;
-    NSString *_UUID;
-    NSString *_name;
-    NSString *_deviceName;
-    MPDisplay *_display;
 }
 
-+ (id);
++ (id)s;
 + (id);
 + (id);
 + (id);

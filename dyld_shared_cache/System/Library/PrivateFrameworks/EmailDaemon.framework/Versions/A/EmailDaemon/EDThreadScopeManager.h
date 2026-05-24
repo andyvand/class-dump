@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMCoreAnalyticsCollector, NSArray, NSMutableDictionary, NSString;
-@protocol EDThreadScopeManagerDataSource, EFScheduler;
+@class NSMutableDictionary;
+@protocol EDThreadScopeManagerDataSource;
 
 @interface EDThreadScopeManager
 {
     NSMutableDictionary *_threadScopes;
-    struct os_unfair_lock_s _threadScopesLock;
-    id <EDThreadScopeManagerDataSource> _dataSource;
-    id <EFScheduler> _evictionScheduler;
-    EMCoreAnalyticsCollector *_analyticsCollector;
 }
 
 + (id);
@@ -26,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -45,27 +41,17 @@
 - (double);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)_TtC12SiriOntology34UsoTask_noVerb_common_EmailAddress;
 - (id);
 - (unsigned long long);
 - (id);
 - (void)tified(started_at);;
 
 // Remaining properties
-@property(readonly, nonatomic) EMCoreAnalyticsCollector *analyticsCollector; // @synthesize analyticsCollector=_analyticsCollector;
 @property(readonly, nonatomic) __weak id <EDThreadScopeManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <EFScheduler> evictionScheduler; // @synthesize evictionScheduler=_evictionScheduler;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *threadScopes;
 
 @end
 

@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface VNRegionOfInterestTilingOptions
 {
     double _tileOverlapPercentage;
-    double _regionOfInterestAspectRatioThreshold;
-    long long _tileOverflowCount;
 }
 
 - (double);
 - (long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id);
 - (id);
 
 // Remaining properties
-@property double regionOfInterestAspectRatioThreshold; // @synthesize regionOfInterestAspectRatioThreshold=_regionOfInterestAspectRatioThreshold;
-@property long long tileOverflowCount; // @synthesize tileOverflowCount=_tileOverflowCount;
 @property double tileOverlapPercentage; // @synthesize tileOverlapPercentage=_tileOverlapPercentage;
 
 @end

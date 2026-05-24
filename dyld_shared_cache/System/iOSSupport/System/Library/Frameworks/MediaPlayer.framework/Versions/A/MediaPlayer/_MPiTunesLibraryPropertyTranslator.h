@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPiTunesLibraryPropertyTranslator
 {
     CDUnknownBlockType _valueTransformBlock;
-    NSString *_libraryItemProperty;
-    CDUnknownFunctionPointerType _valueTransformFunction;
 }
 
 + (id);
@@ -21,19 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void)nOutputDevices: /* Error: Ran out of types for this method. */;
+- (void)_detachableDevicesInOutputDevices: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *libraryItemProperty; // @synthesize libraryItemProperty=_libraryItemProperty;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) CDUnknownBlockType valueTransformBlock; // @synthesize valueTransformBlock=_valueTransformBlock;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType valueTransformFunction; // @synthesize valueTransformFunction=_valueTransformFunction;
 
 @end
 

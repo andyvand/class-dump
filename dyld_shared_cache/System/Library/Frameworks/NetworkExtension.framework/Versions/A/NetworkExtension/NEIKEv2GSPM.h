@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEIKEv2CryptoKitSPAKE2Plus, NSData;
+@class NSData;
 
 @interface NEIKEv2GSPM
 {
     NSData *_sessionKey;
-    NSData *_nextMessage;
-    NEIKEv2CryptoKitSPAKE2Plus *_spake2Handler;
-    NSData *_firstLocalMessage;
-    NSData *_firstPeerMessage;
 }
 
-- (void)fficSelectors: /* Error: Ran out of types for this method. */;
+- (void)setRemoteTrafficSelectors: /* Error: Ran out of types for this method. */;
 
 @end
 

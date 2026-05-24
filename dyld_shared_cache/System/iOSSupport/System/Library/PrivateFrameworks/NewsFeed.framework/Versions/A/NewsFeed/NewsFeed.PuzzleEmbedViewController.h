@@ -9,42 +9,14 @@
 @interface NewsFeed.PuzzleEmbedViewController
 {
     id onReuse;
-    id reuseIdentifier;
-    id layoutGuide;
-    id feedConfiguration;
-    id onEmbedInteraction;
-    id layoutGuideView;
-    id interactionProvider;
-    id $__lazy_storage_$_contentEnvironment;
-    id hasPuzzleDataLoadAttempted;
-    id textInputTraits;
-    id webEmbedFailureHandler;
-    id isResizable;
-    id liveResizingView;
-    id puzzleData;
-    id puzzleDataManager;
-    id puzzleAccessArbiter;
-    id bundleSubscriptionManager;
-    id delegate;
-    id puzzleSource;
-    id webContentViewController;
-    id errorProvider;
-    id failureProvider;
-    id presentationManager;
-    id actionProvider;
-    id puzzleLoadingStateMachine;
-    id activityIndicator;
-    id errorView;
-    id coverViewManager;
-    id embedLocation;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)iew;
+- (void)secondaryIssueCoverView;
 - (id);
 - (void);
 - (void);

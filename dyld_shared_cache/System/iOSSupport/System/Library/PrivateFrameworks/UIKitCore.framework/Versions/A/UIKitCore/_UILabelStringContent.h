@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
-- (long long);
+- (_Bool);
+- (long long)CCCCCi^{__CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)};
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -28,11 +28,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)ù
 × ;
-- (_Bool)etEnableLiftOnSelected: /* Error: Ran out of types for this method. */;
+- (_Bool)setEnableLiftOnSelected: /* Error: Ran out of types for this method. */;
 - (id)_resetTextLabelDefaultFontInCell:(id)arg1;
 - (id),R,V_cgPage;
 - (_Bool)ionsController",&,N,V_previewActionsController;
-- (id)NavigationBarPlatterSubviewContainerView;
+- (id)_UINavigationBarPlatterSubviewContainerView;
 - (id)P[Ä[\	ä\ð_\`°a;
 - (void);
 

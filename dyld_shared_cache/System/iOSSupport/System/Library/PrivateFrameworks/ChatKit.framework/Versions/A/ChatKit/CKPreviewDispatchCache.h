@@ -4,40 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDispatchCache, CKMultiDict, NSString;
+@class CKDispatchCache;
 
 @interface CKPreviewDispatchCache
 {
     CKDispatchCache *_dispatchCache;
-    CKMultiDict *_pendingBlocks;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)attachmentDescription;
++ (id)r;
++ (id)4~CN4mugAToFqPGhVxoiAOEg90YdjLrib3m-DUd6A/Library/Caches/com.apple.xbs/TemporaryDirectory.FLj4fX/Sources/NotesFramework/Ironcade/SharedUI/WebView/NoteHTMLEditorView.m;
 + (id);
 + (id);
 + (id);
 + (long long);
 + (void);
-+ (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
++ (id)ContentOffsetMode;
+- (void)removeChildWindow:(id)arg1;
+- (void)removeAttribute:(id)arg1 ifInconsistentAtLocation:inTextStorage:forNewTypingAttributes: /* Error: Ran out of types for this method. */;
+- (_Bool)ic_colorBlendedWithColor:(id)arg1 fraction:(id)arg2;
+- (void)_setOverrideBackgroundColor:(id)arg1;
+- (void)_hasLockedNotesNotFromDestinationAccountInSource;
 - (id);
 - (_Bool);
 - (id);
 - (void);
+- (void)CG15paragraphStylest;
+- (void)SaySo16AVAudioPCMBufferCG;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)s;
+- (void)i;
+- (id)t;
+- (void)password with prompt {prompt:(id)arg1 %@}%s:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -54,15 +53,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) CKDispatchCache *dispatchCache; // @synthesize dispatchCache=_dispatchCache;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CKMultiDict *pendingBlocks; // @synthesize pendingBlocks=_pendingBlocks;
-@property(readonly) Class superclass;
 
 @end
 

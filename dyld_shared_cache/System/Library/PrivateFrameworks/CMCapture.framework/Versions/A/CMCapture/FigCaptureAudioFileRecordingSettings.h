@@ -6,24 +6,22 @@
 
 #import <CMCapture/FigCaptureRecordingSettings.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface FigCaptureAudioFileRecordingSettings : FigCaptureRecordingSettings
 {
     NSDictionary *_audioSettings;
-    NSDictionary *_cinematicAudioSettings;
-    NSArray *_metadata;
 }
 
 + (_Bool)$Ð1Â0@ù
 × ;
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)ngRedOnly;
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (void);
 - (id);
@@ -32,8 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *audioSettings; // @synthesize audioSettings=_audioSettings;
-@property(copy, nonatomic) NSDictionary *cinematicAudioSettings; // @synthesize cinematicAudioSettings=_cinematicAudioSettings;
-@property(copy, nonatomic) NSArray *metadata; // @synthesize metadata=_metadata;
 
 @end
 

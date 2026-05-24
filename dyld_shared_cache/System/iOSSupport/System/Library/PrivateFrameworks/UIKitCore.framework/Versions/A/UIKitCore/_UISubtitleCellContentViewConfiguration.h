@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIContentViewEditingConfiguration, _UIContentViewImageViewConfiguration, _UIContentViewLabelConfiguration;
-
 @interface _UISubtitleCellContentViewConfiguration
 {
     struct {
@@ -14,87 +12,58 @@
         unsigned int hasCustomizedImageToTextPadding:1;
         unsigned int hasCustomizedTextToSubtitlePadding:1;
     } _configurationFlags;
-    unsigned long long _axesPreservingSuperviewLayoutMargins;
-    double _imageToTextPadding;
-    double _textToSubtitlePadding;
-    _UIContentViewEditingConfiguration *_textLabelEditingConfiguration;
-    long long _defaultStyle;
-    _UIContentViewImageViewConfiguration *_imageView;
-    _UIContentViewLabelConfiguration *_textLabel;
-    _UIContentViewLabelConfiguration *_subtitleLabel;
-    struct NSDirectionalEdgeInsets _directionalLayoutMargins;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
++ (id));
 + (id);
-+ (id);
-+ (id);
++ (id)_payloadTokenRemovalAction;
 + (_Bool)reenTime.ScreenTimeWebExtension;
 + (id)UIKitCore/_UITabBarControllerVisualStyle_Phone.swift;
 - (id);
 - (double);
 - (void);
 - (void);
-- (id);
-- (void);
-- (double);
-- (id);
-- (void);
+- (id)C32@"NSString"36;
+- (void)storeAttachmentsForMessage:(id)arg1;
+- (double)fileTransfer:acceptedWithPath:autoRename:overwrite:options:source: /* Error: Ran out of types for this method. */;
+- (id)fetchSizeLimitsForTransfer: /* Error: Ran out of types for this method. */;
+- (void)_transitionToWaitingForAssetsForContext:(double)arg1;
 - (id);
 - (id);
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (id);
 - (id);
-- (void);
+- (void)populateLocationPropertiesOfItem:(unsigned long long)arg1 withPath:assetProtectionType: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)Z;
 - (id);
 - (void)iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16;
 - (_Bool)RevertStatusBar"b1};
-- (void):(id)arg1 wordCount:countOnly:correction: /* Error: Ran out of types for this method. */;
-- (double)tShowingCursor: /* Error: Ran out of types for this method. */;
-- (id)thDampingRatio:(struct _NSZone *)arg1 response:tracking:dampingRatioSmoothing:responseSmoothing:targetSmoothing:projectionDeceleration:animations:completion: /* Error: Ran out of types for this method. */;
-- (id)traints;
+- (void)spellServer:(id)arg1 findMisspelledWordInString:language:wordCount:countOnly:correction: /* Error: Ran out of types for this method. */;
+- (double)setShowingCursor: /* Error: Ran out of types for this method. */;
+- (id)_animateUsingSpringWithDampingRatio:(struct _NSZone *)arg1 response:tracking:dampingRatioSmoothing:responseSmoothing:targetSmoothing:projectionDeceleration:animations:completion: /* Error: Ran out of types for this method. */;
+- (id)_accessoryBackdropConstraints;
 - (unsigned long long)Constraint",&,N,V_xConstraint;
 - (struct NSDirectionalEdgeInsets)t;
 - (void)rary/Frameworks/SwiftUI.framework/SwiftUI;
 - (double)ëá?ÿÿÿÿÿÿïÿÿÿÿÿÿïÿÿÿÿÿÿï;
 - (void);
 - (_Bool)|þ%Í13PÊnþÍ13j|þ;
-- (void)te;
-- (void)ceneKeyValueStorageComponent;
+- (void)ExpansionAttribute;
+- (void)_UISceneKeyValueStorageComponent;
 - (id)R0¾33Ü÷;
 - (long long);
 - (void)ø\;
 
 // Remaining properties
 @property(nonatomic, setter=_setAxesPreservingSuperviewLayoutMargins:) unsigned long long _axesPreservingSuperviewLayoutMargins; // @synthesize _axesPreservingSuperviewLayoutMargins;
-@property(nonatomic) long long _defaultStyle; // @synthesize _defaultStyle;
-@property(nonatomic, setter=_setDirectionalLayoutMargins:) struct NSDirectionalEdgeInsets _directionalLayoutMargins; // @synthesize _directionalLayoutMargins;
-@property(nonatomic, setter=_setImageToTextPadding:) double _imageToTextPadding; // @synthesize _imageToTextPadding;
-@property(readonly, nonatomic) _Bool _isSidebarStyle;
-@property(copy, nonatomic) _UIContentViewEditingConfiguration *_textLabelEditingConfiguration; // @synthesize _textLabelEditingConfiguration;
-@property(nonatomic, setter=_setTextToSubtitlePadding:) double _textToSubtitlePadding; // @synthesize _textToSubtitlePadding;
-@property(nonatomic) unsigned long long axesPreservingSuperviewLayoutMargins;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct NSDirectionalEdgeInsets directionalLayoutMargins;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double imageToTextPadding;
-@property(readonly, nonatomic) _UIContentViewImageViewConfiguration *imageView; // @synthesize imageView=_imageView;
-@property(readonly, nonatomic) _UIContentViewLabelConfiguration *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _UIContentViewLabelConfiguration *textLabel; // @synthesize textLabel=_textLabel;
-@property(nonatomic) double textToSubtitlePadding;
 
 @end
 

@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSUUID;
-@protocol OS_dispatch_source, QLDataGenerationHandler;
-
 @interface QLRequestSession
 {
     struct __QLRequest *_request;
-    const void *_documentObject;
-    CDStruct_b3b3fc87 _callbacks;
-    unsigned int _reply_port;
-    NSUUID *_uuid;
-    NSObject<OS_dispatch_source> *_portDeathSource;
-    _Bool _keepAlive;
-    _Bool _isValid;
-    id <QLDataGenerationHandler> _dataHandler;
-    NSMutableArray *_storedData;
-    id _mangledID;
 }
 
 + (void);
 + (void);
-+ (id);
++ (id);
 + (unsigned long long);
 + (_Bool);
 + (id);
@@ -33,8 +20,8 @@
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (_Bool);
++ (void);
++ (_Bool)(;
 - (id);
 - (void);
 - (void);
@@ -48,34 +35,25 @@
 - (id);
 - (void);
 - (void);
-- (struct __QLRequest *);
+- (struct __QLRequest *)(;
 - (id);
-- (_Bool);
+- (_Bool)earch results;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)cancelledSharedGroceryList;
 - (void);
 - (_Bool);
 - (void);
 - (id);
+- (id);
+- (void)egate>";
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (CDStruct_b3b3fc87)enterContent;
+- (CDStruct_70d275a4)CenterContent;
 
 // Remaining properties
-@property(readonly) CDStruct_b3b3fc87 callbacks; // @synthesize callbacks=_callbacks;
-@property(retain) id <QLDataGenerationHandler> dataHandler; // @synthesize dataHandler=_dataHandler;
 @property _Bool isValid; // @synthesize isValid=_isValid;
-@property _Bool keepAlive; // @synthesize keepAlive=_keepAlive;
-@property(retain) id mangledID; // @synthesize mangledID=_mangledID;
-@property(retain) NSObject<OS_dispatch_source> *portDeathSource; // @synthesize portDeathSource=_portDeathSource;
-@property unsigned int reply_port; // @synthesize reply_port=_reply_port;
-@property struct __QLRequest *request; // @synthesize request=_request;
-@property(retain) NSMutableArray *storedData; // @synthesize storedData=_storedData;
-@property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

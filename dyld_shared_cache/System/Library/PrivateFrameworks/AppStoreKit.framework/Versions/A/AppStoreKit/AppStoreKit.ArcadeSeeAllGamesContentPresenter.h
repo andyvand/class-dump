@@ -9,16 +9,6 @@
 @interface AppStoreKit.ArcadeSeeAllGamesContentPresenter : AppStoreKit.BaseShelfPresenter
 {
     id pageUrl;
-    id shelves;
-    id shelfContentTypes;
-    id presentationOptions;
-    id nextPageToken;
-    id displayStyle;
-    id facetsPresenter;
-    id selectedFacetOptions;
-    id view;
-    id delegate;
-    id isPreparingNextPage;
 }
 
 @end

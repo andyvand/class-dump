@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendarViewController, NSPopover, NSSet, NSString;
-@protocol CalUICalendarInfoViewDelegate;
+@class EKCalendarViewController, NSSet;
 
 @interface CalUICalendarInfoViewController
 {
     NSSet *_shareesBeforeSave;
-    NSPopover *_popover;
-    id <CalUICalendarInfoViewDelegate> _delegate;
-    EKCalendarViewController *_calendarViewController;
 }
 
 + (id);
@@ -20,19 +16,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
-- (void);
+- (void)nM9;
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id)z;
 - (id);
-- (id);
-- (id);
+- (id)	;
 - (void);
-- (void);
+- (void)	;
 - (id);
 - (void)1Â0@ù
 × ;
@@ -40,15 +36,6 @@
 
 // Remaining properties
 @property(retain) EKCalendarViewController *calendarViewController; // @synthesize calendarViewController=_calendarViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <CalUICalendarInfoViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSPopover *popover; // @synthesize popover=_popover;
-@property(readonly) Class superclass;
 
 @end
 

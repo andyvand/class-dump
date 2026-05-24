@@ -7,9 +7,6 @@
 @interface ContactsUICore.ContactCardSwiftUIViewModel
 {
     id configuration;
-    id hasSensitiveContent;
-    id stateHandle;
-    id _$observationRegistrar;
 }
 
 @end

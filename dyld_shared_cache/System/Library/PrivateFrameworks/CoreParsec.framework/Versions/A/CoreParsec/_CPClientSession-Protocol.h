@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, _CPUsageEnvelope, _CPUsageSinceLookback;
+@class NSArray, NSString, _CPUsageEnvelope;
 
 @protocol _CPClientSession
+- (void);
+- (_Bool)`;
+- (void)!;
+- (int);
+- (_CPUsageEnvelope *);
+- (NSString *)_;
+- (NSArray *)@0;
+- (double)ql;
+- (void)UID"16@"NSUUID"24;
+- (void)TUCallCenterCallContinuityStateChangedNotification;
+- (id)i;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *agent;
-@property(retain, nonatomic) _CPUsageEnvelope *cohortsFeedback;
-@property(copy, nonatomic) NSString *countryCode;
-@property(nonatomic) unsigned int devicePersistentD20;
-@property(nonatomic) _Bool duEnabled;
-@property(copy, nonatomic) NSArray *experimentInfos;
-@property(copy, nonatomic) NSArray *feedbacks;
-@property(nonatomic) _Bool isInternalCarry;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *jsonFeedback;
-@property(copy, nonatomic) NSString *locale;
-@property(copy, nonatomic) NSString *parsecDeveloperID;
-@property(nonatomic) int previousSessionEndReason;
-@property(nonatomic) int privateRelayStatus;
-@property(nonatomic) _Bool removeTimestamps;
-@property(copy, nonatomic) NSDictionary *resourceVersions;
-@property(nonatomic) _Bool searchOptOut;
-@property(nonatomic) double sessionStart;
-@property(retain, nonatomic) _CPUsageSinceLookback *usageSinceLookback;
-@property(copy, nonatomic) NSString *userGuidString;
 @end
 

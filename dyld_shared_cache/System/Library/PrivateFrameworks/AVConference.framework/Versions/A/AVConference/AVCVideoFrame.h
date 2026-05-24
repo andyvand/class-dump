@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface AVCVideoFrame
 {
     struct __CVBuffer *_pixelBuffer;
-    struct __CVBuffer *_depthPixelBuffer;
-    CDStruct_1b6d18a9 _time;
-    NSData *_imageData;
-    NSData *_effectsMetadata;
-    float _renderProcessTime;
-    id _delegate;
 }
 
 - (void);
 - (void);
 - (float);
-- (id);
+- (id);
 - (id);
 - (struct __CVBuffer *);
 - (void);
 - (void);
-- (id);
+- (id)>=[3d]}})B}16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
-- (CDStruct_1b6d18a9)dingMedia;
+- (CDStruct_198678f7)isSendingMedia;
 - (void)_JTargetJBEstimator_GetNewMinLag;
-- (struct __CVBuffer *)e;
+- (struct __CVBuffer *)VCFECGeneratorCommon_Encode_PrepareOutputSinglePacketFrame;
 
 // Remaining properties
-@property(nonatomic) struct __CVBuffer *depthPixelBuffer; // @synthesize depthPixelBuffer=_depthPixelBuffer;
-@property(retain) NSData *effectsMetadata; // @synthesize effectsMetadata=_effectsMetadata;
-@property(retain) NSData *imageData; // @synthesize imageData=_imageData;
 @property(nonatomic) struct __CVBuffer *pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
-@property float renderProcessTime; // @synthesize renderProcessTime=_renderProcessTime;
-@property CDStruct_1b6d18a9 time; // @synthesize time=_time;
 
 @end
 

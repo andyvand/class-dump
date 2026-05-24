@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWNetworkProfile, CWTetherDevice, CWTrimmedNetwork, NSString;
+@class CWTetherDevice;
 
 @interface CWDisplayedScanResult
 {
     CWTetherDevice *_tetherDevice;
-    CWTrimmedNetwork *_network;
-    CWNetworkProfile *_profile;
-    NSString *_displayName;
-    long long _groupTag;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)d;
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
@@ -34,15 +30,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)oing PairVerify
+;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) long long groupTag; // @synthesize groupTag=_groupTag;
-@property(copy, nonatomic) CWTrimmedNetwork *network; // @synthesize network=_network;
-@property(copy, nonatomic) CWNetworkProfile *profile; // @synthesize profile=_profile;
 @property(copy, nonatomic) CWTetherDevice *tetherDevice; // @synthesize tetherDevice=_tetherDevice;
 
 @end

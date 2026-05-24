@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (EMSearchableIndexQueryAdditions)
-- (id);
+- (id)pQA;
 @end
 

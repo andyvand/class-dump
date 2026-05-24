@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNumber;
+
 @protocol CKBrowserViewControllerStoreSendDelegate
+
+@optional
+- (void)identifierForColumnAtIndex:(NSNumber *)arg1;
 @end
 

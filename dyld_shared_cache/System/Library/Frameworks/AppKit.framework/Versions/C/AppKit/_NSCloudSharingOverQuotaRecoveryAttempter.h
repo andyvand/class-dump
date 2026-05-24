@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (_Bool);
+- (void)ID is deprecated and will return %d;
+- (_Bool)CFURLRequestSetHTTPCookieStorageAcceptPolicy_block_invoke;
 
 @end
 

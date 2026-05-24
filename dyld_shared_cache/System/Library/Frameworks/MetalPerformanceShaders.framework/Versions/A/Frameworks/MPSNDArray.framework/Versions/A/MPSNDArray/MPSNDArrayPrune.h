@@ -9,8 +9,6 @@
 @interface MPSNDArrayPrune : MPSNDArrayUnaryKernel
 {
     float _sparsity;
-    int _pruneMetric;
-    int _pruneStructure;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -25,8 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int pruneMetric; // @synthesize pruneMetric=_pruneMetric;
-@property(nonatomic) int pruneStructure; // @synthesize pruneStructure=_pruneStructure;
 @property(nonatomic) float sparsity; // @synthesize sparsity=_sparsity;
 
 @end

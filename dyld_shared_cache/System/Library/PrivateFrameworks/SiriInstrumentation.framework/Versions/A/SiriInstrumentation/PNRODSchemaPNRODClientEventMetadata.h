@@ -6,34 +6,31 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_pnrodId;
-    _Bool _hasPnrodId;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)˟;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)update Conversation Manager with highlightDictionary:(id)arg1 %@;
+- (id);
 - (id);
-- (id);
-- (id)llowUp;
+- (id)_isFollowUp;
 - (id)ool;
-- (void)sMediaEntitySyncEnabled;
+- (void)isMediaEntitySyncEnabled;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPnrodId; // @synthesize hasPnrodId=_hasPnrodId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *pnrodId; // @synthesize pnrodId=_pnrodId;
 
 @end

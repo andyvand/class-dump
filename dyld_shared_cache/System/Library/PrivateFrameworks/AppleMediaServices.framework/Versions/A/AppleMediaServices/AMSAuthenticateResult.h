@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSAuthKitUpdateResult, NSDictionary, NSString;
+@class ACAccount, AMSAuthKitUpdateResult;
 
 @interface AMSAuthenticateResult
 {
     ACAccount *_account;
-    NSString *_editToken;
-    NSDictionary *_serverResponse;
-    AMSAuthKitUpdateResult *_authKitUpdateResult;
 }
 
 + (_Bool);
@@ -19,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ost likely to initiate a session;
+- (id)ollectorEventAudioMessageRecordingStarted;
 - (id);
 - (id);
 - (void);
@@ -30,11 +27,7 @@
 ,[úïîªµ!ëÉD>_=méûä$â®XÎÚ¤õË Ïà¸m¡7îó&wß»âOÌÿIflv7[rúô;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
 @property(retain) AMSAuthKitUpdateResult *authKitUpdateResult; // @synthesize authKitUpdateResult=_authKitUpdateResult;
-@property(readonly) NSDictionary *authenticationResults;
-@property(readonly) NSString *editToken; // @synthesize editToken=_editToken;
-@property(readonly) NSDictionary *serverResponse; // @synthesize serverResponse=_serverResponse;
 
 @end
 

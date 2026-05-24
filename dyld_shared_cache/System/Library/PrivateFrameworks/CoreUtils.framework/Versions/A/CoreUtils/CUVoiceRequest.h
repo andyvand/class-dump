@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SiriTTSSpeechRequest;
-
 __attribute__((visibility("hidden")))
 @interface CUVoiceRequest
 {
     unsigned int _flags;
-    CDUnknownBlockType _completionHandler;
-    id _owner;
-    SiriTTSSpeechRequest *_speechRequest;
 }
 
 - (id);
@@ -27,9 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(retain, nonatomic) id owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) SiriTTSSpeechRequest *speechRequest; // @synthesize speechRequest=_speechRequest;
 
 @end
 

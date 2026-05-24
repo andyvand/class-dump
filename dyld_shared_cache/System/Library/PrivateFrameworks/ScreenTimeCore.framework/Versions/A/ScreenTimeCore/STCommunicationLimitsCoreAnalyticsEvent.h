@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface STCommunicationLimitsCoreAnalyticsEvent
 {
     _Bool _communicationLimited;
-    _Bool _contactManagementEnabled;
-    _Bool _contactEditingAllowed;
-    _Bool _userIsRemote;
-    long long _userAgeGroup;
 }
 
-+ (id);
-- (_Bool);
-- (long long);
-- (id);
-- (_Bool);
-- (_Bool);
++ (id)P;
+- (_Bool)estore, download_identifier, play_count_user, play_count_recent, has_been_played, date_played, date_skipped, date_accessed, is_alarm, skip_count_user, skip_count_recent, remember_bookmark, bookmark_time_ms, hidden, chosen_by_auto_fill) SELECT item_pid, user_rating, needs_restore, download_identifier, play_count_user, play_count_recent, has_been_played, date_played, date_skipped, date_accessed, is_alarm, skip_count_user, skip_count_recent, remember_bookmark, bookmark_time_ms, hidden, chosen_by_auto_fill FROM item_stats;
+- (long long)NOT NULL DEFAULT 0, liked_state INTEGER NOT NULL DEFAULT 0);
+- (id)ERT INTO new_album (album_pid, album, sort_album, album_artist_pid, representative_item_pid, representative_item_artwork_token, grouping_key, cloud_status, user_rating, all_compilations, feed_url, season_number, album_year, keep_local, keep_local_status) SELECT album_pid, album, sort_album, album_artist_pid, representative_item_pid, artwork_cache_id, grouping_key, cloud_status, user_rating, all_compilations, feed_url, season_number, album_year, keep_local, keep_local_status FROM album;
+- (_Bool)set sync_id = ? where item_pid = ?;
+- (_Bool)M item JOIN base_location USING(base_location_id) WHERE path = 'Podcasts');
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) _Bool communicationLimited; // @synthesize communicationLimited=_communicationLimited;
-@property(readonly) _Bool contactEditingAllowed; // @synthesize contactEditingAllowed=_contactEditingAllowed;
-@property(readonly) _Bool contactManagementEnabled; // @synthesize contactManagementEnabled=_contactManagementEnabled;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *payload;
-@property(readonly) long long userAgeGroup; // @synthesize userAgeGroup=_userAgeGroup;
-@property(readonly) _Bool userIsRemote; // @synthesize userIsRemote=_userIsRemote;
 
 @end
 

@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface SidecarRunLoopSource
 {
     struct __CFRunLoopSource *_source;
-    struct __CFDictionary *_modes;
-    struct os_unfair_lock_s _lock;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)negativeAutonamingUserFeedbackForPerson:rejectedName: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

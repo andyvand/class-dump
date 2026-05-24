@@ -6,26 +6,18 @@
 
 #import <AppKit/NSTouchBarItemTreeItemNode.h>
 
-@class NSString, NSTouchBar;
+@class NSTouchBar;
 
 @interface NSTouchBarItemTreeGroupItemNode : NSTouchBarItemTreeItemNode
 {
 }
 
-- (long long);
-- (id);
-- (id)xtAlignment;
+- (long long)ash;
+- (id)BoardRevision;
+- (id)NSTextAlignment;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSTouchBar *touchBarContainingChildNodes;
-@property(readonly) long long touchBarLayoutDirection;
 
 @end
 

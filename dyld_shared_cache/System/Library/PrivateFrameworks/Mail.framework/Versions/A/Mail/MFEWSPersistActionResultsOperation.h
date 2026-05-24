@@ -6,14 +6,11 @@
 
 #import <Mail/MFEWSPersistenceTaskOperation.h>
 
-@class ECLocalMessageAction, ECLocalMessageActionResults;
-@protocol MFEWSPersistActionResultsOperationDelegate;
+@class ECLocalMessageAction;
 
 @interface MFEWSPersistActionResultsOperation : MFEWSPersistenceTaskOperation
 {
     ECLocalMessageAction *_messageAction;
-    ECLocalMessageActionResults *_results;
-    id <MFEWSPersistActionResultsOperationDelegate> _delegate;
 }
 
 - (id);
@@ -21,14 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)makeKeyWindow;
 - (void);
 - (void)Ð0;
 
 // Remaining properties
-@property(nonatomic) __weak id <MFEWSPersistActionResultsOperationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) ECLocalMessageAction *messageAction; // @synthesize messageAction=_messageAction;
-@property(readonly, nonatomic) ECLocalMessageActionResults *results; // @synthesize results=_results;
 
 @end
 

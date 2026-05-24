@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorSMSParserPart
 {
@@ -18,9 +18,7 @@
 - (void)Select;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *attachmentParts;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *textParts;
 
 @end
 

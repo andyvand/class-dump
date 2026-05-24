@@ -6,21 +6,9 @@
 
 #import <IMDPersistence/IMDCoreSpotlightBaseIndexingJob.h>
 
-@class CSDonationProgress, IMSpotlightClientState, NSArray, NSData;
-
 @interface IMDCoreSpotlightIndexingJob : IMDCoreSpotlightBaseIndexingJob
 {
     _Bool _suppressClientStateManagerPrewarm;
-    NSArray *_searchableItems;
-    NSArray *_rejectedItems;
-    NSArray *_deletedItemIdentifiers;
-    IMSpotlightClientState *_updatedClientState;
-    unsigned long long _deferredIndexingDepth;
-    NSArray *_immediateSearchableItems;
-    NSArray *_deferredSearchableItems;
-    CSDonationProgress *_donationProgress;
-    NSData *_previousClientStateData;
-    NSData *_updatedClientStateData;
 }
 
 + (void);
@@ -51,7 +39,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (double);
+- (double)z8(	;
 - (void);
 - (id);
 - (void);
@@ -60,37 +48,27 @@
 - (void);
 - (id);
 - (id);
+- (void)=;
+- (_Bool);
+- (void);
+- (void)80;
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ions/C/Foundation;
 - (void)_date, start_date, filename, uti, mime_type, transfer_state, is_outgoing, user_info, transfer_name, total_bytes, is_sticker, sticker_user_info, attribution_info, hide_attachment, ck_sync_state, ck_server_change_token_blob, ck_record_id, original_guid, is_commsafety_sensitive, emoji_image_content_identifier, emoji_image_short_description, preview_generation_state FROM attachment ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long deferredIndexingDepth; // @synthesize deferredIndexingDepth=_deferredIndexingDepth;
-@property(retain, nonatomic) NSArray *deferredSearchableItems; // @synthesize deferredSearchableItems=_deferredSearchableItems;
-@property(retain, nonatomic) NSArray *deletedItemIdentifiers; // @synthesize deletedItemIdentifiers=_deletedItemIdentifiers;
-@property(retain, nonatomic) CSDonationProgress *donationProgress; // @synthesize donationProgress=_donationProgress;
-@property(retain, nonatomic) NSArray *immediateSearchableItems; // @synthesize immediateSearchableItems=_immediateSearchableItems;
-@property(retain, nonatomic) NSData *previousClientStateData; // @synthesize previousClientStateData=_previousClientStateData;
-@property(retain, nonatomic) NSArray *rejectedItems; // @synthesize rejectedItems=_rejectedItems;
-@property(retain, nonatomic) NSArray *searchableItems; // @synthesize searchableItems=_searchableItems;
-@property(nonatomic) _Bool suppressClientStateManagerPrewarm; // @synthesize suppressClientStateManagerPrewarm=_suppressClientStateManagerPrewarm;
-@property(retain, nonatomic) IMSpotlightClientState *updatedClientState; // @synthesize updatedClientState=_updatedClientState;
-@property(retain, nonatomic) NSData *updatedClientStateData; // @synthesize updatedClientStateData=_updatedClientStateData;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface ABCardCollectionMessagingRowView : ABCardCollectionRowView
 {
     NSPopUpButton *_messagingServiceChooserPopup;
-    NSTextField *_messagingServiceLabel;
 }
 
 - (void);
@@ -27,7 +26,6 @@
 - (void)÷ÿæ¸øK;
 
 // Remaining properties
-@property(retain) NSPopUpButton *messagingServiceChooserPopup; // @synthesize messagingServiceChooserPopup=_messagingServiceChooserPopup;
 @property(retain) NSTextField *messagingServiceLabel; // @synthesize messagingServiceLabel=_messagingServiceLabel;
 
 @end

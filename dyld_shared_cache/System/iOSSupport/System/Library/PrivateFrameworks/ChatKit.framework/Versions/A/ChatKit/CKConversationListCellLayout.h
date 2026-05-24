@@ -7,39 +7,18 @@
 @interface CKConversationListCellLayout
 {
     _Bool _shouldShowChevron;
-    _Bool _shouldShowAvatarView;
-    _Bool _showingEditControl;
-    _Bool _invalid;
-    double _tableViewWidth;
-    double _summaryLabelCapFrameYOrigin;
-    double _trailingLayoutMarginSize;
-    double _contentViewWidth;
-    double _contentViewHeight;
-    double _widthForDeterminingAvatarVisibility;
-    double _lastUsedDisplayScale;
-    double _cellHeight;
-    struct CGRect _summaryFrameIfAccessoryIndicatorVisible;
-    struct CGRect _summaryFrameIfAccessoryIndicatorHidden;
-    struct CGRect _dateFrame;
-    struct CGRect _priorityFrame;
-    struct CGRect _senderFrame;
-    struct CGRect _chevronFrame;
-    struct CGRect _indicatorContainerFrame;
-    struct CGRect _unreadFrame;
-    struct CGRect _avatarFrame;
-    struct CGRect _footerFrame;
 }
 
+- (double)appURLForNoteIdentifier:inVirtualSmartFolder:actionName: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_initialFontSize;
+- (double)er",C,N,V_fromValue;
 - (double);
-- (struct CGRect);
-- (double);
-- (double);
-- (double);
-- (struct CGRect);
-- (struct CGRect);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (double)undoneImageView;
+- (struct CGRect)typeUTIIsImage: /* Error: Ran out of types for this method. */;
+- (struct CGRect)"NSString",R,C,N,V_keyboardLanguage;
+- (_Bool)mpt;
+- (_Bool)ICNoteTimelineSection;
+- (_Bool)InlineAttachmentManagement_UI;
 - (void);
 - (void);
 - (void);
@@ -52,28 +31,28 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (struct CGRect);
-- (void);
-- (double);
-- (_Bool);
+- (void);
 - (struct CGRect);
 - (struct CGRect);
+- (void)g;
 - (double);
-- (double);
-- (double);
+- (_Bool)D;
+- (struct CGRect)result:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (struct CGRect)h triggering coalesced mention notification to %@, expecting %@;
+- (double)ange who can read and edit all notes within it.;
+- (double)e it.;
+- (double);
 - (double);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (struct CGRect);
-- (void);
+- (void)j{8I;
 - (id);
 - (struct CGRect);
 - (void);
@@ -81,28 +60,7 @@
 - (void)ving live browser for plugin %@;
 
 // Remaining properties
-@property(nonatomic) struct CGRect avatarFrame; // @synthesize avatarFrame=_avatarFrame;
-@property(nonatomic) double cellHeight; // @synthesize cellHeight=_cellHeight;
-@property(nonatomic) struct CGRect chevronFrame; // @synthesize chevronFrame=_chevronFrame;
-@property(nonatomic) double contentViewHeight; // @synthesize contentViewHeight=_contentViewHeight;
-@property(nonatomic) double contentViewWidth; // @synthesize contentViewWidth=_contentViewWidth;
-@property(nonatomic) struct CGRect dateFrame; // @synthesize dateFrame=_dateFrame;
-@property(nonatomic) struct CGRect footerFrame; // @synthesize footerFrame=_footerFrame;
-@property(nonatomic) struct CGRect indicatorContainerFrame; // @synthesize indicatorContainerFrame=_indicatorContainerFrame;
 @property(nonatomic) _Bool invalid; // @synthesize invalid=_invalid;
-@property(nonatomic) double lastUsedDisplayScale; // @synthesize lastUsedDisplayScale=_lastUsedDisplayScale;
-@property(nonatomic) struct CGRect priorityFrame; // @synthesize priorityFrame=_priorityFrame;
-@property(nonatomic) struct CGRect senderFrame; // @synthesize senderFrame=_senderFrame;
-@property(nonatomic) _Bool shouldShowAvatarView; // @synthesize shouldShowAvatarView=_shouldShowAvatarView;
-@property(nonatomic) _Bool shouldShowChevron; // @synthesize shouldShowChevron=_shouldShowChevron;
-@property(nonatomic) _Bool showingEditControl; // @synthesize showingEditControl=_showingEditControl;
-@property(nonatomic) struct CGRect summaryFrameIfAccessoryIndicatorHidden; // @synthesize summaryFrameIfAccessoryIndicatorHidden=_summaryFrameIfAccessoryIndicatorHidden;
-@property(nonatomic) struct CGRect summaryFrameIfAccessoryIndicatorVisible; // @synthesize summaryFrameIfAccessoryIndicatorVisible=_summaryFrameIfAccessoryIndicatorVisible;
-@property(nonatomic) double summaryLabelCapFrameYOrigin; // @synthesize summaryLabelCapFrameYOrigin=_summaryLabelCapFrameYOrigin;
-@property(nonatomic) double tableViewWidth; // @synthesize tableViewWidth=_tableViewWidth;
-@property(nonatomic) double trailingLayoutMarginSize; // @synthesize trailingLayoutMarginSize=_trailingLayoutMarginSize;
-@property(nonatomic) struct CGRect unreadFrame; // @synthesize unreadFrame=_unreadFrame;
-@property(nonatomic) double widthForDeterminingAvatarVisibility; // @synthesize widthForDeterminingAvatarVisibility=_widthForDeterminingAvatarVisibility;
 
 @end
 

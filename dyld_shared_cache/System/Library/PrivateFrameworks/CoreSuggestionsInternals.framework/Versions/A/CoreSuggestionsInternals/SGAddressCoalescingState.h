@@ -9,14 +9,11 @@
 @interface SGAddressCoalescingState
 {
     NSMutableArray *_matches;
-    long long _lastAddressIndex;
-    long long _lastAddressEndPos;
-    struct __DDResult *_lastResult;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)CoreDAVRemoveItem;
 - (id);
 - (void);
 - (void)ä;

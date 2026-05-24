@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationManager, NSMutableArray, NSObject, NSString, NSTimer, PKPaymentDeviceConfigurationData, PKSecureElement;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CLLocationManager;
 
 @interface PKPaymentDevice
 {
     CLLocationManager *_locationManager;
-    NSTimer *_timer;
-    NSObject<OS_dispatch_source> *_locationFixTimeout;
-    PKSecureElement *_secureElement;
-    PKPaymentDeviceConfigurationData *_configurationData;
-    NSMutableArray *_metdataFetchTasks;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    _Bool _skipLocationCheck;
 }
 
 + (id);
@@ -29,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -48,18 +39,11 @@
 - (void);
 - (void);
 - (void)eviceType;
-- (void)SOCIATED_ACCOUNT_TITLE;
+- (void)PEER_PAYMENT_ERROR_ALERT_CANNOT_ADD_ASSOCIATED_ACCOUNT_TITLE;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool skipLocationCheck; // @synthesize skipLocationCheck=_skipLocationCheck;
-@property(readonly) Class superclass;
 
 @end
 

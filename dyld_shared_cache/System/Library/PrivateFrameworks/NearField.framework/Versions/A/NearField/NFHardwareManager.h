@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFHardwareControllerInfo, NSMutableSet, NSString, NSUUID;
+@class NFHardwareControllerInfo;
 
 @interface NFHardwareManager
 {
     NFHardwareControllerInfo *_controllerInfo;
-    NSMutableSet *_sessions;
-    NSMutableSet *_eventListeners;
-    unsigned long long _type;
 }
 
 + (void);
@@ -23,12 +20,12 @@
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)P;
 - (void);
 - (void);
 - (id);
@@ -40,7 +37,7 @@
 - (id);
 - (long long);
 - (_Bool);
-- (id);
+- (id)+;
 - (id);
 - (void);
 - (void);
@@ -70,7 +67,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -96,20 +93,58 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)3
+;
 - (id);
 - (id);
 - (void);
+- (id)isContentPrivacyEnabledForDSID:(_Bool)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ost is nil in configureHostButtonsForSafetySettings();
+- (id){
+          "itemType":"purchaseSharingItem",
+          "ranking":5
+        },
+        {
+          "itemType":"appleCashItem",
+          "ranking":4
+        }
+      ]
+    },
+    {
+      "id":"exploreMore",
+      "ranking":40,
+      "items":[
+        {
+          "itemType":"familyGroceryListItem",
+          "ranking":8
+        },
+        {
+          "itemType":"sharedFamilyCalendarItem",
+          "ranking":6
+        },
+        {
+          "itemType":"sharedPasswordItem",
+          "ranking":5
+        },
+        {
+          "itemType":"contactItem",
+          "ranking":4
+        },
+        {
+          "itemType":"iMessageConfigItem",
+          "ranking":4
+        }
+      ]
+    }
+  ]
+} /* Error: Ran out of types for this method. */;
+- (id)LocationShareListener;
 - (void);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (unsigned int);
@@ -122,7 +157,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -130,7 +165,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)w
+
+;
 - (id);
 - (id);
 - (id);
@@ -138,30 +175,20 @@
 - (id);
 - (id);
 - (_Bool);
+- (void)8&;
+- (_Bool);
+- (id);
 - (void);
-- (_Bool);
-- (id);
+- (id)*userRecord originalHomeLoc]=%s", [*userRecord nodeName]=%s", [*userRecord rawNodeName]=%s", [*userRecord originalNodeName]=%s",  [*userRecord isMobileUserAccount]=%d;
+- (id)in domain and that the path exists on your volume.  You may need to remove the local home if you continue to have this problem.);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)X;
 - (void);
 - (_Bool)sing uri;
 
 // Remaining properties
-@property(readonly) NSUUID *blessedUser;
 @property(readonly) NFHardwareControllerInfo *controllerInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isBackgroundTagReadingAvailable;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suspendBackgroundTagReading;
 
 @end
 

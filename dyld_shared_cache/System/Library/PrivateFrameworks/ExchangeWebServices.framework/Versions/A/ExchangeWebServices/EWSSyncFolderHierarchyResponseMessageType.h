@@ -6,13 +6,11 @@
 
 #import <ExchangeWebServices/EWSResponseMessageType.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EWSSyncFolderHierarchyResponseMessageType : EWSResponseMessageType
 {
     _Bool _IncludesLastFolderInRange;
-    NSString *_SyncState;
-    NSArray *_Changes;
 }
 
 + (id);
@@ -26,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *Changes; // @synthesize Changes=_Changes;
-@property(nonatomic) _Bool IncludesLastFolderInRange; // @synthesize IncludesLastFolderInRange=_IncludesLastFolderInRange;
 @property(copy, nonatomic) NSString *SyncState; // @synthesize SyncState=_SyncState;
 
 @end

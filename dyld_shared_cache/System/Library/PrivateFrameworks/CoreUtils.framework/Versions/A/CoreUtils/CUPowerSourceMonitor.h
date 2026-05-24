@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface CUPowerSourceMonitor
 {
     _Bool _activateCalled;
-    NSMutableDictionary *_aggregateSources;
-    NSMutableDictionary *_pendingAggregates;
-    NSMutableDictionary *_powerSources;
-    int _psNotifyTokenAccessoryAttach;
-    int _psNotifyTokenAccessoryPowerSource;
-    int _psNotifyTokenAccessoryTimeRemaining;
-    int _psNotifyTokenAnyPowerSource;
-    unsigned int _changeFlags;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    CDUnknownBlockType _powerSourceFoundHandler;
-    CDUnknownBlockType _powerSourceLostHandler;
-    CDUnknownBlockType _powerSourceChangedHandler;
 }
 
 - (void);
@@ -31,16 +15,16 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)_attestationHeaders;
 - (void);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void).%;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -49,16 +33,11 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
+- (void)identityForEmbeddedApplicationIdentifier: /* Error: Ran out of types for this method. */;
+- (void)home:didAddActionSet: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned int changeFlags; // @synthesize changeFlags=_changeFlags;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType powerSourceChangedHandler; // @synthesize powerSourceChangedHandler=_powerSourceChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType powerSourceFoundHandler; // @synthesize powerSourceFoundHandler=_powerSourceFoundHandler;
-@property(copy, nonatomic) CDUnknownBlockType powerSourceLostHandler; // @synthesize powerSourceLostHandler=_powerSourceLostHandler;
 
 @end
 

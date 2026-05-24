@@ -10,14 +10,11 @@ __attribute__((visibility("hidden")))
 @interface MTLToolsObjectCache
 {
     NSMapTable *_map;
-    struct recursive_mutex _lock;
-    struct vector<id, std::allocator<id>> _keyRemoveList;
-    struct os_unfair_lock_s _listLock;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)_node<std::__hash_value_type<unsigned long, (anonymous namespace)::EncoderResourceUsage>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, (anonymous namespace)::EncoderResourceUsage>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, (anonymous namespace)::EncoderResourceUsage>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long, (anonymous namespace)::EncoderResourceUsage>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;

@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMethodSignature, NSString;
+@class NSArray;
 
 @interface SGStringPreprocessingTransformer
 {
     NSArray *_methodNames;
-    NSArray *_methodValues;
-    NSMethodSignature *_methodSignatureNoValue;
-    NSMethodSignature *_methodSignatureWithValue;
 }
 
-+ (id);
++ (id)decodeEnvironmentDataBitMap:(id)arg1;
 - (_Bool);
 - (id);
 - (void);
 - (SEL);
 - (id);
-- (id);
-- (id);
+- (id)getBytes:(id)arg1 length: /* Error: Ran out of types for this method. */;
+- (id)getAbsoluteDateComponentsWithDefaultMinutes:(id)arg1 withTime:withDefaultMinutes: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

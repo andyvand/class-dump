@@ -6,39 +6,31 @@
 
 #import <UIKitCore/_UIShapeView.h>
 
-@class NSArray, UIColor;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UITextItemHighlightView : _UIShapeView
 {
     NSArray *_textLineRects;
-    UIColor *_fillColor;
-    double _cornerRadius;
-    double _horizontalPadding;
-    double _verticalPadding;
 }
 
 - (id);
 - (void);
 - (void);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)_resetSyncToken;
 - (void);
 - (void);
+- (double)tePlaybackQueue ignored [infoCenter was invalidated];
 - (double);
-- (double);
-- (id)orScreen;
+- (id)_minimumSizeForScreen;
 - (double)ing offscreen cell to setup animations;
 - (id)countered out of bounds section index while validating move updates (section=%ld, oldSectionCount=%ld);
-- (void)ellStyle;
+- (void)UITableViewCellStyle;
 - (void)] is unavailable for this object.;
-- (void);
+- (void)SaySo19DDMatchEmailAddressCG;
 
 // Remaining properties
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(retain, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(nonatomic) double horizontalPadding; // @synthesize horizontalPadding=_horizontalPadding;
 @property(copy, nonatomic) NSArray *textLineRects; // @synthesize textLineRects=_textLineRects;
-@property(nonatomic) double verticalPadding; // @synthesize verticalPadding=_verticalPadding;
 
 @end
 

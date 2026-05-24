@@ -7,10 +7,6 @@
 @interface NewsUI2.MagazineSectionViewControllerFactory
 {
     id magazineCatalogModule;
-    id magazineFeedModule;
-    id magazineGridModule;
-    id magazineGridModelLoaderFactory;
-    id tagFeedModule;
 }
 
 @end

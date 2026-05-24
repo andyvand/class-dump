@@ -9,9 +9,6 @@
 @interface NSURL
 {
     NSString *_urlString;
-    NSURL *_baseURL;
-    void *_clients;
-    void *_reserved;
 }
 
 @end

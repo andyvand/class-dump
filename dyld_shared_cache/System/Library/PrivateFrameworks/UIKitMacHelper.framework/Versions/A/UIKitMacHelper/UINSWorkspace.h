@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSWorkspace, NSMutableArray, NSMutableDictionary, NSScreen;
-@protocol UINSApplication, UINSHidManager, UINSTextInput;
+@class NSScreen;
 
 @interface UINSWorkspace
 {
     struct os_unfair_lock_s _lock;
-    FBSWorkspace *_workspace;
-    NSMutableArray *_lock_appScenes;
-    NSMutableDictionary *_lock_scenesBySceneID;
-    NSMutableDictionary *_lock_scenesByPersistentID;
-    NSMutableArray *_lock_pendingAppSceneBlocks;
-    unsigned char _lock_pendingAppScenes;
-    struct CGRect _initialScreenFrame;
-    unsigned int _initialDisplayID;
-    id <UINSHidManager> _hidManager;
-    id <UINSTextInput> _textInput;
 }
 
 + (id);
@@ -27,7 +16,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)J;
 - (id);
 - (void);
 - (id);
@@ -53,13 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <UINSApplication> application;
-@property(readonly, nonatomic) id <UINSHidManager> hidManager; // @synthesize hidManager=_hidManager;
-@property(readonly, nonatomic) unsigned int initialDisplayID;
 @property(readonly, nonatomic) __weak NSScreen *initialScreen;
-@property(readonly, nonatomic) _Bool prefersSmallerDisplaySize;
-@property(readonly, nonatomic) id <UINSTextInput> textInput; // @synthesize textInput=_textInput;
-@property(readonly, nonatomic) struct CGSize usableDisplaySizeHint;
 
 @end
 

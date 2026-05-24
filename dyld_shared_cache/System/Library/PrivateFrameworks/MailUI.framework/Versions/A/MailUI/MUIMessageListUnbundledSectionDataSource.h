@@ -7,41 +7,32 @@
 #import <MailUI/MessageListSectionDataSource.h>
 
 @class NSDictionary;
-@protocol EFCancelable;
 
 @interface MUIMessageListUnbundledSectionDataSource : MessageListSectionDataSource
 {
     _Bool _hideFollowUp;
-    _Bool _localMailboxSearchScope;
-    NSDictionary *_snippetHintsByGlobalMessageID;
-    id <EFCancelable> _hideFollowUpUserDefaultsObserver;
-    id <EFCancelable> _localMailboxSearchScopeUserDefaultsObserver;
 }
 
+- (id);
+- (_Bool);
+- (void)h;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)RA;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)ier: /* Error: Ran out of types for this method. */;
+- (void)rowForItemIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=shouldHideFollowUp) _Bool hideFollowUp; // @synthesize hideFollowUp=_hideFollowUp;
-@property(retain, nonatomic) id <EFCancelable> hideFollowUpUserDefaultsObserver; // @synthesize hideFollowUpUserDefaultsObserver=_hideFollowUpUserDefaultsObserver;
-@property(nonatomic, getter=isLocalMailboxSearchScope) _Bool localMailboxSearchScope; // @synthesize localMailboxSearchScope=_localMailboxSearchScope;
-@property(retain, nonatomic) id <EFCancelable> localMailboxSearchScopeUserDefaultsObserver; // @synthesize localMailboxSearchScopeUserDefaultsObserver=_localMailboxSearchScopeUserDefaultsObserver;
 @property(retain, nonatomic) NSDictionary *snippetHintsByGlobalMessageID; // @synthesize snippetHintsByGlobalMessageID=_snippetHintsByGlobalMessageID;
 
 @end

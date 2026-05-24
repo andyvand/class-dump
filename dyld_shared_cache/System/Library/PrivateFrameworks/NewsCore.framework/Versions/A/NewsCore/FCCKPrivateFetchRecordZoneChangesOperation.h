@@ -6,20 +6,11 @@
 
 #import <NewsCore/FCCKPrivateDatabaseOperation.h>
 
-@class CKRecordZoneID, FCCKPrivateDatabaseServerChangeToken, NSArray;
+@class NSArray;
 
 @interface FCCKPrivateFetchRecordZoneChangesOperation : FCCKPrivateDatabaseOperation
 {
     _Bool _fetchNewestChangesFirst;
-    _Bool _fetchAllChanges;
-    _Bool _resultMoreComing;
-    CKRecordZoneID *_recordZoneID;
-    FCCKPrivateDatabaseServerChangeToken *_previousServerChangeToken;
-    NSArray *_desiredKeys;
-    CDUnknownBlockType _fetchRecordZoneChangesCompletionBlock;
-    NSArray *_resultChangedRecords;
-    NSArray *_resultDeletedRecordIDs;
-    FCCKPrivateDatabaseServerChangeToken *_resultServerChangeToken;
 }
 
 - (void);
@@ -29,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)identifier %@, entryDate %@:(id)arg1 %@;
 - (void);
 - (id);
 - (id);
@@ -49,16 +40,7 @@
 - (_Bool)EQ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
-@property(nonatomic) _Bool fetchNewestChangesFirst; // @synthesize fetchNewestChangesFirst=_fetchNewestChangesFirst;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordZoneChangesCompletionBlock; // @synthesize fetchRecordZoneChangesCompletionBlock=_fetchRecordZoneChangesCompletionBlock;
-@property(copy, nonatomic) FCCKPrivateDatabaseServerChangeToken *previousServerChangeToken; // @synthesize previousServerChangeToken=_previousServerChangeToken;
-@property(copy, nonatomic) CKRecordZoneID *recordZoneID; // @synthesize recordZoneID=_recordZoneID;
 @property(retain, nonatomic) NSArray *resultChangedRecords; // @synthesize resultChangedRecords=_resultChangedRecords;
-@property(retain, nonatomic) NSArray *resultDeletedRecordIDs; // @synthesize resultDeletedRecordIDs=_resultDeletedRecordIDs;
-@property(nonatomic) _Bool resultMoreComing; // @synthesize resultMoreComing=_resultMoreComing;
-@property(retain, nonatomic) FCCKPrivateDatabaseServerChangeToken *resultServerChangeToken; // @synthesize resultServerChangeToken=_resultServerChangeToken;
 
 @end
 

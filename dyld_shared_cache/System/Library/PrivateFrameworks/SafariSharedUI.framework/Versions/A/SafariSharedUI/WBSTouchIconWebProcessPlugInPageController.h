@@ -11,14 +11,11 @@
 @interface WBSTouchIconWebProcessPlugInPageController : WBSWebProcessPlugInPageController
 {
     id <WBSTouchIconObserver> _touchIconObserver;
-    unsigned long long _mainFrameMainResourceId;
-    _Bool _didRecieveDidHandleOnloadEventsForFrameCallback;
-    _Bool _shouldExtractIconsWhenRecievingDidHandleOnloadEventsForFrameCallback;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)IP;
 - (void);
 - (void);
 - (void);

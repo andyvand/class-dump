@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRDebouncedAction
 {
     id delegate;
-    id queue;
-    id interval;
-    id passthroughSubject;
-    id cancellable;
 }
 
 @end

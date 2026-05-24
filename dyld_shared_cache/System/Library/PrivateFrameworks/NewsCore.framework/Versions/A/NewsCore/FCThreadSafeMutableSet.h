@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock, NSArray, NSMutableSet, NSSet;
+@class NFUnfairLock;
 
 @interface FCThreadSafeMutableSet
 {
     NFUnfairLock *_lock;
-    NSMutableSet *_set;
 }
 
 - (id);
@@ -19,21 +18,18 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)markLostForLastKnownFinalSelectedSourceDiskDetails:forSystem:wasRegained: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long)sANF: /* Error: Ran out of types for this method. */;
-- (void);
+- (unsigned long long)setIsANF: /* Error: Ran out of types for this method. */;
+- (void)videoComplete75BaselineImpressionValue;
 - (void)ch My Articles from Smarter Fetch%{public}s;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allObjects;
 @property(readonly) unsigned long long count;
-@property(readonly) _Bool isEmpty;
-@property(readonly, copy, nonatomic) NSSet *readOnlySet;
 
 @end
 

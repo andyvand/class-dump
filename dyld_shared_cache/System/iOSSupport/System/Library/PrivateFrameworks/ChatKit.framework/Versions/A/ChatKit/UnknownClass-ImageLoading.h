@@ -14,12 +14,13 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,8 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)B;
 - (id);
 @end
 

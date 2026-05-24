@@ -4,35 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 @interface CKUploadRequestPersistentStore
 {
     _Bool _firstInvocation;
-    NSURL *_databaseURL;
-    NSObject<OS_dispatch_queue> *_stateQueue;
 }
 
 + (id);
 - (long long);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)h;
 - (id);
 - (id);
 - (void);
@@ -45,15 +42,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)ken:(id)arg1 referenceIdentifier:error: /* Error: Ran out of types for this method. */;
+- (void)handleRecordAccessInitiationForRecordID:(id)arg1 accessToken:referenceIdentifier:error: /* Error: Ran out of types for this method. */;
 - (void)sZoneConfiguration",C,V_defaultZoneConfiguration;
-- (void)lidator;
+- (void)CKComparisonModifierValidator;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *databaseURL; // @synthesize databaseURL=_databaseURL;
-@property(nonatomic) _Bool firstInvocation; // @synthesize firstInvocation=_firstInvocation;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
 
 @end
 

@@ -4,64 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CWFSCNetworkService
 {
     NSObject<OS_dispatch_queue> *_mutexQueue;
-    NSObject<OS_dispatch_queue> *_eventQueue;
-    struct __SCDynamicStore *_storeRef;
-    struct __SCPreferences *_prefsRef;
-    _Bool _isMonitoringEvents;
-    NSString *_serviceID;
-    NSString *_serviceName;
-    CDUnknownBlockType _eventHandler;
-    NSString *_interfaceName;
 }
 
+- (id)b`;
+- (_Bool);
+- (id)_optionsDuetPreClearedMode;
+- (void);
 - (id);
+- (_Bool);
+- (id)Window did become key and biometry is enabled, activating.;
+- (id);
+- (id);
+- (void)m.apple.appleaccount.custodian.postRepairCFU;
+- (void)Button:%@
+secondaryButton:%@
+helpLinkTitle:%@
+helpLinkURL:%@
+ownerHandle:%@
+recipientHandle:%@
+custodianshipInfo:%@
+ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)a
+;
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (id)work/Versions/A/ApplicationServices;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)supported ALPN protocol:'%.*s' /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id)>;
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (id)× ;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)dateFormatter;
+- (id)getBytes:length: /* Error: Ran out of types for this method. */;
+- (void)_dateFormatter;
 - (void)orization;
 - (id)$C;
 - (id)on:%@ /* Error: Ran out of types for this method. */;
-- (id)Hz;
+- (id)width160MHz;
 - (id)}    function getSelectorPathForElement(elem) {    let uniqueSelector = null;    let list = [];    while (elem.parentNode) {        let sel = '';        let tmp = '';        let tagName = elem.tagName;        if (tagName) {            sel += tagName.toLowerCase();        }        let idAttr = elem.getAttribute('id');        if (idAttr) {            sel += '#'+idAttr;        }        let nameAttr = elem.getAttribute('name');        if (nameAttr) {            sel += '[name='+nameAttr+']';        }        let typeAttr = elem.getAttribute('type');        if (typeAttr) {            sel += '[type='+typeAttr+']';        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        list.shift();        let classAttr = elem.getAttribute('class');        if (classAttr) {            sel += '.'+classAttr.split(' ').join('.');            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('focusout', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:true}); }); await p; return p; /* Error: Ran out of types for this method. */;
 - (id)Client Display Name:'%@', MAC Address:'%@', Product Color:'%@', Product Marketing Name:'%@', Product Type:'%@', Peer Identifier:'%@', Data Usage Last:%@, Data Usage Total:%@, Data Usage Last Updated:%@ /* Error: Ran out of types for this method. */;
 - (id)ERSAVE;
@@ -69,8 +69,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) CDUnknownBlockType eventHandler; // @synthesize eventHandler=_eventHandler;
-@property(readonly, copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(readonly, copy, nonatomic) NSString *serviceID;
 
 @end
 

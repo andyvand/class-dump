@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void)esOperationCallbacks;
+- (void)CKFetchRecordZonesOperationCallbacks;
 
 // Remaining properties
 @property(readonly, nonatomic) CKSyncEngineSendChangesContext *context; // @synthesize context=_context;

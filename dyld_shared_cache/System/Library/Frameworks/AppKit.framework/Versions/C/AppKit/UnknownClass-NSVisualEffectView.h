@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NSVisualEffectView)
-- (void);
+- (void)6Rg;
 @end
 

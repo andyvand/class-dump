@@ -14,10 +14,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_TtC18PodcastsFoundation15FairPlayService;
 - (void);
 - (void);
-- (void)arPlayTableViewBackgroundColor;
+- (void)carPlayTableViewBackgroundColor;
 - (void);
 
 // Remaining properties

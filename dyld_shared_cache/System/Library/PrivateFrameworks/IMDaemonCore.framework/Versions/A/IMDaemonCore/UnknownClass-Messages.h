@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (Messages)
-- (void);
+- (void)H9;
 @end
 

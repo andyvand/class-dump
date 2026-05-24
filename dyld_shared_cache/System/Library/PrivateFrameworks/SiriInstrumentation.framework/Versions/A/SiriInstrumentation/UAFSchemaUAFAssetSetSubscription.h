@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface UAFSchemaUAFAssetSetSubscription : SISchemaInstrumentationMessage
 {
     NSString *_subscriptionName;
-    NSArray *_assetSetIndices;
-    NSArray *_assetSetUsages;
-    NSArray *_usageAliases;
-    NSArray *_alteredAssetSets;
-    NSArray *_eliminatedAssetSets;
-    _Bool _hasSubscriptionName;
 }
 
 - (unsigned long long);
@@ -31,55 +25,48 @@
 - (void);
 - (void);
 - (_Bool);
+- (unsigned long long);
+- (id);
+- (id)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
+- (id)S?;
 - (unsigned long long);
 - (unsigned int);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_cardViewController;
+- (_Bool)m.handle_id, m.subject, m.country, m.attributedBody, m.version, m.type, m.service, m.account, m.account_guid, m.error, m.date, m.date_read, m.date_delivered, m.is_delivered, m.is_finished, m.is_emote, m.is_from_me, m.is_empty, m.is_delayed, m.is_auto_reply, m.is_prepared, m.is_read, m.is_system_message, m.is_sent, m.has_dd_results, m.is_service_message, m.is_forward, m.was_downgraded, m.is_archive, m.cache_has_attachments, m.cache_roomnames, m.was_data_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INDEXED BY message_idx_undelivered_one_to_one_imessage WHERE   m.cache_roomnames IS NULL   AND m.service IN ('%@', '%@')   AND m.is_sent = 1   AND m.is_delivered = 0   AND m.was_downgraded = 0   AND m.item_type == 0   AND m.schedule_type == 0   AND m.ROWID > ? ORDER BY m.date ASC;
 - (id);
 - (id);
-- (id)etectionEndTimeInNs;
-- (id)mobileAssetErrorsReported;
-- (void)zationArtistAffinity;
+- (id)deleteSecondPassCheckerModelKeywordDetectionEndTimeInNs;
+- (id)_mobileAssetErrorsReported;
+- (void)personalizationArtistAffinity;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *alteredAssetSets; // @synthesize alteredAssetSets=_alteredAssetSets;
-@property(copy, nonatomic) NSArray *assetSetIndices; // @synthesize assetSetIndices=_assetSetIndices;
-@property(copy, nonatomic) NSArray *assetSetUsages; // @synthesize assetSetUsages=_assetSetUsages;
-@property(copy, nonatomic) NSArray *eliminatedAssetSets; // @synthesize eliminatedAssetSets=_eliminatedAssetSets;
-@property(nonatomic) _Bool hasSubscriptionName; // @synthesize hasSubscriptionName=_hasSubscriptionName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *subscriptionName; // @synthesize subscriptionName=_subscriptionName;
-@property(copy, nonatomic) NSArray *usageAliases; // @synthesize usageAliases=_usageAliases;
 
 @end
 

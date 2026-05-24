@@ -10,11 +10,11 @@
 {
 }
 
-+ (id);
++ (id)AccessibilityVOPronunciation2;
 + (_Bool)Ô(ð!AùqA,Ð1Â0@ù
 × ;
 + (id)`[-°;
-- (void);
+- (void)uphold;
 - (void);
 - (void)L, state, %{sensitive}@, lifespan %{sensitive}f, numOfClustEntries %{sensitive}d, LastLoc Dist to Clust %{sensitive}f, ageLatestClust visit %{sensitive}f, Max Cluster Dist %{sensitive}f, weeklyDens %{sensitive}f, dailyDens %{sensitive}f;
 - (void)m±;

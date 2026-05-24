@@ -4,71 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDHouseholdNetworkStabilityLogEvent
 {
     unsigned long long _numStabilityReporters;
-    unsigned long long _numWifiAssociations;
-    unsigned long long _numWifiDisassociations;
-    unsigned long long _numAPChanges;
-    unsigned long long _numGatewayChanges;
-    unsigned long long _numReadWrites;
-    unsigned long long _numReadErrors;
-    unsigned long long _numWriteErrors;
-    unsigned long long _numSessionErrors;
-    unsigned long long _numNetworkSignatures;
 }
 
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)"<MSPSharedTripRelayDelegate>",W,N,V_delegate;
+- (unsigned long long)ContactControllerDelegate>",W,N,V_delegate;
+- (unsigned long long)_isolationQueue;
+- (unsigned long long)",R,N,G_providerNames;
+- (unsigned long long)StringAsOrigin: /* Error: Ran out of types for this method. */;
+- (unsigned long long)MSPFileContainerPersister;
+- (unsigned long long)MSPGroupSessionStorage;
+- (unsigned long long)MapsSupportExtras;
+- (unsigned long long)GEONavigationListenerPrivateDelegate;
+- (unsigned long long)MSPRouteInformationSource;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) unsigned long long numAPChanges; // @synthesize numAPChanges=_numAPChanges;
-@property(readonly, nonatomic) unsigned long long numGatewayChanges; // @synthesize numGatewayChanges=_numGatewayChanges;
-@property(readonly, nonatomic) unsigned long long numNetworkSignatures; // @synthesize numNetworkSignatures=_numNetworkSignatures;
-@property(readonly, nonatomic) unsigned long long numReadErrors; // @synthesize numReadErrors=_numReadErrors;
-@property(readonly, nonatomic) unsigned long long numReadWrites; // @synthesize numReadWrites=_numReadWrites;
-@property(readonly, nonatomic) unsigned long long numSessionErrors; // @synthesize numSessionErrors=_numSessionErrors;
 @property(readonly, nonatomic) unsigned long long numStabilityReporters; // @synthesize numStabilityReporters=_numStabilityReporters;
-@property(readonly, nonatomic) unsigned long long numWifiAssociations; // @synthesize numWifiAssociations=_numWifiAssociations;
-@property(readonly, nonatomic) unsigned long long numWifiDisassociations; // @synthesize numWifiDisassociations=_numWifiDisassociations;
-@property(readonly, nonatomic) unsigned long long numWriteErrors; // @synthesize numWriteErrors=_numWriteErrors;
-@property(readonly) Class superclass;
 
 @end
 

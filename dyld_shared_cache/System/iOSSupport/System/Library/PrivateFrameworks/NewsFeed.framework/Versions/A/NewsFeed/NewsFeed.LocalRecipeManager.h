@@ -7,7 +7,6 @@
 @interface NewsFeed.LocalRecipeManager
 {
     id assetManager;
-    id recipeEntries;
 }
 
 @end

@@ -11,12 +11,12 @@
     NSArray *_trafficDescriptors;
 }
 
-+ (_Bool);
++ (_Bool)alling %@;
+- (id)y;
+- (id)�;
+- (void)J;
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)removeAllRightsWithCompletion:(id)arg1;
 - (id);
 - (void)qª)1Â0@ù
 × ;

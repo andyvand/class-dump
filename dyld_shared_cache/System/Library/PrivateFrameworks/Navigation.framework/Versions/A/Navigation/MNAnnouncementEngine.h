@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNAnnouncementPlan, NSArray, NSDictionary;
+@class MNAnnouncementPlan, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MNAnnouncementEngine
 {
     NSArray *_events;
-    double _distance;
-    double _speed;
-    NSDictionary *_durations;
-    MNAnnouncementPlan *_plan;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)CustomSpecifiedPreferenceModifier;
 - (double);
 - (_Bool);
 - (double);

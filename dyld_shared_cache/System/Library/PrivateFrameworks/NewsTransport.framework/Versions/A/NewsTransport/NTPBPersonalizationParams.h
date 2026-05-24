@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NTPBPersonalizationParams
 {
     NSString *_uivModelId;
-    NSData *_userInterestVector;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasUivModelId;
 @property(readonly, nonatomic) _Bool hasUserInterestVector;
-@property(retain, nonatomic) NSString *uivModelId; // @synthesize uivModelId=_uivModelId;
-@property(retain, nonatomic) NSData *userInterestVector; // @synthesize userInterestVector=_userInterestVector;
 @end
 

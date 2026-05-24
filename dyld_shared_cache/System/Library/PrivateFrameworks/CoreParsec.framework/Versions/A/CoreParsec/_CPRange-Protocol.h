@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol _CPRange
+- (unsigned long long);
+- (void)markUnreadRecentCallsAsReadWithPredicate:(unsigned long long)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long length;
 @property(nonatomic) unsigned long long location;
 @end
 

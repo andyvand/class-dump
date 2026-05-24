@@ -6,8 +6,6 @@
 
 #import <MapsSync/MapsSyncManagedHistoryItem.h>
 
-@class NSData, NSNumber, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedHistoryMultiPointRoute : MapsSyncManagedHistoryItem
 {
@@ -18,12 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool navigationInterrupted; // @dynamic navigationInterrupted;
-@property(nonatomic, retain) NSNumber *requiredCharge; // @dynamic requiredCharge;
-@property(nonatomic) short routeProgressWaypointIndex; // @dynamic routeProgressWaypointIndex;
-@property(nonatomic, copy) NSData *routeRequestStorage; // @dynamic routeRequestStorage;
-@property(nonatomic, copy) NSData *sharedETAData; // @dynamic sharedETAData;
-@property(nonatomic) short type; // @dynamic type;
-@property(nonatomic, copy) NSString *vehicleIdentifier; // @dynamic vehicleIdentifier;
 
 @end
 

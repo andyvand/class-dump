@@ -16,14 +16,14 @@
 + (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)Q2;
 - (void);
 - (id);
+- (void)teCategory",R,V_smilingCategory;
 - (id);
+- (id)�;
 - (void);
-- (void):toDeviceWithUUID:completion: /* Error: Ran out of types for this method. */;
+- (void)injectAudio:toDeviceWithUUID:completion: /* Error: Ran out of types for this method. */;
 - (void)Failed to prepare %@ due to error %@.;
 - (void)urrent requestId %@;
 

@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _DUIImageComponent, _DUIPreview;
+@class _DUIPreview;
 
 @interface _DUIPreviewAndImageComponent
 {
     _DUIPreview *_preview;
-    _DUIImageComponent *_imageComponent;
-    unsigned long long _index;
 }
 
 + (_Bool)ported.;
-- (void);
+- (void)fetchUserRecordIDWithCompletionHandler:(id)arg1;
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (_Bool)mitsLayoutForSuspiciousContents:(id)arg1;
-- (void)alizationFactor;
+- (_Bool)setLimitsLayoutForSuspiciousContents:(id)arg1;
+- (void)movementNormalizationFactor;
 - (id)orCurrentUpdate;
-- (id)exPath:(struct _NSZone *)arg1;
+- (id)collectionView:(struct _NSZone *)arg1 didBeginMultipleSelectionInteractionAtIndexPath: /* Error: Ran out of types for this method. */;
 - (unsigned long long)te;
 - (void);
 - (void)ø«ÿQcØÈc;
 
 // Remaining properties
-@property(retain, nonatomic) _DUIImageComponent *imageComponent; // @synthesize imageComponent=_imageComponent;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
 @property(retain, nonatomic) _DUIPreview *preview; // @synthesize preview=_preview;
 
 @end

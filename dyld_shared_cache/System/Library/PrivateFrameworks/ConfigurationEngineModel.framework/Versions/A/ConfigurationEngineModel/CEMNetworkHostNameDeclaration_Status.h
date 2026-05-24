@@ -10,12 +10,12 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)eFrameworks/SymptomDiagnosticReporter.framework/Versions/A/SymptomDiagnosticReporter;
++ (id)ns/A/Cocoa;
++ (id)em/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa;
++ (id);
 - (id);
-- (_Bool);
+- (_Bool)ad];
 
 @end
 

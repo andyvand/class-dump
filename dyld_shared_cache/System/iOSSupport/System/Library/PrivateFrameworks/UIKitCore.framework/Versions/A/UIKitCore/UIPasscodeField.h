@@ -6,24 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, NSMutableString, NSString, UIButton;
+@class NSMutableString;
 
 @interface UIPasscodeField : UIView
 {
     NSMutableString *_value;
-    NSMutableArray *_entryFields;
-    NSMutableArray *_entryBackgrounds;
-    UIButton *_okButton;
-    _Bool _opaqueBackground;
-    _Bool _centerHorizontally;
-    long long _keyboardType;
-    long long _keyboardAppearance;
-    int _emptyContentReturnKeyType;
-    id _delegate;
 }
 
-+ (Class);
-+ (double);
++ (Class)for GUID %@;
++ (double)w;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -33,15 +24,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (void);
+- (void);
+- (int)setting up transfer;
+- (void)set for transfer guid at the end of this batch:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (void)_payloadPeerLocalSubnetsOnly;
+- (void)setFallbackCache:(id)arg1;
+- (_Bool)@;
 - (_Bool)cð1Â0@ù
 × ;
 - (void)b1"shouldUpdateHelperMessage"b1"clearSuggestionsOnSelection"b1"shouldFocusResultsOnNextFocusUpdate"b1"updateSearchTextOnDidSelectSuggestion"b1"shouldFocusKeyboardOnNextFocusUpdate"b1"clearAsCancelButtonVisibilityWhenEmpty"b2"hideSearchResultsDivider"b1};
@@ -54,13 +45,7 @@
 - (_Bool)¬ðk;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

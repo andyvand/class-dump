@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTXPCActivityCriteria;
+@class NSString;
 
 @interface RTXPCActivityRegistrant
 {
     _Bool _didInvokeDeferHandler;
-    NSString *_identifier;
-    RTXPCActivityCriteria *_criteria;
-    CDUnknownBlockType _handler;
-    CDUnknownBlockType _deferHandler;
 }
 
 - (CDUnknownBlockType);
-- (void);
+- (void)streamWithParticipantID:(_Bool)arg1 streamArray:anyParticipant:anyStream: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)cateVendor";
 - (CDUnknownBlockType);
 - (id);
 - (id)Ô ;
@@ -27,10 +23,6 @@
 - (void)isplay name update failed due to, %@;
 
 // Remaining properties
-@property(readonly, nonatomic) RTXPCActivityCriteria *criteria; // @synthesize criteria=_criteria;
-@property(readonly, copy, nonatomic) CDUnknownBlockType deferHandler; // @synthesize deferHandler=_deferHandler;
-@property(nonatomic) _Bool didInvokeDeferHandler; // @synthesize didInvokeDeferHandler=_didInvokeDeferHandler;
-@property(readonly, copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

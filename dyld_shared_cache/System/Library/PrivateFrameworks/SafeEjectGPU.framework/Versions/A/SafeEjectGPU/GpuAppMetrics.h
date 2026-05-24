@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSArray;
 
 @interface GpuAppMetrics
 {
     double fStartTime;
-    double fLastFlushTime;
-    NSObject<OS_dispatch_queue> *fQueue;
-    struct IONotificationPort *fDeviceNotifyPort;
-    NSMutableArray *_fAppsArray;
-    NSObject<OS_dispatch_source> *fSampleTimer;
-    NSObject<OS_dispatch_source> *fFlushTimer;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)q ";
 - (id);
 - (void);
 - (void);

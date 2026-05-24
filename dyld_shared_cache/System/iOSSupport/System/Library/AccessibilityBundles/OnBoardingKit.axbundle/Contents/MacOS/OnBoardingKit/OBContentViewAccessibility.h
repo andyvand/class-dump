@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)@0:8@16B24 /* Error: Ran out of types for this method. */;
 + (id);
-+ (void);
++ (void);
 - (_Bool);
 
 @end

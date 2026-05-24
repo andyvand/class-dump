@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IMSPIChat
 {
     _Bool _isGroup;
-    _Bool _isBlackholed;
-    NSString *_guid;
-    NSString *_chatIdentifier;
-    NSString *_serviceName;
-    NSString *_displayName;
-    NSArray *_handles;
 }
 
-+ (void);
-- (id);
-- (void);
-- (void);
++ (void)] %s:(CDUnknownBlockType)arg1 %d %@(%p) Failed to setup delegate queue;
+- (id):(struct _IMDChatRecordStruct *)arg1 %d packetThread=%p SendPacketsProc ending. dispatch_semaphore_wait returned %ld;
+- (void)sn't support;
+- (void)ed max screen encoders=%d Not adding streamQualityIndex=%d;
 - (_Bool);
-- (void);
+- (void)t %@ is too small (%d calls) for Target Bitrate adaptation. Target Bitrate defaults to %d;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)leTransferFinishedRemoteIntentDownload: /* Error: Ran out of types for this method. */;
+- (id)fileTransferFinishedRemoteIntentDownload: /* Error: Ran out of types for this method. */;
 - (void)¼;
 - (void);
 
 // Remaining properties
-@property(retain) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
-@property(retain) NSString *displayName; // @synthesize displayName=_displayName;
 @property(retain) NSString *guid; // @synthesize guid=_guid;
-@property(retain) NSArray *handles; // @synthesize handles=_handles;
-@property(readonly) _Bool isBlackholed; // @synthesize isBlackholed=_isBlackholed;
-@property _Bool isGroup; // @synthesize isGroup=_isGroup;
-@property(retain) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

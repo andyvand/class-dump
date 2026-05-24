@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CXCallDirectoryManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_defaultConnection;
-    NSXPCConnection *_maintenanceConnection;
 }
 
 + (id);
@@ -27,25 +25,23 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Enabled:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)MPArtworkCatalogErrorDomain;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)_sessionId;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices;
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *defaultConnection; // @synthesize defaultConnection=_defaultConnection;
-@property(retain, nonatomic) NSXPCConnection *maintenanceConnection; // @synthesize maintenanceConnection=_maintenanceConnection;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

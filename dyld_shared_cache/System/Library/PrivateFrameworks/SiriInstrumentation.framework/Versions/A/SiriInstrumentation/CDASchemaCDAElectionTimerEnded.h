@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CDASchemaCDAElectionTimerEnded : SISchemaInstrumentationMessage
 {
     int _state;
-    CDStruct_5accba53 _has;
 }
 
 - (void);
@@ -22,16 +19,14 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (int);
-- (_Bool);
+- (int)atRecordsFilteredUsingPredicate:sortedUsingDescriptors:limit:completionHandler:] /* Error: Ran out of types for this method. */;
+- (_Bool)AH;
 - (id);
 - (id)gerExecutionFailed";
-- (id)VSchemaCNVFlowPluginInputEnded;
+- (id)CNVSchemaCNVFlowPluginInputEnded;
 - (id)à|}T~x~Èì´Ø Ä8¬ü p\;
 
 // Remaining properties
-@property(nonatomic) _Bool hasState;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

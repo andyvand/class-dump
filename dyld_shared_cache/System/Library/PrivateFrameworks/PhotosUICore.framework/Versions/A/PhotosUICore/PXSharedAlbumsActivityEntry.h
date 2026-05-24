@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSManagedObjectID, NSString, PHFetchResult, PHPhotoLibrary, PXSharedAlbumsActivityEntryAvatarConfiguration, PXSharedAlbumsActivityEntryContributor;
-
 @interface PXSharedAlbumsActivityEntry
 {
     _Bool _isFromMe;
-    _Bool _cloudOwnerIsAllowlisted;
-    PHPhotoLibrary *_photoLibrary;
-    NSString *_uuid;
-    NSDate *_date;
-    long long _type;
-    NSArray *_contributors;
-    NSArray *_contributorDisplayNames;
-    NSArray *_avatarConfigurations;
-    NSString *_albumName;
-    NSString *_albumGUID;
-    NSString *_message;
-    NSArray *_keyAssetUUIDs;
-    NSString *_relatedCommentUUID;
-    NSArray *_relatedUUIDs;
-    id _underlyingObject;
-    NSManagedObjectID *_objectID;
-    PHFetchResult *_keyAssets;
 }
 
 + (id);
@@ -33,7 +14,7 @@
 + (unsigned long long);
 + (id);
 + (id);
-+ (id);
++ (id)A;
 + (id);
 + (id);
 + (id);
@@ -42,6 +23,12 @@
 + (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -50,43 +37,27 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (long long)DeclareTexture0; /* image */ 
+		DeclareTexture1; /* mask */ 
+		DeclareForeColorU; 
+		void main() 
+		{ 
+			lowp vec4 color = SampleTexture0; 
+			DoFilter0(color); 
+			color *= SampleTexture1.a; 
+			gl_FragColor = uColor * color; 
+		} 
+		;
 - (id);
 - (id)ûÿr÷ÿ;
 - (id)Iïÿ_pSgG;
 - (id)>;
-- (id)nu;
+- (id)InteractiveMemoryButtonAccessibilityLabelActionMenu;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *albumGUID; // @synthesize albumGUID=_albumGUID;
-@property(readonly, copy, nonatomic) NSString *albumName; // @synthesize albumName=_albumName;
-@property(readonly, nonatomic) PXSharedAlbumsActivityEntryAvatarConfiguration *avatarConfiguration;
-@property(readonly, nonatomic) NSArray *avatarConfigurations; // @synthesize avatarConfigurations=_avatarConfigurations;
-@property(readonly, nonatomic) _Bool cloudOwnerIsAllowlisted; // @synthesize cloudOwnerIsAllowlisted=_cloudOwnerIsAllowlisted;
-@property(readonly, nonatomic) PXSharedAlbumsActivityEntryContributor *contributor;
-@property(readonly, copy, nonatomic) NSString *contributorDisplayName;
-@property(readonly, copy, nonatomic) NSArray *contributorDisplayNames; // @synthesize contributorDisplayNames=_contributorDisplayNames;
-@property(readonly, nonatomic) NSArray *contributors; // @synthesize contributors=_contributors;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(readonly, copy, nonatomic) NSArray *keyAssetUUIDs; // @synthesize keyAssetUUIDs=_keyAssetUUIDs;
-@property(readonly, copy, nonatomic) PHFetchResult *keyAssets; // @synthesize keyAssets=_keyAssets;
-@property(readonly, copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, copy, nonatomic) NSManagedObjectID *objectID; // @synthesize objectID=_objectID;
-@property(readonly, copy, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, copy, nonatomic) NSString *relatedCommentUUID; // @synthesize relatedCommentUUID=_relatedCommentUUID;
-@property(readonly, copy, nonatomic) NSArray *relatedUUIDs; // @synthesize relatedUUIDs=_relatedUUIDs;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 @property(readonly, nonatomic) id underlyingObject; // @synthesize underlyingObject=_underlyingObject;
-@property(readonly, copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

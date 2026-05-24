@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, NSURL, NSWindow;
-
 @interface CKDialogContext
 {
     int _proxyPID;
-    NSURL *_proxyBundleURL;
-    NSWindow *_hostWindow;
-    NSImage *_icon;
 }
 
 - (void);
@@ -22,27 +17,17 @@
 - (id);
 - (BOOL);
 - (void);
+- (void)permissionsForSystemLibraryURLReadOnlyService;
+- (id)changedIndexesRelativeToSnapshot;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(retain) NSImage *icon; // @synthesize icon=_icon;
-@property(copy) NSURL *proxyBundleURL;
 @property int proxyPID;
-@property(readonly) Class superclass;
 
 @end
 

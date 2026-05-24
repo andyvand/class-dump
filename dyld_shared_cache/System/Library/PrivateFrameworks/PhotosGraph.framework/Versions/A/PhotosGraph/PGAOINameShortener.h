@@ -8,9 +8,9 @@
 {
 }
 
++ (id)oller",W,N,V__applicationController;
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (void);
 

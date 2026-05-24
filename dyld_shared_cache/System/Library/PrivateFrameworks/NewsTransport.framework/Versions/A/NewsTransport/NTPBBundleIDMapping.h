@@ -11,22 +11,22 @@
     NSMutableArray *_bundleIds;
 }
 
-+ (Class);
-- (id);
++ (Class)_pickerAllPhotosVirtualCollection;
+- (id)_skippedSuggestions;
+- (void)_showFileRadarButtonOnInternalInstalls;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)attachmentImageURLs;
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)bL;
 - (id);
-- (void);
+- (void)#;
 - (id);
-- (void);
+- (void)hasPaidSubscriptionConfig;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *bundleIds; // @synthesize bundleIds=_bundleIds;

@@ -9,23 +9,17 @@
 @interface FCChannelPaywallConfig
 {
     _Bool _filterALaCartePaidArticlesForPaidBundleSubscribers;
-    NSString *_channelID;
-    unsigned long long _articleSoftPaywallPosition;
-    unsigned long long _articleSoftPaywallPositionForPaidBundleSubscribers;
 }
 
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (unsigned long long)rticleIDs;
+- (id)P;
+- (unsigned long long)relatedArticleIDs;
 - (id)atedGroupHeadlineScoringOutputName;
 - (void)pyWithOrder:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long articleSoftPaywallPosition; // @synthesize articleSoftPaywallPosition=_articleSoftPaywallPosition;
-@property(readonly, nonatomic) unsigned long long articleSoftPaywallPositionForPaidBundleSubscribers; // @synthesize articleSoftPaywallPositionForPaidBundleSubscribers=_articleSoftPaywallPositionForPaidBundleSubscribers;
 @property(readonly, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
-@property(readonly, nonatomic) _Bool filterALaCartePaidArticlesForPaidBundleSubscribers; // @synthesize filterALaCartePaidArticlesForPaidBundleSubscribers=_filterALaCartePaidArticlesForPaidBundleSubscribers;
 
 @end
 

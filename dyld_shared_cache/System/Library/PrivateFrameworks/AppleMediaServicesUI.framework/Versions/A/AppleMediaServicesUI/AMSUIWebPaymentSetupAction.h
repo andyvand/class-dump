@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSString *_referrerIdentifier;
 }
 
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)y:%@.  Are you really, really sure you meant that? /* Error: Ran out of types for this method. */;
+- (id)UseDDSForABTesting;
+- (void);
+- (id)le:%@ /* Error: Ran out of types for this method. */;
 - (void)tion"24@"NSError"32@"<NSSecureCoding>"40;
 
 // Remaining properties

@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _UITextPlaceholderAttachment;
+@class NSArray;
 
 @interface UITextPlaceholder
 {
     NSArray *_rects;
-    _UITextPlaceholderAttachment *_attachment;
-    struct CGRect _caretRectBeforeInsertion;
 }
 
-- (void);
-- (struct CGRect);
-- (void);
+- (void)IMAKUserInfoChangedNotification;
+- (struct CGRect)alized!  (Environment:%@) /* Error: Ran out of types for this method. */;
+- (void)c;
 - (id);
-- (void);
+- (void)isMemberOfClass:(id)arg1;
 - (id);
 - (id)>8?¼?Ø@TA;
 - (void)a;
 
 // Remaining properties
-@property(retain, nonatomic) _UITextPlaceholderAttachment *attachment; // @synthesize attachment=_attachment;
-@property(nonatomic) struct CGRect caretRectBeforeInsertion; // @synthesize caretRectBeforeInsertion=_caretRectBeforeInsertion;
 @property(copy, nonatomic) NSArray *rects; // @synthesize rects=_rects;
 
 @end

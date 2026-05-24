@@ -5,16 +5,45 @@
 //
 
 @protocol PLPhotoAnalysisGraphServiceProtocol
+- (id);
+- (id)date;
+- (id);
+- (id)setKeyAttestationAuthority: /* Error: Ran out of types for this method. */;
+- (id)setExtensionBundle: /* Error: Ran out of types for this method. */;
+- (id)vol uuid for %@;
+- (id);
+- (id)HJ
+;
+- (id)*J
+;
+- (id)H1'FJ
+;
+- (id);
+- (id)-J
+;
+- (id)-H+'
+;
+- (id)e;
+- (id)p;
+- (id),;
+- (id)<;
+- (id);
+- (id);
+- (id)rces/Commerce/StoreFoundation/StoreFoundation/NSString+Sandbox.m;
+- (id)ʡ;
+- (id)absoluteTimeFilter;
+- (id)PLXPCAgent_EventForward_UIKitKeyboard;
+- (id)>~;
 - (id)EùÈÐ1Â0@ù
 × ;
 - (id)BùñÈ1Â0@ù
 × ;
-- (id)deoComplement;
+- (id)isOriginalVideoComplement;
 - (id)PLSearchIndexingContext;
-- (id)itationRecordsToShareParticipants;
+- (id)PLModelMigrationAction_MigrateOrphanedCloudSharedAlbumInvitationRecordsToShareParticipants;
 - (id)Q;
 - (id)´;
 - (id)new assets to add to duplicate album %{public}@;
-- (id)lassification;
+- (id)classification;
 @end
 

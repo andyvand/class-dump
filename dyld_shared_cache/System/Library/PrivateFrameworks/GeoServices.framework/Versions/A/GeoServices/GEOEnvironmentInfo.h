@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOResourceManifestDownload, NSData, NSDictionary, NSError, NSProgress, NSString;
+@class NSError, NSString;
 
 @interface GEOEnvironmentInfo
 {
     NSString *_name;
-    NSString *_displayName;
-    NSString *_releaseName;
-    NSString *_actualName;
-    long long _state;
-    NSData *_manifestData;
-    NSError *_lastLoadingError;
-    NSDictionary *_originalDictionaryRepresentation;
-    NSProgress *_activationProgress;
 }
 
 - (id);
@@ -28,27 +20,20 @@
 - (void);
 - (id);
 - (id);
+- (id)StreetAbbreviations;
+- (id)8;
+- (void)rial-reader-writer;
+- (id)NSTextCheckingResult"16;
+- (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)52@60;
 - (long long);
-- (id)ocessEntitlement: /* Error: Ran out of types for this method. */;
+- (id)currentProcessEntitlement: /* Error: Ran out of types for this method. */;
 - (void)q;
 
 // Remaining properties
-@property(readonly, nonatomic) NSProgress *activationProgress; // @synthesize activationProgress=_activationProgress;
-@property(readonly, nonatomic) NSString *actualName; // @synthesize actualName=_actualName;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) NSError *lastLoadingError; // @synthesize lastLoadingError=_lastLoadingError;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *releaseName; // @synthesize releaseName=_releaseName;
-@property(readonly, nonatomic) GEOResourceManifestDownload *resourceManifest;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

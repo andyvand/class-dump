@@ -7,9 +7,9 @@
 @class CLServiceVendor, CLSilo;
 
 @protocol CLIntersiloUniverse
+- (CLServiceVendor *);
 
 // Remaining properties
 @property(readonly, nonatomic) CLSilo *silo;
-@property(readonly, nonatomic) CLServiceVendor *vendor;
 @end
 

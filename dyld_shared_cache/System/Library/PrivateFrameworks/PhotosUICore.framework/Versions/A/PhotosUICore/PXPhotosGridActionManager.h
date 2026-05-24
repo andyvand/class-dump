@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PXPhotosViewModel;
+@class PXPhotosViewModel;
 @protocol PXPhotosGridActionPerformerInformationProviderDelegate;
 
 @interface PXPhotosGridActionManager
 {
     id <PXPhotosGridActionPerformerInformationProviderDelegate> _userInfoDelegate;
-    PXPhotosViewModel *_viewModel;
-    NSDictionary *_actionPerformersByType;
 }
 
 + (id);
@@ -21,15 +19,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (id)RD;
 - (id);
-- (id);
-- (id)tDetailsViewButtonDisplayStyle:(id)arg1;
+- (id)setDetailsViewButtonDisplayStyle:(id)arg1;
 - (void)%âµÈ)üþ;
 - (id)0PE<;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *actionPerformersByType; // @synthesize actionPerformersByType=_actionPerformersByType;
-@property(nonatomic) __weak id <PXPhotosGridActionPerformerInformationProviderDelegate> userInfoDelegate; // @synthesize userInfoDelegate=_userInfoDelegate;
 @property(readonly, nonatomic) __weak PXPhotosViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end

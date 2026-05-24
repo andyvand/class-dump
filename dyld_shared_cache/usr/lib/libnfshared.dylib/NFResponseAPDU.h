@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NFResponseAPDU
 {
     unsigned short _status;
-    NSData *_data;
 }
 
 + (id);
@@ -17,12 +14,10 @@
 - (id);
 - (id);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short)@"SUCoreDescriptor",&,N,V_updateBrainDescriptor;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) NSData *response;
 @property(readonly, nonatomic) unsigned short status; // @synthesize status=_status;
 
 @end

@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKClassKitCurrentUserProvider, NSMutableArray, NSString;
+@class NSString;
 @protocol CRKPersonaBlockPerforming;
 
 @interface CRKClassKitPersonaAdopter
 {
     NSString *_currentPersonaUniqueString;
-    id <CRKPersonaBlockPerforming> _personaBlockPerformer;
-    CRKClassKitCurrentUserProvider *_currentUserProvider;
-    NSMutableArray *_stashedBlocks;
 }
 
 + (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -33,10 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currentPersonaUniqueString; // @synthesize currentPersonaUniqueString=_currentPersonaUniqueString;
-@property(readonly, nonatomic) CRKClassKitCurrentUserProvider *currentUserProvider; // @synthesize currentUserProvider=_currentUserProvider;
 @property(readonly, nonatomic) id <CRKPersonaBlockPerforming> personaBlockPerformer; // @synthesize personaBlockPerformer=_personaBlockPerformer;
-@property(readonly, nonatomic) NSMutableArray *stashedBlocks; // @synthesize stashedBlocks=_stashedBlocks;
 
 @end
 

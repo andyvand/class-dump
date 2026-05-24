@@ -15,19 +15,16 @@
 - (int);
 - (_Bool);
 - (void);
-- (unsigned int);
+- (unsigned int)#d5I;
 - (unsigned long long);
 - (_Bool);
 - (double);
 - (double);
 - (double);
-- (unsigned long long);
+- (unsigned long long)loadWithConfiguration:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool isHorizontal;
-@property(readonly) int wheelDelta;
 @property(readonly) int wheelDeltaX;
-@property(readonly) int wheelDeltaY;
 
 @end
 

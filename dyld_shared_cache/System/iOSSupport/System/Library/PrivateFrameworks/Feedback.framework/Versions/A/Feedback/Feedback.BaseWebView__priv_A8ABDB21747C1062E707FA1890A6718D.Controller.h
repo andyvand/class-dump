@@ -7,6 +7,7 @@
 @interface Feedback.BaseWebView__priv_A8ABDB21747C1062E707FA1890A6718D.Controller
 {
     id parent;
+    id;
 }
 
 - (void);

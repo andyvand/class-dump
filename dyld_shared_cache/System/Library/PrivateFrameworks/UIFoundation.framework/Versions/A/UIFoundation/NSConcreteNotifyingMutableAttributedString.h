@@ -9,11 +9,11 @@
     id _delegate;
 }
 
-+ (Class);
++ (Class)6w/;
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)27 ;
+- (void);
 - (void);
 
 @end

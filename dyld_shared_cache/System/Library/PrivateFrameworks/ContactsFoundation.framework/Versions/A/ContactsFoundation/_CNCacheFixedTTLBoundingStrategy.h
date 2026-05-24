@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol CNTimeProvider;
-
 @interface _CNCacheFixedTTLBoundingStrategy
 {
     double _ttl;
-    unsigned long long _renewalOptions;
-    id <CNTimeProvider> _timeProvider;
-    NSMutableDictionary *_timestamps;
 }
 
 - (void);
@@ -21,7 +15,7 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (double);
 - (id);
@@ -30,16 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long renewalOptions; // @synthesize renewalOptions=_renewalOptions;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CNTimeProvider> timeProvider; // @synthesize timeProvider=_timeProvider;
-@property(readonly, nonatomic) NSMutableDictionary *timestamps; // @synthesize timestamps=_timestamps;
 @property(readonly, nonatomic) double ttl; // @synthesize ttl=_ttl;
 
 @end

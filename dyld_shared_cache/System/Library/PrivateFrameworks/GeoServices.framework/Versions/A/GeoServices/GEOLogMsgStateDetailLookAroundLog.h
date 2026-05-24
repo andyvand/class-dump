@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateDetailLookAroundLog
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _durationSec;
-    NSMutableArray *_lookAroundPipRecords;
-    NSMutableArray *_lookAroundViewRecords;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _poisShown;
-    struct {
-        unsigned int has_durationSec:1;
-        unsigned int has_poisShown:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_lookAroundPipRecords:1;
-        unsigned int read_lookAroundViewRecords:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (Class);
-+ (_Bool)tHasSummaryPeriod:(id)arg1;
++ (Class)artin;
++ (Class)Morocco;
++ (_Bool)setHasSummaryPeriod:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -45,17 +29,17 @@
 - (_Bool);
 - (_Bool);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)termOfAddressFromDataRepresentation: /* Error: Ran out of types for this method. */;
+- (void)temporaryDirectory;
+- (void)initWithBackgroundScheduler:(id)arg1 mainThreadScheduler:inlineScheduler:immediateScheduler:serialSchedulerProvider:workloopSchedulerProvider:synchronousSerialSchedulerProvider:readerWriterSchedulerProvider: /* Error: Ran out of types for this method. */;
+- (void)riterSchedulerProvider:(id)arg1;
+- (void)CNFileManager;
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)ds;
 - (void);
 - (id);
 - (unsigned long long);
@@ -63,20 +47,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)startValidDistance;
 - (id),N,V_headerDisplayName;
 - (id)eset loc int session data;
 - (id);
 - (void)*3;
 
 // Remaining properties
-@property(nonatomic) double durationSec;
 @property(nonatomic) _Bool hasDurationSec;
-@property(nonatomic) _Bool hasPoisShown;
-@property(retain, nonatomic) NSMutableArray *lookAroundPipRecords;
-@property(retain, nonatomic) NSMutableArray *lookAroundViewRecords;
-@property(nonatomic) unsigned int poisShown;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol RPStatusUpdatableXPCClientInterface
+
+@optional
+- (void)o;
 @end
 

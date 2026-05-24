@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSNumber, NSObject;
+@class NSObject;
 @protocol HAPFragmentationStreamDelegate, OS_dispatch_queue;
 
 @interface HAPFragmentationStream
 {
     id <HAPFragmentationStreamDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    NSMutableOrderedSet *_pendingPackets;
-    NSNumber *_currentPacketTransactionIdentifier;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (_Bool);
 - (id);
 - (void);
@@ -30,14 +27,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)substringWithRange: /* Error: Ran out of types for this method. */;
 - (void)@0:8q16@"NSData"24@?<v@?@"NSError">32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(retain, nonatomic) NSNumber *currentPacketTransactionIdentifier; // @synthesize currentPacketTransactionIdentifier=_currentPacketTransactionIdentifier;
-@property __weak id <HAPFragmentationStreamDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSMutableOrderedSet *pendingPackets; // @synthesize pendingPackets=_pendingPackets;
 
 @end
 

@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)tifier:(id)arg1 %@;
 
 @end
 

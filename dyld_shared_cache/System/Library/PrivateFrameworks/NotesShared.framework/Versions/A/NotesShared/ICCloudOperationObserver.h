@@ -7,7 +7,6 @@
 @interface ICCloudOperationObserver
 {
     id queueObserver;
-    id logger;
 }
 
 - (id);

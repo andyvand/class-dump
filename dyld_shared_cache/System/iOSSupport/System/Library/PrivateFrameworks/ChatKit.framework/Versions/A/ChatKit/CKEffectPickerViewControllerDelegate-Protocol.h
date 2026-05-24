@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+
 @protocol CKEffectPickerViewControllerDelegate
+- (_Bool)l",&,N,V_movieDurationLabel;
+- (UIViewController *)ICTintedLayer;
+- (void)ICLinkConverter;
+- (void)NSFetchedResultsControllerDelegate;
+- (void)ICAccessibilityFocusedUIElementProvider;
 @end
 

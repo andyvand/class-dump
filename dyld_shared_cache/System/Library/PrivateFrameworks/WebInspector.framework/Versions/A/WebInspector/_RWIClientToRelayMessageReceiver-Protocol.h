@@ -5,5 +5,8 @@
 //
 
 @protocol _RWIClientToRelayMessageReceiver
+- (void)@;
+- (void)q;
+- (void);
 @end
 

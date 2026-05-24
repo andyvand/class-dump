@@ -5,5 +5,6 @@
 //
 
 @protocol QuarantineDocumentGenerationProtocol
+- (void)";
 @end
 

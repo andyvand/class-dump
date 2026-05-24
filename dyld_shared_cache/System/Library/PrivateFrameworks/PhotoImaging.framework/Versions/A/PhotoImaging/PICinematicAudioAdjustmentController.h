@@ -6,8 +6,6 @@
 
 #import <PhotoImaging/PIAdjustmentController.h>
 
-@class NSString;
-
 @interface PICinematicAudioAdjustmentController : PIAdjustmentController
 {
 }
@@ -16,8 +14,6 @@
 
 // Remaining properties
 @property(nonatomic) double dialogMixBias;
-@property(retain, nonatomic) NSString *renderingStyle;
-@property(nonatomic) unsigned long long renderingVersion;
 
 @end
 

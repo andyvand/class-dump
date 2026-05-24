@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, UIViewController;
+@class NSArray, NSDictionary;
 
 @protocol UINSShareSheetController
+- (NSDictionary *);
+- (NSArray *)setDrain_depth_p_1_00_at_charge_start_secs_curr_static_bin: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType activitySelectedHandler;
-@property(retain, nonatomic) NSArray *applicationActivities;
 @property(readonly, copy, nonatomic) NSArray *applicationServices;
-@property(copy, nonatomic) CDUnknownBlockType completionWithItemsHandler;
-@property(retain, nonatomic) NSArray *excludedActivityTypes;
-@property(readonly, nonatomic, getter=isPresented) _Bool presented;
-@property(copy, nonatomic) NSDictionary *shareKitInfo;
-@property(nonatomic) long long sharingStyle;
-@property(nonatomic) __weak UIViewController *sourceActivityViewController;
 @end
 

@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface PKGCoreUIWork
 {
     CDUnknownBlockType rendererWork;
-    CDUnknownBlockType mainThreadWork;
 }
 
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (void)agedObjectContext:(CDUnknownBlockType)arg1 andObservedStore:error:] /* Error: Ran out of types for this method. */;
+- (void)ing;
+- (CDUnknownBlockType)@%lu BLOB;;
+- (CDUnknownBlockType)re:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType mainThreadWork; // @synthesize mainThreadWork;
 @property(copy) CDUnknownBlockType rendererWork; // @synthesize rendererWork;
 
 @end

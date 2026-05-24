@@ -4,62 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBAskToBuyEvent
 {
     double _eventTime;
-    NSString *_actionUserID;
-    NSString *_ageRating;
-    NSString *_itemDescription;
-    NSString *_itemLocalizedPrice;
-    NSString *_itemTitle;
-    NSString *_productType;
-    NSString *_requestID;
-    float _starRating;
-    int _status;
-    NSString *_storeLink;
-    NSString *_thumbnailPath;
-    NSString *_userID;
-    _Bool _isActionUserDevice;
-    struct {
-        unsigned int eventTime:1;
-        unsigned int starRating:1;
-        unsigned int status:1;
-        unsigned int isActionUserDevice:1;
-    } _has;
 }
 
-- (id);
-- (id);
+- (id)\;
+- (id)@9?
+kC;
+- (void);
+- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool)!;
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
+- (_Bool)articipantLocal sourceFrameRateDidChange:] /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -67,12 +47,12 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (double);
-- (_Bool);
+- (_Bool)roxy;
 - (float);
-- (_Bool);
-- (void);
+- (_Bool)_originalIdentifier;
+- (void)clampQuadToRect:(id)arg1;
 - (void);
 - (id);
 - (int);
@@ -81,7 +61,7 @@
 - (id);
 - (_Bool)rceDaemon>";
 - (_Bool)ing downstream for subscription %@ based on new %@ event;
-- (void)_buffer;
+- (void)required_field_pack_to_buffer;
 - (id)¿;
 - (int)ÈÉÊÙË;
 - (void);
@@ -90,34 +70,7 @@
 - (id)¥;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *actionUserID; // @synthesize actionUserID=_actionUserID;
-@property(retain, nonatomic) NSString *ageRating; // @synthesize ageRating=_ageRating;
-@property(nonatomic) double eventTime; // @synthesize eventTime=_eventTime;
-@property(readonly, nonatomic) _Bool hasActionUserID;
-@property(readonly, nonatomic) _Bool hasAgeRating;
-@property(nonatomic) _Bool hasEventTime;
-@property(nonatomic) _Bool hasIsActionUserDevice;
-@property(readonly, nonatomic) _Bool hasItemDescription;
-@property(readonly, nonatomic) _Bool hasItemLocalizedPrice;
-@property(readonly, nonatomic) _Bool hasItemTitle;
-@property(readonly, nonatomic) _Bool hasProductType;
 @property(readonly, nonatomic) _Bool hasRequestID;
-@property(nonatomic) _Bool hasStarRating;
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) _Bool hasStoreLink;
-@property(readonly, nonatomic) _Bool hasThumbnailPath;
-@property(readonly, nonatomic) _Bool hasUserID;
-@property(nonatomic) _Bool isActionUserDevice; // @synthesize isActionUserDevice=_isActionUserDevice;
-@property(retain, nonatomic) NSString *itemDescription; // @synthesize itemDescription=_itemDescription;
-@property(retain, nonatomic) NSString *itemLocalizedPrice; // @synthesize itemLocalizedPrice=_itemLocalizedPrice;
-@property(retain, nonatomic) NSString *itemTitle; // @synthesize itemTitle=_itemTitle;
-@property(retain, nonatomic) NSString *productType; // @synthesize productType=_productType;
-@property(retain, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(nonatomic) float starRating; // @synthesize starRating=_starRating;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(retain, nonatomic) NSString *storeLink; // @synthesize storeLink=_storeLink;
-@property(retain, nonatomic) NSString *thumbnailPath; // @synthesize thumbnailPath=_thumbnailPath;
-@property(retain, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

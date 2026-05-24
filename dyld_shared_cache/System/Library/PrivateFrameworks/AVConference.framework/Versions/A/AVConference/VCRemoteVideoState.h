@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, VideoAttributes;
-
 __attribute__((visibility("hidden")))
 @interface VCRemoteVideoState
 {
     _Bool _hasReceivedFirstFrame;
-    _Bool _isVideoPaused;
-    _Bool _isMediaStalled;
-    _Bool _isVideoDegraded;
-    _Bool _isVideoSuspended;
-    _Bool _isNetworkDegraded;
-    _Bool _isLocalNetworkDegraded;
-    VideoAttributes *_remoteScreenAttributes;
-    VideoAttributes *_remoteVideoAttributes;
-    NSString *_localInterfaceType;
-    NSString *_remoteInterfaceType;
-    NSData *_sensitivityAnalysisData;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)Ѹ;
 - (void);
 - (void);
 - (void);
@@ -40,29 +27,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)�;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property _Bool hasReceivedFirstFrame; // @synthesize hasReceivedFirstFrame=_hasReceivedFirstFrame;
-@property _Bool isLocalNetworkDegraded; // @synthesize isLocalNetworkDegraded=_isLocalNetworkDegraded;
-@property _Bool isMediaStalled; // @synthesize isMediaStalled=_isMediaStalled;
-@property _Bool isNetworkDegraded; // @synthesize isNetworkDegraded=_isNetworkDegraded;
-@property _Bool isVideoDegraded; // @synthesize isVideoDegraded=_isVideoDegraded;
-@property _Bool isVideoPaused; // @synthesize isVideoPaused=_isVideoPaused;
-@property _Bool isVideoSuspended; // @synthesize isVideoSuspended=_isVideoSuspended;
-@property(copy, nonatomic) NSString *localInterfaceType; // @synthesize localInterfaceType=_localInterfaceType;
-@property(copy, nonatomic) NSString *remoteInterfaceType; // @synthesize remoteInterfaceType=_remoteInterfaceType;
-@property(retain) VideoAttributes *remoteScreenAttributes; // @synthesize remoteScreenAttributes=_remoteScreenAttributes;
-@property(retain) VideoAttributes *remoteVideoAttributes; // @synthesize remoteVideoAttributes=_remoteVideoAttributes;
-@property(copy, nonatomic) NSData *sensitivityAnalysisData; // @synthesize sensitivityAnalysisData=_sensitivityAnalysisData;
 
 @end
 

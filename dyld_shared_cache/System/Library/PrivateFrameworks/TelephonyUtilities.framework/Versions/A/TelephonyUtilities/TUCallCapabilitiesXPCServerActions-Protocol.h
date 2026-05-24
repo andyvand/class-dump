@@ -5,5 +5,8 @@
 //
 
 @protocol TUCallCapabilitiesXPCServerActions
+- (oneway void);
+- (oneway void);
+- (oneway void)(;
 @end
 

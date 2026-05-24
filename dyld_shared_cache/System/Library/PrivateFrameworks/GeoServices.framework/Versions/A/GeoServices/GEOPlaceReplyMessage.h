@@ -6,12 +6,11 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class GEOPDPlaceResponse, NSString, NSUUID;
+@class NSUUID;
 
 @interface GEOPlaceReplyMessage : GEOXPCReply
 {
     NSUUID *_requestUUID;
-    GEOPDPlaceResponse *_response;
 }
 
 - (id);
@@ -98,15 +97,7 @@ deprecated (:false
 - (void)LÍÊöK@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSUUID *requestUUID; // @synthesize requestUUID=_requestUUID;
-@property(retain, nonatomic) GEOPDPlaceResponse *response; // @synthesize response=_response;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol HMDCameraRemoteStreamProtocol
+- (void);
 @end
 

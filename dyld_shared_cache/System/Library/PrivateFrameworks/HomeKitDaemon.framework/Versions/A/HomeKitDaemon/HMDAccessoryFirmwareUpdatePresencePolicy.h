@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdatePresencePolicy : HMDAccessoryFirmwareUpdatePolicy
 {
     _Bool _presenceNeeded;
-    HMDHome *_home;
 }
 
 + (id)î\ÿÇ¨C;
@@ -25,13 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)1Â0@ù
 × ;
-- (id)ionActionSetModelWithModelID:(struct _NSZone *)arg1;
+- (id)createNotificationRegistrationActionSetModelWithModelID:(struct _NSZone *)arg1;
 - (void)tifications from characteristic %@ :%@ /* Error: Ran out of types for this method. */;
 - (void)hX=;
 
 // Remaining properties
 @property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic) _Bool presenceNeeded; // @synthesize presenceNeeded=_presenceNeeded;
 
 @end
 

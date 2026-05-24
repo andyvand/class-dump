@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_nw_dictionary, OS_nw_fd_wrapper;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_path_observer
 {
     NSObject<OS_dispatch_queue> *client_queue;
-    CDUnknownBlockType update_block;
-    NSObject<OS_nw_dictionary> *known_paths;
-    NSObject<OS_nw_fd_wrapper> *fd;
-    void *source;
-    struct mutex lock;
 }
 
-- (void);
+- (void)WindowSeparatorShadow;
 - (id);
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

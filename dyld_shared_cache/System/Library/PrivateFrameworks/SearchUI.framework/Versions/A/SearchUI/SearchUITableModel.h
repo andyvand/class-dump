@@ -9,12 +9,10 @@
 @interface SearchUITableModel
 {
     unsigned long long _queryId;
-    NSArray *_sections;
-    NSArray *_tableRowModel;
 }
 
 + (id);
-+ (id);
++ (id)addResultColumn:(id)arg1 alias:(id)arg2;
 + (id);
 + (id);
 + (id);
@@ -23,23 +21,23 @@
 - (long long);
 - (int);
 - (void);
+- (id)ailed to load stack;
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)qA;
+- (void)@"NSString"16@"NSArray"24^B32;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (id);
@@ -47,8 +45,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long queryId; // @synthesize queryId=_queryId;
-@property(retain, nonatomic) NSArray *sections; // @synthesize sections=_sections;
 @property(retain, nonatomic) NSArray *tableRowModel; // @synthesize tableRowModel=_tableRowModel;
 
 @end

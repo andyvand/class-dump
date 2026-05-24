@@ -8,21 +8,21 @@
 {
 }
 
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (long long);
-- (void);
-- (void);
-- (void);
++ (id)handleCompositeSettingsControllerDidConfigureNotification: /* Error: Ran out of types for this method. */;
+- (void)handleRemoteUserClientCloudShareRequest:(id)arg1;
+- (void)handlePrimaryResidentUpdatedNotification:(id)arg1;
+- (void)handlePrimaryResidentDiscovered:(id)arg1 primaryResidentGenerationID:(id)arg2;
+- (void)handlePrimaryResidentDidBecomeOtherDeviceSwiftExtensions;
+- (_Bool)handlePrimaryResidentChangeNotification:(id)arg1;
+- (void)handlePrimaryResidentChangeMonitorConfirmedDeviceIdentifierChangeNotification:(id)arg1;
+- (_Bool)handlePresenceUpdateFromStatusKitWithNewDevices:(id)arg1 lost:(id)arg2 updated:(id)arg3;
+- (void)ctID:(CDUnknownBlockType)arg1 configNumber:(long long)arg2 category:topology: /* Error: Ran out of types for this method. */;
+- (id)ompletion:(long long)arg1;
+- (id)handleNonResidentMediaActionExecutionWithSessionData:(id)arg1 encodePlaybackArchive:(long long)arg2 completion: /* Error: Ran out of types for this method. */;
+- (long long)handleNetworkProtectionGroupProtectionChanged:(id)arg1;
+- (void)s not support data stream, error:(id)arg1 %@;
+- (void)on with accessory if needed;
+- (void)}@Cannot set up diagnostics transfer session because accessory is nil;
 
 @end
 

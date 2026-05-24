@@ -7,27 +7,25 @@
 @interface _DKObjectType
 {
     long long _typeCode;
-    Class _objectClass;
 }
 
 + (id);
 + (id);
 + (long long);
-+ (id);
++ (id);
 + (_Bool);
 + (Class);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (long long);
+- (unsigned long long)`;
+- (long long);
 - (_Bool);
 - (void);
 - (id);
 - (Class);
 
 // Remaining properties
-@property(readonly, nonatomic) Class objectClass;
 @property(readonly, nonatomic) long long typeCode;
 
 @end

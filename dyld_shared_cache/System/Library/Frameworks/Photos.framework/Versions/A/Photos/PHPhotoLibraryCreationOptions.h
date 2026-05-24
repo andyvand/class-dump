@@ -9,44 +9,32 @@
 @interface PHPhotoLibraryCreationOptions
 {
     NSString *_containerIdentifier;
-    NSString *_userDescription;
-    NSString *_uuid;
-    long long _domain;
-    NSURL *_libraryURL;
-    unsigned long long _internalCreateOptions;
 }
 
 + (id);
 + (id);
 + (id);
+- (void)B;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)deleteWebHistoryForURLs:(id)arg1 webApplication:replyHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)setByAddingObjectsFromArray: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (id);
-- (void)aluesForKeysWithDictionary:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (id)tsWithCaptions;
+- (void)setValuesForKeysWithDictionary:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)fractionOfCuratedAssetsWithCaptions;
 - (void)_c;
 - (id).bestVideoRangeStartTimeScale;
 - (void)ng, PHAssetExportRequestOptions *__strong, PHResourceLocalAvailabilityRequest *__strong, NSDictionary<PHResourceLocalAvailabilityRequestResourceInfoKey,id> * _Nullable __autoreleasing * _Nullable);
 
 // Remaining properties
-@property(copy) NSString *applicationGroupIdentifier;
-@property(copy) NSString *containerIdentifier;
-@property long long domain; // @synthesize domain=_domain;
-@property(copy) NSString *identifierUUID;
-@property unsigned long long internalCreateOptions; // @synthesize internalCreateOptions=_internalCreateOptions;
 @property(copy) NSURL *libraryURL; // @synthesize libraryURL=_libraryURL;
-@property(copy) NSString *userDescription; // @synthesize userDescription=_userDescription;
-@property(copy) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

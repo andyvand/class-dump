@@ -7,27 +7,18 @@
 @interface NSSharedKeySet
 {
     char *_g;
-    unsigned char _select;
-    void *_rankTable;
-    unsigned int _M;
-    unsigned int _factor;
-    unsigned int _numKey;
-    unsigned int *_seeds;
-    id *_keys;
-    NSSharedKeySet *_subSharedKeySet;
-    unsigned char _algorithmType;
 }
 
 + (id);
 + (_Bool)">24;
-- (void);
+- (void)@�A;
 - (void);
 - (id *);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long) ;
 - (id);
 - (void);
 - (unsigned long long);
@@ -39,11 +30,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ssages.app;
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id);
 - (void *);
 - (id);
 - (unsigned int *):8i16@"NSURL"20@"NSURL"28@"NSURL"36@?<v@?@"NSDictionary"@"NSError">44 /* Error: Ran out of types for this method. */;
@@ -57,15 +48,7 @@
 - (unsigned long long)!Î;
 
 // Remaining properties
-@property unsigned int M; // @synthesize M=_M;
-@property unsigned int factor; // @synthesize factor=_factor;
 @property char *g; // @synthesize g=_g;
-@property id *keys; // @synthesize keys=_keys;
-@property unsigned int numKey; // @synthesize numKey=_numKey;
-@property void *rankTable; // @synthesize rankTable=_rankTable;
-@property unsigned int *seeds; // @synthesize seeds=_seeds;
-@property unsigned char select; // @synthesize select=_select;
-@property(retain) NSSharedKeySet *subSharedKeySet; // @synthesize subSharedKeySet=_subSharedKeySet;
 
 @end
 

@@ -4,60 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRouteAnnotation, GEOComposedTrafficCamera, GEOComposedTrafficSignal, GEOEnrouteNotice, GEOLatLng, NSArray, NSString;
+@class GEOEnrouteNotice;
 
 @interface GEOComposedEnrouteNotice
 {
     GEOEnrouteNotice *_enrouteNotice;
-    NSArray *_guidanceEvents;
-    CDStruct_3f2a7a20 _routeCoordinate;
 }
 
 + (_Bool)%{private}@ directory:'%{private}@' /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (int);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
+- (int)setUpstreamToken: /* Error: Ran out of types for this method. */;
+- (id)activeObservableIndexes;
+- (id)accountsCache;
+- (id)accountTypeWithAccountTypeIdentifier:(id)arg1;
+- (unsigned int)rs;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (unsigned int);
+- (id)ould not look up Entitlement Application Identifier using SecTaskRef.;
+- (unsigned int)t look up process name using audit token.;
 - (CDStruct_3f2a7a20);
 - (id);
 - (unsigned int);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)purgeCachedIrForTrialAssetExcludingCurrentAsset:baseCachedIrDir: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (id)ed:identifier != ((void*)0) /* Error: Ran out of types for this method. */;
-- (_Bool)menu_affordance;
+- (_Bool)should_disable_action_menu_affordance;
 - (void)þß5;
 - (unsigned int)8Èþ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int groupIdentifier;
-@property(readonly, nonatomic) unsigned int groupItemHorizontalDisplayOrder;
-@property(readonly, nonatomic) unsigned int groupItemVerticalDisplayOrder;
-@property(readonly, nonatomic) NSArray *guidanceEvents; // @synthesize guidanceEvents=_guidanceEvents;
-@property(readonly, nonatomic) _Bool hasGroupIdentifier;
-@property(readonly, nonatomic) _Bool hasGroupItemHorizontalDisplayOrder;
-@property(readonly, nonatomic) _Bool hasGroupItemVerticalDisplayOrder;
-@property(readonly, nonatomic) _Bool hasHighlightDistance;
-@property(readonly, nonatomic) _Bool hasPriority;
-@property(readonly, nonatomic) unsigned int highlightDistance;
-@property(readonly, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) int noticeType;
-@property(readonly, nonatomic) GEOLatLng *position; // @dynamic position;
-@property(readonly, nonatomic) unsigned int priority;
-@property(readonly, nonatomic) GEOComposedRouteAnnotation *routeAnnotation;
-@property(readonly, nonatomic) CDStruct_3f2a7a20 routeCoordinate; // @synthesize routeCoordinate=_routeCoordinate;
-@property(readonly, nonatomic) GEOComposedTrafficCamera *trafficCamera;
-@property(readonly, nonatomic) GEOComposedTrafficSignal *trafficSignal;
 
 @end
 

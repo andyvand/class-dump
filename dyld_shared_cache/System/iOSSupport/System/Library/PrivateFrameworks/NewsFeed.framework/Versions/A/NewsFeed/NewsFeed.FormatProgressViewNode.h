@@ -7,18 +7,6 @@
 @interface NewsFeed.FormatProgressViewNode
 {
     id _identifier;
-    id _size;
-    id resize;
-    id _adjustments;
-    id content;
-    id _zIndex;
-    id style;
-    id _kind;
-    id _visibility;
-    id _selectors;
-    id accessibilityRole;
-    id name;
-    id flex;
 }
 
 @end

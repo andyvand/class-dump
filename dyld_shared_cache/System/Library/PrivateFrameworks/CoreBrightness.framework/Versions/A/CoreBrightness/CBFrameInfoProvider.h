@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAWindowServerDisplay, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBFrameInfoProvider
 {
     NSObject<OS_os_log> *_logHandle;
-    CAWindowServerDisplay *_windowServerDisplay;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_observers;
 }
 
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)P;
+- (void);
+- (void);
 
 @end
 

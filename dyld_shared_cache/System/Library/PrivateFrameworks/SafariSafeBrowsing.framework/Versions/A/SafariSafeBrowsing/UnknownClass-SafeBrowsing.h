@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (SafeBrowsing)
-- (id);
-- (id);
+- (id)ple.chronod.runningboard;
+- (id)NSForceLegacyTextStylesForWidgets;
 - (id);
 - (id);
 @end

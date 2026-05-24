@@ -4,38 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOConditionalFormattedString, GEOFormattedStringMetaData, NSArray, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSString, PBDataReader;
 
 @interface GEOFormattedString
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOConditionalFormattedString *_alternativeString;
-    NSMutableArray *_formatArguments;
-    NSMutableArray *_formatStrings;
-    NSMutableArray *_formatStyles;
-    GEOFormattedStringMetaData *_metaData;
-    NSMutableArray *_separators;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_alternativeString:1;
-        unsigned int read_formatArguments:1;
-        unsigned int read_formatStrings:1;
-        unsigned int read_formatStyles:1;
-        unsigned int read_metaData:1;
-        unsigned int read_separators:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)typeError;
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
-+ (_Bool)efinementOriginType:(id)arg1;
++ (_Bool)setHasResultRefinementOriginType:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -44,74 +24,55 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)runningBoardTarget;
+- (_Bool)enqueueObjectsFromArray: /* Error: Ran out of types for this method. */;
+- (id)canSaveAccount:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)canSaveAccount:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)canReadFromLocalAccount;
+- (id)canAccessProviderContainerWithIdentifier:(unsigned long long)arg1;
+- (unsigned long long)callStackSymbols;
+- (id)callCancelationBlocks: /* Error: Ran out of types for this method. */;
+- (id)calendarIdentifier;
+- (unsigned long long)cachedAuthorizationStatus;
+- (id)cachedAddressingGrammarAccessGranted;
+- (void)CNPair;
+- (void)CNObservedCompletionResult;
+- (void)CNObservedResult;
+- (id);
+- (id);
+- (void);
+- (void)ngs:(id)arg1 classificationQuality:] /* Error: Ran out of types for this method. */;
+- (void)fier classificationOfHandleStrings:(id)arg1 classificationQuality:] /* Error: Ran out of types for this method. */;
+- (id)false;
+- (unsigned long long)@"CNPair"8;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)ܽ;
+- (void)dinatorDelegate>";
+- (id)fyRemoteTriggerEvent:myriadHash:remoteTriggerType:remoteDeviceId:isTriggeredFromFullWake:completion:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id)fiers.framework/Versions/A/UniformTypeIdentifiers;
 - (void);
 - (id)setHasWindowStartTime:(struct _NSZone *)arg1;
-- (id)Avg: /* Error: Ran out of types for this method. */;
-- (id)uggestionItem;
+- (id)setHasRoundTripTimeAvg: /* Error: Ran out of types for this method. */;
+- (id)GEOSuggestionItem;
 - (id)ne removing subscription '%{private, mask.hash}@';
-- (id)tThrottler;
+- (id)RequestThrottler;
 - (id)ÿÿ;
 - (void)àñ4p½4;
 - (_Bool)ª¸þ±È;
 
 // Remaining properties
-@property(retain, nonatomic) GEOConditionalFormattedString *alternativeString;
-@property(readonly, nonatomic) NSString *basicString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *formatArguments;
-@property(retain, nonatomic) NSMutableArray *formatStrings;
-@property(retain, nonatomic) NSMutableArray *formatStyles;
-@property(readonly, nonatomic) NSArray *formatTokens;
-@property(readonly, nonatomic) _Bool hasAlternativeString;
-@property(readonly, nonatomic) _Bool hasMetaData;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isPrivate;
-@property(retain, nonatomic) GEOFormattedStringMetaData *metaData;
-@property(retain, nonatomic) NSMutableArray *separators;
 @property(readonly, nonatomic) NSString *stringWithDefaultValues;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

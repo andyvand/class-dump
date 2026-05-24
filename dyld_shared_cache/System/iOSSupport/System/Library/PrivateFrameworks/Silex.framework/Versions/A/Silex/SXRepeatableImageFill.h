@@ -15,10 +15,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) struct _SXConvertibleValue height; // @dynamic height;
 @property(readonly, nonatomic) NSString *imageIdentifier; // @dynamic imageIdentifier;
-@property(readonly, nonatomic) unsigned long long repeat; // @dynamic repeat;
-@property(readonly, nonatomic) struct _SXConvertibleValue width; // @dynamic width;
 
 @end
 

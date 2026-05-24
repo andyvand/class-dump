@@ -9,11 +9,10 @@
 @interface ICCloudAddReferral
 {
     NSString *_playlistGlobalID;
-    long long _albumAdamID;
 }
 
-+ (id);
-+ (id);
++ (id)updateTargetValue:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (id)updateTapAssistanceSelectionSettingWithKeyPath:(long long)arg1 value: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (long long);
 - (id);
@@ -22,7 +21,6 @@
 - (void)Ð	L;
 
 // Remaining properties
-@property(readonly, nonatomic) long long albumAdamID; // @synthesize albumAdamID=_albumAdamID;
 @property(readonly, copy, nonatomic) NSString *playlistGlobalID; // @synthesize playlistGlobalID=_playlistGlobalID;
 
 @end

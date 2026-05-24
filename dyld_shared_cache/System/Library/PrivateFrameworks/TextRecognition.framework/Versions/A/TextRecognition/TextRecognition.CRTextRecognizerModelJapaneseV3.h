@@ -11,7 +11,7 @@
 }
 
 + (id);
-- (_Bool);
+- (_Bool)R(;
 - (id);
 - (struct TextBoxesOffsets);
 - (id);

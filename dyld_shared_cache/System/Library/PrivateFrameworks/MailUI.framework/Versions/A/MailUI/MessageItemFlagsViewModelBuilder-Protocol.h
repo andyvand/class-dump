@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-
 @protocol MessageItemFlagsViewModelBuilder
+- (void))+@9i;
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic, getter=isVIP) _Bool VIP;
-@property(copy, nonatomic) NSIndexSet *flagColors;
-@property(nonatomic, getter=isFlagged) _Bool flagged;
-@property(nonatomic, getter=isForwarded) _Bool forwarded;
-@property(nonatomic, getter=isJunk) _Bool junk;
-@property(nonatomic, getter=isMute) _Bool mute;
-@property(nonatomic, getter=isNotify) _Bool notify;
 @property(nonatomic, getter=isRead) _Bool read;
-@property(nonatomic, getter=isRedirected) _Bool redirected;
-@property(nonatomic, getter=isReplied) _Bool replied;
 @end
 

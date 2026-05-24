@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _NSPasteboardItemCollection
 {
     NSMapTable *_sparsePasteboardItems;
-    long long _cachedItemGenerationCount;
 }
 
-- (id);
-- (id);
+- (id)kC/BFI2K/Qyw;
+- (id)m1P7A;
 - (void);
 - (void);
 - (id);

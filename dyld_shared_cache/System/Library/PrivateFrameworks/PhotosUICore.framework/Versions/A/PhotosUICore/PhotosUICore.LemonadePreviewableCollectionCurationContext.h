@@ -7,13 +7,6 @@
 @interface PhotosUICore.LemonadePreviewableCollectionCurationContext
 {
     id $defaultActor;
-    id collection;
-    id $__lazy_storage_$_phCollection;
-    id environmentValues;
-    id isPrepared;
-    id _currentCurationKind;
-    id _availableCurationKinds;
-    id cachedAssetsByCurationKind;
 }
 
 @end

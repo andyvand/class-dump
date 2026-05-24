@@ -5,5 +5,8 @@
 //
 
 @protocol WBSRemotelyUpdatableDataControllerDelegate
+
+@optional
+- (_Bool);
 @end
 

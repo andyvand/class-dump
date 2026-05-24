@@ -6,37 +6,28 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNCDContactsInGroupsOrContainersWithIdentifiersPredicate : CNPredicate
 {
     NSArray *_containerIdentifiers;
-    NSArray *_groupIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)N3ctu20SharedSynchronizableI15SipTcpTransportEE;
+- (id)H;
 - (void);
 - (id);
-- (void)tAndNicknamesWithUpdatedContact: /* Error: Ran out of types for this method. */;
+- (void)updateOracleContactAndNicknamesWithUpdatedContact: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containerIdentifiers; // @synthesize containerIdentifiers=_containerIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *groupIdentifiers; // @synthesize groupIdentifiers=_groupIdentifiers;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

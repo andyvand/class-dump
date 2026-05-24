@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)es.itms-songid;
 
 @end
 

@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFPosterOrientedLayout;
 @protocol PISegmentationItem;
 
 @interface PIPosterLayoutPropertiesRequest
 {
     _Bool _calculateAdaptiveFrame;
-    id <PISegmentationItem> _segmentationItem;
-    PFPosterOrientedLayout *_layout;
 }
 
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (_Bool);
 - (id);
@@ -24,11 +21,9 @@
 - (void);
 - (void);
 - (id);
-- (void)oFrame;
+- (void)shouldUseVideoFrame;
 
 // Remaining properties
-@property(nonatomic) _Bool calculateAdaptiveFrame; // @synthesize calculateAdaptiveFrame=_calculateAdaptiveFrame;
-@property(retain, nonatomic) PFPosterOrientedLayout *layout; // @synthesize layout=_layout;
 @property(readonly, nonatomic) id <PISegmentationItem> segmentationItem; // @synthesize segmentationItem=_segmentationItem;
 
 @end

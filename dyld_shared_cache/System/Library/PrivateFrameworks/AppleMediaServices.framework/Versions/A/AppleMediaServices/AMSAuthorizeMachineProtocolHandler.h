@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (CDUnknownBlockType);
-- (void);
+- (void)squalifiedDevices = %@};
 - (void);
 - (void)ÇkYÛK`{oW.B,gíeg9e¿hÉCÏK$«*-[Cºë~´¶ØÙz©¬Ðy½bÚ=w®kIá®»À.vEO)ÑI£ïØ´Â'²w\óÖzçÜ2ßõ ô~ï,Xz´x`_!«È¡gxÌ¨Y-°6ùVS¤­DÁ¶á`±aÎÂ8ªøbùBÁ=m+ú®ZÌ·A=8_@8?àb&t+½Ñ[¦ûße¾5ÎJ¹4ùIù))½Æ1¬ôO;
 

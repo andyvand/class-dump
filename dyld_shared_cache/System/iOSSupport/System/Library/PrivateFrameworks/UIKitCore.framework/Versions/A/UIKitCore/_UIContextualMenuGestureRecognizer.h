@@ -10,10 +10,10 @@
 {
 }
 
-- (long long);
-- (void)lingDirection:(id)arg1;
-- (void)mPrimaryViewController:(id)arg1;
-- (void)ilityStyle:(id)arg1;
+- (long long)CEMApplicationInviteToProgramCommand;
+- (void)initWithTextInputTraits:(id)arg1 taskQueue:(id)arg2 scrollingDirection: /* Error: Ran out of types for this method. */;
+- (void)_separateSecondaryViewControllerFromPrimaryViewController:(id)arg1;
+- (void)_applySettingsForLegibilityStyle:(id)arg1;
 - (void);
 
 @end

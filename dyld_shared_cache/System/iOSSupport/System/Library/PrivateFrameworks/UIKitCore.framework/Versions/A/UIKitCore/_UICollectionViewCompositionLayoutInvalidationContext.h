@@ -13,8 +13,8 @@
     NSMapTable *_invalidationContextTable;
 }
 
-- (void);
-- (id);
+- (void)Reusing cached listeners %@ for GUID %@;
+- (id)ate}@ participantIdentifiers:%{private}@, displayName:%{private}@. IMMessageLegacyProcessingPipelineComponent will create it. /* Error: Ran out of types for this method. */;
 - (void)p0éþ;
 
 // Remaining properties

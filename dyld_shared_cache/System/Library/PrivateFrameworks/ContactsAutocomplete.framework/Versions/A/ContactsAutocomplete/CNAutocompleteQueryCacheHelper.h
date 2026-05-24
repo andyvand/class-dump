@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteQueryCacheMissAuditor, CNCache, CNObservable, NSString;
-@protocol CNSchedulerProvider;
+@class CNCache;
 
 @interface CNAutocompleteQueryCacheHelper
 {
     CNCache *_cache;
-    NSString *_searchString;
-    CNObservable *_serverSearchObservable;
-    CNAutocompleteQueryCacheMissAuditor *_cacheMissAuditor;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
 + (id);
@@ -25,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -36,10 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNCache *cache; // @synthesize cache=_cache;
-@property(readonly, nonatomic) CNAutocompleteQueryCacheMissAuditor *cacheMissAuditor; // @synthesize cacheMissAuditor=_cacheMissAuditor;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly, copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly, nonatomic) CNObservable *serverSearchObservable; // @synthesize serverSearchObservable=_serverSearchObservable;
 
 @end
 

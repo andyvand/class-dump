@@ -12,18 +12,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGPoint);
+- (struct CGPoint)al sync at current batchCount %@;
+- (struct CGPoint)checking device conditions for initial sync at current batchCount %@;
+- (double)honeNumbers %@;
+- (struct CGPoint)metric, but disabled via server bag.;
+- (double)e %@. Clearing ingestion state state and setting CMMState back to registered for message %@;
+- (struct CGPoint)r message %@ with change %@. Count is now %lu;
+- (struct CGPoint)e %@;
+- (struct UIEdgeInsets)ScheduledMessageFailureStateNotSet;
+- (struct CGPoint)IncomingReadReceiptAssertion;
+- (struct CGPoint)mismatch recipients of outgoing message with GUID %@. (added participants:%@ removed participants:%@) /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
-- (double);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct UIEdgeInsets);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint).;
 - (void);
 
 @end

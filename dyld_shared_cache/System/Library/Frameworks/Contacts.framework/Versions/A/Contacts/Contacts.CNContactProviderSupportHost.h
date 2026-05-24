@@ -7,7 +7,6 @@
 @interface Contacts.CNContactProviderSupportHost
 {
     id $__lazy_storage_$_contactStore;
-    id ContactProviderErrorDomain;
 }
 
 - (void);
@@ -20,10 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (id);
-- (void)UpdatedContactEvents;
+- (void)sendUpdatedContactEvents;
 
 @end
 

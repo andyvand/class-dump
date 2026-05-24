@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSimpleItemReverseRichCardSection
+- (unsigned long long));
+- (void)`B;
+- (_SFPBRFTextProperty *)ffffffffffffffff}16@0:8 /* Error: Ran out of types for this method. */;
+- (NSData *)assetSizeIncludingRelatedAssets;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

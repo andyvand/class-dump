@@ -13,8 +13,8 @@
 }
 
 + (id);
-- (void);
-- (id)agerByURL;
+- (void)_TtC13ControlCenter19LoginItemController;
+- (id)graphManagerByURL;
 
 // Remaining properties
 @property(readonly) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;

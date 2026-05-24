@@ -4,34 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, __NSDiffableDataSource;
+@class __NSDiffableDataSource;
 
 @interface _NSDiffableDataSource
 {
     __NSDiffableDataSource *_dsImpl;
 }
 
+- (id)a;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)public}@peer %{public}@%{public}@:(id)arg1 %@;
 - (id);
 - (void);
-- (long long)WithTileSpaceID: /* Error: Ran out of types for this method. */;
-- (id)rror: /* Error: Ran out of types for this method. */;
+- (id)h;
+- (void);
+- (long long)initWithTileSpaceID: /* Error: Ran out of types for this method. */;
+- (id)_destroyPersistentStoreAtURL:withType:options:error: /* Error: Ran out of types for this method. */;
 - (void)H¼D	;
 - (id);
 - (void);
 - (long long);
-- (void)sesMoreFocusedTouchBars;
-- (void)Average;
-- (id)nLanguage;
+- (void)NSTouchBarSuppressesMoreFocusedTouchBars;
+- (void)LiveScrollTestAverage;
+- (id)AppendCorrectionLanguage;
 - (void)up part of the right hand side of a localized string pair has an order, all such parts must have an order.;
 - (void)ry *, NSMutableDictionary *);
 - (void)to delete item %ld from section %ld which only contains %ld items before the update;
-- (void)ing;
+- (void)Clipping;
 - (void)nk row:(id)arg1 %ld;
 - (void)'s splitView is unable to use autolayout because the SplitViewController overrides an incompatible delegate method.;
 - (id)at some point.;
@@ -43,13 +43,13 @@
 - (id)AXAuditIssueBackgroundColor;
 - (void)h error %ld regarding element:(id)arg1 %@;
 - (id).m;
-- (void)rStyle;
+- (void)NSIndicatorStyle;
 - (id)d is %d;
 - (void);
 - (void);
-- (void)dColorProvider;
+- (void)NSDelayedAnimatedColorProvider;
 - (void)5ùh,¾)ÿ;
-- (long long)haviorsProvider;
+- (long long)ScreenBehaviorsProvider;
 - (id)DdQwhd;
 - (id)@;
 - (void)Ð©@;
@@ -58,10 +58,7 @@
 - (void)|ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *itemIdentifiers;
 @property(readonly, nonatomic) long long numberOfItems;
-@property(readonly, nonatomic) long long numberOfSections;
-@property(readonly, nonatomic) NSArray *sectionIdentifiers;
 
 @end
 

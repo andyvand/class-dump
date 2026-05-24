@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol NFPowerObserverDelegate, OS_dispatch_queue;
+@protocol NFPowerObserverDelegate;
 
 @interface NFPowerObserver
 {
     id <NFPowerObserverDelegate> _delegate;
-    unsigned int _powerNotificationConnection;
-    struct IONotificationPort *_powerNotificationPort;
-    unsigned int _powerNotificationNotifier;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    void *_sleepMessageArgument;
-    _Bool _willSleep;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)loadEmojiCategoryData_start;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)_createEmptyPersistedState;
 - (void);
 
 // Remaining properties

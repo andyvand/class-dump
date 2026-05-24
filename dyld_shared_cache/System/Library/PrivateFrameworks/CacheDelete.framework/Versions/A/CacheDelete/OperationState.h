@@ -10,17 +10,15 @@
 @interface OperationState
 {
     _Bool _operationCancelled;
-    int _operationRefcount;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (void);
 - (int);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (id);
+- (_Bool)navigationListener;
+- (void)@;
 - (void);
 - (void);
 - (_Bool);
@@ -28,8 +26,6 @@
 - (void);
 
 // Remaining properties
-@property _Bool operationCancelled; // @synthesize operationCancelled=_operationCancelled;
-@property int operationRefcount; // @synthesize operationRefcount=_operationRefcount;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

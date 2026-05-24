@@ -9,10 +9,6 @@
 @interface _MFRedundantTextIdentifierAttachmentContext
 {
     _Bool _attachmentIsDownloaded;
-    _Bool _attachmentIsAutoArchived;
-    NSString *_attachmentName;
-    NSString *_attachmentExtension;
-    unsigned long long _attachmentSize;
 }
 
 - (id);
@@ -21,17 +17,13 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)setFontStretch: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *attachmentExtension; // @synthesize attachmentExtension=_attachmentExtension;
-@property(readonly, nonatomic) _Bool attachmentIsAutoArchived; // @synthesize attachmentIsAutoArchived=_attachmentIsAutoArchived;
-@property(readonly, nonatomic) _Bool attachmentIsDownloaded; // @synthesize attachmentIsDownloaded=_attachmentIsDownloaded;
 @property(readonly, copy, nonatomic) NSString *attachmentName; // @synthesize attachmentName=_attachmentName;
-@property(readonly, nonatomic) unsigned long long attachmentSize; // @synthesize attachmentSize=_attachmentSize;
 
 @end
 

@@ -10,16 +10,13 @@
 
 + (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
-- (id)nts;
+- (id)retainArguments;
 - (unsigned long long)àáââããããääääååææççèééêêêëëìíîïðððñòóôôôôõöö÷øøùúúúûûüüüüýýþÿÿÿÿ;
 
 // Remaining properties
 @property(readonly) unsigned long long changeType;
-@property(readonly) unsigned long long destinationIndex;
-@property(readonly) unsigned long long sourceIndex;
-@property(readonly) id value;
 
 @end
 

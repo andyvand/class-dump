@@ -11,12 +11,12 @@
     long long *_counts;
 }
 
-- (long long);
+- (long long)maCm;
 - (void);
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id);
 
 @end
 

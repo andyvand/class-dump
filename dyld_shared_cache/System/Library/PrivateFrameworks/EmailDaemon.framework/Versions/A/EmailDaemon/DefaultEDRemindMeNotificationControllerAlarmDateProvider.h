@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface DefaultEDRemindMeNotificationControllerAlarmDateProvider
 {
 }
 
-- (id);
-- (void);
+- (id)deviceScanner;
+- (void)System process has launched;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDate *nextDate;
-@property(readonly) Class superclass;
 
 @end
 

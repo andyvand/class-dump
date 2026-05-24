@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class IOCStateUpdate;
+
 @protocol SessionManagerXPCProtocol_macOS
+- (void)s:(IOCStateUpdate *)arg1 %d] AE fetch request format failed:(unsigned int)arg2 %d
+;
+- (void)V;
 @end
 

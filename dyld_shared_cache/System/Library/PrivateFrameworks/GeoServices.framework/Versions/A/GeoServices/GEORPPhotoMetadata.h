@@ -4,45 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPPhotoMetadata
 {
     PBDataReader *_reader;
-    NSString *_clientImageUuid;
-    NSString *_deviceLensMake;
-    NSString *_deviceLensModel;
-    GEOLocation *_geotag;
-    NSString *_imageDescription;
-    NSString *_mediaType;
-    unsigned long long _size;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _source;
-    struct {
-        unsigned int has_size:1;
-        unsigned int has_source:1;
-        unsigned int read_clientImageUuid:1;
-        unsigned int read_deviceLensMake:1;
-        unsigned int read_deviceLensModel:1;
-        unsigned int read_geotag:1;
-        unsigned int read_imageDescription:1;
-        unsigned int read_mediaType:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)dGoCardText:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)setLaunchAndGoCardText:(id)arg1;
+- (void)updateLabelsForEntityNamed:(id)arg1 fromLabel:toLabel: /* Error: Ran out of types for this method. */;
+- (void)setClasses:(id)arg1 forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
+- (void)setChangeType:(id)arg1;
+- (void)predicateWithSubstitutionVariables:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -55,9 +33,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)SString"24d32;
+- (void)uildVersion;
+- (void)voke_2;
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
@@ -68,9 +46,9 @@
 - (void);
 - (id)xPool=C^{GeoCodecsVectorTilePoint}Q^f^{GeoCodecsRange}QQ^{GeoCodecsGhostPoint}S^{GeoCodecsRange}}16@0:(struct _NSZone *)arg1 8;
 - (int)tity";
-- (id)leRegions;
+- (id)clearHybridUnavailableRegions;
 - (id)\;
-- (id)NT_TYPE_VISUAL_EVIDENCE;
+- (id)COMPONENT_TYPE_VISUAL_EVIDENCE;
 - (void)¼ÆüÀ ÆÁÆÁèÅ¬ÁÌÅÀÂÀÌÈÂÌÆÐÂÈÅØÂ´ÅìÂ°ÅüÂÅÃøÄÃÜÄ¬ÃÀÄ¸Äìà¼Ä¨;
 - (void);
 - (_Bool)¿BAn1?74ùP@;
@@ -83,22 +61,7 @@
 - (_Bool)ä(4;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientImageUuid;
-@property(retain, nonatomic) NSString *deviceLensMake;
-@property(retain, nonatomic) NSString *deviceLensModel;
-@property(retain, nonatomic) GEOLocation *geotag;
 @property(readonly, nonatomic) _Bool hasClientImageUuid;
-@property(readonly, nonatomic) _Bool hasDeviceLensMake;
-@property(readonly, nonatomic) _Bool hasDeviceLensModel;
-@property(readonly, nonatomic) _Bool hasGeotag;
-@property(readonly, nonatomic) _Bool hasImageDescription;
-@property(readonly, nonatomic) _Bool hasMediaType;
-@property(nonatomic) _Bool hasSize;
-@property(nonatomic) _Bool hasSource;
-@property(retain, nonatomic) NSString *imageDescription;
-@property(retain, nonatomic) NSString *mediaType;
-@property(nonatomic) unsigned long long size;
-@property(nonatomic) int source;
 
 @end
 

@@ -11,12 +11,12 @@
     NSData *_enhancedLinkQuality;
 }
 
-+ (_Bool);
++ (_Bool)queue;
+- (id);
+- (id)sq;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)l;
 - (id);
 - (void);
 - (void)±ª)°1Â0@ù

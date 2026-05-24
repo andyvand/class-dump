@@ -7,24 +7,22 @@
 @interface CPLResourceTypeSet
 {
     unsigned long long _baseTypesBits;
-    unsigned long long _extraTypeBits;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)qK;
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (_Bool)ýCô;
-- (id);
+- (void)sageID=%@ messageHeader=%@ contentURL=%@ appEntityInstanceId=%@ name=%@ pommesL1Score=%.3f embeddingSimilarity=%.3f isFileType=%d linkType=%@ detectedEventType=%@;
+- (id)=;
 - (_Bool);
 - (id);
+- (_Bool);
+- (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
 @property(readonly, nonatomic, getter=isEmpty) _Bool empty;
 
 @end

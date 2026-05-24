@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKCacheData, IKRamManager, IKVRamManager, NSString;
+@class IKVRamManager;
 
 @interface IKCacheManager
 {
     IKVRamManager *_vramManager;
-    IKRamManager *_ramManager;
-    IKCacheData *_cache;
-    _Bool _openGLEnabled;
-    unsigned int _cacheTimeoutReferenceSessionID;
-    int _cacheTimeoutNotificationPosted;
-    id _cacheTimeoutLauncher;
 }
 
 + (void)|ê;
@@ -55,16 +49,10 @@
 - (unsigned int);
 - (id);
 - (void);
-- (void)FEffectDescriptionParametersKey;
+- (void)IKSFEffectDescriptionParametersKey;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface PassKitCore.ProvisioningStepBiometricBinding
 {
     id context;
-    id credential;
-    id sharedState;
 }
 
 @end

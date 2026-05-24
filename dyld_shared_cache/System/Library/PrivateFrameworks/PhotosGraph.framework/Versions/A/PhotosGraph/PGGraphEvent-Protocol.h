@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PGGraphHighlightGroupNode;
-@protocol PGGraphEventCollection;
+@class CLSServiceManager, NSArray, NSDictionary, NSString;
+@protocol PGGraphLocatedEvent;
 
 @protocol PGGraphEvent
+- (id <PGGraphLocatedEvent>)P;
+- (_Bool);
+- (_Bool)__const;
+- (_Bool);
+- (_Bool)__dlopen_cstrs;
+- (NSArray *)selectionStartLineIndex;
+- (_Bool)horizontallyOrderedChildControllers;
+- (NSDictionary *)applicationManager:(CLSServiceManager *)arg1 didUpdateFrontmostApplication: /* Error: Ran out of types for this method. */;
+- (double)_suppressionCheckbox;
 
 // Remaining properties
-@property(readonly) NSString *UUID;
-@property(readonly) double contentScore;
-@property(readonly) id <PGGraphEventCollection> eventCollection;
-@property(readonly) PGGraphHighlightGroupNode *highlightGroupNode;
-@property(readonly) _Bool isInteresting;
-@property(readonly) _Bool isInterestingWithAlternateJunking;
-@property(readonly) _Bool isLongTrip;
-@property(readonly) _Bool isShortTrip;
-@property(readonly) _Bool isSmartInteresting;
-@property(readonly) _Bool isTrip;
-@property(readonly) NSDate *localEndDate;
-@property(readonly) NSDate *localStartDate;
 @property(readonly) NSString *name;
-@property(readonly) _Bool petIsPresent;
-@property(readonly) double timestampUTCEnd;
-@property(readonly) double timestampUTCStart;
-@property(readonly) NSDate *universalEndDate;
-@property(readonly) NSDate *universalStartDate;
 @end
 

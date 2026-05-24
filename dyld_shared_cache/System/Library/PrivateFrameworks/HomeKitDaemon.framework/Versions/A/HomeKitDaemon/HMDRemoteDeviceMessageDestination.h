@@ -12,10 +12,9 @@ __attribute__((visibility("hidden")))
 @interface HMDRemoteDeviceMessageDestination : HMDRemoteMessageDestination
 {
     HMDDevice *_device;
-    HMDDeviceHandle *_preferredHandle;
 }
 
-+ (id);
++ (id)b;
 - (id);
 - (id);
 - (unsigned long long);
@@ -32,7 +31,6 @@ __attribute__((visibility("hidden")))
 - (void)product ID;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDDevice *device; // @synthesize device=_device;
 @property(copy, nonatomic) HMDDeviceHandle *preferredHandle; // @synthesize preferredHandle=_preferredHandle;
 
 @end

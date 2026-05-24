@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSSet;
+@class NSMutableDictionary;
 
 @interface CKUploadRequestManagerResponseActionThrottler
 {
     double _throttlePeriod;
-    long long _minimumThrottleCount;
-    double _minimumThrottleTime;
-    double _maximumThrottleTime;
-    double _minimumRetryTime;
-    NSSet *_actionsToThrottle;
-    NSMutableDictionary *_responseActionToMetadata;
 }
 
 + (double);
@@ -25,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)o;
 - (double);
 - (void);
 - (double);
@@ -34,20 +28,14 @@
 - (id);
 - (void);
 - (double);
+- (void)D2D2-D2D2D2D2D2D2;
 - (void);
-- (void);
-- (double)ure:(long long)arg1 verificationKey:(_Bool)arg2;
+- (double)setSignature:(long long)arg1 verificationKey:(_Bool)arg2;
 - (void)CKSQLiteTablePredicateSetup;
 - (void)me,public}s, Behavior:(double)arg1 %{name=Behavior,public}s, QoS:%{name=QoS,public}s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSSet *actionsToThrottle; // @synthesize actionsToThrottle=_actionsToThrottle;
-@property double maximumThrottleTime; // @synthesize maximumThrottleTime=_maximumThrottleTime;
-@property double minimumRetryTime; // @synthesize minimumRetryTime=_minimumRetryTime;
-@property long long minimumThrottleCount; // @synthesize minimumThrottleCount=_minimumThrottleCount;
-@property double minimumThrottleTime; // @synthesize minimumThrottleTime=_minimumThrottleTime;
 @property(retain, nonatomic) NSMutableDictionary *responseActionToMetadata; // @synthesize responseActionToMetadata=_responseActionToMetadata;
-@property double throttlePeriod; // @synthesize throttlePeriod=_throttlePeriod;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableIndexSet;
+@class NSMutableArray;
 
 @interface PPEventCacheGuardedData
 {
     NSMutableArray *_cachedEvents;
-    NSMutableIndexSet *_cachedRanges;
-    unsigned long long _extraSecondsToBackfill;
-    NSMutableDictionary *_cachedEventHighlights;
-    NSArray *_fileBackedPlists;
 }
 
 - (void)@0:8i16 /* Error: Ran out of types for this method. */;

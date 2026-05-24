@@ -11,15 +11,15 @@
     CTLazuliGroupChatInformation *_chat;
 }
 
-+ (_Bool);
++ (_Bool)es:%@> /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)?	;
 - (id);
 - (_Bool);
-- (void);
+- (void)_coder;
 - (id);
 - (void)ª)°1Â0@ù
 × ;

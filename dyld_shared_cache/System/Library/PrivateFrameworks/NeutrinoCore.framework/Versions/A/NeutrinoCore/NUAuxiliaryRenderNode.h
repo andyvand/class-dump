@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long auxiliaryImageType;
-@property(readonly, nonatomic) NURenderNode *inputNode;
 
 @end
 

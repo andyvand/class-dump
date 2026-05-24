@@ -6,28 +6,24 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface AALoginDelegatesResponse : AAResponse
 {
 }
 
-+ (id);
++ (id)ddUserAccountData account info is empty;
+- (id)aring;
+- (id)eturned = %d;
+- (id)ort %d;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id)-H¶æªjvmñóGð¼7±Áå_'í.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *altDSID;
-@property(readonly, nonatomic) NSString *dsid;
-@property(readonly, nonatomic) NSDictionary *responseParameters;
 @property(readonly, nonatomic) NSNumber *status;
-@property(readonly, nonatomic) NSString *statusMessage;
 
 @end
 

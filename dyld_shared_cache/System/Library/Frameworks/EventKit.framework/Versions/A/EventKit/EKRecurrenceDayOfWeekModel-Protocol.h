@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long dayOfTheWeek;
-@property(readonly, nonatomic) long long weekNumber;
 @end
 

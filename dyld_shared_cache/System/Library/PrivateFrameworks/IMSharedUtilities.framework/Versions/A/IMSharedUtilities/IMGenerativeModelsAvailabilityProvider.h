@@ -7,9 +7,6 @@
 @interface IMGenerativeModelsAvailabilityProvider
 {
     id summarizationUseCaseIdentifier;
-    id generativePlaygroundUseCaseIdentifier;
-    id summarizationModelsAvailable;
-    id generativePlaygroundModelsAvailable;
 }
 
 + (_Bool);
@@ -17,7 +14,7 @@
 + (void);
 + (_Bool);
 + (_Bool);
-- (id);
+- (id)ete-aids;
 - (void)e;
 
 @end

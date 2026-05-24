@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface PKPhysicalCardOrderActivityEvent
 {
     unsigned long long _activity;
-    NSDate *_date;
-    NSString *_localizedReason;
 }
 
 + (_Bool);
@@ -19,19 +15,17 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)`	;
 - (id);
-- (_Bool);
+- (_Bool)SinceLastSuccessfulComp"b1"expiredComp"b1"failedComp"b1"failedCompletionsAtLastCheck"b1"noAckComp"b1"otherErrComp"b1"qeuedPackets"b1"sinceLastEnqueueHowManyFailed"b1"sinceLastEnqueueHowManySuccess"b1"sinceLastSuccessHowManyFailed"b1"success"b1"successfulCompletionsAtLastCheck"b1};
+- (void)V_tcpECNIntConnPLNoCE;
 - (void);
-- (void);
-- (id);
-- (id)l:(id)arg1;
-- (void)viceModel;
+- (id)';
+- (id)initWithRemoteCredential:(id)arg1;
+- (void)remoteDeviceModel;
 
 // Remaining properties
 @property(nonatomic) unsigned long long activity; // @synthesize activity=_activity;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy, nonatomic) NSString *localizedReason; // @synthesize localizedReason=_localizedReason;
 
 @end
 

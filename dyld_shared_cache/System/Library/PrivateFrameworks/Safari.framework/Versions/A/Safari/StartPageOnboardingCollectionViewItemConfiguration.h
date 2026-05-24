@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSView;
+@class NSString;
 
 @interface StartPageOnboardingCollectionViewItemConfiguration
 {
     NSString *identifier;
-    id stateProvider;
-    id artworkType;
-    void textHeading;
-    void textDescription;
-    void linkText;
-    void linkURL;
-    void imageOverlayProvider;
-    void buttonTitle;
-    void buttonSymbolName;
 }
 
 - (id);
@@ -30,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -40,21 +31,11 @@
 - (long long);
 - (id)q¥1Â0@ù
 × ;
-- (id);
+- (id)canGoHome;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSView *artworkView;
-@property(nonatomic, copy) NSString *buttonSymbolName;
-@property(nonatomic, copy) NSString *buttonTitle;
 @property(nonatomic, readonly) NSString *identifier; // @synthesize identifier;
-@property(nonatomic, readonly) NSString *imageName;
-@property(nonatomic, copy) CDUnknownBlockType imageOverlayProvider;
-@property(nonatomic, copy) NSString *linkText;
-@property(nonatomic, copy) NSURL *linkURL;
-@property(nonatomic, readonly) long long state;
-@property(nonatomic, readonly) NSString *textDescription;
-@property(nonatomic, readonly) NSString *textHeading;
 
 @end
 

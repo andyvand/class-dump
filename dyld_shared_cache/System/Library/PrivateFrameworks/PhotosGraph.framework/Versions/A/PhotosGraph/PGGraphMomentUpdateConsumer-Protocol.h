@@ -5,5 +5,6 @@
 //
 
 @protocol PGGraphMomentUpdateConsumer
++ (unsigned long long);
 @end
 

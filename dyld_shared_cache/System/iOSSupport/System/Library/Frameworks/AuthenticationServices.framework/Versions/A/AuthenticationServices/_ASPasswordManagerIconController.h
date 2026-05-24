@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, WBSCache, WBSSiteMetadataManager;
-@protocol OS_dispatch_queue, _ASPasswordManagerIconControllerDelegate;
+@protocol _ASPasswordManagerIconControllerDelegate;
 
 @interface _ASPasswordManagerIconController
 {
     _Bool _hasLoadedHistory;
-    _Bool _canEnableIconDownload;
-    WBSCache *_iconCache;
-    NSMutableDictionary *_domainsToExtractedBackgroundColors;
-    NSMutableDictionary *_activeRequestIDToRequestToken;
-    NSMutableSet *_touchIconRequests;
-    NSMutableDictionary *_domainToItems;
-    NSMutableSet *_domainsThatHaveRequestedIcon;
-    NSMutableArray *_blocksAwaitingHistoryItems;
-    NSObject<OS_dispatch_queue> *_queue;
-    WBSSiteMetadataManager *_metadataManager;
-    NSMutableDictionary *_domainToAppID;
-    NSMutableArray *_blocksAwaitingSharedWebCredentialsInformation;
-    _Bool _initializedHistory;
-    NSMutableDictionary *_domainToNextIconDownloadRetryDate;
-    CDUnknownBlockType _allowNetworkFetchingBlock;
-    id <_ASPasswordManagerIconControllerDelegate> _delegate;
 }
 
 + (struct CGSize);
@@ -56,7 +39,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)\;
 
 // Remaining properties
 @property(nonatomic) __weak id <_ASPasswordManagerIconControllerDelegate> delegate; // @synthesize delegate=_delegate;

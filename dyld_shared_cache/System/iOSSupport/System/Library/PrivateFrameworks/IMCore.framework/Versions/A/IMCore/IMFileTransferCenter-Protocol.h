@@ -5,5 +5,7 @@
 //
 
 @protocol IMFileTransferCenter
+- (void);
+- (void);
 @end
 

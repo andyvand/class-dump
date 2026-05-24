@@ -4,137 +4,72 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface MessageListViewControllerState
 {
     _Bool _isCompact;
-    _Bool _useSplitViewStyling;
-    _Bool _shouldDisplayUnreadAndVIP;
-    _Bool _canShowReadLaterDate;
-    _Bool _containsInbox;
-    _Bool _containsSent;
-    _Bool _containsOnlyInboxScope;
-    _Bool _containsArchiveMailbox;
-    _Bool _containsDraftsMailbox;
-    _Bool _containsOutbox;
-    _Bool _containsDraftsOrOutbox;
-    _Bool _isOutgoingMailbox;
-    _Bool _containsTrashMailbox;
-    _Bool _isUnifiedMailbox;
-    _Bool _containsSmartMailbox;
-    _Bool _containsReadLaterMailbox;
-    _Bool _containsSendLaterMailbox;
-    _Bool _containsFollowUpMailbox;
-    _Bool _isEditing;
-    _Bool _didAlertOnBlankCell;
-    _Bool _didRecordTailspin;
-    _Bool _isSearch;
-    _Bool _isSenderSpecificMailbox;
-    _Bool _isSortedAscending;
-    _Bool _hasDateBasedSortOrder;
-    NSString *_sortKeyPath;
 }
 
 - (_Bool);
 - (void);
+- (id);
+- (_Bool);
+- (void)P;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)9*}J;
+- (void);
+- (void);
+- (void);
+- (void)l;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool)(;
+- (id)(;
+- (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool)ator;
-- (void)nt: /* Error: Ran out of types for this method. */;
+- (_Bool)toCCIndicator;
+- (void)setSegmentCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool canShowReadLaterDate; // @synthesize canShowReadLaterDate=_canShowReadLaterDate;
-@property(nonatomic) _Bool containsArchiveMailbox; // @synthesize containsArchiveMailbox=_containsArchiveMailbox;
-@property(nonatomic) _Bool containsDraftsMailbox; // @synthesize containsDraftsMailbox=_containsDraftsMailbox;
-@property(nonatomic) _Bool containsDraftsOrOutbox; // @synthesize containsDraftsOrOutbox=_containsDraftsOrOutbox;
-@property(nonatomic) _Bool containsFollowUpMailbox; // @synthesize containsFollowUpMailbox=_containsFollowUpMailbox;
-@property(nonatomic) _Bool containsInbox; // @synthesize containsInbox=_containsInbox;
-@property(nonatomic) _Bool containsOnlyInboxScope; // @synthesize containsOnlyInboxScope=_containsOnlyInboxScope;
-@property(nonatomic) _Bool containsOutbox; // @synthesize containsOutbox=_containsOutbox;
-@property(nonatomic) _Bool containsReadLaterMailbox; // @synthesize containsReadLaterMailbox=_containsReadLaterMailbox;
-@property(nonatomic) _Bool containsSendLaterMailbox; // @synthesize containsSendLaterMailbox=_containsSendLaterMailbox;
-@property(nonatomic) _Bool containsSent; // @synthesize containsSent=_containsSent;
-@property(nonatomic) _Bool containsSmartMailbox; // @synthesize containsSmartMailbox=_containsSmartMailbox;
-@property(nonatomic) _Bool containsTrashMailbox; // @synthesize containsTrashMailbox=_containsTrashMailbox;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didAlertOnBlankCell; // @synthesize didAlertOnBlankCell=_didAlertOnBlankCell;
-@property(nonatomic) _Bool didRecordTailspin; // @synthesize didRecordTailspin=_didRecordTailspin;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(nonatomic) _Bool hasDateBasedSortOrder; // @synthesize hasDateBasedSortOrder=_hasDateBasedSortOrder;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isCompact; // @synthesize isCompact=_isCompact;
-@property(nonatomic) _Bool isEditing; // @synthesize isEditing=_isEditing;
-@property(nonatomic) _Bool isOutgoingMailbox; // @synthesize isOutgoingMailbox=_isOutgoingMailbox;
-@property(nonatomic) _Bool isSearch; // @synthesize isSearch=_isSearch;
-@property(nonatomic) _Bool isSenderSpecificMailbox; // @synthesize isSenderSpecificMailbox=_isSenderSpecificMailbox;
-@property(nonatomic) _Bool isSortedAscending; // @synthesize isSortedAscending=_isSortedAscending;
-@property(nonatomic) _Bool isUnifiedMailbox; // @synthesize isUnifiedMailbox=_isUnifiedMailbox;
-@property(nonatomic) _Bool shouldDisplayUnreadAndVIP; // @synthesize shouldDisplayUnreadAndVIP=_shouldDisplayUnreadAndVIP;
-@property(readonly, copy, nonatomic) NSArray *sortDescriptors;
-@property(copy, nonatomic) NSString *sortKeyPath; // @synthesize sortKeyPath=_sortKeyPath;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useSplitViewStyling; // @synthesize useSplitViewStyling=_useSplitViewStyling;
 
 @end
 

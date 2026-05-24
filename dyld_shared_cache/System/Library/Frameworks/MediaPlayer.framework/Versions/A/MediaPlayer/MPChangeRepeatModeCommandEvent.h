@@ -9,7 +9,6 @@
 @interface MPChangeRepeatModeCommandEvent : MPRemoteCommandEvent
 {
     _Bool _preservesRepeatMode;
-    long long _repeatType;
 }
 
 - (long long);
@@ -17,7 +16,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool preservesRepeatMode; // @synthesize preservesRepeatMode=_preservesRepeatMode;
 @property(readonly, nonatomic) long long repeatType; // @synthesize repeatType=_repeatType;
 
 @end

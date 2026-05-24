@@ -8,6 +8,11 @@
 
 @protocol SMTriggerProtocol
 
+@optional
+- (void)`;
+- (void);
+- (void)setServiceContexts: /* Error: Ran out of types for this method. */;
+
 // Remaining properties
 @property(nonatomic) __weak id <SMTriggerManagerProtocol> sessionMonitorDelegate;
 // Preceding property had unknown attributes: ?

@@ -7,7 +7,6 @@
 @interface ContactsUI.ContactHeaderViewWrapperModel
 {
     id _contact;
-    id _quickActionViewStyle;
 }
 
 @end

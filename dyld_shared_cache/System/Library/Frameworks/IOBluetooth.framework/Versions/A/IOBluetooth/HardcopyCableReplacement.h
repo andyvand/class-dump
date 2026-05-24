@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-
 @interface HardcopyCableReplacement
 {
     char *incomingDataBuffer;
-    unsigned int incomingdataBufferSize;
-    unsigned int incomingReadHead;
-    unsigned int incomingWriteHead;
-    _Bool transportIsOpen;
-    id dataTransportLayer;
-    id hcrpDelegate;
-    unsigned char printerStatus;
-    char *last1284ID;
-    unsigned int idLen;
-    unsigned int currentOffset;
-    unsigned short transactionID;
-    unsigned int pendingTransactionID;
-    struct PDUQueueElement *pduHead;
-    struct PDUQueueElement *pduTail;
-    unsigned int numberOfRemoteCreditsGrantedSoFar;
-    unsigned int numberOfRemoteCreditsSavedJustInCase;
-    double waitTime;
-    NSTimer *pduTimer;
-    CDUnknownFunctionPointerType eventListener;
-    void *eventRefcon;
-    char printer1284IDBuffer[8096];
 }
 
 + (id);
@@ -39,9 +16,9 @@
 + (id);
 - (int);
 - (void);
+- (int);
 - (int);
-- (int);
-- (int);
+- (int);
 - (unsigned short);
 - (void);
 - (int);
@@ -76,7 +53,7 @@
 - (int);
 - (char *);
 - (int);
-- (void);
+- (void)R_;
 - (void);
 - (unsigned short);
 - (int);

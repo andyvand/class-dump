@@ -10,8 +10,6 @@
 @interface AFUIDelayedActionCommandCache
 {
     NSMutableDictionary *_delayedActionTimersByIdentifier;
-    NSMutableDictionary *_dismissalDelayedActionCommandsByIdentifier;
-    id <AFUIDelayedActionCommandCacheDelegate> _delegate;
 }
 
 - (void);
@@ -19,9 +17,9 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)suggestedEntity;
 - (id);
 - (void);
 - (id);
@@ -29,7 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <AFUIDelayedActionCommandCacheDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool hasPendingCommands;
 
 @end
 

@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModelDescription, NSArray, NSDictionary, NSString;
+@class NSArray, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MLModelAssetDescription
 {
     NSArray *_functionNames;
-    NSDictionary *_modelDescriptionsByFunctionName;
-    NSString *_defaultFunctionNameOrEmptyString;
 }
 
-- (_Bool);
+- (_Bool)keAliasable];
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)HD;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)f;
+- (id)NE;
+- (id)K=;
+- (id)i;
 - (id)Þ7;
 - (void)d to persist Key Blob;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *defaultFunctionName;
-@property(readonly, copy, nonatomic) NSString *defaultFunctionNameOrEmptyString; // @synthesize defaultFunctionNameOrEmptyString=_defaultFunctionNameOrEmptyString;
-@property(readonly, copy, nonatomic) MLModelDescription *defaultModelDescription;
-@property(readonly, copy, nonatomic) NSArray *functionNames; // @synthesize functionNames=_functionNames;
 @property(readonly, copy, nonatomic) NSDictionary *modelDescriptionsByFunctionName; // @synthesize modelDescriptionsByFunctionName=_modelDescriptionsByFunctionName;
-@property(readonly, nonatomic) _Bool usesMultiFunctionSyntax;
 
 @end
 

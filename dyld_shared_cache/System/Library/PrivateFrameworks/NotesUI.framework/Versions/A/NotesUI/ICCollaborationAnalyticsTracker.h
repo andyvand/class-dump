@@ -15,10 +15,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)_currentRecordingManager;
 
 // Remaining properties
 @property(retain, nonatomic) ICCollaborationAnalyticsTrackerInternal *collaborationAnalyticsTracker; // @synthesize collaborationAnalyticsTracker=_collaborationAnalyticsTracker;

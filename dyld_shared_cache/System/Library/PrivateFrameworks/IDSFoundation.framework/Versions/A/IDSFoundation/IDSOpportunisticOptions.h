@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary;
+@class NSArray, NSDictionary;
 
 @interface IDSOpportunisticOptions
 {
     NSArray *_blocklistedDestinations;
-    NSDate *_expiryDate;
-    _Bool _destinationsMustBeInContacts;
 }
 
 + (_Bool);
@@ -18,7 +16,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,10 +28,7 @@
 - (void)t an identifier;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *blocklistedDestinations; // @synthesize blocklistedDestinations=_blocklistedDestinations;
-@property(nonatomic) _Bool destinationsMustBeInContacts; // @synthesize destinationsMustBeInContacts=_destinationsMustBeInContacts;
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
 
 @end
 

@@ -6,27 +6,21 @@
 
 #import <CoreSuggestionsInternals/SGPipelineDissector.h>
 
-@class NSString, SGSqlEntityStore;
+@class SGSqlEntityStore;
 
 @interface SGMetricsDissector : SGPipelineDissector
 {
     SGSqlEntityStore *_store;
 }
 
-- (void);
+- (void)indexPathForGlobalIndex:(id)arg1;
 - (void);
 - (id);
-- (_Bool)hemaURLString:isEqualTo: /* Error: Ran out of types for this method. */;
+- (_Bool)schemaURLString:isEqualTo: /* Error: Ran out of types for this method. */;
 - (void)èùúûHû;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

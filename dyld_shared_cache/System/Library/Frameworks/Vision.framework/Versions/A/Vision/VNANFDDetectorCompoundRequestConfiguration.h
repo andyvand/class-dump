@@ -6,20 +6,18 @@
 
 #import <Vision/VNRequestConfiguration.h>
 
-@class NSDictionary, NSMutableArray, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VNANFDDetectorCompoundRequestConfiguration : VNRequestConfiguration
 {
     NSDictionary *_detectorConfigurationOptions;
-    NSMutableArray *_originalRequests;
-    NSString *_detectorType;
 }
 
+- (void)F;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)abNameComponentTokensUsingLocale:(id)arg1 inferredNameOrder: /* Error: Ran out of types for this method. */;
+- (id)5;
 - (id);
 - (id);
 - (id) ;
@@ -28,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *detectorConfigurationOptions; // @synthesize detectorConfigurationOptions=_detectorConfigurationOptions;
-@property(copy, nonatomic) NSString *detectorType; // @synthesize detectorType=_detectorType;
-@property(readonly, nonatomic) NSMutableArray *originalRequests; // @synthesize originalRequests=_originalRequests;
 
 @end
 

@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFApplet, NSData, NSDecimalNumber, NSDictionary, NSString;
+@class NFApplet, NSString;
 
 @interface NFContactlessPaymentEndEvent
 {
     NSString *_appletIdentifier;
-    _Bool _didError;
-    _Bool _background;
-    unsigned short _status;
-    unsigned short _type;
-    unsigned short _result;
-    unsigned short _informative;
-    unsigned int _command;
-    NFApplet *_applet;
-    NSString *_keyIdentifier;
-    NSString *_readerIdentifier;
-    NSString *_transactionIdentifier;
-    NSDecimalNumber *_amount;
-    NSString *_currency;
-    NSData *_tlv;
-    NSDictionary *_felicaInfo;
-    NSDictionary *_parsedInfo;
 }
 
 + (_Bool);
 + (_Bool);
-- (id);
+- (id)e;
 - (void);
 - (id);
 - (id);
@@ -39,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)JRSchemaRankingTuple;
 - (id);
 - (id);
 - (id);
@@ -55,22 +39,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
 @property(readonly, retain, nonatomic) NFApplet *applet; // @synthesize applet=_applet;
-@property(readonly, nonatomic) _Bool background; // @synthesize background=_background;
-@property(readonly, nonatomic) unsigned int command; // @synthesize command=_command;
-@property(readonly, retain, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(readonly, nonatomic) _Bool didError; // @synthesize didError=_didError;
-@property(readonly, retain, nonatomic) NSDictionary *felicaInfo; // @synthesize felicaInfo=_felicaInfo;
-@property(readonly, nonatomic) unsigned short informative; // @synthesize informative=_informative;
-@property(readonly, retain, nonatomic) NSString *keyIdentifier; // @synthesize keyIdentifier=_keyIdentifier;
-@property(readonly, retain, nonatomic) NSDictionary *parsedInfo; // @synthesize parsedInfo=_parsedInfo;
-@property(readonly, retain, nonatomic) NSString *readerIdentifier; // @synthesize readerIdentifier=_readerIdentifier;
-@property(readonly, nonatomic) unsigned short result; // @synthesize result=_result;
-@property(readonly, nonatomic) unsigned short status; // @synthesize status=_status;
-@property(readonly, retain, nonatomic) NSData *tlv; // @synthesize tlv=_tlv;
-@property(readonly, retain, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
-@property(readonly, nonatomic) unsigned short type; // @synthesize type=_type;
 
 @end
 

@@ -6,46 +6,12 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class CAShapeLayer, NSArray, NSLayoutConstraint, NSString, TIKeyboardCandidate, UIColor, UIDictationGlowEffect, UILayoutGuide, UIScrollView, UIStackView, UIView, UIVisualEffectView, _UIReplacementCandidate, _UITextOption;
 @protocol _UITextChoiceAccelerationDictationPromptDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UITextChoiceAccelerationBubble : UIControl
 {
     _Bool _shouldRejectCandidate;
-    _Bool _needsRTLCheck;
-    _Bool _isDismissing;
-    id <_UITextChoiceAccelerationDictationPromptDelegate> _dictationPromptDelegate;
-    UILayoutGuide *_textAnchor;
-    NSLayoutConstraint *_anchorLeading;
-    NSLayoutConstraint *_anchorTop;
-    NSLayoutConstraint *_anchorWidth;
-    NSLayoutConstraint *_anchorHeight;
-    NSArray *_boundaryConstraints;
-    NSLayoutConstraint *_leadingSpacing;
-    NSArray *_belowTextConstraints;
-    NSArray *_aboveTextConstraints;
-    TIKeyboardCandidate *_candidate;
-    double _secureCandidateHeight;
-    _UIReplacementCandidate *_replacement;
-    NSString *_selectedChoice;
-    TIKeyboardCandidate *_selectedCandidateChoice;
-    UIView *_parentView;
-    long long _buttonType;
-    UIVisualEffectView *_backgroundView;
-    CAShapeLayer *_backgroundMaskLayer;
-    UIStackView *_contentsView;
-    UIScrollView *_backingScrollView;
-    _UITextOption *_sideButton;
-    NSArray *_buttonConstraints;
-    UIView *_textHighlightView;
-    UIDictationGlowEffect *_dictationGlowEffect;
-    long long _promptStyle;
-    UIColor *_optionalTintColor;
-    unsigned long long _labelNumber;
-    struct _NSRange _deltaRange;
-    struct _NSRange _originalSelectedRange;
-    struct CGRect _referenceRect;
 }
 
 - (_Bool);
@@ -59,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (int);
 - (id);
@@ -90,16 +56,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (double);
-- (void);
+- (void)ogram id;
 - (struct CGRect);
 - (_Bool);
-- (struct _NSRange);
+- (struct _NSRange)__data;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)provideFrameAtFramerate: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void);
@@ -111,22 +77,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct _NSRange);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ring"32C40@"NSString"44@"NSString"52@"NSString"60@"NSDictionary"68@"NSString"76;
+- (id)tring"32B40;
+- (id)8@"NSString"16I24;
+- (id)SString"16@"NSData"24;
+- (id)istry";
+- (id)"16q24@"IMDChat"32;
+- (id)ySyncTask>"24@0:8Q16 /* Error: Ran out of types for this method. */;
+- (id)24;
+- (void)i16;
+- (id)layPushHandler";
+- (id)er";
+- (id)storeEditedMessage:editedPartIndex:editType:previousMessage:chat:updatedAssociatedMessageItems: /* Error: Ran out of types for this method. */;
+- (void)ecord found with date %@, won't try again;
+- (void)_postMetricsToCloudKitOnAutomaticHistoryDeletionAgentLaunch;
+- (void)tokens %@ for message to handleID "%@";
+- (void)esent in recordNameToRowIDMap! ;
 - (id);
 - (id);
 - (void);
@@ -139,22 +105,22 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)p:%{public}@] dispatchCommandEvent | undeliverable [missing command event] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id)0@ù
 × ;
-- (int)AlertController: /* Error: Ran out of types for this method. */;
-- (id)etteForEdge:(struct CGRect)arg1 size: /* Error: Ran out of types for this method. */;
+- (int)_willShowAlertController: /* Error: Ran out of types for this method. */;
+- (id)_managedSearchPaletteForEdge:(struct CGRect)arg1 size: /* Error: Ran out of types for this method. */;
 - (_Bool)e;
-- (void)r;
+- (void)UIPressAndHoldPopoverController;
 - (_Bool)ns;
 - (void)ption occurred trying to delete restorable state:%@ /* Error: Ran out of types for this method. */;
 - (id)eVLimit;
 - (id)m.apple.UIKit.kbProductivity.threeFingerSingleTap;
-- (void)o7UISceneC_Sbtc;
+- (void)ySo7UISceneC_Sbtc;
 - (void);
 - (void);
 - (void)43¨;
@@ -162,40 +128,7 @@ __attribute__((visibility("hidden")))
 - (long long)T;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *aboveTextConstraints; // @synthesize aboveTextConstraints=_aboveTextConstraints;
-@property(retain, nonatomic) NSLayoutConstraint *anchorHeight; // @synthesize anchorHeight=_anchorHeight;
-@property(retain, nonatomic) NSLayoutConstraint *anchorLeading; // @synthesize anchorLeading=_anchorLeading;
-@property(retain, nonatomic) NSLayoutConstraint *anchorTop; // @synthesize anchorTop=_anchorTop;
-@property(retain, nonatomic) NSLayoutConstraint *anchorWidth; // @synthesize anchorWidth=_anchorWidth;
-@property(retain, nonatomic) CAShapeLayer *backgroundMaskLayer; // @synthesize backgroundMaskLayer=_backgroundMaskLayer;
-@property(retain, nonatomic) UIVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) UIScrollView *backingScrollView; // @synthesize backingScrollView=_backingScrollView;
-@property(retain, nonatomic) NSArray *belowTextConstraints; // @synthesize belowTextConstraints=_belowTextConstraints;
-@property(retain, nonatomic) NSArray *boundaryConstraints; // @synthesize boundaryConstraints=_boundaryConstraints;
-@property(retain, nonatomic) NSArray *buttonConstraints; // @synthesize buttonConstraints=_buttonConstraints;
-@property(nonatomic) long long buttonType; // @synthesize buttonType=_buttonType;
-@property(retain, nonatomic) TIKeyboardCandidate *candidate; // @synthesize candidate=_candidate;
-@property(retain, nonatomic) UIStackView *contentsView; // @synthesize contentsView=_contentsView;
-@property(nonatomic) struct _NSRange deltaRange; // @synthesize deltaRange=_deltaRange;
-@property(retain, nonatomic) UIDictationGlowEffect *dictationGlowEffect; // @synthesize dictationGlowEffect=_dictationGlowEffect;
 @property(nonatomic) __weak id <_UITextChoiceAccelerationDictationPromptDelegate> dictationPromptDelegate; // @synthesize dictationPromptDelegate=_dictationPromptDelegate;
-@property(nonatomic) _Bool isDismissing; // @synthesize isDismissing=_isDismissing;
-@property(nonatomic) unsigned long long labelNumber; // @synthesize labelNumber=_labelNumber;
-@property(retain, nonatomic) NSLayoutConstraint *leadingSpacing; // @synthesize leadingSpacing=_leadingSpacing;
-@property(nonatomic) _Bool needsRTLCheck; // @synthesize needsRTLCheck=_needsRTLCheck;
-@property(nonatomic) UIColor *optionalTintColor; // @synthesize optionalTintColor=_optionalTintColor;
-@property(nonatomic) struct _NSRange originalSelectedRange; // @synthesize originalSelectedRange=_originalSelectedRange;
-@property(nonatomic) __weak UIView *parentView; // @synthesize parentView=_parentView;
-@property long long promptStyle; // @synthesize promptStyle=_promptStyle;
-@property(nonatomic) struct CGRect referenceRect; // @synthesize referenceRect=_referenceRect;
-@property(retain, nonatomic) _UIReplacementCandidate *replacement; // @synthesize replacement=_replacement;
-@property(nonatomic) double secureCandidateHeight; // @synthesize secureCandidateHeight=_secureCandidateHeight;
-@property(readonly, nonatomic) TIKeyboardCandidate *selectedCandidateChoice; // @synthesize selectedCandidateChoice=_selectedCandidateChoice;
-@property(readonly, nonatomic) NSString *selectedChoice; // @synthesize selectedChoice=_selectedChoice;
-@property(nonatomic) _Bool shouldRejectCandidate; // @synthesize shouldRejectCandidate=_shouldRejectCandidate;
-@property(retain, nonatomic) _UITextOption *sideButton; // @synthesize sideButton=_sideButton;
-@property(retain, nonatomic) UILayoutGuide *textAnchor; // @synthesize textAnchor=_textAnchor;
-@property(retain, nonatomic) UIView *textHighlightView; // @synthesize textHighlightView=_textHighlightView;
 
 @end
 

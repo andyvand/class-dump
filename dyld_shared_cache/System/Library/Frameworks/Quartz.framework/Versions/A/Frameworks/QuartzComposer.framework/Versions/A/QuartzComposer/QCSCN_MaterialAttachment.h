@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface QCSCN_MaterialAttachment
 {
     unsigned int glID;
-    unsigned int target;
-    void *context;
-    struct CGSize size;
-    NSDictionary *options;
 }
 
 - (void);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)registerForMessage:receiver:selector: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (void);
+- (void)>F;
+- (void)2;
+- (struct CGSize)dditional triangle.;
+- (id)inBetweenCounts;
+- (void)== kC3DLightProbeTypeRadiance;
 - (void *);
 - (void);
 
 // Remaining properties
-@property void *context; // @synthesize context;
 @property unsigned int glID; // @synthesize glID;
-@property(copy) NSDictionary *options; // @synthesize options;
-@property struct CGSize size; // @synthesize size;
-@property unsigned int target; // @synthesize target;
 
 @end
 

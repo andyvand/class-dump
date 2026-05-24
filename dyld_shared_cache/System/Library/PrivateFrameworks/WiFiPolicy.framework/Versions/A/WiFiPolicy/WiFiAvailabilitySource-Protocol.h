@@ -4,11 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol WiFiAvailabilitySource
+- (NSSet *)
+;
+
+@optional
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType changeHandler;
-@property(copy, nonatomic) CDUnknownBlockType relevancyHandler;
-@property(copy, nonatomic) CDUnknownBlockType removalHandler;
 @end
 

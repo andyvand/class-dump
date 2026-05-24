@@ -6,20 +6,18 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaSystemModel : HMDBackingStoreModelObject
 {
 }
 
-+ (id);
-+ (id)SystemCommissionerPairingsWithCompletionHandler: /* Error: Ran out of types for this method. */;
++ (id)(;
++ (id)fetchSystemCommissionerPairingsWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id)";
 
 // Remaining properties
-@property(copy, nonatomic) NSString *configuredName; // @dynamic configuredName;
-@property(copy, nonatomic) NSArray *mediaSystemComponents; // @dynamic mediaSystemComponents;
 @property(retain, nonatomic) NSString *name; // @dynamic name;
 
 @end

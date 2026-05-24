@@ -7,15 +7,14 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)stProcessingShouldBegin: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (_Bool)reaHighlightId;
+- (struct _NSZone *)_remote_IXSCoordinatedAppInstall:getPostProcessingShouldBegin: /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSString *)queryNANStateWithCompletionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

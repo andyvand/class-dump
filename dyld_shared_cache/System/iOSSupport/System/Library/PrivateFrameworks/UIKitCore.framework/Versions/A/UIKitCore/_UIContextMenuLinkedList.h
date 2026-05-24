@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _UIContextMenuNode;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuLinkedList
@@ -12,22 +12,20 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_nodes;
 }
 
-- (void);
+- (void)messagesThatNeedSyncWithCloudKitWithFilter:(CDUnknownBlockType)arg1 limit: /* Error: Ran out of types for this method. */;
+- (id)detectSpam:(id)arg1 chatGUID: /* Error: Ran out of types for this method. */;
+- (void)d linkedPCSReportManateeStatus ok:(CDUnknownBlockType)arg1 %@;
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)mized:(id)arg1;
-- (id)buggingInformationHierarchyLineView;
+- (id)keyboardMinMaximized:(id)arg1;
+- (id)UIDebuggingInformationHierarchyLineView;
 - (void);
 - (id)1d;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIContextMenuNode *current;
-@property(readonly, nonatomic) _UIContextMenuNode *first;
 @property(readonly, nonatomic) NSMutableArray *nodes; // @synthesize nodes=_nodes;
 
 @end

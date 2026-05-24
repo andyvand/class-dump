@@ -4,41 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenuItem, NSPanel, NSString, NSWindow;
+@class NSMenuItem;
 @protocol NSDebugTouchBarUIDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugMenuTouchBarProvider
 {
     NSMenuItem *_menuItem;
-    NSPanel *_panel;
-    NSWindow *_observedWindow;
-    id <NSDebugTouchBarUIDelegate> _uiDelegate;
-    _Bool _observingPanelVisibility;
-    _Bool _observingKeyWindow;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)"16@"NSURLProtectionSpace"24;
+- (id)kCFURLRequestPreAuthXMMeAuthToken;
 - (void);
 - (void);
 - (void);
-- (id)isualEffectView:andThemeFrame: /* Error: Ran out of types for this method. */;
+- (id)_stopObservingContainingVisualEffectView:andThemeFrame: /* Error: Ran out of types for this method. */;
 - (void)¢Ô[C;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSMenuItem *menuItem;
-@property(readonly) Class superclass;
 @property __weak id <NSDebugTouchBarUIDelegate> uiDelegate; // @synthesize uiDelegate=_uiDelegate;
 
 @end

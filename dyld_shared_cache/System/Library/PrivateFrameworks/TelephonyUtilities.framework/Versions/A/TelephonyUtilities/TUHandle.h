@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface TUHandle
 {
     _Bool _hasSetISOCountryCode;
-    long long _type;
-    NSString *_value;
-    NSString *_siriDisplayName;
-    NSString *_isoCountryCode;
-    NSString *_normalizedValue;
 }
 
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
++ (id)1";
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)bo;
 + (id);
 + (long long);
-+ (id);
++ (id)J
+i(K
+k;
 + (id);
 + (_Bool);
 + (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(nonatomic) _Bool hasSetISOCountryCode; // @synthesize hasSetISOCountryCode=_hasSetISOCountryCode;
-@property(copy, nonatomic) NSString *isoCountryCode; // @synthesize isoCountryCode=_isoCountryCode;
-@property(readonly, copy, nonatomic) NSString *normalizedValue; // @synthesize normalizedValue=_normalizedValue;
-@property(readonly, nonatomic, getter=shouldHideContact) _Bool shouldHideContact;
-@property(copy) NSString *siriDisplayName; // @synthesize siriDisplayName=_siriDisplayName;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

@@ -5,5 +5,11 @@
 //
 
 @protocol AAPDelegate
+
+@optional
+- (void);
+- (void)?;
+- (void)j;
+- (void)7;
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsArticles.OfferUpsellScenarioProvider
 {
     id observers;
-    id offerManager;
-    id didProcessInitialOffer;
 }
 
 - (long long);

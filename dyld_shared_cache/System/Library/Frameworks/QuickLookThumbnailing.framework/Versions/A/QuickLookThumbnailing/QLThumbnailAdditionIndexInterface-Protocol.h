@@ -5,5 +5,7 @@
 //
 
 @protocol QLThumbnailAdditionIndexInterface
+- (void)owmemEngine14reshape_kernelEEENS_9allocatorIS6_EEEE;
+- (void)@;
 @end
 

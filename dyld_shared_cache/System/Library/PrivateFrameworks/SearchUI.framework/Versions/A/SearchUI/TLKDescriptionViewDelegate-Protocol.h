@@ -5,5 +5,10 @@
 //
 
 @protocol TLKDescriptionViewDelegate
+
+@optional
+- (void)categoryScoresWithModelScores:configReplies: /* Error: Ran out of types for this method. */;
+- (void)categoryModels;
+- (void)_openFreshHandleForPath:(id)arg1 inMemory: /* Error: Ran out of types for this method. */;
 @end
 

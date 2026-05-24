@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMMTRAccessoryServer;
+
 @protocol HMMTRAccessoryServerDelegate
+- (void)_senderStrategiesByServiceName;
+- (void)_sendTrafficUpdate:(HMMTRAccessoryServer *)arg1 to: /* Error: Ran out of types for this method. */;
 @end
 

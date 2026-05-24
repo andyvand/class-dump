@@ -6,34 +6,26 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class CNContact, NSArray, NSString, NSURL, PKPaymentDeviceMetadata;
+@class NSString;
 
 @interface PKAccountWebServiceAccountUpdateUserInfoRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    CNContact *_contact;
-    NSString *_ssn;
-    NSString *_encryptionVersion;
-    NSArray *_certificates;
-    unsigned long long _featureIdentifier;
-    NSString *_odiAssessment;
-    PKPaymentDeviceMetadata *_deviceMetadata;
 }
 
 - (void);
+- (void)=;
 - (void);
 - (void);
-- (void);
+- (id)`;
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)addRGBColor:(id)arg1 forKey:toDictionary: /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
 - (id)byPeerPayment:finished authorizing quote:%@ with error:%@ /* Error: Ran out of types for this method. */;
 - (id)ssSerialNumber:'%@'> /* Error: Ran out of types for this method. */;
@@ -44,14 +36,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(copy, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(retain, nonatomic) NSString *encryptionVersion; // @synthesize encryptionVersion=_encryptionVersion;
-@property(nonatomic) unsigned long long featureIdentifier; // @synthesize featureIdentifier=_featureIdentifier;
-@property(copy, nonatomic) NSString *odiAssessment; // @synthesize odiAssessment=_odiAssessment;
-@property(retain, nonatomic) NSString *ssn; // @synthesize ssn=_ssn;
 
 @end
 

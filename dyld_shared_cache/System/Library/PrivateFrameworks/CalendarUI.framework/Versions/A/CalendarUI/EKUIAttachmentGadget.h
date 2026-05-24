@@ -6,20 +6,11 @@
 
 #import <CalendarUI/EKUIIsolateableSingleViewGadget.h>
 
-@class CalUIDividerView, EKAttachment, EKUIAttachmentTableView, EKUITextButton, NSArray, NSDictionary, NSLayoutConstraint, NSSet, NSString, NSView;
+@class NSArray, NSSet;
 
 @interface EKUIAttachmentGadget : EKUIIsolateableSingleViewGadget
 {
     NSSet *_attachmentPreviewURLs;
-    NSArray *_attachments;
-    EKUITextButton *_addButton;
-    NSLayoutConstraint *_heightConstraint;
-    EKUIAttachmentTableView *_tableView;
-    NSView *_container;
-    CalUIDividerView *_separatorView;
-    NSArray *_attachmentConstraints;
-    NSDictionary *_viewMetrics;
-    EKAttachment *_selectedAttachment;
 }
 
 + (id);
@@ -27,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -37,7 +28,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (void);
@@ -49,13 +40,13 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)nM9;
+- (id)q`;
 - (_Bool);
 - (double);
 - (id);
@@ -66,46 +57,31 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (void);
-- (void);
+- (void)9Iz";
 - (void);
 - (struct CGRect);
 - (long long);
 - (void);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)	;
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool)!GùqÄ#ð1Â0@ù
 × ;
 - (void)iewReminderCellDelegate>";
-- (id)t;
+- (id)_useAlternateFont;
 - (id)_shouldAllowVibrancy;
-- (void)hird;
+- (void)Third;
 - (void);
 
 // Remaining properties
-@property(retain) EKUITextButton *addButton; // @synthesize addButton=_addButton;
-@property(retain) NSArray *attachmentConstraints; // @synthesize attachmentConstraints=_attachmentConstraints;
 @property(retain) NSArray *attachments; // @synthesize attachments=_attachments;
-@property(retain) NSView *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property __weak EKAttachment *selectedAttachment; // @synthesize selectedAttachment=_selectedAttachment;
-@property(retain) CalUIDividerView *separatorView; // @synthesize separatorView=_separatorView;
-@property(readonly) Class superclass;
-@property(retain) EKUIAttachmentTableView *tableView; // @synthesize tableView=_tableView;
-@property(retain) NSDictionary *viewMetrics; // @synthesize viewMetrics=_viewMetrics;
 
 @end
 

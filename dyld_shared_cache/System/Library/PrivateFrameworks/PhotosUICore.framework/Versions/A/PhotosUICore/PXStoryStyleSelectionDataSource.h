@@ -5,13 +5,10 @@
 //
 
 @class NSArray;
-@protocol PXStoryStyleDescriptor;
 
 @interface PXStoryStyleSelectionDataSource
 {
     long long _indexOfCurrentStyle;
-    long long _indexOfCustomStyle;
-    NSArray *_styleInfos;
 }
 
 - (id);
@@ -28,10 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long indexOfCurrentStyle; // @synthesize indexOfCurrentStyle=_indexOfCurrentStyle;
-@property(readonly, nonatomic) long long indexOfCustomStyle; // @synthesize indexOfCustomStyle=_indexOfCustomStyle;
-@property(readonly, nonatomic) long long numberOfStyles;
-@property(readonly, nonatomic) id <PXStoryStyleDescriptor> styleInfoForCurrentStyle;
 @property(readonly, copy, nonatomic) NSArray *styleInfos; // @synthesize styleInfos=_styleInfos;
 
 @end

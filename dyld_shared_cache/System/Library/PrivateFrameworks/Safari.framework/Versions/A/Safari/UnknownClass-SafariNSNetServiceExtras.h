@@ -7,6 +7,6 @@
 @interface UnknownClass (SafariNSNetServiceExtras)
 - (id);
 - (id);
-- (id)fariTechnologyPreview: /* Error: Ran out of types for this method. */;
+- (id)getSafariTechnologyPreview: /* Error: Ran out of types for this method. */;
 @end
 

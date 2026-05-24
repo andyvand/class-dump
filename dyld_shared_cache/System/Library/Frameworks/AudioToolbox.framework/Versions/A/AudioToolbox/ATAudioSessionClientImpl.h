@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ATAudioSessionPropertyManager, AVAudioSession;
+@class AVAudioSession;
 
 __attribute__((visibility("hidden")))
 @interface ATAudioSessionClientImpl
 {
     AVAudioSession *_weakSession;
-    AVAudioSession *_strongSession;
-    ATAudioSessionPropertyManager *_propertyManager;
-    struct unique_ptr<AudioSessionPropertyListeners, std::default_delete<AudioSessionPropertyListeners>> _propertyListeners;
-    struct map<std::string, std::shared_ptr<OldNotificationCenterObserver>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<OldNotificationCenterObserver>>>> _oldNotificationCenterObservers;
-    struct map<std::string, std::shared_ptr<NewNotificationCenterObserver>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<NewNotificationCenterObserver>>>> _newNotificationCenterObservers;
-    struct ObjectRef<__CFRunLoop *> _clientRunLoop;
-    struct StringRef _clientRunLoopMode;
-    _Bool _isConfigured;
-    unsigned int _interruptionType;
-    CDUnknownFunctionPointerType _clientInterruptionListenerProc;
-    void *_clientUserData;
 }
 
-- (void);
-- (int);
-- (void);
-- (int);
-- (int);
+- (void)VisitManagerQueryingBluePOIMaxDailyVisitCount;
+- (int)ocation heartbeat error, code, %ld, description, %@ (in %s:(struct __CFRunLoop *)arg1 %d);
 - (void);
 - (int);
 - (int);
 - (void);
+- (int);
+- (int)y;
 - (void);
 - (void);
+- (void);
 - (id);
 - (int);
 - (void);
@@ -42,11 +31,11 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (CDUnknownFunctionPointerType);
 - (void);
-- (int);
+- (int)softwareUpdateDidBegin:(unsigned int)arg1;
 - (_Bool);
 - (int);
 - (id);
-- (void);
+- (void)@72@0:(unsigned int)arg1 8@16@24q32^@40^@48^@56@?64;
 - (_Bool);
 - (void);
 - (id);
@@ -58,11 +47,7 @@ __attribute__((visibility("hidden")))
 - (id)Ä;
 
 // Remaining properties
-@property(readonly) AVAudioSession *avas;
 @property CDUnknownFunctionPointerType clientInterruptionListenerProc; // @synthesize clientInterruptionListenerProc=_clientInterruptionListenerProc;
-@property void *clientUserData; // @synthesize clientUserData=_clientUserData;
-@property unsigned int interruptionType; // @synthesize interruptionType=_interruptionType;
-@property _Bool isConfigured; // @synthesize isConfigured=_isConfigured;
 
 @end
 

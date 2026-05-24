@@ -4,43 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _UIColorPalette
 {
     NSArray *_colors;
-    NSArray *_locations;
-    NSString *_colorSpaceName;
 }
 
++ (id)nts to purge;
++ (id)transfers to delete;
++ (id)m persistence to delete which resulted in %lu file transfers to delete;
++ (id)chments with bytes:%lld /* Error: Ran out of types for this method. */;
++ (id)adrid PurgeWithCacheDelete -bool YES;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (struct CGGradient *);
-- (unsigned long long);
+- (id)countryCode;
+- (id)_autoReplyMessageTextWithUrgentBreakthroughInstructions:(id)arg1;
+- (struct CGGradient *)BaseManager;
+- (unsigned long long)r;
 - (id)
 × ;
-- (id)ortsScribbleInteraction;
-- (_Bool)TrailingImageLayoutSize:(id)arg1;
+- (id)supportsScribbleInteraction;
+- (_Bool)setTrailingImageLayoutSize:(id)arg1;
 - (id)o be focusable.;
 - (void)$ê+;
-- (id);
+- (id)e;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *colorSpaceName; // @synthesize colorSpaceName=_colorSpaceName;
 @property(readonly, copy, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(readonly, nonatomic) struct CGGradient *gradientRepresentation;
-@property(readonly, copy, nonatomic) NSArray *locations; // @synthesize locations=_locations;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsAnalytics.ExternalAnalyticsEventProcessor
 {
     id appConfigurationManager;
-    id uploader;
-    id urlProvider;
-    id featureAvailability;
-    id vpnProfileNames;
-    id sessionID;
 }
 
 @end

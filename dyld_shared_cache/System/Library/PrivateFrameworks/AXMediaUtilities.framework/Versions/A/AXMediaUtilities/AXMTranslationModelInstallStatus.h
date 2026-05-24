@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AXMTranslationModelInstallStatus
 {
     long long _progress;
-    NSString *_localeIdentifier;
-    unsigned long long _state;
 }
 
-- (void);
+- (void)std:(unsigned long long)arg1:__1::allocator<char> >::__rep, std::__1::allocator<char> >={__rep}}}} /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (long long);
 - (void);
-- (void);
-- (id)ng;
+- (void);
+- (id)_disableResultLogging;
 - (void)g",R,C;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
 @property(nonatomic) long long progress; // @synthesize progress=_progress;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

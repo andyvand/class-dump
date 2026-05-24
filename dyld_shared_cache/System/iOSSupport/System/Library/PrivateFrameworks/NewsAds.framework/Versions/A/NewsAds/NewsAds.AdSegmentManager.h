@@ -7,12 +7,6 @@
 @interface NewsAds.AdSegmentManager
 {
     id updater;
-    id providers;
-    id lock;
-    id cachedSegments;
-    id timer;
-    id queueDuration;
-    id queue;
 }
 
 @end

@@ -4,38 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactFormatter, CNContactStore, CNCoreRecentsChangeNotifier, MPAnalyticsLogger, NSArray, NSCache, NSDictionary, NSMapTable, NSMutableDictionary, NSNumberFormatter, NSObject, NSPredicate, NSString, TUCallHistoryController, TUCallProviderManager, TUFeatureFlags, TUMetadataCache, TUSubtitleProvider;
-@protocol OS_dispatch_queue;
+@class TUFeatureFlags;
 
 @interface PKRecentsController
 {
     _Bool _initializationBlockQueued;
     _Bool _startedLoadingOlderCalls;
-    struct os_unfair_lock_s _accessorLock;
-    int _callDirectoryManagerIdentificationEntriesChangedNotificationToken;
-    TUCallHistoryController *_callHistoryController;
-    NSCache *_callProviderCache;
-    NSDictionary *_blockedStatusCache;
-    TUCallProviderManager *_callProviderManager;
-    NSObject<OS_dispatch_queue> *_completionDispatchQueue;
-    NSMutableDictionary *_contactCache;
-    CNContactFormatter *_contactFormatter;
-    CNContactStore *_contactStore;
-    NSMutableDictionary *_itemCache;
-    NSMutableDictionary *_localizedSubtitleCache;
-    NSNumberFormatter *_numberFormatter;
-    TUMetadataCache *_metadataCache;
-    NSArray *_recentCalls;
-    CNContactStore *_suggestedContactStore;
-    unsigned long long _unreadCallCount;
-    NSPredicate *_preFetchingPredicate;
-    CDUnknownBlockType _presentScreenTimeShield;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    TUSubtitleProvider *_subtitleProvider;
-    TUFeatureFlags *_featureFlags;
-    NSMapTable *_delegateToQueue;
-    MPAnalyticsLogger *_analyticsLogger;
-    CNCoreRecentsChangeNotifier *_acceptedIntroductionsNotifier;
 }
 
 + (id);
@@ -43,7 +17,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)Com_Apple_Stocks_Personalization_SessionEventWatchSymbol;
 - (void);
 - (void);
 - (void);
@@ -54,43 +28,43 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
+- (void)I;
+- (void);
+- (void);
+- (void)Validation;
+- (void)StocksPersonalization;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void)*;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
+- (void),;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
+- (id):(id)arg1 ;
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)w;
 - (unsigned long long);
-- (unsigned long long);
-- (int);
+- (unsigned long long)U;
+- (int);
 - (id);
 - (id);
 - (id);
@@ -103,21 +77,21 @@
 - (id);
 - (id);
 - (id);
+- (void)c;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)visibleAssetCollectionsFromCuratedLibraryAssetsDataSourceManager:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -132,27 +106,27 @@
 - (id);
 - (struct os_unfair_lock_s);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (void);
+- (void)IDI.dylib;
+- (id);
+- (void)PhotosScrollRequestHandlerObject;
+- (id)dedImaget;
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)8@0:(id)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16;
 - (id);
 - (id);
 - (void);
@@ -162,40 +136,8 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNCoreRecentsChangeNotifier *acceptedIntroductionsNotifier; // @synthesize acceptedIntroductionsNotifier=_acceptedIntroductionsNotifier;
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(retain, nonatomic) MPAnalyticsLogger *analyticsLogger; // @synthesize analyticsLogger=_analyticsLogger;
-@property(retain, nonatomic) NSDictionary *blockedStatusCache; // @synthesize blockedStatusCache=_blockedStatusCache;
-@property(nonatomic) int callDirectoryManagerIdentificationEntriesChangedNotificationToken; // @synthesize callDirectoryManagerIdentificationEntriesChangedNotificationToken=_callDirectoryManagerIdentificationEntriesChangedNotificationToken;
-@property(readonly, nonatomic) TUCallHistoryController *callHistoryController; // @synthesize callHistoryController=_callHistoryController;
-@property(readonly, nonatomic) NSCache *callProviderCache; // @synthesize callProviderCache=_callProviderCache;
-@property(readonly, nonatomic) TUCallProviderManager *callProviderManager; // @synthesize callProviderManager=_callProviderManager;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *completionDispatchQueue; // @synthesize completionDispatchQueue=_completionDispatchQueue;
-@property(readonly, nonatomic) NSMutableDictionary *contactCache; // @synthesize contactCache=_contactCache;
-@property(retain, nonatomic) CNContactFormatter *contactFormatter; // @synthesize contactFormatter=_contactFormatter;
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSMapTable *delegateToQueue; // @synthesize delegateToQueue=_delegateToQueue;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) TUFeatureFlags *featureFlags; // @synthesize featureFlags=_featureFlags;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInitializationBlockQueued) _Bool initializationBlockQueued; // @synthesize initializationBlockQueued=_initializationBlockQueued;
-@property(readonly, nonatomic) NSMutableDictionary *itemCache; // @synthesize itemCache=_itemCache;
-@property(readonly, nonatomic) NSMutableDictionary *localizedSubtitleCache; // @synthesize localizedSubtitleCache=_localizedSubtitleCache;
-@property(readonly, nonatomic) TUMetadataCache *metadataCache; // @synthesize metadataCache=_metadataCache;
-@property(retain, nonatomic) NSNumberFormatter *numberFormatter; // @synthesize numberFormatter=_numberFormatter;
-@property(retain, nonatomic) NSPredicate *preFetchingPredicate; // @synthesize preFetchingPredicate=_preFetchingPredicate;
-@property(copy, nonatomic) CDUnknownBlockType presentScreenTimeShield; // @synthesize presentScreenTimeShield=_presentScreenTimeShield;
-@property(copy, nonatomic) NSArray *recentCalls; // @synthesize recentCalls=_recentCalls;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(nonatomic) _Bool startedLoadingOlderCalls; // @synthesize startedLoadingOlderCalls=_startedLoadingOlderCalls;
-@property(readonly, nonatomic) TUSubtitleProvider *subtitleProvider; // @synthesize subtitleProvider=_subtitleProvider;
-@property(readonly, nonatomic) CNContactStore *suggestedContactStore; // @synthesize suggestedContactStore=_suggestedContactStore;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long unreadCallCount; // @synthesize unreadCallCount=_unreadCallCount;
 
 @end
 

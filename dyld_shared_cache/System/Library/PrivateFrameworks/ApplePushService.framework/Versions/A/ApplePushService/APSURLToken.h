@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface APSURLToken
 {
     NSString *_tokenURL;
-    NSData *_token;
 }
 
 + (_Bool);
-- (id);
+- (id)3;
 - (void);
-- (id);
-- (id);
+- (id)parameterDescriptionsByKey;
+- (id)N6CoreML13Specification7MILSpec9TupleTypeE;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)entitiesOperationCallbacks>",R,D,N;
+- (id)changeTag;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *token; // @synthesize token=_token;
 @property(retain, nonatomic) NSString *tokenURL; // @synthesize tokenURL=_tokenURL;
 
 @end

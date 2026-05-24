@@ -7,9 +7,6 @@
 @interface APPCAdPolicyData
 {
     id rawAdType;
-    id rawAdFormatType;
-    id frequencyCapData;
-    id policyData;
 }
 
 - (id);

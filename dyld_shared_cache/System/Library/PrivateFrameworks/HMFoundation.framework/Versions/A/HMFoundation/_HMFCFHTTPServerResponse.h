@@ -6,15 +6,12 @@
 
 #import <HMFoundation/HMFHTTPResponseInternal.h>
 
-@class _HMFCFHTTPMessage, _HMFCFHTTPServerRequest;
+@class _HMFCFHTTPMessage;
 
 __attribute__((visibility("hidden")))
 @interface _HMFCFHTTPServerResponse : HMFHTTPResponseInternal
 {
     struct _CFHTTPServerResponse *_responseRef;
-    _HMFCFHTTPServerRequest *_request;
-    CDUnknownBlockType _completionHandler;
-    _HMFCFHTTPMessage *_response;
 }
 
 - (void);
@@ -26,17 +23,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)kDumpStatePendingUserManagementOperationsDescriptionKey;
 - (id);
 - (void);
 - (void);
-- (id): /* Error: Ran out of types for this method. */;
+- (id)sendMessage:target: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, nonatomic) _HMFCFHTTPServerRequest *request; // @synthesize request=_request;
 @property(readonly, nonatomic) _HMFCFHTTPMessage *response; // @synthesize response=_response;
-@property(readonly, nonatomic) struct _CFHTTPServerResponse *responseRef; // @synthesize responseRef=_responseRef;
 
 @end
 

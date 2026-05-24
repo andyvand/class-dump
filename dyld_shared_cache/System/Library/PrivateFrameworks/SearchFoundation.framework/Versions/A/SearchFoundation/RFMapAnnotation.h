@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, RFMapPoint, RFTextProperty, RFVisualProperty, SFLatLng;
+@class SFLatLng;
 
 @interface RFMapAnnotation
 {
     SFLatLng *_coordinate;
-    RFVisualProperty *_content;
-    NSString *_title;
-    RFMapPoint *_anchor;
-    RFTextProperty *_label;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)ju8?;
+- (id)isPlayingOnPairedDevice;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)O;
+- (id)smartStyleIsReversible;
+- (void)resourceAvailabilityForOptions:(id)arg1 resourceInfo: /* Error: Ran out of types for this method. */;
+- (id)originalVideoComplementUniformTypeIdentifier;
+- (id)cale;
 - (id);
 - (id);
 - (void);
@@ -33,24 +29,11 @@
 - (id);
 - (void);
 - (void)FormattedText",&,N,V_trailingBottomText;
-- (id)er;
+- (id)SFResourceLoader;
 - (void)(·Îÿ;
 
 // Remaining properties
-@property(retain, nonatomic) RFMapPoint *anchor; // @synthesize anchor=_anchor;
-@property(retain, nonatomic) RFVisualProperty *content; // @synthesize content=_content;
 @property(retain, nonatomic) SFLatLng *coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) RFTextProperty *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

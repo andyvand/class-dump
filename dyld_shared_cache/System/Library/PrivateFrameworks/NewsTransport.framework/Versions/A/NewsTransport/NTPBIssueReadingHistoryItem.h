@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBDate;
+@class NSString;
 
 @interface NTPBIssueReadingHistoryItem
 {
     NSString *_identifier;
-    NSString *_issueID;
-    NTPBDate *_lastBadgedPBDate;
-    NTPBDate *_lastEngagedPBDate;
-    NTPBDate *_lastRemovedFromMyMagazinesPBDate;
-    NTPBDate *_lastSeenPBDate;
-    NSString *_lastVisitedArticleID;
-    NTPBDate *_lastVisitedPBDate;
-    NSString *_lastVisitedPageID;
 }
 
 @end

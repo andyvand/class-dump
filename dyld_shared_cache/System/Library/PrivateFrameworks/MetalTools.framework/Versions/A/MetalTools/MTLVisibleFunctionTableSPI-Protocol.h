@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer;
-
 @protocol MTLVisibleFunctionTableSPI
+- (unsigned long long)( ;
+- (void)A;
+
+@optional
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <MTLBuffer> globalBuffer;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<MTLBuffer>",?,&,N
-
-@property(nonatomic) unsigned long long globalBufferOffset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-@property(readonly) unsigned long long gpuHandle;
 @property(readonly, nonatomic) unsigned long long resourceIndex;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long uniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
 
 @end
 

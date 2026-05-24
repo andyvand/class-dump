@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NUVersion
 {
     long long _major;
-    long long _minor;
 }
 
 + (_Bool);
-+ (id);
++ (id)time.;
 + (id);
 + (id);
 + (id);
@@ -21,7 +18,7 @@
 + (_Bool);
 - (id);
 - (long long);
-- (id);
+- (id)V;
 - (id);
 - (unsigned long long);
 - (id);
@@ -29,14 +26,12 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)backgroundProcessingIsAllowed;
 - (long long);
 - (id);
 
 // Remaining properties
 @property(readonly) long long major; // @synthesize major=_major;
-@property(readonly) long long minor; // @synthesize minor=_minor;
-@property(readonly) NSString *stringRepresentation;
 
 @end
 

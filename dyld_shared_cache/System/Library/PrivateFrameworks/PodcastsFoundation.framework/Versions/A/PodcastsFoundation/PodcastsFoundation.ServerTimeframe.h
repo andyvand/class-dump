@@ -9,8 +9,6 @@
 @interface PodcastsFoundation.ServerTimeframe
 {
     void id;
-    void type;
-    id attributes;
 }
 
 - (id);
@@ -18,7 +16,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *id;
-@property(nonatomic, readonly) NSString *type;
 
 @end
 

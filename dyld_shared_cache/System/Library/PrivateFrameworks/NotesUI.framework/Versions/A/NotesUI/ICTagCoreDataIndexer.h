@@ -6,20 +6,12 @@
 
 #import <NotesUI/ICCoreDataIndexer.h>
 
-@class NSArray, NSFetchedResultsController, NSObject;
-@protocol ICSectionIdentifier, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface ICTagCoreDataIndexer : ICCoreDataIndexer
 {
     _Bool _includesAllTagsItem;
-    _Bool _includesNewTagItem;
-    unsigned long long _visibleTagLimit;
-    NSArray *_objectIDs;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSFetchedResultsController *_fetchedResultsController;
-    NSArray *_hashtags;
-    NSArray *_leadingVisibleObjectIDs;
-    id <ICSectionIdentifier> _sectionIdentifier;
 }
 
 + (_Bool);
@@ -42,27 +34,18 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (void)7;
 - (void);
-- (void);
+- (id);
+- (id)T;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)sertionController:willAddAttachment:atRange: /* Error: Ran out of types for this method. */;
+- (void)~g;
+- (void)attachmentInsertionController:willAddAttachment:atRange: /* Error: Ran out of types for this method. */;
 - (id)»8yÏ3;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(retain, nonatomic) NSFetchedResultsController *fetchedResultsController; // @synthesize fetchedResultsController=_fetchedResultsController;
-@property(retain, nonatomic) NSArray *hashtags; // @synthesize hashtags=_hashtags;
-@property(readonly, nonatomic) unsigned long long hiddenTagCount;
-@property(nonatomic) _Bool includesAllTagsItem; // @synthesize includesAllTagsItem=_includesAllTagsItem;
-@property(nonatomic) _Bool includesNewTagItem; // @synthesize includesNewTagItem=_includesNewTagItem;
-@property(retain, nonatomic) NSArray *leadingVisibleObjectIDs; // @synthesize leadingVisibleObjectIDs=_leadingVisibleObjectIDs;
-@property(retain, nonatomic) NSArray *objectIDs; // @synthesize objectIDs=_objectIDs;
-@property(retain, nonatomic) id <ICSectionIdentifier> sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
-@property(nonatomic) unsigned long long visibleTagLimit; // @synthesize visibleTagLimit=_visibleTagLimit;
 
 @end
 

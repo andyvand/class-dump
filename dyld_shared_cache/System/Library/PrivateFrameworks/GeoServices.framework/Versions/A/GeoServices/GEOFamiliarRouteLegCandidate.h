@@ -9,29 +9,28 @@
 @interface GEOFamiliarRouteLegCandidate
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_candidates;
 }
 
 + (Class);
-+ (_Bool)asRequestStartTimeMs:(id)arg1;
++ (_Bool)setHasRequestStartTimeMs:(id)arg1;
 - (id);
-- (void);
+- (void)t scheduler %{public}@ is performing on the main thread;
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)StopStreamOption"24Q32@"NSString"40;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)asTimeSinceMapViewportChangedSeconds:(struct _NSZone *)arg1;
-- (id)sServiceRequestBuilder_TimeToLeave;
+- (void)eMemoryError;
+- (id)setHasTimeSinceMapViewportChangedSeconds:(struct _NSZone *)arg1;
+- (id)_GEODirectionsServiceRequestBuilder_TimeToLeave;
 - (id)Result initialized:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)Î4;
@@ -39,7 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *candidates;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

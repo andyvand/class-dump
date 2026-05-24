@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)__objc_const;
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)TTSMessageChannelMessageArgumentsKey;
 
 @end
 

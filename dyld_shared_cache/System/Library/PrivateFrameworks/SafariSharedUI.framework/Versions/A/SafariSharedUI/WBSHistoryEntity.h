@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface WBSHistoryEntity
 {
     NSString *_identifier;
-    NSString *_title;
-    NSURL *_url;
 }
 
+- (id)1;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void)C,N,V_adamID;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

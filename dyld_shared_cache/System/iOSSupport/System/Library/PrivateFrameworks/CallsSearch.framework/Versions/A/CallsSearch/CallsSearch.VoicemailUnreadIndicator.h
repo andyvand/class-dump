@@ -7,6 +7,7 @@
 @interface CallsSearch.VoicemailUnreadIndicator
 {
     id diameter;
+    id;
 }
 
 - (id);

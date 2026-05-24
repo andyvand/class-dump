@@ -7,11 +7,10 @@
 @interface NewsSubscription.ErrorTransitionContext
 {
     id title;
-    id subtitle;
 }
 
-- (id);
-- (void);
+- (id)com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/drawables/TSDGPUVoronoiTriangleData.mm;
+- (void)LO;
 
 @end
 

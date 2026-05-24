@@ -5,5 +5,10 @@
 //
 
 @protocol UICollectionViewDelegateFlowLayout
+
+@optional
+- (double)hB9(;
+- (double)#;
+- (struct CGSize)};
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDBackingAccount, CKPersona, NSObject, NSPersonNameComponents, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class CKDBackingAccount;
 
 @interface CKDAccount
 {
     _Bool _haveWarnedAboutServerPreferredPushEnvironment;
-    CKDBackingAccount *_backingAccount;
-    NSObject<OS_dispatch_queue> *_authTokenCallbackQueue;
-    NSString *_lastFailediCloudAuthToken;
 }
 
 + (void);
@@ -39,23 +35,23 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)nderNetworkClockIfNeeded(APSenderSessionRef);
 - (id);
 - (_Bool);
 - (void);
 - (id);
+- (id)removeTilesUsingPredicate:moc: /* Error: Ran out of types for this method. */;
+- (id)getLocaleFromRemoteClient;
+- (_Bool)TimeFromLastSuccessfulRoamToTDConfirmed;
+- (_Bool);
+- (_Bool);
+- (id)base64EncodedStringWithOptions: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)oreStream";
+- (id)EDCloudKitControl;
+- (_Bool)C.;
+- (_Bool)sage with an empty subject. %{public}@;
 - (id);
 - (id);
 - (void);
@@ -64,56 +60,60 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)Jo5zENinTI50MB8GA1UdIwQYMBaAFOc0Ki4i
+3jlga7SUzneDYS8xoHw1MDgGA1UdHwQxMC8wLaAroCmGJ2h0dHA6Ly93d3cuYXBw
+bGUuY29tL2FwcGxlY2EvaXBob25lLmNybDANBgkqhkiG9w0BAQUFAAOCAQEAd13P
+Z3pMViukVHe9WUg8Hum+0I/0kHKvjhwVd/IMwGlXyU7DhUYWdja2X/zqj7W24Aq5
+7dEKm3fqqxK5XCFVGY5HI0cRsdENyTP7lxSiiTRYj2mlPedheCn+k6T5y0U4Xr40
+FXwWb2nWqCF1AgIudhgvVbxlvqcxUm8Zz7yDeJ0JFovXQhyO5fLUHRLCQFssAbf8
+B4i8rYYsBUhYTspVJcxVpIIltkYpdIRSIARA49HNvKK4hzjzMS/OhKQpVKw+OCEZ
+xptCVeN2pjbdt9uzi175oVo/u6B2ArKAW17u6XEHIdDMOe7cb33peVI6TD15W4MI
+pyQPbp8orlXe+tA8JA==
+-----END CERTIFICATE-----;
+- (id)gIKAoICAQDRSE8a8Xl+OFgz07qfQf610WJgBhQUMqYqLME8yNW6HRAo
+ZmRJCZhKzJCW7W77utpo/QZqCs/Tmc8yAuyw06MlLdb/EaFbIJhnd8KvhNO2aBn1
+0zTF3BrKu/iBj4Cb31nzd+P3BAyIIhnNfqnJ1YDGrXDHApFKs96bRNYfFj/cm55e
++5ZaVAE4pGq3I45pO1HMEObvysFnbEw4R5EZ8BsyNaSe+EEprYZQqjfGciVZn+WD
+nP0g1TONgE8yAplaud+0QQIcLxE82toZqnAEErojrXbb9KYiW6OH+w8p8ITKrA0a
+byud5ZwU8x2dwJngg2P53vzdaEPgl+oEWm5uTtOBS5kGh9N0Ky3N094qn6Y9OmLD
+eXsYXGE3Q91AZ6Ps+0cmZYAMvnlTMh6h6TRgIG6kUi/7fIn6umQHgavSMP+XWNET
+CzbwE7YZnTnhMlW3Oaey40bKDgxZAgVAVKt+qf/B9Exb074GqicYr5RH3MmYYqVo
+bHZTPkeKykUxUJoNm/jRoyXQnStl0uBclShH3ORMOHL6MeQMSGIEIVbD6AJz3rIX
+7nidx3ePUeA7QVV/vhL09DU4Q5KKQsbgl4qSGzxA87ClUGworLaWa+AUE+MP5NLJ
+tSlsY4+Fl3VLq51AJA2oeOwF6KCTRTZWG56anqaSrEU0UKsWgQ6ys+9153eGTwID
+AQABo2MwYTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4E
+FgQUESXWmKVwOl5LaoSB35L33xPje14wHwYDVR0jBBgwFoAUESXWmKVwOl5LaoSB
+35L33xPje14wDQYJKoZIhvcNAQELBQADggIBAJcISq7FqhBfFRpgEAiedVPPzff5
+rU2uNQLpApMb3A6jFSostHTwypA//pc0PbTPTi5t2CcF14Gznqt4Gf1Ej75C+fgK
+QoWjcgYPCXkK+6KkTW8EMLsL+n8ZL1tqdOuJCOBTRBTU3Lbwon5uYF98CdBlPIam
+ZqDEbEiwrp/I5uBMkut1P2sftxu5ysu3+A1bGMDI5T84sXbG0eJU6zmx1p/WUHAc
+HZy9/S7Ad5vJRMQrWx4JDdLvJ+1PXqdJtZUkp4TNPchxA9OzGsatVJJ5T/5EVDuL
+QgLaZNiWeAC19+clUREnS247RjLNIZZq0hj2Rk5zO6sSyt8vM+kJZrTVdGaSk++l
+OFWzSdo0Ev/izPkuL/cH146YZS1UWZJI61mdvbvvxqqQaoTmviuMDqDoCZ7crLu3
+LRoS6/+w+xir5s6hmAF8D6FzAkVmeAroyd6Hclk6CnhlcQP5GxjTQjA2YGe/9X54
+30qL4fjiDwdLYqxyL5J28/yxt068aoVaukoRAgiGoZouyieTV9DabenxYBOygijS
+4G4RVf4qVnQ7wGkQokhz4WIkMr4C4ydWU3GhSuM3T9Tx9ASscch/oLMczDMLKYMe
+3sdtc60+gxrctSq/B3E/5nddDj9vQ7BdRWcvJ+n/ESsXgwk5z15YZUwU/qW0j5rD
+4bPy9nox5DLds+/l
+-----END CERTIFICATE-----;
 - (_Bool);
 - (void)sections;
-- (id)eltaMetadataVectors: /* Error: Ran out of types for this method. */;
-- (id)mpletionBlock;
+- (id)pDistributedTimestampsFromDeltaMetadataVectors: /* Error: Ran out of types for this method. */;
+- (id)itemGroupCompletionBlock;
 - (id)y:bytesResumed:totalBytesByChunkProfile:chunkCountByChunkProfile:fileCountByChunkProfile:walrusEnabled:zoneishKeysRolled:perRecordKeysRolled:zoneKeysRolled:shareKeysRolled:keyRollsSkippedBySizeCheck:identitiesRolledOnRecordSave:identitiesRolledOnZoneSave:failedIdentityRollAttempts:zoneKeysRemoved:zoneishKeysRemoved:recordKeysRemoved:keysNotRemoved:adopterCapabilityCheckValidationFailures:adopterCapabilityCheckValidationFailureTypes:adopterCapabilityCheckResult:requiredFeatureSetValidationFailures:requiredFeatureSetValidationFailureTypes: /* Error: Ran out of types for this method. */;
 - (void)should not be re-installed between enqueueing and resuming a LongLivedOperation, as your container directory will change (it's now %@);
 - (id);
 - (id)5A;
 
 // Remaining properties
-@property(readonly) NSString *accountID;
-@property(readonly) long long accountType;
-@property(readonly) NSString *altDSID;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *authTokenCallbackQueue; // @synthesize authTokenCallbackQueue=_authTokenCallbackQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *authTokenQueue;
 @property(readonly, nonatomic) CKDBackingAccount *backingAccount; // @synthesize backingAccount=_backingAccount;
-@property(readonly) NSString *displayedHostname;
-@property(readonly) NSString *dsid;
-@property(readonly) NSString *formattedUsername;
-@property(readonly) NSPersonNameComponents *fullName;
-@property(readonly, nonatomic) _Bool hasCredentials;
-@property(nonatomic) _Bool haveWarnedAboutServerPreferredPushEnvironment; // @synthesize haveWarnedAboutServerPreferredPushEnvironment=_haveWarnedAboutServerPreferredPushEnvironment;
-@property(readonly) NSString *identifier;
-@property(readonly) _Bool isCarryAccount;
-@property(readonly) _Bool isPrimaryAccount;
-@property(readonly) _Bool isPrimaryEmailVerified;
-@property(readonly, nonatomic) _Bool isRenewingAuthToken;
-@property(readonly, nonatomic) _Bool isValidTestAccount;
-@property(readonly, nonatomic) _Bool isWarmingUp;
-@property(copy, nonatomic) NSString *lastFailediCloudAuthToken; // @synthesize lastFailediCloudAuthToken=_lastFailediCloudAuthToken;
-@property(readonly, nonatomic) _Bool needsToVerifyTerms;
-@property(readonly, copy) CKPersona *persona;
-@property(readonly) NSString *primaryEmail;
-@property(readonly) NSURL *privateCloudDBURL;
-@property(readonly) NSURL *privateCodeServiceURL;
-@property(readonly) NSURL *privateDeviceServiceURL;
-@property(readonly) NSURL *privateMetricsServiceURL;
-@property(readonly) NSURL *privateShareServiceURL;
-@property(readonly, nonatomic) NSString *serverPreferredPushEnvironment;
-@property(readonly) NSString *sharingURLHostname;
-@property(readonly) NSString *username;
 
 @end
 

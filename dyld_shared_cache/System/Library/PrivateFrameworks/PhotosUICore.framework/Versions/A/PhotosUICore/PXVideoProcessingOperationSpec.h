@@ -9,8 +9,6 @@
 @interface PXVideoProcessingOperationSpec
 {
     NSURL *_inputVideoURL;
-    NSURL *_outputURL;
-    NSURL *_debugInfoOutputURL;
 }
 
 - (void);
@@ -19,13 +17,11 @@
 - (id);
 - (void);
 - (id);
-- (id)ppleMusicRelatedUI;
+- (id)shouldShowAppleMusicRelatedUI;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *debugInfoOutputURL; // @synthesize debugInfoOutputURL=_debugInfoOutputURL;
 @property(retain, nonatomic) NSURL *inputVideoURL; // @synthesize inputVideoURL=_inputVideoURL;
-@property(retain, nonatomic) NSURL *outputURL; // @synthesize outputURL=_outputURL;
 
 @end
 

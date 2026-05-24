@@ -6,19 +6,11 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSDictionary, NSMutableArray, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface CKDDecryptRecordsOperation : CKDDatabaseOperation
 {
     _Bool _forcePCSDecrypt;
-    _Bool _started;
-    _Bool _markedToFinish;
-    NSMutableArray *_outstandingDecryptions;
-    NSObject<OS_dispatch_group> *_recordDecryptGroup;
-    NSObject<OS_dispatch_queue> *_recordDecryptQueue;
-    unsigned long long _maxUnwrapAttempts;
-    NSDictionary *_webSharingIdentityDataByRecordID;
 }
 
 - (void);
@@ -33,12 +25,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)e;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)sages:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -49,30 +41,23 @@
 - (id);
 - (void);
 - (void);
+- (id)__objc_stubs;
+- (void)lPlatformGuestStrongIdentityOptionSynchronousTimeoutNsec(void);
+- (void);
 - (id);
+- (void)@;
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool)ID;
-- (_Bool)yptedForShare:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)oadedSize;
+- (_Bool)currentIdentityPublicKeyID;
+- (_Bool)_validateInvitedPCSCanBeDecryptedForShare:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)hasUploadedSize;
 - (void)ô;
 - (void)@;
-- (void)bidden;
+- (void)forbidden;
 - (id)rom pcs %@;
 
 // Remaining properties
-@property(nonatomic) _Bool forcePCSDecrypt; // @synthesize forcePCSDecrypt=_forcePCSDecrypt;
-@property(getter=isMarkedToFinish) _Bool markedToFinish; // @synthesize markedToFinish=_markedToFinish;
-@property(nonatomic) unsigned long long maxUnwrapAttempts; // @synthesize maxUnwrapAttempts=_maxUnwrapAttempts;
 @property(retain, nonatomic) NSMutableArray *outstandingDecryptions; // @synthesize outstandingDecryptions=_outstandingDecryptions;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *recordDecryptGroup; // @synthesize recordDecryptGroup=_recordDecryptGroup;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *recordDecryptQueue; // @synthesize recordDecryptQueue=_recordDecryptQueue;
-@property(getter=isStarted) _Bool started; // @synthesize started=_started;
-@property(retain, nonatomic) NSDictionary *webSharingIdentityDataByRecordID; // @synthesize webSharingIdentityDataByRecordID=_webSharingIdentityDataByRecordID;
 
 @end
 

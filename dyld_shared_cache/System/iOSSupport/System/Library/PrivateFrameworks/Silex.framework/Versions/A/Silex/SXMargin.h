@@ -6,24 +6,12 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString;
-
 @interface SXMargin : SXJSONObject
 {
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) struct _SXConvertibleValue bottom; // @dynamic bottom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct _SXConvertibleValue left; // @dynamic left;
-@property(readonly, nonatomic) struct _SXConvertibleValue right; // @dynamic right;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct _SXConvertibleValue top; // @dynamic top;
 @end
 

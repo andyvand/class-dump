@@ -9,20 +9,18 @@
 @interface CalCancelableRunLoopPerformBlock
 {
     NSRunLoop *_runLoop;
-    CDUnknownBlockType _block;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)isLaunchedToBackgroundOnly;
 - (CDUnknownBlockType);
 - (void);
-- (void)ateFormatterKey;
+- (void)CalSharedDateFormatterKey;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
 @property(readonly, nonatomic) NSRunLoop *runLoop; // @synthesize runLoop=_runLoop;
 
 @end

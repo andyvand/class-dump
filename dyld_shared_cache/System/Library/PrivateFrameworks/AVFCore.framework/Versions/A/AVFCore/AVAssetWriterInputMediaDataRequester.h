@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSObject;
-@protocol AVAssetWriterInputMediaDataRequesterDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterInputMediaDataRequester
 {
     NSObject<OS_dispatch_queue> *_requestQueue;
-    CDUnknownBlockType _requestBlock;
-    NSObject<OS_dispatch_queue> *_ivarAccessQueue;
-    AVWeakReference *_weakReferenceToDelegate;
 }
 
 - (void);
-- (id);
+- (id)|;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)iantQualifierForMaximumInKeyPath;
+- (void)ft/libswiftos.dylib;
+- (id)AVAssetVariantQualifierForMaximumInKeyPath;
 
 // Remaining properties
-@property __weak id <AVAssetWriterInputMediaDataRequesterDelegate> delegate;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *requestQueue; // @synthesize requestQueue=_requestQueue;
 
 @end

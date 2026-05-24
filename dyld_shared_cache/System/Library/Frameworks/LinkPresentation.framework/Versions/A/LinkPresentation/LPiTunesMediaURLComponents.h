@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface LPiTunesMediaURLComponents
 {
     NSString *_identifier;
-    NSString *_storefrontCountryCode;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)next_capacity;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *storefrontCountryCode; // @synthesize storefrontCountryCode=_storefrontCountryCode;
 
 @end
 

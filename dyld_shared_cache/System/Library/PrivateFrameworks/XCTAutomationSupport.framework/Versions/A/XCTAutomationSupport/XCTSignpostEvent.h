@@ -9,7 +9,7 @@
     int _processID;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);

@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, UIView;
-
 @interface CKComposeTransitionContext
 {
     unsigned long long composeTransition;
-    CKConversation *conversation;
-    UIView *sourceView;
-    UIView *composeContainerView;
-    _Bool showsOrnamentChevron;
-    struct CGRect availableEmptyBarRegionRect;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void).;
+- (void)f;
 - (unsigned long long);
 - (id);
 - (struct CGRect);
@@ -30,15 +23,10 @@
 × ;
 - (void)Â0@ù
 × ;
-- (void)HostDebug;
+- (void)TapbackPickerSuggestionsHostDebug;
 
 // Remaining properties
-@property(nonatomic) struct CGRect availableEmptyBarRegionRect; // @synthesize availableEmptyBarRegionRect;
-@property(nonatomic, retain) UIView *composeContainerView; // @synthesize composeContainerView;
 @property(nonatomic) unsigned long long composeTransition; // @synthesize composeTransition;
-@property(nonatomic, retain) CKConversation *conversation; // @synthesize conversation;
-@property(nonatomic) _Bool showsOrnamentChevron; // @synthesize showsOrnamentChevron;
-@property(nonatomic, retain) UIView *sourceView; // @synthesize sourceView;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsArticles.ModalArticleViewerViewController
 {
     id brandBarConfigManager;
-    id eventHandler;
-    id brandBarAnimationFactory;
-    id brandBarRenderer;
-    id content;
-    id brandbar;
 }
 
 - (void);
@@ -19,7 +14,7 @@
 - (id);
 - (void);
 - (void);
-- (void)peCoordinator;
+- (void)recipeCoordinator;
 - (void)ü;
 
 @end

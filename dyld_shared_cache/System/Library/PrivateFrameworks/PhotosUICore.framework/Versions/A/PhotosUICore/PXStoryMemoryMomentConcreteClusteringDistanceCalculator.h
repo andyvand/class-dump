@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
 @protocol PXDisplayAssetFetchResult;
 
 @interface PXStoryMemoryMomentConcreteClusteringDistanceCalculator
 {
     id <PXDisplayAssetFetchResult> _assets;
-    NSDictionary *_weights;
-    NSDictionary *_locationsByAssetUUID;
-    NSDictionary *_faceprintsByAssetUUID;
-    double _timeWeight;
-    double _locationWeight;
-    double _faceWeight;
 }
 
 - (id);
@@ -27,15 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double faceWeight; // @synthesize faceWeight=_faceWeight;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double locationWeight; // @synthesize locationWeight=_locationWeight;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) double timeWeight; // @synthesize timeWeight=_timeWeight;
 
 @end

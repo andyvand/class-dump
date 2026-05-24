@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBAppId, _INPBBuildId;
+@class _INPBAppId;
 
 @interface _INPBAppBundleInfo
 {
     struct _has;
-    _INPBAppId *_appId;
-    _INPBBuildId *_buildId;
-    NSArray *_intentSupports;
-    NSArray *_localizedProjects;
-    NSArray *_supportedPlatforms;
 }
 
 + (Class);
@@ -26,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)B;
 - (id);
 - (id);
 - (unsigned long long);
@@ -40,38 +35,22 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)__objc_protolist__DATA_CONST;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)objectForKey: /* Error: Ran out of types for this method. */;
+- (id)6;
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)useCacheForPreviouslyScannedChannels;
+- (void)d event payload length for APPLE80211_M_BSSID_CHANGED (expected=%lu, actual=%lu);
 - (id);
 - (id);
-- (void)cess;
+- (void)INConfigureHomeIntentResponseCodeSuccess;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAppId *appId; // @synthesize appId=_appId;
-@property(retain, nonatomic) _INPBBuildId *buildId; // @synthesize buildId=_buildId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAppId;
-@property(readonly, nonatomic) _Bool hasBuildId;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *intentSupports; // @synthesize intentSupports=_intentSupports;
-@property(readonly, nonatomic) unsigned long long intentSupportsCount;
-@property(copy, nonatomic) NSArray *localizedProjects; // @synthesize localizedProjects=_localizedProjects;
-@property(readonly, nonatomic) unsigned long long localizedProjectsCount;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *supportedPlatforms; // @synthesize supportedPlatforms=_supportedPlatforms;
-@property(readonly, nonatomic) unsigned long long supportedPlatformsCount;
 
 @end
 

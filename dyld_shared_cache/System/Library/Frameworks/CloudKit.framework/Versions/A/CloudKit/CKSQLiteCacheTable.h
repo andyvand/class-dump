@@ -11,12 +11,6 @@
 @interface CKSQLiteCacheTable : CKSQLiteTable
 {
     CKSQLiteCacheTableTrackingTable *_trackingTable;
-    _Bool _expireCheckPending;
-    _Bool _dataExpireScheduled;
-    unsigned long long _entryCountLimit;
-    unsigned long long _dataSizeLimit;
-    double _cacheExpirationTime;
-    double _expireDelay;
 }
 
 + (id);
@@ -24,7 +18,7 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)5E;
 - (void);
 - (id);
 - (id);
@@ -52,10 +46,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) double cacheExpirationTime; // @synthesize cacheExpirationTime=_cacheExpirationTime;
-@property(readonly, nonatomic) unsigned long long dataSizeLimit; // @synthesize dataSizeLimit=_dataSizeLimit;
 @property(readonly, nonatomic) unsigned long long entryCountLimit; // @synthesize entryCountLimit=_entryCountLimit;
-@property(readonly, nonatomic) double expireDelay; // @synthesize expireDelay=_expireDelay;
 
 @end
 

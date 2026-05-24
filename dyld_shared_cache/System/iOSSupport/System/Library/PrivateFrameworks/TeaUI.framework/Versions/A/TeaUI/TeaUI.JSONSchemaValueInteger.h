@@ -9,9 +9,6 @@
 @interface TeaUI.JSONSchemaValueInteger : TeaUI.JSONSchemaValue
 {
     id _validations;
-    id suppliedValues;
-    id _value;
-    id _$observationRegistrar;
 }
 
 @end

@@ -5,5 +5,10 @@
 //
 
 @protocol FTPasswordManager
+- (void)B;
+- (void)setInstalledVendorFeatures:(void (^)(_Bool))arg1;
+- (void)%;
+- (void));
+- (void);
 @end
 

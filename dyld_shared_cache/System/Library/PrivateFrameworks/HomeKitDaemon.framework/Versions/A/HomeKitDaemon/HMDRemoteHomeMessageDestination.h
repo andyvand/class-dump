@@ -6,19 +6,18 @@
 
 #import <HomeKitDaemon/HMDRemoteMessageDestination.h>
 
-@class NSNumber, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteHomeMessageDestination : HMDRemoteMessageDestination
 {
     NSUUID *_homeUUID;
-    NSNumber *_queueTimeout;
 }
 
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)_currentTransportType;
+- (id)_currentState;
 - (id);
 - (id);
 - (unsigned long long);
@@ -28,11 +27,10 @@ __attribute__((visibility("hidden")))
 - (id)%@/%@ that is not configured with a home;
 - (id)ate %@ with hold info:(id)arg1 %@;
 - (id)dio;
-- (void)erval;
+- (void)cloudUploadMaximumTimerInterval;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly, nonatomic) NSNumber *queueTimeout; // @synthesize queueTimeout=_queueTimeout;
 
 @end
 

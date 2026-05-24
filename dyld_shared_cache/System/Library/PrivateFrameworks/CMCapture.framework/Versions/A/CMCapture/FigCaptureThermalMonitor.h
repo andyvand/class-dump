@@ -10,23 +10,17 @@
 @interface FigCaptureThermalMonitor
 {
     NSObject<OS_dispatch_queue> *_notificationQueue;
-    int _registrationToken;
-    CDUnknownBlockType _thermalHandler;
-    struct OpaqueFigSimpleMutex *_thermalNotificationLock;
-    float _maxTorchLevel;
-    int _thermalLevel;
 }
 
-+ (void)ideoStabilizationAutoSelectionCinematicExtendedEnhancedDisabled;
++ (void)VideoStabilizationAutoSelectionCinematicExtendedEnhancedDisabled;
 - (void);
-- (void);
+- (void)cellParityRelativeToDir1:i1:i2: /* Error: Ran out of types for this method. */;
 - (float);
 - (id);
 - (int)ionary:eventName:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) float maxTorchLevel;
-@property(readonly) int thermalLevel;
 
 @end
 

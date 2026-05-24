@@ -7,8 +7,9 @@
 @protocol WPAWDLDelegate
 
 @optional
-- (void)lockWatchLocked;
-- (void)05`6P89;
 - (void);
+- (void);
+- (void)mockedPhoneAutoUnlockWatchLocked;
+- (void)05`6P89;
 @end
 

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _CDPersistedCoalescingTimer;
-@protocol OS_dispatch_queue, _DKKnowledgeEventStreamDeleting;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _CDSpotlightCoalescedDeletionManager
 {
     NSObject<OS_dispatch_queue> *_deletionCoalescingQueue;
-    NSString *_persistencePath;
-    double _delay;
-    _CDPersistedCoalescingTimer *_deletionCoalescingTimer;
-    id <_DKKnowledgeEventStreamDeleting> _knowledgeStore;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)t;
 - (id);
 - (void);
 - (void)0@ù

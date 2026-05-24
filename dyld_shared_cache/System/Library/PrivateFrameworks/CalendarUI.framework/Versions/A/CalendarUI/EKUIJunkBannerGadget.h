@@ -6,13 +6,11 @@
 
 #import <CalendarUI/EKUISingleViewGadget.h>
 
-@class NSGlassEffectView, NSView, SGBannerView;
+@class NSView;
 
 @interface EKUIJunkBannerGadget : EKUISingleViewGadget
 {
     NSView *_containerView;
-    NSGlassEffectView *_effectView;
-    SGBannerView *_bannerView;
 }
 
 + (id);
@@ -24,18 +22,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)q!;
 - (id);
 - (id);
 - (void);
 - (void)
 × ;
-- (id)esource;
+- (id)stopAccessingSecurityScopedResource;
 
 // Remaining properties
-@property(retain) SGBannerView *bannerView; // @synthesize bannerView=_bannerView;
 @property(retain) NSView *containerView; // @synthesize containerView=_containerView;
-@property(retain) NSGlassEffectView *effectView; // @synthesize effectView=_effectView;
 
 @end
 

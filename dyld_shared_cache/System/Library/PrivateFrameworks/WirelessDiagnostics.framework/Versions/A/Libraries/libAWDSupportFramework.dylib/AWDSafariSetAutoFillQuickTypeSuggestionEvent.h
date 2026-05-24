@@ -7,44 +7,36 @@
 @interface AWDSafariSetAutoFillQuickTypeSuggestionEvent
 {
     unsigned long long _timestamp;
-    int _category;
-    int _formProperty;
-    CDStruct_18b2ecd0 _has;
 }
 
 - (void);
 - (void);
 - (id);
-- (int);
+- (int);
 - (_Bool);
-- (int);
+- (int)`;
 - (id);
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (void);
 - (int);
 - (void);
-- (void);
-- (id);
+- (void));
+- (id)h;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int category; // @synthesize category=_category;
-@property(nonatomic) int formProperty; // @synthesize formProperty=_formProperty;
-@property(nonatomic) _Bool hasCategory;
-@property(nonatomic) _Bool hasFormProperty;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

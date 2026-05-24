@@ -4,16 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NURenderNode, PIRetouchCacheNode;
+@class NURenderNode;
 
 @interface PIRetouchCompositeNode
 {
-    CDStruct_1e2b2e48 _scale;
-    long long _sampleMode;
+    struct {
+        long long numerator;
+        long long denominator;
+    } _scale;
 }
 
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -22,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NURenderNode *inputNode;
-@property(readonly, nonatomic) PIRetouchCacheNode *retouchNode;
 
 @end
 

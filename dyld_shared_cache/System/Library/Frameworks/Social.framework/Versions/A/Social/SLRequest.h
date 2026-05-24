@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSData, NSDictionary, NSMutableArray, NSMutableDictionary, NSString, NSURL, OACredential, SLService;
+@class ACAccount;
 
 @interface SLRequest
 {
     ACAccount *_account;
-    OACredential *_OAuthCredential;
-    long long _requestMethod;
-    NSURL *_url;
-    NSMutableDictionary *_parameters;
-    NSMutableArray *_multiParts;
-    NSString *_multiPartBoundary;
-    int _callingPID;
-    NSString *_applicationID;
-    NSString *_contentType;
-    NSData *_payload;
-    unsigned long long _networkServiceType;
-    SLService *_service;
-    struct OpaqueCFHTTPCookieStorage *_privateCookieStorage;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)u;
 - (void);
 - (void);
 - (void);
@@ -33,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -68,15 +55,12 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void): /* Error: Ran out of types for this method. */;
+- (void)isCompressed:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_url;
 @property(retain, nonatomic) ACAccount *account;
-@property(readonly, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(readonly, nonatomic) long long requestMethod; // @synthesize requestMethod=_requestMethod;
 
 @end
 

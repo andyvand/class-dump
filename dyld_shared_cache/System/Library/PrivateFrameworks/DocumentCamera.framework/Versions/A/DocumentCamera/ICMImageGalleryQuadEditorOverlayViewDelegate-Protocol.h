@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol ICMImageQuad;
+
 @protocol ICMImageGalleryQuadEditorOverlayViewDelegate
+- (void);
+- (id <ICMImageQuad>);
+- (struct CGRect);
 @end
 

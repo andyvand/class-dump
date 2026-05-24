@@ -9,13 +9,6 @@
 @interface AppStoreKit.ArcadePage : AppStoreKit.GenericPage
 {
     id tabTitle;
-    id footer;
-    id titleEffect;
-    id autoUpsellAction;
-    id shouldForceAutoUpsell;
-    id subscriptionLockup;
-    id subscriptionOfferAction;
-    id subscriptionOfferDisplayProperties;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol SKTransactionReceiverProtocol
+- (void);
 @end
 

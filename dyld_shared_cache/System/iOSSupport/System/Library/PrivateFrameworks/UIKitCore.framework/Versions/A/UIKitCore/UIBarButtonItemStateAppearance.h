@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, UIBarButtonItemAppearance, UIImage, _UIBarButtonItemData;
+@class UIBarButtonItemAppearance, _UIBarButtonItemData;
 
 @interface UIBarButtonItemStateAppearance
 {
     UIBarButtonItemAppearance *_owner;
-    long long _state;
-    _UIBarButtonItemData *_data;
-    NSArray *_itemEffects;
 }
 
-- (void);
-- (id);
+- (void)phony device trying to enroll itself into SMS Relay;
+- (id);
 - (struct UIOffset);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)TraitCollection: /* Error: Ran out of types for this method. */;
+- (id)defaultSizeForTraitCollection: /* Error: Ran out of types for this method. */;
 - (void)pdateImmediatelyIfPossible:(CDUnknownBlockType)arg1;
 - (id);
 - (void)or UITableViewAutomaticDimension.;
@@ -33,12 +30,7 @@
 - (void)vÿÌ/;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *backgroundImage;
-@property(nonatomic) struct UIOffset backgroundImagePositionAdjustment;
 @property(retain, nonatomic) _UIBarButtonItemData *data; // @synthesize data=_data;
-@property(copy, nonatomic) NSArray *itemEffects; // @synthesize itemEffects=_itemEffects;
-@property(nonatomic) struct UIOffset titlePositionAdjustment;
-@property(copy, nonatomic) NSDictionary *titleTextAttributes;
 
 @end
 

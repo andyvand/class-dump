@@ -5,5 +5,8 @@
 //
 
 @protocol SXLayoutCoordinatorDelegate
+
+@optional
+- (void);
 @end
 

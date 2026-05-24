@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RTGeoRoadData
 {
     int _roadTraversedCount;
-    unsigned long long _clRoadID;
-    unsigned long long _geoRoadID;
-    double _geoRoadStartLatitude;
-    double _geoRoadStartLongitude;
-    double _geoRoadEndLatitude;
-    double _geoRoadEndLongitude;
-    long long _geoRoadClass;
-    long long _geoFormOfWay;
 }
 
-+ (id);
++ (id)type in array;
 + (id);
 + (_Bool);
 - (void);
@@ -30,35 +20,20 @@
 - (double);
 - (double);
 - (unsigned long long);
-- (double);
+- (double)<;
 - (double);
 - (long long);
 - (long long);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)plugin %@ for group %@. linkID %d is not for a valid link;
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clRoadID; // @synthesize clRoadID=_clRoadID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long geoFormOfWay; // @synthesize geoFormOfWay=_geoFormOfWay;
-@property(nonatomic) long long geoRoadClass; // @synthesize geoRoadClass=_geoRoadClass;
-@property(readonly, nonatomic) double geoRoadEndLatitude; // @synthesize geoRoadEndLatitude=_geoRoadEndLatitude;
-@property(readonly, nonatomic) double geoRoadEndLongitude; // @synthesize geoRoadEndLongitude=_geoRoadEndLongitude;
-@property(readonly, nonatomic) unsigned long long geoRoadID; // @synthesize geoRoadID=_geoRoadID;
-@property(readonly, nonatomic) double geoRoadStartLatitude; // @synthesize geoRoadStartLatitude=_geoRoadStartLatitude;
-@property(readonly, nonatomic) double geoRoadStartLongitude; // @synthesize geoRoadStartLongitude=_geoRoadStartLongitude;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int roadTraversedCount; // @synthesize roadTraversedCount=_roadTraversedCount;
-@property(readonly) Class superclass;
 
 @end
 

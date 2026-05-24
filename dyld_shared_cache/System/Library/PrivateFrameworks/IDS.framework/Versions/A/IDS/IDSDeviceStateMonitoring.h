@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface IDSDeviceStateMonitoring
 {
     _Bool _isMonitoring;
-    int _outToken;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _currentState;
-    NSString *_name;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_delegateArray;
 }
 
 + (id);
-+ (id);
++ (id)IfNeeded
+;
 - (void);
 - (void);
 - (int);
@@ -30,20 +22,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (struct os_unfair_lock_s);
+- (struct os_unfair_lock_s)*;
 - (void)f(Ð!äBù1,1Â0@ù
 × ;
-- (void)ccountIDDescriptionMap;
+- (void)_accountIDDescriptionMap;
 - (id)ds-dm-%@;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentState; // @synthesize currentState=_currentState;
-@property(readonly, nonatomic) NSMutableArray *delegateArray; // @synthesize delegateArray=_delegateArray;
-@property(readonly, nonatomic) _Bool isMonitoring; // @synthesize isMonitoring=_isMonitoring;
-@property(nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) int outToken; // @synthesize outToken=_outToken;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface TextColumn
 {
@@ -14,17 +14,15 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)s;
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)tMASoftwareUpdateCatalogDownloadOptionsWithUUID for MacUpdateBrainPolicy:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)er=^vQQQ}56d64@72@80;
 - (id)$;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *mutableRows; // @synthesize mutableRows=_mutableRows;
-@property(readonly) unsigned long long rowCount;
-@property(readonly, retain, nonatomic) NSArray *rows;
 
 @end
 

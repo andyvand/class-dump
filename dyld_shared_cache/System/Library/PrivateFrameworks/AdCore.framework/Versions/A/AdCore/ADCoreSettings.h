@@ -6,47 +6,29 @@
 
 #import <AdCore/ADSingleton.h>
 
-@class ACAccount, NSString, NSURL;
+@class NSURL;
 
 @interface ADCoreSettings : ADSingleton
 {
     _Bool _isRestrictedRegion;
-    int _connectionType;
-    float _timezone;
-    int _runState;
-    NSString *_iTunesStorefront;
-    NSString *_storefrontLocalizationLanguage;
-    NSString *_bundleIdentifier;
-    NSURL *_defaultServerURL;
-    NSURL *_defaultConfigurationServerURL;
-    double _jingleTimeoutInterval;
-    double _adServerTimeoutInterval;
-    double _NSURLConnectionTimeout;
-    double _NSURLTransactionTimeout;
-    NSString *_osIdentifier;
-    NSString *_osVersionAndBuild;
-    NSString *_longBuildVersion;
-    NSString *_shortBuildVersion;
-    NSString *_shortModelType;
-    NSString *_deviceModel;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)target sigma count:(_Bool)arg1 value of %.1lg is greater than reweight-sigma threshold %.1lg;
+- (_Bool);
+- (id)B;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)q;
+- (id)B;
+- (_Bool)H;
 - (id);
 - (id);
 - (int);
@@ -54,20 +36,20 @@
 - (_Bool);
 - (double);
 - (_Bool);
-- (id);
+- (id)_;
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)S;
 - (int);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)ULL,                   label integer NOT NULL,                   covariatesLength integer NOT NULL,                   covariatesIndices blob,                   covariatesValues blob,                   isAppleInternal integer(1) NOT NULL DEFAULT 0,                   source blob,                   FOREIGN KEY (sessionDescriptorId) REFERENCES sessionsDescriptors (id) ON DELETE CASCADE               );
 - (int);
-- (double);
+- (double)(;
 - (id);
-- (void);
+- (void)tchIsNotUserInitiated;
 - (void);
 - (void);
 - (_Bool);
@@ -79,12 +61,12 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)_currentLegibleOptionIndex;
 - (_Bool);
 - (void);
 - (float);
 - (_Bool);
-- (void);
+- (void)addMorpherDrivenMaterialsInHierarchy:(double)arg1;
 - (void);
 - (void);
 - (void);
@@ -92,7 +74,7 @@
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -100,49 +82,12 @@
 - (double);
 - (id);
 - (id);
-- (int);
+- (int);
 - (id);
-- (void)ionId;
+- (void)anonymousSessionId;
 
 // Remaining properties
-@property(nonatomic) double NSURLConnectionTimeout; // @synthesize NSURLConnectionTimeout=_NSURLConnectionTimeout;
-@property(nonatomic) double NSURLTransactionTimeout; // @synthesize NSURLTransactionTimeout=_NSURLTransactionTimeout;
-@property(nonatomic) double adServerTimeoutInterval; // @synthesize adServerTimeoutInterval=_adServerTimeoutInterval;
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) int connectionType; // @synthesize connectionType=_connectionType;
-@property(readonly, nonatomic) NSString *customJinglePayload;
-@property(retain, nonatomic) NSURL *defaultConfigurationServerURL; // @synthesize defaultConfigurationServerURL=_defaultConfigurationServerURL;
 @property(retain, nonatomic) NSURL *defaultServerURL; // @synthesize defaultServerURL=_defaultServerURL;
-@property(retain, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(readonly, nonatomic) _Bool educationModeEnabled;
-@property(readonly, nonatomic) ACAccount *iCloudAccount;
-@property(readonly, nonatomic) NSString *iCloudAccountIdentifier;
-@property(readonly, nonatomic) NSString *iCloudDSID;
-@property(readonly, nonatomic) NSString *iTunesAccountDSID;
-@property(readonly, nonatomic) ACAccount *iTunesStoreAccount;
-@property(retain, nonatomic) NSString *iTunesStorefront; // @synthesize iTunesStorefront=_iTunesStorefront;
-@property(readonly, nonatomic) _Bool isManagedAppleID;
-@property(readonly, nonatomic) _Bool isManagedEducationaliTunesAccount;
-@property(readonly, nonatomic) _Bool isManagedEnterpriseiTunesAccount;
-@property(readonly, nonatomic) _Bool isManagediCloudAccount;
-@property(readonly, nonatomic) _Bool isManagediTunesAccount;
-@property(nonatomic) _Bool isPersonalizedAdsEnabled;
-@property(readonly, nonatomic) _Bool isProtoTeenState;
-@property(readonly, nonatomic) _Bool isProtoU13state;
-@property(readonly, nonatomic) _Bool isRestrictedRegion; // @synthesize isRestrictedRegion=_isRestrictedRegion;
-@property(nonatomic) double jingleTimeoutInterval; // @synthesize jingleTimeoutInterval=_jingleTimeoutInterval;
-@property(readonly, nonatomic) NSString *localeIdentifier;
-@property(retain, nonatomic) NSString *longBuildVersion; // @synthesize longBuildVersion=_longBuildVersion;
-@property(nonatomic) int maxSegmentSendInterval;
-@property(retain, nonatomic) NSString *osIdentifier; // @synthesize osIdentifier=_osIdentifier;
-@property(retain, nonatomic) NSString *osVersionAndBuild; // @synthesize osVersionAndBuild=_osVersionAndBuild;
-@property(nonatomic) int runState; // @synthesize runState=_runState;
-@property(nonatomic) int segmentRetrievalInterval;
-@property(retain, nonatomic) NSString *shortBuildVersion; // @synthesize shortBuildVersion=_shortBuildVersion;
-@property(retain, nonatomic) NSString *shortModelType; // @synthesize shortModelType=_shortModelType;
-@property(retain, nonatomic) NSString *storefrontLocalizationLanguage; // @synthesize storefrontLocalizationLanguage=_storefrontLocalizationLanguage;
-@property(nonatomic) float timezone; // @synthesize timezone=_timezone;
-@property(readonly) _Bool unitTesting;
 
 @end
 

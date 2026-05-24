@@ -14,7 +14,7 @@
 + (id)³À-T ;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)disableWalrus:(id)arg1 preRecords:reply: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);

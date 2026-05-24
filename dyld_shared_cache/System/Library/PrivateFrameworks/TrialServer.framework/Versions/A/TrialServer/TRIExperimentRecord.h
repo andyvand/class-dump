@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, TRIClientExperimentArtifact, TRIExperimentDeployment;
-@protocol TRIFactorPackSetId;
-
 @interface TRIExperimentRecord
 {
     _Bool _isManuallyTargeted;
-    int _deploymentEnvironment;
-    int _type;
-    int _experimentType;
-    TRIExperimentDeployment *_experimentDeployment;
-    NSString *_treatmentId;
-    NSString<TRIFactorPackSetId> *_factorPackSetId;
-    long long _status;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSArray *_namespaces;
-    TRIClientExperimentArtifact *_artifact;
 }
 
-+ (id);
++ (id)genericConfigurationForOrientation:(int)arg1;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)Ȏ;
 - (_Bool);
 - (id);
 - (id);
@@ -52,11 +38,11 @@
 - (id);
 - (id);
 - (long long);
+- (id)MDLMeshBufferView, unsupported;
+- (id)d;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)T;
 - (id);
 - (int)A×°!Bùñ 1Â0@ù
 × ;
@@ -65,18 +51,7 @@
 - (id)n is empty;
 
 // Remaining properties
-@property(readonly, nonatomic) TRIClientExperimentArtifact *artifact; // @synthesize artifact=_artifact;
 @property(readonly, nonatomic) int deploymentEnvironment; // @synthesize deploymentEnvironment=_deploymentEnvironment;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) TRIExperimentDeployment *experimentDeployment; // @synthesize experimentDeployment=_experimentDeployment;
-@property(readonly, nonatomic) int experimentType; // @synthesize experimentType=_experimentType;
-@property(readonly, nonatomic) NSString<TRIFactorPackSetId> *factorPackSetId; // @synthesize factorPackSetId=_factorPackSetId;
-@property(readonly, nonatomic) _Bool isManuallyTargeted; // @synthesize isManuallyTargeted=_isManuallyTargeted;
-@property(readonly, nonatomic) NSArray *namespaces; // @synthesize namespaces=_namespaces;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) long long status; // @synthesize status=_status;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

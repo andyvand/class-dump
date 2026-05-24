@@ -13,7 +13,7 @@
 
 + (void);
 + (void);
-+ (void);
++ (void)B;
 + (void);
 + (void);
 + (void);

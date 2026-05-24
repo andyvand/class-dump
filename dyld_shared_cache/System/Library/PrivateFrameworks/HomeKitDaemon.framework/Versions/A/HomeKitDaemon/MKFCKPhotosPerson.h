@@ -6,26 +6,24 @@
 
 #import <HomeKitDaemon/MKFCKPerson.h>
 
-@class MKFCKHomePerson, MKFCKUser, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKPhotosPerson : MKFCKPerson
 {
 }
 
++ (id);
 + (id);
-+ (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)groupSession:(id)arg1 participantDidJoin:(id)arg2;
+- (_Bool)public}@, notifying sending observers;
+- (void)@;
 - (id)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) MKFCKHomePerson *linkedHomePerson; // @dynamic linkedHomePerson;
 @property(copy, nonatomic) NSUUID *photoLibraryPersonUUID; // @dynamic photoLibraryPersonUUID;
-@property(retain, nonatomic) MKFCKUser *user; // @dynamic user;
 
 @end
 

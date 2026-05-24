@@ -7,9 +7,10 @@
 @interface _CoreLocationUI_SwiftUI.Coordinator__priv_8A043ABF03A1FE75D0192BCB51A8BCAD
 {
     id config;
+    id;
 }
 
-- (id);
+- (id)initWithPublicNotebook:forLinkedNotebook: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

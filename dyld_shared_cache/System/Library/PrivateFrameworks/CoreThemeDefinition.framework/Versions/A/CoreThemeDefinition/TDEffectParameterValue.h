@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSNumber, TDEffectComponent, TDEffectParameterType;
+@class NSNumber;
 
 @interface TDEffectParameterValue
 {
@@ -14,26 +14,17 @@
 + (id);
 + (id);
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)(;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *angleValue; // @dynamic angleValue;
-@property(nonatomic) unsigned long long blueComponent;
-@property(copy, nonatomic) NSColor *color;
-@property(retain, nonatomic) NSNumber *colorValue; // @dynamic colorValue;
-@property(retain, nonatomic) TDEffectComponent *component; // @dynamic component;
-@property(retain, nonatomic) NSNumber *floatValue; // @dynamic floatValue;
-@property(nonatomic) unsigned long long greenComponent;
 @property(retain, nonatomic) NSNumber *intValue; // @dynamic intValue;
-@property(retain, nonatomic) TDEffectParameterType *parameterType; // @dynamic parameterType;
-@property(nonatomic) unsigned long long redComponent;
 
 @end
 

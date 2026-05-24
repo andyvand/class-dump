@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKAudioRecorder;
+
 @protocol CKAudioRecorderDelegate
+- (void)o v1 Neo because its account isn't authenticated for v1 Neo {note:(CKAudioRecorder *)arg1 %@};
 @end
 

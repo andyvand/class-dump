@@ -7,8 +7,6 @@
 @interface SFBatteryInfo
 {
     double _batteryLevel;
-    long long _batteryState;
-    long long _batteryType;
 }
 
 + (_Bool);
@@ -16,7 +14,7 @@
 - (long long);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) double batteryLevel; // @synthesize batteryLevel=_batteryLevel;
-@property(nonatomic) long long batteryState; // @synthesize batteryState=_batteryState;
-@property(nonatomic) long long batteryType; // @synthesize batteryType=_batteryType;
 
 @end
 

@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError, NSString;
+
 @protocol AKAppleIDAuthenticationLimitedUIProvider
+- (void)_fetchedUnifiedMeContact;
+- (void)_existingAccountForAccount:(NSError *)arg1 inStore:(NSString *)arg2;
+- (void)_delegates;
+- (void)_date;
+- (void)CalSpotlightQueryResult;
+- (void)CalRecurrenceRuleDescriptionGenerator;
+
+@optional
+- (void)_resultsForSearchableItems:(NSString *)arg1;
 @end
 

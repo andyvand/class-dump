@@ -7,19 +7,6 @@
 @interface NewsFeed.DebugFormatUploadDiff
 {
     id localData;
-    id localVersion;
-    id remoteData;
-    id remoteError;
-    id remoteVersion;
-    id remoteVersions;
-    id package;
-    id remotePackage;
-    id localOffsets;
-    id localNumberOfLines;
-    id localHunkRanges;
-    id remoteNumberOfLines;
-    id remoteOffsets;
-    id remoteHunkRanges;
 }
 
 @end

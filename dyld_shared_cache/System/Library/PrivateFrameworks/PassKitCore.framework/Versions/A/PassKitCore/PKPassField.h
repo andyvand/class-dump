@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString, PKPassFieldImage;
+@class NSString;
 
 @interface PKPassField
 {
     NSString *_value;
-    long long _type;
-    NSString *_key;
-    NSString *_label;
-    id _unformattedValue;
-    NSString *_changeMessage;
-    long long _textAlignment;
-    long long _cellStyle;
-    long long _unitType;
-    PKPassFieldImage *_labelImage;
-    PKPassFieldImage *_valueImage;
-    PKPassFieldImage *_accessoryImage;
-    NSString *_link;
-    unsigned long long _row;
-    unsigned long long _dataDetectorTypes;
-    NSDictionary *_semantics;
-    NSString *_accessibilityLabel;
-    NSString *_accessibilityValue;
-    double _amount;
-    double _threshold;
-    long long _foreignReferenceType;
-    NSSet *_foreignReferenceIdentifiers;
 }
 
 + (_Bool)î%1Â0@ù
@@ -37,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void),;
 - (void);
 - (void);
 - (void);
@@ -45,7 +24,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)\;
 - (id);
 - (void);
 - (id);
@@ -56,62 +35,41 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)SӉs;
 - (double);
 - (void);
 - (id);
+- (unsigned long long)H}S;
+- (void)
+=;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
+- (id)*;
+- (void)GB9;
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)timestampFailure;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)esChangedNotification;
-- (void)TLESS_INTERFACE_SUPRESSION_ACCEPT;
-- (void)zationTimeOut;
-- (id)main;
+- (id)B;
+- (void)PKPeerPaymentServicePreferencesChangedNotification;
+- (void)CONTACTLESS_INTERFACE_SUPRESSION_ACCEPT;
+- (void)cloudStoreInitializationTimeOut;
+- (id)PKApplyErrorDomain;
 - (long long)Gáÿ;
 - (double)¥âlØ;
 - (void)ø;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(copy, nonatomic) NSString *accessibilityValue; // @synthesize accessibilityValue=_accessibilityValue;
-@property(retain, nonatomic) PKPassFieldImage *accessoryImage; // @synthesize accessoryImage=_accessoryImage;
-@property(nonatomic) double amount; // @synthesize amount=_amount;
-@property(nonatomic) long long cellStyle; // @synthesize cellStyle=_cellStyle;
-@property(copy, nonatomic) NSString *changeMessage; // @synthesize changeMessage=_changeMessage;
-@property(nonatomic) unsigned long long dataDetectorTypes; // @synthesize dataDetectorTypes=_dataDetectorTypes;
-@property(copy, nonatomic) NSSet *foreignReferenceIdentifiers; // @synthesize foreignReferenceIdentifiers=_foreignReferenceIdentifiers;
-@property(nonatomic) long long foreignReferenceType; // @synthesize foreignReferenceType=_foreignReferenceType;
-@property(readonly, nonatomic) _Bool isDrillInField;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) PKPassFieldImage *labelImage; // @synthesize labelImage=_labelImage;
-@property(copy, nonatomic) NSString *link; // @synthesize link=_link;
-@property(nonatomic) unsigned long long row; // @synthesize row=_row;
-@property(copy, nonatomic) NSDictionary *semantics; // @synthesize semantics=_semantics;
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(nonatomic) double threshold; // @synthesize threshold=_threshold;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(copy, nonatomic) id unformattedValue; // @synthesize unformattedValue=_unformattedValue;
-@property(nonatomic) long long unitType; // @synthesize unitType=_unitType;
-@property(readonly) __weak NSString *value;
-@property(retain, nonatomic) PKPassFieldImage *valueImage; // @synthesize valueImage=_valueImage;
 
 @end
 

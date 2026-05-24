@@ -7,8 +7,6 @@
 @interface PromotedContentUI.HorizontalAdvertiserLockupView
 {
     id textLabel;
-    id imageView;
-    id configuration;
 }
 
 - (id);

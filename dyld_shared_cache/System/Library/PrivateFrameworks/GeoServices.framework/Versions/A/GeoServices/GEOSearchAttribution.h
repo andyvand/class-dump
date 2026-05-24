@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class NSString, PBDataReader;
 
 @interface GEOSearchAttribution
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_attributionURLs;
-    NSString *_sourceIdentifier;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _sourceVersion;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_attributionURLs:1;
-        unsigned int read_sourceIdentifier:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)apsWindows:(id)arg1;
-- (void);
++ (_Bool)setMapUiNumberOfMapsWindows:(id)arg1;
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -37,30 +24,27 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)m;
 - (id);
-- (void);
+- (void)_remoteVADAlignCount;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)*;
 - (id)ibutionManifestIndex";
-- (void)cher:(id)arg1;
-- (id)eTime;
-- (id);
-- (id)ervice;
-- (id)onfiguration;
+- (void)setSearchMatcher:(id)arg1;
+- (id)hasDecodeTime;
+- (id)GEOLaneWidth;
+- (id)XPCService;
+- (id)button_module_configuration;
 - (void)¼BAB
 B®P@;
 - (unsigned int)ñbahP@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *attributionURLs;
 @property(retain, nonatomic) NSString *sourceIdentifier;
-@property(nonatomic) unsigned int sourceVersion;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

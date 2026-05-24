@@ -4,37 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 @protocol TRIFactorPackSetId;
 
 @interface TRIFactorPackSet
 {
     NSString<TRIFactorPackSetId> *_ident;
-    NSArray *_packs;
 }
 
++ (id)initWithAlgorithmName:(id)arg1 algorithmProperties:(id)arg2 distanceWeights: /* Error: Ran out of types for this method. */;
++ (id)bestFaceRectWithImageSize:(id)arg1 deviceSize:faceRegions: /* Error: Ran out of types for this method. */;
++ (_Bool)dioMix:(id)arg1 outTimeRangeMapper:(id)arg2;
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)loadValuesAsynchronouslyForKeys:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)layoutByUpdatingNormalizedPortraitAdaptiveVisibleFrame:landscapeAdaptiveVisibleFrame: /* Error: Ran out of types for this method. */;
+- (id)isRecognizedFormat;
+- (id)initWithLayers:(id)arg1 layout:depthEnabled:parallaxDisabled:clockAreaLuminance:settlingEffectEnabled:spatialPhotoEnabled: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString<TRIFactorPackSetId> *ident; // @synthesize ident=_ident;
-@property(readonly, nonatomic) NSArray *packs; // @synthesize packs=_packs;
 
 @end
 

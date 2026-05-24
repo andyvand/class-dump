@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKMetalFramebuffer;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
 
 #pragma mark Named Structures
-
-struct AnimatingStroke;
 
 struct CAFrameRateRange {
     float _field1;
@@ -21,12 +17,12 @@ struct CAFrameRateRange {
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGImage;
@@ -37,13 +33,13 @@ struct CGPoint {
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct Edge {
@@ -96,10 +92,6 @@ struct PKMetalPaintStrokePoint {
     unsigned int :16;
 };
 
-struct PKMetalParticleStrokePoint;
-
-struct PKMetalSDFPenStrokePoint;
-
 struct PKMetalShaderKey {
     long long _field1;
     _Bool _field2;
@@ -137,7 +129,7 @@ struct PKOutputFunction {
     unsigned long long _field3;
     unsigned long long _field4;
     unsigned long long _field5;
-    unique_ptr_51dafc34 _field6;
+    unique_ptr_48d78673 _field6;
 };
 
 struct PKProtobufUnknownFields;
@@ -157,7 +149,7 @@ struct PKRunningStat {
 };
 
 struct PKShaderPipelineConfig {
-    unsigned char framebufferPixelFormats[8];
+    unsigned char _field1[8];
 };
 
 struct PKSixChannelShaderKey {
@@ -199,27 +191,21 @@ struct RenderStateConfig {
     long long _field12;
 };
 
-struct RendererFramebuffer {
-    PKMetalFramebuffer *framebuffer;
-    _Bool isNonPurgeable;
-    _Bool mustBeCleared;
-};
-
 struct StrokeID {
     CDUnknownFunctionPointerType *_field1;
     unsigned long long _field2;
     unsigned long long _field3;
     unsigned long long _field4;
-    CDStruct_83ae4a4a _field5;
+    struct {
+        unsigned int :1;
+        unsigned int :1;
+        unsigned int :1;
+    } _field5;
 };
 
-struct TimestampedAngles;
-
-struct TimestampedPoint;
-
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _PKPoint {
@@ -234,17 +220,17 @@ struct _PKStrokeID {
 };
 
 struct _PKStrokePoint {
-    double timestamp;
-    struct CGPoint location;
-    double radius;
-    double aspectRatio;
-    double edgeWidth;
-    double force;
-    double azimuth;
-    double altitude;
-    double opacity;
-    double radius2;
-    double threshold;
+    double _field1;
+    struct CGPoint _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+    double _field9;
+    double _field10;
+    double _field11;
 };
 
 struct _PKStrokePointSlice {
@@ -256,10 +242,6 @@ struct __shared_weak_count;
 
 struct __wrap_iter<const _PKStrokePoint *> {
     struct _PKStrokePoint *_field1;
-};
-
-struct atomic_flag {
-    _Atomic _Bool _Value;
 };
 
 struct float3x3 {
@@ -284,142 +266,14 @@ struct shared_ptr<PKStrokePathPointsShared> {
     struct __shared_weak_count *__cntrl_;
 };
 
-struct shared_ptr<std::vector<(anonymous namespace)::StrokeVertex>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
-struct shared_ptr<std::vector<PKMetalSDFStrokeVertex>> {
-    void *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct unique_ptr<PKFunction, std::default_delete<PKFunction>> {
     struct {
-        struct PKFunction *__ptr_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
+        struct PKFunction *_field1;
+    } _field1;
 };
 
 struct unique_ptr<std::vector<PKCompressedStrokePoint>, std::default_delete<std::vector<PKCompressedStrokePoint>>> {
     CDStruct_63fd5f43 _field1;
-};
-
-struct unordered_map<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalKernelKey>, std::allocator<std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>>> {
-    struct __hash_table<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, std::__unordered_map_hasher<(anonymous namespace)::PKMetalKernelKey, std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalKernelKey>>, std::__unordered_map_equal<(anonymous namespace)::PKMetalKernelKey, std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, std::equal_to<(anonymous namespace)::PKMetalKernelKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalShaderKey>, std::allocator<std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>>> {
-    struct __hash_table<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, std::__unordered_map_hasher<(anonymous namespace)::PKMetalShaderKey, std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalShaderKey>>, std::__unordered_map_equal<(anonymous namespace)::PKMetalShaderKey, std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, std::equal_to<(anonymous namespace)::PKMetalShaderKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKSixChannelShaderKey>, std::allocator<std::pair<const (anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>>> {
-    struct __hash_table<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, std::__unordered_map_hasher<(anonymous namespace)::PKSixChannelShaderKey, std::pair<const (anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKSixChannelShaderKey>>, std::__unordered_map_equal<(anonymous namespace)::PKSixChannelShaderKey, std::pair<const (anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, std::equal_to<(anonymous namespace)::PKSixChannelShaderKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const (anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<PKNamedShaderKey, PKMetalShader *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKNamedShaderKey>, std::allocator<std::pair<const PKNamedShaderKey, PKMetalShader *>>> {
-    struct __hash_table<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, std::__unordered_map_hasher<PKNamedShaderKey, std::pair<const PKNamedShaderKey, PKMetalShader *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKNamedShaderKey>>, std::__unordered_map_equal<PKNamedShaderKey, std::pair<const PKNamedShaderKey, PKMetalShader *>, std::equal_to<PKNamedShaderKey>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const PKNamedShaderKey, PKMetalShader *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<PKNamedShaderKey, PKMetalShader *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKShaderPipelineConfig>, std::allocator<std::pair<const PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>>> {
-    struct __hash_table<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, std::__unordered_map_hasher<PKShaderPipelineConfig, std::pair<const PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKShaderPipelineConfig>>, std::__unordered_map_equal<PKShaderPipelineConfig, std::pair<const PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, std::equal_to<PKShaderPipelineConfig>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions>, std::allocator<std::pair<const PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct vector<(anonymous namespace)::AnimatingStroke, std::allocator<(anonymous namespace)::AnimatingStroke>> {
-    struct AnimatingStroke *__begin_;
-    struct AnimatingStroke *__end_;
-    struct {
-        struct AnimatingStroke *__cap_;
-    } ;
 };
 
 struct vector<CGPoint, std::allocator<CGPoint>> {
@@ -449,85 +303,25 @@ struct vector<ClipperLib::IntPoint, std::allocator<ClipperLib::IntPoint>> {
 struct vector<PKInputPoint, std::allocator<PKInputPoint>> {
     CDStruct_183601bc *__begin_;
     CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
-};
-
-struct vector<PKMetalLiveStrokePaintStrokePoint, std::allocator<PKMetalLiveStrokePaintStrokePoint>> {
-    struct PKMetalLiveStrokePaintStrokePoint *__begin_;
-    struct PKMetalLiveStrokePaintStrokePoint *__end_;
     struct {
-        struct PKMetalLiveStrokePaintStrokePoint *__cap_;
-    } ;
-};
-
-struct vector<PKMetalPaintStrokePoint, std::allocator<PKMetalPaintStrokePoint>> {
-    struct PKMetalPaintStrokePoint *__begin_;
-    struct PKMetalPaintStrokePoint *__end_;
-    struct {
-        struct PKMetalPaintStrokePoint *__cap_;
-    } ;
-};
-
-struct vector<PKMetalParticleStrokePoint, std::allocator<PKMetalParticleStrokePoint>> {
-    struct PKMetalParticleStrokePoint *__begin_;
-    struct PKMetalParticleStrokePoint *__end_;
-    struct {
-        struct PKMetalParticleStrokePoint *__cap_;
-    } ;
-};
-
-struct vector<PKMetalSDFPenStrokePoint, std::allocator<PKMetalSDFPenStrokePoint>> {
-    struct PKMetalSDFPenStrokePoint *__begin_;
-    struct PKMetalSDFPenStrokePoint *__end_;
-    struct {
-        struct PKMetalSDFPenStrokePoint *__cap_;
+        CDStruct_183601bc *__cap_;
     } ;
 };
 
 struct vector<PKOutputFunction, std::allocator<PKOutputFunction>> {
-    struct PKOutputFunction *__begin_;
-    struct PKOutputFunction *__end_;
+    struct PKOutputFunction *_field1;
+    struct PKOutputFunction *_field2;
     struct {
-        struct PKOutputFunction *__cap_;
-    } ;
-};
-
-struct vector<TimestampedAngles, std::allocator<TimestampedAngles>> {
-    struct TimestampedAngles *__begin_;
-    struct TimestampedAngles *__end_;
-    struct {
-        struct TimestampedAngles *__cap_;
-    } ;
-};
-
-struct vector<TimestampedPoint, std::allocator<TimestampedPoint>> {
-    struct TimestampedPoint *__begin_;
-    struct TimestampedPoint *__end_;
-    struct {
-        struct TimestampedPoint *__cap_;
-    } ;
-};
-
-struct vector<_PKFloatRange, std::allocator<_PKFloatRange>> {
-    CDStruct_183601bc *__begin_;
-    CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
-};
-
-struct vector<_PKStrokePoint, std::allocator<_PKStrokePoint>> {
-    struct _PKStrokePoint *__begin_;
-    struct _PKStrokePoint *__end_;
-    struct {
-        struct _PKStrokePoint *__cap_;
-    } ;
+        struct PKOutputFunction *_field1;
+    } _field3;
 };
 
 struct vector<double, std::allocator<double>> {
-    double *__begin_;
-    double *__end_;
+    double *_field1;
+    double *_field2;
     struct {
-        double *__cap_;
-    } ;
+        double *_field1;
+    } _field3;
 };
 
 struct vector<std::vector<ClipperLib::IntPoint>, std::allocator<std::vector<ClipperLib::IntPoint>>> {
@@ -547,32 +341,22 @@ struct vector<unsigned char, std::allocator<unsigned char>> {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long x;
-    unsigned long long y;
-    unsigned long long width;
-    unsigned long long height;
-} CDStruct_5f3a0cd7;
-
-typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+} CDStruct_33dcf794;
 
 typedef struct {
     void *__cap_;
 } CDStruct_63fd5f43;
 
 typedef struct {
-    unsigned int delegateSupportsLatestTimestampForUserInteraction:1;
-    unsigned int delegateSupportsSolveStateChanged:1;
-    unsigned int delegateSupportsDidEraseStrokes:1;
-} CDStruct_83ae4a4a;
-
-typedef struct {
-    double red;
-    double green;
-    double blue;
-    double alpha;
-} CDStruct_3ead2808;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+} CDStruct_d2b197d1;
 
 typedef struct {
     double _field1;
@@ -580,14 +364,10 @@ typedef struct {
 } CDStruct_c3b9c2ee;
 
 typedef struct {
-    float __max_load_factor_;
-} CDStruct_717dde41;
-
-typedef struct {
-    int arcType;
-    _Bool before;
-    double snapAngle;
-} CDStruct_cfd08fee;
+    int _field1;
+    _Bool _field2;
+    double _field3;
+} CDStruct_249e8220;
 
 typedef struct CDStruct_183601bc;
 
@@ -601,30 +381,26 @@ typedef struct {
 } CDStruct_c5e6d23b;
 
 typedef struct {
-    CDStruct_183601bc *__cap_;
-} CDStruct_669ce3ce;
-
-typedef struct {
     union {
         struct {
-            unsigned int isHidden:1;
-            unsigned int hiddenInherited:1;
-            unsigned int inkInherited:1;
-            unsigned int transformInherited:1;
-            unsigned int isNewCopy:1;
-            unsigned int randomSeed:32;
-            unsigned int isRandomSeedSet:1;
-            unsigned int isInProgressScribbleStroke:1;
-            unsigned int combineWhenRendering_OBSOLETED:1;
-            unsigned int isSynthesizedStroke:1;
-            unsigned int shouldSolveMath:1;
-            unsigned int safeForStyleInventory:1;
-            unsigned int isPastedStroke:1;
-            unsigned int isSharedStroke:1;
-        } ;
-        unsigned long long allFlags;
-    } ;
-} CDStruct_3593b622;
+            unsigned int :1;
+            unsigned int :1;
+            unsigned int :1;
+            unsigned int :1;
+            unsigned int :1;
+            unsigned int :32;
+            unsigned int :1;
+            unsigned int :1;
+            unsigned int :1;
+            unsigned int :1;
+            unsigned int :1;
+            unsigned int :1;
+            unsigned int :1;
+            unsigned int :1;
+        } _field1;
+        unsigned long long _field2;
+    } _field1;
+} CDStruct_b73f67e6;
 
 typedef struct {
     union {
@@ -660,7 +436,7 @@ typedef struct {
     double _field9;
     id _field10;
     unsigned long long _field11;
-} CDStruct_2da3c04e;
+} CDStruct_0762bd03;
 
 // Template types
 typedef struct __wrap_iter<const _PKStrokePoint *> {
@@ -679,9 +455,9 @@ typedef struct shared_ptr<PKStrokePathPointsShared> {
 
 typedef struct unique_ptr<PKFunction, std::default_delete<PKFunction>> {
     struct {
-        struct PKFunction *__ptr_;
-    } ;
-} unique_ptr_51dafc34;
+        struct PKFunction *_field1;
+    } _field1;
+} unique_ptr_48d78673;
 
 typedef struct unique_ptr<std::vector<PKCompressedStrokePoint>, std::default_delete<std::vector<PKCompressedStrokePoint>>> {
     CDStruct_63fd5f43 _field1;
@@ -698,22 +474,24 @@ typedef struct vector<CGPoint, std::allocator<CGPoint>> {
 typedef struct vector<PKInputPoint, std::allocator<PKInputPoint>> {
     CDStruct_183601bc *__begin_;
     CDStruct_183601bc *__end_;
-    CDStruct_669ce3ce ;
+    struct {
+        CDStruct_183601bc *__cap_;
+    } ;
 } vector_8f46a492;
 
 typedef struct vector<PKOutputFunction, std::allocator<PKOutputFunction>> {
-    struct PKOutputFunction *__begin_;
-    struct PKOutputFunction *__end_;
+    struct PKOutputFunction *_field1;
+    struct PKOutputFunction *_field2;
     struct {
-        struct PKOutputFunction *__cap_;
-    } ;
-} vector_8077eb8f;
+        struct PKOutputFunction *_field1;
+    } _field3;
+} vector_a0ec29ce;
 
 typedef struct vector<double, std::allocator<double>> {
-    double *__begin_;
-    double *__end_;
+    double *_field1;
+    double *_field2;
     struct {
-        double *__cap_;
-    } ;
-} vector_3f2cadd7;
+        double *_field1;
+    } _field3;
+} vector_e69d0719;
 

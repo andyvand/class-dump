@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSString;
+@class NSDictionary, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface ACProtobufAccountCredential
 {
     NSMutableArray *_credentialItems;
-    NSString *_credentialType;
-    NSMutableArray *_dirtyProperties;
-    _Bool _requiresTouchID;
 }
 
 + (Class);
 + (Class);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -31,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -41,17 +38,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *credentialItems; // @synthesize credentialItems=_credentialItems;
 @property(copy, nonatomic) NSDictionary *credentialItemsDictionary;
-@property(retain, nonatomic) NSString *credentialType; // @synthesize credentialType=_credentialType;
-@property(retain, nonatomic) NSMutableArray *dirtyProperties; // @synthesize dirtyProperties=_dirtyProperties;
-@property(nonatomic) _Bool requiresTouchID; // @synthesize requiresTouchID=_requiresTouchID;
 
 @end
 

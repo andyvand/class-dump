@@ -4,76 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWPreviewGyroStabilizationPanningDetection, BWPreviewGyroStabilizationTripodDetection;
-
 __attribute__((visibility("hidden")))
 @interface BWPreviewGyroStabilization
 {
     struct PreviewGyroStabilizationTransformContext _transformContext;
-    struct {
-        int fusedRingIndex;
-        double fusedRingTime[256];
-        CDStruct_bf7dff04 fusedRingQuaternion[256];
-        double motionTimeShift;
-        unsigned char ignoreMotionDataForPowerTest;
-        unsigned char relaxMotionDataLoggingThreshold;
-        unsigned char didHaveMotionData;
-        unsigned char prevDidHaveMotionData;
-        unsigned char usingMotionDataFromISP;
-    } _motionData;
-    struct {
-        int fusedRingIndex[2];
-        double fusedRingTime[2][512];
-        CDStruct_6e3f967a fusedRingHallPosition[2][512];
-        struct *fusedRingSagPosition[2];
-        double hallTimeShift;
-        unsigned char isFirstSample[2];
-        unsigned char bypassHighPassFilter;
-        float lowpassParameter;
-        CDStruct_6e3f967a lowpassHallPosition[2];
-    } _hallData;
-    CDStruct_bf7dff04 _extrinsicAlignmentPose;
-    _Bool _isFirstFrame;
-    CDStruct_bf7dff04 _stabilizedCenterQuaternion[4];
-    CDStruct_bf7dff04 _stabilizedCenterQuaternionAdjusted[4];
-    CDStruct_bf7dff04 _lowpassQuaternionsInstant;
-    CDStruct_bf7dff04 _correctionQuaternion;
-    CDStruct_6e3f967a _oisOffsetInput;
-    CDStruct_6e3f967a _sagPosition;
-    float _baseVector[9];
-    CDStruct_6e3f967a _currentShift;
-    float _lowpassParameter;
-    float _lowpassParameterCascade;
-    double _frameRateNormalizationFactor;
-    double _deltaFrameTime;
-    double _previousCaptureTime;
-    double _quaternionThreshold;
-    float _physicalTripodRate;
-    float _panningSpeedLimitingThreshold;
-    _Bool _enableCascadeFilter;
-    int _sagRemovalMethod;
-    float _lowpassParameterOverride;
-    _Bool _isStillImagePreview;
-    float _ispMotionDataGroupDelay;
-    BWPreviewGyroStabilizationPanningDetection *_previewPanningDetection;
-    BWPreviewGyroStabilizationTripodDetection *_previewTripodDetection;
-    float _maxSmoothParameter;
-    float _defaultSmoothParameter;
-    float _defaultSmoothParameterSlope;
-    float _tripodSmoothParameter;
-    float _tripodSmoothParameterSlope;
-    int _tripodRampUpFrames;
-    int _tripodRampDownFrames;
-    int _tripodSlowPanningRampDownFrames;
-    int _tripodFastPanningRampDownFrames;
-    float _panningOverscanPercentage;
-    float _panningSpeedThreshold;
-    float _tripodMaxAngleThresholdAccumulate;
-    float _tripodMaxAngleThresholdInstant;
-    float _physicalTripodLikelyMaxAngleThreshold;
-    float _physicalTripodMinSmoothParameter;
-    float _physicalTripodGuaranteedMaxAngleThreshold;
-    float _slowPanningSpeedThreshold;
 }
 
 - (id);
@@ -89,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (void);
-- (CDStruct_bf7dff04);
-- (void);
+- (CDStruct_d2b197d1);
+- (void)P;
 
 @end
 

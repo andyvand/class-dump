@@ -9,15 +9,11 @@
 @interface RBSCPUMinimumUsageGrant : RBSGrant
 {
     unsigned char _role;
-    unsigned long long _percentage;
-    double _duration;
 }
 
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) unsigned long long percentage; // @synthesize percentage=_percentage;
 @property(readonly, nonatomic) unsigned char role; // @synthesize role=_role;
 
 @end

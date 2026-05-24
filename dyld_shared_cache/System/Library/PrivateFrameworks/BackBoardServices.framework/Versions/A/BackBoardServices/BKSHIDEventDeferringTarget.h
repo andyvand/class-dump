@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringToken, NSString;
-
 @interface BKSHIDEventDeferringTarget
 {
     int _pid;
-    BKSHIDEventDeferringToken *_token;
 }
 
-+ (id);
++ (id)#;
 + (id);
 + (_Bool);
 - (int);
-- (id);
-- (id);
-- (id);
+- (id)setDasSystemContextLog:(id)arg1;
+- (id)P;
+- (id)LUMN %@;
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)T;
 - (void);
 - (id);
 - (id);
@@ -31,15 +28,7 @@
 - (id)°þÿ@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) BKSHIDEventDeferringToken *token; // @synthesize token=_token;
 
 @end
 

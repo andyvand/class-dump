@@ -4,37 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCInterface;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface TKXPCConnectionConfigurationDefault
 {
     id _exportedObject;
-    NSXPCInterface *_exportedInterface;
-    NSXPCInterface *_remoteObjectInterface;
-    NSObject<OS_dispatch_queue> *_replyQueue;
 }
 
+- (id)c;
+- (id)!Q;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)nnection before creating a new one;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
 @property(readonly, nonatomic) id exportedObject; // @synthesize exportedObject=_exportedObject;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSXPCInterface *remoteObjectInterface; // @synthesize remoteObjectInterface=_remoteObjectInterface;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *replyQueue; // @synthesize replyQueue=_replyQueue;
-@property(readonly) Class superclass;
 
 @end
 

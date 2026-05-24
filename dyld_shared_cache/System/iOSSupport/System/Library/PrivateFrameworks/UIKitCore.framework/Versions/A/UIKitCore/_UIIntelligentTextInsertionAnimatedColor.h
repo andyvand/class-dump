@@ -11,17 +11,14 @@
 @interface _UIIntelligentTextInsertionAnimatedColor : _UIAnimatedColor
 {
     _UIColorPalette *_sheenPalette;
-    _UIColorPalette *_foregroundPalette;
-    _UIColorPalette *_resolvedBackgroundPalette;
-    UIColor *_resolvedColor;
 }
 
 - (void);
+- (id)dSIMID:(struct CGRect)arg1 joinProperties:(CDUnknownBlockType)arg2;
+- (void)(%@):(id)arg1 %{BOOL}d;
+- (void)sing required properties on relay message:(struct CGRect)arg1 %@;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void)dStringKey;
+- (void)NNSAttributedStringKey;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *resolvedColor; // @synthesize resolvedColor=_resolvedColor;

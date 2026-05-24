@@ -12,26 +12,25 @@
 }
 
 + (void);
-+ (id)alizedStringInCalendar: /* Error: Ran out of types for this method. */;
++ (id)overlayFirstDayOfLunarMonthLocalizedStringInCalendar: /* Error: Ran out of types for this method. */;
 + (void)ÿÚ /yÉ/¡/AEG_p%¡/#+¡/tGG;
-- (id)úg©ø_©öW©ôO©ý{©ýCÿÑó;
-- (_Bool)þ;
-- (int)ªñªìò1	?×;
-- (int)ÁÚë@;
-- (_Bool)0@ù
-?×è;
-- (id)ó;
-- (id)ÕöW½©ôO©ý{©ý;
-- (id)ý;
-- (id)Ñø¨CÑø·ø¨£;
+- (id)hJ;
+- (_Bool);
+- (int);
+- (int);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (int);
-- (id);
+- (id);
 - (void)1Â0@ù
 × ;
-- (void)aractersInRange:withString: /* Error: Ran out of types for this method. */;
+- (void)stringByReplacingCharactersInRange:withString: /* Error: Ran out of types for this method. */;
 
 @end
 

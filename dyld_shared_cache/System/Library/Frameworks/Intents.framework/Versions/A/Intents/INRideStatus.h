@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INDateComponentsRange, INRideCompletionStatus, INRideDriver, INRideOption, INRideVehicle, NSArray, NSDate, NSString, NSUserActivity;
+@class NSArray;
 
 @interface INRideStatus
 {
     NSArray *_waypoints;
-    NSString *_rideIdentifier;
-    long long _phase;
-    INRideCompletionStatus *_completionStatus;
-    INRideVehicle *_vehicle;
-    INRideDriver *_driver;
-    NSDate *_estimatedPickupDate;
-    NSDate *_estimatedDropOffDate;
-    NSDate *_estimatedPickupEndDate;
-    INDateComponentsRange *_scheduledPickupTime;
-    CLPlacemark *_pickupLocation;
-    CLPlacemark *_dropOffLocation;
-    INRideOption *_rideOption;
-    NSUserActivity *_userActivityForCancelingInApplication;
-    NSArray *_additionalActionActivities;
 }
 
 + (_Bool);

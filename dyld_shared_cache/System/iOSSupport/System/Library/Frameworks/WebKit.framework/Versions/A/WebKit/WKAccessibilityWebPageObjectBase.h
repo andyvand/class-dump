@@ -8,19 +8,13 @@ __attribute__((visibility("hidden")))
 @interface WKAccessibilityWebPageObjectBase
 {
     struct WeakPtr<WebKit::WebPage, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> m_page;
-    struct Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>> m_pageID;
-    struct IntPoint m_remoteFrameOffset;
-    struct RetainPtr<id> m_parent;
-    struct RetainPtr<NSData> m_remoteToken;
-    _Bool m_hasMainFramePlugin;
-    optional_f4f62309 m_frameID;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (RefPtr_a38c8588);
 - (void *);

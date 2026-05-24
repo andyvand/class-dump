@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface LSApplicationRestrictionsManager
 {
     NSSet *_ratingRankExceptionBundleIDs;
-    NSString *_systemMode;
-    NSSet *_removedSystemApplicationIdentifiers;
 }
 
-- (void);
+- (void) ;
 - (void);
 
 @end

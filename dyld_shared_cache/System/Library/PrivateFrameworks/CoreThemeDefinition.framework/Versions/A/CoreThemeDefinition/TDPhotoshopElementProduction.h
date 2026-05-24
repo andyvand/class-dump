@@ -6,25 +6,17 @@
 
 #import <CoreThemeDefinition/TDElementProduction.h>
 
-@class CUIImage, CUIPSDImageRef, NSDate, NSMutableAttributedString, TDPhotoshopAsset;
+@class NSMutableAttributedString, TDPhotoshopAsset;
 
 @interface TDPhotoshopElementProduction : TDElementProduction
 {
     NSMutableAttributedString *log;
-    CUIPSDImageRef *psdImageRef;
-    NSDate *_cachedImageDate;
-    CUIImage *_edgeMetricsMask;
-    CUIImage *_textMetricsMask;
-    CUIImage *_baselineMetricsMask;
-    CUIImage *_auxiliary1MetricsMask;
-    CUIImage *_auxiliary2MetricsMask;
-    _Bool _didCheckForMetricsMasks;
 }
 
 + (unsigned int);
 + (unsigned int);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

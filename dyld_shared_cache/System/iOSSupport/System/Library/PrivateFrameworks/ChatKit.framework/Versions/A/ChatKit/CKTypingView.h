@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CKBaseLayer;
+@class CALayer;
 @protocol CKTypingIndicatorLayerProtocol;
 
 @interface CKTypingView
 {
     double _transcriptBackgroundLuminance;
-    CALayer<CKTypingIndicatorLayerProtocol> *_indicatorLayer;
-    CKBaseLayer *_baseLayer;
 }
 
-- (double);
-- (void);
-- (void);
-- (void);
+- (double)r: /* Error: Ran out of types for this method. */;
+- (void)replaceSearchResultObject:(double)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (void)initialAttachmentPreviewDidLoad:(id)arg1;
+- (void)ic_fontByAddingSymbolicTraits:(id)arg1;
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)layoutManager:(struct CGRect)arg1 didCompleteLayoutForTextContainer:atEnd: /* Error: Ran out of types for this method. */;
 - (void)g=%.4f>;
 
 // Remaining properties
-@property(retain, nonatomic) CKBaseLayer *baseLayer; // @synthesize baseLayer=_baseLayer;
 @property(retain, nonatomic) CALayer<CKTypingIndicatorLayerProtocol> *indicatorLayer; // @synthesize indicatorLayer=_indicatorLayer;
-@property(nonatomic) double transcriptBackgroundLuminance; // @synthesize transcriptBackgroundLuminance=_transcriptBackgroundLuminance;
 
 @end
 

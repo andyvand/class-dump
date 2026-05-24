@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSURL;
+@class NSURL;
 
 @interface AVPlannedSegmentWritingRequest
 {
     NSURL *_segmentFileOutputURL;
-    int _assemblyTrackID;
-    CDStruct_e83c9415 _timeRange;
-    NSDictionary *_requiredOutputSettings;
-    CDUnknownBlockType _finishBlock;
 }
 
 + (id);
@@ -25,14 +21,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (CDStruct_e83c9415);
+- (void);
+- (CDStruct_e83c9415);
 
 // Remaining properties
-@property(readonly) int assemblyTrackID; // @synthesize assemblyTrackID=_assemblyTrackID;
-@property(readonly) NSDictionary *requiredOutputSettings; // @synthesize requiredOutputSettings=_requiredOutputSettings;
 @property(readonly) NSURL *segmentFileOutputURL; // @synthesize segmentFileOutputURL=_segmentFileOutputURL;
-@property(readonly) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
 
 @end
 

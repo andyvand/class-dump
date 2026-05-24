@@ -6,38 +6,26 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWNodeOutput, NSArray, NSDictionary;
+@class BWNodeOutput;
 
 @interface BWStillImageBufferRouterNode : BWNode
 {
     _Bool _usingBravoDevice;
-    _Bool _usingPearlDevice;
-    _Bool _HDRSupported;
-    _Bool _SISSupported;
-    _Bool _GNRSISSupported;
-    _Bool _LTMHDRSupported;
-    NSArray *_inputPortTypes;
-    NSDictionary *_portTypeToInput;
-    BWNodeOutput *_defaultOutput;
-    BWNodeOutput *_HDROutput;
-    BWNodeOutput *_SISOutput;
-    BWNodeOutput *_bravoTelephotoOutput;
-    BWNodeOutput *_pearlInfraredOutput;
 }
 
 + (void)tStagingQueue:sampleBufferAlreadyAtHeadOfQueue:] /* Error: Ran out of types for this method. */;
-- (void);
+- (void)OADTextBodyProperties;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)JA;
+- (id)setCurrentDataSize:(id)arg1;
 - (id);
-- (id);
-- (void)lowDepthOfFieldEffectSceneStatus;
-- (id)ibraryThumbnailPixelConverter;
+- (void)_shallowDepthOfFieldEffectSceneStatus;
+- (id)_photoLibraryThumbnailPixelConverter;
 - (id)reDevice >>>> %s:%@ error disabling vibe mitigation:%d /* Error: Ran out of types for this method. */;
 - (void)rminationWithErrorCode with error code %d;
 - (void)dO;
@@ -45,11 +33,7 @@
 - (void)ph startDeferredSourceNodesIfNeeded]_block_invoke;
 
 // Remaining properties
-@property(readonly, nonatomic) BWNodeOutput *HDROutput; // @synthesize HDROutput=_HDROutput;
-@property(readonly, nonatomic) BWNodeOutput *SISOutput; // @synthesize SISOutput=_SISOutput;
-@property(readonly, nonatomic) BWNodeOutput *bravoTelephotoOutput; // @synthesize bravoTelephotoOutput=_bravoTelephotoOutput;
 @property(readonly, nonatomic) BWNodeOutput *defaultOutput; // @synthesize defaultOutput=_defaultOutput;
-@property(readonly, nonatomic) BWNodeOutput *pearlInfraredOutput; // @synthesize pearlInfraredOutput=_pearlInfraredOutput;
 
 @end
 

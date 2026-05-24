@@ -21,26 +21,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)allaxDisabled;
+- (id);
+- (id)handleFetchForRecordID:record:error: /* Error: Ran out of types for this method. */;
+- (id)parallaxDisabled;
 - (void)åû$ÉÿÍû(lÉÿ;
 - (unsigned long long)ØD ;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long backgroundVersion;
-@property(nonatomic, readonly) NSString *chatId;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSString *encryptionKey;
-@property(nonatomic, readonly) unsigned long long fileSize;
-@property(nonatomic, readonly) _Bool has_fileSize;
-@property(nonatomic, readonly) _Bool has_posterDataVersion;
-@property(nonatomic, readonly) NSString *ownerId;
-@property(nonatomic, readonly) unsigned long long posterDataVersion;
-@property(nonatomic, readonly) _Bool posterWasRemoved;
-@property(nonatomic, readonly) NSString *requestURL;
-@property(nonatomic, readonly) NSString *signature;
-@property(nonatomic, readonly) NSString *transferId;
 
 @end
 

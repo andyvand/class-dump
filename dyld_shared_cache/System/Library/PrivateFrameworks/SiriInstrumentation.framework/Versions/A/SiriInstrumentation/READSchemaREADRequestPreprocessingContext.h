@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, READSchemaREADRequestPreprocessingEnded;
+@class READSchemaREADRequestPreprocessingEnded;
 
 @interface READSchemaREADRequestPreprocessingContext : SISchemaInstrumentationMessage
 {
     READSchemaREADRequestPreprocessingEnded *_ended;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -24,20 +22,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)SDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAccountLookupResponse_macOS.m:26 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ion.m;
 - (id);
 - (id);
-- (id)vocationmetadata;
+- (id)_whichInvocationmetadata;
 - (id)erInAppPerDay;
-- (void)LIDCLIENTDATA_COM_APPLE_TOKENGENERATION;
+- (void)GMSERRORDOMAIN_INFERENCEERROR_INVALIDCLIENTDATA_COM_APPLE_TOKENGENERATION;
 
 // Remaining properties
 @property(retain, nonatomic) READSchemaREADRequestPreprocessingEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

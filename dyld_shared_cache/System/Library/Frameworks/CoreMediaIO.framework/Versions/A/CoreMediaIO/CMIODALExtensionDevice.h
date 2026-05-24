@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMIOExtensionSessionDevice, NSArray, NSDictionary, NSMutableDictionary, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CMIODALExtensionDevice
 {
     void *_plugIn;
-    void *_device;
-    CMIOExtensionSessionDevice *_sessionDevice;
-    struct os_unfair_lock_s _streamsLock;
-    NSArray *_sessionStreams;
-    NSMutableDictionary *_streamsMap;
-    struct os_unfair_lock_s _propertiesLock;
-    NSDictionary *_properties;
-    NSString *_description;
 }
 
 - (void);
@@ -32,20 +24,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ized;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *properties;
-@property(readonly, retain) CMIOExtensionSessionDevice *sessionDevice; // @synthesize sessionDevice=_sessionDevice;
 @property(retain) NSArray *sessionStreams;
-@property(readonly) Class superclass;
 
 @end
 

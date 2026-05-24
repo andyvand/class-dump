@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void));
 + (_Bool);
-+ (CDStruct_42a63532);
-+ (id);
-+ (id);
-+ (_Bool);
++ (CDStruct_90e057aa);
++ (id)T;
 + (id);
 + (_Bool);
 + (id);
++ (_Bool);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -31,7 +31,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 + (id);
-+ (void);
++ (void)P;
 + (_Bool);
 + (id);
 

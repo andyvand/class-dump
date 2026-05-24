@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFEventID, NSDate, NSDictionary, NSUUID;
+@class NSDate, NSUUID;
 
 @interface CWFEvent
 {
     NSDate *_timestamp;
-    NSDictionary *_info;
-    NSUUID *_UUID;
-    CWFEventID *_eventID;
-    unsigned long long _acknowledgementTimeout;
-    CDUnknownBlockType _acknowledge;
 }
 
 - (CDUnknownBlockType);
@@ -24,16 +19,16 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (_Bool);
-- (id);
+- (id)andle;
 - (void);
 - (id);
+- (void)61;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)QCyKySQy);
+- (id)-aa-ets-otherSigCert;
 - (id);
 - (void);
 - (id);
@@ -41,12 +36,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy, nonatomic) CDUnknownBlockType acknowledge; // @synthesize acknowledge=_acknowledge;
-@property(nonatomic) unsigned long long acknowledgementTimeout; // @synthesize acknowledgementTimeout=_acknowledgementTimeout;
-@property(copy, nonatomic) CWFEventID *eventID; // @synthesize eventID=_eventID;
-@property(copy, nonatomic) NSDictionary *info; // @synthesize info=_info;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) long long type; // @dynamic type;
 
 @end
 

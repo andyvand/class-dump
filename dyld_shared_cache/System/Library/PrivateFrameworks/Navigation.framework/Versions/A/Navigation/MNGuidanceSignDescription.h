@@ -4,75 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOJunction, NSArray, NSDictionary, NSMeasurement, NSString, NSUUID;
-@protocol GEOTransitArtworkDataSource;
+@class NSUUID;
 
 @interface MNGuidanceSignDescription
 {
     _Bool _isStaticText;
-    int _shieldID;
-    int _composedGuidanceEventIndex;
-    NSUUID *_uniqueID;
-    NSArray *_titles;
-    NSArray *_details;
-    GEOJunction *_junction;
-    id <GEOTransitArtworkDataSource> _artworkOverride;
-    NSString *_shieldText;
-    NSString *_shieldStringID;
-    NSDictionary *_variableOverrides;
-    long long _distanceDetailLevel;
-    NSArray *_primaryStrings;
-    NSArray *_secondaryStrings;
-    double _remainingDistance;
-    NSMeasurement *_displayRemainingDistance;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)@s;
+- (id)CirclePlaybackButtonStyle;
 - (int);
+- (void)ð;<{
+;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)SearchEnvironmentTransformModifier;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (long long);
 - (id);
-- (int);
+- (int)ListTableRowView;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)һ;
 - (void);
 - (double);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)<AOSUIAccountContactsViewControllerDelegate>",W,V_delegate;
 - (id);
 - (id);
 - (void)6@24@32@40@48@56@64;
 - (id)_suppressNames;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artworkOverride; // @synthesize artworkOverride=_artworkOverride;
-@property(readonly, nonatomic) int composedGuidanceEventIndex; // @synthesize composedGuidanceEventIndex=_composedGuidanceEventIndex;
-@property(readonly, nonatomic) NSArray *details; // @synthesize details=_details;
-@property(retain, nonatomic) NSMeasurement *displayRemainingDistance; // @synthesize displayRemainingDistance=_displayRemainingDistance;
-@property(readonly, nonatomic) long long distanceDetailLevel; // @synthesize distanceDetailLevel=_distanceDetailLevel;
-@property(nonatomic) _Bool isStaticText; // @synthesize isStaticText=_isStaticText;
-@property(readonly, nonatomic) GEOJunction *junction; // @synthesize junction=_junction;
-@property(retain, nonatomic) NSArray *primaryStrings; // @synthesize primaryStrings=_primaryStrings;
-@property(nonatomic) double remainingDistance; // @synthesize remainingDistance=_remainingDistance;
-@property(retain, nonatomic) NSArray *secondaryStrings; // @synthesize secondaryStrings=_secondaryStrings;
-@property(readonly, nonatomic) int shieldID; // @synthesize shieldID=_shieldID;
-@property(readonly, nonatomic) NSString *shieldStringID; // @synthesize shieldStringID=_shieldStringID;
-@property(readonly, nonatomic) NSString *shieldText; // @synthesize shieldText=_shieldText;
-@property(readonly, nonatomic) NSArray *titles; // @synthesize titles=_titles;
 @property(readonly, nonatomic) NSUUID *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(readonly, nonatomic) NSDictionary *variableOverrides; // @synthesize variableOverrides=_variableOverrides;
 
 @end
 

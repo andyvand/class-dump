@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOResultRefinementTime, GEOResultRefinementToggle, NSNumber, NSString;
+@class GEOResultRefinementTime, NSString;
 
 @interface GEOResultRefinementOpenOptions
 {
     GEOResultRefinementTime *_openAt;
-    GEOResultRefinementToggle *_openNow;
-    NSString *_displayName;
-    NSNumber *_selectionSequenceNumber;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)updaterScheduler;
+- (id)abHasAddressBookRelatedContent;
+- (id)ntext",R,N,V_managedObjectContext;
 - (id);
 - (id);
 - (void);
@@ -28,9 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) GEOResultRefinementTime *openAt; // @synthesize openAt=_openAt;
-@property(copy, nonatomic) GEOResultRefinementToggle *openNow; // @synthesize openNow=_openNow;
-@property(readonly, nonatomic) NSNumber *selectionSequenceNumber; // @synthesize selectionSequenceNumber=_selectionSequenceNumber;
 
 @end
 

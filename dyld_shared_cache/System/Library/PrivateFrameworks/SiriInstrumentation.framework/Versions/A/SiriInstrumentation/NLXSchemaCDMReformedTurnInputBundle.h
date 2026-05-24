@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMTurnInput, NSData;
-
 @interface NLXSchemaCDMReformedTurnInputBundle : SISchemaInstrumentationMessage
 {
     int _type;
-    NLXSchemaCDMTurnInput *_currentTurn;
-    unsigned int _previousTurnsSkip;
-    struct {
-        unsigned int type:1;
-        unsigned int previousTurnsSkip:1;
-    } _has;
-    _Bool _hasCurrentTurn;
 }
 
 - (void);
@@ -30,12 +21,12 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/rsa/rsa_pmeth.c;
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int);
 - (_Bool);
 - (void);
 - (id);
@@ -45,17 +36,11 @@
 × ;
 - (id)edScoreKnockOut;
 - (id)llowup",&,N,V_followup;
-- (_Bool)VICETHERMALSTATE_CRITICAL;
+- (_Bool)DEVICETHERMALSTATE_CRITICAL;
 - (void)eported.userFeedbackParticipants.halTargetSiriSpeechId;
 - (void)$ã=ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NLXSchemaCDMTurnInput *currentTurn; // @synthesize currentTurn=_currentTurn;
-@property(nonatomic) _Bool hasCurrentTurn; // @synthesize hasCurrentTurn=_hasCurrentTurn;
-@property(nonatomic) _Bool hasPreviousTurnsSkip;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int previousTurnsSkip; // @synthesize previousTurnsSkip=_previousTurnsSkip;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

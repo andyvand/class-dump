@@ -7,7 +7,7 @@
 @class SCNGeometry;
 
 @protocol SCNLevelOfDetailJSExport
-- (SCNGeometry *);
+- (id);
 - (id)ameFrac;
     outUV.z = ((frame.x + u_frameSize.x) == 1.)?1.:0.; 
 #elif ENABLE_ANIMATION == REPEAT
@@ -234,7 +234,5 @@ void main()
 
 // Remaining properties
 @property(readonly) SCNGeometry *geometry;
-@property(readonly) double screenSpaceRadius;
-@property(readonly) double worldSpaceDistance;
 @end
 

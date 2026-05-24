@@ -7,13 +7,11 @@
 @interface AKSignatureDecryptor_Mac
 {
     _Bool _keyInitialized;
-    _Bool _haveKey;
-    unsigned char _key[16];
 }
 
 + (id);
-- (id);
-- (void);
+- (id);
+- (void)y merge;
 - (id);
 
 @end

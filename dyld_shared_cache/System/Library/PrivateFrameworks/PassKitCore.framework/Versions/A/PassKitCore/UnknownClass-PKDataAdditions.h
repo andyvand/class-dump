@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (PKDataAdditions)
-+ (id);
++ (id)?;
 + (id);
 - (id);
 - (_Bool);

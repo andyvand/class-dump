@@ -7,11 +7,6 @@
 @interface PassKitCore.ProvisioningContinuityChannelCoordinator
 {
     id queue;
-    id lock;
-    id preferProximityChannel;
-    id serviceType;
-    id delegate;
-    id sessions;
 }
 
 @end

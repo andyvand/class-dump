@@ -7,21 +7,12 @@
 @interface NewsArticles.RecipeBannerAdViewController
 {
     id recipeID;
-    id bannerAdFactory;
-    id bannerAdJournal;
-    id requestManager;
-    id bannerAdViewManager;
-    id recipeDataManager;
-    id recipeTheme;
-    id placement;
-    id bannerAdSize;
-    id bannerView;
 }
 
 - (id);
 - (id);
 - (void);
-- (void)stNext;
+- (void)requestNext;
 - (void)è ;
 
 @end

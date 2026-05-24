@@ -4,80 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBNewsArticleViewEvent
 {
     double _absoluteTimestamp;
-    NSString *_content;
-    NSString *_contentProtection;
-    NSString *_domainId;
-    NSString *_personaId;
-    NSString *_publication;
-    NSString *_summary;
-    NSString *_title;
-    NSString *_uniqueId;
-    CDStruct_d3e759b0 _has;
 }
 
 - (_Bool);
+- (_Bool)4A;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)@9-;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)am stopRTCPSendHeartbeat];
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)H3;
 - (double);
+- (_Bool);
+- (unsigned long long);
 - (_Bool);
-- (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (id)*;
 - (id);
 - (void);
-- (void);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 - (id)y;
-- (id)_sequence;
+- (id)identity_sequence;
 - (void)ö÷øùúû;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *content; // @synthesize content=_content;
-@property(retain, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(retain, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasContentProtection;
-@property(readonly, nonatomic) _Bool hasDomainId;
-@property(readonly, nonatomic) _Bool hasPersonaId;
-@property(readonly, nonatomic) _Bool hasPublication;
-@property(readonly, nonatomic) _Bool hasSummary;
-@property(readonly, nonatomic) _Bool hasTitle;
 @property(readonly, nonatomic) _Bool hasUniqueId;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) NSString *publication; // @synthesize publication=_publication;
-@property(retain, nonatomic) NSString *summary; // @synthesize summary=_summary;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

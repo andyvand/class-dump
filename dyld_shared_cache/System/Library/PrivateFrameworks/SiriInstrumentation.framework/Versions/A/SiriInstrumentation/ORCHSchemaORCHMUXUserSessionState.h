@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHMUXUserSessionState : SISchemaInstrumentationMessage
 {
     int _state;
-    int _accessLevel;
-    _Bool _isEndOfRequest;
-    struct {
-        unsigned int state:1;
-        unsigned int accessLevel:1;
-        unsigned int isEndOfRequest:1;
-    } _has;
 }
 
 - (void);
@@ -33,7 +24,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)c;
 - (void);
 - (_Bool);
 - (void);
@@ -43,16 +34,10 @@
 - (id);
 - (int)ùÞ°1Â0@ù
 × ;
-- (id)serEndTimeInNs;
+- (id)_commandParserEndTimeInNs;
 - (id)PrescribedPlanRequestContext",&,N,V_pgPrescribedPlanRequestContext;
 
 // Remaining properties
-@property(nonatomic) int accessLevel; // @synthesize accessLevel=_accessLevel;
-@property(nonatomic) _Bool hasAccessLevel;
-@property(nonatomic) _Bool hasIsEndOfRequest;
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool isEndOfRequest; // @synthesize isEndOfRequest=_isEndOfRequest;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int state; // @synthesize state=_state;
 
 @end

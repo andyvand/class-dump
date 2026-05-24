@@ -7,7 +7,7 @@
 #import <KnowledgeGraphKit/KGGraph.h>
 
 @class NSObject;
-@protocol KGMutableGraphImplementation, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface KGMutableGraph : KGGraph
 {
@@ -22,10 +22,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void){public}s';
 
 // Remaining properties
-@property(readonly, nonatomic) id <KGMutableGraphImplementation> mutableImplementation;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *transactionQueue; // @synthesize transactionQueue=_transactionQueue;
 
 @end

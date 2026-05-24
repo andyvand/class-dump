@@ -11,8 +11,6 @@
 @interface REMListSectionsDataViewInvocationResult : REMStoreInvocationResult
 {
     NSArray *_accountStorages;
-    NSArray *_listStorages;
-    NSArray *_listSectionStorages;
 }
 
 + (_Bool);
@@ -30,8 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *accountStorages; // @synthesize accountStorages=_accountStorages;
-@property(readonly, nonatomic) NSArray *listSectionStorages; // @synthesize listSectionStorages=_listSectionStorages;
-@property(readonly, nonatomic) NSArray *listStorages; // @synthesize listStorages=_listStorages;
 
 @end
 

@@ -7,6 +7,7 @@
 @class UIImage;
 
 @protocol TSSharedImageCacheType
+- (void);
 - (UIImage *)ðBöþ;
 @end
 

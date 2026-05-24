@@ -12,16 +12,15 @@ __attribute__((visibility("hidden")))
 @interface NSTableDeleteScanLineView : NSView
 {
     NSBackgroundColorView *_topLineView;
-    NSBackgroundColorView *_bottomLineView;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)@;
 - (void);
-- (void);
-- (id)tsWithOptions:(struct CGRect)arg1 animated: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)removeAllSymbolEffectsWithOptions:(struct CGRect)arg1 animated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) NSColor *deleteLineColor; // @dynamic deleteLineColor;

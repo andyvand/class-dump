@@ -9,10 +9,9 @@
 @interface CPLEngineComponentEnumerator
 {
     NSEnumerator *_enumerator;
-    CDUnknownBlockType _handler;
 }
 
-- (id);
+- (id)#;
 - (void);
 - (void)¡Â°!ìAùð1Â0@ù
 × ;

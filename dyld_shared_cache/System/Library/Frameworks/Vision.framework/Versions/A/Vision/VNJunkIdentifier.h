@@ -10,16 +10,15 @@ __attribute__((visibility("hidden")))
 @interface VNJunkIdentifier : VNDetector
 {
     shared_ptr_b26ea6de mJunkDescriptorImpl;
-    shared_ptr_047f28ed mJunkClassifierImpl;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)accountCanCreateSNaP;
++ (id)canIgnoreError: /* Error: Ran out of types for this method. */;
 + (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)A;
 - (id);
 - (void)ute bit string to polygon list with error:%@ /* Error: Ran out of types for this method. */;
 

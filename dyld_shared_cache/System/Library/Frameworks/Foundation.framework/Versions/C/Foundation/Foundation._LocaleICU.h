@@ -7,10 +7,6 @@
 @interface Foundation._LocaleICU
 {
     id identifier;
-    id identifierCapturingPreferences;
-    id calendarIdentifier;
-    id prefs;
-    id lock;
 }
 
 @end

@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDecimalNumber, NSNumber, NSSet, NSString;
-
 @interface PKTransitAppletHistory
 {
     _Bool _blacklisted;
-    long long _source;
-    NSString *_serviceProvider;
-    NSNumber *_serverRefreshIdentifier;
-    NSString *_currency;
-    NSDecimalNumber *_balance;
-    NSNumber *_loyaltyBalance;
-    NSDate *_expirationDate;
-    NSArray *_balances;
-    NSArray *_commutePlans;
-    NSArray *_historyRecords;
-    NSArray *_inStationDetails;
-    NSSet *_enrouteTransitTypes;
 }
 
 + (_Bool);
@@ -29,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (void);
@@ -37,42 +23,30 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)
+kB;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id)f;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)appleDeviceDisconnectCount;
 - (void);
 - (long long);
 - (id);
-- (void)P;
+- (void)_makeDefaultInAMP;
 - (void)ickets!;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *balance; // @synthesize balance=_balance;
-@property(copy, nonatomic) NSArray *balances; // @synthesize balances=_balances;
-@property(nonatomic, getter=isBlacklisted) _Bool blacklisted; // @synthesize blacklisted=_blacklisted;
-@property(readonly, copy, nonatomic) NSArray *commutePlans; // @synthesize commutePlans=_commutePlans;
-@property(copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(copy, nonatomic) NSSet *enrouteTransitTypes; // @synthesize enrouteTransitTypes=_enrouteTransitTypes;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(copy, nonatomic) NSArray *historyRecords; // @synthesize historyRecords=_historyRecords;
-@property(readonly, nonatomic, getter=isInStation) _Bool inStation; // @dynamic inStation;
-@property(copy, nonatomic) NSArray *inStationDetails; // @synthesize inStationDetails=_inStationDetails;
-@property(copy, nonatomic) NSNumber *loyaltyBalance; // @synthesize loyaltyBalance=_loyaltyBalance;
-@property(copy, nonatomic) NSNumber *serverRefreshIdentifier; // @synthesize serverRefreshIdentifier=_serverRefreshIdentifier;
-@property(copy, nonatomic) NSString *serviceProvider; // @synthesize serviceProvider=_serviceProvider;
 @property(nonatomic) long long source; // @synthesize source=_source;
 
 @end

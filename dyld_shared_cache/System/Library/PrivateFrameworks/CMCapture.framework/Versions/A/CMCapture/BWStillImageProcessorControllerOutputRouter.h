@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWStillImageProcessorControllerOutputRouter
 {
     CDUnknownBlockType _outputSampleBufferRouter;
-    NSString *_name;
-    NSMutableArray *_bypassedProcessorTypes;
 }
 
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)EBFont;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bypassedProcessorsTypes;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) CDUnknownBlockType outputSampleBufferRouter; // @synthesize outputSampleBufferRouter=_outputSampleBufferRouter;
 
 @end

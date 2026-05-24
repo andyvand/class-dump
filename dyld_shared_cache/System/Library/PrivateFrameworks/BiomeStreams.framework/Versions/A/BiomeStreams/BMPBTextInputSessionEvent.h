@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBTextInputSessionEvent
 {
     double _duration;
-    double _timestamp;
-    NSString *_bundleID;
-    NSString *_sessionID;
-    int _sessionType;
-    struct {
-        unsigned int duration:1;
-        unsigned int timestamp:1;
-        unsigned int sessionType:1;
-    } _has;
 }
 
 - (id);
@@ -35,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)OR location.hidden == nil) AND (location.mapItemIdentifier != nil);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -45,23 +34,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)I;
 - (void)8éÿÿ÷ðÿàT×ÿ°};
 - (void)@;
 - (void)ÒÓ;
 - (int)×ØÿÿÿÿÿÿÿÿÿÿÞÿÿàáâÿÿÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) _Bool hasBundleID;
 @property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasSessionID;
-@property(nonatomic) _Bool hasSessionType;
-@property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(nonatomic) int sessionType; // @synthesize sessionType=_sessionType;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

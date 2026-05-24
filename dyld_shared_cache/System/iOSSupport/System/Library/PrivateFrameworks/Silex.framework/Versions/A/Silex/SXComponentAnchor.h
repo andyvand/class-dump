@@ -9,9 +9,6 @@
 @interface SXComponentAnchor
 {
     NSString *_targetComponentIdentifier;
-    long long _targetAnchorPosition;
-    long long _originAnchorPosition;
-    struct _NSRange _range;
 }
 
 - (id);
@@ -26,17 +23,7 @@
 - (void)6;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long originAnchorPosition; // @synthesize originAnchorPosition=_originAnchorPosition;
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(readonly) Class superclass;
 @property(nonatomic) long long targetAnchorPosition; // @synthesize targetAnchorPosition=_targetAnchorPosition;
-@property(readonly, nonatomic) NSString *targetComponentIdentifier; // @synthesize targetComponentIdentifier=_targetComponentIdentifier;
 
 @end
 

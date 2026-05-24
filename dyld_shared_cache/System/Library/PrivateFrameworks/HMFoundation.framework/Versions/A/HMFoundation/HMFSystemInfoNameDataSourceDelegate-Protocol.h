@@ -5,5 +5,6 @@
 //
 
 @protocol HMFSystemInfoNameDataSourceDelegate
+- (void)t.;
 @end
 

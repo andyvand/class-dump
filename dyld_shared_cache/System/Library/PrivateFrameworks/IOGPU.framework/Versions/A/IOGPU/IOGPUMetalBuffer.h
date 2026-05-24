@@ -6,42 +6,31 @@
 
 #import <IOGPU/IOGPUMetalResource.h>
 
-@protocol MTLBuffer;
-
 @interface IOGPUMetalBuffer : IOGPUMetalResource
 {
     void *_pointer;
-    CDUnknownBlockType _deallocator;
-    IOGPUMetalBuffer *_primaryBuffer;
-    short _primaryHeapIndex;
-    short _primaryBufferIndex;
-    unsigned long long _primaryBufferOffset;
-    unsigned long long _length;
-    struct __IOSurface *_iosurface;
-    struct __IOSurface *_aneIOSurface;
-    long long _placementSparsePageSize;
 }
 
-- (void);
+- (void)P;
 - (id);
-- (struct __CFArray *);
+- (struct __CFArray *)setIcon: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (id)~(;
+- (id);
+- (id)setUpRefreshTimerWithTriggerDate:(id)arg1 eventExternalURL: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (struct __IOSurface *);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)eRelationships;
 - (id);
 - (id);
 - (struct __IOSurface *);
@@ -60,13 +49,7 @@
 - (long long);
 
 // Remaining properties
-@property(readonly) struct __IOSurface *_aneIOSurface;
-@property(readonly) unsigned long long allocatedSize;
-@property(readonly, nonatomic) void *contents;
-@property(readonly) struct __IOSurface *iosurface; // @synthesize iosurface=_iosurface;
 @property(readonly) unsigned long long length;
-@property(readonly) long long placementSparsePageSize; // @synthesize placementSparsePageSize=_placementSparsePageSize;
-@property(readonly) id <MTLBuffer> remoteStorageBuffer;
 
 @end
 

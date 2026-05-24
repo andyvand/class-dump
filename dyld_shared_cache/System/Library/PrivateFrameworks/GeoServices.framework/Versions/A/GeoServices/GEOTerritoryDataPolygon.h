@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOTerritoryDataPolygon
 {
     PBDataReader *_reader;
-    CDStruct_9f2792e4 _shells;
-    NSMutableArray *_holes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_shells:1;
-        unsigned int read_holes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
@@ -31,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id)tes"b1"has_count"b1"has_requestorType"b1"has_tileSourceType"b1};
-- (id)uest;
-- (id)acheToSizeRequest;
+- (id)hasPlaceSearchRequest;
+- (id)GEOMAResourcePurgeCacheToSizeRequest;
 - (void)ñgx³/Q@;
 
 @end

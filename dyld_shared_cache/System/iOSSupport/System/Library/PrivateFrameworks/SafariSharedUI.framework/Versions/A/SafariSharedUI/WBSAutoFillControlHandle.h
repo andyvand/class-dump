@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _WKFrameHandle;
+@class _WKFrameHandle;
 
 @interface WBSAutoFillControlHandle
 {
     _WKFrameHandle *frameHandle;
-    long long formID;
-    void controlID;
 }
 
 + (void);
@@ -22,13 +20,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void)kers:preventedTrackers: /* Error: Ran out of types for this method. */;
+- (id)nse, or cancellation.;
+- (void)initWithDomain:blockedTrackers:preventedTrackers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *controlID;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long formID; // @synthesize formID;
 @property(nonatomic, readonly) _WKFrameHandle *frameHandle; // @synthesize frameHandle;
 
 @end

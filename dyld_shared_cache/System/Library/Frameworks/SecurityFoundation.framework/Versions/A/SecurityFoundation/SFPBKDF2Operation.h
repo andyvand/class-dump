@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
 @protocol SFPseudoRandomFunction;
 
 __attribute__((visibility("hidden")))
@@ -19,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)( ;
 - (id);
-- (id);
-- (id);
+- (id)( ;
+- (id)ATTR_kMDItemEventFlightConfirmationNumber;
 - (id);
 - (void);
 - (id);
@@ -31,16 +30,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long iterationCount;
 @property(copy, nonatomic) id <SFPseudoRandomFunction> pseudoRandomFunction;
-@property(copy, nonatomic) NSData *salt;
-@property(readonly) Class superclass;
 
 @end
 

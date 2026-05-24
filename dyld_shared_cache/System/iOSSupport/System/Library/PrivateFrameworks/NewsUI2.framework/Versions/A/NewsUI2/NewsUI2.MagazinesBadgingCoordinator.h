@@ -7,10 +7,6 @@
 @interface NewsUI2.MagazinesBadgingCoordinator
 {
     id delegate;
-    id tabBarItemViewController;
-    id store;
-    id issueReadingHistory;
-    id bundleSubscriptionManager;
 }
 
 - (id);

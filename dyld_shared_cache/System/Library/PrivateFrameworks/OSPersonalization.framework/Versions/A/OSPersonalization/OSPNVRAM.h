@@ -12,15 +12,15 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned int);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned char);
 - (unsigned char);
 - (_Bool);
-- (unsigned int);
-- (id);
+- (unsigned int)oftlink:(id)arg1 o:path:/System/Library/Frameworks/CoreML.framework/CoreML /* Error: Ran out of types for this method. */;
+- (id)ionality;
 - (_Bool);
 - (_Bool);
 - (_Bool);

@@ -6,28 +6,25 @@
 
 #import <NewsCore/FCPersonalizationFeature.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FCPublisherTopicFeature : FCPersonalizationFeature
 {
     NSString *_publisherTagID;
-    NSString *_topicTagID;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void)Recipes;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *features;
 @property(retain, nonatomic) NSString *publisherTagID; // @synthesize publisherTagID=_publisherTagID;
-@property(retain, nonatomic) NSString *topicTagID; // @synthesize topicTagID=_topicTagID;
 
 @end
 

@@ -6,22 +6,20 @@
 
 #import <UIKitCore/UIToolbarButton.h>
 
-@class NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface UIToolbarTextButton : UIToolbarButton
 {
     NSString *_title;
-    NSString *_pressedTitle;
-    NSSet *_possibleTitles;
 }
 
 - (id);
-- (void);
+- (void)ts as dirty;
 - (void);
 - (struct CGSize);
 - (void);
-- (void)ingViewControllerSetBoldChange;
+- (void)UITextFormattingViewControllerSetBoldChange;
 - (void)IFocusItemContainerGatherAllExtantChildFocusableItemsInRect(id<UIFocusEnvironment>  _Nonnull __strong, id<UIFocusItemContainer>  _Nonnull __strong, CGRect);
 - (struct UIEdgeInsets)ÚÁb;
 

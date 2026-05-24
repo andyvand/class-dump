@@ -4,77 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBContact, _INPBCurrencyAmountValue, _INPBDataString, _INPBDateTime, _INPBFile, _INPBInteger, _INPBLocation, _INPBMessage, _INPBMessageLinkMetadata, _INPBMessageReaction, _INPBSticker;
+@class NSArray, NSString, _INPBContact, _INPBInteger;
 
 @protocol _INPBMessage
++ (Class);
++ (Class);
+- (void);
+- (_INPBInteger *);
+- (_Bool)!;
+- (void)ory:(NSString *)arg1 expectedValue:withHandler: /* Error: Ran out of types for this method. */;
+- (void)widgetRefreshScheduler;
+- (int)u;
+- (NSString *)>28;
+- (void)	?֟^;
+- (int)ppleInternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.8/crypto/ec/ec_lib.c;
+- (void);
+- (unsigned long long)`;
+- (void);
+- (_INPBContact *)B;
+- (_Bool);
 - (void)ù
 × ;
 - (_Bool)Â0@ù
 × ;
-- (NSString *)orListRideOptions:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (NSString *)nableHeating:enableCooling:enableMassage:seat:level:relativeLevelSetting:carName: /* Error: Ran out of types for this method. */;
-- (void)arPayloadDataStrings;
-- (NSArray *)issingSiriIDsForOptimalDiffFromPreviousDocument: /* Error: Ran out of types for this method. */;
-- (_Bool)eCodableDescriptionKey;
+- (NSString *)resolveDropOffLocationForListRideOptions:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (NSString *)initWithEnableHeating:enableCooling:enableMassage:seat:level:relativeLevelSetting:carName: /* Error: Ran out of types for this method. */;
+- (void)clearPayloadDataStrings;
+- (NSArray *)assignMissingSiriIDsForOptimalDiffFromPreviousDocument: /* Error: Ran out of types for this method. */;
+- (_Bool)__INIntentResponseCodableDescriptionKey;
 - (void)"NSString",C,V_bookingDescription;
-- (int)eProvider;
-- (NSString *);
-- (_Bool)oothIsOff;
-- (void);
+- (int)INDailyRoutineRelevanceProvider;
+- (_Bool)bluetoothIsOff;
 - (void)ÒéO;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *attachmentFiles;
-@property(readonly, nonatomic) unsigned long long attachmentFilesCount;
-@property(readonly, nonatomic) int *attributes;
-@property(readonly, nonatomic) unsigned long long attributesCount;
-@property(retain, nonatomic) _INPBFile *audioMessageFile;
-@property(copy, nonatomic) NSString *content;
-@property(copy, nonatomic) NSString *conversationIdentifier;
-@property(retain, nonatomic) _INPBDateTime *dateLastMessageRead;
-@property(retain, nonatomic) _INPBDateTime *dateSent;
-@property(nonatomic) int effect;
-@property(copy, nonatomic) NSString *fileExtension;
-@property(copy, nonatomic) NSString *groupName;
-@property(readonly, nonatomic) _Bool hasAudioMessageFile;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasConversationIdentifier;
-@property(readonly, nonatomic) _Bool hasDateLastMessageRead;
-@property(readonly, nonatomic) _Bool hasDateSent;
-@property(nonatomic) _Bool hasEffect;
-@property(readonly, nonatomic) _Bool hasFileExtension;
-@property(readonly, nonatomic) _Bool hasGroupName;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasLinkMetadata;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) _Bool hasLocationName;
-@property(readonly, nonatomic) _Bool hasNumberOfAttachments;
-@property(readonly, nonatomic) _Bool hasPaymentAmount;
-@property(readonly, nonatomic) _Bool hasReaction;
-@property(readonly, nonatomic) _Bool hasReferencedMessage;
-@property(readonly, nonatomic) _Bool hasSender;
-@property(readonly, nonatomic) _Bool hasServiceName;
-@property(readonly, nonatomic) _Bool hasSpeakableGroupName;
-@property(readonly, nonatomic) _Bool hasSticker;
-@property(readonly, nonatomic) _Bool hasTranslatedToLanguage;
-@property(nonatomic) _Bool hasType;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSArray *inlineGlyphContents;
-@property(readonly, nonatomic) unsigned long long inlineGlyphContentsCount;
-@property(retain, nonatomic) _INPBMessageLinkMetadata *linkMetadata;
-@property(retain, nonatomic) _INPBLocation *location;
-@property(copy, nonatomic) NSString *locationName;
-@property(retain, nonatomic) _INPBInteger *numberOfAttachments;
-@property(retain, nonatomic) _INPBCurrencyAmountValue *paymentAmount;
-@property(retain, nonatomic) _INPBMessageReaction *reaction;
-@property(copy, nonatomic) NSArray *recipients;
-@property(readonly, nonatomic) unsigned long long recipientsCount;
-@property(retain, nonatomic) _INPBMessage *referencedMessage;
-@property(retain, nonatomic) _INPBContact *sender;
-@property(copy, nonatomic) NSString *serviceName;
-@property(retain, nonatomic) _INPBDataString *speakableGroupName;
-@property(retain, nonatomic) _INPBSticker *sticker;
-@property(copy, nonatomic) NSString *translatedToLanguage;
-@property(nonatomic) int type;
 @end
 

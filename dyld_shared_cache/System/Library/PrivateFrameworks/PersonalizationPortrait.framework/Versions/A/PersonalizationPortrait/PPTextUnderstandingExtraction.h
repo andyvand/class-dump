@@ -9,16 +9,14 @@
 @interface PPTextUnderstandingExtraction
 {
     NSArray *_namedEntities;
-    NSArray *_topics;
-    unsigned long long _topicAlgorithm;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)defaultLocalizedNameForInkingToolWithIdentifier:(id)arg1;
 - (id);
 - (void);
 - (unsigned long long);
@@ -26,14 +24,12 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)CMRequirement - ACMRequirementDataKeyRef;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *namedEntities; // @synthesize namedEntities=_namedEntities;
-@property(nonatomic) unsigned long long topicAlgorithm; // @synthesize topicAlgorithm=_topicAlgorithm;
-@property(retain, nonatomic) NSArray *topics; // @synthesize topics=_topics;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface CLCircularGeographicCondition : CLCondition
 {
     double _radius;
-    struct CLLocationCoordinate2D _center;
 }
 
 + (_Bool);
@@ -18,14 +17,13 @@
 - (id);
 - (unsigned long long);
 - (struct CLLocationCoordinate2D);
-- (_Bool);
-- (void);
-- (id);
-- (double);
+- (_Bool)*;
+- (void)<;
+- (id)presentDrawable:(struct _NSZone *)arg1 afterMinimumDuration: /* Error: Ran out of types for this method. */;
+- (double)KERNEL_INDEX_ENCODE_MTL_BBOX_BVH_LEAF_NODE;
 
 // Remaining properties
 @property(readonly) struct CLLocationCoordinate2D center; // @synthesize center=_center;
-@property(readonly) double radius; // @synthesize radius=_radius;
 
 @end
 

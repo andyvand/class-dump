@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol NSServicesRequestor, _NSQuickActionItemSource;
+@protocol _NSQuickActionItemSource;
 
 __attribute__((visibility("hidden")))
 @interface _NSExtensionQuickActionInvocationRequestor
 {
     id <_NSQuickActionItemSource> _itemSource;
-    id <NSServicesRequestor> _servicesRequestor;
-    NSArray *_items;
-    _Bool _allowsEditors;
 }
 
-- (id);
+- (id)BBInfoAvailable;
 - (id);
 - (id);
 - (_Bool);
@@ -25,10 +21,7 @@ __attribute__((visibility("hidden")))
 - (void)ntSpecs, blockGetter, &eventHandlerRef);
 
 // Remaining properties
-@property(readonly) _Bool allowsEditors; // @synthesize allowsEditors=_allowsEditors;
 @property(readonly) id <_NSQuickActionItemSource> itemSource; // @synthesize itemSource=_itemSource;
-@property(readonly, copy) NSArray *items; // @synthesize items=_items;
-@property(readonly) id <NSServicesRequestor> servicesRequestor; // @synthesize servicesRequestor=_servicesRequestor;
 
 @end
 

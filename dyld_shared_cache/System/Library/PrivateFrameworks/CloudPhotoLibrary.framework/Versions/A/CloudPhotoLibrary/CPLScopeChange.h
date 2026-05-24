@@ -6,21 +6,9 @@
 
 #import <CloudPhotoLibrary/CPLRecordChange.h>
 
-@class CPLAccountFlags, CPLEngineScope, CPLLibraryInfo, CPLLibraryState, CPLScopedIdentifier, CPLShare, NSDate, NSString;
-
 @interface CPLScopeChange : CPLRecordChange
 {
     _Bool _containerHasBeenWiped;
-    _Bool _activated;
-    long long _scopeType;
-    long long _busyState;
-    CPLShare *_share;
-    NSString *_title;
-    CPLLibraryState *_libraryState;
-    CPLLibraryInfo *_libraryInfo;
-    NSString *_stagingScopeIdentifier;
-    unsigned long long _pullTaskItem;
-    CPLEngineScope *_scope;
 }
 
 + (_Bool);
@@ -35,16 +23,16 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
++ (id)ver happen and is always a bug!;
++ (id)zation] [Mail] For ID:(id)arg1 %@, subject:(long long)arg2 %@, found meCard email:%@ match in additionalRecipients /* Error: Ran out of types for this method. */;
++ (id)today(-1M),$time.today);
 + (_Bool);
-- (void);
-- (void);
+- (void)matching_CNContact_home;
+- (void)king-matching_CNContact_document;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -56,20 +44,20 @@
 - (id);
 - (id);
 - (long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)_֜;
 - (id);
 - (void);
+- (void);
+- (id)PG;
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (id);
-- (id);
+- (id)5;
 - (_Bool);
 - (void);
 - (id);
@@ -85,24 +73,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) CPLAccountFlags *accountFlags;
-@property(nonatomic, getter=isActivated) _Bool activated; // @synthesize activated=_activated;
-@property(nonatomic) long long busyState; // @synthesize busyState=_busyState;
-@property(readonly, nonatomic) _Bool containerHasBeenWiped; // @synthesize containerHasBeenWiped=_containerHasBeenWiped;
-@property(readonly, nonatomic) NSDate *deleteDate;
-@property(readonly, nonatomic, getter=isDisabled) _Bool disabled;
-@property(readonly, nonatomic) NSDate *disabledDate;
-@property(copy, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(retain, nonatomic) CPLLibraryInfo *libraryInfo; // @synthesize libraryInfo=_libraryInfo;
-@property(retain, nonatomic) CPLLibraryState *libraryState; // @synthesize libraryState=_libraryState;
-@property(nonatomic) unsigned long long pullTaskItem; // @synthesize pullTaskItem=_pullTaskItem;
-@property(copy, nonatomic) NSDate *recordModificationDate; // @dynamic recordModificationDate;
-@property(retain, nonatomic) CPLEngineScope *scope; // @synthesize scope=_scope;
 @property(nonatomic) long long scopeType; // @synthesize scopeType=_scopeType;
-@property(copy, nonatomic) CPLScopedIdentifier *scopedIdentifier; // @dynamic scopedIdentifier;
-@property(retain, nonatomic) CPLShare *share; // @synthesize share=_share;
-@property(copy, nonatomic) NSString *stagingScopeIdentifier; // @synthesize stagingScopeIdentifier=_stagingScopeIdentifier;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

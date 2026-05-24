@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet;
+@class NSArray, NSIndexSet, NSUUID;
 
 @protocol MSPContainerEditAddition
+- (NSIndexSet *)l;
+- (NSUUID *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *addedImmutableObjects;
-@property(readonly, nonatomic) NSIndexSet *indexesOfAddedObjects;
 @end
 

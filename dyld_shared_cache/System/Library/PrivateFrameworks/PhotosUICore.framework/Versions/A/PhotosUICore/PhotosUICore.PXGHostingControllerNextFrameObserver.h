@@ -11,7 +11,7 @@
     id afterNextFrame;
 }
 
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol GEOTransitArtworkDataSource;
 
 @protocol GEOTransitSystem
+- (id <GEOTransitArtworkDataSource>);
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artwork;
 @property(readonly, nonatomic) unsigned long long muid;
-@property(readonly, nonatomic) NSString *name;
 @end
 

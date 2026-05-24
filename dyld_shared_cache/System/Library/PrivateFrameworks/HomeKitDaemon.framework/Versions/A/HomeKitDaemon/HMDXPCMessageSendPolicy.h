@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id)ueryCompleteForAccessory:(struct _NSZone *)arg1 nonceSeed:error: /* Error: Ran out of types for this method. */;
+- (id)queryCompleteForAccessory:(struct _NSZone *)arg1 nonceSeed:error: /* Error: Ran out of types for this method. */;
 
 @end
 

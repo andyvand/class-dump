@@ -9,17 +9,16 @@
 @interface ICChecklistsFilterTypeSelection : ICFilterTypeSelection
 {
     unsigned long long _hash;
-    unsigned long long _selectionType;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)r;
 - (long long);
 
 // Remaining properties

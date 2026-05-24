@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)hb;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -29,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)for state with required bytes per row.;
 
 @end
 

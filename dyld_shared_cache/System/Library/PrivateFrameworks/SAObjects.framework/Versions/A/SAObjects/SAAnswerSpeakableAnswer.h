@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface SAAnswerSpeakableAnswer : AceObject
 {
@@ -16,21 +16,13 @@
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)D;
 - (id);
 - (void);
-- (id);
+- (id)e;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSDictionary *parameters;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *templateName;
 
 @end
 

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     NSString *_sceneIdentityString;
 }
 
-+ (id)eshold;
++ (id)projectionThreshold;
 - (id);
-- (id);
+- (id)F;
 - (id);
 - (void)ctedTextSearchDocument"b1"compareOrderFromDocument"b1"compareFoundRangeToRange"b1};
-- (_Bool)ExitProcessWithStatus:(id)arg1;
+- (_Bool)uiKitWantsToExitProcessWithStatus:(id)arg1;
 - (void);
 
 // Remaining properties

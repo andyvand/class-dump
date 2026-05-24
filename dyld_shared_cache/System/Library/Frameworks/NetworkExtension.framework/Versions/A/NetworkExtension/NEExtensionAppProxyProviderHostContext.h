@@ -6,27 +6,19 @@
 
 #import <NetworkExtension/NEExtensionTunnelProviderHostContext.h>
 
-@class NSString;
-
 @interface NEExtensionAppProxyProviderHostContext : NEExtensionTunnelProviderHostContext
 {
 }
 
 + (id);
-+ (id);
++ (id)C"rssiValues"[3c]"rssiIndex"C"rssiCount"C"rssiMedian"c}];
 - (void);
 - (void);
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

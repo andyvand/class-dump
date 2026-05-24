@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDecimalNumber, NSString, PKPaymentApplication, PKPaymentMerchantSession;
+@class PKPaymentApplication;
 
 @interface PKInAppPaymentSessionAuthorizationRequest
 {
     PKPaymentApplication *_paymentApplication;
-    NSString *_currencyCode;
-    NSString *_countryCode;
-    NSDecimalNumber *_transactionAmount;
-    unsigned long long _merchantCapabilities;
-    NSArray *_supportedNetworks;
-    NSString *_merchantIdentifier;
-    NSData *_applicationData;
-    PKPaymentMerchantSession *_merchantSession;
 }
 
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)C;
 - (void);
 - (void);
 - (void);
@@ -34,21 +26,13 @@
 - (id);
 - (void);
 - (id);
-- (id)nWithCompletion: /* Error: Ran out of types for this method. */;
-- (id)ex: /* Error: Ran out of types for this method. */;
+- (id)startInAppSessionWithCompletion: /* Error: Ran out of types for this method. */;
+- (id)selectIndex: /* Error: Ran out of types for this method. */;
 - (void)";
 - (void)s:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *applicationData; // @synthesize applicationData=_applicationData;
-@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(nonatomic) unsigned long long merchantCapabilities; // @synthesize merchantCapabilities=_merchantCapabilities;
-@property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
-@property(retain, nonatomic) PKPaymentMerchantSession *merchantSession; // @synthesize merchantSession=_merchantSession;
 @property(retain, nonatomic) PKPaymentApplication *paymentApplication; // @synthesize paymentApplication=_paymentApplication;
-@property(copy, nonatomic) NSArray *supportedNetworks; // @synthesize supportedNetworks=_supportedNetworks;
-@property(retain, nonatomic) NSDecimalNumber *transactionAmount; // @synthesize transactionAmount=_transactionAmount;
 
 @end
 

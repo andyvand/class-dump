@@ -7,13 +7,10 @@
 @class NSString;
 
 @protocol MPCQueueControllerItemIdentifierComponents
+- (NSString *);
 - (_Bool)Àô\h]p¨X;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short behaviorFlags;
 @property(readonly, copy, nonatomic) NSString *contentItemID;
-@property(readonly, nonatomic) _Bool isPlaceholder;
-@property(readonly, copy, nonatomic) NSString *itemID;
-@property(readonly, copy, nonatomic) NSString *sectionID;
 @end
 

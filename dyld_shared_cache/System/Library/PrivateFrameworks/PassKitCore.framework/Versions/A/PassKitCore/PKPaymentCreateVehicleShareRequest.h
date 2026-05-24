@@ -6,19 +6,17 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPaymentCreateVehicleShareRequest : PKPaymentWebServiceRequest
 {
     NSString *_subcredentialIdentifier;
-    unsigned long long _shareValidationType;
-    NSArray *_remoteShareValidationContainers;
 }
 
+- (id)5V);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)graduation;
 
 @end
 

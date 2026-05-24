@@ -11,7 +11,7 @@
     VNSequenceRequestHandler *_sequenceRequestHandler;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 

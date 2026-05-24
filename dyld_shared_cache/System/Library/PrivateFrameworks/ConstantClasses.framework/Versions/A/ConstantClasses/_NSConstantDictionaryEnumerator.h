@@ -7,12 +7,10 @@
 @interface _NSConstantDictionaryEnumerator
 {
     id *currentKey;
-    unsigned long long capacity;
-    unsigned long long keyIndex;
 }
 
 - (id);
-- (id);
+- (id)ng color format being set to REM:%@, rawValue:%@, remValue:%@, calendar:%@. /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

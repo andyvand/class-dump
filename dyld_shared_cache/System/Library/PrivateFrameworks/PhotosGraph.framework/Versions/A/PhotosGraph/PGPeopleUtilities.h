@@ -8,12 +8,12 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)removeAttributesFromAttributedString:(id)arg1 forRangesMatchingPattern:(id)arg2;
++ (id)removeAttribute:(id)arg1 range:(id)arg2;
++ (id)registerMouseEventListener:(id)arg1 listenOnly:(id)arg2;
 + (unsigned short);
 + (id);
-+ (_Bool);
++ (_Bool)w;
 
 @end
 

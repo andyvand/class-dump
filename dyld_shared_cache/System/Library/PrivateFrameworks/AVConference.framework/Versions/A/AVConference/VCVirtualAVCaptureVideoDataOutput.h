@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, VCWeakObjectHolder;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface VCVirtualAVCaptureVideoDataOutput
 {
     NSMutableArray *_connections;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    VCWeakObjectHolder *_weakPushDelegate;
-    struct os_unfair_lock_s _stateLock;
 }
 
 - (void);

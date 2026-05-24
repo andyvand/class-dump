@@ -9,7 +9,6 @@
 @interface AKNoteMarginScrollView
 {
     NSTrackingArea *_tskTrackingArea;
-    _Bool _wantsOnlyOverlayScrollers;
 }
 
 - (_Bool);
@@ -17,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

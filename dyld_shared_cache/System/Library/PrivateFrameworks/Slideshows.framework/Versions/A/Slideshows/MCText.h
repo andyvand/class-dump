@@ -6,13 +6,11 @@
 
 #import <Slideshows/MCObject.h>
 
-@class MCContainerEffect, NSArray, NSAttributedString;
+@class MCContainerEffect;
 
 @interface MCText : MCObject
 {
     unsigned long long mIndex;
-    MCContainerEffect *mContainer;
-    NSArray *mStringAttributes;
 }
 
 - (id);
@@ -56,10 +54,7 @@
 - (void)±óÿáR;Ü;
 
 // Remaining properties
-@property(copy) NSAttributedString *attributedString;
 @property MCContainerEffect *container; // @synthesize container=mContainer;
-@property(nonatomic) unsigned long long index; // @synthesize index=mIndex;
-@property(retain) NSArray *stringAttributes; // @synthesize stringAttributes=mStringAttributes;
 
 @end
 

@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBScoringCohort
 {
     double _clicks;
-    double _impressions;
-    double _rawClicks;
-    NSString *_identifier;
-    struct {
-        unsigned int clicks:1;
-        unsigned int impressions:1;
-        unsigned int rawClicks:1;
-    } _has;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long)uldPreroll;
+- (_Bool)appdownload;
+- (_Bool)shadowMySportsGroupTopicsConfig;
 - (_Bool);
 - (void);
 - (void);
@@ -41,18 +31,11 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (double)ClickValue: /* Error: Ran out of types for this method. */;
+- (void)X4;
+- (double)setHasSubscriptionRelatedClickValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double clicks; // @synthesize clicks=_clicks;
-@property(nonatomic) _Bool hasClicks;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasImpressions;
-@property(nonatomic) _Bool hasRawClicks;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) double impressions; // @synthesize impressions=_impressions;
-@property(nonatomic) double rawClicks; // @synthesize rawClicks=_rawClicks;
 
 @end
 

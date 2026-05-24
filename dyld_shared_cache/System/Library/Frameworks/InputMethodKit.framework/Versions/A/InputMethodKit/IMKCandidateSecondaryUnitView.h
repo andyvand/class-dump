@@ -10,9 +10,9 @@
 {
 }
 
-- (id);
+- (id)6;
 - (_Bool);
-- (void);
+- (void)tion:] /* Error: Ran out of types for this method. */;
 
 @end
 

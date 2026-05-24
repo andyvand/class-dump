@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_os_log;
+@class NSArray;
 
 @protocol CNCDContactFetcherPredicateEvaluationContext
 
 // Remaining properties
 @property(readonly) NSArray *allContainers;
-@property(readonly) NSArray *exchangeAccountContainers;
-@property(readonly) NSObject<OS_os_log> *os_log;
 @end
 

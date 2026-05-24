@@ -8,20 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SACountedState
 {
     unsigned char _cpuNumOffByOne;
-    unsigned char _pageGrabFlags;
-    _Bool _pCore;
-    _Bool _mCore;
-    _Bool _eCore;
-    _Bool _running;
-    _Bool _runnable;
-    _Bool _suspended;
-    unsigned short _vmFaultType;
-    unsigned short _vmFaultFlags;
-    unsigned short _pageGrabVMTag;
-    unsigned short _cpuSpeedMhz;
-    unsigned long long _vmFaultIntervalPages;
-    unsigned long long _pageGrabIntervalPages;
-    unsigned long long _pmiCycleInterval;
 }
 
 - (void);
@@ -31,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)X;
 - (unsigned long long);
 - (void);
 - (unsigned short);
@@ -42,32 +28,17 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (unsigned short);
-- (_Bool);
+- (_Bool)T) [T = long];
 - (unsigned short);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (long long);
-- (id);
+- (id)c;
 - (_Bool);
 
 // Remaining properties
-@property(readonly) unsigned int cpuNum;
-@property(readonly) unsigned short cpuSpeedMhz; // @synthesize cpuSpeedMhz=_cpuSpeedMhz;
-@property(readonly) _Bool eCore; // @synthesize eCore=_eCore;
-@property(readonly) _Bool hasCPUNum;
-@property(readonly) _Bool mCore; // @synthesize mCore=_mCore;
-@property(readonly) _Bool pCore; // @synthesize pCore=_pCore;
-@property(readonly) unsigned char pageGrabFlags; // @synthesize pageGrabFlags=_pageGrabFlags;
-@property unsigned long long pageGrabIntervalPages; // @synthesize pageGrabIntervalPages=_pageGrabIntervalPages;
-@property(readonly) unsigned short pageGrabVMTag; // @synthesize pageGrabVMTag=_pageGrabVMTag;
-@property(readonly) unsigned long long pmiCycleInterval; // @synthesize pmiCycleInterval=_pmiCycleInterval;
-@property(readonly) _Bool runnable; // @synthesize runnable=_runnable;
-@property(readonly) _Bool running; // @synthesize running=_running;
-@property(readonly) _Bool suspended; // @synthesize suspended=_suspended;
-@property(readonly) unsigned short vmFaultFlags; // @synthesize vmFaultFlags=_vmFaultFlags;
 @property unsigned long long vmFaultIntervalPages; // @synthesize vmFaultIntervalPages=_vmFaultIntervalPages;
-@property(readonly) unsigned short vmFaultType; // @synthesize vmFaultType=_vmFaultType;
 
 @end
 

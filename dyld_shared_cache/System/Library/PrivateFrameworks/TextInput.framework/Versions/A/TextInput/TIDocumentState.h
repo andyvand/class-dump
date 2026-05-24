@@ -9,21 +9,10 @@
 @interface TIDocumentState
 {
     NSString *_contextBeforeInput;
-    NSString *_markedText;
-    NSString *_selectedText;
-    NSString *_contextAfterInput;
-    struct _NSRange _selectedRangeInMarkedText;
-    struct _NSRange _truncatedRangeInSelectedText;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *contextAfterInput; // @synthesize contextAfterInput=_contextAfterInput;
 @property(readonly, nonatomic) NSString *contextBeforeInput; // @synthesize contextBeforeInput=_contextBeforeInput;
-@property(readonly, nonatomic) NSString *markedText; // @synthesize markedText=_markedText;
-@property(readonly, nonatomic) struct _NSRange selectedRangeInMarkedText; // @synthesize selectedRangeInMarkedText=_selectedRangeInMarkedText;
-@property(readonly, nonatomic) NSString *selectedText; // @synthesize selectedText=_selectedText;
-@property(readonly, nonatomic) NSString *string;
-@property(readonly, nonatomic) struct _NSRange truncatedRangeInSelectedText; // @synthesize truncatedRangeInSelectedText=_truncatedRangeInSelectedText;
 @end
 

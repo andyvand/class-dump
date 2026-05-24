@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController;
+@class UIViewController;
 @protocol SKRemoteDismissingViewController;
 
 __attribute__((visibility("hidden")))
@@ -13,22 +13,15 @@ __attribute__((visibility("hidden")))
     UIViewController<SKRemoteDismissingViewController> *_viewController;
 }
 
-- (void);
+- (void)ces;
 - (id);
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)i;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak UIViewController<SKRemoteDismissingViewController> *viewController; // @synthesize viewController=_viewController;
 
 @end

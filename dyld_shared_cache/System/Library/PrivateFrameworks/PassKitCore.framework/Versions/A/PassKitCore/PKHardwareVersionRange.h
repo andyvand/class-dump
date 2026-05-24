@@ -9,11 +9,6 @@
 @interface PKHardwareVersionRange
 {
     PKDeviceVersionRange *_iphone;
-    PKDeviceVersionRange *_watch;
-    PKDeviceVersionRange *_ipad;
-    PKDeviceVersionRange *_ipod;
-    PKDeviceVersionRange *_appletv;
-    PKDeviceVersionRange *_vision;
 }
 
 + (_Bool);
@@ -21,11 +16,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)responseReceivedDuration;
 - (void);
 - (id);
 - (id);
@@ -33,16 +28,11 @@
 - (id)ìFùQï%°1Â0@ù
 × ;
 - (id)dinator";
-- (id)tionWithPaymentToken:(id)arg1;
+- (id)_transactionWithPaymentToken:(id)arg1;
 - (void)iso18013BiometricACL;
 
 // Remaining properties
-@property(readonly, nonatomic) PKDeviceVersionRange *appletv; // @synthesize appletv=_appletv;
-@property(readonly, nonatomic) PKDeviceVersionRange *ipad; // @synthesize ipad=_ipad;
 @property(readonly, nonatomic) PKDeviceVersionRange *iphone; // @synthesize iphone=_iphone;
-@property(readonly, nonatomic) PKDeviceVersionRange *ipod; // @synthesize ipod=_ipod;
-@property(readonly, nonatomic) PKDeviceVersionRange *vision; // @synthesize vision=_vision;
-@property(readonly, nonatomic) PKDeviceVersionRange *watch; // @synthesize watch=_watch;
 
 @end
 

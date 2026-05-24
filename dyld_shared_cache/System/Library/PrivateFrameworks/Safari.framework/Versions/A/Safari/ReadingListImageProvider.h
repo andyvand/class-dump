@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSMutableSet, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue, WBSSiteMetadataProviderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface ReadingListImageProvider
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMapTable *_itemsToRequests;
-    NSMutableDictionary *_requestsToResponses;
-    NSMutableDictionary *_requestsToLeadImageTokens;
-    NSMutableDictionary *_requestsToFallbackImageTokens;
-    NSMutableSet *_itemsWithRetainedLPMetadataResponses;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
 }
 
 - (void);
@@ -31,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -44,18 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

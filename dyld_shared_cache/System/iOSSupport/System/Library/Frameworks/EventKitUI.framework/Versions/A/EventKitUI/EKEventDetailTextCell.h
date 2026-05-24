@@ -6,50 +6,31 @@
 
 #import <EventKitUI/EKEventDetailCell.h>
 
-@class EKEventDetailTextCellHeader, NSString, UITextView;
-@protocol EKEventDetailTextCellDelegate;
-
 __attribute__((visibility("hidden")))
 @interface EKEventDetailTextCell : EKEventDetailCell
 {
     CDUnknownBlockType _textFromEventBlock;
-    CDUnknownBlockType _attributedTextFromEventBlock;
-    NSString *_title;
-    EKEventDetailTextCellHeader *_headerView;
-    UITextView *_sizingTextView;
-    UITextView *_textView;
-    _Bool _forceTruncation;
-    _Bool _isTruncatingText;
-    id <EKEventDetailTextCellDelegate> _delegate;
 }
 
 + (double);
 - (void);
+- (_Bool)&s;
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id)S%s;
+- (void);
+- (void)P;
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void);
+- (void)setAvailabilitySearcherRunningSpinner: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EKEventDetailTextCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isTruncatingText; // @synthesize isTruncatingText=_isTruncatingText;
-@property(readonly) Class superclass;
 
 @end
 

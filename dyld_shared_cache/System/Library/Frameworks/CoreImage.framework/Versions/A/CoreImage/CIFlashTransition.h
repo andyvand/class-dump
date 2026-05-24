@@ -6,21 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIColor, CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIFlashTransition : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputTargetImage;
-    CIVector *inputCenter;
-    CIVector *inputExtent;
-    CIColor *inputColor;
-    NSNumber *inputTime;
-    NSNumber *inputMaxStriationRadius;
-    NSNumber *inputStriationStrength;
-    NSNumber *inputStriationContrast;
-    NSNumber *inputFadeThreshold;
 }
 
 + (id);
@@ -31,34 +22,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)";
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (id);
 - (id);
+- (void) ;
+- (id)';
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)!	;
 - (id)¢¢¢¢    p}z    §¨¨¨cvt{$B1U@D3ITTTTY]\]MVK_@ZOitvvvvcqkq~~~~¦¦¦¦^nf~LdZvppppXXXXAA5A$09?E9Iaaaahpppvvvv||||tmª©ªª³³³³¨¨¨¨mpiqdg^nWnhyFaVpKg]tvJYPbJOETWWWWVVVV:K@U^c_gsZxvvLf_tRaWgiiiivvvveicraicrqTsq[truxvUojznvsxtuuuhrnsrrrrrrrr\rowf{zyzw{{w~rOng{{{{{[srzUgbsnmjnffffR[W[TTRTSSPS>PB\frnx£££uMa[iVXN_KZQbA[SiTf_sr}}bur|^kdoKd[pTql««««¥¥¥x}y~w}d{{{{pppp[`\`OQHUWWSW\`_`iiiippppQictMjcz{³³³³¶¶¶¶¦¦¦¦brn{Of`ttpmtxxxx{{{{zzzzuvt}w /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
-@property(retain, nonatomic) CIColor *inputColor; // @synthesize inputColor;
-@property(retain, nonatomic) CIVector *inputExtent; // @synthesize inputExtent;
-@property(retain, nonatomic) NSNumber *inputFadeThreshold; // @synthesize inputFadeThreshold;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputMaxStriationRadius; // @synthesize inputMaxStriationRadius;
-@property(retain, nonatomic) NSNumber *inputStriationContrast; // @synthesize inputStriationContrast;
-@property(retain, nonatomic) NSNumber *inputStriationStrength; // @synthesize inputStriationStrength;
-@property(retain, nonatomic) CIImage *inputTargetImage; // @synthesize inputTargetImage;
-@property(retain, nonatomic) NSNumber *inputTime; // @synthesize inputTime;
 
 @end
 

@@ -9,17 +9,15 @@
 @interface PPCoalescedScoredNamedEntity
 {
     unsigned short _occurrencesInSource;
-    PPScoredItem *_scoredNamedEntity;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned short);
-- (void)MatchesInSourceText;
+- (void)topicsExactMatchesInSourceText;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short occurrencesInSource; // @synthesize occurrencesInSource=_occurrencesInSource;
 @property(readonly, nonatomic) PPScoredItem *scoredNamedEntity; // @synthesize scoredNamedEntity=_scoredNamedEntity;
 
 @end

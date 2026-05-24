@@ -12,24 +12,23 @@ __attribute__((visibility("hidden")))
 @interface EKEventTextDetailItem : EKEventDetailItem
 {
     EKEventDetailCell *_cell;
-    _Bool _cellNeedsUpdate;
 }
 
-+ (id);
-+ (id);
++ (id)9&s;
++ (id):&s /* Error: Ran out of types for this method. */;
 + (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)s;
 - (void);
-- (void);
+- (void)%s;
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
-- (id);
+- (id)T4;
 - (id);
 - (double);
-- (void)tBackgroundColor: /* Error: Ran out of types for this method. */;
-- (void)Event:(int)arg1;
+- (void)setOopContentBackgroundColor: /* Error: Ran out of types for this method. */;
+- (void)isCurrentProcessCreatorOfEvent:(int)arg1;
 
 @end
 

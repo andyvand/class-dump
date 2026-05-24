@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 @interface AKLabelViewCellItem
 {
     NSImage *_image;
-    NSString *_label;
 }
 
 - (void);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(retain) NSImage *image; // @synthesize image=_image;
-@property(copy) NSString *label; // @synthesize label=_label;
 
 @end
 

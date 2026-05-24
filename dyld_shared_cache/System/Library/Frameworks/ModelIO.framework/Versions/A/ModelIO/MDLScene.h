@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 
 @interface MDLScene
 {
     struct mutex *_sceneMutex;
-    struct vector<ModelIO::RTRenderable *, std::allocator<ModelIO::RTRenderable *>> _sceneObjects;
-    struct vector<MDLLight *, std::allocator<MDLLight *>> _sceneLights;
-    NSMutableArray *_objects;
-    int _signature;
 }
 
 - (void);
@@ -20,8 +16,8 @@
 - (id);
 - (_Bool);
 - (int);
-- (void);
-- (id);
+- (void)Speech/SpeechRecognizerWorker.swift;
+- (id)No saved cache at all:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

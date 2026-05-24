@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface HMDAccessoryNetworkAccessViolation
 {
     NSDate *_lastViolationDate;
-    NSDate *_lastResetDate;
 }
 
 + (id);
 + (_Bool)ÄÙ9Ü>V;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)registerNumberOfMomentsAtHome:amongMomentsAtHome: /* Error: Ran out of types for this method. */;
+- (id)personLocalIdentifiersForTopPeople:(id)arg1;
+- (_Bool)musicCurationInflationContextWithInflationOptions:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -28,8 +27,6 @@ __attribute__((visibility("hidden")))
 - (void)w;
 
 // Remaining properties
-@property(readonly, getter=hasCurrentViolation) _Bool currentViolation;
-@property(readonly) NSDate *lastResetDate; // @synthesize lastResetDate=_lastResetDate;
 @property(readonly) NSDate *lastViolationDate; // @synthesize lastViolationDate=_lastViolationDate;
 
 @end

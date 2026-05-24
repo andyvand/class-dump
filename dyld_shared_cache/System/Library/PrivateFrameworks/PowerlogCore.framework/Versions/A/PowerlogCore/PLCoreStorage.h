@@ -4,47 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString, PLCFNotificationOperatorComposition, PLKQueue, PLNSNotificationOperatorComposition, PLSQLiteConnection, PLStorageOperator, PLTimer, PLXPCResponderOperatorComposition;
-@protocol OS_dispatch_queue;
-
 @interface PLCoreStorage
 {
     _Bool _storageLocked;
-    _Bool _storageReady;
-    PLSQLiteConnection *_connection;
-    NSString *_uuid;
-    PLKQueue *_profileDefaultsKQueue;
-    PLTimer *_dailyTaskTimer;
-    PLTimer *_flushCachesTimer;
-    PLNSNotificationOperatorComposition *_dailyTaskNotification;
-    PLCFNotificationOperatorComposition *_flushCachesCFNotification;
-    PLCFNotificationOperatorComposition *_blockingFlushCachesCFNotification;
-    PLCFNotificationOperatorComposition *_keybagFirstUnlockNotification;
-    PLCFNotificationOperatorComposition *_keybagLockStatusNotification;
-    PLXPCResponderOperatorComposition *_safeFileResponder;
-    PLXPCResponderOperatorComposition *_XPCFlushCacheResponder;
-    PLXPCResponderOperatorComposition *_blPathResponder;
-    PLXPCResponderOperatorComposition *_archivesResponder;
-    PLXPCResponderOperatorComposition *_quarantineResponder;
-    PLXPCResponderOperatorComposition *_quarantineCopyResponder;
-    PLXPCResponderOperatorComposition *_batteryUIPlistsResponder;
-    PLStorageOperator *_storageOperator;
-    NSMutableSet *_safeCopyInProgress;
-    NSObject<OS_dispatch_queue> *_backgroundQueue;
-    NSObject<OS_dispatch_queue> *_utilityQueue;
 }
 
 + (id);
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id)?;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -63,21 +38,21 @@
 - (long long);
 - (id);
 - (void);
-- (id);
+- (id)�u;
 - (void);
-- (void);
+- (void)";
 - (_Bool);
+- (void)36@0:(id)arg1 8B16@20@?28;
 - (void);
 - (void);
-- (void);
+- (id)vа:Qo_vְ:GG /* Error: Ran out of types for this method. */;
 - (id);
+- (id)le to load image:%@ /* Error: Ran out of types for this method. */;
+- (void)FamilyMemberAccountDetailsViewModel;
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -113,81 +88,63 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (long long);
 - (void);
 - (void);
+- (id)t information.;
+- (void)AppleTV;
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)kf42;
 - (void);
 - (id);
+- (void)('FJJ
+;
+- (_Bool);
+- (void)A***E
+;
+- (id)91J
+;
+- (void)0DJ
+;
+- (id)s;
+- (id)e;
+- (id)n;
+- (void)i;
 - (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void)";
+- (void);
+- (void)`;
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)setExpectedBundleVersion:(id)arg1;
+- (_Bool)voke;
 - (void);
 - (id)0@ù
 × ;
-- (void);
+- (void)Capability8;
 - (void)DailyTasksInterval=%f;
 - (id)löÿEØ;
 
 // Remaining properties
-@property(retain) PLXPCResponderOperatorComposition *XPCFlushCacheResponder; // @synthesize XPCFlushCacheResponder=_XPCFlushCacheResponder;
-@property(retain) PLXPCResponderOperatorComposition *archivesResponder; // @synthesize archivesResponder=_archivesResponder;
-@property(retain) NSObject<OS_dispatch_queue> *backgroundQueue; // @synthesize backgroundQueue=_backgroundQueue;
-@property(retain) PLXPCResponderOperatorComposition *batteryUIPlistsResponder; // @synthesize batteryUIPlistsResponder=_batteryUIPlistsResponder;
-@property(retain) PLXPCResponderOperatorComposition *blPathResponder; // @synthesize blPathResponder=_blPathResponder;
-@property(retain) PLCFNotificationOperatorComposition *blockingFlushCachesCFNotification; // @synthesize blockingFlushCachesCFNotification=_blockingFlushCachesCFNotification;
-@property(retain) PLSQLiteConnection *connection; // @synthesize connection=_connection;
-@property(retain) PLNSNotificationOperatorComposition *dailyTaskNotification; // @synthesize dailyTaskNotification=_dailyTaskNotification;
-@property(retain) PLTimer *dailyTaskTimer; // @synthesize dailyTaskTimer=_dailyTaskTimer;
-@property(retain) PLCFNotificationOperatorComposition *flushCachesCFNotification; // @synthesize flushCachesCFNotification=_flushCachesCFNotification;
-@property(retain) PLTimer *flushCachesTimer; // @synthesize flushCachesTimer=_flushCachesTimer;
-@property(retain) PLCFNotificationOperatorComposition *keybagFirstUnlockNotification; // @synthesize keybagFirstUnlockNotification=_keybagFirstUnlockNotification;
-@property(retain) PLCFNotificationOperatorComposition *keybagLockStatusNotification; // @synthesize keybagLockStatusNotification=_keybagLockStatusNotification;
-@property(retain) PLKQueue *profileDefaultsKQueue; // @synthesize profileDefaultsKQueue=_profileDefaultsKQueue;
-@property(retain) PLXPCResponderOperatorComposition *quarantineCopyResponder; // @synthesize quarantineCopyResponder=_quarantineCopyResponder;
-@property(retain) PLXPCResponderOperatorComposition *quarantineResponder; // @synthesize quarantineResponder=_quarantineResponder;
-@property(retain) NSMutableSet *safeCopyInProgress; // @synthesize safeCopyInProgress=_safeCopyInProgress;
-@property(retain) PLXPCResponderOperatorComposition *safeFileResponder; // @synthesize safeFileResponder=_safeFileResponder;
 @property(nonatomic) _Bool storageLocked; // @synthesize storageLocked=_storageLocked;
-@property(retain) PLStorageOperator *storageOperator; // @synthesize storageOperator=_storageOperator;
-@property _Bool storageReady; // @synthesize storageReady=_storageReady;
-@property(retain) NSObject<OS_dispatch_queue> *utilityQueue; // @synthesize utilityQueue=_utilityQueue;
-@property(retain) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

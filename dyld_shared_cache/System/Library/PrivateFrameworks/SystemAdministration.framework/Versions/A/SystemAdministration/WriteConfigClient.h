@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSXPCConnection, WriteConfigOnewayMessageDispatcher;
-@protocol XPCWriteConfigOneway;
+@class NSXPCConnection;
 
 @interface WriteConfigClient
 {
     NSXPCConnection *_connection;
-    NSData *_authorizationData;
-    WriteConfigOnewayMessageDispatcher *_onewayMessageDispatcher;
-    _Bool _requiresAuthorization;
 }
 
 + (id);
@@ -21,9 +17,9 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)NSEnumerator";
 - (void);
-- (id);
+- (id)em;
 - (void);
 - (id);
 - (void);
@@ -34,9 +30,6 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSData *authorizationData; // @synthesize authorizationData=_authorizationData;
-@property(readonly) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly) id <XPCWriteConfigOneway> remoteProxy; // @dynamic remoteProxy;
 @property _Bool requiresAuthorization; // @synthesize requiresAuthorization=_requiresAuthorization;
 
 @end

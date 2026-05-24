@@ -6,21 +6,13 @@
 
 #import <PersonalizationPortraitInternals/PPConnectionsSource.h>
 
-@class NSLocale, NSObject, NSOperationQueue, NSString, _PASLock;
-@protocol OS_dispatch_semaphore;
-
 @interface PPConnectionsPasteboardSource : PPConnectionsSource
 {
     unsigned long long _pasteboardNotificationState;
-    _PASLock *_lock;
-    id _pasteboardObserver;
-    NSObject<OS_dispatch_semaphore> *_init_sem;
-    NSOperationQueue *_pbQueue;
-    NSLocale *_testLocale;
 }
 
-+ (id)onStore: /* Error: Ran out of types for this method. */;
-- (id);
++ (id)initWithPredictionStore:donationStore: /* Error: Ran out of types for this method. */;
+- (id)E ;
 - (void);
 - (id);
 - (void);
@@ -28,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)p;
 - (void);
 - (void);
 - (id);
@@ -37,13 +29,7 @@
 - (void)eIdentifier:documentTitle:documentDate:documentTimeInterval:receivedAt:isOutgoingDocument: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

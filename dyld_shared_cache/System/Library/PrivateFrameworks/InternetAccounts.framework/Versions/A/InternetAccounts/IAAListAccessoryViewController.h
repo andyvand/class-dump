@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAAccount, NSView;
+@class IAAccount;
 
 @interface IAAListAccessoryViewController
 {
     IAAccount *_account;
-    NSView *_view;
 }
 
 - (void);
-- (id);
+- (id)i;
 - (id);
 - (id);
 - (void);

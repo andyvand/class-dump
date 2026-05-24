@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)(FigEndpointRef, CFStringRef, CFStringRef, CFTypeRef);
+- (void)O;
 - (void);
 
 // Remaining properties

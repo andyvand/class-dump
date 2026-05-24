@@ -6,23 +6,20 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class PKAddCarKeyPassConfiguration, PKAppletSubcredential, PKPaymentPass;
+@class PKPaymentPass;
 
 @interface PKPaymentLocalAppletSubcredentialPassCredential : PKPaymentCredential
 {
     PKPaymentPass *_paymentPass;
-    PKAppletSubcredential *_credentialToShare;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)dUnitTypeRides, PKFieldUnitTypeTickets, PKFieldUnitTypeLoyaltyPoints;
 
 // Remaining properties
-@property(readonly, nonatomic) PKAddCarKeyPassConfiguration *configuration;
-@property(readonly, nonatomic) PKAppletSubcredential *credentialToShare; // @synthesize credentialToShare=_credentialToShare;
 @property(readonly, nonatomic) PKPaymentPass *paymentPass; // @synthesize paymentPass=_paymentPass;
 
 @end

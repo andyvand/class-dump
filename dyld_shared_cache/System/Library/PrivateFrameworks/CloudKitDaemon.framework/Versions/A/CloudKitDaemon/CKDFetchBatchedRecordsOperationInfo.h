@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CKDFetchBatchedRecordsOperationInfo
 {
     _Bool _shouldFetchAssetContents;
-    _Bool _fetchAllChanges;
-    _Bool _forcePCSDecryptionAttempt;
-    NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByRecordZoneID;
-    NSDictionary *_assetTransferOptionsByRecordTypeAndKey;
-    NSDictionary *_supplementalChangeTokenByZoneID;
-    long long _errorReportingStyle;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -26,29 +19,22 @@
 - (_Bool);
 - (long long);
 - (void);
-- (void);
+- (void)works/CoreAnalytics.framework/Versions/A/CoreAnalytics;
 - (void);
 - (void);
 - (id)0@ù
 × ;
 - (void)32^Q40^@48;
-- (_Bool)aWithRequestUUID:objectData:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ypeForField:(id)arg1;
+- (_Bool)logPartialRequestObjectDataWithRequestUUID:objectData:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_valueTypeIsAnEncryptedBytesTypeForField:(id)arg1;
 - (_Bool)_recordZonesToSave;
-- (id)st;
+- (id)CKDAnonymousShareAddURLRequest;
 - (id)¨;
 - (id)ÿÿ8;
 - (void)requested local cache only.;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByRecordTypeAndKey; // @synthesize assetTransferOptionsByRecordTypeAndKey=_assetTransferOptionsByRecordTypeAndKey;
-@property(retain, nonatomic) NSDictionary *configurationsByRecordZoneID; // @synthesize configurationsByRecordZoneID=_configurationsByRecordZoneID;
-@property(nonatomic) long long errorReportingStyle; // @synthesize errorReportingStyle=_errorReportingStyle;
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
-@property(nonatomic) _Bool forcePCSDecryptionAttempt; // @synthesize forcePCSDecryptionAttempt=_forcePCSDecryptionAttempt;
 @property(retain, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
-@property(nonatomic) _Bool shouldFetchAssetContents; // @synthesize shouldFetchAssetContents=_shouldFetchAssetContents;
-@property(retain, nonatomic) NSDictionary *supplementalChangeTokenByZoneID; // @synthesize supplementalChangeTokenByZoneID=_supplementalChangeTokenByZoneID;
 
 @end
 

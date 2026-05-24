@@ -9,40 +9,33 @@
 @interface GEORPThirdPartyPhotoSharingPreference
 {
     NSString *_version;
-    _Bool _optIn;
-    struct {
-        unsigned int has_optIn:1;
-    } _flags;
 }
 
-+ (_Bool)calizationURL:(id)arg1;
++ (_Bool)setLocalizationURL:(id)arg1;
 - (void);
 - (void);
+- (_Bool)customValuesData;
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)RecordDeviceInfo",R,N,V_deviceInfo;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id)DisplayAddress"b1"has_hasDisplayName"b1"has_hasSpokenAddress"b1"has_hasSpokenName"b1};
-- (id)ionCurrentLocationStyleAttributes;
+- (id)customRouteCreationCurrentLocationStyleAttributes;
 - (id)hÄÜ´;
-- (_Bool)n;
-- (id)festBEGIN;
+- (_Bool)venueExperienceShown;
+- (id)GEOPPTTest_Manifest_GetResourceManifestBEGIN;
 - (void)â"÷tuP@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOptIn;
 @property(readonly, nonatomic) _Bool hasVersion;
-@property(nonatomic) _Bool optIn;
-@property(retain, nonatomic) NSString *version;
 
 @end
 

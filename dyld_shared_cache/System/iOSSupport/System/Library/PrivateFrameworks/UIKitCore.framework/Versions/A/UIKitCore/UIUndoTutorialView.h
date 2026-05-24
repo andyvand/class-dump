@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)Dispatch_Internal;
 - (id);
 - (id);
 - (void)0@ù

@@ -9,12 +9,9 @@
 @interface OMSlideshowTransition
 {
     _Bool _supportsSetSpeed;
-    NSString *_transitionID;
-    NSString *_localizedName;
-    unsigned long long _supportedDirections;
 }
 
-+ (id);
++ (id)DynamicEndpoint;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -22,9 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly) unsigned long long supportedDirections; // @synthesize supportedDirections=_supportedDirections;
-@property(readonly) _Bool supportsSetSpeed; // @synthesize supportsSetSpeed=_supportsSetSpeed;
 @property(readonly) NSString *transitionID; // @synthesize transitionID=_transitionID;
 
 @end

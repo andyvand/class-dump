@@ -9,8 +9,6 @@
 @interface INExecutionFrameworkMapper
 {
     _Bool _filled;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_appToExtensionIdentifiers;
 }
 
 + (void);
@@ -20,20 +18,18 @@
 - (_Bool);
 - (struct os_unfair_lock_s);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)ServerHitTestSecurityAnalysis";
+- (id)setLocalSecondaryPreferredChannel: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id)@ù
 × ;
 - (void);
-- (id)ralEventTriggerOptionsForSetBinarySetting:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (void)BackForStartCall: /* Error: Ran out of types for this method. */;
+- (id)provideTemporalEventTriggerOptionsForSetBinarySetting:(id)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (void)defaultCallRecordToCallBackForStartCall: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSMutableDictionary *_appToExtensionIdentifiers; // @synthesize _appToExtensionIdentifiers;
-@property(readonly, nonatomic) _Bool _filled; // @synthesize _filled;
-@property(readonly, nonatomic) struct os_unfair_lock_s _lock; // @synthesize _lock;
 
 @end
 

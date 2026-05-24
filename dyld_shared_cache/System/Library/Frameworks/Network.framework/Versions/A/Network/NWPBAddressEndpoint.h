@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id)quest:(struct _NSZone *)arg1 delegate: /* Error: Ran out of types for this method. */;
+- (id)_dataTaskWithRequest:(struct _NSZone *)arg1 delegate: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)@;
 

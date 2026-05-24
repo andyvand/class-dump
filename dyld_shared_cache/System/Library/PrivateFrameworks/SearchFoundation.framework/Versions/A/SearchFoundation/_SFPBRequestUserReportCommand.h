@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBUserReportRequest;
+@class _SFPBUserReportRequest;
 
 @interface _SFPBRequestUserReportCommand
 {
@@ -18,21 +18,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)restrictToEncryptedStream;
+- (id)metadata file URL. Error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)"_SFPBRFSummaryItemExpandableCardSection"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBUserReportRequest *userReportRequest; // @synthesize userReportRequest=_userReportRequest;
 
 @end

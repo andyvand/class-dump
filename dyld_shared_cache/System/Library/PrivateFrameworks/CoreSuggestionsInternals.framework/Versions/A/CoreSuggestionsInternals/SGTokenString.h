@@ -7,13 +7,6 @@
 @interface SGTokenString
 {
     struct _NSRange _range;
-    int _confidence;
-    unsigned int _isASCII:1;
-    unsigned int _length:31;
-    union {
-        char ascii[0];
-        unsigned short utf16[0];
-    } _contents;
 }
 
 + (id);
@@ -25,16 +18,15 @@
 - (struct _NSRange);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (unsigned short);
-- (int);
+- (int)C;
 - (void);
 - (const char *);
 - (const char *), :(_Bool)arg1 socialProfile)   AND e.masterEntityId > 0   AND e.masterEntityId NOT IN (SELECT id FROM %@);
 - (const unsigned short *);
 
 // Remaining properties
-@property(nonatomic) int confidence; // @synthesize confidence=_confidence;
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end

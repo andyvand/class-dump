@@ -6,41 +6,16 @@
 
 #import <IOBluetooth/IOBluetoothObject.h>
 
-@class CBClassicPeer, CBRFCOMMChannel, CBUUID, IOBluetoothDevice, IOBluetoothL2CAPChannel, NSObject, NSPort, NSString;
-@protocol IOBluetoothRFCOMMChannelDelegate;
-
 @interface IOBluetoothRFCOMMChannel : IOBluetoothObject
 {
     _Bool mChannelIsOpen;
-    unsigned short mMTU;
-    _Bool mIsIncoming;
-    IOBluetoothDevice *mDevice;
-    IOBluetoothL2CAPChannel *mL2Channel;
-    NSPort *mDataAvailablePort;
-    struct _IODataQueueMemory *mIncomingDataQueue;
-    id delegate;
-    id mIncomingDataListener;
-    void *mIncomingDataListenerRefCon;
-    id mEventDataListener;
-    void *mEventDataListenerRefCon;
-    unsigned long long mObjectID;
-    unsigned char mChannelID;
-    void *_mReserved;
-    unsigned char _channelID;
-    _Bool _isTransmissionPaused;
-    _Bool _isOpeningRFCOMM;
-    CBUUID *_serviceUUID;
-    CBClassicPeer *_classicPeer;
-    CBRFCOMMChannel *_rfcommchannel;
-    IOBluetoothDevice *_device;
-    NSObject<IOBluetoothRFCOMMChannelDelegate> *_channelDelegate;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)6;
 - (int);
 - (int);
 - (int);
@@ -49,13 +24,13 @@
 - (void);
 - (int);
 - (void);
-- (void);
-- (void);
+- (void)`;
+- (void)Rp;
 - (void);
 - (int);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
@@ -91,21 +66,7 @@
 - (id)out;
 
 // Remaining properties
-@property(nonatomic) __weak NSObject<IOBluetoothRFCOMMChannelDelegate> *channelDelegate; // @synthesize channelDelegate=_channelDelegate;
 @property(nonatomic) unsigned char channelID; // @synthesize channelID=_channelID;
-@property(retain, nonatomic) CBClassicPeer *classicPeer; // @synthesize classicPeer=_classicPeer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) IOBluetoothDevice *device; // @synthesize device=_device;
-@property(readonly) unsigned long long hash;
-@property _Bool isOpeningRFCOMM; // @synthesize isOpeningRFCOMM=_isOpeningRFCOMM;
-@property(nonatomic) _Bool isTransmissionPaused; // @synthesize isTransmissionPaused=_isTransmissionPaused;
-@property(retain, nonatomic) CBRFCOMMChannel *rfcommchannel; // @synthesize rfcommchannel=_rfcommchannel;
-@property(retain, nonatomic) CBUUID *serviceUUID; // @synthesize serviceUUID=_serviceUUID;
-@property(readonly) Class superclass;
 
 @end
 

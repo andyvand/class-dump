@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SAUILaunchAppWithParameters : SABaseClientBoundCommand
 {
@@ -15,16 +15,15 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ȁ;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleId;
-@property(copy, nonatomic) NSDictionary *parameters;
 
 @end
 

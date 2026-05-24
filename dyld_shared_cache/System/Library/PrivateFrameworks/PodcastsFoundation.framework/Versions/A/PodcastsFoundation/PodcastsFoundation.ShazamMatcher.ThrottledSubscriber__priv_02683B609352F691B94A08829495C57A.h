@@ -7,15 +7,6 @@
 @interface PodcastsFoundation.ShazamMatcher.ThrottledSubscriber__priv_02683B609352F691B94A08829495C57A
 {
     id session;
-    id logger;
-    id workQueue;
-    id inputSubject;
-    id outputSubject;
-    id bufferedSignatures;
-    id currentInput;
-    id subscription;
-    id completion;
-    id isCancelled;
 }
 
 - (void);

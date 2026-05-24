@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VSManagedProfileConnection;
+@class VSManagedProfileConnection;
 
 @interface VSRestrictionsCenter
 {
     _Bool _accountModificationAllowed;
-    VSManagedProfileConnection *_profileConnection;
 }
 
 + (id);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -27,15 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isAcountModificationAllowed) _Bool accountModificationAllowed; // @synthesize accountModificationAllowed=_accountModificationAllowed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) VSManagedProfileConnection *profileConnection; // @synthesize profileConnection=_profileConnection;
-@property(readonly) Class superclass;
 
 @end
 

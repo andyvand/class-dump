@@ -8,10 +8,6 @@
 {
     id component;
     id stride;
-    id anchor;
-    id durationBounds;
-    id fixedTimeInterval;
-    id cache;
 }
 
 @end

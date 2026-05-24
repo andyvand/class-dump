@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
-
 @interface MLNeuralNetworksCompileTimeParams
 {
     long long _lossType;
-    long long _optimizerType;
-    NSDictionary *_optimizerParameters;
-    NSDictionary *_lossParameters;
-    NSArray *_trainableLayerNames;
-    NSDictionary *_updateParameters;
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)METAL_TELEMETRY_LOG_MODE;
+- (id)PrimitiveIDAttr;
+- (id)MeshGridPropertiesType;
+- (void)DispatchQuadgroupsPerThreadgroupArg;
+- (void)QuadgroupIndexInThreadgroupArg;
+- (void)ClipDistanceRet;
+- (void)MaxMeshWorkgroupsFnAttr;
+- (void).patch_id;
+- (void)r.vertex_id;
+- (id)Functions:] /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
@@ -37,12 +30,7 @@
 - (void)the number of elements in begin_ids.;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *lossParameters; // @synthesize lossParameters=_lossParameters;
 @property(nonatomic) long long lossType; // @synthesize lossType=_lossType;
-@property(retain, nonatomic) NSDictionary *optimizerParameters; // @synthesize optimizerParameters=_optimizerParameters;
-@property(nonatomic) long long optimizerType; // @synthesize optimizerType=_optimizerType;
-@property(retain, nonatomic) NSArray *trainableLayerNames; // @synthesize trainableLayerNames=_trainableLayerNames;
-@property(retain, nonatomic) NSDictionary *updateParameters; // @synthesize updateParameters=_updateParameters;
 
 @end
 

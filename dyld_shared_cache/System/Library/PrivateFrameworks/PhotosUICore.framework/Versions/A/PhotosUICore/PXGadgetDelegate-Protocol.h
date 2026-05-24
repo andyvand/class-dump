@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXGadgetDelegate;
+@protocol PXGadgetDelegate, PXPresentationEnvironment;
 
 @protocol PXGadgetDelegate
+- (id <PXPresentationEnvironment>)@;
+- (void);
+
+@optional
+- (id <PXGadgetDelegate>)�;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXGadgetDelegate> nextGadgetResponder;

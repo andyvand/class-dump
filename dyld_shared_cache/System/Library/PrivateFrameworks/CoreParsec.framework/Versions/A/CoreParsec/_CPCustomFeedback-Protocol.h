@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol _CPCustomFeedback
 
 // Remaining properties
-@property(nonatomic) int feedbackType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *jsonFeedback;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

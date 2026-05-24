@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PHFetchResult;
+@class PHFetchResult;
 
 @interface PXCMMMomentShareInvitationsDataSourceState
 {
     PHFetchResult *_momentShares;
-    NSDictionary *_invitationsByMomentShareObjectID;
 }
 
 + (id);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *invitationsByMomentShareObjectID; // @synthesize invitationsByMomentShareObjectID=_invitationsByMomentShareObjectID;
 @property(readonly, nonatomic) PHFetchResult *momentShares; // @synthesize momentShares=_momentShares;
 
 @end

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface FPSearchableItemError
 {
     long long _code;
-    NSString *_customDomain;
-    int _domain;
 }
 
 + (id);
@@ -24,13 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)preferredTagCollections;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)ion for INFO request not found, queueing:(id)arg1;
 - (void);
-- (id);
-- (id);
+- (id));
+- (id);
 - (int);
 - (long long);
 - (void)!ðGùÑç)1Â0@ù
@@ -39,10 +35,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(nonatomic) long long code; // @synthesize code=_code;
-@property(retain, nonatomic) NSString *customDomain; // @synthesize customDomain=_customDomain;
 @property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) _Bool hasCustomDomain;
 
 @end
 

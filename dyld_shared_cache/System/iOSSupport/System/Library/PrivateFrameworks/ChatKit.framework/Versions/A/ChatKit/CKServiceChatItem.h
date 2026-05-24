@@ -11,21 +11,21 @@
     _Bool _hasInformativeText;
 }
 
-- (void);
+- (void)dataToEditForAttachment:(_Bool)arg1 includeMarkupModelData:embedMarkupModelDataInImage: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)audioEngine;
+- (id):%@ /* Error: Ran out of types for this method. */;
+- (id)png for file promise:%@ /* Error: Ran out of types for this method. */;
+- (id)alid highlighting attribute:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ment.modificationDate %@;
+- (_Bool)hment.previewUpdateDate %@ self.attachment.modificationDate %@;
+- (_Bool)lizationVersion] %d;
+- (id)lder;
+- (id)ICImageOCRDisabledDefaultsKey;
+- (id)ent;
+- (id)56Q64*72Q80Q88Q96Q104Q112Q120;
 - (unsigned long long)@32;
 
 // Remaining properties

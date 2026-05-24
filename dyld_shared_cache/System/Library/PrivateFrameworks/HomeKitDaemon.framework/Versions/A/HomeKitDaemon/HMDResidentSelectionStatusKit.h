@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDPreferredResidentsList, HMDResidentDevice, HMDResidentSelectionInfo, HMDResidentStatus, NSArray, NSDictionary, NSObject, NSSet, NSString;
-@protocol HMDResidentDeviceManagerContext, OS_dispatch_queue;
+@class NSDictionary, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentSelectionStatusKit
 {
     NSDictionary *_residentIDSIdentifierToLocationMap;
-    HMDResidentSelectionInfo *_selectionInfo;
-    NSSet *_wiredResidents;
-    NSSet *_residentsWithReachableAccessories;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <HMDResidentDeviceManagerContext> _context;
-    NSSet *_residentStatusList;
-    NSArray *_sortedResidentStatuses;
-    HMDResidentStatus *_sourceForPreferredResidentsList;
 }
 
 + (id)B;
@@ -30,40 +22,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithLibraryDirectoryURL:(id)arg1 groupLibraryURL:(id)arg2 invalidationHandler: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)DeletePersons;
 - (id);
 - (id);
 - (id)C,N,V_sessionID;
 - (void)>;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <HMDResidentDeviceManagerContext> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMDResidentDevice *elector;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMDPreferredResidentsList *preferredResidentsList;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSDictionary *residentIDSIdentifierToLocationMap; // @synthesize residentIDSIdentifierToLocationMap=_residentIDSIdentifierToLocationMap;
-@property(readonly, nonatomic) NSSet *residentStatusList; // @synthesize residentStatusList=_residentStatusList;
-@property(retain, nonatomic) NSSet *residentsWithReachableAccessories; // @synthesize residentsWithReachableAccessories=_residentsWithReachableAccessories;
-@property(readonly, nonatomic) HMDResidentSelectionInfo *selectionInfo; // @synthesize selectionInfo=_selectionInfo;
-@property(readonly, nonatomic) NSArray *sortedResidentStatuses; // @synthesize sortedResidentStatuses=_sortedResidentStatuses;
-@property(readonly, nonatomic) HMDResidentStatus *sourceForPreferredResidentsList; // @synthesize sourceForPreferredResidentsList=_sourceForPreferredResidentsList;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSSet *wiredResidents; // @synthesize wiredResidents=_wiredResidents;
 
 @end
 

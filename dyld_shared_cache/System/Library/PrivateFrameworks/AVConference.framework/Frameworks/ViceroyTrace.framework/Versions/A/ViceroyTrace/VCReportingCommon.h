@@ -4,50 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, VCDurationHistogram, VCReportingHistogram;
+@class VCDurationHistogram;
 
 __attribute__((visibility("hidden")))
 @interface VCReportingCommon
 {
     _Bool _isUplinkRTXTelemetryAvailable;
-    unsigned long long _retransmissionRequestPacketCount;
-    unsigned long long _retransmissionFulfilledPacketCount;
-    unsigned long long _retransmissionCacheHitCount;
-    unsigned long long _retransmissionCacheMissCount;
-    unsigned long long _retransmissionNACKReceivedCount;
-    unsigned long long _retransmissionRequestRepeatedCount;
-    unsigned short _retransmissionRequestRepeatedMaxCount;
-    VCReportingHistogram *_retransmissionResponseTime;
-    VCReportingHistogram *_retransmissionLateTime;
-    VCReportingHistogram *_retransmissionActualMediaBitrate;
-    VCReportingHistogram *_retransmissionBitrate;
-    int _currentThermalLevel;
-    VCDurationHistogram *_thermalDurations;
-    NSMutableDictionary *_clientExperiments;
-    int _thermalNotificationToken;
-    BOOL _backgroundReplacementStatus;
 }
 
 + (int);
-- (id);
+- (id)00Q: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (id)R;
 - (id);
-- (id);
-- (id);
+- (id);
 - (BOOL);
 - (void);
 - (void);
 - (void);
 - (void);
 - (int);
-- (id);
-- (void);
+- (id)9;
+- (void)t=%d, packet size=%d, serviceRate=%d, serviceTime=%f, arrivalTime=%f, departureTime=%f;
 
 // Remaining properties
-@property BOOL backgroundReplacementStatus; // @synthesize backgroundReplacementStatus=_backgroundReplacementStatus;
-@property(retain) NSMutableDictionary *clientExperiments; // @synthesize clientExperiments=_clientExperiments;
-@property(nonatomic) int currentThermalLevel; // @synthesize currentThermalLevel=_currentThermalLevel;
 @property(readonly) VCDurationHistogram *thermalDurations; // @synthesize thermalDurations=_thermalDurations;
 
 @end

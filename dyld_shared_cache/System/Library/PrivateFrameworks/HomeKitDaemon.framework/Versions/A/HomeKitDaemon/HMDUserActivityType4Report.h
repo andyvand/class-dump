@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_insertOrUpdateTrip:(id)arg1;
 - (id);
 - (id);
 - (unsigned long long);

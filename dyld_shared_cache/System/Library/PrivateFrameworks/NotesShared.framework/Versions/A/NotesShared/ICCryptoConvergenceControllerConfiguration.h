@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICEncryptionKey, NSString;
+@class NSString;
 
 @interface ICCryptoConvergenceControllerConfiguration
 {
     _Bool _includeAllAuthenticatedObjects;
-    _Bool _userInitiated;
-    NSString *_passphrase;
-    ICEncryptionKey *_v1MainKey;
-    ICEncryptionKey *_v1NeoMainKey;
-    NSString *_divergedPassphrase;
-    ICEncryptionKey *_divergedV1MainKey;
-    ICEncryptionKey *_divergedV1NeoMainKey;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -29,27 +22,20 @@
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)TW;
 - (id);
 - (void)ìé;
 - (void)pseLinkAttachmentWithContentItem:(_Bool)arg1 ];
 
 // Remaining properties
-@property(copy, nonatomic) NSString *divergedPassphrase; // @synthesize divergedPassphrase=_divergedPassphrase;
-@property(copy, nonatomic) ICEncryptionKey *divergedV1MainKey; // @synthesize divergedV1MainKey=_divergedV1MainKey;
-@property(copy, nonatomic) ICEncryptionKey *divergedV1NeoMainKey; // @synthesize divergedV1NeoMainKey=_divergedV1NeoMainKey;
-@property(nonatomic) _Bool includeAllAuthenticatedObjects; // @synthesize includeAllAuthenticatedObjects=_includeAllAuthenticatedObjects;
 @property(copy, nonatomic) NSString *passphrase; // @synthesize passphrase=_passphrase;
-@property(nonatomic, getter=isUserInitiated) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
-@property(copy, nonatomic) ICEncryptionKey *v1MainKey; // @synthesize v1MainKey=_v1MainKey;
-@property(copy, nonatomic) ICEncryptionKey *v1NeoMainKey; // @synthesize v1NeoMainKey=_v1NeoMainKey;
 
 @end
 

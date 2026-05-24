@@ -5,12 +5,11 @@
 //
 
 @protocol UIScrollViewDelayedTouchesBeganGestureRecognizerClient
+- (double)IMMessageItem"60;
+- (double)initiatePeriodicSync;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_canScrollX) _Bool canScrollX;
-@property(readonly, nonatomic, getter=_canScrollY) _Bool canScrollY;
 @property(readonly, nonatomic) _Bool delaysContentTouches;
-@property(readonly, nonatomic, getter=_scrollHysteresis) double scrollHysteresis;
-@property(readonly, nonatomic, getter=_touchDelayForScrollDetection) double touchDelayForScrollDetection;
 @end
 

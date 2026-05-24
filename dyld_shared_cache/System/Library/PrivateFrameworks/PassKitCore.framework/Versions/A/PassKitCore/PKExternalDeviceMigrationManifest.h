@@ -14,22 +14,20 @@
 + (_Bool)0@ù
 × ;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)T;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)mbfree;
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)d;
+- (void)miniCard;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *entries; // @synthesize entries=_entries;
-@property(readonly, nonatomic) unsigned long long estimatedOnDiskSize;
-@property(readonly, nonatomic) unsigned long long transferSize;
 
 @end
 

@@ -8,14 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVSampleCursorInternal
 {
     struct OpaqueFigSampleCursor *figSampleCursor;
-    _Bool implementsGetDecodeTimeStamp;
-    _Bool implementsGetDuration;
-    _Bool implementsGetDependencyInfo;
-    _Bool implementsTestReorderingBoundary;
-    _Bool implementsCreateSampleBuffer;
-    _Bool implementsCopyChunkDetails;
-    _Bool implementsCopySampleLocation;
-    _Bool implementsGetMPEG2FrameType;
 }
 
 @end

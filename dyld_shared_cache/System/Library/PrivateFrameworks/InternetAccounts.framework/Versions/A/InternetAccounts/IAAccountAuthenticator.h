@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IADataPlugin, IAMailAccountSetupInput, NSData, NSError, NSHTTPURLResponse, NSMutableData, NSString, NSURLConnection, NSURLCredential, NSURLRequest;
+@class NSURLCredential;
 
 @interface IAAccountAuthenticator
 {
     NSURLCredential *_credential;
-    long long _authType;
-    CDUnknownBlockType _authCompletionBlock;
-    NSError *_error;
-    _Bool _result;
-    NSURLRequest *_urlRequest;
-    NSURLConnection *_loginConnection;
-    NSMutableData *_incomingData;
-    NSData *_urlResponseData;
-    NSHTTPURLResponse *_urlResponse;
-    IAMailAccountSetupInput *_input;
-    IADataPlugin *_mailPlugin;
-    IAAccountAuthenticator *_strongSelf;
 }
 
 + (id);
@@ -35,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T);
 - (id);
 - (void);
 - (id);
@@ -48,31 +36,18 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)kCTRegistrationDataIndicatorStatusNone;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)>(;
+- (void)ib/swift/libswiftSpatial.dylib;
 
 // Remaining properties
-@property long long authType; // @synthesize authType=_authType;
 @property(retain) NSURLCredential *credential; // @synthesize credential=_credential;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property _Bool result; // @synthesize result=_result;
-@property(readonly) Class superclass;
-@property(retain) NSURLRequest *urlRequest; // @synthesize urlRequest=_urlRequest;
-@property(readonly) NSHTTPURLResponse *urlResponse; // @synthesize urlResponse=_urlResponse;
-@property(readonly) NSData *urlResponseData; // @synthesize urlResponseData=_urlResponseData;
 
 @end
 

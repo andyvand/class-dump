@@ -6,7 +6,7 @@
 
 @protocol FCOperationPrioritizing
 - (long long);
-- (void);
+- (void)Q;
 
 // Remaining properties
 @property(nonatomic) long long relativePriority;

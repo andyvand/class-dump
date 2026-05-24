@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIPercentDrivenInteractiveTransition.h>
 
-@class NSString, UIAlertController;
+@class UIAlertController;
 @protocol UIViewControllerContextTransitioning;
 
 __attribute__((visibility("hidden")))
@@ -27,26 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) UIAlertController *alertController; // @synthesize alertController=_alertController;
-@property(readonly, nonatomic) long long completionCurve;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) double completionSpeed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(retain, nonatomic) id <UIViewControllerContextTransitioning> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsInteractiveStart;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RRSchemaRRAnnotation : SISchemaInstrumentationMessage
 {
     int _name;
-    unsigned long long _annotationAddedTimestampInSeconds;
-    struct {
-        unsigned int name:1;
-        unsigned int annotationAddedTimestampInSeconds:1;
-    } _has;
 }
 
 - (void);
@@ -23,26 +16,22 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (int);
-- (unsigned long long);
+- (unsigned long long)datesStore_macOS.m:169 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)te_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join cm ON   m.ROWID = cm.message_id WHERE cm.chat_id = (SELECT c.rowid FROM chat c WHERE c.chat_identifier = ? AND c.service_name = ?) ;
 - (id);
 - (id);
-- (id)vocationMetadata;
+- (id)apiInvocationMetadata;
 - (id)yRequestMatch;
-- (void)ResidentFirstErrorDomain:(int)arg1;
+- (void)setHasResidentFirstErrorDomain:(int)arg1;
 
 // Remaining properties
-@property(nonatomic) unsigned long long annotationAddedTimestampInSeconds; // @synthesize annotationAddedTimestampInSeconds=_annotationAddedTimestampInSeconds;
-@property(nonatomic) _Bool hasAnnotationAddedTimestampInSeconds;
-@property(nonatomic) _Bool hasName;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int name; // @synthesize name=_name;
 
 @end

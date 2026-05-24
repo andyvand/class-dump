@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFColor, SFLatLng;
+@class SFLatLng;
 
 @interface SFPin
 {
     struct {
         unsigned int pinBehavior:1;
     } _has;
-    int _pinBehavior;
-    SFLatLng *_location;
-    SFColor *_pinColor;
-    NSString *_label;
-    NSString *_resultID;
-    NSData *_mapsData;
-    NSString *_pinText;
 }
 
 + (_Bool);
@@ -31,38 +24,23 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)setTasteType:(id)arg1 forModel:withCompletionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)TLAlertStoppingOptions;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)PHPhotosErrorUnsupportedLegacyLibrary;
+- (id)rce:(struct _NSZone *)arg1 library:options:delegate:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)trailingMiddleText;
+- (id);
+- (void);
+- (void)_trailingMiddleText;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(retain, nonatomic) SFLatLng *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSData *mapsData; // @synthesize mapsData=_mapsData;
-@property(nonatomic) int pinBehavior; // @synthesize pinBehavior=_pinBehavior;
-@property(retain, nonatomic) SFColor *pinColor; // @synthesize pinColor=_pinColor;
-@property(copy, nonatomic) NSString *pinText; // @synthesize pinText=_pinText;
-@property(copy, nonatomic) NSString *resultID; // @synthesize resultID=_resultID;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol BUInputStream
+- (void);
+- (void)__bss;
 @end
 

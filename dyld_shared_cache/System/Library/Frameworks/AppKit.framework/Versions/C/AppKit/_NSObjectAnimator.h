@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (Class);
+- (Class)@;
 - (Class);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (_Bool);
-- (id)t:(id)arg1;
-- (_Bool)ntController;
+- (id)_setLanguageRepresentedObject:(id)arg1;
+- (_Bool)_fullScreenContentController;
 - (id)@x;
 - (_Bool)this is unsupported.;
-- (id)FeedbackMenu;
+- (id)NSShowFeedbackMenu;
 - (id);
 
 @end

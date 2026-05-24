@@ -7,11 +7,13 @@
 @class NSDictionary;
 
 @protocol AVReencodedVideoSettingsForFig
+- (NSDictionary *)mmandActiveSet:modelContextDelegate:enableItn:error: /* Error: Ran out of types for this method. */;
+- (NSDictionary *)ptions:enableSpeakerCodeTraining:supportEmojiRecognition:voiceCommandActiveSet:modelContextDelegate:enableItn:error: /* Error: Ran out of types for this method. */;
+- (unsigned int)hasNoVoiceCommandAfterRespeakCheck;
+- (_Bool)didStartModelInitializing: /* Error: Ran out of types for this method. */;
+- (void)componentsJoinedByString:(_Bool)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool shouldPrepareEncodedSampleBuffersForPaddedWrites;
 @property(readonly, nonatomic) unsigned int videoCodecType;
-@property(readonly, nonatomic) NSDictionary *videoCompressionProperties;
-@property(readonly, nonatomic) NSDictionary *videoEncoderSpecification;
 @end
 

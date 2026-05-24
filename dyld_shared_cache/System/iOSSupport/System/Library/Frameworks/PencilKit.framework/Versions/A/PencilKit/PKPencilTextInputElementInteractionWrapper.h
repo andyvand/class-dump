@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PKPencilTextInputElementInteraction, UIView;
-@protocol UIInteraction;
+@class PKPencilTextInputElementInteraction, UIView;
 
 @interface PKPencilTextInputElementInteractionWrapper
 {
     PKPencilTextInputElementInteraction *_elementInteraction;
-    NSMutableDictionary *_knownElementsByID;
 }
 
 - (void);
@@ -28,7 +26,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)OrganizationName;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -36,18 +34,6 @@
 - (void)efineQueryDelegate>",W,N,V_autoRefineDelegate;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <UIInteraction> interaction;
-@property(readonly, nonatomic) UIView *interactionView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIView",?,R,N
-
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UIView *view;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIView",?,R,N

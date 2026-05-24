@@ -7,27 +7,6 @@
 @interface TextToSpeech.TTSSettings
 {
     id $__lazy_storage_$_resolver;
-    id _$speechTraceClients_Storage;
-    id _$lock_speechTraceClients;
-    id _$macroLanguageDisambiguations_Storage;
-    id _$lock_macroLanguageDisambiguations;
-    id _$catalogServer_Storage;
-    id _$lock_catalogServer;
-    id _$voiceOverDefaultVoiceSelectionsByLanguage_Storage;
-    id _$lock_voiceOverDefaultVoiceSelectionsByLanguage;
-    id _$voiceOverVoiceRotors_Storage;
-    id _$lock_voiceOverVoiceRotors;
-    id _$currentRotorVoiceIdentifier_Storage;
-    id _$lock_currentRotorVoiceIdentifier;
-    id _$spokenContentVoiceSelectionsByLanguage_Storage;
-    id _$lock_spokenContentVoiceSelectionsByLanguage;
-    id _$assistiveTouchDefaultVoiceSelectionsByLanguage_Storage;
-    id _$lock_assistiveTouchDefaultVoiceSelectionsByLanguage;
-    id _$scannerSpeechEnabled_Storage;
-    id _$lock_scannerSpeechEnabled;
-    id encoder;
-    id decoder;
-    id store;
 }
 
 @end

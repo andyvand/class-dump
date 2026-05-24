@@ -5,9 +5,9 @@
 //
 
 @protocol APPCPromotableDesiredPlacement
+- (long long)standardUserDefaults;
 
 // Remaining properties
-@property(nonatomic, readonly) long long count;
 @property(nonatomic, readonly) long long type;
 @end
 

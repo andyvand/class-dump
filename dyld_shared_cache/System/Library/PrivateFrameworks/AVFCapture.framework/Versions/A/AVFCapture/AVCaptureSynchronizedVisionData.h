@@ -13,16 +13,14 @@
     AVCaptureSynchronizedVisionDataInternal *_internal;
 }
 
-- (_Bool);
-- (struct __CVBuffer *);
+- (_Bool)initWithServiceName: /* Error: Ran out of types for this method. */;
+- (struct __CVBuffer *)initWithRunningRBSDomain:name:invalidationDuration: /* Error: Ran out of types for this method. */;
 - (long long);
-- (id);
-- (void);
+- (id)VSegmentedCodingPackageDecoderForCoderType(NSString * _Nonnull __strong, NSData * _Nonnull __strong, NSError *__autoreleasing  _Nullable * _Nullable);
+- (void)0:8@"NSString"16@?<v@?@"NSSet"@"NSError">24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long droppedReason;
 @property(readonly) struct __CVBuffer *visionDataPixelBuffer;
-@property(readonly) _Bool visionDataWasDropped;
 
 @end
 

@@ -9,7 +9,7 @@
     id previewPlayersList;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

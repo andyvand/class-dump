@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSNotificationCenter, NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMCameraClipManager
 {
     struct os_unfair_lock_s _lock;
-    NSString *_zoneName;
-    _HMContext *_context;
-    NSNotificationCenter *_notificationCenter;
-    NSMutableDictionary *_clipsByFetchUUID;
-    NSMutableDictionary *_significantEventsByFetchUUID;
-    NSMutableDictionary *_videoAssetContextsByClipUUID;
-    NSMapTable *_delegateCallersByObservers;
-    CDUnknownBlockType _fetchClientFactory;
-    NSUUID *_profileUniqueIdentifier;
 }
 
 + (id);
@@ -33,6 +23,7 @@
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,8 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -64,9 +54,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id).	*	M	0	>		$	;
+- (void)ted.isFullWidthCandidate;
+- (id)isConfiguration:compatibleWithStoreMetadata: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -77,27 +67,7 @@
 - (id)ies:completion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *clipsByFetchUUID; // @synthesize clipsByFetchUUID=_clipsByFetchUUID;
 @property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSMapTable *delegateCallersByObservers; // @synthesize delegateCallersByObservers=_delegateCallersByObservers;
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType fetchClientFactory; // @synthesize fetchClientFactory=_fetchClientFactory;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly, copy) NSUUID *profileUniqueIdentifier; // @synthesize profileUniqueIdentifier=_profileUniqueIdentifier;
-@property(readonly) NSMutableDictionary *significantEventsByFetchUUID; // @synthesize significantEventsByFetchUUID=_significantEventsByFetchUUID;
-@property(readonly) Class superclass;
-@property(readonly) NSMutableDictionary *videoAssetContextsByClipUUID; // @synthesize videoAssetContextsByClipUUID=_videoAssetContextsByClipUUID;
-@property(readonly, copy) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol MLPreparable
+- (_Bool)refitCurveLeafNodeInPlaceKernel;
 @end
 

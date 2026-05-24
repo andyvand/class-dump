@@ -9,15 +9,13 @@
 @interface IDSHandle
 {
     IDSURI *_URI;
-    _Bool _isUserVisible;
-    long long _validationStatus;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)mDeviceConnectNotification;
 - (_Bool);
 - (long long);
 - (void)ability;
@@ -25,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) IDSURI *URI; // @synthesize URI=_URI;
-@property(readonly, nonatomic) _Bool isUserVisible; // @synthesize isUserVisible=_isUserVisible;
-@property(readonly, nonatomic) long long validationStatus; // @synthesize validationStatus=_validationStatus;
 
 @end
 

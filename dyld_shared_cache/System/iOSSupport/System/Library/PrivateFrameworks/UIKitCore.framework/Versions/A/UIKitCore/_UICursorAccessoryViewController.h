@@ -6,20 +6,12 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSDictionary, NSString, UIColor, UITextRange, _UICursorAccessoryHostView;
-@protocol _UICursorAccessoryViewControllerDelegate;
+@class _UICursorAccessoryHostView;
 
 __attribute__((visibility("hidden")))
 @interface _UICursorAccessoryViewController : UIViewController
 {
     _Bool _visible;
-    id <_UICursorAccessoryViewControllerDelegate> _delegate;
-    NSArray *_selectionRects;
-    UITextRange *_selectedRange;
-    NSArray *_accessories;
-    _UICursorAccessoryHostView *_hostView;
-    NSDictionary *_accessoriesByIdentifier;
-    struct CGRect _cursorRect;
 }
 
 - (_Bool);
@@ -27,18 +19,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)setTransferringTransfers:(struct CGRect)arg1;
+- (void)sendEditedMessage:(id)arg1 toChat:fromCallerID:backwardCompatabilityText: /* Error: Ran out of types for this method. */;
+- (void)xt:(id)arg1;
+- (id)_fetchTransfersFromCloudKit:(struct CGPoint)arg1 indexOfTransfers:(id)arg2 numberOfBatchesToFetch:(id)arg3 activity:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)performQueryRequest:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (struct CGRect)IMDiMessageIDSTrustedData;
+- (void);
 - (id);
 - (void);
-- (struct CGRect);
 - (void);
-- (id);
-- (void);
-- (void);
-- (CDStruct_5aea72b4);
-- (void);
+- (CDStruct_b86b310a)FTCommandIDTranscriptBackgroundMessage;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -47,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool)1Â0@ù
 × ;
-- (id)View;
+- (id)topArrowLeftEndCapView;
 - (void)ntsOnly;
 - (id)râ¾7G;
 - (id);
@@ -60,23 +52,7 @@ __attribute__((visibility("hidden")))
 - (id)ÔÀÎæZd;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *accessories; // @synthesize accessories=_accessories;
-@property(retain, nonatomic) NSDictionary *accessoriesByIdentifier; // @synthesize accessoriesByIdentifier=_accessoriesByIdentifier;
-@property(retain, nonatomic) UIColor *accessoryTintColor;
-@property(nonatomic) struct CGRect cursorRect; // @synthesize cursorRect=_cursorRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UICursorAccessoryViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _UICursorAccessoryHostView *hostView; // @synthesize hostView=_hostView;
-@property(retain, nonatomic) UITextRange *selectedRange; // @synthesize selectedRange=_selectedRange;
-@property(retain, nonatomic) NSArray *selectionRects; // @synthesize selectionRects=_selectionRects;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool touchFallbackEnabled;
-@property(nonatomic, getter=isVisible) _Bool visible; // @synthesize visible=_visible;
 
 @end
 

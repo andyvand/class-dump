@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIMenuLeafKeyCombination;
+@class _UIMenuLeafKeyCombination;
 
 @interface _UIMenuLeafKeyboardShortcut
 {
     _UIMenuLeafKeyCombination *_localizedKeyCombination;
-    NSString *_lastLayout;
-    unsigned int _lastKeyboardType;
-    _Bool _automaticLocalizationEnabled;
-    _Bool _automaticMirroringEnabled;
-    _UIMenuLeafKeyCombination *_baseKeyCombination;
 }
 
 + (id);
-+ (_Bool)e;
-- (id);
++ (_Bool)AppleICUForce12HourTime;
+- (id)?;
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)verifyOffGridSubscriptionMatchesSubscriptionValidationToken:encryptionValidationToken:receivedByHandleID:fromHandleID:messageDate: /* Error: Ran out of types for this method. */;
+- (_Bool)verifyCurrentRelayDevicesActive: /* Error: Ran out of types for this method. */;
+- (id)service:(id)arg1 didSwitchActivePairedDevice:acknowledgementBlock: /* Error: Ran out of types for this method. */;
+- (id)existingChatsForIDs:displayName:groupID:style: /* Error: Ran out of types for this method. */;
+- (id)addAttachmentPart: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)handling message:%@ because it is scheduled for the future. %s vs now %s /* Error: Ran out of types for this method. */;
+- (void)mode is set for handle ID:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)SDirectionalEdgeInsets:(id)arg1;
-- (void)ndimmedDetentIdentifier:(id)arg1;
+- (_Bool)valueWithNSDirectionalEdgeInsets:(id)arg1;
+- (void)setLargestUndimmedDetentIdentifier:(id)arg1;
 - (id)ension;
-- (void)DisplayMode;
+- (void)ItemDisplayMode;
 
 // Remaining properties
-@property(nonatomic, getter=isAutomaticLocalizationEnabled) _Bool automaticLocalizationEnabled; // @synthesize automaticLocalizationEnabled=_automaticLocalizationEnabled;
-@property(nonatomic, getter=isAutomaticMirroringEnabled) _Bool automaticMirroringEnabled; // @synthesize automaticMirroringEnabled=_automaticMirroringEnabled;
 @property(readonly, nonatomic) _UIMenuLeafKeyCombination *baseKeyCombination; // @synthesize baseKeyCombination=_baseKeyCombination;
-@property(readonly, nonatomic) _UIMenuLeafKeyCombination *currentLocalizedKeyCombination;
 
 @end
 

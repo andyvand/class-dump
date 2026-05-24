@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAnisetteData, AKAnisetteProvisioningController, AKDevice, NSArray, NSLock, NSString;
-@protocol AKAnisetteServiceProtocol;
+@class AKDevice, NSString;
 
 @interface AKAppleIDSession
 {
     NSString *_serviceID;
-    AKAnisetteProvisioningController *_nativeAnisetteController;
-    AKAnisetteProvisioningController *_pairedDeviceAnisetteController;
-    AKAnisetteData *_proxiedAnisetteData;
-    NSLock *_anisetteControllerLock;
-    AKDevice *_pairedDevice;
-    id <AKAnisetteServiceProtocol> _anisetteDataProvider;
-    NSArray *_additionalHeadersForSigning;
 }
 
 + (_Bool);
@@ -27,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)鷟)*	;
 - (id);
 - (void);
 - (void);
@@ -42,30 +34,21 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)d;
 - (id);
 - (void);
-- (id);
+- (id)I;
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)playback;
+- (id)_flightArrivalAirportLatitude;
+- (_Bool)kMDItemAlarmTimeSecond;
 - (void);
 - (void);
 - (void)ÿeY@à;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalHeadersForSigning; // @synthesize additionalHeadersForSigning=_additionalHeadersForSigning;
-@property(retain, nonatomic) id <AKAnisetteServiceProtocol> anisetteDataProvider; // @synthesize anisetteDataProvider=_anisetteDataProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) AKDevice *pairedDevice; // @synthesize pairedDevice=_pairedDevice;
-@property(readonly) Class superclass;
 
 @end
 

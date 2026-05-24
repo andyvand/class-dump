@@ -9,7 +9,6 @@
 @interface CRKClassKitAccountStateProvider
 {
     long long _accountState;
-    ACAccountStore *_accountStore;
 }
 
 - (void);
@@ -17,15 +16,14 @@
 - (long long);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)numOfThrottlingEntriesPerWriteLevel_;
 - (long long);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long accountState; // @synthesize accountState=_accountState;
 @property(readonly, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
 
 @end

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage;
-
 @interface SHKShareImageView
 {
     struct CGRect _contentRect;
-    NSArray *_images;
-    int _imageStyle;
 }
 
 - (struct CGRect);
@@ -24,21 +20,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)arrayOfWindowControllerNamesToReopenAtLaunch;
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
 - (void);
 - (double);
-- (void);
-- (struct CGRect)ginExtensionRequestMeasurement: /* Error: Ran out of types for this method. */;
+- (void)__swift5_protos;
+- (struct CGRect)setBeginExtensionRequestMeasurement: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) struct CGRect contentFrame;
-@property struct CGRect contentRect; // @synthesize contentRect=_contentRect;
-@property(readonly) NSImage *decoratedImage;
-@property int imageStyle; // @synthesize imageStyle=_imageStyle;
-@property(retain) NSArray *images;
 
 @end
 

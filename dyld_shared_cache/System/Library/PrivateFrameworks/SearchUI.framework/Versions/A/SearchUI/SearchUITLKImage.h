@@ -14,8 +14,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)d;
+- (_Bool)registerWrittenResponse:config: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 

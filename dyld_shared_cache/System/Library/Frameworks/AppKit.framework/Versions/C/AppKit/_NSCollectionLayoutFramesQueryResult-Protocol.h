@@ -4,37 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutItem, NSCollectionLayoutSupplementaryItem, NSUUID;
-@protocol _NSCollectionLayoutAuxiliaryItem;
+@class NSUUID;
 
 @protocol _NSCollectionLayoutFramesQueryResult
+- (_Bool)blQ;
+- (_Bool)FirmwareVersion;
+- (_Bool)tAryHM5IUMkdtvVqqu1tcA;
+- (_Bool)W3acTT7WTS/XqyQ;
+- (NSUUID *);
 - (id)ùà3°1Â0@ù
 × ;
 - (_Bool)0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@?48 /* Error: Ran out of types for this method. */;
-- (long long)geAlignedOriginOnAxis:forProposedDestination:currentOrigin:initialOrigin:velocity: /* Error: Ran out of types for this method. */;
+- (long long)scrollView:pageAlignedOriginOnAxis:forProposedDestination:currentOrigin:initialOrigin:velocity: /* Error: Ran out of types for this method. */;
 - (_Bool)3;
 - (long long)È4(¨>;
 
 // Remaining properties
-@property(readonly, nonatomic) long long alignment;
-@property(readonly, nonatomic) id <_NSCollectionLayoutAuxiliaryItem> auxiliaryItem;
-@property(readonly, nonatomic) long long auxiliaryKind;
-@property(readonly, nonatomic) long long effectiveZIndex;
 @property(readonly, nonatomic) struct CGRect frame;
-@property(readonly, nonatomic) long long index;
-@property(readonly, nonatomic) _Bool isAuxiliary;
-@property(readonly, nonatomic) _Bool isAuxiliaryKindGlobal;
-@property(readonly, nonatomic) _Bool isAuxiliaryKindGroup;
-@property(readonly, nonatomic) _Bool isAuxiliaryKindItem;
-@property(readonly, nonatomic) _Bool isAuxiliaryKindSection;
-@property(readonly, nonatomic) _Bool isDecoration;
-@property(readonly, nonatomic) _Bool isItem;
-@property(readonly, nonatomic) _Bool isPinned;
-@property(readonly, nonatomic) _Bool isSupplementary;
-@property(readonly, nonatomic) NSCollectionLayoutItem *item;
-@property(readonly, nonatomic) long long resultKind;
-@property(readonly, nonatomic) NSUUID *supplementaryEnrollmentIdentifier;
-@property(readonly, nonatomic) NSCollectionLayoutSupplementaryItem *supplementaryItem;
-@property(readonly, nonatomic) long long zIndex;
 @end
 

@@ -10,11 +10,11 @@
 
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)w;
 - (id)EþÿøüÿØûÿXHþÿ¤Þûÿ Þûÿ;
 
 @end

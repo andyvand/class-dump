@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSDate, NSPersistentHistoryToken, NSSet, NSString;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface NSCKExportMetadata : NSManagedObject
@@ -17,9 +17,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *exportedAt; // @dynamic exportedAt;
-@property(retain, nonatomic) NSPersistentHistoryToken *historyToken; // @dynamic historyToken;
-@property(retain, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSSet *operations; // @dynamic operations;
 
 @end
 

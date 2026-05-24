@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCReadingHistory, FCReadingList, FCSubscriptionList, NSString;
-@protocol NUArticleActivityOptionsProvider, NUURLHandling;
+@class FCReadingHistory;
 
 @interface NUArticleActivityManagerFactory
 {
     FCReadingHistory *_readingHistory;
-    FCReadingList *_readingList;
-    FCSubscriptionList *_subscriptionList;
-    id <NUURLHandling> _URLHandler;
-    id <NUArticleActivityOptionsProvider> _optionsProvider;
 }
 
-- (id);
+- (id)˟;
 - (id);
 - (id);
 - (id);
@@ -26,18 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <NUURLHandling> URLHandler; // @synthesize URLHandler=_URLHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <NUArticleActivityOptionsProvider> optionsProvider; // @synthesize optionsProvider=_optionsProvider;
 @property(readonly, nonatomic) FCReadingHistory *readingHistory; // @synthesize readingHistory=_readingHistory;
-@property(readonly, nonatomic) FCReadingList *readingList; // @synthesize readingList=_readingList;
-@property(readonly, nonatomic) FCSubscriptionList *subscriptionList; // @synthesize subscriptionList=_subscriptionList;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFType;
-
 @interface WFRepresentation
 {
 }
@@ -14,16 +12,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEncodable) _Bool encodable;
-@property(readonly, copy, nonatomic) NSString *wfName;
-@property(readonly, nonatomic) WFType *wfType;
 
 @end
 

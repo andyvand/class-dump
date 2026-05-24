@@ -12,33 +12,27 @@ __attribute__((visibility("hidden")))
 @interface HMDCameraSignificantEventBulletinNotificationRegistration : HMDBulletinNotificationRegistration
 {
     NSUUID *_cameraIdentifier;
-    unsigned long long _notificationModes;
-    unsigned long long _significantEventTypes;
-    unsigned long long _personFamiliarityOptions;
 }
 
 + (id);
 + (_Bool)8D;<Î;
-- (id);
+- (id)MSPShareETASupportedReceivingTransportTypesKey;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)ocationCollectionTrait";
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id):(struct _NSZone *)arg1;
+- (id)findTimerTriggerWithModelID:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
 - (id)essViolationControlOperation",&,N,V_operation;
 - (id)Unexpected error contains underlying error %@;
 - (id)blic}@Failed to read supported tiers:(id)arg1 Error %@ initializing initialize audio stream tiers from TLV data:%@ /* Error: Ran out of types for this method. */;
-- (void)Source;
+- (void)CoreSpotlightIndexerDataSource;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *cameraIdentifier; // @synthesize cameraIdentifier=_cameraIdentifier;
-@property(readonly) unsigned long long notificationModes; // @synthesize notificationModes=_notificationModes;
-@property(readonly) unsigned long long personFamiliarityOptions; // @synthesize personFamiliarityOptions=_personFamiliarityOptions;
-@property(readonly) unsigned long long significantEventTypes; // @synthesize significantEventTypes=_significantEventTypes;
 
 @end
 

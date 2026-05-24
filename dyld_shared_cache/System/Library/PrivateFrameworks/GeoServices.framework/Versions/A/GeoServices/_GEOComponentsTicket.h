@@ -6,16 +6,12 @@
 
 #import <GeoServices/GEOAbstractMapServiceTicket.h>
 
-@class GEOMapItemIdentifier, NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _GEOComponentsTicket : GEOAbstractMapServiceTicket
 {
     NSDictionary *_components;
-    GEOMapItemIdentifier *_identifier;
-    int _resultProviderID;
-    NSString *_contentProvider;
-    id _requestToken;
 }
 
 - (id);
@@ -24,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)EOLiveTileKey=b6b26b26b14b4b4b4b36})}16@32@40@48@56@64@72;
 - (void);
-- (CDStruct_d1a7ebee);
+- (CDStruct_026435ec);
 
 @end
 

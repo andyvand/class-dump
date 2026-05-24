@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol _CPButtonFeedback
+- (void)rocessProxy, WeakPtrImpl = WTF:(NSString *)arg1:DefaultWeakPtrImpl] /* Error: Ran out of types for this method. */;
+- (NSString *)led to insert value ;
+- (int);
+- (void)C;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *commandDetail;
 @property(nonatomic) int commandType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long timestamp;
-@property(nonatomic) unsigned long long uniqueId;
 @end
 

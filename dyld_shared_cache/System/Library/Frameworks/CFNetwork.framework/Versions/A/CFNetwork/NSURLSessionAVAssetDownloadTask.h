@@ -6,21 +6,17 @@
 
 #import <CFNetwork/NSURLSessionTask.h>
 
-@class NSURL;
-
 @interface NSURLSessionAVAssetDownloadTask : NSURLSessionTask
 {
     unsigned long long _AVAssetDownloadToken;
 }
 
-- (id);
+- (id)^h#;
 - (id);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly) unsigned long long AVAssetDownloadToken; // @synthesize AVAssetDownloadToken=_AVAssetDownloadToken;
-@property(readonly, copy) NSURL *URL; // @dynamic URL;
-@property(readonly, copy) NSURL *destinationURL; // @dynamic destinationURL;
 
 @end
 

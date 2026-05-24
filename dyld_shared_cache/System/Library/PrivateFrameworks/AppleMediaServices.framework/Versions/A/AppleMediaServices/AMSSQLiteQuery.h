@@ -4,27 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSQLiteConnection, AMSSQLiteQueryDescriptor;
+@class AMSSQLiteConnection;
 
 __attribute__((visibility("hidden")))
 @interface AMSSQLiteQuery
 {
     AMSSQLiteConnection *_connection;
-    AMSSQLiteQueryDescriptor *_descriptor;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)+;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id)ublic}@;
-- (void)eviceComponent;
+- (void)accountAndDeviceComponent;
 - (void)Õ\üâ4Ù¼íge¦ÜðG\®­¡w@;
 - (void)Rj2¡j1¡aj0¡Ëj7¡Èj6¡5j5¡j4¡j;¡j:(id)arg1 ¡j9¡dj8¡>j?¡µj>¡Ùj=¡xj<¡6j#¡+j"¡±j!¡j ¡j'¡j&¡Åj%¡¤j$¡Sj+¡yj*¡%j)¡ij(¡j/¡j.¡fj-¡£j,¡j¡j¡Lj¡
 j¡qj¡|j¡j¡Ñj¡;j¡Xj¡wj¡´j¡àj¡¡j¡Tj¡\j¡#j¡âj¡Zj¡j;
@@ -32,8 +31,6 @@ j¡qj¡|j¡j¡Ñj¡;j¡Xj¡wj¡´j¡àj¡¡j¡Tj¡\j¡#j¡âj¡Z
 
 // Remaining properties
 @property(readonly) AMSSQLiteConnection *connection;
-@property(readonly) long long countOfEntities;
-@property(readonly) AMSSQLiteQueryDescriptor *queryDescriptor;
 
 @end
 

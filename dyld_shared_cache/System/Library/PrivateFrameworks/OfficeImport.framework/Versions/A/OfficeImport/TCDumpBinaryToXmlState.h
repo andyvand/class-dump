@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TCDumpBinaryToXmlState
 {
     NSString *mCurrentFieldName;
-    NSMutableDictionary *mFieldNameToValueMap;
 }
 
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)(;
 - (void);
 - (id);
 - (void)qXugClK-v5MmHtrhxGeQiIf33qItBVDmza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/TSUDurationFormatter.m;

@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)h;
+- (void);
+- (void)s:(NSURLSession *)arg1 isThermallyLimited = %s, displayLimitedReferenceNits = %f, m_displayNitsReferencePeak = %f;
 - (void);
 - (void)ÿ¸1$gý<0kØÿÿÿ;
 - (void);

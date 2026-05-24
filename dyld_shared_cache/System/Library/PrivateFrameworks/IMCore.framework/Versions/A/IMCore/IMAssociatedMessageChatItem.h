@@ -6,34 +6,26 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMEmojiSticker, IMHandle, IMTapback, NSDate, NSDictionary, NSString;
-
 @interface IMAssociatedMessageChatItem : IMTranscriptChatItem
 {
     _Bool _parentMessageIsFromMe;
-    _Bool _isReaction;
-    IMHandle *_sender;
-    IMTapback *_tapback;
-    IMEmojiSticker *_emojiSticker;
-    unsigned long long _stickerPositionVersion;
-    struct IMAssociatedMessageGeometryDescriptor _geometryDescriptor;
 }
 
-- (unsigned long long);
+- (unsigned long long)];
+- (void)-> %d %d samplesPerFrame;
+- (_Bool)DisplayLabel=%@ forceEnableScreenVirtualDisplayLabel=%d;
+- (_Bool)ceived from participantID='%@' but could not decrypt it. Dropping message...;
+- (struct IMAssociatedMessageGeometryDescriptor)entCaptureFrameRate=%d maxSupportedMultiwayFrameRate=%d framerate=%d;
+- (void)t be NULL;
+- (void)hannelDelegate receivedMessage callback with message '%@%@';
+- (_Bool)ng yet;
+- (id)eoStreamType=%d;
+- (id)streamToken=%u transportSessionID=%d;
 - (void);
-- (_Bool);
-- (_Bool);
-- (struct IMAssociatedMessageGeometryDescriptor);
 - (void);
-- (void);
-- (_Bool);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
 - (_Bool);
-- (id);
+- (id);;
 - (long long);
 - (struct _NSRange);
 - (id);
@@ -48,22 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *associatedMessageEmoji;
-@property(readonly, nonatomic) NSString *associatedMessageGUID;
-@property(readonly, nonatomic) struct _NSRange associatedMessageRange;
-@property(readonly, nonatomic) long long associatedMessageType;
-@property(readonly, nonatomic) IMEmojiSticker *emojiSticker; // @synthesize emojiSticker=_emojiSticker;
-@property(readonly, nonatomic) _Bool failed;
-@property(readonly, nonatomic) struct IMAssociatedMessageGeometryDescriptor geometryDescriptor; // @synthesize geometryDescriptor=_geometryDescriptor;
-@property(readonly, nonatomic) _Bool isEmojiSticker;
 @property(readonly, nonatomic) _Bool isFromMe;
-@property(nonatomic) _Bool isReaction; // @synthesize isReaction=_isReaction;
-@property(readonly, nonatomic) NSDictionary *messageSummaryInfo;
-@property(readonly, nonatomic) _Bool parentMessageIsFromMe; // @synthesize parentMessageIsFromMe=_parentMessageIsFromMe;
-@property(readonly, nonatomic) IMHandle *sender; // @synthesize sender=_sender;
-@property(readonly, nonatomic) unsigned long long stickerPositionVersion; // @synthesize stickerPositionVersion=_stickerPositionVersion;
-@property(readonly, nonatomic) IMTapback *tapback; // @synthesize tapback=_tapback;
-@property(readonly, nonatomic) NSDate *time;
 
 @end
 

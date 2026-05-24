@@ -6,66 +6,11 @@
 
 #import <UIKitCore/UIScene.h>
 
-@class NSHashTable, NSPointerArray, NSSet, UISceneSizeRestrictions, UISceneWindowingBehaviors, UIScreen, UITraitCollection, UIWindow, UIWindowSceneGeometry, _UIAssertionController, _UIContextBinder, _UITraitChangeRegistry, _UITraitOverrides, _UITypedStorage;
-@protocol UIActivityItemsConfigurationProviding, UICoordinateSpace, _UIDisplayInfoProviding, _UISceneMetricsCalculating, _UITraitEnvironmentInternal;
+@class UIScreen;
 
 @interface UIWindowScene : UIScene
 {
     UIScreen *_screen;
-    id <_UIDisplayInfoProviding> _displayEdgeInfoProvider;
-    UITraitCollection *_traitCollection;
-    _UITraitOverrides *_traitOverrides;
-    _UITraitChangeRegistry *_traitChangeRegistry;
-    NSSet *_componentsWithTraitOverrides;
-    id <UICoordinateSpace> _coordinateSpace;
-    UISceneSizeRestrictions *_sizeRestrictions;
-    UISceneWindowingBehaviors *_windowingBehaviors;
-    UIWindowSceneGeometry *_effectiveGeometry;
-    UIWindowSceneGeometry *_transitionEffectiveGeometry;
-    unsigned int _geometryChangeLevel;
-    _UIContextBinder *_contextBinder;
-    UIWindow *_delegateWindowNeedingDeferredInitialUpdate;
-    NSHashTable *_windowsNeedingDeferredInitialUpdateExecution;
-    NSPointerArray *_keyWindowHistory;
-    UIWindow *_keyWindow;
-    unsigned int _userInteractionDisabledCount;
-    _UIAssertionController *_assertionController;
-    int _reachabilitySupportedCounter;
-    struct {
-        _Bool valid;
-        struct CGSize size;
-        struct UIEdgeInsets contentInsets;
-        long long pointerLockStatus;
-    } _explicitSettings;
-    struct {
-        unsigned int delegateSupportsWindow:1;
-        unsigned int delegateSupportsSetWindow:1;
-        unsigned int delegateSupportsDidUpdateCoordinateSpace:1;
-        unsigned int delegateSupportsDidUpdateEffectiveGeometry:1;
-        unsigned int isPerformingSystemSnapshot:1;
-        unsigned int holdingLiveResizeSnapshot:1;
-        unsigned int shouldDisableTouchCancellationOnRotation:1;
-        unsigned int enqueuedEvaluationOfDisablesMirroring:1;
-    } _windowSceneFlags;
-    struct {
-        unsigned int delegateSupportsWindowWillAttach:1;
-        unsigned int delegateSupportsWindowWillDetach:1;
-        unsigned int delegateSupportsWindowWillBecomeVisible:1;
-        unsigned int delegateSupportsWindowDidBecomeVisible:1;
-        unsigned int delegateSupportsWindowWillBecomeHidden:1;
-        unsigned int delegateSupportsWindowLevelOverride:1;
-        unsigned int delegateSupportsWindowSupportedAndPreferredOrientationsChanged:1;
-        unsigned int delegateSupportsDeprecatedWindowSupportedOrientationsChanged:1;
-    } _springBoardDelegateFlags;
-    id <_UISceneMetricsCalculating> _metricsCalculator;
-    UITraitCollection *_overrideParentTraitCollection;
-    _Bool __isKeyWindowScene;
-    _Bool _excludedFromWindowsMenu;
-    _UITypedStorage *_typedStorage;
-    long long _screenRequestedOverscanCompensation;
-    long long _avkitRequestedOverscanCompensation;
-    id <_UITraitEnvironmentInternal> _overrideParentTraitEnvironment;
-    id <UIActivityItemsConfigurationProviding> _activityItemsConfigurationSource;
 }
 
 @end

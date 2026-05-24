@@ -11,22 +11,20 @@
 @interface SFDidGoToSiteFeedback : SFFeedback
 {
     NSString *_input;
-    unsigned long long _triggerEvent;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
+- (id)screenshotArtworkCatalog;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)one.m4r;
+- (void)y",&,V_folders;
 - (void)_altitudeInMeters;
 - (void);
 - (unsigned long long)Óêÿìê;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property(nonatomic) unsigned long long triggerEvent; // @synthesize triggerEvent=_triggerEvent;
 
 @end
 

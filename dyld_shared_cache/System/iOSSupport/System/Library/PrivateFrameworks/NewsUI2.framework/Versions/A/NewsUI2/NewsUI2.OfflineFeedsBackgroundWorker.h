@@ -7,9 +7,6 @@
 @interface NewsUI2.OfflineFeedsBackgroundWorker
 {
     id offlineFeedsSupervisor;
-    id offlineContentManager;
-    id contentContext;
-    id appConfigManager;
 }
 
 @end

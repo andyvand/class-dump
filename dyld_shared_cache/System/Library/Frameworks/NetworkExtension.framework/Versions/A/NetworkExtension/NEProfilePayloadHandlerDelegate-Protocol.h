@@ -4,7 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol NEProfilePayloadHandlerDelegate
+- (_Bool);
+- (_Bool)el;
+- (_Bool)phoneAutoUnlockWatchSleepModeOn;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)E;
+- (NSDictionary *);
+- (NSDictionary *);
 - (_Bool)empty payload atom;
 @end
 

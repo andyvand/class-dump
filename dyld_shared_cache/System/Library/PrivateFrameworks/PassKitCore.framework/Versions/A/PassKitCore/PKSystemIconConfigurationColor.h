@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKSystemIconConfigurationColor
 {
     unsigned long long _type;
-    NSString *_hexString;
-    unsigned long long _builtInColor;
 }
 
 + (_Bool);
-- (void);
+- (void)J;
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)actualHighBandwidth;
 - (id);
 - (void);
-- (id);
-- (id)s;
+- (id));
+- (id)paymentApplicationIdentifiers;
 - (void)pIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/258x258.png;
 
 // Remaining properties
-@property(nonatomic) unsigned long long builtInColor; // @synthesize builtInColor=_builtInColor;
-@property(copy, nonatomic) NSString *hexString; // @synthesize hexString=_hexString;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

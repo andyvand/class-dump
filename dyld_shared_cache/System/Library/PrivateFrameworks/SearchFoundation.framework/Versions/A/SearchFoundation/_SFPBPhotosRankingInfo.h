@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBPhotosRankingInfo
 {
     int _totalNumberOfAssetsIndexed;
-    int _totalNumberOfAssetsInLibrary;
-    int _totalNumberOfEmbeddingMatchedAssets;
-    int _totalNumberOfMetadataMatchedAssets;
-    int _assetEstimationOffAmount;
-    int _indexedAssetsPercentage;
-    int _analyzedAssetsPercentage;
-    int _analyzedAndIndexedAssetsPercentage;
-    int _embeddedAssetsPercentage;
-    int _assetsRetrieved;
-    int _collectionsRetrieved;
 }
 
 - (int);
@@ -45,34 +33,16 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)predicateToIncludeOnlyAllowedForAnalysisAndProcessedToLatestSceneVersionWithNoindex:(id)arg1;
+- (id)lt - NLP Date range is found and no suggestion is matching it;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) int analyzedAndIndexedAssetsPercentage; // @synthesize analyzedAndIndexedAssetsPercentage=_analyzedAndIndexedAssetsPercentage;
-@property(nonatomic) int analyzedAssetsPercentage; // @synthesize analyzedAssetsPercentage=_analyzedAssetsPercentage;
-@property(nonatomic) int assetEstimationOffAmount; // @synthesize assetEstimationOffAmount=_assetEstimationOffAmount;
-@property(nonatomic) int assetsRetrieved; // @synthesize assetsRetrieved=_assetsRetrieved;
-@property(nonatomic) int collectionsRetrieved; // @synthesize collectionsRetrieved=_collectionsRetrieved;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int embeddedAssetsPercentage; // @synthesize embeddedAssetsPercentage=_embeddedAssetsPercentage;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int indexedAssetsPercentage; // @synthesize indexedAssetsPercentage=_indexedAssetsPercentage;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(nonatomic) int totalNumberOfAssetsInLibrary; // @synthesize totalNumberOfAssetsInLibrary=_totalNumberOfAssetsInLibrary;
 @property(nonatomic) int totalNumberOfAssetsIndexed; // @synthesize totalNumberOfAssetsIndexed=_totalNumberOfAssetsIndexed;
-@property(nonatomic) int totalNumberOfEmbeddingMatchedAssets; // @synthesize totalNumberOfEmbeddingMatchedAssets=_totalNumberOfEmbeddingMatchedAssets;
-@property(nonatomic) int totalNumberOfMetadataMatchedAssets; // @synthesize totalNumberOfMetadataMatchedAssets=_totalNumberOfMetadataMatchedAssets;
 
 @end
 

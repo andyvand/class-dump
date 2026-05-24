@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface ICLegacyAttachmentFileWrapper
 {
@@ -13,15 +13,14 @@
 
 + (_Bool);
 - (id);
-- (void)È;
-- (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (void)_handleBroadcastRequestMessaage:(id)arg1 state: /* Error: Ran out of types for this method. */;
 - (void)PÒ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *attachmentIdentifier;
 @property(retain, nonatomic) NSURL *cidURL; // @synthesize cidURL=_cidURL;
 
 @end

@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)mageAnalysisButtonMode unhandled :%lu /* Error: Ran out of types for this method. */;
 + (void);
-- (void);
+- (void);
 - (void);
 
 @end

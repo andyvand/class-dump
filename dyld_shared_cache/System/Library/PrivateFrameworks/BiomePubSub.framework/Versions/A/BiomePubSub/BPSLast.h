@@ -6,23 +6,20 @@
 
 #import <BiomePubSub/BMBookmarkablePublisher.h>
 
-@protocol BPSPublisher;
-
 @interface BPSLast : BMBookmarkablePublisher
 {
     _Bool _returned;
-    id <BPSPublisher> _upstream;
-    id _lastEvent;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)%d
+;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)setBytesUploaded: /* Error: Ran out of types for this method. */;
+- (id)P;
+- (_Bool)_muteButtonTapRecognized: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -36,8 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id lastEvent; // @synthesize lastEvent=_lastEvent;
-@property(nonatomic) _Bool returned; // @synthesize returned=_returned;
-@property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end
 

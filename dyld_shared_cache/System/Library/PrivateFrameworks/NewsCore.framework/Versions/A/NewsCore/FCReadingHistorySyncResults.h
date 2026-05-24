@@ -9,9 +9,6 @@
 @interface FCReadingHistorySyncResults
 {
     NSArray *_modifiedArticleIDs;
-    NSArray *_deletedArticleIDs;
-    NSArray *_newlyCreatedArticleIDs;
-    NSArray *_articleExposures;
 }
 
 - (void)t-section-config-record-source;

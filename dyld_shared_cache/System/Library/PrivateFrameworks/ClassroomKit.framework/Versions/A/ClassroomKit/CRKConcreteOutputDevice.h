@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVOutputContext, AVOutputDevice, NSString;
+@class AVOutputDevice;
 
 @interface CRKConcreteOutputDevice
 {
     AVOutputDevice *_outputDevice;
-    AVOutputContext *_outputContext;
 }
 
 + (id);
@@ -21,8 +20,6 @@
 - (id). Transport preflight failed:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) AVOutputContext *outputContext; // @synthesize outputContext=_outputContext;
 @property(readonly, nonatomic) AVOutputDevice *outputDevice; // @synthesize outputDevice=_outputDevice;
 
 @end

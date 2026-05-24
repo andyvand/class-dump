@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTTripClusterRoadTransitionsStore : RTStore
 {
 }
@@ -15,7 +13,7 @@
 + (id);
 + (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -29,25 +27,19 @@
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)_queryEscrowKeysAll;
+- (void)OS_dispatch_queue>",&,V_queue;
+- (void)NSMutableDictionary",&,V_serviceContexts;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)eLRCHSM:(id)arg1 failed to write stingray fallback record:(unsigned long long)arg2 %@;
+- (void)ed recreation, ensuring that we have LRC keys in memory...;
 - (id);
 - (id)sitive}@,;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

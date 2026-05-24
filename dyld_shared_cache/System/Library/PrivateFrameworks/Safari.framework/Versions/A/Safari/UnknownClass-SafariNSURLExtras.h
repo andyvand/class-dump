@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSURL;
 
 @interface UnknownClass (SafariNSURLExtras)
 + (id);
@@ -15,44 +15,44 @@
 - (id);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (id)K9;
+- (id)W;
+- (void);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -60,41 +60,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *safari_URLByLowercasingScheme;
 @property(readonly, nonatomic) NSURL *safari_URLByRemovingFragment;
-@property(readonly, nonatomic) NSURL *safari_URLByRemovingPathComponents;
-@property(readonly, copy, nonatomic) NSArray *safari_emailAddresses;
-@property(readonly, copy, nonatomic) NSString *safari_fileSystemPath;
-@property(readonly, nonatomic) NSURL *safari_fileURLByRemovingQueryStringAndFragment;
-@property(readonly, copy, nonatomic) NSString *safari_fullySimplifiedUserVisibleString;
-@property(readonly, nonatomic) _Bool safari_hasPassPathExtension;
-@property(readonly, nonatomic) _Bool safari_hasPassesPathExtension;
-@property(readonly, nonatomic) _Bool safari_hasWalletOrderPathExtension;
-@property(readonly, nonatomic) _Bool safari_isAcknowledgmentsURL;
-@property(readonly, nonatomic) _Bool safari_isAllowedAsDownloadLocation;
-@property(readonly, nonatomic) _Bool safari_isAppBundleOrICNSURL;
-@property(readonly, nonatomic) _Bool safari_isBookmarksURL;
-@property(readonly, nonatomic) _Bool safari_isCandidateForTopHitDemotion;
-@property(readonly, nonatomic) _Bool safari_isCertificateWarningPageResourceURL;
-@property(readonly, nonatomic) _Bool safari_isEligibleForUseInWebContentContextMenuItems;
-@property(readonly, nonatomic) _Bool safari_isErrorPageResourcesURL;
-@property(readonly, nonatomic) _Bool safari_isFavoritesURL;
-@property(readonly, nonatomic) _Bool safari_isHistoryURL;
-@property(readonly, nonatomic) _Bool safari_isNativeContentURL;
-@property(readonly, nonatomic) _Bool safari_isReaderURL;
-@property(readonly, nonatomic) _Bool safari_isSafariAppExtensionURL;
-@property(readonly, nonatomic) _Bool safari_isSafariResourceURL;
-@property(readonly, nonatomic) _Bool safari_isSpawnedTabParentURL;
-@property(readonly, nonatomic) _Bool safari_isStartPageURL;
-@property(readonly, nonatomic) _Bool safari_isTabOverviewURL;
-@property(readonly, nonatomic) _Bool safari_isTopSitesURL;
-@property(readonly, nonatomic) _Bool safari_isURLPinnable;
-@property(readonly, nonatomic) _Bool safari_isUserPreferredStartPageURL;
-@property(readonly, nonatomic) _Bool safari_isValidTemporaryWebExtension;
-@property(readonly, nonatomic) _Bool safari_isViableDisplayedTopSiteURL;
-@property(readonly, nonatomic) _Bool safari_isWebPushPersistentNotificationURL;
-@property(readonly, nonatomic) _Bool safari_isWebPushURL;
-@property(readonly, copy, nonatomic) NSString *safari_resourceSpecifier;
-@property(readonly, nonatomic) _Bool safari_shouldBeReflectedInUnifiedField;
 @end
 

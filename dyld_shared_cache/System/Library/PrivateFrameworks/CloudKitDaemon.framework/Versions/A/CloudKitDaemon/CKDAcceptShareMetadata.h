@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordID, NSData, NSString, NSURL;
+@class NSURL;
 
 @interface CKDAcceptShareMetadata
 {
     _Bool _acceptedInProcess;
-    NSURL *_shareURL;
-    CKRecordID *_shareRecordID;
-    NSString *_etag;
-    NSData *_publicPCSData;
-    NSString *_publicPCSEtag;
-    NSData *_publicKey;
-    unsigned long long _publicKeyVersion;
-    NSString *_participantID;
-    NSData *_pppcsProtectionInfo;
-    NSString *_anonymousCKUserID;
-    struct _PCSIdentityData *_signingPCSIdentity;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)9h;
 - (id);
 - (void);
 - (struct _PCSIdentityData *);
@@ -50,18 +39,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool acceptedInProcess; // @synthesize acceptedInProcess=_acceptedInProcess;
-@property(retain, nonatomic) NSString *anonymousCKUserID; // @synthesize anonymousCKUserID=_anonymousCKUserID;
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(retain, nonatomic) NSString *participantID; // @synthesize participantID=_participantID;
-@property(retain, nonatomic) NSData *pppcsProtectionInfo; // @synthesize pppcsProtectionInfo=_pppcsProtectionInfo;
-@property(retain, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(nonatomic) unsigned long long publicKeyVersion; // @synthesize publicKeyVersion=_publicKeyVersion;
-@property(retain, nonatomic) NSData *publicPCSData; // @synthesize publicPCSData=_publicPCSData;
-@property(retain, nonatomic) NSString *publicPCSEtag; // @synthesize publicPCSEtag=_publicPCSEtag;
-@property(retain, nonatomic) CKRecordID *shareRecordID; // @synthesize shareRecordID=_shareRecordID;
 @property(retain, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(nonatomic) struct _PCSIdentityData *signingPCSIdentity; // @synthesize signingPCSIdentity=_signingPCSIdentity;
 
 @end
 

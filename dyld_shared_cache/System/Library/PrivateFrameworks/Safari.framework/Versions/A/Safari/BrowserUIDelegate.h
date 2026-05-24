@@ -4,33 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserViewController, NSString, WBSSafariExtensionStateObserver;
+@class BrowserViewController;
 
 __attribute__((visibility("hidden")))
 @interface BrowserUIDelegate
 {
     BrowserViewController *_browserViewController;
-    _Bool _isLockingFirstResponderForImmediateAction;
-    WBSSafariExtensionStateObserver *_webExtensionsStateObserver;
-    WBSSafariExtensionStateObserver *_appExtensionsStateObserver;
 }
 
 + (void);
 - (id);
 - (void);
+- (void)`b;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -43,16 +50,6 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -77,7 +74,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(C;
 - (void);
 - (void);
 - (void);
@@ -91,8 +88,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)75;
+- (void)_;
 - (void);
 - (id);
 - (id);
@@ -162,7 +159,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -185,13 +182,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

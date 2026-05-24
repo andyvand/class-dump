@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatBracketDataVisualization
 {
     id tagIdentifier;
-    id _query;
-    id _selectors;
-    id _properties;
 }
 
 @end

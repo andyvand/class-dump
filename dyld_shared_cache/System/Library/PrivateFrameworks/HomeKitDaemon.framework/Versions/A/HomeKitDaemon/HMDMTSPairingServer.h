@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMTRSystemCommissionerPairingManager, NSString;
+@class HMMTRSystemCommissionerPairingManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDMTSPairingServer
@@ -14,26 +14,19 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)setHasArtworkSourceType:(id)arg1;
+- (void)service:(id)arg1 account:(id)arg2 incomingData:(CDUnknownBlockType)arg3 fromID:context: /* Error: Ran out of types for this method. */;
+- (void)replaceEditableObjectsAtIndexes:(id)arg1 withEditableObjects:(CDUnknownBlockType)arg2;
+- (void)identifierForObjectAtopAddedImmutableObject:(id)arg1;
+- (void)_geoHistorySettingsPath;
+- (id)"24@?0@"MSPSharedTripContact"8Q16;
 - (void);
 - (void);
 - (id)1Â0@ù
 × ;
-- (void)viceResidentPrimaryResidentAnyHome;
+- (void)currentDeviceResidentPrimaryResidentAnyHome;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) HMMTRSystemCommissionerPairingManager *systemCommissionerPairingManager; // @synthesize systemCommissionerPairingManager=_systemCommissionerPairingManager;
 
 @end

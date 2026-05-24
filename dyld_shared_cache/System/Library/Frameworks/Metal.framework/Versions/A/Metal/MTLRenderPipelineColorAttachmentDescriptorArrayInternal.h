@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)Listener;
+- (void)_eventSignalListener;
 - (id)jÝÿÿ;
 
 @end

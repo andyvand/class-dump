@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, WBSBrowsingAssistantAvailabilityLabels;
+@class WBSBrowsingAssistantAvailabilityLabels;
 @protocol WBSContentAvailabilityDisplayPresenting;
 
 @interface WBSContentAvailabilityDisplayController
 {
     WBSBrowsingAssistantAvailabilityLabels *_availabilityLabels;
-    NSTimer *_displayTimer;
-    unsigned long long _displayedIndex;
-    id <WBSContentAvailabilityDisplayPresenting> _presenter;
-    double _labelDisplayDuration;
-    unsigned long long _cumulativeOptions;
 }
 
 - (void);
@@ -22,21 +17,16 @@
 - (void);
 - (double);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)qA;
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (id);
-- (void)osticData;
+- (void)WBSTranslationDiagnosticData;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long cumulativeOptions; // @synthesize cumulativeOptions=_cumulativeOptions;
-@property(readonly, copy, nonatomic) NSString *currentLabel;
-@property(readonly, nonatomic) unsigned long long currentOptions;
-@property(readonly, nonatomic, getter=isDisplaying) _Bool displaying;
-@property(nonatomic) double labelDisplayDuration; // @synthesize labelDisplayDuration=_labelDisplayDuration;
 @property(nonatomic) __weak id <WBSContentAvailabilityDisplayPresenting> presenter; // @synthesize presenter=_presenter;
 
 @end

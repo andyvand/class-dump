@@ -9,15 +9,11 @@
 @interface TSDCalloutPathSource : TSDPathSource
 {
     double mCornerRadius;
-    double mTailSize;
-    struct CGPoint mTailPosition;
-    struct CGSize mNaturalSize;
-    _Bool mIsTailAtCenter;
 }
 
++ (id)(~;
 + (id);
-+ (id);
-- (id);
+- (id);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -42,7 +38,7 @@
 - (long long);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)]d;
 - (_Bool);
 - (id);
 - (id);
@@ -61,20 +57,12 @@
 - (id);
 - (double)
 × ;
-- (void)lectsCellOnInitialTap;
+- (void)selectsCellOnInitialTap;
 - (void)å?;
 - (struct CGSize);
 
 // Remaining properties
 @property(nonatomic) double cornerRadius;
-@property(readonly, nonatomic) _Bool isTailAtCenter;
-@property(readonly, nonatomic) double maxCornerRadius;
-@property(readonly, nonatomic) double maxTailSize;
-@property(readonly) unsigned long long numberOfControlKnobs;
-@property(readonly, nonatomic) struct CGPoint tailCenter;
-@property(nonatomic) struct CGPoint tailKnobPosition;
-@property(nonatomic) double tailSize;
-@property(nonatomic) struct CGPoint tailSizeKnobPosition;
 
 @end
 

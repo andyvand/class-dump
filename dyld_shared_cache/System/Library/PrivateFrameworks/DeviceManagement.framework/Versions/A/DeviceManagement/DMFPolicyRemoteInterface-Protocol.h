@@ -5,5 +5,8 @@
 //
 
 @protocol DMFPolicyRemoteInterface
+- (void);
+- (void);
+- (void);
 @end
 

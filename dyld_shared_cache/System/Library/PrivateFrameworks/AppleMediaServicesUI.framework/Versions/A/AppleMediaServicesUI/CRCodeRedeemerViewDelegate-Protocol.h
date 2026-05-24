@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CRCodeRedeemerView, NSArray;
+
 @protocol CRCodeRedeemerViewDelegate
+- (void)writeCrashRecoveryMarkerFileForTargetAssetUUID:(CRCodeRedeemerView *)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)writeBytes:(CRCodeRedeemerView *)arg1 length:toFileHandle:checksumContext: /* Error: Ran out of types for this method. */;
+- (void)writeBorderedThumbnailOfImage:(CRCodeRedeemerView *)arg1 toBuffer:(NSArray *)arg2 orientation:format:formatInfo:delegate: /* Error: Ran out of types for this method. */;
+- (void)writeBackgroundRestorePostProcessingInProgressToken;
+- (void)visitPredicateExpression:(CRCodeRedeemerView *)arg1;
+- (void)videoSourceWithURL:(CRCodeRedeemerView *)arg1;
+
+@optional
+- (void)zeroScorePSIGroupFromLabel:(CRCodeRedeemerView *)arg1 type:(NSArray *)arg2 identifier: /* Error: Ran out of types for this method. */;
 @end
 

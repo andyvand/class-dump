@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CDP)
-- (void);
-- (void);
+- (void)AnnotatedBookmarksSidebarViewControllerDelegate;
+- (void)BookmarksSidebarViewControllerDelegate;
 @end
 

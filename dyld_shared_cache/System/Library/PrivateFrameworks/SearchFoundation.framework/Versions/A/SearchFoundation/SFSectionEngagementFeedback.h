@@ -11,23 +11,21 @@
 @interface SFSectionEngagementFeedback : SFFeedback
 {
     SFResultSection *_section;
-    unsigned long long _triggerEvent;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)unsignedIntegerValue;
+- (void)_shouldAssumeRunningOnAudioQueue;
 - (void);
-- (void);
 - (id);
-- (id);
-- (void)mainEngagementScoresAtIndex: /* Error: Ran out of types for this method. */;
+- (id)PHCollectionPresentationHintsSocialRelationships;
+- (void)domainEngagementScoresAtIndex: /* Error: Ran out of types for this method. */;
 - (void)¦ö2@;
 - (unsigned long long);
 
 // Remaining properties
 @property(copy, nonatomic) SFResultSection *section; // @synthesize section=_section;
-@property(nonatomic) unsigned long long triggerEvent; // @synthesize triggerEvent=_triggerEvent;
 
 @end
 

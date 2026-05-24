@@ -7,9 +7,6 @@
 @interface NewsFeed.CoverIssueViewStyler
 {
     id cornerRadius;
-    id fontBook;
-    id colorPalette;
-    id colorPaletteProvider;
 }
 
 @end

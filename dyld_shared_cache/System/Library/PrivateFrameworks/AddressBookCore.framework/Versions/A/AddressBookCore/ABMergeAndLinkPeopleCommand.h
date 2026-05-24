@@ -6,25 +6,17 @@
 
 #import <AddressBookCore/ABBookUndoableCommand.h>
 
-@class ABAddressBook, ABLinkPeopleCommand, ABMergeAndLinkPeopleActionPlanner, ABMergePeopleCommand, NSArray;
-@protocol ABUndoableCommand;
+@class ABAddressBook, NSArray;
 
 @interface ABMergeAndLinkPeopleCommand : ABBookUndoableCommand
 {
     ABAddressBook *_addressBook;
-    ABMergePeopleCommand *_mergeCommand;
-    ABLinkPeopleCommand *_linkCommand;
-    id <ABUndoableCommand> _privacyCommand;
-    NSArray *_resultingPeople;
-    ABMergeAndLinkPeopleActionPlanner *_planner;
-    int _plannedActions;
-    _Bool _ignoresGuardianRestrictions;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int);
 - (void);
 - (void);
 - (id);
@@ -37,10 +29,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)s;
 
 // Remaining properties
-@property(readonly) int plannedActions; // @synthesize plannedActions=_plannedActions;
 @property(readonly) NSArray *resultingPeople; // @synthesize resultingPeople=_resultingPeople;
 
 @end

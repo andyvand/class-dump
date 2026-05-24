@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CLPInstSchemaHabitualUsageByCalendarWeekInformation : SISchemaInstrumentationMessage
 {
     unsigned int _calendarWeekNumber;
-    _Bool _wasHabitualUserDuringCalendarWeek;
-    struct {
-        unsigned int calendarWeekNumber:1;
-        unsigned int wasHabitualUserDuringCalendarWeek:1;
-    } _has;
 }
 
 - (_Bool);
@@ -32,18 +25,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)NlsResult"b1"isNlsContainerResult"b1};
-- (id)maHALCrossDeviceCommandExecutionContext;
+- (id)HALSchemaHALCrossDeviceCommandExecutionContext;
 - (id)4F;
 
 // Remaining properties
 @property(nonatomic) unsigned int calendarWeekNumber; // @synthesize calendarWeekNumber=_calendarWeekNumber;
-@property(nonatomic) _Bool hasCalendarWeekNumber;
-@property(nonatomic) _Bool hasWasHabitualUserDuringCalendarWeek;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool wasHabitualUserDuringCalendarWeek; // @synthesize wasHabitualUserDuringCalendarWeek=_wasHabitualUserDuringCalendarWeek;
 
 @end
 

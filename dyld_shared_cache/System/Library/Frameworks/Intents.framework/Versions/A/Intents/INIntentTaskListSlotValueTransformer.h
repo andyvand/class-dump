@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)portedReason: /* Error: Ran out of types for this method. */;
++ (long long)StringAsAddMediaIntentMediaDestinationUnsupportedReason: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)tringAsSortOrder:(id)arg1;
+- (id)StringAsSortOrder:(id)arg1;
 
 @end
 

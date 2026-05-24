@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PeopleSuggesterFeedbackMessage
 {
     int _feedbackType;
-    NSString *_privatizedCandidateIdentifier;
-    NSString *_privatizedTransportBundleId;
-    struct {
-        unsigned int feedbackType:1;
-    } _has;
 }
 
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)_deviceOs;
+- (id)_cirAlertKgWaBoost;
+- (id)_choiceDependentSignals;
+- (_Bool)_activeSubscriptions;
+- (_Bool)_activationEventId;
+- (void)fidence;
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)FJBJF
+;
+- (id)xqƿ1
+;
 - (id);
-- (id);
-- (void);
+- (void)R;
 - (int)× ;
 
 // Remaining properties
-@property(nonatomic) int feedbackType; // @synthesize feedbackType=_feedbackType;
-@property(nonatomic) _Bool hasFeedbackType;
 @property(readonly, nonatomic) _Bool hasPrivatizedCandidateIdentifier;
-@property(readonly, nonatomic) _Bool hasPrivatizedTransportBundleId;
-@property(retain, nonatomic) NSString *privatizedCandidateIdentifier; // @synthesize privatizedCandidateIdentifier=_privatizedCandidateIdentifier;
-@property(retain, nonatomic) NSString *privatizedTransportBundleId; // @synthesize privatizedTransportBundleId=_privatizedTransportBundleId;
 
 @end
 

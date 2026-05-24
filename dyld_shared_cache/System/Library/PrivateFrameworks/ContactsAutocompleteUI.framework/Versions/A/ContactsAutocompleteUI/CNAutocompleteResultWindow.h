@@ -6,15 +6,11 @@
 
 #import <ContactsAutocompleteUI/CNAutocompleteResultWindowBase.h>
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface CNAutocompleteResultWindow : CNAutocompleteResultWindowBase
 {
     _Bool _onlyEmailFormat;
-    NSArray *_autocompleteResults;
-    NSMutableDictionary *_prefixToResults;
-    NSMutableDictionary *_primaryResults;
-    NSMutableDictionary *_suggestedResults;
 }
 
 + (_Bool);
@@ -25,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -42,25 +38,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)ntifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::ProcessAssertion>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)kPtrImpl = WTF:(id)arg1:DefaultWeakPtrImpl, PtrTraits = WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *autocompleteResults; // @synthesize autocompleteResults=_autocompleteResults;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool onlyEmailFormat; // @synthesize onlyEmailFormat=_onlyEmailFormat;
 @property(retain, nonatomic) NSMutableDictionary *prefixToResults; // @synthesize prefixToResults=_prefixToResults;
-@property(retain, nonatomic) NSMutableDictionary *primaryResults; // @synthesize primaryResults=_primaryResults;
-@property(retain, nonatomic) NSMutableDictionary *suggestedResults; // @synthesize suggestedResults=_suggestedResults;
-@property(readonly) Class superclass;
 
 @end
 

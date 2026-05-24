@@ -10,9 +10,9 @@
 }
 
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)36@?44;
 - (short);
 
 // Remaining properties

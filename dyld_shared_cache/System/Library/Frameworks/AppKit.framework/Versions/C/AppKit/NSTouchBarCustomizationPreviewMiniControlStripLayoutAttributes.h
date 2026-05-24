@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewMiniControlStripLayoutAttributes : NSTouchBarCustomizationPreviewLayoutAttributes
 {
     double _leftCornerRadius;
-    double _rightCornerRadius;
 }
 
 - (void);
@@ -19,11 +18,10 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (_Bool);
-- (id)horWithItem:(struct _NSZone *)arg1 attribute: /* Error: Ran out of types for this method. */;
+- (id)anchorWithItem:(struct _NSZone *)arg1 attribute: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property double leftCornerRadius; // @synthesize leftCornerRadius=_leftCornerRadius;
-@property double rightCornerRadius; // @synthesize rightCornerRadius=_rightCornerRadius;
 
 @end
 

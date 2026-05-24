@@ -13,7 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)%@
+;
 - (void);
 - (void)ontactsViewControllerDelegate>",W,N,V_delegate;
 - (id)Ãÿÿ¤ãÿÿ;

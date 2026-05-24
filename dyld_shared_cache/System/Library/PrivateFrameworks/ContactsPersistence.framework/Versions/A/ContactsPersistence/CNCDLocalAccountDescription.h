@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCDContainer, NSArray, NSNumber, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNCDLocalAccountDescription
@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -20,25 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool)tSyncDate;
+- (_Bool)lastSyncDate;
 
 // Remaining properties
-@property(readonly, copy) NSURL *baseURL;
-@property(readonly, copy) NSArray *childAccounts;
-@property(readonly) ABCDContainer *containerRepresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSNumber *dsid;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *identifier;
-@property(readonly) _Bool isChildAccount;
-@property(readonly) _Bool isEnabled;
-@property(readonly) _Bool isPersistent;
-@property(readonly) NSURL *persistentStoreURL;
-@property(readonly) Class superclass;
 
 @end
 

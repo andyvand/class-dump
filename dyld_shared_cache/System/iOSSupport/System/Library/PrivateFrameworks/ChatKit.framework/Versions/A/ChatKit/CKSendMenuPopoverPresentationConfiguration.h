@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSendMenuPopoverPresentationControllerAnchorItem, UIViewController;
+@class CKSendMenuPopoverPresentationControllerAnchorItem;
 
 __attribute__((visibility("hidden")))
 @interface CKSendMenuPopoverPresentationConfiguration
 {
     CKSendMenuPopoverPresentationControllerAnchorItem *_anchorItem;
-    UIViewController *_sendMenuViewController;
-    UIViewController *_appCardContentViewController;
-    unsigned long long _appCardPresentationStyle;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)ic_colorBlendedWithColor:(id)arg1 fraction: /* Error: Ran out of types for this method. */;
+- (void)addObjectsFromArray:(unsigned long long)arg1;
+- (void)addMainKeyToKeychainForObject:(id)arg1;
+- (void)addCompletionHandler:(id)arg1;
+- (id)SystemAudio:decisionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
-- (id);
+- (id)omplete thumbnail update before expiry;
 - (id);
 - (void)¨T;
 
 // Remaining properties
 @property(retain, nonatomic) CKSendMenuPopoverPresentationControllerAnchorItem *anchorItem; // @synthesize anchorItem=_anchorItem;
-@property(retain, nonatomic) UIViewController *appCardContentViewController; // @synthesize appCardContentViewController=_appCardContentViewController;
-@property(nonatomic) unsigned long long appCardPresentationStyle; // @synthesize appCardPresentationStyle=_appCardPresentationStyle;
-@property(readonly, nonatomic) UIViewController *initialViewController;
-@property(retain, nonatomic) UIViewController *sendMenuViewController; // @synthesize sendMenuViewController=_sendMenuViewController;
 
 @end
 

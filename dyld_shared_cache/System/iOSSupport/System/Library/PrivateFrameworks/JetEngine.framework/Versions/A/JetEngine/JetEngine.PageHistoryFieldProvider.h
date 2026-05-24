@@ -7,7 +7,6 @@
 @interface JetEngine.PageHistoryFieldProvider
 {
     id maxDepth;
-    id historyStack;
 }
 
 @end

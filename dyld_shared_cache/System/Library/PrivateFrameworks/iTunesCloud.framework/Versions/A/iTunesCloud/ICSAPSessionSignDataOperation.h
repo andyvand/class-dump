@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface ICSAPSessionSignDataOperation : ICSAPSessionAbstractOperation
 {
     NSData *_data;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (CDUnknownBlockType);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

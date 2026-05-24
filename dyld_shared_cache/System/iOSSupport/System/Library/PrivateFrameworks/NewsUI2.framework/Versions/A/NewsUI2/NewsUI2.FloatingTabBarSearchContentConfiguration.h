@@ -7,7 +7,6 @@
 @interface NewsUI2.FloatingTabBarSearchContentConfiguration
 {
     id searchDelegate;
-    id configurationBlock;
 }
 
 @end

@@ -6,30 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GATSchemaGATRequestCanceled, GATSchemaGATRequestEnded, GATSchemaGATRequestFailed, GATSchemaGATRequestHandoff, GATSchemaGATRequestStarted, NSData;
+@class GATSchemaGATRequestStarted;
 
 @interface GATSchemaGATRequestContext : SISchemaInstrumentationMessage
 {
     GATSchemaGATRequestStarted *_startedOrChanged;
-    GATSchemaGATRequestEnded *_ended;
-    GATSchemaGATRequestFailed *_failed;
-    GATSchemaGATRequestCanceled *_canceled;
-    GATSchemaGATRequestHandoff *_handoff;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCanceled;
-    _Bool _hasHandoff;
-    unsigned long long _whichContextevent;
 }
 
-- (unsigned long long);
+- (unsigned long long)8sS�;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,7 +32,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)FMD_DISABLE_OFFLINE_FINDING_ALERT_DISABLE_BUTTON;
 - (void);
 - (id);
 - (id);
@@ -50,7 +40,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)interiorBackgroundStyle;
 - (_Bool);
 - (void);
 - (id);
@@ -62,18 +52,7 @@
 - (void)dÝÄÿø;
 
 // Remaining properties
-@property(retain, nonatomic) GATSchemaGATRequestCanceled *canceled; // @synthesize canceled=_canceled;
-@property(retain, nonatomic) GATSchemaGATRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) GATSchemaGATRequestFailed *failed; // @synthesize failed=_failed;
-@property(retain, nonatomic) GATSchemaGATRequestHandoff *handoff; // @synthesize handoff=_handoff;
-@property(nonatomic) _Bool hasCanceled; // @synthesize hasCanceled=_hasCanceled;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasHandoff; // @synthesize hasHandoff=_hasHandoff;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) GATSchemaGATRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

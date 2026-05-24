@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface INHomeAttribute
 {
     _Bool _boolValue;
-    long long _type;
-    long long _valueType;
-    double _doubleValue;
-    NSString *_stringValue;
 }
 
 + (_Bool);
@@ -20,31 +14,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id),R,C;
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool)_cancelWiFiNetworkSharingAskToShareUserNotificationHandler;
 - (double);
-- (void);
+- (void)tric coreAnalyticsEventPayload];
 - (id);
 - (id);
-- (void)tureSettingOptionsCollectionForSetClimateSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideRelativeTemperatureSettingOptionsCollectionForSetClimateSettingsInCar:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) _Bool boolValue; // @synthesize boolValue=_boolValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) Class superclass;
 @property(readonly) long long type; // @synthesize type=_type;
-@property(readonly) long long valueType; // @synthesize valueType=_valueType;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface TRICKOpCancelingGuardedData
 {
     NSMutableArray *opsInFlight;
-    _Bool cancelReceived;
 }
 
 - (void);

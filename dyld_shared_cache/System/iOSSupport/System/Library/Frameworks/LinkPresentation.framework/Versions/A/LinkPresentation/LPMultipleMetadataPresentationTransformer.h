@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface LPMultipleMetadataPresentationTransformer
 {
     NSArray *_metadata;
-    NSDictionary *_summaryCounts;
-    _Bool _hasOnlyFiles;
-    unsigned long long _preferredSizeClass;
 }
 
-- (id);
-- (id);
+- (id)trackingLayer;
+- (id)supportsPrimitiveMotionBlur;
 - (id);
 - (void);
 - (id);

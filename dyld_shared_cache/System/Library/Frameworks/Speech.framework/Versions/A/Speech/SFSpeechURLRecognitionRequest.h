@@ -13,10 +13,10 @@
     NSURL *_URL;
 }
 
+- (id):(id)arg1;
+- (id)$;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)G;
 - (id);
 - (void);
 

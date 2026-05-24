@@ -7,12 +7,6 @@
 @interface DMFSecurityInformation
 {
     _Bool _supportsBlockLevelEncryption;
-    _Bool _supportsFileLevelEncryption;
-    _Bool _passcodeIsSet;
-    _Bool _passcodeIsCompliantWithGlobalRestrictions;
-    _Bool _passcodeIsCompliantWithProfileRestrictions;
-    unsigned long long _passcodeLockGracePeriod;
-    unsigned long long _passcodeLockGracePeriodEnforced;
 }
 
 + (_Bool);
@@ -25,20 +19,14 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)ȢA9;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool passcodeIsCompliantWithGlobalRestrictions; // @synthesize passcodeIsCompliantWithGlobalRestrictions=_passcodeIsCompliantWithGlobalRestrictions;
-@property(readonly, nonatomic) _Bool passcodeIsCompliantWithProfileRestrictions; // @synthesize passcodeIsCompliantWithProfileRestrictions=_passcodeIsCompliantWithProfileRestrictions;
-@property(readonly, nonatomic) _Bool passcodeIsSet; // @synthesize passcodeIsSet=_passcodeIsSet;
-@property(readonly, nonatomic) unsigned long long passcodeLockGracePeriod; // @synthesize passcodeLockGracePeriod=_passcodeLockGracePeriod;
-@property(readonly, nonatomic) unsigned long long passcodeLockGracePeriodEnforced; // @synthesize passcodeLockGracePeriodEnforced=_passcodeLockGracePeriodEnforced;
 @property(readonly, nonatomic) _Bool supportsBlockLevelEncryption; // @synthesize supportsBlockLevelEncryption=_supportsBlockLevelEncryption;
-@property(readonly, nonatomic) _Bool supportsFileLevelEncryption; // @synthesize supportsFileLevelEncryption=_supportsFileLevelEncryption;
 
 @end
 

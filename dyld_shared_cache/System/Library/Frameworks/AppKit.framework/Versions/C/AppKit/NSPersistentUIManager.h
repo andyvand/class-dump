@@ -4,63 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSMutableDictionary, NSObject, NSPersistentUICrashHistory, NSPersistentUIEncodingQueue, NSPersistentUIFlushScheduler, NSPersistentUIRestorationCrashDataHandler, NSPersistentUIRestorer, NSPersistentUIWindowSnapshotter, NSString, NSWindowRestorationOptions;
-@protocol NSPersistentUIStorageClient, OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface NSPersistentUIManager
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *workQueue;
-    NSPersistentUIEncodingQueue *_encodingQueue;
-    id <NSPersistentUIStorageClient> _store;
-    NSPersistentUIFlushScheduler *_flushScheduler;
-    NSPersistentUIWindowSnapshotter *_windowSnapshotter;
-    NSPersistentUICrashHistory *_crashHistory;
-    NSPersistentUIRestorer *_stateRestorer;
-    NSPersistentUIRestorationCrashDataHandler *_restorationCrashDataHandler;
-    NSWindowRestorationOptions *_launchRestorationOptions;
-    _Bool _isClosedToChanges;
-    NSMutableArray *sortedWindowInfos;
-    NSMapTable *objectToPendingKeyPaths;
-    NSMutableArray *pendingRecords;
-    NSMutableDictionary *additionalBuckets;
-    unsigned long long _approximateWrittenAmountSinceLastStaleDataFlush;
-    unsigned int _publicPlistChecksum;
-    NSMutableArray *_waitingCompletionHandlers;
-    _Bool _didInitialEmptying;
-    _Bool treatEverythingAsDirty;
-    _Bool _hadPersistentStateToRestoreAtLaunch;
-    _Bool _isWaiting;
 }
 
-+ (void);
-+ (id);
-+ (id);
++ (void)_ZN19URLConnectionLoader24protocolDidFinishLoadingEv;
++ (id)_expiredDNSBehavior;
++ (id)_duetPreClearedMode;
 + (_Bool);
 + (void);
 + (void);
 + (void);
 + (id);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)!;
 + (void);
 + (id);
-+ (id);
-+ (id)SAutocorrectionReversion;
++ (id)s:(id)arg1 reply:(id)arg2;
++ (id)NSAutocorrectionReversion;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)$;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)check response;
+- (void)ow properties:(id)arg1 missing hostname and address;
 - (unsigned int);
 - (void);
 - (void);
@@ -75,37 +51,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)che=}16@0:(unsigned int)arg1 8;
+- (void)handler_rec}[8176c]};
+- (unsigned int)ect<OS_dispatch_io>";
+- (long long)ompare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)nectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (void)set_allowsHSTSWithUntrustedRootCertificate: /* Error: Ran out of types for this method. */;
+- (void)setRequiresDNSSECValidation:(unsigned int)arg1;
+- (void)setPropertyOnStreamWithIdentifier:(id)arg1 propDict:(id)arg2 propKey:(_Bool)arg3 withReply: /* Error: Ran out of types for this method. */;
+- (void)getActiveSessionIdentifiersWithReply: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_checkForCompletion;
+- (void)_onqueue_addBlockOp:(id)arg1 description:(id)arg2 shouldWaitForTls:(id)arg3;
+- (void)_failInsecureLoadWithHTTPSDNSRecord;
+- (void)NSURLSessionTaskDependencyDescription;
+- (void)(%@) to the select statement;
+- (void)kkk)k8kqq
+qqqq)q8qvv
+vvvv)v8vwwxxyyzz;
 - (void);
 - (void);
-- (unsigned int);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)`@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

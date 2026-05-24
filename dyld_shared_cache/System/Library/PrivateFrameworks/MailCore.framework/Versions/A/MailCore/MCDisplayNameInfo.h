@@ -9,21 +9,19 @@
 @interface MCDisplayNameInfo
 {
     NSString *_shortName;
-    NSString *_fullName;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
 @property(readonly, copy, nonatomic) NSString *shortName; // @synthesize shortName=_shortName;
 
 @end

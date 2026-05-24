@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFTableColumnAlignment
 {
     struct {
@@ -13,43 +11,29 @@
         unsigned int dataAlignment:1;
         unsigned int isEqualWidth:1;
     } _has;
-    _Bool _isEqualWidth;
-    int _columnAlignment;
-    int _dataAlignment;
 }
 
 + (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (int);
 - (_Bool);
 - (int);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)4@0:(id)arg1 8@"MPArtworkCatalog"16;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)B;
+- (void)initWithSoundFileURL:(id)arg1 soundID:requiresLongFormPlayback: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)thumbnailIdentifier;
 - (id);
 
 // Remaining properties
 @property(nonatomic) int columnAlignment; // @synthesize columnAlignment=_columnAlignment;
-@property(nonatomic) int dataAlignment; // @synthesize dataAlignment=_dataAlignment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isEqualWidth; // @synthesize isEqualWidth=_isEqualWidth;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

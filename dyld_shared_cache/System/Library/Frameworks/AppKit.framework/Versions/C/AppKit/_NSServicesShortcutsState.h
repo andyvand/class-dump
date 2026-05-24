@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, WFObservableArrayResult;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSServicesShortcutsState
 {
     struct os_unfair_lock_s _lock;
-    WFObservableArrayResult *_result;
-    _Bool _resultChanged;
-    _Bool _needsFetch;
-    NSArray *_shortcutServiceEntries;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)/cJlHq/Dw;
+- (void)TDM8SEI14n2KE9PGHO0a4A;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *shortcutServiceEntries; // @synthesize shortcutServiceEntries=_shortcutServiceEntries;
-@property(readonly) Class superclass;
 
 @end
 

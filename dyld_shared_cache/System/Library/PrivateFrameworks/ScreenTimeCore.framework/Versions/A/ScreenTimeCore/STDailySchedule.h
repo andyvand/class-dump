@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class STDowntime;
-
 @interface STDailySchedule
 {
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) STDowntime *downtime; // @dynamic downtime;
-@property(nonatomic) long long endHour; // @dynamic endHour;
-@property(nonatomic) long long endMinute; // @dynamic endMinute;
-@property(nonatomic) long long startHour; // @dynamic startHour;
-@property(nonatomic) long long startMinute; // @dynamic startMinute;
 @property(nonatomic) long long weekday; // @dynamic weekday;
 @end
 

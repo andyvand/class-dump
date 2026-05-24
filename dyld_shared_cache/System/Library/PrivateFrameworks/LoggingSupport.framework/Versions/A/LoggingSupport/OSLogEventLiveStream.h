@@ -6,16 +6,12 @@
 
 #import <LoggingSupport/OSLogEventStreamBase.h>
 
-@class NSObject, OSLogEventLiveSource, _OSLogStreamFilter;
+@class NSObject, _OSLogStreamFilter;
 @protocol OS_xpc_object;
 
 @interface OSLogEventLiveStream : OSLogEventStreamBase
 {
     _OSLogStreamFilter *_streamFilter;
-    unsigned long long _reason;
-    NSObject<OS_xpc_object> *_diagdconn;
-    OSLogEventLiveSource *_source;
-    CDUnknownBlockType _dropnoteHandler;
 }
 
 - (id);
@@ -27,15 +23,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_xpc_object> *diagdconn; // @synthesize diagdconn=_diagdconn;
-@property(copy, nonatomic) CDUnknownBlockType dropnoteHandler; // @synthesize dropnoteHandler=_dropnoteHandler;
-@property(readonly, nonatomic) OSLogEventLiveSource *source; // @synthesize source=_source;
 
 @end
 

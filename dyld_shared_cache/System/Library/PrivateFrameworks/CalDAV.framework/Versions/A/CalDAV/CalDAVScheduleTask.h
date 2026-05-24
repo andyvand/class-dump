@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDAVScheduleResponseItem, NSArray, NSString;
+@class CalDAVScheduleResponseItem, NSArray;
 
 @interface CalDAVScheduleTask
 {
     NSArray *_attendees;
-    CalDAVScheduleResponseItem *_scheduleResponse;
-    NSString *_originator;
 }
 
 - (void);
@@ -26,8 +24,6 @@
 - (void)u;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *attendees; // @synthesize attendees=_attendees;
-@property(retain, nonatomic) NSString *originator; // @synthesize originator=_originator;
 @property(retain, nonatomic) CalDAVScheduleResponseItem *scheduleResponse; // @synthesize scheduleResponse=_scheduleResponse;
 
 @end

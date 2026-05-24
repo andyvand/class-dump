@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface ICSQLiteConnectionOptions
 {
     _Bool _readOnly;
-    NSString *_databasePath;
-    long long _cacheSize;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (int);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (_Bool);
 - (void)verificationURL;
-- (long long)LinkReactionEvent;
+- (long long)ICLiveLinkReactionEvent;
 - (void)%p:(_Bool)arg1 reloadTransportControlStateForItemWithIdentifier calling fetching item state [coordinator requested] itemID=%{public}@;
 - (id)ÕTZÿÕµZÿÕZÿÕZÿÕOZÿÕçZÿÕ|ZÿÕ/ZÿÕÕZÿÕÝZÿÕöZÿÕZÿÕVZÿÕ]ZÿÕLZÿÕZÿÕZÿÕÙZÿÕZÿÕQZÿÕZÿÕCZÿÕÂZÿÕÚZÿÕäZÿÕZÿÕ;
 - (void)¬IØ:(id)arg1 ãr«Nßè1 yEÔñ(¹`\Í#úk²WÆa¸)ðÌ]³jû"ÇVªsâ;ÞOx¡0éÕD¦7îÒC­tå<Ù;
@@ -32,9 +30,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(nonatomic) long long cacheSize; // @synthesize cacheSize=_cacheSize;
 @property(copy, nonatomic) NSString *databasePath; // @synthesize databasePath=_databasePath;
-@property(nonatomic, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
 
 @end
 

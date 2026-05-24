@@ -13,16 +13,16 @@
     NSArray *_listeners;
 }
 
++ (id)elTransferSessionTransferImage failed %d input widthxheight(%zux%zu) new widthxheight(%dx%d);
++ (void)p) Load switch wrmRSSIThresholdEnabled %d;
 + (id);
-+ (void);
 + (id);
-+ (id);
-- (id);
-- (id);
+- (id)maxQSize=%f highStartQSize=%f highStartMode=%d targetPercentileToCover=%f shortTermWindowSize=%f longTermWindowSize=%f filterDRXBundleEnabled=%d minQSize5G=%f minQSizeCellular=%f targetSynchronizer=%p spikeManagement=%d skipDecodeOnSilence=%d skipJBDumpCreation=%d enableEnhancedJBAdaptations=%d;
+- (id)mediaType=%@. error=%@;
+- (_Bool):(_Bool)arg1 %d Error getting the client pid;
+- (void)a;
 - (_Bool);
-- (void);
-- (_Bool);
-- (unsigned int);
+- (unsigned int)q;
 - (void);
 - (id);
 - (_Bool);

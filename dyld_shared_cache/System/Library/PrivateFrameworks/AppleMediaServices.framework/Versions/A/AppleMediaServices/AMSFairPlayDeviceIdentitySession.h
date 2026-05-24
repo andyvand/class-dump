@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AMSFairPlayDeviceIdentitySession
 {
     void *_fpdiSession;
-    void *_attributes;
-    NSDate *_creationDate;
 }
 
 + (id);

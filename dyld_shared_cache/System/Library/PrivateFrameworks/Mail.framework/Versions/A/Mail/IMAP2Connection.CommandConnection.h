@@ -7,24 +7,6 @@
 @interface IMAP2Connection.CommandConnection
 {
     id connection;
-    id queue;
-    id logger;
-    id delegate;
-    id commandCounter;
-    id runningCommands;
-    id id;
-    id engineID;
-    id state;
-    id connectionTraits;
-    id recentErrors;
-    id enqueuedEvents;
-    id makeCredentials;
-    id getPushInformation;
-    id finishPushRegistration;
-    id pathAttributes;
-    id dataTransferReportCollector;
-    id idle;
-    id stuckConnectionCheckTimer;
 }
 
 @end

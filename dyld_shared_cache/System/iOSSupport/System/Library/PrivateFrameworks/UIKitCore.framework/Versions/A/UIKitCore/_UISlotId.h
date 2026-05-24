@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (id);
-- (id)ferredInterfaceOrientationGivenCurrentOrientation:(struct CGSize)arg1;
+- (id)_preferredInterfaceOrientationGivenCurrentOrientation:(struct CGSize)arg1;
 - (unsigned int)sFeedback;
 
 // Remaining properties

@@ -7,20 +7,16 @@
 @interface AXElementActionDropDescriptor
 {
     unsigned int _contextID;
-    struct CGPoint _fixedScreenSpacePoint;
-    struct CGPoint _contextSpacePoint;
 }
 
+- (void);
 - (void);
-- (void);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint);
+- (struct CGPoint);
 - (unsigned int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;
-@property(nonatomic) struct CGPoint contextSpacePoint; // @synthesize contextSpacePoint=_contextSpacePoint;
 @property(nonatomic) struct CGPoint fixedScreenSpacePoint; // @synthesize fixedScreenSpacePoint=_fixedScreenSpacePoint;
 
 @end

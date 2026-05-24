@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUICoreContactScratchpad, NSArray;
+@class CNUICoreContactScratchpad;
 
 @interface CNUICoreContactEditingSession
 {
     CNUICoreContactScratchpad *_contactsAdded;
-    CNUICoreContactScratchpad *_contactsUpdated;
-    CNUICoreContactScratchpad *_contactsRemoved;
 }
 
 + (_Bool);
@@ -21,38 +19,32 @@
 - (id);
 - (void);
 - (void);
+- (void)q ;
+- (id);
+- (_Bool);
+- (id)r@;
+- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)ndVideo;
+- (void)supportsAudioAndVideo;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *addedContacts;
 @property(retain, nonatomic) CNUICoreContactScratchpad *contactsAdded; // @synthesize contactsAdded=_contactsAdded;
-@property(retain, nonatomic) CNUICoreContactScratchpad *contactsRemoved; // @synthesize contactsRemoved=_contactsRemoved;
-@property(retain, nonatomic) CNUICoreContactScratchpad *contactsUpdated; // @synthesize contactsUpdated=_contactsUpdated;
-@property(readonly, nonatomic) _Bool inProgress;
-@property(readonly, nonatomic) NSArray *removedContacts;
-@property(readonly, nonatomic) NSArray *updatedContacts;
 
 @end
 

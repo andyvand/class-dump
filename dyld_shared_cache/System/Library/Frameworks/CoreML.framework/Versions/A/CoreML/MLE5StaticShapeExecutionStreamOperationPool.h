@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLE5ProgramLibrary, MLModelConfiguration, MLModelDescription, MLPixelBufferPool, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MLE5ProgramLibrary;
 
 __attribute__((visibility("hidden")))
 @interface MLE5StaticShapeExecutionStreamOperationPool
 {
     MLE5ProgramLibrary *_programLibrary;
-    NSString *_functionName;
-    MLModelDescription *_modelDescription;
-    MLModelConfiguration *_modelConfiguration;
-    NSMutableSet *_pool;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    unsigned long long _modelSignpostId;
-    MLPixelBufferPool *_pixelBufferPool;
-    long long _numberOfOperationsInUse;
 }
 
 - (id);
@@ -40,22 +31,7 @@ __attribute__((visibility("hidden")))
 - (id)tion operation.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *functionName; // @synthesize functionName=_functionName;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelConfiguration *modelConfiguration; // @synthesize modelConfiguration=_modelConfiguration;
-@property(readonly) MLModelDescription *modelDescription; // @synthesize modelDescription=_modelDescription;
-@property(readonly) unsigned long long modelSignpostId; // @synthesize modelSignpostId=_modelSignpostId;
-@property long long numberOfOperationsInUse; // @synthesize numberOfOperationsInUse=_numberOfOperationsInUse;
-@property(readonly, nonatomic) MLPixelBufferPool *pixelBufferPool; // @synthesize pixelBufferPool=_pixelBufferPool;
-@property(readonly) NSMutableSet *pool; // @synthesize pool=_pool;
 @property(readonly) MLE5ProgramLibrary *programLibrary; // @synthesize programLibrary=_programLibrary;
-@property(readonly) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
 
 @end
 

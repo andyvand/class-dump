@@ -9,12 +9,10 @@
 @interface AWDLServiceDiscoveryConfiguration
 {
     _Bool _isResolve;
-    NSData *_serviceKey;
-    NSData *_serviceValue;
 }
 
 + (_Bool);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (_Bool);
@@ -27,9 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isResolve; // @synthesize isResolve=_isResolve;
 @property(readonly, nonatomic) NSData *serviceKey; // @synthesize serviceKey=_serviceKey;
-@property(readonly, nonatomic) NSData *serviceValue; // @synthesize serviceValue=_serviceValue;
 
 @end
 

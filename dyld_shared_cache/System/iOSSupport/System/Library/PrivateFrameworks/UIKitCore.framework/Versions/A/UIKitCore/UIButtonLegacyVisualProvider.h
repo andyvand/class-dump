@@ -4,51 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSArray, NSString, UIButton, UIImageView, UILabel, UIView, UIVisualEffectView, _UIButtonMaskAnimationView, _UIFloatingContentView;
+@class NSArray, UIButton;
 
 @interface UIButtonLegacyVisualProvider
 {
     UIButton *_button;
-    UIImageView *_backgroundView;
-    _UIFloatingContentView *_floatingContentView;
-    UIVisualEffectView *_contentBackdropView;
-    UIImageView *_imageView;
-    UILabel *_titleView;
-    UIView *_selectionView;
-    CALayer *_highlightLayer;
-    _UIButtonMaskAnimationView *_maskAnimationView;
-    UIView *_effectiveContentView;
-    _Bool _avoidDefaultTitleAndImageLayout;
-    NSArray *_contentConstraints;
 }
 
 + (_Bool);
-+ (id);
++ (id)kMMCSRequestOptionClientLocation;
 + (_Bool);
 + (long long);
-+ (id)RegistrationInteractionC;
++ (id)So38_UIScrollPocketRegistrationInteractionC;
 - (void);
-- (struct CGRect);
+- (struct CGRect)T;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (id);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void)M_;
+- (_Bool)U;
 - (id);
 - (struct CGSize);
+- (id)ableDictionary",R;
+- (void)foreground requests;
+- (void);
+- (void);
 - (id);
+- (void)reloadSection:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)P ;
 - (void);
 - (struct CGRect);
 - (id);
@@ -77,19 +66,19 @@
 × ;
 - (_Bool)!°!Cùñg1Â0@ù
 × ;
-- (void)nt: /* Error: Ran out of types for this method. */;
-- (void)ionBlock: /* Error: Ran out of types for this method. */;
-- (struct CGSize)fset;
-- (void)t;
-- (void)sparentTearingEnabled;
-- (_Bool);
+- (void)setAtomFont: /* Error: Ran out of types for this method. */;
+- (void)setAccessoryAnimationBlock: /* Error: Ran out of types for this method. */;
+- (struct CGSize)interactionResetOffset;
+- (void)assignedHeight;
+- (void)_transparentTearingEnabled;
+- (_Bool)_setIsMicButton: /* Error: Ran out of types for this method. */;
 - (struct CGRect)DeleteItems:(struct CGRect)arg1 sortedMoveItems:(_Bool)arg2;
-- (struct CGRect);
-- (_Bool)mRangeIndexer;
-- (void)nitWithDefaultValues;
+- (struct CGRect)_moveInDirection:(struct CGRect)arg1 groupFilter: /* Error: Ran out of types for this method. */;
+- (_Bool)_itemRangeIndexer;
+- (void)_initWithDefaultValues;
 - (void)ty;
 - (struct CGRect)_UIPreviewTarget;
-- (void)wSceneStackRecord;
+- (void)_UIWindowSceneStackRecord;
 - (void);
 - (void)°è;
 - (void)L;
@@ -99,17 +88,17 @@
 - (_Bool)rrangement init];
 - (void)ith _UIObjectIdentifierPathProxy for encoding:(unsigned long long)arg1 %s<%p>;
 - (id)ionAxisLayoutAttributeForAlignmentAndAxis(_UIStatusBarRegionAxisLayoutAlignment, UILayoutConstraintAxis);
-- (struct CGRect)ingReordering;
+- (struct CGRect)pendingReordering;
 - (id)ection view. Registrations should be created up front and reused. Registration:%@ /* Error: Ran out of types for this method. */;
 - (id)indicator=pulldown;
 - (struct CGSize)IPinnedFrameForFrameWithContainerFrameVisibleFrame(CGRect, CGRect, CGRect, NSRectAlignment);
 - (void)iew instance to the customView of configurations applied to different views is not allowed. Subview removed:(id)arg1 %@; Background view:(unsigned long long)arg2 %@;
-- (void)th;
+- (void)UIWidth;
 - (id)^{__CFRunLoopObserver=}8Q16;
-- (void)lertActionStyleCancel;
+- (void)UIAlertActionStyleCancel;
 - (void);
 - (void);
-- (_Bool)pha;
+- (_Bool)MonochromaticColorMatrixSourceOverAlpha;
 - (id);
 - (void);
 - (void)¯;
@@ -187,22 +176,6 @@ g;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setContentConstraints:) NSArray *_contentConstraints; // @synthesize _contentConstraints;
-@property(nonatomic) _Bool avoidDefaultTitleAndImageLayout; // @synthesize avoidDefaultTitleAndImageLayout=_avoidDefaultTitleAndImageLayout;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N,V_avoidDefaultTitleAndImageLayout
-
-@property(nonatomic) UIButton *button; // @synthesize button=_button;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIButton",?,N,V_button
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double focusSizeIncrease;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

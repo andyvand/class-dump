@@ -4,38 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface ASPublicKeyCredentialBase
 {
     NSData *_rawClientDataJSON;
-    NSData *_credentialID;
-    long long _attachment;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)>;
 - (void);
-- (id);
+- (id)mpletionHandler:(struct _NSZone *)arg1;
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long attachment; // @synthesize attachment=_attachment;
-@property(readonly, copy, nonatomic) NSData *credentialID; // @synthesize credentialID=_credentialID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSData *rawClientDataJSON; // @synthesize rawClientDataJSON=_rawClientDataJSON;
-@property(readonly) Class superclass;
 
 @end
 

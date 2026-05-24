@@ -9,8 +9,6 @@
 @interface AppStoreKit.WordmarkView : AppStoreKit.BaseView
 {
     id imageView;
-    id alignment;
-    id referenceLineHeight;
 }
 
 + (struct NSEdgeInsets);
@@ -20,12 +18,11 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void)alCenterMargin;
+- (void)iconHorizontalCenterMargin;
 - (void)t;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool flipped;
-@property(nonatomic, readonly) _Bool hasContent;
 
 @end
 

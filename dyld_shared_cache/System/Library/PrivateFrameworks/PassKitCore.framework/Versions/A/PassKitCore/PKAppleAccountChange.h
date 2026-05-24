@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKAppleAccountState;
-
 @interface PKAppleAccountChange
 {
     long long _type;
-    long long _event;
-    PKAppleAccountState *_currentState;
-    PKAppleAccountState *_previousState;
 }
 
 + (long long);
@@ -19,24 +14,21 @@
 × ;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (void);
-- (id)ionDidStart: /* Error: Ran out of types for this method. */;
+- (id)animationDidStart: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)ressEducationV2;
+- (void)ExpressEducationV2;
 
 // Remaining properties
-@property(readonly, nonatomic) PKAppleAccountState *currentState; // @synthesize currentState=_currentState;
-@property(readonly, nonatomic) long long event; // @synthesize event=_event;
-@property(readonly, nonatomic) PKAppleAccountState *previousState; // @synthesize previousState=_previousState;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

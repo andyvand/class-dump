@@ -4,71 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMapTable, NSMutableArray, NSMutableSet, NSProgressIndicator, NSString, NSTimer, NSWindowController, SGTCompletionTableView, SGTCompletionWindow, SGTFadeWindowEffect, SGTInput, SGTQueryGenius, SGTSuggestion, _SGTQueryScopeMenuOverride;
-@protocol SGTSearchFieldDelegate, SGTSearchFieldQueryScopeDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface SGTSearchFieldReserved
 {
     NSArray *suggesters;
-    SGTInput *currentInput;
-    NSMutableArray *categories;
-    NSMapTable *suggestionsByCategory;
-    NSMutableSet *categoriesWithIntermediateResults;
-    NSArray *displayCategories;
-    NSMapTable *displaySuggestionsByCategory;
-    SGTCompletionWindow *completionWindow;
-    SGTCompletionTableView *completionTableView;
-    _Bool settingValue;
-    NSString *userTypedString;
-    NSMutableArray *suggestions;
-    SGTSuggestion *currentSuggestion;
-    NSArray *freeTextSuggestions;
-    _Bool abortSearchWhenEmptyString;
-    _Bool textChangingProgrammatically;
-    _Bool open;
-    _Bool isDisplayingStaticSuggestions;
-    _Bool observingApplicationState;
-    _Bool interactingWithButton;
-    _Bool textIsMarked;
-    _Bool ignoreNextTextValidation;
-    double minimumCompletionWindowWidth;
-    unsigned long long textChangedID;
-    long long typingScope;
-    _Bool acceptsScopeSuggestion;
-    SGTQueryGenius *genius;
-    id eventMonitor;
-    NSTimer *autocloseTimer;
-    SGTFadeWindowEffect *autocloseFadeEffect;
-    double lastInputStartTime;
-    id debugEventMonitor;
-    NSWindowController *debugWindowController;
-    long long savedSelectionIndex;
-    _Bool currentSelectionIsAutofirst;
-    _Bool selectingBestSuggestion;
-    _Bool enforceSelectionWhenPossible;
-    _Bool keepCompletionWindowOnWindowDrag;
-    _Bool ignoreWindowResizeNotifications;
-    _Bool _highlightsMatches;
-    id <SGTSearchFieldQueryScopeDelegate> queryScopeDelegate;
-    id <SGTSearchFieldDelegate> delegate;
-    _SGTQueryScopeMenuOverride *queryScopeMenuOverride;
-    NSProgressIndicator *spinner;
-    long long currentRequest;
-    double queryScopeMenuSpinTime;
-    NSDictionary *searchDelegateUserInfo;
-    NSMutableArray *selectionEventCache;
-    SEL selectionSelectorCache;
-    _Bool queryStringChangesAreTransient;
-    unsigned long long oldStringLength;
-    unsigned long long maximumEffectiveInputLength;
-    long long searchQueryIndex;
-    CDUnknownBlockType _didFindSuggestionsCallback;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)U;
+- (void)addModificationDateOfAnnotation:toDictionary: /* Error: Ran out of types for this method. */;
 
 @end
 

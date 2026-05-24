@@ -7,10 +7,9 @@
 @interface NewsFeed.FormatLabel
 {
     id identifier;
-    id linkHandler;
 }
 
-- (id);
+- (id);
 - (id)"<UIDragSession>"24{CGPoint=dd}32;
 - (void)ùS:È_ /* Error: Ran out of types for this method. */;
 

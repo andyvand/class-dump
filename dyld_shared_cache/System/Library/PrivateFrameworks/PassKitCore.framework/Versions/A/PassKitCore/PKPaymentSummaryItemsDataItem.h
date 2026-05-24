@@ -6,7 +6,7 @@
 
 #import <PassKitCore/PKPaymentDataItem.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPaymentSummaryItemsDataItem : PKPaymentDataItem
 {
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *currencyCode;
-@property(readonly, nonatomic) NSArray *paymentSummaryItems;
 
 @end
 

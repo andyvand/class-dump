@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, NSError, NSObject, NSSet, NSString, geo_isolater;
-@protocol GEOGeographicMetadataFetcher, GEOGeographicMetadataRequesterDelegate, OS_dispatch_queue;
-
 @interface GEOGeographicMetadataRequester
 {
     unsigned long long _type;
-    geo_isolater *_isolater;
-    GEOLocation *_location;
-    GEOLocation *_nextLocation;
-    double _maximumEdgeDistance;
-    NSString *_isoCode;
-    NSSet *_lastUsedTileKeysMinZoom;
-    NSSet *_lastUsedTileKeysMaxZoom;
-    unsigned long long _retryCounter;
-    NSError *_lastError;
-    _Bool _isRunning;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <GEOGeographicMetadataFetcher> _fetcher;
-    CDUnknownBlockType _processBlock;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id <GEOGeographicMetadataRequesterDelegate> _delegate;
-    _Bool _delegateSupportsNoChange;
-    _Bool _delegateSupportsErrors;
-    _Bool _delegateSupportsSkipNotifications;
-    CDUnknownBlockType _resultsBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 + (void);
@@ -38,7 +15,7 @@
 + (void);
 + (void);
 + (void);
-+ (void);
++ (void)?;
 + (void);
 + (void);
 + (void);
@@ -51,15 +28,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)setAutoreverses:(CDUnknownBlockType)arg1;
 - (id);
 - (void);
 - (void);
 - (void)
 × ;
-- (void)owerTypeKeys:(CDUnknownBlockType)arg1;
+- (void)setValidPowerTypeKeys:(CDUnknownBlockType)arg1;
 - (id)nfos:(unsigned long long)arg1 auditToken:(unsigned short)arg2 constraints:(unsigned short)arg3 backgroundSessionIdentifier:(id)arg4 shouldParticipateInBalancer:(id)arg5 reason:(CDUnknownBlockType)arg6;
-- (id)ex:(id)arg1;
+- (id)configKeyValueAtIndex:(id)arg1;
 - (unsigned int)XT/²¨b¨/²c¸/²cÈ/²ðcØ/²ldø/²de0²Ôe(0²ÈfH0²8gX0²Àg0²<h¨0²¸hÈ0²<kø0²;
 - (long long)ôÄ;
 - (id);
@@ -72,11 +49,7 @@
 - (void)nÄ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int lastUsedDataVersion;
-@property(copy, nonatomic) GEOLocation *location;
-@property(readonly, nonatomic) unsigned short mcc;
 @property(readonly, nonatomic) long long metadataType;
-@property(readonly, nonatomic) unsigned short mnc;
 
 @end
 

@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface NLXSchemaMILAssetAcquisitionFailed : SISchemaInstrumentationMessage
 {
     int _acquisitionType;
-    int _errorCode;
-    NSString *_errorMessage;
-    struct {
-        unsigned int acquisitionType:1;
-        unsigned int errorCode:1;
-    } _has;
-    _Bool _hasErrorMessage;
 }
 
 - (void);
@@ -33,7 +24,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)safi;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -49,12 +40,6 @@
 
 // Remaining properties
 @property(nonatomic) int acquisitionType; // @synthesize acquisitionType=_acquisitionType;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(copy, nonatomic) NSString *errorMessage; // @synthesize errorMessage=_errorMessage;
-@property(nonatomic) _Bool hasAcquisitionType;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorMessage; // @synthesize hasErrorMessage=_hasErrorMessage;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

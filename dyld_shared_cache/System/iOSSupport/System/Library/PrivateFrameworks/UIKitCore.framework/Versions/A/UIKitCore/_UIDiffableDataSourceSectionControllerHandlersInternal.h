@@ -12,10 +12,6 @@
 
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType childSnapshotForExpandingParentHandler; // @dynamic childSnapshotForExpandingParentHandler;
-@property(copy, nonatomic) CDUnknownBlockType shouldCollapseItemHandler; // @dynamic shouldCollapseItemHandler;
 @property(copy, nonatomic) CDUnknownBlockType shouldExpandItemHandler; // @dynamic shouldExpandItemHandler;
-@property(copy, nonatomic) CDUnknownBlockType willCollapseItemHandler; // @dynamic willCollapseItemHandler;
-@property(copy, nonatomic) CDUnknownBlockType willExpandItemHandler; // @dynamic willExpandItemHandler;
 @end
 

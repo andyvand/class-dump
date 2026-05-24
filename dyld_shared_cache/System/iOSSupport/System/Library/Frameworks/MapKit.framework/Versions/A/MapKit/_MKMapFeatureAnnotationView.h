@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (struct CGRect);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)6;
 - (struct CGPoint);
 
 @end

@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSIndexSet, PHChange, PHFetchResultChangeDetails, PXSectionedDataSourceChangeDetails;
-
 @interface PXPhotosDataSourceChange
 {
     long long _previousCollectionsCount;
-    NSDictionary *_assetCollectionToSectionCache;
-    PHFetchResultChangeDetails *_collectionListChangeDetails;
-    NSDictionary *_assetCollectionChangeDetails;
-    _Bool _prepared;
-    NSIndexSet *_deletedSections;
-    NSIndexSet *_insertedSections;
-    NSIndexSet *_changedSections;
-    NSArray *_deletedIndexPaths;
-    NSArray *_insertedIndexPaths;
-    NSArray *_changedIndexPaths;
-    NSArray *_contentChangedIndexPaths;
-    NSArray *_favoriteChangedIndexPaths;
-    _Bool _changesAreNoOp;
-    PXSectionedDataSourceChangeDetails *_sectionedDataSourceChangeDetails;
-    NSIndexSet *_sectionsWithKeyAssetChanges;
-    PHChange *_originatingPhotoLibraryChange;
 }
 
 - (id);
@@ -33,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
@@ -49,22 +31,10 @@
 - (id);
 - (_Bool);
 - (id)v52@?0I8{?=^{?}^{?}^{?}^{?}}12^B44;
-- (void)ViewController;
+- (void)PXSwiftUIHostingViewController;
 
 // Remaining properties
-@property(readonly, copy) NSArray *changedIndexPaths;
-@property(readonly, copy) NSIndexSet *changedSections;
-@property(readonly) _Bool changesAreNoOp;
-@property(readonly, copy) NSArray *contentChangedIndexPaths;
-@property(readonly, copy) NSArray *deletedIndexPaths;
-@property(readonly, copy) NSIndexSet *deletedSections;
-@property(readonly, copy) NSArray *favoriteChangedIndexPaths;
 @property(readonly) _Bool hasIncrementalChanges;
-@property(readonly, copy) NSArray *insertedIndexPaths;
-@property(readonly, copy) NSIndexSet *insertedSections;
-@property(readonly) __weak PHChange *originatingPhotoLibraryChange; // @synthesize originatingPhotoLibraryChange=_originatingPhotoLibraryChange;
-@property(readonly) PXSectionedDataSourceChangeDetails *sectionedDataSourceChangeDetails; // @synthesize sectionedDataSourceChangeDetails=_sectionedDataSourceChangeDetails;
-@property(readonly, nonatomic) NSIndexSet *sectionsWithKeyAssetChanges; // @synthesize sectionsWithKeyAssetChanges=_sectionsWithKeyAssetChanges;
 
 @end
 

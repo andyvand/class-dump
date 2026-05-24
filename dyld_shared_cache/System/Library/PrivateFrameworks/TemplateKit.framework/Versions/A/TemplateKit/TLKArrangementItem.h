@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface TLKArrangementItem
 {
@@ -13,22 +11,15 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
+- (double);
 - (double);
-- (double);
-- (float);
+- (float);
 - (float);
 - (struct CGSize);
-- (void);
+- (void)tegory INTEGER NOT NULL,     seconds_from_1970 REAL NOT NULL,     state INTEGER NOT NULL,     value TEXT) ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 
 @end
 

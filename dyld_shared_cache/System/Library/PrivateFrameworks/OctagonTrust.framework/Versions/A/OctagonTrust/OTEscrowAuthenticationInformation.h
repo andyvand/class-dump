@@ -9,18 +9,6 @@
 @interface OTEscrowAuthenticationInformation
 {
     NSString *_authenticationAppleid;
-    NSString *_authenticationAuthToken;
-    NSString *_authenticationDsid;
-    NSString *_authenticationEscrowproxyUrl;
-    NSString *_authenticationIcloudEnvironment;
-    NSString *_authenticationPassword;
-    NSString *_fmipUuid;
-    _Bool _fmipRecovery;
-    _Bool _idmsRecovery;
-    struct {
-        unsigned int fmipRecovery:1;
-        unsigned int idmsRecovery:1;
-    } _has;
 }
 
 - (void);
@@ -34,7 +22,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -55,33 +43,16 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)guration";
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *authenticationAppleid; // @synthesize authenticationAppleid=_authenticationAppleid;
-@property(retain, nonatomic) NSString *authenticationAuthToken; // @synthesize authenticationAuthToken=_authenticationAuthToken;
-@property(retain, nonatomic) NSString *authenticationDsid; // @synthesize authenticationDsid=_authenticationDsid;
-@property(retain, nonatomic) NSString *authenticationEscrowproxyUrl; // @synthesize authenticationEscrowproxyUrl=_authenticationEscrowproxyUrl;
-@property(retain, nonatomic) NSString *authenticationIcloudEnvironment; // @synthesize authenticationIcloudEnvironment=_authenticationIcloudEnvironment;
-@property(retain, nonatomic) NSString *authenticationPassword; // @synthesize authenticationPassword=_authenticationPassword;
-@property(nonatomic) _Bool fmipRecovery; // @synthesize fmipRecovery=_fmipRecovery;
-@property(retain, nonatomic) NSString *fmipUuid; // @synthesize fmipUuid=_fmipUuid;
-@property(readonly, nonatomic) _Bool hasAuthenticationAppleid;
-@property(readonly, nonatomic) _Bool hasAuthenticationAuthToken;
-@property(readonly, nonatomic) _Bool hasAuthenticationDsid;
-@property(readonly, nonatomic) _Bool hasAuthenticationEscrowproxyUrl;
-@property(readonly, nonatomic) _Bool hasAuthenticationIcloudEnvironment;
 @property(readonly, nonatomic) _Bool hasAuthenticationPassword;
-@property(nonatomic) _Bool hasFmipRecovery;
-@property(readonly, nonatomic) _Bool hasFmipUuid;
-@property(nonatomic) _Bool hasIdmsRecovery;
-@property(nonatomic) _Bool idmsRecovery; // @synthesize idmsRecovery=_idmsRecovery;
 
 @end
 

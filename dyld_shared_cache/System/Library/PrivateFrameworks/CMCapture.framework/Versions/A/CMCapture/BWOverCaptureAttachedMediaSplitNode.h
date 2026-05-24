@@ -11,7 +11,6 @@
 @interface BWOverCaptureAttachedMediaSplitNode : BWAttachedMediaSplitNode
 {
     BWNodeOutput *_primaryFrameOutput;
-    BWNodeOutput *_synchronizedSlaveFrameOutput;
 }
 
 + (void)TS, currPTS) == 0));
@@ -19,11 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (id)seAllowed;
+- (id)memoryPoolUseAllowed;
 
 // Remaining properties
 @property(readonly, nonatomic) BWNodeOutput *primaryFrameOutput; // @synthesize primaryFrameOutput=_primaryFrameOutput;
-@property(readonly, nonatomic) BWNodeOutput *synchronizedSlaveFrameOutput; // @synthesize synchronizedSlaveFrameOutput=_synchronizedSlaveFrameOutput;
 
 @end
 

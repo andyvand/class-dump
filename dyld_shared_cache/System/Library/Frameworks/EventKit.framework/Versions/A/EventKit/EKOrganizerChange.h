@@ -14,8 +14,8 @@
 }
 
 + (int);
-- (id);
-- (id);
+- (id)\;
+- (id)requiresDelegateAuthentication;
 - (void);
 
 // Remaining properties

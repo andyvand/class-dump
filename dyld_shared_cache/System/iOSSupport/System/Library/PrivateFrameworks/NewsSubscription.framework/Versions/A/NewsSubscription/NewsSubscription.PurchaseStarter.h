@@ -7,11 +7,6 @@
 @interface NewsSubscription.PurchaseStarter
 {
     id purchaseManager;
-    id bundleSubscriptionManager;
-    id bundlePurchasePrewarmer;
-    id siwaConfigProvider;
-    id deferredPromise;
-    id purchaseContext;
 }
 
 @end

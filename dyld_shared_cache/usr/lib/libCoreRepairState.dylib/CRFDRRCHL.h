@@ -4,37 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
+@class NSDate, NSString;
 
 __attribute__((visibility("hidden")))
 @interface CRFDRRCHL
 {
     NSString *_repairDateStr;
     NSDate *_repairDate;
-    NSString *_repairCenter;
-    NSSet *_dataClasses;
-    NSSet *_properties;
 }
 
+- (void)@9
+;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)a;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (void)h;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *dataClasses; // @synthesize dataClasses=_dataClasses;
-@property(retain, nonatomic) NSSet *properties; // @synthesize properties=_properties;
-@property(retain, nonatomic) NSString *repairCenter; // @synthesize repairCenter=_repairCenter;
 @property(retain, nonatomic) NSDate *repairDate; // @synthesize repairDate=_repairDate;
 @property(retain, nonatomic) NSString *repairDateStr; // @synthesize repairDateStr=_repairDateStr;
 

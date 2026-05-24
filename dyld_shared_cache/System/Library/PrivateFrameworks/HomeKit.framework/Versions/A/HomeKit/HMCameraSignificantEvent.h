@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFaceClassification, NSArray, NSDate, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMCameraSignificantEvent
 {
     NSUUID *_uniqueIdentifier;
-    unsigned long long _reason;
-    NSDate *_dateOfOccurrence;
-    unsigned long long _confidenceLevel;
-    NSUUID *_cameraProfileUUID;
-    HMFaceClassification *_faceClassification;
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool)d;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,41 +22,18 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)T7;
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)mineralized;
+- (id)ardConfirmFirstCandidateKey;
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long)NotificationWithCompletion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)postHH2UpdateRequiredCarPlayNotificationWithCompletion: /* Error: Ran out of types for this method. */;
 - (void)/;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSUUID *cameraProfileUUID; // @synthesize cameraProfileUUID=_cameraProfileUUID;
-@property(readonly) _Bool canAskForUserFeedback;
-@property(readonly) unsigned long long confidenceLevel; // @synthesize confidenceLevel=_confidenceLevel;
-@property(readonly, copy) NSDate *dateOfOccurrence; // @synthesize dateOfOccurrence=_dateOfOccurrence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) HMFaceClassification *faceClassification; // @synthesize faceClassification=_faceClassification;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) unsigned long long reason; // @synthesize reason=_reason;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

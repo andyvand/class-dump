@@ -6,13 +6,11 @@
 
 #import <NewsCore/FCPrivateDataController.h>
 
-@class FCCloudContext, FCMTWriterLock, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface FCReadingList : FCPrivateDataController
 {
     NSMutableDictionary *_entriesByArticleID;
-    FCCloudContext *_cloudContext;
-    FCMTWriterLock *_itemsLock;
 }
 
 + (_Bool);
@@ -21,29 +19,29 @@
 + (id);
 + (_Bool);
 + (id);
-+ (long long);
++ (long long)_resolutionForImage: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)_MSAvatarImage;
 + (id);
 + (id)(µl¸º¨Ä;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)<˟;
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)istics;
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)toWhenPlaybackEnds;
+- (id);
+- (id)flushToDisk;
 - (_Bool);
-- (unsigned long long)ExpectedValues:(id)arg1;
+- (unsigned long long)setExpectedValues:(id)arg1;
 - (void)eID;
 - (void)haseId=%@, servicesBundleAdamID=%@};
 - (void)News;

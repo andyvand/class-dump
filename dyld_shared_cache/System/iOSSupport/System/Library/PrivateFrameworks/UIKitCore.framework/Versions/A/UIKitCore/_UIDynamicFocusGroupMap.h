@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     _UIFocusGroupMap *_impl;
 }
 
+- (id)addPersistentTaskExecutorMonitor:(id)arg1 withID: /* Error: Ran out of types for this method. */;
+- (id)_numberOfChatsToWrite;
 - (id);
-- (id);
-- (id);
-- (id)ndlers;
+- (id)_initialSceneBSActionHandlers;
 - (void)°ª\;
 
 @end

@@ -6,23 +6,12 @@
 
 #import <Safari/StartPageViewItem.h>
 
-@class NSImage, NSImageView, NSStackView, NSTextField;
-@protocol StartPageFullDescriptionViewItemDelegate;
+@class NSImage, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface StartPageFullDescriptionViewItem : StartPageViewItem
 {
     NSStackView *_contentStackView;
-    NSStackView *_textStackView;
-    NSStackView *_accessoryStackView;
-    NSImageView *_accessoryImageView;
-    NSTextField *_accessoryLabel;
-    NSImageView *_imageView;
-    NSTextField *_titleLabel;
-    NSTextField *_descriptionLabel;
-    id <StartPageFullDescriptionViewItemDelegate> _delegate;
-    id _target;
-    SEL _action;
 }
 
 - (id);
@@ -36,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (SEL)Xô;
 - (struct CGSize)rivate}@ with error:%{public}@ /* Error: Ran out of types for this method. */;
@@ -47,11 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)l-.;
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(nonatomic) __weak id <StartPageFullDescriptionViewItemDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSImage *image;
-@property(readonly, nonatomic) struct CGSize imageSize;
-@property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end
 

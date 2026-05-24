@@ -7,11 +7,6 @@
 @interface AWDProactiveModelFittingPrecisionAtKPair
 {
     unsigned long long _k;
-    float _precision;
-    struct {
-        unsigned int k:1;
-        unsigned int precision:1;
-    } _has;
 }
 
 - (void);
@@ -19,24 +14,26 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)dh3sZqVdDxszB3CQw1KX+62
+YaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUywowhXlxUMVVx846sCHP
+XQIrUR4wDgYDVR0PAQH/BAQDAgEGMAoGCCqGSM49BAMDA2kAMGYCMQC/AZhw1x8+
+XBPQw3lTl2A4SxY5UvCMjyseU9uUD0qgFDYlvUzH0qi8KB5BZled0cYCMQClhMgI
+rl3Txh1EJBb5yoWhvs8Gy+qkov9/SIDIEGpmZ7OUngbjN5zheCyJio90Xig=
+-----END CERTIFICATE-----;
+- (id)subscriptionRetrieveRequest;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tart any new uploads;
 - (float);
 
 // Remaining properties
 @property(nonatomic) _Bool hasK;
-@property(nonatomic) _Bool hasPrecision;
-@property(nonatomic) unsigned long long k; // @synthesize k=_k;
-@property(nonatomic) float precision; // @synthesize precision=_precision;
 
 @end
 

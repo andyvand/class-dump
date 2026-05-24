@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRPlaybackSessionRequest, MRPlayerPath;
+@class MRPlaybackSessionRequest;
 
 @interface MRPlaybackSessionRequestMessage : MRProtocolMessage
 {
@@ -14,11 +14,10 @@
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)__kIMSIMSubscriptionsChangedNotification;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MRPlayerPath *playerPath;
 @property(readonly, nonatomic) MRPlaybackSessionRequest *request;
 
 @end

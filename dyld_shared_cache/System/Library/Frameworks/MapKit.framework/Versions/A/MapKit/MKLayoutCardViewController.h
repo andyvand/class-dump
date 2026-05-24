@@ -11,28 +11,25 @@
 @interface MKLayoutCardViewController : MKStackingViewController
 {
     MKMapItem *_mapItem;
-    NSMutableDictionary *_cacheVC;
-    NSMutableDictionary *_cacheModuleType;
 }
 
-- (void);
+- (void)/;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)Rx
+;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void)ndleError: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)handleError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *cacheModuleType; // @synthesize cacheModuleType=_cacheModuleType;
 @property(retain, nonatomic) NSMutableDictionary *cacheVC; // @synthesize cacheVC=_cacheVC;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
 
 @end
 

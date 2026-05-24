@@ -8,19 +8,16 @@
 {
 }
 
-- (id);
+- (id)t;
 - (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)rverDelegate>";
+- (struct CGPoint)",W,N,V_mPickerController;
 - (unsigned long long);
-- (struct CGPoint)rView:willSubmitForm:toFrame:fromFrame:withValues:submissionHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)tedTitle:(id)arg1;
+- (struct CGPoint)webBrowserView:willSubmitForm:toFrame:fromFrame:withValues:submissionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)setAttributedTitle:(id)arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint bottomLeft;
-@property(readonly, nonatomic) struct CGPoint bottomRight;
-@property(readonly, nonatomic) struct CGPoint topLeft;
-@property(readonly, nonatomic) struct CGPoint topRight;
 
 @end
 

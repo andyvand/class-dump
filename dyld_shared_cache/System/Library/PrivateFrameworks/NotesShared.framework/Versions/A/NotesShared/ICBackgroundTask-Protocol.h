@@ -5,5 +5,9 @@
 //
 
 @protocol ICBackgroundTask
+- (void);
+
+@optional
+- (void)addSubnet: /* Error: Ran out of types for this method. */;
 @end
 

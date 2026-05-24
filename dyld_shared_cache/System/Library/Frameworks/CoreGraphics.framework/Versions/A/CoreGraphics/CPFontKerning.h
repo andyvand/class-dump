@@ -8,12 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CPFontKerning
 {
     struct __CFData *kernTable;
-    const char *dataPtr;
-    unsigned int offset;
-    unsigned int kernTableLength;
-    struct __CFDictionary *kernDictionary;
-    _Bool override;
-    _Bool valid;
 }
 
 - (unsigned short);
@@ -30,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (struct __CFDictionary *);
+- (struct __CFDictionary *)G;
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void)0a;
 
 @end
 

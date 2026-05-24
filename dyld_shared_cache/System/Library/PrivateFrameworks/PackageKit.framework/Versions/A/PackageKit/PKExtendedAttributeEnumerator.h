@@ -9,14 +9,9 @@
 @interface PKExtendedAttributeEnumerator
 {
     NSString *_path;
-    char *_nameBuffer;
-    long long _nameBufferSize;
-    char *_currentName;
-    long long _currentByteOffset;
-    int _options;
 }
 
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);

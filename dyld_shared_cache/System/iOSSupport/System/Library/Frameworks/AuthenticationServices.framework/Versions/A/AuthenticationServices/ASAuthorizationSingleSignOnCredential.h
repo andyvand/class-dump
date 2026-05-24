@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSHTTPURLResponse, NSString;
+@class NSString;
 
 @interface ASAuthorizationSingleSignOnCredential
 {
     NSString *_state;
-    NSData *_accessToken;
-    NSData *_identityToken;
-    NSArray *_authorizedScopes;
-    NSHTTPURLResponse *_authenticatedResponse;
-    NSArray *_privateKeys;
 }
 
 + (id);
@@ -32,23 +27,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)exceptionWithName:(struct _NSZone *)arg1 reason:userInfo: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *accessToken; // @synthesize accessToken=_accessToken;
-@property(readonly, copy, nonatomic) NSHTTPURLResponse *authenticatedResponse; // @synthesize authenticatedResponse=_authenticatedResponse;
-@property(readonly, copy, nonatomic) NSArray *authorizedScopes; // @synthesize authorizedScopes=_authorizedScopes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSData *identityToken; // @synthesize identityToken=_identityToken;
-@property(readonly, nonatomic) NSArray *privateKeys; // @synthesize privateKeys=_privateKeys;
 @property(readonly, copy, nonatomic) NSString *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

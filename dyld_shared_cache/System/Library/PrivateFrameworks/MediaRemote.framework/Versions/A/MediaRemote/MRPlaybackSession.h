@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _MRPlaybackSessionProtobuf;
+@class NSString, _MRPlaybackSessionProtobuf;
 
 @interface MRPlaybackSession
 {
     NSString *_identifier;
-    NSString *_type;
-    NSData *_playbackSessionData;
-    NSString *_revision;
-    NSData *_metadata;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)approvedClientCapabilities;
 - (_Bool);
 - (id);
 - (id);
@@ -27,20 +23,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)ontext;
+- (id)ontext:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (void)N,V_getVolumeControlCapabilitiesResultMessage;
-- (id)ayerPath:requestID:completion: /* Error: Ran out of types for this method. */;
+- (id)_loadNowPlayingStateForResolvedPlayerPath:requestID:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *data;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSData *metadata; // @synthesize metadata=_metadata;
-@property(copy, nonatomic) NSData *playbackSessionData; // @synthesize playbackSessionData=_playbackSessionData;
 @property(readonly, nonatomic) _MRPlaybackSessionProtobuf *protobuf;
-@property(readonly, copy, nonatomic) NSString *revision; // @synthesize revision=_revision;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBIntentMetadata;
-
 @interface _INPBSetMessageAttributeIntent
 {
     struct {
         unsigned int attribute:1;
     } _has;
-    int _attribute;
-    NSArray *_identifiers;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -27,35 +22,23 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)|;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (_Bool)it;
-- (void)ponseCodeFailureAlreadyInLibrary;
+- (void)INAddMediaIntentResponseCodeFailureAlreadyInLibrary;
 - (int)n: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(nonatomic) int attribute; // @synthesize attribute=_attribute;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAttribute;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(readonly, nonatomic) unsigned long long identifiersCount;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

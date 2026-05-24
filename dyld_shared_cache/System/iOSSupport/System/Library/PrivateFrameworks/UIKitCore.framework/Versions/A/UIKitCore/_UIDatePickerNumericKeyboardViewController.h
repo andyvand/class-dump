@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UIKeyboard *_keyboard;
 }
 
-- (void);
+- (void)r;
 - (void);
 - (id);
 - (_Bool)!
 Ð!ðDùfð1Â0@ù
 × ;
-- (void)utSelectionStyle;
-- (void)tentSizeWhenEdgeAttached;
+- (void)_lastLayoutSelectionStyle;
+- (void)widthFollowsPreferredContentSizeWhenEdgeAttached;
 - (id)tShadowOpacity;
 - (void);
 

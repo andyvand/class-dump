@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKCVisualSearchResultItemViewAccessibility;
 + (void);
-- (void);
+- (void)1;
 - (id);
 
 @end

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineEventStream, MPCPlaybackIntent, NSString;
+@class MPCPlaybackIntent, NSString;
 
 @protocol MPCQueueControllerPlaybackEngine
+- (void);
+- (NSString *)account:%@ /* Error: Ran out of types for this method. */;
+- (MPCPlaybackIntent *)/;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *engineID;
-@property(readonly, nonatomic) MPCPlaybackEngineEventStream *eventStream;
-@property(readonly, copy, nonatomic) MPCPlaybackIntent *fallbackPlaybackIntent;
-@property(readonly, copy, nonatomic) NSString *hostingSharedSessionID;
-@property(readonly, copy, nonatomic) NSString *playerID;
 @end
 

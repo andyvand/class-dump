@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_nw_activity;
+@class NSObject;
+@protocol OS_nw_activity;
 
 @interface WiFiPolicyNetworkActivity
 {
     NSObject<OS_nw_activity> *_activity;
-    long long _state;
-    long long _parentLabel;
-    NSObject<OS_nw_activity> *_parentActivity;
-    NSMutableSet *_connections;
-    _Bool _hasStarted;
-    NSObject<OS_dispatch_source> *_activityTimer;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -28,7 +21,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)nd hoping for the best.;
 - (id);
 - (void);
 - (id);
@@ -38,7 +31,7 @@
 - (void)1Â0@ù
 × ;
 - (void)d;
-- (_Bool)ercentage;
+- (_Bool)txUcastOverTxAllFrmPercentage;
 - (void)d header tag %u (%@) while parsing sample;
 
 @end

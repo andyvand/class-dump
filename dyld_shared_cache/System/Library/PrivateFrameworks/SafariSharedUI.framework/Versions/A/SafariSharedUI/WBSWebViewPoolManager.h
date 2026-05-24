@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableSet, NSURL, WKProcessPool;
+@class NSURL, WKProcessPool;
 
 @interface WBSWebViewPoolManager
 {
     WKProcessPool *_processPool;
-    NSMutableSet *_usedWebViews;
-    NSMutableSet *_reusableWebViews;
-    NSURL *_injectedBundleURL;
-    NSArray *_additionalReadAccessAllowedURLs;
 }
 
 - (unsigned long long);
@@ -27,12 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (void)tence;
+- (void)_cacheEnsuringExistence;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *additionalReadAccessAllowedURLs; // @synthesize additionalReadAccessAllowedURLs=_additionalReadAccessAllowedURLs;
 @property(readonly, copy, nonatomic) NSURL *injectedBundleURL; // @synthesize injectedBundleURL=_injectedBundleURL;
-@property(readonly, nonatomic) unsigned long long preferredNumberOfConcurrentWebViews;
 
 @end
 

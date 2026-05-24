@@ -6,20 +6,18 @@
 
 #import <MediaExperience/MXCoreSessionBase.h>
 
-@class NSLock, NSPointerArray;
+@class NSPointerArray;
 
 __attribute__((visibility("hidden")))
 @interface MXCoreSessionSecure : MXCoreSessionBase
 {
     NSPointerArray *mMXSessionSecureList;
-    NSLock *mMXSessionSecureListLock;
-    unsigned int _isolatedAudioUseCaseID;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)?ח;
 - (unsigned int);
-- (id);
+- (id)W;
 - (void);
 - (id);
 - (unsigned long long);
@@ -27,8 +25,8 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (int);
-- (id);
-- (int);
+- (id);
+- (int)directory read;
 
 // Remaining properties
 @property(nonatomic) unsigned int isolatedAudioUseCaseID; // @synthesize isolatedAudioUseCaseID=_isolatedAudioUseCaseID;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, _SNClassificationResult;
+@class NSDictionary, _SNClassificationResult;
 
 @interface SNClassificationResult
 {
@@ -12,9 +12,9 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)b;
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
 - (id);
@@ -37,16 +37,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *classificationDictionary; // @dynamic classificationDictionary;
-@property(readonly, copy) NSArray *classifications; // @dynamic classifications;
-@property(copy, nonatomic) NSString *classifierIdentifier; // @dynamic classifierIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_3c1748cc timeRange; // @dynamic timeRange;
 
 @end
 

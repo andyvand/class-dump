@@ -7,14 +7,6 @@
 @interface NewsUI2.SearchTracker
 {
     id delegate;
-    id tracker;
-    id blueprintProvider;
-    id scienceDataFactory;
-    id channelDataFactory;
-    id articleDataFactory;
-    id featureAvailability;
-    id contentAvailabilityValidator;
-    id eventManager;
 }
 
 @end

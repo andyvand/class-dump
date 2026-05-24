@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSContextMenuRemoteView : NSMenuRemoteView
 {
     id implementation;
-    id serviceContextMenuProxy;
-    id hostMenu;
 }
 
-+ (id);
++ (id)ork;
+- (id)е;
 - (id);
-- (id);
-- (void);
-- (id)oinTabbingStackOnOrderIn;
+- (void)it transaction failed:%s ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (id)_shouldJoinTabbingStackOnOrderIn;
 - (id)attributedString;
 - (void)°Òÿ²4°E;
 - (id)BºH;

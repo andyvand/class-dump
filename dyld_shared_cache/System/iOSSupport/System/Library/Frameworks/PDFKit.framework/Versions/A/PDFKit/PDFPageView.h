@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFPageViewPrivate;
+@class PDFPageViewPrivate;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageView
 {
     PDFPageViewPrivate *_private;
-    _Bool _overlayViewInstalled;
 }
 
 - (void);
@@ -41,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGRect);
 - (struct CGPoint);
-- (void);
+- (void);
 - (int);
 - (void);
 - (void);
@@ -85,7 +84,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (_Bool);
@@ -95,13 +94,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (void);
-- (long long);
+- (long long)PKTextInputSettings;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)initWithPath:tableNames:createTablesSQL:createIndexesSQL:createTriggersSQL:downgradesToVersion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -110,14 +109,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)0:8@16:24@32@40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(getter=isOverlayViewInstalled) _Bool overlayViewInstalled; // @synthesize overlayViewInstalled=_overlayViewInstalled;
-@property(readonly) Class superclass;
 
 @end
 

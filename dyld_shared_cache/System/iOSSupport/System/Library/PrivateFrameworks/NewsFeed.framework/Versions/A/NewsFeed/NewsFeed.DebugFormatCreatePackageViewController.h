@@ -7,29 +7,20 @@
 @interface NewsFeed.DebugFormatCreatePackageViewController
 {
     id editor;
-    id editorURL;
-    id styler;
-    id debugFormatService;
-    id selectedTemplate;
-    id valuesByTemplateKey;
-    id tableView;
-    id shouldBecomeFirstResponder;
-    id sections;
-    id $__lazy_storage_$_createBarButtonItem;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void)5
 :-yþ /* Error: Ran out of types for this method. */;
 - (void);

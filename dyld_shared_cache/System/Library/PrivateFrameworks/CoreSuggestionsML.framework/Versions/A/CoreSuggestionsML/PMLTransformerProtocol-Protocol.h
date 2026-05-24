@@ -5,5 +5,6 @@
 //
 
 @protocol PMLTransformerProtocol
+- (id)getPurseBalance:(id)arg1;
 @end
 

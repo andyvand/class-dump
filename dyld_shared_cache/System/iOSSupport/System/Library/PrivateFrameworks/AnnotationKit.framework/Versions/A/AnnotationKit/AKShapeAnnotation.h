@@ -6,12 +6,11 @@
 
 #import <AnnotationKit/AKStrokedAnnotation.h>
 
-@class NSString, UIColor;
+@class UIColor;
 
 @interface AKShapeAnnotation : AKStrokedAnnotation
 {
     UIColor *_fillColorHDR;
-    UIColor *_fillColorSDR;
 }
 
 + (id);
@@ -22,27 +21,18 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ed to load %@;
+- (id)FV;
 - (void);
-- (id);
+- (id)error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) UIColor *fillColor;
-@property(retain) UIColor *fillColorHDR; // @synthesize fillColorHDR=_fillColorHDR;
-@property(retain) UIColor *fillColorSDR; // @synthesize fillColorSDR=_fillColorSDR;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

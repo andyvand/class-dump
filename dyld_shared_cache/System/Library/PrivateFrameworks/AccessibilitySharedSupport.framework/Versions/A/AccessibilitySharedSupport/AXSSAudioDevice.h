@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AXSSAudioDevice
 {
     _Bool _isInputDevice;
-    _Bool _isBuiltInAudio;
-    _Bool _supportsInput;
-    _Bool _supportsOutput;
-    _Bool _canBeDefault;
-    unsigned int _audioDeviceID;
-    NSString *_deviceUID;
-    NSString *_manufacturer;
-    NSString *_prevSourceName;
 }
 
 - (_Bool);
@@ -26,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -38,21 +28,13 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (void);
+- (void)";
 - (void)unavailable command in default list:(id)arg1 %@;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned int audioDeviceID; // @synthesize audioDeviceID=_audioDeviceID;
-@property(nonatomic) _Bool canBeDefault; // @synthesize canBeDefault=_canBeDefault;
-@property(retain, nonatomic) NSString *deviceUID; // @synthesize deviceUID=_deviceUID;
-@property(nonatomic) _Bool isBuiltInAudio; // @synthesize isBuiltInAudio=_isBuiltInAudio;
-@property(nonatomic) _Bool isInputDevice; // @synthesize isInputDevice=_isInputDevice;
-@property(retain, nonatomic) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(retain, nonatomic) NSString *prevSourceName; // @synthesize prevSourceName=_prevSourceName;
-@property(nonatomic) _Bool supportsInput; // @synthesize supportsInput=_supportsInput;
-@property(nonatomic) _Bool supportsOutput; // @synthesize supportsOutput=_supportsOutput;
 
 @end
 

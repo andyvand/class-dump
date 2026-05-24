@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, NSData, NSDictionary, NSUserDefaults;
-
 __attribute__((visibility("hidden")))
 @interface HMDDeviceSetupSessionInternal
 {
     unsigned long long _state;
-    HMDHomeManager *_homeManager;
-    NSData *_sessionData;
-    NSDictionary *_userInfo;
-    NSUserDefaults *_userDefaults;
 }
 
 + (id)d to determine app data container for object with objectID %{public}@;
 + (_Bool)tAC;
 + (long long)MetadataStore;
-- (_Bool);
+- (_Bool):(id)arg1 %lu, reached %@, location %@, eta %@, (coords %@pt, routingPathLegs %@), traffic colors %@, muted %@, resumed %@;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (unsigned long long);
 - (void);
 - (id)associatedAccessory from advertisement data:%@ /* Error: Ran out of types for this method. */;
-- (id)StatusReportAccountStatusChanged;
-- (void)SecondsSinceLastStatusKitAssertion;
+- (id)HMDUserPresenceUpdateReasonStatusReportAccountStatusChanged;
+- (void)durationSecondsSinceLastStatusKitAssertion;
 
 // Remaining properties
-@property(readonly) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(retain, nonatomic) NSData *sessionData; // @synthesize sessionData=_sessionData;
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

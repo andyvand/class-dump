@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBAppIdentifier, _INPBDevice;
+@class NSString, _INPBDevice;
 
 @protocol _INPBSettingMetadata
+- (NSString *);
 - (_INPBDevice *)w.ResolveObjectReferenceIntentResponse;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSettingId;
-@property(readonly, nonatomic) _Bool hasTargetApp;
-@property(readonly, nonatomic) _Bool hasTargetDevice;
 @property(copy, nonatomic) NSString *settingId;
-@property(retain, nonatomic) _INPBAppIdentifier *targetApp;
-@property(retain, nonatomic) _INPBDevice *targetDevice;
 @end
 

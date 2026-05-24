@@ -9,22 +9,14 @@
 @interface GEORPGroundViewImageResource
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _cameraNumber;
-    int _loadStatus;
-    unsigned int _lod;
-    struct {
-        unsigned int has_cameraNumber:1;
-        unsigned int has_loadStatus:1;
-        unsigned int has_lod:1;
-    } _flags;
 }
 
-+ (_Bool)n:(id)arg1 routeMatchedCoordinate: /* Error: Ran out of types for this method. */;
++ (_Bool)setLastLocation:(id)arg1 routeMatchedCoordinate: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)setMigratedPropertiesToDelete:(_Bool)arg1;
+- (void)iOSLegacyIdentifierRegistrar;
+- (id)future deletion with current boot uuid %{public}@.;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
@@ -32,33 +24,27 @@
 - (unsigned int);
 - (_Bool);
 - (int);
+- (void)setClusterSplitDistanceType:(int)arg1;
+- (int)normalizedPathInTopLeftOrigin:orientation: /* Error: Ran out of types for this method. */;
 - (void);
-- (int);
-- (void);
+- (id)@;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)CSCommandControlStreamEventMonitor;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)tartDatetime"b1"has_updatedDatetime"b1"has_blocking"b1"read_unknownFields"b1"read_affectedEntitys"b1"read_incidentTypeArtwork"b1"read_longDescriptionString"b1"read_messageForAllBlocking"b1"read_messageForIncidentType"b1"read_messageString"b1"read_shortDescriptionString"b1"read_titleString"b1"wrote_anyField"b1};
-- (id)avTraceData: /* Error: Ran out of types for this method. */;
+- (id)captureNavTraceWithNavTraceData: /* Error: Ran out of types for this method. */;
 - (id)¬+¸,.x.;
 - (id)tem/AppleInternal/Library/Frameworks/CoreLocation.framework/CoreLocation;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int cameraNumber;
 @property(nonatomic) _Bool hasCameraNumber;
-@property(nonatomic) _Bool hasLoadStatus;
-@property(nonatomic) _Bool hasLod;
-@property(nonatomic) int loadStatus;
-@property(nonatomic) unsigned int lod;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

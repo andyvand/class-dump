@@ -7,9 +7,6 @@
 @interface NewsUI2.OfflineFeatures
 {
     id observables;
-    id featureAvailability;
-    id bundleSubscriptionManager;
-    id backgroundAppRefreshChangeObserver;
 }
 
 - (void);

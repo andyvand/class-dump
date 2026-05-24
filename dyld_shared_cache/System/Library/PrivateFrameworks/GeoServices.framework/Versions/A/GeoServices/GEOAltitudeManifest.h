@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAltitudeManifestReserved, NSString;
+@class GEOAltitudeManifestReserved;
 
 @interface GEOAltitudeManifest
 {
@@ -15,7 +15,7 @@
 - (void);
 - (id);
 - (unsigned int);
-- (id);
+- (id)f;
 - (void);
 - (unsigned int);
 - (void);
@@ -25,8 +25,8 @@
 × ;
 - (void)"has_modelNumberMinor"b1"has_rankerModelType"b1"has_resultStatus"b1"has_isFromDLCacheModel"b1"has_isFromDLRuntimeModel"b1"read_debugResponse"b1"read_spellSuggestions"b1"read_tokenCandidates"b1"wrote_anyField"b1};
 - (id)PoisWithVendorTopPhoto"b1"read_unknownFields"b1"read_contextualPhotoLabels"b1"read_contextualPhotos"b1"wrote_anyField"b1};
-- (void)ntranceNameDisplayString;
-- (_Bool);
+- (void)_entranceNameDisplayString;
+- (_Bool)_currentPath;
 - (_Bool)a&;
 - (void);
 - (id)Apå$3P@;
@@ -34,13 +34,7 @@
 - (void)<á8ºy;;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

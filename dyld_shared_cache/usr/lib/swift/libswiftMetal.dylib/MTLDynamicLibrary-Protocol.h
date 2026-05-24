@@ -5,13 +5,12 @@
 //
 
 @class NSString;
-@protocol MTLDevice;
 
 @protocol MTLDynamicLibrary
+- (NSString *);
+- (_Bool);
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) NSString *installName;
 @property(copy) NSString *label;
 @end
 

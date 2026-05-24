@@ -6,29 +6,25 @@
 
 #import <Intents/INUserContext.h>
 
-@class NSNumber;
-
 @interface INMediaUserContext : INUserContext
 {
     long long _subscriptionStatus;
-    NSNumber *_numberOfLibraryItems;
 }
 
 + (id);
 + (_Bool);
-+ (long long)eInProgress;
++ (long long)INSearchForMeCardIntentResponseCodeInProgress;
 - (void);
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
+- (id)_recordDigital;
 - (id);
-- (id);
-- (void);
-- (void)cationOptionsForSaveParkingLocation:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)iousElementSibling;            }            sel += ':(id)arg1 nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('focusin', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox' && event.target.value == '') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:true}); }); await p; return p; /* Error: Ran out of types for this method. */;
+- (void)provideParkingLocationOptionsForSaveParkingLocation:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSNumber *numberOfLibraryItems; // @synthesize numberOfLibraryItems=_numberOfLibraryItems;
 @property long long subscriptionStatus; // @synthesize subscriptionStatus=_subscriptionStatus;
 
 @end

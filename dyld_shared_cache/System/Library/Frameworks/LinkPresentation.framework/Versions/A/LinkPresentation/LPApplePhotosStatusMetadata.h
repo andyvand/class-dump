@@ -6,7 +6,7 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class NSAttributedString, NSString;
+@class NSAttributedString;
 
 @interface LPApplePhotosStatusMetadata : LPSpecializationMetadata
 {
@@ -17,25 +17,18 @@
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)ent record %@ does not exist on the server;
+- (void)?;
+- (unsigned long long);
 - (_Bool);
-- (void);
+- (void)H;
 - (id);
-- (id);
+- (id)?;
 - (void)1H1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSAttributedString *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

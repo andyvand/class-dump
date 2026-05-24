@@ -7,19 +7,17 @@
 @interface SMConnectionFamilyNameTransformer
 {
     _Bool _useArticles;
-    _Bool _detailed;
 }
 
 + (_Bool);
 + (Class);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property _Bool detailed; // @synthesize detailed=_detailed;
 @property _Bool useArticles; // @synthesize useArticles=_useArticles;
 
 @end

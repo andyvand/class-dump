@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)AVAssetExportPresetAppleM4V720pHD;
 - (id);
 - (void);
 

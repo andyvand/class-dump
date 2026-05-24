@@ -15,30 +15,29 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (id);
++ (id)_C3DNode}{?=^?^?}^v^{__C3DRendererContext}^{__C3DFXContext}B^{__C3DCommonProfileProgramTree}^{__CFDictionary}{_opaque_pthread_mutex_t=q[56c]}^{__CFDictionary}^{__C3DObjectPool}^{__CFDictionary}^{__CFArray}d}24;
 - (_Bool);
 - (id);
 - (double);
 - (id);
 - (double);
-- (id);
+- (id)";
 - (id);
 - (double);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ype"b1"supportsScreening"b1"supportsRecents"b1"screenSharingIntention"b1"screenSharingType"b1"isSharePlayCapable"b1"anyRemoteSupportsRequestToScreenShare"b1"nearbyMode"b1"commTrustScore"b1"specialUnknown"b1"conversationGroupUUID"b1"shouldSilentlyRegisterIMAVCall"b1};
 - (double);
 - (double);
 - (double);
 - (id)ùÑÐ1Â0@ù
 × ;
-- (void)Handler;
+- (void)_cachingCompleteHandler;
 - (id)ker location (%lu) is beyond length of name '%@' (%lu);
 
 // Remaining properties
-@property(readonly, nonatomic) PHUserFeedbackDataCache *dataCache; // @synthesize dataCache=_dataCache;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary;
 
 @end

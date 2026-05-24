@@ -7,22 +7,10 @@
 @interface AppStoreKit.VideoPlayer
 {
     id state;
-    id videoUrl;
-    id videoObserver;
-    id playerItem;
-    id failure;
-    id failureCount;
-    id playbackChecks;
-    id shouldBePlaying;
-    id shouldLoopPlayback;
-    id seekingToZeroForLoop;
-    id lastPlaybackTimeGuard;
-    id lastPlaybackTimeUnsynchronized;
-    id delegate;
 }
 
-- (id);
-- (void);
+- (id)hotoCaptionAssets;
+- (void)*;
 - (void);
 - (id);
 - (id);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMWallpaperMetadata_Impl, NSDictionary, NSString;
+@class IMWallpaperMetadata_Impl, NSString;
 
 @interface IMWallpaperMetadata
 {
@@ -16,26 +16,20 @@
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (double);
+- (double)P;
 - (id);
 - (id);
 - (id);
 - (void)SÙÿ¸[;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *backgroundColor;
-@property(readonly, nonatomic) NSDictionary *fontColor;
 @property(readonly, nonatomic) NSString *fontName;
-@property(readonly, nonatomic) double fontSize;
-@property(readonly, nonatomic) double fontWeight;
-@property(readonly, nonatomic) _Bool isVertical;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

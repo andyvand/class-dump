@@ -7,18 +7,6 @@
 @interface AppStoreKit.SegmentedSearchResultsPresenter.Segment__priv_A97C231496641340D279FD777085D5AE
 {
     id id;
-    id name;
-    id contextCard;
-    id message;
-    id noResultsLink;
-    id noResultsHidesLargeTitle;
-    id transparencyLink;
-    id results;
-    id nextPageToken;
-    id isPreparingNextPage;
-    id metricsPage;
-    id impressionsTracker;
-    id resultsSubscriptions;
 }
 
 @end

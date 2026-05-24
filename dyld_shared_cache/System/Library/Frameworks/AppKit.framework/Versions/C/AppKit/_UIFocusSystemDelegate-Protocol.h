@@ -9,9 +9,12 @@
 @protocol _UIFocusSystemDelegate
 
 @optional
+- (void)@;
+- (_Bool);
+- (_Bool)*;
 - (void)× ;
 - (id <UIFocusItemContainer>)mask;
-- (void)ry;
+- (void)_dictionary;
 - (id <UIFocusEnvironment>)o get timebase info.;
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedWaypoint, MNVehicleParkingInfo;
-
 @interface MNArrivalInfo
 {
     long long _arrivalState;
-    unsigned long long _legIndex;
-    GEOComposedWaypoint *_destination;
-    MNVehicleParkingInfo *_vehicleParkingInfo;
 }
 
 + (_Bool);
@@ -25,19 +20,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)AOSUIProfileRemoteViewControllerDelegate;
 - (void);
 - (void)ViewInfo"24;
 
 // Remaining properties
 @property(readonly, nonatomic) long long arrivalState; // @synthesize arrivalState=_arrivalState;
-@property(readonly, nonatomic) GEOComposedWaypoint *destination; // @synthesize destination=_destination;
-@property(readonly, nonatomic) _Bool isInArrivalState;
-@property(readonly, nonatomic) _Bool isInParkingState;
-@property(readonly, nonatomic) unsigned long long legIndex; // @synthesize legIndex=_legIndex;
-@property(readonly, nonatomic) MNVehicleParkingInfo *vehicleParkingInfo; // @synthesize vehicleParkingInfo=_vehicleParkingInfo;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface PLProcessExitAggregatorHistogram
 {
     int _total;
-    int _duration_0_5;
-    int _duration_5_10;
-    int _duration_10_60;
-    int _duration_60_above;
-    int _duration_unknown;
 }
 
 - (void);
@@ -26,14 +21,9 @@
 - (int);
 - (void);
 - (id);
-- (int);
+- (int)bproto3;
 
 // Remaining properties
-@property int duration_0_5; // @synthesize duration_0_5=_duration_0_5;
-@property int duration_10_60; // @synthesize duration_10_60=_duration_10_60;
-@property int duration_5_10; // @synthesize duration_5_10=_duration_5_10;
-@property int duration_60_above; // @synthesize duration_60_above=_duration_60_above;
-@property int duration_unknown; // @synthesize duration_unknown=_duration_unknown;
 @property int total; // @synthesize total=_total;
 
 @end

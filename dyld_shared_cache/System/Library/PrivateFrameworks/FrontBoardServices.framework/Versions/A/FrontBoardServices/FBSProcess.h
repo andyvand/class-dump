@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSMachPortTaskNameRight, BSProcessHandle, NSString, RBSProcessIdentity;
+@class BSProcessHandle;
 
 @interface FBSProcess
 {
     BSProcessHandle *_handle;
-    RBSProcessIdentity *_identity;
-    BSMachPortTaskNameRight *_taskNameRight;
 }
 
 + (id)
@@ -19,35 +17,23 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)EENS_10MutableFstISB_EEEE;
+- (void);
 - (int);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)cancellationCommands;
+- (_Bool)6[;
 - (long long);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, retain, nonatomic) BSProcessHandle *handle;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) RBSProcessIdentity *identity;
-@property(readonly, nonatomic) int pid;
 @property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) BSMachPortTaskNameRight *taskNameRight; // @synthesize taskNameRight=_taskNameRight;
-@property(readonly, nonatomic) long long versionedPID;
 
 @end
 

@@ -8,14 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VNFgBgE5MLInstanceSegmenterThresholds
 {
     float _cocoConfidenceThreshold;
-    float _miyoshiConfidenceThreshold;
-    float _maskThreshold;
-    float _IoUThreshold;
-    float _stabilityScoreThreshold;
-    float _matchScoreThreshold;
-    float _validMinMaskRatio;
-    float _defaultValidMinimumMaskPixelCount;
-    float _fillGapsAreaRatio;
 }
 
 - (float);
@@ -23,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,21 +26,13 @@ __attribute__((visibility("hidden")))
 - (float);
 - (id);
 - (id);
-- (float);
+- (float)h;
 - (float);
 - (float);
 - (float);
 
 // Remaining properties
-@property float IoUThreshold; // @synthesize IoUThreshold=_IoUThreshold;
 @property float cocoConfidenceThreshold; // @synthesize cocoConfidenceThreshold=_cocoConfidenceThreshold;
-@property float defaultValidMinimumMaskPixelCount; // @synthesize defaultValidMinimumMaskPixelCount=_defaultValidMinimumMaskPixelCount;
-@property float fillGapsAreaRatio; // @synthesize fillGapsAreaRatio=_fillGapsAreaRatio;
-@property float maskThreshold; // @synthesize maskThreshold=_maskThreshold;
-@property float matchScoreThreshold; // @synthesize matchScoreThreshold=_matchScoreThreshold;
-@property float miyoshiConfidenceThreshold; // @synthesize miyoshiConfidenceThreshold=_miyoshiConfidenceThreshold;
-@property float stabilityScoreThreshold; // @synthesize stabilityScoreThreshold=_stabilityScoreThreshold;
-@property float validMinMaskRatio; // @synthesize validMinMaskRatio=_validMinMaskRatio;
 
 @end
 

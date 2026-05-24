@@ -7,10 +7,6 @@
 @interface PhotosUICore.LemonadeSharedLibraryViewModeIndicatorModel
 {
     id _viewMode;
-    id _sharedLibraryFilterViewModel;
-    id _sharedLibraryFilterViewModelObservation;
-    id observable;
-    id _$observationRegistrar;
 }
 
 @end

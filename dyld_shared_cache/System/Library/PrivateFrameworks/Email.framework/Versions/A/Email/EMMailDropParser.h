@@ -10,12 +10,12 @@
 
 + (_Bool);
 + (void);
++ (id);
++ (id)";
 + (id);
-+ (id);
-+ (id);
++ (void)L=;
 + (void);
-+ (void);
-+ (_Bool);
++ (_Bool)zl=;
 + (id);
 
 @end

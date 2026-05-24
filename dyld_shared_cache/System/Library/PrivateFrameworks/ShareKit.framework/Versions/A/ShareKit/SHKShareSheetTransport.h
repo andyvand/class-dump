@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSString, NSUUID;
+@class NSUUID;
 
 @interface SHKShareSheetTransport
 {
     _Bool _isSymbolImageIdentifier;
-    _Bool _isSymbolImage;
-    NSUUID *_identifier;
-    NSString *_title;
-    NSString *_iconImageIdentifier;
-    NSFileHandle *_imageFileHandle;
 }
 
 + (_Bool);
@@ -29,17 +24,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *iconImageIdentifier; // @synthesize iconImageIdentifier=_iconImageIdentifier;
 @property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSFileHandle *imageFileHandle; // @synthesize imageFileHandle=_imageFileHandle;
-@property(nonatomic) _Bool isSymbolImage; // @synthesize isSymbolImage=_isSymbolImage;
-@property(nonatomic) _Bool isSymbolImageIdentifier; // @synthesize isSymbolImageIdentifier=_isSymbolImageIdentifier;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

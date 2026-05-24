@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)eout event pending delivery:%@ /* Error: Ran out of types for this method. */;
 - (void)ó18Ó?-DTû!Àhh¶?DçJWÆ¿DçJWÆ?ÐM!Ð¤?ó18Ã?-DTû!	@;
 
 // Remaining properties

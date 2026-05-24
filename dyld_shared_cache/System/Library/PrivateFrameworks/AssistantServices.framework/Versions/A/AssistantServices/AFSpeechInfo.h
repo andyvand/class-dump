@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SASSpeechRecognized;
+@class SASSpeechRecognized;
 
 @interface AFSpeechInfo
 {
@@ -15,7 +15,7 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)DecimalNumber",R,C,N,V_transactionAmount;
 - (id);
 - (id);
 - (id);
@@ -25,19 +25,12 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)4˟;
 - (id);
-- (id);
-- (void)address;
+- (void)_address;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) SASSpeechRecognized *speechRecognizedCommand; // @synthesize speechRecognizedCommand=_speechRecognizedCommand;
-@property(readonly) Class superclass;
 
 @end
 

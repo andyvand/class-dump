@@ -6,41 +6,12 @@
 
 #import <CoreGraphics/CPTextObject.h>
 
-@class CPCharSequence, NSArray;
+@class CPCharSequence;
 
 __attribute__((visibility("hidden")))
 @interface CPTextLine : CPTextObject
 {
     CPCharSequence *charSequence;
-    CDStruct_2e2afed4 *wordArray;
-    unsigned int wordCount;
-    struct CPInlineContainer *inlineList;
-    int lineNumber;
-    int columnNumber;
-    double baseline;
-    _Bool baseLineIsNull;
-    struct CGRect normalizedBounds;
-    _Bool hasBeenSplit;
-    _Bool hasBeenProcessed;
-    _Bool maySplit;
-    _Bool hasTabs;
-    NSArray *columnBreaks;
-    NSArray *xsegments;
-    int levels;
-    float maximumLetterGap;
-    float maximumWordGap;
-    int tabsBefore;
-    _Bool irregular;
-    unsigned int leftSpacerIndex;
-    unsigned int rightSpacerIndex;
-    _Bool isListItem;
-    unsigned int listSpacerIndex;
-    _Bool lineBreakAfter;
-    struct CPPDFStyle *uniformStyle;
-    unsigned short uniformStyleFlags;
-    double monospaceWidth;
-    unsigned int *spacesBefore;
-    _Bool disposed;
 }
 
 - (long long);
@@ -56,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -72,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (unsigned int);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -85,7 +56,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -98,10 +69,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)y;
 - (CDStruct_2e2afed4 *);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
 - (struct CGRect);
 - (long long);
@@ -115,25 +86,21 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (_Bool);
 - (unsigned int);
-- (int);
+- (int)public}@;
 - (id);
 - (void);
-- (double);
+- (double)_accountTypeCacheLock;
 - (id);
-- (CDStruct_2e2afed4 *);
-- (void);
-- (struct CGRect);
-- (id);
+- (CDStruct_2e2afed4 *)tAddresses="%@c" || kMDItemRecipientEmailAddresses="%@c");
+- (void)?;
+- (struct CGRect)J;
+- (id);
 - (id);
 - (void);
 - (struct CGPoint)t¢t¢t£t£9ôt¥t¥F½t¦t¦BSt§t§3t¨t¨9õt©t©BTtªtªF¾t«t«9öt®t®Uðt¯t¯LXt°t°;
 
 // Remaining properties
-@property(nonatomic) _Bool isListItem; // @synthesize isListItem;
 @property(nonatomic) unsigned int leftSpacerIndex; // @synthesize leftSpacerIndex;
-@property(nonatomic) _Bool lineBreakAfter; // @synthesize lineBreakAfter;
-@property(nonatomic) unsigned int listSpacerIndex; // @synthesize listSpacerIndex;
-@property(nonatomic) unsigned int rightSpacerIndex; // @synthesize rightSpacerIndex;
 
 @end
 

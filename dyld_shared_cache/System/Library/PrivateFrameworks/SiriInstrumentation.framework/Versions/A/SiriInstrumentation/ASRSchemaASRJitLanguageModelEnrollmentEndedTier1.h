@@ -6,16 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class NSArray;
 
 @interface ASRSchemaASRJitLanguageModelEnrollmentEndedTier1 : SISchemaInstrumentationMessage
 {
     NSArray *_dialogContexts;
-    SISchemaUUID *_linkId;
-    _Bool _hasLinkId;
 }
 
-- (void);
+- (void)c;
 - (id);
 - (unsigned long long);
 - (id);
@@ -33,17 +31,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id)tIndex: /* Error: Ran out of types for this method. */;
+- (id)__AUTH_CONST;
+- (id)suggestionIdsAtIndex: /* Error: Ran out of types for this method. */;
 - (id)LÂ;
 - (id);
 - (void)Ûµ­vò&;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *dialogContexts; // @synthesize dialogContexts=_dialogContexts;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end
 

@@ -7,18 +7,9 @@
 @interface BSDateTimeCache
 {
     double _yesterday;
-    double _today;
-    double _tomorrow;
-    double _2daysFromNow;
-    double _6daysAgo;
-    double _prevWeek;
-    double _nextWeek;
-    double _lastAttemptedResetTime;
-    double _lastSuccessfulResetTime;
-    _Bool _isResetting;
 }
 
-+ (id);
++ (id)P;
 - (_Bool);
 - (_Bool);
 - (void);

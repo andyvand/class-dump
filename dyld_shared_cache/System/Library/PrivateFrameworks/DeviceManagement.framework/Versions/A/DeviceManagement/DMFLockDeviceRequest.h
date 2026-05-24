@@ -11,28 +11,24 @@
 @interface DMFLockDeviceRequest : DMFTaskRequest
 {
     NSString *_message;
-    NSString *_phoneNumber;
-    NSString *_pin;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)ucuns1EyaU8WzebByK7E/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/StdLibExtras.h;
+- (id)ctedOpenerType>::KeyValuePairTraits, WTF::HashTraits<WebCore::RegistrableDomain>>::validateKey(const ValueType &) [Key = WebCore::RegistrableDomain, Value = WTF::KeyValuePair<WebCore::RegistrableDomain, WebKit::RestrictedOpenerType>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::RegistrableDomain, WebKit::RestrictedOpenerType>>, HashFunctions = WTF::DefaultHash<WebCore::RegistrableDomain>, Traits = WTF::HashMap<WebCore::RegistrableDomain, WebKit::RestrictedOpenerType>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::RegistrableDomain>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
 - (void);
+- (id);
+- (void)	;
+- (id);
+- (void)r;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(copy, nonatomic) NSString *pin; // @synthesize pin=_pin;
 
 @end
 

@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGQuickResponsesPredictionParameters
 {
     _Bool _isPersonalizationDisabled;
-    _Bool _isReplyTextRandomized;
-    _Bool _isPerCategory;
-    _Bool _modelFeaturizationFormatOptionIsDense;
-    _Bool _dynamicLabelsEnabled;
-    _Bool _hasNegativeClass;
-    _Bool _filterNonConfident;
-    double _weightForCategoryAverage;
-    double _weightForCategoryMax;
-    double _weightForIndividualModel;
-    double _classDiscount;
-    double _responsesBonus;
-    double _minToShowThreshold;
-    unsigned long long _defaultResponsesToReturn;
-    unsigned long long _responsesToShowAtTopForDiversity;
-    double _personalizationExplorationFactor;
-    double _personalizationDisplayedPseudocount;
-    double _personalizationSelectedPseudocountPerSemanticClass;
-    unsigned long long _maxPromptLength;
-    double _maxPromptWindowSeconds;
-    NSString *_promptJoiningString;
-    NSString *_modelTypeName;
-    NSString *_subModelKeyString;
-    double _negativeClassMaximumToPredict;
 }
 
 + (id);
@@ -39,7 +14,7 @@
 - (double);
 - (double);
 - (double);
-- (id);
+- (id)Z;
 - (unsigned long long);
 - (double);
 - (double);
@@ -59,35 +34,12 @@
 - (double);
 - (id);
 - (double);
-- (unsigned long long);
+- (unsigned long long)3040;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double classDiscount; // @synthesize classDiscount=_classDiscount;
-@property(readonly, nonatomic) unsigned long long defaultResponsesToReturn; // @synthesize defaultResponsesToReturn=_defaultResponsesToReturn;
-@property(readonly, nonatomic) _Bool dynamicLabelsEnabled; // @synthesize dynamicLabelsEnabled=_dynamicLabelsEnabled;
-@property(readonly, nonatomic) _Bool filterNonConfident; // @synthesize filterNonConfident=_filterNonConfident;
-@property(readonly, nonatomic) _Bool hasNegativeClass; // @synthesize hasNegativeClass=_hasNegativeClass;
-@property(readonly, nonatomic) _Bool isPerCategory; // @synthesize isPerCategory=_isPerCategory;
 @property(readonly, nonatomic) _Bool isPersonalizationDisabled; // @synthesize isPersonalizationDisabled=_isPersonalizationDisabled;
-@property(readonly, nonatomic) _Bool isReplyTextRandomized; // @synthesize isReplyTextRandomized=_isReplyTextRandomized;
-@property(readonly, nonatomic) unsigned long long maxPromptLength; // @synthesize maxPromptLength=_maxPromptLength;
-@property(readonly, nonatomic) double maxPromptWindowSeconds; // @synthesize maxPromptWindowSeconds=_maxPromptWindowSeconds;
-@property(readonly, nonatomic) double minToShowThreshold; // @synthesize minToShowThreshold=_minToShowThreshold;
-@property(readonly, nonatomic) _Bool modelFeaturizationFormatOptionIsDense; // @synthesize modelFeaturizationFormatOptionIsDense=_modelFeaturizationFormatOptionIsDense;
-@property(readonly, nonatomic) NSString *modelTypeName; // @synthesize modelTypeName=_modelTypeName;
-@property(readonly, nonatomic) double negativeClassMaximumToPredict; // @synthesize negativeClassMaximumToPredict=_negativeClassMaximumToPredict;
-@property(readonly, nonatomic) double personalizationDisplayedPseudocount; // @synthesize personalizationDisplayedPseudocount=_personalizationDisplayedPseudocount;
-@property(readonly, nonatomic) double personalizationExplorationFactor; // @synthesize personalizationExplorationFactor=_personalizationExplorationFactor;
-@property(readonly, nonatomic) double personalizationSelectedPseudocountPerSemanticClass; // @synthesize personalizationSelectedPseudocountPerSemanticClass=_personalizationSelectedPseudocountPerSemanticClass;
-@property(readonly, nonatomic) NSString *promptJoiningString; // @synthesize promptJoiningString=_promptJoiningString;
-@property(readonly, nonatomic) double responsesBonus; // @synthesize responsesBonus=_responsesBonus;
-@property(readonly, nonatomic) unsigned long long responsesToShowAtTopForDiversity; // @synthesize responsesToShowAtTopForDiversity=_responsesToShowAtTopForDiversity;
-@property(readonly, nonatomic) NSString *subModelKeyString; // @synthesize subModelKeyString=_subModelKeyString;
-@property(readonly, nonatomic) double weightForCategoryAverage; // @synthesize weightForCategoryAverage=_weightForCategoryAverage;
-@property(readonly, nonatomic) double weightForCategoryMax; // @synthesize weightForCategoryMax=_weightForCategoryMax;
-@property(readonly, nonatomic) double weightForIndividualModel; // @synthesize weightForIndividualModel=_weightForIndividualModel;
 
 @end
 

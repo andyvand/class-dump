@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol ICSectionIdentifier
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCollapsible) _Bool collapsible;
-@property(readonly, copy, nonatomic) NSString *expansionStateContext;
 @property(readonly, copy, nonatomic) NSString *title;
 @end
 

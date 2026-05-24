@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)ustodianRecoveryRequestWithContext completed with error:(id)arg1 %{public}@;
 - (id);
 - (id);
 - (void);

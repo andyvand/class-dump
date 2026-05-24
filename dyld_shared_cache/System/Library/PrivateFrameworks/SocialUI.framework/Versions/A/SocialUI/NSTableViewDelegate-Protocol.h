@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSTableView;
+
 @protocol NSTableViewDelegate
+
+@optional
+- (_Bool);
+- (NSArray *);
+- (void)setAppStoreBundles:(NSTableView *)arg1;
 @end
 

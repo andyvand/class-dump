@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RRSchemaRRPullerFailed : SISchemaInstrumentationMessage
 {
     int _name;
-    _Bool _isTimeout;
-    struct {
-        unsigned int name:1;
-        unsigned int isTimeout:1;
-    } _has;
 }
 
 - (void);
@@ -28,21 +21,17 @@
 - (id);
 - (_Bool);
 - (void);
-- (int);
-- (unsigned long long);
+- (int);
+- (unsigned long long)ldRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobActivity_macOS.m:50 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)u45C4/Library/Caches/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDPersistence/Source/IMDCFHandleRecord.m;
 - (id);
 - (id);
-- (id)p_id;
+- (id)app_id;
 - (id)taToAppIntentEventInSec;
 - (void)iriSchemaRGHallucinationDetectionEnded",&,N,V_ended;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsTimeout;
-@property(nonatomic) _Bool hasName;
-@property(nonatomic) _Bool isTimeout; // @synthesize isTimeout=_isTimeout;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int name; // @synthesize name=_name;
 
 @end

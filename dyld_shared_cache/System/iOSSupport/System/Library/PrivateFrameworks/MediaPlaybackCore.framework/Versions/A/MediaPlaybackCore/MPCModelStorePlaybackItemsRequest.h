@@ -4,53 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackRequestEnvironment, MPModelResponse, MPSectionedCollection, NSArray, NSData, NSString, NSUUID;
+@class NSArray, NSUUID;
 
 @interface MPCModelStorePlaybackItemsRequest
 {
     NSUUID *_storeIDsAnonymousGroupUUID;
-    _Bool _supportsPaginatedResults;
-    _Bool _allowLocalEquivalencies;
-    _Bool _inGroupSession;
-    MPCPlaybackRequestEnvironment *_playbackRequestEnvironment;
-    NSArray *_storeIDs;
-    MPModelResponse *_previousResponse;
-    NSString *_clientIdentifier;
-    MPSectionedCollection *_sectionedModelObjects;
-    id _requestContextTag;
-    NSArray *_playbackPrioritizedIndexPaths;
-    NSString *_sodPersonID;
-    NSData *_sodItemPayload;
-    NSData *_sodContainerPayload;
 }
 
 + (id);
 + (_Bool);
 + (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)_֬;
+- (id);
+- (id)rk/Versions/A/AccountsDaemon;
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ccount"16i24@"ACDAccountStore"28@"ACAccount"36;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)A;
 - (_Bool);
 - (id);
 - (id);
@@ -68,33 +55,7 @@
 - (id)Àÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowLocalEquivalencies; // @synthesize allowLocalEquivalencies=_allowLocalEquivalencies;
-@property(copy, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableImplicitSectioning;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) MPSectionedCollection *identifiers;
-@property(nonatomic, getter=isInGroupSession) _Bool inGroupSession; // @synthesize inGroupSession=_inGroupSession;
-@property(copy, nonatomic) NSArray *playbackPrioritizedIndexPaths;
-@property(copy, nonatomic) MPCPlaybackRequestEnvironment *playbackRequestEnvironment; // @synthesize playbackRequestEnvironment=_playbackRequestEnvironment;
-@property(retain, nonatomic) MPModelResponse *previousResponse; // @synthesize previousResponse=_previousResponse;
-@property(retain, nonatomic) id requestContextTag; // @synthesize requestContextTag=_requestContextTag;
-@property(readonly, copy, nonatomic) NSString *rtcReportingPlayQueueSourceIdentifier;
-@property(copy, nonatomic) MPSectionedCollection *sectionedModelObjects; // @synthesize sectionedModelObjects=_sectionedModelObjects;
-@property(copy, nonatomic) NSData *sodContainerPayload;
-@property(copy, nonatomic) NSData *sodItemPayload;
-@property(copy, nonatomic) NSString *sodPersonID;
-@property(copy, nonatomic) NSArray *storeIDs; // @synthesize storeIDs=_storeIDs;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsPaginatedResults; // @synthesize supportsPaginatedResults=_supportsPaginatedResults;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
+@property(copy, nonatomic) NSArray *playbackPrioritizedIndexPaths; // @synthesize playbackPrioritizedIndexPaths=_playbackPrioritizedIndexPaths;
 
 @end
 

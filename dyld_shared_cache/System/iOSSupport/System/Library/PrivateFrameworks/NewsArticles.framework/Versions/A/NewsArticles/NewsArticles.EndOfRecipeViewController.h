@@ -7,15 +7,13 @@
 @interface NewsArticles.EndOfRecipeViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
 }
 
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)te;
+- (void)footerDelegate;
 - (void)à;
 
 @end

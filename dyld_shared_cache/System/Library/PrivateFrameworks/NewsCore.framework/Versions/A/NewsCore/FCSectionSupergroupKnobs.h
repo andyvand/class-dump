@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCSectionSupergroupKnobs
 {
     _Bool _isEligible;
-    NSString *_nameOverride;
-    double _rankMultiplier;
 }
 
 - (double);
 - (id);
-- (id);
-- (id);
+- (id)stmentUUID;
+- (id);
 - (void);
 - (_Bool);
 - (void)TPBFeedItem(FCFeedItem) canBePurchased];
 
 // Remaining properties
 @property(nonatomic) _Bool isEligible; // @synthesize isEligible=_isEligible;
-@property(readonly, nonatomic) NSString *nameOverride; // @synthesize nameOverride=_nameOverride;
-@property(readonly, nonatomic) double rankMultiplier; // @synthesize rankMultiplier=_rankMultiplier;
 
 @end
 

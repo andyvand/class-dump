@@ -9,7 +9,6 @@
 @interface ChatKit.TapbackMaterialView : ChatKit.TapbackBackdropView
 {
     id colorType;
-    id backgroundLuminance;
 }
 
 - (id);

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AVContentKeySession, AVURLAsset, MTContentKeyRequest, NSData, NSObject, NSString;
-@protocol IMAVSecureKeyLoaderDelegate, MTSecureKeyRequestHandler, MTSecureKeyRequestStorage, NSURLSessionDelegate><AMSURLProtocolDelegate, OS_dispatch_queue;
+@class AVContentKeySession;
 
 @interface IMAVSecureKeyLoader
 {
     _Bool _isRenewal;
-    id <IMAVSecureKeyLoaderDelegate> _delegate;
-    AVContentKeySession *_contentKeySession;
-    AVURLAsset *_recipient;
-    ACAccount *_account;
-    NSString *_contentAdamId;
-    CDUnknownBlockType _pendingCompletion;
-    id <MTSecureKeyRequestHandler> _secureKeyRequestHandler;
-    id <NSURLSessionDelegate><AMSURLProtocolDelegate> _urlProtocolDelegate;
-    id <MTSecureKeyRequestStorage> _secureKeyRequestStorage;
-    unsigned long long _useCase;
-    MTContentKeyRequest *_savedRequestToUseForStopping;
-    NSData *_savedRequestDataToUseForStopping;
-    NSObject<OS_dispatch_queue> *_keyLoaderQueue;
 }
 
 - (id);
@@ -74,27 +60,7 @@
 - (void)êTyÂô;
 
 // Remaining properties
-@property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) NSString *contentAdamId; // @synthesize contentAdamId=_contentAdamId;
 @property(retain, nonatomic) AVContentKeySession *contentKeySession; // @synthesize contentKeySession=_contentKeySession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMAVSecureKeyLoaderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRenewal; // @synthesize isRenewal=_isRenewal;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *keyLoaderQueue; // @synthesize keyLoaderQueue=_keyLoaderQueue;
-@property(copy, nonatomic) CDUnknownBlockType pendingCompletion; // @synthesize pendingCompletion=_pendingCompletion;
-@property(retain, nonatomic) AVURLAsset *recipient; // @synthesize recipient=_recipient;
-@property(retain, nonatomic) NSData *savedRequestDataToUseForStopping; // @synthesize savedRequestDataToUseForStopping=_savedRequestDataToUseForStopping;
-@property(retain, nonatomic) MTContentKeyRequest *savedRequestToUseForStopping; // @synthesize savedRequestToUseForStopping=_savedRequestToUseForStopping;
-@property(retain, nonatomic) id <MTSecureKeyRequestHandler> secureKeyRequestHandler; // @synthesize secureKeyRequestHandler=_secureKeyRequestHandler;
-@property(retain, nonatomic) id <MTSecureKeyRequestStorage> secureKeyRequestStorage; // @synthesize secureKeyRequestStorage=_secureKeyRequestStorage;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <NSURLSessionDelegate><AMSURLProtocolDelegate> urlProtocolDelegate; // @synthesize urlProtocolDelegate=_urlProtocolDelegate;
-@property(nonatomic) unsigned long long useCase; // @synthesize useCase=_useCase;
 
 @end
 

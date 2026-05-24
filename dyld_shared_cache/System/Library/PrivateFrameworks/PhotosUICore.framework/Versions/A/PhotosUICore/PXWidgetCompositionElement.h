@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, PXScrollViewController, PXTilingController, PXWidgetBar, PXWidgetCompositionSpec;
-@protocol PXWidget, PXWidgetCompositionElementDelegate;
+@class NSHashTable;
 
 @interface PXWidgetCompositionElement
 {
@@ -14,22 +13,9 @@
         _Bool respondsToRequestViewControllerDismissalAnimated;
         _Bool respondsToPresentationEnvironment;
     } _delegateFlags;
-    _Bool _isPerformingChanges;
-    _Bool _shouldLoadWidgetContent;
-    _Bool __isNotifyingWidget;
-    _Bool __isClassOfViewElement;
-    id <PXWidget> _widget;
-    PXScrollViewController *_scrollViewController;
-    id <PXWidgetCompositionElementDelegate> _delegate;
-    PXWidgetCompositionSpec *_spec;
-    PXTilingController *_animationOptionsOriginatingTilingController;
-    NSHashTable *__observers;
-    PXWidgetBar *__header;
-    PXWidgetBar *__footer;
-    struct CGSize _widgetContentSize;
 }
 
-+ (id);
++ (id)tb;
 - (id);
 - (id);
 - (id);
@@ -49,14 +35,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -80,7 +66,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)CGPoint;
 - (id);
 - (void);
 - (void)24;
@@ -88,28 +74,7 @@
 - (void)A¦±Km;
 
 // Remaining properties
-@property(readonly, nonatomic) PXWidgetBar *_footer; // @synthesize _footer=__footer;
-@property(readonly, nonatomic) PXWidgetBar *_header; // @synthesize _header=__header;
-@property(nonatomic) _Bool _isClassOfViewElement; // @synthesize _isClassOfViewElement=__isClassOfViewElement;
-@property(nonatomic, setter=_setNotifyingWidget:) _Bool _isNotifyingWidget; // @synthesize _isNotifyingWidget=__isNotifyingWidget;
 @property(readonly, nonatomic) NSHashTable *_observers; // @synthesize _observers=__observers;
-@property(readonly, nonatomic) PXTilingController *animationOptionsOriginatingTilingController; // @synthesize animationOptionsOriginatingTilingController=_animationOptionsOriginatingTilingController;
-@property(readonly, nonatomic) PXTilingController *contentTilingController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXWidgetCompositionElementDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXTilingController *footerTilingController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXTilingController *headerTilingController;
-@property(readonly, nonatomic) __weak PXScrollViewController *scrollViewController; // @synthesize scrollViewController=_scrollViewController;
-@property(nonatomic) _Bool shouldLoadWidgetContent; // @synthesize shouldLoadWidgetContent=_shouldLoadWidgetContent;
-@property(retain, nonatomic) PXWidgetCompositionSpec *spec; // @synthesize spec=_spec;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PXWidget> widget; // @synthesize widget=_widget;
-@property(nonatomic) struct CGSize widgetContentSize; // @synthesize widgetContentSize=_widgetContentSize;
 
 @end
 

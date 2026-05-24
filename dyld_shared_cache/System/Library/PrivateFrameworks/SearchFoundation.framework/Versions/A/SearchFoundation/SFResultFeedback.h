@@ -13,15 +13,15 @@
     SFSearchResult *_result;
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (id);
-- (id);
+- (id)snapshotWithElapsedTime:(id)arg1 duration:rate:atTimestamp:state: /* Error: Ran out of types for this method. */;
+- (id)h;
+- (void);
+- (id)from unit test;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)penableURL;
+- (void)cachedOpenableURL;
 
 // Remaining properties
 @property(retain, nonatomic) SFSearchResult *result; // @synthesize result=_result;

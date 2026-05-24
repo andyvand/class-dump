@@ -9,24 +9,18 @@
 @interface RTLearnedPlaceTypeInferenceDailyStats
 {
     NSDate *_start;
-    NSDate *_end;
-    unsigned long long _visitCount;
-    double _aggregateDwellTimeBetweenDateRange;
 }
 
 - (unsigned long long);
 - (id);
-- (double);
-- (id);
+- (double)oes not match the record (%@) password generation;
+- (id)%s, errno:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)ing:companionLinkClient /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double aggregateDwellTimeBetweenDateRange; // @synthesize aggregateDwellTimeBetweenDateRange=_aggregateDwellTimeBetweenDateRange;
-@property(readonly, nonatomic) NSDate *end; // @synthesize end=_end;
 @property(readonly, nonatomic) NSDate *start; // @synthesize start=_start;
-@property(readonly, nonatomic) unsigned long long visitCount; // @synthesize visitCount=_visitCount;
 
 @end
 

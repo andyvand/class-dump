@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSString, NSTask;
-
 @interface SMTask
 {
     int _terminationStatus;
-    NSTask *_task;
-    NSString *_logPrefix;
-    NSFileHandle *_outputFileHandle;
 }
 
 + (id);
@@ -23,18 +18,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)SString";
 - (void);
-- (id);
+- (id)/;
 - (int);
 - (void);
-- (id);
+- (id)s.framework/Versions/A/GeoServices;
 - (_Bool);
 
 // Remaining properties
-@property(retain) NSString *logPrefix; // @synthesize logPrefix=_logPrefix;
-@property(retain) NSFileHandle *outputFileHandle; // @synthesize outputFileHandle=_outputFileHandle;
-@property(retain) NSTask *task; // @synthesize task=_task;
 @property int terminationStatus; // @synthesize terminationStatus=_terminationStatus;
 
 @end

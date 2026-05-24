@@ -7,7 +7,6 @@
 @interface DAECalendarDirectorySearchContext
 {
     CDUnknownBlockType _resultsBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);

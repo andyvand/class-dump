@@ -8,7 +8,6 @@
 {
     id _phase;
     id _$scope;
-    id _$observationRegistrar;
 }
 
 @end

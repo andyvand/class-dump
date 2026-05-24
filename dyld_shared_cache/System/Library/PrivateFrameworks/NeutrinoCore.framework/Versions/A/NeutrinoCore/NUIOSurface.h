@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOSurface, NSMutableDictionary, NSString, NUPixelFormat;
+@class NSMutableDictionary;
 
 @interface NUIOSurface
 {
     NSMutableDictionary *_textures;
-    struct __CVBuffer *_pixelBuffer;
-    NUPixelFormat *_format;
-    struct __IOSurface *_IOSurfaceRef;
-    CDStruct_d58201db _size;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)b;
 - (_Bool);
 - (void);
 - (void);
@@ -27,7 +23,7 @@
 - (id);
 - (int);
 - (void);
-- (struct __IOSurface *);
+- (struct __IOSurface *);
 - (_Bool);
 - (long long);
 - (void);
@@ -40,7 +36,7 @@
 - (id);
 - (struct CGColorSpace *);
 - (CDStruct_912cb5d2);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -52,16 +48,7 @@
 - (id)ple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Statistics/NUDataSet.mm;
 
 // Remaining properties
-@property(readonly, nonatomic) IOSurface *IOSurface;
 @property(readonly, nonatomic) struct __IOSurface *IOSurfaceRef; // @synthesize IOSurfaceRef=_IOSurfaceRef;
-@property(retain, nonatomic) struct CGColorSpace *colorSpace;
-@property(nonatomic) float contentHeadroom;
-@property(readonly, nonatomic) NUPixelFormat *format; // @synthesize format=_format;
-@property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) struct __CVBuffer *pixelBuffer;
-@property(readonly, nonatomic) long long rowBytes;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size; // @synthesize size=_size;
-@property(readonly, nonatomic) long long sizeInBytes;
 
 @end
 

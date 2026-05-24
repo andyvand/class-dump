@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, PGGraphAddressNode;
+@class NSSet;
 
 @interface PGLocationTitleOptions
 {
     _Bool _useCities;
-    _Bool _showAllCities;
-    _Bool _useTripTitleForLongDuration;
-    _Bool _useBusinessItems;
-    _Bool _useDistrict;
-    _Bool _allowFamilyHome;
-    NSSet *_momentNodes;
-    PGGraphAddressNode *_keyAssetAddressNode;
-    NSSet *_curationAddressNodes;
-    unsigned long long _aoiDisplayType;
-    unsigned long long _peopleDisplayType;
-    unsigned long long _filterSignificantLocationsType;
-    unsigned long long _lineBreakBehavior;
 }
 
 + (id);
@@ -33,40 +21,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)__TEXT;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (unsigned long long)frontmostApplicationDidChange: /* Error: Ran out of types for this method. */;
+- (id)disableTRMStateAndInformUserIfNeededWithCompletionBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)dentialManager_ClientLibs/ACMLib/ACMLib.c;
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void)emoryFailureReasonUnknown;
+- (id)$s9CoreMedia16ConcurrentAccessO7WrapperP;
+- (void)PGEnrichedMemoryFailureReasonUnknown;
 - (id)Eýÿð³°ÿ°Dÿÿ8þÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowFamilyHome; // @synthesize allowFamilyHome=_allowFamilyHome;
-@property(nonatomic) unsigned long long aoiDisplayType; // @synthesize aoiDisplayType=_aoiDisplayType;
-@property(retain, nonatomic) NSSet *curationAddressNodes; // @synthesize curationAddressNodes=_curationAddressNodes;
-@property(nonatomic) unsigned long long filterSignificantLocationsType; // @synthesize filterSignificantLocationsType=_filterSignificantLocationsType;
-@property(retain, nonatomic) PGGraphAddressNode *keyAssetAddressNode; // @synthesize keyAssetAddressNode=_keyAssetAddressNode;
-@property(nonatomic) unsigned long long lineBreakBehavior; // @synthesize lineBreakBehavior=_lineBreakBehavior;
 @property(retain, nonatomic) NSSet *momentNodes; // @synthesize momentNodes=_momentNodes;
-@property(nonatomic) unsigned long long peopleDisplayType; // @synthesize peopleDisplayType=_peopleDisplayType;
-@property(nonatomic) _Bool showAllCities; // @synthesize showAllCities=_showAllCities;
-@property(nonatomic) _Bool useBusinessItems; // @synthesize useBusinessItems=_useBusinessItems;
-@property(nonatomic) _Bool useCities; // @synthesize useCities=_useCities;
-@property(nonatomic) _Bool useDistrict; // @synthesize useDistrict=_useDistrict;
-@property(nonatomic) _Bool useTripTitleForLongDuration; // @synthesize useTripTitleForLongDuration=_useTripTitleForLongDuration;
 
 @end
 

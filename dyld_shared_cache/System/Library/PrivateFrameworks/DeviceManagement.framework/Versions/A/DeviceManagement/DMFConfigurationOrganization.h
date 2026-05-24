@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface DMFConfigurationOrganization
 {
     _Bool _active;
-    NSString *_identifier;
-    NSString *_displayName;
-    NSString *_type;
-    NSArray *_registeredConfigurationSources;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (void);
@@ -27,18 +23,14 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id)`;
 - (id);
-- (id);
-- (void);
+- (void)0v;
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSArray *registeredConfigurationSources; // @synthesize registeredConfigurationSources=_registeredConfigurationSources;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

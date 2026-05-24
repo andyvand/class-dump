@@ -9,19 +9,17 @@
 @interface SCNLevelOfDetail
 {
     struct __C3DLOD *_lod;
-    long long _mode;
-    SCNGeometry *_geometry;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (double);
 - (long long);
 - (double);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void *);
@@ -119,8 +117,6 @@ void main(){
 
 // Remaining properties
 @property(readonly) SCNGeometry *geometry;
-@property(readonly) double screenSpaceRadius;
-@property(readonly) double worldSpaceDistance;
 
 @end
 

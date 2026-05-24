@@ -4,45 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CKChatTipManagerDelegate, CKCheckInTipsViewDelegate, CKMessageRequestsTipsViewDelegate, CKTranslationTipsViewDelegate;
+@protocol CKChatTipManagerDelegate;
 
 @interface ChatKit.CKChatTipManager
 {
     id tipObservation;
-    id checkInTipObservation;
-    id translationTipObservation;
-    id messageRequestsTipObservation;
-    id chatController;
-    void delegate;
-    void checkInDelegate;
-    void translationDelegate;
-    id inlineTip;
-    id $__lazy_storage_$_undoOrEditMessageTip;
-    id checkInTipView;
-    id $__lazy_storage_$_checkInTip;
-    id translationTipView;
-    id $__lazy_storage_$_translationTip;
-    id messageRequestsTipView;
-    id $__lazy_storage_$_messageRequestsTip;
-    void messageRequestsDelegate;
 }
 
 - (void);
 - (id);
 - (double);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)updateIndexForAttachment:(id)arg1 userInitiated:managedObjectContext:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)setPrefixMatchingTokens:(id)arg1;
+- (void)rangeHasOrNeedsHighlights:(id)arg1 inTextStorage: /* Error: Ran out of types for this method. */;
+- (_Bool)ic_fontByAddingSymbolicTraits: /* Error: Ran out of types for this method. */;
+- (_Bool)ic_fontByAddingSymbolicTraits: /* Error: Ran out of types for this method. */;
+- (_Bool)ic_firstConstraintWithAttribute: /* Error: Ran out of types for this method. */;
+- (id)ic_cropRectZeroAlpha;
+- (void)ic_attributedStringByHighlightingRegexFinderMatches:withHighlightColor:attributeName: /* Error: Ran out of types for this method. */;
+- (void)ic_addOrUpdateParagraphStyleAtRange:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)canDragWithoutSelecting;
+- (void)bundleIdentifier;
+- (void)ributes;
+- (id)_$_highPriorityDelayer;
 - (void);
 - (void);
 - (void);
@@ -53,14 +37,7 @@
 - (void)m initWithNotification:maxWidth:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <CKCheckInTipsViewDelegate> checkInDelegate; // @synthesize checkInDelegate;
 @property(nonatomic) __weak id <CKChatTipManagerDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) __weak id <CKMessageRequestsTipsViewDelegate> messageRequestsDelegate; // @synthesize messageRequestsDelegate;
-@property(nonatomic, readonly) _Bool presentingBottomAlignedTip;
-@property(nonatomic, readonly) _Bool presentingTip;
-@property(nonatomic, readonly) _Bool presentingTopAlignedTip;
-@property(nonatomic, readonly) double tipHeight;
-@property(nonatomic) __weak id <CKTranslationTipsViewDelegate> translationDelegate; // @synthesize translationDelegate;
 
 @end
 

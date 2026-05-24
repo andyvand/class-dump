@@ -6,11 +6,12 @@
 
 @protocol AKFlippableAnnotationProtocol
 
-// Remaining properties
-@property _Bool horizontallyFlipped;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?
+@optional
+- (_Bool)0@"CKShareMetadata"8@"NSError"16;
+- (void)list;
+- (void);
 
+// Remaining properties
 @property _Bool verticallyFlipped;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?

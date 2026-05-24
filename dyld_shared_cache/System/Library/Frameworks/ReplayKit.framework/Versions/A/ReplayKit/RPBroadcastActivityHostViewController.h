@@ -14,7 +14,7 @@
 - (void);
 - (oneway void);
 - (id);
-- (void);
+- (void)ntactDelegate>",W;
 - (void);
 
 // Remaining properties

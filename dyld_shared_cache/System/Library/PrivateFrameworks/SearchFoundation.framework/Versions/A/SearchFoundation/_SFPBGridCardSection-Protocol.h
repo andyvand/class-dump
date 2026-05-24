@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray, NSData, _SFPBColor;
 
 @protocol _SFPBGridCardSection
+- (_Bool)p;
+- (void);
+- (_Bool)initWithContentsOfFile:options:error: /* Error: Ran out of types for this method. */;
+- (_Bool)importSubscriptionScreenshotForPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)X;
+- (void)handleActivationAssertionStatusChangeForAlert:(_SFPBColor *)arg1 updatedStatus: /* Error: Ran out of types for this method. */;
+- (NSData *)_colorSpaceName;
 - (int)4;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(copy, nonatomic) NSArray *cardSections;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *type;
 @end
 

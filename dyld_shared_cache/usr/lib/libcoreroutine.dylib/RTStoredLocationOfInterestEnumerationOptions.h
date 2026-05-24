@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval;
-
 @interface RTStoredLocationOfInterestEnumerationOptions
 {
     _Bool _ascendingVisitEntryDate;
-    _Bool _singleVisit;
-    unsigned long long _batchSize;
-    NSDateInterval *_dateInterval;
 }
 
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)permittedToSendMetrics;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@;
 - (id);
-- (unsigned long long)nularityInferredMapItems:place:handler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)updateVisits:finerGranularityInferredMapItems:place:handler: /* Error: Ran out of types for this method. */;
 - (void)r for predicted context;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ascendingVisitEntryDate; // @synthesize ascendingVisitEntryDate=_ascendingVisitEntryDate;
-@property(readonly, nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property(readonly, copy, nonatomic) NSDateInterval *dateInterval; // @synthesize dateInterval=_dateInterval;
-@property(readonly, nonatomic) _Bool singleVisit; // @synthesize singleVisit=_singleVisit;
 
 @end
 

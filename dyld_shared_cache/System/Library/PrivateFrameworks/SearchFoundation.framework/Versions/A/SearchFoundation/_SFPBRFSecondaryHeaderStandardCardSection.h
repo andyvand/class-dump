@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFTextProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFSecondaryHeaderStandardCardSection
 {
@@ -12,27 +12,19 @@
 }
 
 - (void);
-- (id);
+- (id)geVisibilityDelegateMethod:method /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long))63;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)relationshipName;
+- (id)Recovery job %{public}@;
 - (id);
 - (id);
 - (void)out"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
 
 @end

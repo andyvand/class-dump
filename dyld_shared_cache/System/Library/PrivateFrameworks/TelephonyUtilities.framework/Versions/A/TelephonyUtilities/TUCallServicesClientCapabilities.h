@@ -9,25 +9,19 @@
 @interface TUCallServicesClientCapabilities
 {
     _Bool _wantsCallDisconnectionOnInvalidation;
-    _Bool _wantsCallStopStreamingOnInvalidation;
-    _Bool _wantsFrequencyChangeNotifications;
-    _Bool _wantsToScreenCalls;
-    _Bool _wantsCallNotificationsDisabledWhileSuspended;
-    _Bool _excludeFullNearbyCalls;
-    id <TUCallServicesClientCapabilitiesActions> _delegate;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void);
+- (_Bool);
+- (id);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (id);
+- (void)@�~;
 - (void);
 - (void);
 - (void);
@@ -36,16 +30,10 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)ring: /* Error: Ran out of types for this method. */;
+- (void)removeCharactersInString: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <TUCallServicesClientCapabilitiesActions> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool excludeFullNearbyCalls; // @synthesize excludeFullNearbyCalls=_excludeFullNearbyCalls;
-@property(nonatomic) _Bool wantsCallDisconnectionOnInvalidation; // @synthesize wantsCallDisconnectionOnInvalidation=_wantsCallDisconnectionOnInvalidation;
-@property(nonatomic) _Bool wantsCallNotificationsDisabledWhileSuspended; // @synthesize wantsCallNotificationsDisabledWhileSuspended=_wantsCallNotificationsDisabledWhileSuspended;
-@property(nonatomic) _Bool wantsCallStopStreamingOnInvalidation; // @synthesize wantsCallStopStreamingOnInvalidation=_wantsCallStopStreamingOnInvalidation;
-@property(nonatomic) _Bool wantsFrequencyChangeNotifications; // @synthesize wantsFrequencyChangeNotifications=_wantsFrequencyChangeNotifications;
-@property(nonatomic) _Bool wantsToScreenCalls; // @synthesize wantsToScreenCalls=_wantsToScreenCalls;
 
 @end
 

@@ -7,47 +7,33 @@
 @interface MCImageJunkMetadata
 {
     unsigned long long _pixelCount;
-    unsigned long long _byteCount;
-    _Bool _isAnimated;
-    long long _type;
-    unsigned long long _frameCount;
-    double _density;
-    struct CGSize _size;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
-- (void);
-- (id);
+- (void)kaI;
+- (id)7;
 - (long long);
 - (void);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)h;
 - (id);
 - (long long);
-- (struct CGSize);
+- (struct CGSize)RequestTransformer;
 - (void);
 - (long long);
 - (void);
 - (void);
 - (_Bool);
 - (double)T@"ECSASLClient",&,N,V_saslClient;
-- (unsigned long long)gate;
-- (void)alUnitCount;
+- (unsigned long long)MCDiscretionaryWorkSchedulerDelegate;
+- (void)totalUnitCount;
 
 // Remaining properties
-@property(nonatomic) unsigned long long byteCount;
-@property(nonatomic) double density; // @synthesize density=_density;
-@property(readonly, nonatomic) long long densityCategory;
-@property(nonatomic) unsigned long long frameCount; // @synthesize frameCount=_frameCount;
-@property(nonatomic) _Bool isAnimated; // @synthesize isAnimated=_isAnimated;
-@property(nonatomic) unsigned long long pixelCount;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly, nonatomic) long long sizeCategory;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

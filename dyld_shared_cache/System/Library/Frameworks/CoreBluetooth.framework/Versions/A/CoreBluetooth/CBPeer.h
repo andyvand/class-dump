@@ -4,31 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBManager, NSUUID;
-
 @interface CBPeer
 {
     _Bool _isLinkEncrypted;
-    unsigned char _connectedTransport;
-    NSUUID *_identifier;
-    unsigned long long _mtuLength;
-    long long _pairingState;
-    long long _hostState;
-    long long _role;
-    CBManager *_manager;
-    struct __CFUUID *_UUID;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CFUUID *UUID; // @synthesize UUID=_UUID;
-@property(nonatomic) unsigned char connectedTransport; // @synthesize connectedTransport=_connectedTransport;
-@property(nonatomic) long long hostState; // @synthesize hostState=_hostState;
-@property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isLinkEncrypted; // @synthesize isLinkEncrypted=_isLinkEncrypted;
-@property(nonatomic) __weak CBManager *manager; // @synthesize manager=_manager;
 @property(nonatomic) unsigned long long mtuLength; // @synthesize mtuLength=_mtuLength;
-@property(nonatomic) long long pairingState; // @synthesize pairingState=_pairingState;
-@property(nonatomic) long long role; // @synthesize role=_role;
 @end
 

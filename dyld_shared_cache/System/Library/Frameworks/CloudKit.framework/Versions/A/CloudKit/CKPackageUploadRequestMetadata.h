@@ -11,7 +11,6 @@
 @interface CKPackageUploadRequestMetadata : CKUploadRequestMetadata
 {
     NSArray *_fileSignatures;
-    NSArray *_referenceSignatures;
 }
 
 + (_Bool);
@@ -20,14 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ta"24@0:8@"MTLComputePipelineDescriptor"16 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
 - (void)$;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *fileSignatures; // @synthesize fileSignatures=_fileSignatures;
 @property(readonly, copy, nonatomic) NSArray *referenceSignatures; // @synthesize referenceSignatures=_referenceSignatures;
 
 @end

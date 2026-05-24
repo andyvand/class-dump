@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface ISDQuickDirtyCoder
 {
     NSMutableDictionary *_userInfo;
-    id _data;
-    const void *_bytes;
-    NSMutableDictionary *_classVersionTable;
-    NSMutableDictionary *_stringIndexTable;
-    NSMutableArray *_strings;
-    NSString *_path;
-    _Bool _isReading;
-    id _delegate;
-    id _recordid;
-    NSString *_propertyName;
 }
 
 - (long long);
@@ -30,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)특;
 - (void);
 - (void);
 - (void);
@@ -57,9 +47,9 @@
 - (unsigned long long);
 - (unsigned int);
 - (unsigned short);
-- (id);
+- (id);
 - (void);
-- (BOOL);
+- (BOOL);
 - (long long);
 - (int);
 - (short);
@@ -67,7 +57,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -91,10 +81,10 @@
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)@9	;
 - (id);
 - (void);
-- (id);
+- (id)sҗ;
 - (void);
 - (void);
 - (id);

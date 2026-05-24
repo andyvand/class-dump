@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AMSOpenActionResult
 {
     _Bool _engagementPresented;
-    _Bool _interruptionResult;
-    AMSURLAction *_action;
 }
 
 - (void);
@@ -24,8 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) AMSURLAction *action; // @synthesize action=_action;
-@property _Bool engagementPresented; // @synthesize engagementPresented=_engagementPresented;
-@property _Bool interruptionResult; // @synthesize interruptionResult=_interruptionResult;
 
 @end
 

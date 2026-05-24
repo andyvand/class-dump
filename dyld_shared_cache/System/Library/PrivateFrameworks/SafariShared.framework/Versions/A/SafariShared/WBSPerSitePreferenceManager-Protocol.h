@@ -7,16 +7,12 @@
 @protocol WBSPerSitePreferenceManagerDelegate;
 
 @protocol WBSPerSitePreferenceManager
+- (void);
+
+@optional
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSPerSitePreferenceManagerDelegate> delegate;
-@property(readonly, nonatomic) _Bool hasDynamicPreferenceValues;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldDeleteUnrecognizedPreference;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

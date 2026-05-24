@@ -4,67 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTileGroup
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _attributionIndexs;
-    CDStruct_9f2792e4 _fontIndexs;
-    struct GEOTileSetRegion *_hybridUnavailableRegions;
-    unsigned long long _hybridUnavailableRegionsCount;
-    unsigned long long _hybridUnavailableRegionsSpace;
-    CDStruct_9f2792e4 _iconIndexs;
-    struct GEORegionalResourceIndex *_regionalResourceIndexs;
-    unsigned long long _regionalResourceIndexsCount;
-    unsigned long long _regionalResourceIndexsSpace;
-    CDStruct_9f2792e4 _resourceIndexs;
-    CDStruct_9f2792e4 _styleSheetIndexs;
-    CDStruct_9f2792e4 _textureIndexs;
-    struct GEOVersionedTileSet *_tileSets;
-    unsigned long long _tileSetsCount;
-    unsigned long long _tileSetsSpace;
-    CDStruct_9f2792e4 _xmlIndexs;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _identifier;
-    unsigned int _muninVersionIndex;
-    unsigned int _offlineMetadataIndex;
-    struct {
-        unsigned int has_muninVersionIndex:1;
-        unsigned int has_offlineMetadataIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_attributionIndexs:1;
-        unsigned int read_fontIndexs:1;
-        unsigned int read_hybridUnavailableRegions:1;
-        unsigned int read_iconIndexs:1;
-        unsigned int read_regionalResourceIndexs:1;
-        unsigned int read_resourceIndexs:1;
-        unsigned int read_styleSheetIndexs:1;
-        unsigned int read_textureIndexs:1;
-        unsigned int read_tileSets:1;
-        unsigned int read_xmlIndexs:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)areVersion:(id)arg1;
++ (_Bool)setMaxSupportedTransitFareVersion:(id)arg1;
 - (unsigned int *);
 - (void);
 - (void);
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (unsigned int *);
 - (unsigned int *);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (struct GEORegionalResourceIndex *);
 - (struct GEORegionalResourceIndex);
@@ -75,13 +36,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned int *);
-- (void);
-- (void);
+- (void)notifyWakeKeywordSpokenBluetoothDevice:(unsigned int *)arg1 deviceId:(unsigned long long)arg2;
+- (unsigned int *)getMHStatisticDistributionInfoFromDictionary: /* Error: Ran out of types for this method. */;
+- (void)disconnectDeviceWithUUID:(id)arg1 handlingDaemon:completion: /* Error: Ran out of types for this method. */;
+- (void)lt output device:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned int);
 - (void);
@@ -90,11 +51,11 @@
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (unsigned long long);
-- (void);
+- (unsigned long long)AXMathExpressionFenced;
+- (void)A;
 - (unsigned int);
 - (void);
-- (unsigned long long);
+- (unsigned long long)R,C,N,V_format;
 - (void);
 - (void);
 - (_Bool);
@@ -103,7 +64,7 @@
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long)Â0@ù
@@ -118,20 +79,20 @@
 - (unsigned int *)b1"read_availableTiles"b1"read_baseURL"b1"read_countryRegionAllowlists"b1"read_deviceSKUAllowlists"b1"read_localizationURL"b1"read_sentinelTiles"b1"read_supportedLanguages"b1"wrote_anyField"b1};
 - (void)6@"GEOComposedTransitTripRouteSegment"24Q32Q40;
 - (void)sitPoiCorrections";
-- (void)TilesWereResized:(unsigned int *)arg1;
-- (unsigned long long)tInfo: /* Error: Ran out of types for this method. */;
-- (void)eFrequencyMax:(unsigned int *)arg1;
-- (void)stAttributionSupportAsString:(unsigned int)arg1;
-- (unsigned int *);
-- (id)onBoundingBox;
+- (void)setRegionTilesWereResized:(unsigned int *)arg1;
+- (unsigned long long)setInfo: /* Error: Ran out of types for this method. */;
+- (void)setDepartureFrequencyMax:(unsigned int *)arg1;
+- (void)resultListAttributionSupportAsString:(unsigned int)arg1;
+- (unsigned int *)initWithPlaceInfoModuleConfiguration: /* Error: Ran out of types for this method. */;
+- (id)hasRegionBoundingBox;
 - (unsigned long long)lianDay;
 - (unsigned int)GEORouteMatcher",&,N,V_routeMatcher;
-- (id)RouteAnnotation;
+- (id)GEOComposedRouteAnnotation;
 - (unsigned int);
 - (unsigned long long)ct;
-- (unsigned int *)ng_avoid_busy_roads;
-- (void)matchedStrings;
-- (id)CATEGORY;
+- (unsigned int *)map_settings_walking_avoid_busy_roads;
+- (void)includeUnmatchedStrings;
+- (id)FEEDBACK_FIELD_KEY_POI_CATEGORY;
 - (void);
 - (void);
 - (void);
@@ -139,36 +100,11 @@
 - (void)ldingCfgEPKcmRKNSt3__18functionIFNS0_11ArrayBufferEmRKNS_4gpcc20AttributeDescriptionEEEEE3$_0;
 - (void)ÁBAÈÐ±>Q@;
 - (struct GEOVersionedTileSet)|{× /×K@;
-- (void)goryRuleset;
+- (void)CategoryRuleset;
 - (struct GEOTileSetRegion)~â3;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *attributionIndexs;
-@property(readonly, nonatomic) unsigned long long attributionIndexsCount;
-@property(readonly, nonatomic) unsigned int *fontIndexs;
-@property(readonly, nonatomic) unsigned long long fontIndexsCount;
-@property(nonatomic) _Bool hasMuninVersionIndex;
-@property(nonatomic) _Bool hasOfflineMetadataIndex;
-@property(readonly, nonatomic) struct GEOTileSetRegion *hybridUnavailableRegions;
-@property(readonly, nonatomic) unsigned long long hybridUnavailableRegionsCount;
-@property(readonly, nonatomic) unsigned int *iconIndexs;
-@property(readonly, nonatomic) unsigned long long iconIndexsCount;
 @property(nonatomic) unsigned int identifier;
-@property(nonatomic) unsigned int muninVersionIndex;
-@property(nonatomic) unsigned int offlineMetadataIndex;
-@property(readonly, nonatomic) struct GEORegionalResourceIndex *regionalResourceIndexs;
-@property(readonly, nonatomic) unsigned long long regionalResourceIndexsCount;
-@property(readonly, nonatomic) unsigned int *resourceIndexs;
-@property(readonly, nonatomic) unsigned long long resourceIndexsCount;
-@property(readonly, nonatomic) unsigned int *styleSheetIndexs;
-@property(readonly, nonatomic) unsigned long long styleSheetIndexsCount;
-@property(readonly, nonatomic) unsigned int *textureIndexs;
-@property(readonly, nonatomic) unsigned long long textureIndexsCount;
-@property(readonly, nonatomic) struct GEOVersionedTileSet *tileSets;
-@property(readonly, nonatomic) unsigned long long tileSetsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(readonly, nonatomic) unsigned int *xmlIndexs;
-@property(readonly, nonatomic) unsigned long long xmlIndexsCount;
 
 @end
 

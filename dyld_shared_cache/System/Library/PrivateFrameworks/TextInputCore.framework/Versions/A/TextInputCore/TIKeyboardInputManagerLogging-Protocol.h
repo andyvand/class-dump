@@ -5,6 +5,8 @@
 //
 
 @protocol TIKeyboardInputManagerLogging
+- (void)B32@?0@"NSString"8@"NSString"16@"NSString"24;
+- (void);
 - (void)ng",&,N,V_recipientIdentifier;
 @end
 

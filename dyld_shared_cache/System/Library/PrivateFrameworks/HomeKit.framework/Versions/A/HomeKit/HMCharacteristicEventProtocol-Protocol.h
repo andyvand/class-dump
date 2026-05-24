@@ -7,6 +7,7 @@
 @class HMCharacteristic;
 
 @protocol HMCharacteristicEventProtocol
+- (HMCharacteristic *)A;
 
 // Remaining properties
 @property(retain, nonatomic) HMCharacteristic *characteristic;

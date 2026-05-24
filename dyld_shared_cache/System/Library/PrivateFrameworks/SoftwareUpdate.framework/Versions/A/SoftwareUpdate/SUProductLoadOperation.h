@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSError, NSString, NSURL, SUMetadataCache, SUProduct;
+@class NSDictionary, NSString;
 
 __attribute__((visibility("hidden")))
 @interface SUProductLoadOperation
 {
     NSString *_productKey;
-    NSURL *_distributionURL;
-    NSData *_distributionData;
-    NSDate *_postDate;
-    NSDictionary *extraInfo;
-    _Bool shouldBuildCacheOnly;
-    SUMetadataCache *metadataCache;
-    NSDictionary *distributionEnv;
-    NSURL *sourceCatalogURL;
-    SUProduct *_product;
-    NSError *_error;
-    _Bool checkForMacBuddyInstallableTag;
-    NSDictionary *_distributionEvaluationMetainfo;
 }
 
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)4;
 - (void);
 - (id);
 - (_Bool);
@@ -50,13 +38,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property _Bool checkForMacBuddyInstallableTag; // @synthesize checkForMacBuddyInstallableTag;
-@property(retain) NSDictionary *distributionEnv; // @synthesize distributionEnv;
-@property(retain) NSDictionary *distributionEvaluationMetainfo; // @synthesize distributionEvaluationMetainfo=_distributionEvaluationMetainfo;
 @property(retain) NSDictionary *extraInfo; // @synthesize extraInfo;
-@property(retain) SUMetadataCache *metadataCache; // @synthesize metadataCache;
-@property _Bool shouldBuildCacheOnly; // @synthesize shouldBuildCacheOnly;
-@property(retain) NSURL *sourceCatalogURL; // @synthesize sourceCatalogURL;
 
 @end
 

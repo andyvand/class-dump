@@ -7,6 +7,9 @@
 @class GEOMapServiceTraits;
 
 @protocol GEOMapServiceBatchSpatialLookupTicket
+- (GEOMapServiceTraits *)nction6__funcIZZN15TNodeOperations10ResumeCopyERK13TFENodeVectorENK3$_0clEP7NSAlertEUlbE_FvbEEE;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

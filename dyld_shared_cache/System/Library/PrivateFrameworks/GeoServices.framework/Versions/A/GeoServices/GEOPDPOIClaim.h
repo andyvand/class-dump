@@ -4,40 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPOIClaim
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_businessConnectBrandMuids;
-    NSString *_claimUrl;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isClaimable;
-    _Bool _isClaimed;
-    struct {
-        unsigned int has_isClaimable:1;
-        unsigned int has_isClaimed:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_businessConnectBrandMuids:1;
-        unsigned int read_claimUrl:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (id);
++ (id)ith label %s:(id)arg1 %s;
 - (id);
 - (void);
-- (id);
+- (id)_endpointTimeInMs;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)	!*;
 - (_Bool);
 - (id);
 - (id)2@0:(struct _NSZone *)arg1 8q16Q24;
-- (id)nLoss;
+- (id)_hikeRouteElevationGainLoss;
 - (id)dÇ;
 - (void);
 

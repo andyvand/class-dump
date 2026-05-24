@@ -4,39 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORevealedPlaceCardModuleTypeActionBar, GEORevealedPlaceCardModuleTypeHours, GEORevealedPlaceCardModuleTypeInfos, GEORevealedPlaceCardModuleTypePhotos, GEORevealedPlaceCardModuleTypeShowcase, GEORevealedPlaceCardModuleTypeTitle, GEORevealedPlaceCardModuleTypeUnifiedActionRow, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORevealedPlaceCardModule
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEORevealedPlaceCardModuleTypeActionBar *_actionBar;
-    GEORevealedPlaceCardModuleTypeHours *_hours;
-    GEORevealedPlaceCardModuleTypeInfos *_infos;
-    GEORevealedPlaceCardModuleTypePhotos *_photos;
-    GEORevealedPlaceCardModuleTypeShowcase *_showcase;
-    GEORevealedPlaceCardModuleTypeTitle *_title;
-    GEORevealedPlaceCardModuleTypeUnifiedActionRow *_unifiedActionRow;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_actionBar:1;
-        unsigned int read_hours:1;
-        unsigned int read_infos:1;
-        unsigned int read_photos:1;
-        unsigned int read_showcase:1;
-        unsigned int read_title:1;
-        unsigned int read_unifiedActionRow:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
-+ (_Bool)nceSuppressed:(id)arg1;
++ (_Bool)setManeuverLaneGuidanceSuppressed:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -46,12 +22,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_TtC19ContactsPersistence31CNOpenDirectoryFacadeTestDouble;
+- (_Bool)X�;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)active. Will coalesce pending events.;
+- (_Bool)jectContext"8@"NSPersistentStoreCoordinator"16;
+- (_Bool)-loading;
 - (_Bool);
 - (id);
 - (id);
@@ -59,24 +35,25 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)skToCachingServer:(id)arg1 %@, tryCachingServer:%d, failBackToOrigin:%d, suspended:%d } /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)_cancelAllAudioStreamHoldings;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)parseSolve().
+;
 - (int);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id)spellSuggestions"b1"read_tokenCandidates"b1"wrote_anyField"b1};
-- (void)ion:(int)arg1;
-- (id)stType;
-- (int)uator;
+- (void)initWithDictionaryRepresentation:(int)arg1;
+- (id)feedbackRequestType;
+- (int)GEOServerConditionEvaluator;
 - (id)_TtP11GeoServices63GEONavigationListener_ServerReceivesNavigationUpdates_Interface_;
-- (id)date_time;
+- (id)event_date_time;
 - (id);
 - (id);
 - (_Bool);
@@ -195,23 +172,7 @@ deprecated (:false
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEORevealedPlaceCardModuleTypeActionBar *actionBar;
-@property(readonly, nonatomic) _Bool hasActionBar;
-@property(readonly, nonatomic) _Bool hasHours;
-@property(readonly, nonatomic) _Bool hasInfos;
-@property(readonly, nonatomic) _Bool hasPhotos;
-@property(readonly, nonatomic) _Bool hasShowcase;
-@property(readonly, nonatomic) _Bool hasTitle;
 @property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasUnifiedActionRow;
-@property(retain, nonatomic) GEORevealedPlaceCardModuleTypeHours *hours;
-@property(retain, nonatomic) GEORevealedPlaceCardModuleTypeInfos *infos;
-@property(retain, nonatomic) GEORevealedPlaceCardModuleTypePhotos *photos;
-@property(retain, nonatomic) GEORevealedPlaceCardModuleTypeShowcase *showcase;
-@property(retain, nonatomic) GEORevealedPlaceCardModuleTypeTitle *title;
-@property(nonatomic) int type;
-@property(retain, nonatomic) GEORevealedPlaceCardModuleTypeUnifiedActionRow *unifiedActionRow;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

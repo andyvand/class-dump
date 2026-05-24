@@ -9,35 +9,31 @@
 @interface AXMEvaluationNode : AXMVisionEngineNode
 {
     double _minimumConfidence;
-    unsigned long long _priority;
-    unsigned long long _effectivePriority;
 }
 
-+ (struct CGSize);
-+ (_Bool);
++ (struct CGSize)|;
++ (_Bool);
 + (void);
 + (unsigned long long);
-+ (_Bool);
++ (_Bool)initWithCoder: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)[|;
+- (void)[|;
+- (unsigned long long)|;
 - (void);
 - (id);
+- (_Bool)ʬm;
 - (void);
-- (double);
+- (id);
+- (void);
+- (double)>::__rep, std::__1::allocator<char> >={__rep}}} /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long)@;
 
 // Remaining properties
 @property(nonatomic) unsigned long long effectivePriority; // @synthesize effectivePriority=_effectivePriority;
-@property(nonatomic) double minimumConfidence; // @synthesize minimumConfidence=_minimumConfidence;
-@property(nonatomic) unsigned long long priority; // @synthesize priority=_priority;
 
 @end
 

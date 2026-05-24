@@ -6,14 +6,14 @@
 
 #import <Mail/MFEWSResponseOperation.h>
 
-@class EWSCreateItemResponseType, NSString;
+@class NSString;
 
 @interface MFEWSCreateItemResponseOperation : MFEWSResponseOperation
 {
     NSString *_itemId;
 }
 
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (void);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy) NSString *itemId; // @synthesize itemId=_itemId;
-@property(retain) EWSCreateItemResponseType *response;
 
 @end
 

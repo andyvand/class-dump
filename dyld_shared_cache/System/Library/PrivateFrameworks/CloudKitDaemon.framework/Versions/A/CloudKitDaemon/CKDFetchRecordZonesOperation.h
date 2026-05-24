@@ -6,25 +6,12 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet;
-@protocol CKFetchRecordZonesOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDFetchRecordZonesOperation : CKDDatabaseOperation
 {
     _Bool _isFetchAllRecordZonesOperation;
-    _Bool _shouldRetry;
-    _Bool _onlyFetchPCSInfo;
-    _Bool _ignorePCSFailures;
-    CDUnknownBlockType _recordZoneFetchedProgressBlock;
-    NSArray *_recordZoneIDs;
-    NSMutableDictionary *_zonesToSaveForPCSUpdateByZoneID;
-    NSMutableArray *_zoneIDsNeedingPCSUpdateRetry;
-    NSMutableDictionary *_pcsUpdateErrorsByZoneID;
-    long long _numZoneSaveAttempts;
-    NSMutableSet *_zoneIDsNeedingDugongKeyRoll;
 }
 
-+ (id);
++ (id)setRxBeaconMbss:(unsigned long long)arg1;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -42,8 +29,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)nScanCore;
+- (void)via odds of numerator %u denominator %u;
 - (id);
 - (_Bool);
 - (long long);
@@ -57,30 +44,18 @@
 - (void);
 - (id);
 - (void);
-- (int);
+- (int)omized network, not syncable;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool)setApplicationContainerPath: /* Error: Ran out of types for this method. */;
-- (void)eIDs:(_Bool)arg1 continuationTokens:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)fetchMetadataRecursivelyForMergeableValueIDs:(_Bool)arg1 continuationTokens:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)&,N,V_filter;
 - (void)y for service %@ on account %@;
 
 // Remaining properties
-@property(retain, nonatomic) id <CKFetchRecordZonesOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(nonatomic) _Bool ignorePCSFailures; // @synthesize ignorePCSFailures=_ignorePCSFailures;
-@property(nonatomic) _Bool isFetchAllRecordZonesOperation; // @synthesize isFetchAllRecordZonesOperation=_isFetchAllRecordZonesOperation;
-@property(nonatomic) long long numZoneSaveAttempts; // @synthesize numZoneSaveAttempts=_numZoneSaveAttempts;
-@property(nonatomic) _Bool onlyFetchPCSInfo; // @synthesize onlyFetchPCSInfo=_onlyFetchPCSInfo;
-@property(retain, nonatomic) NSMutableDictionary *pcsUpdateErrorsByZoneID; // @synthesize pcsUpdateErrorsByZoneID=_pcsUpdateErrorsByZoneID;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneFetchedProgressBlock; // @synthesize recordZoneFetchedProgressBlock=_recordZoneFetchedProgressBlock;
-@property(retain, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
-@property(nonatomic) _Bool shouldRetry; // @synthesize shouldRetry=_shouldRetry;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(retain, nonatomic) NSMutableSet *zoneIDsNeedingDugongKeyRoll; // @synthesize zoneIDsNeedingDugongKeyRoll=_zoneIDsNeedingDugongKeyRoll;
-@property(retain, nonatomic) NSMutableArray *zoneIDsNeedingPCSUpdateRetry; // @synthesize zoneIDsNeedingPCSUpdateRetry=_zoneIDsNeedingPCSUpdateRetry;
-@property(retain, nonatomic) NSMutableDictionary *zonesToSaveForPCSUpdateByZoneID; // @synthesize zonesToSaveForPCSUpdateByZoneID=_zonesToSaveForPCSUpdateByZoneID;
 
 @end
 

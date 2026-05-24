@@ -16,8 +16,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long)DidFinishLaunching;
-- (id)Data;
+- (unsigned long long)activityObservingApplicationDidFinishLaunching;
+- (id)FCSportsData;
 - (unsigned long long)D©;
 - (id);
 - (id);

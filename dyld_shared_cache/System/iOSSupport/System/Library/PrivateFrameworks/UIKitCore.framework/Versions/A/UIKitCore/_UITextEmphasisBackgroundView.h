@@ -6,18 +6,16 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, NSTextRange, UITextView;
+@class NSTextRange, UITextView;
 
 __attribute__((visibility("hidden")))
 @interface _UITextEmphasisBackgroundView : UIView
 {
     UITextView *_textView;
-    NSTextRange *_textRange;
-    struct CGPoint _origin;
 }
 
-- (void);
-- (void);
+- (void)t;
+- (void)oV;
 - (id)ù
 × ;
 - (struct CGPoint)mingFunction",R,N,V_timingFunction;
@@ -26,14 +24,6 @@ __attribute__((visibility("hidden")))
 - (void)_;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property struct CGPoint origin; // @synthesize origin=_origin;
-@property(readonly) Class superclass;
 @property(retain) NSTextRange *textRange; // @synthesize textRange=_textRange;
 
 @end

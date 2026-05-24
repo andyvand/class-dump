@@ -6,13 +6,12 @@
 
 #import <OnBoardingKit/OBPasscodeInputView.h>
 
-@class NSString, OBPasscodeField;
+@class OBPasscodeField;
 
 __attribute__((visibility("hidden")))
 @interface OBSimplePasscodeInputView : OBPasscodeInputView
 {
     _Bool _limitCharactersToNumbers;
-    OBPasscodeField *_passcodeField;
 }
 
 - (void);
@@ -24,18 +23,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool limitCharactersToNumbers; // @synthesize limitCharactersToNumbers=_limitCharactersToNumbers;
 @property(retain, nonatomic) OBPasscodeField *passcodeField; // @synthesize passcodeField=_passcodeField;
-@property(readonly) Class superclass;
 
 @end
 

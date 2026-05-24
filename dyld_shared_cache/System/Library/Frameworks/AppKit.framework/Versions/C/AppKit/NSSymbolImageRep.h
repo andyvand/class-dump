@@ -6,41 +6,31 @@
 
 #import <AppKit/NSImageRep.h>
 
-@class CUINamedVectorGlyph, NSArray, NSBezierPath, NSColor, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NSSymbolImageRep : NSImageRep
 {
     struct _NSSymbolImageRepGeometry _geometry;
-    CUINamedVectorGlyph *_vectorGlyph;
-    NSArray *_colors;
-    long long _renderingStyle;
-    NSDictionary *_namedColorOverrides;
-    NSColor *_debugBackgroundColor;
-    struct CGImage *_img;
 }
 
 - (long long);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)3;
 - (struct CGRect);
-- (unsigned int);
-- (unsigned int);
-- (struct CGImage *);
+- (unsigned int)k;
+- (unsigned int)have status codes, skipping callback;
+- (struct CGImage *)c}@> background session setup will wait for reply:session %@ with identifier %@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (_Bool)!PFùqà3Ð1Â0@ù
 × ;
-- (id)temWithTitle: /* Error: Ran out of types for this method. */;
-- (id)plateItems;
-- (_Bool)debarTrackingAdapter;
+- (id)addItemWithTitle: /* Error: Ran out of types for this method. */;
+- (id)_templateItems;
+- (_Bool)_NSOSPSidebarTrackingAdapter;
 
 // Remaining properties
-@property(readonly, copy) NSBezierPath *outlinePath;
-@property(readonly, nonatomic) long long renderingStyle;
 @property(readonly, nonatomic, getter=isTintedMonochrome) _Bool tintedMonochrome;
 
 @end

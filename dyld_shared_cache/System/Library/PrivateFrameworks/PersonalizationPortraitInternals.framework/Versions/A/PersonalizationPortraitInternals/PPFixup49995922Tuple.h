@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID;
-
 @interface PPFixup49995922Tuple
 {
     long long _rowid;
-    NSObject *_record;
-    NSUUID *_dkUUID;
 }
 
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);;
 - (long long);
 - (id);
-- (id);
+- (id)h2t3;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void)"b1"highlightType"b1"rank"b1"fromMeEntitlementOverrideIsPresent"b1"isCollaboration"b1"isConversationAutoDonating"b1"isPrimary"b1"isTopKResult"b1};
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *dkUUID; // @synthesize dkUUID=_dkUUID;
-@property(readonly, nonatomic) NSObject *record; // @synthesize record=_record;
 @property(readonly, nonatomic) long long rowid; // @synthesize rowid=_rowid;
 
 @end

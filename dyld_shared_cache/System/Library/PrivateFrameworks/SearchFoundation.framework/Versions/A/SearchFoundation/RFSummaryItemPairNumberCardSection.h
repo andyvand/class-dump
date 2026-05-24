@@ -6,30 +6,17 @@
 
 #import <SearchFoundation/SFCardSection.h>
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString, RFTextProperty, RFVisualProperty, SFAppEntityAnnotation, SFButtonItem, SFCard, SFColor, SFCommand, SFCopyItem, SFUserReportRequest;
+@class RFTextProperty;
 
 @interface RFSummaryItemPairNumberCardSection : SFCardSection
 {
     RFTextProperty *_number_1;
-    RFTextProperty *_number_2;
-    RFTextProperty *_text_1;
-    RFTextProperty *_text_2;
-    RFTextProperty *_text_3;
-    RFTextProperty *_text_4;
-    NSArray *_text_5;
-    RFVisualProperty *_thumbnail_1;
-    RFVisualProperty *_thumbnail_2;
-    RFTextProperty *_text_6;
-    RFTextProperty *_text_7;
-    SFButtonItem *_button_1;
-    RFTextProperty *_text_8;
-    RFTextProperty *_text_9;
-    RFTextProperty *_text_10;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,7 +24,6 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -58,79 +44,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)mediaLibraryOverrideForTestingOnly;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)timeMemoryFeatureWithDateInterval:(id)arg1;
+- (id)humanActionIdentifiers;
 - (id);
 - (id);
 - (void)@"_SFPBRFFactItemShortHeroNumberCardSection",&,N,V_rfFactItemShortHeroNumberCardSection;
 
 // Remaining properties
-@property(retain, nonatomic) SFAppEntityAnnotation *appEntityAnnotation;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SFColor *backgroundColor;
-@property(retain, nonatomic) SFButtonItem *button_1; // @synthesize button_1=_button_1;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) NSString *cardSectionDetail;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(retain, nonatomic) SFCommand *command;
-@property(retain, nonatomic) NSString *commandDetail;
-@property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SFCopyItem *copyableItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSArray *embeddedCards;
-@property(copy, nonatomic) NSString *emphasisSubjectId;
-@property(nonatomic) _Bool forceEnable3DTouch;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideDivider;
-@property(nonatomic) int increasedContrastMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leadingSwipeButtonItems;
-@property(retain, nonatomic) SFCard *nextCard;
 @property(retain, nonatomic) RFTextProperty *number_1; // @synthesize number_1=_number_1;
-@property(retain, nonatomic) RFTextProperty *number_2; // @synthesize number_2=_number_2;
-@property(copy, nonatomic) NSArray *parameterKeyPaths;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(retain, nonatomic) NSString *previewButtonItemsTitle;
-@property(retain, nonatomic) SFCommand *previewCommand;
-@property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(retain, nonatomic) NSMutableDictionary *racFeedbackLoggingContent;
-@property(copy, nonatomic) NSString *racFeedbackSubfeatureId;
-@property(copy, nonatomic) NSArray *referencedCommands;
-@property(nonatomic) int requiredLevelOfDetail;
-@property(copy, nonatomic) NSString *resultIdentifier;
-@property(retain, nonatomic) SFCommand *secondaryCommand;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldHideInAmbientMode;
-@property(nonatomic) _Bool shouldShowInSmartDialog;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) RFTextProperty *text_10; // @synthesize text_10=_text_10;
-@property(retain, nonatomic) RFTextProperty *text_2; // @synthesize text_2=_text_2;
-@property(retain, nonatomic) RFTextProperty *text_3; // @synthesize text_3=_text_3;
-@property(retain, nonatomic) RFTextProperty *text_4; // @synthesize text_4=_text_4;
-@property(copy, nonatomic) NSArray *text_5; // @synthesize text_5=_text_5;
-@property(retain, nonatomic) RFTextProperty *text_6; // @synthesize text_6=_text_6;
-@property(retain, nonatomic) RFTextProperty *text_7; // @synthesize text_7=_text_7;
-@property(retain, nonatomic) RFTextProperty *text_8; // @synthesize text_8=_text_8;
-@property(retain, nonatomic) RFTextProperty *text_9; // @synthesize text_9=_text_9;
-@property(retain, nonatomic) RFVisualProperty *thumbnail_1; // @synthesize thumbnail_1=_thumbnail_1;
-@property(retain, nonatomic) RFVisualProperty *thumbnail_2; // @synthesize thumbnail_2=_thumbnail_2;
-@property(copy, nonatomic) NSArray *trailingSwipeButtonItems;
-@property(copy, nonatomic) NSString *type;
-@property(retain, nonatomic) SFUserReportRequest *userReportRequest;
 
 @end
 

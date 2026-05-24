@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AMSMescal
 {
 }
 
 + (id);
++ (_Bool)@;
 + (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (id)_initWithInitialReindexRowID:(id)arg1 indexRevision:(long long)arg2 initialTotalMessages:(id)arg3 indexingBeganDate:(id)arg4 initialTotalChats:(id *)arg5 previousTransactionID: /* Error: Ran out of types for this method. */;
++ (_Bool)kIMCNContactPhoneNumbersKey;
 + (id);
 + (id);
 + (id);
 + (_Bool);
++ (_Bool);
++ (_Bool)lock_invoke;
++ (_Bool);
 + (id);
++ (id)SessionNotConfigured;
++ (id)�;
 + (id);
++ (_Bool);
++ (id);
++ (id)ersions/A/SoftLinking;
 + (id);
 + (id)ate:(id)arg1 %@, required:%@ /* Error: Ran out of types for this method. */;
 + (id)ª´¼_×dÅ.|¶¿¦3f.¹Â3ö.ç©µ£BÕÙfc_Û6A?t 6*W36²L@+Z»äj7õ¥mÅØÎì;
@@ -36,13 +34,7 @@
 + (id)^O;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

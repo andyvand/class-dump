@@ -6,31 +6,25 @@
 
 #import <HomeKitDaemon/HMDCameraSessionInfo.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotSessionInfo : HMDCameraSessionInfo
 {
     _Bool _snapshotRequestForBulletin;
-    NSString *_snapshotCharacteristicEventUUID;
-    unsigned long long _snapshotReason;
-    NSNumber *_streamingTier;
 }
 
-- (id);
+- (id)addObserver:selector:name:object: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id)rmatValue:(struct _NSZone *)arg1;
+- (id)formatValue:(struct _NSZone *)arg1;
 - (void);
 
 // Remaining properties
 @property(readonly) NSString *snapshotCharacteristicEventUUID; // @synthesize snapshotCharacteristicEventUUID=_snapshotCharacteristicEventUUID;
-@property(readonly) unsigned long long snapshotReason; // @synthesize snapshotReason=_snapshotReason;
-@property(readonly, getter=isSnapshotRequestForBulletin) _Bool snapshotRequestForBulletin; // @synthesize snapshotRequestForBulletin=_snapshotRequestForBulletin;
-@property(readonly) NSNumber *streamingTier; // @synthesize streamingTier=_streamingTier;
 
 @end
 

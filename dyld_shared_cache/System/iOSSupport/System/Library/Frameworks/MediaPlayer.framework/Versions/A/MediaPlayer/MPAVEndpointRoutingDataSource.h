@@ -6,32 +6,24 @@
 
 #import <MediaPlayer/MPAVRoutingDataSource.h>
 
-@class MRAVRoutingDiscoverySession, MRAVRoutingDiscoverySessionConfiguration, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MRAVRoutingDiscoverySession;
 
 @interface MPAVEndpointRoutingDataSource : MPAVRoutingDataSource
 {
     MRAVRoutingDiscoverySession *_discoverySession;
-    id _callbackToken;
-    _Bool _didReceiveDiscoveryResults;
-    _Bool _suppressNotifications;
-    unsigned int _targetSessionID;
-    NSString *_routingContextUID;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableDictionary *_endpoints;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_repeatable;
+- (id)g;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (void);
 - (void);
@@ -39,21 +31,16 @@
 - (id);
 - (void);
 - (_Bool);
+- (id)setStatusCellularTechnology: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (_Bool)ime:playbackRate: /* Error: Ran out of types for this method. */;
+- (_Bool)setElapsedTime:playbackRate: /* Error: Ran out of types for this method. */;
 - (void)patch_queue>",&,N,V_dataSourceQueue;
 - (long long)ediaControls dismissed with tapped custom row identifier :%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool didReceiveDiscoveryResults;
-@property(readonly, nonatomic) MRAVRoutingDiscoverySessionConfiguration *discoverySessionConfiguration;
-@property(retain, nonatomic) NSMutableDictionary *endpoints; // @synthesize endpoints=_endpoints;
-@property(copy, nonatomic) NSString *routingContextUID; // @synthesize routingContextUID=_routingContextUID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(nonatomic) _Bool suppressNotifications; // @synthesize suppressNotifications=_suppressNotifications;
 
 @end
 

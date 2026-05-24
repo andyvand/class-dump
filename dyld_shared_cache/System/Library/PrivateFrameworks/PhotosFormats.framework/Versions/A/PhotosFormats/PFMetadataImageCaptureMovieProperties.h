@@ -18,7 +18,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)nSolutionEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (_Bool);
 - (void);
 - (id)entifier;

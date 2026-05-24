@@ -6,21 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NETSchemaNETSessionConnectionNetwork, NSArray, NSData;
-
 @interface NETSchemaNETSessionConnectionSnapshotCaptured : SISchemaInstrumentationMessage
 {
     unsigned int _sequenceNumber;
-    int _snapshotTriggerReason;
-    NETSchemaNETSessionConnectionNetwork *_network;
-    NSArray *_networkInterfaces;
-    int _provider;
-    struct {
-        unsigned int sequenceNumber:1;
-        unsigned int snapshotTriggerReason:1;
-        unsigned int provider:1;
-    } _has;
-    _Bool _hasNetwork;
 }
 
 - (int);
@@ -41,10 +29,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)B;
 - (id);
 - (id);
-- (void);
+- (void)ro-Oscar-1-1-ParamSet;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -53,27 +41,18 @@
 - (id);
 - (id)
 × ;
-- (int)thesize;
+- (int)hasTextToSynthesize;
 - (id)TB,N,V_hasModelEncoderLocale;
 - (id)etected;
 - (id)ing",C,N,V_executedPegasusDomain;
-- (void)ImageResizingEventStarted;
+- (void)GATSchemaGATImageResizingEventStarted;
 - (void);
 - (void);
 - (_Bool)Ö¬X";
 - (void)¸ÚËÿø;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNetwork; // @synthesize hasNetwork=_hasNetwork;
-@property(nonatomic) _Bool hasProvider;
-@property(nonatomic) _Bool hasSequenceNumber;
-@property(nonatomic) _Bool hasSnapshotTriggerReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NETSchemaNETSessionConnectionNetwork *network; // @synthesize network=_network;
-@property(copy, nonatomic) NSArray *networkInterfaces; // @synthesize networkInterfaces=_networkInterfaces;
-@property(nonatomic) int provider; // @synthesize provider=_provider;
 @property(nonatomic) unsigned int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(nonatomic) int snapshotTriggerReason; // @synthesize snapshotTriggerReason=_snapshotTriggerReason;
 
 @end
 

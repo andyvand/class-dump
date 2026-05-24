@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityComingHomeAggregatorState
 {
     unsigned long long _type;
-    NSDate *_transitionalStateEndDate;
 }
 
 + (id);
@@ -18,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)*;
 - (id)with zoneID %@:%@ /* Error: Ran out of types for this method. */;
 - (void)ssoriesAdded:%lu
   numScenesAdded:%lu
@@ -29,7 +26,6 @@ __attribute__((visibility("hidden")))
   numTriggersFired:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *transitionalStateEndDate; // @synthesize transitionalStateEndDate=_transitionalStateEndDate;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

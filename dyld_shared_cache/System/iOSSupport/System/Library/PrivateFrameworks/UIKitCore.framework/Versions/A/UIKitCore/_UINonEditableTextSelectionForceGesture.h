@@ -6,22 +6,20 @@
 
 #import <UIKitCore/_UITextSelectionForceGesture.h>
 
-@class NSString, UIKeyboardTaskQueue, _UIKeyboardTextSelectionController, _UIKeyboardTextSelectionGestureController;
+@class _UIKeyboardTextSelectionController;
 @protocol _UINonEditableTextSelectionForceGestureDelegate;
 
 @interface _UINonEditableTextSelectionForceGesture : _UITextSelectionForceGesture
 {
     id <_UINonEditableTextSelectionForceGestureDelegate> forceGestureDelegate;
-    _UIKeyboardTextSelectionController *_textSelectionController;
-    _UIKeyboardTextSelectionGestureController *_gestureController;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
-- (void)ingAllowsTextAnimations;
-- (void)ontainer: /* Error: Ran out of types for this method. */;
-- (void)acking_isHidden;
+- (void)supportsDynamicallyTogglingAllowsTextAnimations;
+- (void)initWithContainer: /* Error: Ran out of types for this method. */;
+- (void)_backing_isHidden;
 - (_Bool)tch cache:%@ /* Error: Ran out of types for this method. */;
 - (id)Îcîÿ¶zþÿ;
 - (id)iderLine(hairline)]|;
@@ -30,21 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <_UINonEditableTextSelectionForceGestureDelegate> forceGestureDelegate; // @synthesize forceGestureDelegate;
-@property(retain, nonatomic) _UIKeyboardTextSelectionGestureController *gestureController; // @synthesize gestureController=_gestureController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIKeyboardTaskQueue *taskQueue;
 @property(retain, nonatomic) _UIKeyboardTextSelectionController *textSelectionController; // @synthesize textSelectionController=_textSelectionController;
-@property(readonly, nonatomic) double timestampOfLastTouchesEnded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 
 @end
 

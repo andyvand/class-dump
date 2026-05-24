@@ -9,14 +9,10 @@
 @interface MPSNDArrayRandomTruncatedNormal : MPSNDArrayRandom
 {
     unsigned int _samplingMethod;
-    float _mean;
-    float _standardDeviation;
-    float _minimum;
-    float _maximum;
 }
 
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (void);
 - (float);
@@ -32,11 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) float maximum; // @synthesize maximum=_maximum;
-@property(nonatomic) float mean; // @synthesize mean=_mean;
-@property(nonatomic) float minimum; // @synthesize minimum=_minimum;
 @property(nonatomic) unsigned int samplingMethod; // @synthesize samplingMethod=_samplingMethod;
-@property(nonatomic) float standardDeviation; // @synthesize standardDeviation=_standardDeviation;
 
 @end
 

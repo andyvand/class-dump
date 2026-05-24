@@ -4,49 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioSession, AXDispatchTimer, NSArray, NSLock, NSMutableArray, NSNumber, NSObject, NSString, TTSSpeechAction, TTSSpeechSynthesizer, TTSSpeechThread;
-@protocol OS_dispatch_queue;
+@class NSMutableArray, NSNumber;
 
 @interface TTSSpeechManager
 {
     NSMutableArray *_speechQueue;
-    TTSSpeechSynthesizer *_synthesizer;
-    TTSSpeechThread *_runThread;
-    NSObject<OS_dispatch_queue> *_propertyQueue;
-    _Bool _isSpeaking;
-    _Bool _speechEnabled;
-    _Bool _audioSessionObserversEnabled;
-    _Bool _speechThreadFinished;
-    NSLock *_speechThreadQueueLock;
-    _Bool _isPaused;
-    _Bool _isInAudioInterruption;
-    _Bool _showControlCenterControls;
-    _Bool _usesAuxiliarySession;
-    _Bool _wasSpeakingBeforeAudioInterruption;
-    _Bool _didRequestStartSpeakingDuringAudioInterruption;
-    _Bool _didRequestPauseSpeakingDuringAudioInterruption;
-    _Bool _didRequestResumeSpeakingDuringAudioInterruption;
-    _Bool _shouldHandleAudioInterruptions;
-    unsigned int _audioQueueFlags;
-    unsigned int _audioDeviceId;
-    TTSSpeechAction *_requestedActionDuringAudioInterruption;
-    unsigned long long _audioSessionCategoryOptions;
-    NSString *_audioSessionCategory;
-    unsigned long long _setActiveOptions;
-    AVAudioSession *_audioSession;
-    NSString *_speechSource;
-    double _audioSessionInactiveTimeout;
-    CDUnknownBlockType _requestWillStart;
-    NSNumber *_originalSpeechRateForJobOverride;
-    AXDispatchTimer *_audioDeactivatorTimer;
-    NSObject<OS_dispatch_queue> *_audioOperationQueue;
-    double _audioInterruptionStartedTime;
 }
 
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id)P;
 + (id);
 + (id);
 + (id);
@@ -68,7 +36,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)G;
 - (void);
 - (void);
 - (void);
@@ -91,13 +59,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (_Bool);
 - (void);
 - (double);
@@ -111,7 +79,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -140,8 +108,10 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)nagement/DolbyVisionDisplayManagement.mm" at line 8072
+;
+- (void)kX35bTGSZommcUtxVPEtFxhE/Library/Caches/com.apple.xbs/TemporaryDirectory.vrZUgA/Sources/HDRProcessing/Metal/Composer/DolbyVisionComposer.mm" at line 1966
+;
 - (void);
 - (void);
 - (void);
@@ -168,39 +138,7 @@
 - (_Bool)¾l;
 
 // Remaining properties
-@property(retain, nonatomic) AXDispatchTimer *audioDeactivatorTimer; // @synthesize audioDeactivatorTimer=_audioDeactivatorTimer;
-@property(nonatomic) unsigned int audioDeviceId; // @synthesize audioDeviceId=_audioDeviceId;
-@property(nonatomic) double audioInterruptionStartedTime; // @synthesize audioInterruptionStartedTime=_audioInterruptionStartedTime;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *audioOperationQueue; // @synthesize audioOperationQueue=_audioOperationQueue;
-@property(nonatomic) unsigned int audioQueueFlags; // @synthesize audioQueueFlags=_audioQueueFlags;
-@property(retain, nonatomic) AVAudioSession *audioSession; // @synthesize audioSession=_audioSession;
-@property(retain, nonatomic) NSString *audioSessionCategory; // @synthesize audioSessionCategory=_audioSessionCategory;
-@property(nonatomic) unsigned long long audioSessionCategoryOptions; // @synthesize audioSessionCategoryOptions=_audioSessionCategoryOptions;
-@property(nonatomic) double audioSessionInactiveTimeout; // @synthesize audioSessionInactiveTimeout=_audioSessionInactiveTimeout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didRequestPauseSpeakingDuringAudioInterruption; // @synthesize didRequestPauseSpeakingDuringAudioInterruption=_didRequestPauseSpeakingDuringAudioInterruption;
-@property(nonatomic) _Bool didRequestResumeSpeakingDuringAudioInterruption; // @synthesize didRequestResumeSpeakingDuringAudioInterruption=_didRequestResumeSpeakingDuringAudioInterruption;
-@property(nonatomic) _Bool didRequestStartSpeakingDuringAudioInterruption; // @synthesize didRequestStartSpeakingDuringAudioInterruption=_didRequestStartSpeakingDuringAudioInterruption;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isInAudioInterruption; // @synthesize isInAudioInterruption=_isInAudioInterruption;
-@property(nonatomic) _Bool isPaused; // @synthesize isPaused=_isPaused;
-@property(readonly, nonatomic) _Bool isSpeaking; // @dynamic isSpeaking;
 @property(retain, nonatomic) NSNumber *originalSpeechRateForJobOverride; // @synthesize originalSpeechRateForJobOverride=_originalSpeechRateForJobOverride;
-@property(retain, nonatomic) NSArray *outputChannels;
-@property(copy, nonatomic) CDUnknownBlockType requestWillStart; // @synthesize requestWillStart=_requestWillStart;
-@property(retain, nonatomic) TTSSpeechAction *requestedActionDuringAudioInterruption; // @synthesize requestedActionDuringAudioInterruption=_requestedActionDuringAudioInterruption;
-@property(nonatomic) unsigned long long setActiveOptions; // @synthesize setActiveOptions=_setActiveOptions;
-@property(nonatomic) _Bool shouldHandleAudioInterruptions; // @synthesize shouldHandleAudioInterruptions=_shouldHandleAudioInterruptions;
-@property(readonly, nonatomic) _Bool showControlCenterControls; // @synthesize showControlCenterControls=_showControlCenterControls;
-@property(nonatomic) _Bool speechEnabled; // @synthesize speechEnabled=_speechEnabled;
-@property(retain, nonatomic) NSString *speechSource; // @synthesize speechSource=_speechSource;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesAuxiliarySession; // @synthesize usesAuxiliarySession=_usesAuxiliarySession;
-@property(nonatomic) _Bool wasSpeakingBeforeAudioInterruption; // @synthesize wasSpeakingBeforeAudioInterruption=_wasSpeakingBeforeAudioInterruption;
 
 @end
 

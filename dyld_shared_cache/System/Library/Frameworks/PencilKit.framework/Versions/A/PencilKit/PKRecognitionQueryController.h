@@ -4,51 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PKRecognitionSessionManager;
+@class NSMutableDictionary;
 
 @interface PKRecognitionQueryController
 {
     double _preferredMathUpdatesInterval;
-    NSMutableDictionary *_drawingQueries;
-    NSMutableDictionary *_visibleStrokeQueries;
-    NSMutableDictionary *_queriesToCreate;
-    NSMutableDictionary *_suffixes;
-    PKRecognitionSessionManager *_recognitionManager;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void))A;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (id)[%{public}@]:[SKD] - No contentKeyRequest or resourceLoadingRequest provided /* Error: Ran out of types for this method. */;
+- (void)ssing certificate URL:(id)arg1 %{public}@ or key server URL:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain) NSMutableDictionary *drawingQueries; // @synthesize drawingQueries=_drawingQueries;
-@property(retain) NSMutableDictionary *queriesToCreate; // @synthesize queriesToCreate=_queriesToCreate;
-@property(nonatomic) __weak PKRecognitionSessionManager *recognitionManager; // @synthesize recognitionManager=_recognitionManager;
-@property(retain) NSMutableDictionary *suffixes; // @synthesize suffixes=_suffixes;
-@property(retain) NSMutableDictionary *visibleStrokeQueries; // @synthesize visibleStrokeQueries=_visibleStrokeQueries;
 
 @end
 

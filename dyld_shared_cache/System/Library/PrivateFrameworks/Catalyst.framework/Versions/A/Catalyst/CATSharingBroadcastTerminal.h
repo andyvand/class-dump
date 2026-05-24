@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue;
-@protocol CATSharingBroadcastPrimitives, CATSharingBroadcastTerminalDelegate;
+@protocol CATSharingBroadcastPrimitives;
 
 @interface CATSharingBroadcastTerminal
 {
     id <CATSharingBroadcastPrimitives> mBroadcastPrimitive;
-    id <CATSharingBroadcastTerminalDelegate> mDelegate;
-    CATOperationQueue *mDelegationQueue;
-    _Bool mInvalidated;
-    _Bool mIsDisplayingPIN;
-    _Bool _broadcasting;
-    CATOperationQueue *_delegationQueue;
 }
 
 - (void);
@@ -23,18 +16,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)@	;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 
 // Remaining properties
 @property(nonatomic, getter=isBroadcasting) _Bool broadcasting; // @synthesize broadcasting=_broadcasting;
-@property(readonly, nonatomic) CATOperationQueue *delegationQueue; // @synthesize delegationQueue=_delegationQueue;
 
 @end
 

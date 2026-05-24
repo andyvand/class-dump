@@ -9,7 +9,6 @@
 @interface OTSecureElementPeerIdentity
 {
     NSData *_peerData;
-    NSData *_peerIdentifier;
 }
 
 - (void);
@@ -17,23 +16,20 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)B;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tion=dIIIIIIII}16;
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPeerData;
 @property(readonly, nonatomic) _Bool hasPeerIdentifier;
-@property(retain, nonatomic) NSData *peerData; // @synthesize peerData=_peerData;
-@property(retain, nonatomic) NSData *peerIdentifier; // @synthesize peerIdentifier=_peerIdentifier;
 
 @end
 

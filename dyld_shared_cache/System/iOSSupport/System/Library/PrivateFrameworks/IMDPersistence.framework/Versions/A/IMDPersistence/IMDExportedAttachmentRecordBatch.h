@@ -6,18 +6,17 @@
 
 #import <IMDPersistence/IMDExportedRecordBatch.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface IMDExportedAttachmentRecordBatch : IMDExportedRecordBatch
 {
     void batchIterationKeys;
-    void records;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *batchIterationKeys;
-@property(nonatomic, readonly) NSArray *records;
 
 @end
 

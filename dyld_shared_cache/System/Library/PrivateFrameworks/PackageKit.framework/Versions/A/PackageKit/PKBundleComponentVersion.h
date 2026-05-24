@@ -9,12 +9,6 @@
 @interface PKBundleComponentVersion
 {
     NSString *_shortVersionString;
-    NSString *_origShortVersionString;
-    NSString *_bundleVersion;
-    NSString *_origBundleVersion;
-    NSString *_sourceVersion;
-    NSString *_buildVersion;
-    _Bool _isOnDisk;
 }
 
 + (id);
@@ -36,17 +30,12 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)k/Versions/A/FileProvider;
 - (id);
-- (id);
+- (id)or"8;
 
 // Remaining properties
 @property(readonly) NSDictionary *attributeDictionary;
-@property(readonly) NSString *buildVersion;
-@property(readonly) NSString *bundleVersion;
-@property(readonly) NSString *combinedVersionString;
-@property(readonly) NSString *shortVersionString;
-@property(readonly) NSString *sourceVersion;
 
 @end
 

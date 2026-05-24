@@ -6,18 +6,17 @@
 
 #import <Slideshows/MPLayer.h>
 
-@class MCContainerSerializer, MPTransition;
+@class MCContainerSerializer;
 
 @interface MPLayerSerializer : MPLayer
 {
     MCContainerSerializer *_layerSerializer;
-    MPTransition *_introTransition;
 }
 
+- (void)So29FCNewsAppConfigurationManager_p;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)cs.debugging.batch_bebugging;
+- (void)rameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeManager.m;
 - (void);
 - (id);
 - (void);

@@ -8,13 +8,11 @@
 @protocol CRKASMNameComponents;
 
 @protocol CRKASMUser
+- (_Bool);
+- (id <CRKASMNameComponents>)_startQueryWithQueryTask:eventHandler:resultsHandler: /* Error: Ran out of types for this method. */;
+- (NSString *)D;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAccountATOLocked) _Bool accountATOLocked;
-@property(readonly, nonatomic, getter=isAccountLockedDueToFailedLoginAttempts) _Bool accountLockedDueToFailedLoginAttempts;
-@property(readonly, copy, nonatomic) NSString *appleID;
-@property(readonly, nonatomic, getter=isFederated) _Bool federated;
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) id <CRKASMNameComponents> nameComponents;
 @end
 

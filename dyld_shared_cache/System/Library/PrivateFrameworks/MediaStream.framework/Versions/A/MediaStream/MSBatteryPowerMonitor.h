@@ -10,9 +10,9 @@
 }
 
 + (id);
-+ (_Bool);
-- (double);
-- (_Bool);
++ (_Bool):(double *)arg1 8r^v16@24@32@40@48Q56;
+- (double)initWithCollection:closeOnRelease:error: /* Error: Ran out of types for this method. */;
+- (_Bool)isAutomaticallyInstallBackgroundSecurityImprovementsPreferenceEnabled;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isExternalPowerConnected; // @synthesize isExternalPowerConnected=_isExternalPowerConnected;

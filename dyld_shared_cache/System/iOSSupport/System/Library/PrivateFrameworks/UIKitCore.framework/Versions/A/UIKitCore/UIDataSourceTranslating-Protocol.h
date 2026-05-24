@@ -5,5 +5,6 @@
 //
 
 @protocol UIDataSourceTranslating
+- (long long);
 @end
 

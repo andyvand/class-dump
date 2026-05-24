@@ -9,7 +9,6 @@
 @interface IDSKTRegistrationStatus
 {
     IDSKTRegistrationData *_unregisteredKTData;
-    IDSKTRegistrationData *_registeredKTData;
 }
 
 + (_Bool);
@@ -17,12 +16,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)hjh8;
 - (void);
-- (void)oneNotification;
+- (void)CKRecordZoneNotification;
 
 // Remaining properties
-@property(retain, nonatomic) IDSKTRegistrationData *registeredKTData; // @synthesize registeredKTData=_registeredKTData;
 @property(retain, nonatomic) IDSKTRegistrationData *unregisteredKTData; // @synthesize unregisteredKTData=_unregisteredKTData;
 
 @end

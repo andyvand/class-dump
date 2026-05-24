@@ -4,52 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPMergeableValueIdentifier, CKDPRecordFieldIdentifier, CKDPRecordIdentifier, NSMutableArray;
+@class CKDPRecordFieldIdentifier;
 
 @interface CKDPRealTimeMessageAssociatedMergeableDeltas
 {
     CKDPRecordFieldIdentifier *_fieldIdentifier;
-    CKDPMergeableValueIdentifier *_identifier;
-    NSMutableArray *_mergeableDeltas;
-    CKDPRecordIdentifier *_recordIdentifier;
 }
 
 + (Class);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
+- (void)r>";
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)han message ring bbuf;
+- (_Bool);
+- (void)setInCompatibilityModeEnabledDuration:(id)arg1;
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void)%p service:%@, identities:{
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPRecordFieldIdentifier *fieldIdentifier; // @synthesize fieldIdentifier=_fieldIdentifier;
-@property(readonly, nonatomic) _Bool hasFieldIdentifier;
-@property(readonly, nonatomic) _Bool hasIdentifier;
 @property(readonly, nonatomic) _Bool hasRecordIdentifier;
-@property(retain, nonatomic) CKDPMergeableValueIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSMutableArray *mergeableDeltas; // @synthesize mergeableDeltas=_mergeableDeltas;
-@property(retain, nonatomic) CKDPRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
 
 @end
 

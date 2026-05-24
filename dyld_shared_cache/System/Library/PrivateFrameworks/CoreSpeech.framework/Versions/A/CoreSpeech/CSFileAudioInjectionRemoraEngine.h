@@ -6,21 +6,12 @@
 
 #import <CoreSpeech/CSFileAudioInjectionEngine.h>
 
-@class CSAudioCircularBuffer, CSAudioInjectionDevice, CSKeywordAnalyzerNDAPI, NSObject, NSString, NSUUID;
-@protocol CSAudioInjectionEngineDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSFileAudioInjectionRemoraEngine : CSFileAudioInjectionEngine
 {
     _Bool _voiceTriggerEnabled;
-    _Bool _isForwarding;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <CSAudioInjectionEngineDelegate> _delegate;
-    CSKeywordAnalyzerNDAPI *_keywordAnalyzer;
-    CSAudioCircularBuffer *_circularBuffer;
-    unsigned long long _lastDetectedVoiceTriggerBeginSampleCount;
-    unsigned long long _lastForwardedSampleCount;
-    CSAudioInjectionDevice *_connectedDevice;
-    NSUUID *_uuid;
 }
 
 - (_Bool);
@@ -28,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -46,40 +37,24 @@
 - (void);
 - (_Bool);
 - (id);
+- (void)startAdvertising:(id)arg1;
+- (void)fier;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ore.A.dylib;
+- (id);
+- (void)initWithOriginatingRequestSpecifier:(id)arg1 keypointReturningObservation: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
-- (void)iveDowntime;
+- (void)cumulativeDowntime;
 - (_Bool)hold;
 - (_Bool)riggerReject];
 
 // Remaining properties
-@property(retain, nonatomic) CSAudioCircularBuffer *circularBuffer; // @synthesize circularBuffer=_circularBuffer;
-@property(nonatomic) __weak CSAudioInjectionDevice *connectedDevice; // @synthesize connectedDevice=_connectedDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSAudioInjectionEngineDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isForwarding; // @synthesize isForwarding=_isForwarding;
-@property(retain, nonatomic) CSKeywordAnalyzerNDAPI *keywordAnalyzer; // @synthesize keywordAnalyzer=_keywordAnalyzer;
-@property(nonatomic) unsigned long long lastDetectedVoiceTriggerBeginSampleCount; // @synthesize lastDetectedVoiceTriggerBeginSampleCount=_lastDetectedVoiceTriggerBeginSampleCount;
-@property(nonatomic) unsigned long long lastForwardedSampleCount; // @synthesize lastForwardedSampleCount=_lastForwardedSampleCount;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(nonatomic) _Bool voiceTriggerEnabled; // @synthesize voiceTriggerEnabled=_voiceTriggerEnabled;
 
 @end
 

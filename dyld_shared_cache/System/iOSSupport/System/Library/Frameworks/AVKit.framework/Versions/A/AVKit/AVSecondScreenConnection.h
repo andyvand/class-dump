@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVDisplayCriteria, AVObservationController, AVPlayer, AVPlayerLayer, AVSecondScreen, AVSecondScreenDebugAssistant, AVSecondScreenViewController, UIView, UIViewController;
-
 __attribute__((visibility("hidden")))
 @interface AVSecondScreenConnection
 {
     _Bool _readyToConnect;
-    _Bool _active;
-    _Bool _playing;
-    _Bool _requiresTVOutScreen;
-    _Bool _ready;
-    AVSecondScreenDebugAssistant *_debugAssistant;
-    AVPlayer *_player;
-    AVPlayerLayer *_playerLayer;
-    AVSecondScreen *_connectedSecondScreen;
-    AVDisplayCriteria *_preferredDisplayCriteria;
-    AVPlayer *_debugInfoPlayer;
-    AVObservationController *_observationController;
-    UIView *_contentView;
-    AVSecondScreenViewController *_secondScreenViewController;
-    struct CGSize _maximumVideoResolution;
 }
 
 - (double);
@@ -31,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Bt;
 - (void);
 - (void);
 - (id);
@@ -40,17 +24,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -61,38 +45,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setHasSupport: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)nt:(id)arg1 %@, treatment:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (void)1Â0@ù
 × ;
-- (struct CGSize)ctureViewController:source: /* Error: Ran out of types for this method. */;
+- (struct CGSize)_setRoutingVideoToHostedWindow:pictureInPictureViewController:source: /* Error: Ran out of types for this method. */;
 - (id)t;
 - (void).apple.avkit.approximateStartDate;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) __weak AVSecondScreen *connectedSecondScreen; // @synthesize connectedSecondScreen=_connectedSecondScreen;
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, nonatomic) UIViewController *contentViewController;
-@property(readonly, nonatomic) AVSecondScreenDebugAssistant *debugAssistant; // @synthesize debugAssistant=_debugAssistant;
-@property(retain, nonatomic) AVPlayer *debugInfoPlayer; // @synthesize debugInfoPlayer=_debugInfoPlayer;
-@property(nonatomic) struct CGSize maximumVideoResolution; // @synthesize maximumVideoResolution=_maximumVideoResolution;
-@property(retain, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(retain, nonatomic) AVPlayer *player; // @synthesize player=_player;
-@property(readonly, nonatomic) __weak AVPlayerLayer *playerLayer; // @synthesize playerLayer=_playerLayer;
-@property(nonatomic, getter=isPlaying) _Bool playing; // @synthesize playing=_playing;
-@property(retain, nonatomic) AVDisplayCriteria *preferredDisplayCriteria; // @synthesize preferredDisplayCriteria=_preferredDisplayCriteria;
-@property(nonatomic, getter=isReady) _Bool ready; // @synthesize ready=_ready;
-@property(readonly, nonatomic, getter=isReadyToConnect) _Bool readyToConnect; // @synthesize readyToConnect=_readyToConnect;
-@property(nonatomic) _Bool requiresTVOutScreen; // @synthesize requiresTVOutScreen=_requiresTVOutScreen;
-@property(retain, nonatomic) AVSecondScreenViewController *secondScreenViewController; // @synthesize secondScreenViewController=_secondScreenViewController;
-@property(readonly, nonatomic) double videoDisplayScale;
-@property(readonly, nonatomic) struct CGSize videoDisplaySize;
 
 @end
 

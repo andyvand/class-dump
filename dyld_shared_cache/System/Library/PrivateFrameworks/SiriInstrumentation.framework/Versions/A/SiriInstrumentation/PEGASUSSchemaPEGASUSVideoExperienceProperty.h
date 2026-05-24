@@ -6,25 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PEGASUSSchemaPEGASUSVideoExperienceProperty : SISchemaInstrumentationMessage
 {
     _Bool _isForegroundAppAvailable;
-    _Bool _isRecommendationRequest;
-    _Bool _isThirdPartyRequest;
-    struct {
-        unsigned int isForegroundAppAvailable:1;
-        unsigned int isRecommendationRequest:1;
-        unsigned int isThirdPartyRequest:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -39,21 +30,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)%@, trigger:(id)arg1 %@;
 - (id);
 - (id)!r!Dù±ÝÐ1Â0@ù
 × ;
-- (id)asExperimentContext;
+- (id)_hasExperimentContext;
 - (id)"SUTSchemaTestGeneratedTurnID",&,N,V_turnID;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsForegroundAppAvailable;
-@property(nonatomic) _Bool hasIsRecommendationRequest;
-@property(nonatomic) _Bool hasIsThirdPartyRequest;
 @property(nonatomic) _Bool isForegroundAppAvailable; // @synthesize isForegroundAppAvailable=_isForegroundAppAvailable;
-@property(nonatomic) _Bool isRecommendationRequest; // @synthesize isRecommendationRequest=_isRecommendationRequest;
-@property(nonatomic) _Bool isThirdPartyRequest; // @synthesize isThirdPartyRequest=_isThirdPartyRequest;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

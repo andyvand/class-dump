@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSUUID;
 
 @interface AKHomeDeviceContext
 {
     NSUUID *_identifier;
-    NSString *_altDSID;
-    NSString *_operation;
-    NSDictionary *_parameters;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)(be8`f8eB8e;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)4;
 - (id);
 - (void)<;
 - (id)=°(u[´éF§.!lCú-`%dÙöÐê³\ÿæÉÔûòÀÍÚcNï·ÖyÄë¢¸IODeviceTree:/chosen /* Error: Ran out of types for this method. */;
@@ -30,16 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSUUID *_identifier; // @synthesize _identifier;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *operation; // @synthesize operation=_operation;
-@property(readonly, copy, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

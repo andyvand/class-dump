@@ -6,16 +6,11 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSDictionary, NSString, NSURL, PKPaymentDeviceMetadata;
+@class NSString;
 
 @interface PKAccountWebServiceReportDeviceEventRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
-    long long _event;
-    PKPaymentDeviceMetadata *_deviceMetadata;
-    NSString *_odiAssessment;
-    NSDictionary *_eventDetails;
 }
 
 - (void);
@@ -35,11 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(nonatomic) long long event; // @synthesize event=_event;
-@property(copy, nonatomic) NSDictionary *eventDetails; // @synthesize eventDetails=_eventDetails;
-@property(copy, nonatomic) NSString *odiAssessment; // @synthesize odiAssessment=_odiAssessment;
 
 @end
 

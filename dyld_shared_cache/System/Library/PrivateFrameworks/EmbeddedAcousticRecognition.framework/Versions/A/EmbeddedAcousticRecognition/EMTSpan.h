@@ -9,22 +9,18 @@
 @interface EMTSpan
 {
     _Bool _doNotTranslate;
-    NSString *_identifier;
-    struct _NSRange _range;
 }
 
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)__LINKEDIT;
+- (id);
 - (struct _NSRange);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool doNotTranslate; // @synthesize doNotTranslate=_doNotTranslate;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) struct _NSRange range; // @synthesize range=_range;
 
 @end
 

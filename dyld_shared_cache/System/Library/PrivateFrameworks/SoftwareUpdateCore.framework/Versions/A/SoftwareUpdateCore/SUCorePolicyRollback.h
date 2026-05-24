@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SUCorePolicyRollback
 {
     _Bool _performPhase;
-    _Bool _performRollbackPreparePhase;
-    _Bool _performRollbackSuspendPhase;
-    _Bool _performRollbackResumePhase;
-    _Bool _performRollbackApplyPhase;
-    _Bool _skipCancelPreviousUpdate;
-    NSDictionary *_additionalOptions;
-    NSDictionary *_baseRollbackOptions;
 }
 
-+ (_Bool);
++ (_Bool)Q;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -36,23 +27,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id):(id)arg1 8@"FormTextStatusWatcher"16;
+- (id)_mailPageFromShareMenuKeyEquivalent: /* Error: Ran out of types for this method. */;
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalOptions; // @synthesize additionalOptions=_additionalOptions;
-@property(retain, nonatomic) NSDictionary *baseRollbackOptions; // @synthesize baseRollbackOptions=_baseRollbackOptions;
 @property(nonatomic) _Bool performPhase; // @synthesize performPhase=_performPhase;
-@property(nonatomic) _Bool performRollbackApplyPhase; // @synthesize performRollbackApplyPhase=_performRollbackApplyPhase;
-@property(nonatomic) _Bool performRollbackPreparePhase; // @synthesize performRollbackPreparePhase=_performRollbackPreparePhase;
-@property(nonatomic) _Bool performRollbackResumePhase; // @synthesize performRollbackResumePhase=_performRollbackResumePhase;
-@property(nonatomic) _Bool performRollbackSuspendPhase; // @synthesize performRollbackSuspendPhase=_performRollbackSuspendPhase;
-@property(nonatomic) _Bool skipCancelPreviousUpdate; // @synthesize skipCancelPreviousUpdate=_skipCancelPreviousUpdate;
 
 @end
 

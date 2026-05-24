@@ -5,5 +5,8 @@
 //
 
 @protocol _ASCredentialProviderExtensionHostContextDelegate
+
+@optional
+- (void);
 @end
 

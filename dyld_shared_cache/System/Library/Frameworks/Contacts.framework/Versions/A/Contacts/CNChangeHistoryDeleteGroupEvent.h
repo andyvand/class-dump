@@ -11,8 +11,6 @@
 @interface CNChangeHistoryDeleteGroupEvent : CNChangeHistoryEvent
 {
     NSString *_groupIdentifier;
-    NSString *_externalURI;
-    NSString *_externalModificationTag;
 }
 
 + (unsigned long long);
@@ -23,19 +21,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)contain remote SDP;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void)e_createFetchersFromRegisteredObservers: /* Error: Ran out of types for this method. */;
+- (void)workQueue_createFetchersFromRegisteredObservers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *externalModificationTag; // @synthesize externalModificationTag=_externalModificationTag;
 @property(readonly, copy, nonatomic) NSString *externalURI; // @synthesize externalURI=_externalURI;
-@property(readonly, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
 
 @end
 

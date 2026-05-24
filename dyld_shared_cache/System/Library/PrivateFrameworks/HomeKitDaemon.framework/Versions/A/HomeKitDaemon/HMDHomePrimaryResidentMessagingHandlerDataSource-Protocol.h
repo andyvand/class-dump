@@ -8,11 +8,10 @@
 @protocol HMFTimerManager;
 
 @protocol HMDHomePrimaryResidentMessagingHandlerDataSource
-- (id <HMFTimerManager>)cordingSessionForTrigger: /* Error: Ran out of types for this method. */;
+- (id <HMFTimerManager>)_coordinateRecordingSessionForTrigger: /* Error: Ran out of types for this method. */;
 - (NSNotificationCenter *)de Density;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
-@property(readonly, nonatomic) id <HMFTimerManager> timerManager;
 @end
 

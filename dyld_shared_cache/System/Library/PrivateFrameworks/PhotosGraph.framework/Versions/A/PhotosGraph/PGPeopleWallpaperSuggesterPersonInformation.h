@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PGPeopleWallpaperSuggesterPersonInformation
 {
     NSString *_personLocalIdentifier;
-    long long _importance;
-    NSSet *_dupedPersonLocalIdentifiers;
 }
 
 - (void);
-- (id);
+- (id)runningApplications;
 - (id);
 - (id);
 - (long long);
-- (void)gin;
+- (void)origin;
 
 // Remaining properties
-@property(readonly) NSSet *dupedPersonLocalIdentifiers; // @synthesize dupedPersonLocalIdentifiers=_dupedPersonLocalIdentifiers;
-@property(readonly) long long importance; // @synthesize importance=_importance;
 @property(readonly) NSString *personLocalIdentifier; // @synthesize personLocalIdentifier=_personLocalIdentifier;
 
 @end

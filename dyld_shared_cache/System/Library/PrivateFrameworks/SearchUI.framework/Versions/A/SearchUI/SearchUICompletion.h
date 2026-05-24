@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, SFImage, SearchUICommandHandler;
+@class SearchUICommandHandler;
 
 @interface SearchUICompletion
 {
     _Bool _isCompletionStringFullyMatched;
-    NSAttributedString *_completionString;
-    NSString *_extensionString;
-    NSString *_copyableString;
-    SearchUICommandHandler *_commandHandler;
-    NSAttributedString *_typedString;
 }
 
 + (_Bool);
-+ (struct _NSRange);
++ (struct _NSRange);
 + (id);
 + (id);
 - (void);
@@ -31,28 +26,20 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)er_upper_basic_thick.heic;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Pipeline/API/NUChannel.m;
 - (id);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bridgeString;
 @property(retain) SearchUICommandHandler *commandHandler; // @synthesize commandHandler=_commandHandler;
-@property(readonly, nonatomic) _Bool completionResultIsPotentiallyPunchout;
-@property(retain, nonatomic) NSAttributedString *completionString; // @synthesize completionString=_completionString;
-@property(readonly, nonatomic) NSString *copyableString; // @synthesize copyableString=_copyableString;
-@property(retain, nonatomic) NSString *extensionString; // @synthesize extensionString=_extensionString;
-@property(readonly, nonatomic) SFImage *image;
-@property(readonly, nonatomic) _Bool isCompletionStringFullyMatched; // @synthesize isCompletionStringFullyMatched=_isCompletionStringFullyMatched;
-@property(retain, nonatomic) NSAttributedString *typedString; // @synthesize typedString=_typedString;
 
 @end
 

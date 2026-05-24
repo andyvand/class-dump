@@ -6,48 +6,37 @@
 
 #import <CloudKit/CKOperation.h>
 
-@class CKFetchShareMetadataOperationInfo, NSArray, NSDictionary, NSMutableDictionary, NSString;
-@protocol CKFetchShareMetadataOperationCallbacks;
+@class NSMutableDictionary;
 
 @interface CKFetchShareMetadataOperation : CKOperation
 {
     _Bool _shouldFetchRootRecord;
-    _Bool _overwriteContainerPCSServiceIfManatee;
-    _Bool _skipShareDecryption;
-    CDUnknownBlockType _perShareMetadataBlock;
-    CDUnknownBlockType _fetchShareMetadataCompletionBlock;
-    NSArray *_shareURLs;
-    NSArray *_rootRecordDesiredKeys;
-    NSMutableDictionary *_errorsByURL;
-    CDUnknownBlockType _perShareMetadataBlock_wrapper;
-    CDUnknownBlockType _fetchShareMetadataCompletionBlock_wrapper;
-    NSDictionary *_shareInvitationTokensByShareURL;
 }
 
 + (SEL);
 + (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (_Bool)k`;
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)=q;
+- (void);
+- (void);
+- (id);
+- (CDUnknownBlockType)C;
+- (CDUnknownBlockType);
+- (_Bool);
+- (id);
+- (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)I;
 - (id);
 - (void);
 - (void);
@@ -65,26 +54,7 @@
 - (void)ì;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CKFetchShareMetadataOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSMutableDictionary *errorsByURL; // @synthesize errorsByURL=_errorsByURL;
-@property(copy, nonatomic) CDUnknownBlockType fetchShareMetadataCompletionBlock; // @synthesize fetchShareMetadataCompletionBlock=_fetchShareMetadataCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType fetchShareMetadataCompletionBlock_wrapper; // @synthesize fetchShareMetadataCompletionBlock_wrapper=_fetchShareMetadataCompletionBlock_wrapper;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKFetchShareMetadataOperationInfo *operationInfo; // @dynamic operationInfo;
-@property(nonatomic) _Bool overwriteContainerPCSServiceIfManatee; // @synthesize overwriteContainerPCSServiceIfManatee=_overwriteContainerPCSServiceIfManatee;
-@property(copy, nonatomic) CDUnknownBlockType perShareMetadataBlock; // @synthesize perShareMetadataBlock=_perShareMetadataBlock;
-@property(copy, nonatomic) CDUnknownBlockType perShareMetadataBlock_wrapper; // @synthesize perShareMetadataBlock_wrapper=_perShareMetadataBlock_wrapper;
-@property(copy, nonatomic) NSArray *rootRecordDesiredKeys; // @synthesize rootRecordDesiredKeys=_rootRecordDesiredKeys;
-@property(copy, nonatomic) NSDictionary *shareInvitationTokensByShareURL; // @synthesize shareInvitationTokensByShareURL=_shareInvitationTokensByShareURL;
-@property(copy, nonatomic) NSArray *shareURLs; // @synthesize shareURLs=_shareURLs;
-@property(nonatomic) _Bool shouldFetchRootRecord; // @synthesize shouldFetchRootRecord=_shouldFetchRootRecord;
-@property(nonatomic) _Bool skipShareDecryption; // @synthesize skipShareDecryption=_skipShareDecryption;
-@property(readonly) Class superclass;
 
 @end
 

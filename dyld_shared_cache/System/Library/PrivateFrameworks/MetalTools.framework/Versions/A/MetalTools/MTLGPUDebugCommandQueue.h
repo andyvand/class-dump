@@ -11,13 +11,12 @@
 @interface MTLGPUDebugCommandQueue : MTLToolsCommandQueue
 {
     struct GPUDebugDeviceOptions *_deviceOptions;
-    NSString *_tracePath;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)( ;
 - (id);
 
 // Remaining properties

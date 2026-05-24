@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, SignpostFrameLatencyInterval, SignpostHIDLatencyInterval, SignpostRenderServerRenderInterval;
-
 @interface SignpostFrameAccumulatedState
 {
     unsigned int _frameSeed;
-    NSMutableDictionary *_contextIDtoContextInfoDict;
-    SignpostRenderServerRenderInterval *_renderInterval;
-    NSMutableDictionary *_frameSeedToSkippedRenderIntervals;
-    SignpostHIDLatencyInterval *_hidLatency;
-    SignpostFrameLatencyInterval *_frameLatency;
 }
 
 - (void);
@@ -25,19 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)0;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *contextIDtoContextInfoDict; // @synthesize contextIDtoContextInfoDict=_contextIDtoContextInfoDict;
-@property(retain, nonatomic) SignpostFrameLatencyInterval *frameLatency; // @synthesize frameLatency=_frameLatency;
 @property(readonly, nonatomic) unsigned int frameSeed; // @synthesize frameSeed=_frameSeed;
-@property(retain, nonatomic) NSMutableDictionary *frameSeedToSkippedRenderIntervals; // @synthesize frameSeedToSkippedRenderIntervals=_frameSeedToSkippedRenderIntervals;
-@property(retain, nonatomic) SignpostHIDLatencyInterval *hidLatency; // @synthesize hidLatency=_hidLatency;
-@property(retain, nonatomic) SignpostRenderServerRenderInterval *renderInterval; // @synthesize renderInterval=_renderInterval;
 
 @end
 

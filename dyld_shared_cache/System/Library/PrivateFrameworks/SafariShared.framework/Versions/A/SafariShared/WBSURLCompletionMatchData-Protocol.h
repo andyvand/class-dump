@@ -5,41 +5,13 @@
 //
 
 @class NSString;
-@protocol WBSCloudTabItem;
 
 @protocol WBSURLCompletionMatchData
+- (NSString *);
+- (void)A;
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) id <WBSCloudTabItem> cloudTab;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<WBSCloudTabItem>",?,R,N
-
-@property(readonly, copy, nonatomic) NSString *cloudTabDeviceName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) _Bool containsBookmark;
-@property(readonly, nonatomic) _Bool containsReadingListItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) _Bool isSynthesized;
-@property(readonly, nonatomic) _Bool lastVisitWasFailure;
-@property(readonly, nonatomic) double lastVisitedTimeInterval;
-@property(readonly, nonatomic) _Bool onlyContainsCloudTab;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) NSString *originalURLString;
-@property(readonly, nonatomic) _Bool shouldPreload;
-@property(readonly, nonatomic) long long visitCount;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long visitCountScore;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) _Bool visitWasClientError;
 @end
 

@@ -9,19 +9,18 @@
 @interface EMFQueryResultOverrideList
 {
     NSDictionary *_overrideMap;
-    NSURL *_overrideListURLForTesting;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)stentState"8;
+- (id)tory and Keep Website Data);
+- (id)(Clear History);
+- (id)CreateProfile;
+- (id)display RSS feeds?;
+- (id)ould you like to search the App Store for apps that can display RSS feeds?;
+- (id).;
+- (id)ot open the page because the address is invalid.;
+- (id)the user wants to always open an external app.;
+- (id)rder;
 - (void);
 
 // Remaining properties

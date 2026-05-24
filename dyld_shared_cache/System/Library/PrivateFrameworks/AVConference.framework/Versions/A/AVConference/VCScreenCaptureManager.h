@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, SCContentFilter, SCStream, VCScreenCapturePicker, VCScreenShare;
+@class NSObject, VCScreenCapturePicker;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface VCScreenCaptureManager
 {
     NSObject<OS_dispatch_queue> *_xpcCommandQueue;
-    NSMutableDictionary *_screenShare;
-    VCScreenShare *_pickerClientScreenShare;
-    SCContentFilter *_contentFilter;
-    VCScreenCapturePicker *_picker;
-    SCStream *_screenStream;
 }
 
 + (long long);
@@ -27,14 +22,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
+- (id)^;
+- (void);
+- (void)H;
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -46,21 +41,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)0*;
 
 // Remaining properties
-@property(readonly, nonatomic) SCContentFilter *contentFilter; // @synthesize contentFilter=_contentFilter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) VCScreenCapturePicker *picker; // @synthesize picker=_picker;
-@property(retain, nonatomic) SCStream *screenStream; // @synthesize screenStream=_screenStream;
-@property(readonly) Class superclass;
 
 @end
 

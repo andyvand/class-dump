@@ -7,9 +7,6 @@
 @interface ChatKit.StoragePluginCounts
 {
     id cachedDate;
-    id countData;
-    id spaceSavedByAutoDeletingMessages;
-    id didCalculateForCloudKit;
 }
 
 @end

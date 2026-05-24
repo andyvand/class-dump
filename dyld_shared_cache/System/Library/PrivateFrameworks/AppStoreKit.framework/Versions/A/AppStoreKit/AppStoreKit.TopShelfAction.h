@@ -7,11 +7,6 @@
 @interface AppStoreKit.TopShelfAction
 {
     id target;
-    id title;
-    id subtitle;
-    id imageName;
-    id userInfo;
-    id accessibilityLabel;
 }
 
 @end

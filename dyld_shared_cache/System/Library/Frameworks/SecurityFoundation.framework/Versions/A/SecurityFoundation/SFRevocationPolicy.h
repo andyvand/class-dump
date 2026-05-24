@@ -11,19 +11,18 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void);
+- (void)( ;
 - (void);
 - (unsigned long long);
 - (long long);
-- (id);
-- (id);
+- (id)rt;
+- (id)kMDItemTextContent;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long networkLookup;
 @property(nonatomic) unsigned long long revocationMethods;
 
 @end

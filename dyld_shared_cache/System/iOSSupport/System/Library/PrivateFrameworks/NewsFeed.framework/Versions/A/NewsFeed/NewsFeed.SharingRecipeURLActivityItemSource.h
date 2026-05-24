@@ -7,9 +7,6 @@
 @interface NewsFeed.SharingRecipeURLActivityItemSource
 {
     id url;
-    id linkPresentationSource;
-    id recipe;
-    id recipeFactory;
 }
 
 - (id);

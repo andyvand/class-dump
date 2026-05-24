@@ -8,15 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCAudioSessionMediaProperties
 {
     double _preferredSampleRate;
-    double _preferredBlockSize;
-    int _operatingMode;
-    unsigned int _vpOperatingMode;
-    struct AudioStreamBasicDescription _inputFormat;
-    struct AudioStreamBasicDescription _outputFormat;
-    int _processId;
-    _Bool _sessionActive;
-    _Bool _audioClockDeviceEnabled;
-    _Bool _networkUplinkClockUsesBaseband;
 }
 
 - (void);
@@ -24,17 +15,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (int);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
-- (struct AudioStreamBasicDescription);
+- (struct AudioStreamBasicDescription);
 - (void);
 - (double);
-- (struct AudioStreamBasicDescription);
+- (struct AudioStreamBasicDescription)R;
 - (id);
 - (void);
 - (_Bool);
@@ -44,16 +35,7 @@ __attribute__((visibility("hidden")))
 ëÞ%;
 
 // Remaining properties
-@property(nonatomic) _Bool audioClockDeviceEnabled; // @synthesize audioClockDeviceEnabled=_audioClockDeviceEnabled;
-@property(nonatomic) struct AudioStreamBasicDescription inputFormat; // @synthesize inputFormat=_inputFormat;
-@property(nonatomic) _Bool networkUplinkClockUsesBaseband; // @synthesize networkUplinkClockUsesBaseband=_networkUplinkClockUsesBaseband;
-@property(nonatomic) int operatingMode; // @synthesize operatingMode=_operatingMode;
-@property(nonatomic) struct AudioStreamBasicDescription outputFormat; // @synthesize outputFormat=_outputFormat;
-@property(nonatomic) double preferredBlockSize; // @synthesize preferredBlockSize=_preferredBlockSize;
 @property(nonatomic) double preferredSampleRate; // @synthesize preferredSampleRate=_preferredSampleRate;
-@property(nonatomic) int processId; // @synthesize processId=_processId;
-@property(nonatomic, getter=isSessionActive) _Bool sessionActive; // @synthesize sessionActive=_sessionActive;
-@property(nonatomic) unsigned int vpOperatingMode; // @synthesize vpOperatingMode=_vpOperatingMode;
 
 @end
 

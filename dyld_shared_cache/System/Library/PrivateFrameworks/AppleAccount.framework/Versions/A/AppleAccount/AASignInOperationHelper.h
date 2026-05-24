@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AADataclassManager, ACAccountStore;
+@class ACAccountStore;
 
 @interface AASignInOperationHelper
 {
     ACAccountStore *_accountStore;
-    AADataclassManager *_dataclassManager;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)hare.Video.upload-Vimeo;
+- (void)oken:(id)arg1 Error %d (0x%08x) creating ACM Credential;
+- (void)mpt setBootstrapToken;
 - (id);
 - (id);
-- (void)AllowedTrafficClassifiersDidReset: /* Error: Ran out of types for this method. */;
+- (void)serviceAllowedTrafficClassifiersDidReset: /* Error: Ran out of types for this method. */;
 
 @end
 

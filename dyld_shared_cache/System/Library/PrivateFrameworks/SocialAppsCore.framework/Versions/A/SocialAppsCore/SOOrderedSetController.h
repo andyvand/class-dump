@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSOrderedSet, NSSet, _NotificationObserver;
-@protocol SOOrderedSetControllerDelegate;
+@class NSMutableOrderedSet;
 
 @interface SOOrderedSetController
 {
     _Bool _avoidsEmptySelection;
-    _Bool _loopsSelection;
-    _Bool _userEditable;
-    id <SOOrderedSetControllerDelegate> _delegate;
-    CDUnknownBlockType _comparatorBlock;
-    CDUnknownBlockType _filterBlock;
-    id _selectedObject;
-    NSMutableOrderedSet *_mutableContents;
-    _NotificationObserver *_resortNotificationObserver;
-    NSMutableOrderedSet *_mutableFilteredContents;
-    _NotificationObserver *_refilterNotificationObserver;
 }
 
 - (void);
@@ -28,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -79,41 +68,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)24@40Q48@56B64B68B72B76B80@84@92;
+- (unsigned long long)openTypologyRecordWithString:range:languageObject:languages:topLanguages:autocorrect:initialCapitalize:autocapitalize:keyEventArray:appIdentifier:selectedRangeValue: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)setTextRectForAccessoryImageView: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)setZPosition: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool avoidsEmptySelection; // @synthesize avoidsEmptySelection=_avoidsEmptySelection;
-@property(readonly, nonatomic) _Bool canSelectNext;
-@property(readonly, nonatomic) _Bool canSelectPrevious;
-@property(copy, nonatomic) CDUnknownBlockType comparatorBlock; // @synthesize comparatorBlock=_comparatorBlock;
-@property(copy, nonatomic) NSOrderedSet *contents; // @dynamic contents;
-@property(readonly, nonatomic) unsigned long long countOfContents;
-@property(readonly, nonatomic) unsigned long long countOfFilteredContents;
-@property(nonatomic) __weak id <SOOrderedSetControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) CDUnknownBlockType filterBlock; // @synthesize filterBlock=_filterBlock;
-@property(readonly, copy, nonatomic) NSOrderedSet *filteredContents;
-@property(nonatomic) _Bool loopsSelection; // @synthesize loopsSelection=_loopsSelection;
 @property(retain, nonatomic) NSMutableOrderedSet *mutableContents; // @synthesize mutableContents=_mutableContents;
-@property(retain, nonatomic) NSMutableOrderedSet *mutableFilteredContents; // @synthesize mutableFilteredContents=_mutableFilteredContents;
-@property(readonly, retain, nonatomic) _NotificationObserver *refilterNotificationObserver; // @synthesize refilterNotificationObserver=_refilterNotificationObserver;
-@property(retain, nonatomic) NSSet *refilterNotifications; // @dynamic refilterNotifications;
-@property(readonly, retain, nonatomic) _NotificationObserver *resortNotificationObserver; // @synthesize resortNotificationObserver=_resortNotificationObserver;
-@property(retain, nonatomic) NSSet *resortNotifications; // @dynamic resortNotifications;
-@property(retain, nonatomic) id selectedObject; // @synthesize selectedObject=_selectedObject;
-@property(nonatomic) unsigned long long selectionIndex; // @dynamic selectionIndex;
-@property(readonly, nonatomic, getter=isUserEditable) _Bool userEditable; // @synthesize userEditable=_userEditable;
 
 @end
 

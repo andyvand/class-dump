@@ -6,8 +6,6 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString, SXExperiment, SXFeedNavigationAppearance, SXJSONDictionary, SXTabBarAppearance;
-
 @interface SXMetadata : SXJSONObject
 {
 }
@@ -15,17 +13,6 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONDictionary *campaignData; // @dynamic campaignData;
-@property(readonly, nonatomic) NSString *canonicalURL; // @dynamic canonicalURL;
-@property(readonly, nonatomic) NSString *documentVersion; // @dynamic documentVersion;
-@property(readonly, nonatomic) SXExperiment *experiment; // @dynamic experiment;
-@property(readonly, nonatomic) SXFeedNavigationAppearance *feedNavigationAppearance; // @dynamic feedNavigationAppearance;
-@property(readonly, nonatomic) _Bool showNewsSubscribe; // @dynamic showNewsSubscribe;
-@property(readonly, nonatomic) _Bool suppressMoreFromPublisher; // @dynamic suppressMoreFromPublisher;
-@property(readonly, nonatomic) long long suppressRecommendedReads; // @dynamic suppressRecommendedReads;
-@property(readonly, nonatomic) _Bool suppressRelatedArticles; // @dynamic suppressRelatedArticles;
-@property(readonly, nonatomic) SXTabBarAppearance *tabBarAppearance; // @dynamic tabBarAppearance;
-@property(readonly, nonatomic) NSString *thumbnailImageIdentifier; // @dynamic thumbnailImageIdentifier;
 @property(readonly, nonatomic) _Bool transparentToolbar; // @dynamic transparentToolbar;
 
 @end

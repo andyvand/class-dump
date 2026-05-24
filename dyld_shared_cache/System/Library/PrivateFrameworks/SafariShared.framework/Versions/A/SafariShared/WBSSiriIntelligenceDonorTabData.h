@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface WBSSiriIntelligenceDonorTabData
 {
     NSString *_uuidString;
-    NSString *_title;
-    NSURL *_url;
-    NSDate *_lastVisitedDate;
-    NSString *_profileIdentifier;
-    NSString *_tabGroupUUID;
 }
 
 - (void);
@@ -22,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (id);
@@ -31,11 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *lastVisitedDate; // @synthesize lastVisitedDate=_lastVisitedDate;
-@property(copy, nonatomic) NSString *profileIdentifier; // @synthesize profileIdentifier=_profileIdentifier;
-@property(copy, nonatomic) NSString *tabGroupUUID; // @synthesize tabGroupUUID=_tabGroupUUID;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 @property(copy, nonatomic) NSString *uuidString; // @synthesize uuidString=_uuidString;
 
 @end

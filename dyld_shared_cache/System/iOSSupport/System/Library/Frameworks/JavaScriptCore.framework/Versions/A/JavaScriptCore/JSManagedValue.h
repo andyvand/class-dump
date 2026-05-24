@@ -9,13 +9,10 @@
 @interface JSManagedValue
 {
     struct Weak<JSC::JSGlobalObject> m_globalObject;
-    struct RefPtr<JSC::JSLock, WTF::RawPtrTraits<JSC::JSLock>, WTF::DefaultRefDerefTraits<JSC::JSLock>> m_lock;
-    struct JSWeakValue m_weakValue;
-    struct RetainPtr<NSMapTable> m_owners;
 }
 
 + (id);
-+ (id);
++ (id)@;
 - (void);
 - (void);
 - (void);

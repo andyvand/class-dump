@@ -9,11 +9,6 @@
 @interface CUIKDateFormatterCacheKey
 {
     _Bool _is24HourFormat;
-    _Bool _dropDesignator;
-    _Bool _canDropMinutes;
-    _Bool _designatorRequiresWhitespace;
-    _Bool _addDate;
-    NSCalendar *_calendar;
 }
 
 - (_Bool);
@@ -22,18 +17,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
 - (void)saveSource:commit:error: /* Error: Ran out of types for this method. */;
 - (id)É;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool addDate; // @synthesize addDate=_addDate;
 @property(readonly, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(readonly, nonatomic) _Bool canDropMinutes; // @synthesize canDropMinutes=_canDropMinutes;
-@property(readonly, nonatomic) _Bool designatorRequiresWhitespace; // @synthesize designatorRequiresWhitespace=_designatorRequiresWhitespace;
-@property(readonly, nonatomic) _Bool dropDesignator; // @synthesize dropDesignator=_dropDesignator;
-@property(readonly, nonatomic) _Bool is24HourFormat; // @synthesize is24HourFormat=_is24HourFormat;
 
 @end
 

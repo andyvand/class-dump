@@ -5,5 +5,6 @@
 //
 
 @protocol PETReservoirSamplingLogStore
+- (unsigned long long);
 @end
 

@@ -13,9 +13,9 @@
 + (Class);
 + (id);
 + (void);
-- (_Bool);
+- (_Bool)h;
 - (unsigned long long);
-- (id);
+- (id)_axInitializeDataForElement;
 
 @end
 

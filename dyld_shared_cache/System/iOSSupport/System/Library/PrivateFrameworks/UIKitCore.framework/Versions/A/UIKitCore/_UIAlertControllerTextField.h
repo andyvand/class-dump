@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     _UIAlertControllerTextFieldView *_textFieldView;
 }
 
-- (id);
-- (void);
+- (id)32@40@48@56q64B72q76;
+- (void)sendEditedScheduledMessage:(id)arg1 previousMessage:retractingPartIndexes:toChatIdentifier:style:account: /* Error: Ran out of types for this method. */;
 - (void)Ë";
 
 // Remaining properties

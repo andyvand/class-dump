@@ -7,18 +7,16 @@
 @interface PXVideoMuteController
 {
     _Bool _isMuted;
-    _Bool _isAutoplayEnabled;
-    long long _muteState;
 }
 
-+ (id)argetTimelineResult;
++ (id)targetTimelineResult;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)#;
 - (id);
 - (void);
 - (void);
@@ -26,11 +24,9 @@
 - (void);
 - (id);
 - (id)éþ;
-- (_Bool)Bounds;
+- (_Bool)masksToBounds;
 
 // Remaining properties
-@property(nonatomic, setter=setAutoplayEnabled:) _Bool isAutoplayEnabled; // @synthesize isAutoplayEnabled=_isAutoplayEnabled;
-@property(readonly, nonatomic) _Bool isMuted; // @synthesize isMuted=_isMuted;
 @property(nonatomic) long long muteState; // @synthesize muteState=_muteState;
 
 @end

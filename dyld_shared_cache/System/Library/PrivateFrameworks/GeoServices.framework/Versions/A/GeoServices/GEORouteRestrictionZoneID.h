@@ -7,12 +7,10 @@
 @interface GEORouteRestrictionZoneID
 {
     unsigned long long _identifier;
-    unsigned long long _version;
-    long long _restrictionType;
 }
 
 + (_Bool)ntType_Type:%@ /* Error: Ran out of types for this method. */;
-- (id);
+- (id)normalizedDate;
 - (long long);
 - (unsigned long long);
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long restrictionType; // @synthesize restrictionType=_restrictionType;
-@property(readonly, nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end
 

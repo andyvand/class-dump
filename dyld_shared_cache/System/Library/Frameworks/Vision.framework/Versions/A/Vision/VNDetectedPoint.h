@@ -14,12 +14,12 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)accommodatePresentedItemDeletionWithCompletionHandler:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (float);
+- (float)Build;
 
 // Remaining properties
 @property(readonly) float confidence;

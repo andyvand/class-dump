@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface VCDatagramChannelManager
 {
     struct _opaque_pthread_mutex_t _stateLock;
-    unsigned int _nextToken;
-    CDUnknownBlockType _readHandler;
-    NSMutableDictionary *_datagramChannels;
-    NSMutableDictionary *_destinations;
 }
 
 + (id)widthConfigurationsWithArbiter:] /* Error: Ran out of types for this method. */;
@@ -26,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -40,8 +34,8 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)7^;
+- (id)#;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType readHandler; // @synthesize readHandler=_readHandler;

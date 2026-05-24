@@ -4,62 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFrameStatisticsByPortType, BWStillImageCaptureMetadata, NSArray, NSDictionary, NSString;
-
 @interface BWStillImageCaptureSettings
 {
     long long _settingsID;
-    int _captureType;
-    unsigned long long _captureFlags;
-    unsigned long long _sceneFlags;
-    _Bool _deliverOriginalImage;
-    _Bool _deliverSushiRaw;
-    _Bool _deliverDeferredPhotoProxyImage;
-    _Bool _downgradedDeepFusionEnhancedResolutionCapture;
-    unsigned long long _learnedNRStereoPhotoFrameFlag;
-    BWFrameStatisticsByPortType *_frameStatisticsByPortType;
-    NSDictionary *_streamSelectorDebugInfo;
-    BWStillImageCaptureMetadata *_metadata;
-    NSString *_masterPortType;
-    NSArray *_captureStreamSettings;
-    int _timeMachineReferenceFrameBracketedCaptureSequenceNumber;
-    CDStruct_1b6d18a9 _lastTimeMachinePTS;
-    NSString *_applicationID;
-    long long _stillImageRequestTime;
-    float _scaleFactor;
-    NSString *_cmioCompressedFormat;
-    _Bool _cmioHighResolutionPhotoEnabled;
-    int _cmioFlashMode;
-    int _cmioQualityPrioritization;
-    CDStruct_79c71658 _cmioMaxPhotoDimensions;
 }
 
 + (_Bool);
 + (void)SinkNode _buildIrisRefMovieGeneratorAndWriteFirstIrisAsRefMovie];
 - (id);
 - (int);
-- (void);
-- (void);
+- (void)_dropCap;
+- (void)MFPHueSaturationLightnessEffect;
 - (_Bool);
 - (_Bool);
-- (CDStruct_1ef3fb1f);
+- (CDStruct_1ef3fb1f);
 - (id);
 - (int);
-- (id);
-- (void);
+- (id)h@9i@9)]S)=;
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (void);
+- (unsigned long long);
+- (int)8@16@24B32^@36;
+- (id);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
-- (int);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
@@ -69,7 +44,7 @@
 - (id);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)\;
 - (id);
 - (id);
 - (void);
@@ -82,11 +57,11 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void)itWithConfigurationQueuePriority:(id)arg1;
-- (_Bool)ntAfterCommitConfiguration;
-- (void)inatorStatusDelegate;
+- (void)initWithConfigurationQueuePriority:(id)arg1;
+- (_Bool)imageQueueUpdatedPayloadToBeSentAfterCommitConfiguration;
+- (void)fileCoordinatorStatusDelegate;
 - (id)ingVersion;
-- (long long)cesFilterDelegate: /* Error: Ran out of types for this method. */;
+- (long long)setDetectedFacesFilterDelegate: /* Error: Ran out of types for this method. */;
 - (float),V_autoSpatialOverCaptureEnabled;
 - (void)Lò;
 - (void)¿ÿÿt¿ÿÿ|¿ÿÿÀÿÿÀÿÿÀÿÿÀÿÿ¢ÀÿÿªÁÿÿ±Áÿÿ¹ÁÿÿÀÁÿÿÇÁÿÿÎÁÿÿÕÂÿÿÛÂÿÿâÂÿÿèÂÿÿðÂÿÿ(Æÿÿ*Æÿÿ,Æÿÿ/Æÿÿ3Æÿÿ8Æÿÿ=ÆÿÿCÆÿÿIÆÿÿPÇÿÿWÇÿÿ^ÇÿÿeÇÿÿlÇÿÿtÇÿÿ|ÈÿÿÈÿÿÈÿÿÈÿÿÈÿÿ£Èÿÿ«Èÿÿ²ÉÿÿºÉÿÿÁÉÿÿÈÉÿÿÏÉÿÿÖÉÿÿÝÉÿÿãÊÿÿéÊÿÿñÊÿÿ*Îÿÿ,Îÿÿ.Îÿÿ1Îÿÿ4Îÿÿ9Îÿÿ>ÎÿÿDÎÿÿJÏÿÿQÏÿÿWÏÿÿ^ÏÿÿeÏÿÿlÏÿÿtÐÿÿ|ÐÿÿÐÿÿÐÿÿÐÿÿÐÿÿ£Ðÿÿ«Ðÿÿ³Ðÿÿ»ÐÿÿÃÑÿÿÊÑÿÿÐÑÿÿØÑÿÿÞÑÿÿäÑÿÿëÑÿÿòÑÿÿ+Öÿÿ-Öÿÿ/Öÿÿ2Öÿÿ5Öÿÿ:(unsigned long long)arg1 Öÿÿ?×ÿÿD×ÿÿJ×ÿÿQ×ÿÿW×ÿÿ^×ÿÿe×ÿÿlØÿÿtØÿÿ{ØÿÿØÿÿØÿÿØÿÿØÿÿ£Øÿÿ«Øÿÿ³Øÿÿ¼ØÿÿÄØÿÿËØÿÿÒÙÿÿÙÙÿÿàÙÿÿæÙÿÿìÙÿÿóÙÿÿ-ßÿÿ.ßÿÿ0ßÿÿ3àÿÿ7àÿÿ;àÿÿ@àÿÿEàÿÿJàÿÿQàÿÿWàÿÿ^áÿÿeáÿÿláÿÿtáÿÿ{áÿÿáÿÿáÿÿáÿÿáÿÿ¢áÿÿªáÿÿ³áÿÿ¼áÿÿÄáÿÿÌáÿÿÓáÿÿÛáÿÿâáÿÿçáÿÿíáÿÿôáÿÿ.èÿÿ0èÿÿ2èÿÿ4èÿÿ8èÿÿ<èÿÿ@èÿÿEèÿÿKèÿÿQèÿÿWéÿÿ^éÿÿdéÿÿkéÿÿséÿÿzéÿÿéÿÿéÿÿéÿÿéÿÿ¡éÿÿ©éÿÿ±éÿÿºéÿÿÃéÿÿËéÿÿÔéÿÿÝéÿÿäéÿÿééÿÿïéÿÿõéÿÿ0ðÿÿ1ðÿÿ3ðÿÿ5ðÿÿ9ðÿÿ=ðÿÿAðÿÿFðÿÿKðÿÿRñÿÿXñÿÿ^ñÿÿdñÿÿkñÿÿsñÿÿzñÿÿñÿÿñÿÿñÿÿñÿÿ ñÿÿ§ñÿÿ¯ñÿÿ¸ñÿÿÁñÿÿÉñÿÿÒñÿÿÜðÿÿåðÿÿìðÿÿñðÿÿ÷ðÿÿ1øÿÿ3øÿÿ4øÿÿ7øÿÿ:øÿÿ>øÿÿBøÿÿGøÿÿLùÿÿRùÿÿXùÿÿ^ùÿÿdùÿÿkùÿÿrùÿÿyùÿÿùÿÿùÿÿùÿÿúÿÿùÿÿ¦ùÿÿ®ùÿÿ·ùÿÿ¿ùÿÿÇùÿÿÏùÿÿØùÿÿáøÿÿêøÿÿ÷÷øÿøøÿÿ3ÿÿÿ4ÿÿÿ6ÿÿÿ8ÿÿÿ;ÿÿÿ?ÿÿÿCÿÿÿHÿÿÿLÿÿÿRÿÿÿXÿÿÿ^ÿÿÿdÿÿÿkÿÿÿrÿÿÿyÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¥ÿÿÿ­ÿÿÿµÿÿÿ½ÿÿÿÅÿÿÿÍÿÿÿÖÿÿÿßÿÿÿèÿÿÿòÿÿÿùÿÿÿ /* Error: Ran out of types for this method. */;
@@ -95,26 +70,7 @@
 - (void)Æ¬/ÿÎ©+ÿ×¨'ÿà§&ÿé§&ÿô¨+ÿý©1ÿÿª3ÿÿª4ÿÿª4ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationID; // @synthesize applicationID=_applicationID;
-@property(readonly, nonatomic) int bracketedCaptureSequenceNumberForOISLongExposure;
-@property(readonly, nonatomic) unsigned long long captureFlags; // @synthesize captureFlags=_captureFlags;
-@property(readonly, nonatomic) NSArray *captureStreamSettings; // @synthesize captureStreamSettings=_captureStreamSettings;
-@property(readonly, nonatomic) int captureType; // @synthesize captureType=_captureType;
-@property(nonatomic) _Bool deliverDeferredPhotoProxyImage; // @synthesize deliverDeferredPhotoProxyImage=_deliverDeferredPhotoProxyImage;
-@property(readonly, nonatomic) _Bool deliverOriginalImage; // @synthesize deliverOriginalImage=_deliverOriginalImage;
-@property(readonly, nonatomic) _Bool deliverSushiRaw; // @synthesize deliverSushiRaw=_deliverSushiRaw;
-@property(readonly, nonatomic) _Bool downgradedDeepFusionEnhancedResolutionCapture; // @synthesize downgradedDeepFusionEnhancedResolutionCapture=_downgradedDeepFusionEnhancedResolutionCapture;
-@property(readonly, nonatomic) _Bool expectReferenceFrameBracketedCaptureSequenceNumber;
-@property(nonatomic) CDStruct_1b6d18a9 lastTimeMachinePTS; // @synthesize lastTimeMachinePTS=_lastTimeMachinePTS;
-@property(nonatomic) unsigned long long learnedNRStereoPhotoFrameFlag; // @synthesize learnedNRStereoPhotoFrameFlag=_learnedNRStereoPhotoFrameFlag;
-@property(retain, nonatomic) NSString *masterPortType; // @synthesize masterPortType=_masterPortType;
-@property(readonly, nonatomic) NSArray *portTypes;
-@property(nonatomic) float scaleFactor; // @synthesize scaleFactor=_scaleFactor;
-@property(nonatomic) unsigned long long sceneFlags; // @synthesize sceneFlags=_sceneFlags;
-@property(readonly, nonatomic) NSArray *secondaryPortTypes;
 @property(readonly, nonatomic) long long settingsID; // @synthesize settingsID=_settingsID;
-@property(nonatomic) long long stillImageRequestTime; // @synthesize stillImageRequestTime=_stillImageRequestTime;
-@property(nonatomic) int timeMachineReferenceFrameBracketedCaptureSequenceNumber; // @synthesize timeMachineReferenceFrameBracketedCaptureSequenceNumber=_timeMachineReferenceFrameBracketedCaptureSequenceNumber;
 
 @end
 

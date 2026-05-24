@@ -9,7 +9,6 @@
 @interface TDLocalization
 {
     NSString *_name;
-    unsigned short _identifier;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned short identifier;
 @property(copy, nonatomic) NSString *name;
 
 @end

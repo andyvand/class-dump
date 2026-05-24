@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, NSMapTable, NSMutableSet, NSString, NSUndoManager;
+@class AKController;
 
 @interface AKUndoController
 {
     _Bool _externalSourceTrackingChanged;
-    _Bool _undoGroupHasChangesToMultipleProperties;
-    NSUndoManager *_undoManager;
-    AKController *_controller;
-    NSMutableSet *_observedPageModelControllers;
-    NSMutableSet *_observedAnnotations;
-    NSString *_undoGroupPresentablePropertyName;
-    NSMapTable *_undoGroupOldPropertiesPerAnnotation;
 }
 
 - (id);
@@ -41,12 +34,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)”;
+- (_Bool)mple:“number of nodes” becomes “numberofnodes” /* Error: Ran out of types for this method. */;
+- (void)“NumberOfNodes”;
+- (void)letter of every word uppercase, and removing spaces.
+Example:(_Bool)arg1 “number of nodes” becomes “NumberOfNodes”;
+- (void)the numbered item or grid section.;
+- (id)ML3AllCompoundPredicate;
 - (void);
 - (void);
 - (void);
@@ -57,13 +51,6 @@
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property _Bool externalSourceTrackingChanged; // @synthesize externalSourceTrackingChanged=_externalSourceTrackingChanged;
-@property(retain) NSMutableSet *observedAnnotations; // @synthesize observedAnnotations=_observedAnnotations;
-@property(retain) NSMutableSet *observedPageModelControllers; // @synthesize observedPageModelControllers=_observedPageModelControllers;
-@property _Bool undoGroupHasChangesToMultipleProperties; // @synthesize undoGroupHasChangesToMultipleProperties=_undoGroupHasChangesToMultipleProperties;
-@property(retain) NSMapTable *undoGroupOldPropertiesPerAnnotation; // @synthesize undoGroupOldPropertiesPerAnnotation=_undoGroupOldPropertiesPerAnnotation;
-@property(retain) NSString *undoGroupPresentablePropertyName; // @synthesize undoGroupPresentablePropertyName=_undoGroupPresentablePropertyName;
-@property(retain) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
 
 @end
 

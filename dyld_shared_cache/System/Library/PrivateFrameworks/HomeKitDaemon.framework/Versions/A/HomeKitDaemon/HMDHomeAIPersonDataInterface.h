@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIExternalPersonManager, HMIHomePersonManager, HMIPersonManager, NSObject, NSString;
-@protocol HMDPersonDataSource, OS_dispatch_queue;
+@class HMIPersonManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeAIPersonDataInterface
 {
     HMIPersonManager *_personManager;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDPersonDataSource> _dataSource;
 }
 
 - (id);
@@ -23,41 +20,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)A;
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)16@"PGGraph"24^@32;
+- (id)_progressHandler;
 - (id);
 - (void);
 - (void)essagesCount:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property __weak id <HMDPersonDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMIHomePersonManager *homePersonManager;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMIHomePersonManager",?,R
-
 @property(readonly) HMIPersonManager *personManager; // @synthesize personManager=_personManager;
-@property(readonly) HMIExternalPersonManager *photosPersonManager;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMIExternalPersonManager",?,R
-
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

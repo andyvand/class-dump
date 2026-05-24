@@ -6,15 +6,12 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class UIButton, UIColor, UIImageView, UITableViewCell;
+@class UIButton, UIColor;
 
 __attribute__((visibility("hidden")))
 @interface UITableViewCellDetailDisclosureView : UIControl
 {
     UIButton *_accessoryButton;
-    UIImageView *_disclosureView;
-    UITableViewCell *_cell;
-    UIColor *_accessoryTintColor;
 }
 
 - (id);

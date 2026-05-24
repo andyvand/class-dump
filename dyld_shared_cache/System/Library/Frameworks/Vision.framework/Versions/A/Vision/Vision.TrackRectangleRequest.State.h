@@ -7,8 +7,6 @@
 @interface Vision.TrackRectangleRequest.State
 {
     id lastAnalyzedTimeStamp;
-    id lastResult;
-    id tracker;
 }
 
 @end

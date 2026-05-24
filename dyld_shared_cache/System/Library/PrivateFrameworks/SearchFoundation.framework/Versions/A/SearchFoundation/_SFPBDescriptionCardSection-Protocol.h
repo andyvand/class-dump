@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBText, _SFPBURL;
+@class NSArray, NSData, NSString, _SFPBColor;
 
 @protocol _SFPBDescriptionCardSection
+- (NSString *)A*;
+- (void);
+- (void);
+- (_Bool)ic_isActiveLockerAccount;
+- (_Bool)homeManager:didUpdateHH2MigrationInProgressState: /* Error: Ran out of types for this method. */;
+- (void)MPAVRouteConnectionVolumeDidChangeNotification;
+- (void)W
+;
+- (NSString *);
+- (NSString *)P;
+- (void);
+- (void)_setValue:(_SFPBColor *)arg1 forKey:inDomain:usingPreferencesScope: /* Error: Ran out of types for this method. */;
+- (NSData *)PHShareParticipantDeleteRequest;
+- (id)#;
 - (int)Ãr;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBImage *attributionGlyph;
-@property(copy, nonatomic) NSString *attributionText;
-@property(retain, nonatomic) _SFPBURL *attributionURL;
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool descriptionExpand;
-@property(nonatomic) int descriptionSize;
-@property(retain, nonatomic) _SFPBText *descriptionText;
-@property(nonatomic) int descriptionWeight;
-@property(copy, nonatomic) NSString *expandText;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(retain, nonatomic) _SFPBImage *image;
-@property(nonatomic) int imageAlign;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(copy, nonatomic) NSArray *richDescriptions;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *subtitle;
-@property(nonatomic) int textAlign;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) _Bool titleNoWrap;
-@property(nonatomic) int titleWeight;
-@property(copy, nonatomic) NSString *type;
 @end
 

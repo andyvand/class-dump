@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface EMOrderedMessageIDData
 {
     NSArray *_objectIDs;
-    NSDictionary *_objectIDByPersistentID;
 }
 
+- (void)emHandler;
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)sd_draftTokenAcceptanceRate;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *objectIDByPersistentID; // @synthesize objectIDByPersistentID=_objectIDByPersistentID;
 @property(copy, nonatomic) NSArray *objectIDs; // @synthesize objectIDs=_objectIDs;
 
 @end

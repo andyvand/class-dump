@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventShowcaseSuppression
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_adamId;
-    unsigned long long _businessId;
-    NSString *_showcaseId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _localSearchProviderID;
-    int _suppressionReason;
-    struct {
-        unsigned int has_businessId:1;
-        unsigned int has_localSearchProviderID:1;
-        unsigned int has_suppressionReason:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_adamId:1;
-        unsigned int read_showcaseId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)sStayOn:(id)arg1;
++ (_Bool)setHasStayOn:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -37,30 +19,30 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (int)T[\;
 - (int);
-- (int);
 - (void);
 - (void);
 - (id);
 - (int);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)logging directory at path %{public}@ %{public}@;
 - (void);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)initWithInterface:(id)arg1 portNumber:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (id)ersion:(struct _NSZone *)arg1;
+- (id)setUser_version:(struct _NSZone *)arg1;
 - (unsigned long long);
 - (id)es",R,N,V_styleAttributes;
 - (id) vpw;
@@ -71,17 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *adamId;
-@property(nonatomic) unsigned long long businessId;
-@property(readonly, nonatomic) _Bool hasAdamId;
 @property(nonatomic) _Bool hasBusinessId;
-@property(nonatomic) _Bool hasLocalSearchProviderID;
-@property(readonly, nonatomic) _Bool hasShowcaseId;
-@property(nonatomic) _Bool hasSuppressionReason;
-@property(nonatomic) int localSearchProviderID;
-@property(retain, nonatomic) NSString *showcaseId;
-@property(nonatomic) int suppressionReason;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

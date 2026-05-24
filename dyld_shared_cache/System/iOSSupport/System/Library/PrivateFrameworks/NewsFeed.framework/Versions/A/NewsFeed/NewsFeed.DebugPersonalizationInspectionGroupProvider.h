@@ -7,13 +7,6 @@
 @interface NewsFeed.DebugPersonalizationInspectionGroupProvider
 {
     id cloudContext;
-    id debugPersonalizationGroupLayoutKeyProvider;
-    id feedPersonalizer;
-    id headlineService;
-    id inventory;
-    id tagService;
-    id webEmbedDataSourceService;
-    id history;
 }
 
 @end

@@ -14,11 +14,11 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id)A! Eù)	1Â0@ù
 × ;
-- (unsigned long long)ntifier:itemIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned long long)hasAccessToContentType:sourceIdentifier:itemIdentifier: /* Error: Ran out of types for this method. */;
 - (id)ickerConfiguration;
 - (unsigned long long)	
 ;

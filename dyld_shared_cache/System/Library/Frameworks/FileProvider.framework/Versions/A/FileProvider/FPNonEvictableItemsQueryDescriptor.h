@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (id);
+- (id)temmetadataoutput.ivars;
 
 @end
 

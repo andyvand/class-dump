@@ -15,7 +15,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (void)ñÔ7e¨£îI,}@»áÄ'²øS>|ßªðK6t×¢HCéÌ/ºà[&dÇRµóÞ9J­ëÖ1wB¥èã.	lÏZ½;
 
 // Remaining properties

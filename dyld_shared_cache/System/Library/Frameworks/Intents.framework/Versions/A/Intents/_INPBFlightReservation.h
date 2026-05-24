@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBFlight, _INPBReservation, _INPBSeat;
+@class _INPBFlight;
 
 @interface _INPBFlightReservation
 {
     struct _has;
-    _INPBFlight *_flight;
-    _INPBReservation *_reservation;
-    _INPBSeat *_reservedSeat;
 }
 
 + (_Bool);
@@ -29,25 +26,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)s;
 - (id);
 - (id);
 - (void)];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBFlight *flight; // @synthesize flight=_flight;
-@property(readonly, nonatomic) _Bool hasFlight;
-@property(readonly, nonatomic) _Bool hasReservation;
-@property(readonly, nonatomic) _Bool hasReservedSeat;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBReservation *reservation; // @synthesize reservation=_reservation;
-@property(retain, nonatomic) _INPBSeat *reservedSeat; // @synthesize reservedSeat=_reservedSeat;
-@property(readonly) Class superclass;
 
 @end
 

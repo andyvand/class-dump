@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _UITextHighlightSelectionRect : UITextSelectionRect
 {
     _Bool _containsStart;
-    _Bool _containsEnd;
-    struct CGRect _rect;
 }
 
-+ (id);
-+ (id);
++ (id)upload to done;
++ (id)0@"NSString"8;
 + (id);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (struct CGRect)lyDisplayingSearchController: /* Error: Ran out of types for this method. */;
+- (void)found for group photo guid %@;
+- (_Bool)_cachedDisplayNameWithAbbreviation;
+- (_Bool)_cachedDisplayNameWithAbbreviation;
+- (struct CGRect)_setNavigationItemCurrentlyDisplayingSearchController: /* Error: Ran out of types for this method. */;
 - (void)@;
 
 // Remaining properties
-@property(nonatomic) _Bool containsEnd; // @synthesize containsEnd=_containsEnd;
-@property(nonatomic) _Bool containsStart; // @synthesize containsStart=_containsStart;
 @property(nonatomic) struct CGRect rect; // @synthesize rect=_rect;
 
 @end

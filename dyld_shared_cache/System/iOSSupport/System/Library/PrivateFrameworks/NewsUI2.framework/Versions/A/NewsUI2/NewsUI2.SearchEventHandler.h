@@ -7,11 +7,6 @@
 @interface NewsUI2.SearchEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
-    id tracker;
-    id recentSearchManager;
-    id origination;
 }
 
 @end

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSVariableAssignmentExpression : NSExpression
 {
     NSVariableExpression *_assignmentVariable;
-    NSExpression *_subexpression;
 }
 
 + (_Bool)%s] and sendPort [%s] are different; this will cause trouble later;
@@ -26,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)0p;
 - (id);
 - (_Bool);
 - (void);

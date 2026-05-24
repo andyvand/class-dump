@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol GEOMapItem, GEOMapItemPrivate;
 
 @interface MKAddress
 {
     id <GEOMapItem> _geoMapItem;
-    NSString *_fullAddress;
-    NSString *_shortAddress;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)g;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)SXPCClient audioSessionIdForDeviceId:] /* Error: Ran out of types for this method. */;
 - (void)decodeDoubleForKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *fullAddress; // @synthesize fullAddress=_fullAddress;
 @property(readonly, nonatomic, getter=_geoMapItem) id <GEOMapItemPrivate> geoMapItem;
-@property(readonly, copy, nonatomic) NSString *shortAddress; // @synthesize shortAddress=_shortAddress;
 
 @end
 

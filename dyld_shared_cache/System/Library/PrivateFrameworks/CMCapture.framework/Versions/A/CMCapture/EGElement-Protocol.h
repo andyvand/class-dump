@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol EGElement;
 
 @protocol EGElement
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) __weak id <EGElement> parent;
 @end
 

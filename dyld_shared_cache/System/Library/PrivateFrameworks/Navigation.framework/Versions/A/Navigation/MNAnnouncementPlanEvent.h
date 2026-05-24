@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedGuidanceEvent, NSArray, NSMutableArray;
+@class GEOComposedGuidanceEvent;
 
 __attribute__((visibility("hidden")))
 @interface MNAnnouncementPlanEvent
 {
     _Bool _includeInPlan;
-    GEOComposedGuidanceEvent *_event;
-    NSMutableArray *_announcementDurations;
-    unsigned long long _variantIndex;
-    double _triggerDistance;
-    double _distance;
-    double _speed;
-    NSArray *_durations;
 }
 
-- (void);
+- (void)Y7ȉ
+;
 - (void);
 - (void);
 - (id);
@@ -28,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (unsigned long long);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (double);
@@ -41,15 +35,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *announcementDurations; // @synthesize announcementDurations=_announcementDurations;
-@property(readonly, nonatomic) double completionDistance;
-@property(nonatomic) double distance; // @synthesize distance=_distance;
-@property(retain, nonatomic) NSArray *durations; // @synthesize durations=_durations;
 @property(retain, nonatomic) GEOComposedGuidanceEvent *event; // @synthesize event=_event;
-@property(nonatomic) _Bool includeInPlan; // @synthesize includeInPlan=_includeInPlan;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
-@property(nonatomic) double triggerDistance; // @synthesize triggerDistance=_triggerDistance;
-@property(nonatomic) unsigned long long variantIndex; // @synthesize variantIndex=_variantIndex;
 
 @end
 

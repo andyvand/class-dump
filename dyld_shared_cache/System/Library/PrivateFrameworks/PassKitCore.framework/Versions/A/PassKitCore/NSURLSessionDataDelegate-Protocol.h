@@ -9,6 +9,8 @@
 @protocol NSURLSessionDataDelegate
 
 @optional
-- (void)temOfItemType:(NSURLSession *)arg1 recordName:(NSURLSessionDataTask *)arg2 completion:(NSURLResponse *)arg3;
+- (void);
+- (void)CoreRoutineMapItemSourceMapsSupportHistoryEntryRoute;
+- (void)itemOfItemType:(NSURLSession *)arg1 recordName:(NSURLSessionDataTask *)arg2 completion:(NSURLResponse *)arg3;
 @end
 

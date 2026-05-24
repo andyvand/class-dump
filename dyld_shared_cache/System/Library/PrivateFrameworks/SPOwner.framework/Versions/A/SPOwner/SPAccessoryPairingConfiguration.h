@@ -9,8 +9,6 @@
 @interface SPAccessoryPairingConfiguration
 {
     NSString *_name;
-    long long _roleId;
-    NSString *_roleEmoji;
 }
 
 + (_Bool);
@@ -19,17 +17,15 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (void);
-- (id);
+- (id)IMMetricsCollectorEventMessageMarkedAsSpamServiceKey;
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *roleEmoji; // @synthesize roleEmoji=_roleEmoji;
-@property(nonatomic) long long roleId; // @synthesize roleId=_roleId;
 
 @end
 

@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAApplication, NSButton, NSImage, NSImageView, NSString, NSTextField, NSView;
-@protocol IAAppCheckboxMatrixRowItemDelegateProtocol;
+@class NSView;
 
 @interface IAAppCheckboxMatrixRowItem
 {
     NSView *_view;
-    NSImageView *_imageView;
-    NSButton *_checkbox;
-    NSTextField *_textField;
-    IAApplication *_app;
-    id _delegate;
-    NSImage *_image;
-    NSString *_title;
 }
 
 + (id);
 - (void);
+- (void);
+- (id)6;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)$;
 - (id);
 - (void);
 - (id);
@@ -45,13 +37,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) IAApplication *app; // @synthesize app=_app;
-@property(retain) NSButton *checkbox; // @synthesize checkbox=_checkbox;
-@property(retain) id <IAAppCheckboxMatrixRowItemDelegateProtocol> delegate; // @synthesize delegate=_delegate;
-@property(copy) NSImage *image; // @synthesize image=_image;
-@property(retain) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain) NSTextField *textField; // @synthesize textField=_textField;
-@property(copy) NSString *title; // @synthesize title=_title;
 @property(retain, nonatomic) NSView *view; // @synthesize view=_view;
 
 @end

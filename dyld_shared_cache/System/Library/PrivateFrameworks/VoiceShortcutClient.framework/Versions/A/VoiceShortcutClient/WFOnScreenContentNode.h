@@ -4,72 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INFile, LPLinkMetadata, NSArray, NSDate, NSNumber, NSString, NSURL, WFContentItem;
+@class NSString, NSURL;
 
 @interface WFOnScreenContentNode
 {
     NSURL *_URL;
-    NSString *_string;
-    INFile *_file;
-    NSArray *_children;
-    NSString *_chatRegistryContinuityKey;
-    NSString *_contactIdentifier;
-    NSString *_photoAssetIdentifier;
-    NSString *_applicationBundleIdentifier;
-    NSNumber *_applicationLevel;
-    LPLinkMetadata *_linkPresentationMetadata;
-    WFContentItem *_contentItem;
-    NSString *_source;
-    struct CGRect _applicationFrame;
 }
 
 + (_Bool);
-- (void);
+- (void)|;
+- (id);
+- (id);
+- (id)3|;
+- (id)|;
+- (id);
+- (id)2|;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)|;
 - (struct CGRect);
-- (id);
+- (id)8hf;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)naui_hasAxisWithRegularSizeClassOrGreater;
+- (id)localizedStringByJoiningStrings: /* Error: Ran out of types for this method. */;
 - (void)!UÐ!EùÑ^Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, nonatomic) struct CGRect applicationFrame; // @synthesize applicationFrame=_applicationFrame;
-@property(readonly, nonatomic) NSNumber *applicationLevel; // @synthesize applicationLevel=_applicationLevel;
-@property(retain, nonatomic) NSString *chatRegistryContinuityKey;
-@property(readonly, nonatomic) NSArray *children; // @synthesize children=_children;
-@property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) WFContentItem *contentItem;
-@property(readonly, nonatomic) INFile *file; // @synthesize file=_file;
-@property(readonly, nonatomic) NSDate *fileCreationDate;
-@property(readonly, nonatomic) NSString *fileTypeIdentifier;
-@property(readonly, nonatomic) LPLinkMetadata *linkPresentationMetadata; // @synthesize linkPresentationMetadata=_linkPresentationMetadata;
-@property(readonly, nonatomic) NSString *photoAssetIdentifier; // @synthesize photoAssetIdentifier=_photoAssetIdentifier;
-@property(readonly, nonatomic) NSString *source;
-@property(readonly, nonatomic) NSString *string; // @synthesize string=_string;
+@property(retain, nonatomic) NSString *chatRegistryContinuityKey; // @synthesize chatRegistryContinuityKey=_chatRegistryContinuityKey;
 
 @end
 

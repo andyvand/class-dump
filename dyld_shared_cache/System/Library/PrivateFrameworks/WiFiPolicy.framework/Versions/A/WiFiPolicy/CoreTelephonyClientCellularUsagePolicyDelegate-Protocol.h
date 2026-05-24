@@ -5,5 +5,8 @@
 //
 
 @protocol CoreTelephonyClientCellularUsagePolicyDelegate
+
+@optional
+- (void);
 @end
 

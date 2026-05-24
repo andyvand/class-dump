@@ -10,12 +10,12 @@
 {
 }
 
+- (struct CGSize)setMonthYearLabel:(struct CGSize)arg1;
+- (id)_timeZoneTimeLabelToBottomTimeLabelConstraint;
+- (void)mostRecentViewModelHash;
 - (struct CGSize);
-- (id);
-- (void);
-- (struct CGSize);
-- (id);
-- (void);
+- (id)a;
+- (void)	;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

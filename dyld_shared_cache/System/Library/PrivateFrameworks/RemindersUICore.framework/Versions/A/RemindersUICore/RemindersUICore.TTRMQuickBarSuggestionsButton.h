@@ -13,7 +13,7 @@
 - (id);
 - (void);
 - (id);
-- (id)ordAutofillEnabled;
+- (id)_isPasswordAutofillEnabled;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *title;

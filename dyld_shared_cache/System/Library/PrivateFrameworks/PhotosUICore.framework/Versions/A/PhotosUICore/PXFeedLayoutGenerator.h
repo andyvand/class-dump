@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXFeedLayoutGeneratorScanState;
-
 @interface PXFeedLayoutGenerator
 {
     long long _cacheTailLocation;
-    long long _cacheHeadLocation;
-    struct PXTileInfo _cachedTileInfo[20];
-    id _cachedBatchID[20];
-    _Bool _scannedBatchHasCaption;
-    _Bool _shouldStop;
-    long long _tileCount;
-    CDUnknownBlockType _tileImageSizeBlock;
-    CDUnknownBlockType _tileMinimumSizeBlock;
-    CDUnknownBlockType _tileHasCaptionBlock;
-    CDUnknownBlockType _tileCaptionSizeBlock;
-    CDUnknownBlockType _tileHasLikesBlock;
-    CDUnknownBlockType _tileLikesSizeBlock;
-    CDUnknownBlockType _tileCommentCountBlock;
-    CDUnknownBlockType _tileCommentSizeBlock;
-    CDUnknownBlockType _tileBatchIDBlock;
-    long long _numberOfMagneticGuidelines;
-    double _roundingScale;
-    CDUnknownBlockType _parsedFrameBlock;
-    long long _scanLocation;
-    id _scannedBatchID;
-    long long _scanSpecialSequenceCount;
-    struct CGSize _interTileSpacing;
-    struct CGSize _noCaptionSpacing;
-    struct NSEdgeInsets _captionPadding;
 }
 
 - (void);
@@ -40,12 +14,13 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (void)X;
 - (void);
 - (void);
 - (void);
@@ -54,17 +29,16 @@
 - (void);
 - (void);
 - (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)<˟;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)C;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -72,14 +46,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (_Bool);
 - (double);
 - (CDUnknownBlockType);
+- (void)C;
 - (void);
-- (void);
-- (void);
+- (void)63;
 - (void);
 - (_Bool);
 - (long long);
@@ -94,8 +68,8 @@
 - (long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (long long);
+- (_Bool);
+- (long long);
 - (id);
 - (void)ÛÈÛ;
 - (void)ìf;
@@ -104,29 +78,7 @@
 - (id)N<H<;
 
 // Remaining properties
-@property(nonatomic) struct NSEdgeInsets captionPadding; // @synthesize captionPadding=_captionPadding;
-@property(nonatomic) struct CGSize interTileSpacing; // @synthesize interTileSpacing=_interTileSpacing;
-@property(readonly, nonatomic) _Bool isAtEnd;
-@property(nonatomic) struct CGSize noCaptionSpacing; // @synthesize noCaptionSpacing=_noCaptionSpacing;
-@property(nonatomic) long long numberOfMagneticGuidelines; // @synthesize numberOfMagneticGuidelines=_numberOfMagneticGuidelines;
 @property(copy, nonatomic) CDUnknownBlockType parsedFrameBlock; // @synthesize parsedFrameBlock=_parsedFrameBlock;
-@property(nonatomic) double roundingScale; // @synthesize roundingScale=_roundingScale;
-@property(nonatomic) long long scanLocation; // @synthesize scanLocation=_scanLocation;
-@property(nonatomic) long long scanSpecialSequenceCount; // @synthesize scanSpecialSequenceCount=_scanSpecialSequenceCount;
-@property(nonatomic) PXFeedLayoutGeneratorScanState *scanState;
-@property(nonatomic) _Bool scannedBatchHasCaption; // @synthesize scannedBatchHasCaption=_scannedBatchHasCaption;
-@property(retain, nonatomic) id scannedBatchID; // @synthesize scannedBatchID=_scannedBatchID;
-@property(nonatomic) _Bool shouldStop; // @synthesize shouldStop=_shouldStop;
-@property(copy, nonatomic) CDUnknownBlockType tileBatchIDBlock; // @synthesize tileBatchIDBlock=_tileBatchIDBlock;
-@property(copy, nonatomic) CDUnknownBlockType tileCaptionSizeBlock; // @synthesize tileCaptionSizeBlock=_tileCaptionSizeBlock;
-@property(copy, nonatomic) CDUnknownBlockType tileCommentCountBlock; // @synthesize tileCommentCountBlock=_tileCommentCountBlock;
-@property(copy, nonatomic) CDUnknownBlockType tileCommentSizeBlock; // @synthesize tileCommentSizeBlock=_tileCommentSizeBlock;
-@property(nonatomic) long long tileCount; // @synthesize tileCount=_tileCount;
-@property(copy, nonatomic) CDUnknownBlockType tileHasCaptionBlock; // @synthesize tileHasCaptionBlock=_tileHasCaptionBlock;
-@property(copy, nonatomic) CDUnknownBlockType tileHasLikesBlock; // @synthesize tileHasLikesBlock=_tileHasLikesBlock;
-@property(copy, nonatomic) CDUnknownBlockType tileImageSizeBlock; // @synthesize tileImageSizeBlock=_tileImageSizeBlock;
-@property(copy, nonatomic) CDUnknownBlockType tileLikesSizeBlock; // @synthesize tileLikesSizeBlock=_tileLikesSizeBlock;
-@property(copy, nonatomic) CDUnknownBlockType tileMinimumSizeBlock; // @synthesize tileMinimumSizeBlock=_tileMinimumSizeBlock;
 
 @end
 

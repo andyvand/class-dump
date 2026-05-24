@@ -7,15 +7,6 @@
 @interface Network.DefaultManyToManyProtocol.MultiplexedFlow
 {
     id clientState;
-    id outboundDataLimit;
-    id maximumDatagramSize;
-    id datagramOverhead;
-    id parentProtocol;
-    id flags;
-    id inputLinkage;
-    id _selfAsOutputLinkage;
-    id identifier;
-    id pendingInputFrames;
 }
 
 @end

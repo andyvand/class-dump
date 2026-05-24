@@ -6,25 +6,12 @@
 
 #import <QuartzComposer/QCAgeProfileView.h>
 
-@class NSArray, QCImageManager;
-
 @interface QCImageManagerAgeProfileView : QCAgeProfileView
 {
     unsigned long long _binCount;
-    unsigned long long _statCount;
-    unsigned long long _selectedIndex;
-    NSArray *_names;
-    double *_buffer;
-    double _maxAge;
-    double _maxAgePurgeable;
-    double _binSize;
-    double _stdDev;
-    double _querySuccess;
-    QCImageManager *_manager;
-    void *_unused2[4];
 }
 
-- (void);
+- (void)o;
 - (id);
 - (id);
 - (unsigned long long);
@@ -33,7 +20,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (void);
 

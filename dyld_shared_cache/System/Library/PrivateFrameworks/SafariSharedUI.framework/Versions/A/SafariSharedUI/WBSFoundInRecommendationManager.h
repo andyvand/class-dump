@@ -5,13 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, SGSuggestionsServiceURLsProtocol;
+@protocol SGSuggestionsServiceURLsProtocol;
 
 @interface WBSFoundInRecommendationManager
 {
     NSObject<SGSuggestionsServiceURLsProtocol> *_suggestionsService;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    int _changeNotificationToken;
 }
 
 + (unsigned long long);
@@ -23,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void)ionImage;
+- (void)completionImage;
 
 @end
 

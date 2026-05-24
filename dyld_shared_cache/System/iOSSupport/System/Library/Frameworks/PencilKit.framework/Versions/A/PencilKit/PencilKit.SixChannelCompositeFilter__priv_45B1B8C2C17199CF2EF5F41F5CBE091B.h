@@ -9,11 +9,9 @@
 @interface PencilKit.SixChannelCompositeFilter__priv_45B1B8C2C17199CF2EF5F41F5CBE091B
 {
     id backgroundImage;
-    id multiplyImage;
-    id addImage;
 }
 
-- (id);
+- (id)pendingNicknameRecordIds;
 - (id);
 - (id)0@ù
 × ;

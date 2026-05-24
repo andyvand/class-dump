@@ -9,8 +9,6 @@
 @interface IMDSpamController
 {
     NSMutableDictionary *_chatGUIDToSpamCheckTimerMap;
-    NSMutableDictionary *_chatGUIDToCountMap;
-    double _spamExtensionCutoffTime;
 }
 
 + (id);
@@ -24,7 +22,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)! `M @;
 - (void);
 - (_Bool);
 - (id);
@@ -32,9 +30,7 @@
 - (id)to identifier:%@  critical app name:%@   chat:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *chatGUIDToCountMap; // @synthesize chatGUIDToCountMap=_chatGUIDToCountMap;
 @property(retain) NSMutableDictionary *chatGUIDToSpamCheckTimerMap; // @synthesize chatGUIDToSpamCheckTimerMap=_chatGUIDToSpamCheckTimerMap;
-@property(nonatomic) double spamExtensionCutoffTime; // @synthesize spamExtensionCutoffTime=_spamExtensionCutoffTime;
 
 @end
 

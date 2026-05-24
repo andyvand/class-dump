@@ -15,7 +15,7 @@
 - (void);
 - (float);
 - (id);
-- (void);
+- (void)initWithAddress:(id)arg1 synonyms:type:lat:lng:confidence: /* Error: Ran out of types for this method. */;
 - (id)þYg?;
 
 // Remaining properties

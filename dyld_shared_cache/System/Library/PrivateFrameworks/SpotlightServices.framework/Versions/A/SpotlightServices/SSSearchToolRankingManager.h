@@ -8,24 +8,24 @@
 {
 }
 
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
-+ (float);
-+ (void);
-+ (float);
-+ (void);
-+ (void);
++ (void)^{CGImage=}40@0:(id)arg1 8@16q24q32;
++ (_Bool)w<LPTextStyleable><LPSubtitleButtonContainer>";
++ (_Bool)tStackView";
++ (_Bool)"CNAvatarCache";
++ (void)setShouldAlignToBaselines:(id)arg1;
++ (void)setDirectionsType:(id)arg1;
++ (id)setConversationActivity:(id)arg1;
++ (void)requestStorefrontIdentifierWithCompletionHandler:(id)arg1;
++ (id)extractApplicationNameFromURL: /* Error: Ran out of types for this method. */;
++ (id)expandButtonToCaptionEdge;
++ (id)evaluateCompleteness;
++ (id)enumerateAttributesInRange:options:usingBlock: /* Error: Ran out of types for this method. */;
++ (void)countOfBytesExpectedToReceive;
++ (float)componentViewDidTapCaptionButton:(id)arg1 buttonType:(id)arg2;
++ (void)componentViewDidChangeMediaState:(id)arg1;
++ (float)canAdjustHorizontalPaddingForFixedSize;
++ (void)addClient:(id)arg1;
++ (void)addAnimation:(id)arg1 forKey:(id)arg2;
 + (id);
 
 @end

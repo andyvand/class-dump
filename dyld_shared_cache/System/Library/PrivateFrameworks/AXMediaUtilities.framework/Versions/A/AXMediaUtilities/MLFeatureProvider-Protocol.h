@@ -7,6 +7,7 @@
 @class MLFeatureValue, NSSet, NSString;
 
 @protocol MLFeatureProvider
+- (NSSet *)_cacheDirectoryPath;
 - (MLFeatureValue *)isEqualToAXMVisionFeature:(NSString *)arg1;
 
 // Remaining properties

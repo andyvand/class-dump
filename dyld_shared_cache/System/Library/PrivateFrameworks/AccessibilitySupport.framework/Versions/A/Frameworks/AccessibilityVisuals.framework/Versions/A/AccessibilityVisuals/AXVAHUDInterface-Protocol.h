@@ -5,5 +5,6 @@
 //
 
 @protocol AXVAHUDInterface
+- (void);
 @end
 

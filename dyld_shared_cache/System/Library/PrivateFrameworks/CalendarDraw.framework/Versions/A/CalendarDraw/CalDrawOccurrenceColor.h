@@ -9,12 +9,10 @@
 @interface CalDrawOccurrenceColor
 {
     CalDrawColorKey *_colorKey;
-    struct CGColor *_baseColor;
-    NSColor *_selectedTextColor;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -34,7 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) CalDrawColorKey *colorKey; // @synthesize colorKey=_colorKey;
 @property(retain, nonatomic) NSColor *selectedTextColor; // @synthesize selectedTextColor=_selectedTextColor;
 
 @end

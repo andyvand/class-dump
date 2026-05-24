@@ -7,8 +7,6 @@
 @interface SiriOntology.UsoTask
 {
     id verbString;
-    id baseEntityAsString;
-    id arguments;
 }
 
 @end

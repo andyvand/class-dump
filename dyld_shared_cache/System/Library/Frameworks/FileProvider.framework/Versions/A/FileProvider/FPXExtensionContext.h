@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPDocumentAlternateContents, FPProviderDomain, FPXDomainContext, NSHashTable, NSMutableSet, NSObject, NSString, NSUserDefaults, NSXPCConnection;
-@protocol FPDDomainServicing><FPXPCAutomaticErrorProxy, OS_dispatch_queue, OS_os_log;
+@class NSMutableSet, NSString;
 
 @interface FPXExtensionContext
 {
     NSMutableSet *_listenerDelegates;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSObject<OS_dispatch_queue> *_instanceQueue;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_runningEnumerators;
-    NSHashTable *_runningSearchEnumerators;
-    FPDocumentAlternateContents *_alternateContents;
-    NSUserDefaults *_userDefaults;
-    id <FPDDomainServicing><FPXPCAutomaticErrorProxy> _domainServicer;
-    NSObject<OS_os_log> *_log;
-    FPXDomainContext *_domainContext;
-    NSXPCConnection *_xpcConnection;
-    _Bool _isBeingDeallocated;
-    FPProviderDomain *_providerDomain;
-    _Bool _usesFPFS;
-    NSString *_providerIdentifier;
 }
 
 + (Class);
 - (id);
-- (void);
+- (void)deviceSearchQueries;
 - (id);
 - (void);
 - (void);
@@ -37,63 +21,60 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)nt clearEventsFromTime:(id)arg1 channel:(id)arg2 ];
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)6;
 - (void);
 - (void);
-- (id);
+- (void);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void)retainCount;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)@;
+- (id);
+- (void);
+- (id);
+- (void)comparePositionInDecodeOrderWithPositionOfCursor:(id)arg1;
+- (void)canStartRespondingToEachPassDescriptionReturningReason:(CDUnknownBlockType)arg1;
+- (void)Playback,S_setSupportsAdvanceTimeForOverlappedPlayback:(id)arg1;
+- (void)AVPlayerConnection;
+- (void)AVPlayerLayerLoggingIdentifier;
+- (id)eue == NULL;
+- (void)AVVideoCompositionLayerCropRectangleRamps;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void));
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)i;
 - (void);
 - (void);
 - (void);
+- (id)_cellularDataPreferred;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)kRffeScanPassKey;
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)setOutputFrequencyMeteringEnabled:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)te, mask.hash}sreusing existing connection %s for outgoing message;
+- (void)active session [sessionId=;
+- (void)SipSubscription:(unsigned long long)arg1:(CDUnknownBlockType)arg2 subscribeWithExpiration;
 - (void);
 - (void);
 - (id);
@@ -101,17 +82,13 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -122,31 +99,30 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)z;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)0;
 - (void);
 - (void)!>&°!dDù±ç)Ð1Â0@ù
 × ;
 - (id)ùñç)Ð1Â0@ù
 × ;
 - (void)8@56;
-- (id)p_reparentUnderFolder:allowBouncing:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)fp_reparentUnderFolder:allowBouncing:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)`á;
 - (void)o. Allowed types are String, Number, Date, Boolean.;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesFPFS; // @synthesize usesFPFS=_usesFPFS;
 
 @end
 

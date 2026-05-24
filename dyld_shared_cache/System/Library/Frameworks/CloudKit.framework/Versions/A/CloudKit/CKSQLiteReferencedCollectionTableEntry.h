@@ -11,10 +11,6 @@
 @interface CKSQLiteReferencedCollectionTableEntry : CKSQLiteTableEntry
 {
     NSNumber *_referenceID;
-    NSNumber *_collectionID;
-    NSNumber *_elementIndex;
-    id _element;
-    id _collection;
 }
 
 + (Class);
@@ -31,10 +27,6 @@
 - (void)-container-identifiers;
 
 // Remaining properties
-@property(retain, nonatomic) id collection; // @synthesize collection=_collection;
-@property(retain, nonatomic) NSNumber *collectionID; // @synthesize collectionID=_collectionID;
-@property(retain, nonatomic) id element; // @synthesize element=_element;
-@property(retain, nonatomic) NSNumber *elementIndex; // @synthesize elementIndex=_elementIndex;
 @property(retain, nonatomic) NSNumber *referenceID; // @synthesize referenceID=_referenceID;
 
 @end

@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CDASchemaCDAElectionAdvertisingEndEnded, CDASchemaCDAElectionAdvertisingEndStarted, NSData;
+@class CDASchemaCDAElectionAdvertisingEndStarted;
 
 @interface CDASchemaCDADeviceAdvertisingEndContext : SISchemaInstrumentationMessage
 {
     CDASchemaCDAElectionAdvertisingEndStarted *_startedOrChanged;
-    CDASchemaCDAElectionAdvertisingEndEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -34,19 +30,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)iv;
 - (id)";
-- (id)emaCDAParticipant;
+- (id)CDASchemaCDAParticipant;
 - (id)t overflow converting:%llu <%s> :%s %s /* Error: Ran out of types for this method. */;
 - (void)YE¯Öj&;
 
 // Remaining properties
-@property(retain, nonatomic) CDASchemaCDAElectionAdvertisingEndEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CDASchemaCDAElectionAdvertisingEndStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

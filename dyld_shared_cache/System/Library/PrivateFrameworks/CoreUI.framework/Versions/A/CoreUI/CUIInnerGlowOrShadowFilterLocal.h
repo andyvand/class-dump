@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUIInnerGlowOrShadowFilterLocal
 {
     CIImage *inputImage;
-    CIVector *inputOffset;
-    NSNumber *inputRange;
-    NSNumber *inputRadius;
-    CIColor *inputColor;
 }
 
 + (id);
@@ -24,21 +20,38 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)w;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)e.xyxy, 0.5;
+MUL weightLR, side.x, weightsCr.x;
+MUL weightTB.z, side.y, weightsCr.y;
+MUL weightTB.y, side.y, weightsCb.y;
+MAD weightLR, side.z, weightsCr.z, weightLR;
+MAD weightTB.z, side.w, weightsCr.w, weightTB;
+MAD weightTB.y, side.w, weightsCb.w, weightTB;
+TEX sample00, fragment.texcoord[1], texture[0], RECT;
+TEX sample10, fragment.texcoord[2], texture[0], RECT;
+TEX sampleY0, fragment.texcoord[0], texture[0], RECT;
+TEX sample01, fragment.texcoord[3], texture[0], RECT;
+TEX sample11, fragment.texcoord[4], texture[0], RECT;
+LRP sampleY0, side.xxxx, sampleY0.wwww, sampleY0.yyyy;
+LRP midSampleT, weightLR, sample10.zzxx, sample00.zzxx;
+LRP midSampleB, weightLR, sample11.zzxx, sample01.zzxx;
+LRP sampleY0.yz, weightTB, midSampleB, midSampleT;
+MOV sampleY0.x, 0.25;
+DPH result.color.r, sampleY0, program.local[0];
+DPH result.color.g, sampleY0, program.local[1];
+DPH result.color.b, sampleY0, program.local[2];
+MOV result.color.a, 1.0;
+END;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CIColor *inputColor; // @synthesize inputColor;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIVector *inputOffset; // @synthesize inputOffset;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
-@property(retain, nonatomic) NSNumber *inputRange; // @synthesize inputRange;
 
 @end
 

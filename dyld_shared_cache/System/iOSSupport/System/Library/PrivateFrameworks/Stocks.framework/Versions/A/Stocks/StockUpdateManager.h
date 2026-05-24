@@ -4,19 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableArray, NSString;
-
 @interface StockUpdateManager
 {
     _Bool _postingRemoteUpdateNotification;
-    NSMutableArray *_activeUpdaters;
-    NSMutableArray *_inactiveUpdaters;
-    NSHashTable *_updateObservers;
 }
 
 + (id);
 - (void);
 - (void);
+- (void)ָm|;
+- (void){;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)|;
+- (void)xaz;
+- (void);
+- (void)m|;
+- (void);
+- (void);
+- (_Bool);
+- (id)&l;
 - (void);
 - (void);
 - (void);
@@ -26,35 +35,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
+- (void)"RTLocationOfInterest"@"NSError">;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)stringByTrimmingEmptySpaceEdges;
 - (_Bool)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class)dsByMomentUUIDWithEventUUIDs;
++ (Class)assetSearchKeywordsByMomentUUIDWithEventUUIDs;
 - (id);
 - (id);
 - (id);

@@ -6,31 +6,25 @@
 
 #import <OfficeImport/WDRun.h>
 
-@class NSString, WDCharacterProperties;
-
 __attribute__((visibility("hidden")))
 @interface WDMath : WDRun
 {
     int _justification;
-    WDCharacterProperties *_properties;
-    NSString *_xmlBlob;
 }
 
-- (void);
+- (void);
 - (int);
-- (id);
+- (id);
 - (id);
 - (int);
 - (void);
-- (id);
+- (id)entsOnFrameChange;
 - (id);
 - (void);
 - (void)ty/sf/SFUFileInputStream.m;
 
 // Remaining properties
 @property(nonatomic) int justification; // @synthesize justification=_justification;
-@property(retain, nonatomic) WDCharacterProperties *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) NSString *xmlBlob; // @synthesize xmlBlob=_xmlBlob;
 
 @end
 

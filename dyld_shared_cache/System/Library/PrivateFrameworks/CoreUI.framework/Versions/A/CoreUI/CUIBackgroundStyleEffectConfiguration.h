@@ -11,11 +11,9 @@
 @interface CUIBackgroundStyleEffectConfiguration : CUIStyleEffectConfiguration
 {
     NSString *_backgroundType;
-    _Bool _effectShowsValue;
-    int _shouldRespectOutputBlending;
 }
 
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (id);
@@ -25,12 +23,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)ference has content in CheckReference %s
+;
 - (id)onst u_int8_t *, u_int64_t, u_int32_t, u_int8_t *, size_t, size_t, size_t, u_int32_t);
 
 // Remaining properties
 @property(copy) NSString *backgroundType; // @synthesize backgroundType=_backgroundType;
-@property(nonatomic) _Bool effectShowsValue; // @synthesize effectShowsValue=_effectShowsValue;
 
 @end
 

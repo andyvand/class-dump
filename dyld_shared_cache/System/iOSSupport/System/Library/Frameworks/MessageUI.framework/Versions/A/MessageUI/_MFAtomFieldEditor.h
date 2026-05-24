@@ -22,8 +22,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void));
+- (_Bool)_activeRequestIDToRequestToken;
 - (id);
 
 @end

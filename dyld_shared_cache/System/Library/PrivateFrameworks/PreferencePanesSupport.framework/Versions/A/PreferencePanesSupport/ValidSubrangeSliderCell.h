@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @interface ValidSubrangeSliderCell
 {
     double _minValidValue;
-    double _maxValidValue;
-    NSColor *_validRangeBarColor;
 }
 
 - (void);
@@ -19,11 +15,10 @@
 - (double);
 - (struct CGRect);
 - (_Bool);
-- (id);
+- (id)?q;
 - (void);
 
 // Remaining properties
-@property double maxValidValue; // @synthesize maxValidValue=_maxValidValue;
 @property double minValidValue; // @synthesize minValidValue=_minValidValue;
 
 @end

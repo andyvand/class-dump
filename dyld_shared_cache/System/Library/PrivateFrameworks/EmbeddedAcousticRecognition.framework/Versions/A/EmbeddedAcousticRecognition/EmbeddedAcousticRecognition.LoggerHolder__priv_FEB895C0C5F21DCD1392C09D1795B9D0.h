@@ -7,7 +7,6 @@
 @interface EmbeddedAcousticRecognition.LoggerHolder__priv_FEB895C0C5F21DCD1392C09D1795B9D0
 {
     id icLogger;
-    id logger;
 }
 
 @end

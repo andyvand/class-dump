@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol CSSSRXPCClientDelegate, OS_dispatch_queue;
+@class NSXPCConnection;
+@protocol CSSSRXPCClientDelegate;
 
 @interface CSSSRXPCClient
 {
     id <CSSSRXPCClientDelegate> _delegate;
-    NSXPCConnection *_ssrConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_xpcConnectionQueue;
-    id _remoteObjectProxy;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void));
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)knownAnimalHeadIdentifiers;
 - (void);
 - (id);
 - (void);
-- (void)ileWithCompletion: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)?	;
+- (void);
+- (void)getAllowPhrasesListOverrideFileWithCompletion: /* Error: Ran out of types for this method. */;
 - (void)setManagerWithLocale:(id)arg1 bundleIdentifier:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)ectionBuiltInEngine getBestSampleCountWithOption:(id)arg1 ];
 - (id)îÿ;
 
 // Remaining properties
-@property(nonatomic) __weak id <CSSSRXPCClientDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) id remoteObjectProxy; // @synthesize remoteObjectProxy=_remoteObjectProxy;
 @property(retain, nonatomic) NSXPCConnection *ssrConnection; // @synthesize ssrConnection=_ssrConnection;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *xpcConnectionQueue; // @synthesize xpcConnectionQueue=_xpcConnectionQueue;
 
 @end
 

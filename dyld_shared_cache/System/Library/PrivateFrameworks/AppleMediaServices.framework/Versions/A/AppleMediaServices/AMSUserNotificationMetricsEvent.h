@@ -25,7 +25,7 @@
 + (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -35,8 +35,6 @@
 
 // Remaining properties
 @property(retain) NSString *displayScheduledTime;
-@property(retain) NSString *errorDescription;
-@property _Bool postedSuccessfully;
 
 @end
 

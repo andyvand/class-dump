@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, NSArray, NSDictionary;
+@class CNCache;
 
 __attribute__((visibility("hidden")))
 @interface CNContactHandleStringIndexer
 {
     CNCache *_indexImpl;
-    NSArray *_targetHandleStrings;
 }
 
 + (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id)UNENCRYPTED_SRTCP;
 - (id);
 - (id);
 - (void)ay"32@0:8@"NSArray"16@"NSString"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *index;
 @property(readonly, nonatomic) CNCache *indexImpl; // @synthesize indexImpl=_indexImpl;
-@property(readonly, nonatomic) NSArray *targetHandleStrings; // @synthesize targetHandleStrings=_targetHandleStrings;
 
 @end
 

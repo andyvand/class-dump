@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)ent for this handle.;
 - (id);
 
 // Remaining properties

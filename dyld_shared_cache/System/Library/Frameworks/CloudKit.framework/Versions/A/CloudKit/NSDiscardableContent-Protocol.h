@@ -5,6 +5,7 @@
 //
 
 @protocol NSDiscardableContent
-- (void):updateName: /* Error: Ran out of types for this method. */;
+- (void)?;
+- (void)setOperationGroup:updateName: /* Error: Ran out of types for this method. */;
 @end
 

@@ -9,7 +9,6 @@
 @interface RemindersUICore.TTRMCustomRepeatWeeksView
 {
     void daysOfTheWeekMatrix;
-    id customRepeatWeeks;
 }
 
 - (void);

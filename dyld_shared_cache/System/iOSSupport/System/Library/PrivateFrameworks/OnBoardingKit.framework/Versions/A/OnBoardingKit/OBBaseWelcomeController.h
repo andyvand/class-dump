@@ -20,10 +20,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)sec-websocket-extensions;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)A;
 - (void);
 - (struct CGSize);
 - (void);

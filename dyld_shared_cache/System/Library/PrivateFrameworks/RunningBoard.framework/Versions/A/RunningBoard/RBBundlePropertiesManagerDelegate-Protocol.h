@@ -5,5 +5,6 @@
 //
 
 @protocol RBBundlePropertiesManagerDelegate
+- (void)K ;
 @end
 

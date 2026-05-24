@@ -6,50 +6,22 @@
 
 #import <AppKit/NSView.h>
 
-@class CABackdropLayer, NSArray, NSButton, NSCell, NSFont, NSLayoutConstraint, NSNinePartGradient, NSStackView, NSString, NSTextField, NSToolbarPlatterView, NSToolbarPrimaryTitleContainerView, NSToolbarTitleDocumentProxyAcceleratorView, NSToolbarTitleStackView, NSWindow, NSWindowTitleController;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSToolbarTitleView : NSView
 {
     NSWindow *_representedWindow;
-    NSWindowTitleController *_titleController;
-    unsigned long long _displayMode;
-    long long _toolbarStyle;
-    NSToolbarTitleStackView *_titleStack;
-    NSStackView *_secondaryTitleStack;
-    NSToolbarPrimaryTitleContainerView *_primaryTitleContainerView;
-    NSToolbarTitleDocumentProxyAcceleratorView *_documentProxyButtonAcceleratorView;
-    NSTextField *_subtitleTextField;
-    NSTextField *_separatorField;
-    NSTextField *_editingStateField;
-    CABackdropLayer *_backdropLayer;
-    NSNinePartGradient *_gradientLayer;
-    NSView *_hiddenFocusedView;
-    NSLayoutConstraint *_centerConstraint;
-    NSLayoutConstraint *_baselineConstraint;
-    NSLayoutConstraint *_leadingConstraint;
-    NSLayoutConstraint *_trailingConstraint;
-    double _minimumInlineWindowTitleWidth;
-    double _leadingPadding;
-    double _trailingPadding;
-    id _proxyIconShiftKeyMonitor;
-    CDUnknownBlockType _rolloverTimer;
-    struct {
-        unsigned int isEditing:1;
-        unsigned int inRolloverOverlayPosition:1;
-        unsigned int needsModeConfiguration:1;
-        unsigned int adjacentToNavigationItem:1;
-    } _flags;
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)MobileEquipmentInfoCSN;
+- (id)_CTServerConnectionCopyMobileSubscriberNetworkCode;
+- (id)/TJS0IaLyq10dcSvUTGPg;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,66 +50,66 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (struct NSEdgeInsets);
-- (unsigned long long);
+- (unsigned long long)@;
 - (struct CGRect);
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)e:%s /* Error: Ran out of types for this method. */;
+- (_Bool)necp session fd response:%s /* Error: Ran out of types for this method. */;
+- (_Bool)ries;
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (void)SÓ;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)registerForTaskWithIdentifier:usingQueue:launchHandler: /* Error: Ran out of types for this method. */;
+- (void)initWithAVAggregateAssetDownloadChildDownloadSessionIdentifier:assetTitle:assetArtworkData:options:taskIdentifier:uniqueIdentifier:bundleID:sessionID: /* Error: Ran out of types for this method. */;
+- (void)getCFRunLoop;
+- (id)_nscfBridgeURLCacheCurrentMemoryUsage;
+- (_Bool)URLCredentialStorage",&,V_phskip_credStorage;
+- (struct CGRect)_initVaryHeaderEnabledWithPath: /* Error: Ran out of types for this method. */;
+- (void)dc;
+- (void);
+- (_Bool);
+- (void);
+- (_Bool)y found!;
+- (void)enticationUpdateFromResponse():(id)arg1 authentication context not properly configured;
+- (void)sion <%{public}@> %{public}@ issued sandbox extension for file %@, succeeded = %{bool}d;
 - (void);
 - (void);
 - (void);
+- (_Bool)_kCFNTimingDataResponseBodyBytesDecoded;
+- (void)isEphemeralSession;
+- (void)v64@?0{shared_ptr<HTTPResponseMessage>=^{HTTPResponseMessage}^{__shared_weak_count}}8@24{?=qi}32q48q56;
+- (_Bool)rt nil to a dictionary.;
+- (_Bool)p_connection>"8;
+- (void)Unviable;
 - (void);
-- (id);
-- (_Bool);
 - (struct CGRect);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (struct CGRect);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void)lTimer;
-- (id)tributeSettable;
+- (void)cancelTimer;
+- (id)accessibilityIsDateTimeComponentsAttributeSettable;
 - (id)´
 $à;
 - (void)rentContext] is nil.  This is a programming error.;
@@ -148,74 +120,7 @@ $à;
 - (struct CGSize)á×ÿ;
 
 // Remaining properties
-@property(setter=_setNeedsModeConfiguration:) _Bool _needsModeConfiguration;
-@property(getter=isAdjacentToNavigationItem) _Bool adjacentToNavigationItem;
-@property(readonly) _Bool alwaysWantsOverflowTransitions;
-@property _Bool animatingIn;
-@property _Bool animatingOut;
-@property __weak NSToolbarPlatterView *associatedPlatter;
-@property(readonly) struct CGSize compressedMinSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) struct CGSize contentClippingSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) struct CGSize expandedOverlaySize;
-@property(readonly) NSButton *fileButton;
-@property(getter=isFirstItemInGlassGroup) _Bool firstItemInGlassGroup;
-@property(readonly) struct CGRect glassBackedViewRectInSelf;
-@property(readonly) unsigned long long glassBehavior;
-@property(readonly) unsigned long long hash;
-@property _Bool inGlassSidebar;
 @property _Bool inRolloverOverlayPosition;
-@property(readonly) _Bool isGroup;
-@property(readonly) _Bool isNavigational;
-@property(readonly) _Bool isSpace;
-@property(readonly) _Bool isTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool isVisible;
-@property(readonly) unsigned long long itemPosition;
-@property(getter=isLastItemInGlassGroup) _Bool lastItemInGlassGroup;
-@property(readonly) struct CGSize maxSize;
-@property(readonly) struct CGRect maxTitleRect;
-@property(readonly) struct CGSize minSize;
-@property double minimumInlineWindowTitleWidth;
-@property(readonly) _Bool participatesInOverflow;
-@property(readonly) struct CGSize preferredSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) double preferredTrailingPosition;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) double preferredZOrder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) NSCell *primaryTitleCell;
-@property(readonly) NSFont *primaryTitleFont;
-@property(readonly) long long priorityIndex;
-@property __weak NSWindow *representedWindow;
-@property(readonly) NSArray *subitems;
-@property(readonly) NSCell *subtitleCell;
-@property(readonly) Class superclass;
-@property(readonly) struct CGRect titleRect;
-@property(readonly) NSTextField *titleTextField;
-@property(readonly) _Bool wantsExplicitFrame;
-@property(readonly) _Bool wantsToBeCentered;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol VoiceTriggerInterface
+- (void);
+- (void);
 @end
 

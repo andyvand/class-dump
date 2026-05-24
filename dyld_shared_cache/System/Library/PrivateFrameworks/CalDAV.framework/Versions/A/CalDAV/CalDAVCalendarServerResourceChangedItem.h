@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSDateValue, NSMutableSet;
+@class NSMutableSet;
 
 @interface CalDAVCalendarServerResourceChangedItem
 {
     NSMutableSet *_created;
-    NSMutableSet *_updated;
-    NSMutableSet *_deleted;
-    NSMutableSet *_collectionChanges;
-    NSMutableSet *_collectionUpdates;
-    ICSDateValue *_dtstamp;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)charge_duration_var_at_charge_start_secs_curr_dynamic_bin_2;
 - (void);
 - (void);
 - (void);
@@ -39,12 +34,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *collectionChanges; // @synthesize collectionChanges=_collectionChanges;
-@property(retain, nonatomic) NSMutableSet *collectionUpdates; // @synthesize collectionUpdates=_collectionUpdates;
 @property(retain, nonatomic) NSMutableSet *created; // @synthesize created=_created;
-@property(retain, nonatomic) NSMutableSet *deleted; // @synthesize deleted=_deleted;
-@property(retain, nonatomic) ICSDateValue *dtstamp; // @synthesize dtstamp=_dtstamp;
-@property(retain, nonatomic) NSMutableSet *updated; // @synthesize updated=_updated;
 
 @end
 

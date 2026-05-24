@@ -7,30 +7,22 @@
 @interface _UIPopoverPresentationMetrics
 {
     _Bool _shouldHideArrow;
-    _Bool _shouldUseVisualStyleAnimationControllerForDismissal;
-    _Bool _shouldUseVisualStyleAnimationControllerForPresentation;
-    double _cornerRadius;
 }
 
-+ (id)gari;
-- (_Bool);
++ (id)Devanagari;
+- (_Bool)setThreadgroupMemoryLength:atIndex: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
-- (_Bool);
+- (_Bool);
 - (struct CGSize)× ;
-- (_Bool)hange;
+- (_Bool)keyboardLayersDidChange;
 - (void)configureForDescriptor:(_Bool)arg1;
-- (void)willComplete;
+- (void)_willComplete;
 - (void)s changing [%@] to {%0.f, %0.f} [previous size:(_Bool)arg1 {%0.f, %0.f}];
 - (double)LeftWidth;
 - (void)ndex. View:(double)arg1 %@; view attributes:%@; collection view:%@; number of sections:%ld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, nonatomic) struct CGSize defaultPreferredLargeContentSize;
-@property(readonly, nonatomic) struct CGSize defaultPreferredSmallContentSize;
 @property(nonatomic) _Bool shouldHideArrow; // @synthesize shouldHideArrow=_shouldHideArrow;
-@property(nonatomic) _Bool shouldUseVisualStyleAnimationControllerForDismissal; // @synthesize shouldUseVisualStyleAnimationControllerForDismissal=_shouldUseVisualStyleAnimationControllerForDismissal;
-@property(nonatomic) _Bool shouldUseVisualStyleAnimationControllerForPresentation; // @synthesize shouldUseVisualStyleAnimationControllerForPresentation=_shouldUseVisualStyleAnimationControllerForPresentation;
 
 @end
 

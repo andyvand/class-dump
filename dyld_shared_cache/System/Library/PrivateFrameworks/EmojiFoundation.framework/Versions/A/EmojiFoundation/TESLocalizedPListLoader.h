@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface TESLocalizedPListLoader
 {
     NSURL *_plistPath;
-    NSString *_localeIdentifier;
-    NSString *_resourceName;
 }
 
-- (id);
-- (id);
+- (id)okmarks folder empty state;
+- (id)is a link to an RSS feed. Would you like to search the App Store for apps that can display RSS feeds?;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id) ;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *items;
 @property(readonly, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(nonatomic) NSString *resourceName; // @synthesize resourceName=_resourceName;
 
 @end
 

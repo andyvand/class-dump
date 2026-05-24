@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSXPCConnection;
-@protocol LACAHP;
-
 @protocol LACUIAuthenticationSheetState
+- (void);
+- (void)@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *callerIconPath;
-@property(readonly, nonatomic) NSData *externalizedContext;
 @property(readonly, nonatomic) _Bool isMultiUserAuthentication;
-@property(retain, nonatomic) NSXPCConnection *smartCardConnection;
-@property(readonly, nonatomic) _Bool smartCardInhibited;
-@property(retain, nonatomic) id <LACAHP> smartCardProvider;
-@property(readonly, nonatomic) _Bool touchIDInhibited;
-@property(readonly, nonatomic) long long touchIDPolicy;
-@property(retain, nonatomic) NSXPCConnection *watchConnection;
-@property(readonly, nonatomic) _Bool watchInhibited;
-@property(readonly, nonatomic) NSString *watchPrompt;
-@property(retain, nonatomic) id <LACAHP> watchProvider;
 @end
 

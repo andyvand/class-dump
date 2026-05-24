@@ -14,18 +14,16 @@
 }
 
 + (void) ;
-- (long long);
-- (_Bool);
+- (long long);
+- (_Bool)ublic}@;
+- (id)MSVArtworkServiceResizeRequestSourceURL;
+- (void)SError">32;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)@m;
 
 // Remaining properties
 @property(readonly) AVDepthData *depthData;
-@property(readonly) _Bool depthDataWasDropped;
-@property(readonly) long long droppedReason;
 
 @end
 

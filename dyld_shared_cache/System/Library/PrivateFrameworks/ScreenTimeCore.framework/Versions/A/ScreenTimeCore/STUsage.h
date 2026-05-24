@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, STCoreDevice, STCoreUser;
+@class NSDate;
 
 @interface STUsage
 {
 }
 
-+ (id);
++ (id)E path = 'Podcasts';
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *blocks; // @dynamic blocks;
-@property(retain, nonatomic) STCoreDevice *device; // @dynamic device;
 @property(retain, nonatomic) NSDate *lastEventDate; // @dynamic lastEventDate;
-@property(retain, nonatomic) NSDate *lastUpdatedDate; // @dynamic lastUpdatedDate;
-@property(retain, nonatomic) STCoreUser *user; // @dynamic user;
 
 @end
 

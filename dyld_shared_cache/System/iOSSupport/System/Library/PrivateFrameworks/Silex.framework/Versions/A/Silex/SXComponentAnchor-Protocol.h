@@ -7,11 +7,10 @@
 @class NSString;
 
 @protocol SXComponentAnchor
+- (NSString *);
+- (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long originAnchorPosition;
-@property(readonly, nonatomic) struct _NSRange range;
 @property(readonly, nonatomic) long long targetAnchorPosition;
-@property(readonly, nonatomic) NSString *targetComponentIdentifier;
 @end
 

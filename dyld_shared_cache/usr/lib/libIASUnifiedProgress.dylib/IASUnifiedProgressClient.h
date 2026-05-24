@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, NSXPCConnection;
+@class NSString;
 
 @interface IASUnifiedProgressClient
 {
     _Bool _done;
-    _Bool _finished;
-    float _prevProgress;
-    NSString *_phaseName;
-    NSXPCConnection *_connection;
-    NSUUID *_uuid;
-    CDUnknownBlockType _completionHandler;
-    NSString *_prevStatus;
-    NSString *_prevAlternateStatus;
 }
 
 - (void);
@@ -50,8 +42,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)eatment %{public}@;
+- (id)enum_kMDItemPhotosDescription_n2_prefixlast;
 - (void);
 - (void);
 - (void);
@@ -61,22 +53,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool done; // @synthesize done=_done;
-@property _Bool finished; // @synthesize finished=_finished;
-@property(readonly) unsigned long long hash;
 @property(retain) NSString *phaseName; // @synthesize phaseName=_phaseName;
-@property(retain) NSString *prevAlternateStatus; // @synthesize prevAlternateStatus=_prevAlternateStatus;
-@property float prevProgress; // @synthesize prevProgress=_prevProgress;
-@property(retain) NSString *prevStatus; // @synthesize prevStatus=_prevStatus;
-@property(readonly) Class superclass;
-@property(retain) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

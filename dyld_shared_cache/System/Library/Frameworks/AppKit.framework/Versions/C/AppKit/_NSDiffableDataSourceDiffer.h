@@ -9,14 +9,13 @@
 @interface _NSDiffableDataSourceDiffer
 {
     _NSDiffableDataSourceState *_beforeDataSourceState;
-    _NSDiffableDataSourceState *_afterDataSourceState;
 }
 
 + (id)´Pÿ;
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (id);
@@ -28,7 +27,6 @@
 - (void)etMenuTitleWithCFString(_initialMenuRef, menuTitle);
 
 // Remaining properties
-@property(retain, nonatomic) _NSDiffableDataSourceState *afterDataSourceState; // @synthesize afterDataSourceState=_afterDataSourceState;
 @property(retain, nonatomic) _NSDiffableDataSourceState *beforeDataSourceState; // @synthesize beforeDataSourceState=_beforeDataSourceState;
 
 @end

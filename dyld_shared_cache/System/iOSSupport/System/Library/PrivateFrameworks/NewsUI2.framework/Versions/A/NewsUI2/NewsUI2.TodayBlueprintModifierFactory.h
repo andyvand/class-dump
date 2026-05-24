@@ -7,12 +7,6 @@
 @interface NewsUI2.TodayBlueprintModifierFactory
 {
     id sectionFactory;
-    id nativeAdManager;
-    id feedContextFactory;
-    id policyValidator;
-    id layoutCollectionProvider;
-    id subscriptionList;
-    id offlineContentManager;
 }
 
 @end

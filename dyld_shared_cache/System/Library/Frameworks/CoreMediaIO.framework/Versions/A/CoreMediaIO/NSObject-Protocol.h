@@ -7,15 +7,27 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)_ppkIDTypeFromPacket;
+- (id)_ppkIDType;
+- (id)_postQuantumKeyExchangeMethods;
+- (id)_policySession;
+- (id)_policyIDList;
+- (Class)_pirPrivacyPassIssuerURL;
+- (_Bool)setObjectIDsToFetch: /* Error: Ran out of types for this method. */;
+- (oneway void)_submitFMCAssistanceInstanceWithIdentifier:uiPlacement:assistanceType:assistanceValue: /* Error: Ran out of types for this method. */;
+- (NSString *)N,V_motionSettledState;
+- (id)setpagedevice"
+*%s.Duplex None/%s:""
+*Duplex DuplexNoTumble:"<</Duplex true/Tumble false>>setpagedevice"
+*%s.Duplex DuplexNoTumble/%s:""
+*Duplex DuplexTumble:"<</Duplex true/Tumble true>>setpagedevice"
+*%s.Duplex DuplexTumble/%s:""
+*CloseUI:*Duplex
+ /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (struct _NSZone *)nt;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol BPSSubscriber;
 
 @interface _BPSLastInnser
 {
     id <BPSSubscriber> _downstream;
-    id _last;
 }
 
 - (void);
@@ -25,15 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id last; // @synthesize last=_last;
-@property(readonly) Class superclass;
 
 @end
 

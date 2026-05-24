@@ -11,22 +11,20 @@
 @interface NFTrustSignRequest : NFTrustObject
 {
     NSData *_challenge;
-    NSData *_data;
 }
 
 + (id);
-+ (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
++ (_Bool);
+- (void)onUsed;
+- (id)DIALOGENGINENAMEDENTITYCATID__PLAYMEDIAINTENT__PLAYSOMETHINGNEW;
 - (id);
 - (void);
+- (id);
 - (void);
+- (void)puterCache = %d;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *challenge; // @synthesize challenge=_challenge;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
 
 @end
 

@@ -8,6 +8,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) int *signals;
-@property(readonly, nonatomic) unsigned long long signalsCount;
 @end
 

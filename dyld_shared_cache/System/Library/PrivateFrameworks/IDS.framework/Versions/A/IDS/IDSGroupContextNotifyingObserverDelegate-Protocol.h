@@ -5,5 +5,8 @@
 //
 
 @protocol IDSGroupContextNotifyingObserverDelegate
+
+@optional
+- (void)switchControlEnabled;
 @end
 

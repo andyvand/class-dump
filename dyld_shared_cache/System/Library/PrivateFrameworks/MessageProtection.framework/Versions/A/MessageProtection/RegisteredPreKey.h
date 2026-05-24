@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface RegisteredPreKey
@@ -14,7 +14,6 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *senders; // @dynamic senders;
 @property(copy, nonatomic) NSString *tag; // @dynamic tag;
 
 @end

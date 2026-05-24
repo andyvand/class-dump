@@ -12,7 +12,7 @@
 + (Class);
 + (Class);
 - (id);
-- (id):(id)arg1 withData: /* Error: Ran out of types for this method. */;
+- (id)INIntentCreate:(id)arg1 withData: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PHPhotoLibrary, PXLemonadeFeatureAvailabilityMonitor, PXPhotosViewOptionsModel;
-
 @interface PXCuratedLibraryViewConfiguration
 {
     _Bool _enableDays;
-    _Bool _enableFooter;
-    _Bool _enableNavigationHeader;
-    _Bool _isExpandedInitially;
-    _Bool _enableSecondaryToolbar;
-    _Bool _enableSecondaryToolbarContainerView;
-    _Bool _showSecondaryToolbar;
-    PHPhotoLibrary *_photoLibrary;
-    long long _initialZoomLevel;
-    unsigned long long _secondaryToolbarStyle;
-    long long _overrideDefaultNumberOfColumns;
-    unsigned long long _allowedInteractiveDismissBehaviors;
-    PXPhotosViewOptionsModel *_viewOptionsModel;
-    CDUnknownBlockType _isPresentingSearchOverlay;
-    unsigned long long _layoutStyle;
 }
 
 - (id);
@@ -32,9 +16,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)?נѨC;
 - (void);
 - (void);
 - (void);
@@ -48,10 +32,10 @@
 - (CDUnknownBlockType);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)3;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -61,27 +45,12 @@
 - (void);
 - (id);
 - (id);
-- (id)t;
+- (id)isTransient;
 - (void)ôöõþ;
 - (id)RÿPdð<;
 
 // Remaining properties
-@property(nonatomic) unsigned long long allowedInteractiveDismissBehaviors; // @synthesize allowedInteractiveDismissBehaviors=_allowedInteractiveDismissBehaviors;
-@property(nonatomic) _Bool enableDays; // @synthesize enableDays=_enableDays;
-@property(nonatomic) _Bool enableFooter; // @synthesize enableFooter=_enableFooter;
-@property(nonatomic) _Bool enableNavigationHeader; // @synthesize enableNavigationHeader=_enableNavigationHeader;
-@property(nonatomic) _Bool enableSecondaryToolbar; // @synthesize enableSecondaryToolbar=_enableSecondaryToolbar;
-@property(nonatomic) _Bool enableSecondaryToolbarContainerView; // @synthesize enableSecondaryToolbarContainerView=_enableSecondaryToolbarContainerView;
-@property(nonatomic, readonly) PXLemonadeFeatureAvailabilityMonitor *featureAvailabilityMonitor;
-@property(nonatomic) long long initialZoomLevel; // @synthesize initialZoomLevel=_initialZoomLevel;
-@property(nonatomic) _Bool isExpandedInitially; // @synthesize isExpandedInitially=_isExpandedInitially;
-@property(copy, nonatomic) CDUnknownBlockType isPresentingSearchOverlay; // @synthesize isPresentingSearchOverlay=_isPresentingSearchOverlay;
-@property(nonatomic) unsigned long long layoutStyle; // @synthesize layoutStyle=_layoutStyle;
-@property(nonatomic) long long overrideDefaultNumberOfColumns; // @synthesize overrideDefaultNumberOfColumns=_overrideDefaultNumberOfColumns;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(nonatomic) unsigned long long secondaryToolbarStyle; // @synthesize secondaryToolbarStyle=_secondaryToolbarStyle;
-@property(nonatomic) _Bool showSecondaryToolbar; // @synthesize showSecondaryToolbar=_showSecondaryToolbar;
-@property(retain, nonatomic) PXPhotosViewOptionsModel *viewOptionsModel; // @synthesize viewOptionsModel=_viewOptionsModel;
+@property(nonatomic) unsigned long long layoutStyle;
 
 @end
 

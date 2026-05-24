@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id)5fD';
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)roundShadowContentImageView;
+- (id)_UIBarBackgroundShadowContentImageView;
 - (void)HLóþf/;
 
 // Remaining properties

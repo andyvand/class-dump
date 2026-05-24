@@ -4,36 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface OISFUGZipFileInputStream
 {
     int _fd;
-    struct gzFile_s *_file;
-    _Bool _isCachingDisabled;
-    long long _offset;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)_;
 - (id);
 - (_Bool);
 - (void)ate";
 - (long long)¼È;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,10 +12,10 @@
 }
 
 - (struct _MRHIDButtonEvent);
-- (id);
+- (id)calizedPayInFullTitleOverride;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)Notify);
 
 // Remaining properties
 @property(readonly, nonatomic) struct _MRHIDButtonEvent buttonEvent;

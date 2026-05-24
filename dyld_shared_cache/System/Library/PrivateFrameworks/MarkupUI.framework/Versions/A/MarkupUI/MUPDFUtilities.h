@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (unsigned long long);
 + (struct CGAffineTransform);
 + (long long);
-+ (id);
++ (id)qH;
 + (id);
 
 @end

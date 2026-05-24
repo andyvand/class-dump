@@ -6,39 +6,30 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSetCarLockStatusIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)@24@0:(long long)arg1 8:16 /* Error: Ran out of types for this method. */;
++ (int)parentDirectoryWrapper;
++ (long long)isItemAtURLInsidePermanentStorage:(int)arg1 error:(int)arg2;
++ (_Bool)initWithThumbnailType:(long long)arg1 iconFlavor:CGImage:scale:contentRect:generatedProperties: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
-- (id);
+- (id)@9;
 - (long long);
 - (id);
 - (long long);
 - (id);
+- (id)requestIdleDisconnect:(id)arg1;
+- (id);
+- (void)ervice object for UUID %{public}@, %{public}@;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)bServiceType: /* Error: Ran out of types for this method. */;
+- (long long)StringAsSubServiceType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

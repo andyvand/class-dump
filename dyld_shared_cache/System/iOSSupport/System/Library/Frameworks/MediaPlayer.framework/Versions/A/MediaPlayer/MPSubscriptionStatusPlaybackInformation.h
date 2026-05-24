@@ -9,28 +9,20 @@
 @interface MPSubscriptionStatusPlaybackInformation
 {
     ICMusicSubscriptionStatus *_subscriptionStatusObject;
-    _Bool _definitiveInformation;
-    _Bool _hasPlaybackCapability;
-    _Bool _requiresCarrierManualVerification;
-    _Bool _shouldUseLease;
-    _Bool _shouldUseAccountLessStreaming;
 }
 
+- (_Bool)H;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)V
+;
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (void)udnessInfo;
+- (void)_applyLoudnessInfo;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isDefinitiveInformation) _Bool definitiveInformation; // @synthesize definitiveInformation=_definitiveInformation;
-@property(readonly, nonatomic) _Bool hasPlaybackCapability; // @synthesize hasPlaybackCapability=_hasPlaybackCapability;
-@property(readonly, nonatomic) _Bool requiresCarrierManualVerification; // @synthesize requiresCarrierManualVerification=_requiresCarrierManualVerification;
-@property(readonly, nonatomic) _Bool shouldUseAccountLessStreaming; // @synthesize shouldUseAccountLessStreaming=_shouldUseAccountLessStreaming;
-@property(readonly, nonatomic) _Bool shouldUseLease; // @synthesize shouldUseLease=_shouldUseLease;
 
 @end
 

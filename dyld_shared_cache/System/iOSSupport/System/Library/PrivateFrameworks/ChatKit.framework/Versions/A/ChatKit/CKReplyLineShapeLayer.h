@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)agedObjectContext",R,N,V_legacyManagedObjectContext;
+- (struct CGRect);
 - (id);
 - (id)0@ù
 × ;

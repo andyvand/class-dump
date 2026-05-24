@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface NSTableViewDropFeedbackData
 {
     long long _startRow;
-    _Bool _draggingAccepted;
-    _Bool _isExternalDrag;
-    _Bool _isTemporaryDrag;
-    NSMutableArray *_dropFeedbackViews;
-    NSIndexSet *_draggedRowIndexes;
 }
 
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -33,11 +26,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain) NSIndexSet *draggedRowIndexes; // @synthesize draggedRowIndexes=_draggedRowIndexes;
-@property _Bool draggingAccepted; // @synthesize draggingAccepted=_draggingAccepted;
-@property(retain) NSMutableArray *dropFeedbackViews; // @synthesize dropFeedbackViews=_dropFeedbackViews;
-@property _Bool isExternalDrag; // @synthesize isExternalDrag=_isExternalDrag;
-@property _Bool isTemporaryDrag; // @synthesize isTemporaryDrag=_isTemporaryDrag;
 @property long long startRow; // @synthesize startRow=_startRow;
 
 @end

@@ -6,16 +6,11 @@
 
 #import <AppleMediaServicesUI/AMSUIBaseMessageViewController.h>
 
-@class AMSBinaryPromise, AMSUIBubbleTipAppearance, AMSUIBubbleTipInlineAnchorInfo, NSString;
+@class AMSUIBubbleTipInlineAnchorInfo;
 
 @interface AMSUIBubbleTipViewController : AMSUIBaseMessageViewController
 {
     _Bool _isSelfSizing;
-    AMSUIBubbleTipAppearance *_preferredAppearance;
-    AMSUIBubbleTipInlineAnchorInfo *_inlineAnchorInfo;
-    AMSUIBubbleTipInlineAnchorInfo *_effectiveInlineAnchorInfo;
-    AMSUIBubbleTipAppearance *_requestAppearance;
-    struct CGPoint _anchorPoint;
 }
 
 - (void);
@@ -44,31 +39,15 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)cooperate;
 - (void);
 - (struct CGSize);
 - (struct CGPoint);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setManualCaptureImagePadding: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) AMSUIBubbleTipInlineAnchorInfo *effectiveInlineAnchorInfo; // @synthesize effectiveInlineAnchorInfo=_effectiveInlineAnchorInfo;
-@property unsigned long long engagementImpressionsReportingFrequency;
-@property(readonly) unsigned long long hash;
-@property unsigned long long impressionsReportingFrequency;
-@property(retain) AMSUIBubbleTipInlineAnchorInfo *inlineAnchorInfo; // @synthesize inlineAnchorInfo=_inlineAnchorInfo;
-@property _Bool isSelfSizing; // @synthesize isSelfSizing=_isSelfSizing;
-@property(retain) AMSBinaryPromise *loadPromise;
-@property(retain) AMSUIBubbleTipAppearance *preferredAppearance; // @synthesize preferredAppearance=_preferredAppearance;
-@property(retain) AMSUIBubbleTipAppearance *requestAppearance; // @synthesize requestAppearance=_requestAppearance;
-@property _Bool shouldAutomaticallyReportMetrics;
-@property(readonly) Class superclass;
 
 @end
 

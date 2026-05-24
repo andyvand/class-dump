@@ -7,10 +7,6 @@
 @interface ContactsUICore.ContactCardCustomActionsViewModel
 {
     id _customActionSections;
-    id contact;
-    id _actionsProvider;
-    id placement;
-    id _$observationRegistrar;
 }
 
 - (void);

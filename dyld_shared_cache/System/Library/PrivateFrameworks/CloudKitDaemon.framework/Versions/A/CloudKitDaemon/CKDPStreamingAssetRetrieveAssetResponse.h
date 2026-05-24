@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKDPStreamingAssetRetrieveAssetResponse
 {
     long long _downloadURLExpirationTimeSeconds;
-    long long _size;
-    NSString *_downloadURL;
-    struct {
-        unsigned int downloadURLExpirationTimeSeconds:1;
-        unsigned int size:1;
-    } _has;
 }
 
 - (void);
@@ -25,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)to allocate memory for audioIOAssertion queue;
 - (_Bool);
 - (void);
 - (long long);
@@ -33,19 +25,14 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (void)nfos:(_Bool)arg1 adopterProvidedLookupInfos: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)initWithOperation:(_Bool)arg1 lookupInfos:adopterProvidedLookupInfos: /* Error: Ran out of types for this method. */;
 - (_Bool)CKDMMCSPackageSignatureGenerator;
 - (void)ÿÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *downloadURL; // @synthesize downloadURL=_downloadURL;
-@property(nonatomic) long long downloadURLExpirationTimeSeconds; // @synthesize downloadURLExpirationTimeSeconds=_downloadURLExpirationTimeSeconds;
-@property(readonly, nonatomic) _Bool hasDownloadURL;
-@property(nonatomic) _Bool hasDownloadURLExpirationTimeSeconds;
 @property(nonatomic) _Bool hasSize;
-@property(nonatomic) long long size; // @synthesize size=_size;
 
 @end
 

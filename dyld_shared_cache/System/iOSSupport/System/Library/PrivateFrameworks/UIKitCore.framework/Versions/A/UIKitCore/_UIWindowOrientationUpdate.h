@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAnimationSettings, NSMutableSet;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowOrientationUpdate
 {
     NSMutableSet *_trackedFences;
-    long long _toOrientation;
-    BSAnimationSettings *_transitionAnimationSettings;
-    CDUnknownBlockType _updateBlock;
 }
 
 - (id);
@@ -23,13 +20,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long toOrientation; // @synthesize toOrientation=_toOrientation;
-@property(copy, nonatomic) BSAnimationSettings *transitionAnimationSettings; // @synthesize transitionAnimationSettings=_transitionAnimationSettings;
-@property(readonly, copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
 
 @end
 

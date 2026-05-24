@@ -7,9 +7,6 @@
 @interface AppStoreKit.PrivacyFooter
 {
     id bodyText;
-    id actions;
-    id id;
-    id automationMetadata;
 }
 
 @end

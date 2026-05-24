@@ -7,8 +7,6 @@
 @interface ContactsAutocomplete.IDSLookup
 {
     id queryController;
-    id listenerID;
-    id queue;
 }
 
 @end

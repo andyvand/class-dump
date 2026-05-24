@@ -10,10 +10,10 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ic_attributedStringByFlatteningInlineAttachmentsWithContext:formatter: /* Error: Ran out of types for this method. */;
+- (_Bool)noteID;
+- (_Bool)e;
+- (_Bool)CalculateScrubberViewController.swift;
 
 @end
 

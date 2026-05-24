@@ -15,8 +15,8 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)applyTabiScore:configurationSet: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 

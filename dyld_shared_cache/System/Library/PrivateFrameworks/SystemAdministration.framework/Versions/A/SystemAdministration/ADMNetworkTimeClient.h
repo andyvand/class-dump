@@ -12,7 +12,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -20,7 +20,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (void);

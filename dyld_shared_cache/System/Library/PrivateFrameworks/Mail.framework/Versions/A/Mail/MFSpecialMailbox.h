@@ -6,19 +6,14 @@
 
 #import <Mail/MFMailbox.h>
 
-@class EMSmartMailbox, NSString;
-
 @interface MFSpecialMailbox : MFMailbox
 {
     _Bool _forceDisplayNameForMultipleChildren;
-    NSString *_underlyingName;
-    EMSmartMailbox *_emSmartMailbox;
-    CDUnknownBlockType _smartMailboxCreator;
 }
 
 + (id);
 + (void);
-+ (id);
++ (id)q;
 + (id);
 + (id);
 + (id);
@@ -26,17 +21,17 @@
 + (id);
 + (void);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id));
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -55,30 +50,30 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)9;
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
+- (unsigned long long);
+- (id)A;
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)	;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)oint=dd}24{CGPoint=dd}40Q56;
 - (id);
 - (id);
 - (id);
@@ -91,16 +86,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool forceDisplayNameForMultipleChildren; // @synthesize forceDisplayNameForMultipleChildren=_forceDisplayNameForMultipleChildren;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType smartMailboxCreator; // @synthesize smartMailboxCreator=_smartMailboxCreator;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *underlyingName; // @synthesize underlyingName=_underlyingName;
 
 @end
 

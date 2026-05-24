@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSProgress, NSString, WCSessionFile;
+@class NSDate;
 
 @interface WCSessionFileTransfer
 {
     _Bool _transferring;
-    WCSessionFile *_file;
-    NSProgress *_progress;
-    NSDate *_transferDate;
-    NSString *_transferIdentifier;
-    NSError *_transferError;
-    NSProgress *_internalProgress;
-    id _progressToken;
 }
 
 + (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)a, error=%{public}@;
+- (void)0. This is unexpected.;
 - (id);
 - (void);
 - (id);
@@ -46,14 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WCSessionFile *file; // @synthesize file=_file;
-@property(retain) NSProgress *internalProgress; // @synthesize internalProgress=_internalProgress;
-@property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(retain) id progressToken; // @synthesize progressToken=_progressToken;
 @property(retain, nonatomic) NSDate *transferDate; // @synthesize transferDate=_transferDate;
-@property(retain) NSError *transferError; // @synthesize transferError=_transferError;
-@property(copy) NSString *transferIdentifier; // @synthesize transferIdentifier=_transferIdentifier;
-@property(nonatomic, getter=isTransferring) _Bool transferring; // @synthesize transferring=_transferring;
 
 @end
 

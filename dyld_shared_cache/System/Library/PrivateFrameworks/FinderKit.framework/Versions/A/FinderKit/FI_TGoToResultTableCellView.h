@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 + (struct TFENodeVector);
 + (struct TString);
-+ (struct TString);
++ (struct TString)\A;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)window:willPositionSheet:usingRect: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

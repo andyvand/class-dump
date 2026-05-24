@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RPBroadcastActivityViewController;
+@class RPBroadcastActivityViewController;
 @protocol RPBroadcastActivityControllerDelegate;
 
 @interface RPBroadcastActivityController
 {
     id <RPBroadcastActivityControllerDelegate> _delegate;
-    RPBroadcastActivityViewController *_broadcastActivityViewController;
 }
 
-+ (void);
++ (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ewest known version %d, therefore not loading;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) RPBroadcastActivityViewController *broadcastActivityViewController; // @synthesize broadcastActivityViewController=_broadcastActivityViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <RPBroadcastActivityControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

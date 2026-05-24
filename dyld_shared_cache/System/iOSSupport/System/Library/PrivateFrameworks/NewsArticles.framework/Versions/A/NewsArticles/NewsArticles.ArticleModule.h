@@ -7,8 +7,6 @@
 @interface NewsArticles.ArticleModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
 }
 
 @end

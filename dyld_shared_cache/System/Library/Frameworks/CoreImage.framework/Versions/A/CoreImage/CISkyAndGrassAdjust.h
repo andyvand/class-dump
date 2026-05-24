@@ -6,17 +6,15 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CISkyAndGrassAdjust : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputSkyAmount;
-    NSNumber *inputGrassAmount;
 }
 
-+ (id);
++ (id)TA;
 - (void);
 - (void);
 - (id);
@@ -27,9 +25,7 @@ __attribute__((visibility("hidden")))
 - (id)¡¡¡¡ ag}yxvqxXd[jQ^Th]miu~Thbodd]dEXK^9O?`Hd[q ¦ªªª¤§§§swwwwYqmv||||};
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputGrassAmount; // @synthesize inputGrassAmount;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputSkyAmount; // @synthesize inputSkyAmount;
 
 @end
 

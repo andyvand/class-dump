@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TAirDropClient
 {
     id client;
-    id monitor;
 }
 
 + (void);

@@ -7,9 +7,6 @@
 @interface Network.NWConnectionGroup
 {
     id lock;
-    id _nw;
-    id descriptor;
-    id parameters;
 }
 
 @end

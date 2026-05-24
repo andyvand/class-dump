@@ -6,48 +6,40 @@
 
 #import <ChatKit/CKConversationListCell.h>
 
-@class NSArray, NSLayoutConstraint, NSTextAttachment, UILayoutGuide;
+@class UILayoutGuide;
 
 @interface CKConversationListLargeTextCell : CKConversationListCell
 {
     UILayoutGuide *_firstLineLayoutGuide;
-    NSLayoutConstraint *_editingDependentConstraint;
-    NSArray *_contentSizeCategoryDependentConstraints;
-    NSTextAttachment *_unreadIndicatorAttachment;
-    NSArray *_indicatorTextAttachments;
 }
 
 + (id);
 + (id);
 + (double);
+- (void)_zeroWidthConstraint;
+- (void)_webViewStoppedAccessingGamepadsForTesting:(_Bool)arg1;
+- (void)_webView:(id)arg1 queryPermission:(_Bool)arg2 forOrigin:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_trailingSpace;
+- (id)_trackedToDoParagraphs;
+- (id)C,N,V_highlightColor;
+- (void)ICItemIdentifier;
 - (void);
 - (void);
 - (void);
+- (void);
+- (id)a;
+- (id)%s:%d /* Error: Ran out of types for this method. */;
+- (id)rity, but if you forget this password, there is no way to recover access to these locked notes.;
+- (void)brary/Caches/com.apple.xbs/TemporaryDirectory.FLj4fX/Sources/NotesFramework/Ironcade/SharedUI/Views/ICLoadingPieLayer.m;
+- (id)ldRoots/4~CN4mugAToFqPGhVxoiAOEg90YdjLrib3m-DUd6A/Library/Caches/com.apple.xbs/TemporaryDirectory.FLj4fX/Sources/NotesFramework/Ironcade/SharedUI/Views/ICLoadingPieLayer.m;
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)essObserver:(long long)arg1;
+- (id)addProgressObserver:(long long)arg1;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *contentSizeCategoryDependentConstraints; // @synthesize contentSizeCategoryDependentConstraints=_contentSizeCategoryDependentConstraints;
-@property(retain, nonatomic) NSLayoutConstraint *editingDependentConstraint; // @synthesize editingDependentConstraint=_editingDependentConstraint;
 @property(retain, nonatomic) UILayoutGuide *firstLineLayoutGuide; // @synthesize firstLineLayoutGuide=_firstLineLayoutGuide;
-@property(retain, nonatomic) NSArray *indicatorTextAttachments; // @synthesize indicatorTextAttachments=_indicatorTextAttachments;
-@property(retain, nonatomic) NSTextAttachment *unreadIndicatorAttachment; // @synthesize unreadIndicatorAttachment=_unreadIndicatorAttachment;
 
 @end
 

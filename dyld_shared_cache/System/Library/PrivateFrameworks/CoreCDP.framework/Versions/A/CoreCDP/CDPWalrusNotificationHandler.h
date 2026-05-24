@@ -7,15 +7,14 @@
 @interface CDPWalrusNotificationHandler
 {
     struct os_unfair_lock_s _observerLock;
-    _Bool _isObservingWalrusStatus;
 }
 
-+ (id);
++ (id)`;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)t.m;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isObservingWalrusStatus;

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface SXVideoAnalyticsRouter
 {
     _Bool _hasReroutedInitiatedPlaybackEvent;
-    unsigned long long _currentPlaybackLocation;
-    unsigned long long _initiatedPlaybackLocation;
-    NSMutableDictionary *_reporters;
 }
 
 - (void);
@@ -24,22 +19,12 @@
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)U;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentPlaybackLocation; // @synthesize currentPlaybackLocation=_currentPlaybackLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasReroutedInitiatedPlaybackEvent; // @synthesize hasReroutedInitiatedPlaybackEvent=_hasReroutedInitiatedPlaybackEvent;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long initiatedPlaybackLocation; // @synthesize initiatedPlaybackLocation=_initiatedPlaybackLocation;
-@property(readonly, nonatomic) NSMutableDictionary *reporters; // @synthesize reporters=_reporters;
-@property(readonly) Class superclass;
 
 @end
 

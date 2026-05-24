@@ -9,15 +9,12 @@
 @interface PKDynamicTemplateLayout
 {
     NSMutableDictionary *_layoutStrings;
-    NSMutableDictionary *_layoutImages;
-    NSMutableDictionary *_layoutLinks;
-    NSString *_templateIdentifier;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (id);
@@ -25,8 +22,8 @@
 - (id);
 - (void);
 - (id);
-- (id)endAuthorizedQuoteAnalyticsWithSuccess:(id)arg1 mode:authorizedQuote:status: /* Error: Ran out of types for this method. */;
-- (void);
+- (id)_sendAuthorizedQuoteAnalyticsWithSuccess:(id)arg1 mode:authorizedQuote:status: /* Error: Ran out of types for this method. */;
+- (void)bind;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *templateIdentifier; // @synthesize templateIdentifier=_templateIdentifier;

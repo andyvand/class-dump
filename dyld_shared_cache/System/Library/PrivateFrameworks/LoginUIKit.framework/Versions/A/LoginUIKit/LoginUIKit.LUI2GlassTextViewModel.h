@@ -7,12 +7,6 @@
 @interface LoginUIKit.LUI2GlassTextViewModel
 {
     id _alignment;
-    id _animate;
-    id _date;
-    id _font;
-    id _numberingSystem;
-    id _shows24HourTime;
-    id formatter;
 }
 
 @end

@@ -6,30 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SUGSchemaSUGEngagementMetricReported : SISchemaInstrumentationMessage
 {
     NSString *_suggestionId;
-    NSString *_loggingActionId;
-    unsigned int _numberSuggestionShownBefore;
-    _Bool _hasConversion;
-    unsigned int _secondsToConversion;
-    unsigned int _numberOfActionsBefore;
-    unsigned int _numberOfActionsAfter;
-    int _daysBucketType;
-    int _conversionMetricType;
-    struct {
-        unsigned int numberSuggestionShownBefore:1;
-        unsigned int hasConversion:1;
-        unsigned int secondsToConversion:1;
-        unsigned int numberOfActionsBefore:1;
-        unsigned int numberOfActionsAfter:1;
-        unsigned int daysBucketType:1;
-        unsigned int conversionMetricType:1;
-    } _has;
-    _Bool _hasSuggestionId;
-    _Bool _hasLoggingActionId;
 }
 
 - (void);
@@ -50,11 +31,11 @@
 - (void);
 - (unsigned int);
 - (unsigned int);
+- (unsigned int)3;
 - (unsigned int);
-- (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -70,43 +51,25 @@
 - (void);
 - (void);
 - (void);
+- (int)H@9(;
 - (int);
-- (int);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)q16;
+- (void)16^B24;
+- (_Bool)entryToValidate;
+- (_Bool)roup_action_type, share_status, share_direction FROM message;
 - (id);
-- (id);
-- (id)eleteNowPlayingState;
-- (id)data;
+- (id)&;
+- (id)deleteNowPlayingState;
+- (id)_hasSuggestionDomainMetadata;
 - (void)tInformation;
 
 // Remaining properties
-@property(nonatomic) int conversionMetricType; // @synthesize conversionMetricType=_conversionMetricType;
-@property(nonatomic) int daysBucketType; // @synthesize daysBucketType=_daysBucketType;
-@property(nonatomic) _Bool hasConversion; // @synthesize hasConversion=_hasConversion;
-@property(nonatomic) _Bool hasConversionMetricType;
-@property(nonatomic) _Bool hasDaysBucketType;
-@property(nonatomic) _Bool hasHasConversion;
-@property(nonatomic) _Bool hasLoggingActionId; // @synthesize hasLoggingActionId=_hasLoggingActionId;
-@property(nonatomic) _Bool hasNumberOfActionsAfter;
-@property(nonatomic) _Bool hasNumberOfActionsBefore;
-@property(nonatomic) _Bool hasNumberSuggestionShownBefore;
-@property(nonatomic) _Bool hasSecondsToConversion;
-@property(nonatomic) _Bool hasSuggestionId; // @synthesize hasSuggestionId=_hasSuggestionId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *loggingActionId; // @synthesize loggingActionId=_loggingActionId;
-@property(nonatomic) unsigned int numberOfActionsAfter; // @synthesize numberOfActionsAfter=_numberOfActionsAfter;
-@property(nonatomic) unsigned int numberOfActionsBefore; // @synthesize numberOfActionsBefore=_numberOfActionsBefore;
-@property(nonatomic) unsigned int numberSuggestionShownBefore; // @synthesize numberSuggestionShownBefore=_numberSuggestionShownBefore;
-@property(nonatomic) unsigned int secondsToConversion; // @synthesize secondsToConversion=_secondsToConversion;
 @property(copy, nonatomic) NSString *suggestionId; // @synthesize suggestionId=_suggestionId;
 
 @end

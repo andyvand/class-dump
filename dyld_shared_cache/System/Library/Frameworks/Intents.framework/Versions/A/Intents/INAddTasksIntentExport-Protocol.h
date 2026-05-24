@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INContactEventTrigger, INIntent, INSpatialEventTrigger, INTaskList, INTemporalEventTrigger, NSArray;
-
 @protocol INAddTasksIntentExport
-- (long long);
+- (void);
 
 // Remaining properties
-@property(copy) INContactEventTrigger *contactEventTrigger;
-@property(copy) INIntent *intent;
-@property long long priority;
-@property(copy) INSpatialEventTrigger *spatialEventTrigger;
-@property(copy) INTaskList *targetTaskList;
-@property(copy) NSArray *targetTaskListMembers;
 @property long long taskReference;
-@property(copy) NSArray *taskTitles;
-@property(copy) INTemporalEventTrigger *temporalEventTrigger;
 @end
 

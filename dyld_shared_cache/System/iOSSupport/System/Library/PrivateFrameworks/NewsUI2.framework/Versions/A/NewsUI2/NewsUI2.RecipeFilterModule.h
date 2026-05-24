@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeFilterModule
 {
     id resolver;
-    id tracker;
 }
 
 @end

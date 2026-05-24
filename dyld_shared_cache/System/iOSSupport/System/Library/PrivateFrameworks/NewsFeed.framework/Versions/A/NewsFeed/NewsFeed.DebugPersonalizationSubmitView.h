@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugPersonalizationSubmitView
 {
     id submitButton;
-    id submitText;
 }
 
 - (id);

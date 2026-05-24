@@ -4,78 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableArray, NSObject, NSPPrivacyProxyTokenKey, NSPPrivateAccessTokenRequest, NSString, NSURL;
-
 @interface NSPPrivateAccessTokenFetcher
 {
     _Bool _systemClient;
-    unsigned int _rateLimit;
-    unsigned int _metadataSize;
-    NSString *_selectedOrigin;
-    NSString *_bundleID;
-    NSString *_auxiliaryAuthenticationCacheKey;
-    NSURL *_customAttester;
-    NSDictionary *_customAttesterHeaders;
-    NSData *_challengeData;
-    NSData *_pairedChallengeData;
-    NSData *_tokenKey;
-    NSData *_originNameKey;
-    NSData *_auxiliaryAuthenticationChallengeData;
-    NSData *_auxiliaryAuthenticationKey;
-    NSString *_auxiliaryAuthenticationLabel;
-    NSMutableArray *_secondaryFetchers;
-    NSObject *_waitingToken;
-    NSPPrivateAccessTokenRequest *_waitingTokenRequest;
-    NSData *_waitingClientNonce;
-    NSPPrivacyProxyTokenKey *_waitingTokenKey;
-    CDStruct_4c969caf _auditToken;
 }
 
 + (void);
 + (_Bool);
-+ (void);
++ (void)storeLastQuarantineCountReportDate:(unsigned long long)arg1 error:(id)arg2;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void);
 - (void);
 - (unsigned int);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)ublic}@;
+- (unsigned int)ainRestriction invalid class name:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
-@property(retain) NSString *auxiliaryAuthenticationCacheKey; // @synthesize auxiliaryAuthenticationCacheKey=_auxiliaryAuthenticationCacheKey;
-@property(retain) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly) NSURL *customAttester;
-@property(readonly) NSDictionary *customAttesterHeaders;
-@property unsigned int metadataSize; // @synthesize metadataSize=_metadataSize;
-@property unsigned int rateLimit; // @synthesize rateLimit=_rateLimit;
-@property(retain) NSString *selectedOrigin; // @synthesize selectedOrigin=_selectedOrigin;
 @property _Bool systemClient; // @synthesize systemClient=_systemClient;
 
 @end

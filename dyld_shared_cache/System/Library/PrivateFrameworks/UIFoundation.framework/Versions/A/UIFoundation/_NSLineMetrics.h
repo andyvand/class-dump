@@ -10,28 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _NSLineMetrics
 {
     NSAttributedString *_attributedString;
-    struct _NSRange _lineRange;
-    struct __CTLine *_line;
-    double *_positions;
-    _Bool *_hasAdvanceAdjustment;
-    double *_initialAdvances;
-    double *_finalAdvances;
-    unsigned long long _terminalAdvancesCapacity;
-    _Bool _terminalAdvancesValid;
-    struct __CFArray *_runsBuf;
-    struct CGSize *_advancesBuf;
-    long long *_stringIndicesBuf;
-    unsigned long long _glyphCapacity;
-    struct __CFLocale *_locale;
-    unsigned long long _hasShaping;
-    _Bool _isInCalculatePositions;
 }
 
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct __CTLine *);
+- (struct __CTLine *)=;
 - (unsigned long long);
 - (double);
 - (id);
@@ -51,9 +36,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSAttributedString *attributedString; // @synthesize attributedString=_attributedString;
-@property(readonly) struct __CTLine *line; // @synthesize line=_line;
-@property(readonly) struct _NSRange lineRange; // @synthesize lineRange=_lineRange;
-@property(nonatomic) struct __CFLocale *locale;
 
 @end
 

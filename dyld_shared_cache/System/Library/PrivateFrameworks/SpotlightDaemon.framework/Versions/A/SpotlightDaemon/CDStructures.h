@@ -38,16 +38,12 @@ struct __sbuf {
     int _field2;
 };
 
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long queryId;
-    unsigned long long internalQueryId;
-} CDStruct_c4da3ce1;
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
 
 typedef struct {
     char *_field1;

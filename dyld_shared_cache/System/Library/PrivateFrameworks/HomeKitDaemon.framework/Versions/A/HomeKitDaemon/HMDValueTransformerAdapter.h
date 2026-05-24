@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (Class)DeltaToNow: /* Error: Ran out of types for this method. */;
++ (Class)addDeltaToNow: /* Error: Ran out of types for this method. */;
 + (Class);
 - (_Bool);
 - (id);
+- (id)ionContext:(id)arg1;
 - (id);
-- (id);
-- (id)letionHandler:(id)arg1;
+- (id)updateNetworkMismatchInfoWithCompletionHandler:(id)arg1;
 - (id):(id)arg1 %@;
 - (void)ateManager;
 

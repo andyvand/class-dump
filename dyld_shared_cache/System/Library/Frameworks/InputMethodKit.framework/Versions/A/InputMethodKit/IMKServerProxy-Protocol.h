@@ -5,5 +5,8 @@
 //
 
 @protocol IMKServerProxy
+- (id);
+- (_Bool);
+- (void);
 @end
 

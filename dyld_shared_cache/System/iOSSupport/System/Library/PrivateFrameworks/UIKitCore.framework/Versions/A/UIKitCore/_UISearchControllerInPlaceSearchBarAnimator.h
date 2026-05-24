@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)d:(id)arg1;
+- (void)_setTransitionWasStopped:(id)arg1;
 
 @end
 

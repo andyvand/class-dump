@@ -6,7 +6,7 @@
 
 #import <CalendarUI/CalUIAutoCompleteField.h>
 
-@class EKUIGadget, NSString;
+@class EKUIGadget;
 
 @interface EKUIEditingField : CalUIAutoCompleteField
 {
@@ -17,19 +17,12 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property __weak EKUIGadget *gadget; // @synthesize gadget=_gadget;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

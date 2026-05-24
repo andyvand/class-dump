@@ -5,6 +5,8 @@
 //
 
 @protocol TSTCellRegionIterating
-- (void)ssChanges: /* Error: Ran out of types for this method. */;
+- (id)n loading content;
+- (CDStruct_bd4d8e6b);
+- (void)syncProcessChanges: /* Error: Ran out of types for this method. */;
 @end
 

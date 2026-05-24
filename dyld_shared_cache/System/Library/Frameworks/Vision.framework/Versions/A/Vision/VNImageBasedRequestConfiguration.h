@@ -12,12 +12,10 @@ __attribute__((visibility("hidden")))
 @interface VNImageBasedRequestConfiguration : VNRequestConfiguration
 {
     NSArray *_inputFaceObservations;
-    NSArray *_inputDetectedObjectObservations;
-    struct CGRect _regionOfInterest;
 }
 
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (id);
 - (id);
@@ -27,8 +25,6 @@ __attribute__((visibility("hidden")))
 - (void)ed to unarchive VNFaceLandmarkRegion object. Error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *inputDetectedObjectObservations; // @synthesize inputDetectedObjectObservations=_inputDetectedObjectObservations;
-@property(copy, nonatomic) NSArray *inputFaceObservations; // @synthesize inputFaceObservations=_inputFaceObservations;
 @property(nonatomic) struct CGRect regionOfInterest; // @synthesize regionOfInterest=_regionOfInterest;
 
 @end

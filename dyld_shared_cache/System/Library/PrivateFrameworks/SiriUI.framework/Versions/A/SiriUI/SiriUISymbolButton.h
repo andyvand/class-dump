@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)<CNCancelable>"16;
 - (_Bool);
 - (id);
 

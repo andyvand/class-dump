@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSObject, NSURLSession;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary, NSURLSession;
 
 @interface PKObjectDownloader
 {
     NSMutableDictionary *_downloads;
-    NSMutableOrderedSet *_pendingURLs;
-    NSMutableSet *_downloadingURLs;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSURLSession *_session;
-    long long _concurrentRequests;
 }
 
 + (id);
@@ -24,7 +18,7 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -32,12 +26,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)setSearchScope:(id)arg1;
 - (void)array needs to be a dictionary. Found object of class %@.;
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long concurrentRequests; // @synthesize concurrentRequests=_concurrentRequests;
 @property(retain, nonatomic) NSURLSession *session; // @synthesize session=_session;
 
 @end

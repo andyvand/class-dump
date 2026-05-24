@@ -5,5 +5,8 @@
 //
 
 @protocol RTIInputSystemPayloadDelegate
+
+@optional
+- (void);
 @end
 

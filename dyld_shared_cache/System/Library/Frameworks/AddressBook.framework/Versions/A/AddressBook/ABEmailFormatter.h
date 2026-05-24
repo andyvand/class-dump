@@ -17,7 +17,7 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id).-;
 - (void)
 × ;
 - (id)dress",&,N,V_postalAddress;

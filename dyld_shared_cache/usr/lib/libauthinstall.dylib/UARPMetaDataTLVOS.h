@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface UARPMetaDataTLVOS
 {
     unsigned int _tlvType;
-    NSData *_tlvValue;
-    unsigned int _tlvLength;
 }
 
 + (id);
@@ -27,11 +23,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)showContentsOfLayerAsPictureInPicture:sourceVideoFrame:sourceUIWindow:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int tlvLength; // @synthesize tlvLength=_tlvLength;
 @property(readonly) unsigned int tlvType; // @synthesize tlvType=_tlvType;
 
 @end

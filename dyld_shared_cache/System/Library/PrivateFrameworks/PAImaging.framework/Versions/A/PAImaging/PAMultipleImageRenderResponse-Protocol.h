@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
+@class NSArray;
 
 @protocol PAMultipleImageRenderResponse
 
 // Remaining properties
-@property(readonly) NSError *error;
 @property(readonly) NSArray *images;
 @end
 

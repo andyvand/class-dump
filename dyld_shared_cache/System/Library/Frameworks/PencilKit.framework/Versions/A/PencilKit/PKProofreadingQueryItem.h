@@ -6,7 +6,7 @@
 
 #import <PencilKit/PKDetectionQueryItem.h>
 
-@class CHTextCheckingQueryItem, NSArray;
+@class CHTextCheckingQueryItem;
 
 @interface PKProofreadingQueryItem : PKDetectionQueryItem
 {
@@ -22,12 +22,10 @@
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (void);
+- (void)c;
 
 // Remaining properties
 @property(retain, nonatomic) CHTextCheckingQueryItem *coreHandwritingTextCheckingQueryItem; // @synthesize coreHandwritingTextCheckingQueryItem=_coreHandwritingTextCheckingQueryItem;
-@property(readonly, nonatomic) NSArray *replacementStrings;
-@property(readonly, nonatomic) int resultType;
 
 @end
 

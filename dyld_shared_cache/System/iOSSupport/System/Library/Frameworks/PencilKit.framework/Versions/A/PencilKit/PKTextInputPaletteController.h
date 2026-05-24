@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaletteController, PKPaletteFloatingKeyboardController, PKTextInputSettings, PKTextInputWindowFirstResponderController, UIWindowScene;
-@protocol PKTextInputPaletteControllerDelegate;
+@class PKPaletteFloatingKeyboardController;
 
 @interface PKTextInputPaletteController
 {
     _Bool __writingStateActive;
-    PKPaletteFloatingKeyboardController *__floatingKeyboardController;
-    id <PKTextInputPaletteControllerDelegate> _delegate;
-    PKTextInputSettings *__textInputSettings;
-    PKTextInputWindowFirstResponderController *__windowFirstResponderController;
-    PKPaletteController *__paletteController;
-    struct CGRect _editingOverlayContainerSceneBounds;
 }
 
 - (void);
@@ -52,7 +45,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)IdentifierRotationSignal;
 - (id);
 - (id);
 - (void);
@@ -61,21 +54,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PKPaletteFloatingKeyboardController *_floatingKeyboardController; // @synthesize _floatingKeyboardController=__floatingKeyboardController;
-@property(retain, nonatomic) PKPaletteController *_paletteController; // @synthesize _paletteController=__paletteController;
-@property(retain, nonatomic) PKTextInputSettings *_textInputSettings; // @synthesize _textInputSettings=__textInputSettings;
-@property(retain, nonatomic) PKTextInputWindowFirstResponderController *_windowFirstResponderController; // @synthesize _windowFirstResponderController=__windowFirstResponderController;
-@property(nonatomic, getter=_isWritingStateActive, setter=_setWritingStateActive:) _Bool _writingStateActive; // @synthesize _writingStateActive=__writingStateActive;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKTextInputPaletteControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGRect editingOverlayContainerSceneBounds; // @synthesize editingOverlayContainerSceneBounds=_editingOverlayContainerSceneBounds;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isPaletteVisible) _Bool paletteVisible;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIWindowScene *windowScene;
 
 @end
 

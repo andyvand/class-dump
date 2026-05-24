@@ -9,9 +9,6 @@
 @interface CKTuple4 : CKTuple
 {
     id _v1;
-    id _v2;
-    id _v3;
-    id _v4;
 }
 
 - (void);
@@ -25,15 +22,12 @@
 - (void);
 - (id);
 - (id);
-- (void)tePrivate;
+- (void)CKSyncEngineDelegatePrivate;
 - (id);
 - (id)Ìóÿ¨ò;
 
 // Remaining properties
 @property(retain, nonatomic) id v1; // @synthesize v1=_v1;
-@property(retain, nonatomic) id v2; // @synthesize v2=_v2;
-@property(retain, nonatomic) id v3; // @synthesize v3=_v3;
-@property(retain, nonatomic) id v4; // @synthesize v4=_v4;
 
 @end
 

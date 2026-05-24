@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WebKitPreferencesManager;
 @protocol WBSSiteMetadataProviderDelegate;
 
 __attribute__((visibility("hidden")))
 @interface BookmarkSummaryProvider
 {
     struct Context _context;
-    WebKitPreferencesManager *_preferencesManager;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
 }
 
 - (void);
@@ -25,18 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)à;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

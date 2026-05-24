@@ -7,9 +7,6 @@
 @interface FamilyCircleUI.ScreenTimePasscodeController
 {
     id delegate;
-    id screentimePasscodeListener;
-    id isListening;
-    id passcodeControllerType;
 }
 
 - (id);

@@ -7,10 +7,6 @@
 @interface (extension in UIKit):__C.UIView.AlphaOverrideAssertionSubject__priv_DB0EE11DEDEE6C8426C15FCDB7409802
 {
     id $__lazy_storage_$_assertionController;
-    id modifiers;
-    id assertionID;
-    id presentationLayer;
-    id host;
 }
 
 - (id);

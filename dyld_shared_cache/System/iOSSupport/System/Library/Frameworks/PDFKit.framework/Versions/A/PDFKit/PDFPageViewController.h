@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFPageViewControllerPrivate;
+@class PDFPageViewControllerPrivate;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageViewController
@@ -39,30 +39,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)95A;
 - (void);
 - (void);
+- (void)setSiteName:(id)arg1;
+- (double)tialProviderExtensionNotificationManager;
+- (id);
 - (void);
-- (void);
-- (double);
-- (id);
-- (void);
-- (void);
+- (void)__TEXT;
 - (id);
 - (void);
 - (void);
 - (id){CGSize=dd}}24;
-- (id)pixelAlignPageFrameOrigin: /* Error: Ran out of types for this method. */;
+- (id)_pixelAlignPageFrameOrigin: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

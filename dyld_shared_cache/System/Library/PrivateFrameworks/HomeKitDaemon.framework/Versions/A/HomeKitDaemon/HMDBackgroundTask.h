@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackgroundTask
 {
     NSDate *_expectedFireDate;
-    NSDate *_scheduledDate;
-    NSString *_identifier;
 }
 
 - (id);
@@ -23,8 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *expectedFireDate; // @synthesize expectedFireDate=_expectedFireDate;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSDate *scheduledDate; // @synthesize scheduledDate=_scheduledDate;
 
 @end
 

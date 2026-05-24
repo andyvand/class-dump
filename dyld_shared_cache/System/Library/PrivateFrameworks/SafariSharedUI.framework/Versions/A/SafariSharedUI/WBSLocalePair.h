@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString, _LTLocalePair;
+@class NSLocale;
 
 @interface WBSLocalePair
 {
     NSLocale *_sourceLocale;
-    NSLocale *_targetLocale;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)_shouldExpandContentToViewHeightForAutoLayout;
+- (id)_selectedFilters;
+- (id)_selectedAttachmentControllersCompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)",&,N,V_messageList;
+- (id)�c;
 - (void)ideMyEmailManager",R,N;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *compactDescriptionForLogging;
-@property(readonly, nonatomic) _LTLocalePair *lt_localePair;
 @property(readonly, nonatomic) NSLocale *sourceLocale; // @synthesize sourceLocale=_sourceLocale;
-@property(readonly, copy, nonatomic) NSString *sourceLocaleIdentifier;
-@property(readonly, nonatomic) NSLocale *targetLocale; // @synthesize targetLocale=_targetLocale;
-@property(readonly, copy, nonatomic) NSString *targetLocaleIdentifier;
 
 @end
 

@@ -6,28 +6,11 @@
 
 #import <CoreHAP/HAPAccessoryServer.h>
 
-@class HAP2AccessorySessionInfo, HAP2SerializedOperationQueue, HAPAccessory, HMFTimer, NSArray, NSString;
-@protocol HAP2Cancelable, HAP2PairedAccessoryServer, HAP2UnpairedAccessoryServer;
+@class HAP2SerializedOperationQueue;
 
 @interface HAPAccessoryServerHAP2Adapter : HAPAccessoryServer
 {
     _Bool _internallyPaired;
-    _Bool _skipUserConsent;
-    _Bool _discoverAccessoriesOncePaired;
-    id <HAP2UnpairedAccessoryServer> _unpairedServer;
-    id <HAP2PairedAccessoryServer> _pairedServer;
-    id <HAP2Cancelable> _pairingSessionCancelable;
-    CDUnknownBlockType _setupCodeCompletion;
-    CDUnknownBlockType _userConsentCompletion;
-    CDUnknownBlockType _authValidationCompletion;
-    CDUnknownBlockType _softwareAuthFinishedCompletion;
-    CDUnknownBlockType _authenticateUUIDCompletion;
-    HAPAccessory *_primaryAccessory;
-    NSArray *_accessories;
-    HAP2SerializedOperationQueue *_operationQueue;
-    HMFTimer *_connectionIdleTimer;
-    double _disconnectOnIdleTimeout;
-    HAP2AccessorySessionInfo *_sessionInfo;
 }
 
 + (void)discovery failed with error:%@ /* Error: Ran out of types for this method. */;
@@ -49,11 +32,11 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)i;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -78,9 +61,9 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -98,13 +81,13 @@
 - (void);
 - (id);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -127,14 +110,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (long long);
 - (void);
@@ -150,10 +133,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)rrent read.;
 - (id);
 - (void);
-- (void)ingWACAccessoryServers;
+- (void)startDiscoveringWACAccessoryServers;
 - (void)characteristic does not support secured reads:%{public}@ /* Error: Ran out of types for this method. */;
 - (long long)6BB765291;
 - (_Bool)ðÿ;
@@ -161,32 +144,7 @@
 ;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType authValidationCompletion; // @synthesize authValidationCompletion=_authValidationCompletion;
-@property(copy, nonatomic) CDUnknownBlockType authenticateUUIDCompletion; // @synthesize authenticateUUIDCompletion=_authenticateUUIDCompletion;
-@property(retain, nonatomic) HMFTimer *connectionIdleTimer; // @synthesize connectionIdleTimer=_connectionIdleTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property double disconnectOnIdleTimeout; // @synthesize disconnectOnIdleTimeout=_disconnectOnIdleTimeout;
-@property(nonatomic, getter=shouldDiscoverAccessoriesOncePaired) _Bool discoverAccessoriesOncePaired; // @synthesize discoverAccessoriesOncePaired=_discoverAccessoriesOncePaired;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInternallyPaired) _Bool internallyPaired; // @synthesize internallyPaired=_internallyPaired;
-@property(readonly, nonatomic) _Bool onDemandConnectionsAreEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) HAP2SerializedOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(retain, nonatomic) id <HAP2PairedAccessoryServer> pairedServer; // @synthesize pairedServer=_pairedServer;
-@property(retain, nonatomic) id <HAP2Cancelable> pairingSessionCancelable; // @synthesize pairingSessionCancelable=_pairingSessionCancelable;
-@property(retain, nonatomic) HAP2AccessorySessionInfo *sessionInfo; // @synthesize sessionInfo=_sessionInfo;
-@property(copy, nonatomic) CDUnknownBlockType setupCodeCompletion; // @synthesize setupCodeCompletion=_setupCodeCompletion;
-@property(nonatomic, getter=shouldSkipUserConsent) _Bool skipUserConsent; // @synthesize skipUserConsent=_skipUserConsent;
-@property(copy, nonatomic) CDUnknownBlockType softwareAuthFinishedCompletion; // @synthesize softwareAuthFinishedCompletion=_softwareAuthFinishedCompletion;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <HAP2UnpairedAccessoryServer> unpairedServer; // @synthesize unpairedServer=_unpairedServer;
-@property(copy, nonatomic) CDUnknownBlockType userConsentCompletion; // @synthesize userConsentCompletion=_userConsentCompletion;
 
 @end
 

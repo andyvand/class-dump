@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface CRKCertificatesRequestResult
 {
     _Bool _validRequest;
-    NSArray *_certificateDataCollection;
 }
 
 + (id);
@@ -24,10 +21,9 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *certificateDataCollection; // @synthesize certificateDataCollection=_certificateDataCollection;
 @property(readonly, nonatomic, getter=isValidRequest) _Bool validRequest; // @synthesize validRequest=_validRequest;
 
 @end

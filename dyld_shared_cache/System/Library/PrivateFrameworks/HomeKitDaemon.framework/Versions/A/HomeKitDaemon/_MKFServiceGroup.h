@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFServiceGroupDatabaseID, NSArray, NSDate, NSSet, NSString, NSUUID;
-@protocol MKFApplicationData, MKFHome;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFServiceGroup : _MKFModel
@@ -22,35 +21,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFApplicationData> applicationData; // @dynamic applicationData;
-@property(readonly, copy, nonatomic) MKFServiceGroupDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(readonly, retain, nonatomic) NSArray *services;
-@property(retain, nonatomic) NSSet *services_; // @dynamic services_;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

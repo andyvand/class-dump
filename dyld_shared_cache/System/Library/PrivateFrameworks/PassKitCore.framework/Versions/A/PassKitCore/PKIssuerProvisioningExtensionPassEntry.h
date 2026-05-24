@@ -9,33 +9,27 @@
 @interface PKIssuerProvisioningExtensionPassEntry
 {
     NSString *_identifier;
-    NSString *_title;
-    struct CGImage *_art;
-    long long _type;
 }
 
 + (_Bool)0@ù
 × ;
 - (id);
 - (_Bool);
-- (id);
+- (id)(;
 - (struct CGImage *);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool)setAvgRTTSmallPktSize:(id)arg1;
+- (void)time_to_succeed;
 - (void);
 - (id);
-- (id)entSetupAssistantCoreProvisioningContext;
+- (id)PKPaymentSetupAssistantCoreProvisioningContext;
 - (void)deCreditRewardsHubSignage:'%@' /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *art; // @synthesize art=_art;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol NSTrailingGlowDelegate
+- (void)#;
+- (void);
 @end
 

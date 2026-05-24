@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMITorsoprinter, NSString;
+@class HMITorsoprinter;
 
 @interface HMITorsoClassifier
 {
     HMITorsoprinter *_torsoprinter;
-    double _classificationThresholdKnown;
 }
 
 + (id)3;
@@ -20,14 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) double classificationThresholdKnown; // @synthesize classificationThresholdKnown=_classificationThresholdKnown;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) HMITorsoprinter *torsoprinter; // @synthesize torsoprinter=_torsoprinter;
 
 @end

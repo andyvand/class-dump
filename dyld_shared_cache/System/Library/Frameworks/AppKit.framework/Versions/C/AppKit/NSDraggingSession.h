@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFilePromiseDragSource, NSImage, NSPasteboard;
-@protocol NSDraggingSource;
-
 @interface NSDraggingSession
 {
     void *_private;
-    struct CGPoint _offset;
-    id <NSDraggingSource> _source;
-    id _alternateDragSource;
-    id _localContext;
-    NSArray *_localItemObjects;
-    NSFilePromiseDragSource *_filePromiseDragSource;
-    NSPasteboard *_pboard;
-    NSImage *_compositeImageCache;
-    _Bool _animatesOnCancelOrFail;
-    struct CGPoint _startLocation;
 }
 
 - (struct CGPoint);
@@ -38,18 +25,18 @@
 - (void);
 - (struct CGPoint);
 - (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (struct CGPoint);
-- (long long);
-- (struct CGPoint);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)_currentTotalPersistentCacheUsage;
+- (void)__overrideSessionCookieAcceptPolicy;
+- (void)__extractor;
+- (long long)cessorInterfaceEnabled,V_enableCoprocessorInterface;
+- (id)ion;
+- (struct CGPoint),G_isProxySession,V_proxySession;
+- (long long)ck;
+- (struct CGPoint)setTLSMaximumSupportedProtocol: /* Error: Ran out of types for this method. */;
+- (long long)ConnectionMetrics",R;
+- (_Bool)veInformationalResponse():NULL response provided! /* Error: Ran out of types for this method. */;
+- (_Bool)c}@ performing AppleIDContext redirect;
+- (id)ld content %c;
 - (id);
 - (id);
 - (id);
@@ -60,20 +47,7 @@
 - (id)_environment;
 
 // Remaining properties
-@property id alternateDragSource; // @synthesize alternateDragSource=_alternateDragSource;
-@property _Bool animatesToStartingPositionsOnCancelOrFail;
-@property unsigned long long dragRef;
-@property long long draggingFormation;
-@property struct CGPoint draggingImageOffset; // @synthesize draggingImageOffset=_offset;
-@property long long draggingLeaderIndex;
-@property struct CGPoint draggingLocation;
-@property(readonly) NSPasteboard *draggingPasteboard;
-@property(readonly) long long draggingSequenceNumber;
-@property(readonly) id <NSDraggingSource> filePromiseDragSource; // @synthesize filePromiseDragSource=_filePromiseDragSource;
 @property(retain) id localContext; // @synthesize localContext=_localContext;
-@property(copy) NSArray *localItemObjects; // @synthesize localItemObjects=_localItemObjects;
-@property(readonly) id <NSDraggingSource> source; // @synthesize source=_source;
-@property struct CGPoint startLocation; // @synthesize startLocation=_startLocation;
 
 @end
 

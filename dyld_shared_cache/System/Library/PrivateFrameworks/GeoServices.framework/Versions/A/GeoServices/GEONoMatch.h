@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPathStretch, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEONoMatch
 {
     PBUnknownFields *_unknownFields;
-    GEOPathStretch *_stretch;
 }
 
-+ (_Bool)etHasUpcomingManeuverType:(id)arg1;
++ (_Bool)setHasUpcomingManeuverType:(id)arg1;
 - (void);
 - (_Bool);
-- (id);
+- (id)40@0:8@16@24q32 /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)setNAPrivs:(_Bool)arg1;
+- (void)onModelScore;
+- (void)FeedbackForTwoShotAtTime:(id)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasStretch;
-@property(retain, nonatomic) GEOPathStretch *stretch;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

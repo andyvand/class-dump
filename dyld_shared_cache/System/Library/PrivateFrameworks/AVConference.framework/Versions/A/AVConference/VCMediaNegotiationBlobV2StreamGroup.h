@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, VCMediaNegotiationBlobV2SettingsU1;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobV2StreamGroup
 {
     NSMutableArray *_payloads;
-    VCMediaNegotiationBlobV2SettingsU1 *_settingsU1;
-    unsigned int _streamGroup;
-    NSMutableArray *_streams;
-    struct {
-        unsigned int streamGroup:1;
-    } _has;
 }
 
 + (void);
@@ -23,20 +17,20 @@ __attribute__((visibility("hidden")))
 + (unsigned int);
 + (unsigned int);
 + (Class);
-+ (_Bool);
++ (_Bool)g;
 + (id);
 + (id);
 + (id);
-- (_Bool);
-- (void);
+- (_Bool)CQ9;
+- (void)G;
 - (unsigned long long);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
@@ -58,8 +52,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)#;
+- (void)(;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -67,17 +61,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)/libSystem.B.dylib;
 - (id)ltiWay allocPayoadDataFromVTPPacket:vpktFlags:channelDataFormat:] /* Error: Ran out of types for this method. */;
 - (id)Éÿ§ÌëÄ&;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSettingsU1;
 @property(nonatomic) _Bool hasStreamGroup;
-@property(retain, nonatomic) NSMutableArray *payloads; // @synthesize payloads=_payloads;
-@property(retain, nonatomic) VCMediaNegotiationBlobV2SettingsU1 *settingsU1; // @synthesize settingsU1=_settingsU1;
-@property(nonatomic) unsigned int streamGroup; // @synthesize streamGroup=_streamGroup;
-@property(retain, nonatomic) NSMutableArray *streams; // @synthesize streams=_streams;
 
 @end
 

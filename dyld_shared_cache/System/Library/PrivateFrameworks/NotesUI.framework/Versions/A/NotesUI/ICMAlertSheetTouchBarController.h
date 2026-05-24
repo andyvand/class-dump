@@ -6,43 +6,35 @@
 
 #import <NotesUI/ICMBaseTouchBarController.h>
 
-@class NSArray, NSGroupTouchBarItem, NSMutableDictionary, NSMutableOrderedSet, NSMutableSet, NSSet, NSString, NSTouchBar;
+@class NSArray, NSTouchBar;
 
 @interface ICMAlertSheetTouchBarController : ICMBaseTouchBarController
 {
     NSArray *_currentIdentifiers;
-    NSTouchBar *_groupTouchBar;
-    NSGroupTouchBarItem *_groupTouchBarItem;
-    NSTouchBar *_alertTouchBar;
-    NSMutableOrderedSet *_buttonIdentifiers;
-    NSMutableDictionary *_buttonIdentifiersToButtons;
-    NSMutableDictionary *_buttonIdentifiersToTouchBarItems;
-    NSMutableSet *_observedButtons;
-    NSSet *_observableProperties;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)nsfer-%@-preauth;
+- (void);
+- (void)P;
+- (id);
+- (void)(;
 - (void);
 - (void);
 - (id);
@@ -51,26 +43,11 @@
 - (void);
 - (id);
 - (void);
-- (void)aleImageToIconSize;
+- (void)_scaleImageToIconSize;
 - (id)raIcon];
 
 // Remaining properties
-@property(retain, nonatomic) NSTouchBar *alertTouchBar; // @synthesize alertTouchBar=_alertTouchBar;
-@property(retain, nonatomic) NSMutableOrderedSet *buttonIdentifiers; // @synthesize buttonIdentifiers=_buttonIdentifiers;
-@property(retain, nonatomic) NSMutableDictionary *buttonIdentifiersToButtons; // @synthesize buttonIdentifiersToButtons=_buttonIdentifiersToButtons;
-@property(retain, nonatomic) NSMutableDictionary *buttonIdentifiersToTouchBarItems; // @synthesize buttonIdentifiersToTouchBarItems=_buttonIdentifiersToTouchBarItems;
-@property(readonly, nonatomic) NSArray *currentIdentifiers; // @synthesize currentIdentifiers=_currentIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSTouchBar *groupTouchBar; // @synthesize groupTouchBar=_groupTouchBar;
-@property(retain, nonatomic) NSGroupTouchBarItem *groupTouchBarItem; // @synthesize groupTouchBarItem=_groupTouchBarItem;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSSet *observableProperties; // @synthesize observableProperties=_observableProperties;
-@property(retain, nonatomic) NSMutableSet *observedButtons; // @synthesize observedButtons=_observedButtons;
-@property(readonly) Class superclass;
 
 @end
 

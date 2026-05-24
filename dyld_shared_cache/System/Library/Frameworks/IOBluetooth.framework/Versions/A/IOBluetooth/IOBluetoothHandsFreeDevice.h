@@ -6,20 +6,13 @@
 
 #import <IOBluetooth/IOBluetoothHandsFree.h>
 
-@class IOBluetoothHandsFreeDeviceExpansion, NSMutableArray, NSTimer;
-
 @interface IOBluetoothHandsFreeDevice : IOBluetoothHandsFree
 {
     _Bool _rejectSCOConnection;
-    int _ringAttempt;
-    _Bool _outstandingCommand;
-    IOBluetoothHandsFreeDeviceExpansion *_expansion;
-    NSMutableArray *_commandQueue;
-    NSTimer *_outstandingCommandTimer;
 }
 
 + (id);
-+ (id);
++ (id),;
 - (void);
 - (void);
 - (void);
@@ -53,30 +46,30 @@
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int)q;
+- (void)q;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
 - (double);
-- (void);
+- (void)	;
 - (id);
 - (_Bool);
 - (struct AudioBufferList *);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (int);
 - (id);
 - (unsigned int);
@@ -99,16 +92,6 @@
 - (void);
 
 // Remaining properties
-@property struct _IOBluetoothRingBuffer *SCOInputBuffer;
-@property struct _IOBluetoothRingBuffer *SCOOutputBuffer;
-@property struct ComponentInstanceRecord *VPIOUnit;
-@property unsigned int driverConnect;
-@property struct AudioBufferList *outputBufferList;
-@property _Bool outstandingCommand; // @synthesize outstandingCommand=_outstandingCommand;
-@property NSTimer *outstandingCommandTimer; // @synthesize outstandingCommandTimer=_outstandingCommandTimer;
-@property double prevInputSampleTime;
-@property double prevOutputSampleTime;
-@property _Bool rejectSCOConnection; // @synthesize rejectSCOConnection=_rejectSCOConnection;
 @property int ringAttempt; // @synthesize ringAttempt=_ringAttempt;
 
 @end

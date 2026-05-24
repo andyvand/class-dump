@@ -13,7 +13,7 @@
 }
 
 - (_Bool);
-- (void);
+- (void)reCKBackupWithCompletion returned recoverIssue %u missing %u present %u error:(id)arg1 %@;
 - (void);
 - (id);
 - (void);

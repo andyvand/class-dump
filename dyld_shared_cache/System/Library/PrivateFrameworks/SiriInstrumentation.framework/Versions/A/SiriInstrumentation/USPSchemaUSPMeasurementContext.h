@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface USPSchemaUSPMeasurementContext : SISchemaInstrumentationMessage
 {
     NSString *_contextName;
-    int _environment;
-    struct {
-        unsigned int environment:1;
-    } _has;
-    _Bool _hasContextName;
 }
 
 - (void);
@@ -24,27 +19,23 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (void);
 - (unsigned long long);
+- (_Bool)_shouldHideTitleAndDepartmentSeparator;
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)setInterruptionHandler:(int)arg1;
+- (_Bool)ceived_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m  INDEXED BY message_idx_isRead_isFromMe_itemType  INNER JOIN chat_message_join cm ON cm.message_id = m.rowid  INNER JOIN chat c ON c.ROWID = cm.chat_id  WHERE m.ROWID > ?  AND m.is_read == 0  AND m.is_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0  AND c.is_filtered != 2  ORDER BY m.date DESC, m.ROWID DESC LIMIT ?;;
 - (id);
 - (id);
 - (id);
-- (id)p2Min;
-- (id)CreatedToLastResolverEventTime;
+- (id)deleteTaskAbandonCountForEntityInUsingApp2Min;
+- (id)_planCreatedToLastResolverEventTime;
 - (int)ommitStarted",&,N,V_startedOrChanged;
-- (void)ignalReported;
+- (void)contactSuggestionAccuracySignalReported;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contextName; // @synthesize contextName=_contextName;
-@property(nonatomic) int environment; // @synthesize environment=_environment;
-@property(nonatomic) _Bool hasContextName; // @synthesize hasContextName=_hasContextName;
-@property(nonatomic) _Bool hasEnvironment;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

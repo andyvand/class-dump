@@ -9,16 +9,15 @@
 @interface MKVariableDelayTapRecognizer
 {
     double originalMaximumIntervalBetweenSuccessiveTaps;
-    id <MKVariableDelayTapRecognizerDelegate> tapDelayDelegate;
 }
 
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)B;
+- (id)(;
+- (id)removeAllObjects;
+- (void)$;
 - (void)
 × ;
-- (void)ilterType;
+- (void)filterType;
 
 // Remaining properties
 @property(nonatomic) __weak id <MKVariableDelayTapRecognizerDelegate> tapDelayDelegate; // @synthesize tapDelayDelegate;

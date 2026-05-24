@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCECommsAppSelectionTrainingAppIndependentSignals, NSArray, NSData, SISchemaUUID;
+@class INFERENCESchemaINFERENCECommsAppSelectionTrainingAppIndependentSignals;
 
 @interface INFERENCESchemaINFERENCECommsAppSelectionGroundTruthGenerated : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCECommsAppSelectionTrainingAppIndependentSignals *_inferenceCommsAppSelectionTrainingAppIndependentSignals;
-    NSArray *_inferenceCommsAppSelectionTrainingAppDependentSignals;
-    SISchemaUUID *_crrCommsAppSelectionJointId;
-    _Bool _hasInferenceCommsAppSelectionTrainingAppIndependentSignals;
-    _Bool _hasCrrCommsAppSelectionJointId;
 }
 
 - (void);
@@ -29,8 +25,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)9;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -44,16 +40,11 @@
 - (id)
 × ;
 - (id);
-- (id)skProfile;
+- (id)JRSchemaRiskProfile;
 - (void)VF¶Ç";
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *crrCommsAppSelectionJointId; // @synthesize crrCommsAppSelectionJointId=_crrCommsAppSelectionJointId;
-@property(nonatomic) _Bool hasCrrCommsAppSelectionJointId; // @synthesize hasCrrCommsAppSelectionJointId=_hasCrrCommsAppSelectionJointId;
-@property(nonatomic) _Bool hasInferenceCommsAppSelectionTrainingAppIndependentSignals; // @synthesize hasInferenceCommsAppSelectionTrainingAppIndependentSignals=_hasInferenceCommsAppSelectionTrainingAppIndependentSignals;
-@property(copy, nonatomic) NSArray *inferenceCommsAppSelectionTrainingAppDependentSignals; // @synthesize inferenceCommsAppSelectionTrainingAppDependentSignals=_inferenceCommsAppSelectionTrainingAppDependentSignals;
 @property(retain, nonatomic) INFERENCESchemaINFERENCECommsAppSelectionTrainingAppIndependentSignals *inferenceCommsAppSelectionTrainingAppIndependentSignals; // @synthesize inferenceCommsAppSelectionTrainingAppIndependentSignals=_inferenceCommsAppSelectionTrainingAppIndependentSignals;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

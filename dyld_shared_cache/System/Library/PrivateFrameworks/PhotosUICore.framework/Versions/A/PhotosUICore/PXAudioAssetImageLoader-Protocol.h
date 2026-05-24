@@ -5,5 +5,6 @@
 //
 
 @protocol PXAudioAssetImageLoader
+- (void)b;
 @end
 

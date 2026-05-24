@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNNavigationDetails, MNNavigationServiceLocalProxy, NSMutableSet, NSString, NSXPCListener, geo_isolater;
+@class NSXPCListener;
 
 @interface MNNavigationServer
 {
     NSXPCListener *_listener;
-    NSMutableSet *_peers;
-    NSMutableSet *_unEntitledPeers;
-    geo_isolater *_peersIsolater;
-    MNNavigationDetails *_details;
-    geo_isolater *_sendNavigationDetailsIsolater;
-    MNNavigationServiceLocalProxy *_localProxy;
-    unsigned long long _stateCaptureHandle;
 }
 
 + (id);
@@ -32,36 +25,36 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)5;
 - (unsigned long long);
+- (void)!;
+- (void);
+- (id);
+- (void)h~;
+- (void);
+- (void);
+- (void);
+- (id)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)= nullptr;
+- (void)localizedStringForKey:value:table: /* Error: Ran out of types for this method. */;
+- (void)8{os_unfair_lock_s=I}16;
+- (void)accessKeyString;
 - (void);
 - (void);
 - (void);
@@ -73,11 +66,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)DeviceRestoreVersion;
+- (void)> 
+    Client(clientID:(id)arg1 %@|command:%@|cookie:%@) 
+    Completions(completion:%@|scanCompletion:%@|documentationCompletion:%@|splatScanCompletion:%@|sfrScanCompletion:%@) 
+    proxyObject:%@ 
+    progressManager:%@ 
+    accessControlContext:%@ 
+    descriptor:%@ 
+    overrides:%@ 
+<<<] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -85,18 +86,12 @@
 - (void);
 - (void);
 - (void)ordinate=If}88;
-- (void)on:(id)arg1;
+- (void)setHeadingOrientation:(id)arg1;
 - (void)nt.;
-- (void)t;
+- (void)RemoveWaypoint;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

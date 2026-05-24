@@ -5,7 +5,9 @@
 //
 
 @protocol PLPhotoLibraryBundleAbstractMethods
-- (id)n: /* Error: Ran out of types for this method. */;
+- (id)�;
+- (id);
+- (id)setOsVersion: /* Error: Ran out of types for this method. */;
 - (id)dStateChanged marking album "%@" setUnseenContentState:%@ /* Error: Ran out of types for this method. */;
 - (id)ritableFileURLForContextualVideoThumbnailIdentifier:] /* Error: Ran out of types for this method. */;
 @end

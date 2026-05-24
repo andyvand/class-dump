@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUserDefaults, WBSDevice;
+@class NSString;
 
 @interface WBSDeviceIdentifierManager
 {
     NSString *_deviceStoreKey;
-    _Bool _listensToChangeDistributedNotifications;
-    _Bool _readOnly;
-    _Bool _didFailToMigratePlist;
-    NSString *_deviceIdentifier;
-    NSString *_deviceIdentifierKey;
-    WBSDevice *_device;
-    NSUserDefaults *_userDefaults;
 }
 
 - (_Bool);
@@ -23,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -41,13 +34,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) WBSDevice *device; // @synthesize device=_device;
-@property(readonly, copy, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
 @property(readonly, copy, nonatomic) NSString *deviceIdentifierKey; // @synthesize deviceIdentifierKey=_deviceIdentifierKey;
-@property(readonly, nonatomic) _Bool didFailToMigratePlist; // @synthesize didFailToMigratePlist=_didFailToMigratePlist;
-@property(readonly, nonatomic) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property(readonly, nonatomic) _Bool shouldMigrateDeviceIdentifier;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
 
 @end
 

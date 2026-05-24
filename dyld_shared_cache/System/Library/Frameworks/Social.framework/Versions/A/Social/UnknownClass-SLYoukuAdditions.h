@@ -6,6 +6,7 @@
 
 @interface UnknownClass (SLYoukuAdditions)
 + (_Bool);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -14,17 +15,16 @@
 + (id);
 + (id);
 + (id);
++ (id)t;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)d;
 + (id);
 + (id);
 + (id);

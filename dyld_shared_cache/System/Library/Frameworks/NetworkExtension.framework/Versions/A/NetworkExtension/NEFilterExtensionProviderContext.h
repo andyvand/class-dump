@@ -6,31 +6,23 @@
 
 #import <NetworkExtension/NEExtensionProviderContext.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NEFilterExtensionProviderContext : NEExtensionProviderContext
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *_description;
 }
 
 - (void);
 - (void);
 - (void);
+- (id)e.private.tcc.allow;
 - (id);
-- (id);
-- (void)tConfidence: /* Error: Ran out of types for this method. */;
+- (void)setConfidence: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSObject<OS_dispatch_queue> *queue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,19 +7,6 @@
 @interface NewsUI2.ContinueReadingEligibilityProcessor
 {
     id featureAvailability;
-    id userActivityDeserializer;
-    id headlineService;
-    id issueManager;
-    id readingHistory;
-    id subscriptionList;
-    id paidAccessChecker;
-    id articleThumbnailImageCache;
-    id issueCoverImageCache;
-    id puzzleService;
-    id puzzleHistoryService;
-    id puzzleGameCenterService;
-    id bundleSubscriptionManager;
-    id dismissalDelayProvider;
 }
 
 @end

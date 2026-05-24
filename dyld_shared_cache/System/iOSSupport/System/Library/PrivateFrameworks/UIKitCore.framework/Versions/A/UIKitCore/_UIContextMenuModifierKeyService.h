@@ -12,12 +12,12 @@
 
 + (id)h;
 - (void);
-- (long long);
+- (long long)setPluginMetaDataFolder: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)rObservableScrollViewAmbiguityStatusDidChange:(id)arg1;
+- (void)_viewControllerObservableScrollViewAmbiguityStatusDidChange:(id)arg1;
 - (void);
 - (void)GÌ;
 - (void)Ücþ±È;

@@ -7,21 +7,14 @@
 @interface PeopleSuggesterFeatureDouble
 {
     double _value;
-    _Bool _defaultValue;
-    _Bool _wasImputed;
-    struct {
-        unsigned int value:1;
-        unsigned int defaultValue:1;
-        unsigned int wasImputed:1;
-    } _has;
 }
 
-- (_Bool);
+- (_Bool)_entityPartialAppCount2Min;
+- (void)_dnsResolutionTime;
+- (void)_contextualMitigatorAcceptPostContextualMitigationCount;
+- (_Bool)_airPlayRouteSettingStatus;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -30,7 +23,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)'
+;
 - (void);
 - (id);
 - (double);
@@ -39,12 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(nonatomic) _Bool hasDefaultValue;
 @property(nonatomic) _Bool hasValue;
-@property(nonatomic) _Bool hasWasImputed;
-@property(nonatomic) double value; // @synthesize value=_value;
-@property(nonatomic) _Bool wasImputed; // @synthesize wasImputed=_wasImputed;
 
 @end
 

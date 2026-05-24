@@ -12,18 +12,18 @@
 }
 
 + (void);
-+ (id);
++ (id)pg_query__alter_default_privileges_stmt__pack_to_buffer;
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)received callback from subscription %@, reading bookmark and subscribing to DSL graph publisher;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Duration:(id)arg1 %u;
 - (id);
 - (id);
 - (void)ðfúÿgúÿ´gúÿØgúÿ¬húÿèhúÿiúÿ0iúÿTiúÿjúÿ@júÿdjúÿ júÿÄjúÿkúÿ4kúÿÀkúÿükúÿ lúÿDlúÿhlúÿ¤lúÿÈlúÿìlúÿmúÿLmúÿpmúÿmúÿpoúÿoúÿ¸oúÿôoúÿpúÿ<púÿ`púÿpúÿÀpúÿäpúÿqúÿDqúÿhqúÿqúÿ°qúÿìqúÿrúÿ4rúÿXrúÿrúÿ¸rúÿsúÿPsúÿsúÿèsúÿhtúÿ¤túÿÈtúÿuúÿ$uúÿTuúÿxuúÿ´uúÿØuúÿ$vúÿHvúÿlvúÿ vúÿÜvúÿ;

@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOURLData
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_displayTitle;
-    NSString *_url;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_444e29a1 _flags;
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setNetworkSelectionHarvest:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void)pendingSecondPassTriggerWasClearedForClient:(id)arg1 deviceId: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)initWithGeoMapItemPhoto:(id)arg1 fallbackTitle: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -40,17 +33,13 @@
 - (id)
 × ;
 - (id)Size=dd}16@0:8 /* Error: Ran out of types for this method. */;
-- (id)rwardGeocodeAddress:addressString:maxResults:traits: /* Error: Ran out of types for this method. */;
+- (id)initWithForwardGeocodeAddress:addressString:maxResults:traits: /* Error: Ran out of types for this method. */;
 - (id)ripDepartureFeedback",&,N;
 - (id)onInfoReadAllFrom can only be called once per object;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *displayTitle;
 @property(readonly, nonatomic) _Bool hasDisplayTitle;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *url;
 
 @end
 

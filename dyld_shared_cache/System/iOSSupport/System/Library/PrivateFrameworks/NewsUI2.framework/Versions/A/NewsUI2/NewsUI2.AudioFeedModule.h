@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioFeedModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
 }
 
 @end

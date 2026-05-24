@@ -4,18 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSASModelEnumerator, NSString;
+@class MSASModelEnumerator, NSDictionary, NSString;
 
 @protocol MSASModel
-- (MSASModelEnumerator *)ushAllPendingCommentCheckOperations;
+- (void)@;
+- (id);
+- (void);
+- (void);
+- (void)cagadores;
+- (void)red CAT execution returned invalid JSON response;
+- (void)tobuf.UInt64Value;
+- (void);
+- (void)<;
+- (void);
+- (NSString *);
+- (void)nerOperatorComposition",&,V_EnergyTelemetryXPCListener;
+- (void)rformanceActivationDataXPCListener;
+- (void)TWIABR;
+- (void)dd 1 element to context;
+- (void)(;
+- (void)_preferredAddress;
+- (NSDictionary *)@
+	AgentClassName=%@;
+- (void)int, std:(NSString *)arg1:(NSString *)arg2 atomic<float>>, std:(NSDictionary *)arg3:__map_value_compare<unsigned int, std::pair<const unsigned int, std::atomic<float>>, std::less<unsigned int>>, std::allocator<std::pair<const unsigned int, std::atomic<float>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"mActiveNode"{weak_ptr<adm::graph::DSPNode>="__ptr_"^{DSPNode}"__cntrl_"^{__shared_weak_count}}})"__engaged_"B} /* Error: Ran out of types for this method. */;
+- (void);
+- (void)N3adm5graph14DSPGraphKernelE;
+- (void)rt counting query for bundle %@ in %@;
+- (NSString *);
+- (void)i;
+- (MSASModelEnumerator *)dbQueueFlushAllPendingCommentCheckOperations;
 - (MSASModelEnumerator *)N;
 - (void)g.;
-- (void)FIELD_P_FIELD;
+- (void)ERROR_MSAS_PROT_BAD_FIELD_P_FIELD;
 
 // Remaining properties
-@property(nonatomic) int maxGroupedCallbackEventBatchCount;
-@property(nonatomic) double maxGroupedCallbackEventIdleInterval;
-@property(nonatomic) double maxGroupedCallbackEventStaleness;
 @property(readonly, retain, nonatomic) NSString *personID;
 @end
 

@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     void *_provider;
 }
 
-- (id);
+- (id);
 - (struct __SecCode *);
 - (struct __CFBundle *);
 - (struct __CFBundle *);
@@ -21,14 +21,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void *);
+- (void *)ing checks.;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) struct __SecCode *copySecCodeRef; // @dynamic copySecCodeRef;
-@property(readonly) void *provider;
 
 @end
 

@@ -8,18 +8,18 @@
 {
 }
 
-+ (_Bool)ssRating:(id)arg1;
++ (_Bool)setIncludeBusinessRating:(id)arg1;
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)!;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id)@"GEORoutePreloader";
-- (id)lection;
+- (id)_locationCollection;
 - (id)¤é|ì;
 - (id)adAllFrom can only be called once per object;
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
+@class NSData;
 
 @interface PKFelicaGreenCarTicket
 {
     _Bool _refunded;
-    NSData *_originStation;
-    NSData *_destinationStation;
-    NSNumber *_validityStartDate;
 }
 
 + (_Bool)0@ù
@@ -21,16 +18,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id)Devices;
+- (id)_supportedDevices;
 - (void)rationProvider>"8@"NSError"16;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *destinationStation; // @synthesize destinationStation=_destinationStation;
 @property(readonly, copy, nonatomic) NSData *originStation; // @synthesize originStation=_originStation;
-@property(readonly, nonatomic, getter=isRefunded) _Bool refunded; // @synthesize refunded=_refunded;
-@property(readonly, copy, nonatomic) NSNumber *validityStartDate; // @synthesize validityStartDate=_validityStartDate;
 
 @end
 

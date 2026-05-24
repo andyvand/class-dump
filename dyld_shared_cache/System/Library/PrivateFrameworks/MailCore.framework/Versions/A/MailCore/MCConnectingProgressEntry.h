@@ -22,7 +22,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *connectingAccountNames; // @synthesize connectingAccountNames=_connectingAccountNames;

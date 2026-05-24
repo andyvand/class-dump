@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSMemoryMapping;
-
 @interface CSMemoryMappingSlice
 {
     struct _CSRange _remoteSliceRange;
-    CSMemoryMapping *_underlyingMapping;
 }
 
 - (void);
@@ -24,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long size;
-@property(readonly, nonatomic) CSMemoryMapping *underlyingMapping; // @synthesize underlyingMapping=_underlyingMapping;
-@property(readonly, nonatomic) const void *unsafeBytes;
 
 @end
 

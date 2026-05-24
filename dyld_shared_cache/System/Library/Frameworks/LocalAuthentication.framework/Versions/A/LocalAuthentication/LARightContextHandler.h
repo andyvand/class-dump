@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, NSString;
 @protocol LARightContextHandlerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface LARightContextHandler
 {
     id <LARightContextHandlerDelegate> _delegate;
-    LAContext *_context;
 }
 
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (void);
-- (id);
+- (id)4;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) LAContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <LARightContextHandlerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

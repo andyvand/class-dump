@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayMode, NSString;
-
 @interface CADisplayProperties
 {
     unsigned int _mask;
-    CADisplayMode *_currentMode;
-    NSString *_overscanAdjustment;
-    _Bool _dmrrEnabled;
-    unsigned int _connectionSeed;
-    struct CGSize _logicalScale;
-    unsigned int _pointScale;
-    _Bool _forceFixedRateLinks;
 }
 
 - (unsigned int);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -33,20 +24,13 @@
 - (struct CGSize);
 - (void);
 - (unsigned int);
-- (void);
+- (void));
 - (id);
-- (id);
-- (id);
+- (id)bundleWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned int connectionSeed;
-@property(retain, nonatomic) CADisplayMode *currentMode;
-@property(nonatomic) _Bool dmrrEnabled;
-@property(nonatomic) _Bool forceFixedRateLinks;
-@property(nonatomic) struct CGSize logicalScale;
-@property(copy, nonatomic) NSString *overscanAdjustment;
-@property(nonatomic) unsigned long long pointScale;
 @property(nonatomic) unsigned int updateMask;
 
 @end

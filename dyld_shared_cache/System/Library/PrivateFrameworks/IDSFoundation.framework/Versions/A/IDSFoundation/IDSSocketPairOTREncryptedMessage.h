@@ -6,18 +6,9 @@
 
 #import <IDSFoundation/IDSSocketPairMessage.h>
 
-@class NSData, NSDate, NSString;
-
 @interface IDSSocketPairOTREncryptedMessage : IDSSocketPairMessage
 {
     unsigned long long _offset;
-    unsigned char _versionNumber;
-    _Bool _encrypted;
-    _Bool _fileXfer;
-    unsigned short _streamID;
-    unsigned short _priority;
-    unsigned int _sequenceNumber;
-    NSData *_data;
 }
 
 - (void);
@@ -30,7 +21,7 @@
 - (unsigned char);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)ing anyways;
 - (_Bool);
 - (unsigned char);
 - (void)%u
@@ -38,37 +29,7 @@
 - (unsigned short)aáWü	;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
-@property(readonly, nonatomic) _Bool didWakeHint;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool encrypted; // @synthesize encrypted=_encrypted;
-@property(readonly, nonatomic) _Bool expectsPeerResponse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic) NSDate *expiryDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,&,N
-
-@property(readonly, nonatomic) _Bool fileXfer; // @synthesize fileXfer=_fileXfer;
-@property(readonly, nonatomic) NSString *messageUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) NSString *peerResponseIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,N
-
-@property(readonly, nonatomic) unsigned short priority; // @synthesize priority=_priority;
-@property(nonatomic) unsigned int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(nonatomic) unsigned short streamID; // @synthesize streamID=_streamID;
 @property(readonly, nonatomic) unsigned char versionNumber; // @synthesize versionNumber=_versionNumber;
-@property(readonly, nonatomic) _Bool wantsAppAck;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

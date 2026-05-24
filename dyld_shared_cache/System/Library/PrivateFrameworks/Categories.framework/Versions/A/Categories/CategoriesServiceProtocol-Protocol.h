@@ -5,5 +5,7 @@
 //
 
 @protocol CategoriesServiceProtocol
+- (void);
+- (void)B;
 @end
 

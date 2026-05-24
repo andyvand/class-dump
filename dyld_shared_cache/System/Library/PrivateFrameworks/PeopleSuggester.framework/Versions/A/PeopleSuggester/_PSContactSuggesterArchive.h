@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
+@class NSDate;
 
 @interface _PSContactSuggesterArchive
 {
     NSDate *_archiveDate;
-    NSDictionary *_contactPriorDictionary;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)_attempCount;
+- (id)_actionParameterUpdated;
 - (id);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *archiveDate; // @synthesize archiveDate=_archiveDate;
-@property(readonly, nonatomic) NSDictionary *contactPriorDictionary; // @synthesize contactPriorDictionary=_contactPriorDictionary;
 
 @end
 

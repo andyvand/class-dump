@@ -7,16 +7,10 @@
 @interface PGSettlingEffectWallpaperSuggesterFilteringContext
 {
     _Bool _ignoreClockOverlap;
-    long long _orientation;
-    double _minimumWallpaperScore;
-    double _minimumCropScore;
-    double _timeIntervalForCandidateDeduping;
-    double _maximumLowLightScore;
-    double _maximumCropZoomRatio;
 }
 
-+ (_Bool);
-+ (double);
++ (_Bool)addCharactersInString:(id)arg1;
++ (double)iJ;
 - (double);
 - (void);
 - (void);
@@ -28,19 +22,13 @@
 - (double);
 - (double);
 - (double);
-- (id);
-- (_Bool);
+- (id)selectionEndLineIndex;
+- (_Bool)hasOpenMenus;
 - (void);
-- (long long);
+- (long long)M;;
 
 // Remaining properties
-@property(nonatomic) _Bool ignoreClockOverlap; // @synthesize ignoreClockOverlap=_ignoreClockOverlap;
-@property(nonatomic) double maximumCropZoomRatio; // @synthesize maximumCropZoomRatio=_maximumCropZoomRatio;
-@property(nonatomic) double maximumLowLightScore; // @synthesize maximumLowLightScore=_maximumLowLightScore;
-@property(nonatomic) double minimumCropScore; // @synthesize minimumCropScore=_minimumCropScore;
-@property(nonatomic) double minimumWallpaperScore; // @synthesize minimumWallpaperScore=_minimumWallpaperScore;
 @property(readonly, nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) double timeIntervalForCandidateDeduping; // @synthesize timeIntervalForCandidateDeduping=_timeIntervalForCandidateDeduping;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TMDisk;
+@class TMDisk;
 
 @interface TMFirmLinkMap
 {
     struct _fakelink_group *_group;
-    TMDisk *_systemDisk;
-    TMDisk *_dataDisk;
 }
 
 + (id);
@@ -25,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) TMDisk *dataDisk; // @synthesize dataDisk=_dataDisk;
 @property(readonly, copy) TMDisk *systemDisk; // @synthesize systemDisk=_systemDisk;
-@property(readonly, copy) NSArray *virtualLinksOnSystemVolume;
 
 @end
 

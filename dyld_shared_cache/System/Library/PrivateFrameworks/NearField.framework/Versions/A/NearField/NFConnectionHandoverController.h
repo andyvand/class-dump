@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface NFConnectionHandoverController
 {
     _Bool _initiator;
-    unsigned char _version;
-    struct os_unfair_lock_s _lock;
-    long long _type;
-    long long _state;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (void);

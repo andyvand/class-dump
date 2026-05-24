@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (CARenderValue)
-- (void *);
+- (void *)(;
 - (id);
-- (void *);
+- (void *);
 - (void);
 @end
 

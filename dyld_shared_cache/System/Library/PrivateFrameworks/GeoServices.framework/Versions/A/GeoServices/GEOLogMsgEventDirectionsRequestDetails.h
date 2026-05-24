@@ -9,19 +9,9 @@
 @interface GEOLogMsgEventDirectionsRequestDetails
 {
     PBUnknownFields *_unknownFields;
-    int _destination;
-    int _origin;
-    int _purpose;
-    _Bool _navStarted;
-    struct {
-        unsigned int has_destination:1;
-        unsigned int has_origin:1;
-        unsigned int has_purpose:1;
-        unsigned int has_navStarted:1;
-    } _flags;
 }
 
-+ (_Bool)tPriority:(id)arg1;
++ (_Bool)setHasSortPriority:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -32,11 +22,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)observers;
 - (id);
-- (id);
 - (int);
-- (int);
-- (int);
+- (int)nation;
+- (int)unsaved_drafts;
 - (void);
 - (id);
 - (id);
@@ -45,14 +35,14 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (int);
+- (_Bool) ;
+- (int)inessHoursResolved;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)sedPosition:(struct _NSZone *)arg1;
-- (int)etail;
-- (void)ipIDs;
+- (id)setSelectionBasedPosition:(struct _NSZone *)arg1;
+- (int)detail;
+- (void)tripIDs;
 - (id)hown",&,N;
 - (void)L]L^ _X_;
 - (id)from maneuver:%{private}@ /* Error: Ran out of types for this method. */;
@@ -62,15 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int destination;
-@property(nonatomic) _Bool hasDestination;
 @property(nonatomic) _Bool hasNavStarted;
-@property(nonatomic) _Bool hasOrigin;
-@property(nonatomic) _Bool hasPurpose;
-@property(nonatomic) _Bool navStarted;
-@property(nonatomic) int origin;
-@property(nonatomic) int purpose;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

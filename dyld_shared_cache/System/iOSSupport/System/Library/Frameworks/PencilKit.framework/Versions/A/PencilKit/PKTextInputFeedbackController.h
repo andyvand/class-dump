@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKTextInputElementContent, PKTextInputGestureFeedbackView, PKTextInputTextPlaceholder;
-@protocol PKTextInputFeedbackControllerDelegate;
+@class PKTextInputElementContent;
 
 @interface PKTextInputFeedbackController
 {
     _Bool _showingCustomFeedback;
-    id <PKTextInputFeedbackControllerDelegate> _delegate;
-    PKTextInputElementContent *_referenceElementContent;
-    long long _feedbackType;
-    PKTextInputTextPlaceholder *_placeholder;
-    PKTextInputGestureFeedbackView *__feedbackView;
-    struct _NSRange _referenceTextRange;
 }
 
 - (_Bool);
@@ -41,19 +34,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)LPiTunesMediaSongUnresolvedMetadata;
 - (void);
 - (long long)øÐ;
 
 // Remaining properties
-@property(retain, nonatomic) PKTextInputGestureFeedbackView *_feedbackView; // @synthesize _feedbackView=__feedbackView;
-@property(nonatomic) __weak id <PKTextInputFeedbackControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) long long feedbackType; // @synthesize feedbackType=_feedbackType;
-@property(retain, nonatomic) PKTextInputTextPlaceholder *placeholder; // @synthesize placeholder=_placeholder;
 @property(retain, nonatomic) PKTextInputElementContent *referenceElementContent; // @synthesize referenceElementContent=_referenceElementContent;
-@property(nonatomic) struct _NSRange referenceTextRange; // @synthesize referenceTextRange=_referenceTextRange;
-@property(readonly, nonatomic) PKTextInputTextPlaceholder *reserveSpacePlaceholder;
-@property(nonatomic, setter=_setShowingCustomFeedback:) _Bool showingCustomFeedback; // @synthesize showingCustomFeedback=_showingCustomFeedback;
 
 @end
 

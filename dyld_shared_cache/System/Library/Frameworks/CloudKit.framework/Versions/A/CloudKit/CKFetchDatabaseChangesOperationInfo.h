@@ -11,15 +11,13 @@
 @interface CKFetchDatabaseChangesOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _fetchAllChanges;
-    CKServerChangeToken *_previousServerChangeToken;
-    unsigned long long _resultsLimit;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (id);
 - (void);
 - (void);
@@ -29,9 +27,7 @@
 - (unsigned long long)of arguments to <%@>. Expected %lu, but found %lu;
 
 // Remaining properties
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
 @property(retain, nonatomic) CKServerChangeToken *previousServerChangeToken; // @synthesize previousServerChangeToken=_previousServerChangeToken;
-@property(nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
 
 @end
 

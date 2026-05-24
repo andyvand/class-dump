@@ -24,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void)!s#!Aù'1Â0@ù
 × ;

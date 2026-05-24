@@ -9,16 +9,14 @@
 @interface HMWidgetManagerFetchStateForActionSetsResponse
 {
     NSDictionary *_isOnByActionSetUniqueIdentifier;
-    NSDictionary *_didExecutionFailByActionSetUniqueIdentifier;
 }
 
+- (id)bE;
 - (id);
 - (id);
-- (id);
-- (void)dNotification;
+- (void)HMBulletinBoardNotification;
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *didExecutionFailByActionSetUniqueIdentifier; // @synthesize didExecutionFailByActionSetUniqueIdentifier=_didExecutionFailByActionSetUniqueIdentifier;
 @property(readonly, copy) NSDictionary *isOnByActionSetUniqueIdentifier; // @synthesize isOnByActionSetUniqueIdentifier=_isOnByActionSetUniqueIdentifier;
 
 @end

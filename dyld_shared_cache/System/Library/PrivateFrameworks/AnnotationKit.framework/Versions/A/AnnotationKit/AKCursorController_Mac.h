@@ -9,21 +9,20 @@
 @interface AKCursorController_Mac
 {
     NSCursor *_currentCursorOrNil;
-    AKController *_controller;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)j;
+- (id)T
+;
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property __weak AKController *controller; // @synthesize controller=_controller;
-@property(retain, nonatomic) NSCursor *currentCursorOrNil; // @synthesize currentCursorOrNil=_currentCursorOrNil;
 
 @end
 

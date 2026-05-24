@@ -4,22 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation;
+@class CKConversation, NSString;
 
 @protocol CKConversationListControllerDelegate
+- (_Bool)CloudSyncingObject"16@"CKShare"24B32;
+- (void)WKFrameInfo"32@?<v@?B>40;
+- (void)v56@0:(NSString *)arg1 8@"WKWebView"16@"_WKFrameHandle"24{CGSize=dd}32@?<v@?>48;
+- (void)Q32Q40Q48Q56@?<v@?Q>64;
+- (void)?64;
+- (_Bool)_pk_viewProviderForAttachment:atCharacterIndex:createIfNeeded: /* Error: Ran out of types for this method. */;
+- (_Bool)_pendingSeekTime;
+- (_Bool)_icaxColorDescriptionForHue:saturation:lightness: /* Error: Ran out of types for this method. */;
+- (_Bool)_fetchedResultsController;
+- (_Bool);
+- (CKConversation *)0;
+- (void);
+- (void)%s:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool)KSg_A2WtGAEGALGf[yfZAFyADyAeByAK_ACyIm[ykp[yAHSSAByFÜZySay=~ZGA3_\yAH_SSQo_G_A5_SgtGG_f[Qo_AFyp[yAHGALGGSgtGAEGALGGSgAFyÓm[yAFyA13_FÒZySbGG_A13_Qo_ALGSgAFy¬m[yA13__A13_Qo_ALGSgtGG_SSAByA13__A13_tGQo_;
-- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id composeChatController;
-@property(readonly, nonatomic) CKConversation *currentConversation;
-@property(readonly, nonatomic) _Bool hasDetailsNavigationController;
-@property(readonly, nonatomic) _Bool isAnimatingMessageSend;
 @property(readonly, nonatomic) _Bool isCollapsed;
-@property(readonly, nonatomic) _Bool isDetailsNavigationControllerDetached;
-@property(readonly, nonatomic) _Bool isShowingChatController;
-@property(readonly, nonatomic) _Bool isShowingComposeChatController;
-@property(readonly, nonatomic) _Bool showingConversationFromOpenURL;
 @end
 

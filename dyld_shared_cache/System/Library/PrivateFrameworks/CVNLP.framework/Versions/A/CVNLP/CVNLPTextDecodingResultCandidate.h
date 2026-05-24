@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CVNLPTextDecodingResultCandidate
 {
     NSArray *_tokens;
-    double _score;
-    double _activationScore;
 }
 
 - (void);
-- (id);
+- (id)D�';
 - (id);
 - (double);
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)C;
 
 // Remaining properties
-@property double activationScore; // @synthesize activationScore=_activationScore;
-@property(readonly, copy, nonatomic) NSString *fullString;
-@property double score; // @synthesize score=_score;
 @property(readonly, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end

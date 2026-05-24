@@ -11,10 +11,9 @@
 @interface PKPassTileAccessoryButton : PKPassTileAccessory
 {
     _Bool _spinnerEnabled;
-    NSString *_title;
 }
 
-+ (id);
++ (id)q:(id)arg1;
 + (_Bool)qî%ð1Â0@ù
 × ;
 - (void);
@@ -24,13 +23,12 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (void)associationState;
 - (void);
-- (void);
-- (id)sPage;
+- (id)PKApplyRequiredFieldsPage;
 - (void)subCredentialIdentifier;
 
 // Remaining properties
-@property(nonatomic, getter=isSpinnerEnabled) _Bool spinnerEnabled; // @synthesize spinnerEnabled=_spinnerEnabled;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

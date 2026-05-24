@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSMutableArray, NSSet, NSString;
+@class EKEventStore;
 
 @interface CUIKOccurrenceCacheDataSource
 {
     EKEventStore *_eventStore;
-    NSSet *_calendars;
-    struct os_unfair_lock_s _dataLock;
-    struct os_unfair_lock_s _fetchLock;
-    NSMutableArray *_cachedDays;
-    int _cachedDaysSeed;
 }
 
 - (_Bool);
@@ -26,11 +21,11 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (long long);
+- (_Bool);
 - (id);
 - (long long);
-- (_Bool);
-- (id);
-- (long long);
 - (id);
 - (void);
 - (id);
@@ -39,16 +34,10 @@
 - (void);
 - (id);
 - (void);
-- (void)ier: /* Error: Ran out of types for this method. */;
+- (void)setRevertObject:forSpecificIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

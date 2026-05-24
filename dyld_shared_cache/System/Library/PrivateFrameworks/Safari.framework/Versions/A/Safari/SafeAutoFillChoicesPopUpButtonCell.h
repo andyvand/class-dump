@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SafeAutoFillChoicesPopUpButtonCell
 {
     double _highlightOffset;
-    double _menuWidth;
 }
 
 - (void);
@@ -18,11 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (struct CGPoint);
+- (struct CGPoint);
 
 // Remaining properties
 @property(nonatomic) double highlightOffset; // @synthesize highlightOffset=_highlightOffset;
-@property(nonatomic) double menuWidth; // @synthesize menuWidth=_menuWidth;
 
 @end
 

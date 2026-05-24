@@ -9,10 +9,6 @@
 @interface FPSharedCache
 {
     unsigned int _alignment;
-    NSUUID *_uuid;
-    unsigned long long _baseAddress;
-    unsigned long long _mappedSize;
-    unsigned long long _slide;
 }
 
 + (id);
@@ -26,10 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int alignment; // @synthesize alignment=_alignment;
-@property(readonly, nonatomic) unsigned long long baseAddress; // @synthesize baseAddress=_baseAddress;
-@property(readonly, nonatomic) unsigned long long mappedSize; // @synthesize mappedSize=_mappedSize;
-@property(readonly, nonatomic) unsigned long long slide; // @synthesize slide=_slide;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

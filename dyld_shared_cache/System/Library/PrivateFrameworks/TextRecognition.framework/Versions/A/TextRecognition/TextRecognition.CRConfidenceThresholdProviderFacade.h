@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (void)ithOCRResults: /* Error: Ran out of types for this method. */;
+- (void)setGatingWithOCRResults: /* Error: Ran out of types for this method. */;
 
 @end
 

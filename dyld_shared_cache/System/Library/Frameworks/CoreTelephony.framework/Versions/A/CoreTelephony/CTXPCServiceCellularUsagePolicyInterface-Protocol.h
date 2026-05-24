@@ -5,5 +5,10 @@
 //
 
 @protocol CTXPCServiceCellularUsagePolicyInterface
+- (void)`;
+- (void);
+- (void).@�?;
+- (void);
+- (void);
 @end
 

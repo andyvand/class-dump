@@ -6,44 +6,15 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class CKDProtocolTranslator, CKDTrustedTargetKey, CKDTrustedTargetWrappedKey, NSArray, NSData, NSString, NSURL, PCCKey;
-@protocol CKCodeOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDCodeFunctionInvokeOperation : CKDDatabaseOperation
 {
     _Bool _shouldSendRecordPCSKeys;
-    _Bool _shouldFetchAssetContentInMemory;
-    CDUnknownBlockType _replaceLocalSerializationsBlobs;
-    CDUnknownBlockType _initialResponseReceivedCallback;
-    CDUnknownBlockType _replaceWireSerializations;
-    CDUnknownBlockType _recordFetchCompletionBlock;
-    CDUnknownBlockType _recordFetchProgressBlock;
-    CDUnknownBlockType _recordFetchCommandBlock;
-    NSString *_serviceName;
-    NSString *_functionName;
-    PCCKey *_pccKey;
-    NSArray *_pccWrappedKeys;
-    NSData *_attestationEntropy;
-    NSArray *_requestLocalSerializations;
-    NSArray *_requestLocalEnvelopes;
-    unsigned long long _dataProtectionType;
-    NSData *_permittedRemoteMeasurement;
-    NSString *_trustedTargetDomain;
-    NSString *_trustedTargetOID;
-    CKDTrustedTargetKey *_trustedTargetKey;
-    CKDTrustedTargetWrappedKey *_trustedTargetWrappedKey;
-    NSURL *_resolvedBaseURL;
-    NSArray *_requestRecords;
-    NSData *_serializedArguments;
-    NSData *_serializedResponse;
-    NSArray *_responseRecords;
-    CKDProtocolTranslator *_translator;
 }
 
 + (id);
 + (id);
 + (long long);
-+ (id);
++ (id)orInterface:(unsigned long long)arg1;
 - (id);
 - (id);
 - (void);
@@ -52,10 +23,10 @@
 - (void);
 - (void);
 - (void);
+- (void)b;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -64,15 +35,15 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)]8	;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
@@ -82,13 +53,13 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)Z^;
+- (void);
+- (void)_;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)`";
+- (id)j;
 - (id);
 - (id);
 - (id);
@@ -96,19 +67,19 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (CDUnknownBlockType);
+- (void)setDisabledMacRandomizationVersions:(CDUnknownBlockType)arg1;
+- (CDUnknownBlockType)d >= %@;
 - (_Bool);
-- (void);
+- (void)persistenceDidUpdateDisplayDateForReadLaterDateMessages:(CDUnknownBlockType)arg1 generationWindow: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (int);
 - (CDUnknownBlockType);
-- (id);
+- (id)w;
 - (void)!øBùÜ1Â0@ù
 × ;
 - (CDUnknownBlockType)üÏ,ÒPÔØÔ×ìØLÝÔÝ à0áüá;
@@ -116,35 +87,7 @@
 - (id)8;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *attestationEntropy; // @synthesize attestationEntropy=_attestationEntropy;
-@property(retain, nonatomic) id <CKCodeOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(nonatomic) unsigned long long dataProtectionType; // @synthesize dataProtectionType=_dataProtectionType;
-@property(readonly, copy, nonatomic) NSString *functionName; // @synthesize functionName=_functionName;
-@property(copy, nonatomic) CDUnknownBlockType initialResponseReceivedCallback; // @synthesize initialResponseReceivedCallback=_initialResponseReceivedCallback;
-@property(retain, nonatomic) PCCKey *pccKey; // @synthesize pccKey=_pccKey;
-@property(retain, nonatomic) NSArray *pccWrappedKeys; // @synthesize pccWrappedKeys=_pccWrappedKeys;
-@property(copy, nonatomic) NSData *permittedRemoteMeasurement; // @synthesize permittedRemoteMeasurement=_permittedRemoteMeasurement;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchCommandBlock; // @synthesize recordFetchCommandBlock=_recordFetchCommandBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchCompletionBlock; // @synthesize recordFetchCompletionBlock=_recordFetchCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordFetchProgressBlock; // @synthesize recordFetchProgressBlock=_recordFetchProgressBlock;
-@property(copy, nonatomic) CDUnknownBlockType replaceLocalSerializationsBlobs; // @synthesize replaceLocalSerializationsBlobs=_replaceLocalSerializationsBlobs;
-@property(copy, nonatomic) CDUnknownBlockType replaceWireSerializations; // @synthesize replaceWireSerializations=_replaceWireSerializations;
-@property(copy, nonatomic) NSArray *requestLocalEnvelopes; // @synthesize requestLocalEnvelopes=_requestLocalEnvelopes;
-@property(copy, nonatomic) NSArray *requestLocalSerializations; // @synthesize requestLocalSerializations=_requestLocalSerializations;
-@property(copy, nonatomic) NSArray *requestRecords; // @synthesize requestRecords=_requestRecords;
-@property(copy, nonatomic) NSURL *resolvedBaseURL; // @synthesize resolvedBaseURL=_resolvedBaseURL;
-@property(copy, nonatomic) NSArray *responseRecords; // @synthesize responseRecords=_responseRecords;
-@property(copy, nonatomic) NSData *serializedArguments; // @synthesize serializedArguments=_serializedArguments;
-@property(copy, nonatomic) NSData *serializedResponse; // @synthesize serializedResponse=_serializedResponse;
-@property(readonly, copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(nonatomic) _Bool shouldFetchAssetContentInMemory; // @synthesize shouldFetchAssetContentInMemory=_shouldFetchAssetContentInMemory;
-@property(nonatomic) _Bool shouldSendRecordPCSKeys; // @synthesize shouldSendRecordPCSKeys=_shouldSendRecordPCSKeys;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(retain, nonatomic) CKDProtocolTranslator *translator; // @synthesize translator=_translator;
-@property(copy, nonatomic) NSString *trustedTargetDomain; // @synthesize trustedTargetDomain=_trustedTargetDomain;
-@property(retain, nonatomic) CKDTrustedTargetKey *trustedTargetKey; // @synthesize trustedTargetKey=_trustedTargetKey;
-@property(copy, nonatomic) NSString *trustedTargetOID; // @synthesize trustedTargetOID=_trustedTargetOID;
-@property(retain, nonatomic) CKDTrustedTargetWrappedKey *trustedTargetWrappedKey; // @synthesize trustedTargetWrappedKey=_trustedTargetWrappedKey;
 
 @end
 

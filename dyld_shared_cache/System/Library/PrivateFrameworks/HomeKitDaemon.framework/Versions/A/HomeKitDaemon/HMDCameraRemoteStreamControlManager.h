@@ -6,61 +6,57 @@
 
 #import <HomeKitDaemon/HMDCameraStreamControlManager.h>
 
-@class HMDCameraMediaConfigGenerator, HMDCameraRemoteStreamSession, HMDCameraResidentMessageHandler, HMDCameraStreamMetrics, HMDDevice, NSDictionary, NSNumber, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRemoteStreamControlManager : HMDCameraStreamControlManager
 {
     NSUUID *_profileUniqueIdentifier;
-    HMDCameraResidentMessageHandler *_residentMessageHandler;
-    HMDCameraMediaConfigGenerator *_configGenerator;
-    HMDDevice *_remoteAccessDevice;
-    HMDCameraRemoteStreamSession *_streamSession;
 }
 
 + (id)ÿß^°áB;
+- (void)ifSearch:(id)arg1 ifRoute:(CDUnknownBlockType)arg2 ifPlaceDisplay:ifTransitLineItem: /* Error: Ran out of types for this method. */;
+- (void)ifSearch:(unsigned long long)arg1 ifRoute:ifPlaceDisplay:ifTransitLineItem: /* Error: Ran out of types for this method. */;
+- (id)_performBlockWithMinimalSenders: /* Error: Ran out of types for this method. */;
+- (void)_peersByConnection;
+- (void)_participantsNeedingInitialState;
+- (void)_participantsByCapabilities;
+- (void)_packetBuckets;
+- (void)_originatorIdentifier;
+- (void)_originalMutableArray;
+- (void)_maps_indexesOfObjectsCorrespondingToIdentifiableObjects:(id)arg1;
+- (void)_endCoalescingEditsForContext:(id)arg1;
+- (void)_noteWillMutate;
+- (void)MSPSharedTripNotificationRules;
+- (void)MSPShareETAIncludeMockMPRTripForUITestingKey;
+- (void)MSPShareETAIncludeMockTripForUITestingKey;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)mberOfFailuresFromNilResult"i"numberOfSuccessFromCache"i"numberOfFailuresFromCache"i"numberOfSuccessFromMediaAnalysisRequests"i"numberOfFailuresFromMediaAnalysisRequests"i"numberOfTimeoutsFromMediaAnalysisRequests"i};
+- (id)setMinimumNumberOfMomentsInterestingWithAlternateJunking: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setMinimumNumberOfMomentsInterestingWithAlternateJunking: /* Error: Ran out of types for this method. */;
+- (id)setMinimumNumberOfMoments: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -68,26 +64,7 @@ __attribute__((visibility("hidden")))
 - (id)ÁB;
 
 // Remaining properties
-@property(readonly, copy) NSNumber *aspectRatio;
-@property(readonly, copy) NSNumber *audioDownlinkToken;
-@property(readonly) unsigned long long audioStreamSetting;
-@property(readonly, copy) NSNumber *audioUplinkToken;
-@property(readonly) HMDCameraMediaConfigGenerator *configGenerator; // @synthesize configGenerator=_configGenerator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *profileUniqueIdentifier; // @synthesize profileUniqueIdentifier=_profileUniqueIdentifier;
-@property(readonly) HMDDevice *remoteAccessDevice; // @synthesize remoteAccessDevice=_remoteAccessDevice;
-@property(readonly, copy, nonatomic) HMDCameraResidentMessageHandler *residentMessageHandler; // @synthesize residentMessageHandler=_residentMessageHandler;
-@property(readonly, copy) NSNumber *slotIdentifier;
-@property(readonly, copy) NSDictionary *stateDump;
-@property(readonly) HMDCameraStreamMetrics *streamMetrics;
-@property(retain) HMDCameraRemoteStreamSession *streamSession; // @synthesize streamSession=_streamSession;
-@property(readonly, copy) NSNumber *streamToken;
-@property(readonly) Class superclass;
 
 @end
 

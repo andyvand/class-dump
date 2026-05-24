@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKNavBarPersistentMenuManager, IMChipAction, IMChipReply;
+
 @protocol CKNavBarPersistentMenuManagerDelegate
+- (void)ic_insertSubview:(CKNavBarPersistentMenuManager *)arg1 belowSubview:(IMChipReply *)arg2;
+- (void)ic_insertItemWithIdentifier:(CKNavBarPersistentMenuManager *)arg1 atIndex:(IMChipAction *)arg2;
 @end
 

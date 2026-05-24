@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NSImageRep
 {
     NSString *_colorSpaceName;
-    struct __repFlags {
-        unsigned int hasAlpha:1;
-        unsigned int isOpaque:1;
-        unsigned int :2;
-        unsigned int loadState:2;
-        unsigned int :2;
-        unsigned int bitsPerSample:8;
-        unsigned int internalLayoutDirection:2;
-        unsigned int gsaved:14;
-    } _repFlags;
-    int _pixelsWide;
-    struct CGSize _size;
-    int _pixelsHigh;
-    NSMutableArray *_bitmapCache;
-    struct os_unfair_lock_s _bitmapCacheLock;
 }
 
 + (void);
 + (id);
 + (void);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -36,49 +25,31 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (Class);
 + (Class);
-+ (Class);
-+ (Class);
++ (Class);
 + (id);
 + (id);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)nvalid ATS format (Domains);
++ (_Bool)NSAllowsLocalNetworking;
 + (long long);
 + (_Bool);
-+ (unsigned long long);
++ (unsigned long long)@;
 + (id);
-+ (id);
++ (id)i;
 + (id);
 + (id);
 + (id);
 + (Class);
-+ (id);
-+ (id);
-+ (Class);
-+ (void);
++ (id) ;
++ (id);
++ (Class)@;
++ (void)@;
 + (_Bool)|¬;
 + (void);
 
 // Remaining properties
-@property(copy, setter=_setAppearanceName:) NSString *_appearanceName;
 @property(readonly) _Bool _incorporatesContentStyling;
-@property(readonly) struct CGRect alignmentRect;
-@property(getter=hasAlpha) _Bool alpha;
-@property long long bitsPerSample;
-@property(readonly) struct NSEdgeInsets capInsets;
-@property(copy) NSString *colorSpaceName;
-@property(readonly) _Bool inheritsGeometryFromImage;
-@property long long layoutDirection;
-@property(getter=isOpaque) _Bool opaque;
-@property long long pixelsHigh;
-@property long long pixelsWide;
-@property(readonly) long long resizingMode;
-@property struct CGSize size;
-@property(readonly, getter=isTemplate) _Bool template;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface NewsUI2.WebViewerRouter
 {
     id controller;
-    id resolver;
-    id tracker;
 }
 
 @end

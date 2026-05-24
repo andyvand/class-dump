@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScrollView, UIWindow;
+@class UIScrollView;
 @protocol UIScrollViewMonitorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UIScrollViewMonitor
 {
     UIScrollView *_scrollView;
-    UIWindow *_window;
-    id <UIScrollViewMonitorDelegate> _delegate;
 }
 
 - (void);
@@ -22,20 +20,13 @@ __attribute__((visibility("hidden")))
 - (void)
 × ;
 - (void);
-- (void)TouchInfos:(id)arg1;
-- (id):(id)arg1;
+- (void)setTouchInfos:(id)arg1;
+- (id)_transitionConflictsWithNavigationTransitions:(id)arg1;
 - (void)tInput;
 - (void)Ä(~d;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UIScrollViewMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

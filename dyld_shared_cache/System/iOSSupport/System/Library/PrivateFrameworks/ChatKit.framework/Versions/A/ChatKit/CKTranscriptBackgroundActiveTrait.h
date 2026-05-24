@@ -10,7 +10,7 @@
 
 + (_Bool);
 + (id);
-+ (id)guid:createdDate:shareURL: /* Error: Ran out of types for this method. */;
++ (id)attachmentWithFileURL:size:transferGUID:guid:createdDate:shareURL: /* Error: Ran out of types for this method. */;
 + (long long)Ð,À;
 
 @end

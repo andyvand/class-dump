@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDecimalNumberValue;
+@class NSString;
 
 @protocol _INPBRideFareLineItem
+- (void)FOLLOWUP_RECOVERY_FACTORS_MISSING_NOTIFICATION_MESSAGE;
+- (NSString *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *currencyCode;
-@property(readonly, nonatomic) _Bool hasCurrencyCode;
-@property(readonly, nonatomic) _Bool hasPrice;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) _INPBDecimalNumberValue *price;
-@property(copy, nonatomic) NSString *title;
 @end
 

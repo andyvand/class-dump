@@ -9,17 +9,15 @@
 @interface IMDGroupParticipantConvergenceResult
 {
     NSArray *_memberStatusChanges;
-    NSArray *_chatStatusChanges;
 }
 
 + (id);
-- (id);
-- (id);
+- (id)H;
+- (id)H;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *chatStatusChanges; // @synthesize chatStatusChanges=_chatStatusChanges;
 @property(readonly, nonatomic) NSArray *memberStatusChanges; // @synthesize memberStatusChanges=_memberStatusChanges;
 
 @end

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, FCCKPrivateDatabase;
-@protocol FCCKRecordZoneDelegate;
-
 @interface FCCKRecordZone
 {
     _Bool _zoneReady;
-    CKRecordZoneID *_recordZoneID;
-    FCCKPrivateDatabase *_database;
-    id <FCCKRecordZoneDelegate> _delegate;
 }
 
-- (id);
+- (id)4;
 - (void)s/feldsparcore/Classes/FCFeldsparIDProvider.m;
 
 @end

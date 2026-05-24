@@ -9,14 +9,13 @@
 @interface TRIFBFastFactorLevelsBuilder
 {
     AFBBufferBuilder *_owner;
-    struct FastFactorLevelsBuilder *_bldr;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_symbolNameForModelID:(id)arg1;
 - (void);
 - (id);
 - (void);

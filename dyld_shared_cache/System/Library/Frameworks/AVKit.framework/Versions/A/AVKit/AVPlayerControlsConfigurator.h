@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface AVPlayerControlsConfigurator
 {
     NSColor *_tintColor;
-    NSString *_fontStyle;
-    long long _symbolScale;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)libswiftSpatial.dylib;
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)*;
 - (void);
 - (long long);
 - (void);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 - (void)ateStatusUsingProposedStatus:(id)arg1 ];
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fontStyle; // @synthesize fontStyle=_fontStyle;
-@property(nonatomic) long long symbolScale; // @synthesize symbolScale=_symbolScale;
 @property(retain, nonatomic) NSColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end

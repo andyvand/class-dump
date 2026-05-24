@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABLazyGroup, ABRecordContext, NSSet;
+@class ABRecordContext, NSSet;
 
 @interface ABBookGroupAddSubgroupsCommand
 {
     ABRecordContext *_recordContext;
-    ABLazyGroup *_lazyGroup;
-    NSSet *_newSubgroupUids;
-    _Bool ignoresGuardianRestrictions;
 }
 
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (id);

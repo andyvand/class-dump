@@ -10,15 +10,11 @@ __attribute__((visibility("hidden")))
 @interface HMDRemoteEventRouterProtoFetchEventsMessage
 {
     int _fetchType;
-    NSMutableArray *_topics;
-    struct {
-        unsigned int fetchType:1;
-    } _has;
 }
 
 + (Class);
 - (void);
-- (_Bool);
+- (_Bool)o"8Q16^B24;
 - (id);
 - (int);
 - (void);
@@ -34,16 +30,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)q°1Â0@ù
 × ;
-- (unsigned long long)me: /* Error: Ran out of types for this method. */;
-- (id)g;
+- (unsigned long long)setPriorityUpdateStartTime: /* Error: Ran out of types for this method. */;
+- (id)logIdentifierString;
 - (id)ingState;
 - (id)¸d÷ÿî÷þ¤ÿÿôþÿ;
-- (void)PerServiceGroup;
+- (void)maximumServicesPerServiceGroup;
 - (int)ÿ;
 
 // Remaining properties
-@property(nonatomic) int fetchType; // @synthesize fetchType=_fetchType;
-@property(nonatomic) _Bool hasFetchType;
 @property(retain, nonatomic) NSMutableArray *topics; // @synthesize topics=_topics;
 
 @end

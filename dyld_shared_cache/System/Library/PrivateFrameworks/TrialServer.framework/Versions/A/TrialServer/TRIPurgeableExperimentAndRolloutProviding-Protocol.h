@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSSet;
+
 @protocol TRIPurgeableExperimentAndRolloutProviding
+- (NSDictionary *)unarchivedRecipeWithJSONObject:(NSSet *)arg1 error:(NSDictionary *)arg2;
+- (NSSet *)unarchivedObjectOfClass:(NSSet *)arg1 fromData:(NSDictionary *)arg2 error:(NSDictionary *)arg3;
+- (NSDictionary *)unarchiveTimeWithJSONObject:(NSSet *)arg1;
+- (NSSet *)openEXRImageType;
 @end
 

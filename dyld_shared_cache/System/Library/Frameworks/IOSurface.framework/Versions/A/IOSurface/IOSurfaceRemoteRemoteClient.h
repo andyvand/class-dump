@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 @interface IOSurfaceRemoteRemoteClient
 {
     int _pid;
-    NSMutableDictionary *_surfaceStates;
-    NSObject<OS_xpc_object> *_remoteConnection;
-    NSObject<OS_dispatch_queue> *_disconnectedQueue;
-    CDUnknownBlockType _disconnectedHandler;
 }
 
 - (id);
@@ -32,16 +25,12 @@
 - (void);
 - (int);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType disconnectedHandler; // @synthesize disconnectedHandler=_disconnectedHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *disconnectedQueue; // @synthesize disconnectedQueue=_disconnectedQueue;
 @property(nonatomic) int pid; // @synthesize pid=_pid;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *remoteConnection; // @synthesize remoteConnection=_remoteConnection;
-@property(retain, nonatomic) NSMutableDictionary *surfaceStates; // @synthesize surfaceStates=_surfaceStates;
 
 @end
 

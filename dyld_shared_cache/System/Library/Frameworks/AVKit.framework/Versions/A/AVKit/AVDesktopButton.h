@@ -8,42 +8,32 @@ __attribute__((visibility("hidden")))
 @interface AVDesktopButton
 {
     _Bool _included;
-    _Bool _isProminent;
-    _Bool _isDepressed;
-    _Bool canOnlyAppearInOverflowMenu;
-    _Bool included;
-    _Bool collapsed;
-    _Bool _initialFirstResponder;
 }
 
+- (_Bool)__swift5_proto;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)K>;
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool)WBSTabOrderInsertionHint;
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void)s;
+- (void)displaySpeeds;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool canOnlyAppearInOverflowMenu; // @synthesize canOnlyAppearInOverflowMenu;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed;
-@property(nonatomic) _Bool included; // @synthesize included;
 @property(nonatomic, getter=isInitialFirstResponder) _Bool initialFirstResponder; // @synthesize initialFirstResponder=_initialFirstResponder;
-@property(nonatomic) _Bool isProminent;
 
 @end
 

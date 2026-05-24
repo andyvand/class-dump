@@ -4,45 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, WiFiUsageLQMRollingWindow;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSMutableDictionary, NSString;
 
 @interface WiFiUsageLQMWindowAnalysis
 {
     NSMutableDictionary *dimensions;
-    unsigned long long _osStateHandle;
-    _Bool _isDone;
-    _Bool _inCall;
-    _Bool _hasKernel;
-    _Bool _inA2dp;
-    _Bool _inEsco;
-    NSString *_reason;
-    NSDate *_timestamp;
-    CDUnknownBlockType _completionHandler;
-    NSDictionary *_summary;
-    NSMutableArray *_subsequentTriggers;
-    NSString *_firstSubsequentLinkDownReason;
-    NSArray *_preceedingTriggers;
-    NSString *_fgApp;
-    NSString *_metricNameCDF;
-    NSString *_metricNameSankey;
-    NSMutableDictionary *_lqmWindowsFeatures;
-    unsigned long long _diceRoll;
-    NSObject<OS_dispatch_source> *_analysisTimer;
-    NSObject<OS_dispatch_queue> *_analysisQueue;
-    WiFiUsageLQMRollingWindow *_windowBeforeTrigger;
-    WiFiUsageLQMRollingWindow *_windowAfterTrigger;
 }
 
-+ (_Bool);
-+ (void);
-+ (unsigned long long);
++ (_Bool)w;
++ (void);
++ (unsigned long long)objectForKeyedSubscript:(id)arg1;
 + (void);
 + (_Bool);
 + (unsigned long long);
 + (id);
 + (void)SDate",C,N,V_settledDate;
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,43 +37,43 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (id)V_isRunningEvent;
+- (id)actsViewService;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)quirements:credentialStore:maxCourseUsersCount:maxCourseTrustedUsersCount:rosterMutationTimeout:userCachingEnabled: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)_TtC12SiriOntology44UsoTaskBuilder_checkExistence_common_Payment;
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)eName:%s /* Error: Ran out of types for this method. */;
+- (void)der_checkUnlike_common_SiriFavorite;
+- (_Bool)open::common_MediaItem /* Error: Ran out of types for this method. */;
+- (id)UsoTaskBuilder_update_common_NoteFolder;
 - (void);
-- (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (_Bool);
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct os_state_data_s *);
+- (struct os_state_data_s *);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);
@@ -104,27 +81,7 @@
 - (void)@);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *analysisQueue; // @synthesize analysisQueue=_analysisQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *analysisTimer; // @synthesize analysisTimer=_analysisTimer;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic) unsigned long long diceRoll; // @synthesize diceRoll=_diceRoll;
-@property(retain, nonatomic) NSString *fgApp; // @synthesize fgApp=_fgApp;
-@property(nonatomic) NSString *firstSubsequentLinkDownReason; // @synthesize firstSubsequentLinkDownReason=_firstSubsequentLinkDownReason;
-@property(nonatomic) _Bool hasKernel; // @synthesize hasKernel=_hasKernel;
-@property(nonatomic) _Bool inA2dp; // @synthesize inA2dp=_inA2dp;
-@property(nonatomic) _Bool inCall; // @synthesize inCall=_inCall;
-@property(nonatomic) _Bool inEsco; // @synthesize inEsco=_inEsco;
-@property(nonatomic) _Bool isDone; // @synthesize isDone=_isDone;
-@property(retain, nonatomic) NSMutableDictionary *lqmWindowsFeatures; // @synthesize lqmWindowsFeatures=_lqmWindowsFeatures;
-@property(retain, nonatomic) NSString *metricNameCDF; // @synthesize metricNameCDF=_metricNameCDF;
-@property(retain, nonatomic) NSString *metricNameSankey; // @synthesize metricNameSankey=_metricNameSankey;
-@property(retain, nonatomic) NSArray *preceedingTriggers; // @synthesize preceedingTriggers=_preceedingTriggers;
 @property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) NSMutableArray *subsequentTriggers; // @synthesize subsequentTriggers=_subsequentTriggers;
-@property(retain, nonatomic) NSDictionary *summary; // @synthesize summary=_summary;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) WiFiUsageLQMRollingWindow *windowAfterTrigger; // @synthesize windowAfterTrigger=_windowAfterTrigger;
-@property(retain, nonatomic) WiFiUsageLQMRollingWindow *windowBeforeTrigger; // @synthesize windowBeforeTrigger=_windowBeforeTrigger;
 
 @end
 

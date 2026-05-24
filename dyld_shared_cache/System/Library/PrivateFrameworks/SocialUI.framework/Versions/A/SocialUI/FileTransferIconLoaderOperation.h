@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSURL;
-@protocol FileTransferIconLoaderDelegate;
+@class NSDictionary, NSURL;
 
 @interface FileTransferIconLoaderOperation
 {
     NSDictionary *_options;
-    NSURL *_url;
-    NSData *_bookmark;
-    id <FileTransferIconLoaderDelegate> _delegate;
-    struct CGSize _thumbnailSize;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Count"b1"sessionStartMethod"b1"topicSubscriptionCount"b1"viewabilityState"b1"widgetArticleRank"b1"widgetSection"b1"widgetSectionArticleRank"b1"isMarketingNotificationEnabled"b1"isNewIssuesNotificationEnabled"b1"startedFromNotification"b1};
 - (void);
 - (void);
 - (void);
@@ -31,9 +26,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *bookmark; // @synthesize bookmark=_bookmark;
-@property(nonatomic) __weak id <FileTransferIconLoaderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) struct CGSize thumbnailSize; // @synthesize thumbnailSize=_thumbnailSize;
 @property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

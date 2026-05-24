@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVPlaybackCoordinator, NSDictionary, NSUUID;
+
 @protocol AVPlaybackCoordinationMediumDelegate
+- (void)double>>=^d^d{?=^d}},R,N,V_resultCosts;
+- (void)ared_ptr<quasar:(AVPlaybackCoordinator *)arg1:(NSDictionary *)arg2 TextTokenizer>=^{TextTokenizer}^{__shared_weak_count}},R,N,V_tokenizer;
+- (void)alizedLmData>=^{PersonalizedLmData}^{__shared_weak_count}},R,N,V_data;
+- (NSUUID *)tileRangeStartSamples;
 @end
 

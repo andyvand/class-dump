@@ -9,6 +9,10 @@
 @protocol APSConnectionDelegate
 
 @optional
+- (void)classifiedString;
+- (void)claimsCount;
+- (void)citationIndicesCount;
+- (void)48_tGG_AEyA44_GtGGADGA53_GAXGGA43_yA62_AByAByACyAdEyAAyA56__AGtGGADGA53_GAXGGGACyA2dFyAAyA48__AHtGGGGSgtG;
 - (void)or dsid=%@ (timestamp=%@);
 - (void)PC CLIENT:(APSConnection *)arg1 Attempted to remove FMM account for username=%@, authRef=0x%x, externAuthData=0x%x, err=%@;
 @end

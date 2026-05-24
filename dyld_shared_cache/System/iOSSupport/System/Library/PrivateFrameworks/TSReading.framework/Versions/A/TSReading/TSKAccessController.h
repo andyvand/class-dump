@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSMutableArray, NSMutableDictionary, TSUWeakReference;
-
 @interface TSKAccessController
 {
-    struct _opaque_pthread_rwlock_t _rwLock;
-    _Bool _secondaryThreadWriting;
-    NSCondition *_cond;
-    NSMutableDictionary *_signalIdentifiers;
-    NSMutableDictionary *_waitIdentifiers;
-    struct __CFRunLoopSource *_mainThreadPingSource;
-    NSMutableArray *_pendingMainThreadInvocations;
-    struct _TSKThreadInfo _readerInfo[64];
-    unsigned int _readerCount;
-    NSMutableArray *_writerQueue;
-    _Bool _writeHeld;
-    _Bool _writeBlockedMainThread;
-    TSUWeakReference *_delegate;
+    struct _opaque_pthread_rwlock_t {
+        long long __sig;
+        char __opaque[192];
+    } _rwLock;
 }
 
-- (_Bool);
+- (_Bool)assetLoadCommandEvents;
+- (void)itemConfigWaitTime;
+- (void);
+- (void)not handle rate change:(id)arg1 no playerViewController;
+- (void);
+- (void);
+- (void)MFPlaybackStackControllerImplementation;
+- (void);
+- (void)MFPlayerItemTransitionType;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)AVPlayer;
+- (void)AVPlayerItem;
 - (void);
 - (_Bool);
 - (id);
@@ -48,10 +37,10 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ی]I;
 - (_Bool);
 - (void);
 - (void);

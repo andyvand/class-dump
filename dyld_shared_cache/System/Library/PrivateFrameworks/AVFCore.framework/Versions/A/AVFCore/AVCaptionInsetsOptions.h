@@ -7,28 +7,22 @@
 @interface AVCaptionInsetsOptions
 {
     _Bool _allowsHorizontalTextWrap;
-    _Bool _allowsHorizontalTextRepositioning;
-    _Bool _allowsVerticalTextWrap;
-    _Bool _allowsVerticalTextRepositioning;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)c;
+- (void)LC;
 - (_Bool);
+- (_Bool)(-;
 - (_Bool);
+- (_Bool)ʕ;
+- (id);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)(#;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsHorizontalTextRepositioning; // @synthesize allowsHorizontalTextRepositioning=_allowsHorizontalTextRepositioning;
 @property(nonatomic) _Bool allowsHorizontalTextWrap; // @synthesize allowsHorizontalTextWrap=_allowsHorizontalTextWrap;
-@property(nonatomic) _Bool allowsVerticalTextRepositioning; // @synthesize allowsVerticalTextRepositioning=_allowsVerticalTextRepositioning;
-@property(nonatomic) _Bool allowsVerticalTextWrap; // @synthesize allowsVerticalTextWrap=_allowsVerticalTextWrap;
 
 @end
 

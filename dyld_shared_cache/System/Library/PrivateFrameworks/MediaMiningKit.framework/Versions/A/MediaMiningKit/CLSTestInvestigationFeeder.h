@@ -20,12 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
+- (id)cacheMusicWithCache:progressReporter:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 

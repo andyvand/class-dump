@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDate, NSDictionary;
 
 @interface WBSSavedAccountAirDropHistoryItem
 {
     NSDictionary *_originalKeychainDictionary;
-    NSString *_identifier;
-    NSDate *_date;
-    NSString *_type;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_willBeginRemoteRequestWithUniqueIdentifier:statusHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)EpisodeTitle;
 - (id);
 - (id);
 - (void)±X1Â0@ù
@@ -27,16 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

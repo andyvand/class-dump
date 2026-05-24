@@ -8,21 +8,21 @@
 {
 }
 
-+ (struct NSEdgeInsets)a¼ø;
-+ (id)=@=àÀ=@=àÀ=@=àÀ=@=à£Ç<@£<ZCÑ;
-+ (id)­B#À=@A­;
-+ (id);
-+ (id)Ñô;
-+ (double)×é;
-+ (double);
-+ (void)Ò;
-+ (struct CGRect)Ú	"@ù(=;
-+ (unsigned long long)OB©é#Amë+Älÿ_Ö§;
 + (struct NSEdgeInsets);
 + (id);
-+ (id)!À,ª®ý!Râ;
-+ (id)®ýú;
++ (id);
++ (id);
++ (id);
 + (double);
++ (double);
++ (void);
++ (struct CGRect);
++ (unsigned long long);
++ (struct NSEdgeInsets);
++ (id);
++ (id);
++ (id);
++ (double)TotalSessionsCount;
 + (double);
 + (struct CGRect);
 

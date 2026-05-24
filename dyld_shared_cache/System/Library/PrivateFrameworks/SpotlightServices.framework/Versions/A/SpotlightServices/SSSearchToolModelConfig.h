@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSArray;
+@class NSArray;
 
 @interface SSSearchToolModelConfig
 {
     float _threshold;
-    float _bucketThreshold;
-    float _bucketThresholdPerfectScore;
-    float _calibrationParamA;
-    float _calibrationParamB;
-    NSArray *_featureNames;
-    MLModel *_model;
 }
 
 - (void);
 - (void);
 - (void);
-- (float);
-- (float);
-- (float);
-- (void);
-- (float);
+- (float)textStack;
+- (float)textSafeAreaInset;
+- (float)shouldShowDownloadingIndicator;
+- (void)setMediaBottomCaption:(float)arg1;
+- (float)setDuration: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)indexesOfObject:(float)arg1;
 - (id);
 - (id);
 - (void)Types:blockedTypes:parentType:appBundleId:appURL:filterSubtitle: /* Error: Ran out of types for this method. */;
-- (float)ilAddresses_QueryTermsNum_Var_Prefix;
+- (float)kMDItemAuthorEmailAddresses_QueryTermsNum_Var_Prefix;
 
 // Remaining properties
-@property float bucketThreshold; // @synthesize bucketThreshold=_bucketThreshold;
-@property float bucketThresholdPerfectScore; // @synthesize bucketThresholdPerfectScore=_bucketThresholdPerfectScore;
-@property float calibrationParamA; // @synthesize calibrationParamA=_calibrationParamA;
-@property float calibrationParamB; // @synthesize calibrationParamB=_calibrationParamB;
 @property(retain, nonatomic) NSArray *featureNames; // @synthesize featureNames=_featureNames;
-@property(retain, nonatomic) MLModel *model; // @synthesize model=_model;
-@property float threshold; // @synthesize threshold=_threshold;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface SwiftUI.WindowAppearanceViewModel
 {
     id _containerBackground;
-    id _backgroundShapeStyle;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,44 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBRunWorkflowIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
-    _INPBDataString *_workflow;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)?28;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool)ger",&,N;
-- (void)deSuccess;
+- (void)INCopyFileIntentResponseCodeSuccess;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasWorkflow;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDataString *workflow; // @synthesize workflow=_workflow;
 
 @end
 

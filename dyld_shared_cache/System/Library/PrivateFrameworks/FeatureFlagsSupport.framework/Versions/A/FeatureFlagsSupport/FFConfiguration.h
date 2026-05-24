@@ -4,36 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FFPlistParser, NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, NSSet;
-@protocol FFBuildVersionGetter, FFFileReader, FFFileWriter, FFParseErrorReporter, FFSafeModeChecker;
+@protocol FFFileWriter;
 
 @interface FFConfiguration
 {
     struct os_unfair_lock_s lock;
-    NSArray *searchPaths;
-    NSMutableSet *_domains;
-    NSMutableDictionary *configByLevelIndex[3][8];
-    NSMutableDictionary *metaByLevelIndex[8];
-    NSMutableSet *disclosuresByLevelIndex[8];
-    NSMutableDictionary *featureSetsMetaByLevelIndex[8];
-    NSMutableSet *enabledFeatureSetsByLevelIndex[8];
-    NSMutableDictionary *enabledFeatureSetsAtLevelIndexByGroup[8];
-    NSMutableDictionary *definedFeatureSets;
-    NSMutableDictionary *definedFeatureGroups;
-    NSMutableDictionary *subscriptionsMetaByLevelIndex[8];
-    NSMutableArray *subscriptionsByLevelIndex[8];
-    id <FFFileWriter> _filewriter;
-    id <FFFileReader> _filereader;
-    id <FFParseErrorReporter> _parseerrorreporter;
-    FFPlistParser *_plistparser;
-    id <FFSafeModeChecker> _safemodechecker;
-    id <FFBuildVersionGetter> _buildVersionGetter;
-    NSMutableArray *_profilePayloads;
 }
 
++ (id)$};
 + (id);
-+ (id);
-+ (id);
++ (id)loadThumbnailForElement:(id)arg1 currentCount:(id)arg2;
 + (_Bool);
 + (id);
 + (id);
@@ -44,14 +24,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <FFBuildVersionGetter> buildVersionGetter; // @synthesize buildVersionGetter=_buildVersionGetter;
-@property(readonly, nonatomic) NSSet *domains;
-@property(retain, nonatomic) id <FFFileReader> filereader; // @synthesize filereader=_filereader;
 @property(retain, nonatomic) id <FFFileWriter> filewriter; // @synthesize filewriter=_filewriter;
-@property(retain, nonatomic) id <FFParseErrorReporter> parseerrorreporter; // @synthesize parseerrorreporter=_parseerrorreporter;
-@property(retain, nonatomic) FFPlistParser *plistparser; // @synthesize plistparser=_plistparser;
-@property(retain, nonatomic) NSMutableArray *profilePayloads; // @synthesize profilePayloads=_profilePayloads;
-@property(retain, nonatomic) id <FFSafeModeChecker> safemodechecker; // @synthesize safemodechecker=_safemodechecker;
 
 @end
 

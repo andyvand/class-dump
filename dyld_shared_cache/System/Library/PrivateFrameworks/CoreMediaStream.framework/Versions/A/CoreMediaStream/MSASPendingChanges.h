@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 @interface MSASPendingChanges
 {
     NSMutableSet *_pendingAlbumGUIDsWithKeyValueChanges;
-    NSMutableSet *_pendingAlbumChanges;
-    NSMutableSet *_pendingAlbumGUIDsWithSharingInfoChanges;
-    NSMutableDictionary *_pendingAlbumGUIDToAssetCollections;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)ing about upgrade to HH2, so no need to delete anything.;
+- (void)expired, doing nothing.;
+- (void)ccept.;
+- (void)ta records for homes awaiting auto accept.;
+- (void)on authorization updated to %@;
+- (void)egistered for vacation region updates;
+- (void)ates with error:(id)arg1 %@;
+- (void)n updates;
+- (id)rrent user of home %{public}@ failed:%@ /* Error: Ran out of types for this method. */;
+- (id)public}@Request to update pairing identity for current user of home %{public}@ failed:%@ /* Error: Ran out of types for this method. */;
+- (id)ate key for current user of home %@{public}@;
+- (id)public}@;
+- (id)t user;
+- (void)s no longer valid;
+- (void)-running transport;
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *pendingAlbumChanges; // @synthesize pendingAlbumChanges=_pendingAlbumChanges;
-@property(retain, nonatomic) NSMutableDictionary *pendingAlbumGUIDToAssetCollections; // @synthesize pendingAlbumGUIDToAssetCollections=_pendingAlbumGUIDToAssetCollections;
 @property(retain, nonatomic) NSMutableSet *pendingAlbumGUIDsWithKeyValueChanges; // @synthesize pendingAlbumGUIDsWithKeyValueChanges=_pendingAlbumGUIDsWithKeyValueChanges;
-@property(retain, nonatomic) NSMutableSet *pendingAlbumGUIDsWithSharingInfoChanges; // @synthesize pendingAlbumGUIDsWithSharingInfoChanges=_pendingAlbumGUIDsWithSharingInfoChanges;
 
 @end
 

@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString;
-@protocol PXPerson, PXSharedLibraryImageProvider;
+@class NSString;
+@protocol PXPerson;
 
 @protocol PXSharedLibraryParticipant
+- (_Bool);
+- (NSString *)h;
 - (NSString *)¡(ð!ÐCùÑ<ð1Â0@ù
 × ;
-- (long long)entViewController: /* Error: Ran out of types for this method. */;
+- (long long)elementViewController: /* Error: Ran out of types for this method. */;
 - (id <PXPerson>);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *emailAddress;
-@property(readonly, nonatomic) id <PXSharedLibraryImageProvider> imageProvider;
-@property(readonly, nonatomic) _Bool isCurrentUser;
-@property(readonly, copy, nonatomic) NSString *localIdentifier;
-@property(readonly, copy, nonatomic) NSPersonNameComponents *nameComponents;
-@property(readonly, nonatomic) id <PXPerson> person;
-@property(readonly, copy, nonatomic) NSString *phoneNumber;
-@property(readonly, nonatomic) long long status;
 @end
 

@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void);
++ (void)or migration.;
 
 @end
 

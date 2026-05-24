@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AVAudioRouteDescribing;
-
 @interface AVAudioHardwareDefaultRouteChangeEvent
 {
     unsigned int routeType;
-    id <AVAudioRouteDescribing> routeDescription;
 }
 
-- (void);
-- (void);
-- (unsigned int);
-- (id);
+- (void)NEProvider;
+- (void)NEAppSidecarPolicySession;
+- (unsigned int)NEIKEv2ConfigurationDelegate;
+- (id)NEIKEv2WildcardTransportDelegate;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <AVAudioRouteDescribing> routeDescription; // @synthesize routeDescription;
 @property(nonatomic) unsigned int routeType; // @synthesize routeType;
 
 @end

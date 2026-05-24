@@ -9,14 +9,13 @@
 @interface PPEventQuery
 {
     NSDate *_fromDate;
-    NSDate *_toDate;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)m/Library/PreferencePanes/iCloudPref.prefPane;
+- (id)_weightsForToolWithIdentifier:(id)arg1;
+- (void):(id)arg1 %@;
+- (id)@;
 - (void);
 - (void);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *fromDate; // @synthesize fromDate=_fromDate;
-@property(retain, nonatomic) NSDate *toDate; // @synthesize toDate=_toDate;
 
 @end
 

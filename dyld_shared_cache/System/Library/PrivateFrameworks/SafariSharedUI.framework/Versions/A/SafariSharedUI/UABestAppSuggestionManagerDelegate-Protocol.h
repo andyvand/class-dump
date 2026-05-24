@@ -7,6 +7,7 @@
 @protocol UABestAppSuggestionManagerDelegate
 
 @optional
+- (void);
 - (void)0@ù
 × ;
 @end

@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SMTSchemaSMTAppLanguageModelAssetCopyEnded, SMTSchemaSMTAppLanguageModelAssetCopyFailed, SMTSchemaSMTAppLanguageModelAssetCopyStarted;
+@class SMTSchemaSMTAppLanguageModelAssetCopyStarted;
 
 @interface SMTSchemaSMTAppLanguageModelAssetCopyContext : SISchemaInstrumentationMessage
 {
     SMTSchemaSMTAppLanguageModelAssetCopyStarted *_startedOrChanged;
-    SMTSchemaSMTAppLanguageModelAssetCopyEnded *_ended;
-    SMTSchemaSMTAppLanguageModelAssetCopyFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -34,28 +28,21 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)#B;
 - (id);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)sha224;
+- (unsigned long long)openAlternativeWithReply: /* Error: Ran out of types for this method. */;
+- (_Bool)p=;
+- (_Bool)Class getSROSmartRepliesManagerClass(void)_block_invoke;
 - (id);
 - (id);
-- (id)teIsAutoShortcutEnabled;
-- (id)nals;
-- (void)Context;
+- (id)deleteIsAutoShortcutEnabled;
+- (id)_hasInferenceNotebookAppSelectionTrainingAppIndependentSignals;
+- (void)cdmClientWarmupContext;
 
 // Remaining properties
-@property(retain, nonatomic) SMTSchemaSMTAppLanguageModelAssetCopyEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) SMTSchemaSMTAppLanguageModelAssetCopyFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SMTSchemaSMTAppLanguageModelAssetCopyStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

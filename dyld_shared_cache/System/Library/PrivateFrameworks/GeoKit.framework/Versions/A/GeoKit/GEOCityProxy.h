@@ -4,36 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCity, NSDictionary;
+@class NSDictionary;
 
 @interface GEOCityProxy
 {
     NSDictionary *infoDictionary;
-    GEOCity *_realCity;
 }
 
-+ (id);
++ (id)ic}@:(id)arg1 [%{public}@] Performing provisioning. type:%ld /* Error: Ran out of types for this method. */;
+- (id)ID = %{public}@ | username = %{public}@;
+- (id)SID = %{public}@ | DSID = %{public}@ | username = %{public}@;
+- (id)c}@;
+- (id)ts. authenticationResults = %{public}@ | options = %{public}@;
+- (id)@:[%{public}@] Performing an authentication with pre-initialized authentication results. authenticationResults = %{public}@ | options = %{public}@ /* Error: Ran out of types for this method. */;
+- (id)r = %{public}@;
+- (id)error = %{public}@;
+- (id)led to unarchive the client info. error = %{public}@;
+- (id). error = %{public}@;
+- (id)ror. %@;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
+- (id));
 - (id);
 - (id);
 - (void);
+- (id)initWithAccountInfoProvider:(SEL)arg1 inboxURL:urlToAdd:suffixToFilterOut:taskManager: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)acesWhoseNameStartsWith:managedObjectContext:fetchLimit:resultType: /* Error: Ran out of types for this method. */;
+- (id)placesWhoseNameStartsWith:managedObjectContext:fetchLimit:resultType: /* Error: Ran out of types for this method. */;
 
 @end
 

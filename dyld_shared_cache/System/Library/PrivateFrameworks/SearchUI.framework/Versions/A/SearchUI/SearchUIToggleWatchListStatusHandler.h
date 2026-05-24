@@ -13,7 +13,7 @@
 + (id);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)AXMinimized;
 
 @end
 

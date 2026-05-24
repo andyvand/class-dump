@@ -4,64 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
-@protocol NSObject><NSCopying><NSSecureCoding;
+@class NSString;
 
 @interface GCProductInformation
 {
     _Bool _deviceOnly;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
-    NSString *_uniformTypeIdentifier;
-    NSString *_productCategory;
-    NSString *_detailedProductCategory;
-    NSString *_vendorName;
-    NSString *_anonymizedIdentifier;
-    NSNumber *_attachedToDevice;
-    NSDictionary *_miscellaneous;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)';
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id)`;
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
+- (id)setTemporaryURL:(id)arg1;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)CAN_VIEW_PROGRESS_KIT_DASHBOARD;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *anonymizedIdentifier; // @synthesize anonymizedIdentifier=_anonymizedIdentifier;
-@property(copy, nonatomic, getter=isAttachedToDevice) NSNumber *attachedToDevice; // @synthesize attachedToDevice=_attachedToDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *detailedProductCategory; // @synthesize detailedProductCategory=_detailedProductCategory;
-@property(nonatomic, getter=isDeviceOnly) _Bool deviceOnly; // @synthesize deviceOnly=_deviceOnly;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDictionary *miscellaneous; // @synthesize miscellaneous=_miscellaneous;
-@property(copy, nonatomic) NSString *productCategory; // @synthesize productCategory=_productCategory;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *uniformTypeIdentifier; // @synthesize uniformTypeIdentifier=_uniformTypeIdentifier;
-@property(copy, nonatomic) NSString *vendorName; // @synthesize vendorName=_vendorName;
 
 @end
 

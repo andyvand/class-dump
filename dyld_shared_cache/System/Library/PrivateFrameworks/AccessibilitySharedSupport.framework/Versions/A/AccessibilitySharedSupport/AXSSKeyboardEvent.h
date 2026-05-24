@@ -4,35 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXSSKeyChord, NSString;
-
 @interface AXSSKeyboardEvent
 {
     _Bool _isDownEvent;
-    _Bool _isRepeatEvent;
-    _Bool _isModifierChangedEvent;
-    _Bool _isLeftCommandDown;
-    _Bool _isRightCommandDown;
-    _Bool _isLeftOptionDown;
-    _Bool _isRightOptionDown;
-    _Bool _isLeftControlDown;
-    _Bool _isRightControlDown;
-    _Bool _isLeftShiftDown;
-    _Bool _isRightShiftDown;
-    _Bool _isCapsLockDown;
-    _Bool _isFnDown;
-    unsigned long long _keyCode;
-    NSString *_unicodeCharacter;
-    NSString *_backupUnicodeCharacter;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,7 +32,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -67,33 +50,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (id)timeIntervalSince1970;
+- (void)ave but had no changes.;
 
 // Remaining properties
-@property(readonly, nonatomic) AXSSKeyChord *backupKeyChord;
-@property(copy, nonatomic) NSString *backupUnicodeCharacter; // @synthesize backupUnicodeCharacter=_backupUnicodeCharacter;
-@property(nonatomic) _Bool isCapsLockDown; // @synthesize isCapsLockDown=_isCapsLockDown;
-@property(readonly, nonatomic) _Bool isCommandDown;
-@property(readonly, nonatomic) _Bool isControlDown;
-@property(nonatomic) _Bool isDownEvent; // @synthesize isDownEvent=_isDownEvent;
-@property(nonatomic) _Bool isFnDown; // @synthesize isFnDown=_isFnDown;
-@property(nonatomic) _Bool isLeftCommandDown; // @synthesize isLeftCommandDown=_isLeftCommandDown;
-@property(nonatomic) _Bool isLeftControlDown; // @synthesize isLeftControlDown=_isLeftControlDown;
-@property(nonatomic) _Bool isLeftOptionDown; // @synthesize isLeftOptionDown=_isLeftOptionDown;
-@property(nonatomic) _Bool isLeftShiftDown; // @synthesize isLeftShiftDown=_isLeftShiftDown;
-@property(nonatomic) _Bool isModifierChangedEvent; // @synthesize isModifierChangedEvent=_isModifierChangedEvent;
-@property(readonly, nonatomic) _Bool isOptionDown;
-@property(nonatomic) _Bool isRepeatEvent; // @synthesize isRepeatEvent=_isRepeatEvent;
-@property(nonatomic) _Bool isRightCommandDown; // @synthesize isRightCommandDown=_isRightCommandDown;
-@property(nonatomic) _Bool isRightControlDown; // @synthesize isRightControlDown=_isRightControlDown;
-@property(nonatomic) _Bool isRightOptionDown; // @synthesize isRightOptionDown=_isRightOptionDown;
-@property(nonatomic) _Bool isRightShiftDown; // @synthesize isRightShiftDown=_isRightShiftDown;
-@property(readonly, nonatomic) _Bool isShiftDown;
-@property(readonly, nonatomic) AXSSKeyChord *keyChord;
 @property(nonatomic) unsigned long long keyCode; // @synthesize keyCode=_keyCode;
-@property(readonly, nonatomic) long long modifierMask;
-@property(copy, nonatomic) NSString *unicodeCharacter; // @synthesize unicodeCharacter=_unicodeCharacter;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <PhotosUICore/PXNavigationListItem.h>
 
-@class NSString, PHAssetCollection;
+@class PHAssetCollection;
 
 @interface PXNavigationListAssetCollectionItem : PXNavigationListItem
 {
     PHAssetCollection *_collection;
-    NSString *_collectionIdentifier;
-    unsigned long long _lockState;
 }
 
 - (_Bool);
@@ -22,19 +20,18 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
-- (id)sAtIndexPaths:(struct _NSZone *)arg1;
+- (id)px_alteredIndexPathAfterInsertingItemsAtIndexPaths:(struct _NSZone *)arg1;
 - (id)to-lock timer.;
 - (id)e:No icon for legacy device:<%@:%p>, url:"%{public}@", data:"%{public}@", error:%@ /* Error: Ran out of types for this method. */;
-- (void)nformation;
+- (void)MusicCurationDebugInformation;
 - (void){µlúþ{µhúþ{µdúþ5{µBÿ;
 - (id)È9%ÿ ;
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *collection; // @synthesize collection=_collection;
-@property(nonatomic) unsigned long long lockState; // @synthesize lockState=_lockState;
 
 @end
 

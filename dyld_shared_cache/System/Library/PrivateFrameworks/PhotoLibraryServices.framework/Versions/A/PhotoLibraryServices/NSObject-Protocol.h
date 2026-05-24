@@ -5,11 +5,12 @@
 //
 
 @protocol NSObject
-- (id)tModelVersionFailedWithNoVersionFromServer;
+- (id)SSNotificationGoBack;
+- (id)_validateCurrentModelVersionFailedWithNoVersionFromServer;
 - (id)È;
-- (id)me;
+- (id)importedByDisplayName;
 
 @optional
-- (id)tTypes: /* Error: Ran out of types for this method. */;
+- (id)_inqGroupWithStatement:dateFilter:includeObjects:searchResultTypes: /* Error: Ran out of types for this method. */;
 @end
 

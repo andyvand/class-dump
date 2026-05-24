@@ -8,21 +8,21 @@
 {
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (void);
 + (id);
 + (void);
++ (_Bool)+*;
++ (void)UnreadCountSpecified;
++ (id)contacts:(id)arg1 PhysicalAddress:(id)arg2 City;
 + (_Bool);
-+ (void);
++ (_Bool)e XlDConBin;
++ (_Bool);
++ (_Bool);
++ (_Bool);
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (unsigned long long);
++ (unsigned long long)P;
 + (id);
 + (void);
 

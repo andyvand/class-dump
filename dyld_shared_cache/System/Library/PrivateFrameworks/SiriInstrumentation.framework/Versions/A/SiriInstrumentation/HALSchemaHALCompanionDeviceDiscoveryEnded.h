@@ -6,22 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALCompanionDeviceDiscoveryEnded : SISchemaInstrumentationMessage
 {
     int _discoveryType;
-    _Bool _isMeDevice;
-    _Bool _hasOtheriOSActiveDevices;
-    _Bool _hasNullPeerIdentityServicesId;
-    int _deviceProximity;
-    struct {
-        unsigned int discoveryType:1;
-        unsigned int isMeDevice:1;
-        unsigned int hasOtheriOSActiveDevices:1;
-        unsigned int hasNullPeerIdentityServicesId:1;
-        unsigned int deviceProximity:1;
-    } _has;
 }
 
 - (void);
@@ -34,11 +21,11 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (int);
 - (void);
@@ -47,30 +34,20 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int);
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@"NSArray",R,N;
 - (id)TSRequestReceivedTier1";
 - (id)String",C,N,V_anonymizedContactIdentifier;
 - (id)À0l;
 
 // Remaining properties
-@property(nonatomic) int deviceProximity; // @synthesize deviceProximity=_deviceProximity;
 @property(nonatomic) int discoveryType; // @synthesize discoveryType=_discoveryType;
-@property(nonatomic) _Bool hasDeviceProximity;
-@property(nonatomic) _Bool hasDiscoveryType;
-@property(nonatomic) _Bool hasHasNullPeerIdentityServicesId;
-@property(nonatomic) _Bool hasHasOtheriOSActiveDevices;
-@property(nonatomic) _Bool hasIsMeDevice;
-@property(nonatomic) _Bool hasNullPeerIdentityServicesId; // @synthesize hasNullPeerIdentityServicesId=_hasNullPeerIdentityServicesId;
-@property(nonatomic) _Bool hasOtheriOSActiveDevices; // @synthesize hasOtheriOSActiveDevices=_hasOtheriOSActiveDevices;
-@property(nonatomic) _Bool isMeDevice; // @synthesize isMeDevice=_isMeDevice;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

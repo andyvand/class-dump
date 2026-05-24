@@ -11,14 +11,13 @@
     id <CALNCoreLocationProvider> _coreLocationProvider;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsLocationAlerts;
 @property(readonly, nonatomic) id <CALNCoreLocationProvider> coreLocationProvider; // @synthesize coreLocationProvider=_coreLocationProvider;
 
 @end

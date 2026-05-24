@@ -22,7 +22,7 @@
 + (double);
 + (struct CGPoint);
 + (void);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (struct CGColorSpace *);

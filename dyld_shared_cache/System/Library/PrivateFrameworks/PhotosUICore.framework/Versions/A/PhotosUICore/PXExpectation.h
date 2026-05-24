@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXExpectation
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *_label;
-    NSDate *_creationDate;
-    CDUnknownBlockType _handler;
 }
 
 - (void);
@@ -22,20 +19,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)tentOffset;
 - (id);
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (id)eModel;
+- (CDUnknownBlockType)predicateForQuery:inLibrary:changeDetectionCriteria: /* Error: Ran out of types for this method. */;
+- (id)observableModel;
 - (void)`EÊ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

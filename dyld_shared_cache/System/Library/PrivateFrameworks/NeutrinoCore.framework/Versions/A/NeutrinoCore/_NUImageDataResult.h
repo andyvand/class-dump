@@ -6,16 +6,14 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class NSDictionary, NSString, NUImageGeometry;
-@protocol NURenderStatistics;
+@class NSDictionary;
 
 @interface _NUImageDataResult : _NURenderResult
 {
     NSDictionary *_data;
-    NUImageGeometry *_geometry;
 }
 
-- (id);
+- (id)ijh8?);
 - (void);
 - (id);
 - (void);
@@ -25,15 +23,6 @@
 
 // Remaining properties
 @property(copy) NSDictionary *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NUImageGeometry *geometry; // @synthesize geometry=_geometry;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

@@ -8,19 +8,13 @@ __attribute__((visibility("hidden")))
 @interface _UIActivityIndicatorViewArtworkCacheKey
 {
     long long _style;
-    double _width;
-    long long _spokeCount;
-    long long _spokeFrameRatio;
-    struct CGSize _shadowOffset;
-    struct CGColor *_color;
-    struct CGColor *_shadowColor;
 }
 
 - (void);
 - (unsigned long long);
-- (_Bool)urce:(id)arg1;
-- (_Bool)nWellViewToPressed:(id)arg1 animated: /* Error: Ran out of types for this method. */;
-- (id)ishTransitionWithCompletion:(struct _NSZone *)arg1;
+- (_Bool)setMutationQueueSource:(id)arg1;
+- (_Bool)_transitionWellViewToPressed:(id)arg1 animated: /* Error: Ran out of types for this method. */;
+- (id)finishTransitionWithCompletion:(struct _NSZone *)arg1;
 - (id)2ÄþÿØÏþÿ;
 
 @end

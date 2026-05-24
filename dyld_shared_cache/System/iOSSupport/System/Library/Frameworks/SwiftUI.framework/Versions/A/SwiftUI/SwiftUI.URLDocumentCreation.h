@@ -7,13 +7,6 @@
 @interface SwiftUI.URLDocumentCreation
 {
     id strategies;
-    id contentTypes;
-    id $__lazy_storage_$_aggregatedContentTypes;
-    id onDocumentOpen;
-    id newDocumentHandler;
-    id canCreateNewDocuments;
-    id documentBrowserContextMenu;
-    id $__lazy_storage_$_documentBrowser;
 }
 
 - (void);

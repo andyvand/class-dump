@@ -5,15 +5,11 @@
 //
 
 @class NSString;
-@protocol FCChannelProviding;
 
 @protocol FCDraftAccessCheckable
 - (_Bool);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isDraft;
-@property(readonly, nonatomic) _Bool isLocalDraft;
-@property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
 @end
 

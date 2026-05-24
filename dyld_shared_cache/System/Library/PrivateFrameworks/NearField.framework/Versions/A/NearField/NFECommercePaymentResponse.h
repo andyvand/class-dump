@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface NFECommercePaymentResponse
 {
     NSString *_transactionIdentifier;
-    NSData *_transactionData;
-    NSDictionary *_certs;
-    NSArray *_SEPcerts;
-    NSData *_confirmationBlobHash;
-    NSData *_confirmationBlobSignature;
-    long long _confirmationBlobVersion;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)setSelectable:(id)arg1;
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)MHSchemaMHAssistantDaemonAudioPrewarmContext;
 - (id);
-- (id);
-- (void);
+- (void)@;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *SEPcerts; // @synthesize SEPcerts=_SEPcerts;
-@property(readonly, retain, nonatomic) NSDictionary *certs; // @synthesize certs=_certs;
-@property(readonly, retain, nonatomic) NSData *confirmationBlobHash; // @synthesize confirmationBlobHash=_confirmationBlobHash;
-@property(readonly, retain, nonatomic) NSData *confirmationBlobSignature; // @synthesize confirmationBlobSignature=_confirmationBlobSignature;
-@property(readonly, nonatomic) long long confirmationBlobVersion; // @synthesize confirmationBlobVersion=_confirmationBlobVersion;
-@property(readonly, retain, nonatomic) NSData *transactionData; // @synthesize transactionData=_transactionData;
 @property(readonly, retain, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
 
 @end

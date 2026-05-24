@@ -5,8 +5,8 @@
 //
 
 @protocol ReusableResultBookmarksOperation
+- (_Bool);
 - (id)e deleteImagesWithUniqueIdentifiers:completionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) id result;

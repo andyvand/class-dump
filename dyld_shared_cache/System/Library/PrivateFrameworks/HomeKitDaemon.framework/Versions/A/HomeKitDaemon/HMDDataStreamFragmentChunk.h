@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamFragmentChunk
 {
     _Bool _last;
-    NSData *_data;
-    NSNumber *_sequenceNumber;
-    NSNumber *_fragmentSequenceNumber;
-    NSString *_type;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)m;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id)AccessoryMessage:(struct _NSZone *)arg1;
+- (id)handleRemoveAccessoryMessage:(struct _NSZone *)arg1;
 - (id)N,V_serviceType;
 - (id)rations:%lu /* Error: Ran out of types for this method. */;
 - (id)configuring [%@] with cloud kit container options;
@@ -32,11 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy) NSNumber *fragmentSequenceNumber; // @synthesize fragmentSequenceNumber=_fragmentSequenceNumber;
-@property(readonly, getter=isLast) _Bool last; // @synthesize last=_last;
-@property(readonly, copy) NSNumber *sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(readonly, copy) NSString *type; // @synthesize type=_type;
 
 @end
 

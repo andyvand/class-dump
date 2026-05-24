@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSArray, NSXPCConnection;
 
 @interface TKSmartCardSlotManager
 {
     NSXPCConnection *_connection;
-    NSMutableDictionary *_endpoints;
-    NSArray *_slotNames;
-    NSObject<OS_dispatch_queue> *_slotNamesQueue;
-    NSArray *_nfcAppIdentifiers;
-    CDUnknownBlockType _connectionToServer;
-    int _notifyToken;
 }
 
 + (id);
@@ -23,29 +16,22 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
+- (id)A(;
 - (id);
-- (id);
-- (void);
+- (void)"NSError"16;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSArray *slotNames;
-@property(readonly) Class superclass;
 
 @end
 

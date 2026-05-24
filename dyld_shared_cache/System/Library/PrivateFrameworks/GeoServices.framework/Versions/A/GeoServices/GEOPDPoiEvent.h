@@ -4,47 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocalizedString, GEOPDMapsIdentifier, GEOTimezone, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPoiEvent
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_eventCategorys;
-    NSMutableArray *_eventDateTimes;
-    GEOPDMapsIdentifier *_eventId;
-    GEOLocalizedString *_name;
-    NSMutableArray *_performers;
-    NSMutableArray *_poiIds;
-    GEOTimezone *_timezone;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _expectedAttendance;
-    struct {
-        unsigned int has_expectedAttendance:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_eventCategorys:1;
-        unsigned int read_eventDateTimes:1;
-        unsigned int read_eventId:1;
-        unsigned int read_name:1;
-        unsigned int read_performers:1;
-        unsigned int read_poiIds:1;
-        unsigned int read_timezone:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_sessionInfoProvider;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)@?B>32;
-- (id)FreeProfileEnabled;
+- (id)_mapSettingsIsHandsFreeProfileEnabled;
 - (id)à,8;
 - (void)àô.ÞCF@;
 

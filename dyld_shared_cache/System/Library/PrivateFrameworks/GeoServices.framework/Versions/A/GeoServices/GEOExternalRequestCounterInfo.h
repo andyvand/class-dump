@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface GEOExternalRequestCounterInfo
 {
     NSString *_appId;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    long long _xmitBytes;
-    long long _recvBytes;
-    unsigned long long _usedInterface;
-    NSString *_requestType;
-    NSString *_requestSubtype;
-    NSString *_source;
 }
 
 - (long long);
@@ -34,8 +26,8 @@
 - (void);
 - (void);
 - (id)s_businessId"b1"has_latency"b1"has_resultType"b1"has_tappedCount"b1"has_eventuallyVisible"b1"has_initiallyVisible"b1};
-- (id)mentMetadata;
-- (void)ionInViewport;
+- (id)placecardEnrichmentMetadata;
+- (void)_isCurrentLocationInViewport;
 - (void)|6HÓ4;
 - (void);
 - (id)&b8;
@@ -43,21 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appId; // @synthesize appId=_appId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long recvBytes; // @synthesize recvBytes=_recvBytes;
-@property(retain, nonatomic) NSString *requestSubtype; // @synthesize requestSubtype=_requestSubtype;
-@property(retain, nonatomic) NSString *requestType; // @synthesize requestType=_requestType;
-@property(retain, nonatomic) NSString *source; // @synthesize source=_source;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long usedInterface; // @synthesize usedInterface=_usedInterface;
-@property(nonatomic) long long xmitBytes; // @synthesize xmitBytes=_xmitBytes;
 
 @end
 

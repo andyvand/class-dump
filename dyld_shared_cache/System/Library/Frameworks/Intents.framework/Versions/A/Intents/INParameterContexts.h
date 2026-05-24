@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface INParameterContexts
 {
     NSDictionary *_suggestedValuesDictionary;
-    NSDictionary *_typedSuggestedValuesDictionary;
-    NSDictionary *_operatorsDictionary;
 }
 
 + (id);
@@ -26,20 +24,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)earchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideMediaItemsOptionsForUpdateMediaAffinity:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)¸'Nòp;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setOperatorsDictionary:) NSDictionary *_operatorsDictionary; // @synthesize _operatorsDictionary;
 @property(retain, nonatomic, setter=_setSuggestedValuesDictionary:) NSDictionary *_suggestedValuesDictionary; // @synthesize _suggestedValuesDictionary;
-@property(retain, nonatomic, setter=_setTypedSuggestedValuesDictionary:) NSDictionary *_typedSuggestedValuesDictionary; // @synthesize _typedSuggestedValuesDictionary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

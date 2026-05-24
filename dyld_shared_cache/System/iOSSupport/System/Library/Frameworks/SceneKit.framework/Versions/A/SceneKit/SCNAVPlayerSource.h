@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface SCNAVPlayerSource : SCNTextureSource
 {
     AVPlayer *_player;
-    CDStruct_1e850d63 _data;
-    struct __CVMetalTextureCache *_textureCache;
-    unsigned long long _width;
-    unsigned long long _height;
 }
 
 - (void);

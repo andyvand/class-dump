@@ -4,32 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLogMsgEventServiceMetadata, GEOLogMsgStateOffline, GEOLogMsgStateUserSession, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORequestResponseMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _collectionTime;
-    GEOLogMsgEventServiceMetadata *_eventMetadata;
-    GEOLogMsgStateOffline *_stateOffline;
-    GEOLogMsgStateUserSession *_stateUserSession;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _sessionBatchIdBits;
-    struct {
-        unsigned int has_collectionTime:1;
-        unsigned int has_sessionBatchIdBits:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_eventMetadata:1;
-        unsigned int read_stateOffline:1;
-        unsigned int read_stateUserSession:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)dentifier:(id)arg1;
++ (_Bool)setLoiIdentifier:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -39,8 +21,8 @@
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
-- (_Bool);
+- (_Bool)sharing the same target store succeeded but yielded no results. At least some container is expected to already exist (migration at provides for this). Without a container, this save will fail with a contact constraint violation.;
+- (_Bool)contacts.persistence.did-update-psc;
 - (_Bool);
 - (_Bool);
 - (double);
@@ -49,35 +31,25 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_shouldLogRawSensorData;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)ements"b1"read_suppressAttributionLogos"b1"read_appAdamID"b1"read_attributionApps"b1"read_localizedAttributions"b1"read_sourceIdentifier"b1"read_supportedComponentActions"b1"read_webBaseActionURL"b1"wrote_anyField"b1};
-- (id)nAsString: /* Error: Ran out of types for this method. */;
+- (id)distanceFromHereToOriginAsString: /* Error: Ran out of types for this method. */;
 - (id)ôTõ@ö°ö;
-- (id)_photos;
+- (id)categorized_photos;
 - (void)ûP,&P@;
 
 // Remaining properties
-@property(nonatomic) double collectionTime;
-@property(retain, nonatomic) GEOLogMsgEventServiceMetadata *eventMetadata;
-@property(nonatomic) _Bool hasCollectionTime;
 @property(readonly, nonatomic) _Bool hasEventMetadata;
-@property(nonatomic) _Bool hasSessionBatchIdBits;
-@property(readonly, nonatomic) _Bool hasStateOffline;
-@property(readonly, nonatomic) _Bool hasStateUserSession;
-@property(nonatomic) unsigned int sessionBatchIdBits;
-@property(retain, nonatomic) GEOLogMsgStateOffline *stateOffline;
-@property(retain, nonatomic) GEOLogMsgStateUserSession *stateUserSession;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

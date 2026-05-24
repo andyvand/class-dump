@@ -9,21 +9,15 @@
 @interface MPSNDArrayConvolution3DGradientWithWeights : MPSNDArrayBinarySecondaryGradientKernel
 {
     struct MPSNDArrayConv3dSizes_s _strideInPixels;
-    struct MPSNDArrayConv3dSizes_s _dilationRates;
-    struct MPSNDArrayConv3dOffsets_s _offsets;
-    struct MPSNDArrayConv3dOffsets_s _kernelOffsets;
-    unsigned int _dataFormat;
-    unsigned int _weightsFormat;
-    unsigned long long _groups;
 }
 
 + (const struct MPSLibraryInfo *);
 - (id);
-- (unsigned int);
+- (unsigned int)";
 - (id);
 - (struct MPSNDArrayConv3dSizes_s);
 - (void);
-- (void);
+- (void)L ;
 - (void);
 - (void);
 - (void);
@@ -42,13 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int dataFormat; // @synthesize dataFormat=_dataFormat;
-@property(nonatomic) struct MPSNDArrayConv3dSizes_s dilationRates;
-@property(nonatomic) unsigned long long groups; // @synthesize groups=_groups;
-@property(nonatomic) struct MPSNDArrayConv3dOffsets_s kernelOffsets;
-@property(nonatomic) struct MPSNDArrayConv3dOffsets_s offsets;
 @property(nonatomic) struct MPSNDArrayConv3dSizes_s strideInPixels;
-@property(nonatomic) unsigned int weightsFormat; // @synthesize weightsFormat=_weightsFormat;
 
 @end
 

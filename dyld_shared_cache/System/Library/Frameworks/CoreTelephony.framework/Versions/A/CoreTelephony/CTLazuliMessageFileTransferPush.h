@@ -4,35 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliChatBotSuggestedChipList, CTLazuliCustomMetaData, CTLazuliFileTransferDescriptor;
+@class CTLazuliFileTransferDescriptor;
 
 @interface CTLazuliMessageFileTransferPush
 {
     CTLazuliFileTransferDescriptor *_descriptor;
-    CTLazuliChatBotSuggestedChipList *_chipList;
-    CTLazuliCustomMetaData *_metaData;
 }
 
-+ (_Bool);
++ (_Bool)videoRendition;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)l;
 - (_Bool);
-- (void);
+- (void)removeObserver:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CTLazuliChatBotSuggestedChipList *chipList; // @synthesize chipList=_chipList;
 @property(retain, nonatomic) CTLazuliFileTransferDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(retain, nonatomic) CTLazuliCustomMetaData *metaData; // @synthesize metaData=_metaData;
 
 @end
 

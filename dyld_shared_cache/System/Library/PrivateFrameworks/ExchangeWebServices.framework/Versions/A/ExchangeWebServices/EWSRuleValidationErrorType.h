@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EWSRuleValidationErrorType
 {
     long long _RuleFieldURIType;
-    long long _ErrorCode;
-    NSString *_ErrorMessage;
-    NSString *_FieldValue;
 }
 
 + (id);
@@ -21,22 +16,12 @@
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)sibilityUtilities.framework/AccessibilityUtilities;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long ErrorCode; // @synthesize ErrorCode=_ErrorCode;
-@property(copy, nonatomic) NSString *ErrorMessage; // @synthesize ErrorMessage=_ErrorMessage;
-@property(copy, nonatomic) NSString *FieldValue; // @synthesize FieldValue=_FieldValue;
 @property(nonatomic) long long RuleFieldURIType; // @synthesize RuleFieldURIType=_RuleFieldURIType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

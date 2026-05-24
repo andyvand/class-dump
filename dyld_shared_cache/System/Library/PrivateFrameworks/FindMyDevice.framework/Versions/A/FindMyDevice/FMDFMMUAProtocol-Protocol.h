@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol FMDFMMUAProtocol
+- (oneway void)Point=dd}ddddddddd}16d112;
+- (void)}16Q24d32;
+- (void)16@24d32@40;
+- (oneway void)nt=d{CGPoint=dd}ddddddddd}32@0:(NSString *)arg1 8r^{Point=^^?fffffff{?=b1b1b1b1b1b1b1}}16r^{_PKStrokePoint=d{CGPoint=dd}ddddddddd}24;
+- (oneway void)QQQ{?=b1b1b1}}24@32;
+- (oneway void)6@24@32@40;
+- (oneway void)ectionImageConfig";
 @end
 

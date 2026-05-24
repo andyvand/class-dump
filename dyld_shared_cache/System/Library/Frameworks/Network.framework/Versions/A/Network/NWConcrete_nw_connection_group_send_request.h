@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_data, OS_nw_connection_group, OS_nw_content_context, OS_nw_endpoint;
+@class NSObject;
+@protocol OS_nw_connection_group;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_connection_group_send_request
 {
     NSObject<OS_nw_connection_group> *group;
-    CDUnknownBlockType completion;
-    NSObject<OS_nw_endpoint> *endpoint;
-    NSObject<OS_dispatch_data> *data;
-    NSObject<OS_nw_content_context> *context;
 }
 
-- (void);
+- (void)Mac Medium Light-Opaque;
 - (id);
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

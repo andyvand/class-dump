@@ -5,5 +5,6 @@
 //
 
 @protocol SXNamespacedObjectFactory
+- (void);
 @end
 

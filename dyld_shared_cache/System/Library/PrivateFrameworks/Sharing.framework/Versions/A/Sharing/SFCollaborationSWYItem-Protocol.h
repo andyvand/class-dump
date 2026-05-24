@@ -9,7 +9,6 @@
 @protocol SFCollaborationSWYItem
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isURLProviderSupported;
 @property(readonly, nonatomic) SFPendingCollaboration *pendingCollaboration;
 @end
 

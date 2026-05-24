@@ -4,6 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSData, NSString;
+
 @protocol SGEventLocationForGeocode
+- (id)isDirectRequest;
+- (id)isArrow;
+- (NSString *)Cell",&,V_cell;
+- (NSString *)initWithString: /* Error: Ran out of types for this method. */;
+- (NSString *)_titleCompositeGadget;
+- (NSString *)evertGadget;
+- (double)ITextButton",&,V_linkButton;
+- (NSString *)tartTimeGadget;
+- (_Bool)"EKUIStartTimeGadget",&,V_startTimeGadget;
+- (_Bool)reView;
+- (NSData *)iew",&,V_allInviteesShowMoreView;
+- (NSString *)KUIShareeControlContainer",&,V_controlContainer;
+- (NSString *),V_urlField;
+- (NSString *)hasData;
+- (NSString *)edTimeDateTimeGadget",&,V_proposedTimeDateTimeGadget;
+- (double)tingManager;
+- (double)opover>",W,V_presentingPopoverController;
 @end
 

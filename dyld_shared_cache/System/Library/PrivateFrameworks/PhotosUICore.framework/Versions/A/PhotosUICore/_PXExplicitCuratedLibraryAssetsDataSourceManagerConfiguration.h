@@ -11,9 +11,6 @@
 @interface _PXExplicitCuratedLibraryAssetsDataSourceManagerConfiguration : PXCuratedLibraryAssetsDataSourceManagerConfiguration
 {
     PXAssetsDataSourceManager *_yearsAssetsDataSourceManager;
-    PXAssetsDataSourceManager *_monthsAssetsDataSourceManager;
-    PXAssetsDataSourceManager *_daysAssetsDataSourceManager;
-    PXAssetsDataSourceManager *_allPhotosAssetsDataSourceManager;
 }
 
 - (id);

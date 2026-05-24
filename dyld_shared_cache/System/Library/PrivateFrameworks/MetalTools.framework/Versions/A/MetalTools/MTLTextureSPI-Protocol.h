@@ -5,39 +5,18 @@
 //
 
 @protocol MTLTextureSPI
+- (unsigned long long);
+- (unsigned long long)a ;
+- (_Bool);
 - (unsigned long long)Áj2!@ùÑh6°1Â0@ù
 × ;
 - (_Bool)=%u, maxBufferBytes=%u, avgBufferBytes=%f, totalBufferBytes=%llu, countBufferBytes=%u;
-- (unsigned int)er2;
+- (unsigned int)MTLFeatureSet_macOS_ReadWriteTextureTier2;
+
+@optional
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long colorSpaceConversionMatrix;
-@property(readonly) long long compressionFeedback;
-@property(readonly, nonatomic) unsigned long long compressionFootprint;
-@property(readonly, nonatomic) unsigned long long gpuAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long gpuHandle;
 @property(readonly) struct __IOSurface *iosurface;
-@property(readonly) unsigned long long iosurfacePlane;
-@property(readonly) _Bool isCompressed;
-@property(readonly) _Bool isDrawable;
-@property(readonly) unsigned long long numFaces;
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly) unsigned long long rotation;
-@property(readonly) unsigned long long sparseSurfaceDefaultValue;
-@property(readonly) unsigned int swizzleKey;
-@property(readonly) unsigned long long uniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) long long writeAccessPattern;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
 @end
 

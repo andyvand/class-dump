@@ -7,6 +7,8 @@
 @class UIWindow;
 
 @protocol _UIViewServiceSessionPrimaryActivityProviding
+- (UIWindow *)messagesToUploadToCloudKitWithLimit: /* Error: Ran out of types for this method. */;
+- (int);
 
 // Remaining properties
 @property(readonly, nonatomic) int _effectiveViewControllerAppearState;

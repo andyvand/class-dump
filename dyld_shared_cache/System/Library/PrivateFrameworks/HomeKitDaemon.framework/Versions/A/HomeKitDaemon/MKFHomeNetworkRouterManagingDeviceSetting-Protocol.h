@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFHomeNetworkRouterManagingDeviceSettingDatabaseID;
 @protocol MKFDevice;
 
 @protocol MKFHomeNetworkRouterManagingDeviceSetting
 - (void)s",R,V_userDefaults;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHomeNetworkRouterManagingDeviceSettingDatabaseID *databaseID;
 @property(retain, nonatomic) id <MKFDevice> device;
 @end
 

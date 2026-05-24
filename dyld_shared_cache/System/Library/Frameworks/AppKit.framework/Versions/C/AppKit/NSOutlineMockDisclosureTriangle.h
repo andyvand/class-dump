@@ -4,47 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOutlineView, NSTableColumn;
-
 __attribute__((visibility("hidden")))
 @interface NSOutlineMockDisclosureTriangle
 {
     long long _row;
-    NSOutlineView *_outlineView;
-    NSTableColumn *_column;
 }
 
-- (id);
-- (id);
+- (id)SleepOnceConnected;
+- (id)disablesRetry;
+- (id)authenticatorConfiguredViaTaskProperty;
+- (id)shouldDoWorkConsideringTlsState;
+- (void)nection",&,V_cfConn;
+- (id)C,V_pathToDownloadTaskFile;
+- (id)loadFileProtectionType;
+- (id)mWatchCellularTransferSize;
+- (void)_lastResumeTime;
+- (id)_initVaryHeaderEnabledWithPath: /* Error: Ran out of types for this method. */;
+- (_Bool)AVAggregateAssetDownloadTaskForURLAsset:mediaSelections:assetTitle:assetArtworkData:options: /* Error: Ran out of types for this method. */;
+- (_Bool)tedData;
+- (_Bool)set_downloadFileProtectionType: /* Error: Ran out of types for this method. */;
+- (_Bool)setRequiresNetworkConnectivity: /* Error: Ran out of types for this method. */;
+- (_Bool)privateBrowsing;
+- (_Bool)originalRequest;
+- (_Bool)",&,V_phskip_urlCache;
+- (_Bool)netServiceBrowser:didNotSearch: /* Error: Ran out of types for this method. */;
+- (_Bool)connection:_willSendRequestForEstablishedConnection:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)ring",C,N,V_partition;
+- (_Bool)_onqueue_didReceiveMetricEvent:(id)arg1;
+- (id),C,V__TCPConnectionMetadata;
+- (id)d;
+- (id)T@"NSDate",&,N,V_expirationDate;
+- (id)NSURLProtocolInternal;
+- (id)_NSCFServer;
+- (id)NSURLSessionAVAssetDownloadTask;
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)registeringChangeNotification: /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
 - (_Bool);

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBPersonaManager;
-
 @interface RBContainerManager
 {
     struct container_query_s *_queryForApps;
-    struct container_query_s *_queryForPlugins;
-    struct OptionalUID _queryUID;
-    RBPersonaManager *_personaManager;
 }
 
 - (id);
@@ -19,11 +14,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
-- (id);
-- (struct OptionalUID);
+- (id);
+- (struct OptionalUID);
 - (void);
 - (id);
 - (void);

@@ -6,24 +6,23 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSString, SAWebWebSearchResult;
+@class NSString;
 
 @interface SAWebObject : SADomainObject
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)`";
+- (id)B#;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *query;
-@property(retain, nonatomic) SAWebWebSearchResult *results;
 
 @end
 

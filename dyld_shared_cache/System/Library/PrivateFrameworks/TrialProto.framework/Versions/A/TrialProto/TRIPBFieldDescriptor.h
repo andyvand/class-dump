@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIPBEnumDescriptor, TRIPBOneofDescriptor;
+@class NSString;
 
 @interface TRIPBFieldDescriptor
 {
     struct TRIPBMessageFieldDescription *description_;
-    TRIPBOneofDescriptor *containingOneof_;
-    SEL getSel_;
-    SEL setSel_;
-    SEL hasOrCountSel_;
-    SEL setHasSel_;
-    CDUnion_a49d1a5a defaultValue_;
-    Class msgClass_;
-    union {
-        TRIPBEnumDescriptor *enumDescriptor_;
-        CDUnknownFunctionPointerType enumVerifier_;
-    } enumHandling_;
 }
 
 - (id);
-- (void);
+- (void)B;
 - (_Bool);
 - (id);
 - (id);
 - (unsigned char);
-- (id);
+- (id)9;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -38,23 +27,11 @@
 - (_Bool);
 - (unsigned char);
 - (_Bool);
-- (CDUnion_a49d1a5a);
+- (CDUnion_cf1021d0)availableSpaceClassFromPurgeabilityLevel: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) TRIPBOneofDescriptor *containingOneof; // @synthesize containingOneof=containingOneof_;
-@property(readonly, nonatomic) unsigned char dataType;
-@property(readonly, nonatomic) CDUnion_a49d1a5a defaultValue;
-@property(readonly, nonatomic) TRIPBEnumDescriptor *enumDescriptor;
-@property(readonly, nonatomic) unsigned char fieldType;
-@property(readonly, nonatomic) _Bool hasDefaultValue;
-@property(readonly, nonatomic) unsigned char mapKeyDataType;
-@property(readonly, nonatomic) Class msgClass; // @synthesize msgClass=msgClass_;
 @property(readonly, copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) unsigned int number;
-@property(readonly, nonatomic, getter=isOptional) _Bool optional;
-@property(readonly, nonatomic, getter=isPackable) _Bool packable;
-@property(readonly, nonatomic, getter=isRequired) _Bool required;
 
 @end
 

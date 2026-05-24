@@ -6,23 +6,16 @@
 
 #import <FinderKit/FI_TTextView.h>
 
-@class FI_TShrinkToFitController, FI_TShrinkToFitWindow, NSWindow;
+@class FI_TShrinkToFitWindow, NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface FI_TShrinkToFitTextView : FI_TTextView
 {
     FI_TShrinkToFitWindow *_stfWindow;
-    NSWindow *_parentWindow;
-    struct CGRect _maxGlobalFrame;
-    _Bool _textGrowsUpwards;
-    unsigned long long _maxUniChars;
-    long long _maxNumLines;
-    struct TNSWeakPtr<FI_TShrinkToFitController> _weakSTFController;
-    double _srcGlobalBaseline;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (double);
 - (void);
@@ -32,26 +25,26 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (struct CGRect);
 - (pair_2447b6e7);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)`;
 - (void);
 - (double);
 - (void);
-- (double);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)shouldDelayWindowOrderingForEvent:(id)arg1;
+- (id)shouldCheckIntranetDomains;
+- (id)sharingServicePicker:sharingServicesForItems:proposedSharingServices: /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (void);
+- (double);
+- (void);
+- (double);
+- (id)?;
 - (id);
 - (void);
 - (void)
@@ -63,13 +56,7 @@ __attribute__((visibility("hidden")))
 - (void)";
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect maxGlobalFrame; // @synthesize maxGlobalFrame=_maxGlobalFrame;
-@property(nonatomic) long long maxNumLines; // @synthesize maxNumLines=_maxNumLines;
-@property(nonatomic) unsigned long long maxUniChars; // @synthesize maxUniChars=_maxUniChars;
 @property(retain, nonatomic) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(readonly, nonatomic) double srcGlobalBaseline; // @synthesize srcGlobalBaseline=_srcGlobalBaseline;
-@property(nonatomic) __weak FI_TShrinkToFitController *stfController;
-@property(nonatomic) _Bool textGrowsUpwards; // @synthesize textGrowsUpwards=_textGrowsUpwards;
 
 @end
 

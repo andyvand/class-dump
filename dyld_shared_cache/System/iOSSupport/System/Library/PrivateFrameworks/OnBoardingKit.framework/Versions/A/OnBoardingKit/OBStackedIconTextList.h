@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface OBStackedIconTextList
 {
     double _itemSpacing;
-    NSMutableArray *_entries;
-    double _iconTextPadding;
-    unsigned long long _dataDetectorTypes;
 }
 
 - (void);
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)@;
 - (unsigned long long);
 - (void);
 - (id);
@@ -27,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long dataDetectorTypes; // @synthesize dataDetectorTypes=_dataDetectorTypes;
 @property(nonatomic) double iconTextPadding; // @synthesize iconTextPadding=_iconTextPadding;
 
 @end

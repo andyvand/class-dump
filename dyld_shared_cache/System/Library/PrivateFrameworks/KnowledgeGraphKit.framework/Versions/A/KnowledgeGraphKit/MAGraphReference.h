@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAGraph;
 @protocol MAGraphProxy;
 
 @interface MAGraphReference
 {
     unsigned long long _hash;
-    MAGraph *_concreteGraph;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void)_TtC13ControlCenter30ControlCenterModuleXPCListener;
 - (id);
 - (id)D#;
 
 // Remaining properties
-@property(readonly) __weak MAGraph *concreteGraph; // @synthesize concreteGraph=_concreteGraph;
 @property(readonly) __weak id <MAGraphProxy> graph;
 
 @end

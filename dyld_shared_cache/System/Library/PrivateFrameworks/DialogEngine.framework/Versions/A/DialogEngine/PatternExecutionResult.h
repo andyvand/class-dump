@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSString, PatternVisualInfo;
+@class NSString;
 
 @interface PatternExecutionResult
 {
     NSString *_patternId;
-    NSDictionary *_meta;
-    NSArray *_dialog;
-    NSData *_visual;
-    NSString *_responseMode;
-    NSNumber *_printSupportingDialog;
-    unsigned long long _patternType;
-    PatternVisualInfo *_visualInfo;
 }
 
 @end

@@ -7,10 +7,6 @@
 @interface NewsFeed.RecipeService
 {
     id assetManager;
-    id accessChecker;
-    id contentContext;
-    id tagController;
-    id featureAvailability;
 }
 
 @end

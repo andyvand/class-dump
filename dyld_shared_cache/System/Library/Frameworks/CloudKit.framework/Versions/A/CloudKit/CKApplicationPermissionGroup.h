@@ -9,8 +9,6 @@
 @interface CKApplicationPermissionGroup
 {
     NSArray *_containerIDs;
-    NSArray *_applicationBundleIDs;
-    unsigned long long _enabledPermissions;
 }
 
 + (_Bool);
@@ -22,15 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)@üX Ü;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *applicationBundleIDs; // @synthesize applicationBundleIDs=_applicationBundleIDs;
 @property(copy, nonatomic) NSArray *containerIDs; // @synthesize containerIDs=_containerIDs;
-@property(nonatomic) unsigned long long enabledPermissions; // @synthesize enabledPermissions=_enabledPermissions;
 
 @end
 

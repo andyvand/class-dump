@@ -7,11 +7,10 @@
 @class MPCPlayerCommandRequest, NSArray;
 
 @protocol MPCPlayerPlaybackRateCommand
+- (float)@;
 - (MPCPlayerCommandRequest *)em:(float)arg1;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *extendedSupportedPlaybackRates;
-@property(readonly, nonatomic) float preferredPlaybackRate;
 @property(readonly, copy, nonatomic) NSArray *supportedPlaybackRates;
 @end
 

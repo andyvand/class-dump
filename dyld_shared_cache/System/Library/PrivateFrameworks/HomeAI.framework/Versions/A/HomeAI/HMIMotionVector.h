@@ -7,15 +7,13 @@
 @interface HMIMotionVector
 {
     Class _eventClass;
-    struct CGPoint _origin;
-    struct CGVector _motion;
 }
 
-- (id);
+- (id);
 - (struct CGVector);
-- (struct CGPoint);
+- (struct CGPoint);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (Class);
 - (struct CGRect);
 - (double);
@@ -23,12 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) struct CGRect boundingBox;
-@property(retain) Class eventClass; // @synthesize eventClass=_eventClass;
-@property(readonly) struct CGPoint midpoint;
-@property(readonly) struct CGVector motion; // @synthesize motion=_motion;
 @property(readonly) struct CGPoint origin; // @synthesize origin=_origin;
-@property(readonly) struct CGPoint target;
 
 @end
 

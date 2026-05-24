@@ -6,14 +6,9 @@
 
 #import <BiomeFoundation/BMFileManager.h>
 
-@class BMXPCConnectionWrapper, NSString;
-
 @interface _BMXPCFileManager : BMFileManager
 {
     unsigned long long _domain;
-    BMXPCConnectionWrapper *_connectionWrapper;
-    NSString *_useCase;
-    unsigned int _user;
 }
 
 - (_Bool);

@@ -9,26 +9,14 @@
 @interface GEOTraversalTimes
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _aggressiveEstimatedSeconds;
-    unsigned int _conservativeEstimatedSeconds;
-    unsigned int _estimatedSeconds;
-    unsigned int _freeflowEstimatedSeconds;
-    unsigned int _historicalEstimatedSeconds;
-    struct {
-        unsigned int has_aggressiveEstimatedSeconds:1;
-        unsigned int has_conservativeEstimatedSeconds:1;
-        unsigned int has_estimatedSeconds:1;
-        unsigned int has_freeflowEstimatedSeconds:1;
-        unsigned int has_historicalEstimatedSeconds:1;
-    } _flags;
 }
 
-+ (_Bool)t:(id)arg1;
++ (_Bool)setNearbyTransit:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)X;
 - (void);
 - (void);
 - (void);
@@ -37,10 +25,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (_Bool)untCollectionUpdateWatcher";
+- (unsigned int)temporaryTimeMachineDirectory;
+- (unsigned int)registrationsForTargetRecords:registrar:error: /* Error: Ran out of types for this method. */;
+- (unsigned int)createDirectoryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (_Bool);
@@ -49,30 +37,20 @@
 - (id);
 - (void);
 - (void);
+- (void)nowPlayingObserver:(id)arg1 proxyGroupPlayerStateDidChangeFrom:to: /* Error: Ran out of types for this method. */;
+- (id);
+- (unsigned long long)P;
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id)electedElementIndex:defaultSelectedElementIndex: /* Error: Ran out of types for this method. */;
+- (id)initWithDisplayName:sorts:selectedElementIndex:defaultSelectedElementIndex: /* Error: Ran out of types for this method. */;
 - (id)uleConfiguration",R,N;
-- (id)leInstalled;
+- (id)EVRoutingPartnerProfileInstalled;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int aggressiveEstimatedSeconds;
-@property(nonatomic) unsigned int conservativeEstimatedSeconds;
-@property(nonatomic) unsigned int estimatedSeconds;
-@property(nonatomic) unsigned int freeflowEstimatedSeconds;
-@property(nonatomic) _Bool hasAggressiveEstimatedSeconds;
-@property(nonatomic) _Bool hasConservativeEstimatedSeconds;
 @property(nonatomic) _Bool hasEstimatedSeconds;
-@property(nonatomic) _Bool hasFreeflowEstimatedSeconds;
-@property(nonatomic) _Bool hasHistoricalEstimatedSeconds;
-@property(nonatomic) unsigned int historicalEstimatedSeconds;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

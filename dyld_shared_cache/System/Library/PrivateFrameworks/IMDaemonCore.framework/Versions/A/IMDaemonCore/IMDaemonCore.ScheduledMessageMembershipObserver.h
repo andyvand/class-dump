@@ -7,7 +7,6 @@
 @interface IMDaemonCore.ScheduledMessageMembershipObserver
 {
     id coordinator;
-    id chatRegistry;
 }
 
 - (void);

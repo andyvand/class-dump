@@ -11,10 +11,9 @@
 @interface RTAccountManagerNotificationAccountChanged : RTNotification
 {
     RTAccount *_latestAccount;
-    RTAccount *_oldAccount;
 }
 
-- (id);
+- (id)setNewHSMContent: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) RTAccount *latestAccount; // @synthesize latestAccount=_latestAccount;
-@property(readonly, nonatomic) RTAccount *oldAccount; // @synthesize oldAccount=_oldAccount;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorStickerAttachmentInfo, NSString;
+@class NSString;
 
 @protocol IMRepositionStickerCommandProcessingParameter
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *GUID;
-@property(readonly, copy, nonatomic) BlastDoorStickerAttachmentInfo *stickerAttachmentInfo;
-@property(readonly, copy, nonatomic) NSString *stickerEditedMessageGuid;
 @end
 

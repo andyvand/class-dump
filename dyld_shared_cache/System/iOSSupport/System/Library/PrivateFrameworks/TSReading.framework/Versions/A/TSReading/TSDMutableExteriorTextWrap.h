@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)JumpScanningSubscription;
 - (void);
 - (void);
 - (void);

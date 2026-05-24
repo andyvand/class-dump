@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimeZone, NSUUID;
+@class NSUUID;
 
 @interface MNDisplayETALegInfo
 {
     NSUUID *_waypointID;
-    unsigned long long _legIndex;
-    unsigned long long _remainingMinutes;
-    NSDate *_eta;
-    NSTimeZone *_timeZone;
 }
 
 + (_Bool);
 - (id);
-- (void);
-- (void);
+- (void)SearchCustomAccessory;
+- (void)tionsVisibilityModifier;
 - (unsigned long long);
 - (void);
 - (void);
@@ -27,16 +23,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)AOSUIAccountContactSelectorDelegate;
 - (void);
 - (void)enCountdownValue>";
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *eta; // @synthesize eta=_eta;
-@property(nonatomic) unsigned long long legIndex; // @synthesize legIndex=_legIndex;
-@property(nonatomic) unsigned long long remainingMinutes; // @synthesize remainingMinutes=_remainingMinutes;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 @property(retain, nonatomic) NSUUID *waypointID; // @synthesize waypointID=_waypointID;
 
 @end

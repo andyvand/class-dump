@@ -7,9 +7,6 @@
 @interface NewsArticles.EndOfArticleFeedConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
-    id articleRecirculationConfigService;
 }
 
 @end

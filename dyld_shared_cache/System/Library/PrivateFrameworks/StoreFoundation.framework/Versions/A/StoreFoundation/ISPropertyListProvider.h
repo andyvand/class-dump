@@ -6,23 +6,11 @@
 
 #import <StoreFoundation/ISDataProvider.h>
 
-@class ISServiceProxy, NSArray, NSMutableArray, NSString;
+@class ISServiceProxy;
 
 @interface ISPropertyListProvider : ISDataProvider
 {
     _Bool _shouldProcessAccount;
-    _Bool _shouldProcessDialogs;
-    _Bool _shouldProcessDownloads;
-    _Bool _shouldProcessProtocol;
-    _Bool _shouldTriggerDownloads;
-    _Bool _shouldRedirectOnGotoAction;
-    _Bool _shouldProcessDownloadsForUpToDate;
-    NSMutableArray *_upToDateDownloadItemIDs;
-    _Bool _didProcessDialog;
-    CDUnknownBlockType _actionHandler;
-    CDUnknownBlockType _gotoActionHandler;
-    NSString *_touchIDChallenge;
-    ISServiceProxy *_serviceProxy;
 }
 
 - (_Bool);
@@ -35,10 +23,10 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)tGG_A14_Qo_GG;
 - (void);
 - (void);
 - (void);
@@ -53,31 +41,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool didProcessDialog; // @synthesize didProcessDialog=_didProcessDialog;
-@property(copy) CDUnknownBlockType gotoActionHandler; // @synthesize gotoActionHandler=_gotoActionHandler;
-@property(readonly) unsigned long long hash;
 @property(readonly) ISServiceProxy *serviceProxy; // @synthesize serviceProxy=_serviceProxy;
-@property _Bool shouldProcessAccount; // @synthesize shouldProcessAccount=_shouldProcessAccount;
-@property _Bool shouldProcessDialogs; // @synthesize shouldProcessDialogs=_shouldProcessDialogs;
-@property _Bool shouldProcessDownloads; // @synthesize shouldProcessDownloads=_shouldProcessDownloads;
-@property _Bool shouldProcessDownloadsForUpToDate; // @synthesize shouldProcessDownloadsForUpToDate=_shouldProcessDownloadsForUpToDate;
-@property _Bool shouldProcessProtocol; // @synthesize shouldProcessProtocol=_shouldProcessProtocol;
-@property _Bool shouldTriggerDownloads; // @synthesize shouldTriggerDownloads=_shouldTriggerDownloads;
-@property(readonly) Class superclass;
-@property(retain) NSString *touchIDChallenge; // @synthesize touchIDChallenge=_touchIDChallenge;
-@property(readonly) NSArray *upToDateDownloadItemIDs; // @synthesize upToDateDownloadItemIDs=_upToDateDownloadItemIDs;
 
 @end
 

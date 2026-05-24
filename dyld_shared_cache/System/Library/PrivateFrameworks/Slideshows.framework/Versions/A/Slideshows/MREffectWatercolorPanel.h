@@ -6,33 +6,29 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRTextRenderer, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectWatercolorPanel : MREffect
 {
     NSMutableDictionary *mSprites;
-    MRTextRenderer *mTextRenderer;
-    MRImage *mTextImage;
-    MRCroppingSprite *mTextSprite;
-    NSMutableDictionary *mBreakInformation;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)cancel;
+- (void)URLSessionDidFinishEventsForBackgroundURLSession:(double)arg1;
+- (void)URLSession:(double)arg1 task:(id)arg2 didReceiveInformationalResponse:(id)arg3;
+- (void)URLSession:(double)arg1 task:(_Bool)arg2 didCompleteWithError:(id)arg3;
+- (void)Identifier;
+- (void)ect<OS_dispatch_queue>",R,N,V_URLSessionQueue;
+- (_Bool)newsEdgeTodayConfig;
+- (id)er registerEnvelopesAsSubmittedToUploader:(id)arg1 ];
+- (_Bool)"8;
 - (id);
-- (_Bool);
-- (id);
-- (struct CGSize);
+- (struct CGSize);
 - (long long);
 - (void);
 - (void);
 - (void);
-- (void)eedback: /* Error: Ran out of types for this method. */;
+- (void)setDisplaysTouchVisualFeedback: /* Error: Ran out of types for this method. */;
 
 @end
 

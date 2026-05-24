@@ -9,9 +9,6 @@
 @interface WFFileCoder
 {
     NSURL *_sharedDirectory;
-    NSURL *_sharedTemporaryDirectory;
-    long long _deletionResponsibility;
-    long long _targetPlatform;
 }
 
 + (_Bool);
@@ -21,20 +18,17 @@
 - (void);
 - (void);
 - (long long);
+- (id)RE;
+- (void);
+- (long long)bundleIdentifier;
+- (void)addOperationWithBlock:(long long)arg1;
+- (id);
 - (id);
 - (void);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) long long deletionResponsibility; // @synthesize deletionResponsibility=_deletionResponsibility;
 @property(copy, nonatomic) NSURL *sharedDirectory; // @synthesize sharedDirectory=_sharedDirectory;
-@property(copy, nonatomic) NSURL *sharedTemporaryDirectory; // @synthesize sharedTemporaryDirectory=_sharedTemporaryDirectory;
-@property(nonatomic) long long targetPlatform; // @synthesize targetPlatform=_targetPlatform;
 
 @end
 

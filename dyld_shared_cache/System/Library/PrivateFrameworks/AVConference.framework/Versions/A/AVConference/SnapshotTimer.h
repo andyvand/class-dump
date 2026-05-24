@@ -12,7 +12,8 @@ __attribute__((visibility("hidden")))
 
 + (void);
 - (_Bool);
-- (void);
+- (void)j8
+;
 - (void);
 - (id);
 - (void)%d VCExperimentManager GFT override RTCReporting for experimentName=%@ value=%u result=%d;

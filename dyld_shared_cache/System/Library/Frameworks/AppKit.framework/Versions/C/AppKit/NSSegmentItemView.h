@@ -6,49 +6,18 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSFont, NSImage, NSLegacySegmentItem, NSSegmentItemBezelView, NSSegmentItemImageView, NSSegmentItemLabelView, NSSegmentedCell, NSString, NSUserInterfaceCompressionOptions;
+@class NSSegmentedCell;
 
 __attribute__((visibility("hidden")))
 @interface NSSegmentItemView : NSView
 {
     NSSegmentedCell *_parentCell;
-    NSLegacySegmentItem *_segmentItemData;
-    unsigned long long _controlSize;
-    long long _segmentStyle;
-    NSSegmentItemBezelView *_bezelView;
-    NSSegmentItemLabelView *_labelView;
-    NSSegmentItemImageView *_imageView;
-    NSSegmentItemImageView *_menuIndicatorView;
-    NSColor *_bezelTintColor;
-    double _segmentWidth;
-    struct CGSize _labelSize;
-    _Bool _drawsBezel;
-    _Bool _enabled;
-    _Bool _highlighted;
-    _Bool _emphasized;
-    _Bool _rollover;
-    _Bool _active;
-    _Bool _selected;
-    _Bool _leadingCap;
-    _Bool _trailingCap;
-    _Bool _leadingSeparator;
-    _Bool _trailingSeparator;
-    long long _leadingSegmentHighlightState;
-    long long _trailingSegmentHighlightState;
-    _Bool _showMenuIndicator;
-    unsigned long long _imageScaling;
-    long long _alignment;
-    NSUserInterfaceCompressionOptions *_compressibleOptions;
-    _Bool _useSlidingSegmentStyle;
-    NSFont *_font;
-    _Bool _isObserving;
-    _Bool _useTextToolbarStyle;
 }
 
-+ (_Bool);
++ (_Bool)_ID in (%s);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)s{;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -56,6 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -66,8 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,57 +44,64 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (id);
-- (double);
+- (double);
 - (_Bool);
 - (long long);
 - (_Bool);
 - (struct CGRect);
 - (unsigned long long);
 - (struct CGRect);
+- (_Bool)ka;
 - (_Bool);
-- (_Bool);
 - (double);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (int);
-- (int);
-- (int);
-- (int);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (CDStruct_28f568a3);
-- (struct NSEdgeInsets);
-- (id);
+- (id)set_useSystemKeychain:(struct CGPoint)arg1;
+- (id)set_disablesNWLoader: /* Error: Ran out of types for this method. */;
+- (void)receivesCredentialSecurely;
+- (int)externallyVisibleConnectionUUIDs;
+- (int)expensive;
+- (int)expectedProgressTargetChanged;
+- (int)exceptionWithName:reason:userInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)connection:didFinishLoadingWithError: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_didReceiveResponse:completion: /* Error: Ran out of types for this method. */;
+- (void)_nscfBridgeURLCacheRemoveAllCachedResponses;
+- (void)_multipathServiceType;
+- (_Bool)NSURLProtocolClient;
+- (CDStruct_2cd42e15)begining SQL transaction %s;
+- (struct NSEdgeInsets)Only flag;
+- (id)<%{public}@> Have outstanding tasks getting auth headers for session %@ with identifier %@ outstanding auth tasks %@;
+- (struct CGSize);
+- (struct CGSize)Tp;
 - (struct CGSize);
 - (struct CGSize);
-- (struct CGSize);
-- (struct CGSize);
-- (id);
+- (id);
 - (id);
 - (struct CGSize);
 - (double);
 - (id);
 - (id);
 - (struct CGSize);
+- (id)_kCFNTimingDataConnectionUUID;
 - (id);
 - (id);
 - (id);
-- (id);
-- (double);
-- (double);
+- (double)8u:(id)arg1 ::(:B	BB(BC	CC(CD	DD(D::::::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
+- (double)r8ruu
+uuuu)u8u:::(:B	BB(BC	CC(CD	DD(D::::::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
-- (void);
+- (void)@;
 - (struct CGSize);
 - (void);
 - (id);
-- (void);
+- (void)2hu;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -144,12 +120,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id)ù
 × ;
-- (id)th:(struct CGRect)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)moveItemAtPath:(struct CGRect)arg1 toPath:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)soryViewController;
+- (void)_tabBarAccessoryViewController;
 - (void)behavior of the UICollectionViewFlowLayout is not defined because:(_Bool)arg1;
-- (_Bool)ifier;
+- (_Bool)pickerIdentifier;
 - (void);
 - (void)ject index %lu;
 - (void)usesDataSource is set to NO;
@@ -159,36 +135,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)N;
 
 // Remaining properties
-@property _Bool active; // @synthesize active=_active;
-@property long long alignment; // @synthesize alignment=_alignment;
-@property(copy) NSColor *bezelTintColor; // @synthesize bezelTintColor=_bezelTintColor;
-@property NSUserInterfaceCompressionOptions *compressibleOptions; // @synthesize compressibleOptions=_compressibleOptions;
-@property unsigned long long controlSize; // @synthesize controlSize=_controlSize;
-@property _Bool drawsBezel; // @synthesize drawsBezel=_drawsBezel;
-@property _Bool emphasized; // @synthesize emphasized=_emphasized;
-@property _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain) NSFont *font;
-@property _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain) NSImage *image;
-@property(readonly) struct CGRect imageRect;
-@property unsigned long long imageScaling;
-@property(copy) NSString *label;
-@property(readonly) struct CGRect labelRect;
-@property _Bool leadingCap; // @synthesize leadingCap=_leadingCap;
-@property long long leadingSegmentHighlightState; // @synthesize leadingSegmentHighlightState=_leadingSegmentHighlightState;
-@property _Bool leadingSeparator; // @synthesize leadingSeparator=_leadingSeparator;
 @property __weak NSSegmentedCell *parentCell; // @synthesize parentCell=_parentCell;
-@property _Bool rollover;
-@property __weak NSLegacySegmentItem *segmentItemData; // @synthesize segmentItemData=_segmentItemData;
-@property long long segmentStyle; // @synthesize segmentStyle=_segmentStyle;
-@property double segmentWidth; // @synthesize segmentWidth=_segmentWidth;
-@property _Bool selected; // @synthesize selected=_selected;
-@property _Bool showMenuIndicator; // @synthesize showMenuIndicator=_showMenuIndicator;
-@property _Bool trailingCap; // @synthesize trailingCap=_trailingCap;
-@property long long trailingSegmentHighlightState; // @synthesize trailingSegmentHighlightState=_trailingSegmentHighlightState;
-@property _Bool trailingSeparator; // @synthesize trailingSeparator=_trailingSeparator;
-@property _Bool useSlidingSegmentStyle; // @synthesize useSlidingSegmentStyle=_useSlidingSegmentStyle;
-@property _Bool useTextToolbarStyle; // @synthesize useTextToolbarStyle=_useTextToolbarStyle;
 
 @end
 

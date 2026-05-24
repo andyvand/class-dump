@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIClassSwapper, UIStoryboardSegueTemplate, UIViewController;
+@class UIClassSwapper, UIStoryboardSegueTemplate;
 
 __attribute__((visibility("hidden")))
 @interface UIStoryboardDecodingContext
 {
     UIStoryboardSegueTemplate *_sourceSegueTemplate;
-    id _sender;
-    UIClassSwapper *_classSwapperTemplate;
-    UIViewController *_parentViewController;
-    long long _childViewControllerIndex;
-    CDUnknownBlockType _creator;
 }
 
-- (id);
+- (id)_chat1RecordZoneID;
 - (void);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)iginalGroupID as regular groupID (%@) in %llu chats, trying with client groupID (%@);
 - (void);
-- (void);
+- (void)];
 - (id);
-- (id)etricsCompactPrompt;
+- (id)UIBarMetricsCompactPrompt;
 - (void);
 - (void)ðE(ÿ;
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(nonatomic) long long childViewControllerIndex; // @synthesize childViewControllerIndex=_childViewControllerIndex;
 @property(retain, nonatomic) UIClassSwapper *classSwapperTemplate; // @synthesize classSwapperTemplate=_classSwapperTemplate;
-@property(copy, nonatomic) CDUnknownBlockType creator; // @synthesize creator=_creator;
-@property(retain, nonatomic) UIViewController *parentViewController; // @synthesize parentViewController=_parentViewController;
-@property(retain, nonatomic) id sender; // @synthesize sender=_sender;
-@property(retain, nonatomic) UIStoryboardSegueTemplate *sourceSegueTemplate; // @synthesize sourceSegueTemplate=_sourceSegueTemplate;
 
 @end
 

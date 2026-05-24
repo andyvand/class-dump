@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactCardViewController, CNUICoreFamilyMemberContactItem, NSButton, NSImageView, NSLayoutConstraint, NSPopover, NSTextField;
-@protocol CNFamilyMemberWhitelistedContactViewCellDelegate;
+@class CNUICoreFamilyMemberContactItem, NSTextField;
 
 @interface CNFamilyMemberWhitelistedContactViewCell
 {
     CNUICoreFamilyMemberContactItem *_item;
-    id <CNFamilyMemberWhitelistedContactViewCellDelegate> _delegate;
-    NSTextField *_label;
-    NSTextField *_detailLabel;
-    NSTextField *_warningLabel;
-    NSImageView *_warningImageView;
-    NSButton *_discosureButton;
-    NSLayoutConstraint *_detailLabelCenterXConstraint;
-    NSPopover *_discosurePopover;
-    CNContactCardViewController *_contactViewController;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,35 +26,26 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (void)!@9?;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)W;
 - (void);
+- (id)1!~S!<!@;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)_NS_17integral_constantIbLb1EEEEUlRKN3xpc6objectEE_FvSI_EEE;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNContactCardViewController *contactViewController; // @synthesize contactViewController=_contactViewController;
-@property(retain, nonatomic) id <CNFamilyMemberWhitelistedContactViewCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSTextField *detailLabel; // @synthesize detailLabel=_detailLabel;
-@property(readonly, nonatomic) NSLayoutConstraint *detailLabelCenterXConstraint; // @synthesize detailLabelCenterXConstraint=_detailLabelCenterXConstraint;
-@property(readonly, nonatomic) NSButton *discosureButton; // @synthesize discosureButton=_discosureButton;
-@property(retain, nonatomic) NSPopover *discosurePopover; // @synthesize discosurePopover=_discosurePopover;
-@property(retain, nonatomic) CNUICoreFamilyMemberContactItem *item; // @synthesize item=_item;
 @property(readonly, nonatomic) NSTextField *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSImageView *warningImageView; // @synthesize warningImageView=_warningImageView;
-@property(readonly, nonatomic) NSTextField *warningLabel; // @synthesize warningLabel=_warningLabel;
 
 @end
 

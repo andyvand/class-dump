@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaPickerConfiguration, NSString;
-@protocol MPMediaPickerControllerDelegate, MPMediaPickerRemoteViewLoader;
+@class MPMediaPickerConfiguration;
+@protocol MPMediaPickerRemoteViewLoader;
 
 @interface MPMediaPickerController
 {
     MPMediaPickerConfiguration *_configuration;
-    id <MPMediaPickerControllerDelegate> _delegate;
-    id <MPMediaPickerRemoteViewLoader> _loader;
 }
 
-+ (void);
++ (void)u;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)v�;
 - (_Bool);
 - (void);
 - (void);
@@ -33,11 +31,11 @@
 - (void);
 - (void);
 - (id);
+- (_Bool)};
 - (_Bool);
-- (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)M;
 - (void);
 - (void);
 - (void);
@@ -55,40 +53,27 @@
 - (unsigned long long);
 - (long long);
 - (id);
-- (id);
+- (id)ecentlyDeleted-PermanentlyDeleteRecoverableMessages;
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (long long)e:animated: /* Error: Ran out of types for this method. */;
-- (unsigned long long)rtworkToken:artworkType:sourceType:mediaType: /* Error: Ran out of types for this method. */;
+- (long long)setValue:animated: /* Error: Ran out of types for this method. */;
+- (unsigned long long)importOriginalArtworkFromImageData:withArtworkToken:artworkType:sourceType:mediaType: /* Error: Ran out of types for this method. */;
 - (void)sableQueueModifications;
 - (void)listHasAnyCleanDownloadedTracks;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsPickingMultipleItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MPMediaPickerControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <MPMediaPickerRemoteViewLoader> loader; // @synthesize loader=_loader;
-@property(readonly, nonatomic) unsigned long long mediaTypes;
-@property(copy, nonatomic) NSString *prompt;
-@property(nonatomic) _Bool showsCloudItems;
-@property(nonatomic) _Bool showsItemsWithProtectedAssets;
-@property(readonly) Class superclass;
 
 @end
 

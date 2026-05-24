@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (MKTransitExtras)
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);

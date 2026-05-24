@@ -4,44 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDIDSActivityMonitor, NSMutableDictionary, NSString;
-@protocol HMDIDSActivityMonitorObserverRegistrationManager;
+@class HMDIDSActivityMonitor;
 
 __attribute__((visibility("hidden")))
 @interface HMDIDSActivityMonitorObserver
 {
     struct os_unfair_lock_s _lock;
-    HMDIDSActivityMonitor *_activityMonitor;
-    NSMutableDictionary *_subactivityToDelegatesMap;
-    id <HMDIDSActivityMonitorObserverRegistrationManager> _dataSource;
 }
 
 + (id)§B;
-- (id);
+- (id)initWithContentsOfURL:options:error: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id)2@40B48@52@60;
-- (id)yWithSQLPredicate:indexedProperties:arguments: /* Error: Ran out of types for this method. */;
-- (void)nabled;
-- (void)ry;
+- (id)queryWithSQLPredicate:indexedProperties:arguments: /* Error: Ran out of types for this method. */;
+- (void)isFaceClassificationEnabled;
+- (void)AccessorySettingsLocalMessageHandlerFactory;
 - (id)³;
-- (void)oint_enabled_readVersion;
-- (void)rtifiedACWG;
+- (void)root_siriEndpoint_enabled_readVersion;
+- (void)mfiCertifiedACWG;
 
 // Remaining properties
 @property(readonly) HMDIDSActivityMonitor *activityMonitor; // @synthesize activityMonitor=_activityMonitor;
-@property(retain) id <HMDIDSActivityMonitorObserverRegistrationManager> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSMutableDictionary *subactivityToDelegatesMap; // @synthesize subactivityToDelegatesMap=_subactivityToDelegatesMap;
-@property(readonly) Class superclass;
 
 @end
 

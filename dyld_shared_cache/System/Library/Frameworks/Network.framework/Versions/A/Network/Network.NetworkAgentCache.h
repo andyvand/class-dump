@@ -7,8 +7,6 @@
 @interface Network.NetworkAgentCache
 {
     id agents;
-    id accessTimes;
-    id proxyConfigs;
 }
 
 @end

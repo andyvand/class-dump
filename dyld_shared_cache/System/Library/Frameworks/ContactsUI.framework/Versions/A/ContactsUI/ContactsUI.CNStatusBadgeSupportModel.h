@@ -7,10 +7,6 @@
 @interface ContactsUI.CNStatusBadgeSupportModel
 {
     id _hasBadge;
-    id contact;
-    id enableStatusBadges;
-    id hasFocus;
-    id hasODD;
 }
 
 @end

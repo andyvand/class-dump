@@ -11,7 +11,7 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (id)WithTitle:(id)arg1;
+- (id)initWithTitle:(id)arg1;
 
 @end
 

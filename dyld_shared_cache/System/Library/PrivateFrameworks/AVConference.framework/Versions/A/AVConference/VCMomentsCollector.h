@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VCMediaRecorder;
-
 __attribute__((visibility("hidden")))
 @interface VCMomentsCollector
 {
     long long _streamToken;
-    VCMediaRecorder *_mediaRecorder;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)Y+;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

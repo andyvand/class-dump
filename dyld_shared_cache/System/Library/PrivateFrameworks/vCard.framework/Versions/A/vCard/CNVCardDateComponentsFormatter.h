@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDateFormatter;
+@class NSCalendar;
 
 @interface CNVCardDateComponentsFormatter
 {
     NSCalendar *_gregorianCalendar;
-    NSDateFormatter *_compactYearMonthDayDateFormatter;
-    NSDateFormatter *_compactYearMonthDayDateHourMinuteSecondZFormatter;
-    NSDateFormatter *_hyphenatedMonthDayDateFormatter;
-    NSDateFormatter *_monthDayDateFormatter;
-    NSDateFormatter *_yearMonthDayDateFormatter;
-    NSDateFormatter *_yearMonthDayDateHourMinuteSecondZFormatter;
 }
 
 + (id);
@@ -30,9 +24,9 @@
 - (id);
 - (id);
 - (id);
+- (id)A;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 

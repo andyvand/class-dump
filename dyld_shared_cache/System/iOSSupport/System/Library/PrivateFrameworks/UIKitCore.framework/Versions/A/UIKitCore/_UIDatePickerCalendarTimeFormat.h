@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSLocale, NSNumberFormatter, NSString, NSTimeZone;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerCalendarTimeFormat
 {
     _Bool _wantsDoubleDigitHours;
-    _Bool _forceDoubleDigitHours;
-    _Bool _hasLeadingLiteral;
-    _Bool _hasTrailingLiteral;
-    _Bool _displaysTimeZone;
-    NSString *_timeFormat;
-    NSString *_hourFormat;
-    NSString *_AMSymbol;
-    NSString *_PMSymbol;
-    long long _clock;
-    long long _clockLayout;
-    NSNumberFormatter *_hourFormatter;
-    NSNumberFormatter *_minuteFormatter;
-    NSString *_extendedHoursFormat;
-    NSNumberFormatter *_strictHourFormatter;
-    NSDate *_timeZoneReferenceDate;
-    NSTimeZone *_timeZone;
-    NSLocale *_locale;
 }
 
 + (id);
@@ -39,46 +22,29 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)deleteAttachmentsForMessage:(unsigned long long)arg1;
+- (id)deleteAttachmentsDirectWithPredicate:(unsigned long long)arg1;
+- (id)_newFirstUnlockReplaySyncTask;
+- (id)_handleFileTransfers:autoRename:overwrite:options:postNotification: /* Error: Ran out of types for this method. */;
+- (id)_handleFileTransfers:autoRename:overwrite:options:postNotification: /* Error: Ran out of types for this method. */;
+- (_Bool)_errorIndicatesDeviceNotGoodForSync: /* Error: Ran out of types for this method. */;
+- (_Bool)_doesWRMRecommendDisablingLQM;
+- (_Bool)_autoReconnectTimer: /* Error: Ran out of types for this method. */;
+- (id)B,R,N,GisSMS;
+- (_Bool)port;
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)dingQuickActionView: /* Error: Ran out of types for this method. */;
+- (id)setLeadingQuickActionView: /* Error: Ran out of types for this method. */;
 - (id)emGeometricIndexer;
 - (long long)ontroller must present a UISearchController;
 - (void)Ooc;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *AMSymbol; // @synthesize AMSymbol=_AMSymbol;
-@property(readonly, nonatomic) NSString *PMSymbol; // @synthesize PMSymbol=_PMSymbol;
-@property(readonly, nonatomic) long long clock; // @synthesize clock=_clock;
-@property(readonly, nonatomic) long long clockLayout; // @synthesize clockLayout=_clockLayout;
-@property(readonly, nonatomic) _Bool displaysTimeZone; // @synthesize displaysTimeZone=_displaysTimeZone;
-@property(readonly, nonatomic) NSString *extendedHoursFormat; // @synthesize extendedHoursFormat=_extendedHoursFormat;
-@property(readonly, nonatomic) _Bool forceDoubleDigitHours; // @synthesize forceDoubleDigitHours=_forceDoubleDigitHours;
-@property(readonly, nonatomic) _Bool hasLeadingLiteral; // @synthesize hasLeadingLiteral=_hasLeadingLiteral;
-@property(readonly, nonatomic) _Bool hasTrailingLiteral; // @synthesize hasTrailingLiteral=_hasTrailingLiteral;
-@property(readonly, nonatomic) NSString *hourFormat; // @synthesize hourFormat=_hourFormat;
-@property(readonly, nonatomic) NSNumberFormatter *hourFormatter; // @synthesize hourFormatter=_hourFormatter;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) NSNumberFormatter *minuteFormatter; // @synthesize minuteFormatter=_minuteFormatter;
-@property(readonly, nonatomic) NSNumberFormatter *strictHourFormatter; // @synthesize strictHourFormatter=_strictHourFormatter;
 @property(readonly, nonatomic) NSString *timeFormat; // @synthesize timeFormat=_timeFormat;
-@property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(nonatomic) NSDate *timeZoneReferenceDate; // @synthesize timeZoneReferenceDate=_timeZoneReferenceDate;
-@property(readonly, nonatomic) _Bool wantsDoubleDigitHours; // @synthesize wantsDoubleDigitHours=_wantsDoubleDigitHours;
 
 @end
 

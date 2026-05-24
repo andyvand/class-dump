@@ -19,9 +19,9 @@
 + (_Bool);
 + (id);
 + (void);
-- (id);
-- (id);
-- (id);
+- (id)checkForSpamWithExtensionInChat:(id)arg1 forMessageBody:sender:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)postNotificationWithTitle:(id)arg1 body:(id)arg2;
+- (id)noteItemProcessed:(id)arg1 batchContext:(id)arg2;
 - (id);
 - (void)(T^;
 

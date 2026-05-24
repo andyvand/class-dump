@@ -12,9 +12,9 @@
 }
 
 - (id);
+- (void)fileTrans;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)RPSetRateOneToBAESetRateOneMs;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -22,12 +22,18 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void)pabilitySignature;
+- (_Bool)GvFOPAbzd5eGJM46/I+N1rpRhPBc2
++hvNC5vlVyv1hVNPSTIcF0sLPgCeEEQqGIZsUPO48ECh03YzXUT86015HwktM439
+bWGKGE/VRepW8S8EDRLh6+83XZ9do0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1Ud
+DgQWBBSD5aMhnrB0w/lhkP2XTiMQdqSj8jAOBgNVHQ8BAf8EBAMCAQYwCgYIKoZI
+zj0EAwMDZwAwZAIwQol5uLqv1SXY9G1wHSx2EYIULFlLssYTnTwbSlZPj2yF9cgk
+7xJO8bw6nTklgnHhAjBgMvsir7UEVzw7uxn8y3GGf9KSCFV5scySrYDZnJhETYlc
+yPYSFsZIerKNPP6v28Y=
+-----END CERTIFICATE-----;
+- (void)invalidDeviceCapabilitySignature;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) CKDPIdentifier *identifier; // @synthesize identifier=_identifier;
 
 @end
 

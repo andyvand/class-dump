@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetResourceLoaderInternal, NSObject, NSOperationQueue, NSString, NSURLSession;
-@protocol AVAssetResourceLoaderDelegate, NSURLSessionDataDelegate, OS_dispatch_queue;
+@class AVAssetResourceLoaderInternal;
 
 @interface AVAssetResourceLoader
 {
@@ -18,7 +17,7 @@
 - (id);
 - (void);
 - (struct OpaqueFigCustomURLLoader *);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct OpaqueFigCustomURLHandler *);
@@ -31,51 +30,37 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)!;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)s/SystemVersion.plist;
 - (id);
 - (struct OpaqueFigCustomURLHandler *);
 - (struct OpaqueFigCustomURLHandler *);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)r";
 - (void);
-- (void);
-- (void);
+- (void)ofileValidated;
 - (void);
 - (id);
 - (id)ic}@;
 
 // Remaining properties
-@property(retain, nonatomic) NSURLSession *URLSession;
-@property(readonly, nonatomic) id <NSURLSessionDataDelegate> URLSessionDataDelegate;
-@property(readonly, nonatomic) NSOperationQueue *URLSessionDataDelegateQueue;
-@property(nonatomic) unsigned long long allowedCommonMediaClientDataKeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <AVAssetResourceLoaderDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool preloadsEligibleContentKeys;
-@property(nonatomic) _Bool sendsCommonMediaClientDataAsHTTPHeaders;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,6 +9,6 @@
 @protocol BSDescriptionProviding
 - (NSString *)
 × ;
-- (BSDescriptionBuilder *)Read;
+- (BSDescriptionBuilder *)_nextSimpleItemFromPendingQueueOrLibArchiveRead;
 @end
 

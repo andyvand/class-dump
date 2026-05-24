@@ -6,14 +6,14 @@
 
 #import <EventKit/EKPersistentObject.h>
 
-@class EKPersistentSource, NSSet, NSString;
+@class EKPersistentSource;
 
 @interface EKPersistentCalendar : EKPersistentObject
 {
 }
 
 + (Class);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -41,13 +41,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (int);
+- (int)<`;
 - (id);
 - (void);
 - (void);
@@ -65,45 +65,45 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Ӭr	h;
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)UARPSupportedAccessoryA2463;
+- (void)` Q;
 - (int);
 - (void);
-- (void);
+- (void)ported by DA in remindd. Check why principal is not writable. {url:(id)arg1 %@, stack:%@} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (int);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)!;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (id);
+- (id)d_dur_16:med_dur_24:std_dur_1:std_dur_2:std_dur_4:std_dur_8:std_dur_16:std_dur_24:cnt_dur_24:cnt_dur_2:hour_plus_0:hour_plus_1:hour_plus_2:hour_plus_3:hour_plus_4:hour_plus_5:error: /* Error: Ran out of types for this method. */;
+- (id)postOBCEngagedNotificationWithDate: /* Error: Ran out of types for this method. */;
+- (id)charge_duration_count_at_charge_start_secs_curr_dynamic_bin_2;
+- (id)s_curr_dynamic_bin_4;
 - (void);
 - (void);
+- (id)kANEFModelProcedureNameToStatsSizeMapKey;
+- (id);
 - (void);
 - (id);
 - (id);
+- (id)userEnd"I"m_passwordEnd"I"m_hostEnd"I"m_pathAfterLastSlash"I"m_pathEnd"I"m_queryEnd"I}"notificationID"{UUID="m_data"T}"contextIdentifier"{optional<WebCore::ProcessQualified<WTF::UUID>>=""(?="__null_state_"c"__val_"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}})"__engaged_"B}"sourceSession"{SessionID="m_identifier"Q}"creationTime"{WallTime="m_value"d}"data"{Vector<unsigned char, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>="m_buffer"*"m_capacity"I"m_size"I}"silent"{optional<bool>=""(?="__null_state_"c"__val_"B)"__engaged_"B}})"__engaged_"B} /* Error: Ran out of types for this method. */;
+- (id)setDisplayListDrawingEnabled: /* Error: Ran out of types for this method. */;
+- (int)loadHistoryGutsFromURL:savedItemsCount:collectDiscardedItemsInto:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)WebKitOpportunisticSweepingAndGarbageCollectionEnabled;
+- (void)alidateKey(const ValueType &) [Key = unsigned long, Value = WTF:(int)arg1:KeyValuePair<unsigned long, WTF::RetainPtr<id>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<unsigned long, WTF::RetainPtr<id>>>, HashFunctions = WTF::DefaultHash<unsigned long>, Traits = WTF::HashMap<unsigned long, WTF::RetainPtr<id>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<unsigned long>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (id);
+- (id)�;
+- (void)@;
+- (void);
 - (id);
 - (unsigned long long);
 - (int);
@@ -113,7 +113,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)owlist;
 - (id);
 - (void)@ù
 × ;
@@ -126,46 +126,15 @@
 × ;
 - (void)0;
 - (id)@0:8@16B24 /* Error: Ran out of types for this method. */;
-- (id)aredItemModifiedByLastName;
-- (id)ns: /* Error: Ran out of types for this method. */;
-- (void)y:(id)arg1;
+- (id)sharedItemModifiedByLastName;
+- (id)searchFrequentLocations: /* Error: Ran out of types for this method. */;
+- (void)ekWeekdayToREMWeekday:(id)arg1;
 - (id)¢¢;
 - (id)for %@ because readonly items can't be removed.;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *UUID; // @dynamic UUID;
-@property(nonatomic, getter=isColorDisplayOnly) _Bool colorDisplayOnly; // @dynamic colorDisplayOnly;
-@property(copy, nonatomic) NSString *colorStringRaw; // @dynamic colorStringRaw;
-@property(nonatomic) int displayOrder; // @dynamic displayOrder;
-@property(copy, nonatomic) NSString *externalID; // @dynamic externalID;
-@property(copy, nonatomic) NSString *externalModificationTag; // @dynamic externalModificationTag;
-@property(nonatomic) int flags; // @dynamic flags;
-@property(nonatomic) unsigned long long invitationStatus; // @dynamic invitationStatus;
-@property(copy, nonatomic) NSString *ownerIdentityAddress; // @dynamic ownerIdentityAddress;
-@property(copy, nonatomic) NSString *ownerIdentityDisplayName; // @dynamic ownerIdentityDisplayName;
-@property(copy, nonatomic) NSString *ownerIdentityEmail; // @dynamic ownerIdentityEmail;
-@property(copy, nonatomic) NSString *ownerIdentityFirstName; // @dynamic ownerIdentityFirstName;
-@property(copy, nonatomic) NSString *ownerIdentityLastName; // @dynamic ownerIdentityLastName;
-@property(copy, nonatomic) NSString *ownerIdentityPhoneNumber; // @dynamic ownerIdentityPhoneNumber;
-@property(nonatomic, getter=isPublished) _Bool published; // @dynamic published;
-@property(copy, nonatomic) NSString *publishedURL; // @dynamic publishedURL;
-@property(copy, nonatomic) NSString *pushKey; // @dynamic pushKey;
-@property(copy, nonatomic) NSString *selfIdentityAddressString; // @dynamic selfIdentityAddressString;
-@property(copy, nonatomic) NSString *selfIdentityDisplayName; // @dynamic selfIdentityDisplayName;
-@property(copy, nonatomic) NSString *selfIdentityEmail; // @dynamic selfIdentityEmail;
-@property(copy, nonatomic) NSString *selfIdentityFirstName; // @dynamic selfIdentityFirstName;
-@property(copy, nonatomic) NSString *selfIdentityLastName; // @dynamic selfIdentityLastName;
-@property(copy, nonatomic) NSString *selfIdentityPhoneNumber; // @dynamic selfIdentityPhoneNumber;
-@property(copy, nonatomic) NSString *sharedOwnerName; // @dynamic sharedOwnerName;
-@property(copy, nonatomic) NSString *sharedOwnerURLString; // @dynamic sharedOwnerURLString;
-@property(copy, nonatomic) NSSet *sharees; // @dynamic sharees;
-@property(nonatomic) unsigned long long sharingInvitationResponse; // @dynamic sharingInvitationResponse;
-@property(nonatomic) unsigned long long sharingStatus; // @dynamic sharingStatus;
 @property(retain, nonatomic) EKPersistentSource *source; // @dynamic source;
-@property(copy, nonatomic) NSString *subcalAccountID; // @dynamic subcalAccountID;
-@property(copy, nonatomic) NSString *symbolicColorName; // @dynamic symbolicColorName;
-@property(copy, nonatomic) NSString *unlocalizedTitle; // @dynamic unlocalizedTitle;
 
 @end
 

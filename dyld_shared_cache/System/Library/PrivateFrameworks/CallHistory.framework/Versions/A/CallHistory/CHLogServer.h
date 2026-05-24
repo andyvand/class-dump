@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface CHLogServer
 {
     struct os_unfair_lock_s _accessorLock;
-    NSMutableDictionary *_logHandleToDomain;
 }
 
 + (id);
-- (id);
+- (id)o;
 - (id);
 - (struct os_unfair_lock_s);
 - (id);
@@ -21,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(readonly, nonatomic) NSMutableDictionary *logHandleToDomain; // @synthesize logHandleToDomain=_logHandleToDomain;
 
 @end
 

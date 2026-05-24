@@ -4,44 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOPBTransitArtwork, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEODrivingWalkingInstruction
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPBTransitArtwork *_artwork;
-    NSMutableArray *_continueCommands;
-    NSMutableArray *_mergeCommands;
-    NSMutableArray *_normalCommands;
-    GEOFormattedString *_title;
-    GEOFormattedString *_waypointInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_artwork:1;
-        unsigned int read_continueCommands:1;
-        unsigned int read_mergeCommands:1;
-        unsigned int read_normalCommands:1;
-        unsigned int read_title:1;
-        unsigned int read_waypointInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)setVoiceTriggerJarvisAPEnabledPolicy:(id)arg1;
+- (id)e.corespeech.corespeechd.rchandling.service;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)HasIsTransitedToFindmy:(struct _NSZone *)arg1;
-- (id)DAnnotatedItemList;
-- (id)BOUNDED_BIZ_SEARCH_ERROR_COUNT;
+- (id)setHasIsTransitedToFindmy:(struct _NSZone *)arg1;
+- (id)GEOPDAnnotatedItemList;
+- (id)MSL_MIXEDINTENT_CATMARKERPOI_BOUNDED_BIZ_SEARCH_ERROR_COUNT;
 - (void)q;
 
 @end

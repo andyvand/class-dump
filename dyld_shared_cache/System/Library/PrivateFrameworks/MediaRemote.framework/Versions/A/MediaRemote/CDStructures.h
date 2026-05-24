@@ -11,18 +11,18 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct _MRHIDButtonEvent {
@@ -39,19 +39,19 @@ struct _MRHIDTouchEvent {
 };
 
 struct _MRTextInputTraits {
-    unsigned int autocapitalizationType;
-    unsigned int autocorrectionType;
-    unsigned int spellcheckingType;
-    unsigned int keyboardType;
-    unsigned int returnKeyType;
+    unsigned int _field1;
+    unsigned int _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+    unsigned int _field5;
     struct {
-        long long location;
-        long long length;
-    } validTextRange;
-    _Bool enablesReturnKeyAutomatically;
-    _Bool secureTextEntry;
-    long long PINEntrySeparatorIndexes[10];
-    unsigned long long PINEntrySeparatorIndexesCount;
+        long long _field1;
+        long long _field2;
+    } _field6;
+    _Bool _field7;
+    _Bool _field8;
+    long long _field9[10];
+    unsigned long long _field10;
 };
 
 struct _NSRange {
@@ -66,75 +66,24 @@ struct os_unfair_lock_s {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    double *list;
-    unsigned long long count;
-    unsigned long long size;
-} CDStruct_82f37d05;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
 
 typedef struct {
-    float *list;
-    unsigned long long count;
-    unsigned long long size;
-} CDStruct_fae3dc92;
-
-typedef struct {
-    int *list;
-    unsigned long long count;
-    unsigned long long size;
-} CDStruct_95bda58d;
-
-typedef struct {
-    double timestamp;
-    double sampleRate;
-} CDStruct_ace97b7a;
-
-typedef struct {
-    float width;
-    float height;
-} CDStruct_643d22a7;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int controllerID:1;
-} CDStruct_669c4a63;
-
-typedef struct {
-    unsigned int errorCode:1;
-} CDStruct_70a7dc3e;
-
-typedef struct {
-    unsigned int isMuted:1;
-} CDStruct_d5ba98b4;
-
-typedef struct {
-    unsigned int lastPlayingTimestamp:1;
-} CDStruct_d7e5e336;
-
-typedef struct {
-    unsigned int sendError:1;
-} CDStruct_13a44975;
-
-typedef struct {
-    unsigned int state:1;
-} CDStruct_5accba53;
-
-typedef struct {
-    unsigned int type:1;
-} CDStruct_f953fb60;
-
-typedef struct {
-    unsigned int volume:1;
-} CDStruct_731552e5;
+    float _field1;
+    float _field2;
+} CDStruct_b2fbf00d;
 
 #pragma mark Named Unions
 
 union _MRHIDPoint {
-    CDStruct_643d22a7 _field1;
+    CDStruct_b2fbf00d _field1;
     float _field2[2];
 };
 
 union _MRHIDSize {
-    CDStruct_643d22a7 ;
-    float data[2];
+    CDStruct_b2fbf00d _field1;
+    float _field2[2];
 };
 

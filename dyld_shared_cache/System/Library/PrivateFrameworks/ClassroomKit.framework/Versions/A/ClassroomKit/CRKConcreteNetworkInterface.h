@@ -5,17 +5,14 @@
 //
 
 @class NSObject, NSString;
-@protocol CRKNetworkEndpoint, OS_nw_interface;
+@protocol OS_nw_interface;
 
 @interface CRKConcreteNetworkInterface
 {
     NSString *_name;
-    id <CRKNetworkEndpoint> _ipv4Endpoint;
-    id <CRKNetworkEndpoint> _ipv6Endpoint;
-    NSObject<OS_nw_interface> *_underlyingInterface;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -24,9 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRKNetworkEndpoint> ipv4Endpoint; // @synthesize ipv4Endpoint=_ipv4Endpoint;
-@property(readonly, nonatomic) id <CRKNetworkEndpoint> ipv6Endpoint; // @synthesize ipv6Endpoint=_ipv6Endpoint;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) NSObject<OS_nw_interface> *underlyingInterface; // @synthesize underlyingInterface=_underlyingInterface;
 
 @end

@@ -7,10 +7,6 @@
 @interface PKProtobufRemoteRegistrationRequestResult
 {
     unsigned int _result;
-    unsigned int _version;
-    struct {
-        unsigned int result:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -20,19 +16,17 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)_genericProbeTimeMsecs;
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void)
 × ;
-- (unsigned int)Name;
+- (unsigned int)PKPaymentSetupFieldBuiltInLastName;
 - (void)load task %lu:(unsigned int)arg1 %@. %@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasResult;
-@property(nonatomic) unsigned int result; // @synthesize result=_result;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

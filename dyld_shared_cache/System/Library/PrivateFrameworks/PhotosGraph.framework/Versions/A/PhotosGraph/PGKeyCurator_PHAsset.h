@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)currentEvent;
+- (id)confirmButtonVisible;
 - (id);
 
 @end

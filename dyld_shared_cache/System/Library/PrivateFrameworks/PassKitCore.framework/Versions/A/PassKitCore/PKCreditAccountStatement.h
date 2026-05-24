@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKCreditAccountStatement
 {
     NSString *_identifier;
-    NSString *_accountIdentifier;
-    NSDate *_openingDate;
-    NSDate *_closingDate;
-    NSDate *_paymentDueDate;
-    NSString *_currencyCode;
-    NSDecimalNumber *_statementBalance;
-    NSDecimalNumber *_totalBalance;
-    NSDecimalNumber *_minimumDue;
-    NSDecimalNumber *_purchases;
-    NSDecimalNumber *_feesCharged;
-    NSDecimalNumber *_interestCharged;
-    NSDecimalNumber *_balanceTransfers;
-    NSDecimalNumber *_paymentsAndCredits;
-    NSDecimalNumber *_payments;
-    NSDecimalNumber *_credits;
-    NSDecimalNumber *_rewardsBalance;
-    NSDecimalNumber *_rewardsEarned;
-    NSDecimalNumber *_rewardsRedeemed;
-    NSDecimalNumber *_rewardsYTD;
-    NSDecimalNumber *_rewardsLifetime;
 }
 
 + (id);
@@ -38,6 +18,7 @@
 - (id);
 - (id);
 - (void);
+- (void)X;
 - (void);
 - (void);
 - (void);
@@ -47,8 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -61,13 +41,13 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)k!;
+- (id)!;
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)U;
 - (id);
 - (id);
 - (void);
@@ -77,49 +57,21 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)hasProblemAC;
+- (void)t�;
 - (void);
 - (id);
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)setParent: /* Error: Ran out of types for this method. */;
-- (id)ryAccountAltDSID;
+- (id)_primaryAccountAltDSID;
 - (id)ion feature with;
-- (void)erialNumber;
+- (void)MLBSerialNumber;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSDecimalNumber *balanceTransfers; // @synthesize balanceTransfers=_balanceTransfers;
-@property(copy, nonatomic) NSDate *closingDate; // @synthesize closingDate=_closingDate;
-@property(copy, nonatomic) NSDecimalNumber *credits; // @synthesize credits=_credits;
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDecimalNumber *feesCharged; // @synthesize feesCharged=_feesCharged;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDecimalNumber *interestCharged; // @synthesize interestCharged=_interestCharged;
-@property(copy, nonatomic) NSDecimalNumber *minimumDue; // @synthesize minimumDue=_minimumDue;
-@property(readonly, nonatomic) unsigned long long monthNumber;
-@property(copy, nonatomic) NSDate *openingDate; // @synthesize openingDate=_openingDate;
-@property(copy, nonatomic) NSDate *paymentDueDate; // @synthesize paymentDueDate=_paymentDueDate;
-@property(copy, nonatomic) NSDecimalNumber *payments; // @synthesize payments=_payments;
-@property(copy, nonatomic) NSDecimalNumber *paymentsAndCredits; // @synthesize paymentsAndCredits=_paymentsAndCredits;
-@property(copy, nonatomic) NSDecimalNumber *purchases; // @synthesize purchases=_purchases;
-@property(copy, nonatomic) NSDecimalNumber *rewardsBalance; // @synthesize rewardsBalance=_rewardsBalance;
-@property(copy, nonatomic) NSDecimalNumber *rewardsEarned; // @synthesize rewardsEarned=_rewardsEarned;
-@property(copy, nonatomic) NSDecimalNumber *rewardsLifetime; // @synthesize rewardsLifetime=_rewardsLifetime;
-@property(copy, nonatomic) NSDecimalNumber *rewardsRedeemed; // @synthesize rewardsRedeemed=_rewardsRedeemed;
-@property(copy, nonatomic) NSDecimalNumber *rewardsYTD; // @synthesize rewardsYTD=_rewardsYTD;
-@property(copy, nonatomic) NSDecimalNumber *statementBalance; // @synthesize statementBalance=_statementBalance;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDecimalNumber *totalBalance; // @synthesize totalBalance=_totalBalance;
 
 @end
 

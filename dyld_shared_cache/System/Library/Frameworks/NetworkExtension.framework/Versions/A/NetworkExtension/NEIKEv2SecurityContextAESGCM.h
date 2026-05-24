@@ -6,19 +6,15 @@
 
 #import <NetworkExtension/NEIKEv2SecurityContext.h>
 
-@class NSMutableData;
-
 @interface NEIKEv2SecurityContextAESGCM : NEIKEv2SecurityContext
 {
     unsigned char incomingEncryptionSalt[4];
-    NSMutableData *_outgoingEncryptionContext;
-    NSMutableData *_incomingEncryptionContext;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
-- (void)artVPNTunnelWithOptions:andReturnError: /* Error: Ran out of types for this method. */;
+- (void)startVPNTunnelWithOptions:andReturnError: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -11,11 +11,10 @@
 @interface MKUserLocationView : MKAnnotationView
 {
     _Bool _selected;
-    _MKUserLocationView *_mkUserLocationView;
 }
 
-- (void);
-- (long long);
+- (void);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -24,7 +23,7 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (id);
+- (id);
 - (struct CGPoint);
 - (id);
 - (_Bool);
@@ -60,27 +59,27 @@
 - (double);
 - (id);
 - (double);
-- (struct CGRect);
-- (void);
+- (struct CGRect);
+- (void)TV;
 - (id);
 - (_Bool);
 - (double);
-- (_Bool);
+- (_Bool);
 - (struct UIEdgeInsets);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGPoint);
 - (void);
-- (void)ravelTime;
-- (_Bool)sForMapRect: /* Error: Ran out of types for this method. */;
+- (void)expectedTravelTime;
+- (_Bool)_addressFormattedAsTitlesForMapRect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_mkUserLocationView, setter=_setMKUserLocationView:) _MKUserLocationView *mkUserLocationView; // @synthesize mkUserLocationView=_mkUserLocationView;

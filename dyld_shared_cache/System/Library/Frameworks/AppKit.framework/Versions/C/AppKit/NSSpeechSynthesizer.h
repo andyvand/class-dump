@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSSpeechSynthesizerDelegate;
-
 @interface NSSpeechSynthesizer
 {
     id _privateNSSpeechSynthesizerVars;
@@ -13,10 +11,6 @@
 
 
 // Remaining properties
-@property __weak id <NSSpeechSynthesizerDelegate> delegate;
-@property float rate;
 @property(readonly, getter=isSpeaking) _Bool speaking;
-@property _Bool usesFeedbackWindow;
-@property float volume;
 @end
 

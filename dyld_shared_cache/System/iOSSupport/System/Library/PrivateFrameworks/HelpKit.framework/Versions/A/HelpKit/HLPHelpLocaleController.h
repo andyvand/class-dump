@@ -12,21 +12,19 @@
 {
     NSArray *_supportedLanguageCodes;
     NSURL *_helpBookURL;
-    NSArray *_preferredLanguagesOverride;
-    NSArray *_locales;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)n5;
 - (id);
 - (void);
-- (id)entsOfURL: /* Error: Ran out of types for this method. */;
+- (id){;
+- (id);
+- (void);
+- (id)dataWithContentsOfURL: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *locales; // @synthesize locales=_locales;

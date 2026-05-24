@@ -9,23 +9,19 @@
 @interface MRPatchworkPatch
 {
     MRImage *_image;
-    struct CGRect rectangle;
-    _Bool needsBlend;
 }
 
-- (void);
-- (_Bool);
-- (id);
+- (void)__objc_classlist__DATA_CONST;
+- (_Bool)tType:completion: /* Error: Ran out of types for this method. */;
+- (id)iCloudAccountState;
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
+- (void)(;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) MRImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool needsBlend; // @synthesize needsBlend;
-@property(nonatomic) struct CGRect rectangle; // @synthesize rectangle;
 
 @end
 

@@ -4,39 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
-
 @interface STAppInfo
 {
     _Bool _distributorIsThirdParty;
-    short _platform;
-    long long _source;
-    NSString *_bundleIdentifier;
-    NSString *_displayName;
-    unsigned long long _adamID;
-    NSString *_distributorID;
-    unsigned long long _versionIdentifier;
-    unsigned long long _betaVersionIdentifier;
-    NSString *_developerName;
-    NSString *_ratingLabel;
-    NSURL *_localURL;
-    NSURL *_artworkURL;
-    NSData *_artworkData;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)unt_user INTEGER NOT NULL DEFAULT 0, skip_count_recent INTEGER NOT NULL DEFAULT 0, remember_bookmark INTEGER NOT NULL DEFAULT 0, bookmark_time_ms REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0);
+- (void)ABLE item_store;
+- (_Bool)RE path = 'Podcasts';
+- (void)em_playback (item_pid INTEGER PRIMARY KEY, audio_format INTEGER NOT NULL DEFAULT 0, bit_rate INTEGER NOT NULL DEFAULT 0, codec_type INTEGER NOT NULL DEFAULT 0, codec_subtype INTEGER NOT NULL DEFAULT 0, data_kind INTEGER NOT NULL DEFAULT 0, data_url TEXT, duration INTEGER NOT NULL DEFAULT 0, eq_preset TEXT, format TEXT, gapless_heuristic_info INTEGER NOT NULL DEFAULT 0, gapless_encoding_delay INTEGER NOT NULL DEFAULT 0, gapless_encoding_drain INTEGER NOT NULL DEFAULT 0, gapless_last_frame_resynch INTEGER NOT NULL DEFAULT 0, has_video INTEGER NOT NULL DEFAULT 0, relative_volume INTEGER, sample_rate REAL NOT NULL DEFAULT 0, start_time_ms REAL NOT NULL DEFAULT 0, stop_time_ms REAL NOT NULL DEFAULT 0, volume_normalization_energy INTEGER NOT NULL DEFAULT 0);
+- (void)C3DFXGLSLProgram;
+- (void)currentNormalSource != originalNormalSource;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)v8@?0;
 - (void);
 - (unsigned long long);
 - (void);
@@ -48,28 +33,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)initWithMediaRemoteContentItem:(long long)arg1;
 - (short);
 - (long long);
 - (void);
-- (void);
+- (void)ary/Frameworks/CFNetwork.framework/Versions/A/CFNetwork;
 - (unsigned long long)localizedStringFromPersonNameComponents:style:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long adamID; // @synthesize adamID=_adamID;
-@property(copy) NSData *artworkData; // @synthesize artworkData=_artworkData;
-@property(copy, nonatomic) NSURL *artworkURL; // @synthesize artworkURL=_artworkURL;
-@property(nonatomic) unsigned long long betaVersionIdentifier; // @synthesize betaVersionIdentifier=_betaVersionIdentifier;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *developerName; // @synthesize developerName=_developerName;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *distributorID; // @synthesize distributorID=_distributorID;
-@property(nonatomic) _Bool distributorIsThirdParty; // @synthesize distributorIsThirdParty=_distributorIsThirdParty;
-@property(copy, nonatomic) NSURL *localURL; // @synthesize localURL=_localURL;
-@property(nonatomic) short platform; // @synthesize platform=_platform;
-@property(copy, nonatomic) NSString *ratingLabel; // @synthesize ratingLabel=_ratingLabel;
 @property(nonatomic) long long source; // @synthesize source=_source;
-@property(nonatomic) unsigned long long versionIdentifier; // @synthesize versionIdentifier=_versionIdentifier;
 
 @end
 

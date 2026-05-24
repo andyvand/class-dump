@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, SPSearchResultMarker;
+@class SPSearchResultMarker;
 
 @interface SPBeaconPayloadCacheSearchCriteria
 {
     SPSearchResultMarker *_searchResultMarker;
-    NSNumber *_fetchLimit;
 }
 
 + (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)erformSelector: /* Error: Ran out of types for this method. */;
+- (id)performSelector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *fetchLimit; // @synthesize fetchLimit=_fetchLimit;
 @property(retain, nonatomic) SPSearchResultMarker *searchResultMarker; // @synthesize searchResultMarker=_searchResultMarker;
 
 @end

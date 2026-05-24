@@ -9,11 +9,9 @@
 @interface SGSqlEntityStoreTokenizerGuardedData
 {
     _PASSqliteDatabase *_db;
-    struct sqlite3_tokenizer_module *_tokenizerModule;
-    struct sqlite3_tokenizer *_tokenizerInstance;
 }
 
-- (void)elineDissector;
+- (void)SGPipelineDissector;
 
 @end
 

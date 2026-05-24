@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HAPAddRemovePairingOperation
 {
     _Bool _admin;
-    _Bool _operationExecuting;
-    long long _operation;
-    NSString *_identifier;
-    NSData *_publicKey;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
@@ -26,24 +17,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)_borderedBadgeImageWithNoArrow;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)emoveAirPlayDevice: /* Error: Ran out of types for this method. */;
+- (void)wacBrowser:didRemoveAirPlayDevice: /* Error: Ran out of types for this method. */;
 - (long long)overing;
 - (id)c}@This is strange. We do not have any controller keys in the key chain.;
 - (void)d with another home;
 
 // Remaining properties
-@property(nonatomic) _Bool admin; // @synthesize admin=_admin;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(nonatomic) long long operation; // @synthesize operation=_operation;
-@property(nonatomic) _Bool operationExecuting; // @synthesize operationExecuting=_operationExecuting;
-@property(retain, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

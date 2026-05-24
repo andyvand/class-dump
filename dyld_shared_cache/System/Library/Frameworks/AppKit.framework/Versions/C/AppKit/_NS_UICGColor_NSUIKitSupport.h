@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (long long)llingDisabled;
+- (long long)concurrentScrollingDisabled;
 
 @end
 

@@ -12,15 +12,15 @@ __attribute__((visibility("hidden")))
     struct _NSZone *zoneForInstance;
 }
 
-+ (_Bool)t;
++ (_Bool)NSFont;
 - (unsigned long long);
 - (void);
 - (id);
-- (oneway void);
+- (oneway void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void)n;
 - (id)ÕÕÕÕÖÖ×××ØÙÚÚÚÛÜÝÝÝÝÝÝÞÞÞßßßßßààááâãääåæççççççèééêêêêêêêëììììííîîîïðñññòóôõõõõõö÷÷øùúúúúûûûûûüüýýýýþÿÿÿ;

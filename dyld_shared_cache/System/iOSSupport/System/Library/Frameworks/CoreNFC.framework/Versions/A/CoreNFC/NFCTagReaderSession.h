@@ -6,7 +6,6 @@
 
 #import <CoreNFC/NFCReaderSession.h>
 
-@class NSString;
 @protocol NFCTag;
 
 @interface NFCTagReaderSession : NFCReaderSession
@@ -17,27 +16,21 @@
 
 + (_Bool);
 + (_Bool);
-- (void);
+- (void)C;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) id <NFCTag> connectedTag; // @synthesize connectedTag=_connectedTag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

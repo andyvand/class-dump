@@ -9,13 +9,11 @@
 @interface NURenderTagGroup
 {
     NSMutableDictionary *_tags;
-    NSMutableDictionary *_children;
-    NURenderTagGroup *_parent;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -27,9 +25,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)rXPCClient markSATEnrollmentSuccessForVoiceProfile:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)$u;
+- (id)C;
 - (void);
 - (id);
 - (void);

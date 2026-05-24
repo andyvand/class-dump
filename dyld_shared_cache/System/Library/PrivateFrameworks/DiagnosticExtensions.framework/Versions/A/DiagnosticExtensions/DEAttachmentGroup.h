@@ -6,12 +6,11 @@
 
 #import <DiagnosticExtensions/DEAttachmentItem.h>
 
-@class NSArray, NSURL;
+@class NSURL;
 
 @interface DEAttachmentGroup : DEAttachmentItem
 {
     NSURL *_rootURL;
-    NSArray *_attachmentItems;
 }
 
 + (id);
@@ -19,7 +18,6 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *attachmentItems; // @synthesize attachmentItems=_attachmentItems;
 @property(retain, nonatomic) NSURL *rootURL; // @synthesize rootURL=_rootURL;
 
 @end

@@ -5,7 +5,8 @@
 //
 
 @protocol CSVTUIAudioSession
-- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool)%{public}p;
 @end
 

@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError;
-
 @interface PKPaymentOffersControllerLoadingDetails
 {
     unsigned long long _state;
-    NSDate *_lastUpdated;
-    NSError *_error;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)setPowerConsumptionDueToEPNOScan:(id)arg1;
 - (id);
 - (void)nts:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, copy, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
 @property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end

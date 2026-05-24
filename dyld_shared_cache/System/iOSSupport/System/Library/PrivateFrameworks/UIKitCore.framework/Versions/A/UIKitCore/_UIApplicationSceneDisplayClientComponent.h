@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets){?;
 - (void)Â0@ù
 × ;
 

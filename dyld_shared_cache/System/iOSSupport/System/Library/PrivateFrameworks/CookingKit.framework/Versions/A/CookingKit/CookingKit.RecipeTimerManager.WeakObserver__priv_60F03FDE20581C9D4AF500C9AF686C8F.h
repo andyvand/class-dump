@@ -7,6 +7,7 @@
 @interface CookingKit.RecipeTimerManager.WeakObserver__priv_60F03FDE20581C9D4AF500C9AF686C8F
 {
     id value;
+    id;
 }
 
 @end

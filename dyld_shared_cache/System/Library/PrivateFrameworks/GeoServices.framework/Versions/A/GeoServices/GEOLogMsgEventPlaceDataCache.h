@@ -4,30 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventPlaceDataCache
 {
     PBUnknownFields *_unknownFields;
-    NSString *_placeDataRequestingAppIdentifier;
 }
 
-+ (_Bool)ted:(id)arg1;
++ (_Bool)setHasStateOfChargeAtDestPredicted:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)rface",&,N,V_controllerInterface;
 - (_Bool);
 - (void);
-- (id)TilesUsed:(struct _NSZone *)arg1;
+- (id)setTilesUsed:(struct _NSZone *)arg1;
 - (id)FeedbackDetails",&,N;
 - (id).;
 - (id)ÿÿ;
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlaceDataRequestingAppIdentifier;
-@property(retain, nonatomic) NSString *placeDataRequestingAppIdentifier;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

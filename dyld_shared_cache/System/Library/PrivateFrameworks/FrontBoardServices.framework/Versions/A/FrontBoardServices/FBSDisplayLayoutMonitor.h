@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpoint, FBSDisplayLayout, NSMapTable, NSString, _FBSDisplayLayoutServiceAssertion;
+@class FBSDisplayLayout;
 
 @interface FBSDisplayLayoutMonitor
 {
     struct os_unfair_lock_s _lock;
-    _FBSDisplayLayoutServiceAssertion *_lock_handlerAssertion;
-    _Bool _lock_invalidated;
-    BSServiceConnectionEndpoint *_deprecated_endpoint;
-    CDUnknownBlockType _lock_deprecated_handler;
-    NSMapTable *_lock_deprecated_observerAssertions;
-    BOOL _deprecated_qos;
-    long long _deprecated_displayType;
-    _Bool _deprecated_singleton;
-    _Bool _deprecated_mutable;
 }
 
 + (id);
-+ (id);
++ (id)@;
 + (id);
 + (id);
 + (id);
@@ -35,22 +26,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)1;
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) FBSDisplayLayout *currentLayout;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

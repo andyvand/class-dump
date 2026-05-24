@@ -16,7 +16,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void)Client;
+- (void)assetsdClient;
 
 // Remaining properties
 @property(retain) NSSet *allowedKeyPaths; // @synthesize allowedKeyPaths=_allowedKeyPaths;

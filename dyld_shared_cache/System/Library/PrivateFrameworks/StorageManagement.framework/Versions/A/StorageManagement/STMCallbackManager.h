@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, STMRemoteExtensionContext;
-@protocol OS_dispatch_queue;
+@class STMRemoteExtensionContext;
 
 @interface STMCallbackManager
 {
     STMRemoteExtensionContext *_context;
-    NSString *_bundleIdentifier;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -20,8 +17,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)H;
+- (id)et",C,N;
 - (void);
 - (id);
 - (void);
@@ -30,9 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(retain) STMRemoteExtensionContext *context;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol IDSGroupContextDataSourceDaemonProtocol
+- (void);
 @end
 

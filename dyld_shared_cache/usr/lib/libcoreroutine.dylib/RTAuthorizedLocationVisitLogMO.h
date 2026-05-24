@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface RTAuthorizedLocationVisitLogMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)_exportedPCSData;
++ (id)elRegisterRequest writeTo:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property long long locationTechnologyAvailability; // @dynamic locationTechnologyAvailability;
-@property(retain, nonatomic) NSDate *registrationDate; // @dynamic registrationDate;
 @property(copy, nonatomic) NSUUID *visitIdentifier; // @dynamic visitIdentifier;
 
 @end

@@ -6,28 +6,26 @@
 
 #import <AppKit/NSAnimation.h>
 
-@class NSArray, NSMapTable;
+@class NSArray;
 
 @interface NSViewAnimation : NSAnimation
 {
     NSArray *_viewAnimations;
-    NSMapTable *_viewAnimationInfo;
-    NSMapTable *_windowAnimationInfo;
 }
 
 - (id);
 - (void);
+- (void);
+- (id)icyAlways here;
 - (void);
+- (void)Services;
+- (void)alid=%s, ss=%@;
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id)eForImageSearch;
+- (id)bundleForImageSearch;
 - (void)Dispatcher dispatchEvent:(float)arg1 ];
 
 // Remaining properties

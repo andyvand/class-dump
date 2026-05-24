@@ -19,13 +19,13 @@ struct Arc4State {
 };
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
@@ -33,81 +33,13 @@ struct CGSize {
     double height;
 };
 
-struct MPConcurrentUnorderedMap {
-    struct unordered_map<unsigned long long, id, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, id>>> _map;
-    struct shared_mutex _mutex;
-};
-
-struct _MSVSignedRange {
-    long long location;
-    long long length;
-};
-
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
-struct condition_variable {
-    struct _opaque_pthread_cond_t {
-        long long __sig;
-        char __opaque[40];
-    } __cv_;
-};
-
-struct map<long, MPIdentifierSet *, std::less<long>, std::allocator<std::pair<const long, MPIdentifierSet *>>> {
-    struct __tree<std::__value_type<long, MPIdentifierSet *>, std::__map_value_compare<long, std::pair<const long, MPIdentifierSet *>, std::less<long>>, std::allocator<std::pair<const long, MPIdentifierSet *>>> {
-        void *__begin_node_;
-        struct {
-            struct __tree_end_node<std::__tree_node_base<void *>*> {
-                void *__left_;
-            } __end_node_;
-        } ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct mutex {
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } __m_;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
-};
-
-struct os_unfair_recursive_lock_s {
-    struct os_unfair_lock_s ourl_lock;
-    unsigned int ourl_count;
-};
-
-struct shared_mutex {
-    struct __shared_mutex_base {
-        struct mutex __mut_;
-        struct condition_variable __gate1_;
-        struct condition_variable __gate2_;
-        unsigned int __state_;
-    } __base_;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
 };
 
 struct unique_ptr<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*>>> {
@@ -119,32 +51,6 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<unsigned long long, voi
     } ;
 };
 
-struct unordered_map<unsigned long long, id, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, id>>> {
-    struct __hash_table<std::__hash_value_type<unsigned long long, id>, std::__unordered_map_hasher<unsigned long long, std::pair<const unsigned long long, id>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::pair<const unsigned long long, id>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::pair<const unsigned long long, id>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<unsigned short, unsigned long, std::hash<unsigned short>, std::equal_to<unsigned short>, std::allocator<std::pair<const unsigned short, unsigned long>>> {
-    struct __hash_table<std::__hash_value_type<unsigned short, unsigned long>, std::__unordered_map_hasher<unsigned short, std::pair<const unsigned short, unsigned long>, std::hash<unsigned short>, std::equal_to<unsigned short>>, std::__unordered_map_equal<unsigned short, std::pair<const unsigned short, unsigned long>, std::equal_to<unsigned short>, std::hash<unsigned short>>, std::allocator<std::pair<const unsigned short, unsigned long>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<unsigned short, unsigned long>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
 struct unordered_set<unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<unsigned long long>> {
     struct __hash_table<unsigned long long, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<unsigned long long>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<unsigned long long, void *>*>*>>> __bucket_list_;
@@ -154,7 +60,9 @@ struct unordered_set<unsigned long long, std::hash<unsigned long long>, std::equ
             } __first_node_;
         } ;
         CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
+        struct {
+            float __max_load_factor_;
+        } ;
     } __table_;
 };
 
@@ -167,9 +75,9 @@ struct vector<ITMediaEntity *, std::allocator<ITMediaEntity *>> {
 };
 
 struct vector<long long, std::allocator<long long>> {
-    long long *__begin_;
-    long long *__end_;
-    CDStruct_5fd5a61e ;
+    long long *_field1;
+    long long *_field2;
+    CDStruct_5fd5a61e _field3;
 };
 
 struct vector<long, std::allocator<long>> {
@@ -218,42 +126,16 @@ typedef struct {
 } CDStruct_63a3d127;
 
 typedef struct {
-    float __max_load_factor_;
-} CDStruct_717dde41;
-
-typedef struct {
     int _field1;
     int _field2;
     int _field3;
     int _field4;
 } CDStruct_a734b2e2;
 
-typedef struct {
-    unsigned int identifiers:1;
-    unsigned int title:1;
-    struct {
-        unsigned int identifiers:1;
-        unsigned int name:1;
-        unsigned int artwork:1;
-    } showCreator;
-} CDStruct_93f342fe;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int identifiers:1;
-    unsigned int text:1;
-    unsigned int hasStoreLyrics:1;
-    unsigned int hasTimeSyncedLyrics:1;
-    unsigned int hasDownloadedCatalogLyrics:1;
-} CDStruct_4f99e7c1;
-
-typedef struct {
-    unsigned int identifiers:1;
-} CDStruct_f9384266;
-
+// Template types
 typedef struct vector<long long, std::allocator<long long>> {
-    long long *__begin_;
-    long long *__end_;
-    CDStruct_5fd5a61e ;
-} vector_ef673ceb;
+    long long *_field1;
+    long long *_field2;
+    CDStruct_5fd5a61e _field3;
+} vector_cd3d9677;
 

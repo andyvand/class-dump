@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedETARoute, GEOComposedRouteTraffic, NSArray, NSDictionary;
+@class GEOComposedETARoute, NSArray;
 
 @interface GEOComposedRouteMutableData
 {
     GEOComposedETARoute *_etaRoute;
-    GEOComposedRouteTraffic *_traffic;
-    NSArray *_trafficDelayInfos;
-    NSArray *_updateableCameraInfos;
-    NSDictionary *_stepsIDToEVInfos;
-    NSDictionary *_legIndexToChargingStationInfos;
-    NSDictionary *_originDisplayInfos;
-    NSDictionary *_destinationDisplayInfos;
-    NSArray *_routeOverviewDescriptionStrings;
-    NSArray *_rideSelections;
 }
 
 + (_Bool)ource to disk -- no data/eTag (%{public}@);
@@ -29,11 +20,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)dSet";
+- (void)observer;
+- (id)the future has deallocated;
+- (id)passed to observableWithResult: /* Error: Ran out of types for this method. */;
+- (id)ort Sync;
 - (id);
 - (id);
 - (id);
@@ -44,12 +35,7 @@
 - (void)¿;
 
 // Remaining properties
-@property(retain, nonatomic) GEOComposedETARoute *etaRoute; // @synthesize etaRoute=_etaRoute;
-@property(copy, nonatomic) NSArray *rideSelections; // @synthesize rideSelections=_rideSelections;
 @property(readonly, nonatomic) NSArray *routeOverviewDescriptionStrings; // @synthesize routeOverviewDescriptionStrings=_routeOverviewDescriptionStrings;
-@property(retain, nonatomic) GEOComposedRouteTraffic *traffic; // @synthesize traffic=_traffic;
-@property(retain, nonatomic) NSArray *trafficDelayInfos; // @synthesize trafficDelayInfos=_trafficDelayInfos;
-@property(retain, nonatomic) NSArray *updateableCameraInfos; // @synthesize updateableCameraInfos=_updateableCameraInfos;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDContactlessPaymentsRibbonItem, NSArray, NSString;
+@class GEOPDContactlessPaymentsRibbonItem, NSString;
 
 @interface GEOContactlessPaymentsRibbonItem
 {
@@ -12,12 +12,11 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id)secTask:(id)arg1 hasArrayWithStringValue:forAnyEntitlement:error: /* Error: Ran out of types for this method. */;
+- (id)flatMap:withBlock:schedulerProvider: /* Error: Ran out of types for this method. */;
 - (void)Ô¨þ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *indexesWithinAmenityComponent;
 @property(readonly, nonatomic) NSString *ribbonText;
 
 @end

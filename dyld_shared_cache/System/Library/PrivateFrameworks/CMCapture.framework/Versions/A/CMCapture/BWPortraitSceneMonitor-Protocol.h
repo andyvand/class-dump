@@ -7,7 +7,6 @@
 @protocol BWPortraitSceneMonitor
 
 // Remaining properties
-@property(readonly, nonatomic) float focusDistanceToMaxAllowedFocusDistanceRatio;
 @property(nonatomic) _Bool portraitSceneMonitoringRequiresStageThresholds;
 @end
 

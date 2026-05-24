@@ -7,16 +7,6 @@
 @interface PodcastsFoundation.InterestObserverProvider
 {
     id ctx;
-    id favoritedInterestsPublisher;
-    id favoritedInterestsCountPublisher;
-    id favoritedInterestsCategoriesPublisher;
-    id dislikedInterestsCategoriesPublisher;
-    id favoritedInterestsChannelsPublisher;
-    id dislikedInterestsChannelsPublisher;
-    id dislikedInterestsShowsPublisher;
-    id userAppSessionsCountPublisher;
-    id dismissedInlineSelectionModulePublisher;
-    id subscriptions;
 }
 
 @end

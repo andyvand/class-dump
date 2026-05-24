@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _MKDirectionalPanGestureRecognizer : _MKConditionalPanGestureRecognizer
 {
     long long _direction;
-    struct CGPoint _mouseDownPoint;
-    double _translation;
 }
 
 - (double);
 - (void);
 - (void);
+- (void)setCloudKitContainerOptions:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)modifyBody:(id)arg1;
 - (long long);
 - (void);
 - (void)Ä;

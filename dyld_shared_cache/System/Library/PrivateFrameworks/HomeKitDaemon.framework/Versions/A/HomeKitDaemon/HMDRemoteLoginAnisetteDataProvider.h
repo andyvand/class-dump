@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDRemoteLoginMessageSender, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginAnisetteDataProvider
 {
     NSString *_sessionID;
-    HMDRemoteLoginMessageSender *_remoteMessageSender;
 }
 
 + (id)¶B;
 - (void);
 - (id);
+- (id)addParticipants:(id)arg1 forServiceName:(id)arg2;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id)ger:(struct _NSZone *)arg1 didRequestSendForInvitation:toUser: /* Error: Ran out of types for this method. */;
-- (id)am;
+- (id)manager:(struct _NSZone *)arg1 didRequestSendForInvitation:toUser: /* Error: Ran out of types for this method. */;
+- (id)latencyHistogram;
 - (void)he fetch in %lu seconds;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDRemoteLoginMessageSender *remoteMessageSender; // @synthesize remoteMessageSender=_remoteMessageSender;
 @property(readonly, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface WBSSavePermissionsToStorageInformation
 {
     _Bool _permissionsWereUpdatedDueToAnExternalChange;
-    WBSWebExtensionData *_webExtension;
 }
 
 - (_Bool);
@@ -19,7 +18,6 @@
 - (void)ider>",R,N,V_provider;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool permissionsWereUpdatedDueToAnExternalChange; // @synthesize permissionsWereUpdatedDueToAnExternalChange=_permissionsWereUpdatedDueToAnExternalChange;
 @property(readonly, nonatomic) WBSWebExtensionData *webExtension; // @synthesize webExtension=_webExtension;
 
 @end

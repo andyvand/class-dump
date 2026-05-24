@@ -5,11 +5,9 @@
 //
 
 @protocol SCNCylinderJSExport
+- (void)_contentViewController;
 
 // Remaining properties
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) long long radialSegmentCount;
 @property(nonatomic) double radius;
 @end
 

@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PHADataset
 {
     NSArray *_labeledDataSamples;
-    NSString *_inputName;
-    NSString *_labelName;
 }
 
 - (id);
 - (id);
+- (id)9;
 - (id);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
-- (void)estedTriggerType;
+- (void)_requestedTriggerType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *inputName; // @synthesize inputName=_inputName;
-@property(readonly, nonatomic) NSString *labelName; // @synthesize labelName=_labelName;
 @property(readonly, nonatomic) NSArray *labeledDataSamples; // @synthesize labeledDataSamples=_labeledDataSamples;
-@property(readonly) Class superclass;
 
 @end
 

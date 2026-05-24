@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, UITableViewCell;
+
 @protocol UITableViewDataSource
+- (UITableViewCell *)@@?<v@?@"DNDAppConfigurationTargetContentIdentifierPrefixesBox"@"NSError">;
+- (long long);
+
+@optional
+- (long long);
+- (_Bool){;
+- (NSArray *);
 @end
 

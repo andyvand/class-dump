@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSNumber;
 
 @interface RTSettledStateTransitionMO
 {
 }
 
 + (id);
-+ (id);
++ (id)@, isSTUNPacket:%@, isReliableUnicast:%@, isClientQUIC:%@, isVirtualRelay:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
 @property(copy, nonatomic) NSNumber *transitionFromType; // @dynamic transitionFromType;
-@property(copy, nonatomic) NSNumber *transitionToType; // @dynamic transitionToType;
 
 @end
 

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSTrackingRegionData
 {
     long long trackingID;
-    unsigned long long regionID;
-    void *userData;
 }
 
 @end

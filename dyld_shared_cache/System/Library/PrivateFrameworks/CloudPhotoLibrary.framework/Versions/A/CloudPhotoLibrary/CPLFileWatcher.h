@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL;
-@protocol CPLFileWatcherDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject, NSURL;
+@protocol OS_dispatch_queue;
 
 @interface CPLFileWatcher
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_nodeSource;
-    NSObject<OS_dispatch_source> *_parentSource;
-    unsigned long long _nodeInode;
-    NSURL *_fileURL;
-    NSString *_name;
-    NSString *_ownerIdentifier;
-    id <CPLFileWatcherDelegate> _delegate;
 }
 
-- (void);
+- (void)state = ;
+- (id)L"16@"NSError"24;
+- (void)PDDomain didChangeItemID:request:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (void)ªí;
-- (void);
-- (void)@ùè;
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
+- (id)SearchEstimateAndPreScoreActivePels;
 - (void);
 - (id);
 - (void)!¼Cùñð1Â0@ù
@@ -41,10 +34,7 @@
 - (id)à¡t¦¦	§;
 
 // Remaining properties
-@property(nonatomic) __weak id <CPLFileWatcherDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *ownerIdentifier; // @synthesize ownerIdentifier=_ownerIdentifier;
 
 @end
 

@@ -10,27 +10,21 @@ __attribute__((visibility("hidden")))
 @interface _TIPreferencesAnalyzerProperty
 {
     int _reportingMode;
-    NSString *_key;
-    NSString *_domain;
-    id _defaultValue;
 }
 
 - (void);
 - (int);
-- (id);
+- (id)lastUtteranceIndexForMe:(id)arg1 isTranscription:(id)arg2;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id defaultValue; // @synthesize defaultValue=_defaultValue;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int reportingMode; // @synthesize reportingMode=_reportingMode;
 
 @end
 

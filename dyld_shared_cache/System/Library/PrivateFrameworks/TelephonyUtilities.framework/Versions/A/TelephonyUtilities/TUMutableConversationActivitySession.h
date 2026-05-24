@@ -6,7 +6,7 @@
 
 #import <TelephonyUtilities/TUConversationActivitySession.h>
 
-@class NSDate, NSSet, NSString, NSUUID, NSXPCListenerEndpoint, TUConversationActivity, TUHandle;
+@class NSDate;
 
 @interface TUMutableConversationActivitySession : TUConversationActivitySession
 {
@@ -14,21 +14,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @dynamic UUID;
-@property(retain, nonatomic) NSSet *activeRemoteParticipants; // @dynamic activeRemoteParticipants;
-@property(retain, nonatomic) TUConversationActivity *activity; // @dynamic activity;
-@property(nonatomic) unsigned long long applicationState; // @dynamic applicationState;
-@property(nonatomic) unsigned long long distributionCount; // @dynamic distributionCount;
-@property(retain, nonatomic) NSXPCListenerEndpoint *endpoint; // @dynamic endpoint;
-@property(nonatomic) _Bool isFirstJoin; // @dynamic isFirstJoin;
-@property(nonatomic) _Bool isLightweightPrimaryInitiated; // @dynamic isLightweightPrimaryInitiated;
-@property(nonatomic, getter=isLocalParticipantActive) _Bool isLocalParticipantActive; // @dynamic isLocalParticipantActive;
-@property(nonatomic) _Bool isLocallyInitiated; // @dynamic isLocallyInitiated;
-@property(nonatomic, getter=isPermittedToJoin) _Bool permittedToJoin; // @dynamic permittedToJoin;
-@property(retain, nonatomic) NSString *persistentSceneIdentifier;
-@property(nonatomic) unsigned long long state; // @dynamic state;
-@property(retain, nonatomic) TUHandle *terminatingHandle; // @dynamic terminatingHandle;
 @property(retain, nonatomic) NSDate *timestamp; // @dynamic timestamp;
-@property(nonatomic, getter=isUsingAirplay) _Bool usingAirplay; // @dynamic usingAirplay;
 @end
 

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSDictionary, NSString, NSUUID;
+@class HMFTimer;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeKeySetupLockLogEvent
 {
     _Bool _success;
-    NSUUID *_accessoryUUID;
-    unsigned long long _keyType;
-    long long _expectedCount;
-    long long _completedCount;
-    HMFTimer *_timer;
 }
 
 - (void);
-- (void);
+- (void)service:(long long)arg1 account:inviteReceivedForSession:fromID: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -32,34 +27,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)backup due to unconfigured delegate error:(id)arg1 %@;
 - (_Bool);
-- (void)meUUID;
+- (void)homeUUID;
 - (void)eration:error=%@ /* Error: Ran out of types for this method. */;
 - (id)£¼#?;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property long long completedCount; // @synthesize completedCount=_completedCount;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property long long expectedCount; // @synthesize expectedCount=_expectedCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) unsigned long long keyType; // @synthesize keyType=_keyType;
-@property(readonly) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) HMFTimer *timer; // @synthesize timer=_timer;
 
 @end

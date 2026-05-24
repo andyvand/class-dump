@@ -10,22 +10,17 @@ __attribute__((visibility("hidden")))
 @interface GEOActionComponentMapEntry
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _placeDataComponents;
-    int _actionComponent;
-    struct {
-        unsigned int has_actionComponent:1;
-    } _flags;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)_magusSupportedPolicy;
 - (unsigned long long);
+- (_Bool)^;
 - (_Bool);
-- (_Bool);
-- (id)rdinate:(struct _NSZone *)arg1;
+- (id)mapItemStorageForCoordinate:(struct _NSZone *)arg1;
 - (id)xdy;
-- (id)rsistedLimitAge;
+- (id)MapsRequestResponseLoggingPersistedLimitAge;
 - (void)7;
 
 @end

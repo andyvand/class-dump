@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIBezierPath, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIPlatterItem
@@ -12,37 +12,19 @@ __attribute__((visibility("hidden")))
     UIView *_heldView;
 }
 
-- (id);
-- (struct CGAffineTransform);
+- (id)lities:maxDimension:transcoderUserInfo:representations:isLQMEnabled:completionBlock: /* Error: Ran out of types for this method. */;
+- (struct CGAffineTransform)Pu;
 - (struct CGPoint)
 × ;
 - (struct CGRect)±dÐ1Â0@ù
 × ;
 - (void)eForModalPresentation:(struct CGAffineTransform)arg1 ,V_segueResponsibleForModalPresentation;
 - (void)JÏîÿ<vþÿ;
-- (void)ndle;
+- (void)_IntelligenceLightHandle;
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(nonatomic) struct CGPoint center;
-@property(readonly, nonatomic) UIBezierPath *collisionBoundingPath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIBezierPath",?,R,N
-
-@property(readonly, nonatomic) unsigned long long collisionBoundsType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak UIView *heldView; // @synthesize heldView=_heldView;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGAffineTransform transform;
 
 @end
 

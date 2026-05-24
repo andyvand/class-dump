@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface VSSetTopBoxProfile
 {
     _Bool _isDeveloper;
-    NSString *_providerID;
-    NSString *_userToken;
-    NSDate *_activationTime;
 }
 
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)t load from sync;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *activationTime; // @synthesize activationTime=_activationTime;
-@property(nonatomic) _Bool isDeveloper; // @synthesize isDeveloper=_isDeveloper;
 @property(retain, nonatomic) NSString *providerID; // @synthesize providerID=_providerID;
-@property(retain, nonatomic) NSString *userToken; // @synthesize userToken=_userToken;
 
 @end
 

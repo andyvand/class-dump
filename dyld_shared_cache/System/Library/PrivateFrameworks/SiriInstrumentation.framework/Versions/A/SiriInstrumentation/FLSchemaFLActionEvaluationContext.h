@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLSchemaFLActionEvaluationEnded, FLSchemaFLActionEvaluationFailed, FLSchemaFLActionEvaluationStarted, NSData, SISchemaUUID;
+@class FLSchemaFLActionEvaluationStarted;
 
 @interface FLSchemaFLActionEvaluationContext : SISchemaInstrumentationMessage
 {
     FLSchemaFLActionEvaluationStarted *_startedOrChanged;
-    FLSchemaFLActionEvaluationEnded *_ended;
-    FLSchemaFLActionEvaluationFailed *_failed;
-    SISchemaUUID *_contextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasContextId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -32,19 +24,19 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool)__objc_selrefs;
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void))1;
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)x%;
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (id)cheLookupStarted";
@@ -55,16 +47,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) FLSchemaFLActionEvaluationEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) FLSchemaFLActionEvaluationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLSchemaFLActionEvaluationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

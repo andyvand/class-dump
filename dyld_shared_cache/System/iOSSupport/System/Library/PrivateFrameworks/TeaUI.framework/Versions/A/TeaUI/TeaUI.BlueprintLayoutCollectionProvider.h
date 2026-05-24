@@ -7,7 +7,6 @@
 @interface TeaUI.BlueprintLayoutCollectionProvider
 {
     id isAnimatingInvalidation;
-    id observableBlueprintLayoutCollection;
 }
 
 @end

@@ -7,12 +7,6 @@
 @interface NewsUI2.TodayFeedPool.MyHeadlines
 {
     id analyticsData;
-    id articleScoreSummaryDataList;
-    id decayedPublisherDiversificationPenalty;
-    id scoredItems;
-    id clusteringResultProvider;
-    id clusteringResult;
-    id consumedScoredItems;
 }
 
 @end

@@ -6,8 +6,6 @@
 
 #import <iCalendar/ICSProperty.h>
 
-@class ICSAlternateTimeProposal, ICSDateValue, NSString;
-
 @interface ICSUserAddress : ICSProperty
 {
 }
@@ -33,30 +31,30 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)ґ6;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (int);
 - (int);
 - (int);
+- (int);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (int);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (int);
-- (id);
-- (_Bool);
 - (_Bool);
 - (void);
 - (int);
@@ -64,39 +62,24 @@
 - (id);
 - (void);
 - (_Bool);
+- (id)*;
+- (void);
+- (_Bool)withResource:uid:{uid:%{public}@, extID:%@, cal:%@, account:%@} /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (id)NUITableViewContainerCell;
 - (id);
-- (id);
-- (id);
+- (id)@"NSSharingService"24;
 - (int);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) ICSAlternateTimeProposal *alternateTimeProposal;
-@property(retain, nonatomic) NSString *cn;
-@property(nonatomic) int cutype;
-@property(retain, nonatomic) NSString *dir;
-@property(retain, nonatomic) NSString *email;
-@property(retain, nonatomic) NSString *likenessDataString;
-@property(nonatomic) int partstat;
-@property(retain, nonatomic) ICSDateValue *partstatModified;
-@property(nonatomic) int role;
 @property(nonatomic) _Bool rsvp;
-@property(nonatomic) int scheduleagent;
-@property(nonatomic) int scheduleforcesend;
-@property(nonatomic) int schedulestatus;
-@property(retain, nonatomic) NSString *x_apple_inviterName;
-@property(nonatomic) _Bool x_apple_self_invited;
-@property(retain, nonatomic) NSString *x_apple_telephone;
 
 @end
 

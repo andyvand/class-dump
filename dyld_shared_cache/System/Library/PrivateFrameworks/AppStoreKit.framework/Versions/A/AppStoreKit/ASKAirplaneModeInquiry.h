@@ -19,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <ASKAirplaneModeInquiryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isEnabled;
 
 @end
 

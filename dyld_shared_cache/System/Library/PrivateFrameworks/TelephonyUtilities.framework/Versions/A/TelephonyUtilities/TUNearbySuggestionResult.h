@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TUConversationActivity, TUNearbySuggestion;
+@class TUNearbySuggestion;
 
 @interface TUNearbySuggestionResult
 {
     TUNearbySuggestion *_suggestion;
-    TUConversationActivity *_selectedActivity;
-    long long _type;
 }
 
-+ (_Bool);
++ (_Bool)x;
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)A)
+;
+- (long long);
 - (void);
 - (id)Handle"32@0:8@"NSString"16^@24 /* Error: Ran out of types for this method. */;
-- (void);
+- (void)supportsHighQualityVoiceWithMedia;
 
 // Remaining properties
-@property(readonly, nonatomic) TUConversationActivity *selectedActivity; // @synthesize selectedActivity=_selectedActivity;
 @property(readonly, nonatomic) TUNearbySuggestion *suggestion; // @synthesize suggestion=_suggestion;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 + (double)chment for transferGUID %s;
 - (void);
-- (id);
+- (id)g;
 - (void);
 - (void);
 - (struct CGSize);
-- (id)eInsetsIfPresentedBySendMenuPopover;
+- (id)appCardContainerViewControllerChildEdgeInsetsIfPresentedBySendMenuPopover;
 - (void);
 
 // Remaining properties

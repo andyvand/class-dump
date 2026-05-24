@@ -7,7 +7,6 @@
 @interface SoundAnalysis.E5RTExecutionStream
 {
     id value;
-    id uuid;
 }
 
 @end

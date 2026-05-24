@@ -4,46 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDispatchQueue, NSCache, NSCountedSet, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSCache;
 
 @interface CKDispatchCache
 {
     NSCache *_objectCache;
-    NSCountedSet *_pendingKeys;
-    NSMutableDictionary *_pendingGroups;
-    IMDispatchQueue *_dispatchQueue;
-    NSObject<OS_dispatch_queue> *_lockQueue;
-    long long _dispatchPriority;
 }
 
-- (_Bool);
+- (_Bool)enumerateTextElementsFromLocation:(id)arg1 options:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)ICSearchResultConfiguration;
+- (void);
+- (void)(;
+- (id)GGAGGGGG;
+- (_Bool)r;
+- (id)a;
+- (void){attachment:(CDUnknownBlockType)arg1 %s, media:(CDUnknownBlockType)arg2 %s};
+- (void)attachment:(CDUnknownBlockType)arg1 %s;
+- (void);
+- (long long)n't persist attachment for id:%@, error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (id)e;
 - (void)°1Â0@ù
 × ;
 - (void)0@ù
@@ -52,12 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long dispatchPriority; // @synthesize dispatchPriority=_dispatchPriority;
-@property(retain, nonatomic) IMDispatchQueue *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *lockQueue; // @synthesize lockQueue=_lockQueue;
 @property(retain, nonatomic) NSCache *objectCache; // @synthesize objectCache=_objectCache;
-@property(retain, nonatomic) NSMutableDictionary *pendingGroups; // @synthesize pendingGroups=_pendingGroups;
-@property(retain, nonatomic) NSCountedSet *pendingKeys; // @synthesize pendingKeys=_pendingKeys;
 
 @end
 

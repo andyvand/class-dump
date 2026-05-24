@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKTransactionReleasedDataApplication
 {
     unsigned long long _client;
-    NSString *_bundleIdentifier;
-    NSString *_usageDescription;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (_Bool);
 - (id);
 - (void);
@@ -23,16 +19,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)addTxMCSSuccess:(id)arg1;
 - (void);
 - (id);
 - (void)ô½;
 - (void)/is3.mzstatic.com/image/thumb/tvs32psbmkjVzpHV329qiA/258x258.png;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
 @property(nonatomic) unsigned long long client; // @synthesize client=_client;
-@property(retain, nonatomic) NSString *usageDescription; // @synthesize usageDescription=_usageDescription;
 
 @end
 

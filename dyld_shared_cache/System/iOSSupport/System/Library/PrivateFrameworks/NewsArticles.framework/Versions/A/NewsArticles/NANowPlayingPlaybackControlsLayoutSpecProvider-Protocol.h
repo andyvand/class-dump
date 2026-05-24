@@ -5,5 +5,6 @@
 //
 
 @protocol NANowPlayingPlaybackControlsLayoutSpecProvider
+- (double);
 @end
 

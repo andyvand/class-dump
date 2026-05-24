@@ -5,5 +5,8 @@
 //
 
 @protocol NSOutlineViewDataSource
+
+@optional
+- (_Bool);
 @end
 

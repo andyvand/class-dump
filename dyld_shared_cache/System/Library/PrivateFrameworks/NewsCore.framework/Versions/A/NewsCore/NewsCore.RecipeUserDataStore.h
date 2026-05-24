@@ -7,8 +7,6 @@
 @interface NewsCore.RecipeUserDataStore
 {
     id privateZone;
-    id lockedUpsertsMulticaster;
-    id lockedDeletionsMulticaster;
 }
 
 @end

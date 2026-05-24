@@ -5,5 +5,9 @@
 //
 
 @protocol AMSUIEngagementTaskDelegate
+
+@optional
+- (void);
+- (_Bool);
 @end
 

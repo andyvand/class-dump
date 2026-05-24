@@ -6,9 +6,6 @@
 
 #import <CoreBluetooth/CBManager.h>
 
-@class NSMapTable, NSMutableArray, NSObject;
-@protocol CBCentralManagerDelegate, OS_dispatch_source;
-
 @interface CBCentralManager : CBManager
 {
     struct {
@@ -41,17 +38,6 @@
         unsigned int didUpdateScanParams:1;
         unsigned int didUpdateFindMyPeripherals:1;
     } _delegateFlags;
-    _Bool _observingKeyPaths;
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } peripheralsMutex;
-    _Bool _isScanning;
-    id <CBCentralManagerDelegate> _delegate;
-    NSMapTable *_peripherals;
-    CDUnknownBlockType _scanCompletion;
-    NSObject<OS_dispatch_source> *_updateTimer;
-    NSMutableArray *_discoveredPeripherals;
 }
 
 + (_Bool);
@@ -61,51 +47,14 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)startAutomaticallyAllowingConnectionsFromPeersInHomeGroupAndRejectOtherConnections:(id)arg1;
+- (void)initWithEndpoint:(id)arg1 customURLHandlerObjectID:(unsigned short)arg2 authHandlerObjectID:contentKeySessionHandlerObjectID: /* Error: Ran out of types for this method. */;
+- (void)_removeCoordinatedPlaybackSuspensionWithReasonOnQueue:requiringSuspensionEnd: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -116,9 +65,46 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)N3ctu8LoggableI13MMSFromHeaderNS_11OsLogLoggerEEE;
+- (void)kPacketContextIdentifer;
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)nterface %s;
+- (id)ll can't be made ;
+- (void)NS_11char_traitsIcEENS_9allocatorIcEEEEEEE;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)1	?׿F;
 - (void);
 - (void);
 - (void);
@@ -141,48 +127,33 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)K@9;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)!;
 - (void);
 - (void);
 - (id);
 - (void);
 - (unsigned short);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)32@?0@"NSData"8@"NSDate"16@"NSError"24;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned short);
-- (void);
+- (void)p!;
 - (void);
 - (void);
 - (void);
@@ -190,6 +161,21 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (id)t) checkMacOSXBootability:(id)arg1 isBootable:(id)arg2 ];
+- (void)s not supported with this operation;
+- (void)his operation;
+- (void)Disk = AppleAPFSMedia:(id)arg1 inst=%u id=0x%llx class=%s;
+- (void);
+- (unsigned short);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)4;
 - (void);
 - (void);
 - (_Bool);
@@ -202,20 +188,15 @@
 × ;
 - (void)0@ù
 × ;
-- (void)airingType;
+- (void)_pairingType;
 - (void)peer not found:(_Bool)arg1 peer %@, type %s, passKey %@;
 - (_Bool)ate Measurement;
-- (void)odelIdentifier;
+- (void)appleModelIdentifier;
 - (void)ompleted with error %@;
 - (_Bool)lD;
 
 // Remaining properties
-@property(nonatomic) __weak id <CBCentralManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSMutableArray *discoveredPeripherals; // @synthesize discoveredPeripherals=_discoveredPeripherals;
 @property(nonatomic) _Bool isScanning; // @synthesize isScanning=_isScanning;
-@property(readonly, retain, nonatomic) NSMapTable *peripherals; // @synthesize peripherals=_peripherals;
-@property(copy, nonatomic) CDUnknownBlockType scanCompletion; // @synthesize scanCompletion=_scanCompletion;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *updateTimer; // @synthesize updateTimer=_updateTimer;
 
 @end
 

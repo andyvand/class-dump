@@ -7,11 +7,6 @@
 @interface NewsUI2.DownloadIssuesCommandHandler
 {
     id offlineIssueManager;
-    id bundleSubscriptionManager;
-    id offlineAlertControllerFactory;
-    id tracker;
-    id channelDataFactory;
-    id sceneProvider;
 }
 
 @end

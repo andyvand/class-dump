@@ -6,31 +6,19 @@
 
 #import <HomeKitDaemon/MKFCKHomeObject.h>
 
-@class MKFCKHome, MKFCKZone, NSDate, NSDictionary, NSSet, NSString, NSUUID;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKRoom : MKFCKHomeObject
 {
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
++ (id)C;
+- (_Bool)groupSessionEnded:(id)arg1 withError:(id)arg2;
+- (_Bool)tact %{private}@:(id)arg1 %{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *accessories; // @dynamic accessories;
 @property(retain, nonatomic) NSDictionary *applicationData; // @dynamic applicationData;
-@property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(retain, nonatomic) MKFCKHome *home; // @dynamic home;
-@property(retain, nonatomic) MKFCKHome *homeDefault; // @dynamic homeDefault;
-@property(copy, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(retain, nonatomic) MKFCKZone *homeZone; // @dynamic homeZone;
-@property(retain, nonatomic) NSSet *localPresenceAccessories; // @dynamic localPresenceAccessories;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
-@property(retain, nonatomic) NSSet *zones; // @dynamic zones;
 
 @end
 

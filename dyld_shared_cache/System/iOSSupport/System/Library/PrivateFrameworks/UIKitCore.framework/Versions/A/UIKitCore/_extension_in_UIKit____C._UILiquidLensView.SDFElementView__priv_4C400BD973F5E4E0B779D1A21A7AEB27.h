@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)_audioSessionID;
 - (id);
-- (id)tationSegueTemplate;
+- (id)UIStoryboardPresentationSegueTemplate;
 
 @end
 

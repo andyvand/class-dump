@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDDataStreamBulkSendProtocol, NSError, NSMutableArray, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamBulkSendSession
 {
     _Bool _isClosed;
-    _Bool _hasReceivedEof;
-    HMDDataStreamBulkSendProtocol *_bulkSendProtocol;
-    NSNumber *_sessionIdentifier;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _activeReadHandler;
-    NSMutableArray *_pendingReads;
-    NSError *_pendingError;
-    NSString *_logIdentifier;
 }
 
 + (id)´B;
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)r;
+- (void)ry;
+- (void)fic update;
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -36,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id)¡ß°!\BùÑ1Â0@ù
 × ;
 - (void)CKContainer";
@@ -45,21 +34,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, getter=isActive) _Bool active;
 @property(copy, nonatomic) CDUnknownBlockType activeReadHandler; // @synthesize activeReadHandler=_activeReadHandler;
-@property(readonly, nonatomic) __weak HMDDataStreamBulkSendProtocol *bulkSendProtocol; // @synthesize bulkSendProtocol=_bulkSendProtocol;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(retain, nonatomic) NSError *pendingError; // @synthesize pendingError=_pendingError;
-@property(retain, nonatomic) NSMutableArray *pendingReads; // @synthesize pendingReads=_pendingReads;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSNumber *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

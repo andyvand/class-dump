@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSHTTPURLResponse;
+@class NSHTTPURLResponse;
 
 @interface _SFSearchResult
 {
     NSHTTPURLResponse *_response;
-    NSData *_data;
-    long long _searchType;
 }
 
-- (id);
-- (id);
+- (id);
+- (id);
 - (long long);
 - (id);
-- (id);
+- (id)_componentType;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) NSHTTPURLResponse *response; // @synthesize response=_response;
-@property(readonly, nonatomic) long long searchType; // @synthesize searchType=_searchType;
 
 @end
 

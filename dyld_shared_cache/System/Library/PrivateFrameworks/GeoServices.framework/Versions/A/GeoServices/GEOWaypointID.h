@@ -4,39 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOStructuredAddress, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOWaypointID
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOStructuredAddress *_addressHint;
-    NSMutableArray *_formattedAddressLineHints;
-    GEOLatLng *_locationHint;
-    unsigned long long _muid;
-    NSString *_placeNameHint;
-    unsigned long long _resultProviderId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _addressGeocodeAccuracyHint;
-    int _placeTypeHint;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_resultProviderId:1;
-        unsigned int has_addressGeocodeAccuracyHint:1;
-        unsigned int has_placeTypeHint:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_addressHint:1;
-        unsigned int read_formattedAddressLineHints:1;
-        unsigned int read_locationHint:1;
-        unsigned int read_placeNameHint:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)cTravelTime:(id)arg1;
++ (_Bool)setOldRouteHistoricTravelTime:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -44,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (int);
+- (id)R2;
+- (int)#;
 - (id);
 - (id);
 - (_Bool);
@@ -55,24 +31,24 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)primitiveBirthday;
+- (id)canCurrentProcessUseRemotePersistenceMachPort;
+- (id)callFallbackAlternateName;
+- (int)calendarWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)t;
+- (void)the database (%{public}@); will adjust to the enclosing folder.;
+- (_Bool):%{public}@ /* Error: Ran out of types for this method. */;
+- (int);
 - (int);
 - (void);
 - (void);
+- (id);
 - (_Bool);
-- (int);
-- (int);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)setPhsRejectBeforeActivationCount:(id)arg1;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -80,15 +56,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (void);
 - (id)1Â0@ù
 × ;
-- (unsigned long long)tus: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setHasLoadStatus: /* Error: Ran out of types for this method. */;
 - (id)s: /* Error: Ran out of types for this method. */;
-- (id)tring;
-- (id)plines;
+- (id)labelTextString;
+- (id)use_splines;
 - (void);
 - (_Bool);
 - (void)(
@@ -159,22 +135,7 @@ deprecated (:false
 STRING /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int addressGeocodeAccuracyHint;
-@property(retain, nonatomic) GEOStructuredAddress *addressHint;
-@property(retain, nonatomic) NSMutableArray *formattedAddressLineHints;
-@property(nonatomic) _Bool hasAddressGeocodeAccuracyHint;
-@property(readonly, nonatomic) _Bool hasAddressHint;
-@property(readonly, nonatomic) _Bool hasLocationHint;
 @property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasPlaceNameHint;
-@property(nonatomic) _Bool hasPlaceTypeHint;
-@property(nonatomic) _Bool hasResultProviderId;
-@property(retain, nonatomic) GEOLatLng *locationHint;
-@property(nonatomic) unsigned long long muid;
-@property(retain, nonatomic) NSString *placeNameHint;
-@property(nonatomic) int placeTypeHint;
-@property(nonatomic) unsigned long long resultProviderId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

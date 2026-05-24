@@ -6,19 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface GATSchemaGATModelAgentCaptured : SISchemaInstrumentationMessage
 {
     int _requestedAgent;
-    int _settingsAgent;
-    struct {
-        unsigned int requestedAgent:1;
-        unsigned int settingsAgent:1;
-    } _has;
 }
 
-- (int);
+- (int)4;
 - (void);
 - (void);
 - (void);
@@ -30,20 +23,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_tonePickerSectionMenuItemWasSelected: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)UpType"b1"assetBringUpErrorCode"b1"countOfPSUSAssetsPromotedInCurrentOS"b1"timeInSecondsSinceSoftwareUpdate"b1"countOfAssetsInAssetSet"b1"totalSizeOfAssetsInAssetSet"b1"countOfFactoryAssetsInAssetSet"b1"totalSizeOfFactoryAssetsInAssetSet"b1"countOfOTAAssetsInAssetSet"b1"totalSizeOfOTAAssetsInAssetSet"b1"countOfPSUSAssetsInAssetSet"b1"totalSizeOfPSUSAssetsInAssetSet"b1};
-- (id)iggerSuppressionSessions;
+- (id)_selfTriggerSuppressionSessions;
 - (id)\²;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestedAgent;
-@property(nonatomic) _Bool hasSettingsAgent;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int requestedAgent; // @synthesize requestedAgent=_requestedAgent;
-@property(nonatomic) int settingsAgent; // @synthesize settingsAgent=_settingsAgent;
 
 @end
 

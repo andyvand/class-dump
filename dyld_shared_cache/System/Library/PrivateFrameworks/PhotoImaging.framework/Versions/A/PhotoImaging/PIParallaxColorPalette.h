@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet;
+@class NSArray;
 
 @interface PIParallaxColorPalette
 {
     NSArray *_primaryColors;
-    NSArray *_secondaryColors;
-    NSIndexSet *_suggestionIndices;
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)h;
 + (id);
 + (id);
 - (_Bool);
@@ -33,15 +31,13 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)ightDstRed: /* Error: Ran out of types for this method. */;
+- (void)setInputHilightDstRed: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *primaryColors; // @synthesize primaryColors=_primaryColors;
-@property(readonly, copy, nonatomic) NSArray *secondaryColors; // @synthesize secondaryColors=_secondaryColors;
-@property(readonly, copy, nonatomic) NSIndexSet *suggestionIndices; // @synthesize suggestionIndices=_suggestionIndices;
 
 @end
 

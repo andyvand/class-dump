@@ -4,80 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITargetedPreview, UIView, UIViewController, UIViewPropertyAnimator, _UIClickPresentation, _UIPortalView;
+@class _UIPortalView;
 @protocol UIViewControllerContextTransitioning;
 
 __attribute__((visibility("hidden")))
 @interface _UIClickPresentationAssistant
 {
     id <UIViewControllerContextTransitioning> _currentContext;
-    unsigned long long _currentState;
-    UIViewPropertyAnimator *_presentationAnimator;
-    _UIClickPresentation *presentation;
-    CDUnknownBlockType lifecycleCompletion;
-    CDUnknownBlockType keyboardAssertionInvalidationHandler;
-    _UIPortalView *_presentationSourcePortalView;
-    UITargetedPreview *_sourcePreview;
-    UIViewController *_stashedParentViewController;
-    UIView *_stashedSuperView;
-    CDUnknownBlockType _transitionCompletion;
 }
 
 - (CDUnknownBlockType);
 - (id);
+- (id)4;
+- (id)IntentProtocol>"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)4B32@36@44;
+- (void)unassignIdentifier:(id)arg1 fromChatRecordWithGUID:forDomain:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ntations:(id)arg1 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)setRegistrationProperties:(id)arg1;
+- (void)sendDataToPeers:(CDUnknownBlockType)arg1 guid:forcedCallerID:shouldFilterRecepients:requestProxySend:dontSendTo:sentToDevices: /* Error: Ran out of types for this method. */;
+- (void)retrieveLocalFileURLForFileTransferWithGUIDs:(CDUnknownBlockType)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)cleanUpAssetsOnDiskForRecord: /* Error: Ran out of types for this method. */;
+- (id)checkForIndexedAttachmentGUIDs:(id)arg1 completionBlock:(id)arg2;
+- (id)chatsWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)chatStatusChangeContextForUpdateType:(id)arg1 participant:(CDUnknownBlockType)arg2;
+- (CDUnknownBlockType)_messageStoreCompletion:inputMessage:outputMessage:originalMessage:completionBlock: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_iCloudAccountDidChange: /* Error: Ran out of types for this method. */;
+- (id)wasDataDetected;
+- (void);
+- (void)on initiated successfully for sender:%{private}s /* Error: Ran out of types for this method. */;
+- (id)r %s. No chat identified.;
+- (void)ock called with urgency:%d info:%@ isMainThread:%@ /* Error: Ran out of types for this method. */;
+- (void)ng"16@"NSError"24;
+- (void)rst sync check failed;
+- (void)CKUtilities currentStorageOnDevice];
+- (void)ror"12;
+- (void);
+- (void);
+- (void);
+- (void)0;
+- (void);
+- (void);
 - (id);
+- (double)ration_AppUserEnabledOptions";
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (id);
-- (void)ousCurlCompatibleWithCurlOfType:(id)arg1 inDirection: /* Error: Ran out of types for this method. */;
+- (void)_isPreviousCurlCompatibleWithCurlOfType:(id)arg1 inDirection: /* Error: Ran out of types for this method. */;
 - (id)oþoþÛ;
 - (void)±mÛ4d^;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType keyboardAssertionInvalidationHandler; // @synthesize keyboardAssertionInvalidationHandler;
-@property(copy, nonatomic) CDUnknownBlockType lifecycleCompletion; // @synthesize lifecycleCompletion;
-@property(retain, nonatomic) _UIClickPresentation *presentation; // @synthesize presentation;
-@property(readonly, nonatomic) UIViewPropertyAnimator *presentationAnimator; // @synthesize presentationAnimator=_presentationAnimator;
 @property(retain, nonatomic) _UIPortalView *presentationSourcePortalView; // @synthesize presentationSourcePortalView=_presentationSourcePortalView;
-@property(retain, nonatomic) UITargetedPreview *sourcePreview; // @synthesize sourcePreview=_sourcePreview;
-@property(retain, nonatomic) UIViewController *stashedParentViewController; // @synthesize stashedParentViewController=_stashedParentViewController;
-@property(retain, nonatomic) UIView *stashedSuperView; // @synthesize stashedSuperView=_stashedSuperView;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType transitionCompletion; // @synthesize transitionCompletion=_transitionCompletion;
 
 @end
 

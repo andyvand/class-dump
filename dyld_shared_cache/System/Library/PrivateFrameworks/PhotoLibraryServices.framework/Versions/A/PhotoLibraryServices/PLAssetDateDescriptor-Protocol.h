@@ -5,6 +5,8 @@
 //
 
 @protocol PLAssetDateDescriptor
+- (id)';
+- (id);
 - (id)0@ù
 × ;
 @end

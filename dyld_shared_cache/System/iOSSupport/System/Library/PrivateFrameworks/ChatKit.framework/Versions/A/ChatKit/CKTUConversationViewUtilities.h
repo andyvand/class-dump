@@ -9,10 +9,10 @@
 }
 
 + (id);
-+ (id);
++ (id)ICMFontPanelWillChangeFontNotification;
 + (void);
 + (struct CGSize);
-+ (id);
++ (id)ActivityStreamControlling;
 + (unsigned long long);
 + (id);
 + (id);
@@ -22,7 +22,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 
 @end
 

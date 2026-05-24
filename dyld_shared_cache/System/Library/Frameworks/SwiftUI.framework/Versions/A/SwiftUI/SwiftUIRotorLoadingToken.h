@@ -9,7 +9,7 @@
     id index;
 }
 
-+ (_Bool)tCandidateAtIndex: /* Error: Ran out of types for this method. */;
++ (_Bool)textField:textView:shouldSelectCandidateAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

@@ -6,24 +6,11 @@
 
 #import <WiFiPolicy/WFLoggerBase.h>
 
-@class NSDate, NSNumber, NSObject, NSString, NSURL, WiFiSoftError;
-@protocol OS_dispatch_source;
+@class NSNumber, NSString;
 
 @interface WFLoggerFileWithTTL : WFLoggerBase
 {
     NSNumber *_ttlInHours;
-    NSNumber *_rotationIntervalInHours;
-    NSString *_logFilePath;
-    NSObject<OS_dispatch_source> *_eventSource;
-    struct __sFILE *_filePtr;
-    NSDate *_fileCreationDate;
-    NSURL *_directoryURL;
-    NSString *_fileNamePrefix;
-    unsigned long long _maxFileSizeInBytes;
-    unsigned long long _cleanupAgeInSeconds;
-    unsigned long long _enabledLevel;
-    struct __CFDateFormatter *_timestampFormatter;
-    WiFiSoftError *_softError;
 }
 
 - (void);
@@ -46,21 +33,18 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)initWithCourse: /* Error: Ran out of types for this method. */;
 - (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)(%;
+- (void)work/Versions/C/Foundation;
 - (void);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, getter=getLogDirURL) NSURL *logDirPath;
-@property(readonly, getter=getLogFileNamePrefix) NSString *logFileNamePrefix;
 @property(readonly, getter=getLogFilePath) NSString *logFilePath;
-@property(readonly, nonatomic) WiFiSoftError *softError; // @synthesize softError=_softError;
 
 @end
 

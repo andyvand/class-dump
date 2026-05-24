@@ -7,11 +7,11 @@
 @class NSData, NSString, _SFPBURL;
 
 @protocol _SFPBQuickLookThumbnailImage
+- (NSString *);
+- (void);
+- (NSData *)ble",&,N,V_observers;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier;
 @property(retain, nonatomic) _SFPBURL *filePath;
-@property(copy, nonatomic) NSString *fileProviderIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

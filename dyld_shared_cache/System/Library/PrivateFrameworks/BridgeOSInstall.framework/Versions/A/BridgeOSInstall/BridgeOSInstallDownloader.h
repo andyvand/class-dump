@@ -4,35 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BOSDevice, BOSPredicateUpdateProductManager, MSUProduct, NSArray, NSNumber, NSString, NSURL, PKDistribution;
+@class BOSPredicateUpdateProductManager;
 
 @interface BridgeOSInstallDownloader
 {
     BOSPredicateUpdateProductManager *_productManager;
-    BOSDevice *_deviceForUnitTesting;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)AVPlayerViewController(AVPlayerViewController_WebKitOnly) exitFullScreenAnimated:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)wift_Concurrency.dylib;
 - (void);
 - (id);
 - (id);
@@ -40,15 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSURL *bridgeOSSoftwareUpdateEventRecordingServiceURL;
-@property(retain) BOSDevice *deviceForUnitTesting; // @synthesize deviceForUnitTesting=_deviceForUnitTesting;
-@property(readonly) PKDistribution *distribution;
-@property(readonly) MSUProduct *product;
-@property(readonly) NSString *productBridgeVersion;
-@property(readonly) NSNumber *productDownloadSize;
-@property(readonly) NSNumber *productExtractedSize;
 @property(retain) BOSPredicateUpdateProductManager *productManager; // @synthesize productManager=_productManager;
-@property(readonly) NSArray *remotePackageSpecifiers;
 
 @end
 

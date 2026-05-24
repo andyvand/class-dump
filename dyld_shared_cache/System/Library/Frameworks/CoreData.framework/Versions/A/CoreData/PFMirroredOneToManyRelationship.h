@@ -6,15 +6,12 @@
 
 #import <CoreData/PFMirroredRelationship.h>
 
-@class CKRecordID, NSRelationshipDescription;
+@class NSRelationshipDescription;
 
 __attribute__((visibility("hidden")))
 @interface PFMirroredOneToManyRelationship : PFMirroredRelationship
 {
     NSRelationshipDescription *_relationshipDescription;
-    NSRelationshipDescription *_inverseRelationshipDescription;
-    CKRecordID *_relatedRecordID;
-    CKRecordID *_recordID;
 }
 
 - (_Bool);

@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation;
-
 @interface CLUpdate
 {
     unsigned long long _diagnostics;
-    CLLocation *_location;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)t;
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)aderBox:ihdr marker has wrong size (%d)
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool)tions,%{public}lu,id,%{public}s;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool accuracyLimited;
 @property(readonly, nonatomic) _Bool authorizationDenied;
-@property(readonly, nonatomic) _Bool authorizationDeniedGlobally;
-@property(readonly, nonatomic) _Bool authorizationRequestInProgress;
-@property(readonly, nonatomic) _Bool authorizationRestricted;
-@property(readonly, nonatomic) _Bool insufficientlyInUse;
-@property(readonly) _Bool isStationary;
-@property(readonly, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) _Bool locationUnavailable;
-@property(readonly, nonatomic) _Bool serviceSessionRequired;
-@property(readonly) _Bool stationary;
 
 @end
 

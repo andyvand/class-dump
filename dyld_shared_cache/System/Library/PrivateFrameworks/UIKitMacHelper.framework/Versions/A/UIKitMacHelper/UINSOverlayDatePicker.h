@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSLocale, NSTimeZone, _NSDatePickerCalendarOverlay;
-@protocol UINSOverlayDatePickerDelegate;
+@class _NSDatePickerCalendarOverlay;
 
 __attribute__((visibility("hidden")))
 @interface UINSOverlayDatePicker
 {
     _Bool _isSettingDate;
-    NSDate *_dateValue;
-    NSDate *_minDate;
-    NSDate *_maxDate;
-    NSLocale *_locale;
-    NSTimeZone *_timeZone;
-    NSCalendar *_calendar;
-    id <UINSOverlayDatePickerDelegate> _delegate;
-    _NSDatePickerCalendarOverlay *_overlayView;
 }
 
 - (void);
@@ -26,21 +17,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)SDate",&,N,V_pauseChargingCheckDate;
+- (void)emporarilyDisabledDate;
+- (void)calContext>",&,N,V_context;
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)createSectionsFromServerResults: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -48,15 +39,7 @@ __attribute__((visibility("hidden")))
 - (id)ðæ;
 
 // Remaining properties
-@property(retain, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(copy, nonatomic) NSDate *dateValue; // @synthesize dateValue=_dateValue;
-@property(nonatomic) __weak id <UINSOverlayDatePickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isSettingDate; // @synthesize isSettingDate=_isSettingDate;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) NSDate *maxDate; // @synthesize maxDate=_maxDate;
-@property(copy, nonatomic) NSDate *minDate; // @synthesize minDate=_minDate;
 @property(retain, nonatomic) _NSDatePickerCalendarOverlay *overlayView; // @synthesize overlayView=_overlayView;
-@property(copy, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

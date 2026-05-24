@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface LTSchemaDisambiguationSpeechTranslationEvent : SISchemaInstrumentationMessage
 {
     NSString *_requestID;
-    NSString *_sourceLocale;
-    NSString *_senseID;
-    _Bool _hasRequestID;
-    _Bool _hasSourceLocale;
-    _Bool _hasSenseID;
 }
 
 - (void);
@@ -28,30 +23,24 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)A;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)L;
+- (void)$;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)ionParameterUpdated:(id)arg1;
-- (id)unched:(id)arg1;
+- (void)setActionParameterUpdated:(id)arg1;
+- (id)setAppLaunched:(id)arg1;
 - (id)",C,N,V_enrollmentId;
-- (_Bool)KICK;
+- (_Bool)SIRISETUPENROLLMENTUIMODE_SIDEKICK;
 - (void)å!;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestID; // @synthesize hasRequestID=_hasRequestID;
-@property(nonatomic) _Bool hasSenseID; // @synthesize hasSenseID=_hasSenseID;
-@property(nonatomic) _Bool hasSourceLocale; // @synthesize hasSourceLocale=_hasSourceLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(copy, nonatomic) NSString *senseID; // @synthesize senseID=_senseID;
-@property(copy, nonatomic) NSString *sourceLocale; // @synthesize sourceLocale=_sourceLocale;
 
 @end
 

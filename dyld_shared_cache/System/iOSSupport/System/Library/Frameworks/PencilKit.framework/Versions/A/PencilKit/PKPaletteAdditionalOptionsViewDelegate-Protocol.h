@@ -5,5 +5,6 @@
 //
 
 @protocol PKPaletteAdditionalOptionsViewDelegate
+- (void);
 @end
 

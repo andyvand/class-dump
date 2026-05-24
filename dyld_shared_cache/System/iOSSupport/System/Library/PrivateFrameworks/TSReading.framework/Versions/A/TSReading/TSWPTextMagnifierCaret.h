@@ -4,43 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSWPRep, TSWPTextMagnifierRenderer, TSWPTextMagnifierTimeWeightedPoint;
+@class TSWPRep;
 
 @interface TSWPTextMagnifierCaret
 {
     TSWPRep *_target;
-    struct CGPoint _magnificationPoint;
-    struct CGPoint _offset;
-    TSWPTextMagnifierTimeWeightedPoint *_weightedPoint;
-    double _yOffset;
-    TSWPTextMagnifierRenderer *_magnifierRenderer;
 }
 
 + (id);
-- (id);
+- (id)e;
 - (_Bool);
-- (id);
-- (id);
+- (id)song to setup smart transition;
+- (id)urrent item [;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)urlReferralData;
 - (void);
 - (void);
 - (_Bool);
 - (struct CGPoint);
+- (void)ay;
+- (void)tapping the dislike button in Following;
+- (void)FeedRecipeRatingCommandHandler;
+- (void)dio feed successfully performed targeted refresh, identifier=%{public}@, time=%fms;
+- (struct CGPoint)l configuration while emitting magazine feed paywall group.;
 - (void);
+- (struct CGPoint)AudioAutoNextTrackHandler;
 - (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (void);
-- (struct CGPoint);
-- (void);
-- (void);
+- (void);
 - (double);
 - (id);
-- (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
@@ -49,22 +44,6 @@
 - (void)ôC\3Û;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint animationPoint; // @synthesize animationPoint=_magnificationPoint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint magnificationPoint;
-@property(readonly, nonatomic) NSString *maskImageName;
-@property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) NSString *overlayImageName;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TSWPRep *target; // @synthesize target=_target;
-@property(readonly, nonatomic) struct CGPoint terminalPoint;
-@property(readonly, nonatomic) _Bool terminalPointPlacedCarefully;
-@property(readonly, nonatomic) NSString *underlayImageName;
 @property(nonatomic) double yOffset; // @synthesize yOffset=_yOffset;
 
 @end

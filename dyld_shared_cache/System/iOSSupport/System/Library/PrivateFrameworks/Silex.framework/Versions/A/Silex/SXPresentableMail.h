@@ -9,17 +9,15 @@
 @interface SXPresentableMail
 {
     NSString *_recipient;
-    NSString *_subject;
 }
 
 - (id);
 - (id);
 - (void);
-- (id)uts;
+- (id)_componentLayouts;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *recipient; // @synthesize recipient=_recipient;
-@property(readonly, nonatomic) NSString *subject; // @synthesize subject=_subject;
 
 @end
 

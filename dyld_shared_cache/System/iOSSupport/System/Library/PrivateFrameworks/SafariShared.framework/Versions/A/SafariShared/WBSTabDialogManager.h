@@ -9,8 +9,6 @@
 @interface WBSTabDialogManager
 {
     NSMutableDictionary *_webProcessIDToDialogSetMapping;
-    NSMutableDictionary *_tabIDToDialogQueueMapping;
-    unsigned long long _queueCapacity;
 }
 
 - (void);

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPreferencePane, NSString, NSWindow;
+@class NSPreferencePane;
 
 @interface NSPrefRemoteViewService
 {
     NSPreferencePane *_prefPane;
-    NSWindow *_window;
 }
 
 - (void);
@@ -18,24 +17,15 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (id)?;
+- (void)sendFeedback:selector: /* Error: Ran out of types for this method. */;
+- (void)buildDetailedRowCardSection;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak NSPreferencePane *prefPane; // @synthesize prefPane=_prefPane;
-@property(readonly) NSString *prefPanePath; // @dynamic prefPanePath;
-@property(readonly) Class superclass;
-@property __weak NSWindow *window; // @synthesize window=_window;
 
 @end
 

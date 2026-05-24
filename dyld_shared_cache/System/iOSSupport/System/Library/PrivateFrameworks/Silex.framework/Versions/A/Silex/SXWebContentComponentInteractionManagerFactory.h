@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SWInteractionProvider, SXComponentInteractionHandlerManager, SXWebContentComponentInteractionHandlerFactory;
+@protocol SWInteractionProvider;
 
 @interface SXWebContentComponentInteractionManagerFactory
 {
     id <SWInteractionProvider> _interactionProvider;
-    id <SXComponentInteractionHandlerManager> _interactionHandlerManager;
-    id <SXWebContentComponentInteractionHandlerFactory> _componentInteractionHandlerFactory;
 }
 
 - (id);
@@ -23,16 +20,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXWebContentComponentInteractionHandlerFactory> componentInteractionHandlerFactory; // @synthesize componentInteractionHandlerFactory=_componentInteractionHandlerFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SXComponentInteractionHandlerManager> interactionHandlerManager; // @synthesize interactionHandlerManager=_interactionHandlerManager;
 @property(readonly, nonatomic) id <SWInteractionProvider> interactionProvider; // @synthesize interactionProvider=_interactionProvider;
-@property(readonly) Class superclass;
 
 @end
 

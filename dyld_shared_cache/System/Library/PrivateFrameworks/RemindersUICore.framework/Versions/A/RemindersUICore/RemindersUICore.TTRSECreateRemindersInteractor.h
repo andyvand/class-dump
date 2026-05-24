@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRSECreateRemindersInteractor
 {
     id delegate;
-    id store;
-    id undoManager;
-    id undoObservationToken;
-    id internalActionContext;
 }
 
 @end

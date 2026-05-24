@@ -5,5 +5,6 @@
 //
 
 @protocol HMDUserNotificationCenterDelegate
+- (void);
 @end
 

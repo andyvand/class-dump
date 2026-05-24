@@ -9,9 +9,6 @@
 @interface InputDeviceController
 {
     NSWindow *mLowBatteryWindow;
-    NSString *mHelpAnchorName;
-    NSString *mLowBatteryHelpAnchorName;
-    _Bool mEnableLogs;
 }
 
 - (void);
@@ -26,16 +23,15 @@
 - (void);
 - (void);
 - (void);
+- (void));
 - (void);
 - (void);
+- (void)v;
+- (void)@8`;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) _Bool enableLogs; // @synthesize enableLogs=mEnableLogs;
 @property(readonly) NSString *nibFileName; // @dynamic nibFileName;
 
 @end

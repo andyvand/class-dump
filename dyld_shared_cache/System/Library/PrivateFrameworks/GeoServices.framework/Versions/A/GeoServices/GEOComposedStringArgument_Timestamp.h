@@ -6,16 +6,9 @@
 
 #import <GeoServices/GEOComposedStringArgument.h>
 
-@class NSString, NSTimeZone;
-
 @interface GEOComposedStringArgument_Timestamp : GEOComposedStringArgument
 {
     double _defaultValue;
-    NSString *_defaultFormatPattern;
-    NSTimeZone *_defaultTimeZone;
-    double _overrideValue;
-    NSString *_overrideFormatPattern;
-    NSTimeZone *_overrideTimeZone;
 }
 
 + (_Bool)le to unarchive resource "%@" to "%@" - %@;
@@ -28,17 +21,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)tionsEvent:(struct _NSZone *)arg1;
+- (id)setDirectionsEvent:(struct _NSZone *)arg1;
 - (void)ø;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *overrideFormatPattern; // @synthesize overrideFormatPattern=_overrideFormatPattern;
-@property(copy, nonatomic) NSTimeZone *overrideTimeZone; // @synthesize overrideTimeZone=_overrideTimeZone;
 @property(nonatomic) double overrideValue; // @synthesize overrideValue=_overrideValue;
 
 @end

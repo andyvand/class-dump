@@ -5,5 +5,8 @@
 //
 
 @protocol SOInputLineDelegate
+
+@optional
+- (_Bool);
 @end
 

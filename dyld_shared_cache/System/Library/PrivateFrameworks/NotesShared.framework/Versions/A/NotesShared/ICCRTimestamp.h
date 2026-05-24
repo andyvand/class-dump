@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface ICCRTimestamp
 {
     NSUUID *_replica;
-    long long _counter;
 }
 
-- (id);
+- (id)dictionaryWithContentsOfFile:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -31,8 +30,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)e;
+- (void)A;
 - (long long);
 - (void);
 - (long long);
@@ -41,15 +40,7 @@
 - (void)e â failing {object:(id)arg1 %@};
 
 // Remaining properties
-@property(nonatomic) long long counter; // @synthesize counter=_counter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSUUID *replica; // @synthesize replica=_replica;
-@property(readonly) Class superclass;
 
 @end
 

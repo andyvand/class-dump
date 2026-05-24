@@ -6,50 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class MTSchemaMTASRStateUpdated, MTSchemaMTAppBackgroundedTier1, MTSchemaMTAppNextButtonTappedTier1, MTSchemaMTAppTextBoxDismissedTier1, MTSchemaMTAppTimedOutTier1, MTSchemaMTBatchRequestContext, MTSchemaMTClientEventMetadata, MTSchemaMTFrameworkRequestResponseReceived, MTSchemaMTFrameworkRequestSent, MTSchemaMTInvocationContext, MTSchemaMTInvocationStartedTier1, MTSchemaMTLanguageDisambiguationUISelected, MTSchemaMTLanguageDisambiguationUIShown, MTSchemaMTLanguageIdentificationCompleted, MTSchemaMTLocalePairResolved, MTSchemaMTTranslationTTSPlayed, NSData, SISchemaInstrumentationMessage;
+@class MTSchemaMTClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface MTSchemaMTClientEventV2 : SISchemaTopLevelUnionType
 {
     MTSchemaMTClientEventMetadata *_eventMetadata;
-    MTSchemaMTBatchRequestContext *_batchRequestContext;
-    MTSchemaMTInvocationContext *_invocationContext;
-    MTSchemaMTASRStateUpdated *_asrStateUpdated;
-    MTSchemaMTLocalePairResolved *_localePairResolved;
-    MTSchemaMTInvocationStartedTier1 *_invocationStartedTier1;
-    MTSchemaMTAppNextButtonTappedTier1 *_appNextButtonTapped;
-    MTSchemaMTAppTextBoxDismissedTier1 *_appTextBoxDismissed;
-    MTSchemaMTAppTimedOutTier1 *_appTimedOut;
-    MTSchemaMTFrameworkRequestSent *_frameworkRequestSent;
-    MTSchemaMTFrameworkRequestResponseReceived *_frameworkRequestResponseReceived;
-    MTSchemaMTAppBackgroundedTier1 *_appBackgrounded;
-    MTSchemaMTLanguageIdentificationCompleted *_languageIdentificationCompleted;
-    MTSchemaMTLanguageDisambiguationUIShown *_languageDisambiguationUIShown;
-    MTSchemaMTLanguageDisambiguationUISelected *_languageDisambiguationUISelected;
-    MTSchemaMTTranslationTTSPlayed *_translationTTSPlayed;
-    _Bool _hasEventMetadata;
-    _Bool _hasBatchRequestContext;
-    _Bool _hasInvocationContext;
-    _Bool _hasAsrStateUpdated;
-    _Bool _hasLocalePairResolved;
-    _Bool _hasInvocationStartedTier1;
-    _Bool _hasAppNextButtonTapped;
-    _Bool _hasAppTextBoxDismissed;
-    _Bool _hasAppTimedOut;
-    _Bool _hasFrameworkRequestSent;
-    _Bool _hasFrameworkRequestResponseReceived;
-    _Bool _hasAppBackgrounded;
-    _Bool _hasLanguageIdentificationCompleted;
-    _Bool _hasLanguageDisambiguationUIShown;
-    _Bool _hasLanguageDisambiguationUISelected;
-    _Bool _hasTranslationTTSPlayed;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
-+ (id);
++ (id);
 - (unsigned long long);
 - (id);
 - (void);
+- (void);
+- (void)$;
+- (void);
+- (void);
+- (void))	;
 - (void);
 - (void);
 - (void);
@@ -63,21 +36,16 @@
 - (void);
 - (void);
 - (void);
+- (void)Ң;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)0;
 - (void);
 - (id);
 - (id);
@@ -86,7 +54,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -123,65 +91,31 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(p;
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)_callHandler;
 - (void);
 - (id);
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)yDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/evp/p_lib.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)gnalToNoiseRatioInDecibels: /* Error: Ran out of types for this method. */;
+- (id)setHasSignalToNoiseRatioInDecibels: /* Error: Ran out of types for this method. */;
 - (unsigned long long)componentIndex;
 - (id);
 - (id)y",C,N,V_qualifiers;
-- (void)rCode;
+- (void)NLXSchemaMILAssetAcquisitionErrorCode;
 
 // Remaining properties
-@property(retain, nonatomic) MTSchemaMTAppBackgroundedTier1 *appBackgrounded; // @synthesize appBackgrounded=_appBackgrounded;
-@property(retain, nonatomic) MTSchemaMTAppNextButtonTappedTier1 *appNextButtonTapped; // @synthesize appNextButtonTapped=_appNextButtonTapped;
-@property(retain, nonatomic) MTSchemaMTAppTextBoxDismissedTier1 *appTextBoxDismissed; // @synthesize appTextBoxDismissed=_appTextBoxDismissed;
-@property(retain, nonatomic) MTSchemaMTAppTimedOutTier1 *appTimedOut; // @synthesize appTimedOut=_appTimedOut;
-@property(retain, nonatomic) MTSchemaMTASRStateUpdated *asrStateUpdated; // @synthesize asrStateUpdated=_asrStateUpdated;
-@property(retain, nonatomic) MTSchemaMTBatchRequestContext *batchRequestContext; // @synthesize batchRequestContext=_batchRequestContext;
-@property(retain, nonatomic) MTSchemaMTClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) MTSchemaMTFrameworkRequestResponseReceived *frameworkRequestResponseReceived; // @synthesize frameworkRequestResponseReceived=_frameworkRequestResponseReceived;
-@property(retain, nonatomic) MTSchemaMTFrameworkRequestSent *frameworkRequestSent; // @synthesize frameworkRequestSent=_frameworkRequestSent;
-@property(nonatomic) _Bool hasAppBackgrounded; // @synthesize hasAppBackgrounded=_hasAppBackgrounded;
-@property(nonatomic) _Bool hasAppNextButtonTapped; // @synthesize hasAppNextButtonTapped=_hasAppNextButtonTapped;
-@property(nonatomic) _Bool hasAppTextBoxDismissed; // @synthesize hasAppTextBoxDismissed=_hasAppTextBoxDismissed;
-@property(nonatomic) _Bool hasAppTimedOut; // @synthesize hasAppTimedOut=_hasAppTimedOut;
-@property(nonatomic) _Bool hasAsrStateUpdated; // @synthesize hasAsrStateUpdated=_hasAsrStateUpdated;
-@property(nonatomic) _Bool hasBatchRequestContext; // @synthesize hasBatchRequestContext=_hasBatchRequestContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasFrameworkRequestResponseReceived; // @synthesize hasFrameworkRequestResponseReceived=_hasFrameworkRequestResponseReceived;
-@property(nonatomic) _Bool hasFrameworkRequestSent; // @synthesize hasFrameworkRequestSent=_hasFrameworkRequestSent;
-@property(nonatomic) _Bool hasInvocationContext; // @synthesize hasInvocationContext=_hasInvocationContext;
-@property(nonatomic) _Bool hasInvocationStartedTier1; // @synthesize hasInvocationStartedTier1=_hasInvocationStartedTier1;
-@property(nonatomic) _Bool hasLanguageDisambiguationUISelected; // @synthesize hasLanguageDisambiguationUISelected=_hasLanguageDisambiguationUISelected;
-@property(nonatomic) _Bool hasLanguageDisambiguationUIShown; // @synthesize hasLanguageDisambiguationUIShown=_hasLanguageDisambiguationUIShown;
-@property(nonatomic) _Bool hasLanguageIdentificationCompleted; // @synthesize hasLanguageIdentificationCompleted=_hasLanguageIdentificationCompleted;
-@property(nonatomic) _Bool hasLocalePairResolved; // @synthesize hasLocalePairResolved=_hasLocalePairResolved;
-@property(nonatomic) _Bool hasTranslationTTSPlayed; // @synthesize hasTranslationTTSPlayed=_hasTranslationTTSPlayed;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(retain, nonatomic) MTSchemaMTInvocationContext *invocationContext; // @synthesize invocationContext=_invocationContext;
-@property(retain, nonatomic) MTSchemaMTInvocationStartedTier1 *invocationStartedTier1; // @synthesize invocationStartedTier1=_invocationStartedTier1;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MTSchemaMTLanguageDisambiguationUISelected *languageDisambiguationUISelected; // @synthesize languageDisambiguationUISelected=_languageDisambiguationUISelected;
-@property(retain, nonatomic) MTSchemaMTLanguageDisambiguationUIShown *languageDisambiguationUIShown; // @synthesize languageDisambiguationUIShown=_languageDisambiguationUIShown;
-@property(retain, nonatomic) MTSchemaMTLanguageIdentificationCompleted *languageIdentificationCompleted; // @synthesize languageIdentificationCompleted=_languageIdentificationCompleted;
-@property(retain, nonatomic) MTSchemaMTLocalePairResolved *localePairResolved; // @synthesize localePairResolved=_localePairResolved;
-@property(retain, nonatomic) MTSchemaMTTranslationTTSPlayed *translationTTSPlayed; // @synthesize translationTTSPlayed=_translationTTSPlayed;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

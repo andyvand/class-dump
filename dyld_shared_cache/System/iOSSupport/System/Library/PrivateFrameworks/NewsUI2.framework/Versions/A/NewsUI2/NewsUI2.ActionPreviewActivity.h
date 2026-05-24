@@ -7,10 +7,10 @@
 @interface NewsUI2.ActionPreviewActivity
 {
     id router;
-    id handler;
 }
 
-- (void);
+- (void)ew read offset %u, prev seq %u, expected seq %u entry %u, ring state readoff %u, write offset %u
+;
 - (id);
 - (id);
 - (void);

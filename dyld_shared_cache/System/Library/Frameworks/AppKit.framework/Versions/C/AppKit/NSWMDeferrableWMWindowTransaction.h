@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFenceHandle, WMWindowTransaction;
-@protocol WMWindowTransactionSnapshot;
-
 __attribute__((visibility("hidden")))
 @interface NSWMDeferrableWMWindowTransaction
 {
     id _lock;
 }
 
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (unsigned int);
-- (_Bool);
-- (id);
+- (void)uldSetCookies;
+- (id)bject<OS_nw_resolution_report>"8;
+- (CDUnknownBlockType)CFHTTPCookieStorageRemoveObserver;
+- (unsigned int)rageURLCacheDB _setDBSchema:DB=%@ table index on receiver_data - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (_Bool)%p>;
+- (id);
 - (id);
 - (_Bool)/2152933>. You get one warning.;
 - (void)E;
@@ -27,9 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool completed;
-@property(nonatomic, retain) CAFenceHandle *fence;
-@property(nonatomic, retain) id <WMWindowTransactionSnapshot> snapshot;
-@property(nonatomic, readonly) WMWindowTransaction *transaction;
 
 @end
 

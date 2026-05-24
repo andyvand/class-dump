@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface _MPCProtoMigrationDataPayload
 {
     NSData *_data;
-    int _revision;
-    NSString *_type;
-    struct {
-        unsigned int revision:1;
-    } _has;
 }
 
 - (id);
@@ -23,14 +18,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void)e dataSource finished loading] dataSource=%p section=%{public}@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) _Bool hasData;
 
 @end

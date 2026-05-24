@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, SXMosaicGalleryCluster, SXMosaicGalleryColumnLayout;
+@class NSArray;
 
 @interface SXMosaicGalleryGroupLayout
 {
     double _height;
-    NSMutableArray *_columnRanges;
-    NSArray *_frames;
-    unsigned long long _numberOfColumns;
-    SXMosaicGalleryCluster *_cluster;
-    SXMosaicGalleryColumnLayout *_columnLayout;
 }
 
 - (id);
@@ -33,12 +28,7 @@
 - (unsigned long long)Pã;
 
 // Remaining properties
-@property(readonly, nonatomic) SXMosaicGalleryCluster *cluster; // @synthesize cluster=_cluster;
-@property(readonly, nonatomic) SXMosaicGalleryColumnLayout *columnLayout; // @synthesize columnLayout=_columnLayout;
-@property(readonly, nonatomic) NSMutableArray *columnRanges; // @synthesize columnRanges=_columnRanges;
 @property(readonly, nonatomic) NSArray *frames; // @synthesize frames=_frames;
-@property(readonly, nonatomic) double height; // @synthesize height=_height;
-@property(readonly, nonatomic) unsigned long long numberOfColumns; // @synthesize numberOfColumns=_numberOfColumns;
 
 @end
 

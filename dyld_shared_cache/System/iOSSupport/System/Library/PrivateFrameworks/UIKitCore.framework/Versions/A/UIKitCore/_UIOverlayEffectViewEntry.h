@@ -6,15 +6,12 @@
 
 #import <UIKitCore/_UIVisualEffectViewEntry.h>
 
-@class NSString, UIColor, UIImage;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIOverlayEffectViewEntry : _UIVisualEffectViewEntry
 {
     NSString *_filterType;
-    UIColor *_color;
-    UIImage *_image;
-    double _alpha;
 }
 
 + (id);
@@ -28,19 +25,16 @@ __attribute__((visibility("hidden")))
 - (id)0@ù
 × ;
 - (void)d"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
-- (void)pty:(id)arg1;
-- (void)arginForDoneButton;
+- (void)_showsClearButtonWhenNonEmpty:(id)arg1;
+- (void)_rightMarginForDoneButton;
 - (id)t;
 - (_Bool)`Õ;
-- (void)Appearance;
+- (void)UITraitActiveAppearance;
 - (double)rete subclasses.;
-- (void)iding;
+- (void)ObjCMaterialProviding;
 
 // Remaining properties
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(copy, nonatomic) UIColor *color; // @synthesize color=_color;
 @property(copy, nonatomic) NSString *filterType; // @synthesize filterType=_filterType;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 
 @end
 

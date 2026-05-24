@@ -7,7 +7,6 @@
 @interface NewsUI2.NewsletterManagementTrackingObserver
 {
     id newsletterManager;
-    id tracker;
 }
 
 @end

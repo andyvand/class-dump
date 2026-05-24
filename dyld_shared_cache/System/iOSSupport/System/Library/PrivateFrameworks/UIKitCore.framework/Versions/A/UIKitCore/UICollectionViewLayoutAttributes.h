@@ -4,55 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, UIBezierPath, _UICollectionLayoutListAttributes;
+@class NSString;
 
 @interface UICollectionViewLayoutAttributes
 {
     NSString *_elementKind;
-    NSIndexPath *_indexPath;
-    NSString *_reuseIdentifier;
-    struct CGPoint _center;
-    struct CGSize _size;
-    struct CGRect _frame;
-    double _alpha;
-    long long _zPosition;
-    struct CATransform3D _transform;
-    struct CGRect _maskViewFrame;
-    id _preferredSizingData;
-    _UICollectionLayoutListAttributes *_listAttributes;
-    struct {
-        unsigned int isCellKind:1;
-        unsigned int isDecorationView:1;
-        unsigned int isHidden:1;
-        unsigned int isClone:1;
-        unsigned int masksToBounds:1;
-        unsigned int maskedCorners:4;
-        unsigned int hasDefaultLayoutMargins:1;
-        unsigned int removeMaskViewAfterAnimation:1;
-        unsigned int pinningAlignment:4;
-        unsigned int pinnedToVisibleBounds:1;
-        unsigned int hasCustomAttributes:1;
-    } _layoutFlags;
-    _Bool _hasMaskViewFrame;
-    long long _zIndex;
-    unsigned long long _selectionGrouping;
-    double _cornerRadius;
-    struct UIEdgeInsets _defaultLayoutMargins;
 }
 
 + (id);
 + (id)entLightened;
 + (id)NotificationAlertView"8;
-- (void);
-- (_Bool);
+- (void)ssingPipelineComponent> No chat found, going to create one later;
+- (_Bool)@, groupID:(id)arg1 %@, groupName:%@, originalMessageTime:%@} /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,12 +33,12 @@
 - (id);
 - (long long);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)?ה	;
 - (double);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (struct UIEdgeInsets);
 - (id);
@@ -84,11 +55,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)vice.restrictions.list;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)e.mediaplayer.MPCloudController.serial.queue;
 - (struct CGAffineTransform);
 - (id);
 - (unsigned long long);
@@ -99,15 +70,15 @@
 - (struct CGPoint);
 - (void)sForAddingToSession"b1"sessionPropertiesForSession"b1"operationForAcceptingIntoAction"b1"acceptItemsIntoAction"b1"willBeginDisplayingTab"b1"didEndDisplayingTab"b1"operationForInsertingIntoGroup"b1"insertIntoGroup"b1};
 - (void)ayPreferences"b1"prefersOverlayInRegularWidthPhone"b1};
-- (struct CGRect)ckingAnnotationRemovalRange;
-- (double): /* Error: Ran out of types for this method. */;
-- (struct CATransform3D)onAnimation;
-- (_Bool)ct:(id)arg1 afterScreenUpdates: /* Error: Ran out of types for this method. */;
-- (struct CGRect)r;
-- (_Bool)erformPresentViewControllerFromViewController: /* Error: Ran out of types for this method. */;
+- (struct CGRect)textCheckingAnnotationRemovalRange;
+- (double)setUnmaskedOverlayView: /* Error: Ran out of types for this method. */;
+- (struct CATransform3D)inlineSearchFieldAccessoryIsOffscreenForPresentationAnimation;
+- (_Bool)drawViewHierarchyInRect:(id)arg1 afterScreenUpdates: /* Error: Ran out of types for this method. */;
+- (struct CGRect)cancelShowSwitcherTimer;
+- (_Bool)_performPresentViewControllerFromViewController: /* Error: Ran out of types for this method. */;
 - (void)pshotEndFrame;
 - (void)MutableArray",&,N,S_setAlongsideCompletions:(_Bool)arg1 ,V__alongsideCompletions;
-- (long long)ler;
+- (long long)_UINavigationBarGestureHandler;
 - (id)`ü;
 - (unsigned long long)Ú
 8ÛxÛ;
@@ -121,53 +92,7 @@
 - (void)j3;
 
 // Remaining properties
-@property(readonly, nonatomic) _UICollectionLayoutListAttributes *_existingListAttributes;
-@property(readonly, nonatomic) _UICollectionLayoutListAttributes *_listAttributesCreatingIfNecessary;
-@property(retain, nonatomic, setter=_setPreferredSizingData:) id _preferredSizingData;
-@property(readonly, nonatomic) unsigned long long _representedElementCategory;
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) struct CGRect bounds;
-@property(nonatomic) struct CGPoint center; // @synthesize center=_center;
-@property(readonly, nonatomic) UIBezierPath *collisionBoundingPath;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIBezierPath",?,R,N
-
-@property(readonly, nonatomic) unsigned long long collisionBoundsType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(nonatomic, getter=_cornerRadius, setter=_setCornerRadius:) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic, getter=_defaultLayoutMargins, setter=_setDefaultLayoutMargins:) struct UIEdgeInsets defaultLayoutMargins; // @synthesize defaultLayoutMargins=_defaultLayoutMargins;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic, getter=_elementKind, setter=_setElementKind:) NSString *elementKind;
-@property(nonatomic) struct CGRect frame;
-@property(readonly, nonatomic, getter=_hasDefaultLayoutMargins) _Bool hasDefaultLayoutMargins;
-@property(nonatomic, getter=_hasMaskViewFrame) _Bool hasMaskViewFrame; // @synthesize hasMaskViewFrame=_hasMaskViewFrame;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isHidden) _Bool hidden;
-@property(retain, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic, getter=_isCell) _Bool isCell;
-@property(readonly, nonatomic, getter=_isDecorationView) _Bool isDecorationView;
-@property(readonly, nonatomic, getter=_isSupplementaryView) _Bool isSupplementaryView;
-@property(readonly, nonatomic, getter=_maskViewFrame) struct CGRect maskViewFrame;
-@property(nonatomic, getter=_maskedCorners, setter=_setMaskedCorners:) unsigned long long maskedCorners;
-@property(nonatomic, getter=_masksToBounds, setter=_setMasksToBounds:) _Bool masksToBounds;
-@property(nonatomic, getter=_isPinnedToVisibleBounds, setter=_setPinnedToVisibleBounds:) _Bool pinnedToVisibleBounds;
-@property(nonatomic, getter=_pinningAlignment, setter=_setPinningAlignment:) long long pinningAlignment;
-@property(readonly, nonatomic, getter=_removeMaskViewAfterAnimation) _Bool removeMaskViewAfterAnimation;
-@property(readonly, nonatomic) unsigned long long representedElementCategory;
-@property(readonly, nonatomic) NSString *representedElementKind;
 @property(copy, nonatomic, getter=_reuseIdentifier, setter=_setReuseIdentifier:) NSString *reuseIdentifier;
-@property(nonatomic, getter=_selectionGrouping, setter=_setSelectionGrouping:) unsigned long long selectionGrouping; // @synthesize selectionGrouping=_selectionGrouping;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGAffineTransform transform;
-@property(nonatomic) struct CATransform3D transform3D; // @synthesize transform3D=_transform;
-@property(nonatomic) long long zIndex; // @synthesize zIndex=_zIndex;
 
 @end
 

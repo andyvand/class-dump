@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKController, AKSignatureCreationViewController_iOS, AKSignaturesPresentationContext, AKSignaturesViewController_iOS, NSString;
-@protocol AKSignaturesControllerDelegate;
+@class AKController, AKSignaturesViewController_iOS;
 
 @interface AKSignaturesController
 {
     AKController *_controller;
-    id <AKSignaturesControllerDelegate> _delegate;
-    AKSignaturesPresentationContext *_presentationContext;
-    AKSignaturesViewController_iOS *_signaturesAlertViewController;
-    AKSignaturesViewController_iOS *_signaturesSheetViewController;
-    AKSignatureCreationViewController_iOS *_signaturesCreationViewController;
 }
 
 - (void);
@@ -34,27 +28,53 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void));
+    }
+#endif
+    
+    
+#ifdef USE_OUTLINE
+    _output.color.rgb = in.outlineHash;
+#endif
+    
+
+#ifdef USE_MOTIONBLUR
+#ifdef USE_MULTIPLE_RENDERING
+    _output.motionblur.xy = half2((in.mv_fragment.xy - scn_frame.viewportSize.zw) / in.mv_fragment.z - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * scn_frame.motionBlurIntensity;
+#else
+    _output.motionblur.xy = half2((in.mv_fragment.xy / in.mv_fragment.z) - (in.mv_lastFragment.xy / in.mv_lastFragment.z))*half2(1.,-1.) * scn_frame.motionBlurIntensity;
+#endif
+    _output.motionblur.z = length(_output.motionblur.xy);
+    _output.motionblur.w = half(-_surface.position.z);
+#endif
+
+#ifdef USE_NORMALS_OUTPUT
+    _output.normals = half4( half3(_surface.normal.xyz), half(_surface.roughness) );
+#endif
+    
+#ifdef USE_RADIANCE_OUTPUT
+    _output.radiance.rgb = half3(_lightingContribution.specular.rgb);
+#endif
+                                 
+#ifdef USE_REFLECTANCE_ROUGHNESS_OUTPUT
+#ifdef USE_PBR
+    _output.reflectanceRoughnessOutput = half4( half3(_lightingContribution.pbr.probeReflectance), half(_surface.roughness) );
+#else 
+    _output.reflectanceRoughnessOutput = half4( 0.h );
+#endif
+#endif
+    
+    return _output;
+}
+;
 - (id);
 - (void);
-- (id);
+- (id)safari_valueForWBSABProperty: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak AKController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKSignaturesControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AKSignaturesPresentationContext *presentationContext; // @synthesize presentationContext=_presentationContext;
 @property(retain, nonatomic) AKSignaturesViewController_iOS *signaturesAlertViewController; // @synthesize signaturesAlertViewController=_signaturesAlertViewController;
-@property(retain, nonatomic) AKSignatureCreationViewController_iOS *signaturesCreationViewController; // @synthesize signaturesCreationViewController=_signaturesCreationViewController;
-@property(retain, nonatomic) AKSignaturesViewController_iOS *signaturesSheetViewController; // @synthesize signaturesSheetViewController=_signaturesSheetViewController;
-@property(readonly) Class superclass;
 
 @end
 

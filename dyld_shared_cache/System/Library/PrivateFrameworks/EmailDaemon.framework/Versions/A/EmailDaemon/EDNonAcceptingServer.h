@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface EDNonAcceptingServer
 {
@@ -15,20 +15,13 @@
 × ;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)s;
 - (void)!hAù1´Ð1Â0@ù
 × ;
 - (void)le_attachments table;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableArray *listeners; // @synthesize listeners=_listeners;
-@property(readonly) Class superclass;
 
 @end
 

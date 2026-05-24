@@ -7,23 +7,17 @@
 @interface OSLaunchdJobExitStatus
 {
     unsigned int _os_reason_namespace;
-    int _wait4Status;
-    unsigned long long _os_reason_flags;
-    unsigned long long _os_reason_code;
 }
 
 - (unsigned long long);
-- (id);
-- (id);
+- (id)SinglePassMaxGeometricDistortionCorrectionStrength;
+- (id);
 - (unsigned int);
 - (int);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long os_reason_code; // @synthesize os_reason_code=_os_reason_code;
 @property(readonly, nonatomic) unsigned long long os_reason_flags; // @synthesize os_reason_flags=_os_reason_flags;
-@property(readonly, nonatomic) unsigned int os_reason_namespace; // @synthesize os_reason_namespace=_os_reason_namespace;
-@property(readonly, nonatomic) int wait4Status; // @synthesize wait4Status=_wait4Status;
 
 @end
 

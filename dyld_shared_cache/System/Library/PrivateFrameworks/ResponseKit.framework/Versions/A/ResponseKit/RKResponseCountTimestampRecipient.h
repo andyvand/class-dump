@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface RKResponseCountTimestampRecipient
 {
     _Bool _hasSameRecipient;
-    int _count;
-    NSDate *_timestamp;
 }
 
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (int);
-- (void);
+- (int)isSuggestedEventCalendar;
+- (void)fO;
 
 // Remaining properties
 @property int count; // @synthesize count=_count;
-@property _Bool hasSameRecipient; // @synthesize hasSameRecipient=_hasSameRecipient;
-@property(retain) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -7,15 +7,11 @@
 @interface NewsSubscription.PaywallFormatContentService
 {
     id formatService;
-    id configurationManager;
-    id resourceService;
-    id formatContentCache;
-    id paywallConfig;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)'_wrap'=substring(@id,string-length(@id)-4)];
 - (void);
 - (void);
 

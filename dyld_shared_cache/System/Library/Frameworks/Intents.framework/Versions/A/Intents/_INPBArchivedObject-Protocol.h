@@ -7,12 +7,11 @@
 @class NSData, NSString;
 
 @protocol _INPBArchivedObject
+- (_Bool);
+- (_Bool);
 - (NSString *)at %{public}@, error:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMessageData;
-@property(readonly, nonatomic) _Bool hasTypeName;
 @property(copy, nonatomic) NSData *messageData;
-@property(copy, nonatomic) NSString *typeName;
 @end
 

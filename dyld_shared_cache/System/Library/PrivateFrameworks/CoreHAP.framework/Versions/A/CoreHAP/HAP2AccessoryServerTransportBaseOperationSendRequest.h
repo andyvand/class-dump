@@ -6,19 +6,17 @@
 
 #import <CoreHAP/HAP2AccessoryServerTransportBaseOperation.h>
 
-@class HAP2AccessoryServerTransportRequest, NSData;
+@class HAP2AccessoryServerTransportRequest;
 
 __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerTransportBaseOperationSendRequest : HAP2AccessoryServerTransportBaseOperation
 {
     HAP2AccessoryServerTransportRequest *_request;
-    NSData *_response;
-    CDUnknownBlockType _clientCompletion;
 }
 
 - (id);
 - (void);
-- (void)stObject:serializationType:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)sendDELETERequestToURL:withRequestObject:serializationType:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

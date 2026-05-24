@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSString, SAUISnippet;
+@class SAUISnippet;
 
 @interface SAIntentGroupSnippetTemplate : SADomainObject
 {
@@ -16,7 +16,7 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -25,8 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SAUISnippet *detailSnippet;
-@property(copy, nonatomic) NSArray *intentSlotKeyPaths;
-@property(copy, nonatomic) NSString *key;
 
 @end
 

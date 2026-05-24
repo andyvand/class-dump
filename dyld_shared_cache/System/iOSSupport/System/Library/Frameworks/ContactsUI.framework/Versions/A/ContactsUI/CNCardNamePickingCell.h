@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface CNCardNamePickingCell : CNLabeledCell
 {
     UILabel *_sourceLabel;
-    UILabel *_nameLabel;
 }
 
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)-words;
 - (id);
 - (id);
 - (void)"<CNSharingProfileOnboardingVariantViewControllerDelegate>",W,N,V_onboardingDelegate;
 
 // Remaining properties
-@property(readonly, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
 @property(readonly, nonatomic) UILabel *sourceLabel; // @synthesize sourceLabel=_sourceLabel;
 
 @end

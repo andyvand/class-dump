@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, MNLocation, NSUUID;
+@class GEOComposedRoute;
 
 @interface MNMapMatchingResult
 {
     GEOComposedRoute *route;
-    void routeID;
-    MNLocation *location;
-    id matchType;
 }
 
+- (id)=;
 - (id);
+- (id)SUMacControllerErrorDownloadSFRFailed;
 - (id);
-- (id);
-- (id);
-- (void)e:alternateRouteInfo: /* Error: Ran out of types for this method. */;
+- (void)validTrafficIncidentAlertsForNewRoute:alternateRouteInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) MNLocation *location; // @synthesize location;
 @property(nonatomic, readonly) GEOComposedRoute *route; // @synthesize route;
-@property(nonatomic, readonly) NSUUID *routeID;
 
 @end
 

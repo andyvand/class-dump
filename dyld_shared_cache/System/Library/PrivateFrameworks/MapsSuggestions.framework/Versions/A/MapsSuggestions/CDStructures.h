@@ -12,6 +12,11 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
+struct CGSize {
+    double _field1;
+    double _field2;
+};
+
 struct CLLocationCoordinate2D {
     double _field1;
     double _field2;
@@ -47,20 +52,6 @@ struct Timer {
     struct {
         NSDate *firesAt;
     } _state;
-};
-
-struct _RollingWindowBudgetRule;
-
-struct atomic<bool> {
-    struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
-        _Atomic _Bool __a_value;
-    } __a_;
-};
-
-struct atomic<unsigned int> {
-    struct __cxx_atomic_impl<unsigned int, std::__cxx_atomic_base_impl<unsigned int>> {
-        _Atomic unsigned int __a_value;
-    } __a_;
 };
 
 struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
@@ -125,14 +116,6 @@ struct unordered_map<MapsSuggestionsSignalType, MSg::Signal, std::hash<MapsSugge
             float __max_load_factor_;
         } ;
     } __table_;
-};
-
-struct vector<MSg::_RollingWindowBudgetRule, std::allocator<MSg::_RollingWindowBudgetRule>> {
-    struct _RollingWindowBudgetRule *__begin_;
-    struct _RollingWindowBudgetRule *__end_;
-    struct {
-        struct _RollingWindowBudgetRule *__cap_;
-    } ;
 };
 
 struct vector<MapsSuggestionsEntryType, std::allocator<MapsSuggestionsEntryType>> {

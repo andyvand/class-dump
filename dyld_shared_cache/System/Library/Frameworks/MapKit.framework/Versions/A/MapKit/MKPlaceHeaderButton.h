@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, _MKPlaceActionButtonController;
+@class _MKPlaceActionButtonController;
 
 @interface MKPlaceHeaderButton
 {
     unsigned long long _buttonType;
-    _Bool _primary;
-    NSLayoutConstraint *_heightConstraint;
-    _MKPlaceActionButtonController *_buttonController;
 }
 
+- (void)napshot=%@ to now;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)C;
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)d;
 - (id);
-- (void)tBounds;
+- (void);
+- (void)v@?@"NSDictionary">40;
+- (void)dictionary;
+- (void)buildDiagnosticIncidentEventForCaseSignature:handledResult:dampeningResult:closureType: /* Error: Ran out of types for this method. */;
+- (id)lu, not %lu;
+- (void)maxViewTargetBounds;
 
 // Remaining properties
 @property(nonatomic) __weak _MKPlaceActionButtonController *buttonController; // @synthesize buttonController=_buttonController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

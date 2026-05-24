@@ -6,15 +6,12 @@
 
 #import <MediaPlayer/MPAsyncOperation.h>
 
-@class ITLibrary, MPModelLibrarySearchRequest, NSMutableDictionary;
+@class ITLibrary, MPModelLibrarySearchRequest;
 
 __attribute__((visibility("hidden")))
 @interface MPModeliTunesLibrarySearchRequestOperation : MPAsyncOperation
 {
     ITLibrary *_library;
-    NSMutableDictionary *_scopesMap;
-    MPModelLibrarySearchRequest *_request;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (id);
@@ -22,17 +19,16 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (Class);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)(S;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void)nd: /* Error: Ran out of types for this method. */;
+- (void)_defaultSortDescriptorsForModelKind: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) MPModelLibrarySearchRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

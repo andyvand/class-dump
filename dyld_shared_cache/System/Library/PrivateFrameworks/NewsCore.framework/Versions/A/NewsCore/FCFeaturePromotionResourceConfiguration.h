@@ -9,20 +9,16 @@
 @interface FCFeaturePromotionResourceConfiguration
 {
     NSString *_resourceId;
-    double _timeToLive;
-    double _presentationDelay;
-    double _actionAutoDismissDelay;
-    double _globalQuiescenceInterval;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (double);
 - (double);
-- (double);
+- (double)_invalidateClipZPositions;
 - (void);
 - (id);
 - (id)±(	Ð1Â0@ù
@@ -31,11 +27,7 @@
 - (void)24@?0@"AMSMediaResult"8@"NSError"16;
 
 // Remaining properties
-@property(nonatomic) double actionAutoDismissDelay; // @synthesize actionAutoDismissDelay=_actionAutoDismissDelay;
-@property(nonatomic) double globalQuiescenceInterval; // @synthesize globalQuiescenceInterval=_globalQuiescenceInterval;
-@property(nonatomic) double presentationDelay; // @synthesize presentationDelay=_presentationDelay;
 @property(copy, nonatomic) NSString *resourceId; // @synthesize resourceId=_resourceId;
-@property(nonatomic) double timeToLive; // @synthesize timeToLive=_timeToLive;
 
 @end
 

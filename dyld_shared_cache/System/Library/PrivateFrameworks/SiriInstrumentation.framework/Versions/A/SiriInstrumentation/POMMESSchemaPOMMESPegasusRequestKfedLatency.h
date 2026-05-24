@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESPegasusRequestKfedLatency : SISchemaInstrumentationMessage
 {
     unsigned int _overallLatencyInMs;
-    unsigned int _banyanLatencyInMs;
-    struct {
-        unsigned int overallLatencyInMs:1;
-        unsigned int banyanLatencyInMs:1;
-    } _has;
 }
 
 - (void);
@@ -30,19 +23,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)uildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobManifest_macOS.m:46 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ed getting filesize at rowID %@ and path %@.;
 - (id);
-- (id);
-- (id);
+- (id)eE;
+- (id)_recentPlaybackBoost;
 - (id),N,V_isDiagnosticsAndUsageEnabled;
 
 // Remaining properties
-@property(nonatomic) unsigned int banyanLatencyInMs; // @synthesize banyanLatencyInMs=_banyanLatencyInMs;
-@property(nonatomic) _Bool hasBanyanLatencyInMs;
-@property(nonatomic) _Bool hasOverallLatencyInMs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int overallLatencyInMs; // @synthesize overallLatencyInMs=_overallLatencyInMs;
 
 @end

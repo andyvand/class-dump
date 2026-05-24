@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (int);
 - (id);
@@ -35,14 +35,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)B;
 - (Class);
 - (id);
-- (_Bool);
+- (_Bool)J;
 
 // Remaining properties
 @property(readonly, nonatomic) MobileCalDAVAccount *daAccount;
-@property(nonatomic) int mostRecentNotificationChangeIndex; // @synthesize mostRecentNotificationChangeIndex=_mostRecentNotificationChangeIndex;
 
 @end
 

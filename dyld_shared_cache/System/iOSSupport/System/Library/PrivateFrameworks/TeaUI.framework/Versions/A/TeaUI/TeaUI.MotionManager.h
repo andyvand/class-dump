@@ -7,7 +7,6 @@
 @interface TeaUI.MotionManager
 {
     id observers;
-    id $__lazy_storage_$_displayLinkAnimator;
 }
 
 - (void);

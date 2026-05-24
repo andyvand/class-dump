@@ -7,21 +7,19 @@
 @interface CUIKSubscribedCalendarManager
 {
     unsigned long long _calendarSaveMonitoringToken;
-    unsigned long long _accountsSaveMonitoringToken;
 }
 
 - (void);
-- (void)?×á;
-- (void)@ùöªÚBøàªA;
-- (void)øé;
-- (void)ãªä;
-- (void)ÁÚóª»Røáªâª5;
-- (void)ªbý
-;
-- (id)ªñGÁÚë@;
-- (id)¨ÿ#ÕÀ_Ö#Õüøûk©ùc©÷[©ôO©ý{©ýCÿCÑ÷ªôªöªú;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id)+kb;
+- (id)R;
+- (id);
+- (id);
 
 @end
 

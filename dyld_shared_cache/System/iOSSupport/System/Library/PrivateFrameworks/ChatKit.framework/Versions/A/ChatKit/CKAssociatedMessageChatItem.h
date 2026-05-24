@@ -6,7 +6,7 @@
 
 #import <ChatKit/CKChatItem.h>
 
-@class NSDate, NSString, UIColor, UIImage;
+@class NSString;
 
 @interface CKAssociatedMessageChatItem : CKChatItem
 {
@@ -15,29 +15,29 @@
 
 + (double);
 + (struct CATransform3D);
-+ (double);
-+ (struct CGPoint);
-+ (double);
++ (double)h;
++ (struct CGPoint)tClass) != nil);
++ (double)SelectAllTextOnFocusModifier;
 + (struct CGRect);
 + (void);
 + (struct CGRect);
 + (struct CGRect);
-- (_Bool);
-- (double);
-- (struct CATransform3D);
+- (_Bool)NotesImporterProtocol;
+- (double)ICLegacyAttachment;
+- (struct CATransform3D)0;
 - (BOOL);
-- (void);
-- (id);
-- (id);
-- (id);
-- (double);
+- (void)y1<;
+- (id)lder;
+- (id)u) were added to the note;
+- (id)hare = ;
+- (double)ICAttachmentTypeGallery;
 - (struct CGRect);
 - (id);
 - (id);
 - (struct CGRect);
 - (struct CGRect);
 - (id);
-- (unsigned long long);
+- (unsigned long long)&;
 - (_Bool);
 - (struct IMAssociatedMessageGeometryDescriptor);
 - (id);
@@ -46,24 +46,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (id)EntryViewHeight;
+- (id)_changeInEntryViewHeight;
 - (id)][Qo_a¤Zykg[yACGRGG;
 - (id)Ô°;
 - (void)ð@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *associatedChatItemGUID;
-@property(readonly, nonatomic) NSString *associatedMessageGUID;
-@property(readonly, nonatomic) struct _NSRange associatedMessageRange;
-@property(readonly, nonatomic) long long associatedMessageType;
-@property(readonly, nonatomic) UIImage *attributionImage;
-@property(readonly, nonatomic) UIColor *attributionImageTintColor;
-@property(readonly, nonatomic) _Bool failed;
-@property(readonly, nonatomic) struct IMAssociatedMessageGeometryDescriptor geometryDescriptor;
-@property(readonly, nonatomic) NSString *guid;
-@property(readonly, nonatomic) _Bool parentMessageIsFromMe;
-@property(readonly, nonatomic) unsigned long long stickerPositionVersion;
-@property(readonly, nonatomic) NSDate *time;
 @property(copy, nonatomic) NSString *timestampString; // @synthesize timestampString=_timestampString;
 
 @end

@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKPopRendererView;
+
 @protocol CKPopRendererViewDelegate
+
+@optional
+- (void)leadingAnchor;
+- (void)layoutSubtreeIfNeeded;
+- (void)layoutManagers;
+- (void)layoutDelegate;
+- (void)performSelector:(CKPopRendererView *)arg1 withObject:afterDelay:inModes: /* Error: Ran out of types for this method. */;
+- (void)performSelector:(CKPopRendererView *)arg1 withObject:afterDelay: /* Error: Ran out of types for this method. */;
+- (void)performSelector:(CKPopRendererView *)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (void)performSelector:(CKPopRendererView *)arg1;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCSubscriptionContextRequest.h>
 
-@class CTLazuliDestinationList, CTLazuliFileTransferDescriptor, CTLazuliMessageID;
+@class CTLazuliDestinationList;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCSendOneToManyFileTransferRequest : CTXPCSubscriptionContextRequest
@@ -14,19 +14,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)eSnapshotRequestAction.m;
 - (int);
-- (id)LineIdRestrictionValue;
+- (id)kSettingsModelSaveCallingLineIdRestrictionValue;
 
 // Remaining properties
 @property(readonly, nonatomic) CTLazuliDestinationList *destinationList;
-@property(readonly, nonatomic) CTLazuliFileTransferDescriptor *fileTransferDescriptor;
-@property(readonly, nonatomic) CTLazuliMessageID *messageID;
 
 @end
 

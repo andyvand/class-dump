@@ -9,14 +9,14 @@
     long long _flavor;
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
-- (id);
+- (id)4;
 
 // Remaining properties
 @property(nonatomic) long long flavor; // @synthesize flavor=_flavor;

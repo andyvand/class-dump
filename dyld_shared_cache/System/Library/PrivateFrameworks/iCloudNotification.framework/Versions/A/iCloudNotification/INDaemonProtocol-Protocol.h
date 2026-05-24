@@ -5,5 +5,13 @@
 //
 
 @protocol INDaemonProtocol
+- (void);
+- (void);
+- (void);
+- (void)!;
+- (void);
+- (void)4;
+- (void);
+- (void)defaultValue;
 @end
 

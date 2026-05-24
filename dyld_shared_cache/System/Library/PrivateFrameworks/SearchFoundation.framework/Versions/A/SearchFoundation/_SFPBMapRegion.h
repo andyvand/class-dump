@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBMapRegion
 {
     double _southLat;
-    double _westLng;
-    double _northLat;
-    double _eastLng;
-    double _altitudeInMeters;
 }
 
 - (void);
 - (double);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,26 +23,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)H;
+- (id)pendingPlayCount;
+- (id)%@;
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double altitudeInMeters; // @synthesize altitudeInMeters=_altitudeInMeters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double eastLng; // @synthesize eastLng=_eastLng;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double northLat; // @synthesize northLat=_northLat;
 @property(nonatomic) double southLat; // @synthesize southLat=_southLat;
-@property(readonly) Class superclass;
-@property(nonatomic) double westLng; // @synthesize westLng=_westLng;
 
 @end
 

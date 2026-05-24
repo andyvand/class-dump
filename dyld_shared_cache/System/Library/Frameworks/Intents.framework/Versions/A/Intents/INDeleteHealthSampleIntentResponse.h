@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INDeleteHealthSampleIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
++ (int)_isBuildingBatch;
++ (int)_EXMainConnectionHandler;
 + (long long);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 - (void);
 - (id);
@@ -23,22 +21,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)ttonInput",R,N,V_paddleButton3;
+- (id)6W;
+- (void)y.root.C6D8E2D4-F1B4-437B-81AF-401D53E30707;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)orAccountsIntentResponse;
+- (long long)_INPBSearchForAccountsIntentResponse;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,76 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitListTimeInstruction
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOFormattedString *_primaryText;
-    GEOFormattedString *_secondaryText;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _hideWhenListCollapsed;
-    struct {
-        unsigned int has_hideWhenListCollapsed:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_primaryText:1;
-        unsigned int read_secondaryText:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)dHorizontalAccuracy:(id)arg1;
++ (_Bool)setModifiedHorizontalAccuracy:(id)arg1;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)v@?@"CNCDIOSLegacyIdentifierRegistrations"@"NSError">24;
+- (void)ABCDDeletedRecordLog;
+- (_Bool)ABCDSubscribedContact;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)MACaptionFontSmallCapital;
 - (id);
-- (void);
-- (id);
+- (void)installedSpeakerRecognitionAssetForLanguage:(id)arg1;
+- (id)'`;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)9;
 - (void);
 - (id)!DùQº*°1Â0@ù
 × ;
-- (id)Routes;
-- (id);
-- (id)elHeight;
+- (id)incidentsOffRoutes;
+- (id)_announcementID;
+- (id)carHeadunitPixelHeight;
 - (void)ÈOQ@;
 - (id)q=
 ×£på?®Gáz8@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasHideWhenListCollapsed;
-@property(readonly, nonatomic) _Bool hasPrimaryText;
-@property(readonly, nonatomic) _Bool hasSecondaryText;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideWhenListCollapsed;
-@property(retain, nonatomic) GEOFormattedString *primaryText;
-@property(retain, nonatomic) GEOFormattedString *secondaryText;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

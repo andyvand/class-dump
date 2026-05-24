@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSProcessAssertion, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIBackgroundTaskInfo
 {
     unsigned long long _taskId;
-    CDUnknownBlockType _expireHandler;
-    BKSProcessAssertion *_processAssertion;
-    NSString *_taskName;
-    long long _creationTime;
-    _Bool _alreadyWarnedAboutExpiration;
 }
 
 + (id)tHost;
 - (void);
-- (id);
-- (id);
+- (id)NSt3__120__shared_ptr_pointerIP15PipelineManagerNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE;
+- (id)mmcs_update_request_process_authorize_put_response;
 - (void);
 - (void);
 - (void)Mªgt¯^;

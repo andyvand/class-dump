@@ -5,5 +5,6 @@
 //
 
 @protocol AMPLibrarySharingProtocol
+- (void)	KI;
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, _UIScrollPocketCollectorInteraction;
-@protocol _UIScrollPocketAppearanceObserver;
+@class _UIScrollPocketCollectorInteraction;
 
 @interface _UIScrollPocketAppearanceObserverInteraction
 {
     id glassFrostValues;
-    _UIScrollPocketCollectorInteraction *collectorInteraction;
-    void observer;
-    void _view;
 }
 
 - (id);
@@ -20,7 +16,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)setTailInsertionContentItemID: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)Kit bug.;
@@ -31,11 +27,7 @@
 - (id)¤»ÿ¬k;
 
 // Remaining properties
-@property(nonatomic) __weak UIView *_view; // @synthesize _view;
 @property(nonatomic, readonly) _UIScrollPocketCollectorInteraction *collectorInteraction; // @synthesize collectorInteraction;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) __weak id <_UIScrollPocketAppearanceObserver> observer; // @synthesize observer;
-@property(nonatomic, readonly) UIView *view;
 
 @end
 

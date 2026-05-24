@@ -11,27 +11,19 @@
 @interface ISAppleIDLookupOperation : ISOperation
 {
     ISPurchaseReceipt *mReceipt;
-    NSString *mAppleID;
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)a;
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly) NSString *appleID; // @synthesize appleID=mAppleID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

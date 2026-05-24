@@ -5,5 +5,6 @@
 //
 
 @protocol MFEWSPersistActionResultsOperationDelegate
+- (void)@y%@q!;
 @end
 

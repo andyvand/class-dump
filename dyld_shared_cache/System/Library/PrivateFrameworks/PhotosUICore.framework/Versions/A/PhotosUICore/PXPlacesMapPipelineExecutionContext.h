@@ -4,52 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMapTable, NSMutableDictionary, NSMutableSet, PXPlacesMapViewPort;
+@class NSArray, NSDate;
 
 @interface PXPlacesMapPipelineExecutionContext
 {
     NSDate *_start;
-    NSMutableSet *_dataSources;
-    NSMutableDictionary *_timerStartDataSource;
-    NSMutableDictionary *_timerStopDataSource;
-    NSMutableDictionary *_timerStartPipeline;
-    NSMutableDictionary *_timerStopPipeline;
-    NSDate *_timerStartPlanResultsExecution;
-    NSDate *_timerStopPlanResultsExecution;
-    CDUnknownBlockType _completionHandler;
-    _Bool _stopped;
-    NSArray *_callstack;
-    double _duration;
-    NSMapTable *_changesForDataSources;
-    NSArray *_updatePlanResults;
-    PXPlacesMapViewPort *_viewPort;
 }
 
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (double);
+- (double)`;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) NSMapTable *changesForDataSources; // @synthesize changesForDataSources=_changesForDataSources;
 @property(readonly) NSArray *dataSources;
-@property(readonly) double duration; // @synthesize duration=_duration;
-@property(retain) NSArray *updatePlanResults; // @synthesize updatePlanResults=_updatePlanResults;
-@property(retain) PXPlacesMapViewPort *viewPort; // @synthesize viewPort=_viewPort;
 
 @end
 

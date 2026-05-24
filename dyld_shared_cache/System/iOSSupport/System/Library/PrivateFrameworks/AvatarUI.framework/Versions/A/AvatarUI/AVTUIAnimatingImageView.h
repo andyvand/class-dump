@@ -9,8 +9,6 @@
 @interface AVTUIAnimatingImageView
 {
     UIImage *_image;
-    UIImageView *_imageView;
-    UIImageView *_fadeInImageView;
 }
 
 - (void);
@@ -24,8 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIImageView *fadeInImageView; // @synthesize fadeInImageView=_fadeInImageView;
-@property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
 
 @end

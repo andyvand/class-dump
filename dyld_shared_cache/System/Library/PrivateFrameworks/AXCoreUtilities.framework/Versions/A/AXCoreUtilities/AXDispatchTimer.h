@@ -4,65 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface AXDispatchTimer
 {
     _Bool _active;
-    _Bool _pending;
-    _Bool _cancelled;
-    _Bool _automaticallyCancelPendingBlockUponSchedulingNewBlock;
-    _Bool _useWallTime;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSObject<OS_dispatch_source> *_dispatchTimer;
-    NSString *_label;
-    CDUnknownBlockType _processBlock;
-    CDUnknownBlockType _cancelBlock;
 }
 
 - (void);
 - (void);
+- (CDUnknownBlockType)J;
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)
+ka;
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)c;
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) _Bool automaticallyCancelPendingBlockUponSchedulingNewBlock; // @synthesize automaticallyCancelPendingBlockUponSchedulingNewBlock=_automaticallyCancelPendingBlockUponSchedulingNewBlock;
-@property(copy) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;
-@property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *dispatchTimer; // @synthesize dispatchTimer=_dispatchTimer;
-@property(retain, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic, getter=isPending) _Bool pending; // @synthesize pending=_pending;
-@property(copy) CDUnknownBlockType processBlock; // @synthesize processBlock=_processBlock;
-@property(nonatomic) _Bool useWallTime; // @synthesize useWallTime=_useWallTime;
 
 @end
 

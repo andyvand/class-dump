@@ -6,65 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PEGASUSSchemaPEGASUSAlternateQuerySuggestionTier1, PEGASUSSchemaPEGASUSAudioExecutionTier1, PEGASUSSchemaPEGASUSDeviceExpertExecutionTier1, PEGASUSSchemaPEGASUSIntentTier1, PEGASUSSchemaPEGASUSKGQAExecutionTier1, PEGASUSSchemaPEGASUSMapsExecutionTier1, PEGASUSSchemaPEGASUSSportsExecutionTier1, PEGASUSSchemaPEGASUSVideoExecutionTier1, PEGASUSSchemaPEGASUSWebAnswerExecutionTier1, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PEGASUSSchemaPEGASUSRequestEndedTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    PEGASUSSchemaPEGASUSIntentTier1 *_intentTier1;
-    PEGASUSSchemaPEGASUSKGQAExecutionTier1 *_kgQAExecutionTier1;
-    PEGASUSSchemaPEGASUSWebAnswerExecutionTier1 *_webAnswerExecutionTier1;
-    PEGASUSSchemaPEGASUSSportsExecutionTier1 *_sportsExecutionTier1;
-    PEGASUSSchemaPEGASUSMapsExecutionTier1 *_mapsExecutionTier1;
-    PEGASUSSchemaPEGASUSAudioExecutionTier1 *_audioExecutionTier1;
-    PEGASUSSchemaPEGASUSVideoExecutionTier1 *_videoExecutionTier1;
-    PEGASUSSchemaPEGASUSAlternateQuerySuggestionTier1 *_alternateQuerySuggestionTier1;
-    PEGASUSSchemaPEGASUSDeviceExpertExecutionTier1 *_deviceExpertExecutionTier1;
-    _Bool _hasLinkId;
-    _Bool _hasIntentTier1;
-    _Bool _hasKgQAExecutionTier1;
-    _Bool _hasWebAnswerExecutionTier1;
-    _Bool _hasSportsExecutionTier1;
-    _Bool _hasMapsExecutionTier1;
-    _Bool _hasAudioExecutionTier1;
-    _Bool _hasVideoExecutionTier1;
-    _Bool _hasAlternateQuerySuggestionTier1;
-    _Bool _hasDeviceExpertExecutionTier1;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -76,47 +34,50 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)s;
 - (id);
 - (_Bool);
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (void);
+- (void)1	?׀;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)(;
+- (void);
+- (void)mily GSID found;
+- (void)ntactsViewController presentViewControllerFromHostWindow] called.;
+- (id)st JSValueRef *, JSValueRef *);
+- (_Bool)icationBundleIDs:] /* Error: Ran out of types for this method. */;
+- (id)-;
+- (id);
+- (void);
+- (unsigned long long) ;
 - (_Bool);
-- (_Bool);
+- (_Bool)ries %@;
 - (id);
 - (id)!Ô@ùÑÝ1Â0@ù
 × ;
-- (id)ignals;
+- (id)_hasContactDependentPhoneCallSignals;
 - (id),N,V_uafId;
-- (void);
+- (void)bobbleEnabled;
 
 // Remaining properties
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSAlternateQuerySuggestionTier1 *alternateQuerySuggestionTier1; // @synthesize alternateQuerySuggestionTier1=_alternateQuerySuggestionTier1;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSAudioExecutionTier1 *audioExecutionTier1; // @synthesize audioExecutionTier1=_audioExecutionTier1;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSDeviceExpertExecutionTier1 *deviceExpertExecutionTier1; // @synthesize deviceExpertExecutionTier1=_deviceExpertExecutionTier1;
-@property(nonatomic) _Bool hasAlternateQuerySuggestionTier1; // @synthesize hasAlternateQuerySuggestionTier1=_hasAlternateQuerySuggestionTier1;
-@property(nonatomic) _Bool hasAudioExecutionTier1; // @synthesize hasAudioExecutionTier1=_hasAudioExecutionTier1;
-@property(nonatomic) _Bool hasDeviceExpertExecutionTier1; // @synthesize hasDeviceExpertExecutionTier1=_hasDeviceExpertExecutionTier1;
-@property(nonatomic) _Bool hasIntentTier1; // @synthesize hasIntentTier1=_hasIntentTier1;
-@property(nonatomic) _Bool hasKgQAExecutionTier1; // @synthesize hasKgQAExecutionTier1=_hasKgQAExecutionTier1;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasMapsExecutionTier1; // @synthesize hasMapsExecutionTier1=_hasMapsExecutionTier1;
-@property(nonatomic) _Bool hasSportsExecutionTier1; // @synthesize hasSportsExecutionTier1=_hasSportsExecutionTier1;
-@property(nonatomic) _Bool hasVideoExecutionTier1; // @synthesize hasVideoExecutionTier1=_hasVideoExecutionTier1;
-@property(nonatomic) _Bool hasWebAnswerExecutionTier1; // @synthesize hasWebAnswerExecutionTier1=_hasWebAnswerExecutionTier1;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSIntentTier1 *intentTier1; // @synthesize intentTier1=_intentTier1;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSKGQAExecutionTier1 *kgQAExecutionTier1; // @synthesize kgQAExecutionTier1=_kgQAExecutionTier1;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSMapsExecutionTier1 *mapsExecutionTier1; // @synthesize mapsExecutionTier1=_mapsExecutionTier1;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSSportsExecutionTier1 *sportsExecutionTier1; // @synthesize sportsExecutionTier1=_sportsExecutionTier1;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSVideoExecutionTier1 *videoExecutionTier1; // @synthesize videoExecutionTier1=_videoExecutionTier1;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSWebAnswerExecutionTier1 *webAnswerExecutionTier1; // @synthesize webAnswerExecutionTier1=_webAnswerExecutionTier1;
 
 @end
 

@@ -4,48 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressingGrammarShadowTextField, ABCardViewStyleProvider, ABNameViewCompanyCheckBox, ABOverlayView, ABShadowTextField, ABWidthLimitingStackView, NSArray, NSDictionary, NSFont, NSFormatter, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, NSTextField;
-@protocol ABCardViewDataSource, ABNameViewDelegate;
+@class NSMutableArray;
 
 @interface ABNameView
 {
     NSMutableArray *_sortedFieldsNestedByLine;
-    NSMutableSet *_dirtyFields;
-    NSMutableSet *_displayedFields;
-    NSMutableSet *_propetyKeysToDisplay;
-    NSMapTable *_fieldToKeyMap;
-    NSDictionary *_keyToFieldMap;
-    id <ABCardViewDataSource> _dataSource;
-    ABCardViewStyleProvider *_styleProvider;
-    ABOverlayView *_overlayView;
-    id <ABNameViewDelegate> _delegate;
-    ABNameViewCompanyCheckBox *mCompanyCheckbox;
-    NSTextField *mTitleAndDepartmentSeparator;
-    ABShadowTextField *_completeNameView;
-    ABShadowTextField *_suffixView;
-    ABShadowTextField *_lastNameView;
-    ABShadowTextField *_middleNameView;
-    ABShadowTextField *_organizationView;
-    ABShadowTextField *_phoneticOrganizationView;
-    ABShadowTextField *_departmentView;
-    ABShadowTextField *_jobTitleView;
-    ABShadowTextField *_nicknameView;
-    ABShadowTextField *_firstNameView;
-    ABShadowTextField *_titleView;
-    ABShadowTextField *_completePhoneticNameView;
-    ABShadowTextField *_phoneticLastNameView;
-    ABShadowTextField *_phoneticMiddleNameView;
-    ABShadowTextField *_phoneticFirstNameView;
-    ABAddressingGrammarShadowTextField *_addressingGrammarView;
-    NSFont *_largeFont;
-    NSFont *_normalFont;
-    NSFormatter *_normalFormatter;
-    NSFormatter *_nicknameFormatter;
-    _Bool _shouldHideTitleAndDepartmentSeparator;
-    _Bool _didCreateConstraints;
-    ABWidthLimitingStackView *_outerStackView;
-    NSArray *_transientConstraints;
-    NSMutableDictionary *_immediateActionGestureRecognizers;
 }
 
 + (id);
@@ -55,18 +18,18 @@
 - (id);
 - (id);
 - (void);
+- (void)";
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -83,7 +46,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)3;
 - (id);
 - (void);
 - (void);
@@ -102,57 +65,45 @@
 - (id);
 - (void);
 - (void);
+- (void)=;
+- (_Bool)R;
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)";
 - (id);
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ge=},N,&,Vimage;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)pathPreventingAccess;
 - (id);
 - (void);
 - (void)1Â0@ù
 × ;
 - (void)String"24d32;
-- (id)up;
+- (id)ABLastImportGroup;
 - (void)ûÿ±È;
 
 // Remaining properties
-@property(readonly) ABNameViewCompanyCheckBox *companyCheckbox; // @synthesize companyCheckbox=mCompanyCheckbox;
-@property(retain, nonatomic) id <ABCardViewDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ABNameViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly) _Bool editMode;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableSet *propetyKeysToDisplay; // @synthesize propetyKeysToDisplay=_propetyKeysToDisplay;
-@property(retain, nonatomic) ABCardViewStyleProvider *styleProvider; // @synthesize styleProvider=_styleProvider;
-@property(readonly) Class superclass;
 
 @end
 

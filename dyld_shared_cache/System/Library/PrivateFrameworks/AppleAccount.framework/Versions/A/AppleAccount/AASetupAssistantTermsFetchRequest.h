@@ -15,9 +15,9 @@
 
 + (Class);
 - (id);
-- (id);
-- (void)t: /* Error: Ran out of types for this method. */;
-- (id)okies;
+- (id);
+- (void)service:account:identifier:hasBeenDeliveredWithContext: /* Error: Ran out of types for this method. */;
+- (id)AASaveOptionsTwoFactorLoginCookies;
 
 @end
 

@@ -9,20 +9,16 @@
 @interface _PRMonogramFontSpec
 {
     NSString *_fontName;
-    double _baseSize;
-    double _tracking;
 }
 
 + (id);
 - (double);
-- (id);
+- (id)P;
 - (void);
 - (double);
 
 // Remaining properties
-@property(readonly) double baseSize; // @synthesize baseSize=_baseSize;
 @property(readonly) NSString *fontName; // @synthesize fontName=_fontName;
-@property(readonly) double tracking; // @synthesize tracking=_tracking;
 
 @end
 

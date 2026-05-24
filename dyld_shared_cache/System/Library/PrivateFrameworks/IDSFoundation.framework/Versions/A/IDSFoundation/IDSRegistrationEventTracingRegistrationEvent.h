@@ -11,7 +11,7 @@
     void name;
 }
 
-- (id);
+- (id)Q;
 - (id);
 - (void)_interfaceNameForInterfaceIndexIncludingVPN:(id)arg1;
 - (void)mobilemail;

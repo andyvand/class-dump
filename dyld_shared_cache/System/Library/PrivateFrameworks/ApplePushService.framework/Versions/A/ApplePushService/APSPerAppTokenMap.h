@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface APSPerAppTokenMap
 {
     NSMutableDictionary *_perAppTokenMap;
-    long long _missingTokens;
-    _Bool _enumerating;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Z8(;
 - (id);
 - (id);
 - (_Bool);
@@ -28,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)on5ModelEE3$_0;
 - (id);
 - (void);
 - (_Bool);

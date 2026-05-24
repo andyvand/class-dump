@@ -5,17 +5,15 @@
 //
 
 @class NURegion;
-@protocol NUPurgeableImage;
 
 @interface NUPurgeableImageAccessGuard
 {
     NURegion *_accessRegion;
-    id <NUPurgeableImage> _accessImage;
 }
 
-- (id);
+- (id)jh8);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 

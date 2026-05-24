@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property __weak id <HMFSystemInfoMigrationDataSourceDelegate> delegate;
-@property(readonly, nonatomic, getter=isMigrating) _Bool migrating;
 @end
 

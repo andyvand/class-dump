@@ -11,7 +11,7 @@
 }
 
 + (Class);
-- (id)tion;
+- (id)PXSharedLibrary_Action_RemoveThisSharingSuggestion;
 - (id)`i;
 
 // Remaining properties

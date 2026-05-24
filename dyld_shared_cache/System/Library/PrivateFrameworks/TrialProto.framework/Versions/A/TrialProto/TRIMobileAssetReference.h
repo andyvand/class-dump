@@ -15,20 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *assetSpecifier; // @dynamic assetSpecifier;
 @property(copy, nonatomic) NSString *assetType; // @dynamic assetType;
-@property(copy, nonatomic) NSString *assetVersion; // @dynamic assetVersion;
-@property(nonatomic) _Bool hasAssetSpecifier; // @dynamic hasAssetSpecifier;
-@property(nonatomic) _Bool hasAssetType; // @dynamic hasAssetType;
-@property(nonatomic) _Bool hasAssetVersion; // @dynamic hasAssetVersion;
-@property(nonatomic) _Bool hasIsFileFactor; // @dynamic hasIsFileFactor;
-@property(nonatomic) _Bool hasIsOnDemand; // @dynamic hasIsOnDemand;
-@property(nonatomic) _Bool hasName; // @dynamic hasName;
-@property(nonatomic) _Bool hasSize; // @dynamic hasSize;
-@property(nonatomic) _Bool isFileFactor; // @dynamic isFileFactor;
-@property(nonatomic) _Bool isOnDemand; // @dynamic isOnDemand;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic) unsigned long long size; // @dynamic size;
 
 @end
 

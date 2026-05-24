@@ -6,33 +6,24 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDDictationDimensions, SISchemaUUID;
+@class ODDSiriSchemaODDDictationDimensions;
 
 @interface ODDSiriSchemaODDDictationExperimentDimensions : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDDictationDimensions *_dictationDimensions;
-    int _experimentAllocationStatus;
-    _Bool _isFirstTriggerOrAfterFirstTrigger;
-    SISchemaUUID *_codePathId;
-    struct {
-        unsigned int experimentAllocationStatus:1;
-        unsigned int isFirstTriggerOrAfterFirstTrigger:1;
-    } _has;
-    _Bool _hasDictationDimensions;
-    _Bool _hasCodePathId;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)8H;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)v*;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -40,14 +31,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)regularExpressionWithPattern:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)SQLEntitySchema;
 - (id);
 - (id);
 - (id)ityScoreForMessagesUsingSiri;
@@ -55,15 +46,7 @@
 - (void)ientEvent.ueiDictationAlternativeTextPairsSelected.alternativeSelections.correctedTokens;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *codePathId; // @synthesize codePathId=_codePathId;
 @property(retain, nonatomic) ODDSiriSchemaODDDictationDimensions *dictationDimensions; // @synthesize dictationDimensions=_dictationDimensions;
-@property(nonatomic) int experimentAllocationStatus; // @synthesize experimentAllocationStatus=_experimentAllocationStatus;
-@property(nonatomic) _Bool hasCodePathId; // @synthesize hasCodePathId=_hasCodePathId;
-@property(nonatomic) _Bool hasDictationDimensions; // @synthesize hasDictationDimensions=_hasDictationDimensions;
-@property(nonatomic) _Bool hasExperimentAllocationStatus;
-@property(nonatomic) _Bool hasIsFirstTriggerOrAfterFirstTrigger;
-@property(nonatomic) _Bool isFirstTriggerOrAfterFirstTrigger; // @synthesize isFirstTriggerOrAfterFirstTrigger=_isFirstTriggerOrAfterFirstTrigger;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

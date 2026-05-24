@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 @interface MTTheme
 {
@@ -12,10 +12,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @dynamic backgroundColor;
-@property(nonatomic) _Bool isBackgroundLight; // @dynamic isBackgroundLight;
-@property(retain, nonatomic) UIColor *primaryTextColor; // @dynamic primaryTextColor;
-@property(retain, nonatomic) UIColor *secondaryTextColor; // @dynamic secondaryTextColor;
 @property(retain, nonatomic) NSString *uuid; // @dynamic uuid;
 @end
 

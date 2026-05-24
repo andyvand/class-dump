@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, PKBarcode;
+@class NSArray, PKBarcode;
 
 @interface PKContent
 {
     NSArray *_barcodes;
-    NSArray *_storeIdentifiers;
-    NSArray *_auxiliaryStoreIdentifiers;
-    NSArray *_systemAppBundleIdentifiers;
-    NSURL *_appLaunchURL;
-    NSString *_localizedDescription;
 }
 
 + (id);
@@ -36,16 +31,10 @@
 - (id);
 - (id);
 - (void);
-- (void)KApplicationMessageAction;
+- (void)PKApplicationMessageAction;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *appLaunchURL; // @synthesize appLaunchURL=_appLaunchURL;
-@property(copy, nonatomic) NSArray *auxiliaryStoreIdentifiers; // @synthesize auxiliaryStoreIdentifiers=_auxiliaryStoreIdentifiers;
 @property(readonly, nonatomic) PKBarcode *barcode;
-@property(retain, nonatomic) NSArray *barcodes; // @synthesize barcodes=_barcodes;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(copy, nonatomic) NSArray *storeIdentifiers; // @synthesize storeIdentifiers=_storeIdentifiers;
-@property(copy, nonatomic) NSArray *systemAppBundleIdentifiers; // @synthesize systemAppBundleIdentifiers=_systemAppBundleIdentifiers;
 
 @end
 

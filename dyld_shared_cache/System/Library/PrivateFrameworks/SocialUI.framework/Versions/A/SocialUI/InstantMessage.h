@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableAttributedString, NSURL;
+@class NSMutableAttributedString;
 
 @interface InstantMessage
 {
     _Bool _saved;
-    _Bool _didHighlightMyName;
-    _Bool _didParseText;
-    _Bool _didParseSubject;
-    NSURL *_fileURL;
-    NSMutableAttributedString *_textWithAppAttributes;
 }
 
 - (id);
@@ -40,11 +35,6 @@
 × ;
 
 // Remaining properties
-@property _Bool didHighlightMyName; // @synthesize didHighlightMyName=_didHighlightMyName;
-@property _Bool didParseSubject; // @synthesize didParseSubject=_didParseSubject;
-@property _Bool didParseText; // @synthesize didParseText=_didParseText;
-@property(retain) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(getter=isSaved) _Bool saved; // @synthesize saved=_saved;
 @property(retain) NSMutableAttributedString *textWithAppAttributes; // @synthesize textWithAppAttributes=_textWithAppAttributes;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol SiriUI.SiriUISiriIconToggleButtonViewDelegate
+- (void);
 @end
 

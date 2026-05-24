@@ -6,40 +6,38 @@
 
 #import <ChatKit/CKTranscriptMessageCell.h>
 
-@class CALayer, CKTypingView;
-@protocol CKTypingIndicatorLayerProtocol;
+@class CKTypingView;
 
 @interface CKTranscriptTypingIndicatorCell : CKTranscriptMessageCell
 {
     CKTypingView *_typingView;
 }
 
+- (id)SArray"@"NSError">24;
+- (void)setWorkerContext: /* Error: Ran out of types for this method. */;
+- (void)removeObjectAtIndex:(id)arg1;
+- (void)registerShareForObject:(id)arg1 itemProvider:generateThumbnails:sharePreparationHandler: /* Error: Ran out of types for this method. */;
+- (void)initWithRootRecord:(id)arg1;
+- (void)_icaxGalleryViewDescriptionForAttachment:(CDUnknownBlockType)arg1 fromAttachments:orInlineAttachments: /* Error: Ran out of types for this method. */;
+- (void)hmentsToLoad;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)[ICLockedNotesModeMigrator unsafelyMigrateNote:] /* Error: Ran out of types for this method. */;
+- (void)u;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)initWithTarget:(struct CGRect)arg1 action: /* Error: Ran out of types for this method. */;
 - (void)t23CKTextEffectCoordinator"16@"NSString"24;
 - (void)°õ,øø;
 - (void)lpaper.;
 - (void)%@.;
 
 // Remaining properties
-@property(retain, nonatomic) CALayer<CKTypingIndicatorLayerProtocol> *indicatorLayer;
 @property(retain, nonatomic) CKTypingView *typingView; // @synthesize typingView=_typingView;
 
 @end

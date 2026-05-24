@@ -4,30 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface MSConversationContextItem
 {
     NSDate *_timestamp;
-    NSString *_messageContent;
-    NSString *_senderHandle;
-    NSString *_senderDisplayName;
 }
 
 - (void);
-- (id);
+- (id)p assistant completed for context:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *messageContent; // @synthesize messageContent=_messageContent;
-@property(copy, nonatomic) NSString *senderDisplayName; // @synthesize senderDisplayName=_senderDisplayName;
-@property(copy, nonatomic) NSString *senderHandle; // @synthesize senderHandle=_senderHandle;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

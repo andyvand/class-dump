@@ -8,6 +8,7 @@
 @protocol HMEPersistentConnection;
 
 @protocol HMEPersistentConnectionServerDelegate
-- (void)Key:(NSArray *)arg1 flow:(id <HMEPersistentConnection>)arg2;
+- (_Bool);
+- (void)sendIssuerKeyUpdateMessageToPhone:(NSArray *)arg1 forAccessoryWithUUID:(id <HMEPersistentConnection>)arg2 issuerKey:flow: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary;
+@class NSLock;
 
 @interface AFPreferencesNotificationCenter
 {
     NSLock *instanceLock;
-    NSMutableDictionary *darwinRegistrationsByObserver;
-    NSMutableDictionary *darwinRegistrationsByName;
 }
 
 + (id)ô÷ÈøÈù4ü@þ4ÿ<ÿ;
 - (id);
-- (void);
+- (void)services.getupdates.failure;
 - (id);
-- (void);
+- (void)backingScaleFactor;
 - (void)_dismissedActivationId;
 
 @end

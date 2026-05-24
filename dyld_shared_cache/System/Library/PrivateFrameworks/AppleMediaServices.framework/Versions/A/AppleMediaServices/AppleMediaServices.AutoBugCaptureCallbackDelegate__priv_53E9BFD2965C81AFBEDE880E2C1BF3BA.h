@@ -7,7 +7,6 @@
 @interface AppleMediaServices.AutoBugCaptureCallbackDelegate__priv_53E9BFD2965C81AFBEDE880E2C1BF3BA
 {
     id receivedError;
-    id queue;
 }
 
 - (void);

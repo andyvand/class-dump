@@ -11,7 +11,7 @@
     _Bool _activeUser;
 }
 
-- (id);
+- (id)initWithKeyOptions:(_Bool)arg1 valueOptions:capacity: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool)ManagedObjectContext"8;
 

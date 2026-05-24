@@ -7,13 +7,6 @@
 @interface AppStoreKit.ProductMedia
 {
     id items;
-    id platform;
-    id allPlatforms;
-    id platformDescription;
-    id allPlatformsDescription;
-    id allPlatformsDescriptionPlacement;
-    id id;
-    id automationMetadata;
 }
 
 @end

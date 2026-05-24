@@ -4,60 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBConfidenceScore;
+@class NSString;
 
 @interface _INPBValueMetadata
 {
     CDStruct_95bda58d _requiredEntitlements;
-    struct {
-        unsigned int confirmed:1;
-    } _has;
-    _Bool _confirmed;
-    NSString *_canonicalValue;
-    _INPBConfidenceScore *_confidenceScore;
-    NSString *_input;
-    NSString *_source;
-    NSString *_sourceAppBundleIdentifier;
-    NSString *_uuid;
 }
 
 + (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (unsigned long long);
+- (int)effen|triffst|trifft) .{0,40}?softball;
+- (int);
+- (_Bool)4H;
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void)؇4;
+- (_Bool)] Device Supports WAPI;
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
-- (int);
-- (int);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (int *);
 - (id);
-- (void)es;
+- (void)_payloadModifyNicknames;
 - (_Bool)nations;
 - (_Bool)Ô¤;
 - (void)h INBinarySettingValueUnknown will be reformed to notRequired.;
@@ -65,28 +55,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *canonicalValue; // @synthesize canonicalValue=_canonicalValue;
-@property(retain, nonatomic) _INPBConfidenceScore *confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(nonatomic) _Bool confirmed; // @synthesize confirmed=_confirmed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasCanonicalValue;
-@property(readonly, nonatomic) _Bool hasConfidenceScore;
-@property(nonatomic) _Bool hasConfirmed;
-@property(readonly, nonatomic) _Bool hasInput;
-@property(readonly, nonatomic) _Bool hasSource;
-@property(readonly, nonatomic) _Bool hasSourceAppBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasUuid;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property(readonly, nonatomic) int *requiredEntitlements;
-@property(readonly, nonatomic) unsigned long long requiredEntitlementsCount;
-@property(copy, nonatomic) NSString *source; // @synthesize source=_source;
-@property(copy, nonatomic) NSString *sourceAppBundleIdentifier; // @synthesize sourceAppBundleIdentifier=_sourceAppBundleIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

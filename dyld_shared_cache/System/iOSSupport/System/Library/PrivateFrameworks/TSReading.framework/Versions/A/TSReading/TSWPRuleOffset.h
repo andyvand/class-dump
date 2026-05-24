@@ -7,23 +7,21 @@
 @interface TSWPRuleOffset
 {
     double _dX;
-    double _dY;
 }
 
-+ (id);
++ (id)]<;
 - (id);
 - (double);
-- (double);
+- (double)PrivateListeningMode;
 - (struct CGSize);
-- (id);
-- (id);
+- (id)}6;
+- (id)!;
 - (struct CGPoint);
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double dX; // @synthesize dX=_dX;
-@property(readonly, nonatomic) double dY; // @synthesize dY=_dY;
 
 @end
 

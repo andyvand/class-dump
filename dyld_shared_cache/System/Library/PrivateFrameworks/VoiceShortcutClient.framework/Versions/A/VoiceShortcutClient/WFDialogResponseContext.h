@@ -11,7 +11,7 @@
     NSString *_turnIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)__oslogstring;
 + (_Bool);
 
 @end

@@ -6,14 +6,10 @@
 
 #import <CFNetwork/NSHTTPCookieStorage.h>
 
-@class NSHTTPCookie2Storage;
-
 __attribute__((visibility("hidden")))
 @interface NSHTTPCookieStorageToCookie2Storage : NSHTTPCookieStorage
 {
     unsigned long long _acceptPolicy;
-    _Bool _behavesLikeNS;
-    NSHTTPCookie2Storage *_store;
 }
 
 - (void);
@@ -32,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)Rh";
+- (void);
 - (void);
 - (struct OpaqueCFHTTPCookieStorage *);
 - (id);
-- (void);
+- (void)uation found;
 - (id);
 - (id);
 - (void);

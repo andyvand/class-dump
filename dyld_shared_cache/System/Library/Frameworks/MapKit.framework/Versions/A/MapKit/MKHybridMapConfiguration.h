@@ -16,15 +16,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)9;
 - (_Bool);
 - (id);
-- (id);
+- (id)%@ is handled by %@;
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) MKPointOfInterestFilter *pointOfInterestFilter;
-@property(nonatomic) _Bool showsTraffic;
 
 @end
 

@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface BCBrtControl
 {
     NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_id;
-    _Bool _isValid;
-    NSMutableDictionary *_capabilities;
-    double _maxNits;
-    double _midNits;
-    double _minNits;
-    NSUUID *_containerID;
-    struct __CFUUID *_cfContainerID;
-    unsigned int _displayService;
-    _Bool _multipleControlEnabled;
-    CDUnknownBlockType _displayInvalidHandler;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 + (id);
@@ -33,14 +20,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)!C;
 - (void);
 - (_Bool);
 - (double);
 - (CDUnknownBlockType);
 - (id);
 - (struct __CFUUID *);
-- (void);
+- (void)C;
 - (_Bool);
 - (double);
 - (void);
@@ -49,30 +36,19 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
+- (id)ions/A/AudioToolbox;
+- (_Bool);
+- (id)YI9
+c;
 - (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) id ID;
-@property(retain) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly) NSDictionary *capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly) struct __CFUUID *cfContainerID;
-@property(readonly) NSUUID *containerID; // @synthesize containerID=_containerID;
-@property(copy) CDUnknownBlockType displayInvalidHandler; // @synthesize displayInvalidHandler=_displayInvalidHandler;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isValid; // @synthesize isValid=_isValid;
 @property(readonly) NSObject<OS_os_log> *logHandle;
-@property(readonly) double maxNits; // @synthesize maxNits=_maxNits;
-@property(readonly) double minNits; // @synthesize minNits=_minNits;
-@property _Bool multipleControlEnabled; // @synthesize multipleControlEnabled=_multipleControlEnabled;
-@property(readonly) NSObject<OS_dispatch_queue> *queue;
 
 @end
 

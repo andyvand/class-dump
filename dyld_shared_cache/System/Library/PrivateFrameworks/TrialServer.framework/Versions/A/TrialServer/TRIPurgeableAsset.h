@@ -5,21 +5,16 @@
 //
 
 @class NSString;
-@protocol TRIAssetId, TRIFactorPackId;
 
 @interface TRIPurgeableAsset
 {
     NSString *_factorName;
-    NSString<TRIAssetId> *_assetId;
-    NSString *_filePath;
-    NSString<TRIFactorPackId> *_factorPackId;
-    NSString *_treatmentId;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
++ (id)closeupZoomPercentWithLayoutType:(id)arg1;
+- (id)outputChunkMeasurementsDescription;
+- (id)layoutByUpdatingConfigurationWithSaliency:(id)arg1 normalizedTopEdgeInset: /* Error: Ran out of types for this method. */;
+- (id)layoutByUpdatingClockLayerOrder:(id)arg1;
 - (id);
 - (_Bool);
 - (id);
@@ -29,20 +24,16 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)unarchivedObjectOfClass:fromData:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)",W,N,V_frameLifetime;
+- (id)personInMailEntityRelevanceLargeGeoHashAndTimeOfDayFeatures;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString<TRIAssetId> *assetId; // @synthesize assetId=_assetId;
 @property(readonly, nonatomic) NSString *factorName; // @synthesize factorName=_factorName;
-@property(readonly, nonatomic) NSString<TRIFactorPackId> *factorPackId; // @synthesize factorPackId=_factorPackId;
-@property(readonly, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
-@property(readonly, nonatomic) NSString *treatmentId; // @synthesize treatmentId=_treatmentId;
 
 @end
 

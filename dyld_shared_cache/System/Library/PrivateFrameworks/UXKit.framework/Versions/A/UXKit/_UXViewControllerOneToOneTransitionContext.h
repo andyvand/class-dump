@@ -6,17 +6,11 @@
 
 #import <UXKit/_UXViewControllerTransitionContext.h>
 
-@class UXView, UXViewController;
+@class UXViewController;
 
 @interface _UXViewControllerOneToOneTransitionContext : _UXViewControllerTransitionContext
 {
     CDUnknownBlockType arbitraryTransitionCompletionHandler;
-    UXViewController *_fromViewController;
-    UXViewController *_toViewController;
-    struct CGRect _fromStartFrame;
-    struct CGRect _fromEndFrame;
-    struct CGRect _toEndFrame;
-    struct CGRect _toStartFrame;
 }
 
 - (void);
@@ -24,14 +18,14 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
 - (struct CGRect);
 - (id);
 - (struct CGRect);
@@ -41,14 +35,7 @@
 - (struct CGRect);
 
 // Remaining properties
-@property(nonatomic) struct CGRect fromEndFrame; // @synthesize fromEndFrame=_fromEndFrame;
-@property(nonatomic) struct CGRect fromStartFrame; // @synthesize fromStartFrame=_fromStartFrame;
-@property(readonly, nonatomic) UXView *fromView;
 @property(retain, nonatomic) UXViewController *fromViewController; // @synthesize fromViewController=_fromViewController;
-@property(nonatomic) struct CGRect toEndFrame; // @synthesize toEndFrame=_toEndFrame;
-@property(nonatomic) struct CGRect toStartFrame; // @synthesize toStartFrame=_toStartFrame;
-@property(readonly, nonatomic) UXView *toView;
-@property(retain, nonatomic) UXViewController *toViewController; // @synthesize toViewController=_toViewController;
 
 @end
 

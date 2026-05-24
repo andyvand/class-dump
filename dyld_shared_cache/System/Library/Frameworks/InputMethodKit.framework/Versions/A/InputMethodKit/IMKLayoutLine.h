@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface IMKLayoutLine
 {
     NSString *_groupName;
-    NSMutableArray *_layoutUnitsInternal;
 }
 
 - (void);
@@ -21,8 +20,6 @@
 - (void)Released;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(readonly, nonatomic) NSArray *layoutUnits;
 @property(retain, nonatomic) NSMutableArray *layoutUnitsInternal; // @synthesize layoutUnitsInternal=_layoutUnitsInternal;
 
 @end

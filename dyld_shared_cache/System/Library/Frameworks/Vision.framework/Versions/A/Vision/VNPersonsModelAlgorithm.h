@@ -9,10 +9,10 @@
 }
 
 + (_Bool);
-- (id);
+- (id)fp_existingURLOfChildWithName:(id)arg1 isFolder:notMatchingFileID:nextAvailableBounceNumber:forceFetchingBounceNumber: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (Class);
+- (Class)R;
 - (id);
 
 // Remaining properties

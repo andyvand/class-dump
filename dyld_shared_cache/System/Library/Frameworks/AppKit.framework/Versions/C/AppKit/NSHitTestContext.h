@@ -7,17 +7,15 @@
 @interface NSHitTestContext
 {
     struct CGPoint _point;
-    double _radius;
 }
 
-+ (id);
-- (id);
-- (double)dowOrderingToSwapPriorWindow:withNewWindow: /* Error: Ran out of types for this method. */;
++ (id).Networking;
+- (id)tBody>="__ptr_"^{RequestBody}"__cntrl_"^{__shared_weak_count}};
+- (double)_doWindowOrderingToSwapPriorWindow:withNewWindow: /* Error: Ran out of types for this method. */;
 - (struct CGPoint)Ô;
 
 // Remaining properties
 @property(readonly) struct CGPoint point; // @synthesize point=_point;
-@property(readonly) double radius; // @synthesize radius=_radius;
 
 @end
 

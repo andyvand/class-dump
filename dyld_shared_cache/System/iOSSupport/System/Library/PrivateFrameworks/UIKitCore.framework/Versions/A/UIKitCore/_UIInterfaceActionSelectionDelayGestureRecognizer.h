@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
     UIDelayedAction *_delayedAction;
 }
 
-- (void);
+- (void)es;
 - (void);
 - (id);
-- (void)hHandle:(id)arg1;
-- (void)AnimatableLeftViewNowIfNeeded;
-- (void)Internal;
+- (void)movieScrubberDidBeginScrubbing:(id)arg1 withHandle:(id)arg2;
+- (void)_showSymbolAnimatableLeftViewNowIfNeeded;
+- (void)_UIMorphableInternal;
 - (void)ôtþ5§43¼tþ§43ìtþ;
 
 // Remaining properties

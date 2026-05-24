@@ -7,38 +7,33 @@
 @interface GEORPFeedbackBooleanField
 {
     _Bool _edited;
-    _Bool _original;
-    CDStruct_ccf110de _flags;
 }
 
-+ (_Bool)IsShifted:(id)arg1;
++ (_Bool)setIsShifted:(id)arg1;
 - (void);
-- (void);
+- (void)decodeObjectOfClasses:(_Bool)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)ust not be nil;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)th %{public}.3f confidence;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ildItems"b1"has_maxChildPlaces"b1"has_supportChildItems"b1};
 - (_Bool)";
-- (id)dServiceTag: /* Error: Ran out of types for this method. */;
+- (id)addServiceTag: /* Error: Ran out of types for this method. */;
 - (id)ÐÑ;
-- (id)lCommand;
+- (id)normalCommand;
 
 // Remaining properties
-@property(nonatomic) _Bool edited;
-@property(nonatomic) _Bool hasEdited;
 @property(nonatomic) _Bool hasOriginal;
-@property(nonatomic) _Bool original;
 
 @end
 

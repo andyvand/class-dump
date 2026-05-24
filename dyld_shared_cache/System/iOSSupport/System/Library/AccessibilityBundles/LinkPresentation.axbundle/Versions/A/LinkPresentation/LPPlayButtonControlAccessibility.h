@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)__PUTrimToolControllerAccessibility_super;
 - (void);
 - (_Bool);
 - (void);

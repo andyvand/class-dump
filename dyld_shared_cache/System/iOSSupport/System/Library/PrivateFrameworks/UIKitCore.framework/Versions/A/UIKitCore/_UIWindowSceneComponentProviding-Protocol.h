@@ -9,7 +9,7 @@
 @protocol _UIWindowSceneComponentProviding
 
 @optional
-- (UITraitCollection *)bItemAppearanceStorage;
+- (UITraitCollection *)tabItemAppearanceStorage;
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *_traitOverrides;

@@ -14,12 +14,12 @@
     double __multiplier;
 }
 
-- (id);
+- (id)isScreenLocked;
 - (void);
-- (id);
-- (double);
-- (void);
-- (void);
+- (id)ctionClass:%{public}s itemIdentifier:%s typeIdentifier:%s options:%ld /* Error: Ran out of types for this method. */;
+- (double)nable, won't try again.;
+- (void)to wait for chats to be loaded;
+- (void)rge:(double *)arg1 %d forced:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)Ø@[;

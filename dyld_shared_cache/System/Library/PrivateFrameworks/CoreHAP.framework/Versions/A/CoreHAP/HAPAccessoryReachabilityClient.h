@@ -4,41 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAP2PropertyLock, HAP2SerializedOperationQueue, HAPDeviceID, HMFTimer, NSString;
-@protocol HAPAccessoryReachabilityDelegate, HAPAccessoryReachabilityProfile;
+@protocol HAPAccessoryReachabilityProfile;
 
 __attribute__((visibility("hidden")))
 @interface HAPAccessoryReachabilityClient
 {
     id <HAPAccessoryReachabilityProfile> _profile;
-    id <HAPAccessoryReachabilityDelegate> _delegate;
-    HAP2SerializedOperationQueue *_operationQueue;
-    HAP2PropertyLock *_propertyLock;
-    HAPDeviceID *_identifier;
-    long long _state;
-    HMFTimer *_activityTimer;
-    double _confirmInterval;
 }
 
-+ (id);
++ (id)F Document (file type);
 + (id);
 + (void)ic;
 + (id)art discovering:%@ /* Error: Ran out of types for this method. */;
 - (id);
+- (void)#;
 - (void);
 - (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (id);
+- (double);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -47,21 +39,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void)haracteristic: /* Error: Ran out of types for this method. */;
+- (void)setNotifyValue:forCharacteristic: /* Error: Ran out of types for this method. */;
 - (void)public}@Invalid setup exchange data:(long long)arg1 %@;
 
 // Remaining properties
-@property(readonly, nonatomic) double confirmInterval; // @synthesize confirmInterval=_confirmInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <HAPAccessoryReachabilityDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) id <HAPAccessoryReachabilityProfile> profile; // @synthesize profile=_profile;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

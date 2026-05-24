@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSObject, NSString, NSTimer, VGExternalAccessory;
-@protocol OS_dispatch_queue, VGDataCoordinatorDelegate, VGOEMApplicationFinding;
+@class NSArray;
+@protocol VGDataCoordinatorDelegate;
 
 @interface VGDataCoordinator
 {
     id <VGDataCoordinatorDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id <VGOEMApplicationFinding> _applicationFinder;
-    NSArray *_applications;
-    VGExternalAccessory *_accessory;
-    NSMutableArray *_unpairedVehicles;
-    NSTimer *_vehicleStateRefreshTimer;
-    NSMutableSet *_observedVehicles;
 }
 
 - (void);
@@ -25,16 +17,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)u;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)P:(id)arg1 %u, RSRQ:%u, SCS:%u, Is SA:%u, Bandwidth:%u, BWP Support:%u, Neighbor Type:%u, Throughput:%u /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)&;
 - (void);
 - (unsigned long long);
 - (void);
@@ -43,24 +35,17 @@
 - (id);
 - (void);
 - (void);
+- (void)amework/Versions/A/QuartzCore;
 - (void);
 - (void);
+- (id)_selectedView;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSArray *unpairedVehicles;
 
 @end

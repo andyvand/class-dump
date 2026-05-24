@@ -12,10 +12,10 @@
 }
 
 + (_Bool);
+- (id)ized with a configuration name (%@) - the configuration will be ignored.;
+- (id)g file with backupd :%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 

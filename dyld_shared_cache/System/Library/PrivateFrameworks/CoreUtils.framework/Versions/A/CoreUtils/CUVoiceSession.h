@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUVoiceRequest, NSMutableArray, NSObject, NSString, SiriTTSDaemonSession;
+@class CUVoiceRequest, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUVoiceSession
 {
     CUVoiceRequest *_currentRequest;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    unsigned int _invalidateFlags;
-    NSMutableArray *_requests;
-    SiriTTSDaemonSession *_speechSynthesizer;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -36,15 +28,13 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)`;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 
 @end
 

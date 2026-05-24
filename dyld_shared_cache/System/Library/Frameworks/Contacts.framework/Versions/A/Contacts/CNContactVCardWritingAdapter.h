@@ -4,17 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNVCardWritingOptions, NSArray, NSData, NSDateComponents, NSDictionary, NSString;
+@class CNContact, NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNContactVCardWritingAdapter
 {
     CNContact *_contact;
-    CNVCardWritingOptions *_options;
 }
 
 + (id);
-+ (id);
++ (id)C;
+- (id);
+- (id);
+- (id);
+- (id)`@9H;
 - (id);
 - (id);
 - (id);
@@ -27,11 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (int);
@@ -49,22 +48,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)k;
+- (id)_activityAlerts;
 - (int);
 - (id);
 - (id);
+- (id)kRegistrationSetBandInfo;
+- (id);
+- (id)ipSimpleBackoffTimer13scheduleRetryEvE3$_0;
 - (id);
 - (id);
+- (id)inIdentifier;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)utex_t="__sig"q"__opaque"[56c]};
 - (id);
 - (id);
 - (id);
@@ -77,69 +76,7 @@ __attribute__((visibility("hidden")))
 - (id) ;
 
 // Remaining properties
-@property(readonly) NSDictionary *activityAlerts;
-@property(readonly) NSArray *addressingGrammars;
-@property(readonly) NSDateComponents *alternateBirthdayComponents;
-@property(readonly) NSDateComponents *birthdayComponents;
-@property(readonly) NSArray *calendarURIs;
-@property(readonly) NSString *cardDAVUID;
-@property(readonly) NSString *companyName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) NSString *department;
-@property(readonly, copy) NSString *description;
-@property(readonly) int downtimeWhitelistAuthorization;
-@property(readonly) NSArray *emailAddresses;
 @property(readonly) NSString *firstName;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSData *imageBackgroundColorsData;
-@property(readonly) NSDictionary *imageCropRects;
-@property(readonly) NSData *imageData;
-@property(readonly) NSData *imageHash;
-@property(readonly) NSArray *imageReferences;
-@property(readonly) NSString *imageType;
-@property(readonly) NSArray *instantMessagingAddresses;
-@property(readonly) _Bool isCompany;
-@property(readonly) _Bool isMe;
-@property(readonly) NSString *jobTitle;
-@property(readonly) NSDictionary *largeImageCropRects;
-@property(readonly) NSData *largeImageData;
-@property(readonly) NSString *lastName;
-@property(readonly) NSString *maidenName;
-@property(readonly) NSData *memojiMetadata;
-@property(readonly) NSString *middleName;
-@property(readonly) int nameOrder;
-@property(readonly) NSArray *namesOfParentGroups;
-@property(readonly) NSString *nickname;
-@property(readonly) NSString *note;
-@property(readonly) NSString *organization;
-@property(readonly) NSArray *otherDateComponents;
-@property(readonly) NSArray *phoneNumbers;
-@property(readonly) NSString *phonemeData;
-@property(readonly) NSString *phoneticFirstName;
-@property(readonly) NSString *phoneticLastName;
-@property(readonly) NSString *phoneticMiddleName;
-@property(readonly) NSString *phoneticOrganization;
-@property(readonly) NSArray *postalAddresses;
-@property(readonly) NSString *posterIdentifier;
-@property(readonly) NSString *preferredApplePersonaIdentifier;
-@property(readonly) NSString *preferredLikenessSource;
-@property(readonly) NSString *pronunciationFirstName;
-@property(readonly) NSString *pronunciationLastName;
-@property(readonly) NSArray *relatedNames;
-@property(readonly) NSData *sensitiveContentConfiguration;
-@property(readonly) int sharedPhotoDisplayPreference;
-@property(readonly) NSArray *socialProfiles;
-@property(readonly) NSString *suffix;
-@property(readonly) Class superclass;
-@property(readonly) NSString *title;
-@property(readonly) NSString *uid;
-@property(readonly) NSArray *unknownProperties;
-@property(readonly) NSArray *urls;
-@property(readonly) NSData *wallpaper;
-@property(readonly) NSData *watchWallpaperImageData;
 
 @end
 

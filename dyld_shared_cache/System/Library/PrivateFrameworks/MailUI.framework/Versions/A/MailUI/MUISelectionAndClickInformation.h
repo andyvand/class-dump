@@ -4,54 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MUIWebAttachmentController, NSArray, NSString, NSURL;
+@class NSArray;
 
 @interface MUISelectionAndClickInformation
 {
     _Bool _isTextInImage;
-    NSArray *_selectedAttachmentControllers;
-    MUIWebAttachmentController *_clickedAttachmentController;
-    NSURL *_clickedLinkURL;
-    NSURL *_clickedMediaURL;
-    NSURL *_clickedImageURL;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)4~;
+- (id));
+- (id));
+- (_Bool);
+- (id);
+- (id)Th"@9;
 - (void);
 - (id);
+- (id)@;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)alueDescription: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilityValueDescription: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MUIWebAttachmentController *clickedAttachmentController; // @synthesize clickedAttachmentController=_clickedAttachmentController;
-@property(retain, nonatomic) NSURL *clickedImageURL; // @synthesize clickedImageURL=_clickedImageURL;
-@property(retain, nonatomic) NSURL *clickedLinkURL; // @synthesize clickedLinkURL=_clickedLinkURL;
-@property(retain, nonatomic) NSURL *clickedMediaURL; // @synthesize clickedMediaURL=_clickedMediaURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isTextInImage; // @synthesize isTextInImage=_isTextInImage;
-@property(readonly, copy, nonatomic) NSArray *selectedAndClickedAttachmentControllers;
 @property(copy, nonatomic) NSArray *selectedAttachmentControllers; // @synthesize selectedAttachmentControllers=_selectedAttachmentControllers;
-@property(readonly) Class superclass;
 
 @end
 

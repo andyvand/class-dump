@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IMServiceAvailabilityMonitoring;
-
 @interface IMSharedMessageSendingUtilities
 {
     long long _serviceAvailability;
-    id <IMServiceAvailabilityMonitoring> _serviceAvailabilityMonitor;
 }
 
 + (id)bool}d;
 - (void);
 - (void);
-- (id);
+- (id)TT;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -42,7 +39,6 @@
 
 // Remaining properties
 @property long long serviceAvailability; // @synthesize serviceAvailability=_serviceAvailability;
-@property(retain, nonatomic) id <IMServiceAvailabilityMonitoring> serviceAvailabilityMonitor; // @synthesize serviceAvailabilityMonitor=_serviceAvailabilityMonitor;
 
 @end
 

@@ -4,61 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDBezierPath;
-
 @interface TSWPRenderer
 {
     struct CGContext *_context;
-    _Bool _flipShadows;
-    double _viewScale;
-    TSDBezierPath *_interiorClippingPath;
-    _Bool _preventClipToColumn;
 }
 
 + (struct __CTFont *);
+- (void)or vocal attenuation;
+- (void)s type:(_Bool)arg1 %d;
+- (void)item account;
+- (void)network request for ;
+- (void)tion;
+- (_Bool)PLAYBACK_ERROR_ALERT_SUB_OFFLINE_;
+- (void);
+- (void)QUEUE EVENT RECEIVED    〔;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)R PROCESSING      ;
+- (void)it                     ;
 - (void);
 - (void);
+- (void)a playbackTimeDidChange event;
+- (void)me is too far back in the past and can't be use to generate a playbackTimeDidChange event;
+- (void)changed from ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)hangeNotification received for current item:(const void *)arg1;
+- (void)QueueWithInitialItem started - identifier=;
 - (struct CGRect);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)PodcastsArtworkCatalogDataSource;
+- (void);
 - (struct CGSize);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (double);
-- (void);
+- (void)=;
 - (void);
 - (id)^v32;
 
 // Remaining properties
 @property(nonatomic) _Bool flipShadows; // @synthesize flipShadows=_flipShadows;
-@property(retain, nonatomic) TSDBezierPath *interiorClippingPath; // @synthesize interiorClippingPath=_interiorClippingPath;
-@property(nonatomic) _Bool preventClipToColumn; // @synthesize preventClipToColumn=_preventClipToColumn;
-@property(nonatomic) double viewScale; // @synthesize viewScale=_viewScale;
 
 @end
 

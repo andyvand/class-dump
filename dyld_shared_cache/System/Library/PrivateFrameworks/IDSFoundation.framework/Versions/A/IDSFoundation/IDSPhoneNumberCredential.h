@@ -9,23 +9,19 @@
 @interface IDSPhoneNumberCredential
 {
     NSString *_telURI;
-    NSString *_credential;
-    long long _credentialType;
 }
 
 + (_Bool);
 - (id);
+- (id);
 - (id);
+- (id)H;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)`";
 - (long long);
 - (void)cDeviceIdentityContainer with a non-nil ngmVersion requires a non-nill IDSNGMPublicDeviceIdentity;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *credential; // @synthesize credential=_credential;
-@property(readonly, nonatomic) long long credentialType; // @synthesize credentialType=_credentialType;
 @property(readonly, nonatomic) NSString *telURI; // @synthesize telURI=_telURI;
 
 @end

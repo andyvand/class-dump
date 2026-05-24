@@ -5,5 +5,8 @@
 //
 
 @protocol CPSConfigurationService
+
+@optional
+- (void);
 @end
 

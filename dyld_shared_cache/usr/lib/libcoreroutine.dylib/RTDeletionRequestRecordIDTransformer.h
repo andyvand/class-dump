@@ -10,10 +10,10 @@
 
 + (_Bool);
 + (Class);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)dentity %@;
+- (id)l;
+- (_Bool)ng key from keychain:(unsigned long long)arg1 %@;
+- (id)gym;
 - (id);
 - (id);
 

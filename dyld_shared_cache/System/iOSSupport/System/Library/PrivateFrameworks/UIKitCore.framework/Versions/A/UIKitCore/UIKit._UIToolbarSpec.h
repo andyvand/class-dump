@@ -11,8 +11,8 @@
     UIKit._UIToolbarPaddingSpec *padding;
 }
 
-+ (id);
-- (void)DropDataOwner: /* Error: Ran out of types for this method. */;
++ (id)];
+- (void)_setDropDataOwner: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)(æp;

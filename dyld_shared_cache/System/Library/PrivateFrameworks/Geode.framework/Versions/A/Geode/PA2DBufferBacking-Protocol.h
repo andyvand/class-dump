@@ -5,6 +5,7 @@
 //
 
 @protocol PA2DBufferBacking
+- (struct CGColorSpace *);
 
 // Remaining properties
 @property(nonatomic) struct CGColorSpace *colorSpace;

@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage, NSMenu, NSString;
-
 @interface NSTableViewRowAction
 {
     long long _style;
-    NSString *_title;
-    CDUnknownBlockType _handler;
-    NSColor *_backgroundColor;
-    NSImage *_image;
-    NSMenu *_menu;
-    _Bool _allowsFullSwipe;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)URLSession:(id)arg1 aggregateAssetDownloadTask:(id)arg2 didLoadTimeRange:totalTimeRangesLoaded:timeRangeExpectedToLoad:forMediaSelection: /* Error: Ran out of types for this method. */;
++ (id)URLSession:(long long)arg1 aggregateAssetDownloadTask:(id)arg2 didLoadTimeRange:(CDUnknownBlockType)arg3 totalTimeRangesLoaded:timeRangeExpectedToLoad:forMediaSelection: /* Error: Ran out of types for this method. */;
++ (id)URLSession:(long long)arg1 aggregateAssetDownloadTask:(id)arg2 didCompleteForMediaSelection:(_Bool)arg3;
 - (void);
-- (id);
+- (id)ble;
 - (CDUnknownBlockType);
 - (_Bool);
 - (long long);
@@ -32,21 +24,15 @@
 - (void)qß3°1Â0@ù
 × ;
 - (void)NSScrollAnimationHelper";
-- (id)e;
+- (id)_updatePreviousContentType;
 - (void)TÌ;
 - (id)¼´
 ;
-- (id)s;
+- (id)NSThrowOnMismatchedDragItems;
 - (id);
 
 // Remaining properties
-@property _Bool allowsFullSwipe; // @synthesize allowsFullSwipe=_allowsFullSwipe;
-@property(copy) NSColor *backgroundColor;
 @property(readonly, nonatomic, getter=_handler) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(retain) NSImage *image; // @synthesize image=_image;
-@property(retain) NSMenu *menu; // @synthesize menu=_menu;
-@property long long style; // @synthesize style=_style;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

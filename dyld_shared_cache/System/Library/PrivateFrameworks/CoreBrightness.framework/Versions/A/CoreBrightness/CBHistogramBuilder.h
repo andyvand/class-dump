@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CBHistogramBuilder
 {
     NSMutableArray *_bins;
-    NSArray *_edges;
 }
 
+- (void);
 - (void);
-- (void);
+- (id)H1H;
 - (id);
-- (id);
-- (void);
+- (void)1';
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly) NSMutableArray *bins; // @synthesize bins=_bins;
-@property(readonly) NSArray *edges; // @synthesize edges=_edges;
 
 @end
 

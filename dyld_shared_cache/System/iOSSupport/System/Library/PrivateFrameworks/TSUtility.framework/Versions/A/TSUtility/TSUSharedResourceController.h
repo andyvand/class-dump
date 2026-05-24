@@ -4,44 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSObject, NSString;
-@protocol OS_dispatch_group, TSUSharedResourceControllerDelegate;
+@class NSString;
 
 @interface TSUSharedResourceController
 {
     int _acquirerCount;
-    id <TSUSharedResourceControllerDelegate> _delegate;
-    NSString *_resourceForThreadKey;
-    NSString *_hasResourceForThreadKey;
-    NSCondition *_resourceLock;
-    id _resource;
-    struct {
-        unsigned int canWaitOnMainThread:1;
-        unsigned int acquiresResourceAsynchronously:1;
-        unsigned int hasResource:1;
-    } _flags;
-    int _threadsAcquiringResourceCount;
-    NSCondition *_waitLock;
-    int _waitCount;
-    NSObject<OS_dispatch_group> *_accessInProgressGroup;
-    NSObject<OS_dispatch_group> *_willEndAccessGroup;
-    NSString *_UUID;
 }
 
+- (void)appConfigurationManager;
+- (void)articleForYouAvailability;
 - (void);
+- (void)formatService;
+- (void)articleUnlike;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)titleHypenationFactor;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)favoringTagIDs;
+- (void)nowDate;
+- (_Bool)offerIdentifier;
+- (void)headers;
 - (id);
-- (void);
+- (void)`B;
 - (id);
 - (id);
 - (id);
@@ -49,7 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UUID; // @synthesize UUID=_UUID;
-@property(nonatomic) _Bool canWaitOnMainThread;
 
 @end
 

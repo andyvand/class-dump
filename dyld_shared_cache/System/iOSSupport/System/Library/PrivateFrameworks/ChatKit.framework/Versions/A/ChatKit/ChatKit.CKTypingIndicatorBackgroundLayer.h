@@ -7,7 +7,6 @@
 @interface ChatKit.CKTypingIndicatorBackgroundLayer
 {
     id backgroundLayer;
-    id fillStyle;
 }
 
 - (id);

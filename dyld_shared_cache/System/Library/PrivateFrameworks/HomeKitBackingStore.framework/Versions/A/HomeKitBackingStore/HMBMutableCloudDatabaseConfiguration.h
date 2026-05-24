@@ -6,21 +6,16 @@
 
 #import <HomeKitBackingStore/HMBCloudDatabaseConfiguration.h>
 
-@class CKOperationConfiguration, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface HMBMutableCloudDatabaseConfiguration : HMBCloudDatabaseConfiguration
 {
 }
 
-- (id);
+- (id)ublic}@;
 
 // Remaining properties
-@property(copy) CKOperationConfiguration *defaultOperationConfiguration; // @dynamic defaultOperationConfiguration;
-@property(getter=isManateeContainer) _Bool manateeContainer; // @dynamic manateeContainer;
-@property(retain) NSObject<OS_dispatch_queue> *operationQueue; // @dynamic operationQueue;
 @property(copy) NSString *sourceApplicationBundleIdentifier; // @dynamic sourceApplicationBundleIdentifier;
-@property long long subscriptionPushRegistrationAction; // @dynamic subscriptionPushRegistrationAction;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayLayoutMonitor, NSDictionary, NSMutableDictionary, NSString, NSUserDefaults, NSXPCListener, PKPencilTouchDetectionGestureRecognizer;
+@class NSXPCListener;
 
 @interface PKPencilTouchDetectionService
 {
     _Bool _isListening;
-    _Bool _wereFrontBoardOverlaysEnabled;
-    NSXPCListener *_listener;
-    FBSDisplayLayoutMonitor *_displayLayoutMonitor;
-    PKPencilTouchDetectionGestureRecognizer *_detectionGesture;
-    NSUserDefaults *_pencilDefaults;
-    NSMutableDictionary *_timestamps;
-    NSDictionary *_userInfoForNotification;
-    double _activePencilUsageTimestamp;
 }
 
 + (void);
@@ -57,22 +49,7 @@
 - (void)¶;
 
 // Remaining properties
-@property(nonatomic) double activePencilUsageTimestamp; // @synthesize activePencilUsageTimestamp=_activePencilUsageTimestamp;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PKPencilTouchDetectionGestureRecognizer *detectionGesture; // @synthesize detectionGesture=_detectionGesture;
-@property(retain, nonatomic) FBSDisplayLayoutMonitor *displayLayoutMonitor; // @synthesize displayLayoutMonitor=_displayLayoutMonitor;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isListening; // @synthesize isListening=_isListening;
 @property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(retain, nonatomic) NSUserDefaults *pencilDefaults; // @synthesize pencilDefaults=_pencilDefaults;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableDictionary *timestamps; // @synthesize timestamps=_timestamps;
-@property(retain, nonatomic) NSDictionary *userInfoForNotification; // @synthesize userInfoForNotification=_userInfoForNotification;
-@property(nonatomic) _Bool wereFrontBoardOverlaysEnabled; // @synthesize wereFrontBoardOverlaysEnabled=_wereFrontBoardOverlaysEnabled;
 
 @end
 

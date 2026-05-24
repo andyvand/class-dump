@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface CPCharacterDatabase
 {
     struct sqlite3 *_charDatabase;
-    struct sqlite3 *_relatedCharDatabase;
-    NSDictionary *_languageInfo;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)&;
 - (id);
 - (id);
 - (id);

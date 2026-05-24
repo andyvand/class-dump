@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void)MTLIOAccelBuffer<MTLBuffer>",R,N;
-- (id)le_performance_statistics;
+- (id)enable_performance_statistics;
 
 @end
 

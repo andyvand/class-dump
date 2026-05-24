@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
-
 @interface PKCreditInstallmentPlanLineItem
 {
     long long _type;
-    NSDecimalNumber *_amount;
-    unsigned long long _duration;
-    NSString *_itemDescription;
-    long long _state;
-    NSString *_identifier;
-    NSDecimalNumber *_paymentsToDateAmount;
 }
 
 + (_Bool)î%Ð1Â0@ù
@@ -23,7 +15,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)?;
 - (id);
 - (void);
 - (id);
@@ -32,25 +24,19 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (long long);
-- (long long);
-- (_Bool);
+- (long long)@0:8@16^{CGPDFPage=}24@32 /* Error: Ran out of types for this method. */;
+- (long long)ing"40@0:8@"NSTableView"16@"NSTableColumn"24q32 /* Error: Ran out of types for this method. */;
+- (_Bool)hasRestrictedNetworkCount;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id)X"°!¤Fùî%°1Â0@ù
 × ;
-- (id)rietaryData;
+- (id)_proprietaryData;
 - (void)element.reply;
 
 // Remaining properties
-@property(retain, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *itemDescription; // @synthesize itemDescription=_itemDescription;
-@property(retain, nonatomic) NSDecimalNumber *paymentsToDateAmount; // @synthesize paymentsToDateAmount=_paymentsToDateAmount;
-@property(nonatomic) long long state; // @synthesize state=_state;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

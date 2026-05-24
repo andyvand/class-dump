@@ -6,26 +6,25 @@
 
 #import <CharacterPicker/CPKDraggableView.h>
 
-@class CPKEmojiGraphics, EMFEmojiToken, NSTextField;
+@class CPKEmojiGraphics, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface CPKEmojiCellView : CPKDraggableView
 {
     CPKEmojiGraphics *_emojiGraphics;
-    EMFEmojiToken *_emojiToken;
-    NSTextField *_emojiField;
 }
 
+- (void)A;
+- (void)a;
 - (void);
-- (void);
-- (void);
+- (id);
+- (id)t
+;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (struct CGRect);
 - (struct CGRect);
@@ -34,8 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSTextField *emojiField; // @synthesize emojiField=_emojiField;
-@property(retain, nonatomic) CPKEmojiGraphics *emojiGraphics; // @synthesize emojiGraphics=_emojiGraphics;
-@property(retain, nonatomic) EMFEmojiToken *emojiToken; // @synthesize emojiToken=_emojiToken;
 
 @end
 

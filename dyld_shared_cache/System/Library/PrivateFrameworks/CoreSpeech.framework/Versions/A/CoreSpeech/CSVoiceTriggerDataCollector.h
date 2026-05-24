@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)Queue;
++ (id)_osdQueue;
 - (id);
 - (void);
 - (void);

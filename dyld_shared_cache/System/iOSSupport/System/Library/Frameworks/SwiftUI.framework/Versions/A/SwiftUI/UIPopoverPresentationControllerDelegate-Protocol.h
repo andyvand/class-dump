@@ -7,6 +7,8 @@
 @protocol UIPopoverPresentationControllerDelegate
 
 @optional
+- (void);
+- (void);
 - (void);
 @end
 

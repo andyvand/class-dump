@@ -9,27 +9,23 @@
 @interface SWTransparencyOperationConfiguration
 {
     NSString *_name;
-    long long _qualityOfService;
-    double _timeout;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)sions;
 - (long long);
 - (id);
-- (id);
+- (id)u;
 - (_Bool);
 - (void);
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)nstat_src_add_success;
 
 // Remaining properties
 @property(retain) NSString *name; // @synthesize name=_name;
-@property long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property double timeout; // @synthesize timeout=_timeout;
 
 @end
 

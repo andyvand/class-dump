@@ -9,9 +9,6 @@
 @interface CRRegionGeometryInfo : CRImageSpaceQuad
 {
     unsigned long long _layoutDirection;
-    double _estimatedLineHeight;
-    struct CGSize cachedSize;
-    struct CGVector _baselineVector;
 }
 
 - (void);
@@ -26,9 +23,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) struct CGVector baselineVector; // @synthesize baselineVector=_baselineVector;
-@property struct CGSize cachedSize; // @synthesize cachedSize;
-@property double estimatedLineHeight; // @synthesize estimatedLineHeight=_estimatedLineHeight;
 @property unsigned long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
 
 @end

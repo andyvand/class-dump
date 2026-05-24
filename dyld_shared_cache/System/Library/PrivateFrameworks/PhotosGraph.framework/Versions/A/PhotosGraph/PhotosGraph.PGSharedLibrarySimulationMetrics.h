@@ -7,16 +7,6 @@
 @interface PhotosGraph.PGSharedLibrarySimulationMetrics
 {
     id parameterName;
-    id overallPrecision;
-    id overallRecall;
-    id overallPrecisionAutosharedAssets;
-    id overallRecallAutosharedAssets;
-    id precisionPhotosChallengeAssets;
-    id recallPhotosChallengeAssets;
-    id realAlgorithmSimilarity;
-    id numberOfAssets;
-    id numberOfAutosharedAssets;
-    id numberOfPhotosChallengeAssets;
 }
 
 @end

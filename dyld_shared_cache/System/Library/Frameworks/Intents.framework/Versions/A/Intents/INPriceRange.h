@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSDecimalNumber;
 
 @interface INPriceRange
 {
     NSDecimalNumber *_minimumPrice;
-    NSDecimalNumber *_maximumPrice;
-    NSString *_currencyCode;
 }
 
-+ (id);
++ (id)requestWithThumbnailRequest:(id)arg1;
 + (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)deactivateLogical;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)handleNDDDoneEvent:(id)arg1 interface: /* Error: Ran out of types for this method. */;
+- (void)ThresholdCount:(id)arg1 %d;
 - (id);
 - (id);
 - (id);
-- (id)rm:(unsigned long long)arg1;
-- (void)searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)confirmationRequiredWithPersonToConfirm:(unsigned long long)arg1;
+- (void)providePriorityOptionsCollectionForAddTasks:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDecimalNumber *maximumPrice; // @synthesize maximumPrice=_maximumPrice;
 @property(readonly) NSDecimalNumber *minimumPrice; // @synthesize minimumPrice=_minimumPrice;
-@property(readonly) Class superclass;
 
 @end
 

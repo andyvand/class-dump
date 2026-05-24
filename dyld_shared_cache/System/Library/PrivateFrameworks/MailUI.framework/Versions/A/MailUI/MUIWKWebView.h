@@ -4,49 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MUISelectionAndClickInformation, MUIWKWebViewController, NSArray, NSDraggingSession, NSEvent, NSMutableArray, NSResponder, NSString;
-
 @interface MUIWKWebView
 {
     _Bool _acceptsScrollWheelChangedPhase;
-    _Bool _superViewIsControllingPreviewPanel;
-    _Bool _isForPrinting;
-    _Bool _preventNavigation;
-    _Bool _isDragging;
-    _Bool _isDraggingAttachments;
-    _Bool _isAcceptFirstMouse;
-    MUIWKWebViewController *_controller;
-    NSDraggingSession *_dragSession;
-    NSArray *_attachmentControllersToQuicklook;
-    NSEvent *_attachmentMouseDownEvent;
-    MUISelectionAndClickInformation *_dragSelectionAndClickInformation;
-    NSMutableArray *_queuedDragEvents;
-    NSResponder *_oldFirstResponder;
-    NSEvent *_prevKeyDown;
 }
 
 + (id);
 - (void);
 - (void);
+- (void)#;
 - (void);
-- (void);
-- (void);
+- (void)TN;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)	;
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)ka
+;
 - (id);
 - (id);
 - (id);
@@ -56,75 +41,55 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (struct CGRect);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (id);
-- (struct CGRect);
-- (void);
+- (struct CGRect)}S);
+- (void));
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)=;
 - (void);
 - (struct CGSize);
 - (void);
 - (struct CGRect);
-- (_Bool);
+- (_Bool)qA;
+- (void)hByh;
+- (void);
+- (id)N2cv14MorphRowFilterINS_5MaxOpItEENS_13MorphRowNoVecEEE;
+- (long long)qa;
 - (void);
 - (void);
+- (id)set_defaultHasShadow:(id)arg1;
+- (id){;
 - (id);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)maticallySummarizeMessages: /* Error: Ran out of types for this method. */;
+- (void)setAutomaticallySummarizeMessages: /* Error: Ran out of types for this method. */;
 - (_Bool)tRepository;
 - (void)ÿÿ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *attachmentControllersToQuicklook; // @synthesize attachmentControllersToQuicklook=_attachmentControllersToQuicklook;
-@property(retain, nonatomic) NSEvent *attachmentMouseDownEvent; // @synthesize attachmentMouseDownEvent=_attachmentMouseDownEvent;
-@property(nonatomic) __weak MUIWKWebViewController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MUISelectionAndClickInformation *dragSelectionAndClickInformation; // @synthesize dragSelectionAndClickInformation=_dragSelectionAndClickInformation;
-@property(retain, nonatomic) NSDraggingSession *dragSession; // @synthesize dragSession=_dragSession;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAcceptFirstMouse; // @synthesize isAcceptFirstMouse=_isAcceptFirstMouse;
 @property(nonatomic) _Bool isDragging; // @synthesize isDragging=_isDragging;
-@property(nonatomic) _Bool isDraggingAttachments; // @synthesize isDraggingAttachments=_isDraggingAttachments;
-@property(nonatomic) _Bool isForPrinting; // @synthesize isForPrinting=_isForPrinting;
-@property(retain, nonatomic) NSResponder *oldFirstResponder; // @synthesize oldFirstResponder=_oldFirstResponder;
-@property(nonatomic) __weak NSEvent *prevKeyDown; // @synthesize prevKeyDown=_prevKeyDown;
-@property(nonatomic) _Bool preventNavigation; // @synthesize preventNavigation=_preventNavigation;
-@property(retain, nonatomic) NSMutableArray *queuedDragEvents; // @synthesize queuedDragEvents=_queuedDragEvents;
-@property(readonly, copy, nonatomic) NSArray *selectedAttachmentControllers;
-@property(readonly) Class superclass;
 
 @end
 

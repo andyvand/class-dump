@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAddressObjectGeocodingResult
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_disambiguationLabels;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (id)"I}"ourl_count"I};
 - (id)VaddValueNameType;

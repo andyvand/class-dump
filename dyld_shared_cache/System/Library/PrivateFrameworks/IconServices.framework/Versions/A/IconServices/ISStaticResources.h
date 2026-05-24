@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSDictionary;
+@class NSCache;
 
 __attribute__((visibility("hidden")))
 @interface ISStaticResources
 {
     NSCache *_cache;
-    NSDictionary *__fileResourcesAssetNameMaps;
 }
 
 + (id);
@@ -18,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)__AUTH_CONST;
+- (id);
+- (id)__const;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)__objc_stubs;
 - (id);
 - (id);
 - (id);
@@ -33,12 +32,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *_fileResourcesAssetNameMaps; // @synthesize _fileResourcesAssetNameMaps=__fileResourcesAssetNameMaps;
 @property(retain) NSCache *cache; // @synthesize cache=_cache;
 
 @end

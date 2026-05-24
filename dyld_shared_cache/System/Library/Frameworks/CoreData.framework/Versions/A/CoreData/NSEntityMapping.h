@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSExpression, NSMutableArray, NSString;
+@class NSString;
 
 @interface NSEntityMapping
 {
     void *_reserved;
-    void *_reserved1;
-    NSDictionary *_mappingsByName;
-    NSString *_name;
-    unsigned long long _mappingType;
-    NSString *_sourceEntityName;
-    NSData *_sourceEntityVersionHash;
-    NSString *_destinationEntityName;
-    NSData *_destinationEntityVersionHash;
-    NSExpression *_sourceExpression;
-    NSDictionary *_userInfo;
-    NSString *_entityMigrationPolicyClassName;
-    NSMutableArray *_attributeMappings;
-    NSMutableArray *_relationshipMappings;
-    struct __entityMappingFlags {
-        unsigned int _isInUse:1;
-        unsigned int _changeIsSchemaCompatible:1;
-        unsigned int _reservedEntityMapping:30;
-    } _entityMappingFlags;
 }
 
 + (_Bool);
@@ -44,12 +26,12 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (id) ;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)4;
 - (void);
 - (id);
 - (void);
@@ -68,17 +50,7 @@
 - (void)oneName = %@ AND ownerName = %@ AND recordName in %@;
 
 // Remaining properties
-@property(retain) NSArray *attributeMappings;
-@property(copy) NSString *destinationEntityName;
-@property(copy) NSData *destinationEntityVersionHash;
-@property(copy) NSString *entityMigrationPolicyClassName;
-@property unsigned long long mappingType;
 @property(copy) NSString *name;
-@property(retain) NSArray *relationshipMappings;
-@property(copy) NSString *sourceEntityName;
-@property(copy) NSData *sourceEntityVersionHash;
-@property(retain) NSExpression *sourceExpression;
-@property(retain, nonatomic) NSDictionary *userInfo;
 
 @end
 

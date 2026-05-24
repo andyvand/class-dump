@@ -6,14 +6,11 @@
 
 #import <SystemMigration/SMSystem_Daemon.h>
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface SMSystem_Daemon_TimeCapsule : SMSystem_Daemon
 {
     NSMutableArray *availableShares;
-    NSString *humanName;
-    NSObject<OS_dispatch_queue> *sharesQueue;
 }
 
 + (id);
@@ -34,12 +31,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(retain) NSMutableArray *availableShares; // @synthesize availableShares;
-@property(retain) NSString *humanName; // @synthesize humanName;
-@property(retain) NSObject<OS_dispatch_queue> *sharesQueue; // @synthesize sharesQueue;
 
 @end
 

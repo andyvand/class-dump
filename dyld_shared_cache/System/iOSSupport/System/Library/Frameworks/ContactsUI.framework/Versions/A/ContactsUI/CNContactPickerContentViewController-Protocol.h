@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBarButtonItem, UINavigationController;
 @protocol CNContactPickerContentDelegate;
 
 @protocol CNContactPickerContentViewController
 
 // Remaining properties
-@property(readonly, nonatomic) UIBarButtonItem *addContactBarButtonItem;
 @property(nonatomic) __weak id <CNContactPickerContentDelegate> delegate;
-@property(readonly, nonatomic) UINavigationController *navigationController;
 @end
 

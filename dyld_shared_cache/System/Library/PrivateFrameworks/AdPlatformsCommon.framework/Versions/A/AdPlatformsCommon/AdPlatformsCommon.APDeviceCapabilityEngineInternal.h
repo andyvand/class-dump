@@ -7,7 +7,6 @@
 @interface AdPlatformsCommon.APDeviceCapabilityEngineInternal
 {
     id engine;
-    id fallback;
 }
 
 - (unsigned int);

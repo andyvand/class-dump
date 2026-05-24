@@ -10,30 +10,19 @@ __attribute__((visibility("hidden")))
 @interface OADTileTechnique : OADImageFillTechnique
 {
     float mOffsetX;
-    _Bool mIsOffsetXOverridden;
-    float mOffsetY;
-    _Bool mIsOffsetYOverridden;
-    float mScaleX;
-    _Bool mIsScaleXOverridden;
-    float mScaleY;
-    _Bool mIsScaleYOverridden;
-    int mFlipMode;
-    _Bool mIsFlipModeOverridden;
-    int mAlignment;
-    _Bool mIsAlignmentOverridden;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)�(;
 - (void);
 - (void);
 - (float);
 - (float);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -41,8 +30,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (void);
-- (float);
-- (float);
+- (float);
+- (float)b;
 - (unsigned long long);
 - (int);
 - (_Bool);

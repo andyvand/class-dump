@@ -6,25 +6,17 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UITabSidebarBorderView : UIView
 {
 }
 
-- (id)Mode:(struct CGRect)arg1;
+- (id)_legacy_drawAtPoint:(struct CGRect)arg1 forWidth:withFont:lineBreakMode: /* Error: Ran out of types for this method. */;
 - (id)ectly on a view controller is not supported, and may result in out-of-order callbacks and other inconsistent behavior. Use the -beginAppearanceTransition:(id)arg1 animated:(id)arg2 and -endAppearanceTransition APIs on UIViewController to manually drive appearance callbacks instead. Make a symbolic breakpoint at UIViewControllerAlertForAppearanceCallbackMisuse to catch this in the debugger. View controller:(id)arg3 %@;
 - (id)?0I8@"PBItemCollection"12;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,6 +7,7 @@
 @class SCNTechnique;
 
 @protocol SCNTechniqueSupport
+- (SCNTechnique *);
 
 // Remaining properties
 @property(copy, nonatomic) SCNTechnique *technique;

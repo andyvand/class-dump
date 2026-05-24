@@ -9,19 +9,17 @@
 @interface SLSBridgedSpaceRemoveOwnerOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     int _owner;
-    unsigned long long _spaceID;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)alizeCachesWithManagedObjectContext:andObservedStore:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)entityId;
 - (unsigned long long);
-- (id);
+- (id)(;
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly) int owner; // @synthesize owner=_owner;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

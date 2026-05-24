@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSString;
-
 @interface SAMPGeniusSummonFailed : SABaseCommand
 {
 }
@@ -19,25 +17,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)/;
 - (void);
 - (id);
 - (_Bool);
-- (void)rriddenSpeech:(long long)arg1;
+- (void)setOverriddenSpeech:(long long)arg1;
 - (long long)eä;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) long long errorCode;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *reason;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

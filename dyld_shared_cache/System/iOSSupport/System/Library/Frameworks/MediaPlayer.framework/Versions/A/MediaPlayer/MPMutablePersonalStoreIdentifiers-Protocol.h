@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol MPMutablePersonalStoreIdentifiers
+- (void)4;
+- (void);
+- (void)>;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cloudAlbumID;
-@property(copy, nonatomic) NSString *cloudArtistID;
 @property(nonatomic) unsigned long long cloudID;
-@property(copy, nonatomic) NSString *recommendationID;
 @end
 

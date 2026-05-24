@@ -12,12 +12,12 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)+;
 - (id);
 - (_Bool);
-- (id);
+- (id)FCReaderSession handleSessionSuspended:] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)v16@0:8 /* Error: Ran out of types for this method. */;
 
 @end
 

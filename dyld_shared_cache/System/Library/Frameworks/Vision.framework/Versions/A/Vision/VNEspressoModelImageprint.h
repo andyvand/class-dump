@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, VNRequestSpecifier;
+@class NSData, VNRequestSpecifier;
 
 @interface VNEspressoModelImageprint
 {
     VNRequestSpecifier *_originatingRequestSpecifier;
-    unsigned long long _elementType;
-    unsigned long long _serializationOptions;
-    NSData *_descriptorData;
-    unsigned long long _elementCount;
-    unsigned long long _confidenceScoreType;
-    NSString *_version;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -30,21 +24,21 @@
 + (_Bool);
 + (id);
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (id)`B;
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -52,12 +46,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)snapshotWithSignature:(id)arg1 duration:(id *)arg2 event:payload:reply: /* Error: Ran out of types for this method. */;
+- (id)setCreationTime: /* Error: Ran out of types for this method. */;
+- (id)beginOperation;
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (unsigned long long);
 - (id);
@@ -67,15 +61,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long confidenceScoreType; // @synthesize confidenceScoreType=_confidenceScoreType;
 @property(readonly) NSData *descriptorData; // @synthesize descriptorData=_descriptorData;
-@property(readonly) unsigned long long elementCount; // @synthesize elementCount=_elementCount;
-@property(readonly) unsigned long long elementType;
-@property(readonly) unsigned long long lengthInBytes;
-@property(readonly) VNRequestSpecifier *originatingRequestSpecifier;
-@property(readonly, nonatomic) unsigned long long requestRevision;
-@property(readonly, nonatomic) unsigned long long serializedLength;
-@property(readonly) NSString *version; // @synthesize version=_version;
 
 @end
 

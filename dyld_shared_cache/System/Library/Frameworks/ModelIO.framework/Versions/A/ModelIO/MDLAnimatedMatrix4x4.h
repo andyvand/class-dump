@@ -16,9 +16,9 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (struct VtValue);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (unsigned long long);
 - (unsigned long long);
 - (id);

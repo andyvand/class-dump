@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface PXStoryMovieHighlightsConcreteCollection
 {
@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id)tionHandler:(struct _NSZone *)arg1;
+- (id)setMultipleContributorsEnabled:(struct _NSZone *)arg1 forSharedAlbum:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)tl¥SgGG%¥G_AAyám¥Ô5¥G.h¥AUtGG_Qo_ASG_AAy!(¥yói¥yAAyAAyAAyAAyAjKyUg¥SgGGAMGi[¥yAOGGASG_Sx¦y­>¥GQo__Qo_ASGtGGU¥y$s¥GG_Qo__AAyA22_±=¥GQo__?B¥Qo__Qo_U¥y"¥GGSgGA29_y¾¥GGG_Qo__Qo__µ¥Qo_A29_y(#¥GG;
 - (long long)ple local identifiers:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 
 @end
 

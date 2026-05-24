@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface UAFSchemaUAFClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_uafId;
-    _Bool _hasUafId;
 }
 
 - (id);
@@ -23,17 +22,15 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_creationDate;
+- (_Bool)AND m.service IN ('%@', '%@')   AND m.is_sent = 1   AND m.is_delivered = 0   AND m.was_downgraded = 0   AND m.item_type == 0   AND m.schedule_type == 0   AND m.ROWID > ? ORDER BY m.date ASC;
 - (id);
 - (id);
-- (id)nectionSnapshotCaptured;
-- (id)Order;
-- (void);
+- (id)deleteSessionConnectionSnapshotCaptured;
+- (id)_ngramOrder;
+- (void)rewrittenUtterancesMetadata;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUafId; // @synthesize hasUafId=_hasUafId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *uafId; // @synthesize uafId=_uafId;
 
 @end

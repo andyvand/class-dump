@@ -6,30 +6,24 @@
 
 #import <UIKitCore/UIDraggingSessionConfiguration.h>
 
-@class NSArray, UIView;
-
 __attribute__((visibility("hidden")))
 @interface UIDraggingBeginningSessionConfiguration : UIDraggingSessionConfiguration
 {
     long long _dataOwner;
-    UIView *_sourceView;
-    NSArray *_items;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
+- (id)28@"NSString"36@"NSData"44@"NSString"52@"NSData"60q68;
+- (long long);
 - (id);
-- (long long);
-- (id);
-- (id)nItemDidUpdateSearchController:oldSearchController: /* Error: Ran out of types for this method. */;
+- (id)_navigationItemDidUpdateSearchController:oldSearchController: /* Error: Ran out of types for this method. */;
 - (void)X½¬ÿE2Üàgh;
 
 // Remaining properties
 @property(readonly, nonatomic) long long dataOwner; // @synthesize dataOwner=_dataOwner;
-@property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) UIView *sourceView; // @synthesize sourceView=_sourceView;
 
 @end
 

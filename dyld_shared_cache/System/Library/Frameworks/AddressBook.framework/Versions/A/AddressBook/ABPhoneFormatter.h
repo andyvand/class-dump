@@ -11,7 +11,7 @@
     CNCache *_formattedPhoneNumbersCache;
 }
 
-+ (id);
++ (id)?ר#;
 + (_Bool);
 + (id);
 + (id);
@@ -26,7 +26,7 @@
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (id)ToKeyMap;
+- (id)_propertyToKeyMap;
 
 // Remaining properties
 @property(readonly, nonatomic) CNCache *formattedPhoneNumbersCache; // @synthesize formattedPhoneNumbersCache=_formattedPhoneNumbersCache;

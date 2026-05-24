@@ -6,26 +6,22 @@
 
 #import <ProactiveSupport/_PASSqliteKeyValueCursor.h>
 
-@class NSDictionary, NSEnumerator;
+@class NSDictionary;
 
 @interface _PASSqliteNSDictionaryCursor : _PASSqliteKeyValueCursor
 {
     NSDictionary *_dictionary;
-    NSEnumerator *_keysEnumerator;
-    id _currentKey;
-    id _currentValue;
-    id _valueEqualTo;
 }
 
 + (const char *);
-+ (id);
++ (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
+- (id)Rl;
+- (void)UINSSceneWindowController;
+- (void)t";
 - (void);
 
 // Remaining properties

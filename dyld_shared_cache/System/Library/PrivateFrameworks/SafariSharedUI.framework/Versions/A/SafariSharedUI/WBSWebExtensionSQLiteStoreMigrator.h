@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL, NSUserDefaults;
+@class NSUserDefaults;
 
 @interface WBSWebExtensionSQLiteStoreMigrator
 {
     NSUserDefaults *_userDefaults;
-    NSURL *_safariContainerSettingsDirectoryURL;
-    NSArray *_storeFileNameMappings;
-    NSURL *_safariWebExtensionSettingsDirectoryURLForDefaultProfile;
-    NSURL *_webKitWebExtensionSettingsDirectoryURLForDefaultProfile;
-    NSURL *_safariProfilesDirectoryURL;
-    NSURL *_webKitProfilesDirectoryURL;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -30,7 +24,7 @@
 - (void);
 - (id);
 - (void);
-- (void)ries;
+- (void)_allowRetries;
 
 @end
 

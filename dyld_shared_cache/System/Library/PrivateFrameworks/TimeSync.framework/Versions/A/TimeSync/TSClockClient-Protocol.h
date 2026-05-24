@@ -5,5 +5,9 @@
 //
 
 @protocol TSClockClient
+
+@optional
+- (void);
+- (void)C;
 @end
 

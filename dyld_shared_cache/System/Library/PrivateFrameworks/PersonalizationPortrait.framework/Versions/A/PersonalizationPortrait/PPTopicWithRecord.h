@@ -13,7 +13,7 @@
     PPTopicRecord *_mostRelevantRecord;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (double);

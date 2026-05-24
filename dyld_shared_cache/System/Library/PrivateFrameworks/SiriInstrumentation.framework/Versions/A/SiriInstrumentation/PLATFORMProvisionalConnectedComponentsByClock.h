@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface PLATFORMProvisionalConnectedComponentsByClock : SISchemaInstrumentationMessage
 {
@@ -21,19 +21,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)Merge:(id)arg1 unprotected database:%s, deleted:%s, error:%d
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id)r!øEùÝ°1Â0@ù
 × ;
-- (id)er1;
-- (void)Name;
+- (id)_hasRequestContextTextContentTier1;
+- (void)dynamicEvaluatorTaskName;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *connectedComponents; // @synthesize connectedComponents=_connectedComponents;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

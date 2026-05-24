@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UINSInputView, UINSSearchSuggestionsShadowTextField;
-@protocol UINSSearchSuggestionControllerDelegate;
+@class UINSSearchSuggestionsShadowTextField;
 
 @interface UINSSearchSuggestionController
 {
     unsigned short _currentlyHandledKeyPress;
-    id <UINSSearchSuggestionControllerDelegate> _delegate;
-    UINSSearchSuggestionsShadowTextField *_shadowTextField;
-    id _keyPressEventMonitor;
-    id _mouseUpEventMonitor;
-    UINSInputView *_inputView;
 }
 
 + (_Bool);
@@ -42,7 +36,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)"m_ptr"^{StringImpl}}}}})"__engaged_"B}"m_listBasedTestResult"{unique_ptr<WTF::ListHashSet<WTF::Ref<WebCore::Node>>, std::default_delete<WTF::ListHashSet<WTF::Ref<WebCore::Node>>>>=""{?="__ptr_"^v}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -51,20 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned short currentlyHandledKeyPress; // @synthesize currentlyHandledKeyPress=_currentlyHandledKeyPress;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <UINSSearchSuggestionControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasVisibleMenu;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UINSInputView *inputView; // @synthesize inputView=_inputView;
-@property(retain, nonatomic) id keyPressEventMonitor; // @synthesize keyPressEventMonitor=_keyPressEventMonitor;
-@property(retain, nonatomic) id mouseUpEventMonitor; // @synthesize mouseUpEventMonitor=_mouseUpEventMonitor;
 @property(retain, nonatomic) UINSSearchSuggestionsShadowTextField *shadowTextField; // @synthesize shadowTextField=_shadowTextField;
-@property(readonly) Class superclass;
 
 @end
 

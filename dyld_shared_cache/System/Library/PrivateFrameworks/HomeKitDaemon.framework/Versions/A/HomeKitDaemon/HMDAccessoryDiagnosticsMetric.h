@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessory, NSDate, NSDictionary, NSString;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryDiagnosticsMetric
 {
     NSDate *_metricCollectionStartTime;
-    NSDictionary *_metric;
-    HMDHAPAccessory *_accessory;
 }
 
 + (id)q	óB;
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)nodeForSignalIdentifier:(id)arg1;
+- (void);
 - (id);
 - (id);
 - (id)±ð1Â0@ù
@@ -29,16 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDictionary *metric; // @synthesize metric=_metric;
 @property(copy, nonatomic) NSDate *metricCollectionStartTime; // @synthesize metricCollectionStartTime=_metricCollectionStartTime;
-@property(readonly) Class superclass;
 
 @end
 

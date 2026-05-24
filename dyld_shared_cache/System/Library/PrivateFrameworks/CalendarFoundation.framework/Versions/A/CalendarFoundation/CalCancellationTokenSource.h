@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CalCancellationToken;
 
 @interface CalCancellationTokenSource
@@ -12,19 +11,11 @@
     _Atomic _Bool _isCancelled;
 }
 
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)osting MCX_KickUniversalAccessAgentNotification;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCancelled;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <CalCancellationToken> token;
 
 @end

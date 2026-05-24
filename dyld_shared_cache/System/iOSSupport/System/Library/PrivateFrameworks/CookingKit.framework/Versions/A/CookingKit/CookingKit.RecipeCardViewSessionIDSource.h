@@ -8,7 +8,6 @@
 {
     id _observableRecipeCardViewSessionID;
     id state;
-    id _$scope;
 }
 
 @end

@@ -7,26 +7,6 @@
 @interface Network.Crypto
 {
     id tlsInstance;
-    id tlsOptions;
-    id outboundCryptoInitialOffset;
-    id outboundCrypto1RTTOffset;
-    id outboundCryptoHandshakeOffset;
-    id parentConnection;
-    id tlsLinkage;
-    id initialLinkage;
-    id earlyDataLinkage;
-    id handshakeLinkage;
-    id applicationLinkage;
-    id initialReassemblyQueue;
-    id handshakeReassemblyQueue;
-    id oneRTTReadReassemblyQueue;
-    id initialLevelArray;
-    id handshakeLevelArray;
-    id applicationLevelArray;
-    id ciphersuite;
-    id selfAsInputLinkage;
-    id _selfAsOutputLinkage;
-    id cryptoQueue;
 }
 
 @end

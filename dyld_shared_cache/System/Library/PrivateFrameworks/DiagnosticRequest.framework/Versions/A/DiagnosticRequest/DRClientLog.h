@@ -9,13 +9,11 @@
 @interface DRClientLog
 {
     _Bool _transferOwnership;
-    NSString *_path;
-    NSString *_sandboxExtension;
 }
 
 + (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -23,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 @property(readonly, nonatomic) NSString *sandboxExtension; // @synthesize sandboxExtension=_sandboxExtension;
-@property(readonly, nonatomic) _Bool transferOwnership; // @synthesize transferOwnership=_transferOwnership;
 
 @end
 

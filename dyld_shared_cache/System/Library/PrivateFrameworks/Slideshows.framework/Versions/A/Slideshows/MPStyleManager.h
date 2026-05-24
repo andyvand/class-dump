@@ -4,37 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface MPStyleManager
 {
     NSMutableDictionary *mStyles;
-    NSArray *mPaths;
-    NSString *mCurrentLocale;
 }
 
 + (void);
 + (void);
 + (id);
+- (id)setUploadScheduler:(id)arg1;
+- (id)fetchAppWidgetConfigurationWithTodayLiteConfig:(id)arg1 additionalFields:completion: /* Error: Ran out of types for this method. */;
+- (id)envelopeStore:(id)arg1 didFlushEnvelopesForEntries: /* Error: Ran out of types for this method. */;
+- (id)envelopeStore;
+- (id)didInsertKeyIntoCache:(id)arg1 withLifetimeHint:(double)arg2;
+- (id)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
+- (id)descriptionWithObject:(id)arg1;
+- (id)descriptionString;
+- (_Bool)appConfiguration;
+- (unsigned long long)addAppConfigObserver:(id)arg1;
+- (id)URLSession:(id)arg1 task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
+- (double)payloadUploader;
+- (double)eStore;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (double);
-- (double);
-- (id);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (id);
-- (double);
+- (unsigned long long)alyticsEntryDeliveryWindow(NSDate *__strong _Nonnull, NSDate * _Nullable __strong, NTPBAnalyticsEnvelopeContentTypeConfig *__strong _Nonnull);
+- (void)ticsPayloadAssembler assemblePayloadsWithEntries:lastUploadDatesByContentType:droppedEnvelopeReasonsToUpload:envelopeSizeByEntry:completion:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)DAnalyticsPayloadUploader uploadPayloadsForInfos:(id)arg1 withEnvelopeStore:perPayloadCompletion:completion:] /* Error: Ran out of types for this method. */;
+- (id)load;
+- (double)pedEnvelopesForLocalReasons:(id)arg1 ]_block_invoke;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -61,14 +59,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (long long);
 - (double);
 - (double);
 - (id);
 - (id);
 - (double);
-- (double);
+- (double);
 - (struct CGSize);
 - (id);
 - (double);
@@ -82,7 +80,7 @@
 - (_Bool);
 - (double);
 - (id);
-- (id);
+- (id)P;
 - (struct CGColor *);
 - (_Bool);
 - (long long);

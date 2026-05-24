@@ -7,7 +7,6 @@
 @interface FCNewsTabiRecommendedIssuesUserContextConfiguration
 {
     long long _maximumTagCount;
-    long long _maximumTopicTagsPerHeadline;
 }
 
 - (void);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(nonatomic) long long maximumTagCount; // @synthesize maximumTagCount=_maximumTagCount;
-@property(nonatomic) long long maximumTopicTagsPerHeadline; // @synthesize maximumTopicTagsPerHeadline=_maximumTopicTagsPerHeadline;
 
 @end
 

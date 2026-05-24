@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, WBSHistoryItem;
 
 @protocol WBSHistorySessions
+- (void)E;
+- (WBSHistoryItem *)P>;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long numberOfSessions;
 @property(readonly, copy, nonatomic) NSArray *orderedSessions;
 @end
 

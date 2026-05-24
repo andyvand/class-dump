@@ -16,19 +16,18 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ufOPTS(%1.3f);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)(;
+- (id);
+- (void)P;
 - (id);
 - (void);
 - (void)dCloudComputeQuote.c;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

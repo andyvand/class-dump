@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScenePresentationManager;
+
 @protocol _UIScenePresentationManagerPrioritizedPresenterObserver
+- (void)hreadIdentifier:(UIScenePresentationManager *)arg1;
 @end
 

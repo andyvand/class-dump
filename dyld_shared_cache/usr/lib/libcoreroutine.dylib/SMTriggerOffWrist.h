@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, RTDataProtectionManager, RTDefaultsManager, RTWatchWristStateManager, RTXPCTimerAlarm, SMSessionStore;
+@class NSObject;
 @protocol OS_dispatch_queue, SMTriggerManagerProtocol;
 
 @interface SMTriggerOffWrist
 {
     id <SMTriggerManagerProtocol> sessionMonitorDelegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    RTDefaultsManager *_defaultsManager;
-    RTDataProtectionManager *_dataProtectionManager;
-    RTWatchWristStateManager *_wristStateManager;
-    SMSessionStore *_sessionStore;
-    RTXPCTimerAlarm *_offWristThresholdTimerAlarm;
 }
 
 - (id);
@@ -32,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_newIdentity;
 - (void);
 - (void);
 - (void);
@@ -44,23 +38,7 @@
 - (void)visit map item (%{sensitive}.6f, %{sensitive}.6f);
 
 // Remaining properties
-@property(retain, nonatomic) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTXPCTimerAlarm *offWristThresholdTimerAlarm; // @synthesize offWristThresholdTimerAlarm=_offWristThresholdTimerAlarm;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) __weak id <SMTriggerManagerProtocol> sessionMonitorDelegate; // @synthesize sessionMonitorDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SMTriggerManagerProtocol>",?,W,N,VsessionMonitorDelegate
-
-@property(retain, nonatomic) SMSessionStore *sessionStore; // @synthesize sessionStore=_sessionStore;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTWatchWristStateManager *wristStateManager; // @synthesize wristStateManager=_wristStateManager;
 
 @end
 

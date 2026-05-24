@@ -9,18 +9,13 @@
 @interface PXStoryMultipartPanoramaCropFinder
 {
     struct CGRect *_possibleRects;
-    struct CGRect *_bestRects;
-    long long _rectCapacity;
-    long long _axis;
-    struct CGRect _referenceContentsRect;
-    NSArray *_saliencyAreas;
 }
 
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (double);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);

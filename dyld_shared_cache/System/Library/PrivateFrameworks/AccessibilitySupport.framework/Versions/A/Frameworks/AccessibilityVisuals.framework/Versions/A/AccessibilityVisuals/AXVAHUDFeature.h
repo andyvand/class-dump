@@ -9,30 +9,26 @@
 @interface AXVAHUDFeature
 {
     NSString *_identifier;
-    NSString *_symbolName;
-    NSString *_localizedName;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)(;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)h;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ILNotificationNode
 {
     id observer;
-    NSString *path;
-    long long flags;
 }
 
 - (id);

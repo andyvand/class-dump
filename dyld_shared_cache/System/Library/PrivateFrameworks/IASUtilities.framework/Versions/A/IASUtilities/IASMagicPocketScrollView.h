@@ -9,21 +9,6 @@
 @interface IASMagicPocketScrollView
 {
     _Bool showsPocketOnTop;
-    _Bool showsPocketOnBottom;
-    _Bool showsPocketOnLeft;
-    _Bool showsPocketOnRight;
-    _Bool pocketsAreDynamic;
-    _Bool moreContentLeft;
-    _Bool moreContentRight;
-    _Bool moreContentUp;
-    _Bool moreContentDown;
-    _Bool handleBoundsOrFrameChangePending;
-    IASMagicPocketView *topPocketView;
-    IASMagicPocketView *bottomPocketView;
-    IASMagicPocketView *leftPocketView;
-    IASMagicPocketView *rightPocketView;
-    id contentViewBoundsChangeNotificationToken;
-    id documentViewFrameChangeNotificationToken;
 }
 
 - (id);
@@ -35,14 +20,14 @@
 - (void);
 - (void);
 - (void);
+- (void)U;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,25 +35,25 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)cџH;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -76,21 +61,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) IASMagicPocketView *bottomPocketView; // @synthesize bottomPocketView;
-@property(retain) id contentViewBoundsChangeNotificationToken; // @synthesize contentViewBoundsChangeNotificationToken;
-@property(retain) id documentViewFrameChangeNotificationToken; // @synthesize documentViewFrameChangeNotificationToken;
-@property _Bool handleBoundsOrFrameChangePending; // @synthesize handleBoundsOrFrameChangePending;
-@property(retain) IASMagicPocketView *leftPocketView; // @synthesize leftPocketView;
-@property _Bool moreContentDown; // @synthesize moreContentDown;
-@property _Bool moreContentLeft; // @synthesize moreContentLeft;
-@property _Bool moreContentRight; // @synthesize moreContentRight;
-@property _Bool moreContentUp; // @synthesize moreContentUp;
-@property(nonatomic) _Bool pocketsAreDynamic; // @synthesize pocketsAreDynamic;
-@property(retain) IASMagicPocketView *rightPocketView; // @synthesize rightPocketView;
-@property(nonatomic) _Bool showsPocketOnBottom; // @synthesize showsPocketOnBottom;
-@property(nonatomic) _Bool showsPocketOnLeft; // @synthesize showsPocketOnLeft;
-@property(nonatomic) _Bool showsPocketOnRight; // @synthesize showsPocketOnRight;
-@property(nonatomic) _Bool showsPocketOnTop; // @synthesize showsPocketOnTop;
 @property(retain) IASMagicPocketView *topPocketView; // @synthesize topPocketView;
 
 @end

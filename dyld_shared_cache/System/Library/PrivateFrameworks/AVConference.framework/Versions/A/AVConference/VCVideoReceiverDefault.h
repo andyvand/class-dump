@@ -6,46 +6,10 @@
 
 #import <AVConference/VCVideoReceiverBase.h>
 
-@class VCCannedVideoPacketSource, VCDisplayLink, VCVideoHardwareDumpCollector, VCVideoStreamRateAdaptationFeedbackOnly, VideoAttributes;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoReceiverDefault : VCVideoReceiverBase
 {
     struct tagHANDLE *_videoReceiverHandle;
-    struct tagVCVideoReceiverConfig _videoReceiverConfig;
-    struct tagHANDLE *_videoTransmitterHandle;
-    long long _streamToken;
-    void *_controlInfoGenerator;
-    VideoAttributes *_remoteVideoAttributes;
-    _Bool _receivedFirstRemoteFrame;
-    _Bool _shouldEnableFaceZoom;
-    _Bool _shouldUpdateRemoteScreenAttributes;
-    double _lastKeyFrameRequestTime;
-    unsigned short _lastKeyFrameRequestStreamID;
-    VCVideoStreamRateAdaptationFeedbackOnly *_rateAdaptation;
-    VCDisplayLink *_displayLink;
-    _Bool _notifyDelegateVideoAttributeChanges;
-    _Bool _waitForAFBOrientationChange;
-    struct tagVCAspectRatios _remoteScreenAspectRatios;
-    struct tagVCAspectRatios _remoteExpectedAspectRatios;
-    struct tagVCAspectRatios _remoteExpectedFullScreenAspectRatios;
-    _Bool _remoteSupportsExpectedAspectRatio;
-    _Bool _canLocalResizePIP;
-    _Bool _canRemoteResizePIP;
-    unsigned long long _cvoExtensionID;
-    _Bool _forceZeroRegionOfInterestOrigin;
-    _Bool _pendingVideoAttributesUpdateOnModeChange;
-    VCVideoHardwareDumpCollector *_validationContext;
-    VCCannedVideoPacketSource *_cannedPacketSource;
-    double _videoReceiverRxFrameRate;
-    _Bool _afbRxFrontCameraEnabled;
-    _Bool _afbRxBackCameraEnabled;
-    unsigned int _videoFrameMetadataSupportedVersion;
-    _Bool _lastTXCameraVideoFullScreen;
-    _Bool _lastRXCameraVideoFullScreen;
-    int _lastLocalDeviceOrientation;
-    int _lastRemoteDeviceOrientation;
-    struct _opaque_pthread_mutex_t _remoteFramesLock;
 }
 
 - (double);
@@ -54,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -78,19 +42,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (int);
-- (double);
+- (double);
 - (float);
 - (unsigned int);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)ĩr(;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
 - (void);
-- (double);
+- (double);
 - (double);
 - (void);
 - (void);
@@ -100,14 +64,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double activeVideoStallDuration;
-@property(nonatomic) int mode;
-@property _Bool receivedFirstRemoteFrame; // @synthesize receivedFirstRemoteFrame=_receivedFirstRemoteFrame;
-@property(retain) VideoAttributes *remoteVideoAttributes; // @synthesize remoteVideoAttributes=_remoteVideoAttributes;
-@property(nonatomic) _Bool shouldEnableFaceZoom; // @synthesize shouldEnableFaceZoom=_shouldEnableFaceZoom;
-@property(nonatomic) _Bool shouldUpdateRemoteScreenAttributes; // @synthesize shouldUpdateRemoteScreenAttributes=_shouldUpdateRemoteScreenAttributes;
 @property struct tagVCVideoReceiverConfig videoReceiverConfig; // @synthesize videoReceiverConfig=_videoReceiverConfig;
-@property(readonly, nonatomic) double videoReceiverRxFrameRate; // @synthesize videoReceiverRxFrameRate=_videoReceiverRxFrameRate;
 
 @end
 

@@ -12,11 +12,11 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (int);
++ (int);
 + (_Bool);
 + (int);
 + (_Bool);
-+ (struct CGRect);
++ (struct CGRect)extensionIdentity;
 
 @end
 

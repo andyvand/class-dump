@@ -5,5 +5,8 @@
 //
 
 @protocol IDSAccountDelegate
+
+@optional
+- (void)_TtC13IDSFoundation27IDSLinksQualityMeasurerLink;
 @end
 

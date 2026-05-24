@@ -5,5 +5,6 @@
 //
 
 @protocol NUPurgeableImage
+- (_Bool);
 @end
 

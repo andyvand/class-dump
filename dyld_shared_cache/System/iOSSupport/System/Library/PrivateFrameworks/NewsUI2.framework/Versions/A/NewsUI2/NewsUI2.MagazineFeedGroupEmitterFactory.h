@@ -7,30 +7,6 @@
 @interface NewsUI2.MagazineFeedGroupEmitterFactory
 {
     id tagService;
-    id headlineService;
-    id feedPersonalizer;
-    id feedClusteringService;
-    id personalizationService;
-    id magazineCategoryService;
-    id magazineCategoryConfigService;
-    id context;
-    id currentIssuesChecker;
-    id offlineIssueList;
-    id appConfigurationManager;
-    id diversityPenalty;
-    id issueModelFactory;
-    id issueService;
-    id historyService;
-    id sectionHeadlinesService;
-    id newspaperGroupService;
-    id formatService;
-    id feedPaywallConfigFactory;
-    id offerManager;
-    id myMagazinesStore;
-    id subscriptionList;
-    id offlineManager;
-    id recommendedIssuesService;
-    id articleForYouAvailability;
 }
 
 @end

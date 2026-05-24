@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, NSArray, NSMutableDictionary, NSString;
-@protocol EKDiagnosticsCollectionDelegate;
+@class EKEventStore;
 
 @interface EKDiagnosticsCollector
 {
     EKEventStore *_store;
-    int _token;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_files;
-    _Bool _determinedOutputFiles;
-    _Bool _finished;
-    _Bool _redactLogs;
-    unsigned long long _trafficLogsCollectionMode;
-    id <EKDiagnosticsCollectionDelegate> _delegate;
 }
 
-- (unsigned long long);
+- (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (_Bool)elevantRouteDetector] %@:Adding endpoint=%@ /* Error: Ran out of types for this method. */;
+- (void)y found matching endpoints:(id)arg1 %{public}@;
+- (id)SendCommandPlayerMain;
+- (void)s=%{public}@ for context:%{public}@ - %{public}@ /* Error: Ran out of types for this method. */;
+- (void)ontext unavailable for %s;
 - (id);
 - (id);
 - (void);
@@ -36,17 +27,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <EKDiagnosticsCollectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *files;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool redactLogs; // @synthesize redactLogs=_redactLogs;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long trafficLogsCollectionMode; // @synthesize trafficLogsCollectionMode=_trafficLogsCollectionMode;
 
 @end
 

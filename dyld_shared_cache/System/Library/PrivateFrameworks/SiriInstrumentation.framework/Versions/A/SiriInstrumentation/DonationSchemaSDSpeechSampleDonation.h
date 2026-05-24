@@ -6,31 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface DonationSchemaSDSpeechSampleDonation : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_donationID;
-    NSString *_donorBundleID;
-    unsigned long long _captureDate;
-    NSArray *_attributes;
-    int _audioCaptureDevice;
-    int _locale;
-    int _asrTask;
-    NSString *_transcription;
-    NSString *_expected;
-    int _evaluation;
-    struct {
-        unsigned int captureDate:1;
-        unsigned int audioCaptureDevice:1;
-        unsigned int locale:1;
-        unsigned int asrTask:1;
-        unsigned int evaluation:1;
-    } _has;
-    _Bool _hasDonationID;
-    _Bool _hasDonorBundleID;
-    _Bool _hasTranscription;
-    _Bool _hasExpected;
 }
 
 - (void);
@@ -46,8 +26,8 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -56,13 +36,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,47 +58,731 @@
 - (id);
 - (int);
 - (void);
-- (id);
+- (id)IAPAudioShouldPauseAudioOnHeadsetDisconnect;
 - (_Bool);
-- (id);
+- (id)totalReaderSession;
 - (void);
-- (void);
+- (void)/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDLaunchableAppsRequest_macOS.m:32 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (unsigned long long);
-- (id);
+- (void)rray>
+						<string>bluetoothABC-diags</string>
+					</array>
+				</dict>
+				<key>Networking</key>
+				<dict>
+					<key>XPCDelay</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>tailspin-diags</string>
+								<string>tailspin-diags-osx</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>Calendar</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>calaccessd-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Cellular</key>
+			<dict>
+				<key>Assertion</key>
+				<dict>
+					<key>Thermal Trap</key>
+					<dict>
+						<key>Baseband</key>
+						<array>
+							<string>powerlog-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>Audio Quality</key>
+				<dict>
+					<key>wirelessinsightsd</key>
+					<array>
+						<string>avconference-diags</string>
+					</array>
+				</dict>
+				<key>Battery</key>
+				<dict>
+					<key>High Power Drain</key>
+					<dict>
+						<key>Baseband</key>
+						<array>
+							<string>powerlog-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+				</dict>
+				<key>Thermal Pressure Elevated</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>powerlog-diags</string>
+							<string>cellularDE</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>DEFAULTS</key>
+			<dict>
+				<key>CommCenter</key>
+				<array>
+					<string>cellularDE</string>
+				</array>
+				<key>Commcenter</key>
+				<array>
+					<string>cellularDE</string>
+				</array>
+				<key>assetsd</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>atc</key>
+				<array>
+					<string>mediaplayer-diags</string>
+				</array>
+				<key>bird</key>
+				<array>
+					<string>clouddocs-diags</string>
+				</array>
+				<key>calaccessd</key>
+				<array>
+					<string>calaccessd-diags</string>
+				</array>
+				<key>cloudphotod</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>com.apple.mobileslideshow</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>dataaccessd</key>
+				<array>
+					<string>dataaccessd-diags</string>
+				</array>
+				<key>geod</key>
+				<array>
+					<string>maps-diags</string>
+				</array>
+				<key>itunescloudd</key>
+				<array>
+					<string>mediaplayer-diags</string>
+				</array>
+				<key>mail</key>
+				<array>
+					<string>mail-diags</string>
+				</array>
+				<key>mediaanalysisd</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>medialibraryd</key>
+				<array>
+					<string>mediaplayer-diags</string>
+				</array>
+				<key>mstreamd</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>photoanalysisd</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>photolibraryd</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>ptpd</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>searchd</key>
+				<array>
+					<string>search-diags</string>
+				</array>
+				<key>managedcorespotlightd</key>
+				<array>
+					<string>search-diags-osx</string>
+				</array>
+				<key>corespotlightd</key>
+				<array>
+					<string>search-diags-osx</string>
+				</array>
+				<key>sharingd</key>
+				<array>
+					<string>sharingd-diags</string>
+					<string>mdns-diags</string>
+				</array>
+				<key>spotlightknowledged</key>
+				<array>
+					<string>search-diags</string>
+				</array>
+			</dict>
+			<key>Duet</key>
+			<dict>
+				<key>Activities Significantly Overdue</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>duet-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>Energy</key>
+			<dict>
+				<key>Assertion</key>
+				<dict>
+					<key>LongAssertion</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>powerlog-syslogfilter</string>
+							</array>
+						</dict>
+					</dict>
+					<key>LongTerm</key>
+					<dict>
+						<key>locationd</key>
+						<array>
+							<string>locationd-verbose</string>
+						</array>
+					</dict>
+					<key>TotalAssertion</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>powerlog-syslogfilter</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+				<key>CPU</key>
+				<dict>
+					<key>LongTerm</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>powerlog-syslogfilter</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>powerlog-diags</string>
+						<string>microstackshot-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Location</key>
+			<dict>
+				<key>GNSS</key>
+				<dict>
+					<key>Emergency</key>
+					<dict>
+						<key>long_EEM</key>
+						<dict>
+							<key>locationd</key>
+							<array>
+								<string>cellularDE</string>
+							</array>
+						</dict>
+						<key>non_emergency_NILR_CPlane</key>
+						<dict>
+							<key>locationd</key>
+							<array>
+								<string>cellularDE</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>MediaPlayer</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>mediaplayer-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>MediaAnalysis</key>
+			<dict>
+				<key>Timeout</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>tailspin-diags</string>
+							<string>tailspin-diags-osx</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>MediaRemote</key>
+			<dict>
+				<key>HostedRouting</key>
+				<dict>
+					<key>Performance</key>
+					<array>
+						<string>tailspin-diags</string>
+						<string>tailspin-diags-osx</string>
+					</array>
+				</dict>
+			</dict>
+			<key>MobileBluetoothServices</key>
+			<dict>
+				<key>HIDTimeStampSync</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>bluetoothABC-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>MobileMail</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>mobilemail-diags</string>
+					</array>
+				</dict>
+				<key>Spotlight</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>search-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>Music</key>
+			<dict>
+				<key>SharePlay</key>
+				<dict>
+					<key>Performance</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>tailspin-diags</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>NetworkRelay</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array/>
+				</dict>
+				<key>NRLinkBluetooth</key>
+				<dict>
+					<key>Data stall</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>bluetoothABC-diags</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>Networking</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>libnetcore</string>
+						<string>tuscany</string>
+						<string>networking-wifi</string>
+						<string>symptomsd</string>
+					</array>
+				</dict>
+				<key>Energy</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>powerlog-diags</string>
+							<string>microstackshot-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>Functional</key>
+				<dict>
+					<key>DHCP Address Acquisition Failed</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>IPConfiguration-logs</string>
+							</array>
+						</dict>
+					</dict>
+					<key>Primary uniqueness rule failed</key>
+					<dict>
+						<key>System</key>
+						<array>
+							<string>symptomsd</string>
+						</array>
+					</dict>
+				</dict>
+				<key>Operational</key>
+				<dict>
+					<key>Wi-Fi LQM Callback rate is too low</key>
+					<array>
+						<string>tailspin-diags</string>
+					</array>
+				</dict>
+				<key>Performance</key>
+				<dict>
+					<key>AirPlay</key>
+					<array>
+						<string>airplay-diags</string>
+						<string>networking-wifi</string>
+					</array>
+					<key>AirPlay Connection Stalled</key>
+					<array>
+						<string>airplay-diags</string>
+						<string>networking-wifi</string>
+					</array>
+					<key>UI Impact</key>
+					<array>
+						<string>tailspin-diags</string>
+						<string>tailspin-diags-osx</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Proximity</key>
+			<dict>
+				<key>Stability</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>rose-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>Responsiveness</key>
+			<dict>
+				<key>CoreAnimation</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>tailspin-diags</string>
+							<string>tailspin-diags-osx</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>SiriAssistant</key>
+			<dict>
+				<key>client.request-failed</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>networking-wifi</string>
+						</array>
+					</dict>
+				</dict>
+				<key>siricore_nw_connection</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>networking-wifi</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>SpotlightIndex</key>
+			<dict>
+				<key>IndexCorruption</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>search-diags</string>
+							<string>search-diags-osx</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>Telephony</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+				</dict>
+			</dict>
+			<key>TestDomain</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>libnetcore</string>
+					</array>
+				</dict>
+				<key>TestType</key>
+				<dict>
+					<key>symptomsd</key>
+					<array>
+						<string>libnetcore</string>
+						<string>tuscany</string>
+						<string>symptomsd</string>
+						<string>networking-wifi</string>
+						<string>powerlog-diags</string>
+						<string>microstackshot-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>ThreadSW</key>
+			<dict>
+				<key>Performance</key>
+				<dict>
+					<key>Data Stall</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>networking-wifi</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>Tuscany</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>networking-wifi</string>
+					</array>
+				</dict>
+			</dict>
+			<key>UIPerformance</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>tailspin-diags</string>
+						<string>tailspin-diags-osx</string>
+					</array>
+				</dict>
+			</dict>
+			<key>WiFi</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>networking-wifi</string>
+					</array>
+				</dict>
+				<key>IMS Call KPI</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>cellularDE</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IMS Reg</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>cellularDE</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>iCloudDrive</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>clouddocs-diags</string>
+						<string>fileprovider-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>AccessoryInteraction</key>
+			<dict>
+				<key>FirmwareUpdate</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>AirTagDE</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>ULPN</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>networking-wifi</string>
+					</array>
+				</dict>
+				<key>Heuristics</key>
+				<dict>
+					<key>RxQueueDelayExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>TxQueueDelayExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>RxPktDropExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>TxPktDropExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>FailureThresholdExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+				</dict>
+			</dict>
+			<key>StorageDrivers</key>
+			<dict>
+				<key>AppleSDXC</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SDXC-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IONVMeFamily</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SSD-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IOSCSIFamily</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SSD-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>CONFIG_IDENTIFIER</key>
+	<string>diagnostic_actions</string>
+	<key>CONFIG_VERSION</key>
+	<integer>0</integer>
+</dict>
+</plist>
+;
+- (unsigned long long)hat_message_join AS cmj SET
+    chat_id =  ? 
+FROM
+    message AS m
+WHERE
+    (cmj.chat_id ==  ?  AND cmj.message_id == m.ROWID AND m.service ==  ? );
+- (id)solution;
 - (_Bool);
-- (int);
+- (int);
 - (id);
 - (void);
 - (id)ed";
-- (id)th;
+- (id)PLUSSchemaPLUSTMDCGroundTruth;
 - (id)pôH°H
 ;
 - (void)s|%;
 
 // Remaining properties
-@property(nonatomic) int asrTask; // @synthesize asrTask=_asrTask;
-@property(copy, nonatomic) NSArray *attributes; // @synthesize attributes=_attributes;
-@property(nonatomic) int audioCaptureDevice; // @synthesize audioCaptureDevice=_audioCaptureDevice;
-@property(nonatomic) unsigned long long captureDate; // @synthesize captureDate=_captureDate;
 @property(retain, nonatomic) SISchemaUUID *donationID; // @synthesize donationID=_donationID;
-@property(copy, nonatomic) NSString *donorBundleID; // @synthesize donorBundleID=_donorBundleID;
-@property(nonatomic) int evaluation; // @synthesize evaluation=_evaluation;
-@property(copy, nonatomic) NSString *expected; // @synthesize expected=_expected;
-@property(nonatomic) _Bool hasAsrTask;
-@property(nonatomic) _Bool hasAudioCaptureDevice;
-@property(nonatomic) _Bool hasCaptureDate;
-@property(nonatomic) _Bool hasDonationID; // @synthesize hasDonationID=_hasDonationID;
-@property(nonatomic) _Bool hasDonorBundleID; // @synthesize hasDonorBundleID=_hasDonorBundleID;
-@property(nonatomic) _Bool hasEvaluation;
-@property(nonatomic) _Bool hasExpected; // @synthesize hasExpected=_hasExpected;
-@property(nonatomic) _Bool hasLocale;
-@property(nonatomic) _Bool hasTranscription; // @synthesize hasTranscription=_hasTranscription;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) NSString *transcription; // @synthesize transcription=_transcription;
 
 @end
 

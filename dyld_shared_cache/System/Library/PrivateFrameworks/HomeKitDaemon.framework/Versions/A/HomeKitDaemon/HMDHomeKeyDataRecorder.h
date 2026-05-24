@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (void)mobileOptions",R,N;
+- (void)_msp_blockedTestTripIdentifiers;
+- (void)elegate;
+- (void)<MSPSharedTripRelayDelegate>",W,N,V_delegate;
+- (void)ltyDelegate>",W,N,V_availabilityDelegate;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)se whole route (sender provided:%@) /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -28,8 +28,6 @@ __attribute__((visibility("hidden")))
 - (void)Retrieval cancelled, accessory removed;
 
 // Remaining properties
-@property(readonly, copy) NSMutableArray *mutableRecords;
-@property(readonly, copy) NSArray *records;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

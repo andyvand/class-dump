@@ -4,41 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchOriginationRoutePlanningParameters, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchOriginationInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _searchClientContexts;
-    GEOPDSearchOriginationRoutePlanningParameters *_routePlanningParameters;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _clientSoftwarePlatform;
-    int _searchOriginationType;
-    struct {
-        unsigned int has_clientSoftwarePlatform:1;
-        unsigned int has_searchOriginationType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_searchClientContexts:1;
-        unsigned int read_routePlanningParameters:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
+- (void)ototyping is now %s:(id)arg1 sending proxy definitions as needed;
+- (id)copySamplesFromAudioSampleCount:toAudioSampleCount: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id)s_appLinkValue"b1};
 - (id)urceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16I24;
-- (id)ation;
+- (id)_preserveOriginalLocation;
 - (id)D;
 - (void)d!:¤H@ /* Error: Ran out of types for this method. */;
 

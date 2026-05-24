@@ -9,12 +9,10 @@
 @interface PCNativeBorderStyle
 {
     PCNativeColor *_color;
-    double _width;
-    double _cornerRadius;
 }
 
 + (_Bool);
-- (id);
+- (id)`;
 - (double);
 - (id);
 - (void);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PCNativeColor *color; // @synthesize color=_color;
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

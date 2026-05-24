@@ -5,6 +5,7 @@
 //
 
 @protocol _UISceneHostingContentSizePreferenceClientProviding
+- (void)transcodeFileTransferContents:(struct CGSize)arg1 utiType:target:transcoderUserInfo:isSticker:highQualityMaxByteSize:lowQualityMaxByteSize:representations:completionBlock: /* Error: Ran out of types for this method. */;
 - (struct CGSize);
 
 // Remaining properties

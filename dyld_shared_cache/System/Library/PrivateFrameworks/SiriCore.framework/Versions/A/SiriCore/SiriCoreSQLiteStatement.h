@@ -7,14 +7,13 @@
 @interface SiriCoreSQLiteStatement
 {
     struct sqlite3_stmt *_impl;
-    _Bool _finalizeWhenDone;
 }
 
 - (void);
 - (void);
 - (struct sqlite3_stmt *);
-- (id);
-- (void)t: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setObject:forKeyedSubscript: /* Error: Ran out of types for this method. */;
 
 @end
 

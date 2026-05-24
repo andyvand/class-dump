@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol DTXMessenger
+- (void);
+- (void)R;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *label;

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id);
+- (id)0@?0@"FBSSettings"8f16;
 - (id);
 
 // Remaining properties

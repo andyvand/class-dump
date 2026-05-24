@@ -5,6 +5,7 @@
 //
 
 @protocol UIFocusAnimationContext
+- (double)bC;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration;

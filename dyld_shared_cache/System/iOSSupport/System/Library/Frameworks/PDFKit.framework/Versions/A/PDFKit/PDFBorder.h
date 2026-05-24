@@ -4,21 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, PDFBorderPrivateVars;
+@class PDFBorderPrivateVars;
 
 @interface PDFBorder
 {
     PDFBorderPrivateVars *_private;
 }
 
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (double);
-- (const double *);
+- (const double *)6);
 - (unsigned int);
 - (struct __CFDictionary *);
 - (void);
@@ -37,16 +37,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)suggestedUsersPrioritizingExistingUsersForURL:(id)arg1 matchingText:limitForUsersNotFromURL:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *borderKeyValues;
-@property(copy, nonatomic) NSArray *dashPattern;
-@property(nonatomic) double lineWidth;
 @property(nonatomic) long long style;
 
 @end

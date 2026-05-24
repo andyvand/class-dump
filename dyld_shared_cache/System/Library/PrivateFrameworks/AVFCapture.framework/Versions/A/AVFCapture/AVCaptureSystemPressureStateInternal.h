@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVFrameRateRange;
-
 __attribute__((visibility("hidden")))
 @interface AVCaptureSystemPressureStateInternal
 {
     int _figLevel;
-    unsigned long long _factors;
-    AVFrameRateRange *_recommendedFrameRateRangeForPortrait;
-    AVFrameRateRange *_recommendedFrameRateRangeForPhotoMode;
 }
 
 - (id);
-- (void);
+- (void)"ACAccountType"16@?<v@?@"NSDictionary"@"NSError">24;
 - (id);
 - (id);
 - (int);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long factors;
 @property(readonly) int figLevel;
-@property(readonly) AVFrameRateRange *recommendedFrameRateRangeForPhotoMode;
-@property(readonly) AVFrameRateRange *recommendedFrameRateRangeForPortrait;
 
 @end
 

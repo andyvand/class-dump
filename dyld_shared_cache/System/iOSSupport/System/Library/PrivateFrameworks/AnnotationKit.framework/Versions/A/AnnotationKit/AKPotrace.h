@@ -7,12 +7,10 @@
 @interface AKPotrace
 {
     struct CGPath *_cachedPath;
-    struct potrace_bitmap_s *_potraceBitmap;
-    struct potrace_param_s *_potraceParameters;
 }
 
 + (struct CGPath *);
-- (int);
+- (int)24@?0@"NSData"8@"NSString"16;
 - (int);
 - (void);
 - (void);
@@ -29,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property double alphamax;
-@property int opticurve;
-@property double opttolerance;
 @property int turdsize;
-@property int turnpolicy;
 
 @end
 

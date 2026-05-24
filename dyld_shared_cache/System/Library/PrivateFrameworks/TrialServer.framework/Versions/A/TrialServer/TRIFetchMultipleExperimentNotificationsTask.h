@@ -6,34 +6,24 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSMutableArray, NSSet, NSString;
-@protocol TRITaskAttributing, TRITaskQueueStateProviding;
+@class NSMutableArray;
 
 @interface TRIFetchMultipleExperimentNotificationsTask : TRIBaseTask
 {
     NSMutableArray *_metrics;
-    NSMutableArray *_dimensions;
-    NSMutableArray *_nextTasks;
-    NSDate *_startingFetchDateOverride;
-    _Bool _rollbacksOnly;
-    _Bool _limitedCarryOnly;
-    id <TRITaskAttributing> _taskAttributing;
-    NSSet *_namespaceNames;
-    _Bool wasDeferred;
-    int retryCount;
 }
 
 + (id);
 + (_Bool);
 + (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (void)readMetadataValueFromImageAtFileURL:(id)arg1 dictionaryKey:key:value:error: /* Error: Ran out of types for this method. */;
+- (id)linkOrCopyURL:(id)arg1 toURL:(id)arg2 forceCopy:(id)arg3 error:(_Bool)arg4;
+- (id)lightSource;
+- (_Bool)imageByColorMatchingColorSpaceToWorkingSpace:(id)arg1;
+- (id)hasSlowMotionAdjustments;
+- (id)genericBackdropConfigurationWithTitleBounds:(id)arg1;
+- (_Bool)exifDictionary;
+- (id)r listen];
 - (id);
 - (id);
 - (id);
@@ -41,7 +31,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id));
 - (void);
 - (_Bool);
 - (void);
@@ -61,21 +51,7 @@
 - (id)ÿ)/ôg´;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int retryCount; // @synthesize retryCount;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

@@ -5,17 +5,15 @@
 //
 
 @protocol FCNetworkReachabilityType
+- (_Bool)B;
+- (_Bool)NSEdgeInsets=dddd},N,V_decorationInsets;
+- (_Bool);
+- (void)taSessionStatisticsReport.channelSequenceMismatchOn2GCount;
 - (void)TB,V_overrideTagCachePolicy;
-- (long long)tion;
+- (long long)videoDuration;
 - (_Bool)ction init];
 
 // Remaining properties
-@property(readonly, nonatomic) long long cellularRadioAccessTechnology;
-@property(readonly, nonatomic) _Bool isCloudKitReachable;
-@property(readonly, nonatomic) _Bool isLowDataModeEnabled;
 @property(readonly, nonatomic) _Bool isNetworkReachable;
-@property(readonly, nonatomic) _Bool isNetworkReachableViaWiFi;
-@property(readonly, nonatomic) _Bool isNetworkUsageInexpensive;
-@property(readonly, nonatomic) long long offlineReason;
 @end
 

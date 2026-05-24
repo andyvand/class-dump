@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface CKLastSentCapabilitiesAndUsage
 {
     NSArray *_capabilitySet;
-    NSDate *_capabilitySetSavedDate;
-    NSDate *_usageSavedDate;
 }
 
 + (_Bool);
@@ -25,24 +23,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)_isThreadScopePrecomputed:(id)arg1 wantsPrecomputed:shouldMigrate: /* Error: Ran out of types for this method. */;
+- (id)ory_model_version INTEGER;ALTER TABLE message_global_data ADD COLUMN model_subcategory INTEGER;CREATE INDEX IF NOT EXISTS message_global_data_model_category_index ON message_global_data(model_category);CREATE INDEX IF NOT EXISTS message_global_data_category_model_version_model_category_index ON message_global_data(category_model_version, model_category);;
+- (id)$;
+- (void)($;
 - (void)Ü1x2Ø2ä3È57<x>\@;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *capabilitySet; // @synthesize capabilitySet=_capabilitySet;
-@property(readonly, copy, nonatomic) NSDate *capabilitySetSavedDate; // @synthesize capabilitySetSavedDate=_capabilitySetSavedDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isNone;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *usageSavedDate; // @synthesize usageSavedDate=_usageSavedDate;
 
 @end
 

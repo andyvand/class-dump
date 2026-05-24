@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSData, NSDictionary, NSViewController;
+@class NSViewController;
 
 @interface ContactsUI.CNAvatarPickerViewInterface
 {
     id editorItem;
-    id avatarPickerView;
-    NSViewController *hostingController;
 }
 
 - (id);
@@ -24,20 +22,14 @@
 - (id);
 - (void);
 - (struct CGImage *);
-- (id);
+- (id)4;
 - (void);
 - (id);
 - (void);
 - (struct CGRect)Store",&,N,V_contactStore;
 
 // Remaining properties
-@property(nonatomic, readonly) NSColor *backgroundColor;
-@property(nonatomic, readonly) struct CGImage *compositeCGImage;
-@property(nonatomic, readonly) struct CGRect cropRect;
 @property(nonatomic, retain) NSViewController *hostingController; // @synthesize hostingController;
-@property(nonatomic, readonly) long long likenessType;
-@property(nonatomic, readonly) NSData *memojiMetadataData;
-@property(nonatomic, readonly) NSDictionary *setupUserMemojiRecordsData;
 
 @end
 

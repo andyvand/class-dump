@@ -6,38 +6,31 @@
 
 #import <SpotlightServices/SPSearchEntity.h>
 
-@class NSArray, NSString, SFPerformEntityQueryCommand;
+@class NSArray, SFPerformEntityQueryCommand;
 
 @interface SPSearchFolderEntity : SPSearchEntity
 {
     NSArray *_folderURLs;
-    NSArray *_resolvedFolderScopes;
-    NSString *_resolvedSearchString;
-    NSString *_entityIdentifier;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)setDominantImageBackgroundColor: /* Error: Ran out of types for this method. */;
+- (void)setAdditionalPadding:(id)arg1;
+- (id)hasSuffix:(id)arg1 remainingPrefix:(_Bool)arg2;
 - (id);
 - (_Bool);
 - (id);
-- (void)s: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (_Bool)H;
+- (id);
+- (void)contactIdentifiersFromResults: /* Error: Ran out of types for this method. */;
 - (void)w));
 
 // Remaining properties
 @property(readonly, nonatomic) SFPerformEntityQueryCommand *command; // @dynamic command;
-@property(readonly) NSString *entityIdentifier; // @synthesize entityIdentifier=_entityIdentifier;
-@property(readonly) NSArray *folderURLs; // @synthesize folderURLs=_folderURLs;
-@property(readonly) NSArray *resolvedFolderScopes; // @synthesize resolvedFolderScopes=_resolvedFolderScopes;
-@property(retain) NSString *resolvedSearchString; // @synthesize resolvedSearchString=_resolvedSearchString;
 
 @end
 

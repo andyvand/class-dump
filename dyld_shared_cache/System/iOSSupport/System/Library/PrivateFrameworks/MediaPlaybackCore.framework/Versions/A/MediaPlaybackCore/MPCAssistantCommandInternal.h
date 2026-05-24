@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCAssistantEndpointContext, MPCAssistantSendCommand, NSDate, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class MPCAssistantSendCommand;
 
 __attribute__((visibility("hidden")))
 @interface MPCAssistantCommandInternal
 {
     MPCAssistantSendCommand *_sendCommand;
-    MPCAssistantEndpointContext *_context;
-    NSObject<OS_dispatch_queue> *_sendCommandQueue;
-    NSMutableDictionary *_analytics;
-    NSObject<OS_dispatch_queue> *_analyticsQueue;
-    NSObject<OS_dispatch_group> *_analyticsGroup;
-    NSDate *_startDate;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)16;
+- (void)removeAccount:(id)arg1 withCompletionHandler:(id)arg2;
+- (void)arrayWithObjects:(unsigned int)arg1 count:(id)arg2;
+- (void)account:(unsigned int)arg1 willChangeWithType:(id)arg2 inStore:(id)arg3 oldAccount:(CDUnknownBlockType)arg4;
+- (void)shouldPresentUpgradeFlowWithCompletion:(id)arg1;
+- (void)sharedInstance;
+- (void)apple.AppleAccount.AAAccountNotificationPlugin-endWarmup.txn;
 - (id);
 - (id);
 - (void)ublic}@;

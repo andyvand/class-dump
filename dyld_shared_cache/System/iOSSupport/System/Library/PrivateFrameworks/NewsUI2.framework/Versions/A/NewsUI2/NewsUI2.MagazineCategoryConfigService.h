@@ -7,7 +7,6 @@
 @interface NewsUI2.MagazineCategoryConfigService
 {
     id magazineConfigurationService;
-    id $__lazy_storage_$_appVersion;
 }
 
 @end

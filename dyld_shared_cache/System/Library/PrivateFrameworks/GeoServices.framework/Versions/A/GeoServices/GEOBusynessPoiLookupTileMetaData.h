@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface GEOBusynessPoiLookupTileMetaData
 {
     unsigned long long _tileId;
-    NSString *_version;
-    unsigned int _poiCount;
-    struct {
-        unsigned int has_tileId:1;
-        unsigned int has_poiCount:1;
-    } _flags;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)decodeIntegerForKey:(id)arg1;
 - (unsigned long long);
+- (_Bool)r;
 - (_Bool);
-- (_Bool);
-- (id)herId;
+- (id)publisherId;
 - (id)$¦;
 - (id)guage_code AND (lc_areas & @areas) != 0 AND (ri_areas & @areas) != 0 AND region_id != @region_id AND region_id IN children_of_recursive    ORDER BY sort_order, name COLLATE region_collater, iso_code, time_zone_name;;
 - (void)ôu§þø;

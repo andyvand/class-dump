@@ -15,22 +15,6 @@
 // Remaining properties
 @property(copy, nonatomic) NSString *aid; // @dynamic aid;
 @property(retain, nonatomic) NSObject *aliroGroupResolvingKeys; // @dynamic aliroGroupResolvingKeys;
-@property(retain, nonatomic) NSObject *associatedReaderIdentifiers; // @dynamic associatedReaderIdentifiers;
-@property(retain, nonatomic) NSObject *ecp2Info; // @dynamic ecp2Info;
-@property(nonatomic) _Bool expressEnabled; // @dynamic expressEnabled;
-@property(nonatomic) int groupActivationStyle; // @dynamic groupActivationStyle;
-@property(copy, nonatomic) NSString *groupHead; // @dynamic groupHead;
-@property(retain, nonatomic) NSObject *groupMembers; // @dynamic groupMembers;
-@property(nonatomic) _Bool inSessionOnly; // @dynamic inSessionOnly;
-@property(nonatomic) _Bool isUserChoice; // @dynamic isUserChoice;
-@property(copy, nonatomic) NSString *keyID; // @dynamic keyID;
-@property(copy, nonatomic) NSString *moduleID; // @dynamic moduleID;
-@property(copy, nonatomic) NSString *passID; // @dynamic passID;
-@property(copy, nonatomic) NSString *readerID; // @dynamic readerID;
-@property(nonatomic) _Bool supportsUWB; // @dynamic supportsUWB;
-@property(copy, nonatomic) NSString *type; // @dynamic type;
-@property(nonatomic) _Bool uwbExpressEnabled; // @dynamic uwbExpressEnabled;
-@property(nonatomic) int version; // @dynamic version;
 
 @end
 

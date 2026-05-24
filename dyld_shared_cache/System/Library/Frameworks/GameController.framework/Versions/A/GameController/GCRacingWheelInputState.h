@@ -6,8 +6,7 @@
 
 #import <GameController/_GCDevicePhysicalInputFacade.h>
 
-@class GCGearShifterElement, GCSteeringWheelElement;
-@protocol GCButtonElement;
+@class GCSteeringWheelElement;
 
 @interface GCRacingWheelInputState : _GCDevicePhysicalInputFacade
 {
@@ -20,10 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) id <GCButtonElement> acceleratorPedal;
-@property(readonly) id <GCButtonElement> brakePedal;
-@property(readonly) id <GCButtonElement> clutchPedal;
-@property(readonly) GCGearShifterElement *shifter;
 @property(readonly) GCSteeringWheelElement *wheel;
 
 @end

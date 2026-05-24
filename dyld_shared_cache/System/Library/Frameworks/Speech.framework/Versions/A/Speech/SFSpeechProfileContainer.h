@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SFSpeechProfileContainer
 {
     NSURL *_url;
-    NSString *_personaId;
-    NSString *_userId;
-    NSString *_loggableUserId;
 }
 
 + (id);
@@ -21,17 +18,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)r;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *loggableUserId; // @synthesize loggableUserId=_loggableUserId;
-@property(readonly, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) NSString *userId; // @synthesize userId=_userId;
 
 @end
 

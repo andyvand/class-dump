@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABBookGroupAddMembersCommand, ABBookGroupAddSubgroupsCommand, NSSet;
+@class ABBookGroupAddMembersCommand, NSSet;
 
 @interface ABBookGroupAddRecordsCommand
 {
     ABBookGroupAddMembersCommand *_addMembersCommand;
-    ABBookGroupAddSubgroupsCommand *_addSubgroupsCommand;
-    _Bool ignoresGuardianRestrictions;
 }
 
 - (id);
@@ -25,7 +23,6 @@
 
 // Remaining properties
 @property(readonly) NSSet *newMemberUids;
-@property(readonly) NSSet *newSubgroupUids;
 
 @end
 

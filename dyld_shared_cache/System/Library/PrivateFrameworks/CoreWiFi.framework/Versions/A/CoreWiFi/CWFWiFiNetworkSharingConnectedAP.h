@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData, NSString;
 
 @interface CWFWiFiNetworkSharingConnectedAP
 {
     NSData *_SSID;
-    NSArray *_links;
 }
 
 + (_Bool);
@@ -23,13 +22,11 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)helo_device;
 - (id);
 - (void)deDisabledNetwork;
 
 // Remaining properties
-@property(copy) NSData *SSID; // @synthesize SSID=_SSID;
-@property(copy) NSArray *links; // @synthesize links=_links;
 @property(readonly) NSString *networkName;
 
 @end

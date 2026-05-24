@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFAirDropDiscoveryController;
+@class SFAirDropDiscoveryController;
 
 __attribute__((visibility("hidden")))
 @interface FI_TAirDropDiscoveryController
 {
     SFAirDropDiscoveryController *_discoveryController;
-    _Bool _isLegacyMachine;
-    long long _discoverableMode;
-    _Bool _isLegacyModeEnabled;
-    _Bool _isLegacyModeSettable;
-    _Bool _isLegacyModeSupported;
 }
 
-+ (id)ew;
++ (id)_showLabelColorView;
 - (_Bool);
 - (void);
 - (void);
@@ -33,24 +28,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)located;
 - (id);
 - (void);
 - (void)ationPopUp iconAppearancePrefChanged:]ENK4$_24clEvENKUlvE_clEvEUlT_E_ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long discoverableMode; // @synthesize discoverableMode=_discoverableMode;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isLegacyMachine) _Bool legacyMachine; // @synthesize legacyMachine=_isLegacyMachine;
-@property(nonatomic, getter=isLegacyModeEnabled) _Bool legacyModeEnabled; // @synthesize legacyModeEnabled=_isLegacyModeEnabled;
-@property(readonly, nonatomic, getter=isLegacyModeSettable) _Bool legacyModeSettable; // @synthesize legacyModeSettable=_isLegacyModeSettable;
-@property(readonly, nonatomic, getter=isLegacyModeSupported) _Bool legacyModeSupported; // @synthesize legacyModeSupported=_isLegacyModeSupported;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,11 +7,10 @@
 @interface MNRouteCoordinateWithType
 {
     unsigned long long _significanceType;
-    struct PolylineCoordinate _routeCoordinate;
 }
 
 + (id);
-+ (id);
++ (id)WidgetBorderedButtonStyle;
 - (unsigned long long);
 - (void);
 - (void);
@@ -20,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) struct PolylineCoordinate routeCoordinate; // @synthesize routeCoordinate=_routeCoordinate;
 @property(nonatomic) unsigned long long significanceType; // @synthesize significanceType=_significanceType;
 
 @end

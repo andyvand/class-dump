@@ -6,16 +6,11 @@
 
 #import <IMSharedUtilities/IMRuntimeTest.h>
 
-@class NSArray, NSMutableArray, NSTimer;
+@class NSArray, NSMutableArray;
 
 @interface IMRuntimeTestSuite : IMRuntimeTest
 {
     NSMutableArray *_tests;
-    double _testSuiteStartDelay;
-    double _testStartDelay;
-    NSMutableArray *_runningTests;
-    IMRuntimeTest *_currentTest;
-    NSTimer *_timer;
 }
 
 + (void);
@@ -39,16 +34,11 @@
 - (id);
 - (void);
 - (id);
-- (void)Value;
-- (void)y;
+- (void)DefaultValue;
+- (void)IMMetricsCollectorThirdLevelErrorCodeKey;
 
 // Remaining properties
-@property(retain) IMRuntimeTest *currentTest; // @synthesize currentTest=_currentTest;
-@property(retain) NSMutableArray *runningTests; // @synthesize runningTests=_runningTests;
-@property double testStartDelay; // @synthesize testStartDelay=_testStartDelay;
-@property double testSuiteStartDelay; // @synthesize testSuiteStartDelay=_testSuiteStartDelay;
 @property(retain) NSArray *tests; // @synthesize tests=_tests;
-@property __weak NSTimer *timer; // @synthesize timer=_timer;
 
 @end
 

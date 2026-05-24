@@ -7,11 +7,10 @@
 @class NSData;
 
 @protocol _SFPBMailResultDetails
+- (NSData *)utputFileURL:fingerPrint:signpostId:options:completion: /* Error: Ran out of types for this method. */;
+- (id)`>;
 
 // Remaining properties
 @property(nonatomic) int dataSources;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int skgMegadomeSpotlightIndexEntries;
-@property(nonatomic) float suggestionScore;
 @end
 

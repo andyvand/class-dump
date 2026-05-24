@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNGenerateSegmentationRequest : VNImageBasedRequest
 {
 }
@@ -16,14 +14,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned int);
-- (void);
+- (void)setClassicRSSI:(unsigned int)arg1;
+- (unsigned int)userIdentifier;
+- (void)rites file. Please open a radar to Contacts (New Bugs).
+
+%@;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) unsigned int outputPixelFormat;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

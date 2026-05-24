@@ -4,38 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCloudSyncingObject, ICEncryptionKey, ICEncryptionMetadata, ICEncryptionObject, NSString;
+@class ICCloudSyncingObject;
 
 @interface ICCryptoStrategyBase
 {
     ICCloudSyncingObject *_object;
 }
 
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id)logWithLogFilePath: /* Error: Ran out of types for this method. */;
+- (id)localizedFailureReason;
+- (void)retrieve computer record '%@':(CDUnknownBlockType)arg1 %@ (%d);
+- (void)'%@' is already in locale '%@';
+- (void)'%@' is already in locale '%@';
+- (void)add server;
+- (void)add server;
 - (_Bool);
 - (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
+- (long long);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)addPort:(id)arg1 forMode: /* Error: Ran out of types for this method. */;
+- (_Bool)_osVersionReturningMajor:minor:point: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -43,7 +43,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)3;
 - (id);
 - (void);
 - (id);
@@ -55,22 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canAuthenticate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPassphraseSet;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long intrinsicNotesVersion;
-@property(readonly, nonatomic) _Bool isAuthenticated;
 @property(readonly, nonatomic) __weak ICCloudSyncingObject *object; // @synthesize object=_object;
-@property(readonly, copy, nonatomic) NSString *passphraseHint;
-@property(readonly, nonatomic) ICEncryptionObject *primaryEncryptionObject;
-@property(readonly, nonatomic) ICEncryptionMetadata *primaryMetadata;
-@property(readonly, nonatomic) ICEncryptionKey *primaryWrappedKey;
-@property(readonly) Class superclass;
 
 @end
 

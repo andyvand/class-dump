@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface MPMiddlewareOperationMap
 {
     NSMapTable *_middlewareOperationMap;
-    NSMutableArray *_middleware;
-    NSMutableArray *_operations;
 }
 
-+ (id);
++ (id)Sg_ABt;
 - (id);
-- (id);
+- (id)svfopCurrentUser;
 - (id);
 - (id);
 - (void)N,GisHomePodRoute,V_homePodRoute;

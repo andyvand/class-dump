@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerItem, LPAudio, NSHashTable, NSString;
+@class LPAudio;
 
 @interface LPStreamingAudioPlayer
 {
     LPAudio *_audio;
-    AVPlayerItem *_item;
-    AVPlayer *_player;
-    id _timeObserver;
-    id _endObserver;
-    NSHashTable *_clients;
-    unsigned long long _state;
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
++ (id)startWithQueue:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)transcriptCollectionViewController:sendQuickReplyComposition:withSourceView: /* Error: Ran out of types for this method. */;
+- (_Bool)transcriptCollectionViewController:balloonView:longPressedForItemWithIndexPath: /* Error: Ran out of types for this method. */;
+- (void)titleTextTopToLogoConstraint;
+- (id)textEffectCoordinator:(id)arg1 didChangeStateOfAnimator:textView: /* Error: Ran out of types for this method. */;
+- (_Bool)textBalloonViewTextView:didChangeTextEffectPlaybackCandidateStatus: /* Error: Ran out of types for this method. */;
+- (void)tapbackSupplementaryItemForChatItem:(unsigned long long)arg1 layoutEnvironment: /* Error: Ran out of types for this method. */;
+- (void)ider:effectString: /* Error: Ran out of types for this method. */;
+- (void)sCommSafetySensitiveProvider:(float)arg1 adaptiveImageGlyphProvider:effectString: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -41,34 +35,11 @@
 - (void);
 - (void);
 - (void)N;
-- (void)enter;
+- (void)center;
 - (void)SString"8q16@"NSString"24;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isFullScreen) _Bool fullScreen;
-@property(readonly, nonatomic) _Bool hasMuteControl;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long lastInteractionTimestamp;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
-@property(readonly, nonatomic, getter=isMuted) _Bool muted;
-@property(nonatomic, getter=isPlaying) _Bool playing;
 @property(readonly, nonatomic) float progress;
-@property(readonly, nonatomic) _Bool shouldUnmuteWhenUserAdjustsVolume;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double unobscuredAreaFraction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) _Bool usesSharedAudioSession;
 
 @end
 

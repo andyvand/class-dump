@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject, NSString, WBSSQLiteDatabase;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface FirefoxCryptoKeyStoreV4
 {
     NSObject<OS_dispatch_queue> *_databaseQueue;
-    WBSSQLiteDatabase *_database;
-    _Bool _isOpen;
-    NSData *_globalSalt;
-    NSData *_passwordCheckEntrySalt;
-    NSData *_passwordCheckPayload;
-    NSData *_encryptedPrivateKey;
-    NSData *_passwordCheckIV;
 }
 
 + (id);
@@ -39,19 +32,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canOpen;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSData *globalSaltData;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isKeyStorageUsingFirefox75AndAbove;
-@property(readonly, copy, nonatomic) NSData *passwordCheckEntrySalt;
-@property(readonly, copy, nonatomic) NSData *passwordCheckIV; // @synthesize passwordCheckIV=_passwordCheckIV;
-@property(readonly, copy, nonatomic) NSData *passwordCheckPayload;
-@property(readonly, nonatomic) _Bool storesRawPrivateKey;
-@property(readonly) Class superclass;
 
 @end
 

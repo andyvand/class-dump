@@ -4,45 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PKOSVersionRequirementRange;
+@class NSString, PKOSVersionRequirementRange;
 
 @interface PKLayoutAssetString
 {
     PKOSVersionRequirementRange *_osVersionRange;
-    NSDictionary *_configuration;
-    NSString *_name;
-    NSString *_displayText;
-    NSString *_markdownText;
 }
 
 + (id);
-+ (id);
++ (id)h;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Q;
 - (id);
 - (void);
 - (void);
-- (id)lVerified;
+- (id)aa_isPrimaryEmailVerified;
 - (void)Ø	;
-- (void)mal_amount;
+- (void)decimal_amount;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *displayText; // @synthesize displayText=_displayText;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *markdownText; // @synthesize markdownText=_markdownText;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) PKOSVersionRequirementRange *osVersionRange; // @synthesize osVersionRange=_osVersionRange;
-@property(readonly) Class superclass;
 
 @end
 

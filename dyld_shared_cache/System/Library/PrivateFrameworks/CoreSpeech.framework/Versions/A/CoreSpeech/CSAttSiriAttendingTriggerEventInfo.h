@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAttSiriRequestContext, NSString;
+@class CSAttSiriRequestContext;
 
 @interface CSAttSiriAttendingTriggerEventInfo
 {
     CSAttSiriRequestContext *_ctx;
-    NSString *_detectedToken;
-    unsigned long long _triggerMachTime;
-    unsigned long long _triggerAbsStartSampleId;
 }
 
 + (_Bool);
@@ -23,16 +20,13 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)willResumeReindexingAsNotFinished;
 - (id);
 - (void);
-- (void)shold;
+- (void)accessibleEndpointerThreshold;
 
 // Remaining properties
 @property(copy, nonatomic) CSAttSiriRequestContext *ctx; // @synthesize ctx=_ctx;
-@property(retain, nonatomic) NSString *detectedToken; // @synthesize detectedToken=_detectedToken;
-@property(nonatomic) unsigned long long triggerAbsStartSampleId; // @synthesize triggerAbsStartSampleId=_triggerAbsStartSampleId;
-@property(nonatomic) unsigned long long triggerMachTime; // @synthesize triggerMachTime=_triggerMachTime;
 
 @end
 

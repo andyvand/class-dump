@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDMediaPlaybackActionEvent.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDMPCSessionControllerExecutionEvent : HMDMediaPlaybackActionEvent
 {
@@ -23,7 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool didPartiallySucceed; // @synthesize didPartiallySucceed=_didPartiallySucceed;
-@property(readonly, copy) NSString *resultString;
 
 @end
 

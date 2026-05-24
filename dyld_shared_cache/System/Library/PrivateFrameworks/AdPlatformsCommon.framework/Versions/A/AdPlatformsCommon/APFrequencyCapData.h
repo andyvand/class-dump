@@ -7,8 +7,6 @@
 @interface APFrequencyCapData
 {
     long long _relevantIdentifier;
-    unsigned long long _value;
-    unsigned long long _duration;
 }
 
 + (_Bool);
@@ -22,9 +20,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property unsigned long long duration; // @synthesize duration=_duration;
 @property long long relevantIdentifier; // @synthesize relevantIdentifier=_relevantIdentifier;
-@property unsigned long long value; // @synthesize value=_value;
 
 @end
 

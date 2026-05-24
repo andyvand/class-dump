@@ -9,13 +9,12 @@
 @interface BMUserActivityMetadataTopic
 {
     NSString *_topicIdentifier;
-    NSString *_title;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (unsigned int);
@@ -25,24 +24,15 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P0;
 - (void);
 - (id);
 - (id);
 - (id)_TtCV14BiomeSQLParser15PgQuery_A_ConstP33_A784F7F2ED97E043416F18646CF1BF1713_StorageClass;
-- (id)vent_trig_stmt__get_packed_size;
+- (id)pg_query__create_event_trig_stmt__get_packed_size;
 - (void)HIJKLMNOPQRSTUVWXYa;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSString *topicIdentifier; // @synthesize topicIdentifier=_topicIdentifier;
 
 @end

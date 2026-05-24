@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (id);
-- (void)perty: /* Error: Ran out of types for this method. */;
+- (void)vCardPropertyItemsForProperty: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;

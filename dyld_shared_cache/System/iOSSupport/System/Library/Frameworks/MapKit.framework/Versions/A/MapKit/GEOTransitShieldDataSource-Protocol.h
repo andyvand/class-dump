@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol GEOTransitShieldDataSource
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *shieldColorString;
-@property(readonly, nonatomic) NSString *shieldText;
 @property(readonly, nonatomic) long long shieldType;
 @end
 

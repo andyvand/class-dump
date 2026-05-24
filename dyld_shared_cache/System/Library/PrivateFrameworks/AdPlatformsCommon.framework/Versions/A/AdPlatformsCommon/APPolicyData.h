@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface APPolicyData
 {
     NSString *_creativeIdentifier;
-    NSDictionary *_policyValue;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (_Bool);
@@ -20,11 +19,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)a;
 
 // Remaining properties
 @property(retain) NSString *creativeIdentifier; // @synthesize creativeIdentifier=_creativeIdentifier;
-@property(retain) NSDictionary *policyValue; // @synthesize policyValue=_policyValue;
 
 @end
 

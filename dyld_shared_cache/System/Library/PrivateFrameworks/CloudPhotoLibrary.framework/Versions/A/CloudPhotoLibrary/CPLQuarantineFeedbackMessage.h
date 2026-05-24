@@ -11,10 +11,9 @@
 @interface CPLQuarantineFeedbackMessage : CPLFeedbackMessage
 {
     NSString *_reason;
-    Class _recordClass;
 }
 
-+ (id)Cache:fingerprintContext: /* Error: Ran out of types for this method. */;
++ (id)_generateDerivativesForNextRecord:usingDerivativesCache:fetchCache:fingerprintContext: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (Class);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) Class recordClass; // @synthesize recordClass=_recordClass;
 
 @end
 

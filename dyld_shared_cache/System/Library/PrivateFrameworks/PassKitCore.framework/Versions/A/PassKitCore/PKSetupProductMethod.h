@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKOSVersionRequirementRange;
+@class NSString;
 
 @interface PKSetupProductMethod
 {
     _Bool _supported;
-    unsigned long long _type;
-    NSString *_partnerIdentifier;
-    NSString *_localizedTitle;
-    NSString *_localizedDescription;
-    NSArray *_regions;
-    PKOSVersionRequirementRange *_requiredOSVersionRange;
 }
 
 + (_Bool);
@@ -28,16 +22,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
+- (id)description;
+- (void)_softErrorUserConfirmationCounters;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id)extPossibleFetchDate;
-- (id)dRewardsProgramIdentifiers;
+- (id)nextPossibleFetchDate;
+- (id)_enhancedRewardsProgramIdentifiers;
 - (_Bool);
 - (void)mageFormat=II^{CGColorSpace}II^di}8r^{vImage_Buffer=^vQQQ}16;
 - (id)etBalance"8Q16^B24;
@@ -45,13 +39,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(readonly, copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly, copy, nonatomic) NSString *partnerIdentifier; // @synthesize partnerIdentifier=_partnerIdentifier;
-@property(readonly, copy, nonatomic) NSArray *regions; // @synthesize regions=_regions;
-@property(readonly, copy, nonatomic) PKOSVersionRequirementRange *requiredOSVersionRange; // @synthesize requiredOSVersionRange=_requiredOSVersionRange;
-@property(nonatomic, getter=isSupported) _Bool supported; // @synthesize supported=_supported;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

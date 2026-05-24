@@ -11,25 +11,23 @@
 @interface IMAPRenameCommand : IMAPMailboxCommand
 {
     NSString *_nameForNewMailbox;
-    NSString *_nameForNewMailboxArgument;
 }
 
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)R9;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(copy) NSString *nameForNewMailbox; // @synthesize nameForNewMailbox=_nameForNewMailbox;
-@property(copy) NSString *nameForNewMailboxArgument; // @synthesize nameForNewMailboxArgument=_nameForNewMailboxArgument;
 
 @end
 

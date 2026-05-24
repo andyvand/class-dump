@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBezierPath, NSImage, NSString, PKPass;
+@class NSBezierPath, PKPass;
 
 @interface PKPassView
 {
     NSBezierPath *_clipPath;
-    NSImage *_blurredBackground;
-    NSImage *_cachedGradientOverlayImage;
-    PKPass *_pass;
-    NSString *_windowTitle;
 }
 
 + (void);
@@ -22,7 +18,7 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -37,7 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PKPass *pass; // @synthesize pass=_pass;
-@property(retain, nonatomic) NSString *windowTitle; // @synthesize windowTitle=_windowTitle;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface FCNewsTabiEventAggregationOutputsConfiguration
 {
     FCNewsTabiEventAggregationOutputConfiguration *_bundleOutputConfiguration;
-    FCNewsTabiEventAggregationOutputConfiguration *_nonBundleOutputConfiguration;
 }
 
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCNewsTabiEventAggregationOutputConfiguration *bundleOutputConfiguration; // @synthesize bundleOutputConfiguration=_bundleOutputConfiguration;
-@property(retain, nonatomic) FCNewsTabiEventAggregationOutputConfiguration *nonBundleOutputConfiguration; // @synthesize nonBundleOutputConfiguration=_nonBundleOutputConfiguration;
 
 @end
 

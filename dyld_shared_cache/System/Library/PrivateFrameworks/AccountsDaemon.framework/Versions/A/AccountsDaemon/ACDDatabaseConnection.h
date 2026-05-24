@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSManagedObjectContext, NSNumber, NSObject, NSPersistentStoreCoordinator;
-@protocol ACDDatabaseConnectionDelegate, NSObject, OS_dispatch_source;
+@class NSPersistentStoreCoordinator;
+@protocol NSObject;
 
 __attribute__((visibility("hidden")))
 @interface ACDDatabaseConnection
 {
     id <NSObject> _managedObjectContextDidSaveObserver;
-    NSCache *_cache;
-    NSObject<OS_dispatch_source> *_memoryNotificationSource;
-    NSPersistentStoreCoordinator *_persistentStoreCoordinator;
-    NSManagedObjectContext *_managedObjectContext;
-    id <ACDDatabaseConnectionDelegate> _delegate;
 }
 
 + (id);
@@ -23,50 +18,46 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)ComposeRecipientHandleServiceAppEnumRepresentation;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)!;
+- (id);
+- (id);
+- (id);
+- (id).offset;
+- (void)T+;
+- (id);
+- (void);
+- (id)PublicDL;
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)maxAdjustedValue;
+- (id)readLimoFromManager:(id)arg1 toGeometry:(id)arg2;
+- (void);
 - (void);
 - (id);
 - (id);
+- (id)T;
+- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)8Ԇ;
 - (_Bool);
 - (void);
 - (id)nd. Creating...";
 
 // Remaining properties
-@property(nonatomic) __weak id <ACDDatabaseConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSNumber *keychainVersion;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext; // @synthesize managedObjectContext=_managedObjectContext;
 @property(readonly, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator; // @synthesize persistentStoreCoordinator=_persistentStoreCoordinator;
-@property(retain, nonatomic) NSNumber *version;
 
 @end
 

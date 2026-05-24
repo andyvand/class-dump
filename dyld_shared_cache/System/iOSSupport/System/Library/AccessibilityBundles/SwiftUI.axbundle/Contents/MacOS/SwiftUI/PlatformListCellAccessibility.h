@@ -12,9 +12,9 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 
 @end

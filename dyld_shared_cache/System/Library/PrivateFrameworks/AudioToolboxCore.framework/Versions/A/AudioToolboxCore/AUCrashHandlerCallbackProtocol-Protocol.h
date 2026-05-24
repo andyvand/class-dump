@@ -5,5 +5,6 @@
 //
 
 @protocol AUCrashHandlerCallbackProtocol
+- (void);
 @end
 

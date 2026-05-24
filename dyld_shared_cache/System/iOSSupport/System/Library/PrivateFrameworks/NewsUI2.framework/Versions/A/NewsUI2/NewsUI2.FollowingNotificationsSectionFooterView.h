@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (void)r;
+- (void)ChannelEngagementRenderer;
 
 @end
 

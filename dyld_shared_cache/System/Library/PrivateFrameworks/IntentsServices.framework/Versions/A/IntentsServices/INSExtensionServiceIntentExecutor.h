@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCExtensionProxy, INIntent, NSObject;
-@protocol INVCVoiceShortcutClient, OS_dispatch_queue;
+@protocol INVCVoiceShortcutClient;
 
 __attribute__((visibility("hidden")))
 @interface INSExtensionServiceIntentExecutor
 {
     id <INVCVoiceShortcutClient> _voiceShortcutClient;
-    INIntent *_intent;
-    INCExtensionProxy *_extensionProxy;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
@@ -23,16 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)setSensorRawStillImageOutputsEnabled:(id)arg1;
+- (id)BackTelephotoAccumulatedSuccessfulDetections;
+- (void)rawSensorDimensionsHeight;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void),N,SsetAltDSID:,V_altDSID /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) INCExtensionProxy *extensionProxy; // @synthesize extensionProxy=_extensionProxy;
-@property(retain, nonatomic) INIntent *intent; // @synthesize intent=_intent;
-@property(nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(retain, nonatomic) id <INVCVoiceShortcutClient> voiceShortcutClient; // @synthesize voiceShortcutClient=_voiceShortcutClient;
 
 @end

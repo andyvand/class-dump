@@ -5,5 +5,6 @@
 //
 
 @protocol _SFXPCLSRAssetInventory
+- (oneway void);
 @end
 

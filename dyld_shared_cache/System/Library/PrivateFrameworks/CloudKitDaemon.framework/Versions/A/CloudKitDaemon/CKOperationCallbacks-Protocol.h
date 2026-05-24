@@ -5,5 +5,11 @@
 //
 
 @protocol CKOperationCallbacks
+- (void);
+- (void);;
+- (void)}#=;
+- (void);
+- (void);
+- (void);
 @end
 

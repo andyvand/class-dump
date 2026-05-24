@@ -9,50 +9,36 @@
 @interface NTPBShareSheetExposure
 {
     NSString *_contentId;
-    int _contentType;
-    NSString *_referencedArticleId;
-    int _shareSheetExposureLocation;
-    struct {
-        unsigned int contentType:1;
-        unsigned int shareSheetExposureLocation:1;
-    } _has;
 }
 
+- (int)initWithContentsOfURL: /* Error: Ran out of types for this method. */;
+- (void)initWithAssetCollection:(int)arg1 activityType:sourceType:optionalPeopleFetchResult: /* Error: Ran out of types for this method. */;
+- (void)initWithAnimation:(id)arg1 startTime: /* Error: Ran out of types for this method. */;
+- (void)getMagazineRects:(_Bool)arg1 withInputs: /* Error: Ran out of types for this method. */;
+- (void)fetchEditorialAssetsForCollection:(_Bool)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)enableInlinePlaybackSocialGroupShelf;
+- (_Bool)defaultConfigurations;
+- (_Bool)dateWithTimeIntervalSinceNow: /* Error: Ran out of types for this method. */;
+- (id)commentsForItemAtIndex:(int)arg1;
+- (int)cellSizeForBounds:(id)arg1;
+- (_Bool);
+- (id);
+- (void).viewbridge;
+- (void);
+- (unsigned long long)_playingBeyondPhoto;
+- (_Bool);
+- (_Bool)OSInstall;
+- (void);
+- (_Bool)tion:(id)arg1 %{public}s;
+- (id);
+- (id);
 - (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (int);
-- (void)ImageURL: /* Error: Ran out of types for this method. */;
+- (void)setVideoStillImageURL: /* Error: Ran out of types for this method. */;
 - (void)WeightRatioIPad;
 - (id)r;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentId; // @synthesize contentId=_contentId;
-@property(nonatomic) int contentType; // @synthesize contentType=_contentType;
-@property(readonly, nonatomic) _Bool hasContentId;
 @property(nonatomic) _Bool hasContentType;
-@property(readonly, nonatomic) _Bool hasReferencedArticleId;
-@property(nonatomic) _Bool hasShareSheetExposureLocation;
-@property(retain, nonatomic) NSString *referencedArticleId; // @synthesize referencedArticleId=_referencedArticleId;
-@property(nonatomic) int shareSheetExposureLocation; // @synthesize shareSheetExposureLocation=_shareSheetExposureLocation;
 
 @end
 

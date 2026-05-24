@@ -5,5 +5,6 @@
 //
 
 @protocol OfferEligibilityService
+- (void);
 @end
 

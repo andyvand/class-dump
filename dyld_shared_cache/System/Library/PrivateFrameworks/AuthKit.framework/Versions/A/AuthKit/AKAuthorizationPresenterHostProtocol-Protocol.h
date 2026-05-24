@@ -5,5 +5,6 @@
 //
 
 @protocol AKAuthorizationPresenterHostProtocol
+- (void);
 @end
 

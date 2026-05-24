@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)_expansionStateContext;
 - (Class);
 
 @end

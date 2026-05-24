@@ -6,20 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MWTSchemaMWTEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_mwtId;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_subRequestId;
-    _Bool _hasMwtId;
-    _Bool _hasRequestId;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,11 +24,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)C;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)FB;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -43,17 +38,11 @@
 × ;
 - (id)B,N,V_hasEmbeddingModelId;
 - (id)des;
-- (void)tionInitiator;
+- (void)FLOWLINKSchemaFLOWLINKActionCancellationInitiator;
 - (id)ÿÛ±Ý=';
 
 // Remaining properties
-@property(nonatomic) _Bool hasMwtId; // @synthesize hasMwtId=_hasMwtId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *mwtId; // @synthesize mwtId=_mwtId;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
 
 @end
 

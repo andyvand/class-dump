@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_resolver_config
 {
     struct retained_ptr<NSObject<OS_xpc_object>*> dictionary;
-    unsigned char identifier[16];
-    struct retained_ptr<NSObject<OS_dispatch_source>*> kernel_event_source;
-    struct retained_ptr<NSObject<OS_nw_fd_wrapper>*> kernel_event_wrapper;
-    struct retained_ptr<NSObject<OS_nw_fd_wrapper>*> agent_fd;
-    struct unfair_mutex lock;
-    unsigned int generation;
 }
 
-- (void);
+- (void)r:%u /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

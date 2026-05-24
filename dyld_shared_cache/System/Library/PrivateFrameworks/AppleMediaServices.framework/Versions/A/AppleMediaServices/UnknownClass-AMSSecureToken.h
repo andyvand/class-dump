@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSArray, NSString;
-
 @interface UnknownClass (AMSSecureToken)
 + (_Bool);
 + (id);
@@ -16,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)6;
 + (_Bool);
 + (struct __CFDictionary *);
 + (id);
@@ -52,6 +50,7 @@
 - (id);
 - (id);
 - (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -67,8 +66,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -82,18 +80,18 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -115,14 +113,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) ACAccount *_ams_localiTunesAccount;
 @property(readonly, getter=ams_isActiveAccountCombined) _Bool ams_activeAccountCombined;
-@property(readonly) ACAccount *ams_activeiCloudAccount;
-@property(readonly) ACAccount *ams_activeiTunesAccount;
-@property(readonly) NSArray *ams_alliTunesAccounts;
-@property(readonly) NSArray *ams_iTunesAccounts;
-@property(readonly) NSArray *ams_iTunesAccountsWithHomeUserIdentifiers;
-@property(readonly) NSString *ams_mediaType;
-@property(readonly) ACAccount *ams_selectedProfileiTunesAccount;
 @end
 

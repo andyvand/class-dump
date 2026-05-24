@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface RTVehicleMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)v24@0:(id)arg1 8^{__PCSLogContext=}16;
++ (id)@;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bluetoothAddress; // @dynamic bluetoothAddress;
-@property(retain, nonatomic) NSDate *endDate; // @dynamic endDate;
 @property(retain, nonatomic) NSDate *startDate; // @dynamic startDate;
-@property(copy, nonatomic) NSString *vehicleModelName; // @dynamic vehicleModelName;
-@property(copy, nonatomic) NSString *vehicleName; // @dynamic vehicleName;
 
 @end
 

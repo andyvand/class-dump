@@ -13,8 +13,8 @@
 }
 
 - (void);
-- (id);
-- (id);
+- (id)Q;
+- (id)g:(id)arg1 ];
 
 // Remaining properties
 @property(readonly, copy, nonatomic) ASDMigrationRequestOptions *options; // @dynamic options;

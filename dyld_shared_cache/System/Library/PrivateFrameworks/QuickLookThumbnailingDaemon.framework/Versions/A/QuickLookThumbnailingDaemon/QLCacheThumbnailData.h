@@ -4,52 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSObject, QLCacheBlobInfo, QLCacheFileIdentifier, QLTBitmapFormat, QLThumbnailVersion;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface QLCacheThumbnailData
 {
     NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _state;
-    _Bool _iconMode;
-    float _size;
-    int _interpolationQuality;
-    int _flavor;
-    unsigned long long _totalBufferSize;
-    QLCacheFileIdentifier *_fileIdentifier;
-    QLThumbnailVersion *_version;
-    unsigned long long _cacheId;
-    long long _iconVariant;
-    unsigned long long _badgeType;
-    QLTBitmapFormat *_bitmapFormat;
-    NSData *_bitmapData;
-    NSData *_metadata;
-    QLCacheBlobInfo *_bitmapDataToValidate;
-    QLCacheBlobInfo *_metadataToValidate;
-    unsigned long long _externalGeneratorDataHash;
-    unsigned long long _hitCount;
-    NSDate *_lastHitDate;
-    struct CGRect _contentRect;
 }
 
-- (_Bool);
+- (_Bool)case_count_target;
+- (void)SymptomAnalyticsLegacy;
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)�;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (int);
-- (long long);
-- (_Bool);
-- (unsigned long long);
+- (id)setHasTdSpeakerRecognizerCombinedThreshold: /* Error: Ran out of types for this method. */;
+- (int)setHasTaskId: /* Error: Ran out of types for this method. */;
+- (long long)setHasSynthesisEffect: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasSynthesisContext: /* Error: Ran out of types for this method. */;
+- (unsigned long long)";
 - (id);
 - (id);
 - (void);
@@ -61,31 +41,12 @@
 - (id);
 - (_Bool);
 - (struct CGRect);
-- (unsigned long long);
+- (unsigned long long)le.xbs/TemporaryDirectory.0DoE4h/Sources/BridgeOSSoftwareUpdateController/Shared/BridgeOSSoftwareUpdateUtilities.m;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long badgeType; // @synthesize badgeType=_badgeType;
-@property(readonly, nonatomic) NSData *bitmapData; // @synthesize bitmapData=_bitmapData;
-@property(retain, nonatomic) QLCacheBlobInfo *bitmapDataToValidate; // @synthesize bitmapDataToValidate=_bitmapDataToValidate;
-@property(readonly, nonatomic) QLTBitmapFormat *bitmapFormat; // @synthesize bitmapFormat=_bitmapFormat;
-@property(readonly, nonatomic) unsigned long long cacheId; // @synthesize cacheId=_cacheId;
-@property(readonly, nonatomic) struct CGRect contentRect; // @synthesize contentRect=_contentRect;
-@property(readonly, nonatomic) unsigned long long externalGeneratorDataHash; // @synthesize externalGeneratorDataHash=_externalGeneratorDataHash;
-@property(readonly, nonatomic) QLCacheFileIdentifier *fileIdentifier; // @synthesize fileIdentifier=_fileIdentifier;
-@property(readonly, nonatomic) int flavor; // @synthesize flavor=_flavor;
-@property(readonly, nonatomic) _Bool hasData;
-@property(readonly, nonatomic) unsigned long long hitCount; // @synthesize hitCount=_hitCount;
-@property(readonly, nonatomic) _Bool iconMode; // @synthesize iconMode=_iconMode;
-@property(readonly, nonatomic) long long iconVariant; // @synthesize iconVariant=_iconVariant;
-@property(readonly, nonatomic) int interpolationQuality; // @synthesize interpolationQuality=_interpolationQuality;
-@property(readonly, copy, nonatomic) NSDate *lastHitDate; // @synthesize lastHitDate=_lastHitDate;
-@property(readonly, nonatomic) NSData *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) QLCacheBlobInfo *metadataToValidate; // @synthesize metadataToValidate=_metadataToValidate;
-@property(readonly, nonatomic) float size; // @synthesize size=_size;
 @property(readonly, nonatomic) unsigned long long totalBufferSize; // @synthesize totalBufferSize=_totalBufferSize;
-@property(readonly, nonatomic) QLThumbnailVersion *version; // @synthesize version=_version;
 
 @end
 

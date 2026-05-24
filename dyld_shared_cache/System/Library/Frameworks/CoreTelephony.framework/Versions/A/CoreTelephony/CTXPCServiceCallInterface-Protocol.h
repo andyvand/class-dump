@@ -5,5 +5,6 @@
 //
 
 @protocol CTXPCServiceCallInterface
+- (void);
 @end
 

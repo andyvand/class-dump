@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLRecordChange, CPLRecordStatus, NSDate;
+@class NSDate;
 
 @interface _CPLTransientStatus
 {
     NSDate *_date;
-    CPLRecordChange *_record;
-    unsigned long long _generation;
 }
 
 - (id);
@@ -22,9 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) unsigned long long generation; // @synthesize generation=_generation;
-@property(readonly, nonatomic) CPLRecordChange *record; // @synthesize record=_record;
-@property(readonly, nonatomic) CPLRecordStatus *status;
 
 @end
 

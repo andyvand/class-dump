@@ -8,12 +8,10 @@ __attribute__((visibility("hidden")))
 @interface BMViewResourceMapper
 {
     CDUnknownBlockType _databaseForViewName;
-    CDUnknownBlockType _streamIdentifierForLegacyStreamName;
-    CDUnknownBlockType _streamIdentifierForUUIDString;
 }
 
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
@@ -22,8 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) CDUnknownBlockType databaseForViewName; // @synthesize databaseForViewName=_databaseForViewName;
-@property(copy) CDUnknownBlockType streamIdentifierForLegacyStreamName; // @synthesize streamIdentifierForLegacyStreamName=_streamIdentifierForLegacyStreamName;
-@property(copy) CDUnknownBlockType streamIdentifierForUUIDString; // @synthesize streamIdentifierForUUIDString=_streamIdentifierForUUIDString;
 
 @end
 

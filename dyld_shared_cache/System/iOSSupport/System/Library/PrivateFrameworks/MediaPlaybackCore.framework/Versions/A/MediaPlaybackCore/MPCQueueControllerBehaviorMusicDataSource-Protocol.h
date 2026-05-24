@@ -4,19 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MPCQueueControllerBehaviorMusicDataSourceDelegate;
+@class MPAVItem, MPIdentifierSet, NSString;
 
 @protocol MPCQueueControllerBehaviorMusicDataSource
++ (_Bool)__objc_classname__TEXT;
+- (MPAVItem *)@0:(NSString *)arg1 8;
+- (unsigned long long)setByAddingObjectsFromArray:(NSString *)arg1;
+- (_Bool)isPropertyDirty:(NSString *)arg1;
+- (_Bool)currentLocale;
+- (MPIdentifierSet *)ount change for account:(NSString *)arg1 %@;
+
+@optional
+- (long long)}16@0:(NSString *)arg1 8;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsLiveStream;
-@property(readonly, nonatomic) _Bool containsRadioContent;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) __weak id <MPCQueueControllerBehaviorMusicDataSourceDelegate> delegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<MPCQueueControllerBehaviorMusicDataSourceDelegate>",?,W,N
-
 @end
 

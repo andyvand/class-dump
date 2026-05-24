@@ -5,5 +5,8 @@
 //
 
 @protocol UMXPCClient
+- (void)nputs must match for ';
+- (void);
+- (void)setRoutingKey:(void (^)(void))arg1;
 @end
 

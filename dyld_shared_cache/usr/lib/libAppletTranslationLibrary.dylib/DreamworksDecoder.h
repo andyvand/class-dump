@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface DreamworksDecoder
 {
     unsigned long long decoderState;
-    _Bool debug;
 }
 
 + (id);
@@ -20,15 +19,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
+- (id);
+- (id)vukojebinama;
+- (id)fileProviderExtensionToAppBundleMap;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)sult: /* Error: Ran out of types for this method. */;
+- (void)didTransactionError:withISOParameters:withTransactionResult: /* Error: Ran out of types for this method. */;
 
 @end
 

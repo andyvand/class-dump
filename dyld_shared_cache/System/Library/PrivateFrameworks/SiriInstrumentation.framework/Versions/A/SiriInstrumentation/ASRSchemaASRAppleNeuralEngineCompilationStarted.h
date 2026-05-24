@@ -6,23 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRAppleNeuralEngineCompilationStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)_useSocketInterfaceForEASession;
+- (void)	
+	;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)licitSatScore: /* Error: Ran out of types for this method. */;
+- (id)setTriggerExplicitSatScore: /* Error: Ran out of types for this method. */;
 - (id)ØA;
 - (id);
 - (_Bool)H±ºÿÇ;
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

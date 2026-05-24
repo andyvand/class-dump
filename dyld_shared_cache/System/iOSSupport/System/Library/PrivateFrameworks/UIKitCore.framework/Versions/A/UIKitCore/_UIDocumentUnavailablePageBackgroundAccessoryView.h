@@ -12,19 +12,16 @@ __attribute__((visibility("hidden")))
 @interface _UIDocumentUnavailablePageBackgroundAccessoryView : _UITouchPassthroughView
 {
     _UIDocumentUnavailablePageView *_leftView;
-    _UIDocumentUnavailablePageView *_rightView;
-    _Bool _expanded;
-    struct CGSize _pageSize;
 }
 
-- (void);
-- (void);
+- (void)th (%@), failing transcoding;
+- (void)registerMailConsumer:(struct CGSize)arg1 levelOfService: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (struct CGSize)× ;
-- (_Bool)ellingGuesses: /* Error: Ran out of types for this method. */;
-- (void)AdaptivityStyle;
-- (id)s;
+- (_Bool)setMaxCountAfterSpellingGuesses: /* Error: Ran out of types for this method. */;
+- (void)childViewControllerForWhitePointAdaptivityStyle;
+- (id)_configureBarsAutomaticActions;
 - (void)Ô¥\;
 - (void)ÿ;
 

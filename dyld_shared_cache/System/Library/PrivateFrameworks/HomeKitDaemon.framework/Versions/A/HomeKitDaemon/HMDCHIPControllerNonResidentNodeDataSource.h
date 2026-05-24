@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSString;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPControllerNonResidentNodeDataSource
@@ -13,26 +13,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)³}ÿ;
-- (_Bool);
+- (_Bool)AccountIdentifier choosing from aliasStrings %@;
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id)!Bù1ð1Â0@ù
 × ;
 - (id);
-- (id)VideoTiers;
+- (id)_generateAllVideoTiers;
 - (void)HAPAccessory;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,21 +11,19 @@
 @interface TKSmartCardUserInteractionForConfirmation : TKSmartCardUserInteraction
 {
     _Bool _result;
-    TKSmartCardSlot *_slot;
 }
 
-+ (_Bool);
++ (_Bool)getSpeechSynthesisVolumeWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id)toTokenKit23IntermediateKeyProtocol_p;
+- (void)LASmartCardCredential;
+- (id)14CryptoTokenKit23IntermediateKeyProtocol_p;
 
 // Remaining properties
-@property _Bool result; // @synthesize result=_result;
 @property __weak TKSmartCardSlot *slot; // @synthesize slot=_slot;
 
 @end

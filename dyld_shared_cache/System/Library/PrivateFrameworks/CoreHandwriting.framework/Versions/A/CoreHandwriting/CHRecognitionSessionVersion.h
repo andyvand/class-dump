@@ -7,10 +7,9 @@
 @interface CHRecognitionSessionVersion
 {
     long long _sessionVersion;
-    long long _sessionResultVersion;
 }
 
-+ (_Bool);
++ (_Bool)_functionalUnitPopup;
 - (long long);
 - (long long);
 - (_Bool);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long sessionResultVersion; // @synthesize sessionResultVersion=_sessionResultVersion;
 @property(readonly, nonatomic) long long sessionVersion; // @synthesize sessionVersion=_sessionVersion;
 
 @end

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NWPBHostEndpoint
 {
     NSString *_hostname;
-    NSString *_port;
 }
 
 - (id);
@@ -18,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)r:(struct _NSZone *)arg1;
+- (id)_downloadTaskWithRequest:(struct _NSZone *)arg1 delegate:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)@;
 

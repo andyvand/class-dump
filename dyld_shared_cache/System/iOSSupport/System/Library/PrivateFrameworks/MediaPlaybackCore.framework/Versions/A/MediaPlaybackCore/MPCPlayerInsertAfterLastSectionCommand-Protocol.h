@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerResponseSection;
+@class MPCPlaybackIntent, MPCPlayerCommandRequest, MPCPlayerResponseSection;
 
 @protocol MPCPlayerInsertAfterLastSectionCommand
+- (MPCPlayerCommandRequest *)_appStatusRestrictsProvisioningForDataclass:(MPCPlaybackIntent *)arg1;
 
 // Remaining properties
 @property(readonly) MPCPlayerResponseSection *section;

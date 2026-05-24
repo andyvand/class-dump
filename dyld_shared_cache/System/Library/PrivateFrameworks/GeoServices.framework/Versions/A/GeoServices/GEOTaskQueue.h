@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet, geo_isolater;
+@class geo_isolater;
 
 @interface GEOTaskQueue
 {
     geo_isolater *_isolation;
-    unsigned long long _width;
-    NSMutableSet *_inFlight;
-    NSMutableArray *_pending;
 }
 
 - (void);

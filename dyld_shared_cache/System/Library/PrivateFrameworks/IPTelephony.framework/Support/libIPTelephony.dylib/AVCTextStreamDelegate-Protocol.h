@@ -6,5 +6,8 @@
 
 @protocol AVCTextStreamDelegate
 - (void)xà;
+
+@optional
+- (void)!";
 @end
 

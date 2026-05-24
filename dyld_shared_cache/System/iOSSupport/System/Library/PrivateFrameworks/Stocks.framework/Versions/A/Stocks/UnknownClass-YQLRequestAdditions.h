@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (YQLRequestAdditions)
-- (id);
+- (id)p|;
 - (id);
 @end
 

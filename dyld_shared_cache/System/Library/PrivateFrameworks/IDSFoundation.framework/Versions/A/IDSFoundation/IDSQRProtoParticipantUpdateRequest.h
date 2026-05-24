@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSQRProtoMaterial;
-
 @interface IDSQRProtoParticipantUpdateRequest
 {
     CDStruct_62a50c50 _participantIdLists;
-    IDSQRProtoMaterial *_clientContextBlob;
-    unsigned int _operationFlags;
-    unsigned int _sessionStateCounter;
-    CDStruct_87dd7fbd _has;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,23 +27,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)A;
+- (_Bool)C32C36C40S44;
+- (void)ed encrypted decode failed:(id)arg1 %#m
+;
 - (id);
 - (id);
 - (void)ivate.IDSGLLinkEngine;
 
 // Remaining properties
-@property(retain, nonatomic) IDSQRProtoMaterial *clientContextBlob; // @synthesize clientContextBlob=_clientContextBlob;
-@property(readonly, nonatomic) _Bool hasClientContextBlob;
-@property(nonatomic) _Bool hasSessionStateCounter;
 @property(nonatomic) unsigned int operationFlags; // @synthesize operationFlags=_operationFlags;
-@property(readonly, nonatomic) unsigned long long *participantIdLists;
-@property(readonly, nonatomic) unsigned long long participantIdListsCount;
-@property(nonatomic) unsigned int sessionStateCounter; // @synthesize sessionStateCounter=_sessionStateCounter;
 
 @end
 

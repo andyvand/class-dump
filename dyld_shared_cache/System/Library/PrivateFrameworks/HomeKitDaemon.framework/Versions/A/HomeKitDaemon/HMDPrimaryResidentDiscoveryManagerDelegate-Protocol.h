@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol HMDPrimaryResidentDiscoveryManager;
+
 @protocol HMDPrimaryResidentDiscoveryManagerDelegate
+- (void)_createGroupSessionIfNeededWithIdentifier:(id <HMDPrimaryResidentDiscoveryManager>)arg1;
+- (void)_container;
+- (void)_connectionSubscriptionsByTripID;
 @end
 

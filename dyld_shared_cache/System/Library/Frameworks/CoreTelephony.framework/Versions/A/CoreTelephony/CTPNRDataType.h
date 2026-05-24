@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CTPNRDataType
 {
     long long _pnrMechanism;
-    NSString *_svcCenterAddr;
-    NSString *_destAddr;
 }
 
-+ (_Bool);
++ (_Bool)edia type ("%@");
 - (id);
 - (void);
 - (void);
@@ -25,15 +21,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)evaluateAccessControl:(id)arg1 aksOperation:options:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *destAddr; // @synthesize destAddr=_destAddr;
 @property(nonatomic) long long pnrMechanism; // @synthesize pnrMechanism=_pnrMechanism;
-@property(retain, nonatomic) NSString *svcCenterAddr; // @synthesize svcCenterAddr=_svcCenterAddr;
 
 @end
 

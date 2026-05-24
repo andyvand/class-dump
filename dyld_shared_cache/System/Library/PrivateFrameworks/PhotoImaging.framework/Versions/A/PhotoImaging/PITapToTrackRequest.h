@@ -7,8 +7,6 @@
 @interface PITapToTrackRequest
 {
     CDUnknownBlockType _progressHandler;
-    struct CGPoint _normalizedImagePoint;
-    CDStruct_1b6d18a9 _startTime;
 }
 
 - (void);
@@ -18,12 +16,12 @@
 - (long long);
 - (id);
 - (id);
-- (CDStruct_1b6d18a9);
-- (void);
+- (CDStruct_1b6d18a9)ror:progressBlock: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
-- (id);
-- (void)ntKey;
+- (id);
+- (void)warmTintKey;
 - (CDUnknownBlockType)1.0 + abs(mult));
 mult += 1.0;
 mult = clamp(mult, 1.0 - 0.5 * abs(intensity), 1.0 + 1.0 * abs(intensity));
@@ -43,8 +41,6 @@ return clarity;
 - (void)¶>¸Ë¶>9ì¶>Ý·>^-·>àM·>an·>ã·>B¯·>¢Ï·>ð·>b¸>Â0¸>Q¸>?q¸>}¸>þ¹¸>úÑ¸>ò¸>4¹>Q2¹>nR¹>r¹>¹>²¹>|Ò¹>xò¹>sº>M2º>&Rº>;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint normalizedImagePoint; // @synthesize normalizedImagePoint=_normalizedImagePoint;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
 @property(nonatomic) CDStruct_1b6d18a9 startTime; // @synthesize startTime=_startTime;
 
 @end

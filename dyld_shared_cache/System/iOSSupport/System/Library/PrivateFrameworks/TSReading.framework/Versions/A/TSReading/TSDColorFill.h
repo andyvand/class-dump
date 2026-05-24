@@ -33,12 +33,12 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id)ect<TSDOwningAttachment>",N,V_owningAttachment;
 + (id)on/common/TSABaseApplicationDelegate.mm;
-- (double);
+- (double);
 - (long long);
 - (id);
 - (SEL);
@@ -48,41 +48,35 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)unscored items;
+- (id)lizationScriptTestCase+DataStore.swift;
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (int);
 - (void);
 - (id);
-- (id);
+- (id)p;
 - (double);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)dataWithContentsOfFile:options:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (double);
 - (id);
 - (double);
-- (id)dRasterize:(double)arg1;
+- (id)setShouldRasterize:(double)arg1;
 - (struct CGColor *)w:boundsRect: /* Error: Ran out of types for this method. */;
 - (double)í;
 - (double)òÿ°K;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColor *CGColor;
-@property(readonly, nonatomic) double brightness;
-@property(readonly, copy, nonatomic) TSUColor *color; // @synthesize color=mColor;
-@property(readonly, nonatomic) double hue;
-@property(readonly, nonatomic) double luminance;
-@property(readonly, nonatomic) double opacity;
-@property(readonly, nonatomic) double saturation;
 
 @end
 

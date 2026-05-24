@@ -5,5 +5,8 @@
 //
 
 @protocol AKAppleIDAuthenticationMacOSExtenstionContextDelegate
+
+@optional
+- (void);
 @end
 

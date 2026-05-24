@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRDeviceInfo, MRExternalDeviceTransportConnection;
+@class MRExternalDeviceTransportConnection;
 
 @interface MRExternalDeviceTransportConnectionHandle
 {
     MRExternalDeviceTransportConnection *_connection;
-    MRDeviceInfo *_deviceInfo;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) MRExternalDeviceTransportConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) MRDeviceInfo *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
 
 @end
 

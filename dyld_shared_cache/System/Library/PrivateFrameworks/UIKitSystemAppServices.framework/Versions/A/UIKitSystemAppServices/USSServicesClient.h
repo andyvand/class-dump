@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSScene, FBSWorkspace, NSMutableDictionary;
+@class FBSWorkspace;
 
 @interface USSServicesClient
 {
     FBSWorkspace *_workspace;
-    FBSScene *_lock_defaultScene;
-    NSMutableDictionary *_lock_scenesByID;
-    NSMutableDictionary *_lock_scenesByPersistenceID;
-    struct os_unfair_lock_s _lock;
-    struct CGSize _defaultSceneSize;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)5;
 - (unsigned int);
-- (void);
+- (void)S;
 - (struct CGSize);
 - (void);
 - (void);
@@ -36,7 +31,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)?%@qa;
 - (void);
 - (void);
 

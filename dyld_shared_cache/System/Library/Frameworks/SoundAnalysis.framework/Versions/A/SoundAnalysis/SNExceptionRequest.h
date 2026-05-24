@@ -11,18 +11,17 @@
 
 + (_Bool);
 - (void);
-- (id);
+- (id)0;
 - (long long);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)(;
 
 // Remaining properties
 @property(nonatomic) long long exceptionLocation;
-@property(nonatomic, readonly) long long hash;
 
 @end
 

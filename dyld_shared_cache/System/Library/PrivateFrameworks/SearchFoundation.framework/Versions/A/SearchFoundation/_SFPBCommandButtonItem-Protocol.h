@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBCommand, _SFPBImage;
+@class NSData, _SFPBImage;
 
 @protocol _SFPBCommandButtonItem
+- (void);
+- (_Bool)setCloudAddToPlaylistBehavior:forConfiguration:completion: /* Error: Ran out of types for this method. */;
+- (void)ryAddedItemsCommandID();
+- (NSData *)PHPhotoLibraryFeatureAvailability;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCommand *command;
 @property(retain, nonatomic) _SFPBImage *image;
-@property(nonatomic) _Bool isDestructive;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) unsigned long long uniqueId;
 @end
 

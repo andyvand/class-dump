@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, UIKeyboardTaskQueue, _UIActionWhenIdle;
+@class UIKeyboardTaskQueue;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardScheduledTask
 {
     CDUnknownBlockType _task;
-    double _timeInterval;
-    UIKeyboardTaskQueue *_taskQueue;
-    NSTimer *_timer;
-    _UIActionWhenIdle *_deferredAction;
-    CDUnknownBlockType _enqueuedTask;
-    CDUnknownBlockType _breadcrumb;
 }
 
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
+- (CDUnknownBlockType);
+- (void)CEMSystemRatingsDeclaration_Status;
+- (void);
 - (void)
 × ;
 - (_Bool)cÐ1Â0@ù
 × ;
 - (id)TitleView>";
 - (void)SuppressionAssertion"b1"obtainGhostCursorAssertion"b1"convertPointToRenderSpace"b1"convertPointToRenderSpaceUsingTextPosition"b1};
-- (void)rance;
-- (id)ntinuingToEffectWithPreview:(id)arg1;
+- (void)sidebarAppearance;
+- (id)previewForContinuingToEffectWithPreview:(id)arg1;
 - (_Bool)initWithDictionary:fallback: /* Error: Ran out of types for this method. */;
 - (id)UITableConstants>",R,N,G_constants;
 - (CDUnknownBlockType);
@@ -42,14 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)¼k;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType breadcrumb; // @synthesize breadcrumb=_breadcrumb;
-@property(retain, nonatomic) _UIActionWhenIdle *deferredAction; // @synthesize deferredAction=_deferredAction;
-@property(copy, nonatomic) CDUnknownBlockType enqueuedTask; // @synthesize enqueuedTask=_enqueuedTask;
-@property(readonly, nonatomic) _Bool repeats;
-@property(readonly, nonatomic) CDUnknownBlockType task; // @synthesize task=_task;
 @property(readonly, nonatomic) UIKeyboardTaskQueue *taskQueue; // @synthesize taskQueue=_taskQueue;
-@property(readonly, nonatomic) double timeInterval; // @synthesize timeInterval=_timeInterval;
-@property(retain, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end
 

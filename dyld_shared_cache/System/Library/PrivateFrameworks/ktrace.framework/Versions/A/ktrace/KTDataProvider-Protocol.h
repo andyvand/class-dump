@@ -5,5 +5,9 @@
 //
 
 @protocol KTDataProvider
+- (_Bool)Q;
+
+@optional
+- (_Bool);
 @end
 

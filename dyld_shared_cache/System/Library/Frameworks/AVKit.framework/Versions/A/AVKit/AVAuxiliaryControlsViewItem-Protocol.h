@@ -5,11 +5,12 @@
 //
 
 @protocol AVAuxiliaryControlsViewItem
-- (void)y:(_Bool)arg1;
+- (void);
+- (_Bool)#;
+- (_Bool)$;
+- (void)setCanZoomHorizontally:(_Bool)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool canOnlyAppearInOverflowMenu;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed;
 @property(nonatomic) _Bool included;
 @end
 

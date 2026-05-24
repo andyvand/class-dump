@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessClient, BMFileManager, BMStoreConfig, BMStorePublisherManager, BMStoreSource, BMStoreValidator, BMStreamDatastorePruner, NSString;
-@protocol BMStreamDatastorePruningDelegate;
+@class BMStoreConfig;
 
 @interface BMStoreStream
 {
     struct os_unfair_lock_s _lock;
-    BMStorePublisherManager *_publisherManager;
-    NSString *_streamIdentifier;
-    BMStoreConfig *_storeConfig;
-    BMStoreSource *_source;
-    BMStoreValidator *_validator;
-    BMStreamDatastorePruner *_pruner;
-    BMStreamDatastorePruner *_tombstonePruner;
-    unsigned long long _streamType;
-    BMAccessClient *_accessClient;
-    BMFileManager *_fileManager;
-    Class _eventDataClass;
-    id <BMStreamDatastorePruningDelegate> _pruningDelegate;
-    NSString *_useCase;
 }
 
 + (id);
@@ -41,19 +27,19 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)<;
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)setBundleID:(CDUnknownBlockType)arg1;
 - (id);
 - (id);
 - (id);
@@ -105,9 +91,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) BMStoreConfig *storeConfig; // @synthesize storeConfig=_storeConfig;
-@property(readonly, nonatomic) NSString *useCase; // @synthesize useCase=_useCase;
 
 @end
 

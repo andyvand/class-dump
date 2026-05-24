@@ -7,13 +7,6 @@
 @interface NewsUI2.MagazineCategoriesPickerViewController
 {
     id delegate;
-    id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id coverViewManager;
-    id eventManager;
-    id selectedCategory;
-    id contentSizeObserver;
 }
 
 - (void);

@@ -6,17 +6,11 @@
 
 #import <PowerlogCore/PLTimeReference.h>
 
-@class NSDate, NSMutableArray, NSMutableDictionary, PLTimer;
+@class NSMutableArray;
 
 @interface PLTimeReferenceDynamic : PLTimeReference
 {
     int _offsetHistoryHead;
-    NSMutableDictionary *_timeChangeBlocks;
-    double _tooFarInFutureDistance;
-    double _tooFarInPastDistance;
-    NSDate *_lastQueryTime;
-    NSMutableArray *_offsetHistory;
-    PLTimer *_periodicCurrentTime;
 }
 
 + (double);
@@ -26,37 +20,31 @@
 - (void);
 - (double);
 - (void);
-- (void);
-- (void);
+- (void)So18FAAgeRangeResponseCSg;
+- (void);
 - (double);
 - (_Bool);
+- (void)ntID: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id)AppleFezExtra;
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)essingTime;
-- (void)apType;
-- (void)f;
-- (id)37;
+- (void)ProcessingTime;
+- (void)NavigationMapType;
+- (void)PZD1_channelValueDiff;
+- (id)EVENT_CHANNEL_ID_37;
 - (id)ys1s_40-49%;
 - (void)PCPU1DTL0e;
-- (void)PUDTL19;
-- (void)essChargingMode;
-- (int)apacity;
-- (id)Lifecycle;
+- (void)CPUDTL19;
+- (void)WirelessChargingMode;
+- (int)MaximumOverChargedCapacity;
+- (id)PLApplicationAgent_EventForward_AppLifecycle;
 
 // Remaining properties
-@property(retain) NSDate *lastQueryTime; // @synthesize lastQueryTime=_lastQueryTime;
 @property(retain) NSMutableArray *offsetHistory; // @synthesize offsetHistory=_offsetHistory;
-@property int offsetHistoryHead; // @synthesize offsetHistoryHead=_offsetHistoryHead;
-@property(retain) PLTimer *periodicCurrentTime; // @synthesize periodicCurrentTime=_periodicCurrentTime;
-@property(retain) NSMutableDictionary *timeChangeBlocks; // @synthesize timeChangeBlocks=_timeChangeBlocks;
-@property double tooFarInFutureDistance; // @synthesize tooFarInFutureDistance=_tooFarInFutureDistance;
-@property double tooFarInPastDistance; // @synthesize tooFarInPastDistance=_tooFarInPastDistance;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PHAssetCollection, PHFetchResult, PXAssetCollectionActionPerformer, PXAssetReference, PXAssetsDataSource, PXDisplayTitleInfo, PXPhotosEnvironmentReference;
-@protocol PXAssetCollectionActionPerformerDelegate, PXMemoryAssetsActionFactory;
+@class NSDictionary, PXDisplayTitleInfo;
 
 @interface PXPhotoKitAssetCollectionActionManager
 {
     PXDisplayTitleInfo *_internalDisplayTitleInfo;
-    NSDictionary *_performerClassByType;
-    PXAssetCollectionActionPerformer *__activePerformer;
-    PHFetchResult *_people;
-    PHFetchResult *_socialGroups;
-    PHAssetCollection *_containingAlbum;
 }
 
 + (id);
@@ -23,7 +17,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -35,7 +29,7 @@
 - (Class);
 - (Class);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -47,40 +41,7 @@
 - (void)Ä¥Iÿì¥IÿenableBootstrapDemoMode;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setActivePerformer:) PXAssetCollectionActionPerformer *_activePerformer; // @synthesize _activePerformer=__activePerformer;
-@property(readonly, nonatomic) PXAssetsDataSource *assetsDataSource;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PXAssetsDataSource",?,R,N
-
-@property(retain, nonatomic) PHFetchResult *assetsFetchResult;
-@property(retain, nonatomic) PHAssetCollection *containingAlbum; // @synthesize containingAlbum=_containingAlbum;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXDisplayTitleInfo *displayTitleInfo;
-@property(readonly, nonatomic) PXAssetReference *dropTargetAssetReference;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PXAssetReference",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXMemoryAssetsActionFactory>",?,R,N
-
-@property(retain, nonatomic) PHFetchResult *people; // @synthesize people=_people;
 @property(readonly, nonatomic) NSDictionary *performerClassByType; // @synthesize performerClassByType=_performerClassByType;
-@property(readonly, nonatomic) id <PXAssetCollectionActionPerformerDelegate> performerDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXAssetCollectionActionPerformerDelegate>",?,R,N
-
-@property(readonly, nonatomic) PXPhotosEnvironmentReference *photosEnvironmentReference;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"PXPhotosEnvironmentReference",?,R,N
-
-@property(retain, nonatomic) PHFetchResult *socialGroups; // @synthesize socialGroups=_socialGroups;
-@property(readonly) Class superclass;
 
 @end
 

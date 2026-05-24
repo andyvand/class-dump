@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 
 + (_Bool);
 + (_Bool);
-+ (id);
-+ (id)itingAccessoryType;
++ (id)ĵЄ;
++ (id)UIEditingAccessoryType;
 + (long long)ÀÌ¬½f;
 
 @end

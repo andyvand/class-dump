@@ -7,8 +7,6 @@
 @interface NewsFeed.FormatAnimationData
 {
     id style;
-    id anchorPoint;
-    id animations;
 }
 
 @end

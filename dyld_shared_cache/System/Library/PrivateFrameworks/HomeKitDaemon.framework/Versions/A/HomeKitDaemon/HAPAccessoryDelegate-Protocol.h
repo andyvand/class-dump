@@ -5,5 +5,9 @@
 //
 
 @protocol HAPAccessoryDelegate
+
+@optional
+- (void)_loadSenderSession unarchiver error %@;
+- (void)STORAGE] _loadSenderSession %@;
 @end
 

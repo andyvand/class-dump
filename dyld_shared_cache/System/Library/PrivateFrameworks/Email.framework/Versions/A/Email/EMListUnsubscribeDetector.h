@@ -12,17 +12,17 @@
 }
 
 + (id);
-+ (long long);
++ (long long)AccessoryDiagnosticInfoProtoDiagnosticInfoSnapshot;
 + (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)HomeUtilDemoModeRequestType;
+- (_Bool)vC=;
+- (void)$A;
 - (id);
 - (id);
 - (id);

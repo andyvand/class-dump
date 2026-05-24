@@ -5,5 +5,8 @@
 //
 
 @protocol CBUserControllerInterface
+- (void);
+- (void);
+- (void);
 @end
 

@@ -7,19 +7,18 @@
 @interface UAModifiersEditor
 {
     unsigned long long _modifiers;
-    _Bool _recording;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)e"b1"donationTime"b1"actionStatementId"b1"donationTrigger"b1"wasTupleDonated"b1};
+- (void)umCharsAdded"b1"numCharsDeleted"b1"levenshteinEditDistance"b1"isEmojiUsed"b1};
+- (void){?="domainExecutionType"b1};
 - (_Bool);
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
-- (void)dImageViewController;
+- (void)UAOnboardingLocalizedImageViewController;
 
 @end
 

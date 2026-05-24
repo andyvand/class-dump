@@ -4,36 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCInterface;
+@class NSXPCConnection;
 
 @interface TransparencyXPCConnection
 {
     NSXPCConnection *_connection;
-    NSString *_machName;
-    NSXPCInterface *_interface;
 }
 
-+ (_Bool);
++ (_Bool)(;
 + (id);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (void);
++ (id)guardedCarrierCountryIsoCode;
 + (id);
 + (void);
 + (void);
 + (void);
 + (id);
++ (id);
++ (id)9
+;
++ (void);
++ (id)e at key '%@' should be a number or data (%{errno}d);
++ (void)addNamedEntitiesUpdateObserver:(CDUnknownBlockType)arg1;
++ (void);
++ (void);
++ (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)e;
 - (id);
 - (id);
 - (id);
@@ -43,8 +42,6 @@
 
 // Remaining properties
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain) NSXPCInterface *interface; // @synthesize interface=_interface;
-@property(retain) NSString *machName; // @synthesize machName=_machName;
 
 @end
 

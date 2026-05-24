@@ -4,54 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIDynamicAnimator, UIDynamicItemBehavior, UIPushBehavior, _UIDynamicTransformer, _UISpringBehavior;
+@class UIDynamicAnimator;
 
 __attribute__((visibility("hidden")))
 @interface _UIInteractionEffect_deprecated
 {
     UIDynamicAnimator *_animator;
-    _UIDynamicTransformer *_transformer;
-    _UISpringBehavior *_springBehavior;
-    UIPushBehavior *_forceBehavior;
-    UIDynamicItemBehavior *_itemProperties;
-    double _damping;
-    double _frequency;
-    double _density;
-    double _resistance;
-    struct CGAffineTransform _preferredContentTransform;
-    double _progress;
-    double _forceFactor;
-    CDUnknownBlockType _updateBlock;
 }
 
-- (struct CGAffineTransform);
-- (double);
+- (struct CGAffineTransform)DSAccount"24@"IDSProtobuf"32@"NSString"40@"IDSMessageContext"48;
+- (double)fileURLsForSearchableIndex:itemIdentifiers:typeIdentifier:options:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)8Q16^B24;
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)#K;
 - (struct CGRect)
 × ;
-- (void)out:(CDUnknownBlockType)arg1;
-- (double)ndefinedChange;
-- (void)s;
+- (void)setSearchLayout:(CDUnknownBlockType)arg1;
+- (double)UITextFormattingViewControllerUndefinedChange;
+- (void)UIEdgeInsets;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double forceFactor; // @synthesize forceFactor=_forceFactor;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGAffineTransform preferredContentTransform; // @dynamic preferredContentTransform;
-@property(readonly, nonatomic) double progress;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
 
 @end
 

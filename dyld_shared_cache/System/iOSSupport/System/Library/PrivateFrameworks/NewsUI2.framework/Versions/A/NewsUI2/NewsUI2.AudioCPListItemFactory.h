@@ -7,10 +7,6 @@
 @interface NewsUI2.AudioCPListItemFactory
 {
     id listeningProgressProvider;
-    id thumbnailImageCache;
-    id playbackState;
-    id audioCPInterfaceController;
-    id commandCenter;
 }
 
 @end

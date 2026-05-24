@@ -9,6 +9,6 @@
 @protocol NSCollectionViewDataSource
 
 @optional
-- (NSView *)splayChangeTimer;
+- (NSView *)_displayChangeTimer;
 @end
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNotificationController, FCPuzzleTypeController, FCSubscriptionList, FCTagController, FCThreadSafeMutableDictionary, FCUserInfo, NSHashTable, NSString;
-@protocol FCCoreConfigurationManager, FCLocalChannelsProvider, FCNewsAppConfigurationManager, FCPurchaseProviderType;
+@protocol FCLocalChannelsProvider;
 
 @interface FCSubscriptionController
 {
     id <FCLocalChannelsProvider> _localChannelsProvider;
-    FCSubscriptionList *_subscriptionList;
-    FCTagController *_tagController;
-    FCPuzzleTypeController *_puzzleTypeController;
-    FCThreadSafeMutableDictionary *_subscribedTagsByTagID;
-    NSHashTable *_observers;
-    FCNotificationController *_notificationController;
-    id <FCPurchaseProviderType> _purchaseProvider;
-    id <FCCoreConfigurationManager> _configurationManager;
-    id <FCNewsAppConfigurationManager> _appConfigurationManager;
-    FCUserInfo *_userInfo;
 }
 
 - (_Bool);
@@ -36,80 +25,72 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)";
+- (void):(id)arg1 ;
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id)k!;
+- (id);
+- (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
 - (void);
 - (id);
 - (_Bool);
 - (id);
+- (void)setWantsSafeAreaInsetsFrozen:(id)arg1;
 - (id);
+- (_Bool);
+- (id)estionsMapItem *)mapItem);
+- (id)al/Library/BuildRoots/4~CNrDugCASYl0BwcdRv7LjLO4bLqOCmdgcCr59iQ/Library/Caches/com.apple.xbs/TemporaryDirectory.xZu52n/Sources/Maps/iOS/Suggestions/MapsSuggestionsMapItem.m;
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
+- (_Bool)"16B24B28C32@?<v@?@"IXAppInstallCoordinatorSeed"B@"NSError">36;
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id)ISDisplayLink;
+- (id);
+- (_Bool)recordDisconnect;
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)$>;
 - (id)
 × ;
-- (id)dPaywallsEndpoint:(id)arg1;
+- (id)setPersonalizedPaywallsEndpoint:(id)arg1;
 - (_Bool);
-- (_Bool)round;
+- (_Bool)_bannerImageForWhiteBackground;
 - (void)@"NSString",&,N,V_magazineFeedHeadlineScoringOutputName;
-- (_Bool)nDropboxDataDeviceDigestModeKey;
+- (_Bool)FCNotificationDropboxDataDeviceDigestModeKey;
 - (id)b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/NSDictionary+FCAdditions.m;
-- (void)dleTopicsConfig;
+- (void)bestOfBundleTopicsConfig;
 - (id)<FCChannelProviding>> *__strong, BOOL, NSDictionary<NSString *,FCIssue *> *__strong, FCHeadlineExperimentalTitleProvider *__strong);
 - (void)Request"8@"NSError"16;
 - (id)a»jìÆ;
 - (void)nß;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isWaitingForFirstSync;
 @property(retain, nonatomic) id <FCLocalChannelsProvider> localChannelsProvider; // @synthesize localChannelsProvider=_localChannelsProvider;
-@property(readonly) Class superclass;
 
 @end
 

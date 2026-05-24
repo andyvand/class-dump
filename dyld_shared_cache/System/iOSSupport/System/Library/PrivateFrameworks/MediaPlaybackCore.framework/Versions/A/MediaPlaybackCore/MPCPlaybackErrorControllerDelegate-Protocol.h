@@ -5,5 +5,6 @@
 //
 
 @protocol MPCPlaybackErrorControllerDelegate
+- (_Bool)allowListedDataclassesForAppleAccountClassFull;
 @end
 

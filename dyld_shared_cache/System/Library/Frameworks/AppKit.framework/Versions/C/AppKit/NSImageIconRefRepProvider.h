@@ -4,44 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSImageIconRefRepProvider
 {
     struct OpaqueIconRef *_iconRef;
-    NSArray *_representations;
 }
 
-- (id);
-- (id);
+- (id)#;
+- (id)6mN;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool _isIconAppearanceSensitive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property(readonly) _Bool _isSymbolImage;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) struct CGSize defaultSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSString *symbolName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
 
 
 @end

@@ -7,7 +7,6 @@
 @interface NewsFeed.DebugFormatDebuggerRestoreState
 {
     id selectedSidebarViewController;
-    id showSource;
 }
 
 @end

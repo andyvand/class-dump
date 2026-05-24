@@ -5,5 +5,6 @@
 //
 
 @protocol CKAppManagerViewControllerDelegate
+- (void)teCSbG;
 @end
 

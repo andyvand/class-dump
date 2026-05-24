@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocationInfo;
-
 __attribute__((visibility("hidden")))
 @interface MKLookAroundGroundViewInfo
 {
     double _startHeading;
-    double _endHeading;
-    GEOLocationInfo *_locationInfo;
 }
 
 - (double);
 - (_Bool);
 - (id);
 - (double);
-- (id);
-- (void)ingInlineMap: /* Error: Ran out of types for this method. */;
+- (id)lient session to conform to %@;
+- (void)initAsStandAloneHidingInlineMap: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double endHeading; // @synthesize endHeading=_endHeading;
-@property(readonly, nonatomic) GEOLocationInfo *locationInfo; // @synthesize locationInfo=_locationInfo;
 @property(readonly, nonatomic) double startHeading; // @synthesize startHeading=_startHeading;
 
 @end

@@ -6,17 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSQRCodeDialogTask, NSDictionary, NSString;
-@protocol AMSBagProtocol, AMSRequestPresentationDelegate;
+@class ACAccount, AMSQRCodeDialogTask;
 
 @interface AMSAgeVerificationTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSDictionary *_options;
-    NSString *_pincode;
-    id <AMSRequestPresentationDelegate> _presentationDelegate;
-    AMSQRCodeDialogTask *_task;
 }
 
 + (id);
@@ -36,27 +30,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)B;
+- (void)_configureUserSafetySettingsListener;
+- (id)sageBody with GUID:%@ for OTC /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)íüèùsfwixl}ÿ;
 - (id)}ÇJÚ/(¾jÎÄuO976lû'|´4Ù</3ÃâdbN;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *options; // @synthesize options=_options;
-@property(retain) NSString *pincode; // @synthesize pincode=_pincode;
-@property(readonly) id <AMSRequestPresentationDelegate> presentationDelegate; // @synthesize presentationDelegate=_presentationDelegate;
-@property(readonly) Class superclass;
 @property(retain) AMSQRCodeDialogTask *task; // @synthesize task=_task;
 
 @end

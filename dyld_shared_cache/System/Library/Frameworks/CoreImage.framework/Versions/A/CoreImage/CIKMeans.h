@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIReductionFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIKMeans : CIReductionFilter
 {
     CIImage *inputMeans;
-    NSNumber *inputCount;
-    NSNumber *inputPasses;
-    NSNumber *inputPerceptual;
 }
 
 + (id);
@@ -26,16 +23,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id)kvuyXpl    ^{y{{y{yyyyyyyypppp\\Rdajdodrpr[d]iZgblmtttvvvvppppiiiiX`Xfpnkps~ozw_so{ooooLVK\ML>QY[U[ooootzza~}]rkxzzzzJ]Re5K9]I\QizzzzxxxxO^RmQf\tpvcnfzLdZyk{zrrnr`f^j[d\hYf_jac]j^gfg]]]]2F:O8H<N[[Z[cnjq±±±±¸¸¸¸¤¤¤¤`voTi^w~~|~czxkwvzMe_kUSFX=J<SQb]dwwwwvvvv /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputCount; // @synthesize inputCount;
 @property(retain, nonatomic) CIImage *inputMeans; // @synthesize inputMeans;
-@property(copy, nonatomic) NSNumber *inputPasses; // @synthesize inputPasses;
-@property(copy, nonatomic) NSNumber *inputPerceptual; // @synthesize inputPerceptual;
 
 @end
 

@@ -5,19 +5,17 @@
 //
 
 @protocol _UISplitViewControllerAdaptiveLayout
+- (struct CGRect);
+- (unsigned long long);
+- (unsigned long long)B;
+- (void)T;
 - (struct CGSize)ize=dd}24@0:8d16 /* Error: Ran out of types for this method. */;
-- (_Bool)hMessagesReceived;
+- (_Bool)machMessagesReceived;
 - (long long);
 - (long long)AmKyAJ}©.3GGGAJGSgAIyAjKyAKyAKyAG.3G3.3GAOGGSgtG;
 - (struct CGSize)Ooþ=43 OoþÝ43,Ooþå438Ooþ½43DOoþ43POoþ43\Ooþ43sþå43tOoþ43|Ooþí43Ooþ;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize contentSize;
-@property(readonly, nonatomic) long long displayMode;
-@property(readonly, nonatomic) _Bool isCollapsed;
-@property(readonly, nonatomic) struct CGSize minimumSize;
-@property(readonly, nonatomic) struct CGSize preferredSize;
-@property(readonly, nonatomic) long long primaryEdge;
-@property(readonly, nonatomic) long long splitBehavior;
 @end
 

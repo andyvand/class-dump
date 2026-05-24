@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)startWatchdog;
 
 @end
 

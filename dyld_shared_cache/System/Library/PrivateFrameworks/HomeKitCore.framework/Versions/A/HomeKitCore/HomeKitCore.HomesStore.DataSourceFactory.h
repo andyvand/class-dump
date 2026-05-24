@@ -7,9 +7,6 @@
 @interface HomeKitCore.HomesStore.DataSourceFactory
 {
     id xpcConnectionWrapper;
-    id xpcTunnelDataSource;
-    id coreDataDataSource;
-    id managedObjectContext;
 }
 
 @end

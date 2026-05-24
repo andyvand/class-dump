@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDAnimationDiagramTarget : PDAnimationShapeTarget
 {
     int mDiagramBuildStepBg;
-    int mDiagramBuildStepSp;
-    int mDiagramId;
 }
 
 - (id);

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)setOriginalBorderColor: /* Error: Ran out of types for this method. */;
 
 @end
 

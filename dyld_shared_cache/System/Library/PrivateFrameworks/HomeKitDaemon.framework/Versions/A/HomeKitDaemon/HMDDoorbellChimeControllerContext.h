@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCharacteristicsAvailabilityListener, HMDHAPAccessory, NSNotificationCenter, NSObject, NSString;
-@protocol HMDDoorbellBulletinUtilities, HMMLogEventSubmitting, OS_dispatch_queue;
+@class HMDHAPAccessory;
 
 __attribute__((visibility("hidden")))
 @interface HMDDoorbellChimeControllerContext
 {
     HMDHAPAccessory *_accessory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDCharacteristicsAvailabilityListener *_listener;
-    id <HMDDoorbellBulletinUtilities> _doorbellBulletinUtilities;
 }
 
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)hh8;
 - (void);
 - (id);
 - (id);
@@ -27,27 +23,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)0@ù
 × ;
-- (id)edAccount:withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)noxideLevel;
+- (id)saveVerifiedAccount:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)carbonMonoxideLevel;
 - (id);
 - (id)Ö?;
 
 // Remaining properties
 @property __weak HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, getter=isCurrentDevicePrimaryResident) _Bool currentDevicePrimaryResident;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDDoorbellBulletinUtilities> doorbellBulletinUtilities; // @synthesize doorbellBulletinUtilities=_doorbellBulletinUtilities;
-@property(readonly) double doorbellChimeMaximumAnnounceDelay;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDCharacteristicsAvailabilityListener *listener; // @synthesize listener=_listener;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter;
-@property(readonly) NSNotificationCenter *notificationCenter;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol EKUIAutocompleteCell
++ (double)%s;
+- (void)r;
 @end
 

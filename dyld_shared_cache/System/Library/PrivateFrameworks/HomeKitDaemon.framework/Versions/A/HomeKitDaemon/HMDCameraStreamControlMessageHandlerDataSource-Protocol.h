@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraNetworkConfig;
+@class HMDCameraLocalStreamControlManager, HMDCameraRemoteStreamControlManager, HMDCameraStreamManagerSession, HMDCameraStreamSessionInfo, HMDDynamicActivityAttributionPublisher;
 
 @protocol HMDCameraStreamControlMessageHandlerDataSource
+- (HMDCameraStreamManagerSession *)ntifier %@;
+- (HMDCameraRemoteStreamControlManager *)ener route update:(HMDCameraStreamSessionInfo *)arg1 %{public}@;
+- (HMDCameraLocalStreamControlManager *)blic}@;
+- (HMDDynamicActivityAttributionPublisher *)destinations %@);
 - (_Bool)=;
 
 // Remaining properties
-@property(readonly) HMDCameraNetworkConfig *localNetworkConfig;
-@property(readonly, getter=isResidentCapable) _Bool residentCapable;
-@property(readonly) _Bool supportsApplicationBackgroundStateMonitoring;
-@property(readonly) _Bool supportsBidirectionalAudioForCameraStreaming;
-@property(readonly) _Bool supportsChangingVolume;
 @property(readonly) _Bool supportsReceivingRemoteCameraStream;
 @end
 

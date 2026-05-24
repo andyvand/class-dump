@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     long long _direction;
 }
 
-- (id);
+- (id)Z;
 
 @end
 

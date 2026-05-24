@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOETATrafficUpdateRequest, GEOETATrafficUpdateResponse, NSError, NSString;
-
 @interface MNTraceETAUpdateRow
 {
     double _requestTimestamp;
-    double _responseTimestamp;
-    GEOETATrafficUpdateRequest *_request;
-    GEOETATrafficUpdateResponse *_response;
-    NSError *_error;
-    NSString *_destinationName;
 }
 
+- (void)LazyWidgetAuxiliaryMetadataTextImage;
 - (void);
-- (void);
-- (double);
-- (double);
+- (double)AuxiliaryViewMetadataPreferenceWriter;
+- (double)Location;
 - (void);
 - (id);
 - (id);
@@ -33,20 +26,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *destinationName; // @synthesize destinationName=_destinationName;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) double position;
-@property(retain, nonatomic) GEOETATrafficUpdateRequest *request; // @synthesize request=_request;
-@property(nonatomic) double requestTimestamp; // @synthesize requestTimestamp=_requestTimestamp;
-@property(retain, nonatomic) GEOETATrafficUpdateResponse *response; // @synthesize response=_response;
-@property(nonatomic) double responseTimestamp; // @synthesize responseTimestamp=_responseTimestamp;
-@property(readonly) Class superclass;
 
 @end
 

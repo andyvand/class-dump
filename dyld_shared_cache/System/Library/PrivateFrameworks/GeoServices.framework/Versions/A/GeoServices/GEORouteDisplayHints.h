@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORequestOptions, NSArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 @protocol GEOSurchargeOption;
 
 @interface GEORouteDisplayHints
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _availablePaymentTypes;
-    CDStruct_95bda58d _availablePrioritizations;
-    GEORequestOptions *_transitSurchargeOptions;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _showTransitSchedules;
-    struct {
-        unsigned int has_showTransitSchedules:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_availablePaymentTypes:1;
-        unsigned int read_availablePrioritizations:1;
-        unsigned int read_transitSurchargeOptions:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)gionSourceType:(id)arg1;
++ (_Bool)setMapRegionSourceType:(id)arg1;
 - (id);
 - (id);
 - (_Bool);
@@ -37,8 +21,8 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)sNotifier>",R,N,V_changesNotifier;
+- (_Bool)CNCDDuplicateContainerMigrator;
 - (void);
 - (void);
 - (unsigned long long);
@@ -53,15 +37,15 @@
 - (void);
 - (int);
 - (int);
-- (int);
+- (int)h;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)set_nsurlTaskToOrigin:(id)arg1;
 - (id);
-- (void);
+- (void)_handleSiriAttAssetTrailDownloadForNamespace:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -69,23 +53,13 @@
 - (id);
 - (void);
 - (id), 0>:(struct _NSZone *)arg1:_value_ptr>, void *>>, std::__unordered_map_hasher<_GEOTileKey, std::pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>>, std::__unordered_map_equal<_GEOTileKey, std::pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, std::equal_to<GEOTileKey>, std::hash<GEOTileKey>>, std::allocator<std::pair<const _GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_GEOTileKey, std::__list_iterator<geo::detail::_CacheItem<_GEOTileKey, id, geo::detail::_GEOGenericContainer<_GEOTileKey, id, std::hash<GEOTileKey>, std::equal_to<GEOTileKey>, geo::GEOGenericContainerWeakReferenceTag, 0, 0>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
-- (id)outeHypothesisRequest:andCallback: /* Error: Ran out of types for this method. */;
-- (id)itySelectorMetadata;
-- (id)FIGURATION_TYPE_WEB_CONTENT;
+- (id)getDirectionsForClient:withRouteHypothesisRequest:andCallback: /* Error: Ran out of types for this method. */;
+- (id)GEOPDMapsSearchHomeSectionTapTypeCitySelectorMetadata;
+- (id)MODULE_CONFIGURATION_TYPE_WEB_CONTENT;
 - (void)ù+d®wP@;
 
 // Remaining properties
-@property(readonly, nonatomic) int *availablePaymentTypes;
-@property(readonly, nonatomic) unsigned long long availablePaymentTypesCount;
-@property(readonly, nonatomic) int *availablePrioritizations;
-@property(readonly, nonatomic) unsigned long long availablePrioritizationsCount;
-@property(nonatomic) _Bool hasShowTransitSchedules;
-@property(readonly, nonatomic) _Bool hasTransitSurchargeOptions;
-@property(readonly, nonatomic) NSArray *prioritizationOptions;
-@property(nonatomic) _Bool showTransitSchedules;
 @property(readonly, nonatomic) id <GEOSurchargeOption> surchargeOptions;
-@property(retain, nonatomic) GEORequestOptions *transitSurchargeOptions;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,54 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIDatePickerCalendarTimeFormat;
-
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerCalendarTimeValueStore
 {
     _Bool _isPM;
-    long long _minuteInterval;
-    long long _decrementBehaviour;
-    unsigned long long *_inputBuffer;
-    _UIDatePickerCalendarTimeFormat *_timeFormat;
 }
 
 - (id);
 - (void);
+- (void)ller";
+- (void)wasOutOfSyncConditionsInError:(unsigned long long)arg1;
+- (void)startWatchingBuddy:(long long)arg1;
+- (_Bool)relayDictionaryToPeers:requiresUpload:serviceName: /* Error: Ran out of types for this method. */;
+- (void)width:(long long)arg1 height:isAnimoji: /* Error: Ran out of types for this method. */;
+- (unsigned long long)existingChatsForIDs:displayName:groupID:style: /* Error: Ran out of types for this method. */;
+- (long long)existingChatsForGroupID: /* Error: Ran out of types for this method. */;
+- (_Bool)checkResourceIsReachableAndReturnError: /* Error: Ran out of types for this method. */;
+- (id)_writeCKRecordsToChatZone:(id)arg1 activity:(long long)arg2 withCompletion:(long long)arg3;
+- (id)_writeCKRecordsToAttachmentZone:(id)arg1 activity:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)_localDeviceSupportsSMSAndHasAPhoneNumber;
+- (unsigned long long)_hasMarkedAllAttachmentsAsNeedingSync;
+- (unsigned long long);
+- (void)IMDPlainTextTapbackInterpreter;
+- (long long)_TtC12IMDaemonCore35IntentClientConnectionRouteProvider;
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)st to post notification for conversation %@ on chat %@;
+- (void)s a source of truth, marking it as clean and moving on.;
 - (void);
 - (unsigned long long);
-- (long long);
-- (_Bool);
-- (id);
-- (id);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void);
 - (unsigned long long *);
-- (void);
+- (void);
 - (void)8ÏÞJ^;
 
 // Remaining properties
-@property(nonatomic) long long decrementBehaviour; // @synthesize decrementBehaviour=_decrementBehaviour;
-@property(nonatomic) unsigned long long hourValue;
 @property(readonly, nonatomic) unsigned long long *inputBuffer; // @synthesize inputBuffer=_inputBuffer;
-@property(nonatomic) _Bool isPM; // @synthesize isPM=_isPM;
-@property(nonatomic) long long minuteInterval; // @synthesize minuteInterval=_minuteInterval;
-@property(nonatomic) unsigned long long minuteValue;
-@property(readonly, nonatomic) _UIDatePickerCalendarTimeFormat *timeFormat; // @synthesize timeFormat=_timeFormat;
 
 @end
 

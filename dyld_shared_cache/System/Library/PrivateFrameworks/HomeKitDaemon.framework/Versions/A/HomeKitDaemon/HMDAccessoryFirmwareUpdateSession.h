@@ -4,79 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryFirmwareUpdateConcurrencyLogEventManager, HMDAccessoryFirmwareUpdateManager, HMDAccessoryFirmwareUpdateScheduler, HMDHAPAccessory, HMFSoftwareVersion, HMFTimer, HMSoftwareUpdateDocumentationMetadata, NSObject, NSString, UARPAccessory, UARPAssetID;
-@protocol HMDAccessoryFirmwareUpdateSessionWingman, HMDDataStreamSocket, OS_dispatch_queue;
+@class HMDAccessoryFirmwareUpdateManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryFirmwareUpdateSession
 {
     struct os_unfair_lock_s _lock;
-    _Bool _assetOfferedForCurrentDataStream;
-    _Bool _sessionEnded;
-    _Bool _userInitiatedInstall;
-    _Bool _userInitiatedStaging;
-    _Bool _dataStreamOpenInProgress;
-    _Bool _remoteApplyInProgress;
-    _Bool _isVerifyingUpdate;
-    HMFTimer *_allowedApplyDurationTimer;
-    id <HMDDataStreamSocket> _dataStreamSocket;
-    HMFTimer *_expectedApplyDurationTimer;
-    HMDHAPAccessory *_hapAccessory;
-    unsigned long long _internalState;
-    HMFTimer *_queryFirmwareUpdateResultDurationTimer;
-    HMFTimer *_socketIdleTimer;
-    id <HMDAccessoryFirmwareUpdateSessionWingman> _wingman;
-    HMDAccessoryFirmwareUpdateManager *_accessoryFirmwareUpdateManager;
-    HMDAccessoryFirmwareUpdateConcurrencyLogEventManager *_logEventManager;
-    UARPAccessory *_uarpAccessory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDAccessoryFirmwareUpdateScheduler *_updateScheduler;
-    HMFTimer *_registerFailureRetryTimer;
-    unsigned long long _currentAutomaticApplyRetriesCount;
-    unsigned long long _currentCommunicationErrorCount;
-    HMFSoftwareVersion *_lastStagedVersion;
-    UARPAssetID *_assetID;
-    unsigned long long _matterFirmwareUpdateRetryCount;
-    unsigned long long _applyHDSRetryCount;
-    unsigned long long _currentRegisterFailureCount;
-    CDUnknownBlockType _registerFailureRetryTimerFactory;
 }
 
 + (id);
 + (id)î\ÿ^KpìB;
+- (void)ip closed id %@;
+- (void)ntifiers;
+- (void)nections for trip %@;
+- (void)rip:%@ /* Error: Ran out of types for this method. */;
+- (void)aring trip with group:%@ /* Error: Ran out of types for this method. */;
+- (void)lock_invoke;
+- (id)@"MSPSharedTripSharingIdentity"8;
+- (id)es.canmaplsdatabase;
+- (_Bool)leanConnections];
+- (void);
+- (void);
+- (void)5;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)';
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (_Bool);
@@ -96,7 +66,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)V;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -125,7 +95,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -138,7 +108,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -147,17 +117,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void);
+- (void)8@"NSURLSession"16@"NSURLSessionTask"24@?<v@?@"NSInputStream">32;
+- (void)quest">48;
+- (void)HTTPURLResponse"32@"NSURLRequest"40@?<v@?@"NSURLRequest">48;
+- (void)8@0:8@16@24q32@?40 /* Error: Ran out of types for this method. */;
+- (void)setDeviceAttestionVersion: /* Error: Ran out of types for this method. */;
+- (void)setDeviceAttestionExpireOn: /* Error: Ran out of types for this method. */;
+- (double)setAbsintheDurations: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
+- (void)@;
+- (void)ithExpiration:] /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -169,18 +139,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)regularExpressionWithPattern:options:error: /* Error: Ran out of types for this method. */;
+- (id)ketID enter cr err %d;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)hoursInDay;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id)0@ù
@@ -196,51 +166,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) __weak HMDAccessoryFirmwareUpdateManager *accessoryFirmwareUpdateManager; // @synthesize accessoryFirmwareUpdateManager=_accessoryFirmwareUpdateManager;
-@property(readonly, nonatomic) HMFSoftwareVersion *accessoryVersion;
-@property(readonly, nonatomic) double allowedApplyDuration;
-@property(retain, nonatomic) HMFTimer *allowedApplyDurationTimer; // @synthesize allowedApplyDurationTimer=_allowedApplyDurationTimer;
-@property(nonatomic) unsigned long long applyHDSRetryCount; // @synthesize applyHDSRetryCount=_applyHDSRetryCount;
-@property(retain, nonatomic) UARPAssetID *assetID; // @synthesize assetID=_assetID;
-@property _Bool assetOfferedForCurrentDataStream; // @synthesize assetOfferedForCurrentDataStream=_assetOfferedForCurrentDataStream;
-@property(nonatomic) unsigned long long currentAutomaticApplyRetriesCount; // @synthesize currentAutomaticApplyRetriesCount=_currentAutomaticApplyRetriesCount;
-@property(nonatomic) unsigned long long currentCommunicationErrorCount; // @synthesize currentCommunicationErrorCount=_currentCommunicationErrorCount;
-@property(nonatomic) unsigned long long currentRegisterFailureCount; // @synthesize currentRegisterFailureCount=_currentRegisterFailureCount;
-@property(readonly, getter=isCurrentUpdateLatest) _Bool currentUpdateLatest;
-@property(readonly, getter=isCurrentlyStaging) _Bool currentlyStaging;
-@property(nonatomic) _Bool dataStreamOpenInProgress; // @synthesize dataStreamOpenInProgress=_dataStreamOpenInProgress;
-@property(retain, nonatomic) id <HMDDataStreamSocket> dataStreamSocket; // @synthesize dataStreamSocket=_dataStreamSocket;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double expectedApplyDuration;
-@property(retain, nonatomic) HMFTimer *expectedApplyDurationTimer; // @synthesize expectedApplyDurationTimer=_expectedApplyDurationTimer;
-@property(readonly, getter=isFirmwareVersionUpToDate) _Bool firmwareVersionUpToDate;
-@property(readonly, nonatomic) __weak HMDHAPAccessory *hapAccessory; // @synthesize hapAccessory=_hapAccessory;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long internalState; // @synthesize internalState=_internalState;
-@property(nonatomic) _Bool isVerifyingUpdate; // @synthesize isVerifyingUpdate=_isVerifyingUpdate;
-@property(retain, nonatomic) HMFSoftwareVersion *lastStagedVersion; // @synthesize lastStagedVersion=_lastStagedVersion;
-@property(readonly) __weak HMDAccessoryFirmwareUpdateConcurrencyLogEventManager *logEventManager; // @synthesize logEventManager=_logEventManager;
-@property(nonatomic) unsigned long long matterFirmwareUpdateRetryCount; // @synthesize matterFirmwareUpdateRetryCount=_matterFirmwareUpdateRetryCount;
-@property(readonly, copy, nonatomic) HMSoftwareUpdateDocumentationMetadata *newDocumentationMetadata;
-@property(retain, nonatomic) HMFTimer *queryFirmwareUpdateResultDurationTimer; // @synthesize queryFirmwareUpdateResultDurationTimer=_queryFirmwareUpdateResultDurationTimer;
-@property(readonly, getter=isReadyForStaging) _Bool readyForStaging;
-@property(readonly, getter=isReadyToApplyUpdate) _Bool readyToApplyUpdate;
-@property(retain, nonatomic) HMFTimer *registerFailureRetryTimer; // @synthesize registerFailureRetryTimer=_registerFailureRetryTimer;
-@property(copy) CDUnknownBlockType registerFailureRetryTimerFactory; // @synthesize registerFailureRetryTimerFactory=_registerFailureRetryTimerFactory;
-@property(nonatomic) _Bool remoteApplyInProgress; // @synthesize remoteApplyInProgress=_remoteApplyInProgress;
-@property _Bool sessionEnded; // @synthesize sessionEnded=_sessionEnded;
-@property(readonly, nonatomic) unsigned long long sessionState;
-@property(retain, nonatomic) HMFTimer *socketIdleTimer; // @synthesize socketIdleTimer=_socketIdleTimer;
-@property(readonly) Class superclass;
-@property(readonly) UARPAccessory *uarpAccessory; // @synthesize uarpAccessory=_uarpAccessory;
-@property(retain, nonatomic) HMDAccessoryFirmwareUpdateScheduler *updateScheduler; // @synthesize updateScheduler=_updateScheduler;
-@property(readonly, nonatomic, getter=isUserInitiatedInstall) _Bool userInitiatedInstall; // @synthesize userInitiatedInstall=_userInitiatedInstall;
-@property(readonly, nonatomic, getter=isUserInitiatedStaging) _Bool userInitiatedStaging; // @synthesize userInitiatedStaging=_userInitiatedStaging;
-@property(readonly) id <HMDAccessoryFirmwareUpdateSessionWingman> wingman; // @synthesize wingman=_wingman;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

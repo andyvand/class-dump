@@ -9,10 +9,6 @@
 @interface DAMailboxFetchSearchResultRequest
 {
     int _bodyFormat;
-    int _maxSize;
-    NSString *_longID;
-    NSString *_folderID;
-    NSString *_serverID;
 }
 
 - (void);
@@ -23,21 +19,17 @@
 - (int);
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (int);
 - (void);
 - (id)endent task for account %@;
 
 // Remaining properties
-@property(nonatomic) int bodyFormat; // @synthesize bodyFormat=_bodyFormat;
-@property(copy, nonatomic) NSString *folderID; // @synthesize folderID=_folderID;
 @property(copy, nonatomic) NSString *longID; // @synthesize longID=_longID;
-@property(nonatomic) int maxSize; // @synthesize maxSize=_maxSize;
-@property(copy, nonatomic) NSString *serverID; // @synthesize serverID=_serverID;
 
 @end
 

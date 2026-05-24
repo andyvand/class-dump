@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBConflictingParameter
 {
     struct _has;
-    NSArray *_alternateItems;
-    NSString *_keyPath;
 }
 
 + (Class);
 + (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
-- (id);
+- (id)8;
 - (id);
 - (void);
-- (id);
+- (id)otoVideoXPCProxyServiceRemoteClientInterface>"16@?<v@?@"<GCPhotoVideoXPCProxyServiceRemoteServerInterface>"@"NSError">24;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)16q24@32;
+- (void)passwordSharingDisabled;
+- (void)work was not joined more than %d days ago, will not remove (%@);
 - (id);
 - (id);
-- (void)entResponseCodeFailureRequiringAppLaunchRideScheduledTooFar;
+- (void)INRequestRideIntentResponseCodeFailureRequiringAppLaunchRideScheduledTooFar;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alternateItems; // @synthesize alternateItems=_alternateItems;
-@property(readonly, nonatomic) unsigned long long alternateItemsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasKeyPath;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly) Class superclass;
 
 @end
 

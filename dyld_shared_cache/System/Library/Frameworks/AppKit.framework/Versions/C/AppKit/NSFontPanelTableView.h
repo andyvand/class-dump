@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)_externalAuthenticator;
+- (void)_explicitlySetRequiresDNSSECValidation;
+- (void)_explicitlySetAllowsUCA;
+- (void)_explicitlySetAllowsExpensiveNetworkAccess;
+- (_Bool)ackgroundSession <%{public}@> %{public}@ getting auth headers for session %@ with identifier %@ outstanding auth tasks %@;
+- (_Bool)nt Identity (%ld elements);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (void)ÔH;
 

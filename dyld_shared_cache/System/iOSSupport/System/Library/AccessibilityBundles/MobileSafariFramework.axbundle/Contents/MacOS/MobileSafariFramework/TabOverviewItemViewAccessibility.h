@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)keyplaneNamed: /* Error: Ran out of types for this method. */;
 + (void);
 - (id);
 - (struct _NSRange);
@@ -23,7 +23,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)PKAddPaymentPassDevicePickerViewControllerAccessibility;
 
 @end
 

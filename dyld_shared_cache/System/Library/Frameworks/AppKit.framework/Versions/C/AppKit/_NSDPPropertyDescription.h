@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMethodSignature, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSDPPropertyDescription
 {
     struct objc_property *_property;
-    struct NSDPPropertyInfo *_propertyInfo;
-    Class _implementingClass;
-    NSString *_typeEncoding;
 }
 
-+ (id);
-+ (id);
++ (id)setURL:(struct objc_property *)arg1;
++ (id)setTLSMinimumSupportedProtocol:(id)arg1;
 - (id);
-- (id);
+- (id)eturned 0x%X);
 - (struct NSDPPropertyInfo *);
 - (_Bool);
 - (id);
 - (Class);
 - (id);
 - (id);
-- (id);
+- (id)=%p);
 - (id);
 - (_Bool);
-- (void);
-- (SEL);
+- (void)A;
+- (SEL)�;
 - (SEL);
 - (id);
 - (id);
@@ -37,21 +32,7 @@ __attribute__((visibility("hidden")))
 - (struct objc_property *)identifierToInstance;
 
 // Remaining properties
-@property(readonly, getter=isComputed) _Bool computed;
-@property(readonly, getter=isDynamic) _Bool dynamic;
-@property(readonly) NSString *dynamicPropertyTypeName;
-@property(readonly) SEL getterSelector;
-@property(readonly) NSMethodSignature *getterSignature;
-@property(readonly, copy) NSString *getterSignatureEncoding;
-@property(readonly) Class implementingClass; // @synthesize implementingClass=_implementingClass;
-@property(readonly) NSString *name;
 @property(readonly) struct objc_property *property; // @synthesize property=_property;
-@property(readonly) struct NSDPPropertyInfo *propertyInfo; // @synthesize propertyInfo=_propertyInfo;
-@property(readonly, getter=isReadOnly) _Bool readOnly;
-@property(readonly) SEL setterSelector;
-@property(readonly) NSMethodSignature *setterSignature;
-@property(readonly) NSString *setterSignatureEncoding;
-@property(readonly, copy) NSString *typeEncoding; // @synthesize typeEncoding=_typeEncoding;
 
 @end
 

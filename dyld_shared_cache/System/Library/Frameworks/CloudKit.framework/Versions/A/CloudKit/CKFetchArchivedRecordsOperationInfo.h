@@ -6,23 +6,19 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CKFetchArchivedRecordsOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _shouldFetchAssetContents;
-    _Bool _fetchAllChanges;
-    NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByRecordZoneID;
-    NSDictionary *_assetTransferOptionsByRecordTypeAndKey;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (void);
-- (void);
+- (void)0;
 - (void);
 - (void);
 - (void);
@@ -31,16 +27,12 @@
 × ;
 - (_Bool)
 × ;
-- (id)ithWrappingContainer:convenienceConfiguration:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)discoverAllIdentitiesWithWrappingContainer:convenienceConfiguration:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)lidating>",&,N,V_operatorValidator;
 - (void)Ðx$yxyz(||}ä}°;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByRecordTypeAndKey; // @synthesize assetTransferOptionsByRecordTypeAndKey=_assetTransferOptionsByRecordTypeAndKey;
-@property(retain, nonatomic) NSDictionary *configurationsByRecordZoneID; // @synthesize configurationsByRecordZoneID=_configurationsByRecordZoneID;
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
 @property(retain, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
-@property(nonatomic) _Bool shouldFetchAssetContents; // @synthesize shouldFetchAssetContents=_shouldFetchAssetContents;
 
 @end
 

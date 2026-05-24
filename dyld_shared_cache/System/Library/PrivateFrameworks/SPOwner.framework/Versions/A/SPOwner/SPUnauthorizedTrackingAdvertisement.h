@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate;
+@class NSData;
 
 @interface SPUnauthorizedTrackingAdvertisement
 {
     unsigned char _status;
-    _Bool _isPosh;
-    unsigned char _networkID;
-    NSData *_advertisementData;
-    NSData *_reserved;
-    long long _rssi;
-    NSDate *_scanDate;
-    NSData *_data;
-    NSData *__address;
 }
 
 + (_Bool);
@@ -32,11 +24,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (id);
@@ -45,21 +37,12 @@
 - (long long);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id)[%{public}@];
 
 // Remaining properties
 @property(copy, nonatomic) NSData *_address; // @synthesize _address=__address;
-@property(readonly, copy, nonatomic) NSData *address;
-@property(copy, nonatomic) NSData *advertisementData; // @synthesize advertisementData=_advertisementData;
-@property(copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) _Bool isPosh; // @synthesize isPosh=_isPosh;
-@property(nonatomic) unsigned char networkID; // @synthesize networkID=_networkID;
-@property(copy, nonatomic) NSData *reserved; // @synthesize reserved=_reserved;
-@property(nonatomic) long long rssi; // @synthesize rssi=_rssi;
-@property(copy, nonatomic) NSDate *scanDate; // @synthesize scanDate=_scanDate;
-@property(nonatomic) unsigned char status; // @synthesize status=_status;
 
 @end
 

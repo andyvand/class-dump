@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, TRIActiveFactorProvidersParser, TRIExperimentFactorsState;
+@class NSSet;
 @protocol TRIPaths;
 
 @interface TRINamespaceResolver
 {
     id <TRIPaths> _paths;
-    NSSet *_namespacesInFactorsState;
-    TRIExperimentFactorsState *_overrideExperimentFactorsState;
-    TRIActiveFactorProvidersParser *_activeFactorProvidersParser;
 }
 
 + (id);
@@ -21,33 +18,24 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)&y;
 - (id);
 - (char *);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)age sharing suggestion:Error no suggestions are found /* Error: Ran out of types for this method. */;
+- (void)CreationRequest setShare:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)ta"24@0:8Q16 /* Error: Ran out of types for this method. */;
+- (id)setResponseWrapperCardSection:(id)arg1;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TRIActiveFactorProvidersParser *activeFactorProvidersParser; // @synthesize activeFactorProvidersParser=_activeFactorProvidersParser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSSet *namespacesInFactorsState; // @synthesize namespacesInFactorsState=_namespacesInFactorsState;
-@property(readonly, nonatomic) TRIExperimentFactorsState *overrideExperimentFactorsState; // @synthesize overrideExperimentFactorsState=_overrideExperimentFactorsState;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,15 +7,13 @@
 @interface AppleMediaServicesUI.ReviewLockupDetails
 {
     id name;
-    id itemDescription;
-    id artworkURLTemplate;
 }
 
-+ (void);
++ (void)V_createAccountArguments;
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)tControl;
 - (void)removeFromSuperview;
 
 @end

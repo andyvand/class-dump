@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDNotifierConfiguration, NSDictionary, NSNumber, NSSet, NSString;
+@class NSSet, NSString;
 
 @interface DEDBugSessionConfiguration
 {
     NSSet *_requestedCapabilities;
-    _Bool _allowsCellularUpload;
-    _Bool _isUnauthenticatedSession;
-    _Bool _cloudkitUseDevelopmentEnvironment;
-    long long _finishingMove;
-    long long _notifyingMove;
-    double _bugSessionStartTimeout;
-    NSString *_seedingDeviceToken;
-    long long _seedingSubmissionID;
-    long long _seedingSubmissionType;
-    long long _seedingEnvironment;
-    NSString *_seedingHost;
-    NSNumber *_radarProblemID;
-    NSString *_radarAuthToken;
-    NSString *_cloudkitContainer;
-    NSDictionary *_cloudkitData;
-    DEDNotifierConfiguration *_notifierConfiguration;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)X;
++ (id);
++ (_Bool)NSt3__120__shared_ptr_emplaceINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE;
 - (void);
 - (void);
 - (void);
@@ -67,39 +51,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)on-nil recordID and field. RecordID:%@, field:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (id);
-- (id);
-- (void);
-- (_Bool)tensionsWithCompletion:(id)arg1;
+- (id)_playbackRampCurveExponent;
+- (void)CInterface>"24@0:8@"Protocol"16 /* Error: Ran out of types for this method. */;
+- (_Bool)listDiagnosticExtensionsWithCompletion:(id)arg1;
 
 // Remaining properties
-@property _Bool allowsCellularUpload; // @synthesize allowsCellularUpload=_allowsCellularUpload;
-@property double bugSessionStartTimeout; // @synthesize bugSessionStartTimeout=_bugSessionStartTimeout;
-@property(retain) NSString *cloudkitContainer; // @synthesize cloudkitContainer=_cloudkitContainer;
-@property(retain) NSDictionary *cloudkitData; // @synthesize cloudkitData=_cloudkitData;
-@property _Bool cloudkitUseDevelopmentEnvironment; // @synthesize cloudkitUseDevelopmentEnvironment=_cloudkitUseDevelopmentEnvironment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property long long finishingMove; // @synthesize finishingMove=_finishingMove;
-@property(readonly) unsigned long long hash;
-@property _Bool isUnauthenticatedSession; // @synthesize isUnauthenticatedSession=_isUnauthenticatedSession;
-@property(retain) DEDNotifierConfiguration *notifierConfiguration; // @synthesize notifierConfiguration=_notifierConfiguration;
-@property long long notifyingMove; // @synthesize notifyingMove=_notifyingMove;
-@property(retain) NSString *radarAuthToken; // @synthesize radarAuthToken=_radarAuthToken;
-@property(retain) NSNumber *radarProblemID; // @synthesize radarProblemID=_radarProblemID;
 @property(readonly) NSString *requestedCapabilitiesString;
-@property(retain) NSString *seedingDeviceToken; // @synthesize seedingDeviceToken=_seedingDeviceToken;
-@property long long seedingEnvironment; // @synthesize seedingEnvironment=_seedingEnvironment;
-@property(retain) NSString *seedingHost; // @synthesize seedingHost=_seedingHost;
-@property long long seedingSubmissionID; // @synthesize seedingSubmissionID=_seedingSubmissionID;
-@property long long seedingSubmissionType; // @synthesize seedingSubmissionType=_seedingSubmissionType;
-@property(readonly) Class superclass;
 
 @end
 

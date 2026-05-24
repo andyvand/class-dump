@@ -6,12 +6,11 @@
 
 #import <MediaPlayer/MPMediaItemCollection.h>
 
-@class MPMediaQuery, NSArray, NSString;
+@class NSArray;
 
 @interface MPMediaPlaylist : MPMediaItemCollection
 {
     NSArray *_representativeArtists;
-    MPMediaQuery *_seedTracksQuery;
 }
 
 + (_Bool);
@@ -39,27 +38,21 @@
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)dd}104;
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)clEnqueueReadImage;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)er;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (void)ble_KEY;
+- (void)__redownloadable_KEY;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *authorDisplayName;
-@property(readonly, nonatomic) NSString *cloudGlobalID;
-@property(readonly, nonatomic) NSString *descriptionText;
-@property(readonly, nonatomic) NSString *name;
 @property(readonly, nonatomic) unsigned long long persistentID;
-@property(readonly, nonatomic) unsigned long long playlistAttributes;
-@property(readonly, nonatomic) NSArray *seedItems;
 
 @end
 

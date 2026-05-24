@@ -11,7 +11,7 @@
 + (Class);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)fetchIDSStatusForHandle:(struct _NSZone *)arg1;
 
 @end
 

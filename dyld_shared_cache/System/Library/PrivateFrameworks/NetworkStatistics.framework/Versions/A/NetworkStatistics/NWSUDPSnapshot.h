@@ -6,23 +6,14 @@
 
 #import <NetworkStatistics/NWSProtocolSnapshot.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NWSUDPSnapshot : NWSProtocolSnapshot
 {
     NSString *_processName;
-    NSString *_uuid;
-    NSString *_euuid;
-    NSString *_fuuid;
-    NSString *_vuuid;
-    NSData *_localAddress;
-    NSData *_remoteAddress;
-    struct nstat_udp_descriptor _descriptor;
-    unsigned int _provider;
-    unsigned long long _eventFlags;
 }
 
-- (id);
+- (id)TRIDebounceSubscriptionsGuardedData;
 - (id);
 - (id);
 - (id);
@@ -30,13 +21,13 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (unsigned int);
+- (unsigned int);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (int);
 - (unsigned int);
-- (id);
+- (id)8ԈY;
 - (_Bool);
 - (id);
 - (id);
@@ -53,14 +44,14 @@
 - (unsigned long long);
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id)[&;
 - (_Bool);
 - (double);
 - (int)
 × ;
 - (unsigned int)(?=[16C][8S][4I])}I})BBB[1C]}24;
 - (unsigned long long)ber returned per batch;
-- (_Bool)gementFlags;
+- (_Bool)trafficManagementFlags;
 
 @end
 

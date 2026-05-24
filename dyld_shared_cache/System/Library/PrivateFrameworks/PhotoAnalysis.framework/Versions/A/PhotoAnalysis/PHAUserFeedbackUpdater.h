@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PGManager, PHPhotoLibrary, PHUserFeedbackCalculator;
-@protocol OS_dispatch_queue, OS_os_log;
+@class PGManager;
 
 @interface PHAUserFeedbackUpdater
 {
     PGManager *_graphManager;
-    PHPhotoLibrary *_photoLibrary;
-    PHUserFeedbackCalculator *_userFeedbackCalculator;
-    NSObject<OS_dispatch_queue> *_highlighUpdationQueue;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 + (id);
@@ -25,10 +20,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)T;
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -37,7 +32,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)lace:time:reply: /* Error: Ran out of types for this method. */;
+- (void)debugValidationFromQueryTemplate:person:city:place:time:reply: /* Error: Ran out of types for this method. */;
 
 @end
 

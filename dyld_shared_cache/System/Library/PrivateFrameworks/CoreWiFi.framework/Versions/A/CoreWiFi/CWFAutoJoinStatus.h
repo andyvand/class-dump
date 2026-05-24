@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSUUID;
-
 @interface CWFAutoJoinStatus
 {
     _Bool _result;
-    NSUUID *_UUID;
-    NSString *_interfaceName;
-    NSDate *_startedAt;
-    NSDate *_endedAt;
-    NSArray *_joinAttempts;
-    long long _trigger;
-    long long _state;
 }
 
-+ (_Bool);
++ (_Bool)T;
 
 @end
 

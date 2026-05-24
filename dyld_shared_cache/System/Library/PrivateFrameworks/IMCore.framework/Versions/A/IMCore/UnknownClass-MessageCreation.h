@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (MessageCreation)
-- (id);
+- (id)%d VCNAT64ResolveNAT64Prefix:(id)arg1 callbackContext should not be NULL;
 @end
 

@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)e;
++ (id)e;
 + (_Bool);
 + (_Bool);
 + (struct _NSRange);
@@ -28,9 +28,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void)hasIsSharePlayPlayback;
 - (void);
-- (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
 

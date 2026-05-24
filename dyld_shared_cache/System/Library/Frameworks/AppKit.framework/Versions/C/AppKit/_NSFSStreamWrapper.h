@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSFSStreamWrapper
 {
     unsigned int _interestedFlags;
-    struct __FSEventStream *_fsEventStreamRef;
-    CDUnknownBlockType _callback;
 }
 
 - (void);

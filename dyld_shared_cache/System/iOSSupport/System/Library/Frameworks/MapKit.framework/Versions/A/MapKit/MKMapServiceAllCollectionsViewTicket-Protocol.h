@@ -7,6 +7,7 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceAllCollectionsViewTicket
+- (void)_chat:(void (^)(GEOAllCollectionsViewResult *, NSArray *, NSError *))arg1 repositionSticker:(void (^)(_Bool))arg2;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

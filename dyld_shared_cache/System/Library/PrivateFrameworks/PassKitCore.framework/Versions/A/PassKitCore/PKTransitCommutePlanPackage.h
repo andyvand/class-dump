@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface PKTransitCommutePlanPackage
 {
     NSArray *_transitCommutePlans;
-    unsigned long long _transitCommutePlanType;
-    NSMutableDictionary *_commutePlanLookupDictionary;
 }
 
 + (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
+- (void)=;
+- (id)V;
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)betterRouteEventCount;
 - (id);
 - (void)ent.all-access;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *commutePlanLookupDictionary; // @synthesize commutePlanLookupDictionary=_commutePlanLookupDictionary;
-@property(nonatomic) unsigned long long transitCommutePlanType; // @synthesize transitCommutePlanType=_transitCommutePlanType;
 @property(copy, nonatomic) NSArray *transitCommutePlans; // @synthesize transitCommutePlans=_transitCommutePlans;
 
 @end

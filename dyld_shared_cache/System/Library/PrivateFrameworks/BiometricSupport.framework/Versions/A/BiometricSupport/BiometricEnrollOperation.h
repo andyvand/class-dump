@@ -9,25 +9,19 @@
 @interface BiometricEnrollOperation : BiometricOperation
 {
     CDStruct_143f644f _authData;
-    CDStruct_c73fd62c _deviceGroup;
-    unsigned int _userID;
-    unsigned int _processedFlags;
 }
 
 - (void);
-- (unsigned int);
+- (unsigned int)9;
 - (unsigned int);
 - (CDStruct_143f644f *);
 - (CDStruct_c73fd62c *);
 - (id);
 - (int);
 - (void);
-- (unsigned int);
+- (unsigned int)P;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_143f644f *authData;
-@property(readonly, nonatomic) CDStruct_c73fd62c *deviceGroup;
-@property(nonatomic) unsigned int processedFlags; // @synthesize processedFlags=_processedFlags;
 @property(nonatomic) unsigned int userID; // @synthesize userID=_userID;
 
 @end

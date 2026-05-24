@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
     struct CGPoint _currentlyInspectedPoint;
 }
 
-- (void);
+- (void)ilterCapabilitiesOptions:(struct CGPoint)arg1 %lu, filterExtensionName:%@. Checking if we need to update filter params. /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
-- (void);
+- (void);
 - (id);
 - (void)32;
 - (id)itionTrackingView:(struct CGRect)arg1 ,V_overridePositionTrackingView;

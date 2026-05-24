@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface NviContext
 {
     _Bool _requestHistoricalAudio;
-    _Bool _shouldLogRawSensorData;
-    NSDictionary *_voiceTriggerInfo;
-    unsigned long long _reqStartAudioSampleId;
-    unsigned long long _reqStartMachAbsTime;
-    NSString *_rootLogDir;
 }
 
-- (_Bool);
+- (_Bool)&;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)m*;
 - (void);
 - (void);
 - (id);
@@ -29,14 +24,9 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)n: /* Error: Ran out of types for this method. */;
+- (void)musicVolumeWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long reqStartAudioSampleId; // @synthesize reqStartAudioSampleId=_reqStartAudioSampleId;
-@property(nonatomic) unsigned long long reqStartMachAbsTime; // @synthesize reqStartMachAbsTime=_reqStartMachAbsTime;
-@property(nonatomic) _Bool requestHistoricalAudio; // @synthesize requestHistoricalAudio=_requestHistoricalAudio;
-@property(retain, nonatomic) NSString *rootLogDir; // @synthesize rootLogDir=_rootLogDir;
-@property(nonatomic) _Bool shouldLogRawSensorData; // @synthesize shouldLogRawSensorData=_shouldLogRawSensorData;
 @property(retain, nonatomic) NSDictionary *voiceTriggerInfo; // @synthesize voiceTriggerInfo=_voiceTriggerInfo;
 
 @end

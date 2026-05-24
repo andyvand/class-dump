@@ -32,9 +32,9 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 
 @end
 

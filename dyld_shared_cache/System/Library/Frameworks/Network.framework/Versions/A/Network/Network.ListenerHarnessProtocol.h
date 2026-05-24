@@ -7,14 +7,6 @@
 @interface Network.ListenerHarnessProtocol
 {
     id listenHandler;
-    id local;
-    id remote;
-    id parameters;
-    id path;
-    id completion;
-    id newFlowCompletion;
-    id logString;
-    id inputHarnesses;
 }
 
 @end

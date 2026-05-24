@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKArtworkDataSourceCache, NSString;
 @protocol GEOTransitArtworkDataSource;
 
 @interface MKSizedTransitArtwork
 {
     id <GEOTransitArtworkDataSource> _artwork;
-    long long _shieldSize;
-    long long _fallbackShieldSize;
-    MKArtworkDataSourceCache *_artworkCache;
 }
 
-- (long long);
+- (long long)g report intervals to powerlog, identifierToDiscretionaryIntervals=;
 - (_Bool);
 - (id);
 - (id);
@@ -23,25 +19,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)ABCDURLAddress;
 - (id);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
-- (void)iorPolygons: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)polygonWithCoordinates:count:interiorPolygons: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <GEOTransitArtworkDataSource> artwork; // @synthesize artwork=_artwork;
-@property(retain, nonatomic) MKArtworkDataSourceCache *artworkCache; // @synthesize artworkCache=_artworkCache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long fallbackShieldSize; // @synthesize fallbackShieldSize=_fallbackShieldSize;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long shieldSize; // @synthesize shieldSize=_shieldSize;
-@property(readonly) Class superclass;
 
 @end
 

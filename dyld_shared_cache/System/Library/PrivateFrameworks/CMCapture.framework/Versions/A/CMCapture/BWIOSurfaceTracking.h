@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface BWIOSurfaceTracking
 {
     struct os_unfair_lock_s _trackedSurfacesLock;
-    NSMutableArray *_trackedSurfaces;
 }
 
 + (void);

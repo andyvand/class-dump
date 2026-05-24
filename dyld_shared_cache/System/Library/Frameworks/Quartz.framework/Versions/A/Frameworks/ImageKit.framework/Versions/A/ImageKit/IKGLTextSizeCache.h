@@ -9,10 +9,6 @@
 @interface IKGLTextSizeCache
 {
     IKGLTextCacheFragHandler *_cacheFragHandler;
-    struct CGSize _size;
-    unsigned int _textureID;
-    int _rectCount;
-    double _scaleFactor;
 }
 
 - (void);

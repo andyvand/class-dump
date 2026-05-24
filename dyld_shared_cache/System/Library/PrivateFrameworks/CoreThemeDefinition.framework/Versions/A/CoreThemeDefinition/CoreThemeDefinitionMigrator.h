@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMigrationManager, NSString, NSURL;
+@class NSMigrationManager, NSString;
 
 @interface CoreThemeDefinitionMigrator
 {
     NSMigrationManager *_migrationManager;
-    NSURL *_documentURL;
-    long long _oldVersion;
-    long long _newVersion;
-    NSString *temporaryMigrationPath;
 }
 
 - (id);

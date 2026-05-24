@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface _PSHyperRecentActivity
 {
     NSDate *_date;
-    long long _activityType;
-    NSString *_conversationId;
 }
 
+- (id)_contactHasRequestedAddressDetail;
+- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)d;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long activityType; // @synthesize activityType=_activityType;
-@property(retain, nonatomic) NSString *conversationId; // @synthesize conversationId=_conversationId;
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 
 @end

@@ -9,21 +9,17 @@
 @interface PKAccountTransactionSyncReportItem
 {
     NSString *_transactionServiceIdentifier;
-    NSString *_recordName;
-    NSString *_recordType;
-    NSString *_zoneName;
-    NSString *_altDSID;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)addAssessment:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -32,11 +28,7 @@
 - (id)Oÿq;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, copy, nonatomic) NSString *recordName; // @synthesize recordName=_recordName;
-@property(readonly, copy, nonatomic) NSString *recordType; // @synthesize recordType=_recordType;
 @property(readonly, copy, nonatomic) NSString *transactionServiceIdentifier; // @synthesize transactionServiceIdentifier=_transactionServiceIdentifier;
-@property(readonly, copy, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

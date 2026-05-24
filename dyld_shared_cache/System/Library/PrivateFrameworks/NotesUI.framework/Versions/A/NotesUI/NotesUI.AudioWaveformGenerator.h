@@ -7,10 +7,6 @@
 @interface NotesUI.AudioWaveformGenerator
 {
     id attachment;
-    id _started;
-    id _generatedSamples;
-    id _recordedSamples;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CNAPITriageLogger, CNContactsLogger, CNFavoritesLogger, CNGeminiLogger, CNImageUtilitiesLogger, CNRegulatoryLogger, CNSpotlightIndexingLogger;
+@protocol CNAPITriageLogger, CNContactsLogger, CNFavoritesLogger;
 
 @protocol CNContactsLoggerProvider
+- (id <CNAPITriageLogger>)Q40;
+- (id <CNFavoritesLogger>);
+- (id <CNContactsLogger>)#;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNAPITriageLogger> apiTriageLogger;
 @property(readonly, nonatomic) id <CNContactsLogger> contactsLogger;
-@property(readonly, nonatomic) id <CNFavoritesLogger> favoritesLogger;
-@property(readonly, nonatomic) id <CNGeminiLogger> geminiLogger;
-@property(readonly, nonatomic) id <CNImageUtilitiesLogger> imageUtilitiesLogger;
-@property(readonly, nonatomic) id <CNRegulatoryLogger> regulatoryLogger;
-@property(readonly, nonatomic) id <CNSpotlightIndexingLogger> spotlightIndexingLogger;
 @end
 

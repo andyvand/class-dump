@@ -6,29 +6,12 @@
 
 #import <UIKitCore/_UINavigationBarVisualProvider.h>
 
-@class NSArray, NSLayoutConstraint, NSMutableArray, NSString, UIFocusContainerGuide, UIImageView, UILayoutGuide, UIView, _UIBarBackground, _UIBarBackgroundLayoutLegacy, _UINavBarPrompt, _UINavigationBarGestureHandler, _UINavigationBarLegacyContentView;
-@protocol UIViewControllerTransitionCoordinator;
+@class _UIBarBackground;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarVisualProviderLegacyIOS : _UINavigationBarVisualProvider
 {
     _UIBarBackground *_backgroundView;
-    _UIBarBackgroundLayoutLegacy *_backgroundViewLayout;
-    UIView *_customBackgroundView;
-    UIView *_titleView;
-    NSArray *_leftViews;
-    NSArray *_rightViews;
-    UIImageView *_backIndicatorView;
-    _UINavBarPrompt *_prompt;
-    _UINavigationBarGestureHandler *_gestureHandler;
-    NSMutableArray *_slideTransitionClippingViews;
-    id <UIViewControllerTransitionCoordinator> _transitionCoordinator;
-    _UINavigationBarLegacyContentView *_layoutView;
-    UIView *_contentView;
-    UILayoutGuide *_userContentGuide;
-    NSLayoutConstraint *_userContentGuideLeading;
-    NSLayoutConstraint *_userContentGuideTrailing;
-    UIFocusContainerGuide *_contentFocusContainerGuide;
 }
 
 - (void);
@@ -36,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGSize);
-- (id);
+- (id);
 - (void);
 - (void);
+- (void)setSupportsColoredTokenAttachments:(struct CGPoint)arg1;
 - (void);
-- (void);
-- (id);
+- (id)tectedCloudStorage.framework/Versions/A/ProtectedCloudStorage;
 - (_Bool);
 - (void);
 - (struct CGPoint);
@@ -78,31 +61,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)tiveTransitioning>"32@0:8@"UINavigationController"16@"<UIViewControllerAnimatedTransitioning>"24 /* Error: Ran out of types for this method. */;
 - (_Bool)CGPoint=dd}{CGSize=dd}}32d64B72;
-- (void)omReport:(double)arg1;
-- (void)eIdentifier:(_Bool)arg1;
-- (void)ceneViewSizeForSceneCallback: /* Error: Ran out of types for this method. */;
-- (void)rdAssertionInvalidationHandler:(id)arg1;
-- (void)olCenterActivationMargin: /* Error: Ran out of types for this method. */;
-- (void)rnToPreviousInputMode;
-- (_Bool)tionWithRange:UUID:applyDelta: /* Error: Ran out of types for this method. */;
-- (void)resentation;
-- (id)dButtonMinWidth;
-- (void)eTextAttributes;
-- (double)ionships;
-- (id)valAnimationDidStop;
-- (void)mponents;
-- (void)sStatusBar:(id)arg1;
-- (id)agContainerView;
-- (void)ng_transform;
-- (void)gInteractive:animations: /* Error: Ran out of types for this method. */;
+- (void)stringFromReport:(double)arg1;
+- (void)setSystemShellHostingSpaceIdentifier:(_Bool)arg1;
+- (void)setPreferredSceneViewSizeForSceneCallback: /* Error: Ran out of types for this method. */;
+- (void)setKeyboardAssertionInvalidationHandler:(id)arg1;
+- (void)setAmbiguousControlCenterActivationMargin: /* Error: Ran out of types for this method. */;
+- (void)returnToPreviousInputMode;
+- (_Bool)rangeOfSuggestionWithRange:UUID:applyDelta: /* Error: Ran out of types for this method. */;
+- (void)overrideUseCustomPresentation;
+- (id)mixedButtonMinWidth;
+- (void)largeTitleTextAttributes;
+- (double)gestureForFailureRelationships;
+- (id)dimmingRemovalAnimationDidStop;
+- (void)_subcomponents;
+- (void)_setShouldFreezeUnderlapsStatusBar:(id)arg1;
+- (id)_dragContainerView;
+- (void)_backing_transform;
+- (void)_animateWithSwiftUISpringInteractive:animations: /* Error: Ran out of types for this method. */;
 - (void)ToNavigationBar;
 - (void)CountAfterAutocorrectionGuesses;
 - (_Bool)Provider;
-- (double)ForInterfaceOrientation:inputMode: /* Error: Ran out of types for this method. */;
+- (double)deviceSpecificStaticHitBufferForInterfaceOrientation:inputMode: /* Error: Ran out of types for this method. */;
 - (void)Guides;
 - (void),N,Vm_feedbackGenerator;
-- (void)nPolicyDelegate;
-- (id)e;
+- (void)_UIKeyboardSuppressionPolicyDelegate;
+- (id)_UITVScrollViewManagerDelegate;
 - (void);
 - (_Bool)8³à¾¿XÁÔÁ;
 - (_Bool);
@@ -116,17 +99,17 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (double)þÿ;
 - (void)'þÿÌÐîÿ;
-- (double)ates;
+- (double)minimumFrameRates;
 - (void)azy_storage_$_contentWidth;
-- (void)lass;
+- (void)glass;
 - (_Bool)MockPanGestureRecognizer or UIScrollViewPanGestureRecognizer;
 - (void)d'T'HH-mm-ss;
 - (void)igned_text_cursor=on.;
-- (void)hPoints;
+- (void)minSquishPoints;
 - (void)ther NSExtensionMainStoryboard or NSExtensionPrincipalClass must be specified in the extension's Info.plist;
 - (id)_strong, NSString *__strong, __strong UIStateRestorationRestoreStateBeginHandler);
 - (void)"8Q16Q24;
-- (void)howDockItemTouchArea;
+- (void)ShowDockItemTouchArea;
 - (_Bool)bject in screens array (%@) is not a UIScreen object;
 - (void)t customizations with archive version %ld;
 - (void)een.;
@@ -143,13 +126,7 @@ __attribute__((visibility("hidden")))
 - (void)ü;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

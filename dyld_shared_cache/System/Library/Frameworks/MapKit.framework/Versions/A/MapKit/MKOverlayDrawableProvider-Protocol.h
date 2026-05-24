@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MKOverlayDrawable;
+
 @protocol MKOverlayDrawableProvider
+- (id <MKOverlayDrawable>).121.1
+;
 @end
 

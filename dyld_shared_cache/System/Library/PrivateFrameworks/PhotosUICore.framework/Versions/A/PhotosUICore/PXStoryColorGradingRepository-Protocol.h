@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol PXStoryColorGradingRepository
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long minimumCategoryKindFallbacks;

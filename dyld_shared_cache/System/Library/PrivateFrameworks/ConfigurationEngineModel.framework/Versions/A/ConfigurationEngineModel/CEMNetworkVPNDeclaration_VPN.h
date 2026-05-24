@@ -6,24 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface CEMNetworkVPNDeclaration_VPN : CEMPayloadBase
 {
     NSString *_payloadAuthName;
-    NSString *_payloadAuthPassword;
-    NSString *_payloadAuthenticationMethod;
-    NSString *_payloadPayloadCertificateUUID;
-    NSNumber *_payloadOnDemandEnabled;
-    NSArray *_payloadOnDemandMatchDomainsAlways;
-    NSArray *_payloadOnDemandMatchDomainsNever;
-    NSArray *_payloadOnDemandMatchDomainsOnRetry;
-    NSArray *_payloadOnDemandRules;
-    NSNumber *_payloadDisconnectOnIdle;
-    NSNumber *_payloadDisconnectOnIdleTimer;
-    NSString *_payloadRemoteAddress;
-    NSString *_payloadPassword;
-    NSString *_payloadProviderBundleIdentifier;
 }
 
 + (id);
@@ -42,6 +29,7 @@
 - (void);
 - (void);
 - (void);
+- (id)b;
 - (id);
 - (id);
 - (id);
@@ -53,30 +41,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)SpeechVoiceNames;
+- (id)SDySSSdG_AASgtSiAA_ABtIegnyr_;
+- (void)SSL_use_certificate_file;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadAuthName; // @synthesize payloadAuthName=_payloadAuthName;
-@property(copy, nonatomic) NSString *payloadAuthPassword; // @synthesize payloadAuthPassword=_payloadAuthPassword;
-@property(copy, nonatomic) NSString *payloadAuthenticationMethod; // @synthesize payloadAuthenticationMethod=_payloadAuthenticationMethod;
-@property(copy, nonatomic) NSNumber *payloadDisconnectOnIdle; // @synthesize payloadDisconnectOnIdle=_payloadDisconnectOnIdle;
-@property(copy, nonatomic) NSNumber *payloadDisconnectOnIdleTimer; // @synthesize payloadDisconnectOnIdleTimer=_payloadDisconnectOnIdleTimer;
-@property(copy, nonatomic) NSNumber *payloadOnDemandEnabled; // @synthesize payloadOnDemandEnabled=_payloadOnDemandEnabled;
-@property(copy, nonatomic) NSArray *payloadOnDemandMatchDomainsAlways; // @synthesize payloadOnDemandMatchDomainsAlways=_payloadOnDemandMatchDomainsAlways;
-@property(copy, nonatomic) NSArray *payloadOnDemandMatchDomainsNever; // @synthesize payloadOnDemandMatchDomainsNever=_payloadOnDemandMatchDomainsNever;
-@property(copy, nonatomic) NSArray *payloadOnDemandMatchDomainsOnRetry; // @synthesize payloadOnDemandMatchDomainsOnRetry=_payloadOnDemandMatchDomainsOnRetry;
-@property(copy, nonatomic) NSArray *payloadOnDemandRules; // @synthesize payloadOnDemandRules=_payloadOnDemandRules;
-@property(copy, nonatomic) NSString *payloadPassword; // @synthesize payloadPassword=_payloadPassword;
-@property(copy, nonatomic) NSString *payloadPayloadCertificateUUID; // @synthesize payloadPayloadCertificateUUID=_payloadPayloadCertificateUUID;
-@property(copy, nonatomic) NSString *payloadProviderBundleIdentifier; // @synthesize payloadProviderBundleIdentifier=_payloadProviderBundleIdentifier;
-@property(copy, nonatomic) NSString *payloadRemoteAddress; // @synthesize payloadRemoteAddress=_payloadRemoteAddress;
 
 @end
 

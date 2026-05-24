@@ -6,44 +6,35 @@
 
 #import <Metal/MTLComputePipelineReflection.h>
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MTLComputePipelineReflectionInternal : MTLComputePipelineReflection
 {
     NSArray *_arguments;
-    NSArray *_builtInArguments;
-    NSDictionary *_performanceStatistics;
-    CDStruct_d6acfb42 _flags;
-    unsigned int _traceBufferIndex;
-    NSData *_pluginReturnData;
-    NSArray *_constantSamplerUniqueIdentifiers;
-    NSArray *_constantSamplerDescriptors;
-    NSDictionary *_computeResourceBindingIndexRemappingTable;
-    NSArray *_bindings;
 }
 
 - (unsigned int);
 - (void);
 - (void);
+- (void)A;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (CDStruct_d6acfb42);
+- (id);
+- (id);
+- (id);
+- (void)(;
+- (id)V;
+- (CDStruct_944790b2);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)xel_format;
+- (id)pixel_format;
 
 @end
 

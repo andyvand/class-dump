@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioStopRecordingeStarted : SISchemaInstrumentationMessage
 {
     int _stopReason;
-    struct {
-        unsigned int stopReason:1;
-    } _has;
 }
 
 - (int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_ְb;
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)%s;
+- (unsigned long long)A;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)Count:(id)arg1;
+- (id)setHasWebCount:(id)arg1;
 - (id)efetchedMetadataSource;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStopReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int stopReason; // @synthesize stopReason=_stopReason;
 
 @end

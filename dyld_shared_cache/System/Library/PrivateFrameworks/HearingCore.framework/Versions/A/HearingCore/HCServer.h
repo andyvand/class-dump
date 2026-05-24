@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol AXHeardServerDelegate, AXHeardServerMessageDelegate, OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 @interface HCServer
 {
     _Bool _deadConnection;
-    id <AXHeardServerDelegate> _delegate;
-    id <AXHeardServerMessageDelegate> _messageDelegate;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    NSObject<OS_xpc_object> *_xpcConnection;
-    NSMutableDictionary *_responseBlocks;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -41,19 +36,13 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)stname was also set to YES.;
 - (void);
-- (void);
+- (void)initWithFocalNode:maxNodes:leftSegmentCount:rightSegmentCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
-@property(nonatomic) _Bool deadConnection; // @synthesize deadConnection=_deadConnection;
-@property(nonatomic) __weak id <AXHeardServerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isConnected;
-@property(nonatomic) __weak id <AXHeardServerMessageDelegate> messageDelegate; // @synthesize messageDelegate=_messageDelegate;
-@property(retain, nonatomic) NSMutableDictionary *responseBlocks; // @synthesize responseBlocks=_responseBlocks;
 @property(retain, nonatomic) NSObject<OS_xpc_object> *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

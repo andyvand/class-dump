@@ -6,94 +6,56 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSLayoutConstraint, NSMutableArray, NSPointerArray, NSString, UIFont, UIInterfaceActionGroup, UIInterfaceActionHighlightAttributes, UIInterfaceActionRepresentationView, UIInterfaceActionSelectionTrackingController, UIInterfaceActionSeparatorAttributes, UIInterfaceActionVisualStyle, UILongPressGestureRecognizer, _UIContentConstraintsLayoutGuide, _UIInterfaceActionRepresentationsSequenceView;
-@protocol UIInterfaceActionHandlerInvocationDelegate, UIInterfaceActionVisualStyleProviding, UISeparatorDisplaying;
+@class UIInterfaceActionVisualStyle;
 
 @interface UIInterfaceActionGroupView : UIView
 {
     _Bool _needsUpdateTopLevelViewsArrangement;
-    _Bool _needsUpdateActionSequenceViewArrangement;
-    _Bool _needsInitialViewLoading;
-    _Bool _isSettingVisualStyle;
-    UIInterfaceActionVisualStyle *_activeTestingVisualStyle;
-    NSString *_cachedSizeCategory;
-    _Bool _springLoaded;
-    _Bool _showsSeparatorAboveActions;
-    _Bool _scrubbingEnabled;
-    _Bool _focusAvoidsNonDefaultActionsIfPossible;
-    _Bool _drawsBackground;
-    _Bool _alignActionSeparatorLeadingEdgeWithContent;
-    id <UIInterfaceActionVisualStyleProviding> _visualStyleProvider;
-    UIInterfaceActionSelectionTrackingController *_actionSelectionController;
-    UIInterfaceActionGroup *_actionGroup;
-    id <UIInterfaceActionHandlerInvocationDelegate> _actionHandlerInvocationDelegate;
-    long long _presentationStyle;
-    NSArray *_allowedActionLayoutAxisByPriority;
-    long long _actionLayoutAxis;
-    UIInterfaceActionVisualStyle *_visualStyle;
-    UIInterfaceActionVisualStyle *_appliedVisualStyle;
-    _UIContentConstraintsLayoutGuide *_contentGuide;
-    UIView *_backgroundView;
-    UIView *_topLevelItemsView;
-    NSArray *_topLevelViewArrangementConstraints;
-    NSMutableArray *_arrangedScrollableHeaderViews;
-    UIView<UISeparatorDisplaying> *_actionSequenceTopSeparatorView;
-    NSLayoutConstraint *_actionSequenceViewWidthAnchoredToConstantConstraint;
-    NSLayoutConstraint *_actionSequenceViewWidthAnchoredToContentGuideConstraint;
-    NSPointerArray *_weakSimultaneouslyPresentedGroupViews;
-    _UIInterfaceActionRepresentationsSequenceView *_actionSequenceView;
-    UILongPressGestureRecognizer *_actionSelectionGestureRecognizer;
-    double _requiredActionRepresentationWidth;
-    UIInterfaceActionRepresentationView *_preferredActionRepresentation;
-    UIInterfaceActionHighlightAttributes *_visualStyleOverrideActionHighlightAttributes;
-    UIInterfaceActionSeparatorAttributes *_visualStyleOverrideSeparatorAttributes;
-    UIFont *_visualStyleOverrideTitleLabelFont;
-    double _selectionHighlightContinuousCornerRadius;
 }
 
 - (id);
+- (id)}};
 - (id);
-- (id);
-- (id);
+- (id)}};
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)conversation %@ on chat %@;
+- (void)messagesGroupUUID was added:(_Bool)arg1 %@;
+- (void)ontrollerCommandRequestRecents;
+- (void)activating:(double)arg1 %@ on Environment:%@ /* Error: Ran out of types for this method. */;
+- (void)an exit path that isn't calling _noteMeticsForSyncEndedWithSuccces;
+- (void)%@ lastSIMID %@;
+- (void)nd moving on;
+- (void)n of incoming messages enabled;
+- (void)deo copy dest, bad transfer/data (assetPath %@ auxAssetPath %@);
+- (void)%@;
+- (void)t was on the write path;
+- (void)CKRecord found no existing attachment for %@, but was on the write path;
+- (_Bool)eloading chat guid:%@ /* Error: Ran out of types for this method. */;
+- (void)cache missed chat with GUID %@, not preferring existing chats;
 - (double);
+- (void)*****************;
+- (void)il when attempting to update a message;
+- (id)age. Success = (%@).;
+- (void)aunch;
+- (void)to write the exit record as we'll retry updating the subscription on imagent launch;
+- (void)dWithDate. ExitDate:(id)arg1 %@;
+- (void)r:(id)arg1 %@:(unsigned long long)arg2 %@;
+- (id).XPCClientConnectionRouteProvider;
+- (_Bool)IMDMomentShareManagerErrorDomain;
+- (id);
+- (id);
 - (void);
+- (void)E;
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (id)Q2;
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (id)hc;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)pR;
 - (id);
 - (id);
 - (long long);
@@ -107,7 +69,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (double);
 - (_Bool);
 - (_Bool);
@@ -116,7 +78,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -149,13 +111,13 @@
 - (id);
 - (void);
 - (struct UIEdgeInsets);
+- (void)˟;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -174,7 +136,7 @@
 - (_Bool);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)-;
 - (id);
 - (_Bool);
 - (void);
@@ -184,9 +146,9 @@
 - (void)!
 °!|@ùf°1Â0@ù
 × ;
-- (void)ngRow;
-- (void)aint;
-- (void)oveCursorRight;
+- (void)globalReorderingRow;
+- (void)_slotViewCenterXConstraint;
+- (void)_canMoveCursorRight;
 - (void)T@"UIViewSpringAnimationBehaviorSettings",N,&,VscaleSpring;
 - (id)G_strongReferenceToOurself,S_setStrongReferenceToOurself:,V_strongReferenceToOurself /* Error: Ran out of types for this method. */;
 - (void)ntentIDCallback before scene is fully created (sceneIdentifier=%{public}@);
@@ -198,46 +160,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIInterfaceActionGroup *actionGroup; // @synthesize actionGroup=_actionGroup;
-@property(nonatomic) __weak id <UIInterfaceActionHandlerInvocationDelegate> actionHandlerInvocationDelegate; // @synthesize actionHandlerInvocationDelegate=_actionHandlerInvocationDelegate;
-@property(readonly, nonatomic) long long actionLayoutAxis; // @synthesize actionLayoutAxis=_actionLayoutAxis;
-@property(readonly, nonatomic) UIInterfaceActionSelectionTrackingController *actionSelectionController; // @synthesize actionSelectionController=_actionSelectionController;
-@property(retain, nonatomic) UILongPressGestureRecognizer *actionSelectionGestureRecognizer; // @synthesize actionSelectionGestureRecognizer=_actionSelectionGestureRecognizer;
-@property(readonly, nonatomic) UIView<UISeparatorDisplaying> *actionSequenceTopSeparatorView; // @synthesize actionSequenceTopSeparatorView=_actionSequenceTopSeparatorView;
-@property(readonly, nonatomic) _UIInterfaceActionRepresentationsSequenceView *actionSequenceView; // @synthesize actionSequenceView=_actionSequenceView;
-@property(readonly, nonatomic) NSLayoutConstraint *actionSequenceViewWidthAnchoredToConstantConstraint; // @synthesize actionSequenceViewWidthAnchoredToConstantConstraint=_actionSequenceViewWidthAnchoredToConstantConstraint;
-@property(readonly, nonatomic) NSLayoutConstraint *actionSequenceViewWidthAnchoredToContentGuideConstraint; // @synthesize actionSequenceViewWidthAnchoredToContentGuideConstraint=_actionSequenceViewWidthAnchoredToContentGuideConstraint;
-@property(nonatomic, getter=_alignActionSeparatorLeadingEdgeWithContent, setter=_setAlignActionSeparatorLeadingEdgeWithContent:) _Bool alignActionSeparatorLeadingEdgeWithContent; // @synthesize alignActionSeparatorLeadingEdgeWithContent=_alignActionSeparatorLeadingEdgeWithContent;
-@property(retain, nonatomic) NSArray *allowedActionLayoutAxisByPriority; // @synthesize allowedActionLayoutAxisByPriority=_allowedActionLayoutAxisByPriority;
-@property(retain, nonatomic) UIInterfaceActionVisualStyle *appliedVisualStyle; // @synthesize appliedVisualStyle=_appliedVisualStyle;
-@property(readonly, nonatomic) NSArray *arrangedHeaderViews;
-@property(readonly, nonatomic) NSMutableArray *arrangedScrollableHeaderViews; // @synthesize arrangedScrollableHeaderViews=_arrangedScrollableHeaderViews;
-@property(readonly, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(readonly, nonatomic) _UIContentConstraintsLayoutGuide *contentGuide; // @synthesize contentGuide=_contentGuide;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=_drawsBackground, setter=_setDrawsBackground:) _Bool drawsBackground; // @synthesize drawsBackground=_drawsBackground;
-@property(nonatomic) _Bool focusAvoidsNonDefaultActionsIfPossible; // @synthesize focusAvoidsNonDefaultActionsIfPossible=_focusAvoidsNonDefaultActionsIfPossible;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIInterfaceActionRepresentationView *preferredActionRepresentation; // @synthesize preferredActionRepresentation=_preferredActionRepresentation;
-@property(nonatomic) long long presentationStyle; // @synthesize presentationStyle=_presentationStyle;
-@property(nonatomic) double requiredActionRepresentationWidth; // @synthesize requiredActionRepresentationWidth=_requiredActionRepresentationWidth;
-@property(nonatomic) _Bool scrubbingEnabled; // @synthesize scrubbingEnabled=_scrubbingEnabled;
-@property(nonatomic, getter=_selectionHighlightContinuousCornerRadius, setter=_setSelectionHighlightContinuousCornerRadius:) double selectionHighlightContinuousCornerRadius; // @synthesize selectionHighlightContinuousCornerRadius=_selectionHighlightContinuousCornerRadius;
-@property(nonatomic) _Bool showsSeparatorAboveActions; // @synthesize showsSeparatorAboveActions=_showsSeparatorAboveActions;
-@property(nonatomic, getter=isSpringLoaded) _Bool springLoaded; // @synthesize springLoaded=_springLoaded;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UIView *topLevelItemsView; // @synthesize topLevelItemsView=_topLevelItemsView;
-@property(readonly, nonatomic) NSArray *topLevelViewArrangementConstraints; // @synthesize topLevelViewArrangementConstraints=_topLevelViewArrangementConstraints;
 @property(retain, nonatomic) UIInterfaceActionVisualStyle *visualStyle; // @synthesize visualStyle=_visualStyle;
-@property(retain, nonatomic, setter=_setVisualStyleOverrideActionHighlightAttributes:) UIInterfaceActionHighlightAttributes *visualStyleOverrideActionHighlightAttributes; // @synthesize visualStyleOverrideActionHighlightAttributes=_visualStyleOverrideActionHighlightAttributes;
-@property(retain, nonatomic, getter=_visualStyleOverrideSeparatorAttributes, setter=_setVisualStyleOverrideSeparatorAttributes:) UIInterfaceActionSeparatorAttributes *visualStyleOverrideSeparatorAttributes; // @synthesize visualStyleOverrideSeparatorAttributes=_visualStyleOverrideSeparatorAttributes;
-@property(retain, nonatomic, getter=_visualStyleOverrideTitleLabelFont, setter=_setVisualStyleOverrideTitleLabelFont:) UIFont *visualStyleOverrideTitleLabelFont; // @synthesize visualStyleOverrideTitleLabelFont=_visualStyleOverrideTitleLabelFont;
-@property(nonatomic) __weak id <UIInterfaceActionVisualStyleProviding> visualStyleProvider; // @synthesize visualStyleProvider=_visualStyleProvider;
-@property(readonly, nonatomic) NSPointerArray *weakSimultaneouslyPresentedGroupViews; // @synthesize weakSimultaneouslyPresentedGroupViews=_weakSimultaneouslyPresentedGroupViews;
 
 @end
 

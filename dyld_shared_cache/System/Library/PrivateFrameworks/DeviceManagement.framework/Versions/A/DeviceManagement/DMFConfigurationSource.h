@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFReportingRequirements, NSString;
+@class NSString;
 
 @interface DMFConfigurationSource
 {
     NSString *_identifier;
-    NSString *_displayName;
-    NSString *_organizationIdentifier;
-    NSString *_machServiceName;
-    DMFReportingRequirements *_reportingRequirements;
 }
 
 + (_Bool);
@@ -21,12 +17,12 @@
 - (id);
 - (id);
 - (id);
+- (id)TY;
 - (id);
-- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -34,11 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *machServiceName; // @synthesize machServiceName=_machServiceName;
-@property(copy, nonatomic) NSString *organizationIdentifier; // @synthesize organizationIdentifier=_organizationIdentifier;
-@property(retain, nonatomic) DMFReportingRequirements *reportingRequirements; // @synthesize reportingRequirements=_reportingRequirements;
 
 @end
 

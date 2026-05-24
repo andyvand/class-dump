@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     MLSequence *_sequence;
 }
 
-- (id);
-- (id);
+- (id)Mode:(id)arg1 ];
+- (id)";
 - (id);
 - (unsigned long long);
 - (void)) or ([0-9\[\]-]*);

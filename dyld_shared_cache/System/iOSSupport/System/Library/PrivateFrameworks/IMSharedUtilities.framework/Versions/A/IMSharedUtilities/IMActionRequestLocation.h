@@ -18,7 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) _Bool sendPush; // @synthesize sendPush;
 
 @end

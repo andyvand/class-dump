@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GCMFiControllerProfile
 {
 }
 
-+ (void);
++ (void);
 + (_Bool);
-+ (_Bool);
-+ (long long);
++ (_Bool);
++ (long long)܊;
 + (void);
 + (void);
 + (void);
++ (id)Ќ;
++ (id)+;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (void);
-+ (void);
 + (id);
 + (_Bool);
++ (void);
++ (void)D;
++ (id);
++ (_Bool);
 + (void);
 + (_Bool);
 + (id);
@@ -34,13 +32,7 @@ __attribute__((visibility("hidden")))
 + (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

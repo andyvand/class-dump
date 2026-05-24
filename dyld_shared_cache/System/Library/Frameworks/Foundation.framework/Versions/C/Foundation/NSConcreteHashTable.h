@@ -10,22 +10,17 @@ __attribute__((visibility("hidden")))
 @interface NSConcreteHashTable : NSHashTable
 {
     struct NSSlice slice;
-    unsigned long long count;
-    unsigned long long capacity;
-    unsigned long long mutations;
-    unsigned int options:63;
-    unsigned int hasDynamicSlice:1;
 }
 
 + (_Bool)of bounds of count 1;
+- (void)R;
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)spaced-MediumItalic;
 - (id);
 - (id);
 - (unsigned long long);
@@ -440,7 +435,7 @@ z
 - (unsigned long long)ÌÌÍÍÎÎÎÏÐÐÐÐÑÑÒÒÒÒÓÓÓÓÓÔÔÔÔÔÕÕÖ××ØØØÙÙÙÙÚÛÜÜÜÝÞÞÞßààààààáááâââãããäååæçèèèééêêêêêëëììííîîîîîîïïððññññòòòòòòòóóôôõõõõö÷÷÷÷÷÷øøùúúúûûûüýýýþÿÿ;
 - (id);
 - (unsigned long long);
-- (void)g;
+- (void)XMLPlistTag;
 - (id)uí.kxïÿ;
 - (unsigned long long)i´8;
 

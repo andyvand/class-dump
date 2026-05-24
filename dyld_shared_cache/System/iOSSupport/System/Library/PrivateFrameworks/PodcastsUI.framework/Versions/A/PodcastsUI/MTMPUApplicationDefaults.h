@@ -4,34 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MTMPUApplicationDefaults
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSString *_applicationIdentifier;
-    NSDictionary *_defaultValues;
-    unsigned long long _referenceCountForDefferringUpdates;
 }
 
 - (id);
 - (id);
+- (void)tadmtadm;
+- (struct __CFString *)agenagen;
+- (id);
 - (void);
-- (struct __CFString *);
+- (void)ject?;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)=;
 - (long long);
 - (void);
 - (id);
@@ -40,7 +37,7 @@
 - (void);
 - (id)¨pþÿ©ñÿÄS;
 - (void)SgG;
-- (void)1x_Sd1ySd1zt;
+- (void)Sd1x_Sd1ySd1zt;
 
 @end
 

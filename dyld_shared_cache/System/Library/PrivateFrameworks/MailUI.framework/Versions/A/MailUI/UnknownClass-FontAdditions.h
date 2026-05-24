@@ -12,12 +12,10 @@
 - (void);
 - (double);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool EnableContactPhotos;
 @property(retain) NSString *messageListFontName;
-@property double messageListFontSize;
 @end
 

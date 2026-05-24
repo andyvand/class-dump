@@ -5,5 +5,9 @@
 //
 
 @protocol IOBluetoothDevicePairDelegate
+
+@optional
+- (void)@9	;
+- (void)9	;
 @end
 

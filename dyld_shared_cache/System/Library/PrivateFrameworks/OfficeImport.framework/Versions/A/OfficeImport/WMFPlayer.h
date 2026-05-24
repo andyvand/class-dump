@@ -10,16 +10,25 @@ __attribute__((visibility("hidden")))
 @interface WMFPlayer
 {
     MFGraphicsDevice *m_gdi;
-    int m_records;
-    unsigned short m_windowsVersion;
-    _Bool m_boundsSet;
-    _Bool m_ignoreSetWindowOrg;
 }
 
 + (struct CGRect);
 + (struct CGRect);
 + (struct CGRect);
-+ (struct CGRect);
++ (struct CGRect);
+- (int)*pQ?;
+- (int);
+- (int);
+- (int)(;
+- (int);
+- (int);
+- (int)q;
+- (int);
+- (int);
+- (int)?;
+- (int);
+- (int);
+- (int)I!ɚ*;
 - (int);
 - (int);
 - (int);
@@ -35,6 +44,22 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
+- (int)9;
+- (int)A9(;
+- (int)q ;
+- (int);
+- (int)=;
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (int);
+- (int)`;
+- (int);
+- (int);
 - (int);
 - (int);
 - (int);
@@ -46,36 +71,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
-- (int);
+- (int);
 - (int);
 - (int);
 - (int);
@@ -85,7 +81,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)P;
 - (void)nal/Library/BuildRoots/4~CNqXugClK-v5MmHtrhxGeQiIf33qItBVDmza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/TSUMacPrintUtilities.mm;
 - (void);
 

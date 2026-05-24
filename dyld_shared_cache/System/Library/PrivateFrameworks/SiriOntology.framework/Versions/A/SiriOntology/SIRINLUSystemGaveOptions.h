@@ -9,7 +9,6 @@
 @interface SIRINLUSystemGaveOptions
 {
     NSString *renderedText;
-    NSArray *_choices;
 }
 
 + (_Bool);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *choices; // @synthesize choices=_choices;
-@property(retain, nonatomic) NSString *renderedText; // @synthesize renderedText;
 
 @end
 

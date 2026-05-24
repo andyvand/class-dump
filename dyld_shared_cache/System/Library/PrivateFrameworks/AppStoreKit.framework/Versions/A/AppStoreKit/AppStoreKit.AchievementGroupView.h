@@ -7,9 +7,6 @@
 @interface AppStoreKit.AchievementGroupView
 {
     id achievement;
-    id secondAchievement;
-    id angle;
-    id cardSize;
 }
 
 - (id);

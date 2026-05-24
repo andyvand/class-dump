@@ -6,30 +6,22 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class PXNumberAnimator, PXStoryModel, PXStoryViewModel;
+@class PXStoryModel;
 
 @interface PXStoryOverlayController : PXStoryController
 {
     _Bool _preventAnimatingNextRelatedOverlayVisibilityFractionChange;
-    PXStoryViewModel *_viewModel;
-    PXStoryModel *_mainModel;
-    PXNumberAnimator *_chromeVisibilityFractionAnimator;
-    PXNumberAnimator *_scrubberVisibilityFractionAnimator;
-    PXNumberAnimator *_styleSwitcherVisibilityFractionAnimator;
-    PXNumberAnimator *_relatedOverlayVisibilityFractionAnimator;
-    PXNumberAnimator *_fadeOutOverlayVisibilityFractionAnimator;
-    PXNumberAnimator *_infoPanelVisibilityFractionAnimator;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)Q;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -37,10 +29,10 @@
 - (void);
 - (void);
 - (void);
+- (void)T: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,15 +63,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PXNumberAnimator *chromeVisibilityFractionAnimator; // @synthesize chromeVisibilityFractionAnimator=_chromeVisibilityFractionAnimator;
-@property(readonly, nonatomic) PXNumberAnimator *fadeOutOverlayVisibilityFractionAnimator; // @synthesize fadeOutOverlayVisibilityFractionAnimator=_fadeOutOverlayVisibilityFractionAnimator;
-@property(readonly, nonatomic) PXNumberAnimator *infoPanelVisibilityFractionAnimator; // @synthesize infoPanelVisibilityFractionAnimator=_infoPanelVisibilityFractionAnimator;
 @property(retain, nonatomic) PXStoryModel *mainModel; // @synthesize mainModel=_mainModel;
-@property(nonatomic) _Bool preventAnimatingNextRelatedOverlayVisibilityFractionChange; // @synthesize preventAnimatingNextRelatedOverlayVisibilityFractionChange=_preventAnimatingNextRelatedOverlayVisibilityFractionChange;
-@property(readonly, nonatomic) PXNumberAnimator *relatedOverlayVisibilityFractionAnimator; // @synthesize relatedOverlayVisibilityFractionAnimator=_relatedOverlayVisibilityFractionAnimator;
-@property(readonly, nonatomic) PXNumberAnimator *scrubberVisibilityFractionAnimator; // @synthesize scrubberVisibilityFractionAnimator=_scrubberVisibilityFractionAnimator;
-@property(readonly, nonatomic) PXNumberAnimator *styleSwitcherVisibilityFractionAnimator; // @synthesize styleSwitcherVisibilityFractionAnimator=_styleSwitcherVisibilityFractionAnimator;
-@property(readonly, nonatomic) __weak PXStoryViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

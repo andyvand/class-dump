@@ -6,7 +6,7 @@
 
 #import <AVFCapture/AVCaptureOutput.h>
 
-@class AVCaptureVideoThumbnailOutputInternal, NSArray;
+@class AVCaptureVideoThumbnailOutputInternal;
 @protocol AVCaptureVideoThumbnailContentsDelegate;
 
 @interface AVCaptureVideoThumbnailOutput : AVCaptureOutput
@@ -17,28 +17,25 @@
 + (struct CGRect);
 + (void);
 - (id);
+- (void)@48^@56;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)type;
+- (id)$;
 - (id);
 - (void);
+- (id);
 - (void);
-- (void)rientation;
-- (id)manualFramingDeviceTypeKey;
+- (void);
+- (void)_orientation;
+- (id)_manualFramingDeviceTypeKey;
 - (void)kinSegmentationMatteDimensions:teethSegmentationMatteDimensions:glassesSegmentationMatteDimensions:spatialOverCapturePhotoDimensions:turboModeEnabled:flashEnabled:redEyeReductionEnabled:HDREnabled:adjustedPhotoFiltersEnabled:EV0PhotoDeliveryEnabled:stillImageStabilizationEnabled:virtualDeviceFusionEnabled:squareCropEnabled:deferredPhotoProxyDimensions:photoProcessingTimeRange:contentAwareDistortionCorrectionEnabled:spatialPhotoCaptureEnabled:photoManifest:digitalFlashUserInterfaceHints:digitalFlashUserInterfaceRGBEstimate:captureBeforeResolvingSettingsEnabled: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ptureDevice_Tundra;
-- (void)mExposureBiasSlider;
+- (struct CGSize)AVCaptureDevice_Tundra;
+- (void)AVCaptureSystemExposureBiasSlider;
 - (void)ce >>>> %s:(id)arg1 Suppressed gestures %d :(id)arg2 enabled %d have shown %d;
 - (_Bool)red-camera;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *filters;
-@property(copy, nonatomic) NSArray *smartStyles;
 @property(nonatomic) id <AVCaptureVideoThumbnailContentsDelegate> thumbnailContentsDelegate;
-@property(nonatomic) struct CGSize thumbnailSize;
 
 @end
 

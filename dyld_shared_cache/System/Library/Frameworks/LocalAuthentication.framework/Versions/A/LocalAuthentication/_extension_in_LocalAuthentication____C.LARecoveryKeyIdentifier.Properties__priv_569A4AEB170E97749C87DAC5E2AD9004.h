@@ -7,7 +7,6 @@
 @interface (extension in LocalAuthentication):__C.LARecoveryKeyIdentifier.Properties__priv_569A4AEB170E97749C87DAC5E2AD9004
 {
     id uuid;
-    id externalDataUUID;
 }
 
 @end

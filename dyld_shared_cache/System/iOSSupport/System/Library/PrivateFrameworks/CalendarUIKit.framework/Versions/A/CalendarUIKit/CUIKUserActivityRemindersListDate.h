@@ -14,11 +14,11 @@
 }
 
 - (id);
+- (id)_threadOriginatorPart;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)t:style: /* Error: Ran out of types for this method. */;
+- (void)stringFromContact:style: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;

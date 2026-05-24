@@ -10,10 +10,10 @@
 {
 }
 
-- (void);
-- (void);
-- (id);
-- (id)iewAtIndex:(struct CGRect)arg1;
+- (void)@;
+- (void):UT /* Error: Ran out of types for this method. */;
+- (id)/;
+- (id)_splitViewItemForViewAtIndex:(struct CGRect)arg1;
 
 @end
 

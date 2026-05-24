@@ -5,5 +5,6 @@
 //
 
 @protocol IXCoordinatorWithGatekeeperOverride
+- (_Bool);
 @end
 

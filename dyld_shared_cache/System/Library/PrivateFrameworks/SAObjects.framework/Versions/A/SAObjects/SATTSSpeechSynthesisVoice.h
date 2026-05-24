@@ -13,9 +13,9 @@
 }
 
 + (id);
-+ (id);
-- (_Bool);
-- (void);
++ (id)J(;
+- (_Bool);
+- (void)+;
 - (id);
 - (id);
 - (id);
@@ -23,32 +23,18 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)roviderPunchOut:(id)arg1;
+- (void)setProviderPunchOut:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contentVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *gender;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *keyString;
-@property(copy, nonatomic) NSString *languageCode;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSString *quality;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type;
-@property(nonatomic) _Bool useServer;
 
 @end
 

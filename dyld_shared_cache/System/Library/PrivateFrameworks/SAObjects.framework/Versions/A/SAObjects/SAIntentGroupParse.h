@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString, SAIntentGroupDirectInvocation, SAIntentGroupProtobufMessage;
+@class SAIntentGroupDirectInvocation;
 
 @interface SAIntentGroupParse : AceObject
 {
@@ -31,24 +31,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) SAIntentGroupDirectInvocation *directInvocation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *jsonIntent;
-@property(copy, nonatomic) NSString *jsonIntentTypeName;
-@property(retain, nonatomic) SAIntentGroupProtobufMessage *nlv3Parse;
-@property(copy, nonatomic) NSArray *nlv3ParseWithAlternatives;
-@property(retain, nonatomic) SAIntentGroupProtobufMessage *pegasusResults;
-@property(retain, nonatomic) SAIntentGroupProtobufMessage *siriKitIntent;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, VN6Ac6Cyl5O5oK19HboyMBR;
+@class VN6Ac6Cyl5O5oK19HboyMBR;
 
 @interface VN6kBnCOr2mZlSV6yV1dLwB : VNImageBasedRequest
 {
@@ -26,7 +26,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)545;
 - (void);
 - (long long)ò;
 - (_Bool);
@@ -34,10 +34,7 @@
 - (_Bool)ÿ'@P;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long imageSignatureHashType;
-@property(readonly, nonatomic) unsigned long long imageSignatureprintType;
 @property(copy, nonatomic) VN6Ac6Cyl5O5oK19HboyMBR *inputSignatureprint;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

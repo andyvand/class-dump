@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface MLComputePlanDeviceUsageSupportStatePattern
 {
     long long _supportState;
-    NSRegularExpression *_regex;
 }
 
 + (id);
 - (long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)ame: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)computeUnits has an unrecognized value;
 
 // Remaining properties
 @property(readonly, nonatomic) NSRegularExpression *regex; // @synthesize regex=_regex;
-@property(readonly, nonatomic) long long supportState; // @synthesize supportState=_supportState;
 
 @end
 

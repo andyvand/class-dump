@@ -4,39 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NTPBRecordBase;
+@class NSString;
 
 @interface NTPBPurchaseLookupRecord
 {
     NSString *_appAdamID;
-    NTPBRecordBase *_base;
-    NSMutableArray *_bundleChannelTagIDs;
-    NSString *_bundleChannelTagIDsVersion;
-    NSMutableArray *_channelTagIDs;
 }
 
-+ (Class);
-+ (Class);
++ (Class)_pointerShapeInsets;
++ (Class)_playbackRateTitle;
+- (unsigned long long)dark;
+- (id);
+- (void);
+- (id)",&,N,V_subtoolbarVisualEffectsView;
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)stem/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices;
 - (void);
-- (void);
+- (void):(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)copiesNetworkSettings;
+- (_Bool)licy;
+- (void)setPeopleAlsoReadBaselineScore:(id)arg1;
+- (void)safariHistoryBaselineImpressionValue;
+- (_Bool)notLoaded;
 - (_Bool);
 - (id);
 - (id);
@@ -49,14 +45,7 @@
 - (void)avigationChromeBackgroundImageCompactURL;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appAdamID; // @synthesize appAdamID=_appAdamID;
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
-@property(retain, nonatomic) NSMutableArray *bundleChannelTagIDs; // @synthesize bundleChannelTagIDs=_bundleChannelTagIDs;
-@property(retain, nonatomic) NSString *bundleChannelTagIDsVersion; // @synthesize bundleChannelTagIDsVersion=_bundleChannelTagIDsVersion;
-@property(retain, nonatomic) NSMutableArray *channelTagIDs; // @synthesize channelTagIDs=_channelTagIDs;
-@property(readonly, nonatomic) _Bool hasAppAdamID;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(readonly, nonatomic) _Bool hasBundleChannelTagIDsVersion;
 
 @end
 

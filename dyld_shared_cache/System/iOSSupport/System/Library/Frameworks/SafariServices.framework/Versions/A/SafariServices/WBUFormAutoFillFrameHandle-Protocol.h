@@ -7,9 +7,9 @@
 @class NSURL;
 
 @protocol WBUFormAutoFillFrameHandle
+- (NSURL *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *webui_URL;
-@property(readonly, nonatomic) struct __SecTrust *webui_serverTrust;
 @end
 

@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUPairedPeer, NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CUHomeKitFindPairedPeerContext
 {
     _Bool _triedAccessory;
-    _Bool _triedHAP;
-    _Bool _triedHomeRepairFlow;
-    CDUnknownBlockType _completion;
-    NSString *_identifier;
-    unsigned long long _options;
-    CUPairedPeer *_pairedPeer;
-    unsigned long long _startTicks;
-    NSArray *_users;
-    unsigned long long _userIndex;
-    unsigned long long _userCount;
 }
 
 - (unsigned long long);
@@ -39,25 +27,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(retain, nonatomic) CUPairedPeer *pairedPeer; // @synthesize pairedPeer=_pairedPeer;
-@property(nonatomic) unsigned long long startTicks; // @synthesize startTicks=_startTicks;
-@property(nonatomic) _Bool triedAccessory; // @synthesize triedAccessory=_triedAccessory;
-@property(nonatomic) _Bool triedHAP; // @synthesize triedHAP=_triedHAP;
-@property(nonatomic) _Bool triedHomeRepairFlow; // @synthesize triedHomeRepairFlow=_triedHomeRepairFlow;
-@property(nonatomic) unsigned long long userCount; // @synthesize userCount=_userCount;
-@property(nonatomic) unsigned long long userIndex; // @synthesize userIndex=_userIndex;
-@property(retain, nonatomic) NSArray *users; // @synthesize users=_users;
 
 @end
 

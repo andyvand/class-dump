@@ -8,15 +8,12 @@
 
 @interface UnknownClass (UI)
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *participantsInfoDescription;
-@property(readonly, copy, nonatomic) NSString *shareViaICloudAddPeopleActionTitle;
 @property(readonly, copy, nonatomic) NSString *shareViaICloudManageActionTitle;
-@property(readonly, copy, nonatomic) NSString *shareViaICloudSystemImageName;
 @end
 

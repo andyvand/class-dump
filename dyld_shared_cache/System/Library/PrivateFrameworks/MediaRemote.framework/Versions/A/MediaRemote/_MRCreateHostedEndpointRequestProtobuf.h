@@ -25,9 +25,9 @@
 - (_Bool);
 - (void);
 - (id);
+- (id)shouldApplyChildRestrictions];
 - (id);
-- (id);
-- (void)ntainsDiscoverableGroupLeader;
+- (void)_groupContainsDiscoverableGroupLeader;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *outputDeviceUIDs; // @synthesize outputDeviceUIDs=_outputDeviceUIDs;

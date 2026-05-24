@@ -7,20 +7,6 @@
 @interface AppletTranslationLibrary.ExpressMode.PassConfig__priv_F6A5673F67A2A086B8B4649671CBFF82
 {
     id passUniqueID;
-    id appletAID;
-    id keyIdentifier;
-    id readerIdentifier;
-    id expressInfo;
-    id inSessionOnly;
-    id moduleIdentifier;
-    id groupHead;
-    id groupMembers;
-    id groupActivationStyle;
-    id isUWBExpress;
-    id isNFCExpress;
-    id lyonAuxKeys;
-    id isUserChoice;
-    id useGroupActivation;
 }
 
 @end

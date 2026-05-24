@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAStateController, NSArray, NSAttributedString, NSButton, NSImage, NSString, NSView, OBTemplateView, SiriUI.LoopedVideoPlayerView, SiriUIBuddyController;
+@class NSButton, SiriUI.LoopedVideoPlayerView;
 
 __attribute__((visibility("hidden")))
 @interface SiriUIBuddyEnableSiriController
 {
     SiriUI.LoopedVideoPlayerView *_playerView;
-    _Bool _saeEnabled;
-    SiriUIBuddyController *_parentController;
-    NSButton *_enableAskSiriButton;
-    CALayer *_topContentLayer;
-    CAStateController *_stateController;
-    NSView *_topContentView;
 }
 
 - (void);
@@ -25,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (void);
@@ -41,90 +35,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)xOriginForCenteringWithTrailingSlot;
 - (long long);
-- (id);
-- (id);
+- (id)OrderMediaObject:Invalid image type %d. Not applying padding. /* Error: Ran out of types for this method. */;
+- (id)4;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property __weak NSButton *enableAskSiriButton; // @synthesize enableAskSiriButton=_enableAskSiriButton;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isInitialSubState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) long long layoutStyle;
-@property(readonly) _Bool needsExtraWideContent;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property __weak SiriUIBuddyController *parentController; // @synthesize parentController=_parentController;
-@property(readonly) NSArray *privacyBundleIdentifiers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) _Bool saeEnabled; // @synthesize saeEnabled=_saeEnabled;
-@property(readonly) _Bool shouldDisableNextButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(retain, nonatomic) CAStateController *stateController; // @synthesize stateController=_stateController;
-@property(readonly) Class superclass;
-@property(readonly) CDUnknownBlockType templateAlternateActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templateAlternateButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSAttributedString *templateAttributedBodyText;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAttributedString",?,R
-
-@property(readonly) NSString *templateBodyText;
-@property(readonly) CDUnknownBlockType templateCancelActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templateCancelButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) CDUnknownBlockType templateNextButtonActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templateNextButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) CDUnknownBlockType templatePreviousButtonActionBlock;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@?,?,R
-
-@property(readonly) NSString *templatePreviousButtonTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
-@property(readonly) NSString *templateTitle;
-@property(readonly) OBTemplateView *templateView;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"OBTemplateView",?,R
-
-@property(retain, nonatomic) CALayer *topContentLayer; // @synthesize topContentLayer=_topContentLayer;
-@property(retain, nonatomic) NSView *topContentView; // @synthesize topContentView=_topContentView;
-@property(readonly) NSImage *topImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSImage",?,R
-
 
 @end
 

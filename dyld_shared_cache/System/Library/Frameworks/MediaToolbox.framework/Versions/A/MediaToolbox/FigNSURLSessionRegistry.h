@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface FigNSURLSessionRegistry
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableArray *_sessionArray;
 }
 
 - (void);
 - (void);
-- (id);
+- (id).o;
 - (void);
 - (void);
 

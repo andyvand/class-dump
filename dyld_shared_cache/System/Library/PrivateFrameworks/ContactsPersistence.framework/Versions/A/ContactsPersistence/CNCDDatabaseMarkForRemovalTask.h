@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDDatabaseRemovalRequest, CNResult, NSString, NSURL;
+@class CNCDDatabaseRemovalRequest;
 
 @interface CNCDDatabaseMarkForRemovalTask
 {
     CNCDDatabaseRemovalRequest *_request;
-    NSString *_bootSessionUUID;
-    NSURL *_folderURL;
-    CNResult *_result;
 }
 
 + (id);
@@ -22,16 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bootSessionUUID; // @synthesize bootSessionUUID=_bootSessionUUID;
-@property(readonly, copy, nonatomic) NSURL *folderURL; // @synthesize folderURL=_folderURL;
 @property(readonly, copy, nonatomic) CNCDDatabaseRemovalRequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) CNResult *result; // @synthesize result=_result;
 
 @end
 

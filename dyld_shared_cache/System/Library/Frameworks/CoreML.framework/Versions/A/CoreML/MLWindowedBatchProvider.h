@@ -10,27 +10,22 @@ __attribute__((visibility("hidden")))
 @interface MLWindowedBatchProvider
 {
     id <MLBatchProvider> _fullBatch;
-    long long _startIndex;
-    long long _windowLength;
 }
 
 - (long long);
-- (void);
-- (void);
+- (void)<MTLCommandBuffer>"8;
+- (void)refitTriangleLeafNodeInPlaceKernel;
+- (id)x;
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)CONTAINER_IDENTITY_DATA_INVALID;
 - (void);
 - (long long)1Â0@ù
 × ;
 - (void)This is a missing handling of a certain condition (CoreML.framework's logic error). Error:%@. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
 @property(retain, nonatomic) id <MLBatchProvider> fullBatch; // @synthesize fullBatch=_fullBatch;
-@property(nonatomic) long long startIndex; // @synthesize startIndex=_startIndex;
-@property(nonatomic) long long windowLength; // @synthesize windowLength=_windowLength;
 
 @end
 

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCHistogram
 {
     unsigned int *_buckets;
-    const unsigned int *_ranges;
-    unsigned int _bucketCount;
 }
 
 - (id);
@@ -22,14 +20,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (unsigned int);
+- (_Bool);
+- (unsigned int)ork outage?;
 - (id);
 - (const unsigned int *);
 - (void)[%s] %s:(unsigned int)arg1 %d /AppleInternal/Library/BuildRoots/4~CNquugCxBtWOFPKPWUZ8mgPUM0uo0kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/ViceroyTrace.subproj/Sources/ReportingVC.m:%d:reportingConnecting:error code %d. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned int bucketCount; // @synthesize bucketCount=_bucketCount;
 @property(readonly) const unsigned int *ranges; // @synthesize ranges=_ranges;
 
 @end

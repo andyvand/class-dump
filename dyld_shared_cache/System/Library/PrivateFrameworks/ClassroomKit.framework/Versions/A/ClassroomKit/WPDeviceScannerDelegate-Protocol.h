@@ -5,5 +5,8 @@
 //
 
 @protocol WPDeviceScannerDelegate
+
+@optional
+- (void);
 @end
 

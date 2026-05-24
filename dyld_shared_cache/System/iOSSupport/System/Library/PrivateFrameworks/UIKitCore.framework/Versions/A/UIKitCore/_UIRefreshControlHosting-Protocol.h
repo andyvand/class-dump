@@ -8,7 +8,7 @@
 
 @protocol _UIRefreshControlHosting
 - (void);
-- (void)howsBackgroundCoverView;
+- (void)_showsBackgroundCoverView;
 - (void)BAutofillController",&,N,Vm_autofillController;
 - (_Bool)this table view, instead of the data source:%@ /* Error: Ran out of types for this method. */;
 - (UIScrollView *).apple.TextInput.rdt but timed out after %d seconds;

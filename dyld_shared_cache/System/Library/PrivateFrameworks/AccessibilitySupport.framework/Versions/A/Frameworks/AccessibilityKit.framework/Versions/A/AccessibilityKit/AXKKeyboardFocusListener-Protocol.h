@@ -5,5 +5,9 @@
 //
 
 @protocol AXKKeyboardFocusListener
+
+@optional
+- (void);
+- (void)R;
 @end
 

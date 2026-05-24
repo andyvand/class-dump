@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)initWithObject:(const void *)arg1 keyPath:observer: /* Error: Ran out of types for this method. */;
+- (void)initWithFirst:(id)arg1 second:(const void *)arg2;
 - (void);
 - (id);
 - (void)ìê;

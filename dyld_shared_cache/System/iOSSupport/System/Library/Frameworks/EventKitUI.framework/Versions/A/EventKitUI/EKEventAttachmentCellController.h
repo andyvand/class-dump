@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKAttachmentDownloadController, EKAttachment, EKEventAttachmentCell, NSString;
-@protocol EKEventAttachmentCellControllerDelegate;
+@class EKEventAttachmentCell;
 
 @interface EKEventAttachmentCellController
 {
     id _downloadID;
-    EKEventAttachmentCell *_cell;
-    _Bool _sourceIsManaged;
-    CUIKAttachmentDownloadController *_downloadController;
-    EKAttachment *_attachment;
-    id <EKEventAttachmentCellControllerDelegate> _delegate;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id)s;
 - (void);
 - (id);
 - (void);
@@ -32,26 +26,17 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)m;
 - (id);
 - (void);
-- (void)t;
+- (void)revert;
 - (void)1;
 
 // Remaining properties
-@property(retain, nonatomic) EKAttachment *attachment; // @synthesize attachment=_attachment;
 @property(readonly) EKEventAttachmentCell *cell; // @synthesize cell=_cell;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EKEventAttachmentCellControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

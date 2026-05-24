@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, EKEventStore, NSString;
-@protocol CalSpotlightQueryPendingSearchProtocol, EKAutocompleteSearchPasteboardItemProvider;
+@class EKEventStore;
 
 @interface EKAutocompletePendingSearch
 {
     EKEventStore *_eventStore;
-    unsigned long long _maximumResultCount;
-    _Bool _ignoreScheduledEvents;
-    EKEvent *_initialEvent;
-    id <EKAutocompleteSearchPasteboardItemProvider> _pasteboardItemProvider;
-    id <CalSpotlightQueryPendingSearchProtocol> _pendingSearch;
 }
 
-+ (id);
-+ (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
++ (id)nEvent(MRExternalDeviceRef, MRHIDButtonEvent);
++ (id);
+- (void)d to get server proxy to restore state. Giving up.;
+- (id)message:(id)arg1 %@;
+- (_Bool)*> *_onClientQueue_MRCreateSectionsForRequest(MRNowPlayingPlayerClient *__strong, __strong MRPlaybackQueueDataSourceCreateChildContentItemCallback, MRPlaybackQueueRequest *__strong, MRContentItem *__strong);
+- (id)ackQueueClient.m;
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

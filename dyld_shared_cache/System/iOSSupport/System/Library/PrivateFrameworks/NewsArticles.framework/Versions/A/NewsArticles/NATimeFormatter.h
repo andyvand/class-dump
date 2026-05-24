@@ -9,21 +9,19 @@
 @interface NATimeFormatter
 {
     AVTimeFormatter *_elapsedDurationFormatter;
-    AVTimeFormatter *_remainingDurationFormatter;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)7a;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVTimeFormatter *elapsedDurationFormatter; // @synthesize elapsedDurationFormatter=_elapsedDurationFormatter;
-@property(retain, nonatomic) AVTimeFormatter *remainingDurationFormatter; // @synthesize remainingDurationFormatter=_remainingDurationFormatter;
 
 @end
 

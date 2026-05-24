@@ -5,5 +5,6 @@
 //
 
 @protocol PLLibraryServicesDelegate
+- (id);
 @end
 

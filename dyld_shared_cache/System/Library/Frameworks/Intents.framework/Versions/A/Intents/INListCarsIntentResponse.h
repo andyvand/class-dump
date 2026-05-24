@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INListCarsIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)saveBestRepresentationForRequest:(long long)arg1 toFileHandle:asContentType:allowingThumbnailDownloads:completionHandler: /* Error: Ran out of types for this method. */;
++ (int)associateThumbnailImagesDictionary:(long long)arg1 serializedQuickLookMetadata:withDocumentAtURL:error: /* Error: Ran out of types for this method. */;
++ (long long)_temporaryURL;
++ (_Bool)_queueThumbnailGenerationForRequestIfNeeded:(long long)arg1;
 + (_Bool);
 - (void);
 - (void);
@@ -24,24 +22,16 @@
 - (long long);
 - (id);
 - (long long);
+- (id)mented function.;
+- (id)_onqueue_createDeviceWithModel:(id)arg1 service: /* Error: Ran out of types for this method. */;
+- (id)A;
+- (void)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}console.log('check123'); let element = document.querySelector('%@'); if (element){ console.log('check4'); let value = '%@'; if (element.type.toLowerCase() == 'checkbox'){ element.value = value; element.checked = true; element.dispatchEvent(new Event('change', { bubbles:(id)arg1 true, composed:true, cancelable:true } )); element.dispatchEvent(new Event('click', { bubbles:true, composed:true, cancelable:true } )); } else { element.value = value; element.dispatchEvent(new Event('input', { bubbles:true, composed:true, cancelable:true } )); } } /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)ettingValueResolutionResult;
+- (long long)INBinarySettingValueResolutionResult;
 
 // Remaining properties
-@property(copy) NSArray *cars;
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

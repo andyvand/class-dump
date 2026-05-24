@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface DEObjectProperty
 {
     shared_ptr_7568151d _ThisShared;
-    optional_a079f55f _This;
 }
 
 - (void);
@@ -19,23 +16,17 @@
 - (id);
 - (id);
 - (shared_ptr_7568151d);
-- (optional_a079f55f);
+- (optional_7693a7bf);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)t;
 - (id);
 - (void);
 
 // Remaining properties
-@property optional_a079f55f This; // @synthesize This=_This;
 @property shared_ptr_7568151d ThisShared; // @synthesize ThisShared=_ThisShared;
-@property(readonly) NSString *description;
-@property(readonly) NSString *name;
-@property(readonly) NSArray *sampleValueLocales;
-@property(readonly) NSString *semanticConcept;
-@property(readonly) NSString *type;
 
 @end
 

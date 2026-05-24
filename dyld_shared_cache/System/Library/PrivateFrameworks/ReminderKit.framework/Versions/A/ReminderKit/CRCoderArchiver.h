@@ -11,10 +11,6 @@
 @interface CRCoderArchiver : CRCoder
 {
     struct vector<CRDT::Document_DocObject *, std::allocator<CRDT::Document_DocObject *>> currentDocObjectEncodingStack;
-    NSMutableOrderedSet *_uuidSet;
-    NSMutableOrderedSet *_keySet;
-    NSMutableOrderedSet *_encodedObjects;
-    void *_currentDocument;
 }
 
 + (id);
@@ -48,9 +44,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) void *currentDocument; // @synthesize currentDocument=_currentDocument;
-@property(retain, nonatomic) NSMutableOrderedSet *encodedObjects; // @synthesize encodedObjects=_encodedObjects;
-@property(retain, nonatomic) NSMutableOrderedSet *keySet; // @synthesize keySet=_keySet;
 @property(retain, nonatomic) NSMutableOrderedSet *uuidSet; // @synthesize uuidSet=_uuidSet;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOperationConfiguration, CKOperationGroup;
-@protocol CKConvenienceCallbackWrapperProtocol;
+@class CKOperationConfiguration;
 
 @interface CKConvenienceConfiguration
 {
     CKOperationConfiguration *_configuration;
-    CKOperationGroup *_group;
-    id <CKConvenienceCallbackWrapperProtocol> _convenienceCallbacks;
 }
 
 - (id);
@@ -23,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CKOperationConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) id <CKConvenienceCallbackWrapperProtocol> convenienceCallbacks; // @synthesize convenienceCallbacks=_convenienceCallbacks;
-@property(readonly, nonatomic) CKOperationGroup *group; // @synthesize group=_group;
 
 @end
 

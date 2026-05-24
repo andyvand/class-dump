@@ -8,18 +8,6 @@
 {
     id _minValue;
     id _maxValue;
-    id __stepResult;
-    id _didBeginScrub;
-    id _didScrub;
-    id _didEndScrub;
-    id _isScrubbing;
-    id __value;
-    id _scrubberPositionValue;
-    id lightFeedbackGenerator;
-    id strongFeedbackGenerator;
-    id _options;
-    id _incrementExponent;
-    id _$observationRegistrar;
 }
 
 @end

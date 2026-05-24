@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBGradedTagID
 {
     int _grade;
-    int _source;
-    NSString *_tagId;
-    struct {
-        unsigned int grade:1;
-        unsigned int source:1;
-    } _has;
 }
 
-- (_Bool);
+- (_Bool)animationGroupWithDuration:beginTime:animations: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -26,25 +18,20 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (int);
 - (id);
-- (_Bool);
-- (void)ubscriptionSheet;
-- (void);
+- (_Bool)setHasIsDeprecated: /* Error: Ran out of types for this method. */;
+- (void)sawSubscriptionSheet;
+- (void)isBadged;
 - (int)gÚÿ+~CAÊ;
 
 // Remaining properties
-@property(nonatomic) int grade; // @synthesize grade=_grade;
-@property(nonatomic) _Bool hasGrade;
-@property(nonatomic) _Bool hasSource;
 @property(readonly, nonatomic) _Bool hasTagId;
-@property(nonatomic) int source; // @synthesize source=_source;
-@property(retain, nonatomic) NSString *tagId; // @synthesize tagId=_tagId;
 
 @end
 

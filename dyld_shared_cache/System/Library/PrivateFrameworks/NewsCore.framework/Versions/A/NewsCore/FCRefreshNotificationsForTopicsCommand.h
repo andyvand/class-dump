@@ -6,17 +6,11 @@
 
 #import <NewsCore/FCCommand.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface FCRefreshNotificationsForTopicsCommand : FCCommand
 {
     int _deviceDigestMode;
-    NSArray *_topicIDs;
-    NSString *_topicGroupingID;
-    NSString *_channelID;
-    NSString *_userID;
-    NSString *_deviceToken;
-    NSString *_storefrontID;
 }
 
 + (_Bool);
@@ -35,20 +29,14 @@
 - (id);
 - (id)!AùÑ)	Ð1Â0@ù
 × ;
-- (id)ntations;
-- (void)idLoadData:(id)arg1;
+- (id)_maxSportsOnboardingBubbleTipPresentations;
+- (void)URLProtocol:(id)arg1 didLoadData: /* Error: Ran out of types for this method. */;
 - (id)d_;
 - (void)once;
 - (void)Data"16^B24;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
-@property(nonatomic) int deviceDigestMode; // @synthesize deviceDigestMode=_deviceDigestMode;
-@property(copy, nonatomic) NSString *deviceToken; // @synthesize deviceToken=_deviceToken;
-@property(copy, nonatomic) NSString *storefrontID; // @synthesize storefrontID=_storefrontID;
-@property(copy, nonatomic) NSString *topicGroupingID; // @synthesize topicGroupingID=_topicGroupingID;
 @property(copy, nonatomic) NSArray *topicIDs; // @synthesize topicIDs=_topicIDs;
-@property(copy, nonatomic) NSString *userID; // @synthesize userID=_userID;
 
 @end
 

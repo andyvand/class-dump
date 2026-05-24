@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NURegion;
+@class NURegion;
 
 @interface NUFixedRegionPolicy
 {
     NURegion *_region;
-    CDStruct_1e2b2e48 _scale;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (CDStruct_912cb5d2);
 - (id);
@@ -24,15 +23,7 @@
 - (id)annelPort connectToPort:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NURegion *region; // @synthesize region=_region;
 @property CDStruct_912cb5d2 scale; // @synthesize scale=_scale;
-@property(readonly) Class superclass;
 
 @end
 

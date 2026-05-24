@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSProtoRequestDescription, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface DRSProtoEnableDataGatheringRequest
 {
     NSString *_logType;
-    DRSProtoRequestDescription *_requestDescription;
-    _Bool _isContinue;
-    struct {
-        unsigned int isContinue:1;
-    } _has;
 }
 
 - (void);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)F;
 - (_Bool);
 - (id);
 - (void);
@@ -39,12 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)t"b1"outcome"b1"requestState"b1};
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsContinue;
-@property(readonly, nonatomic) _Bool hasLogType;
 @property(readonly, nonatomic) _Bool hasRequestDescription;
-@property(nonatomic) _Bool isContinue; // @synthesize isContinue=_isContinue;
-@property(retain, nonatomic) NSString *logType; // @synthesize logType=_logType;
-@property(retain, nonatomic) DRSProtoRequestDescription *requestDescription; // @synthesize requestDescription=_requestDescription;
 
 @end
 

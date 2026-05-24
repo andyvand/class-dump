@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol AVVideoCompositionInstruction
+- (int);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsTweening;
-@property(readonly, nonatomic) _Bool enablePostProcessing;
-@property(readonly, nonatomic) int passthroughTrackID;
-@property(readonly, nonatomic) NSArray *requiredSourceSampleDataTrackIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *requiredSourceTrackIDs;
 @property(readonly, nonatomic) struct timeRange;
 @end
 

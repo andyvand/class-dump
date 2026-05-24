@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPaymentSetupProductSection
 {
     NSString *_localizedTitle;
-    NSArray *_categories;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)NULL;
 - (void);
 - (id)groupingID;
 - (void)PKPaymentSetupMoreInfoItem"8;
 - (id)¨;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *categories; // @synthesize categories=_categories;
 @property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 
 @end

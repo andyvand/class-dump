@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, PKPeerPaymentPreferencesProfileAppearance;
-
 @interface PKPeerPaymentPreferences
 {
     _Bool _requiresConfirmation;
-    _Bool _canReceiveFormalPaymentRequests;
-    _Bool _dirty;
-    NSSet *_notifications;
-    NSSet *_restrictions;
-    PKPeerPaymentPreferencesProfileAppearance *_profileAppearance;
-    NSDate *_lastUpdated;
-    double _proactiveFetchPeriod;
 }
 
 + (_Bool)0@ù
@@ -27,11 +18,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (double);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (void);
 - (void);
 - (_Bool);
@@ -43,28 +34,21 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ueFailing"b1"slowWiFiNotificationReceivedDuringStudy"b1"symptomsDnsscreenStateOn"b1};
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)1ñ%1Â0@ù
 × ;
-- (id)nstallmentPlan:(id)arg1 transactionSourceCollection:paymentDataProvider: /* Error: Ran out of types for this method. */;
+- (id)initWithInstallmentPlan:(id)arg1 transactionSourceCollection:paymentDataProvider: /* Error: Ran out of types for this method. */;
 - (void)nerHandleState",&;
-- (void)Only;
-- (id)upUseXPCProxyTargetDevice;
+- (void)restrictedFamilyOnly;
+- (id)PKPaymentSetupUseXPCProxyTargetDevice;
 
 // Remaining properties
-@property(nonatomic) _Bool canReceiveFormalPaymentRequests; // @synthesize canReceiveFormalPaymentRequests=_canReceiveFormalPaymentRequests;
-@property(nonatomic, getter=isDirty) _Bool dirty; // @synthesize dirty=_dirty;
-@property(retain, nonatomic) NSDate *lastUpdated; // @synthesize lastUpdated=_lastUpdated;
-@property(copy, nonatomic) NSSet *notifications; // @synthesize notifications=_notifications;
-@property(nonatomic) double proactiveFetchPeriod; // @synthesize proactiveFetchPeriod=_proactiveFetchPeriod;
-@property(copy, nonatomic) PKPeerPaymentPreferencesProfileAppearance *profileAppearance; // @synthesize profileAppearance=_profileAppearance;
 @property(nonatomic) _Bool requiresConfirmation; // @synthesize requiresConfirmation=_requiresConfirmation;
-@property(copy, nonatomic) NSSet *restrictions; // @synthesize restrictions=_restrictions;
 
 @end
 

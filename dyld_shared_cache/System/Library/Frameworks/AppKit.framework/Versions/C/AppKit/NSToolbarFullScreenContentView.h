@@ -6,30 +6,18 @@
 
 #import <AppKit/NSView.h>
 
-@class CALayer, NSVisualEffectView, _NSFullScreenMenuBarCompanionController;
-
 __attribute__((visibility("hidden")))
 @interface NSToolbarFullScreenContentView : NSView
 {
     double _revealProgress;
-    double _toolbarViewHeight;
-    double _sidebarDividerPosition;
-    double _trailingSidebarDividerPosition;
-    double shadowWeight;
-    _NSFullScreenMenuBarCompanionController *_companionController;
-    CALayer *_shadowLayer;
-    CALayer *opaqueBackstopLayer;
-    _Bool _needsOpaqueBackstop;
-    NSVisualEffectView *_sidebarEffectBackdrop;
-    NSVisualEffectView *_trailingSidebarEffectBackdrop;
 }
 
 + (double);
-- (_Bool);
+- (_Bool)iled to read AP ticket:%d /* Error: Ran out of types for this method. */;
+- (double)muse not set on product node;
+- (double)sQwlfROu8fcD1Qwm8YJVeg;
 - (double);
-- (double);
-- (double);
-- (double);
+- (double)R|;
 - (void);
 - (void);
 - (void);
@@ -51,24 +39,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void)ted file access should not be allowed if there is a fileURL-only accessor active;
-- (void)ibutes;
+- (void)tt_font_attributes;
 - (void)üÉC;
 
 // Remaining properties
-@property(readonly) __weak _NSFullScreenMenuBarCompanionController *companionController; // @synthesize companionController=_companionController;
-@property(nonatomic) _Bool needsOpaqueBackstop;
 @property(nonatomic) double revealProgress; // @synthesize revealProgress=_revealProgress;
-@property(nonatomic) double shadowWeight; // @synthesize shadowWeight;
-@property(nonatomic) double sidebarDividerPosition; // @synthesize sidebarDividerPosition=_sidebarDividerPosition;
-@property(nonatomic) double toolbarViewHeight; // @synthesize toolbarViewHeight=_toolbarViewHeight;
-@property(nonatomic) double trailingSidebarDividerPosition; // @synthesize trailingSidebarDividerPosition=_trailingSidebarDividerPosition;
 
 @end
 

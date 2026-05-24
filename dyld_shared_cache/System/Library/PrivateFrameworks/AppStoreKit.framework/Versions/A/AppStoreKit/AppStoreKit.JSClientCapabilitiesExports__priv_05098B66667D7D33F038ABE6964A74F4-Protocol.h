@@ -5,5 +5,6 @@
 //
 
 @protocol AppStoreKit.JSClientCapabilitiesExports__priv_05098B66667D7D33F038ABE6964A74F4
+- (_Bool)k;
 @end
 

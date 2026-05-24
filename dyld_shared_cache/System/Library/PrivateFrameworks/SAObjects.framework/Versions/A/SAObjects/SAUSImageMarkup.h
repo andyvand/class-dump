@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SAUIImageResource;
+@class SAUIImageResource;
 
 @interface SAUSImageMarkup : AceObject
 {
@@ -15,19 +15,12 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SAUIImageResource *imageResource;
-@property(readonly) Class superclass;
 
 @end
 

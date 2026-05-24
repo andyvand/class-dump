@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (Class)tions:locale:arguments: /* Error: Ran out of types for this method. */;
-- (id)rUserInfoKey;
++ (Class)initWithFormat:options:locale:arguments: /* Error: Ran out of types for this method. */;
+- (id)ErrorUserInfoKey;
 
 @end
 

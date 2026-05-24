@@ -5,5 +5,6 @@
 //
 
 @protocol USUsageTrackingAgent
+- (void);
 @end
 

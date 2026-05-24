@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSScrollView, NSString, PXExpectation, PXFeedConfiguration, PXFeedView, PXFeedViewModel, PXGViewMouseSession, PXProgrammaticNavigationDestination, PXSectionedObjectReference, PXSelectionContainer, PXUpdater, UXView;
-@protocol PXFeedActionPerformer, PXFeedChromeController, PXFeedViewControllerTabBarTransitionDelegate, PXMemoryAssetsActionFactory;
+@class PXGViewMouseSession;
 
 @interface PXFeedViewController
 {
@@ -16,19 +15,6 @@
         _Bool contextMenuForObjectReferenceInDataSourceSuggestedActions;
         _Bool deleteItemsInSelectionUndoManager;
     } _actionPerformerRespondsTo;
-    _Bool _isActive;
-    PXFeedView *_feedView;
-    PXFeedConfiguration *_configuration;
-    id <PXFeedViewControllerTabBarTransitionDelegate> _tabBarTransitionDelegate;
-    PXGViewMouseSession *_mouseSession;
-    PXFeedViewModel *_viewModel;
-    id <PXFeedChromeController> _chromeController;
-    PXUpdater *_updater;
-    id <PXFeedActionPerformer> _actionPerformer;
-    CDUnknownBlockType _onTransitionEnd;
-    PXExpectation *_nextViewDidAppearExpectation;
-    PXSectionedObjectReference *_navigatedObjectReference;
-    UXView *_placeholderView;
 }
 
 - (void);
@@ -42,9 +28,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -84,13 +70,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)v;
 - (void);
 - (void);
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (void);
@@ -108,21 +94,21 @@
 - (void);
 - (long long);
 - (id);
-- (id);
-- (void);
+- (id)willSubmitMediaExposureEvent:(id)arg1;
+- (void)r>"8;
 - (struct CGSize);
+- (id)A;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (void)delegate;
+- (void)t viewer title and accessibility label for the share button on a News article;
+- (void);
+- (id);
+- (void)r;
+- (_Bool)onPanRight;
 - (void);
 - (struct PXSimpleIndexPath);
 - (_Bool);
@@ -133,7 +119,7 @@
 - (void);
 - (id);
 - (id)ÿìÃúÿ;
-- (void)in;
+- (void)CloudPhotoLibraryErrorDomain;
 - (void) `;
 - (id)³^öþ;
 - (_Bool);
@@ -145,37 +131,7 @@
 - (void)þUNS°£?;
 
 // Remaining properties
-@property(retain, nonatomic) id <PXFeedActionPerformer> actionPerformer; // @synthesize actionPerformer=_actionPerformer;
-@property(readonly, nonatomic) id <PXFeedChromeController> chromeController; // @synthesize chromeController=_chromeController;
-@property(readonly, nonatomic) PXFeedConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PXFeedView *feedView; // @synthesize feedView=_feedView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<PXMemoryAssetsActionFactory>",?,R,N
-
 @property(retain, nonatomic) PXGViewMouseSession *mouseSession; // @synthesize mouseSession=_mouseSession;
-@property(retain, nonatomic) PXSectionedObjectReference *navigatedObjectReference; // @synthesize navigatedObjectReference=_navigatedObjectReference;
-@property(retain, nonatomic) PXExpectation *nextViewDidAppearExpectation; // @synthesize nextViewDidAppearExpectation=_nextViewDidAppearExpectation;
-@property(copy, nonatomic) CDUnknownBlockType onTransitionEnd; // @synthesize onTransitionEnd=_onTransitionEnd;
-@property(retain, nonatomic) UXView *placeholderView; // @synthesize placeholderView=_placeholderView;
-@property(readonly, nonatomic) NSScrollView *ppt_scrollView;
-@property(readonly, nonatomic) PXProgrammaticNavigationDestination *px_navigationDestination;
-@property(readonly, nonatomic) PXSelectionContainer *selectionContainer;
-@property(nonatomic) __weak id sourceForDraggingSession;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,W,N
-
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <PXFeedViewControllerTabBarTransitionDelegate> tabBarTransitionDelegate; // @synthesize tabBarTransitionDelegate=_tabBarTransitionDelegate;
-@property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
-@property(readonly, nonatomic) PXFeedViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

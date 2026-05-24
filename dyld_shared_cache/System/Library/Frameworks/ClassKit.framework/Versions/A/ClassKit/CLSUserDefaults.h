@@ -10,17 +10,17 @@
 @interface CLSUserDefaults
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CLSEndpointConnection *_endpointConnection;
 }
 
-+ (id);
-+ (Class);
++ (id)NE Analytics] Group table must be stored prior to Group Info.;
++ (Class);
 + (id);
 + (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)NEServicesIn:(id)arg1 %s programHanlde:(CDUnknownBlockType)arg2 0x%llx, transactionId:%llx, statusType:0x%x, status:0x%x
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

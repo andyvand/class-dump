@@ -7,7 +7,6 @@
 @interface Vision.ErrorReportingOperation
 {
     id error;
-    id request;
 }
 
 @end

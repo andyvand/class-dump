@@ -6,57 +6,42 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPAppleMusicTVShowMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
-+ (id);
++ (id)snapshotWithGUID:interfaceStyle:dataURL: /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (id)swipeToReplyLayoutOffset;
+- (void)subdataWithRange:(id)arg1;
+- (id)stopCheckingRecipientAvailabilityAndRemoveAllTimers;
+- (id)stopCachingImagesForAssets:(id)arg1 targetSize:contentMode:options: /* Error: Ran out of types for this method. */;
+- (id)stopAnimationWithSendAnimationContext:(id)arg1;
+- (void)stk_renderBakedInRepIfNecessaryWithCompletion:(id)arg1;
+- (_Bool)sizeThatFits:(id)arg1 attributedText:maximumNumberOfLines:lineBreakMode:textContainerInsets:outTextAlignmentInsets:outIsSingleLine: /* Error: Ran out of types for this method. */;
+- (void)shouldShowKeyboardSuggestionForInitiator:(CDUnknownBlockType)arg1 andReceiver:completion: /* Error: Ran out of types for this method. */;
+- (id)shouldDrawOverNavigationBar;
+- (void)U	;
 - (id);
 - (void);
+- (id)application:(id)arg1 didFailToRegisterForRemoteNotificationsWithError: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)!ÌBù°1Â0@ù
 × ;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

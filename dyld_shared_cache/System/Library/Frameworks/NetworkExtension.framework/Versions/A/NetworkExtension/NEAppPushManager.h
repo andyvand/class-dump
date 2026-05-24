@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfiguration, NEConfigurationManager, NSArray, NSDictionary, NSString;
-@protocol NEAppPushDelegate;
-
 @interface NEAppPushManager
 {
     _Bool _active;
-    _Bool _hasLoaded;
-    id <NEAppPushDelegate> _delegate;
-    NEConfigurationManager *_configurationManager;
-    NEConfiguration *_configuration;
-    void *_nesmConnection;
 }
 
 + (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (void)j;
 - (void);
 - (void);
 - (void);
@@ -37,22 +21,22 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)%p;
+- (void);
+- (void);
+- (id)changes;
+- (id)h;
+- (id);
+- (_Bool);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void)dVersion;
+- (void)pidVersion;
 
 // Remaining properties
 @property(getter=isActive) _Bool active; // @synthesize active=_active;
-@property __weak id <NEAppPushDelegate> delegate; // @synthesize delegate=_delegate;
-@property(getter=isEnabled) _Bool enabled;
-@property(copy) NSString *localizedDescription;
-@property _Bool matchEthernet;
-@property(copy) NSArray *matchPrivateLTENetworks;
-@property(copy) NSArray *matchSSIDs;
-@property(copy) NSString *providerBundleIdentifier;
-@property(copy) NSDictionary *providerConfiguration;
 
 @end
 

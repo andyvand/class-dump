@@ -6,22 +6,17 @@
 
 #import <AppKit/NSCell.h>
 
-@class NSImage;
-
 @interface NSBrowserCell : NSCell
 {
     _Bool _branchImageEnabled;
 }
 
 + (id);
-+ (id);
++ (id)nown certifying authority.;
 + (void);
 
 // Remaining properties
-@property(retain) NSImage *alternateImage;
-@property(retain) NSImage *image;
 @property(getter=isLeaf) _Bool leaf;
-@property(getter=isLoaded) _Bool loaded;
 
 @end
 

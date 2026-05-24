@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryBrowser, NSMutableSet, NSObject, NSString;
-@protocol HAP2StorageDelegate, HAPKeyStore, OS_dispatch_queue;
+@protocol HAP2StorageDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDHAP2Storage
 {
     id <HAP2StorageDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HAPKeyStore> _storage;
-    NSMutableSet *_registeredIdentifiers;
-    HMDAccessoryBrowser *_accessoryBrowser;
 }
 
 - (void);
@@ -26,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (void);
 - (void);
@@ -39,14 +34,7 @@ __attribute__((visibility("hidden")))
 - (void)sory found for: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <HAP2StorageDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (long long);
-- (id);
-- (void);
+- (void)n"b1"useCase"b1"externalPartner"b1"genAIAgentUsed"b1};
+- (long long)aFLActionEvaluationFailed";
+- (id)WEntityContext";
+- (void)hemaFLOWLocationAccessPermissionPromptEnded";
 - (id);
 
 @end

@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatPuzzleType
 {
     id identifier;
-    id _overrides;
-    id _selectors;
-    id _properties;
 }
 
 @end

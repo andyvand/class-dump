@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDLogicalDeviceContext, CKDXPCConnection;
-@protocol CKXPCLogicalDeviceScopedClient;
-
 @interface CKDLogicalDeviceScopedClientProxy
 {
     _Bool _hasBeenThrottled;
-    int _pid;
-    CKDXPCConnection *_clientConnection;
-    id <CKXPCLogicalDeviceScopedClient> _logicalDeviceScopedClientProxyCreator;
-    CKDLogicalDeviceContext *_deviceContext;
 }
 
 - (id);
@@ -21,29 +14,25 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_parentLabel;
+- (id)wConfidenceSettlementTime;
 - (id);
-- (id);
-- (void);
+- (void)registerActivityObserver:(_Bool)arg1 completion:(CDUnknownBlockType)arg2;
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (_Bool)tAccountStatus: /* Error: Ran out of types for this method. */;
-- (id)ptedAsset;
+- (_Bool)setAccountStatus: /* Error: Ran out of types for this method. */;
+- (id)_encryptedAsset;
 - (id)h[;
 - (void)gnature is necessary;
 - (id)Sources/CloudKitTools/Sources/CloudKitDaemon/ProtectedCloudStorage/CKDPCSIdentityManager.m;
-- (void)pabilitiesEvenIfUnchanged;
+- (void)SendDeviceCapabilitiesEvenIfUnchanged;
 - (void)a cached MMCS wrapper %@ at path %{public}@ count %lld;
 - (void)¯D;
 
 // Remaining properties
-@property(nonatomic) __weak CKDXPCConnection *clientConnection; // @synthesize clientConnection=_clientConnection;
-@property(retain, nonatomic) CKDLogicalDeviceContext *deviceContext; // @synthesize deviceContext=_deviceContext;
-@property _Bool hasBeenThrottled; // @synthesize hasBeenThrottled=_hasBeenThrottled;
-@property(retain, nonatomic) id <CKXPCLogicalDeviceScopedClient> logicalDeviceScopedClientProxyCreator; // @synthesize logicalDeviceScopedClientProxyCreator=_logicalDeviceScopedClientProxyCreator;
 @property(nonatomic) int pid; // @synthesize pid=_pid;
 
 @end

@@ -9,12 +9,10 @@
 @interface PTEditFloatRow : PTSRow
 {
     unsigned long long _precision;
-    double _minValue;
-    double _maxValue;
 }
 
 + (_Bool);
-- (id);
+- (id)!$;
 - (id);
 - (id);
 - (id);
@@ -23,7 +21,7 @@
 - (double);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ceprint"8Q16^B24;
 - (void);
 - (id);
 - (void);
@@ -31,8 +29,6 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double maxValue; // @synthesize maxValue=_maxValue;
-@property(nonatomic) double minValue; // @synthesize minValue=_minValue;
 @property(nonatomic) unsigned long long precision; // @synthesize precision=_precision;
 
 @end

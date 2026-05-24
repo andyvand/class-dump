@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSArray, NSString, NSURL;
+@class NSArray;
 
 @interface SAVCSContentShelf : SAAceView
 {
@@ -29,10 +29,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contentHead;
-@property(copy, nonatomic) NSArray *fetchMoreResultsCommands;
-@property(nonatomic) long long preSelectedItem;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSURL *url;
 
 @end
 

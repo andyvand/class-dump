@@ -9,12 +9,11 @@
 @interface USSOpenURLRequest
 {
     NSArray *_urls;
-    NSArray *_sceneIdentifiers;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -23,10 +22,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void).;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *sceneIdentifiers; // @synthesize sceneIdentifiers=_sceneIdentifiers;
 @property(retain, nonatomic) NSArray *urls; // @synthesize urls=_urls;
 
 @end

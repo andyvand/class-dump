@@ -6,87 +6,33 @@
 
 #import <CoreBrightness/CBDisplayModule.h>
 
-@class AABCHistograms, CBAmmolite, CBAppliedCompensations, CBAurora, CBBacklightNode, CBEDR, CBFrameInfoProvider, CBGammaContrastPreservation, CBIndicatorBrightnessModule, CBRampManager, CBSBIM, CBTwilight, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol CBBrightnessProxy, OS_dispatch_source;
+@class CBBacklightNode;
 
 __attribute__((visibility("hidden")))
 @interface CBDisplayModuleiOS : CBDisplayModule
 {
     float _trustedLux;
-    id <CBBrightnessProxy> _brtCtl;
-    CBAurora *_aurora;
-    CBTwilight *_twilight;
-    CBAmmolite *_ammolite;
-    CBGammaContrastPreservation *_gcp;
-    CBIndicatorBrightnessModule *_indicatorBrightnessModule;
-    NSMutableArray *_subModules;
-    float _minNits;
-    float _midNits;
-    float _maxNits;
-    float _maxNitsEDR;
-    float _maxNitsPanel;
-    float _nitsSDR;
-    float _dynSliderCap;
-    float _currentCapToCA;
-    _Bool _capToCAIsRamping;
-    _Bool _blrEnabled;
-    _Bool _harmonyEnabled;
-    CBEDR *_edr;
-    CBSBIM *_sbim;
-    float _sbimEDRThreshold;
-    float _appliedHeadroom;
-    float _requestedHeadroom;
-    _Bool _referenceModeIsActive;
-    id _lastEDRHeadroomRequestFromCA;
-    unsigned long long _edrState;
-    _Bool _brightnessControlEnabled;
-    CBAppliedCompensations *_appliedCompensations;
-    _Bool _ecoMode;
-    _Bool _dominoMode;
-    _Bool _autoDimActive;
-    _Bool _displayRequiresBDM;
-    float _lastBDMLux;
-    float _bdmLux1;
-    float _bdmLux2;
-    NSObject<OS_dispatch_source> *_apceTimer;
-    _Bool _rtplcCapApplied;
-    float _currentRTPLCTarget;
-    float _rtplcCap;
-    float _rtplcTripMaxBrightness;
-    unsigned long long _rtplcState;
-    unsigned long long _transactionID;
-    NSMutableDictionary *_pendingCommitedTransactions;
-    CBFrameInfoProvider *_frameInfoProvider;
-    CBRampManager *_rampManager;
-    NSMutableArray *_cachedProperties;
-    NSMutableArray *_cachedKeys;
-    _Bool _brightnessIsUnderAutoDimThresholdCurrentValue;
-    _Bool _aliasingMitigationActive;
-    AABCHistograms *_analyticsHist;
-    long long _analyticsPeriodicSender;
-    struct __Display *_displayInternal;
-    CBBacklightNode *_backlightParams;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)'1E;
 - (void);
 - (id);
 - (id);
+- (void)B'(;
+- (void);
+- (void));
+- (void);
 - (void);
 - (void);
+- (id)MachineLearningVideoNoiseReductionConfiguration;
+- (id);
 - (void);
+- (void);
+- (void))KE;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -94,34 +40,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (float);
 - (id);
-- (void);
+- (void)w;
 - (_Bool);
 - (float);
 - (float);
 - (_Bool);
-- (const char *);
+- (const char *);
 - (id);
-- (struct __Display *);
+- (struct __Display *)R;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)�;
 - (const char *)Á*!°Eùñ×-°1Â0@ù
 × ;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) float appliedCompensation;
 @property(readonly) CBBacklightNode *backlightParams; // @synthesize backlightParams=_backlightParams;
-@property(readonly, nonatomic) float compensatedSDRNits;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) struct __Display *displayInternal; // @synthesize displayInternal=_displayInternal;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

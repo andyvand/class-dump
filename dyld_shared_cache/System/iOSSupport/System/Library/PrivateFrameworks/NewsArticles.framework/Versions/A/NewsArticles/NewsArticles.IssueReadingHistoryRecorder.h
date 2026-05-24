@@ -7,8 +7,6 @@
 @interface NewsArticles.IssueReadingHistoryRecorder
 {
     id issueReadingHistory;
-    id articleReadingHistory;
-    id configurationManager;
 }
 
 @end

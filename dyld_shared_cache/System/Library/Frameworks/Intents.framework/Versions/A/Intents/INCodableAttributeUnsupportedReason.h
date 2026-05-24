@@ -14,34 +14,33 @@
 }
 
 + (_Bool);
-+ (id)ntityType:(id)arg1 entityName:(id *)arg2 propertyName:qualifier: /* Error: Ran out of types for this method. */;
++ (id)initWithEntityType:(id)arg1 entityName:(id *)arg2 propertyName:qualifier: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)_GCDefaultDeviceManager;
+- (id);
+- (id)al;
+- (id);
+- (id);
+- (unsigned long long)0;
+- (id);
+- (id){;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool),N;
+- (void)Directory.kPthP0/Sources/CoreWiFi/Framework/CWFWiFiUserAgent.m;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id)Ô ;
-- (void)ationName;
-- (id)ributeINTypePropertySupportsDynamicEnumeration;
+- (void)stationName;
+- (id)__INCodableAttributeINTypePropertySupportsDynamicEnumeration;
 - (void);
 - (void)$;
 - (id)´ÞÿÅ Pó;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *code; // @synthesize code=_code;
-@property(readonly, copy, nonatomic) NSString *predicateFormat;
 
 @end
 

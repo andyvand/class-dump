@@ -5,5 +5,6 @@
 //
 
 @protocol AMSMetricsRegexCacheProtocol
+- (id);
 @end
 

@@ -7,7 +7,6 @@
 @interface TeaUI.TipSourceManager
 {
     id sourceViewController;
-    id tipManager;
 }
 
 @end

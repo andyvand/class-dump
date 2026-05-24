@@ -6,17 +6,16 @@
 
 #import <HomeKitDaemon/_MKFBulletinRegistration.h>
 
-@class MKFCameraSignificantEventBulletinRegistrationDatabaseID, NSArray, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFAccessory, MKFGuest, MKFHome, MKFUser;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _MKFCameraSignificantEventBulletinRegistration : _MKFBulletinRegistration
 {
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)P;
 - (_Bool);
 - (id);
 - (id);
@@ -24,26 +23,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFAccessory> accessory; // @dynamic accessory;
-@property(readonly, retain, nonatomic) NSArray *conditions;
-@property(readonly, copy, nonatomic) MKFCameraSignificantEventBulletinRegistrationDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *deviceIdsDestination;
-@property(copy, nonatomic) NSUUID *deviceIdsIdentifier;
-@property(retain, nonatomic) id <MKFGuest> guest;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
 @property(copy, nonatomic) NSNumber *notificationModes; // @dynamic notificationModes;
-@property(copy, nonatomic) NSNumber *personFamiliarityOptions; // @dynamic personFamiliarityOptions;
-@property(copy, nonatomic) NSNumber *significantEventTypes; // @dynamic significantEventTypes;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFUser> user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

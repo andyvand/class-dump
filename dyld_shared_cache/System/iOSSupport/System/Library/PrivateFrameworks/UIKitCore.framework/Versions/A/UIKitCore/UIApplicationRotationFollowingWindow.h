@@ -14,7 +14,7 @@
 
 + (_Bool)0@ù
 × ;
-- (void);
+- (void)x %lu data of length %lu errorCode %lu;
 - (_Bool);
 - (void);
 - (id);
@@ -28,7 +28,7 @@
 - (_Bool);
 - (void);
 - (long long);
-- (id);
+- (id)c;
 - (id);
 - (id)Response;
 - (id);ÚD[;

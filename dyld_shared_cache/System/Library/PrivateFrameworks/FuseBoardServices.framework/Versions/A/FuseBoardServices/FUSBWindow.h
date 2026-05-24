@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FUSBProcess;
-
 @interface FUSBWindow
 {
     unsigned int _windowID;
-    unsigned int _displayID;
-    unsigned int _contentState;
-    FUSBProcess *_owner;
 }
 
 - (void);
 - (unsigned int);
 - (void);
-- (id);
+- (id)_TtC20PhotoLibraryServices30PLAssetResourceUploadWorkItems;
 - (void);
 - (id);
 - (unsigned int);
 - (void);
 - (id);
-- (id);
-- (unsigned int);
-- (void);
+- (id)$M$?/J(M(M;
+- (unsigned int)antiscorbutic;
+- (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int contentState; // @synthesize contentState=_contentState;
-@property(nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
-@property(nonatomic) __weak FUSBProcess *owner; // @synthesize owner=_owner;
 @property(readonly, nonatomic) unsigned int windowID; // @synthesize windowID=_windowID;
 
 @end

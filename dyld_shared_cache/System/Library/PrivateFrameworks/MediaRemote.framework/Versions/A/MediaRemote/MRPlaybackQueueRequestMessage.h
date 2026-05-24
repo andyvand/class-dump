@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRPlaybackQueueRequest, MRPlayerPath;
+@class MRPlaybackQueueRequest;
 
 @interface MRPlaybackQueueRequestMessage : MRProtocolMessage
 {
@@ -14,11 +14,10 @@
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)recoveredMessagesForChatsAndQueryID;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MRPlayerPath *playerPath;
 @property(readonly, nonatomic) MRPlaybackQueueRequest *request;
 
 @end

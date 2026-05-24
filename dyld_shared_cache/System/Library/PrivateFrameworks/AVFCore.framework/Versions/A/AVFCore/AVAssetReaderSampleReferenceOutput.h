@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)TKTokenConfiguration;
 
 // Remaining properties
 @property(readonly, nonatomic) AVAssetTrack *track;

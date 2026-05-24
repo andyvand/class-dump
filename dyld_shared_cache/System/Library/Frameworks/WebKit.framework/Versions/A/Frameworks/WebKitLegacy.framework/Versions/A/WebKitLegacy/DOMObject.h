@@ -12,9 +12,9 @@
 }
 
 - (id);
-- (void);
+- (void)c}@;
 - (id);
-- (id);
+- (id)setNotificationURLString:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(readonly) DOMStyleSheet *sheet;

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, NSURL;
+@class NSURL;
 
 @interface PXPeopleBootstrapPreviewItem
 {
     NSURL *_previewItemURL;
-    NSString *_previewItemTitle;
-    NSIndexPath *_indexPath;
 }
 
 + (id);
@@ -22,20 +20,7 @@
 - (void)LemonadeAssetCollectionCurationKind;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly) id previewItemDisplayState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R
-
-@property(readonly, nonatomic) NSString *previewItemTitle; // @synthesize previewItemTitle=_previewItemTitle;
 @property(readonly, nonatomic) NSURL *previewItemURL; // @synthesize previewItemURL=_previewItemURL;
-@property(readonly) Class superclass;
 
 @end
 

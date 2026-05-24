@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUINamedImageDescription
 {
     double _scale;
-    long long _idiom;
-    long long _subtype;
-    long long _sizeClassHorizontal;
-    long long _sizeClassVertical;
-    long long _displayGamut;
-    long long _layoutDirection;
-    int _blendMode;
-    long long _templateRenderingMode;
-    long long _imageType;
-    CDStruct_3c058996 _edgeInsets;
-    CDStruct_3c058996 _alignmentEdgeInsets;
-    long long _resizingMode;
-    int _exifOrientation;
-    NSString *_appearanceName;
 }
 
 - (CDStruct_3c058996);
@@ -35,13 +19,13 @@
 - (id);
 - (id);
 - (int);
-- (double);
+- (double);
 - (long long);
 - (void);
 - (void);
-- (long long);
+- (long long)while counting asset cache items, check your syslog %@;
 - (int);
-- (void);
+- (void)ingSystemTaskRequestClass(void)_block_invoke;
 - (long long);
 - (void);
 - (_Bool);
@@ -57,26 +41,11 @@
 - (void);
 - (long long)¬PÐ&;
 - (void)reading '%s';
-- (void)dInsetID;
+- (void)kCoreThemeButtonRoundInsetID;
 - (long long);
 
 // Remaining properties
-@property(nonatomic) CDStruct_3c058996 alignmentEdgeInsets; // @synthesize alignmentEdgeInsets=_alignmentEdgeInsets;
-@property(copy, nonatomic) NSString *appearanceName; // @synthesize appearanceName=_appearanceName;
-@property(nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
-@property(nonatomic) long long displayGamut; // @synthesize displayGamut=_displayGamut;
-@property(nonatomic) CDStruct_3c058996 edgeInsets; // @synthesize edgeInsets=_edgeInsets;
-@property(nonatomic) int exifOrientation; // @synthesize exifOrientation=_exifOrientation;
-@property(nonatomic) long long idiom; // @synthesize idiom=_idiom;
-@property(nonatomic) long long imageType; // @synthesize imageType=_imageType;
-@property(nonatomic) _Bool isTemplate;
-@property(nonatomic) long long layoutDirection; // @synthesize layoutDirection=_layoutDirection;
-@property(nonatomic) long long resizingMode; // @synthesize resizingMode=_resizingMode;
 @property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) long long sizeClassHorizontal; // @synthesize sizeClassHorizontal=_sizeClassHorizontal;
-@property(nonatomic) long long sizeClassVertical; // @synthesize sizeClassVertical=_sizeClassVertical;
-@property(nonatomic) long long subtype; // @synthesize subtype=_subtype;
-@property(nonatomic) long long templateRenderingMode; // @synthesize templateRenderingMode=_templateRenderingMode;
 
 @end
 

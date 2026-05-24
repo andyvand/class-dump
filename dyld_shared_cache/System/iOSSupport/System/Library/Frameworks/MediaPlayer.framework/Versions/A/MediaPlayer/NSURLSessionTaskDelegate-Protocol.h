@@ -10,7 +10,7 @@
 
 @optional
 - (void)32@?<v@?@"NSCachedURLResponse">40;
-- (void)nimatedArtworkCatalogBlock;
+- (void)animatedArtworkCatalogBlock;
 - (void)roupingType:(NSURLSession *)arg1 ];
 - (void)ÜÅ#Ñ÷(!Íò7gØÿèHÞö3W#ç+ì&:(NSURLSession *)arg1 þÎ¨bJ¯iPtGN0MhÏ|(;
 @end

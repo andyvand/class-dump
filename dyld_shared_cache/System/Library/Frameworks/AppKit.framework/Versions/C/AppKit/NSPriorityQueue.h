@@ -10,19 +10,18 @@ __attribute__((visibility("hidden")))
 @interface NSPriorityQueue
 {
     NSMutableArray *_objects;
-    CDUnknownBlockType _comparator;
 }
 
-- (void);
-- (void);
+- (void);
+- (void);;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (long long);
-- (id);
+- (long long)@;
+- (id)@;
 - (void);
 - (id);
 - (void);
@@ -32,13 +31,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (void)derIndexPath;
+- (void)_firstResponderIndexPath;
 - (id)ntsSolariumAppearance;
 - (void)à2Øo;
 - (void);
 - (_Bool)d;
-- (id)onLeftInset;
-- (unsigned long long)icationSwitch;
+- (id)CloseButtonLeftInset;
+- (unsigned long long)_NSQuickActionTouchBarPopoverDismissesOnApplicationSwitch;
 - (void);
 - (id)D;
 - (id)ÄôD;

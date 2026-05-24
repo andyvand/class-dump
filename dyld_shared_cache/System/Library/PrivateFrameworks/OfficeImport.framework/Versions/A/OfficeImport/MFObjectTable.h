@@ -10,19 +10,18 @@ __attribute__((visibility("hidden")))
 @interface MFObjectTable
 {
     NSMutableArray *m_objects;
-    unsigned int m_maximumSize;
 }
 
 - (int);
-- (int);
+- (int);
 - (unsigned int);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)initWithFeatureId:opportunityEvent:conversionEvent:registerProperties: /* Error: Ran out of types for this method. */;
 - (int);
 - (int);
 - (void);
-- (unsigned int);
+- (unsigned int)hasBackupKeybagLRCFedSHA256;
 - (void);
 
 // Remaining properties

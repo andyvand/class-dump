@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLPRLicensePlateStructure, NSMutableArray, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOLPRLicensePlateInfo
 {
     PBDataReader *_reader;
-    GEOLPRLicensePlateStructure *_licensePlateStructure;
-    NSMutableArray *_powerTypeKeys;
-    NSMutableArray *_vehicleTypeKeys;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_licensePlateStructure:1;
-        unsigned int read_powerTypeKeys:1;
-        unsigned int read_vehicleTypeKeys:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (Class);
-+ (_Bool)LatencyInMs:(id)arg1;
++ (Class)flat-map.resource;
++ (_Bool)setHasSearchEnrichmentFpdiLatencyInMs:(id)arg1;
 - (unsigned long long);
 - (id);
 - (void);
@@ -34,34 +22,31 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id)h;
+- (_Bool)6@"NSArray"24^@32;
+- (void)sGranted;
+- (void)objectsForKeys: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id)ue"8@"NSValue"16;
+- (void);
+- (id);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)alyzerDelegate>";
+- (id)enableSelfTrigger;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 - (_Bool);
 - (id);
 - (void);
-- (id)mitEnabled:(struct _NSZone *)arg1;
-- (id)eLookAroundView;
+- (id)setMapSettingsSpeedLimitEnabled:(struct _NSZone *)arg1;
+- (id)GEOLogMsgStateLookAroundView;
 - (id)mnc <= 999;
 - (id)Ä¼;
 - (void)"}4;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLicensePlateStructure;
-@property(retain, nonatomic) GEOLPRLicensePlateStructure *licensePlateStructure;
-@property(retain, nonatomic) NSMutableArray *powerTypeKeys;
 @property(retain, nonatomic) NSMutableArray *vehicleTypeKeys;
 
 @end

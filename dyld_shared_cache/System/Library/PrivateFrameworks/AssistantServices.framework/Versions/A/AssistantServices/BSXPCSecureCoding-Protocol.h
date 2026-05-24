@@ -5,5 +5,6 @@
 //
 
 @protocol BSXPCSecureCoding
+- (void)TEXT_EFFECT_SOMERSAULT;
 @end
 

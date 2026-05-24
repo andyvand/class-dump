@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     long long _originalSectionIndex;
 }
 
-- (void);
+- (void)";
 - (id)Ð1Â0@ù
 × ;
-- (long long)ion;
+- (long long)UIAccessibilityAssistiveTouchStatusDidChangeNotification;
 - (void)H\9ÿ°ð;
 
 // Remaining properties

@@ -17,14 +17,13 @@
 - (struct CGSize);
 - (struct CGSize);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize)P;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void)visibilityProvider;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize artworkSize;
 @property(retain, nonatomic) UIImageView *trackImageView; // @synthesize trackImageView=_trackImageView;
 
 @end

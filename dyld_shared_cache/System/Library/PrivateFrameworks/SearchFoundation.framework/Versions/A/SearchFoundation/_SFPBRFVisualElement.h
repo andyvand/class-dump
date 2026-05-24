@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFImageElement;
+@class _SFPBRFImageElement;
 
 @interface _SFPBRFVisualElement
 {
     _SFPBRFImageElement *_image_element;
-    unsigned long long _whichElement;
 }
 
 - (unsigned long long);
@@ -17,26 +16,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)l_;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)resetCharacterRecognitionAttributes;
+- (id)chResults:%tu isActive:%d authorized:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _SFPBRFImageElement *image_element; // @synthesize image_element=_image_element;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long whichElement; // @synthesize whichElement=_whichElement;
 
 @end
 

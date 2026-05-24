@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AssistantPopoverResultsCollectionView, AssistantPopoverResultsCollectionViewLayout, AssistantPopoverViewController, NSArray, NSCollectionViewDiffableDataSource, NSIndexSet, NSLayoutConstraint, NSScrollView;
-@protocol AssistantPopoverViewControllerDelegate;
+@class AssistantPopoverViewController, NSCollectionViewDiffableDataSource;
 
 __attribute__((visibility("hidden")))
 @interface AssistantPopoverResultsCollectionViewController
 {
     NSCollectionViewDiffableDataSource *_resultsCollectionViewDataSource;
-    AssistantPopoverResultsCollectionView *_resultsCollectionView;
-    NSScrollView *_resultsScrollView;
-    NSArray *_resultCollectionViewSections;
-    NSLayoutConstraint *_resultsCollectionViewInitialHeight;
-    AssistantPopoverResultsCollectionViewLayout *_resultsCollectionViewLayout;
-    NSIndexSet *_rowActionCellTypes;
-    NSIndexSet *_platteredCustomCellTypes;
-    NSIndexSet *_nonPlatteredCustomCellTypes;
-    AssistantPopoverViewController *_popoverController;
-    id <AssistantPopoverViewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -41,8 +30,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)!;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -53,7 +42,6 @@ __attribute__((visibility("hidden")))
 - (void)üð;
 
 // Remaining properties
-@property(nonatomic) __weak id <AssistantPopoverViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) __weak AssistantPopoverViewController *popoverController; // @synthesize popoverController=_popoverController;
 
 @end

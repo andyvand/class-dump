@@ -6,26 +6,17 @@
 
 #import <MapKit/MKPlaceSectionRowView.h>
 
-@class MKPlaceAttributionCellButton, NSArray, NSLayoutConstraint, UITapGestureRecognizer, _MKUILabel;
-@protocol MKPlaceAttributionCellDelegate;
+@class NSArray, _MKUILabel;
 
 @interface MKPlaceAttributionCell : MKPlaceSectionRowView
 {
     NSArray *_visibleConstraints;
-    NSLayoutConstraint *_collapsedConstraint;
-    _Bool _highlighted;
-    _MKUILabel *_label;
-    MKPlaceAttributionCellButton *_labelButton;
-    NSLayoutConstraint *_labelBaselineToTop;
-    NSLayoutConstraint *_labelLastBaselineToBottom;
-    id <MKPlaceAttributionCellDelegate> _cellDelegate;
-    UITapGestureRecognizer *_selectGestureRecognizer;
 }
 
 + (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)k@;
 - (void);
 - (id);
 - (id);
@@ -34,26 +25,21 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (id);
+- (void);
+- (void)qA;
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void)16;
-- (void)sult: /* Error: Ran out of types for this method. */;
+- (void)buildRouteAttributes:result: /* Error: Ran out of types for this method. */;
 - (_Bool)"NSURL",R,N;
 
 // Remaining properties
-@property(nonatomic) __weak id <MKPlaceAttributionCellDelegate> cellDelegate; // @synthesize cellDelegate=_cellDelegate;
 @property(retain, nonatomic) _MKUILabel *label; // @synthesize label=_label;
-@property(retain, nonatomic) NSLayoutConstraint *labelBaselineToTop; // @synthesize labelBaselineToTop=_labelBaselineToTop;
-@property(retain, nonatomic) MKPlaceAttributionCellButton *labelButton; // @synthesize labelButton=_labelButton;
-@property(retain, nonatomic) NSLayoutConstraint *labelLastBaselineToBottom; // @synthesize labelLastBaselineToBottom=_labelLastBaselineToBottom;
-@property(retain, nonatomic) UITapGestureRecognizer *selectGestureRecognizer; // @synthesize selectGestureRecognizer=_selectGestureRecognizer;
 
 @end
 

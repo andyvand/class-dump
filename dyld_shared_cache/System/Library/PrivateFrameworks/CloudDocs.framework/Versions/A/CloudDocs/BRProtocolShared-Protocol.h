@@ -4,8 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSFileHandle, NSString;
+
 @protocol BRProtocolShared
-- (void)ly:(unsigned long long)arg1;
-- (void)c_appContainerID;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)qA;
+- (void)h*;
+- (void)(;
+- (void)c;
+- (void)setInferenceFrameDataSerialization:(_Bool)arg1;
+- (void)e:(NSFileHandle *)arg1 osSizeTracking:(NSString *)arg2 error:(void (^)(_Bool, NSError *))arg3;
+- (void)_buildClassificationClasses:(NSString *)arg1 topk:(_Bool)arg2 error:(void (^)(NSURL *, NSData *, NSString *, NSError *))arg3;
+- (void)ame;
+- (void);
+- (void)9);
+- (void)(;
+- (void)getTotalApplicationDocumentUsageWithReply:(unsigned long long)arg1;
+- (void)brc_appContainerID;
 @end
 

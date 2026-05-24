@@ -6,15 +6,12 @@
 
 #import <GeoServices/GEOAbstractTicket.h>
 
-@class GEOMapServiceTraits, GEOSpatialLookupBatchRequest, GEOSpatialLookupBatchResponse, NSArray, NSMapTable, NSString;
+@class GEOMapServiceTraits, GEOSpatialLookupBatchRequest;
 
 __attribute__((visibility("hidden")))
 @interface _GEOBatchSpatialLookupTicket : GEOAbstractTicket
 {
     GEOSpatialLookupBatchRequest *_request;
-    GEOSpatialLookupBatchResponse *_response;
-    NSArray *_parameters;
-    NSMapTable *_parametersToMapItems;
 }
 
 - (void);
@@ -22,20 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDStruct_d1a7ebee)þo.;
+- (CDStruct_026435ec)þo.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end

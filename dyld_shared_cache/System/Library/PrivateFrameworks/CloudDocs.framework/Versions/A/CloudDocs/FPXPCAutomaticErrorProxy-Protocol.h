@@ -5,6 +5,7 @@
 //
 
 @protocol FPXPCAutomaticErrorProxy
+- (id);
 
 // Remaining properties
 @property unsigned long long timeoutState;

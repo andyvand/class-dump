@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSString;
 
 @interface _KSTextReplacementManagedObject
 {
@@ -12,12 +12,6 @@
 
 
 // Remaining properties
-@property(nonatomic) _Bool needsSaveToCloud; // @dynamic needsSaveToCloud;
 @property(retain, nonatomic) NSString *phrase; // @dynamic phrase;
-@property(retain, nonatomic) NSData *remoteRecordInfo; // @dynamic remoteRecordInfo;
-@property(retain, nonatomic) NSString *shortcut; // @dynamic shortcut;
-@property(retain, nonatomic) NSDate *timestamp; // @dynamic timestamp;
-@property(retain, nonatomic) NSString *uniqueName; // @dynamic uniqueName;
-@property(nonatomic) _Bool wasDeleted; // @dynamic wasDeleted;
 @end
 

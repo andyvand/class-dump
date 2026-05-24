@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSValue;
 @protocol NSObject;
 
 @interface NSAccessibilityCustomChooserItemResult
 {
     id <NSObject> _targetElement;
-    NSValue *_targetRange;
-    NSString *_descriptionOverride;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)set_CTDataConnectionServiceType:(id)arg1;
+- (id)eason(%d) bytes written(%c);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *descriptionOverride; // @synthesize descriptionOverride=_descriptionOverride;
 @property(nonatomic) __weak id <NSObject> targetElement;
-@property(retain, nonatomic) NSValue *targetRange; // @synthesize targetRange=_targetRange;
 
 @end
 

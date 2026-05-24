@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
 @protocol AVMobileAuxiliaryControlDelegate;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileAuxiliaryControl
 {
     id <AVMobileAuxiliaryControlDelegate> _delegate;
-    _Bool _included;
-    long long _displayPriority;
-    NSString *_identifier;
-    UIView *_controlView;
-    long long _style;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)gnss_preprocessor_only_scales_vendor_reported_measurement_uncertainty;
++ (id)setObject:(id)arg1 forKeyedSubscript:(long long)arg2;
 - (long long);
 - (_Bool);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (long long);
 - (void);
-- (id);
-- (void);
+- (id)://www.icloud.com/mail_resources/app_icons/pages.png /* Error: Ran out of types for this method. */;
+- (void)contentsOfDirectoryAtURL:(_Bool)arg1 includingPropertiesForKeys:options:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)[Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *controlView; // @synthesize controlView=_controlView;
 @property(nonatomic) __weak id <AVMobileAuxiliaryControlDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) long long displayPriority; // @synthesize displayPriority=_displayPriority;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
 
 @end
 

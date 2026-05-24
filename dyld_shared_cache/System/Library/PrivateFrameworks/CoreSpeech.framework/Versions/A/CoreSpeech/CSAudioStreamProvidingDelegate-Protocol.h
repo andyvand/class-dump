@@ -7,6 +7,8 @@
 @protocol CSAudioStreamProvidingDelegate
 
 @optional
+- (void);
+- (void);
 - (void){public}@;
 @end
 

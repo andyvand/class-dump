@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface BridgeXPCConnectionMessage
 {
     CDUnknownBlockType _barrier_block;
-    NSData *_msg_hdr;
-    NSData *_msg_body;
 }
 
 - (void);
@@ -24,8 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) CDUnknownBlockType barrier_block; // @synthesize barrier_block=_barrier_block;
-@property(retain) NSData *msg_body; // @synthesize msg_body=_msg_body;
-@property(retain) NSData *msg_hdr; // @synthesize msg_hdr=_msg_hdr;
 
 @end
 

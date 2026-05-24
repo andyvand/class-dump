@@ -6,15 +6,11 @@
 
 #import <RemoteTextInput/RTIDataPayload.h>
 
-@class NSUUID, RTIDocumentState, RTIDocumentTraits, RTITextOperations;
+@class RTIDocumentTraits;
 
 @interface RTIInputSystemDataPayload : RTIDataPayload
 {
     _Bool _disableUpdate;
-    RTIDocumentTraits *_documentTraits;
-    RTIDocumentState *_documentState;
-    RTITextOperations *_textOperations;
-    NSUUID *_sessionUUID;
 }
 
 + (id);
@@ -29,18 +25,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) RTIDocumentState *documentState; // @synthesize documentState=_documentState;
 @property(retain, nonatomic) RTIDocumentTraits *documentTraits; // @synthesize documentTraits=_documentTraits;
-@property(retain, nonatomic) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(retain, nonatomic) RTITextOperations *textOperations; // @synthesize textOperations=_textOperations;
 
 @end
 

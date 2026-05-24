@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDMBook, NSString;
+@class NSString;
 
 @interface DDMTopicPreloadOperation
 {
     NSString *_topicID;
-    DDMBook *_book;
-    _Bool _executing;
-    _Bool _finished;
 }
 
 + (id);
-- (id);
-- (void);
+- (id)R;
+- (void)from another thread!;
 - (void);
 - (_Bool);
 - (void);
@@ -26,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, getter=isExecuting) _Bool executing;
-@property(readonly, getter=isFinished) _Bool finished;
 
 @end
 

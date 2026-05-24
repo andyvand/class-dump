@@ -4,34 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface SFRequestParameters
 {
     _Bool _narrowband;
-    _Bool _detectMultipleUtterances;
-    _Bool _onDeviceOnly;
-    _Bool _enableAutoPunctuation;
-    NSString *_applicationName;
-    NSString *_applicationVersion;
-    NSArray *_inlineItemList;
-    NSString *_requestIdentifier;
-    NSString *_taskIdentifier;
-    NSString *_language;
-    NSString *_task;
-    NSDictionary *_recognitionOverrides;
-    NSURL *_modelOverrideURL;
-    double _maximumRecognitionDuration;
-    NSURL *_dynamicLanguageModel;
-    NSURL *_dynamicVocabulary;
 }
 
-+ (_Bool);
++ (_Bool)J1;
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)
+;
 - (_Bool);
 - (id);
 - (id);
@@ -49,19 +35,19 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)__behaviorStorage;
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)_computePipelineStates;
+- (void)P;
+- (id)!;
 - (id);
 - (void);
 - (id);
@@ -70,21 +56,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *applicationName; // @synthesize applicationName=_applicationName;
-@property(copy, nonatomic) NSString *applicationVersion; // @synthesize applicationVersion=_applicationVersion;
-@property(nonatomic) _Bool detectMultipleUtterances; // @synthesize detectMultipleUtterances=_detectMultipleUtterances;
-@property(copy, nonatomic) NSURL *dynamicLanguageModel; // @synthesize dynamicLanguageModel=_dynamicLanguageModel;
-@property(copy, nonatomic) NSURL *dynamicVocabulary; // @synthesize dynamicVocabulary=_dynamicVocabulary;
-@property(nonatomic) _Bool enableAutoPunctuation; // @synthesize enableAutoPunctuation=_enableAutoPunctuation;
-@property(copy, nonatomic) NSArray *inlineItemList; // @synthesize inlineItemList=_inlineItemList;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(nonatomic) double maximumRecognitionDuration; // @synthesize maximumRecognitionDuration=_maximumRecognitionDuration;
-@property(copy, nonatomic) NSURL *modelOverrideURL; // @synthesize modelOverrideURL=_modelOverrideURL;
-@property(nonatomic) _Bool narrowband; // @synthesize narrowband=_narrowband;
-@property(nonatomic) _Bool onDeviceOnly; // @synthesize onDeviceOnly=_onDeviceOnly;
-@property(copy, nonatomic) NSDictionary *recognitionOverrides; // @synthesize recognitionOverrides=_recognitionOverrides;
-@property(copy, nonatomic) NSString *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(copy, nonatomic) NSString *task; // @synthesize task=_task;
-@property(copy, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
 
 @end
 

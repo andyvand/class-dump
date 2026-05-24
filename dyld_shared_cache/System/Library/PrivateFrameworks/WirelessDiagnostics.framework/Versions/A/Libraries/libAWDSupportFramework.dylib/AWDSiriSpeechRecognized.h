@@ -7,16 +7,9 @@
 @interface AWDSiriSpeechRecognized
 {
     unsigned long long _durationFromVoiceRecordingEnd;
-    unsigned long long _durationFromVoiceSendEnd;
-    unsigned long long _timestamp;
-    struct {
-        unsigned int durationFromVoiceRecordingEnd:1;
-        unsigned int durationFromVoiceSendEnd:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
-- (void);
+- (void)!`,;
 - (void);
 - (void);
 - (_Bool);
@@ -31,20 +24,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?!;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id).;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long durationFromVoiceRecordingEnd; // @synthesize durationFromVoiceRecordingEnd=_durationFromVoiceRecordingEnd;
-@property(nonatomic) unsigned long long durationFromVoiceSendEnd; // @synthesize durationFromVoiceSendEnd=_durationFromVoiceSendEnd;
-@property(nonatomic) _Bool hasDurationFromVoiceRecordingEnd;
-@property(nonatomic) _Bool hasDurationFromVoiceSendEnd;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

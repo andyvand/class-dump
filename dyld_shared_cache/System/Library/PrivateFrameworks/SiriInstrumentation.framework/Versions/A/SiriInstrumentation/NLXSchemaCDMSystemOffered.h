@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaCDMUserDialogAct, NSData;
+@class NLXSchemaCDMUserDialogAct;
 
 @interface NLXSchemaCDMSystemOffered : SISchemaInstrumentationMessage
 {
     NLXSchemaCDMUserDialogAct *_offeredAct;
-    _Bool _hasOfferedAct;
 }
 
 - (void);
@@ -21,10 +20,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)iletype;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ym;
 - (id);
 - (id)
 × ;
@@ -33,8 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasOfferedAct; // @synthesize hasOfferedAct=_hasOfferedAct;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) NLXSchemaCDMUserDialogAct *offeredAct; // @synthesize offeredAct=_offeredAct;
 
 @end

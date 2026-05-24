@@ -7,9 +7,6 @@
 @interface NewsAnalytics.NotificationReceiptReporter
 {
     id sessionManager;
-    id log;
-    id decoder;
-    id sharedDefaults;
 }
 
 @end

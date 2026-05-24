@@ -10,7 +10,6 @@
 - (NSString *)concurrent modification of the message.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *entityName;
 @property(readonly, nonatomic) NSUUID *uuid;
 @end
 

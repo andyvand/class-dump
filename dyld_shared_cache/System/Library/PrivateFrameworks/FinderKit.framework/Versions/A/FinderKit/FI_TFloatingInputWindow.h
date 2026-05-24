@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)Convertible>";
 - (id);
 - (id);
 - (void);

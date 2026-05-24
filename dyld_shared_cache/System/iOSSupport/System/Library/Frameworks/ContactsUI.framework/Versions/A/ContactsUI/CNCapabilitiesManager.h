@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSString;
-
 @interface CNCapabilitiesManager
 {
     _Bool _isListeningToIDSServiceAvailability;
-    _Bool _isListeningToIDSQueryController;
-    NSMutableDictionary *_destinationStatus;
-    NSNumber *_isDefaultPhoneCallAppThirdParty;
-    NSString *_defaultPhoneCallAppBundleIdentifier;
 }
 
 + (id);
@@ -21,17 +15,17 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)	;
 - (void);
+- (_Bool)ctory.QC0Hdk/Sources/SyncServices2/SyncServices/ISDChangeStore.m;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -40,29 +34,23 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)isKindOfClass: /* Error: Ran out of types for this method. */;
+- (id),V_referenceTreeShowRegionVirtualSize;
+- (_Bool)_outlined;
+- (_Bool)2;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool)portsTTYCalls: /* Error: Ran out of types for this method. */;
-- (_Bool)s: /* Error: Ran out of types for this method. */;
+- (_Bool)setContactSupportsTTYCalls: /* Error: Ran out of types for this method. */;
+- (_Bool)setCustomItems: /* Error: Ran out of types for this method. */;
 - (void)gEnabledDelegate>",W,N,V_delegate;
 - (void)target;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

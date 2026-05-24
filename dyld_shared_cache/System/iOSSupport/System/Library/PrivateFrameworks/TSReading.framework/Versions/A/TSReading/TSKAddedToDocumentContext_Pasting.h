@@ -11,11 +11,11 @@
     struct __CFDictionary *mTableIDMap;
 }
 
-- (_Bool);
-- (struct __CFDictionary *);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)JSON;
+- (struct __CFDictionary *)nt;
+- (_Bool)ic.setQueue.loadBegin;
+- (void)ller - shouldPreroll:(struct __CFDictionary *)arg1;
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);

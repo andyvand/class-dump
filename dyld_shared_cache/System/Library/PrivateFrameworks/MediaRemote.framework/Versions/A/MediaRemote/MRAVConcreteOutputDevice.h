@@ -6,43 +6,33 @@
 
 #import <MediaRemote/MRAVOutputDevice.h>
 
-@class AVOutputContext, AVOutputDevice, MRAVOutputDeviceSourceInfo, NSNumber, NSString;
+@class AVOutputContext, AVOutputDevice;
 
 @interface MRAVConcreteOutputDevice : MRAVOutputDevice
 {
     AVOutputDevice *_avOutputDevice;
-    MRAVOutputDeviceSourceInfo *_sourceInfo;
-    NSString *_uidOverride;
-    NSString *_groupUIDOverride;
-    NSString *_parentGroupUIDOverride;
-    NSNumber *_isGroupLeaderOverride;
-    NSNumber *_isAirPlayActiveOverride;
-    NSNumber *_isProxyGroupPlayerOverride;
-    NSNumber *_groupContainsGroupLeaderOverride;
-    NSNumber *_parentGroupContainsGroupLeaderOverride;
-    NSNumber *_supportsMultiplayerOverride;
-    AVOutputContext *_outputContext;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)LoginUIKit;
+- (id)NSIndexSet"32@"NSString"40C48@"NSString"52;
 - (void);
 - (void);
 - (id);
 - (float);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)-;
+- (void);
+- (_Bool)pportsTelephony];
+- (_Bool)eug
+;
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -50,19 +40,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)?u;
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -75,8 +65,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)";
+- (_Bool)eworks/Intents.framework/Versions/A/Intents;
 - (id);
 - (_Bool)1Â0@ù
 × ;
@@ -92,19 +82,19 @@
 - (id)!ÐEùñ&Ð1Â0@ù
 × ;
 - (id)v@?q@"NSError">24;
-- (_Bool)stinationPerformanceClass:(id)arg1;
-- (id)pabilities:(id)arg1;
-- (_Bool)shList: /* Error: Ran out of types for this method. */;
-- (_Bool)r:fromID:hasBeenDeliveredWithContext: /* Error: Ran out of types for this method. */;
-- (_Bool)endData: /* Error: Ran out of types for this method. */;
-- (_Bool)n:didCompleteExchangeWithError: /* Error: Ran out of types for this method. */;
-- (_Bool)ons: /* Error: Ran out of types for this method. */;
-- (_Bool)fiersCount;
-- (_Bool)kQueueRequest;
-- (_Bool)uteDiscoveryMode;
-- (_Bool)ouldWaitForUnanimousEndpoints;
+- (_Bool)set_handoffDestinationPerformanceClass:(id)arg1;
+- (id)setVolumeCapabilities:(id)arg1;
+- (_Bool)setIsInWishList: /* Error: Ran out of types for this method. */;
+- (_Bool)service:account:identifier:fromID:hasBeenDeliveredWithContext: /* Error: Ran out of types for this method. */;
+- (_Bool)sendData: /* Error: Ran out of types for this method. */;
+- (_Bool)pairingSession:didCompleteExchangeWithError: /* Error: Ran out of types for this method. */;
+- (_Bool)onQueue_registerForEndpointInvalidations: /* Error: Ran out of types for this method. */;
+- (_Bool)homeUserIdentifiersCount;
+- (_Bool)hasPlaybackQueueRequest;
+- (_Bool)_routeDiscoveryMode;
+- (_Bool)shouldWaitForUnanimousEndpoints;
 - (_Bool)&,N,V_lastUpdateDate;
-- (void)eMutedMessageProtobuf;
+- (void)_MRGetVolumeMutedMessageProtobuf;
 - (id);
 - (_Bool)lï Tt¤7;
 - (_Bool);
@@ -112,7 +102,7 @@
 - (_Bool)tifier, using localEndpoint...;
 - (unsigned long long)evice.m;
 - (_Bool)image/jpeg;
-- (_Bool)e;
+- (_Bool)DecrementLarge;
 - (id)workWidth %ld;
 - (_Bool)9cÖ	;
 - (_Bool)ÿû	;
@@ -126,9 +116,7 @@
 - (id)´;
 
 // Remaining properties
-@property(readonly, nonatomic) AVOutputDevice *avOutputDevice;
 @property(nonatomic) __weak AVOutputContext *outputContext; // @synthesize outputContext=_outputContext;
-@property(readonly, nonatomic) MRAVOutputDeviceSourceInfo *sourceInfo;
 
 @end
 

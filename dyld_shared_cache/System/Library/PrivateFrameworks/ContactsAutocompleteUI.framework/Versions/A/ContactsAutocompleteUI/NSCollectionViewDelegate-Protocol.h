@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCollectionViewTransitionLayout, NSImage, NSSet;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (NSImage *);
+- (NSImage *)7	;
+- (NSSet *);
+- (NSCollectionViewTransitionLayout *);
 @end
 

@@ -7,18 +7,6 @@
 @interface Safari.CompletionListCollectionViewSearchUIItem
 {
     id delegate;
-    id controller;
-    id metrics;
-    id shouldUseTrackingArea;
-    id searchUIItemAccessibilityView;
-    id backingView;
-    id selectionView;
-    id platterView;
-    id trackingArea;
-    id sfSearchResult;
-    id searchUIView;
-    id shouldUpdateSearchUICellHeight;
-    id shouldShowPlatter;
 }
 
 - (void);

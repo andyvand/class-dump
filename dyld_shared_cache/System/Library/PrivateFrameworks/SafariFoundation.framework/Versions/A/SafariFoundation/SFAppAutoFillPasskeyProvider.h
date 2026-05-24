@@ -11,7 +11,7 @@
     WBSAuthenticationServicesAgentProxy *_proxy;
 }
 
-- (void);
+- (void)ns %{private}@:(id)arg1 %{public}@;
 - (void);
 - (id);
 - (void);

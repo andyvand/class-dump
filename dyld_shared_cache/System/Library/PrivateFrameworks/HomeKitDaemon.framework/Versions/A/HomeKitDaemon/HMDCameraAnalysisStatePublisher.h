@@ -4,57 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, HMIAnalysisStateManager, HMIAnalysisStateUpdate, NSObject, NSString, NSUUID;
-@protocol HMDHomeResidentMessagingContext, OS_dispatch_queue;
+@class HMIAnalysisStateManager;
+@protocol HMDHomeResidentMessagingContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraAnalysisStatePublisher
 {
     HMIAnalysisStateManager *_analysisStateManager;
-    id <HMDHomeResidentMessagingContext> _messagingContext;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMFTimer *_cameraAnalysisStatePublisherDebounceTimer;
-    HMIAnalysisStateUpdate *_stateUpdate;
 }
 
 + (id)ËB;
 - (id);
-- (void);
-- (void);
+- (void)<;
+- (void)access queue -- snapshot:(id)arg1 %@;
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
+- (void)h8);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)pR;
+- (id)A;
 - (id)opping message %{public}@;
-- (void)dNaturalLightingProfiles;
+- (void)monitoredNaturalLightingProfiles;
 - (void);
 - (id)Ð%B;
 
 // Remaining properties
-@property(readonly) HMIAnalysisStateManager *analysisStateManager; // @synthesize analysisStateManager=_analysisStateManager;
-@property(readonly) HMFTimer *cameraAnalysisStatePublisherDebounceTimer; // @synthesize cameraAnalysisStatePublisherDebounceTimer=_cameraAnalysisStatePublisherDebounceTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @property __weak id <HMDHomeResidentMessagingContext> messagingContext; // @synthesize messagingContext=_messagingContext;
-@property(retain) HMIAnalysisStateUpdate *stateUpdate; // @synthesize stateUpdate=_stateUpdate;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

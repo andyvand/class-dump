@@ -5,11 +5,12 @@
 //
 
 @protocol MPObjectDatabaseProgressiveContext
+- (void);
+- (unsigned int)@40;
+- (_Bool)_payloadAllowEnablingRestrictions;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isInvalid;
-@property(copy, nonatomic) CDUnknownBlockType onInvalidate;
 @property(nonatomic) unsigned int tag;
 @end
 

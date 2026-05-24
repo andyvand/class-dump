@@ -8,7 +8,7 @@
 
 @interface UnknownClass (SafeDecode)
 - (id);
-- (id);
+- (id)bM;
 - (_Bool);
 
 // Remaining properties

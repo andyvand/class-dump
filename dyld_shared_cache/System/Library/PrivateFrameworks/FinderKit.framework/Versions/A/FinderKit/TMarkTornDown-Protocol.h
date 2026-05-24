@@ -5,6 +5,7 @@
 //
 
 @protocol TMarkTornDown
+- (void);
 
 // Remaining properties
 @property(getter=isTornDown) _Bool tornDown;

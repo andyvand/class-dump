@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CNScheduler, CNSchedulerProvider;
-
 __attribute__((visibility("hidden")))
 @interface CNUIMapTileGenerator
 {
     CDUnknownBlockType _geocoderProvider;
-    CDUnknownBlockType _snapshotterProvider;
-    id <CNScheduler> _workQueue;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
++ (id)?;
 + (id);
-+ (id);
-+ (double);
++ (double)R;
 + (id);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (id)9?qA;
+- (id)sortDescriptorsForSeasonsWithOldestEpisodesFirst: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)itleText:ofSearchResultCell: /* Error: Ran out of types for this method. */;
+- (void)applyContactListStyleToSubtitleText:ofSearchResultCell: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType geocoderProvider; // @synthesize geocoderProvider=_geocoderProvider;
-@property(readonly, copy, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly, copy, nonatomic) CDUnknownBlockType snapshotterProvider; // @synthesize snapshotterProvider=_snapshotterProvider;
-@property(readonly, copy, nonatomic) id <CNScheduler> workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

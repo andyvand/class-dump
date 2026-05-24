@@ -5,5 +5,6 @@
 //
 
 @protocol AMSUIWebPresentationDelegate
+- (void)for assetSelector:(id)arg1 %{public}@ error:%{public}@ /* Error: Ran out of types for this method. */;
 @end
 

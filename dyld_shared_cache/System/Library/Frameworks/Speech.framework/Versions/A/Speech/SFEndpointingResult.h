@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface SFEndpointingResult
 {
     long long _wordCount;
-    double _eosLikelihood;
-    NSArray *_pauseCounts;
-    double _silencePosterior;
-    CDStruct_e83c9415 _range;
 }
 
 - (id);
@@ -24,11 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double eosLikelihood; // @synthesize eosLikelihood=_eosLikelihood;
-@property(readonly, copy, nonatomic) NSArray *pauseCounts; // @synthesize pauseCounts=_pauseCounts;
 @property(readonly, nonatomic) CDStruct_e83c9415 range; // @synthesize range=_range;
-@property(readonly, nonatomic) double silencePosterior; // @synthesize silencePosterior=_silencePosterior;
-@property(readonly, nonatomic) long long wordCount; // @synthesize wordCount=_wordCount;
 
 @end
 

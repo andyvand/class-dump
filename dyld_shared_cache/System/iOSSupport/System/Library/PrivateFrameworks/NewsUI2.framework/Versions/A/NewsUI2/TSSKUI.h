@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (id);
++ (void)eFrameworks/IconServices.framework/Versions/A/IconServices;
++ (id)__common;
 
 @end
 

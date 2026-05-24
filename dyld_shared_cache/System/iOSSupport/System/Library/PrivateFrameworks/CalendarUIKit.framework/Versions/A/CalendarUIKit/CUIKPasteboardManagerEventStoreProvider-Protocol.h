@@ -7,6 +7,7 @@
 @class EKEventStore;
 
 @protocol CUIKPasteboardManagerEventStoreProvider
+- (EKEventStore *);
 
 // Remaining properties
 @property(readonly, nonatomic) EKEventStore *eventStore;

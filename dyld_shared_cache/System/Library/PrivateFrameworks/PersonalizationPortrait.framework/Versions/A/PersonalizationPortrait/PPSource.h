@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSSet, NSString, PPSourceMetadata;
+@class PPSourceMetadata;
 
 @interface PPSource
 {
     PPSourceMetadata *_metadata;
-    NSDate *_relevanceDate;
-    NSArray *_contactHandles;
-    NSString *_language;
-    NSString *_bundleId;
-    NSString *_groupId;
-    NSString *_documentId;
-    NSDate *_date;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)currentImageSize;
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (id)isNonRecognitionTask;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -42,15 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, nonatomic) NSArray *contactHandles; // @synthesize contactHandles=_contactHandles;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) NSString *documentId; // @synthesize documentId=_documentId;
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(readonly, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property(readonly, nonatomic) NSString *language; // @synthesize language=_language;
 @property(readonly, nonatomic) PPSourceMetadata *metadata; // @synthesize metadata=_metadata;
-@property(readonly, nonatomic) NSDate *relevanceDate; // @synthesize relevanceDate=_relevanceDate;
 
 @end
 

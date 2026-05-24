@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCContext, NSObject, NSString, NSUUID;
+@class NSObject;
 @protocol HMDCompositeSettingsDatabaseAdapterDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingsHH2DatabaseAdapter
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id _rawDatabase;
-    id <HMDCompositeSettingsDatabaseAdapterDelegate> _delegate;
-    NSUUID *_accessoryID;
-    NSUUID *_homeID;
-    HMCContext *_context;
-    NSString *_strongRawDatabase;
 }
 
 + (id)qtÿK	`åB;
-- (id);
-- (void);
-- (void);
+- (id)navigationListener:didUpdateRideSelections: /* Error: Ran out of types for this method. */;
+- (void)lastLocation;
+- (void)initWithContact:(id)arg1 timeout:queue:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -44,20 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSUUID *accessoryID; // @synthesize accessoryID=_accessoryID;
-@property(readonly, nonatomic) HMCContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <HMDCompositeSettingsDatabaseAdapterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeID; // @synthesize homeID=_homeID;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) __weak id rawDatabase; // @synthesize rawDatabase=_rawDatabase;
-@property(readonly, nonatomic) NSString *strongRawDatabase; // @synthesize strongRawDatabase=_strongRawDatabase;
-@property(readonly) Class superclass;
 
 @end
 

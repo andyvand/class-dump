@@ -9,7 +9,7 @@
     id records;
 }
 
-+ (void);
++ (void)0H;
 + (void);
 + (_Bool)Ø;
 - (id);

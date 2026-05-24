@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessory, HMDHome, HMDNetworkRouterController, NSMutableSet, NSNotificationCenter, NSObject, NSString;
-@protocol HMDNetworkRouterFirewallRuleManager, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterClientManager
 {
     struct os_unfair_lock_s _lock;
-    _Bool _started;
-    _Bool _managedNetworkEnabled;
-    _Bool _staleClientIdentifiersResetNeeded;
-    _Bool _staleClientIdentifiersResetInProgress;
-    _Bool _startPending;
-    HMDHAPAccessory *_networkRouterAccessory;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSNotificationCenter *_notificationCenter;
-    id <HMDNetworkRouterFirewallRuleManager> _firewallRuleManager;
-    NSMutableSet *_accessoriesInReconfiguration;
 }
 
 + (id)ïB;
@@ -35,79 +25,61 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id)insertObjects:atIndexes: /* Error: Ran out of types for this method. */;
+- (void)getSnapshot:(id)arg1 data:(long long)arg2 mergingCurrentState:(_Bool)arg3 withState:(CDUnknownBlockType)arg4 mergeOptions:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_identifierToMessagesStatus;
+- (id)(%lu routingPathLegs);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)A;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)86{;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)kb;
 - (id);
 - (void);
 - (id)0@ù
 × ;
-- (void)ient;
+- (void)_sensorClient;
 - (void)ng for launch on demand message with name:(id)arg1 %@ for target:%@ /* Error: Ran out of types for this method. */;
 - (void)g home model from backing store;
-- (void)SignificantEventUUIDMessageKey;
-- (_Bool)LL_ROOMS_VACUUMED_AND_MOPPED;
+- (void)HMDBulletinNotificationCameraSignificantEventUUIDMessageKey;
+- (_Bool)RVC_ALL_ROOMS_VACUUMED_AND_MOPPED;
 - (id)ä
 ðÊ=;
 
 // Remaining properties
-@property(readonly) NSMutableSet *accessoriesInReconfiguration; // @synthesize accessoriesInReconfiguration=_accessoriesInReconfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <HMDNetworkRouterFirewallRuleManager> firewallRuleManager; // @synthesize firewallRuleManager=_firewallRuleManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHome *home;
-@property(nonatomic) _Bool managedNetworkEnabled; // @synthesize managedNetworkEnabled=_managedNetworkEnabled;
-@property __weak HMDHAPAccessory *networkRouterAccessory; // @synthesize networkRouterAccessory=_networkRouterAccessory;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) HMDNetworkRouterController *routerController;
-@property(nonatomic) _Bool staleClientIdentifiersResetInProgress; // @synthesize staleClientIdentifiersResetInProgress=_staleClientIdentifiersResetInProgress;
-@property(nonatomic) _Bool staleClientIdentifiersResetNeeded; // @synthesize staleClientIdentifiersResetNeeded=_staleClientIdentifiersResetNeeded;
-@property(nonatomic) _Bool startPending; // @synthesize startPending=_startPending;
-@property(nonatomic) _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

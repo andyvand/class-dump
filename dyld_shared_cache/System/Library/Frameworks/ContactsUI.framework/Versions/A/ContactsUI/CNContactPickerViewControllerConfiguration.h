@@ -7,18 +7,16 @@
 @interface CNContactPickerViewControllerConfiguration
 {
     _Bool _showsSelectedContact;
-    _Bool _highlightsSelectedContact;
 }
 
-+ (id);
++ (id)fixUpSettings;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)	;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=shouldHighlightSelectedContact) _Bool highlightsSelectedContact; // @synthesize highlightsSelectedContact=_highlightsSelectedContact;
 @property(nonatomic, getter=shouldShowSelectedContact) _Bool showsSelectedContact; // @synthesize showsSelectedContact=_showsSelectedContact;
 
 @end

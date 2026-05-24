@@ -9,17 +9,12 @@
 @interface MSRHDRProcessingByCapabilities : MSRHDRProcessing
 {
     int _unequalSpacingTmLutMode;
-    float _toneMapLUT0[257];
-    float _toneMapLUT1[257];
-    float _toneMapLUT2[497];
-    float _toneMapLUT3[497];
-    float _systemGamma;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Є;
 - (void);
 - (void);
 - (void);
@@ -36,7 +31,7 @@
 - (unsigned int);
 - (void);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)o;
 - (void);
 - (int);
 - (int);
@@ -44,7 +39,7 @@
 - (unsigned int);
 - (float);
 - (float);
-- (unsigned long long);
+- (unsigned long long)-;
 - (void);
 - (void);
 - (void);

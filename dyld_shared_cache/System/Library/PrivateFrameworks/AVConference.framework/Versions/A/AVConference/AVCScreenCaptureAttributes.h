@@ -7,9 +7,6 @@
 @interface AVCScreenCaptureAttributes
 {
     float _pointPixelScale;
-    unsigned int _displayID;
-    long long _contentType;
-    struct CGRect _contentRect;
 }
 
 - (float);
@@ -18,13 +15,10 @@
 × ;
 - (id)s;
 - (unsigned int)t newOneToOneVideoStreamConfigWithStreamDirection:streamGroupId:streamSsrc:encodingType:videoSettings:] /* Error: Ran out of types for this method. */;
-- (long long)ateStallMetrics;
+- (long long)VCAudioReceiver_UpdateStallMetrics;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect contentRect; // @synthesize contentRect=_contentRect;
 @property(readonly, nonatomic) long long contentType; // @synthesize contentType=_contentType;
-@property(readonly, nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
-@property(readonly, nonatomic) float pointPixelScale; // @synthesize pointPixelScale=_pointPixelScale;
 
 @end
 

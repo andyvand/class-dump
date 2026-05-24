@@ -7,23 +7,20 @@
 #import <ContactsUI/CNPropertySimpleTransportCell.h>
 
 @class UIImageView;
-@protocol CNCancelable;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertyPostalAddressCell : CNPropertySimpleTransportCell
 {
     _Bool _shouldUseMapTiles;
-    UIImageView *_mapImageView;
-    id <CNCancelable> _tileGeneratorToken;
 }
 
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (void);
-- (void);
+- (void)T+;
 - (void);
 - (void);
 - (id);
@@ -32,13 +29,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)gory: /* Error: Ran out of types for this method. */;
+- (void)_shouldGroupActionsInCategory: /* Error: Ran out of types for this method. */;
 - (void)d",&,N,V_saveCommand;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *mapImageView; // @synthesize mapImageView=_mapImageView;
-@property(nonatomic) _Bool shouldUseMapTiles; // @synthesize shouldUseMapTiles=_shouldUseMapTiles;
-@property(retain, nonatomic) id <CNCancelable> tileGeneratorToken; // @synthesize tileGeneratorToken=_tileGeneratorToken;
 
 @end
 

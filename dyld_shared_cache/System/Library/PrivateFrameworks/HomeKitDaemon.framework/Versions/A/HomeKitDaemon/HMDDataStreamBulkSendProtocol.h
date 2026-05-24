@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSObject, NSString;
-@protocol HMDDataStreamProtocolDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamBulkSendProtocol
 {
     _Bool _isConnected;
-    unsigned int _nextSessionIdentifier;
-    id <HMDDataStreamProtocolDelegate> _dataStream;
-    NSObject<OS_dispatch_queue> *_queue;
-    id _accessory;
-    NSMapTable *_listeners;
-    NSString *_logIdentifier;
-    NSMapTable *_activeBulkSendSessions;
-    NSMutableDictionary *_pendingBulkSendSessionContextBySessionIdentifier;
-    CDUnknownBlockType _bulkSendSessionContextFactory;
 }
 
 + (id);
 + (id)kUÿÐ-;
+- (void);
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,7 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)6Z;
 - (id);
 - (void);
 - (void);
@@ -73,7 +64,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)!BùÑ1Â0@ù
 × ;
-- (id)tNetworkRouterReplace: /* Error: Ran out of types for this method. */;
+- (id)setNetworkRouterReplace: /* Error: Ran out of types for this method. */;
 - (id)CameraSessionInfo",R,N,V_cameraSessionInfo;
 - (_Bool)è¦;
 - (unsigned int)fication status:%{BOOL}d, certification status:%@, shouldSkipAuthPrompt:%{bool}d /* Error: Ran out of types for this method. */;
@@ -84,24 +75,7 @@ __attribute__((visibility("hidden")))
 - (void)Õ½häA;
 
 // Remaining properties
-@property(nonatomic) __weak id accessory; // @synthesize accessory=_accessory;
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly) NSMapTable *activeBulkSendSessions; // @synthesize activeBulkSendSessions=_activeBulkSendSessions;
-@property(readonly) CDUnknownBlockType bulkSendSessionContextFactory; // @synthesize bulkSendSessionContextFactory=_bulkSendSessionContextFactory;
-@property(nonatomic) __weak id <HMDDataStreamProtocolDelegate> dataStream; // @synthesize dataStream=_dataStream;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isConnected; // @synthesize isConnected=_isConnected;
-@property(retain, nonatomic) NSMapTable *listeners; // @synthesize listeners=_listeners;
-@property(readonly, copy, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property unsigned int nextSessionIdentifier; // @synthesize nextSessionIdentifier=_nextSessionIdentifier;
-@property(readonly) NSMutableDictionary *pendingBulkSendSessionContextBySessionIdentifier; // @synthesize pendingBulkSendSessionContextBySessionIdentifier=_pendingBulkSendSessionContextBySessionIdentifier;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

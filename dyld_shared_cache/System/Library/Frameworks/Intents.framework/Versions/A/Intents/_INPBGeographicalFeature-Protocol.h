@@ -7,11 +7,11 @@
 @class NSArray, _INPBString;
 
 @protocol _INPBGeographicalFeature
+- (_Bool);
+- (_INPBString *)!;
+- (NSArray *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *geographicalFeatureDescriptors;
-@property(readonly, nonatomic) unsigned long long geographicalFeatureDescriptorsCount;
-@property(retain, nonatomic) _INPBString *geographicalFeatureType;
-@property(readonly, nonatomic) _Bool hasGeographicalFeatureType;
 @end
 

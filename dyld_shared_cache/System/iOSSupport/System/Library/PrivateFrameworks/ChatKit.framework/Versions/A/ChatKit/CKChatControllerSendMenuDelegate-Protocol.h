@@ -5,5 +5,6 @@
 //
 
 @protocol CKChatControllerSendMenuDelegate
+- (void);
 @end
 

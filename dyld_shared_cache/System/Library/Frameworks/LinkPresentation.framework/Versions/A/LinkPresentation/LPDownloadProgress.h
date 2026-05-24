@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface LPDownloadProgress
 {
     _Bool _isFinished;
-    double _progress;
-    NSString *_subtitle;
 }
 
 - (id);
@@ -19,14 +15,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (double);
+- (double)initialize lexicon;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isFinished; // @synthesize isFinished=_isFinished;
 @property(nonatomic) double progress; // @synthesize progress=_progress;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 
 @end
 

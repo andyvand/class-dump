@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)updateFrameRateRange:toRange: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

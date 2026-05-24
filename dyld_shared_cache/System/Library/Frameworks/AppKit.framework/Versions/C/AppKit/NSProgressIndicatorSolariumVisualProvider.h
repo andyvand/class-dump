@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface NSProgressIndicatorSolariumVisualProvider
 {
     id _linearIndicatorLayer;
-    void progressIndicator;
-    id configuration;
 }
 
 - (_Bool);
 - (int);
-- (void);
-- (id);
+- (void)_infersDiscretionaryFromOriginatingClient;
+- (id)ponse %{public}@ response=%@ body=%@ error=%@;
 - (void);
 - (id);
 - (void);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 @property(nonatomic) __weak NSProgressIndicator *progressIndicator; // @synthesize progressIndicator;
 
 @end

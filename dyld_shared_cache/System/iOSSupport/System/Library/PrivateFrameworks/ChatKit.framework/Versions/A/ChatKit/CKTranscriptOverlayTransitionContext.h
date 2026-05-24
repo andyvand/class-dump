@@ -4,60 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKInlineReplyTransitionProperties, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CKTranscriptOverlayTransitionContext
 {
     _Bool _wantsModalPresentation;
-    _Bool _wantsUnanimatedPresentation;
-    _Bool _presentWithKeyboard;
-    _Bool _keyboardWasUpInMainTranscript;
-    _Bool _isParentChatControllerShowingBanner;
-    NSDictionary *_visibleChatItemToFrameMap;
-    NSString *_anchorChatItemGUID;
-    CKInlineReplyTransitionProperties *_replyTransitionProperties;
-    struct UIEdgeInsets _transcriptMarginInsets;
-    struct UIEdgeInsets _transcriptSafeAreaInsets;
-    struct CGRect _parentCollectionViewFrame;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
-- (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (struct UIEdgeInsets)6@0:8 /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)=QQ}16@32;
+- (void)readIntoBuffer:(_Bool)arg1 frameCount:error: /* Error: Ran out of types for this method. */;
+- (void)rangeOfSentenceAfterMention:(id)arg1;
+- (void)prepareWithInvocationTarget:(struct UIEdgeInsets)arg1;
+- (void)prepareIndentInformationInAttributedString:(struct UIEdgeInsets)arg1;
+- (void)messageForAccount:(id)arg1 minimumNotesVersion:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)localizedDescription;
+- (void)isReadingSelectionFromPasteboard;
+- (void)initWithObject:(_Bool)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)initWithDelegate:(_Bool)arg1;
+- (void)firstResponder;
+- (id)cachedControlViewForPlaceView;
+- (_Bool)_virtualSmartFolderIdentifiers;
+- (struct CGRect)TS,N,V_listStyle;
+- (_Bool)G;
+- (_Bool)ICImageAndMovieThumbnailView;
 - (id);
-- (_Bool);
-- (struct CGRect);
-- (_Bool);
-- (_Bool);
+- (void)ICAttachmentTypeInlineDrawing;
 - (id);
-- (void);
-- (id);
-- (void)noReplyGrayBalloonColorFilled;
+- (void)CKNanoReplyGrayBalloonColorFilled;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *anchorChatItemGUID; // @synthesize anchorChatItemGUID=_anchorChatItemGUID;
-@property(nonatomic) _Bool isParentChatControllerShowingBanner; // @synthesize isParentChatControllerShowingBanner=_isParentChatControllerShowingBanner;
-@property(nonatomic) _Bool keyboardWasUpInMainTranscript; // @synthesize keyboardWasUpInMainTranscript=_keyboardWasUpInMainTranscript;
-@property(nonatomic) struct CGRect parentCollectionViewFrame; // @synthesize parentCollectionViewFrame=_parentCollectionViewFrame;
-@property(nonatomic) _Bool presentWithKeyboard; // @synthesize presentWithKeyboard=_presentWithKeyboard;
-@property(copy, nonatomic) CKInlineReplyTransitionProperties *replyTransitionProperties; // @synthesize replyTransitionProperties=_replyTransitionProperties;
-@property(nonatomic) struct UIEdgeInsets transcriptMarginInsets; // @synthesize transcriptMarginInsets=_transcriptMarginInsets;
-@property(nonatomic) struct UIEdgeInsets transcriptSafeAreaInsets; // @synthesize transcriptSafeAreaInsets=_transcriptSafeAreaInsets;
 @property(retain, nonatomic) NSDictionary *visibleChatItemToFrameMap; // @synthesize visibleChatItemToFrameMap=_visibleChatItemToFrameMap;
-@property(nonatomic) _Bool wantsModalPresentation; // @synthesize wantsModalPresentation=_wantsModalPresentation;
-@property(nonatomic) _Bool wantsUnanimatedPresentation; // @synthesize wantsUnanimatedPresentation=_wantsUnanimatedPresentation;
 
 @end
 

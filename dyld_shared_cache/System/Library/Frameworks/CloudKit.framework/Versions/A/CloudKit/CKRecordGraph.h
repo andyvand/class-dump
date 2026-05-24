@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface CKRecordGraph
 {
     NSMutableArray *_nodes;
-    NSArray *_sortedRecords;
 }
 
 + (id);

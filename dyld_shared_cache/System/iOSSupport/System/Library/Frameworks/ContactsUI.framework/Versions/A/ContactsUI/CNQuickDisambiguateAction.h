@@ -6,34 +6,30 @@
 
 #import <ContactsUI/CNQuickPropertyAction.h>
 
-@class CNQuickAction, NSOrderedSet;
+@class NSOrderedSet;
 
 __attribute__((visibility("hidden")))
 @interface CNQuickDisambiguateAction : CNQuickPropertyAction
 {
     _Bool _ignoreMainAction;
-    NSOrderedSet *_actions;
-    CNQuickAction *_mainAction;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)n;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void)olor;
+- (void)_tertiarySystemBackgroundColor;
 
 // Remaining properties
 @property(retain, nonatomic) NSOrderedSet *actions; // @synthesize actions=_actions;
-@property(nonatomic) _Bool ignoreMainAction; // @synthesize ignoreMainAction=_ignoreMainAction;
-@property(nonatomic) __weak CNQuickAction *mainAction; // @synthesize mainAction=_mainAction;
 
 @end
 

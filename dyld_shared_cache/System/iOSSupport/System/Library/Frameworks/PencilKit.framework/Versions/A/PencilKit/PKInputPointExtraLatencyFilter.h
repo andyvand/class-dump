@@ -9,7 +9,6 @@
 @interface PKInputPointExtraLatencyFilter : PKInputPointBaseFilter
 {
     vector_8f46a492 _inputPoints;
-    long long _numFramesExtraLatency;
 }
 
 - (void);

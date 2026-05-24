@@ -13,7 +13,7 @@
 + (Class);
 + (long long)a;
 - (id);
-- (id)ringAsLimitValue:(id)arg1;
+- (id)StringAsLimitValue:(id)arg1;
 
 @end
 

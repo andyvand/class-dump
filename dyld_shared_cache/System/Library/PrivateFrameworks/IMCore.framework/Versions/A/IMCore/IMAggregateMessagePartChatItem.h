@@ -13,10 +13,10 @@
     NSArray *_subparts;
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)a was generated at [%@], after the current date [%@];
+- (id)failed(%08X) for sessionID=%d;
+- (id)VCAudioReceiver_CollectAWDMetrics:(id)arg1 Failed to grab the lock;
+- (id)tream with a different number of transports.;
 - (id);
 - (id);
 - (void);

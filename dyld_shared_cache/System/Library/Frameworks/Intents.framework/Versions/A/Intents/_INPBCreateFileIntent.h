@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata, _INPBString;
+@class _INPBString;
 
 @interface _INPBCreateFileIntent
 {
@@ -12,17 +12,12 @@
         unsigned int destinationType:1;
         unsigned int entityType:1;
     } _has;
-    int _destinationType;
-    int _entityType;
-    _INPBString *_destinationName;
-    _INPBString *_entityName;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
 - (void);
@@ -34,7 +29,7 @@
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)7;
 - (void);
 - (id);
 - (id);
@@ -43,32 +38,16 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ortedOS:(id)arg1 %@;
 - (id);
 - (id);
 - (void);
-- (_Bool)ttributeSlotValueTransformer;
-- (void)OT;
+- (_Bool)INIntentSleepAlarmAttributeSlotValueTransformer;
+- (void)SCREENSHOT;
 - (id)ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBString *destinationName; // @synthesize destinationName=_destinationName;
-@property(nonatomic) int destinationType; // @synthesize destinationType=_destinationType;
-@property(retain, nonatomic) _INPBString *entityName; // @synthesize entityName=_entityName;
-@property(nonatomic) int entityType; // @synthesize entityType=_entityType;
-@property(readonly, nonatomic) _Bool hasDestinationName;
-@property(nonatomic) _Bool hasDestinationType;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

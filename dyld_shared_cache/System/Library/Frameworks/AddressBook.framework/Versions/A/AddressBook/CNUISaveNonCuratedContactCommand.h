@@ -12,12 +12,12 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)__TEXT;
 
 // Remaining properties
 @property(retain, nonatomic) CNUIUndoableCommand *command; // @synthesize command=_command;

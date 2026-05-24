@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView, _UIClickFeedbackGenerator;
-@protocol UIInteractionEffect, _UIClickInteractionDelegate, _UIClickInteractionDriving;
+@protocol _UIClickInteractionDriving;
 
 @interface _UIClickInteraction
 {
     _Bool _hapticsEnabled;
-    UIView *_view;
-    id <UIInteractionEffect> _interactionEffect;
-    id <_UIClickInteractionDelegate> _delegate;
-    double _allowableMovement;
-    id <_UIClickInteractionDriving> _driver;
-    _UIClickFeedbackGenerator *_feedbackGenerator;
-    Class _overrideDriverClass;
 }
 
 - (id);
 - (void);
 - (void);
-- (Class);
+- (Class)buildRequiredOnlyWithIdentifier:withDescriptor:withBundleIdentifier:withAppPackage:withAppPackageHashMD5: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -39,13 +31,13 @@
 × ;
 - (_Bool)°!4FùgÐ1Â0@ù
 × ;
-- (void)ield;
+- (void)optOutASPInTextField;
 - (void)ictionsOnMac;
 - (id)",C,N,V_boundarySupplementaryItems;
 - (double)<0Ð¼Ë;
 - (void)Method(nsImage, @selector(forwardingTargetForSelector:(_Bool)arg1 ), (IMP)NSImage_forwardingTargetForSelector, ((void*)0))" -> %llu;
-- (void)dius;
-- (void)on;
+- (void)RotaryFocusRingShadowRadius;
+- (void)_UIApplicationDidEndSnapshotSessionNotification;
 - (void)^;
 - (void):Ü(¬^ /* Error: Ran out of types for this method. */;
 - (void)_;
@@ -57,25 +49,7 @@
 - (id)HfLÿ·Óh;
 
 // Remaining properties
-@property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIClickInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <_UIClickInteractionDriving> driver; // @synthesize driver=_driver;
-@property(nonatomic) _Bool driverCancelsTouchesInView;
-@property(retain, nonatomic) _UIClickFeedbackGenerator *feedbackGenerator; // @synthesize feedbackGenerator=_feedbackGenerator;
-@property(nonatomic) _Bool hapticsEnabled; // @synthesize hapticsEnabled=_hapticsEnabled;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <UIInteractionEffect> interactionEffect; // @synthesize interactionEffect=_interactionEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<UIInteractionEffect>",?,&,N,V_interactionEffect
-
-@property(nonatomic, setter=_setOverrideDriverClass:) Class overrideDriverClass; // @synthesize overrideDriverClass=_overrideDriverClass;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

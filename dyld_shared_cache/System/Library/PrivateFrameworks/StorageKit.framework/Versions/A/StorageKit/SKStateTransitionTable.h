@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SKStateTransitionTable
 {
     NSMutableDictionary *_entriesMap;
-    id _selectorTarget;
 }
 
 + (id);
@@ -19,12 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)uz;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *entriesMap; // @synthesize entriesMap=_entriesMap;
-@property(retain, nonatomic) id selectorTarget; // @synthesize selectorTarget=_selectorTarget;
 
 @end
 

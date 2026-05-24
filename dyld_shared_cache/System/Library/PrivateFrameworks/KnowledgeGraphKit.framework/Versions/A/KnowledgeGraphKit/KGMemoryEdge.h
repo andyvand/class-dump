@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGMemoryNode, NSDictionary, NSSet, NSString;
-
 @interface KGMemoryEdge
 {
     unsigned long long _identifier;
-    NSSet *_labels;
-    KGMemoryNode *_targetNode;
-    KGMemoryNode *_sourceNode;
-    NSDictionary *_properties;
 }
 
-- (void);
+- (void)qA;
 - (id);
 - (id);
 - (id);
@@ -25,21 +19,10 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)EnergyModeModule;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSSet *labels; // @synthesize labels=_labels;
-@property(copy, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) KGMemoryNode *sourceNode; // @synthesize sourceNode=_sourceNode;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) KGMemoryNode *targetNode; // @synthesize targetNode=_targetNode;
 
 @end
 

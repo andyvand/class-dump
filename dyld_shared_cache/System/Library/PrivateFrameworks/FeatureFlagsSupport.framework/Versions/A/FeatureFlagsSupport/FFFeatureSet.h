@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FFFeatureSetIdentifier, NSArray;
+@class FFFeatureSetIdentifier;
 
 __attribute__((visibility("hidden")))
 @interface FFFeatureSet
 {
     FFFeatureSetIdentifier *_identifier;
-    NSArray *_features;
 }
 
-- (id);
+- (id)CIHueAdjust;
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)&;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *features; // @synthesize features=_features;
 @property(readonly, nonatomic) FFFeatureSetIdentifier *identifier; // @synthesize identifier=_identifier;
 
 @end

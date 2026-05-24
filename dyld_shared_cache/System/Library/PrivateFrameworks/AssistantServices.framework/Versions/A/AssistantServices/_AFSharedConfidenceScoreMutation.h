@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSharedConfidenceScore, NSString;
+@class AFSharedConfidenceScore;
 
 @interface _AFSharedConfidenceScoreMutation
 {
     AFSharedConfidenceScore *_base;
-    NSString *_sharedUserId;
-    unsigned long long _confidenceScore;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasSharedUserId:1;
-        unsigned int hasConfidenceScore:1;
-    } _mutationFlags;
 }
 
 - (unsigned long long);
@@ -23,17 +16,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)ToAnalyticsStream:(id)arg1 context:forEvent:contextNoCopy: /* Error: Ran out of types for this method. */;
-- (void)kRoute;
+- (id)submitMyriadMetricsToAnalyticsStream:(id)arg1 context:forEvent:contextNoCopy: /* Error: Ran out of types for this method. */;
+- (void)_playbackRoute;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

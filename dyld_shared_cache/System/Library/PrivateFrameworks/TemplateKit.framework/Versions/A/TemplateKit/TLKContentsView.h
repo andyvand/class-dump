@@ -6,26 +6,24 @@
 
 #import <TemplateKit/TLKStackView.h>
 
-@class NSMutableArray, TLKLabel;
+@class TLKLabel;
 
 __attribute__((visibility("hidden")))
 @interface TLKContentsView : TLKStackView
 {
     TLKLabel *_titleLabel;
-    NSMutableArray *_detailsLabels;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)enceEncoder;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *detailsLabels; // @synthesize detailsLabels=_detailsLabels;
 @property(retain, nonatomic) TLKLabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

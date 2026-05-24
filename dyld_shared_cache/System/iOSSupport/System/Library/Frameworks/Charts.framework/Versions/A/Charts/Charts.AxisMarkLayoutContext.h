@@ -9,6 +9,7 @@
 @interface Charts.AxisMarkLayoutContext : Charts.AxisMarkContext
 {
     id layout;
+    id;
 }
 
 @end

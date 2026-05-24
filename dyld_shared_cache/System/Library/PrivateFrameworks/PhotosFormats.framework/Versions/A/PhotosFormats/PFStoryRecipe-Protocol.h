@@ -5,21 +5,17 @@
 //
 
 @class NSDictionary, NSString;
-@protocol PFStoryRecipeSongAsset, PFStoryRecipeStyle;
+@protocol PFStoryRecipeLibrary, PFStoryRecipePresentation, PFStoryRecipeSongAsset;
 
 @protocol PFStoryRecipe
+- (id <PFStoryRecipeSongAsset>)6;
+- (id <PFStoryRecipePresentation>)&;
+- (id <PFStoryRecipeLibrary>);
+- (id <PFStoryRecipeSongAsset>);
+- (NSDictionary *)_TtCO10Accelerate4BNNS22TernaryArithmeticLayer;
+- (NSString *)`;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *autoEditDecisionLists;
 @property(readonly, copy, nonatomic) NSString *contentIdentifier;
-@property(readonly, copy, nonatomic) id <PFStoryRecipeStyle> currentStyle;
-@property(readonly, copy, nonatomic) id <PFStoryRecipeSongAsset> currentStyleSongAsset;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
-@property(readonly, nonatomic) long long majorVersion;
-@property(readonly, nonatomic) long long minorVersion;
-@property(readonly, nonatomic) long long numberOfAssets;
-@property(readonly, nonatomic) long long numberOfPresentations;
-@property(readonly, nonatomic) CDStruct_5d4c7ed3 overallDurationInfo;
-@property(readonly, copy, nonatomic) NSDictionary *seedSongIdentifiersByCatalog;
 @end
 

@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSDictionary, NSManagedObjectID, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface NSCKHistoryAnalyzerState : NSManagedObject
@@ -20,21 +20,10 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (long long);
 - (void);
-- (void);
+- (void)@%@%@%@%@%@%@>;
 
 // Remaining properties
-@property(readonly, nonatomic) NSManagedObjectID *analyzedObjectID;
 @property(retain, nonatomic) NSNumber *entityId; // @dynamic entityId;
-@property(retain, nonatomic) NSNumber *entityPK; // @dynamic entityPK;
-@property(readonly, nonatomic) long long estimatedSizeInBytes;
-@property(readonly, nonatomic) NSString *finalChangeAuthor; // @dynamic finalChangeAuthor;
-@property(readonly, nonatomic) long long finalChangeType;
-@property(retain, nonatomic) NSNumber *finalChangeTypeNum; // @dynamic finalChangeTypeNum;
-@property(readonly, nonatomic) NSNumber *finalTransactionNumber; // @dynamic finalTransactionNumber;
-@property(readonly, nonatomic) long long originalChangeType;
-@property(retain, nonatomic) NSNumber *originalChangeTypeNum; // @dynamic originalChangeTypeNum;
-@property(readonly, nonatomic) NSNumber *originalTransactionNumber; // @dynamic originalTransactionNumber;
-@property(readonly, nonatomic) NSDictionary *tombstone; // @dynamic tombstone;
 
 @end
 

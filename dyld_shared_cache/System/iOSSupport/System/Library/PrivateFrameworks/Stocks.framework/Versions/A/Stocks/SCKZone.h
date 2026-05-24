@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SCKZoneDiff, SCKZoneSchema;
+@class SCKZoneSchema;
 @protocol SCKZoneStore;
 
 @interface SCKZone
 {
     SCKZoneSchema *_schema;
-    id <SCKZoneStore> _store;
 }
 
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)"Q>;
+- (id);
+- (id)_ccGenericServices;
 - (id);
 - (void);
 - (void);
@@ -24,11 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) SCKZoneDiff *clientDiff;
-@property(readonly, copy, nonatomic) NSArray *clientRecords;
-@property(readonly, nonatomic, getter=isDirty) _Bool dirty;
-@property(readonly, nonatomic) _Bool needsFirstSync;
-@property(readonly, nonatomic) SCKZoneSchema *schema; // @synthesize schema=_schema;
 @property(retain, nonatomic) id <SCKZoneStore> store; // @synthesize store=_store;
 
 @end

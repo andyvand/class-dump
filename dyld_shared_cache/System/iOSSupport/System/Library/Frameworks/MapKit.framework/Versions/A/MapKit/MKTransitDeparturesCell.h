@@ -6,63 +6,9 @@
 
 #import <MapKit/MKCustomSeparatorCell.h>
 
-@class MKThemeMultiPartLabel, NSArray, NSDate, NSLayoutConstraint, NSMapTable, NSMutableDictionary, NSString, NSTimeZone, UIButton, UIImageView, UIStackView, _MKUILabel;
-@protocol MKTransitDeparturesCellDelegate;
-
 @interface MKTransitDeparturesCell : MKCustomSeparatorCell
 {
     unsigned long long _cellStyle;
-    NSMutableDictionary *_constraintsByCellStyle;
-    NSArray *_currentCellStyleConstraints;
-    UIImageView *_lineImageView;
-    UIImageView *_incidentIconImageView;
-    _MKUILabel *_primaryLabel;
-    MKThemeMultiPartLabel *_secondaryLabel;
-    MKThemeMultiPartLabel *_tertiaryLabel;
-    UIButton *_incidentButton;
-    _MKUILabel *_departureLabel;
-    _MKUILabel *_departureDetailLabel;
-    UIStackView *_departureStackView;
-    UIStackView *_secondaryTextStackView;
-    NSLayoutConstraint *_labelLeadingMarginConstraint;
-    _Bool _enforceMinimumDepartureLabelWidth;
-    NSLayoutConstraint *_minimumDepartureLabelWidthConstraint;
-    NSMapTable *_departureDependentConstraintsByView;
-    double _lineImageCenteringValue;
-    NSLayoutConstraint *_lineImageToContainerTrailingConstraint;
-    NSLayoutConstraint *_lineImageViewTopConstraint;
-    NSLayoutConstraint *_lineImageViewToBottomConstraint;
-    NSLayoutConstraint *_primaryToTopConstraint;
-    NSLayoutConstraint *_departureStackViewToBottomConstraint;
-    NSLayoutConstraint *_departureStackViewTopToPrimaryTopConstraint;
-    NSLayoutConstraint *_lineImageViewCenteringConstraint;
-    NSLayoutConstraint *_lineImageViewCenteringVerticalPaddingConstraint;
-    NSLayoutConstraint *_incidentIconHorizontalConstraint;
-    NSLayoutConstraint *_primaryToBottomConstraint;
-    NSLayoutConstraint *_secondaryStackToPrimaryConstraint;
-    NSLayoutConstraint *_secondaryStackToBottomConstraint;
-    NSLayoutConstraint *_lineImageToTextGutterConstraint;
-    NSLayoutConstraint *_lineImageLeadingConstraint;
-    NSLayoutConstraint *_lineImageCompressedLeadingConstraint;
-    UIImageView *_disclosureArrowImageView;
-    NSLayoutConstraint *_labelToDisclosureArrowConstraint;
-    NSLayoutConstraint *_lineImageViewHeightConstraint;
-    _Bool _showNoConnectionEmDash;
-    _Bool _showIncidentIcon;
-    _Bool _inactive;
-    _Bool _useCompressedGutter;
-    _Bool _useCompressedLeading;
-    _Bool _useMultilineDeparturesLabel;
-    double _lineImageViewSize;
-    NSArray *_departures;
-    unsigned long long _departureStyle;
-    NSDate *_countdownReferenceDate;
-    NSTimeZone *_departureTimeZone;
-    NSString *_incidentTitle;
-    id <MKTransitDeparturesCellDelegate> _delegate;
-    NSString *_operatingHours;
-    NSString *_frequency;
-    NSDate *_departureCutoffDate;
 }
 
 + (void);
@@ -82,13 +28,13 @@
 + (void);
 + (id);
 + (void);
-+ (double);
++ (double);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)%1;
 - (_Bool);
 - (void);
 - (void);
@@ -119,7 +65,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -133,9 +79,9 @@
 - (id);
 - (_Bool);
 - (double);
+- (double);
 - (double);
-- (double);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (void);
 - (void);
@@ -148,46 +94,30 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (id)a;
 - (void);
 - (void);
+- (void)Ȃ@9;
+- (void);
 - (double);
 - (id);
 - (struct CGSize);
 - (void);
 - (void);
 - (void);
-- (void)ction;
+- (void)developerPlaceCardGetDirectionsFooterAction;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *countdownReferenceDate; // @synthesize countdownReferenceDate=_countdownReferenceDate;
-@property(nonatomic) __weak id <MKTransitDeparturesCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSDate *departureCutoffDate; // @synthesize departureCutoffDate=_departureCutoffDate;
-@property(nonatomic) unsigned long long departureStyle; // @synthesize departureStyle=_departureStyle;
-@property(retain, nonatomic) NSTimeZone *departureTimeZone; // @synthesize departureTimeZone=_departureTimeZone;
-@property(retain, nonatomic) NSArray *departures; // @synthesize departures=_departures;
-@property(retain, nonatomic) NSString *frequency; // @synthesize frequency=_frequency;
-@property(nonatomic, getter=isInactive) _Bool inactive; // @synthesize inactive=_inactive;
-@property(copy, nonatomic) NSString *incidentTitle; // @synthesize incidentTitle=_incidentTitle;
-@property(readonly, nonatomic) double labelMargin;
 @property(nonatomic) double lineImageViewSize; // @synthesize lineImageViewSize=_lineImageViewSize;
-@property(retain, nonatomic) NSString *operatingHours; // @synthesize operatingHours=_operatingHours;
-@property(nonatomic, getter=isShowingIncidentIcon) _Bool showIncidentIcon; // @synthesize showIncidentIcon=_showIncidentIcon;
-@property(nonatomic, getter=isShowingNoConnectionEmDash) _Bool showNoConnectionEmDash; // @synthesize showNoConnectionEmDash=_showNoConnectionEmDash;
-@property(nonatomic) _Bool useCompressedGutter; // @synthesize useCompressedGutter=_useCompressedGutter;
-@property(nonatomic) _Bool useCompressedLeading; // @synthesize useCompressedLeading=_useCompressedLeading;
-@property(nonatomic) _Bool useMultilineDeparturesLabel; // @synthesize useMultilineDeparturesLabel=_useMultilineDeparturesLabel;
 
 @end
 

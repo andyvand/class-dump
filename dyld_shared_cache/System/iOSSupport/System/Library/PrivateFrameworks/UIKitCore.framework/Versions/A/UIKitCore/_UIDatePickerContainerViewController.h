@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSString, _UIDatePickerOverlayPresentation;
-
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerContainerViewController : UIViewController
 {
@@ -15,38 +13,29 @@ __attribute__((visibility("hidden")))
     double _keyboardAdjustmentOffset;
 }
 
+- (void)ay"24@"NSString"32C40@"NSString"44;
+- (void)40;
+- (CDUnknownBlockType)initWithFilteringController: /* Error: Ran out of types for this method. */;
+- (void)copyRecordIDsAndGUIDsPendingCloudKitDelete;
+- (double)copyChatsFromSortedIdentifiers:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)>",R,N,V_collaborationNoticeDispatcherQueue;
 - (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (double);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)t;
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool)0@ù
 × ;
 - (void)¿7_p;
-- (_Bool)date;
+- (_Bool)Update;
 - (void)"8;
 - (_Bool)ÔDaÿr;
 - (id)í_;
 - (void)ÐvxþX¾Ö;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double keyboardAdjustmentOffset; // @synthesize keyboardAdjustmentOffset=_keyboardAdjustmentOffset;
 @property(copy, nonatomic) CDUnknownBlockType pendingKeyboardAdjustment; // @synthesize pendingKeyboardAdjustment=_pendingKeyboardAdjustment;
-@property(readonly, nonatomic) _UIDatePickerOverlayPresentation *presentation;
-@property(readonly) Class superclass;
 
 @end
 

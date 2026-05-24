@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMEntity, NSDictionary, NSString;
+@class NSString;
 
 @interface BMEntityRelationshipEvent
 {
     NSString *_clientId;
-    NSString *_relationship;
-    BMEntity *_sourceEntity;
-    BMEntity *_targetEntity;
-    NSDictionary *_attributes;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -33,19 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
 @property(readonly, nonatomic) NSString *clientId; // @synthesize clientId=_clientId;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *relationship; // @synthesize relationship=_relationship;
-@property(readonly, nonatomic) BMEntity *sourceEntity; // @synthesize sourceEntity=_sourceEntity;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) BMEntity *targetEntity; // @synthesize targetEntity=_targetEntity;
 
 @end
 

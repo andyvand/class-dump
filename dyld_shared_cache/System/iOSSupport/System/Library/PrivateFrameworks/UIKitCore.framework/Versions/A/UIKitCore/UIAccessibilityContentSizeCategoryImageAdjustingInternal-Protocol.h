@@ -5,5 +5,6 @@
 //
 
 @protocol UIAccessibilityContentSizeCategoryImageAdjustingInternal
+- (double)groupPhotoCreationTime;
 @end
 

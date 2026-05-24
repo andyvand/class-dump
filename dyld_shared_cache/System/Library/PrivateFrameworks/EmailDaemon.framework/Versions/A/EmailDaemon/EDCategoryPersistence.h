@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDCategoryCoreAnalyticsLogger, EDPersistenceDatabase, EFLocked, NSString;
-@protocol EDCategoryChangeHookResponder;
+@class EDCategoryCoreAnalyticsLogger, EDPersistenceDatabase;
 
 @interface EDCategoryPersistence
 {
     EDCategoryCoreAnalyticsLogger *_analyticsLogger;
-    EDPersistenceDatabase *_database;
-    id <EDCategoryChangeHookResponder> _hookResponder;
-    EFLocked *_cachedCurrentCategorizationVersion;
 }
 
-+ (void);
++ (void);
 + (id);
 + (void);
 + (id);
@@ -39,18 +35,7 @@
 - (void):] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) EDCategoryCoreAnalyticsLogger *analyticsLogger; // @synthesize analyticsLogger=_analyticsLogger;
-@property(retain, nonatomic) EFLocked *cachedCurrentCategorizationVersion; // @synthesize cachedCurrentCategorizationVersion=_cachedCurrentCategorizationVersion;
-@property(readonly) long long currentCategorizationVersion;
 @property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <EDCategoryChangeHookResponder> hookResponder; // @synthesize hookResponder=_hookResponder;
-@property(readonly) Class superclass;
 
 @end
 

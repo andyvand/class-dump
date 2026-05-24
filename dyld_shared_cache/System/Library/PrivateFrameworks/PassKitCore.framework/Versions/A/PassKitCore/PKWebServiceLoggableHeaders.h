@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void)rksOrder;
+- (void)respectSupportedNetworksOrder;
 
 @end
 

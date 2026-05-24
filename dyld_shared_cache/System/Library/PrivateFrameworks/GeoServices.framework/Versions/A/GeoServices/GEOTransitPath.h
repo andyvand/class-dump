@@ -9,13 +9,12 @@
 @interface GEOTransitPath
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_legs;
 }
 
 + (Class);
-+ (_Bool)ion:(id)arg1;
++ (_Bool)setModuleDebugDescription:(id)arg1;
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -24,8 +23,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)ng app supports music haptics:(id)arg1 %@;
+- (void)isAdBlockerMatchedBeforeSetResultCompletion;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -33,14 +32,13 @@
 - (void);
 - (id)Qº*°1Â0@ù
 × ;
-- (id)cDetail;
-- (id)eType: /* Error: Ran out of types for this method. */;
-- (id)album_count;
+- (id)includeRouteTrafficDetail;
+- (id)StringAsPreferenceType: /* Error: Ran out of types for this method. */;
+- (id)photo_album_count;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *legs;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

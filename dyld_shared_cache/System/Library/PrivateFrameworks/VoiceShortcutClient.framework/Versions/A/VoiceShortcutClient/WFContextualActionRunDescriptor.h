@@ -6,19 +6,17 @@
 
 #import <VoiceShortcutClient/WFWorkflowRunDescriptor.h>
 
-@class WFContextualAction, WFContextualActionContext;
+@class WFContextualAction;
 
 @interface WFContextualActionRunDescriptor : WFWorkflowRunDescriptor
 {
     WFContextualAction *_action;
-    WFContextualActionContext *_context;
 }
 
 + (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) WFContextualAction *action; // @synthesize action=_action;
-@property(readonly, nonatomic) WFContextualActionContext *context; // @synthesize context=_context;
 
 @end
 

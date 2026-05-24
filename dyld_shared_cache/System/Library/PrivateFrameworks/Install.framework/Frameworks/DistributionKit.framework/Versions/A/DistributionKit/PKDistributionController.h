@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PKDistribution, PKDistributionEvaluator, PKProduct;
+@class PKDistribution;
 
 @interface PKDistributionController
 {
     PKDistribution *_distribution;
-    NSMutableDictionary *_choiceItemDictionary;
-    NSString *_interfaceType;
-    NSString *_localizedProductName;
-    PKDistributionEvaluator *_evaluator;
-    _Bool _isEvaluating;
-    PKProduct *_product;
-    NSMutableDictionary *_searchResultsByIdentifier;
 }
 
 + (id);
@@ -28,7 +21,6 @@
 
 // Remaining properties
 @property _Bool isEvaluating; // @synthesize isEvaluating=_isEvaluating;
-@property(copy) NSString *localizedProductName; // @synthesize localizedProductName=_localizedProductName;
 
 @end
 

@@ -6,22 +6,15 @@
 
 #import <BiomePubSub/BPSPublisher.h>
 
-@class NSMutableArray;
-@protocol BPSPublisher;
-
 @interface BPSZip : BPSPublisher
 {
     _Bool _nextIsB;
-    id <BPSPublisher> _a;
-    id <BPSPublisher> _b;
-    NSMutableArray *_eventsA;
-    NSMutableArray *_eventsB;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -29,19 +22,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)shouldCollectDiagnosticWithId: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <BPSPublisher> a; // @synthesize a=_a;
-@property(readonly, nonatomic) id <BPSPublisher> b; // @synthesize b=_b;
-@property(retain, nonatomic) NSMutableArray *eventsA; // @synthesize eventsA=_eventsA;
-@property(retain, nonatomic) NSMutableArray *eventsB; // @synthesize eventsB=_eventsB;
 @property(nonatomic) _Bool nextIsB; // @synthesize nextIsB=_nextIsB;
 
 @end

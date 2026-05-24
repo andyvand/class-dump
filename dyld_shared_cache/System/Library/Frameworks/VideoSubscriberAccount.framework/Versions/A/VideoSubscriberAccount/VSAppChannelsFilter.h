@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet;
+@class NSSet;
 
 @interface VSAppChannelsFilter
 {
     NSSet *_personalChannelIDs;
-    NSArray *_allChannelMappings;
-    NSSet *_personalAppAdamIDs;
-    NSSet *_genericAppAdamIDs;
-    NSDictionary *_appsByChannelID;
 }
 
 - (void);
@@ -24,19 +20,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id))!;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allChannelMappings; // @synthesize allChannelMappings=_allChannelMappings;
-@property(copy, nonatomic) NSDictionary *appsByChannelID; // @synthesize appsByChannelID=_appsByChannelID;
 @property(copy, nonatomic) NSSet *genericAppAdamIDs; // @synthesize genericAppAdamIDs=_genericAppAdamIDs;
-@property(copy, nonatomic) NSSet *personalAppAdamIDs; // @synthesize personalAppAdamIDs=_personalAppAdamIDs;
-@property(readonly, copy, nonatomic) NSArray *personalAppDescriptions;
-@property(copy, nonatomic) NSSet *personalChannelIDs; // @synthesize personalChannelIDs=_personalChannelIDs;
 
 @end
 

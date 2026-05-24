@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSArray, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface TCExternalResourceAccessor
 {
     NSURL *mDocumentURL;
-    NSString *mExtractorServiceName;
-    NSArray *mExternalResourceURLs;
-    NSDictionary *mAccessErrorsForExternalResourceURLs;
-    NSError *mError;
-    NSObject<OS_dispatch_queue> *mAccessorQueue;
-    NSObject<OS_xpc_object> *mAccessorConnection;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)y;
 - (_Bool);
 - (void);
 - (id);
-- (void)t;
+- (void)Hant;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=mError;
 @property(readonly, nonatomic) NSArray *externalResourceURLs; // @synthesize externalResourceURLs=mExternalResourceURLs;
 
 @end

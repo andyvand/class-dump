@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
 @protocol FCContentContext;
 
 @interface NUANFLinkedContentProvider
 {
     id <FCContentContext> _contentContext;
-    NSDictionary *_linkedHeadlines;
-    NSDictionary *_linkedTags;
-    NSDictionary *_linkedIssues;
 }
 
 - (id);
@@ -31,20 +27,10 @@
 - (id);
 - (id);
 - (void);
-- (id)ion: /* Error: Ran out of types for this method. */;
+- (id)setCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDictionary *linkedHeadlines; // @synthesize linkedHeadlines=_linkedHeadlines;
-@property(copy, nonatomic) NSDictionary *linkedIssues; // @synthesize linkedIssues=_linkedIssues;
-@property(copy, nonatomic) NSDictionary *linkedTags; // @synthesize linkedTags=_linkedTags;
-@property(readonly) Class superclass;
 
 @end
 

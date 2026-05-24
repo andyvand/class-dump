@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSNumber, PKTextInputElement;
-@protocol PKTextInputWritingSessionDelegate;
+@class NSNumber;
 
 @interface PKTextInputWritingSession
 {
     _Bool _isInvalidated;
-    NSMutableSet *_pendingWritingEndedElements;
-    _Bool _didSuppressGesturesOverReservedSpace;
-    NSNumber *_sessionIdentifier;
-    PKTextInputElement *_currentTargetElement;
-    id <PKTextInputWritingSessionDelegate> _delegate;
-    double _beginTimestamp;
 }
 
 - (void);
@@ -31,8 +24,8 @@
 - (void);
 - (void);
 - (double);
-- (void);
-- (id);
+- (void)UnfilledReasonInternal;
+- (id);
 - (id);
 - (void);
 - (id);
@@ -41,10 +34,6 @@
 - (id)Ì;
 
 // Remaining properties
-@property(readonly, nonatomic) double beginTimestamp; // @synthesize beginTimestamp=_beginTimestamp;
-@property(retain, nonatomic) PKTextInputElement *currentTargetElement; // @synthesize currentTargetElement=_currentTargetElement;
-@property(nonatomic) __weak id <PKTextInputWritingSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool didSuppressGesturesOverReservedSpace; // @synthesize didSuppressGesturesOverReservedSpace=_didSuppressGesturesOverReservedSpace;
 @property(readonly, nonatomic) NSNumber *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end

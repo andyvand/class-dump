@@ -6,7 +6,7 @@
 
 @interface UnknownClass (AK_Additions)
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 @end

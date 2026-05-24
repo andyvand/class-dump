@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfiguration, NSArray, NSString, NSUUID;
-@protocol NERelayManagerDelegate;
+@class NSUUID;
 
 @interface NERelayManager
 {
     _Bool _isShared;
-    _Bool _hasLoaded;
-    _Bool _notificationSent;
-    NEConfiguration *_configuration;
-    id <NERelayManagerDelegate> _delegate;
 }
 
 + (void);
@@ -21,7 +16,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,36 +34,23 @@
 - (id);
 - (void);
 - (void);
+- (id)addPairingDelegate: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)nInfo",R,V_sessionInfo;
+- (_Bool)delay;
 - (void);
-- (id);
+- (id)!;
 - (void);
-- (id);
+- (id)dataValue;
 - (void)
 × ;
 - (void)0:8@"NSString"16@"NSString"24q32@"NSString"40@?<v@?@"NEBundleProxy">48 /* Error: Ran out of types for this method. */;
-- (id)nterfaceEflags;
+- (id)_interfaceEflags;
 - (id)d $@ for GSPM;
 
 // Remaining properties
-@property(getter=isUIToggleEnabled) _Bool UIToggleEnabled;
-@property(getter=isDNSFailoverAllowed) _Bool allowDNSFailover;
-@property(readonly, nonatomic) NSString *appBundleIdentifier;
-@property __weak id <NERelayManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(getter=isEnabled) _Bool enabled;
-@property(copy) NSArray *excludedDomains;
-@property(copy) NSArray *excludedFQDNs;
-@property(readonly, nonatomic, getter=isFromProfile) _Bool fromProfile;
 @property(readonly, nonatomic) NSUUID *identifier;
-@property(copy) NSString *localizedDescription;
-@property(copy) NSArray *matchDomains;
-@property(copy) NSArray *matchFQDNs;
-@property(copy) NSArray *onDemandRules;
-@property(retain) NSArray *relays;
 
 @end
 

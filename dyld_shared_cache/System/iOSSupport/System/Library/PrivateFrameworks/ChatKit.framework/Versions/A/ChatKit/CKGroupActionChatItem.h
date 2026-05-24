@@ -6,15 +6,13 @@
 
 #import <ChatKit/CKStampButtonChatItem.h>
 
-@class IMHandle, NSArray, NSString;
-
 @interface CKGroupActionChatItem : CKStampButtonChatItem
 {
 }
 
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)v32@?0{?=qiIq}8;
 - (id);
 - (_Bool);
 - (id);
@@ -24,10 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long actionType;
-@property(readonly, nonatomic) NSString *errorText;
-@property(readonly, nonatomic) _Bool failed;
-@property(readonly, nonatomic) NSArray *fileTransferGUIDs;
-@property(readonly, nonatomic) IMHandle *sender;
 
 @end
 

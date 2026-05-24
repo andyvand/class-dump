@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface CMDiagramShapeHierarchyMapper : CMDiagramShapeMapper
 {
     NSMutableDictionary *mNodeInfoMap;
-    _Bool mIsLayered;
 }
 
 - (struct CGSize);
@@ -25,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)q`;
 - (void);
 - (struct CGRect);
 - (void);

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_handlersByMessageID;
 }
 
-- (id);
+- (id)unable to get the raw bytes of the cache directory path %@;
 - (void);
 
 @end

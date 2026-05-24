@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringPredicate, BKSHIDEventDeferringTarget, NSSet, NSString, _BKSHIDEventDeferringRuleIdentity;
+@class BKSHIDEventDeferringPredicate, _BKSHIDEventDeferringRuleIdentity;
 
 @interface BKSHIDEventDeferringRule
 {
     _BKSHIDEventDeferringRuleIdentity *_identity;
-    BKSHIDEventDeferringPredicate *_predicate;
-    NSSet *_restrictedToEventDescriptors;
-    BKSHIDEventDeferringTarget *_target;
-    NSString *_reason;
 }
 
 + (id);
@@ -20,12 +16,12 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)setBacklogged:(id)arg1;
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)NSObjectV:] /* Error: Ran out of types for this method. */;
+- (id)unionSet:(id)arg1;
 - (unsigned long long);
 - (id);
 - (void);
@@ -34,22 +30,11 @@
 - (void);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long);
+- (void),;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) _BKSHIDEventDeferringRuleIdentity *identity; // @synthesize identity=_identity;
 @property(readonly, copy, nonatomic) BKSHIDEventDeferringPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly, copy, nonatomic) NSSet *restrictedToEventDescriptors; // @synthesize restrictedToEventDescriptors=_restrictedToEventDescriptors;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) BKSHIDEventDeferringTarget *target; // @synthesize target=_target;
 
 @end
 

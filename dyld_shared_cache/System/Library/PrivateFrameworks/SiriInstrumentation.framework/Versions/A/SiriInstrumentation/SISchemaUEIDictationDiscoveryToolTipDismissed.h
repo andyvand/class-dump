@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIDictationDiscoveryToolTipDismissed : SISchemaInstrumentationMessage
 {
     int _dismissalReason;
-    CDStruct_bdc5678a _has;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (int);
+- (int)P;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)adoptableBundleIdentifiersWithReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)IMDCopyGUIDForImportedChat;
 - (id);
 - (id);
-- (id)dex;
-- (id)t;
+- (id)deleteEndUnicodeScalarIndex;
+- (id)_hasAncClientEvent;
 
 // Remaining properties
 @property(nonatomic) int dismissalReason; // @synthesize dismissalReason=_dismissalReason;
-@property(nonatomic) _Bool hasDismissalReason;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

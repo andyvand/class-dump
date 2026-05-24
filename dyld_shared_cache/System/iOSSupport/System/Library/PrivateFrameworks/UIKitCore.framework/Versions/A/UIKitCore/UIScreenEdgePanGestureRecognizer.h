@@ -6,48 +6,40 @@
 
 #import <UIKitCore/UIPanGestureRecognizer.h>
 
-@class NSString, _UIAssertionController, _UISEGestureFeatureSettings, _UISEMuxGestureFeature;
-@protocol _UIInvalidatable;
+@class _UISEGestureFeatureSettings;
 
 @interface UIScreenEdgePanGestureRecognizer : UIPanGestureRecognizer
 {
     _UISEGestureFeatureSettings *_settings;
-    CDUnknownBlockType _createFeatureBlock;
-    _UISEMuxGestureFeature *_rootFeature;
-    unsigned long long _touchedEdges;
-    _Bool _recognizesWithoutEdge;
-    id <_UIInvalidatable> _mustIgnoreHIDEdgeFlagsAssertion;
-    _UIAssertionController *_ignoreHIDEdgeFlagsAssertionController;
-    unsigned long long _edges;
 }
 
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool)ripleTap;
++ (_Bool)UITextInteractionNameTripleTap;
 - (void);
-- (void);
+- (void)payloadAllowCloudDesktopAndDocuments;
 - (id);
-- (id);
-- (void)lowOrthogonalScrollingContainer:(id)arg1;
-- (void)eAction;
-- (void)AtOffset:(id)arg1 fromKey:(id)arg2;
+- (id)setPassthroughViews:(id)arg1;
+- (void)elementShouldAppearBelowOrthogonalScrollingContainer:(id)arg1;
+- (void)activateAction;
+- (void)targetKeyIndexAtOffset:(id)arg1 fromKey:(id)arg2;
 - (double)ronShimmerColor;
 - (void)utgoingAnimationPreview;
 - (long long)on",&,N,V_separatorConfiguration;
-- (void)d;
+- (void)_UIViewLFLDVariableChangeRecord;
 - (_Bool)Ly´y<z<{¼{|}D};
 - (unsigned long long)üu;
 - (void)<°$ôhÜPÄ8¬  ,¡ ¡°;
 - (id)ÈÒ©;
 - (void)e screens:(double)arg1 %{public}s:%{public}p; from %{public}@ to %{public}@; scene identity:%{public}s /* Error: Ran out of types for this method. */;
 - (_Bool)Pæþp}þÿdeìÿ;
-- (unsigned long long)Backdrop;
+- (unsigned long long)warpBackdrop;
 - (double)VectorTextLayoutGlyph>"8^B16;
 - (id)ory _Nonnull);
 - (_Bool)d of UICollectionViewCell but found %@.;
 - (double)le one already exists.;
-- (void)id;
+- (void)Invalid;
 - (void)ínþ13Tôÿý13xínþý13þþ13pì¸þ;
 - (void)ej33þUj33¸þ;
 - (void)\G;
@@ -59,14 +51,7 @@
 - (void)Àÿ£/Ýh;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long edges; // @synthesize edges=_edges;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

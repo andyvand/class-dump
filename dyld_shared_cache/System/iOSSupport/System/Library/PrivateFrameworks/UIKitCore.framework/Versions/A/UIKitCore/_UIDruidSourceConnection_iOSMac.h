@@ -4,49 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol UINSDragOperationMasks, UINSDragSession;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIDruidSourceConnection_iOSMac
 {
     NSArray *_itemProviders;
-    CDUnknownBlockType _beginDragCompletion;
-    id <UINSDragSession> _remoteSession;
-    id <UINSDragOperationMasks> _remoteOperationMasks;
-    _Bool _droppedWithDataTransferringOperation;
-    _Bool _dataTransferSupposedlyFinished;
-    CDUnknownBlockType _dragPreviewProviderBlock;
-    CDUnknownBlockType _dragCompletionBlock;
-    CDUnknownBlockType _dataTransferFinishedBlock;
-    CDUnknownBlockType _updatedPresentationBlock;
-    CDUnknownBlockType _canHandOffCancelledItemsBlock;
-    CDUnknownBlockType _handOffCancelledItemsBlock;
 }
 
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
+- (void)y">16;
+- (void)24B32B36B40;
+- (void)6@44q52@60B68q72;
+- (void)8@56@64@72B80B84;
+- (void)eID:(CDUnknownBlockType)arg1 messageDate: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_remergeChats: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_convertIMMessageItemToOutgoingRelayDictionary:chat: /* Error: Ran out of types for this method. */;
+- (void)_convergesParticipantsForReplicationService: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)_constructRecoverableMessageRecordIDUsingTombStoneDictionary: /* Error: Ran out of types for this method. */;
+- (void)_beginExitStateCleanupIfNeededWithActivity:(id)arg1;
+- (CDUnknownBlockType)TimingCollection",&,N,V_timingComingBackFromStorage;
+- (CDUnknownBlockType)IMDiMessageIDSTrustedData;
+- (void);
+- (void), and encryption key of size %lu to disk;
+- (void)e"16^B24;
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)?;
 - (void);
 - (id);
 - (void);
@@ -54,26 +42,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void)âÕ\;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType canHandOffCancelledItemsBlock; // @synthesize canHandOffCancelledItemsBlock=_canHandOffCancelledItemsBlock;
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(copy, nonatomic) CDUnknownBlockType dataTransferFinishedBlock; // @synthesize dataTransferFinishedBlock=_dataTransferFinishedBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType dragCompletionBlock; // @synthesize dragCompletionBlock=_dragCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType dragPreviewProviderBlock; // @synthesize dragPreviewProviderBlock=_dragPreviewProviderBlock;
-@property(copy, nonatomic) CDUnknownBlockType handOffCancelledItemsBlock; // @synthesize handOffCancelledItemsBlock=_handOffCancelledItemsBlock;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <UINSDragOperationMasks> operationMasks;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType updatedPresentationBlock; // @synthesize updatedPresentationBlock=_updatedPresentationBlock;
 
 @end
 

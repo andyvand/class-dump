@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface HMDUIDialogPresenter
 {
     struct os_unfair_lock_s _lock;
-    _Bool _selectedByPeerDevice;
-    _Bool _peerDeviceAcceptedSelection;
-    struct __CFUserNotification *_currentNotification;
-    id _currentContext;
-    NSMutableArray *_pendingContexts;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
@@ -28,38 +19,38 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct __CFUserNotification *);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void)cation body, generic;
+- (void)fication subtitle;
+- (void)ring;
+- (void)dy when resuming sharing, generic;
+- (void)ping at an intermediate waypoint, generic;
+- (void)int;
+- (void)their destination.;
+- (struct __CFUserNotification *)h:61J /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)jR;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)R;
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -70,19 +61,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (void);
-- (id)WithInstanceID: /* Error: Ran out of types for this method. */;
-- (void)ConfigurationGeneral;
+- (id)pr_findCharacteristicWithInstanceID: /* Error: Ran out of types for this method. */;
+- (void)kSelectedConfigurationGeneral;
 
 // Remaining properties
-@property(retain, nonatomic) id currentContext; // @synthesize currentContext=_currentContext;
 @property(nonatomic) struct __CFUserNotification *currentNotification; // @synthesize currentNotification=_currentNotification;
-@property(nonatomic) _Bool peerDeviceAcceptedSelection; // @synthesize peerDeviceAcceptedSelection=_peerDeviceAcceptedSelection;
-@property(retain, nonatomic) NSMutableArray *pendingContexts; // @synthesize pendingContexts=_pendingContexts;
-@property(nonatomic) _Bool selectedByPeerDevice; // @synthesize selectedByPeerDevice=_selectedByPeerDevice;
-@property(readonly, nonatomic) _Bool shouldSkipAuthPromptDialog;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -7,39 +7,27 @@
 @interface RTLearnedRouteCompoundRouteMetrics
 {
     float _compoundRoutesDistanceBetweenAdjacentCompoundTripSegmentsAvg;
-    float _compoundRoutesNumDriveSegmentsCompoundedAvg;
-    int _compoundRoutesNumFailureDrivesTooFar;
-    int _compoundRoutesNumFailureDrivesTooLong;
-    int _compoundRoutesNumFailureDrivesTooMany;
-    int _compoundRoutesNumFailureTripSegments;
-    int _compoundRoutesNumSuccessTripSegments;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)anateePrivateKey";
+- (int)-;
 - (int);
 - (int);
 - (int);
 - (int);
-- (int);
-- (float);
+- (float);
 - (float);
 - (id);
 
 // Remaining properties
 @property float compoundRoutesDistanceBetweenAdjacentCompoundTripSegmentsAvg; // @synthesize compoundRoutesDistanceBetweenAdjacentCompoundTripSegmentsAvg=_compoundRoutesDistanceBetweenAdjacentCompoundTripSegmentsAvg;
-@property float compoundRoutesNumDriveSegmentsCompoundedAvg; // @synthesize compoundRoutesNumDriveSegmentsCompoundedAvg=_compoundRoutesNumDriveSegmentsCompoundedAvg;
-@property int compoundRoutesNumFailureDrivesTooFar; // @synthesize compoundRoutesNumFailureDrivesTooFar=_compoundRoutesNumFailureDrivesTooFar;
-@property int compoundRoutesNumFailureDrivesTooLong; // @synthesize compoundRoutesNumFailureDrivesTooLong=_compoundRoutesNumFailureDrivesTooLong;
-@property int compoundRoutesNumFailureDrivesTooMany; // @synthesize compoundRoutesNumFailureDrivesTooMany=_compoundRoutesNumFailureDrivesTooMany;
-@property int compoundRoutesNumFailureTripSegments; // @synthesize compoundRoutesNumFailureTripSegments=_compoundRoutesNumFailureTripSegments;
-@property int compoundRoutesNumSuccessTripSegments; // @synthesize compoundRoutesNumSuccessTripSegments=_compoundRoutesNumSuccessTripSegments;
 
 @end
 

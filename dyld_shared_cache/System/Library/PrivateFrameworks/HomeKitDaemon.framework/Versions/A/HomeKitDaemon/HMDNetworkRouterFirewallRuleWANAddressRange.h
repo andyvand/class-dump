@@ -10,20 +10,18 @@ __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleWANAddressRange
 {
     HMFNetAddress *_addressStart;
-    HMFNetAddress *_addressEnd;
 }
 
-- (id);
-- (id);
+- (id)nListener"16@"GEOComposedRoute"24;
+- (id)lable:(id)arg1 ];
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id)cause stream never started;
-- (void)IC_WIFI_CREDENTIAL_REMOVAL_CONFIRM_DETAIL;
+- (void)ACCESSORY_WITH_SPECIFIC_WIFI_CREDENTIAL_REMOVAL_CONFIRM_DETAIL;
 
 // Remaining properties
-@property(readonly, nonatomic) HMFNetAddress *addressEnd; // @synthesize addressEnd=_addressEnd;
 @property(readonly, nonatomic) HMFNetAddress *addressStart; // @synthesize addressStart=_addressStart;
 
 @end

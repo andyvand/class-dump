@@ -9,16 +9,15 @@
 @interface NEIPv4Route
 {
     NSString *_destinationAddress;
-    NSString *_destinationSubnetMask;
-    NSString *_gatewayAddress;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)setPreferInfraWiFi:service: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)# Decode start request failed:(id)arg1 %#m
+;
 - (void);
 - (id);
 - (void);
@@ -27,13 +26,11 @@
 - (_Bool);
 - (id);
 - (void)2;
-- (_Bool)tifier;
+- (_Bool)profileIdentifier;
 - (id)KE Auth (EAP) packet (connect);
 
 // Remaining properties
 @property(readonly) NSString *destinationAddress; // @synthesize destinationAddress=_destinationAddress;
-@property(readonly) NSString *destinationSubnetMask; // @synthesize destinationSubnetMask=_destinationSubnetMask;
-@property(copy) NSString *gatewayAddress; // @synthesize gatewayAddress=_gatewayAddress;
 
 @end
 

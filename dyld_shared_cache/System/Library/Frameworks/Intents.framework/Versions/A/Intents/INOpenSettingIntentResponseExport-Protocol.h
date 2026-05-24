@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol INOpenSettingIntentResponseExport
-- (long long)asFiring;
+- (long long)hasFiring;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSString *errorDetail;
-@property(copy) NSString *punchoutUrl;
 @end
 

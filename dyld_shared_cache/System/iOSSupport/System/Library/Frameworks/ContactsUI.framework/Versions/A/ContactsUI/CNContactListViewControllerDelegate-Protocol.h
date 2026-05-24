@@ -5,5 +5,11 @@
 //
 
 @protocol CNContactListViewControllerDelegate
+
+@optional
+- (_Bool);
+- (void);
+- (_Bool)tch_queueCGAMGG;
+- (void)S;
 @end
 

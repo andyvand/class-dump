@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBStringEnumDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
-    CDUnknownFunctionPointerType _validationFunc;
 }
 
-- (id);
+- (id)tModified;
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)x	;
 - (void);
 - (id);
 - (CDUnknownFunctionPointerType);
@@ -27,7 +25,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)_SFPBTextColumnSection;
 - (void);
 - (id);
 - (void);
@@ -38,11 +36,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)dictionBattery;
+- (void)CoreosPredictionBattery;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType validationFunc; // @synthesize validationFunc=_validationFunc;
 
 @end
 

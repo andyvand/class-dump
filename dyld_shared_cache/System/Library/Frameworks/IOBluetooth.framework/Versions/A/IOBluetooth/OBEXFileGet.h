@@ -11,7 +11,6 @@
 @interface OBEXFileGet : OBEXFileAction
 {
     NSString *mLocalGetPath;
-    NSString *mRemoteFileName;
 }
 
 + (id);
@@ -21,8 +20,8 @@
 - (int);
 - (int);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 
 @end
 

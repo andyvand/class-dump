@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolNetworkHeaders, RWIProtocolSecurityConnection;
+@class NSString;
 
 @interface RWIProtocolNetworkMetrics : RWIProtocolJSONObject
 {
@@ -26,9 +26,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)B;
 - (double);
-- (_Bool);
+- (_Bool)`;
 - (void);
 - (void);
 - (void);
@@ -38,18 +38,7 @@
 - (long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *connectionIdentifier;
-@property(nonatomic) _Bool isProxyConnection;
-@property(nonatomic) long long priority;
 @property(copy, nonatomic) NSString *protocol;
-@property(copy, nonatomic) NSString *remoteAddress;
-@property(nonatomic) double requestBodyBytesSent;
-@property(nonatomic) double requestHeaderBytesSent;
-@property(retain, nonatomic) RWIProtocolNetworkHeaders *requestHeaders;
-@property(nonatomic) double responseBodyBytesReceived;
-@property(nonatomic) double responseBodyDecodedSize;
-@property(nonatomic) double responseHeaderBytesReceived;
-@property(retain, nonatomic) RWIProtocolSecurityConnection *securityConnection;
 
 @end
 

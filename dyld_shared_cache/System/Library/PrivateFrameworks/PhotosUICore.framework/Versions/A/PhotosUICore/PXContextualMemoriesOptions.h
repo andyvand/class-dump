@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface PXContextualMemoriesOptions
 {
     double _accuracy;
-    NSDate *_peopleProximityDate;
 }
 
 - (void);
@@ -21,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic) double accuracy; // @synthesize accuracy=_accuracy;
-@property(retain, nonatomic) NSDate *peopleProximityDate; // @synthesize peopleProximityDate=_peopleProximityDate;
 
 @end
 

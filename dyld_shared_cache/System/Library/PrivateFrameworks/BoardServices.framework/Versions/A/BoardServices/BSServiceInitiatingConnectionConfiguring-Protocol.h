@@ -5,5 +5,6 @@
 //
 
 @protocol BSServiceInitiatingConnectionConfiguring
+- (void)tokenSession:(void (^)(BSServiceInitiatingConnection<BSServiceConnectionContext> *))arg1 signData:usingKey:algorithm:error: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_io, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface TSUFileIOChannel
 {
     NSObject<OS_dispatch_queue> *_ioQueue;
-    NSObject<OS_dispatch_io> *_channel;
-    _Bool _isClosed;
 }
 
 - (void);
 - (void);
+- (void)H;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@9;
 - (id);
 - (id);
 - (id);
@@ -30,24 +28,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)�
+;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void)ercentage;
+- (void)percentage;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isValid;
-@property(readonly) Class superclass;
 
 @end
 

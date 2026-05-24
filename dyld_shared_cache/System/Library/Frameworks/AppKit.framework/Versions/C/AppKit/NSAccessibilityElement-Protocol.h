@@ -9,6 +9,7 @@
 @protocol NSAccessibilityElement
 
 @optional
+- (_Bool)RotateToWakeSupported;
 - (NSString *)against %@ at %@;
 @end
 

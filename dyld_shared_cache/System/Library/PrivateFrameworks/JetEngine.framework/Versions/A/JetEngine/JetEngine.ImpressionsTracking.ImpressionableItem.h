@@ -7,14 +7,6 @@
 @interface JetEngine.ImpressionsTracking.ImpressionableItem
 {
     id visibleThreshold;
-    id overrideVisibleThresholdForContainer;
-    id impressionPoints;
-    id metrics;
-    id position;
-    id state;
-    id childImpressionsCalculator;
-    id isContainer;
-    id itemFrame;
 }
 
 @end

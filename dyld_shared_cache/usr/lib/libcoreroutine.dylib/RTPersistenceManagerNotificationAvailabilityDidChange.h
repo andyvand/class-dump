@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)didate pair to LinkEngine;
 - (unsigned long long);
 
 // Remaining properties

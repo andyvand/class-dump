@@ -8,20 +8,15 @@ __attribute__((visibility("hidden")))
 @interface AVPresentationContextTransition
 {
     _Bool _wasInitiallyInteractive;
-    _Bool _hasAVKitAnimator;
-    _Bool _wasCancelledWithInactiveScene;
-    unsigned long long _presenterSupportedOrientations;
-    long long _initialInterfaceOrientation;
-    long long _finalInterfaceOrientation;
 }
 
+- (_Bool)G;
 - (_Bool);
-- (_Bool);
+- (void).G;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void).G;
 - (_Bool);
 - (unsigned long long);
 - (long long);
@@ -34,15 +29,6 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGAffineTransform counterRotationTransform;
-@property(nonatomic) long long finalInterfaceOrientation; // @synthesize finalInterfaceOrientation=_finalInterfaceOrientation;
-@property(nonatomic) _Bool hasAVKitAnimator; // @synthesize hasAVKitAnimator=_hasAVKitAnimator;
-@property(nonatomic) long long initialInterfaceOrientation; // @synthesize initialInterfaceOrientation=_initialInterfaceOrientation;
-@property(readonly, nonatomic) long long interfaceRotation;
-@property(readonly, nonatomic) _Bool isRotated;
-@property(nonatomic) unsigned long long presenterSupportedOrientations; // @synthesize presenterSupportedOrientations=_presenterSupportedOrientations;
-@property(readonly, nonatomic) struct CGAffineTransform rotationTransform;
-@property(nonatomic) _Bool wasCancelledWithInactiveScene; // @synthesize wasCancelledWithInactiveScene=_wasCancelledWithInactiveScene;
 @property(nonatomic) _Bool wasInitiallyInteractive; // @synthesize wasInitiallyInteractive=_wasInitiallyInteractive;
 
 @end

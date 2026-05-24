@@ -7,7 +7,6 @@
 @interface PromotedContent.ImageDownloader
 {
     id $defaultActor;
-    id cache;
 }
 
 @end

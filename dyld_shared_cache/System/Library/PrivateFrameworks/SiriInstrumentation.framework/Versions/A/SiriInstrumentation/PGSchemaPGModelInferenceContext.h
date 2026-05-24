@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PGSchemaPGModelInferenceEnded, PGSchemaPGModelInferenceFailed, PGSchemaPGModelInferenceStarted, SISchemaUUID;
+@class PGSchemaPGModelInferenceStarted;
 
 @interface PGSchemaPGModelInferenceContext : SISchemaInstrumentationMessage
 {
     PGSchemaPGModelInferenceStarted *_startedOrChanged;
-    PGSchemaPGModelInferenceEnded *_ended;
-    PGSchemaPGModelInferenceFailed *_failed;
-    SISchemaUUID *_traceId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasTraceId;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -36,7 +28,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -44,28 +36,19 @@
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)3;
 - (_Bool);
-- (_Bool);
+- (_Bool)eID[%lld];
 - (id);
 - (id)rÐ!<CùÝð1Â0@ù
 × ;
-- (id)sPlacemark;
+- (id)_hasPlacemark;
 - (id)leIdentifier;
-- (void)act;
+- (void)userAsrScoreTargetContact;
 - (id)­T$;
 
 // Remaining properties
-@property(retain, nonatomic) PGSchemaPGModelInferenceEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) PGSchemaPGModelInferenceFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(nonatomic) _Bool hasTraceId; // @synthesize hasTraceId=_hasTraceId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PGSchemaPGModelInferenceStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(retain, nonatomic) SISchemaUUID *traceId; // @synthesize traceId=_traceId;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

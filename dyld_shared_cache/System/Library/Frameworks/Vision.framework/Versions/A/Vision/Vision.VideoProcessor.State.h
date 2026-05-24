@@ -7,8 +7,6 @@
 @interface Vision.VideoProcessor.State
 {
     id $defaultActor;
-    id isCancelled;
-    id requests;
 }
 
 @end

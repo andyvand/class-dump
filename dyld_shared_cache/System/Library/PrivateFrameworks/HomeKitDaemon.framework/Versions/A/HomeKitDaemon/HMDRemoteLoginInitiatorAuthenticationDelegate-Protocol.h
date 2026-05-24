@@ -5,5 +5,6 @@
 //
 
 @protocol HMDRemoteLoginInitiatorAuthenticationDelegate
+- (void)_simulatesClearingDiscardableDataAfterOperations;
 @end
 

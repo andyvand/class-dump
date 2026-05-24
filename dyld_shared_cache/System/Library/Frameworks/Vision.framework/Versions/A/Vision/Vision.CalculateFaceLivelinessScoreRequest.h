@@ -7,10 +7,6 @@
 @interface Vision.CalculateFaceLivelinessScoreRequest
 {
     id revision;
-    id uuid;
-    id state;
-    id supportedComputeStageDevices;
-    id configuration;
 }
 
 @end

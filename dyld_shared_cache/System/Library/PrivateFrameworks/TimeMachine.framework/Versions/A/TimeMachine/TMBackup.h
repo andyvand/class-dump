@@ -6,32 +6,18 @@
 
 #import <TimeMachine/TMStructure.h>
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface TMBackup : TMStructure
 {
     NSString *_snapshotVolumeIdentifier;
-    int _snapshotState;
-    NSNumber *_totalBytesCopied;
-    NSNumber *_snapshotNumber;
-    NSNumber *_backupVersion;
-    _Bool _isInWorkingSet;
-    NSDate *_attemptStartDate;
-    unsigned long long _attemptStartEventID;
-    unsigned long long _attemptStartFileID;
-    NSDate *_dateStarted;
-    NSDate *_dateCompleted;
-    unsigned long long _dateStartedAsInt;
-    unsigned long long _dateCompletedAsInt;
-    unsigned long long _state;
-    unsigned long long _maximumFileID;
 }
 
 + (unsigned short);
 + (unsigned long long);
 + (void);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);

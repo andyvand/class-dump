@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDResultRefinementMetadata, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCandidateFilterReason
 {
     PBUnknownFields *_unknownFields;
-    GEOPDResultRefinementMetadata *_sortMetadata;
-    int _reasonType;
-    float _viewportExpansionFactor;
-    struct {
-        unsigned int has_reasonType:1;
-        unsigned int has_viewportExpansionFactor:1;
-    } _flags;
 }
 
 - (id);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)unknownFields"b1"read_imageUrl"b1"read_providerImageId"b1"wrote_anyField"b1};
-- (id)dernPrimaryCategory;
+- (id)_businessCardModernPrimaryCategory;
 - (id)¬ÚrØ)´HÜrì)´Þr*´°âr*´çrè*´|ér4+´Dñrä+´ìòrø+´ør|,´4ûrÈ,´Dýr-´;
 - (void);
 

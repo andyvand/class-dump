@@ -6,22 +6,9 @@
 
 #import <Montreal/MontrealNNDescription.h>
 
-@class MontrealNNModelQuantization, NSArray, NSDictionary, NSString;
-
 @interface MontrealNNModelNode : MontrealNNDescription
 {
     _Bool _parametersSet;
-    NSString *_nodeStr;
-    NSArray *_activations;
-    NSString *_name;
-    NSDictionary *_properties;
-    NSArray *_inputs;
-    NSArray *_inputsWithDimensions;
-    NSArray *_outputs;
-    NSArray *_outputsWithDimensions;
-    NSArray *_weights;
-    MontrealNNModelQuantization *_quantization;
-    CDStruct_96916c69 _parameters;
 }
 
 - (void);
@@ -29,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (CDStruct_96916c69);
+- (_Bool)E;
+- (CDStruct_7136673c);
 - (id);
 - (void);
 - (id);
@@ -39,8 +26,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)3;
+- (id)#q;
 - (id);
 - (id);
 - (id);
@@ -49,8 +36,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (CDStruct_96916c69);
+- (void)@;
+- (CDStruct_7136673c);
 - (void);
 - (id);
 - (id);
@@ -58,26 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *activations; // @synthesize activations=_activations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *inputs; // @synthesize inputs=_inputs;
-@property(retain, nonatomic) NSArray *inputsWithDimensions; // @synthesize inputsWithDimensions=_inputsWithDimensions;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSString *nodeStr; // @synthesize nodeStr=_nodeStr;
-@property(retain, nonatomic) NSArray *outputs; // @synthesize outputs=_outputs;
-@property(retain, nonatomic) NSArray *outputsWithDimensions; // @synthesize outputsWithDimensions=_outputsWithDimensions;
-@property CDStruct_96916c69 parameters; // @synthesize parameters=_parameters;
 @property _Bool parametersSet; // @synthesize parametersSet=_parametersSet;
-@property(readonly) NSDictionary *properties; // @synthesize properties=_properties;
-@property(readonly) MontrealNNModelQuantization *quantization; // @synthesize quantization=_quantization;
-@property(readonly) Class superclass;
-@property(readonly, getter=isValid) _Bool valid;
-@property(readonly) NSArray *weights; // @synthesize weights=_weights;
 
 @end
 

@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _PSKNNModel, _PSKNNModelConfiguration;
+@class _PSKNNModel;
 
 @interface _PSKNNZKWATXDelegateWrapper
 {
     _PSKNNModel *_knnModel;
-    long long _modelType;
-    _PSKNNModelConfiguration *_modelConfiguration;
-    unsigned long long _maxSuggestions;
-    NSArray *_transformers;
-    _Bool _isEnabled;
-    long long _defaultConfidenceCategory;
 }
 
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)A;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_startRequestTimerWithExtensionProxy:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -29,13 +23,7 @@
 - (void)llSuggestions;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

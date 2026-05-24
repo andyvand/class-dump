@@ -9,16 +9,15 @@
 @interface _PASArrayProxy : _PASLazyArrayBase
 {
     CDUnknownBlockType _objectAtIndexBlock;
-    CDUnknownBlockType _countBlock;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)v3;
 - (id);
-- (void);
+- (void)roleParameterFromCode: /* Error: Ran out of types for this method. */;
 
 @end
 

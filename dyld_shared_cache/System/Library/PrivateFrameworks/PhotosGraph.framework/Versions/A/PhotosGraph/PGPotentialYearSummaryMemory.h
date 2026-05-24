@@ -13,7 +13,7 @@
 
 - (id);
 - (unsigned long long);
-- (id);
+- (id)setNavigationOrderChildControllers:(id)arg1;
 - (void);
 - (long long);
 

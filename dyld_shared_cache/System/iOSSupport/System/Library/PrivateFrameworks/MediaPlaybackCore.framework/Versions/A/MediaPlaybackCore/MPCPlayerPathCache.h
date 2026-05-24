@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface MPCPlayerPathCache
 {
     NSMutableDictionary *_playerPathResolutions;
-    NSMutableDictionary *_playerPathObservers;
-    NSMutableDictionary *_endpointObservers;
-    NSMutableDictionary *_endpointInvalidationObservers;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
 }
 
 + (id);
-- (id);
+- (id)R@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void)TREAM STOP ââââââââââââ %{public}@ [%d] ââââââââââââââââââââââââââ;
 - (id);
-- (id)eueCommand;
+- (id)shareQueueCommand;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
-@property(readonly, nonatomic) NSMutableDictionary *endpointInvalidationObservers; // @synthesize endpointInvalidationObservers=_endpointInvalidationObservers;
-@property(readonly, nonatomic) NSMutableDictionary *endpointObservers; // @synthesize endpointObservers=_endpointObservers;
-@property(readonly, nonatomic) NSMutableDictionary *playerPathObservers; // @synthesize playerPathObservers=_playerPathObservers;
 @property(readonly, nonatomic) NSMutableDictionary *playerPathResolutions; // @synthesize playerPathResolutions=_playerPathResolutions;
 
 @end

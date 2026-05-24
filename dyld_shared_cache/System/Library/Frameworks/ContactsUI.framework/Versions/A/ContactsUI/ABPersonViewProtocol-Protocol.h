@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPerson, CNContact;
-
 @protocol ABPersonViewProtocol
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)i;
+- (void);
+- (void);
+- (void)q_removeWriteObserver:(unsigned long long)arg1 andComputeObservedTypes: /* Error: Ran out of types for this method. */;
+- (void)infoForUnitType:(_Bool)arg1;
+- (void)decodeBoolForKey:(long long)arg1;
 - (long long)!DùQò#°1Â0@ù
 × ;
 - (_Bool)16;
-- (_Bool)uttons;
+- (_Bool)_shouldShowInMapsButtons;
 - (struct CGSize)rContact:stUserID failed for %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool _quicklook_fetchAsynchronously;
-@property _Bool autoSave;
-@property long long backgroundStyle;
-@property(readonly) _Bool canEditContact;
-@property(retain) CNContact *contact;
-@property(readonly) struct CGSize contentSize;
-@property _Bool drawsBackground;
-@property(getter=isEditable) _Bool editable;
 @property _Bool editing;
-@property(readonly) _Bool hasChanges;
-@property(readonly) struct CGRect imageFrame;
-@property(readonly, getter=isLoaded) _Bool loaded;
-@property(retain) ABPerson *person;
-@property(readonly) struct CGSize preferredMinimumSize;
-@property(getter=isSelectable) _Bool selectable;
-@property _Bool shouldShowLinkedPeople;
-@property(nonatomic) _Bool showsShowInMapsButtons;
 @end
 

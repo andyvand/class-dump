@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, _PSPredictionContext, _PSSuggester;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _PSSuggesterCache
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_timer;
-    _PSSuggester *_suggester;
-    NSString *_cachedSessionID;
-    _PSPredictionContext *_cachedContext;
-    NSArray *_cachedPeopleSuggestions;
-    NSArray *_learningDisabledBundleIDsForCachedSuggestions;
-    unsigned long long _ticks;
-    unsigned long long _fetches;
-    struct os_unfair_lock_s _refetchLock;
-    struct os_unfair_lock_s _lock;
-    struct atomic_flag _hasQueuedRefetch;
-    NSObject<OS_dispatch_group> *_queuedRefetchGroup;
 }
 
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
++ (id)ame;
++ (id);
+- (id)_executorAppIntentHandleTime;
+- (id)_contextId;
+- (id)_contextCollectorFetchContext;
+- (id)_contentSource;
+- (void)_bluetoothPermissionRequired;
 - (void);
 - (id);
 - (void);

@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSSet;
+@class NSArray, NSDate;
 
 @interface WiFiSettlementContext
 {
     NSDate *_creationDate;
-    NSArray *_strongestNetworks;
-    NSSet *_strongestBSSIDs;
-    unsigned long long _maxCount;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)ing",C,N,V_colorIdentifier;
+- (void);
+- (id)c;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)#: /* Error: Ran out of types for this method. */;
 - (void)¥°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) unsigned long long maxCount; // @synthesize maxCount=_maxCount;
-@property(retain, nonatomic) NSSet *strongestBSSIDs; // @synthesize strongestBSSIDs=_strongestBSSIDs;
 @property(retain, nonatomic) NSArray *strongestNetworks; // @synthesize strongestNetworks=_strongestNetworks;
 
 @end

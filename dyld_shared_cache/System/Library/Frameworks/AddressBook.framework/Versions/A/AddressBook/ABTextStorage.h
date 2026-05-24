@@ -9,7 +9,6 @@
 @interface ABTextStorage
 {
     NSMutableAttributedString *_cm_string;
-    _Bool _customAttributeFixing;
 }
 
 + (id);
@@ -30,15 +29,15 @@
 - (void);
 - (void);
 - (void);
+- (id)[;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)tk;
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (id)tonePickerControllerRequestsPresentingMediaItemPicker:(unsigned long long)arg1;
 - (void)1Â0@ù
 × ;
 - (_Bool)Margin;

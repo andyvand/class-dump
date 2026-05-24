@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface UnknownClass (CRCommand)
-- (id);
+- (id).;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long commandDirection; // @dynamic commandDirection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *referenceIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *userInfo; // @dynamic userInfo;
 @end
 

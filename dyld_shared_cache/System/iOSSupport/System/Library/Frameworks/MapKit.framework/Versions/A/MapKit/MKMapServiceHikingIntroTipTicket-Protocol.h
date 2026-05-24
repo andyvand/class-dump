@@ -7,6 +7,9 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceHikingIntroTipTicket
+- (GEOMapServiceTraits *)
+;
+- (void)_chat:(void (^)(MKMapItem *, NSError *))arg1 sendPlayedReceiptForMessage:(void (^)(_Bool))arg2;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

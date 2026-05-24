@@ -6,14 +6,10 @@
 
 #import <UIKitCore/_UIVibrancyEffectImpl.h>
 
-@class NSString, UIColor;
-
 __attribute__((visibility("hidden")))
 @interface _UIVibrancyEffectModernCompositedImpl : _UIVibrancyEffectImpl
 {
     long long _compositingMode;
-    NSString *_filterType;
-    UIColor *_compositingColor;
 }
 
 - (unsigned long long);
@@ -21,10 +17,10 @@ __attribute__((visibility("hidden")))
 - (id)
 × ;
 - (_Bool)bRotatingNodePopoverDelegate>";
-- (void)chDownDuration;
+- (void)touchDownDuration;
 - (void)eviewProvider;
 - (void)iew returned an invalid size %@ from -systemLayoutSizeFittingSize:(id)arg1 withHorizontalFittingPriority:verticalFittingPriority:which is not allowed. If you have implemented a custom content view, you need to add constraints inside it so that its size is not ambiguous, or you need to manually compute and return a valid size. Content view:%@ /* Error: Ran out of types for this method. */;
-- (void)ionCSgXw;
+- (void)So8UIActionCSgXw;
 
 @end
 

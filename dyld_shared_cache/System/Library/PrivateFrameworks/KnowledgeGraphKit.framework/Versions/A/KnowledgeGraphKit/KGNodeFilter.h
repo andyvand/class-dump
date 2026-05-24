@@ -9,11 +9,9 @@
 @interface KGNodeFilter : KGElementFilter
 {
     _Bool _whereNoInAndOutEdges;
-    _Bool _whereNoInEdges;
-    _Bool _whereNoOutEdges;
 }
 
-- (_Bool);
+- (_Bool)r>=^{TFENodeComparator}^{__shared_weak_count}}32@0:8r^{TFENode=^{OpaqueNodeRef}}16r^v24 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool whereNoInAndOutEdges; // @synthesize whereNoInAndOutEdges=_whereNoInAndOutEdges;
-@property(nonatomic) _Bool whereNoInEdges; // @synthesize whereNoInEdges=_whereNoInEdges;
-@property(nonatomic) _Bool whereNoOutEdges; // @synthesize whereNoOutEdges=_whereNoOutEdges;
 
 @end
 

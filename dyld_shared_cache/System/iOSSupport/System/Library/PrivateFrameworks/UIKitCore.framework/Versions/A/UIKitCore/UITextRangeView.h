@@ -6,51 +6,20 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSMutableArray, NSString, UIPointerInteraction, UIResponder, UISelectionGrabber, UISelectionGrabberCustomPath, UITextSelectionView, UITouch;
-@protocol UITextInput;
+@class UISelectionGrabberCustomPath, UITextSelectionView;
 
 __attribute__((visibility("hidden")))
 @interface UITextRangeView : UIView
 {
     UITextSelectionView *m_selectionView;
-    UIResponder<UITextInput> *m_container;
-    int m_mode;
-    int m_originalMode;
-    NSArray *m_rects;
-    NSMutableArray *m_rectViews;
-    UITouch *m_activeTouch;
-    struct CGRect m_startEdge;
-    struct CGRect m_endEdge;
-    UIView *m_rectContainerView;
-    UISelectionGrabber *m_startGrabber;
-    UISelectionGrabber *m_endGrabber;
-    _Bool m_animateUpdate;
-    _Bool m_commandsWereShowing;
-    _Bool m_willBeginMagnifying;
-    _Bool m_inGesture;
-    _Bool m_magnifying;
-    _Bool m_scrolling;
-    _Bool m_scaling;
-    _Bool m_rotating;
-    _Bool m_inputViewIsChanging;
-    UIPointerInteraction *_pointerInteraction;
-    _Bool m_isClearingRange;
-    _Bool m_shouldStayVisible;
-    _Bool _baseIsStart;
-    UISelectionGrabberCustomPath *_startCustomPath;
-    UISelectionGrabberCustomPath *_endCustomPath;
-    struct CGPoint m_basePoint;
-    struct CGPoint m_extentPoint;
-    struct CGPoint m_initialExtentPoint;
-    struct CGPoint _activeTouchPoint;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
-- (void);
+- (void)@0:(_Bool)arg1 8@"<MTLBufferBinding>"16;
 - (void);
 - (_Bool);
 - (void);
@@ -71,21 +40,21 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (void);
 - (struct CGRect);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)timeIntervalSinceReferenceDate;
+- (_Bool)buffer;
+- (void)s;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
-- (struct CGRect);
+- (_Bool)"b1"trackCount"b1"maximumItemTrackNumber"b1"discCount"b1"hasCleanContent"b1"hasExplicitContent"b1"libraryAdded"b1"keepLocalEnableState"b1"keepLocalManagedStatus"b1"keepLocalManagedStatusReason"b1"keepLocalConstraints"b1"libraryAddEligible"b1"compilation"b1"classical"b1"releaseDate"b1"artwork"b1"staticTallEditorialArtwork"b1"superHeroTallEditorialArtwork"b1"year"b1"preorder"b1"editorNotes"b1"shortEditorNotes"b1"volumeNormalization"b1"songPopularity"b1"representativeSong"b1"traits"b1"versionHash"b1"classicalExperienceAvailable"b1"isFavorite"b1"isDisliked"b1"dateFavorited"b1"storeRedownloadable"b1"isPinned"b1"artist"{?="identifiers"b1"name"b1}"genre"{?="identifiers"b1"name"b1}};
+- (void)unwrappedValue;
+- (_Bool)previousChannelInterstitialViewControllerForPlayerViewController: /* Error: Ran out of types for this method. */;
+- (void)MPModelLibrarySearchScope;
+- (struct CGRect);
 - (id);
-- (void);
+- (void)_MPModelLibraryRequestCodingKeySortUsingAllowedItemIdentifiers;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -93,13 +62,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (struct CGPoint);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)`;
 - (void);
 - (void);
+- (void);
+- (void);
 - (void)ù
 × ;
 - (unsigned long long);
@@ -118,33 +87,33 @@ __attribute__((visibility("hidden")))
 - (void)2;
 - (_Bool)int=dd}40Q56@64;
 - (id)edBehavioralStyle"b4"implementsSetControl"b1};
-- (void)hMagnifierTerminalPoint:(_Bool)arg1;
-- (void)bleView:(_Bool)arg1 previewForHighlightingContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
+- (void)updateWithMagnifierTerminalPoint:(_Bool)arg1;
+- (void)tableView:(_Bool)arg1 previewForHighlightingContextMenuWithConfiguration: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (id)tSeenTimestamp: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ourceConstraints;
-- (void):(_Bool)arg1 restrictEnteringSequence: /* Error: Ran out of types for this method. */;
-- (void)itWithCollectionView:reuseIdentifierProvider:cellConfigurationHandler: /* Error: Ran out of types for this method. */;
+- (id)setLastSeenTimestamp: /* Error: Ran out of types for this method. */;
+- (struct CGRect)lightSourceConstraints;
+- (void)initWithItems:(_Bool)arg1 loops:restrictEnteringSequence: /* Error: Ran out of types for this method. */;
+- (void)initWithCollectionView:reuseIdentifierProvider:cellConfigurationHandler: /* Error: Ran out of types for this method. */;
 - (_Bool)initWithApplicationContext: /* Error: Ran out of types for this method. */;
-- (_Bool)ientation: /* Error: Ran out of types for this method. */;
-- (void)ionIdentifier:(id)arg1;
-- (_Bool):(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
-- (void)stPositionForTargetPosition:(_Bool)arg1 adjustedPosition:startPosition:endPosition: /* Error: Ran out of types for this method. */;
-- (_Bool)tsLayoutAfterScroll;
-- (void)lityTraits:(id)arg1 adjustingFontForTypesettingLanguage:(struct CGPoint)arg2 adjustingFontForTypesettingLanguageAwareLineHeightRatio:checkingForDifferences: /* Error: Ran out of types for this method. */;
+- (_Bool)heightForStyle:orientation: /* Error: Ran out of types for this method. */;
+- (void)groupOrdererForCustomizationIdentifier:(id)arg1;
+- (_Bool)enumerateEdgesWithLabel:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)adjustPositionForTargetPosition:(_Bool)arg1 adjustedPosition:startPosition:endPosition: /* Error: Ran out of types for this method. */;
+- (_Bool)_updateFixedPositioningObjectsLayoutAfterScroll;
+- (void)_setContent:(id)arg1 adjustingFontForAccessibilityTraits:(struct CGPoint)arg2 adjustingFontForTypesettingLanguage:adjustingFontForTypesettingLanguageAwareLineHeightRatio:checkingForDifferences: /* Error: Ran out of types for this method. */;
 - (void)_sendSystemHUDPresentationDarwinNotificationIfNeeded;
-- (_Bool)earchBarPlacementAllowsToolbarIntegration: /* Error: Ran out of types for this method. */;
-- (id)et;
-- (void)nt: /* Error: Ran out of types for this method. */;
-- (_Bool)ionPanels;
-- (double)efreshDirectionForProposedVisibleIndexRange:(id)arg1 withContentOffset: /* Error: Ran out of types for this method. */;
+- (_Bool)_navigationBar:topItemUpdatedSearchBarPlacementAllowsToolbarIntegration: /* Error: Ran out of types for this method. */;
+- (id)_maximumContentOffset;
+- (void)_invoke:forEvent: /* Error: Ran out of types for this method. */;
+- (_Bool)_hasCorrectionPanels;
+- (double)_effectiveRefreshDirectionForProposedVisibleIndexRange:(id)arg1 withContentOffset: /* Error: Ran out of types for this method. */;
 - (_Bool)DownScale;
 - (void)MaxShadowIntensity;
 - (struct CGRect)on;
 - (id)aratableSequenceView",R,N,V_separatedContentSequenceView;
 - (void)dEffects;
 - (void)oint=dd}{CGSize=dd}},N,VframeOfSourceInDestination;
-- (id)ectContainerLayer;
+- (id)_UITextHoverEffectContainerLayer;
 - (_Bool)X;
 - (void)T(*Ø*-
 D/;
@@ -153,16 +122,16 @@ D/;
 - (void)e;
 - (void)(4à;
 - (void)th component values far outside the expected range. Set a breakpoint on %s to debug. This message will only be logged once.;
-- (void)tionProgress;
+- (void)chromelessTransitionProgress;
 - (id)for trait:(id)arg1 %@;
 - (void)e backed by a CGImage:(_Bool)arg1 %@;
-- (_Bool)torLayoutGuideTrailingConstraint;
+- (_Bool)UISeparatorLayoutGuideTrailingConstraint;
 - (void)ror or results should be non-nil;
-- (void)ayerTransform;
-- (struct CGPoint)acity;
+- (void)sublayerTransform;
+- (struct CGPoint)ShadowOpacity;
 - (id);
 - (void);
-- (void)king;
+- (void)CornerBacking;
 - (_Bool);
 - (void);
 - (id)Q³ÿ;
@@ -172,42 +141,7 @@ D/;
 - (struct CGRect)h;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGPoint activeTouchPoint; // @synthesize activeTouchPoint=_activeTouchPoint;
-@property(nonatomic) _Bool animateUpdate; // @synthesize animateUpdate=m_animateUpdate;
-@property(readonly, nonatomic) _Bool areSelectionRectsVisible;
-@property(readonly, nonatomic) _Bool autoscrolled;
-@property(nonatomic) _Bool baseIsStart; // @synthesize baseIsStart=_baseIsStart;
-@property(readonly, nonatomic) struct CGPoint basePoint; // @synthesize basePoint=m_basePoint;
-@property(nonatomic) _Bool commandsWereShowing; // @synthesize commandsWereShowing=m_commandsWereShowing;
-@property(readonly, nonatomic) UIResponder<UITextInput> *container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isDisplayingVerticalSelection) _Bool displayingVerticalSelection;
-@property(retain, nonatomic) UISelectionGrabberCustomPath *endCustomPath; // @synthesize endCustomPath=_endCustomPath;
-@property(nonatomic) struct CGRect endEdge; // @synthesize endEdge=m_endEdge;
-@property(retain, nonatomic) UISelectionGrabber *endGrabber; // @synthesize endGrabber=m_endGrabber;
-@property(readonly, nonatomic) struct CGPoint extentPoint; // @synthesize extentPoint=m_extentPoint;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inGesture; // @synthesize inGesture=m_inGesture;
-@property(nonatomic) struct CGPoint initialExtentPoint; // @synthesize initialExtentPoint=m_initialExtentPoint;
-@property(nonatomic) _Bool inputViewIsChanging; // @synthesize inputViewIsChanging=m_inputViewIsChanging;
-@property(nonatomic) _Bool isClearingRange; // @synthesize isClearingRange=m_isClearingRange;
-@property(nonatomic) _Bool isScrolling; // @synthesize isScrolling=m_scrolling;
-@property(nonatomic) _Bool magnifying; // @synthesize magnifying=m_magnifying;
-@property(nonatomic) int mode; // @synthesize mode=m_mode;
-@property(retain, nonatomic) NSArray *rects; // @synthesize rects=m_rects;
-@property(nonatomic) _Bool rotating; // @synthesize rotating=m_rotating;
-@property(nonatomic) _Bool scaling; // @synthesize scaling=m_scaling;
-@property(readonly, nonatomic) UITextSelectionView *selectionView;
-@property(nonatomic) _Bool shouldStayVisible; // @synthesize shouldStayVisible=m_shouldStayVisible;
 @property(retain, nonatomic) UISelectionGrabberCustomPath *startCustomPath; // @synthesize startCustomPath=_startCustomPath;
-@property(nonatomic) struct CGRect startEdge; // @synthesize startEdge=m_startEdge;
-@property(retain, nonatomic) UISelectionGrabber *startGrabber; // @synthesize startGrabber=m_startGrabber;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool willBeginMagnifying; // @synthesize willBeginMagnifying=m_willBeginMagnifying;
 
 @end
 

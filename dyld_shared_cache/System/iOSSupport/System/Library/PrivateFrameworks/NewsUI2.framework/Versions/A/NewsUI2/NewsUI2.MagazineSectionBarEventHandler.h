@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineSectionBarEventHandler
 {
     id delegate;
-    id interactor;
-    id router;
 }
 
 @end

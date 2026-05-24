@@ -6,17 +6,9 @@
 
 #import <MPSImage/MPSUnaryImageKernel.h>
 
-@protocol MTLBuffer;
-
 @interface MPSImageHistogramEqualization : MPSUnaryImageKernel
 {
     unsigned long long histogramEntries;
-    _Bool histogramAlpha;
-    id minPixelValue;
-    id maxPixelValue;
-    _Bool optimized256BinsUseCase;
-    id <MTLBuffer> cumulativeHistogramBuffer;
-    _Bool encodeTransform;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -26,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)initWithData:(id)arg1 encoding: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)¦qÄ?Ô¶êÄÃ·?õDyâ©?xTþYg?;
 

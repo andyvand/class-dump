@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PASBundleIdResolver;
+@class NSString;
 @protocol PREResponsesProtocol;
 
 @interface PREResponsesServerRequestHandler
 {
     id <PREResponsesProtocol> _clientProxy;
-    NSString *_clientProcessName;
-    _PASBundleIdResolver *_bundleIdResolver;
 }
 
 - (id);
@@ -19,14 +17,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id)nternal - Server responsesForMessage called;
 
 // Remaining properties
-@property(retain, nonatomic) _PASBundleIdResolver *bundleIdResolver; // @synthesize bundleIdResolver=_bundleIdResolver;
 @property(copy, nonatomic) NSString *clientProcessName; // @synthesize clientProcessName=_clientProcessName;
 
 @end

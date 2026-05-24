@@ -13,8 +13,8 @@
 + (const char *);
 + (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id)`;
+- (_Bool)oudRestrictions:Waiting for compositor to finish for profile:%s /* Error: Ran out of types for this method. */;
 
 @end
 

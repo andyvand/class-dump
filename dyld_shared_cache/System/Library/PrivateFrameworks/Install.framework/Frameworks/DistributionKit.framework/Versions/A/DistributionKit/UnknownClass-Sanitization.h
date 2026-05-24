@@ -6,6 +6,6 @@
 
 @interface UnknownClass (Sanitization)
 - (_Bool);
-- (id);
+- (id);
 @end
 

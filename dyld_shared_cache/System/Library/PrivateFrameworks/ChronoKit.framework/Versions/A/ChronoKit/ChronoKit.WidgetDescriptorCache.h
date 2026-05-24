@@ -7,11 +7,6 @@
 @interface ChronoKit.WidgetDescriptorCache
 {
     id provider;
-    id backingStore;
-    id _descriptorUpdatePublisher;
-    id localeTokenGenerator;
-    id extensionCache;
-    id outstandingFetches;
 }
 
 @end

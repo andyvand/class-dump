@@ -13,7 +13,6 @@ __attribute__((visibility("hidden")))
 @interface AVMenuButton : AVButton
 {
     UIContextMenuInteraction *_activeMenuInteraction;
-    id <AVMenuButtonDelegate> _delegate;
 }
 
 + (id);
@@ -26,7 +25,7 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)!ÜGù[Ð1Â0@ù
 × ;
-- (id)itionButtonEnabled;
+- (id)startRightwardContentTransitionButtonEnabled;
 
 // Remaining properties
 @property(nonatomic) __weak id <AVMenuButtonDelegate> delegate; // @synthesize delegate=_delegate;

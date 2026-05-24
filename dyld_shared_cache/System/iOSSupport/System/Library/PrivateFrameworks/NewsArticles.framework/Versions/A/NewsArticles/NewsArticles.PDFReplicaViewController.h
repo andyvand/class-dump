@@ -7,34 +7,19 @@
 @interface NewsArticles.PDFReplicaViewController
 {
     id identifier;
-    id delegate;
-    id contentBackgroundColor;
-    id styler;
-    id eventHandler;
-    id pdfView;
-    id focusableView;
-    id coverViewManager;
-    id keyCommandManager;
-    id commands;
-    id loadingIndicatorProvider;
-    id pinchRecognizer;
-    id loadingStateMachine;
-    id paywallPreparationEventManager;
-    id parallaxX;
-    id lastSafeAreaInsets;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void)outModel;
+- (void)LayoutModel;
 - (void);
 
 // Remaining properties

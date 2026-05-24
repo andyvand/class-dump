@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIDetector.h>
 
-@class CIContext, VNDetectFaceRectanglesRequest, VNTrackLegacyFaceCoreObjectRequest;
+@class CIContext;
 
 __attribute__((visibility("hidden")))
 @interface CIFaceCoreDetector : CIDetector
 {
     CIContext *context;
-    _Bool _tracking;
-    VNDetectFaceRectanglesRequest *visionRequest;
-    VNTrackLegacyFaceCoreObjectRequest *visionTrackingRequest;
 }
 
 - (id);
@@ -22,19 +19,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGAffineTransform);
-- (id);
-- (id);
+- (id)`b;
+- (id)U;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) CIContext *context; // @synthesize context;
-@property(retain) VNDetectFaceRectanglesRequest *visionRequest; // @synthesize visionRequest;
-@property(retain) VNTrackLegacyFaceCoreObjectRequest *visionTrackingRequest; // @synthesize visionTrackingRequest;
 
 @end
 

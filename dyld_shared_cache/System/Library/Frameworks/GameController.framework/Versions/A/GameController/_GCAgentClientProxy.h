@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCGameIntentLauncherXPCProxyClient, GCRemoteUserDefaultsProxy, NSArray, _GCControllerManagerServer;
-@protocol _GCIPCIncomingConnection;
+@class GCRemoteUserDefaultsProxy, _GCControllerManagerServer;
 
 @interface _GCAgentClientProxy
 {
     _GCControllerManagerServer *_server;
-    _Atomic _Bool _invalid;
-    id <_GCIPCIncomingConnection> _connection;
-    id _connectionInvalidationRegistration;
-    id _connectionInterruptedRegistration;
-    GCRemoteUserDefaultsProxy *_userDefaultsProxy;
-    GCGameIntentLauncherXPCProxyClient *_gameIntentProxy;
-    NSArray *_invalidationHandlers;
 }
 
-+ (id);
++ (id)`;
 - (id);
 - (void);
 - (void);
@@ -30,9 +22,9 @@
 - (void);
 - (void);
 - (id);
+- (void)h;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -40,7 +32,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSArray *invalidationHandlers; // @synthesize invalidationHandlers=_invalidationHandlers;
 @property(readonly, nonatomic) __weak GCRemoteUserDefaultsProxy *userDefaultsProxy;
 
 @end

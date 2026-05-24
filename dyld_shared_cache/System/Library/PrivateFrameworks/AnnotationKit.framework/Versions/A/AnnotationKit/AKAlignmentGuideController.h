@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAlignedItem, AKPageController, NSInputAlignmentController, NSInputAlignmentFilter, NSMutableArray, NSPanGestureRecognizer, NSString;
+@class AKPageController;
 
 @interface AKAlignmentGuideController
 {
     struct CGPoint _initialDraggedAnnotationsCombinedCenter;
-    struct CGPoint *_otherAnnotationCenters;
-    unsigned long long _otherAnnotationCentersCount;
-    _Bool _exifHasFlippedAxes;
-    AKPageController *_pageController;
-    NSInputAlignmentController *_alignmentController;
-    NSInputAlignmentFilter *_alignmentFilter;
-    AKAlignedItem *_alignmentItem;
-    NSMutableArray *_alignmentGuides;
-    NSPanGestureRecognizer *_panRecognizer;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,27 +25,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSInputAlignmentController *alignmentController; // @synthesize alignmentController=_alignmentController;
-@property(retain, nonatomic) NSInputAlignmentFilter *alignmentFilter; // @synthesize alignmentFilter=_alignmentFilter;
-@property(retain, nonatomic) NSMutableArray *alignmentGuides; // @synthesize alignmentGuides=_alignmentGuides;
-@property(retain, nonatomic) AKAlignedItem *alignmentItem; // @synthesize alignmentItem=_alignmentItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool exifHasFlippedAxes; // @synthesize exifHasFlippedAxes=_exifHasFlippedAxes;
-@property(readonly) unsigned long long hash;
 @property __weak AKPageController *pageController; // @synthesize pageController=_pageController;
-@property(nonatomic) __weak NSPanGestureRecognizer *panRecognizer; // @synthesize panRecognizer=_panRecognizer;
-@property(readonly) Class superclass;
 
 @end
 

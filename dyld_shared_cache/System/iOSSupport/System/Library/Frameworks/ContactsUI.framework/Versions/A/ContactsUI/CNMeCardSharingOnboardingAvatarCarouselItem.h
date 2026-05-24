@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class UIImage;
 
 __attribute__((visibility("hidden")))
 @interface CNMeCardSharingOnboardingAvatarCarouselItem
 {
     _Bool _shouldShowVariants;
-    UIImage *_cachedImage;
-    CDUnknownBlockType _imageProvider;
-    unsigned long long _imageType;
-    NSString *_title;
-    double _imageInsetPercentage;
 }
 
 - (_Bool);
@@ -23,20 +18,15 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (void)ojis;
+- (void)_defaultEmojis;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *cachedImage; // @synthesize cachedImage=_cachedImage;
-@property(readonly, nonatomic) double imageInsetPercentage; // @synthesize imageInsetPercentage=_imageInsetPercentage;
-@property(readonly, copy, nonatomic) CDUnknownBlockType imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(nonatomic) unsigned long long imageType; // @synthesize imageType=_imageType;
-@property(nonatomic) _Bool shouldShowVariants; // @synthesize shouldShowVariants=_shouldShowVariants;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

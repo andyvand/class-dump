@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)__objc_arraydata__DATA_CONST;
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)nt"16;
 
 @end
 

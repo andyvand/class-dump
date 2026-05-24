@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTCoalescableWorkManifest, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface MTCoalescableWorkController
 {
     _Bool _verboseDebugLoggingEnabled;
-    unsigned int _qosClass;
-    NSString *_identifier;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    MTCoalescableWorkManifest *_activeWorkManifest;
-    MTCoalescableWorkManifest *_pendingWorkManifest;
 }
 
-+ (id);
++ (id);
 + (id);
 - (_Bool);
 - (void);
@@ -31,22 +25,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (unsigned int);
+- (void)*,;
 - (void);
 - (id);
-- (void)hedResultsControllerCySo9MTEpisodeCGSg;
+- (id);
+- (unsigned int)?;
+- (void);
+- (id)ValidatorClass;
+- (void)So26MTFetchedResultsControllerCySo9MTEpisodeCGSg;
 
 // Remaining properties
-@property(retain, nonatomic) MTCoalescableWorkManifest *activeWorkManifest; // @synthesize activeWorkManifest=_activeWorkManifest;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) MTCoalescableWorkManifest *pendingWorkManifest; // @synthesize pendingWorkManifest=_pendingWorkManifest;
-@property(nonatomic) unsigned int qosClass; // @synthesize qosClass=_qosClass;
-@property(nonatomic) _Bool verboseDebugLoggingEnabled; // @synthesize verboseDebugLoggingEnabled=_verboseDebugLoggingEnabled;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

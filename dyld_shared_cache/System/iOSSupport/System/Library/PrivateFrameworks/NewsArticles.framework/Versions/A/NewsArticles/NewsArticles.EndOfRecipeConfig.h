@@ -7,7 +7,6 @@
 @interface NewsArticles.EndOfRecipeConfig
 {
     id recipe;
-    id viewSessionID;
 }
 
 @end

@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchTokenSet;
-
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchSpellSuggestion
 {
     double _score;
-    GEOPDSearchTokenSet *_suggestion;
-    unsigned int _editDistance;
-    float _rawScore;
-    struct {
-        unsigned int has_score:1;
-        unsigned int has_editDistance:1;
-        unsigned int has_rawScore:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)PTDomainServer;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

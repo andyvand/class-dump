@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol PXStoryMutableDummyStyle
+- (void);
+- (void);
 - (CDStruct_cac3ced6)à|÷ÿäúÿ÷ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allowedClipCompositionsInLandscape;
-@property(copy, nonatomic) NSArray *allowedClipCompositionsInPortrait;
-@property(nonatomic) long long cropMode;
-@property(nonatomic) long long cropVerticalContentMode;
 @property(nonatomic) double defaultSegmentDuration;
-@property(nonatomic) double kenBurnsDistance;
-@property(nonatomic) unsigned int kenBurnsPanDirection;
-@property(nonatomic) struct CGPoint kenBurnsRelativeTransformOrigin;
-@property(nonatomic) double kenBurnsRotationInDegrees;
-@property(nonatomic) double kenBurnsScale;
-@property(nonatomic) long long oneUpKenBurnsKind;
-@property(nonatomic) CDStruct_1b6d18a9 outroDuration;
-@property(nonatomic) double separatorPanDistance;
-@property(nonatomic) double separatorRotationAngle;
-@property(nonatomic) long long threeUpKenBurnsKind;
-@property(nonatomic) long long threeUpSeparatorEffectKind;
-@property(nonatomic) CDStruct_cac3ced6 transitionInfo;
-@property(nonatomic) long long twoUpKenBurnsKind;
-@property(nonatomic) long long twoUpSeparatorEffectKind;
 @end
 

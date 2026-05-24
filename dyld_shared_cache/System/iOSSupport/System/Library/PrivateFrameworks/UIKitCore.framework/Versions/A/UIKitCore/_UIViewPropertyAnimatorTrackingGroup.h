@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewPropertyAnimatorTrackingGroup
@@ -21,28 +21,17 @@ __attribute__((visibility("hidden")))
 - (void)assert in a future version.;
 - (void);
 - (void)m;
-- (void)catorInsets;
-- (void)mesFirstResponderOnClearButtonTap;
+- (void)UIScrollIndicatorInsets;
+- (void)UIBecomesFirstResponderOnClearButtonTap;
 - (void)ette(void);
 - (double)tionLayoutItem"8^B16;
 - (void)key_#D¾75valuetSg;
-- (_Bool)_UIColorPaletteC;
+- (_Bool)So15_UIColorPaletteC;
 - (id);
 - (void)13T±þí13l¯uþí13Ôt°þ;
 - (void)úwþ5543húwþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double fractionComplete;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isReversed) _Bool reversed;
-@property(readonly, nonatomic, getter=isRunning) _Bool running;
-@property(readonly, nonatomic) long long state;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSArray *trackingAnimators; // @synthesize trackingAnimators=_trackingAnimators;
 
 @end

@@ -13,15 +13,14 @@
 }
 
 + (long long);
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-- (id);
++ (id)ws for %s in %s.Access assertion:%s /* Error: Ran out of types for this method. */;
++ (id)cleared materialized views for %s in %s.Access assertion:%s /* Error: Ran out of types for this method. */;
++ (void)RankableSocialHighlight:unable to convert BMSocialHighlightType enum value:%@ /* Error: Ran out of types for this method. */;
++ (void)ce boot time of %@;
+- (id)atEnableRowSecurity;
 
 // Remaining properties
 @property(retain, nonatomic) MPModelArtist *artist; // @dynamic artist;
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
 
 @end
 

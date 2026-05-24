@@ -6,31 +6,25 @@
 
 #import <MediaPlayer/MPModelKind.h>
 
-@class MPModelPlaylistEntryKind;
-
 @interface MPModelPlaylistKind : MPModelKind
 {
     unsigned long long _variants;
-    MPModelPlaylistEntryKind *_playlistEntryKind;
-    unsigned long long _options;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)S;
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)t={CGPoint=dd}{CGSize=dd}},V_recentDrawingBoundsInInputView;
 - (void);
-- (void)on: /* Error: Ran out of types for this method. */;
+- (void)_commandTargetsDidChangeNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) MPModelPlaylistEntryKind *playlistEntryKind; // @synthesize playlistEntryKind=_playlistEntryKind;
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;
 
 @end

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFResidentSelectionDatabaseID, NSArray, NSDate, NSNumber;
+@class NSNumber;
 @protocol MKFHome;
 
 @protocol MKFResidentSelection
+- (NSNumber *)resolvedBonjourName: /* Error: Ran out of types for this method. */;
 - (id <MKFHome>)qÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFResidentSelectionDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
 @property(copy, nonatomic) NSNumber *mode;
-@property(retain, nonatomic) NSArray *preferredResidentIDSIdentifiers;
-@property(copy, nonatomic) NSDate *selectionTimestamp;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

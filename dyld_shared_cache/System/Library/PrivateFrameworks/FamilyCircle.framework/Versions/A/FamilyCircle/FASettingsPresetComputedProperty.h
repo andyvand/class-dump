@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet;
+@class NSArray;
 
 @interface FASettingsPresetComputedProperty
 {
@@ -13,7 +13,7 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *conditions;
-@property(nonatomic, readonly) NSSet *dependencies;
 
 @end
 

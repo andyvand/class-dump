@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol _GCDeviceAdaptiveTriggersComponent
+- (void (^)(NSArray *));
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType deviceAdaptiveTriggersComponentStatusUpdatedHandler;
 @property(copy, nonatomic) CDUnknownBlockType deviceAdaptiveTriggersServiceConnectedHandler;
-@property(readonly, nonatomic) NSArray *triggerStatuses;
 @end
 

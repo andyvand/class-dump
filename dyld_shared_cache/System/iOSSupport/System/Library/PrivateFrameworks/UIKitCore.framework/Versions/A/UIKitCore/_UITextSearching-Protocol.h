@@ -12,11 +12,13 @@
 - (UITextRange *)joþÿòoþÿÈþÿêoþÿ;
 
 @optional
+- (_Bool);
+- (void)kMMCSRequestOptionMetricOptions;
 - (void)a°!L@ùa°1Â0@ù
 × ;
 - (void)
 × ;
-- (void)gView;
+- (void)trailingBarContentClippingView;
 - (long long)_attemptToAutomaticallyTransitionToMultiSelectModeIfNecessaryAtPoint:(UITextPosition *)arg1 withVelocity:(UITextPosition *)arg2;
 - (_Bool)lem.;
 

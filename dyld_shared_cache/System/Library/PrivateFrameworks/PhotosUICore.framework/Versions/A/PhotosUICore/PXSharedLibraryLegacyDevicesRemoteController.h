@@ -12,8 +12,8 @@
 + (id);
 - (id);
 - (id);
-- (void);
-- (long long);
+- (void)_;
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long state; // @synthesize state=_state;

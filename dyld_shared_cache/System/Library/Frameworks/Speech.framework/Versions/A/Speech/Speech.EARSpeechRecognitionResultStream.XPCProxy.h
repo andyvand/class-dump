@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)3g;
 - (void);
 
 @end

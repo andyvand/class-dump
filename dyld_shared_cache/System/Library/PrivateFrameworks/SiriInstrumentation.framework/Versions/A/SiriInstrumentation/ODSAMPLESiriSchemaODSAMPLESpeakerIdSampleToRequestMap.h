@@ -6,35 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ODSAMPLESiriSchemaODSAMPLESpeakerIdSampleToRequestMap : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_requestId;
-    _Bool _hasRequestId;
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)MAIL_SETUP_FAILURE_TITLE;
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)lic}@ is missing attached logs on disk:(id)arg1 %@;
 - (_Bool);
 - (id);
 - (id)0@ù
 × ;
-- (id)AcousticMitigationCount;
+- (id)_acousticMitigatorAcceptPostAcousticMitigationCount;
 - (id)lIdentifier;
 - (void)phNodeDatas.linkedUsoEntitySpans.properties.valueString;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
 
 @end

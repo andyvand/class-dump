@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MPKeyValueObserver
 {
     id _object;
-    NSString *_keyPath;
-    CDUnknownBlockType _handler;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)initWithStartDate:endDate: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
-- (void)eedsReload: /* Error: Ran out of types for this method. */;
+- (void)setNeedsReload: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, copy, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
 @property(readonly, nonatomic) __weak id object; // @synthesize object=_object;
 
 @end

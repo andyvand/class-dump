@@ -7,9 +7,6 @@
 @interface PhotosUICore.LemonadeSuggestedSearchCollection
 {
     id _keyAsset;
-    id _shouldDisplay;
-    id kind;
-    id _$observationRegistrar;
 }
 
 @end

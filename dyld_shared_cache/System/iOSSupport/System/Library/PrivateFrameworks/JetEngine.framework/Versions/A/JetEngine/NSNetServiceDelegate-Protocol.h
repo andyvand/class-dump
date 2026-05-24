@@ -5,5 +5,9 @@
 //
 
 @protocol NSNetServiceDelegate
+
+@optional
+- (void);
+- (void)ssetFetcherP;
 @end
 

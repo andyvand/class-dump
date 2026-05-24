@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class GEOTransitRouteUpdateResponse, NSString;
+@class GEOTransitRouteUpdateResponse;
 
 @interface GEOTransitRouteUpdateReplySimple : GEOXPCReply
 {
@@ -17,18 +17,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)Cm:(id)arg1;
+- (void)setSumElevationLossCm:(id)arg1;
 - (void)ñÔ#nMQ@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOTransitRouteUpdateResponse *response; // @synthesize response=_response;
-@property(readonly) Class superclass;
 
 @end
 

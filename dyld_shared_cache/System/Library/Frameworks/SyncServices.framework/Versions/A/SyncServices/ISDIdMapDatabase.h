@@ -9,48 +9,38 @@
 @interface ISDIdMapDatabase : ISDDatabase
 {
     struct sqlite3_stmt *_addMappingStatement;
-    struct sqlite3_stmt *_allMappingStatement;
-    struct sqlite3_stmt *_getMappingForGlobalIdStatement;
-    struct sqlite3_stmt *_getMappingForLocalIdStatement;
-    struct sqlite3_stmt *_removeMappingStatement;
-    struct sqlite3_stmt *_removeLocalIdMappingStatement;
-    struct sqlite3_stmt *_updateMappingStatement;
-    struct sqlite3_stmt *_removeMappingsForLocalIdsStatement;
-    struct sqlite3_stmt *_removeMappingsForGlobalIdsStatement;
-    struct sqlite3_stmt *_purgeMappingsForLocalIdsStatement;
-    unsigned long long _flushCount;
 }
 
 + (id);
 + (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)6;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void),;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)PushedChanges;
+- (void)_applyPushedChanges;
 
 @end
 

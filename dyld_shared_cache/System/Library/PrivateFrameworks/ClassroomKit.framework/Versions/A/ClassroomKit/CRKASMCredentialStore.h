@@ -4,16 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKASMCredentialManifest, CRKAnnotatedCredentialStore, NSDictionary;
 @protocol CRKKeychain;
 
 @interface CRKASMCredentialStore
 {
     id <CRKKeychain> _keychain;
-    CRKAnnotatedCredentialStore *_certificateAnnotatedStore;
-    CRKAnnotatedCredentialStore *_identityAnnotatedStore;
 }
 
+- (void)S;
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -23,17 +29,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -41,11 +38,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CRKAnnotatedCredentialStore *certificateAnnotatedStore; // @synthesize certificateAnnotatedStore=_certificateAnnotatedStore;
-@property(readonly, copy, nonatomic) CRKASMCredentialManifest *certificateManifest;
-@property(readonly, copy, nonatomic) NSDictionary *debugInfo;
-@property(readonly, nonatomic) CRKAnnotatedCredentialStore *identityAnnotatedStore; // @synthesize identityAnnotatedStore=_identityAnnotatedStore;
-@property(readonly, copy, nonatomic) CRKASMCredentialManifest *identityManifest;
 @property(readonly, nonatomic) id <CRKKeychain> keychain; // @synthesize keychain=_keychain;
 
 @end

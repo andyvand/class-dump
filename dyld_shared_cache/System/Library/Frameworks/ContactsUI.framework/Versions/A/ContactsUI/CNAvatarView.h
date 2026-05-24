@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarViewController, CNAvatarViewModel, CNContactIconViewModel, NSMapTable, NSMutableArray, NSString, NSTrackingArea, NSView;
+@class CNAvatarViewController, CNAvatarViewModel;
 
 @interface CNAvatarView
 {
     CNAvatarViewController *_controller;
-    CNAvatarViewModel *_viewModel;
-    CNContactIconViewModel *_templateIconViewModel;
-    NSMapTable *_iconViewModels;
-    NSMutableArray *_iconViews;
-    NSView *_editOverlayView;
-    NSTrackingArea *_editOverlayTrackingArea;
 }
 
-+ (id);
++ (id)`;
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)(;
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)@y�qA;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)9;
 - (id);
 - (id);
 - (id);
@@ -50,7 +44,7 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)*;
 - (void);
 - (void);
 - (void);
@@ -59,25 +53,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)ionAcquireCredential:ntlm /* Error: Ran out of types for this method. */;
+- (void)actsAutocomplete0B21StoreDelegateProtocolP;
 - (void);
 - (id);
 
 // Remaining properties
-@property __weak CNAvatarViewController *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSTrackingArea *editOverlayTrackingArea; // @synthesize editOverlayTrackingArea=_editOverlayTrackingArea;
-@property(retain) NSView *editOverlayView; // @synthesize editOverlayView=_editOverlayView;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMapTable *iconViewModels; // @synthesize iconViewModels=_iconViewModels;
-@property(retain) NSMutableArray *iconViews; // @synthesize iconViews=_iconViews;
-@property(readonly) Class superclass;
-@property(retain) CNContactIconViewModel *templateIconViewModel; // @synthesize templateIconViewModel=_templateIconViewModel;
 @property(retain) CNAvatarViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end

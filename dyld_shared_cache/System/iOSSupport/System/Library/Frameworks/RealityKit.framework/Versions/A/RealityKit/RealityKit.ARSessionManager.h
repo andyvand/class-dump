@@ -8,8 +8,6 @@
 {
     id arView;
     id internalReferenceImages;
-    id internalReferenceObjects;
-    id isRunningUserProvidedARSession;
 }
 
 @end

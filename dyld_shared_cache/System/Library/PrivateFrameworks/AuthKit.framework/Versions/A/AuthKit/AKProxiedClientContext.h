@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AKProxiedClientContext
 {
     _Bool _isRapportLogin;
-    _Bool _shouldSkipAuthorizationUI;
-    NSString *_teamID;
-    NSString *_bundleID;
-    NSString *_appID;
-    NSString *_appName;
-    NSArray *_associatedDomains;
-    NSString *_deviceClass;
-    NSString *_deviceName;
 }
 
+- (_Bool)w;
+- (void);
+- (void)/;
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)/;
+- (id);
 - (id);
 - (id);
 - (id)gColor;
@@ -42,14 +34,6 @@
 `x`xÖ_xû_xà_x`x¹_xé_x3`xù_xÞ_xö_x	`x¨_x0`x`x2`x`x`xM`x¡`x`x6`x`xá_x°_xy`x¬_xº_xÍ_x:(id)arg1 `xñ_x`xg`x`x`xC`xl`xî_xÒ_x`x¥`xË_x`x`x``x¦`x!`xØ_xæ_x4`xÇ_x`x~`x`xL`xd`x;`xS`x1`xÅ_x©_xÝ_x>`xs`x[`x`xø_xf`xc`xv`xÐ_x`xe`x%`xU`x`x?`xp`xë_x`IOPlatformUUID;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appID; // @synthesize appID=_appID;
-@property(copy, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(copy, nonatomic) NSArray *associatedDomains; // @synthesize associatedDomains=_associatedDomains;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSString *deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(nonatomic) _Bool isRapportLogin; // @synthesize isRapportLogin=_isRapportLogin;
-@property(nonatomic) _Bool shouldSkipAuthorizationUI; // @synthesize shouldSkipAuthorizationUI=_shouldSkipAuthorizationUI;
 @property(copy, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 
 @end

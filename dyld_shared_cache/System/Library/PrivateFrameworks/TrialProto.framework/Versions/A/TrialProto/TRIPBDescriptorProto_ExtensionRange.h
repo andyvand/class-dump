@@ -6,8 +6,6 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class TRIPBExtensionRangeOptions;
-
 @interface TRIPBDescriptorProto_ExtensionRange : TRIPBMessage
 {
 }
@@ -15,11 +13,6 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) int end; // @dynamic end;
-@property(nonatomic) _Bool hasEnd; // @dynamic hasEnd;
-@property(nonatomic) _Bool hasOptions; // @dynamic hasOptions;
-@property(nonatomic) _Bool hasStart; // @dynamic hasStart;
-@property(retain, nonatomic) TRIPBExtensionRangeOptions *options; // @dynamic options;
 @property(nonatomic) int start; // @dynamic start;
 
 @end

@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIColor;
-
 @interface _UITextFieldRoundedRectBackgroundViewNeue : UIView
 {
     struct {
@@ -15,10 +13,6 @@
         unsigned int hasFlexibleCornerRadius:1;
         unsigned int usesSinglePixelLineWidth:1;
     } _flags;
-    UIColor *_strokeColor;
-    UIColor *_fillColor;
-    double _lineWidth;
-    double _cornerRadius;
 }
 
 - (void);
@@ -26,7 +20,7 @@
 × ;
 - (void)!°!¤GùbÐ1Â0@ù
 × ;
-- (id)mConstraints:(struct CGRect)arg1 withOptimizedEngineBlock: /* Error: Ran out of types for this method. */;
+- (id)_measureViewWithSize:(struct CGRect)arg1 temporaryConstraints:suspendingSystemConstraints:withOptimizedEngineBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)iþÿ,iþÿDiþÿiþÿ´iþÿjþÿÄjþÿDkþÿ\kþÿtkþÿÀkþÿlþÿlþÿ¨lþÿÀlþÿØlþÿðlþÿ0mþÿHmþÿtmþÿmþÿ°mþÿÈmþÿàmþÿømþÿ nþÿ¸nþÿÐnþÿðnþÿhoþÿoþÿ¤oþÿ¼oþÿÔoþÿ<pþÿpþÿÄpþÿ,qþÿpqþÿ¨qþÿÀqþÿØqþÿðqþÿHuþÿÄvþÿìvþÿwþÿLxþÿdxþÿÀxþÿàxþÿpyþÿzþÿ zþÿ8{þÿä{þÿ(|þÿP|þÿt|þÿ|þÿ¤|þÿ¼|þÿÔ|þÿì|þÿ}þÿ<}þÿd}þÿ}þÿ´}þÿÜ}þÿô}þÿ~þÿ8~þÿX~þÿp~þÿ~þÿ ~þÿ¸~þÿ\þÿ¤þÿÄþÿÜþÿôþÿþÿ$þÿ<þÿTþÿlþÿþÿ´þÿÌþÿäþÿüþÿþÿ,þÿÔþÿþÿ`þÿþÿþÿþÿ¸þÿþÿÄþÿÜþÿtþÿþÿDþÿþÿþÿ¼þÿþÿÄþÿðþÿþÿ(þÿÔþÿ,þÿ\þÿØþÿ;
 - (id)è¦îÿ;
@@ -52,11 +46,6 @@
 - (double)bí;
 
 // Remaining properties
-@property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(retain, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;
-@property(nonatomic) _Bool hasFlexibleCornerRadius;
-@property(nonatomic) double lineWidth; // @synthesize lineWidth=_lineWidth;
-@property(retain, nonatomic) UIColor *strokeColor; // @synthesize strokeColor=_strokeColor;
 @property(nonatomic) _Bool usesSinglePixelLineWidth;
 
 @end

@@ -9,12 +9,11 @@
 @interface IPAScaleOperator : IPAGeometryOperator
 {
     double _xScale;
-    double _yScale;
 }
 
++ (id)NAVCaptureFlashMode;
 + (id);
-+ (id);
-- (id);
+- (id)SaySo12AVAssetTrackCG;
 - (id);
 
 @end

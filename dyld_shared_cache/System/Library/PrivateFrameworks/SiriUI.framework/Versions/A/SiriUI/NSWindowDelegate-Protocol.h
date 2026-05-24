@@ -4,11 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNotification;
+@class NSArray, NSNotification, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (_Bool)T	;
+- (void);
+- (void);
+- (void);
+- (void)o;
+- (NSArray *)insertText:(NSWindow *)arg1 style:alternatives: /* Error: Ran out of types for this method. */;
+- (NSArray *)insertText:(NSWindow *)arg1;
+- (NSArray *)insertSubview:(NSWindow *)arg1 aboveSubview: /* Error: Ran out of types for this method. */;
+- (struct CGSize)exclamationmark.circle.fill;
 - (void)ð1Â0@ù
 × ;
 - (void)× ;
@@ -20,22 +29,21 @@
 × ;
 - (void)nge=QQ}16;
 - (NSArray *)URLSessionDataTask"24@"NSURLResponse"32@?<v@?q>40;
-- (void)ithCompletion:(NSNotification *)arg1;
-- (void)ainsTeams;
-- (void)e:(NSNotification *)arg1;
-- (void)icalPadding;
-- (void)rinsicContentSize;
-- (void)nTapped;
-- (unsigned long long)RStatus;
+- (void)updateBridgeOSInterstitialsWithCompletion:(NSNotification *)arg1;
+- (void)siriui_containsTeams;
+- (void)setAcceptsFirstMouse:(NSNotification *)arg1;
+- (void)radarBtnVerticalPadding;
+- (void)intrinsicContentSize;
+- (void)closeButtonTapped;
+- (unsigned long long)_currentASRStatus;
 - (void)svsViewController;
-- (void);
 - (void)H
 
 ;
 - (void)t to automatic for device %u;
-- (_Bool)condInvocation;
+- (_Bool)SiriUIDismissalReasonQuickSecondInvocation;
 - (void)riStatusView.m;
-- (void)e;
-- (struct CGSize)IPresentationBundle;
+- (void)translate;
+- (struct CGSize)siriUIPresentationBundle;
 @end
 

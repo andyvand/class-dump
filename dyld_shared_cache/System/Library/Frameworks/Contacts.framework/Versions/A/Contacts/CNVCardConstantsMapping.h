@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSDictionary *_mapping;
 }
 
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)+;
 - (void);
 - (id);
 - (id);

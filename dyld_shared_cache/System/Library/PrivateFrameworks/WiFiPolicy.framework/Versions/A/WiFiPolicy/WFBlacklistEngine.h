@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
 @protocol WFBlacklistDelegate;
 
 @interface WFBlacklistEngine
 {
     unsigned long long _profile;
-    NSMutableArray *_blacklist;
-    _Bool _enabled;
-    id <WFBlacklistDelegate> _blacklistDelegate;
-    NSMutableArray *_ssidThresholds;
-    NSMutableArray *_bssidThresholds;
-    double _wowBlacklistExpiry;
-    double _autojoinBlacklistExpiry;
-    double _bssBlacklistExpiry;
 }
 
 + (id);
@@ -29,42 +20,42 @@
 - (void);
 - (double);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
 - (void);
 - (double);
 - (void);
+- (void)initWithConfiguration:(id)arg1;
+- (void)C,N,V_appleIDs;
+- (_Bool);
 - (id);
-- (id);
+- (_Bool);
 - (void);
+- (id);
+- (id);
+- (id)UsoTaskBuilder_goBack_common_NavigationMenu;
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (double);
+- (void);
+- (id);
+- (id);
+- (void)(%;
 - (void);
 - (id);
 - (long long);
+- (id)2;
+- (_Bool)feredAudioEngine_initializeResumeState(FigEndpointStreamAudioEngineRef);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -72,13 +63,7 @@
 - (void);
 
 // Remaining properties
-@property double autojoinBlacklistExpiry; // @synthesize autojoinBlacklistExpiry=_autojoinBlacklistExpiry;
 @property(nonatomic) id <WFBlacklistDelegate> blacklistDelegate; // @synthesize blacklistDelegate=_blacklistDelegate;
-@property double bssBlacklistExpiry; // @synthesize bssBlacklistExpiry=_bssBlacklistExpiry;
-@property(retain) NSMutableArray *bssidThresholds; // @synthesize bssidThresholds=_bssidThresholds;
-@property _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain) NSMutableArray *ssidThresholds; // @synthesize ssidThresholds=_ssidThresholds;
-@property double wowBlacklistExpiry; // @synthesize wowBlacklistExpiry=_wowBlacklistExpiry;
 
 @end
 

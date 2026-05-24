@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraSnapshotCache
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_snapshotCacheMap;
-    NSString *_logIdentifier;
 }
 
 + (id)$Âÿñ0ÇB;
-- (void);
+- (void)MSPSharedTripMessagesCapabilityFetchingQueue;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)$W;
 - (void);
 - (id)ñð1Â0@ù
 × ;
@@ -28,14 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)èF(,;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

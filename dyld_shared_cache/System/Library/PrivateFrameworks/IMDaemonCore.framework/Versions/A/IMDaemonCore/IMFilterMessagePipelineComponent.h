@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDMessageStore, IMDTrustKitDecisioningManager, IMFilterMessagePipelineComponentContext;
+@class IMDMessageStore, IMDTrustKitDecisioningManager;
 
 @interface IMFilterMessagePipelineComponent
 {
     IMDMessageStore *_messageStore;
-    IMFilterMessagePipelineComponentContext *_filteringContext;
-    IMDTrustKitDecisioningManager *_decisioningManager;
 }
 
 - (void);

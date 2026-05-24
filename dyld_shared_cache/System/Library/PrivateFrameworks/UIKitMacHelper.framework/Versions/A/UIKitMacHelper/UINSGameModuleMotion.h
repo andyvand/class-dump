@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface UINSGameModuleMotion : UINSGameModule
 {
     UINSGameEventTranslator *_gameEventTranslator;
-    UINSVirtualMotionDevice *_virtualMotionDevice;
 }
 
 - (id);

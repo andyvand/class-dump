@@ -5,5 +5,11 @@
 //
 
 @protocol CNComposeRecipientTextViewDelegate
+
+@optional
+- (void)!;
+- (void)@9(!*;
+- (void)R;
+- (void)@;
 @end
 

@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSThread;
-
 __attribute__((visibility("hidden")))
 @interface _BaseClientPortListener
 {
     unsigned int _serverPort;
-    unsigned int _clientPort;
-    struct __CFRunLoop *_runLoop;
-    NSThread *_thread;
-    struct __CFRunLoopSource *_clientDefsServerSource;
 }
 
 - (void);
@@ -25,21 +19,17 @@ __attribute__((visibility("hidden")))
 - (struct __CFRunLoopSource *);
 - (void);
 - (id);
-- (id);
-- (unsigned int);
+- (id)T8;
+- (unsigned int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct __CFRunLoop *);
-- (unsigned int);
+- (unsigned int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct __CFRunLoopSource *clientDefsServerSource; // @synthesize clientDefsServerSource=_clientDefsServerSource;
-@property(nonatomic) unsigned int clientPort; // @synthesize clientPort=_clientPort;
 @property struct __CFRunLoop *runLoop; // @synthesize runLoop=_runLoop;
-@property(nonatomic) unsigned int serverPort; // @synthesize serverPort=_serverPort;
-@property(retain, nonatomic) NSThread *thread; // @synthesize thread=_thread;
 
 @end
 

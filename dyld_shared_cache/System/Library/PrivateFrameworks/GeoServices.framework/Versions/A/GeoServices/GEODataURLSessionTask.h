@@ -4,46 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOClientMetrics, GEODataRequest, NSData, NSDate, NSError, NSHTTPURLResponse, NSMutableData, NSObject, NSString, NSURL, NSURLRequest, NSURLSessionTask, NSURLSessionTaskMetrics;
-@protocol GEODataURLSessionTaskDelegate, GEORequestCounterTicket, OS_dispatch_queue, OS_os_activity, OS_voucher;
+@protocol GEODataURLSessionTaskDelegate;
 
 @interface GEODataURLSessionTask
 {
     id <GEODataURLSessionTaskDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSObject<OS_dispatch_queue> *_sessionIsolation;
-    NSURLSessionTask *_backingTask;
-    NSError *_nonBackingTaskError;
-    NSData *_cachedData;
-    NSMutableData *_receivedData;
-    NSURLSessionTaskMetrics *_urlTaskMetrics;
-    double _startTime;
-    double _endTime;
-    CDStruct_d1a7ebee _requestKind;
-    _Bool _mptcpNegotiated;
-    _Bool _receivedRNFNotification;
-    float _priority;
-    unsigned int _sessionIdentifier;
-    _Bool _backingTaskNeedsResume;
-    _Bool _finished;
-    unsigned int _qos;
-    NSObject<OS_os_activity> *_activity;
-    NSDate *_originalStartDate;
-    NSObject<OS_voucher> *_voucher;
-    NSURL *_downloadedFileURL;
-    unsigned long long _cachedDownloadFileSize;
-    GEODataRequest *__request;
 }
 
 - (id);
 - (double);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (double);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (id);
@@ -51,16 +27,16 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (id)rowWithTitle:outletKeyPath: /* Error: Ran out of types for this method. */;
+- (_Bool)fferList=I[1{AudioBuffer=II^v}]}16;
+- (_Bool)econdPassProgressDelegate>";
+- (id)de;
+- (id)ledAsset:assetType:] /* Error: Ran out of types for this method. */;
+- (void)]_block_invoke;
+- (_Bool)!;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -71,11 +47,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)imageSize;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
@@ -88,13 +64,13 @@
 × ;
 - (void)1"has_maxResults"b1"read_unknownFields"b1"read_suggestionEntryMetadatas"b1"read_viewportInfo"b1"wrote_anyField"b1};
 - (void);
-- (_Bool)ptions:(id *)arg1 willSendRequestHandler:validationHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithRequest:(id *)arg1 traits:auditToken:config:throttleToken:options:willSendRequestHandler:validationHandler:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)_placeSummaryLayoutMetadata;
 - (unsigned long long)ÐV³ØDäV³¼ÙDW³ÀÛD@W³èÝDtW³EW³EàW³PEX³ÜE8X³üETX³ExX³è#E¬X³00E8Y³|4EY³@5E¨Y³¬DEÌY³FEZ³(OE@Z³<XEZ³\YEZ³HªE¨Z³¸ªE¸Z³Ð®E [³l²Et[³ ¶EÐ[³$ºE\³Ô»E<\³P¾E\³Ð¾E¤\³xÀEÈ\³°ÂE ]³;
-- (void)pothesisDefaultExpirationOffsetInSeconds;
-- (void)CITY;
-- (id)pdate;
-- (CDStruct_d1a7ebee)Library/BuildRoots/4~CNqLugBredD1EtXl51SgzMTmS7goLVwemzrdnqY/Library/Caches/com.apple.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/libprotobuf/src/google/protobuf/generated_message_util.cc;
+- (void)NavdHypothesisDefaultExpirationOffsetInSeconds;
+- (void)CAT_10285_CITY;
+- (id)photo_attribution_preferences_update;
+- (CDStruct_026435ec)Library/BuildRoots/4~CNqLugBredD1EtXl51SgzMTmS7goLVwemzrdnqY/Library/Caches/com.apple.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/libprotobuf/src/google/protobuf/generated_message_util.cc;
 - (id);
 - (void);
 - (_Bool)Ï~¤ÚL@;
@@ -109,42 +85,7 @@
 - (float);
 
 // Remaining properties
-@property(readonly, nonatomic) long long HTTPStatusCode;
-@property(readonly, nonatomic) NSObject<OS_os_activity> *activity; // @synthesize activity=_activity;
-@property(readonly, nonatomic) NSURLSessionTask *backingTask; // @synthesize backingTask=_backingTask;
-@property(copy, nonatomic) NSData *cachedData; // @synthesize cachedData=_cachedData;
-@property(readonly, nonatomic) GEOClientMetrics *clientMetrics;
-@property(readonly, nonatomic) unsigned long long contentLength;
-@property(readonly, nonatomic) NSString *contentLengthString;
-@property(readonly, nonatomic) __weak id <GEODataURLSessionTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy, nonatomic) NSURL *downloadedFileURL;
 @property(readonly, nonatomic) double elapsedTime;
-@property(readonly, nonatomic) NSString *entityTag;
-@property(retain, nonatomic) NSError *error;
-@property(readonly, nonatomic) _Bool failedDueToCancel;
-@property(readonly, nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(readonly, nonatomic) unsigned long long incomingPayloadSize;
-@property(readonly, nonatomic) double loadTime;
-@property(readonly, nonatomic) _Bool mptcpNegotiated; // @synthesize mptcpNegotiated=_mptcpNegotiated;
-@property(readonly, nonatomic) NSURL *originalRequestURL;
-@property(readonly, nonatomic) NSURLRequest *originalURLRequest;
-@property(readonly, nonatomic) unsigned long long outgoingPayloadSize;
-@property float priority;
-@property(readonly, nonatomic) _Bool protocolBufferHasPreamble;
-@property(readonly, nonatomic) NSData *receivedData;
-@property(readonly, nonatomic) unsigned long long receivedDataLength;
-@property(nonatomic) _Bool receivedRNFNotification; // @synthesize receivedRNFNotification=_receivedRNFNotification;
-@property(readonly, nonatomic) NSString *remoteAddressAndPort;
-@property(retain) GEODataRequest *request; // @synthesize request=__request;
-@property(readonly, nonatomic) id <GEORequestCounterTicket> requestCounterTicket;
-@property(readonly, nonatomic) CDStruct_d1a7ebee requestKind; // @synthesize requestKind=_requestKind;
-@property(readonly, nonatomic) unsigned long long requestedMultipathServiceType;
-@property(readonly, nonatomic) NSHTTPURLResponse *response;
-@property(nonatomic) unsigned int sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *sessionIsolation; // @synthesize sessionIsolation=_sessionIsolation;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly, nonatomic) NSURLSessionTaskMetrics *urlTaskMetrics;
 
 @end
 

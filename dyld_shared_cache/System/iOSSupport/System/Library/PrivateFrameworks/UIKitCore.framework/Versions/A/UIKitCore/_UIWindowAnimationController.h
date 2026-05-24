@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIWindow;
+@class UIWindow;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowAnimationController
@@ -21,19 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool)Ð1Â0@ù
 × ;
-- (void)reRecognizer;
-- (void)GlowBlurRadius;
+- (void)_twoFingerDoubleTapGestureRecognizer;
+- (void)_cursorGlowBlurRadius;
 - (void)utomaticStyle;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldCrossfade; // @synthesize shouldCrossfade=_shouldCrossfade;
-@property(readonly) Class superclass;
 @property(nonatomic) UIWindow *window; // @synthesize window=_window;
 
 @end

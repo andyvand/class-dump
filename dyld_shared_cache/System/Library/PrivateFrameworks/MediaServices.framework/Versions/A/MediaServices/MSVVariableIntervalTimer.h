@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVTimer, NSArray, NSDate, NSMutableArray;
+@class NSMutableArray;
 
 @interface MSVVariableIntervalTimer
 {
     NSMutableArray *_intervals;
-    MSVTimer *_timer;
-    NSDate *_currentIntervalStartDate;
 }
 
 - (void);
@@ -23,9 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) double currentInterval;
-@property(readonly, nonatomic) NSArray *remainingIntervals;
-@property(readonly, nonatomic) double timeUntilNextInterval;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

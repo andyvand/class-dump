@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber;
+@class NSArray, NSData;
 
 @interface _ANECompilerAnalytics
 {
     NSArray *_procedureAnalytics;
-    NSData *_analyticsBuffer;
-    NSNumber *_bufferSizeInBytes;
 }
 
 + (id);
@@ -30,15 +28,13 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id)mat. format:%d, size:%ld, pos:%ld, end:%ld /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)I;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *analyticsBuffer; // @synthesize analyticsBuffer=_analyticsBuffer;
-@property(readonly, nonatomic) NSNumber *bufferSizeInBytes; // @synthesize bufferSizeInBytes=_bufferSizeInBytes;
-@property(retain, nonatomic) NSArray *procedureAnalytics; // @synthesize procedureAnalytics=_procedureAnalytics;
 
 @end
 

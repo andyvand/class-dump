@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PCSManateeShareInvitation
 {
     NSData *_exportedPCSData;
-    NSData *_shareePublicKeyData;
 }
 
 - (id);
@@ -19,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -28,13 +27,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ing token for file %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *exportedPCSData; // @synthesize exportedPCSData=_exportedPCSData;
 @property(readonly, nonatomic) _Bool hasExportedPCSData;
-@property(readonly, nonatomic) _Bool hasShareePublicKeyData;
-@property(retain, nonatomic) NSData *shareePublicKeyData; // @synthesize shareePublicKeyData=_shareePublicKeyData;
 
 @end
 

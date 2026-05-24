@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TUConversationManager, _PASLock;
+@class TUConversationManager;
 
 @interface PPQuickTypeURLServant
 {
     TUConversationManager *_conversationManager;
-    _PASLock *_dataLock;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)T;
+- (id)DataVersion;
 - (void);
 - (void);
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CADColorInterface
+- (void)getDeviceUID - will retry up to %ld times with intervals [%@];
 @end
 

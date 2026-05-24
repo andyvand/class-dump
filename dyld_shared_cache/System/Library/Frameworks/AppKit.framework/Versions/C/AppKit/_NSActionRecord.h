@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSActionRecord
 {
     SEL _action;
-    id _target;
-    id _sender;
-    NSString *_actionTitle;
-    long long _tag;
-    _Bool _canUseResponderChain;
-    _Bool _fromMainMenu;
 }
 
 - (id);
@@ -29,10 +21,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) SEL action; // @synthesize action=_action;
-@property(readonly, copy) NSString *actionTitle; // @synthesize actionTitle=_actionTitle;
-@property(readonly) _Bool canUseResponderChain; // @synthesize canUseResponderChain=_canUseResponderChain;
-@property(readonly) _Bool fromMainMenu; // @synthesize fromMainMenu=_fromMainMenu;
-@property(readonly) long long tag; // @synthesize tag=_tag;
 
 @end
 

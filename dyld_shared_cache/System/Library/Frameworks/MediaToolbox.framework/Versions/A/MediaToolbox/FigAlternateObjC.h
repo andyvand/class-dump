@@ -6,17 +6,9 @@
 
 #import <MediaToolbox/FigKVCInspectable.h>
 
-@class FigAlternateObjCAudioAttributes, FigAlternateObjCVideoAttributes, NSURL;
-
 @interface FigAlternateObjC : FigKVCInspectable
 {
     struct OpaqueFigAlternate *_alternate;
-    FigAlternateObjCVideoAttributes *_videoAttributes;
-    FigAlternateObjCAudioAttributes *_audioAttributes;
-    NSURL *_url;
-    struct OpaqueFigSimpleMutex *_mutex;
-    double _peakBitRate;
-    double _averageBitRate;
 }
 
 + (id);
@@ -27,15 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) FigAlternateObjCAudioAttributes *audioAttributes;
-@property(readonly, nonatomic) double averageBitRate; // @synthesize averageBitRate=_averageBitRate;
-@property(readonly, nonatomic) struct OpaqueFigAlternate *figAlternate; // @synthesize figAlternate=_alternate;
 @property(readonly, nonatomic) double peakBitRate; // @synthesize peakBitRate=_peakBitRate;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) FigAlternateObjCVideoAttributes *videoAttributes;
 
 @end
 

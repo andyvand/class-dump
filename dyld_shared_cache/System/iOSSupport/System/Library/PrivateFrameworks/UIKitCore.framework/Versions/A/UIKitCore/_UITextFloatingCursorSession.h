@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIStandardTextCursorView, UITextSelectionDisplayInteraction, UIView;
-@protocol UITextCursorAssertion;
+@class UITextSelectionDisplayInteraction;
 
 __attribute__((visibility("hidden")))
 @interface _UITextFloatingCursorSession
 {
     _Bool _isValid;
-    id <UITextCursorAssertion> _ghostCursorAssertion;
-    UITextSelectionDisplayInteraction *_manager;
-    UIStandardTextCursorView *_floatingCursorView;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)removeChatID:(struct CGPoint)arg1 identifier:style: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)_participantIDSetFromHandles:toIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -30,16 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UIStandardTextCursorView *floatingCursorView; // @synthesize floatingCursorView=_floatingCursorView;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak UITextSelectionDisplayInteraction *manager; // @synthesize manager=_manager;
-@property(readonly, nonatomic, getter=_selectionContainerView) UIView *selectionContainerView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface CloudSessionChanges
 {
     id recordZonesChanges;
-    id fetchedRecordChanges;
-    id pushedRecordChanges;
 }
 
 - (id);

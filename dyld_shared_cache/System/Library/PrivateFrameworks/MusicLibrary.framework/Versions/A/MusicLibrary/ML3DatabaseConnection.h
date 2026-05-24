@@ -4,95 +4,68 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ML3DatabaseConnectionPool, ML3DatabasePrivacyContext, ML3DatabaseStatementCache, NSMutableArray, NSString, NSUUID;
 @protocol ML3DatabaseConnectionDelegate;
 
 @interface ML3DatabaseConnection
 {
     struct sqlite3 *_sqlitedb;
-    _Bool _isOpen;
-    ML3DatabaseStatementCache *_statementCache;
-    unsigned long long _statementsSinceLastCheckpoint;
-    unsigned long long _transactionLevel;
-    _Bool _nestedTransactionWantsToRollback;
-    NSMutableArray *_enqueuedTransactionCommitBlocks;
-    ML3DatabaseConnectionPool *_owningPool;
-    NSMutableArray *_registeredFunctions;
-    NSMutableArray *_registeredModules;
-    const void *_iTunesExtensions;
-    int _willDeleteDatabaseNotifyToken;
-    _Bool _isHandlingIOError;
-    _Bool _alreadyAttemptedCorruptionRecovery;
-    _Bool _closeConnectionWhenCheckingIn;
-    struct os_unfair_lock_s _lock;
-    _Bool _isReadOnly;
-    _Bool _automaticCheckpointingEnabled;
-    _Bool _logQueryPlans;
-    id <ML3DatabaseConnectionDelegate> _connectionDelegate;
-    NSString *_databasePath;
-    ML3DatabasePrivacyContext *_privacyContext;
-    unsigned long long _journalingMode;
-    unsigned long long _protectionLevel;
-    NSUUID *_currentTransactionID;
-    NSUUID *_uniqueIdentifier;
-    unsigned long long _checkpointStatementThreshold;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)put;
+- (_Bool)TIMecabraCandidate;
+- (_Bool) ;
+- (unsigned long long)!;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)#	>		$	@	;
+- (unsigned long long)M	0	@	/	;
 - (_Bool);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (void)i;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (_Bool)MobileInstallationFetchListOfAppsRequiringPreInstallConsent;
+- (id);
 - (void);
+- (_Bool)suspectedJunk;
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void)N3fst10MemoryPoolINS_13PoolAllocatorIPNSt3__116__hash_node_baseIPNS2_11__hash_nodeIiPvEEEEE2TNILi1EEEEE;
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)_dataTaskCompletionHandlerWithData:response:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
 - (long long);
-- (id);
-- (void);
-- (void);
+- (id)updateAccessModeChangeNotificationEnabled:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)setFrontRightDestinationIdentifier:(id)arg1;
+- (void)sendMessage:target:responseQueue:responseHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)already complete, aborting.;
+- (_Bool)tifier from data=%@;
+- (_Bool)homeUUID;
 - (_Bool);
 - (void);
 - (int);
@@ -113,7 +86,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -128,11 +101,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -150,20 +123,7 @@
 - (id)5;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticCheckpointingEnabled; // @synthesize automaticCheckpointingEnabled=_automaticCheckpointingEnabled;
-@property(nonatomic) unsigned long long checkpointStatementThreshold; // @synthesize checkpointStatementThreshold=_checkpointStatementThreshold;
 @property(nonatomic) __weak id <ML3DatabaseConnectionDelegate> connectionDelegate; // @synthesize connectionDelegate=_connectionDelegate;
-@property(readonly, nonatomic) NSUUID *currentTransactionID; // @synthesize currentTransactionID=_currentTransactionID;
-@property(readonly, nonatomic) NSString *databasePath; // @synthesize databasePath=_databasePath;
-@property(readonly, nonatomic) _Bool isInTransaction;
-@property(readonly, nonatomic) _Bool isOpen;
-@property(nonatomic, setter=setReadOnly:) _Bool isReadOnly; // @synthesize isReadOnly=_isReadOnly;
-@property(nonatomic) unsigned long long journalingMode; // @synthesize journalingMode=_journalingMode;
-@property(nonatomic) _Bool logQueryPlans; // @synthesize logQueryPlans=_logQueryPlans;
-@property(retain, nonatomic) ML3DatabasePrivacyContext *privacyContext; // @synthesize privacyContext=_privacyContext;
-@property(nonatomic) unsigned long long protectionLevel; // @synthesize protectionLevel=_protectionLevel;
-@property(readonly, nonatomic) _Bool transactionMarkedForRollBack;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

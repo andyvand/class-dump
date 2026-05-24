@@ -7,14 +7,6 @@
 @interface PassKitCore.ProvisioningMultiCredentialCoordinator
 {
     id context;
-    id credentials;
-    id serializedSteps;
-    id lock;
-    id coordinatorStates;
-    id stepQueues;
-    id currentlyExecutingSteps;
-    id completedCount;
-    id completion;
 }
 
 @end

@@ -7,8 +7,6 @@
 @interface TSDTapGestureRecognizer
 {
     struct CGPoint mFirstTapLocation;
-    _Bool mSavedFirstTapLocation;
-    unsigned long long mTapCount;
 }
 
 - (struct CGPoint);
@@ -18,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint firstTapLocation; // @synthesize firstTapLocation=mFirstTapLocation;
-@property(readonly, nonatomic) unsigned long long tapCount; // @synthesize tapCount=mTapCount;
 
 @end
 

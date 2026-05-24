@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (unsigned long long);
+- (id)encryptionCapability;
+- (unsigned long long)conversationPinningUsesLastNameForDuplicatesEnabled;
 
 @end
 

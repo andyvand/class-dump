@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXExtendedTraitCollection, PXPlacesMapThumbnailLocationCurator;
-@protocol PXPlacesMapGeotaggableInfoDelegate, PXPlacesMapPipelineComponentProvider;
+@protocol PXPlacesMapGeotaggableInfoDelegate;
 
 @interface PXPlacesMapThumbnailRenderer
 {
     long long _popoverImageType;
-    id <PXPlacesMapPipelineComponentProvider> pipelineComponentProvider;
-    unsigned long long _imageOptions;
-    id <PXPlacesMapGeotaggableInfoDelegate> _informationDelegate;
-    PXExtendedTraitCollection *_extendedTraitCollection;
-    id _extendedTraitObserver;
-    PXPlacesMapThumbnailLocationCurator *_thumbnailLocationCurator;
-    long long _countLabelStyle;
 }
 
 - (id);
@@ -27,38 +19,27 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (struct NSEdgeInsets);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)diump vec2 a2 = 1. - .5 * invRadii; 
+			mediump vec2 borderAlphaXY = a2 + absP1 * invRadii; 
+			borderAlpha = max(borderAlphaXY.x, borderAlphaXY.y); 
+		} 
+		;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long countLabelStyle; // @synthesize countLabelStyle=_countLabelStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) PXExtendedTraitCollection *extendedTraitCollection; // @synthesize extendedTraitCollection=_extendedTraitCollection;
-@property(retain) id extendedTraitObserver; // @synthesize extendedTraitObserver=_extendedTraitObserver;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long imageOptions; // @synthesize imageOptions=_imageOptions;
 @property(retain) id <PXPlacesMapGeotaggableInfoDelegate> informationDelegate; // @synthesize informationDelegate=_informationDelegate;
-@property(readonly) struct NSEdgeInsets minimumEdgeInsets;
-@property(nonatomic) __weak id <PXPlacesMapPipelineComponentProvider> pipelineComponentProvider; // @synthesize pipelineComponentProvider;
-@property(readonly) long long popoverImageType; // @synthesize popoverImageType=_popoverImageType;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak PXPlacesMapThumbnailLocationCurator *thumbnailLocationCurator; // @synthesize thumbnailLocationCurator=_thumbnailLocationCurator;
 
 @end
 

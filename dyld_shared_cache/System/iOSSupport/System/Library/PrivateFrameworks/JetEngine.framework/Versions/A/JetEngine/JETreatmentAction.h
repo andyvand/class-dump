@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface JETreatmentAction
 {
     _Bool _denylisted;
-    NSString *_field;
-    NSString *_sourceField;
-    id _overrideFieldValue;
-    NSArray *_denylistedFields;
-    NSArray *_allowlistedFields;
-    NSDictionary *_fieldsMap;
-    NSDictionary *_extractAndReplaceConfig;
-    NSArray *_destinationKeyPath;
-    NSArray *_sourceKeyPath;
 }
 
-+ (id);
++ (id):(id)arg1:(id)arg2;
 - (id);
 - (id);
 - (void);

@@ -15,7 +15,7 @@
 × ;
 - (void);
 - (int);
-- (id);
+- (id)T(@;
 - (id);
 - (_Bool);
 - (_Bool);

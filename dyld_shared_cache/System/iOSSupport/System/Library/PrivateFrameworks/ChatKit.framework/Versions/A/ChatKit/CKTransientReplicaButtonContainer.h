@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface CKTransientReplicaButtonContainer
 {
     UIView *_sendButtonCircle;
-    UIView *_cancelButtonCircle;
-    CALayer *_sendButtonGlyphLayer;
-    CALayer *_cancelButtonGlyphLayer;
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)KitUI;
+- (id)firstMatchingRangeInNote;
+- (id)firstAttachmentInTextStorage;
+- (id)x'@(;
+- (id)e;
+- (id)o;
+- (id)a locked notes mode;
+- (id)PerSection:(id)arg1 ` arrangedObjects.count should match the total number of items in each section in itemsPerSection and index should greater than 0 and less than arrangedObjects.count.;
+- (void)AuthKitUI;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *cancelButtonCircle; // @synthesize cancelButtonCircle=_cancelButtonCircle;
-@property(readonly, nonatomic) CALayer *cancelButtonGlyphLayer; // @synthesize cancelButtonGlyphLayer=_cancelButtonGlyphLayer;
 @property(readonly, nonatomic) UIView *sendButtonCircle; // @synthesize sendButtonCircle=_sendButtonCircle;
-@property(readonly, nonatomic) CALayer *sendButtonGlyphLayer; // @synthesize sendButtonGlyphLayer=_sendButtonGlyphLayer;
 
 @end
 

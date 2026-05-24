@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol CRGrouping
+- (NSArray *)_urlTextField;
 
 // Remaining properties
 @property(readonly) NSArray *subregions;

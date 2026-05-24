@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXDisplayAssetFetchResult, PXDisplayMomentShare;
+@protocol PXDisplayMomentShare;
 
 @protocol PXMutableMomentShareStatus
 
 // Remaining properties
-@property(retain, nonatomic) id <PXDisplayAssetFetchResult> allAssetsFetchResult;
-@property(retain, nonatomic) id <PXDisplayAssetFetchResult> copiedAssetsFetchResult;
-@property(retain, nonatomic) id <PXDisplayAssetFetchResult> copyingAssetsFetchResult;
 @property(retain, nonatomic) id <PXDisplayMomentShare> momentShare;
 @end
 

@@ -7,9 +7,6 @@
 @interface PGWallpaperLibraryAnalysisSummary
 {
     _Bool _libraryIsProcessedEnough;
-    _Bool _libraryIsEmpty;
-    double _ratioOfAssetsAtOrAboveSceneAnalysisVersion;
-    double _ratioOfAssetsAtOrAboveFaceAnalysisVersion;
 }
 
 - (double);
@@ -19,9 +16,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool libraryIsEmpty; // @synthesize libraryIsEmpty=_libraryIsEmpty;
-@property(readonly, nonatomic) _Bool libraryIsProcessedEnough; // @synthesize libraryIsProcessedEnough=_libraryIsProcessedEnough;
-@property(readonly, nonatomic) double ratioOfAssetsAtOrAboveFaceAnalysisVersion; // @synthesize ratioOfAssetsAtOrAboveFaceAnalysisVersion=_ratioOfAssetsAtOrAboveFaceAnalysisVersion;
 @property(readonly, nonatomic) double ratioOfAssetsAtOrAboveSceneAnalysisVersion; // @synthesize ratioOfAssetsAtOrAboveSceneAnalysisVersion=_ratioOfAssetsAtOrAboveSceneAnalysisVersion;
 
 @end

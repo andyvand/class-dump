@@ -9,6 +9,8 @@
 @protocol UIScrollViewDelegate
 
 @optional
+- (void)v40^v48^v56^v64^v72^v80;
+- (_Bool)stringWithMostSignificatDomainPart;
 - (UIView *)°!¤DùÑuð1Â0@ù
 × ;
 - (void)2;

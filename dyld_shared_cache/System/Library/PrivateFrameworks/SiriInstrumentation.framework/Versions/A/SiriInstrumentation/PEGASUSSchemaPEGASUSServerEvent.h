@@ -6,33 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, PEGASUSSchemaPEGASUSAMPPersonalizationLoggingInfo, PEGASUSSchemaPEGASUSAMPSafetyLoggingInfo, PEGASUSSchemaPEGASUSAsrCorrectionInfo, PEGASUSSchemaPEGASUSInfoDomainMultistepAndMultiturnExecutionReported, PEGASUSSchemaPEGASUSRequestContext, PEGASUSSchemaPEGASUSRequestEndedTier1, PEGASUSSchemaPEGASUSRewrittenUtterancesReported, PEGASUSSchemaPEGASUSRewrittenUtterancesReportedTier1, PEGASUSSchemaPEGASUSServerEventMetadata, PEGASUSSchemaPEGASUSUtteranceUnderstandingReported, PEGASUSSchemaPEGASUSUtteranceUnderstandingReportedTier1, SISchemaInstrumentationMessage;
+@class PEGASUSSchemaPEGASUSServerEventMetadata, SISchemaInstrumentationMessage;
 
 @interface PEGASUSSchemaPEGASUSServerEvent : SISchemaTopLevelUnionType
 {
     PEGASUSSchemaPEGASUSServerEventMetadata *_eventMetadata;
-    PEGASUSSchemaPEGASUSRequestContext *_pegasusRequestContext;
-    PEGASUSSchemaPEGASUSRewrittenUtterancesReported *_pegasusRewrittenUtterancesReported;
-    PEGASUSSchemaPEGASUSRewrittenUtterancesReportedTier1 *_pegasusRewrittenUtterancesReportedTier1;
-    PEGASUSSchemaPEGASUSUtteranceUnderstandingReported *_pegasusUtteranceUnderstandingReported;
-    PEGASUSSchemaPEGASUSUtteranceUnderstandingReportedTier1 *_pegasusUtteranceUnderstandingReportedTier1;
-    PEGASUSSchemaPEGASUSRequestEndedTier1 *_pegasusRequestEndedTier1;
-    PEGASUSSchemaPEGASUSInfoDomainMultistepAndMultiturnExecutionReported *_pegasusInfoDomainMultistepAndMultiturnExecutionReported;
-    PEGASUSSchemaPEGASUSAMPSafetyLoggingInfo *_pegasusAmpSafetyLoggingInfo;
-    PEGASUSSchemaPEGASUSAsrCorrectionInfo *_pegasusAsrCorrectionInfo;
-    PEGASUSSchemaPEGASUSAMPPersonalizationLoggingInfo *_pegasusAmpPersonalizationLoggingInfo;
-    _Bool _hasEventMetadata;
-    _Bool _hasPegasusRequestContext;
-    _Bool _hasPegasusRewrittenUtterancesReported;
-    _Bool _hasPegasusRewrittenUtterancesReportedTier1;
-    _Bool _hasPegasusUtteranceUnderstandingReported;
-    _Bool _hasPegasusUtteranceUnderstandingReportedTier1;
-    _Bool _hasPegasusRequestEndedTier1;
-    _Bool _hasPegasusInfoDomainMultistepAndMultiturnExecutionReported;
-    _Bool _hasPegasusAmpSafetyLoggingInfo;
-    _Bool _hasPegasusAsrCorrectionInfo;
-    _Bool _hasPegasusAmpPersonalizationLoggingInfo;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -61,16 +39,17 @@
 - (id);
 - (id);
 - (id);
+- (id)A
+*;
 - (id);
 - (id);
 - (id);
+- (id)*;
 - (id);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -88,9 +67,9 @@
 - (void);
 - (void);
 - (void);
+- (void)(=;
 - (void);
-- (void);
-- (void);
+- (void)a;
 - (void);
 - (_Bool);
 - (void);
@@ -98,45 +77,21 @@
 - (id);
 - (int);
 - (id);
-- (void);
+- (void)(;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)quest %@;
 - (id);
 - (id);
 - (id)emaIHModelEvaluationFailed";
-- (unsigned long long)etName;
-- (id)iceExpertExecutionTier1;
+- (unsigned long long)assetSetName;
+- (id)_hasDeviceExpertExecutionTier1;
 - (id)rSynthesisContext;
 - (int)g;
 - (void)Event.ASRPreheatContext;
 
 // Remaining properties
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSServerEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasPegasusAmpPersonalizationLoggingInfo; // @synthesize hasPegasusAmpPersonalizationLoggingInfo=_hasPegasusAmpPersonalizationLoggingInfo;
-@property(nonatomic) _Bool hasPegasusAmpSafetyLoggingInfo; // @synthesize hasPegasusAmpSafetyLoggingInfo=_hasPegasusAmpSafetyLoggingInfo;
-@property(nonatomic) _Bool hasPegasusAsrCorrectionInfo; // @synthesize hasPegasusAsrCorrectionInfo=_hasPegasusAsrCorrectionInfo;
-@property(nonatomic) _Bool hasPegasusInfoDomainMultistepAndMultiturnExecutionReported; // @synthesize hasPegasusInfoDomainMultistepAndMultiturnExecutionReported=_hasPegasusInfoDomainMultistepAndMultiturnExecutionReported;
-@property(nonatomic) _Bool hasPegasusRequestContext; // @synthesize hasPegasusRequestContext=_hasPegasusRequestContext;
-@property(nonatomic) _Bool hasPegasusRequestEndedTier1; // @synthesize hasPegasusRequestEndedTier1=_hasPegasusRequestEndedTier1;
-@property(nonatomic) _Bool hasPegasusRewrittenUtterancesReported; // @synthesize hasPegasusRewrittenUtterancesReported=_hasPegasusRewrittenUtterancesReported;
-@property(nonatomic) _Bool hasPegasusRewrittenUtterancesReportedTier1; // @synthesize hasPegasusRewrittenUtterancesReportedTier1=_hasPegasusRewrittenUtterancesReportedTier1;
-@property(nonatomic) _Bool hasPegasusUtteranceUnderstandingReported; // @synthesize hasPegasusUtteranceUnderstandingReported=_hasPegasusUtteranceUnderstandingReported;
-@property(nonatomic) _Bool hasPegasusUtteranceUnderstandingReportedTier1; // @synthesize hasPegasusUtteranceUnderstandingReportedTier1=_hasPegasusUtteranceUnderstandingReportedTier1;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSAMPPersonalizationLoggingInfo *pegasusAmpPersonalizationLoggingInfo; // @synthesize pegasusAmpPersonalizationLoggingInfo=_pegasusAmpPersonalizationLoggingInfo;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSAMPSafetyLoggingInfo *pegasusAmpSafetyLoggingInfo; // @synthesize pegasusAmpSafetyLoggingInfo=_pegasusAmpSafetyLoggingInfo;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSAsrCorrectionInfo *pegasusAsrCorrectionInfo; // @synthesize pegasusAsrCorrectionInfo=_pegasusAsrCorrectionInfo;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSInfoDomainMultistepAndMultiturnExecutionReported *pegasusInfoDomainMultistepAndMultiturnExecutionReported; // @synthesize pegasusInfoDomainMultistepAndMultiturnExecutionReported=_pegasusInfoDomainMultistepAndMultiturnExecutionReported;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSRequestContext *pegasusRequestContext; // @synthesize pegasusRequestContext=_pegasusRequestContext;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSRequestEndedTier1 *pegasusRequestEndedTier1; // @synthesize pegasusRequestEndedTier1=_pegasusRequestEndedTier1;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSRewrittenUtterancesReported *pegasusRewrittenUtterancesReported; // @synthesize pegasusRewrittenUtterancesReported=_pegasusRewrittenUtterancesReported;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSRewrittenUtterancesReportedTier1 *pegasusRewrittenUtterancesReportedTier1; // @synthesize pegasusRewrittenUtterancesReportedTier1=_pegasusRewrittenUtterancesReportedTier1;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSUtteranceUnderstandingReported *pegasusUtteranceUnderstandingReported; // @synthesize pegasusUtteranceUnderstandingReported=_pegasusUtteranceUnderstandingReported;
-@property(retain, nonatomic) PEGASUSSchemaPEGASUSUtteranceUnderstandingReportedTier1 *pegasusUtteranceUnderstandingReportedTier1; // @synthesize pegasusUtteranceUnderstandingReportedTier1=_pegasusUtteranceUnderstandingReportedTier1;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

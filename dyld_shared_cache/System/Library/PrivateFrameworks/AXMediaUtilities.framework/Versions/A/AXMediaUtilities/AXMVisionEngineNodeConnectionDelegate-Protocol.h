@@ -5,5 +5,8 @@
 //
 
 @protocol AXMVisionEngineNodeConnectionDelegate
+- (_Bool)m;
+- (void);
+- (void);
 @end
 

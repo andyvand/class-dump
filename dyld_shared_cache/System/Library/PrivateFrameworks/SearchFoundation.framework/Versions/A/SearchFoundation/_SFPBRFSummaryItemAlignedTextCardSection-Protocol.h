@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSummaryItemAlignedTextCardSection
+- (void);
+- (_SFPBRFTextProperty *)iew"24@"PDFPage"32;
+- (NSData *)V_scoreByCMMSuggestionMatchingType;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_4;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_5;
-@property(copy, nonatomic) NSArray *text_6s;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

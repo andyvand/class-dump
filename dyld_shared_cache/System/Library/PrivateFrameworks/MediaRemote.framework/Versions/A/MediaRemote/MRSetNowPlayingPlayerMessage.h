@@ -12,7 +12,7 @@
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)image preview for spam detection response %@ received %@;
 - (id);
 - (id);
 

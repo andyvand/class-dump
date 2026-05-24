@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NAUITextStyleDescriptor, NSString;
-
 @interface NAUIContentSizeLayoutConstraint
 {
     id _autoitem;
-    id _preferredContentSizeDidChangeObserver;
-    _Bool _isConstantUpdatingConstraint;
-    NAUITextStyleDescriptor *_dynamicTextStyleDescriptor;
-    _Bool _allowsAccessibilityTextStyleSizes;
-    double _textStyleDefaultBodyLeading;
-    _Bool _autoUpdatingConstantShrinks;
-    double _defaultConstant;
-    double _additionalConstant;
-    NSString *_textStyle;
-    CDUnknownBlockType _constantLoadingBlock;
 }
 
++ (id)z;
 + (id);
++ (id)z;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)g)z;
 + (double);
 + (id);
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (_Bool);
+- (CDUnknownBlockType)z;
+- (_Bool)5z;
 - (double);
-- (void);
-- (void);
+- (void)z;
+- (void)z;
 - (double);
-- (void);
-- (double);
+- (void)z;
+- (double);
 - (void);
 - (void);
 - (void);
@@ -47,11 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double additionalConstant; // @synthesize additionalConstant=_additionalConstant;
-@property(nonatomic) _Bool autoUpdatingConstantShrinks; // @synthesize autoUpdatingConstantShrinks=_autoUpdatingConstantShrinks;
 @property(copy, nonatomic) CDUnknownBlockType constantLoadingBlock; // @synthesize constantLoadingBlock=_constantLoadingBlock;
-@property(nonatomic) double defaultConstant; // @synthesize defaultConstant=_defaultConstant;
-@property(copy, nonatomic) NSString *textStyle; // @synthesize textStyle=_textStyle;
 
 @end
 

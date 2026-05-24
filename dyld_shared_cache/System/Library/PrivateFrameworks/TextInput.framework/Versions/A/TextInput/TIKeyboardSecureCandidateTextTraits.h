@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TIKeyboardSecureCandidateRGBColor;
+@class NSString;
 
 @interface TIKeyboardSecureCandidateTextTraits
 {
     NSString *_fontName;
-    double _maxFontSize;
-    double _minFontSize;
-    TIKeyboardSecureCandidateRGBColor *_textColor;
-    double _yCoordinate;
-    double _baselineOffset;
 }
 
 + (_Bool);
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)predicateWithSubstitutionVariables: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (double);
+- (id);
+- (void);
+- (_Bool)7;
+- (double);
 - (void);
 - (id);
 - (id);
@@ -44,15 +39,10 @@
 ;
 - (double);
 - (void);
-- (void)s;
+- (void)joyousness;
 
 // Remaining properties
-@property(nonatomic) double baselineOffset; // @synthesize baselineOffset=_baselineOffset;
 @property(copy, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(nonatomic) double maxFontSize; // @synthesize maxFontSize=_maxFontSize;
-@property(nonatomic) double minFontSize; // @synthesize minFontSize=_minFontSize;
-@property(retain, nonatomic) TIKeyboardSecureCandidateRGBColor *textColor; // @synthesize textColor=_textColor;
-@property(nonatomic) double yCoordinate; // @synthesize yCoordinate=_yCoordinate;
 
 @end
 

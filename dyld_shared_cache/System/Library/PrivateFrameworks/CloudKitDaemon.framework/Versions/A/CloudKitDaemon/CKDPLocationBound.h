@@ -7,15 +7,12 @@
 @interface CKDPLocationBound
 {
     double _radius;
-    struct {
-        unsigned int radius:1;
-    } _has;
 }
 
 - (id);
+- (void)handleApplicationSpecific:(id)arg1 appletAID:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ne_logForSendRate(FigEndpointStreamAudioEngineRef, APAudioEngineHoseDescriptor *, size_t);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -28,7 +25,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasRadius;
-@property(nonatomic) double radius; // @synthesize radius=_radius;
 
 @end
 

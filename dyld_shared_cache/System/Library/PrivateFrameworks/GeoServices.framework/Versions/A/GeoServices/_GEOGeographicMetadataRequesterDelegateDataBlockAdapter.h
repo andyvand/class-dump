@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GEOGeographicMetadataRequesterDelegateDataBlockAdapter
 {
     CDUnknownBlockType _block;
 }
 
+- (void)Versions/A/PerformanceAnalysis;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ameworks/OpenDirectory.framework/Versions/A/OpenDirectory;
+- (void)amework/Versions/A/login;
 - (id)ryLines"b1"read_tokenSets"b1"wrote_anyField"b1};
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,35 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @protocol WiFiCandidateNetwork
+- (unsigned int)teger;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *SSID;
-@property(readonly, nonatomic) NSSet *accessPoints;
-@property(readonly, nonatomic) NSSet *attributes;
-@property(readonly, copy, nonatomic) NSString *captiveToken;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, copy, nonatomic) NSString *captiveTokenAuthURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(nonatomic) _Bool matched;
-@property(readonly, copy, nonatomic) NSString *password;
-@property(readonly, copy, nonatomic) NSString *receivedFromDeviceName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) long long source;
-@property(readonly, nonatomic) unsigned long long type;
-@property(readonly, copy, nonatomic) NSString *uniqueIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) unsigned long long venueGroup;
-@property(readonly, nonatomic) unsigned int venueType;
 @end
 

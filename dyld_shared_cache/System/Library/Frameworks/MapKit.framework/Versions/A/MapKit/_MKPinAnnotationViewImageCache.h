@@ -8,15 +8,14 @@ __attribute__((visibility("hidden")))
 @interface _MKPinAnnotationViewImageCache
 {
     struct _GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, geo::GEOGenericContainerWeakReferenceTag, 0UL, 0UL, geo::GEOGenericContainerLockingTag, geo::detail::_default_pointer_type> _pool;
-    struct _GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, geo::GEOGenericContainerStrongReferenceTag, 64UL, 2097152UL, geo::GEOGenericContainerLockingTag, geo::detail::_default_pointer_type> _cache;
 }
 
-- (void);
+- (void)_quality;
+- (id)Unable to generate energy report -- lastPowerlogResponse=%@;
+- (id)s and %@ precision/recall curve entries;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)dataWithLength: /* Error: Ran out of types for this method. */;
+- (void)setMatchesTransform: /* Error: Ran out of types for this method. */;
 
 @end
 

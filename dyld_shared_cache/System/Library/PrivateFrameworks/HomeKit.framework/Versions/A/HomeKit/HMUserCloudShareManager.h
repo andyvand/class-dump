@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, NSUUID, _HMContext;
-@protocol HMUserCloudShareManagerDataSource, HMUserCloudShareManagerDelegate, OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMUserCloudShareManager
 {
     _Bool _registered;
-    id <HMUserCloudShareManagerDelegate> _delegate;
-    _HMContext *_context;
-    id <HMUserCloudShareManagerDataSource> _dataSource;
-    NSUUID *_identifier;
-    NSArray *_containerIDs;
 }
 
 + (id).%@.mediagroup.stereo.%@.settings.%@.updated;
@@ -29,38 +23,21 @@
 - (id);
 - (id);
 - (id);
+- (void)!;
+- (void)createConnectionIfNecessary;
+- (id);
+- (id)NSt3__120__shared_ptr_emplaceIN3fst8internal14ReplaceFstImplINS1_6ArcTplINS1_17TropicalWeightTplIfEEEENS1_24DefaultReplaceStateTableIS7_lEENS1_17DefaultCacheStoreIS7_EEEENS_9allocatorISC_EEEE;
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void)taSyncOperation;
+- (id)CKDAAPItem;
+- (void)__HMHomeDataSyncOperation;
 - (void)ngWithCompletion:(_Bool)arg1 ];
-- (id)tchUnknownFailure;
-- (_Bool)iredMetadataIgnoreOverridesKey;
+- (id)HMAccessorySettingsPartialFetchUnknownFailure;
+- (_Bool)HMNetworkRouterFirewallRuleManagerDumpPairedMetadataIgnoreOverridesKey;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *containerIDs; // @synthesize containerIDs=_containerIDs;
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property __weak id <HMUserCloudShareManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMUserCloudShareManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(nonatomic, getter=isRegistered) _Bool registered; // @synthesize registered=_registered;
-@property(readonly) Class superclass;
 
 @end
 

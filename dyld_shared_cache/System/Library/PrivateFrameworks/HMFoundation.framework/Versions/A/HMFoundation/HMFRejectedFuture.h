@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct _HMFFutureBlockOutcome);
 - (id);
-- (_Bool);
+- (_Bool)er addActionSetOfType:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

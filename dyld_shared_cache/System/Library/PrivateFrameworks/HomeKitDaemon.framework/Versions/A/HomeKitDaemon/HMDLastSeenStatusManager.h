@@ -4,54 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSMutableDictionary, NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDLastSeenStatusManager
 {
     struct os_unfair_recursive_lock_s _lock;
-    _Bool _isSyncScheduled;
-    _Bool _isStarted;
-    _Bool _enableDelayedSync;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDHome *_home;
-    NSMutableSet *_pendingSyncAccessoryUUIDs;
-    NSMutableSet *_penaltyBoxAccessoryUUIDs;
-    NSMutableDictionary *_lastSeenRequestTime;
 }
 
 + (id)i¤ØB;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void)0:(id)arg1 8@16Q24@32@?40;
+- (id)_checkAndAddCoalescedEditForContext:identifiers:enqueuedBlock:completionQueue:completion: /* Error: Ran out of types for this method. */;
+- (id)_userInfoType;
+- (id)STORAGE] _loadStoredSessions rulesPath %@;
+- (_Bool)lic}@, closureReason:%{public}@
+	ETAs:%{public}@ %{private}@
+	waypoints:%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)A;
+- (void)ca;
 - (id);
 - (id);
-- (_Bool)calPresenceObserverTask;
-- (void)ardedForCleanEnergyAutomation;
+- (_Bool)localPresenceObserverTask;
+- (void)hasOnboardedForCleanEnergyAutomation;
 
 // Remaining properties
-@property(nonatomic) _Bool enableDelayedSync; // @synthesize enableDelayedSync=_enableDelayedSync;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(nonatomic) _Bool isStarted; // @synthesize isStarted=_isStarted;
-@property(nonatomic) _Bool isSyncScheduled; // @synthesize isSyncScheduled=_isSyncScheduled;
-@property(readonly, nonatomic) NSMutableDictionary *lastSeenRequestTime; // @synthesize lastSeenRequestTime=_lastSeenRequestTime;
-@property(readonly, nonatomic) NSMutableSet *penaltyBoxAccessoryUUIDs; // @synthesize penaltyBoxAccessoryUUIDs=_penaltyBoxAccessoryUUIDs;
-@property(readonly, nonatomic) NSMutableSet *pendingSyncAccessoryUUIDs; // @synthesize pendingSyncAccessoryUUIDs=_pendingSyncAccessoryUUIDs;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

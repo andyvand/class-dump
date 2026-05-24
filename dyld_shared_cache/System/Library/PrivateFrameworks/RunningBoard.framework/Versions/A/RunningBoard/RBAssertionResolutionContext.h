@@ -4,34 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableSet, NSSet, RBAssertionCollection, RBAttributeContext, RBProcessIndex, RBProcessMap, RBProcessStateChangeSet, RBSystemState;
-@protocol RBBundlePropertiesManaging, RBDomainAttributeManaging, RBEntitlementManaging;
+@class NSMutableSet, RBProcessStateChangeSet;
 
 @interface RBAssertionResolutionContext
 {
     NSMutableSet *_assertions;
-    NSMutableSet *_touchedAssertions;
-    NSMutableSet *_lostStartTimeDefining;
-    NSMutableSet *_gainedStartTimeDefining;
-    NSMutableSet *_targetsPendingResolution;
-    RBProcessMap *_resolvedState;
-    RBProcessMap *_originatorInheritances;
-    RBAttributeContext *_attributeContext;
-    RBProcessStateChangeSet *_changeSet;
-    RBAssertionCollection *_assertionCollection;
-    RBProcessIndex *_processIndex;
-    RBProcessMap *_stateMap;
-    id <RBDomainAttributeManaging> _domainAttributeManager;
-    id <RBBundlePropertiesManaging> _bundlePropertiesManager;
-    id <RBEntitlementManaging> _entitlementManager;
-    NSMapTable *_savedEndowments;
-    RBSystemState *_systemState;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)s to namespace %{public}@;
 - (void);
 - (void);
 - (id);
@@ -49,10 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) RBProcessStateChangeSet *changeSet; // @synthesize changeSet=_changeSet;
-@property(readonly, nonatomic) NSSet *gainedStartTimeDefining; // @synthesize gainedStartTimeDefining=_gainedStartTimeDefining;
-@property(readonly, nonatomic) NSSet *lostStartTimeDefining; // @synthesize lostStartTimeDefining=_lostStartTimeDefining;
-@property(readonly, nonatomic) RBSystemState *systemState;
-@property(readonly, nonatomic) NSSet *touchedAssertions; // @synthesize touchedAssertions=_touchedAssertions;
 
 @end
 

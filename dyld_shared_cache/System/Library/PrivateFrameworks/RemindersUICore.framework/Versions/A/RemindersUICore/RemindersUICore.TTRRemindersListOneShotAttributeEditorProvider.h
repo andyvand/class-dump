@@ -7,9 +7,6 @@
 @interface RemindersUICore.TTRRemindersListOneShotAttributeEditorProvider
 {
     id didEdit;
-    id store;
-    id remReminders;
-    id undoContext;
 }
 
 @end

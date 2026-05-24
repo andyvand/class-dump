@@ -10,19 +10,11 @@
 {
     _Bool _isProductionSigned;
     unsigned int _apduCount;
-    unsigned int _scriptType;
-    unsigned int _platformCategory;
-    unsigned int _nvmRequired;
-    unsigned int _corRequired;
-    unsigned int _codRequired;
-    unsigned int _indicesRequired;
-    unsigned long long _scriptID;
-    NSString *_scriptName;
 }
 
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id)(1;
 - (id);
 - (unsigned int);
 - (unsigned int);
@@ -35,16 +27,8 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int apduCount; // @synthesize apduCount=_apduCount;
-@property(readonly, nonatomic) unsigned int codRequired; // @synthesize codRequired=_codRequired;
-@property(readonly, nonatomic) unsigned int corRequired; // @synthesize corRequired=_corRequired;
-@property(readonly, nonatomic) unsigned int indicesRequired; // @synthesize indicesRequired=_indicesRequired;
-@property(readonly, nonatomic) _Bool isProductionSigned; // @synthesize isProductionSigned=_isProductionSigned;
-@property(readonly, nonatomic) unsigned int nvmRequired; // @synthesize nvmRequired=_nvmRequired;
-@property(readonly, nonatomic) unsigned int platformCategory; // @synthesize platformCategory=_platformCategory;
 @property(readonly, nonatomic) unsigned long long scriptID; // @synthesize scriptID=_scriptID;
 @property(readonly, nonatomic) NSString *scriptName; // @synthesize scriptName=_scriptName;
-@property(readonly, nonatomic) unsigned int scriptType; // @synthesize scriptType=_scriptType;
 
 @end
 

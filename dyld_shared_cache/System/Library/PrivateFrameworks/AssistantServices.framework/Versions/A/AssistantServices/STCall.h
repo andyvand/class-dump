@@ -6,26 +6,22 @@
 
 #import <AssistantServices/STSiriModelObject.h>
 
-@class STContactAddress;
-
 @interface STCall : STSiriModelObject
 {
     long long _service;
-    STContactAddress *_initiatorAddress;
-    STContactAddress *_recipientAddress;
 }
 
 + (_Bool);
 - (void);
 - (void);
+- (id)k;
 - (id);
 - (id);
+- (long long)C,N,V_fundingSourceTermsIdentifier;
+- (id)P;
 - (id);
-- (long long);
-- (id);
-- (id);
-- (void);
-- (void)ifier;
+- (void);
+- (void)_fieldIdentifier;
 - (void);
 
 @end

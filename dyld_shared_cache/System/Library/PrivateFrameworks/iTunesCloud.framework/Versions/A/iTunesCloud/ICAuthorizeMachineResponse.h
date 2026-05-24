@@ -18,7 +18,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *keybagData;
-@property(readonly, copy, nonatomic) NSData *tokenData;
 
 @end
 

@@ -6,14 +6,14 @@
 
 #import <SAObjects/SALocation.h>
 
-@class NSNumber, SAPersonAttribute;
+@class NSNumber;
 
 @interface SAFmfLocation : SALocation
 {
 }
 
 + (id);
-+ (id);
++ (id)I;
 - (id);
 - (void);
 - (void);
@@ -23,13 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (void)a:(id)arg1;
+- (void)setAppIntentData:(id)arg1;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *distance;
-@property(retain, nonatomic) SAPersonAttribute *friend;
-@property(copy, nonatomic) NSNumber *locationDate;
-@property(retain, nonatomic) SAPersonAttribute *theFriend;
 
 @end
 

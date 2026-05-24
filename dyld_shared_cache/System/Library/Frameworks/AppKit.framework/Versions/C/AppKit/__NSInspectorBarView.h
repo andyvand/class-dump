@@ -14,19 +14,18 @@ __attribute__((visibility("hidden")))
     NSInspectorBar *_inspectorBar;
 }
 
+- (void)	-Q?	;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)ProductBuildVersion;
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (id)
 × ;
-- (void)T;
+- (void)lT;
 
 // Remaining properties
-@property NSInspectorBar *inspectorBar; // @synthesize inspectorBar=_inspectorBar;
 @property(copy) NSArray *items;
 
 @end

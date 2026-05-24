@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)"NSNumber",&,D,N;
 - (_Bool);
 
 @end

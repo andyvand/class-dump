@@ -6,7 +6,6 @@
 
 #import <Timeline/TLTimelineNode.h>
 
-@class NSDate;
 @protocol TLTimelineEntry;
 
 @interface TLTimelineEntryNode : TLTimelineNode
@@ -14,21 +13,20 @@
     id <TLTimelineEntry> _entry;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
+- (void)#;
+- (id)l!ɚ_;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *date;
 @property(retain, nonatomic) id <TLTimelineEntry> entry; // @synthesize entry=_entry;
 
 @end

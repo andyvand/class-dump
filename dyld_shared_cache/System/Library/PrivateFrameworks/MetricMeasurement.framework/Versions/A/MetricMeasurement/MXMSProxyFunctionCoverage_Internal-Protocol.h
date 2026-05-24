@@ -5,5 +5,6 @@
 //
 
 @protocol MXMSProxyFunctionCoverage_Internal
+- (void);
 @end
 

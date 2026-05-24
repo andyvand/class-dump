@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexSet, NSMutableArray, NSMutableIndexSet;
+@class NSArray, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _NSUpdateVisibleCellsContext
 {
     NSMutableArray *_sizes;
-    NSMutableArray *_attributes;
-    NSMutableArray *_indexPaths;
-    NSMutableIndexSet *_sectionIndexes;
-    long long _visibleCellsRefCount;
 }
 
+- (void):TQ /* Error: Ran out of types for this method. */;
+- (id)kCFStreamPropertyConnectionIsExpensive;
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool)layoutDirection:desiredSize: /* Error: Ran out of types for this method. */;
-- (id)wantsConstraintEngineSizeValidation;
-- (void)bleElementStyles;
+- (id)yphTreeInsertGlyphs glyph index issue 2;
+- (_Bool)iconImageWithName:scaleFactor:displayGamut:layoutDirection:desiredSize: /* Error: Ran out of types for this method. */;
+- (id)_wantsConstraintEngineSizeValidation;
+- (void)_hasVisibleElementStyles;
 - (_Bool)bduedState;
 - (void)url;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attributes;
-@property(readonly, nonatomic) _Bool hasLeftVisibleCellsPass;
-@property(readonly, nonatomic) NSArray *indexPaths; // @synthesize indexPaths=_indexPaths;
-@property(readonly, nonatomic) NSIndexSet *sectionIndexes;
 @property(readonly, nonatomic) NSArray *sizes; // @synthesize sizes=_sizes;
 
 @end

@@ -9,7 +9,6 @@
 @interface QCLink : GFConnection
 {
     id _proExtension;
-    void *_unused2[3];
 }
 
 + (_Bool)ources/QuartzComposer/MeshKit/sources/Core3DIO/collada/C3DIOColladaKeyframingImport.cpp;

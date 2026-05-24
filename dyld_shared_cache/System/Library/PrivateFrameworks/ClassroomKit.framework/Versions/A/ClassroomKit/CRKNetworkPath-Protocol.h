@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol CRKNetworkPath
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *interfaces;
 @property(readonly, nonatomic, getter=isSatisfied) _Bool satisfied;
 @end
 

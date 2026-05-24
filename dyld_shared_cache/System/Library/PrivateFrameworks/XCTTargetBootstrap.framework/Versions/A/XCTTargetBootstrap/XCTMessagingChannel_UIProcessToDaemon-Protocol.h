@@ -5,5 +5,8 @@
 //
 
 @protocol XCTMessagingChannel_UIProcessToDaemon
+
+@optional
+- (void);
 @end
 

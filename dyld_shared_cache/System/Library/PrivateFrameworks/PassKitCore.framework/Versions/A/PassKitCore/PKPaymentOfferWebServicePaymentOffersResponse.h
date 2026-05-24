@@ -16,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (void)iceOpenDate;
+- (void)venueBoxOfficeOpenDate;
 
 // Remaining properties
 @property(retain, nonatomic) PKPaymentOfferAssessmentCollection *assessmentCollection; // @synthesize assessmentCollection=_assessmentCollection;

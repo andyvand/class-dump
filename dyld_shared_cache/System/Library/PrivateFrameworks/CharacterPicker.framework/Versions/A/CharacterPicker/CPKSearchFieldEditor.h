@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCell;
-
 __attribute__((visibility("hidden")))
 @interface CPKSearchFieldEditor
 {
     _Bool _hasActiveNavigationTarget;
-    _Bool _isRTLLayout;
-    unsigned int _owningID;
-    NSCell *_ownerCell;
 }
 
 - (void);
-- (void);
+- (void)u;
 - (void);
 - (unsigned int);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -50,19 +45,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)T;
+- (id)5;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)ickedOnEmojiIMViewController:(id)arg1;
+- (void)searchButtonClickedOnEmojiIMViewController:(id)arg1;
 
 // Remaining properties
-@property _Bool hasActiveNavigationTarget; // @synthesize hasActiveNavigationTarget=_hasActiveNavigationTarget;
-@property _Bool isRTLLayout; // @synthesize isRTLLayout=_isRTLLayout;
-@property NSCell *ownerCell; // @synthesize ownerCell=_ownerCell;
 @property unsigned int owningID; // @synthesize owningID=_owningID;
 
 @end

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEnumerator, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface DRTOCProducer
 {
     id currentGenerator;
-    NSMutableArray *contentGenerators;
-    NSEnumerator *generatorEnumerator;
 }
 
-+ (id);
++ (id)setEntities: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (unsigned int);
 - (_Bool);

@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface TCBundleResourceDebugEntry
 {
     unsigned long long mCacheCount;
-    unsigned long long mUncachedCount;
 }
 
 + (void);

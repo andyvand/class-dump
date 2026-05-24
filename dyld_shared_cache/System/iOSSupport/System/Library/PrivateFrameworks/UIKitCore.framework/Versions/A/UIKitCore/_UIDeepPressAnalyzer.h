@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (void):(id)arg1 8@"NSString"16@"NSArray"24C32@"NSArray"36q44@?<v@?@"NSArray">52;
+- (id)fetchLatestRecordKeyFromCKAndCreateIfKeyDoesNotExistWithCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)copyChatRecordsWithHandles:displayName:identifier:domain:style:everOnServices:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (id);
@@ -25,8 +25,6 @@ __attribute__((visibility("hidden")))
 - (void)ø¯\;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDeepPressLikely) _Bool deepPressLikely;
-@property(retain, nonatomic) _UIVelocityIntegrator *locationIntegrator; // @synthesize locationIntegrator=_locationIntegrator;
 @property(retain, nonatomic) _UIVelocityIntegrator *touchForceIntegrator; // @synthesize touchForceIntegrator=_touchForceIntegrator;
 
 @end

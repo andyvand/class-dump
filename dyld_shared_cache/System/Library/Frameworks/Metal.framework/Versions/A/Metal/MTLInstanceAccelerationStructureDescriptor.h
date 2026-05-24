@@ -6,24 +6,11 @@
 
 #import <Metal/MTLAccelerationStructureDescriptor.h>
 
-@class NSArray;
 @protocol MTLBuffer;
 
 @interface MTLInstanceAccelerationStructureDescriptor : MTLAccelerationStructureDescriptor
 {
     _Bool _overriddenInstanceDescriptorStride;
-    unsigned long long _instanceDescriptorStride;
-    id <MTLBuffer> _instanceDescriptorBuffer;
-    unsigned long long _instanceDescriptorBufferOffset;
-    unsigned long long _instanceCount;
-    NSArray *_instancedAccelerationStructures;
-    id <MTLBuffer> _motionTransformBuffer;
-    unsigned long long _motionTransformBufferOffset;
-    unsigned long long _motionTransformCount;
-    long long _instanceTransformationMatrixLayout;
-    long long _motionTransformType;
-    unsigned long long _motionTransformStride;
-    unsigned long long _instanceDescriptorType;
 }
 
 + (id);
@@ -55,23 +42,12 @@
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (id);
+- (id)_);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long instanceCount; // @synthesize instanceCount=_instanceCount;
 @property(retain, nonatomic) id <MTLBuffer> instanceDescriptorBuffer; // @synthesize instanceDescriptorBuffer=_instanceDescriptorBuffer;
-@property(nonatomic) unsigned long long instanceDescriptorBufferOffset; // @synthesize instanceDescriptorBufferOffset=_instanceDescriptorBufferOffset;
-@property(nonatomic) unsigned long long instanceDescriptorStride;
-@property(nonatomic) unsigned long long instanceDescriptorType; // @synthesize instanceDescriptorType=_instanceDescriptorType;
-@property(nonatomic) long long instanceTransformationMatrixLayout; // @synthesize instanceTransformationMatrixLayout=_instanceTransformationMatrixLayout;
-@property(retain, nonatomic) NSArray *instancedAccelerationStructures; // @synthesize instancedAccelerationStructures=_instancedAccelerationStructures;
-@property(retain, nonatomic) id <MTLBuffer> motionTransformBuffer; // @synthesize motionTransformBuffer=_motionTransformBuffer;
-@property(nonatomic) unsigned long long motionTransformBufferOffset; // @synthesize motionTransformBufferOffset=_motionTransformBufferOffset;
-@property(nonatomic) unsigned long long motionTransformCount; // @synthesize motionTransformCount=_motionTransformCount;
-@property(nonatomic) unsigned long long motionTransformStride; // @synthesize motionTransformStride=_motionTransformStride;
-@property(nonatomic) long long motionTransformType; // @synthesize motionTransformType=_motionTransformType;
 
 @end
 

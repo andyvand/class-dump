@@ -10,8 +10,8 @@
 
 + (id);
 + (id);
++ (id)"NSString"32@?<v@?@"NSArray"@"NSError">40;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -27,19 +27,19 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)C;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ۑ;
 - (id);
 - (id);
 - (id);

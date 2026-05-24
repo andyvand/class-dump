@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSArray, NSButton, NSMapTable, NSMutableDictionary, NSString, StartPageCollectionViewLayoutSection, WBSRecentCloudTabsProvider, WBSRecentsStore;
-@protocol StartPageCollectionSectionProviderDelegate, WBSCloudTabDeviceProvider, WBSCloudTabProvider;
+@class NSString, WBSRecentCloudTabsProvider;
 
 __attribute__((visibility("hidden")))
 @interface StartPageCloudTabsSectionProvider
 {
     WBSRecentCloudTabsProvider *_recentCloudTabsProvider;
-    WBSRecentsStore *_recentsStore;
-    NSArray *_recentItems;
-    NSArray *_availableDevices;
-    NSMutableDictionary *_recentItemsByDeviceUUID;
-    NSMapTable *_cloudTabItemsToMetadataTokens;
-    StartPageCollectionViewLayoutSection *_cachedConsentUILayoutSection;
-    _Bool _isBeingShownInSideBarSection;
-    _Bool _isShowingConsentUI;
-    _Bool _cloudTabsConsentObtained;
-    id <WBSCloudTabDeviceProvider> _cloudTabStore;
-    NSArray *_cachedCloudTabDevices;
-    id <WBSCloudTabProvider> _selectedCloudTabDevice;
-    NSButton *_deviceButton;
-    _Bool _isStandaloneCloudTabsStartPage;
-    NSString *_profileIdentifier;
-    _Bool _usesPrivateBrowsing;
-    _Bool _usesCompactAppearance;
-    id <StartPageCollectionSectionProviderDelegate> _sectionProviderDelegate;
-    NSString *_identifier;
-    NSString *_deviceUUIDForStandaloneStartPage;
 }
 
 - (_Bool);
@@ -42,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)qa;
 - (id);
 - (void);
 - (void);
@@ -75,7 +54,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (void);
 - (id);
@@ -89,36 +68,14 @@ __attribute__((visibility("hidden")))
 - (long long)1¢1Â0@ù
 × ;
 - (long long)32@"NSURL"40@?<v@?B>48;
-- (id)er;
+- (id)profileLocalIdentifier;
 - (void)ø»X;
 - (void)(x;
 - (_Bool);
 - (void)áÿÛªÇ6.;
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *backgroundAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAppearance",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSString *deviceUUIDForStandaloneStartPage; // @synthesize deviceUUIDForStandaloneStartPage=_deviceUUIDForStandaloneStartPage;
-@property(readonly, copy, nonatomic) NSArray *draggedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak id <StartPageCollectionSectionProviderDelegate> sectionProviderDelegate; // @synthesize sectionProviderDelegate=_sectionProviderDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesCompactAppearance; // @synthesize usesCompactAppearance=_usesCompactAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_usesCompactAppearance
-
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing=_usesPrivateBrowsing;
 
 @end
 

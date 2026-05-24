@@ -6,45 +6,37 @@
 
 #import <ChatKit/CKQueryController.h>
 
-@class IMTimingCollection, NSArray, NSMutableSet, NSSet, NSString;
-
 @interface CKMessageTypeQueryController : CKQueryController
 {
     _Bool _gotResults;
-    _Bool _searchTerminated;
-    NSSet *_intermediaryResults;
-    NSMutableSet *_itemsVerifiedOnDiskCache;
-    NSString *_priorQueryIdentifier;
-    NSArray *_resultsToCheck;
-    IMTimingCollection *_timingCollection;
 }
 
 + (_Bool);
 + (id);
-+ (unsigned long long);
++ (unsigned long long)n;
+- (id)range:hasValidPostfixCharacterForString: /* Error: Ran out of types for this method. */;
+- (id)ic_regexForSearchStrings:matchWordBoundaries: /* Error: Ran out of types for this method. */;
+- (void)_textLayoutManagerReferences;
+- (void)_shouldIncludeAccount;
+- (void)_renderer;
+- (void)StyleFontSizeThreshold;
+- (void)eWritingDirection;
+- (void)ouchBar",R;
+- (unsigned long long)",&,N,V_highlightPatternRegexFinder;
+- (_Bool)closestAncestor;
+- (void)untPassphraseManager",&,N,V_passphraseManager;
+- (id)ICColorDummyClass;
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (unsigned long long)assetWriter;
+- (id)c: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)d;
 - (CDUnknownBlockType);
-- (void);
-- (id);
+- (void)ause account has a locked notes mode;
+- (id)L returned nil;
 - (void);
 - (void);
 - (id);
@@ -52,13 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool gotResults; // @synthesize gotResults=_gotResults;
-@property(retain, nonatomic) NSSet *intermediaryResults; // @synthesize intermediaryResults=_intermediaryResults;
-@property(retain, nonatomic) NSMutableSet *itemsVerifiedOnDiskCache; // @synthesize itemsVerifiedOnDiskCache=_itemsVerifiedOnDiskCache;
-@property(retain, nonatomic) NSString *priorQueryIdentifier; // @synthesize priorQueryIdentifier=_priorQueryIdentifier;
-@property(retain, nonatomic) NSArray *resultsToCheck; // @synthesize resultsToCheck=_resultsToCheck;
 @property(nonatomic) _Bool searchTerminated; // @synthesize searchTerminated=_searchTerminated;
-@property(retain, nonatomic) IMTimingCollection *timingCollection; // @synthesize timingCollection=_timingCollection;
 
 @end
 

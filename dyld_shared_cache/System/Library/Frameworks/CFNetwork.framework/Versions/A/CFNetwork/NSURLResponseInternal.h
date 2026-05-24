@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
     struct URLResponse _response;
 }
 
-- (void);
+- (void)Ncedilla;
 - (id);
-- (id);
+- (id)ization.c;
 - (struct URLResponse *);
 - (void);
 

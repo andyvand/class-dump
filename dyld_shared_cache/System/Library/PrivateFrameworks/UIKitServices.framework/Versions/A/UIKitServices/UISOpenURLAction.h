@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSProcessHandle, NSURL;
+@class NSURL;
 
 @interface UISOpenURLAction
 {
@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (id);
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *url;
-@property(readonly, nonatomic) BSProcessHandle *workspaceOriginatingProcess;
 
 @end
 

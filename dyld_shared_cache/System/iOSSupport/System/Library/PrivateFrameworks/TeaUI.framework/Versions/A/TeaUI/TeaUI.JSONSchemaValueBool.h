@@ -9,7 +9,6 @@
 @interface TeaUI.JSONSchemaValueBool : TeaUI.JSONSchemaValue
 {
     id _value;
-    id _$observationRegistrar;
 }
 
 @end

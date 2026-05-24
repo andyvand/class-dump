@@ -6,13 +6,10 @@
 
 #import <JetEngine/JETreatmentAction.h>
 
-@class NSPredicate;
-
 __attribute__((visibility("hidden")))
 @interface JEImpressionDurationFilteringTreatmentAction : JETreatmentAction
 {
     long long _durationThreshold;
-    NSPredicate *_filters;
 }
 
 - (id);
@@ -20,13 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)^m;
 - (id);
 - (void)0ç²ÿfloatValue;
 
 // Remaining properties
 @property(readonly, nonatomic) long long durationThreshold; // @synthesize durationThreshold=_durationThreshold;
-@property(readonly, nonatomic) NSPredicate *filters; // @synthesize filters=_filters;
 
 @end
 

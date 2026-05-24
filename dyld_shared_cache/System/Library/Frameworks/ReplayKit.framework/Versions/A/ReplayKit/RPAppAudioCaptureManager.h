@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RPAppAudioHAL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface RPAppAudioCaptureManager
 {
     NSObject<OS_dispatch_queue> *_audioDispatchQueue;
-    CDUnknownBlockType _appAudioOutputHandler;
-    RPAppAudioHAL *_appAudioHAL;
 }
 
 + (struct AudioStreamBasicDescription);
@@ -19,7 +17,7 @@
 + (CDStruct_94753ef4);
 - (void);
 - (void);
-- (void);
+- (void).12;
 - (id);
 - (void);
 

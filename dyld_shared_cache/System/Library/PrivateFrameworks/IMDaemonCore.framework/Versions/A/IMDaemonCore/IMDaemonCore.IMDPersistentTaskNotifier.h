@@ -7,7 +7,6 @@
 @interface IMDaemonCore.IMDPersistentTaskNotifier
 {
     id $defaultActor;
-    id notifier;
 }
 
 @end

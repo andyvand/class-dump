@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, INPriceRange, NSArray, NSDate, NSNumber, NSString, NSUserActivity;
+@class INImage, NSString;
 
 @protocol INRideOptionExport
+- (INImage *);
+- (void);
+- (NSString *)e;
 - (void)Á%Ð!DCùÑ¾(ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy) NSArray *availablePartySizeOptions;
-@property(copy) NSString *availablePartySizeOptionsSelectionPrompt;
-@property(copy) NSString *disclaimerMessage;
-@property(copy) NSDate *estimatedPickupDate;
-@property(copy) NSArray *fareLineItems;
 @property(copy) NSString *name;
-@property(copy) INPriceRange *priceRange;
-@property(copy) NSString *specialPricing;
-@property(copy) INImage *specialPricingBadgeImage;
-@property(retain) NSUserActivity *userActivityForBookingInApplication;
-@property(copy) NSNumber *usesMeteredFare;
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDLegacyCloudZone
 {
     NSSet *_participants;
-    long long _keyStatus;
 }
 
 - (id);
@@ -18,12 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (long long);
-- (id);
-- (void)maryHomeDidChange;
+- (long long)setLastFrame: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)HMDNotificationPrimaryHomeDidChange;
 
 // Remaining properties
-@property(readonly, nonatomic) long long keyStatus; // @synthesize keyStatus=_keyStatus;
 @property(readonly, nonatomic) NSSet *participants; // @synthesize participants=_participants;
 
 @end

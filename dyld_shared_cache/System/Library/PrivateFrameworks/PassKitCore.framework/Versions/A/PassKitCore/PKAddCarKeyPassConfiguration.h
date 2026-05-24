@@ -6,24 +6,9 @@
 
 #import <PassKitCore/PKAddSecureElementPassConfiguration.h>
 
-@class NSString;
-
 @interface PKAddCarKeyPassConfiguration : PKAddSecureElementPassConfiguration
 {
     _Bool _ownerKeyPairingAvailable;
-    _Bool _proofOfOwnershipPresent;
-    _Bool _onlineServicesActivated;
-    _Bool _passwordEnteredManually;
-    NSString *_password;
-    unsigned long long _supportedRadioTechnologies;
-    NSString *_manufacturerIdentifier;
-    NSString *_provisioningTemplateIdentifier;
-    NSString *_productPlanIdentifier;
-    unsigned long long _referralSource;
-    NSString *_pairedReaderIdentifier;
-    NSString *_vehicleName;
-    NSString *_bluetoothAddress;
-    NSString *_bluetoothIdentityResolvingKey;
 }
 
 + (_Bool)X"ð!ÔAùî%ð1Â0@ù
@@ -31,6 +16,7 @@
 - (id);
 - (unsigned long long);
 - (void);
+- (void)_;
 - (void);
 - (void);
 - (void);
@@ -38,47 +24,33 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)k-;
 - (void);
 - (unsigned long long);
-- (id);
+- (id)Rc;
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)?;
+- (id);
+- (id)H;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)PO;
 - (id);
 - (void)ature";
-- (void)ngCarKeySkipSecondaryInvitationKey;
-- (void)DisclosureTitle;
+- (void)PKSharingCarKeySkipSecondaryInvitationKey;
+- (void)contextDisclosureTitle;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bluetoothAddress; // @synthesize bluetoothAddress=_bluetoothAddress;
-@property(copy, nonatomic) NSString *bluetoothIdentityResolvingKey; // @synthesize bluetoothIdentityResolvingKey=_bluetoothIdentityResolvingKey;
-@property(copy, nonatomic) NSString *manufacturerIdentifier; // @synthesize manufacturerIdentifier=_manufacturerIdentifier;
-@property(nonatomic) _Bool onlineServicesActivated; // @synthesize onlineServicesActivated=_onlineServicesActivated;
-@property(nonatomic) _Bool ownerKeyPairingAvailable; // @synthesize ownerKeyPairingAvailable=_ownerKeyPairingAvailable;
-@property(copy, nonatomic) NSString *pairedReaderIdentifier; // @synthesize pairedReaderIdentifier=_pairedReaderIdentifier;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
-@property(nonatomic) _Bool passwordEnteredManually; // @synthesize passwordEnteredManually=_passwordEnteredManually;
-@property(copy, nonatomic) NSString *productPlanIdentifier; // @synthesize productPlanIdentifier=_productPlanIdentifier;
-@property(nonatomic) _Bool proofOfOwnershipPresent; // @synthesize proofOfOwnershipPresent=_proofOfOwnershipPresent;
-@property(retain, nonatomic) NSString *provisioningTemplateIdentifier; // @synthesize provisioningTemplateIdentifier=_provisioningTemplateIdentifier;
 @property(nonatomic) unsigned long long referralSource; // @synthesize referralSource=_referralSource;
-@property(nonatomic) unsigned long long supportedRadioTechnologies; // @synthesize supportedRadioTechnologies=_supportedRadioTechnologies;
-@property(copy, nonatomic) NSString *vehicleName; // @synthesize vehicleName=_vehicleName;
 
 @end
 

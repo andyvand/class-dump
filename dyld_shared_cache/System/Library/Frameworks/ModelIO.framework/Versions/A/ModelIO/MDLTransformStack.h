@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAAnimation, NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 
 @interface MDLTransformStack
 {
     _Bool _resetsTransform;
-    NSMutableArray *_transformOps;
-    NSMutableDictionary *_animatedValues;
 }
 
-+ (CDStruct_95fa7c00);
-+ (CDStruct_95fa7c00);
-- (id);
++ (CDStruct_34f00414);
++ (CDStruct_34f00414);
+- (id)m;
 - (void);
 - (void);
+- (void)R;
 - (void);
 - (void);
-- (void);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (_Bool);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
 - (id);
 - (void);
 - (id);
@@ -42,33 +40,19 @@
 - (id);
 - (id);
 - (_Bool);
-- (CDStruct_95fa7c00);
+- (CDStruct_34f00414);
+- (id)ut %@, status code %d;
+- (double)TRACKER_TYPE;
+- (double)el weights length:%d /* Error: Ran out of types for this method. */;
 - (id);
-- (double);
-- (double);
-- (id);
-- (void);
-- (CDStruct_95fa7c00);
-- (id);
+- (void)ilable;
+- (CDStruct_34f00414);
+- (id)e;
 - (id);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *animatedValues; // @synthesize animatedValues=_animatedValues;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *keyTimes;
-@property(nonatomic) CDStruct_95fa7c00 matrix;
-@property(readonly, nonatomic) double maximumTime;
-@property(readonly, nonatomic) double minimumTime;
-@property(nonatomic) _Bool resetsTransform; // @synthesize resetsTransform=_resetsTransform;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CAAnimation *transformAnimation;
 @property(copy, nonatomic) NSMutableArray *transformOps; // @synthesize transformOps=_transformOps;
 
 @end

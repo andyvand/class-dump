@@ -6,32 +6,24 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSData, NSDate, NSString;
-
 @interface SSUserIntentResultBuilder : SSResultBuilder
 {
     _Bool _isBackgroundRunnable;
-    NSData *_userActivityData;
-    NSDate *_startDate;
-    NSString *_appBundleId;
-    NSString *_intentName;
-    NSString *_punchoutLabel;
-    NSString *_userActivityRequiredString;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)variableByResolvingWithThemePath: /* Error: Ran out of types for this method. */;
+- (id)useSafeAreaInsetWithPadding;
+- (id)unarchiverWillFinish: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -42,13 +34,7 @@
 - (id)æíÿÌ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(retain, nonatomic) NSString *intentName; // @synthesize intentName=_intentName;
 @property(nonatomic) _Bool isBackgroundRunnable; // @synthesize isBackgroundRunnable=_isBackgroundRunnable;
-@property(retain, nonatomic) NSString *punchoutLabel; // @synthesize punchoutLabel=_punchoutLabel;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(retain, nonatomic) NSData *userActivityData; // @synthesize userActivityData=_userActivityData;
-@property(retain, nonatomic) NSString *userActivityRequiredString; // @synthesize userActivityRequiredString=_userActivityRequiredString;
 
 @end
 

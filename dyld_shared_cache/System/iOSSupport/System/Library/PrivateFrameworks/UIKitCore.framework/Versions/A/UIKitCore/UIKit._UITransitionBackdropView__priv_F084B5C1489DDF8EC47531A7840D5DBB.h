@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)_adamID;
 - (id);
-- (id)legate;
+- (id)_UITabOutlineViewDelegate;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface IMSingletonProxy
 {
     id _singleton;
-    id _singletonOverride;
-    Class _overrideClass;
 }
 
 + (void)EnableAVLessSharePlay;
@@ -16,7 +14,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);

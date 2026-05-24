@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol MPRTCReportingItemSessionContaining
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *rtcReportingPlayQueueSourceIdentifier;

@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLPRVehicleType
 {
     PBDataReader *_reader;
-    NSString *_key;
-    NSMutableArray *_subtitles;
-    NSMutableArray *_titles;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_key:1;
-        unsigned int read_subtitles:1;
-        unsigned int read_titles:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)ery:(id)arg1;
++ (Class)ertion";
++ (_Bool)setHasSelectionFromQuery:(id)arg1;
 + (Class)0nÿó,7Â<;
 - (unsigned long long);
 - (id);
@@ -34,15 +22,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)_cn_sortedArrayUsingAuxiliarySortOrder:transform: /* Error: Ran out of types for this method. */;
+- (void)_cn_rangeOfAnchoredCharacters:options: /* Error: Ran out of types for this method. */;
+- (void)CNObservableSkipLastBlockObserver;
+- (void)CNObserveOnCancelationToken;
 - (void);
 - (id);
+- (id);
+- (void);
+- (id)ithInfo:forReason:] /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -50,8 +38,8 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)odRoutesShown:(struct _NSZone *)arg1;
-- (id)pe: /* Error: Ran out of types for this method. */;
+- (id)setNoGoodRoutesShown:(struct _NSZone *)arg1;
+- (id)StringAsFieldValueType: /* Error: Ran out of types for this method. */;
 - (id)ine closestDistance2DFromCoordinate:] because of bad geometry. Coordinate count:%d, coordinates:%p. /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
@@ -60,9 +48,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key;
-@property(retain, nonatomic) NSMutableArray *subtitles;
-@property(retain, nonatomic) NSMutableArray *titles;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface PFParallaxLayer
 {
     double _zPosition;
-    NSString *_identifier;
-    struct CGRect _frame;
 }
 
 - (id);
@@ -25,31 +23,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (double);
 - (id);
-- (id);
+- (id)ta couldn't be decoded.;
 - (struct CGRect);
-- (struct CGSize);
+- (struct CGSize)`;
 - (id);
-- (id);
+- (id)*%;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fileExtension;
-@property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isBackfill;
-@property(readonly, nonatomic) _Bool isBackground;
-@property(readonly, nonatomic) _Bool isDebug;
-@property(readonly, nonatomic) _Bool isForeground;
-@property(readonly, nonatomic) _Bool isInactive;
-@property(readonly, nonatomic) _Bool isSettlingEffect;
-@property(readonly, nonatomic) _Bool isSpatialPhotoBackground;
-@property(readonly, nonatomic) _Bool isSpatialPhotoForeground;
-@property(readonly, nonatomic) struct CGSize pixelSize;
-@property(readonly, nonatomic) double zPosition; // @synthesize zPosition=_zPosition;
 
 @end
 

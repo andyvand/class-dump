@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPhotoPickerColorVariant, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerDefaultEmoji
 {
     NSString *_emojiString;
-    CNPhotoPickerColorVariant *_colorVariant;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)W;
+- (id);
 - (void);
 - (id);
-- (void);
+- (void)_isMeContact;
 
 // Remaining properties
-@property(retain, nonatomic) CNPhotoPickerColorVariant *colorVariant; // @synthesize colorVariant=_colorVariant;
 @property(retain, nonatomic) NSString *emojiString; // @synthesize emojiString=_emojiString;
 
 @end

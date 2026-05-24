@@ -12,17 +12,17 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (id);
 + (id);
-+ (_Bool);
++ (id);
++ (id);
++ (void);
++ (id);
++ (id);
++ (_Bool);
 + (id);
 
 @end

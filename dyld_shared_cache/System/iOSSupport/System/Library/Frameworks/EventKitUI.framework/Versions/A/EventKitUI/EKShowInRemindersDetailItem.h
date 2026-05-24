@@ -14,12 +14,12 @@
 }
 
 - (void);
-- (id);
+- (id)_y;
 - (void);
 - (unsigned long long);
 - (double)
 × ;
-- (void)nts;
+- (void)shouldLogVisibleEvents;
 
 @end
 

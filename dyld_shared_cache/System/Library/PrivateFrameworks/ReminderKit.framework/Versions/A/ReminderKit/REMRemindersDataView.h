@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (id);
++ (id)傹;
 + (id);
 + (id);
 - (id);
@@ -24,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)server response for message:(id)arg1 %@   (Request ID:(_Bool)arg2 %@);
 - (id);
 - (id);
 - (id);
@@ -32,7 +32,7 @@
 - (void);
 - (id);
 - (id)s/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/io/coded_stream.cc;
-- (id)ions;
+- (id)options;
 - (id)due to proxy xpc error {name:(id)arg1 %{public}@, error:(id)arg2 %{public}@};
 - (id)VOCATION END {name:(id)arg1 %{public}@, result.data.length:(id)arg2 %ld, result.storages.count:(id *)arg3 %ld};
 - (id)ecklistSPI error creating CKShare for shared grocery list:(id)arg1 %@;

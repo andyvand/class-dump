@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackAccount, NSArray, NSDictionary, NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_group;
+@class NSArray;
 
 @interface MPCPlaybackAccountManager
 {
     struct os_unfair_lock_s _lock;
-    NSDictionary *_accounts;
-    _Bool _needsRefreshDueToTimeout;
-    _Bool _needsRefreshDueToMissingBag;
-    NSObject<OS_dispatch_group> *_initialAccountGroup;
-    NSHashTable *_observers;
-    struct os_unfair_recursive_lock_s _observersLock;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)thout dataclass actions.;
+- (void)DisableBookmarksiCloudSetting;
 - (void);
 - (id);
 - (_Bool);
+- (id)nLe;
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Accounts;
+- (void)ld account:(id)arg1 %@, account:%@) /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -55,17 +48,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *accounts;
-@property(readonly, nonatomic) MPCPlaybackAccount *activeAccount;
-@property(readonly, nonatomic) MPCPlaybackAccount *anyDelegationHostingAccount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) MPCPlaybackAccount *fallbackAccount;
-@property(readonly, nonatomic) _Bool hasLoadedInitialAccounts;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

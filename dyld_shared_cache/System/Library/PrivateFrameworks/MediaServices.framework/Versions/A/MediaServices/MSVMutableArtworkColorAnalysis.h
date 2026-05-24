@@ -6,7 +6,7 @@
 
 #import <MediaServices/MSVArtworkColorAnalysis.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface MSVMutableArtworkColorAnalysis : MSVArtworkColorAnalysis
 {
@@ -15,32 +15,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void)J;
+- (void);
+- (void)JM
++;
 - (void);
 - (void);
+- (void)parser:(id)arg1 foundUnparsedEntityDeclarationWithName:publicID:systemID:notationName: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)u;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *backgroundColorHex; // @dynamic backgroundColorHex;
-@property(nonatomic, getter=isBackgroundColorLight) _Bool backgroundColorLight; // @dynamic backgroundColorLight;
-@property(retain, nonatomic) NSNumber *gradientColorEndPosition; // @dynamic gradientColorEndPosition;
-@property(retain, nonatomic) NSString *gradientColorHex; // @dynamic gradientColorHex;
-@property(retain, nonatomic) NSNumber *gradientColorStartPosition; // @dynamic gradientColorStartPosition;
-@property(retain, nonatomic) NSArray *gradientTextColorHex; // @dynamic gradientTextColorHex;
-@property(retain, nonatomic) NSString *primaryTextColorHex; // @dynamic primaryTextColorHex;
-@property(nonatomic, getter=isPrimaryTextColorLight) _Bool primaryTextColorLight; // @dynamic primaryTextColorLight;
-@property(retain, nonatomic) NSString *quaternaryTextColorHex; // @dynamic quaternaryTextColorHex;
-@property(retain, nonatomic) NSString *secondaryTextColorHex; // @dynamic secondaryTextColorHex;
-@property(nonatomic, getter=isSecondaryTextColorLight) _Bool secondaryTextColorLight; // @dynamic secondaryTextColorLight;
-@property(retain, nonatomic) NSString *tertiaryTextColorHex; // @dynamic tertiaryTextColorHex;
-@property(nonatomic, getter=isTertiaryTextColorLight) _Bool tertiaryTextColorLight; // @dynamic tertiaryTextColorLight;
 
 @end
 

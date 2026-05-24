@@ -7,12 +7,9 @@
 @interface AppStoreKit.GameCenterFriendRequestCoordinator
 {
     id onFriendRequestCountDidUpdate;
-    id currentFriendRequestCount;
-    id isRunning;
-    id bag;
 }
 
-- (void);
+- (void)o;
 - (void);
 - (void);
 - (id);

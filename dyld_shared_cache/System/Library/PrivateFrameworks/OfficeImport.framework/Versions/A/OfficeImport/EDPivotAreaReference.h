@@ -8,21 +8,17 @@ __attribute__((visibility("hidden")))
 @interface EDPivotAreaReference
 {
     _Bool mByPosition;
-    _Bool mRelative;
-    _Bool mSelected;
-    unsigned long long mFieldId;
-    unsigned long long mCount;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)=;
+- (void)_ֈ;
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)˺;
+- (id)sdTargetModelTotalLatencyMillis;
 - (void)!DEùq5$1Â0@ù
 × ;
 - (void)24Q32Q40;

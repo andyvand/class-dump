@@ -4,98 +4,77 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString, SDSeedingConfiguration;
+@class SDSeedingConfiguration;
 
 @interface SDDevice
 {
     _Bool _isFeedbackAssistantAvailable;
-    _Bool _isRunningSeedBuild;
-    _Bool _hasDeviceManagementRestriction;
-    NSString *_name;
-    NSString *_identifier;
-    unsigned long long _platform;
-    NSString *_deviceClass;
-    NSString *_build;
-    NSDate *_updatedAt;
-    SDSeedingConfiguration *_currentConfiguration;
-    SDSeedingConfiguration *_expectedConfiguration;
 }
 
-+ (void);
-+ (void);
-+ (unsigned long long);
++ (void)2@0:(unsigned long long)arg1 8@"AFInterstitialProvider"16q24@"NSString"32@"NSString"40d48@56@?<v@?>64;
++ (void)4f28;
++ (unsigned long long)@24@0:8^{_NSZone=}16 /* Error: Ran out of types for this method. */;
++ (id)weakObjectsHashTable;
++ (id)voiceTriggerEndtimeDelayThreshold;
++ (id)userConfidenceScore;
++ (id)usePrelisteningMode;
++ (_Bool)updateTemporaryAuthorizationForAccurateLocation:timeout:completion: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (_Bool);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (unsigned long long);
+- (void)8@16B24^@28^B36^B44^B52;
+- (void)ntext"Q"gpuContext"Q};
+- (void)ext=QQQ}64;
+- (void)ontext=QQQ}16{AFPowerContext=QQQ}40{AFPowerContext=QQQ}64;
+- (void)rContext=QQQ}64Q88Q96;
+- (void)Q88;
+- (_Bool)?20;
+- (_Bool)Dictionary";
+- (_Bool)8d16;
+- (_Bool)AFDialogPhase"16@0:8 /* Error: Ran out of types for this method. */;
+- (id)b1};
+- (void)SString"16@"NSError"24;
+- (_Bool):(id)arg1 8@"NSDictionary"16@"NSURL"24;
+- (_Bool)eArgumentSafetyBlock";
+- (id)@0:8@16 /* Error: Ran out of types for this method. */;
+- (void)36;
+- (void)4;
+- (void)SString"40d48@56@?<v@?>64;
 - (void);
+- (_Bool)erver"16@"AFAccessibilityState"24@"AFAccessibilityState"32;
+- (id);
 - (void);
-- (void);
-- (void);
+- (id);
+- (id)R;
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void));
+- (unsigned long long)w-intention already present -> wanted to unfreeze pipeline but can not yet;
+- (id)@`1W;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)place, but is supressed due to system conditions;
 - (void);
 - (id);
-- (void);
+- (void)mpiledBinaryBootArgSet=%d;
 - (void);
 - (void)ÌBàB;
 
 // Remaining properties
-@property(retain) NSString *build; // @synthesize build=_build;
-@property(retain) SDSeedingConfiguration *currentConfiguration; // @synthesize currentConfiguration=_currentConfiguration;
-@property(retain) NSString *deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(readonly) NSDictionary *dictionaryRepresentation;
 @property(retain) SDSeedingConfiguration *expectedConfiguration; // @synthesize expectedConfiguration=_expectedConfiguration;
-@property _Bool hasDeviceManagementRestriction; // @synthesize hasDeviceManagementRestriction=_hasDeviceManagementRestriction;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool isFeedbackAssistantAvailable; // @synthesize isFeedbackAssistantAvailable=_isFeedbackAssistantAvailable;
-@property _Bool isRunningSeedBuild; // @synthesize isRunningSeedBuild=_isRunningSeedBuild;
-@property(retain) NSString *name; // @synthesize name=_name;
-@property unsigned long long platform; // @synthesize platform=_platform;
-@property(retain) NSDate *updatedAt; // @synthesize updatedAt=_updatedAt;
 
 @end
 

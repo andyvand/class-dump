@@ -7,8 +7,6 @@
 @protocol MPMutableLocalLibraryIdentifiers
 
 // Remaining properties
-@property(nonatomic) long long containedPersistentID;
 @property(nonatomic) long long persistentID;
-@property(nonatomic) long long syncID;
 @end
 

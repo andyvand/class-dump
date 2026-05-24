@@ -9,7 +9,6 @@
 @interface Swift._StringBreadcrumbs : Swift._SwiftObject
 {
     id utf16Length;
-    id crumbs;
 }
 
 @end

@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol EKCalendarShareeOrOwner
+- (NSString *)setEngage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UUID;
-@property(readonly, nonatomic) _Bool isCurrentUserForScheduling;
-@property(readonly, nonatomic) _Bool isCurrentUserForSharing;
 @end
 

@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSDate, NSString;
 
 @interface VSOpaqueAuthenticationToken
 {
     NSString *_body;
-    NSDate *_expirationDate;
 }
 
-- (_Bool);
+- (_Bool)qa;
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)]E3$_9FvRKbEEE;
+- (void)NSt3__120__shared_ptr_emplaceINS_6vectorINS_13unordered_mapI7TFENode19TBVDSChangedPayloadNS_4hashIS3_EENS_8equal_toIS3_EENS_9allocatorINS_4pairIKS3_S4_EEEEEENS9_ISE_EEEENS9_ISG_EEEE;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -28,16 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *body; // @synthesize body=_body;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSData *serializedData;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,40 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSObject, NSString, SFDevice, SFSession;
-@protocol OS_dispatch_queue;
-
 @interface SFRemoteAutoFillSession
 {
     _Bool _activateCalled;
-    NSData *_contextAppIconData;
-    NSArray *_contextAssociatedDomains;
-    NSString *_contextBundleID;
-    NSString *_contextLocalizedAppName;
-    int _contextRequestState;
-    NSString *_contextUnlocalizedAppName;
-    NSString *_contextURL;
-    _Bool _invalidateCalled;
-    _Bool _pairingFinishedNotified;
-    NSDate *_pairClock;
-    int _pairState;
-    struct PairingSubstate _pairSubstate;
-    int _passwordPickerState;
-    NSString *_pickedPassword;
-    NSString *_pickedUsername;
-    int _sendCredentialsState;
-    SFSession *_session;
-    int _sessionState;
-    _Bool _prefPairContactsDisabled;
-    _Bool _prefPairHomeKitDisabled;
-    _Bool _prefPairVerifyDisabled;
-    _Bool _prefPairVisualDisabled;
-    CDUnknownBlockType _completedHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    SFDevice *_peerDevice;
-    CDUnknownBlockType _pairingFinishedHandler;
-    CDUnknownBlockType _promptForPINHandler;
-    CDUnknownBlockType _promptForPickerHandler;
 }
 
 - (void);
@@ -64,13 +33,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void)ãÊSyáWø7;
@@ -78,11 +47,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completedHandler; // @synthesize completedHandler=_completedHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType pairingFinishedHandler; // @synthesize pairingFinishedHandler=_pairingFinishedHandler;
-@property(retain, nonatomic) SFDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(copy, nonatomic) CDUnknownBlockType promptForPINHandler; // @synthesize promptForPINHandler=_promptForPINHandler;
-@property(copy, nonatomic) CDUnknownBlockType promptForPickerHandler; // @synthesize promptForPickerHandler=_promptForPickerHandler;
 
 @end
 

@@ -6,22 +6,19 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class UIView, _UISplitViewControllerAdaptiveLayoutTransition, _UISplitViewControllerAdaptiveTransitionAnimationView;
+@class UIView, _UISplitViewControllerAdaptiveTransitionAnimationView;
 
 __attribute__((visibility("hidden")))
 @interface _UISplitViewControllerAdaptiveTransitionView : _UITouchPassthroughView
 {
     _UISplitViewControllerAdaptiveTransitionAnimationView *_previousLayoutAnimationView;
-    _UISplitViewControllerAdaptiveTransitionAnimationView *_newLayoutAnimationView;
-    _UISplitViewControllerAdaptiveLayoutTransition *_transition;
-    UIView *_barButtonItemContainerView;
 }
 
-- (id);
-- (void);
-- (void);
-- (void):(id)arg1 atPoint: /* Error: Ran out of types for this method. */;
-- (id)verridingStatusBarHidden;
+- (id)setNumReadReceiptsNoMessage: /* Error: Ran out of types for this method. */;
+- (void)d to calculate reachability for %@ with ID %@, found similar in-progress request with ID %@ - will piggyback off of existing request instead of starting a new one.;
+- (void)H9;
+- (void)_shouldBeginBandSelectionInteraction:(id)arg1 atPoint: /* Error: Ran out of types for this method. */;
+- (id)_isOverridingStatusBarHidden;
 - (void)ÃÓ+e[ÚÕÀøí¸aþf@%è/ôQõ?;
 
 // Remaining properties

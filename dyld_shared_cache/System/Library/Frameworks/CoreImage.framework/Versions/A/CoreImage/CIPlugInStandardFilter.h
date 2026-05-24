@@ -6,20 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIKernel, NSBundle, NSMutableArray, NSMutableDictionary, NSObject, NSString, NSURL;
-@protocol OS_dispatch_source;
+@class NSBundle, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CIPlugInStandardFilter : CIFilter
 {
     NSMutableDictionary *_inputs;
-    NSMutableArray *_inputKeys;
-    NSMutableArray *_outputKeys;
-    NSMutableDictionary *_attributes;
-    CIKernel *_filterKernel;
-    NSURL *_kernelFileURL;
-    NSBundle *_plugInBundle;
-    NSObject<OS_dispatch_source> *kernelChangeSource;
 }
 
 + (_Bool)mg.g), img.b), 0.001);
@@ -47,8 +39,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)#;
+- (id)y(;
 - (id);
 - (id);
 - (void);
@@ -63,8 +55,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_plugInBundle;
-@property(readonly, retain, nonatomic) NSURL *kernelFileURL; // @synthesize kernelFileURL=_kernelFileURL;
-@property(readonly, retain, nonatomic) NSString *kernelFilename;
 
 @end
 

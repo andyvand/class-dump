@@ -9,11 +9,6 @@
 @interface EARSpeechRecognitionResult
 {
     _Bool _needsLeadingSpace;
-    NSArray *_tokens;
-    NSArray *_preITNTokens;
-    double _confidence;
-    NSArray *_voiceCommandInterpretations;
-    NSArray *_preITNVoiceCommandInterpretations;
 }
 
 + (_Bool);
@@ -22,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_adjustmentType;
 - (id);
 - (void);
 - (id);
@@ -30,12 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) _Bool needsLeadingSpace; // @synthesize needsLeadingSpace=_needsLeadingSpace;
-@property(readonly, copy, nonatomic) NSArray *preITNTokens; // @synthesize preITNTokens=_preITNTokens;
-@property(readonly, copy, nonatomic) NSArray *preITNVoiceCommandInterpretations; // @synthesize preITNVoiceCommandInterpretations=_preITNVoiceCommandInterpretations;
 @property(readonly, copy, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
-@property(readonly, copy, nonatomic) NSArray *voiceCommandInterpretations; // @synthesize voiceCommandInterpretations=_voiceCommandInterpretations;
 
 @end
 

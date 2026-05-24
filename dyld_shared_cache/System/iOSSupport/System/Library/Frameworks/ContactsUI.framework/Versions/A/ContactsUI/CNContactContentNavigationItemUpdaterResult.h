@@ -8,21 +8,17 @@ __attribute__((visibility("hidden")))
 @interface CNContactContentNavigationItemUpdaterResult
 {
     _Bool _enableEditShortcut;
-    _Bool _enableCancelShortcut;
-    _Bool _enableSaveShortcut;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool enableCancelShortcut; // @synthesize enableCancelShortcut=_enableCancelShortcut;
 @property(nonatomic) _Bool enableEditShortcut; // @synthesize enableEditShortcut=_enableEditShortcut;
-@property(nonatomic) _Bool enableSaveShortcut; // @synthesize enableSaveShortcut=_enableSaveShortcut;
 
 @end
 

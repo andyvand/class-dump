@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UICollectionReusableView.h>
 
-@class UICollectionViewTableLayout, UICollectionViewTableLayoutAttributes, UIColor, UILabel, UITableViewHeaderFooterView, UIView;
+@class UITableViewHeaderFooterView;
 
 @interface UICollectionViewTableHeaderFooterView : UICollectionReusableView
 {
@@ -14,11 +14,11 @@
     UITableViewHeaderFooterView *_tableViewHeaderFooterView;
 }
 
+- (id)lu, allowCompatibilityOverride:%@, recipients support hqp:%@, hqp enabled:%@ /* Error: Ran out of types for this method. */;
+- (void)on failed, NIL or empty chat GUID.;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id)t statistics for domain %d.;
 - (id);
 - (id);
 - (id);
@@ -26,12 +26,12 @@
 - (id);
 - (void)±bÐ1Â0@ù
 × ;
-- (_Bool)atorItem;
-- (void)teTextAttachmentGeometry;
-- (void)rchBarGroupWithLeadingPadding:(_Bool)arg1 trailingPadding: /* Error: Ran out of types for this method. */;
+- (_Bool)separatorItem;
+- (void)_updateTextAttachmentGeometry;
+- (void)_updateInlineSearchBarGroupWithLeadingPadding:(_Bool)arg1 trailingPadding: /* Error: Ran out of types for this method. */;
 - (id)NavigationItem",&,N,V_viewControllerNavigationItem;
 - (id)Ð¤0Ä`¬ ;
-- (void)ac;
+- (void)mac;
 - (void);
 - (id)n;
 - (void)1%ÙÐ'i;
@@ -40,15 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIView *backgroundView;
-@property(readonly, nonatomic) UIView *contentView;
-@property(readonly, nonatomic) UILabel *detailTextLabel;
-@property(nonatomic) _Bool floating; // @synthesize floating=_floating;
-@property(readonly, nonatomic, getter=_tableAttributes) UICollectionViewTableLayoutAttributes *tableAttributes;
-@property(readonly, nonatomic, getter=_tableLayout) UICollectionViewTableLayout *tableLayout;
 @property(retain, nonatomic) UITableViewHeaderFooterView *tableViewHeaderFooterView; // @synthesize tableViewHeaderFooterView=_tableViewHeaderFooterView;
-@property(readonly, nonatomic) UILabel *textLabel;
-@property(retain, nonatomic) UIColor *tintColor;
 
 @end
 

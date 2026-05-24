@@ -7,7 +7,6 @@
 @interface FamilyCircleUI.ChecklistSortingRules
 {
     id sortOrderRules;
-    id groupOrder;
 }
 
 @end

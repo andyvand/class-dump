@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GKContactRelationshipResult, UIView;
+@class GKContactRelationshipResult;
 
 @interface CNUIGKGameCenterFriendPlayerViewWrapper
 {
     GKContactRelationshipResult *_relationshipResult;
-    UIView *_wrappedView;
 }
 
 - (id);
 - (id);
-- (id);
-- (void)rer:keysToFetchWhenRestoringViewContactActivity: /* Error: Ran out of types for this method. */;
+- (id)R#;
+- (void)userActivityRestorer:keysToFetchWhenRestoringViewContactActivity: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) GKContactRelationshipResult *relationshipResult; // @synthesize relationshipResult=_relationshipResult;
-@property(readonly, copy, nonatomic) UIView *wrappedView; // @synthesize wrappedView=_wrappedView;
 
 @end
 

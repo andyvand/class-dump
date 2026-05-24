@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchKey64ValuePair
 {
     unsigned long long _key;
-    NSString *_value;
-    struct {
-        unsigned int has_key:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)utton;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?;
 - (_Bool);
 - (id)ndTimestamp"b1"has_transportType"b1"has_usualTraversalTimeSeconds"b1};
-- (id)lygonPoints;
+- (id)_polygonPoints;
 - (id)¨êxë`ì0íîîðïÀðÄñpò@óóõhõÌö÷ ø8ú;
 - (void);
 

@@ -7,9 +7,6 @@
 @interface NewsSubscription.PaywallModule
 {
     id paywallViewKind;
-    id resolver;
-    id tracker;
-    id featureAvailability;
 }
 
 @end

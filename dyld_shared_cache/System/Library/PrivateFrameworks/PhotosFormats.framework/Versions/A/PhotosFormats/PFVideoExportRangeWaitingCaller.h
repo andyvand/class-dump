@@ -10,30 +10,24 @@
 @interface PFVideoExportRangeWaitingCaller
 {
     _Bool _requestedRangeIsAvailable;
-    _Bool _cancelled;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
-    struct _NSRange _requestedRange;
 }
 
 + (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct _NSRange);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)CKDRecordResolveTokenURLRequest;
+- (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)registerPIPViewController:withContextId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property struct _NSRange requestedRange; // @synthesize requestedRange=_requestedRange;
-@property _Bool requestedRangeIsAvailable; // @synthesize requestedRangeIsAvailable=_requestedRangeIsAvailable;
 @property(retain) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
 
 @end

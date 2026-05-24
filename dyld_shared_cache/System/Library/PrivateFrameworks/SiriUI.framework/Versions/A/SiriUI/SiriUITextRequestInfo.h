@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface SiriUITextRequestInfo
 {
     SRFTextRequest *_textRequest;
-    long long _requestSource;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long requestSource; // @synthesize requestSource=_requestSource;
 @property(retain, nonatomic) SRFTextRequest *textRequest; // @synthesize textRequest=_textRequest;
 
 @end

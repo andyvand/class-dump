@@ -11,12 +11,12 @@
     id <TRIPaths> _paths;
 }
 
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)readMetadataValueFromImageAtFileURL:(id)arg1 dictionaryKey:(unsigned int *)arg2 key:value:error: /* Error: Ran out of types for this method. */;
+- (id)preserveTrackAssociations:(id)arg1 ofAsset:forMutableComposition:assetToCompositionTrackID: /* Error: Ran out of types for this method. */;
+- (id)prepareForPlaybackWithTargetSize:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)preferredOrFallbackFilenameExtensionForType:(id)arg1;
+- (_Bool)maxTimeRectInImageSpace;
+- (id)hdrGainMetadataKey;
 - (id);
 - (void)0@ù
 × ;

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAnalyticsEndpointConnection, FCAsyncSerialQueue;
+@class FCAnalyticsEndpointConnection;
 
 @interface NDAnalyticsPayloadUploader
 {
     FCAnalyticsEndpointConnection *_endpointConnection;
-    FCAsyncSerialQueue *_uploadQueue;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)er;
 - (void);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCAnalyticsEndpointConnection *endpointConnection; // @synthesize endpointConnection=_endpointConnection;
-@property(retain, nonatomic) FCAsyncSerialQueue *uploadQueue; // @synthesize uploadQueue=_uploadQueue;
 
 @end
 

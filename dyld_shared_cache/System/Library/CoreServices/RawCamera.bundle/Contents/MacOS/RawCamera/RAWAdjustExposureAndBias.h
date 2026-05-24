@@ -6,15 +6,11 @@
 
 #import <RawCamera/RAWFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface RAWAdjustExposureAndBias : RAWFilter
 {
     CIImage *inputImage;
-    id inputColorSpace;
-    NSNumber *inputBaselineExposure;
-    NSNumber *inputExposure;
-    NSNumber *inputBias;
 }
 
 + (id);

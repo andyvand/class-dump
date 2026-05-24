@@ -5,5 +5,6 @@
 //
 
 @protocol CKSendMenuPopoverPresentationDimmingViewDelegate
+- (void)searchResultCanBeDeletedFromNoteContext;
 @end
 

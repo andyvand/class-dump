@@ -4,46 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFAssertionContext, AFInstanceContext, AFTwoArgumentSafetyBlock, NSObject, NSString, NSUUID, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AFAudioSessionAssertionConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AFInstanceContext *_instanceContext;
-    NSXPCConnection *_xpcConnection;
-    AFAssertionContext *_acquisitionContext;
-    AFTwoArgumentSafetyBlock *_relinquishmentHandler;
-    NSUUID *_uuid;
 }
 
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)765687C3C2D4CA5;
 - (id);
 - (void);
+- (id)t;
+- (id)stopTimeInterval;
 - (id);
-- (id);
-- (id);
-- (void)gResponseMutability;
+- (void)AFBluetoothDeviceBooleanSettingResponseMutability;
 
 // Remaining properties
-@property(readonly, nonatomic) AFAssertionContext *context; // @synthesize context=_acquisitionContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

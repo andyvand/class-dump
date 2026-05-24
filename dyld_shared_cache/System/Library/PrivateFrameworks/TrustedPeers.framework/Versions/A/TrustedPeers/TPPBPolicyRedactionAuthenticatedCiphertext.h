@@ -9,37 +9,30 @@
 @interface TPPBPolicyRedactionAuthenticatedCiphertext
 {
     NSData *_authenticationCode;
-    NSData *_ciphertext;
-    NSData *_initializationVector;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
+- (void);
+- (void);
+- (unsigned long long);
 - (id);
+- (_Bool);
 - (id);
+- (_Bool);
+- (void)invalid block:(id)arg1 %@;
+- (id)updateMRNowPlayingClient;
+- (id)RemoteControlSession_sendDiagnosticDataForTransportStreamIfNeeded(FigEndpointRemoteControlSessionRef, FigTransportStreamRef, int64_t, CFStringRef);
+- (id)c4;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *authenticationCode; // @synthesize authenticationCode=_authenticationCode;
-@property(retain, nonatomic) NSData *ciphertext; // @synthesize ciphertext=_ciphertext;
-@property(readonly, nonatomic) _Bool hasAuthenticationCode;
 @property(readonly, nonatomic) _Bool hasCiphertext;
-@property(readonly, nonatomic) _Bool hasInitializationVector;
-@property(retain, nonatomic) NSData *initializationVector; // @synthesize initializationVector=_initializationVector;
 
 @end
 

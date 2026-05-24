@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _ANEIOSurfaceObject;
-
 @interface _ANEPerformanceStatsIOSurface
 {
     long long _statType;
-    _ANEIOSurfaceObject *_stats;
 }
 
-+ (id);
++ (id)nary"@"NSError">24;
 + (id);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long statType; // @synthesize statType=_statType;
-@property(readonly, nonatomic) _ANEIOSurfaceObject *stats; // @synthesize stats=_stats;
 
 @end
 

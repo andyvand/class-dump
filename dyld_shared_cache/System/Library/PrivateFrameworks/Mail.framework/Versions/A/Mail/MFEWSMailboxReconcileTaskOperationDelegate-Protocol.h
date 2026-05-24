@@ -5,5 +5,6 @@
 //
 
 @protocol MFEWSMailboxReconcileTaskOperationDelegate
+- (void);
 @end
 

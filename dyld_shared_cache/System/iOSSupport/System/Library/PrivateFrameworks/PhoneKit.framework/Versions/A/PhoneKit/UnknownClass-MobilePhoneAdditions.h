@@ -9,6 +9,8 @@
 @interface UnknownClass (MobilePhoneAdditions)
 - (id);
 - (struct _NSRange);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -16,12 +18,10 @@
 - (id);
 - (id);
 - (id);
+- (id)NetworkEventData;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)cancellationBehaviorWithTraitCollection: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
@@ -29,8 +29,5 @@
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *encodedDialerString;
 @property(copy, nonatomic) TUFeatureFlags *featureFlags;
-@property(readonly, copy, nonatomic) NSString *sanitizedString;
-@property(readonly, copy, nonatomic) NSString *unformattedNumber;
-@property(readonly, copy, nonatomic) NSString *unformattedNumberInLatin;
 @end
 

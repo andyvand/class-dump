@@ -7,18 +7,10 @@
 @interface NewsSubscription.AlacartePaywallViewProvider
 {
     id delegate;
-    id dataProvider;
-    id styler;
-    id viewModel;
-    id paywallModel;
-    id paywallView;
-    id renderer;
-    id layoutAttributesFactory;
-    id subscribeButtonTextProvider;
 }
 
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)[1];
 - (void);
 
 @end

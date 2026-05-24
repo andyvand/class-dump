@@ -9,9 +9,6 @@
 @interface IMBlockListPerson
 {
     CNContact *_cnPerson;
-    NSString *_identifier;
-    NSString *_cachedFullName;
-    NSString *_cachedCompanyName;
 }
 
 + (id);
@@ -25,17 +22,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (id);
-- (id)k:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)testWithFeature:(id)arg1 enabled:block:error: /* Error: Ran out of types for this method. */;
 - (void)ÿpz9_p;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cachedCompanyName; // @synthesize cachedCompanyName=_cachedCompanyName;
-@property(retain, nonatomic) NSString *cachedFullName; // @synthesize cachedFullName=_cachedFullName;
-@property(readonly, nonatomic) CNContact *cnPerson; // @synthesize cnPerson=_cnPerson;
-@property(readonly, nonatomic) NSString *fullName;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end

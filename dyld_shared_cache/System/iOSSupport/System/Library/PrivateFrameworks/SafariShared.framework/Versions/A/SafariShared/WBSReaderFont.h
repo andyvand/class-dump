@@ -9,10 +9,6 @@
 @interface WBSReaderFont
 {
     NSString *_familyName;
-    NSString *_displayName;
-    NSString *_localizedName;
-    _Bool _hasCalculatedLocalizedName;
-    long long _type;
 }
 
 @end

@@ -11,10 +11,9 @@
 @interface NSCompositeAttributeDescription : NSAttributeDescription
 {
     NSArray *_elements;
-    NSDictionary *_elementsByName;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -47,7 +46,6 @@
 - (void)X,ñÿÞÌ¬;
 
 // Remaining properties
-@property(copy) NSArray *elements;
 @property(readonly, nonatomic) NSDictionary *elementsByName;
 
 @end

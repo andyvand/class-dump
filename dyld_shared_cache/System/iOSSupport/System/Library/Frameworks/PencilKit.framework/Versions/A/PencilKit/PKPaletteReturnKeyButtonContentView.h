@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor, UIImageView;
+@class NSString;
 
 @interface PKPaletteReturnKeyButtonContentView
 {
     _Bool _useCompactLayout;
-    NSString *_text;
-    UIColor *_textColor;
-    long long _layoutOrientation;
-    UIImageView *_imageView;
 }
 
 - (_Bool);
@@ -22,17 +18,13 @@
 - (id);
 - (void);
 - (void);
-- (void)gPaletteStatistics;
+- (void)PKDrawingPaletteStatistics;
 - (void);
 - (void)(¸;
 - (long long)¼;
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) long long layoutOrientation; // @synthesize layoutOrientation=_layoutOrientation;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(retain, nonatomic) UIColor *textColor; // @synthesize textColor=_textColor;
-@property(nonatomic) _Bool useCompactLayout; // @synthesize useCompactLayout=_useCompactLayout;
 
 @end
 

@@ -19,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *invalidProductIdentifiers;
 @property(readonly, nonatomic) NSArray *products;
 
 @end

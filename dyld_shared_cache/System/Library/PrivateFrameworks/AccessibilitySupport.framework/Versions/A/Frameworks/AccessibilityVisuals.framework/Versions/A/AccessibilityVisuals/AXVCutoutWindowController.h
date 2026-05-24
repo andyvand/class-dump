@@ -4,35 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFUIElement, AXKElementController, AXVCutoutWindow, NSArray, NSColor, NSMutableArray;
+@class AXFUIElement, AXVCutoutWindow;
 
 @interface AXVCutoutWindowController
 {
     AXFUIElement *_backdropUIElement;
-    NSArray *_uiElements;
-    AXVCutoutWindow *__cutoutWindow;
-    NSMutableArray *__elementControllers;
-    NSMutableArray *__windowElementControllers;
-    AXKElementController *__backdropUIElementWindowElementController;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)%@qa;
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)?%@q;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -45,20 +40,11 @@
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)a>;
 - (id)emProtocol>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) AXKElementController *_backdropUIElementWindowElementController; // @synthesize _backdropUIElementWindowElementController=__backdropUIElementWindowElementController;
 @property(retain, nonatomic) AXVCutoutWindow *_cutoutWindow; // @synthesize _cutoutWindow=__cutoutWindow;
-@property(retain, nonatomic) NSMutableArray *_elementControllers; // @synthesize _elementControllers=__elementControllers;
-@property(retain, nonatomic) NSMutableArray *_windowElementControllers; // @synthesize _windowElementControllers=__windowElementControllers;
-@property(retain, nonatomic) NSColor *backdropColor;
-@property(retain, nonatomic) AXFUIElement *backdropUIElement; // @synthesize backdropUIElement=_backdropUIElement;
-@property(nonatomic) double cornerRadius;
-@property(retain, nonatomic) NSColor *cutoutColor;
-@property(nonatomic) double padding;
-@property(copy, nonatomic) NSArray *uiElements; // @synthesize uiElements=_uiElements;
 
 @end
 

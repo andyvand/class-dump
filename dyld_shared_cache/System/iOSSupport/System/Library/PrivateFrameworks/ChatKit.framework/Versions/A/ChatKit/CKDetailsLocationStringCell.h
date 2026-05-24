@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImageView, UILabel, UIVisualEffectView;
+@class NSString, UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsLocationStringCell
 {
     NSString *_locationString;
-    UILabel *_locationLabel;
-    UIImageView *_locationImageView;
-    UIVisualEffectView *_blurView;
 }
 
 - (void);
@@ -25,13 +22,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)REMOVE_TAPBACK_INTENT_MESSAGE_PARAMETER_DESCRIPTION;
 - (void)t:(id)arg1 animated:animationDuration:animationCurve:] /* Error: Ran out of types for this method. */;
-- (void)nalytics;
+- (void)Analytics;
 
 // Remaining properties
-@property(retain, nonatomic) UIVisualEffectView *blurView; // @synthesize blurView=_blurView;
-@property(retain, nonatomic) UIImageView *locationImageView; // @synthesize locationImageView=_locationImageView;
 @property(retain, nonatomic) UILabel *locationLabel; // @synthesize locationLabel=_locationLabel;
-@property(retain, nonatomic) NSString *locationString; // @synthesize locationString=_locationString;
 
 @end
 

@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, WDDocument;
+@class WDDocument;
 
 __attribute__((visibility("hidden")))
 @interface WDListDefinition
 {
     WDDocument *mDocument;
-    int mListDefinitionId;
-    NSString *mStyleId;
-    NSString *mStyleRefId;
-    int mType;
-    NSMutableArray *mLevels;
 }
 
 - (id);
 - (void);
-- (int);
+- (int)4{;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (int);
-- (id);
+- (id)MSVStreamWriter.m;
 - (void);
 - (void)() failed:%d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) int listDefinitionId; // @synthesize listDefinitionId=mListDefinitionId;
-@property(readonly, nonatomic) NSString *styleId; // @synthesize styleId=mStyleId;
-@property(copy, nonatomic) NSString *styleRefId; // @synthesize styleRefId=mStyleRefId;
 
 @end
 

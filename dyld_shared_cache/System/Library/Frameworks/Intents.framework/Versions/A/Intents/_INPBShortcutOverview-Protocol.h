@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBDataString, _INPBImageValue;
+@class _INPBDataString;
 
 @protocol _INPBShortcutOverview
++ (Class)ror getting client name for activity %@:%@ /* Error: Ran out of types for this method. */;
+- (_INPBDataString *)L;
+- (void);
+- (_INPBDataString *);
+- (_INPBDataString *)ܷ;
 - (void)¾(°1Â0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *descriptiveText;
-@property(readonly, nonatomic) _Bool hasDescriptiveText;
-@property(readonly, nonatomic) _Bool hasIcon;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasVoiceCommand;
-@property(retain, nonatomic) _INPBImageValue *icon;
-@property(retain, nonatomic) _INPBDataString *name;
-@property(copy, nonatomic) NSArray *steps;
-@property(readonly, nonatomic) unsigned long long stepsCount;
-@property(retain, nonatomic) _INPBDataString *voiceCommand;
 @end
 

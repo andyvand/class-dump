@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface CATIDSMessageOptions
 {
     _Bool _fireAndForget;
-    NSNumber *_deliveryTimeout;
 }
 
-+ (_Bool);
++ (_Bool)_setIncludeSensitive: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (id);
+- (void)FWebCardSection";
+- (id)A;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)@;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *deliveryTimeout; // @synthesize deliveryTimeout=_deliveryTimeout;
 @property(nonatomic, getter=shouldFireAndForget) _Bool fireAndForget; // @synthesize fireAndForget=_fireAndForget;
 
 @end

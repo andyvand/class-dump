@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDispatchTimer, NSString;
+@class NSString;
 
 @interface IDSParakeetMessagingStopStateMachine
 {
     NSString *_identifier;
-    unsigned long long _state;
-    CDUnknownBlockType _messageHandler;
-    IMDispatchTimer *_finalAckTimer;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (unsigned long long);
+- (unsigned long long)deviceIdentityFromDataRepresentation:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -27,10 +24,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) IMDispatchTimer *finalAckTimer; // @synthesize finalAckTimer=_finalAckTimer;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) CDUnknownBlockType messageHandler; // @synthesize messageHandler=_messageHandler;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

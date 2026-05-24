@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDDaemonInterfaceFactory, EFLocked, NSArray, NSString, NSXPCListener, NSXPCListenerEndpoint;
+@class NSXPCListener;
 
 @interface EDServer
 {
     NSXPCListener *_listener;
-    EFLocked *_connectedClients;
-    EDDaemonInterfaceFactory *_daemonInterfaceFactory;
 }
 
 + (id)³Ð1Â0@ù
@@ -18,34 +16,23 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)alternativeIntentsIndices;
+- (void)UsoEntityBuilder_common_MessageState;
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)1;
 - (_Bool);
+- (id)candidateSet;
 - (id);
-- (id);
-- (id)FilePromise: /* Error: Ran out of types for this method. */;
+- (id)setAttributeSetForFilePromise: /* Error: Ran out of types for this method. */;
 - (void)_TruncateMailboxUpgradeStepOver10kCount;
 
 // Remaining properties
-@property(readonly, nonatomic) EFLocked *connectedClients; // @synthesize connectedClients=_connectedClients;
-@property(retain, nonatomic) EDDaemonInterfaceFactory *daemonInterfaceFactory; // @synthesize daemonInterfaceFactory=_daemonInterfaceFactory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly, copy, nonatomic) NSArray *remoteClients;
-@property(readonly, nonatomic) NSXPCListenerEndpoint *serverXPCEndpoint;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,8 +11,6 @@
 @interface PISliderNetAdjustmentsRequest : PISliderNetBaseRequest
 {
     NSData *_styleFeatureVectorData;
-    NSData *_contentFeatureVectorData;
-    double _similarityGatingThreshold;
 }
 
 - (id);
@@ -26,11 +24,9 @@
 - (id);
 - (void);
 - (void);
-- (void)ngType;
+- (void)tuningType;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *contentFeatureVectorData; // @synthesize contentFeatureVectorData=_contentFeatureVectorData;
-@property(nonatomic) double similarityGatingThreshold; // @synthesize similarityGatingThreshold=_similarityGatingThreshold;
 @property(retain, nonatomic) NSData *styleFeatureVectorData; // @synthesize styleFeatureVectorData=_styleFeatureVectorData;
 
 @end

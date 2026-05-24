@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface PKAccountFetchPeriods
 {
     double _accountFetchPeriod;
-    double _extendedAccountFetchPeriod;
-    double _usersFetchPeriod;
-    double _sharedCloudStoreModelFetchPeriod;
-    double _financingPlansFetchPeriod;
-    double _fundingSourcesFetchPeriod;
-    double _promotionsFetchPeriod;
-    double _recoveryPaymentPlansFetchPeriod;
-    double _physicalCardsFetchPeriod;
-    NSSet *_blockedEndpoints;
 }
 
 + (_Bool);
@@ -36,8 +25,8 @@
 - (void);
 - (void);
 - (double);
-- (double);
-- (_Bool);
+- (double)%;
+- (_Bool)`G	;
 - (double);
 - (double);
 - (double);
@@ -46,26 +35,17 @@
 - (id);
 - (double);
 - (double);
-- (id);
+- (id)@;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_sockDomainOther;
 - (void);
 - (id);
-- (id)inuityPaymentCoordinator;
-- (void)ess;
+- (id)_continuityPaymentCoordinator;
+- (void)postalAddress;
 
 // Remaining properties
 @property(nonatomic) double accountFetchPeriod; // @synthesize accountFetchPeriod=_accountFetchPeriod;
-@property(copy, nonatomic) NSSet *blockedEndpoints; // @synthesize blockedEndpoints=_blockedEndpoints;
-@property(nonatomic) double extendedAccountFetchPeriod; // @synthesize extendedAccountFetchPeriod=_extendedAccountFetchPeriod;
-@property(nonatomic) double financingPlansFetchPeriod; // @synthesize financingPlansFetchPeriod=_financingPlansFetchPeriod;
-@property(nonatomic) double fundingSourcesFetchPeriod; // @synthesize fundingSourcesFetchPeriod=_fundingSourcesFetchPeriod;
-@property(nonatomic) double physicalCardsFetchPeriod; // @synthesize physicalCardsFetchPeriod=_physicalCardsFetchPeriod;
-@property(nonatomic) double promotionsFetchPeriod; // @synthesize promotionsFetchPeriod=_promotionsFetchPeriod;
-@property(nonatomic) double recoveryPaymentPlansFetchPeriod; // @synthesize recoveryPaymentPlansFetchPeriod=_recoveryPaymentPlansFetchPeriod;
-@property(nonatomic) double sharedCloudStoreModelFetchPeriod; // @synthesize sharedCloudStoreModelFetchPeriod=_sharedCloudStoreModelFetchPeriod;
-@property(nonatomic) double usersFetchPeriod; // @synthesize usersFetchPeriod=_usersFetchPeriod;
 
 @end
 

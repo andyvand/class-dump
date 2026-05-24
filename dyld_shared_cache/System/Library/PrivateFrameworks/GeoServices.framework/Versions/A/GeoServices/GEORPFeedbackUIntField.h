@@ -7,38 +7,33 @@
 @interface GEORPFeedbackUIntField
 {
     unsigned int _edited;
-    unsigned int _original;
-    CDStruct_ccf110de _flags;
 }
 
-+ (_Bool)ctedLocationHorizontalAccuracy:(id)arg1;
++ (_Bool)setLastDetectedLocationHorizontalAccuracy:(id)arg1;
 - (void);
-- (void);
+- (void)setShouldCreateMyCard:(_Bool)arg1;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (void);
-- (void);
+- (void)mage upsampling failed;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)CSSystemDaemonStateMonitorDelegate;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)+(ch!`d;
 - (id)s_value"b1"has_valueType"b1"has_isEnabled"b1"read_unknownFields"b1"read_displayName"b1"read_refinementKey"b1"read_stringValue"b1"wrote_anyField"b1};
 - (unsigned int)ImageName"b1"read_titles"b1"wrote_anyField"b1};
-- (id)ionForSunX:Y:Z: /* Error: Ran out of types for this method. */;
+- (id)calculateGeocentricDirectionForSunX:Y:Z: /* Error: Ran out of types for this method. */;
 - (id)Php$T;
-- (id)NDITION_LIGHT;
+- (id)TRAFFIC_CONDITION_LIGHT;
 
 // Remaining properties
-@property(nonatomic) unsigned int edited;
-@property(nonatomic) _Bool hasEdited;
 @property(nonatomic) _Bool hasOriginal;
-@property(nonatomic) unsigned int original;
 
 @end
 

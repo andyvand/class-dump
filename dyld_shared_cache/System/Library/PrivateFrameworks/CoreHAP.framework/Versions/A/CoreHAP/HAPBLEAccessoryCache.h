@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPBLEPeripheralInfo, NSMutableArray, NSNumber, NSString;
+@class HAPBLEPeripheralInfo, NSNumber;
 
 @interface HAPBLEAccessoryCache
 {
     NSNumber *_metadataVersion;
-    NSString *_pairingIdentifier;
-    HAPBLEPeripheralInfo *_peripheralInfo;
-    NSMutableArray *_cachedServices;
-    NSNumber *_lastKeyBagIdentityIndexFailingPV;
-    long long _discoveryVersion;
-    CDUnknownBlockType _saveBlock;
 }
 
 + (long long);
@@ -34,24 +28,18 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)!;
+- (_Bool)_creationTimestamp;
 - (void);
-- (void);
+- (void)`	;
 - (void)HAPAuthSession"16@"NSError"24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableArray *cachedServices; // @synthesize cachedServices=_cachedServices;
-@property(nonatomic) long long discoveryVersion; // @synthesize discoveryVersion=_discoveryVersion;
-@property(retain, nonatomic) NSNumber *lastKeyBagIdentityIndexFailingPV; // @synthesize lastKeyBagIdentityIndexFailingPV=_lastKeyBagIdentityIndexFailingPV;
-@property(readonly, nonatomic) NSNumber *metadataVersion; // @synthesize metadataVersion=_metadataVersion;
-@property(readonly, nonatomic) NSString *pairingIdentifier; // @synthesize pairingIdentifier=_pairingIdentifier;
 @property(retain, nonatomic) HAPBLEPeripheralInfo *peripheralInfo; // @synthesize peripheralInfo=_peripheralInfo;
-@property(copy, nonatomic) CDUnknownBlockType saveBlock; // @synthesize saveBlock=_saveBlock;
 
 @end
 

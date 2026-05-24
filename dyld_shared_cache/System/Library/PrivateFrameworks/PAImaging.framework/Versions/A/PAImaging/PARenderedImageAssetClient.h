@@ -6,34 +6,12 @@
 
 #import <PAImaging/PAImageAssetClient.h>
 
-@class NSObject, NSTimer, NUComposition, NUImageGeometry, NUSurfaceRenderRequest, PADisplay, PANUTiledImageBacking;
-@protocol NUDevice, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PARenderedImageAssetClient : PAImageAssetClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _waitingForUpdateFromGeometryChanged;
-    id <NUDevice> _device;
-    long long _compositionUpdateNumber;
-    NUComposition *_composition;
-    CDStruct_19170857 _orientation;
-    long long _backfillUpdateNumber;
-    PANUTiledImageBacking *_lastBackfillImage;
-    NUImageGeometry *_lastBackfillGeometry;
-    CDStruct_19170857 _lastBackfillOrientation;
-    PADisplay *_lastBackfillDisplay;
-    long long _zoomUpdateNumber;
-    PANUTiledImageBacking *_lastZoomImage;
-    NUImageGeometry *_lastZoomGeometry;
-    CDStruct_19170857 _lastZoomOrientation;
-    PADisplay *_lastZoomDisplay;
-    NUImageGeometry *_geometry;
-    CDStruct_19170857 _geometryOrientation;
-    NUSurfaceRenderRequest *_backfillRenderRequest;
-    NUSurfaceRenderRequest *_zoomRenderRequest;
-    _Bool _hasRendered;
-    _Bool _hasReceivedUpdate;
-    NSTimer *_displayEDRMonitorTimer;
 }
 
 - (void);
@@ -58,8 +36,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (struct CGSize);
+- (id)NSMutableDictionary"16^B24;
+- (struct CGSize)c.m;
 - (id);
 - (long long);
 - (id);

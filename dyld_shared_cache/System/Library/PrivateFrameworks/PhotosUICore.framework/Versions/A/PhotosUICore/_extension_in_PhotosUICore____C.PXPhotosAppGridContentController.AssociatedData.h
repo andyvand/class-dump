@@ -7,8 +7,6 @@
 @interface (extension in PhotosUICore):__C.PXPhotosAppGridContentController.AssociatedData
 {
     id bannerController;
-    id bannerLoadTask;
-    id curationModel;
 }
 
 - (id);

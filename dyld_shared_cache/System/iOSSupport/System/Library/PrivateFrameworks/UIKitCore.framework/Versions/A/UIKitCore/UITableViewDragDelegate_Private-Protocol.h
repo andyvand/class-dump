@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSIndexPath, UITableView, _UIDragSessionProperties;
+@protocol UIDragSession;
+
 @protocol UITableViewDragDelegate_Private
+
+@optional
+- (_Bool)storeMessage:(UITableView *)arg1 forceReplace:(id <UIDragSession>)arg2 modifyError:modifyFlags:flagMask:updateMessageCache:calculateUnreadCount: /* Error: Ran out of types for this method. */;
+- (_UIDragSessionProperties *)storeMessage:(UITableView *)arg1 forceReplace:(id <UIDragSession>)arg2 modifyError:modifyFlags:flagMask: /* Error: Ran out of types for this method. */;
+- (long long)storeMessage:(UITableView *)arg1 context:(id <UIDragSession>)arg2 didReplaceBlock:(NSIndexPath *)arg3;
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsUI2.SearchMoreBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id decorationProviderFactory;
 }
 
 @end

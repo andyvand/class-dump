@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata, NSMutableArray;
+@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata;
 
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleTagMetadata
 {
     COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *_channelTagMetadata;
-    NSMutableArray *_topicTagMetadatas;
 }
 
-+ (Class);
++ (Class)annotationsToRemoveImmediately;
+- (void);
+- (unsigned long long);
+- (void)setExcludeDedupers:(id)arg1;
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void)Thresholds;
+- (void)clearPortraitTagThresholds;
 
 // Remaining properties
-@property(retain, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *channelTagMetadata; // @synthesize channelTagMetadata=_channelTagMetadata;
 @property(readonly, nonatomic) _Bool hasChannelTagMetadata;
-@property(retain, nonatomic) NSMutableArray *topicTagMetadatas; // @synthesize topicTagMetadatas=_topicTagMetadatas;
 
 @end
 

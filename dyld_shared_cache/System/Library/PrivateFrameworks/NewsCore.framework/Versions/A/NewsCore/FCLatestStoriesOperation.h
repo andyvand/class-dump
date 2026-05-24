@@ -6,18 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCloudContext, FCDateRange, NSArray;
-@protocol FCCoreConfiguration;
+@class FCCloudContext;
 
 @interface FCLatestStoriesOperation : FCOperation
 {
     CDUnknownBlockType _headlinesCompletionHandler;
-    FCCloudContext *_context;
-    id <FCCoreConfiguration> _configuration;
-    FCDateRange *_dateRange;
-    unsigned long long _totalLimit;
-    unsigned long long _perFeedLimit;
-    NSArray *_resultHeadlines;
 }
 
 - (unsigned long long);
@@ -29,22 +22,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)CGColorSpace=},D,N;
 - (id);
 - (CDUnknownBlockType)_premiumSubscriptionActivationBaselineClickValue;
 - (void)Æ;
-- (void)eTag;
+- (void)autoFavoriteTag;
 - (void)ve unknown file from asset store:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)cScoresOutputName from configuration %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) id <FCCoreConfiguration> configuration; // @synthesize configuration=_configuration;
 @property(readonly, nonatomic) FCCloudContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) FCDateRange *dateRange; // @synthesize dateRange=_dateRange;
-@property(copy, nonatomic) CDUnknownBlockType headlinesCompletionHandler; // @synthesize headlinesCompletionHandler=_headlinesCompletionHandler;
-@property(readonly, nonatomic) unsigned long long perFeedLimit; // @synthesize perFeedLimit=_perFeedLimit;
-@property(copy, nonatomic) NSArray *resultHeadlines; // @synthesize resultHeadlines=_resultHeadlines;
-@property(readonly, nonatomic) unsigned long long totalLimit; // @synthesize totalLimit=_totalLimit;
 
 @end
 

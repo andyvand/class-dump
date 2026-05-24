@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSectionedCollection;
-
 __attribute__((visibility("hidden")))
 @interface MPCModelRadioGetTracksResponse
 {
     long long _tracklistAction;
-    MPSectionedCollection *_tracks;
 }
 
-- (long long);
-- (id);
+- (long long)clearPendingFollowUpItemsWithUniqueIdentifiers:completion: /* Error: Ran out of types for this method. */;
+- (id)aa_isAccountClass:(id)arg1;
 - (id);
 - (void)· ITEM UPDATE                %{public}@ %{public}@;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long tracklistAction; // @synthesize tracklistAction=_tracklistAction;
-@property(readonly, copy, nonatomic) MPSectionedCollection *tracks; // @synthesize tracks=_tracks;
 
 @end
 

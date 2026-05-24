@@ -4,39 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKTranscriptLegibilityInternalButton, PLKLegibilityView, UIButtonConfiguration, UIMenu, UIView;
+@class CKTranscriptLegibilityInternalButton, UIButtonConfiguration;
 
 @interface CKTranscriptLegibilityButton
 {
     CKTranscriptLegibilityInternalButton *_button;
-    PLKLegibilityView *_legibilityView;
 }
 
 + (id);
 + (id);
 - (id);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)?24;
+- (long long)tableCellIntentWithIdentity:column:nestedInsideIntent: /* Error: Ran out of types for this method. */;
+- (long long)tableCellFirstResponderChangedInNote: /* Error: Ran out of types for this method. */;
+- (void)performUpdatesIfNeededAndWait;
+- (void)performUpdate;
+- (void)initWithMentions:(id)arg1;
+- (void)ic_darkerAccessibilityColorForColor:(_Bool)arg1;
+- (_Bool)_isMarkingTextForHeadingRename;
+- (struct CGRect)cingAndDelay;
+- (id)eSystemPaperNotesWithCoalescingAndDelay;
+- (id);
+- (void)Object;
 - (_Bool);
-- (struct CGRect);
 - (id);
-- (id);
+- (void)chingP;
+- (void)i;
+- (void)ocalizedStringForICFilterType for ICFilterTypeUnknown.;
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)for an attachment (%@). Creating a temporary one.;
+- (id)ording finished;
+- (_Bool)SError"12;
+- (_Bool)SETTINGS_TEXT_STYLE_FIXED_WIDTH;
 - (_Bool);
 - (void);
 - (void);
@@ -51,42 +50,27 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)5˿;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void)NavigationBarOnLoad;
+- (id)defaultHeight;
+- (void)_prepareNavigationBarOnLoad;
 - (void);
 - (void)#;
 - (void);
 - (void);
 - (void)S currently showing background, removing previous background;
 - (void)ngerAttractor.radius;
-- (_Bool)tton;
+- (_Bool)StatusMenuButton;
 - (_Bool);
 - (id);
 - (id)¹øiäÁÏÿÑøi÷¨ÿ¹øi0ÂÏÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CKTranscriptLegibilityInternalButton *button; // @synthesize button=_button;
 @property(copy, nonatomic) UIButtonConfiguration *configuration;
-@property(copy, nonatomic) CDUnknownBlockType configurationUpdateHandler;
-@property(nonatomic) struct UIEdgeInsets contentEdgeInsets;
-@property(nonatomic) long long contentHorizontalAlignment;
-@property(nonatomic) _Bool dimsOnHighlight;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(retain, nonatomic) PLKLegibilityView *legibilityView; // @synthesize legibilityView=_legibilityView;
-@property(copy, nonatomic) UIMenu *menu;
-@property(nonatomic, getter=isSelected) _Bool selected;
-@property(nonatomic) _Bool showsMenuAsPrimaryAction;
-@property(nonatomic) _Bool showsMenuFromSource;
-@property(nonatomic) long long titleLabelLineBreakMode;
-@property(nonatomic) long long titleLabelNumberOfLines;
-@property(readonly, nonatomic) UIView *zoomTransitionSourceView;
 
 @end
 

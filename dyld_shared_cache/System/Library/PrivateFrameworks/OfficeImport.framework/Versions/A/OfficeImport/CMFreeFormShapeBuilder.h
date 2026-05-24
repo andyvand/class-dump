@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface CMFreeFormShapeBuilder : CMLineShapeBuilder
 {
     OADPath *_path;
-    struct CGSize _space;
 }
 
-- (struct CGPath *);
-- (struct CGPoint);
+- (struct CGPath *)i;
+- (struct CGPoint)c;
 - (void);
-- (struct CGAffineTransform);
+- (struct CGAffineTransform)tualConference",&,V_currentConference;
 - (void);
 - (void);
 

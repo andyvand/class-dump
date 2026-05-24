@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)eObjectOfClasses:(CDStruct_70511ce9 *)arg1 forKey:(id *)arg2;
+- (unsigned long long)decodeObjectOfClasses:(CDStruct_70511ce9 *)arg1 forKey:(id *)arg2;
 @end
 

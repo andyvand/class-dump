@@ -13,7 +13,7 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)u SU query results (before filtering);
 
 @end
 

@@ -6,33 +6,29 @@
 
 #import <ChatKit/CKColoredBalloonView.h>
 
-@class IMBalloonPluginDataSource, LPLinkMetadata, LPLinkView;
+@class IMBalloonPluginDataSource, LPLinkView;
 
 @interface CKRichLinkReplyPreviewBalloonView : CKColoredBalloonView
 {
     IMBalloonPluginDataSource *_dataSource;
-    LPLinkView *_linkView;
-    LPLinkMetadata *_linkMetadata;
 }
 
-- (struct CGSize);
+- (struct CGSize)isCollapsed;
 - (void);
-- (void);
+- (void);
+- (id);
+- (void)RA;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id));
 - (void)ü;
 
 // Remaining properties
-@property(retain, nonatomic) IMBalloonPluginDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(retain, nonatomic) LPLinkMetadata *linkMetadata; // @synthesize linkMetadata=_linkMetadata;
 @property(retain, nonatomic) LPLinkView *linkView; // @synthesize linkView=_linkView;
 
 @end

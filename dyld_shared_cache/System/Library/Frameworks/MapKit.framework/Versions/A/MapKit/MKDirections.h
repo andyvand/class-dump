@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsRequest, GEOQuickETARequest, GEOQuickETARequester, GEORouteAttributes, MKDirectionsRequest, NSError, NSObject;
-@protocol MKLocationManagerOperation, OS_dispatch_group;
+@class MKDirectionsRequest;
 
 @interface MKDirections
 {
     MKDirectionsRequest *_request;
-    GEODirectionsRequest *_geoRequest;
-    GEOQuickETARequest *_etaRequest;
-    GEOQuickETARequester *_etaRequester;
-    id <MKLocationManagerOperation> _locationOperation;
-    NSObject<OS_dispatch_group> *_waypointsDispatchGroup;
-    GEORouteAttributes *_routeAttributes;
-    NSError *_previousError;
 }
 
 - (_Bool);
 - (void);
+- (void)ss %@ as exception for subtype %@;
 - (void);
 - (void);
 - (void);
@@ -29,10 +22,9 @@
 - (void);
 - (void);
 - (void);
+- (id)algorithm type:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)activateFirstResponder;
 - (void)findDirectionsTypeForOriginCoordinate:destinationCoordinate:handler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties

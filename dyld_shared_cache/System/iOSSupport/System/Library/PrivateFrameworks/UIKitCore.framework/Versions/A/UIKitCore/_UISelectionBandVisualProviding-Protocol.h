@@ -7,7 +7,7 @@
 @class UIView;
 
 @protocol _UISelectionBandVisualProviding
-- (UIView *)tate:invalidatingPageCurl: /* Error: Ran out of types for this method. */;
+- (UIView *)_cancelTransitionWithState:invalidatingPageCurl: /* Error: Ran out of types for this method. */;
 - (_Bool)scroller.;
 
 // Remaining properties

@@ -6,17 +6,16 @@
 
 #import <NeutrinoCore/NURenderer.h>
 
-@protocol MTLCommandQueue, MTLDevice;
+@protocol MTLDevice;
 
 @interface NUMetalRenderer : NURenderer
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -25,7 +24,6 @@
 - (id)th 0 or 2 or more inputs must be geometry nodes;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
 @property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
 
 @end

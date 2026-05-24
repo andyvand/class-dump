@@ -13,21 +13,21 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)_ ;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (id);
-- (id);
+- (id)_telInformation;
+- (id);
 - (unsigned int);
-- (void);
+- (void)!;
 - (id);
-- (const char *);
+- (const char *)32^i40;
 - (unsigned long long)äD;
 
 @end

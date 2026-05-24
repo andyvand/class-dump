@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ColorPickerButton, WBSNamedColorOption;
+@class ColorPickerButton;
 
 __attribute__((visibility("hidden")))
 @interface _ColorOptionItem
 {
     ColorPickerButton *_colorPickerButton;
-    WBSNamedColorOption *_color;
 }
 
 - (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void)ð<;
 
 // Remaining properties
-@property(retain, nonatomic) WBSNamedColorOption *color; // @synthesize color=_color;
 @property(nonatomic) __weak ColorPickerButton *colorPickerButton; // @synthesize colorPickerButton=_colorPickerButton;
 
 @end

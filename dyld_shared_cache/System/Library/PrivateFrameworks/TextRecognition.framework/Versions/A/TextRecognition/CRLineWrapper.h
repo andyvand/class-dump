@@ -9,7 +9,6 @@
 @interface CRLineWrapper
 {
     CRLineWrappingConfiguration *_configuration;
-    _Bool _debugLineWrapping;
 }
 
 + (id);

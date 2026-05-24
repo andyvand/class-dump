@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, ViewHost, ViewService;
+@class ViewHost;
 
 __attribute__((visibility("hidden")))
 @interface HostAndService
 {
     ViewHost *_viewHost;
-    ViewService *_viewService;
-    NSString *_remoteViewIdentifier;
-    unsigned int _keyFocusTheftID;
 }
 
 + (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (id);
@@ -27,17 +24,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct __CGEvent *);
 - (void);
-- (unsigned int);
-- (void);
+- (unsigned int);
+- (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned int keyFocusTheftID; // @synthesize keyFocusTheftID=_keyFocusTheftID;
-@property(retain) NSString *remoteViewIdentifier; // @synthesize remoteViewIdentifier=_remoteViewIdentifier;
 @property ViewHost *viewHost; // @synthesize viewHost=_viewHost;
-@property ViewService *viewService; // @synthesize viewService=_viewService;
 
 @end
 

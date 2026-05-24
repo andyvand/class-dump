@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EWSServerVersionInfo
 {
     long long _MajorBuildNumber;
-    long long _MajorVersion;
-    long long _MinorBuildNumber;
-    long long _MinorVersion;
-    NSString *_Version;
 }
 
 + (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (_Bool);
 - (id);
@@ -37,17 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) long long MajorBuildNumber; // @synthesize MajorBuildNumber=_MajorBuildNumber;
-@property(nonatomic) long long MajorVersion; // @synthesize MajorVersion=_MajorVersion;
-@property(nonatomic) long long MinorBuildNumber; // @synthesize MinorBuildNumber=_MinorBuildNumber;
-@property(nonatomic) long long MinorVersion; // @synthesize MinorVersion=_MinorVersion;
-@property(copy, nonatomic) NSString *Version; // @synthesize Version=_Version;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,48 +12,37 @@
 @interface UIStepper : UIControl
 {
     NSMutableDictionary *_dividerImages;
-    NSMutableDictionary *_incrementImages;
-    NSMutableDictionary *_decrementImages;
-    NSMutableDictionary *_backgroundImages;
-    _Bool _continuous;
-    _Bool _autorepeat;
-    _Bool _wraps;
-    double _value;
-    double _minimumValue;
-    double _maximumValue;
-    double _stepValue;
-    UIView<UIStepperVisualElement> *_visualElement;
 }
 
-+ (id);
-+ (Class);
++ (id)ished reindexing %@;
++ (Class)e updated.;
 + (void);
 + (Class);
-+ (void)uppressInputViewDuringPresentation;
++ (void)_suppressInputViewDuringPresentation;
 + (_Bool)_browserViewController;
-- (void);
-- (void);
+- (void)chatDidRecoverFromJunk:(id)arg1;
+- (void)chatBotMessageRecordZone;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)ter %@;
+- (id)ProcessingPipelineComponent> Failed to find toIdentifier;
+- (void)response to %@;
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)newRenderPipelineStateWithDescriptor:(double)arg1 dynamicLinkingDescriptor:compilerTaskOptions:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
+- (id)R;
 - (void);
 - (_Bool);
 - (void);
@@ -64,20 +53,20 @@
 × ;
 - (_Bool)Ð!@ùqc°1Â0@ù
 × ;
-- (void)ectangles;
+- (void)numberOfRectangles;
 - (void)handlingWritingCount;
-- (_Bool)e;
+- (_Bool)clientScene;
 - (void)rongerBiasAgainstUp;
 - (id)led;
-- (void)tLayoutTarget;
-- (double)ontrollerVisualStyleTVOS;
+- (void)_UIImageContentLayoutTarget;
+- (double)_UINavigationControllerVisualStyleTVOS;
 - (void)S;
 - (double)ü;
 - (struct CGSize)'%lu';
 - (void)ection %ld when there are only %ld sections in the table;
-- (id)er;
-- (double)riKeyboardWidth;
-- (void)elConfiguration_hasCustomized_hyphenationFactorIgnoredIfURLsDetected;
+- (id)UIKBColorCarDarkDivider;
+- (double)IAPayloadKeySafariKeyboardWidth;
+- (void)UILabelConfiguration_hasCustomized_hyphenationFactorIgnoredIfURLsDetected;
 - (_Bool)PgNF7O1ShqV5hLdg1iCBXMw/Library/Caches/com.apple.xbs/TemporaryDirectory.539LWn/Sources/UIKitCore/Sources/Views/UIView/UIView_ManagedContent.swift;
 - (id)QZ\;
 - (void)$ëùþôðÍ<ïa;
@@ -94,14 +83,7 @@
 - (void)@;
 
 // Remaining properties
-@property(nonatomic) _Bool autorepeat; // @synthesize autorepeat=_autorepeat;
-@property(nonatomic, getter=isContinuous) _Bool continuous; // @synthesize continuous=_continuous;
-@property(nonatomic) double maximumValue; // @synthesize maximumValue=_maximumValue;
-@property(nonatomic) double minimumValue; // @synthesize minimumValue=_minimumValue;
-@property(nonatomic) double stepValue; // @synthesize stepValue=_stepValue;
-@property(nonatomic) double value; // @synthesize value=_value;
 @property(retain, nonatomic) UIView<UIStepperVisualElement> *visualElement; // @synthesize visualElement=_visualElement;
-@property(nonatomic) _Bool wraps; // @synthesize wraps=_wraps;
 
 @end
 

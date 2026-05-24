@@ -5,5 +5,6 @@
 //
 
 @protocol PGGraphBusinessedEvent
+- (void)inputMarkingSessionRange;
 @end
 

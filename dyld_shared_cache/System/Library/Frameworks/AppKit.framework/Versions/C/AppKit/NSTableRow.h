@@ -9,12 +9,11 @@
 @interface NSTableRow
 {
     NSTableView *_tableView;
-    long long _row;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -56,16 +55,16 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (long long)NULL;
+- (_Bool);
 - (long long);
-- (_Bool);
-- (long long);
 - (unsigned long long);
+- (id)@;
+- (id);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id).pt;
 - (void);
 - (unsigned long long);
 - (long long);

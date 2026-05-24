@@ -7,13 +7,6 @@
 @interface NewsUI2.PuzzleBadgingCoordinator
 {
     id badgeCount;
-    id puzzleTypeManager;
-    id puzzleTypeSettings;
-    id puzzleHistoryService;
-    id bundleSubscriptionManager;
-    id configurationManager;
-    id puzzleTypes;
-    id latestPuzzleIDs;
 }
 
 @end

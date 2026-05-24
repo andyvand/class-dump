@@ -6,26 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface USOSchemaUSOEntityIdentifier : SISchemaInstrumentationMessage
 {
     unsigned int _nodeIndex;
-    NSString *_identifierNamespace;
-    double _probability;
-    int _sourceNluComponent;
-    int _backingAppBundleType;
-    unsigned int _groupIndex;
-    unsigned int _interpretationGroup;
-    struct {
-        unsigned int nodeIndex:1;
-        unsigned int probability:1;
-        unsigned int sourceNluComponent:1;
-        unsigned int backingAppBundleType:1;
-        unsigned int groupIndex:1;
-        unsigned int interpretationGroup:1;
-    } _has;
-    _Bool _hasIdentifierNamespace;
 }
 
 - (int);
@@ -45,7 +28,7 @@
 - (unsigned int);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,7 +37,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -63,33 +46,19 @@
 - (void);
 - (double);
 - (id);
-- (void);
+- (void),;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_editContactCommand;
+- (_Bool), m.index_state FROM message m INDEXED BY message_idx_expire_state WHERE   (m.expire_state = %d OR m.expire_state = %d)  AND m.item_type == 0   AND m.schedule_type == 0   AND m.ROWID > ? ORDER BY m.date ASC;
 - (id);
 - (id);
-- (id)onContext: /* Error: Ran out of types for this method. */;
-- (id)teSiriLinkedSpeechID;
-- (id)iguationsLastTwoMinutes;
-- (void)CASE_SCORE_TWO_TEAMS;
+- (id)setKeyboardInvocationContext: /* Error: Ran out of types for this method. */;
+- (id)deleteSiriLinkedSpeechID;
+- (id)_numActionDisambiguationsLastTwoMinutes;
+- (void)PEGASUSSPORTSUSECASE_SCORE_TWO_TEAMS;
 
 // Remaining properties
-@property(nonatomic) int backingAppBundleType; // @synthesize backingAppBundleType=_backingAppBundleType;
-@property(nonatomic) unsigned int groupIndex; // @synthesize groupIndex=_groupIndex;
-@property(nonatomic) _Bool hasBackingAppBundleType;
-@property(nonatomic) _Bool hasGroupIndex;
-@property(nonatomic) _Bool hasIdentifierNamespace; // @synthesize hasIdentifierNamespace=_hasIdentifierNamespace;
-@property(nonatomic) _Bool hasInterpretationGroup;
-@property(nonatomic) _Bool hasNodeIndex;
-@property(nonatomic) _Bool hasProbability;
-@property(nonatomic) _Bool hasSourceNluComponent;
-@property(copy, nonatomic) NSString *identifierNamespace; // @synthesize identifierNamespace=_identifierNamespace;
-@property(nonatomic) unsigned int interpretationGroup; // @synthesize interpretationGroup=_interpretationGroup;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned int nodeIndex; // @synthesize nodeIndex=_nodeIndex;
-@property(nonatomic) double probability; // @synthesize probability=_probability;
-@property(nonatomic) int sourceNluComponent; // @synthesize sourceNluComponent=_sourceNluComponent;
 
 @end
 

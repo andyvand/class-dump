@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDRelatedSearchSuggestion, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDChildActionSearch
 {
     PBUnknownFields *_unknownFields;
-    GEOPDRelatedSearchSuggestion *_relatedSearchSuggestion;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)e;
 - (_Bool);
 - (id)ound"b1"has_discardLogs"b1};
-- (id)lWord;
+- (id)_cardinalWord;
 - (id)ÐY´<	Y´¨	$Y´
 4Y´ä
 DY´ÌTY´<dY´¬tY´Y´Y´ø¤Y´d´Y´ÔÄY´@ÔY´¬äY´ôY´Z´ðZ´\$Z´È4Z´4DZ´ TZ´dZ´xtZ´äZ´PZ´¼¤Z´(´Z´ÄZ´;

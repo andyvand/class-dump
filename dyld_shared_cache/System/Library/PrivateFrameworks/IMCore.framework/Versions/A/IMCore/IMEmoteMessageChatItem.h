@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)urationWithData:(id)arg1 deviceRole:preferredAudioPayload:] /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties

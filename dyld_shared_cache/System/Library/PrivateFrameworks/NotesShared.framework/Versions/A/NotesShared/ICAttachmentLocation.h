@@ -6,7 +6,6 @@
 
 #import <NotesShared/ICLocation.h>
 
-@class ICAttachment, NSString;
 @protocol ICSearchIndexable;
 
 @interface ICAttachmentLocation : ICLocation
@@ -18,16 +17,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) ICAttachment *attachment; // @dynamic attachment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *formattedAddressWithoutAttachmentTitle;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool placeUpdated; // @dynamic placeUpdated;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <ICSearchIndexable> targetSearchIndexable;
 
 @end

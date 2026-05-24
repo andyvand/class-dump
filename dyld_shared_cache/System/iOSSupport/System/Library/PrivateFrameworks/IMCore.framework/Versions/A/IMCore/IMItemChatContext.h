@@ -9,18 +9,17 @@
 @interface IMItemChatContext
 {
     IMHandle *_senderHandle;
-    IMHandle *_otherHandle;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void))
+;
+- (id)scrollView;
 - (void)¤X¬`´h¼t,§;
 
 // Remaining properties
-@property(retain, nonatomic) IMHandle *otherHandle; // @synthesize otherHandle=_otherHandle;
 @property(retain, nonatomic) IMHandle *senderHandle; // @synthesize senderHandle=_senderHandle;
 
 @end

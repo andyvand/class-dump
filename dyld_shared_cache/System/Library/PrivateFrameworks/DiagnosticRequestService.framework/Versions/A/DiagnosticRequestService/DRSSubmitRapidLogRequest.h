@@ -6,21 +6,19 @@
 
 #import <DiagnosticRequestService/DRSSubmitLogRequest.h>
 
-@class NSData, NSNumber, NSString;
+@class NSNumber;
 
 @interface DRSSubmitRapidLogRequest : DRSSubmitLogRequest
 {
     NSNumber *_cfDidSucceed;
-    NSString *_cfFailureReason;
-    NSData *_cfReplyPayload;
 }
 
-+ (unsigned char);
-+ (Class);
-+ (id)ary;
++ (unsigned char)G;
++ (Class)ggg_Sg;
++ (id)dictionary;
 - (void);
 - (void);
-- (id);
+- (id)containerView:willMeasureArrangedSubviewsFittingSize:forReason: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (id);
@@ -28,18 +26,16 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)L�;
 - (id);
 - (id);
-- (void);
+- (void)outlineView:(id)arg1 didAddRowView:forRow: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *cfDidSucceed; // @synthesize cfDidSucceed=_cfDidSucceed;
-@property(retain, nonatomic) NSString *cfFailureReason; // @synthesize cfFailureReason=_cfFailureReason;
-@property(retain, nonatomic) NSData *cfReplyPayload; // @synthesize cfReplyPayload=_cfReplyPayload;
 
 @end
 

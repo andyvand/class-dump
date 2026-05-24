@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBImage;
+@class _SFPBImage;
 
 @interface _SFPBImageCopyItem
 {
@@ -18,22 +18,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)minNumberOfResultsForNextTokenGeneration;
+- (id)@) or resource.originalFilename (%@) must be non-nil;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)tle: /* Error: Ran out of types for this method. */;
+- (void)setTitle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _SFPBImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

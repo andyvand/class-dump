@@ -4,42 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, UICollectionView, UICollectionViewLayout, _UICollectionViewDataAttributesMap, _UIMutableFastIndexSet;
+@class UICollectionView;
 
 __attribute__((visibility("hidden")))
 @interface UICollectionViewData
 {
     UICollectionView *_collectionView;
-    UICollectionViewLayout *_layout;
-    _UIMutableFastIndexSet *_globalIndexesOfItemsAwaitingValidation;
-    NSMutableDictionary *_supplementaryLayoutAttributes;
-    NSMutableDictionary *_decorationLayoutAttributes;
-    NSMutableDictionary *_invalidatedSupplementaryIndexPaths;
-    NSMutableDictionary *_invalidatedDecorationIndexPaths;
-    long long _lastSectionTestedForNumberOfItemsBeforeSection;
-    long long _lastResultForNumberOfItemsBeforeSection;
-    struct CGSize _contentSize;
-    struct {
-        unsigned int contentSizeIsValid:1;
-        unsigned int itemCountsAreValid:1;
-        unsigned int layoutIsPreparing:1;
-        unsigned int layoutIsPrepared:1;
-        unsigned int layoutLocked:1;
-    } _collectionViewDataFlags;
-    struct vector<long, std::allocator<long>> _sectionItemCounts;
-    struct unordered_map<long, UICollectionViewLayoutAttributes *, std::hash<long>, std::equal_to<long>, std::allocator<std::pair<const long, UICollectionViewLayoutAttributes *>>> _globalItemMap;
-    long long _totalItemCount;
-    _UICollectionViewDataAttributesMap *_attributesMap;
-    unsigned long long _preUpdateCachedItemCount;
-    NSArray *_clonedCellAttributes;
-    NSArray *_clonedSupplementaryAttributes;
-    NSArray *_clonedDecorationAttributes;
 }
 
 - (struct CGRect);
-- (id);
-- (id);
-- (id);
+- (id)_payloadProxyPort;
+- (id)aticOnly;
+- (id)C,N,V_payloadAllowAppRemoval;
 - (id);
 - (void);
 - (void);
@@ -49,14 +25,14 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (void);
-- (long long);
-- (void);
+- (long long)are:(id)arg1 %{public}@ [%{public}@, but already invalid] request:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)LibraryPlaylistEditTransactionDetails"8@"NSError"16;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (void);
 - (void);
@@ -75,26 +51,26 @@ __attribute__((visibility("hidden")))
 - (id)rollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
 - (id)CGPoint=dd}{CGSize=dd}}24@56B64B68B72;
 - (id)oint=dd}{CGSize=dd}}24;
-- (id);
-- (void)View;
+- (id)updateAfterShiftStateChange;
+- (void)searchFieldContainerView;
 - (id)ck:(struct CGRect)arg1 failureBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)ctionPrefetchingContexts;
-- (void)utoDeactivationCount;
+- (_Bool)_orthogonalSectionPrefetchingContexts;
+- (void)_autoDeactivationCount;
 - (id)mentPoint;
-- (void)ViewServiceViewControllerDeputyXPCInterface;
-- (long long)nteractionSettings;
+- (void)_UIViewServiceViewControllerDeputyXPCInterface;
+- (long long)_TtC5UIKit26_UIFlexInteractionSettings;
 - (id)d;
-- (long long);
+- (long long)xw;
 - (_Bool)d;
 - (void)¤;
 - (void)*;
 - (id);
-- (void)utoresizesArchivedViewToFullSize;
-- (struct CGRect)on_allowsDefaultTighteningForTruncation;
+- (void)UIAutoresizesArchivedViewToFullSize;
+- (struct CGRect)UILabelConfiguration_allowsDefaultTighteningForTruncation;
 - (void)inputBlurDistance4;
 - (void)Presentation.framework/LinkPresentation;
 - (id)DçJWÆ¿DçJWÆ?ÐM!Ð¤?ó18Ã?-DTû!	@;
-- (void)bLayer;
+- (void)_UISliderColorKnobLayer;
 - (void)Ò­;
 - (_Bool);
 - (_Bool)2^;
@@ -114,16 +90,7 @@ __attribute__((visibility("hidden")))
 - (id)¨=p;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *clonedCellAttributes; // @synthesize clonedCellAttributes=_clonedCellAttributes;
-@property(readonly, nonatomic) NSArray *clonedDecorationAttributes; // @synthesize clonedDecorationAttributes=_clonedDecorationAttributes;
-@property(readonly, nonatomic) NSArray *clonedSupplementaryAttributes; // @synthesize clonedSupplementaryAttributes=_clonedSupplementaryAttributes;
-@property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(retain, nonatomic) UICollectionViewLayout *layout; // @synthesize layout=_layout;
 @property(readonly, nonatomic) _Bool layoutIsPrepared;
-@property(nonatomic, getter=isLayoutLocked) _Bool layoutLocked;
-@property(readonly, nonatomic) long long numberOfItems;
-@property(readonly, nonatomic) long long numberOfSections;
 
 @end
 

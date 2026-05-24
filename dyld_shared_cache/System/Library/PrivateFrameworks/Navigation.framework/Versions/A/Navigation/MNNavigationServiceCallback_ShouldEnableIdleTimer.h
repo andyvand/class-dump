@@ -16,7 +16,7 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)verifyPassword:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldEnable; // @synthesize shouldEnable=_shouldEnable;

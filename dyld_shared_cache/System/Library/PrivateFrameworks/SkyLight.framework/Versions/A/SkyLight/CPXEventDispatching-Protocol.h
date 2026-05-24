@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BKSHIDEventDeferringResolution;
+
 @protocol CPXEventDispatching
+- (void)coverFromPartialError:(struct SLSEventRecord *)arg1 forStore:(BKSHIDEventDeferringResolution *)arg2 inMonitor:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)or:(struct SLSEventRecord *)arg1 ];
+- (void)rror:(struct SLSEventRecord *)arg1 withZoneIDs:forStore:inMonitor:] /* Error: Ran out of types for this method. */;
 @end
 

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)succinctDescriptionBuilder;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id){?=b1b1}}16;
-- (id)et;
+- (id)_set;
 - (id)z|d¸D;
 - (void)Pÿ>ãhJ@;
 

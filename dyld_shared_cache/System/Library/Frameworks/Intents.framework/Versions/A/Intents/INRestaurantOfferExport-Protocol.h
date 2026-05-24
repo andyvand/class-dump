@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol INRestaurantOfferExport
+- (NSString *);
 
 // Remaining properties
-@property(copy) NSString *offerDetailText;
-@property(copy) NSString *offerIdentifier;
 @property(copy) NSString *offerTitleText;
 @end
 

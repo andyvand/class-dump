@@ -12,22 +12,18 @@ __attribute__((visibility("hidden")))
 @interface SAWaitInfoWithPortLabel : SAWaitInfo
 {
     NSString *_portName;
-    unsigned short _portFlags;
-    unsigned char _portDomain;
 }
 
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
+- (void)ations,layer_num,%u,unknown state:(unsigned long long)arg1 normalizations initialized with degree and order set to zero;
+- (void)ono,ComputeLegendreNormalizations,layer_num,%u,unknown state:(unsigned long long)arg1 normalizations initialized with degree and order set to zero;
+- (unsigned long long)ers,S terms mismatch,sin_terms,%lu,sigma_sin_terms,%lu,max_sin_terms,%d,;
+- (unsigned long long)shiono,LoadModelParameters,S terms mismatch,sin_terms,%lu,sigma_sin_terms,%lu,max_sin_terms,%d,;
+- (id)e on %s.;
 - (void);
 - (void);
 - (id)t using binary %s;
 
 // Remaining properties
-@property unsigned long long portDomain;
-@property unsigned long long portFlags;
 @property(retain) NSString *portName;
 
 @end

@@ -7,21 +7,19 @@
 @interface CTIMSRegistrationStatus
 {
     _Bool _isRegisteredForVoice;
-    _Bool _isRegisteredForSMS;
 }
 
-+ (_Bool);
++ (_Bool)%p, asset = %@, outputs = %@>;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool isRegisteredForSMS; // @synthesize isRegisteredForSMS=_isRegisteredForSMS;
 @property(nonatomic) _Bool isRegisteredForVoice; // @synthesize isRegisteredForVoice=_isRegisteredForVoice;
 
 @end

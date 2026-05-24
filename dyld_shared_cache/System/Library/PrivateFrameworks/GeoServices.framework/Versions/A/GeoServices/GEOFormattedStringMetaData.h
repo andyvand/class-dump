@@ -9,15 +9,9 @@
 @interface GEOFormattedStringMetaData
 {
     PBUnknownFields *_unknownFields;
-    int _realtimeStatus;
-    int _spokenPrivacyFilterType;
-    struct {
-        unsigned int has_realtimeStatus:1;
-        unsigned int has_spokenPrivacyFilterType:1;
-    } _flags;
 }
 
-+ (_Bool)etHasResultTranslationY:(id)arg1;
++ (_Bool)setHasResultTranslationY:(id)arg1;
 - (id);
 - (int);
 - (void);
@@ -26,33 +20,29 @@
 - (void);
 - (id);
 - (int);
-- (_Bool);
-- (_Bool);
+- (_Bool)ableArray"24;
+- (_Bool)stringForKey: /* Error: Ran out of types for this method. */;
 - (int);
-- (int);
+- (int)f{;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)"CSAudioRecorder"16B24;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)HomeCountryCode:(struct _NSZone *)arg1;
-- (id)ngE7;
+- (id)setHomeCountryCode:(struct _NSZone *)arg1;
+- (id)GEOLatLngE7;
 - (id)r:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void)z5 µ4;
 
 // Remaining properties
 @property(nonatomic) _Bool hasRealtimeStatus;
-@property(nonatomic) _Bool hasSpokenPrivacyFilterType;
-@property(nonatomic) int realtimeStatus;
-@property(nonatomic) int spokenPrivacyFilterType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

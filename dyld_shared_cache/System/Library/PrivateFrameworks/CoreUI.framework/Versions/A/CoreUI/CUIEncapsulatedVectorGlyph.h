@@ -9,23 +9,16 @@
 @interface CUIEncapsulatedVectorGlyph
 {
     id _glyph;
-    id _imageRect;
-    id _imageCenter;
-    id _encapsulatedAlignmentRect;
-    id _coordinateSystem;
-    id contextTransform;
-    id useASG;
-    id canvasSize;
 }
 
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect);
 - (struct CGRect);
 - (struct CGVector);
 - (struct CGVector);
 - (struct CGVector);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGContext *);
 - (struct CGVector);
 - (struct CGImage *);
@@ -33,18 +26,12 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)_intervalRateIgnoringDelayInIntervalsPerSecond;
 - (void)á§-°!èEùÑ1Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, readonly) long long coordinateSystem;
-@property(nonatomic, readonly) struct CGRect encapsulatedAlignmentRect;
 @property(nonatomic, readonly) CUINamedVectorGlyph *glyph;
-@property(nonatomic, readonly) struct CGVector imageCenter;
-@property(nonatomic, readonly) struct CGVector imagePixelCenter;
-@property(nonatomic, readonly) struct CGRect imagePixelRect;
-@property(nonatomic, readonly) struct CGRect imageRect;
 
 @end
 

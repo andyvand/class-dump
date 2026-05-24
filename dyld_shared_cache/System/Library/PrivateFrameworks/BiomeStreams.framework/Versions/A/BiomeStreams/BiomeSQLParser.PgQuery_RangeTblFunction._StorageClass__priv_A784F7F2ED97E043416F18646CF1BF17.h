@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_RangeTblFunction._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _funcexpr;
-    id _funccolcount;
-    id _funccolnames;
-    id _funccoltypes;
-    id _funccoltypmods;
-    id _funccolcollations;
-    id _funcparams;
 }
 
 @end

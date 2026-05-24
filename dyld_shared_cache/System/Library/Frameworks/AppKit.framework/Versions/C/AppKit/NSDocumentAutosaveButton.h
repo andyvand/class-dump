@@ -6,51 +6,36 @@
 
 #import <AppKit/NSButton.h>
 
-@class NSError, NSPopover, NSString, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSDocumentAutosaveButton : NSButton
 {
     NSWindow *_representedWindow;
-    NSError *_nonModalError;
-    _Bool _needsShowAlertPopover;
-    _Bool _userIsIdleForAlertPopover;
-    _Bool _isPopoverVisible;
-    NSPopover *_documentPopover;
-    NSPopover *_documentErrorPopover;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)_NSHTTPAlternativeServiceEntry;
+- (void);
+- (void);
+- (void)=> peer %s %s};
+- (void)kNetworkProxyAuthorizationElementsKeyClientDescription;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)P;
 - (_Bool)TÊµÿoÉA;
 - (void)¸ëA;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSError *nonModalDocumentError;
 @property(readonly, getter=isPopoverVisible) _Bool popoverVisible;
-@property __weak NSWindow *representedWindow; // @synthesize representedWindow=_representedWindow;
-@property(readonly) Class superclass;
 
 @end
 

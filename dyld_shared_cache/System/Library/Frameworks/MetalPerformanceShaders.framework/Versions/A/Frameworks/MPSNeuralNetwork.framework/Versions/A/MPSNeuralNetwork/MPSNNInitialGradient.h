@@ -13,7 +13,7 @@
     MPSCNNNeuron *_neuronFilter;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (void);
 - (id);
 - (id);

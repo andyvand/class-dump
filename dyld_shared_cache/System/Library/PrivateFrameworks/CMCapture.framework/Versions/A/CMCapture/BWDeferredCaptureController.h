@@ -6,7 +6,7 @@
 
 #import <CMCapture/BWStillImageProcessorController.h>
 
-@class BWDeferredCaptureContainer, NSString;
+@class BWDeferredCaptureContainer;
 
 __attribute__((visibility("hidden")))
 @interface BWDeferredCaptureController : BWStillImageProcessorController
@@ -21,18 +21,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)sfu_localErrno;
 - (int);
 - (id)n >>>> %s:(id)arg1 %{public}@ client wants session running %i, and status is %s, nothing to do;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

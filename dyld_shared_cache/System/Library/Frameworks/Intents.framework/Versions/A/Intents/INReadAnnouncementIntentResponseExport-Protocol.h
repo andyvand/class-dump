@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol INReadAnnouncementIntentResponseExport
-- (long long)ier;
+- (long long)hasMediaIdentifier;
 
 // Remaining properties
-@property(copy) NSArray *announcementRecords;
 @property(readonly) long long code;
 @end
 

@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)rType"b1};
-- (id)ry;
-- (id)AResponseExtension;
+- (id)hasPlacecardCategory;
+- (id)GEOETAResponseExtension;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface MediaPlaybackCore.AudioContentAligner
 {
     id $defaultActor;
-    id processor;
-    id alignmentStorage;
-    id preferredBufferInterval;
-    id contentItem;
 }
 
 @end

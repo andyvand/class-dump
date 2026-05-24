@@ -4,66 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLPRLicensePlateStructure, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLPRLPRPickupRule
 {
     PBDataReader *_reader;
-    CDStruct_9f2792e4 _plateTypeIndexes;
-    NSMutableArray *_pickupChars;
-    GEOLPRLicensePlateStructure *_prLicensePlateStructure;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_plateTypeIndexes:1;
-        unsigned int read_pickupChars:1;
-        unsigned int read_prLicensePlateStructure:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)Muid:(id)arg1;
++ (Class)@16;
++ (_Bool)setHasSearchAlongRouteMuid:(id)arg1;
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (unsigned int);
 - (unsigned int *);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool):8{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
+- (void)e",R;
+- (void)lts;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)Albania;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)	;
+- (void)y"16@"NSString"24q32@"NSError"40;
+- (id)userSelectedVoiceTriggerPhraseTypeOption;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id)VoiceSettings:(struct _NSZone *)arg1;
-- (id)teDetailLookAroundLog;
+- (id)setMapSettingsDrivingVoiceSettings:(struct _NSZone *)arg1;
+- (id)GEOLogMsgStateDetailLookAroundLog;
 - (id)tion failed:NO /* Error: Ran out of types for this method. */;
 - (id);
 - (void)z4;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPrLicensePlateStructure;
-@property(retain, nonatomic) NSMutableArray *pickupChars;
-@property(readonly, nonatomic) unsigned int *plateTypeIndexes;
-@property(readonly, nonatomic) unsigned long long plateTypeIndexesCount;
-@property(retain, nonatomic) GEOLPRLicensePlateStructure *prLicensePlateStructure;
 
 @end
 

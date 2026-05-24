@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
+
 @protocol IXClientDelegateProtocol
+- (oneway void);
+- (oneway void);
+- (oneway void)setupContainmentIfNeededInParentViewController:(NSUUID *)arg1;
+- (oneway void);
 @end
 

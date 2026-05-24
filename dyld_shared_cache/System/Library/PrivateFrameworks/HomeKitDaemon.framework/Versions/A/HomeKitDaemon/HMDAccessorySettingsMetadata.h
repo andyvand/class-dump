@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessorySettingGroupMetadata, NSArray, NSString;
+@class HMDAccessorySettingGroupMetadata;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessorySettingsMetadata
@@ -14,29 +14,12 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)gonSiri:(id)arg1;
+- (id)monitor:(id)arg1 willNotAllowAccessoryForDragonSiri: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ðù<;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly) HMDAccessorySettingGroupMetadata *rootGroup; // @synthesize rootGroup=_rootGroup;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

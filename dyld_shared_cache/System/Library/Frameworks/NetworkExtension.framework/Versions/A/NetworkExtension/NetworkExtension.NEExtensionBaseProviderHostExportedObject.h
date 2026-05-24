@@ -11,7 +11,7 @@
 
 - (void);
 - (id);
-- (void)ation:sessionType:configurationIdentifier:agentUUID:name: /* Error: Ran out of types for this method. */;
+- (void)initWithNetworkAgentRegistration:sessionType:configurationIdentifier:agentUUID:name: /* Error: Ran out of types for this method. */;
 
 @end
 

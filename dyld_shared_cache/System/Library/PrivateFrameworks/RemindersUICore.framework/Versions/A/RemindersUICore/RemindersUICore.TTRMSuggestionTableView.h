@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRMSuggestionTableView
 {
     id observations;
-    id trackingArea;
 }
 
 - (void);
@@ -24,7 +23,6 @@
 - (void)ÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool acceptsFirstResponder;
 @property(nonatomic, readonly) _Bool canBecomeKeyView;
 
 @end

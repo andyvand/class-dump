@@ -6,37 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCCachePolicy, FCEdgeCacheHint, FCHeldRecords, NSArray, NSDictionary, NSMutableArray, NSMutableSet;
 @protocol FCContentContext;
 
 @interface FCRecordChainFetchOperation : FCOperation
 {
     _Bool _shouldFailOnLimitExceededError;
-    _Bool _shouldBypassRecordSourcePersistence;
-    int _networkEventType;
-    id <FCContentContext> _context;
-    NSArray *_topLevelRecordIDs;
-    NSDictionary *_linkKeysByRecordType;
-    FCCachePolicy *_cachePolicy;
-    NSDictionary *_cachePoliciesByRecordType;
-    NSDictionary *_cachePoliciesByRecordID;
-    CDUnknownBlockType _dynamicCachePolicyBlock;
-    unsigned long long _missingObjectsPolicy;
-    FCEdgeCacheHint *_edgeCacheHint;
-    NSArray *_additionalRecordSources;
-    CDUnknownBlockType _networkActivityBlock;
-    CDUnknownBlockType _cachedRecordsLookupBlock;
-    CDUnknownBlockType _recordChainCompletionHandler;
-    CDUnknownBlockType _fetchedRecordHandler;
-    NSArray *_recordSources;
-    NSDictionary *_recordSourcesByRecordType;
-    NSDictionary *_pbRecordTypesByRecordType;
-    FCHeldRecords *_cachedRecords;
-    NSMutableSet *_actualTopLevelRecordIDs;
-    NSMutableSet *_skippedTopLevelRecordIDs;
-    NSMutableSet *_missingCachedOnlyTopLevelRecordIDs;
-    NSDictionary *_resultHeldRecordsByType;
-    NSMutableArray *_mutableNetworkEvents;
 }
 
 - (void);
@@ -53,8 +27,8 @@
 - (id);
 - (void);
 - (void);
-- (int);
-- (void);
+- (int)quest:%@, canceled:%d /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -66,7 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)MountPoint];
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -76,36 +50,18 @@
 × ;
 - (id)ð1Â0@ù
 × ;
-- (id)hannelIDsByPurchaseID: /* Error: Ran out of types for this method. */;
+- (id)setBundleChannelIDsByPurchaseID: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)MinClicks;
 - (void)tion prepareOperation];
-- (void)YMLu3Q;
+- (void)TA1UfB_H8QKmOd655YMLu3Q;
 - (void)Operation validateOperation];
 - (void)c}@ deviceToken:(id)arg1 %{public}@ notificationsUserID:%{public}@ storefrontID:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)tRefresh;
+- (void)lastRefresh;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *additionalRecordSources; // @synthesize additionalRecordSources=_additionalRecordSources;
-@property(copy, nonatomic) NSDictionary *cachePoliciesByRecordID; // @synthesize cachePoliciesByRecordID=_cachePoliciesByRecordID;
-@property(copy, nonatomic) NSDictionary *cachePoliciesByRecordType; // @synthesize cachePoliciesByRecordType=_cachePoliciesByRecordType;
-@property(copy, nonatomic) FCCachePolicy *cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(copy, nonatomic) CDUnknownBlockType cachedRecordsLookupBlock; // @synthesize cachedRecordsLookupBlock=_cachedRecordsLookupBlock;
 @property(retain, nonatomic) id <FCContentContext> context; // @synthesize context=_context;
-@property(copy, nonatomic) CDUnknownBlockType dynamicCachePolicyBlock; // @synthesize dynamicCachePolicyBlock=_dynamicCachePolicyBlock;
-@property(copy, nonatomic) FCEdgeCacheHint *edgeCacheHint; // @synthesize edgeCacheHint=_edgeCacheHint;
-@property(copy, nonatomic) CDUnknownBlockType fetchedRecordHandler; // @synthesize fetchedRecordHandler=_fetchedRecordHandler;
-@property(copy, nonatomic) NSDictionary *linkKeysByRecordType; // @synthesize linkKeysByRecordType=_linkKeysByRecordType;
-@property(nonatomic) unsigned long long missingObjectsPolicy; // @synthesize missingObjectsPolicy=_missingObjectsPolicy;
-@property(copy, nonatomic) CDUnknownBlockType networkActivityBlock; // @synthesize networkActivityBlock=_networkActivityBlock;
-@property(nonatomic) int networkEventType; // @synthesize networkEventType=_networkEventType;
-@property(readonly, copy, nonatomic) NSArray *networkEvents;
-@property(copy, nonatomic) CDUnknownBlockType recordChainCompletionHandler; // @synthesize recordChainCompletionHandler=_recordChainCompletionHandler;
-@property(nonatomic) _Bool shouldBypassRecordSourcePersistence; // @synthesize shouldBypassRecordSourcePersistence=_shouldBypassRecordSourcePersistence;
-@property(nonatomic) _Bool shouldFailOnLimitExceededError; // @synthesize shouldFailOnLimitExceededError=_shouldFailOnLimitExceededError;
-@property(nonatomic) _Bool shouldReturnErrorWhenSomeRecordsMissing; // @dynamic shouldReturnErrorWhenSomeRecordsMissing;
-@property(copy, nonatomic) NSArray *topLevelRecordIDs; // @synthesize topLevelRecordIDs=_topLevelRecordIDs;
 
 @end
 

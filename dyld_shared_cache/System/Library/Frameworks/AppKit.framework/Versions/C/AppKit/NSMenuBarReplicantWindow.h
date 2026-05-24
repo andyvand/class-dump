@@ -15,30 +15,30 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGPoint);
-- (struct CGPoint);
-- (struct CGRect);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (struct CGRect)er:(struct CGRect)arg1 uniqueIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (struct CGRect)downloadFilePath;
+- (struct CGPoint)download:(struct CGPoint)arg1 didCreateDestination: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)domainResolutionProtocol;
+- (struct CGRect)canInitWithRequest:(struct CGRect)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)ata create - %s. ErrCode:(id)arg1 %d.;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)@;
+- (_Bool);
+- (id);
 - (void);
 - (id)ÿH(¢D;
 

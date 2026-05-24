@@ -9,11 +9,10 @@
 @interface MPArtworkColorAnalyzer
 {
     UIImage *_image;
-    long long _algorithm;
 }
 
 + (id);
-- (id);
+- (id)orderFamily;
 - (id);
 - (void);
 - (long long);
@@ -23,7 +22,6 @@
 - (void),D,N;
 
 // Remaining properties
-@property(readonly, nonatomic) long long algorithm; // @synthesize algorithm=_algorithm;
 @property(readonly, nonatomic) UIImage *image; // @synthesize image=_image;
 
 @end

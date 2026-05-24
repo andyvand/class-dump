@@ -6,13 +6,13 @@
 
 #import <BackBoardServices/BKSHIDEventDeferringResolution.h>
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringToken, BKSHIDEventDispatchingTarget, BKSHIDEventDisplay, NSString;
+@class BKSHIDEventDisplay;
 
 @interface BKSMutableHIDEventDeferringResolution : BKSHIDEventDeferringResolution
 {
 }
 
-+ (id);
++ (id)DISTRUSTED_RECOVERY_KEY_REPAIR_NOTIFICATION_TITLE;
 - (void);
 - (id);
 - (void);
@@ -24,13 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BKSHIDEventDispatchingTarget *dispatchingTarget; // @dynamic dispatchingTarget;
 @property(copy, nonatomic) BKSHIDEventDisplay *display; // @dynamic display;
-@property(copy, nonatomic) BKSHIDEventDeferringEnvironment *environment; // @dynamic environment;
-@property(nonatomic) int pid; // @dynamic pid;
-@property(copy, nonatomic) NSString *processDescription; // @dynamic processDescription;
-@property(copy, nonatomic) BKSHIDEventDeferringToken *token; // @dynamic token;
-@property(nonatomic) long long versionedPID; // @dynamic versionedPID;
 
 @end
 

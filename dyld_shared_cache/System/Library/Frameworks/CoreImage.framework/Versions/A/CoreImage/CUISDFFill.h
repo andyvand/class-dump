@@ -6,28 +6,24 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CUISDFFill : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputScale;
-    NSNumber *inputBias;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)AN@;
+- (id)@}A;
 - (void);
 - (void);
 - (id);
 - (id){{{{nnnncd]dO^S`Y_Tf}y££££¼¼¼¼ÁÁÁÁ¶¶¶¶¡¡¡¡zQof`xsxxxxIYP]:I<RY[U[hhhhhpnpvvvvwwww /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputBias; // @synthesize inputBias;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
 
 @end
 

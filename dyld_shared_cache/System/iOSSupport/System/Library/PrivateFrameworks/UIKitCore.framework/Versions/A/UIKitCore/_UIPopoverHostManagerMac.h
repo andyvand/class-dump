@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface _UIPopoverHostManagerMac
@@ -18,23 +18,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)sendDeleteCommand:(id)arg1 forChatGUID: /* Error: Ran out of types for this method. */;
+- (void)sender:(id)arg1;
+- (void)insertReceivedMessage:(id)arg1 forChat:(id)arg2 style:serviceName: /* Error: Ran out of types for this method. */;
+- (id)asset for transfer guid at the end of this batch:(id)arg1 %@;
 - (void)Ì¨;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

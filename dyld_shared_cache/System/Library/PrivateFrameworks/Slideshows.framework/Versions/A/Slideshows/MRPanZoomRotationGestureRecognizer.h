@@ -11,9 +11,6 @@
 @interface MRPanZoomRotationGestureRecognizer : MRGestureRecognizer
 {
     NSString *_type;
-    double _factor;
-    unsigned char _direction;
-    _Bool _isMaster;
 }
 
 - (void);

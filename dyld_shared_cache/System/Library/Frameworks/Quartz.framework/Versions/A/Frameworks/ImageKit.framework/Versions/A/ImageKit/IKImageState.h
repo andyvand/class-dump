@@ -19,13 +19,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)q!;
 - (int);
 - (id);
 - (id);
 - (void);
 - (double);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -37,7 +37,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)ssword;
+- (_Bool)userPassword;
 - (void)}                                                               
 
 kernel vec4 correctWarmer (sampler src, float param)            
@@ -57,12 +57,11 @@ kernel vec4 correctCooler (sampler src, float param)
 }                                                               
 ;
 - (void);
-- (void)ictures;
+- (void)IKPictureTakerSourceRecentPictures;
 - (double)ìÂöM;
 
 // Remaining properties
 @property int orientationTag;
-@property double zoomFactor;
 
 @end
 

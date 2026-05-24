@@ -6,13 +6,11 @@
 
 #import <NeutrinoCore/NUImageRenderRequest.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface NUImageDataRequest : NUImageRenderRequest
 {
     _Bool _wantsAlpha;
-    NSString *_dataExtractor;
-    NSDictionary *_options;
 }
 
 - (_Bool);
@@ -26,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)oreAudio.dylib;
 - (id);
 - (void);
 - (id);
@@ -34,8 +32,6 @@
 
 // Remaining properties
 @property(copy) NSString *dataExtractor; // @synthesize dataExtractor=_dataExtractor;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
-@property(nonatomic) _Bool wantsAlpha; // @synthesize wantsAlpha=_wantsAlpha;
 
 @end
 

@@ -11,20 +11,19 @@
 @interface MKUserLocationView : MKAnnotationView
 {
     _Bool _selected;
-    _MKUserLocationView *_mkUserLocationView;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)lperd, using queue %@!;
+- (void)(%d) is creating connection to powerlogHelperd, using queue %@!;
+- (void)og response in debug mode, using lastPowerlogResponse instead;
+- (void)%f, ENERGY_DIFF=%f;
+- (void)=%@, intervalStartDate=%@;
+- (void)%@_%@;
+- (void)plist;
+- (struct CGPoint)BackgroundProcessing::TaskWorkload /* Error: Ran out of types for this method. */;
+- (id)BackgroundProcessing::TaskCheckpoint /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (id);
-- (struct CGPoint);
-- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -37,6 +36,7 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,8 +48,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -57,29 +56,29 @@
 - (_Bool);
 - (double);
 - (id);
-- (double);
+- (double)0J;
 - (struct CGRect);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (double);
-- (_Bool);
-- (struct NSEdgeInsets);
+- (_Bool);
+- (struct NSEdgeInsets)g;
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)lP;
+- (void)?;
 - (struct CGPoint);
 - (void);
-- (void)Line;
-- (_Bool)it_layoutMarginsGuide;
+- (void)secondLine;
+- (_Bool)_mapkit_layoutMarginsGuide;
 
 // Remaining properties
 @property(retain, nonatomic, getter=_mkUserLocationView, setter=_setMKUserLocationView:) _MKUserLocationView *mkUserLocationView; // @synthesize mkUserLocationView=_mkUserLocationView;

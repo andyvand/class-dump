@@ -6,38 +6,18 @@
 
 #import <HomeKitBackingStore/HMBCloudID.h>
 
-@class CKRecordZoneID, NSArray, NSData, NSString;
+@class NSData;
 
 @interface HMBCloudZoneID : HMBCloudID
 {
     NSData *_token;
-    CKRecordZoneID *_zoneID;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool));
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSData *token; // @synthesize token=_token;
-@property(readonly, copy) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

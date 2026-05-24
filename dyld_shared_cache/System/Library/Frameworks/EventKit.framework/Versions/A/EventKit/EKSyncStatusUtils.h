@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)ublic}@> event to <%@> <%{public}@>;
++ (id)lic}@> returned for %{public}@ in %.4lf seconds;
++ (id)estCreateMergedRequest(MRPlaybackQueueRequestRef, MRPlaybackQueueRequestRef);
 
 @end
 

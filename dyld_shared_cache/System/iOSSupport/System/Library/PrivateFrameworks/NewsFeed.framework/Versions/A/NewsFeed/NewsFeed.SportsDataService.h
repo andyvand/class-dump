@@ -7,15 +7,6 @@
 @interface NewsFeed.SportsDataService
 {
     id requestBuilder;
-    id requestFetcher;
-    id tagService;
-    id configManager;
-    id appConfigManager;
-    id sportsEventController;
-    id eventRosterCache;
-    id visualizationCache;
-    id countryFlagConfigCache;
-    id countryFlagConfigFetchDeduper;
 }
 
 @end

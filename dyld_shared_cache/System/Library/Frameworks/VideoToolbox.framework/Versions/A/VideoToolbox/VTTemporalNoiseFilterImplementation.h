@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VTTemporalNoiseFilterConfiguration;
+@class VTTemporalNoiseFilterConfiguration;
 
 @interface VTTemporalNoiseFilterImplementation
 {
     struct OpaqueVTTemporalNoiseFilterInternal *filterInternal;
-    VTTemporalNoiseFilterConfiguration *_configuration;
 }
 
 - (_Bool);
@@ -20,28 +19,21 @@
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)j;
 - (void);
 - (struct PendingFrameItem *);
-- (void);
+- (void)�;
 - (_Bool);
 - (struct PendingFrameItem *);
 - (int);
+- (void)?;
 - (void);
-- (void);
+- (id)@;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)S;
 
 // Remaining properties
 @property(readonly, nonatomic) VTTemporalNoiseFilterConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

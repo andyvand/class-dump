@@ -4,46 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNode, SCNPhysicsShape;
+@class SCNNode;
 
 @interface SCNPhysicsBody
 {
     SCNNode *_node;
-    double _mass;
-    double _charge;
-    double _friction;
-    double _restitution;
-    double _rollingFriction;
-    double _continuousCollisionDetectionThreshold;
-    SCNPhysicsShape *_physicsShape;
-    long long _type;
-    double _damping;
-    struct SCNVector4 _angularVelocity;
-    double _angularDamping;
-    struct SCNVector3 _velocityFactor;
-    struct SCNVector3 _angularVelocityFactor;
-    struct SCNVector3 _velocity;
-    _Bool _ignoreGravity;
-    double _linearRestingThreshold;
-    double _angularRestingThreshold;
-    _Bool _explicitMomentOfInertia;
-    struct SCNVector3 _momentOfInertia;
-    struct SCNVector3 _centerOfMassOffset;
-    unsigned long long _categoryBitMask;
-    unsigned long long _collisionBitMask;
-    unsigned long long _contactTestBitMask;
-    _Bool _allowsResting;
-    _Bool _isDefaultShape;
-    void *_body;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)er.showAutoFillButtonInControl(controlID, buttonType);;
 - (struct SCNVector3);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -51,12 +25,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void))P�`:(double)arg1;
 - (void);
 - (void);
 - (void);
@@ -77,7 +51,7 @@
 - (_Bool);
 - (id);
 - (double);
-- (double);
+- (double)k;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -107,9 +81,9 @@
 - (double);
 - (void);
 - (id);
-- (long long);
-- (struct SCNVector3);
-- (id);
+- (long long)PDFPageLayerTile;
+- (struct SCNVector3)key-value pairs);
+- (id);
 - (void);
 - (double);
 - (void);
@@ -613,31 +587,7 @@ DECLARE_INT(io_texcoord_count)
 - (void)IÚÿÂÚP;
 
 // Remaining properties
-@property(nonatomic, getter=isAffectedByGravity) _Bool affectedByGravity;
-@property(nonatomic) _Bool allowsResting;
-@property(nonatomic) double angularDamping;
-@property(nonatomic) double angularRestingThreshold;
-@property(nonatomic) struct SCNVector4 angularVelocity;
-@property(nonatomic) struct SCNVector3 angularVelocityFactor;
-@property(nonatomic) unsigned long long categoryBitMask;
-@property(nonatomic) struct SCNVector3 centerOfMassOffset;
-@property(nonatomic) double charge;
-@property(nonatomic) unsigned long long collisionBitMask;
-@property(nonatomic) unsigned long long contactTestBitMask;
-@property(nonatomic) double continuousCollisionDetectionThreshold; // @synthesize continuousCollisionDetectionThreshold=_continuousCollisionDetectionThreshold;
-@property(nonatomic) double damping;
-@property(nonatomic) double friction;
-@property(readonly, nonatomic) _Bool isResting;
-@property(nonatomic) double linearRestingThreshold;
-@property(nonatomic) double mass;
-@property(nonatomic) struct SCNVector3 momentOfInertia;
-@property(retain, nonatomic) SCNPhysicsShape *physicsShape;
-@property(nonatomic) double restitution;
-@property(nonatomic) double rollingFriction;
 @property(nonatomic) long long type;
-@property(nonatomic) _Bool usesDefaultMomentOfInertia;
-@property(nonatomic) struct SCNVector3 velocity;
-@property(nonatomic) struct SCNVector3 velocityFactor;
 
 @end
 

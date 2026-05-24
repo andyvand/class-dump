@@ -6,26 +6,12 @@
 
 #import <AVKit/AVMobileControlsStyleSheet.h>
 
-@class NSString, UIFont, UITraitCollection;
+@class UIFont;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileChromelessControlsStyleSheet : AVMobileControlsStyleSheet
 {
     struct UIEdgeInsets _landscapeFullscreenInsets;
-    struct UIEdgeInsets _portraitFullscreenInsets;
-    struct UIEdgeInsets _embeddedInlineInsets;
-    double _standardPaddingFullScreen;
-    double _standardPaddingInline;
-    UIFont *_timeLabelFont;
-    UIFont *_titleFont;
-    UIFont *_subtitleFont;
-    UIFont *_infoAffordanceButtonFont;
-    UIFont *_contentTagFont;
-    UIFont *_prominentContentTagFont;
-    UIFont *_secondaryPlaybackControlsFont;
-    UIFont *_playPauseButtonFont;
-    UIFont *_contentTabLabelFont;
-    UIFont *_buttonFont;
 }
 
 - (struct UIEdgeInsets);
@@ -33,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (struct UIEdgeInsets);
-- (id);
+- (struct UIEdgeInsets)__AUTH_CONST;
+- (id)facePositionLimits;
 - (id);
 - (double);
 - (id);
@@ -45,32 +31,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)!(Aù[°1Â0@ù
 × ;
-- (id)isible:(id)arg1;
+- (id)setWantsAnalysisButtonVisible:(id)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) UIFont *buttonFont;
-@property(readonly, nonatomic) UIFont *contentTabLabelFont;
-@property(readonly, nonatomic) UIFont *contentTagFont;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct UIEdgeInsets embeddedInlineInsets;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIFont *infoAffordanceButtonFont;
-@property(readonly, nonatomic) struct UIEdgeInsets landscapeFullscreenInsets;
-@property(readonly, nonatomic) UIFont *playPauseButtonFont;
-@property(readonly, nonatomic) struct UIEdgeInsets portraitFullscreenInsets;
-@property(readonly, nonatomic) UIFont *prominentContentTagFont;
-@property(readonly, nonatomic) UIFont *secondaryPlaybackControlsFont;
-@property(readonly, nonatomic) double standardPaddingFullScreen;
-@property(readonly, nonatomic) double standardPaddingInline;
-@property(readonly, nonatomic) UIFont *subtitleFont;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UIFont *timeLabelFont;
-@property(readonly, nonatomic) UIFont *titleFont;
-@property(retain, nonatomic) UITraitCollection *traitCollection;
 
 @end
 

@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXColumnLayout;
-
 @protocol SXComponentInsertionLayoutProvider
 
 // Remaining properties
-@property(readonly, nonatomic) SXColumnLayout *columnLayout;
-@property(readonly, nonatomic) struct CGSize documentSize;
 @property(readonly, nonatomic) struct CGSize viewportSize;
 @end
 

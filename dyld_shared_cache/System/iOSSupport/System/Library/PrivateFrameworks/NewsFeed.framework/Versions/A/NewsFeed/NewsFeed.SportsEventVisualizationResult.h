@@ -7,10 +7,6 @@
 @interface NewsFeed.SportsEventVisualizationResult
 {
     id score;
-    id boxScores;
-    id lineScores;
-    id injuryReports;
-    id keyPlayers;
 }
 
 @end

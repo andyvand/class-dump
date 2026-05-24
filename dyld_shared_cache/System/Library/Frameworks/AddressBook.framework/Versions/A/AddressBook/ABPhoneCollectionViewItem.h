@@ -6,13 +6,11 @@
 
 #import <AddressBook/ABCollectionViewItem.h>
 
-@class ABCollectionItemMessagingAvailabilityHelper, ABRTTServices, CNFuture;
+@class ABCollectionItemMessagingAvailabilityHelper;
 
 @interface ABPhoneCollectionViewItem : ABCollectionViewItem
 {
     ABCollectionItemMessagingAvailabilityHelper *_messagingHelper;
-    ABRTTServices *_ttyServices;
-    CNFuture *_availabilityFuture;
 }
 
 - (id);
@@ -26,16 +24,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNFuture *availabilityFuture; // @synthesize availabilityFuture=_availabilityFuture;
 @property(retain, nonatomic) ABCollectionItemMessagingAvailabilityHelper *messagingHelper; // @synthesize messagingHelper=_messagingHelper;
-@property(retain, nonatomic) ABRTTServices *ttyServices; // @synthesize ttyServices=_ttyServices;
 
 @end
 

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPersistentStoreDescription, NSError, NSPersistentStore, NSPersistentStoreCoordinator, NSString, NSURL;
-@protocol CNCDIOSLegacyIdentifierRegistration;
+@class NSURL;
 
 @interface CNCDDatabasePreparationTask
 {
     _Bool _readOnly;
-    _Bool _shouldCreateEmptyDatabase;
-    _Bool _pristineDatabase;
-    _Bool _shouldCachePSC;
-    _Bool _didMigrate;
-    _Bool _shouldAddAsReadOnly;
-    NSURL *_url;
-    NSString *_path;
-    NSPersistentStoreCoordinator *_coordinator;
-    CNPersistentStoreDescription *_storeDescription;
-    NSPersistentStore *_store;
-    id <CNCDIOSLegacyIdentifierRegistration> _legacyIdentifierRegistrar;
-    NSError *_error;
-    NSURL *_addedStoreURL;
 }
 
 + (_Bool);
@@ -30,7 +16,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (id);
@@ -52,13 +38,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -77,42 +63,29 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)B�;
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)NSFER_DOCUMENT_ID failed;
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)ABMutableMultiDictionary;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *addedStoreURL; // @synthesize addedStoreURL=_addedStoreURL;
-@property(readonly, nonatomic) NSPersistentStoreCoordinator *coordinator; // @synthesize coordinator=_coordinator;
-@property _Bool didMigrate; // @synthesize didMigrate=_didMigrate;
-@property(copy) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) id <CNCDIOSLegacyIdentifierRegistration> legacyIdentifierRegistrar; // @synthesize legacyIdentifierRegistrar=_legacyIdentifierRegistrar;
-@property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
-@property(getter=isPristineDatabase) _Bool pristineDatabase; // @synthesize pristineDatabase=_pristineDatabase;
-@property(readonly, nonatomic) _Bool readOnly; // @synthesize readOnly=_readOnly;
-@property _Bool shouldAddAsReadOnly; // @synthesize shouldAddAsReadOnly=_shouldAddAsReadOnly;
-@property _Bool shouldCachePSC; // @synthesize shouldCachePSC=_shouldCachePSC;
-@property(readonly, nonatomic) _Bool shouldCreateEmptyDatabase; // @synthesize shouldCreateEmptyDatabase=_shouldCreateEmptyDatabase;
-@property(retain) NSPersistentStore *store; // @synthesize store=_store;
-@property(readonly, nonatomic) CNPersistentStoreDescription *storeDescription; // @synthesize storeDescription=_storeDescription;
 @property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

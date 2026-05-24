@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSTextField, NSTimer, NSTrackingArea, NSView, StatusMessage;
+@class NSView;
 @protocol OverlayStatusWindowDelegate;
 
 __attribute__((visibility("hidden")))
 @interface OverlayStatusWindowController
 {
     NSView *_parentContentView;
-    NSTextField *_mainTextField;
-    NSLayoutConstraint *_maximumWidthConstraint;
-    unsigned long long _pendingShowAnimations;
-    NSTrackingArea *_mouseTrackingArea;
-    _Bool _suppressUpdatingPlacement;
-    long long _lastStatusPlacement;
-    NSTimer *_clearStatusBarIsOnStatusTimer;
-    StatusMessage *_statusMessage;
-    id <OverlayStatusWindowDelegate> _delegate;
 }
 
 - (void);
@@ -40,9 +31,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)failedToCreateCompressionStream;
 - (void);
 - (void);
 

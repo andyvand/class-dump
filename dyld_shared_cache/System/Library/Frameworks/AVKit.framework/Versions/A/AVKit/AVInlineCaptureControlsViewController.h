@@ -12,16 +12,14 @@ __attribute__((visibility("hidden")))
 @interface AVInlineCaptureControlsViewController : AVCaptureControlsRecordingViewController
 {
     NSView *_initialFirstResponder;
-    double _unmutedVolume;
-    CDUnknownBlockType _nextKeyViewSetupBlock;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (struct CGSize);
-- (CDStruct_83cd8af5);
+- (struct CGSize);
+- (CDStruct_d2b197d1);
 - (id);
 - (id);
 - (long long);

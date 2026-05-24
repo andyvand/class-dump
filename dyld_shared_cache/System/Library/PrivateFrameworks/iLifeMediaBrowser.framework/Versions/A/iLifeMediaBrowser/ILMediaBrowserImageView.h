@@ -7,25 +7,24 @@
 @interface ILMediaBrowserImageView
 {
     _Bool _shouldDrawOverlays;
-    _Bool _displaysToolTips;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)CommandContext;
+- (void)_SSGGSg;
+- (unsigned long long)mIndexPath ;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (_Bool)
 × ;
 - (void)ÿ=@¿¦;

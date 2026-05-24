@@ -4,10 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSDictionary, NSString, NSURL, NSUUID;
-@protocol PKPlugIn;
+@class NSDictionary, NSString;
 
 @protocol PKPlugIn
+- (void)__objc_methtype;
+- (void)iaRecorderRequest-rejectWithError self=%@ delegate=%@ error=%p;
+- (_Bool)WithMode:(id *)arg1 experimentManager:] /* Error: Ran out of types for this method. */;
+- (NSString *)sRelayUpdateDict:didOriginateRequest:] /* Error: Ran out of types for this method. */;
+- (NSString *)bezierPathWithTopLeftCornerRadius:bottomLeftCornerRadius:bottomRightCornerRadius:topRightCornerRadius:frame: /* Error: Ran out of types for this method. */;
+- (NSDictionary *);
+- (NSDictionary *);
+- (id)0;
 - (_Bool)n+ÿÿ;
 - (NSDictionary *)tched closing tag ;
 - (_Bool)¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶µ¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶£;
@@ -15,27 +22,6 @@
 - (void)8¬;
 
 // Remaining properties
-@property(readonly) _Bool active;
-@property(readonly) NSDictionary *attributes;
-@property(readonly) NSDictionary *bundleInfoDictionary;
-@property(readonly) NSURL *containingUrl;
-@property(readonly) NSBundle *embeddedBundle;
-@property(readonly) id embeddedPrincipal;
-@property(readonly) NSDictionary *entitlements;
 @property(readonly) NSString *identifier;
-@property(readonly) NSString *localizedContainingName;
-@property(readonly) NSDictionary *localizedFileProviderActionNames;
-@property(readonly) NSString *localizedName;
-@property(readonly) NSString *localizedShortName;
-@property(readonly) NSUUID *multipleInstanceUUID;
-@property(copy) CDUnknownBlockType notificationBlock;
-@property(readonly) _Bool onSystemVolume;
-@property(readonly) NSDictionary *plugInDictionary;
-@property(readonly) id plugInPrincipal;
-@property(readonly) _Bool spent;
-@property(readonly) id <PKPlugIn> supersededBy;
-@property(readonly) NSURL *url;
-@property long long userElection;
-@property(readonly) NSString *version;
 @end
 

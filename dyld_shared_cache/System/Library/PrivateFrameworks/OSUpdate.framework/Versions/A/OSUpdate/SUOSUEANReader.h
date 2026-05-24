@@ -7,15 +7,14 @@
 @interface SUOSUEANReader
 {
     unsigned int _service;
-    unsigned int _connection;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)@9;
+- (id)9;
 - (_Bool);
 - (unsigned int);
 - (void);
@@ -25,7 +24,6 @@
 - (void)-;
 
 // Remaining properties
-@property unsigned int connection; // @synthesize connection=_connection;
 @property unsigned int service; // @synthesize service=_service;
 
 @end

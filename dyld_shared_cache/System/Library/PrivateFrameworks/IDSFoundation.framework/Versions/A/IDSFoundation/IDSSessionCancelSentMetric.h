@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface IDSSessionCancelSentMetric
 {
     unsigned int _remoteSessionEndReason;
-    NSString *_guid;
-    NSNumber *_numberOfRecipients;
 }
 
 - (unsigned int);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)$5;
 - (id);
 - (id)stG;
 - (void)return;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) NSNumber *numberOfRecipients; // @synthesize numberOfRecipients=_numberOfRecipients;
-@property(readonly, nonatomic) unsigned int remoteSessionEndReason; // @synthesize remoteSessionEndReason=_remoteSessionEndReason;
-@property(readonly) Class superclass;
 
 @end
 

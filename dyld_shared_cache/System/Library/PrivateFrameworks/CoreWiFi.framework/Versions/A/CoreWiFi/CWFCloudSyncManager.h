@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFKeyValueStore, NSArray, NSDictionary, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class CWFKeyValueStore;
 
 __attribute__((visibility("hidden")))
 @interface CWFCloudSyncManager
 {
     CWFKeyValueStore *_cloudKVS;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    int _cloudKeychainSyncStateNotifyToken;
-    NSObject<OS_dispatch_source> *_checkCloudKeychainStateRetryTimer;
-    int _keychainChangedNotifyToken;
-    NSObject<OS_dispatch_source> *_checkKeychainTimer;
-    unsigned long long _keychainChangeCounter;
-    _Bool _waitingForNextKeychainChangeEvent;
-    unsigned long long _checkKeychainTimestamp;
-    NSMutableDictionary *_waitingForKeychainCounterMap;
-    NSMutableDictionary *_waitingForKeychainNetworkMap;
-    unsigned char _cloudKeychainEnabled;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    CDUnknownBlockType _allowCloudSyncableNetworkHandler;
-    CDUnknownBlockType _rememberLocalNetworkHandler;
-    CDUnknownBlockType _forgetLocalNetworkHandler;
-    CDUnknownBlockType _fetchAllLocalNetworksHandler;
-    CDUnknownBlockType _hasKeychainPasswordHandler;
 }
 
 - (void);
@@ -41,25 +23,25 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (unsigned char);
 - (void);
-- (void);
+- (void)	;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)9;
 - (_Bool);
 - (void);
 - (id);
@@ -71,18 +53,10 @@ __attribute__((visibility("hidden")))
 - (id)ù
 × ;
 - (void)routableIPv4AddressAt;
-- (void)scoveryParameters;
+- (void)CWFAWDLPeerAssistedDiscoveryParameters;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType allowCloudSyncableNetworkHandler; // @synthesize allowCloudSyncableNetworkHandler=_allowCloudSyncableNetworkHandler;
-@property(readonly, copy) NSDictionary *cloudKVS;
 @property unsigned char cloudKeychainEnabled; // @synthesize cloudKeychainEnabled=_cloudKeychainEnabled;
-@property(readonly, copy) NSArray *cloudNetworks;
-@property(copy) CDUnknownBlockType fetchAllLocalNetworksHandler; // @synthesize fetchAllLocalNetworksHandler=_fetchAllLocalNetworksHandler;
-@property(copy) CDUnknownBlockType forgetLocalNetworkHandler; // @synthesize forgetLocalNetworkHandler=_forgetLocalNetworkHandler;
-@property(copy) CDUnknownBlockType hasKeychainPasswordHandler; // @synthesize hasKeychainPasswordHandler=_hasKeychainPasswordHandler;
-@property(copy) CDUnknownBlockType rememberLocalNetworkHandler; // @synthesize rememberLocalNetworkHandler=_rememberLocalNetworkHandler;
-@property(retain) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue=_targetQueue;
 
 @end
 

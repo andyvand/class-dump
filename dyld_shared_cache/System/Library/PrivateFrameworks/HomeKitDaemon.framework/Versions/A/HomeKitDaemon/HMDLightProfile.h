@@ -6,39 +6,15 @@
 
 #import <HomeKitDaemon/HMDAccessoryProfile.h>
 
-@class HMDCharacteristic, HMDCharacteristicsAvailabilityListener, HMDHAPAccessory, HMDNaturalLightingActiveTransitionContext, HMDNaturalLightingCurve, HMDNaturalLightingCurveWriter, HMDNaturalLightingEnabledRetryContext, HMDNaturalLightingMatterCurveWriter, HMDService, HMLightProfileSettings, NSDate, NSHashTable, NSSet, NSString;
-@protocol HMDLightProfileDataSource;
-
 __attribute__((visibility("hidden")))
 @interface HMDLightProfile : HMDAccessoryProfile
 {
     _Bool _naturalLightingEnabled;
-    _Bool _naturalLightingSupported;
-    unsigned char _activeTransitionsCount;
-    HMDNaturalLightingCurve *_naturalLightingCurve;
-    HMDService *_service;
-    NSSet *_notificationEnabledCharacteristics;
-    unsigned long long _supportedFeatures;
-    HMDCharacteristicsAvailabilityListener *_characteristicsAvailabilityListener;
-    HMDHAPAccessory *_hapAccessory;
-    NSString *_clientIdentifier;
-    HMDNaturalLightingCurveWriter *_naturalLightingCurveWriter;
-    NSDate *_lastNaturalLightingEnabledDate;
-    NSDate *_lastNaturalLightingUsedDate;
-    id <HMDLightProfileDataSource> _dataSource;
-    HMDCharacteristic *_brightnessCharacteristic;
-    HMDCharacteristic *_colorTemperatureCharacteristic;
-    NSDate *_lastNaturalLightingCurveUpdateDate;
-    HMDNaturalLightingActiveTransitionContext *_naturalLightingActiveTransitionContext;
-    NSSet *_readCharacteristics;
-    HMDNaturalLightingEnabledRetryContext *_naturalLightingEnabledRetryContext;
-    NSHashTable *_characteristicValueObservers;
-    HMDNaturalLightingMatterCurveWriter *_matterCurveWriter;
 }
 
-+ (id);
++ (id)dayGroupExtendedAssetsCountPrivate;
 + (id)£B;
-- (void);
+- (void)A;
 - (id);
 - (void);
 - (void);
@@ -66,34 +42,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)startSharingWithContact:(id)arg1 completion:(id)arg2;
+- (void)setDestinationInfo: /* Error: Ran out of types for this method. */;
+- (void)entireContentsQuerySource;
+- (void)endDatetime;
+- (void)directionsCachePath;
+- (id)didReceiveUpdateWithETA:lastUpdated: /* Error: Ran out of types for this method. */;
+- (id)description;
+- (void)initWithService:(id)arg1 delegate:queue: /* Error: Ran out of types for this method. */;
+- (id),N,V_placeMapItemStorage;
+- (id)MSPSharedTripCapabilityLevelFetcherObserver;
+- (id)MSPRouteBookmark;
+- (id)MSPQuery;
+- (id)MSPSharedTripXPCCapabilityReceiving;
+- (id)MSPBaseFeedbackReportTicket;
+- (id)MSPSharedTripVirtualContact;
+- (id)`;
+- (void)oveSharingWith %@;
+- (id)_saveSendingRules;
+- (id)aveSendingRules rules %@ at path %@;
+- (id)r %@;
+- (_Bool)KVS blocklist post-migration...;
+- (id)te>"16;
+- (id);
+- (id)hCapabilitiesForContacts:(id)arg1 ];
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)S-;
 - (void);
 - (void);
 - (void);
@@ -123,44 +99,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)/lib/swift/libswiftXPC.dylib;
+- (id)inpaintAdjustmentControllerCreatingIfNecessary: /* Error: Ran out of types for this method. */;
+- (id)!A�t;
+- (void)P;
 - (unsigned long long)t.daemon.camera.recording.coordinationevent;
-- (_Bool)edHomePodHasNonMemberMediaAccountWarning_value;
-- (void)StoreControllerRunStateSharedZoneWaitingForShareInvitation;
+- (_Bool)root_home_dismissedHomePodHasNonMemberMediaAccountWarning_value;
+- (void)HMDMultiUserSettingsLogEventBackingStoreControllerRunStateSharedZoneWaitingForShareInvitation;
 - (void)executables/Sources/homed/Assistant/HMDAssistantCommand.m;
 
 // Remaining properties
-@property unsigned char activeTransitionsCount; // @synthesize activeTransitionsCount=_activeTransitionsCount;
-@property(readonly, copy) NSSet *availableCharacteristics;
-@property(retain) HMDCharacteristic *brightnessCharacteristic; // @synthesize brightnessCharacteristic=_brightnessCharacteristic;
-@property(retain) NSHashTable *characteristicValueObservers; // @synthesize characteristicValueObservers=_characteristicValueObservers;
-@property(readonly) HMDCharacteristicsAvailabilityListener *characteristicsAvailabilityListener; // @synthesize characteristicsAvailabilityListener=_characteristicsAvailabilityListener;
-@property(readonly) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain) HMDCharacteristic *colorTemperatureCharacteristic; // @synthesize colorTemperatureCharacteristic=_colorTemperatureCharacteristic;
-@property(readonly) id <HMDLightProfileDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property __weak HMDHAPAccessory *hapAccessory; // @synthesize hapAccessory=_hapAccessory;
-@property(copy) NSDate *lastNaturalLightingCurveUpdateDate; // @synthesize lastNaturalLightingCurveUpdateDate=_lastNaturalLightingCurveUpdateDate;
-@property(copy) NSDate *lastNaturalLightingEnabledDate; // @synthesize lastNaturalLightingEnabledDate=_lastNaturalLightingEnabledDate;
-@property(copy) NSDate *lastNaturalLightingUsedDate; // @synthesize lastNaturalLightingUsedDate=_lastNaturalLightingUsedDate;
-@property(readonly) HMDNaturalLightingMatterCurveWriter *matterCurveWriter; // @synthesize matterCurveWriter=_matterCurveWriter;
-@property(readonly, copy) NSDate *mostRecentNaturalLightingEnabledDate;
-@property(readonly, copy) NSDate *mostRecentNaturalLightingUsedDate;
-@property(copy) HMDNaturalLightingActiveTransitionContext *naturalLightingActiveTransitionContext; // @synthesize naturalLightingActiveTransitionContext=_naturalLightingActiveTransitionContext;
-@property(copy) HMDNaturalLightingCurve *naturalLightingCurve; // @synthesize naturalLightingCurve=_naturalLightingCurve;
-@property(readonly) HMDNaturalLightingCurveWriter *naturalLightingCurveWriter; // @synthesize naturalLightingCurveWriter=_naturalLightingCurveWriter;
-@property(getter=isNaturalLightingEnabled) _Bool naturalLightingEnabled; // @synthesize naturalLightingEnabled=_naturalLightingEnabled;
-@property(copy) HMDNaturalLightingEnabledRetryContext *naturalLightingEnabledRetryContext; // @synthesize naturalLightingEnabledRetryContext=_naturalLightingEnabledRetryContext;
-@property(getter=isNaturalLightingSupported) _Bool naturalLightingSupported; // @synthesize naturalLightingSupported=_naturalLightingSupported;
-@property(copy) NSSet *notificationEnabledCharacteristics; // @synthesize notificationEnabledCharacteristics=_notificationEnabledCharacteristics;
-@property(readonly, copy) NSSet *readCharacteristicRequests;
-@property(copy) NSSet *readCharacteristics; // @synthesize readCharacteristics=_readCharacteristics;
-@property(readonly) HMDService *service; // @synthesize service=_service;
-@property(readonly) HMLightProfileSettings *settings;
 @property unsigned long long supportedFeatures; // @synthesize supportedFeatures=_supportedFeatures;
-@property(readonly) _Bool supportsCHIP;
 
 @end
 

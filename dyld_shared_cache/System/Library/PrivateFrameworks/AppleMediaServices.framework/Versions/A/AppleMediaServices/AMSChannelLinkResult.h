@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSChannelLinkParams, NSDictionary, NSError, NSNumber, NSSet, NSString;
+@class NSError, NSString;
 
 @interface AMSChannelLinkResult
 {
     NSString *_channelCustomerId;
-    AMSChannelLinkParams *_linkParams;
-    NSString *_productCode;
-    NSSet *_postLinkingFields;
-    NSString *_subscriptionId;
-    NSSet *_supplementaryFields;
-    NSError *_error;
-    NSDictionary *_response;
-    NSNumber *_statusCode;
 }
 
 + (_Bool);
@@ -26,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,15 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *channelCustomerId; // @synthesize channelCustomerId=_channelCustomerId;
 @property(readonly) NSError *error; // @synthesize error=_error;
-@property(readonly) AMSChannelLinkParams *linkParams; // @synthesize linkParams=_linkParams;
-@property(readonly) NSSet *postLinkingFields; // @synthesize postLinkingFields=_postLinkingFields;
-@property(readonly) NSString *productCode; // @synthesize productCode=_productCode;
-@property(readonly) NSDictionary *response; // @synthesize response=_response;
-@property(readonly) NSNumber *statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly) NSString *subscriptionId; // @synthesize subscriptionId=_subscriptionId;
-@property(readonly) NSSet *supplementaryFields; // @synthesize supplementaryFields=_supplementaryFields;
 
 @end
 

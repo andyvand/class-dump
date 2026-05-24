@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface NEByteParser
 {
     unsigned long long _offset;
-    NSData *_data;
-    const char *_bytes;
-    const char *_cursor;
 }
 
 - (id);
-- (void)leIngestionDate;
+- (void)profileIngestionDate;
 
 @end
 

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNChangeHistoryAnchor, NSArray;
-
 @interface CNChangeHistoryResult
 {
     _Bool _changesTruncated;
-    _Bool _unifyResults;
-    CNChangeHistoryAnchor *_latestChangeAnchor;
-    NSArray *_contactChanges;
-    NSArray *_groupChanges;
-    NSArray *_labeledValueChanges;
-    NSArray *_events;
-    long long _changesCount;
 }
 
 + (_Bool);
@@ -27,12 +18,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)gback tone.;
+- (id)ty for anonymous calls to ;
 - (_Bool);
 - (id);
 - (long long);
-- (void);
+- (void)rseded itemID %@;
 - (void);
 - (_Bool);
 - (void);
@@ -42,18 +33,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)0:8@"TUCallProviderManager"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long changesCount; // @synthesize changesCount=_changesCount;
 @property(nonatomic) _Bool changesTruncated; // @synthesize changesTruncated=_changesTruncated;
-@property(retain, nonatomic) NSArray *contactChanges; // @synthesize contactChanges=_contactChanges;
-@property(retain, nonatomic) NSArray *events; // @synthesize events=_events;
-@property(retain, nonatomic) NSArray *groupChanges; // @synthesize groupChanges=_groupChanges;
-@property(retain, nonatomic) NSArray *labeledValueChanges; // @synthesize labeledValueChanges=_labeledValueChanges;
-@property(retain, nonatomic) CNChangeHistoryAnchor *latestChangeAnchor; // @synthesize latestChangeAnchor=_latestChangeAnchor;
-@property(nonatomic) _Bool unifyResults; // @synthesize unifyResults=_unifyResults;
 
 @end
 

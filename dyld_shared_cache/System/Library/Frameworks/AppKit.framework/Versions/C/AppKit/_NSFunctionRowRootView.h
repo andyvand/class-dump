@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     NSFunctionRow *_functionRow;
 }
 
-+ (id);
-- (id);
++ (id)}d, len:%lld /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (void);

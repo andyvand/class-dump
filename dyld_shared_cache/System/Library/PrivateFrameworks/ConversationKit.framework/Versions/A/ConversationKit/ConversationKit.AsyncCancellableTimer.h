@@ -7,7 +7,6 @@
 @interface ConversationKit.AsyncCancellableTimer
 {
     id $defaultActor;
-    id timerTask;
 }
 
 @end

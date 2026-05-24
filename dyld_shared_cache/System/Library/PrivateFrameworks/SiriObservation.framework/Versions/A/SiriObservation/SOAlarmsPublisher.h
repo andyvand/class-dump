@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableOrderedSet, NSObject, NSString, SOAlarmsSnapshot;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface SOAlarmsPublisher
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_group;
-    NSHashTable *_subscribers;
-    SOAlarmsSnapshot *_alarmsSnapshot;
-    NSMutableOrderedSet *_dismissedAlarms;
-    NSString *_typeName;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)z;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void).wl;
+- (void);
 - (void);
 - (void);
 - (id);

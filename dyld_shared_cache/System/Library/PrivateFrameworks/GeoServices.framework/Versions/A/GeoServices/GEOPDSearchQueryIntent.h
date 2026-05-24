@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchQueryIntentMetadata, GEOPDSearchRewrittenQueryNonPayloadField, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchQueryIntent
 {
     PBDataReader *_reader;
-    NSMutableArray *_globalFeatureMaps;
-    NSMutableArray *_globalStringFeatureMaps;
-    GEOPDSearchQueryIntentMetadata *_queryIntentMetadata;
-    GEOPDSearchRewrittenQueryNonPayloadField *_rewrittenQueryNonPayloadField;
-    NSMutableArray *_whatIntents;
-    NSMutableArray *_whereIntents;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_globalFeatureMaps:1;
-        unsigned int read_globalStringFeatureMaps:1;
-        unsigned int read_queryIntentMetadata:1;
-        unsigned int read_rewrittenQueryNonPayloadField:1;
-        unsigned int read_whatIntents:1;
-        unsigned int read_whereIntents:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)ster prototype domain with nil info. Doing nothing.;
+- (id)deactivateAudioSession:streamHandleId:error: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool));
 - (_Bool);
 - (id);
 - (id)vigationFriendliness"b1};
-- (id)ze: /* Error: Ran out of types for this method. */;
+- (id)_pruneDBToDefaultSize: /* Error: Ran out of types for this method. */;
 - (id)Àýä;
 - (void)ó)âH@;
 

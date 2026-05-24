@@ -6,25 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class DIMSchemaDIMDeviceFixedContext, DIMSchemaDIMEphemeralIdentifiers, DIMSchemaDIMEphemeralToAggregationIdentifierMap, DIMSchemaDIMExperimentContext, DIMSchemaDIMLocaleNotRecognized, DIMSchemaDIMOnDeviceDigest, DIMSchemaDIMSiriAccountInformation, NSData, SISchemaInstrumentationMessage;
+@class DIMSchemaDIMDeviceFixedContext, SISchemaInstrumentationMessage;
 
 @interface DIMSchemaDIMClientEvent : SISchemaTopLevelUnionType
 {
     DIMSchemaDIMDeviceFixedContext *_deviceFixedContext;
-    DIMSchemaDIMSiriAccountInformation *_siriAccountInformation;
-    DIMSchemaDIMLocaleNotRecognized *_localeNotRecognized;
-    DIMSchemaDIMOnDeviceDigest *_onDeviceDigest;
-    DIMSchemaDIMEphemeralIdentifiers *_ephemeralIdentifiers;
-    DIMSchemaDIMEphemeralToAggregationIdentifierMap *_ephemeralToAggregationIdentifierMap;
-    DIMSchemaDIMExperimentContext *_experimentContext;
-    _Bool _hasDeviceFixedContext;
-    _Bool _hasSiriAccountInformation;
-    _Bool _hasLocaleNotRecognized;
-    _Bool _hasOnDeviceDigest;
-    _Bool _hasEphemeralIdentifiers;
-    _Bool _hasEphemeralToAggregationIdentifierMap;
-    _Bool _hasExperimentContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -44,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)q;
 - (id);
 - (id);
 - (id);
@@ -70,35 +56,19 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)chemaIHScore";
-- (id)oreFromModel;
-- (unsigned long long)umCharsDeleted;
-- (id)SchemaMHVoiceTriggerSecondPassCancelled;
+- (id)hasAppScoreFromModel;
+- (unsigned long long)numCharsDeleted;
+- (id)MHSchemaMHVoiceTriggerSecondPassCancelled;
 - (id)X¬;
 - (void)#Ü%;
 
 // Remaining properties
-@property(retain, nonatomic) DIMSchemaDIMDeviceFixedContext *deviceFixedContext; // @synthesize deviceFixedContext=_deviceFixedContext;
-@property(retain, nonatomic) DIMSchemaDIMEphemeralIdentifiers *ephemeralIdentifiers; // @synthesize ephemeralIdentifiers=_ephemeralIdentifiers;
-@property(retain, nonatomic) DIMSchemaDIMEphemeralToAggregationIdentifierMap *ephemeralToAggregationIdentifierMap; // @synthesize ephemeralToAggregationIdentifierMap=_ephemeralToAggregationIdentifierMap;
-@property(retain, nonatomic) DIMSchemaDIMExperimentContext *experimentContext; // @synthesize experimentContext=_experimentContext;
-@property(nonatomic) _Bool hasDeviceFixedContext; // @synthesize hasDeviceFixedContext=_hasDeviceFixedContext;
-@property(nonatomic) _Bool hasEphemeralIdentifiers; // @synthesize hasEphemeralIdentifiers=_hasEphemeralIdentifiers;
-@property(nonatomic) _Bool hasEphemeralToAggregationIdentifierMap; // @synthesize hasEphemeralToAggregationIdentifierMap=_hasEphemeralToAggregationIdentifierMap;
-@property(nonatomic) _Bool hasExperimentContext; // @synthesize hasExperimentContext=_hasExperimentContext;
-@property(nonatomic) _Bool hasLocaleNotRecognized; // @synthesize hasLocaleNotRecognized=_hasLocaleNotRecognized;
-@property(nonatomic) _Bool hasOnDeviceDigest; // @synthesize hasOnDeviceDigest=_hasOnDeviceDigest;
-@property(nonatomic) _Bool hasSiriAccountInformation; // @synthesize hasSiriAccountInformation=_hasSiriAccountInformation;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) DIMSchemaDIMLocaleNotRecognized *localeNotRecognized; // @synthesize localeNotRecognized=_localeNotRecognized;
-@property(retain, nonatomic) DIMSchemaDIMOnDeviceDigest *onDeviceDigest; // @synthesize onDeviceDigest=_onDeviceDigest;
-@property(retain, nonatomic) DIMSchemaDIMSiriAccountInformation *siriAccountInformation; // @synthesize siriAccountInformation=_siriAccountInformation;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

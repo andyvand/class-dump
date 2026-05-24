@@ -5,5 +5,11 @@
 //
 
 @protocol FPUIActionViewControllerDelegate
+- (void)minimumTimeOffsetFromLive;
+
+@optional
+- (void)ndation/AVPlayerOutput.swift;
+- (void)il activeConfiguration, this should not be possible!;
+- (void);
 @end
 

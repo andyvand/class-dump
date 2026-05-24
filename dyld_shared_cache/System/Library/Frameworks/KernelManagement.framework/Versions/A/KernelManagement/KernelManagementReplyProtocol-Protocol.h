@@ -5,5 +5,6 @@
 //
 
 @protocol KernelManagementReplyProtocol
+- (void)mean_0_k;
 @end
 

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface SMCMNoMovementStateUpdate
 {
     long long _state;
-    long long _detectionType;
-    NSDate *_startTime;
 }
 
-+ (id);
-+ (id);
++ (id)sword param missing;
++ (id)create migration state:(long long)arg1 %@;
 - (id);
 - (long long);
 - (id);
@@ -23,8 +19,6 @@
 - (void)tionDeliveryRequest, fetchDestinationNameFromMapItem %@;
 
 // Remaining properties
-@property(readonly, nonatomic) long long detectionType; // @synthesize detectionType=_detectionType;
-@property(readonly, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end

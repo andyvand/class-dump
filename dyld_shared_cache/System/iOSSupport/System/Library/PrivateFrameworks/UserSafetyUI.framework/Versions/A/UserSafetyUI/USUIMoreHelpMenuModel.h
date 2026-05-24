@@ -12,12 +12,12 @@
     NSArray *_actions;
 }
 
-+ (id);
-+ (id);
-+ (void);
-+ (void);
-+ (void);
-- (id);
++ (id)connectionType;
++ (id)AddAutomation;
++ (void)$@ by %2$@;
++ (void)L"8@"NSData"16@"NSURLResponse"24@"NSError"32;
++ (void)v@?@"NSError">24^B32;
+- (id)H1;
 - (void);
 - (void);
 - (id);

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFCardSection;
+@class NSString;
 
 @interface SFCitationReferenceData
 {
     NSString *_display_name;
-    SFCardSection *_card_section_on_tap;
 }
 
 + (_Bool);
@@ -17,28 +16,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)recommendationID;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)eRemix;
+- (id)Object<OS_dispatch_semaphore>";
+- (id)has no identifier;
 - (id);
 - (id);
 - (void)N,V_isDestructive;
 
 // Remaining properties
-@property(retain, nonatomic) SFCardSection *card_section_on_tap; // @synthesize card_section_on_tap=_card_section_on_tap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSString *display_name; // @synthesize display_name=_display_name;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

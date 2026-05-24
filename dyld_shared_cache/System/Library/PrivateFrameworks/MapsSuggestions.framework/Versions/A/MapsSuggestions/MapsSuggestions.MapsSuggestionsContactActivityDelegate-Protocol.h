@@ -5,5 +5,6 @@
 //
 
 @protocol MapsSuggestions.MapsSuggestionsContactActivityDelegate
+- (void);
 @end
 

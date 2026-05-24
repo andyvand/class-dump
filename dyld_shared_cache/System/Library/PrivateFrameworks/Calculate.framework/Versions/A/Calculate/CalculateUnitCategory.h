@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalculateUnit, CalculateUnitCollection, NSArray, NSString, UnitTypeInfo;
+@class NSArray, UnitTypeInfo;
 
 @interface CalculateUnitCategory
 {
     NSArray *_units;
-    UnitTypeInfo *_typeInfo;
-    CalculateUnitCollection *_collection;
 }
 
 + (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -27,7 +25,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)ïA;
 - (id)çÏ!1®IGwÉI-|¶ë§ÆÜ¾
@@ -38,14 +36,7 @@
 »éM·ÈqèjU8Üt·ÖsjBZÐTië7º­Øÿâ²à¶1&7²èøéjN!'×q-V3:ö+c(® P2/FuÇvþÝüjÅ$ñ}'öEµ-MogrÌÂ]¦I·ß?Í /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak CalculateUnitCollection *collection; // @synthesize collection=_collection;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) CalculateUnit *preferredFromUnit;
-@property(readonly, nonatomic) CalculateUnit *preferredToUnit;
 @property(retain, nonatomic) UnitTypeInfo *typeInfo; // @synthesize typeInfo=_typeInfo;
-@property(readonly, nonatomic) unsigned long long unitType;
-@property(retain, nonatomic) NSArray *units; // @synthesize units=_units;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol SPFinderStateXPCProtocol
+- (void)9h;
+- (void);
 @end
 

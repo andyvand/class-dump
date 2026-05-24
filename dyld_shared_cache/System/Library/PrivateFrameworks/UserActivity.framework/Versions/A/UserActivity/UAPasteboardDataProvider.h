@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSData, NSString;
 
 @interface UAPasteboardDataProvider
 {
     NSString *_type;
-    NSUUID *_uuid;
-    NSData *_data;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)9;
 - (void);
 - (id);
 - (void);
@@ -25,15 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

@@ -11,22 +11,13 @@ __attribute__((visibility("hidden")))
 @interface AVPlayerLayerSubtitlePreviewHelper
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSString *_subtitlePreviewText;
-    NSString *_subtitlePreviewProfile;
-    NSString *_extendedLanguageTag;
-    struct OpaqueFigSubtitleRenderer *_subtitlePreviewRenderer;
-    NSString *_lastPreviewText;
-    NSString *_lastPreviewProfile;
-    NSString *_lastExtendedLanguageTag;
-    struct CGRect _lastBounds;
-    struct CGImage *_lastGeneratedImage;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (struct CGImage *);
+- (id)_firstCandidateItnIntervalInTicks;
+- (id)_firstCandidateItnDurationSum;
+- (void)electraConfig;
+- (void)ctraConfig}^{__shared_weak_count}},N,V_electraConfig;
+- (struct CGImage *)_EARLanguageDetectorV2LoggingInfo;
 - (void);
 - (struct CGImage *);
 - (void);
@@ -37,8 +28,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *extendedLanguageTag;
-@property(copy, nonatomic) NSString *subtitlePreviewProfile;
 @property(copy, nonatomic) NSString *subtitlePreviewText;
 
 @end

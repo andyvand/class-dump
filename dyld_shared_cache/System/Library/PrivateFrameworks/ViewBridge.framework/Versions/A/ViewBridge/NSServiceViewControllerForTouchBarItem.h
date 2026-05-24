@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSServiceViewControllerForTouchBarItem : NSServiceViewController
 {
     NSString *_touchBarItemIdentifier;
-    unsigned int _observingBridge:1;
 }
 
 + (id);

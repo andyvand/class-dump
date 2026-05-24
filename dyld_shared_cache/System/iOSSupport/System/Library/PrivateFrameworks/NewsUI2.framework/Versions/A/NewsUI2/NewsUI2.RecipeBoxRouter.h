@@ -7,9 +7,6 @@
 @interface NewsUI2.RecipeBoxRouter
 {
     id controller;
-    id navigator;
-    id resolver;
-    id tracker;
 }
 
 @end

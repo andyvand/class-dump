@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKAccountPhysicalCardExpirationMessagingInfo
 {
     long long _scatterInterval;
-    NSString *_physicalCardIdentifier;
-    unsigned long long _messagingType;
 }
 
 + (_Bool)0@ù
@@ -20,12 +16,10 @@
 - (long long);
 - (id);
 - (void);
-- (id)tIsLastMonthsStatement;
-- (void)ated;
+- (id)_currentStatementIsLastMonthsStatement;
+- (void)activated;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long messagingType; // @synthesize messagingType=_messagingType;
-@property(readonly, copy, nonatomic) NSString *physicalCardIdentifier; // @synthesize physicalCardIdentifier=_physicalCardIdentifier;
 @property(readonly, nonatomic) long long scatterInterval; // @synthesize scatterInterval=_scatterInterval;
 
 @end

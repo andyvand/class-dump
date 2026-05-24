@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (struct NSEdgeInsets);
-- (void)SearchFactory;
+- (void)LemonadeSearchFactory;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCuratedLibraryCardSectionBodyLayoutSpec *cardSpec; // @synthesize cardSpec=_cardSpec;

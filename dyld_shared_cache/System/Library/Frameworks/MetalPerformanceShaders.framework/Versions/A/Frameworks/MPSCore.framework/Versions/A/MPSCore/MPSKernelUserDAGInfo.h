@@ -9,16 +9,12 @@
 @interface MPSKernelUserDAGInfo
 {
     NSArray *_stitchingGraphs;
-    NSArray *_userVisibleFunctions;
-    NSArray *_userStitchedFunctions;
-    NSArray *_stitchedMTLFunctions;
-    unsigned long long _cachedHash;
 }
 
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)!;
 
 // Remaining properties
 @property(readonly) unsigned long long hash;

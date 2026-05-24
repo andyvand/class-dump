@@ -7,10 +7,12 @@
 @class NSData;
 
 @protocol _SFPBScene
+- (void)y a subclass;
+- (int);
+- (NSData *)setEditableDepthBadgeAttribute: /* Error: Ran out of types for this method. */;
+- (void)r or backing resource, unable to load data;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long sceneIdentifier;
-@property(nonatomic) int sceneType;
 @end
 

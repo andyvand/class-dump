@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, STSchemaSTFailureError;
-
 @interface STSchemaSTGeneralSearchFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    STSchemaSTFailureError *_stError;
-    CDStruct_6555f803 _has;
-    _Bool _hasStError;
 }
 
 - (void);
@@ -22,28 +17,24 @@
 - (void);
 - (id);
 - (id);
-- (int);
+- (int)_updateForNewTrafficIncidentAlerts: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)setRelaunchOptions: /* Error: Ran out of types for this method. */;
+- (_Bool)ABShadowTextViewMultipleValuePasteHelper;
+- (_Bool)to create index madrid_chat_account_login_index.;
 - (void);
 - (id);
 - (id);
-- (id)ague;
-- (id)anRetrievalDuration;
-- (void)ENT_INPUT_COLLECTION;
-- (void)OICETYPE_FMVOICE;
+- (id)deleteLeague;
+- (id)_hasQueryDecorationSpanRetrievalDuration;
+- (void)QDSUBCOMPONENT_INPUT_COLLECTION;
+- (void)TTSVOICETYPE_FMVOICE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasStError; // @synthesize hasStError=_hasStError;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(retain, nonatomic) STSchemaSTFailureError *stError; // @synthesize stError=_stError;
 
 @end
 

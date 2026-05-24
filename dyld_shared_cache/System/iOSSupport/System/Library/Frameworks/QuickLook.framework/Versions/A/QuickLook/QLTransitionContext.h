@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage;
 @protocol QLPreviewItem;
 
 __attribute__((visibility("hidden")))
 @interface QLTransitionContext
 {
     id <QLPreviewItem> _item;
-    UIImage *_image;
-    struct CGRect _sourceFrame;
-    struct CGRect _contentRect;
 }
 
 + (_Bool);
 + (_Bool);
-- (struct CGRect);
-- (void);
-- (id);
-- (void);
+- (struct CGRect)_isCursorTemporarilyStrong;
+- (void)";
+- (id)? ORDER BY m.ROWID DESC LIMIT ?;
+- (void);
 - (id);
 - (id);
 - (void);
@@ -30,10 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property struct CGRect contentRect; // @synthesize contentRect=_contentRect;
-@property(retain) UIImage *image; // @synthesize image=_image;
 @property(retain) id <QLPreviewItem> item; // @synthesize item=_item;
-@property struct CGRect sourceFrame; // @synthesize sourceFrame=_sourceFrame;
 
 @end
 

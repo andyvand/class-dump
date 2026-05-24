@@ -6,33 +6,31 @@
 
 #import <VoiceShortcutClient/WFConfiguredSystemAction.h>
 
-@class NSString, WFWorkflowIcon;
+@class NSString;
 
 @interface WFConfiguredSystemWorkflowAction : WFConfiguredSystemAction
 {
     NSString *_workflowIdentifier;
-    WFWorkflowIcon *_workflowIcon;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)({;
+- (id)Gz;
 - (void);
-- (void);
+- (void)|;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)?רc;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) WFWorkflowIcon *workflowIcon; // @synthesize workflowIcon=_workflowIcon;
 @property(copy, nonatomic) NSString *workflowIdentifier; // @synthesize workflowIdentifier=_workflowIdentifier;
 
 @end

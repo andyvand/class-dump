@@ -7,11 +7,6 @@
 @interface PhotosUICore.SharedAlbumsAvailabilityObserver
 {
     id __sharedAlbumsAvailable;
-    id photoLibrary;
-    id accountStoreChangeObservation;
-    id internalSettingsObserver;
-    id _refreshCoalescer;
-    id _$observationRegistrar;
 }
 
 - (void);

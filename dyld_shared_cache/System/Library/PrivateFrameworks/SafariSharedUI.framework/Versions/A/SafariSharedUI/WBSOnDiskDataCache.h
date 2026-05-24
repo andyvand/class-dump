@@ -4,68 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMutableDictionary, NSMutableSet, NSObject, NSString, NSURL, WBSCoalescedAsynchronousWriter;
-@protocol OS_dispatch_queue, WBSDataCacheDelegate;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface WBSOnDiskDataCache
 {
     NSObject<OS_dispatch_queue> *_diskAccessQueue;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSCache *_entriesForKeyStringsCache;
-    NSMutableSet *_pendingKeyStringRequests;
-    NSMutableSet *_missingEntryKeyStrings;
-    NSMutableDictionary *_cacheSettings;
-    WBSCoalescedAsynchronousWriter *_cacheSettingsWriter;
-    _Bool _terminating;
-    _Bool _isInMemoryCacheEnabled;
-    id <WBSDataCacheDelegate> _dataCacheDelegate;
-    NSURL *_cacheDirectoryURL;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (long long)T@y;
+- (id);
+- (void);
+- (id)7m;
+- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
 - (id);
+- (void)q(;
 - (void);
-- (void);
-- (long long);
+- (id)7;
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)CloudProgressObserver progressStarting:]E3$_2FvvEEE /* Error: Ran out of types for this method. */;
 - (id);
-- (void)onKind;
+- (void)safari_iconKind;
 - (void)uTopic"16;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *cacheDirectoryURL; // @synthesize cacheDirectoryURL=_cacheDirectoryURL;
-@property(nonatomic) __weak id <WBSDataCacheDelegate> dataCacheDelegate; // @synthesize dataCacheDelegate=_dataCacheDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isInMemoryCacheEnabled; // @synthesize isInMemoryCacheEnabled=_isInMemoryCacheEnabled;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isTerminating) _Bool terminating; // @synthesize terminating=_terminating;
 
 @end
 

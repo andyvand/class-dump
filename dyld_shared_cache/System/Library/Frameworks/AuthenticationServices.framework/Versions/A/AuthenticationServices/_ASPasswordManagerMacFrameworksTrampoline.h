@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserDataImportUIController, PasswordsExporter;
+@class PasswordsExporter;
 
 @interface _ASPasswordManagerMacFrameworksTrampoline
 {
     PasswordsExporter *_passwordsExporter;
-    BrowserDataImportUIController *_passwordsImporter;
 }
 
-+ (void);
++ (void)9c;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h`;
 - (void);
 - (void);
 - (id);

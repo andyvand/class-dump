@@ -9,19 +9,17 @@
 @interface _UIDsBatch
 {
     unsigned int _expectedLength;
-    NSMutableIndexSet *_uids;
 }
 
-- (void);
+- (void)Q;
 - (unsigned int);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ab;
+- (id)SyncPlanPushingStart;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int expectedLength; // @synthesize expectedLength=_expectedLength;
 @property(retain, nonatomic) NSMutableIndexSet *uids; // @synthesize uids=_uids;
 
 @end

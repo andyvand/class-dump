@@ -5,5 +5,6 @@
 //
 
 @protocol HMDHomeActivityStateAggregatorStorage
+- (void)_receivingObservers;
 @end
 

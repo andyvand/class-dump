@@ -7,8 +7,6 @@
 @interface SoundAnalysis.CombineSubscriptionToXPCAdapterImpl
 {
     id $defaultActor;
-    id subscription;
-    id killOnInvalidatedConnectionTask;
 }
 
 @end

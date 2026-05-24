@@ -5,15 +5,12 @@
 //
 
 @protocol SCNBoxJSExport
+- (void);;
+- (void);
+- (double)numberRangeWithMinValue: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
-@property(nonatomic) double chamferRadius;
-@property(nonatomic) long long chamferSegmentCount;
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) double length;
-@property(nonatomic) long long lengthSegmentCount;
 @property(nonatomic) double width;
-@property(nonatomic) long long widthSegmentCount;
 @end
 

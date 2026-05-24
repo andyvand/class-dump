@@ -5,13 +5,10 @@
 //
 
 @class PRLikeness;
-@protocol CNLikenessEditorHostDelegate;
 
 @interface CNLikenessEditorViewController
 {
     _Bool _likenessNeedsUpdating;
-    PRLikeness *_likeness;
-    id <CNLikenessEditorHostDelegate> _editorHost;
 }
 
 - (void);
@@ -25,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property __weak id <CNLikenessEditorHostDelegate> editorHost; // @synthesize editorHost=_editorHost;
 @property(retain) PRLikeness *likeness; // @synthesize likeness=_likeness;
-@property _Bool likenessNeedsUpdating; // @synthesize likenessNeedsUpdating=_likenessNeedsUpdating;
 
 @end
 

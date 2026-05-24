@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemKeyboardDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowPredictiveKeyboard;
-    NSNumber *_payloadAllowAutoCorrection;
-    NSNumber *_payloadAllowSpellCheck;
-    NSNumber *_payloadAllowKeyboardShortcuts;
 }
 
 + (id);
@@ -27,31 +24,21 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)B`BaH;
 - (int);
-- (_Bool);
-- (id);
+- (_Bool)dler for %s;
+- (id)zo_;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowAutoCorrection; // @synthesize payloadAllowAutoCorrection=_payloadAllowAutoCorrection;
-@property(copy, nonatomic) NSNumber *payloadAllowKeyboardShortcuts; // @synthesize payloadAllowKeyboardShortcuts=_payloadAllowKeyboardShortcuts;
 @property(copy, nonatomic) NSNumber *payloadAllowPredictiveKeyboard; // @synthesize payloadAllowPredictiveKeyboard=_payloadAllowPredictiveKeyboard;
-@property(copy, nonatomic) NSNumber *payloadAllowSpellCheck; // @synthesize payloadAllowSpellCheck=_payloadAllowSpellCheck;
-@property(readonly) Class superclass;
 
 @end
 

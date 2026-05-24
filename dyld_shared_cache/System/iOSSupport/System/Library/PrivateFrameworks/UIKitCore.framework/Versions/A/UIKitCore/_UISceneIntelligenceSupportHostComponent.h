@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (_Bool);
+- (void)relayRequestTranslationWithText:(struct CGRect)arg1 sourceLocaleIdentifier:(id)arg2 destinationLocaleIdentifier:serviceName:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)relayMessageToPeers:forChat:serviceName:reflectOnly:requiredCapabilities:skipServiceForSending: /* Error: Ran out of types for this method. */;
 - (void)× ;
 - (id)0@ù
 × ;

@@ -5,44 +5,39 @@
 //
 
 @class NSXPCConnection;
-@protocol CLSimulationXPCServerInterface;
 
 @interface CLSimulationManager
 {
     double _locationDistance;
-    double _locationInterval;
-    double _locationSpeed;
-    unsigned char _locationRepeatBehavior;
-    unsigned char _locationDeliveryBehavior;
-    NSXPCConnection *_connection;
 }
 
 - (void);
+- (void)#;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)1;
 - (void);
 - (void);
+- (void)
+(;
 - (void);
 - (void);
+- (void)0;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)v0;
 - (void);
 - (id);
 - (double);
+- (unsigned char)t;
+- (double);
+- (double)Ȍ;
 - (unsigned char);
-- (double);
-- (double);
-- (unsigned char);
-- (id);
+- (id)c;
 - (void);
 - (void);
 - (void);
@@ -50,20 +45,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)PositionerIsocenterPrimaryAngle;
+- (id)ce:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly) id <CLSimulationXPCServerInterface> daemonProxy;
-@property(nonatomic) unsigned char locationDeliveryBehavior; // @synthesize locationDeliveryBehavior=_locationDeliveryBehavior;
-@property(nonatomic) double locationDistance; // @synthesize locationDistance=_locationDistance;
-@property(nonatomic) double locationInterval; // @synthesize locationInterval=_locationInterval;
-@property(nonatomic) unsigned char locationRepeatBehavior; // @synthesize locationRepeatBehavior=_locationRepeatBehavior;
-@property(nonatomic) double locationSpeed; // @synthesize locationSpeed=_locationSpeed;
 
 @end
 

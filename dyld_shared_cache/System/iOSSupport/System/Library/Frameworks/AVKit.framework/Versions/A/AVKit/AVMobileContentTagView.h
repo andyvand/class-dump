@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMobileContentTag, UILabel, UIView;
+@class UIView;
 @protocol AVMobileControlsStyleFontsSheet;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileContentTagView
 {
     UIView *_contentView;
-    UILabel *_contentTagViewLabel;
-    AVMobileContentTag *_contentTag;
-    id <AVMobileControlsStyleFontsSheet> _styleSheet;
 }
 
 - (id);
-- (void);
+- (void)PCS identity for share %@;
 - (id);
 - (void);
 - (void);
@@ -27,7 +24,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) AVMobileContentTag *contentTag; // @synthesize contentTag=_contentTag;
 @property(retain, nonatomic) id <AVMobileControlsStyleFontsSheet> styleSheet; // @synthesize styleSheet=_styleSheet;
 
 @end

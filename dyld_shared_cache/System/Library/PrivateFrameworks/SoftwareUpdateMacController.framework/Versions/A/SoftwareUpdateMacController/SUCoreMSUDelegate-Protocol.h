@@ -5,5 +5,9 @@
 //
 
 @protocol SUCoreMSUDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

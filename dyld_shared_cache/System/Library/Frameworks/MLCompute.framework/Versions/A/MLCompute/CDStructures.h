@@ -37,7 +37,7 @@ struct _NSRange {
 };
 
 struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
+    unsigned int _field1;
 };
 
 #pragma mark Typedef'd Structures
@@ -68,6 +68,17 @@ typedef struct {
 } CDStruct_2e8d1fbb;
 
 typedef struct {
+    unsigned long long _field1;
+    unsigned long long _field2;
+    unsigned long long _field3;
+} CDStruct_14f26992;
+
+typedef struct {
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
+
+typedef struct {
     float _field1;
     float _field2;
 } CDStruct_b2fbf00d;
@@ -85,6 +96,11 @@ typedef struct {
     CDStruct_f72e9426 _field2;
     CDStruct_f72e9426 _field3;
 } CDStruct_2d8cd046;
+
+typedef struct {
+    CDStruct_14f26992 _field1;
+    CDStruct_14f26992 _field2;
+} CDStruct_4c83c94d;
 
 typedef struct {
     unsigned long long _field1;

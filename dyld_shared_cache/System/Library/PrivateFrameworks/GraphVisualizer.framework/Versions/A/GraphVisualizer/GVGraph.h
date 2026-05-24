@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableOrderedSet, NSOrderedSet;
+@class NSMutableOrderedSet;
 
 @interface GVGraph
 {
     _Bool allowRedundantEdges;
-    _Bool minimizeEdgeLengths;
-    _Bool minimizeEdgeCrossings;
-    unsigned int randomSeed;
-    NSMutableOrderedSet *_nodes;
-    NSMutableOrderedSet *_sourceNodes;
-    NSMutableOrderedSet *_sinkNodes;
-    NSMutableOrderedSet *_edges;
-    NSMutableDictionary *_groups;
 }
 
 - (void);
@@ -54,49 +46,34 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)j
+K;
 - (id);
 - (unsigned int);
-- (_Bool);
+- (_Bool)a=%{public}@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)/H3;
 - (id);
 - (void);
-- (id);
+- (void)D;
+- (void);
+- (id)ic8c;
+- (void);
+- (id)TD;
 - (id);
 - (struct CGRect);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableOrderedSet *_edges; // @synthesize _edges;
-@property(retain, nonatomic) NSMutableDictionary *_groups; // @synthesize _groups;
 @property(retain, nonatomic) NSMutableOrderedSet *_nodes; // @synthesize _nodes;
-@property(retain, nonatomic) NSMutableOrderedSet *_sinkNodes; // @synthesize _sinkNodes;
-@property(retain, nonatomic) NSMutableOrderedSet *_sourceNodes; // @synthesize _sourceNodes;
-@property(nonatomic) _Bool allowRedundantEdges; // @synthesize allowRedundantEdges;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, nonatomic) unsigned long long edgeCount;
-@property(readonly, nonatomic) NSOrderedSet *edges;
-@property(readonly, nonatomic) NSDictionary *groups;
-@property(nonatomic) _Bool minimizeEdgeCrossings; // @synthesize minimizeEdgeCrossings;
-@property(nonatomic) _Bool minimizeEdgeLengths; // @synthesize minimizeEdgeLengths;
-@property(readonly, nonatomic) unsigned long long nodeCount;
-@property(readonly, nonatomic) NSOrderedSet *nodes;
-@property(nonatomic) unsigned int randomSeed; // @synthesize randomSeed;
-@property(readonly, nonatomic) NSOrderedSet *sinkNodes;
-@property(readonly, nonatomic) NSOrderedSet *sourceNodes;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXChangeDirectionNumberFilter, PXInitialHysteresisNumberFilter;
-
 @interface PXCuratedLibraryZoomLevelPinchFilter
 {
     _Bool _didHandleInitialPinch;
-    PXInitialHysteresisNumberFilter *_initialDirectionFilter;
-    PXChangeDirectionNumberFilter *_scaleDirectionFilter;
-    double _lastDirection;
-    _Bool _isTrackingPinch;
 }
 
 - (void);

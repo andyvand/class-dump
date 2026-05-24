@@ -5,5 +5,8 @@
 //
 
 @protocol MKLocationProviderDelegate
+- (void)featheringSigma;
+- (void)*H<;
+- (void);
 @end
 

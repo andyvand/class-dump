@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseAceObject.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SACFScriptEncryptionParameters : SABaseAceObject
 {
@@ -19,20 +19,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *encryptionKey;
-@property(copy, nonatomic) NSData *hmac;
-@property(copy, nonatomic) NSData *hmacKey;
-@property(copy, nonatomic) NSData *initializationVector;
-@property(copy, nonatomic) NSString *type;
 
 @end
 

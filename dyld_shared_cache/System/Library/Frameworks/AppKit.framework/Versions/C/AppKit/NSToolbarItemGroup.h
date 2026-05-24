@@ -6,21 +6,11 @@
 
 #import <AppKit/NSToolbarItem.h>
 
-@class NSArray, NSImage, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface NSToolbarItemGroup : NSToolbarItem
 {
     NSMutableArray *_groupItems;
-    long long _controlRepresentation;
-    long long _selectionMode;
-    NSString *_title;
-    NSImage *_image;
-    id _target;
-    SEL _action;
-    unsigned long long _itemPosition;
-    struct {
-        unsigned int dirtiedLayout:1;
-    } _giFlags;
 }
 
 + (id);
@@ -28,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (void){;
+- (long long)!;
 - (struct CGRect);
 - (id);
 - (unsigned long long);
@@ -41,32 +31,32 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)A;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)URLSession:(id)arg1 dataTask:didReceiveData: /* Error: Ran out of types for this method. */;
+- (void)_requestEndTime;
 - (id);
-- (id);
+- (id)+;
 - (void);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)+x,;
 - (_Bool);
 - (id);
 - (_Bool);
+- (void)d not done!! remaining size:(id)arg1 %ld;
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (id)_kCFNTimingDataRequestStart;
+- (_Bool)_kCFNTimingDataFetchStart;
+- (id)OnConnection;
+- (void)ata;;
+- (id)weak_count}}16;
+- (_Bool)be "%@" which could put your confidential information at risk.;
 - (id);
 - (void);
 - (id);
@@ -78,8 +68,8 @@
 - (void);
 - (void);
 - (void)sualProvider>";
-- (id)ForBrightness:(struct _NSZone *)arg1;
-- (id)howHideDelay;
+- (id)accessibilityValueStringForBrightness:(struct _NSZone *)arg1;
+- (id)_showHideDelay;
 - (id);
 - (SEL)@ðüÿ;
 - (void)¤hGGAQG_Qo_;
@@ -89,9 +79,6 @@
 - (_Bool)ÐBA;
 
 // Remaining properties
-@property long long controlRepresentation;
-@property long long selectedIndex;
-@property long long selectionMode;
 @property(copy) NSArray *subitems;
 
 @end

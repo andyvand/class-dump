@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSUUID;
+@class NSString;
 
 @interface AVAnnotation
 {
     NSString *_version;
-    NSUUID *_identifier;
-    NSString *_author;
-    NSDate *_lastModifiedDate;
-    CDStruct_e83c9415 _timeRange;
-    struct CGRect _normalizedBoundingBox;
-    long long _zOrder;
-    NSArray *_representations;
 }
 
 + (id);
 + (void)alToString:AVFileTypeWAVE] /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
+- (void)t;
+- (void)$!;
 - (struct CGRect);
-- (id);
+- (id)tp;
 - (id);
 - (void);
 - (id);
@@ -34,26 +27,19 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)tils.framework/Versions/A/SharedUtils;
 - (id);
 - (void);
 - (CDStruct_e83c9415);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *author; // @synthesize author=_author;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDate *lastModifiedDate; // @synthesize lastModifiedDate=_lastModifiedDate;
-@property(nonatomic) struct CGRect normalizedBoundingBox; // @synthesize normalizedBoundingBox=_normalizedBoundingBox;
-@property(copy, nonatomic) NSArray *representations; // @synthesize representations=_representations;
-@property(nonatomic) CDStruct_e83c9415 timeRange; // @synthesize timeRange=_timeRange;
 @property(copy, nonatomic, getter=_version, setter=_setVersion:) NSString *version;
-@property(nonatomic) long long zOrder; // @synthesize zOrder=_zOrder;
 
 @end
 

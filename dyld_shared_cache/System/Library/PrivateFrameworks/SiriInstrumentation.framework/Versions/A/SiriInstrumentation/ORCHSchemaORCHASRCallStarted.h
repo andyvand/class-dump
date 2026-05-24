@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHASRCallStarted : SISchemaInstrumentationMessage
 {
     int _taskType;
-    CDStruct_91e2971b _has;
 }
 
 - (void);
@@ -26,13 +23,11 @@
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)s;
+- (id)_allocations;
 - (id)en;
 - (int)Ç;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTaskType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int taskType; // @synthesize taskType=_taskType;
 
 @end

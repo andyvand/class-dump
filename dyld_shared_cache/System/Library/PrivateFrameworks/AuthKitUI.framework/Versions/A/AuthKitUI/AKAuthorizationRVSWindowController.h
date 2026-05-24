@@ -11,25 +11,21 @@
 @interface AKAuthorizationRVSWindowController : AKPromptWindowController
 {
     AKCredentialRequestContext *_credentialRequestContext;
-    AKAuthorizationRVSBootstrapper *_helper;
-    CDUnknownBlockType _completion;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)tempting to get a placemark for the location [%@].;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (CDUnknownBlockType);
-- (id);
-- (void);
+- (id)@;
+- (void)};
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) AKCredentialRequestContext *credentialRequestContext; // @synthesize credentialRequestContext=_credentialRequestContext;
 @property(retain, nonatomic) AKAuthorizationRVSBootstrapper *helper; // @synthesize helper=_helper;
 
 @end

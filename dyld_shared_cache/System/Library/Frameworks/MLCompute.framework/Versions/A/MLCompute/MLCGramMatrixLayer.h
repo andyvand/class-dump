@@ -16,7 +16,7 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)*;
 - (_Bool);
 - (id);
 - (float);

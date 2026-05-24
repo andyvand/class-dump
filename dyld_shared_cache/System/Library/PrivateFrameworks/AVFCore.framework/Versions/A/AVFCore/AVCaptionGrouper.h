@@ -9,7 +9,6 @@
 @interface AVCaptionGrouper
 {
     NSMutableArray *_captionCollector;
-    CDStruct_1b6d18a9 _captionGroupStartTime;
 }
 
 - (id);

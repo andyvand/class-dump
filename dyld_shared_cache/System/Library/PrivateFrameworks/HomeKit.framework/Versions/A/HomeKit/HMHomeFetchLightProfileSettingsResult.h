@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMLightProfileSettings, NSArray, NSError, NSString;
+@class NSError;
 
 @interface HMHomeFetchLightProfileSettingsResult
 {
     NSError *_error;
-    HMLightProfileSettings *_settings;
 }
 
 + (id);
@@ -20,35 +19,17 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
+- (id)>	;
+- (_Bool)contravention;
+- (id)birdwatching;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)DW;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) HMLightProfileSettings *settings; // @synthesize settings=_settings;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

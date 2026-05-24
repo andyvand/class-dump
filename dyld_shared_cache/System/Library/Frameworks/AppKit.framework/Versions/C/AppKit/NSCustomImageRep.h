@@ -9,36 +9,30 @@
 @interface NSCustomImageRep : NSImageRep
 {
     unsigned int _reserved;
-    SEL _drawMethod;
-    id _drawObject;
 }
 
 + (void)àÐ^ÿnõxH;
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)allowsUltraConstrainedNetworkAccess;
+- (id)aggregateAssetDownloadTaskWithURLAsset:(struct CGSize)arg1 mediaSelections:(CDUnknownBlockType)arg2 assetTitle:assetArtworkData:options: /* Error: Ran out of types for this method. */;
+- (id)_onqueue_didReceiveResponse:(SEL)arg1 redirectRequest:(id)arg2 withCompletion:(_Bool)arg3;
+- (id)_onqueue_didReceiveResponse:(SEL)arg1 redirectRequest:(id)arg2 withCompletion: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (SEL);
 - (CDUnknownBlockType);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (id);
+- (void);
+- (id)braYpVmwHes1fpZRq7AfjNN1Q/Library/Caches/com.apple.xbs/TemporaryDirectory.WBOEkW/Sources/boringssl/ssl/dtls_method.cc;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id)gFirstResponder;
+- (id)_isBecomingFirstResponder;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly) __weak id delegate;
-@property(readonly) CDUnknownBlockType drawHandler;
-@property(readonly) SEL drawSelector;
-@property(readonly, copy) CDUnknownBlockType drawingHandler;
 @property(getter=isFlipped) _Bool flipped;
 
 @end

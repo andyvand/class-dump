@@ -6,28 +6,28 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSString;
+@class INSpeakableString;
 
 @interface INCreateTimerIntent : INIntent
 {
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)0;
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)o;
 - (long long);
 - (id);
 - (void);
@@ -35,16 +35,7 @@
 - (void)eType:(id)arg1 ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) double duration;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) INSpeakableString *label;
-@property(readonly) Class superclass;
-@property(readonly) long long type;
 
 @end
 

@@ -9,11 +9,9 @@
 @interface CHParseTable
 {
     NSMutableArray *_table;
-    long long _inputLength;
-    long long _grammarSize;
 }
 
-- (id);
+- (id)R;
 - (id);
 - (long long);
 - (id);
@@ -23,11 +21,10 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)PHAssetCollectionTypePhotosHighlight;
 - (void)Ä7;
 
 // Remaining properties
-@property(nonatomic) long long grammarSize; // @synthesize grammarSize=_grammarSize;
 @property(nonatomic) long long inputLength; // @synthesize inputLength=_inputLength;
 
 @end

@@ -9,15 +9,6 @@
 @interface AppStoreKit.TopShelfCarouselItem : AppStoreKit.TopShelfItem
 {
     id genre;
-    id summary;
-    id previewVideoUrl;
-    id cinemagraphUrl;
-    id bundleIdentifier;
-    id adamId;
-    id installAction;
-    id remoteControllerRequirement;
-    id isAppleArcadeGame;
-    id namedAttributes;
 }
 
 @end

@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBMessageAttachment, _SFPBURL;
+@class NSArray;
 
 @interface _SFPBMessageCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    int _messageStatus;
-    int _messageServiceType;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSString *_messageText;
-    _SFPBURL *_audioMessageURL;
-    _SFPBMessageAttachment *_messageAttachment;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`B;
 - (unsigned long long);
 - (id);
 - (int);
@@ -39,17 +26,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)_requestType;
+- (_Bool)sicUserState",&,N,V_music;
+- (_Bool)Event;
+- (void)P;
 - (id);
 - (void);
 - (void);
@@ -58,8 +45,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)ph_genericErrorWithLocalizedDescription:(id)arg1;
+- (id)ile system volume;
 - (void);
 - (id);
 - (id);
@@ -68,28 +55,7 @@
 - (int)âã>;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBURL *audioMessageURL; // @synthesize audioMessageURL=_audioMessageURL;
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBMessageAttachment *messageAttachment; // @synthesize messageAttachment=_messageAttachment;
-@property(nonatomic) int messageServiceType; // @synthesize messageServiceType=_messageServiceType;
-@property(nonatomic) int messageStatus; // @synthesize messageStatus=_messageStatus;
-@property(copy, nonatomic) NSString *messageText; // @synthesize messageText=_messageText;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

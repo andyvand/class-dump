@@ -7,7 +7,6 @@
 @interface JetUI.NQMLOrderedListTracker__priv_F1C4EBA6165AEBFE43471B55508F17DF
 {
     id currentBullet;
-    id bulletFormat;
 }
 
 @end

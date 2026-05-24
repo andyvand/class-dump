@@ -4,46 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXExploreLayoutMetrics, PXExploreParsingState;
+@class PXExploreParsingState;
 
 @interface PXExploreLayoutGenerator
 {
     long long _count;
-    long long _capacity;
-    struct {
-        long long _field1;
-        long long _field2;
-        unsigned long long _field3;
-        double _field4;
-        double _field5;
-    } *_inputItemInfos;
-    struct _PXLayoutGeometry *_outputGeometries;
-    long long *_outputItemIndexToParseLocation;
-    CDStruct_d20431f8 *_outputItemLocations;
-    long long _rowCount;
-    long long _rowCapacity;
-    long long *_outputNumberOfColumnsAtRow;
-    _Bool _isPrepared;
-    struct CGPoint _origin;
-    long long _row;
-    long long _localNumberOfColumns;
-    long long _localNumberOfRows;
-    struct CGSize _cellSize;
-    struct CGSize _intercellSpacing;
-    struct CGSize _contentSize;
-    struct _PXCornerSpriteIndexes _cornerSpriteIndexes;
-    struct CGSize _headerItemSize;
-    struct CGSize _minHeroItemsSize;
-    PXExploreParsingState *_localState;
-    struct CGSize _minimumItemSize;
-    struct CGSize _buildingBlockSize;
 }
 
 - (void);
 - (void);
 - (double);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (long long);
 - (long long);
 - (id);
@@ -58,7 +30,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -75,7 +47,7 @@
 - (long long);
 - (long long);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (struct CGSize);
@@ -101,16 +73,16 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)}>�;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (void);
 - (_Bool);
 - (struct CGSize);
 - (struct CGSize);
@@ -118,14 +90,14 @@
 - (struct CGSize);
 - (struct CGSize);
 - (struct CGSize);
-- (double);
+- (double);
 - (void);
 - (void);
 - (long long);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)@;
 - (struct CGSize);
 - (struct CGSize);
 - (void);
@@ -137,23 +109,7 @@
 - (void)¯&ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize buildingBlockSize; // @synthesize buildingBlockSize=_buildingBlockSize;
-@property(readonly, nonatomic) _Bool canReorderItemsAcrossRows;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *diagnosticDescription;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) struct CGSize headerItemSize;
 @property(readonly, nonatomic) PXExploreParsingState *localState; // @synthesize localState=_localState;
-@property(copy, nonatomic) PXExploreLayoutMetrics *metrics; // @dynamic metrics;
-@property(readonly, nonatomic) struct CGSize minHeroItemsSize;
-@property(readonly, nonatomic) struct CGSize minimumItemSize; // @synthesize minimumItemSize=_minimumItemSize;
-@property(readonly, nonatomic) long long numberOfRemainingItems;
-@property(readonly, nonatomic) long long presentedNumberOfRows;
-@property(readonly) Class superclass;
 
 @end
 

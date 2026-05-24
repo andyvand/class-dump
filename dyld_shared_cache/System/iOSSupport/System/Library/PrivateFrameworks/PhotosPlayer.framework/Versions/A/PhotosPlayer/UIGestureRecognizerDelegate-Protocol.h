@@ -5,5 +5,8 @@
 //
 
 @protocol UIGestureRecognizerDelegate
+
+@optional
+- (_Bool)T@"GEOMapItemIdentifier",R,N;
 @end
 

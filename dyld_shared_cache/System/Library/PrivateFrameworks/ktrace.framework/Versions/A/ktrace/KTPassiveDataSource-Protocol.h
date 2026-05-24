@@ -5,5 +5,7 @@
 //
 
 @protocol KTPassiveDataSource
+- (_Bool);
+- (id);
 @end
 

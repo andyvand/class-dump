@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDistributedTimestampStateVector, CKMergeableValueID, CKMultiValueMergeableDeltaRegister, CKMultiValueMergeableDeltaRegisterState, NSArray, NSSet, NSString;
-
 @interface CKMergeableRecordValue
 {
     _Bool _isValueIDKnownToServer;
-    _Bool _inlineReplacementEnabled;
-    CKMergeableValueID *_valueID;
-    CKDistributedTimestampStateVector *_lastKnownServerTimestampVector;
-    NSSet *_deltasToSave;
-    NSSet *_savedDeltaMetadatas;
-    NSSet *_unmergedDeltas;
-    CKMultiValueMergeableDeltaRegisterState *_multiValueRegisterState;
-    long long _encryptMetadataTernary;
-    NSSet *_serverDeltaMetadatas;
-    NSArray *_pendingReplacementRequests;
-    unsigned long long _enabledFaultErrors;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,12 +29,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)=;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -56,12 +43,12 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)M;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)A;
 - (void);
 - (id);
 - (id);
@@ -71,32 +58,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)cloudDocsCachesURLForPersonaID:(id)arg1 needsPersonaSwitch: /* Error: Ran out of types for this method. */;
 - (void)ÿÿÿÿ,;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSSet *deltasToSave; // @synthesize deltasToSave=_deltasToSave;
-@property(readonly, copy) NSString *description;
-@property unsigned long long enabledFaultErrors; // @synthesize enabledFaultErrors=_enabledFaultErrors;
-@property(nonatomic) _Bool encryptMetadata;
-@property(nonatomic) long long encryptMetadataTernary; // @synthesize encryptMetadataTernary=_encryptMetadataTernary;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inlineReplacementEnabled; // @synthesize inlineReplacementEnabled=_inlineReplacementEnabled;
-@property(nonatomic) _Bool isValueIDKnownToServer; // @synthesize isValueIDKnownToServer=_isValueIDKnownToServer;
-@property(copy, nonatomic) CKDistributedTimestampStateVector *lastKnownServerTimestampVector; // @synthesize lastKnownServerTimestampVector=_lastKnownServerTimestampVector;
-@property(readonly, nonatomic) CKMultiValueMergeableDeltaRegister *multiValueRegister;
-@property(retain, nonatomic) CKMultiValueMergeableDeltaRegisterState *multiValueRegisterState; // @synthesize multiValueRegisterState=_multiValueRegisterState;
-@property(copy, nonatomic) NSArray *pendingReplacementRequests; // @synthesize pendingReplacementRequests=_pendingReplacementRequests;
-@property(copy, nonatomic) NSSet *savedDeltaMetadatas; // @synthesize savedDeltaMetadatas=_savedDeltaMetadatas;
-@property(copy, nonatomic) NSSet *serverDeltaMetadatas; // @synthesize serverDeltaMetadatas=_serverDeltaMetadatas;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSSet *unmergedDeltas; // @synthesize unmergedDeltas=_unmergedDeltas;
-@property(copy, nonatomic) CKMergeableValueID *valueID; // @synthesize valueID=_valueID;
 
 @end
 

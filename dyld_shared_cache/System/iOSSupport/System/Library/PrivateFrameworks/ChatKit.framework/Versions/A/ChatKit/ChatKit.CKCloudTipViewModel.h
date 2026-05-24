@@ -9,16 +9,14 @@
 @interface ChatKit.CKCloudTipViewModel
 {
     ChatKit.CKCloudTipDescriptor *currentTipDescriptor;
-    void onCloudTipChanged;
-    long long displayContext;
 }
 
-+ (void);
++ (void)cted. Fetching container and accountID.;
 + (void);
 + (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)ny time in Notes Settings.;
 - (id);
 - (void);
 - (void);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) ChatKit.CKCloudTipDescriptor *currentTipDescriptor; // @synthesize currentTipDescriptor;
-@property(nonatomic) long long displayContext; // @synthesize displayContext;
-@property(nonatomic, copy) CDUnknownBlockType onCloudTipChanged;
 
 @end
 

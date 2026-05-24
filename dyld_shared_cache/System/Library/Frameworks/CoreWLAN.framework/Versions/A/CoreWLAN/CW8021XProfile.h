@@ -9,13 +9,9 @@
 @interface CW8021XProfile
 {
     NSString *_userDefinedName;
-    NSString *_ssid;
-    NSString *_username;
-    NSString *_password;
-    _Bool _alwaysPromptForPassword;
 }
 
-+ (id);
++ (id), ;
 + (id);
 - (void);
 - (void);
@@ -27,19 +23,15 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)arilyDisabledAndReply: /* Error: Ran out of types for this method. */;
+- (id)queryAutoJoinTemporarilyDisabledAndReply: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool alwaysPromptForPassword; // @synthesize alwaysPromptForPassword=_alwaysPromptForPassword;
-@property(copy) NSString *password; // @synthesize password=_password;
-@property(copy) NSString *ssid; // @synthesize ssid=_ssid;
 @property(copy) NSString *userDefinedName; // @synthesize userDefinedName=_userDefinedName;
-@property(copy) NSString *username; // @synthesize username=_username;
 
 @end
 

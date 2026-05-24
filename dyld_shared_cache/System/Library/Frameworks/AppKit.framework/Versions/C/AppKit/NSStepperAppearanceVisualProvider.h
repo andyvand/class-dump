@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-
 __attribute__((visibility("hidden")))
 @interface NSStepperAppearanceVisualProvider
 {
     id stepper;
-    id widgetView;
-    CDStruct_77becdfd currentDrawingState;
-    id mustUseContextDrawing;
 }
 
-- (void);
-- (long long);
-- (void);
-- (void);
-- (id);
-- (CDStruct_77becdfd);
-- (int);
+- (void)C;
+- (long long);
+- (void)}{%p};
+- (void)AsSpecified=Cd}[256C]*Q***}8C328;
+- (id)}C}16;
+- (CDStruct_77becdfd)data d WHERE r.request_key=%q AND b.entry_ID=r.entry_ID AND b.entry_ID=d.entry_ID;;
+- (int)t modern secure networking protocols such as HTTPS.;
 - (void);
 - (id);
 - (struct CGSize);
@@ -30,11 +25,7 @@ __attribute__((visibility("hidden")))
 - (struct NSEdgeInsets)Lýþ;
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) int blendModeForContextDrawing;
 @property(nonatomic) CDStruct_77becdfd currentDrawingState; // @synthesize currentDrawingState;
-@property(nonatomic, readonly) NSView *designatedFocusRingView;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
 
 @end
 

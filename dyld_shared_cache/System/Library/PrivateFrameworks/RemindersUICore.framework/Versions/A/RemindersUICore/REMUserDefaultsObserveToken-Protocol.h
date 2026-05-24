@@ -5,6 +5,5 @@
 //
 
 @protocol REMUserDefaultsObserveToken
-- (void);
 @end
 

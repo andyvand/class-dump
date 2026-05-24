@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CKTapbackPickerCollectionView
 {
     id scrollDelegate;
-    id xPointForBoundaryBetweenSections;
-    id itemWidth;
 }
 
 - (id);

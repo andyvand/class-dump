@@ -6,24 +6,12 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@class MPSNNNeuronDescriptor;
-@protocol MPSCNNBatchNormalizationDataSource, MTLBuffer;
-
 @interface MPSCNNBatchNormalization : MPSCNNKernel
 {
     void *_gamma;
-    void *_beta;
-    void *_meanDS;
-    void *_varDS;
-    id <MPSCNNBatchNormalizationDataSource> _dataSource;
-    _Bool _stateNeedsToLoad;
-    MPSNNNeuronDescriptor *_fusedNeuronDescriptor;
-    id <MTLBuffer> _preluBuffer;
-    float _epsilon;
-    unsigned long long _numberOfFeatureChannels;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (void);
 - (void);
 - (void);
@@ -54,8 +42,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) id <MPSCNNBatchNormalizationDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
 @property(readonly, nonatomic) unsigned long long numberOfFeatureChannels; // @synthesize numberOfFeatureChannels=_numberOfFeatureChannels;
 
 @end

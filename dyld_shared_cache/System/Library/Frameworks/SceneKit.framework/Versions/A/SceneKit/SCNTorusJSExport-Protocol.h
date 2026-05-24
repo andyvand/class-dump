@@ -5,11 +5,9 @@
 //
 
 @protocol SCNTorusJSExport
+- (double);
 
 // Remaining properties
-@property(nonatomic) double pipeRadius;
-@property(nonatomic) long long pipeSegmentCount;
 @property(nonatomic) double ringRadius;
-@property(nonatomic) long long ringSegmentCount;
 @end
 

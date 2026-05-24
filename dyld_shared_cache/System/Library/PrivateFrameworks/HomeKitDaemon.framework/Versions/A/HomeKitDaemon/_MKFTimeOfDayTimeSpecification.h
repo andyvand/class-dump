@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFBulletinTimeSpecification.h>
 
-@class MKFTimeOfDayTimeSpecificationDatabaseID, NSDate, NSNumber, NSString, NSUUID;
-@protocol MKFTimePeriodBulletinCondition;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface _MKFTimeOfDayTimeSpecification : _MKFBulletinTimeSpecification
@@ -16,24 +15,11 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (id);
+- (id)8;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFTimeOfDayTimeSpecificationDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) id <MKFTimePeriodBulletinCondition> endCondition;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSNumber *hour; // @dynamic hour;
-@property(copy, nonatomic) NSNumber *minute; // @dynamic minute;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(retain, nonatomic) id <MKFTimePeriodBulletinCondition> startCondition;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

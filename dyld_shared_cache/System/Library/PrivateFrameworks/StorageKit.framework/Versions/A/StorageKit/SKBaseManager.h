@@ -10,7 +10,7 @@
 }
 
 + (id);
-+ (id);
++ (id)mouseEntered: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)VCCaptionsReceiver_ProcessCaptionsData;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool supportsCocoa; // @synthesize supportsCocoa=_supportsCocoa;

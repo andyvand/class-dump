@@ -14,7 +14,7 @@
 + (unsigned int);
 + (void);
 + (id);
-+ (id);
++ (id)er;
 
 @end
 

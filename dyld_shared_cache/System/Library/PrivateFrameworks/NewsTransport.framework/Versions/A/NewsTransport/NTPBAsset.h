@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NTPBDate;
-
 @interface NTPBAsset
 {
     int _error;
-    NSString *_etag;
-    NTPBDate *_expiresAt;
-    unsigned int _size;
-    NSData *_wrappingKeyID;
-    struct {
-        unsigned int error:1;
-        unsigned int size:1;
-    } _has;
 }
 
 @end

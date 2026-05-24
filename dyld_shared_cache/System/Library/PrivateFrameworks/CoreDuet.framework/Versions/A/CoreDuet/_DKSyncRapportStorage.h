@@ -28,8 +28,8 @@
 × ;
 - (void)/!4Gù1ª3Ð1Â0@ù
 × ;
-- (long long)essInfo;
-- (void)actionDeletedEventPublisher;
+- (long long)processInfo;
+- (void)_interactionDeletedEventPublisher;
 - (void)blic}@:Deletion predicate = %@ /* Error: Ran out of types for this method. */;
 
 @end

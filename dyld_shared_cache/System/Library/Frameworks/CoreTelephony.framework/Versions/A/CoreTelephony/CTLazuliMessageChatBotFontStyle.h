@@ -7,15 +7,13 @@
 @interface CTLazuliMessageChatBotFontStyle
 {
     _Bool _bold;
-    _Bool _italics;
-    _Bool _underline;
 }
 
-+ (_Bool);
++ (_Bool)ideoRendition:%@ audioRendition:%@ subtitleRendition:%@ loadedTimeRanges:%@ didSucceed:%d> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)cA9;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -23,13 +21,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ometry",R,N,V_biometry;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool bold; // @synthesize bold=_bold;
-@property(nonatomic) _Bool italics; // @synthesize italics=_italics;
-@property(nonatomic) _Bool underline; // @synthesize underline=_underline;
 
 @end
 

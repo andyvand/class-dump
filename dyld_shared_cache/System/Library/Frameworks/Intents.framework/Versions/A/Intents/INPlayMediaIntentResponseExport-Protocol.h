@@ -7,12 +7,11 @@
 @class NSDictionary;
 
 @protocol INPlayMediaIntentResponseExport
-- (long long)rtedReason;
+- (long long)hasJoinCallIntentGroupConversationUnsupportedReason;
 - (NSDictionary *)son;
 - (void):(NSDictionary *)arg1 %@;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSDictionary *nowPlayingInfo;
 @end
 

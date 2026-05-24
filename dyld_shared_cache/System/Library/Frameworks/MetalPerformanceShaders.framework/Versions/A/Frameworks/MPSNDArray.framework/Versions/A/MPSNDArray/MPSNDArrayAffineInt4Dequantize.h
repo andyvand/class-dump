@@ -13,7 +13,7 @@
     MPSNDArrayAffineQuantizationDescriptor *_quantizationDescriptor;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *)K;
 - (id);
 - (unsigned long long);
 - (id);

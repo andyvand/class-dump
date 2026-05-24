@@ -7,7 +7,9 @@
 @protocol CBCentralManagerDelegate
 
 @optional
-- (void)ATEGORY_PAY_ONE_NINTH_STATEMENT_BALANCE_TITLE;
+- (void);
+- (void);
+- (void)ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_PAY_ONE_NINTH_STATEMENT_BALANCE_TITLE;
 - (void)roduct;
 @end
 

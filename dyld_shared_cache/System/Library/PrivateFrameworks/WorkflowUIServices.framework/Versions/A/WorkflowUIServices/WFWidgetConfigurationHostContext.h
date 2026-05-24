@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WFWidgetConfigurationHostContext
 {
     struct CGSize _latestPreferredContentSize;
-    id <WFWidgetConfigurationHostContextDelegate> _widgetConfigurationDelegate;
 }
 
 + (id);

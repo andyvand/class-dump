@@ -9,8 +9,6 @@
 @interface SXNamespacedObjectReferences
 {
     NSMutableDictionary *_componentStyleReferences;
-    NSMutableDictionary *_componentTextStyleReferences;
-    NSMutableDictionary *_textStyleReferences;
 }
 
 - (id);

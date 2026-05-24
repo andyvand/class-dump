@@ -9,18 +9,16 @@
 @interface MPSNNCompare : MPSCNNArithmetic
 {
     float _threshold;
-    unsigned long long _comparisonType;
 }
 
 - (void);
-- (void);
+- (void)piggybackingRequestorPresenceSID;
 - (unsigned long long);
 - (id)tNeuron;
 - (float);
 
 // Remaining properties
 @property(nonatomic) unsigned long long comparisonType; // @synthesize comparisonType=_comparisonType;
-@property(nonatomic) float threshold; // @synthesize threshold=_threshold;
 
 @end
 

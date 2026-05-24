@@ -7,6 +7,7 @@
 @protocol EMMailboxTypeResolver;
 
 @protocol EMThreadBuilder
+- (id <EMMailboxTypeResolver>)8U@;
 
 // Remaining properties
 @property(retain) id <EMMailboxTypeResolver> mailboxTypeResolver;

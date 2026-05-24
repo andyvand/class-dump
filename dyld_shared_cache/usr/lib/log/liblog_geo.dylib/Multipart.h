@@ -9,12 +9,11 @@ __attribute__((visibility("hidden")))
 {
     unsigned long long identifier;
     unsigned char partIndex;
-    unsigned char partCount;
 }
 
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)h;
+- (_Bool),UpdateNonce;
 - (id);
 - (id);
 

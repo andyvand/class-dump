@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, UIView;
+@protocol CKPinnedConversationContactItemView;
 
 @protocol CKPinnedConversationContactItem
+- (void)setInsertionController:(long long)arg1;
+- (NSString *);
+- (UIView<CKPinnedConversationContactItemView> *)notes switch migration prompt…;
 
 // Remaining properties
-@property(nonatomic) long long contactItemAlignment;
 @property(readonly, nonatomic) NSString *contactItemIdentifier;
-@property(nonatomic) double contentScale;
 @end
 

@@ -4,57 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-@protocol AAAnalyticsReporting, AACustodianDaemonConnectionProviding;
+@protocol AACustodianDaemonConnectionProviding;
 
 @interface AACustodianController
 {
     id <AACustodianDaemonConnectionProviding> _daemonConnection;
-    NSString *_ownerCustodianAltDSID;
-    NSData *_encryptedPRKC;
-    id <AAAnalyticsReporting> _analyticsReporter;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)<------------- Went through all known policies to clean up unused ones;
+- (void)rgeAllPasscodePolicies kPasscodeMinLength status error = %d;
+- (void)clean up unused ones -------->;
+- (void)Description = %s;
+- (void)ion = %s;
+- (void)WriteURLDataAndPropertiesToResource to '%s'; bytes written = %ld; error = %ld;
+- (void)%s;
+- (void)net.account;
+- (void)nt;
+- (void)m.apple.globalethernet.managed;
+- (void)naged;
+- (void)CP_SetupACMContextWithBootstrapToken;
+- (void)s received Bootstrap Token:(CDUnknownBlockType)arg1 %d;
+- (void)te Bootstrap Token with authentication provided.;
+- (id)rUsingPayload found agent port %d;
+- (void)ationReceived uids left = %lu; mDone = %d;
+- (void)ompositorWatcher:(id)arg1 -dealloc done removing notification observer;
+- (void)her:(CDUnknownBlockType)arg1 -dealloc removing notification observer;
+- (void)CompositorWatcher:(CDUnknownBlockType)arg1 -dealloc entered;
+- (void):(id)arg1 %s;
+- (void)remove the file - no work to do;
+- (void)ileInHomeDir() given no lock file and told to not remove the file - no work to do;
+- (void)r = %d;
+- (void)LockFileInHomeDir():(id)arg1 returning lock file descriptor = %d, error = %d;
+- (void)():(CDUnknownBlockType)arg1 lockFileDescriptor = %d, deviceAddress = %s;
+- (void):(CDUnknownBlockType)arg1 fsync(%d) = %d (%s);
+- (void)dOpenMCXLockFileInHomeDir():(CDUnknownBlockType)arg1 write(%d, "%s", %lu) = %ld (%s);
+- (void)penMCXLockFileInHomeDir():(id)arg1 open("%s", O_RDWR|O_CREAT|O_SHLOCK=0x%x, S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH=0o%o) = %d (%s);
+- (void)s];
+- (_Bool)ist is not NSDictionary or NSArray;
+- (void)use "%s";
+- (void)ctionaryToPath(path="%s",  domain="%s") = FAIL! (Make sure path does not contain domain and that the path exists on your volume.  You may need to remove the local home if you continue to have this problem.);
+- (void)for uuid %s;
+- (void)ychainPasswordForUUID did NOT find sec keychain item for uuid %s;
+- (void)opyMatching status = %d;
+- (void)on = %d;
+- (void)%lu;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void)derFieldKey;
+- (void)headerFieldKey;
 
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInputStream, NSMutableArray;
-@protocol DKDAAPParserDelegate;
+@class NSInputStream;
 
 @interface DKDAAPParser
 {
     _Bool _canceled;
-    id <DKDAAPParserDelegate> _delegate;
-    long long _state;
-    NSInputStream *_inputStream;
-    NSMutableArray *_containerStack;
 }
 
 - (void);
@@ -33,18 +28,14 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)AdditionalStorageRequiredCheck(withSuccess:(id)arg1 additionalStorageRequired:forAccountId:error:) /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)__TEXT;
+- (void)sticService;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isCanceled) _Bool canceled; // @synthesize canceled=_canceled;
-@property(readonly, nonatomic) NSMutableArray *containerStack; // @synthesize containerStack=_containerStack;
-@property(nonatomic) __weak id <DKDAAPParserDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSInputStream *inputStream; // @synthesize inputStream=_inputStream;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id);
+- (id)36@0:(struct CGRect)arg1 8B16Q20@?28;
 
 @end
 

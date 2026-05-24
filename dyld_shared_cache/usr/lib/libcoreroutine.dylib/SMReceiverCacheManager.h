@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, NSObject, NSUUID, RTDefaultsManager, RTXPCTimerAlarm, SMCache, SMCloudKitFunction, SMMessagingService, SMReceiverContact, SMReceiverSessionStatus, SMSafetyCacheStore;
-@protocol OS_dispatch_queue, SMReceiverCacheManagerDelegateProtocol;
+@class RTXPCTimerAlarm;
 
 @interface SMReceiverCacheManager
 {
     _Bool _receiverContactStored;
-    _Bool _receiverContactStoreInProgress;
-    _Bool _receiverContactUpdatePending;
-    _Bool _acceptShareInvitationInProgress;
-    _Bool _safetyCacheFetchPending;
-    id <SMReceiverCacheManagerDelegateProtocol> _delegate;
-    SMReceiverContact *_receiverContact;
-    SMReceiverSessionStatus *_sessionStatus;
-    RTXPCTimerAlarm *_cachePersistenceTimerAlarm;
-    RTXPCTimerAlarm *_missingKeyReleaseTimerAlarm;
-    RTXPCTimerAlarm *_cacheDownloadTimeoutTimerAlarm;
-    SMSafetyCacheStore *_safetyCacheStore;
-    RTDefaultsManager *_defaultsManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    CKContainer *_container;
-    SMCloudKitFunction *_cloudKitFunction;
-    double _cachePersistenceTime;
-    SMMessagingService *_messagingService;
-    long long _cacheDownloadRetryCount;
-    long long _zoneShareRetryCount;
 }
 
 + (id);
@@ -45,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);;
 - (void);
 - (void);
 - (void);
@@ -71,7 +51,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -80,9 +60,9 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)�;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -91,7 +71,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -112,7 +92,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (void);
@@ -123,41 +103,19 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
+- (void);
+- (id)i;
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)ltsSessionWorkoutMonitorEndWorkoutReminderDate;
+- (id)SMDefaultsSessionWorkoutMonitorEndWorkoutReminderDate;
 - (void)fail,%{public}0.2f,frmLoc,%{sensitive}0.7f,%{sensitive}0.7f,toLoc,%{sensitive}0.7f,%{sensitive}0.7f;
 
 // Remaining properties
-@property(nonatomic) _Bool acceptShareInvitationInProgress; // @synthesize acceptShareInvitationInProgress=_acceptShareInvitationInProgress;
-@property(nonatomic) long long cacheDownloadRetryCount; // @synthesize cacheDownloadRetryCount=_cacheDownloadRetryCount;
-@property(retain, nonatomic) RTXPCTimerAlarm *cacheDownloadTimeoutTimerAlarm; // @synthesize cacheDownloadTimeoutTimerAlarm=_cacheDownloadTimeoutTimerAlarm;
-@property(readonly, nonatomic) double cachePersistenceTime; // @synthesize cachePersistenceTime=_cachePersistenceTime;
 @property(retain, nonatomic) RTXPCTimerAlarm *cachePersistenceTimerAlarm; // @synthesize cachePersistenceTimerAlarm=_cachePersistenceTimerAlarm;
-@property(retain, nonatomic) SMCloudKitFunction *cloudKitFunction; // @synthesize cloudKitFunction=_cloudKitFunction;
-@property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(nonatomic) __weak id <SMReceiverCacheManagerDelegateProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) SMMessagingService *messagingService; // @synthesize messagingService=_messagingService;
-@property(retain, nonatomic) RTXPCTimerAlarm *missingKeyReleaseTimerAlarm; // @synthesize missingKeyReleaseTimerAlarm=_missingKeyReleaseTimerAlarm;
-@property(readonly, nonatomic) SMCache *phoneCache;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) SMReceiverContact *receiverContact; // @synthesize receiverContact=_receiverContact;
-@property(nonatomic) _Bool receiverContactStoreInProgress; // @synthesize receiverContactStoreInProgress=_receiverContactStoreInProgress;
-@property(nonatomic) _Bool receiverContactStored; // @synthesize receiverContactStored=_receiverContactStored;
-@property(nonatomic) _Bool receiverContactUpdatePending; // @synthesize receiverContactUpdatePending=_receiverContactUpdatePending;
-@property(nonatomic) _Bool safetyCacheFetchPending; // @synthesize safetyCacheFetchPending=_safetyCacheFetchPending;
-@property(readonly, nonatomic) SMSafetyCacheStore *safetyCacheStore; // @synthesize safetyCacheStore=_safetyCacheStore;
-@property(readonly, nonatomic) NSUUID *sessionID;
-@property(retain, nonatomic) SMReceiverSessionStatus *sessionStatus; // @synthesize sessionStatus=_sessionStatus;
-@property(readonly, nonatomic) SMCache *watchCache;
-@property(nonatomic) long long zoneShareRetryCount; // @synthesize zoneShareRetryCount=_zoneShareRetryCount;
 
 @end
 

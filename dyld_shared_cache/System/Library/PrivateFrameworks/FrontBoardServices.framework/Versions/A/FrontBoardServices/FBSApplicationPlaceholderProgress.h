@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSApplicationPlaceholder, NSObject, NSProgress, NSString;
+@class FBSApplicationPlaceholder, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface FBSApplicationPlaceholderProgress
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSProgress *_progress;
-    int _invalidated;
-    long long _cancellationAllowed;
-    long long _state;
-    double _percentComplete;
-    unsigned long long _installPhase;
-    unsigned long long _installState;
-    unsigned long long _expectedFinalInstallPhase;
-    FBSApplicationPlaceholder *_placeholder;
 }
 
 - (_Bool);
@@ -36,30 +27,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (void);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)alarmModification;
 - (void);
 - (double);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long expectedFinalInstallPhase; // @synthesize expectedFinalInstallPhase=_expectedFinalInstallPhase;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long installPhase; // @synthesize installPhase=_installPhase;
-@property(readonly, nonatomic) unsigned long long installState; // @synthesize installState=_installState;
-@property(readonly, nonatomic) double percentComplete; // @synthesize percentComplete=_percentComplete;
 @property(readonly, nonatomic) __weak FBSApplicationPlaceholder *placeholder; // @synthesize placeholder=_placeholder;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)¼BÑÿòO;
-- (void);
+- (void)(ab2;
 - (_Bool)ùqd°1Â0@ù
 × ;
 - (void)ä;

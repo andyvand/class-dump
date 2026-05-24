@@ -4,49 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSMutableArray, NSXPCConnection;
 
 @interface UNOneTimeCodeServiceConnection
 {
     NSMutableArray *_observers;
-    NSXPCConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callOutQueue;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void)�;
+- (id);
+- (void)setRecipientNames: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callOutQueue; // @synthesize callOutQueue=_callOutQueue;
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

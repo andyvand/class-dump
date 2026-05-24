@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface BKSHIDEventDeliveryRuleChangeTransaction
 {
     unsigned long long _contentsMask;
-    NSArray *_discreteDispatchingRules;
-    NSArray *_deferringRules;
-    NSArray *_keyCommandDispatchingRules;
-    NSArray *_keyCommandsRegistrations;
-    NSArray *_bufferingPredicates;
-    NSArray *_constraintAssertions;
-    NSArray *_modalityAssertions;
-    NSArray *_selectionRequests;
 }
 
 + (_Bool);
@@ -38,7 +28,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)setObject:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -47,22 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *bufferingPredicates; // @synthesize bufferingPredicates=_bufferingPredicates;
-@property(copy, nonatomic) NSArray *constraintAssertions; // @synthesize constraintAssertions=_constraintAssertions;
 @property(nonatomic) unsigned long long contentsMask; // @synthesize contentsMask=_contentsMask;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSArray *deferringRules; // @synthesize deferringRules=_deferringRules;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *discreteDispatchingRules; // @synthesize discreteDispatchingRules=_discreteDispatchingRules;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *keyCommandDispatchingRules; // @synthesize keyCommandDispatchingRules=_keyCommandDispatchingRules;
-@property(copy, nonatomic) NSArray *keyCommandsRegistrations; // @synthesize keyCommandsRegistrations=_keyCommandsRegistrations;
-@property(copy, nonatomic) NSArray *modalityAssertions; // @synthesize modalityAssertions=_modalityAssertions;
-@property(copy, nonatomic) NSArray *selectionRequests; // @synthesize selectionRequests=_selectionRequests;
-@property(readonly) Class superclass;
 
 @end
 

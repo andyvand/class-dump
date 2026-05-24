@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2DDLinkShown
 {
     int _interface;
-    NSString *_key;
-    struct {
-        unsigned int interface:1;
-    } _has;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (int);
-- (id);
-- (void);
+- (id)*;
+- (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)s %f, sourceAdaptationNits %f;
 - (id);
-- (int);
+- (int)charge_duration_p_0_00_at_charge_start_secs_curr_static_bin;
 - (_Bool);
 - (void);
 - (id);
@@ -36,10 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasInterface;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) int interface; // @synthesize interface=_interface;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

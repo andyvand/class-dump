@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationExtensionRecord, NSString, NSUUID;
-@protocol PKPlugInProxy, PKPropertyList;
+@class LSApplicationExtensionRecord;
 
 @interface PKPlugInRecordProxy
 {
@@ -13,34 +12,20 @@
 }
 
 - (void);
+- (id)~H1;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
+- (id)P;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *bundleIdentifier;
-@property(readonly) NSString *bundleVersion;
-@property(readonly) id <PKPlugInProxy> compatibilityObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <PKPropertyList> entitlements;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *localizedName;
-@property(readonly) NSString *localizedShortName;
 @property(retain, nonatomic) LSApplicationExtensionRecord *lsRecord; // @synthesize lsRecord=_lsRecord;
-@property(readonly) Class superclass;
-@property(readonly) NSUUID *uniqueIdentifier;
 
 @end
 

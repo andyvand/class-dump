@@ -7,6 +7,7 @@
 @class UIViewController;
 
 @protocol PKHandwritingDataCollecting
+- (void);
 
 // Remaining properties
 @property(readonly) UIViewController *viewController;

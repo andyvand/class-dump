@@ -9,9 +9,6 @@
 @interface PXOneUpSettings : PXSettings
 {
     _Bool _hideFloatingInfoPanel;
-    _Bool _reverseFavoritesOneUpSortOrder;
-    double _maximumWhitespaceWidthForInitialZoomToFill;
-    double _maximumWhitespaceHeightForInitialZoomToFill;
 }
 
 + (id);
@@ -29,10 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hideFloatingInfoPanel; // @synthesize hideFloatingInfoPanel=_hideFloatingInfoPanel;
-@property(nonatomic) double maximumWhitespaceHeightForInitialZoomToFill; // @synthesize maximumWhitespaceHeightForInitialZoomToFill=_maximumWhitespaceHeightForInitialZoomToFill;
 @property(nonatomic) double maximumWhitespaceWidthForInitialZoomToFill; // @synthesize maximumWhitespaceWidthForInitialZoomToFill=_maximumWhitespaceWidthForInitialZoomToFill;
-@property(nonatomic) _Bool reverseFavoritesOneUpSortOrder; // @synthesize reverseFavoritesOneUpSortOrder=_reverseFavoritesOneUpSortOrder;
 
 @end
 

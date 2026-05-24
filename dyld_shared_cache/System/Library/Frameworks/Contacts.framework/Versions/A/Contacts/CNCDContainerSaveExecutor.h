@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)$;
 - (void);
 - (id);
-- (void)ring;
+- (void);
+- (id)or">36;
+- (void)urlString;
 
 // Remaining properties
 @property(readonly, nonatomic) CNCDSaveContext *saveContext; // @synthesize saveContext=_saveContext;

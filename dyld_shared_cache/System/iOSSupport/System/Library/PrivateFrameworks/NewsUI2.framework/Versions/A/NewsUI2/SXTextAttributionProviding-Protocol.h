@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol SXTextAttributionProviding
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *attribution;

@@ -6,6 +6,7 @@
 
 @interface XavierNews.Classic.HeadlineScoreProfile
 {
+    id articleCohorts;
 }
 
 @end

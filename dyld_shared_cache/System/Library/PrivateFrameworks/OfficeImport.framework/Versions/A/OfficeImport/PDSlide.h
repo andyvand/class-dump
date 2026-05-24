@@ -6,15 +6,12 @@
 
 #import <OfficeImport/PDSlideChild.h>
 
-@class NSMutableArray, OITSUNoCopyDictionary, PDNotesSlide, PDSlideLayout;
+@class OITSUNoCopyDictionary, PDSlideLayout;
 
 __attribute__((visibility("hidden")))
 @interface PDSlide : PDSlideChild
 {
     PDSlideLayout *mSlideLayout;
-    NSMutableArray *mComments;
-    PDNotesSlide *mNotesSlide;
-    OITSUNoCopyDictionary *mCommentParents;
 }
 
 - (id);
@@ -37,8 +34,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (void)¤;
 - (id)0;

@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBArticleViewWatch
 {
     int _articleHostViewTypeWatch;
-    NSString *_articleId;
-    NSString *_articleViewingSessionIdWatch;
-    NSString *_sourceChannelId;
-    _Bool _didScroll;
-    struct {
-        unsigned int articleHostViewTypeWatch:1;
-        unsigned int didScroll:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
-- (void);
-- (_Bool);
-- (id);
-- (void);
+- (void)allShelvesCollapsingOpacityAnimationDelay;
+- (void)activeFilterCount;
+- (void)_workaroundSettings;
+- (void)_widgetSpec;
+- (_Bool)_swipeParametersForScrollView:rect:count:speed:direction: /* Error: Ran out of types for this method. */;
+- (_Bool)_storeTargetIdentifierLookupForTileState:withIndex: /* Error: Ran out of types for this method. */;
+- (id)_showDebugErrorUI;
+- (int)_shouldUseRetrievedAssetsForLoadingAnimation;
+- (void)_setCollectionsFetchResultBySection:(_Bool)arg1;
+- (_Bool)_selectionSnapshotForPerformerClass: /* Error: Ran out of types for this method. */;
+- (id)popoverControllerDidDismissPopover: /* Error: Ran out of types for this method. */;
+- (void)fPOICategory:(id)arg1 withinVenue:maxResults:completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -39,24 +29,15 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)nonBundleInputConfiguration from configuration %{public}@;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (void)d;
+- (void)hasMediaPlayMethod;
 
 // Remaining properties
-@property(nonatomic) int articleHostViewTypeWatch; // @synthesize articleHostViewTypeWatch=_articleHostViewTypeWatch;
-@property(retain, nonatomic) NSString *articleId; // @synthesize articleId=_articleId;
-@property(retain, nonatomic) NSString *articleViewingSessionIdWatch; // @synthesize articleViewingSessionIdWatch=_articleViewingSessionIdWatch;
-@property(nonatomic) _Bool didScroll; // @synthesize didScroll=_didScroll;
 @property(nonatomic) _Bool hasArticleHostViewTypeWatch;
-@property(readonly, nonatomic) _Bool hasArticleId;
-@property(readonly, nonatomic) _Bool hasArticleViewingSessionIdWatch;
-@property(nonatomic) _Bool hasDidScroll;
-@property(readonly, nonatomic) _Bool hasSourceChannelId;
-@property(retain, nonatomic) NSString *sourceChannelId; // @synthesize sourceChannelId=_sourceChannelId;
 
 @end
 

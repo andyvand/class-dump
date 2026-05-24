@@ -13,7 +13,7 @@
 + (Class);
 + (long long),V_reservations;
 - (id);
-- (id)ansformer;
+- (id)INIntentCallGroupConversationFilterSlotValueTransformer;
 
 @end
 

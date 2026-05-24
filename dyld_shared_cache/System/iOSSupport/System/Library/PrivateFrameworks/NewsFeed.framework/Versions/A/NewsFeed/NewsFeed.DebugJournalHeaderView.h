@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)er:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)L: X /* Error: Ran out of types for this method. */;
 

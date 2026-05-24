@@ -6,15 +6,12 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSString;
-
 @interface GEOMapSubscriptionForceUpdateRequest : GEOXPCRequest
 {
     unsigned long long _dataTypes;
-    unsigned long long _downloadMode;
 }
 
-+ (Class);
++ (Class)authCodeFromWebPageTitle: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -22,19 +19,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void)onQueue:(id)arg1 withResult:error: /* Error: Ran out of types for this method. */;
+- (_Bool)normalizedSpotDirectionEyeLoc;
+- (void)callCompletion:(id)arg1 onQueue:withResult:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long dataTypes; // @synthesize dataTypes=_dataTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long downloadMode; // @synthesize downloadMode=_downloadMode;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDateComponents, NSSet, NSString;
+@class NSArray;
 
 @interface PHSearchSuggestion
 {
     NSArray *_personUUIDs;
-    NSString *_text;
-    unsigned long long _categoriesType;
-    unsigned long long _count;
-    unsigned long long _version;
-    unsigned long long _type;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSDateComponents *_startDateComponents;
-    NSDateComponents *_endDateComponents;
-    NSSet *_locationAssetUUIDs;
-    NSArray *_suggestionComponents;
-    NSArray *_momentUUIDs;
-    NSArray *_nextTokenSuggestions;
-    struct _NSRange _matchRangeOfSearchText;
 }
 
 + (id);

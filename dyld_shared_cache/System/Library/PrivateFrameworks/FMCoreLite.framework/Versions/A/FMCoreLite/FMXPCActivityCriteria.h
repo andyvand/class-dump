@@ -7,11 +7,6 @@
 @interface FMXPCActivityCriteria
 {
     _Bool _repeating;
-    long long _priority;
-    long long _delay;
-    long long _gracePeriod;
-    long long _interval;
-    unsigned long long _options;
 }
 
 + (unsigned long long);
@@ -22,11 +17,11 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id)Th;
 - (void);
 - (void);
-- (long long);
-- (unsigned long long);
+- (long long);
+- (unsigned long long)t;
 - (id);
 - (_Bool);
 - (void);
@@ -35,12 +30,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) long long delay; // @synthesize delay=_delay;
-@property(nonatomic) long long gracePeriod; // @synthesize gracePeriod=_gracePeriod;
-@property(nonatomic) long long interval; // @synthesize interval=_interval;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(nonatomic) _Bool repeating; // @synthesize repeating=_repeating;
 
 @end
 

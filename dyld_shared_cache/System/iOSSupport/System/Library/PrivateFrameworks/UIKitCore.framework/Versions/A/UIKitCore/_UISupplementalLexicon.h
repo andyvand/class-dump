@@ -9,18 +9,16 @@
 @interface _UISupplementalLexicon
 {
     id _internal;
-    NSArray *_items;
-    unsigned long long _searchPrefixes;
 }
 
 - (id);
-- (id);
+- (id)ssageSyncController | Recently Deleted:(id)arg1 could not write record:%@ encountered error:%@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id):absoluteOffset: /* Error: Ran out of types for this method. */;
+- (id)layoutAnchorWithEdges:absoluteOffset: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

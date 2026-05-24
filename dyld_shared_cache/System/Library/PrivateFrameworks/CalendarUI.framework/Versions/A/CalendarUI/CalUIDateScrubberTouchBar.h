@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSScrubber, NSString, NSTouchBar, NSView;
 @protocol CalUIDateScrubberTouchBarDelegate;
 
 @interface CalUIDateScrubberTouchBar
 {
     _Bool _scrubbersLoaded;
-    _Bool _activeScrubberHasInteraction;
-    _Bool _activeScrubberIsScrolling;
-    id <CalUIDateScrubberTouchBarDelegate> _delegate;
-    NSTouchBar *_touchBar;
-    NSView *_scrubberContainer;
-    NSScrubber *_activeScrubber;
-    NSDate *_selectedDate;
-    NSScrubber *_dateScrubberDaily;
-    NSScrubber *_dateScrubberWeekly;
-    NSScrubber *_dateScrubberMonthly;
-    NSScrubber *_dateScrubberYearly;
-    NSCalendar *_calendar;
-    NSDate *_originDate;
-    long long _daysPerWeek;
-    long long _firstDayOfWeek;
 }
 
 - (id);
@@ -32,16 +16,16 @@
 - (void);
 - (void);
 - (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)h;
 - (id);
 - (void);
 - (long long);
@@ -59,60 +43,38 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)?%;
 - (_Bool);
 - (void);
+- (void);
+- (void)9	;
+- (long long);
 - (void);
 - (void);
+- (id);
 - (long long);
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)?;
 - (id);
 - (void)5 ð!¸BùqÃ#°1Â0@ù
 × ;
 - (void)8ÃÄÃøÃ;
 - (void)Ø< ¤ ;
-- (id)nference;
+- (id)VirtualConference;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSScrubber *activeScrubber; // @synthesize activeScrubber=_activeScrubber;
-@property _Bool activeScrubberHasInteraction; // @synthesize activeScrubberHasInteraction=_activeScrubberHasInteraction;
-@property _Bool activeScrubberIsScrolling; // @synthesize activeScrubberIsScrolling=_activeScrubberIsScrolling;
-@property(retain) NSCalendar *calendar; // @synthesize calendar=_calendar;
-@property(retain) NSScrubber *dateScrubberDaily; // @synthesize dateScrubberDaily=_dateScrubberDaily;
-@property(retain) NSScrubber *dateScrubberMonthly; // @synthesize dateScrubberMonthly=_dateScrubberMonthly;
-@property(retain) NSScrubber *dateScrubberWeekly; // @synthesize dateScrubberWeekly=_dateScrubberWeekly;
-@property(retain) NSScrubber *dateScrubberYearly; // @synthesize dateScrubberYearly=_dateScrubberYearly;
-@property long long daysPerWeek; // @synthesize daysPerWeek=_daysPerWeek;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <CalUIDateScrubberTouchBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property long long firstDayOfWeek; // @synthesize firstDayOfWeek=_firstDayOfWeek;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDate *originDate; // @synthesize originDate=_originDate;
-@property(retain) NSView *scrubberContainer; // @synthesize scrubberContainer=_scrubberContainer;
-@property _Bool scrubbersLoaded; // @synthesize scrubbersLoaded=_scrubbersLoaded;
-@property(retain, nonatomic) NSDate *selectedDate; // @synthesize selectedDate=_selectedDate;
-@property(readonly) Class superclass;
-@property(retain) NSTouchBar *touchBar; // @synthesize touchBar=_touchBar;
 
 @end
 

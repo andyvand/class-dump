@@ -5,15 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 @interface BSXPCMessage
 {
     CDUnknownBlockType _replyHandler;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    int _invalidated;
-    int _replied;
-    NSObject<OS_xpc_object> *_message;
 }
 
 + (void);
@@ -31,7 +27,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool)ß;
 

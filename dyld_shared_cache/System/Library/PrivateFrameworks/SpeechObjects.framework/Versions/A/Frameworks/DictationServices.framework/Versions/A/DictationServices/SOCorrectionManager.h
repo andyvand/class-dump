@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopover, NSString, NSWindow, SOCorrectionViewController;
+@class NSWindow;
 
 @interface SOCorrectionManager
 {
     NSWindow *_textSelectionWindow;
-    NSPopover *_correctionsPopover;
-    SOCorrectionViewController *_correctionsViewController;
-    NSString *_selectedString;
-    CDUnknownBlockType _didShowBlock;
-    CDUnknownBlockType _completionBlock;
 }
 
 + (id);
@@ -25,11 +20,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -40,18 +35,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property NSPopover *correctionsPopover; // @synthesize correctionsPopover=_correctionsPopover;
-@property SOCorrectionViewController *correctionsViewController; // @synthesize correctionsViewController=_correctionsViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType didShowBlock; // @synthesize didShowBlock=_didShowBlock;
-@property(readonly) unsigned long long hash;
-@property NSString *selectedString; // @synthesize selectedString=_selectedString;
-@property(readonly) Class superclass;
 @property NSWindow *textSelectionWindow; // @synthesize textSelectionWindow=_textSelectionWindow;
 
 @end

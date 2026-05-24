@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHFetchResult, PXContentSyndicationConfigurationProvider, PXLibraryFilterState, PXSuggestionsDataSource;
+@class PHFetchResult;
 
 @interface PXSuggestionsDataSourceManager
 {
     unsigned short _dataSourceType;
-    PXLibraryFilterState *_libraryFilterState;
-    PHFetchResult *_fetchResult;
-    CDUnknownBlockType _fetchResultProvider;
-    PXContentSyndicationConfigurationProvider *_contentSyndicationConfigurationProvider;
 }
 
 + (id);
@@ -22,11 +18,11 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
-- (unsigned short);
+- (unsigned short)�;
 - (id);
 - (id)ÿÿÿ(;
 - (id)n-critical buffering;
@@ -35,19 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXContentSyndicationConfigurationProvider *contentSyndicationConfigurationProvider; // @synthesize contentSyndicationConfigurationProvider=_contentSyndicationConfigurationProvider;
-@property(readonly, nonatomic) PXSuggestionsDataSource *dataSource; // @dynamic dataSource;
-@property(readonly, nonatomic) unsigned short dataSourceType; // @synthesize dataSourceType=_dataSourceType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) PHFetchResult *fetchResult; // @synthesize fetchResult=_fetchResult;
-@property(readonly, copy, nonatomic) CDUnknownBlockType fetchResultProvider; // @synthesize fetchResultProvider=_fetchResultProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXLibraryFilterState *libraryFilterState; // @synthesize libraryFilterState=_libraryFilterState;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
-
 @interface SFSessionCache
 {
     _Bool _activated;
-    _Bool _invalidated;
-    NSMutableDictionary *_sessions;
-    NSMutableDictionary *_timestamps;
-    unsigned long long _capacity;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _errorHandler;
-    NSUUID *_identifier;
-    NSString *_serviceIdentifier;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -31,7 +20,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (id);
@@ -40,23 +29,19 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)ڀ;
+- (id)BluetoothHCILESetScanParameters:LEScanInterval:LEScanWindow:ownAddressType:scanningFilterPolicy: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType)Ð;D<Ä<;
 - (void)ÿÿÿ þÿÓþÿæþÿ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(readonly, copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
 
 @end
 

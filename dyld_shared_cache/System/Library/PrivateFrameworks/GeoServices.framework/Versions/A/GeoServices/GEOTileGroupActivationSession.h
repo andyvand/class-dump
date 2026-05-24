@@ -4,36 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOActiveTileGroup, GEODataSetDescription, GEOResourceManifestConfiguration, GEOResources, GEOTileGroup, NSArray, NSObject, NSProgress, NSSet, NSString;
-@protocol GEOTileGroupActivationSessionDelegate, OS_dispatch_queue;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface GEOTileGroupActivationSession
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    struct GEOOnce_s _started;
-    struct GEOOnce_s _finished[2];
-    _Bool _canceled;
-    unsigned long long _phase;
-    id <GEOTileGroupActivationSessionDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSString *_uniqueIdentifier;
-    GEOResourceManifestConfiguration *_configuration;
-    GEOTileGroup *_newTileGroup;
-    GEOResources *_resourceManifest;
-    NSString *_environmentName;
-    GEOActiveTileGroup *_activeTileGroup;
-    NSSet *_activeScales;
-    NSSet *_activeScenarios;
-    NSSet *_activeNames;
-    GEODataSetDescription *_dataSet;
-    NSArray *_migrators;
-    long long _updateType;
-    id _transaction;
-    unsigned long long _stateCaptureHandle;
-    NSProgress *_progress;
-    NSArray *_mandatoryMigrationTasks;
-    NSArray *_opportunisticMigrationTasks;
 }
 
 - (id);
@@ -41,19 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (id)IONS_HOTEL;
+- (id)a;
+- (id)AUTOCOMPLETE_RESULT_SUBTYPE_SUGGESTIONS_HOTEL;
 - (void)E*-CQ@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

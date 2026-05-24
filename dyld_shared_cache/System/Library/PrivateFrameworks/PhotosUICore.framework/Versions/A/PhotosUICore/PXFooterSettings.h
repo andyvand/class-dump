@@ -9,21 +9,10 @@
 @interface PXFooterSettings : PXSettings
 {
     _Bool _shouldAlternateTitleWithGridCycle;
-    _Bool _simulateImportantInformation;
-    _Bool _simulateAnimatedIconMode;
-    _Bool _simulateDisplayedProgress;
-    _Bool _showFilterView;
-    float _minimumDisplayedProgress;
-    float _simulatedProgressValue;
-    long long _alternateTitleGridCycleCount;
-    double _alternateTitleGridCycleDelay;
-    double _alternateTitleCyclingInterval;
-    double _animationDelay;
-    long long _simulatedAnimatedIconMode;
 }
 
 + (void);
-+ (id);
++ (id)ableDictionary",R,N,V_componentsGroupedByMinimumWidth;
 + (id);
 - (float);
 - (long long);
@@ -53,18 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double alternateTitleCyclingInterval; // @synthesize alternateTitleCyclingInterval=_alternateTitleCyclingInterval;
-@property(nonatomic) long long alternateTitleGridCycleCount; // @synthesize alternateTitleGridCycleCount=_alternateTitleGridCycleCount;
-@property(nonatomic) double alternateTitleGridCycleDelay; // @synthesize alternateTitleGridCycleDelay=_alternateTitleGridCycleDelay;
-@property(nonatomic) double animationDelay; // @synthesize animationDelay=_animationDelay;
-@property(nonatomic) float minimumDisplayedProgress; // @synthesize minimumDisplayedProgress=_minimumDisplayedProgress;
 @property(nonatomic) _Bool shouldAlternateTitleWithGridCycle; // @synthesize shouldAlternateTitleWithGridCycle=_shouldAlternateTitleWithGridCycle;
-@property(nonatomic) _Bool showFilterView; // @synthesize showFilterView=_showFilterView;
-@property(nonatomic) _Bool simulateAnimatedIconMode; // @synthesize simulateAnimatedIconMode=_simulateAnimatedIconMode;
-@property(nonatomic) _Bool simulateDisplayedProgress; // @synthesize simulateDisplayedProgress=_simulateDisplayedProgress;
-@property(nonatomic) _Bool simulateImportantInformation; // @synthesize simulateImportantInformation=_simulateImportantInformation;
-@property(nonatomic) long long simulatedAnimatedIconMode; // @synthesize simulatedAnimatedIconMode=_simulatedAnimatedIconMode;
-@property(nonatomic) float simulatedProgressValue; // @synthesize simulatedProgressValue=_simulatedProgressValue;
 
 @end
 

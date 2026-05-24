@@ -7,8 +7,6 @@
 @interface NewsUI2.ChannelIssuesBlueprintModifierFactory
 {
     id issueModelFactory;
-    id paidAccessChecker;
-    id offlineIssueManager;
 }
 
 @end

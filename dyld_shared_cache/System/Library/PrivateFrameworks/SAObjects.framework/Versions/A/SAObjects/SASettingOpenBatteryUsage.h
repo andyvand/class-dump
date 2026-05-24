@@ -6,8 +6,6 @@
 
 #import <SAObjects/SASettingOpenSettings.h>
 
-@class NSString;
-
 @interface SASettingOpenBatteryUsage : SASettingOpenSettings
 {
 }
@@ -16,16 +14,10 @@
 + (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)q;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

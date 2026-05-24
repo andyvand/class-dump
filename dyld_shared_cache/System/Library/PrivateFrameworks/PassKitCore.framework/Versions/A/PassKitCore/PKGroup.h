@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSNumber, PKCatalogGroup;
+@class NSHashTable;
 
 @interface PKGroup
 {
     NSHashTable *_observers;
-    struct os_unfair_lock_s _observersLock;
-    PKCatalogGroup *_catalogGroup;
-    NSMutableDictionary *_passes;
-    NSMutableDictionary *_states;
-    _Bool _local;
-    unsigned long long _frontmostPassIndex;
 }
 
-- (id);
+- (id)R	;
 - (id);
 - (void);
 - (void);
@@ -30,11 +24,10 @@
 - (id);
 - (id);
 - (id)¼;
-- (void)ecordConflict;
+- (void)PKShareRecordConflict;
 
 // Remaining properties
 @property(nonatomic) unsigned long long frontmostPassIndex; // @synthesize frontmostPassIndex=_frontmostPassIndex;
-@property(readonly, nonatomic) NSNumber *groupID;
 
 @end
 

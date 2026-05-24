@@ -6,7 +6,7 @@
 
 #import <CallKit/CXParticipant.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface CXMutableParticipant : CXParticipant
 {
@@ -15,6 +15,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *imageURL; // @dynamic imageURL;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
 @end
 

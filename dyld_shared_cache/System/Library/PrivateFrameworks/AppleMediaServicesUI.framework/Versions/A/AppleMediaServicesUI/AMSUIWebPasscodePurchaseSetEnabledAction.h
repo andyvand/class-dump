@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebPasscodePurchaseSetEnabledAction : AMSUIWebAction
 {
     id enabled;
-    id passcodeEnablementTask;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)MemoryMode;
+- (void)reducedMemoryMode;
 
 @end
 

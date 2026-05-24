@@ -11,7 +11,7 @@
 
 - (id);
 - (id);
-- (void)ySDySSypGG;
+- (void)SaySDySSypGG;
 - (id)sPageMoreIntent;
 
 @end

@@ -6,25 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, RRSchemaRRGroupIdentifier, USOSchemaUSOGraph;
+@class USOSchemaUSOGraph;
 
 @interface RRSchemaRRAnnotatedEntity : SISchemaInstrumentationMessage
 {
     USOSchemaUSOGraph *_usoGraph;
-    NSString *_swiftClassName;
-    RRSchemaRRGroupIdentifier *_group;
-    NSArray *_annotations;
-    float _saliencyScore;
-    unsigned long long _saliencyComputedAtTimestampInSeconds;
-    _Bool _hasReference;
-    struct {
-        unsigned int saliencyScore:1;
-        unsigned int saliencyComputedAtTimestampInSeconds:1;
-        unsigned int hasReference:1;
-    } _has;
-    _Bool _hasUsoGraph;
-    _Bool _hasSwiftClassName;
-    _Bool _hasGroup;
 }
 
 - (id);
@@ -35,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (float);
@@ -48,28 +34,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ב;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
+- (_Bool)_skipDownloads;
+- (unsigned long long)eRequest.callout;
+- (void)hOperationDelegate>"32;
 - (_Bool);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)lace, m.service_center, m.handle_id, m.subject, m.country, m.attributedBody, m.version, m.type, m.service, m.account, m.account_guid, m.error, m.date, m.date_read, m.date_delivered, m.is_delivered, m.is_finished, m.is_emote, m.is_from_me, m.is_empty, m.is_delayed, m.is_auto_reply, m.is_prepared, m.is_read, m.is_system_message, m.is_sent, m.has_dd_results, m.is_service_message, m.is_forward, m.was_downgraded, m.is_archive, m.cache_has_attachments, m.cache_roomnames, m.was_data_detected, m.was_deduplicated, m.is_audio_message, m.is_played, m.date_played, m.item_type, m.other_handle, m.group_title, m.group_action_type, m.share_status, m.share_direction, m.is_expirable, m.expire_state, m.message_action_type, m.message_source, m.associated_message_guid, m.associated_message_type, m.balloon_bundle_id, m.payload_data, m.expressive_send_style_id, m.associated_message_range_location, m.associated_message_range_length, m.time_expressive_send_played, m.message_summary_info, m.ck_sync_state, m.ck_record_id, m.ck_record_change_tag, m.destination_caller_id, m.is_corrupt, m.reply_to_guid, m.sort_id, m.is_spam, m.has_unseen_mention, m.thread_originator_guid, m.thread_originator_part, m.syndication_ranges, m.synced_syndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m INNER JOIN chat_message_join cm ON   m.ROWID = cm.message_id WHERE cm.chat_id = (SELECT c.rowid FROM chat c WHERE c.chat_identifier = ? AND c.service_name = ?) ;
 - (id);
 - (id);
-- (id)mizedSelectedEntityIdentifier;
+- (id)anonymizedSelectedEntityIdentifier;
 - (id)Tf,N,V_freqAnyGroup6HrTo1Day;
 - (id)ttemptErrorUnderlyingCode;
 - (void)le.aiml.siri.ift.IFTClientEvent.IFTSessionStart;
@@ -77,19 +63,6 @@
 - (void)Ë!;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *annotations; // @synthesize annotations=_annotations;
-@property(retain, nonatomic) RRSchemaRRGroupIdentifier *group; // @synthesize group=_group;
-@property(nonatomic) _Bool hasGroup; // @synthesize hasGroup=_hasGroup;
-@property(nonatomic) _Bool hasHasReference;
-@property(nonatomic) _Bool hasReference; // @synthesize hasReference=_hasReference;
-@property(nonatomic) _Bool hasSaliencyComputedAtTimestampInSeconds;
-@property(nonatomic) _Bool hasSaliencyScore;
-@property(nonatomic) _Bool hasSwiftClassName; // @synthesize hasSwiftClassName=_hasSwiftClassName;
-@property(nonatomic) _Bool hasUsoGraph; // @synthesize hasUsoGraph=_hasUsoGraph;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long saliencyComputedAtTimestampInSeconds; // @synthesize saliencyComputedAtTimestampInSeconds=_saliencyComputedAtTimestampInSeconds;
-@property(nonatomic) float saliencyScore; // @synthesize saliencyScore=_saliencyScore;
-@property(copy, nonatomic) NSString *swiftClassName; // @synthesize swiftClassName=_swiftClassName;
 @property(retain, nonatomic) USOSchemaUSOGraph *usoGraph; // @synthesize usoGraph=_usoGraph;
 
 @end

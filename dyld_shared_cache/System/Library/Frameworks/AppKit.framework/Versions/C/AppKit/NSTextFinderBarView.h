@@ -6,36 +6,10 @@
 
 #import <AppKit/NSView.h>
 
-@class NSBannerView, NSButton, NSLayoutConstraint, NSMenu, NSMenuItem, NSSearchField, NSSegmentedControl, NSStackView, NSTextField;
-@protocol NSFindPatternField;
-
 __attribute__((visibility("hidden")))
 @interface NSTextFinderBarView : NSView
 {
     id _finder;
-    id _container;
-    NSBannerView *_bannerView;
-    NSSearchField<NSFindPatternField> *_searchField;
-    NSTextField<NSFindPatternField> *_replaceField;
-    NSButton *_doneButton;
-    NSButton *_replaceCheckbox;
-    NSSegmentedControl *_forwardBackButtons;
-    NSSegmentedControl *_replaceAllButtons;
-    NSMenu *_replaceAllMenu;
-    NSMenuItem *_ignoreCaseItem;
-    NSMenuItem *_wrapAroundItem;
-    NSMenuItem *_includeAttachmentsItem;
-    NSMenuItem *_containsItem;
-    NSMenuItem *_startsWithItem;
-    NSMenuItem *_fullWordItem;
-    NSMenuItem *_patternItem;
-    NSMenuItem *_patternItemSeparator;
-    NSLayoutConstraint *_collapseConstraint;
-    NSStackView *_findRowStackView;
-    NSStackView *_replaceRowStackView;
-    _Bool _replaceMode;
-    _Bool _useRegularControls;
-    _Bool _drawsBackground;
 }
 
 - (void);
@@ -43,29 +17,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void);
-- (void);
-- (void);
+- (long long)RLResponse}}16^{_CFURLRequest=}24;
+- (void)requestStartDate;
+- (void)names;
+- (void)insertEntriesStmt;
+- (void)backgroundAVAssetDownloadTask:(_Bool)arg1 didLoadTimeRange:(_Bool)arg2 totalTimeRangesLoaded:timeRangeExpectedToLoad:forMediaSelectionPropertyList: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_getCookiesForURL:mainDocumentURL:partition:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_getActiveSessionIdentifiersWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)URLByAppendingPathComponent:isDirectory: /* Error: Ran out of types for this method. */;
+- (id),V_authenticatorConfiguredViaTaskProperty;
+- (id);
+- (void)not multipart/x-mixed-replace;
+- (void)the xpc connection requesting pending callbacks for the background session:(id)arg1 %@;
+- (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)te_id > candidates[0]->ete_id;
+- (id)timeWindowDuration;
 - (void);
 - (double);
 - (void);
 - (void);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setIsActive: /* Error: Ran out of types for this method. */;
 - (id)confirmCloseSheetIsDone:returnCode:contextInfo: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);

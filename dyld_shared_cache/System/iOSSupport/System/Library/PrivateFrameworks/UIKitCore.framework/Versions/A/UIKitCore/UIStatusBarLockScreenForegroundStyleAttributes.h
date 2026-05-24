@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double);
-- (_Bool);
-- (double);
+- (double)_messageDictionaryToRelayWithIncomingMessageDictionary:(long long)arg1 smsMessage: /* Error: Ran out of types for this method. */;
+- (_Bool)_copyItemAtURL:toTemporaryDirectoryWithName:isDirectory:error: /* Error: Ran out of types for this method. */;
+- (double)__forceSetLoginStatus:(_Bool)arg1 oldStatus:message:reason:properties:account: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (id);
-- (id);
-- (struct UIEdgeInsets);
-- (long long);
+- (id)ter;
+- (struct UIEdgeInsets)iMessage app template image with BlastDoor copy for %@ and transfer %@;
+- (long long)script background command blastdoor object from result:(_Bool)arg1 <%@ %p>, ;
 
 @end
 

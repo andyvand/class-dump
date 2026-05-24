@@ -6,14 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMDeviceListRestrictionsCommand_StatusBooleanDictionary, CEMDeviceListRestrictionsCommand_StatusIntersectionDictionary, CEMDeviceListRestrictionsCommand_StatusValueDictionary;
+@class CEMDeviceListRestrictionsCommand_StatusBooleanDictionary;
 
 @interface CEMDeviceListRestrictionsCommand_StatusRestrictionsDictionary : CEMPayloadBase
 {
     CEMDeviceListRestrictionsCommand_StatusBooleanDictionary *_statusRestrictedBool;
-    CEMDeviceListRestrictionsCommand_StatusValueDictionary *_statusRestrictedValue;
-    CEMDeviceListRestrictionsCommand_StatusIntersectionDictionary *_statusIntersection;
-    CEMDeviceListRestrictionsCommand_StatusIntersectionDictionary *_statusUnion;
 }
 
 + (id);
@@ -21,22 +18,19 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (_Bool);
+- (void);
+- (void);
 - (id);
+- (void);
+- (_Bool)ynthesis.voice.vicki;
+- (id)_;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CEMDeviceListRestrictionsCommand_StatusIntersectionDictionary *statusIntersection; // @synthesize statusIntersection=_statusIntersection;
 @property(copy, nonatomic) CEMDeviceListRestrictionsCommand_StatusBooleanDictionary *statusRestrictedBool; // @synthesize statusRestrictedBool=_statusRestrictedBool;
-@property(copy, nonatomic) CEMDeviceListRestrictionsCommand_StatusValueDictionary *statusRestrictedValue; // @synthesize statusRestrictedValue=_statusRestrictedValue;
-@property(copy, nonatomic) CEMDeviceListRestrictionsCommand_StatusIntersectionDictionary *statusUnion; // @synthesize statusUnion=_statusUnion;
 
 @end
 

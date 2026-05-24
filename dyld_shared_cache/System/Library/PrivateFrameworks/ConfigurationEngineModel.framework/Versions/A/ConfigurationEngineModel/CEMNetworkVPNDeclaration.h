@@ -6,33 +6,20 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMNetworkVPNDeclaration_AlwaysOn, CEMNetworkVPNDeclaration_DNS, CEMNetworkVPNDeclaration_IKEv2, CEMNetworkVPNDeclaration_IPSec, CEMNetworkVPNDeclaration_IPv4, CEMNetworkVPNDeclaration_PPP, CEMNetworkVPNDeclaration_Proxies, CEMNetworkVPNDeclaration_VPN, CEMNetworkVPNDeclaration_VendorConfig, NSNumber, NSString;
+@class NSString;
 
 @interface CEMNetworkVPNDeclaration : CEMConfigurationBase
 {
     NSString *_payloadVPNType;
-    NSString *_payloadVPNSubType;
-    NSString *_payloadUserDefinedName;
-    CEMNetworkVPNDeclaration_VendorConfig *_payloadVendorConfig;
-    CEMNetworkVPNDeclaration_VPN *_payloadVPN;
-    CEMNetworkVPNDeclaration_IPv4 *_payloadIPv4;
-    CEMNetworkVPNDeclaration_PPP *_payloadPPP;
-    CEMNetworkVPNDeclaration_IPSec *_payloadIPSec;
-    CEMNetworkVPNDeclaration_IKEv2 *_payloadIKEv2;
-    CEMNetworkVPNDeclaration_Proxies *_payloadProxies;
-    CEMNetworkVPNDeclaration_AlwaysOn *_payloadAlwaysOn;
-    NSNumber *_payloadDisconnectOnIdle;
-    NSNumber *_payloadDisconnectOnIdleTimer;
-    CEMNetworkVPNDeclaration_DNS *_payloadDNS;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)<;
++ (id)k;
 + (id);
 + (id);
-+ (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -48,6 +35,11 @@
 - (void);
 - (id);
 - (id);
+- (id)#;
+- (id);
+- (id);
+- (id);
+- (id));
 - (id);
 - (id);
 - (id);
@@ -55,43 +47,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)#;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (int);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)on:(id)arg1 ];
+- (id)c;
+- (void)DTLS1_GET_HELLO_VERIFY;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_AlwaysOn *payloadAlwaysOn; // @synthesize payloadAlwaysOn=_payloadAlwaysOn;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_DNS *payloadDNS; // @synthesize payloadDNS=_payloadDNS;
-@property(copy, nonatomic) NSNumber *payloadDisconnectOnIdle; // @synthesize payloadDisconnectOnIdle=_payloadDisconnectOnIdle;
-@property(copy, nonatomic) NSNumber *payloadDisconnectOnIdleTimer; // @synthesize payloadDisconnectOnIdleTimer=_payloadDisconnectOnIdleTimer;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_IKEv2 *payloadIKEv2; // @synthesize payloadIKEv2=_payloadIKEv2;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_IPSec *payloadIPSec; // @synthesize payloadIPSec=_payloadIPSec;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_IPv4 *payloadIPv4; // @synthesize payloadIPv4=_payloadIPv4;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_PPP *payloadPPP; // @synthesize payloadPPP=_payloadPPP;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_Proxies *payloadProxies; // @synthesize payloadProxies=_payloadProxies;
-@property(copy, nonatomic) NSString *payloadUserDefinedName; // @synthesize payloadUserDefinedName=_payloadUserDefinedName;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_VPN *payloadVPN; // @synthesize payloadVPN=_payloadVPN;
-@property(copy, nonatomic) NSString *payloadVPNSubType; // @synthesize payloadVPNSubType=_payloadVPNSubType;
 @property(copy, nonatomic) NSString *payloadVPNType; // @synthesize payloadVPNType=_payloadVPNType;
-@property(copy, nonatomic) CEMNetworkVPNDeclaration_VendorConfig *payloadVendorConfig; // @synthesize payloadVendorConfig=_payloadVendorConfig;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBUInt32EnumDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
-    CDUnknownFunctionPointerType _validationFunc;
 }
 
-- (id);
+- (id)me;
 - (void);
 - (void);
 - (void);
@@ -27,7 +25,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)ufMessages;
 - (void);
 - (id);
 - (void);
@@ -38,11 +36,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)tformRemoveIdentifiers;
+- (void)AitPlatformRemoveIdentifiers;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType validationFunc; // @synthesize validationFunc=_validationFunc;
 
 @end
 

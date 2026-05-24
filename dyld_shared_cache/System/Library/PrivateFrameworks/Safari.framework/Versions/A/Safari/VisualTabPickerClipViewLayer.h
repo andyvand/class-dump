@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (struct CGPoint)arksOutlineView;
+- (struct CGPoint)BookmarksOutlineView;
 
 @end
 

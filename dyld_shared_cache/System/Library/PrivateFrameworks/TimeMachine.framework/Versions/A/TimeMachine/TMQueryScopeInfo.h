@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface TMQueryScopeInfo
 {
     long long _kind;
-    NSArray *_locations;
 }
 
-+ (id);
++ (id)i;
+- (id)8i;
 - (id);
-- (id);
-- (long long);
+- (long long)a
+;
 - (void);
 
 // Remaining properties
 @property(readonly) long long kind; // @synthesize kind=_kind;
-@property(readonly) NSArray *locations; // @synthesize locations=_locations;
 
 @end
 

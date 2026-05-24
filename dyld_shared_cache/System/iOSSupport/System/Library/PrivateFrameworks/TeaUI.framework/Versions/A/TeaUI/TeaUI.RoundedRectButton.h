@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (id);
+- (id)setThumbnailWidgetHQURL:(struct CGRect)arg1;
 
 @end
 

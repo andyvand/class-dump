@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, WBSSQLiteDatabase;
+@class WBSSQLiteDatabase;
 
 @interface WBSSQLiteStatementCache
 {
     WBSSQLiteDatabase *_database;
-    NSMutableDictionary *_statements;
 }
 
-- (void);
+- (void)accessibilitySharedCharacterRange;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)NSArray",C,N,V_cacheMissItemIdentifiers;
 - (void)1Â0@ù
 × ;
 - (id);

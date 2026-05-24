@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSString;
-
 @interface SACancelRequest : SABaseCommand
 {
 }
@@ -17,20 +15,11 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)a;
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(nonatomic) long long clientCancellationCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

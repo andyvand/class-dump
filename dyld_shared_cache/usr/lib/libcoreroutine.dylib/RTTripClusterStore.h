@@ -6,8 +6,6 @@
 
 #import <coreroutine/RTStore.h>
 
-@class NSString;
-
 @interface RTTripClusterStore : RTStore
 {
 }
@@ -27,32 +25,26 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)__objc_methtype;
+- (void)removeAssertion:(id)arg1;
+- (void)queryMissingKeys;
+- (void)analyticsTransportRTCWithClientType:(id)arg1 clientBundleId:(CDUnknownBlockType)arg2 clientName: /* Error: Ran out of types for this method. */;
+- (void)PCSSyncingProtocol;
+- (id);
+- (id)@�;
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)service %@;
+- (void)fully enrolled LRC Record;
+- (_Bool)reason;
 - (id);
 - (id)essionID:(id)arg1 %@,%@,%@,messageID:(unsigned long long)arg2 %@,failed to schedule with error %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

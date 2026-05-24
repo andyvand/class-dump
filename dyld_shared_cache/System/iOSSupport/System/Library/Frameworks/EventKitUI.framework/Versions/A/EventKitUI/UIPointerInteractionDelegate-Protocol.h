@@ -7,7 +7,7 @@
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (void)esentCustomRecurrenceVC;
-- (void)ncelLocalizedString;
+- (void)presentCustomRecurrenceVC;
+- (void)_cancelLocalizedString;
 @end
 

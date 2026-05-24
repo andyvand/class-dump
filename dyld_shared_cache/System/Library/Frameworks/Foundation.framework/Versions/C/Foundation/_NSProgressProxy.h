@@ -12,14 +12,12 @@ __attribute__((visibility("hidden")))
 @interface _NSProgressProxy : NSProgress
 {
     id <NSProgressPublisher> _forwarder;
-    _Bool _isOld;
-    CDUnknownBlockType _unpublishingHandler;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -37,8 +35,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)=;
+- (id)�7;
 - (void);
 - (void);
 - (void);
@@ -46,15 +44,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)AttributeKeys;
-- (void)TypeVideo;
+- (void)allAttributeKeys;
+- (void)kCFStreamNetworkServiceTypeVideo;
 - (void);
 - (void);
 - (void);

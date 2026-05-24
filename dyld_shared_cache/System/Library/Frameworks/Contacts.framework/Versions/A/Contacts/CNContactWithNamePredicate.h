@@ -12,39 +12,30 @@ __attribute__((visibility("hidden")))
 @interface CNContactWithNamePredicate : CNPredicate
 {
     NSString *_name;
-    unsigned long long _options;
 }
 
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool)E;
 - (id);
-- (id);
+- (id)version set to ;
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)ler:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)nableTelemetry=YES ;
 - (void)@64;
-- (id)AccountSyncWithOptions:(id)arg1;
+- (id)macos_requestAccountSyncWithOptions:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 
 @end
 

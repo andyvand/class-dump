@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, NWAddressEndpoint, NWEndpoint;
+@class NSArray, NWEndpoint;
 
 @interface NEIKEv2IKESAConfiguration
 {
     NSArray *_proposals;
-    _Bool _randomizeLocalPort;
-    _Bool _serverMode;
-    _Bool _allowRedirect;
-    _Bool _disableSwitchToNATTPorts;
-    _Bool _allowTCPEncapsulation;
-    _Bool _useTLSForTCPEncapsulation;
-    _Bool _forceUDPEncapsulation;
-    _Bool _preferInitiatorProposalOrder;
-    _Bool _strictNonceSizeChecks;
-    _Bool _requestChildlessSA;
-    _Bool _requestPPK;
-    unsigned short _tcpEncapsulationPort;
-    unsigned int _nonceSize;
-    unsigned int _maximumPacketSize;
-    unsigned int _headerOverhead;
-    NWEndpoint *_localEndpoint;
-    NWEndpoint *_remoteEndpoint;
-    NSString *_outgoingInterfaceName;
-    NWAddressEndpoint *_redirectedFromServer;
-    NSArray *_customIKESAInitPayloads;
-    NSArray *_customIKESAInitVendorPayloads;
-    NSSet *_extraSupportedSignatureHashes;
-    NSSet *_supportedSecurePasswordMethods;
 }
 
 - (_Bool);
@@ -39,6 +16,7 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)!";
 - (void);
 - (void);
 - (void);
@@ -57,12 +35,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -79,40 +56,17 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
+- (id)@;
 - (id);
 - (id);
-- (id);
-- (void)ltType: /* Error: Ran out of types for this method. */;
+- (void)setResultType: /* Error: Ran out of types for this method. */;
 - (id)equest PPK;
 
 // Remaining properties
-@property _Bool allowRedirect; // @synthesize allowRedirect=_allowRedirect;
-@property _Bool allowTCPEncapsulation; // @synthesize allowTCPEncapsulation=_allowTCPEncapsulation;
-@property(retain) NSArray *customIKESAInitPayloads; // @synthesize customIKESAInitPayloads=_customIKESAInitPayloads;
-@property(retain) NSArray *customIKESAInitVendorPayloads; // @synthesize customIKESAInitVendorPayloads=_customIKESAInitVendorPayloads;
-@property _Bool disableSwitchToNATTPorts; // @synthesize disableSwitchToNATTPorts=_disableSwitchToNATTPorts;
-@property(retain) NSSet *extraSupportedSignatureHashes; // @synthesize extraSupportedSignatureHashes=_extraSupportedSignatureHashes;
-@property _Bool forceUDPEncapsulation; // @synthesize forceUDPEncapsulation=_forceUDPEncapsulation;
-@property unsigned int headerOverhead; // @synthesize headerOverhead=_headerOverhead;
 @property(retain) NWEndpoint *localEndpoint; // @synthesize localEndpoint=_localEndpoint;
-@property unsigned int maximumPacketSize; // @synthesize maximumPacketSize=_maximumPacketSize;
-@property unsigned int nonceSize; // @synthesize nonceSize=_nonceSize;
-@property(retain) NSString *outgoingInterfaceName; // @synthesize outgoingInterfaceName=_outgoingInterfaceName;
-@property _Bool preferInitiatorProposalOrder; // @synthesize preferInitiatorProposalOrder=_preferInitiatorProposalOrder;
-@property(copy, nonatomic) NSArray *proposals;
-@property _Bool randomizeLocalPort; // @synthesize randomizeLocalPort=_randomizeLocalPort;
-@property(retain) NWAddressEndpoint *redirectedFromServer; // @synthesize redirectedFromServer=_redirectedFromServer;
-@property(retain) NWEndpoint *remoteEndpoint; // @synthesize remoteEndpoint=_remoteEndpoint;
-@property _Bool requestChildlessSA; // @synthesize requestChildlessSA=_requestChildlessSA;
-@property _Bool requestPPK; // @synthesize requestPPK=_requestPPK;
-@property _Bool serverMode; // @synthesize serverMode=_serverMode;
-@property _Bool strictNonceSizeChecks; // @synthesize strictNonceSizeChecks=_strictNonceSizeChecks;
-@property(retain) NSSet *supportedSecurePasswordMethods; // @synthesize supportedSecurePasswordMethods=_supportedSecurePasswordMethods;
-@property unsigned short tcpEncapsulationPort; // @synthesize tcpEncapsulationPort=_tcpEncapsulationPort;
-@property _Bool useTLSForTCPEncapsulation; // @synthesize useTLSForTCPEncapsulation=_useTLSForTCPEncapsulation;
 
 @end
 

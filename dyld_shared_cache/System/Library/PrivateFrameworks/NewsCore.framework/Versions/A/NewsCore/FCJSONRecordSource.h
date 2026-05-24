@@ -6,30 +6,29 @@
 
 #import <NewsCore/FCRecordSource.h>
 
-@class FCJSONRecordSourceSchema, NFLazy;
+@class FCJSONRecordSourceSchema;
 
 @interface FCJSONRecordSource : FCRecordSource
 {
     FCJSONRecordSourceSchema *_schema;
-    NFLazy *_dateFormatter;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)inputBlackSrcRed;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id)!`Dù±)	°1Â0@ù
 × ;
 - (void)kerType>";
-- (unsigned long long)int;
-- (id)equirementObserving;
+- (unsigned long long)adSegmentsEndpoint;
+- (id)FCNetworkReachabilityRequirementObserving;
 - (unsigned long long)85d5;
-- (void)tedAsNew;
-- (id)chResponse;
+- (void)isTreatedAsNew;
+- (id)SmarterFetchResponse;
 - (id);
 - (id)ÿ;
 - (id)¦;
@@ -37,7 +36,6 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NFLazy *dateFormatter; // @synthesize dateFormatter=_dateFormatter;
 @property(copy, nonatomic) FCJSONRecordSourceSchema *schema; // @synthesize schema=_schema;
 
 @end

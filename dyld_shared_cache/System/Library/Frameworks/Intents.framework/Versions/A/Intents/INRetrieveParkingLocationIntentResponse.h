@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class CLPlacemark, NSString;
-
 @interface INRetrieveParkingLocationIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)updateLastHitDate:(long long)arg1 ofThumbnailForURL:completion: /* Error: Ran out of types for this method. */;
++ (int)initWithCGImage:(long long)arg1 scale:orientation: /* Error: Ran out of types for this method. */;
++ (long long)getAllThumbnailsInfoForCacheAtURL:(int)arg1 completionHandler:(int)arg2;
++ (_Bool)fileURLWithPath:(long long)arg1;
 + (_Bool);
 - (void);
 - (void);
@@ -26,25 +24,16 @@
 - (long long);
 - (void);
 - (id);
+- (id)__TEXT;
+- (id)initWithIdentifier:(id)arg1 initialValueForProfile: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)Results count:(id)arg1 %lu;
 - (id);
 - (id);
 - (long long)ues;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) CLPlacemark *parkingLocation;
-@property(copy) NSString *parkingNote;
-@property(readonly) Class superclass;
 
 @end
 

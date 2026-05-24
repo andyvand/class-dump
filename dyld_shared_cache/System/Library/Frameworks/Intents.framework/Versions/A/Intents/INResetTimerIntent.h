@@ -6,39 +6,31 @@
 
 #import <Intents/INIntent.h>
 
-@class INTimer, NSNumber, NSString;
+@class INTimer;
 
 @interface INResetTimerIntent : INIntent
 {
 }
 
 + (_Bool);
+- (id)a;
+- (void);
+- (void);
+- (id)9;
+- (id);
+- (id)T7;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)canGenerateThumbnailsForContentType:(id)arg1 atSize: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *resetMultiple;
-@property(readonly) Class superclass;
 @property(readonly, copy) INTimer *targetTimer;
 
 @end

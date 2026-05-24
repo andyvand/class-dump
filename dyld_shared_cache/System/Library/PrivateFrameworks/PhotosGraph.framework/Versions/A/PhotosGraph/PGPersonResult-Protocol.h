@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
+@protocol PGPersonResult;
 
 @protocol PGPersonResult
+- (NSString *);
+- (long long)_zoomFocusRectForZeroLengthMarkerBasedRange:(id <PGPersonResult>)arg1 textElementController:currentFocusedLineFrame: /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *birthdayDate;
-@property(readonly, nonatomic) NSString *contactIdentifier;
 @property(readonly, nonatomic) NSString *fullName;
-@property(readonly, nonatomic) _Bool isInferredChild;
-@property(readonly, nonatomic) _Bool isVerified;
-@property(readonly, nonatomic) NSString *keywordDescription;
-@property(readonly, nonatomic) NSString *localIdentifier;
-@property(readonly, nonatomic) NSString *suggestedContactIdentifier;
 @end
 

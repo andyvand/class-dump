@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (NSObject_KVOBlock)
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)_actionSheetUI;
+- (id)rminalType;
+- (id)I,R,N,V_pairingMode;
+- (id)newCloudPhotoLibraryManager from a non-system photo library:%@ /* Error: Ran out of types for this method. */;
 @end
 

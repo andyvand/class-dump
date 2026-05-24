@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatWorkspaceTagViewController
 {
     id editor;
-    id tableView;
-    id sections;
-    id tag;
 }
 
 - (id);
@@ -19,7 +16,7 @@
 - (long long);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 

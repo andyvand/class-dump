@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SKPaymentQueueClient, SKStorefront;
-@protocol SKPaymentQueueDelegate;
+@class SKPaymentQueueClient;
 
 @interface SKPaymentQueue
 {
@@ -40,43 +39,40 @@
 - (void);
 - (void);
 - (void);
+- (void)4
+@;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)$I@I;
+- (void);
+- (void);
+- (void);
+- (void)d8;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SKPaymentQueueDelegate> delegate;
 @property(readonly, nonatomic) SKPaymentQueueClient *paymentQueueClient;
-@property(readonly, nonatomic) SKStorefront *storefront;
-@property(readonly, nonatomic) NSArray *transactionObservers;
-@property(readonly, nonatomic) NSArray *transactions;
 
 @end
 

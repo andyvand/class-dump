@@ -6,77 +6,49 @@
 
 #import <UIKitCore/UIKeyboardEmojiStickerBaseCollectionViewCell.h>
 
-@class NSString, UIKeyboardEmoji, UIKeyboardEmojiDraggableView, UILabel, UIView;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiCollectionViewCell : UIKeyboardEmojiStickerBaseCollectionViewCell
 {
     _Bool _unreleasedHighlight;
-    _Bool _noResultsCell;
-    UILabel *_unreleasedBanner;
-    UIKeyboardEmoji *_emoji;
-    double _highlightPadding;
-    NSString *_usageSource;
-    NSString *_bundleID;
-    UIKeyboardEmojiDraggableView *_emojiLabel;
-    UIView *_navigationHighlightView;
-    UILabel *_noResultsLabel;
-    long long _desiredFontSize;
 }
 
+- (_Bool)shouldBeSubmitted;
+- (id)unformattedFamilyHandles;
+- (void);
+- (void)X;
+- (void);
+- (void);
+- (void);
+- (void)};
+- (void)item %s, because translation already exists and configurations match;
+- (void)ionary %s;
+- (void)Could not delete DB at path %@ %@;
+- (void)nt list %@ to remove associated members;
+- (id)tainer with ID %@;
+- (_Bool)ializing dev nick name container with ID %@;
+- (id)ies:%@ /* Error: Ran out of types for this method. */;
+- (double)trying to send a relay message, sending a message back to it to tell it to not send relay messages in the future;
+- (id)cingEnabled is turned off in this build;
+- (long long)nabled is FALSE because we are in exit state. Is moc feature enabled %@;
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (double);
-- (id);
 - (long long);
-- (_Bool);
-- (void);
-- (long long);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)ibutedStringsForTextRanges:(struct CGRect)arg1;
+- (id)attributedStringsForTextRanges:(struct CGRect)arg1;
 - (id)õ13§®þõ130¬¹þ;
 - (void)(²þÿÿÿÿ;
 - (id);
 - (void)~Ùºg;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long desiredFontSize; // @synthesize desiredFontSize=_desiredFontSize;
-@property(copy, nonatomic) UIKeyboardEmoji *emoji; // @synthesize emoji=_emoji;
-@property(nonatomic) long long emojiFontSize;
-@property(readonly, nonatomic) UIKeyboardEmojiDraggableView *emojiLabel; // @synthesize emojiLabel=_emojiLabel;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double highlightPadding; // @synthesize highlightPadding=_highlightPadding;
-@property(retain, nonatomic) UIView *navigationHighlightView; // @synthesize navigationHighlightView=_navigationHighlightView;
-@property(nonatomic) _Bool noResultsCell; // @synthesize noResultsCell=_noResultsCell;
-@property(retain, nonatomic) UILabel *noResultsLabel; // @synthesize noResultsLabel=_noResultsLabel;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UILabel *unreleasedBanner; // @synthesize unreleasedBanner=_unreleasedBanner;
-@property(nonatomic) _Bool unreleasedHighlight; // @synthesize unreleasedHighlight=_unreleasedHighlight;
-@property(copy, nonatomic) NSString *usageSource; // @synthesize usageSource=_usageSource;
 
 @end
 

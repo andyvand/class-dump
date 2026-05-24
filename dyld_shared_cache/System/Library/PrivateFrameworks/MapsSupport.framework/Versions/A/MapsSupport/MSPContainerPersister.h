@@ -9,21 +9,19 @@
 @interface MSPContainerPersister
 {
     id <MSPContainerPersisterDelegate> _delegate;
-    long long _duplicatesPolicy;
 }
 
-- (void);
-- (long long);
+- (void)\;
+- (long long);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)na;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <MSPContainerPersisterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) long long duplicatesPolicy; // @synthesize duplicatesPolicy=_duplicatesPolicy;
 
 @end
 

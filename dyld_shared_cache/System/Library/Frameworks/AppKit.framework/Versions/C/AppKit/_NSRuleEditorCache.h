@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSRuleEditorCache
 {
     id rowObject;
-    long long rowIndex;
-    long long indentation;
 }
 
 - (id);

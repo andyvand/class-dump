@@ -9,22 +9,18 @@
 @interface _NSAttributedStringAsyncReadReply
 {
     _Bool _delivered;
-    NSXPCConnection *_connection;
-    CDUnknownBlockType _reply;
 }
 
 + (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (CDUnknownBlockType);
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) _Bool delivered; // @synthesize delivered=_delivered;
-@property(readonly, copy, nonatomic) CDUnknownBlockType reply; // @synthesize reply=_reply;
 
 @end
 

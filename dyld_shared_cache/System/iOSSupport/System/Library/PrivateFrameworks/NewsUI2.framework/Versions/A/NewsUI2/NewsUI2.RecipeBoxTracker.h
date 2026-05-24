@@ -7,9 +7,6 @@
 @interface NewsUI2.RecipeBoxTracker
 {
     id channelDataFactory;
-    id contentAvailabilityValidator;
-    id scienceDataFactory;
-    id tracker;
 }
 
 @end

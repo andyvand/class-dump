@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALNCalendarCoreLocationManager, CALNTriggeredEventNotificationMailtoURLProvider, NSString;
-@protocol CALNAlarmEngineMonitor, CALNDataSourceEventRepresentationProvider, CALNDebugPreferences, CALNFoundInAppsEventTracker, CALNRemoteMutator, CALNRouteHypothesizerProvider, CALNSuggestionsServiceLogger, CALNTTLEventTracker, CALNTimeToLeaveRefreshMonitor, CALNTravelEngine, CALNTriggeredEventNotificationDataSourceDelegate, EKEventStoreProvider;
+@protocol CALNTriggeredEventNotificationDataSourceDelegate, EKEventStoreProvider;
 
 @interface CALNTriggeredEventNotificationEKDataSource
 {
     id <CALNTriggeredEventNotificationDataSourceDelegate> _delegate;
-    id <EKEventStoreProvider> _eventStoreProvider;
-    id <CALNRemoteMutator> _remoteMutator;
-    id <CALNDataSourceEventRepresentationProvider> _dataSourceEventRepresentationProvider;
-    CALNCalendarCoreLocationManager *_coreLocationManager;
-    id <CALNTTLEventTracker> _ttlEventTracker;
-    id <CALNAlarmEngineMonitor> _alarmEngineMonitor;
-    id <CALNTravelEngine> _travelEngine;
-    id <CALNFoundInAppsEventTracker> _foundInAppsEventTracker;
-    id <CALNSuggestionsServiceLogger> _suggestionsServiceLogger;
-    id <CALNRouteHypothesizerProvider> _routeHypothesizerProvider;
-    id <CALNTimeToLeaveRefreshMonitor> _timeToLeaveRefreshMonitor;
-    id <CALNDebugPreferences> _debugPreferences;
-    CALNTriggeredEventNotificationMailtoURLProvider *_mailtoURLProvider;
 }
 
 + (double);
@@ -38,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (id);
 - (id);
@@ -48,30 +34,30 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)q ;
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (id);
+- (void)_installSafeCategoriesOffMainThread;
+- (void)lacement %@ installation's precondition not met;
+- (void)%;
+- (void);
+- (id);
+- (id);
+- (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)_center;
 - (_Bool);
 - (void);
 - (id);
@@ -84,27 +70,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CALNAlarmEngineMonitor> alarmEngineMonitor; // @synthesize alarmEngineMonitor=_alarmEngineMonitor;
-@property(readonly, nonatomic) CALNCalendarCoreLocationManager *coreLocationManager; // @synthesize coreLocationManager=_coreLocationManager;
-@property(readonly, nonatomic) id <CALNDataSourceEventRepresentationProvider> dataSourceEventRepresentationProvider; // @synthesize dataSourceEventRepresentationProvider=_dataSourceEventRepresentationProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <CALNDebugPreferences> debugPreferences; // @synthesize debugPreferences=_debugPreferences;
-@property(nonatomic) __weak id <CALNTriggeredEventNotificationDataSourceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <EKEventStoreProvider> eventStoreProvider; // @synthesize eventStoreProvider=_eventStoreProvider;
-@property(readonly, nonatomic) id <CALNFoundInAppsEventTracker> foundInAppsEventTracker; // @synthesize foundInAppsEventTracker=_foundInAppsEventTracker;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CALNTriggeredEventNotificationMailtoURLProvider *mailtoURLProvider; // @synthesize mailtoURLProvider=_mailtoURLProvider;
-@property(readonly, nonatomic) id <CALNRemoteMutator> remoteMutator; // @synthesize remoteMutator=_remoteMutator;
-@property(readonly, nonatomic) id <CALNRouteHypothesizerProvider> routeHypothesizerProvider; // @synthesize routeHypothesizerProvider=_routeHypothesizerProvider;
-@property(readonly, nonatomic) id <CALNSuggestionsServiceLogger> suggestionsServiceLogger; // @synthesize suggestionsServiceLogger=_suggestionsServiceLogger;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <CALNTimeToLeaveRefreshMonitor> timeToLeaveRefreshMonitor; // @synthesize timeToLeaveRefreshMonitor=_timeToLeaveRefreshMonitor;
-@property(readonly, nonatomic) id <CALNTravelEngine> travelEngine; // @synthesize travelEngine=_travelEngine;
-@property(readonly, nonatomic) id <CALNTTLEventTracker> ttlEventTracker; // @synthesize ttlEventTracker=_ttlEventTracker;
 
 @end
 

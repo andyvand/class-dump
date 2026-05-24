@@ -9,7 +9,6 @@
 @interface PPSpotlightScoring
 {
     PPTopicStore *_topicStore;
-    long long _sandboxExtensionHandle;
 }
 
 + (id);
@@ -17,7 +16,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)9;
 
 @end
 

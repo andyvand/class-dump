@@ -5,5 +5,6 @@
 //
 
 @protocol CPXProcessObserving
+- (void)egate scheduleExportAndStartAfterDate:(struct CPSProcessRec *)arg1 ];
 @end
 

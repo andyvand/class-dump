@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *resultValues;
-@property(readonly, nonatomic) unsigned long long resultValuesCount;
 @end
 

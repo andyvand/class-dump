@@ -7,9 +7,6 @@
 @interface Speech.AnalysisContext
 {
     id contextualStringsMutex;
-    id enhancedContextualStringsMutex;
-    id userDataMutex;
-    id contextDelegates;
 }
 
 - (id);

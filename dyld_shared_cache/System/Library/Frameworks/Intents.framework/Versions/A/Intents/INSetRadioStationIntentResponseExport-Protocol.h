@@ -5,7 +5,7 @@
 //
 
 @protocol INSetRadioStationIntentResponseExport
-- (long long)nedByString:forLocale: /* Error: Ran out of types for this method. */;
+- (long long)if_escapedComponentsJoinedByString:forLocale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;

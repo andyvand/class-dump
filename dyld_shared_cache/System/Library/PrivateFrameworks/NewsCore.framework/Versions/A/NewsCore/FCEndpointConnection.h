@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFLazy, NSString;
-@protocol FCNetworkBehaviorMonitor, FCNetworkReachabilityType;
+@class NFLazy;
 
 @interface FCEndpointConnection
 {
     NFLazy *_lazySession;
-    id <FCNetworkBehaviorMonitor> _networkBehaviorMonitor;
-    id <FCNetworkReachabilityType> _networkReachability;
 }
 
 + (id);
 + (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
+- (void);
+- (void)CGSize=dd}}20@52;
+- (id);
 - (id);
 - (void)olor:(id)arg1 darkStyleBackgroundColor:(id)arg2 mastheadTextColor:(id)arg3 largeTextColor:(id)arg4 smallTextColor:(float)arg5 offersTextColor:(_Bool)arg6;
-- (void)RL:(id)arg1;
+- (void)initWithFileURL:(id)arg1;
 - (id)com;
 - (void)aches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCReadingList.m;
 - (id);
 - (id)·ÿ·k;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NFLazy *lazySession; // @synthesize lazySession=_lazySession;
-@property(readonly, nonatomic) id <FCNetworkBehaviorMonitor> networkBehaviorMonitor; // @synthesize networkBehaviorMonitor=_networkBehaviorMonitor;
-@property(readonly, nonatomic) id <FCNetworkReachabilityType> networkReachability; // @synthesize networkReachability=_networkReachability;
-@property(readonly) Class superclass;
 
 @end
 

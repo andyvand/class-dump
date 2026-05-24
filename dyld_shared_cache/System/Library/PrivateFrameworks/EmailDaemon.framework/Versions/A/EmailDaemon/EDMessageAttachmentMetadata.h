@@ -4,50 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSURL;
+@class NSString;
 
 @interface EDMessageAttachmentMetadata
 {
     NSString *_mimePartNumber;
-    long long _globalMessageID;
-    NSString *_name;
-    NSNumber *_attachmentID;
-    NSURL *_remoteURL;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)l";
 - (id);
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)tworkEndpoint>",R,N,V_ipv6Endpoint;
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)NFStartStation;
 - (void)y type:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *attachmentID; // @synthesize attachmentID=_attachmentID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 @property(readonly, nonatomic) long long globalMessageID; // @synthesize globalMessageID=_globalMessageID;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *mimePartNumber; // @synthesize mimePartNumber=_mimePartNumber;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSURL *remoteURL; // @synthesize remoteURL=_remoteURL;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface PRSRankingItemCollection
 {
     NSArray *_arrayOfRankingItems;
-    unsigned long long _countOfVisibleResults;
-    NSString *_bundleIdentifier;
-    NSDictionary *_mapResultIdToProtectionClass;
 }
 
 - (void);
 - (void);
+- (void)nse"40@0:(id)arg1 8@"LPFetcher"16@"NSData"24@"NSString"32;
+- (id)setWithSet: /* Error: Ran out of types for this method. */;
+- (unsigned long long)isTwitterProfileImageURL: /* Error: Ran out of types for this method. */;
+- (id)gaussianBlurFilter;
+- (id);
+- (id);
 - (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)BarAppIconImage;
+- (void)buildMenuBarAppIconImage;
 
 // Remaining properties
 @property(retain) NSArray *arrayOfRankingItems; // @synthesize arrayOfRankingItems=_arrayOfRankingItems;
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property unsigned long long countOfVisibleResults; // @synthesize countOfVisibleResults=_countOfVisibleResults;
-@property(retain) NSDictionary *mapResultIdToProtectionClass; // @synthesize mapResultIdToProtectionClass=_mapResultIdToProtectionClass;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecentCall, CNContact, NSArray, NSString, TUSearchController;
+@class CHRecentCall;
 
 @interface TUProxyRecentCall
 {
     CHRecentCall *_recentCall;
-    TUSearchController *_searchController;
 }
 
 - (void);
@@ -27,32 +26,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)edicateForConversationLinkDescriptorsWithOriginatorHandleValue: /* Error: Ran out of types for this method. */;
+- (id)��;
+- (void)tu_predicateForConversationLinkDescriptorsWithOriginatorHandleValue: /* Error: Ran out of types for this method. */;
 - (void)nCallService.suppressincallstatusbar;
 
 // Remaining properties
-@property(readonly) CNContact *backingContact;
-@property(readonly) NSString *backingContactId;
-@property(readonly) NSString *backingContactIdentifier;
-@property(readonly) NSString *callerId; // @dynamic callerId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *destinationId;
-@property(readonly) NSString *displayName;
-@property(readonly) NSArray *handles;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *idsCanonicalDestinations;
-@property(readonly) NSString *isoCountryCode; // @dynamic isoCountryCode;
-@property(readonly) NSString *mostRecentCallInfo;
-@property(readonly) long long mostRecentCallType;
-@property(readonly) _Bool mostRecentCallWasMissed;
 @property(retain, nonatomic) CHRecentCall *recentCall; // @synthesize recentCall=_recentCall;
-@property __weak TUSearchController *searchController; // @synthesize searchController=_searchController;
-@property(readonly) Class superclass;
 
 @end
 

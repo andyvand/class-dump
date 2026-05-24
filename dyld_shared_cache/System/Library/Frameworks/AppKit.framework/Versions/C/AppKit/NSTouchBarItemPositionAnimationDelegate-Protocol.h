@@ -5,5 +5,6 @@
 //
 
 @protocol NSTouchBarItemPositionAnimationDelegate
+- (void);
 @end
 

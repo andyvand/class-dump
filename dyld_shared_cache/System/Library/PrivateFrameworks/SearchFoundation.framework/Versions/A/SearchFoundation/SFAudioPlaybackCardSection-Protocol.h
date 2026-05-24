@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFImage, SFRichText;
+@class NSData, NSString, SFRichText;
 
 @protocol SFAudioPlaybackCardSection
+- (SFRichText *)loudLibraryPreference: /* Error: Ran out of types for this method. */;
+- (void)lastAddPhoneNumbersCount;
+- (NSData *);
 
 // Remaining properties
-@property(retain, nonatomic) SFRichText *detailText;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *playCommands;
-@property(nonatomic) int state;
-@property(copy, nonatomic) NSArray *stopCommands;
-@property(retain, nonatomic) SFRichText *subtitle;
-@property(retain, nonatomic) SFImage *thumbnail;
-@property(retain, nonatomic) SFRichText *title;
 @property(copy, nonatomic) NSString *type;
 @end
 

@@ -12,15 +12,14 @@
 - (const struct BoxedDouble *);
 - (double);
 - (id);
-- (id);
+- (id)a;
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id)`;
 
 // Remaining properties
 @property(readonly, nonatomic) const struct BoxedDouble *cppPointer;
-@property(readonly, nonatomic) double val;
 
 @end
 

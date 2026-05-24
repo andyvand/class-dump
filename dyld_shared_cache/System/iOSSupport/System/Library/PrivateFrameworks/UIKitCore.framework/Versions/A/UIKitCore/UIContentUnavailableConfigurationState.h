@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, UITraitCollection;
-
 @interface UIContentUnavailableConfigurationState
 {
     unsigned long long _mutations;
-    NSMutableDictionary *_customStates;
-    CDStruct_183601bc _stateFlags;
-    UITraitCollection *_traitCollection;
-    NSString *_searchText;
 }
 
 + (id);
@@ -20,15 +14,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_startEntryProxy;
 - (void);
 - (id);
 - (unsigned long long);
 - (id)ù±]ð1Â0@ù
 × ;
 - (void)errides";
-- (_Bool)edTextHighlightColor;
-- (void);
+- (_Bool)encodedUnemphasizedTextHighlightColor;
+- (void)_useModernAppearanceAPI;
 - (id)84;
 - (void)+a;
 - (void);
@@ -45,16 +39,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _mutations;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *searchControllerText;
-@property(retain, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

@@ -21,13 +21,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)initiative;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void)4¬ ;
-- (id)eadinessCheckMessage;
+- (id)HMHomePerformMediaGroupReadinessCheckMessage;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *languages; // @synthesize languages=_languages;

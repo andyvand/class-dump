@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, WBSSQLiteStatementCache;
-@protocol OS_dispatch_queue;
+@class WBSSQLiteStatementCache;
 
 @interface SFExternalCredentialIdentityStore
 {
     WBSSQLiteStatementCache *_statements;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (int);
@@ -31,12 +29,12 @@
 - (int);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void);
 - (void);
 - (int);
 - (int);
@@ -45,7 +43,7 @@
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)izationProviderExtensionUserLoginConfiguration",R,C,N;
 - (id);
 - (void);
 

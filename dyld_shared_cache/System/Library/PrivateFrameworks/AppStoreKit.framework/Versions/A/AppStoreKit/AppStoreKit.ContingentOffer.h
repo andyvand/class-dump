@@ -9,18 +9,6 @@
 @interface AppStoreKit.ContingentOffer : AppStoreKit.AppPromotion
 {
     id backgroundArtwork;
-    id mediaOverlayStyle;
-    id backgroundVideo;
-    id title;
-    id subtitle;
-    id badge;
-    id label;
-    id description;
-    id additionalInfo;
-    id supportsStreamlinedBuy;
-    id offerLockup;
-    id trunkAppIcon;
-    id learnMoreTitle;
 }
 
 @end

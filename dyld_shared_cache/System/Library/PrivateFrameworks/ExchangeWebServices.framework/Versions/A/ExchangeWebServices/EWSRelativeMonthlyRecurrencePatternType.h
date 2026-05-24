@@ -9,7 +9,6 @@
 @interface EWSRelativeMonthlyRecurrencePatternType : EWSIntervalRecurrencePatternBaseType
 {
     long long _DaysOfWeek;
-    long long _DayOfWeekIndex;
 }
 
 + (id);
@@ -19,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long DayOfWeekIndex; // @synthesize DayOfWeekIndex=_DayOfWeekIndex;
 @property(nonatomic) long long DaysOfWeek; // @synthesize DaysOfWeek=_DaysOfWeek;
 
 @end

@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSMeasurement, NSNumber;
+@class NSNumber;
 
 @protocol INSetClimateSettingsInCarIntentExport
+- (void)8b;
+- (void);
 
 // Remaining properties
-@property long long airCirculationMode;
-@property(copy) INSpeakableString *carName;
-@property long long climateZone;
-@property(copy) NSNumber *enableAirConditioner;
-@property(copy) NSNumber *enableAutoMode;
-@property(copy) NSNumber *enableClimateControl;
 @property(copy) NSNumber *enableFan;
-@property(copy) NSNumber *fanSpeedIndex;
-@property(copy) NSNumber *fanSpeedPercentage;
-@property long long relativeFanSpeedSetting;
-@property long long relativeTemperatureSetting;
-@property(copy) NSMeasurement *temperature;
 @end
 

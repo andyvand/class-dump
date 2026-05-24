@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHIntelligenceFlowRequestEnded : SISchemaInstrumentationMessage
 {
     int _shimAction;
-    struct {
-        unsigned int shimAction:1;
-    } _has;
 }
 
-- (int);
+- (int)`;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)Arð!´GùÞ1Â0@ù
 × ;
-- (id)ntext;
+- (id)_cdmClientSetupContext;
 - (id)rstanding",&,N,V_audioUnderstanding;
 
 // Remaining properties
-@property(nonatomic) _Bool hasShimAction;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int shimAction; // @synthesize shimAction=_shimAction;
 
 @end

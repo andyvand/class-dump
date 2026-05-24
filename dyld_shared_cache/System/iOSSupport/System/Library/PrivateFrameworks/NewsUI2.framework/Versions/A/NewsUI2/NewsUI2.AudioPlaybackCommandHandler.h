@@ -7,19 +7,9 @@
 @interface NewsUI2.AudioPlaybackCommandHandler
 {
     id dataManager;
-    id playbackConductor;
-    id audioPlaybackTracker;
-    id playbackQueue;
-    id resumeSlot;
-    id bundleSubscriptionManager;
-    id offlineManager;
-    id offlineArticleManager;
-    id offlineAlertControllerFactory;
-    id commandCenter;
-    id sceneProvider;
 }
 
-- (void);
+- (void)ShareViewController;
 - (id);
 - (void);
 - (void);

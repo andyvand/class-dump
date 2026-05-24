@@ -14,7 +14,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) struct _NSRange range; // @dynamic range;
 @property(readonly, nonatomic) NSString *textStyle; // @dynamic textStyle;
 @end
 

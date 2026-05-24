@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UXBarButtonItem, UXViewController;
-@protocol PXPeopleFlowViewController;
-
 @protocol PXPeopleFlowController
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasNextViewController;
-@property(readonly, nonatomic) _Bool hasPreviousViewController;
-@property(readonly, nonatomic) UXBarButtonItem *leftBarButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UXBarButtonItem",?,R,N
-
-@property(readonly, nonatomic) UXViewController<PXPeopleFlowViewController> *nextViewController;
-@property(readonly, nonatomic) UXViewController<PXPeopleFlowViewController> *previousViewController;
-@property(readonly, nonatomic) _Bool wantsCancelButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

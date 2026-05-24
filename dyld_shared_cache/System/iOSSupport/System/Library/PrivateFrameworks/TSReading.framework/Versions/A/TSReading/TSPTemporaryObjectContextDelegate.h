@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableSet, NSSet, NSString, NSURL;
-@protocol NSFilePresenter;
+@class NSMutableSet, NSURL;
 
 @interface TSPTemporaryObjectContextDelegate
 {
     NSMutableSet *_persistenceWarnings;
-    _Bool _ignoreDocumentSupport;
-    NSURL *_packageURL;
-    NSError *_error;
 }
 
-- (void);
-- (void);
+- (void)inceIntentionalChange:(_Bool)arg1;
+- (void)###;
+- (id)did become current:(id)arg1;
+- (id)ackStackController - player item did become current: /* Error: Ran out of types for this method. */;
+- (void)no loadable asset [place holder];
 - (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -30,29 +26,7 @@
 - (void)ä56 9;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool areNewExternalReferencesToDataAllowed;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) id <NSFilePresenter> filePresenter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<NSFilePresenter>",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreDocumentSupport; // @synthesize ignoreDocumentSupport=_ignoreDocumentSupport;
-@property(readonly, nonatomic) _Bool isDocumentSupportTemporary;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(copy, nonatomic) NSURL *packageURL; // @synthesize packageURL=_packageURL;
-@property(readonly, nonatomic) NSSet *persistenceWarnings; // @synthesize persistenceWarnings=_persistenceWarnings;
-@property(readonly) Class superclass;
 
 @end
 

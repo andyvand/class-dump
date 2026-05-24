@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, UIScrollView;
-@protocol _UIAutoScrollBehavior;
+@class CADisplayLink;
 
 __attribute__((visibility("hidden")))
 @interface _UIAutoScrollAssistant
 {
     _Bool _started;
-    UIScrollView *_scrollView;
-    long long _mode;
-    unsigned long long _allowedDirections;
-    CADisplayLink *_displayLink;
-    double _lastTimestamp;
-    id <_UIAutoScrollBehavior> _behavior;
-    struct CGPoint _point;
-    struct CGPoint _referenceContentOffsetForPoint;
 }
 
+- (void)setPayloadUpdateSchedule:(struct CGPoint)arg1;
+- (long long)TB,N,GisSelectionEnabled,V_selectionEnabled;
 - (void);
-- (long long);
-- (void);
-- (void);
+- (void)to 'Unknown-PersonID'];
 - (struct CGPoint);
 - (void);
 - (id);
@@ -39,10 +30,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)0:(unsigned long long)arg1 8@"UITextInputController"16@"NSAttributedString"24@"UITextRange"32;
 - (_Bool)ConfidenceLevels"32@0:8@"_UIKBRTRecognizer"16@"_UIKBRTTouchInfo"24 /* Error: Ran out of types for this method. */;
-- (void)ng;
-- (void)yboard;
-- (id)reateSlot:(id)arg1;
-- (struct UIEdgeInsets)owDuration;
+- (void)needsReparenting;
+- (void)didAvoidKeyboard;
+- (id)createSlot:(id)arg1;
+- (struct UIEdgeInsets)_trailingGlowDuration;
 - (double)nsetWhenInset: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (void);
@@ -55,17 +46,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) unsigned long long allowedDirections; // @synthesize allowedDirections=_allowedDirections;
-@property(retain, nonatomic) id <_UIAutoScrollBehavior> behavior; // @synthesize behavior=_behavior;
 @property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(nonatomic) double lastTimestamp; // @synthesize lastTimestamp=_lastTimestamp;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(readonly, nonatomic) struct CGPoint point; // @synthesize point=_point;
-@property(nonatomic) struct CGPoint referenceContentOffsetForPoint; // @synthesize referenceContentOffsetForPoint=_referenceContentOffsetForPoint;
-@property(readonly, nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(nonatomic) _Bool started; // @synthesize started=_started;
-@property(nonatomic) struct UIEdgeInsets touchInsets;
 
 @end
 

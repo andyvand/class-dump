@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOperationInfo, NSDate, NSNumber;
+@class CKOperationInfo;
 
 @interface CKDOperationInfoMetadata
 {
     CKOperationInfo *_operationInfo;
-    NSDate *_lastAttemptDate;
-    NSNumber *_retryNumber;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)neUsageSaveResponse;
+- (void)zoneUsageSaveResponse;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *lastAttemptDate; // @synthesize lastAttemptDate=_lastAttemptDate;
 @property(readonly, nonatomic) CKOperationInfo *operationInfo; // @synthesize operationInfo=_operationInfo;
-@property(readonly, copy, nonatomic) NSNumber *retryNumber; // @synthesize retryNumber=_retryNumber;
 
 @end
 

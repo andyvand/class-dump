@@ -11,7 +11,6 @@
 @interface ABHeaderGroupEntry : ABGroupEntry
 {
     ABAccount *_account;
-    NSArray *_children;
 }
 
 - (id);
@@ -23,10 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double)fsmEvent;
 - (void)1Â0@ù
 × ;
-- (long long)s;
+- (long long)cancelTokens;
 
 // Remaining properties
 @property(readonly, copy) NSArray *children; // @synthesize children=_children;

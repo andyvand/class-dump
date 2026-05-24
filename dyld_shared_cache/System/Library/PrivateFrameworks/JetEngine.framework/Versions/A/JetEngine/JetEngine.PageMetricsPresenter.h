@@ -7,12 +7,6 @@
 @interface JetEngine.PageMetricsPresenter
 {
     id appMetrics;
-    id pipeline;
-    id appStateEventSubscription;
-    id isViewAppeared;
-    id hasAppExitedWhileAppeared;
-    id dataStorage;
-    id context;
 }
 
 @end

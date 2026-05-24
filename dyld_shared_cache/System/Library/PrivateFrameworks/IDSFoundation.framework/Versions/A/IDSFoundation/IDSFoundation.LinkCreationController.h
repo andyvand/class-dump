@@ -7,7 +7,6 @@
 @interface IDSFoundation.LinkCreationController
 {
     id state;
-    id linkInitializer;
 }
 
 @end

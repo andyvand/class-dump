@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void)tDraggableView:(id)arg1 dataOwnerForDrag:(id)arg2;
-- (void)traintAffectsContentSize:(id)arg1;
+- (id)ting account ID from:%@ => %@ /* Error: Ran out of types for this method. */;
+- (void)_textDraggableView:(id)arg1 dataOwnerForDrag:(id)arg2;
+- (void)_constraintAffectsContentSize:(id)arg1;
 - (void)ewMaterial>",&,N,V_background;
 - (_Bool)he top of the stack. This case needs examination in UIKit. items = %@,
 search bar hosting item = %@;

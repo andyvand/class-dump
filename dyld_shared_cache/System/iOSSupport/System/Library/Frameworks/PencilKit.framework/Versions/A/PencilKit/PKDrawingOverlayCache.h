@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject;
-@protocol OS_dispatch_queue;
+@class NSCache;
 
 @interface PKDrawingOverlayCache
 {
     NSCache *_memoryCache;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -27,7 +25,6 @@
 - (id)6þÿéi/¼;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
 @property(retain, nonatomic) NSCache *memoryCache; // @synthesize memoryCache=_memoryCache;
 
 @end

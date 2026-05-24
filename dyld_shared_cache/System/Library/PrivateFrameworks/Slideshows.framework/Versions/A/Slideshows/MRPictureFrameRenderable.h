@@ -6,17 +6,11 @@
 
 #import <Slideshows/MUPoolObject.h>
 
-@class MRImage, NSString;
+@class MRImage;
 
 @interface MRPictureFrameRenderable : MUPoolObject
 {
     MRImage *image;
-    struct CGRect rect;
-    struct CGRect innerRect;
-    struct CGRect outerRect;
-    NSString *where;
-    _Bool ignoreBlend;
-    MRPictureFrameRenderable *next;
 }
 
 + (CDStruct_32b7e343 *);
@@ -25,11 +19,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) MRImage *image; // @synthesize image;
-@property(copy, nonatomic) NSString *where; // @synthesize where;
 
 @end
 

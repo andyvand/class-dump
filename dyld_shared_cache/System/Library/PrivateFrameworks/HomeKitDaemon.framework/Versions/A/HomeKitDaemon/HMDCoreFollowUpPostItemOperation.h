@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol HMDFollowUpController, HMDFollowUpItem;
+@protocol HMDFollowUpItem;
 
 __attribute__((visibility("hidden")))
 @interface HMDCoreFollowUpPostItemOperation
 {
     id <HMDFollowUpItem> _itemToPost;
-    id <HMDFollowUpController> _followUpController;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)
 × ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <HMDFollowUpController> followUpController; // @synthesize followUpController=_followUpController;
 @property(copy, nonatomic) id <HMDFollowUpItem> itemToPost; // @synthesize itemToPost=_itemToPost;
 
 @end

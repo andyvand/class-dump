@@ -8,21 +8,17 @@ __attribute__((visibility("hidden")))
 @interface SlalomWriteOperation
 {
     unsigned short serviceCode;
-    unsigned short blockNumber;
-    unsigned short offsets;
 }
 
 - (unsigned short);
 - (unsigned short);
 - (void);
 - (void);
-- (void);
-- (unsigned short);
+- (void)ging triggered by SBC;
+- (unsigned short)racking:curr state %@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property unsigned short blockNumber; // @synthesize blockNumber;
-@property unsigned short offsets; // @synthesize offsets;
 @property unsigned short serviceCode; // @synthesize serviceCode;
 
 @end

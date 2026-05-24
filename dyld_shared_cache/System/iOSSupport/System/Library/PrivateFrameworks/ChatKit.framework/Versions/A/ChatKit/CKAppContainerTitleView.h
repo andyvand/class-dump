@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, UIButton, UIImage, UIImageView, UILabel;
+@class UIImageView, UILabel;
 
 @interface CKAppContainerTitleView
 {
     UILabel *_label;
-    UIButton *_closeButton;
-    UIImageView *_iconImageView;
-    NSLayoutConstraint *_iconWidthConstraint;
-    NSLayoutConstraint *_iconHeightConstraint;
 }
 
 - (void);
-- (id);
+- (id)C;
 - (void);
 - (void);
 - (id);
@@ -25,19 +21,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (void);
 - (void)?ÿ5Dì1;
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(retain, nonatomic) NSLayoutConstraint *iconHeightConstraint; // @synthesize iconHeightConstraint=_iconHeightConstraint;
-@property(retain, nonatomic) UIImage *iconImage;
 @property(retain, nonatomic) UIImageView *iconImageView; // @synthesize iconImageView=_iconImageView;
-@property(retain, nonatomic) NSLayoutConstraint *iconWidthConstraint; // @synthesize iconWidthConstraint=_iconWidthConstraint;
-@property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
 
 @end
 

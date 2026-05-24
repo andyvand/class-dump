@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol KTVerificationInfoProvider
+- (void);
 
 // Remaining properties
 @property(readonly) NSString *applicationIdentifier;

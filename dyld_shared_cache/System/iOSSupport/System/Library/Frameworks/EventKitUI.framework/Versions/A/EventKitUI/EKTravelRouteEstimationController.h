@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEventStore, EKStructuredLocation, NSArray, NSDate, NSDictionary, NSMutableArray;
-@protocol EKTravelRouteEstimationControllerDelegate;
+@class EKEventStore, EKStructuredLocation;
 
 @interface EKTravelRouteEstimationController
 {
     EKEventStore *_eventStore;
-    EKStructuredLocation *_originStructuredLocation;
-    NSMutableArray *_rows;
-    _Bool _isEstimating;
-    id <EKTravelRouteEstimationControllerDelegate> _delegate;
-    NSDate *_arrivalDate;
-    EKStructuredLocation *_destinationStructuredLocation;
-    EKStructuredLocation *_evaluatedOriginLocation;
-    NSDictionary *_travelTimeEstimatedValues;
-    NSDictionary *_travelTimeLookupErrors;
-    NSArray *_rowData;
 }
 
-+ (id);
++ (id)s;
 - (id);
-- (id);
+- (id)s;
+- (void);
+- (void)%s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)X%s;
+- (void)x.%s;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)Y%s;
+- (id)s;
 - (id);
 - (double);
-- (id);
+- (id)s;
 - (_Bool);
-- (id);
+- (id)&s;
 - (long long);
 - (id);
 - (void);
@@ -48,30 +37,21 @@
 - (void);
 - (id);
 - (long long);
+- (void)*s;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)&s;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)AllButton;
+- (id);
+- (void)setFlushCache:(id)arg1;
+- (void)showSelectAllButton;
 
 // Remaining properties
-@property(retain) NSDate *arrivalDate; // @synthesize arrivalDate=_arrivalDate;
-@property(nonatomic) __weak id <EKTravelRouteEstimationControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) EKStructuredLocation *destinationStructuredLocation; // @synthesize destinationStructuredLocation=_destinationStructuredLocation;
 @property(retain) EKStructuredLocation *evaluatedOriginLocation; // @synthesize evaluatedOriginLocation=_evaluatedOriginLocation;
-@property _Bool isEstimating; // @synthesize isEstimating=_isEstimating;
-@property(readonly, nonatomic) unsigned long long numberOfOutputRows;
-@property(retain, nonatomic) EKStructuredLocation *originStructuredLocation;
-@property(retain) NSArray *rowData; // @synthesize rowData=_rowData;
-@property(retain) NSDictionary *travelTimeEstimatedValues; // @synthesize travelTimeEstimatedValues=_travelTimeEstimatedValues;
-@property(retain) NSDictionary *travelTimeLookupErrors; // @synthesize travelTimeLookupErrors=_travelTimeLookupErrors;
 
 @end
 

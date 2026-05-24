@@ -4,41 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIAction, UIBarButtonItem, UIBlurEffect, UIColor;
-
 @interface UITextInputAssistantItem
 {
     _Bool _allowsHidingShortcuts;
-    _Bool _showsBarButtonItemsInline;
-    _Bool _visibleWhenMinimized;
-    _Bool _independentGroupSizes;
-    NSArray *_leadingBarButtonGroups;
-    NSArray *_trailingBarButtonGroups;
-    UIBarButtonItem *_keyboardActionButtonItem;
-    NSArray *_centerBarButtonGroups;
-    double _marginOverride;
-    UIColor *_detachedBackgroundColor;
-    UIBlurEffect *_detachedBackgroundEffect;
-    UIColor *_detachedTintColor;
-    UIAction *_dictationReplacementAction;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)__im_localizedStringForKey:(id)arg1;
+- (void)IMDInvocationForwarder;
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)Message chat found for chat identifier:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)essfully started explicit download for local file url retrieval of transfer with GUIDs %@;
+- (void)d translation command.;
+- (void)l chat;
+- (void)it is NOT proxy registered for SMS;
+- (void)e. Dropping record:(_Bool)arg1 %@;
+- (void)%@;
+- (void)unt? %{BOOL}d;
+- (void)ave SMS Relay capable devices on its account? %{BOOL}d;
+- (void)ask:(id)arg1 );
+- (_Bool)ptcpts;
+- (_Bool)q;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -51,10 +37,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)4<;
 - (_Bool);
 - (id);
-- (void);
+- (void)!;
 - (void)m.apple.language.changed;
 - (void)Ð"ÿ$;
 - (void)¦¬ó;
@@ -64,29 +50,7 @@
 - (void)cþ²;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsHidingShortcuts; // @synthesize allowsHidingShortcuts=_allowsHidingShortcuts;
-@property(copy, nonatomic, getter=_centerBarButtonGroups, setter=_setCenterBarButtonGroups:) NSArray *centerBarButtonGroups; // @synthesize centerBarButtonGroups=_centerBarButtonGroups;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic, getter=_detachedBackgroundColor, setter=_setDetachedBackgroundColor:) UIColor *detachedBackgroundColor; // @synthesize detachedBackgroundColor=_detachedBackgroundColor;
-@property(copy, nonatomic, getter=_detachedBackgroundEffect, setter=_setDetachedBackgroundEffect:) UIBlurEffect *detachedBackgroundEffect; // @synthesize detachedBackgroundEffect=_detachedBackgroundEffect;
-@property(retain, nonatomic, getter=_detachedTintColor, setter=_setDetachedTintColor:) UIColor *detachedTintColor; // @synthesize detachedTintColor=_detachedTintColor;
-@property(retain, nonatomic, getter=_dictationReplacementAction, setter=_setDictationReplacementAction:) UIAction *dictationReplacementAction; // @synthesize dictationReplacementAction=_dictationReplacementAction;
-@property(readonly, nonatomic, getter=_hasItemsToDisplay) _Bool hasItemsToDisplay;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=_independentGroupSizes, setter=_setIndependentGroupSizes:) _Bool independentGroupSizes; // @synthesize independentGroupSizes=_independentGroupSizes;
-@property(retain, nonatomic) UIBarButtonItem *keyboardActionButtonItem; // @synthesize keyboardActionButtonItem=_keyboardActionButtonItem;
-@property(copy, nonatomic) NSArray *leadingBarButtonGroups; // @synthesize leadingBarButtonGroups=_leadingBarButtonGroups;
-@property(nonatomic, getter=_marginOverride, setter=_setMarginOverride:) double marginOverride; // @synthesize marginOverride=_marginOverride;
-@property(readonly, nonatomic, getter=_requiresPredictionDisabled) _Bool requiresPredictionDisabled;
-@property(nonatomic, getter=_showsBarButtonItemsInline, setter=_setShowsBarButtonItemsInline:) _Bool showsBarButtonItemsInline; // @synthesize showsBarButtonItemsInline=_showsBarButtonItemsInline;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic, getter=_isSystemItem) _Bool systemItem;
-@property(copy, nonatomic) NSArray *trailingBarButtonGroups; // @synthesize trailingBarButtonGroups=_trailingBarButtonGroups;
-@property(nonatomic, getter=_isVisibleWhenMinimized, setter=_setVisibleWhenMinimized:) _Bool visibleWhenMinimized; // @synthesize visibleWhenMinimized=_visibleWhenMinimized;
 
 @end
 

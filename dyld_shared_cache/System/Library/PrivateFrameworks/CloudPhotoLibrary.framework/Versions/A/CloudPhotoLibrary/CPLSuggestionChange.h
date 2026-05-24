@@ -6,38 +6,25 @@
 
 #import <CloudPhotoLibrary/CPLRecordChange.h>
 
-@class CPLSuggestionRecordList, NSData, NSDate, NSString;
+@class NSString;
 
 @interface CPLSuggestionChange : CPLRecordChange
 {
     unsigned short _type;
-    unsigned short _subtype;
-    unsigned short _notificationState;
-    unsigned short _state;
-    NSString *_title;
-    NSString *_subtitle;
-    CPLSuggestionRecordList *_recordList;
-    NSDate *_creationDate;
-    long long _version;
-    NSDate *_activationDate;
-    NSDate *_relevantUntilDate;
-    NSDate *_expungeDate;
-    NSData *_actionData;
-    NSData *_featuresData;
 }
 
++ (_Bool)!;
 + (_Bool);
 + (_Bool);
-+ (_Bool)lStatusArray:(id)arg1 forComponents:completionHandler: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)commute15MinWarningEntityRelevanceNonContextualFeatures;
+- (id)commute15MinWarningEntityRelevanceMicroLocationFeatures;
+- (id)deviceWirelessSignal;
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (id);
+- (void)ntTicketShowEvent;
+- (id)xtensionIdentifiers;
 - (void);
 - (void);
 - (void);
@@ -47,23 +34,22 @@
 - (unsigned short);
 - (id);
 - (id);
-- (id);
+- (id)+;
 - (id);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (void);
-- (id)es;
-- (unsigned short)0úâEùñª1\íò0
-ÁÚð;
-- (void)°øH;
-- (unsigned short)àªùhÐ½Bù;
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (unsigned short);
+- (void);
+- (unsigned short);
+- (void);
+- (void);
+- (void);
+- (void).cac;
+- (id)h;
 - (void);
 - (void);
 - (unsigned short);
@@ -71,20 +57,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *actionData; // @synthesize actionData=_actionData;
-@property(copy, nonatomic) NSDate *activationDate; // @synthesize activationDate=_activationDate;
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSDate *expungeDate; // @synthesize expungeDate=_expungeDate;
-@property(copy, nonatomic) NSData *featuresData; // @synthesize featuresData=_featuresData;
-@property(nonatomic) unsigned short notificationState; // @synthesize notificationState=_notificationState;
-@property(copy, nonatomic) CPLSuggestionRecordList *recordList; // @synthesize recordList=_recordList;
-@property(copy, nonatomic) NSDate *relevantUntilDate; // @synthesize relevantUntilDate=_relevantUntilDate;
-@property(nonatomic) unsigned short state; // @synthesize state=_state;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(nonatomic) unsigned short subtype; // @synthesize subtype=_subtype;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned short type; // @synthesize type=_type;
-@property(nonatomic) long long version; // @synthesize version=_version;
 
 @end
 

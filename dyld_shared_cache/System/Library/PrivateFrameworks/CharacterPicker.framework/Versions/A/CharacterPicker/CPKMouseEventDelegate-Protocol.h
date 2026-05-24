@@ -5,5 +5,6 @@
 //
 
 @protocol CPKMouseEventDelegate
+- (void);
 @end
 

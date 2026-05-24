@@ -15,13 +15,13 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)fp_stringByDeletingPathBounceNo:(id)arg1 andPathExtension:isFolder: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void)rop;
+- (void)VNImageBufferAugmentationRandomCrop;
 
 // Remaining properties
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;

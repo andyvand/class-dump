@@ -6,35 +6,19 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableSet, NSTimer, UILabel, UIPDFDocument;
-
 __attribute__((visibility("hidden")))
 @interface UIPDFWidget : UIView
 {
     int queueIndex;
-    int queueCount;
-    struct {
-        int byteCount;
-        int currentPageCount;
-        int renderJobsCount;
-        _Bool memWarning;
-    } queueData[60];
-    int currentPageCount;
-    int totalPageCount;
-    int renderJobsCount;
-    NSTimer *heartbeatTimer;
-    UILabel *infoLabel;
-    UIPDFDocument *activeDocument;
-    NSMutableSet *trackedPages;
 }
 
 - (void);
-- (id);
+- (id)hes group photo file name. path:(struct CGRect)arg1 %@;
+- (void)dcasting unreadCountChanged with new value:%lld  /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_payloadCertificateAuthority;
+- (void);
+- (void)B;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface BMPBPersonEntity
 {
     NSMutableArray *_addresses;
-    NSMutableArray *_attributes;
-    NSString *_contactId;
-    NSString *_customId;
-    NSMutableArray *_emailAddresses;
-    NSMutableArray *_names;
-    NSMutableArray *_phoneNumbers;
-    NSMutableArray *_socialMediaHandles;
 }
 
 + (Class);
@@ -30,39 +23,39 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)@9?9;
+- (id)@9?%;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
+- (void)Y;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
 - (_Bool);
 - (void);
+- (id)6@0:(unsigned long long)arg1 8;
+- (void)isory_wifi_context=CCSSCCCCCS[6I]}{ifnet_interface_advisory_cell_context=CsscCCCCSSCC})})}{tagVCNWConnectionNotification_BBUplinkCRA=iQQII}{tagVCNWConnectionNotification_BBLinkMeasurement=isscCC}{tagVCNWConnectionNotification_BBBWLimitation=C}{tagVCNWConnectionNotification_BBCDRXUpdate=CS}{tagVCNWConnectionNotification_BBOutage=iSC}{tagVCNWConnectionNotification_BBThermalUpdate=i})}16;
+- (void)a screen.;
+- (id);
+- (void);
+- (id)`;
+- (void);
+- (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
 - (_Bool);
+- (void);
+- (unsigned long long);
+- (id);
+- (id);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
@@ -71,23 +64,14 @@
 - (id);
 - (void);
 - (id);
-- (void)UERY__TOKEN__ENABLE_P;
+- (void)PG_QUERY__TOKEN__ENABLE_P;
 - (id);
 - (void)þÿ;
 - (id)0ÿÿo3ÿÿÿÿÒ;
 - (id)K;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *addresses; // @synthesize addresses=_addresses;
-@property(retain, nonatomic) NSMutableArray *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) NSString *contactId; // @synthesize contactId=_contactId;
-@property(retain, nonatomic) NSString *customId; // @synthesize customId=_customId;
-@property(retain, nonatomic) NSMutableArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly, nonatomic) _Bool hasContactId;
-@property(readonly, nonatomic) _Bool hasCustomId;
 @property(retain, nonatomic) NSMutableArray *names; // @synthesize names=_names;
-@property(retain, nonatomic) NSMutableArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(retain, nonatomic) NSMutableArray *socialMediaHandles; // @synthesize socialMediaHandles=_socialMediaHandles;
 
 @end
 

@@ -5,5 +5,13 @@
 //
 
 @protocol AKMBUIDelegate
+- (void);
+- (void),;
+- (void)1;
+- (void)|B;
+- (void)X,/;
+
+@optional
+- (void);
 @end
 

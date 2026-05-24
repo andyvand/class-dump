@@ -9,12 +9,6 @@
 @interface CPLFaceAnalysis
 {
     NSMutableArray *_faceInstances;
-    NSMutableArray *_petFaceInstances;
-    NSMutableArray *_torsoFaceInstances;
-    _Bool _completed;
-    struct {
-        unsigned int completed:1;
-    } _has;
 }
 
 + (Class);
@@ -36,17 +30,17 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)JA;
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)àªâªá>@ùè;
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -54,11 +48,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool completed; // @synthesize completed=_completed;
-@property(retain, nonatomic) NSMutableArray *faceInstances; // @synthesize faceInstances=_faceInstances;
 @property(nonatomic) _Bool hasCompleted;
-@property(retain, nonatomic) NSMutableArray *petFaceInstances; // @synthesize petFaceInstances=_petFaceInstances;
-@property(retain, nonatomic) NSMutableArray *torsoFaceInstances; // @synthesize torsoFaceInstances=_torsoFaceInstances;
 
 @end
 

@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFEvent.h>
 
-@class MKFPresenceEventDatabaseID, NSArray, NSDate, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFEventTrigger, MKFHome;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFPresenceEvent : _MKFEvent
@@ -24,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)estamp;
+- (id)};
 - (void);
 - (void);
 - (id);
@@ -34,33 +33,10 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *activation; // @dynamic activation;
-@property(readonly, copy, nonatomic) MKFPresenceEventDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *endEvent;
-@property(readonly, retain, nonatomic) NSArray *guests;
-@property(retain, nonatomic) NSSet *guests_; // @dynamic guests_;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSUUID *modelID;
-@property(copy, nonatomic) NSString *presenceType; // @dynamic presenceType;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) id <MKFEventTrigger> trigger;
-@property(readonly, retain, nonatomic) NSArray *users;
-@property(retain, nonatomic) NSSet *users_; // @dynamic users_;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 
 @end
 

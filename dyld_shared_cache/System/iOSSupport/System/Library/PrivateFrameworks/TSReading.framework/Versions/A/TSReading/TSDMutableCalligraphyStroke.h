@@ -6,7 +6,7 @@
 
 #import <TSReading/TSDCalligraphyStroke.h>
 
-@class TSDStrokePattern, TSUColor;
+@class TSUColor;
 
 @interface TSDMutableCalligraphyStroke : TSDCalligraphyStroke
 {
@@ -15,7 +15,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -24,20 +24,14 @@
 - (void);
 - (double);
 - (double);
-- (id);
+- (id)ns/A/SocialLayer;
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double actualWidth;
-@property(nonatomic) int cap;
 @property(copy, nonatomic) TSUColor *color;
-@property(nonatomic) int join;
-@property(nonatomic) double miterLimit;
-@property(copy, nonatomic) TSDStrokePattern *pattern;
-@property(nonatomic) double width;
 
 @end
 

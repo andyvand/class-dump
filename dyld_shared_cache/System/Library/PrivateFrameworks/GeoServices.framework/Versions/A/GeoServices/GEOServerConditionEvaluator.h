@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)isFileAtUrlOnARemoteFileSystem:(id)arg1;
 + (_Bool);
 
 @end

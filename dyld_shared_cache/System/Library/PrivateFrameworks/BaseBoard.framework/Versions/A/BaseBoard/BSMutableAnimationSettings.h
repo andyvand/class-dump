@@ -6,37 +6,21 @@
 
 #import <BaseBoard/BSAnimationSettings.h>
 
-@class CAMediaTimingFunction, NSString;
-
 @interface BSMutableAnimationSettings : BSAnimationSettings
 {
 }
 
+- (void)!0;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void)(%s);
 
 // Remaining properties
-@property(nonatomic) double beginTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) double delay;
-@property(readonly, copy) NSString *description;
 @property(nonatomic) double duration; // @dynamic duration;
-@property(nonatomic) double frameInterval;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int highFrameRateReason;
-@property(nonatomic) struct CAFrameRateRange preferredFrameRateRange;
-@property(nonatomic) float speed;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CAMediaTimingFunction *timingFunction;
 
 @end
 

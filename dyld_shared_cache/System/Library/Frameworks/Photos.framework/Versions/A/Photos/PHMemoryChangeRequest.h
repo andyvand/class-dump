@@ -6,91 +6,15 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSData, NSDate, NSDictionary, NSManagedObjectID, NSNumber, NSString, PHMemory, PHMemoryFeature, PHObjectPlaceholder, PHRelationshipChangeRequestHelper, PHUserFeedback;
-@protocol PLChangesForServiceHandling;
+@class NSNumber, PHMemory;
 
 @interface PHMemoryChangeRequest : PHChangeRequest
 {
     PHMemory *_backingMemory;
-    _Bool _clientEntitledToMemoryMutation;
-    _Bool _incrementPlayCount;
-    _Bool _incrementShareCount;
-    _Bool _incrementViewCount;
-    _Bool _didUnsetUserFeedback;
-    _Bool _didSetUserCreated;
-    _Bool _didSetUserEdited;
-    _Bool _userCreated;
-    _Bool _userEdited;
-    NSDictionary *_movieAssetState;
-    PHUserFeedback *_userFeedback;
-    NSNumber *_customMaximumNumberOfAssetsForUnitTesting;
-    PHRelationshipChangeRequestHelper *_keyAssetHelper;
-    PHRelationshipChangeRequestHelper *_representativeAssetsHelper;
-    PHRelationshipChangeRequestHelper *_curatedAssetsHelper;
-    PHRelationshipChangeRequestHelper *_extendedCuratedAssetsHelper;
-    PHRelationshipChangeRequestHelper *_movieCuratedAssetsHelper;
-    PHRelationshipChangeRequestHelper *_userCuratedAssetsHelper;
-    PHRelationshipChangeRequestHelper *_customUserAssetsHelper;
-    PHRelationshipChangeRequestHelper *_userRemovedAssetsHelper;
-    NSManagedObjectID *_sourceGeneratedMemoryID;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(retain, nonatomic) PHMemoryFeature *blacklistedFeature;
-@property(nonatomic) unsigned long long category;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) _Bool clientEntitledToMemoryMutation; // @synthesize clientEntitledToMemoryMutation=_clientEntitledToMemoryMutation;
-@property(readonly, nonatomic) NSString *clientName;
-@property(retain, nonatomic) NSDate *creationDate;
-@property(nonatomic) unsigned short creationType;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *curatedAssetsHelper; // @synthesize curatedAssetsHelper=_curatedAssetsHelper;
 @property(retain, nonatomic) NSNumber *customMaximumNumberOfAssetsForUnitTesting; // @synthesize customMaximumNumberOfAssetsForUnitTesting=_customMaximumNumberOfAssetsForUnitTesting;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *customUserAssetsHelper; // @synthesize customUserAssetsHelper=_customUserAssetsHelper;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *extendedCuratedAssetsHelper; // @synthesize extendedCuratedAssetsHelper=_extendedCuratedAssetsHelper;
-@property(nonatomic, getter=isFavorite) _Bool favorite;
-@property(nonatomic) long long featuredState;
-@property(retain, nonatomic) NSString *graphMemoryIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *keyAssetHelper; // @synthesize keyAssetHelper=_keyAssetHelper;
-@property(retain, nonatomic) NSDate *lastEnrichmentDate;
-@property(retain, nonatomic) NSDate *lastMoviePlayedDate;
-@property(retain, nonatomic) NSDate *lastViewedDate;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, nonatomic) NSDictionary *movieAssetState; // @synthesize movieAssetState=_movieAssetState;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *movieCuratedAssetsHelper; // @synthesize movieCuratedAssetsHelper=_movieCuratedAssetsHelper;
-@property(retain, nonatomic) NSData *movieData;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(nonatomic) unsigned long long notificationState;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(nonatomic) unsigned short pendingState;
-@property(retain, nonatomic) NSData *photosGraphData;
-@property(nonatomic) long long photosGraphVersion;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedMemory;
-@property(nonatomic, getter=isRejected) _Bool rejected;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *representativeAssetsHelper; // @synthesize representativeAssetsHelper=_representativeAssetsHelper;
-@property(nonatomic) double score;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(retain, nonatomic) NSManagedObjectID *sourceGeneratedMemoryID; // @synthesize sourceGeneratedMemoryID=_sourceGeneratedMemoryID;
-@property(nonatomic) long long storyColorGradeKind;
-@property(retain, nonatomic) NSString *storyTitleCategory;
-@property(retain, nonatomic) NSString *subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title;
-@property(nonatomic, getter=isUserCreated) _Bool userCreated; // @synthesize userCreated=_userCreated;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *userCuratedAssetsHelper; // @synthesize userCuratedAssetsHelper=_userCuratedAssetsHelper;
-@property(nonatomic) _Bool userEdited; // @synthesize userEdited=_userEdited;
-@property(copy, nonatomic) PHUserFeedback *userFeedback; // @synthesize userFeedback=_userFeedback;
-@property(readonly, nonatomic) PHRelationshipChangeRequestHelper *userRemovedAssetsHelper; // @synthesize userRemovedAssetsHelper=_userRemovedAssetsHelper;
 @end
 

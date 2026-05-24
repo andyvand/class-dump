@@ -5,5 +5,8 @@
 //
 
 @protocol TKXPCConnectionDelegate
+
+@optional
+- (void);
 @end
 

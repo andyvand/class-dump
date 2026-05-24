@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, PHPhotoLibrary;
-@protocol OS_os_log;
+@class NSArray;
 
 @interface PGShareBackSuggester
 {
     NSArray *_sources;
-    PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_os_log> *_loggingConnection;
-    unsigned short _positiveProcessingValue;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)accessibilityPerformCancel;
++ (id)accessibilityLineForAXFTextPosition:(id)arg1;
++ (id)accessibilityFocusedWindow;
++ (id)accessibilityFocusManager:(id)arg1 didUpdateFrontmostFocusedElement:(id)arg2;
 + (id);
 - (id);
 - (id);

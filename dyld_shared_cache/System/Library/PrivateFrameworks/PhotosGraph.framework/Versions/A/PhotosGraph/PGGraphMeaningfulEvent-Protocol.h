@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet, PGGraphMeaningNodeCollection;
+
 @protocol PGGraphMeaningfulEvent
+- (void)selectedRangeWithinLineContent;
+- (void)pruneListeners;
+- (void)previousResultsWithLimit:(void (^)(PGGraphMeaningEdge *, PGGraphMeaningNode *, _Bool *))arg1;
+- (PGGraphMeaningNodeCollection *)__suppressionCheckbox;
+- (NSSet *)__spotlightApplicationController;
+- (void)ր;
 @end
 

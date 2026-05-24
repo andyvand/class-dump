@@ -7,6 +7,7 @@
 @interface HomeEnergyDaemon.WeatherDataProvider
 {
     id weatherService;
+    id;
 }
 
 @end

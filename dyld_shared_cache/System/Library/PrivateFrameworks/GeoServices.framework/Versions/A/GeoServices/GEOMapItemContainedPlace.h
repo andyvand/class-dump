@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDContainedPlace, NSArray;
-@protocol GEOMapItem;
+@class GEOPDContainedPlace;
 
 @interface GEOMapItemContainedPlace
 {
     GEOPDContainedPlace *_containedPlace;
-    id <GEOMapItem> _parent;
-    NSArray *_children;
-    NSArray *_siblings;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)_unitTestableLocalizedStringForPostalAddressString:returningNilIfNotFound: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id)etadata is available;
 - (id);
 - (void)§u4Î÷2;
 - (unsigned long long)À: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *children;
 @property(readonly, nonatomic) unsigned long long featureId;
-@property(readonly, nonatomic) id <GEOMapItem> parent;
-@property(readonly, nonatomic) unsigned long long parentFeatureId;
-@property(readonly, nonatomic) NSArray *siblings;
 
 @end
 

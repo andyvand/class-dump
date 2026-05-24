@@ -7,7 +7,7 @@
 @protocol CAAnimationDelegate
 
 @optional
-- (void)ingDate;
+- (void)openingDate;
 - (void)orizedPeerPaymentQuoteCSg~©L_pSgIeggg_;
 @end
 

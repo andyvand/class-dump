@@ -11,22 +11,21 @@
 @interface CLSAttachmentEvent : CLSInsightEvent
 {
     int _handoutAttachmentType;
-    NSString *_attachmentID;
-    NSString *_classID;
-    NSString *_handoutID;
-    NSString *_recipientPersonID;
-    long long _contextType;
 }
 
-+ (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
++ (_Bool)_cachePolicy;
+- (void)m time (ms):(id)arg1 %.3f;
+- (void)kANEMaxBuffers
+;
+- (void)OutputBuffers = %d
+;
+- (void)esult=0x%x
+;
+- (void)ic2;
+- (id)tex_index_cache_total;
+- (void)with different mutable kernel section bars
+;
+- (id)H;
 - (id);
 - (int);
 - (id);
@@ -35,20 +34,14 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)C;
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)clear user acknowledge prompt cache returned an error:(id)arg1 %@.;
+- (void)B;
+- (id)JZo;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appIdentifier; // @dynamic appIdentifier;
 @property(copy, nonatomic) NSString *attachmentID; // @synthesize attachmentID=_attachmentID;
-@property(copy, nonatomic) NSString *classID; // @synthesize classID=_classID;
-@property(nonatomic) long long contextType; // @synthesize contextType=_contextType;
-@property(nonatomic) int handoutAttachmentType; // @synthesize handoutAttachmentType=_handoutAttachmentType;
-@property(copy, nonatomic) NSString *handoutID; // @synthesize handoutID=_handoutID;
-@property(copy, nonatomic) NSString *recipientPersonID; // @synthesize recipientPersonID=_recipientPersonID;
 
 @end
 

@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)addProperty:withValue: /* Error: Ran out of types for this method. */;
+- (_Bool)<%@>;
 - (Class)ÔAq&!XDù1*ð1Â0@ù
 × ;
 

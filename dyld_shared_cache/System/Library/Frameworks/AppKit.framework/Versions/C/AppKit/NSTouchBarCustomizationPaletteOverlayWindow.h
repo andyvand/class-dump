@@ -6,43 +6,22 @@
 
 #import <AppKit/NSWindow.h>
 
-@class NSBox, NSLayoutConstraint, NSStackView, NSString, NSTextField, NSTouchBarCustomizationPaletteCheckbox, NSTouchBarCustomizationPaletteLabelPopoverView, NSTouchBarCustomizationPalettePushButton, NSView, NSViewController, _NSCustomizationSheetBackgroundView, _NSFunctionRowCustomizationDragTarget, _NSOverlayBackgroundView;
+@class NSViewController;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPaletteOverlayWindow : NSWindow
 {
     NSViewController *_paletteContentViewController;
-    _NSFunctionRowCustomizationDragTarget *_screenBottomDragTarget;
-    _NSOverlayBackgroundView *_backgroundView;
-    _NSCustomizationSheetBackgroundView *_sheetBackground;
-    NSView *_sheetContainer;
-    NSStackView *_verticalStack;
-    NSStackView *_horizontalHeaderStack;
-    NSTextField *_headerLabel;
-    NSBox *_headerSeparator;
-    NSTouchBarCustomizationPaletteCheckbox *_quicktypeCheckbox;
-    NSTouchBarCustomizationPalettePushButton *_doneButton;
-    NSTouchBarCustomizationPaletteLabelPopoverView *_labelView;
-    _Bool _debugMode;
-    struct CGPoint _dragLocation;
-    struct CGSize _dragSize;
-    NSString *_dragLabel;
-    _Bool _showQuickType;
-    double _paletteScaleFactor;
-    NSLayoutConstraint *_doneButtonWidthConstraint;
-    NSLayoutConstraint *_headerLabelInsetConstraint;
-    NSLayoutConstraint *_leadingPaletteViewConstraint;
-    NSLayoutConstraint *_trailingPaletteViewConstraint;
 }
 
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)egxmIYw;
+- (_Bool)Q;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (double);
@@ -60,18 +39,18 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct NSEdgeInsets);
 - (void);
-- (void);
-- (double);
-- (double);
+- (void)credStorage_getInitialCredentialDictionariesWithReply:(id)arg1;
+- (double)_sqlSelectFileSystemFileForDeletionStmt;
+- (double)_lastResponseBodyTransferSize;
 - (_Bool);
+- (double);
 - (double);
 - (double);
-- (double);
+- (id);
 - (id);
-- (id);
-- (void);
-- (double);
-- (void);
+- (void)6;
+- (double)eating background downloads directory:%@ /* Error: Ran out of types for this method. */;
+- (void)statement;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -82,13 +61,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property _Bool debugMode; // @synthesize debugMode=_debugMode;
-@property(copy) NSString *dragLabel;
-@property struct CGPoint dragLocation;
-@property struct CGSize dragSize; // @synthesize dragSize=_dragSize;
-@property(retain) NSViewController *paletteContentViewController; // @synthesize paletteContentViewController=_paletteContentViewController;
-@property double paletteScaleFactor; // @synthesize paletteScaleFactor=_paletteScaleFactor;
-@property(readonly, retain) _NSFunctionRowCustomizationDragTarget *screenBottomDragTarget; // @synthesize screenBottomDragTarget=_screenBottomDragTarget;
 @property _Bool showQuickType; // @synthesize showQuickType=_showQuickType;
 
 @end

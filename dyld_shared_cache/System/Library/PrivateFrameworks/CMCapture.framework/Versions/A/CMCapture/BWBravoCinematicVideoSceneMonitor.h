@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface BWBravoCinematicVideoSceneMonitor
 {
     _Bool _oneShotFocusScanInProgress;
-    _Bool _sceneTooDarkMonitoringEnabled;
-    int _sceneTooDarkLuxThreshold;
-    _Bool _sceneIsTooDark;
-    _Bool _portraitSceneMonitoringRequiresStageThresholds;
 }
 
 + (void)etadataFanOutNode.input pipelineStage:metadataFanOutPipelineStage] /* Error: Ran out of types for this method. */;
-- (void);
+- (void)5;
 - (void);
 - (void);
 - (_Bool);
@@ -28,15 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) float focusDistanceToMaxAllowedFocusDistanceRatio;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool portraitSceneMonitoringRequiresStageThresholds; // @synthesize portraitSceneMonitoringRequiresStageThresholds=_portraitSceneMonitoringRequiresStageThresholds;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DDSTimedAnalytic
 {
     _Bool _success;
-    int _lastAction;
-    NSString *_identifier;
-    unsigned long long _retries;
-    double _startTime;
-    double _endTime;
 }
 
-- (void);
-- (void);
-- (int);
-- (unsigned long long);
+- (void)setHasDaysBucketType:(int)arg1;
+- (void)setHasCurareAppIntentSampleClassificationContext:(int)arg1;
+- (int)setHasCountPSUSAssets: /* Error: Ran out of types for this method. */;
+- (unsigned long long)setHasCoreSpeechTrailingPacketLatency: /* Error: Ran out of types for this method. */;
 - (double);
 - (id);
 - (id);
 - (void);
-- (double);
+- (double)/'F'
+;
 - (void);
 - (id);
 - (unsigned long long);
@@ -34,13 +28,7 @@
 - (void)Èè(¡P¡P¢;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long durationInSec;
-@property(nonatomic) double endTime; // @synthesize endTime=_endTime;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) int lastAction; // @synthesize lastAction=_lastAction;
 @property(nonatomic) unsigned long long retries; // @synthesize retries=_retries;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
 
 @end
 

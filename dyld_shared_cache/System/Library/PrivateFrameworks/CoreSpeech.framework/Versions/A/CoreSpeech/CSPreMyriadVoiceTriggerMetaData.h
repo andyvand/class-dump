@@ -9,8 +9,6 @@
 @interface CSPreMyriadVoiceTriggerMetaData
 {
     _Bool _isSecondPassRunning;
-    float _firstPassMyriadGoodnessScore;
-    NSString *_deviceId;
 }
 
 - (void);
@@ -20,12 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (void)toDir: /* Error: Ran out of types for this method. */;
+- (void)extractArchiveFromDirectory:toDir: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
-@property(nonatomic) float firstPassMyriadGoodnessScore; // @synthesize firstPassMyriadGoodnessScore=_firstPassMyriadGoodnessScore;
-@property(nonatomic) _Bool isSecondPassRunning; // @synthesize isSecondPassRunning=_isSecondPassRunning;
 
 @end
 

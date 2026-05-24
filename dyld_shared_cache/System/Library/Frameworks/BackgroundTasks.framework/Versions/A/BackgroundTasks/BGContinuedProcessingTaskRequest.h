@@ -11,24 +11,18 @@
 @interface BGContinuedProcessingTaskRequest : BGTaskRequest
 {
     NSString *_title;
-    NSString *_subtitle;
-    long long _strategy;
-    long long _requiredResources;
-    BGContinuedProcessingTaskContext *_context;
-    NSString *_iconUTI;
-    NSString *_linkToBundleIdentifier;
 }
 
 + (id);
 + (Class);
 - (void);
-- (long long);
+- (long long)[;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Z;
 - (id);
-- (id);
+- (id)ers;
 - (void);
 - (id);
 - (unsigned long long);
@@ -37,9 +31,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)updateAttachmentPreviewImageWithImageSrc:(id)arg1 maxDimension:scale:appearanceType:scaleWhenDrawing:metadata:sendNotification: /* Error: Ran out of types for this method. */;
+- (void)en;
+- (id)|;
 - (id);
 - (long long);
 - (void);
@@ -47,12 +41,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) BGContinuedProcessingTaskContext *context; // @synthesize context=_context;
-@property(copy) NSString *iconUTI; // @synthesize iconUTI=_iconUTI;
-@property(copy) NSString *linkToBundleIdentifier; // @synthesize linkToBundleIdentifier=_linkToBundleIdentifier;
-@property(nonatomic) long long requiredResources; // @synthesize requiredResources=_requiredResources;
-@property(nonatomic) long long strategy; // @synthesize strategy=_strategy;
-@property(copy) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -12,8 +12,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id);
++ (id);
 - (void);
 - (id);
 - (id);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *dynamicURLImageResourceData;
-@property(copy, nonatomic) NSData *dynamicURLImageResourceDataEvodBumper;
 
 @end
 

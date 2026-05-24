@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteStore, CNAvatarImageRenderer, NSArray, NSCollectionView, NSCollectionViewDiffableDataSource, NSCollectionViewLayout, NSObject, NSString;
-@protocol CNAutocompleteSuggestionsViewControllerDelegate, CNCancelable, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface CNAutocompleteSuggestionsViewController
 {
     _Bool _shouldExpandGroups;
-    id <CNAutocompleteSuggestionsViewControllerDelegate> _delegate;
-    NSArray *_results;
-    NSArray *_otherRecipientAddresses;
-    NSObject<OS_os_log> *_os_log;
-    unsigned long long _searchType;
-    NSCollectionView *_collectionView;
-    NSCollectionViewLayout *_layout;
-    NSCollectionViewDiffableDataSource *_dataSource;
-    CNAutocompleteStore *_autocompleteStore;
-    id <CNCancelable> _autocompleteFetchToken;
-    NSArray *_fetchedResults;
-    NSArray *_items;
-    NSArray *_selectedResults;
-    NSArray *_otherRecipientAddressesExpanded;
-    CNAvatarImageRenderer *_avatarRenderer;
 }
 
 - (_Bool);
@@ -49,29 +34,29 @@
 - (id);
 - (id);
 - (id);
+- (void)/Library/Caches/com.apple.xbs/TemporaryDirectory.4923j9/Sources/WebKit/Source/WebKit/UIProcess/WebPageProxy.cpp 9889:(id)arg1 Invalid message dispatched %{public}s;
+- (id);
+- (void);
+- (void)qA;
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id));
+- (unsigned long long)P;
+- (id)	;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -79,29 +64,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <CNCancelable> autocompleteFetchToken; // @synthesize autocompleteFetchToken=_autocompleteFetchToken;
-@property(retain, nonatomic) CNAutocompleteStore *autocompleteStore; // @synthesize autocompleteStore=_autocompleteStore;
-@property(retain, nonatomic) CNAvatarImageRenderer *avatarRenderer; // @synthesize avatarRenderer=_avatarRenderer;
-@property(retain, nonatomic) NSCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) NSCollectionViewDiffableDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNAutocompleteSuggestionsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *fetchedResults; // @synthesize fetchedResults=_fetchedResults;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(retain, nonatomic) NSCollectionViewLayout *layout; // @synthesize layout=_layout;
 @property(readonly) NSObject<OS_os_log> *os_log; // @synthesize os_log=_os_log;
-@property(retain, nonatomic) NSArray *otherRecipientAddresses; // @synthesize otherRecipientAddresses=_otherRecipientAddresses;
-@property(retain, nonatomic) NSArray *otherRecipientAddressesExpanded; // @synthesize otherRecipientAddressesExpanded=_otherRecipientAddressesExpanded;
-@property(retain, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(nonatomic) unsigned long long searchType; // @synthesize searchType=_searchType;
-@property(retain, nonatomic) NSArray *selectedResults; // @synthesize selectedResults=_selectedResults;
-@property(nonatomic) _Bool shouldExpandGroups; // @synthesize shouldExpandGroups=_shouldExpandGroups;
-@property(readonly) Class superclass;
 
 @end
 

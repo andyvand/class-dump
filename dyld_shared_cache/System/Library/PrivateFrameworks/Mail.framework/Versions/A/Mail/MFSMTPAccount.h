@@ -6,20 +6,16 @@
 
 #import <Mail/MFDeliveryAccount.h>
 
-@class ECSMTPAccount, MFSMTPConnection, NSOperationQueue, NSTimer;
+@class MFSMTPConnection, NSOperationQueue;
 
 @interface MFSMTPAccount : MFDeliveryAccount
 {
     MFSMTPConnection *_connection;
-    id _smtpAccountLock;
-    NSTimer *_timer;
-    NSOperationQueue *_connectionCleanupQueue;
-    long long _lastTimerSetTime;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)k;
 + (id);
 - (void);
 - (void);
@@ -33,10 +29,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)addRuleWithErrorCallback:successCallback:styleSheetId:selector: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -44,9 +40,7 @@
 - (void)torC40downloadMessagesForCrossAccountTransfers33_611B079A647E910E896E9F7831BE7953LLyySaySo20ECLocalMessageActionCGF14TransferResultL_C;
 
 // Remaining properties
-@property(readonly) ECSMTPAccount *baseAccount; // @dynamic baseAccount;
 @property(readonly, nonatomic) NSOperationQueue *connectionCleanupQueue; // @synthesize connectionCleanupQueue=_connectionCleanupQueue;
-@property(nonatomic) long long lastTimerSetTime; // @synthesize lastTimerSetTime=_lastTimerSetTime;
 
 @end
 

@@ -16,16 +16,15 @@
         unsigned long long non_purgeable_amount;
         unsigned char data[0];
     } recentinfo;
-    NSDictionary *_serviceInfo;
 }
 
 + (_Bool);
 + (id);
-- (id);
+- (id)c;
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)t;
+- (id);
 - (void);
 - (id);
 - (void);

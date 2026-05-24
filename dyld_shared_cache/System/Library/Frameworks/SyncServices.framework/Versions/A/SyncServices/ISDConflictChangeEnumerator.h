@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDConflictManager, NSEnumerator, NSMutableArray, NSSet;
+@class NSEnumerator;
 
 @interface ISDConflictChangeEnumerator
 {
     NSEnumerator *_conflictEnumerator;
-    NSMutableArray *_changeQueue;
-    unsigned int _generation;
-    ISDConflictManager *_conflictManager;
-    NSSet *_entityNames;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)m;
 
 @end
 

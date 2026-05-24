@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface SSPreauthorizedUDPServer
 {
     int mConnectedUDPSocket;
-    unsigned long long mMaximumBytesPerSecond;
-    long long mEncryptionLevel;
-    NSData *mEncryptionKey;
-    NSString *mUsername;
-    NSString *mRemoteIPPort;
-    void *mIPCRef;
 }
 
 - (void);
@@ -31,16 +23,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)Bm;
 - (void);
 
 // Remaining properties
 @property int connectedUDPSocket; // @synthesize connectedUDPSocket=mConnectedUDPSocket;
-@property(copy) NSData *encryptionKey; // @synthesize encryptionKey=mEncryptionKey;
-@property long long encryptionLevel; // @synthesize encryptionLevel=mEncryptionLevel;
-@property unsigned long long maximumBytesPerSecond; // @synthesize maximumBytesPerSecond=mMaximumBytesPerSecond;
-@property(copy) NSString *remoteIPPort; // @synthesize remoteIPPort=mRemoteIPPort;
-@property(copy) NSString *username; // @synthesize username=mUsername;
 
 @end
 

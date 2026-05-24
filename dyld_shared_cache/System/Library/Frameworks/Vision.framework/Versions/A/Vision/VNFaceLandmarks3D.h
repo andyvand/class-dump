@@ -11,27 +11,6 @@
 @interface VNFaceLandmarks3D : VNFaceLandmarks
 {
     VNFaceLandmarkRegion3D *_allPoints;
-    struct os_unfair_lock_s _allPointsLock;
-    VNFaceLandmarkRegion3D *_faceContour;
-    struct os_unfair_lock_s _faceContourLock;
-    VNFaceLandmarkRegion3D *_leftEye;
-    struct os_unfair_lock_s _leftEyeLock;
-    VNFaceLandmarkRegion3D *_rightEye;
-    struct os_unfair_lock_s _rightEyeLock;
-    VNFaceLandmarkRegion3D *_leftEyebrow;
-    struct os_unfair_lock_s _leftEyebrowLock;
-    VNFaceLandmarkRegion3D *_rightEyebrow;
-    struct os_unfair_lock_s _rightEyebrowLock;
-    VNFaceLandmarkRegion3D *_nose;
-    struct os_unfair_lock_s _noseLock;
-    VNFaceLandmarkRegion3D *_noseCrest;
-    struct os_unfair_lock_s _noseCrestLock;
-    VNFaceLandmarkRegion3D *_medianLine;
-    struct os_unfair_lock_s _medianLineLock;
-    VNFaceLandmarkRegion3D *_outerLips;
-    struct os_unfair_lock_s _outerLipsLock;
-    VNFaceLandmarkRegion3D *_innerLips;
-    struct os_unfair_lock_s _innerLipsLock;
 }
 
 + (unsigned long long);
@@ -46,27 +25,17 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)coordinateReadingItemAtURL:(id)arg1 options:error:byAccessor: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)rer - versions mismatch (serialized:%d, current:%d /* Error: Ran out of types for this method. */;
-- (void)al;
+- (void)centerOneHorizontal;
 
 // Remaining properties
 @property(readonly) VNFaceLandmarkRegion3D *allPoints; // @synthesize allPoints=_allPoints;
-@property(readonly) VNFaceLandmarkRegion3D *faceContour; // @synthesize faceContour=_faceContour;
-@property(readonly) VNFaceLandmarkRegion3D *innerLips; // @synthesize innerLips=_innerLips;
-@property(readonly) VNFaceLandmarkRegion3D *leftEye; // @synthesize leftEye=_leftEye;
-@property(readonly) VNFaceLandmarkRegion3D *leftEyebrow; // @synthesize leftEyebrow=_leftEyebrow;
-@property(readonly) VNFaceLandmarkRegion3D *medianLine; // @synthesize medianLine=_medianLine;
-@property(readonly) VNFaceLandmarkRegion3D *nose; // @synthesize nose=_nose;
-@property(readonly) VNFaceLandmarkRegion3D *noseCrest; // @synthesize noseCrest=_noseCrest;
-@property(readonly) VNFaceLandmarkRegion3D *outerLips; // @synthesize outerLips=_outerLips;
-@property(readonly) VNFaceLandmarkRegion3D *rightEye; // @synthesize rightEye=_rightEye;
-@property(readonly) VNFaceLandmarkRegion3D *rightEyebrow; // @synthesize rightEyebrow=_rightEyebrow;
 
 @end
 

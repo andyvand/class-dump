@@ -7,7 +7,6 @@
 @interface PhotoAnalysis.InternalActivityTaskSource
 {
     id $defaultActor;
-    id logger;
 }
 
 @end

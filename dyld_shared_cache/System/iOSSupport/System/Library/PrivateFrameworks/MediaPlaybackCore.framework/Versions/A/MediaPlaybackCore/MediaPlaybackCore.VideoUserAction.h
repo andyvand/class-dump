@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-@protocol MFTimeStamp;
+@class NSString;
 
 @interface MediaPlaybackCore.VideoUserAction
 {
     void identifier;
-    long long type;
-    id <MFTimeStamp> timeStamp;
-    void options;
-    long long source;
-    void sourceID;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -32,11 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSString *identifier;
-@property(nonatomic, copy) NSDictionary *options;
-@property(nonatomic) long long source; // @synthesize source;
-@property(nonatomic, copy) NSString *sourceID;
-@property(nonatomic, retain) id <MFTimeStamp> timeStamp; // @synthesize timeStamp;
-@property(nonatomic) long long type; // @synthesize type;
 
 @end
 

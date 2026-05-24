@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LPTapToLoadView;
+
 @protocol LPTapToLoadViewDelegate
+
+@optional
+- (void)unregisterPhotoLibraryPersistenceManagerSession:(LPTapToLoadView *)arg1;
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableSet;
+@class NSHashTable;
 
 @interface MPVolumeHUDController
 {
     NSHashTable *_scenes;
-    NSHashTable *_displays;
-    NSMutableSet *_categories;
-    _Bool _needsUpdate;
 }
 
 + (id)ediaRemoteCommandType;
@@ -22,10 +19,10 @@
 - (void);
 - (void);
 - (void);
+- (void)payloadAllowGenmoji;
 - (void);
 - (void);
-- (void);
-- (void)PlayableDuration;
+- (void)_cachedPlayableDuration;
 
 // Remaining properties
 @property(readonly, nonatomic) id mainContext;

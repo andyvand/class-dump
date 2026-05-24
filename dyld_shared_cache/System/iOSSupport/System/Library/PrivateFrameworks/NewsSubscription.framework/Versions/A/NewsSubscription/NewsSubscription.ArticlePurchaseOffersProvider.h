@@ -7,7 +7,6 @@
 @interface NewsSubscription.ArticlePurchaseOffersProvider
 {
     id configurationManager;
-    id offerManager;
 }
 
 @end

@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIContactsEnvironment, CNUIUserActionListDataSource;
+@class CNUIUserActionListDataSource;
 
 @interface CNContactActionsContext
 {
     CNUIUserActionListDataSource *_dataSource;
-    CNUIContactsEnvironment *_environment;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)L	;
+- (id)initWithEntityNameToTruthSegment: /* Error: Ran out of types for this method. */;
+- (id)!;
+- (id)IMPodcastParser;
 - (id)!èGùÑt°1Â0@ù
 × ;
 - (void)ghtView;
 
 // Remaining properties
 @property(readonly) CNUIUserActionListDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) CNUIContactsEnvironment *environment; // @synthesize environment=_environment;
 
 @end
 

@@ -6,15 +6,10 @@
 
 #import <Foundation/NSXMLNamedNode.h>
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSXMLNamedFidelityNode : NSXMLNamedNode
 {
     unsigned long long _fidelity;
-    NSString *_whitespace;
-    NSMutableArray *_ranges;
-    NSMutableArray *_names;
 }
 
 - (void);
@@ -25,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)"P;
 - (void);
 - (id);
 - (id)1z5ð1Â0@ù

@@ -9,25 +9,23 @@
 @interface MKServerFormattedStringParameters
 {
     NSDictionary *_variableOverrides;
-    CDStruct_57af2063 _options;
 }
 
 + (_Bool);
-- (id);
+- (id)Path = %@;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (CDStruct_57af2063);
+- (CDStruct_ef0b40be);
 - (_Bool);
 - (void);
 - (id);
-- (void)ointOfInterestFilter;
+- (void)pointOfInterestFilter;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_57af2063 options; // @synthesize options=_options;
-@property(readonly, copy, nonatomic) NSDictionary *variableOverrides; // @synthesize variableOverrides=_variableOverrides;
+@property(readonly, nonatomic) CDStruct_ef0b40be options; // @synthesize options=_options;
 
 @end
 

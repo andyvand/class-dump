@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, HMSoftwareUpdate, NSObject, NSString, NSUUID, _HMContext;
-@protocol HMSoftwareUpdateControllerDelegate, OS_dispatch_queue;
+@class _HMContext;
 
 @interface HMSoftwareUpdateController
 {
     struct os_unfair_lock_s _lock;
-    HMSoftwareUpdate *_availableUpdate;
-    HMAccessory *_accessory;
-    id <HMSoftwareUpdateControllerDelegate> _delegate;
-    NSUUID *_uniqueIdentifier;
-    _HMContext *_context;
 }
 
 + (id);
@@ -29,39 +23,26 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_searchWithEmbeddings:(id)arg1 photoLibraryURL:searchOptions:numberOfProbes:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)0@68;
+- (id)>
+(
+5
+G
+;
+- (id);
+- (_Bool)borough;
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void)ggerConfiguration;
-- (id)umpStateResidentMeshKey;
+- (void)HMTimerTriggerConfiguration;
+- (id)kDumpStateResidentMeshKey;
 
 // Remaining properties
-@property __weak HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(retain) HMSoftwareUpdate *availableUpdate; // @synthesize availableUpdate=_availableUpdate;
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;
-@property(readonly, getter=isControllable) _Bool controllable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMSoftwareUpdateControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

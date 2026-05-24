@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EWSResponseMessageType
 {
     long long _ResponseClass;
-    NSString *_MessageText;
-    long long _ResponseCode;
-    long long _DescriptiveLinkKey;
-    id _MessageXml;
 }
 
 + (id);
@@ -21,27 +15,16 @@
 - (long long);
 - (long long);
 - (id);
-- (id);
+- (id)h;
 - (long long);
+- (void)!;
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void)g",C,N,V_Key;
 
 // Remaining properties
-@property(nonatomic) long long DescriptiveLinkKey; // @synthesize DescriptiveLinkKey=_DescriptiveLinkKey;
-@property(copy, nonatomic) NSString *MessageText; // @synthesize MessageText=_MessageText;
-@property(retain, nonatomic) id MessageXml; // @synthesize MessageXml=_MessageXml;
 @property(nonatomic) long long ResponseClass; // @synthesize ResponseClass=_ResponseClass;
-@property(nonatomic) long long ResponseCode; // @synthesize ResponseCode=_ResponseCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

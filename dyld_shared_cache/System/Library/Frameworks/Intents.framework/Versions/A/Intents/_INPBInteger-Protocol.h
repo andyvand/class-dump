@@ -7,11 +7,12 @@
 @class NSArray, _INPBIntegerValue;
 
 @protocol _INPBInteger
++ (Class)der
+;
 - (void)to %@ invalidated; pid:(_INPBIntegerValue *)arg1 %d;
 - (_INPBIntegerValue *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 @end
 

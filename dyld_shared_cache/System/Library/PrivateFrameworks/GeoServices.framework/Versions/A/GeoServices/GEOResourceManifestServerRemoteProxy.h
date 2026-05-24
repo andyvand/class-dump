@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOActiveTileGroup, GEOResourceManifestConfiguration, GEOXPCConnection, NSMutableDictionary, NSObject, NSString, geo_isolater;
-@protocol GEOResourceManifestServerProxyDelegate, OS_dispatch_queue;
+@protocol GEOResourceManifestServerProxyDelegate;
 
 @interface GEOResourceManifestServerRemoteProxy
 {
     id <GEOResourceManifestServerProxyDelegate> _delegate;
-    GEOXPCConnection *_xpcConnection;
-    _Bool _hasOpenConnection;
-    _Bool _isUpdatingManifest;
-    _Bool _isLoadingResources;
-    NSObject<OS_dispatch_queue> *_serverQueue;
-    GEOResourceManifestConfiguration *_configuration;
-    struct os_unfair_lock_s _authTokenLock;
-    NSString *_authToken;
-    int _activeTileGroupChangedNotificationToken;
-    geo_isolater *_zoomLevelIsolation;
-    NSMutableDictionary *_maximumZoomLevelCache;
-    NSMutableDictionary *_minMaxZoomLevelCache;
-    double _lastMessageTimestamp;
 }
 
 - (void);
@@ -33,25 +19,25 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned char);
+- (void)rted=%@:(int)arg1 Is request during active call? %@, isDeviceSupported:%@, isFFEnabledOnDevice:%@, isSupportedRequestType:%@, isFFUserDisabled:%@, isTypeToSiriEnabled:%@, isLocaleInDenyList:%@, isSAEEnabled:%@, isLocaleUnsupportedWithSAE:%@ isLocaleCoupledWithSAE:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (unsigned char)setEffectDirtyUniforms:(int)arg1;
+- (void);
+- (void)roviderID:(int)arg1 animationID:actionURL:photoID:placeCardType:localizedMapItemCategory:availableActions:unactionableUIElements:modules:commingledRichProviderIds:actionRichProviderId:classification:snapShot: /* Error: Ran out of types for this method. */;
+- (id)_shouldDisplayInaccurateHeading;
 - (void);
 - (void);
 - (void);
 - (oneway void);
 - (void)0@ù
 × ;
-- (unsigned int);
-- (void)deOfMapsPredictedExitDate;
-- (void)d_lines;
+- (unsigned int)setAvoidBusyRoads:(int)arg1;
+- (void)dodgeballOutsideOfMapsPredictedExitDate;
+- (void)pinned_lines;
 - (id)allow_alias (
 
 deprecated (:(id)arg1 falseC
@@ -77,15 +63,7 @@ deprecated! (:false_
 - (id)xþ;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOActiveTileGroup *activeTileGroup;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <GEOResourceManifestServerProxyDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

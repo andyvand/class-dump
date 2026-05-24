@@ -4,36 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPropertyDescription, NSSQLEntity;
+@class NSPropertyDescription;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLProperty
 {
     NSPropertyDescription *_propertyDescription;
-    NSSQLEntity *_entity;
-    unsigned char _propertyType;
-    unsigned char _sqlType;
-    unsigned short _fetchIndex;
-    unsigned short _slot;
-    struct _sqlColumnFlags {
-        unsigned int _allowAliasing:1;
-        unsigned int _unique:1;
-        unsigned int _constrained:1;
-        unsigned int _backedByTrigger:1;
-        unsigned int _isDerivedAttribute:1;
-        unsigned int _isNestedColumn:1;
-        unsigned int _reservedFlags:10;
-    } _flags;
 }
 
-- (void);
+- (void)cR;
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned char);
-- (_Bool);
-- (id);
+- (_Bool)h;
+- (id)T@"NSDictionary",&,V_launchRequestEndpointIdentifiers;
 - (_Bool);
 - (id);
 - (id);

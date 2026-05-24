@@ -7,8 +7,6 @@
 @interface TextToSpeech.SSELoaderManager
 {
     id executor;
-    id database;
-    id store;
 }
 
 @end

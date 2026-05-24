@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPSignedVersionedBlob, NSData;
+@class NSData;
 
 @interface CKDPAdopterCapabilitiesCheckResponse
 {
     NSData *_continuation;
-    CKDPSignedVersionedBlob *_signedShareUsage;
-    CKDPSignedVersionedBlob *_signedSupportedAdopterCapabilities;
-    CKDPSignedVersionedBlob *_signedZoneUsage;
-    _Bool _isSupported;
-    struct {
-        unsigned int isSupported:1;
-    } _has;
 }
 
-- (id);
+- (id)b;
 - (id);
 - (void);
 - (void);
@@ -27,7 +20,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -35,27 +28,19 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ropertyValue is not a Boolean
+;
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (_Bool)rd: /* Error: Ran out of types for this method. */;
+- (_Bool)setShouldFetchRootRecord: /* Error: Ran out of types for this method. */;
 - (void)te;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuation; // @synthesize continuation=_continuation;
-@property(readonly, nonatomic) _Bool hasContinuation;
 @property(nonatomic) _Bool hasIsSupported;
-@property(readonly, nonatomic) _Bool hasSignedShareUsage;
-@property(readonly, nonatomic) _Bool hasSignedSupportedAdopterCapabilities;
-@property(readonly, nonatomic) _Bool hasSignedZoneUsage;
-@property(nonatomic) _Bool isSupported; // @synthesize isSupported=_isSupported;
-@property(retain, nonatomic) CKDPSignedVersionedBlob *signedShareUsage; // @synthesize signedShareUsage=_signedShareUsage;
-@property(retain, nonatomic) CKDPSignedVersionedBlob *signedSupportedAdopterCapabilities; // @synthesize signedSupportedAdopterCapabilities=_signedSupportedAdopterCapabilities;
-@property(retain, nonatomic) CKDPSignedVersionedBlob *signedZoneUsage; // @synthesize signedZoneUsage=_signedZoneUsage;
 
 @end
 

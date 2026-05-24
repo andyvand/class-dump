@@ -15,16 +15,15 @@
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)P;
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *eventName;
-@property(copy, nonatomic) NSString *eventValue;
 
 @end
 

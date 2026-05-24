@@ -6,40 +6,59 @@
 
 #import <AccountsUI/ACUIViewController.h>
 
-@class ACUIWebAuthViewController, NSArray, NSButton, NSLayoutConstraint, NSProgressIndicator, NSStackView, NSString, NSTextField, NSView, NSWindow;
+@class ACUIWebAuthViewController;
 
 @interface ACUIAccountSetupViewController : ACUIViewController
 {
     _Bool __usingInSwiftSheet;
-    _Bool _accountsProvidedBySuggestion;
-    NSStackView *_stackView;
-    NSWindow *_window;
-    NSWindow *_sheet;
-    CDUnknownBlockType _completion;
-    NSProgressIndicator *_spinner;
-    NSButton *_signInButton;
-    NSButton *_alternateButton;
-    NSButton *_cancelButton;
-    NSTextField *_fullNameField;
-    NSTextField *_userNameField;
-    NSTextField *_dislaimerLabel;
-    NSTextField *_emailAddressField;
-    CDUnknownBlockType _resizeBlock;
-    ACUIWebAuthViewController *_webLoginVC;
-    NSLayoutConstraint *_dataclassTableViewHeight;
-    NSString *_dataclassToAutoEnable;
-    NSView *_logoSlice;
-    NSView *_genericAccountHeaderSlice;
-    NSView *_getStartedSlice;
-    NSView *_dataclassConfigurationSlice;
-    NSView *_disclaimerSlice;
-    NSArray *_bottomButtonsConstraints;
 }
 
 - (_Bool);
 - (id);
+- (void));
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)#;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id)Q;
+- (void);
+- (void);
+- (void)";
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -52,56 +71,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A;
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -109,8 +86,8 @@
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -121,7 +98,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -131,37 +108,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool _usingInSwiftSheet; // @synthesize _usingInSwiftSheet=__usingInSwiftSheet;
-@property(nonatomic) _Bool accountsProvidedBySuggestion; // @synthesize accountsProvidedBySuggestion=_accountsProvidedBySuggestion;
-@property(retain) NSButton *alternateButton; // @synthesize alternateButton=_alternateButton;
-@property(retain) NSArray *bottomButtonsConstraints; // @synthesize bottomButtonsConstraints=_bottomButtonsConstraints;
-@property(retain) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain) NSView *dataclassConfigurationSlice; // @synthesize dataclassConfigurationSlice=_dataclassConfigurationSlice;
-@property(retain) NSLayoutConstraint *dataclassTableViewHeight; // @synthesize dataclassTableViewHeight=_dataclassTableViewHeight;
-@property(retain) NSString *dataclassToAutoEnable; // @synthesize dataclassToAutoEnable=_dataclassToAutoEnable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSView *disclaimerSlice; // @synthesize disclaimerSlice=_disclaimerSlice;
-@property(retain) NSTextField *dislaimerLabel; // @synthesize dislaimerLabel=_dislaimerLabel;
-@property(retain) NSTextField *emailAddressField; // @synthesize emailAddressField=_emailAddressField;
-@property(retain) NSTextField *fullNameField; // @synthesize fullNameField=_fullNameField;
-@property(retain) NSView *genericAccountHeaderSlice; // @synthesize genericAccountHeaderSlice=_genericAccountHeaderSlice;
-@property(retain) NSView *getStartedSlice; // @synthesize getStartedSlice=_getStartedSlice;
-@property(readonly) unsigned long long hash;
-@property(retain) NSView *logoSlice; // @synthesize logoSlice=_logoSlice;
-@property(copy, nonatomic) CDUnknownBlockType resizeBlock; // @synthesize resizeBlock=_resizeBlock;
-@property(readonly) NSWindow *sheet; // @synthesize sheet=_sheet;
-@property(retain) NSButton *signInButton; // @synthesize signInButton=_signInButton;
-@property(retain) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
-@property(retain) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
-@property(retain) NSTextField *userNameField; // @synthesize userNameField=_userNameField;
 @property(retain) ACUIWebAuthViewController *webLoginVC; // @synthesize webLoginVC=_webLoginVC;
-@property(readonly) NSWindow *window; // @synthesize window=_window;
 
 @end
 

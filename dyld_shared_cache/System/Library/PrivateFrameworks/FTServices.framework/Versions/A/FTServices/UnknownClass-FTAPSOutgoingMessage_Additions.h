@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (FTAPSOutgoingMessage_Additions)
-- (id);
+- (id)clearError;
 @end
 

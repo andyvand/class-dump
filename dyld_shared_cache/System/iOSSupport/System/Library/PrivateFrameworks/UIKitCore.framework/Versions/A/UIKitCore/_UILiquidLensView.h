@@ -6,56 +6,34 @@
 
 #import <UIKitCore/UIView.h>
 
-@class (extension in UIKit):__C._UILiquidLensView.BackdropView__priv_4C400BD973F5E4E0B779D1A21A7AEB27, (extension in UIKit):__C._UILiquidLensView.ClearGlassView__priv_4C400BD973F5E4E0B779D1A21A7AEB27, (extension in UIKit):__C._UILiquidLensView.DestOutView__priv_4C400BD973F5E4E0B779D1A21A7AEB27, NSTimer, UIColor, UIKit._UIDebouncingAnimatableFloat, UIKit._UILiquidLensViewVariantSpec, _UIFlexInteraction, _UIGroupCompletion, _UIPortalView, _UIShadowProperties;
-
 @interface _UILiquidLensView : UIView
 {
     _Bool _lifted;
-    _Bool warpsContentBelow;
-    void liftedContainerView;
-    void liftedContentView;
-    long long liftedContentMode;
-    void overridePunchoutView;
-    UIColor *restingBackgroundColor;
-    _UIShadowProperties *restingShadowProperties;
-    _UIFlexInteraction *flexInteraction;
-    id $__lazy_storage_$_liftPortal;
-    (extension in UIKit):__C._UILiquidLensView.BackdropView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *belowGlassWarpBackdrop;
-    (extension in UIKit):__C._UILiquidLensView.DestOutView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *liftedContentPunchout;
-    _Bool hasCustomRestingBackground;
-    UIView *restingBackground;
-    UIView *contentWrapper;
-    (extension in UIKit):__C._UILiquidLensView.ClearGlassView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *glass;
-    UIKit._UIDebouncingAnimatableFloat *liftProgress;
-    NSTimer *unliftDelayTimer;
-    id liftTimestamp;
-    _Bool forceUnliftTimerWithoutAnimations;
-    _UIGroupCompletion *groupCompletion;
 }
 
-- (_Bool);
+- (_Bool)ry directory:%@ /* Error: Ran out of types for this method. */;
+- (void)sage with GUID:%@ to originated Message Map /* Error: Ran out of types for this method. */;
+- (void):%@ /* Error: Ran out of types for this method. */;
+- (void)Category @%ld;
+- (void)t already exist on disk. Starting explicit download for local file url retrieval.;
+- (id)rd, loop %lu.;
+- (void)att-aux-video-max-file-size;
+- (void);
+- (void)andidateChatAlert;
+- (void)InitialAttachmentSyncInitiated;
+- (void)InitialMessageSyncInitiated;
+- (void);
+- (void)IntentClientConnectionRouteProvider;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id)P;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -66,27 +44,27 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
+- (id);
+- (void)R;
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)#;
 - (long long);
 - (id);
 - (void);
 - (void);
 - (void)nLayoutSize";
-- (struct CGRect)iginatingNavigationItem: /* Error: Ran out of types for this method. */;
-- (struct CGRect)ckChange;
+- (struct CGRect)setOriginatingNavigationItem: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_updateEnclosingTabBarControllerForStackChange;
 - (void)ive:(struct CGRect)arg1 ,V_initiallyInteractive;
-- (id)oolTipProvider;
+- (id)UIToolTipProvider;
 - (void);
 - (void)%d
 ;
@@ -94,33 +72,7 @@
 - (void)ö	Ñ$fl;
 
 // Remaining properties
-@property(nonatomic) _Bool _lifted; // @synthesize _lifted;
-@property(nonatomic) double alpha;
-@property(nonatomic, retain) (extension in UIKit):__C._UILiquidLensView.BackdropView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *belowGlassWarpBackdrop; // @synthesize belowGlassWarpBackdrop;
-@property(nonatomic) struct CGRect bounds;
-@property(nonatomic, readonly) UIView *contentWrapper; // @synthesize contentWrapper;
-@property(nonatomic, readonly) _UIFlexInteraction *flexInteraction; // @synthesize flexInteraction;
-@property(nonatomic) _Bool forceUnliftTimerWithoutAnimations; // @synthesize forceUnliftTimerWithoutAnimations;
-@property(nonatomic) struct CGRect frame;
-@property(nonatomic, readonly) (extension in UIKit):__C._UILiquidLensView.ClearGlassView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *glass; // @synthesize glass;
-@property(nonatomic, readonly) _UIGroupCompletion *groupCompletion; // @synthesize groupCompletion;
-@property(nonatomic, readonly) _Bool hasCustomRestingBackground; // @synthesize hasCustomRestingBackground;
-@property(nonatomic, retain) _UIPortalView *liftPortal;
-@property(nonatomic, readonly) UIKit._UIDebouncingAnimatableFloat *liftProgress; // @synthesize liftProgress;
 @property(nonatomic, readonly) _Bool lifted;
-@property(nonatomic) __weak UIView *liftedContainerView; // @synthesize liftedContainerView;
-@property(nonatomic) long long liftedContentMode; // @synthesize liftedContentMode;
-@property(nonatomic, retain) (extension in UIKit):__C._UILiquidLensView.DestOutView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *liftedContentPunchout; // @synthesize liftedContentPunchout;
-@property(nonatomic) __weak UIView *liftedContentView; // @synthesize liftedContentView;
-@property(nonatomic) __weak UIView *overridePunchoutView; // @synthesize overridePunchoutView;
-@property(nonatomic, readonly) UIView *restingBackground; // @synthesize restingBackground;
-@property(nonatomic, retain) UIColor *restingBackgroundColor; // @synthesize restingBackgroundColor;
-@property(nonatomic, readonly) UIView *restingBackgroundView;
-@property(nonatomic, retain) _UIShadowProperties *restingShadowProperties; // @synthesize restingShadowProperties;
-@property(nonatomic, readonly) UIKit._UILiquidLensViewVariantSpec *spec;
-@property(nonatomic) long long style;
-@property(nonatomic, retain) NSTimer *unliftDelayTimer; // @synthesize unliftDelayTimer;
-@property(nonatomic) _Bool warpsContentBelow; // @synthesize warpsContentBelow;
 
 @end
 

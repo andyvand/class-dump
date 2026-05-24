@@ -6,21 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHOnDeviceEndpointerContext : SISchemaInstrumentationMessage
 {
     _Bool _enabled;
-    CDStruct_513ff01d _has;
 }
 
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)H;
+- (void)t;
+- (void)method;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)`B;
+- (_Bool)4;
 - (id);
 - (void)!CùQÞð1Â0@ù
 × ;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) _Bool hasEnabled;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

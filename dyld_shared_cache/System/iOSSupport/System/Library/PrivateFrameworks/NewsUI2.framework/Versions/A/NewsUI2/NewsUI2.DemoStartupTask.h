@@ -7,8 +7,6 @@
 @interface NewsUI2.DemoStartupTask
 {
     id executionPhase;
-    id engagementTriggerStateStore;
-    id userInfo;
 }
 
 @end

@@ -9,7 +9,6 @@
 @interface CNVCardActivityAlertScanner
 {
     NSString *_string;
-    unsigned long long _position;
 }
 
 + (id);
@@ -26,7 +25,7 @@
 - (unsigned short);
 - (id);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short);
 - (_Bool);
 - (id);
 - (unsigned long long);

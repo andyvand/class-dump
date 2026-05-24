@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     NSArray *_carrierDescriptors;
 }
 
-+ (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
++ (_Bool)ly support AVVideoDecompressionPropertiesKey;
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void)unlockKeybagIndirect:(id)arg1 secret:reply: /* Error: Ran out of types for this method. */;
+- (id);
 - (int);
 - (void);
 

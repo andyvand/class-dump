@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSString *_privacyIdentifier;
 }
 
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)DDSManagingDelegate;
+- (id)c}@;
+- (id)nt;
+- (id)ctor successful for asset selector:(id)arg1 %@;
 - (void)@"NSError"16;
 
 // Remaining properties

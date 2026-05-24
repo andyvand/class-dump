@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @protocol SFSelectableGridCardSection
+- (NSNumber *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *entries;
-@property(copy, nonatomic) NSNumber *initialSelectedIndex;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *type;
 @end
 

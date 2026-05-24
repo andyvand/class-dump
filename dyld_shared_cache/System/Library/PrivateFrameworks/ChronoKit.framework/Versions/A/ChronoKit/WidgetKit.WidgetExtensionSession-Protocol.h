@@ -5,9 +5,10 @@
 //
 
 @protocol WidgetKit.WidgetExtensionSession
+- (void)B;
+- (void)BMStoreData;
 
 // Remaining properties
 @property(nonatomic) _Bool boostToForegroundPriority;
-@property(nonatomic, readonly) int pid;
 @end
 

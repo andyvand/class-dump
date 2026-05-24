@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSMapTable, NSString;
+@class NSMapTable;
 @protocol TabBarViewItem;
 
 __attribute__((visibility("hidden")))
 @interface UnifiedTabBarItem
 {
     NSMapTable *_accessoryViewOptions;
-    _Bool _pinned;
-    _Bool _isDropLocationPlaceholder;
-    id <TabBarViewItem> _owner;
-    unsigned long long _browsingMode;
-    NSImage *_image;
-    NSImage *_placeholderImage;
-    NSString *_label;
-    NSString *_activeLabel;
-    NSString *_placeholderLabel;
-    NSArray *_accessoryViews;
-    NSString *_groupIdentifier;
 }
 
 + (id)troller"16Q24;
@@ -36,37 +25,27 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (void)loadAttachmentsForChatWithGUID:(_Bool)arg1 chatIdentifiers:style:services:reply: /* Error: Ran out of types for this method. */;
+- (id)rval found for error %@, calculated interval %lu for attempt %lu;
 - (void);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)"<SPOwnerSessionXPCProtocol>",&,N,V_userAgentProxy;
 - (id);
 - (id);
 - (unsigned long long);
 - (void)
 × ;
-- (void)extMenuEvent;
-- (_Bool)tantPegasusContent;
+- (void)safari_isContextMenuEvent;
+- (_Bool)fetchAssistantPegasusContent;
 - (id)d;
 - (void);
 - (void)ÿÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *accessoryViews; // @synthesize accessoryViews=_accessoryViews;
-@property(copy, nonatomic) NSString *activeLabel; // @synthesize activeLabel=_activeLabel;
-@property(nonatomic) unsigned long long browsingMode; // @synthesize browsingMode=_browsingMode;
-@property(copy, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) _Bool isDropLocationPlaceholder; // @synthesize isDropLocationPlaceholder=_isDropLocationPlaceholder;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(nonatomic) __weak id <TabBarViewItem> owner; // @synthesize owner=_owner;
-@property(nonatomic, getter=isPinned) _Bool pinned; // @synthesize pinned=_pinned;
-@property(retain, nonatomic) NSImage *placeholderImage; // @synthesize placeholderImage=_placeholderImage;
-@property(copy, nonatomic) NSString *placeholderLabel; // @synthesize placeholderLabel=_placeholderLabel;
 
 @end
 

@@ -6,20 +6,18 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface DMFFetchStreamEventsRequest : DMFTaskRequest
 {
     NSString *_organizationIdentifier;
-    NSArray *_eventIdentifiers;
-    NSDate *_startDate;
 }
 
 + (Class);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
@@ -27,13 +25,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)contacts;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *eventIdentifiers; // @synthesize eventIdentifiers=_eventIdentifiers;
 @property(copy, nonatomic) NSString *organizationIdentifier; // @synthesize organizationIdentifier=_organizationIdentifier;
-@property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

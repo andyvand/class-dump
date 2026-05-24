@@ -7,6 +7,7 @@
 @interface CookingKit.ScrollToTopTrigger
 {
     id triggerCount;
+    id;
 }
 
 @end

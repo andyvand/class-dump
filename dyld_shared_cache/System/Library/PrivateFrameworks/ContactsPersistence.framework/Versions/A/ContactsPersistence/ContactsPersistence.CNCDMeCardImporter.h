@@ -7,16 +7,12 @@
 @interface ContactsPersistence.CNCDMeCardImporter
 {
     id coordinator;
-    id context;
-    id contact;
-    id container;
-    id observer;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)V;
 
 @end
 

@@ -6,55 +6,30 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UISlider, UISliderDataModel;
+@class UISlider;
 
 @interface UIKit._UISliderFluidVisualElement : UIView
 {
     void slider;
-    UISliderDataModel *data;
-    id clipView;
-    id barView;
-    id trackView;
-    id tickViews;
-    id tickView;
-    id barEffectView;
-    id leftTrackEffectView;
-    id rightTrackEffectView;
-    id minimumView;
-    id maximumView;
-    id usingSliderStyling;
-    id lastUpdate;
-    id hasPlayedBounceForCurrentValue;
-    _Bool changeWithVolumeButtons;
-    id fluidInteraction;
-    id expansionGesture;
-    id isInteractivelyChanging;
-    id interactiveChangeState;
-    id paddingAroundImage;
-    id defaultExpansionFactor;
-    id defaultHorizontalExpansionFactor;
-    id disabledAlpha;
-    id acceleratedThumbFillRange;
-    unsigned long long fluidUpdateSource;
 }
 
+- (void)fetchAccountStatusAndUpdateMiCSwitchEligibilityIfNeededOnImagentLaunch;
+- (void)conversationManager:(_Bool)arg1 activeRemoteParticipantsChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (_Bool)_allowedToProcessMessageFromToken:(_Bool *)arg1 fromID:reflectOnly:isInProxyMode: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)CEMHexString;
 - (void);
 - (void);
 - (id);
@@ -93,16 +68,16 @@
 - (struct CGRect)á
 °!LFùgÐ1Â0@ù
 × ;
-- (void)comeFirstResponder: /* Error: Ran out of types for this method. */;
-- (void)dFromFloating: /* Error: Ran out of types for this method. */;
-- (id)ftForceExponent: /* Error: Ran out of types for this method. */;
-- (void)elegateNeedsAutofillMode: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)on: /* Error: Ran out of types for this method. */;
-- (struct CGRect)rRadius;
-- (_Bool)neLayoutAppearance;
-- (struct CGRect)ectionsForResizingSplitViewControllerColumn:(struct CGRect)arg1;
-- (void)crollingElementShouldAppearBelowForAttributes:(struct CGRect)arg1;
-- (id)tributes:(struct CGRect)arg1;
+- (void)timeLabelWillBecomeFirstResponder: /* Error: Ran out of types for this method. */;
+- (void)setStartedFromFloating: /* Error: Ran out of types for this method. */;
+- (id)setLiftForceExponent: /* Error: Ran out of types for this method. */;
+- (void)setDelegateNeedsAutofillMode: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)setCursorPosition: /* Error: Ran out of types for this method. */;
+- (struct CGRect)sectionCornerRadius;
+- (_Bool)inlineLayoutAppearance;
+- (struct CGRect)_permittedDirectionsForResizingSplitViewControllerColumn:(struct CGRect)arg1;
+- (void)_orthogonalScrollingElementShouldAppearBelowForAttributes:(struct CGRect)arg1;
+- (id)__viewServiceSheetPresentationClientConfigurationDidChange:(struct CGRect)arg1 attributes: /* Error: Ran out of types for this method. */;
 - (void)alAlignment:(unsigned long long)arg1 ,V__preferredHorizontalAlignment;
 - (_Bool)ngDisabled;
 - (id)faultSystemLeadingBarButtonGroups;
@@ -114,7 +89,7 @@
 - (struct CGRect)g scene:(struct CGRect)arg1 %@;
 - (_Bool)ene's activity restoration file, deleting existing file if it exists:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)valid edge argument for -contentScrollViewForEdge:(id)arg1 . Only values of NSDirectionalRectEdgeTop or NSDirectionalRectEdgeBottom are accepted.;
-- (struct CGRect)reen;
+- (struct CGRect)supplementaryOffscreen;
 - (void);
 - (id)UIAnimatableRect;
 - (id);
@@ -125,11 +100,6 @@
 - (_Bool)&ÿq;
 
 // Remaining properties
-@property(nonatomic) struct CGRect bounds;
-@property(nonatomic) _Bool changeWithVolumeButtons; // @synthesize changeWithVolumeButtons;
-@property(nonatomic, retain) UISliderDataModel *data; // @synthesize data;
-@property(nonatomic) unsigned long long fluidUpdateSource; // @synthesize fluidUpdateSource;
-@property(nonatomic) struct CGRect frame;
 @property(nonatomic) __weak UISlider *slider; // @synthesize slider;
 
 @end

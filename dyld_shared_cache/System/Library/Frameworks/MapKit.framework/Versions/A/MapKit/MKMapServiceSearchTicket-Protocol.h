@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol MKMapServiceSearchTicket
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *searchQuery;

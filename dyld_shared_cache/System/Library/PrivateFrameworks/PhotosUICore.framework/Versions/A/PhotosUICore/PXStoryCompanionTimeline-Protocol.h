@@ -5,14 +5,11 @@
 //
 
 @class NSString;
-@protocol PXStoryCompanionColorEffect;
 
 @protocol PXStoryCompanionTimeline
 - (NSString *)cs;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryCompanionColorEffect> colorGradingEffect;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(readonly, nonatomic) long long numberOfSegments;
 @end
 

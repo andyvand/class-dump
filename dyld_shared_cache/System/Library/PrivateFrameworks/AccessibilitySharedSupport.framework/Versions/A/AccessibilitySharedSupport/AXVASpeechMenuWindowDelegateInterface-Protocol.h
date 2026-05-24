@@ -5,5 +5,10 @@
 //
 
 @protocol AXVASpeechMenuWindowDelegateInterface
+
+@optional
+- (void)isZHJARadical: /* Error: Ran out of types for this method. */;
+- (void)/C/Foundation;
+- (void);
 @end
 

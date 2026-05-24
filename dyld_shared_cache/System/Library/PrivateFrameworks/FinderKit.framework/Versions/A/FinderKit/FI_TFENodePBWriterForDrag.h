@@ -12,18 +12,15 @@ __attribute__((visibility("hidden")))
 @interface FI_TFENodePBWriterForDrag : FI_TFENodePasteboardItem
 {
     NSURL *originalCryptexURL;
-    _Bool _isSidebarItem;
-    long long _windowNumber;
-    vector_c71d2c03 _clippingData;
 }
 
-- (id);
+- (id)T;
 - (void);
 - (void);
-- (_Bool);
-- (vector_c71d2c03);
+- (_Bool)*;
+- (vector_a72da21e);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (id);
@@ -31,9 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)¬;
 
 // Remaining properties
-@property(nonatomic) vector_c71d2c03 clippingData; // @synthesize clippingData=_clippingData;
 @property(nonatomic) _Bool isSidebarItem; // @synthesize isSidebarItem=_isSidebarItem;
-@property(nonatomic) long long windowNumber; // @synthesize windowNumber=_windowNumber;
 
 @end
 

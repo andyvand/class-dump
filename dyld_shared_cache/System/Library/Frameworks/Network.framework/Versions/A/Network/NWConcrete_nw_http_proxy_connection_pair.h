@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_nw_connection;
-
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nw_http_proxy_connection_pair
 {
     struct mutex lock;
-    NSObject<OS_dispatch_queue> *queue;
-    NSObject<OS_dispatch_queue> *client_queue;
-    NSObject<OS_nw_connection> *inbound_connection;
-    NSObject<OS_nw_connection> *outbound_connection;
-    CDUnknownBlockType state_changed_handler;
-    CDUnknownBlockType outbound_connection_handler;
-    _Bool setup;
 }
 
-- (void);
+- (void)asDimension1=YES with a dimension count of 0;
 - (id);
 - (void)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

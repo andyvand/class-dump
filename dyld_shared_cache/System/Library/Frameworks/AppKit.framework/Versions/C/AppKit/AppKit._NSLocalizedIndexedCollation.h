@@ -7,15 +7,6 @@
 @interface AppKit._NSLocalizedIndexedCollation
 {
     id sectionTitles;
-    id locale;
-    id sectionStartStrings;
-    id stringTransform;
-    id firstSectionStartString;
-    id lastSelectionStartString;
-    id primaryLanguageIsJapanese;
-    id preferJapaneseRomanjiTranscriptions;
-    id sectionTitleIndexMap;
-    id $__lazy_storage_$_tokenizer;
 }
 
 @end

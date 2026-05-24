@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CBAudioLinkQualityInfo
 {
     unsigned char _aosState;
-    unsigned char _btBand;
-    BOOL _codecType;
-    BOOL _noiseFloor90;
-    BOOL _rssiAverage;
-    BOOL _signalToNoiseRatio;
-    unsigned int _bitRate;
-    NSString *_deviceName;
-    double _jitterBufferSeconds;
-    double _retransmitRate;
 }
 
 + (_Bool);
 - (BOOL);
 - (void);
-- (void);
-- (void);
+- (void)`;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,25 +33,16 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)deleteSearchableItemsWithDomainIdentifiers:(id)arg1 reason:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) unsigned char aosState; // @synthesize aosState=_aosState;
-@property(nonatomic) unsigned int bitRate; // @synthesize bitRate=_bitRate;
-@property(nonatomic) unsigned char btBand; // @synthesize btBand=_btBand;
-@property(nonatomic) BOOL codecType; // @synthesize codecType=_codecType;
-@property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(nonatomic) double jitterBufferSeconds; // @synthesize jitterBufferSeconds=_jitterBufferSeconds;
-@property(nonatomic) BOOL noiseFloor90; // @synthesize noiseFloor90=_noiseFloor90;
-@property(nonatomic) double retransmitRate; // @synthesize retransmitRate=_retransmitRate;
-@property(nonatomic) BOOL rssiAverage; // @synthesize rssiAverage=_rssiAverage;
-@property(nonatomic) BOOL signalToNoiseRatio; // @synthesize signalToNoiseRatio=_signalToNoiseRatio;
 
 @end
 

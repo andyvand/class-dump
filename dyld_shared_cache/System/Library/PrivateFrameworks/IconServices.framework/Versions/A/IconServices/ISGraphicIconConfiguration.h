@@ -9,23 +9,19 @@
 @interface ISGraphicIconConfiguration
 {
     NSArray *_symbolColors;
-    NSArray *_enclosureColors;
-    long long _renderingMode;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)getDuration;
+- (void)fileHandleForSourceRead:(id)arg1 resourceType: /* Error: Ran out of types for this method. */;
+- (void)enumerateKeysAndObjectsUsingBlock:(id)arg1;
+- (id)rror",R,V_error;
+- (id)FrameRateConversion;
 - (long long);
-- (id);
+- (id)BacklightPowerNitsABSub;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *enclosureColors; // @synthesize enclosureColors=_enclosureColors;
-@property(nonatomic) long long renderingMode; // @synthesize renderingMode=_renderingMode;
 @property(copy, nonatomic) NSArray *symbolColors; // @synthesize symbolColors=_symbolColors;
 
 @end

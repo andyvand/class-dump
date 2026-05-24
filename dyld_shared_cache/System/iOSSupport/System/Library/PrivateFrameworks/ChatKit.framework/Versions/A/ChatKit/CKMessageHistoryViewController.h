@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CKMessageHistoryViewControllerDataSource, CKMessageHistoryViewControllerDelegate;
+@protocol CKMessageHistoryViewControllerDelegate;
 
 @interface CKMessageHistoryViewController
 {
     void messageHistoryDelegate;
-    void messageHistoryDataSource;
-    id messageHistoryForVisibleDateComponents;
-    id oldestMessageDate;
-    id $__lazy_storage_$_calendarView;
 }
 
-- (void);
-- (void);
+- (void)_accountsOfHTMLSourceObjects;
+- (void)_accessibilityLearnMoreProxyElement;
 - (id);
 - (id);
 - (void);
@@ -24,13 +20,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (void)Controller",&,N,V_presentedModalBrowserNavigationController;
 - (void)}};
 
 // Remaining properties
-@property(nonatomic) __weak id <CKMessageHistoryViewControllerDataSource> messageHistoryDataSource; // @synthesize messageHistoryDataSource;
 @property(nonatomic) __weak id <CKMessageHistoryViewControllerDelegate> messageHistoryDelegate; // @synthesize messageHistoryDelegate;
 
 @end

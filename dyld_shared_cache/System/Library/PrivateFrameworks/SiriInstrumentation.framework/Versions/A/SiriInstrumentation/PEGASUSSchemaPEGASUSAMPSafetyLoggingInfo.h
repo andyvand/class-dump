@@ -6,21 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface PEGASUSSchemaPEGASUSAMPSafetyLoggingInfo : SISchemaInstrumentationMessage
 {
     _Bool _isSearchNoResults;
-    _Bool _hasSafetyMessage;
-    int _pegasusSafetyStatus;
-    NSArray *_pegasusSafetyScores;
-    NSString *_modelVersion;
-    struct {
-        unsigned int isSearchNoResults:1;
-        unsigned int hasSafetyMessage:1;
-        unsigned int pegasusSafetyStatus:1;
-    } _has;
-    _Bool _hasModelVersion;
 }
 
 - (void);
@@ -29,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (int);
 - (unsigned long long);
 - (id);
@@ -38,42 +26,33 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)>1;
 - (_Bool);
-- (_Bool);
+- (_Bool)s:(id)arg1 %ld);
 - (id);
 - (id)!,@ùñÝ1Â0@ù
 × ;
-- (id)ecutorSearchToolQueryCallContext;
+- (id)_executorSearchToolQueryCallContext;
 - (id)_startedOrChanged;
-- (void)ction;
+- (void)lastMediaUserFollowupAction;
 - (void);
 - (id)";
 
 // Remaining properties
-@property(nonatomic) _Bool hasHasSafetyMessage;
-@property(nonatomic) _Bool hasIsSearchNoResults;
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasPegasusSafetyStatus;
-@property(nonatomic) _Bool hasSafetyMessage; // @synthesize hasSafetyMessage=_hasSafetyMessage;
 @property(nonatomic) _Bool isSearchNoResults; // @synthesize isSearchNoResults=_isSearchNoResults;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(copy, nonatomic) NSArray *pegasusSafetyScores; // @synthesize pegasusSafetyScores=_pegasusSafetyScores;
-@property(nonatomic) int pegasusSafetyStatus; // @synthesize pegasusSafetyStatus=_pegasusSafetyStatus;
 
 @end
 

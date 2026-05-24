@@ -4,38 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIScrollViewScrollIndicatorVisualStyle_iOS
 {
 }
 
-- (double);
+- (double)4;
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)encodeBytes:(struct CGRect)arg1 length:forKey: /* Error: Ran out of types for this method. */;
 - (double);
 - (double)! DùQbð1Â0@ù
 × ;
 - (id)?="updateSceneComponentStatePendingWindowMoveToScene"b1"registrationPendingDidMoveToWindow"b1};
-- (_Bool)ocked: /* Error: Ran out of types for this method. */;
+- (_Bool)setIsFlocked: /* Error: Ran out of types for this method. */;
 - (id)ier:(long long)arg1 replacingCharactersInRange:(_Bool)arg2 newState:contextID: /* Error: Ran out of types for this method. */;
-- (CDStruct_f413d7fe)IfPossibleForViewThatMoved:(_Bool)arg1 newSuperview:oldSuperview: /* Error: Ran out of types for this method. */;
+- (CDStruct_f413d7fe)_snipDangliesWithForce:(_Bool)arg1 repairIfPossibleForViewThatMoved:newSuperview:oldSuperview: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets)UDImageCacheInfo",&,N,V_accessibilityHUDImageCacheInfo;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool clipsToBounds;
-@property(readonly, nonatomic) struct UIEdgeInsets cursorHitTestingInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool doesExpand;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double staticDimensionExpandedSize;
 @property(readonly, nonatomic) double staticDimensionSize;
-@property(readonly) Class superclass;
 
 @end
 

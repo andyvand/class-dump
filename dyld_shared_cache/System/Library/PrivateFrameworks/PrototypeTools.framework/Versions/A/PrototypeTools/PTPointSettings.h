@@ -9,23 +9,20 @@
 @interface PTPointSettings : PTSettings
 {
     double _x;
-    double _y;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (void)P;
 - (struct CGPoint);
 - (void);
 - (void);
 - (double);
-- (double);
+- (double)setAhapAvailableObservers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint pointValue;
 @property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
 
 @end
 

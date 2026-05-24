@@ -9,9 +9,6 @@
 @interface NSPreferencesModule
 {
     NSView *_preferencesView;
-    struct CGSize _minSize;
-    _Bool _hasChanges;
-    void *_reserved;
 }
 
 + (id)÷L¦	E;
@@ -26,14 +23,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)u.;
+- (id);
+- (id);
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (_Bool);
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)?;
 - (void);
 - (void);
 - (id);

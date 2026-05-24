@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSTabViewController, NSToolbar;
+@class NSTabViewController, NSToolbar;
 
 __attribute__((visibility("hidden")))
 @interface NSTabViewControllerToolbarUIProvider
 {
     NSTabViewController *_tabViewController;
-    NSToolbar *_toolbar;
-    NSMutableDictionary *_toolbarItems;
 }
 
 - (void);
@@ -20,41 +18,33 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)set_powerAssertion:(id)arg1;
+- (id)set_phskip_cookieStorageSet:(id)arg1;
+- (id)set_phskip_alternativeServicesStorageSet:(long long)arg1;
+- (void)set_phskip_alternativeServicesStorageSet:(id)arg1;
+- (id)set_neTrackerTCCResult:(id)arg1;
+- (long long)setCookies:(id)arg1 forURL:mainDocumentURL: /* Error: Ran out of types for this method. */;
+- (id)setConnectionProxyDictionary:(id)arg1;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (long long);
-- (id);
-- (void);
-- (long long);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id)}4´;
 - (void)®xB;
 - (id)LØÿ×ñF;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property NSTabViewController *tabViewController; // @synthesize tabViewController=_tabViewController;
 @property(readonly) NSToolbar *toolbar;
 
 @end

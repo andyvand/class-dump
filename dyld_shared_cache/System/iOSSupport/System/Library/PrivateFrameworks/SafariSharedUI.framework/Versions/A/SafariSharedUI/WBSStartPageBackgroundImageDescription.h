@@ -9,16 +9,14 @@
 @interface WBSStartPageBackgroundImageDescription
 {
     NSURL *_url;
-    double _luminance;
 }
 
 - (id);
 - (id);
 - (double);
-- (void)ost:response:higherPriorityIconDownloadFailedDueToNetworkError:error: /* Error: Ran out of types for this method. */;
+- (void)resultForFetchFailureWithHost:response:higherPriorityIconDownloadFailedDueToNetworkError:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double luminance; // @synthesize luminance=_luminance;
 @property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

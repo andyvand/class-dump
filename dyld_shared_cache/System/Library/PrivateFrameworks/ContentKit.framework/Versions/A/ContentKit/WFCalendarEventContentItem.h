@@ -6,7 +6,7 @@
 
 #import <ContentKit/WFGenericFileContentItem.h>
 
-@class EKEvent, EKEventStore, NSString;
+@class EKEventStore;
 
 @interface WFCalendarEventContentItem : WFGenericFileContentItem
 {
@@ -31,7 +31,7 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)];
 + (id);
 + (id);
 + (id);
@@ -42,21 +42,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)à"èì;
 - (id);
 - (id);
+- (id)P;
 - (id);
 - (void);
-- (id);
+- (id)speedUncMps;
 - (id);
 - (void)1Â0@ù
 × ;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) EKEvent *event;
 @property(retain, nonatomic) EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(readonly, nonatomic) NSString *location;
 
 @end
 

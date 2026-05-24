@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface AVCatalystScrubberVelocity
 {
     double _timestamp;
-    double _velocity;
 }
 
 - (double);
 - (double);
-- (void);
+- (void)version                   WHEN version = '1.2' THEN version                   ELSE NULL               END;
 - (void);
 
 // Remaining properties
 @property double timestamp; // @synthesize timestamp=_timestamp;
-@property double velocity; // @synthesize velocity=_velocity;
 
 @end
 

@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, NSDictionary, NSString, NSUUID;
+@class HMDAccessory;
 
 __attribute__((visibility("hidden")))
 @interface HMDWiFiReconfigurationLogEvent
 {
     _Bool _usingFailSafeUpdate;
-    HMDAccessory *_accessory;
-    long long _credentialType;
-    HMDAccessory *_routerAccessory;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)9);
 - (unsigned long long);
-- (id);
+- (id)am initWithNetworkSockets returned %s;
 - (id);
 - (id);
 - (long long)0@ù
@@ -31,31 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(nonatomic) long long credentialType; // @synthesize credentialType=_credentialType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(retain, nonatomic) HMDAccessory *routerAccessory; // @synthesize routerAccessory=_routerAccessory;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isUsingFailSafeUpdate) _Bool usingFailSafeUpdate; // @synthesize usingFailSafeUpdate=_usingFailSafeUpdate;
 
 @end
 

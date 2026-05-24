@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCategory, NSError, NSString, NSUUID;
+@class HMAccessoryCategory, NSString, NSUUID;
 
 @protocol HMDDeviceSetupTrackingInfo
+- (NSString *);
+- (HMAccessoryCategory *)initWithColor: /* Error: Ran out of types for this method. */;
 - (unsigned long long)
 × ;
-- (NSUUID *)tion;
+- (NSUUID *)HMDCameraClipCreateClipWithSignificantEventOperation;
 - (long long)il HMDAppleMediaAccessory;
 - (NSUUID *)licking 'Add Additional Diagnostics > Log Archive (Full)'.;
 
 // Remaining properties
-@property(readonly, copy) HMAccessoryCategory *accessoryCategory;
-@property(readonly, copy) NSString *accessoryIDSIdentifier;
 @property(readonly, copy) NSUUID *accessoryUUID;
-@property(readonly) unsigned long long endTime;
-@property(readonly, copy) NSUUID *identifier;
-@property(readonly) long long role;
-@property(readonly, copy) NSError *sessionError;
-@property(readonly, copy) NSString *setupClientBundleID;
-@property(readonly) unsigned long long startTime;
 @end
 

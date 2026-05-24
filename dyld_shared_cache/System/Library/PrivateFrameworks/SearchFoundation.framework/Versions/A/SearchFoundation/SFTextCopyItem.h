@@ -6,7 +6,7 @@
 
 #import <SearchFoundation/SFCopyItem.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFTextCopyItem : SFCopyItem
 {
@@ -17,15 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *copyableString; // @synthesize copyableString=_copyableString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

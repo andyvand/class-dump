@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject, NSString;
+@class NSCache, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MKPlaceCollectionsPublisherIconManager
 {
     NSObject<OS_dispatch_queue> *_publisherLogoImageQueue;
-    NSCache *_publisherIconCache;
 }
 
-+ (id)stPinchUpdateTimestamp;
++ (id)_lastPinchUpdateTimestamp;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (void)ns:unactionableUIElements:modules:commingledRichProviderIds:actionRichProviderId:classification:snapShot: /* Error: Ran out of types for this method. */;
 - (void)ÿãf<éþ	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSCache *publisherIconCache; // @synthesize publisherIconCache=_publisherIconCache;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,34 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaServerGeneratedDismissal : SISchemaInstrumentationMessage
 {
     int _serverGeneratedDismissalReason;
-    struct {
-        unsigned int serverGeneratedDismissalReason:1;
-    } _has;
 }
 
-- (void);
+- (void)c;
 - (void);
 - (int);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)_newsCacheUpdatedNotificationToken;
+- (_Bool)actsDonation;
+- (_Bool),   ?,   ?,   ?,   ?,   ? );;
 - (id);
 - (id);
-- (id)imeFromHistoricalAudio;
-- (id)equestInSeconds;
+- (id)deleteDerivedBufferTimeFromHistoricalAudio;
+- (id)_followUpDurationSinceSiriRequestInSeconds;
 
 // Remaining properties
-@property(nonatomic) _Bool hasServerGeneratedDismissalReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int serverGeneratedDismissalReason; // @synthesize serverGeneratedDismissalReason=_serverGeneratedDismissalReason;
 
 @end

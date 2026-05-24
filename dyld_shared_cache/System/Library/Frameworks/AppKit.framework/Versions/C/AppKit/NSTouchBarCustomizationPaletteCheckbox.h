@@ -6,37 +6,30 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSAttributedString, NSStackView, NSString, NSTextField, _NSTouchBarCustomizationPaletteCheckboxBox;
+@class _NSTouchBarCustomizationPaletteCheckboxBox;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPaletteCheckbox : NSControl
 {
     _NSTouchBarCustomizationPaletteCheckboxBox *_box;
-    NSTextField *_titleField;
-    NSStackView *_stackView;
-    NSString *_title;
-    _Bool _isHighlighted;
-    _Bool _isChecked;
-    id _autounbinder;
-    double _paletteScaleFactor;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)M symptoms:checking process %d /* Error: Ran out of types for this method. */;
++ (id)ring cookie  based on IP or TLD rule %@;
++ (id)e = %@;
++ (id)version;
 - (void);
 - (void);
 - (double);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)@y)2	;
 - (double);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)properties;
+- (id)e Checking;
 - (void);
 - (_Bool);
 - (double);
@@ -45,30 +38,17 @@ __attribute__((visibility("hidden")))
 - (void)/°!Dùqå31Â0@ù
 × ;
 - (void)neTableColumn"b1};
-- (id)etParagraphSpacingBefore:(struct CGRect)arg1;
+- (id)setParagraphSpacingBefore:(struct CGRect)arg1;
 - (void)ÿÿ;
 - (id)9ä;
 - (id)¡hyAAyAAykhy=ªDhyAByü·h?§hy±§Dhtë;
 - (id);
-- (_Bool)SInsertionRangeCapable;
+- (_Bool)_NSInsertionRangeCapable;
 - (void)Ú¾ÿbh@;
 - (void)ÿ'lC;
 
 // Remaining properties
-@property(readonly, copy) NSAttributedString *_labelFontAttributedString;
-@property(readonly) double _labelFontSize;
-@property(readonly) double _stackViewSpacing;
-@property(getter=isChecked) _Bool checked; // @synthesize checked=_isChecked;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_isHighlighted;
-@property double paletteScaleFactor; // @synthesize paletteScaleFactor=_paletteScaleFactor;
-@property(readonly) Class superclass;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

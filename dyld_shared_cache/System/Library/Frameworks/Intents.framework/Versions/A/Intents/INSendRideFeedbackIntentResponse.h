@@ -13,11 +13,11 @@
 + (_Bool);
 - (id);
 - (id);
+- (id)registerPhysicalInputName:(id)arg1 toElementAlias:withPhysicalToElementMapping:withElementToPhysicalMapping: /* Error: Ran out of types for this method. */;
+- (void)sueScanHandler=%p;
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)ingAsRequestPaymentIntentPayerUnsupportedReason: /* Error: Ran out of types for this method. */;
+- (id)4;
+- (long long)StringAsRequestPaymentIntentPayerUnsupportedReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;

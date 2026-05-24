@@ -7,7 +7,6 @@
 @interface IMDPersistence.DatabaseInspectorCrossCheckInspector
 {
     id inspectors;
-    id report;
 }
 
 @end

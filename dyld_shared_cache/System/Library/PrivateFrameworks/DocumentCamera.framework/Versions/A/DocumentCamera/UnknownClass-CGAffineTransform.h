@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CGAffineTransform)
-+ (id);
++ (id)iCloudSubscriptionOptimizerDaemon;
 - (struct CGAffineTransform);
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol EDBusinessCloudStorageObserver
+- (void);
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFCommandReference;
+@class NSString;
 
 @protocol RFPreview
 
 // Remaining properties
-@property(retain, nonatomic) SFCommandReference *command_reference;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *text;
 @end
 

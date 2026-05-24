@@ -5,8 +5,11 @@
 //
 
 @class NSString;
+@protocol MTLComputePipelineState;
 
 @protocol MTL4Archive
+- (id <MTLComputePipelineState>);
+- (id <MTLComputePipelineState>);
 
 // Remaining properties
 @property(copy) NSString *label;

@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MRDiagnosticProtobuf
 {
     double _dateGenerated;
-    NSString *_diagnosticInfo;
-    struct {
-        unsigned int dateGenerated:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_;
 - (double);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)tID:request:options:response: /* Error: Ran out of types for this method. */;
+- (id)com.apple.MobileAsset.EmbeddedSpeechMac.ma.new-asset-installed;
+- (void)_handleRequestID:request:options:response: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double dateGenerated; // @synthesize dateGenerated=_dateGenerated;
-@property(retain, nonatomic) NSString *diagnosticInfo; // @synthesize diagnosticInfo=_diagnosticInfo;
 @property(nonatomic) _Bool hasDateGenerated;
-@property(readonly, nonatomic) _Bool hasDiagnosticInfo;
 
 @end
 

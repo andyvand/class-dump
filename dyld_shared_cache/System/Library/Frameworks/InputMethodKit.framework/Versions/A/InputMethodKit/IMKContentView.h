@@ -8,9 +8,9 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (_Bool)sfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/SIP/SIP.c;
+- (id)k;
 
 @end
 

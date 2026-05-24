@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSFont, NSString;
-
 @interface SwiftUI.AppKitSearchFieldCell__priv_9328C7AF9E3B9BEAB98B79BF5FE94662
 {
     id disableAutocorrection;
-    id fieldEditor;
-    id $__lazy_storage_$_tokenFieldCell;
 }
 
 - (void);
@@ -32,10 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool allowsEditingTextAttributes;
-@property(nonatomic) unsigned long long controlSize;
-@property(nonatomic, retain) NSFont *font;
-@property(nonatomic, retain) NSAttributedString *placeholderAttributedString;
-@property(nonatomic, copy) NSString *placeholderString;
 
 @end
 

@@ -9,15 +9,13 @@
 @interface NSScrubberArrangedView : NSView
 {
     struct os_unfair_lock_s _flagLock;
-    unsigned int _selected:1;
-    unsigned int _highlighted:1;
 }
 
-+ (id);
++ (id)nloadFile:error %d opening for ioChannel, file:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)i;
 - (id);
-- (id)Context;
+- (id)managedObjectContext;
 - (void)é;
 - (void);
 - (void)ect, CGRect, CGRect);
@@ -25,7 +23,6 @@
 - (_Bool)ÿW½mA;
 
 // Remaining properties
-@property(getter=isHighlighted) _Bool highlighted;
 @property(getter=isSelected) _Bool selected;
 
 @end

@@ -17,7 +17,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)MPStoreItemMetadataDownloadAssetDictionary;
 - (id);
 
 // Remaining properties

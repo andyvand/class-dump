@@ -9,7 +9,6 @@
 @interface AMSAutoBugCaptureReportResponse
 {
     void sessionID;
-    void groupID;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 9â9â¸9âJ9âô9â¦9â 9âQ9âñ9âÑ9âÅ9âå9â@9â9â(9â9â9âê9â9âÊ9âd9âV9âS9â}9âÎ9âõ9âÙ9â9âð9âÁ9â=9â9âÏ9â9âý9â&9â!9âÖ9âb9âW9âÆ9âc9â 9â9ân9âÓ9â9â`9â9âº9âó9â9âè9âï9âx9â09â9â>9âß9â9âÌ9âI9âÀ9â»9âm9â9âr9â;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *groupID;
 @property(nonatomic, readonly) NSString *sessionID;
 
 @end

@@ -7,12 +7,10 @@
 @interface SwiftUI.AppKitAccessibilityLinkRotorBridge.LinkElement
 {
     id node;
-    id range;
-    id link;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)Q;
 - (struct CGRect);
 - (id);
 - (id)C¡øÿG;

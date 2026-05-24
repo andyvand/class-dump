@@ -12,13 +12,11 @@ __attribute__((visibility("hidden")))
 @interface SHKBlurWindow : SHKBorderlessEffectWindow
 {
     NSVisualEffectView *blurView;
-    _Bool animatesTransitions;
-    unsigned long long _serviceMask;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -27,16 +25,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)cloud.sun;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool animatesTransitions; // @synthesize animatesTransitions;
 @property struct CGRect blurFrame;
-@property(retain) NSVisualEffectView *blurView; // @synthesize blurView;
-@property unsigned long long serviceMask; // @synthesize serviceMask=_serviceMask;
 
 @end
 

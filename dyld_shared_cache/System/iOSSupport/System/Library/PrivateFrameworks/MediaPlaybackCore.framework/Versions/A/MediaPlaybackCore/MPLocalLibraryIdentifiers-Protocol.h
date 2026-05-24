@@ -7,11 +7,9 @@
 @class NSString;
 
 @protocol MPLocalLibraryIdentifiers
+- (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long containedPersistentID;
 @property(readonly, nonatomic) NSString *databaseID;
-@property(readonly, nonatomic) long long persistentID;
-@property(readonly, nonatomic) long long syncID;
 @end
 

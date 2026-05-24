@@ -9,11 +9,9 @@
 @interface TIStatisticChange
 {
     int _value;
-    NSString *_name;
-    NSString *_inputMode;
 }
 
-+ (id);
++ (id)fullSizeJPEGSourceForUTI:(id)arg1 andImageDimensions:(int)arg2;
 + (_Bool);
 - (id);
 - (id);
@@ -22,12 +20,10 @@
 - (id);
 - (int);
 - (void);
-- (id)ze;
+- (id)sanitize;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) int value; // @synthesize value=_value;
 
 @end
 

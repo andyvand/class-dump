@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, NSSet, PKDrawing, PKStroke, PKStrokeSelectionImage;
+@class NSOrderedSet;
 
 @interface PKStrokeSelection
 {
     NSOrderedSet *_strokes;
-    NSSet *_strokeIdentifiers;
-    PKStroke *_lassoStroke;
-    PKStrokeSelectionImage *_strokeImage;
-    PKStrokeSelectionImage *_strokeImageWithHighlight;
-    PKDrawing *_drawing;
 }
 
 + (id);
@@ -23,14 +18,14 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (long long);
 - (id);
+- (id)#b;
 - (id);
-- (id);
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
 - (struct CGRect);
 - (id);
@@ -38,19 +33,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id):(id)arg1 webDomains:(CDUnknownBlockType)arg2;
+- (id)on;
 - (struct CGRect);
-- (id);
+- (id)externalParametersFile;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly, nonatomic) PKStroke *lassoStroke; // @synthesize lassoStroke=_lassoStroke;
-@property(readonly, nonatomic) long long requiredContentVersion;
-@property(readonly, nonatomic) NSSet *strokeIdentifiers; // @synthesize strokeIdentifiers=_strokeIdentifiers;
-@property(copy, nonatomic) PKStrokeSelectionImage *strokeImage; // @synthesize strokeImage=_strokeImage;
-@property(copy, nonatomic) PKStrokeSelectionImage *strokeImageWithHighlight; // @synthesize strokeImageWithHighlight=_strokeImageWithHighlight;
 @property(readonly, nonatomic) NSOrderedSet *strokes; // @synthesize strokes=_strokes;
 
 @end

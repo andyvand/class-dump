@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _MNLocationSimulationState_WaitingAtWaypoint : _MNLocationSimulationState
 {
     double _startTime;
-    double _waitDuration;
 }
 
 - (id);

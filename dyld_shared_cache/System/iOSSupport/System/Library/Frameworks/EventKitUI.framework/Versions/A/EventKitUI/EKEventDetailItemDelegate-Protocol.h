@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIViewController;
+
 @protocol EKEventDetailItemDelegate
+
+@optional
+- (UIViewController *)s;
+- (_Bool)+s;
+- (void);
+- (void);
 @end
 

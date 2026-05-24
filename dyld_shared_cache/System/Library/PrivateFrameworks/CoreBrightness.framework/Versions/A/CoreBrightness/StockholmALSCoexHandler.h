@@ -5,14 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface StockholmALSCoexHandler
 {
     NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_queue> *_queue;
-    _Bool _dropALSColorSamples;
 }
 
 - (void);
@@ -20,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
+- (void)eation failed with locale %@, trying to fallback to default;
+- (id)/'F;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)(;
 
 // Remaining properties
 @property _Bool dropALSColorSamples; // @synthesize dropALSColorSamples=_dropALSColorSamples;

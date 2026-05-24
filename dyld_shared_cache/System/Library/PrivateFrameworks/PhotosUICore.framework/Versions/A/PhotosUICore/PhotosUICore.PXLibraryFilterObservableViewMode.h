@@ -7,7 +7,6 @@
 @interface PhotosUICore.PXLibraryFilterObservableViewMode
 {
     id __viewMode;
-    id _$observationRegistrar;
 }
 
 - (id);

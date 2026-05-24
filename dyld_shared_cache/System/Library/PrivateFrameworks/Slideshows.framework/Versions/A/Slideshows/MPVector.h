@@ -7,18 +7,17 @@
 @interface MPVector
 {
     double _vector[4];
-    long long _length;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)H;
++ (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
-- (void);
+- (void)fc_dictionaryOfTransformedSortedObjectsWithKeyBlock:(CDStruct_d27e73f0)arg1 valueBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -27,11 +26,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)onfiguration">32;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)aB;
 - (long long);
 - (struct CGColor *);
 - (double)?b°y¸*ä©?áû»¸?ìÅ¹Qì?Î¼N¥Ëê?ç«{¤É?©Ó^ÝÌ?>ÒÊä	î?±Ì¸ï?áû»¨?Pßâµb	¥?¥0r·oì?¤C©Ó^í?;

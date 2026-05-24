@@ -5,5 +5,6 @@
 //
 
 @protocol _GCDriverClientHapticInterface
+- (void);
 @end
 

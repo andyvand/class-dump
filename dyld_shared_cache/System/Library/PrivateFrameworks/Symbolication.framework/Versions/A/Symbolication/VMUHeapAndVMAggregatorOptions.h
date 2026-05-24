@@ -4,39 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VMUClassPatternMatcher, VMUDebugTimer;
-
 @interface VMUHeapAndVMAggregatorOptions
 {
     _Bool _separateByZone;
-    _Bool _showZoneSummaries;
-    _Bool _showZoneHistograms;
-    _Bool _guessNonObjects;
-    _Bool _sumObjectFields;
-    _Bool _showSizes;
-    _Bool _showRawClassNames;
-    int _scope;
-    VMUClassPatternMatcher *_classesPatternMatcher;
-    VMUClassPatternMatcher *_classFilterPatternMatcher;
-    NSString *_classesPattern;
-    VMUDebugTimer *_debugTimer;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -47,21 +34,10 @@
 - (int);
 - (void);
 - (void);
-- (id)_NSCFCalendar;
+- (id)__NSCFCalendar;
 
 // Remaining properties
-@property(retain, nonatomic) VMUClassPatternMatcher *classFilterPatternMatcher; // @synthesize classFilterPatternMatcher=_classFilterPatternMatcher;
-@property(retain, nonatomic) NSString *classesPattern; // @synthesize classesPattern=_classesPattern;
-@property(retain, nonatomic) VMUClassPatternMatcher *classesPatternMatcher; // @synthesize classesPatternMatcher=_classesPatternMatcher;
-@property(retain, nonatomic) VMUDebugTimer *debugTimer; // @synthesize debugTimer=_debugTimer;
-@property(nonatomic) _Bool guessNonObjects; // @synthesize guessNonObjects=_guessNonObjects;
 @property(nonatomic) int scope; // @synthesize scope=_scope;
-@property(nonatomic) _Bool separateByZone; // @synthesize separateByZone=_separateByZone;
-@property(nonatomic) _Bool showRawClassNames; // @synthesize showRawClassNames=_showRawClassNames;
-@property(nonatomic) _Bool showSizes; // @synthesize showSizes=_showSizes;
-@property(nonatomic) _Bool showZoneHistograms; // @synthesize showZoneHistograms=_showZoneHistograms;
-@property(nonatomic) _Bool showZoneSummaries; // @synthesize showZoneSummaries=_showZoneSummaries;
-@property(nonatomic) _Bool sumObjectFields; // @synthesize sumObjectFields=_sumObjectFields;
 
 @end
 

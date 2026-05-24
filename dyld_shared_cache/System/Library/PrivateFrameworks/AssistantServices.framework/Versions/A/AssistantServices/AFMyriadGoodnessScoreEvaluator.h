@@ -4,36 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFInstanceContext, AFMyriadInstrumentation, AFPreferences, AFSettingsConnection, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AFMyriadGoodnessScoreEvaluator
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _scoreEvaluationLock;
-    unsigned char _myriadPlatformBias;
-    unsigned char _mediaPlaybackBoost;
-    _Bool _isRecentSiriBoostTrialEnabled;
-    _Bool _isExponentialBoostDefined;
-    double _recentSiriSecondDegreeCoefficient;
-    double _recentSiriFirstDegreeCoefficient;
-    double _recentSiriIntercept;
-    AFInstanceContext *_deviceInstanceContext;
-    unsigned long long _platformBiasAcquisitionState;
-    AFPreferences *_pref;
-    AFSettingsConnection *_settingsConnection;
-    AFMyriadInstrumentation *_myriadInstrumentation;
-    _Bool _isSpeakerEndpoint;
-    NSString *_endpointModelName;
-    _Bool _evaluateForAudioAccessory;
-    double _lastActivationTime;
 }
 
 - (void);
 - (void);
 - (double);
-- (id);
-- (id);
+- (id);
+- (id)o;
 - (id);
 - (unsigned char);
 - (_Bool);
@@ -49,23 +32,15 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (unsigned char)Qk;
 - (unsigned char);
-- (unsigned char);
+- (void)t:capability=%@ deviceCapability=%@ /* Error: Ran out of types for this method. */;
+- (void):'%@';  /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void)LoggingAssistantIdentifier;
+- (void)_peerLoggingAssistantIdentifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _Bool evaluateForAudioAccessory; // @synthesize evaluateForAudioAccessory=_evaluateForAudioAccessory;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double lastActivationTime; // @synthesize lastActivationTime=_lastActivationTime;
-@property(readonly) Class superclass;
 
 @end
 

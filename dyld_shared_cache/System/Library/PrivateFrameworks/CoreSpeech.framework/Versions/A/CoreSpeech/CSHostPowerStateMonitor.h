@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)legateOfRemovedConnection: /* Error: Ran out of types for this method. */;
++ (id)_notifyDelegateOfRemovedConnection: /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
 - (long long);

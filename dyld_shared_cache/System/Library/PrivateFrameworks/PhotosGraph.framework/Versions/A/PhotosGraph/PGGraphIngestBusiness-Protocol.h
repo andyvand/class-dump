@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLCircularRegion, NSArray, NSDateInterval, NSString;
+@class CLCircularRegion, NSDateInterval, NSString;
 
 @protocol PGGraphIngestBusiness
+- (NSDateInterval *)NSt3__110__function6__baseIFvP24FI_TGoToWindowControllerEEE;
 - (long long),R,N;
 - (CLCircularRegion *)$yÉ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *businessCategories;
-@property(readonly, nonatomic) NSDateInterval *dateInterval;
-@property(readonly, nonatomic) _Bool hasRoutineVisit;
-@property(readonly, nonatomic) unsigned long long muid;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) CLCircularRegion *region;
-@property(readonly, nonatomic) double routineVisitConfidence;
-@property(readonly, nonatomic) long long venueCapacity;
 @end
 

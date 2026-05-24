@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRPlaybackSessionMigrateRequestProtobuf, _MRPlaybackSessionProtobuf;
+@class _MRPlaybackSessionProtobuf;
 
 @interface _MRPlaybackSessionResponseMessageProtobuf
 {
     _MRPlaybackSessionProtobuf *_playbackSession;
-    _MRPlaybackSessionMigrateRequestProtobuf *_request;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -24,16 +23,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)works/CoreServices.framework/Frameworks/LaunchServices.framework/LaunchServices;
 - (void);
-- (void)k;
+- (void)_textInputCallback;
 - (_Bool)@?0@"MRAVOutputDeviceDescription"8;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlaybackSession;
-@property(readonly, nonatomic) _Bool hasRequest;
-@property(retain, nonatomic) _MRPlaybackSessionProtobuf *playbackSession; // @synthesize playbackSession=_playbackSession;
-@property(retain, nonatomic) _MRPlaybackSessionMigrateRequestProtobuf *request; // @synthesize request=_request;
 
 @end
 

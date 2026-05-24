@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSNumber;
+@class NSFileHandle;
 
 @interface CKFileOpenResult
 {
     NSFileHandle *_fileHandle;
-    NSFileHandle *_encryptedFileHandle;
-    NSNumber *_fileSize;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)r;
 - (void)(x;
 - (id)8;
 - (id)ßÛÎü;
 
 // Remaining properties
-@property(readonly, nonatomic) NSFileHandle *encryptedFileHandle; // @synthesize encryptedFileHandle=_encryptedFileHandle;
 @property(readonly, nonatomic) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
-@property(readonly, copy, nonatomic) NSNumber *fileSize; // @synthesize fileSize=_fileSize;
 
 @end
 

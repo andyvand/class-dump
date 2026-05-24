@@ -7,10 +7,10 @@
 @class NSString, NSURL;
 
 @protocol INTermsAndConditionsExport
+- (NSURL *)eButtonAction;
+- (id);
 
 // Remaining properties
 @property(readonly) NSString *localizedTermsAndConditionsText;
-@property(readonly) NSURL *privacyPolicyURL;
-@property(readonly) NSURL *termsAndConditionsURL;
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUIUserActionItem, CNUIUserActionListModel, NSString;
-@protocol CNLSApplicationWorkspace;
-
 @interface CNContactActionsDisambiguationMenuGenerator
 {
     id _target;
-    CNUIUserActionListModel *_model;
-    CNUIUserActionItem *_defaultAction;
-    NSString *_actionType;
-    id <CNLSApplicationWorkspace> _applicationWorkspace;
-    CDUnknownBlockType _menuItemForActionItem;
 }
 
 + (double);
@@ -36,8 +28,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (id);
+- (CDUnknownBlockType)?נ;
 - (void);
 - (id);
 - (id);
@@ -46,15 +38,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)CALNEKFoundInAppsEventTracker;
+- (void)ibswiftXPC.dylib;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;
-@property(readonly, nonatomic) id <CNLSApplicationWorkspace> applicationWorkspace; // @synthesize applicationWorkspace=_applicationWorkspace;
-@property(readonly, nonatomic) CNUIUserActionItem *defaultAction; // @synthesize defaultAction=_defaultAction;
-@property(readonly, copy, nonatomic) CDUnknownBlockType menuItemForActionItem; // @synthesize menuItemForActionItem=_menuItemForActionItem;
-@property(readonly, nonatomic) CNUIUserActionListModel *model; // @synthesize model=_model;
 @property(readonly, nonatomic) id target; // @synthesize target=_target;
 
 @end

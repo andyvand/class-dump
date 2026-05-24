@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString;
-
 @interface RWIProtocolGenericTypesSearchMatch : RWIProtocolJSONObject
 {
 }
@@ -16,10 +14,9 @@
 - (void);
 - (id);
 - (double);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *lineContent;
 @property(nonatomic) double lineNumber;
 
 @end

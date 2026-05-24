@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCPhysicalInputProfile, NSMutableDictionary;
+@class GCPhysicalInputProfile;
 
 __attribute__((visibility("hidden")))
 @interface _GCWebKitUserIntentRecognizer
 {
     GCPhysicalInputProfile *_physicalInputProfile;
-    NSMutableDictionary *_trackedInputs;
-    NSMutableDictionary *_timers;
-    double _slidingWindowTotalDuration;
-    double _slidingWindowSegmentDuration;
-    double _deadzoneSquared;
-    int _distanceThreshold;
-    CDUnknownBlockType _thumbstickUserIntentHandler;
 }
 
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

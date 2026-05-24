@@ -8,22 +8,18 @@ __attribute__((visibility("hidden")))
 @interface _AXFStackNode
 {
     id _object;
-    _AXFStackNode *_prev;
-    _AXFStackNode *_next;
 }
 
-- (id);
-- (id);
+- (id)initWithFilePath:forConnection:separator:replacementDictionary: /* Error: Ran out of types for this method. */;
+- (id)file;
 - (void);
 - (void);
+- (void)__isLocalObjectValidOnQueue: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id)escriptionOverride;
+- (id)descriptionOverride;
 
 // Remaining properties
-@property(retain, nonatomic) _AXFStackNode *next; // @synthesize next=_next;
 @property(retain, nonatomic) id object; // @synthesize object=_object;
-@property(nonatomic) __weak _AXFStackNode *prev; // @synthesize prev=_prev;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString, TRIPBInt32Array;
+@class TRIPBInt32Array;
 
 @interface TRIPBSourceCodeInfo_Location : TRIPBMessage
 {
@@ -15,16 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasLeadingComments; // @dynamic hasLeadingComments;
-@property(nonatomic) _Bool hasTrailingComments; // @dynamic hasTrailingComments;
-@property(copy, nonatomic) NSString *leadingComments; // @dynamic leadingComments;
-@property(retain, nonatomic) NSMutableArray *leadingDetachedCommentsArray; // @dynamic leadingDetachedCommentsArray;
-@property(readonly, nonatomic) unsigned long long leadingDetachedCommentsArray_Count; // @dynamic leadingDetachedCommentsArray_Count;
 @property(retain, nonatomic) TRIPBInt32Array *pathArray; // @dynamic pathArray;
-@property(readonly, nonatomic) unsigned long long pathArray_Count; // @dynamic pathArray_Count;
-@property(retain, nonatomic) TRIPBInt32Array *spanArray; // @dynamic spanArray;
-@property(readonly, nonatomic) unsigned long long spanArray_Count; // @dynamic spanArray_Count;
-@property(copy, nonatomic) NSString *trailingComments; // @dynamic trailingComments;
 
 @end
 

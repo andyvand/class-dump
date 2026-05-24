@@ -7,6 +7,6 @@
 @interface UnknownClass (NSTextAttachmentAdditions)
 + (_Bool);
 - (void);
-- (id);
+- (id)received more bytes.  Dropping %lu bytes.;
 @end
 

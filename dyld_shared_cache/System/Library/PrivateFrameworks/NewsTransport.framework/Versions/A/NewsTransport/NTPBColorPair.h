@@ -9,11 +9,10 @@
 @interface NTPBColorPair
 {
     NSString *_dark;
-    NSString *_light;
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)_updatePersistencePermission;
+- (_Bool)_stabilizationRecipe;
 - (void);
 - (id);
 - (void);
@@ -29,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dark; // @synthesize dark=_dark;
-@property(readonly, nonatomic) _Bool hasDark;
 @property(readonly, nonatomic) _Bool hasLight;
-@property(retain, nonatomic) NSString *light; // @synthesize light=_light;
 
 @end
 

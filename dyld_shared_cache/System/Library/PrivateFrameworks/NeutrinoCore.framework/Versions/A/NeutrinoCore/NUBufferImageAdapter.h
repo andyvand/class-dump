@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUColorSpace, NUImageLayout, NUPixelFormat, NURegion;
-@protocol NUBufferProvider;
+@class NUImageLayout;
 
 @interface NUBufferImageAdapter
 {
     NUImageLayout *_layout;
-    id <NUBufferProvider> _bufferProvider;
-    NURegion *_validRegion;
-    NUColorSpace *_colorSpace;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
@@ -29,23 +25,11 @@
 - (id);
 - (float);
 - (id);
-- (void)eIdentifier: /* Error: Ran out of types for this method. */;
+- (void)trackIDForSourceIdentifier: /* Error: Ran out of types for this method. */;
 - (id)for image correction detection. Error completing task.;
 
 // Remaining properties
-@property(readonly) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(readonly) float contentHeadroom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NUPixelFormat *format;
-@property(readonly) unsigned long long hash;
 @property(readonly) NUImageLayout *layout; // @synthesize layout=_layout;
-@property(readonly) CDStruct_912cb5d2 size;
-@property(readonly) Class superclass;
-@property(readonly, copy) NURegion *validRegion; // @synthesize validRegion=_validRegion;
 
 @end
 

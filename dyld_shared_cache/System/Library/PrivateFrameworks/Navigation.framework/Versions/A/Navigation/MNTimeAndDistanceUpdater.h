@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNActiveRouteInfo, MNLocation, MNNavigationSessionState, NSArray, NSString, NSTimer;
 @protocol MNTimeAndDistanceUpdaterDelegate;
 
 __attribute__((visibility("hidden")))
 @interface MNTimeAndDistanceUpdater
 {
     id <MNTimeAndDistanceUpdaterDelegate> _delegate;
-    MNLocation *_location;
-    NSArray *_routes;
-    NSTimer *_minuteTimer;
-    MNActiveRouteInfo *_mainRoute;
-    _Bool _shouldUseClientRounding;
-    unsigned long long _currentLogType;
-    MNNavigationSessionState *_navigationSessionState;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)Configuration;
 - (void);
 - (id);
 - (void);
@@ -39,15 +31,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MNTimeAndDistanceUpdaterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) MNNavigationSessionState *navigationSessionState; // @synthesize navigationSessionState=_navigationSessionState;
-@property(readonly) Class superclass;
 
 @end
 

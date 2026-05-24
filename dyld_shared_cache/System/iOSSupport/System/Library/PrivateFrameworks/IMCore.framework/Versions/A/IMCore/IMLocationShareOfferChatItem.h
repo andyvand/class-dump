@@ -6,28 +6,13 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSDate, NSString;
-
 @interface IMLocationShareOfferChatItem : IMTranscriptChatItem
 {
     _Bool _actionableEclipsed;
-    IMHandle *_sender;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool actionableEclipsed; // @synthesize actionableEclipsed=_actionableEclipsed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool failed;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFromMe;
 @property(readonly, nonatomic) long long offerState;
-@property(readonly, nonatomic) IMHandle *sender; // @synthesize sender=_sender;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDate *time;
 @end
 

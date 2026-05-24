@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, WBSStartPageSectionManager;
+@class WBSStartPageSectionManager;
 
 __attribute__((visibility("hidden")))
 @interface SafariSettingsSyncEngine
 {
     WBSStartPageSectionManager *_startPageSectionManager;
-    NSArray *_currentStartPageSections;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

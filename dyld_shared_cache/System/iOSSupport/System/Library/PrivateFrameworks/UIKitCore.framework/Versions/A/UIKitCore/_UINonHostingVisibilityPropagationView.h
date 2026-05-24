@@ -14,13 +14,13 @@
     NSString *_environmentIdentifier;
 }
 
-- (id);
+- (id)ndCommand";
 - (void);
 - (id);
 - (int);
 - (id);
-- (id);
-- (id)led;
+- (id)default_media_library;
+- (id)_gesturesEnabled;
 - (void);
 
 // Remaining properties

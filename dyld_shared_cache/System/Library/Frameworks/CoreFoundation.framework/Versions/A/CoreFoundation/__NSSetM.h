@@ -10,24 +10,23 @@ __attribute__((visibility("hidden")))
 @interface __NSSetM : NSMutableSet
 {
     _Atomic struct __cow_state_t *cow;
-    CDStruct_af6d7307 storage;
 }
 
 + (_Bool);
 + (id);
 - (void);
 - (void);
-- (double);
+- (double);
 - (id);
 - (double);
-- (void);
-- (void);
-- (_Bool);
+- (void)ch the number of control points(%ld) set in the vertexFunction of the renderPipelineState.;
+- (void);
+- (_Bool)nding=I^{LSBundleData}I^{?}@@Q}@@@{LSVersionNumber=[32C]}@@@@BB}16;
 - (id);
 - (id);
-- (void);
-- (void)erSandbox;
-- (void)PERTY;
+- (void)\;
+- (void)enterSandbox;
+- (void)ZPROPERTY;
 - (id);
 - (unsigned long long);
 - (id)%þ;

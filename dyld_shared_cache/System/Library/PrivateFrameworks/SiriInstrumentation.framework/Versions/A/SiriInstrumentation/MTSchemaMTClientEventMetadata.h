@@ -6,25 +6,22 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MTSchemaMTClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_mtId;
-    SISchemaUUID *_sessionId;
-    _Bool _hasMtId;
-    _Bool _hasSessionId;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)9;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)KLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/evp/p_enc.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -33,18 +30,14 @@
 × ;
 - (id)fiedString;
 - (id)tyCategoryCounts;
-- (void)TYPE_REPLY;
+- (void)FLOWSTATETYPE_REPLY;
 - (void)CDAClientEvent.CDADebugElectionDecisionMade;
 - (_Bool)entResults.payload.outcome.parameterCandidatesNotFounds.value.collection.values.enumeration.typeIdentifier.custom.bundleId;
 - (id);
-- (void)MTAppTabName;
+- (void)MTSchemaMTAppTabName;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMtId; // @synthesize hasMtId=_hasMtId;
-@property(nonatomic) _Bool hasSessionId; // @synthesize hasSessionId=_hasSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *mtId; // @synthesize mtId=_mtId;
-@property(retain, nonatomic) SISchemaUUID *sessionId; // @synthesize sessionId=_sessionId;
 
 @end
 

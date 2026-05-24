@@ -8,15 +8,15 @@
 {
 }
 
++ (_Bool)apPlayback_sendResultsSeekToTimeRequests;
++ (_Bool)apPlayback_processEventAndCreateEventInfoInCMTime;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)onaryRef *);
 + (id);
-- (_Bool);
-- (void);
-- (long long);
-- (_Bool);
+- (_Bool)ssionRef, CFDictionaryRef, CFDictionaryRef, FigEndpointPlaybackSessionStandardCompletion, void *);
+- (void)tlsPSKEnabled;
+- (long long)PlaybackSessionAirPlay.%{ptr};
+- (_Bool)d%?{end}. Error:(id)arg1 %@;
 
 @end
 

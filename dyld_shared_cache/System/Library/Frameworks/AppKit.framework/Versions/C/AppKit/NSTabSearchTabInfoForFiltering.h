@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (id)gingEnabled;
+- (id)NSPersistentUILoggingEnabled;
 - (void)ô?ÿmJhÜ?ÿuJhè?ÿ;
 
 // Remaining properties

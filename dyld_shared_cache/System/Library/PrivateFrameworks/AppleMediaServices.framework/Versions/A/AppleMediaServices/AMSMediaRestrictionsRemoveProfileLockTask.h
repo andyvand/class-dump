@@ -6,15 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSString;
-@protocol AMSBagProtocol, NSURLSessionDelegate><AMSURLProtocolDelegate;
+@class ACAccount;
 
 @interface AMSMediaRestrictionsRemoveProfileLockTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSString *_editToken;
-    id <NSURLSessionDelegate><AMSURLProtocolDelegate> _urlSessionDelegate;
 }
 
 - (id);
@@ -22,17 +18,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)loadTransfers:Fetching mirrors for %ld guids. /* Error: Ran out of types for this method. */;
 - (id);
 - (void),D j\\ÎU4ªDó.¬+0ýDxðÚ°É¶þÒõË!à&ñ1&bÑBµ ²=2è,Ë:§o@dB /* Error: Ran out of types for this method. */;
 - (id)YäC¿Á^ûKÉ±B´c®¡ÐebXì =ñÛí*Õ×µÊ°e¥«gsÝ¯@hÀäðP¦¢&ëYVáqLËa%¿òsøF¯Ú¡t´ïÜW&¸²Î[Et¡}i=Ü(Hùé¬ úÅí²'ÂíWÊ0\$ÊQ<|iÆí+'Z¦?©³E	ëg%°0YDOÐÐøÑÂê¿[0«ÂBù&·ç0ö®¾|CÐæÄÐt)\ú=\~ S·qû¿Í¤º¨|¤º¨q¤º¨¤º¨¤º¨¤º¨¤º¨}¤º¨p¤º¨g¤º¨j¤º¨¤º¨¤º¨¤º¨¤º¨f¤º¨k¤º¨¤º¨¤º¨à¤º¨í¤º¨á¤º¨ì¤º¨¤º¨¤º¨¤º¨¤º¨û¤º¨ö¤º¨ú¤º¨÷¤º¨¤º¨¤º¨@¤º¨M¤º¨>¤º¨3¤º¨?¤º¨2¤º¨A¤º¨L¤º¨[¤º¨V¤º¨%¤º¨(¤º¨$¤º¨)¤º¨Z¤º¨W¤º¨¢¤º¨¯¤º¨Ü¤º¨Ñ¤º¨Ý¤º¨Ð¤º¨£¤º¨®¤º¨¹¤º¨´¤º¨Ç¤º¨Ê¤º¨Æ¤º¨Ë¤º¨¸¤º¨µ¤º¨e¤º¨h¤º¨¤º¨¤º¨¤º¨¤º¨d¤º¨i¤º¨~¤º¨s¤º¨;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(copy) NSString *editToken; // @synthesize editToken=_editToken;
-@property __weak id <NSURLSessionDelegate><AMSURLProtocolDelegate> urlSessionDelegate; // @synthesize urlSessionDelegate=_urlSessionDelegate;
 
 @end
 

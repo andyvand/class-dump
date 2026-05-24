@@ -6,42 +6,12 @@
 
 #import <UIKitCore/_UIKBRTKeyboardTouchObserver.h>
 
-@class NSArray, NSMapTable, NSMutableDictionary, NSMutableSet, NSTimer, UIView, _UIKBRTDecayingObject, _UIKBRTDecayingOffset, _UIKBRTTouchHistory, _UIKBRTTouchHistoryInfo;
-@protocol _UIKBRTTouchDriftingDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface _UIKBRTTouchDrifting : _UIKBRTKeyboardTouchObserver
 {
     _Bool _supportsDrifting;
-    _Bool _leftDriftRemovingItems;
-    _Bool _rightDriftRemovingItems;
-    id <_UIKBRTTouchDriftingDelegate> _delegate;
-    NSArray *_indexSearchOrder;
-    NSMutableDictionary *_touches;
-    _UIKBRTTouchHistory *_fHistory;
-    _UIKBRTTouchHistory *_jHistory;
-    _UIKBRTTouchHistory *_otherHistory;
-    _UIKBRTDecayingObject *_enableLatchObj;
-    _UIKBRTDecayingOffset *_leftHandDriftOffsetObj;
-    _UIKBRTDecayingOffset *_leftHandFixedOffsetObj;
-    _UIKBRTDecayingOffset *_rightHandDriftOffsetObj;
-    _UIKBRTDecayingOffset *_rightHandFixedOffsetObj;
-    _UIKBRTTouchHistoryInfo *_leftIndexFingerInfo;
-    NSMutableSet *_leftDriftLockTouchIDs;
-    _UIKBRTTouchHistoryInfo *_rightIndexFingerInfo;
-    NSMutableSet *_rightDriftLockTouchIDs;
-    UIView *_feedbackParentView;
-    NSTimer *_feedbackTimer;
-    UIView *_leftDriftFeedbackView;
-    UIView *_rightDriftFeedbackView;
-    UIView *_touchHistoryFeedbackView;
-    NSMapTable *_touchHistoryViewMap;
-    struct {
-        double up;
-        double down;
-        double left;
-        double right;
-    } _touchError;
 }
 
 + (_Bool)0@ù
@@ -51,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (CDStruct_d2b197d1);
-- (_Bool);
+- (_Bool)setMaxValue: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -83,33 +53,33 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (id)6Q24@32@40B48;
+- (void)updateLastMessageForChat:(id)arg1 hintMessage:(struct CGPoint)arg2;
 - (id);
+- (id)silenceChat:untilDate: /* Error: Ran out of types for this method. */;
+- (id)signedIntoiMessageAccount;
+- (struct CGPoint)signedIntoiCloudAndiMessageAndiCloudAccountMatchesiMessageAccount;
+- (_Bool)signedIntoiCloudAccount;
+- (id)signaturesToRequestIDs;
+- (id)signalUnreadChangeForHandle: /* Error: Ran out of types for this method. */;
+- (id)setRecordFetchedBlock: /* Error: Ran out of types for this method. */;
+- (id)readCountToZero: /* Error: Ran out of types for this method. */;
+- (void)loadPTasksWithPredicate:(id)arg1 sortDescriptors:(double)arg2 limit:completionBlock: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)handleResults;
+- (id)handleIncomingNoticeProtobuf:service:account:fromID:context: /* Error: Ran out of types for this method. */;
+- (id)fetchMessageZoneChangesCKOperationUsingToken:zoneID:resultsLimit:operationGroupName:activity: /* Error: Ran out of types for this method. */;
+- (void)_associatedMessageFallbackHash;
+- (void)IMPinContextProviding;
 - (void);
-- (id);
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (id)d;
+- (void);
 - (struct CGPoint);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint);
+- (struct CGPoint)for chat with GUID %s but chat is already marked as read (likely via another device). Not writing summary to chat.;
 - (id);
 - (void);
 - (void);
@@ -122,33 +92,7 @@ __attribute__((visibility("hidden")))
 - (void)¤øsþ|43¼÷sþu|43¸÷sþ;
 
 // Remaining properties
-@property(nonatomic) id <_UIKBRTTouchDriftingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) _UIKBRTDecayingObject *enableLatchObj; // @synthesize enableLatchObj=_enableLatchObj;
-@property(retain, nonatomic) _UIKBRTTouchHistory *fHistory; // @synthesize fHistory=_fHistory;
-@property(nonatomic) __weak UIView *feedbackParentView; // @synthesize feedbackParentView=_feedbackParentView;
-@property(retain, nonatomic) NSTimer *feedbackTimer; // @synthesize feedbackTimer=_feedbackTimer;
 @property(retain, nonatomic) NSArray *indexSearchOrder; // @synthesize indexSearchOrder=_indexSearchOrder;
-@property(retain, nonatomic) _UIKBRTTouchHistory *jHistory; // @synthesize jHistory=_jHistory;
-@property(retain, nonatomic) UIView *leftDriftFeedbackView; // @synthesize leftDriftFeedbackView=_leftDriftFeedbackView;
-@property(retain, nonatomic) NSMutableSet *leftDriftLockTouchIDs; // @synthesize leftDriftLockTouchIDs=_leftDriftLockTouchIDs;
-@property(nonatomic) _Bool leftDriftRemovingItems; // @synthesize leftDriftRemovingItems=_leftDriftRemovingItems;
-@property(readonly, nonatomic) struct CGPoint leftHandDriftOffset;
-@property(retain, nonatomic) _UIKBRTDecayingOffset *leftHandDriftOffsetObj; // @synthesize leftHandDriftOffsetObj=_leftHandDriftOffsetObj;
-@property(retain, nonatomic) _UIKBRTDecayingOffset *leftHandFixedOffsetObj; // @synthesize leftHandFixedOffsetObj=_leftHandFixedOffsetObj;
-@property(retain, nonatomic) _UIKBRTTouchHistoryInfo *leftIndexFingerInfo; // @synthesize leftIndexFingerInfo=_leftIndexFingerInfo;
-@property(retain, nonatomic) _UIKBRTTouchHistory *otherHistory; // @synthesize otherHistory=_otherHistory;
-@property(retain, nonatomic) UIView *rightDriftFeedbackView; // @synthesize rightDriftFeedbackView=_rightDriftFeedbackView;
-@property(retain, nonatomic) NSMutableSet *rightDriftLockTouchIDs; // @synthesize rightDriftLockTouchIDs=_rightDriftLockTouchIDs;
-@property(nonatomic) _Bool rightDriftRemovingItems; // @synthesize rightDriftRemovingItems=_rightDriftRemovingItems;
-@property(readonly, nonatomic) struct CGPoint rightHandDriftOffset;
-@property(retain, nonatomic) _UIKBRTDecayingOffset *rightHandDriftOffsetObj; // @synthesize rightHandDriftOffsetObj=_rightHandDriftOffsetObj;
-@property(retain, nonatomic) _UIKBRTDecayingOffset *rightHandFixedOffsetObj; // @synthesize rightHandFixedOffsetObj=_rightHandFixedOffsetObj;
-@property(retain, nonatomic) _UIKBRTTouchHistoryInfo *rightIndexFingerInfo; // @synthesize rightIndexFingerInfo=_rightIndexFingerInfo;
-@property(nonatomic) _Bool supportsDrifting; // @synthesize supportsDrifting=_supportsDrifting;
-@property(nonatomic) CDStruct_d2b197d1 touchError; // @synthesize touchError=_touchError;
-@property(retain, nonatomic) UIView *touchHistoryFeedbackView; // @synthesize touchHistoryFeedbackView=_touchHistoryFeedbackView;
-@property(retain, nonatomic) NSMapTable *touchHistoryViewMap; // @synthesize touchHistoryViewMap=_touchHistoryViewMap;
-@property(retain, nonatomic) NSMutableDictionary *touches; // @synthesize touches=_touches;
 
 @end
 

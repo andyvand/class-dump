@@ -13,17 +13,21 @@ __attribute__((visibility("hidden")))
     _UIDebugLogNode *_debugLog;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)setRunResult:(_Bool)arg1;
+- (id)_messageTime;
+- (id)ate",&,N,V_latestActiveDate;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)vice result %@:isFinal:%d
+isRCS:%d
+didSupportEncryption:%d
+serviceForSendingResult.bestResult.allSupportEncryption):%d
+retryAsUnencryptedRCS:%d /* Error: Ran out of types for this method. */;
+- (void)e}@;
+- (void)Dictionary;
+- (void)r service %@ on account %@ with type %d and context %@;
+- (void)r service %@ on account %@ with type %d ;
+- (void)r local message of type %@ ;
+- (id)@ batches of messages during a full sync, setting fullPartialSyncFirstCompletedDate to %@;
 - (void);
 - (id);
 - (void)ËÐ\;

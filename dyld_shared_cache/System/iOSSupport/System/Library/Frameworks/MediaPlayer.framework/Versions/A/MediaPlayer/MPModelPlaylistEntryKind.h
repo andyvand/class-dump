@@ -13,15 +13,15 @@
     NSArray *_kinds;
 }
 
-+ (id);
++ (id)nullValue;
 + (id);
 + (_Bool);
 - (id);
 - (id);
+- (id)ge) == nil;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)moveItemAtPath:toPath:error: /* Error: Ran out of types for this method. */;
+- (id)streamResultWithEmbedding:label:dataset:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void)faultPlaybackRate;

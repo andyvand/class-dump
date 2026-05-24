@@ -17,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long backgroundViewPolicy; // @dynamic backgroundViewPolicy;
 @property(nonatomic) unsigned long long renderingMode; // @dynamic renderingMode;
 
 @end

@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNGeminiInteraction
 {
     long long _transport;
-    long long _directionality;
-    NSString *_handle;
-    NSString *_contactIdentifier;
 }
 
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)1a;
 - (long long);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) long long directionality; // @synthesize directionality=_directionality;
-@property(readonly, copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
 @property(readonly, nonatomic) long long transport; // @synthesize transport=_transport;
 
 @end

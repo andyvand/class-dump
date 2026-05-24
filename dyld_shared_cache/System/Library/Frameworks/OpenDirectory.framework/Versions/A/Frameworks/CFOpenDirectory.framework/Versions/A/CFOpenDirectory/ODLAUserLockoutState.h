@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAUserLockoutState, NSString;
+@class LAUserLockoutState;
 
 __attribute__((visibility("hidden")))
 @interface ODLAUserLockoutState
@@ -14,17 +14,13 @@ __attribute__((visibility("hidden")))
 
 - (long long);
 - (long long);
-- (void);
+- (void)urface for state.;
 - (double);
 - (id);
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) double backoff;
-@property(readonly, nonatomic) NSString *description;
-@property(readonly, nonatomic) long long failedAttempts;
-@property(readonly, nonatomic) long long maxAttempts;
-@property(readonly, nonatomic) long long rawValue;
 
 @end
 

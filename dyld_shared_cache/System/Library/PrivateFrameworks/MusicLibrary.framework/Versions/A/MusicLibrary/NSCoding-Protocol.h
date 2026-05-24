@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (id)cancelUpdateForStagedIdentifiers:(NSCoder *)arg1 completion: /* Error: Ran out of types for this method. */;
 @end
 

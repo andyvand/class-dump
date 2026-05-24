@@ -5,5 +5,7 @@
 //
 
 @protocol HMUserManagementRemoteHost
+- (void)ate=?;
+- (void)oviderId IN (;
 @end
 

@@ -4,42 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWInterface, NSButton, NSGridView, NSImageView, NSLayoutConstraint, NSPopUpButton, NSProgressIndicator, NSSecureTextField, NSString, NSTextField, NSView, SFAuthorization;
+@class CWInterface;
 
 @interface CWHostAPDialog_SL
 {
     CWInterface *interface_;
-    SFAuthorization *_authorization;
-    id delegate_;
-    _Bool _showingOpen;
-    _Bool _showingPassword;
-    _Bool _showingManual;
-    unsigned long long _caps;
-    NSTextField *windowTitleLabel;
-    NSTextField *windowDescriptionLabel;
-    NSButton *okButton;
-    NSButton *cancelButton;
-    NSView *securityTypeView;
-    NSPopUpButton *securityTypePopupButton;
-    NSView *channelSelectorView;
-    NSPopUpButton *channelSelectorPopupButton;
-    NSView *networkNameView;
-    NSTextField *networkNameField;
-    NSView *passwordView;
-    NSSecureTextField *passwordField;
-    NSTextField *revealedPasswordField;
-    NSView *showPasswordView;
-    NSButton *showPasswordCheckboxButton;
-    NSView *securityHintView;
-    NSTextField *securityText;
-    NSTextField *statusMessageLabel;
-    NSButton *warningButton;
-    NSProgressIndicator *progressIndicator;
-    NSButton *helpButton;
-    NSImageView *imageView;
-    NSGridView *gridView;
-    NSLayoutConstraint *okButtonBottomConstrain;
-    NSString *cachedPassword;
 }
 
 + (id);
@@ -67,28 +36,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
+- (id);
+- (void)H;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy) NSString *cachedPassword; // @synthesize cachedPassword;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id delegate; // @synthesize delegate=delegate_;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) CWInterface *interface; // @synthesize interface=interface_;
-@property(readonly) Class superclass;
 
 @end
 

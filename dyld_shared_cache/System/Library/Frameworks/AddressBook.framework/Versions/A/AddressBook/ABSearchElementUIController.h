@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABSearchElementSetView, ABSmartGroup, NSBox, NSButton, NSLayoutConstraint, NSMutableArray, NSPopUpButton, NSTextField, NSView, NSWindow;
+@class NSWindow;
 
 @interface ABSearchElementUIController
 {
     NSWindow *window;
-    ABSearchElementSetView *searchElementSetView;
-    NSButton *okButton;
-    NSButton *hilightButton;
-    NSTextField *groupNameField;
-    NSView *singleMatchDescription;
-    NSView *multipleMatchDescription;
-    NSBox *rulesBox;
-    NSPopUpButton *andOrPopUp;
-    NSButton *plusMinusTemplate;
-    NSLayoutConstraint *searchElementsSetViewWidthConstraint;
-    NSWindow *_docWindow;
-    id _delegate;
-    SEL _didEndSelector;
-    void *_contextInfo;
-    NSMutableArray *_elementViews;
-    NSMutableArray *_plusButtons;
-    NSMutableArray *_minusButtons;
-    ABSmartGroup *_smartGroup;
-    CDUnknownBlockType _completionHandler;
 }
 
 - (void);
@@ -35,12 +16,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)#;
 - (void);
 - (void);
 - (void);
@@ -53,14 +34,15 @@
 - (id);
 - (id);
 - (id);
+- (void)P;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)_handleManaullyResetApprovalRequested;
 - (void);
 - (void);
-- (void);
+- (void)ad framework.
+;
+- (void)_performanceMetricsOverlay;
 - (void)0@ù
 × ;
 

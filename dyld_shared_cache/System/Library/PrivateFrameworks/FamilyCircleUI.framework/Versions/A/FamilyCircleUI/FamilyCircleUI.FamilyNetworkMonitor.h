@@ -7,9 +7,6 @@
 @interface FamilyCircleUI.FamilyNetworkMonitor
 {
     id _connected;
-    id lastStatus;
-    id monitor;
-    id running;
 }
 
 @end

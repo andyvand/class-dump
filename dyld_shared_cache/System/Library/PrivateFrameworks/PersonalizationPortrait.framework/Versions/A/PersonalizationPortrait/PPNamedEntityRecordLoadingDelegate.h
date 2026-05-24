@@ -9,47 +9,35 @@
 @interface PPNamedEntityRecordLoadingDelegate : PPRecordLoadingDelegate
 {
     CDUnknownBlockType _namedEntityRecordsSetup;
-    CDUnknownBlockType _namedEntityRecordsHandler;
-    CDUnknownBlockType _namedEntityRecordsCompletion;
-    CDUnknownBlockType _recentNamedEntityRecordsSetup;
-    CDUnknownBlockType _recentNamedEntityRecordsHandler;
-    CDUnknownBlockType _recentNamedEntityRecordsCompletion;
-    CDUnknownBlockType _resetNamedEntityRecordData;
 }
 
+- (CDUnknownBlockType)ve containerDir for URL:%@ /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
+- (id)(;
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (CDUnknownBlockType);
 - (void);
 - (unsigned char);
 - (unsigned char);
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
+- (void);
 - (void);
-- (void);
-- (unsigned char);
+- (unsigned char)4!;
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (void);
 - (unsigned char);
-- (void);
+- (void)mbedding:(CDUnknownBlockType)arg1 %s;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType namedEntityRecordsCompletion; // @synthesize namedEntityRecordsCompletion=_namedEntityRecordsCompletion;
-@property(copy, nonatomic) CDUnknownBlockType namedEntityRecordsHandler; // @synthesize namedEntityRecordsHandler=_namedEntityRecordsHandler;
 @property(copy, nonatomic) CDUnknownBlockType namedEntityRecordsSetup; // @synthesize namedEntityRecordsSetup=_namedEntityRecordsSetup;
-@property(copy, nonatomic) CDUnknownBlockType recentNamedEntityRecordsCompletion; // @synthesize recentNamedEntityRecordsCompletion=_recentNamedEntityRecordsCompletion;
-@property(copy, nonatomic) CDUnknownBlockType recentNamedEntityRecordsHandler; // @synthesize recentNamedEntityRecordsHandler=_recentNamedEntityRecordsHandler;
-@property(copy, nonatomic) CDUnknownBlockType recentNamedEntityRecordsSetup; // @synthesize recentNamedEntityRecordsSetup=_recentNamedEntityRecordsSetup;
-@property(copy, nonatomic) CDUnknownBlockType resetNamedEntityRecordData; // @synthesize resetNamedEntityRecordData=_resetNamedEntityRecordData;
 
 @end
 

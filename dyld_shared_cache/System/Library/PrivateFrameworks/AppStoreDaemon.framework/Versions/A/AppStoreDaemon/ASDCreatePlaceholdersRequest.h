@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)ReceiveResponse:(id)arg1 ]_block_invoke;
 
 @end
 

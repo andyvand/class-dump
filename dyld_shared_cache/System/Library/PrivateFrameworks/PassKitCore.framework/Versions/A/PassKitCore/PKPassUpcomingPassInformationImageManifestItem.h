@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSURL;
+@class NSURL;
 
 @interface PKPassUpcomingPassInformationImageManifestItem
 {
     NSURL *_URL;
-    NSData *_SHA256;
-    NSNumber *_size;
-    double _scale;
 }
 
-+ (id);
++ (id);
 + (_Bool)qî%ð1Â0@ù
 × ;
 - (id);
@@ -27,14 +24,11 @@
 - (id);
 - (double);
 - (id);
-- (void);
-- (void)RL;
+- (void)roamScanDuration;
+- (void)openExternalURL;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *SHA256; // @synthesize SHA256=_SHA256;
 @property(readonly, copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) NSNumber *size; // @synthesize size=_size;
 
 @end
 

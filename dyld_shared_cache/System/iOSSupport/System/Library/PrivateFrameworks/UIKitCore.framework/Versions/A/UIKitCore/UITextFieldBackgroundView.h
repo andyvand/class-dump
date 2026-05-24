@@ -12,20 +12,17 @@ __attribute__((visibility("hidden")))
 @interface UITextFieldBackgroundView : UIView
 {
     _Bool _active;
-    _Bool _enabled;
-    float _progress;
-    UIColor *_fillColor;
 }
 
-- (void);
+- (void)uid is not allowed:%@ /* Error: Ran out of types for this method. */;
 - (void)á°!¼@ùc°1Â0@ù
 × ;
-- (void)tionForSpringLoading;
+- (void)_interactionForSpringLoading;
 - (void)|¾4¿¿;
 - (void)Mode = %s;
 - (id)tMenuPlatformMetrics_Floating.swift;
 - (void)lters.glassBackground.inputShadowHeight;
-- (void)ontrollerComponentGroupCG;
+- (void)SaySo44UITextFormattingViewControllerComponentGroupCG;
 - (void)¨;
 - (id)¾ôÖHcg;
 

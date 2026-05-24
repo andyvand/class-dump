@@ -5,5 +5,9 @@
 //
 
 @protocol TTSSpeechSynthesizerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

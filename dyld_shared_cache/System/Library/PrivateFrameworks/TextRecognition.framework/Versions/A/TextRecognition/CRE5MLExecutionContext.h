@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, VisionCoreE5RTExecutionContext, VisionCoreE5RTExecutionPrewarmedState, VisionCoreE5RTInferenceFunctionDescriptor, VisionCoreNamedObjects;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class VisionCoreE5RTInferenceFunctionDescriptor;
 
 @interface CRE5MLExecutionContext
 {
     VisionCoreE5RTInferenceFunctionDescriptor *_functionDescriptor;
-    VisionCoreE5RTExecutionPrewarmedState *_prewarmedState;
-    NSObject<OS_dispatch_semaphore> *_prewarmSemaphore;
-    struct os_unfair_lock_s _executionLock;
-    NSObject<OS_dispatch_queue> *_contextQueue;
-    VisionCoreE5RTExecutionContext *_executionContext;
-    VisionCoreNamedObjects *_preboundInputObjects;
-    VisionCoreNamedObjects *_preboundOutputObjects;
-    VisionCoreE5RTExecutionContext *_preboundExecutionContext;
 }
 
 - (void);
@@ -31,11 +22,10 @@
 - (void);
 - (id);
 - (id);
-- (void)ages;
+- (void)supportedLanguages;
 
 // Remaining properties
 @property(readonly, nonatomic) VisionCoreE5RTInferenceFunctionDescriptor *functionDescriptor; // @synthesize functionDescriptor=_functionDescriptor;
-@property(readonly, nonatomic) VisionCoreNamedObjects *preboundOutputObjects; // @synthesize preboundOutputObjects=_preboundOutputObjects;
 
 @end
 

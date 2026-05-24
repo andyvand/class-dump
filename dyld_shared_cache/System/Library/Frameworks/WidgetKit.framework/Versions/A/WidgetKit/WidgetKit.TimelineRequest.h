@@ -7,14 +7,12 @@
 @interface WidgetKit.TimelineRequest
 {
     id widget;
-    id environment;
-    id fileHandle;
 }
 
 + (_Bool);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)initWithData:(id)arg1 timestamp:walltime: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

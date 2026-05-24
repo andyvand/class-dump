@@ -4,33 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAShapeLayer, NSArray, NSBezierPath, NSColor, NSImage, NSPanGestureRecognizer;
-@protocol ICMImageGalleryQuadEditorOverlayViewDelegate, ICMImageQuad;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface ICMImageGalleryQuadEditorOverlayView
 {
     _Bool _isDraggingKnob;
-    _Bool _knobSetupComplete;
-    _Bool _isDisplayingValidQuad;
-    id <ICMImageGalleryQuadEditorOverlayViewDelegate> _delegate;
-    id <ICMImageQuad> _quad;
-    NSImage *_image;
-    long long _orientation;
-    NSArray *_knobs;
-    NSArray *_knobAXElements;
-    NSColor *_validRectColor;
-    NSColor *_invalidRectColor;
-    CALayer *_selectedKnob;
-    NSPanGestureRecognizer *_panGR;
-    CALayer *_knobLayer;
-    CAShapeLayer *_outlineLayer;
-    CALayer *_loupeLayer;
-    CALayer *_loupeContentsLayer;
-    struct CGPoint _gestureRecognizerBeginPoint;
 }
 
-- (id);
+- (id));
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)қ;
 - (void);
 - (void);
 - (void);
@@ -42,79 +29,54 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
-- (id);
 - (void);
 - (id);
+- (struct CGRect)#;
+- (id);
+- (void);
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)<;
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (_Bool);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)tionNotification="version"C"direction"C"interfaceType"C""(?="basebandAdvisoryType"i"wifiAdvisoryType"i)""(?="advisory"{ifnet_interface_advisory=""(?=""{?="version"C"direction"C"_reserved"S"rate_trend_suggestion"i"timestamp"Q"max_bandwidth"Q"total_byte_count"Q"average_throughput"Q"flushable_queue_size"I"non_flushable_queue_size"I"average_delay"I"frequency_band"C"intermittent_state"C"estimated_intermittent_period"S"single_outage_period"S"bt_coex"C"quality_score_delay"C"quality_score_loss"C"quality_score_channel"C}""{?="header"{ifnet_interface_advisory_header="version"C"direction"C"interface_type"C"notification_type"(?="cell"C"wifi"C)}"capacity"{ifnet_interface_advisory_capacity="rate_trend_suggestion"i"timestamp"Q"max_bandwidth"Q"total_byte_count"Q"average_throughput"Q"flushable_queue_size"I"non_flushable_queue_size"I"average_delay"I}""(?="wifi_context"{ifnet_interface_advisory_wifi_context="frequency_band"C"intermittent_state"C"estimated_intermittent_period"S"single_outage_period"S"bt_coex"C"quality_score_delay"C"quality_score_loss"C"quality_score_channel"C"radio_coex"C"wlan_duty_cycle"S"wifi_observed_tx_bitrate"[6I]}"cell_context"{ifnet_interface_advisory_cell_context="radio_access_technology"C"reference_signal_level"s"signal_level"s"signal_quality"c"uplink_bler"C"downlink_bler"C"bandwidth_limitation_indication"C"cdrx_state"C"cdrx_cycle"S"estimated_outage_period"S"outage_state"C"__pad"C})})}"codecRateAdaptation"{tagVCNWConnectionNotification_BBUplinkCRA="radioAccessTechnology"i"timestamp"Q"totalByteCount"Q"flushableQueueSize"I"nonFlushableQueueSize"I}"linkMeasurement"{tagVCNWConnectionNotification_BBLinkMeasurement="radioAccessTechnology"i"referenceSignalLevel"s"signalLevel"s"signalQuality"c"uplinkBler"C"downlinkBler"C}"bandwidthLimitation"{tagVCNWConnectionNotification_BBBWLimitation="bandwidthLimitationIndication"C}"cdrxUpdate"{tagVCNWConnectionNotification_BBCDRXUpdate="cdrxState"C"cdrxCycle"S}"outage"{tagVCNWConnectionNotification_BBOutage="radioAccessTechnology"i"estimatedOutagePeriod"S"outageState"C}"thermalUpdate"{tagVCNWConnectionNotification_BBThermalUpdate="rateTrendSuggestion"i})};
+- (id)amFormat kAudioUnitScope_Input;
+- (void)VCJBTargetEstimatorSynchronizer_GetSyncTarget;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)initWithNibName:bundle: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <ICMImageQuad> adjustedQuad;
-@property(nonatomic) __weak id <ICMImageGalleryQuadEditorOverlayViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) struct CGPoint gestureRecognizerBeginPoint; // @synthesize gestureRecognizerBeginPoint=_gestureRecognizerBeginPoint;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSColor *invalidRectColor; // @synthesize invalidRectColor=_invalidRectColor;
-@property(nonatomic) _Bool isDisplayingValidQuad; // @synthesize isDisplayingValidQuad=_isDisplayingValidQuad;
-@property(readonly, nonatomic) _Bool isDraggingKnob; // @synthesize isDraggingKnob=_isDraggingKnob;
-@property(readonly, nonatomic) _Bool isQuadValid;
-@property(copy, nonatomic) NSArray *knobAXElements; // @synthesize knobAXElements=_knobAXElements;
-@property(retain, nonatomic) CALayer *knobLayer; // @synthesize knobLayer=_knobLayer;
-@property(nonatomic) _Bool knobSetupComplete; // @synthesize knobSetupComplete=_knobSetupComplete;
 @property(retain, nonatomic) NSArray *knobs; // @synthesize knobs=_knobs;
-@property(retain, nonatomic) CALayer *loupeContentsLayer; // @synthesize loupeContentsLayer=_loupeContentsLayer;
-@property(retain, nonatomic) CALayer *loupeLayer; // @synthesize loupeLayer=_loupeLayer;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(retain, nonatomic) CAShapeLayer *outlineLayer; // @synthesize outlineLayer=_outlineLayer;
-@property(readonly, nonatomic) NSBezierPath *outlinePath;
-@property(retain, nonatomic) NSPanGestureRecognizer *panGR; // @synthesize panGR=_panGR;
-@property(retain, nonatomic) id <ICMImageQuad> quad; // @synthesize quad=_quad;
-@property(retain, nonatomic) CALayer *selectedKnob; // @synthesize selectedKnob=_selectedKnob;
-@property(readonly, nonatomic) NSColor *validRectColor; // @synthesize validRectColor=_validRectColor;
 
 @end
 

@@ -6,8 +6,7 @@
 
 #import <PhotosUICore/PXTilingLayout.h>
 
-@class PXCollectionTileLayoutTemplate, PXIndexPathSet, PXMemoriesFeedDataSource, PXMemoriesSpec, PXSectionedLayoutSnapshot;
-@protocol PXMemoriesFeedTilingLayoutDelegate;
+@class PXCollectionTileLayoutTemplate;
 
 @interface PXMemoriesFeedTilingLayout : PXTilingLayout
 {
@@ -15,12 +14,6 @@
         _Bool contentsRectForItemAtIndexPathForAspectRatio;
         _Bool titleFontNameForItemAtIndexPath;
     } _delegateRespondsTo;
-    PXMemoriesSpec *_spec;
-    PXIndexPathSet *_selectedMemoryIndexPaths;
-    id <PXMemoriesFeedTilingLayoutDelegate> _delegate;
-    PXSectionedLayoutSnapshot *_layoutSnapshot;
-    PXCollectionTileLayoutTemplate *__tileLayoutTemplate;
-    struct PXSimpleIndexPath _highlightedMemoryIndexPath;
 }
 
 - (long long);
@@ -49,7 +42,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct CGRect);
 - (id);
 - (id);
@@ -60,12 +53,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXCollectionTileLayoutTemplate *_tileLayoutTemplate; // @synthesize _tileLayoutTemplate=__tileLayoutTemplate;
-@property(readonly, nonatomic) PXMemoriesFeedDataSource *dataSource;
-@property(nonatomic) __weak id <PXMemoriesFeedTilingLayoutDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) struct PXSimpleIndexPath highlightedMemoryIndexPath; // @synthesize highlightedMemoryIndexPath=_highlightedMemoryIndexPath;
-@property(readonly, nonatomic) PXSectionedLayoutSnapshot *layoutSnapshot; // @synthesize layoutSnapshot=_layoutSnapshot;
-@property(retain, nonatomic) PXIndexPathSet *selectedMemoryIndexPaths; // @synthesize selectedMemoryIndexPaths=_selectedMemoryIndexPaths;
-@property(retain, nonatomic) PXMemoriesSpec *spec; // @synthesize spec=_spec;
 
 @end
 

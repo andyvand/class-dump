@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKProtobufPaymentInstrumentThumbnailResponse
 {
     NSString *_manifestHash;
-    int _status;
-    NSData *_thumbnailImage;
-    CDStruct_47fe53f2 _has;
 }
 
 - (void);
@@ -20,11 +17,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)h];
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)*	;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -32,18 +29,13 @@
 - (int);
 - (id);
 - (id)× ;
-- (_Bool)on;
+- (_Bool)_postStateMachineWillStartNotification;
 - (void)%@ with error:(_Bool)arg1 %@;
-- (int)ngsPrompt;
-- (void)FUNDING_SOURCE_USED_FOR_TRANSFER_ERROR_MESSAGE;
+- (int)notificationSettingsPrompt;
+- (void)ACCOUNT_SERVICE_FUNDING_SOURCE_USED_FOR_TRANSFER_ERROR_MESSAGE;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasManifestHash;
-@property(nonatomic) _Bool hasStatus;
 @property(readonly, nonatomic) _Bool hasThumbnailImage;
-@property(retain, nonatomic) NSString *manifestHash; // @synthesize manifestHash=_manifestHash;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(retain, nonatomic) NSData *thumbnailImage; // @synthesize thumbnailImage=_thumbnailImage;
 
 @end
 

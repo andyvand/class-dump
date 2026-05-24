@@ -8,15 +8,13 @@ __attribute__((visibility("hidden")))
 @interface OITSUBacktrace
 {
     void **_callstack;
-    int _frames;
-    int _initAdjustment;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (id);

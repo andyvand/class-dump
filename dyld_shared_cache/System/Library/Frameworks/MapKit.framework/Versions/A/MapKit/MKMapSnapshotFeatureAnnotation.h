@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VKCustomFeature;
-
 @interface MKMapSnapshotFeatureAnnotation
 {
     long long _representation;
-    NSString *_title;
-    VKCustomFeature *_customFeature;
-    CDStruct_2c43369c _coordinate;
 }
 
 + (_Bool);
@@ -22,26 +17,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (CDStruct_c3b9c2ee);
-- (void)stRequest: /* Error: Ran out of types for this method. */;
+- (void)T%;
+- (CDStruct_2c43369c)_setupAudioFileWritingForSpeechController:info:context: /* Error: Ran out of types for this method. */;
+- (void)initWithPointsOfInterestRequest: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) CDStruct_c3b9c2ee coordinate; // @synthesize coordinate=_coordinate;
-@property(nonatomic) double course;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) long long representation; // @synthesize representation=_representation;
-@property(readonly, nonatomic) _Bool showsBalloonCallout;
-@property(readonly) Class superclass;
 
 @end
 

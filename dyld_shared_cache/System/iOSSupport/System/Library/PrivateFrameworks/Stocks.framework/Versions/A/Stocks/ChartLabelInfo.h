@@ -9,20 +9,17 @@
 @interface ChartLabelInfo
 {
     NSString *_string;
-    struct CGSize _size;
-    double _position;
-    _Bool _immutable;
 }
 
 - (void);
-- (void);
+- (void)m;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (struct CGSize);
-- (void);
+- (void)@@?;
 - (double);
 - (void);
 - (id);
@@ -30,9 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool immutable; // @synthesize immutable=_immutable;
-@property(nonatomic) double position; // @synthesize position=_position;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
 @property(retain, nonatomic) NSString *string; // @synthesize string=_string;
 
 @end

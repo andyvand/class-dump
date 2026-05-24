@@ -4,34 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorStreamGroupStreamConfiguration
 {
     unsigned char _streamIndex;
-    unsigned int _ssrc;
-    unsigned short _streamID;
-    NSMutableSet *_payloads;
-    unsigned int _metadata;
-    unsigned int _qualityIndex;
-    unsigned int _maxNetworkBitrate;
-    unsigned int _maxMediaBitrate;
-    unsigned int _maxPacketsPerSecond;
-    unsigned short _repairedStreamID;
-    unsigned int _repairedMaxNetworkBitrate;
-    struct CGSize _resolution;
-    unsigned int _framerate;
-    unsigned int _keyFrameInterval;
-    unsigned int _rtpTimestampRate;
-    unsigned short _parentStreamID;
-    NSMutableArray *_codecs;
-    _Bool _isTemporalStream;
-    _Bool _isSubStream;
-    unsigned int _audioChannelCount;
-    unsigned long long _serializedSize;
-    unsigned int _coordinateSystem;
-    unsigned short _v2StreamID;
 }
 
 + (id);
@@ -50,32 +26,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (void);
-- (void);
+- (void)!;
 - (unsigned short);
-- (unsigned int);
+- (unsigned int)`;
 - (void);
 - (unsigned int);
 - (unsigned short);
+- (unsigned int);
 - (unsigned int);
-- (unsigned int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
 - (unsigned long long);
-- (void);
-- (void);
-- (unsigned int);
-- (unsigned int);
+- (void)widths:(unsigned int)arg1 top:%f, bottom:%f, left:%f, right:%f /* Error: Ran out of types for this method. */;
+- (void)apView:(unsigned int)arg1 %p] Set label edge widths:top:%f, bottom:%f, left:%f, right:%f /* Error: Ran out of types for this method. */;
+- (unsigned int)s:%s /* Error: Ran out of types for this method. */;
+- (unsigned int)s:%s /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned short);
 - (unsigned char);
-- (void);
+- (void);
 - (id);
 - (unsigned int);
 - (unsigned int);
@@ -84,38 +60,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (void);
-- (_Bool);
-- (unsigned int);
+- (_Bool)(;
+- (unsigned int);
 - (id);
-- (void)edSettings:(struct CGSize)arg1;
+- (void)updateMaxAllowedBitratePerConnection:(struct CGSize)arg1 connectionType:negotiatedSettings: /* Error: Ran out of types for this method. */;
 - (void)aleRate=%f silenceTimescaleRate=%f speechTimescaleRate=%f;
 - (unsigned int)t;
 - (id)ë¼â%;
 
 // Remaining properties
-@property(nonatomic) unsigned int audioChannelCount; // @synthesize audioChannelCount=_audioChannelCount;
-@property(readonly, nonatomic) NSArray *codecs; // @synthesize codecs=_codecs;
-@property(nonatomic) unsigned int coordinateSystem; // @synthesize coordinateSystem=_coordinateSystem;
-@property(nonatomic) unsigned int framerate; // @synthesize framerate=_framerate;
-@property(nonatomic) _Bool isSubStream; // @synthesize isSubStream=_isSubStream;
-@property(nonatomic) _Bool isTemporalStream; // @synthesize isTemporalStream=_isTemporalStream;
-@property(nonatomic) unsigned int keyFrameInterval; // @synthesize keyFrameInterval=_keyFrameInterval;
-@property(nonatomic) unsigned int maxMediaBitrate; // @synthesize maxMediaBitrate=_maxMediaBitrate;
-@property(nonatomic) unsigned int maxNetworkBitrate; // @synthesize maxNetworkBitrate=_maxNetworkBitrate;
-@property(nonatomic) unsigned int maxPacketsPerSecond; // @synthesize maxPacketsPerSecond=_maxPacketsPerSecond;
-@property(nonatomic) unsigned int metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) unsigned short parentStreamID; // @synthesize parentStreamID=_parentStreamID;
-@property(readonly, nonatomic) NSSet *payloads; // @synthesize payloads=_payloads;
-@property(nonatomic) unsigned int qualityIndex; // @synthesize qualityIndex=_qualityIndex;
-@property(nonatomic) unsigned int repairedMaxNetworkBitrate; // @synthesize repairedMaxNetworkBitrate=_repairedMaxNetworkBitrate;
-@property(nonatomic) unsigned short repairedStreamID; // @synthesize repairedStreamID=_repairedStreamID;
-@property(nonatomic) struct CGSize resolution; // @synthesize resolution=_resolution;
-@property(nonatomic) unsigned int rtpTimestampRate; // @synthesize rtpTimestampRate=_rtpTimestampRate;
-@property(nonatomic) unsigned long long serializedSize; // @synthesize serializedSize=_serializedSize;
-@property(nonatomic) unsigned int ssrc; // @synthesize ssrc=_ssrc;
-@property(nonatomic) unsigned short streamID; // @synthesize streamID=_streamID;
 @property(nonatomic) unsigned char streamIndex; // @synthesize streamIndex=_streamIndex;
-@property(nonatomic) unsigned short v2StreamID; // @synthesize v2StreamID=_v2StreamID;
 
 @end
 

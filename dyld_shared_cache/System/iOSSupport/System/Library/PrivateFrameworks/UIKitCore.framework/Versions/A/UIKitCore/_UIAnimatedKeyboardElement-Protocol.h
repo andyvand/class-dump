@@ -5,10 +5,10 @@
 //
 
 @protocol _UIAnimatedKeyboardElement
-- (void)ordinatorKey;
+- (void)_UISceneTouchBarCoordinatorKey;
 - (void)ta is invalid:(long long)arg1 width=%lu; height=%lu; skipRegionY=%lu; skipRegionHeight=%lu; nodeCount=%lu; maximumNodesPerRow=%lu;
 - (void)tingTabBar;
-- (void)estSessionInsertion;
+- (void)largestSessionInsertion;
 - (struct CGSize){®Gáz´?Ù?;
 @end
 

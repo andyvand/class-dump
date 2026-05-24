@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface _NSCGEventBuffer
 {
     struct os_unfair_lock_s _threadLock;
-    _Bool _enabled;
-    _Bool _bufferOverflowHasOccurred;
-    unsigned long long _eventMask;
-    long long _maxEventCount;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSObject<OS_dispatch_source> *_dispatchSource;
-    CDUnknownBlockType _dispatchBlock;
-    struct __CFArray *_eventBuffer;
 }
 
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void)mark;
+- (void)B;
+- (void);
+- (long long);
 - (id);
 - (_Bool);
 - (void);
-- (id)aveOperation:(_Bool *)arg1;
+- (id)writableTypesForSaveOperation:(_Bool *)arg1;
 - (unsigned long long)ìì;
 - (void)ard:(long long)arg1 in class %@.;
 
 // Remaining properties
 @property(getter=isEnabled) _Bool enabled;
-@property unsigned long long eventMask;
-@property long long maxEventCount;
 
 @end
 

@@ -6,24 +6,10 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCRateControlMachineLearningInference : VCObject
 {
     struct e5rt_program_library *_library;
-    NSObject<OS_dispatch_queue> *_compilationQueue;
-    unsigned char _setupStatus;
-    NSString *_modelPath;
-    struct e5rt_execution_stream_operation *_executionStreamOperation;
-    struct e5rt_execution_stream *_stream;
-    float *_states;
-    float *_index;
-    float *_logits;
-    float *_value;
-    float _probabilities[638];
-    float _entropyOutput;
 }
 
 + (id);
@@ -33,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

@@ -6,27 +6,23 @@
 
 #import <PassKitCore/PKPeerPaymentWebServiceRequest.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPeerPaymentRecipientsRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_senderAddress;
-    NSArray *_recipientAddresses;
-    unsigned long long _recipientAddressSource;
 }
 
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void)valid sequence;
 
 // Remaining properties
-@property(nonatomic) unsigned long long recipientAddressSource; // @synthesize recipientAddressSource=_recipientAddressSource;
-@property(copy, nonatomic) NSArray *recipientAddresses; // @synthesize recipientAddresses=_recipientAddresses;
 @property(copy, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
 
 @end

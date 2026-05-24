@@ -16,7 +16,7 @@
 - (const void *);
 - (id);
 - (_Bool);
-- (id);
+- (id)24^@32;
 - (unsigned long long);
 - (double);
 - (double);

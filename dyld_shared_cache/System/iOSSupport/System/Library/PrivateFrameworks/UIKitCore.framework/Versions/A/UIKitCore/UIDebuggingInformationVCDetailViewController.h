@@ -6,40 +6,31 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSArray, NSString, UITableView;
+@class UITableView;
 
 __attribute__((visibility("hidden")))
 @interface UIDebuggingInformationVCDetailViewController : UIViewController
 {
     UITableView *_tableView;
-    NSArray *_data;
-    UIViewController *_inspectedVC;
 }
 
-- (id);
-- (id);
+- (id)ed! :(id)arg1 -);
+- (id)ispatcher sendNotice:toHandles:fromHandle:] /* Error: Ran out of types for this method. */;
+- (void)IMDCollaborationNoticeDispatcher;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)mmcs_request_get_timing_activity_marker;
 - (id);
 - (long long);
-- (void);
-- (void);
+- (void)userPlaylistQuery;
+- (void)MPMovieDurationAvailableNotification;
 - (long long)áÿð!<EùñXð1Â0@ù
 × ;
 - (void)PäU;
 - (void)ÇÇÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UIViewController *inspectedVC; // @synthesize inspectedVC=_inspectedVC;
-@property(readonly) Class superclass;
 
 @end
 

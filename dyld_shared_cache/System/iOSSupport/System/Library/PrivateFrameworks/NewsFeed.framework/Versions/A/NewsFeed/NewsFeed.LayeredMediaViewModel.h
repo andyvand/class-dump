@@ -7,8 +7,6 @@
 @interface NewsFeed.LayeredMediaViewModel
 {
     id identifier;
-    id layerRenderables;
-    id filters;
 }
 
 @end

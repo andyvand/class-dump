@@ -7,16 +7,13 @@
 @interface CHSWidgetIcon
 {
     struct CGSize size;
-    double scale;
-    struct CGSize pixelSize;
-    struct CGImage *image;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (struct CGImage *);
 - (struct CGSize);
 - (void);
@@ -25,9 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) struct CGImage *image; // @synthesize image;
-@property(nonatomic) struct CGSize pixelSize; // @synthesize pixelSize;
-@property(nonatomic) double scale; // @synthesize scale;
 @property(nonatomic) struct CGSize size; // @synthesize size;
 
 @end

@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)Ri@y(*h;
 + (id);
 + (_Bool);
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface AFHearablesClientRegistry
 {
     NSMutableDictionary *_clientRegistrations;
-    NSMutableDictionary *_contextToClientKeys;
-    NSLock *_registryLock;
 }
 
 - (void);
@@ -31,12 +29,10 @@
 - (void);
 - (id);
 - (void)ing",C,N,V_interactionIdentifier;
-- (id)ncy_response;
+- (id)latency_response;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *clientRegistrations; // @synthesize clientRegistrations=_clientRegistrations;
-@property(retain, nonatomic) NSMutableDictionary *contextToClientKeys; // @synthesize contextToClientKeys=_contextToClientKeys;
-@property(retain, nonatomic) NSLock *registryLock; // @synthesize registryLock=_registryLock;
 
 @end
 

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, geo_isolater;
+@class geo_isolater;
 
 @interface GEOTransitUpdateRequester
 {
     geo_isolater *_isolater;
-    NSHashTable *_pendingRequests;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)_TtC19ContactsPersistence19SimpleCoreDataStack;
 - (id);
 - (_Bool);
 - (void);

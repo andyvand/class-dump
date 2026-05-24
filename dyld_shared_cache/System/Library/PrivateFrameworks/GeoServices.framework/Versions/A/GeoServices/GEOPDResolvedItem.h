@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDResolvedItem
 {
     PBUnknownFields *_unknownFields;
-    NSString *_extractedTerm;
-    int _resolvedItemType;
-    unsigned int _resultIndex;
-    struct {
-        unsigned int has_resolvedItemType:1;
-        unsigned int has_resultIndex:1;
-    } _flags;
 }
 
 - (id);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ets"b1"read_trafficColors"b1"read_anchorPointsData"b1"read_decoderData"b1"read_destinationName"b1"read_destination"b1"read_etaResponse"b1"read_name"b1"read_originalRouteID"b1"read_originalSuggestedRoute"b1"read_origin"b1"read_request"b1"read_response"b1"read_revisionID"b1"read_routeDescriptions"b1"read_routeID"b1"read_steps"b1"read_storageID"b1"read_styleAttributes"b1"read_trafficDescription"b1"read_waypoints"b1"wrote_anyField"b1};
-- (id)ltipathAlternatePort;
+- (id)_multipathAlternatePort;
 - (id)x;
 - (void)´V´9ÎçF@;
 

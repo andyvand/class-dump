@@ -7,20 +7,15 @@
 @interface MPMusicPlayerControllerNowPlayingTimeSnapshot
 {
     double _elapsedTime;
-    double _duration;
-    double _timestamp;
-    _Bool _live;
-    float _rate;
-    long long _state;
 }
 
 + (id);
-+ (id);
-+ (_Bool);
++ (id)_securityBarrier;
++ (_Bool)P;
 - (_Bool);
+- (id)lastBlackholeReceiptPromptDate;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)prepAndRunQuery:onPrep:onRow:onError: /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (void);
@@ -28,10 +23,7 @@
 - (float)lying changes:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentTime;
 @property(readonly, nonatomic, getter=isLive) _Bool live; // @synthesize live=_live;
-@property(readonly, nonatomic) float rate; // @synthesize rate=_rate;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

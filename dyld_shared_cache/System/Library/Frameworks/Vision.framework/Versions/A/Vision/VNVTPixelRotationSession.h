@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VNVTPixelRotationSession : VNVTSession
 {
     unsigned int _rotation;
-    struct OpaqueVTPixelRotationSession *_pixelRotationSession;
 }
 
 - (void);

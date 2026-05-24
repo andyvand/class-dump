@@ -6,24 +6,22 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface PKAccountWebServiceSharedAccountCloudStoreRequest : PKAccountWebServiceRequest
 {
     NSString *_accountIdentifier;
-    NSURL *_baseURL;
 }
 
 - (id);
 - (id)e Event Type:%@ /* Error: Ran out of types for this method. */;
 - (void)_termsIdentifier;
-- (void)rdAuthorizationDestinationProviderManager;
+- (void)ProvisioningExistingCardAuthorizationDestinationProviderManager;
 - (id)ü";
 - (void)ìÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 
 @end
 

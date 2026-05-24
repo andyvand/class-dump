@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserTabViewItem, NSArray;
+@class BrowserTabViewItem, NSArray, VisualTabPickerViewController;
 
 @protocol VisualTabPickerDelegate
+- (void)errorWithDomain:(VisualTabPickerViewController *)arg1 code:userInfo: /* Error: Ran out of types for this method. */;
 - (void)À;
 - (void);
 - (_Bool)¬;

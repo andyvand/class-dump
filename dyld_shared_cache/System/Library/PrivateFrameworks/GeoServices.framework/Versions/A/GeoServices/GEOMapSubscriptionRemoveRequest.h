@@ -13,25 +13,18 @@
     NSString *_identifier;
 }
 
-+ (Class);
++ (Class)authenticationMethod;
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)packedMemoryLayoutForFormat:dimensions: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)fosForGeoWaypointRoute:(id)arg1 coordinates:updateable: /* Error: Ran out of types for this method. */;
+- (void)cameraInfosForGeoWaypointRoute:(id)arg1 coordinates:updateable: /* Error: Ran out of types for this method. */;
 - (id)PÍÎÏ;
 - (void)à«2;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

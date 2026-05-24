@@ -6,26 +6,16 @@
 
 #import <GameController/_GCDevicePhysicalInputView.h>
 
-@class NSSet, NSString;
-@protocol GCPhysicalInputExtents;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputPressInput : _GCDevicePhysicalInputView
 {
     unsigned long long _sourcesSlot;
-    unsigned long long _isAnalogSlot;
-    unsigned long long _pressedThresholdSlot;
-    unsigned long long _valueChangedHandlerSlot;
-    unsigned long long _pressedChangedHandlerSlot;
-    unsigned long long _valueSlot;
-    unsigned long long _valueTimestampSlot;
-    unsigned long long _pressedTimestampSlot;
 }
 
-+ (unsigned short);
++ (unsigned short)H;
 - (CDUnknownBlockType);
 - (_Bool);
-- (void);
+- (void)&;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -35,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (_Bool);
-- (id);
+- (id)*;
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
@@ -44,31 +34,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (float);
-- (id);
+- (id)lSc;
 
 // Remaining properties
-@property(readonly, getter=isAnalog) _Bool analog;
-@property(readonly) _Bool canWrap;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <GCPhysicalInputExtents> extents;
-@property(readonly) unsigned long long hash;
-@property(readonly) double lastPressedStateLatency;
-@property(readonly) double lastPressedStateTimestamp;
-@property(readonly) double lastValueLatency;
-@property(readonly) double lastValueTimestamp;
-@property(readonly) id <GCPhysicalInputExtents> physicalExtents;
-@property(readonly, getter=isPressed) _Bool pressed;
-@property(copy) CDUnknownBlockType pressedDidChangeHandler;
-@property(readonly, copy) NSSet *sources;
-@property(readonly) Class superclass;
-@property(readonly) float value;
 @property(copy) CDUnknownBlockType valueDidChangeHandler;
 
 @end

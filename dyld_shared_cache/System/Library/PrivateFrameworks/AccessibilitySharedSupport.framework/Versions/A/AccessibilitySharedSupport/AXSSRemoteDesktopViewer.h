@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (int);
@@ -24,7 +24,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 
 @end
 

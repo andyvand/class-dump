@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol CKSearchResultSupplementryCell
++ (double);
++ (NSString *)`;
+- (void)thumbnailGenerationQueue;
+- (struct UIEdgeInsets)collapsedItemIdentifiersWithItemType:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets marginInsets;

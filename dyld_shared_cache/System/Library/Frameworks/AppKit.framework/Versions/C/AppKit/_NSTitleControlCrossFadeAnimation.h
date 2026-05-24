@@ -6,42 +6,33 @@
 
 #import <AppKit/NSAnimation.h>
 
-@class NSBitmapImageRep, NSCrossfadeView, NSView;
+@class NSBitmapImageRep;
 
 __attribute__((visibility("hidden")))
 @interface _NSTitleControlCrossFadeAnimation : NSAnimation
 {
     NSBitmapImageRep *startingSnapshot;
-    struct CGRect startingFrame;
-    NSBitmapImageRep *endingSnapshot;
-    struct CGRect endingFrame;
-    NSView *view;
-    NSCrossfadeView *crossFadeView;
 }
 
 - (id);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (id);
 - (struct CGRect);
 - (void);
-- (id);
+- (id)setDiscretionary: /* Error: Ran out of types for this method. */;
+- (void)tI;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)characterIndex;
 - (void)ments.;
 - (void)ends with;
 
 // Remaining properties
-@property struct CGRect endingFrame; // @synthesize endingFrame;
-@property(retain) NSBitmapImageRep *endingSnapshot; // @synthesize endingSnapshot;
-@property struct CGRect startingFrame; // @synthesize startingFrame;
 @property(retain) NSBitmapImageRep *startingSnapshot; // @synthesize startingSnapshot;
-@property(retain) NSView *view; // @synthesize view;
 
 @end
 

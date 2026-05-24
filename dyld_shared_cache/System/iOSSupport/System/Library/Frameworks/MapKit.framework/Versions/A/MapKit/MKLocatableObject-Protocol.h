@@ -5,6 +5,7 @@
 //
 
 @protocol MKLocatableObject
+- (struct CLLocationCoordinate2D)ction for message %@ in chat %@;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;

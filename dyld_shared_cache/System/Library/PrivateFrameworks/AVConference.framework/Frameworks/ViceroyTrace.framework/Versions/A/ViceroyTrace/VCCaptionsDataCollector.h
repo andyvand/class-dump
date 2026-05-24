@@ -4,48 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, VCReportingHistogram;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface VCCaptionsDataCollector
 {
     NSObject<OS_dispatch_queue> *_stateQueue;
-    _Bool _isCaptionsEnabled;
-    _Bool _receivedCaptionsMetrics;
-    unsigned int _totalCollectedCaptionsRatioMetrics;
-    unsigned int _longCaptionRatioCollection;
-    unsigned int _maxCaptionsRatio;
-    unsigned int _captionTaskCount;
-    double _lastUtteranceDuration;
-    VCReportingHistogram *_captionsRatioHistogram;
-    VCReportingHistogram *_captionsRatioLongHistogram;
-    VCReportingHistogram *_captionsUtteranceHistogram;
-    VCReportingHistogram *_captionsUsage;
-    NSString *_captionsLocale;
-    NSString *_captionsSourceLocale;
-    double _lastCaptionsEnabledTime;
-    double _captionsEnabledDuration;
-    VCReportingHistogram *_captionsSpeechModel;
-    _Bool _isLanguageDetectorEnabled;
-    _Bool _isExplicitLanguageFilterEnabled;
-    VCReportingHistogram *_callTypeHistogram;
-    unsigned int _utteranceCount;
-    unsigned int _translatedUtteranceCount;
-    double _translatedLatencyAverage;
-    NSMutableDictionary *_languageCodeDict;
 }
 
 - (void);
 - (void);
+- (void)g;
+- (void);
 - (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)6@9
+	*�@9H	;
 - (void);
 - (_Bool);
 - (void);
@@ -54,8 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool captionsEnabled; // @synthesize captionsEnabled=_isCaptionsEnabled;
-@property(nonatomic) _Bool explicitLanguageFilterEnabled; // @synthesize explicitLanguageFilterEnabled=_isExplicitLanguageFilterEnabled;
-@property(nonatomic) _Bool languageDetectorEnabled; // @synthesize languageDetectorEnabled=_isLanguageDetectorEnabled;
 
 @end
 

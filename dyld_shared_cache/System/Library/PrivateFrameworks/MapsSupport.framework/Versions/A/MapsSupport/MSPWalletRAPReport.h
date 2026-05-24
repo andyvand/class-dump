@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPFeedbackRequestParameters, NSString;
+@class GEORPFeedbackRequestParameters;
 
 @interface MSPWalletRAPReport
 {
     GEORPFeedbackRequestParameters *_requestParameters;
 }
 
-- (void);
-- (void);
-- (id);
+- (void)code;
+- (void)waitingForInitialChallenge;
+- (id)mailbox;
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (void)%{public}@ resolved:(id)arg1 %hhd;
+- (void)et returnOptions ;
+- (id)agesAlreadyDownloaded;
+- (_Bool)leted %lu unreadAdjustedForDuplicates %lu;
+- (id)messages_old.ROWID, messages_old.message_id, message_global_data.ROWID, document_id, remote_id, sender, subject_prefix, subject, date_sent, date_received, date_last_viewed, mailbox, remote_mailbox, flags, read, flagged, size, color, type, conversation_id, snippet, fuzzy_ancestor, automated_conversation, root_status, conversation_position, deleted, list_id_hash, searchable_message FROM messages_old JOIN message_global_data ON messages_old.message_id = message_global_data.message_id;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *correlationId;
-@property(nonatomic) _Bool isAppleCard;
-@property(nonatomic) unsigned long long lookupTransactionType;
-@property(copy, nonatomic) NSString *merchantAdamId;
-@property(copy, nonatomic) NSString *reportersComment;
 @property(readonly, nonatomic) GEORPFeedbackRequestParameters *requestParameters; // @synthesize requestParameters=_requestParameters;
 
 @end

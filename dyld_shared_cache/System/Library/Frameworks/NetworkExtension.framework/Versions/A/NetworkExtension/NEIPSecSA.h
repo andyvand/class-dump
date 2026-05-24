@@ -4,39 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NWAddressEndpoint;
-
 @interface NEIPSecSA
 {
     _Bool _natTraversalEnabled;
-    _Bool _natDetectedOnPeer;
-    _Bool _natKeepaliveEnabled;
-    _Bool _natKeepaliveOffloadEnabled;
-    _Bool _sequencePerTrafficClass;
-    unsigned short _natTraversalPort;
-    unsigned short _natTraversalSrcPort;
-    unsigned int _spi;
-    int _direction;
-    int _mode;
-    int _protocol;
-    unsigned int _replayWindowSize;
-    int _encryptionAlgorithm;
-    int _authenticationAlgorithm;
-    unsigned int _internalSAID;
-    NWAddressEndpoint *_localAddress;
-    NWAddressEndpoint *_remoteAddress;
-    NSString *_boundInterfaceName;
-    NSString *_tunnelInterfaceName;
-    unsigned long long _lifetimeSeconds;
-    NSData *_encryptionKey;
-    NSData *_authenticationKey;
-    unsigned long long _natKeepaliveIntervalSeconds;
-    unsigned long long _natKeepaliveOffloadIntervalSeconds;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -74,46 +49,24 @@
 - (id);
 - (void);
 - (int);
-- (id);
+- (id);
 - (unsigned long long);
+- (void):8@"<IDSLinkDelegate>"16 /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)_;
 - (_Bool);
 - (void);
 - (id);
-- (int);
+- (int)ion:Only has statsID:%x /* Error: Ran out of types for this method. */;
 - (id);
-- (void)ns;
+- (void)useForAllDomains;
 - (id);
 - (int)ough bytes remaining (%u) for transform %u;
 - (void)rom KE payload (%zu != %zu) (initiator rekey child followup KE);
 - (id);
 
 // Remaining properties
-@property int authenticationAlgorithm; // @synthesize authenticationAlgorithm=_authenticationAlgorithm;
-@property(retain) NSData *authenticationKey; // @synthesize authenticationKey=_authenticationKey;
-@property(retain) NSString *boundInterfaceName; // @synthesize boundInterfaceName=_boundInterfaceName;
-@property(readonly) int direction; // @synthesize direction=_direction;
-@property int encryptionAlgorithm; // @synthesize encryptionAlgorithm=_encryptionAlgorithm;
-@property(retain) NSData *encryptionKey; // @synthesize encryptionKey=_encryptionKey;
-@property unsigned long long lifetimeSeconds; // @synthesize lifetimeSeconds=_lifetimeSeconds;
-@property(retain) NWAddressEndpoint *localAddress; // @synthesize localAddress=_localAddress;
-@property int mode; // @synthesize mode=_mode;
-@property _Bool natDetectedOnPeer; // @synthesize natDetectedOnPeer=_natDetectedOnPeer;
-@property _Bool natKeepaliveEnabled; // @synthesize natKeepaliveEnabled=_natKeepaliveEnabled;
-@property unsigned long long natKeepaliveIntervalSeconds; // @synthesize natKeepaliveIntervalSeconds=_natKeepaliveIntervalSeconds;
-@property _Bool natKeepaliveOffloadEnabled; // @synthesize natKeepaliveOffloadEnabled=_natKeepaliveOffloadEnabled;
-@property unsigned long long natKeepaliveOffloadIntervalSeconds; // @synthesize natKeepaliveOffloadIntervalSeconds=_natKeepaliveOffloadIntervalSeconds;
-@property _Bool natTraversalEnabled; // @synthesize natTraversalEnabled=_natTraversalEnabled;
-@property unsigned short natTraversalPort; // @synthesize natTraversalPort=_natTraversalPort;
-@property unsigned short natTraversalSrcPort; // @synthesize natTraversalSrcPort=_natTraversalSrcPort;
-@property int protocol; // @synthesize protocol=_protocol;
-@property(retain) NWAddressEndpoint *remoteAddress; // @synthesize remoteAddress=_remoteAddress;
-@property unsigned int replayWindowSize; // @synthesize replayWindowSize=_replayWindowSize;
-@property _Bool sequencePerTrafficClass; // @synthesize sequencePerTrafficClass=_sequencePerTrafficClass;
 @property(readonly) unsigned int spi;
-@property(retain) NSString *tunnelInterfaceName; // @synthesize tunnelInterfaceName=_tunnelInterfaceName;
 
 @end
 

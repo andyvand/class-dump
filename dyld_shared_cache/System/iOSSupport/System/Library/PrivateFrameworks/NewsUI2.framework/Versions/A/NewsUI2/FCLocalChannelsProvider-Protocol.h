@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol FCLocalChannelsProvider
+- (NSArray *)SectionType;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *lastKnownChannelIDs;

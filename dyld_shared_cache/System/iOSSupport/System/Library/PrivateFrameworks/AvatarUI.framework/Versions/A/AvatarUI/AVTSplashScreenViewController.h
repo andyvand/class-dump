@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerViewController, AVQueuePlayer, AVTSplashScreenConfiguration, NSLayoutConstraint, OBBoldTrayButton, UIView;
-@protocol AVTSplashScreenViewControllerDelegate;
+@class OBBoldTrayButton;
 
 @interface AVTSplashScreenViewController
 {
     _Bool _isPlayingVideos;
-    id <AVTSplashScreenViewControllerDelegate> _delegate;
-    OBBoldTrayButton *_continueButton;
-    UIView *_videoContentView;
-    AVTSplashScreenConfiguration *_configuration;
-    AVQueuePlayer *_queuePlayer;
-    AVPlayerViewController *_playerViewController;
-    AVQueuePlayer *_secondaryQueuePlayer;
-    AVPlayerViewController *_secondaryPlayerViewController;
-    NSLayoutConstraint *_videoContentWidthConstraint;
-    NSLayoutConstraint *_videoContentHeightConstraint;
 }
 
 - (id);
@@ -46,14 +35,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)iled in %s at line %d goto Done. ;
 - (void);
 - (id);
 - (void);
@@ -61,18 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AVTSplashScreenConfiguration *configuration; // @synthesize configuration=_configuration;
 @property(retain, nonatomic) OBBoldTrayButton *continueButton; // @synthesize continueButton=_continueButton;
-@property(nonatomic) __weak id <AVTSplashScreenViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool isPlayingVideos; // @synthesize isPlayingVideos=_isPlayingVideos;
-@property(retain, nonatomic) AVPlayerViewController *playerViewController; // @synthesize playerViewController=_playerViewController;
-@property(readonly, nonatomic) AVPlayerViewController *primaryVideoController;
-@property(retain, nonatomic) AVQueuePlayer *queuePlayer; // @synthesize queuePlayer=_queuePlayer;
-@property(retain, nonatomic) AVPlayerViewController *secondaryPlayerViewController; // @synthesize secondaryPlayerViewController=_secondaryPlayerViewController;
-@property(retain, nonatomic) AVQueuePlayer *secondaryQueuePlayer; // @synthesize secondaryQueuePlayer=_secondaryQueuePlayer;
-@property(retain, nonatomic) NSLayoutConstraint *videoContentHeightConstraint; // @synthesize videoContentHeightConstraint=_videoContentHeightConstraint;
-@property(retain, nonatomic) UIView *videoContentView; // @synthesize videoContentView=_videoContentView;
-@property(retain, nonatomic) NSLayoutConstraint *videoContentWidthConstraint; // @synthesize videoContentWidthConstraint=_videoContentWidthConstraint;
 
 @end
 

@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ICEResultQuery
 {
     unsigned int callID;
-    struct tagCONNRESULT *result;
-    _Bool isQueryAnswered;
 }
 
 - (void);
@@ -18,13 +16,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void)b;
 - (struct tagCONNRESULT *)%s] %s:%d VCVideoPlayer[%p] leeway=%f waiting for next tick. presentationTime=%f displayTimestamp=%f /* Error: Ran out of types for this method. */;
 - (void)CNValid];
 
 // Remaining properties
-@property unsigned int callID; // @synthesize callID;
-@property _Bool isQueryAnswered; // @synthesize isQueryAnswered;
 @property struct tagCONNRESULT *result;
 
 @end

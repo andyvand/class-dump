@@ -20,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (id);
-- (void)rwardProgress;
+- (id)addOutput:(id)arg1;
+- (void)hasForwardProgress;
 - (id)nil;
-- (void)pSgXw;
+- (void)_pSgXw;
 - (void)´gþ#úR;
 
 // Remaining properties

@@ -13,7 +13,7 @@
 
 - (void);
 - (double);
-- (id);
+- (id)_cacheScriptDebugDelegateImplementations;
 
 // Remaining properties
 @property(nonatomic) double dateLastViewedAsTimeIntervalSince1970; // @synthesize dateLastViewedAsTimeIntervalSince1970=_dateLastViewedAsTimeIntervalSince1970;

@@ -4,51 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableSet, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewLayoutFeedbackLoopDebugger
 {
     long long _debuggingState;
-    UIView *_rootView;
-    NSMutableSet *_viewsWithChangingGeometry;
-    NSMutableSet *_viewsWithVariableChangesTriggeringLayout;
-    NSMutableSet *_turningPointViews;
-    NSMutableSet *_involvedViews;
-    NSMutableArray *_layoutList;
-    NSArray *_reducedLayoutList;
-    _Bool _rootViewConfirmed;
-    _Bool _feedbackLoopConfirmed;
-    long long _rootViewLayoutCount;
-    UIView *_currentLayoutView;
 }
 
 + (void);
 + (void)Ôá;
 + (id)R;
 - (void);
+- (void)Ǽ;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_messageBodyWithNativeAttributes;
+- (void)%@;
 - (void);
 - (id);
+- (id)Request;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);

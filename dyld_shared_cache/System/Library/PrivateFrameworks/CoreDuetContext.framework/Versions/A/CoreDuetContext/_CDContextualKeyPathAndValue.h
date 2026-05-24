@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _CDContextValue, _CDContextualKeyPath;
+@class _CDContextualKeyPath;
 
 @interface _CDContextualKeyPathAndValue
 {
     _CDContextualKeyPath *_keyPath;
-    _CDContextValue *_value;
 }
 
 + (_Bool);
 - (void);
 - (id);
+- (id)orewifi] %{public}s (%{public}s:%u) [bbh] Ping loss exceeded limit, will not perform probe to remote endpoint /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)pportedReason;
+- (void)isAppAttributionRequired;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) _CDContextualKeyPath *keyPath; // @synthesize keyPath=_keyPath;
-@property(retain, nonatomic) _CDContextValue *value; // @synthesize value=_value;
 
 @end
 

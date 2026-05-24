@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface LPURLSuffixChecker
 {
     struct {
         unsigned short _field1[27];
     } *_trie;
-    unsigned int _trieNodeCount;
-    unsigned long long _maxLength;
-    NSMutableArray *_failedSuffixes;
 }
 
-- (_Bool);
+- (_Bool)textProcessingService;
 - (id);
 - (void);
 - (_Bool);

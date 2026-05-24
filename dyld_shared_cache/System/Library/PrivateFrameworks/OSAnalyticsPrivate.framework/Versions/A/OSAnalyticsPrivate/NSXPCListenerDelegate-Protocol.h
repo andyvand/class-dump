@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSXPCListener;
+
 @protocol NSXPCListenerDelegate
+
+@optional
+- (_Bool)Date:(NSXPCListener *)arg1;
 @end
 

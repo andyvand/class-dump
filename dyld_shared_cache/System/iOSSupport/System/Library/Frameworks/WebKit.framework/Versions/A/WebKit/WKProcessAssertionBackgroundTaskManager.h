@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WKProcessAssertionBackgroundTaskManager
 {
     struct RetainPtr<RBSAssertion> _backgroundTask;
-    struct atomic<bool> _backgroundTaskWasInvalidated;
-    struct ThreadSafeWeakHashSet<WebKit::ProcessAndUIAssertion> _assertionsNeedingBackgroundTask;
-    CDUnknownBlockType _pendingTaskReleaseTask;
-    struct RefPtr<WebKit::ProcessStateMonitor, WTF::RawPtrTraits<WebKit::ProcessStateMonitor>, WTF::DefaultRefDerefTraits<WebKit::ProcessStateMonitor>> m_processStateMonitor;
 }
 
 + (id)(uint32_t);
@@ -21,28 +15,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)_;
 - (void);
 - (void);
-- (id);
+- (id)C361244024E465LLO;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)hToken:destructively: /* Error: Ran out of types for this method. */;
+- (void)_preserveFocusWithToken:destructively: /* Error: Ran out of types for this method. */;
 - (void)le.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/WebProcess/GPU/graphics/RemoteRenderingBackendProxy.cpp;
 - (void)::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::RemoteDisplayListIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)tIdentifierGeneric<WebCore:(id)arg1:(id)arg2 IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IDBObjectStoreInfo>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IDBObjectStoreInfo>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IDBObjectStoreInfo>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryNetworkCredential, NSNumber, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDUnpairedHAPAccessoryConfiguration
 {
     _Bool _requiresUserConsent;
-    NSString *_setupCode;
-    CDUnknownBlockType _setupCodeProvider;
-    HMDAccessoryNetworkCredential *_networkCredential;
-    NSString *_isoCountryCode;
-    NSNumber *_chipFabricID;
-    NSUUID *_homeUUID;
 }
 
 - (CDUnknownBlockType);
@@ -27,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (void);
@@ -35,13 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)clips;
 
 // Remaining properties
-@property(copy) NSNumber *chipFabricID; // @synthesize chipFabricID=_chipFabricID;
-@property(copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(copy) NSString *isoCountryCode; // @synthesize isoCountryCode=_isoCountryCode;
-@property(retain) HMDAccessoryNetworkCredential *networkCredential; // @synthesize networkCredential=_networkCredential;
-@property _Bool requiresUserConsent; // @synthesize requiresUserConsent=_requiresUserConsent;
 @property(copy) NSString *setupCode; // @synthesize setupCode=_setupCode;
-@property(copy) CDUnknownBlockType setupCodeProvider; // @synthesize setupCodeProvider=_setupCodeProvider;
 
 @end
 

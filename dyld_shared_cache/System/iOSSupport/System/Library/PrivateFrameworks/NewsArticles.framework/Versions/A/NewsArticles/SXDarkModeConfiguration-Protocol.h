@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @protocol SXDarkModeConfiguration
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAutoDarkModeEnabled) _Bool autoDarkModeEnabled;
-@property(readonly, copy, nonatomic) NSDictionary *colors;
-@property(readonly, nonatomic) unsigned long long inversionBehavior;
-@property(readonly, nonatomic) double saturationThreshold;
 @end
 

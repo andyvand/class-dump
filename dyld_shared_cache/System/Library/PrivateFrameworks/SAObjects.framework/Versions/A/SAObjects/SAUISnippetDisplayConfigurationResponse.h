@@ -6,15 +6,13 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSString, SAUISize;
-
 @interface SAUISnippetDisplayConfigurationResponse : SABaseCommand
 {
 }
 
 - (id);
 - (id);
-- (void);
+- (void)_;
 - (void);
 - (void);
 - (void);
@@ -25,40 +23,21 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)X;
+- (id)*J;
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool accessibilityDifferentiateWithoutColor;
-@property(nonatomic) _Bool accessibilityInvertColors;
-@property(nonatomic) _Bool accessibilityReduceMotion;
-@property(nonatomic) _Bool accessibilityReduceTransparency;
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *displayColorScheme;
-@property(copy, nonatomic) NSString *displayContrast;
-@property(copy, nonatomic) NSString *displayGamut;
-@property(copy, nonatomic) NSString *dynamicTypeSize;
-@property(retain, nonatomic) SAUISize *estimatedVisibleSnippetDisplaySize;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *textDirection;
-@property(copy, nonatomic) NSString *textLegibilityWeight;
 
 @end
 

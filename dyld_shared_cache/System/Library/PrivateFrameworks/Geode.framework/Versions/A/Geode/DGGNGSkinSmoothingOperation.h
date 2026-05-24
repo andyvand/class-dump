@@ -11,8 +11,6 @@
 @interface DGGNGSkinSmoothingOperation : DGOperation
 {
     NSNumber *_inputRadius;
-    NSNumber *_inputEdgeDetail;
-    NSNumber *_inputIntensity;
 }
 
 + (id);
@@ -39,8 +37,6 @@
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputEdgeDetail; // @synthesize inputEdgeDetail=_inputEdgeDetail;
-@property(copy, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity=_inputIntensity;
 @property(copy, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius=_inputRadius;
 
 @end

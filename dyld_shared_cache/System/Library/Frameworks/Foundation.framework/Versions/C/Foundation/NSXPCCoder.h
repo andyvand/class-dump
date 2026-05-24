@@ -6,7 +6,6 @@
 
 #import <Foundation/NSCoder.h>
 
-@class NSXPCConnection;
 @protocol NSObject;
 
 @interface NSXPCCoder : NSCoder
@@ -19,7 +18,6 @@
 + (id);
 
 // Remaining properties
-@property(readonly) NSXPCConnection *connection;
 @property(retain) id <NSObject> userInfo; // @synthesize userInfo=_userInfo;
 
 @end

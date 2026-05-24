@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBConnectedCall;
-
 @interface _INPBStartCallIntentResponse
 {
     struct {
         unsigned int confirmationReason:1;
         unsigned int shouldDoEmergencyCountdown:1;
     } _has;
-    _Bool _shouldDoEmergencyCountdown;
-    int _confirmationReason;
-    NSArray *_restrictedContacts;
-    _INPBConnectedCall *_startedCall;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)c;
 - (id);
 - (_Bool);
 - (void);
@@ -41,30 +35,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)ESSAGE;
+- (id);
+- (void)OUTGOING_MESSAGE;
 
 // Remaining properties
 @property(nonatomic) int confirmationReason; // @synthesize confirmationReason=_confirmationReason;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasConfirmationReason;
-@property(nonatomic) _Bool hasShouldDoEmergencyCountdown;
-@property(readonly, nonatomic) _Bool hasStartedCall;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *restrictedContacts; // @synthesize restrictedContacts=_restrictedContacts;
-@property(readonly, nonatomic) unsigned long long restrictedContactsCount;
-@property(nonatomic) _Bool shouldDoEmergencyCountdown; // @synthesize shouldDoEmergencyCountdown=_shouldDoEmergencyCountdown;
-@property(retain, nonatomic) _INPBConnectedCall *startedCall; // @synthesize startedCall=_startedCall;
-@property(readonly) Class superclass;
 
 @end
 

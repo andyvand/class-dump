@@ -4,45 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString, PKProtobufCustomPrecisionAmount, PKProtobufNSDecimalNumber;
-
 @interface PKProtobufPaymentInstrument
 {
     double _ingestedDate;
-    long long _peerPaymentAccountBalance;
-    unsigned int _associatedAccountFeatureIdentifier;
-    NSMutableArray *_associatedWebDomains;
-    NSString *_cobrandName;
-    PKProtobufCustomPrecisionAmount *_customPrecisionPeerPaymentAccountBalance;
-    PKProtobufNSDecimalNumber *_decimalAccountBalance;
-    NSString *_displayName;
-    NSString *_issuerCountryCode;
-    NSData *_manifestHash;
-    NSString *_organizationName;
-    NSString *_passID;
-    NSMutableArray *_paymentApplications;
-    NSString *_peerPaymentAccountCurrency;
-    unsigned int _peerPaymentAccountState;
-    NSString *_primaryAccountIdentifier;
-    NSString *_primaryAccountNumberSuffix;
-    _Bool _cobranded;
-    _Bool _hasAssociatedPeerPaymentAccount;
-    _Bool _supportsAutomaticSelection;
-    struct {
-        unsigned int ingestedDate:1;
-        unsigned int peerPaymentAccountBalance:1;
-        unsigned int associatedAccountFeatureIdentifier:1;
-        unsigned int peerPaymentAccountState:1;
-        unsigned int cobranded:1;
-        unsigned int hasAssociatedPeerPaymentAccount:1;
-        unsigned int supportsAutomaticSelection:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
 - (_Bool);
 - (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -54,13 +25,12 @@
 - (void);
 - (void);
 - (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)TiM;
 - (void);
 - (void);
 - (void);
@@ -88,7 +58,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -103,12 +73,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)?=;
 - (id);
 - (_Bool);
 - (void);
@@ -117,53 +87,17 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)NumConfigured"b1"cellMaxUlCaNumConfigured"b1"cellNrEstimatedThroughput"b1"cellNrFR2active"b1"cellNrRSRP"b1"cellNrRSRQ"b1"cellNrSNR"b1"cellNsaEnabled"b1"cellRrcState"b1"cellTotalMimoLayers"b1"cellUlBw"b1"cellularRecommendationConfidence"b1"cellularRecommendationScore"b1"locationDBFR1Count"b1"locationDBFR2Count"b1"radioCoverage"b1"radioFrequency"b1"recommendedlink"b1"totalNrBandwidth"b1"triggerReason"b1"wRMRecommendationReason"b1"wiFiPredictedThroughput"b1"wiFiThroughput"b1"wifPoi"b1"wifiCca"b1"wifiEstThoughtput"b1"wifiQbssLoad"b1"wifiRecommendationConfidence"b1"wifiRecommendationScore"b1"wifiRssi"b1"wifiRxRetry"b1"wifiSnr"b1"wifiStationCount"b1"wifiTxPER"b1"wifiWghtAVGRXPHYRATE"b1"wifiWghtAVGSNR"b1"wifiWghtAVGTXPHYRATE"b1"wifiWgtAVGRSSI"b1"wifiWifiEstThoughtputConfidence"b1"fr2DBRecommendation"b1"highThermalTemperatureNotification"b1};
 - (void);
 - (id);
-- (id);
-- (_Bool)Credential:versionType:version:completion: /* Error: Ran out of types for this method. */;
-- (void)ROR_SUPPORTED_FEATURE_FORBIDDEN_ERROR_MESSAGE;
+- (id)hhx
+;
+- (_Bool)revertUpgradeForKeyWithCredential:versionType:version:completion: /* Error: Ran out of types for this method. */;
+- (void)ACCOUNT_SERVICE_ERROR_SUPPORTED_FEATURE_FORBIDDEN_ERROR_MESSAGE;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int associatedAccountFeatureIdentifier; // @synthesize associatedAccountFeatureIdentifier=_associatedAccountFeatureIdentifier;
-@property(retain, nonatomic) NSMutableArray *associatedWebDomains; // @synthesize associatedWebDomains=_associatedWebDomains;
-@property(retain, nonatomic) NSString *cobrandName; // @synthesize cobrandName=_cobrandName;
-@property(nonatomic) _Bool cobranded; // @synthesize cobranded=_cobranded;
-@property(retain, nonatomic) PKProtobufCustomPrecisionAmount *customPrecisionPeerPaymentAccountBalance; // @synthesize customPrecisionPeerPaymentAccountBalance=_customPrecisionPeerPaymentAccountBalance;
-@property(retain, nonatomic) PKProtobufNSDecimalNumber *decimalAccountBalance; // @synthesize decimalAccountBalance=_decimalAccountBalance;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool hasAssociatedAccountFeatureIdentifier;
-@property(nonatomic) _Bool hasAssociatedPeerPaymentAccount; // @synthesize hasAssociatedPeerPaymentAccount=_hasAssociatedPeerPaymentAccount;
-@property(readonly, nonatomic) _Bool hasCobrandName;
-@property(nonatomic) _Bool hasCobranded;
-@property(readonly, nonatomic) _Bool hasCustomPrecisionPeerPaymentAccountBalance;
-@property(readonly, nonatomic) _Bool hasDecimalAccountBalance;
 @property(readonly, nonatomic) _Bool hasDisplayName;
-@property(nonatomic) _Bool hasHasAssociatedPeerPaymentAccount;
-@property(nonatomic) _Bool hasIngestedDate;
-@property(readonly, nonatomic) _Bool hasIssuerCountryCode;
-@property(readonly, nonatomic) _Bool hasManifestHash;
-@property(readonly, nonatomic) _Bool hasOrganizationName;
-@property(readonly, nonatomic) _Bool hasPassID;
-@property(nonatomic) _Bool hasPeerPaymentAccountBalance;
-@property(readonly, nonatomic) _Bool hasPeerPaymentAccountCurrency;
-@property(nonatomic) _Bool hasPeerPaymentAccountState;
-@property(readonly, nonatomic) _Bool hasPrimaryAccountIdentifier;
-@property(readonly, nonatomic) _Bool hasPrimaryAccountNumberSuffix;
-@property(nonatomic) _Bool hasSupportsAutomaticSelection;
-@property(nonatomic) double ingestedDate; // @synthesize ingestedDate=_ingestedDate;
-@property(retain, nonatomic) NSString *issuerCountryCode; // @synthesize issuerCountryCode=_issuerCountryCode;
-@property(retain, nonatomic) NSData *manifestHash; // @synthesize manifestHash=_manifestHash;
-@property(retain, nonatomic) NSString *organizationName; // @synthesize organizationName=_organizationName;
-@property(retain, nonatomic) NSString *passID; // @synthesize passID=_passID;
-@property(retain, nonatomic) NSMutableArray *paymentApplications; // @synthesize paymentApplications=_paymentApplications;
-@property(nonatomic) long long peerPaymentAccountBalance; // @synthesize peerPaymentAccountBalance=_peerPaymentAccountBalance;
-@property(retain, nonatomic) NSString *peerPaymentAccountCurrency; // @synthesize peerPaymentAccountCurrency=_peerPaymentAccountCurrency;
-@property(nonatomic) unsigned int peerPaymentAccountState; // @synthesize peerPaymentAccountState=_peerPaymentAccountState;
-@property(retain, nonatomic) NSString *primaryAccountIdentifier; // @synthesize primaryAccountIdentifier=_primaryAccountIdentifier;
-@property(retain, nonatomic) NSString *primaryAccountNumberSuffix; // @synthesize primaryAccountNumberSuffix=_primaryAccountNumberSuffix;
-@property(nonatomic) _Bool supportsAutomaticSelection; // @synthesize supportsAutomaticSelection=_supportsAutomaticSelection;
 
 @end
 

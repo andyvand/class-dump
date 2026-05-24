@@ -9,26 +9,28 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (_Bool);
+- (void)h8);
 - (void)× ;
 - (void)× ;
 - (void)Ô ;
 - (id)ler>>=""{?="__ptr_"^{WebSelectionServiceController}}};
 - (void)}16@0:(NSNotification *)arg1 8;
-- (void)nkDetection:(NSNotification *)arg1;
-- (NSArray *)h:(NSWindow *)arg1;
-- (void)izerDidCancelAnimation:(NSNotification *)arg1;
-- (void)amp:(NSNotification *)arg1 latitude:longitude:accuracy: /* Error: Ran out of types for this method. */;
-- (void)Pictographs:(NSNotification *)arg1;
-- (void)Closed;
-- (void)rder:(NSNotification *)arg1;
+- (void)toggleAutomaticLinkDetection:(NSNotification *)arg1;
+- (NSArray *)setMaxWidth:(NSWindow *)arg1;
+- (void)recognizerDidCancelAnimation:(NSNotification *)arg1;
+- (void)initWithTimestamp:(NSNotification *)arg1 latitude:longitude:accuracy: /* Error: Ran out of types for this method. */;
+- (void)_setFontFallbackPrefersPictographs:(NSNotification *)arg1;
+- (void)_isClosed;
+- (void)setFrameBorder:(NSNotification *)arg1;
 - (void)ËàËLÌÈÌ4ÍdÍÍÍ	xÎ¼ÎìÐÐÑ;
 - (unsigned long long)t() API;
-- (void)bled;
+- (void)WebKitFacebookLiveRecordingQuirkEnabled;
 - (void)signed long long>, WTF:(NSNotification *)arg1:KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::TextCheckingRequest>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::TextCheckingRequest>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::TextCheckingRequest>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::TextCheckingRequest>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::TextCheckingRequest>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::TextCheckingRequest>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::TextCheckingRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)ThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF:(NSNotification *)arg1:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (struct CGRect)bCore:(NSWindow *)arg1:(NSWindow *)arg2 Element, PtrTraits = WTF:(struct CGRect)arg3:RawPtrTraits<WebCore::Element>] /* Error: Ran out of types for this method. */;
 - (void)p<int, unsigned long>:(NSNotification *)arg1:KeyValuePairTraits, WTF::HashTraits<int>>::validateKey(const ValueType &) [Key = int, Value = WTF::KeyValuePair<int, unsigned long>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<int, unsigned long>>, HashFunctions = WTF::DefaultHash<int>, Traits = WTF::HashMap<int, unsigned long>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<int>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (void);
 - (void)Ø;
 - (struct CGSize)ô;
 @end

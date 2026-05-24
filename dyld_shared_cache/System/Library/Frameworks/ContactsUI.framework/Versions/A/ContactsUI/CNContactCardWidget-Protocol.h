@@ -5,5 +5,10 @@
 //
 
 @protocol CNContactCardWidget
+- (double);
+- (void);
+
+@optional
+- (void);
 @end
 

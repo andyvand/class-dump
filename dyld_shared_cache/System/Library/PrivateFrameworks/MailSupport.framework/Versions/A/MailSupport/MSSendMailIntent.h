@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface MSSendMailIntent
 {
@@ -15,27 +15,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attachments; // @dynamic attachments;
-@property(copy, nonatomic) NSArray *bcc; // @dynamic bcc;
-@property(copy, nonatomic) NSString *body; // @dynamic body;
-@property(copy, nonatomic) NSArray *cc; // @dynamic cc;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *isDraft; // @dynamic isDraft;
 @property(copy, nonatomic) NSString *sender; // @dynamic sender;
-@property(copy, nonatomic) NSString *subject; // @dynamic subject;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *to; // @dynamic to;
-@property(copy, nonatomic) NSString *userTypedContent; // @dynamic userTypedContent;
 
 @end
 

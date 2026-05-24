@@ -13,8 +13,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)ngPasscodeAssertion;
+- (id);
+- (id)ProvisioningStrongPasscodeAssertion;
 
 @end
 

@@ -6,19 +6,11 @@
 
 #import <MapKit/_MKStackView.h>
 
-@class MKPlaceSectionItemView, MKViewWithHairline, NSArray;
 @protocol MKPlaceSectionViewDelegate;
 
 @interface MKPlaceSectionView : _MKStackView
 {
     unsigned long long _trackingSelectForRow;
-    MKViewWithHairline *_hairLineView;
-    _Bool _highlightsTouches;
-    _Bool _showsBottomHairline;
-    id <MKPlaceSectionViewDelegate> _delegate;
-    MKPlaceSectionItemView *_headerView;
-    NSArray *_rowViews;
-    MKPlaceSectionItemView *_footerView;
 }
 
 - (_Bool);
@@ -28,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -45,22 +37,17 @@
 - (void);
 - (void);
 - (id);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void)currentIDStatusForDestination:(id)arg1 service:(id)arg2 listenerID:queue:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void)ectionAtIndex:sectionIndex: /* Error: Ran out of types for this method. */;
+- (void)compactCollectionAtIndex:sectionIndex: /* Error: Ran out of types for this method. */;
 - (void)xclude all categories - This request cannot fetch any POIs;
 - (id)~	;
 
 // Remaining properties
 @property(nonatomic) __weak id <MKPlaceSectionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) MKPlaceSectionItemView *footerView; // @synthesize footerView=_footerView;
-@property(retain, nonatomic) MKPlaceSectionItemView *headerView; // @synthesize headerView=_headerView;
-@property(nonatomic) _Bool highlightsTouches; // @synthesize highlightsTouches=_highlightsTouches;
-@property(copy, nonatomic) NSArray *rowViews; // @synthesize rowViews=_rowViews;
-@property(nonatomic) _Bool showsBottomHairline; // @synthesize showsBottomHairline=_showsBottomHairline;
 
 @end
 

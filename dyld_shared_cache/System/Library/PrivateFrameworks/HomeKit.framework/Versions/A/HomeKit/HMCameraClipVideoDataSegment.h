@@ -9,7 +9,6 @@
 @interface HMCameraClipVideoDataSegment : HMCameraClipVideoSegment
 {
     double _duration;
-    double _timeOffset;
 }
 
 + (_Bool);
@@ -17,15 +16,14 @@
 - (id);
 - (double);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)luckiness;
 - (void);
 - (id);
-- (double);
+- (double)SpaceShowPrevious;
 - (id);
 
 // Remaining properties
 @property(readonly) double duration; // @synthesize duration=_duration;
-@property(readonly) double timeOffset; // @synthesize timeOffset=_timeOffset;
 
 @end
 

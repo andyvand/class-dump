@@ -11,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
@@ -23,24 +23,6 @@ struct CGRect {
 struct CGSize {
     double _field1;
     double _field2;
-};
-
-struct animation_completion_handler_container;
-
-struct vector<CAShapeLayer *, std::allocator<CAShapeLayer *>> {
-    id *__begin_;
-    id *__end_;
-    struct {
-        id *__cap_;
-    } ;
-};
-
-struct vector<LAUI_CA_utilities::animation_completion_handler_container, std::allocator<LAUI_CA_utilities::animation_completion_handler_container>> {
-    struct animation_completion_handler_container *__begin_;
-    struct animation_completion_handler_container *__end_;
-    struct {
-        struct animation_completion_handler_container *__cap_;
-    } ;
 };
 
 #pragma mark Typedef'd Structures

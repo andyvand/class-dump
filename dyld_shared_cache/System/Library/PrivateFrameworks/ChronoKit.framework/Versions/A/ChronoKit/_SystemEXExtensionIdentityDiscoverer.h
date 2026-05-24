@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _SystemEXExtensionIdentityDiscoverer
 {
     id _publisher;
-    id queryController;
 }
 
 - (void);

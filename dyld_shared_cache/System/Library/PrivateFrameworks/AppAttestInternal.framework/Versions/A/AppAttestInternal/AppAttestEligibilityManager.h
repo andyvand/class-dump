@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface AppAttestEligibilityManager
 {
     NSArray *_allowlistedDaemons;
-    NSArray *_allowlistedFirstPartyExtensions;
-    NSArray *_allowlistedThirdPartyExtensions;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -35,8 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allowlistedDaemons; // @synthesize allowlistedDaemons=_allowlistedDaemons;
-@property(retain, nonatomic) NSArray *allowlistedFirstPartyExtensions; // @synthesize allowlistedFirstPartyExtensions=_allowlistedFirstPartyExtensions;
-@property(retain, nonatomic) NSArray *allowlistedThirdPartyExtensions; // @synthesize allowlistedThirdPartyExtensions=_allowlistedThirdPartyExtensions;
 
 @end
 

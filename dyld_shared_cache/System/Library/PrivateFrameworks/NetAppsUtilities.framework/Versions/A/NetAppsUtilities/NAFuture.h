@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableArray, NSString;
-@protocol NAScheduler;
-
 @interface NAFuture
 {
     struct os_unfair_lock_s _lock;
-    _Bool _finished;
-    id <NAScheduler> _completionScheduler;
-    NSMutableArray *_completionBlocks;
-    id _resultValue;
-    NSError *_resultError;
-    NSString *_descriptor;
 }
 
 @end

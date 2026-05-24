@@ -11,15 +11,13 @@
 @interface _UIFontTextStyleCacheKey : _UIFontCacheKey
 {
     _Bool _textLegibility;
-    NSString *_textStyle;
-    NSString *_contentSizeCategory;
 }
 
 - (void);
-- (void);
+- (void){;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)hall-effect-sensor;
 - (id);
 - (void);
 - (void);
@@ -28,8 +26,6 @@
 - (unsigned long long)Àè;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *contentSizeCategory; // @synthesize contentSizeCategory=_contentSizeCategory;
-@property(nonatomic) _Bool textLegibility; // @synthesize textLegibility=_textLegibility;
 @property(copy, nonatomic) NSString *textStyle; // @synthesize textStyle=_textStyle;
 
 @end

@@ -7,12 +7,10 @@
 @class NSDate;
 
 @protocol MMCSOperationStateTimeRange
+- (NSDate *)P;
+- (long long)os_legacy;
 
 // Remaining properties
-@property(readonly) double absoluteStart;
-@property(readonly) double absoluteStop;
-@property(readonly) double duration;
 @property(readonly) unsigned long long operationState;
-@property(readonly) NSDate *startDate;
 @end
 

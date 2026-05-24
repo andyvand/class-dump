@@ -7,6 +7,7 @@
 @protocol NSObject;
 
 @protocol PLXPCCoder
+- (void);
 
 // Remaining properties
 @property(retain) id <NSObject> userInfo;

@@ -7,17 +7,15 @@
 @interface MRProtocolMessageOptions
 {
     _Bool _waking;
-    long long _priority;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (long long)geNotification;
+- (long long)_kMRMediaRemotePlayerPlaybackStateDidChangeNotification;
 
 // Remaining properties
 @property(nonatomic) long long priority; // @synthesize priority=_priority;
-@property(nonatomic, getter=isWaking) _Bool waking; // @synthesize waking=_waking;
 
 @end
 

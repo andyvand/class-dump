@@ -6,30 +6,26 @@
 
 #import <FamilyCircle/FAFamilyCircleRequest.h>
 
-@class ACAccount, UIViewController;
+@class UIViewController;
 
 @interface FAFamilySettings : FAFamilyCircleRequest
 {
     _Bool _isFirstRun;
-    UIViewController *_presentingViewController;
-    ACAccount *_iTunesAccount;
 }
 
+- (void)DisambiguationList;
+- (void)languageDetected;
+- (void)confidenceScoresByLanguage;
+- (_Bool)ClientFlowUpdateScriptsCommand;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)LATIN1;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) ACAccount *iTunesAccount; // @synthesize iTunesAccount=_iTunesAccount;
-@property _Bool isFirstRun; // @synthesize isFirstRun=_isFirstRun;
 @property UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
 
 @end

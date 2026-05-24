@@ -4,7 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MPIdentifierSet, NSIndexPath;
+
 @protocol MPLazySectionedCollectionDataSource
-- (unsigned long long)mFallback;
+- (unsigned long long)ctory.MoIAiI/Sources/libressl/libressl-2.2/ssl/s23_srvr.c;
+- (unsigned long long)becomeActiveSystemFallback;
+
+@optional
+- (NSIndexPath *);
+- (MPIdentifierSet *);
+- (struct _NSRange)objectDomconstraint;
 @end
 

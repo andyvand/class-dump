@@ -7,44 +7,32 @@
 @interface AWDCoreRoutineLearnedLocationReconciliationVisitDensity
 {
     unsigned long long _timestamp;
-    int _countDeviceLost;
-    int _totalBranchCount;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int countDeviceLost:1;
-        unsigned int totalBranchCount:1;
-    } _has;
 }
 
-- (int);
+- (int)K;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@9;
 - (_Bool);
 - (_Bool);
 - (int);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void));
+- (void);
 - (void);
 - (id);
-- (id);
+- (id)l*;
 
 // Remaining properties
-@property(nonatomic) int countDeviceLost; // @synthesize countDeviceLost=_countDeviceLost;
-@property(nonatomic) _Bool hasCountDeviceLost;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTotalBranchCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int totalBranchCount; // @synthesize totalBranchCount=_totalBranchCount;
 
 @end
 

@@ -4,42 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSDate, NSDictionary, NSLock, NSMutableDictionary, NSNumber, NSString, NSURL, PKDistribution, PKDistributionChoice, SUMajorProduct;
+@class NSNumber, NSString;
 
 @interface SUProduct
 {
     NSString *_productKey;
-    PKDistribution *_distribution;
-    NSDictionary *_extraInfo;
-    NSDictionary *_packageInfoForPackagePathString;
-    NSDictionary *_packageIntegrityInformationForPackagePathURL;
-    NSDate *_postDate;
-    _Bool _majorOSUpdate;
-    SUMajorProduct *_majorProduct;
-    unsigned long long _downloadSize;
-    unsigned long long _installSize;
-    NSString *_baseDisplayName;
-    NSString *_displayVersion;
-    NSAttributedString *_longDescription;
-    NSAttributedString *_license;
-    NSAttributedString *_readme;
-    int _restartAction;
-    NSArray *_orderedPackageSpecifiersToInstallWithoutPatchFiltering;
-    NSArray *_orderedMajorOSInfoPackageSpecifiersToInstall;
-    _Bool _startsSelected;
-    NSArray *_extraPackageSpecifiersToInstall;
-    NSMutableDictionary *_extraPackageIdentifiersToVersions;
-    NSURL *_bridgeOSSoftwareUpdateEventRecordingServiceURL;
-    NSURL *_originatingCatalogURL;
-    NSMutableDictionary *_packageReferenceForPackageIdentifier;
-    PKDistributionChoice *_swuChoice;
-    NSDictionary *_distributionEnv;
-    NSLock *_distributionLock;
-    _Bool _autoUpdateEligible;
-    NSDictionary *_distributionEvaluationMetainfo;
-    NSNumber *_downloadSizeOnce;
-    NSNumber *_installSizeOnce;
-    NSNumber *_swuChoiceOnce;
 }
 
 + (void);
@@ -51,20 +20,20 @@
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (void)[;
 - (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (int);
+- (int)@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -75,49 +44,49 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
+- (_Bool);
+- (id));
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (long long);
+- (long long)%2;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (_Bool);
+- (id)ʬ;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -142,30 +111,23 @@
 - (_Bool);
 - (id);
 - (void);
+- (id)%@;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)RTDefaultsMapItemProviderBluePOIPoiConfidencePassThroughThreshold;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)5;
 - (id);
 - (unsigned long long)eUpdateController:-installUpdatesAfterNextLogout... called with no restart or shutdown updates /* Error: Ran out of types for this method. */;
 - (id)passed for object must be property list serializable.;
 
 // Remaining properties
-@property(readonly, getter=isAutoUpdateEligible) _Bool autoUpdateEligible; // @synthesize autoUpdateEligible=_autoUpdateEligible;
-@property(retain) NSDictionary *distributionEvaluationMetainfo; // @synthesize distributionEvaluationMetainfo=_distributionEvaluationMetainfo;
 @property(retain) NSNumber *downloadSizeOnce; // @synthesize downloadSizeOnce=_downloadSizeOnce;
-@property(retain) NSNumber *installSizeOnce; // @synthesize installSizeOnce=_installSizeOnce;
-@property(readonly, retain) NSAttributedString *license; // @synthesize license=_license;
-@property(readonly, retain) NSAttributedString *longDescription; // @synthesize longDescription=_longDescription;
-@property(readonly, retain) NSAttributedString *readme; // @synthesize readme=_readme;
-@property(retain) NSNumber *swuChoiceOnce; // @synthesize swuChoiceOnce=_swuChoiceOnce;
 
 @end
 

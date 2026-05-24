@@ -10,12 +10,12 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)works/LegacyHandle.framework/Versions/A/LegacyHandle;
++ (id)System/Library/PrivateFrameworks/AVConference.framework/Frameworks/LegacyHandle.framework/Versions/A/LegacyHandle;
++ (id)AVFoundation;
++ (id)5H;
 - (id);
-- (_Bool);
+- (_Bool)speak:(id)arg1 %@ %f;
 
 @end
 

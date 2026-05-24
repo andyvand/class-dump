@@ -11,13 +11,6 @@
 @interface BMSiriExecutionEvent : BMEventBase
 {
     NSString *_taskId;
-    unsigned long long _taskStep;
-    NSString *_statusReason;
-    NSString *_slotValue;
-    NSString *_intentName;
-    NSString *_appBundleId;
-    NSString *_interactionId;
-    double _absoluteTimestamp;
 }
 
 + (id);
@@ -31,34 +24,19 @@
 - (id);
 - (id);
 - (id);
-- (unsigned int);
-- (id);
+- (unsigned int);
+- (id);
 - (id);
 - (double);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (id)k;
+- (id)pg_query__deallocate_stmt__pack;
 - (void)|;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, copy, nonatomic) NSString *appBundleId; // @synthesize appBundleId=_appBundleId;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *intentName; // @synthesize intentName=_intentName;
-@property(readonly, copy, nonatomic) NSString *interactionId; // @synthesize interactionId=_interactionId;
-@property(readonly, copy, nonatomic) NSString *slotValue; // @synthesize slotValue=_slotValue;
-@property(readonly, copy, nonatomic) NSString *statusReason; // @synthesize statusReason=_statusReason;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSString *taskId; // @synthesize taskId=_taskId;
-@property(readonly, nonatomic) unsigned long long taskStep; // @synthesize taskStep=_taskStep;
 
 @end
 

@@ -4,29 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface long_durationInput
 {
     double _classic_time_between_uses_med_dur_1;
-    double _classic_time_between_uses_med_dur_2;
-    double _classic_time_between_uses_med_dur_4;
-    double _classic_time_between_uses_med_dur_24;
-    double _classic_time_between_uses_std_dur_1;
-    double _classic_time_between_uses_std_dur_2;
-    double _classic_time_between_uses_std_dur_4;
-    double _classic_time_between_uses_std_dur_24;
-    double _hour;
-    double _is_weekend;
-    double _hour_plus_0;
-    double _hour_plus_1;
-    double _hour_plus_2;
-    double _hour_plus_3;
-    double _hour_plus_4;
-    double _hour_plus_5;
-    double _hours_until_use;
-    double _meaningful_undercharge_rolling_average;
 }
 
 - (void);
@@ -40,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)4;
 - (double);
 - (id);
 - (double);
@@ -55,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double);
+- (double)C;
 - (double);
 - (void);
 - (void);
@@ -66,29 +47,11 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
-- (id)ain_depth_p_1_00_at_charge_start_soc_curr_dynamic_bin_8;
+- (id)_drain_depth_p_1_00_at_charge_start_soc_curr_dynamic_bin_8;
 - (double)ode:isDemoDevice set to %d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double classic_time_between_uses_med_dur_1; // @synthesize classic_time_between_uses_med_dur_1=_classic_time_between_uses_med_dur_1;
-@property(nonatomic) double classic_time_between_uses_med_dur_2; // @synthesize classic_time_between_uses_med_dur_2=_classic_time_between_uses_med_dur_2;
-@property(nonatomic) double classic_time_between_uses_med_dur_24; // @synthesize classic_time_between_uses_med_dur_24=_classic_time_between_uses_med_dur_24;
-@property(nonatomic) double classic_time_between_uses_med_dur_4; // @synthesize classic_time_between_uses_med_dur_4=_classic_time_between_uses_med_dur_4;
-@property(nonatomic) double classic_time_between_uses_std_dur_1; // @synthesize classic_time_between_uses_std_dur_1=_classic_time_between_uses_std_dur_1;
-@property(nonatomic) double classic_time_between_uses_std_dur_2; // @synthesize classic_time_between_uses_std_dur_2=_classic_time_between_uses_std_dur_2;
-@property(nonatomic) double classic_time_between_uses_std_dur_24; // @synthesize classic_time_between_uses_std_dur_24=_classic_time_between_uses_std_dur_24;
-@property(nonatomic) double classic_time_between_uses_std_dur_4; // @synthesize classic_time_between_uses_std_dur_4=_classic_time_between_uses_std_dur_4;
-@property(readonly, nonatomic) NSSet *featureNames;
-@property(nonatomic) double hour; // @synthesize hour=_hour;
-@property(nonatomic) double hour_plus_0; // @synthesize hour_plus_0=_hour_plus_0;
-@property(nonatomic) double hour_plus_1; // @synthesize hour_plus_1=_hour_plus_1;
-@property(nonatomic) double hour_plus_2; // @synthesize hour_plus_2=_hour_plus_2;
-@property(nonatomic) double hour_plus_3; // @synthesize hour_plus_3=_hour_plus_3;
-@property(nonatomic) double hour_plus_4; // @synthesize hour_plus_4=_hour_plus_4;
-@property(nonatomic) double hour_plus_5; // @synthesize hour_plus_5=_hour_plus_5;
-@property(nonatomic) double hours_until_use; // @synthesize hours_until_use=_hours_until_use;
-@property(nonatomic) double is_weekend; // @synthesize is_weekend=_is_weekend;
-@property(nonatomic) double meaningful_undercharge_rolling_average; // @synthesize meaningful_undercharge_rolling_average=_meaningful_undercharge_rolling_average;
 
 @end
 

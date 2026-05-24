@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface NSLayoutManagerTextBlockRowArrayCache
 {
     struct _NSRange _rowCharRange;
-    double _containerWidth;
-    NSArray *_rowArray;
-    _Bool _collapseBorders;
 }
 
 - (id);

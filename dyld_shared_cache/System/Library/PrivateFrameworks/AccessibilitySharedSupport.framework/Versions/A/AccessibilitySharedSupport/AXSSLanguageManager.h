@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXSSDialectMap, NSArray, NSCharacterSet, NSLocale, NSString;
+@class AXSSDialectMap, NSArray;
 
 @interface AXSSLanguageManager
 {
     AXSSDialectMap *_dialectForSystemLanguage;
-    AXSSDialectMap *_dialectForCurrentLocale;
-    AXSSDialectMap *_dialectForCurrentRegion;
-    NSArray *_languageMaps;
-    NSLocale *_userLocale;
-    NSCharacterSet *_commonCharacters;
-    NSCharacterSet *_commonGreekCharacters;
-    NSCharacterSet *_ignoredCharacters;
 }
 
 + (id);
@@ -29,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)k`;
 - (void);
 - (void);
 - (id);
@@ -46,26 +39,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)C|;
+- (id)B;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSCharacterSet *commonCharacters; // @synthesize commonCharacters=_commonCharacters;
-@property(retain, nonatomic) NSCharacterSet *commonGreekCharacters; // @synthesize commonGreekCharacters=_commonGreekCharacters;
-@property(retain, nonatomic) AXSSDialectMap *dialectForCurrentLocale; // @synthesize dialectForCurrentLocale=_dialectForCurrentLocale;
-@property(retain, nonatomic) AXSSDialectMap *dialectForCurrentRegion; // @synthesize dialectForCurrentRegion=_dialectForCurrentRegion;
-@property(retain, nonatomic) AXSSDialectMap *dialectForSystemLanguage; // @synthesize dialectForSystemLanguage=_dialectForSystemLanguage;
-@property(readonly, nonatomic) AXSSDialectMap *dialectForUserLocale;
-@property(retain, nonatomic) NSCharacterSet *ignoredCharacters; // @synthesize ignoredCharacters=_ignoredCharacters;
 @property(retain, nonatomic) NSArray *languageMaps; // @synthesize languageMaps=_languageMaps;
-@property(readonly, nonatomic) NSString *systemLanguageID;
-@property(copy, nonatomic) NSLocale *userLocale; // @synthesize userLocale=_userLocale;
 
 @end
 

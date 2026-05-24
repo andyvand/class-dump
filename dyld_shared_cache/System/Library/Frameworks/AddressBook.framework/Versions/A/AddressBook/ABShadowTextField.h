@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPhoneFormatter, NSArray, NSColor;
+@class ABPhoneFormatter;
 
 @interface ABShadowTextField
 {
     ABPhoneFormatter *_phoneFormatter;
-    NSArray *_highlightStrings;
-    NSColor *_deselctedPlaceholderTextColor;
-    _Bool _allowsMultipleLines;
-    _Bool _drawsShadow;
-    _Bool _isDraggingOperationActive;
-    _Bool _shouldSelectAllOnFirstResponder;
-    _Bool _needsCardViewBorderDrawing;
 }
 
 + (Class);
@@ -25,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -37,7 +30,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -54,13 +47,7 @@
 - (void)ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsMultipleLines; // @synthesize allowsMultipleLines=_allowsMultipleLines;
-@property(nonatomic) _Bool displaysAlternatePlaceholder;
-@property(nonatomic) _Bool drawsShadow; // @synthesize drawsShadow=_drawsShadow;
-@property(retain, nonatomic) NSArray *highlightStrings; // @synthesize highlightStrings=_highlightStrings;
-@property(nonatomic) _Bool needsCardViewBorderDrawing; // @synthesize needsCardViewBorderDrawing=_needsCardViewBorderDrawing;
 @property(retain, nonatomic) ABPhoneFormatter *phoneFormatter; // @synthesize phoneFormatter=_phoneFormatter;
-@property(nonatomic) _Bool selectAllOnFirstResponder; // @synthesize selectAllOnFirstResponder=_shouldSelectAllOnFirstResponder;
 
 @end
 

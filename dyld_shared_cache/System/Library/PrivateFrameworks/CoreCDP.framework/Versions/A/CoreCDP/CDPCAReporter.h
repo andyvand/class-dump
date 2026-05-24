@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface CDPCAReporter
 {
     NSString *_eventName;
-    NSMutableDictionary *_reportData;
-    unsigned long long _initTime;
-    struct mach_timebase_info _clock_timebase;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

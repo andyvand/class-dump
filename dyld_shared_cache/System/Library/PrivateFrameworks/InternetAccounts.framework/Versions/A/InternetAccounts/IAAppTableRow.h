@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IAApplication, NSButton, NSImage, NSImageView, NSProgressIndicator, NSString, NSTextField;
+@class IAApplication, NSButton;
 
 @interface IAAppTableRow
 {
     NSButton *_checkbox;
-    NSTextField *_appNameField;
-    NSTextField *_secondaryTextField;
-    NSImageView *_icon;
-    NSProgressIndicator *_spinner;
-    IAApplication *_application;
-    NSString *_serviceDisplayName;
-    NSString *_appDisplayName;
-    NSString *_secondaryText;
-    NSImage *_originalIcon;
-    id _delegate;
-    _Bool _spinOnSelection;
-    _Bool _disableControls;
-    _Bool _controlsAreDisabled;
 }
 
 + (id);
@@ -36,14 +23,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,13 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSString *appDisplayName; // @synthesize appDisplayName=_appDisplayName;
 @property(retain, nonatomic) IAApplication *application; // @synthesize application=_application;
-@property(retain) id delegate; // @synthesize delegate=_delegate;
-@property _Bool disableControls; // @synthesize disableControls=_disableControls;
-@property(retain, nonatomic) NSString *secondaryText; // @synthesize secondaryText=_secondaryText;
-@property(retain) NSString *serviceDisplayName; // @synthesize serviceDisplayName=_serviceDisplayName;
-@property _Bool spinOnSelection; // @synthesize spinOnSelection=_spinOnSelection;
 
 @end
 

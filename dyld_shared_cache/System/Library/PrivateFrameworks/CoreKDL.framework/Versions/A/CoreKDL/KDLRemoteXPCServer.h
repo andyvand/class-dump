@@ -10,18 +10,17 @@ __attribute__((visibility("hidden")))
 @interface KDLRemoteXPCServer
 {
     KDLRemoteXPCConnection *_xpcConnection;
-    KDLDaemon *_daemon;
 }
 
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id)value.;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tionProcessingPolicy",&,D,N;
 
 // Remaining properties
 @property(retain) KDLDaemon *daemon; // @synthesize daemon=_daemon;

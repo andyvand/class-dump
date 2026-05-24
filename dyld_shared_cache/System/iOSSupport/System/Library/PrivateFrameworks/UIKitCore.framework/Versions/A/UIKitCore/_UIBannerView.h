@@ -6,24 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CALayer, UIImageView, UILabel, _UIBannerContent;
+@class _UIBannerContent;
 
 __attribute__((visibility("hidden")))
 @interface _UIBannerView : UIView
 {
     _Bool _highlighted;
-    _UIBannerContent *_content;
-    CALayer *_backgroundLayer;
-    UIView *_highlightView;
-    UILabel *_titleLabel;
-    UILabel *_bodyLabel;
-    UIImageView *_imageView;
 }
 
+- (void)lastSyncDate;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)requestSetupWithClientID:capabilities:context:reply: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (id);
@@ -32,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)!lAù1b°1Â0@ù
 × ;
 - (_Bool);
-- (id)trollers;
+- (id)_allContainedViewControllers;
 - (id)ctivationManager",R,W,N,V_manager;
 - (void)%@;
 - (void);
@@ -42,13 +36,7 @@ __attribute__((visibility("hidden")))
 - (id)j;
 
 // Remaining properties
-@property(retain, nonatomic) CALayer *backgroundLayer; // @synthesize backgroundLayer=_backgroundLayer;
-@property(retain, nonatomic) UILabel *bodyLabel; // @synthesize bodyLabel=_bodyLabel;
 @property(retain, nonatomic) _UIBannerContent *content; // @synthesize content=_content;
-@property(retain, nonatomic) UIView *highlightView; // @synthesize highlightView=_highlightView;
-@property(nonatomic) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

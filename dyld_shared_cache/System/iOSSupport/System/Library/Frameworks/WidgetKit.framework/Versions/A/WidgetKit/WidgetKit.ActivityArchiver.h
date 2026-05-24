@@ -7,10 +7,6 @@
 @interface WidgetKit.ActivityArchiver
 {
     id request;
-    id result;
-    id dataSource;
-    id signposter;
-    id signpostID;
 }
 
 @end

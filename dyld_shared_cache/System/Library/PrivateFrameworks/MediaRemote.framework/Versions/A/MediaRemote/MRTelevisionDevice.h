@@ -6,32 +6,24 @@
 
 #import <MediaRemote/MRExternalDevice.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MRTelevisionDevice : MRExternalDevice
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    _Bool _hiliteMode;
-    unsigned int _gameControllerInputMode;
-    CDUnknownBlockType _gameControllerInputModeCallback;
-    NSObject<OS_dispatch_queue> *_gameControllerInputModeCallbackQueue;
-    CDUnknownBlockType _gameControllerPropertiesCallback;
-    NSObject<OS_dispatch_queue> *_gameControllerPropertiesCallbackQueue;
-    CDUnknownBlockType _recordingStateCallback;
-    NSObject<OS_dispatch_queue> *_recordingStateCallbackQueue;
-    CDUnknownBlockType _textInputCallback;
-    NSObject<OS_dispatch_queue> *_textInputCallbackQueue;
-    CDUnknownBlockType _rtiCallback;
-    NSObject<OS_dispatch_queue> *_rtiCallbackQueue;
-    CDUnknownBlockType _hiliteModeCallback;
-    NSObject<OS_dispatch_queue> *_hiliteModeCallbackQueue;
 }
 
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)R;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,17 +33,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void));
+- (void)';
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
@@ -63,7 +49,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (_Bool);
+- (_Bool)7h;
 - (void);
 - (void);
 - (id);
@@ -71,10 +57,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)`7)p7);
 - (id);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -83,27 +69,7 @@ __attribute__((visibility("hidden")))
 - (void)ocallyHosted,V_locallyHosted;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int gameControllerInputMode; // @synthesize gameControllerInputMode=_gameControllerInputMode;
 @property(copy, nonatomic) CDUnknownBlockType gameControllerInputModeCallback; // @synthesize gameControllerInputModeCallback=_gameControllerInputModeCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *gameControllerInputModeCallbackQueue; // @synthesize gameControllerInputModeCallbackQueue=_gameControllerInputModeCallbackQueue;
-@property(copy, nonatomic) CDUnknownBlockType gameControllerPropertiesCallback; // @synthesize gameControllerPropertiesCallback=_gameControllerPropertiesCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *gameControllerPropertiesCallbackQueue; // @synthesize gameControllerPropertiesCallbackQueue=_gameControllerPropertiesCallbackQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hiliteMode; // @synthesize hiliteMode=_hiliteMode;
-@property(copy, nonatomic) CDUnknownBlockType hiliteModeCallback; // @synthesize hiliteModeCallback=_hiliteModeCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *hiliteModeCallbackQueue; // @synthesize hiliteModeCallbackQueue=_hiliteModeCallbackQueue;
-@property(copy, nonatomic) CDUnknownBlockType recordingStateCallback; // @synthesize recordingStateCallback=_recordingStateCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *recordingStateCallbackQueue; // @synthesize recordingStateCallbackQueue=_recordingStateCallbackQueue;
-@property(copy, nonatomic) CDUnknownBlockType rtiCallback; // @synthesize rtiCallback=_rtiCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *rtiCallbackQueue; // @synthesize rtiCallbackQueue=_rtiCallbackQueue;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType textInputCallback; // @synthesize textInputCallback=_textInputCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *textInputCallbackQueue; // @synthesize textInputCallbackQueue=_textInputCallbackQueue;
 
 @end
 

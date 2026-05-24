@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKCandidateArrowView, IMKCandidateController, IMKCandidateGroupView, IMKCandidateSelectionView, IMKCandidateStepperView, IMKCandidateView, IMKClipView, NSTimer, NSView;
+@class IMKClipView;
 
 @interface IMKCandidateCanvas
 {
     IMKClipView *_canvasView;
-    IMKCandidateArrowView *_arrowView;
-    IMKCandidateView *_candidateView;
-    IMKCandidateGroupView *_groupView;
-    IMKCandidateSelectionView *_selectionView;
-    IMKCandidateStepperView *_stepperView;
-    IMKCandidateController *_candidateController;
-    long long _canvasTypeForWindowType;
-    struct CGSize _size;
-    NSView *_informationView;
-    NSTimer *_groupViewTimer;
-    _Bool _groupViewVisibility;
-    _Bool _currentWindowTypeIsSortable;
-    _Bool _showSortingModes;
-    unsigned long long _sortingSelectionIndex;
 }
 
 - (void);
@@ -32,14 +18,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (void)R9	;
+- (id)9h;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)6;
 - (void);
 - (void);
 - (void);
@@ -75,10 +61,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
-- (id);
+- (void)%;
+- (id)TPSendUDPDataPacket;
 - (struct CGSize);
 - (id);
 - (void);
@@ -86,22 +72,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) IMKCandidateArrowView *arrowView; // @synthesize arrowView=_arrowView;
-@property(nonatomic) IMKCandidateController *candidateController; // @synthesize candidateController=_candidateController;
-@property(retain, nonatomic) IMKCandidateView *candidateView; // @synthesize candidateView=_candidateView;
-@property(nonatomic) long long canvasTypeForWindowType; // @synthesize canvasTypeForWindowType=_canvasTypeForWindowType;
-@property(retain, nonatomic) IMKClipView *canvasView; // @synthesize canvasView=_canvasView;
-@property(readonly, nonatomic) _Bool currentWindowTypeIsSortable; // @synthesize currentWindowTypeIsSortable=_currentWindowTypeIsSortable;
-@property(retain, nonatomic) IMKCandidateGroupView *groupView; // @synthesize groupView=_groupView;
-@property(retain, nonatomic) NSTimer *groupViewTimer; // @synthesize groupViewTimer=_groupViewTimer;
-@property(nonatomic) _Bool groupViewVisibility; // @synthesize groupViewVisibility=_groupViewVisibility;
-@property(retain, nonatomic) NSView *informationView; // @synthesize informationView=_informationView;
 @property(readonly, nonatomic) _Bool layoutDirectionIsRTL;
-@property(retain, nonatomic) IMKCandidateSelectionView *selectionView; // @synthesize selectionView=_selectionView;
-@property(nonatomic) _Bool showSortingModes; // @synthesize showSortingModes=_showSortingModes;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) unsigned long long sortingSelectionIndex; // @synthesize sortingSelectionIndex=_sortingSelectionIndex;
-@property(retain, nonatomic) IMKCandidateStepperView *stepperView; // @synthesize stepperView=_stepperView;
 
 @end
 

@@ -7,6 +7,7 @@
 @class CalUIBoxOccurrenceContentView;
 
 @protocol OccurrenceView
+- (id)?;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak CalUIBoxOccurrenceContentView *parentView;

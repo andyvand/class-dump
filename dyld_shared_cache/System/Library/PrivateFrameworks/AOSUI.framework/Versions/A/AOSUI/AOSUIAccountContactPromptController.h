@@ -4,45 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAAccountContactPromptModel, AIDAAccountManager, AOSUICircularImageView, NSButton, NSStackView, NSTextField, NSView, NSWindow;
-@protocol AOSUIAccountContactPromptActionHandler;
+@class AIDAAccountManager;
 
 @interface AOSUIAccountContactPromptController
 {
     AIDAAccountManager *_accountManager;
-    AAAccountContactPromptModel *_viewModel;
-    id <AOSUIAccountContactPromptActionHandler> _actionHandler;
-    NSTextField *_titleLabel;
-    NSTextField *_contactNameLabel;
-    NSTextField *_contactEmailLabel;
-    AOSUICircularImageView *_contactProfileImageView;
-    NSButton *_doneButton;
-    NSTextField *_containerTitleLabel;
-    NSTextField *_containerDetailLabel;
-    NSButton *_containerDestructiveButton;
-    NSButton *_containerPrimaryButton;
-    NSButton *_containerSecondaryButton;
-    NSStackView *_containerStackView;
-    NSView *_contactDetailsContainer;
-    NSView *_actionContainer;
-    NSView *_doneButtonContainer;
-    NSWindow *_modalWindow;
-    NSWindow *_hostWindow;
 }
 
+- (void)q)3;
+- (void);
+- (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void)1)3;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)
+k)3;
 - (void);
 - (id);
 - (id);
@@ -90,24 +72,6 @@
 
 // Remaining properties
 @property(retain) AIDAAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property __weak NSView *actionContainer; // @synthesize actionContainer=_actionContainer;
-@property(retain) id <AOSUIAccountContactPromptActionHandler> actionHandler; // @synthesize actionHandler=_actionHandler;
-@property __weak NSView *contactDetailsContainer; // @synthesize contactDetailsContainer=_contactDetailsContainer;
-@property __weak NSTextField *contactEmailLabel; // @synthesize contactEmailLabel=_contactEmailLabel;
-@property __weak NSTextField *contactNameLabel; // @synthesize contactNameLabel=_contactNameLabel;
-@property __weak AOSUICircularImageView *contactProfileImageView; // @synthesize contactProfileImageView=_contactProfileImageView;
-@property __weak NSButton *containerDestructiveButton; // @synthesize containerDestructiveButton=_containerDestructiveButton;
-@property __weak NSTextField *containerDetailLabel; // @synthesize containerDetailLabel=_containerDetailLabel;
-@property __weak NSButton *containerPrimaryButton; // @synthesize containerPrimaryButton=_containerPrimaryButton;
-@property __weak NSButton *containerSecondaryButton; // @synthesize containerSecondaryButton=_containerSecondaryButton;
-@property __weak NSStackView *containerStackView; // @synthesize containerStackView=_containerStackView;
-@property __weak NSTextField *containerTitleLabel; // @synthesize containerTitleLabel=_containerTitleLabel;
-@property __weak NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property __weak NSView *doneButtonContainer; // @synthesize doneButtonContainer=_doneButtonContainer;
-@property(retain) NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(retain) NSWindow *modalWindow; // @synthesize modalWindow=_modalWindow;
-@property __weak NSTextField *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain) AAAccountContactPromptModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

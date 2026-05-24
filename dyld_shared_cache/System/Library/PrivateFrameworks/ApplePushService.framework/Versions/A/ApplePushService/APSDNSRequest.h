@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface APSDNSRequest
 {
     NSString *_hostname;
-    double _timeout;
-    CDUnknownBlockType _responseBlock;
-    NSString *_environment;
-    long long _flags;
-    NSDate *_requestStartTime;
 }
 
 + (_Bool);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id)notWithTensor:(id)arg1 name: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -30,11 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *environment; // @synthesize environment=_environment;
 @property(readonly, copy, nonatomic) NSString *hostname; // @synthesize hostname=_hostname;
-@property(retain, nonatomic) NSDate *requestStartTime; // @synthesize requestStartTime=_requestStartTime;
-@property(readonly, copy) CDUnknownBlockType responseBlock; // @synthesize responseBlock=_responseBlock;
-@property(readonly, nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

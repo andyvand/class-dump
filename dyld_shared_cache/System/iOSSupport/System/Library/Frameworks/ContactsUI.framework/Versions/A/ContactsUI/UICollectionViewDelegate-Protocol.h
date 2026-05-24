@@ -4,11 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UIContextMenuConfiguration;
+@class NSIndexPath, UICollectionView, UIContextMenuConfiguration, UITargetedPreview, UIWindowSceneActivationConfiguration;
+@protocol UIContextMenuInteractionCommitAnimating;
 
 @protocol UICollectionViewDelegate
 
 @optional
+- (void)(;
+- (_Bool)rovider>",&,N,V_followUpProvider;
+- (void)tDominates_data;
+- (UITargetedPreview *)to insufficient buffer length;
+- (UIWindowSceneActivationConfiguration *)21PKCFieldRadialGravity;
+- (void)initWithEventName:(UICollectionView *)arg1 aggregationPeriod:(UIContextMenuConfiguration *)arg2 aggregationBlock:(id <UIContextMenuInteractionCommitAnimating>)arg3;
+- (UITargetedPreview *)canBeUsedForOutgoingMessages;
+- (UIContextMenuConfiguration *)URLString;
+- (void);
 - (_Bool)!|@ùQt°1Â0@ù
 × ;
 - (_Bool);
@@ -19,10 +29,10 @@
 - (_Bool)
 × ;
 - (_Bool)n"Q"length"Q};
-- (NSIndexPath *)leType:(UICollectionView *)arg1;
-- (_Bool)urce;
-- (_Bool)e;
-- (void)iewControllerDidExecuteClearRecentsDataAction:(UICollectionView *)arg1;
+- (NSIndexPath *)setHandleType:(UICollectionView *)arg1;
+- (_Bool)nameDataSource;
+- (_Bool)editingFamilyName;
+- (void)contactDisplayViewControllerDidExecuteClearRecentsDataAction:(UICollectionView *)arg1;
 - (_Bool)SLayoutConstraint",&,N,V_editingFloatingHeaderHeightConstraint;
 - (_Bool)SDyÌ¦,%ïÿøG;
 @end

@@ -7,11 +7,10 @@
 @interface ReminderKitInternal.ExternalTemporaryOverride__priv_BCDA9BEAAF9519B32B6DBABA4FDACDFF
 {
     id overridesToRestore;
-    id finishCalled;
 }
 
-- (void);
-- (id);
+- (void)BEIJING_Daxing_Airport_Express;
+- (id)	;
 - (void)x;
 
 @end

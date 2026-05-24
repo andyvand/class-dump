@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
-@protocol AVAirTransportDelegate, AVAirTransportTransformationProtocol;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVAirTransport
 {
     NSMutableArray *_outputQueue;
-    NSData *_leftoverInputData;
-    NSMutableArray *_requestCompletions;
-    id <AVAirTransportTransformationProtocol> _streamDataTransformer;
-    id <AVAirTransportDelegate> _delegate;
-    NSMutableArray *_receiveResponseBlocks;
 }
 
 + (void);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool);
 + (void);
 + (void);
 + (void);
@@ -31,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -41,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (long long);
 - (void);
@@ -51,11 +45,7 @@ __attribute__((visibility("hidden")))
 - (void)orContext";
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canWrite;
-@property(nonatomic) __weak id <AVAirTransportDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) _Bool isReadyToSend;
 @property(readonly, nonatomic) NSMutableArray *receiveResponseBlocks; // @synthesize receiveResponseBlocks=_receiveResponseBlocks;
-@property(retain, nonatomic) id <AVAirTransportTransformationProtocol> streamDataTransformer; // @synthesize streamDataTransformer=_streamDataTransformer;
 
 @end
 

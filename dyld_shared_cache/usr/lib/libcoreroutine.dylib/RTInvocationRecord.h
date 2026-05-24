@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface RTInvocationRecord
 {
     CDUnknownBlockType _block;
-    CDUnknownBlockType _failureBlock;
-    NSString *_invocationDescription;
 }
 
 - (id);
-- (void);
+- (void)6@"ENGroupContext"24@?<v@?@"ENGroup"@"NSError">32;
 - (void);
 - (void);
 - (id);
@@ -23,15 +19,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (CDUnknownBlockType)(Ð!ÐCùqC,°1Â0@ù
 × ;
-- (CDUnknownBlockType)actedForConfidence: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)setRedactedForConfidence: /* Error: Ran out of types for this method. */;
 - (void)fetyCache,Initiator,%@,%@,Fetched ActiveSessionDetails from CK ,sessionID,%@,activeDeviceIdentifier,%@,cacheReleasedDate,%@,scheduledSendGUID,%@,receiverHandles%@;
 - (void)itting %lu visits;
 - (id)d);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(copy, nonatomic) CDUnknownBlockType failureBlock; // @synthesize failureBlock=_failureBlock;
-@property(copy, nonatomic) NSString *invocationDescription; // @synthesize invocationDescription=_invocationDescription;
 
 @end
 

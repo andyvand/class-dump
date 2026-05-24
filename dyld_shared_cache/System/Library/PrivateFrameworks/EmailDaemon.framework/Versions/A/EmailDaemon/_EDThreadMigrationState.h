@@ -10,11 +10,6 @@
 @interface _EDThreadMigrationState
 {
     NSCountedSet *_objectIDsToMigrate;
-    NSCountedSet *_recentlyMigratedObjectIDs;
-    NSCountedSet *_recentlyDeletedObjectIDs;
-    id <EFCancelable> _migrationCancelable;
-    unsigned long long _state;
-    unsigned long long _generation;
 }
 
 - (_Bool);
@@ -34,7 +29,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)UsoEntityBuilder_common_EmailAddress;
 - (void);
 - (unsigned long long);
 - (void);
@@ -44,13 +39,7 @@
 - (void)Y', mail_remote_status = 'BODY';
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long generation; // @synthesize generation=_generation;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) _Bool isFullyMigrated;
-@property(readonly, nonatomic) _Bool isInProgress;
 @property(retain, nonatomic) id <EFCancelable> migrationCancelable; // @synthesize migrationCancelable=_migrationCancelable;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) unsigned long long unmigratedCount;
 
 @end
 

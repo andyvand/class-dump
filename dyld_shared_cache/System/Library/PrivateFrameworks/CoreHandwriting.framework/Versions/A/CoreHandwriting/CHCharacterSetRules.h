@@ -4,50 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCharacterSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSCharacterSet;
 
 @interface CHCharacterSetRules
 {
     NSCharacterSet *_lowercaseCharSet;
-    NSCharacterSet *_uppercaseCharSet;
-    NSCharacterSet *_digitCharSet;
-    NSCharacterSet *_startPunctuationCharSet;
-    NSCharacterSet *_middlePunctuationCharSet;
-    NSCharacterSet *_endOfWordPunctuationCharSet;
-    NSCharacterSet *_endOfSentencePunctuationCharSet;
-    NSCharacterSet *_digitStartPunctuationCharSet;
-    NSCharacterSet *_digitEndPunctuationCharSet;
-    NSCharacterSet *_arithmeticOperatorCharSet;
-    NSCharacterSet *_dateTimeSeparatorCharSet;
-    NSCharacterSet *_dateTimeEndLetterCharSet;
-    NSCharacterSet *_numeralEndLetterCharSet;
-    NSCharacterSet *_lexiconSkipCharSet;
-    NSCharacterSet *_containsDotCharSet;
-    NSCharacterSet *_containsTwoDotsCharSet;
-    NSCharacterSet *_prefixCapitalizationExceptionCharSet;
-    NSCharacterSet *_selfLoopPunctuationCharSet;
-    NSCharacterSet *_emoticonTopCharSet;
-    NSCharacterSet *_emoticonMiddleCharSet;
-    NSCharacterSet *_emoticonBottomCharSet;
-    NSCharacterSet *_emailAtCharSet;
-    NSCharacterSet *_emailPunctuationCharSet;
-    NSCharacterSet *_urlPunctuationCharSet;
-    NSCharacterSet *_nonSpaceSeparatorCharSet;
-    NSCharacterSet *_punctuationThatNeedSpaceCleanup;
-    NSCharacterSet *_currencySymbols;
-    NSCharacterSet *_symbolsRequiringSpaceBeforeInFrench;
-    NSCharacterSet *_sentenceStartPunctuationInSpanish;
-    NSCharacterSet *_openQuotationCharSet;
-    NSCharacterSet *_commonJapaneseSymbols;
-    NSCharacterSet *_CJKPairedPunctuationsCharSet;
-    NSCharacterSet *_alphaNumericCharSet;
-    NSObject<OS_dispatch_queue> *__charSetRulesQueue;
-    struct map<unsigned int, unsigned long, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned long>>> _strokeMaxPenalties;
-    struct map<unsigned int, unsigned long long, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned long long>>> _signatureUniChar;
 }
 
-+ (unsigned long long);
++ (unsigned long long)B;
 + (unsigned long long);
 + (unsigned long long);
 + (unsigned long long);

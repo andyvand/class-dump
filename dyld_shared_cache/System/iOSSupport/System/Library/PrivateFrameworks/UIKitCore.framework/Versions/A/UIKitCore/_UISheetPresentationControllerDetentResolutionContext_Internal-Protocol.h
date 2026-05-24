@@ -7,6 +7,7 @@
 @class UIView;
 
 @protocol _UISheetPresentationControllerDetentResolutionContext_Internal
+- (double)_chatGUIDsToRemergeForContactChange: /* Error: Ran out of types for this method. */;
 - (UIView *)&,N,V_activeKeyboardLayoutGuideTransitionAssertions;
 
 // Remaining properties

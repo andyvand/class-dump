@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, NSPredicate, NSString;
-@protocol ABPersonListHeadlining;
+@class NSArray, NSMutableArray;
 
 @interface ABPersonEntriesList
 {
     NSMutableArray *_entries;
-    NSMutableDictionary *_entriesByUID;
-    NSArray *_sectionedEntries;
-    NSString *_filterTerms;
-    NSMutableSet *_extraUIDsForSearchResults;
-    id <ABPersonListHeadlining> _headliner;
-    _Bool _suspendSorting;
 }
 
 + (id);
@@ -69,12 +62,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *entries; // @synthesize entries=_entries;
-@property(retain) NSMutableDictionary *entriesByUID; // @synthesize entriesByUID=_entriesByUID;
-@property(readonly) NSPredicate *filterPredicate;
-@property(copy) NSString *filterTerms; // @synthesize filterTerms=_filterTerms;
-@property(retain) id <ABPersonListHeadlining> headliner; // @synthesize headliner=_headliner;
-@property(copy) NSArray *sectionedEntries; // @synthesize sectionedEntries=_sectionedEntries;
-@property _Bool suspendSorting; // @synthesize suspendSorting=_suspendSorting;
 
 @end
 

@@ -7,11 +7,9 @@
 @interface TSUDownloadTaskProgress
 {
     _Bool _isActive;
-    long long _totalBytesDownloaded;
-    long long _totalBytesExpectedToBeDownloaded;
 }
 
-- (long long);
+- (long long)engagement;
 - (void);
 - (long long);
 - (void);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(nonatomic) long long totalBytesDownloaded; // @synthesize totalBytesDownloaded=_totalBytesDownloaded;
-@property(nonatomic) long long totalBytesExpectedToBeDownloaded; // @synthesize totalBytesExpectedToBeDownloaded=_totalBytesExpectedToBeDownloaded;
 
 @end
 

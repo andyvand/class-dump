@@ -5,6 +5,7 @@
 //
 
 @protocol SOClassicDictationBackgroundProtocol
+- (unsigned char);
 
 // Remaining properties
 @property(nonatomic) unsigned char pointerPosition;

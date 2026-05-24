@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESPegasusKitNetworkTimingData : SISchemaInstrumentationMessage
 {
     unsigned int _requestStartOffsetInMS;
-    unsigned int _requestEndOffsetInMS;
-    unsigned int _responseStartOffsetInMS;
-    unsigned int _responseEndOffsetInMS;
-    struct {
-        unsigned int requestStartOffsetInMS:1;
-        unsigned int requestEndOffsetInMS:1;
-        unsigned int responseStartOffsetInMS:1;
-        unsigned int responseEndOffsetInMS:1;
-    } _has;
 }
 
 - (void);
@@ -30,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
@@ -44,24 +33,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)macOS;
 - (_Bool);
-- (_Bool);
+- (_Bool)_IMDMessageRecordCopyAndMarkAsReadMessagesReceivedPriorToDateMatchingChatGUIDs;
 - (id);
 - (id);
-- (id)s;
+- (id)_preferredLanguages;
 - (id),V_hasVideoTitle;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestEndOffsetInMS;
-@property(nonatomic) _Bool hasRequestStartOffsetInMS;
-@property(nonatomic) _Bool hasResponseEndOffsetInMS;
-@property(nonatomic) _Bool hasResponseStartOffsetInMS;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int requestEndOffsetInMS; // @synthesize requestEndOffsetInMS=_requestEndOffsetInMS;
 @property(nonatomic) unsigned int requestStartOffsetInMS; // @synthesize requestStartOffsetInMS=_requestStartOffsetInMS;
-@property(nonatomic) unsigned int responseEndOffsetInMS; // @synthesize responseEndOffsetInMS=_responseEndOffsetInMS;
-@property(nonatomic) unsigned int responseStartOffsetInMS; // @synthesize responseStartOffsetInMS=_responseStartOffsetInMS;
 
 @end
 

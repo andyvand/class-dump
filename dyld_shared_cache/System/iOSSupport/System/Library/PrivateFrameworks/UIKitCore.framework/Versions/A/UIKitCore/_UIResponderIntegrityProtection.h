@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 + (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)yTranslation"16;
+- (id)MPModelPropertyTVSeasonDownloadedDate;
 - (void)_´þ ;
 
 @end

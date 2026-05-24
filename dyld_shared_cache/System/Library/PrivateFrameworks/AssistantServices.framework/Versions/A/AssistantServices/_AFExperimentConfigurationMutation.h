@@ -4,52 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFExperimentConfiguration, AFExperimentGroup, NSArray, NSString;
+@class AFExperimentConfiguration;
 
 @interface _AFExperimentConfigurationMutation
 {
     AFExperimentConfiguration *_base;
-    long long _type;
-    NSString *_identifier;
-    NSString *_version;
-    AFExperimentGroup *_controlGroup;
-    NSArray *_experimentGroups;
-    NSString *_salt;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasType:1;
-        unsigned int hasIdentifier:1;
-        unsigned int hasVersion:1;
-        unsigned int hasControlGroup:1;
-        unsigned int hasExperimentGroups:1;
-        unsigned int hasSalt:1;
-    } _mutationFlags;
 }
 
-- (id);
+- (id)VASAndPayment;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)initWithLocalizedStringFormatType:unlocalizedFormatString: /* Error: Ran out of types for this method. */;
+- (void)hasAssociatedMessageType;
 - (void);
-- (void);
-- (id)isingEmergency;
-- (void)ativeFeedback;
+- (id)startAdvertisingEmergency;
+- (void)_lastNegativeFeedback;
 - (long long)gClient failed with error %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

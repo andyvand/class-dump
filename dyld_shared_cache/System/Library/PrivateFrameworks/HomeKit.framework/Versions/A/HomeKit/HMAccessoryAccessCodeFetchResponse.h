@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessory, NSArray, NSError;
+@class HMAccessory;
 
 @interface HMAccessoryAccessCodeFetchResponse
 {
     HMAccessory *_accessory;
-    NSArray *_accessoryAccessCodes;
-    NSError *_error;
 }
 
 + (id);
@@ -18,13 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)distinctiveness;
 - (void)Failed to create start and end dates for weekday rule;
 
 // Remaining properties
 @property(readonly) HMAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSArray *accessoryAccessCodes; // @synthesize accessoryAccessCodes=_accessoryAccessCodes;
-@property(retain) NSError *error; // @synthesize error=_error;
 
 @end
 

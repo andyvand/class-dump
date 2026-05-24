@@ -7,21 +7,18 @@
 @interface CTDataUsage
 {
     unsigned long long _cellularHome;
-    unsigned long long _cellularRoaming;
-    unsigned long long _satellite;
-    unsigned long long _wifi;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)�?;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)�;
 - (id);
 - (id);
 - (id);
@@ -35,9 +32,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long cellularHome; // @synthesize cellularHome=_cellularHome;
-@property(nonatomic) unsigned long long cellularRoaming; // @synthesize cellularRoaming=_cellularRoaming;
-@property(nonatomic) unsigned long long satellite; // @synthesize satellite=_satellite;
-@property(nonatomic) unsigned long long wifi; // @synthesize wifi=_wifi;
 
 @end
 

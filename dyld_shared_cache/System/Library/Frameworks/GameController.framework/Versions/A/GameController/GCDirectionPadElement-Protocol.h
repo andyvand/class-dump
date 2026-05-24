@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol GCAxis2DInput, GCAxisInput, GCLinearInput><GCPressedStateInput;
+@protocol GCAxis2DInput;
 
 @protocol GCDirectionPadElement
+- (id <GCAxis2DInput>);
 
 // Remaining properties
-@property(readonly) id <GCLinearInput><GCPressedStateInput> down;
-@property(readonly) id <GCLinearInput><GCPressedStateInput> left;
-@property(readonly) id <GCLinearInput><GCPressedStateInput> right;
-@property(readonly) id <GCLinearInput><GCPressedStateInput> up;
-@property(readonly) id <GCAxisInput> xAxis;
 @property(readonly) id <GCAxis2DInput> xyAxes;
-@property(readonly) id <GCAxisInput> yAxis;
 @end
 

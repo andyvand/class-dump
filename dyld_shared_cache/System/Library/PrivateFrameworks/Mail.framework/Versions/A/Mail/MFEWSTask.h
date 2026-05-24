@@ -10,7 +10,7 @@
 
 - (void);
 - (void);
-- (id);
+- (id)r<WebCore::StorageNamespace>>>, HashFunctions = WTF::DefaultHash<WebCore::SecurityOriginData>, Traits = WTF::HashMap<WebCore::SecurityOriginData, WTF::RefPtr<WebCore::StorageNamespace>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::SecurityOriginData>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 @end
 

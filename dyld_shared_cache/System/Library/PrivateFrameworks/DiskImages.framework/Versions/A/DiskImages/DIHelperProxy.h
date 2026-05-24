@@ -4,36 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSConditionLock, NSDictionary, NSString, NSXPCConnection, NSXPCListener;
-
 __attribute__((visibility("hidden")))
 @interface DIHelperProxy
 {
     void *_context;
-    NSDictionary *_operation;
-    CDUnknownFunctionPointerType _statusProc;
-    NSConditionLock *_threadCondLock;
-    NSConditionLock *_helperDoneLock;
-    struct __CFRunLoop *_workerRunLoop;
-    int _threadResultsError;
-    NSDictionary *_threadResultsDictionary;
-    NSString *_helperPath;
-    NSXPCConnection *_intermediaryConnection;
-    NSXPCListener *_helperListener;
-    NSXPCConnection *_helperConnection;
-    _Bool _helperRegistered;
-    _Bool _helperDone;
-    NSString *_serverName;
-    struct AuthorizationOpaqueRef *_authorizationRef;
-    int _helperPid;
-    _Bool _withAuthentication;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (int);
+- (int)9h;
 - (void);
 - (void);
 - (void);
@@ -55,16 +36,10 @@ __attribute__((visibility("hidden")))
 - (oneway void);
 - (id);
 - (_Bool);
-- (id);
+- (id)9;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

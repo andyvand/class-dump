@@ -13,8 +13,8 @@
 
 - (id);
 - (struct CGRect);
-- (void);
-- (id);
+- (void)_internalQueue;
+- (id));
 - (id);
 - (void)QhZ7xe
 ;

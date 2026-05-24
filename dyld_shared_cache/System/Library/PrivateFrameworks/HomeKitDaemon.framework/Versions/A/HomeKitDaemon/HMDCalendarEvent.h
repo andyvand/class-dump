@@ -6,17 +6,15 @@
 
 #import <HomeKitDaemon/HMDTimeEvent.h>
 
-@class NSDateComponents, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSDateComponents;
 
 __attribute__((visibility("hidden")))
 @interface HMDCalendarEvent : HMDTimeEvent
 {
     struct os_unfair_lock_s _lock;
-    NSDateComponents *_fireDateComponents;
 }
 
-+ (id);
++ (id)URLSession:(id)arg1 task:(id)arg2 willPerformHTTPRedirection:newRequest:completionHandler: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool)°ë²;
 + (id)êßÿMµ¶öB;
@@ -30,29 +28,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void)2@0:(id)arg1 8q16q24;
+- (id)setHasSpecArgumentHandlingLineBreakBehavior: /* Error: Ran out of types for this method. */;
+- (id)ition;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)eInfo;
+- (void)InterfaceInfo;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSDateComponents *fireDateComponents; // @synthesize fireDateComponents=_fireDateComponents;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) Class superclass;
 
 @end
 

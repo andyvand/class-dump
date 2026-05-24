@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString, TSDCanvasEditorHelper, TSDCanvasSelection, TSDInteractiveCanvasController, TSKSelection, TSPObject, UIView;
-@protocol TSDArrangeInspectorDelegate, TSDCanvasSelection, TSDInlineFloatingWrapInspectorDelegate, TSDTextSelection;
+@class NSSet, TSDInteractiveCanvasController;
 
 @interface TSDCanvasEditor
 {
     TSDInteractiveCanvasController *mInteractiveCanvasController;
-    TSDCanvasEditorHelper *mCanvasEditorHelper;
-    TSDCanvasSelection *mSelection;
-    NSObject<TSDArrangeInspectorDelegate> *mZOrderArranger;
-    NSObject<TSDInlineFloatingWrapInspectorDelegate> *mInlineFloatingEditor;
-    _Bool mPreventImageDataReplace;
-    UIView *mInputView;
 }
 
 + (CDUnknownBlockType);
 + (_Bool);
 + (id);
-+ (id);
++ (id)@;
 + (Class);
 - (_Bool);
 - (_Bool);
@@ -31,22 +24,22 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void)em.playbackBufferEmpty;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void).tracks;
+- (void)PodcastsPlayActivityFeedConsumer;
 - (struct _NSRange);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)Ds;
 - (id);
 - (_Bool);
+- (_Bool)],;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -59,14 +52,14 @@
 - (id);
 - (void);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)R);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -77,9 +70,9 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)؛;
 - (id);
 - (int);
 - (_Bool);
@@ -88,7 +81,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -113,78 +106,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) TSDCanvasEditorHelper *canvasEditorHelper;
-@property(readonly, nonatomic) TSKSelection<TSDCanvasSelection> *canvasSelection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSSet *infosForSelectAllInRoot;
-@property(readonly, retain) UIView *inputAccessoryView;
-@property(readonly, retain) UIView *inputView;
-@property(readonly, nonatomic) TSDInteractiveCanvasController *interactiveCanvasController;
-@property(readonly, nonatomic) struct _NSRange markedRange;
-@property(readonly, nonatomic) TSPObject *modelForSelection;
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingConnectionLineAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingEndpoints;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingFill;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingOpacity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingReflection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingResize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingShadow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingShrinkTextToFit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingSmartShapeAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingStroke;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingTextInset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(retain, nonatomic) TSKSelection *selection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSKSelection",?,&,N
-
-@property(retain, nonatomic) TSKSelection<TSDTextSelection> *selectionForArrowKeys;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSKSelection<TSDTextSelection>",?,&,N
-
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) TSKSelection<TSDTextSelection> *textInputSelection;
-@property(readonly) _Bool wantsRawArrowKeyEvents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

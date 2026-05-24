@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface PKDiff
 {
     NSMutableArray *_hunks;
-    NSString *_passUniqueID;
-    NSData *_passManifestHash;
 }
 
 + (_Bool)0@ù
@@ -32,14 +30,13 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)hasTcpECNIntOffAvgRTT;
 - (void);
-- (long long)es;
-- (void)DESCRIPTION;
+- (long long)_supportedInAppMerchantCountryCodes;
+- (void)UNLOCK_ONLY_ENTITLEMENT_DESCRIPTION;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *passManifestHash; // @synthesize passManifestHash=_passManifestHash;
 @property(copy, nonatomic) NSString *passUniqueID; // @synthesize passUniqueID=_passUniqueID;
 
 @end

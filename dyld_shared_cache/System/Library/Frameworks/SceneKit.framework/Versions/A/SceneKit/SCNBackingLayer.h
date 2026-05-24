@@ -10,17 +10,16 @@ __attribute__((visibility("hidden")))
 @interface SCNBackingLayer
 {
     SCNView *_parentView;
-    _Bool _needsRedrawForJittering;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)targetWithPid:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (void);

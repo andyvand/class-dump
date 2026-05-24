@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)J	;
 - (id);
 - (id);
 - (id);
@@ -30,11 +30,11 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
+- (void)*;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)setContentHuggingPriority:forOrientation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) AXKElementDescriberConfiguration *configuration; // @synthesize configuration=_configuration;

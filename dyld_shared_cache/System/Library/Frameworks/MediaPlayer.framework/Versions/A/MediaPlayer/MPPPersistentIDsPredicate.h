@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
         unsigned long long count;
         unsigned long long size;
     } _persistentIDs;
-    _Bool _shouldContain;
-    struct {
-        unsigned int shouldContain:1;
-    } _has;
 }
 
 - (_Bool);
@@ -33,16 +29,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)_initiallyDraggedArea;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasShouldContain;
-@property(readonly, nonatomic) long long *persistentIDs;
-@property(readonly, nonatomic) unsigned long long persistentIDsCount;
-@property(nonatomic) _Bool shouldContain; // @synthesize shouldContain=_shouldContain;
 
 @end
 

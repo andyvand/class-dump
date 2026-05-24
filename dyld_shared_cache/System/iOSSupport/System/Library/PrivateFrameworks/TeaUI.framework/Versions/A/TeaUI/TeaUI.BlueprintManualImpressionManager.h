@@ -7,10 +7,6 @@
 @interface TeaUI.BlueprintManualImpressionManager
 {
     id delegate;
-    id viewProvider;
-    id app;
-    id impressionManager;
-    id manualImpressionUpdateProvider;
 }
 
 @end

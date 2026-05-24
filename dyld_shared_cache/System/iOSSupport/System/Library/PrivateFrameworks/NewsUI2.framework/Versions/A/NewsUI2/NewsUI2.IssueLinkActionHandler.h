@@ -7,10 +7,6 @@
 @interface NewsUI2.IssueLinkActionHandler
 {
     id navigator;
-    id issue;
-    id tracker;
-    id urlHandler;
-    id featureAvailability;
 }
 
 @end

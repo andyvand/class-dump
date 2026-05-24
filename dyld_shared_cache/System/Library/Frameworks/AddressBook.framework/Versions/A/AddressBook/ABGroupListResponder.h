@@ -5,19 +5,17 @@
 //
 
 @class ABGroupListController;
-@protocol ABUserInterfaceAction;
 
 @interface ABGroupListResponder
 {
     ABGroupListController *_groupListController;
-    id <ABUserInterfaceAction> _createGroupAction;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)R;
 - (void)1Â0@ù
 × ;
 - (_Bool)eArray",&,N,V_children;

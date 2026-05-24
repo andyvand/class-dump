@@ -11,49 +11,35 @@
 @interface WBSRetryableCKFetchDatabaseChangesOperation : WBSRetryableCKDatabaseOperation
 {
     _Bool _fetchAllChanges;
-    CKServerChangeToken *_previousServerChangeToken;
-    unsigned long long _resultsLimit;
-    CDUnknownBlockType _recordZoneWithIDChangedBlock;
-    CDUnknownBlockType _recordZoneWithIDWasDeletedBlock;
-    CDUnknownBlockType _recordZoneWithIDWasPurgedBlock;
-    CDUnknownBlockType _recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock;
-    CDUnknownBlockType _changeTokenUpdatedBlock;
-    CDUnknownBlockType _fetchDatabaseChangesCompletionBlock;
 }
 
 - (void);
+- (id);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void)changeable) %@ [%@], %ld %@ 
+%@ 
+%@;
+- (CDUnknownBlockType);
+- (void);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType)ompleting successfully;
 - (id);
-- (CDUnknownBlockType);
+- (void)ollerDescriptor"8@"NSError"16@"NSError"24;
+- (void);
+- (CDUnknownBlockType)messageProcessorWantsToAcknowledgeRemote: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (id);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType)HostsWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)getAllContentBlockerHostsWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool)tentBlockersPreference;
 - (void);
 - (unsigned long long)r=function(e,t,r){var i,a,d=e.getElementsByTagName(t)[0];if(!e.getElementById(r))return(a=e.createElement(t)).id=r,a.src="https://platform.twitter.com/widgets.js",d.parentNode.insertBefore(a,d),window.twttr||(i={_e:[],ready:function(e){i._e.push(e)}})}(document,"script","twitter-wjs"))}function richTweetWasCreatedFromSimpleTweet(e){e.parentNode.querySelector(".simple-tweet").classList.add("hidden")}function replaceSimpleTweetsWithRichTweets(e){let t=document.querySelectorAll("[data-reader-tweet-id]");t.length&&(loadTwitterJavaScript(),twttr.ready((function(r){for(let i of t)r.widgets.createTweet(i.getAttribute("data-reader-tweet-id"),i,e).then(richTweetWasCreatedFromSimpleTweet)})))}
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType changeTokenUpdatedBlock; // @synthesize changeTokenUpdatedBlock=_changeTokenUpdatedBlock;
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
-@property(copy, nonatomic) CDUnknownBlockType fetchDatabaseChangesCompletionBlock; // @synthesize fetchDatabaseChangesCompletionBlock=_fetchDatabaseChangesCompletionBlock;
 @property(copy, nonatomic) CKServerChangeToken *previousServerChangeToken; // @synthesize previousServerChangeToken=_previousServerChangeToken;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDChangedBlock; // @synthesize recordZoneWithIDChangedBlock=_recordZoneWithIDChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasDeletedBlock; // @synthesize recordZoneWithIDWasDeletedBlock=_recordZoneWithIDWasDeletedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock; // @synthesize recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock=_recordZoneWithIDWasDeletedDueToUserEncryptedDataResetBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneWithIDWasPurgedBlock; // @synthesize recordZoneWithIDWasPurgedBlock=_recordZoneWithIDWasPurgedBlock;
-@property(nonatomic) unsigned long long resultsLimit; // @synthesize resultsLimit=_resultsLimit;
 
 @end
 

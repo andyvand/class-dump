@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     struct CGRect _rect;
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
++ (id)Notice:(struct CGRect)arg1 toHandles:]_block_invoke /* Error: Ran out of types for this method. */;
+- (_Bool)_guidToTransferMap;
+- (_Bool)_guidToTimeSensitivePropertiesMap;
 - (long long);
 - (_Bool);
-- (struct CGRect)ureMode: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_setPrimaryOffscreenGestureMode: /* Error: Ran out of types for this method. */;
 
 @end
 

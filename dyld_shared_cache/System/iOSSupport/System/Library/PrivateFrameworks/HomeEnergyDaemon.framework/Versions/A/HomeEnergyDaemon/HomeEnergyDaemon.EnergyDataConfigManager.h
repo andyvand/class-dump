@@ -6,6 +6,8 @@
 
 @interface HomeEnergyDaemon.EnergyDataConfigManager
 {
+    id $defaultActor;
+    id energyDatConfigModel;
 }
 
 @end

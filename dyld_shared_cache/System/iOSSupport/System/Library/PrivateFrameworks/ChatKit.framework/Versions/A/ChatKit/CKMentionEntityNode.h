@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSString;
+@class NSString;
 
 @interface CKMentionEntityNode
 {
     NSString *_key;
-    NSMutableSet *_entities;
-    NSMutableSet *_possibleEntities;
-    NSMutableDictionary *_children;
 }
 
-- (void);
+- (void)tCollection;
+- (id));
+- (void)ountID:(id)arg1 %@, title:%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)ageCount;
-- (void)scriptPluginViewManager;
+- (void)mockUnreadMessageCount;
+- (void)CKTranscriptPluginViewManager;
 - (void)Èìì;
 - (id)1;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *children; // @synthesize children=_children;
-@property(retain, nonatomic) NSMutableSet *entities; // @synthesize entities=_entities;
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSMutableSet *possibleEntities; // @synthesize possibleEntities=_possibleEntities;
 
 @end
 

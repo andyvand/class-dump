@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CALNCalendarIconIdentifierProvider, CALNNotificationManager, CALNNotificationStorage;
+@protocol CALNNotificationStorage;
 
 @interface CALNNotificationIconUpdater
 {
     id <CALNNotificationStorage> _protectedStorage;
-    id <CALNCalendarIconIdentifierProvider> _iconIdentifierProvider;
-    id <CALNNotificationManager> _notificationManager;
 }
 
 + (_Bool);
@@ -26,8 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CALNCalendarIconIdentifierProvider> iconIdentifierProvider; // @synthesize iconIdentifierProvider=_iconIdentifierProvider;
-@property(readonly, nonatomic) id <CALNNotificationManager> notificationManager; // @synthesize notificationManager=_notificationManager;
 @property(readonly, nonatomic) id <CALNNotificationStorage> protectedStorage; // @synthesize protectedStorage=_protectedStorage;
 
 @end

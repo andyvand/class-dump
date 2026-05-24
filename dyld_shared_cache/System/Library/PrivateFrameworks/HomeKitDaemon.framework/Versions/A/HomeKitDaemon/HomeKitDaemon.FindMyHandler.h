@@ -7,12 +7,6 @@
 @interface HomeKitDaemon.FindMyHandler
 {
     id $defaultActor;
-    id isStarted;
-    id featuresDataSource;
-    id findMySession;
-    id fmfStatus;
-    id fmfDevice;
-    id fakeCurrentDeviceAsDesignatedFMDevice;
 }
 
 - (void);

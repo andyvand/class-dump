@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSUUID;
+@class NSUUID;
 
 @interface HMIPersonsModelPrediction
 {
     NSUUID *_sourceUUID;
-    NSUUID *_personUUID;
-    NSNumber *_confidence;
-    NSUUID *_linkedEntityUUID;
 }
 
 - (id);
@@ -19,12 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) NSNumber *confidence; // @synthesize confidence=_confidence;
-@property(readonly) NSUUID *linkedEntityUUID; // @synthesize linkedEntityUUID=_linkedEntityUUID;
-@property(readonly) NSUUID *personUUID; // @synthesize personUUID=_personUUID;
 @property(readonly) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
 
 @end

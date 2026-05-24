@@ -6,24 +6,12 @@
 
 #import <AVKit/AVVolumeControlView.h>
 
-@class AVDesktopVolumeSlider, NSArray, NSButton, NSTrackingArea, NSView, NSVisualEffectView, NSWindow;
-@protocol AVVolumeControlButtonDelegate;
+@class NSButton, NSTrackingArea;
 
 __attribute__((visibility("hidden")))
 @interface AVVolumeControlButton : AVVolumeControlView
 {
     NSTrackingArea *_trackingArea;
-    NSArray *_activeVolumeSliderConstraints;
-    _Bool _included;
-    _Bool _showsVolumeSliderForFullKeyboardAccess;
-    _Bool canOnlyAppearInOverflowMenu;
-    _Bool included;
-    _Bool collapsed;
-    NSButton *_volumeButton;
-    AVDesktopVolumeSlider *_volumeSlider;
-    NSWindow *_sliderWindow;
-    NSView *_sliderView;
-    NSVisualEffectView *_sliderViewVisualEffectView;
 }
 
 + (id);
@@ -36,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -51,41 +39,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)__objc_arraydata__DATA_CONST;
 - (void);
 - (id);
 - (id);
 - (double);
-- (_Bool);
+- (_Bool)-allowable_client;
 - (_Bool);
 - (void);
-- (double);
-- (void);
-- (id);
-- (id);
+- (double)coalesceRequestKey:handler:executeRequestAndInvokeHandlersBlock: /* Error: Ran out of types for this method. */;
+- (void)qA;
+- (id)__ptr_"^{WBSHistoryItemVisitCountScoresStorage}}};
+- (id);
 - (struct CGSize);
 - (void);
+- (void)ID:(double)arg1 %@};
+- (void)%@, share:%@, accountID:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)turePlayback:(_Bool)arg1;
+- (void)setAllowsPictureInPicturePlayback:(_Bool)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool canOnlyAppearInOverflowMenu; // @synthesize canOnlyAppearInOverflowMenu;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed;
-@property __weak id <AVVolumeControlButtonDelegate> delegate; // @dynamic delegate;
-@property(nonatomic) _Bool included; // @synthesize included;
-@property(nonatomic) _Bool showsVolumeSliderForFullKeyboardAccess;
-@property(readonly, nonatomic) NSView *sliderView; // @synthesize sliderView=_sliderView;
-@property(readonly, nonatomic) NSVisualEffectView *sliderViewVisualEffectView; // @synthesize sliderViewVisualEffectView=_sliderViewVisualEffectView;
-@property(readonly, nonatomic) NSWindow *sliderWindow; // @synthesize sliderWindow=_sliderWindow;
 @property(readonly, nonatomic) NSButton *volumeButton; // @synthesize volumeButton=_volumeButton;
-@property(readonly, nonatomic) AVDesktopVolumeSlider *volumeSlider; // @synthesize volumeSlider=_volumeSlider;
 
 @end
 

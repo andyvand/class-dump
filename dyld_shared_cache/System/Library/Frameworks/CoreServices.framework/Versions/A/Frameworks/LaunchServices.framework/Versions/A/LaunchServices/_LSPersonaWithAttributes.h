@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface _LSPersonaWithAttributes
 {
     NSString *_personaUniqueString;
-    unsigned long long _personaType;
 }
 
-+ (_Bool);
++ (_Bool)II[4I]}16@"<MTLRenderPipelineState>"24Q32;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)( ;
 - (id);
 - (void)ÿÿ;
 

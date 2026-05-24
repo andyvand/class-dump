@@ -9,16 +9,14 @@
 @interface FBSSceneIdentity
 {
     NSString *_identifier;
-    NSString *_workspaceIdentifier;
-    NSString *_internalWorkspaceIdentifier;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)SAIntentGroupLabelTemplateComponent;
++ (_Bool)AVCFAssetResourceLoaderCreateWithAsset;
 + (_Bool);
-+ (_Bool);
-- (id);
+- (id)h;
 - (id);
 - (unsigned long long);
 - (id);
@@ -27,23 +25,14 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)propertiesToFetch;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy, nonatomic) NSString *internalWorkspaceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *workspaceIdentifier; // @synthesize workspaceIdentifier=_workspaceIdentifier;
 
 @end
 

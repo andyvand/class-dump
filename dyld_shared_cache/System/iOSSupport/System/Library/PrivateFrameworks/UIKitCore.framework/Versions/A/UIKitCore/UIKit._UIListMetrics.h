@@ -7,9 +7,6 @@
 @interface UIKit._UIListMetrics
 {
     id core;
-    id settings;
-    id colors;
-    id fonts;
 }
 
 @end

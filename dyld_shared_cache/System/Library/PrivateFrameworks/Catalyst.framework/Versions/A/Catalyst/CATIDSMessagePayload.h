@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATIDSMessageMetadata, NSDictionary;
-@protocol CATIDSMessage;
+@class CATIDSMessageMetadata;
 
 __attribute__((visibility("hidden")))
 @interface CATIDSMessagePayload
 {
     CATIDSMessageMetadata *_metadata;
-    id <CATIDSMessage> _message;
 }
 
 + (id);
 - (id);
 - (id);
+- (id)initWithSize:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)?`;
 - (id)ation;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, nonatomic) id <CATIDSMessage> message; // @synthesize message=_message;
 @property(readonly, nonatomic) CATIDSMessageMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end

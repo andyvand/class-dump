@@ -9,16 +9,15 @@
 @interface IMDSuperToRelayMessageParser
 {
     NSMutableString *_outHTML;
-    _Bool _isSimpleString;
 }
 
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -27,7 +26,6 @@
 - (void)¸;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isSimpleString; // @synthesize isSimpleString=_isSimpleString;
 @property(readonly, retain, nonatomic) NSString *outHTML; // @synthesize outHTML=_outHTML;
 
 @end

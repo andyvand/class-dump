@@ -7,7 +7,8 @@
 @interface UnknownClass (MPAdditions)
 - (id);
 - (id);
-- (id);
+- (id)T
+;
 - (void);
 - (void);
 - (void);

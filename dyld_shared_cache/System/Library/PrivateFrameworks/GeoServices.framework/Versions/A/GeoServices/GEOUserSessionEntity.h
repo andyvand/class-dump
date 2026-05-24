@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface GEOUserSessionEntity
 {
     struct GEOSessionID _sessionID;
-    unsigned int _sequenceNumber;
-    double _sessionCreationTime;
-    double _sessionRelativeTimestamp;
 }
 
 - (void);
@@ -21,33 +16,23 @@
 - (double);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (double);
+- (id);
+- (id);
+- (_Bool)uest:(id)arg1 %@, %@;
+- (id)ABCDContactIndex;
+- (id);
+- (double)eaking before serverInvoke activated (activationHostTime = %llu);
 - (unsigned int);
 - (id);
 - (struct GEOSessionID)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(nonatomic) double sessionCreationTime; // @synthesize sessionCreationTime=_sessionCreationTime;
-@property(readonly, nonatomic) NSString *sessionEntityString;
 @property(readonly, nonatomic) struct GEOSessionID sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly, nonatomic) NSNumber *sessionIDHigh;
-@property(readonly, nonatomic) NSString *sessionIDHighString;
-@property(readonly, nonatomic) NSNumber *sessionIDLow;
-@property(readonly, nonatomic) NSString *sessionIDLowString;
-@property(readonly, nonatomic) NSString *sessionIDString;
-@property(readonly, nonatomic) double sessionRelativeTimestamp; // @synthesize sessionRelativeTimestamp=_sessionRelativeTimestamp;
-@property(readonly, nonatomic) NSString *sessionUUIDString;
 
 @end
 

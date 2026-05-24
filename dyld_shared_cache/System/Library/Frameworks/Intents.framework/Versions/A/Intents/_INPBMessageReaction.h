@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBSticker;
+@class NSString;
 
 @interface _INPBMessageReaction
 {
     struct {
         unsigned int reactionType:1;
     } _has;
-    int _reactionType;
-    NSString *_emoji;
-    NSString *_reactionDescription;
-    _INPBSticker *_sticker;
 }
 
-+ (_Bool);
++ (_Bool)+;
 - (void);
 - (void);
 - (void);
@@ -25,7 +21,7 @@
 - (id);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -38,27 +34,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ԍ;
 - (id);
 - (id);
 - (void)bleObjectForIdentifier:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *emoji; // @synthesize emoji=_emoji;
-@property(readonly, nonatomic) _Bool hasEmoji;
-@property(readonly, nonatomic) _Bool hasReactionDescription;
-@property(nonatomic) _Bool hasReactionType;
-@property(readonly, nonatomic) _Bool hasSticker;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *reactionDescription; // @synthesize reactionDescription=_reactionDescription;
-@property(nonatomic) int reactionType; // @synthesize reactionType=_reactionType;
-@property(retain, nonatomic) _INPBSticker *sticker; // @synthesize sticker=_sticker;
-@property(readonly) Class superclass;
 
 @end
 

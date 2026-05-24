@@ -11,7 +11,6 @@
 @interface VNImageAlignmentObservation : VNObservation
 {
     VNImageRegistrationSignature *_referenceImageSignature;
-    VNImageRegistrationSignature *_floatingImageSignature;
 }
 
 + (_Bool);
@@ -22,15 +21,13 @@
 - (id);
 - (id);
 - (struct CGAffineTransform);
-- (id);
+- (id)ler:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void)geSegmentationCategoryShadow;
+- (void)VNImageSegmentationCategoryShadow;
 
 // Remaining properties
-@property(nonatomic) struct CGAffineTransform alignmentTransform;
-@property(retain, nonatomic) VNImageRegistrationSignature *floatingImageSignature; // @synthesize floatingImageSignature=_floatingImageSignature;
 @property(retain, nonatomic) VNImageRegistrationSignature *referenceImageSignature; // @synthesize referenceImageSignature=_referenceImageSignature;
 
 @end

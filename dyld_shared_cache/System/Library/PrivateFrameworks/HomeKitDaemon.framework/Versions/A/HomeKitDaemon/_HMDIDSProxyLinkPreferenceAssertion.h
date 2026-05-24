@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)4@"IDSProtobuf"32@"NSString"40@"IDSMessageContext"48;
 - (void);
 - (void)id pairing identity:%@ /* Error: Ran out of types for this method. */;
 

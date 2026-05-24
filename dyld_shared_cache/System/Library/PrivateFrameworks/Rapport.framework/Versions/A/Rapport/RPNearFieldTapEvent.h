@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface RPNearFieldTapEvent
 {
     _Bool _isSameAccount;
-    _Bool _shouldForceSingleBandAWDLMode;
-    _Bool _isKnownIdentity;
-    _Bool _isUnsupportedApplicationLabel;
-    unsigned int _flags;
-    NSString *_identifier;
-    NSString *_applicationDomain;
-    NSString *_applicationLabel;
-    NSDate *_date;
-    NSString *_deviceName;
-    NSString *_deviceModel;
-    NSString *_accountID;
-    NSString *_contactID;
-    NSData *_pkData;
-    NSUUID *_bonjourListenerUUID;
 }
 
 + (_Bool);
@@ -38,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)safariURLInMostRecentSearchableItem;
+- (id)send incomplete utterance as partial result: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -50,25 +36,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)n:(id)arg1;
+- (void)initWithConnection:(id)arg1;
 - (id)-;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(readonly, nonatomic) NSString *applicationDomain; // @synthesize applicationDomain=_applicationDomain;
-@property(readonly, nonatomic) NSString *applicationLabel; // @synthesize applicationLabel=_applicationLabel;
-@property(readonly, nonatomic) NSUUID *bonjourListenerUUID; // @synthesize bonjourListenerUUID=_bonjourListenerUUID;
-@property(copy, nonatomic) NSString *contactID; // @synthesize contactID=_contactID;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(copy, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, nonatomic) unsigned int flags; // @synthesize flags=_flags;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isKnownIdentity; // @synthesize isKnownIdentity=_isKnownIdentity;
-@property(readonly, nonatomic) _Bool isSameAccount; // @synthesize isSameAccount=_isSameAccount;
-@property(readonly, nonatomic) _Bool isUnsupportedApplicationLabel; // @synthesize isUnsupportedApplicationLabel=_isUnsupportedApplicationLabel;
-@property(readonly, nonatomic) NSData *pkData; // @synthesize pkData=_pkData;
-@property(readonly, nonatomic) _Bool shouldForceSingleBandAWDLMode; // @synthesize shouldForceSingleBandAWDLMode=_shouldForceSingleBandAWDLMode;
 
 @end
 

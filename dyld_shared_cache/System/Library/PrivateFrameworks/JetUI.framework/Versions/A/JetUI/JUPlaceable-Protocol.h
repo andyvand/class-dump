@@ -5,5 +5,7 @@
 //
 
 @protocol JUPlaceable
+- (void);
+- (struct JUMeasurements)U{;
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol PXStoryLayoutSpec;
-
 @interface PXStoryLayoutSpecManager
 {
     unsigned long long _storyConfigurationOptions;
@@ -19,7 +17,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryLayoutSpec> layoutSpec;
 @property(readonly, nonatomic) unsigned long long storyConfigurationOptions; // @synthesize storyConfigurationOptions=_storyConfigurationOptions;
 
 @end

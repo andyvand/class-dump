@@ -5,5 +5,8 @@
 //
 
 @protocol IMDaemonAccountsProtocol
+- (void)/;
+- (void);
+- (void)superview;
 @end
 

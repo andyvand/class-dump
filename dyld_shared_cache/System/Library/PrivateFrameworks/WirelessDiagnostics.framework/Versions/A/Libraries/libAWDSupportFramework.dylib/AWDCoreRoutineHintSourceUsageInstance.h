@@ -7,20 +7,14 @@
 @interface AWDCoreRoutineHintSourceUsageInstance
 {
     int _hintSource;
-    int _isLOI;
-    int _isVisit;
-    struct {
-        unsigned int hintSource:1;
-        unsigned int isLOI:1;
-        unsigned int isVisit:1;
-    } _has;
 }
 
 - (void);
+- (void)M;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A)
+k@;
 - (int);
 - (_Bool);
 - (_Bool);
@@ -28,23 +22,18 @@
 - (int);
 - (void);
 - (int);
-- (id);
+- (id)i;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasHintSource;
-@property(nonatomic) _Bool hasIsLOI;
-@property(nonatomic) _Bool hasIsVisit;
-@property(nonatomic) int hintSource; // @synthesize hintSource=_hintSource;
-@property(nonatomic) int isLOI; // @synthesize isLOI=_isLOI;
-@property(nonatomic) int isVisit; // @synthesize isVisit=_isVisit;
 
 @end
 

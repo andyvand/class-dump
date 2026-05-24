@@ -4,10 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class BPSPublisher, NSArray, NSError;
+@protocol BMBookmarkablePublisher;
 
 @protocol BMBookmarkablePublisher
-- (_Bool)rtedArrayUsingComparator: /* Error: Ran out of types for this method. */;
+- (NSError *)!;
+- (BPSPublisher<BMBookmarkablePublisher> *);
+- (void);
+- (NSArray *);
+- (_Bool)sortedArrayUsingComparator: /* Error: Ran out of types for this method. */;
 - (void)osure;
 
 // Remaining properties

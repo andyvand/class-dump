@@ -9,8 +9,6 @@
 @interface BMIndexField
 {
     NSString *_name;
-    NSString *_expression;
-    long long _dataType;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long dataType; // @synthesize dataType=_dataType;
-@property(readonly, nonatomic) NSString *expression; // @synthesize expression=_expression;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

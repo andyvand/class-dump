@@ -24,10 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double collectionGathererPacerMinFireInterval;
-@property(readonly, nonatomic) NSSet *excludedExtensionsWorthPreserving;
 @property(readonly, nonatomic) NSSet *excludedFilenamesWorthWarningAtLogout;
-@property(readonly, nonatomic) long long minFileSizeForThumbnailTransfer;
 
 @end
 

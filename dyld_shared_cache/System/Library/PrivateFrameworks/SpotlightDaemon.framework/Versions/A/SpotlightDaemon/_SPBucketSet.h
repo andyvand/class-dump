@@ -10,8 +10,6 @@
 @interface _SPBucketSet
 {
     struct __CFDictionary *_members;
-    NSObject<OS_dispatch_queue> *_queue;
-    long long _count;
 }
 
 - (void);
@@ -20,14 +18,13 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)T;
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property long long count; // @synthesize count=_count;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

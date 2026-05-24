@@ -7,14 +7,6 @@
 @interface SwiftUI.ContainerBackgroundBridge
 {
     id hostingController;
-    id observer;
-    id requestSeedTracker;
-    id transparentBackgroundSeedTracker;
-    id host;
-    id lastContainerBackground;
-    id lastContainerBackgroundLuminance;
-    id background;
-    id backgroundPlacement;
 }
 
 @end

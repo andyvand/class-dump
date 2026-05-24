@@ -4,64 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLocationInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_localityName;
-    NSString *_locationName;
-    NSString *_secondaryLocationName;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_localityName:1;
-        unsigned int read_locationName:1;
-        unsigned int read_secondaryLocationName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)etHasShouldDifferentiateClientAndServerResults:(id)arg1;
-- (void);
++ (_Bool)setHasShouldDifferentiateClientAndServerResults:(id)arg1;
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)itlement:%@ %@ /* Error: Ran out of types for this method. */;
+- (_Bool)ionary"8;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)ndler assetDownloadMonitorDelegate:assetType:] /* Error: Ran out of types for this method. */;
+- (void)F>	;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id)etPrefixTokenMatchPositionFirstQueryToken:(struct _NSZone *)arg1;
+- (void)H	;
+- (id)setPrefixTokenMatchPositionFirstQueryToken:(struct _NSZone *)arg1;
 - (id)R,N;
 - (id)RESULT_FILTER_TYPE_CONCEPT;
 - (id);
 - (void)héþ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasLocalityName;
 @property(readonly, nonatomic) _Bool hasLocationName;
-@property(readonly, nonatomic) _Bool hasSecondaryLocationName;
-@property(retain, nonatomic) NSString *localityName;
-@property(retain, nonatomic) NSString *locationName;
-@property(retain, nonatomic) NSString *secondaryLocationName;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

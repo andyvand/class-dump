@@ -15,8 +15,8 @@
 
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)setCellPadding: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *senders; // @synthesize senders=_senders;

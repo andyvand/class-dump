@@ -4,43 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
-
 @interface RPPrivateAdvertiser
 {
     _Bool _activateCalled;
-    _Bool _changesPending;
-    _Bool _direct;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    struct LogCategory *_ucat;
-    NSXPCConnection *_xpcCnx;
-    unsigned int _clientID;
-    NSString *_accessGroup;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    NSDictionary *_serviceInfo;
-    NSString *_serviceType;
 }
 
-+ (_Bool);
++ (_Bool)!M;
+- (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)Store setObject:(id)arg1 forContextualKeyPath: /* Error: Ran out of types for this method. */;
+- (id)tString=%@;
+- (void)er;
+- (id)˩˧;
+- (id)MapperIS4_LS6_2EEEEE;
 - (id);
 - (id);
 - (void);
@@ -49,15 +31,16 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)
+;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (unsigned int);
+- (unsigned int)u;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -67,15 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessGroup; // @synthesize accessGroup=_accessGroup;
 @property(nonatomic) unsigned int clientID; // @synthesize clientID=_clientID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSDictionary *serviceInfo; // @synthesize serviceInfo=_serviceInfo;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

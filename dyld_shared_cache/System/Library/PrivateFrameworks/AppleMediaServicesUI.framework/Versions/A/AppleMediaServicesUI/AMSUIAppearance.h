@@ -9,21 +9,21 @@
 @interface AMSUIAppearance
 {
     NSDictionary *__messageFontDictionary;
-    NSDictionary *__titleFontDictionary;
 }
 
 + (id);
 + (id);
 + (id);
 + (long long);
-+ (id);
++ (id));
 + (id);
 + (_Bool);
++ (id)q;
 + (id);
-+ (id);
-+ (id);
++ (id)*;
 + (long long);
 + (id);
++ (id)Z;
 + (id);
 + (id);
 + (id);
@@ -40,8 +40,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -49,21 +48,20 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)0;
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)sableUpdateMask: /* Error: Ran out of types for this method. */;
+- (void)setDisableUpdateMask: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSDictionary *_messageFontDictionary; // @synthesize _messageFontDictionary=__messageFontDictionary;
-@property(retain) NSDictionary *_titleFontDictionary; // @synthesize _titleFontDictionary=__titleFontDictionary;
 
 @end
 

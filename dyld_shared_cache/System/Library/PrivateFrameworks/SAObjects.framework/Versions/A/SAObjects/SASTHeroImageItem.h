@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SADecoratedString, SAUINanoImageResource;
+@class SADecoratedString;
 
 @interface SASTHeroImageItem : AceObject
 {
@@ -25,15 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SADecoratedString *caption;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *position;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SAUINanoImageResource *watchImageResource;
 
 @end
 

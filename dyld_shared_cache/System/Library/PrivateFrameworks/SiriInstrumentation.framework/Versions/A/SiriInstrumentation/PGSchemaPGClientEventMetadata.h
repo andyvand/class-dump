@@ -6,22 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PGSchemaPGClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ifRequestId;
-    unsigned long long _postingSpanId;
-    SISchemaUUID *_planCycleId;
-    CDStruct_b8d36928 _has;
-    _Bool _hasIfRequestId;
-    _Bool _hasPlanCycleId;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
@@ -38,21 +33,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)[%lld]'s room_name.;
 - (id);
 - (id);
-- (id)ttenUtterancesReported;
+- (id)_hasPegasusRewrittenUtterancesReported;
 - (id)hasAudioSpeechPacketArrivalContext;
-- (void)sLastOneDay;
+- (void)numSelectedAppDisambiguationsLastOneDay;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIfRequestId; // @synthesize hasIfRequestId=_hasIfRequestId;
-@property(nonatomic) _Bool hasPlanCycleId; // @synthesize hasPlanCycleId=_hasPlanCycleId;
-@property(nonatomic) _Bool hasPostingSpanId;
 @property(retain, nonatomic) SISchemaUUID *ifRequestId; // @synthesize ifRequestId=_ifRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *planCycleId; // @synthesize planCycleId=_planCycleId;
-@property(nonatomic) unsigned long long postingSpanId; // @synthesize postingSpanId=_postingSpanId;
 
 @end
 

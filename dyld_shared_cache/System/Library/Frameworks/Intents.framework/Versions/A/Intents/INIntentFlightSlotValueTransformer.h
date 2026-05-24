@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long);
++ (long long)setAudioSource: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)StringAsAmpConfidenceLevel:(id)arg1;
 
 @end
 

@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol _UISceneOcclusionSettings
+- (NSArray *)B;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *applicationOcclusionRects;

@@ -9,11 +9,6 @@
 @interface GEOComposedRouteCoordinateArray
 {
     NSArray *_paths;
-    unsigned long long _coordinateCount;
-    _Bool _usesZilch;
-    _Bool _usesRoutingPathPoints;
-    GEOPolylineCoordinateRangeArray *_noMatchRanges;
-    int _elevationModel;
 }
 
 + (_Bool)u;
@@ -38,49 +33,46 @@
 - (struct PolylineCoordinate);
 - (struct PolylineCoordinate);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
-- (struct PolylineCoordinate);
-- (struct PolylineCoordinate);
-- (id);
-- (id);
-- (int);
+- (unsigned long long):(unsigned long long)arg1 8@16;
+- (unsigned long long)16@0:(struct PolylineCoordinate)arg1 8;
+- (id)@"NSDate"16^@24;
+- (unsigned long long)withHandlersLock_registerForDeviceFirstUnlock;
+- (struct PolylineCoordinate)withHandlersLock_cancelExistingOperationWithIdentifier:(struct PolylineCoordinate)arg1;
+- (struct PolylineCoordinate)withHandlersLock_addHandlerWithIdentifier:(struct PolylineCoordinate)arg1 block: /* Error: Ran out of types for this method. */;
+- (id)initWithInitialState:(id)arg1 condition:nextState:resultSelector: /* Error: Ran out of types for this method. */;
+- (id)initWithCalendarIdentifier:(id)arg1;
+- (int)ed;
+- (double)cs.framework/Contents/MacOS/CoreGraphics;
+- (double)System/Library/Frameworks/CoreGraphics.framework/Contents/MacOS/CoreGraphics;
+- (double)le.contacts.reactive.throttle.downstream;
 - (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (CDStruct_39925896);
-- (CDStruct_39925896);
-- (CDStruct_39925896);
-- (unsigned long long);
-- (id);
-- (id);
+- (double)tacts.reactive.replay-subject.observer;
+- (double)"24@?0@"NSNumber"8@"NSNumber"16;
+- (double)CNDefaultsDebugDescriptionObfuscation;
+- (double)ABNewContactNameDisplay;
+- (id)Observable with TimeInterval(%@);
+- (CDStruct_39925896)ic Uruguay;
+- (CDStruct_39925896)etic Uganda;
+- (CDStruct_39925896)e
+ZIP
+Country;
+- (unsigned long long)tyTW;
+- (id)tic Panama;
+- (id)nd;
 - (void);
 - (void *);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)Ө;
+- (unsigned long long)additionalCharacters;
 - (id);
 - (id);
-- (id);
+- (id)HardEndpointAtTime:withMetrics:eventType:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void)¢Á5;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long coordinateCount; // @synthesize coordinateCount=_coordinateCount;
-@property(readonly, nonatomic) int elevationModel; // @synthesize elevationModel=_elevationModel;
 @property(readonly, nonatomic) GEOPolylineCoordinateRangeArray *noMatchRanges;
-@property(readonly, nonatomic) unsigned long long pathsCount;
-@property(readonly, nonatomic) _Bool usesRoutingPathPoints; // @synthesize usesRoutingPathPoints=_usesRoutingPathPoints;
-@property(readonly, nonatomic) _Bool usesZilch;
 
 @end
 

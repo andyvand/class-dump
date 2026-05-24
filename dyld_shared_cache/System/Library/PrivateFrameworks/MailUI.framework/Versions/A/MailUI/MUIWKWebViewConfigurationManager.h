@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFManualCancelationToken, EMRemoteContentURLSchemeHandler, EMRemoteContentURLSession, NSArray, NSString, WKWebViewConfiguration, _WKUserStyleSheet;
+@class EMRemoteContentURLSchemeHandler, WKWebViewConfiguration;
 
 @interface MUIWKWebViewConfigurationManager
 {
     EMRemoteContentURLSchemeHandler *_proxySchemeHandler;
-    EMRemoteContentURLSchemeHandler *_noProxySchemeHandler;
-    WKWebViewConfiguration *_configuration;
-    _WKUserStyleSheet *_userStyleSheet;
-    EFManualCancelationToken *_contentRuleListManagerObserverCancelable;
-    EMRemoteContentURLSession *_urlSession;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (void);
 + (id);
-+ (id)ngeOptions: /* Error: Ran out of types for this method. */;
-+ (id)ptions;
++ (id)initWithSenderAddress:origin:actor:categoryType:changeOptions: /* Error: Ran out of types for this method. */;
++ (id)CompareOptions;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,20 +35,10 @@
 - (id);
 - (void);
 - (id);
-- (void)owFollowUpDate: /* Error: Ran out of types for this method. */;
+- (void)setCanShowFollowUpDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allowList;
 @property(readonly, nonatomic) WKWebViewConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *effectiveUserStyle;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) EMRemoteContentURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

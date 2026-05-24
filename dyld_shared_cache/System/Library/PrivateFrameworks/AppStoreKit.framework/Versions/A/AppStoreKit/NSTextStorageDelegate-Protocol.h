@@ -5,5 +5,9 @@
 //
 
 @protocol NSTextStorageDelegate
+
+@optional
+- (void)Ring for calls and alerts.;
+- (void)etadataProvider.cacheActive;
 @end
 

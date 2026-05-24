@@ -6,15 +6,11 @@
 
 #import <PencilKit/PKPaletteButton.h>
 
-@class PKTextInputLanguageSelectionToken, UIImage, UIMenu;
+@class UIImage;
 
 @interface PKPaletteKeyboardButton : PKPaletteButton
 {
     UIImage *_indicatorImage;
-    PKTextInputLanguageSelectionToken *_observerToken;
-    _Bool _enableKeyboardToggle;
-    long long _floatingKeyboardType;
-    UIMenu *_keyboardSelectionMenu;
 }
 
 - (void);
@@ -25,15 +21,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id)rgetIndexPathForMoveFromRowAtIndexPath:(id)arg1 toProposedIndexPath:(struct CGPoint)arg2;
-- (void)nputPointFilter;
+- (id)tableView:(id)arg1 targetIndexPathForMoveFromRowAtIndexPath:(struct CGPoint)arg2 toProposedIndexPath: /* Error: Ran out of types for this method. */;
+- (void)PKInputPointFilter;
 
 // Remaining properties
-@property(nonatomic) _Bool enableKeyboardToggle; // @synthesize enableKeyboardToggle=_enableKeyboardToggle;
 @property(nonatomic) long long floatingKeyboardType; // @synthesize floatingKeyboardType=_floatingKeyboardType;
-@property(retain, nonatomic) UIMenu *keyboardSelectionMenu; // @synthesize keyboardSelectionMenu=_keyboardSelectionMenu;
 
 @end
 

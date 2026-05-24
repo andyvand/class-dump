@@ -9,7 +9,6 @@
 @interface MCTaskOperation
 {
     MCActivityMonitor *_monitor;
-    MCActivityMonitor *_parentMonitor;
 }
 
 + (void);
@@ -25,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(retain) MCActivityMonitor *monitor; // @synthesize monitor=_monitor;
 @property(retain) MCActivityMonitor *parentMonitor; // @synthesize parentMonitor=_parentMonitor;
 
 @end

@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIBarButtonItem;
+
 @protocol _UIBarButtonItemViewOwnerInternal
+- (struct CGRect)handler:(UIBarButtonItem *)arg1 incomingEnrollMeRequest:toIdentifier:fromIdentifier:fromToken:messageGUID:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
 @end
 

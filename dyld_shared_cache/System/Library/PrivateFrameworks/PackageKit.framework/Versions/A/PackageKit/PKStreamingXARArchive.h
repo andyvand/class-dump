@@ -6,13 +6,11 @@
 
 #import <PackageKit/PKXARArchive.h>
 
-@class NSFileHandle, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface PKStreamingXARArchive : PKXARArchive
 {
     NSMutableDictionary *_streamingState;
-    NSFileHandle *_underlyingArchiveFileHandle;
-    NSString *_underlyingArchiveFileName;
 }
 
 + (void);

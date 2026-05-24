@@ -15,8 +15,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)led;
+- (void)getHeadphoneInEarDetectionState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CSPolicy *selfTriggerEnabledPolicyMac; // @synthesize selfTriggerEnabledPolicyMac=_selfTriggerEnabledPolicyMac;

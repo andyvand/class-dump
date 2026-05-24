@@ -4,53 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView, UILabel;
+@class UILabel;
 
 @interface EKCustomTitleView
 {
     _Bool _showSubtitle;
-    _Bool _animating;
-    UILabel *_originalTitle;
-    UILabel *_title;
-    UIImageView *_originalImage;
-    UIImageView *_titleImage;
-    UILabel *_subTitle;
 }
 
-- (id);
+- (id)%s;
 - (void);
-- (void);
+- (void)s;
 - (struct CGRect);
 - (_Bool);
 - (void);
 - (long long);
-- (long long);
-- (id);
+- (long long)z;
+- (id)z;
 - (void);
 - (void);
-- (id);
+- (id)A{;
 - (id);
 - (id);
 - (void);
+- (_Bool)KFz;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)q;
 - (id);
-- (void)ingEventForAttachmentDownloadController: /* Error: Ran out of types for this method. */;
+- (void)owningEventForAttachmentDownloadController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool animating; // @synthesize animating=_animating;
-@property(retain) UIImageView *originalImage; // @synthesize originalImage=_originalImage;
 @property(retain) UILabel *originalTitle; // @synthesize originalTitle=_originalTitle;
-@property _Bool showSubtitle; // @synthesize showSubtitle=_showSubtitle;
-@property(retain) UILabel *subTitle; // @synthesize subTitle=_subTitle;
-@property(retain) UILabel *title; // @synthesize title=_title;
-@property(retain) UIImageView *titleImage; // @synthesize titleImage=_titleImage;
 
 @end
 

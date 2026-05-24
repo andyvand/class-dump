@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UILabelViewTextAttachment.h>
 
-@class UIColor, UIFont, UIView;
+@class UIView;
 @protocol SummarySymbolHosting;
 
 @interface _UILabelSummarySymbolTextAttachment : _UILabelViewTextAttachment
@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (double);
+- (id)setReplicationSourceServiceNameOverride:(_Bool)arg1;
+- (double);
 - (id)0;
 - (void)eSessionMap]_block_invoke;
 - (_Bool)¢.3GG´.3y	.3y+¾7GGGAByAByACÓ.3GAJGG;
@@ -28,9 +28,6 @@
 - (id)wÿ®vñ;
 
 // Remaining properties
-@property(retain, nonatomic) UIFont *font;
-@property(retain, nonatomic) UIColor *foregroundColor;
-@property(nonatomic) _Bool isOn;
 @property(retain, nonatomic) UIView<SummarySymbolHosting> *summarySymbolView; // @synthesize summarySymbolView=_summarySymbolView;
 
 @end

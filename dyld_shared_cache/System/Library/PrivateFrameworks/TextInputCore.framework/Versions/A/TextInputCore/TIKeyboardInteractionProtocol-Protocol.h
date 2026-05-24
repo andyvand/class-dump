@@ -5,8 +5,11 @@
 //
 
 @protocol TIKeyboardInteractionProtocol
+- (void);
+- (void);
+- (void);
 - (void)× ;
-- (void)edentialAutoFill;
+- (void)authenticationRequiredForCredentialAutoFill;
 - (void),V_profileInstallationDate;
 @end
 

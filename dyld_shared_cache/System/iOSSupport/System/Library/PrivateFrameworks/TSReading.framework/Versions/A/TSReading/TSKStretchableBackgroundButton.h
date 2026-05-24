@@ -7,22 +7,21 @@
 @interface TSKStretchableBackgroundButton
 {
     long long mBackgroundTopCapHeight;
-    long long mBackgroundLeftCapWidth;
 }
 
+- (void)overlap support;
 - (void);
-- (void);
-- (void);
+- (void)transition data returned from request;
 - (void);
 - (void);
 - (long long);
 - (long long);
-- (void);
+- (void)8
+;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long backgroundLeftCapWidth; // @synthesize backgroundLeftCapWidth=mBackgroundLeftCapWidth;
 @property(nonatomic) long long backgroundTopCapHeight; // @synthesize backgroundTopCapHeight=mBackgroundTopCapHeight;
 
 @end

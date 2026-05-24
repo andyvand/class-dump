@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCategorySearchResultSection, GEODirectionIntent, GEOGuideSummaryLayoutMetadata, GEOMapRegion, GEOMapServiceTraits, GEOPDPlaceSummaryLayoutMetadata, GEORelatedSearchSuggestion, GEOResolvedItem, GEOResultRefinementGroup, GEOSearchAutoRedoThreshold, GEOSearchRedoButtonThreshold, GEOSearchSectionList, GEOSearchSessionData, MKMapItemIdentifier, NSArray, NSError, NSString;
+@class GEOMapServiceTraits;
 @protocol GEOMapServiceTicket;
 
 __attribute__((visibility("hidden")))
 @interface _MKTicket
 {
     id <GEOMapServiceTicket> _ticket;
-    NSArray *_exactMapItems;
-    NSArray *_refinedMapItems;
-    NSError *_error;
 }
 
 - (void);
@@ -25,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -37,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -53,65 +50,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id)9;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (int)`;
 - (id);
 - (void);
-- (id);
-- (void);
-- (int);
-- (id);
-- (void);
-- (void);
-- (void)itWithLineItem: /* Error: Ran out of types for this method. */;
+- (void),V_IMCloudKitSyncPaused;
+- (void)initWithLineItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapRegion *boundingRegion;
-@property(readonly, nonatomic) NSArray *browseCategories;
-@property(readonly, nonatomic) GEOCategorySearchResultSection *categorySearchResultSection;
-@property(readonly, nonatomic, getter=isChainResultSet) _Bool chainResultSet;
-@property(readonly, nonatomic) GEOResolvedItem *clientResolvedResult;
-@property(readonly, nonatomic) NSArray *collectionResults;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) GEORelatedSearchSuggestion *defaultRelatedSuggestion;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) GEODirectionIntent *directionIntent;
-@property(readonly, nonatomic) _Bool disableAdditionalViewportPadding;
-@property(readonly, nonatomic) NSArray *displayHeaderSubstitutes;
-@property(readonly, nonatomic) NSArray *dotPlaces;
-@property(readonly, nonatomic) unsigned int dymSuggestionVisibleTime;
-@property(readonly, nonatomic) _Bool enableStructuredRAPAffordance;
-@property(readonly, nonatomic) NSError *error;
-@property(readonly, nonatomic) NSArray *exactMapItems;
-@property(readonly, nonatomic) GEOGuideSummaryLayoutMetadata *guideSummaryLayoutMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int mapDisplayType;
-@property(readonly, nonatomic) MKMapItemIdentifier *mapItemIdentifierForSpotlight;
-@property(readonly, nonatomic) GEOPDPlaceSummaryLayoutMetadata *placeSummaryLayoutMetadata;
-@property(readonly, nonatomic) NSArray *publisherResults;
-@property(readonly, nonatomic) NSArray *refinedMapItems;
-@property(readonly, nonatomic) NSArray *relatedEntitySections;
-@property(readonly, nonatomic) NSArray *relatedSearchSuggestions;
-@property(readonly, nonatomic) NSString *resultDisplayHeader;
-@property(readonly, nonatomic) GEOResultRefinementGroup *resultRefinementGroup;
-@property(readonly, nonatomic) NSArray *retainedSearchMetadata;
-@property(readonly, nonatomic) GEOSearchAutoRedoThreshold *searchAutoRedoThreshold;
-@property(readonly, nonatomic) GEOSearchRedoButtonThreshold *searchRedoButtonThreshold;
-@property(readonly, nonatomic) NSArray *searchResultSections;
-@property(readonly, nonatomic) int searchResultType;
-@property(readonly, nonatomic) int searchResultViewType;
-@property(readonly, nonatomic) GEOSearchSectionList *searchSectionList;
-@property(readonly, nonatomic) GEOSearchSessionData *searchSessionData;
-@property(readonly, nonatomic) NSString *sectionHeader;
-@property(readonly, nonatomic) _Bool shouldAllowManualRedoButton;
-@property(readonly, nonatomic) _Bool shouldEnableRedoSearch;
-@property(readonly, nonatomic) _Bool showDymSuggestionCloseButton;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;
 
 @end

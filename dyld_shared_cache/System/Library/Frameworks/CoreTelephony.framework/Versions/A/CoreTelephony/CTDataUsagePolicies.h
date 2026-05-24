@@ -9,14 +9,9 @@
 @interface CTDataUsagePolicies
 {
     _Bool _isManaged;
-    _Bool _isRestricted;
-    NSString *_bundleId;
-    long long _cellular;
-    long long _satellite;
-    long long _wifi;
 }
 
-+ (_Bool);
++ (_Bool)authkeychain;
 - (void);
 - (void);
 - (long long);
@@ -24,8 +19,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)H;
+- (id)h;
 - (void);
 - (unsigned long long);
 - (id);
@@ -37,16 +32,11 @@
 - (long long);
 - (void);
 - (void);
-- (_Bool)CreatePDPAssertion;
+- (_Bool)kPacketCreatePDPAssertion;
 - (long long)òÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) long long cellular; // @synthesize cellular=_cellular;
-@property(nonatomic) _Bool isManaged; // @synthesize isManaged=_isManaged;
-@property(nonatomic) _Bool isRestricted; // @synthesize isRestricted=_isRestricted;
-@property(nonatomic) long long satellite; // @synthesize satellite=_satellite;
-@property(nonatomic) long long wifi; // @synthesize wifi=_wifi;
 
 @end
 

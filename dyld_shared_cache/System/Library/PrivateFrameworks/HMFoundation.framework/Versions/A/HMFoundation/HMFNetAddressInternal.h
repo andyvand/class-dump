@@ -6,23 +6,19 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMFNetAddressInternal : HMFObject
 {
     unsigned long long _addressFamily;
-    NSString *_addressString;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)setHasCurrentDeviceIDSWaitMSHH2: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long addressFamily; // @synthesize addressFamily=_addressFamily;
-@property(readonly, copy, nonatomic) NSString *addressString; // @synthesize addressString=_addressString;
 
 @end
 

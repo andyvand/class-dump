@@ -10,10 +10,10 @@
 }
 
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
+- (void);
+- (id)rsions/A/BaseBoard;
+- (unsigned long long)tem/Library/PrivateFrameworks/PassKitUIFoundation.framework/Versions/A/PassKitUIFoundation;
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long osStateHandle; // @synthesize osStateHandle=_osStateHandle;

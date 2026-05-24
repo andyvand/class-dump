@@ -5,5 +5,11 @@
 //
 
 @protocol NSLayoutManagerDelegate
+
+@optional
+- (_Bool)1;
+- (double);
+- (double);
+- (void)nColumnCount;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNVCardDateComponentsFormatter, NSCalendar;
+@class CNVCardDateComponentsFormatter;
 
 @interface CNVCardDateComponentsParser
 {
     CNVCardDateComponentsFormatter *_formatter;
-    NSCalendar *_gregorianCalendar;
 }
 
 - (id);
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)<;
 
 @end
 

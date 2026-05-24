@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDataString, _INPBTimestamp, _INPBURLValue;
+@class _INPBURLValue;
 
 @interface _INPBReservation
 {
     struct {
         unsigned int reservationStatus:1;
     } _has;
-    int _reservationStatus;
-    _INPBURLValue *_url;
-    NSArray *_actions;
-    _INPBTimestamp *_bookingTime;
-    _INPBDataString *_itemReference;
-    NSString *_reservationHolderName;
-    NSString *_reservationNumber;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -40,46 +33,26 @@
 - (id);
 - (id);
 - (int);
-- (void);
-- (void);
+- (void)h;
+- (void)n;
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
+- (_Bool)TH;
+- (id);
+- (void)*;
+- (unsigned long long)DEventDeferringToken:empty string /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)kSCDynamicStoreDomainSetup;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)liptical;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(readonly, nonatomic) unsigned long long actionsCount;
-@property(retain, nonatomic) _INPBTimestamp *bookingTime; // @synthesize bookingTime=_bookingTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasBookingTime;
-@property(readonly, nonatomic) _Bool hasItemReference;
-@property(readonly, nonatomic) _Bool hasReservationHolderName;
-@property(readonly, nonatomic) _Bool hasReservationNumber;
-@property(nonatomic) _Bool hasReservationStatus;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBDataString *itemReference; // @synthesize itemReference=_itemReference;
-@property(copy, nonatomic) NSString *reservationHolderName; // @synthesize reservationHolderName=_reservationHolderName;
-@property(copy, nonatomic) NSString *reservationNumber; // @synthesize reservationNumber=_reservationNumber;
-@property(nonatomic) int reservationStatus; // @synthesize reservationStatus=_reservationStatus;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _INPBURLValue *url; // @synthesize url=_url;
 
 @end

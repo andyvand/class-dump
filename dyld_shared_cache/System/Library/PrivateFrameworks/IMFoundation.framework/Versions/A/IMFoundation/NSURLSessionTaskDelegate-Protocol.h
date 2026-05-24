@@ -4,10 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void)m;
+- (void)fault input device:(NSURLSession *)arg1 0x%x;
+- (void)<;
 - (void)add query as item;
-- (void)ons;
+- (void)AllowsMultipleConnections;
 @end
 

@@ -6,15 +6,11 @@
 
 #import <LoginUIKit/LUIViewController.h>
 
-@class NSMutableArray, NSStackView, NSTimer;
+@class NSStackView;
 
 @interface LUIStatusViewController : LUIViewController
 {
     NSStackView *_stackView;
-    NSMutableArray *_statusControllers;
-    id _infoStatus;
-    NSTimer *_infoStatusTimer;
-    _Bool _layoutComplete;
 }
 
 + (id);

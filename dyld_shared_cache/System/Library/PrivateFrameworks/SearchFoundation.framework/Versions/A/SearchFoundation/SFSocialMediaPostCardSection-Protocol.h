@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString, SFImage, SFRichText;
+@class NSString, SFRichText;
 
 @protocol SFSocialMediaPostCardSection
+- (SFRichText *)ilitySharedUISupport.framework/AccessibilitySharedUISupport;
+- (NSString *)waitTimeInterval;
+- (void)ata;
+- (void);
 - (void)der",&,N;
 - (void)¸;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *footnote;
-@property(copy, nonatomic) NSString *handle;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSNumber *nameMaxLines;
-@property(nonatomic) _Bool nameNoWrap;
-@property(retain, nonatomic) SFImage *picture;
-@property(retain, nonatomic) SFRichText *post;
-@property(retain, nonatomic) SFImage *profilePicture;
-@property(copy, nonatomic) NSString *timestamp;
 @property(copy, nonatomic) NSString *type;
-@property(retain, nonatomic) SFImage *verifiedGlyph;
 @end
 

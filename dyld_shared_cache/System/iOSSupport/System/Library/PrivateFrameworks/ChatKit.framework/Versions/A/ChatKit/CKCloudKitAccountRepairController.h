@@ -12,16 +12,16 @@ __attribute__((visibility("hidden")))
     CDPUIDeviceToDeviceEncryptionHelper *_encryptionHelper;
 }
 
-- (void);
-- (id);
+- (void)progressThreshold;
+- (id).circle.badge.checkmark;
 - (void);
 - (Class);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)ADt;
-- (void)iptBackgroundView;
+- (id)SgADtGGAdwdwdwdwdwDtGGAMGADt;
+- (void)CKPosterRenderingTranscriptBackgroundView;
 
 // Remaining properties
 @property(retain, nonatomic) CDPUIDeviceToDeviceEncryptionHelper *encryptionHelper; // @synthesize encryptionHelper=_encryptionHelper;

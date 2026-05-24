@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata, _INPBTaskList;
+@class _INPBIntentMetadata, _INPBTaskList;
 
 @protocol _INPBDeleteTasksIntent
-- (_Bool)dValue: /* Error: Ran out of types for this method. */;
++ (Class);
+- (_INPBTaskList *)C;
+- (void);
+- (_Bool)NOTIFICATION_CUSTODIAN_REMOVED_TITLE;
+- (_INPBIntentMetadata *)db;
+- (_Bool)addPayloadPaymentMethodValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool all;
-@property(nonatomic) _Bool hasAll;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTaskList;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBTaskList *taskList;
-@property(copy, nonatomic) NSArray *tasks;
-@property(readonly, nonatomic) unsigned long long tasksCount;
 @end
 

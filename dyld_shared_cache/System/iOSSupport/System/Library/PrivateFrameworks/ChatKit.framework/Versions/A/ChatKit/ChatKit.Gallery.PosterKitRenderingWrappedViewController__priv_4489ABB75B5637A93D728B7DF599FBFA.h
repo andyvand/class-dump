@@ -7,16 +7,13 @@
 @interface ChatKit.Gallery.PosterKitRenderingWrappedViewController__priv_4489ABB75B5637A93D728B7DF599FBFA
 {
     id posterContents;
-    id snapshotController;
-    id channelIdentifier;
-    id wrappedViewController;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)wCell;
+- (void)CKDetailsMapViewCell;
 - (void);
 
 @end

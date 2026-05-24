@@ -5,5 +5,6 @@
 //
 
 @protocol GEOConfigChangeListenerDelegate
+- (void);
 @end
 

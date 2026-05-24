@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NLXSchemaSSUUserRequestMatchInfo, NSData;
-
 @interface NLXSchemaSSUUserRequestCacheEntryInfo : SISchemaInstrumentationMessage
 {
     int _triggerReason;
-    int _categoryType;
-    unsigned int _numEncodingSimilarityScoreComparisons;
-    double _closestNegativeExampleScore;
-    double _closestPositiveExampleScore;
-    NLXSchemaSSUUserRequestMatchInfo *_matchInfo;
-    struct {
-        unsigned int triggerReason:1;
-        unsigned int categoryType:1;
-        unsigned int numEncodingSimilarityScoreComparisons:1;
-        unsigned int closestNegativeExampleScore:1;
-        unsigned int closestPositiveExampleScore:1;
-    } _has;
-    _Bool _hasMatchInfo;
 }
 
 - (void);
@@ -53,12 +38,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (unsigned long long);
 - (int);
-- (_Bool);
+- (_Bool)`;
 - (id);
 - (_Bool);
 - (id);
@@ -67,21 +52,9 @@
 - (id)ks;
 - (void)SubSearchExecutions;
 - (id)OrChanged;
-- (void)N_NO;
+- (void)FLEVALUATIONSOURCE_ACTION_CONFIRMATION_NO;
 
 // Remaining properties
-@property(nonatomic) int categoryType; // @synthesize categoryType=_categoryType;
-@property(nonatomic) double closestNegativeExampleScore; // @synthesize closestNegativeExampleScore=_closestNegativeExampleScore;
-@property(nonatomic) double closestPositiveExampleScore; // @synthesize closestPositiveExampleScore=_closestPositiveExampleScore;
-@property(nonatomic) _Bool hasCategoryType;
-@property(nonatomic) _Bool hasClosestNegativeExampleScore;
-@property(nonatomic) _Bool hasClosestPositiveExampleScore;
-@property(nonatomic) _Bool hasMatchInfo; // @synthesize hasMatchInfo=_hasMatchInfo;
-@property(nonatomic) _Bool hasNumEncodingSimilarityScoreComparisons;
-@property(nonatomic) _Bool hasTriggerReason;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) NLXSchemaSSUUserRequestMatchInfo *matchInfo; // @synthesize matchInfo=_matchInfo;
-@property(nonatomic) unsigned int numEncodingSimilarityScoreComparisons; // @synthesize numEncodingSimilarityScoreComparisons=_numEncodingSimilarityScoreComparisons;
 @property(nonatomic) int triggerReason; // @synthesize triggerReason=_triggerReason;
 
 @end

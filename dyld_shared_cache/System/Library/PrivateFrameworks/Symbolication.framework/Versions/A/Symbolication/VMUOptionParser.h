@@ -4,66 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableString, NSString, VMUAnalyticsEvent;
+@class NSString;
 
 @interface VMUOptionParser
 {
     NSString *_purposeDescription;
-    NSString *_syntaxDescription;
-    NSString *_discussionDescription;
-    NSMutableArray *_optionDescriptions;
-    NSMutableArray *_appleInternalOptionDescriptions;
-    NSMutableDictionary *_optionBlockByString;
-    struct __CFArray *_longOptStructs;
-    NSMutableString *_shortOpts;
-    unsigned long long _spacing;
-    _Bool _singleHyphenLongNames;
-    _Bool _parametersShowAsAssignment;
-    NSString *_customUsageDescription;
-    VMUAnalyticsEvent *_analyticsEvent;
-    NSMutableDictionary *_shortToLongNameMap;
-    _Bool _abortOnError;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)4;
 - (int);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void)initWithWindow:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void)setAXAttribute:(_Bool)arg1 withRange: /* Error: Ran out of types for this method. */;
+- (void)setCommunicationLimitsDelegate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool abortOnError; // @synthesize abortOnError=_abortOnError;
-@property(retain, nonatomic) VMUAnalyticsEvent *analyticsEvent; // @synthesize analyticsEvent=_analyticsEvent;
-@property(copy, nonatomic) NSString *customUsageDescription; // @synthesize customUsageDescription=_customUsageDescription;
-@property(copy, nonatomic) NSString *discussion; // @synthesize discussion=_discussionDescription;
-@property(readonly) int optind;
-@property(nonatomic) _Bool parametersShowAsAssignment; // @synthesize parametersShowAsAssignment=_parametersShowAsAssignment;
 @property(copy, nonatomic) NSString *purposeDescription; // @synthesize purposeDescription=_purposeDescription;
-@property(nonatomic) _Bool singleHyphenLongNames; // @synthesize singleHyphenLongNames=_singleHyphenLongNames;
-@property(copy, nonatomic) NSString *syntaxDescription; // @synthesize syntaxDescription=_syntaxDescription;
 
 @end
 

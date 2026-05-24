@@ -6,13 +6,12 @@
 
 #import <OfficeImport/OCXReadState.h>
 
-@class CXNamespace, OAXDrawingState;
+@class CXNamespace;
 
 __attribute__((visibility("hidden")))
 @interface ODXState : OCXReadState
 {
     CXNamespace *mODXDiagramNamespace;
-    OAXDrawingState *mOfficeArtState;
 }
 
 - (void);

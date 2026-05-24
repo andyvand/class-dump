@@ -4,29 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BannerContainerView, BrowserWindowContentSplitViewController, FindBanner, HeaderFooterPrintRenderer, NSArray, NSMutableArray, NSScrollPocket, NSString, NSURL, SearchableWKView, TabContentViewController, WKWebViewConfiguration, WKWebsiteDataStore;
-
 __attribute__((visibility("hidden")))
 @interface WebViewController
 {
     struct RefPtr<Safari::WebViewControllerWKAdapter, WTF::RawPtrTraits<Safari::WebViewControllerWKAdapter>, WTF::DefaultRefDerefTraits<Safari::WebViewControllerWKAdapter>> _webViewControllerWKAdapter;
-    NSMutableArray *_bannerActionQueue;
-    BannerContainerView *_bannerContainerView;
-    NSMutableArray *_installedBanners;
-    _Bool _isDeferringViewInWindowChanges;
-    _Bool _isDeferringObscuredInsetChangesUsingSafeAreaInsets;
-    NSScrollPocket *_cachedWebViewTopScrollPocket;
-    _Bool _isObservingTopScrollPocketColorChange;
-    _Bool _canInstallBannerContainer;
-    _Bool _bannerContainerFollowsFullScreenContent;
-    _Bool _isClosed;
-    SearchableWKView *_webView;
-    WKWebViewConfiguration *_configuration;
-    HeaderFooterPrintRenderer *_headerFooterPrintRenderer;
-    unsigned long long _browsingMode;
-    WKWebsiteDataStore *_websiteDataStore;
-    FindBanner *_findBanner;
-    double _inheritedTopContentInset;
 }
 
 - (void);
@@ -45,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)ԗ;
 - (void);
 - (void);
 - (void);
@@ -62,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
@@ -77,26 +58,26 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (void);
@@ -113,7 +94,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -123,7 +104,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -135,20 +116,20 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)hhxh;
 - (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)ueue:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_applicationWorkspace;
+- (void)IMMMSGroupTextReplicationSupportedForPhoneNumber:simID: /* Error: Ran out of types for this method. */;
+- (void)aultPrimaryFilterMode:(id)arg1 %s;
 - (struct Page);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id)À;
@@ -161,45 +142,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_isCurrentPageSearchable) _Bool _currentPageSearchable;
-@property(readonly, nonatomic, getter=_isTopScrollPocketColorDisabled) _Bool _topScrollPocketColorDisabled;
-@property(readonly, nonatomic) BrowserWindowContentSplitViewController *_windowContentSplitViewController;
-@property(readonly, nonatomic) unsigned long long browsingMode; // @synthesize browsingMode=_browsingMode;
-@property(readonly, nonatomic) _Bool canFindNextInPage;
-@property(readonly, nonatomic) _Bool canFindPreviousInPage;
-@property(readonly, nonatomic) _Bool canFocusContentSearchField;
-@property(readonly, nonatomic) _Bool canHideFindInPageBanner;
-@property(readonly, nonatomic) _Bool canPrint;
-@property(readonly, nonatomic) _Bool canShowFindInPageBanner;
-@property(readonly, nonatomic) _Bool canShowWebInspector;
-@property(readonly, nonatomic) NSURL *committedURL;
-@property(readonly, copy, nonatomic) WKWebViewConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(copy, nonatomic) NSString *customUserAgent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) FindBanner *findBanner; // @synthesize findBanner=_findBanner;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HeaderFooterPrintRenderer *headerFooterPrintRenderer; // @synthesize headerFooterPrintRenderer=_headerFooterPrintRenderer;
-@property(nonatomic) double inheritedTopContentInset; // @synthesize inheritedTopContentInset=_inheritedTopContentInset;
-@property(readonly, copy, nonatomic) NSArray *installedBanners; // @synthesize installedBanners=_installedBanners;
-@property(readonly, nonatomic) _Bool isClosed; // @synthesize isClosed=_isClosed;
-@property(readonly, nonatomic, getter=isLocked) _Bool locked;
-@property(readonly, nonatomic) struct Page page;
-@property(readonly, copy, nonatomic) NSString *pageTitle;
-@property(readonly, nonatomic, getter=isShowingFindInPageBanner) _Bool showingFindInPageBanner;
-@property(readonly, nonatomic, getter=isShowingStandaloneImage) _Bool showingStandaloneImage;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) TabContentViewController *tabContentViewController;
-@property(readonly, nonatomic, getter=isTopContentInsetCurrentlyUsed) _Bool topContentInsetCurrentlyUsed;
-@property(readonly, copy, nonatomic) NSString *userAgent;
-@property(readonly, nonatomic) _Bool usesPrivateBrowsing;
-@property(readonly, nonatomic) int webProcessIdentifier;
-@property(readonly, nonatomic) SearchableWKView *webView; // @synthesize webView=_webView;
-@property(readonly, nonatomic) void *webViewControllerWKAdapter;
-@property(readonly, nonatomic) WKWebsiteDataStore *websiteDataStore; // @synthesize websiteDataStore=_websiteDataStore;
 @property(nonatomic, setter=_setZoomFactor:) double zoomFactor;
 
 @end

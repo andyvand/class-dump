@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class BSServiceConnection;
+@protocol BSServiceConnectionHost, NSObject><ECAuthenticationKey;
+
 @protocol CPXRemoteViewEventManagerConfig
+- (_Bool)oc failure;
+- (_Bool)nts;
+- (id <NSObject><ECAuthenticationKey>)th %d with known keys:(BSServiceConnection<BSServiceConnectionHost> *)arg1 %@ and %@;
+- (void)p has %d branch rows:(struct __CGEvent *)arg1 (...);
 @end
 

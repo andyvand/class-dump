@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSArray;
 
 @interface SASyncGetAnchorsResponse : SABaseClientBoundCommand
 {
@@ -22,25 +22,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id)tchComposition;
-- (void)s;
+- (id)multiUserPitchComposition;
+- (void)objects;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
 @property(copy, nonatomic) NSArray *anchors;
-@property(copy, nonatomic) NSString *authToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *primeToken;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *syncDataReset;
 
 @end
 

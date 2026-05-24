@@ -6,40 +6,32 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class NSArray, NSDate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebFetchTreatmentsAction : AMSUIWebAction
 {
     _Bool _includeExperimentData;
-    _Bool _includePayload;
-    NSArray *_areaIds;
-    NSDate *_endDate;
-    NSDate *_startDate;
 }
 
 + (id);
 + (id)ÿq;
-- (void);
-- (void);
-- (void);
+- (void)mpts:(_Bool)arg1 %{public}lu, status:%{public}lu /* Error: Ran out of types for this method. */;
+- (void)blic}@, buildVersion:(_Bool)arg1 %{public}@, attempts:%{public}lu, status:%{public}lu /* Error: Ran out of types for this method. */;
+- (void)@ with error:(id)arg1 %{public}@;
+- (id)public}@;
 - (id);
-- (id);
+- (_Bool)ʺ;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void)AuthorizedPeerPaymentQuote"24@?<v@?@"PKPaymentAuthorizationResult">32;
 
 // Remaining properties
 @property(retain) NSArray *areaIds; // @synthesize areaIds=_areaIds;
-@property(retain) NSDate *endDate; // @synthesize endDate=_endDate;
-@property _Bool includeExperimentData; // @synthesize includeExperimentData=_includeExperimentData;
-@property _Bool includePayload; // @synthesize includePayload=_includePayload;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

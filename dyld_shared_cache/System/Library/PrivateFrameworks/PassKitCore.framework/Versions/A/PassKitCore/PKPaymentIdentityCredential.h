@@ -6,16 +6,11 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSString, PKIdentityProvisioningAttestations, PKShareablePassMetadata;
+@class NSString;
 
 @interface PKPaymentIdentityCredential : PKPaymentCredential
 {
     NSString *_isoCredentialIdentifier;
-    PKShareablePassMetadata *_shareableMetadata;
-    NSString *_passTypeIdentifier;
-    NSString *_passSerialNumber;
-    NSString *_accountKeyIdentifier;
-    PKIdentityProvisioningAttestations *_attestations;
 }
 
 + (_Bool)qî%Ð1Â0@ù
@@ -31,20 +26,14 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void)Added;
+- (void),Q	;
+- (void)wallet:featureApplicationAdded /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountKeyIdentifier; // @synthesize accountKeyIdentifier=_accountKeyIdentifier;
-@property(retain, nonatomic) PKIdentityProvisioningAttestations *attestations; // @synthesize attestations=_attestations;
-@property(readonly, nonatomic) _Bool hasExistingPassInformation;
 @property(readonly, nonatomic) NSString *isoCredentialIdentifier; // @synthesize isoCredentialIdentifier=_isoCredentialIdentifier;
-@property(copy, nonatomic) NSString *passSerialNumber; // @synthesize passSerialNumber=_passSerialNumber;
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(readonly, nonatomic) PKShareablePassMetadata *shareableMetadata; // @synthesize shareableMetadata=_shareableMetadata;
 
 @end
 

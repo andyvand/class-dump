@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NUComposition, NUImageBufferRenderRequest, PIThumbnailGenerator;
-@protocol OS_dispatch_queue;
+@class NUComposition;
 
 @interface _PIThumbnailGeneratorSnapshot
 {
     NUComposition *_composition;
-    NUImageBufferRenderRequest *_request;
-    NSArray *_thumbnailTimes;
-    NSArray *_unadjustedThumbnails;
-    NSObject<OS_dispatch_queue> *_resultQueue;
-    CDUnknownBlockType _partialResultHandler;
-    CDUnknownBlockType _completionHandler;
-    _PIThumbnailGeneratorSnapshot *_pendingSnapshot;
-    PIThumbnailGenerator *_generator;
-    CDStruct_1b6d18a9 _referenceTime;
 }
 
 - (id);
@@ -28,33 +18,24 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)';
 - (id);
 - (void);
 - (CDStruct_1b6d18a9);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)r"16;
 - (CDUnknownBlockType);
 - (id);
-- (void);
+- (void)f;
 - (void);
 - (void)=dd}}64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48o^@56 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(copy, nonatomic) NUComposition *composition; // @synthesize composition=_composition;
-@property(nonatomic) __weak PIThumbnailGenerator *generator; // @synthesize generator=_generator;
-@property(copy, nonatomic) CDUnknownBlockType partialResultHandler; // @synthesize partialResultHandler=_partialResultHandler;
-@property(retain, nonatomic) _PIThumbnailGeneratorSnapshot *pendingSnapshot; // @synthesize pendingSnapshot=_pendingSnapshot;
-@property(nonatomic) CDStruct_1b6d18a9 referenceTime; // @synthesize referenceTime=_referenceTime;
-@property(retain, nonatomic) NUImageBufferRenderRequest *request; // @synthesize request=_request;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *resultQueue; // @synthesize resultQueue=_resultQueue;
-@property(copy, nonatomic) NSArray *thumbnailTimes; // @synthesize thumbnailTimes=_thumbnailTimes;
-@property(copy, nonatomic) NSArray *unadjustedThumbnails; // @synthesize unadjustedThumbnails=_unadjustedThumbnails;
 
 @end
 

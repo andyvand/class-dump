@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)ion or revival;
++ (id)dated title after attachment deletion or revival;
++ (id), attachmentUTI:(id)arg1 %@};
++ (id)e body {attachmentIdentifier:(id)arg1 %@, attachmentUTI:%@} /* Error: Ran out of types for this method. */;
 + (struct CLLocationCoordinate2D);
 + (id);
 

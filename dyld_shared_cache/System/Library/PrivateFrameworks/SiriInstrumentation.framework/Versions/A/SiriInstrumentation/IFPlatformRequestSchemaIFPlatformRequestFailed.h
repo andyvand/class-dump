@@ -6,15 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface IFPlatformRequestSchemaIFPlatformRequestFailed : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_criticalError;
-    _Bool _hasCriticalError;
 }
 
-- (void);
+- (void)˟;
 - (void);
 - (_Bool);
 - (void);
@@ -22,10 +21,10 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tem/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)locationForHandle:completion: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
 - (id);
@@ -34,8 +33,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *criticalError; // @synthesize criticalError=_criticalError;
-@property(nonatomic) _Bool hasCriticalError; // @synthesize hasCriticalError=_hasCriticalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

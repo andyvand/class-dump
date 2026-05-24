@@ -9,30 +9,26 @@
 @interface HPDReachability
 {
     NSString *_hostName;
-    CDUnknownBlockType _reachabilityChangedBlock;
-    struct __SCNetworkReachability *_reachabilityRef;
 }
 
 + (id);
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)(?,?,?,?,?,?);;
 - (void);
 - (void);
 - (struct __SCNetworkReachability *);
 - (_Bool)or-scheme" content="light dark"/>;
 
 // Remaining properties
-@property(retain) NSString *hostName; // @synthesize hostName=_hostName;
-@property(copy) CDUnknownBlockType reachabilityChangedBlock; // @synthesize reachabilityChangedBlock=_reachabilityChangedBlock;
 @property struct __SCNetworkReachability *reachabilityRef; // @synthesize reachabilityRef=_reachabilityRef;
 
 @end

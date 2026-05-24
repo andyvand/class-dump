@@ -6,33 +6,27 @@
 
 #import <AccessibilityVisuals/AXVVoiceOverStyleWindow.h>
 
-@protocol NSObject;
-
 @interface AXVOverlayWindow : AXVVoiceOverStyleWindow
 {
     _Bool _spansAllScreens;
-    id <NSObject> __windowResizeObservation;
-    struct CGRect __frameBeforeSpanningAllScreens;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (struct CGRect);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic) struct CGRect _frameBeforeSpanningAllScreens; // @synthesize _frameBeforeSpanningAllScreens=__frameBeforeSpanningAllScreens;
-@property(retain, nonatomic) id <NSObject> _windowResizeObservation; // @synthesize _windowResizeObservation=__windowResizeObservation;
-@property(nonatomic) _Bool spansAllScreens; // @synthesize spansAllScreens=_spansAllScreens;
 
 @end
 

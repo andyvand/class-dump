@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
+@class NSString;
 
 @protocol AXDataAxisDescriptor
+- (void)jjjjjjkkr;
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *attributedTitle;
 @property(copy, nonatomic) NSString *title;
 @end
 

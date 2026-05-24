@@ -6,17 +6,11 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPArtworkMetadata, LPImage, NSString;
+@class NSString;
 
 @interface LPiTunesMediaTVEpisodeMetadata : LPSpecializationMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_episodeName;
-    NSString *_seasonName;
-    NSString *_genre;
-    LPImage *_artwork;
-    LPArtworkMetadata *_artworkMetadata;
 }
 
 + (id);
@@ -25,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -37,33 +31,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)er.m;
+- (id):%p; %{public}@, %@> /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)iceImages-12.0/RealityDevice/%@/online-sourcelist%@.png;
 - (void);
 - (void);
 - (id)¼;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(copy, nonatomic) LPArtworkMetadata *artworkMetadata; // @synthesize artworkMetadata=_artworkMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *episodeName; // @synthesize episodeName=_episodeName;
-@property(copy, nonatomic) NSString *genre; // @synthesize genre=_genre;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *seasonName; // @synthesize seasonName=_seasonName;
-@property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

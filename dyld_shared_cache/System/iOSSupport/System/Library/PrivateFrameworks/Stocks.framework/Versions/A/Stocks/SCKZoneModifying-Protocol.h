@@ -5,5 +5,7 @@
 //
 
 @protocol SCKZoneModifying
+- (_Bool);
+- (void)k{;
 @end
 

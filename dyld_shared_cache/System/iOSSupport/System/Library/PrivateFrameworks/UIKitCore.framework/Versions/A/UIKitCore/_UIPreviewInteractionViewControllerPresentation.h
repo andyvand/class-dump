@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIPreviewPresentationController, UIView, UIViewController;
-@protocol _UIPreviewInteractionViewControllerTransition;
+@class UIViewController;
 
 @interface _UIPreviewInteractionViewControllerPresentation
 {
     _Bool _shouldUseCATransitions;
-    _Bool _shouldFlipFromAndToViewsForDisappearanceTransition;
-    _Bool _shouldUpdateFromViewBeforePresentation;
-    _Bool _shouldPresentAutomatically;
-    UIViewController *_viewController;
-    UIView *_customContainerView;
-    UIPreviewPresentationController *_presentationController;
-    id <_UIPreviewInteractionViewControllerTransition> _appearanceTransition;
-    id <_UIPreviewInteractionViewControllerTransition> _disappearanceTransition;
-    CDUnknownBlockType _privatePresentationBlock;
-    CDUnknownBlockType _privatePresentationCompletionBlock;
-    UIView *_customViewForTouchContinuation;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)VP_SQID_NUM_PARAMETERS;
+- (void)VP_SQID_NUM_INSTRUCTIONS;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
@@ -41,29 +29,18 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
+- (id)setConsumedSessionPayloads: /* Error: Ran out of types for this method. */;
+- (id)reindexRecentMessagesWithHandles:batchDeferralTime:messageAge:reason: /* Error: Ran out of types for this method. */;
+- (id)registerForMessagesDeletionAwareTaskWithIdentifier:usingQueue:launchHandler: /* Error: Ran out of types for this method. */;
+- (id)handleAcceptChatCommandWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)e %@ is permitted to upgrade;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_disableQueueModifications;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id)r;
+- (id)coreLayoutInvalidator;
 - (void)N134;
 
 // Remaining properties
-@property(retain, nonatomic) id <_UIPreviewInteractionViewControllerTransition> appearanceTransition; // @synthesize appearanceTransition=_appearanceTransition;
-@property(retain, nonatomic) UIView *customContainerView; // @synthesize customContainerView=_customContainerView;
-@property(nonatomic) __weak UIView *customViewForTouchContinuation; // @synthesize customViewForTouchContinuation=_customViewForTouchContinuation;
-@property(retain, nonatomic) id <_UIPreviewInteractionViewControllerTransition> disappearanceTransition; // @synthesize disappearanceTransition=_disappearanceTransition;
-@property(retain, nonatomic) UIPreviewPresentationController *presentationController; // @synthesize presentationController=_presentationController;
-@property(copy, nonatomic) CDUnknownBlockType privatePresentationBlock; // @synthesize privatePresentationBlock=_privatePresentationBlock;
-@property(copy, nonatomic) CDUnknownBlockType privatePresentationCompletionBlock; // @synthesize privatePresentationCompletionBlock=_privatePresentationCompletionBlock;
-@property(nonatomic) _Bool shouldFlipFromAndToViewsForDisappearanceTransition; // @synthesize shouldFlipFromAndToViewsForDisappearanceTransition=_shouldFlipFromAndToViewsForDisappearanceTransition;
-@property(nonatomic) _Bool shouldPresentAutomatically; // @synthesize shouldPresentAutomatically=_shouldPresentAutomatically;
-@property(nonatomic) _Bool shouldUpdateFromViewBeforePresentation; // @synthesize shouldUpdateFromViewBeforePresentation=_shouldUpdateFromViewBeforePresentation;
-@property(nonatomic) _Bool shouldUseCATransitions; // @synthesize shouldUseCATransitions=_shouldUseCATransitions;
 @property(retain, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

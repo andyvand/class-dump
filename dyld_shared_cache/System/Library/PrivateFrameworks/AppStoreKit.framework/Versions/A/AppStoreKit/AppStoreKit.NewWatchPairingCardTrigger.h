@@ -7,10 +7,6 @@
 @interface AppStoreKit.NewWatchPairingCardTrigger
 {
     id pairingStatusProvider;
-    id identifier;
-    id adamId;
-    id activationContextIsValid;
-    id shouldRecur;
 }
 
 @end

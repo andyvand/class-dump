@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableOrderedSet;
-
 @interface REMReplicaManager
 {
     _Bool _isPersistable;
-    _Bool _exceededMaxSerializedSize;
-    struct os_unfair_lock_s _ivarLock;
-    NSMutableOrderedSet *_replicaUUIDs;
-    NSMutableDictionary *_replicaEntries;
-    unsigned long long _currentVersion;
-    unsigned long long _maxLastSavedVersion;
 }
 
 + (_Bool);
@@ -24,10 +16,10 @@
 + (id);
 + (_Bool);
 + (void);
-+ (id);
++ (id)@;
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,10 +28,10 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -49,31 +41,25 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (struct os_unfair_lock_s);
+- (void);
 - (id);
 - (id);
-- (_Bool);
+- (void)rubyPackage;
+- (struct os_unfair_lock_s)+;
+- (id);
+- (id);
+- (_Bool)1;
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentVersion; // @synthesize currentVersion=_currentVersion;
-@property(nonatomic) _Bool exceededMaxSerializedSize; // @synthesize exceededMaxSerializedSize=_exceededMaxSerializedSize;
-@property(nonatomic) _Bool isPersistable; // @synthesize isPersistable=_isPersistable;
 @property(nonatomic) struct os_unfair_lock_s ivarLock; // @synthesize ivarLock=_ivarLock;
-@property(nonatomic) unsigned long long maxLastSavedVersion; // @synthesize maxLastSavedVersion=_maxLastSavedVersion;
-@property(retain, nonatomic) NSMutableDictionary *replicaEntries; // @synthesize replicaEntries=_replicaEntries;
-@property(retain, nonatomic) NSMutableOrderedSet *replicaUUIDs; // @synthesize replicaUUIDs=_replicaUUIDs;
 
 @end
 

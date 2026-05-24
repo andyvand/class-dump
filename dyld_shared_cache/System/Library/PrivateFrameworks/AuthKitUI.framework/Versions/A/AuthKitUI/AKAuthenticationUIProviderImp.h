@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthenticationRVSWindowController, NSImage, NSString, NSWindow;
+@class AKAuthenticationRVSWindowController, NSWindow;
 
 @interface AKAuthenticationUIProviderImp
 {
     AKAuthenticationRVSWindowController *_windowController;
-    _Bool _makeSheetCritical;
-    NSWindow *_hostWindow;
-    NSImage *_displayImage;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)H;
+- (void)%@]'s listener in order to find out when the value of 'hasBeenUnlockedSinceBoot' should change.;
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void)er;
+- (void)authorizationButtonContainer;
 - (id)ø6þÿOUXb;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak NSWindow *hostWindow; // @synthesize hostWindow=_hostWindow;
-@property(nonatomic) _Bool makeSheetCritical; // @synthesize makeSheetCritical=_makeSheetCritical;
-@property(readonly) Class superclass;
 
 @end
 

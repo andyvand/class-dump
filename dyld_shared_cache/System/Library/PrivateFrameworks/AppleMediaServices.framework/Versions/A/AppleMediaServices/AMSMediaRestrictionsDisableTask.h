@@ -6,15 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSString;
-@protocol AMSBagProtocol, NSURLSessionDelegate><AMSURLProtocolDelegate;
+@class ACAccount;
 
 @interface AMSMediaRestrictionsDisableTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSString *_editToken;
-    id <NSURLSessionDelegate><AMSURLProtocolDelegate> _urlSessionDelegate;
 }
 
 - (id);
@@ -22,7 +18,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)sfers:Downloading %ld mirror files, and waiting for:%ld in progress downloads. /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ÈÔ0v,j!g={ô²è®å£ù¿[GJVÀÜÑÍ)o5s8~$bÜÀÍÑ5s)o$b8~è®ô²ù¿å£G[VJÅÙÔÈ,j0v={!gñ·í«à¦üº^B	OSð¶ìªá§ý»_CNRÄØÕÉ-k1w<z fé¯õ³ø¾ä¢;
 - (id)ãj¼¥ãº¶¥ãª¶¥ãz¼¥ãÚ´¥ã
@@ -30,9 +26,6 @@
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(copy) NSString *editToken; // @synthesize editToken=_editToken;
-@property __weak id <NSURLSessionDelegate><AMSURLProtocolDelegate> urlSessionDelegate; // @synthesize urlSessionDelegate=_urlSessionDelegate;
 
 @end
 

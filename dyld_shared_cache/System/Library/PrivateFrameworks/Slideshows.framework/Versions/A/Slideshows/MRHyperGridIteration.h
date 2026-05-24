@@ -7,18 +7,9 @@
 @interface MRHyperGridIteration
 {
     unsigned char layout;
-    unsigned char slideCount;
-    unsigned char slideIndex[3];
-    long long direction;
-    long long index;
-    double duration;
-    long long panoCount;
-    double panoDurations[3];
-    double startTime;
-    _Bool hasBreak;
 }
 
-+ (CDStruct_32b7e343 *);
++ (CDStruct_32b7e343 *);
 - (id);
 - (void);
 

@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
+- (id)Qz;
+- (_Bool)closeKernelConnection;
+- (void),�;
 - (id);
 - (void)lloy.safari.groupactivities;
 

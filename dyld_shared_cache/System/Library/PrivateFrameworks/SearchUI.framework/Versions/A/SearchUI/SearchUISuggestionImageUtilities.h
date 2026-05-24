@@ -15,7 +15,7 @@
 + (unsigned long long);
 + (id);
 + (struct CGSize);
-+ (void)Item;
++ (void)separatorItem;
 
 @end
 

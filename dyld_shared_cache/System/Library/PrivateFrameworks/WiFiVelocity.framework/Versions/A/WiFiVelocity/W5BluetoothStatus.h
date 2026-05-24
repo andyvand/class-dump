@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface W5BluetoothStatus
 {
     _Bool _powerOn;
-    _Bool _isDiscoverable;
-    _Bool _isConnectable;
-    _Bool _isScanning;
-    NSString *_address;
-    NSArray *_devices;
 }
 
 + (_Bool);

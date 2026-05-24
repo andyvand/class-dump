@@ -4,47 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCProtoRadioContentReferenceLibraryItemContentReference
 {
     long long _cloudID;
-    double _duration;
-    double _fileSize;
-    long long _storeAdamID;
-    NSString *_albumArtistName;
-    int _albumDiscCount;
-    NSString *_albumName;
-    int _albumTrackCount;
-    NSString *_artistName;
-    NSString *_composerName;
-    int _contentType;
-    NSString *_copyrightText;
-    int _discNumber;
-    NSString *_genreName;
-    NSString *_title;
-    int _trackNumber;
-    int _year;
-    _Bool _isCompilation;
-    struct {
-        unsigned int cloudID:1;
-        unsigned int duration:1;
-        unsigned int fileSize:1;
-        unsigned int storeAdamID:1;
-        unsigned int albumDiscCount:1;
-        unsigned int albumTrackCount:1;
-        unsigned int contentType:1;
-        unsigned int discNumber:1;
-        unsigned int trackNumber:1;
-        unsigned int year:1;
-        unsigned int isCompilation:1;
-    } _has;
 }
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);

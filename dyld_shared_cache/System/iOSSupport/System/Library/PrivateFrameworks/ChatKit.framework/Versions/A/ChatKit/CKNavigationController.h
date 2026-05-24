@@ -11,10 +11,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)originalAdditionalSyllableRangeForModificationAtIndex:(id)arg1;
 - (id);
 - (void)lEffect",R,N;
-- (id)mber;
+- (id)number;
 
 @end
 

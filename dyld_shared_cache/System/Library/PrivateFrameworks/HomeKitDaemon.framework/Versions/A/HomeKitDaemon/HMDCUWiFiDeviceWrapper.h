@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUWACSession, CUWiFiDevice, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class CUWiFiDevice, NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCUWiFiDeviceWrapper
 {
     CUWiFiDevice *_cuWiFiDevice;
-    CUWACSession *_wacSession;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSString *deviceID;
 }
 
 + (id)êßÿ>¡íB;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (void);
 - (id);
@@ -33,20 +29,7 @@ __attribute__((visibility("hidden")))
 - (id)B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *deviceID; // @synthesize deviceID;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSUUID *identifier;
-@property(readonly, nonatomic) _Bool isConfigured; // @dynamic isConfigured;
-@property(readonly, nonatomic) NSString *name; // @dynamic name;
-@property(readonly, nonatomic) NSString *ssid; // @dynamic ssid;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAirPlay2; // @dynamic supportsAirPlay2;
-@property(readonly, nonatomic) id underlyingDevice; // @dynamic underlyingDevice;
 
 @end
 

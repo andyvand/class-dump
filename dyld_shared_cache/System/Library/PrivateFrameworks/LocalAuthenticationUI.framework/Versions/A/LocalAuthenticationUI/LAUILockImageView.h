@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSImage, NSImageView, NSLayoutConstraint;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface LAUILockImageView
 {
     NSImageView *_badgeImageView;
-    NSLayoutConstraint *_badgeImageViewTopConstraint;
-    NSLayoutConstraint *_badgeImageViewRightConstraint;
-    NSLayoutConstraint *_badgeImageViewBottomConstraint;
-    CAShapeLayer *_badgeMask;
-    NSImageView *_badgeBackgroundImageView;
-    CAShapeLayer *_badgeBackgroundLayer;
-    NSImage *_customLockImage;
-    struct CGPoint _badgeOffset;
-    _Bool _isActive;
-    NSImageView *_lockImageView;
-    long long _style;
 }
 
 - (void);
+- (void);
+- (id);
+- (void)
+;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)Capabilities;
+- (void)ndFirmwareVersion;
 - (void);
 
 @end

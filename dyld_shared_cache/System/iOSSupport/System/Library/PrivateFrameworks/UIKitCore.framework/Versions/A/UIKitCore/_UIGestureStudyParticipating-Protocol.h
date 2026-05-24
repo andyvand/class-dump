@@ -7,11 +7,9 @@
 @class NSString;
 
 @protocol _UIGestureStudyParticipating
-- (NSString *)ecognizer;
+- (NSString *)tapToDismissGestureRecognizer;
 
 // Remaining properties
-@property(readonly, nonatomic) double duration;
 @property(readonly, nonatomic) NSString *eventName;
-@property(readonly, nonatomic) double movement;
 @end
 

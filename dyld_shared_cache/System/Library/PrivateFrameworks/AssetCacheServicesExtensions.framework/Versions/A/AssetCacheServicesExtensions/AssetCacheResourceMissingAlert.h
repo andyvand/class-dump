@@ -11,22 +11,20 @@
 @interface AssetCacheResourceMissingAlert : AssetCacheAlert
 {
     NSString *_resource;
-    NSString *_pathPreventingAccess;
 }
 
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)R;
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)ategoryImage-%@;
 
 // Remaining properties
-@property(retain) NSString *pathPreventingAccess; // @synthesize pathPreventingAccess=_pathPreventingAccess;
 @property(retain) NSString *resource; // @synthesize resource=_resource;
 
 @end

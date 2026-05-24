@@ -11,23 +11,20 @@
 @interface TIWordSearchOperationAcceptCandidate : TIWordSearchOperation
 {
     void *_mecabraCandidate;
-    _Bool _partialCandidate;
-    TIMecabraWrapper *_mecabraWrapper;
 }
 
+- (id)otherContactPath;
+- (void)er _detectRemovedPersonas:(_Bool)arg1 currentPersonaIds:] /* Error: Ran out of types for this method. */;
+- (_Bool)ight not within [0.0,1.0]:illegal value %@ /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
-- (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ief;
+- (void)-;
 
 // Remaining properties
 @property(retain, nonatomic) TIMecabraWrapper *mecabraWrapper; // @synthesize mecabraWrapper=_mecabraWrapper;
-@property(nonatomic, getter=isPartialCandidate) _Bool partialCandidate; // @synthesize partialCandidate=_partialCandidate;
 
 @end
 

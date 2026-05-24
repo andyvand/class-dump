@@ -5,12 +5,10 @@
 //
 
 @class NSString;
-@protocol MTL4CommandBuffer;
 
 @protocol MTL4CommandEncoder
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTL4CommandBuffer> commandBuffer;
 @property(copy) NSString *label;
 @end
 

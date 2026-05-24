@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, OITSUReadWriteQueue;
+@class NSMutableDictionary, OITSUReadWriteQueue;
 
 __attribute__((visibility("hidden")))
 @interface TSUConcurrentMutableDictionaryCache
 {
     NSMutableDictionary *_cache;
-    OITSUReadWriteQueue *_readWriteQueue;
-    NSString *_name;
-    unsigned long long _count;
 }
 
 - (void);
@@ -23,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -34,7 +31,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
 @property(readonly, nonatomic) OITSUReadWriteQueue *readWriteQueue; // @synthesize readWriteQueue=_readWriteQueue;
 
 @end

@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCurrencyAmount, INPerson, NSString;
+@class INCurrencyAmount, INPerson;
 
 @protocol INRequestPaymentIntentExport
+- (INCurrencyAmount *);
+- (void)troller Haptics;
 
 // Remaining properties
-@property(copy) INCurrencyAmount *currencyAmount;
-@property(copy) NSString *note;
 @property(copy) INPerson *payer;
 @end
 

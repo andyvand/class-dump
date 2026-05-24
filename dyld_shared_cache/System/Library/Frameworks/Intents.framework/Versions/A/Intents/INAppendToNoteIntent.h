@@ -6,20 +6,20 @@
 
 #import <Intents/INIntent.h>
 
-@class INNote, INNoteContent, NSString;
+@class INNote;
 
 @interface INAppendToNoteIntent : INIntent
 {
 }
 
 + (_Bool);
-- (id);
+- (id)h;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)o;
+- (id)__data;
+- (void)__objc_selrefs;
 - (void);
 - (id);
 - (id);
@@ -33,14 +33,6 @@
 - (id)È0;
 
 // Remaining properties
-@property(readonly, copy) INNoteContent *content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, copy) INNote *targetNote;
 
 @end

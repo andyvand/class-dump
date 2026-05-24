@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SNDetectionResult
 {
     id impl;
@@ -21,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (long long);
 - (id);
@@ -36,12 +34,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double confidence;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) _Bool detected;
-@property(nonatomic, copy) NSString *detectorIdentifier;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, copy) NSString *identifier;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end

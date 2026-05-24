@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXSModuleController;
+@class PXSModuleController;
 
 @interface PXSSettingsController
 {
     _Bool _willSave;
-    _Bool _hasWarnedForOverrides;
-    PXSModuleController *_rootModuleController;
-    CDUnknownBlockType _onWindowDidClose;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (CDUnknownBlockType);
 - (id);
@@ -28,24 +25,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)getCropRect:newCropRect:straightenAngle:constrainWithAnchorPoint:strict:hitVertexId: /* Error: Ran out of types for this method. */;
 - (void)¬ûTÿl,Tÿ,TÿnavigationBarLegibilityEDRBoost;
 - (void);
 - (_Bool)\EÙÿ_<P¼Û;;
 - (void)+¸ÿt;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasWarnedForOverrides; // @synthesize hasWarnedForOverrides=_hasWarnedForOverrides;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType onWindowDidClose; // @synthesize onWindowDidClose=_onWindowDidClose;
 @property(readonly, nonatomic) PXSModuleController *rootModuleController; // @synthesize rootModuleController=_rootModuleController;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool willSave; // @synthesize willSave=_willSave;
 
 @end
 

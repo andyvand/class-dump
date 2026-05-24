@@ -8,12 +8,11 @@
 @protocol MKFHome;
 
 @protocol MKFHomeSetting
+- (MKFHomeSettingDatabaseID *)R0	;
 - (id <MKFHome>)qð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHomeSettingDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
 @property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

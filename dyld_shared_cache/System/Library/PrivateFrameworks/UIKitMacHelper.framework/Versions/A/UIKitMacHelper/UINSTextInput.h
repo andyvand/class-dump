@@ -5,18 +5,18 @@
 //
 
 @class NSObject;
-@protocol OS_xpc_object, UINSRevealController, UINSTextInputDelegate;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface UINSTextInput
 {
     NSObject<OS_xpc_object> *_remoteTextInputEndpoint;
-    id <UINSTextInputDelegate> _delegate;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)R
+$;
 - (void);
 - (_Bool);
 - (id);
@@ -24,10 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <UINSTextInputDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isFullKeyboardAccessEnabled) _Bool fullKeyboardAccessEnabled;
 @property(retain, nonatomic) NSObject<OS_xpc_object> *remoteTextInputEndpoint; // @synthesize remoteTextInputEndpoint=_remoteTextInputEndpoint;
-@property(readonly, nonatomic) id <UINSRevealController> revealController;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol FCReadingHistoryObserving
+
+@optional
+- (void);
+- (void);
 @end
 

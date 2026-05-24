@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemPhotoOptions, NSCache, NSMutableDictionary, NSString, geo_isolater;
+@class geo_isolater;
 
 @interface MKPlaceCollectionImageProvider
 {
     _Bool _isRTL;
-    geo_isolater *_helperQueue;
-    GEOMapItemPhotoOptions *_optionsForCollectionCells;
-    GEOMapItemPhotoOptions *_optionsForCityBricks;
-    NSCache *_gradientImagesCache;
-    NSCache *_downloadedImagesCache;
-    double _screenScale;
-    NSMutableDictionary *_downloadOperationsPair;
-    NSMutableDictionary *_gradientOperationsPair;
 }
 
-+ (id)astPhotoScrollOffset;
++ (id)_lastPhotoScrollOffset;
 - (void);
 - (void);
 - (void);
@@ -27,14 +19,14 @@
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)\;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)[;
 - (id);
 - (id);
 - (id);
@@ -43,34 +35,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)%ؚH;
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (double);
 - (_Bool);
 - (id)_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>>::_value_ptr>, void *>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, std::__list_iterator<geo::detail::_CacheItem<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, geo::detail::_GEOGenericContainer<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>, NSDictionary *, std::hash<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>, std::equal_to<geo::_retain_ptr<_MKPinAnnotationViewImageCacheKey *, geo::_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>>>::_value_ptr>, void *>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_maxCapacity"Q"_maxCost"Q"_currentCost"Q"_currentCount"Q} /* Error: Ran out of types for this method. */;
-- (void)entValue:mapItem:timestamp:placeCardType:categoriesDisplayed:categorySelected: /* Error: Ran out of types for this method. */;
+- (void)capturePlaceCardUserAction:onTarget:eventValue:mapItem:timestamp:placeCardType:categoriesDisplayed:categorySelected: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *downloadOperationsPair; // @synthesize downloadOperationsPair=_downloadOperationsPair;
-@property(retain, nonatomic) NSCache *downloadedImagesCache; // @synthesize downloadedImagesCache=_downloadedImagesCache;
-@property(retain, nonatomic) NSCache *gradientImagesCache; // @synthesize gradientImagesCache=_gradientImagesCache;
-@property(retain, nonatomic) NSMutableDictionary *gradientOperationsPair; // @synthesize gradientOperationsPair=_gradientOperationsPair;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) geo_isolater *helperQueue; // @synthesize helperQueue=_helperQueue;
-@property(nonatomic) _Bool isRTL; // @synthesize isRTL=_isRTL;
-@property(readonly, nonatomic) GEOMapItemPhotoOptions *optionsForCityBricks; // @synthesize optionsForCityBricks=_optionsForCityBricks;
-@property(readonly, nonatomic) GEOMapItemPhotoOptions *optionsForCollectionCells; // @synthesize optionsForCollectionCells=_optionsForCollectionCells;
-@property(nonatomic) double screenScale; // @synthesize screenScale=_screenScale;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TRIClient, TRIRolloutIdentifiers;
-@protocol OS_dispatch_queue;
+@class TRIClient;
 
 @interface SGTrialClientWrapper
 {
     TRIClient *_triClient;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSString *_namespaceName;
-    NSString *_experimentId;
-    int _deploymentId;
-    NSString *_treatmentId;
-    TRIRolloutIdentifiers *_rolloutIdentifiers;
 }
 
 - (void);
@@ -26,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);

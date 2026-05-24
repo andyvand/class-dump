@@ -11,7 +11,6 @@
 @interface CKAttachmentReplyPreviewBalloonView : CKColoredBalloonView
 {
     CKMediaObject *_mediaObject;
-    UILabel *_titleLabel;
 }
 
 - (struct CGSize);
@@ -31,7 +30,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

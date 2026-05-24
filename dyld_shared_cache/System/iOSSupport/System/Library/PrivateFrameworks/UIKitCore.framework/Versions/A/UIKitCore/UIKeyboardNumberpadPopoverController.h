@@ -6,42 +6,30 @@
 
 #import <UIKitCore/UIKeyboardPopoverController.h>
 
-@class NSString, UIKBScreenTraits, UIKBTree, UIKeyboardInputMode, UIKeyboardLayoutStar, UITextInputTraits;
+@class UIKeyboardLayoutStar;
 
 @interface UIKeyboardNumberpadPopoverController : UIKeyboardPopoverController
 {
     UIKeyboardLayoutStar *_layout;
-    UIKBScreenTraits *_screenTraits;
-    UITextInputTraits *_textInputTraits;
-    UIKBTree *_keyboard;
-    UIKeyboardInputMode *_keyboardInputMode;
-    _Bool _shownKeyboardLayout;
 }
 
-+ (id);
++ (id)d status was not from our device, not attempting to recover;
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)X;
+- (id)e from user with nickname cloudKitRecord  %@;
+- (void):8@?<v@?@"NSArray">16 /* Error: Ran out of types for this method. */;
+- (void)gate>",W,N,V_playbackQueueDelegate;
 - (struct CGSize)nt";
 - (void)¸!#ì%X&
 È'((H)*+;
-- (void)iewGesture;
+- (void)_UIFlickingAssistantViewGesture;
 - (void)osition layout (%@) does not have a sublayout for UICollectionElementKindCell or for section %ld;
 - (id)Ì7
 ÿPD;
 - (void)È(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIKeyboardLayoutStar *layout; // @synthesize layout=_layout;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface _LSExtensionPointRecordEnumerator : _LSRecordEnumerator
 {
     NSString *_extensionPointID;
-    struct vector<unsigned int, std::allocator<unsigned int>> _extensionIDs;
-    LSApplicationRecord *_parentApplicationRecord;
 }
 
-- (id);
+- (id)(;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)e ;
 - (_Bool);
 - (void);
 - (void);

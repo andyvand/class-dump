@@ -4,55 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, PLSQLiteConnection, PLStorageOperator;
+@class PLSQLiteConnection, PLStorageOperator;
 
 @interface PLTimeManager
 {
     PLStorageOperator *_storageOperator;
-    PLSQLiteConnection *_connection;
-    NSDictionary *_timeReferences;
-    NSDictionary *_notificationsToTimeReferences;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (int);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)%s [%s] cancelled;
 - (double);
 - (id);
 - (id);
-- (id);
+- (id)v;
 - (void);
 - (double);
 - (double);
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)ileRequired;
+- (id);
+- (void)PLExitReasonNewFileRequired;
 - (id).÷ÿÆýª9;
 
 // Remaining properties
 @property __weak PLSQLiteConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDictionary *notificationsToTimeReferences; // @synthesize notificationsToTimeReferences=_notificationsToTimeReferences;
-@property __weak PLStorageOperator *storageOperator; // @synthesize storageOperator=_storageOperator;
-@property(readonly) Class superclass;
-@property(retain) NSDictionary *timeReferences; // @synthesize timeReferences=_timeReferences;
 
 @end
 

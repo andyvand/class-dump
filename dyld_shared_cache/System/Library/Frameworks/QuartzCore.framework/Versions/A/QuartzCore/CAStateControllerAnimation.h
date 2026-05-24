@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface CAStateControllerAnimation
 {
     CALayer *_layer;
-    NSString *_key;
 }
 
 - (void);
+- (id)@;
 - (id);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
 @property(readonly, nonatomic) CALayer *layer; // @synthesize layer=_layer;
 
 @end

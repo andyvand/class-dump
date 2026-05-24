@@ -7,8 +7,6 @@
 @interface Vision.DetectHumanBodyPose3DRequest.State
 {
     id pipeline;
-    id lastAnalyzedTimeStamp;
-    id lastResult;
 }
 
 @end

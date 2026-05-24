@@ -7,19 +7,15 @@
 @interface AppStoreKit.SheetEngagementManager
 {
     id engagement;
-    id presentationWindow;
-    id objectGraph;
-    id previousPageContext;
-    id previousArcadeSubscriptionState;
 }
 
 - (_Bool);
 - (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (id);
-- (void)gXw;
+- (void)SgXw;
 
 @end
 

@@ -5,5 +5,12 @@
 //
 
 @protocol CalUIBoxOccurrenceContentViewDelegate
+- (double);
+
+@optional
+- (_Bool);
+- (_Bool)_;
+- (_Bool)I`;
+- (_Bool)c;
 @end
 

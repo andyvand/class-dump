@@ -8,6 +8,7 @@
 @protocol SwiftUI.PlatformAccessibilityElementProtocol;
 
 @protocol SwiftUI.PlatformAccessibilityElementProtocol
+- (NSObject<SwiftUI.PlatformAccessibilityElementProtocol> *);
 
 // Remaining properties
 @property(nonatomic, readonly) NSObject<SwiftUI.PlatformAccessibilityElementProtocol> *knownRepresentedElement;

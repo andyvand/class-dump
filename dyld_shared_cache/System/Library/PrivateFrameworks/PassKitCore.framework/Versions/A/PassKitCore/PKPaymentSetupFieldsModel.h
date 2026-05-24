@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, PKPaymentSetupFieldFooter;
+@class NSMutableArray;
 
 @interface PKPaymentSetupFieldsModel
 {
     NSMutableArray *_paymentSetupFields;
-    PKPaymentSetupFieldFooter *_footerField;
-    NSDictionary *_footerFields;
-    _Bool _disableCVVPrefill;
 }
 
 + (id);
@@ -38,10 +35,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)6;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)T;
 - (id);
 - (id);
 - (_Bool);
@@ -50,14 +47,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)o ;
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void)trollerStateEligibility;
+- (void)PKPaymentProvisioningControllerStateEligibility;
 
 // Remaining properties
 @property(nonatomic) _Bool disableCVVPrefill; // @synthesize disableCVVPrefill=_disableCVVPrefill;

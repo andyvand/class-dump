@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCText, MPTextInternal, NSObject;
-@protocol MPEffectSupport;
+@class MCText;
 
 @interface MPText
 {
     MCText *_text;
-    MPTextInternal *_internal;
-    NSObject<MPEffectSupport> *_parent;
 }
 
 + (id);
 + (_Bool);
-- (double);
+- (double)date;
+- (id)appBuildNumber;
+- (id)groundSessionWithIdentifier:completion:] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -36,7 +33,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)carrierServicesBundleSubscriptionButtonConfigurationsByType;
 - (id);
 - (void);
 - (id);

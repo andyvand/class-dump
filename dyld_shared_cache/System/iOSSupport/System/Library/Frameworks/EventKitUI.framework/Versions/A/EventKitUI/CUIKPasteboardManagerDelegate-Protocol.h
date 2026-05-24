@@ -5,5 +5,6 @@
 //
 
 @protocol CUIKPasteboardManagerDelegate
+- (void)usProvider";
 @end
 

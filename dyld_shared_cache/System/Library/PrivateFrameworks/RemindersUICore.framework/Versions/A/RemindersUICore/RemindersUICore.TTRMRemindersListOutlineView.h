@@ -7,17 +7,16 @@
 @interface RemindersUICore.TTRMRemindersListOutlineView
 {
     id inDrag;
-    id contentUnavailableView;
 }
 
 - (_Bool);
 - (void);
 - (struct CGRect);
 - (unsigned long long);
-- (void);
-- (double);
-- (_Bool);
-- (void);
+- (void)("class"))},_locateSignatureDiv:(id)arg1 function(e){let t=e.body.querySelectorAll(`div[id="${MFHtmlIDSignature}"]`);for(let e=0;e<t.length;++e){let i=t.item(e);if(!i.mf_isQuoteOrWithinQuote())return i}return null},_updateCounts:function(e){numberOfEmojis=0,numberOfOtherCharacters=0,e.map(e=>{document.whitespaceRegex.test(e)||(document.emojiRegex.test(e)?numberOfEmojis+=1:numberOfOtherCharacters+=1)})},_getCurrentEmojiElement:function(e){return"BODY"==e.tagName?document.querySelector(".AppleMailBigEmoji"):e.nodeType===Node.TEXT_NODE?e.parentElement:e},_removeSignatureFromEmojiCount:function(e,t){if(this._locateSignatureDiv(t)){var i=this._locateSignatureDiv(t).textContent.trim();return e.trim().includes(i.trim())&&(e=e.trim().replace(i.trim(),"")),e}return e},_checkEmojiFontSize:function(){this.hasValidNumOfEmojis=numberOfEmojis<=maxNumberBigEmoji&&numberOfEmojis>0,this.hasOnlyEmojis=0==numberOfOtherCharacters},_isInsideQuoteOrSignature:function(e){let t=e.mf_containingBlockQuote(),i=e.mf_isDescendantOfNode(this._locateSignatureDiv(document));return t||i},_placeCaretAfter:function(e){if(e.focus(),"undefined"!=typeof window.getSelection&&"undefined"!=typeof document.createRange){var t=document.createRange();t.setStartAfter(e),t.collapse(!0);var i=window.getSelection();i.removeAllRanges(),i.addRange(t)}else if("undefined"!=typeof document.body.createTextRange){var n=document.body.createTextRange();n.moveToElementText(e),n.collapse(!1),n.select()}},stripCustomBodyIdentifiers:function(){let e=document.querySelectorAll("[class=AppleMailBigEmoji]");e.length>0&&e.forEach(function(e){e.removeAttribute("class")})}}; /* Error: Ran out of types for this method. */;
+- (double)setRestoreBundleID:(long long)arg1;
+- (_Bool)setLastModifiedUserRecordID:(id)arg1;
+- (void)appendSubscriptionToTag:(id)arg1 notificationsEnabled:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

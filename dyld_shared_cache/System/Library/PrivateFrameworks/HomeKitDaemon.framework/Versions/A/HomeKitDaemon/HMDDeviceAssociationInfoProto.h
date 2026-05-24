@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDDeviceAssociationInfoProto
 {
     NSUUID *_accessoryUUID;
-    NSUUID *_idsIdentifier;
-    NSString *_idsDestination;
 }
 
 - (id);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;
-@property(readonly) NSString *idsDestination; // @synthesize idsDestination=_idsDestination;
-@property(readonly) NSUUID *idsIdentifier; // @synthesize idsIdentifier=_idsIdentifier;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface ICIAMApplicationMessageSyncResponse
 {
     NSString *_bundleID;
-    NSMutableArray *_syncCommands;
 }
 
 + (Class);
@@ -19,11 +18,11 @@
 - (void);
 - (void);
 - (void);
+- (id)textureForSliceIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)`:(id)arg1;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -34,9 +33,7 @@
 - (void)ôx;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
 @property(readonly, nonatomic) _Bool hasBundleID;
-@property(retain, nonatomic) NSMutableArray *syncCommands; // @synthesize syncCommands=_syncCommands;
 
 @end
 

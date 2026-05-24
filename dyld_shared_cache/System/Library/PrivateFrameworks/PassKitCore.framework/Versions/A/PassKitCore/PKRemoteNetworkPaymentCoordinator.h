@@ -10,7 +10,6 @@
 @interface PKRemoteNetworkPaymentCoordinator
 {
     _PKRemoteNetworkPaymentCoordinator *_underlying;
-    id <PKRemoteNetworkPaymentCoordinatorDelegate> _delegate;
 }
 
 - (void);

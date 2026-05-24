@@ -17,10 +17,10 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool).speech.synthesis.voice.boing;
 - (void);
 - (id);
-- (id);
+- (id)6;
 - (void);
 
 // Remaining properties

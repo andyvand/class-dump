@@ -10,8 +10,8 @@
 }
 
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)G;
 - (void);
 - (void);
 - (void)¬Ñ	GG*ÏÑ	yÔßÑ	GGACy¢©Ñ	SgGGACy.«Ñ	GG;

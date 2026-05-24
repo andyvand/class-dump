@@ -4,47 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSThread, OITSUPointerKeyDictionary, OITSURetainedPointerKeyDictionary;
-@protocol TSUiOSMemoryWarningFlushable;
+@class OITSURetainedPointerKeyDictionary;
 
 __attribute__((visibility("hidden")))
 @interface OITSUFlushingManager
 {
     OITSURetainedPointerKeyDictionary *_objects;
-    void *_sortedObjects;
-    void *_sortedNewObjects;
-    OITSUPointerKeyDictionary *_inactiveObjects;
-    unsigned int _clock;
-    _Bool _alwaysFlushing;
-    _Bool _stopFlushing;
-    _Bool _stopFlushingWhenQueueEmpty;
-    _Bool _isFlushing;
-    id <TSUiOSMemoryWarningFlushable> _flushingObject;
-    NSCondition *_cond;
-    NSCondition *_isFlushingCond;
-    NSThread *_bgThread;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id)¨:(struct _NSZone *)arg1 Çÿzw¤;
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (struct TSUFlushableObjectInfo *);
+- (_Bool)9q!;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)캔;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)9h;
 - (void);
 - (void);
 - (unsigned long long);
@@ -57,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)IOSurface}b56b8I}16I24;
 - (id)Á¢ !0Aù±3$Ð1Â0@ù
 × ;
 

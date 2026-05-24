@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, RTLocation;
+@class RTLocation;
 
 @interface RTHint
 {
     RTLocation *_location;
-    long long _source;
-    NSDate *_date;
 }
 
 @end

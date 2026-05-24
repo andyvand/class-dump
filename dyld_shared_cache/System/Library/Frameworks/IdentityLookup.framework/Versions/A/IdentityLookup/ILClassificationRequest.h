@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)laybackDelegateAdapter;
+- (id)lot,SV,%s,slot,%i,freq,%i,t_eph,%lf,t_eval,%lf;
 - (id);
 - (void);
 

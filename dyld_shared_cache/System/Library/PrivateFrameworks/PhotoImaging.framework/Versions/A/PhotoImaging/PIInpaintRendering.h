@@ -8,7 +8,7 @@
 {
 }
 
-+ (CDStruct_996ac03c);
++ (CDStruct_0973877e);
 + (_Bool);
 + (id);
 + (id);
@@ -16,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)T;
 + (id);
 + (id);
 + (double);

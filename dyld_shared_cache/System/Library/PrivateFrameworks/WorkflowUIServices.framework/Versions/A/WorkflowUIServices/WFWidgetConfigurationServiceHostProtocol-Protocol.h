@@ -5,5 +5,10 @@
 //
 
 @protocol WFWidgetConfigurationServiceHostProtocol
+- (void);
+- (void);
+
+@optional
+- (void)g;
 @end
 

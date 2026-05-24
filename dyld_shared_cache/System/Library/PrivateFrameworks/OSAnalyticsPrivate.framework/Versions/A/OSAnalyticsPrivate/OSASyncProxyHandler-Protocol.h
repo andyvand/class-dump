@@ -5,5 +5,13 @@
 //
 
 @protocol OSASyncProxyHandler
+- (void)}] AirPlay session started on endpoint %@.
+;
+- (void)Ref);
+- (void);
+
+@optional
+- (void)ge failed with error %#m - continuing without protection
+;
 @end
 

@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSAttributedString;
+
 @protocol WebDocumentText
+- (NSAttributedString *)yy
+;
+- (void);
 - (void)eInternal/Library/BuildRoots/4~CN9qugCEbsdeknkcWvXHJ1SYd6a-af3DCZMhJhU/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/HashTable.h;
 @end
 

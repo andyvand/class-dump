@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)blackrightpointingpointer;
 - (id);
 - (void);
 - (id);

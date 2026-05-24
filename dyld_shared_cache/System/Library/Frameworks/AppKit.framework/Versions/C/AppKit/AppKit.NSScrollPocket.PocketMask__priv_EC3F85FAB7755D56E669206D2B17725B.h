@@ -9,14 +9,10 @@
 @interface AppKit.NSScrollPocket.PocketMask__priv_EC3F85FAB7755D56E669206D2B17725B : NSView
 {
     id blurred;
-    id shapeView;
-    id edge;
-    id elementModel;
-    id useHardEdges;
 }
 
 - (id);
-- (id)nts;
+- (id)_startIgnoringKeyEvents;
 - (void)¸^Ðÿ%|,:A /* Error: Ran out of types for this method. */;
 - (void)ÕOÐPE;
 

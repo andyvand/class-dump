@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionView, NSIndexPath, NSString, NSView;
+@class NSCollectionView, NSCollectionViewItem, NSIndexPath, NSString, NSView;
 
 @protocol NSCollectionViewDataSource
+- (NSCollectionViewItem *)supportsSoftwareUpdateV2;
 
 @optional
-- (NSView *)yncAuthorForAnnotation:(NSCollectionView *)arg1 withKey:(NSString *)arg2 andNewValue:(NSIndexPath *)arg3;
+- (NSView *)_syncAuthorForAnnotation:(NSCollectionView *)arg1 withKey:(NSString *)arg2 andNewValue:(NSIndexPath *)arg3;
 @end
 

@@ -9,9 +9,6 @@
 @interface AppStoreKit.ExternalUrlAction : AppStoreKit.Action
 {
     id url;
-    id isSensitive;
-    id allowFromLockscreen;
-    id timeoutSeconds;
 }
 
 @end

@@ -8,10 +8,10 @@
 {
 }
 
+- (id)pdated;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)continuousCornerRadiusRatio;
 
 @end
 

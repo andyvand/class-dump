@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplay, NSString;
+@class CADisplay;
 
 @interface MXMDisplayDescriptor
 {
@@ -12,7 +12,7 @@
 }
 
 - (unsigned int);
-- (id);
+- (id)char_traits<char>, std::__1::allocator<char> >::__rep, std::__1::allocator<char> >={__rep}}} /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (double);
@@ -21,11 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int _cgDisplayId;
-@property(readonly, nonatomic) CADisplay *display; // @synthesize display=_display;
-@property(readonly, nonatomic, getter=main) _Bool isMain;
-@property(readonly, nonatomic) _Bool main;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) double refreshRate;
 
 @end
 

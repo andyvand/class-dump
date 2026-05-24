@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HCHuffmanCoder, NSArray, NSLock, NSString, TITypingSession, TITypingSessionAligned;
-@protocol TIDPReportingDelegate;
+@class NSLock, NSString;
 
 __attribute__((visibility("hidden")))
 @interface TIDPRecorder
 {
     NSLock *_delegateLock;
-    NSLock *_primaryLexiconLock;
-    NSLock *_secondaryLexiconLock;
-    id <TIDPReportingDelegate> _delegate;
-    struct _LXLexicon *_lexiconPrimaryInputMode;
-    struct _LXLexicon *_lexiconSecondaryInputMode;
-    HCHuffmanCoder *_characterCoder;
-    HCHuffmanCoder *_wordCoder;
-    TITypingSession *_typingSession;
-    TITypingSessionAligned *_typingSessionAligned;
 }
 
-- (id);
-- (id);
+- (id)e id:%@, idsID:%@, senderID:%@, senderIDS:%@ /* Error: Ran out of types for this method. */;
+- (id)ot processing initial text because it looks like garbage:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -34,30 +24,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)g;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) HCHuffmanCoder *characterCoder; // @synthesize characterCoder=_characterCoder;
-@property(readonly, nonatomic) NSArray *characterExplodedRecords;
-@property(retain, nonatomic) id <TIDPReportingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) struct _LXLexicon *lexiconPrimaryInputMode; // @synthesize lexiconPrimaryInputMode=_lexiconPrimaryInputMode;
-@property(readonly) struct _LXLexicon *lexiconSecondaryInputMode; // @synthesize lexiconSecondaryInputMode=_lexiconSecondaryInputMode;
 @property(readonly, nonatomic) NSString *primaryInputModeLocaleIndentifier;
-@property(readonly, nonatomic) NSString *recordingKey;
-@property(readonly, nonatomic) NSString *recordingKeyLocaleSubstring;
-@property(readonly, nonatomic) NSArray *records;
-@property(readonly, nonatomic) NSString *secondaryInputModeLocaleIdentifier;
-@property(readonly, nonatomic) TITypingSession *typingSession; // @synthesize typingSession=_typingSession;
-@property(readonly, nonatomic) TITypingSessionAligned *typingSessionAligned; // @synthesize typingSessionAligned=_typingSessionAligned;
-@property(readonly, nonatomic) HCHuffmanCoder *wordCoder; // @synthesize wordCoder=_wordCoder;
 
 @end
 

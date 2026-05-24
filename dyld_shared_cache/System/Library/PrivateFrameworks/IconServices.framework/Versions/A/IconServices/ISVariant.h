@@ -4,56 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISIconset, NSDictionary, NSMutableDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ISVariant
 {
     unsigned int _type;
-    int _sizeSet;
-    NSDictionary *_assetCatalogReference;
-    ISIconset *_iconset;
-    NSString *_name;
-    NSMutableDictionary *_resources;
-    ISVariant *_selectedVariant;
 }
 
-+ (id);
++ (id)_CFArray=}24;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (struct CGImage *);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (int);
-- (id);
+- (id)disc;
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)a;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *assetCatalogReference; // @synthesize assetCatalogReference=_assetCatalogReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) __weak ISIconset *iconset; // @synthesize iconset=_iconset;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) NSMutableDictionary *resources; // @synthesize resources=_resources;
-@property(retain) ISVariant *selectedVariant; // @synthesize selectedVariant=_selectedVariant;
-@property int sizeSet; // @synthesize sizeSet=_sizeSet;
-@property(readonly) Class superclass;
-@property unsigned int type; // @synthesize type=_type;
 
 @end
 

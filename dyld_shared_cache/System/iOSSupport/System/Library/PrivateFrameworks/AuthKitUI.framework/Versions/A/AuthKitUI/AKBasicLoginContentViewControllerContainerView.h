@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIImage, UIImageView, UILabel;
+@class UIImage, UIImageView;
 
 @interface AKBasicLoginContentViewControllerContainerView
 {
     UIImage *_bannerImage;
-    NSString *_titleText;
-    NSString *_messageText;
-    UILabel *_messageLabel;
-    UIImageView *_bannerView;
-    UILabel *_titleLabel;
-    NSArray *_activeConstraints;
 }
 
 - (void);
@@ -28,25 +22,19 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)RE;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)B;
 - (id);
-- (id);
-- (void);
+- (void)# ;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activeConstraints; // @synthesize activeConstraints=_activeConstraints;
-@property(retain, nonatomic) UIImage *bannerImage; // @synthesize bannerImage=_bannerImage;
 @property(retain, nonatomic) UIImageView *bannerView; // @synthesize bannerView=_bannerView;
-@property(retain, nonatomic) UILabel *messageLabel; // @synthesize messageLabel=_messageLabel;
-@property(copy, nonatomic) NSString *messageText; // @synthesize messageText=_messageText;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(copy, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
 
 @end
 

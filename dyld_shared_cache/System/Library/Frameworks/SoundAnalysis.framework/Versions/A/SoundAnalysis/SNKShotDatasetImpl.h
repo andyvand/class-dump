@@ -9,7 +9,6 @@
 @interface SNKShotDatasetImpl
 {
     NSArray *_embeddings;
-    NSArray *_labels;
 }
 
 - (void)ÿùÿ$ÿùÿ0ÿùÿ<ÿùÿHÿùÿTÿùÿ`ÿùÿlÿùÿ,;

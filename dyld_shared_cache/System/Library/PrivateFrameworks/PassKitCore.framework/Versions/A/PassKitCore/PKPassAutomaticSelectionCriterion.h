@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet, NSString;
+@class NSString;
 
 @interface PKPassAutomaticSelectionCriterion
 {
     _Bool _supportsExpress;
-    _Bool _supportsInSessionExpress;
-    NSString *_type;
-    long long _technologyType;
-    NSSet *_primaryTCIs;
-    NSSet *_TCIs;
-    NSSet *_readerIDs;
-    NSSet *_associatedReaderIDs;
-    NSData *_mask;
 }
 
-+ (id);
++ (id)@9	;
 + (id);
 + (_Bool)X"°!´@ùî%1Â0@ù
 × ;
@@ -31,35 +23,28 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)*
+	;
 - (id);
+- (id)P;
+- (void);
+- (id)P;
+- (_Bool)setHasActualLowBandwidth:(id)arg1;
+- (void)NW_L2_POWER_COST_HIGH;
+- (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)ymentOffersForPassUniqueID:(id)arg1;
-- (void)enSecondaryDestinationStation;
+- (id)allSelectedPaymentOffersForPassUniqueID:(id)arg1;
+- (void)_shinkansenSecondaryDestinationStation;
 - (void)tepSetupAccount:(id)arg1 Failed to lookup account for accountIdentifier:%s error:%@ /* Error: Ran out of types for this method. */;
-- (void)NCE_WRITEOFF;
-- (_Bool)ectIdentifier;
+- (void)TRANSACTION_ADJUSTMENT_SUBTYPE_BALANCE_WRITEOFF;
+- (_Bool)subjectIdentifier;
 - (void)ould be a number.;
 - (id)ê>jø;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *TCIs; // @synthesize TCIs=_TCIs;
-@property(copy, nonatomic) NSSet *associatedReaderIDs; // @synthesize associatedReaderIDs=_associatedReaderIDs;
-@property(copy, nonatomic) NSData *mask; // @synthesize mask=_mask;
-@property(copy, nonatomic) NSSet *primaryTCIs; // @synthesize primaryTCIs=_primaryTCIs;
-@property(copy, nonatomic) NSSet *readerIDs; // @synthesize readerIDs=_readerIDs;
-@property(nonatomic) _Bool supportsExpress; // @synthesize supportsExpress=_supportsExpress;
-@property(nonatomic) _Bool supportsInSessionExpress; // @synthesize supportsInSessionExpress=_supportsInSessionExpress;
-@property(nonatomic) long long technologyType; // @synthesize technologyType=_technologyType;
 @property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

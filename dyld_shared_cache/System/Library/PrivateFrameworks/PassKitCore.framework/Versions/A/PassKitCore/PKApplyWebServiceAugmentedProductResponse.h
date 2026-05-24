@@ -17,7 +17,7 @@
 × ;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void)om.apple.passbook.pass;
 
 // Remaining properties

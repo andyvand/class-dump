@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)validateClass:(id)arg1 hasInstanceMethod:withFullSignature: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

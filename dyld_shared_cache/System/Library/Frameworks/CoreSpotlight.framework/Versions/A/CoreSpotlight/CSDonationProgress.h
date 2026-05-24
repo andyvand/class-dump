@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
-
 @interface CSDonationProgress
 {
     unsigned long long _allKnownItems;
-    unsigned long long _itemsNeedingDonation;
-    NSNumber *_donatedItems;
-    NSNumber *_partiallyDonatedItems;
-    NSNumber *_itemsNeedingDonationForRedonationRequests;
-    NSDate *_dateOfNewestUndonatedItem;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -35,18 +28,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long allKnownItems; // @synthesize allKnownItems=_allKnownItems;
-@property(readonly) NSDate *dateOfNewestUndonatedItem; // @synthesize dateOfNewestUndonatedItem=_dateOfNewestUndonatedItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSNumber *donatedItems; // @synthesize donatedItems=_donatedItems;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long itemsNeedingDonation; // @synthesize itemsNeedingDonation=_itemsNeedingDonation;
-@property(readonly) NSNumber *itemsNeedingDonationForRedonationRequests; // @synthesize itemsNeedingDonationForRedonationRequests=_itemsNeedingDonationForRedonationRequests;
-@property(readonly) NSNumber *partiallyDonatedItems; // @synthesize partiallyDonatedItems=_partiallyDonatedItems;
-@property(readonly) Class superclass;
 
 @end
 

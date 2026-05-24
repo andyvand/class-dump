@@ -6,15 +6,13 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INEndWorkoutIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
++ (int)_physicalFileExtensionToken;
++ (int)esentation",&,N,V_mostRepresentativeThumbnail;
++ (long long)QLCacheFileProviderFileIdentifier;
 + (_Bool);
 + (_Bool);
 - (void);
@@ -23,23 +21,16 @@
 - (long long);
 - (id);
 - (long long);
+- (id)1b;
+- (id)ray",R;
+- (id);
+- (void)Mobile_Germany.488c866e-d474-11eb-8b0f-f45c89abb0d9;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)ntAttributeMetadataINIntentParameterMetadataDefaultUnit;
+- (long long)__INCodableMeasurementAttributeMetadataINIntentParameterMetadataDefaultUnit;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

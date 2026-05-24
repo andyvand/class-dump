@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUserActivity.h>
 
-@class NSArray, NSDictionary, NSString, NSURL;
+@class NSArray;
 
 @interface SAClientUserActivity : SAUserActivity
 {
@@ -25,17 +25,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)¤ ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *keywords;
-@property(copy, nonatomic) NSArray *requiredUserInfoKeys;
-@property(copy, nonatomic) NSString *title;
-@property(copy, nonatomic) NSString *type;
-@property(copy, nonatomic) NSDictionary *userInfo;
-@property(copy, nonatomic) NSURL *webpageURL;
 
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
     CIImage *inputImage;
 }
 
-+ (id);
++ (id)4	;
 - (id);
 - (void);
 - (id)dppprrrrTa[e6H9T@I:Pbbbb~~~~vlkgrT]Ud[]W]ZZWZGYP[kkkkgzx[ql{{{{yyyy}}}}¤¤¤¤¨¨¨^gch\\\\^^^^jjjjtyyyE^VqB]UpVmkxQjgrMTI_2G:SXXXX____aaaaddddggggmppp{{{{wyyyiiiiYYYYVVVV^^]^Ugbp¥¥¥¥    }¡¤§®°°®®®®   \qk{Qjcuisos]d[k<TEgophvp}yu{w|xxxxttttdjbt]zxlSg]y6VFqcogx|\wu¢§§£¥««§§§§zzzzwwwwosnvLidw}}}}||||`lhr>[Rl]idopuqv~~brmw\lfsxyxyy~~p}`pfrysxxxx`aZbMWLZJYOb_jesx}}}}crqrqqqqYsr{y¤¤¤¤    qyx}Wgbj\\R\HREYXc]errrrpvuwwwwwtrmtlohv~x«¨««©®®««««¦¦¦¦p]ogyttrtjjjj/I8Z8N>^yyyy~YjdvekfrorotssssokdoMhbr~~~~utzy~yyv|Xogulogs[piwkyu|yxryZaUoJbWpwyvyt{x~­­­­£¨¨    ¡¡¡¡jzjslyttttvvvv|}}~mwvSh`ruuuu||||txqn{~~~~~}}}}zzzzjsqwk~rw /* Error: Ran out of types for this method. */;

@@ -9,19 +9,17 @@
 @interface (extension in CloudKit):__C.CKRecordZone.Reference
 {
     id zoneID;
-    id action;
 }
 
 - (id);
 - (id);
-- (long long);
+- (long long)internalGetMultiArrayWithHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void)ÜS9;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
 
 @end
 

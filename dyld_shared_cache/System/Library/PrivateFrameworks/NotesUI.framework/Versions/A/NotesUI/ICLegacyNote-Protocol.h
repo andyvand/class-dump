@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSManagedObjectContext, NSManagedObjectID, NSSet, NSString;
-@protocol ICLegacyAccount, ICLegacyFolder;
+@class NSDate, NSManagedObjectContext, NSManagedObjectID, NSString;
+@protocol ICLegacyFolder;
 
 @protocol ICLegacyNote
-- (NSSet *);
+- (_Bool)xt seed while enumerating install coordinators :%@ /* Error: Ran out of types for this method. */;
+- (id <ICLegacyFolder>);
+- (void)a;
+- (NSManagedObjectID *)9	;
+- (NSDate *)w;
 - (NSManagedObjectContext *);
 
 // Remaining properties
-@property(readonly, nonatomic) id <ICLegacyAccount> account;
-@property(readonly, nonatomic) NSSet *attachments;
-@property(readonly, nonatomic) NSString *contentAsPlainText;
-@property(readonly, copy, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) id <ICLegacyFolder> folder;
 @property(copy, nonatomic) NSString *htmlString;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isDeletedOrInTrash;
-@property(readonly, nonatomic) _Bool isMarkedForDeletion;
-@property(readonly, nonatomic) _Bool isPlainText;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(readonly, copy, nonatomic) NSDate *modificationDate;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, copy, nonatomic) NSString *title;
 @end
 

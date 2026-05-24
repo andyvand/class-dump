@@ -6,28 +6,19 @@
 
 #import <GeoServices/GEOXPCReply.h>
 
-@class NSString;
-
 @interface GEOMAResourcePurgeCacheToSizeReply : GEOXPCReply
 {
     unsigned long long _amountDeleted;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)<CNQueueingStrategy>";
 - (id);
-- (_Bool);
-- (void)Content:(id)arg1;
+- (_Bool)̘;
+- (void)addContent:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) unsigned long long amountDeleted; // @synthesize amountDeleted=_amountDeleted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

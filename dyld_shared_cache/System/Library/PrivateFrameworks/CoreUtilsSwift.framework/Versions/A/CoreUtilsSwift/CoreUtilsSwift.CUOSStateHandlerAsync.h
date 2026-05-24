@@ -7,10 +7,6 @@
 @interface CoreUtilsSwift.CUOSStateHandlerAsync
 {
     id _dispatchQueue;
-    id _logger;
-    id _osStateHandler;
-    id _stateHandler;
-    id _title;
 }
 
 @end

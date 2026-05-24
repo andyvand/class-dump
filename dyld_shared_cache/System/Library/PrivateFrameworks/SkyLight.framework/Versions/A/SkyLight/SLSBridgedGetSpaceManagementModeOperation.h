@@ -11,9 +11,9 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)SELECT count(*) FROM ;
+- (id)NT(Z_PK) FROM %@ WHERE %@ = %@;
+- (id);
 - (id);
 - (void);
 

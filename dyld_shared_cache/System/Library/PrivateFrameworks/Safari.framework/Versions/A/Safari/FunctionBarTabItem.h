@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserTabViewItem, NSString, NSView, TabSnapshotCacheWithPersistence;
+@class BrowserTabViewItem, TabSnapshotCacheWithPersistence;
 
 __attribute__((visibility("hidden")))
 @interface FunctionBarTabItem
 {
     TabSnapshotCacheWithPersistence *_tabSnapshotCacheWithPersistence;
-    long long _currentThumbnailMode;
-    NSView *_currentContentView;
-    BrowserTabViewItem *_tabViewItem;
 }
 
 - (id);
@@ -33,11 +30,7 @@ __attribute__((visibility("hidden")))
 - (id)È¤æÿ]ÇPÏ-;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessibilityDescription;
-@property(readonly, nonatomic) NSView *contentView;
-@property(readonly, nonatomic) TabSnapshotCacheWithPersistence *tabSnapshotCacheWithPersistence; // @synthesize tabSnapshotCacheWithPersistence=_tabSnapshotCacheWithPersistence;
 @property(nonatomic) __weak BrowserTabViewItem *tabViewItem; // @synthesize tabViewItem=_tabViewItem;
-@property(readonly, copy, nonatomic) NSString *thumbnailSizeObservationKey;
 
 @end
 

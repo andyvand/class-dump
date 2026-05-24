@@ -16,8 +16,8 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)webViewUnfocus:(id)arg1;
+- (void)!;
 
 // Remaining properties
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;

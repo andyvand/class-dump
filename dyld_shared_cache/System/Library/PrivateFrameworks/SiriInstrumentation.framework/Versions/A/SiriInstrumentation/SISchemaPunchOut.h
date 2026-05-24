@@ -6,30 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaViewContainer;
+@class NSString;
 
 @interface SISchemaPunchOut : SISchemaInstrumentationMessage
 {
     NSString *_appID;
-    NSString *_urlScheme;
-    SISchemaViewContainer *_viewContainer;
-    NSData *_viewElementID;
-    int _punchOutUI;
-    _Bool _isPunchoutToHomeScreen;
-    NSString *_aceID;
-    struct {
-        unsigned int punchOutUI:1;
-        unsigned int isPunchoutToHomeScreen:1;
-    } _has;
-    _Bool _hasAppID;
-    _Bool _hasUrlScheme;
-    _Bool _hasViewContainer;
-    _Bool _hasViewElementID;
-    _Bool _hasAceID;
 }
 
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -48,49 +33,35 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (_Bool);
 - (id);
+- (void);
+- (unsigned long long)_currentlyOptedInForXROSEligibility;
+- (_Bool)n;
+- (_Bool)after_delete_on_chat_message_join AFTER DELETE ON chat_message_join BEGIN     UPDATE message       SET cache_roomnames = (         SELECT group_concat(c.room_name)         FROM chat c         INNER JOIN chat_message_join j ON c.ROWID = j.chat_id         WHERE           j.message_id = OLD.message_id       )       WHERE         message.ROWID = OLD.message_id;  DELETE FROM message WHERE message.ROWID = OLD.message_id AND OLD.message_id NOT IN (SELECT chat_message_join.message_id from chat_message_join WHERE chat_message_join.message_id = OLD.message_id LIMIT 1); END;;
 - (id);
-- (id)rection;
-- (id)torStringQueryEntityCallContext;
-- (id)TERDECISIONTYPE_UNKNOWN;
-- (void)T_6_0;
-- (void)itionHardware;
+- (id)A;
+- (id)deleteCorrection;
+- (id)_executorStringQueryEntityCallContext;
+- (id)NLROUTERDECISIONTYPE_UNKNOWN;
+- (void)MWTFORMATLAYOUT_AUDIO_UNIT_6_0;
+- (void)ASRSchemaASRSpeechRecognitionHardware;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceID; // @synthesize aceID=_aceID;
 @property(copy, nonatomic) NSString *appID; // @synthesize appID=_appID;
-@property(nonatomic) _Bool hasAceID; // @synthesize hasAceID=_hasAceID;
-@property(nonatomic) _Bool hasAppID; // @synthesize hasAppID=_hasAppID;
-@property(nonatomic) _Bool hasIsPunchoutToHomeScreen;
-@property(nonatomic) _Bool hasPunchOutUI;
-@property(nonatomic) _Bool hasUrlScheme; // @synthesize hasUrlScheme=_hasUrlScheme;
-@property(nonatomic) _Bool hasViewContainer; // @synthesize hasViewContainer=_hasViewContainer;
-@property(nonatomic) _Bool hasViewElementID; // @synthesize hasViewElementID=_hasViewElementID;
-@property(nonatomic) _Bool isPunchoutToHomeScreen; // @synthesize isPunchoutToHomeScreen=_isPunchoutToHomeScreen;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int punchOutUI; // @synthesize punchOutUI=_punchOutUI;
-@property(copy, nonatomic) NSString *urlScheme; // @synthesize urlScheme=_urlScheme;
-@property(retain, nonatomic) SISchemaViewContainer *viewContainer; // @synthesize viewContainer=_viewContainer;
-@property(copy, nonatomic) NSData *viewElementID; // @synthesize viewElementID=_viewElementID;
 
 @end
 

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface WiFiP2PAWDLStateMonitorConfiguration
 {
     unsigned long long _options;
-    NSArray *_servicesRequiringAvailabilityNotification;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -26,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(copy, nonatomic) NSArray *servicesRequiringAvailabilityNotification; // @synthesize servicesRequiringAvailabilityNotification=_servicesRequiringAvailabilityNotification;
 
 @end
 

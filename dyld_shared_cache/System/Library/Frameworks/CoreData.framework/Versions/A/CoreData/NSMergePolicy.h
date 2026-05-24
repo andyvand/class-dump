@@ -7,8 +7,6 @@
 @interface NSMergePolicy
 {
     unsigned long long _type;
-    void *_reserved2;
-    void *_reserved3;
 }
 
 + (id);
@@ -23,14 +21,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)(;
+- (void)queue>";
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void)SManagedObjectContext",R,V_requestContext;
 

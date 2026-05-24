@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface _TopSiteCandidate
 {
     HistoryItem *_historyItem;
-    double _score;
 }
 
 - (id);
 - (id);
-- (double)gOfAssistantPegasusContentAfterChangingConsentState;
-- (long long)er;
+- (double)performPrefetchingOfAssistantPegasusContentAfterChangingConsentState;
+- (long long)ResponsiveDesignViewportPresetMenuController;
 - (id)yAAy§f5yQcf5Tjf5y.!f5y¸^f5G_AgDyE!f5_A2GtGSgtGGíYf5yÇ&f5GG_SSQo_4f5G4f5G;
 - (void)È;
 
 // Remaining properties
 @property(readonly, nonatomic) HistoryItem *historyItem; // @synthesize historyItem=_historyItem;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
 
 @end
 

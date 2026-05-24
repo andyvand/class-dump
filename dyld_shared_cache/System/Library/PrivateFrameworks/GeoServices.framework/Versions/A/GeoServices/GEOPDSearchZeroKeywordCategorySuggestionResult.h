@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchZeroKeywordCategorySuggestionResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_categorys;
-    NSMutableArray *_zeroKeywordEntrys;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_categorys:1;
-        unsigned int read_zeroKeywordEntrys:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)_applyArchiveValue:(id)arg1 forKeyPath: /* Error: Ran out of types for this method. */;
+- (id)fetchFallbackAudioSessionReleaseProvider;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ts"b1"read_bannerSmallTexts"b1"read_buttons"b1"read_cameraInput"b1"read_eventInfo"b1"read_localizedIncidentBanners"b1"read_localizedIncidentSpokenTexts"b1"read_localizedIncidentSubBanners"b1"read_progressBarRange"b1"read_spokenPrompt"b1"read_triggerRange"b1"wrote_anyField"b1};
-- (id)tQ;
+- (id)_requestQ;
 - (id)x[\P]$^4_;
 - (void);
 

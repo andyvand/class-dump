@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
 @protocol BWFigCaptureISPProcessingSessionDelegate;
 
 @interface BWFigCaptureISPProcessingSession
 {
     struct OpaqueFigCaptureISPProcessingSession *_session;
-    int _type;
-    NSDictionary *_supportedProperties;
-    NSMutableDictionary *_cachedProperties;
-    id <BWFigCaptureISPProcessingSessionDelegate> _delegate;
-    _Bool _invalidated;
-    struct os_unfair_lock_s _lock;
 }
 
 + (void)nID:input:] /* Error: Ran out of types for this method. */;
-- (int);
+- (int)multiplyWorldTransformBy:(struct __CVBuffer *)arg1 order:(void *)arg2;
 - (void);
-- (int);
+- (int)9;
 - (id);
 - (int);
-- (void);
+- (void)c;
 - (int);
 - (int)»ÿB;
 - (id)ÿq;
@@ -36,9 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) id <BWFigCaptureISPProcessingSessionDelegate> delegate;
-@property(readonly) struct OpaqueFigCaptureISPProcessingSession *figCaptureISPProcessingSession;
-@property(readonly) NSDictionary *supportedProperties;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

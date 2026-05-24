@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSQLiteDatabase, CKSQLiteTableGroup, NSNumber, NSObject, NSString;
+@class CKSQLiteTableGroup, NSString;
 
 @interface CKSQLiteTable
 {
     NSString *_dbTableName;
-    CKSQLiteDatabase *_db;
-    _Atomic unsigned int _flags;
-    _Bool _suppressForeignKeyErrors;
-    NSString *_logicalTableName;
-    NSNumber *_tableID;
-    NSString *_primaryKey;
-    CKSQLiteTableGroup *_tableGroup;
-    NSObject *_databaseManagerData;
-    id _tocTableEntry;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 + (Class);
 + (id);
 + (void);
 + (unsigned int);
-+ (unsigned int);
++ (unsigned int)k+;
 + (id);
 + (unsigned long long);
 + (void);
@@ -44,25 +35,25 @@
 + (Class);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (unsigned long long);
++ (id)9HE;
++ (id);
++ (unsigned long long);
 + (void)ot inflate a CKCodeOperation from operation info; they are not suitable as long lived operations;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)?=;
+- (long long);
+- (long long)(e;
+- (id);
 - (id);
 - (long long);
 - (long long);
-- (id);
-- (id);
-- (long long);
-- (long long);
-- (long long);
+- (long long)!;
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
@@ -74,7 +65,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)R0;
 - (id);
 - (id);
 - (id);
@@ -89,12 +80,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)qk;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ka;
 - (id);
 - (id);
 - (id);
@@ -103,9 +94,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (id);
+- (id)*;
 - (_Bool);
 - (id);
 - (id);
@@ -114,41 +105,42 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (_Bool)(	
+K=;
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)H;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)layer in the neural network.;
+- (void)oubleValue;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -160,15 +152,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject *databaseManagerData; // @synthesize databaseManagerData=_databaseManagerData;
-@property(readonly, nonatomic) _Bool databaseTableWasCreated;
-@property(readonly, nonatomic) NSString *dbTableName; // @synthesize dbTableName=_dbTableName;
-@property(nonatomic) _Bool logOperations;
-@property(readonly, nonatomic) NSString *logicalTableName; // @synthesize logicalTableName=_logicalTableName;
-@property(readonly, nonatomic) NSString *primaryKey; // @synthesize primaryKey=_primaryKey;
 @property(nonatomic) __weak CKSQLiteTableGroup *tableGroup; // @synthesize tableGroup=_tableGroup;
-@property(retain, nonatomic) NSNumber *tableID; // @synthesize tableID=_tableID;
-@property(retain, nonatomic) id tocTableEntry; // @synthesize tocTableEntry=_tocTableEntry;
 
 @end
 

@@ -9,14 +9,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (_Bool);
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)"c;
 + (id);
 
 @end

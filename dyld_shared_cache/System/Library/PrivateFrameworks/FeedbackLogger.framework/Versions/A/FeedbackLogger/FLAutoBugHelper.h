@@ -7,8 +7,6 @@
 @interface FLAutoBugHelper
 {
     id autoBugCapture;
-    id eventValue;
-    id bundleID;
 }
 
 - (void);

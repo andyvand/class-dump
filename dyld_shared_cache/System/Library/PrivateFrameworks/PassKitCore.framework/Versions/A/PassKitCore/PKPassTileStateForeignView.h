@@ -9,17 +9,15 @@
 @interface PKPassTileStateForeignView : PKPassTileState
 {
     CDUnknownBlockType _adaptorProvider;
-    long long _preferredStyle;
 }
 
 + (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (long long);
-- (void);
+- (void)contactName;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType adaptorProvider; // @synthesize adaptorProvider=_adaptorProvider;
-@property(readonly, nonatomic) long long preferredStyle; // @synthesize preferredStyle=_preferredStyle;
 
 @end
 

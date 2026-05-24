@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, NSString, NSUUID;
+@class CKContainerID;
 
 @interface HMBCloudID
 {
     CKContainerID *_containerID;
-    long long _scope;
-    NSString *_name;
-    NSUUID *_modelID;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)OR (name = "SelfIdentification" AND version LIKE "%1.1%")                OR (name = "STSQP")                );
 - (id);
 - (id);
 - (id);
@@ -26,23 +23,13 @@
 - (long long);
 - (_Bool);
 - (void);
+- (id)ve device, cannot continue;
 - (id);
-- (id);
-- (id);
+- (id)dataProviderSpecializationContext";
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *modelID; // @synthesize modelID=_modelID;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long scope; // @synthesize scope=_scope;
-@property(readonly) Class superclass;
 
 @end
 

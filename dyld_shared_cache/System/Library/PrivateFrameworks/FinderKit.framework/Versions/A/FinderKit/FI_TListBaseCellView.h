@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TListTextField, NSFont;
+@class FI_TListTextField;
 
 __attribute__((visibility("hidden")))
 @interface FI_TListBaseCellView
 {
     FI_TListTextField *_titleTextField;
-    _Bool _inBatchUpdate;
-    _Bool _dimmed;
-    int _mainProperty;
 }
 
 - (void);
@@ -23,16 +20,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void)èà(;
 
 // Remaining properties
 @property(nonatomic, getter=isDimmed) _Bool dimmed; // @synthesize dimmed=_dimmed;
-@property(nonatomic, getter=isInBatchUpdate) _Bool inBatchUpdate; // @synthesize inBatchUpdate=_inBatchUpdate;
-@property(nonatomic) int mainProperty; // @synthesize mainProperty=_mainProperty;
-@property(copy, nonatomic) NSFont *titleFont;
 
 @end
 

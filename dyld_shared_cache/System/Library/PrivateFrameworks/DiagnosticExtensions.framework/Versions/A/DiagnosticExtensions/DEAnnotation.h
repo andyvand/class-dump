@@ -8,10 +8,10 @@
 {
 }
 
-+ (id);
++ (id)o;
 + (id);
 + (void);
-+ (id);
++ (id)queryMatchedAddedObjectIDs:(id)arg1 after:extraInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray;
+@class NSMutableArray;
 
 @interface RTVisitFeedBuffer
 {
     CDUnknownBlockType _comparator;
-    double _minWaitInterval;
-    NSMutableArray *_locations;
-    NSDate *_lastMaturedLocationDate;
 }
 
 - (id);
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)RJ;
 - (id);
 - (void);
 - (id);
 - (unsigned long long)nterestAttributes"@"NSError">24;
-- (void)lTimeAverage_home_bucketed;
+- (void)weeklyDaysWithNonZeroDwellTimeAverage_home_bucketed;
 - (void)ler,contact %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *lastMaturedLocationDate; // @synthesize lastMaturedLocationDate=_lastMaturedLocationDate;
 @property(retain, nonatomic) NSMutableArray *locations; // @synthesize locations=_locations;
-@property(readonly, nonatomic) double minWaitInterval; // @synthesize minWaitInterval=_minWaitInterval;
-@property(readonly, nonatomic) unsigned long long numLocations;
 
 @end
 

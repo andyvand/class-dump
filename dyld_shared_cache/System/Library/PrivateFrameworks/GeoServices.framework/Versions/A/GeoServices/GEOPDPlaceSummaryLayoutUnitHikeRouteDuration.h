@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool):(id)arg1;
++ (_Bool)setIncidentOnRouteInfos:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)sconnected;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)dUnavailableRegions"b1"read_iconIndexs"b1"read_regionalResourceIndexs"b1"read_resourceIndexs"b1"read_styleSheetIndexs"b1"read_textureIndexs"b1"read_tileSets"b1"read_xmlIndexs"b1"wrote_anyField"b1};
-- (id)gthMeters;
+- (id)_lengthMeters;
 - (id)01¨12	5¼6X78p:; /* Error: Ran out of types for this method. */;
-- (id)gestionResult;
+- (id)placeSuggestionResult;
 
 @end
 

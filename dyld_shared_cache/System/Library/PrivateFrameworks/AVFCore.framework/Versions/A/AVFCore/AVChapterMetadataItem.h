@@ -18,28 +18,29 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)
+;
 - (long long);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)Q;
 - (CDStruct_1b6d18a9);
 - (id);
 - (id);
 - (id);
 - (id);
-- (long long);
-- (void);
+- (long long);
+- (void)qa;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)_pronunciationFirstName;
 - (void);
 - (void);
 - (id))Ð1Â0@ù

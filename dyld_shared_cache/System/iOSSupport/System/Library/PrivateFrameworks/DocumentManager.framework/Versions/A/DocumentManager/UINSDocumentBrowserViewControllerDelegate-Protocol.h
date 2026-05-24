@@ -5,6 +5,7 @@
 //
 
 @protocol UINSDocumentBrowserViewControllerDelegate
+- (void);
 - (void)onalActivities:activityProxy: /* Error: Ran out of types for this method. */;
 @end
 

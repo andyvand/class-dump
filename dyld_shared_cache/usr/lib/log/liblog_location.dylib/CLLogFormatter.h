@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMethodSignature, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface CLLogFormatter
 {
     NSMutableDictionary *_selectorForType;
-    NSMethodSignature *_formatterSignature;
-    NSObject<OS_dispatch_queue> *_q;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)savedLastJoinReason;
+- (id)malIndexMinDuration;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)getPeerIDsTrustedByPeerWithDynamicInfo:(id)arg1 toAccessView:(struct os_log_type_info_s *)arg2 error: /* Error: Ran out of types for this method. */;
+- (id)brandIndicator;
+- (id)_messageFilterExpressionForFilterPredicate:(id)arg1;
+- (id)hRelatedUniqueidentifiers succeeded:(id)arg1 %{BOOL}d for persistentIDs %{public}@ error:(struct os_log_type_info_s *)arg2 %@;
+- (id)user_initiated, mailbox, source_mailbox, destination_mailbox) VALUES (?, ?, ?, ?, ?);
 - (id);
 - (id);
 - (id);
@@ -41,6 +38,20 @@
 - (id);
 - (id);
 - (id);
+- (id)SendingDestination;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)V_processScopedClientProxy;
+- (id)containerEnvironment;
+- (id)nt, we have only have an anonymous account;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,27 +66,13 @@
 - (id);
 - (id);
 - (id);
+- (id)user_course_process_noise_multiplier_for_downhillsnowsports_in_pnt;
+- (id)bound,%lu;
+- (id);
+- (id)N8cnmatrix8CNMatrixILj44ELj1E6CNTimeEE;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

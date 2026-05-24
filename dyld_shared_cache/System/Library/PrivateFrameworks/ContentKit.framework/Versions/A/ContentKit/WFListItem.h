@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFImage;
+@class NSString;
 
 @interface WFListItem
 {
     NSString *_title;
-    NSString *_subtitle;
-    WFImage *_image;
 }
 
 + (_Bool);
@@ -20,11 +18,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)__LINKEDIT;
 
 // Remaining properties
-@property(readonly, nonatomic) WFImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

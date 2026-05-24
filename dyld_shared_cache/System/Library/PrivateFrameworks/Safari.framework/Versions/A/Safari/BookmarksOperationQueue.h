@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSOperationQueue, NSString;
+@class NSOperationQueue;
 
 __attribute__((visibility("hidden")))
 @interface BookmarksOperationQueue
 {
     NSOperationQueue *_queue;
-    NSMapTable *_operationClassesToCaches;
-    NSMapTable *_operationClassesRequestingCacheDeletionOnBookmarksChange;
-    NSMapTable *_operationClassesToCoalescers;
-    NSMapTable *_overridableOperationClassesToMostRecentInstances;
 }
 
-+ (id)lteredCredentials;
++ (id)resetFilteredCredentials;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -34,14 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property unsigned long long maximumConcurrentOperationCount;
-@property(readonly) Class superclass;
 
 @end
 

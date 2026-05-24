@@ -6,7 +6,7 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface VNCreateImageprintRequest : VNImageBasedRequest
 {
@@ -21,7 +21,6 @@
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSArray *results; // @dynamic results;
 @property(retain, nonatomic) NSNumber *timeStamp;
 
 @end

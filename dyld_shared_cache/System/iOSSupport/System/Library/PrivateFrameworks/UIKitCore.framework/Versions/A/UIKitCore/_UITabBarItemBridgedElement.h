@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UITabElement.h>
 
-@class NSString, UITabBarItem;
+@class UITabBarItem;
 
 __attribute__((visibility("hidden")))
 @interface _UITabBarItemBridgedElement : _UITabElement
@@ -16,27 +16,27 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
+- (id)rs;
 - (long long);
 - (struct UIEdgeInsets);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)finishThrottlingForIdentifier:(id)arg1;
+- (void)fileTransferErrorWithReason:(id)arg1 description:(id)arg2;
+- (void)_forwardMessageToPeers:(id)arg1 messageType:guid:originalSender:forcedCallerID:hasAttachment:watchOnly:sentToDevices:requiredCapabilities: /* Error: Ran out of types for this method. */;
+- (id)stickerMetadata;
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)eSNAOPHIDErrorType;
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id)xtendingSelectionAtIndexPath:keepingSelection: /* Error: Ran out of types for this method. */;
+- (id)willBeginExtendingSelectionAtIndexPath:keepingSelection: /* Error: Ran out of types for this method. */;
 - (id)%@;
 - (id)d.;
 - (id));
@@ -44,13 +44,6 @@ __attribute__((visibility("hidden")))
 - (_Bool)táþ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UITabBarItem *tabBarItem; // @synthesize tabBarItem=_tabBarItem;
 
 @end

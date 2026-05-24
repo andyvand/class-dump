@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarRecordImageGenerator, AVTImageStore, NSString;
-@protocol AVTAvatarStore, AVTAvatarStoreInternal, AVTStickerBackendDelegate, AVTUILogger;
+@class AVTAvatarRecordImageGenerator;
 
 @interface AVTAvatarStore
 {
     AVTAvatarRecordImageGenerator *_imageGenerator;
-    id <AVTAvatarStore> _persistenceAvatarStore;
-    AVTImageStore *_imageStore;
-    id <AVTUILogger> _logger;
-    id <AVTAvatarStoreInternal> _internalStore;
 }
 
 + (unsigned long long);
@@ -48,29 +43,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)9;
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) AVTAvatarRecordImageGenerator *imageGenerator; // @synthesize imageGenerator=_imageGenerator;
-@property(readonly, nonatomic) AVTImageStore *imageStore; // @synthesize imageStore=_imageStore;
-@property(nonatomic) __weak id <AVTAvatarStoreInternal> internalStore; // @synthesize internalStore=_internalStore;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) id <AVTAvatarStore> persistenceAvatarStore; // @synthesize persistenceAvatarStore=_persistenceAvatarStore;
-@property(nonatomic) __weak id <AVTStickerBackendDelegate> stickerBackendDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<AVTStickerBackendDelegate>",?,W,N
-
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSObject, NSURL;
+@class NSObject, NSURL;
 @protocol OS_dispatch_queue;
 
 @interface WBSFifoTestResults
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    NSURL *_fifoURL;
-    NSFileHandle *_fifoHandle;
 }
 
 + (_Bool);
 + (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSFileHandle *fifoHandle; // @synthesize fifoHandle=_fifoHandle;
 @property(readonly, nonatomic) NSURL *fifoURL; // @synthesize fifoURL=_fifoURL;
 
 @end

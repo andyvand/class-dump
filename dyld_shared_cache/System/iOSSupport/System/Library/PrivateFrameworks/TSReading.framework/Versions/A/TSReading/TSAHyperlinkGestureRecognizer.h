@@ -4,50 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSDInteractiveCanvasController, TSDRep, TSWPHyperlinkField;
-@protocol TSWPHyperlinkHostRepProtocol;
+@class TSDInteractiveCanvasController, TSWPHyperlinkField;
 
 @interface TSAHyperlinkGestureRecognizer
 {
     TSDInteractiveCanvasController *_icc;
-    TSWPHyperlinkField *_hitField;
-    TSDRep<TSWPHyperlinkHostRepProtocol> *_hitRep;
-    _Bool _tapEnabled;
-    _Bool _tapHoldEnabled;
-    _Bool _wasTapHold;
-    struct CGPoint _touchBeginPoint;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)V;
 - (id);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)c;
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id)SKRemoteEngagementMacHelperDelegate;
+- (void);
+- (void)!;
 - (void);
-- (void);
-- (void)ding;
+- (void)mDragEnding;
 
 // Remaining properties
 @property(retain, nonatomic) TSWPHyperlinkField *hitField; // @synthesize hitField=_hitField;
-@property(retain, nonatomic) TSDRep<TSWPHyperlinkHostRepProtocol> *hitRep; // @synthesize hitRep=_hitRep;
-@property(nonatomic) TSDInteractiveCanvasController *icc; // @synthesize icc=_icc;
-@property(nonatomic) _Bool tapEnabled; // @synthesize tapEnabled=_tapEnabled;
-@property(nonatomic) _Bool tapHoldEnabled; // @synthesize tapHoldEnabled=_tapHoldEnabled;
-@property(readonly, nonatomic) _Bool wasTapHold; // @synthesize wasTapHold=_wasTapHold;
 
 @end
 

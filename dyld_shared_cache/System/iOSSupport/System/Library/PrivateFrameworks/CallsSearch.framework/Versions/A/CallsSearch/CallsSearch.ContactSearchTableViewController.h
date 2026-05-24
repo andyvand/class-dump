@@ -8,19 +8,6 @@
 {
     id logger;
     id idsQueryPageSize;
-    id currentIDSStatusPage;
-    id contactIDSQuerySubject;
-    id $__lazy_storage_$_contactAvatarCardController;
-    id contactViewControllerProvider;
-    id contactSearchResults;
-    id hostingNavigationController;
-    id delegate;
-    id contactSearchType;
-    id searchText;
-    id dataSourceNeedsReload;
-    id $__lazy_storage_$_tableView;
-    id senderIdentityProvider;
-    id callProviderManagerProvider;
 }
 
 - (void);

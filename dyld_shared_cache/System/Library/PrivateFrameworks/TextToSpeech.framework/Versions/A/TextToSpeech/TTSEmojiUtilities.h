@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (struct _NSRange);
++ (struct _NSRange)B;
 + (void);
 + (void);
 

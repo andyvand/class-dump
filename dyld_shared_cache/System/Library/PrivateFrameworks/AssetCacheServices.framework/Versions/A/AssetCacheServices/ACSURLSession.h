@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSOperationQueue, NSString, NSURLSession, NSURLSessionConfiguration;
-@protocol ACSURLSessionDelegate, OS_dispatch_queue, OS_os_log;
-
 @interface ACSURLSession
 {
     _Bool _canUseCachingServer;
-    int __phase;
-    NSObject<OS_os_log> *__logHandle;
-    NSObject<OS_dispatch_queue> *__queue;
-    NSURLSession *__nsurlSession;
-    NSDictionary *__locateOptions;
-    id <ACSURLSessionDelegate> __clientDelegate;
-    NSOperationQueue *__clientDelegateOpQueue;
-    NSMutableDictionary *__tasks;
 }
 
 + (id);
@@ -29,35 +18,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (_Bool);
 - (void);
-- (id);
+- (id)_networkEnergySnapshot;
 - (void);
+- (id)ateDescriptorValue"b1"didWriteDescriptorValue"b1"didReceiveTimeSync"b1"didReceiveChannelSoundingProcedure"b1"didOpenL2CAPChannel"b1"didCloseL2CAPChannel"b1};
+- (id)kCBCSWriteRemoteOptionalTIP1TimesSupported;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (void)@;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)"NSString",C,N,V_organizerEmail;
+- (void)So16FAScreenDistanceC;
+- (id)%s, error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -65,8 +39,11 @@
 - (id);
 - (void);
 - (id);
+- (void)ability;
 - (void);
 - (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -74,24 +51,36 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id)peopleForAccount: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void){;
+- (id);
+- (void);
+- (id)!;
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)_unitTestableLocalizedStringForPostalAddressString:(id)arg1 returningNilIfNotFound: /* Error: Ran out of types for this method. */;
+- (void)JSONObjectWithData:(id)arg1 options:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setInputImageFeatureName:(id)arg1;
+- (void);
+- (void)x|VGt;
+- (id)start;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -107,39 +96,19 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)¨6(7
 l9;
 
 // Remaining properties
-@property(retain) id <ACSURLSessionDelegate> _clientDelegate; // @synthesize _clientDelegate=__clientDelegate;
-@property(retain) NSOperationQueue *_clientDelegateOpQueue; // @synthesize _clientDelegateOpQueue=__clientDelegateOpQueue;
-@property(retain) NSDictionary *_locateOptions; // @synthesize _locateOptions=__locateOptions;
-@property(retain) NSObject<OS_os_log> *_logHandle; // @synthesize _logHandle=__logHandle;
-@property(retain) NSURLSession *_nsurlSession; // @synthesize _nsurlSession=__nsurlSession;
-@property int _phase; // @synthesize _phase=__phase;
-@property(retain) NSObject<OS_dispatch_queue> *_queue; // @synthesize _queue=__queue;
-@property(retain) NSMutableDictionary *_tasks; // @synthesize _tasks=__tasks;
 @property _Bool canUseCachingServer; // @synthesize canUseCachingServer=_canUseCachingServer;
-@property(readonly, copy) NSURLSessionConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, retain) id <ACSURLSessionDelegate> delegate;
-@property(readonly, retain) NSOperationQueue *delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSDictionary *locateOptions;
-@property(copy) NSString *sessionDescription;
-@property(readonly) Class superclass;
 
 @end
 

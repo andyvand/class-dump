@@ -13,10 +13,10 @@
     PGFeaturedTimePeriodMemoryConfiguration *_featuredSeasonConfiguration;
 }
 
-- (id);
-- (id);
-- (void);
-- (void)tReason;
+- (id)_fetchAndSignalElementInfoChanged:(id)arg1;
+- (id)LibCall_ACMSecContextVerifyPolicyAndCopyRequirementEx;
+- (void)m.apple.Preview;
+- (void)WSTopCityscapePortraitReason;
 
 @end
 

@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICTable, ICTextController, NSMutableDictionary, NSObject;
-@protocol ICAvailableTableWidthProviding;
+@class ICTable, NSMutableDictionary;
 
 @interface ICTableColumnWidthManager
 {
     ICTable *_table;
-    NSObject<ICAvailableTableWidthProviding> *_delegate;
-    ICTextController *_styler;
-    NSMutableDictionary *_cachedIdealColumnWidths;
-    NSMutableDictionary *_cachedActualColumnWidths;
-    NSMutableDictionary *_cachedMinimumColumnWidths;
 }
 
-- (double);
+- (double)V;
 - (id);
 - (id);
 - (id);
@@ -32,16 +26,10 @@
 - (id);
 - (id);
 - (id);
-- (void)hmentFromStandardFileWrapper: /* Error: Ran out of types for this method. */;
+- (void)attachmentFromStandardFileWrapper: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *cachedActualColumnWidths; // @synthesize cachedActualColumnWidths=_cachedActualColumnWidths;
 @property(readonly, nonatomic) NSMutableDictionary *cachedIdealColumnWidths; // @synthesize cachedIdealColumnWidths=_cachedIdealColumnWidths;
-@property(readonly, nonatomic) NSMutableDictionary *cachedMinimumColumnWidths; // @synthesize cachedMinimumColumnWidths=_cachedMinimumColumnWidths;
-@property(readonly, nonatomic) __weak NSObject<ICAvailableTableWidthProviding> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) double singleColumnTableWidth;
-@property(readonly, nonatomic) ICTextController *styler; // @synthesize styler=_styler;
-@property(readonly, nonatomic) __weak ICTable *table; // @synthesize table=_table;
 
 @end
 

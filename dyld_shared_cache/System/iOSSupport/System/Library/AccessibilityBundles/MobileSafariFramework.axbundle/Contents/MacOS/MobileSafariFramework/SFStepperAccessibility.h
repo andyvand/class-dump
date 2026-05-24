@@ -11,15 +11,15 @@
 }
 
 + (Class);
-+ (id);
++ (id)isUserInteractionEnabled;
 + (void);
 - (void);
-- (void);
+- (void)A;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)__PKDiscoveryCardViewAccessibility_super;
 
 @end
 

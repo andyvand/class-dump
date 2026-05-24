@@ -5,6 +5,7 @@
 //
 
 @protocol NSDiscardableContent
-- (void)e:cdHash:error: /* Error: Ran out of types for this method. */;
+- (_Bool))G;
+- (void)signTemplateAppBundle:cdHash:error: /* Error: Ran out of types for this method. */;
 @end
 

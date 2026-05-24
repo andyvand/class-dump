@@ -14,8 +14,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (CDStruct_912cb5d2);
-- (id)fer:(CDStruct_912cb5d2)arg1 rect:error: /* Error: Ran out of types for this method. */;
+- (CDStruct_912cb5d2);
+- (id)generateThumbnailBuffer:(CDStruct_912cb5d2)arg1 fromBuffer:rect:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) CDStruct_912cb5d2 scale; // @synthesize scale=_scale;

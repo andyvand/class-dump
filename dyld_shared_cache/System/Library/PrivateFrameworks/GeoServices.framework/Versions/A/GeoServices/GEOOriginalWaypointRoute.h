@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOOriginalWaypointRoute
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_routeLegs;
-    int _creationMethod;
-    unsigned int _identifier;
-    unsigned int _lastValidUserOffsetCm;
-    int _purpose;
-    int _source;
-    struct {
-        unsigned int has_creationMethod:1;
-        unsigned int has_identifier:1;
-        unsigned int has_lastValidUserOffsetCm:1;
-        unsigned int has_purpose:1;
-        unsigned int has_source:1;
-    } _flags;
 }
 
 + (Class)
 × ;
-+ (_Bool)UsedBackgroundUrl:(id)arg1;
++ (_Bool)setHasUsedBackgroundUrl:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -36,7 +23,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -45,32 +32,32 @@
 - (int);
 - (void);
 - (void);
-- (int);
-- (int);
+- (int)feringObservable"16;
+- (int)setRegisteredDefaults:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)startWithAuthorization:(_Bool)arg1;
+- (void)stringByAppendingString:(id)arg1;
+- (void)_block_invoke;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)!;
 - (id)"read_unknownFields"b1"read_boardingInfo"b1"read_instructions"b1"read_scheduleInfo"b1"read_updateIdentifier"b1"read_vehiclePositionInfo"b1"wrote_anyField"b1};
 - (int);
-- (id)t: /* Error: Ran out of types for this method. */;
+- (id)setIsCurrentLocationInViewport: /* Error: Ran out of types for this method. */;
 - (unsigned int)XÐ@ÑÒøÒÈÓ¬Ô|ÕdÖ4×ØìØÐÙ ÚÛXÜ`Ý;
 - (id)XÆ°ü¯Ì;
 - (_Bool)valid. Returning 0.;
 - (id)ibrary/Caches/com.apple.xbs/TemporaryDirectory.wsazt5/Sources/GeoServices/libprotobuf/src/google/protobuf/parse_context.h;
 - (void)ÿ;
-- (int)uf24EnumValueDescriptorProtoE;
-- (_Bool)gle8protobuf12_GLOBAL__N_123AggregateErrorCollectorE;
+- (int)N6google8protobuf24EnumValueDescriptorProtoE;
+- (_Bool)N13AddrObjGoogle8protobuf12_GLOBAL__N_123AggregateErrorCollectorE;
 - (void);
 - (void)ÌCþ;
 - (id):(int)arg1;
@@ -78,18 +65,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int creationMethod;
-@property(nonatomic) _Bool hasCreationMethod;
 @property(nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasLastValidUserOffsetCm;
-@property(nonatomic) _Bool hasPurpose;
-@property(nonatomic) _Bool hasSource;
-@property(nonatomic) unsigned int identifier;
-@property(nonatomic) unsigned int lastValidUserOffsetCm;
-@property(nonatomic) int purpose;
-@property(retain, nonatomic) NSMutableArray *routeLegs;
-@property(nonatomic) int source;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

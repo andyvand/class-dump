@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UICollectionLayoutSectionGeometryTranslator
 {
     unsigned long long _layoutAxis;
-    _Bool _layoutRTL;
-    struct CGPoint _contentFrameOffset;
-    struct NSDirectionalEdgeInsets _sectionInsets;
-    struct CGRect _primaryContentFrame;
-    struct CGRect _contentFrameIncludingAuxiliaries;
 }
 
 - (struct CGSize);
@@ -21,14 +16,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)PEù±dð1Â0@ù
 × ;
-- (struct CGPoint)TopEdgeInset;
+- (struct CGPoint)_dimmingViewTopEdgeInset;
 - (struct CGRect)ontentImage;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize auxillaryHostContentSize;
-@property(readonly, nonatomic) struct CGRect contentFrameIncludingAuxiliaries;
-@property(readonly, nonatomic) struct CGPoint contentOffset;
-@property(readonly, nonatomic) struct CGRect primaryContentFrame;
 
 @end
 

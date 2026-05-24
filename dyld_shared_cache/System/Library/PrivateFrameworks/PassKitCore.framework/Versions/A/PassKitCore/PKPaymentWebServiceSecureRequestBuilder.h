@@ -6,13 +6,9 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequestBuilder.h>
 
-@class NSArray, PKPaymentDeviceMetadata;
-
 @interface PKPaymentWebServiceSecureRequestBuilder : PKPaymentWebServiceRequestBuilder
 {
     _Bool _devSigned;
-    NSArray *_certificates;
-    PKPaymentDeviceMetadata *_deviceData;
 }
 
 - (void);
@@ -25,15 +21,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)j;
 - (id)[%s] Discovery validation failed:%@ /* Error: Ran out of types for this method. */;
-- (void)etchTimeInterval;
+- (void)appleCashStickerAssetPrefetchTimeInterval;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *certificates; // @synthesize certificates=_certificates;
 @property(readonly, nonatomic) _Bool devSigned; // @synthesize devSigned=_devSigned;
-@property(readonly, nonatomic) PKPaymentDeviceMetadata *deviceData; // @synthesize deviceData=_deviceData;
 
 @end
 

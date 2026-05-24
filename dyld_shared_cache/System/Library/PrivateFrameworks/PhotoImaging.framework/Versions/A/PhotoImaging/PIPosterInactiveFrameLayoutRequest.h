@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PFPosterOrientedLayout;
 @protocol PISegmentationItem;
 
 @interface PIPosterInactiveFrameLayoutRequest
 {
     id <PISegmentationItem> _segmentationItem;
-    PFPosterOrientedLayout *_layout;
 }
 
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void)shouldPerformAutoStraighten;
 
 // Remaining properties
-@property(retain, nonatomic) PFPosterOrientedLayout *layout; // @synthesize layout=_layout;
 @property(readonly, nonatomic) id <PISegmentationItem> segmentationItem; // @synthesize segmentationItem=_segmentationItem;
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreDAVPropFindTask, ICSDocument, NSString, NSURL;
-@protocol CoreDAVTaskGroupDelegate;
+@class ICSDocument, NSURL;
 
 @interface CalDAVGetOfficeHoursTaskGroup
 {
     ICSDocument *_calendarAvailability;
-    NSURL *_inboxURL;
-    CoreDAVPropFindTask *_fetchTask;
 }
 
 - (void);
@@ -22,22 +19,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)	;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ICSDocument *calendarAvailability; // @synthesize calendarAvailability=_calendarAvailability;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <CoreDAVTaskGroupDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CoreDAVPropFindTask *fetchTask; // @synthesize fetchTask=_fetchTask;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSURL *inboxURL; // @synthesize inboxURL=_inboxURL;
-@property(readonly) Class superclass;
 
 @end
 

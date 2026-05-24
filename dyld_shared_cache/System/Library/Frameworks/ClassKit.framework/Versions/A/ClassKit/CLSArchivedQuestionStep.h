@@ -6,46 +6,33 @@
 
 #import <ClassKit/CLSArchivedSurveyStep.h>
 
-@class CLSArchivedAnswerFormat, NSArray, NSString;
+@class NSString;
 
 @interface CLSArchivedQuestionStep : CLSArchivedSurveyStep
 {
     NSString *_questionText;
-    long long _displayOrder;
-    long long _questionType;
-    NSArray *assets;
 }
 
 + (id);
-+ (_Bool);
-- (void);
-- (void);
++ (_Bool)_buddyML;
+- (void)sent!
+;
+- (void)ZinComputeProgramGetAneTDPartitionScheduleInfo;
+- (id)void *, const void *)::(anonymous class)::operator()(const void *const, size_t) const /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
 - (void);
+- (long long)modelAtURLWithSourceURL:sourceURL:key:cacheURLIdentifier: /* Error: Ran out of types for this method. */;
 - (long long);
-- (long long);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)C;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CLSArchivedAnswerFormat *archivedAnswerFormat;
-@property(readonly, nonatomic) NSArray *assets; // @synthesize assets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long displayOrder;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *questionText;
-@property(readonly, nonatomic) long long questionType;
-@property(readonly) Class superclass;
 
 @end
 

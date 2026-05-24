@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSQRProtoMaterial;
-
 @interface IDSQRProtoAllocBindJoinInfo
 {
     unsigned long long _participantId;
-    IDSQRProtoMaterial *_clientContextBlob;
-    int _reason;
-    CDStruct_19e42173 _has;
 }
 
 - (void);
@@ -23,15 +18,15 @@
 - (id);
 - (int);
 - (_Bool);
-- (id);
-- (void);
+- (id)$;
+- (void)(;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
-- (_Bool);
+- (int);
+- (_Bool)setOriginalName:(id)arg1;
 - (void);
-- (void);
+- (void)SFDeviceSetupWHASession;
 - (id);
 - (id);
 - (void)Probing:(_Bool)arg1 activeProbingLinkIDs:%@, probingInterval:%u, _probingTimeout:%u /* Error: Ran out of types for this method. */;
@@ -39,12 +34,7 @@
 - (id)joined_participants;
 
 // Remaining properties
-@property(retain, nonatomic) IDSQRProtoMaterial *clientContextBlob; // @synthesize clientContextBlob=_clientContextBlob;
-@property(readonly, nonatomic) _Bool hasClientContextBlob;
 @property(nonatomic) _Bool hasParticipantId;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) unsigned long long participantId; // @synthesize participantId=_participantId;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end
 

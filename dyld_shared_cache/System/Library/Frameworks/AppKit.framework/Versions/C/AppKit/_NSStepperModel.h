@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _NSStepperModel : _NSControlModel
 {
     double _value;
-    double _minValue;
-    double _maxValue;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -22,18 +20,17 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (long long);
+- (long long)_textLayoutManager;
 - (double);
 - (_Bool)GSize=dd}}48{CGPoint=dd}80{CGSize=dd}96;
-- (float);
-- (id)Counter;
+- (float)_titleController;
+- (id)_mutationCounter;
 - (_Bool);
 - (int)(Ø;
-- (double)ey;
+- (double)ComponentKey;
 - (id)Üç?;
 
 // Remaining properties
-@property double maxValue;
 @property double minValue;
 
 @end

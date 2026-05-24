@@ -7,7 +7,6 @@
 @interface AppStoreKit.AccountSectionText
 {
     id paragraph;
-    id id;
 }
 
 @end

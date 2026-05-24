@@ -4,10 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDeviceToDeviceShareInvitationToken, CKRecordID, HAPPairingIdentity, HMDAccountHandle, HMDAccountIdentifier, MKFUserDatabaseID, NSArray, NSData, NSDate, NSDictionary, NSNumber, NSString, NSUUID;
-@protocol MKFHome, MKFOutgoingInvitation, MKFUserAccessCode;
+@class HAPPairingIdentity, HMDAccountHandle, HMDAccountIdentifier, NSArray, NSNumber, NSString, NSUUID, Protocol;
+@protocol MKFAccessory, MKFAnalysisEventBulletinRegistration, MKFBulletinRegistration, MKFCameraAccessModeBulletinRegistration, MKFCameraReachabilityBulletinRegistration, MKFCameraSignificantEventBulletinRegistration, MKFCharacteristicBulletinRegistration, MKFHAPAccessory, MKFHome, MKFMatterBulletinRegistration, MKFNotificationRegistration, MKFNotificationRegistrationActionSet, MKFNotificationRegistrationCharacteristic, MKFNotificationRegistrationMediaProperty, MKFPhotosPerson, MKFPresenceBulletinCondition, MKFUserAccessCode, MKFUserActivityStatus;
 
 @protocol MKFUser
+- (NSArray *)C;
+- (NSNumber *);
+- (NSArray *)A;
+- (NSNumber *);
+- (NSNumber *);
+- (NSNumber *);
+- (id <MKFNotificationRegistrationCharacteristic>);
+- (id <MKFUserActivityStatus>)24;
+- (id <MKFPhotosPerson>)"b1"searchType"b1"tracksRAPRecordingOnly"b1};
+- (id <MKFNotificationRegistrationMediaProperty>)ng>"24@"MSPContainer"32;
+- (id <MKFNotificationRegistrationCharacteristic>)ner"16;
+- (id <MKFNotificationRegistrationActionSet>)@"NSArray"24@"NSArray"32q40@"<NSObject><NSCopying>"48;
+- (id <MKFMatterBulletinRegistration>)Data"16;
+- (id <MKFCharacteristicBulletinRegistration>):(NSUUID *)arg1 8@"NSString"16@"NSString"24@"NSURL"32;
+- (id <MKFCameraSignificantEventBulletinRegistration>)28@36;
+- (id <MKFCameraReachabilityBulletinRegistration>)cident"b1};
+- (id <MKFCameraAccessModeBulletinRegistration>)b1"creationDatetime"b1"endDatetime"b1"iconType"b1"lastUpdatedDatetime"b1"startDatetime"b1"blockingIncident"b1};
+- (id <MKFBulletinRegistration>)ld";
+- (id <MKFAnalysisEventBulletinRegistration>)ceTraits";
+- (id <MKFPresenceBulletinCondition>)"NSError">24@?<v@?B>32;
+- (id <MKFUserAccessCode>)ttribution>"16@0:(NSUUID *)arg1 8;
+- (NSArray *)startSharingTripWithContacts:capabilityType:serviceName:completion: /* Error: Ran out of types for this method. */;
+- (NSNumber *)relay:accountStatusChanged: /* Error: Ran out of types for this method. */;
+- (NSNumber *)capabilityLevelFetcher:didUpdateCapabilityLevelsForHandles: /* Error: Ran out of types for this method. */;
+- (id <MKFNotificationRegistrationMediaProperty>)_sendInitialStateIfNeeded;
+- (id <MKFNotificationRegistrationCharacteristic>)_sendDestinationReachedUpdate:(NSUUID *)arg1 to: /* Error: Ran out of types for this method. */;
+- (id <MKFNotificationRegistrationActionSet>)_searchType;
+- (id <MKFNotificationRegistration>)_scheduleBatchDelayTimerWithInterval:(Protocol *)arg1;
+- (id <MKFMatterBulletinRegistration>)_handleCheckinWithSharingIdentity:(NSUUID *)arg1 activeRecipients:serviceNamesByHandle:receivedTrips:permissions: /* Error: Ran out of types for this method. */;
+- (id <MKFCharacteristicBulletinRegistration>)_geo_uuidForData:(NSUUID *)arg1;
+- (id <MKFCameraSignificantEventBulletinRegistration>)_geoBookmarksSettingsPath;
+- (id <MKFCameraReachabilityBulletinRegistration>)_filteredParticipantsForState:(NSUUID *)arg1 event: /* Error: Ran out of types for this method. */;
+- (id <MKFCameraAccessModeBulletinRegistration>)_fetchSyncedIdentifiers;
+- (id <MKFBulletinRegistration>)_fetchRequiresUserConfirmationOfSharingIdentityWithCompletion:(NSUUID *)arg1;
+- (id <MKFAnalysisEventBulletinRegistration>)_fetchMapsAppInstallState;
+- (id <MKFBulletinRegistration>)_fetchActiveHandlesWithCompletion:(Protocol *)arg1;
+- (NSNumber *)l Senders are supported;
+- (NSNumber *)g:%{public}@ /* Error: Ran out of types for this method. */;
+- (NSNumber *)pSharingWith:%{public}@ wasSharing:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)ason:(id <MKFUserActivityStatus>)arg1 %{public}@;
+- (void)nitoring system block list updates;
+- (void)fying peer %{public}@ of %lu resolved statuses:(id <MKFHAPAccessory>)arg1 %{private}@;
+- (void)requested handles have both statues yet;
+- (void)tDidJoin discard invalid %@;
+- (void)off, fire immediately to trigger updates for both services;
+- (void)e data is %lu bytes long;
+- (void)n failed:(id <MKFAccessory>)arg1 completion != ((void*)0);
+- (void)uding now:(id <MKFAccessory>)arg1 %@;
+- (NSNumber *)SendingRules archiving error %@;
+- (NSArray *)ch expired %#.1lfs ago;
+- (NSArray *)e all identifiers with error:%@ /* Error: Ran out of types for this method. */;
+- (NSArray *)%@:error:%@ /* Error: Ran out of types for this method. */;
+- (HMDAccountHandle *);
+- (void)calendar;
 - (void)Â0@ù
 × ;
 - (id <MKFHome>)0@ù
@@ -15,8 +69,8 @@
 - (void)!DùÐ1Â0@ù
 × ;
 - (NSNumber *)lastViolationDate;
-- (void)hBackgroundOperationManager:(NSString *)arg1;
-- (HAPPairingIdentity *): /* Error: Ran out of types for this method. */;
+- (void)initWithBackgroundOperationManager:(NSString *)arg1;
+- (HAPPairingIdentity *)getSnapshot: /* Error: Ran out of types for this method. */;
 - (NSString *)Ì;
 - (NSArray *)transport type:%{public}@, not generating log event /* Error: Ran out of types for this method. */;
 - (HMDAccountIdentifier *)MDHAPAccessory;
@@ -25,80 +79,6 @@
 - (void)l;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFUserAccessCode> accessCode;
-@property(readonly, retain, nonatomic) NSArray *accessoriesWithListeningHistoryEnabled;
-@property(readonly, retain, nonatomic) NSArray *accessoriesWithMediaContentProfileEnabled;
-@property(readonly, retain, nonatomic) NSArray *accessoriesWithPersonalRequestsEnabled;
 @property(retain, nonatomic) HMDAccountHandle *accountHandle;
-@property(retain, nonatomic) HMDAccountIdentifier *accountIdentifier;
-@property(copy, nonatomic) NSNumber *activityNotificationsEnabledForPersonalRequests;
-@property(copy, nonatomic) NSNumber *adaptiveTemperatureAutomationsDisclosureStatus;
-@property(copy, nonatomic) NSNumber *allowExplicitContent;
-@property(copy, nonatomic) NSNumber *allowiTunesAccount;
-@property(copy, nonatomic) NSNumber *analysisAccessSelection;
-@property(copy, nonatomic) NSNumber *announceAccessLevel;
-@property(readonly, retain, nonatomic) NSArray *bulletinConditions;
-@property(readonly, retain, nonatomic) NSArray *bulletinRegistrations;
-@property(copy, nonatomic) NSNumber *camerasAccessLevel;
-@property(copy, nonatomic) NSString *changeTag;
-@property(copy, nonatomic) NSNumber *crossfadeDuration;
-@property(copy, nonatomic) NSNumber *crossfadeEnabled;
-@property(readonly, copy, nonatomic) MKFUserDatabaseID *databaseID;
-@property(copy, nonatomic) NSNumber *dolbyAtmosEnabled;
-@property(readonly, retain, nonatomic) NSArray *faceprintsFromPhotos;
-@property(copy, nonatomic) NSString *firstName;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSString *iCloudAltDSID;
-@property(copy, nonatomic) NSString *idsMergeIdentifier;
-@property(retain, nonatomic) id <MKFOutgoingInvitation> invitation;
-@property(copy, nonatomic) NSDate *lastLocalActivityTimeStamp;
-@property(copy, nonatomic) NSString *lastName;
-@property(readonly, retain, nonatomic) NSArray *locationEvents;
-@property(copy, nonatomic) NSNumber *losslessMusicEnabled;
-@property(retain, nonatomic) NSData *matCredIPKExternalRepresentation;
-@property(copy, nonatomic) NSNumber *matterCASEAuthenticatedTagID;
-@property(readonly, retain, nonatomic) NSArray *notificationRegistrations;
-@property(readonly, retain, nonatomic) id <MKFHome> ownedHome;
-@property(copy, nonatomic) NSNumber *ownerAddSceneButtonPresentedCount;
-@property(retain, nonatomic) NSDictionary *ownerCharacteristicAuthorizationData;
-@property(copy, nonatomic) NSNumber *ownerCompletedSwitchingHomesOnboardingUI;
-@property(copy, nonatomic) NSNumber *ownerDismissed2024EnergyOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedAccessCodeOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedAccessoryFirmwareUpdateOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedAnnounceOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedCameraRecordingOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedCameraRecordingSetupBanner;
-@property(copy, nonatomic) NSNumber *ownerDismissedCameraUpgradeOfferBanner;
-@property(copy, nonatomic) NSNumber *ownerDismissedHomeTheaterOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedIdentifyVoiceOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedIdentifyVoiceSetupBanner;
-@property(copy, nonatomic) NSNumber *ownerDismissedNaturalLightingOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedTVViewingProfileOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedTVViewingProfileSetupBanner;
-@property(copy, nonatomic) NSNumber *ownerDismissedUserSplitMediaAccountWarning;
-@property(copy, nonatomic) NSNumber *ownerDismissedWalletKeyExpressModeOnboarding;
-@property(copy, nonatomic) NSNumber *ownerDismissedWelcomeUI;
-@property(copy, nonatomic) NSNumber *ownerHasUserSeenRMVNewLanguageNotification;
-@property(readonly, retain, nonatomic) NSArray *pairedAirPlayAccessories;
-@property(readonly, retain, nonatomic) NSArray *pairedHAPAccessories;
-@property(retain, nonatomic) HAPPairingIdentity *pairingIdentity;
-@property(readonly, retain, nonatomic) NSArray *personsFromPhotos;
-@property(copy, nonatomic) NSUUID *photosPersonDataZoneUUID;
-@property(copy, nonatomic) NSNumber *playbackInfluencesEnabled;
-@property(copy, nonatomic) NSNumber *presenceAuthorizationStatus;
-@property(readonly, retain, nonatomic) NSArray *presenceEvents;
-@property(copy, nonatomic) NSNumber *presenceRegionStatus;
-@property(copy, nonatomic) NSDate *presenceUpdateTimeStamp;
-@property(copy, nonatomic) NSNumber *privilege;
-@property(copy, nonatomic) NSNumber *remoteAccessAllowed;
-@property(retain, nonatomic) CKRecordID *reverseShareID;
-@property(retain, nonatomic) CKDeviceToDeviceShareInvitationToken *reverseShareToken;
-@property(copy, nonatomic) NSNumber *sharePhotosFaceClassifications;
-@property(copy, nonatomic) NSNumber *siriIdentifyVoiceEnabled;
-@property(readonly, retain, nonatomic) NSArray *triggers;
-@property(copy, nonatomic) NSNumber *uniqueIDForAccessories;
-@property(readonly, retain, nonatomic) NSArray *userActivityStatuses;
-@property(copy, nonatomic) NSString *userID;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

@@ -6,20 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIFastBilateralSolver : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputDisparityImage;
-    CIImage *inputConfidenceMapImage;
-    NSNumber *inputMaxNumVertices;
-    NSNumber *inputSigmaS;
-    NSNumber *inputSigmaRLuma;
-    NSNumber *inputSigmaRChroma;
-    NSNumber *inputLambda;
-    NSNumber *inputMaxNumIterations;
 }
 
 + (id);
@@ -39,20 +31,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)k!;
 - (void);
 - (id)kzyzyyuy~~yj~xn²²²²···· £­ozv}sssshhfhQYN]\\R\Zhbjjkkgk?QDYLXK_ssos}z~{~~~kmhnddadZfbfpqqq§««®­°°¨¨¨¨dici;QFYLSHXQ\Vc[jiliiiiY_X_T_WbiutvZolw_^Vhjjhjqqqquuuu}}}~n{}zc|xkYuoVi`t<[NmCaUrh|z    bzydlfxHZNjppppqqqqge`g\_]_cccc^ooozzzzgyz}¡¡¡¡zzzzrrrrI^XhX[Rfispvqd}ztywyanhw{{{}{{{{beeeAG9K8A2IV[U_xxxxrzzzkkkkOYRZHOES\_[_ssssldljlWWTW>PCUMaYl¼¼¼¼¿¿¿¿£¦¦zcuo}F^Rs}}}}[mgrKWJf\ibo}}}}z}}}}fvs|ku}{Xh_uvtov}`qpvF[UdFH;S2D5P____mmmmnnnnSjfp^cXiMR@d]vo    ¦¨¨¨{{{{oooojjjjLgbtNidq^]QbTkdt´´´´©©©©llllWa^akkkk¢¢¢¢auoRf]v\keqooloTe]pLhbw~~~~~{w~ewsbsqxttstfojuYrm££££¡¢¢¢z¬¬¬¬    `uty=SHXOOOOMYRYVlgr    rxr~~{~v~p~~~~iusxx||}}~zfsk¤¤¤¤««««zzzzNOAX>L>SbbbbiiiiRYNb@UIfvzyzYqn{_d[kff_fppjpyk««««    Tpo|<PF\4D8I8>0@:C6DQQOQWWTW7LCWGYR\iiiicxyy~bh^m[kbq|~z~~~~zklklBI<O'8'@GGGGNNNNBNFN:RH[uuuuqqmgqYg`iooooxpzzdspy}}}}u|{z~}~}||||nnnnBXMbcc`ciiiiqqqqzdvqnxwz}}}}dkilY]V^ZZRZ[aXc{{{{¡¡¡¡z¡jwqc|{rrrrilllrrrryyyyxxxxwwwwxxxxyyyywwwwllllO[Q`ccZc{{{{®®®®­­­­r|Qh\yM^Oq]j_wg~zLbVoO_Qiowry}Shctgd^gGVN_4OE]ccbckkkkdpppwwwwzzzzxurxjwty~~~~²²²²¯¯¯¯e}zvvvvL`YhPc]ixxxx~{ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) CIImage *inputConfidenceMapImage; // @synthesize inputConfidenceMapImage;
-@property(retain) CIImage *inputDisparityImage; // @synthesize inputDisparityImage;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(copy, nonatomic) NSNumber *inputLambda; // @synthesize inputLambda;
-@property(copy, nonatomic) NSNumber *inputMaxNumIterations; // @synthesize inputMaxNumIterations;
-@property(copy, nonatomic) NSNumber *inputMaxNumVertices; // @synthesize inputMaxNumVertices;
-@property(copy, nonatomic) NSNumber *inputSigmaRChroma; // @synthesize inputSigmaRChroma;
-@property(copy, nonatomic) NSNumber *inputSigmaRLuma; // @synthesize inputSigmaRLuma;
-@property(copy, nonatomic) NSNumber *inputSigmaS; // @synthesize inputSigmaS;
 
 @end
 

@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INImage, NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface _PSSuggestion
 {
     _Bool _familySuggestion;
-    _Bool _isAdaptedModelCreated;
-    _Bool _isAdaptedModelUsed;
-    NSString *_conversationIdentifier;
-    NSString *_groupName;
-    NSArray *_recipients;
-    NSString *_bundleID;
-    INImage *_image;
-    long long _suggestionType;
-    NSString *_derivedIntentIdentifier;
-    NSString *_messagesGroupIdentifier;
-    NSNumber *_score;
-    NSString *_adaptedModelRecipeID;
-    NSString *_supportedBundleIDs;
-    NSString *_utiList;
-    NSDictionary *_modelSuggestionProxies;
-    NSString *_reason;
-    NSString *_reasonType;
-    NSString *_reasonTypeList;
-    NSString *_trialID;
 }
 
 + (id);
@@ -52,17 +33,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)Library/PrivateFrameworks/CloudDocs.framework/Versions/A/CloudDocs;
 - (id);
 - (void);
-- (id);
+- (id)#*G'
+;
+- (void)e;
 - (void);
+- (id)h;
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)authentication;
+- (void)entryEventNoneDefinitionQualificationRules;
+- (void)amp >= %f and timestamp < %f;
 - (id);
 - (id);
 - (void);
@@ -80,38 +62,11 @@
 - (id)0@ù
 × ;
 - (long long)ntentIdentifier:image:reason:reasonType:score:familySuggestion: /* Error: Ran out of types for this method. */;
-- (id)ctionType;
+- (id)_actionType;
 - (_Bool)- Model;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *adaptedModelRecipeID; // @synthesize adaptedModelRecipeID=_adaptedModelRecipeID;
-@property(readonly, copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(readonly, copy, nonatomic) NSString *conversationIdentifier; // @synthesize conversationIdentifier=_conversationIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy, nonatomic) NSString *derivedIntentIdentifier; // @synthesize derivedIntentIdentifier=_derivedIntentIdentifier;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool familySuggestion; // @synthesize familySuggestion=_familySuggestion;
-@property(readonly, copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) INImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool isAdaptedModelCreated; // @synthesize isAdaptedModelCreated=_isAdaptedModelCreated;
-@property(nonatomic) _Bool isAdaptedModelUsed; // @synthesize isAdaptedModelUsed=_isAdaptedModelUsed;
-@property(readonly, nonatomic) _Bool isReturnToSender;
-@property(copy, nonatomic) NSString *messagesGroupIdentifier; // @synthesize messagesGroupIdentifier=_messagesGroupIdentifier;
-@property(retain, nonatomic) NSDictionary *modelSuggestionProxies; // @synthesize modelSuggestionProxies=_modelSuggestionProxies;
-@property(copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(copy, nonatomic) NSString *reasonType; // @synthesize reasonType=_reasonType;
-@property(copy, nonatomic) NSString *reasonTypeList; // @synthesize reasonTypeList=_reasonTypeList;
-@property(copy, nonatomic) NSArray *recipients; // @synthesize recipients=_recipients;
-@property(readonly, copy, nonatomic) NSNumber *score; // @synthesize score=_score;
-@property(nonatomic) long long suggestionType; // @synthesize suggestionType=_suggestionType;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *supportedBundleIDs; // @synthesize supportedBundleIDs=_supportedBundleIDs;
-@property(copy, nonatomic) NSString *trialID; // @synthesize trialID=_trialID;
-@property(retain, nonatomic) NSString *utiList; // @synthesize utiList=_utiList;
 
 @end
 

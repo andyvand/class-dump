@@ -11,37 +11,26 @@
 @interface AAAuthenticationResponse : AAResponse
 {
     NSDictionary *_tokens;
-    NSDictionary *_appleAccount;
 }
 
-+ (id);
++ (id)%ld (%s);
+- (id)ts = "%s", not current device address = "%s";
+- (id)eDir():close(%d) = %d (%s) because contents = "%s", not current device address = "%s" /* Error: Ran out of types for this method. */;
+- (id)kAndOpenMCXLockFileInHomeDir():close(%d) = %d (%s) because contents = "%s", not current device address = "%s" /* Error: Ran out of types for this method. */;
+- (id);
+- (id)ning:empty cdHashes array /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)(;
 - (void)fileURLWithPath: /* Error: Ran out of types for this method. */;
 - (id)ocsMigrated;
 - (id)ç[¥T°"u8V,³i²6Åz¸ÍÂwÓ¶ì4LàÒäø í¨Ûd/Ç]¹µË^{f0cúlº÷küê:VôJåËM@e»ÒüÛ£=âÞi²óî?Øz§tFC_Å#Xùh\EHw´êÑu"í×KZ¸Aï¶Ý ìÉcbSèI¡¿BjaÆ3Í}±ñ~lÖ'mÔr­©«ÄÓÀnµT+s¯à<PgÕ)WÂ[Á%ãGø³4÷`v¦&k /* Error: Ran out of types for this method. */;
 - (id)¬PïIzcC*]ôà.ÇLM<Ð<Têã7Ít33GPÛàvàÓÚ*DyüwÕäK`¥ýS	ºÄªl÷ùx£;È®«4¯_4Ìè#èÕ>D¶ç²Ï´KÑ¢aÙ þ·­(eq|I Ýn7~¸ÒxP¸>@#¡1'w/DÀ8í]A>1â:ç¯NY'§éñ;Ö¬¨ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *altDSID;
-@property(readonly, nonatomic) NSString *authToken;
-@property(readonly, nonatomic) NSString *cloudKitToken;
-@property(readonly, nonatomic) NSString *cloudKitVideoToken;
-@property(readonly, nonatomic) NSString *fmfAppToken;
 @property(readonly, nonatomic) NSString *fmfToken;
-@property(readonly, nonatomic) NSString *fmipLostModeToken;
-@property(readonly, nonatomic) NSString *fmipToken;
-@property(readonly, nonatomic) NSString *mapsToken;
-@property(readonly, nonatomic) NSString *mdmServerToken;
-@property(readonly, nonatomic) NSString *personID;
 
 @end
 

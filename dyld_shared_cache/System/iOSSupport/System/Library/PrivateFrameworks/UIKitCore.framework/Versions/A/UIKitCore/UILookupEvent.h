@@ -14,12 +14,12 @@
     struct CGPoint _sceneReferenceLocation;
 }
 
-- (unsigned long long);
+- (unsigned long long)setPayloadShowRecoveryKey: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long)eraction"24@"UIDragItem"32@"<UIDragAnimating>"40;
-- (void)th: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)HoverEventsWhilePointerIsLocked;
+- (void)archiveSubpathByStandardizingArchiveSubpath: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_wantsHoverEventsWhilePointerIsLocked;
 - (_Bool)nimation=%@, animationKey=%@; trace=%@;;
 - (long long)_UILightEffectTransitionView;
 - (void)¿ñf;

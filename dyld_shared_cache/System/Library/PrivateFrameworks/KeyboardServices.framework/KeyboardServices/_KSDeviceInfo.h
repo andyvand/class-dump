@@ -9,10 +9,6 @@
 @interface _KSDeviceInfo
 {
     _Bool _needsUpdate;
-    NSString *_name;
-    NSString *_swVersion;
-    NSString *_model;
-    NSString *_modelDisplayName;
 }
 
 + (id);
@@ -32,11 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
-@property(copy, nonatomic) NSString *modelDisplayName; // @synthesize modelDisplayName=_modelDisplayName;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) _Bool needsUpdate; // @synthesize needsUpdate=_needsUpdate;
-@property(copy, nonatomic) NSString *swVersion; // @synthesize swVersion=_swVersion;
 
 @end
 

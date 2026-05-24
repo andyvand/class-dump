@@ -12,12 +12,12 @@
 + (id);
 + (_Bool)X"°!Fùî%°1Â0@ù
 × ;
-- (_Bool);
+- (_Bool)J	;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)isPingEnqueueFailing;
 - (void);
 - (id);
 - (id),N,V_closingDate;

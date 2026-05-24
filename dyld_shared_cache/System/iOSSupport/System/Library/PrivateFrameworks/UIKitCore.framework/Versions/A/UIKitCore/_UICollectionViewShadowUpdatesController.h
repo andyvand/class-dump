@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UICollectionView, _UIDataSourceSnapshotter, _UIDataSourceUpdateMap;
+@class UICollectionView;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewShadowUpdatesController
 {
     UICollectionView *_collectionView;
-    _UIDataSourceSnapshotter *_initialSnapshot;
-    _UIDataSourceUpdateMap *_updateMap;
-    NSMutableArray *__shadowUpdates;
 }
 
 - (void);
@@ -20,9 +17,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (id);
 - (struct CGSize)acementApplicator>";
-- (void)onViewScrollPositionUpdate;
+- (void)_setNeedsCollectionViewScrollPositionUpdate;
 - (id)smissible: /* Error: Ran out of types for this method. */;
-- (void)precatedInitializer;
+- (void)__createdWithDeprecatedInitializer;
 - (_Bool)alSidebarSafeAreaInsets;
 - (id)adgeCount;
 - (id)rideUserInterfaceStyle;
@@ -38,30 +35,30 @@ __attribute__((visibility("hidden")))
 - (double)ction;
 - (id)rParser",R,N,V_parser;
 - (void)ng;
-- (struct CGPoint)icSharpness;
+- (struct CGPoint)hapticSharpness;
 - (id)subtitle;
 - (_Bool)dentifiers;
-- (long long)ngBlock:(id)arg1;
-- (void)k_hasInvalidatedConnections;
+- (long long)_performLayoutAnimationWithContext:(id)arg1 windowGeometryUpdatingBlock:(id)arg2;
+- (void)_lock_hasInvalidatedConnections;
 - (long long)_backlightLevel;
-- (id)int: /* Error: Ran out of types for this method. */;
+- (id)setXConstraint: /* Error: Ran out of types for this method. */;
 - (void)Recognizer:(id)arg1 ,V__panGestureRecognizer;
 - (void)n;
 - (void)ternateAction:(id)arg1 ,V__alternateAction;
 - (id)SString",C,N,V_imageName;
 - (_Bool)leDictionary",&,N,V_proofreadingSuggestionIDsPerDeliveryID;
 - (_Bool)straint;
-- (void)ighlightDidEndForInteraction:(id)arg1;
+- (void)_highlightDidEndForInteraction:(id)arg1;
 - (void)T@"<_UISplitViewControllerAdaptiveLayout>",N,&,VmutablePreviousLayout;
 - (double)rollerGlobalSearchDelegate>",R,W,N,V_globalSearchDelegate;
 - (struct UIEdgeInsets)ritingToolsCoordinator",&,N,S_setWritingToolsCoordinator:(id)arg1;
-- (double)ognizer;
-- (id)rver;
-- (_Bool)entSizePreferenceHostComponent;
-- (void)ionItemRenameHandler;
-- (id)ocessViewAnimatorDelegate;
-- (id)e;
-- (double)EffectTransitionController;
+- (double)_UIInertHoverGestureRecognizer;
+- (id)_UIKBRTKeyboardTouchObserver;
+- (_Bool)_UISceneHostingContentSizePreferenceHostComponent;
+- (void)_UINavigationItemRenameHandler;
+- (id)_UIHyperOutOfProcessViewAnimatorDelegate;
+- (id)UIGestureRecognizerDelegatePrivate;
+- (double)_TtC5UIKit34_UILightEffectTransitionController;
 - (id)¼C;
 - (_Bool)OüOP;
 - (void)Ð;
@@ -116,12 +113,12 @@ D/;
 - (void)þÿ;
 - (_Bool);
 - (double)2òîÿFôîÿ;
-- (double)ayers;
-- (_Bool)ontainer;
+- (double)layers;
+- (_Bool)platterContainer;
 - (_Bool)UISceneEnhancedStateRestoration.m;
 - (id)able.;
 - (_Bool)ent:(id)arg1 container:(id)arg2 ];
-- (id)ryCount;
+- (id)newEntryCount;
 - (void)om non-ancestor environment %@;
 - (void)e to date %@ with lower bounds %@ and upper bounds %@.;
 - (struct CGSize)to attach window to an invalidated scene:(id)arg1 %@; window:(id)arg2 %@;
@@ -130,48 +127,48 @@ D/;
 - (id)cel;
 - (void)@?0@"_UIHIDTransformer"8;
 - (void)ming UIKit of the backing FBSScene. This is a fatal error outside system apps.;
-- (id)SpecularHighlightModifyFocusSensitivityStrength;
-- (void)nge;
-- (void)EndHeight;
+- (id)UISolariumFocusSpecularHighlightModifyFocusSensitivityStrength;
+- (void)UITextFormattingViewControllerDecreaseQuoteLevelChange;
+- (void)_UISplitKeyboardTransitionEndHeight;
 - (_Bool)urrent tabs %@.;
-- (_Bool)ic;
+- (_Bool)KBdynamic;
 - (_Bool)UIEventMask;
-- (id)t;
-- (id);
+- (id)longPressTipPermittedVerticalMovement;
+- (id)UIMENU_FORMAT_MENU_TEXT_CENTER;
 - (void)usBarStaticBatteryView.m;
 - (void)HelperUtilities.m;
 - (id)nteraction.Pan;
 - (id)om.apple.UIKit.keyPressClickDriverPrimary;
-- (void)arkAsFileProviderBookmark;
-- (id);
+- (void)FPMarkAsFileProviderBookmark;
+- (id)MultiColumnViewController;
 - (id)FocusPopoverAutoDismissDelay;
 - (id)ryBody:%.2f> /* Error: Ran out of types for this method. */;
 - (void)"NSIndexPath"16@"NSString"24Q32;
 - (_Bool)pple.Home;
 - (void)SizeAnchor=%p %@
 ;
-- (long long);
+- (long long)UIApplicationShortcutIconTypeCapturePhoto;
 - (id)ttempting to initialize instance with a scene specification without a valid minimumClass (is %@, should be %@);
 - (void);
-- (void)ty;
+- (void)inputRefractionOpacity;
 - (long long);
 - (id)Kþÿ;
 - (_Bool)ÞþÿF¶þÿìÁþÿ;
 - (_Bool)»;
-- (_Bool)g;
+- (_Bool)Sg;
 - (_Bool)G;
 - (id);
 - (id);
 - (long long);
 - (struct CGPoint);
-- (_Bool)nsactionModifier;
+- (_Bool)SearchToolbarTransactionModifier;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool)þ;
 - (void);
 - (void)Ûsþd43xÛsþ]d43ìÙsþ­d43@Úsþ=d43<Úsþ=d43,Úsþd43|Úsþ½d43DÛsþd43tÚsþ;
-- (id)Radii;
+- (id)UIRectCornerRadii;
 - (id);
 - (id);
 - (_Bool)ø*\;
@@ -202,17 +199,7 @@ D/;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *_shadowUpdates; // @synthesize _shadowUpdates=__shadowUpdates;
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _UIDataSourceSnapshotter *initialSnapshot; // @synthesize initialSnapshot=_initialSnapshot;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _UIDataSourceUpdateMap *updateMap; // @synthesize updateMap=_updateMap;
 
 @end
 

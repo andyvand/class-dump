@@ -7,11 +7,12 @@
 @class INAlarmSearch, NSArray;
 
 @protocol INSearchAlarmIntentExport
-- (NSArray *)ookItems:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)`	;
+- (long long)b;
+- (void)@;
+- (NSArray *)provideLocationOptionsForSearchForNotebookItems:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) INAlarmSearch *alarmSearch;
-@property long long alarmSearchType;
-@property(copy) NSArray *alarms;
 @end
 

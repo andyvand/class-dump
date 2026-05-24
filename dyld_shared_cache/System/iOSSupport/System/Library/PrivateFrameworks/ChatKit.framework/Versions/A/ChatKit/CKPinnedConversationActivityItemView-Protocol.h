@@ -7,18 +7,15 @@
 @protocol CKPinnedConversationActivityItem, CKPinnedConversationActivityItemViewDelegate;
 
 @protocol CKPinnedConversationActivityItemView
+- (void)t:(long long)arg1;
+- (void)selectCellRangeAtColumns:(id <CKPinnedConversationActivityItemViewDelegate>)arg1 rows: /* Error: Ran out of types for this method. */;
+- (void)seekToTime:(long long)arg1 toleranceBefore:toleranceAfter:completionHandler: /* Error: Ran out of types for this method. */;
+- (long long)ic_attributedStringByCopyingInlineAttachmentsAndUpdatingChangeCountWithContext: /* Error: Ran out of types for this method. */;
+- (id <CKPinnedConversationActivityItemViewDelegate>)7AGGGSo6ICNoteCGGSg;
+- (double);
+- (void)(H*;
 
 // Remaining properties
 @property(retain, nonatomic) id <CKPinnedConversationActivityItem> activityItem;
-@property(nonatomic) long long activityItemViewContentScale;
-@property(nonatomic) __weak id <CKPinnedConversationActivityItemViewDelegate> activityItemViewDelegate;
-@property(nonatomic) long long originationDirection;
-@property(nonatomic) long long originationHorizontalDirection;
-@property(nonatomic) struct CGPoint originationPoint;
-@property(nonatomic) struct CGSize parentAvatarViewSize;
-@property(nonatomic) double preferredTailAttachmentPointXCoordinate;
-@property(readonly, nonatomic) _Bool supportsActivityItemViewContentScale;
-@property(readonly, nonatomic) _Bool supportsAlignmentWithOriginationSubAvatarFrame;
-@property(readonly, nonatomic) struct CGPoint tailAttachmentPoint;
 @end
 

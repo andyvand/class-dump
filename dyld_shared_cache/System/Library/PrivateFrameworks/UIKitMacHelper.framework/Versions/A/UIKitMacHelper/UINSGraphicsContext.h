@@ -8,16 +8,14 @@ __attribute__((visibility("hidden")))
 @interface UINSGraphicsContext
 {
     int _type;
-    void *_auxInfo;
 }
 
 - (id);
 - (void *);
-- (void);
-- (int);
+- (void)"32;
+- (int)l;
 
 // Remaining properties
-@property(readonly) void *auxInfo; // @synthesize auxInfo=_auxInfo;
 @property(readonly) int type; // @synthesize type=_type;
 
 @end

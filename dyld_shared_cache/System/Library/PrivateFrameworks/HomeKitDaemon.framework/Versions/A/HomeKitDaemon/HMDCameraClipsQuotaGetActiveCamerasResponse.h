@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipsQuotaGetActiveCamerasResponse
@@ -27,19 +27,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)
 × ;
-- (id)Transactions:(struct _NSZone *)arg1 removedServiceUUIDs: /* Error: Ran out of types for this method. */;
-- (id)eryBackoffTimer;
+- (id)filterServiceTransactions:(struct _NSZone *)arg1 removedServiceUUIDs: /* Error: Ran out of types for this method. */;
+- (id)_accessoryDiscoveryBackoffTimer;
 - (void)¨#ÿ ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *zoneNames; // @synthesize zoneNames=_zoneNames;
 
 @end
 

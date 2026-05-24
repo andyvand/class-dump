@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface SGStructuredEventCoreMLInputWrapper
 {
     MLMultiArray *_L;
-    MLMultiArray *_D;
-    MLMultiArray *_I;
-    MLMultiArray *_N;
-    MLMultiArray *_W;
-    MLMultiArray *_bi_lstm_0_h_in;
-    MLMultiArray *_bi_lstm_0_c_in;
-    MLMultiArray *_bi_lstm_0_h_in_rev;
-    MLMultiArray *_bi_lstm_0_c_in_rev;
 }
 
 - (void);
@@ -25,36 +17,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (void);
+- (void)dataWithContentsOfFile:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)ation;
 - (id);
 - (void)TaggedCharacterRanges;
 - (id)contentRangeOfInterest) SELECT id, NULL, content, contentRangeOfInterest FROM entity WHERE entityType != :(id)arg1 entityType ;
 
 // Remaining properties
-@property(retain, nonatomic) MLMultiArray *D; // @synthesize D=_D;
-@property(retain, nonatomic) MLMultiArray *I; // @synthesize I=_I;
 @property(retain, nonatomic) MLMultiArray *L; // @synthesize L=_L;
-@property(retain, nonatomic) MLMultiArray *N; // @synthesize N=_N;
-@property(retain, nonatomic) MLMultiArray *W; // @synthesize W=_W;
-@property(retain, nonatomic) MLMultiArray *bi_lstm_0_c_in; // @synthesize bi_lstm_0_c_in=_bi_lstm_0_c_in;
-@property(retain, nonatomic) MLMultiArray *bi_lstm_0_c_in_rev; // @synthesize bi_lstm_0_c_in_rev=_bi_lstm_0_c_in_rev;
-@property(retain, nonatomic) MLMultiArray *bi_lstm_0_h_in; // @synthesize bi_lstm_0_h_in=_bi_lstm_0_h_in;
-@property(retain, nonatomic) MLMultiArray *bi_lstm_0_h_in_rev; // @synthesize bi_lstm_0_h_in_rev=_bi_lstm_0_h_in_rev;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

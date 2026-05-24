@@ -7,14 +7,11 @@
 @interface TeaUI.StepperTableViewCell
 {
     id onChange;
-    id label;
-    id valueLabel;
-    id stepper;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)?;
 - (void);
 
 @end

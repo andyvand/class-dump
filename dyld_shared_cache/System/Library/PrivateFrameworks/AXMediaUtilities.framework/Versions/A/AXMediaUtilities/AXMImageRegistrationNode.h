@@ -11,24 +11,19 @@
 @interface AXMImageRegistrationNode : AXMEvaluationNode
 {
     AXMPipelineContextInput *_previousInput;
-    AXMPipelineContextInput *_currentInput;
-    struct CGPoint _transpositionHistoryCircularBuffer[10];
-    unsigned long long _transpositionHistoryLastRecordedIndex;
-    _Bool _fillingHistoryBuffer;
-    long long _registrationState;
 }
 
-+ (_Bool);
++ (_Bool)messageBody;
 + (id);
-+ (_Bool);
++ (_Bool)4A;
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)[|;
+- (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)[|;
 - (long long);
 - (void);
 

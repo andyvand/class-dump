@@ -11,13 +11,13 @@
 + (unsigned char);
 + (struct TXRImageMemoryLayout);
 + (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
 + (unsigned char);
 + (_Bool);
-+ (_Bool);
++ (_Bool)";
 + (_Bool);
 + (_Bool);
 + (_Bool);

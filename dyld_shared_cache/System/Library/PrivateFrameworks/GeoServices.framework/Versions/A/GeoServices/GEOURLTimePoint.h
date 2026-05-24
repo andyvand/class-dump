@@ -7,34 +7,29 @@
 @interface GEOURLTimePoint
 {
     double _time;
-    int _type;
-    struct {
-        unsigned int has_time:1;
-        unsigned int has_type:1;
-    } _flags;
 }
 
-+ (_Bool):(id)arg1;
-- (void);
-- (_Bool);
++ (_Bool)setNextDestinationName:(id)arg1;
+- (void)_ourMRCSymbologyToBarcodeSymbologyMapRev4;
+- (_Bool)ay",C,N,V_customWords;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)recordingAlertPolicy;
 - (unsigned long long);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)>;
 - (void);
 - (id)0@ù
 × ;
-- (void)oadAccessPointType;
-- (id)LocatedInsideInfo: /* Error: Ran out of types for this method. */;
+- (void)roadAccessPointType;
+- (id)initWithLocatedInsideInfo: /* Error: Ran out of types for this method. */;
 - (int)ck",&,N;
 - (id)ntry",R,N,G_placeDataAutocompleteEntry;
-- (double)rs;
-- (id)ONE_HOUR;
+- (double)GEOPlaceDailyHours;
+- (id)TIME_BUCKET_GT_ONE_HOUR;
 - (id);
 - (void);
 - (_Bool);
@@ -42,9 +37,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasTime;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) double time;
-@property(nonatomic) int type;
 
 @end
 

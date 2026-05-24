@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MLMediaLibraryAccountChangeObserver, MLMediaLibraryResourcesServiceProtocol, _MSVAccountInformationProviding;
-
 @interface ML3MusicLibraryResourcesManagerContext
 {
     _Bool _runningInDaemon;
-    _Bool _multiUserSupported;
-    id <MLMediaLibraryResourcesServiceProtocol> _resourcesService;
-    id <_MSVAccountInformationProviding> _accountInfo;
-    id <MLMediaLibraryAccountChangeObserver> _accountChangeObserver;
-    NSString *_libraryContainerIdentifier;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)teDatabaseTraceDelegate>",W;
++ (id)alueRangeHigh;
++ (id)gressDelegate;
++ (id)T@?,C,N,V_updatedPropertyFilter;
++ (id)agerForceSyncDelegate>",W,N,V_forceSyncDelegate;
 - (_Bool);
-- (id);
+- (id)iceStateWithCompletion:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -32,11 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MLMediaLibraryAccountChangeObserver> accountChangeObserver; // @synthesize accountChangeObserver=_accountChangeObserver;
-@property(readonly, nonatomic) id <_MSVAccountInformationProviding> accountInfo; // @synthesize accountInfo=_accountInfo;
-@property(readonly, nonatomic) NSString *libraryContainerIdentifier; // @synthesize libraryContainerIdentifier=_libraryContainerIdentifier;
-@property(readonly, nonatomic, getter=isMultiUserSupported) _Bool multiUserSupported; // @synthesize multiUserSupported=_multiUserSupported;
-@property(readonly, nonatomic) id <MLMediaLibraryResourcesServiceProtocol> resourcesService; // @synthesize resourcesService=_resourcesService;
 @property(readonly, nonatomic, getter=isRunningInDaemon) _Bool runningInDaemon; // @synthesize runningInDaemon=_runningInDaemon;
 
 @end

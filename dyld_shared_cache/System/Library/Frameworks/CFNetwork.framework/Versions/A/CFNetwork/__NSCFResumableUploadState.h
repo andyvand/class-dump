@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL, NSURLRequest;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface __NSCFResumableUploadState
 {
     BOOL _retryCounter;
-    BOOL _repeatedStreamOpenings;
-    _Bool _userOverride;
-    int _state;
-    int _bodyType;
-    long long _offset;
-    NSURLRequest *_originalRequest;
-    NSData *_uploadData;
-    NSURL *_resumeURL;
-    NSString *_draftVersion;
-    long long _streamLength;
-    NSURL *_uploadFile;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)	H*H*!H*AH*;
 - (id);
 - (id);
 - (void);

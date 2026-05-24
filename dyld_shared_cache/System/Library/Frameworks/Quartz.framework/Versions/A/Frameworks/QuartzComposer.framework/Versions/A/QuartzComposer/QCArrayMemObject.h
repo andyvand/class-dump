@@ -6,19 +6,9 @@
 
 #import <QuartzComposer/QCMemObject.h>
 
-@class QCArray;
-
 @interface QCArrayMemObject : QCMemObject
 {
     unsigned long long _elementSize;
-    unsigned long long _bytesPerValue;
-    unsigned long long _count;
-    int _type;
-    QCArray *_backing;
-    CDUnknownFunctionPointerType _backingCallback;
-    void *_backingInfo;
-    void *_hostPtr;
-    void *_unused3[4];
 }
 
 - (id);
@@ -35,17 +25,13 @@
 - (int);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) QCArray *array;
-@property(readonly) QCArray *backing; // @synthesize backing=_backing;
-@property unsigned long long count; // @synthesize count=_count;
 @property unsigned long long elementSize; // @synthesize elementSize=_elementSize;
-@property(readonly) int type; // @synthesize type=_type;
 
 @end
 

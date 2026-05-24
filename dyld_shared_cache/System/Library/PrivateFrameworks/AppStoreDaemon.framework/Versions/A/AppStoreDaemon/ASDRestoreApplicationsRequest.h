@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)wn sheet type. Should not handle error for unknown sheet type.;
 
 @end
 

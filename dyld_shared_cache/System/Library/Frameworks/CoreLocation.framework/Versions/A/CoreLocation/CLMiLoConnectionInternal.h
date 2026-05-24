@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLMiLoConnection, NSObject, NSUUID;
-@protocol CLMiLoConnectionDelegate, OS_dispatch_queue;
-
 @interface CLMiLoConnectionInternal
 {
     void *_locationdConnection;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id <CLMiLoConnectionDelegate> _delegate;
-    CLMiLoConnection *_sender;
-    NSUUID *_connectedServiceIdentifier;
 }
 
 + (_Bool);
@@ -67,9 +59,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)%d - [2]
+;
 - (void);
 
 @end

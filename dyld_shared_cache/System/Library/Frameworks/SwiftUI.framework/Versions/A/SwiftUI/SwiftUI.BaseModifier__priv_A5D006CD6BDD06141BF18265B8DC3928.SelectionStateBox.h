@@ -7,8 +7,6 @@
 @interface SwiftUI.BaseModifier__priv_A5D006CD6BDD06141BF18265B8DC3928.SelectionStateBox
 {
     id signal;
-    id host;
-    id isSelected;
 }
 
 @end

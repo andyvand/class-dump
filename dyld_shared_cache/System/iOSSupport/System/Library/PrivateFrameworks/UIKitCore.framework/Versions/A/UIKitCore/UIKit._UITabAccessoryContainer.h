@@ -13,7 +13,7 @@
 }
 
 - (id);
-- (id);
+- (id)UIActivityIndicatorView;
 - (void)üÄFÿ+Aÿ;
 
 @end

@@ -5,6 +5,7 @@
 //
 
 @protocol SGJournalContactsObserver
+- (void);
 - (void)TEXT NOT NULL,sourceKey TEXT,context TEXT,extractionInfoId INTEGER NOT NULL,FOREIGN KEY(entityId) REFERENCES entity(id) ON DELETE NO ACTION,FOREIGN KEY(extractionInfoId) REFERENCES extractionInfos(id) ON DELETE RESTRICT);
 @end
 

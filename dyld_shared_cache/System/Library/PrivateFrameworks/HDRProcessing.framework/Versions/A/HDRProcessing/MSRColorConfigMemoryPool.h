@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableData;
+@class NSMutableArray;
 
 @interface MSRColorConfigMemoryPool
 {
     NSMutableArray *_array;
-    NSMutableData *_data;
-    unsigned int _size;
-    unsigned int _capacity;
-    unsigned int _allocated;
-    unsigned int _released;
 }
 
 - (id);

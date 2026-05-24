@@ -4,15 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSArray, NSMutableArray;
 
 @interface SGInMemoryAdapter
 {
     NSMutableArray *_events;
-    NSMutableDictionary *_contacts;
-    NSMutableArray *_reminders;
 }
 
+- (void)$;
+- (void)(;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -22,18 +26,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)@0:(id)arg1 8:16 /* Error: Ran out of types for this method. */;
+- (void)2@0:8@16q24 /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 didFailProvisionalNavigation:withError: /* Error: Ran out of types for this method. */;
+- (void)webView:(id)arg1 didFailNavigation:withError: /* Error: Ran out of types for this method. */;
+- (void)userNameFieldLabel;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -43,16 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contacts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSArray *events;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *reminders; // @synthesize reminders=_reminders;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PHTextFeature
 {
     float _weight;
-    long long _type;
-    NSString *_string;
-    unsigned long long _origin;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)erIdentityProperties"8@"NSError"16;
+- (id)	;
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)pMetadata parsing success for app name:(id)arg1 %{public}@;
 - (unsigned long long);
 - (void);
 - (float);
 - (void);
 - (void);
 - (id);
-- (void)oScore;
+- (void)_audioScore;
 
 // Remaining properties
-@property(nonatomic) unsigned long long origin; // @synthesize origin=_origin;
-@property(copy, nonatomic) NSString *string; // @synthesize string=_string;
 @property(nonatomic) long long type; // @synthesize type=_type;
-@property(nonatomic) float weight; // @synthesize weight=_weight;
 
 @end
 

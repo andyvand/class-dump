@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSArray;
+@class NSArray;
 
 @interface UnknownClass (ICAccountStoreAdditions)
 + (id);
@@ -37,13 +37,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)nt";
+- (_Bool)ificationSettings";
 
 // Remaining properties
-@property(retain, nonatomic, setter=ic_setActiveLockerAccount:) ACAccount *ic_activeLockerAccount;
-@property(retain, nonatomic, setter=ic_setActiveStoreAccount:) ACAccount *ic_activeStoreAccount;
 @property(readonly, copy, nonatomic) NSArray *ic_allStoreAccounts;
-@property(readonly, nonatomic) ACAccount *ic_primaryAppleAccount;
 @end
 

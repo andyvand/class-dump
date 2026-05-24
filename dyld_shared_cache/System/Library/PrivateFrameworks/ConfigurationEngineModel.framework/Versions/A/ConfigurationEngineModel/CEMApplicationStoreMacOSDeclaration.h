@@ -6,15 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMApplicationStoreMacOSDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadRestrictStoreRequireAdminToInstall;
-    NSNumber *_payloadRestrictStoreSoftwareupdateOnly;
-    NSNumber *_payloadRestrictStoreDisableAppAdoption;
-    NSNumber *_payloadDisableSoftwareUpdateNotifications;
-    NSNumber *_payloadRestrictStoreMdmInstallSoftwareupdateOnly;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)F;
 + (id);
 - (void);
 - (void);
@@ -36,7 +32,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (int);
 - (_Bool);
@@ -44,18 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadDisableSoftwareUpdateNotifications; // @synthesize payloadDisableSoftwareUpdateNotifications=_payloadDisableSoftwareUpdateNotifications;
-@property(copy, nonatomic) NSNumber *payloadRestrictStoreDisableAppAdoption; // @synthesize payloadRestrictStoreDisableAppAdoption=_payloadRestrictStoreDisableAppAdoption;
-@property(copy, nonatomic) NSNumber *payloadRestrictStoreMdmInstallSoftwareupdateOnly; // @synthesize payloadRestrictStoreMdmInstallSoftwareupdateOnly=_payloadRestrictStoreMdmInstallSoftwareupdateOnly;
 @property(copy, nonatomic) NSNumber *payloadRestrictStoreRequireAdminToInstall; // @synthesize payloadRestrictStoreRequireAdminToInstall=_payloadRestrictStoreRequireAdminToInstall;
-@property(copy, nonatomic) NSNumber *payloadRestrictStoreSoftwareupdateOnly; // @synthesize payloadRestrictStoreSoftwareupdateOnly=_payloadRestrictStoreSoftwareupdateOnly;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IOAccelMemoryOpenCLInfo
 {
     int pid;
-    NSString *cl_context;
-    unsigned long long cl_mem;
-    NSString *objectType;
-    NSString *objectDescription;
-    id _expansionData;
 }
 
 - (void);
@@ -30,10 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *cl_context; // @synthesize cl_context;
-@property unsigned long long cl_mem; // @synthesize cl_mem;
-@property(retain) NSString *objectDescription; // @synthesize objectDescription;
-@property(retain) NSString *objectType; // @synthesize objectType;
 @property int pid; // @synthesize pid;
 
 @end

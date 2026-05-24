@@ -9,7 +9,6 @@
 @interface PKRecurringPaymentRequestValidator
 {
     NSString *_currencyCode;
-    PKRecurringPaymentRequest *_recurringPaymentRequest;
 }
 
 + (id);
@@ -21,18 +20,10 @@
 - (id)1Â0@ù
 × ;
 - (_Bool)l­ô­¯¤°8¸èº;
-- (void)d;
+- (void)credentialsSelected;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PKRecurringPaymentRequest *recurringPaymentRequest; // @synthesize recurringPaymentRequest=_recurringPaymentRequest;
-@property(readonly) Class superclass;
 
 @end
 

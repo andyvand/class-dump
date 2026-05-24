@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet;
-@protocol OS_dispatch_queue;
+@class NSSet;
 
 @interface ADLoggingProfileMonitor
 {
     NSSet *_profileIdentifiers;
-    NSObject<OS_dispatch_queue> *_initQueue;
 }
 
 - (void);
@@ -26,7 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *initQueue; // @synthesize initQueue=_initQueue;
 @property(retain, nonatomic) NSSet *profileIdentifiers; // @synthesize profileIdentifiers=_profileIdentifiers;
 
 @end

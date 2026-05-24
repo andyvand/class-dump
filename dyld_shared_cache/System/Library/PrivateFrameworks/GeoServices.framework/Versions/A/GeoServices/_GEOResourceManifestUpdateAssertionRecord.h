@@ -10,31 +10,19 @@ __attribute__((visibility("hidden")))
 @interface _GEOResourceManifestUpdateAssertionRecord
 {
     NSString *_process;
-    NSString *_reason;
-    double _creationTimestamp;
 }
 
 - (id);
 - (id);
 - (double);
 - (id);
-- (id);
+- (id)Ȇ;
 - (id);
 - (_Bool)codable}.*P;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double creationTimestamp; // @synthesize creationTimestamp=_creationTimestamp;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isExpired) _Bool expired;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *process; // @synthesize process=_process;
-@property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
 
 @end
 

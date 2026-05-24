@@ -13,15 +13,15 @@
     NSColor *_tintColor;
 }
 
-+ (id);
++ (id)equest, body N 0;
 - (_Bool);
-- (void);
+- (void)ession %@ with identifier %@;
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)mPointForPoint:(struct CGRect)arg1;
-- (id)ibility: /* Error: Ran out of types for this method. */;
+- (void)3;
+- (id)menuItem:(struct CGRect)arg1 aimPointForPoint: /* Error: Ran out of types for this method. */;
+- (id)_setIgnoredForAccessibility: /* Error: Ran out of types for this method. */;
 - (struct NSEdgeInsets);
 - (void)dÓE;
 

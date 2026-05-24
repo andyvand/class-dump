@@ -4,60 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSCompoundAssertion, CPXEventDeferringManager, CPXEventDeferringPolicy, CPXEventDeferringPolicySanitizer, NSString;
-@protocol CPXCallbackScheduling, CPXFocusControlling, CPXFocusManagerDataSource, CPXFocusPolicy, CPXProcessManaging;
-
 __attribute__((visibility("hidden")))
 @interface CPXFocusManager
 {
     struct CGXSession *_session;
-    struct CGXSessionProcessData *_sessionData;
-    id <CPXFocusPolicy> _policy;
-    id <CPXProcessManaging> _processManager;
-    id <CPXCallbackScheduling> _callbackScheduler;
-    id <CPXFocusManagerDataSource> _dataSource;
-    CPXEventDeferringManager *_deferringManager;
-    CPXEventDeferringPolicySanitizer *_deferringPolicySanitizer;
-    NSString *_debugName;
-    _Bool _fixingFrontProcess;
-    CPXEventDeferringPolicy *_currentPolicy;
-    BSCompoundAssertion *_suppressDeferringPolicyEvaluationAssertion;
 }
 
-- (id);
-- (short);
+- (id)B24;
+- (short)ATTRIBUTENAME;
+- (void)quest;
+- (short)externalRef;
+- (short)Info %@ rolling back failed createSchema for store:(struct CPSProcessSerNum)arg1 %@;
+- (void)with old = %qd and new = %qd;
+- (void)serInfo %@ while rolling back failed deferred lightweight migration for store:(struct CPSProcessRec *)arg1 %@;
+- (unsigned int)=EXCLUSIVE;
+- (_Bool)ntity '%@' is missing mandatory text data for property '%@';
+- (_Bool)ject ID;
+- (id)%@;
+- (id)lure for %@.  During updateConstrainedValuesForRow, rows processed = %d.  New Row = %@;
+- (_Bool)_COMMENTS failed:(struct CPSProcessSerNum *)arg1 %d;
+- (struct CPSProcessRec *)sqlite3_snapshot_recover;
+- (struct CPSProcessRec *)sqlite3_snapshot_cmp;
+- (void)E FROM %@ WHERE %@ = OLD.Z_PK;
+- (short)UNDEFINED;
 - (void);
-- (short);
-- (short);
-- (void);
-- (void);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (struct CPSProcessRec *);
-- (struct CPSProcessRec *);
-- (void);
-- (short);
-- (void);
-- (id);
+- (id)@ SET %@ = (SELECT %@(%@) FROM %@ WHERE %@ = %@.Z_PK)%@;;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <CPXFocusControlling> focusController;
-@property(readonly, nonatomic) struct CPSProcessRec *frontVisibleProcess;
-@property(readonly, nonatomic) struct CPSProcessRec *frontmostProcess;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int keyThiefConnectionID;
-@property(readonly) Class superclass;
 
 @end
 

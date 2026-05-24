@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface GEOComposedRouteLaneInfo
 {
     _Bool _good;
-    _Bool _hov;
-    _Bool _preferred;
-    NSArray *_directions;
 }
 
 + (_Bool)processing resource:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
+- (_Bool)readableAccountsFromAccounts: /* Error: Ran out of types for this method. */;
+- (_Bool)propertyListWithData:options:format:error: /* Error: Ran out of types for this method. */;
+- (_Bool)processIdentifier;
+- (id)fileExistsAtPath:(id)arg1 isDirectory: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)capacity;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -29,11 +24,7 @@
 - (void)¤x¬þ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *directions; // @synthesize directions=_directions;
 @property(readonly, nonatomic) _Bool hasDirections;
-@property(readonly, nonatomic) _Bool isHOVLane;
-@property(readonly, nonatomic) _Bool isLaneForManeuver;
-@property(readonly, nonatomic) _Bool isPreferredLaneForManeuver;
 
 @end
 

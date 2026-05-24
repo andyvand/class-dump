@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAsset, CSAudioProvider, CSAudioStream, CSKeywordAnalyzerNDAPI, CSOSTransaction, CSOpportuneSpeakEventMonitor, CSRemoteVADSignalExtractor, CSSiriClientBehaviorMonitor, CSSpeechManager, CSVoiceTriggerHearstAPEnabledPolicy, CSVoiceTriggerSecondChanceContext, CSVoiceTriggerSecondPass, CSVoiceTriggerUserSelectedPhrase, NSMutableArray, NSObject, NSString;
-@protocol CSOtherAppRecordingStateMonitorProviding, CSVoiceTriggerDelegate, OS_dispatch_group, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSVoiceTriggerFirstPassHearstAP
 {
     _Bool _isAPHearstFirstPassEnabled;
-    _Bool _isSiriClientListening;
-    _Bool _isSecondPassRunning;
-    float _keywordThreshold;
-    id <CSVoiceTriggerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSAsset *_currentAsset;
-    CSKeywordAnalyzerNDAPI *_keywordAnalyzerNDAPI;
-    CSAudioStream *_audioStream;
-    NSObject<OS_dispatch_group> *_recordingWillStartGroup;
-    CSVoiceTriggerSecondPass *_voiceTriggerSecondPass;
-    CSOSTransaction *_secondPassTransaction;
-    NSString *_deviceId;
-    CSAudioProvider *_audioProvider;
-    NSString *_opportuneSpeakAudioProviderUUID;
-    NSMutableArray *_audioStreamHoldings;
-    CSSiriClientBehaviorMonitor *_siriClientBehaviorMonitor;
-    CSSpeechManager *_speechManager;
-    CSOpportuneSpeakEventMonitor *_opportuneSpeakEventMonitor;
-    id <CSOtherAppRecordingStateMonitorProviding> _otherAppRecordingStateMonitor;
-    CSVoiceTriggerHearstAPEnabledPolicy *_voiceTriggerHearstAPEnabledPolicy;
-    CSVoiceTriggerSecondChanceContext *_secondChanceContext;
-    unsigned long long _heartbeatFactor;
-    CSRemoteVADSignalExtractor *_remoteVADSignalExtractor;
-    CSVoiceTriggerUserSelectedPhrase *_multiPhraseSelectedStatus;
 }
 
 - (id);
@@ -52,7 +28,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -60,9 +36,9 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)!;
+- (void)=%@;
+- (void)@;
 - (_Bool);
 - (void);
 - (void);
@@ -75,24 +51,24 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id)@;
+- (id)vityTest;
+- (void)error):(id)arg1 %@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)P;
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
+- (void)readObjectForVersion1Tag:(id)arg1 fromInputStream:intoObjectDictionary:md5Context:error: /* Error: Ran out of types for this method. */;
+- (void)VNCreateSceneprintRequestConfiguration;
 - (void);
+- (void);
+- (id)E;
+- (id);
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
@@ -103,11 +79,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)NSURLSessionDownloadDelegate;
 - (id);
 - (void);
-- (void);
-- (void)ectedDeviceDarwin;
+- (void)7;
+- (void)isConnectedDeviceDarwin;
 - (id)continuousConversationInfo;
 - (void)We already have matched hearst second pass request :(id)arg1 %{public}@;
 - (id)PreinstalledMitigationAssetForCurrentLocale:] /* Error: Ran out of types for this method. */;
@@ -116,38 +92,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CSAudioProvider *audioProvider; // @synthesize audioProvider=_audioProvider;
-@property(retain, nonatomic) CSAudioStream *audioStream; // @synthesize audioStream=_audioStream;
-@property(retain, nonatomic) NSMutableArray *audioStreamHoldings; // @synthesize audioStreamHoldings=_audioStreamHoldings;
-@property(retain, nonatomic) CSAsset *currentAsset; // @synthesize currentAsset=_currentAsset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSVoiceTriggerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *deviceId; // @synthesize deviceId=_deviceId;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long heartbeatFactor; // @synthesize heartbeatFactor=_heartbeatFactor;
-@property(nonatomic) _Bool isAPHearstFirstPassEnabled; // @synthesize isAPHearstFirstPassEnabled=_isAPHearstFirstPassEnabled;
-@property(nonatomic) _Bool isSecondPassRunning; // @synthesize isSecondPassRunning=_isSecondPassRunning;
-@property(nonatomic) _Bool isSiriClientListening; // @synthesize isSiriClientListening=_isSiriClientListening;
-@property(retain, nonatomic) CSKeywordAnalyzerNDAPI *keywordAnalyzerNDAPI; // @synthesize keywordAnalyzerNDAPI=_keywordAnalyzerNDAPI;
-@property(nonatomic) float keywordThreshold; // @synthesize keywordThreshold=_keywordThreshold;
-@property(retain, nonatomic) CSVoiceTriggerUserSelectedPhrase *multiPhraseSelectedStatus; // @synthesize multiPhraseSelectedStatus=_multiPhraseSelectedStatus;
-@property(retain, nonatomic) NSString *opportuneSpeakAudioProviderUUID; // @synthesize opportuneSpeakAudioProviderUUID=_opportuneSpeakAudioProviderUUID;
-@property(retain, nonatomic) CSOpportuneSpeakEventMonitor *opportuneSpeakEventMonitor; // @synthesize opportuneSpeakEventMonitor=_opportuneSpeakEventMonitor;
-@property(retain, nonatomic) id <CSOtherAppRecordingStateMonitorProviding> otherAppRecordingStateMonitor; // @synthesize otherAppRecordingStateMonitor=_otherAppRecordingStateMonitor;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *recordingWillStartGroup; // @synthesize recordingWillStartGroup=_recordingWillStartGroup;
-@property(retain, nonatomic) CSRemoteVADSignalExtractor *remoteVADSignalExtractor; // @synthesize remoteVADSignalExtractor=_remoteVADSignalExtractor;
-@property(retain, nonatomic) CSVoiceTriggerSecondChanceContext *secondChanceContext; // @synthesize secondChanceContext=_secondChanceContext;
-@property(retain, nonatomic) CSOSTransaction *secondPassTransaction; // @synthesize secondPassTransaction=_secondPassTransaction;
-@property(retain, nonatomic) CSSiriClientBehaviorMonitor *siriClientBehaviorMonitor; // @synthesize siriClientBehaviorMonitor=_siriClientBehaviorMonitor;
-@property(retain, nonatomic) CSSpeechManager *speechManager; // @synthesize speechManager=_speechManager;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CSVoiceTriggerHearstAPEnabledPolicy *voiceTriggerHearstAPEnabledPolicy; // @synthesize voiceTriggerHearstAPEnabledPolicy=_voiceTriggerHearstAPEnabledPolicy;
-@property(retain, nonatomic) CSVoiceTriggerSecondPass *voiceTriggerSecondPass; // @synthesize voiceTriggerSecondPass=_voiceTriggerSecondPass;
 
 @end
 

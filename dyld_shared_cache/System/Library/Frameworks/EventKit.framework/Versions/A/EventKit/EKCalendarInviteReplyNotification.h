@@ -9,12 +9,10 @@
 @interface EKCalendarInviteReplyNotification : EKCalendarNotification
 {
     unsigned long long _status;
-    unsigned long long _allowedEntityTypes;
 }
 
 
 // Remaining properties
-@property(nonatomic) unsigned long long allowedEntityTypes; // @synthesize allowedEntityTypes=_allowedEntityTypes;
 @property(nonatomic) unsigned long long status; // @synthesize status=_status;
 @end
 

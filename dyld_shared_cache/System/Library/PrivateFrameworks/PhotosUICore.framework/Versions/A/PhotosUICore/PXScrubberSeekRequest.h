@@ -5,13 +5,10 @@
 //
 
 @class NSDate;
-@protocol PXVideoScrubberControllerTarget;
 
 @interface PXScrubberSeekRequest
 {
     NSDate *_dateCreated;
-    double _seekTime;
-    id <PXVideoScrubberControllerTarget> _target;
 }
 
 - (id);
@@ -26,8 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(nonatomic) double seekTime; // @synthesize seekTime=_seekTime;
-@property(nonatomic) __weak id <PXVideoScrubberControllerTarget> target; // @synthesize target=_target;
 
 @end
 

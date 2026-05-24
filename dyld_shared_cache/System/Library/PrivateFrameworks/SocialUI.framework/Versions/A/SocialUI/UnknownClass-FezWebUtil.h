@@ -12,14 +12,14 @@
 + (void);
 + (void);
 + (void);
-+ (long long);
++ (long long)v;
 + (double);
 + (id);
 + (void);
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (long long);
 + (id);
 + (_Bool);

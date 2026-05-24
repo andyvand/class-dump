@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext;
+@class NSManagedObjectContext, NSString;
+@protocol ICLegacyFolder;
 
 @protocol ICLegacyContext
-- (void)ationVector;
-- (NSManagedObjectContext *);
+- (_Bool);
+- (id <ICLegacyFolder>)le to open ldapi node:(NSString *)arg1 %@ (%d);
+- (void)AssetCryptoInitializationVector;
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;

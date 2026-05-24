@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MKPlacePhotosViewController;
+
 @protocol MKPlaceCardPhotosControllerDelegate
+
+@optional
+- (_Bool);
+- (void)valueForMobileGestaltCapability:(MKPlacePhotosViewController *)arg1;
+- (void)updateWithBytes:(MKPlacePhotosViewController *)arg1 withDuration: /* Error: Ran out of types for this method. */;
+- (void)unsignedLongLongValue;
 @end
 

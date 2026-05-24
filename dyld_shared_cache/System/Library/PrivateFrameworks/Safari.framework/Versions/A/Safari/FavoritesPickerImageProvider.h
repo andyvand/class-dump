@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, WBSSiteMetadataImageCache;
-@protocol OS_dispatch_queue, WBSSiteMetadataProviderDelegate;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface FavoritesPickerImageProvider
 {
     NSMutableDictionary *_imageCacheKeysToRequests;
-    NSMutableDictionary *_requestsToResponseStates;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    WBSSiteMetadataImageCache *_imageCache;
-    _Bool _terminating;
-    id <WBSSiteMetadataProviderDelegate> _providerDelegate;
 }
 
 + (id);
@@ -47,18 +41,7 @@ __attribute__((visibility("hidden")))
 - (void),$;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property __weak id <WBSSiteMetadataProviderDelegate> providerDelegate; // @synthesize providerDelegate=_providerDelegate;
-@property(readonly, nonatomic) _Bool providesFavicons;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

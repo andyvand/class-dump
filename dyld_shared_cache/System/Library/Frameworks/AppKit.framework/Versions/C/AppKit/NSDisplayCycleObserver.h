@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface NSDisplayCycleObserver
 {
     NSDisplayCyclePhase *_phase;
-    CDUnknownBlockType _handler;
 }
 
-- (id);
+- (id)countOfResponseBodyBytesAfterDecoding;
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType)Phase;
+- (CDUnknownBlockType)_observersByPhase;
 
 // Remaining properties
-@property(readonly, copy) CDUnknownBlockType handler;
 @property(readonly) NSDisplayCyclePhase *phase;
 
 @end

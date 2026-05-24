@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface SFCodingOptions
 {
@@ -16,12 +14,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)temporaryRecurrentStateForCommandBuffer:batchSize: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long encoding;
-@property(copy, nonatomic) NSString *encryptionPassphrase;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface GATSchemaGATClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_gatId;
-    _Bool _hasGatId;
 }
 
 - (void);
@@ -22,10 +21,10 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_appendDescriptionOfAttributeNamed:withStringValue:toString: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)g";
 - (id)"b1"followUpSource"b1"isFollowUpInSameContainerAsSiriRequest"b1"followUpDayOfWeek"b1"followUpHourOfDay"b1"followUpDurationSinceSiriRequestInSeconds"b1};
 - (id)processorInfo",&,N,V_preProcessorInfo;
 - (id)×Ð×;
@@ -33,8 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *gatId; // @synthesize gatId=_gatId;
-@property(nonatomic) _Bool hasGatId; // @synthesize hasGatId=_hasGatId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

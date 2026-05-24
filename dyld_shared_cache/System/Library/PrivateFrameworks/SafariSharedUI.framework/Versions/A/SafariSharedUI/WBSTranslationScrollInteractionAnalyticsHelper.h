@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface WBSTranslationScrollInteractionAnalyticsHelper
 {
     struct os_unfair_lock_s _synchronousIvarLock;
-    NSDate *_translationStartTime;
-    double _firstInteractionDelayFromTranslation;
-    _Bool _webViewHasInteraction;
-    double _maxVisibleHeightPercentage;
-    CDUnknownBlockType _submissionHandler;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (void);

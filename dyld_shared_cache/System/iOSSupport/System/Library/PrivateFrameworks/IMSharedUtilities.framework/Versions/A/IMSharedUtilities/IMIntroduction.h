@@ -9,7 +9,6 @@
 @interface IMIntroduction
 {
     NSString *_handle;
-    NSString *_suggestedName;
 }
 
 + (id);
@@ -18,12 +17,11 @@
 - (id);
 - (void);
 - (id);
-- (void)viewsInitializedKey;
+- (void)transcodePreviewsInitializedKey;
 - (void)¥9Ì.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(retain, nonatomic) NSString *suggestedName; // @synthesize suggestedName=_suggestedName;
 
 @end
 

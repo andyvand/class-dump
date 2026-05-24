@@ -19,7 +19,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)enterYConstraint:(id)arg1;
+- (id)setToolLabelCenterYConstraint:(id)arg1;
 - (void)mentsController;
 
 @end

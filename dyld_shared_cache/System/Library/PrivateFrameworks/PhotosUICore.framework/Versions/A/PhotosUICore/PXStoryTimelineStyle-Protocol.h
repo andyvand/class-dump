@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXStoryMultipartPanoramaParameters;
-
 @protocol PXStoryTimelineStyle
+- (long long);
+- (CDStruct_2f782ce9);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsIncompleteTimelines;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 defaultDisplayAssetPresentationDuration;
-@property(readonly, nonatomic) PXStoryMultipartPanoramaParameters *defaultHorizontalMultipartPanoramaParameters;
-@property(readonly, nonatomic) PXStoryMultipartPanoramaParameters *defaultVerticalMultipartPanoramaParameters;
 @end
 

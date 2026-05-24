@@ -6,44 +6,36 @@
 
 #import <HomeKitDaemon/HMDHierarchicalStateMachineState.h>
 
-@class HMDHomeActivityStateMachine, NSString;
-@protocol HMDHomeActivityStateManagerDataSource;
-
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityState : HMDHierarchicalStateMachineState
 {
     _Bool _autoNotifySubsystemsAboutStateChange;
-    id <HMDHomeActivityStateManagerDataSource> _dataSource;
 }
 
 + (unsigned long long);
 + (id)úB;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)idsSendMessageOptions;
+- (void)iscard error during BAA authentication:(id)arg1 %@;
+- (void)}@ [ %{private}@ ], localName:(unsigned long long)arg1 %{public}@ [ %{private}@ ], localContactIdentifier:(id)arg2 %{public}@ [ %{private}@ ]
+	arrived:(id)arg3 %{public}@, arrivedTimestamp:(long long)arg4 %{public}@, closed:%{public}@, closedTimestamp:%{public}@, closureReason:%{public}@
+	ETAs:%{public}@ %{private}@
+	waypoints:%{public}@ %{private}@
+	location:%{public}@ %{private}@ 
+	route:routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (_Bool)W;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_serializeDefinition: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)dateSent;
 
 // Remaining properties
-@property(getter=shouldAutoNotifySubsystemsAboutStateChange) _Bool autoNotifySubsystemsAboutStateChange; // @synthesize autoNotifySubsystemsAboutStateChange=_autoNotifySubsystemsAboutStateChange;
 @property(readonly, nonatomic) HMDHomeActivityState *currentHomeActivityState;
-@property(readonly, nonatomic) id <HMDHomeActivityStateManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHomeActivityStateMachine *homeActivityStateMachine;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,24 @@
 //
 
 @protocol EMFEmojiPreferenceActions
+- (void)pp Banner;
+- (void)low. This setting can be changed at any time.;
+- (void)would like to choose another search engine, click Open Settings below. This setting can be changed at any time.;
+- (void)Smart Search field. By default, Safari uses Google for its search results.
+
+If you would like to choose another search engine, click Open Settings below. This setting can be changed at any time.;
+- (void)Safari allows you to choose the search engine used in the Smart Search field. By default, Safari uses Google for its search results.
+
+If you would like to choose another search engine, click Open Settings below. This setting can be changed at any time.;
+- (void)rAccountUpdater;
+- (void)CreateProfile;
+- (void)ing"16@?0@"WBProfile"8;
+- (void)systemRestoresWindows;
+- (void)systemTALSetting;
+- (void)d;
+- (void)cannot be joined on this version of Safari.;
+- (void)0@"WBSPair"8;
+- (void)ntentRuleList"8;
+- (void);
 @end
 

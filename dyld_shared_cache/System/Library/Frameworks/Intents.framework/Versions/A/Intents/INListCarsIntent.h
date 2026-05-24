@@ -6,8 +6,6 @@
 
 #import <Intents/INIntent.h>
 
-@class NSString;
-
 @interface INListCarsIntent : INIntent
 {
 }
@@ -22,21 +20,15 @@
 - (id);
 - (id);
 - (long long);
+- (void)maximumSize;
+- (id)doInitCommon:withDict:withFileExists:withWriteOptions: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)8;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

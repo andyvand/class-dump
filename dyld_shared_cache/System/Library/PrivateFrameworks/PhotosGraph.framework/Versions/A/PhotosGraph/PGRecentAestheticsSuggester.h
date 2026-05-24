@@ -6,16 +6,14 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class NSArray, NSEnumerator, NSString, PGSuggestionOptions;
+@class PGSuggestionOptions;
 
 @interface PGRecentAestheticsSuggester : PGAbstractSuggester
 {
     PGSuggestionOptions *_options;
-    NSArray *_suggestedAssets;
-    NSEnumerator *_suggestedAssetEnumerator;
 }
 
-+ (id);
++ (id)excludeMarkup: /* Error: Ran out of types for this method. */;
 + (id);
 - (id);
 - (id);
@@ -23,20 +21,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)ot supported.;
+- (id);
 - (void);
 - (void)urvey/TripTitling/PGTripTitlingQuestionFactory.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool lastSuggestionWasColliding;
-@property(readonly) Class superclass;
 
 @end
 

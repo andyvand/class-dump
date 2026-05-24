@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)_ungrouped;
 - (_Bool);
 - (id);
 

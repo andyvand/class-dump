@@ -11,12 +11,12 @@
     NSMutableArray *_list;
 }
 
-- (id);
+- (id)TEMPLATE_NAME_STORE_CARDS;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (void);
 
 @end

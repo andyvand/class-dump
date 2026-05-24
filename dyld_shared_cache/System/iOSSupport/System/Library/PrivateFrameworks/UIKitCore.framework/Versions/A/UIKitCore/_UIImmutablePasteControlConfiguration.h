@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)effectiveContentInset;
+- (void)_effectiveContentInset;
 - (void)_UILegibilityStyleLightContentWithDarkShadow;
-- (void)licationShortcutIconTypeTask;
+- (void)UIApplicationShortcutIconTypeTask;
 
 @end
 

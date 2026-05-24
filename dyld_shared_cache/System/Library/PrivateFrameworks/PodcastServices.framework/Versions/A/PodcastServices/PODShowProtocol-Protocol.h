@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
-@protocol PODShowSettingsProtocol;
+@class NSString;
 
 @protocol PODShowProtocol
+- (NSString *);
+- (NSString *)__objc_data;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *addedDate;
-@property(readonly, nonatomic) NSString *author;
-@property(readonly, nonatomic) NSString *category;
-@property(readonly, nonatomic) NSString *descriptionOfShow;
-@property(readonly, nonatomic) NSURL *feedUrl;
-@property(readonly, nonatomic) _Bool isExplicit;
-@property(readonly, nonatomic) _Bool isSubscribed;
-@property(readonly, nonatomic) NSString *provider;
-@property(readonly, nonatomic) id <PODShowSettingsProtocol> settings;
-@property(readonly, nonatomic) NSURL *showPageUrl;
-@property(readonly, nonatomic) unsigned long long storeCollectionId;
 @property(readonly, nonatomic) NSString *title;
 @end
 

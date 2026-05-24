@@ -18,23 +18,23 @@
 - (struct DREraserObject *);
 - (void);
 - (id);
-- (id);
+- (id)"-;
 - (void);
 - (id);
-- (id);
+- (id)FileTransferCapabilities",&,N,V_fileTransferCapabilities;
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void)]   %{private, mask.hash}sCarrier incoming call validations is %s for this registration;
 - (_Bool);
 - (void);
+- (id)h;
+- (void);
+- (int)earchEnumerator>"24@0:8@"NSFileProviderStringSearchRequest"16 /* Error: Ran out of types for this method. */;
+- (id)fp_cachedTypeWithIdentifier:alreadyAvailableType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (int);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)f %@];
 - (id);
 
 @end

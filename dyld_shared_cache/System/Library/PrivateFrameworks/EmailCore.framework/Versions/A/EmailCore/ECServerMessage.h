@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageFlags, NSNumber, NSSet, NSString;
+@class NSNumber, NSString;
 
 @interface ECServerMessage
 {
     NSNumber *_imapUID;
-    NSString *_persistentID;
-    NSString *_messagePersistentID;
-    ECMessageFlags *_serverFlags;
-    NSString *_remoteID;
-    NSSet *_labels;
 }
 
+- (void)imelineView should only be set once on an AVMobileGlassControlsView.;
+- (void)e %{public}@ header is missing;
+- (id).;
+- (id)lete. %@;
+- (id)lement messageWithParts: /* Error: Ran out of types for this method. */;
+- (id)%s
+};
+- (id)tch the given contentTabsPresentationHeight.;
+- (void)PlayPairedDeviceAsync:(id)arg1 first grouped device is not AppleTV (%@);
+- (unsigned int)uped devices count != 1;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned int);
-- (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)_numMicrostackshotsSkippedDueToMissingLoadInfos;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -38,13 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int imapUID;
-@property(copy, nonatomic) NSSet *labels; // @synthesize labels=_labels;
-@property(retain, nonatomic) NSString *messagePersistentID; // @synthesize messagePersistentID=_messagePersistentID;
 @property(retain, nonatomic) NSString *persistentID; // @synthesize persistentID=_persistentID;
-@property(copy, nonatomic) NSString *remoteID; // @synthesize remoteID=_remoteID;
-@property(readonly, nonatomic) id remoteIDObject;
-@property(retain, nonatomic) ECMessageFlags *serverFlags; // @synthesize serverFlags=_serverFlags;
 
 @end
 

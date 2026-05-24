@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 @interface LUIUnmanagedSpace
 {
     int _level;
-    unsigned long long _spaceID;
-    struct __CFArray *_spaceIDs;
-    NSMutableSet *_windowIDs;
-    long long _shownCount;
 }
 
 + (id);
@@ -21,14 +15,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)!;
+- (void)A;
+- (void);
 - (void);
 - (long long);
 - (void);
-- (id);
-- (void);
+- (id)_;
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -40,11 +34,7 @@
 - (int)policySatisfied %@;
 
 // Remaining properties
-@property(readonly) int level; // @synthesize level=_level;
-@property long long shownCount; // @synthesize shownCount=_shownCount;
 @property unsigned long long spaceID; // @synthesize spaceID=_spaceID;
-@property struct __CFArray *spaceIDs; // @synthesize spaceIDs=_spaceIDs;
-@property(retain) NSMutableSet *windowIDs; // @synthesize windowIDs=_windowIDs;
 
 @end
 

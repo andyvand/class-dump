@@ -8,7 +8,6 @@
 {
     id _$scope;
     id state;
-    id _observableHorizontalParallaxModel;
 }
 
 @end

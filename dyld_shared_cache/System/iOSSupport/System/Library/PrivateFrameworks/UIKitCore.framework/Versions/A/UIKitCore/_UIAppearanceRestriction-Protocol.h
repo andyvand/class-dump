@@ -5,5 +5,6 @@
 //
 
 @protocol _UIAppearanceRestriction
++ (_Bool)rtReason:context: /* Error: Ran out of types for this method. */;
 @end
 

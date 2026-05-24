@@ -7,38 +7,33 @@
 @interface GEORPFeedbackFloatField
 {
     float _edited;
-    float _original;
-    CDStruct_ccf110de _flags;
 }
 
-+ (_Bool)Used:(id)arg1;
++ (_Bool)setIsVLFImprovementUsed:(id)arg1;
 - (void);
-- (void);
-- (_Bool);
+- (void)insertNewObjectForEntityForName:(_Bool)arg1 inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (_Bool)1#;
 - (_Bool);
 - (float);
 - (void);
-- (void);
+- (void)e to create depth confidence buffer ;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)P;
+- (void)LSTS;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)];
 - (_Bool);
 - (void);
 - (id)stenerDelegate>";
 - (float)unknownFields"b1"read_photoSizeFilters"b1"read_categoryId"b1"wrote_anyField"b1};
-- (id)ys;
+- (id)amenitys;
 - (id)ÀIJOtP`QZ,[¸[aaøhøi k,lmømo	|st0uìu	;
 - (id)AllFrom can only be called once per object;
 
 // Remaining properties
-@property(nonatomic) float edited;
-@property(nonatomic) _Bool hasEdited;
 @property(nonatomic) _Bool hasOriginal;
-@property(nonatomic) float original;
 
 @end
 

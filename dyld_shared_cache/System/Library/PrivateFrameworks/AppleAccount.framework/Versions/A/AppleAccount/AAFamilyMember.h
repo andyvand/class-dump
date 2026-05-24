@@ -4,83 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface AAFamilyMember
 {
     _Bool _isMe;
-    _Bool _isChild;
-    _Bool _isSharingPurchases;
-    _Bool _isOrganizer;
-    _Bool _areParentalControlsEnabled;
-    _Bool _isAskToBuyEnabled;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_appleID;
-    NSNumber *_personID;
-    NSString *_personIDHash;
-    NSString *_altDSID;
-    NSString *_title;
-    NSDate *_joinDate;
-    NSString *_iTunesNotLinkedMessage;
-    NSString *_linkediTunesAppleID;
-    NSNumber *_linkediTunesDSID;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)t policy to string error = %s (%ld);
+- (void)bined policy = %s;
+- (void)asscodePolicy failed login reset combined policy = %s;
+- (void)%s.;
+- (void)root;
+- (void)olution; using cur value;
+- (void)ve conflict key %s with a better solution; using cur value;
+- (void)eDomain found optional passcode payload to check and merge;
+- (void)status error = %d;
+- (id)e length = %d,  error = %d (%x);
+- (id)strictSupervisedPrefs returned %d;
+- (id)P_RestrictSupervisedPrefs MIG_RestrictSupervisedPrefs returned %d;
+- (id)rted to datavault;
+- (_Bool)ning as root;
+- (_Bool)ble to find Profiles icon at:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)PCompositorWatcher Received CPProfilePreferencesChangedNotification for:%s (uid:%u). Our uid:%u /* Error: Ran out of types for this method. */;
+- (void)f type '%s' in array of cert refs;
 - (id);
+- (_Bool);
+- (void);
+- (void);
+- (void));
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void)e:messageURL: /* Error: Ran out of types for this method. */;
+- (id)	;
+- (void)initWithType:recipientHandle:messageURL: /* Error: Ran out of types for this method. */;
 - (id)b¿l^[GÝ;@ðQ¹§ZryÞ+ÕeB Y÷®Å8ôÑ{zKËØv­L3k·ø$HÍ©éftÎ?uÌjµ±³Üïxn¾>sç~èÿâ´1OÚCÙ=û_à«,|¤iÈdV`W2h°IFó²Aþ<67í¼Ò¨Ð4¦ñcß!îÔÖMÄaÛÂ½./üùº#êã¶Á(0¥)¢ ¸-æ¡×wgT&95¯Ç\"E;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(nonatomic) _Bool areParentalControlsEnabled; // @synthesize areParentalControlsEnabled=_areParentalControlsEnabled;
 @property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(copy, nonatomic) NSString *iTunesNotLinkedMessage; // @synthesize iTunesNotLinkedMessage=_iTunesNotLinkedMessage;
-@property(nonatomic) _Bool isAskToBuyEnabled; // @synthesize isAskToBuyEnabled=_isAskToBuyEnabled;
-@property(nonatomic) _Bool isChild; // @synthesize isChild=_isChild;
-@property(nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
-@property(nonatomic) _Bool isOrganizer; // @synthesize isOrganizer=_isOrganizer;
-@property(nonatomic) _Bool isSharingPurchases; // @synthesize isSharingPurchases=_isSharingPurchases;
-@property(copy, nonatomic) NSDate *joinDate; // @synthesize joinDate=_joinDate;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(copy, nonatomic) NSString *linkediTunesAppleID; // @synthesize linkediTunesAppleID=_linkediTunesAppleID;
-@property(copy, nonatomic) NSNumber *linkediTunesDSID; // @synthesize linkediTunesDSID=_linkediTunesDSID;
-@property(copy, nonatomic) NSNumber *personID; // @synthesize personID=_personID;
-@property(copy, nonatomic) NSString *personIDHash; // @synthesize personIDHash=_personIDHash;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

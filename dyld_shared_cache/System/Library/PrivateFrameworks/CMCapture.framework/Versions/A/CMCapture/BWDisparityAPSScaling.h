@@ -8,22 +8,14 @@ __attribute__((visibility("hidden")))
 @interface BWDisparityAPSScaling
 {
     float _focusRegionDisparityPercentile;
-    float _focusRegionMinArea;
-    float _focusRegionMinApsDistanceMeters;
-    float _focusRegionMaxApsDistanceMeters;
-    float _focusRegionMinDisparityDistanceMeters;
-    float _focusRegionMaxDisparityDistanceMeters;
-    float _scaleRecoveryMinScalingFactor;
-    float _scaleRecoveryMaxScalingFactor;
-    int _focusRegionDisparitySamplingRate;
 }
 
-+ (void)_trace;
++ (void)bwimagequeuenode_trace;
 - (float);
 - (float);
 - (_Bool);
 - (id);
-- (id);
+- (id)r;
 
 @end
 

@@ -10,21 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVLayoutItemAttributes
 {
     _Bool _hasFlexibleContentSize;
-    _Bool _prefersSecondaryMaterialOverlay;
-    _Bool _canOverflowToAuxiliaryMenu;
-    _Bool _canOnlyAppearInControlOverflowMenu;
-    _Bool _canSubstituteOtherAttributes;
-    _Bool _collapsed;
-    _Bool _included;
-    unsigned long long _displayPriority;
-    AVLayoutItemAttributes *_displayPartnerAttributes;
-    double _trailingInterItemSpace;
-    NSString *_accessibilityIdentifier;
-    AVLayoutItemAttributes *_nextAttributesInLayoutOrder;
-    AVLayoutItemAttributes *_nextAttributesInPriorityOrder;
-    NSString *_uniqueIdentifier;
-    struct CGSize _minimumSize;
-    struct CGSize _maximumSize;
 }
 
 - (double);
@@ -40,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -53,14 +38,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)hasFeaturesScaleFactor;
 - (id);
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (id);
-- (id);
+- (void)addEntriesFromDictionary:(_Bool)arg1;
+- (id),V_finalized;
+- (id)articipant:%@ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -69,22 +54,6 @@ __attribute__((visibility("hidden")))
 - (void)lassContentTabSelectionViewDelegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
-@property(nonatomic) _Bool canOnlyAppearInControlOverflowMenu; // @synthesize canOnlyAppearInControlOverflowMenu=_canOnlyAppearInControlOverflowMenu;
-@property(nonatomic) _Bool canOverflowToAuxiliaryMenu; // @synthesize canOverflowToAuxiliaryMenu=_canOverflowToAuxiliaryMenu;
-@property(nonatomic) _Bool canSubstituteOtherAttributes; // @synthesize canSubstituteOtherAttributes=_canSubstituteOtherAttributes;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_collapsed;
-@property(readonly, nonatomic, getter=isCollapsedOrExcluded) _Bool collapsedOrExcluded;
-@property __weak AVLayoutItemAttributes *displayPartnerAttributes; // @synthesize displayPartnerAttributes=_displayPartnerAttributes;
-@property(nonatomic) unsigned long long displayPriority; // @synthesize displayPriority=_displayPriority;
-@property(nonatomic) _Bool hasFlexibleContentSize; // @synthesize hasFlexibleContentSize=_hasFlexibleContentSize;
-@property(nonatomic, getter=isIncluded) _Bool included; // @synthesize included=_included;
-@property(nonatomic) struct CGSize maximumSize; // @synthesize maximumSize=_maximumSize;
-@property(nonatomic) struct CGSize minimumSize; // @synthesize minimumSize=_minimumSize;
-@property(retain, nonatomic) AVLayoutItemAttributes *nextAttributesInLayoutOrder; // @synthesize nextAttributesInLayoutOrder=_nextAttributesInLayoutOrder;
-@property(nonatomic) __weak AVLayoutItemAttributes *nextAttributesInPriorityOrder; // @synthesize nextAttributesInPriorityOrder=_nextAttributesInPriorityOrder;
-@property(nonatomic) _Bool prefersSecondaryMaterialOverlay; // @synthesize prefersSecondaryMaterialOverlay=_prefersSecondaryMaterialOverlay;
-@property(nonatomic) double trailingInterItemSpace; // @synthesize trailingInterItemSpace=_trailingInterItemSpace;
 @property(copy, nonatomic) NSString *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

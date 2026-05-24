@@ -5,6 +5,7 @@
 //
 
 @protocol SearchUIButtonItemViewDelegate
+- (_Bool)";
 
 // Remaining properties
 @property(readonly) _Bool supportsContextMenuConfiguration;

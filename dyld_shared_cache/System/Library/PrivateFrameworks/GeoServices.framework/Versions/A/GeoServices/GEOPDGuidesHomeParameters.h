@@ -4,44 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDGuidesHomeResultFilter, GEOPDGuidesLocationEntry, GEOPDResultRefinementGuidesHome, GEOPDViewportInfo, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDGuidesHomeParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _supportedFixedSectionTypes;
-    CDStruct_95bda58d _supportedRepeatableSectionTypes;
-    GEOPDGuidesLocationEntry *_guidesLocationEntry;
-    GEOPDResultRefinementGuidesHome *_refinementGuidesHome;
-    GEOPDGuidesHomeResultFilter *_resultFilter;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_supportedFixedSectionTypes:1;
-        unsigned int read_supportedRepeatableSectionTypes:1;
-        unsigned int read_guidesLocationEntry:1;
-        unsigned int read_refinementGuidesHome:1;
-        unsigned int read_resultFilter:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)relistening;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)extPageToken"b1"read_prevPageToken"b1"wrote_anyField"b1};
-- (id)rrides;
+- (id)_dyanmicContextServerOverrides;
 - (id)ô<;
 - (void)×£p=
 @©z@;

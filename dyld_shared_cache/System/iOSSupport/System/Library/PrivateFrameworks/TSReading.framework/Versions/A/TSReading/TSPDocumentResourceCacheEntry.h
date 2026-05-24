@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface TSPDocumentResourceCacheEntry
 {
     _Bool _wasDownloaded;
-    NSString *_digestString;
-    long long _accessCount;
-    NSURL *_URL;
-    long long _fileSize;
-    NSDate *_contentAccessDate;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)orMusic without _dataSources;
+- (void)ationTimeContinuity;
 - (void);
 - (id);
 - (id);
@@ -32,12 +27,7 @@
 - (long long)Çm;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(nonatomic) long long accessCount; // @synthesize accessCount=_accessCount;
-@property(retain, nonatomic) NSDate *contentAccessDate; // @synthesize contentAccessDate=_contentAccessDate;
 @property(readonly, nonatomic) NSString *digestString; // @synthesize digestString=_digestString;
-@property(nonatomic) long long fileSize; // @synthesize fileSize=_fileSize;
-@property(nonatomic) _Bool wasDownloaded; // @synthesize wasDownloaded=_wasDownloaded;
 
 @end
 

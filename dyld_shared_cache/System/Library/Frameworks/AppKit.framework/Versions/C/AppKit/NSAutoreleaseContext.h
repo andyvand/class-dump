@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSData *_backtraceData;
 }
 
-+ (id)clearSelectedCell;
++ (id)_clearSelectedCell;
 - (id);
 - (void);
 - (_Bool);

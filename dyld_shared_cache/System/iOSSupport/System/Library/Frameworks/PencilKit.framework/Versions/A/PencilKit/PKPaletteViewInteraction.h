@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSString, PKDrawingPaletteView, PKPaletteHostView, PKTextEffectsWindowObserver, UIScene, UIView, UIWindowScene;
-@protocol PKPaletteViewInteractionDelegate;
+@class UIScene, UIWindowScene;
 
 @interface PKPaletteViewInteraction
 {
     UIScene *_scene;
-    id <PKPaletteViewInteractionDelegate> _delegate;
-    PKPaletteHostView *_paletteHostView;
-    PKDrawingPaletteView *_paletteView;
-    UIWindowScene *_windowScene;
-    PKTextEffectsWindowObserver *_textEffectsWindowObserver;
-    UIView *_view;
-    NSLayoutConstraint *_paletteHostViewWidthConstraint;
-    NSLayoutConstraint *_paletteHostViewHeightConstraint;
-    NSLayoutConstraint *_paletteHostViewTopConstraint;
-    NSLayoutConstraint *_paletteHostViewLeftConstraint;
-    struct CGRect _sceneBounds;
-    struct CGRect _textEffectsWindowFrame;
 }
 
 + (id);
@@ -82,36 +69,14 @@
 - (void);
 - (void)1Â0@ù
 × ;
-- (id)ThicknessPickerConstraints;
-- (id);
+- (id)visibleThicknessPickerConstraints;
+- (id)_allowsHitTestAsOpaqueForRemoteEffects;
 - (void)View;
 - (id);
 - (void);
 - (void)¯;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;
-@property(readonly, nonatomic, getter=isActive) _Bool active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPaletteViewInteractionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKPaletteHostView *paletteHostView; // @synthesize paletteHostView=_paletteHostView;
-@property(retain, nonatomic) NSLayoutConstraint *paletteHostViewHeightConstraint; // @synthesize paletteHostViewHeightConstraint=_paletteHostViewHeightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *paletteHostViewLeftConstraint; // @synthesize paletteHostViewLeftConstraint=_paletteHostViewLeftConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *paletteHostViewTopConstraint; // @synthesize paletteHostViewTopConstraint=_paletteHostViewTopConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *paletteHostViewWidthConstraint; // @synthesize paletteHostViewWidthConstraint=_paletteHostViewWidthConstraint;
-@property(readonly, nonatomic) struct CGRect paletteHostingWindowSceneBounds;
-@property(retain, nonatomic) PKDrawingPaletteView *paletteView; // @synthesize paletteView=_paletteView;
-@property(readonly, nonatomic, getter=isPaletteVisible) _Bool paletteVisible;
-@property(nonatomic) struct CGRect sceneBounds; // @synthesize sceneBounds=_sceneBounds;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGRect textEffectsWindowFrame; // @synthesize textEffectsWindowFrame=_textEffectsWindowFrame;
-@property(retain, nonatomic) PKTextEffectsWindowObserver *textEffectsWindowObserver; // @synthesize textEffectsWindowObserver=_textEffectsWindowObserver;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 @property(nonatomic) __weak UIWindowScene *windowScene; // @synthesize windowScene=_windowScene;
 
 @end

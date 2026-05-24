@@ -9,10 +9,6 @@
 @interface ControlCenter.ControlCenterModulePreferencesController : ControlCenter.PreferencesController
 {
     id identifier;
-    id _deprecatedShowInControlCenterByDefault;
-    id _deprecatedShowInMenuBarByDefault;
-    id defaultConfiguration;
-    id queue;
 }
 
 @end

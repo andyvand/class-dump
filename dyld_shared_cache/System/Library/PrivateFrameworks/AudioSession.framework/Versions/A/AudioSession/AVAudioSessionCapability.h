@@ -7,15 +7,13 @@
 @interface AVAudioSessionCapability
 {
     _Bool _supported;
-    _Bool _enabled;
 }
 
-- (id);
+- (id)NEPacket;
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
 @property(readonly, nonatomic, getter=isSupported) _Bool supported; // @synthesize supported=_supported;
 
 @end

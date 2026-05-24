@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECDKIMVerifier, EDCategoryCoreAnalyticsLogger, EDCategoryPersistence, EDSenderPersistence, EFLocked, EMCachingContactStore, EMNSUserDefaultsBoolObserver, MCCSecretAgentController, NSConditionLock, NSObject, NSString;
-@protocol EMVIPManager, OS_dispatch_queue;
+@protocol EMVIPManager;
 
 @interface EDMessageCategorizer
 {
     id <EMVIPManager> _vipManager;
-    EMCachingContactStore *_contactStore;
-    NSObject<OS_dispatch_queue> *_processingQueue;
-    EDCategoryPersistence *_persistence;
-    NSConditionLock *_categorizationState;
-    EDCategoryCoreAnalyticsLogger *_analyticsLogger;
-    EDSenderPersistence *_senderPersistence;
-    ECDKIMVerifier *_verifier;
-    EMNSUserDefaultsBoolObserver *_automaticallySummarizeMessages;
-    EFLocked *_messagesWithCategorization;
-    MCCSecretAgentController *_secretAgentController;
 }
 
 + (id);
@@ -30,32 +19,32 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)C;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)oid *, CFTypeRef);
 - (id);
 - (id);
 - (void)ToAddressesQueue;
@@ -63,24 +52,6 @@
 - (id)Qz)yúÿQz) ÒùÿQz)X×úÿ;
 
 // Remaining properties
-@property(retain, nonatomic) EDCategoryCoreAnalyticsLogger *analyticsLogger; // @synthesize analyticsLogger=_analyticsLogger;
-@property(retain, nonatomic) EMNSUserDefaultsBoolObserver *automaticallySummarizeMessages; // @synthesize automaticallySummarizeMessages=_automaticallySummarizeMessages;
-@property(readonly, nonatomic) NSConditionLock *categorizationState; // @synthesize categorizationState=_categorizationState;
-@property(readonly, nonatomic) EMCachingContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) EFLocked *messagesWithCategorization; // @synthesize messagesWithCategorization=_messagesWithCategorization;
-@property(retain, nonatomic) EDCategoryPersistence *persistence; // @synthesize persistence=_persistence;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
-@property(retain, nonatomic) MCCSecretAgentController *secretAgentController; // @synthesize secretAgentController=_secretAgentController;
-@property(retain, nonatomic) EDSenderPersistence *senderPersistence; // @synthesize senderPersistence=_senderPersistence;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) ECDKIMVerifier *verifier; // @synthesize verifier=_verifier;
 @property(readonly, nonatomic) id <EMVIPManager> vipManager; // @synthesize vipManager=_vipManager;
 
 @end

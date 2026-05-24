@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDataString, _INPBDateTimeRangeValue;
-
 @interface _INPBAlarmSearch
 {
     struct {
@@ -15,14 +13,6 @@
         unsigned int isMeridianInferred:1;
         unsigned int period:1;
     } _has;
-    _Bool _includeSleepAlarm;
-    _Bool _isMeridianInferred;
-    int _alarmReferenceType;
-    int _alarmSearchStatus;
-    int _period;
-    NSString *_identifier;
-    _INPBDataString *_label;
-    _INPBDateTimeRangeValue *_time;
 }
 
 + (_Bool);
@@ -35,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -48,53 +38,31 @@
 - (int);
 - (id);
 - (int);
-- (int);
-- (int);
+- (int)?;
+- (int);
 - (void);
 - (_Bool);
-- (int);
-- (id);
+- (int)(;
+- (id)tendoFusedJoyConDevice";
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)timeStarted;
+- (void)c}s (%{public}s:(id)arg1 %u) [bbh] Combined broken backhaul state for auto-join already determined to be 'not broken', ignoring new NEARBY bbh state;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (void)C;
 - (void)h'0Ø3l7;
 - (void)playlist;
-- (_Bool)ddMedia: /* Error: Ran out of types for this method. */;
+- (_Bool)defaultMediaDestinationForAddMedia: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int alarmReferenceType; // @synthesize alarmReferenceType=_alarmReferenceType;
-@property(nonatomic) int alarmSearchStatus; // @synthesize alarmSearchStatus=_alarmSearchStatus;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasAlarmReferenceType;
-@property(nonatomic) _Bool hasAlarmSearchStatus;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasIncludeSleepAlarm;
-@property(nonatomic) _Bool hasIsMeridianInferred;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasPeriod;
-@property(readonly, nonatomic) _Bool hasTime;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool includeSleepAlarm; // @synthesize includeSleepAlarm=_includeSleepAlarm;
-@property(nonatomic) _Bool isMeridianInferred; // @synthesize isMeridianInferred=_isMeridianInferred;
-@property(retain, nonatomic) _INPBDataString *label; // @synthesize label=_label;
-@property(nonatomic) int period; // @synthesize period=_period;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDateTimeRangeValue *time; // @synthesize time=_time;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol IMDaemonListenerChatCountsProtocol
+- (void)4H/;
 @end
 

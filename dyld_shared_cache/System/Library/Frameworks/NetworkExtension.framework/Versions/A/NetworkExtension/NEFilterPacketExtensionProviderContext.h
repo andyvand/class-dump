@@ -6,21 +6,16 @@
 
 #import <NetworkExtension/NEFilterExtensionProviderContext.h>
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_nw_interpose;
-
 @interface NEFilterPacketExtensionProviderContext : NEFilterExtensionProviderContext
 {
     struct os_unfair_lock_s _lock;
-    NSObject<OS_nw_interpose> *_nw_interpose;
-    NSMutableDictionary *_interposes;
 }
 
-+ (id);
-+ (id);
++ (id)`;
++ (id)0:8@16@24@32@40@48@56@?64 /* Error: Ran out of types for this method. */;
 - (void);
 - (Class);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)setDefaultCredential:forProtectionSpace: /* Error: Ran out of types for this method. */;

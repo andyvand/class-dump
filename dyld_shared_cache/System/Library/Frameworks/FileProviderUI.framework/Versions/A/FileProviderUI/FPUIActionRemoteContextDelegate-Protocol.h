@@ -5,5 +5,7 @@
 //
 
 @protocol FPUIActionRemoteContextDelegate
+- (void)_companionDeviceUDID;
+- (void)_combinedStoreFrontID;
 @end
 

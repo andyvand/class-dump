@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDTriggerModel.h>
 
-@class NSData, NSDate, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDTimerTriggerModel : HMDTriggerModel
 {
@@ -17,24 +15,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (Class)0@ù
 × ;
-- (id);
+- (id)M;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDate *fireDate; // @dynamic fireDate;
-@property(copy, nonatomic) NSData *fireDateTimeZone; // @dynamic fireDateTimeZone;
-@property(copy, nonatomic) NSData *fireRepeatInterval; // @dynamic fireRepeatInterval;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *recurrences; // @dynamic recurrences;
-@property(copy, nonatomic) NSString *significantEvent; // @dynamic significantEvent;
-@property(copy, nonatomic) NSData *significantEventOffset; // @dynamic significantEventOffset;
-@property(readonly) Class superclass;
 
 @end
 

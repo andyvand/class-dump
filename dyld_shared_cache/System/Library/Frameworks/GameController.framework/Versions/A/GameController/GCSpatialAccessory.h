@@ -6,7 +6,7 @@
 
 #import <GameController/GCController.h>
 
-@class GCControllerLiveInput, GCDeviceHaptics;
+@class GCControllerLiveInput;
 
 @interface GCSpatialAccessory : GCController
 {
@@ -18,10 +18,9 @@
 + (_Bool);
 - (_Bool);
 - (Class);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly) GCDeviceHaptics *haptics; // @dynamic haptics;
 @property(readonly) GCControllerLiveInput *input; // @dynamic input;
 
 @end

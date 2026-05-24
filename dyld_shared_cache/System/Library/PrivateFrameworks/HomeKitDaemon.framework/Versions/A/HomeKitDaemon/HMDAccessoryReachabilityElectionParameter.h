@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSUUID;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryReachabilityElectionParameter
 {
     _Bool _reachable;
-    NSUUID *_identifier;
 }
 
-- (id);
+- (id)OspreyMessageWriterErrorDomain;
 - (unsigned long long);
 - (_Bool);
-- (id)FBulletinRegistrationDatabaseID;
+- (id)MKFBulletinRegistrationDatabaseID;
 - (id);
 - (id)characteristic:%@ /* Error: Ran out of types for this method. */;
 - (id)e:(id)arg1 %@;
@@ -25,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, getter=isReachable) _Bool reachable; // @synthesize reachable=_reachable;
 
 @end
 

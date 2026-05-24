@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDCoreRoutineHeroAppEngagementInstance
 {
     unsigned long long _timestamp;
-    int _actionType;
-    NSString *_suggestionId;
-    int _uiPlacement;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int actionType:1;
-        unsigned int uiPlacement:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
-- (_Bool);
-- (int);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
+- (_Bool)&;
 - (_Bool);
 - (int);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void)H;
+- (unsigned long long);
+- (void);
+- (unsigned long long);
+- (_Bool);
+- (int);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -42,18 +32,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int actionType; // @synthesize actionType=_actionType;
-@property(nonatomic) _Bool hasActionType;
-@property(readonly, nonatomic) _Bool hasSuggestionId;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasUiPlacement;
-@property(retain, nonatomic) NSString *suggestionId; // @synthesize suggestionId=_suggestionId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int uiPlacement; // @synthesize uiPlacement=_uiPlacement;
 
 @end
 

@@ -4,39 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache, NSCalendar, NSDate, NSHashTable, NSMutableDictionary, NSMutableOrderedSet, NSObject, NSString, PKAccount, PKAccountUser, PKPaymentDefaultDataProvider, PKSpendingInsightsFetcher, PKTransactionSourceCollection;
-@protocol OS_dispatch_queue;
+@class PKAccountUser, PKTransactionSourceCollection;
 
 @interface PKSpendingSummaryFetcher
 {
     PKTransactionSourceCollection *_transactionSourceCollection;
-    PKAccount *_account;
-    NSCache *_weeklySummaryItemsPerStartDate;
-    NSCache *_monthlySummaryItemsPerStartDate;
-    NSCache *_yearlySummaryItemsPerStartDate;
-    struct os_unfair_lock_s _lockTransactions;
-    NSDate *_oldestTransactionDate;
-    NSDate *_newestTransactionDate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    PKPaymentDefaultDataProvider *_paymentDataProvider;
-    NSCalendar *_currentCalendar;
-    struct os_unfair_lock_s _observersLock;
-    NSHashTable *_observers;
-    struct os_unfair_lock_s _requestsLock;
-    NSMutableOrderedSet *_pendingRequests;
-    NSMutableDictionary *_blockPendingRequests;
-    _Bool _processingRequest;
-    NSArray *_statements;
-    PKSpendingInsightsFetcher *_insightsFetcher;
-    NSDate *_earliestSpendingByAnotherUser;
-    PKAccountUser *_accountUser;
 }
 
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void)7(@9;
 + (id);
 + (id);
 + (id);
@@ -50,15 +28,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)*;
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -69,13 +47,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PKAccountUser *accountUser; // @synthesize accountUser=_accountUser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

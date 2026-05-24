@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSUUID, TUConversationActivitySession, TUConversationParticipant;
+@class NSUUID;
 
 @interface TUConversationActivityEvent
 {
     NSUUID *_sessionUUID;
-    TUConversationParticipant *_originator;
-    long long _type;
-    long long _queueItemType;
-    NSString *_item;
-    NSString *_localizedDescription;
-    TUConversationActivitySession *_session;
-    NSURL *_url;
 }
 
 + (_Bool);
@@ -24,11 +17,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long))#@9	#;
 - (id);
 - (long long);
 - (void);
@@ -39,20 +32,13 @@
 - (id);
 - (void);
 - (void);
-- (void)DialType: /* Error: Ran out of types for this method. */;
+- (void)setDialType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)ock_invoke;
 - (void)Ã;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *item; // @synthesize item=_item;
-@property(readonly, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(retain, nonatomic) TUConversationParticipant *originator; // @synthesize originator=_originator;
-@property(nonatomic) long long queueItemType; // @synthesize queueItemType=_queueItemType;
-@property(retain, nonatomic) TUConversationActivitySession *session; // @synthesize session=_session;
 @property(retain, nonatomic) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

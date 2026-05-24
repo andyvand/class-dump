@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
 @protocol NSObject><NSCopying><NSCoding;
 
 @interface CUIKiCloudKVStore
 {
     _Bool _hasConnectedToCarBluetooth;
-    NSDate *_lastCarConnectionDate;
-    id <NSObject><NSCopying><NSCoding> _ubiquityIdentityToken;
 }
 
 + (_Bool);
@@ -26,12 +23,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void)peForSpans: /* Error: Ran out of types for this method. */;
+- (id)tection;
+- (void)summarizedAvailabilityTypeForSpans: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasConnectedToCarBluetooth; // @synthesize hasConnectedToCarBluetooth=_hasConnectedToCarBluetooth;
-@property(retain, nonatomic) NSDate *lastCarConnectionDate; // @synthesize lastCarConnectionDate=_lastCarConnectionDate;
 @property(retain) id <NSObject><NSCopying><NSCoding> ubiquityIdentityToken; // @synthesize ubiquityIdentityToken=_ubiquityIdentityToken;
 
 @end

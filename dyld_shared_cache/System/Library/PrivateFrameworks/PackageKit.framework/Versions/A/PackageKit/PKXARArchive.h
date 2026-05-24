@@ -6,14 +6,11 @@
 
 #import <PackageKit/PKMutableArchive.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKXARArchive : PKMutableArchive
 {
     NSString *_archivePath;
-    _Bool _skipsVerify;
-    NSData *_archiveHash;
-    struct __xar_t *_xarPtr;
 }
 
 + (id);
@@ -26,14 +23,14 @@
 - (id);
 - (id);
 - (id);
-- (int);
+- (int);
 - (id);
 - (_Bool);
 - (struct __xar_t *);
-- (void);
+- (void);
 - (struct __xar_file_t *);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (long long);
 - (id);

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NWPathEvaluator;
-@protocol OS_dispatch_queue;
+@class NWPathEvaluator;
 
 __attribute__((visibility("hidden")))
 @interface SPNetworkMonitor
 {
     _Bool _cachedIsNetworkUp;
-    NWPathEvaluator *_evaluator;
-    CDUnknownBlockType _block;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
 }
 
 - (_Bool);
@@ -33,9 +29,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;
-@property(nonatomic) _Bool cachedIsNetworkUp; // @synthesize cachedIsNetworkUp=_cachedIsNetworkUp;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
 @property(retain, nonatomic) NWPathEvaluator *evaluator; // @synthesize evaluator=_evaluator;
 
 @end

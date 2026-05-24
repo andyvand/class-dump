@@ -12,12 +12,11 @@ __attribute__((visibility("hidden")))
 @interface OADConnectorProperties : OADShapeProperties
 {
     OADConnection *mFrom;
-    OADConnection *mTo;
 }
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

@@ -6,19 +6,16 @@
 
 #import <BiomePubSub/BPSPublisher.h>
 
-@class NSArray, NSString;
-
 @interface BMBookmarkWrapper : BPSPublisher
 {
     BPSPublisher *_upstream;
-    id _initialState;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)radarURL;
+- (id)\;
 - (id);
 - (_Bool);
 - (void);
@@ -29,15 +26,6 @@
 - (_Bool)NSMutableArray",&,N,V_subscriptions;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bookmarkableUpstreams;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id initialState; // @synthesize initialState=_initialState;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) BPSPublisher *upstream; // @synthesize upstream=_upstream;
 
 @end

@@ -6,24 +6,20 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIFaceBalance : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputOrigI;
-    NSNumber *inputOrigQ;
-    NSNumber *inputStrength;
-    NSNumber *inputWarmth;
 }
 
 + (id);
-- (void);
+- (void)__;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -37,10 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputOrigI; // @synthesize inputOrigI;
-@property(retain, nonatomic) NSNumber *inputOrigQ; // @synthesize inputOrigQ;
-@property(retain, nonatomic) NSNumber *inputStrength; // @synthesize inputStrength;
-@property(retain, nonatomic) NSNumber *inputWarmth; // @synthesize inputWarmth;
 
 @end
 

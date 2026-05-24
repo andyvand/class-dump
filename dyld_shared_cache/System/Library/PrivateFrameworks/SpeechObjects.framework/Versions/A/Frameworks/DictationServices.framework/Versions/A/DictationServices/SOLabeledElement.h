@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface SOLabeledElement
 {
     _Bool _hasBeenCollected;
-    id _element;
-    NSMutableArray *_labels;
-    unsigned long long _labelNumber;
-    long long _desiredArrowOrientation;
-    long long _badgeIndicatorMask;
-    id _textMarkerRange;
-    long long _badgeAlignment;
-    CDUnknownBlockType _labelChosenHandler;
-    struct CGRect _elementFrame;
-    struct CGRect _labelFrame;
-    struct CGRect _labelRectangleFlipped;
-    struct CGRect _containerRectangleFlipped;
 }
 
 + (struct CGSize);
@@ -39,7 +25,7 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (_Bool);
 - (struct CGSize);
@@ -54,39 +40,21 @@
 - (unsigned long long);
 - (void);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)on Selector:GNSS data starvation - forcing initialization of last time with sufficient pseudoranges,est,%d,time,%.3lf /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)SGModelAsset-notifications;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)};
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long badgeAlignment; // @synthesize badgeAlignment=_badgeAlignment;
-@property(nonatomic) long long badgeIndicatorMask; // @synthesize badgeIndicatorMask=_badgeIndicatorMask;
-@property(nonatomic) struct CGRect containerRectangleFlipped; // @synthesize containerRectangleFlipped=_containerRectangleFlipped;
-@property(nonatomic) long long desiredArrowOrientation; // @synthesize desiredArrowOrientation=_desiredArrowOrientation;
 @property(retain, nonatomic) id element; // @synthesize element=_element;
-@property(readonly, nonatomic) struct CGRect elementFrame; // @synthesize elementFrame=_elementFrame;
-@property(readonly, nonatomic) NSString *elementName;
-@property(nonatomic) _Bool hasBeenCollected; // @synthesize hasBeenCollected=_hasBeenCollected;
-@property(readonly, nonatomic) _Bool isSpacer;
-@property(readonly, nonatomic) NSString *label;
-@property(copy, nonatomic) CDUnknownBlockType labelChosenHandler; // @synthesize labelChosenHandler=_labelChosenHandler;
-@property(nonatomic) struct CGRect labelFrame; // @synthesize labelFrame=_labelFrame;
-@property(nonatomic) unsigned long long labelNumber; // @synthesize labelNumber=_labelNumber;
-@property(nonatomic) struct CGRect labelRectangleFlipped; // @synthesize labelRectangleFlipped=_labelRectangleFlipped;
-@property(retain, nonatomic) NSMutableArray *labels; // @synthesize labels=_labels;
-@property(readonly, nonatomic) NSString *numberedLabel;
-@property(readonly, nonatomic) struct CGRect rectangle;
-@property(readonly, nonatomic) struct CGRect rectangleFlipped;
-@property(retain, nonatomic) id textMarkerRange; // @synthesize textMarkerRange=_textMarkerRange;
 
 @end
 

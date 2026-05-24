@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
+
 @protocol AFClockTimerMutating
+- (void)-;
+- (void)URLByAppendingPathComponent:(NSUUID *)arg1 isDirectory: /* Error: Ran out of types for this method. */;
+- (void)ion;
 - (void)AudioDeviceInfoMutating>"8;
 @end
 

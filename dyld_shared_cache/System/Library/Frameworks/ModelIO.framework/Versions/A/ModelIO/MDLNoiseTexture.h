@@ -9,10 +9,6 @@
 @interface MDLNoiseTexture : MDLTexture
 {
     _Bool _vectorNoise;
-    float _smoothness;
-    _Bool _grayScale;
-    float _frequency;
-    int _noiseMode;
 }
 
 - (id);

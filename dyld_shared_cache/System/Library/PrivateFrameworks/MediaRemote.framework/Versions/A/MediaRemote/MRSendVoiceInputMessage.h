@@ -15,16 +15,14 @@
 
 - (id);
 - (void);
-- (unsigned long long);
-- (CDStruct_ace97b7a);
+- (unsigned long long)ity %ld to try to match;
+- (CDStruct_c3b9c2ee);
 - (void)obufPostTransformer;
 - (id)0ò;
-- (float)OnSiriActivation;
+- (float)sendProactivePFSQOnSiriActivation;
 
 // Remaining properties
 @property(readonly, nonatomic) MRAudioBuffer *buffer;
-@property(readonly, nonatomic) float gain;
-@property(readonly, nonatomic) CDStruct_ace97b7a time;
 
 @end
 

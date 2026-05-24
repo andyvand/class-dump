@@ -9,7 +9,6 @@
 @interface PhotosUICore.GridSublayoutComposition__priv_2FB71D9C7E23262EADDD20DCB32B0936
 {
     id cachedLayoutGenerator;
-    id numberOfColumns;
 }
 
 - (id);

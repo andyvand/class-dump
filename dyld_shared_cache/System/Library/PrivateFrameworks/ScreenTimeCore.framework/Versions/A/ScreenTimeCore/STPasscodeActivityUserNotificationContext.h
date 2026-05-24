@@ -6,21 +6,112 @@
 
 #import <ScreenTimeCore/STUserNotificationContext.h>
 
-@class NSDate, NSLocale, NSNumber, NSString;
+@class NSString;
 
 @interface STPasscodeActivityUserNotificationContext : STUserNotificationContext
 {
     NSString *_deviceName;
-    NSDate *_lastPasscodeUseDate;
-    NSNumber *_childDSID;
-    NSLocale *_locale;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)play_order = 39;
+- (id)REAL NOT NULL DEFAULT 0.0, hidden INTEGER NOT NULL DEFAULT 0, chosen_by_auto_fill INTEGER NOT NULL DEFAULT 0);
+- (void)_artist_pid, item_artist, sort_item_artist, series_name, sort_series_name, grouping_key, cloud_status, representative_item_pid, artist_artwork_token, keep_local, keep_local_status) SELECT item_artist_pid, item_artist, sort_item_artist, series_name, sort_series_name, grouping_key, cloud_status, representative_item_pid, artist_artwork_cache_id, keep_local, keep_local_status FROM item_artist;
+- (id)y>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>clientProgram</key>
+			<false/>
+		</dict>
+		<key>SceneKit_JitterToOdd</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>SceneKit-jitter-odd</string>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>textureSampler1</key>
+				<string>SceneKit-jitter-even</string>
+				<key>textureSampler0</key>
+				<string>COLOR</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>clientProgram</key>
+			<false/>
+		</dict>
+		<key>SceneKit_JitterToEven</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>SceneKit-jitter-even</string>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>textureSampler1</key>
+				<string>SceneKit-jitter-odd</string>
+				<key>textureSampler0</key>
+				<string>COLOR</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>clientProgram</key>
+			<false/>
+		</dict>
+		<key>SceneKit_JitterResolve</key>
+		<dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>COLOR</string>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>textureSampler0</key>
+				<string>SceneKit-jitter-odd</string>
+				<key>factor</key>
+				<string>C3D-jitter-factor-resolve</string>
+			</dict>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+			<key>clientProgram</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>targets</key>
+	<dict>
+		<key>SceneKit-jitter-odd</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>persistent</key>
+			<true/>
+			<key>format</key>
+			<string>rgba32f</string>
+		</dict>
+		<key>SceneKit-jitter-even</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+			<key>persistent</key>
+			<true/>
+			<key>format</key>
+			<string>rgba32f</string>
+		</dict>
+	</dict>
+	<key>symbols</key>
+	<dict>
+		<key>C3D-jitter-factor-resolve</key>
+		<dict>
+			<key>type</key>
+			<string>float</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
+;
 - (id);
 - (void);
 - (id);
@@ -29,10 +120,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSNumber *childDSID; // @synthesize childDSID=_childDSID;
 @property(readonly, copy) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, copy) NSDate *lastPasscodeUseDate; // @synthesize lastPasscodeUseDate=_lastPasscodeUseDate;
-@property(copy) NSLocale *locale; // @synthesize locale=_locale;
 
 @end
 

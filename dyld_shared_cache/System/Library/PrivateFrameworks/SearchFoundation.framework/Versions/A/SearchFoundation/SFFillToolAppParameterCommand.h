@@ -6,13 +6,11 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSData;
 
 @interface SFFillToolAppParameterCommand : SFCommand
 {
     NSData *_encodedTypedValue;
-    NSString *_bundleIdentifier;
-    NSString *_applicationPath;
 }
 
 + (_Bool);
@@ -21,34 +19,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setArtworkIdentifier:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)@ notification with user interruption date:(id)arg1 %{public}@.;
+- (id)y";
+- (id)PHQueryForAssetsInAlbum_SortKeyTitle_block_invoke_102;
 - (id);
 - (id);
 - (void);
 - (void)sets;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationPath; // @synthesize applicationPath=_applicationPath;
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSData *encodedTypedValue; // @synthesize encodedTypedValue=_encodedTypedValue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(readonly) Class superclass;
 
 @end
 

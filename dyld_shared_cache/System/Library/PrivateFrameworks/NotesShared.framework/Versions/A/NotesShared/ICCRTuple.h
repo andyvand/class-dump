@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface ICCRTuple
 {
@@ -12,7 +12,7 @@
 }
 
 + (id);
-- (id);
+- (id)objectForKeyedSubscript:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -22,8 +22,8 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)y;
 - (id);
 - (void);
 - (id);
@@ -34,14 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contents; // @synthesize contents=_contents;
-@property(readonly) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

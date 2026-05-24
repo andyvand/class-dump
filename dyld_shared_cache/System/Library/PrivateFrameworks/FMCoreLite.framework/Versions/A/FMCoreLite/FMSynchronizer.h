@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_semaphore;
-
 @interface FMSynchronizer
 {
     _Bool _timeoutOccurred;
-    double _timeout;
-    NSString *_info;
-    NSObject<OS_dispatch_semaphore> *_sem;
 }
 
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)ultContactEmail;
+- (_Bool)o;
+- (void));
 - (id);
 - (void);
 - (id);
@@ -26,12 +20,9 @@
 - (void);
 - (void);
 - (void);
-- (id)eateDirectories: /* Error: Ran out of types for this method. */;
+- (id)setCreateDirectories: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *info; // @synthesize info=_info;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *sem; // @synthesize sem=_sem;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 @property(nonatomic) _Bool timeoutOccurred; // @synthesize timeoutOccurred=_timeoutOccurred;
 
 @end

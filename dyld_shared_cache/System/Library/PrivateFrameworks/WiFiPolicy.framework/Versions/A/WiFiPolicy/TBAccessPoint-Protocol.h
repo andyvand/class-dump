@@ -7,13 +7,10 @@
 @class NSString;
 
 @protocol TBAccessPoint
-- (double)odes;
+- (NSString *);
+- (double)WiFiUsageLQMModes;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *BSSID;
-@property(readonly, nonatomic, getter=isTCPGood) _Bool TCPGood;
-@property(readonly, nonatomic, getter=isEdge) _Bool edge;
-@property(readonly, nonatomic) double latitude;
-@property(readonly, nonatomic) double longitude;
 @end
 

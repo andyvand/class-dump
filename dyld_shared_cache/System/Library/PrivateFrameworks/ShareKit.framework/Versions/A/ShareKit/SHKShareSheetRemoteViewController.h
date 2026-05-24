@@ -8,13 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SHKShareSheetRemoteViewController
 {
     CDUnknownBlockType _handleCollaborationModeUpdated;
-    CDUnknownBlockType _handleCollaborationOptionsUpdated;
-    CDUnknownBlockType _handleOptionsUpdated;
-    CDUnknownBlockType _handleEditButtonClicked;
-    CDUnknownBlockType _handlePresent;
-    CDUnknownBlockType _performShareTransport;
-    CDUnknownBlockType _performAction;
-    CDUnknownBlockType _performSuggestion;
 }
 
 - (void);
@@ -22,24 +15,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)vB;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
+- (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
+- (void);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -49,13 +42,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handleCollaborationModeUpdated; // @synthesize handleCollaborationModeUpdated=_handleCollaborationModeUpdated;
-@property(copy, nonatomic) CDUnknownBlockType handleCollaborationOptionsUpdated; // @synthesize handleCollaborationOptionsUpdated=_handleCollaborationOptionsUpdated;
-@property(copy, nonatomic) CDUnknownBlockType handleEditButtonClicked; // @synthesize handleEditButtonClicked=_handleEditButtonClicked;
-@property(copy, nonatomic) CDUnknownBlockType handleOptionsUpdated; // @synthesize handleOptionsUpdated=_handleOptionsUpdated;
-@property(copy, nonatomic) CDUnknownBlockType handlePresent; // @synthesize handlePresent=_handlePresent;
-@property(copy, nonatomic) CDUnknownBlockType performAction; // @synthesize performAction=_performAction;
-@property(copy, nonatomic) CDUnknownBlockType performShareTransport; // @synthesize performShareTransport=_performShareTransport;
-@property(copy, nonatomic) CDUnknownBlockType performSuggestion; // @synthesize performSuggestion=_performSuggestion;
 
 @end
 

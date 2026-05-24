@@ -9,7 +9,6 @@
 @interface CNPhotoPickerVariantsManager
 {
     NSArray *_avatarBackgrounds;
-    NSArray *_defaultEmojis;
 }
 
 + (id);
@@ -18,14 +17,14 @@
 + (id);
 + (id);
 + (id);
++ (id);
++ (id)ȅ;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id))A@9?;
 + (id);
 + (id);
 - (void);
@@ -33,12 +32,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ewController;
+- (id)persistentStoreCoordinator;
+- (void)_personHeaderViewController;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *avatarBackgrounds; // @synthesize avatarBackgrounds=_avatarBackgrounds;
-@property(retain, nonatomic) NSArray *defaultEmojis; // @synthesize defaultEmojis=_defaultEmojis;
 
 @end
 

@@ -6,29 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface PEGASUSSchemaPEGASUSMultistepSubSearchExecution : SISchemaInstrumentationMessage
 {
     int _loopbackDepth;
-    int _parentDomain;
-    _Bool _hasNextSteps;
-    int _searchType;
-    NSArray *_subSearchDomains;
-    _Bool _hasAugmentedQuery;
-    struct {
-        unsigned int loopbackDepth:1;
-        unsigned int parentDomain:1;
-        unsigned int hasNextSteps:1;
-        unsigned int searchType:1;
-        unsigned int hasAugmentedQuery:1;
-    } _has;
 }
 
 - (unsigned long long);
 - (int);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,28 +46,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)ference setting is [%@];
+- (_Bool)onHandler from UNNotificationCenter;
 - (id);
 - (id)
 × ;
-- (id)text;
+- (id)_hasCdmClientSetupContext;
 - (id)aUUID",&,N,V_originatingPrewarmRequestId;
 - (void)dentifier;
 
 // Remaining properties
-@property(nonatomic) _Bool hasAugmentedQuery; // @synthesize hasAugmentedQuery=_hasAugmentedQuery;
-@property(nonatomic) _Bool hasHasAugmentedQuery;
-@property(nonatomic) _Bool hasHasNextSteps;
-@property(nonatomic) _Bool hasLoopbackDepth;
-@property(nonatomic) _Bool hasNextSteps; // @synthesize hasNextSteps=_hasNextSteps;
-@property(nonatomic) _Bool hasParentDomain;
-@property(nonatomic) _Bool hasSearchType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int loopbackDepth; // @synthesize loopbackDepth=_loopbackDepth;
-@property(nonatomic) int parentDomain; // @synthesize parentDomain=_parentDomain;
-@property(nonatomic) int searchType; // @synthesize searchType=_searchType;
-@property(copy, nonatomic) NSArray *subSearchDomains; // @synthesize subSearchDomains=_subSearchDomains;
 
 @end
 

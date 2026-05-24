@@ -7,18 +7,11 @@
 @interface ActivityEventResolver
 {
     id objectCache;
-    id participantCache;
-    id participantAvatarCache;
-    id mentionsCache;
-    id itemCache;
-    id objectDidUpdateShareObservation;
-    id object;
-    id context;
 }
 
 - (id);
 - (id);
-- (void)ngeCoalescer;
+- (void)changeCoalescer;
 
 @end
 

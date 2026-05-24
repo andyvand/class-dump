@@ -9,19 +9,9 @@
 @interface GEOFormattedStringClientCapabilities
 {
     PBUnknownFields *_unknownFields;
-    int _maxSupportedAppLinkValue;
-    _Bool _concatenatingFormatStringsSupported;
-    _Bool _styleSupported;
-    _Bool _timestampFormatPatternSupported;
-    struct {
-        unsigned int has_maxSupportedAppLinkValue:1;
-        unsigned int has_concatenatingFormatStringsSupported:1;
-        unsigned int has_styleSupported:1;
-        unsigned int has_timestampFormatPatternSupported:1;
-    } _flags;
 }
 
-+ (_Bool)HasResultTranslationX:(id)arg1;
++ (_Bool)setHasResultTranslationX:(id)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -31,40 +21,32 @@
 - (void);
 - (void);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)0:8d16d24 /* Error: Ran out of types for this method. */;
+- (_Bool)8@"NSURLSession"16@"NSURLSessionTask"24;
+- (_Bool)retry:didCompleteAttempt: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithBackgroundScheduler:mainThreadScheduler:inlineScheduler:immediateScheduler:serialSchedulerProvider:workloopSchedulerProvider:synchronousSerialSchedulerProvider:readerWriterSchedulerProvider: /* Error: Ran out of types for this method. */;
+- (_Bool)rray",R,N,V_activeReaders;
+- (void)ntigua and Barbuda;
+- (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)4@32;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)ff:(struct _NSZone *)arg1;
-- (id)entConfigurationObserverProxy;
+- (void)__objc_classname__TEXT;
+- (id)setHighlightDiff:(struct _NSZone *)arg1;
+- (id)_GEOExperimentConfigurationObserverProxy;
 - (id)le to create new directory "%@":%@ /* Error: Ran out of types for this method. */;
 - (id)°;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool concatenatingFormatStringsSupported;
 @property(nonatomic) _Bool hasConcatenatingFormatStringsSupported;
-@property(nonatomic) _Bool hasMaxSupportedAppLinkValue;
-@property(nonatomic) _Bool hasStyleSupported;
-@property(nonatomic) _Bool hasTimestampFormatPatternSupported;
-@property(nonatomic) int maxSupportedAppLinkValue;
-@property(nonatomic) _Bool styleSupported;
-@property(nonatomic) _Bool timestampFormatPatternSupported;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -8,16 +8,12 @@
 {
     id stateMachine;
     id partialHandshakeResult;
-    id readEncryptionLevel;
-    id writeEncryptionLevel;
-    id receivedSessionTickets;
-    id latestError;
 }
 
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);

@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID, RTLocationOfInterest;
+
 @protocol RTDaemonInternalProtocol
+- (void)R;
+- (void);
+- (void){;
+- (void);
+- (void);
+- (void);
+- (void)PCSCKKSItemModifyContext";
+- (void)sharingRequestDataForIdentity:(NSUUID *)arg1 flags:(void (^)(NSError *))arg2 error: /* Error: Ran out of types for this method. */;
+- (void)requireIdentityInHSM;
+- (void)initWithIdentity:(RTLocationOfInterest *)arg1 currentItemPointerModificationTime:(void (^)(NSError *))arg2;
+- (void)firstObject;
+- (void)R;
 @end
 

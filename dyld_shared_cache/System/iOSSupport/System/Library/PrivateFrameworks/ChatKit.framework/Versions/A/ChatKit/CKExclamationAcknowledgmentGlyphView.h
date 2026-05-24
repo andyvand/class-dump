@@ -12,16 +12,15 @@ __attribute__((visibility("hidden")))
 @interface CKExclamationAcknowledgmentGlyphView : CKAcknowledgmentGlyphView
 {
     CKAcknowledgmentGlyphImageView *_leftExclamationGlyph;
-    CKAcknowledgmentGlyphImageView *_rightExclamationGlyph;
 }
 
-- (void);
-- (void);
+- (void)ic_copyTitleToGeneralPasteboard;
+- (void)ICShareNoteExporter;
 - (id);
-- (id);
-- (struct CGPoint);
+- (id)M;
+- (struct CGPoint)a;
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
@@ -30,7 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CKAcknowledgmentGlyphImageView *leftExclamationGlyph; // @synthesize leftExclamationGlyph=_leftExclamationGlyph;
-@property(retain, nonatomic) CKAcknowledgmentGlyphImageView *rightExclamationGlyph; // @synthesize rightExclamationGlyph=_rightExclamationGlyph;
 
 @end
 

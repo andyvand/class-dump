@@ -7,7 +7,6 @@
 @interface PhotosGraph.ImportantEntitiesTuningParameter
 {
     id name;
-    id algorithmParameters;
 }
 
 @end

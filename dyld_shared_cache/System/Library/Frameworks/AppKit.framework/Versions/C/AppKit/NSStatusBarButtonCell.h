@@ -6,28 +6,31 @@
 
 #import <AppKit/NSButtonCell.h>
 
-@class NSMenu, NSStatusBar;
+@class NSStatusBar;
 
 @interface NSStatusBarButtonCell : NSButtonCell
 {
     NSStatusBar *_fStatusBar;
-    NSMenu *_fStatusMenu;
-    _Bool _fDoubleClick;
-    SEL _fDoubleAction;
-    struct NSEdgeInsets _selectionInset;
-    unsigned int _looksDisabled:1;
-    unsigned int _actsOnRightMouseDown:1;
-    unsigned int _actsOnRightMouseUp:1;
-    unsigned int _reservedFlags:29;
-    _Bool _appOverrodeHighlightsBy;
 }
 
 + (void);
-+ (Class);
++ (Class)J	JJ(JK	KK(KL	LL(LII
+IIII)I8IJJ
+JJJJ)J8JKK
+KKKK)K8KLL
+LLLL)L8LMMNNOOPPQQRRSSTTM	MM(MN	NN(NO	OO(OP	PP(PMM
+MMMM)M8MNN
+NNNN)N8NOO
+OOOO)O8OPP
+PPPP)P8PQ	QQ(QR	RR(RS	SS(ST	TT(TQQ
+QQQQ)Q8QRR
+RRRR)R8RSS
+SSSS)S8STT
+TTTT)T8T;
 + (id);
 + (void);
 - (_Bool);
-- (void);
+- (void);
 - (struct CGRect);
 - (void);
 - (id);
@@ -45,13 +48,13 @@
 - (_Bool);
 - (void);
 - (SEL);
-- (void);
-- (id);
-- (long long);
+- (void)setShouldUseExtendedBackgroundIdleMode: /* Error: Ran out of types for this method. */;
+- (id)_sExpirationDate;
+- (long long)_requiresDNSSECValidation;
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id);
+- (id)rk"8Q16^B24;
+- (_Bool)path text NOT NULL,        partition text NOT NULL,        is_secure int NOT NULL,        is_hostOnly int NOT NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
 - (_Bool);
 - (void);
 - (void);
@@ -60,15 +63,14 @@
 - (void);
 - (void)lFocus"b1"allowsLogicalLayoutDirection"b1"asmlwidth"b1"hsmlwidth"b1"dontValidate"b1"allowsLogicalLayoutDirectionExplicitlySet"b1"reserved"b21};
 - (void)adingText:(id)arg1 trailingText: /* Error: Ran out of types for this method. */;
-- (id)viewPools;
+- (id)_viewPools;
 - (void)ÿ	nJ	ÿ;
-- (_Bool)bs;
+- (_Bool)NSScrubberRegisteredItemNibs;
 - (void);
 - (void)áºÄ1B;
 
 // Remaining properties
 @property _Bool looksDisabled;
-@property struct NSEdgeInsets selectionInset; // @synthesize selectionInset=_selectionInset;
 
 @end
 

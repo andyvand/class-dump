@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFWiFiManager, NSData, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicReadWriteNetworkInformation
 {
     _Bool _isConnectedToInternet;
-    _Bool _isInfraRelayInterfaceActive;
-    NSString *_wifiSSID;
-    NSString *_wifiBSSID;
-    NSData *_ipv4Signature;
-    NSData *_ipv6Signature;
-    unsigned long long _wifiConnectionState;
-    long long _bluetoothState;
-    unsigned long long _ethernetConnectionState;
-    unsigned long long _cellularDataConnectionState;
-    double _timeIntervalNetworkInformationCache;
-    HMFWiFiManager *_wifiManager;
 }
 
-- (unsigned long long);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)40@"NSString"48@"IDSMessageContext"56;
+- (double)nextStopsMuidsAtIndex: /* Error: Ran out of types for this method. */;
+- (void)_msp_registerTestTrip:(unsigned long long)arg1;
+- (void)_createGroupSessionIfNeededWithIdentifier:(double)arg1;
+- (void)to see if we need to stop any sharing...;
+- (void)g system block list updates;
+- (void)t updates;
+- (void)apabilityLevelForContact response for contact %{private}@:(unsigned long long)arg1 %lu;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -43,29 +32,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)requestIdentificationOfFaces:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long);
 - (void);
 - (id);
-- (void)Users:(id)arg1 home: /* Error: Ran out of types for this method. */;
-- (id)atchdog;
+- (void)auditAccessForUsers:(id)arg1 home: /* Error: Ran out of types for this method. */;
+- (id)SelfRemovalWatchdog;
 - (void);
 - (void);
 
 // Remaining properties
-@property long long bluetoothState; // @synthesize bluetoothState=_bluetoothState;
-@property unsigned long long cellularDataConnectionState; // @synthesize cellularDataConnectionState=_cellularDataConnectionState;
-@property unsigned long long ethernetConnectionState; // @synthesize ethernetConnectionState=_ethernetConnectionState;
-@property(copy) NSData *ipv4Signature; // @synthesize ipv4Signature=_ipv4Signature;
-@property(copy) NSData *ipv6Signature; // @synthesize ipv6Signature=_ipv6Signature;
-@property _Bool isConnectedToInternet; // @synthesize isConnectedToInternet=_isConnectedToInternet;
-@property _Bool isInfraRelayInterfaceActive; // @synthesize isInfraRelayInterfaceActive=_isInfraRelayInterfaceActive;
-@property double timeIntervalNetworkInformationCache; // @synthesize timeIntervalNetworkInformationCache=_timeIntervalNetworkInformationCache;
-@property(copy) NSString *wifiBSSID; // @synthesize wifiBSSID=_wifiBSSID;
-@property unsigned long long wifiConnectionState; // @synthesize wifiConnectionState=_wifiConnectionState;
-@property(retain) HMFWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
 @property(copy) NSString *wifiSSID; // @synthesize wifiSSID=_wifiSSID;
 
 @end

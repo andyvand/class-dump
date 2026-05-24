@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSGLLinkEngine, IDSObjectLifetime, IDSQuickRelaySessionInfo, NSData, NSDictionary, NSMutableArray, NSObject, NSString;
+@class IDSQuickRelaySessionInfo, NSObject;
 @protocol OS_dispatch_source;
 
 @interface IDSGlobalLinkSession
 {
     NSObject<OS_dispatch_source> *_sessionConvergenceTimer;
-    CDUnknownBlockType _sessionConvergenceBlock;
-    NSObject<OS_dispatch_source> *_sessionGoAwayTimer;
-    CDUnknownBlockType _sessionGoAwayBlock;
-    struct sockaddr_storage _serverAddress;
-    struct sockaddr_storage _serverAddressV6;
-    NSData *_sessionToken;
-    _Bool _wantsToJoin;
-    _Bool _wantsInfo;
-    _Bool _isPendingDisconnect;
-    _Bool _hasReceivedReallocIndication;
-    int _localInterfacePreference;
-    int _remoteInterfacePreference;
-    IDSQuickRelaySessionInfo *_sessionInfo;
-    NSDictionary *_sessionInfoDict;
-    IDSGLLinkEngine *_linkEngine;
-    IDSObjectLifetime *_allocateResponseActivation;
-    NSMutableArray *_remotePushTokens;
-    long long _acceptStatus;
 }
 
 - (void);
@@ -35,11 +17,11 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,7 +41,7 @@
 - (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id)jh8;
 - (void);
 - (long long);
 - (void);
@@ -70,33 +52,14 @@
 - (const struct sockaddr_storage *);
 - (void);
 - (const struct sockaddr_storage *);
-- (void);
+- (void)u;
 - (id);
 - (void);
 - (id);
 - (void)rtThread Primary;
 
 // Remaining properties
-@property long long acceptStatus; // @synthesize acceptStatus=_acceptStatus;
-@property(retain) IDSObjectLifetime *allocateResponseActivation; // @synthesize allocateResponseActivation=_allocateResponseActivation;
-@property(readonly) long long desiredRelayConnectionBehavior;
-@property _Bool hasReceivedReallocIndication; // @synthesize hasReceivedReallocIndication=_hasReceivedReallocIndication;
-@property(readonly) NSString *idsSessionID;
-@property _Bool isPendingDisconnect; // @synthesize isPendingDisconnect=_isPendingDisconnect;
-@property(readonly) IDSGLLinkEngine *linkEngine; // @synthesize linkEngine=_linkEngine;
-@property int localInterfacePreference; // @synthesize localInterfacePreference=_localInterfacePreference;
-@property(readonly) NSString *qrSessionID;
-@property int remoteInterfacePreference; // @synthesize remoteInterfacePreference=_remoteInterfacePreference;
-@property(retain) NSMutableArray *remotePushTokens; // @synthesize remotePushTokens=_remotePushTokens;
-@property const struct sockaddr_storage *serverAddress;
-@property const struct sockaddr_storage *serverAddressV6;
 @property(readonly) IDSQuickRelaySessionInfo *sessionInfo; // @synthesize sessionInfo=_sessionInfo;
-@property(readonly) NSDictionary *sessionInfoDict; // @synthesize sessionInfoDict=_sessionInfoDict;
-@property(retain) NSData *sessionToken;
-@property(readonly) _Bool shouldLinkEngineAllowOngoingTasks;
-@property _Bool wantsInfo; // @synthesize wantsInfo=_wantsInfo;
-@property(readonly) _Bool wantsToBeConnected;
-@property _Bool wantsToJoin; // @synthesize wantsToJoin=_wantsToJoin;
 
 @end
 

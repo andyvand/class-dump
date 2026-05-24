@@ -9,18 +9,16 @@
 @interface TRISysctlFactorLevel
 {
     NSString *_sysctlName;
-    long long _level;
 }
 
-- (id);
-- (id);
+- (id)shouldLoadTrackMetadata;
+- (id)setBaseImageFingerprint:(id)arg1;
 - (_Bool);
 - (void)!Eù!Ð1Â0@ù
 × ;
 - (long long)e;
 
 // Remaining properties
-@property(readonly, nonatomic) long long level; // @synthesize level=_level;
 @property(readonly, nonatomic) NSString *sysctlName; // @synthesize sysctlName=_sysctlName;
 
 @end

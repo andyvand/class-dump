@@ -7,12 +7,6 @@
 @interface PencilKit.RecognitionStrokeProvider
 {
     id $defaultActor;
-    id internalController;
-    id internalDrawing;
-    id internalDelegate;
-    id dataDetectorItemsObservers;
-    id proofreadingItemsObservers;
-    id proactive;
 }
 
 @end

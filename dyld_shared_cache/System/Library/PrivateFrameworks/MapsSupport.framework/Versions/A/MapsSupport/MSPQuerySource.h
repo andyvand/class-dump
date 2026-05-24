@@ -4,40 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPContainer, NSHashTable, NSString, _MSPQueryState;
+@class MSPContainer;
 
 @interface MSPQuerySource
 {
     MSPContainer *_owningContainer;
-    MSPQuerySource *_parentSource;
-    CDUnknownBlockType _mappingBlock;
-    CDUnknownBlockType _preprocessingBlock;
-    NSHashTable *_observers;
-    _MSPQueryState *_state;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)l;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void);
+- (void)_supportsMonitoringBlockList;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

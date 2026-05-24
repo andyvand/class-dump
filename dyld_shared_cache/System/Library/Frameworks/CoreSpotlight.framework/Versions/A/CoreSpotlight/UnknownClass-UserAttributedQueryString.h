@@ -8,15 +8,15 @@
 - (void);
 - (void);
 - (void);
+- (void)T6;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)A�:(struct _NSRange)arg1 ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);

@@ -4,14 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @protocol _CPEngagementTriggerRatio
+- (int)cessTraits<uint64_t>, unsigned long long>, WTF::UUID>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UUID>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UUID>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UUID>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UUID>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UUID>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebNotificationIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)ey = WTF:(int)arg1:WeakPtr<WebKit::WebProcessProxy>, Value = WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebProcessProxy>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebProcessProxy>, std::pair<WebKit::LoadedWebArchive, WTF::HashSet<WebCore::RegistrableDomain>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebProcessProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)e(const std:(float)arg1:unique_ptr<T, TDeleter> &, const std::unique_ptr<U, UDeleter> &&) [T = WebKit::DownloadProxyMap, TDeleter = std::default_delete<WebKit::DownloadProxyMap>, U = WebKit::DownloadProxyMap, UDeleter = std::default_delete<WebKit::DownloadProxyMap>] /* Error: Ran out of types for this method. */;
+- (float)TF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (float)Rule ;
+- (void)ng long>>, Malloc = WTF:(float)arg1:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) float go;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float tap;
-@property(nonatomic) int totalEngagements;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AKAuthenticationController
+- (void);
 @end
 

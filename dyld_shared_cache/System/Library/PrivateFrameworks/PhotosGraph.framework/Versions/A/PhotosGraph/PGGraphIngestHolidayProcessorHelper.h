@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PGGraphMeNodeCollection, PGGraphPersonNodeCollection, PGHolidayClassifier;
+@class PGHolidayClassifier;
 
 @interface PGGraphIngestHolidayProcessorHelper
 {
     PGHolidayClassifier *_holidayClassifier;
-    PGGraphMeNodeCollection *_meNodeAsCollection;
-    PGGraphPersonNodeCollection *_partnerPersonNodes;
-    PGGraphPersonNodeCollection *_familyPersonNodes;
-    PGGraphPersonNodeCollection *_childPersonNodes;
-    PGGraphPersonNodeCollection *_fatherPersonNodes;
-    PGGraphPersonNodeCollection *_motherPersonNodes;
-    PGGraphPersonNodeCollection *_friendPersonNodes;
-    PGGraphPersonNodeCollection *_coworkerPersonNodes;
-    PGGraphPersonNodeCollection *_nonAcquaintancePersonNodes;
-    unsigned long long _meBiologicalSex;
-    NSMutableDictionary *_biologicalSexByPartnerPersonNodeIdentifier;
 }
 
 + (id);
-- (double);
-- (void);
-- (id);
+- (double)setTrackingTextElement:(id)arg1;
+- (void)defaultActionName;
+- (id)__inlineSessionTracker;
+- (_Bool)__didRegisterSelectedChildrenChangedNotification;
+- (double)entController",&,N,S_setSharedKeyboardFocusedElementController:(id)arg1 ,V__sharedKeyboardFocusedElementController;
 - (_Bool);
-- (double);
-- (_Bool);
-- (id);
+- (id))<;
 - (double);
 - (unsigned long long);
-- (unsigned long long);
-- (double);
-- (double);
+- (unsigned long long);
+- (double)S;
+- (double),;
 - (id);
 - (void)nteresting:%@, interesting:%@ /* Error: Ran out of types for this method. */;
 

@@ -4,35 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDWRMStreamingReport
 {
     unsigned long long _timestamp;
-    unsigned int _counter;
-    unsigned int _duration;
-    unsigned int _durationLPM;
-    unsigned int _durationOffline;
-    NSMutableArray *_instValues;
-    unsigned int _numStall;
-    unsigned int _samplePeriods;
-    _Bool _isEnd;
-    _Bool _lPM;
-    _Bool _offline;
-    _Bool _online;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int counter:1;
-        unsigned int duration:1;
-        unsigned int durationLPM:1;
-        unsigned int durationOffline:1;
-        unsigned int numStall:1;
-        unsigned int samplePeriods:1;
-        unsigned int isEnd:1;
-        unsigned int lPM:1;
-        unsigned int offline:1;
-        unsigned int online:1;
-    } _has;
 }
 
 + (Class);
@@ -56,7 +30,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)J;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -68,59 +42,37 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool):a /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (id)	;
+- (void);
+- (_Bool)أ;
+- (void)x;
 - (void);
 - (id);
-- (void);
-- (_Bool);
+- (unsigned int);
+- (unsigned int)k`;
 - (void);
 - (void);
 - (id);
-- (unsigned int);
-- (unsigned int);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)initWithQuery:(unsigned int)arg1;
 - (void);
 - (_Bool);
-- (_Bool)onDueToRx: /* Error: Ran out of types for this method. */;
-- (_Bool)ny: /* Error: Ran out of types for this method. */;
-- (_Bool)ed;
-- (_Bool)ount;
+- (_Bool)setHasPowerConsumptionDueToRx: /* Error: Ran out of types for this method. */;
+- (_Bool)setA2dpdeny: /* Error: Ran out of types for this method. */;
+- (_Bool)roamFailed;
+- (_Bool)instancesCount;
 - (void),N,V_highRxRetriesFalse;
 - (void)¬;
 - (unsigned int)íÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned int counter; // @synthesize counter=_counter;
-@property(nonatomic) unsigned int duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned int durationLPM; // @synthesize durationLPM=_durationLPM;
-@property(nonatomic) unsigned int durationOffline; // @synthesize durationOffline=_durationOffline;
-@property(nonatomic) _Bool hasCounter;
-@property(nonatomic) _Bool hasDuration;
-@property(nonatomic) _Bool hasDurationLPM;
-@property(nonatomic) _Bool hasDurationOffline;
-@property(nonatomic) _Bool hasIsEnd;
-@property(nonatomic) _Bool hasLPM;
-@property(nonatomic) _Bool hasNumStall;
-@property(nonatomic) _Bool hasOffline;
-@property(nonatomic) _Bool hasOnline;
-@property(nonatomic) _Bool hasSamplePeriods;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *instValues; // @synthesize instValues=_instValues;
-@property(nonatomic) _Bool isEnd; // @synthesize isEnd=_isEnd;
-@property(nonatomic) _Bool lPM; // @synthesize lPM=_lPM;
-@property(nonatomic) unsigned int numStall; // @synthesize numStall=_numStall;
-@property(nonatomic) _Bool offline; // @synthesize offline=_offline;
-@property(nonatomic) _Bool online; // @synthesize online=_online;
-@property(nonatomic) unsigned int samplePeriods; // @synthesize samplePeriods=_samplePeriods;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -7,17 +7,6 @@
 @interface ConversationKit.ParticipantListViewConstraintManager
 {
     id controlsLeadingConstraint;
-    id containerLeadingConstraint;
-    id trailingConstraint;
-    id topConstraint;
-    id bottomConstraint;
-    id heightConstraint;
-    id topConstraintVertical;
-    id leadingConstraintVertical;
-    id trailingConstraintVertical;
-    id bottomConstraintVertical;
-    id constraints;
-    id type;
 }
 
 @end

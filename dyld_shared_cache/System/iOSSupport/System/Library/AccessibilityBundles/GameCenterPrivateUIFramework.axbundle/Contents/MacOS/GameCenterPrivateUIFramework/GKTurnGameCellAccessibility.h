@@ -12,8 +12,8 @@
 
 + (Class);
 + (id);
-+ (void);
-- (_Bool);
++ (void)_configureViews;
+- (_Bool)1$;
 - (id);
 
 @end

@@ -16,11 +16,11 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)requestedPermissionMatchPatterns;
 - (void)Fù±nð1Â0@ù
 × ;
-- (id)levanceQuestionFactory;
-- (void)l;
+- (id)PGExternalAssetRelevanceQuestionFactory;
+- (void)snowball;
 - (id)°Ù;
 
 // Remaining properties

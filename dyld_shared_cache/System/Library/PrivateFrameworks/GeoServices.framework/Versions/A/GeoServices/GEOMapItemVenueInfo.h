@@ -4,41 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapItemParentVenue, NSArray, NSString;
-@protocol GEOMapItemVenueContents, GEOVenueIdentifier;
+@protocol GEOVenueIdentifier;
 
 @interface GEOMapItemVenueInfo
 {
     id <GEOVenueIdentifier> _venueIdentifier;
-    int _venueFeatureType;
-    NSArray *_filters;
-    GEOMapItemParentVenue *_parent;
-    id <GEOMapItemVenueContents> _contents;
 }
 
 - (int);
 - (id);
 - (id);
+- (id)server;
 - (id);
-- (id);
-- (id);
+- (id)(%{public}lu);
 - (id);
 - (id)@"NSUUID"28@"NSString"36B44I48;
 - (void)xhÿÛ%;
 - (id)úT8;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOMapItemVenueContents> contents; // @synthesize contents=_contents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *filters; // @synthesize filters=_filters;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) GEOMapItemParentVenue *parent; // @synthesize parent=_parent;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int venueFeatureType; // @synthesize venueFeatureType=_venueFeatureType;
 @property(readonly, nonatomic) id <GEOVenueIdentifier> venueIdentifier; // @synthesize venueIdentifier=_venueIdentifier;
 
 @end

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface STSchemaSTSpotlightRequestEnded : SISchemaInstrumentationMessage
 {
     NSArray *_results;
-    struct _has;
 }
 
 - (void);
@@ -19,22 +18,21 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (unsigned long long)updateBundleIDs:userInitiated:error: /* Error: Ran out of types for this method. */;
+- (_Bool)_addressBook;
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
 - (_Bool);
 - (id);
 - (id);
-- (id)eActions;
-- (id)ServerDeviceFixedContext;
-- (void)ilityChangeInSeconds;
-- (unsigned long long)ollmentUIMode;
+- (id)deleteMinutesSinceLastDisambiguationForSameActions;
+- (id)_hasServerDeviceFixedContext;
+- (void)timeSinceLastAvailabilityChangeInSeconds;
+- (unsigned long long)SIRISETUPSchemaSIRISETUPEnrollmentUIMode;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
 
 @end

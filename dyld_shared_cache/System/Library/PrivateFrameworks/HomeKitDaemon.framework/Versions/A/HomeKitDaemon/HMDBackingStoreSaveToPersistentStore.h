@@ -6,27 +6,23 @@
 
 #import <HomeKitDaemon/HMDBackingStoreOperation.h>
 
-@class HMDHomeManager, NSString;
+@class HMDHomeManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreSaveToPersistentStore : HMDBackingStoreOperation
 {
     _Bool _incrementGeneration;
-    HMDHomeManager *_homeManager;
-    NSString *_reason;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)ialValue == 0;
 - (id)length is nil;
-- (void)e;
+- (void)DefaultHAPAccessoryClimateStorage;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly, nonatomic) _Bool incrementGeneration; // @synthesize incrementGeneration=_incrementGeneration;
-@property(readonly, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

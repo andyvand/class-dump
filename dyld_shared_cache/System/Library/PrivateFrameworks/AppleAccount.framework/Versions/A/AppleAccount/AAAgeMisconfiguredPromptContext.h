@@ -9,33 +9,27 @@
 @interface AAAgeMisconfiguredPromptContext
 {
     NSString *_altDSID;
-    NSString *_bundleID;
-    NSString *_title;
-    NSString *_message;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)XLockFileInHomeDir():(id)arg1 close(%d) called = %d (%s);
+- (id)ove the file - no work to do;
+- (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)pletion: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)TasksSchedulerDelegate>",W,N,V_backgroundTaskSchedulerDelegate;
+- (id)developerExtrasEnabled;
+- (id)sumOfXX;
+- (void)fetchCustodianshipInfoWithCompletion: /* Error: Ran out of types for this method. */;
 - (id)qÕJ×<åè8üYÈø¶5e-ãÿÔæÚxN!|ÙnõVl"¡gÛ/Ihy=.R[DA½czÏßo¾^¨4;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

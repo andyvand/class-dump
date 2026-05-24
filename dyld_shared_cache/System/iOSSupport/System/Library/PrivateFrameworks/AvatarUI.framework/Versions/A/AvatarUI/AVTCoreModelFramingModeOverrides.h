@@ -9,7 +9,6 @@
 @interface AVTCoreModelFramingModeOverrides
 {
     NSArray *_orderedTags;
-    NSArray *_orderedFramingModeOverrides;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *orderedFramingModeOverrides; // @synthesize orderedFramingModeOverrides=_orderedFramingModeOverrides;
 @property(readonly, nonatomic) NSArray *orderedTags; // @synthesize orderedTags=_orderedTags;
 
 @end

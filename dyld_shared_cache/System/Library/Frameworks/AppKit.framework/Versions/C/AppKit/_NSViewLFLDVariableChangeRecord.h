@@ -6,27 +6,23 @@
 
 #import <AppKit/_NSViewLFLDChangeRecord.h>
 
-@class NSISVariable, NSView;
+@class NSISVariable;
 
 __attribute__((visibility("hidden")))
 @interface _NSViewLFLDVariableChangeRecord : _NSViewLFLDChangeRecord
 {
     NSISVariable *_variable;
-    double _value;
-    NSView *_variableDelegate;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (double)dex:withNewPreferredHeight: /* Error: Ran out of types for this method. */;
-- (void)rid_xPlacement;
+- (double)_updateHeightForMenuItemAtIndex:withNewPreferredHeight: /* Error: Ran out of types for this method. */;
+- (void)NSGrid_xPlacement;
 
 // Remaining properties
-@property(readonly, nonatomic) double value; // @synthesize value=_value;
 @property(readonly, nonatomic) NSISVariable *variable; // @synthesize variable=_variable;
-@property(readonly, nonatomic) NSView *variableDelegate; // @synthesize variableDelegate=_variableDelegate;
 
 @end
 

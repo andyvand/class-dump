@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_data;
 
 __attribute__((visibility("hidden")))
 @interface NWURLSessionRequestBodyData
 {
     NSObject<OS_dispatch_data> *_data;
-    unsigned long long _length;
-    unsigned long long _offset;
 }
 
 - (void);
@@ -22,13 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) long long countOfBytesSent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

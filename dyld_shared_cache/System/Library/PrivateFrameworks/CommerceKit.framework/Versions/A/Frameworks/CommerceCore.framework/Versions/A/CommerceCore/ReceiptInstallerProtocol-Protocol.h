@@ -4,6 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSData, NSDictionary, NSNumber, NSString;
+
 @protocol ReceiptInstallerProtocol
+- (oneway void)performScheduledActivityWithIdentifier:(NSData *)arg1 activityCriteria: /* Error: Ran out of types for this method. */;
+- (oneway void)performRequest:(NSData *)arg1 taskIdentifier:retries:authHandling:completionHandler: /* Error: Ran out of types for this method. */;
+- (oneway void)mpletionHandler:(NSArray *)arg1;
+- (oneway void)performRequest:(NSArray *)arg1 taskIdentifier:retries:authHandling:cacheResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (oneway void)performRequest:(_Bool)arg1 taskIdentifier:cacheResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (oneway void)performRegistrationForRegion:withReason:completion: /* Error: Ran out of types for this method. */;
+- (oneway void)performRegistrationForMemberOfRegions:(NSString *)arg1 withReason:completion: /* Error: Ran out of types for this method. */;
+- (oneway void)performRecurringPaymentAction:(NSString *)arg1 identifier:completion: /* Error: Ran out of types for this method. */;
+- (oneway void)performRecentsSearch:queue:completion: /* Error: Ran out of types for this method. */;
+- (oneway void)performQuoteWithCompletion:(NSString *)arg1;
+- (oneway void)performNotificationActionRequest:(NSString *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (oneway void)performIsolatedTransactionWithBlock:(NSDictionary *)arg1 completion:(void (^)(NSError *))arg2;
+- (oneway void)performDeviceRegistrationWithCompletion: /* Error: Ran out of types for this method. */;
+- (oneway void)performDeviceRegistrationReturningContextForReason:brokerURL:completion: /* Error: Ran out of types for this method. */;
+- (oneway void);
+- (oneway void)performDeviceRegistrationReturningContextForReason:(NSString *)arg1 brokerURL:(void (^)(NSError *, NSString *))arg2 actionType:completion: /* Error: Ran out of types for this method. */;
+- (oneway void)performDeviceRegistrationForReason:brokerURL:completion: /* Error: Ran out of types for this method. */;
+- (oneway void)performBackgroundTransactionSyncFromDate:(NSNumber *)arg1 completion: /* Error: Ran out of types for this method. */;
 @end
 

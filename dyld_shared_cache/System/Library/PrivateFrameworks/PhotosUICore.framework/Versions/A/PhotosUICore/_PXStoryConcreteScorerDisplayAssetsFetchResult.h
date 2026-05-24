@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXStoryResourcesDataSource, PXStoryReusableDisplayAsset;
-@protocol PXDisplayAsset;
-
 @interface _PXStoryConcreteScorerDisplayAssetsFetchResult
 {
     long long _capacity;
-    long long *_resourceIndexes;
-    PXStoryReusableDisplayAsset *_asset;
-    PXStoryResourcesDataSource *_resourcesDataSource;
-    long long _count;
 }
 
 - (id);
@@ -32,23 +25,12 @@
 - (id);
 - (void);
 - (long long)ook %.0fms for full batch fetch, %.0fms since initial data source;
-- (void)anager;
-- (id)ck;
+- (void)MacSyncedAssetsNotificationListManager;
+- (id)PXAvailableSizeReadingModifierInfoHack;
 - (id)À¢Çÿ;
 
 // Remaining properties
 @property(nonatomic) long long count; // @synthesize count=_count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <PXDisplayAsset> firstObject;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXDisplayAsset> lastObject;
-@property(readonly, nonatomic) const long long *resourceIndexes;
-@property(retain, nonatomic) PXStoryResourcesDataSource *resourcesDataSource; // @synthesize resourcesDataSource=_resourcesDataSource;
-@property(readonly) Class superclass;
 
 @end
 

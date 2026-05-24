@@ -10,9 +10,9 @@
 {
 }
 
-- (void);
-- (id);
-- (void)pleAccount;
+- (void)ement failed value match for entitlement:(id)arg1 %{public}@;
+- (id);
+- (void)appleAccount;
 
 @end
 

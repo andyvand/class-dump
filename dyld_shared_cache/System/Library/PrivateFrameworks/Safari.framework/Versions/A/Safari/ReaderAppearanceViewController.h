@@ -4,42 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBox, NSButton, NSLayoutConstraint, NSScrollView, NSStackView, NSString, NSTableView, NSTextField, NSView, ReaderThemeButton, WBSReaderFont, WBSReaderFontDownloadManager;
-@protocol ReaderAppearanceViewControllerDelegate;
+@class NSBox, WBSReaderFont;
 
 __attribute__((visibility("hidden")))
 @interface ReaderAppearanceViewController
 {
     WBSReaderFont *_selectedFont;
-    ReaderThemeButton *_whiteButton;
-    ReaderThemeButton *_sepiaButton;
-    ReaderThemeButton *_grayButton;
-    ReaderThemeButton *_nightButton;
-    _Bool _popoverVisible;
-    id <ReaderAppearanceViewControllerDelegate> _delegate;
-    WBSReaderFontDownloadManager *_fontDownloadManager;
-    NSArray *_test_fonts;
-    NSBox *_textSizeButtonSeparator;
-    NSButton *_decreaseTextSizeButton;
-    NSButton *_increaseTextSizeButton;
-    NSBox *_themeButtonSeparator;
-    NSStackView *_themeButtonsStackView;
-    NSView *_fontTableSeparator;
-    NSScrollView *_fontTableScrollView;
-    NSTableView *_fontTableView;
-    NSLayoutConstraint *_themeButtonsStackViewHeightConstraint;
-    NSLayoutConstraint *_fontTableSeparatorHeightConstraint;
-    NSLayoutConstraint *_fontTableSeparatorLeadingConstraint;
-    NSLayoutConstraint *_fontTableSeparatorTrailingConstraint;
-    NSLayoutConstraint *_fontTableSeparatorTopConstraint;
-    NSLayoutConstraint *_fontTableSeparatorBottomConstraint;
-    NSLayoutConstraint *_fontTableHeaderTopConstraint;
-    NSLayoutConstraint *_tableViewWidthConstraint;
-    NSLayoutConstraint *_tableViewHeightConstraint;
-    NSTextField *_fontTableHeaderLabel;
-    NSTextField *_backgroundColorHeaderLabel;
-    NSLayoutConstraint *_fontListTopConstraintToHeader;
-    NSLayoutConstraint *_colorStackViewTopConstraintToHeader;
 }
 
 - (void);
@@ -68,14 +38,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
@@ -83,21 +53,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (long long);
+- (void)P;
+- (long long)@;
 - (id);
 - (id);
 - (void);
@@ -129,46 +99,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)unknownRequestIdentifier;
 - (void);
 - (_Bool);
 - (void)Ä;
 
 // Remaining properties
-@property __weak NSTextField *backgroundColorHeaderLabel; // @synthesize backgroundColorHeaderLabel=_backgroundColorHeaderLabel;
-@property __weak NSLayoutConstraint *colorStackViewTopConstraintToHeader; // @synthesize colorStackViewTopConstraintToHeader=_colorStackViewTopConstraintToHeader;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak NSButton *decreaseTextSizeButton; // @synthesize decreaseTextSizeButton=_decreaseTextSizeButton;
-@property(nonatomic) __weak id <ReaderAppearanceViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) WBSReaderFontDownloadManager *fontDownloadManager; // @synthesize fontDownloadManager=_fontDownloadManager;
-@property __weak NSLayoutConstraint *fontListTopConstraintToHeader; // @synthesize fontListTopConstraintToHeader=_fontListTopConstraintToHeader;
-@property __weak NSTextField *fontTableHeaderLabel; // @synthesize fontTableHeaderLabel=_fontTableHeaderLabel;
-@property __weak NSLayoutConstraint *fontTableHeaderTopConstraint; // @synthesize fontTableHeaderTopConstraint=_fontTableHeaderTopConstraint;
-@property __weak NSScrollView *fontTableScrollView; // @synthesize fontTableScrollView=_fontTableScrollView;
-@property __weak NSView *fontTableSeparator; // @synthesize fontTableSeparator=_fontTableSeparator;
-@property __weak NSLayoutConstraint *fontTableSeparatorBottomConstraint; // @synthesize fontTableSeparatorBottomConstraint=_fontTableSeparatorBottomConstraint;
-@property __weak NSLayoutConstraint *fontTableSeparatorHeightConstraint; // @synthesize fontTableSeparatorHeightConstraint=_fontTableSeparatorHeightConstraint;
-@property __weak NSLayoutConstraint *fontTableSeparatorLeadingConstraint; // @synthesize fontTableSeparatorLeadingConstraint=_fontTableSeparatorLeadingConstraint;
-@property __weak NSLayoutConstraint *fontTableSeparatorTopConstraint; // @synthesize fontTableSeparatorTopConstraint=_fontTableSeparatorTopConstraint;
-@property __weak NSLayoutConstraint *fontTableSeparatorTrailingConstraint; // @synthesize fontTableSeparatorTrailingConstraint=_fontTableSeparatorTrailingConstraint;
-@property __weak NSTableView *fontTableView; // @synthesize fontTableView=_fontTableView;
-@property(readonly) unsigned long long hash;
-@property __weak NSButton *increaseTextSizeButton; // @synthesize increaseTextSizeButton=_increaseTextSizeButton;
-@property(readonly, nonatomic, getter=isPopoverVisible) _Bool popoverVisible; // @synthesize popoverVisible=_popoverVisible;
-@property(readonly) Class superclass;
-@property __weak NSLayoutConstraint *tableViewHeightConstraint; // @synthesize tableViewHeightConstraint=_tableViewHeightConstraint;
-@property __weak NSLayoutConstraint *tableViewWidthConstraint; // @synthesize tableViewWidthConstraint=_tableViewWidthConstraint;
-@property(readonly, nonatomic) NSTableView *test_fontTableView;
-@property(copy, nonatomic, setter=test_setFonts:) NSArray *test_fonts; // @synthesize test_fonts=_test_fonts;
-@property(readonly, nonatomic) _Bool test_shouldShowFontTable;
 @property __weak NSBox *textSizeButtonSeparator; // @synthesize textSizeButtonSeparator=_textSizeButtonSeparator;
-@property __weak NSBox *themeButtonSeparator; // @synthesize themeButtonSeparator=_themeButtonSeparator;
-@property __weak NSStackView *themeButtonsStackView; // @synthesize themeButtonsStackView=_themeButtonsStackView;
-@property __weak NSLayoutConstraint *themeButtonsStackViewHeightConstraint; // @synthesize themeButtonsStackViewHeightConstraint=_themeButtonsStackViewHeightConstraint;
 
 @end
 

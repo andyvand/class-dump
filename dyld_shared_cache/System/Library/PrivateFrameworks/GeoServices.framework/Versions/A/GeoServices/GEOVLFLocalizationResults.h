@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOVLFCorrection, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOVLFLocalizationResults
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOVLFPositionContextClassification _positionContextClassification;
-    NSMutableArray *_localizationDetails;
-    GEOVLFCorrection *_vlfCorrection;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _vlfFinalState;
-    struct {
-        unsigned int has_positionContextClassification:1;
-        unsigned int has_vlfFinalState:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_localizationDetails:1;
-        unsigned int read_vlfCorrection:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)Reroutes:(id)arg1;
++ (_Bool)setNumberOfReroutes:(id)arg1;
 - (id);
 - (int);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -40,13 +24,13 @@
 - (void);
 - (struct GEOVLFPositionContextClassification);
 - (unsigned long long);
+- (id);
 - (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)initWithBase64EncodedString:options: /* Error: Ran out of types for this method. */;
+- (void)_TtC19ContactsPersistence18CNCDMeCardImporter;
 - (int);
 - (void);
 - (id);
@@ -55,8 +39,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)setBestStartDetectSample:(id)arg1;
+- (id)r;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -64,20 +48,13 @@
 - (void);
 - (id)	'°!XEùº*°1Â0@ù
 × ;
-- (id)hQueryItemValue: /* Error: Ran out of types for this method. */;
+- (id)initWithQueryItemValue: /* Error: Ran out of types for this method. */;
 - (id)RPPlaceContainmentCorrections",&,N;
-- (id)ICategoryFireStation;
+- (id)GEOPOICategoryFireStation;
 - (void)*ÔI@ßY/|[@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPositionContextClassification;
 @property(readonly, nonatomic) _Bool hasVlfCorrection;
-@property(nonatomic) _Bool hasVlfFinalState;
-@property(retain, nonatomic) NSMutableArray *localizationDetails;
-@property(nonatomic) struct GEOVLFPositionContextClassification positionContextClassification;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOVLFCorrection *vlfCorrection;
-@property(nonatomic) int vlfFinalState;
 
 @end
 

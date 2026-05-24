@@ -6,16 +6,14 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PHAsset, PHAssetCollection;
+@class PHAssetCollection;
 
 @interface PXMakeKeyAssetAction : PXPhotosAction
 {
     PHAssetCollection *_assetCollection;
-    PHAsset *_redoKeyAsset;
-    PHAsset *_undoKeyAsset;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PHAssetCollection *assetCollection; // @synthesize assetCollection=_assetCollection;
-@property(readonly, nonatomic) PHAsset *redoKeyAsset; // @synthesize redoKeyAsset=_redoKeyAsset;
-@property(readonly, nonatomic) PHAsset *undoKeyAsset; // @synthesize undoKeyAsset=_undoKeyAsset;
 
 @end
 

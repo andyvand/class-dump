@@ -6,20 +6,14 @@
 
 #import <MetalTools/MTLToolsIntersectionFunctionTable.h>
 
-@class MTLToolsObject;
-
 @interface MTLDebugIntersectionFunctionTable : MTLToolsIntersectionFunctionTable
 {
     struct atomic<int> _purgeableStateToken;
-    _Bool _purgeableStateHasBeenSet;
-    unsigned long long _functionCount;
-    MTLToolsObject *_pipelineState;
-    unsigned long long _stage;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -31,14 +25,13 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly) unsigned long long functionCount; // @synthesize functionCount=_functionCount;
-@property(readonly) unsigned long long stage; // @synthesize stage=_stage;
 
 @end
 

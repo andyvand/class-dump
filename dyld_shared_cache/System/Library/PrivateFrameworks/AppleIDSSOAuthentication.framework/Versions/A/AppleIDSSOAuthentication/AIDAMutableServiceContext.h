@@ -6,8 +6,7 @@
 
 #import <AppleIDSSOAuthentication/AIDAServiceContext.h>
 
-@class NSDictionary, NSWindow;
-@protocol AASignInFlowControllerDelegate, AASignOutFlowControllerDelegate, CDPStateUIProvider;
+@class NSDictionary;
 
 @interface AIDAMutableServiceContext : AIDAServiceContext
 {
@@ -15,14 +14,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) id <AASignInFlowControllerDelegate> aaSignInFlowControllerDelegate;
-@property(retain, nonatomic) id <AASignOutFlowControllerDelegate> aaSignOutFlowControllerDelegate;
 @property(copy, nonatomic) NSDictionary *authenticationResults;
-@property(nonatomic) __weak id <CDPStateUIProvider> cdpUiProvider;
-@property(retain, nonatomic) NSWindow *hostWindow;
-@property(nonatomic) long long operationUIPermissions;
-@property(nonatomic) _Bool shouldForceOperation;
-@property(retain, nonatomic) NSDictionary *signInContexts;
-@property(retain, nonatomic) NSDictionary *signOutContexts;
 @end
 

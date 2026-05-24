@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ASRSchemaASRPhrase : SISchemaInstrumentationMessage
 {
@@ -27,14 +27,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)tialDisplayed;
+- (id)timeToFirstPartialDisplayed;
 - (id)08X8¤4¤`ðÄÈÐ¨ Ð °¡ø¡´£D¤4¥ä¦l¨´¨$ªlªL««­L­p®;
 - (id)DîöÿhØ2ÿ;
 - (void)ø;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *interpretations; // @synthesize interpretations=_interpretations;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

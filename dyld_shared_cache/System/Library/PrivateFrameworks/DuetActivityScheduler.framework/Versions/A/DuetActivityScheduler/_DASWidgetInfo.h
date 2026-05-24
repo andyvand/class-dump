@@ -9,20 +9,17 @@
 @interface _DASWidgetInfo
 {
     NSString *_extensionBundleID;
-    NSString *_budgetID;
 }
 
-- (id);
+- (id)L;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *budgetID; // @synthesize budgetID=_budgetID;
 @property(readonly, copy, nonatomic) NSString *extensionBundleID; // @synthesize extensionBundleID=_extensionBundleID;
-@property(copy, nonatomic) NSString *widgetID;
 
 @end
 

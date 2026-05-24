@@ -7,9 +7,6 @@
 @interface AppleMediaServices.PrivateIdentifiersService
 {
     id dispatchSerialQueue;
-    id log;
-    id inactiveXpcSessionCreationClosure;
-    id _xpcSession;
 }
 
 @end

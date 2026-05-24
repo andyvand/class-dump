@@ -10,16 +10,11 @@ __attribute__((visibility("hidden")))
 @interface VCDatagramChannelMultiLink : VCObject
 {
     CDUnknownBlockType _eventHandler;
-    CDUnknownBlockType _readHandler;
-    _Bool _isStarted;
-    unsigned int _token;
-    struct _VCSingleLinkedList _connections;
-    struct os_unfair_lock_s _stateLock;
 }
 
 - (_Bool);
 - (int);
-- (int);
+- (int)9H;
 - (CDStruct_1f5b0d22 *);
 - (id);
 - (unsigned long long);
@@ -33,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (void);
-- (int)tagramChannel;
+- (int)_VTP_LogOSChannelInfoToIDSDatagramChannel;
 
 @end
 

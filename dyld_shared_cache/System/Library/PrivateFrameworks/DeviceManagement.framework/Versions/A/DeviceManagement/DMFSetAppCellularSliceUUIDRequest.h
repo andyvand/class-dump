@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)collectionView:didDeselectItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *UUIDString; // @synthesize UUIDString=_UUIDString;

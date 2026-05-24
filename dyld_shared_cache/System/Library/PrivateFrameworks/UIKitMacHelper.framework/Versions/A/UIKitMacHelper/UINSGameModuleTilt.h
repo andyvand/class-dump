@@ -10,20 +10,11 @@ __attribute__((visibility("hidden")))
 @interface UINSGameModuleTilt : UINSGameModuleMotion
 {
     CDStruct_bf7dff04 _neutralQuaternion;
-    CDStruct_bf7dff04 _quaternion;
-    double _sensitivity;
-    double _rate;
-    double _pitchMax;
-    double _yawMax;
-    _Bool _is_A_pressed;
-    _Bool _is_D_pressed;
-    _Bool _is_W_pressed;
-    _Bool _is_S_pressed;
 }
 
 + (id);
 - (double);
-- (void);
+- (void)Jc;
 - (void);
 - (void);
 - (void);
@@ -41,14 +32,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (double)ourceFrameOnScreenForShareItem: /* Error: Ran out of types for this method. */;
+- (double)sharingService:sourceFrameOnScreenForShareItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property CDStruct_bf7dff04 neutralQuaternion; // @synthesize neutralQuaternion=_neutralQuaternion;
-@property double pitchMax; // @synthesize pitchMax=_pitchMax;
-@property double rate; // @synthesize rate=_rate;
-@property double sensitivity; // @synthesize sensitivity=_sensitivity;
-@property double yawMax; // @synthesize yawMax=_yawMax;
 
 @end
 

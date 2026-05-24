@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)essibility _accessibilityFindContainerAccessibleElement:first:focus:allowScrolling:]_block_invoke /* Error: Ran out of types for this method. */;
 + (void);
-- (_Bool);
+- (_Bool)_activeClients;
 - (id);
 
 @end

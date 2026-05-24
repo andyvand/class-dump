@@ -6,47 +6,35 @@
 
 #import <AppKit/NSCollectionViewItem.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NSColorPanelFavoriteSwatch : NSCollectionViewItem
 {
     struct CGPoint _mouseDownLocation;
-    id _target;
-    SEL _action;
 }
 
-- (void);
+- (void):(id)arg1 8;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
+- (void)?;
+- (id);
 - (void);
-- (id);
+- (id)s;
 - (void);
-- (id);
-- (void);
-- (void)tyListForType:securityScoped: /* Error: Ran out of types for this method. */;
+- (void)_propertyListForType:securityScoped: /* Error: Ran out of types for this method. */;
 - (SEL)selection chose %@;
 - (void)NSToolbarItemPaletteLabel;
-- (void)nMessage;
+- (void)BKSHIDEventAuthenticationMessage;
 - (void)§B;
 - (void)G;
 - (void)tQK;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property __weak id target; // @synthesize target=_target;
 
 @end

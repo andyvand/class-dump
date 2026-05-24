@@ -7,6 +7,7 @@
 @protocol CATIDSServiceConnectionDataMessageQueueDelegate;
 
 @protocol CATIDSServiceConnectionDataMessageQueue
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CATIDSServiceConnectionDataMessageQueueDelegate> delegate;

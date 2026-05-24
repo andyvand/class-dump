@@ -6,17 +6,11 @@
 
 #import <IMFoundation/IMConnectionMonitor.h>
 
-@class CUTDeferredTaskQueue, IMReachability;
+@class IMReachability;
 
 @interface IMNetworkConnectionMonitor : IMConnectionMonitor
 {
     _Bool _isConnected;
-    _Bool _isSleeping;
-    IMReachability *_hostReachability;
-    IMReachability *_ipReachability;
-    unsigned long long _hostFlags;
-    unsigned long long _ipFlags;
-    CUTDeferredTaskQueue *_performCallbackTask;
 }
 
 - (void);
@@ -26,7 +20,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)U;
 - (void);
 - (unsigned long long);
 - (void);
@@ -37,24 +31,18 @@
 - (void);
 - (void);
 - (void);
+- (void)AVAudioSessionModeStereoCapture;
+- (void)%d;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)�-;
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)__gcc_except_tab__TEXT;
 
 // Remaining properties
-@property(nonatomic) unsigned long long _hostFlags; // @synthesize _hostFlags;
 @property(retain, nonatomic) IMReachability *_hostReachability; // @synthesize _hostReachability;
-@property(nonatomic) unsigned long long _ipFlags; // @synthesize _ipFlags;
-@property(retain, nonatomic) IMReachability *_ipReachability; // @synthesize _ipReachability;
-@property(nonatomic) _Bool _isConnected; // @synthesize _isConnected;
-@property(nonatomic) _Bool _isSleeping; // @synthesize _isSleeping;
-@property(readonly, nonatomic) CUTDeferredTaskQueue *performCallbackTask; // @synthesize performCallbackTask=_performCallbackTask;
 
 @end
 

@@ -9,8 +9,6 @@
 @interface ETModelDefMLP : ETModelDef
 {
     int _input_size;
-    int _hidden_size;
-    int _output_size;
 }
 
 - (void);
@@ -19,12 +17,10 @@
 - (int);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property int hidden_size; // @synthesize hidden_size=_hidden_size;
 @property int input_size; // @synthesize input_size=_input_size;
-@property int output_size; // @synthesize output_size=_output_size;
 
 @end
 

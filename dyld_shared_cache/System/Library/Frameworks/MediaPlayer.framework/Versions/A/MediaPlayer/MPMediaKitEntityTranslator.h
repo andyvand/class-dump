@@ -6,8 +6,6 @@
 
 #import <MediaPlayer/MPBaseEntityTranslator.h>
 
-@class NSString;
-
 @interface MPMediaKitEntityTranslator : MPBaseEntityTranslator
 {
 }
@@ -18,22 +16,16 @@
 + (void);
 - (id);
 - (void);
+- (void)!Ț?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

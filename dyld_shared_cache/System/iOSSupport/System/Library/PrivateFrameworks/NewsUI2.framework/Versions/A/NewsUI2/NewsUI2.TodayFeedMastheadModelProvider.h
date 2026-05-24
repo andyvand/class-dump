@@ -7,9 +7,6 @@
 @interface NewsUI2.TodayFeedMastheadModelProvider
 {
     id bundleSubscriptionManager;
-    id offlineManager;
-    id featureAvailability;
-    id mastheadWelcomeMessageProvider;
 }
 
 @end

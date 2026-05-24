@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRRemindersListConcreteEditingSession
 {
     id id;
-    id acquirerName;
-    id editingSessionState;
-    id isFormallyAcquired;
-    id delegate;
-    id finishCalled;
-    id internalAttributeEditor;
 }
 
 @end

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKConversation, CKQueryController, NSArray;
+
 @protocol CKQueryControllerDelegate
+- (NSArray *)recursiveVisibleSubfolders;
+- (void)rangeOfCharacterFromSet:(CKQueryController *)arg1;
+- (NSArray *)isFinished;
+- (NSArray *)isExplicitMention;
+- (CKConversation *)isEqualToString:(CKQueryController *)arg1;
+- (unsigned long long)attachmentFromStandardFileWrapper:(CKQueryController *)arg1;
 @end
 

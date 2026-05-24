@@ -7,7 +7,7 @@
 @interface UnknownClass (AOSKitDataAdditions)
 + (id);
 - (id);
-- (id);
+- (id)6;
 - (id);
 - (id);
 @end

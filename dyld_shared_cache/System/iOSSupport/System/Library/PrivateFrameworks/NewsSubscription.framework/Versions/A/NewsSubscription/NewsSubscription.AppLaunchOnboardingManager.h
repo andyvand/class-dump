@@ -7,8 +7,6 @@
 @interface NewsSubscription.AppLaunchOnboardingManager
 {
     id router;
-    id onboardingConfiguration;
-    id completionEventManager;
 }
 
 @end

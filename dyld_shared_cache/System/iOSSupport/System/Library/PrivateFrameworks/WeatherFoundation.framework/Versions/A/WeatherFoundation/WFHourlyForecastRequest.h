@@ -15,7 +15,7 @@
 
 - (void);
 - (id);
-- (id);
+- (id)kTranscriptConversationInfoButtonClicked;
 - (void);
 - (id);
 - (void);

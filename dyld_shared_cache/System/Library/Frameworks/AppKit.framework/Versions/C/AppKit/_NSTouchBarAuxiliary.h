@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, _NSObjectAnimator;
+@class _NSObjectAnimator;
 
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarAuxiliary
 {
     _NSObjectAnimator *_animator;
-    NSDictionary *_animationsDictionary;
 }
 
 - (void)hanges before quitting?;

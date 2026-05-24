@@ -7,9 +7,10 @@
 @class GCController, NSDictionary;
 
 @protocol GCControllerCoalescingDelegate
+- (void);
+- (NSDictionary *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *controllersByUDID;
 @property(nonatomic) __weak GCController *firstMicroGamepad;
 @end
 

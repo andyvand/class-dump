@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimer, UITargetedPreview, _UIClickPresentation;
+@class UITargetedPreview;
 
 __attribute__((visibility("hidden")))
 @interface _UIRapidClickPresentationAssistant
 {
     int _animationCount;
-    _Bool _isInteractionInitiatedDismiss;
-    _Bool _didBeginPresentation;
-    _UIClickPresentation *presentation;
-    CDUnknownBlockType lifecycleCompletion;
-    CDUnknownBlockType keyboardAssertionInvalidationHandler;
-    UITargetedPreview *_sourcePreview;
-    id _keyboardSuppressionAssertion;
-    NSTimer *_animationWatchdogTimer;
 }
 
 - (id);
@@ -31,36 +23,24 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)v84@0:(id)arg1 8@"NSString"16@"NSArray"24@"NSString"32C40@"NSString"44@"NSString"52@"NSString"60@"NSDictionary"68@"NSString"76;
+- (void)setRecordID:(unsigned long long)arg1;
+- (id)has_minThumbSizeHeight;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)N;
+- (void)n UUID style groupID, lets fix this chat:(unsigned long long)arg1 %@;
+- (void)loaded %@;
+- (void);
 - (id);
 - (void);
 - (double);
 - (id);
 - (void)ayoutListSectionData";
-- (void)ureEnabled:(id)arg1;
+- (void)_setExteriorPanGestureEnabled:(id)arg1;
 - (void)¹23èz;
 
 // Remaining properties
-@property(nonatomic) __weak NSTimer *animationWatchdogTimer; // @synthesize animationWatchdogTimer=_animationWatchdogTimer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType keyboardAssertionInvalidationHandler; // @synthesize keyboardAssertionInvalidationHandler;
-@property(retain, nonatomic) id keyboardSuppressionAssertion; // @synthesize keyboardSuppressionAssertion=_keyboardSuppressionAssertion;
-@property(copy, nonatomic) CDUnknownBlockType lifecycleCompletion; // @synthesize lifecycleCompletion;
-@property(retain, nonatomic) _UIClickPresentation *presentation; // @synthesize presentation;
 @property(retain, nonatomic) UITargetedPreview *sourcePreview; // @synthesize sourcePreview=_sourcePreview;
-@property(readonly) Class superclass;
 
 @end
 

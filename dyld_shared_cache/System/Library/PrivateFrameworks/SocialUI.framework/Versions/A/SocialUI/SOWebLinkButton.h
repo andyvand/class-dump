@@ -9,7 +9,6 @@
 @interface SOWebLinkButton
 {
     NSDictionary *_attributes;
-    NSDictionary *_mouseOverAttributes;
 }
 
 + (Class);
@@ -23,18 +22,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_TtC5TeaUIP33_E6EA9A1CEC9904B632D87018058DFF8016ShineMotionLayer;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void):(id)arg1 8@16^{CGSize=dd}24I32^I36^I44^{IMAssociatedMessageGeometryDescriptor=QQddddd}52;
-- (void)AlternativeCombinationsOfFirstName:lastName: /* Error: Ran out of types for this method. */;
+- (void)_searchString:matchForAlternativeCombinationsOfFirstName:lastName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) NSDictionary *mouseOverAttributes; // @synthesize mouseOverAttributes=_mouseOverAttributes;
 
 @end
 

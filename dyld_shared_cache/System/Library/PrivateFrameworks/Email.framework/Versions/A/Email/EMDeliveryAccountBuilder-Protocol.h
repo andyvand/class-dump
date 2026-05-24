@@ -5,6 +5,7 @@
 //
 
 @protocol EMDeliveryAccountBuilder
+- (unsigned long long);
 
 // Remaining properties
 @property unsigned long long maximumMessageBytes;

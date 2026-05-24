@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSWPRangeMap;
-@protocol TSWPTextSource;
-
 @interface TSWPRubyTextSource
 {
     struct vector<unsigned long, std::allocator<unsigned long>> _spaceCharIndexes;
-    struct vector<unsigned long, std::allocator<unsigned long>> _bidiCharIndexes;
-    id <TSWPTextSource> _source;
-    TSWPRangeMap *_rangeMap;
-    unsigned long long _length;
-    unsigned long long _storageLength;
 }
 
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
+- (unsigned long long)siriReferenceIdentifier;
+- (id)delegateTokenB;
+- (id)GenericObject"8;
+- (id)UnexpectedAssetLoadOutcome;
 - (_Bool);
 - (id);
 - (long long);
@@ -34,30 +26,24 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)+]H;
+- (id)P-;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (struct __CFDictionary *);
-- (struct _NSRange);
+- (struct _NSRange);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned short);
-- (void);
+- (void)TSDImager;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURL;
+
 @protocol STPINServiceViewController
+- (void)from prefs:(NSURL *)arg1 old value:(long long)arg2 %d, new value:(void (^)(NSError *))arg3 %d
+;
 @end
 

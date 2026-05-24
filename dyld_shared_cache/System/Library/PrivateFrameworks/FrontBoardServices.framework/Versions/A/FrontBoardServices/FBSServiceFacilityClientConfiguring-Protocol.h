@@ -5,5 +5,6 @@
 //
 
 @protocol FBSServiceFacilityClientConfiguring
+- (void)	;
 @end
 

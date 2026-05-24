@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSISVariable, NSString;
-
 @interface NSLayoutAnchor
 {
     id _referenceItem;
-    long long _attr;
-    NSISVariable *_variable;
-    NSString *_name;
-    id _cachedReferenceItems;
-    id _reserved;
-    unsigned int _type:2;
-    unsigned int _reserved3:30;
 }
 
 + (id);

@@ -7,9 +7,6 @@
 @interface IMSharedUtilities.PersistedListModel__priv_6AB6E0F32B41741B3ED4EB5BEFB3C689
 {
     id _first;
-    id _last;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString;
+@class NSMutableSet;
 @protocol BSInvalidatable;
 
 __attribute__((visibility("hidden")))
@@ -14,22 +14,16 @@ __attribute__((visibility("hidden")))
     id <BSInvalidatable> _stateCaptureToken;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)messageReadByRemote:(id)arg1;
+- (void)broadcastTransfersWithGUIDs:atLocalPaths: /* Error: Ran out of types for this method. */;
+- (void)_upgradeChatToGroupChat:(id)arg1 forConversation:(_Bool)arg2;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

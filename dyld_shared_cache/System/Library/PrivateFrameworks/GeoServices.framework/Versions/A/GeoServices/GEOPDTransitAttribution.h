@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitAttribution
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_providerNames;
 }
 
 + (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)restoreFromArchiveDictionary:(id)arg1;
+- (unsigned long long)P;
+- (_Bool)?;
 - (_Bool);
 - (id)D"b1"has_scheduledArrival"b1"has_scheduledDeparture"b1"read_stopFrom"b1"read_stopTo"b1"wrote_anyField"b1};
-- (id)cludeEntryPoints:shiftLocationsIfNeeded:preserveOriginalLocation:traits: /* Error: Ran out of types for this method. */;
+- (id)_searchable_ticketForReverseGeocodeCoordinate:includeEntryPoints:shiftLocationsIfNeeded:preserveOriginalLocation:traits: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

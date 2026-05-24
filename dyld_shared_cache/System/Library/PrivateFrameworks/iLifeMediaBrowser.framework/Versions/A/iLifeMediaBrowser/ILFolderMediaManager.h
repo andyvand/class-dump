@@ -6,17 +6,11 @@
 
 #import <iLifeMediaBrowser/ILMediaManager.h>
 
-@class NSLock, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface ILFolderMediaManager : ILMediaManager
 {
     NSMutableArray *_folderPaths;
-    NSLock *_folderPathsLock;
-    NSString *_currentLoadPath;
-    _Bool _shouldAbortCurrentLoad;
-    id _reserved4;
-    id _reserved5;
-    id _reserved6;
 }
 
 + (id);
@@ -26,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)gestureRecognizerShouldBegin: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

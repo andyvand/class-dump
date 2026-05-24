@@ -4,45 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, UIView, UIWebDocumentView;
+@class UIWebDocumentView;
 
 __attribute__((visibility("hidden")))
 @interface UIWebPlugInView
 {
     UIWebDocumentView *_webView;
-    CALayer *_hostingLayer;
-    UIView *_uiView;
-    struct __CFRunLoopObserver *_mainRunLoopDrawObserver;
-    _Bool _isFullScreen;
-    _Bool _parentedInLayer;
-    _Bool _isQuickTimePlugIn;
-    _Bool _isMapViewPlugIn;
-    _Bool _isiAdPlugIn;
 }
 
+- (_Bool)g"16@"NSString"24@"NSString"32C40@"NSString"44@"NSString"52;
+- (void)handleSMSSendResult:(_Bool)arg1 sent: /* Error: Ran out of types for this method. */;
+- (void)didJoinChat:(_Bool)arg1 style:displayName:groupID:handleInfo: /* Error: Ran out of types for this method. */;
+- (void)didDeleteChatGUID:(_Bool)arg1 chatIdentifier:style:groupID:originalGroupID:properties:lastAddressedLocalHandle:lastAddressedSIMID: /* Error: Ran out of types for this method. */;
+- (id)ptionValidationToken;
+- (id)OffGridRecipientSubscriptionValidationToken;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (void)`;
+- (void)n client;
+- (void)ransfers attempting download via CloudKit;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)j;
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,11 +42,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)re;
 - (void);
 - (void);
 - (_Bool):(SEL)arg1;
-- (void)DidShowNotificationForGeometry:(id)arg1;
+- (void)postDidShowNotificationForGeometry:(id)arg1;
 - (void)h;
 - (id)lÉîÿtÉîÿ;
 - (void);
@@ -62,9 +54,6 @@ __attribute__((visibility("hidden")))
 - (void)ÿÎÌ¨Ag;
 
 // Remaining properties
-@property(nonatomic) _Bool isMapViewPlugIn; // @synthesize isMapViewPlugIn=_isMapViewPlugIn;
-@property(nonatomic) _Bool isQuickTimePlugIn; // @synthesize isQuickTimePlugIn=_isQuickTimePlugIn;
-@property(nonatomic) _Bool isiAdPlugIn; // @synthesize isiAdPlugIn=_isiAdPlugIn;
 @property(nonatomic, getter=isParentedInLayer) _Bool parentedInLayer; // @synthesize parentedInLayer=_parentedInLayer;
 
 @end

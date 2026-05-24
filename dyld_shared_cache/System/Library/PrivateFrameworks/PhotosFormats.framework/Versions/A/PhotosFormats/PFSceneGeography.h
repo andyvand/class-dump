@@ -11,10 +11,6 @@
 @interface PFSceneGeography : PFCachingArchiveIndex
 {
     NSString *_dataArchivePath;
-    struct unique_ptr<boost::interprocess::basic_managed_mapped_file<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>, std::default_delete<boost::interprocess::basic_managed_mapped_file<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>> _backingFile;
-    const void *_floatMap;
-    const void *_scenes;
-    const void *_poi;
 }
 
 - (double);
@@ -24,22 +20,16 @@
 - (id);
 - (_Bool);
 - (unique_ptr_70a5b3c4);
-- (unsigned long long);
+- (unsigned long long)setPublicCodeServiceURL: /* Error: Ran out of types for this method. */;
 - (const char *);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)N8cnmatrix8CNMatrixILj19ELj19EdEE;
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

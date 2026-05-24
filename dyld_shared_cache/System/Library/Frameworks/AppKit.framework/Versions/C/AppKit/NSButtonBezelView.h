@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (int);
 - (void);
-- (int);
+- (int)on text NOT NULL,        is_secure int NOT NULL,        is_hostOnly int NOT NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
 - (void);
-- (void)hange;
+- (void)_presentationInstanceDisplayDidChange;
 
 // Remaining properties
 @property(nonatomic) int vibrancyBlendMode; // @synthesize vibrancyBlendMode;

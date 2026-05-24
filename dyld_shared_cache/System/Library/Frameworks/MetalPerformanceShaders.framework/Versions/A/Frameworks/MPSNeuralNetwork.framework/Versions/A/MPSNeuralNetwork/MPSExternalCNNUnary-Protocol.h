@@ -5,5 +5,8 @@
 //
 
 @protocol MPSExternalCNNUnary
+
+@optional
+- (unsigned long long)<;
 @end
 

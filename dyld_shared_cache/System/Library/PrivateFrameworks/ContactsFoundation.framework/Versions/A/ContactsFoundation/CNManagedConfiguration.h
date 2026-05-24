@@ -5,13 +5,10 @@
 //
 
 @class NSString;
-@protocol CNManagedProfileConnection;
 
 @interface CNManagedConfiguration
 {
     NSString *_bundleIdentifier;
-    id <CNManagedProfileConnection> _profileConnection;
-    NSString *_providerContainerIdentifier;
 }
 
 + (id);
@@ -25,13 +22,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)apfsi;
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ParentalControlsInformationProvider;
 - (id);
 - (id);
 - (id);
@@ -43,9 +40,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) NSString *clientBundleIdentifier;
-@property(readonly, nonatomic) id <CNManagedProfileConnection> profileConnection; // @synthesize profileConnection=_profileConnection;
-@property(readonly, copy, nonatomic) NSString *providerContainerIdentifier; // @synthesize providerContainerIdentifier=_providerContainerIdentifier;
 
 @end
 

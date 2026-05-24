@@ -6,30 +6,26 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class IASchemaIAClientEventMetadata, IASchemaIASiriMissEvaluationContext, NSData, SISchemaInstrumentationMessage;
+@class IASchemaIAClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface IASchemaIAClientEvent : SISchemaTopLevelUnionType
 {
     IASchemaIAClientEventMetadata *_eventMetadata;
-    IASchemaIASiriMissEvaluationContext *_siriMissEvaluationContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasSiriMissEvaluationContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
 - (unsigned long long);
 - (id);
+- (void)=;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)i*;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)24@32@40;
 - (void);
 - (id);
 - (id);
@@ -38,25 +34,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)addFence:completion: /* Error: Ran out of types for this method. */;
 - (id)AtÐ!ÔGù±à1Â0@ù
 × ;
-- (id)nkedPlugin;
+- (id)isTopRankedPlugin;
 - (unsigned long long)queriesExecuted;
 - (id)seCatalogMobileAssetVersion;
 - (id)¬;
-- (int)hreshold;
+- (int)euclidScoreThreshold;
 - (void)ÉÿNô;
 
 // Remaining properties
-@property(retain, nonatomic) IASchemaIAClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasSiriMissEvaluationContext; // @synthesize hasSiriMissEvaluationContext=_hasSiriMissEvaluationContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IASchemaIASiriMissEvaluationContext *siriMissEvaluationContext; // @synthesize siriMissEvaluationContext=_siriMissEvaluationContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

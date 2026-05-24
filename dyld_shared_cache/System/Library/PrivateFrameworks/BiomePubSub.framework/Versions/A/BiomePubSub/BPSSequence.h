@@ -11,7 +11,6 @@
 @interface BPSSequence : BMBookmarkablePublisher
 {
     _Bool _finished;
-    NSEnumerator *_enumerator;
 }
 
 + (id);
@@ -19,13 +18,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)setRemoteSideDelegate: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -36,7 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSEnumerator *enumerator; // @synthesize enumerator=_enumerator;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
 
 @end
 

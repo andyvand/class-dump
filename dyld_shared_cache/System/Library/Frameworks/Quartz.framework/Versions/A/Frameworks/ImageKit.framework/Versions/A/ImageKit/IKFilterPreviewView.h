@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, CIFilter, CIImage, NSString;
-@protocol MTLCommandQueue;
+@class CIFilter, CIImage;
 
 @interface IKFilterPreviewView
 {
     CIImage *checkerBoardImage;
-    CIFilter *_currentFilter;
-    CIImage *_baseImage;
-    CIContext *_cicontext;
-    id <MTLCommandQueue> _commandQueue;
 }
 
 - (void);
@@ -21,32 +16,23 @@
 - (id);
 - (id);
 - (id);
+- (id)safari_isCloudKitBatchTooLargeError;
+- (void)safari_initWithEncodedRecordData:(id)arg1;
+- (void)safari_fallbackFaviconURL;
+- (void)appleIDCountryCodeForAccount:(id)arg1;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)= %f
+;
 - (id);
 - (void);
 - (id)p;
 
 // Remaining properties
-@property(retain) CIImage *baseImage; // @synthesize baseImage=_baseImage;
-@property(retain) CIContext *cicontext; // @synthesize cicontext=_cicontext;
-@property(retain) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
 @property(retain) CIFilter *currentFilter; // @synthesize currentFilter=_currentFilter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

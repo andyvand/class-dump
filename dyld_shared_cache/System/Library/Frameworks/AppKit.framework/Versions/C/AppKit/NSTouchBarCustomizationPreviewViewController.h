@@ -6,62 +6,36 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSCollectionView, NSFunctionRow, NSString, NSTouchBarCustomizationPreviewInteractionCoordinator, NSTouchBarItemTree, _NSFunctionRowCustomizationDFRItem;
 @protocol NSTouchBarCustomizationPreviewViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewViewController : NSViewController
 {
     id <NSTouchBarCustomizationPreviewViewControllerDelegate> _delegate;
-    NSCollectionView *_customizationCollectionView;
-    struct CGRect _escKeyRect;
-    struct CGRect _applicationRect;
-    struct CGRect _miniControlStripRect;
-    struct CGRect _expandedControlStripRect;
-    struct CGRect _systemTrayRect;
-    _Bool _animatedIn;
-    _Bool _forcesReducedMetricsCompression;
-    NSFunctionRow *_functionRow;
-    long long _currentSection;
-    NSTouchBarItemTree *_applicationItemTree;
-    NSArray *_cachedApplicationPresentationItems;
-    NSTouchBarItemTree *_miniControlStripItemTree;
-    NSArray *_cachedMiniControlStripPresentationItems;
-    NSTouchBarItemTree *_expandedControlStripItemTree;
-    NSArray *_cachedExpandedControlStripPresentationItems;
-    _NSFunctionRowCustomizationDFRItem *_pendingApplicationItem;
-    _NSFunctionRowCustomizationDFRItem *_pendingMiniControlStripItem;
-    _NSFunctionRowCustomizationDFRItem *_pendingExpandedControlStripItem;
-    _Bool _cachedApplicationPresentationItemsAreInvalid;
-    _Bool _cachedMiniControlStripPresentationItemsAreInvalid;
-    _Bool _cachedExpandedControlStripPresentationItemsAreInvalid;
-    struct CGPoint _cursorPoint;
-    NSTouchBarCustomizationPreviewInteractionCoordinator *_interactionCoordinator;
-    id _cursorDraggedTree;
-    id _preCursorDraggedTree;
 }
 
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (double)_AMFDRDecodeCombined;
+- (void)TopModuleAuthChipID;
+- (void)ThreadRadioMacAddressForProvisioning;
+- (void)RearALSCapability;
+- (void)RFExposureSeparationDistance;
+- (void)u
+;
+- (struct CGRect)Library/Preferences/com.apple.MobileGestalt.plist;
+- (_Bool)VdSOpM2K054AhCKBaXuiqw;
+- (_Bool)E4vGMChwcVRKD8hMVxnRvg;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)';
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (long long);
 - (id);
@@ -70,13 +44,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct NSEdgeInsets);
 - (struct NSEdgeInsets);
 - (long long);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (id);
 - (id);
 - (_Bool);
@@ -93,7 +67,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (struct CGPoint);
 - (void);
-- (void);
+- (void)q;
 - (struct CGPoint);
 - (struct CGPoint);
 - (_Bool);
@@ -102,10 +76,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (long long);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)RA};
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
@@ -120,9 +94,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)SessionNotificationType;
+- (void)B24@?0r*8^v16;
+- (void)D	;
 - (_Bool);
 - (void);
 - (void);
@@ -131,56 +105,37 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)dataTaskWithURL:(id)arg1;
+- (id)connection:(long long)arg1 request:needsNewBodyStreamFromOffset:callback: /* Error: Ran out of types for this method. */;
+- (id)connection:request:needsNewBodyStreamCallback: /* Error: Ran out of types for this method. */;
+- (id)connection:didWriteData:totalBytesWritten:expectedTotalBytes: /* Error: Ran out of types for this method. */;
+- (id)_protocolClasses;
+- (void)_expectedProgressTarget;
+- (void);
+- (void);
+- (void)8H;
+- (void)_neverDecrementedPlusOneForFirstTube;
+- (void)NSURLSessionTaskStateSuspended;
+- (_Bool)_provideRequestBodyFromData;
+- (struct CGRect)?;
+- (id)temporaryDestinationURL;
+- (_Bool)BwithCachedResponse - Invalid protocol-property list - CFURLRequestRef. protoProps=%@;
+- (void)ntry_ID, isDataOnFS, receiver_data) 									 VALUES (%q, %q, %q);;
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGRect);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)achmentAtLocation: /* Error: Ran out of types for this method. */;
-- (long long)mporaryVersionStorageAlert;
-- (long long)ContentTypesExclusive:(id)arg1;
+- (void)extraLineFragmentTextContainer;
+- (void)frameForTextAttachmentAtLocation: /* Error: Ran out of types for this method. */;
+- (long long)_setShouldSkipTemporaryVersionStorageAlert;
+- (long long)_setShowsContentTypesExclusive:(id)arg1;
 - (void);
 - (long long)fter changing focus;
-- (void)ibutedTitle;
+- (void)attributedTitle;
 - (id)}ºáA;
 
 // Remaining properties
-@property(copy) NSTouchBarItemTree *applicationItemTree;
-@property struct CGRect applicationRect; // @synthesize applicationRect=_applicationRect;
-@property long long currentSection; // @synthesize currentSection=_currentSection;
 @property struct CGPoint cursorPoint; // @synthesize cursorPoint=_cursorPoint;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSTouchBarCustomizationPreviewViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property struct CGRect escKeyRect; // @synthesize escKeyRect=_escKeyRect;
-@property(copy) NSTouchBarItemTree *expandedControlStripItemTree; // @synthesize expandedControlStripItemTree=_expandedControlStripItemTree;
-@property struct CGRect expandedControlStripRect; // @synthesize expandedControlStripRect=_expandedControlStripRect;
-@property _Bool forcesReducedMetricsCompression; // @synthesize forcesReducedMetricsCompression=_forcesReducedMetricsCompression;
-@property(retain) NSFunctionRow *functionRow; // @synthesize functionRow=_functionRow;
-@property(readonly) unsigned long long hash;
-@property(copy) NSTouchBarItemTree *miniControlStripItemTree; // @synthesize miniControlStripItemTree=_miniControlStripItemTree;
-@property struct CGRect miniControlStripRect; // @synthesize miniControlStripRect=_miniControlStripRect;
-@property(readonly) Class superclass;
-@property struct CGRect systemTrayRect; // @synthesize systemTrayRect=_systemTrayRect;
 
 @end
 

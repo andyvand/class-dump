@@ -7,10 +7,10 @@
 @class INRecurrenceRule, NSDateComponents;
 
 @protocol INDateComponentsRangeExport
+- (void);
+- (INRecurrenceRule *);
 
 // Remaining properties
-@property(copy) NSDateComponents *endDateComponents;
-@property(copy) INRecurrenceRule *recurrenceRule;
 @property(copy) NSDateComponents *startDateComponents;
 @end
 

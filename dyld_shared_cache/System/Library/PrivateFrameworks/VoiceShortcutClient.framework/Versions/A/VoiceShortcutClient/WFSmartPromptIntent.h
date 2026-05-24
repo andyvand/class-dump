@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INFile, NSArray, NSString, WFSmartPromptButton;
+@class NSString;
 
 @interface WFSmartPromptIntent
 {
@@ -12,10 +12,6 @@
 
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *buttons; // @dynamic buttons;
-@property(copy, nonatomic) INFile *privacyIcon; // @dynamic privacyIcon;
-@property(copy, nonatomic) NSString *privacyTitle; // @dynamic privacyTitle;
 @property(copy, nonatomic) NSString *promptMessage; // @dynamic promptMessage;
-@property(copy, nonatomic) WFSmartPromptButton *selectedButton; // @dynamic selectedButton;
 @end
 

@@ -6,13 +6,10 @@
 
 #import <NetworkStatistics/NWStatsProtocolSource.h>
 
-@class NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface NWStatsUDPSource : NWStatsProtocolSource
 {
     struct nstat_msg_src_details_udp _nstatUDPDetails;
-    NSDictionary *_lookupResults;
 }
 
 - (_Bool);
@@ -20,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)nt;
 - (void);
 
 @end

@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol IMReachabilityDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface IMReachability
 {
     _Bool _gettingFlags;
-    id <IMReachabilityDelegate> _delegate;
-    unsigned long long _flags;
-    NSString *_description;
-    void *_reachabilityRef;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
-+ (id);
++ (id)B16Q20Q28;
++ (id)8@0:(id)arg1 8Q16@24q32@40;
 + (id);
 - (void);
 - (void);
@@ -27,16 +22,16 @@
 - (id);
 - (void);
 - (id);
+- (void)&,N;
+- (id)R;
+- (id);
+- (_Bool)f;
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (void)evice:(_Bool)arg1:StopStream:device hasn't been initialized /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)%;
 - (id);
 - (void);
 - (void);
@@ -44,12 +39,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *_queue; // @synthesize _queue;
-@property(readonly, nonatomic) _Bool connectionRequired;
-@property(nonatomic) __weak id <IMReachabilityDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) unsigned long long flags; // @synthesize flags=_flags;
-@property(nonatomic) _Bool gettingFlags; // @synthesize gettingFlags=_gettingFlags;
-@property(retain, nonatomic) NSString *reachabilityDescription; // @synthesize reachabilityDescription=_description;
-@property(nonatomic) void *reachabilityRef; // @synthesize reachabilityRef=_reachabilityRef;
 
 @end
 

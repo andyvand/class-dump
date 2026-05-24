@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UXCollectionView, UXCollectionViewLayout;
+@class NSArray, UXCollectionViewLayout;
 
 @interface UXCollectionViewLayoutAccessibility
 {
     NSArray *_accessibilityVisibleChildren;
-    UXCollectionViewLayout *_layout;
-    unsigned long long __sectionCacheOffset;
-    NSMutableArray *__sectionCache;
 }
 
 + (Class);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)qA;
 - (void);
 - (void);
 - (id);
@@ -45,11 +42,11 @@
 - (id);
 - (void);
 - (id);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
+- (struct CGRect)@;
 - (id);
 - (id);
-- (void);
+- (void)ps/lib/paimaging/PhotoApps/PAImageItemViewDefaultMode.m;
 - (id);
 - (id);
 - (id);
@@ -57,11 +54,6 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *_sectionCache; // @synthesize _sectionCache=__sectionCache;
-@property(nonatomic) unsigned long long _sectionCacheOffset; // @synthesize _sectionCacheOffset=__sectionCacheOffset;
-@property(copy, nonatomic) NSArray *accessibilitySelectedCells; // @dynamic accessibilitySelectedCells;
-@property(readonly, copy, nonatomic) NSArray *accessibilityVisibleChildren; // @synthesize accessibilityVisibleChildren=_accessibilityVisibleChildren;
-@property(readonly, nonatomic) __weak UXCollectionView *collectionView;
 @property(nonatomic) __weak UXCollectionViewLayout *layout; // @synthesize layout=_layout;
 
 @end

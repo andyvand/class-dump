@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PFARepackagingExecutionSandboxError : SISchemaInstrumentationMessage
 {
     int _errorNumber;
-    struct {
-        unsigned int errorNumber:1;
-    } _has;
 }
 
 - (void);
@@ -22,20 +17,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ROUP_HANDLE_MAP ?!;
 - (id);
 - (id)rÐ!4BùÝð1Â0@ù
 × ;
-- (id)esent;
+- (id)_hasOutputToPresent;
 - (id)dienceId;
 
 // Remaining properties
 @property(nonatomic) int errorNumber; // @synthesize errorNumber=_errorNumber;
-@property(nonatomic) _Bool hasErrorNumber;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

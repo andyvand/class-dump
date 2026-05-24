@@ -9,8 +9,6 @@
 @interface PGOverTheYearsMemoryConfigurationBuilder : PGOverTimeMemoryConfigurationBuilder
 {
     _Bool _allowTwoConsecutiveYears;
-    unsigned long long _minimumNumberOfYears;
-    unsigned long long _minimumNumberOfMomentsForTwoConsecutiveYears;
 }
 
 - (unsigned long long);
@@ -19,8 +17,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowTwoConsecutiveYears; // @synthesize allowTwoConsecutiveYears=_allowTwoConsecutiveYears;
-@property(readonly, nonatomic) unsigned long long minimumNumberOfMomentsForTwoConsecutiveYears; // @synthesize minimumNumberOfMomentsForTwoConsecutiveYears=_minimumNumberOfMomentsForTwoConsecutiveYears;
 @property(readonly, nonatomic) unsigned long long minimumNumberOfYears; // @synthesize minimumNumberOfYears=_minimumNumberOfYears;
 
 @end

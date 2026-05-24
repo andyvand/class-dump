@@ -6,14 +6,14 @@
 
 #import <HomeKit/HMRemoteLoginMessage.h>
 
-@class AKAnisetteData, NSDictionary, NSString;
+@class AKAnisetteData;
 
 @interface HMFetchAnisetteDataResponse : HMRemoteLoginMessage
 {
     AKAnisetteData *_anisetteData;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -22,21 +22,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) AKAnisetteData *anisetteData; // @synthesize anisetteData=_anisetteData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *messageName;
-@property(readonly, nonatomic) NSDictionary *messagePayload;
-@property(readonly) Class superclass;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CNContactsAPIServiceAuthorizationCheck
+- (_Bool);
 @end
 

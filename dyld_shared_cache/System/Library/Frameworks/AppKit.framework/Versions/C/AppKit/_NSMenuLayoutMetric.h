@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface _NSMenuLayoutMetric
 {
     long long menuIndex;
-    double floatValue;
 }
 
-- (void);
+- (void)cate string buffer;
 - (long long);
 - (id);
-- (double)fNecessary;
+- (double)_stopObservingWindowOverlaidSidebarIfNecessary;
 - (void)0;
 
 // Remaining properties
-@property(nonatomic) double floatValue; // @synthesize floatValue;
 @property(nonatomic) long long menuIndex; // @synthesize menuIndex;
 
 @end

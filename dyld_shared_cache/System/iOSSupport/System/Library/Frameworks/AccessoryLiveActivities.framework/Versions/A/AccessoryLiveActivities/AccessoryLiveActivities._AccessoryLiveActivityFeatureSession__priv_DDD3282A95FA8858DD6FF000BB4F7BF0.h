@@ -8,12 +8,6 @@
 {
     id capabilitySession;
     id _client;
-    id _calloutQueue_handler;
-    id _apiSession;
-    id _logger;
-    id _logIdentifier;
-    id _queue;
-    id _queue_connection;
 }
 
 @end

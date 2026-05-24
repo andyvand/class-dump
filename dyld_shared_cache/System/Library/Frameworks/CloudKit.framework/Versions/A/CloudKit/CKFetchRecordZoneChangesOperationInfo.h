@@ -6,23 +6,15 @@
 
 #import <CloudKit/CKDatabaseOperationInfo.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CKFetchRecordZoneChangesOperationInfo : CKDatabaseOperationInfo
 {
     _Bool _shouldFetchAssetContents;
-    _Bool _fetchAllChanges;
-    _Bool _forcePCSDecryptionAttempt;
-    NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByRecordZoneID;
-    long long _changeTypes;
-    NSDictionary *_assetTransferOptionsByRecordTypeAndKey;
-    NSDictionary *_supplementalChangeTokenByZoneID;
-    long long _errorReportingStyle;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -38,22 +30,14 @@
 - (void)ÑG1Ð1Â0@ù
 × ;
 - (_Bool);
-- (id)InRange:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)enumerateRangesInRange:options:usingBlock: /* Error: Ran out of types for this method. */;
 - (id)shouldFetchAssetContent;
 - (id);
 - (void)PëíÀíð¬ñû¼üôý;
-- (long long)Lived;
+- (long long)IsLongLived;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByRecordTypeAndKey; // @synthesize assetTransferOptionsByRecordTypeAndKey=_assetTransferOptionsByRecordTypeAndKey;
-@property(nonatomic) long long changeTypes; // @synthesize changeTypes=_changeTypes;
-@property(retain, nonatomic) NSDictionary *configurationsByRecordZoneID; // @synthesize configurationsByRecordZoneID=_configurationsByRecordZoneID;
-@property(nonatomic) long long errorReportingStyle; // @synthesize errorReportingStyle=_errorReportingStyle;
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
-@property(nonatomic) _Bool forcePCSDecryptionAttempt; // @synthesize forcePCSDecryptionAttempt=_forcePCSDecryptionAttempt;
 @property(retain, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
-@property(nonatomic) _Bool shouldFetchAssetContents; // @synthesize shouldFetchAssetContents=_shouldFetchAssetContents;
-@property(retain, nonatomic) NSDictionary *supplementalChangeTokenByZoneID; // @synthesize supplementalChangeTokenByZoneID=_supplementalChangeTokenByZoneID;
 
 @end
 

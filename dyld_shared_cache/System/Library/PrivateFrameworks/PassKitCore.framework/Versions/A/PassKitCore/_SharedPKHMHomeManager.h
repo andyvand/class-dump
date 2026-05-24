@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeManager, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class HMHomeManager;
 
 @interface _SharedPKHMHomeManager
 {
     HMHomeManager *_manager;
-    struct os_unfair_lock_s _lock;
-    NSMutableArray *_fetchCompletions;
-    unsigned long long _referenceCount;
-    _Bool _didLoadData;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    NSObject<OS_dispatch_source> *_fetchTimeout;
 }
 
 + (id)Wª;
@@ -24,17 +17,11 @@
 - (void);
 - (void);
 - (void);
-- (void)Session;
-- (void)ILY_TITLE;
+- (void)_startFieldDetectSession;
+- (void)PREDEFINED_SHARE_FAMILY_TITLE;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

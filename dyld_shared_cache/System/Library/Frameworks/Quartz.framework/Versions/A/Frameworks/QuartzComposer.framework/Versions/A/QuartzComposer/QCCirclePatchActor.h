@@ -11,12 +11,12 @@
 }
 
 - (struct CGPoint);
-- (CDStruct_bdcb2b0d *);
+- (CDStruct_60067b7e *);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);

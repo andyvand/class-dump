@@ -5,5 +5,8 @@
 //
 
 @protocol TransactionCacheService
+- (void);
+- (void);
+- (void)DDE;
 @end
 

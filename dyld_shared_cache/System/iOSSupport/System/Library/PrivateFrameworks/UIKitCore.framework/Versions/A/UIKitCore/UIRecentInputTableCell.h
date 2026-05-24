@@ -6,41 +6,38 @@
 
 #import <UIKitCore/UITableViewCell.h>
 
-@class CALayer, UILabel, UILexiconEntry, UITextInputTraits, _UIFloatingContentView;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface UIRecentInputTableCell : UITableViewCell
 {
     UILabel *_floatingLabel;
-    long long _blurEffectStyle;
-    UITextInputTraits *_textInputTraits;
-    CALayer *_secureLabelImageLayer;
-    UILexiconEntry *_entry;
 }
 
++ (id)d fetch from sync controller with %ld batches to fetch;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
+- (void)IMDInvocationForwarder;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)ageStore cannot store message %@ to chat %@;
+- (id)hat:%@
+ /* Error: Ran out of types for this method. */;
+- (_Bool)alytics-min-version;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)D:withEAPClientConfiguration:withDisplayedOperatorName:withDomainName:withRoamingConsortiumOIs:withServiceProviderRoamingEnabled:withIsHotspot:withHESSID:withNAIRealmNames:withMCCAndMNCs:withCaptiveBypass:withQoSMarkingPolicy:withInterface:withSetupModes:withPriority:withEnableIPv6:withTLSCertificateRequired:withProxyServer:withProxyServerPort:withProxyUsername:withProxyPassword:withProxyPACURL:withProxyPACFallbackAllowed: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
-- (long long);
+- (long long);
 - (void)Q`1Â0@ù
 × ;
 - (void)P¬À¬;
@@ -50,11 +47,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long blurEffectStyle; // @synthesize blurEffectStyle=_blurEffectStyle;
-@property(retain, nonatomic) UILexiconEntry *entry; // @synthesize entry=_entry;
-@property(readonly, nonatomic) _UIFloatingContentView *floatingContentView;
-@property(retain, nonatomic) UILabel *floatingLabel; // @synthesize floatingLabel=_floatingLabel;
-@property(retain, nonatomic) CALayer *secureLabelImageLayer; // @synthesize secureLabelImageLayer=_secureLabelImageLayer;
-@property(retain, nonatomic) UITextInputTraits *textInputTraits; // @synthesize textInputTraits=_textInputTraits;
 
 @end
 

@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, NSUUID;
+@class NSData, NSNumber, NSString;
 
 @protocol HMDSettingModelProtocol
-- (NSString *)gStore;
-- (void)hirdPartyMediaAccessories;
+- (NSNumber *)(}S;
+- (NSString *)backingStore;
+- (void)_numThirdPartyMediaAccessories;
 - (void)Capabilities>",R,N;
 - (void)pairing identity :(NSString *)arg1 %@ of accessory:%@ /* Error: Ran out of types for this method. */;
 - (NSData *)l;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *dataValue;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSNumber *numberValue;
-@property(copy, nonatomic) NSNumber *properties;
-@property(copy, nonatomic) NSUUID *selectionIdentifier;
-@property(copy, nonatomic) NSString *selectionValue;
-@property(copy, nonatomic) NSString *stringValue;
 @property(copy, nonatomic) NSNumber *type;
 @end
 

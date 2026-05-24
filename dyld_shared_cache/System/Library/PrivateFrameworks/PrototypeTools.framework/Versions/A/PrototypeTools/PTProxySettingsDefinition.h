@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PTModule, PTSettingsClassStructure;
+@class PTSettingsClassStructure;
 
 @interface PTProxySettingsDefinition
 {
     PTSettingsClassStructure *_structure;
-    NSDictionary *_childDefinitions;
-    NSDictionary *_defaultValueArchive;
-    PTModule *_module;
 }
 
 + (id);
@@ -25,17 +22,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)kCBInitOptionReceiveApplicationActivityEvents;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)aiting for face gaze cropCreationGroup for face observations:(id)arg1 %@. currentDetector:%@; group:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)e record without node;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *childDefinitions; // @synthesize childDefinitions=_childDefinitions;
-@property(retain, nonatomic) NSDictionary *defaultValueArchive; // @synthesize defaultValueArchive=_defaultValueArchive;
-@property(retain, nonatomic) PTModule *module; // @synthesize module=_module;
 @property(retain, nonatomic) PTSettingsClassStructure *structure; // @synthesize structure=_structure;
 
 @end

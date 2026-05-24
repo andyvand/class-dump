@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 @interface PXPhotosFileProviderRegisterConfiguration
 {
     long long usage;
-    long long userEncodingPolicy;
-    long long clientEncodingPolicy;
-    _Bool shouldIncludeLocation;
-    _Bool shouldIncludeCaption;
-    NSNumber *downscalingTargetDimension;
-    _Bool isLiveWallpaperSelection;
-    _Bool isSpatialWallpaperSelection;
-    id livePhotoContentType;
-    id autoLoopAsGIFContentType;
-    id liveWallpaperContentType;
-    id spatialWallpaperContentType;
-    id thumbnailLowContentType;
-    id thumbnailStandardContentType;
-    id mailMovieExportContentType;
 }
 
 + (id);
@@ -32,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -52,14 +36,7 @@
 - (void)½5SZ¯: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long clientEncodingPolicy; // @synthesize clientEncodingPolicy;
-@property(nonatomic, retain) NSNumber *downscalingTargetDimension; // @synthesize downscalingTargetDimension;
-@property(nonatomic) _Bool isLiveWallpaperSelection; // @synthesize isLiveWallpaperSelection;
-@property(nonatomic) _Bool isSpatialWallpaperSelection; // @synthesize isSpatialWallpaperSelection;
-@property(nonatomic) _Bool shouldIncludeCaption; // @synthesize shouldIncludeCaption;
-@property(nonatomic) _Bool shouldIncludeLocation; // @synthesize shouldIncludeLocation;
 @property(nonatomic, readonly) long long usage; // @synthesize usage;
-@property(nonatomic) long long userEncodingPolicy; // @synthesize userEncodingPolicy;
 
 @end
 

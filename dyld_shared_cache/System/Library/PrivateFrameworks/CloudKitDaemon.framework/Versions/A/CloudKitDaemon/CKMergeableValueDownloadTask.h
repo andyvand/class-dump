@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMergeableRecordValue, CKMergeableValueID, CKRecord, NSString;
+@class CKRecord;
 
 @interface CKMergeableValueDownloadTask
 {
     CKRecord *_record;
-    NSString *_key;
-    CKMergeableValueID *_mergeableValueID;
-    CKMergeableRecordValue *_recordValue;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)A;
+- (id)lable;
 - (void);
 - (CDUnknownBlockType)ProtectionInfoKeysToRemove";
-- (void)FieldNamesToPublishURLs;
+- (void)assetFieldNamesToPublishURLs;
 - (void)¸;
-- (void)esAsChildOperation;
+- (void)UpdateCapabilitiesAsChildOperation;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) CKMergeableValueID *mergeableValueID; // @synthesize mergeableValueID=_mergeableValueID;
 @property(retain, nonatomic) CKRecord *record; // @synthesize record=_record;
-@property(retain, nonatomic) CKMergeableRecordValue *recordValue; // @synthesize recordValue=_recordValue;
 
 @end
 

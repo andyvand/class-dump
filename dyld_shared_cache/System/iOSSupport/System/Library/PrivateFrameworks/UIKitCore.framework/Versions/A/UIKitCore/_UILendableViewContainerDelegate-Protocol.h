@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView, _UILendableViewContainer;
+
 @protocol _UILendableViewContainerDelegate
+- (void);
+- (void)ion that supports UIScene lifecycle (enabled:(_UILendableViewContainer *)arg1 %{BOOL}u | category:(UIView *)arg2 %{public}@ | volumeDisplays:%{public}@) /* Error: Ran out of types for this method. */;
 @end
 

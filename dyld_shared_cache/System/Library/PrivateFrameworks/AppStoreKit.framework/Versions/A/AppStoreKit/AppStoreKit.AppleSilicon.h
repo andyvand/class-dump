@@ -7,18 +7,15 @@
 @interface AppStoreKit.AppleSilicon
 {
     _Bool isSupportEnabled;
-    id isRosettaAvailableBox;
-    id rosettaAvailabilityConditionLock;
 }
 
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)o;
+- (_Bool);
+- (id)`B;
 - (void)¥YyxGSgXwz_ËY_EYRzFYRzGYRzHYRz!5Ò	RzlXX;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isRosettaAvailable;
 @property(nonatomic) _Bool isSupportEnabled; // @synthesize isSupportEnabled;
 
 @end

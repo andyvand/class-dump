@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, VCImageAttributeRules;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SDPMediaLine
 {
     NSMutableArray *_attributes;
-    VCImageAttributeRules *_imageAttributeRules;
-    NSMutableArray *_payloads;
-    unsigned int _rtpId;
-    int _rtcpPort;
-    int _rtpPort;
-    _Bool _allowRTCPFB;
 }
 
 + (void);
-+ (void);
++ (void)R;
 + (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)A;
 - (void);
 - (unsigned int);
 - (int);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -46,19 +40,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)fi[10f]ffffffffffffffffffffffffff}{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}{_HLGTMParam=f{_HDR10TMParam=Bffffffffffffffffffff{_TMCurveParam=i(?={_splCurveParam=S[6f][6f][6f][5[4f]][5[4f]][2[2f]]}{_ebzCurveParam=S[6f][6f][6f][5S][5[14f]][6f][5[15f]][5[15f]][5[15f]]}{_doviCurveParam=ffff}{_hdr10PlusProfileBCurveParam=ffi[10f]ffif{_doviCurveParam=ffff}})}ffffifffff}BffffBB{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_DoViTMParam=Bfffffffffffffffffffffffffffffffffif{_SceneLuxAdaptationParam=ifffffffS[9f][9f][9f]f}}{_EdrAdaptationData=ifffffffffffffffffffffffffffffffffffffffffBffffIfffffffffffffffffBBfffffBBBBffffffffffffffffffffIf[4f][4f]IIfff}{_EdrAdaptationParam=BS[4f][4f][4f]BB[3[4f]][3[4f]][2[2f]]Bfffffffffffffff}{_AmbAdaptationData=iffffffffBf}{_AmbAdaptationParam=BS[3f][3f][3f]ffB[2[4f]][2[4f]][2[2f]]f}{_DpcData=ifffBff}{_GcpcData=Bf}i{?=I[3I]IC[9C][9I]BSSC[9S]}BBBfB}56;
 - (id);
 - (id)êü';
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowRTCPFB; // @synthesize allowRTCPFB=_allowRTCPFB;
-@property(readonly, nonatomic) NSArray *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) VCImageAttributeRules *imageAttributeRules; // @synthesize imageAttributeRules=_imageAttributeRules;
-@property(readonly, nonatomic) NSArray *payloads; // @synthesize payloads=_payloads;
-@property(readonly, nonatomic) int rtcpPort; // @synthesize rtcpPort=_rtcpPort;
 @property(nonatomic) unsigned int rtpId; // @synthesize rtpId=_rtpId;
-@property(readonly, nonatomic) int rtpPort; // @synthesize rtpPort=_rtpPort;
-@property(readonly, nonatomic) NSString *string;
 
 @end
 

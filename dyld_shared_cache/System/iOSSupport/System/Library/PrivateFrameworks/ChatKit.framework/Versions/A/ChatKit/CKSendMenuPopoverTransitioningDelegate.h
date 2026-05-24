@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSendMenuPopoverPresentationConfiguration, CKSendMenuPopoverPresentationController, NSString;
+@class CKSendMenuPopoverPresentationController;
 
 __attribute__((visibility("hidden")))
 @interface CKSendMenuPopoverTransitioningDelegate
 {
     CKSendMenuPopoverPresentationController *_presentationController;
-    CKSendMenuPopoverPresentationConfiguration *_configuration;
 }
 
 - (void);
@@ -24,15 +23,7 @@ __attribute__((visibility("hidden")))
 - (void)Àà#ÿma;
 
 // Remaining properties
-@property(retain, nonatomic) CKSendMenuPopoverPresentationConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CKSendMenuPopoverPresentationController *presentationController; // @synthesize presentationController=_presentationController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,79 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray, NSObject;
-@protocol NSBarLayoutDelegate, NSBarLayoutWrapper;
+@class NSObject;
+@protocol NSBarLayoutDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSBarLayout
 {
     long long _accessoryUserInterfaceLayoutDirection;
-    long long _itemUserInterfaceLayoutDirection;
-    NSArray *_items;
-    NSMutableArray *_contentItems;
-    NSMutableArray *_accessoryItems;
-    NSObject<NSBarLayoutDelegate> *_delegate;
-    NSObject<NSBarLayoutWrapper> *_collapsedItem;
-    NSObject<NSBarLayoutWrapper> *_overlayItem;
-    NSObject<NSBarLayoutWrapper> *_clipIndicator;
-    NSObject<NSBarLayoutWrapper> *_searchItem;
-    NSMapTable *_itemsToAttributes;
-    _Bool _layoutItemsNeedsUpdate;
-    _Bool _enforcesUniformHeight;
-    _Bool _centerIsPrincipal;
-    _Bool _allowsSingleItemClipping;
-    _Bool _overflowPreventsReflow;
-    _Bool _centerRequiresTrueCenterLayout;
-    _Bool _overlayRequiresTrueCenterLayout;
-    _Bool _overflowRequired;
-    double _defaultItemPadding;
-    double _standardCenterWidth;
-    struct CGRect _layoutRect;
 }
 
-- (id);
-- (double);
+- (id);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (struct CGSize);
+- (void):(_Bool)arg1 8^{__CFDictionary=}16^{__CFDictionary=}24;
+- (void)shared_weak_count}};
+- (void)_ptr_"^{TransportConnectionObjCPP}"__cntrl_"^{__shared_weak_count}};
+- (void)_ptr<TransportConnectionObjCPP>="__ptr_"^{TransportConnectionObjCPP}"__cntrl_"^{__shared_weak_count}};
+- (void)"16@"NSURLSessionDataTask"24@"NSURLSessionDownloadTask"32;
+- (void)uploadFile;
+- (_Bool)Handler: /* Error: Ran out of types for this method. */;
+- (_Bool)URLSession:task:getAppleIDRequestOrHeadersForResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct CGSize)__NSCFBackgroundAVAggregateAssetDownloadTaskNoChildTask;
 - (struct CGRect);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)pSSOProtocol %p returns response %@ data %@ error %@;
 - (double);
 - (_Bool);
-- (_Bool);
-- (long long);
-- (double);
-- (id);
-- (id);
-- (void);
-- (double);
+- (_Bool)_preventsAppSSO;
+- (long long)CFNETWORK_HAR_LOGGING;
+- (double)setProperty_offqueue;
+- (id)NAME<CFNACOAuthSigner>:(id)arg1:(struct CGRect)arg2 GET() [OBJTYPE = CFNACOAuthSigner];
+- (id)ue="%@";
+- (void)SXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
+- (double)LSessionLocal _cfurlRequest:(id)arg1 isCacheEquivalentTo:(_Bool)arg2 ];
 - (void);
 - (id);
 - (id);
 - (struct CGRect);
 - (id);
-- (id);
+- (id);
 - (double);
+- (double);
 - (double);
-- (double);
-- (double);
-- (void);
+- (double);
+- (void)@;
 - (_Bool);
 - (void);
 - (double);
@@ -87,35 +66,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double);
+- (double);
 - (_Bool);
 - (void);
 - (struct CGSize);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id)qå3ð1Â0@ù
 × ;
-- (void)ouseMoved;
+- (void)customMenuItemViewMouseMoved;
 - (void)ÐbÿÍØÊC;
 
 // Remaining properties
-@property long long accessoryUserInterfaceLayoutDirection; // @synthesize accessoryUserInterfaceLayoutDirection=_accessoryUserInterfaceLayoutDirection;
-@property _Bool allowsSingleItemClipping; // @synthesize allowsSingleItemClipping=_allowsSingleItemClipping;
-@property(getter=isCenterPrincipal) _Bool centerIsPrincipal; // @synthesize centerIsPrincipal=_centerIsPrincipal;
-@property _Bool centerRequiresTrueCenterLayout; // @synthesize centerRequiresTrueCenterLayout=_centerRequiresTrueCenterLayout;
-@property double defaultItemPadding; // @synthesize defaultItemPadding=_defaultItemPadding;
 @property __weak NSObject<NSBarLayoutDelegate> *delegate; // @synthesize delegate=_delegate;
-@property _Bool enforcesUniformHeight; // @synthesize enforcesUniformHeight=_enforcesUniformHeight;
-@property long long itemUserInterfaceLayoutDirection; // @synthesize itemUserInterfaceLayoutDirection=_itemUserInterfaceLayoutDirection;
-@property(copy) NSArray *items;
-@property struct CGRect layoutRect; // @synthesize layoutRect=_layoutRect;
-@property(readonly) struct CGSize maximumContentSize;
-@property(readonly) struct CGSize minimumContentSize;
-@property _Bool overflowPreventsReflow; // @synthesize overflowPreventsReflow=_overflowPreventsReflow;
-@property _Bool overflowRequired; // @synthesize overflowRequired=_overflowRequired;
-@property _Bool overlayRequiresTrueCenterLayout; // @synthesize overlayRequiresTrueCenterLayout=_overlayRequiresTrueCenterLayout;
-@property double standardCenterWidth; // @synthesize standardCenterWidth=_standardCenterWidth;
 
 @end
 

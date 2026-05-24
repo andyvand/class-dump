@@ -4,40 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSOperationQueue, NSString, NSURL, WCQueueManager, WCSessionUserInfoTransfer;
-@protocol WCSessionDelegate;
-
 @interface WCSession
 {
     _Bool _reachableForced;
-    _Bool _hasContentPending;
-    _Bool _paired;
-    _Bool _watchAppInstalled;
-    _Bool _complicationEnabled;
-    _Bool _companionAppInstalled;
-    _Bool _reachable;
-    _Bool _iOSDeviceNeedsUnlockAfterRebootForReachability;
-    _Bool _hasCompletedInitialActivation;
-    _Bool _connectionWasInterrupted;
-    _Bool _delegateSupportsAsyncActivate;
-    _Bool _delegateSupportsActiveDeviceSwitch;
-    id <WCSessionDelegate> _delegate;
-    long long _activationState;
-    unsigned long long _remainingComplicationUserInfoTransfers;
-    NSURL *_watchDirectoryURL;
-    NSDictionary *_applicationContext;
-    NSDictionary *_receivedApplicationContext;
-    NSOperationQueue *_delegateOperationQueue;
-    NSOperationQueue *_backgroundWorkOperationQueue;
-    NSOperationQueue *_workOperationQueue;
-    NSMutableDictionary *_currentMessages;
-    NSMutableSet *_currentMessageIdentifiersAwaitingReply;
-    NSMutableDictionary *_internalOutstandingUserInfoTransfers;
-    NSMutableDictionary *_internalOutstandingFileTransfers;
-    WCSessionUserInfoTransfer *_currentComplicationUserInfoTransfer;
-    WCQueueManager *_queueManager;
-    NSString *_pairingID;
-    NSMutableArray *_switchTasksQueue;
 }
 
 + (id);
@@ -50,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`B;
 - (_Bool);
 - (void);
 - (void);
@@ -70,7 +39,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -103,11 +72,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -134,8 +103,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -161,10 +130,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)K;
 - (id);
 - (unsigned long long);
 - (id);
@@ -176,51 +145,15 @@
 - (id);
 - (long long);
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)Q;
 - (void)encodeObject:(_Bool)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (_Bool)ResultIndexWithIdentifier:clientPairingID:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool)r:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long activationState; // @synthesize activationState=_activationState;
-@property(copy, nonatomic) NSDictionary *applicationContext; // @synthesize applicationContext=_applicationContext;
-@property(readonly) NSOperationQueue *backgroundWorkOperationQueue; // @synthesize backgroundWorkOperationQueue=_backgroundWorkOperationQueue;
-@property(nonatomic, getter=isCompanionAppInstalled) _Bool companionAppInstalled; // @synthesize companionAppInstalled=_companionAppInstalled;
-@property(nonatomic, getter=isComplicationEnabled) _Bool complicationEnabled; // @synthesize complicationEnabled=_complicationEnabled;
-@property(nonatomic) _Bool connectionWasInterrupted; // @synthesize connectionWasInterrupted=_connectionWasInterrupted;
-@property(retain) WCSessionUserInfoTransfer *currentComplicationUserInfoTransfer; // @synthesize currentComplicationUserInfoTransfer=_currentComplicationUserInfoTransfer;
-@property(retain) NSMutableSet *currentMessageIdentifiersAwaitingReply; // @synthesize currentMessageIdentifiersAwaitingReply=_currentMessageIdentifiersAwaitingReply;
-@property(readonly) NSMutableDictionary *currentMessages; // @synthesize currentMessages=_currentMessages;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WCSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSOperationQueue *delegateOperationQueue; // @synthesize delegateOperationQueue=_delegateOperationQueue;
-@property(nonatomic) _Bool delegateSupportsActiveDeviceSwitch; // @synthesize delegateSupportsActiveDeviceSwitch=_delegateSupportsActiveDeviceSwitch;
-@property(nonatomic) _Bool delegateSupportsAsyncActivate; // @synthesize delegateSupportsAsyncActivate=_delegateSupportsAsyncActivate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasCompletedInitialActivation; // @synthesize hasCompletedInitialActivation=_hasCompletedInitialActivation;
-@property(nonatomic) _Bool hasContentPending; // @synthesize hasContentPending=_hasContentPending;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool iOSDeviceNeedsUnlockAfterRebootForReachability; // @synthesize iOSDeviceNeedsUnlockAfterRebootForReachability=_iOSDeviceNeedsUnlockAfterRebootForReachability;
-@property(retain, nonatomic) NSMutableDictionary *internalOutstandingFileTransfers; // @synthesize internalOutstandingFileTransfers=_internalOutstandingFileTransfers;
-@property(retain, nonatomic) NSMutableDictionary *internalOutstandingUserInfoTransfers; // @synthesize internalOutstandingUserInfoTransfers=_internalOutstandingUserInfoTransfers;
-@property(readonly, copy, nonatomic) NSArray *outstandingFileTransfers;
-@property(readonly, copy, nonatomic) NSArray *outstandingUserInfoTransfers;
-@property(nonatomic, getter=isPaired) _Bool paired; // @synthesize paired=_paired;
-@property(copy, nonatomic) NSString *pairingID; // @synthesize pairingID=_pairingID;
-@property(retain) WCQueueManager *queueManager; // @synthesize queueManager=_queueManager;
-@property(nonatomic, getter=isReachable) _Bool reachable; // @synthesize reachable=_reachable;
-@property(copy, nonatomic) NSDictionary *receivedApplicationContext; // @synthesize receivedApplicationContext=_receivedApplicationContext;
-@property(nonatomic) unsigned long long remainingComplicationUserInfoTransfers; // @synthesize remainingComplicationUserInfoTransfers=_remainingComplicationUserInfoTransfers;
-@property(readonly) Class superclass;
-@property(retain) NSMutableArray *switchTasksQueue; // @synthesize switchTasksQueue=_switchTasksQueue;
-@property(nonatomic, getter=isWatchAppInstalled) _Bool watchAppInstalled; // @synthesize watchAppInstalled=_watchAppInstalled;
-@property(retain, nonatomic) NSURL *watchDirectoryURL; // @synthesize watchDirectoryURL=_watchDirectoryURL;
-@property(readonly) NSOperationQueue *workOperationQueue; // @synthesize workOperationQueue=_workOperationQueue;
 
 @end
 

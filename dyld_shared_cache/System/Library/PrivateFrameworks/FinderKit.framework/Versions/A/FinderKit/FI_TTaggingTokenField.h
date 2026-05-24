@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TTagSuggestionsWindowController, FI_TTaggingSuggestionsViewController, NSArray, NSSet, NSString;
+@class FI_TTaggingSuggestionsViewController, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTaggingTokenField
 {
     FI_TTaggingSuggestionsViewController *_suggestionsViewController;
-    FI_TTagSuggestionsWindowController *_suggestionsWindowController;
-    struct CGSize _minSize;
-    struct CGSize _maxSize;
-    _Bool _isInPopover;
-    _Bool _becomingFirstResponder;
-    _Bool _autoResizesVertically;
-    _Bool _inhibitSuggestions;
-    _Bool _ignoreTextChanged;
-    unsigned long long _completionLength;
-    _Bool _showSuggestionsTableInMenu;
-    _Bool _wasCancelled;
-    struct TString _nonEmptyTagsAddTagText;
-    TNSWeakPtr_db0eab6c _showSuggestionsWindowToken;
-    _Bool _isFirstResponder;
-    struct TKeyValueObserver _tfWindowFirstResponderObserver;
-    struct TNotificationCenterObserver _tfWindowDidBecomeKeyObserver;
-    struct TNotificationCenterObserver _tfWindowDidResignKeyObserver;
-    struct TNotificationCenterObserver _sWindowDidHideObserver;
-    struct TNSWeakPtr<FI_TTouchBar> _editTagsTouchBar;
-    struct TNSWeakPtr<FI_TCustomTouchBarItem> _touchBarAddTagsToolBarItem;
-    NSSet *_touchBarTagTokens;
-    struct vector<CGSize, std::allocator<CGSize>> _lastFourIntrinsicContentSizes;
-    _Bool tornDown;
-    _Bool _showsAddTagPlaceholder;
 }
 
 + (Class);
@@ -45,15 +21,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)(;
+- (void);
+- (_Bool)?;
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -66,23 +42,23 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)h;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)abled;
+- (void)__objc_stubs;
 - (_Bool);
+- (void)#;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)initWithPercentMessagesIndexed:(struct CGSize)arg1 percentMessageBodiesIndexed:percentUnindexedBodiesInFrecent:percentAttachmentsIndexed:totalMessageCount:indexedMessageCount:indexType: /* Error: Ran out of types for this method. */;
+- (void)l5;
 - (id);
 - (void);
 - (id);
@@ -91,7 +67,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)needsToDiscoverSettings;
 - (_Bool);
 - (_Bool);
 - (struct CGSize);
@@ -110,26 +86,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize)red_ptrI14TSetTagsActionEER13TFENodeVectorRU8__strongP7NSArrayRNS_6vectorIsNS_9allocatorIsEEEERNSC_ISA_NSD_ISA_EEEEEENS3_IT_EEDpOT0_E19MakeInstanceEnablerNSD_ISP_EEEE;
 
 // Remaining properties
-@property(nonatomic) _Bool autoResizesVertically; // @synthesize autoResizesVertically=_autoResizesVertically;
-@property(nonatomic) unsigned long long completionLength; // @synthesize completionLength=_completionLength;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreTextChanged; // @synthesize ignoreTextChanged=_ignoreTextChanged;
-@property(nonatomic, getter=isInPopover) _Bool inPopover; // @synthesize inPopover=_isInPopover;
-@property(nonatomic) _Bool inhibitSuggestions; // @synthesize inhibitSuggestions=_inhibitSuggestions;
-@property(nonatomic) struct CGSize maxSize; // @synthesize maxSize=_maxSize;
-@property(nonatomic) struct CGSize minSize; // @synthesize minSize=_minSize;
-@property(nonatomic) _Bool showSuggestionsTableInMenu; // @synthesize showSuggestionsTableInMenu=_showSuggestionsTableInMenu;
-@property(nonatomic) _Bool showsAddTagPlaceholder; // @synthesize showsAddTagPlaceholder=_showsAddTagPlaceholder;
-@property(readonly, nonatomic) FI_TTaggingSuggestionsViewController *suggestionsViewController;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSArray *tagAttributes;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown;
-@property(readonly, nonatomic) _Bool wasCancelled; // @synthesize wasCancelled=_wasCancelled;
 
 @end
 

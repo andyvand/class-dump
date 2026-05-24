@@ -7,9 +7,6 @@
 @interface Email.EMGenerativeModelsAvailability
 {
     long long feature;
-    id availability;
-    id availabilityState;
-    id availabilityNotification;
 }
 
 + (_Bool);

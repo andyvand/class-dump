@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKDatabase, CKRecordZone, NSObject, NSString, _KSRequestThrottle;
-@protocol OS_dispatch_queue, _KSCloudKitManagerDelegate;
+@class CKContainer, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _KSCloudKitManager
 {
     NSObject<OS_dispatch_queue> *_ckWorkQueue;
-    NSObject<OS_dispatch_queue> *_dataQueue;
-    _KSRequestThrottle *_accountChangeThrottle;
-    _KSRequestThrottle *_fetchZoneThrottle;
-    _Bool _recordZoneOperationInProgress;
-    _Bool _subscriptionOperationInProgress;
-    CKRecordZone *_recordZone;
-    id <_KSCloudKitManagerDelegate> _delegate;
-    CKContainer *_cloudKitContainer;
-    CKDatabase *_cloudKitDatabase;
-    CKDatabase *_publicDatabase;
-    NSString *_recordZoneKey;
-    NSString *_subscriptionKey;
-    NSString *_lastKnownUserKey;
 }
 
-+ (id);
-- (void);
++ (id)4;
+- (void)ner>",R,W,N,V_contactQuickActionViewContainer;
 - (void);
 - (void);
 - (void);
@@ -41,11 +28,11 @@
 - (id);
 - (void);
 - (void);
+- (id)X;
+- (id)tableView:selectionIndexesForProposedSelection: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)parser:(id)arg1 foundElementDeclarationWithName:model: /* Error: Ran out of types for this method. */;
+- (void)base64EncodedStringWithOptions: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -60,37 +47,28 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)T,U;
+- (id)dkMagenta;
+- (id)documentURL;
+- (id);
 - (void);
-- (id);
+- (id)]b;
 - (_Bool);
 - (void);
-- (void);
+- (void)a9	];
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)A;
 
 // Remaining properties
 @property(retain, nonatomic) CKContainer *cloudKitContainer; // @synthesize cloudKitContainer=_cloudKitContainer;
-@property(retain, nonatomic) CKDatabase *cloudKitDatabase; // @synthesize cloudKitDatabase=_cloudKitDatabase;
-@property(nonatomic) __weak id <_KSCloudKitManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSString *lastKnownUserKey; // @synthesize lastKnownUserKey=_lastKnownUserKey;
-@property(retain, nonatomic) CKDatabase *publicDatabase; // @synthesize publicDatabase=_publicDatabase;
-@property(retain, nonatomic) CKRecordZone *recordZone; // @synthesize recordZone=_recordZone;
-@property(readonly, nonatomic) NSString *recordZoneKey; // @synthesize recordZoneKey=_recordZoneKey;
-@property(nonatomic) _Bool recordZoneOperationInProgress; // @synthesize recordZoneOperationInProgress=_recordZoneOperationInProgress;
-@property(readonly, nonatomic) NSString *subscriptionKey; // @synthesize subscriptionKey=_subscriptionKey;
-@property(nonatomic) _Bool subscriptionOperationInProgress; // @synthesize subscriptionOperationInProgress=_subscriptionOperationInProgress;
 
 @end
 

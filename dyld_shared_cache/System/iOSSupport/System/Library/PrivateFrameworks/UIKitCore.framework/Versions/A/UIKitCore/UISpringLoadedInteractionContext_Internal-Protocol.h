@@ -7,6 +7,7 @@
 @class UIView;
 
 @protocol UISpringLoadedInteractionContext_Internal
+- (UIView *);
 
 // Remaining properties
 @property(retain, nonatomic) id overrideTargetItem;

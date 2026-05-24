@@ -6,29 +6,19 @@
 
 #import <UIKitCore/UICollectionViewCell.h>
 
-@class NSIndexPath, NSLayoutConstraint, NSString, UIButton, UILabel;
-@protocol UIDebuggingInformationHierarchyCellDelegate;
+@class NSString, UIButton;
 
 __attribute__((visibility("hidden")))
 @interface UIDebuggingInformationHierarchyCell : UICollectionViewCell
 {
     UIButton *_disclosureButton;
-    UILabel *_mainLabel;
-    UIButton *_infoButton;
-    NSIndexPath *_indexPath;
-    _Bool _collapsedBeneath;
-    NSLayoutConstraint *_disclosureButtonAvailableConstraint;
-    NSLayoutConstraint *_disclosureButtonUnavailableConstraint;
-    _Bool _disclosureIndicatorHidden;
-    NSString *_name;
-    id <UIDebuggingInformationHierarchyCellDelegate> _delegate;
 }
 
-- (void);
+- (void)@;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)y: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id)°!$@ù]°1Â0@ù
@@ -43,10 +33,6 @@ __attribute__((visibility("hidden")))
 - (void)8WÈÿ· ;
 
 // Remaining properties
-@property(nonatomic) __weak id <UIDebuggingInformationHierarchyCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool disclosureIndicatorHidden; // @synthesize disclosureIndicatorHidden=_disclosureIndicatorHidden;
-@property(readonly, nonatomic) NSIndexPath *indexPath;
-@property(readonly, nonatomic) UIButton *infoButton;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

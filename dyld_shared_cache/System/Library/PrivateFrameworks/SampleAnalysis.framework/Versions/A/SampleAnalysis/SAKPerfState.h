@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet, SATimestamp;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface SAKPerfState
 {
     NSMutableSet *_onCoreThreads;
-    SATimestamp *_timestampBeforeAnyTimeAdjustments;
-    NSMutableArray *_timestampAfterTimeAdjustments;
-    _Bool _petTimerMostRecentSampleWasDeadReckoned;
-    int _petTimerID;
-    struct ktrace_session *_session;
-    NSMutableDictionary *_taskRunawayMitigatedStateChanges;
-    NSMutableDictionary *_taskEffectiveJetsamPriority;
-    unsigned long long _petTimerPeriodMachAbs;
-    unsigned long long _petTimerNextExpectedSampleMachAbs;
-    unsigned long long _latestMachAbsTimeParsed;
-    SATimestamp *_mostRecentSampleTimestamp;
 }
 
 - (void);

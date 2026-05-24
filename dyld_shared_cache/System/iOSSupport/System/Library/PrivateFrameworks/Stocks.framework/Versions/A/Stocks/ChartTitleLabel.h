@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LabelSequenceView, Stock;
+@class LabelSequenceView;
 
 @interface ChartTitleLabel
 {
     LabelSequenceView *_leftView;
-    LabelSequenceView *_rightView;
-    double _width;
-    Stock *_stock;
-    Stock *_deferredStock;
 }
 
-- (void);
+- (void)m;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)"<_TtP19PrivateCloudCompute28TC2XPCTrustedRequestProtocol_>"@"NSData">;
+- (void)pآe;
 - (void);
 - (void);
 

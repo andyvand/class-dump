@@ -5,5 +5,6 @@
 //
 
 @protocol IDSXPCServerMessaging
+- (void)atchAction;
 @end
 

@@ -12,13 +12,12 @@
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)d some behavior here;
 - (void)þ(üÿ;
 - (id)7¤;
 
 // Remaining properties
 @property(nonatomic, readonly) SNFileServerInfo *serverInfo;
-@property(nonatomic, readonly) unsigned long long state;
 
 @end
 

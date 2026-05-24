@@ -7,13 +7,6 @@
 @interface PhotosGraph.ImportantEntitiesTuningMetrics
 {
     id algorithmName;
-    id parameterName;
-    id truePositives;
-    id falsePositives;
-    id trueNegatives;
-    id falseNegatives;
-    id precision;
-    id recall;
 }
 
 @end

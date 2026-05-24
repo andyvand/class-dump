@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol ABBookStateSaving
-- (void)sCollectionItemForMultiValue:index:delegate: /* Error: Ran out of types for this method. */;
+- (void)T@"<GEOTransitArtworkDataSource>",&,N,V_artworkValue;
+- (void)otherDatesCollectionItemForMultiValue:index:delegate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSString *autosaveName;
 @property(copy) NSString *identifier;
 @end
 

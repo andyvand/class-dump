@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)LibSer_ACMDeserializeSEPControlCode;
 
 @end
 

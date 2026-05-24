@@ -5,5 +5,8 @@
 //
 
 @protocol NSAdminPrefAuthenticator
+- (_Bool);
+- (void)g;
+- (void)n;
 @end
 

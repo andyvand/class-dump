@@ -7,8 +7,6 @@
 @interface TeaCharts.LineSeriesAccessibilityElementProvider
 {
     id interactor;
-    id seriesElements;
-    id currentZone;
 }
 
 @end

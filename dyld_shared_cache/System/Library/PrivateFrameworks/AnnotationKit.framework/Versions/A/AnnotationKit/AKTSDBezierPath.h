@@ -7,32 +7,10 @@
 @interface AKTSDBezierPath
 {
     long long sfr_elementCount;
-    long long sfr_elementMax;
-    struct PATHSEGMENT *sfr_head;
-    double *sfr_elementLength;
-    double sfr_totalLength;
-    long long sfr_lastSubpathIndex;
-    void *sfr_extraSegments;
-    double sfr_lineWidth;
-    struct CGRect sfr_controlPointBounds;
-    double sfr_miterLimit;
-    double sfr_flatness;
-    double *sfr_dashedLinePattern;
-    unsigned long long sfr_dashedLineCount;
-    double sfr_dashedLinePhase;
-    void *sfr_path;
-    long long sfr_extraSegmentCount;
-    long long sfr_extraSegmentMax;
-    struct {
-        unsigned int sfr_flags:8;
-        unsigned int sfr_pathState:2;
-        unsigned int sfr_calculatedLengths:1;
-        unsigned int sfr_unused:21;
-    } sfr_bpFlags;
 }
 
-+ (id);
-+ (id);
++ (id)nMSHH1;
++ (id)Tq,N,V_sessionSetupCloseMSHH1;
 + (unsigned long long);
 + (void);
 + (void);
@@ -49,12 +27,12 @@
 + (unsigned long long);
 + (unsigned long long);
 + (double);
-+ (unsigned long long);
++ (unsigned long long)C;
 + (double);
 + (double);
 + (unsigned long long);
 + (unsigned long long);
-+ (void);
++ (void)P;
 + (id);
 + (id);
 + (id);
@@ -73,7 +51,7 @@
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)p;
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGPoint);
@@ -93,22 +71,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (double);
-- (_Bool);
-- (_Bool);
+- (void)SNumber";
+- (double)ackingStoreRunning:(long long)arg1 numUsersSharedBackingStoreNotRunningDueToError:numUsersSharedBackingStoreNotRunningDueToStopped:numUsersSharedBackingStoreSharedZoneWaitingForShareInvitation: /* Error: Ran out of types for this method. */;
+- (double)tConfigured:(long long)arg1 numUsersSharedBackingStoreNotStarted:numUsersSharedBackingStoreRunning:numUsersSharedBackingStoreNotRunningDueToError:numUsersSharedBackingStoreNotRunningDueToStopped:numUsersSharedBackingStoreSharedZoneWaitingForShareInvitation: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithContext:UUID:zoneName:notificationCenter: /* Error: Ran out of types for this method. */;
+- (_Bool)dHosts:accessViolation:supportsWiFiReconfiguration:credentialType: /* Error: Ran out of types for this method. */;
+- (unsigned long long)dataWithBytesNoCopy:(long long)arg1 length:(struct CGPoint *)arg2 freeWhenDone: /* Error: Ran out of types for this method. */;
+- (void)_updateAssociatedServiceType:completionHandler: /* Error: Ran out of types for this method. */;
+- (double)_updateAssociatedServiceType:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_handleSnapshotDictionary:error:isMostRecent: /* Error: Ran out of types for this method. */;
+- (void)_groupRole;
 - (unsigned long long);
 - (void);
-- (double);
-- (void);
-- (void);
-- (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -153,14 +131,14 @@
 - (void);
 - (id);
 - (id);
-- (double);
+- (double)setDestinationRGBBlendFactor: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (struct CGRect);
-- (void);
+- (void)o;
 - (id);
-- (struct CGPoint);
+- (struct CGPoint)P;
 - (_Bool);
 - (double);
 - (void)á!@ù±1Â0@ù

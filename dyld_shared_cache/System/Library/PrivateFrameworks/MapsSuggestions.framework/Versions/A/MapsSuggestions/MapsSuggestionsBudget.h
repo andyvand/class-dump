@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol MapsSuggestionsBudgetDelegate;
+@class NSString;
 
 @interface MapsSuggestionsBudget
 {
     NSString *_name;
-    struct Queue _queue;
-    struct vector<MSg::_RollingWindowBudgetRule, std::allocator<MSg::_RollingWindowBudgetRule>> _rules;
-    NSMutableDictionary *_data;
-    id <MapsSuggestionsBudgetDelegate> _delegate;
 }
 
 - (_Bool);
@@ -28,19 +23,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)24@0:8^{_NSZone=}16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

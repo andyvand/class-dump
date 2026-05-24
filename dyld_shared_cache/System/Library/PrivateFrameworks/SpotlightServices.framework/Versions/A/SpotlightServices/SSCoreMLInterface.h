@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, MLModelAsset;
+@class MLModelAsset;
 
 @interface SSCoreMLInterface
 {
     MLModelAsset *asset;
-    MLModel *model;
 }
 
 - (id);
-- (id);
+- (id)e:(id)arg1 ];
 - (id);
 - (float);
 - (float);
 - (float);
 - (id);
-- (void)g;
-- (id)Dictionary:(id)arg1;
+- (void)directive_resultset_id_mapping;
+- (id)setValuesForKeysWithDictionary:(id)arg1;
 
 @end
 

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface NSSQLExpressionIntermediate : NSSQLIntermediate
 {
     NSExpression *_expression;
-    _Bool _allowToMany;
 }
 
 - (id);

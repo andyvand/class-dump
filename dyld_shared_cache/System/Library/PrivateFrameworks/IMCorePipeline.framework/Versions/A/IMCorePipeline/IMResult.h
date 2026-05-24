@@ -9,15 +9,13 @@
 @interface IMResult
 {
     long long _state;
-    NSError *_inError;
-    id _inValue;
 }
 
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)apabilities result of %@ from %@ to %@ because %@ user default is set;
+- (id)_setMediaOverlayIcon:(id)arg1;
+- (id)agerURLClass(void)_block_invoke;
 - (long long);
 - (id);
 - (id);
@@ -26,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error;
 @property(retain, nonatomic) NSError *inError; // @synthesize inError=_inError;
-@property(retain, nonatomic) id inValue; // @synthesize inValue=_inValue;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) id value;
 
 @end
 

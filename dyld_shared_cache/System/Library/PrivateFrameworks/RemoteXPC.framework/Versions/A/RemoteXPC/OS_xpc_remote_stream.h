@@ -9,7 +9,6 @@
 @interface OS_xpc_remote_stream
 {
     OS_xpc_remote_channel *channel;
-    OS_xpc_remote_stream *link_stqe_next;
 }
 
 - (void);

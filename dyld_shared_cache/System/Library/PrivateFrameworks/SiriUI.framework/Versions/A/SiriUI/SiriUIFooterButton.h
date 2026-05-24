@@ -13,9 +13,9 @@
 + (id);
 - (void);
 - (id);
-- (void);
-- (void)Height;
-- (void)bVisible:(unsigned long long)arg1;
+- (void)_circlePipelineState;
+- (void)headerHeight;
+- (void)forceOrbVisible:(unsigned long long)arg1;
 
 @end
 

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol PRErrorModeling;
 
 @interface PRErrorModel
@@ -14,7 +13,7 @@
 
 - (double);
 - (double);
-- (double);
+- (double);
 - (double);
 - (id);
 - (_Bool);
@@ -25,15 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) _Bool hasCustomReplacementErrorScores;
-@property(readonly) _Bool hasCustomTranspositionErrorScores;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

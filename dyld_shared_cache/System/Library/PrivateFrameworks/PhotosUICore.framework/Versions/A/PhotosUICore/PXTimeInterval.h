@@ -4,43 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface PXTimeInterval
 {
     long long _state;
-    double _beginTime;
-    double _endTime;
-    NSMutableDictionary *_tokenToTransitionHandler;
 }
 
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)˿;
 - (void);
 - (id);
 - (void);
 - (void);
-- (double);
+- (double)commitViewController:URL: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (void);
 - (long long);
-- (void);
+- (void)h;
 - (double)'°!ÈGùQ;°1Â0@ù
 × ;
 - (void)]ç±$ºÿ;
 - (void)ñÐ5;;
 
 // Remaining properties
-@property(nonatomic) double beginTime; // @synthesize beginTime=_beginTime;
-@property(readonly, nonatomic) double duration;
-@property(nonatomic) double endTime; // @synthesize endTime=_endTime;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) NSMutableDictionary *tokenToTransitionHandler; // @synthesize tokenToTransitionHandler=_tokenToTransitionHandler;
 
 @end
 

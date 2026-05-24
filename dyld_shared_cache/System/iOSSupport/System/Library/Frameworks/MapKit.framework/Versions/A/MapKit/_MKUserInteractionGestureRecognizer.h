@@ -11,17 +11,16 @@ __attribute__((visibility("hidden")))
 @interface _MKUserInteractionGestureRecognizer
 {
     NSMutableSet *_activeTouches;
-    id <_MKUserInteractionGestureRecognizerTouchObserver> _touchObserver;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)ion with NULL self.text.UTF8String, using empty string instead.;
+- (void)loadChatsWithGroupID:(id)arg1 reply:(id)arg2;
 - (id)°1Â0@ù
 × ;
 - (void)1Â0@ù
 × ;
-- (void)gon: /* Error: Ran out of types for this method. */;
+- (void)initWithMultiPolygon: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <_MKUserInteractionGestureRecognizerTouchObserver> touchObserver; // @synthesize touchObserver=_touchObserver;

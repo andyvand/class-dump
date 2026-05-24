@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FLWriteTransaction, NSDistributedNotificationCenter, NSMutableDictionary, NSObject;
-@protocol FLLoggingContext, OS_dispatch_source, OS_os_log;
+@class NSMutableDictionary;
 
 @interface FLLogger
 {
     _Bool _isHoldingWriteTransaction;
-    struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_dbConnections;
-    NSMutableDictionary *_persistentStores;
-    NSObject<FLLoggingContext> *_context;
-    NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_source> *_persistentStoreCacheTTLTimer;
-    NSDistributedNotificationCenter *_notificationCenter;
-    FLWriteTransaction *_writeTransaction;
-    unsigned long long _writeTransactionTTL;
-    NSObject<OS_dispatch_source> *_writeTransactionTTLTimer;
 }
 
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id): /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
@@ -89,7 +78,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)021D-0000-1000-8000-0026BB765291;
 - (id);
 - (void);
 - (id);
@@ -101,17 +90,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<FLLoggingContext> *context; // @synthesize context=_context;
 @property(retain, nonatomic) NSMutableDictionary *dbConnections; // @synthesize dbConnections=_dbConnections;
-@property(readonly, nonatomic) _Bool isHoldingWriteTransaction; // @synthesize isHoldingWriteTransaction=_isHoldingWriteTransaction;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) NSDistributedNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *persistentStoreCacheTTLTimer; // @synthesize persistentStoreCacheTTLTimer=_persistentStoreCacheTTLTimer;
-@property(retain, nonatomic) NSMutableDictionary *persistentStores; // @synthesize persistentStores=_persistentStores;
-@property(retain, nonatomic) FLWriteTransaction *writeTransaction; // @synthesize writeTransaction=_writeTransaction;
-@property(nonatomic) unsigned long long writeTransactionTTL; // @synthesize writeTransactionTTL=_writeTransactionTTL;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *writeTransactionTTLTimer; // @synthesize writeTransactionTTLTimer=_writeTransactionTTLTimer;
 
 @end
 

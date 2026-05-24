@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSRegistrationPhoneNumberReceivedSMS
 {
     unsigned long long _timestamp;
-    NSString *_guid;
-    unsigned int _smsRoundTripDuration;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int smsRoundTripDuration:1;
-    } _has;
 }
 
 - (void);
@@ -30,7 +22,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -40,12 +32,7 @@
 - (void)ºxnÅ	;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasSmsRoundTripDuration;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int smsRoundTripDuration; // @synthesize smsRoundTripDuration=_smsRoundTripDuration;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

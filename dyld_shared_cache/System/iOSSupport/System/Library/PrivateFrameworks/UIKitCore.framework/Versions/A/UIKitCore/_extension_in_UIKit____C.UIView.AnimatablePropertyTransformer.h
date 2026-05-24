@@ -7,17 +7,6 @@
 @interface (extension in UIKit):__C.UIView.AnimatablePropertyTransformer
 {
     id unsafe;
-    id presentationValueCallbackRan;
-    id runningProgresses;
-    id animationManager;
-    id assertionsChecked;
-    id modelValueChangedCallback;
-    id presentationValueChangedCallback;
-    id stabilizedCallback;
-    id presentationValueChangedWithoutAnimationCallback;
-    id clearsCapturedPropertiesOnStabilization;
-    id capturedProperties;
-    id executionMode;
 }
 
 - (id);

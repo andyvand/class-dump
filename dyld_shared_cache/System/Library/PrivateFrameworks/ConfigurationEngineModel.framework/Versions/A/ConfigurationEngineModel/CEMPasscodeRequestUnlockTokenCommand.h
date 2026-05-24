@@ -6,8 +6,6 @@
 
 #import <ConfigurationEngineModel/CEMCommandBase.h>
 
-@class NSString;
-
 @interface CEMPasscodeRequestUnlockTokenCommand : CEMCommandBase
 {
 }
@@ -20,17 +18,11 @@
 - (id);
 - (_Bool);
 - (int);
-- (_Bool);
-- (id);
+- (_Bool)txt|pmod|volm|pbas|slnc|char|nmbr|emph)\s*(?<arg>[a-zA-Z0-9-\--\.]*)\s*?\]{2};
+- (id)SDySo8NSStringCSo8NSNumberCG;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

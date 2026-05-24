@@ -7,14 +7,6 @@
 @interface AppAttestInternal.EligibilityManager
 {
     id $__lazy_storage_$_isSupportedHardware;
-    id $__lazy_storage_$_isSupportedSPIClient;
-    id auditToken;
-    id type;
-    id logger;
-    id $__lazy_storage_$_bundleRecordController;
-    id $__lazy_storage_$_securityController;
-    id $__lazy_storage_$_allowlistedDaemons;
-    id $__lazy_storage_$_allowlistedExtensions;
 }
 
 @end

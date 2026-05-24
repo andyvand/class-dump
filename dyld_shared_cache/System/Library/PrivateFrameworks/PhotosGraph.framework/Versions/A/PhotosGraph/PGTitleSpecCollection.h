@@ -14,11 +14,11 @@
 + (id);
 - (id);
 - (id);
+- (id)AXKReadAllOperations;
+- (id)AXFApplicationManagerDelegate;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void)aModelWithEnrichmentProcessors;
+- (void)EnrichDataModelWithEnrichmentProcessors;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *specPools; // @synthesize specPools=_specPools;

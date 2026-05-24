@@ -6,25 +6,19 @@
 
 #import <CallHistory/CallDBManager.h>
 
-@class CHProcessHandle, NSXPCConnection;
-@protocol CHDatabaseLocationProviderProtocol;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface CallDBManagerClient : CallDBManager
 {
     CDUnknownBlockType _metaInfoProvider;
-    CHProcessHandle *_currentProcessHandle;
-    id <CHDatabaseLocationProviderProtocol> _databaseLocationProvider;
-    NSXPCConnection *_helperConnection;
-    id _syncHelperReadyNotificationRef;
-    unsigned long long _interruptionRetryCount;
 }
 
-- (id);
-- (id);
+- (id)`;
+- (id)P;
 - (id);
 - (void);
-- (void);
+- (void)JA;
 - (void);
 - (id);
 - (_Bool);
@@ -40,20 +34,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)	@	;
+- (void)MM;
 - (id);
 - (void);
 - (id);
-- (void)aming;
+- (void)_usedEmergencyVideoStreaming;
 
 // Remaining properties
-@property(readonly, nonatomic) CHProcessHandle *currentProcessHandle; // @synthesize currentProcessHandle=_currentProcessHandle;
-@property(readonly, nonatomic) id <CHDatabaseLocationProviderProtocol> databaseLocationProvider; // @synthesize databaseLocationProvider=_databaseLocationProvider;
 @property(retain) NSXPCConnection *helperConnection; // @synthesize helperConnection=_helperConnection;
-@property unsigned long long interruptionRetryCount; // @synthesize interruptionRetryCount=_interruptionRetryCount;
-@property(readonly, nonatomic) CDUnknownBlockType metaInfoProvider; // @synthesize metaInfoProvider=_metaInfoProvider;
-@property(retain) id syncHelperReadyNotificationRef; // @synthesize syncHelperReadyNotificationRef=_syncHelperReadyNotificationRef;
 
 @end
 

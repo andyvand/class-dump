@@ -5,5 +5,6 @@
 //
 
 @protocol MKETAProviderDelegate
+- (int)MutableDictionary",&,V_eventFilterSaved;
 @end
 

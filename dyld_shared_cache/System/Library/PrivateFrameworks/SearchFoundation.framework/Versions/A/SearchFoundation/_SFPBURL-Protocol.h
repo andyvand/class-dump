@@ -7,9 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBURL
+- (void)rB;
+- (NSData *)otoLibraryPathManagerIdentifier",R,N,V_libraryID;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *address;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

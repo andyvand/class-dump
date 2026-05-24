@@ -8,10 +8,10 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void)foodAndDrinkObservations;
++ (void)floatValue;
++ (void)firstVideoTrackFullDebugDescription;
++ (void)adjustmentsPropertyListFileRequiresOverflowDataReassemblyAtURL:(id)arg1 predictedSize:(id)arg2;
 
 @end
 

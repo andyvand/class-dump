@@ -6,9 +6,6 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSString;
-@protocol MTLDevice;
-
 @interface MTLToolsRasterizationRateMap : MTLToolsObject
 {
 }
@@ -23,27 +20,13 @@
 - (CDStruct_b2fbf00d);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)?;
 - (id);
 - (CDStruct_14f26992);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *label;
-@property(readonly) unsigned long long layerCount;
-@property(readonly, nonatomic) float minFactor;
 @property(readonly, nonatomic) unsigned long long mutability;
-@property(readonly) CDStruct_4bcfbbae parameterBufferSizeAndAlign;
-@property(readonly) CDStruct_14f26992 physicalGranularity;
-@property(readonly) CDStruct_14f26992 screenSize;
-@property(readonly) Class superclass;
 
 @end
 

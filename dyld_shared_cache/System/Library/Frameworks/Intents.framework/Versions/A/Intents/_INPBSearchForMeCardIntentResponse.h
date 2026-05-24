@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContactCard;
+@class _INPBContactCard;
 
 @interface _INPBSearchForMeCardIntentResponse
 {
     struct _has;
-    _INPBContactCard *_meCard;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)h;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)mumValue;
+- (void)MinimumValue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasMeCard;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBContactCard *meCard; // @synthesize meCard=_meCard;
-@property(readonly) Class superclass;
 
 @end
 

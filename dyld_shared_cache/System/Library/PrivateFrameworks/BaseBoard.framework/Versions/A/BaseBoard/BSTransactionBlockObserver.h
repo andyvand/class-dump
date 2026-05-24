@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface BSTransactionBlockObserver
 {
     NSMutableArray *_willBeginBlocks;
-    NSMutableArray *_didBeginBlocks;
-    NSMutableArray *_didFinishWorkBlocks;
-    NSMutableArray *_didCompleteBlocks;
 }
 
 - (void);
@@ -22,16 +19,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

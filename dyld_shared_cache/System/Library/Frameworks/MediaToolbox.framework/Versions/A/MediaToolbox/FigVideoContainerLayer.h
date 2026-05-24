@@ -6,67 +6,46 @@
 
 #import <MediaToolbox/FigBaseCALayer.h>
 
-@class CALayer, NSString;
+@class CALayer;
 
 @interface FigVideoContainerLayer : FigBaseCALayer
 {
     CALayer *_videoLayer;
-    NSString *_STSLabel;
-    _Bool _shouldResizeVideoLayer;
-    _Bool _isForScrubbingOnly;
-    CALayer *_STSLayer;
-    struct OpaqueFigVideoReceiver *_videoReceiver;
-    struct OpaqueFigVideoTarget *_videoTarget;
-    struct OpaqueFigSimpleMutex *_videoTargetAndReceiverMutex;
-    CALayer *_UUIDLayer;
-    NSString *_preferredCADynamicRange;
-    struct OpaqueFigSimpleMutex *_HDRPreferDynamicRangeMutex;
-    struct OpaqueFigSimpleMutex *_configurationLock;
-    _Bool _readyForDisplay;
-    struct CGSize _presentationSize;
-    _Bool _createdForVideoReceiver;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)w;
 - (struct OpaqueFigVideoTarget *);
 - (void);
 - (void);
 - (id);
 - (struct OpaqueFigVideoReceiver *);
 - (_Bool);
-- (void);
+- (void)cs - %x;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)er:(_Bool)arg1 ]E3$_2;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)G;
 - (int);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void)<;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGSize)%g; staying at %g.;
 - (void)hain with decodeForPrerollRate %1.2f, mediaTime %1.3f;
-- (void);
+- (void)GOBR;
 - (_Bool)mode:[%s] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *STSLabel; // @synthesize STSLabel=_STSLabel;
-@property(nonatomic, getter=isForScrubbingOnly) _Bool forScrubbingOnly; // @synthesize forScrubbingOnly=_isForScrubbingOnly;
-@property(readonly, nonatomic) struct CGSize presentationSize; // @synthesize presentationSize=_presentationSize;
-@property(readonly, nonatomic, getter=isReadyForDisplay) _Bool readyForDisplay; // @synthesize readyForDisplay=_readyForDisplay;
-@property(readonly, nonatomic) _Bool requiresRebuild;
-@property(nonatomic) _Bool shouldResizeVideoLayer; // @synthesize shouldResizeVideoLayer=_shouldResizeVideoLayer;
-@property(retain, nonatomic) CALayer *videoLayer;
 @property(readonly, nonatomic) struct OpaqueFigVideoTarget *videoTarget;
 
 @end

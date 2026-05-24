@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSConversation, NSString, UIViewController;
-@protocol _MSMessageComposeExtensionImplProtocol, _MSMessageComposeHostImplProtocol;
+@protocol _MSMessageComposeHostImplProtocol;
 
 @interface _MSMessageAppBundleContext
 {
     _Bool _wantsLiveView;
-    _Bool _becomeActiveShouldDispatchAsyncMainQueue;
-    id <_MSMessageComposeExtensionImplProtocol> _containingContext;
-    UIViewController *_viewController;
-    MSConversation *_activeConversation;
-    unsigned long long _presentationStyle;
-    unsigned long long _presentationContext;
-    id <_MSMessageComposeHostImplProtocol> _hostContext;
 }
 
 - (void);
@@ -43,8 +35,9 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (CDStruct_6ad76789);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -84,48 +77,33 @@
 - (void);
 - (void);
 - (void);
+- (void)ing"24;
+- (void)nowPlayingPlaybackControlsDidTapPause:(id)arg1;
+- (void)intersectSet: /* Error: Ran out of types for this method. */;
+- (void)anfPageService;
 - (void);
+- (void)analyticsEndpointMaxPayloadSize;
+- (void)_marqueeEnabled;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)q,N,VchannelSubscriptionStatus;
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)momentShare.status == PHShareStatusAccepted;
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
+- (unsigned long long);
+- (id)works/ContactsAssistantServices.framework/Versions/A/ContactsAssistantServices;
+- (void)scoderSessionImpl21addCandidateErrorTypeERNS_6vectorINS2_20CTCSurfaceFormOutputENS_9allocatorIS5_EEEEE3$_0F26ITAutocorrectionOperationsRNS2_14KeyboardLayoutEEEE;
 - (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long);
-- (void);
+- (void)`;
 
 // Remaining properties
-@property(readonly, nonatomic) MSConversation *activeConversation; // @synthesize activeConversation=_activeConversation;
-@property(nonatomic) _Bool becomeActiveShouldDispatchAsyncMainQueue; // @synthesize becomeActiveShouldDispatchAsyncMainQueue=_becomeActiveShouldDispatchAsyncMainQueue;
-@property(retain, nonatomic) id <_MSMessageComposeExtensionImplProtocol> containingContext; // @synthesize containingContext=_containingContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <_MSMessageComposeHostImplProtocol> hostContext; // @synthesize hostContext=_hostContext;
-@property(nonatomic) unsigned long long presentationContext; // @synthesize presentationContext=_presentationContext;
-@property(nonatomic) unsigned long long presentationStyle; // @synthesize presentationStyle=_presentationStyle;
-@property(readonly, nonatomic) __weak UIViewController *stickerViewController;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

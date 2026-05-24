@@ -6,28 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface INFERENCESchemaINFERENCEContactResolverConfig : SISchemaInstrumentationMessage
 {
     _Bool _isSearchingFirstPartyContacts;
-    int _contactSearchSuggestedType;
-    int _domainsToSearchForHistory;
-    int _actionType;
-    NSArray *_appBundleIds;
-    struct {
-        unsigned int isSearchingFirstPartyContacts:1;
-        unsigned int contactSearchSuggestedType:1;
-        unsigned int domainsToSearchForHistory:1;
-        unsigned int actionType:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -56,22 +44,13 @@
 - (id);
 - (void);
 - (id);
-- (void)ctFreqForPhoneCall7Day:(int)arg1;
+- (void)setHasAppContactFreqForPhoneCall7Day:(int)arg1;
 - (id)AssistantDaemonAudioStartRecordingStarted",&,N,V_startedOrChanged;
-- (id)DMClientSetupEnded;
+- (id)NLXSchemaCDMClientSetupEnded;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int actionType; // @synthesize actionType=_actionType;
-@property(copy, nonatomic) NSArray *appBundleIds; // @synthesize appBundleIds=_appBundleIds;
-@property(nonatomic) int contactSearchSuggestedType; // @synthesize contactSearchSuggestedType=_contactSearchSuggestedType;
-@property(nonatomic) int domainsToSearchForHistory; // @synthesize domainsToSearchForHistory=_domainsToSearchForHistory;
-@property(nonatomic) _Bool hasActionType;
-@property(nonatomic) _Bool hasContactSearchSuggestedType;
-@property(nonatomic) _Bool hasDomainsToSearchForHistory;
-@property(nonatomic) _Bool hasIsSearchingFirstPartyContacts;
 @property(nonatomic) _Bool isSearchingFirstPartyContacts; // @synthesize isSearchingFirstPartyContacts=_isSearchingFirstPartyContacts;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

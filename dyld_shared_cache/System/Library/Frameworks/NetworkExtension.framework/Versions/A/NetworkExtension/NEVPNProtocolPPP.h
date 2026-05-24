@@ -6,44 +6,36 @@
 
 #import <NetworkExtension/NEVPNProtocol.h>
 
-@class NEIPv4Settings, NEIPv6Settings;
-
 @interface NEVPNProtocolPPP : NEVPNProtocol
 {
     _Bool _verboseLoggingEnabled;
-    long long _authenticationMethod;
-    NEIPv4Settings *_IPv4Settings;
-    NEIPv6Settings *_IPv6Settings;
 }
 
-+ (_Bool);
++ (_Bool)setUserDefinedTopLevelFields: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)`;
+- (void)(x;
 - (void);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)xpcBlockContainer;
+- (id)Z;
 - (void);
 - (id);
 - (id);
 - (void)0@ù
 × ;
-- (_Bool)stedServerCertificateReferences:(id)arg1;
-- (id)ionTextAutocorrectionType;
+- (_Bool)setTrustedServerCertificateReferences:(id)arg1;
+- (id)SBUserNotificationTextAutocorrectionType;
 
 // Remaining properties
-@property(copy) NEIPv4Settings *IPv4Settings; // @synthesize IPv4Settings=_IPv4Settings;
-@property(copy) NEIPv6Settings *IPv6Settings; // @synthesize IPv6Settings=_IPv6Settings;
 @property long long authenticationMethod; // @synthesize authenticationMethod=_authenticationMethod;
-@property _Bool verboseLoggingEnabled; // @synthesize verboseLoggingEnabled=_verboseLoggingEnabled;
 
 @end
 

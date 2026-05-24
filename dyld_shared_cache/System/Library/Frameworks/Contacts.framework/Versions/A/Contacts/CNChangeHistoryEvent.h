@@ -12,14 +12,14 @@
 
 + (unsigned long long);
 + (_Bool);
-- (long long);
+- (long long):(id)arg1;
 - (long long);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)GroupChatCreate;
 - (void);
-- (id);
+- (id)@;
 - (long long);
 
 // Remaining properties

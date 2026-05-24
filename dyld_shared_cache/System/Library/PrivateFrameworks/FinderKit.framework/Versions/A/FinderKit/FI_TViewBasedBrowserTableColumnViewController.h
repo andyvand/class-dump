@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TViewBasedBrowserTableColumnViewController : FI_TBrowserTableColumnViewController
 {
     NSLayoutGuide *_masterLayoutGuide;
-    struct TKeyValueObserver _masterLayoutGuideFrameDidChangeObserver;
 }
 
 - (void);
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (id);
 - (void);
 - (void);

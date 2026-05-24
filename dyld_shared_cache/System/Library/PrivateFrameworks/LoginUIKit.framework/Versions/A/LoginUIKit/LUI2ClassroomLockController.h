@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LUI2BackgroundViewController, LUI2ImageViewController, LUI2MultiWindowController, LUI2StatusViewController;
+@class LUI2MultiWindowController;
 
 @interface LUI2ClassroomLockController
 {
     LUI2MultiWindowController *_multiWindowController;
-    LUI2ImageViewController *_imageViewController;
-    LUI2StatusViewController *_statusViewController;
 }
 
+- (id)(;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) LUI2BackgroundViewController *backgroundViewController;
-@property(readonly) LUI2ImageViewController *imageViewController; // @synthesize imageViewController=_imageViewController;
 @property(readonly) LUI2MultiWindowController *multiWindowController; // @synthesize multiWindowController=_multiWindowController;
-@property(readonly) LUI2StatusViewController *statusViewController; // @synthesize statusViewController=_statusViewController;
 
 @end
 

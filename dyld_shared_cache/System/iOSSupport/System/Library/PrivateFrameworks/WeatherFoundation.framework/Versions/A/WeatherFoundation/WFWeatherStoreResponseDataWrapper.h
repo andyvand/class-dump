@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WFAQIScale, WFParsedForecastData;
-
 __attribute__((visibility("hidden")))
 @interface WFWeatherStoreResponseDataWrapper
 {
     unsigned long long _requestType;
-    WFParsedForecastData *_forecastData;
-    WFAQIScale *_aqiScale;
 }
 
 - (void);
@@ -21,12 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) WFAQIScale *aqiScale; // @synthesize aqiScale=_aqiScale;
-@property(retain, nonatomic) WFParsedForecastData *forecastData; // @synthesize forecastData=_forecastData;
 @property(nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
 
 @end

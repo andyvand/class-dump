@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsFavoritesBlueprintViewCellProvider
 {
     id delegate;
-    id feedItemRenderer;
 }
 
 @end

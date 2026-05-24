@@ -6,13 +6,10 @@
 
 #import <Vision/VNImageBasedRequestConfiguration.h>
 
-@protocol NSObject><NSCopying;
-
 __attribute__((visibility("hidden")))
 @interface VNCoreMLRequestConfiguration : VNImageBasedRequestConfiguration
 {
     unsigned long long _imageCropAndScaleOption;
-    id <NSObject><NSCopying> _modelCachingIdentifier;
 }
 
 - (void);
@@ -26,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long imageCropAndScaleOption; // @synthesize imageCropAndScaleOption=_imageCropAndScaleOption;
-@property(copy, nonatomic) id <NSObject><NSCopying> modelCachingIdentifier; // @synthesize modelCachingIdentifier=_modelCachingIdentifier;
 
 @end
 

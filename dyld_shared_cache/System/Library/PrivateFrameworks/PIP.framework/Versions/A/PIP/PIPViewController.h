@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSLayoutConstraint, NSString, NSViewController, NSWindow, PIPFenceHandle, PIPMutablePlaybackState, PIPPanel, PIPPlaybackState;
+@class PIPPlaybackState;
 @protocol PIPViewControllerDelegate;
 
 @interface PIPViewController
 {
     id <PIPViewControllerDelegate> _delegate;
-    id _replacementView;
-    id _customControlsViewController;
-    CDUnknownBlockType _dismissCompletion;
-    CDUnknownBlockType _presentCompletion;
-    long long _controlStyle;
-    PIPFenceHandle *_fence;
-    PIPMutablePlaybackState *_playbackState;
-    struct CGSize _aspectRatio;
-    struct CGSize _preferredMaximumSize;
-    struct CGSize _preferredMinimumSize;
-    PIPPanel *_panel;
-    CAContext *_context;
-    id _accessibilityElement;
-    NSLayoutConstraint *_heightConstraint;
-    NSLayoutConstraint *_widthConstraint;
-    NSWindow *_replacementWindow;
-    struct CGRect _replacementRect;
 }
 
 - (_Bool);
@@ -49,8 +32,8 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
-- (void);
+- (id)/;
+- (void)UsoEntityBuilderProtocol_common_Payment;
 - (void);
 - (void);
 - (void);
@@ -60,39 +43,40 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)f *);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)�;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)setApProfileWPSInfo: /* Error: Ran out of types for this method. */;
+- (id)inControlCenterAutoJoinDisabledDuration;
+- (struct CGSize)_dispatchGroup;
+- (struct CGSize)_disconnectReasonMap;
+- (void)FaultReasonSiriTimedOut Rejected _linkUp %d _didBecomePrimary %d
+;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)r"8;
+- (void);
+- (id)%@ (raw was %@);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)ZN11cnframework12ActiveObjectIN5raven25RavenSolutionActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_35ReceiverDifferentialCodeBiasesEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
-- (struct CGSize);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (struct CGSize);
 - (void);
@@ -103,27 +87,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id accessibilityElement; // @synthesize accessibilityElement=_accessibilityElement;
-@property(nonatomic) struct CGSize aspectRatio;
-@property(retain, nonatomic) CAContext *context; // @synthesize context=_context;
-@property(nonatomic) long long controlStyle;
-@property(nonatomic) __weak NSViewController *customControlsViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PIPViewControllerDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property(retain, nonatomic) PIPPanel *panel; // @synthesize panel=_panel;
 @property(copy, nonatomic, setter=_setPlaybackState:) PIPPlaybackState *playbackState;
-@property(nonatomic) struct CGSize preferredMaximumSize;
-@property(nonatomic) struct CGSize preferredMinimumSize;
-@property(nonatomic) struct CGRect replacementRect; // @synthesize replacementRect=_replacementRect;
-@property(nonatomic) __weak NSWindow *replacementWindow; // @synthesize replacementWindow=_replacementWindow;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSLayoutConstraint *widthConstraint; // @synthesize widthConstraint=_widthConstraint;
 
 @end
 

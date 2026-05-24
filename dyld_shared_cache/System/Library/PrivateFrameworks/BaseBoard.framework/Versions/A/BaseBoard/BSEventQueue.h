@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSEventQueueEvent, NSArray, NSHashTable, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSHashTable, NSString;
 
 @interface BSEventQueue
 {
     NSHashTable *_eventQueueLocks;
-    NSMutableArray *_eventQueue;
-    _Bool _processingEvents;
-    NSString *_name;
-    NSObject<OS_dispatch_queue> *_queue;
-    BSEventQueueEvent *_executingEvent;
 }
 
 - (id);
@@ -25,9 +19,9 @@
 - (void);
 - (id);
 - (_Bool);
+- (id))[;
 - (id);
-- (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);
@@ -50,19 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic) BSEventQueueEvent *executingEvent; // @synthesize executingEvent=_executingEvent;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isLocked) _Bool locked;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSArray *pendingEvents;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

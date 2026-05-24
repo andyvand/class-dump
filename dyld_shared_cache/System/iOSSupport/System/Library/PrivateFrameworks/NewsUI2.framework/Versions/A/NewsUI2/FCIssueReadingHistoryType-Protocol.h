@@ -7,14 +7,14 @@
 @class NSArray, NSDate, NSString;
 
 @protocol FCIssueReadingHistoryType
+- (void);
+- (_Bool)+;
+- (_Bool)MPRequestResponseControllerDelegate;
 - (NSArray *);
 - (NSDate *)åøÿ`Þûÿ;
-- (void)FeedScrollView;
+- (void)magazineFeedScrollView;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allEngagedIssueIDs;
 @property(readonly, nonatomic) NSString *mostRecentlyVisitedIssueID;
-@property(readonly, nonatomic) NSArray *recentlyEngagedIssueIDs;
-@property(readonly, nonatomic) NSArray *recentlyVisitedIssueIDs;
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol BookmarksTableCellViewDelegate
+
+@optional
+- (void);
 @end
 

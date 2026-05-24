@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setSize:(struct _NSZone *)arg1;
 
 @end
 

@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     unsigned int _outputPixelFormat;
 }
 
-- (void);
-- (unsigned int);
+- (void)ion;
+- (unsigned int)AIM;
 - (id);
 - (id)<|;
 

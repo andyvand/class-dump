@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
 @protocol CalDAVPrincipal;
 
 @protocol DACalDAVAccount
 
 // Remaining properties
 @property(readonly, nonatomic) id <CalDAVPrincipal> mainPrincipal;
-@property(retain, nonatomic) NSDictionary *subscribedCalendars;
 @end
 

@@ -4,53 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, NSArray, NSObject, NSString, PKBannerHandleRequest, PKBannerHandleServerState, PKBannerHandleState;
-@protocol BSServiceConnectionClient, OS_dispatch_group, OS_dispatch_queue, PKBannerHandleDelegate;
+@class PKBannerHandleRequest, PKBannerHandleState;
 
 @interface PKBannerHandle
 {
     PKBannerHandleRequest *_request;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_group> *_messageTracker;
-    NSObject<OS_dispatch_group> *_initialStateUpdateTracker;
-    _Atomic _Bool _invalidated;
-    _Bool _started;
-    _Bool _posted;
-    _Bool _detached;
-    _Bool _finished;
-    PKBannerHandleState *_state;
-    PKBannerHandleServerState *_serverState;
-    id <PKBannerHandleDelegate> _delegate;
-    CDUnknownBlockType _completion;
-    BSServiceConnection<BSServiceConnectionClient> *_connection;
-    NSArray *_attributes;
 }
 
 + (id);
 - (oneway void);
 - (void);
 - (oneway void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (id)mapTableWithKeyOptions:valueOptions: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool)e:subtitle:imageURL: /* Error: Ran out of types for this method. */;
-- (void);
+- (_Bool)initWithTitle:subtitle:imageURL: /* Error: Ran out of types for this method. */;
+- (void)SBIconVisibility;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
-@property(readonly) PKBannerHandleServerState *serverState;
 @property(retain) PKBannerHandleState *state;
-@property(readonly) Class superclass;
 
 @end
 

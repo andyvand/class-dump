@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MRTextInputMessageProtobuf
 {
     double _timestamp;
-    int _actionType;
-    NSString *_text;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int actionType:1;
-    } _has;
 }
 
 - (id);
@@ -24,30 +16,25 @@
 - (void);
 - (int);
 - (unsigned long long);
-- (double);
+- (double);
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)initWithRecordID:decryptionKey:sender:handles: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void),C,N,V_stoppedAlertBehavior;
+- (id)r;
 - (void);
 - (void);
 - (_Bool)"b1};
-- (void)rsion;
+- (void)buildVersion;
 
 // Remaining properties
-@property(nonatomic) int actionType; // @synthesize actionType=_actionType;
-@property(nonatomic) _Bool hasActionType;
-@property(readonly, nonatomic) _Bool hasText;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

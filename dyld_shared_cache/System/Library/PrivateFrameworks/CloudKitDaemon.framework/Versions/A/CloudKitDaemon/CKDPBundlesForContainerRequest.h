@@ -12,14 +12,14 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)dpointStreamCompletionCallback, void *);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (Class)baseScope: /* Error: Ran out of types for this method. */;
+- (Class)clearRecordCacheWithDatabaseScope: /* Error: Ran out of types for this method. */;
 
 @end
 

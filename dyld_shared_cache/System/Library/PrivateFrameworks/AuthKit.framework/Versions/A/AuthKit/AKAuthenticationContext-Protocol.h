@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKCompanionKeyEnvelope, AKDevice, NSDictionary, NSString;
+@class AKDevice, NSString;
 
 @protocol AKAuthenticationContext
+- (_Bool)*;
+- (unsigned long long)h ;
+- (void).apple.SpotlightUITests;
+- (NSString *)removeAllPendingNotificationRequestsForBundleIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
+- (void);
 - (AKDevice *)úÜ52[jÒ#÷hAä:´ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setProxiedAppName:) NSString *_proxiedAppName;
-@property(copy, nonatomic) NSString *appProvidedContext;
-@property(copy, nonatomic) NSDictionary *appProvidedData;
-@property(nonatomic) unsigned long long authenticationMode;
-@property(nonatomic) unsigned long long authenticationType;
-@property(copy, nonatomic) AKDevice *companionDevice;
-@property(retain, nonatomic) AKCompanionKeyEnvelope *companionKeyEnvelope;
-@property(nonatomic) _Bool isMDMInformationRequired;
-@property(copy, nonatomic) AKDevice *proxiedDevice;
-@property(nonatomic) long long serviceType;
 @property(copy, nonatomic) NSString *username;
 @end
 

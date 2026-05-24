@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VNTrackerManager
 {
     NSMutableDictionary *_liveTrackerCounter;
-    NSObject<OS_dispatch_queue> *_trackingProcessingQueue;
-    NSObject<OS_dispatch_queue> *_trackersCollectionManagementQueue;
-    NSDictionary *_liveTrackerCounterLimit;
-    NSMutableDictionary *_trackers;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (void);
 - (long long);

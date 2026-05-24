@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSNumber;
+@class NSData, NSDate, NSNumber;
 
 @protocol SFFlightDateDescriptor
-- (NSDate *);
+- (NSNumber *);
+- (NSData *)@r;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *bufferMinutes;
-@property(copy, nonatomic) NSDate *current;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSDate *scheduled;
 @end
 

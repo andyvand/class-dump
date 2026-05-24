@@ -7,14 +7,6 @@
 @interface NewsFeed.FormatFlexBoxNode
 {
     id _identifier;
-    id _name;
-    id _description;
-    id _size;
-    id resize;
-    id _adjustments;
-    id _layout;
-    id flex;
-    id _children;
 }
 
 @end

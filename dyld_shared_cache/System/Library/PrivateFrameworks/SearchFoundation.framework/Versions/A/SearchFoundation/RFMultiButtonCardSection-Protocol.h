@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSArray, NSData;
 
 @protocol RFMultiButtonCardSection
+- (NSData *);
+- (int)5X;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *buttons;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int layoutType;
 @end
 

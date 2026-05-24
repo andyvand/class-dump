@@ -13,17 +13,16 @@
 
 + (id)X;
 - (void);
+- (id)	;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)50;
 - (void);
 - (id)¬;
-- (void)T_EDUCATION_BODY_WATCH;
+- (void)EXPRESS_TRANSIT_EDUCATION_BODY_WATCH;
 - (void)@a²ÿr5kh;
 
 // Remaining properties
-@property(readonly, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
 @property(readonly, nonatomic) PKAppleAccountInformation *appleAccountInformation;
 
 @end

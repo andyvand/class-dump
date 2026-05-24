@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSString, NSUUID;
-@protocol HMDPrimaryResidentChangeMonitorDataSource;
+@class NSNotificationCenter;
 
 __attribute__((visibility("hidden")))
 @interface HMDPrimaryResidentChangeMonitor
 {
     _Bool _isCurrentDevicePrimaryResident;
-    _Bool _hasResidentDevices;
-    id <HMDPrimaryResidentChangeMonitorDataSource> _dataSource;
-    NSUUID *_identifier;
-    NSUUID *_confirmedPrimaryResidentDeviceIdentifier;
-    NSNotificationCenter *_notificationCenter;
 }
 
 + (id)~B;
@@ -27,39 +21,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)Controller";
+- (void)dTripRelay"16B24;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)cked;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)Number"16@"NSMutableDictionary"24^@32;
 - (void);
 - (void);
 - (id);
 - (_Bool)1Â0@ù
 × ;
 - (id);
-- (void)tingSession;
+- (void)HMDSiriEndpointSessionStateTypeRequestingSession;
 - (id)§=;
 
 // Remaining properties
-@property(copy) NSUUID *confirmedPrimaryResidentDeviceIdentifier; // @synthesize confirmedPrimaryResidentDeviceIdentifier=_confirmedPrimaryResidentDeviceIdentifier;
-@property __weak id <HMDPrimaryResidentChangeMonitorDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool hasResidentDevices; // @synthesize hasResidentDevices=_hasResidentDevices;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property _Bool isCurrentDevicePrimaryResident; // @synthesize isCurrentDevicePrimaryResident=_isCurrentDevicePrimaryResident;
 @property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
 
 @end
 

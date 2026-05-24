@@ -9,35 +9,26 @@
 @interface NTPBPurchaseOfferableConfiguration
 {
     NSString *_purchaseId;
-    _Bool _allowsPublisherPadApp;
-    _Bool _allowsPublisherPhoneApp;
-    _Bool _allowsPublisherWebSite;
-    _Bool _preferredOffer;
-    struct {
-        unsigned int allowsPublisherPadApp:1;
-        unsigned int allowsPublisherPhoneApp:1;
-        unsigned int allowsPublisherWebSite:1;
-        unsigned int preferredOffer:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)a;
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (void)__DATA_DIRTY;
+- (void)C;
+- (unsigned long long)L
+;
+- (_Bool)> %@;
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)seedMaxAgeSeconds;
+- (_Bool)_sessionDataSize;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -51,16 +42,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsPublisherPadApp; // @synthesize allowsPublisherPadApp=_allowsPublisherPadApp;
-@property(nonatomic) _Bool allowsPublisherPhoneApp; // @synthesize allowsPublisherPhoneApp=_allowsPublisherPhoneApp;
-@property(nonatomic) _Bool allowsPublisherWebSite; // @synthesize allowsPublisherWebSite=_allowsPublisherWebSite;
-@property(nonatomic) _Bool hasAllowsPublisherPadApp;
-@property(nonatomic) _Bool hasAllowsPublisherPhoneApp;
-@property(nonatomic) _Bool hasAllowsPublisherWebSite;
-@property(nonatomic) _Bool hasPreferredOffer;
 @property(readonly, nonatomic) _Bool hasPurchaseId;
-@property(nonatomic) _Bool preferredOffer; // @synthesize preferredOffer=_preferredOffer;
-@property(retain, nonatomic) NSString *purchaseId; // @synthesize purchaseId=_purchaseId;
 
 @end
 

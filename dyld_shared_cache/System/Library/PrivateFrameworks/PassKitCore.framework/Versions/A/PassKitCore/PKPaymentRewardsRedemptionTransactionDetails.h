@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, PKCurrencyAmount;
+@class NSString;
 
 @interface PKPaymentRewardsRedemptionTransactionDetails
 {
     NSString *_identifier;
-    NSDate *_timestamp;
-    PKCurrencyAmount *_monetaryValue;
-    NSString *_descriptionText;
-    NSNumber *_merchantCategoryCode;
-    NSString *_merchantRawName;
 }
 
 + (_Bool)áW"ð!¸Dùqî%Ð1Â0@ù
@@ -29,25 +24,20 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)6;
+- (_Bool)setWifPoi:(id)arg1;
+- (void)tsCount;
 - (id);
-- (_Bool);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id)ansitNetworksForLocation:(id)arg1;
+- (id)expressTransitNetworksForLocation:(id)arg1;
 - (void)sbook.peerpayment.activation.will-enter-hsa2-flow-twice;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *descriptionText; // @synthesize descriptionText=_descriptionText;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSNumber *merchantCategoryCode; // @synthesize merchantCategoryCode=_merchantCategoryCode;
-@property(copy, nonatomic) NSString *merchantRawName; // @synthesize merchantRawName=_merchantRawName;
-@property(copy, nonatomic) PKCurrencyAmount *monetaryValue; // @synthesize monetaryValue=_monetaryValue;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

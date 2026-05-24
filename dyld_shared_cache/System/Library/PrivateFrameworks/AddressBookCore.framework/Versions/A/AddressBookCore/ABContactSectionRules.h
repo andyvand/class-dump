@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class NSArray, NSMutableDictionary;
 
 @interface ABContactSectionRules
 {
     NSMutableDictionary *_plist;
-    NSMutableArray *_cachedHeaders;
-    NSDictionary *_cachedLocalizedHeaders;
-    NSArray *_cachedSortedHeaders;
-    struct UCollator *_collator;
 }
 
 + (id);
@@ -20,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -29,10 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSString *collationKey;
-@property(retain, nonatomic) NSMutableDictionary *plist; // @synthesize plist=_plist;
 @property(readonly) NSArray *sectionHeaders;
-@property(readonly) NSArray *sectionIndices;
 
 @end
 

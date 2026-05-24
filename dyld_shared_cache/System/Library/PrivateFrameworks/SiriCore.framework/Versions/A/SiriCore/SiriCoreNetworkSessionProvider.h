@@ -4,78 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInputStream, NSObject, NSOperationQueue, NSOutputStream, NSString, NSURL, NSURLSession, NSURLSessionStreamTask, SAConnectionPolicy, SAConnectionPolicyRoute, SiriCoreConnectionType;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_source, SiriCoreConnectionProviderDelegate;
+@protocol SiriCoreConnectionProviderDelegate;
 
 @interface SiriCoreNetworkSessionProvider
 {
     id <SiriCoreConnectionProviderDelegate> _delegate;
-    NSURL *_url;
-    SAConnectionPolicyRoute *_route;
-    SAConnectionPolicy *_policy;
-    _Bool _prefersWWAN;
-    _Bool _connectByPOPEnabled;
-    _Bool _isMPTCP;
-    SiriCoreConnectionType *_connectionType;
-    int _interfaceIndex;
-    NSString *_interfaceName;
-    _Bool _isCanceled;
-    _Bool _isEstablishing;
-    _Bool _isReady;
-    NSURLSession *_urlSession;
-    NSOperationQueue *_opQueue;
-    NSURLSessionStreamTask *_streamTask;
-    CDUnknownBlockType _completion_block;
-    NSString *_resolvedHost;
-    NSString *_connectionId;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned char _readBuffer[10240];
-    NSInputStream *_inputStream;
-    NSObject<OS_dispatch_group> *_readGroup;
-    _Bool _waitingOnReadGroup;
-    NSOutputStream *_outputStream;
-    NSObject<OS_dispatch_source> *_openTimer;
-    NSObject<OS_dispatch_source> *_staleConnectionTimer;
-    unsigned long long _readWriteCounter;
-    double _staleConnectionInterval;
 }
 
-+ (void);
++ (void)EFPropertyKey_queryOptions;
+- (void)gets deallocated.;
+- (void)start ActivityStateObserver while it is already running.;
+- (_Bool)EMVIPEmailAddresses;
+- (_Bool)DisableFollowUp;
+- (_Bool)IndexStatusMaxIndexedToTotalRatio;
+- (void)UseLegacyMessageIDHashFormat;
+- (void)FilesMarkedPurgeable;
+- (void)lastForegroundedTimestamp;
+- (void)ForceCollapsedSenderHeader;
+- (void)PreferBIMIOverBrandedMail;
+- (id)sion context;
+- (_Bool)QueryComponentSenderContains;
+- (void)red reason:(id)arg1 %ld;
+- (_Bool)it];
+- (_Bool)ConversationID:(id)arg1 ];
+- (_Bool)ribeType:%ld
+	Date:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@ /* Error: Ran out of types for this method. */;
+- (id)sages instead.;
+- (_Bool);
+- (id)ry"16@?0@"CSSearchQueryContext"8;
+- (void)metrics_isExpensive;
+- (void)ozilla/5.0;
+- (void)ageID:%@
+	Action:%lu
+	ShouldSign:%@
+	ShouldEncrypt:%@
+	ConversationNotificationLevel:%lu /* Error: Ran out of types for this method. */;
+- (void)EFPropertyKey_originalMessageID;
+- (void)ages;
+- (void));
+- (void)EMConnectionInvalidated;
+- (void)EMMessageSnippetHintZoneAttachmentTypes;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)hh8;
 - (void);
 - (id);
 - (void);
@@ -85,13 +64,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

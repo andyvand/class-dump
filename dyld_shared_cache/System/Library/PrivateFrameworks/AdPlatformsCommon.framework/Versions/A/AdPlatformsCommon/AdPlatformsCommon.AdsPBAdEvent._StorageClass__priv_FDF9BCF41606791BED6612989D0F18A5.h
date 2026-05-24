@@ -7,19 +7,6 @@
 @interface AdPlatformsCommon.AdsPBAdEvent._StorageClass__priv_FDF9BCF41606791BED6612989D0F18A5
 {
     id _adMeta;
-    id _adEventCommon;
-    id _eventType;
-    id _eventTimestamp;
-    id _batchTimestamp;
-    id _missedOpportunityReasons;
-    id _viewPercentage;
-    id _viewDurationMs;
-    id _clickEventType;
-    id _clickSubEventType;
-    id _conversionEventType;
-    id _conversionSubEventType;
-    id _conversionEngagement;
-    id _poiEventFields;
 }
 
 @end

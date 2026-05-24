@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSNumber, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface MOSplunkLogger
 {
     _Bool _allowInvalidCert;
-    NSString *_path;
-    NSMutableArray *_events;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_version;
-    NSURL *_splunkUploadURL;
-    NSURL *_configurationURL;
-    NSString *_splunkTopic;
-    NSNumber *_samplingPercentage;
-    double _lastSuccessfulConfigurationLoad;
 }
 
 - (void);
@@ -36,36 +26,20 @@
 - (void);
 - (double);
 - (void);
+- (id)A;
+- (void)expressionValueWithObject:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)blockedTypes;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowInvalidCert; // @synthesize allowInvalidCert=_allowInvalidCert;
-@property(retain, nonatomic) NSURL *configurationURL; // @synthesize configurationURL=_configurationURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *events; // @synthesize events=_events;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double lastSuccessfulConfigurationLoad; // @synthesize lastSuccessfulConfigurationLoad=_lastSuccessfulConfigurationLoad;
 @property(retain, nonatomic) NSString *path; // @synthesize path=_path;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSNumber *samplingPercentage; // @synthesize samplingPercentage=_samplingPercentage;
-@property(retain, nonatomic) NSString *splunkTopic; // @synthesize splunkTopic=_splunkTopic;
-@property(retain, nonatomic) NSURL *splunkUploadURL; // @synthesize splunkUploadURL=_splunkUploadURL;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

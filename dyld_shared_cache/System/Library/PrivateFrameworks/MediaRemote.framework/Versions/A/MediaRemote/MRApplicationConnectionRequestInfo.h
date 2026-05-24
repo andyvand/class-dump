@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRClient, MRDeviceInfo, NSData, _MRApplicationConnectionRequestInfoProtobuf;
+@class MRClient, NSData;
 
 @interface MRApplicationConnectionRequestInfo
 {
     MRClient *_client;
-    MRDeviceInfo *_deviceInfo;
 }
 
 + (_Bool);
@@ -17,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -26,9 +25,6 @@
 - (void),V_addingOutputDeviceUIDs;
 
 // Remaining properties
-@property(readonly, nonatomic) MRClient *client; // @synthesize client=_client;
-@property(readonly, nonatomic) MRDeviceInfo *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(readonly, nonatomic) _MRApplicationConnectionRequestInfoProtobuf *protobuf;
 @property(readonly, nonatomic) NSData *protobufData;
 
 @end

@@ -6,33 +6,27 @@
 
 #import <PhotoImaging/PIIPTHueChromaFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PIIPTHueChromaGrayFilter : PIIPTHueChromaFilter
 {
     CIImage *_inputImage;
-    NSNumber *_inputLumaTarget;
-    NSNumber *_inputLumaRange;
-    NSNumber *_inputChromaMax;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)ror: /* Error: Ran out of types for this method. */;
+- (void)serializeComposition:versionInfo:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputChromaMax; // @synthesize inputChromaMax=_inputChromaMax;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSNumber *inputLumaRange; // @synthesize inputLumaRange=_inputLumaRange;
-@property(retain, nonatomic) NSNumber *inputLumaTarget; // @synthesize inputLumaTarget=_inputLumaTarget;
 
 @end
 

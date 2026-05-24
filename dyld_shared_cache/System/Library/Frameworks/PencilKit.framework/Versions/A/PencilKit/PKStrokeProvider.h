@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableOrderedSet, NSOrderedSet, NSString, PKDrawing, PKHandwritingTranscriptionCache;
-@protocol CHStrokeProviderVersion;
+@class PKDrawing;
 
 @interface PKStrokeProvider
 {
     _Bool _disabled;
-    NSMutableOrderedSet *_strokeSlices;
-    _Bool _shouldProcessVisibleStrokes;
-    NSArray *_visibleOnscreenStrokes;
-    NSMutableDictionary *_strokeIdsByEncoding;
-    PKHandwritingTranscriptionCache *_transcriptionCache;
-    long long groupingPriority;
-    PKDrawing *_drawing;
 }
 
 + (id);
@@ -24,16 +16,16 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (long long);
 - (id);
 - (struct CGSize);
@@ -45,29 +37,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)maximumDuration = %f;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly) struct CGSize drawingCanvasSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) long long groupingPriority; // @synthesize groupingPriority;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *orderedStrokes;
-@property(readonly) id <CHStrokeProviderVersion> strokeProviderVersion;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSOrderedSet *visibleStrokeEncodedIdentifiers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSOrderedSet",?,R,C
-
 
 @end
 

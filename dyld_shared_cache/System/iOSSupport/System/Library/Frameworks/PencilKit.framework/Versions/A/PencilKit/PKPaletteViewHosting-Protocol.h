@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPaletteTooltipPresentationHandle, UIView;
+@class UIView;
 
 @protocol PKPaletteViewHosting
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *hostingView;
-@property(readonly, nonatomic, getter=isPaletteDragging) _Bool paletteDragging;
-@property(nonatomic, getter=isPaletteVisible) _Bool paletteVisible;
-@property(readonly, nonatomic, getter=isPaletteVisualStateMinimized) _Bool paletteVisualStateMinimized;
-@property(readonly, nonatomic) PKPaletteTooltipPresentationHandle *tooltipPresentationHandle;
 @end
 

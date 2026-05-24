@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface BiometricKitEnrollProgressInfo
 {
     int _message;
-    long long _progress;
-    long long _currentPrimaryComponentID;
-    NSDictionary *_captureImage;
-    NSDictionary *_renderedImage;
-    NSDictionary *_messageDetails;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)u;
 - (long long);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (int);
+- (int)isRejectedByWholeProfile;
 - (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *captureImage; // @synthesize captureImage=_captureImage;
-@property(nonatomic) long long currentPrimaryComponentID; // @synthesize currentPrimaryComponentID=_currentPrimaryComponentID;
-@property(nonatomic) int message; // @synthesize message=_message;
-@property(retain, nonatomic) NSDictionary *messageDetails; // @synthesize messageDetails=_messageDetails;
 @property(nonatomic) long long progress; // @synthesize progress=_progress;
-@property(retain, nonatomic) NSDictionary *renderedImage; // @synthesize renderedImage=_renderedImage;
 
 @end
 

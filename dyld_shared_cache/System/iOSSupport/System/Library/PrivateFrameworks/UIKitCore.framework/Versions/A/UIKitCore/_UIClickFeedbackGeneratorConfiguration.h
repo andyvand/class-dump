@@ -13,34 +13,26 @@ __attribute__((visibility("hidden")))
 @interface _UIClickFeedbackGeneratorConfiguration : _UIFeedbackGeneratorUserInteractionDrivenConfiguration
 {
     _UIFeedback<_UIFeedbackDiscretePlayable> *_clickDownFeedback;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_clickDownAudioFeedback;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_clickUpFeedback;
-    _UIFeedback<_UIFeedbackDiscretePlayable> *_clickUpAudioFeedback;
 }
 
-+ (id)Transform;
++ (id)instanceTransform;
+- (void)@32@40@48@56B64@68@76q84q92@?100@?108;
+- (void)largeFileSizeFor:(id)arg1 allowedLargerRepresentation: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)kickOffEagerSyncIfApplicable;
+- (void)keyValueCollection:(id)arg1 willUpdateValues: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (id)ionMenuTimer;
+- (id)touchDictationMenuTimer;
 - (void)±ÅÔ¼$^;
 
 // Remaining properties
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *clickDownAudioFeedback; // @synthesize clickDownAudioFeedback=_clickDownAudioFeedback;
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *clickDownFeedback; // @synthesize clickDownFeedback=_clickDownFeedback;
 @property(readonly, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *clickDownPattern;
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *clickUpAudioFeedback; // @synthesize clickUpAudioFeedback=_clickUpAudioFeedback;
-@property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *clickUpFeedback; // @synthesize clickUpFeedback=_clickUpFeedback;
-@property(readonly, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *clickUpPattern;
 
 @end
 

@@ -11,11 +11,11 @@
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Frameworks/ViceroyTrace.framework/Versions/A/ViceroyTrace;
++ (id)ry/PrivateFrameworks/AVConference.framework/Frameworks/ViceroyTrace.framework/Versions/A/ViceroyTrace;
++ (id);
 - (id);
-- (_Bool);
+- (_Bool)default;
 
 @end
 

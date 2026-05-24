@@ -5,5 +5,8 @@
 //
 
 @protocol SiriSharedUICompactViewDelegate
+
+@optional
+- (void);
 @end
 

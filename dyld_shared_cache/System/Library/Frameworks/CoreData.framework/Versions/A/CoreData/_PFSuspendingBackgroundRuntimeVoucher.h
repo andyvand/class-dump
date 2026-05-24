@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void);
++ (void)C;
 + (id);
 + (void)%@ and entityPK in %@;
 

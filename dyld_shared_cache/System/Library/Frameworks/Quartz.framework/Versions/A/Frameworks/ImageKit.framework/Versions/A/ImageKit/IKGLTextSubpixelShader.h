@@ -7,17 +7,13 @@
 @interface IKGLTextSubpixelShader
 {
     void *_program;
-    unsigned int _framebufferTexture;
-    int _viewportWidth;
-    int _viewportHeight;
-    unsigned int _surfaceID;
 }
 
 - (int);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)qa;
 - (id);
 - (unsigned int);
 - (void);
@@ -26,10 +22,6 @@
 
 // Remaining properties
 @property unsigned int framebufferTexture; // @synthesize framebufferTexture=_framebufferTexture;
-@property(readonly) void *program; // @synthesize program=_program;
-@property unsigned int surfaceID; // @synthesize surfaceID=_surfaceID;
-@property int viewportHeight; // @synthesize viewportHeight=_viewportHeight;
-@property int viewportWidth; // @synthesize viewportWidth=_viewportWidth;
 
 @end
 

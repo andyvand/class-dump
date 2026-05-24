@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfiguration, NSObject;
-@protocol NEVPNConnectivitySessionDelegate, OS_dispatch_queue;
+@class NEConfiguration;
 
 @interface NEVPNConnectivitySession
 {
     NEConfiguration *_configuration;
-    void *_session;
-    id <NEVPNConnectivitySessionDelegate> _delegate;
-    CDUnknownBlockType _pendingCancelCompletionHandler;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void)ExtensionProviderContext";

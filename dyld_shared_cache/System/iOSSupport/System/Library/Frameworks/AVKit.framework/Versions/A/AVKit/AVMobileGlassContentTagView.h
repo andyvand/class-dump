@@ -6,20 +6,17 @@
 
 #import <AVKit/AVGlassBackedView.h>
 
-@class AVMobileContentTag, UILabel, UIView;
+@class UIView;
 @protocol AVMobileControlsStyleFontsSheet;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassContentTagView : AVGlassBackedView
 {
     UIView *_contentView;
-    UILabel *_contentTagViewLabel;
-    AVMobileContentTag *_contentTag;
-    id <AVMobileControlsStyleFontsSheet> _styleSheet;
 }
 
 - (id);
-- (void);
+- (void)adopterCapabilityCheckValidationFailures;
 - (id);
 - (void);
 - (void);
@@ -29,7 +26,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) AVMobileContentTag *contentTag; // @synthesize contentTag=_contentTag;
 @property(retain, nonatomic) id <AVMobileControlsStyleFontsSheet> styleSheet; // @synthesize styleSheet=_styleSheet;
 
 @end

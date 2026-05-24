@@ -12,7 +12,7 @@
     id resolvedAccessibilityLabel;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -22,8 +22,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *accessibilityIdentifier;
-@property(nonatomic, readonly) NSString *accessibilityLabel;
 @property(nonatomic, readonly) NSString *accessibilityTitleAttribute;
 
 @end

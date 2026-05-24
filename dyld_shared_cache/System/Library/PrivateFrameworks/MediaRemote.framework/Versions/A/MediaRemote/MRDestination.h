@@ -4,34 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVEndpoint, MRClient, MROrigin, MRPlayer, MRPlayerPath, NSData, NSString, _MRDestinationProtobuf;
+@class NSString;
 
 @interface MRDestination
 {
     NSString *_outputDeviceUID;
-    NSString *_outputContextUID;
-    MRAVEndpoint *_endpoint;
-    MRPlayerPath *_playerPath;
 }
 
 + (id);
-+ (id);
++ (id)d. Using local values of this release.;
 + (id);
 + (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)A;
 - (void);
+- (_Bool);
+- (id)dismissNotice: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)IMKeyValueCollectionChangedValuesKey;
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (id);
@@ -40,9 +37,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)FNotifyObserver"16Q24Q32;
+- (id)AFAudioSessionEventInformConnection;
+- (void)h-app;
 - (id);
 - (void);
 - (id);
@@ -52,18 +49,7 @@
 - (void)RNowPlayingControllerImpl>",&,N,V_impl;
 
 // Remaining properties
-@property(copy, nonatomic) MRClient *client;
-@property(readonly, nonatomic) NSData *data;
-@property(retain, nonatomic) MRAVEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly, nonatomic) _Bool isLocal;
-@property(readonly, nonatomic) _Bool isProactive;
-@property(readonly, nonatomic) _Bool isUserSelected;
-@property(retain, nonatomic) MROrigin *origin;
-@property(readonly, nonatomic) NSString *outputContextUID; // @synthesize outputContextUID=_outputContextUID;
 @property(retain, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
-@property(copy, nonatomic) MRPlayer *player;
-@property(copy, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(readonly, nonatomic) _MRDestinationProtobuf *protobuf;
 
 @end
 

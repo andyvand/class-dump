@@ -10,7 +10,8 @@
 @protocol CALayerDelegate
 
 @optional
-- (void)SegmentBegin;
+- (void)shouldVerifyArchiveExplicitly;
+- (void)OnSegmentBegin;
 - (void)ÌÏó	
 á²Àråá;
 - (void):(CALayer *)arg1 á÷ôîÚ`acïî\Ùprojeãí8sleeðîÑidåéÂ®k|aãø`@`ÀàRòçHun®n@¡`q
@@ -20,6 +21,6 @@ gHMbÿ$b*~a6á7ÝleâîÏingsinæî:3eîçHZindååÍBãî½§ompïî=!it�
 esetpuðë~eò	îÅ±tòîËRaiìî:ógIOçËhreddinçæíîÙ7oney÷ëüìçILheaòêcðçã>Óflïî½ãî¨néígâçIHìlÆ·à"{­êÚágIRä×mõèÐksóë©lencycliãìn[î%
 	!)j7âiëôîÆèòêh:håîÙ¿oîjö*à8áçIÜllaúî¶
 oramáí¹®îÛ]coíè[øîinçîJ°ãè³máçIåéçJnéçbYhandlåëáåîrán¶±à#ÆbreaäbO¸ì¨ìj½ä5än¤ÆfeòèÁPálÜ&aÚ`EyIà$ómãïà|æîhécreaticãíkágJ~f µ`»PÛÒNraãî /* Error: Ran out of types for this method. */;
-- (id <CAAction>)n;
+- (id <CAAction>)CMSampleBufferGetOutputDuration;
 @end
 

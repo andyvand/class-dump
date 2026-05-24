@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+
 @protocol AVFullScreenViewControllerDelegate
+- (UIView *);
+- (long long)L._p;
+- (void)Q;
+- (void);
+- (_Bool)%{public}@.;
 @end
 

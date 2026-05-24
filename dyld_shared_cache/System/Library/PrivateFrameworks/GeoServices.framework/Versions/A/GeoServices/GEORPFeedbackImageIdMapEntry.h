@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPFeedbackImageIdMapEntry
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_clientImageUuid;
-    NSString *_imageId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_clientImageUuid:1;
-        unsigned int read_imageId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)itable:(id)arg1;
-- (void);
++ (_Bool)setIsWebsiteEditable:(id)arg1;
+- (void)_creationDate;
 - (_Bool);
-- (_Bool);
+- (_Bool);;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)a;
+- (id)setTurnIdentifier: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -43,18 +31,14 @@
 - (id);
 - (void);
 - (id)_resultIndex"b1"read_actionUrl"b1"read_destinationApp"b1"read_photoId"b1"read_richProviderId"b1"read_showcaseId"b1"read_transitPlaceCard"b1"wrote_anyField"b1};
-- (id)tings;
+- (id)appleRatings;
 - (id)<$;
 - (id)eReadAllFrom can only be called once per object;
 - (void);
 - (void)¡M@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *clientImageUuid;
 @property(readonly, nonatomic) _Bool hasClientImageUuid;
-@property(readonly, nonatomic) _Bool hasImageId;
-@property(retain, nonatomic) NSString *imageId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

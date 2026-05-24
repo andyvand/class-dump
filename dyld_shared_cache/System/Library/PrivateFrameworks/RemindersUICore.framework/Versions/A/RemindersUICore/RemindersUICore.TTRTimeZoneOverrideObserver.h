@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRTimeZoneOverrideObserver
 {
     id observablePropertyForTimeZoneOverrideEnabled;
-    id observablePropertyForTimeZoneOverride;
-    id cancellable;
-    id setDefaultTimeZone;
-    id timeZoneOverrideCapability;
 }
 
 @end

@@ -6,21 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, ODSAMPLESiriSchemaODSAMPLEClientEventMetadata, ODSAMPLESiriSchemaODSAMPLESpeakerIdModelDeviceSelected, ODSAMPLESiriSchemaODSAMPLESpeakerIdModelSampleManifestReported, ODSAMPLESiriSchemaODSAMPLESpeakerIdModelSampleReported, ODSAMPLESiriSchemaODSAMPLESpeakerIdSampleToRequestMap, SISchemaInstrumentationMessage;
+@class ODSAMPLESiriSchemaODSAMPLEClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface ODSAMPLESiriSchemaODSAMPLEClientEvent : SISchemaTopLevelUnionType
 {
     ODSAMPLESiriSchemaODSAMPLEClientEventMetadata *_eventMetadata;
-    ODSAMPLESiriSchemaODSAMPLESpeakerIdModelDeviceSelected *_speakerIdModelDeviceSelected;
-    ODSAMPLESiriSchemaODSAMPLESpeakerIdModelSampleReported *_speakerIdModelSampleReported;
-    ODSAMPLESiriSchemaODSAMPLESpeakerIdModelSampleManifestReported *_speakerIdModelSampleManifestReported;
-    ODSAMPLESiriSchemaODSAMPLESpeakerIdSampleToRequestMap *_speakerIdSampleToRequestMap;
-    _Bool _hasEventMetadata;
-    _Bool _hasSpeakerIdModelDeviceSelected;
-    _Bool _hasSpeakerIdModelSampleReported;
-    _Bool _hasSpeakerIdModelSampleManifestReported;
-    _Bool _hasSpeakerIdSampleToRequestMap;
-    unsigned long long _whichEvent_Type;
 }
 
 + (id);
@@ -49,39 +39,27 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)webView:drawFooterInRect: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (int);
+- (int);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)!ðFù1Þ°1Â0@ù
 × ;
-- (id)gVersion;
+- (id)vtAssetConfigVersion;
 - (unsigned long long)_preciseLocationDisabled;
 - (id);
 - (id)@"NSString",C,N,V_deviceOS;
 - (void)ResponseShownTier1;
 
 // Remaining properties
-@property(retain, nonatomic) ODSAMPLESiriSchemaODSAMPLEClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasSpeakerIdModelDeviceSelected; // @synthesize hasSpeakerIdModelDeviceSelected=_hasSpeakerIdModelDeviceSelected;
-@property(nonatomic) _Bool hasSpeakerIdModelSampleManifestReported; // @synthesize hasSpeakerIdModelSampleManifestReported=_hasSpeakerIdModelSampleManifestReported;
-@property(nonatomic) _Bool hasSpeakerIdModelSampleReported; // @synthesize hasSpeakerIdModelSampleReported=_hasSpeakerIdModelSampleReported;
-@property(nonatomic) _Bool hasSpeakerIdSampleToRequestMap; // @synthesize hasSpeakerIdSampleToRequestMap=_hasSpeakerIdSampleToRequestMap;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODSAMPLESiriSchemaODSAMPLESpeakerIdModelDeviceSelected *speakerIdModelDeviceSelected; // @synthesize speakerIdModelDeviceSelected=_speakerIdModelDeviceSelected;
-@property(retain, nonatomic) ODSAMPLESiriSchemaODSAMPLESpeakerIdModelSampleManifestReported *speakerIdModelSampleManifestReported; // @synthesize speakerIdModelSampleManifestReported=_speakerIdModelSampleManifestReported;
-@property(retain, nonatomic) ODSAMPLESiriSchemaODSAMPLESpeakerIdModelSampleReported *speakerIdModelSampleReported; // @synthesize speakerIdModelSampleReported=_speakerIdModelSampleReported;
-@property(retain, nonatomic) ODSAMPLESiriSchemaODSAMPLESpeakerIdSampleToRequestMap *speakerIdSampleToRequestMap; // @synthesize speakerIdSampleToRequestMap=_speakerIdSampleToRequestMap;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

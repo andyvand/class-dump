@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFClockImage, SFCommand;
+@class NSString;
 
 @interface SSWorldClockResultFormattedData
 {
     _Bool _shouldEmphasizeTimeZone;
-    NSString *_location;
-    NSString *_countryName;
-    NSString *_time;
-    NSString *_timeZoneDescription;
-    NSString *_timeZoneAbbreviation;
-    NSString *_timeZoneOffsetDescription;
-    NSString *_timeAndTimeZoneOffsetDescription;
-    NSString *_timeZoneName;
-    SFCommand *_punchoutCommand;
-    SFClockImage *_clockImage;
 }
 
 - (id);
@@ -32,13 +22,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)setMediaTopCaptionBar: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)addOperationWithBlock: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)TLKSplitHeaderViewDelegate;
 - (id);
 - (id);
 - (void);
@@ -46,17 +36,7 @@
 - (void)`ß;
 
 // Remaining properties
-@property(retain, nonatomic) SFClockImage *clockImage; // @synthesize clockImage=_clockImage;
-@property(retain, nonatomic) NSString *countryName; // @synthesize countryName=_countryName;
 @property(retain, nonatomic) NSString *location; // @synthesize location=_location;
-@property(retain, nonatomic) SFCommand *punchoutCommand; // @synthesize punchoutCommand=_punchoutCommand;
-@property(nonatomic) _Bool shouldEmphasizeTimeZone; // @synthesize shouldEmphasizeTimeZone=_shouldEmphasizeTimeZone;
-@property(retain, nonatomic) NSString *time; // @synthesize time=_time;
-@property(retain, nonatomic) NSString *timeAndTimeZoneOffsetDescription; // @synthesize timeAndTimeZoneOffsetDescription=_timeAndTimeZoneOffsetDescription;
-@property(retain, nonatomic) NSString *timeZoneAbbreviation; // @synthesize timeZoneAbbreviation=_timeZoneAbbreviation;
-@property(retain, nonatomic) NSString *timeZoneDescription; // @synthesize timeZoneDescription=_timeZoneDescription;
-@property(retain, nonatomic) NSString *timeZoneName; // @synthesize timeZoneName=_timeZoneName;
-@property(retain, nonatomic) NSString *timeZoneOffsetDescription; // @synthesize timeZoneOffsetDescription=_timeZoneOffsetDescription;
 
 @end
 

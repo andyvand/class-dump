@@ -5,9 +5,11 @@
 //
 
 @protocol SearchUIViewTesting
+- (void);
+- (void)4;
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType viewDidUpdateHandler;
 @property(copy, nonatomic) CDUnknownBlockType viewWillUpdateHandler;
 @end
 

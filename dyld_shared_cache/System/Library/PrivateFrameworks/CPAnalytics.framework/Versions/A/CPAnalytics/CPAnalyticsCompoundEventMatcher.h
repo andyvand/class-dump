@@ -6,12 +6,9 @@
 
 #import <CPAnalytics/CPAnalyticsEventMatcher.h>
 
-@class NSArray;
-
 @interface CPAnalyticsCompoundEventMatcher : CPAnalyticsEventMatcher
 {
     unsigned long long _type;
-    NSArray *_subEventMatchers;
 }
 
 + (id);
@@ -25,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *subEventMatchers; // @synthesize subEventMatchers=_subEventMatchers;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

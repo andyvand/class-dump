@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSBusinessCacheEntry, NSNumber, NSString;
+@class NSNumber;
 
 @interface CLSManagedBusinessItem
 {
 }
 
-+ (id)nceThresholdForSimilarity:similarityModel: /* Error: Ran out of types for this method. */;
++ (id)distanceThresholdForSimilarity:similarityModel: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *businessCategories; // @dynamic businessCategories;
-@property(nonatomic) unsigned int categories; // @dynamic categories;
-@property(retain, nonatomic) CLSBusinessCacheEntry *entry; // @dynamic entry;
-@property(retain, nonatomic) NSString *geoServiceProvider; // @dynamic geoServiceProvider;
-@property(retain, nonatomic) NSString *isoCountryCode; // @dynamic isoCountryCode;
-@property(nonatomic) double latitude; // @dynamic latitude;
-@property(nonatomic) double longitude; // @dynamic longitude;
-@property(nonatomic) unsigned long long muid; // @dynamic muid;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(nonatomic) double radius; // @dynamic radius;
-@property(nonatomic) long long venueCapacity;
 @property(retain, nonatomic) NSNumber *venueCapacityAsNumber; // @dynamic venueCapacityAsNumber;
 
 @end

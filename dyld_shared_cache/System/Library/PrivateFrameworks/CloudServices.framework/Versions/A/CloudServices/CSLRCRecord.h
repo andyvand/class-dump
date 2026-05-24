@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSLRCRecordLRCClientMetadata, NSData, NSString;
+@class NSData;
 
 @interface CSLRCRecord
 {
     NSData *_backupKeybagSHA256;
-    CSLRCRecordLRCClientMetadata *_clientMetadata;
-    NSString *_timestamp;
 }
 
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)rceClientIdentifier %{public}@;
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)CNLikenessEditorFullNameKey;
+- (_Bool);|]?;
 - (void);
 - (void);
 - (id);
@@ -35,12 +33,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *backupKeybagSHA256; // @synthesize backupKeybagSHA256=_backupKeybagSHA256;
-@property(retain, nonatomic) CSLRCRecordLRCClientMetadata *clientMetadata; // @synthesize clientMetadata=_clientMetadata;
-@property(readonly, nonatomic) _Bool hasBackupKeybagSHA256;
 @property(readonly, nonatomic) _Bool hasClientMetadata;
-@property(readonly, nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

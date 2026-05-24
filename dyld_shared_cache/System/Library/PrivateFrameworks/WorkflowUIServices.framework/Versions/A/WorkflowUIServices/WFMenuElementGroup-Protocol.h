@@ -7,10 +7,12 @@
 @class NSString;
 
 @protocol WFMenuElementGroup
+- (_Bool)T;
+- (void);
+- (void)_rm_AccountAssociatedWithRemoteManagementWithAccountTypeIdentifier:(NSString *)arg1 altDSID: /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
-@property(nonatomic) _Bool onlyDisplayTitleWhenCollapsed;
 @property(nonatomic) unsigned long long style;
-@property(retain, nonatomic) NSString *title;
 @end
 

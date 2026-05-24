@@ -7,10 +7,6 @@
 @interface PhotosUICore.GenerativeStoryEventAmbiguityAssetFetcher
 {
     id $defaultActor;
-    id photoLibrary;
-    id queryDisambiguationAssetFetcher;
-    id storyGenerationEventRecorder;
-    id logger;
 }
 
 @end

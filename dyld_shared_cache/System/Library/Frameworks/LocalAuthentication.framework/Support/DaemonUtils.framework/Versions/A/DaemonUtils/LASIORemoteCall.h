@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSObject, NSUUID;
-@protocol OS_dispatch_semaphore;
+@class NSUUID;
 
 @interface LASIORemoteCall
 {
     unsigned int _command;
-    NSUUID *_callID;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
-    NSNumber *_version;
-    id _requestData;
-    id _responseData;
-    NSNumber *_responseError;
-    NSDictionary *_payload;
 }
 
 + (id);
@@ -27,27 +19,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)8d (c;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)walURL;
 - (unsigned int);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)tHandler;
+- (void)eventHandler;
 
 // Remaining properties
 @property(retain) NSUUID *callID; // @synthesize callID=_callID;
-@property unsigned int command; // @synthesize command=_command;
-@property(readonly) NSDictionary *payload; // @synthesize payload=_payload;
-@property(retain) id requestData; // @synthesize requestData=_requestData;
-@property(retain) id responseData; // @synthesize responseData=_responseData;
-@property(retain) NSNumber *responseError; // @synthesize responseError=_responseError;
-@property(retain) NSObject<OS_dispatch_semaphore> *semaphore; // @synthesize semaphore=_semaphore;
-@property(retain) NSNumber *version; // @synthesize version=_version;
 
 @end
 

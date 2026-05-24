@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface _DKEventStatsCounterInternal
 {
     struct os_unfair_lock_s _lock;
-    _Bool _hasType;
-    _Bool _hasResult;
-    unsigned long long _numCounters;
-    unsigned long long *_counters;
-    NSString *_eventName;
-    NSString *_eventType;
-    NSArray *_typeValues;
-    NSString *_domain;
 }
 
-- (void);
+- (void)k;
 - (void);
 
 @end

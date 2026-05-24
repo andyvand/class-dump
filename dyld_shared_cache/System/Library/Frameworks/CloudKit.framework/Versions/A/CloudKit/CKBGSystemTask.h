@@ -6,32 +6,30 @@
 
 #import <CloudKit/CKBackgroundTask.h>
 
-@class BGNonRepeatingSystemTaskRequest, BGSystemTask;
+@class BGSystemTask;
 
 @interface CKBGSystemTask : CKBackgroundTask
 {
     BGSystemTask *_systemTask;
-    BGNonRepeatingSystemTaskRequest *_systemTaskRequest;
 }
 
-- (id);
+- (id)>;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (double);
 - (void);
-- (_Bool);
+- (_Bool)J0;
 - (id);
-- (void)cationBundleIdentifierOverrideForNetworkAttribution: /* Error: Ran out of types for this method. */;
+- (void)setApplicationBundleIdentifierOverrideForNetworkAttribution: /* Error: Ran out of types for this method. */;
 - (void)tlø8;
 - (long long);
 
 // Remaining properties
 @property(readonly) BGSystemTask *systemTask; // @synthesize systemTask=_systemTask;
-@property(readonly) BGNonRepeatingSystemTaskRequest *systemTaskRequest; // @synthesize systemTaskRequest=_systemTaskRequest;
 
 @end
 

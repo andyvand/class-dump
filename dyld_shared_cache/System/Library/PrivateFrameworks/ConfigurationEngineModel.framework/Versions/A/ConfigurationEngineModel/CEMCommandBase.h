@@ -6,42 +6,34 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class CEMAnyPayload, NSNumber, NSString;
+@class NSString;
 
 @interface CEMCommandBase : CEMPayloadBase
 {
     NSString *_commandType;
-    NSString *_commandIdentifier;
-    NSString *_commandDescription;
-    NSNumber *_commandRequiresNetworkTether;
-    CEMAnyPayload *_commandPayload;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)BaI;
 - (_Bool);
 - (int);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)apple\.ttsbundle\.(?<name>[^.]*)\-(?<quality>premium|compact|Premium|Compact)$;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)Configuration;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *commandDescription; // @synthesize commandDescription=_commandDescription;
-@property(copy, nonatomic) NSString *commandIdentifier; // @synthesize commandIdentifier=_commandIdentifier;
-@property(copy, nonatomic) CEMAnyPayload *commandPayload; // @synthesize commandPayload=_commandPayload;
-@property(copy, nonatomic) NSNumber *commandRequiresNetworkTether; // @synthesize commandRequiresNetworkTether=_commandRequiresNetworkTether;
 @property(copy, nonatomic) NSString *commandType; // @synthesize commandType=_commandType;
 
 @end

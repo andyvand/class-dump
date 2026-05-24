@@ -9,8 +9,9 @@
 @protocol NSWindowDelegate
 
 @optional
-- (void)ENTITY_MEDIA_TYPE_AUDIO_TITLE;
-- (void)sitionBlurSpan;
+- (struct CGSize)shouldResolveDocumentStyle;
+- (void)ASSET_ENTITY_MEDIA_TYPE_AUDIO_TITLE;
+- (void)dropTransitionBlurSpan;
 - (void)Á±è¢÷þ¥Á±ä¢÷þ­Á±à¢÷þÅÁ±4fÿ;
 - (void);
 - (void)É;
@@ -20,13 +21,13 @@
 - (void);
 - (void);
 - (void)x©öþ;
-- (unsigned long long)emonadeMemoriesCreationUnavailableAlert;
+- (unsigned long long)LemonadeMemoriesCreationUnavailableAlert;
 - (void)ý;
 - (void)t'þþ;
-- (struct CGRect)archQueryFetcher;
+- (struct CGRect)LemonadeSuggestedSearchQueryFetcher;
 - (void)ÿ;
 - (void);
 - (_Bool)PhotosSearchResults;
-- (void)ilitiesFeature;
+- (void)LemonadeUtilitiesFeature;
 @end
 

@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     _Bool _isLowPowerModeEnabled;
 }
 
-+ (id);
-- (void);
++ (id)ing max pk for entityID = %u with old = %qd and new = %qd;
+- (void)ing unsupported page_size specified as truncate option:(id)arg1 %@;
 - (_Bool);
 - (id);
 

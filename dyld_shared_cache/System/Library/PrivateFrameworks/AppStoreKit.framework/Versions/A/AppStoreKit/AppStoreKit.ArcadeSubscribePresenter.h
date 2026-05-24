@@ -9,13 +9,9 @@
 @interface AppStoreKit.ArcadeSubscribePresenter : AppStoreKit.BasePresenter
 {
     id view;
-    id model;
-    id url;
-    id sidepack;
-    id subscriptionManager;
 }
 
-- (void);
+- (void);
 
 @end
 

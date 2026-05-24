@@ -5,5 +5,8 @@
 //
 
 @protocol CTXPCServiceSIMToolkitInterface
+- (void);
+- (void);
+- (void);
 @end
 

@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NSTableColumn, NSTableView;
+@class NSTableView;
 
 @interface IASLogDataSource
 {
     NSTableView *_logView;
-    NSMutableArray *_rootChildren;
-    NSMutableArray *_lineNumbers;
-    long long _currentLogFilter;
-    struct {
-        unsigned int _field1;
-        unsigned int _field2;
-        void *_field3;
-    } *_buf;
-    unsigned long long _lineIndex;
-    unsigned long long _longestStrlen;
-    unsigned long long _widestStringPx;
-    unsigned int _last_seen_offset;
-    NSString *_searchString;
-    NSTableColumn *_msgCol;
-    NSTableColumn *_lnCol;
 }
 
 - (void);
@@ -38,13 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

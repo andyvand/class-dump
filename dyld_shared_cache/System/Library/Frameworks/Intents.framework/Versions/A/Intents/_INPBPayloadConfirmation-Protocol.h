@@ -7,19 +7,14 @@
 @class NSString, _INPBSelectionItem;
 
 @protocol _INPBPayloadConfirmation
-- (void)odableAttributeMetadataKey;
-- (NSString *)Response;
+- (void)B;
+- (void);
+- (_INPBSelectionItem *);
+- (void)NULL data;
+- (void)__INCodableAttributeMetadataKey;
+- (NSString *)ListCarsIntentResponse;
 
 // Remaining properties
-@property(nonatomic) int addTasksIntentTargetTaskListConfirmationReason;
-@property(retain, nonatomic) _INPBSelectionItem *confirmationItem;
-@property(nonatomic) _Bool hasAddTasksIntentTargetTaskListConfirmationReason;
-@property(readonly, nonatomic) _Bool hasConfirmationItem;
-@property(nonatomic) _Bool hasReason;
-@property(nonatomic) _Bool hasSendAnnouncementIntentAnnouncementConfirmationReason;
-@property(nonatomic) _Bool hasStartCallIntentContactsConfirmationReason;
-@property(nonatomic) int reason;
 @property(nonatomic) int sendAnnouncementIntentAnnouncementConfirmationReason;
-@property(nonatomic) int startCallIntentContactsConfirmationReason;
 @end
 

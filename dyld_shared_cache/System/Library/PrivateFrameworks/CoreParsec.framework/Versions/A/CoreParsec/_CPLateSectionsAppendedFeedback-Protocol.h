@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray;
 
 @protocol _CPLateSectionsAppendedFeedback
+- (NSArray *)*K;
+- (unsigned long long)constraintsForVisibleLabel;
+- (void)TUVideoDeviceControllerUserPreferredCameraChangedNotification;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *sections;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

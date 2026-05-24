@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEntitlements;
-
 @protocol CKProcessInfo
 - (unsigned long long)ants:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) CKEntitlements *entitlements;
 @property(readonly) unsigned long long sessionType;
-@property(readonly) _Bool testingEnabled;
-@property(readonly) _Bool useDebugServices;
 @end
 

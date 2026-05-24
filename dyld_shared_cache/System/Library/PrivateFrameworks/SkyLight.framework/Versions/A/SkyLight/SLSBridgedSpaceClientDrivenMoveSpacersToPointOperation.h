@@ -9,29 +9,21 @@
 @interface SLSBridgedSpaceClientDrivenMoveSpacersToPointOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned long long _drivingSpaceID;
-    unsigned long long _verticalIndex;
-    unsigned long long _horizontalIndex;
-    unsigned long long _options;
-    struct CGPoint _point;
 }
 
 + (_Bool);
-- (void);
+- (void)currentQueryGeneration:%d /* Error: Ran out of types for this method. */;
+- (id)T;
+- (unsigned long long)ng formal transaction;
+- (unsigned long long);
+- (unsigned long long)(;
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 
 // Remaining properties
 @property(readonly) unsigned long long drivingSpaceID; // @synthesize drivingSpaceID=_drivingSpaceID;
-@property(readonly) unsigned long long horizontalIndex; // @synthesize horizontalIndex=_horizontalIndex;
-@property(readonly) unsigned long long options; // @synthesize options=_options;
-@property(readonly) struct CGPoint point; // @synthesize point=_point;
-@property(readonly) unsigned long long verticalIndex; // @synthesize verticalIndex=_verticalIndex;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface TDColorStop
 {
@@ -14,7 +14,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *colorName; // @dynamic colorName;
-@property(copy, nonatomic) NSNumber *stop; // @dynamic stop;
 
 @end
 

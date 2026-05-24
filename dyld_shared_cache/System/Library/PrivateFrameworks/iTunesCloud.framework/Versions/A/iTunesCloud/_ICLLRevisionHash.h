@@ -10,19 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _ICLLRevisionHash
 {
     NSString *_hashValue;
-    int _revision;
-    int _type;
-    struct {
-        unsigned int revision:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (id);
 - (void)tionForRemoteExecution:,V__shadowOperationForRemoteExecution /* Error: Ran out of types for this method. */;

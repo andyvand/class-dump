@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSOrientationObserver, NSString, UIWindow;
+@class FBSOrientationObserver, UIWindow;
 
 @interface AXUIDaemonApplicationDelegate
 {
     FBSOrientationObserver *_orientationObserver;
-    UIWindow *window;
 }
 
++ (id)|;
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id){;
++ (_Bool)&p;
+- (void)h|;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)o;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UIWindow *window; // @synthesize window;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UIWindow",?,&,N,Vwindow

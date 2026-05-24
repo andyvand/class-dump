@@ -4,44 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDLogicalDeviceContext, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKDTokenRegistrationScheduler
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_callbackBlocks;
-    NSMutableDictionary *_callbackTimers;
-    CKDLogicalDeviceContext *_deviceContext;
-    NSMutableDictionary *_unitTestingPushTokens;
 }
 
+- (void)core_AirQualityWeatherReportType_FineParticesPM10;
+- (void)UsoTaskBuilder_enableNotifications_common_FindMyStatus;
+- (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_combinedSenderListWithDisplayMessage: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id)onItem:task:error: /* Error: Ran out of types for this method. */;
+- (id)_didUploadMMCSSectionItem:task:error: /* Error: Ran out of types for this method. */;
 - (void)eing;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *callbackBlocks; // @synthesize callbackBlocks=_callbackBlocks;
-@property(readonly, nonatomic) NSMutableDictionary *callbackTimers; // @synthesize callbackTimers=_callbackTimers;
-@property(readonly, nonatomic) __weak CKDLogicalDeviceContext *deviceContext; // @synthesize deviceContext=_deviceContext;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSMutableDictionary *unitTestingPushTokens; // @synthesize unitTestingPushTokens=_unitTestingPushTokens;
 
 @end
 

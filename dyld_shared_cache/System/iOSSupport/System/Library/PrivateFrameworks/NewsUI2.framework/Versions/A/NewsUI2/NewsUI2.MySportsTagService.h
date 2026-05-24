@@ -7,12 +7,6 @@
 @interface NewsUI2.MySportsTagService
 {
     id sportsFavoritesService;
-    id sportsRecommendationManager;
-    id tagService;
-    id appConfigManager;
-    id sportsGraphManager;
-    id subscriptionController;
-    id sportsOnboardingManager;
 }
 
 @end

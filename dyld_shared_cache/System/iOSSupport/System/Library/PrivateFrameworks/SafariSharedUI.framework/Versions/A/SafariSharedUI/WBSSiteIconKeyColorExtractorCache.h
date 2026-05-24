@@ -9,26 +9,20 @@
 @interface WBSSiteIconKeyColorExtractorCache
 {
     UIColor *_color;
-    double _confidence;
-    double _nonTransparentConfidence;
-    struct UIEdgeInsets _insets;
 }
 
 - (void);
 - (double);
-- (id);
-- (struct UIEdgeInsets);
+- (id)ASDisplayableService;
+- (struct UIEdgeInsets)@;
 - (void);
 - (void);
 - (double);
 - (void);
-- (void)orURLString:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)removeIconForURLString:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) struct UIEdgeInsets insets; // @synthesize insets=_insets;
-@property(nonatomic) double nonTransparentConfidence; // @synthesize nonTransparentConfidence=_nonTransparentConfidence;
 
 @end
 

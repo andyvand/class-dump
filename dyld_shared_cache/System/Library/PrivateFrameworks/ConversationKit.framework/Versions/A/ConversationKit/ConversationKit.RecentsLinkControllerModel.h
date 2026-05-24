@@ -7,13 +7,6 @@
 @interface ConversationKit.RecentsLinkControllerModel
 {
     id needsUpdateState;
-    id updateQueue;
-    id delegate;
-    id tuLinks;
-    id hasNotifiedInitialLoad;
-    id updateState;
-    id _conversationLinks;
-    id suggestionsURLs;
 }
 
 @end

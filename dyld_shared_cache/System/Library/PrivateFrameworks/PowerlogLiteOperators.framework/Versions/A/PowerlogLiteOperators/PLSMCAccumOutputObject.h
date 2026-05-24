@@ -7,8 +7,6 @@
 @interface PLSMCAccumOutputObject
 {
     unsigned char _variant;
-    unsigned int _cycleCount;
-    double _channelValue;
 }
 
 + (id);
@@ -21,8 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) double channelValue; // @synthesize channelValue=_channelValue;
-@property(nonatomic) unsigned int cycleCount; // @synthesize cycleCount=_cycleCount;
-@property(nonatomic) unsigned char variant; // @synthesize variant=_variant;
 
 @end
 

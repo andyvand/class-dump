@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface MAAsset
 {
     NSDictionary *_attributes;
-    NSString *_assetType;
-    NSString *_assetId;
-    long long _state;
-    NSString *_purpose;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetId; // @synthesize assetId=_assetId;
-@property(readonly, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
 @property(readonly, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic) NSString *purpose; // @synthesize purpose=_purpose;
-@property(readonly) long long state; // @synthesize state=_state;
 @end
 

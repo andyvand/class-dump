@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface MogulPoint
 {
     _Bool _isExpired;
-    NSNumber *_balance;
-    NSDateComponents *_expiration;
-    NSString *_name;
 }
 
 - (void);
@@ -27,9 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSNumber *balance; // @synthesize balance=_balance;
-@property(retain) NSDateComponents *expiration; // @synthesize expiration=_expiration;
-@property _Bool isExpired; // @synthesize isExpired=_isExpired;
-@property(retain) NSString *name; // @synthesize name=_name;
 
 @end
 

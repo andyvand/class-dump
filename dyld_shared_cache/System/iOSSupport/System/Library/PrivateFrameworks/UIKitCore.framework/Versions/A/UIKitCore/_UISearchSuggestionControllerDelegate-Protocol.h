@@ -7,19 +7,14 @@
 @class UIColor, UITextField;
 
 @protocol _UISearchSuggestionControllerDelegate
+- (void)mAligned;
 
 @optional
+- (void)#�;
+- (UIColor *);
 - (UITextField *)_internal_coreHapticsEngineStoppedForReason: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *searchPlaceholderColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,N
-
-@property(readonly, nonatomic) UIColor *searchTextColor;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIColor",?,R,N
-
 @property(readonly, nonatomic) UITextField *searchTextField;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UITextField",?,R,N

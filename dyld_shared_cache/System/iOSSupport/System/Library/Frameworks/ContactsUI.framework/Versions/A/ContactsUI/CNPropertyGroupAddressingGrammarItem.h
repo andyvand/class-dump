@@ -25,7 +25,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool shouldShowLanguageLabel;
 @property(nonatomic) _Bool wasAdded; // @synthesize wasAdded=_wasAdded;
 
 @end

@@ -4,54 +4,48 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 @interface AVConferenceXPCClient
 {
     NSObject<OS_xpc_object> *connection;
-    NSMutableDictionary *registeredBlocks;
-    NSObject<OS_dispatch_queue> *replyQueue;
-    NSObject<OS_dispatch_queue> *connectionQueue;
-    _Bool connectionPersists;
 }
 
 + (id);
 - (void);
+- (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)96;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id)REMBaseSection;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)_saveAccount:(char *)arg1 inStore:(CDUnknownBlockType)arg2 updated: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (id)udioPlayerDTMF_ParseDTMFEventPacket;
-- (void)ingMachineCallSourceVoNROnAP;
+- (id)_VCAudioPlayerDTMF_ParseDTMFEventPacket;
+- (void)AVCAnsweringMachineCallSourceVoNROnAP;
 
 // Remaining properties
 @property(readonly) NSObject<OS_xpc_object> *connection; // @synthesize connection;
-@property _Bool connectionPersists; // @synthesize connectionPersists;
-@property(readonly) NSMutableDictionary *registeredBlocks; // @synthesize registeredBlocks;
 
 @end
 

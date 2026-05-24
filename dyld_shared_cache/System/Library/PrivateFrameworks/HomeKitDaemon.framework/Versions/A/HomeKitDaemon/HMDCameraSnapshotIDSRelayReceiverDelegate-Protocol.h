@@ -5,5 +5,6 @@
 //
 
 @protocol HMDCameraSnapshotIDSRelayReceiverDelegate
+- (void)!;
 @end
 

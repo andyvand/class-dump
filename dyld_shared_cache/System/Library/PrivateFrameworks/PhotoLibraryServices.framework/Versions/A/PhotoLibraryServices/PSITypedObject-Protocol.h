@@ -5,5 +5,6 @@
 //
 
 @protocol PSITypedObject
+- (id);
 @end
 

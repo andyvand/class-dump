@@ -5,5 +5,6 @@
 //
 
 @protocol CNLikenessEditorPresentationStrategy
+- (void);
 @end
 

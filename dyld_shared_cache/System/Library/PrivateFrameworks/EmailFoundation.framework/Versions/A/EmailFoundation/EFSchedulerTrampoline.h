@@ -9,7 +9,6 @@
 @interface EFSchedulerTrampoline
 {
     id <EFScheduler> _scheduler;
-    id _object;
 }
 
 + (id);
@@ -18,7 +17,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (void);
 

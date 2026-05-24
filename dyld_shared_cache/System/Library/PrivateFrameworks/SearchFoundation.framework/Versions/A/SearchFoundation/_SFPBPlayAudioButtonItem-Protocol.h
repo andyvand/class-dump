@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBAudioData, _SFPBMediaMetadata, _SFPBToggleButtonConfiguration;
+@class NSData, _SFPBMediaMetadata;
 
 @protocol _SFPBPlayAudioButtonItem
+- (void)h";
+- (_SFPBMediaMetadata *);
+- (id);
+- (NSData *)ceneTaxonomy",&,N,V_sceneTaxonomy84;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBAudioData *audioData;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBMediaMetadata *mediaMetadata;
-@property(retain, nonatomic) _SFPBToggleButtonConfiguration *toggleButtonConfiguration;
-@property(nonatomic) unsigned long long uniqueId;
 @end
 

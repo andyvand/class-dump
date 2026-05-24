@@ -6,20 +6,17 @@
 
 #import <PhotosGraph/PGTitleGenerator.h>
 
-@class NSObject, NSSet, NSString;
-@protocol OS_os_log;
+@class NSSet;
 
 @interface PGChildActivityMemoryTitleGenerator : PGTitleGenerator
 {
     NSSet *_activityLabels;
-    NSString *_childName;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (void)ssed;
+- (void)passed;
 
 @end
 

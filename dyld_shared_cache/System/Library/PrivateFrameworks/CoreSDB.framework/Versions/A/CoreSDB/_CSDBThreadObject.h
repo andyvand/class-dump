@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSRunLoop, NSString;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface _CSDBThreadObject
 {
     NSString *_identifier;
-    NSRunLoop *_runLoop;
-    struct __CFRunLoopSource *_runLoopSource;
-    NSString *_queueContext;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);

@@ -7,18 +7,6 @@
 @interface Speech.LanguageDetectorWorker
 {
     id $defaultActor;
-    id userSpeechProfiles;
-    id languageDetectorService;
-    id volatileRange;
-    id audioBufferService;
-    id audioFormat;
-    id resultStreamActor;
-    id didFinalizeToRange;
-    id didFailWithError;
-    id didDidFinish;
-    id didFinishContinuations;
-    id delegates;
-    id enqueue;
 }
 
 @end

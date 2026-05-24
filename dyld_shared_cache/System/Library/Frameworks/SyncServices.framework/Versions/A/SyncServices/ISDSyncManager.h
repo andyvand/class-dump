@@ -4,29 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDDataManager, NSDate, NSMutableArray, NSMutableDictionary, NSString;
+@class ISDDataManager;
 
 @interface ISDSyncManager
 {
     ISDDataManager *_dataManager;
-    NSMutableArray *_plans;
-    NSMutableArray *_runningPlans;
-    NSMutableArray *_pendingPlans;
-    NSMutableDictionary *_syncPlansAwaitingNegotiation;
-    NSMutableArray *_jobs;
-    NSMutableDictionary *_pendingSyncAfterParticipants;
-    NSMutableDictionary *_syncAfterParticipants;
-    NSMutableDictionary *_syncAfterParticipantsPlanMap;
-    NSDate *_lastSyncDate;
-    unsigned long long _syncCount;
-    double _deviceParticipantTimeoutInterval;
-    double _otherParticipantTimeoutInterval;
-    NSString *_syncServerName;
-    NSString *_dataDirectory;
-    _Bool _isKillable;
 }
 
-+ (void);
++ (void);
 - (id);
 - (id);
 - (void);
@@ -46,8 +31,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)특;
+- (void)P;
 - (id);
 - (void);
 - (id);
@@ -80,10 +65,10 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -92,12 +77,12 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)qI;
 - (id);
 
 @end

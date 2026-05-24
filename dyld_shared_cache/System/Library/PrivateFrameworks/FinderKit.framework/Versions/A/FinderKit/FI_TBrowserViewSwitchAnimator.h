@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface FI_TBrowserViewSwitchAnimator
 {
     NSWindow *_parentWindow;
-    NSWindow *_coverWindow;
-    struct TRef<CGImage *, TRetainReleasePolicy<CGImageRef>> _initialBrowserImage;
-    CALayer *_initialBrowserLayer;
-    struct TRef<CGImage *, TRetainReleasePolicy<CGImageRef>> _finalBrowserImage;
-    CALayer *_finalBrowserLayer;
 }
 
 - (void);
-- (void);
+- (void)98;
 - (void);
 - (id);
 - (id);

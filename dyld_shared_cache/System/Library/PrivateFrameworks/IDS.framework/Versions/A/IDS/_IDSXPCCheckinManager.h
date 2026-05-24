@@ -5,13 +5,10 @@
 //
 
 @class NSMutableDictionary;
-@protocol IDSXPCAdapter;
 
 @interface _IDSXPCCheckinManager
 {
     struct os_unfair_lock_s _checkinLock;
-    NSMutableDictionary *_connectionInfoByServiceIdentifier;
-    id <IDSXPCAdapter> _XPCAdapter;
 }
 
 + (id)Service"16@"IDSAccount"24@"NSString"32@"NSString"40@"NSData"48@"NSError"56;
@@ -20,11 +17,12 @@
 - (void);
 - (id);
 - (id);
+- (id)_prefPairVerifyDisabled;
+- (void)led with err=%#m
+;
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)ryPush;
 - (void);
 - (void);
 - (void);
@@ -32,8 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <IDSXPCAdapter> XPCAdapter; // @synthesize XPCAdapter=_XPCAdapter;
-@property(nonatomic) struct os_unfair_lock_s checkinLock; // @synthesize checkinLock=_checkinLock;
 @property(retain, nonatomic) NSMutableDictionary *connectionInfoByServiceIdentifier; // @synthesize connectionInfoByServiceIdentifier=_connectionInfoByServiceIdentifier;
 
 @end

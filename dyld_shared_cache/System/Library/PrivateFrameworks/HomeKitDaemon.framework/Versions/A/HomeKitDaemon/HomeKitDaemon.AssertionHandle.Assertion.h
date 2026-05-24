@@ -7,7 +7,6 @@
 @interface HomeKitDaemon.AssertionHandle.Assertion
 {
     id uuid;
-    id reason;
 }
 
 @end

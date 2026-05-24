@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (SmallDictionaryChanges)
-- (id);
+- (id)F;
 @end
 

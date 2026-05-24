@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAShapeLayer, UIBezierPath, UIColor;
+@class CAShapeLayer, UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UIWTCUnderlineDrawingView : UIView
@@ -14,19 +14,17 @@ __attribute__((visibility("hidden")))
     UIColor *_color;
 }
 
-+ (Class);
++ (Class)assetsWithMiniSINFsMatchingIdentifierSet: /* Error: Ran out of types for this method. */;
 - (id);
-- (struct CGSize);
+- (struct CGSize);
 - (id)±dð1Â0@ù
 × ;
 - (void)izedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
-- (void)uateFeedback:(id)arg1;
-- (id)UIPreviewInteractionClickImpl;
-- (void)nfigurationStateCIeggg_;
+- (void)actuateFeedback:(id)arg1;
+- (id)_UIPreviewInteractionClickImpl;
+- (void)So15UITableViewCellCSo24UICellConfigurationStateCIeggg_;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(copy, nonatomic) UIBezierPath *path;
 @property(readonly, nonatomic) CAShapeLayer *pathLayer;
 
 @end

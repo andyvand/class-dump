@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSAccountIdentity, NSNumber, NSString;
+@class NSString;
 
 @interface AMSOnDeviceDataSyncRequest
 {
     NSString *_datasetNamespace;
-    NSString *_idSource;
-    NSString *_idDomain;
-    NSString *_identifier;
-    AMSAccountIdentity *_accountIdentity;
-    NSString *_datasetName;
-    NSString *_idSuffix;
-    NSNumber *_afterDelay;
 }
 
 + (_Bool);
@@ -26,9 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)SSTranscriptBackgroundsSettingNotification;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)supportedPlaybackQueueTypesCount;
 - (void);
 - (id);
 - (id);
@@ -37,14 +30,7 @@
 - (void)î8¥ÜÅhna×êgT}XÏ[ÒþÓ(:nió<Ìûi~&±°Ø$÷÷oIDð	#<*lrü±oÕ8[ 3v´'ô=?/_°é/´+å( /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) AMSAccountIdentity *accountIdentity; // @synthesize accountIdentity=_accountIdentity;
-@property(readonly, nonatomic) NSNumber *afterDelay; // @synthesize afterDelay=_afterDelay;
-@property(readonly, nonatomic) NSString *datasetName; // @synthesize datasetName=_datasetName;
 @property(readonly, nonatomic) NSString *datasetNamespace; // @synthesize datasetNamespace=_datasetNamespace;
-@property(readonly, nonatomic) NSString *idDomain; // @synthesize idDomain=_idDomain;
-@property(readonly, nonatomic) NSString *idSource; // @synthesize idSource=_idSource;
-@property(readonly, nonatomic) NSString *idSuffix; // @synthesize idSuffix=_idSuffix;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

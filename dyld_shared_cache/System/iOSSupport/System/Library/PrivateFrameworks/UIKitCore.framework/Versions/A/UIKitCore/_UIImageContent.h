@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, CUINamedVectorGlyph, NSString, UIBezierPath, UIImageSymbolConfiguration;
-
 __attribute__((visibility("hidden")))
 @interface _UIImageContent
 {
     double _scale;
-    _Bool _isDecompressing;
-    struct CGSize _sizeInPixels;
 }
 
 + (_Bool);
@@ -19,40 +15,40 @@ __attribute__((visibility("hidden")))
 + (void);
 + (id);
 - (void);
+- (_Bool)relayTranslationWithMessageGUID:sourceLocaleIdentifier:destinationLocaleIdentifier:text:partIndex: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_deleteRecoverableMessagesWithRecordIDs:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)for:(id)arg1 %@   success:%{BOOL}d /* Error: Ran out of types for this method. */;
+- (id)tifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (struct CGSize)FullChatSyncFailed;
+- (struct CGSize)FullSyncCompleted;
+- (struct CGImageSource *)FullSyncFailed;
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (struct CGSize);
-- (struct CGSize);
-- (struct CGImageSource *);
-- (id);
-- (id);
-- (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)eHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/ssl/t1_lib.c;
 - (struct CGImage *);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (struct CGImage *);
 - (struct CGPDFPage *);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)mediaItemForIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)th",R,N,V_indexPath;
+- (_Bool)hlsKeyServerURL;
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (double);
 - (double);
-- (id);
+- (id);
 - (id);
 - (unsigned long long)× ;
 - (struct CGSize);
@@ -64,20 +60,20 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGSVGDocument *)="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}];
 - (struct CGImage *)sShouldUnderlapUnderStatusBar"b1"freezeShouldUnderlapUnderStatusBar"b1"shouldNotFreezeUnderlapsStatusBar"b1"monitorsSystemLayoutFittingSize"b1"shouldLoadInputAccessoryViewsOnAppearance"b1"useViewBasedTopAndBottomGuides"b1"didConfirmLayoutGuideClass"b1"restoresFocusAfterTransition"b2"hasFocusGroupIdentifier"b2"freezeLayoutForOrientationChangeOnDismissal"b1"viewRespectsSystemMinimumLayoutMargins"b1"ignoresWrapperViewForContentOverlayInsets"b1"overridesSetContentOverlayInsets"b1"isViewAttachedToWindow"b1"sendViewIsAppearingOnNextLayout"b1"isPerformingViewIsAppearing"b1"overridesContentScrollView"b1"overridesContentScrollViewForEdge"b1"didCheckContentScrollViewReturnValue"b1"usingContentScrollViewForUnknownPurpose"b1"hasTraitStorageList"b1"overrideUserInterfaceStyle"b2"overrideHorizontalSizeClass"b2"overrideUserInterfaceRenderingMode"b2"needsContentUnavailableConfigurationStateUpdate"b1"isInSupportedInterfaceOrientations"b1"isCounterRotating"b1"isDeallocInitiated"b1"isInternalSetParentViewController"b1"checkedDemoteUserInterfaceIdiomFromMac"b1"shouldDemoteUserInterfaceIdiomFromMac"b1"bridgedPresentationWasPresented"b1};
-- (_Bool)stureRecognizer:(id)arg1;
-- (void)iceWithBundleIdentifier:(struct CGSize)arg1 connectionHandler:(double)arg2;
+- (_Bool)touchesForGestureRecognizer:(id)arg1;
+- (void)requestViewController:(struct CGSize)arg1 traitCollection:(double)arg2 fromServiceWithBundleIdentifier:(struct CGContext *)arg3 connectionHandler:(id)arg4;
 - (double)beginAtPoint: /* Error: Ran out of types for this method. */;
-- (_Bool)imated: /* Error: Ran out of types for this method. */;
-- (struct __IOSurface *)te:withSize: /* Error: Ran out of types for this method. */;
-- (_Bool)ailingSwipeEdgeMultiplier;
-- (id)InteractionState:(struct CGSize)arg1;
-- (double)ithExecutionContext: /* Error: Ran out of types for this method. */;
-- (struct CGImage *)ncrementDidEndCount;
-- (void)GuideAnimationConstraintConstantForFullyVisibleButton;
-- (_Bool)ureRelationships;
+- (_Bool)_updateDisplayAnimated: /* Error: Ran out of types for this method. */;
+- (struct __IOSurface *)_unspecifiedStylePanelController:didChangeToState:withSize: /* Error: Ran out of types for this method. */;
+- (_Bool)_trailingSwipeEdgeMultiplier;
+- (id)_setInteractionState:(struct CGSize)arg1;
+- (double)_presentInlineTextCompletionCoachingUIWithExecutionContext: /* Error: Ran out of types for this method. */;
+- (struct CGImage *)_incrementDidEndCount;
+- (void)_contentLayoutGuideAnimationConstraintConstantForFullyVisibleButton;
+- (_Bool)_automaticallyAddsFailureRelationships;
 - (id)m;
-- (id)ntrollerPreferredInterfaceOrientationForPresentation:(double)arg1;
-- (struct __IOSurface *)ceneDisplayClientComponent;
+- (id)pageViewControllerPreferredInterfaceOrientationForPresentation:(double)arg1;
+- (struct __IOSurface *)_UIApplicationSceneDisplayClientComponent;
 - (unsigned long long)ø	;
 - (id)up-neighbor;
 - (struct CGImage *)d<UIFocusEnvironment> _Nonnull);
@@ -96,24 +92,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)Fúþ;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *CGImage;
-@property(readonly, nonatomic) struct CGImageSource *CGImageSource;
-@property(readonly, nonatomic) struct CGPDFPage *CGPDFPage;
-@property(readonly, nonatomic) struct CGSVGDocument *CGSVGDocument;
-@property(readonly, nonatomic) CIImage *CIImage;
-@property(readonly, nonatomic) struct __IOSurface *IOSurface;
-@property(readonly, nonatomic) UIImageSymbolConfiguration *_automaticSymbolConfiguration;
-@property(readonly, nonatomic) struct __IOSurface *alternateIOSurface;
-@property(nonatomic) _Bool isDecompressing; // @synthesize isDecompressing=_isDecompressing;
-@property(readonly, nonatomic) id layerContents;
-@property(readonly, nonatomic) UIBezierPath *outlinePath;
 @property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) struct CGSize size;
-@property(readonly, nonatomic) struct CGSize sizeInPixels; // @synthesize sizeInPixels=_sizeInPixels;
-@property(readonly, nonatomic) NSString *typeName;
-@property(readonly, nonatomic) double variableValue;
-@property(readonly, nonatomic) CUINamedVectorGlyph *vectorGlyph;
-@property(readonly, nonatomic) double vectorScale;
 
 @end
 

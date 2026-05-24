@@ -4,30 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
-
 @interface AMSFeatureFlag
 {
     _Bool _defaultEnabled;
-    _Bool _enabled;
-    _Bool _userEnabled;
-    _Bool _hidden;
-    NSString *_associatedGroup;
-    long long _developmentPhase;
-    NSString *_feature;
-    NSDictionary *_flagData;
-    NSString *_displayName;
-    NSString *_domain;
-    NSString *_featureDescription;
-    NSString *_flagGroup;
-    NSArray *_itfes;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
@@ -38,31 +24,31 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id)addFailedEditPartIndex: /* Error: Ran out of types for this method. */;
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)gps;
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (_Bool);
+- (long long)SystemPlaybackQueueTypeUnknown;
 - (long long);
-- (long long);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)C;
+- (_Bool)d!;
 - (_Bool);
 - (void);
+- (_Bool);
+- (void)P;
 - (id);
 - (void);
 - (void);
@@ -81,23 +67,7 @@
 - (long long)Eîÿl;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *ITFE;
-@property(copy, nonatomic) NSString *associatedGroup; // @synthesize associatedGroup=_associatedGroup;
 @property(nonatomic, getter=isCodeComplete) _Bool codeComplete;
-@property(nonatomic, getter=isDefaultEnabled) _Bool defaultEnabled; // @synthesize defaultEnabled=_defaultEnabled;
-@property(nonatomic) long long developmentPhase; // @synthesize developmentPhase=_developmentPhase;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(copy, nonatomic) NSString *feature; // @synthesize feature=_feature;
-@property(copy, nonatomic) NSString *featureDescription; // @synthesize featureDescription=_featureDescription;
-@property(retain, nonatomic) NSDictionary *flagData; // @synthesize flagData=_flagData;
-@property(copy, nonatomic) NSString *flagGroup; // @synthesize flagGroup=_flagGroup;
-@property(nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(retain, nonatomic) NSArray *itfes; // @synthesize itfes=_itfes;
-@property(readonly, nonatomic, getter=isRemote) _Bool remote;
-@property(nonatomic, getter=isTestable) _Bool testable;
-@property(nonatomic, getter=isUserEnabled) _Bool userEnabled; // @synthesize userEnabled=_userEnabled;
 
 @end
 

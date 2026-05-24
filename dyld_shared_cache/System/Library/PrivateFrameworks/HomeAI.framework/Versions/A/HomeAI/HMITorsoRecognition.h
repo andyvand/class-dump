@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMITorsoClassification, HMITorsoprint, NSSet, NSUUID;
+@class HMITorsoprint;
 
 @interface HMITorsoRecognition
 {
     HMITorsoprint *_torsoprint;
-    HMITorsoClassification *_classification;
-    NSSet *_predictedLinkedEntityUUIDs;
-    long long _sessionEntityAssignment;
-    NSUUID *_sessionEntityUUID;
 }
 
 + (_Bool);
@@ -24,14 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (void);
 
 // Remaining properties
-@property(readonly) HMITorsoClassification *classification; // @synthesize classification=_classification;
-@property(readonly) NSSet *predictedLinkedEntityUUIDs; // @synthesize predictedLinkedEntityUUIDs=_predictedLinkedEntityUUIDs;
-@property(readonly) long long sessionEntityAssignment; // @synthesize sessionEntityAssignment=_sessionEntityAssignment;
-@property(readonly) NSUUID *sessionEntityUUID; // @synthesize sessionEntityUUID=_sessionEntityUUID;
 @property(readonly) HMITorsoprint *torsoprint; // @synthesize torsoprint=_torsoprint;
 
 @end

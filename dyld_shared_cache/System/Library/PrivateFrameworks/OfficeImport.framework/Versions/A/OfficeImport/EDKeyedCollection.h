@@ -23,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (void)estIndex;
+- (unsigned long long)s to support memoryless render pass attachments.;
+- (void)_highestIndex;
 - (void);
 
 @end

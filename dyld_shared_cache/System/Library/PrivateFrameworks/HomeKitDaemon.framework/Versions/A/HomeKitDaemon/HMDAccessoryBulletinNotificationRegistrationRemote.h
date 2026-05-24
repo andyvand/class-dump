@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessoryBulletinNotificationRegistration, HMDBulletinNotificationRegistrationSource;
+@class HMDAccessoryBulletinNotificationRegistration;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryBulletinNotificationRegistrationRemote
 {
     HMDAccessoryBulletinNotificationRegistration *_registration;
-    HMDBulletinNotificationRegistrationSource *_source;
 }
 
 + (_Bool)¤µ9LëM;
@@ -18,15 +17,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id)peTimeOfDayTimeSpecificationWithModelID:(struct _NSZone *)arg1;
-- (id)EnabledOnThisDevice:forceNotify:message: /* Error: Ran out of types for this method. */;
+- (id)createEndElementRelationOfTypeTimeOfDayTimeSpecificationWithModelID:(struct _NSZone *)arg1;
+- (id)_updateResidentEnabledOnThisDevice:forceNotify:message: /* Error: Ran out of types for this method. */;
 - (id)%{public}@Discovery client lost device:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id)øãçÿ;
 
 // Remaining properties
 @property(readonly, copy) HMDAccessoryBulletinNotificationRegistration *registration; // @synthesize registration=_registration;
-@property(readonly, copy) HMDBulletinNotificationRegistrationSource *source; // @synthesize source=_source;
 
 @end
 

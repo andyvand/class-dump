@@ -6,90 +6,81 @@
 
 #import <AVFCapture/AVCaptureOutput.h>
 
-@class AVCaptureStillImageOutputInternal, NSArray, NSDictionary;
+@class AVCaptureStillImageOutputInternal, NSDictionary;
 
 @interface AVCaptureStillImageOutput : AVCaptureOutput
 {
     AVCaptureStillImageOutputInternal *_internal;
 }
 
-+ (id);
++ (id)7uQ];
 + (unsigned long long);
 + (id);
 + (struct __CFDictionary *);
 + (id);
 + (void)É?;
-- (void);
-- (unsigned int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (struct CGSize);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)enumerateItemsInSectionAtIndex:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (unsigned int)callbackWithQueue:block: /* Error: Ran out of types for this method. */;
+- (void)addTextField:(unsigned int)arg1;
+- (void)_tertiaryDropShadowColor;
+- (void)_scheduleTest;
+- (void)_package;
+- (void)mat:(_Bool)arg1 arguments: /* Error: Ran out of types for this method. */;
+- (void)_compressionQuality;
+- (struct CGSize)SURL",R,N,V_destinationURL;
+- (void)"NSString",R,C,N,V_name;
+- (struct CGSize)tions;
+- (unsigned long long)ray",R,N;
+- (_Bool)createSavepoint;
+- (_Bool)bindBoolValue:toParameterNamed: /* Error: Ran out of types for this method. */;
+- (_Bool)ta",&,N,V_ttmlData;
+- (_Bool)alsePositiveTolerance;
+- (unsigned int)4;
 - (void);
 - (void);
 - (id);
+- (void)n] <%p> Starting QUIC connection.;
+- (void)ot parse error message.;
+- (void)sage:(id)arg1 [%@]%{public}@;
+- (void)om unknown protocol. Content:(id)arg1 %{private}@;
+- (id)er %p Took RBSAssertion %p %{public}@ [%{public}@];
+- (id)ed [%{public}@];
+- (_Bool)[%{public}@];
+- (void)ination:(id)arg1 imageSource cannot be NULL;
+- (void)e_t, CGImageDestinationRef, CGFloat);
+- (_Bool)lt;;
+- (id)line;
+- (id)itunes:(id)arg1 artistId;
+- (_Bool)%02x;
+- (_Bool)type MSVArtworkServiceConversionRequest;
+- (void);
+- (_Bool);
+- (void)verifyCredentialsForAccount:options:completion: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)a contact match:%{sensitive}@ ->  %{sensitive}@ in Contacts /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)_aggdStereoFusionProcessingStatusStringFromProcessingStatus:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)kCount;
-- (void)rInitiatedPhotoRequestTime:(id)arg1;
+- (id)timeOfFlightBankCount;
+- (void)setUserInitiatedPhotoRequestTime:(id)arg1;
 - (void)ilizer:(id)arg1;
-- (_Bool)orted;
-- (void)ctChange;
-- (id)onnectedNotification: /* Error: Ran out of types for this method. */;
-- (void)eBufferFromSampleBuffer:(id)arg1 forceClean:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (_Bool)_zoomPictureInPictureOverlaySupported;
+- (void)_havePendingPrimaryCaptureRectChange;
+- (id)_handleDeviceConnectedNotification: /* Error: Ran out of types for this method. */;
+- (void)_copyTransformedSampleBufferFromSampleBuffer:(id)arg1 forceClean:(id)arg2 error: /* Error: Ran out of types for this method. */;
 - (void)@Ò;
 - (void)¨B<CEÔJK;
 - (void)elegate must respond to the selector captureOutput:(id)arg1 didFinishProcessingLivePhotoToMovieFileAtURL:duration:photoDisplayTime:resolvedSettings:error: /* Error: Ran out of types for this method. */;
 - (_Bool)o get still image formats;
 
 // Remaining properties
-@property(nonatomic) _Bool automaticallyEnablesStillImageStabilizationWhenAvailable;
-@property(readonly, nonatomic) NSArray *availableImageDataCVPixelFormatTypes;
-@property(readonly, nonatomic) NSArray *availableImageDataCodecTypes;
-@property(nonatomic, getter=isCameraSensorOrientationCompensationEnabled) _Bool cameraSensorOrientationCompensationEnabled;
-@property(readonly, nonatomic, getter=isCameraSensorOrientationCompensationSupported) _Bool cameraSensorOrientationCompensationSupported;
-@property(readonly, getter=isCapturingStillImage) _Bool capturingStillImage;
-@property(nonatomic, getter=isHighResolutionStillImageOutputEnabled) _Bool highResolutionStillImageOutputEnabled;
 @property(copy, nonatomic) NSDictionary *outputSettings;
-@property(readonly, nonatomic, getter=isStillImageStabilizationActive) _Bool stillImageStabilizationActive;
-@property(readonly, nonatomic, getter=isStillImageStabilizationSupported) _Bool stillImageStabilizationSupported;
 
 @end
 

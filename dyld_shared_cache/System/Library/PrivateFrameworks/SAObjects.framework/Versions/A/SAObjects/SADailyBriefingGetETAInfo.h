@@ -16,11 +16,10 @@
 - (double);
 - (_Bool);
 - (void)|;
-- (double)er;
+- (double)dueAfter;
 
 // Remaining properties
 @property(nonatomic) double latitude;
-@property(nonatomic) double longitude;
 
 @end
 

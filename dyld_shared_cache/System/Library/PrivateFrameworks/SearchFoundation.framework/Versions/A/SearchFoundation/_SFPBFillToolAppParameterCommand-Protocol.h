@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @protocol _SFPBFillToolAppParameterCommand
+- (id);
+- (NSData *)ey",&,N,V_photosMemoryIdentifiersKey;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationPath;
-@property(copy, nonatomic) NSString *bundleIdentifier;
 @property(copy, nonatomic) NSData *encodedTypedValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

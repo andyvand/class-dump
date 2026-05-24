@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (id)scriptionKey;
+- (id)NSDescriptionKey;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;

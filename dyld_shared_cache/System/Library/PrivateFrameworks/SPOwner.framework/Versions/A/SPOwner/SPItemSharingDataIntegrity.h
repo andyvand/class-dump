@@ -9,22 +9,20 @@
 @interface SPItemSharingDataIntegrity
 {
     NSArray *_ownedCircles;
-    NSArray *_memberCircles;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)nteracted;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *memberCircles; // @synthesize memberCircles=_memberCircles;
 @property(copy, nonatomic) NSArray *ownedCircles; // @synthesize ownedCircles=_ownedCircles;
 
 @end

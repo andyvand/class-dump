@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLToolsDevice;
-@protocol MTLDevice;
-
 @interface MTLToolsObject
 {
     MTLToolsObject *_parent;
-    MTLToolsObject *_baseObject;
-    MTLToolsDevice *_device;
-    _Atomic int _externalReferences;
 }
 
 - (id);
@@ -21,14 +15,13 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id) ;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) id baseObject; // @synthesize baseObject=_baseObject;
-@property(readonly) id <MTLDevice> device;
 
 @end
 

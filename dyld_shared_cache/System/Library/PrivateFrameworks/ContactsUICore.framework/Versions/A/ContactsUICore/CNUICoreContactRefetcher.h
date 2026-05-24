@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
 @protocol CNUICoreContactStoreFacade;
 
 @interface CNUICoreContactRefetcher
 {
     id <CNUICoreContactStoreFacade> _contactStore;
-    NSArray *_contactsToRefetch;
-    NSArray *_keysToFetch;
 }
 
 + (id);
@@ -24,14 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)argetForVideoWithSkype;
+- (id)C;
+- (void)targetForVideoWithSkype;
 - (id)ßÑ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNUICoreContactStoreFacade> contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) NSArray *contactsToRefetch; // @synthesize contactsToRefetch=_contactsToRefetch;
-@property(readonly, nonatomic) NSArray *keysToFetch; // @synthesize keysToFetch=_keysToFetch;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, WBSSQLiteDatabase, WBSSafariBookmarksSyncAgentProxy;
-@protocol OS_dispatch_queue;
+@class NSURL, WBSSafariBookmarksSyncAgentProxy;
 
 @interface WBSPerSitePreferencesSQLiteStore
 {
     NSURL *_databaseURL;
-    NSObject<OS_dispatch_queue> *_databaseQueue;
-    WBSSQLiteDatabase *_database;
-    WBSSafariBookmarksSyncAgentProxy *_syncProxy;
 }
 
 + (id);
@@ -25,6 +21,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,8 +33,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -57,10 +53,10 @@
 - (int);
 - (int);
 - (int);
-- (int);
+- (int)?;
 - (_Bool);
 - (int);
-- (id);
+- (id)P;
 - (int);
 - (void);
 - (void);
@@ -68,7 +64,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ework/Versions/A/CoreGraphics;
 - (void);
 - (id);
 - (void)JSContext *>>::validateKey(const ValueType &) [Key = OpaqueJSContext *, Value = WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<OpaqueJSContext *, OpaqueJSWeakObjectMap *>>, HashFunctions = WTF::DefaultHash<OpaqueJSContext *>, Traits = WTF::HashMap<OpaqueJSContext *, OpaqueJSWeakObjectMap *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<OpaqueJSContext *>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;

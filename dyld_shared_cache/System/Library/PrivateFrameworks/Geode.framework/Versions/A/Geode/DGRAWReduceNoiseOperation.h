@@ -9,8 +9,6 @@
 @interface DGRAWReduceNoiseOperation : DGOperation
 {
     double _inputLNRAmount;
-    double _inputCNRAmount;
-    double _inputDetailAmount;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (double);
@@ -38,10 +36,6 @@
 - (id)À.nÉ?;
 
 // Remaining properties
-@property(readonly, nonatomic) double filterCNRAmount;
-@property(readonly, nonatomic) double filterLNRAmount;
-@property(nonatomic) double inputCNRAmount; // @synthesize inputCNRAmount=_inputCNRAmount;
-@property(nonatomic) double inputDetailAmount; // @synthesize inputDetailAmount=_inputDetailAmount;
 @property(nonatomic) double inputLNRAmount; // @synthesize inputLNRAmount=_inputLNRAmount;
 
 @end

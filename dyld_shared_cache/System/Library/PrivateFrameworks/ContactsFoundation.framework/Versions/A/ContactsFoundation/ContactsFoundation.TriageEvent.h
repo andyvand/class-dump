@@ -7,14 +7,6 @@
 @interface ContactsFoundation.TriageEvent
 {
     id logger;
-    id signposter;
-    id timeProvider;
-    id identifier;
-    id eventName;
-    id metadata;
-    id start;
-    id signpostID;
-    id signpostState;
 }
 
 @end

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSFDERecord, CSFallbackStingrayRecord, CSLRCFedRecord, CSLRCRecord, CSStingrayRecord;
+@class CSStingrayRecord;
 
 @interface CSStingrayAccountStatus
 {
     CSStingrayRecord *_dbrRecord;
-    CSFallbackStingrayRecord *_fallbackRecord;
-    CSFDERecord *_fdeRecord;
-    CSLRCFedRecord *_lrcFedRecord;
-    CSLRCRecord *_lrcRecord;
-    CSStingrayRecord *_stingrayRecord;
 }
 
 - (id);
-- (void);
+- (void)k	;
 - (void);
 - (void);
 - (void);
@@ -25,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -37,27 +32,16 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ns (%@). error = %@;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CSStingrayRecord *dbrRecord; // @synthesize dbrRecord=_dbrRecord;
-@property(retain, nonatomic) CSFallbackStingrayRecord *fallbackRecord; // @synthesize fallbackRecord=_fallbackRecord;
-@property(retain, nonatomic) CSFDERecord *fdeRecord; // @synthesize fdeRecord=_fdeRecord;
-@property(readonly, nonatomic) _Bool hasDbrRecord;
-@property(readonly, nonatomic) _Bool hasFallbackRecord;
-@property(readonly, nonatomic) _Bool hasFdeRecord;
-@property(readonly, nonatomic) _Bool hasLrcFedRecord;
-@property(readonly, nonatomic) _Bool hasLrcRecord;
 @property(readonly, nonatomic) _Bool hasStingrayRecord;
-@property(retain, nonatomic) CSLRCFedRecord *lrcFedRecord; // @synthesize lrcFedRecord=_lrcFedRecord;
-@property(retain, nonatomic) CSLRCRecord *lrcRecord; // @synthesize lrcRecord=_lrcRecord;
-@property(retain, nonatomic) CSStingrayRecord *stingrayRecord; // @synthesize stingrayRecord=_stingrayRecord;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NEVPNPluginManager
+- (void);
 @end
 

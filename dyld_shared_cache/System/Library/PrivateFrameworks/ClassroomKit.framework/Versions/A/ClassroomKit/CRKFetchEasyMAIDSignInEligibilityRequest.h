@@ -8,7 +8,7 @@
 {
 }
 
-+ (Class);
++ (Class)';
 + (_Bool);
 
 @end

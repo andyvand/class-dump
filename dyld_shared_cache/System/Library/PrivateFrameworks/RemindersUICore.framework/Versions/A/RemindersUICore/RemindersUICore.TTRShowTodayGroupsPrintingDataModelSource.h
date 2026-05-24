@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRShowTodayGroupsPrintingDataModelSource
 {
     id store;
-    id showCompleted;
-    id sortingStyle;
 }
 
 @end

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMDMediaGroupsAggregateData
 {
     NSArray *_destinations;
-    NSArray *_destinationControllersData;
-    NSArray *_groups;
 }
 
 - (void);
@@ -19,12 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)W;
 - (id);
 - (id);
 - (id);
@@ -35,17 +33,15 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id)rType:(struct _NSZone *)arg1 reason: /* Error: Ran out of types for this method. */;
-- (id)mes:subject: /* Error: Ran out of types for this method. */;
+- (id)initWithTrackerType:(struct _NSZone *)arg1 reason: /* Error: Ran out of types for this method. */;
+- (id)__decodeHostnames:subject: /* Error: Ran out of types for this method. */;
 - (void)g device %@, but will still fall back to sending user confirmation;
 - (void)esidentSelectionMode:%lu, triggerReason:%lu, numResidentsREV3Capable:%lu, numResidentsREV3Incompatible:%lu /* Error: Ran out of types for this method. */;
-- (id)fo;
+- (id)NetworkServiceInfo;
 - (void)D=;
 
 // Remaining properties
-@property(copy) NSArray *destinationControllersData; // @synthesize destinationControllersData=_destinationControllersData;
 @property(copy) NSArray *destinations; // @synthesize destinations=_destinations;
-@property(copy) NSArray *groups; // @synthesize groups=_groups;
 
 @end
 

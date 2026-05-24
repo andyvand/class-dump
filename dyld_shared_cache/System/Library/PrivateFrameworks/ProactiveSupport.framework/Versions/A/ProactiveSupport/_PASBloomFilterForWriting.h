@@ -10,8 +10,9 @@
 {
 }
 
-+ (id);
-- (_Bool);
++ (id)_commitData:(unsigned long long)arg1;
+- (_Bool)lush took %f seconds, split state %d
+;
 - (void);
 
 @end

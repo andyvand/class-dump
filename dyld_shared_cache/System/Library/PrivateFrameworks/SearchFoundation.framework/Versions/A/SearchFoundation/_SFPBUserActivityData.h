@@ -4,28 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface _SFPBUserActivityData
 {
     NSString *_activityType;
-    NSArray *_userInfos;
 }
 
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)equestIdentifier;
 - (_Bool);
-- (void);
-- (id);
+- (void)e;
+- (id)setImageConversionServiceClient:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -34,15 +33,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *userInfos; // @synthesize userInfos=_userInfos;
 
 @end
 

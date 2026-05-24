@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXStoryModel, PXStoryVisualDiagnosticsProviderHelper;
+@class PXStoryVisualDiagnosticsProviderHelper;
 
 @interface PXStoryKeyAssetVisualDiagnosticsProvider
 {
     PXStoryVisualDiagnosticsProviderHelper *_helper;
-    PXStoryModel *_model;
 }
 
 - (void);
 - (void);
 - (void);
+- (id)initWithBarButtonSystemItem:target:action: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id)x_valueWithSimpleIndexPath: /* Error: Ran out of types for this method. */;
+- (id)px_valueWithSimpleIndexPath: /* Error: Ran out of types for this method. */;
 - (id)ndicatedAssets;
 - (void)¬µÿ³Aüþ%³Aüþå³Aüþ³XÒlÿ¥³ÀBüþ%³xÿÿÿ]³ÜÒlÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryVisualDiagnosticsProviderHelper *helper; // @synthesize helper=_helper;
-@property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
 
 @end
 

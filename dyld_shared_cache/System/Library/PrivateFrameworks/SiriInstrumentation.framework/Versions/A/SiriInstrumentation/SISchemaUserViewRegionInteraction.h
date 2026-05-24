@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUserViewRegionInteraction : SISchemaInstrumentationMessage
 {
     int _viewRegionDesignation;
-    int _userViewInteraction;
-    struct {
-        unsigned int viewRegionDesignation:1;
-        unsigned int userViewInteraction:1;
-    } _has;
 }
 
 - (int);
@@ -30,19 +23,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)invalidate;
+- (_Bool)G;
+- (_Bool)l;
 - (id);
 - (id);
-- (id)dTriggered;
-- (id)reReasonCategory;
+- (id)deleteImmediateDownloadTriggered;
+- (id)_hasFailureReasonCategory;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUserViewInteraction;
-@property(nonatomic) _Bool hasViewRegionDesignation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int userViewInteraction; // @synthesize userViewInteraction=_userViewInteraction;
 @property(nonatomic) int viewRegionDesignation; // @synthesize viewRegionDesignation=_viewRegionDesignation;
 
 @end

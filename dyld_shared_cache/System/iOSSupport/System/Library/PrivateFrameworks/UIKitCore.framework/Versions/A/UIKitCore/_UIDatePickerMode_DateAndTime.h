@@ -6,23 +6,10 @@
 
 #import <UIKitCore/_UIDatePickerMode.h>
 
-@class NSDateFormatter, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerMode_DateAndTime : _UIDatePickerMode
 {
     _Bool _weekdayLast;
-    double _wmdWeekMonthDayWidth;
-    double _wmdHourWidth;
-    double _wmdMinuteWidth;
-    double _wmdAMPMWidth;
-    double _wmdWeekdayWidth;
-    NSString *_weekdayFormat;
-    NSString *_monthDayFormat;
-    NSString *_hourFormat;
-    NSString *_minuteFormat;
-    NSDateFormatter *_relativeFormatter;
-    NSDateFormatter *_weekdayFormatter;
 }
 
 + (unsigned long long);
@@ -33,26 +20,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (long long);
-- (void);
+- (long long)respondToNotificationWithIdentifier:(id)arg1 sessionIdentifier:(id)arg2 actionIdentifier:(long long)arg3 completion:(long long)arg4;
+- (void)removeChat:style: /* Error: Ran out of types for this method. */;
+- (id)postUrgentNotificationsForMessageGUIDs: /* Error: Ran out of types for this method. */;
+- (long long)indexingDelegate;
+- (void)idsDeviceForFromID: /* Error: Ran out of types for this method. */;
+- (unsigned long long)has_minThumbSizeHeight;
+- (unsigned long long)has_hasBeenRetried;
+- (void)editedMessagePartIndex;
+- (_Bool)createCKRecordForUpdateT2:zoneID:salt: /* Error: Ran out of types for this method. */;
+- (long long)mpletionBlocksForAssetFetchOperations;
+- (id)sageTimeStamp:(unsigned long long)arg1 groupPhotoCreationTime:pendingGroupModification: /* Error: Ran out of types for this method. */;
+- (id)ersion:(long long)arg1 receivedGroupProtocolVersion:(unsigned long long)arg2 messageTimeStamp:groupPhotoCreationTime:pendingGroupModification: /* Error: Ran out of types for this method. */;
+- (double);
 - (id);
-- (long long);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void);
+- (void)l;
+- (_Bool);
 - (_Bool);
-- (long long);
-- (id);
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (void).SMSReceivedRelayPinCode;
+- (id)torage+ReadReceipts;
 - (id);
 - (void);
 - (unsigned long long *)t9æþ;

@@ -6,8 +6,6 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class NSString;
-
 @interface HAP2EncodedEmptyRequestThread : HAP2LoggingObject
 {
     unsigned long long _requestType;
@@ -21,16 +19,7 @@
 - (unsigned long long)update failure propagation.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long type;
 
 @end
 

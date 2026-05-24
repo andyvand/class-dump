@@ -9,33 +9,18 @@
 @interface AppKit.NSSuggestionsMenu
 {
     id delegate;
-    id behavior;
-    id items;
-    id positioningRect;
-    NSAppearance *appearance;
-    id _highlightedItem;
-    id windowController;
-    id positioningView;
-    id positioningViewGeometryInWindowObserver;
-    id localEventMonitor;
-    id windowResignKeyObserver;
-    id observingMenuUp;
-    id preferredScrollerStyleDidChangeNotificationObserver;
-    id listenToPreferredScrollerStyleDidChangeNotification;
-    id listenToPositioningViewEffectiveAppearanceDidChange;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)6rS;
 - (id);
 - (void);
+- (id);
+- (void);
 - (void)ÎBH;
 
 // Remaining properties
 @property(nonatomic, retain) NSAppearance *appearance; // @synthesize appearance;
-@property(nonatomic, readonly) NSAppearance *effectiveAppearance;
 
 @end
 

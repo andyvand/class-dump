@@ -6,38 +6,30 @@
 
 #import <OSAnalytics/OSAStackShotReport.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface OSACrackShotReport : OSAStackShotReport
 {
     int _cpuType;
-    NSString *_procPath;
-    NSString *_bundleID;
-    NSDictionary *_termination_info;
-    _Bool _isSystemWatchdog;
-    unsigned long long _awakeSystemUptime;
-    _Bool _isSnapshotDisabled;
-    NSDictionary *_spindump;
 }
 
-+ (id);
-+ (id);
++ (id)ew",&,V_providerImageView;
++ (id)sView",R,D;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)+;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)_namedEntityStore;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) _Bool isSnapshotDisabled; // @synthesize isSnapshotDisabled=_isSnapshotDisabled;
 @property(retain, nonatomic) NSDictionary *spindump; // @synthesize spindump=_spindump;
 
 @end

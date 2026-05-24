@@ -14,19 +14,19 @@
 + (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool):(id)arg1 ;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)v;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id)_resourcesURL;
 
 @end
 

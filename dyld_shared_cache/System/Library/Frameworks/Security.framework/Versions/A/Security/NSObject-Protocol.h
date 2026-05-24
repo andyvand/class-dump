@@ -7,15 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (_Bool)S ;
+- (_Bool)@i ;
+- (_Bool);
 - (struct _NSZone *)s not a dictionary;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)*	;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

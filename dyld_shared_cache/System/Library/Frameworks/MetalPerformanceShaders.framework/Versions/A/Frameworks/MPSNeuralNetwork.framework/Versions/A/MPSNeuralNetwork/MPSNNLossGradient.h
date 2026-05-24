@@ -6,23 +6,9 @@
 
 #import <MPSNeuralNetwork/MPSCNNBinaryKernel.h>
 
-@class MPSMatrix;
-@protocol MPSNNLossCallback, MTLTexture;
-
 @interface MPSNNLossGradient : MPSCNNBinaryKernel
 {
     _Bool _reduceAcrossBatch;
-    id <MPSNNLossCallback> _propertyCallback;
-    MPSMatrix *_reductionBuffer;
-    id <MTLTexture> _firstLossGradientImage;
-    _Bool _computeLabelGradients;
-    unsigned int _lossType;
-    int _reductionType;
-    float _weight;
-    float _labelSmoothing;
-    float _epsilon;
-    float _delta;
-    unsigned long long _numberOfClasses;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -44,8 +30,8 @@
 - (id);
 - (void);
 - (float);
-- (void);
-- (unsigned long long);
+- (void)R;
+- (unsigned long long)encodeToCommandEncoder:commandBuffer:sourceMatrix:resultMatrix:pivotIndices:status: /* Error: Ran out of types for this method. */;
 - (void);
 - (float);
 - (id);
@@ -55,15 +41,7 @@
 - (float);
 
 // Remaining properties
-@property(nonatomic) _Bool computeLabelGradients; // @synthesize computeLabelGradients=_computeLabelGradients;
-@property(nonatomic) float delta; // @synthesize delta=_delta;
-@property(nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(nonatomic) float labelSmoothing; // @synthesize labelSmoothing=_labelSmoothing;
 @property(readonly, nonatomic) unsigned int lossType; // @synthesize lossType=_lossType;
-@property(readonly, nonatomic) unsigned long long numberOfClasses; // @synthesize numberOfClasses=_numberOfClasses;
-@property(readonly, nonatomic) _Bool reduceAcrossBatch; // @synthesize reduceAcrossBatch=_reduceAcrossBatch;
-@property(readonly, nonatomic) int reductionType; // @synthesize reductionType=_reductionType;
-@property(nonatomic) float weight; // @synthesize weight=_weight;
 
 @end
 

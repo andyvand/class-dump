@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.SignpostingMinimumAgePolicy
 {
     id log;
-    id name;
-    id profiledPolicy;
 }
 
 @end

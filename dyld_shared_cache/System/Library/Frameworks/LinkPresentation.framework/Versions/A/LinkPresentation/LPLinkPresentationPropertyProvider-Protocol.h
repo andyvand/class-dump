@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPIndeterminateProgressSpinnerPresentationProperties, NSNumber;
+@class LPAudio, LPIndeterminateProgressSpinnerPresentationProperties, NSNumber, NSString;
 
 @protocol LPLinkPresentationPropertyProvider
 
 @optional
+- (NSString *);
+- (LPAudio *)WillInduceFaultEvent;
 - (NSNumber *)imation:,V_needsMessagesTranscriptPushCounterAnimation /* Error: Ran out of types for this method. */;
 
 // Remaining properties

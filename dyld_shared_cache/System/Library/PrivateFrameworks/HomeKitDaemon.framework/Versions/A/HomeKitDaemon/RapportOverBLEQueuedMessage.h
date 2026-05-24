@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface RapportOverBLEQueuedMessage
 {
     HMDRemoteMessage *_message;
-    CDUnknownBlockType _completionHandler;
 }
 
-- (id);
-- (CDUnknownBlockType);
+- (id)8	;
+- (CDUnknownBlockType)`;
 - (id)ÿÿÿÿ;
 - (void)ry;
 - (void)hange Threshold;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 @property(readonly) HMDRemoteMessage *message; // @synthesize message=_message;
 
 @end

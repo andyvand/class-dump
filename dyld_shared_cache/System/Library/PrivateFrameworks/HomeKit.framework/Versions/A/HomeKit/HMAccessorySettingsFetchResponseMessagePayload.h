@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessorySettingsPartialFetchFailureInformation, NSArray, NSString;
+@class NSArray;
 
 @interface HMAccessorySettingsFetchResponseMessagePayload
 {
     NSArray *_settings;
-    HMAccessorySettingsPartialFetchFailureInformation *_failureInformation;
 }
 
 + (id);
@@ -21,34 +20,15 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (id)	0	6	>	9	@	;
+- (_Bool)firefly;
+- (id)DictationClearAllCommandTipShownCount;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void)$$Ü;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) HMAccessorySettingsPartialFetchFailureInformation *failureInformation; // @synthesize failureInformation=_failureInformation;
-@property(readonly) NSArray *fetchResults;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy) NSArray *settings; // @synthesize settings=_settings;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

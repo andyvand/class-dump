@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)Kdr--C7GqYBSB1dyvaQ2qj3L90Qbi_w/Library/Caches/com.apple.xbs/TemporaryDirectory.62SqMK/Sources/AccessibilityBundles_Alias2/UIKitAccessibility/UIApplicationAccessibility.m;
 + (void);
-- (_Bool);
+- (_Bool)R,N,V_countOnFace;
 - (id);
 
 @end

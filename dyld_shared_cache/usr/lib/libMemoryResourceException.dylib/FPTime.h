@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface FPTime
 {
     unsigned long long _machAbsoluteTime;
-    unsigned long long _machContinuousTime;
-    double _wallTime;
 }
 
-+ (id);
++ (id)y;
 - (id);
 - (unsigned long long);
 - (double);
-- (id);
+- (id)!;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date;
 @property(readonly, nonatomic) unsigned long long machAbsoluteTime; // @synthesize machAbsoluteTime=_machAbsoluteTime;
-@property(readonly, nonatomic) unsigned long long machAbsoluteTimeNsec;
-@property(readonly, nonatomic) unsigned long long machContinuousTime; // @synthesize machContinuousTime=_machContinuousTime;
-@property(readonly, nonatomic) unsigned long long machContinuousTimeNsec;
-@property(readonly, nonatomic) double wallTime; // @synthesize wallTime=_wallTime;
 
 @end
 

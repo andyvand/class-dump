@@ -12,9 +12,9 @@
 + (Class);
 + (Class);
 + (Class);
-+ (long long)AsPeriod: /* Error: Ran out of types for this method. */;
++ (long long)StringAsPeriod: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ingAsSpeakerIDConfidence:(id)arg1;
+- (id)StringAsSpeakerIDConfidence:(id)arg1;
 
 @end
 

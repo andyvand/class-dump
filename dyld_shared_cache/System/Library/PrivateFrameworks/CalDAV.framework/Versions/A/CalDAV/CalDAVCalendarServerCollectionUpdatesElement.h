@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (id);
+- (id)charge_duration_p_0_75_at_charge_start_secs_curr_static_bin;
 - (void);
 - (int);
 

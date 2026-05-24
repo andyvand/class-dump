@@ -7,13 +7,10 @@
 @interface AWDCoreRoutineHintSourceSubmissionInstance
 {
     int _hintSource;
-    struct {
-        unsigned int hintSource:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)&;
 - (void);
 - (int);
 - (id);
@@ -24,11 +21,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)S;
 
 // Remaining properties
 @property(nonatomic) _Bool hasHintSource;
-@property(nonatomic) int hintSource; // @synthesize hintSource=_hintSource;
 
 @end
 

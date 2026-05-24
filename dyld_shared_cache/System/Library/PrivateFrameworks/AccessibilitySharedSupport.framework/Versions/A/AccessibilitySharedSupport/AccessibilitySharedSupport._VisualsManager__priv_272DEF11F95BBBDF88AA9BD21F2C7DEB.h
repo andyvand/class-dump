@@ -7,8 +7,6 @@
 @interface AccessibilitySharedSupport._VisualsManager__priv_272DEF11F95BBBDF88AA9BD21F2C7DEB
 {
     id currentPacketID;
-    id currentPacketData;
-    id interacting;
 }
 
 @end

@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (_Bool)sFontPanel: /* Error: Ran out of types for this method. */;
+- (_Bool)setUsesFontPanel: /* Error: Ran out of types for this method. */;
 
 @end
 

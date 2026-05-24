@@ -8,19 +8,19 @@
 {
 }
 
-+ (_Bool);
-+ (void);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (_Bool);
-+ (id);
++ (_Bool)s=%{BOOL}d;
++ (void)hing audio stream:(_Bool)arg1 %d -> %d;
++ (id)ead directory %@ (%@);
++ (id)%s error=%s ;
++ (id)[%s] %s:(id)arg1 %d fileDescriptor=%d;
++ (id)age...;
++ (id)s NOT a directory;
++ (_Bool)sent on disk;
++ (id)centage change due to packet loss:(id)arg1 %lf, new threshold:%lf [%d to %d] /* Error: Ran out of types for this method. */;
++ (_Bool)Failed to initialize the power spectrum meter;
++ (id)key=%@. Using default value=%d;
++ (_Bool)irst non-silence audio frame;
++ (id)tputUnitStart() completed;
 + (_Bool);
 
 @end

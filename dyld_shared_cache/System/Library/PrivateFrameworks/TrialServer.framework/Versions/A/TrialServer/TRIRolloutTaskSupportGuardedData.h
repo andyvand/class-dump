@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TRITrialSystemTelemetry;
+@class NSMutableArray;
 
 @interface TRIRolloutTaskSupportGuardedData
 {
     NSMutableArray *metrics;
-    NSMutableArray *dimensions;
-    TRITrialSystemTelemetry *trialSystemTelemetry;
 }
 
 - (void)!ð1Â0@ù

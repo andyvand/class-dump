@@ -9,12 +9,6 @@
 @interface PXKeyboardSettings : PXSettings
 {
     long long _yearsFocusAnimationStyle;
-    double _yearsFocusPadding;
-    long long _monthsFocusAnimationStyle;
-    double _monthsFocusPadding;
-    long long _daysFocusAnimationStyle;
-    double _daysFocusPadding;
-    double _detailsViewOverlayAlpha;
 }
 
 + (id)P: /* Error: Ran out of types for this method. */;
@@ -33,16 +27,10 @@
 - (double);
 - (long long);
 - (id);
-- (void);
+- (void)=;
 
 // Remaining properties
-@property(nonatomic) long long daysFocusAnimationStyle; // @synthesize daysFocusAnimationStyle=_daysFocusAnimationStyle;
-@property(nonatomic) double daysFocusPadding; // @synthesize daysFocusPadding=_daysFocusPadding;
-@property(nonatomic) double detailsViewOverlayAlpha; // @synthesize detailsViewOverlayAlpha=_detailsViewOverlayAlpha;
-@property(nonatomic) long long monthsFocusAnimationStyle; // @synthesize monthsFocusAnimationStyle=_monthsFocusAnimationStyle;
-@property(nonatomic) double monthsFocusPadding; // @synthesize monthsFocusPadding=_monthsFocusPadding;
 @property(nonatomic) long long yearsFocusAnimationStyle; // @synthesize yearsFocusAnimationStyle=_yearsFocusAnimationStyle;
-@property(nonatomic) double yearsFocusPadding; // @synthesize yearsFocusPadding=_yearsFocusPadding;
 
 @end
 

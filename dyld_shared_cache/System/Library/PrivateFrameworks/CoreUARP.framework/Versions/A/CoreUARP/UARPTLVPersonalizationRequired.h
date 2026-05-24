@@ -12,15 +12,15 @@
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (unsigned int);
++ (unsigned int)it is no longer a tracked task.;
 - (id);
 - (void);
 - (id);
 - (unsigned int);
 - (id);
-- (id);
+- (id)tInfo",R;
 
 // Remaining properties
 @property(readonly) unsigned int isRequired; // @synthesize isRequired=_isRequired;

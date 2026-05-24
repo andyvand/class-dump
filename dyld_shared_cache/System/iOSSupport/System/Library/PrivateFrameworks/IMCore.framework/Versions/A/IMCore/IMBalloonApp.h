@@ -4,46 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSBundle, NSNumber, NSString;
-@protocol PKPlugIn;
-
 @interface IMBalloonApp
 {
     _Bool _isBetaPlugin;
-    _Bool _isLaunchProhibited;
-    _Bool _isStickerPackOnly;
-    _Bool _shouldForceIntoSendMenu;
-    _Bool _shouldDelayViewControllerPresentation;
-    _Bool _isPreDawnAndAppStoreStickerGenre;
-    _Bool _showInSendMenu;
-    _Bool _showInBrowser;
-    _Bool _shouldBalloonHideAppIcon;
-    _Bool _shouldBreadcrumbHideAppIcon;
-    _Bool _shouldHideAppSwitcher;
-    _Bool _shouldHideAttributionInformation;
-    _Bool _canSendDataPayloads;
-    _Bool _prefersNoLoadingBubbles;
-    _Bool _pluginLoaded;
-    Class _browserClass;
-    Class _dataSourceClass;
-    Class _customTypingIndicatorLayerClass;
-    Class _bubbleClass;
-    Class _entryClass;
-    double _presentationDelay;
-    NSString *_appStoreGenre;
-    NSArray *_appStoreSubgenres;
-    NSBundle *_appBundle;
-    NSBundle *_pluginBundle;
-    NSNumber *_itemID;
-    NSString *_browserDisplayName;
-    NSString *_browserShortDisplayName;
-    NSString *_identifier;
-    NSString *_version;
-    id <PKPlugIn> _plugin;
-    unsigned long long _presentationContexts;
-    unsigned long long _stickerSharingLevel;
-    long long _pluginLoadToken;
-    struct LSVersionNumber _sdkVersionNumber;
 }
 
 + (id);
@@ -56,25 +19,25 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)M;
+- (_Bool)xh;
 - (_Bool);
+- (_Bool)j;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)$;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)l;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)r;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -103,7 +66,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
@@ -111,7 +74,7 @@
 - (Class);
 - (void);
 - (id);
-- (void);
+- (void)>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::Ref<WebKit::WebExtensionAlarm>>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WTF::Ref<WebKit::WebExtensionAlarm>>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WTF::Ref<WebKit::WebExtensionAlarm>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WTF::Ref<WebKit::WebExtensionAlarm>>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WTF::Ref<WebKit::WebExtensionAlarm>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (Class);
 - (_Bool);
 - (id);
@@ -119,7 +82,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)Â
 °!GùQî1Â0@ù
 × ;
@@ -127,44 +90,7 @@
 - (void)x;
 
 // Remaining properties
-@property(retain, nonatomic) NSBundle *appBundle; // @synthesize appBundle=_appBundle;
-@property(readonly, nonatomic) NSString *appStoreGenre; // @synthesize appStoreGenre=_appStoreGenre;
-@property(readonly, nonatomic) NSArray *appStoreSubgenres; // @synthesize appStoreSubgenres=_appStoreSubgenres;
-@property(retain, nonatomic) Class browserClass; // @synthesize browserClass=_browserClass;
-@property(retain, nonatomic) NSString *browserDisplayName; // @synthesize browserDisplayName=_browserDisplayName;
-@property(retain, nonatomic) NSString *browserShortDisplayName; // @synthesize browserShortDisplayName=_browserShortDisplayName;
-@property(retain, nonatomic) Class bubbleClass; // @synthesize bubbleClass=_bubbleClass;
 @property(nonatomic) _Bool canSendDataPayloads; // @synthesize canSendDataPayloads=_canSendDataPayloads;
-@property(retain, nonatomic) Class customTypingIndicatorLayerClass; // @synthesize customTypingIndicatorLayerClass=_customTypingIndicatorLayerClass;
-@property(retain, nonatomic) Class dataSourceClass; // @synthesize dataSourceClass=_dataSourceClass;
-@property(retain, nonatomic) Class entryClass; // @synthesize entryClass=_entryClass;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isBetaPlugin; // @synthesize isBetaPlugin=_isBetaPlugin;
-@property(nonatomic) _Bool isEnabled;
-@property(nonatomic) _Bool isEnabledUnremovableApp;
-@property(nonatomic) _Bool isLaunchProhibited; // @synthesize isLaunchProhibited=_isLaunchProhibited;
-@property(readonly, nonatomic) _Bool isPreDawnAndAppStoreStickerGenre; // @synthesize isPreDawnAndAppStoreStickerGenre=_isPreDawnAndAppStoreStickerGenre;
-@property(readonly, nonatomic) _Bool isStickerPackOnly; // @synthesize isStickerPackOnly=_isStickerPackOnly;
-@property(retain, nonatomic) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(retain, nonatomic) id <PKPlugIn> plugin; // @synthesize plugin=_plugin;
-@property(retain, nonatomic) NSBundle *pluginBundle; // @synthesize pluginBundle=_pluginBundle;
-@property(nonatomic) long long pluginLoadToken; // @synthesize pluginLoadToken=_pluginLoadToken;
-@property(nonatomic) _Bool pluginLoaded; // @synthesize pluginLoaded=_pluginLoaded;
-@property(nonatomic) _Bool prefersNoLoadingBubbles; // @synthesize prefersNoLoadingBubbles=_prefersNoLoadingBubbles;
-@property(nonatomic) unsigned long long presentationContexts; // @synthesize presentationContexts=_presentationContexts;
-@property(readonly, nonatomic) double presentationDelay; // @synthesize presentationDelay=_presentationDelay;
-@property(nonatomic) struct LSVersionNumber sdkVersionNumber; // @synthesize sdkVersionNumber=_sdkVersionNumber;
-@property(nonatomic) _Bool shouldBalloonHideAppIcon; // @synthesize shouldBalloonHideAppIcon=_shouldBalloonHideAppIcon;
-@property(nonatomic) _Bool shouldBreadcrumbHideAppIcon; // @synthesize shouldBreadcrumbHideAppIcon=_shouldBreadcrumbHideAppIcon;
-@property(readonly, nonatomic) _Bool shouldDelayViewControllerPresentation; // @synthesize shouldDelayViewControllerPresentation=_shouldDelayViewControllerPresentation;
-@property(readonly, nonatomic) _Bool shouldForceIntoSendMenu; // @synthesize shouldForceIntoSendMenu=_shouldForceIntoSendMenu;
-@property(nonatomic) _Bool shouldHideAppSwitcher; // @synthesize shouldHideAppSwitcher=_shouldHideAppSwitcher;
-@property(nonatomic) _Bool shouldHideAttributionInformation; // @synthesize shouldHideAttributionInformation=_shouldHideAttributionInformation;
-@property(nonatomic) _Bool showInBrowser; // @synthesize showInBrowser=_showInBrowser;
-@property(nonatomic) _Bool showInSendMenu; // @synthesize showInSendMenu=_showInSendMenu;
-@property(readonly, nonatomic) _Bool showableInBrowser;
-@property(nonatomic) unsigned long long stickerSharingLevel; // @synthesize stickerSharingLevel=_stickerSharingLevel;
-@property(readonly, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

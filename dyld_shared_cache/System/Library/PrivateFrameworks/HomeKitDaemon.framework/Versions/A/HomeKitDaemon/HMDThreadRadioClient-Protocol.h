@@ -5,5 +5,8 @@
 //
 
 @protocol HMDThreadRadioClient
+- (void);
+- (void);
+- (void);
 @end
 

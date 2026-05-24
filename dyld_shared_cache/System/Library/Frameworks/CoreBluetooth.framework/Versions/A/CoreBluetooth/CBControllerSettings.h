@@ -7,24 +7,17 @@
 @interface CBControllerSettings
 {
     BOOL _gameControllerAutoSwitchMode;
-    BOOL _gameControllerUSBBluetoothPairing;
-    BOOL _hid3ppLELegacyMode;
-    BOOL _setupAssistantIfNoKeyboard;
-    BOOL _setupAssistantIfNoPointingDevice;
-    BOOL _spatialSoundProfileAllowed;
-    BOOL _bleAdvRSSI;
-    int _discoverableState;
 }
 
 - (BOOL);
 - (BOOL);
-- (BOOL);
+- (BOOL)?;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Ѯ;
 - (void);
 - (BOOL);
 - (BOOL);
@@ -34,18 +27,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (int): /* Error: Ran out of types for this method. */;
+- (void)fetchProviderForShareURL:(id)arg1 fallbackIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
+- (int)setDoubleTapAction: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) BOOL bleAdvRSSI; // @synthesize bleAdvRSSI=_bleAdvRSSI;
 @property(nonatomic) int discoverableState; // @synthesize discoverableState=_discoverableState;
-@property(nonatomic) BOOL gameControllerAutoSwitchMode; // @synthesize gameControllerAutoSwitchMode=_gameControllerAutoSwitchMode;
-@property(nonatomic) BOOL gameControllerUSBBluetoothPairing; // @synthesize gameControllerUSBBluetoothPairing=_gameControllerUSBBluetoothPairing;
-@property(nonatomic) BOOL hid3ppLELegacyMode; // @synthesize hid3ppLELegacyMode=_hid3ppLELegacyMode;
-@property(nonatomic) BOOL setupAssistantIfNoKeyboard; // @synthesize setupAssistantIfNoKeyboard=_setupAssistantIfNoKeyboard;
-@property(nonatomic) BOOL setupAssistantIfNoPointingDevice; // @synthesize setupAssistantIfNoPointingDevice=_setupAssistantIfNoPointingDevice;
-@property(nonatomic) BOOL spatialSoundProfileAllowed; // @synthesize spatialSoundProfileAllowed=_spatialSoundProfileAllowed;
 
 @end
 

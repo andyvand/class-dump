@@ -9,11 +9,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (long long);
-+ (void);
-+ (_Bool);
-+ (long long);
-+ (double);
++ (long long)%@;
++ (void)map, for a CKRecord we fetched an asset for, recordID %@. CAN'T UPDATE!;
++ (_Bool)ing incoming Collaboration Notice from:(long long)arg1 %@;
++ (long long)%@, isFromStorage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu, hadChat:%@} /* Error: Ran out of types for this method. */;
++ (double)nfo"16;
 + (double);
 + (long long);
 + (_Bool);

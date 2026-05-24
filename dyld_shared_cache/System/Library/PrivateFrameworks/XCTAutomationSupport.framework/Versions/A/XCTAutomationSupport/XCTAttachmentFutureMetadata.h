@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, NSUUID;
+@class NSUUID;
 
 @interface XCTAttachmentFutureMetadata
 {
     NSUUID *_attachmentUUID;
-    NSString *_dataContainerRelativeAttachmentPath;
-    NSURL *_dataContainerURLPrefix;
-    NSURL *_hostLocalURLOfFinalizedAttachment;
-    NSString *_uniformTypeIdentifierString;
-    unsigned long long _finalizationState;
-    NSString *_userName;
-    NSDictionary *_additionalMetadata;
 }
 
-+ (_Bool);
++ (_Bool)SString";
 - (void);
 - (void);
 - (id);
@@ -26,7 +19,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)H|;
 - (void);
 - (id);
 - (id);
@@ -39,14 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *additionalMetadata; // @synthesize additionalMetadata=_additionalMetadata;
 @property(readonly, nonatomic) NSUUID *attachmentUUID; // @synthesize attachmentUUID=_attachmentUUID;
-@property(readonly, copy, nonatomic) NSString *dataContainerRelativeAttachmentPath; // @synthesize dataContainerRelativeAttachmentPath=_dataContainerRelativeAttachmentPath;
-@property(readonly, nonatomic) NSURL *dataContainerURLPrefix; // @synthesize dataContainerURLPrefix=_dataContainerURLPrefix;
-@property(nonatomic) unsigned long long finalizationState; // @synthesize finalizationState=_finalizationState;
-@property(retain, nonatomic) NSURL *hostLocalURLOfFinalizedAttachment; // @synthesize hostLocalURLOfFinalizedAttachment=_hostLocalURLOfFinalizedAttachment;
-@property(readonly, nonatomic) NSString *uniformTypeIdentifierString; // @synthesize uniformTypeIdentifierString=_uniformTypeIdentifierString;
-@property(readonly, copy, nonatomic) NSString *userName; // @synthesize userName=_userName;
 
 @end
 

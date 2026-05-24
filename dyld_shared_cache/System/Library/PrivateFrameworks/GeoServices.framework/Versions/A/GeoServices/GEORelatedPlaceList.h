@@ -4,35 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFollowUpRequestMetadata, NSArray;
+@class NSArray;
 
 @interface GEORelatedPlaceList
 {
     NSArray *_placeTemplates;
-    int _type;
-    _Bool _hasInitialData;
-    unsigned long long _numberOfInlineItems;
-    GEOFollowUpRequestMetadata *_followUpRequestMetadata;
 }
 
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)providerIdentifier;
+- (unsigned long long)isLeapMonth;
+- (id)descriptorForEnabledStoreWithURL: /* Error: Ran out of types for this method. */;
+- (id)containsString:(id)arg1;
+- (id)natorUpdater",R,N,V_coordinatorUpdater;
+- (id)<NSLocking>",&,V_fileLock;
 - (_Bool);
 - (id);
 - (int);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOFollowUpRequestMetadata *followUpRequestMetadata; // @synthesize followUpRequestMetadata=_followUpRequestMetadata;
 @property(readonly, nonatomic) _Bool hasInitialData; // @synthesize hasInitialData=_hasInitialData;
-@property(readonly, nonatomic) NSArray *mapIdentifiers;
-@property(readonly, nonatomic) unsigned long long numberOfInlineItems; // @synthesize numberOfInlineItems=_numberOfInlineItems;
-@property(readonly, nonatomic) NSArray *placeTemplates;
-@property(readonly, nonatomic) int type;
 
 @end
 

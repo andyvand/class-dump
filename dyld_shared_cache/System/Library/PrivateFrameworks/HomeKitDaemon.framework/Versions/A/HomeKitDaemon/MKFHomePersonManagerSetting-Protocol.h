@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFHomePersonManagerSettingDatabaseID, NSUUID;
+@class NSUUID;
 
 @protocol MKFHomePersonManagerSetting
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFHomePersonManagerSettingDatabaseID *databaseID;
 @property(copy, nonatomic) NSUUID *zoneUUID;
 @end
 

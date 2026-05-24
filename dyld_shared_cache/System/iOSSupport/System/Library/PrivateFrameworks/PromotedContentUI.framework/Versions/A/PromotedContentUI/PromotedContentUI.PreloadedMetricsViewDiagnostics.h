@@ -7,8 +7,6 @@
 @interface PromotedContentUI.PreloadedMetricsViewDiagnostics
 {
     id analytics;
-    id articleOrdering;
-    id contentDiagnosticMap;
 }
 
 @end

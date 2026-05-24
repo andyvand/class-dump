@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface ISDSchemaParser
 {
     NSMutableDictionary *_schemas;
-    NSMutableDictionary *_dataClasses;
-    NSMutableDictionary *_entities;
-    NSMutableSet *_undefinedObjects;
-    NSDictionary *_existingEntities;
-    NSDictionary *_existingDataclasses;
-    _Bool _relaxSchemaParsing;
 }
 
 - (id);
@@ -26,7 +20,7 @@
 - (id);
 - (void);
 - (int);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -42,11 +36,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -72,7 +66,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (id);
 
 @end

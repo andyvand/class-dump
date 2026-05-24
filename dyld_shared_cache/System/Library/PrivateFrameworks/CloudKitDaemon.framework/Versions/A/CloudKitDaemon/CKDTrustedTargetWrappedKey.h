@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKPublicKey, NSData;
+@class NSData;
 
 @interface CKDTrustedTargetWrappedKey
 {
     NSData *_wrappedKey;
-    CKPublicKey *_publicKey;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (id)n %{public}@ because it has dontFetchFromServer set;
 
 // Remaining properties
-@property(readonly, nonatomic) CKPublicKey *publicKey; // @synthesize publicKey=_publicKey;
 @property(readonly, copy, nonatomic) NSData *wrappedKey; // @synthesize wrappedKey=_wrappedKey;
 
 @end

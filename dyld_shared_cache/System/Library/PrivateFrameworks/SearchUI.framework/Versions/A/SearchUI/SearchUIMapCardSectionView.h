@@ -6,18 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class CLPlacemark, MKMapSnapshotter, MKPinAnnotationView, NSClickGestureRecognizer, NSString, SFMapCardSection, TLKImageView, TLKLabel, TLKStackView;
+@class SFMapCardSection, TLKLabel;
 
 @interface SearchUIMapCardSectionView : SearchUICardSectionView
 {
     TLKLabel *_footnoteDescriptorLabel;
-    TLKLabel *_footnoteLabel;
-    MKPinAnnotationView *_pinAnnotationView;
-    NSClickGestureRecognizer *_tapRecognizer;
-    CLPlacemark *_currentPlacemark;
-    TLKStackView *_labelsStackView;
-    TLKImageView *_snapshotView;
-    MKMapSnapshotter *_mapSnapshotter;
 }
 
 + (_Bool);
@@ -29,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (id);
 - (id);
 - (id);
@@ -38,10 +31,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)D;
+- (id);
 - (void);
-- (void);
+- (void)t.aa;
 - (struct CGRect);
 - (void);
 - (id);
@@ -55,22 +48,7 @@
 - (id)watchListTypeForType:isMediaContainer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CLPlacemark *currentPlacemark; // @synthesize currentPlacemark=_currentPlacemark;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) TLKLabel *footnoteDescriptorLabel; // @synthesize footnoteDescriptorLabel=_footnoteDescriptorLabel;
-@property(retain, nonatomic) TLKLabel *footnoteLabel; // @synthesize footnoteLabel=_footnoteLabel;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) TLKStackView *labelsStackView; // @synthesize labelsStackView=_labelsStackView;
-@property(retain, nonatomic) MKMapSnapshotter *mapSnapshotter; // @synthesize mapSnapshotter=_mapSnapshotter;
-@property(retain, nonatomic) MKPinAnnotationView *pinAnnotationView; // @synthesize pinAnnotationView=_pinAnnotationView;
 @property(readonly, nonatomic) SFMapCardSection *section; // @dynamic section;
-@property(retain, nonatomic) TLKImageView *snapshotView; // @synthesize snapshotView=_snapshotView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSClickGestureRecognizer *tapRecognizer; // @synthesize tapRecognizer=_tapRecognizer;
 
 @end
 

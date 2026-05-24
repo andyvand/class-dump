@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSString;
+@class NSString;
 
 @interface BlastDoorMessage
 {
@@ -14,19 +14,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id):8@"UIPresentationController"16@"UITraitCollection"24 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void)¨;
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *attributionInfo;
-@property(nonatomic, readonly) NSAttributedString *content;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
-@property(nonatomic, readonly) NSString *plainTextBody;
-@property(nonatomic, readonly) NSString *plainTextSubject;
 
 @end
 

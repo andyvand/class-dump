@@ -5,5 +5,8 @@
 //
 
 @protocol CNManagedProfileConnection
+- (_Bool);
+- (_Bool)[ %@ ]
+  ---> %@ record;
 @end
 

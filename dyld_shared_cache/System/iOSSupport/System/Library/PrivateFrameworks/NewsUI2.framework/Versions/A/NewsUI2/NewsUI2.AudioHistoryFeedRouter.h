@@ -7,11 +7,6 @@
 @interface NewsUI2.AudioHistoryFeedRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id contextBuilder;
-    id navigator;
-    id headlineConverter;
 }
 
 @end

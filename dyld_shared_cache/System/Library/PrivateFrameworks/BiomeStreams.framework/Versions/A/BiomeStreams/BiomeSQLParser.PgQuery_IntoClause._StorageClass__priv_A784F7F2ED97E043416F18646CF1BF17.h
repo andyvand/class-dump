@@ -7,13 +7,6 @@
 @interface BiomeSQLParser.PgQuery_IntoClause._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _rel;
-    id _colNames;
-    id _accessMethod;
-    id _options;
-    id _onCommit;
-    id _tableSpaceName;
-    id _viewQuery;
-    id _skipData;
 }
 
 @end

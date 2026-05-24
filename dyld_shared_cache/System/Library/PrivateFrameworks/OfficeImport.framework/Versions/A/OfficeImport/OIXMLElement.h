@@ -12,11 +12,6 @@ __attribute__((visibility("hidden")))
 @interface OIXMLElement : OIXMLNode
 {
     NSString *_name;
-    id _attributes;
-    id _children;
-    _Bool _hasMultipleAttributes;
-    _Bool _hasMultipleChildren;
-    unsigned char _type;
 }
 
 + (id);
@@ -30,12 +25,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)<;
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)xd;
 - (id);
 - (void);
 

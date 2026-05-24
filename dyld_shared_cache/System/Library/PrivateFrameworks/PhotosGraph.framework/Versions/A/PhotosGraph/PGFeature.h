@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGFeature
 {
     id _typeSpecificIdentifier;
-    unsigned long long _type;
-    NSString *_name;
 }
 
 + (id);

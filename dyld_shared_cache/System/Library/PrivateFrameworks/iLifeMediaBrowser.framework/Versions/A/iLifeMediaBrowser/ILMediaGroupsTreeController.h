@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray, NSMutableDictionary, NSOutlineView, NSString;
+@class NSOutlineView;
 
 @interface ILMediaGroupsTreeController
 {
     NSOutlineView *_outlineView;
-    NSMutableArray *_content;
-    NSMutableArray *_selectedObjects;
-    NSString *_childrenKeyPath;
-    NSMutableArray *_observedPlugins;
-    NSLock *_reloadLock;
-    id _filterDelegate;
-    _Bool _inContentChange;
-    NSMutableDictionary *_groupToNodeDict;
-    _Bool _didFinishPluginLoading;
-    NSLock *_cachedNodesLock;
-    NSMutableArray *_audioTabRootNodes;
-    NSMutableArray *_imageTabRootNodes;
-    NSMutableArray *_movieTabRootNodes;
 }
 
 - (void);
@@ -29,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -37,8 +24,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)C;
 - (_Bool);
 - (id);
 - (id);
@@ -62,17 +49,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)SbSo7UIImageCIegyo_;
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id)1Â0@ù
 × ;
 

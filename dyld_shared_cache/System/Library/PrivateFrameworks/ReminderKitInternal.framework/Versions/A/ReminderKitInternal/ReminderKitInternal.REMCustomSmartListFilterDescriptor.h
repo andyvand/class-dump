@@ -9,13 +9,6 @@
 @interface ReminderKitInternal.REMCustomSmartListFilterDescriptor
 {
     id operation;
-    id hashtags;
-    id date;
-    id time;
-    id priorities;
-    id flagged;
-    id location;
-    id lists;
 }
 
 + (_Bool);

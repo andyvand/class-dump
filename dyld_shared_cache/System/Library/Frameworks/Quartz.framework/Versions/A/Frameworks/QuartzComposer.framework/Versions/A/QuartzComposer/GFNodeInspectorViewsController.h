@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GFNode, NSTextField, NSView;
+@class NSView;
 
 @interface GFNodeInspectorViewsController
 {
     NSView *_informationView;
-    NSTextField *_titleField;
-    NSTextField *_noteField;
-    NSTextField *_nameField;
-    NSTextField *_descriptionField;
-    GFNode *_targetNode;
 }
 
 + (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)INTEGER NOT NULL DEFAULT 0, is_container_type_active_target INTEGER NOT NULL DEFAULT 0, orig_date_modified INTEGER  NOT NULL DEFAULT 0, store_cloud_id INTEGER NOT NULL DEFAULT 0, has_cloud_play_order INTEGER NOT NULL DEFAULT 0, cloud_global_id TEXT NOT NULL DEFAULT '', reserved1 INTEGER NOT NULL DEFAULT 0, reserved2 TEXT NOT NULL DEFAULT '', reserved3 INTEGER NOT NULL DEFAULT 0, reserved4 INTEGER NOT NULL DEFAULT 0, reserved5 INTEGER NOT NULL DEFAULT 0, reserved6 TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
 
 @end
 

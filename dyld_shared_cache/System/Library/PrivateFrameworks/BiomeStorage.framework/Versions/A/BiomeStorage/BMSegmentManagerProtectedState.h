@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSMutableDictionary, NSMutableOrderedSet;
-
 @interface BMSegmentManagerProtectedState
 {
     _Bool _isDataAccessible;
-    NSMutableOrderedSet *_segmentNames;
-    NSMutableDictionary *_segmentFileHandles;
-    NSError *_error;
 }
 
 - (id);

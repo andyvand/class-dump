@@ -9,13 +9,12 @@
 @interface IDSRegistrationEventTracingPNREvent
 {
     void name;
-    id simUniqueIdentifier;
 }
 
 - (id);
 - (id);
-- (id);
-- (void)erfaceName;
+- (id)t;
+- (void)_interfaceName;
 - (void)pple.MobileSMS;
 
 // Remaining properties

@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)an instance of %@ with an asset at non-local URL '%@';
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 
 @end

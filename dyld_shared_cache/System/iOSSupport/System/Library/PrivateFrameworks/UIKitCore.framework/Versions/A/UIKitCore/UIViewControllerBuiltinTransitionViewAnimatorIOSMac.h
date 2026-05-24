@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (double);
-- (void)owOpacity;
+- (void)_getShadowOpacity;
 
 // Remaining properties
 @property(nonatomic, getter=isPresenting) _Bool presenting; // @synthesize presenting=_presenting;

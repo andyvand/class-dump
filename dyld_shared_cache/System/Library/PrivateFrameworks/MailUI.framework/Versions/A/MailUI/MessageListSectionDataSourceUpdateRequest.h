@@ -4,41 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMessageList, NSString;
+@class NSString;
 
 @interface MessageListSectionDataSourceUpdateRequest
 {
     _Bool _shouldClearSnapshot;
-    NSString *_section;
-    EMMessageList *_messageList;
 }
 
 - (_Bool);
+- (id)N;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)read: /* Error: Ran out of types for this method. */;
+- (id)(X;
+- (id)qa;
+- (id)application_drivable_removed;
+- (void)setPreviousIsUnread: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EMMessageList *messageList; // @synthesize messageList=_messageList;
 @property(readonly, nonatomic) NSString *section; // @synthesize section=_section;
-@property(readonly, nonatomic) _Bool shouldClearSnapshot; // @synthesize shouldClearSnapshot=_shouldClearSnapshot;
-@property(readonly) Class superclass;
 
 @end
 

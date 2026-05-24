@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSDictionary, NSString, NSUUID, PBRequest;
-@protocol DRSDecisionServerBatchRequest;
+@class NSUUID;
 
 @interface DRSEnableDataGatheringQuery
 {
     unsigned char _response;
-    _Bool _isContinue;
-    unsigned short _attemptCount;
-    NSString *_teamID;
-    NSString *_issueCategory;
-    NSString *_logType;
-    NSString *_build;
-    NSDate *_queryDate;
-    NSUUID *_queryID;
-    NSData *_contextDictionaryData;
-    NSDictionary *_contextDictionary;
-    NSString *_rejectionReason;
 }
 
 + (id);
@@ -30,14 +18,14 @@
 + (id);
 + (id);
 + (id);
-+ (id)ataGatheringRequestsType;
-- (void);
++ (id)dataGatheringRequestsType;
+- (void)F;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -53,43 +41,19 @@
 - (unsigned char);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)SmartFolderSupport;
 - (void);
 - (id);
-- (id);
+- (id)Y;
 - (id)Ð1Â0@ù
 × ;
-- (id)AlreadyCompleted;
+- (id)ConfigAlreadyCompleted;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short attemptCount; // @synthesize attemptCount=_attemptCount;
-@property(readonly, nonatomic) NSString *build; // @synthesize build=_build;
-@property(readonly, nonatomic) NSDictionary *contextDictionary; // @synthesize contextDictionary=_contextDictionary;
-@property(readonly, nonatomic) NSData *contextDictionaryData; // @synthesize contextDictionaryData=_contextDictionaryData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *functionName;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isContinue; // @synthesize isContinue=_isContinue;
-@property(readonly, nonatomic) NSString *issueCategory; // @synthesize issueCategory=_issueCategory;
-@property(readonly, nonatomic) NSString *logType; // @synthesize logType=_logType;
-@property(readonly, nonatomic) id <DRSDecisionServerBatchRequest> pbBatchInstance;
-@property(readonly, nonatomic) Class pbBatchResponseClass;
-@property(readonly, nonatomic) PBRequest *pbRequest;
-@property(readonly, nonatomic) NSDate *queryDate; // @synthesize queryDate=_queryDate;
-@property(readonly, nonatomic) NSUUID *queryID; // @synthesize queryID=_queryID;
-@property(retain, nonatomic) NSString *rejectionReason; // @synthesize rejectionReason=_rejectionReason;
-@property(nonatomic) unsigned char response; // @synthesize response=_response;
-@property(readonly, nonatomic) NSString *responseString;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 @property(readonly, nonatomic) NSUUID *uniqueID;
 
 @end

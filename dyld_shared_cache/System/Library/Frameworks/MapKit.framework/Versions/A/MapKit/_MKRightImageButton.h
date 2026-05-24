@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKImageView, NSArray, NSImage, NSInvocation, NSString, _MKUILabel;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MKRightImageButton
 {
     _Bool _trackingClick;
-    NSInvocation *_actionInvocation;
-    _Bool _titleConstraintsAdded;
-    NSArray *_titleOnlyConstraints;
-    NSArray *_titleAndImageConstraints;
-    _MKUILabel *_titleLabel;
-    MKImageView *_imageView;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)_override;
+- (void)instancesRespondToSelector:(id)arg1;
 - (struct CGSize);
-- (id);
+- (id)T;
 - (void);
-- (void);
+- (void)setType:(id)arg1;
+- (id)session now;
 - (id);
-- (id);
-- (id);
-- (void)howIncidentIcon: /* Error: Ran out of types for this method. */;
-- (id)esultDisplayHeader;
+- (id)LKMesh",R,W,N,V_mesh;
+- (void)setShowIncidentIcon: /* Error: Ran out of types for this method. */;
+- (id)resultDisplayHeader;
 - (void)rmattedString>",R,N;
 - (void)ÿT<XÜ;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *image;
-@property(readonly, nonatomic) MKImageView *imageView; // @synthesize imageView=_imageView;
 @property(retain, nonatomic) NSString *title;
-@property(readonly, nonatomic) _MKUILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

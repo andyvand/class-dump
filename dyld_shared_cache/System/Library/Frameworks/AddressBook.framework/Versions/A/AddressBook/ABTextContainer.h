@@ -17,7 +17,7 @@
 - (struct CGPoint);
 - (struct CGSize);
 - (void);
-- (double)gh;
+- (double)pixelsHigh;
 
 @end
 

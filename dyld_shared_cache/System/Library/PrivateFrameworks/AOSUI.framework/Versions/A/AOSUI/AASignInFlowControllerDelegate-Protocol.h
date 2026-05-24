@@ -4,54 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, NSSet, NSString;
+@class CDPContext;
 
 @protocol AASignInFlowControllerDelegate
 
-// Remaining properties
-@property(nonatomic) _Bool backgroundDataclassEnablement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
+@optional
+- (void)2;
+- (void);
+- (void);
 
+// Remaining properties
 @property(retain, nonatomic) CDPContext *cdpContext;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"CDPContext",?,&,N
-
-@property(copy, nonatomic) NSString *deviceOSVersion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
-
-@property(nonatomic) unsigned long long findMyActivationAction;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(nonatomic) _Bool newSignInFlow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool newSignInReauth;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(copy, nonatomic) NSSet *requiredTerms;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,C,N
-
-@property(nonatomic) _Bool shouldStashLoginResponse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool skipCDPEnablement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) _Bool skipDataclassEnablement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(copy, nonatomic) NSString *telemetryFlowID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,C,N
 
 @end
 

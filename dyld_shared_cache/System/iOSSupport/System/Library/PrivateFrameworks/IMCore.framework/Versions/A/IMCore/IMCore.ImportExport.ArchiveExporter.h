@@ -7,8 +7,6 @@
 @interface IMCore.ImportExport.ArchiveExporter
 {
     id archivingOptions;
-    id exporter;
-    id archiveManifest;
 }
 
 @end

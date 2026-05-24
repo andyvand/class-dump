@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface PKPaymentAvailableDevicesResponseCardItem
 {
     _Bool _supportsInApp;
-    NSString *_cardType;
-    NSNumber *_cardTypeCode;
-    NSString *_currentStatus;
 }
 
 - (_Bool);
@@ -20,16 +17,13 @@
 - (id);
 - (void);
 - (id);
-- (id)ntactForShare:(id)arg1;
+- (id)contactForShare:(id)arg1;
 - (void)equestDeviceScoreIdentifier:'%@';  /* Error: Ran out of types for this method. */;
 - (id);
 - (void)ÄÕÿÄ5h;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cardType; // @synthesize cardType=_cardType;
-@property(copy, nonatomic) NSNumber *cardTypeCode; // @synthesize cardTypeCode=_cardTypeCode;
-@property(copy, nonatomic) NSString *currentStatus; // @synthesize currentStatus=_currentStatus;
-@property(nonatomic) _Bool supportsInApp; // @synthesize supportsInApp=_supportsInApp;
 
 @end
 

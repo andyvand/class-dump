@@ -10,11 +10,12 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
++ (id)sChangedNotification for content items %{public}@ because we are requesting a new playback queue.;
++ (id)equest *__strong, NSArray<MSVCallback *> *__strong);
++ (_Bool)underlyingErrors;
++ (id)supportedCommands = %@
+;
++ (id)e;
 + (Class);
 + (id);
 + (id);

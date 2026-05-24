@@ -6,29 +6,24 @@
 
 #import <AVFCore/AVAssetAnalysisMessage.h>
 
-@class AVMovieAtom, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface AVAssetAnalysisMovieParsingMessage : AVAssetAnalysisMessage
 {
     NSDictionary *_movieParsingMessageFigDictionary;
-    AVMovieAtom *_movieAtom;
 }
 
 + (id);
 - (id);
+- (id)`8;
 - (id);
-- (id);
-- (void);
+- (void)J;
 - (id);
 - (id);
 - (int)=H¡´;
 
 // Remaining properties
 @property(readonly) NSString *diagnosticInformation;
-@property(readonly) NSString *mediaType;
-@property(readonly) NSString *messageType;
-@property(readonly) AVMovieAtom *movieAtom;
-@property(readonly) int trackID;
 
 @end
 

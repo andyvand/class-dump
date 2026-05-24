@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSWPDeletionRangeMap, TSWPStorage;
+@class TSWPStorage;
 
 @interface TSWPFilteredStorage
 {
     TSWPStorage *_storage;
-    TSWPDeletionRangeMap *_rangeMap;
-    unsigned long long _length;
-    unsigned long long _storageLength;
 }
 
-- (struct _NSRange);
-- (unsigned long long);
+- (struct _NSRange)clientIdentifier;
+- (unsigned long long)nGroupSession=YES;
+- (id)ckCore.MPCModelGenericAVItemSubscriptionAssetLoadOperation.accessQueue;
+- (id)se"8@"ICURLAggregatedPerformanceMetrics"16@"NSError"24;
+- (struct _NSRange)id *AssistantServicesLibrary(void);
 - (id);
-- (id);
-- (struct _NSRange);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)0;
 - (id);
 - (id);
 - (long long);
@@ -35,12 +32,12 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)x;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (struct __CFDictionary *);
-- (struct _NSRange);
+- (struct _NSRange)};
 - (struct _NSRange);
 - (unsigned long long);
 - (id);
@@ -55,13 +52,7 @@
 - (id)ØíñÿêøXán;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,8 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EKUIGadgetContainer, NSView;
+
 @protocol EKUILayoutItem
+- (EKUIGadgetContainer *);
+- (_Bool);
+- (_Bool)TO;
 - (_Bool)1Ä#°1Â0@ù
 × ;
+
+@optional
+- (void);
+- (NSView *);
 @end
 

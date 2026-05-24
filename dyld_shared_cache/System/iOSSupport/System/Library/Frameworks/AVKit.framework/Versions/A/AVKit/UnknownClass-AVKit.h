@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutDimension, NSLayoutXAxisAnchor, NSLayoutYAxisAnchor, NSString;
-
 @interface UnknownClass (AVKit)
 - (_Bool);
 - (void);
@@ -14,27 +12,27 @@
 - (void);
 - (void);
 - (struct UIEdgeInsets);
-- (void);
+- (void)C;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)r;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)C;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)M.;
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -46,22 +44,5 @@
 
 // Remaining properties
 @property(nonatomic) double avkit_extendedDynamicRangeGain;
-@property(readonly, nonatomic) NSLayoutYAxisAnchor *bottomAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *centerXAnchor;
-@property(readonly, nonatomic) NSLayoutYAxisAnchor *centerYAnchor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSLayoutDimension *heightAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *leadingAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *leftAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *rightAnchor;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSLayoutYAxisAnchor *topAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *trailingAnchor;
-@property(readonly, nonatomic) NSLayoutDimension *widthAnchor;
 @end
 

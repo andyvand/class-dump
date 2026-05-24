@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSObject, NSString, PFStateCaptureHandler;
-@protocol OS_os_log, PFTimeService;
+@class NSString;
 
 @interface PFTokenBucket
 {
     NSString *_name;
-    NSDecimalNumber *_capacity;
-    NSDecimalNumber *_refillRatePerMsec;
-    NSObject<OS_os_log> *_log;
-    id <PFTimeService> _timeService;
-    PFStateCaptureHandler *_stateHandler;
-    struct os_unfair_lock_s _lock;
-    NSDecimalNumber *_lock_availableTokens;
-    unsigned long long _lock_lastRefillMsecs;
 }
 
 - (_Bool);
@@ -30,13 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFunScores, NSArray, NSDictionary, NSMutableDictionary, NSMutableOrderedSet, NSNumber, NSString, SSPlistDataReader;
+@class NSMutableDictionary;
 
 @interface PRSRankingConfiguration
 {
     struct os_unfair_lock_s _mutex;
-    _Bool _allow_coreduet_influence;
-    _Bool _disableResultTruncation;
-    _Bool _useBagOverride;
-    _Bool _cook_sqf_topdown;
-    float _serverRelevanceScoreThreshold;
-    float _numAppsDeduped;
-    NSMutableDictionary *_categoryEngagements;
-    NSArray *_rankingQueries;
-    NSMutableDictionary *_queryDependentCategoryProbabilities;
-    SSPlistDataReader *_queryIndependentCategoryProbabilities;
-    NSNumber *_localResultQualityThreshold;
-    NSMutableOrderedSet *_cepBlocklistSet;
-    NSArray *_parsecCategoryOrder;
-    NSString *_shortcutSectionBundleID;
-    NSDictionary *_sqfData;
-    NSDictionary *_serverFeatures;
-    NSDictionary *_serverRelevanceScores;
-    IFunScores *_iFunScores;
 }
 
 - (_Bool);
@@ -37,67 +19,50 @@
 - (void);
 - (void);
 - (void);
+- (void)nuItem"16{CGPoint=dd}24;
+- (void)0@48B56;
+- (void)iguration";
+- (void)tionMetadata"16@0:(id)arg1 8;
+- (void)nFooterPresentationProperties";
+- (double)otocol"16;
+- (id):16 /* Error: Ran out of types for this method. */;
+- (double)youTubeVideoURLForEmbedURL:(id)arg1;
+- (id)youTubeVideoComponentsForEmbedURL: /* Error: Ran out of types for this method. */;
+- (float)setSymbolFont: /* Error: Ran out of types for this method. */;
+- (float)setProgressIndicatorStyle: /* Error: Ran out of types for this method. */;
+- (id)localizedName;
+- (float)initWithStyle:(id)arg1 icon:platform:sizeClass:sizeClassParameters:hasButton: /* Error: Ran out of types for this method. */;
+- (_Bool)tiveState: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithAudio:style:theme:player: /* Error: Ran out of types for this method. */;
+- (id)expirationDate;
+- (void)convertRect:(id)arg1 toView: /* Error: Ran out of types for this method. */;
+- (_Bool)configureSegmentedControl: /* Error: Ran out of types for this method. */;
+- (id)_wasCopiedFromIncompleteMetadata;
+- (void)_updateMetadataIsComplete;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
 - (id);
-- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (float);
-- (float);
-- (id);
-- (float);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (float);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)0@ù
 × ;
-- (void)sEnabled: /* Error: Ran out of types for this method. */;
-- (void)mContentType;
+- (void)setSuggestionsEnabled: /* Error: Ran out of types for this method. */;
+- (void)_uniformContentType;
 
 // Remaining properties
-@property(nonatomic) _Bool allow_coreduet_influence; // @synthesize allow_coreduet_influence=_allow_coreduet_influence;
 @property(retain, nonatomic) NSMutableDictionary *categoryEngagements; // @synthesize categoryEngagements=_categoryEngagements;
-@property(retain, nonatomic) NSMutableOrderedSet *cepBlocklistSet; // @synthesize cepBlocklistSet=_cepBlocklistSet;
-@property(nonatomic) _Bool cook_sqf_topdown; // @synthesize cook_sqf_topdown=_cook_sqf_topdown;
-@property(nonatomic) _Bool disableResultTruncation; // @synthesize disableResultTruncation=_disableResultTruncation;
-@property(retain, nonatomic) IFunScores *iFunScores; // @synthesize iFunScores=_iFunScores;
-@property(retain, nonatomic) NSNumber *localResultQualityThreshold; // @synthesize localResultQualityThreshold=_localResultQualityThreshold;
-@property(nonatomic) float numAppsDeduped; // @synthesize numAppsDeduped=_numAppsDeduped;
-@property(retain, nonatomic) NSArray *parsecCategoryOrder; // @synthesize parsecCategoryOrder=_parsecCategoryOrder;
-@property(retain, nonatomic) NSMutableDictionary *queryDependentCategoryProbabilities; // @synthesize queryDependentCategoryProbabilities=_queryDependentCategoryProbabilities;
-@property(retain, nonatomic) SSPlistDataReader *queryIndependentCategoryProbabilities; // @synthesize queryIndependentCategoryProbabilities=_queryIndependentCategoryProbabilities;
-@property(retain, nonatomic) NSArray *rankingQueries; // @synthesize rankingQueries=_rankingQueries;
-@property(retain, nonatomic) NSDictionary *serverFeatures; // @synthesize serverFeatures=_serverFeatures;
-@property(nonatomic) float serverRelevanceScoreThreshold; // @synthesize serverRelevanceScoreThreshold=_serverRelevanceScoreThreshold;
-@property(retain, nonatomic) NSDictionary *serverRelevanceScores; // @synthesize serverRelevanceScores=_serverRelevanceScores;
-@property(retain, nonatomic) NSString *shortcutSectionBundleID; // @synthesize shortcutSectionBundleID=_shortcutSectionBundleID;
-@property(retain, nonatomic) NSDictionary *sqfData; // @synthesize sqfData=_sqfData;
-@property(nonatomic) _Bool useBagOverride; // @synthesize useBagOverride=_useBagOverride;
 
 @end
 

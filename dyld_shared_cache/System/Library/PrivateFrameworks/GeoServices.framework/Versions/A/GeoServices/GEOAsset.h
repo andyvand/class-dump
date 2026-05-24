@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOAsset
 {
     PBUnknownFields *_unknownFields;
-    NSString *_url;
-    int _scaleFactor;
-    struct {
-        unsigned int has_scaleFactor:1;
-    } _flags;
 }
 
-+ (_Bool)sMessageType:(id)arg1;
++ (_Bool)setHasMessageType:(id)arg1;
+- (void);
+- (id)invertedSet;
+- (_Bool)familyCircle;
+- (int)a;
+- (void);
+- (id)H;
+- (id);
+- (void)Gm;
+- (void)attachDevice:(id)arg1 withOutError: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (unsigned long long);
+- (_Bool);
+- (void);
 - (_Bool);
-- (int);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id)ttedAddressLine: /* Error: Ran out of types for this method. */;
+- (id)placeAtIndex:(struct _NSZone *)arg1;
+- (id)addFormattedAddressLine: /* Error: Ran out of types for this method. */;
 - (id)4?@lApBÔB;
 - (id)urseDelta:%0.2f
 	distanceFromNearestJunction:%0.2f /* Error: Ran out of types for this method. */;
@@ -45,11 +40,7 @@
 - (void)<w;
 
 // Remaining properties
-@property(nonatomic) _Bool hasScaleFactor;
 @property(readonly, nonatomic) _Bool hasUrl;
-@property(nonatomic) int scaleFactor;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *url;
 
 @end
 

@@ -7,16 +7,15 @@
 @interface NSPredicateOperator
 {
     unsigned long long _operatorType;
-    unsigned long long _modifier;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)3;
 + (SEL);
 + (_Bool).;
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (void);

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPiTunesMediaAsset, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaMusicVideoUnresolvedMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    LPiTunesMediaAsset *_artwork;
 }
 
 - (id);
@@ -21,28 +17,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id)leIDs %@ with response code %ld;
 - (id);
-- (id);
-- (id);
+- (id)(;
 - (void);
-- (id);
+- (id)insert_commit;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPiTunesMediaAsset *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

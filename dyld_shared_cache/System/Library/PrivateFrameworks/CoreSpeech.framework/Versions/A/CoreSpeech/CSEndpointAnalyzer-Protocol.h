@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CSEndpointAnalyzerDelegate;
 
 @protocol CSEndpointAnalyzer
+- (void)@;
+- (void);
+- (void);
 - (void)0@ù
 × ;
 - (void)thPath:(unsigned long long)arg1 withOutError:] /* Error: Ran out of types for this method. */;
 - (unsigned long long)gContext _finalizeAudioFileWriterWithCompletion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long activeChannel;
 @property(nonatomic) __weak id <CSEndpointAnalyzerDelegate> delegate;
-@property(retain, nonatomic) NSString *endpointerModelVersion;
-@property(retain, nonatomic) NSString *mhId;
 @end
 

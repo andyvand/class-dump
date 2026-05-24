@@ -7,13 +7,12 @@
 @interface TeaUI.LiveResizingView
 {
     id delegate;
-    id isLiveResizing;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)setThumbnailBackgroundColor:(struct CGRect)arg1;
 - (void);
 - (void);
 - (void)pÿÿúËýÿ;

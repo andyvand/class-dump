@@ -6,19 +6,18 @@
 
 #import <CoreHAP/HAP2AccessoryServerControllerOperation.h>
 
-@class HAP2ControllerReadRequest, NSIndexSet;
+@class NSIndexSet;
 
 @interface HAP2AccessoryServerControllerReadOperation : HAP2AccessoryServerControllerOperation
 {
     NSIndexSet *_cachedCharacteristicIndices;
-    HAP2ControllerReadRequest *_readRequest;
 }
 
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)tics;
+- (void)readingCharacteristics;
 
 @end
 

@@ -6,61 +6,42 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
-
 @interface LPGameCenterInvitationMetadata : LPSpecializationMetadata
 {
     unsigned int _numberOfPlayers;
-    unsigned int _minimumNumberOfPlayers;
-    unsigned int _maximumNumberOfPlayers;
-    NSString *_game;
-    LPImage *_image;
-    LPImage *_icon;
 }
 
 + (id);
 + (_Bool);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned int);
-- (unsigned int);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (unsigned int);
+- (unsigned int);
+- (id);
+- (id);
+- (_Bool)P;
+- (void);
+- (unsigned int);
 - (id);
 - (void);
-- (id);
+- (id)rver share participants;
 - (void);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)o;
+- (id)e.soagent;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *game; // @synthesize game=_game;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) LPImage *image; // @synthesize image=_image;
-@property(nonatomic) unsigned int maximumNumberOfPlayers; // @synthesize maximumNumberOfPlayers=_maximumNumberOfPlayers;
-@property(nonatomic) unsigned int minimumNumberOfPlayers; // @synthesize minimumNumberOfPlayers=_minimumNumberOfPlayers;
-@property(nonatomic) unsigned int numberOfPlayers; // @synthesize numberOfPlayers=_numberOfPlayers;
-@property(readonly) Class superclass;
 
 @end
 

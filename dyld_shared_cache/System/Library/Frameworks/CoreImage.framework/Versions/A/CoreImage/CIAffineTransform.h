@@ -6,13 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSAffineTransform;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIAffineTransform : CIFilter
 {
     CIImage *inputImage;
-    NSAffineTransform *inputTransform;
 }
 
 + (id);
@@ -26,7 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSAffineTransform *inputTransform; // @synthesize inputTransform;
 
 @end
 

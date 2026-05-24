@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (IMDDUtilities)
-- (_Bool);
+- (_Bool)stamp information is not yet available. Dropping video frame.;
 @end
 

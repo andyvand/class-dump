@@ -7,11 +7,9 @@
 @interface JetUI.JULoadingViewController
 {
     id label;
-    id presentationContext;
-    id pageRenderMetrics;
 }
 
-- (id);
+- (id)_topContentInset;
 - (id);
 - (void);
 - (void);

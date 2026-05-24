@@ -5,5 +5,6 @@
 //
 
 @protocol CRTextDecoding
+- (_Bool);
 @end
 

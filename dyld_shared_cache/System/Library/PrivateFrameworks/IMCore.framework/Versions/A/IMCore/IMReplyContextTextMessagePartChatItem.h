@@ -6,31 +6,27 @@
 
 #import <IMCore/IMTextMessagePartChatItem.h>
 
-@class IMItem, NSString;
+@class IMItem;
 
 @interface IMReplyContextTextMessagePartChatItem : IMTextMessagePartChatItem
 {
     _Bool _replyIsFromMe;
-    IMItem *_parentItem;
-    NSString *_replyMessageGUID;
 }
 
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)oj/Sources/AVCPacketRelayDriverThread.m:(id)arg1 %d:AVCPacketRelayDriverThread:AVCPacketRelayDriverProc start failed (%d) /* Error: Ran out of types for this method. */;
+- (void)VConference/AVConference.subproj/Sources/AVCPacketRelayDriverThread.m:(_Bool)arg1 %d:AVCPacketRelayDriverThread:AVCPacketRelayDriverProc start failed (%d) /* Error: Ran out of types for this method. */;
+- (id)Stream [%s] %s:%d AVCVideoStream:Server died, but AVCVideoStream has already deallocated, NO-OP /* Error: Ran out of types for this method. */;
+- (_Bool)didServerDie (%p);
+- (_Bool)nserializeWithData failed with error %08X for FaceTime audio;
+- (id)efix resolution failed with error %d;
+- (id)trying in 1 second for Interface %s, attempt %d out of %d;
+- (void)itTimeout=%d _consecutiveIdenticalQueryResultMax=%d _linkProbingLockdownPeriod=%f _linkProbingQRStatFrequency=%d _linkProbingQRStatRequestMaxCount=%d _inkProbingQRStatRequestMaxRTT=%f;
 - (id);
 - (_Bool);
 - (void)û;
 
 // Remaining properties
 @property(retain, nonatomic) IMItem *_parentItem; // @synthesize _parentItem;
-@property(nonatomic) _Bool replyIsFromMe; // @synthesize replyIsFromMe=_replyIsFromMe;
-@property(copy, nonatomic) NSString *replyMessageGUID; // @synthesize replyMessageGUID=_replyMessageGUID;
 
 @end
 

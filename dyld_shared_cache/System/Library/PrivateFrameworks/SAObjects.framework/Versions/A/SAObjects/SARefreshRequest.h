@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAStartRequest.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SARefreshRequest : SAStartRequest
 {
@@ -15,19 +15,17 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)?;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *nlResultState;
-@property(copy, nonatomic) NSData *serializedIntent;
-@property(copy, nonatomic) NSString *source;
 
 @end
 

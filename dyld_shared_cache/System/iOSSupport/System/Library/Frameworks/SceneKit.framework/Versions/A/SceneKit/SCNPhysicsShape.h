@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface SCNPhysicsShape
 {
     id _referenceObject;
-    NSDictionary *_options;
-    NSArray *_transforms;
-    void *_cachedObject;
-    struct btCollisionShape *_collisionShape;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)isAutofillAvailable;
 - (void);
 - (id);
 - (id);
@@ -27,12 +23,12 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
+- (void)hh8?kA;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id){CGPDFDocument=}24;
+- (void)H;
 - (struct btCollisionShape *);
 - (id);
 - (id)th[0] = texture2D( depthSampler, v_tcDepth0.xy + rowOfs[3] ).r;
@@ -51,8 +47,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *options;
-@property(readonly, nonatomic) id sourceObject; // @synthesize sourceObject=_referenceObject;
-@property(readonly, nonatomic) NSArray *transforms;
 
 @end
 

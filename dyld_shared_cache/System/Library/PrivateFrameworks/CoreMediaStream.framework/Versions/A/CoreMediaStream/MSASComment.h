@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface MSASComment
 {
     _Bool _isLike;
-    _Bool _isCaption;
-    _Bool _isBatchComment;
-    _Bool _isDeletable;
-    _Bool _isMine;
-    int _ID;
-    NSString *_GUID;
-    NSDate *_timestamp;
-    NSDate *_clientTimestamp;
-    NSString *_personID;
-    NSString *_firstName;
-    NSString *_lastName;
-    NSString *_fullName;
-    NSString *_email;
-    NSString *_content;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (void);
+- (void)ationDetector with initial state %@;
 - (void);
 - (void);
 - (void);
@@ -45,43 +31,29 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ا;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (void);
+- (id)r;
+- (void)_remainingAllowedRSSIEntryCount;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)failed with error %d;
 - (void);
 - (id);
-- (id);
+- (id)@ = '%@') && (%@ != '*');
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *GUID; // @synthesize GUID=_GUID;
-@property(nonatomic) int ID; // @synthesize ID=_ID;
-@property(retain, nonatomic) NSDate *clientTimestamp; // @synthesize clientTimestamp=_clientTimestamp;
-@property(retain, nonatomic) NSString *content; // @synthesize content=_content;
-@property(retain, nonatomic) NSString *email; // @synthesize email=_email;
-@property(retain, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(retain, nonatomic) NSString *fullName; // @synthesize fullName=_fullName;
-@property(nonatomic) _Bool isBatchComment; // @synthesize isBatchComment=_isBatchComment;
-@property(nonatomic) _Bool isCaption; // @synthesize isCaption=_isCaption;
-@property(nonatomic) _Bool isDeletable; // @synthesize isDeletable=_isDeletable;
-@property(nonatomic) _Bool isLike; // @synthesize isLike=_isLike;
-@property(nonatomic) _Bool isMine; // @synthesize isMine=_isMine;
-@property(retain, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(retain, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

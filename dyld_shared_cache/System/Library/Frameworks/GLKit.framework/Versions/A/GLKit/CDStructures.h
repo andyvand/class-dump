@@ -15,29 +15,21 @@ struct GLKBigInt_s {
     unsigned long long n1;
 };
 
-struct GLKEffectPropertyPrv {
-    struct GLKBigInt_s *_field1;
-    struct GLKBigInt_s *_field2;
-    struct GLKBigInt_s *_field3;
-    struct GLKBigInt_s *_field4;
-    id _field5;
-};
-
 #pragma mark Named Unions
 
 union _GLKMatrix3 {
     struct {
-        float m00;
-        float m01;
-        float m02;
-        float m10;
-        float m11;
-        float m12;
-        float m20;
-        float m21;
-        float m22;
-    } ;
-    float m[9];
+        float _field1;
+        float _field2;
+        float _field3;
+        float _field4;
+        float _field5;
+        float _field6;
+        float _field7;
+        float _field8;
+        float _field9;
+    } _field1;
+    float _field2[9];
 };
 
 union _GLKMatrix4 {

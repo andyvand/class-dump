@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UISearchControllerAnimator
 {
 }
 
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)56B60;
+- (void)B24Q28Q36@?44;
+- (_Bool)setLatestReadReceipt: /* Error: Ran out of types for this method. */;
+- (void)%@, not allowed;
 - (double);
-- (void)tionsAreEnabled:(id)arg1;
+- (void)_setTransformLayerRotationsAreEnabled:(id)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

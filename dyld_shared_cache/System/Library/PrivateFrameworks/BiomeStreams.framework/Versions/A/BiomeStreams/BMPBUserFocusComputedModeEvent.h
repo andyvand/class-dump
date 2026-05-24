@@ -9,17 +9,6 @@
 @interface BMPBUserFocusComputedModeEvent
 {
     NSString *_mode;
-    int _modeSemanticType;
-    int _modeUpdateReason;
-    int _modeUpdateSource;
-    NSString *_semanticModeIdentifier;
-    _Bool _starting;
-    struct {
-        unsigned int modeSemanticType:1;
-        unsigned int modeUpdateReason:1;
-        unsigned int modeUpdateSource:1;
-        unsigned int starting:1;
-    } _has;
 }
 
 - (void);
@@ -32,14 +21,14 @@
 - (id);
 - (int);
 - (id);
-- (int);
+- (int);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (int);
-- (int);
+- (int);
+- (int);
 - (int);
 - (id);
 - (id);
@@ -58,23 +47,12 @@
 - (void);
 - (_Bool)$!@ùv1Â0@ù
 × ;
-- (int)odeStream;
-- (void)r_object_depends_stmt__free_unpacked;
+- (int)sleepModeStream;
+- (void)pg_query__alter_object_depends_stmt__free_unpacked;
 - (void)^_`abcdefg;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMode;
-@property(nonatomic) _Bool hasModeSemanticType;
-@property(nonatomic) _Bool hasModeUpdateReason;
-@property(nonatomic) _Bool hasModeUpdateSource;
-@property(readonly, nonatomic) _Bool hasSemanticModeIdentifier;
-@property(nonatomic) _Bool hasStarting;
-@property(retain, nonatomic) NSString *mode; // @synthesize mode=_mode;
-@property(nonatomic) int modeSemanticType; // @synthesize modeSemanticType=_modeSemanticType;
-@property(nonatomic) int modeUpdateReason; // @synthesize modeUpdateReason=_modeUpdateReason;
-@property(nonatomic) int modeUpdateSource; // @synthesize modeUpdateSource=_modeUpdateSource;
-@property(retain, nonatomic) NSString *semanticModeIdentifier; // @synthesize semanticModeIdentifier=_semanticModeIdentifier;
-@property(nonatomic) _Bool starting; // @synthesize starting=_starting;
 
 @end
 

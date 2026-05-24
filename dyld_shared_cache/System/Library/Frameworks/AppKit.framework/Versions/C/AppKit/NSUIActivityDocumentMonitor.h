@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ionsWithAnchorEdge:anchorPoint:anchorSize:shouldInsetForAnchor:areasOfInterest:cornerRadius: /* Error: Ran out of types for this method. */;
++ (id)_coreUIOptionsWithAnchorEdge:anchorPoint:anchorSize:shouldInsetForAnchor:areasOfInterest:cornerRadius: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

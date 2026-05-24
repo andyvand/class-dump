@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (double);
-+ (void);
++ (void);
 + (void);
 + (id);
 + (void);
@@ -42,6 +42,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (void);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -55,8 +56,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
++ (void);
 + (void);
 + (id);
 + (struct CGPath **);

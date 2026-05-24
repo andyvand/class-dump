@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 @interface _PXAssetResourceBag
 {
     long long _resourceType;
-    NSURL *_url;
 }
 
 - (id);
-- (id)erWidth;
-- (void)d;
+- (id)minimumVideoScrubberWidth;
+- (void)PXStoryUserActionKind;
 - (long long)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long resourceType; // @synthesize resourceType=_resourceType;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

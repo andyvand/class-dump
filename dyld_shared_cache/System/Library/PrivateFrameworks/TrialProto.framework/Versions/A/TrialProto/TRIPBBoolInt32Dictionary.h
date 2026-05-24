@@ -9,8 +9,6 @@
 @interface TRIPBBoolInt32Dictionary
 {
     TRIPBMessage *_autocreator;
-    int _values[2];
-    _Bool _valueSet[2];
 }
 
 - (void);
@@ -24,7 +22,7 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (unsigned long long);
@@ -32,7 +30,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)Knowledge;
+- (void)SpotlightKnowledge;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

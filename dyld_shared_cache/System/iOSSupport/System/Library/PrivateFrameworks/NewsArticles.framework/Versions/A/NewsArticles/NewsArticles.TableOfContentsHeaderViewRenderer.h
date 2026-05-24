@@ -7,7 +7,6 @@
 @interface NewsArticles.TableOfContentsHeaderViewRenderer
 {
     id styler;
-    id coverViewRenderer;
 }
 
 @end

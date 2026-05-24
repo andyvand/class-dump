@@ -4,25 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface VCCannedVideoPacketSource
 {
     unsigned char _mode;
-    NSFileHandle *_fileHandle;
-    NSString *_filePath;
-    struct __CFAllocator *_blockBufferHeaderAllocator;
-    struct __CFAllocator *_rtcpPacketAllocator;
-    NSObject<OS_dispatch_queue> *_writeQueue;
-    NSMutableDictionary *_rtpCallbacks;
-    NSMutableDictionary *_rtcpCallbacks;
-    struct OpaqueFigThread *_cannedReplayThread;
-    _Bool _cannedReplayThreadCanceled;
-    struct os_unfair_lock_s _stateLock;
-    struct _opaque_pthread_mutex_t _replayMutex;
-    struct _opaque_pthread_cond_t _replayCondition;
 }
 
 + (_Bool);

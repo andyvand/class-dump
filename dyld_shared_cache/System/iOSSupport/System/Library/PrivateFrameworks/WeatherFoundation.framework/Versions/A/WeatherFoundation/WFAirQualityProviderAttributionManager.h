@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, WFAirQualityProviderAttribution;
-
 @interface WFAirQualityProviderAttributionManager
 {
     struct os_unfair_lock_s _dataSynchronizationLock;
-    NSMutableDictionary *_attributionCache;
 }
 
 + (id);
@@ -22,14 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)a new tag;
 - (struct os_unfair_lock_s);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *attributionCache; // @synthesize attributionCache=_attributionCache;
 @property(nonatomic) struct os_unfair_lock_s dataSynchronizationLock; // @synthesize dataSynchronizationLock=_dataSynchronizationLock;
-@property(readonly, nonatomic) WFAirQualityProviderAttribution *defaultProviderAttribution;
 
 @end
 

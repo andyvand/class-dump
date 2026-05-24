@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary;
-
 @interface ICKeyedSharedInstanceManager
 {
     struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _instantiationHandler;
-    NSMutableDictionary *_stronglyHeldSharedInstances;
-    NSMapTable *_weaklyHeldSharedInstances;
-    NSMutableDictionary *_usageCounts;
 }
 
-- (id);
+- (id)";
+- (void):(id)arg1;
 - (void);
-- (void);
 - (id);
-- (void)reACAccountBackend;
+- (void)ICUserIdentityStoreACAccountBackend;
 
 @end
 

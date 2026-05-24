@@ -11,7 +11,7 @@
     unsigned int _opType;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (id);
 - (id);
 - (void);

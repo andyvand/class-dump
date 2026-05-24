@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)!;
 + (Class);
 + (Class);
 - (id);
-- (id)s:(id)arg1;
+- (id)StringAsExcludedAttributes:(id)arg1;
 
 @end
 

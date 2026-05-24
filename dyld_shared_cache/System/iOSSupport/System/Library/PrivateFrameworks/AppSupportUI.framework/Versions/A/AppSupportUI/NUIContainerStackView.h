@@ -6,35 +6,25 @@
 
 #import <AppSupportUI/NUIContainerView.h>
 
-@class NSString;
-
 @interface NUIContainerStackView : NUIContainerView
 {
     struct _NUIGridArrangement _arrangement;
-    CDStruct_0d6b4eb6 _visibleCount;
-    struct map<UIView *, double, std::less<UIView *>, std::allocator<std::pair<UIView *const, double>>> _customSpacings;
-    struct {
-        unsigned int alignment:8;
-        unsigned int distribution:8;
-        unsigned int axis:4;
-    } _stackViewFlags;
-    double _spacing;
 }
 
 + (id);
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)@9;
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)x9j;
 - (void);
 - (id);
 - (double);
@@ -44,27 +34,17 @@
 - (id);
 - (long long);
 - (void);
-- (long long);
+- (long long)##x;
 - (id);
 - (double);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)h;
 
 // Remaining properties
-@property(nonatomic) long long alignment;
 @property(nonatomic) long long axis;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long distribution;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double spacing; // @synthesize spacing=_spacing;
-@property(readonly) Class superclass;
 
 @end
 

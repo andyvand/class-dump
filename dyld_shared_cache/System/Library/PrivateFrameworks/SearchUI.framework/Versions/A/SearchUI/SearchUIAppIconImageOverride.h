@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSString;
+@class NSString;
 
 @interface SearchUIAppIconImageOverride
 {
     NSString *_imageName;
-    NSBundle *_bundle;
 }
 
 - (id);
-- (id);
+- (id)_typeNamespace;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
 @property(readonly, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
 
 @end

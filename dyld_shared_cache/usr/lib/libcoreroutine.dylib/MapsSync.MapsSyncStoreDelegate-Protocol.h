@@ -7,9 +7,10 @@
 @class NSArray;
 
 @protocol MapsSync.MapsSyncStoreDelegate
+- (void);
 
 @optional
-- (void)dDestinationHome;
+- (void)suggestedDestinationHome;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *storeSubscriptionTypes;

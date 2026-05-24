@@ -6,7 +6,7 @@
 
 @interface UnknownClass (Additions)
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);

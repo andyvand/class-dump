@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface _SWCTrackingDomainInfo
 {
     NSString *_domain;
-    NSDictionary *_JSONObject;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)@9h;
 + (id);
 + (void);
 + (void);
@@ -25,22 +24,18 @@
 + (_Bool);
 - (_Bool);
 - (id);
+- (id)J;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)ght 1;
 - (unsigned long long);
-- (id);
+- (id)j;
 - (void);
 - (id)A@*ð!àAù±.°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly) _Bool canBlockRequest;
 @property(readonly) NSString *domain; // @synthesize domain=_domain;
-@property(readonly) NSString *ownerDisplayName;
-@property(readonly) NSString *ownerName;
-@property(readonly) unsigned long long source;
 
 @end
 

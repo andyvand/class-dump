@@ -9,21 +9,6 @@
 @interface SwiftUI.UIKitSearchBarCoordinator : SwiftUI.PlatformViewCoordinator
 {
     id triggerSubmission;
-    id clearAction;
-    id configuration;
-    id scopes;
-    id tokenScopes;
-    id customScopeBar;
-    id placement;
-    id usingExplicitSuggestionPlacement;
-    id selection;
-    id delegate;
-    id searchBar;
-    id isViewUpdating;
-    id oldText;
-    id oldTokens;
-    id oldSuffix;
-    id needsStateRestoration;
 }
 
 - (_Bool);
@@ -32,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void)@4	;

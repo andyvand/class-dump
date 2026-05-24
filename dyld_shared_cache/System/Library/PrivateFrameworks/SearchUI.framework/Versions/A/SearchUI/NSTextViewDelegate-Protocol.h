@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDictionary, NSMenu;
+
 @protocol NSTextViewDelegate
+
+@optional
+- (NSArray *);
+- (NSDictionary *);
+- (_Bool)2;
+- (NSArray *)T$;
+- (_Bool);
+- (NSMenu *)e key failed;
+- (_Bool)ng empty puk.pem file for BBUpdater;
 @end
 

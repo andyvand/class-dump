@@ -11,13 +11,13 @@
 }
 
 + (double);
-+ (unsigned long long);
++ (unsigned long long);
 + (id);
++ (id)xn;
 + (id);
-+ (id);
-- (_Bool);
+- (_Bool)n;
 - (id);
-- (id);
+- (id)2;
 - (void);
 - (void);
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MXVersion;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MXBundleBlacklistEntry
 {
     NSString *_bundleIdentifier;
-    _MXVersion *_minimum;
-    _MXVersion *_maximum;
 }
 
 + (id);
+- (_Bool)e=%@, info=%@ from energyMonitor;
+- (_Bool)terval=%@, identifier=%@, adjustSnapshotToNow=%@;
+- (id)owerlog call is disabled, returning 0;
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void)imeout:queue:completion: /* Error: Ran out of types for this method. */;
+- (void)shortenURL:timeout:queue:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

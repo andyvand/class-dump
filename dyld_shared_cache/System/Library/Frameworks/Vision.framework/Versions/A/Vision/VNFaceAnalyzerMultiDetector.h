@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (float);
-+ (unsigned int);
++ (unsigned int)40@0:(id)arg1 8@"FPSandboxingURLWrapper"16@"NSURL"24@?<v@?@"NSError">32;
 + (id);
 - (struct vImage_Buffer *);
 - (struct CGRect);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void)is wrong in ssyevx_ call
 ;

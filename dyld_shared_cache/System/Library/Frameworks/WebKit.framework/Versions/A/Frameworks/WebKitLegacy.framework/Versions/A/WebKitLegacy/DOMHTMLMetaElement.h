@@ -15,17 +15,15 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)]U;
+- (void)read netfilename=%@
+;
 - (id);
 - (id);
-- (void)Element;
+- (void)DOMHTMLParagraphElement;
 
 // Remaining properties
 @property(copy) NSString *content;
-@property(copy) NSString *httpEquiv;
-@property(copy) NSString *name;
-@property(copy) NSString *scheme;
 
 @end
 

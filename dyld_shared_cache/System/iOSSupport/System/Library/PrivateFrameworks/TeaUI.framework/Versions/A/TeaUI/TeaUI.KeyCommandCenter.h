@@ -7,12 +7,10 @@
 @interface TeaUI.KeyCommandCenter
 {
     id commandCenter;
-    id commandItems;
-    id stagedTracker;
 }
 
 - (void);
-- (id);
+- (id)timesOfDayConfiguration;
 - (_Bool);
 - (void)Xÿÿ;
 

@@ -6,13 +6,9 @@
 
 #import <BiomePubSub/BMBookmarkablePublisher.h>
 
-@protocol BPSPublisher;
-
 @interface BPSMerge : BMBookmarkablePublisher
 {
     _Bool _nextIsB;
-    id <BPSPublisher> _a;
-    id <BPSPublisher> _b;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)setCloudkitData: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -35,8 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <BPSPublisher> a; // @synthesize a=_a;
-@property(readonly, nonatomic) id <BPSPublisher> b; // @synthesize b=_b;
 @property(nonatomic) _Bool nextIsB; // @synthesize nextIsB=_nextIsB;
 
 @end

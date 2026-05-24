@@ -4,33 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFFuture, NSAttributedString, NSError;
-
 @interface MUIManualSummaryViewModel
 {
     _Bool _isInlineSummary;
-    _Bool _isExternalSummary;
-    long long _state;
-    NSAttributedString *_summary;
-    NSError *_error;
-    unsigned long long _summarizableMessageCount;
-    EFFuture *_summaryControllerFuture;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)3;
+- (id)	;
 - (void);
 - (id);
 - (unsigned long long);
@@ -38,16 +30,10 @@
 - (long long);
 - (void);
 - (_Bool);
-- (void)dTypes;
+- (void)readablePasteboardTypes;
 
 // Remaining properties
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool isExternalSummary; // @synthesize isExternalSummary=_isExternalSummary;
-@property(nonatomic) _Bool isInlineSummary; // @synthesize isInlineSummary=_isInlineSummary;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(nonatomic) unsigned long long summarizableMessageCount; // @synthesize summarizableMessageCount=_summarizableMessageCount;
-@property(copy, nonatomic) NSAttributedString *summary; // @synthesize summary=_summary;
-@property(retain, nonatomic) EFFuture *summaryControllerFuture; // @synthesize summaryControllerFuture=_summaryControllerFuture;
 
 @end
 

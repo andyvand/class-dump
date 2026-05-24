@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPlaceQuestionnairePlaceInfo
 {
     PBDataReader *_reader;
-    NSString *_countryCode;
-    NSString *_mapsCategoryId;
-    GEOPDMapsIdentifier *_mapsId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _hasRichData;
-    struct {
-        unsigned int has_hasRichData:1;
-        unsigned int read_countryCode:1;
-        unsigned int read_mapsCategoryId:1;
-        unsigned int read_mapsId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_handleSessionProvidingDelegateEndInterruption: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)yFilter"b1"read_implictQueryCategoryFilter"b1"read_poiIconCategoryFilter"b1"read_venueFilter"b1"wrote_anyField"b1};
-- (id)g:externalResourceUUID:timestamp:subscriptionIdentifier: /* Error: Ran out of types for this method. */;
+- (id)_insertDataRowForData:ETag:externalResourceUUID:timestamp:subscriptionIdentifier: /* Error: Ran out of types for this method. */;
 - (id)Ô;
 - (void);
 

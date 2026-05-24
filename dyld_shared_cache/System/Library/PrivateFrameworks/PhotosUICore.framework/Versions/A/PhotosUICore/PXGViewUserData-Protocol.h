@@ -6,6 +6,9 @@
 
 @protocol PXGViewUserData
 
+@optional
+- (void);
+
 // Remaining properties
 @property(readonly, nonatomic) long long viewFloatingAxis;
 // Preceding property had unknown attributes: ?

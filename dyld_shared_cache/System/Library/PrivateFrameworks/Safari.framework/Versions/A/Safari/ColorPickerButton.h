@@ -6,20 +6,17 @@
 
 #import <Safari/RolloverTrackingButton.h>
 
-@class CALayer, CAShapeLayer, NSColor;
+@class CALayer, NSColor;
 
 __attribute__((visibility("hidden")))
 @interface ColorPickerButton : RolloverTrackingButton
 {
     CALayer *_imageLayer;
-    CAShapeLayer *_shapeLayer;
-    CAShapeLayer *_borderLayer;
-    NSColor *_color;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)eligible for blackhole.;
 - (id);
 - (void);
 - (id);

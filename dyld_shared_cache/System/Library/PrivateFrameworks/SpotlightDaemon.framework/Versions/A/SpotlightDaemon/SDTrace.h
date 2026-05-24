@@ -9,23 +9,20 @@
 @interface SDTrace
 {
     SDTraceItem *_items[32];
-    int _current;
-    NSString *_title;
 }
 
-+ (void);
++ (void)a;
 - (id);
 - (id);
-- (id);
-- (long long);
-- (id);
-- (void);
+- (id)naaier;
+- (long long)arseBufferToCxt:(id)arg1 powerUpFromDDR(186) cannot add 1 element to context;
 - (id);
 - (void);
-- (int)Disk;
+- (id);
+- (void);
+- (int)setLowDisk;
 
 // Remaining properties
-@property(readonly, nonatomic) int current; // @synthesize current=_current;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

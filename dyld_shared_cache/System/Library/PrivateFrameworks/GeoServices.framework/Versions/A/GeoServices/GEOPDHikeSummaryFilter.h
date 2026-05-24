@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     PBUnknownFields *_unknownFields;
 }
 
-- (id);
+- (id)@;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)sult"b1"read_guidesHomeResult"b1"read_ipGeoLookupResult"b1"read_locationDirectedSearchResult"b1"read_mapsHomeResult"b1"read_mapsIdentifierPlaceLookupResult"b1"read_mapsSearchHomeResult"b1"read_merchantLookupResult"b1"read_nearbySearchResult"b1"read_offlineRegionNameResult"b1"read_placeCollectionLookupResult"b1"read_placeDescriptorResolutionResult"b1"read_placeGlobalCommonResult"b1"read_placeLookupResult"b1"read_placeRefinementResult"b1"read_placecardEnrichmentResult"b1"read_poiAtAddressLookupResult"b1"read_popularNearbySearchResult"b1"read_publisherViewResult"b1"read_queryUnderstandingResult"b1"read_reverseGeocodingResult"b1"read_searchCapabilitiesResult"b1"read_searchFieldPlaceholderResult"b1"read_searchResult"b1"read_searchZeroKeywordCategorySuggestionResult"b1"read_searchZeroKeywordWithSearchResultsSuggestionResult"b1"read_siriSearchResult"b1"read_territoryLookupResult"b1"read_transitScheduleLookupResult"b1"read_vendorSpecificPlaceRefinementResult"b1"read_wifiFingerprintResult"b1"wrote_anyField"b1};
-- (id)tMarker;
+- (id)_enrichmentMarker;
 - (id)´E;
 - (void)Ü×sFt@;
 

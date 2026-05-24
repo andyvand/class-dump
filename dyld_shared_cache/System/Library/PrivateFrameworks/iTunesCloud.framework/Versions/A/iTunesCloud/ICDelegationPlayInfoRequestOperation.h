@@ -6,15 +6,12 @@
 
 #import <iTunesCloud/ICAsyncOperation.h>
 
-@class ICDelegationPlayInfoRequest, ICStoreRequestContext;
+@class ICDelegationPlayInfoRequest;
 
 __attribute__((visibility("hidden")))
 @interface ICDelegationPlayInfoRequestOperation : ICAsyncOperation
 {
     ICDelegationPlayInfoRequestOperation *_strongSelf;
-    ICDelegationPlayInfoRequest *_playInfoRequest;
-    ICStoreRequestContext *_storeRequestContext;
-    CDUnknownBlockType _responseHandler;
 }
 
 - (void);
@@ -24,15 +21,13 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void);
+- (void).c;
 - (void);
 - (void);
 - (void)<jÜj;
 
 // Remaining properties
 @property(copy, nonatomic) ICDelegationPlayInfoRequest *playInfoRequest; // @synthesize playInfoRequest=_playInfoRequest;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
-@property(retain, nonatomic) ICStoreRequestContext *storeRequestContext; // @synthesize storeRequestContext=_storeRequestContext;
 
 @end
 

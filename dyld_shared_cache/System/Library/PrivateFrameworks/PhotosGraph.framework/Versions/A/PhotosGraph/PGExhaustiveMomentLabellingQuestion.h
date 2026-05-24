@@ -6,15 +6,9 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGExhaustiveMomentLabellingQuestion : PGSurveyQuestion
 {
     unsigned short _entityType;
-    unsigned short _state;
-    NSDictionary *_additionalInfo;
-    double _localFactoryScore;
-    NSString *_entityIdentifier;
 }
 
 - (double);
@@ -24,7 +18,7 @@
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (id)sFeatureSpecificationsForTrendsConfigurations:withProgress: /* Error: Ran out of types for this method. */;
+- (id)_unifiedSearchTrendsFeatureSpecificationsForTrendsConfigurations:withProgress: /* Error: Ran out of types for this method. */;
 - (void)s/PhotosGraph/Framework/Syndication/PGSyndicationProcessor.m;
 
 @end

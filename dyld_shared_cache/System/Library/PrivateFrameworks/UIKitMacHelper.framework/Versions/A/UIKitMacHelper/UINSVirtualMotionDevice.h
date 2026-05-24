@@ -4,40 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CMAccelerometerData, CMDeviceMotion, CMGyroData, NSObject, NSOperationQueue;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface UINSVirtualMotionDevice
 {
     struct os_unfair_lock_s _spinLock;
-    long long _orientation;
-    CDStruct_bf7dff04 _deviceQuaternion;
-    CDStruct_bf7dff04 _orientedQuaternion;
-    double _lastDeviceUpdateTimestamp;
-    NSObject<OS_dispatch_source> *_accelerometerDispatchSource;
-    _Bool _accelerometerDispatchIsActive;
-    CDUnknownBlockType _accelerometerHandler;
-    NSOperationQueue *_accelerometerHandlerQueue;
-    double _accelerometerUpdateInterval;
-    NSObject<OS_dispatch_source> *_gyroDispatchSource;
-    _Bool _gyroDispatchIsActive;
-    CDUnknownBlockType _gyroHandler;
-    NSOperationQueue *_gyroHandlerQueue;
-    double _gyroUpdateInterval;
-    double _gyroLastTimestamp;
-    CDStruct_03942939 _gyroLastGravity;
-    NSObject<OS_dispatch_source> *_deviceMotionDispatchSource;
-    _Bool _deviceMotionDispatchIsActive;
-    CDUnknownBlockType _deviceMotionHandler;
-    NSOperationQueue *_deviceMotionHandlerQueue;
-    double _deviceMotionUpdateInterval;
-    CDStruct_03942939 _deviceMotionLastGravity;
-    double _deviceMotionLastTimestamp;
-    CMAccelerometerData *_accelerometerData;
-    CMGyroData *_gyroData;
-    CMDeviceMotion *_deviceMotion;
-    CDUnknownBlockType _animationBlock;
 }
 
 + (id);
@@ -49,33 +19,33 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)B;
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)"WebView"16;
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (double);
-- (void);
+- (double)EKParticipantForSorting;
+- (void)original conflict detection - event start date:(id)arg1 [%@] event end date:(CDUnknownBlockType)arg2 [%@] ignored event ID:[%@] source:[%@] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (double);
 - (id);
 - (void);
-- (double);
+- (double):%-5d Executed query successfully. { numResults=%lu } /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (long long);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -85,21 +55,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, getter=isAccelerometerActive) _Bool accelerometerActive;
 @property(readonly, getter=isAccelerometerAvailable) _Bool accelerometerAvailable;
-@property(readonly) CMAccelerometerData *accelerometerData;
-@property double accelerometerUpdateInterval;
-@property(copy) CDUnknownBlockType animationBlock;
-@property(readonly) CMDeviceMotion *deviceMotion;
-@property(readonly, getter=isDeviceMotionActive) _Bool deviceMotionActive;
-@property(readonly, getter=isDeviceMotionAvailable) _Bool deviceMotionAvailable;
-@property(readonly) CMDeviceMotion *deviceMotionData;
-@property double deviceMotionUpdateInterval;
-@property(readonly, getter=isGyroActive) _Bool gyroActive;
-@property(readonly, getter=isGyroAvailable) _Bool gyroAvailable;
-@property(readonly) CMGyroData *gyroData;
-@property double gyroUpdateInterval;
-@property long long orientation;
 
 @end
 

@@ -4,42 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PCSimpleTimer;
-@protocol OS_dispatch_queue, OS_os_log;
-
 @interface PCPersistentTimer
 {
     double _fireTime;
-    double _startTime;
-    unsigned long long _guidancePriority;
-    double _minimumEarlyFireProportion;
-    _Bool _triggerOnGMTChange;
-    _Bool _disableSystemWaking;
-    _Bool _userVisible;
-    NSString *_serviceIdentifier;
-    id _target;
-    SEL _selector;
-    id _userInfo;
-    PCSimpleTimer *_simpleTimer;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_os_log> *_logObject;
-    double _earlyFireConstantInterval;
 }
 
 + (void);
 + (double);
 + (double);
++ (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)/;
 - (void);
 - (double);
-- (id);
-- (double);
+- (id)21H1;
+- (double)";
 - (id);
 - (void);
 - (void);
@@ -47,8 +30,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)rent->num_sync_points > 0) && (last_queue->parent->sync_points[0].num_unsynchronized_children>0);
+- (void)' attribute encountered in `mcc_params:(id)arg1:finalize'.  The fourth field in a DWT record must contain a number of DWT levels in the range 0 to 32. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -65,19 +48,7 @@
 - (void)IntervalFallbackState, changing to %@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableSystemWaking; // @synthesize disableSystemWaking=_disableSystemWaking;
-@property(nonatomic) double earlyFireConstantInterval; // @synthesize earlyFireConstantInterval=_earlyFireConstantInterval;
-@property(readonly, nonatomic) double fireTime;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double minimumEarlyFireProportion; // @synthesize minimumEarlyFireProportion=_minimumEarlyFireProportion;
-@property(readonly, nonatomic) double startTime;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isUserVisible) _Bool userVisible;
 
 @end
 

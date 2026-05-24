@@ -18,15 +18,14 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (void);
-- (id);
-- (id);
-- (void)utputDeviceVolume:outputDeviceUID:details:completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)ed];
+- (void)adjustOutputDeviceVolume:outputDeviceUID:details:completion: /* Error: Ran out of types for this method. */;
 - (void)èÿ@³;
 
 // Remaining properties
-@property(retain, nonatomic) _MRLyricsEventProtobuf *event; // @synthesize event=_event;
 @property(readonly, nonatomic) _Bool hasEvent;
 
 @end

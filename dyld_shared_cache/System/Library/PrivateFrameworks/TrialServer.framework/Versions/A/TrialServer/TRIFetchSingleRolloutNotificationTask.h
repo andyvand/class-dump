@@ -6,28 +6,23 @@
 
 #import <TrialServer/TRIBaseTask.h>
 
-@class NSArray, NSDate, NSString, TRIRolloutDeployment, TRIRolloutTaskSupport;
-@protocol TRITaskAttributing, TRITaskQueueStateProviding;
+@class TRIRolloutDeployment;
 
 @interface TRIFetchSingleRolloutNotificationTask : TRIBaseTask
 {
     TRIRolloutDeployment *_deployment;
-    id <TRITaskAttributing> _taskAttributing;
-    TRIRolloutTaskSupport *_support;
-    _Bool wasDeferred;
-    int retryCount;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)owser failed while discovering services with type '%@':(id)arg1 %@;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)mposition:(id)arg1 %@%@;
 - (id);
 - (void);
 - (_Bool);
@@ -47,21 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int retryCount; // @synthesize retryCount;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

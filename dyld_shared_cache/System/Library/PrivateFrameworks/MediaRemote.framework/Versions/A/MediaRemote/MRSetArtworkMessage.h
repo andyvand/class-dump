@@ -14,7 +14,7 @@
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ffering value %lu for caps from address:%@ on endpoint:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *artworkData;

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PISmartToneFilterHDR
 {
     CIImage *inputImage;
-    NSNumber *inputExposure;
-    NSNumber *inputContrast;
-    NSNumber *inputBrightness;
-    NSNumber *inputShadows;
-    NSNumber *inputHighlights;
-    NSNumber *inputBlack;
-    NSNumber *inputRawHighlights;
 }
 
 + (id);
@@ -34,26 +27,19 @@
 - (void);
 - (id);
 - (void);
+- (void)meaningOfMoment;
+- (id);
+- (id);
+- (id)geocodePostalAddress:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id)dEyeAutoCalculator;
+- (void)videoCrossfadeLoopSchema;
+- (id)PIApertureRedEyeAutoCalculator;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputBlack; // @synthesize inputBlack;
-@property(retain, nonatomic) NSNumber *inputBrightness; // @synthesize inputBrightness;
-@property(retain, nonatomic) NSNumber *inputContrast; // @synthesize inputContrast;
-@property(retain, nonatomic) NSNumber *inputExposure; // @synthesize inputExposure;
-@property(retain, nonatomic) NSNumber *inputHighlights; // @synthesize inputHighlights;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRawHighlights; // @synthesize inputRawHighlights;
-@property(retain, nonatomic) NSNumber *inputShadows; // @synthesize inputShadows;
 
 @end
 

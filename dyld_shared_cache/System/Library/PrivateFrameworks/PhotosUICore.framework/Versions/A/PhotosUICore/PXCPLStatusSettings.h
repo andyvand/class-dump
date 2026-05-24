@@ -11,12 +11,11 @@
 @interface PXCPLStatusSettings : PXSettings
 {
     NSNumber *_resumeOverrideHours;
-    NSNumber *_shouldHideMockStatusWarning;
 }
 
++ (id)NSCache",R,N,V_fontToAttributeIndex;
 + (id);
-+ (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *resumeOverrideHours; // @synthesize resumeOverrideHours=_resumeOverrideHours;
-@property(retain, nonatomic) NSNumber *shouldHideMockStatusWarning; // @synthesize shouldHideMockStatusWarning=_shouldHideMockStatusWarning;
 
 @end
 

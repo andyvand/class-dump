@@ -6,20 +6,12 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class NSString;
-
 @interface MPModelStoreAsset : MPModelObject
 {
 }
 
 
 // Remaining properties
-@property(nonatomic) unsigned long long accountIdentifier; // @dynamic accountIdentifier;
 @property(nonatomic) long long endpointType; // @dynamic endpointType;
-@property(readonly, nonatomic) _Bool needsUserUpload; // @dynamic needsUserUpload;
-@property(copy, nonatomic) NSString *redownloadParameters; // @dynamic redownloadParameters;
-@property(nonatomic, getter=isRedownloadable) _Bool redownloadable; // @dynamic redownloadable;
-@property(nonatomic) _Bool shouldReportPlayEvents; // @dynamic shouldReportPlayEvents;
-@property(nonatomic, getter=isSubscriptionRequired) _Bool subscriptionRequired; // @dynamic subscriptionRequired;
 @end
 

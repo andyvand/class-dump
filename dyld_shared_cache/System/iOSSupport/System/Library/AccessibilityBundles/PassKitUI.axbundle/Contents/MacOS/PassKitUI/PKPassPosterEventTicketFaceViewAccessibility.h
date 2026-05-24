@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)lue;
 + (void);
 - (_Bool);
 - (id);

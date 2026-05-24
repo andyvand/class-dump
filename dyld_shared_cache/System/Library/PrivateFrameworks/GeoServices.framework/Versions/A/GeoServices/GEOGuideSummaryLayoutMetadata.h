@@ -12,7 +12,7 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)initWithApplicationWorkspace: /* Error: Ran out of types for this method. */;
 - (void)4;
 
 @end

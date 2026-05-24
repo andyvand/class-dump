@@ -5,18 +5,10 @@
 //
 
 @protocol CRQuad
-- (double);
+- (struct CGPoint);
+- (double)_updateImageAndAccessibilityLabel;
 
 // Remaining properties
-@property(readonly, nonatomic) double area;
-@property(readonly, nonatomic) double aspectRatio;
-@property(readonly, nonatomic) double baselineAngle;
-@property(readonly, nonatomic) struct CGPoint bottomLeft;
-@property(readonly, nonatomic) struct CGPoint bottomRight;
-@property(readonly, nonatomic) struct CGRect boundingBox;
-@property(readonly, nonatomic) struct CGPoint midPoint;
-@property(readonly, nonatomic) struct CGSize size;
 @property(readonly, nonatomic) struct CGPoint topLeft;
-@property(readonly, nonatomic) struct CGPoint topRight;
 @end
 

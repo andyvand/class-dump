@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface WSHIDIncomingServiceConnectionManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_queue_incomingConnections_deliveryManager;
-    NSMutableArray *_queue_incomingConnections_observerService;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)RE %@ = NEW.%@;;
+- (void)%@;;
+- (void)E %@ SET %@ = MAX(0,IFNULL(%@,0) - 1) WHERE OLD.%@ = %@;;
+- (void)variable for %@, must be a collection;
+- (id)ompletion:(id)arg1 ];
+- (id)cordsWithManagedObjectContext:completion:] /* Error: Ran out of types for this method. */;
+- (id)dsWorkItem executeImportOperationsAndAccumulateRecordsWithManagedObjectContext:(id)arg1 completion:] /* Error: Ran out of types for this method. */;
+- (void)y"8@"NSError"16;
 - (id);
 - (id);
 - (void);

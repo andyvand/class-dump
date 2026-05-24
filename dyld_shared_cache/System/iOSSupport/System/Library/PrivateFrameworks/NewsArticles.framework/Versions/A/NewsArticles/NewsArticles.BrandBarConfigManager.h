@@ -7,7 +7,6 @@
 @interface NewsArticles.BrandBarConfigManager
 {
     id configManager;
-    id appLaunchMethodChecker;
 }
 
 @end

@@ -12,14 +12,14 @@
 {
 }
 
-- (_Bool);
+- (_Bool)8r*16q24@?32;
 - (id);
 - (id);
 - (id);
 - (struct CGColor *);
 - (Class);
 - (id);
-- (struct CGColor *)ectionElementKindSectionFooter;
+- (struct CGColor *)UICollectionElementKindSectionFooter;
 - (void)(D;
 - (void)éá E;
 - (id)¾T;

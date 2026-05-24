@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDXPCMessageCountersLogEvent
 {
     NSString *_type;
-    NSString *_peerInformation;
-    NSString *_messageName;
-    NSNumber *_count;
 }
 
 + (id)ùqÐ1Â0@ù
@@ -25,9 +22,6 @@ __attribute__((visibility("hidden")))
 - (void)hStorage"8Q16^B24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *count; // @synthesize count=_count;
-@property(readonly, nonatomic) NSString *messageName; // @synthesize messageName=_messageName;
-@property(readonly, nonatomic) NSString *peerInformation; // @synthesize peerInformation=_peerInformation;
 @property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end

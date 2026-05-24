@@ -11,7 +11,7 @@
 
 - (id);
 - (struct CGRect);
-- (id);
+- (id)ppleIDAuthenticationContext";
 
 // Remaining properties
 @property(readonly) struct CGRect rect; // @synthesize rect=_rect;

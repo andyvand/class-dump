@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttribute, NSObject, NSURL;
+@class NSObject;
 @protocol OS_dispatch_group;
 
 __attribute__((visibility("hidden")))
 @interface MKSearchFoundationImage
 {
     NSObject<OS_dispatch_group> *_group;
-    NSURL *_url;
-    GEOStyleAttribute *_styleAttribute;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void)nShortcuts;
+- (void)placeInShortcuts;
 
 @end
 

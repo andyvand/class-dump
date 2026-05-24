@@ -5,6 +5,7 @@
 //
 
 @protocol EDLocalSearchDelegate
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isSearchCanceled;

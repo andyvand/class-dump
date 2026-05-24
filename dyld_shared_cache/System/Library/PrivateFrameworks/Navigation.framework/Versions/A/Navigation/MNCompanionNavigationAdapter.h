@@ -4,39 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCompanionRouteDetails, GEOCompanionRouteStatus, GEOComposedRoute, GEOLocation, GEONavigationGuidanceState, GEORouteMatch, NSArray, NSString, NSTimer;
-@protocol GEOServerFormattedStepStringFormatter, MNCompanionNavigationDelegate;
+@class NSString;
+@protocol MNCompanionNavigationDelegate;
 
 @interface MNCompanionNavigationAdapter
 {
     NSString *_destinationName;
-    GEOComposedRoute *_route;
-    GEOLocation *_lastLocation;
-    _Bool _locationUnreliable;
-    GEORouteMatch *_routeMatch;
-    NSString *_currentRoadName;
-    _Bool _guidancePromptsEnabled;
-    unsigned long long _activeStepIndex;
-    unsigned long long _displayedStepIndex;
-    double _positionFromManeuver;
-    struct {
-        double remainingTime;
-        double remainingDistance;
-    } _positionFromDestination;
-    unsigned long long _announcementStage;
-    unsigned long long _nextAnnouncementStage;
-    double _timeUntilNextAnnouncement;
-    GEONavigationGuidanceState *_guidanceState;
-    _Bool _isNavigatingInLowGuidance;
-    _Bool _isConnectedToCarplay;
-    GEOCompanionRouteDetails *_companionRouteDetails;
-    GEOCompanionRouteStatus *_companionRouteStatus;
-    NSArray *_companionRouteUpdates;
-    _Bool _shouldSendRouteWithStatus;
-    NSTimer *_coalescedRouteStatusTimer;
-    NSTimer *_coalescedRouteUpdatesTimer;
-    id <GEOServerFormattedStepStringFormatter> _formatter;
-    id <MNCompanionNavigationDelegate> _delegate;
 }
 
 - (void);
@@ -45,6 +18,22 @@
 - (void);
 - (void);
 - (void);
+- (void)SButtonResponder;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)WidgetBorderedButtonStyle;
 - (void);
 - (void);
 - (void);
@@ -53,39 +42,23 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)ntextMenuStorage;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)86;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)AnyVersionSeedTracker;
 - (void);
 - (void);
 - (void);
@@ -93,7 +66,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -102,14 +75,7 @@
 - (void)gationServiceProxy>"16@"NSError"24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <MNCompanionNavigationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

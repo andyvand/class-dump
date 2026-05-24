@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MTOfflineKeyData
 {
@@ -12,13 +12,6 @@
 
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @dynamic data;
-@property(nonatomic) double expirationDate; // @dynamic expirationDate;
-@property(retain, nonatomic) NSString *keyUri; // @dynamic keyUri;
-@property(nonatomic) double lastRenewedDate; // @dynamic lastRenewedDate;
-@property(nonatomic) _Bool pendingDeletion; // @dynamic pendingDeletion;
-@property(nonatomic) long long secureInvalidationDsid; // @dynamic secureInvalidationDsid;
-@property(nonatomic) long long storeTrackId; // @dynamic storeTrackId;
 @property(retain, nonatomic) NSString *uuid; // @dynamic uuid;
 @end
 

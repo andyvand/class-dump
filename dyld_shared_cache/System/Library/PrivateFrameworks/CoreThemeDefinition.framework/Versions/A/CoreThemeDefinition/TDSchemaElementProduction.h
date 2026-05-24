@@ -6,7 +6,7 @@
 
 #import <CoreThemeDefinition/TDSimpleArtworkElementProduction.h>
 
-@class NSOrderedSet, NSString;
+@class NSString;
 
 @interface TDSchemaElementProduction : TDSimpleArtworkElementProduction
 {
@@ -18,7 +18,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *folderName; // @dynamic folderName;
-@property(retain, nonatomic) NSOrderedSet *slices; // @dynamic slices;
 
 @end
 

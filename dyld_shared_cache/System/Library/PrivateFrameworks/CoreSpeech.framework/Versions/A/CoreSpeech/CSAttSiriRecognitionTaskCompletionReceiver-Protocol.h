@@ -5,5 +5,8 @@
 //
 
 @protocol CSAttSiriRecognitionTaskCompletionReceiver
+
+@optional
+- (void);
 @end
 

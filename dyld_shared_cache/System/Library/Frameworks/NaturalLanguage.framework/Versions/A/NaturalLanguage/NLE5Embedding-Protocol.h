@@ -4,14 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, NSString;
 
 @protocol NLE5Embedding
-- (unsigned long long)delSystemVersion;
+- (NSArray *)rd;
+- (NSString *).inputmethod.TYIM.Stroke;
+- (unsigned long long)mh26684;
+- (_Bool)t;
+- (_Bool)apple.InternationalSupport;
+- (_Bool)hould only be called from the main thread.;
+- (_Bool);
+- (unsigned long long)modelSystemVersion;
 
 // Remaining properties
-@property(readonly) NSArray *adapters;
 @property(readonly) unsigned long long dimension;
-@property(readonly) unsigned long long maximumSequenceLength;
 @end
 

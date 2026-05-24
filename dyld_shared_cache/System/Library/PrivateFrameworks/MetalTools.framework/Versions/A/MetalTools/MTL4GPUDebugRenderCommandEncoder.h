@@ -6,30 +6,9 @@
 
 #import <MetalTools/MTL4ToolsRenderCommandEncoder.h>
 
-@class MTLGPUDebugRenderPipelineState, MTLToolsDepthStencilState, NSString;
-@protocol MTL4ArgumentTable;
-
 @interface MTL4GPUDebugRenderCommandEncoder : MTL4ToolsRenderCommandEncoder
 {
     unsigned int useResourceIteration;
-    _Bool _tileStageActive;
-    _Bool _tileStageUsed;
-    _Bool _fragmentStageActive;
-    _Bool _vertexStageActive;
-    _Bool _objectStageActive;
-    _Bool _meshStageActive;
-    _Bool _enableUseResourceValidation;
-    struct MTLGPUDebugTileThreadgroup _tileThreadgroup;
-    struct MTLGPUDebugThreadgroupLengths _meshThreadgroup;
-    struct MTLGPUDebugThreadgroupLengths _objectThreadgroup;
-    struct Options *_options;
-    struct GPUDebugEventUUIDPacket _drawID;
-    long long _encoderType;
-    MTLGPUDebugRenderPipelineState *_currentPipeline;
-    MTLToolsDepthStencilState *_currentDepthStencil;
-    id <MTL4ArgumentTable> currentArgumentTables[5];
-    CDStruct_dc0525a1 _vertexAmpState;
-    unsigned long long _internalBindingTables[5][40];
 }
 
 - (id);
@@ -51,6 +30,7 @@
 - (void);
 - (void);
 - (void);
+- (void)k:(unsigned long long)arg1;
 - (void);
 - (void);
 - (void);
@@ -62,8 +42,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)"U9	;
 - (void);
 - (void);
 - (void);
@@ -77,14 +56,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned int encoderID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

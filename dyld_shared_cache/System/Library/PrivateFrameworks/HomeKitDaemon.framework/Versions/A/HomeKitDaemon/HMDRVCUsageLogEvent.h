@@ -4,62 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDRVCUsageLogEvent
 {
     _Bool _wholeHouse;
-    unsigned long long _source;
-    NSNumber *_roomCount;
-    NSNumber *_roomsInHome;
-    NSArray *_cleanModes;
 }
 
-+ (id);
++ (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)__objc_intobj;
+- (id)L);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (unsigned long long)ithDescription: /* Error: Ran out of types for this method. */;
-- (void)serActivityAnalyzerBTDurationAggregate;
+- (unsigned long long)initWithDescription: /* Error: Ran out of types for this method. */;
+- (void)HMDLogEventUserActivityAnalyzerBTDurationAggregate;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(copy, nonatomic) NSArray *cleanModes; // @synthesize cleanModes=_cleanModes;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(copy, nonatomic) NSNumber *roomCount; // @synthesize roomCount=_roomCount;
-@property(copy, nonatomic) NSNumber *roomsInHome; // @synthesize roomsInHome=_roomsInHome;
 @property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wholeHouse; // @synthesize wholeHouse=_wholeHouse;
 
 @end
 

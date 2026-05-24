@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome, NSArray, NSHashTable, NSNotificationCenter, NSObject, NSString, NSUUID, _HMContext;
-@protocol OS_dispatch_queue;
+@class HMHome;
 
 @interface HMAccessCodeManager
 {
     struct hmf_unfair_data_lock_s _lock;
-    HMHome *_home;
-    _HMContext *_context;
-    NSUUID *_UUID;
-    NSNotificationCenter *_notificationCenter;
-    NSHashTable *_observers;
 }
 
-+ (id);
++ (id)y;
 + (long long);
-+ (_Bool);
++ (_Bool)C;
 + (long long);
 + (id);
 + (id);
@@ -38,7 +32,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,38 +50,21 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)�;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)i;
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)witchState:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)updateiCloudSwitchState:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void)t have unique accessory UUID for component %@ in components:%@ /* Error: Ran out of types for this method. */;
 - (id)BoardNotification"16;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, copy) NSArray *accessoriesSupportingAccessCodes;
-@property(readonly) _HMContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak HMHome *home; // @synthesize home=_home;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
 
 @end
 

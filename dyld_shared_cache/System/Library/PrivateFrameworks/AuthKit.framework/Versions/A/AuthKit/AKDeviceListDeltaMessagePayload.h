@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface AKDeviceListDeltaMessagePayload
 {
     NSString *_altDSID;
-    unsigned long long _operation;
-    NSString *_machineID;
-    NSArray *_machineIDs;
-    NSString *_serialNumber;
-    NSDate *_timestamp;
-    long long _removalReason;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long);
-- (id);
+- (long long);
+- (id)	;
 - (id);
 - (void)øC;
 - (unsigned long long)ÔÐÌÈÄÀ¼¸´°¬¨¤ |xtplhd`\XTPLHD@<840,($ ;
@@ -33,12 +27,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, copy, nonatomic) NSString *machineID; // @synthesize machineID=_machineID;
-@property(readonly, copy, nonatomic) NSArray *machineIDs; // @synthesize machineIDs=_machineIDs;
-@property(readonly, nonatomic) unsigned long long operation; // @synthesize operation=_operation;
-@property(readonly, nonatomic) long long removalReason; // @synthesize removalReason=_removalReason;
-@property(readonly, copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly, copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

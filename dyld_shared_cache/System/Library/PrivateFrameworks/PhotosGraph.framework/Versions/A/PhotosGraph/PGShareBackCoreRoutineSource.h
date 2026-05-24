@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)sR(@9kA;
 - (_Bool);
 - (id);
-- (void)ibrary;
+- (void)CuratedLibrary;
 
 @end
 

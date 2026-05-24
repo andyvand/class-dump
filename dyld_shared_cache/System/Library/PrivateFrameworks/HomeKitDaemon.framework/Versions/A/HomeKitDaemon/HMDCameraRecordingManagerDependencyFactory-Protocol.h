@@ -4,16 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol HMDFeaturesDataSource, HMDPreferences, HMMLogEventSubmitting;
+@class HMDCameraRecordingBulkSendSessionInitiator, HMDCameraRecordingBulkSendSessionReader, HMDCameraRecordingLoadBalancingAttempt, HMDCameraRecordingSessionNotificationTrigger, HMDCameraRecordingSessionRetryContext, HMDCameraRecordingSessionTimelineManager, HMDCameraRecordingSettingsControl, HMFTimer;
+@protocol HMDCameraFragmentHandling, HMDFeaturesDataSource, HMDPreferences, HMMLogEventSubmitting;
 
 @protocol HMDCameraRecordingManagerDependencyFactory
+- (HMFTimer *)nt no sender for %{public}@;
+- (HMDCameraRecordingSessionTimelineManager *)dParticipants %{private}@ no sender for %{public}@;
+- (HMDCameraRecordingSettingsControl *)gate, starting transaction;
+- (HMDCameraRecordingSessionNotificationTrigger *)teTransportType %@ -> %@;
+- (id <HMDCameraFragmentHandling>)ngSelf3 went away in %s line %d;
+- (HMDCameraRecordingSessionRetryContext *)ifier %@ from set %@;
+- (HMDCameraRecordingLoadBalancingAttempt *)of the peer-requested handles have both statues yet;
+- (HMDCameraRecordingBulkSendSessionReader *)error %@;
+- (HMDCameraRecordingBulkSendSessionInitiator *)RAGE] _loadSenderSession %@;
 - (id <HMDPreferences>);
-- (id <HMDFeaturesDataSource>)er: /* Error: Ran out of types for this method. */;
+- (id <HMDFeaturesDataSource>)getProblemFlagsWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (id <HMMLogEventSubmitting>)cannot remove participants from a share;
 
 // Remaining properties
 @property(readonly) id <HMDFeaturesDataSource> featuresDataSource;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter;
-@property(readonly) id <HMDPreferences> preferences;
 @end
 

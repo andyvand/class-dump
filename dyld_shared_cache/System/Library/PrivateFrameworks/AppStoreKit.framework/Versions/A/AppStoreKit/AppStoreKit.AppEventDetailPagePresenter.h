@@ -9,7 +9,6 @@
 @interface AppStoreKit.AppEventDetailPagePresenter : AppStoreKit.BasePresenter
 {
     id view;
-    id appEventDetailPage;
 }
 
 @end

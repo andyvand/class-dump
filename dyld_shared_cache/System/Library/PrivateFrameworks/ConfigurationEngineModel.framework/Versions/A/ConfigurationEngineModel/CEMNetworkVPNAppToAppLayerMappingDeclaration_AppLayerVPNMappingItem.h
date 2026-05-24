@@ -11,15 +11,11 @@
 @interface CEMNetworkVPNAppToAppLayerMappingDeclaration_AppLayerVPNMappingItem : CEMPayloadBase
 {
     NSString *_payloadIdentifier;
-    NSString *_payloadVPNUUID;
-    NSString *_payloadCellularSliceUUID;
-    NSString *_payloadDesignatedRequirement;
-    NSString *_payloadSigningIdentifier;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)P;
++ (id)le.framework/Versions/A/LegacyHandle;
 - (void);
 - (void);
 - (void);
@@ -29,18 +25,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)is job doesn't want to queue;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)6;
+- (void)CLIENT_HELLO;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadCellularSliceUUID; // @synthesize payloadCellularSliceUUID=_payloadCellularSliceUUID;
-@property(copy, nonatomic) NSString *payloadDesignatedRequirement; // @synthesize payloadDesignatedRequirement=_payloadDesignatedRequirement;
 @property(copy, nonatomic) NSString *payloadIdentifier; // @synthesize payloadIdentifier=_payloadIdentifier;
-@property(copy, nonatomic) NSString *payloadSigningIdentifier; // @synthesize payloadSigningIdentifier=_payloadSigningIdentifier;
-@property(copy, nonatomic) NSString *payloadVPNUUID; // @synthesize payloadVPNUUID=_payloadVPNUUID;
 
 @end
 

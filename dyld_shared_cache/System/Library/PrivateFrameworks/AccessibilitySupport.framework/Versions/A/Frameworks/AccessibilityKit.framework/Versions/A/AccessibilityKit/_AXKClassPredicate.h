@@ -8,19 +8,17 @@ __attribute__((visibility("hidden")))
 @interface _AXKClassPredicate
 {
     Class _controllerClass;
-    CDUnknownBlockType _predicate;
 }
 
 - (void);
 - (Class);
-- (Class);
+- (Class)X;
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)set_realMouseLocation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) Class controllerClass; // @synthesize controllerClass=_controllerClass;
-@property(copy, nonatomic) CDUnknownBlockType predicate; // @synthesize predicate=_predicate;
 
 @end
 

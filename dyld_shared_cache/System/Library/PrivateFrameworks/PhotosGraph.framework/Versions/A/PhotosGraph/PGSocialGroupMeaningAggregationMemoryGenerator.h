@@ -10,8 +10,8 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)inputMarkingSession:contentChanged: /* Error: Ran out of types for this method. */;
++ (id)_frontmostApplicationDidChange: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 @end

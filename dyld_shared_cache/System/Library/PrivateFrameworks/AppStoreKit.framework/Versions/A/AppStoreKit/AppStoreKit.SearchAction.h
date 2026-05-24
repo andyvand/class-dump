@@ -9,17 +9,6 @@
 @interface AppStoreKit.SearchAction : AppStoreKit.Action
 {
     id term;
-    id url;
-    id origin;
-    id source;
-    id entity;
-    id spellCheckEnabled;
-    id excludedTerms;
-    id originatingTerm;
-    id prefixTerm;
-    id guidedSearchTokens;
-    id guidedSearchOptimizationTerm;
-    id referrerData;
 }
 
 @end

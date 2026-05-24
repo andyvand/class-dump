@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSObject, WBSKeychainCredentialNotificationMonitor, WBSSavedAccountKeychainCoordinator;
-@protocol OS_dispatch_queue;
+@class NSDate, NSMutableArray;
 
 @interface WBSGeneratedPasswordStore
 {
     NSMutableArray *_cachedGeneratedPasswords;
-    NSObject<OS_dispatch_queue> *_queue;
-    WBSSavedAccountKeychainCoordinator *_keychainCoordinator;
-    WBSKeychainCredentialNotificationMonitor *_keychainMonitor;
-    _Bool _shouldIgnoreKeychainUpdates;
 }
 
 + (unsigned long long);
@@ -32,7 +27,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)rtistGrouping ON album_artist (grouping_key ASC);
 - (void);
 - (void);
 - (id);
@@ -40,7 +35,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allUnexpiredGeneratedPasswords;
 @property(readonly, nonatomic) NSDate *currentExpirationDate;
 
 @end

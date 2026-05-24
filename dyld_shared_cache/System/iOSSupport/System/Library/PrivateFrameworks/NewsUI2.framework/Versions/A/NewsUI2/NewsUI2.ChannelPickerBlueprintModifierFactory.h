@@ -7,7 +7,6 @@
 @interface NewsUI2.ChannelPickerBlueprintModifierFactory
 {
     id sectionFactory;
-    id tagService;
 }
 
 @end

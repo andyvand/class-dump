@@ -11,26 +11,24 @@
 @interface PXSChoiceRow : PXSRow
 {
     NSArray *_possibleValues;
-    NSArray *_possibleTitles;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id)C;
 - (id);
-- (void)sal;
+- (id);
+- (void)inlinePlaybackSimulateMainPresenterDisappearanceOnDismissal;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *possibleTitles; // @synthesize possibleTitles=_possibleTitles;
 @property(copy, nonatomic) NSArray *possibleValues; // @synthesize possibleValues=_possibleValues;
 
 @end

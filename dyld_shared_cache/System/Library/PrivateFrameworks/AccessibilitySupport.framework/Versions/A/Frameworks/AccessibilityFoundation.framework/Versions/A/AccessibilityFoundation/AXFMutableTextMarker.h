@@ -14,7 +14,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long index; // @dynamic index;
-@property(retain, nonatomic) struct __AXTextMarker *marker; // @dynamic marker;
 
 @end
 

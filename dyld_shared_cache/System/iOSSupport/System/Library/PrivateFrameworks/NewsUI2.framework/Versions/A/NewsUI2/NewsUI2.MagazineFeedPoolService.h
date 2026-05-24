@@ -7,10 +7,6 @@
 @interface NewsUI2.MagazineFeedPoolService
 {
     id context;
-    id personalizationService;
-    id historyService;
-    id issueService;
-    id eslInventory;
 }
 
 @end

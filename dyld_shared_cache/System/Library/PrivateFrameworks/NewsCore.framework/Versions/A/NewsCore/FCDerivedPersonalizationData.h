@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface FCDerivedPersonalizationData
 {
     unsigned long long _scoringType;
-    double _decayRate;
-    NSDictionary *_aggregatesByFeatureKey;
 }
 
 + (_Bool);
@@ -29,15 +25,7 @@
 - (void)r existing auto favorites or groupable favorites;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double decayRate; // @synthesize decayRate=_decayRate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long scoringType; // @synthesize scoringType=_scoringType;
-@property(readonly) Class superclass;
 
 @end
 

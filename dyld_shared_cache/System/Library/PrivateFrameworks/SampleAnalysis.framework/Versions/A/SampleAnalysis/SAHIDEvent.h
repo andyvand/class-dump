@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, SATimestamp;
+@class NSMutableArray;
 
 @interface SAHIDEvent
 {
     NSMutableArray *_steps;
-    unsigned int _hidEventType;
-    SATimestamp *_hidEventTimestamp;
 }
 
 + (id);
 + (void);
-+ (id);
++ (id)accessibilityDefaultButton;
 - (double);
 - (id);
-- (id);
-- (id);
+- (id)T;
+- (id)NSt3__120__shared_ptr_emplaceIN13SERestoreInfo16SN300VDeviceInfoENS_9allocatorIS2_EEEE;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)`;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) SATimestamp *hidEventTimestamp; // @synthesize hidEventTimestamp=_hidEventTimestamp;
-@property(readonly) unsigned int hidEventType; // @synthesize hidEventType=_hidEventType;
-@property(readonly) NSString *hidEventTypeString;
-@property(readonly) NSArray *steps; // @synthesize steps=_steps;
-@property(readonly) Class superclass;
-@property(readonly) double thresholdToGroupSameEventType;
 
 @end
 

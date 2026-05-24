@@ -10,33 +10,24 @@ __attribute__((visibility("hidden")))
 @interface UIViewControllerAction
 {
     NSString *_name;
-    int _transition;
-    CDUnknownBlockType _completion;
-    double _curlUpRevealedHeight;
-    UIViewController *_viewController;
 }
 
-- (id);
+- (id)CGSize=dd},N,V_customInsetSize;
 - (void);
 - (double);
 - (id);
 - (void);
 - (void)
 × ;
-- (CDUnknownBlockType)Interaction:sessionDidExit: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)dropInteraction:sessionDidExit: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool)ContextMenuThinSectionSeparator;
+- (_Bool)kContextMenuThinSectionSeparator;
 - (void)AD4215D687DF);
 - (void)Xâÿ;
 - (int)@¸ÿ;
 - (void)þ;
 
 // Remaining properties
-@property(nonatomic, setter=_setCurlUpRevealedHeight:) double _curlUpRevealedHeight; // @synthesize _curlUpRevealedHeight;
-@property(readonly, nonatomic) _Bool animated;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int transition; // @synthesize transition=_transition;
 @property(nonatomic) __weak UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

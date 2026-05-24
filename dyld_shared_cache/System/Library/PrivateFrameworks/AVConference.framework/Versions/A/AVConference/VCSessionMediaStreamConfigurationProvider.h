@@ -5,30 +5,20 @@
 //
 
 @class NSArray, NSMutableArray;
-@protocol VCIDSStreamIDGenerator;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionMediaStreamConfigurationProvider
 {
     NSMutableArray *_allocatedStreamIDs;
-    NSMutableArray *_audioStreamConfigurations;
-    NSMutableArray *_videoStreamConfigurations;
-    long long _highestEncodingResolution;
-    _Bool _isEncodingSqaures;
-    long long _sessionMode;
-    unsigned int _internalAudioPacketsPerSecond;
-    _Bool _use96Tier;
-    id <VCIDSStreamIDGenerator> _streamIDGenerator;
-    unsigned int _videoStreamConfigurationsCount;
 }
 
 + (void);
-+ (void);
++ (void);
 + (unsigned int);
 + (_Bool);
 + (_Bool);
 + (void);
-+ (void);
++ (void);
 + (_Bool);
 + (void);
 - (id);
@@ -49,9 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *audioStreamConfigurations; // @synthesize audioStreamConfigurations=_audioStreamConfigurations;
-@property(readonly, nonatomic) long long highestEncodingResolution; // @synthesize highestEncodingResolution=_highestEncodingResolution;
-@property(readonly, nonatomic) _Bool isEncodingSqaures; // @synthesize isEncodingSqaures=_isEncodingSqaures;
-@property(readonly, nonatomic) NSArray *videoStreamConfigurations; // @synthesize videoStreamConfigurations=_videoStreamConfigurations;
 
 @end
 

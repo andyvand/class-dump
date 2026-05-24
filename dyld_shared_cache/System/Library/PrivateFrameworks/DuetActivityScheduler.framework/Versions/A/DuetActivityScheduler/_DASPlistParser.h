@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface _DASPlistParser
 {
     NSMutableDictionary *_plistToDictionaryMap;
-    NSDictionary *_overrideActivities;
 }
 
-+ (id);
++ (id)`;
 - (long long);
 - (id);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (id);
@@ -24,11 +23,10 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)m;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *overrideActivities; // @synthesize overrideActivities=_overrideActivities;
 @property(retain, nonatomic) NSMutableDictionary *plistToDictionaryMap; // @synthesize plistToDictionaryMap=_plistToDictionaryMap;
 
 @end

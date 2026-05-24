@@ -11,12 +11,10 @@
 @interface UISearchResultsTableView : UITableView
 {
     double _offsetForNoResultsMessage;
-    UIView *_topShadowView;
-    UISearchDisplayController *_controller;
 }
 
-- (id);
-- (void);
+- (id)IMDCKRecordSaltManager;
+- (void)4;
 - (void);
 - (double);
 - (void);

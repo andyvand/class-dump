@@ -5,5 +5,16 @@
 //
 
 @protocol CNComposeRecipientTextViewDelegate
+
+@optional
+- (_Bool);
+- (void);
+- (void){;
+- (void)um;
+- (_Bool)l;
+- (void)Mum;
+- (_Bool)hDum;
+- (void)m;
+- (_Bool)8Qrm;
 @end
 

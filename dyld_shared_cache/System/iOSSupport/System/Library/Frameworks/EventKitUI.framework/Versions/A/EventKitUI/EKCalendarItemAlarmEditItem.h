@@ -6,32 +6,28 @@
 
 #import <EventKitUI/EKCalendarItemEditItem.h>
 
-@class CUIKAlarmsViewModel, NSArray;
+@class CUIKAlarmsViewModel;
 
 __attribute__((visibility("hidden")))
 @interface EKCalendarItemAlarmEditItem : EKCalendarItemEditItem
 {
     unsigned long long _disclosedSubitem;
-    NSArray *_alarms;
-    _Bool _hasLeaveNowAlarm;
-    _Bool _canHaveLeaveNowAlarm;
-    CUIKAlarmsViewModel *_alarmsViewModel;
 }
 
-- (void);
+- (void);
+- (_Bool);
+- (_Bool)*s;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)d%s;
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)_oneofIndex;
+- (void)respondsToSelector:(id)arg1;
 - (void);
 - (id);
 - (void);
-- (void)psURLForFallbackLocationTitle:structuredLocation:hasMapItemLaunchOptionFromTimeToLeaveNotification: /* Error: Ran out of types for this method. */;
+- (void)mapsURLForFallbackLocationTitle:structuredLocation:hasMapItemLaunchOptionFromTimeToLeaveNotification: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CUIKAlarmsViewModel *alarmsViewModel; // @synthesize alarmsViewModel=_alarmsViewModel;

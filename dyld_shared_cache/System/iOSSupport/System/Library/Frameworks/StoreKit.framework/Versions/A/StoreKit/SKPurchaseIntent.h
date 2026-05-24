@@ -9,18 +9,14 @@
 @interface SKPurchaseIntent
 {
     id bundleID;
-    id productID;
-    id appName;
-    id productName;
-    void additionalBuyParams;
 }
 
-- (void);
+- (void)�`;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)";
 
 // Remaining properties
 @property(nonatomic, copy) NSString *additionalBuyParams;

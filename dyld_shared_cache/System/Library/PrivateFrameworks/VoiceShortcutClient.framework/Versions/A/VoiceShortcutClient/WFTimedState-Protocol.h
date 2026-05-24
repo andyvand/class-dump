@@ -5,5 +5,8 @@
 //
 
 @protocol WFTimedState
+- (_Bool);
+- (double);
+- (void)`;
 @end
 

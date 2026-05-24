@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
     } _collectionViewBinderFlags;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-- (_Bool);
++ (id)ld use _CookieStorageCreateInMemory instead anyway.;
++ (_Bool)ng for %{public}@;
++ (id)24@?0*8*16;
++ (id)@;
+- (_Bool)_cacheResponse;
+- (void)alled with unknown seed (%llu) on connectionID = %llu;
+- (void)AwaitingTube;
+- (void)privacyProxyFailClosedForUnreachableNonMainHosts;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (void);
+- (void)e >= %@) AND (creationDate < %@));
 
 @end
 

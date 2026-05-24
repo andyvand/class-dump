@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PIBilateralFilter
 {
     CIImage *_inputImage;
-    NSNumber *_inputRadius;
-    NSNumber *_inputEdgeDetail;
 }
 
 + (id);
@@ -19,14 +17,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (id);
-- (void)ror: /* Error: Ran out of types for this method. */;
+- (void)pipelineStateForFunctionWithName:device:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSNumber *inputEdgeDetail; // @synthesize inputEdgeDetail=_inputEdgeDetail;
 @property(retain) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain) NSNumber *inputRadius; // @synthesize inputRadius=_inputRadius;
 
 @end
 

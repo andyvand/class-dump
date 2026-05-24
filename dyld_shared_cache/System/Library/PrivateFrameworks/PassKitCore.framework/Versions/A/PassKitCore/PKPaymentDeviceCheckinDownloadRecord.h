@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentBackgroundDownloadRecord.h>
 
-@class NSData, NSString, NSUUID;
+@class NSString;
 
 @interface PKPaymentDeviceCheckinDownloadRecord : PKPaymentBackgroundDownloadRecord
 {
     NSString *_region;
-    NSUUID *_identifier;
-    NSData *_responseData;
 }
 
 + (_Bool)0@ù
@@ -28,9 +26,7 @@
 - (void)DMçÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) NSString *region; // @synthesize region=_region;
-@property(retain, nonatomic) NSData *responseData; // @synthesize responseData=_responseData;
 
 @end
 

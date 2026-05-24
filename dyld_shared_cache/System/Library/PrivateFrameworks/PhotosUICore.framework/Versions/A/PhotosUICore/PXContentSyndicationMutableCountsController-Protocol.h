@@ -7,7 +7,6 @@
 @protocol PXContentSyndicationMutableCountsController
 
 // Remaining properties
-@property(nonatomic) CDStruct_aa0b146f detailedCounts;
 @property(nonatomic) long long savedCount;
 @end
 

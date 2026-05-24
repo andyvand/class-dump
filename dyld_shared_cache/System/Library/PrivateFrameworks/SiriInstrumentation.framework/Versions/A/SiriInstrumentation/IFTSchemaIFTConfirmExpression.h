@@ -6,25 +6,24 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTConfirmExpression : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_statementId;
-    _Bool _hasStatementId;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)F;
 - (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ۼ;
 - (id);
 - (id);
 - (id)emaQDSubComponentContext",&,N,V_subComponentContext;
@@ -32,8 +31,6 @@
 - (void)Îÿmø;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 
 @end

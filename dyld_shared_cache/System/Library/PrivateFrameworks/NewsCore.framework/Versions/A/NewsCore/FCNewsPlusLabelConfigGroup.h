@@ -9,8 +9,6 @@
 @interface FCNewsPlusLabelConfigGroup
 {
     FCNewsPlusLabelConfig *_configForTrialists;
-    FCNewsPlusLabelConfig *_configForSubscribers;
-    FCNewsPlusLabelConfig *_configForPaidBundleViaOffer;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 z@;
 
 // Remaining properties
-@property(readonly, nonatomic) FCNewsPlusLabelConfig *configForPaidBundleViaOffer; // @synthesize configForPaidBundleViaOffer=_configForPaidBundleViaOffer;
-@property(readonly, nonatomic) FCNewsPlusLabelConfig *configForSubscribers; // @synthesize configForSubscribers=_configForSubscribers;
 @property(readonly, nonatomic) FCNewsPlusLabelConfig *configForTrialists; // @synthesize configForTrialists=_configForTrialists;
 
 @end

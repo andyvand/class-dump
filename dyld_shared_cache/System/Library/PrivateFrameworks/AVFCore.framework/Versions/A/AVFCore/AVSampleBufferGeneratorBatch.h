@@ -9,21 +9,17 @@
 @interface AVSampleBufferGeneratorBatch
 {
     AVSampleBufferGenerator *_sampleGenerator;
-    struct OpaqueFigSampleGeneratorBatch *_sampleGeneratorBatch;
-    _Bool _openToRequests;
-    struct OpaqueFigSimpleMutex *_stateMutex;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (void)eFields;
-- (void);
-- (_Bool);
+- (void)tAlignedPartialResultIndexList;
+- (_Bool)_EARAppLmArtifact;
 - (struct opaqueCMSampleBuffer *);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)H;
 - (CDUnknownBlockType);
 
 // Remaining properties

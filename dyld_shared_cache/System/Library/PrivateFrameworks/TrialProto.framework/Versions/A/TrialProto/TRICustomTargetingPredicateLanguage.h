@@ -15,7 +15,6 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasPredicateGroup; // @dynamic hasPredicateGroup;
 @property(retain, nonatomic) TRIGroupedPredicate *predicateGroup; // @dynamic predicateGroup;
 
 @end

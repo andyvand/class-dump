@@ -14,7 +14,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)Set octagon settings walrus state to %d;
 - (id);
 - (_Bool)erence in POI update;
 

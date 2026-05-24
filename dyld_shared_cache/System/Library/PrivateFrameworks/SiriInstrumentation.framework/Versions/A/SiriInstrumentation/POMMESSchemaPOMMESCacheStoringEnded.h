@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESCacheStoringEnded : SISchemaInstrumentationMessage
 {
     int _status;
-    CDStruct_47fe53f2 _has;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)al/Library/BuildRoots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPersistentRequest_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)Ru;
+- (_Bool)essagesWithChatIdentifiersOnServicesBeforeAndAfterGUID We have a NULL messageGUID, early returning ****--We should have not gotten to this point if we had a null messageGUID, please file a radar--****;
 - (id);
 - (int);
-- (id);
-- (id)ted;
+- (id)P;
+- (id)_onboardingStarted;
 - (id)TB,N,V_hasTextInputEvent;
 - (_Bool),N,V_hasMultiTurnListSelectionUnderstanding;
 - (void),Á;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStatus;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int status; // @synthesize status=_status;
 
 @end

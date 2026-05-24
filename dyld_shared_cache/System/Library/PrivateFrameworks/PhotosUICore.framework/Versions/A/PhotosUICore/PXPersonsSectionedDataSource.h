@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, PHPhotoLibrary;
+@class NSArray, NSMutableDictionary;
 
 @interface PXPersonsSectionedDataSource
 {
     NSMutableDictionary *_cachedSortedPersonsByTypeAndSection;
-    PHPhotoLibrary *_photoLibrary;
-    NSDictionary *_faceTiles;
-    unsigned long long _peopleHomeSortingType;
-    NSArray *_personsSections;
 }
 
 - (id);
 - (unsigned long long);
 - (id);
+- (id)@;
+- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (long long)Value: /* Error: Ran out of types for this method. */;
+- (long long)setFlashFiredValue: /* Error: Ran out of types for this method. */;
 - (long long)Wÿp;
 - (void);
 - (id)ýSt;;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *faceTiles; // @synthesize faceTiles=_faceTiles;
-@property(readonly, nonatomic) unsigned long long peopleHomeSortingType; // @synthesize peopleHomeSortingType=_peopleHomeSortingType;
 @property(readonly, copy, nonatomic) NSArray *personsSections; // @synthesize personsSections=_personsSections;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end
 

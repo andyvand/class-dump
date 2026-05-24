@@ -9,31 +9,27 @@
 @interface BMPBAttributeEntry
 {
     NSString *_key;
-    NSString *_value;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)_curatedCollectionIdentifier;
+- (void)convertImageToGrayScale:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (_Bool)_SET;
+- (id)i?;
+- (_Bool)PG_QUERY__DEF_ELEM_ACTION__DEFELEM_SET;
 - (void)à-ÿ-*0-000o¦r¦t¦}¦¦¦ð¦ñ¦¨¨¨¨¨¨%¨&¨,¨,¨Ä¨Å¨à¨ñ¨ÿ¨ÿ¨&©-©G©Q©©©³©³©¶©¹©¼©½©å©å©)ª.ª1ª2ª5ª6ªCªCªLªLª|ª|ª°ª°ª²ª´ª·ª¸ª¾ª¿ªÁªÁªìªíªöªöªå«å«è«è«í«í«ûû;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRCommandOptionsProtobuf, _MRNowPlayingPlayerPathProtobuf;
-
 @interface _MRSendCommandMessageProtobuf
 {
     int _command;
-    _MRCommandOptionsProtobuf *_options;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    struct {
-        unsigned int command:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
 - (id);
 - (int);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -33,19 +26,14 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)8;
 - (void);
 - (int);
 - (void);
 - (void)addDistantExternalDevice: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int command; // @synthesize command=_command;
 @property(nonatomic) _Bool hasCommand;
-@property(readonly, nonatomic) _Bool hasOptions;
-@property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(retain, nonatomic) _MRCommandOptionsProtobuf *options; // @synthesize options=_options;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

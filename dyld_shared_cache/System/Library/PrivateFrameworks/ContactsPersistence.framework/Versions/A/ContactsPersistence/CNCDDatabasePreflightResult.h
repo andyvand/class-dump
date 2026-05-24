@@ -8,20 +8,16 @@ __attribute__((visibility("hidden")))
 @interface CNCDDatabasePreflightResult
 {
     _Bool _pristine;
-    _Bool _readOnly;
-    _Bool _createMyCard;
 }
 
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, getter=shouldCreateMyCard) _Bool createMyCard; // @synthesize createMyCard=_createMyCard;
 @property(readonly, getter=isPristine) _Bool pristine; // @synthesize pristine=_pristine;
-@property(readonly, getter=isReadOnly) _Bool readOnly; // @synthesize readOnly=_readOnly;
 
 @end
 

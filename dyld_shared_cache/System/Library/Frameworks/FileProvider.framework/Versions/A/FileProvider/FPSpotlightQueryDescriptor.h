@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchQuery, FPQueryEnumerationSettings, NSString;
+@class CSSearchQuery, FPQueryEnumerationSettings;
 
 @interface FPSpotlightQueryDescriptor
 {
     CSSearchQuery *_searchQuery;
-    FPQueryEnumerationSettings *_settings;
 }
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)#;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ple.quicktime.camera-debug-info;
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)startTimerForRequest;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *name;
 @property(readonly, nonatomic) FPQueryEnumerationSettings *settings; // @synthesize settings=_settings;
 
 @end

@@ -8,15 +8,12 @@ __attribute__((visibility("hidden")))
 @interface MKQuadTrie
 {
     unsigned int _maxItems;
-    CDStruct_8caa76fc _minSize;
-    CDStruct_02837cd9 _initialRegion;
-    void *__root;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)za;
 - (void);
 - (id);
 - (id);
@@ -24,11 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id).future.join;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)`B;
 - (unsigned long long);
-- (_Bool)ion:(id)arg1;
+- (_Bool)_windowDidBecomeKeyNotification:(id)arg1;
 
 @end
 

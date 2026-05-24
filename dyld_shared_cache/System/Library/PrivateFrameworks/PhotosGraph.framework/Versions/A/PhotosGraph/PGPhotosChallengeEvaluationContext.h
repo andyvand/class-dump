@@ -4,34 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSPublicEventManager, CLSSceneTaxonomyHierarchy, CLSServiceManager, OS_os_log, PGGraph, PHPhotoLibrary;
+@class PGGraph;
 
 @interface PGPhotosChallengeEvaluationContext
 {
     PGGraph *graph;
-    PHPhotoLibrary *photoLibrary;
-    CLSSceneTaxonomyHierarchy *sceneTaxonomy;
-    CLSServiceManager *serviceManager;
-    CLSPublicEventManager *publicEventManager;
-    OS_os_log *loggingConnection;
 }
 
 - (id);
 - (id);
 - (id);
 - (void)y was recorded!;
-- (id)untry;
-- (id)ChallengeEvaluableAlgorithmClimbing;
+- (id)inCountry;
+- (id)PhotosChallengeEvaluableAlgorithmClimbing;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic, readonly) PGGraph *graph; // @synthesize graph;
-@property(nonatomic, readonly) OS_os_log *loggingConnection; // @synthesize loggingConnection;
-@property(nonatomic, readonly) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary;
-@property(nonatomic, readonly) CLSPublicEventManager *publicEventManager; // @synthesize publicEventManager;
-@property(nonatomic, readonly) CLSSceneTaxonomyHierarchy *sceneTaxonomy; // @synthesize sceneTaxonomy;
-@property(nonatomic, readonly) CLSServiceManager *serviceManager; // @synthesize serviceManager;
 
 @end
 

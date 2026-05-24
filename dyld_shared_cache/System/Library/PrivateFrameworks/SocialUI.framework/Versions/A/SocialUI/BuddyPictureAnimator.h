@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, SOSystemIdleMonitor, SOTimer, SOTimerCenter;
+@class NSMutableSet;
 
 @interface BuddyPictureAnimator
 {
     _Bool _shouldNotAnimate;
-    NSMutableSet *_buddyPicturesToPost;
-    SOTimerCenter *_timerCenter;
-    SOTimer *_mainAnimationTimer;
-    SOSystemIdleMonitor *_systemIdleMonitor;
 }
 
 + (id);
@@ -38,10 +34,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSMutableSet *buddyPicturesToPost; // @synthesize buddyPicturesToPost=_buddyPicturesToPost;
-@property(readonly, retain, nonatomic) SOTimer *mainAnimationTimer; // @synthesize mainAnimationTimer=_mainAnimationTimer;
-@property(readonly, nonatomic) _Bool shouldNotAnimate; // @synthesize shouldNotAnimate=_shouldNotAnimate;
-@property(readonly, nonatomic) SOSystemIdleMonitor *systemIdleMonitor; // @synthesize systemIdleMonitor=_systemIdleMonitor;
-@property(readonly, retain, nonatomic) SOTimerCenter *timerCenter; // @synthesize timerCenter=_timerCenter;
 
 @end
 

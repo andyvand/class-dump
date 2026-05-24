@@ -9,18 +9,16 @@
 @interface PLUsageSnapshot
 {
     NSDate *_timestamp;
-    double _cpuUsage;
 }
 
 - (void);
 - (double);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)fp_deleteAllowingCoordination:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property double cpuUsage; // @synthesize cpuUsage=_cpuUsage;
 @property(retain) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

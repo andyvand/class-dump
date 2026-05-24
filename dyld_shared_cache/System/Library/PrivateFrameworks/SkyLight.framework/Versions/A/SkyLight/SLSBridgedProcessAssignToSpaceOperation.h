@@ -9,12 +9,11 @@
 @interface SLSBridgedProcessAssignToSpaceOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     int _process;
-    unsigned long long _spaceID;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)NSERT INTO %@ (%@) SELECT %@ FROM %@;
+- (id)ISTORYTOMBSTONE BLOB;
 - (unsigned long long);
 - (int);
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) int process; // @synthesize process=_process;
-@property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end
 

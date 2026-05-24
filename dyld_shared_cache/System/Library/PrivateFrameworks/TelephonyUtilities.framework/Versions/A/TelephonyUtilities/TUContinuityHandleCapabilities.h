@@ -7,8 +7,6 @@
 @interface TUContinuityHandleCapabilities
 {
     _Bool _supportsTelephonyCalls;
-    _Bool _supportsFaceTimeAudio;
-    _Bool _supportsFaceTimeVideo;
 }
 
 + (_Bool);
@@ -20,8 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool supportsFaceTimeAudio; // @synthesize supportsFaceTimeAudio=_supportsFaceTimeAudio;
-@property(readonly, nonatomic) _Bool supportsFaceTimeVideo; // @synthesize supportsFaceTimeVideo=_supportsFaceTimeVideo;
 @property(readonly, nonatomic) _Bool supportsTelephonyCalls; // @synthesize supportsTelephonyCalls=_supportsTelephonyCalls;
 
 @end

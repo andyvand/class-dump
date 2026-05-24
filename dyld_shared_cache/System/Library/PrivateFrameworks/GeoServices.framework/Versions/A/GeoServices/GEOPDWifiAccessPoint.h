@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDWifiAccessPoint
 {
     PBUnknownFields *_unknownFields;
-    NSString *_macId;
-    unsigned long long _scanTimestamp;
-    unsigned int _age;
-    int _channel;
-    int _rssi;
-    CDStruct_e664d718 _flags;
 }
 
 - (id);
@@ -24,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ead_labelings"b1"read_taggerModelId"b1"wrote_anyField"b1};
-- (id)lSuggestion;
+- (id)_spellSuggestion;
 - (id)tº´»¼\¼;
-- (id)egacy;
+- (id)etaURL_legacy;
 - (void);
 
 @end

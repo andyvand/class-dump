@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id)mensions",&,N,V_dimensions;
-- (id)MSchemaTTMOverrideRequestStarted;
+- (id)TTMSchemaTTMOverrideRequestStarted;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *jsonData;

@@ -5,13 +5,10 @@
 //
 
 @class SXComponentView;
-@protocol SXComponentInteractionHandler;
 
 @interface SXComponentInteraction
 {
     SXComponentView *_componentView;
-    id <SXComponentInteractionHandler> _handler;
-    unsigned long long _types;
 }
 
 - (id);
@@ -23,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak SXComponentView *componentView; // @synthesize componentView=_componentView;
-@property(readonly, nonatomic) id <SXComponentInteractionHandler> handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) unsigned long long types; // @synthesize types=_types;
 
 @end
 

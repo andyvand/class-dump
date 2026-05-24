@@ -9,15 +9,9 @@
 @interface MTLDebugDevice : MTLToolsDevice
 {
     struct MTLSamplerDescriptorHashMap _argumentBufferSamplers;
-    struct os_unfair_lock_s _referenceTrackingCommandBufferLock;
-    struct unordered_set<MTLDebugCommandBuffer *, std::hash<MTLDebugCommandBuffer *>, std::equal_to<MTLDebugCommandBuffer *>, std::allocator<MTLDebugCommandBuffer *>> _referenceTrackingCommandBuffers;
-    struct CheckerboardRenderTargetPipelineCache _checkerboardRTPipelineCache;
-    _Bool _storeValidationEnabled;
-    _Bool _relaxedTextureArrayBindingsEnabled;
-    _Bool _loadValidationEnabled;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -46,25 +40,25 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
+- (CDStruct_4bcfbbae)uW;
 - (CDStruct_4bcfbbae);
-- (CDStruct_4bcfbbae);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)S;
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
+- (void);
+- (id);
+- (void)	˿;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -84,13 +78,13 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)hb;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -98,24 +92,24 @@
 - (id);
 - (CDStruct_4bcfbbae);
 - (id);
+- (unsigned long long)ZNK7lexicon9trieutils12WordTrieImplIN4trie17ProbabilisticTrieINS2_10MarisaTrieEcdEEE8childrenERKNS0_18WordTrieCursorImplIS5_EEEUlhRKT_RbE_;
 - (unsigned long long);
-- (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
+- (id) ;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id) ;
+- (id)c;
 - (id);
 - (void);
 - (void);
@@ -124,9 +118,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (CDStruct_4bcfbbae);
-- (id);
+- (id));
 - (_Bool);
 - (id);
 - (id);
@@ -134,7 +128,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)K	;
 - (id);
 - (id);
 - (id);
@@ -142,7 +136,7 @@
 × ;
 - (id)node<id<MTLDebugResourcePurgeable>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std:(unsigned long long)arg1:(unsigned long long)arg2 __hash_node<id<MTLDebugResourcePurgeable>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}};
 - (void)?=QQQ}}40I88;
-- (id)rtsCMPIndirectCommandBuffers;
+- (id)supportsCMPIndirectCommandBuffers;
 - (id)boundsCheckOptions;
 - (id)terizationRateMap.screenSize.width (%lu).;
 - (id)criptor intersection function table offset (%lu) must be less than 2^24;
@@ -193,8 +187,6 @@
 
 // Remaining properties
 @property(readonly) _Bool loadValidationEnabled; // @synthesize loadValidationEnabled=_loadValidationEnabled;
-@property(readonly) _Bool relaxedTextureArrayBindingsEnabled; // @synthesize relaxedTextureArrayBindingsEnabled=_relaxedTextureArrayBindingsEnabled;
-@property(readonly) _Bool storeValidationEnabled; // @synthesize storeValidationEnabled=_storeValidationEnabled;
 
 @end
 

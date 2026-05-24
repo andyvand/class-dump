@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)th:(id)arg1;
-- (id)overage_invert;
+- (void)deallocBufferSubData:(id)arg1 heapIndex:(unsigned long long)arg2 bufferIndex:bufferOffset:length: /* Error: Ran out of types for this method. */;
+- (id)sample_coverage_invert;
 
 @end
 

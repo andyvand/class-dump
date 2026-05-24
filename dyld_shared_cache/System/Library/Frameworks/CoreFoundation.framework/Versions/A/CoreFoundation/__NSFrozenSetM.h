@@ -9,8 +9,17 @@
 __attribute__((visibility("hidden")))
 @interface __NSFrozenSetM : NSSet
 {
-    CDStruct_af6d7307 storage;
-    _Atomic struct __cow_state_t *cow;
+    struct {
+        id *objs;
+        union {
+            unsigned long long mutations;
+            struct {
+                unsigned int muts;
+                unsigned int used:26;
+                unsigned int szidx:6;
+            } ;
+        } state;
+    } storage;
 }
 
 + (id))l;
@@ -18,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (double);
-- (void);
-- (_Bool);
+- (void)MTLDebugTexture.;
+- (_Bool)stdErrPath;
 - (id);
 - (id);
 - (void);

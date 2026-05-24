@@ -11,7 +11,8 @@
 }
 
 + (id);
-- (id);
+- (id)be greater than kValue
+;
 
 @end
 

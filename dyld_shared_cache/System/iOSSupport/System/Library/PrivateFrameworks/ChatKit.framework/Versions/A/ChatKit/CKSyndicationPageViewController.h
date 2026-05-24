@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIPageControl, UIPageViewController;
-@protocol CKSyndicationOnboardingPageViewControllerDelegate;
+@class NSMutableArray, UIPageViewController;
 
 __attribute__((visibility("hidden")))
 @interface CKSyndicationPageViewController
 {
     UIPageViewController *_pageViewController;
-    UIPageControl *_pageControl;
-    id <CKSyndicationOnboardingPageViewControllerDelegate> _delegate;
-    NSMutableArray *_pageContent;
-    double _buttonTrayHeight;
 }
 
-- (id);
+- (id)webView:(unsigned long long)arg1 createWebViewWithConfiguration:forNavigationAction:windowFeatures: /* Error: Ran out of types for this method. */;
+- (void)ic_didAddObserverForContext:(id)arg1 inScope: /* Error: Ran out of types for this method. */;
+- (void)closeSheetWithReturnCode:(double)arg1;
+- (void)typeDescriptionForAccessibility;
 - (void);
+- (double)t;
 - (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
@@ -40,18 +35,7 @@ __attribute__((visibility("hidden")))
 - (void)¸T;
 
 // Remaining properties
-@property(nonatomic) double buttonTrayHeight; // @synthesize buttonTrayHeight=_buttonTrayHeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKSyndicationOnboardingPageViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableArray *pageContent; // @synthesize pageContent=_pageContent;
-@property(retain, nonatomic) UIPageControl *pageControl; // @synthesize pageControl=_pageControl;
-@property(retain, nonatomic) UIPageViewController *pageViewController; // @synthesize pageViewController=_pageViewController;
-@property(readonly) Class superclass;
 
 @end
 

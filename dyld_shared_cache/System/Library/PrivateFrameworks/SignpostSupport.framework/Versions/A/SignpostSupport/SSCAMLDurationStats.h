@@ -4,63 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SSCAMLDurationStats
 {
     unsigned long long _durationCount;
-    double _totalMs;
-    double _minMs;
-    double _maxMs;
-    double _stddevMs;
 }
 
+- (double);
+- (double)B;
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
+- (double);
+- (double);
+- (id)\;
+- (id);
 - (double);
 - (double);
 - (double);
 - (double);
 - (id);
-- (id);
-- (double);
-- (double);
-- (double);
-- (double);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (double);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double averageMs;
-@property(readonly, nonatomic) double averageNs;
-@property(readonly, nonatomic) double averageSec;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long durationCount; // @synthesize durationCount=_durationCount;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double maxMs; // @synthesize maxMs=_maxMs;
-@property(readonly, nonatomic) double maxNs;
-@property(readonly, nonatomic) double maxSec;
-@property(readonly, nonatomic) double minMs; // @synthesize minMs=_minMs;
-@property(readonly, nonatomic) double minNs;
-@property(readonly, nonatomic) double minSec;
-@property(readonly, nonatomic) double stddevMs; // @synthesize stddevMs=_stddevMs;
-@property(readonly, nonatomic) double stddevNs;
-@property(readonly, nonatomic) double stddevSec;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double totalMs; // @synthesize totalMs=_totalMs;
-@property(readonly, nonatomic) double totalNs;
-@property(readonly, nonatomic) double totalSec;
 
 @end
 

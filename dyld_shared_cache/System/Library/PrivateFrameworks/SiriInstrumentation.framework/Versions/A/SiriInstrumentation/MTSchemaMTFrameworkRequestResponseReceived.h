@@ -6,24 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MTSchemaMTFrameworkRequestResponseReceived : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_frameworkRequestId;
-    int _requestRoute;
-    unsigned int _numSentences;
-    struct {
-        unsigned int requestRoute:1;
-        unsigned int numSentences:1;
-    } _has;
-    _Bool _hasFrameworkRequestId;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
@@ -36,7 +29,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)GOST_KEY_AGREEMENT_INFO;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -46,16 +39,10 @@
 - (int)N,V_hasEnrollmentUtteranceDetected;
 - (id)ConnectedAudioDevice;
 - (id)@"NSArray",C,N,V_services;
-- (void)iggerReason;
+- (void)LRSchemaLRPreProcessorTriggerReason;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *frameworkRequestId; // @synthesize frameworkRequestId=_frameworkRequestId;
-@property(nonatomic) _Bool hasFrameworkRequestId; // @synthesize hasFrameworkRequestId=_hasFrameworkRequestId;
-@property(nonatomic) _Bool hasNumSentences;
-@property(nonatomic) _Bool hasRequestRoute;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numSentences; // @synthesize numSentences=_numSentences;
-@property(nonatomic) int requestRoute; // @synthesize requestRoute=_requestRoute;
 
 @end
 

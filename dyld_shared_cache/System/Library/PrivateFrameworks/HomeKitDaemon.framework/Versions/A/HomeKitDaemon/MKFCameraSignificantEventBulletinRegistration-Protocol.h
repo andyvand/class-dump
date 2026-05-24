@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFCameraSignificantEventBulletinRegistrationDatabaseID, NSNumber;
-@protocol MKFAccessory, MKFHome;
+@class NSNumber;
+@protocol MKFHome;
 
 @protocol MKFCameraSignificantEventBulletinRegistration
 - (id <MKFHome>);
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFAccessory> accessory;
-@property(readonly, copy, nonatomic) MKFCameraSignificantEventBulletinRegistrationDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSNumber *notificationModes;
-@property(copy, nonatomic) NSNumber *personFamiliarityOptions;
-@property(copy, nonatomic) NSNumber *significantEventTypes;
 @end
 

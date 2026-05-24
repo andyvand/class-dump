@@ -11,14 +11,13 @@
 @interface RTWalletManager : RTService
 {
     RTDefaultsManager *_defaultsManager;
-    double _maximumTransactionDistance;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -26,7 +25,7 @@
 × ;
 - (void)TEventHistogram",&,N,V_locationOfInterestEventHistograms;
 - (id)ptSafeArrivalWithContext:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void)y;
+- (void)redactedForCategory;
 - (void)u,ChunkIndex,%tu,thisChunk,%@;
 - (void)cess, %{Bool}d, error, %@;
 - (void), no progress distance threshold, %.2f;
@@ -37,7 +36,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(nonatomic) double maximumTransactionDistance; // @synthesize maximumTransactionDistance=_maximumTransactionDistance;
 
 @end
 

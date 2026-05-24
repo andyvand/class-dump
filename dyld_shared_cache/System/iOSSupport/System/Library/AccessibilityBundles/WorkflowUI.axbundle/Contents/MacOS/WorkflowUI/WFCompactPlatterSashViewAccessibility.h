@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void);
 - (_Bool);
 - (unsigned long long);
 - (id);

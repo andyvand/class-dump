@@ -16,9 +16,9 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void)tesPerFrame;
+- (id)`;
+- (_Bool);
+- (void)bytesPerFrame;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *language;

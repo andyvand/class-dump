@@ -7,6 +7,7 @@
 @class NUImageGeometry;
 
 @protocol NUGeometryResult
+- (NUImageGeometry *);
 
 // Remaining properties
 @property(readonly) NUImageGeometry *geometry;

@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDictionary, NSString;
-
 @interface QCSourceTextView
 {
     _Bool _showLines;
-    NSDictionary *_keywordColors;
-    NSColor *_stringColor;
-    NSColor *_commentColor;
-    NSColor *_preprocessorColor;
-    NSColor *_errorColor;
-    NSColor *_numberColor;
-    unsigned long long _fontSize;
-    void *_unused[3];
 }
 
 + (void);
 - (id);
 - (void);
+- (void)Z-;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,16 +25,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)`;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (struct _NSRange)=;
 - (struct _NSRange);
-- (struct _NSRange);
 - (void);
 - (void);
 - (void);
@@ -52,22 +42,56 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)read_in_threadgroup * CONTROL_POINTS_PER_THREAD + threadOffset,
+                                     real_threadgroup,
+                                     thread_position_in_grid * CONTROL_POINTS_PER_THREAD + threadOffset,
+                                     patchVertices + subthreadgroup_in_threadgroup * CONTROL_POINTS_PER_PATCH,
+                                     osdBuffers
+                                     );
+        }
+    }
+    
+#if NEEDS_BARRIER
+    threadgroup_barrier(mem_flags:(id)arg1:mem_device_and_threadgroup);
+#endif
+    
+    
+    
+    
+    if(validThread && real_thread_in_threadgroup == 0)
+    {
+        
+#if OSD_USE_PATCH_INDEX_BUFFER
+        const auto patchId = atomic_fetch_add_explicit((device atomic_uint*)&drawIndirectCommands->patchCount, 1, memory_order_relaxed);
+        patchIndex[patchId] = real_threadgroup;
+#else
+        const auto patchId = real_threadgroup;
+#endif
+        
+        OsdComputePerPatchFactors(
+                                  patchParam[subthreadgroup_in_threadgroup],
+                                  tessellationLevel,
+                                  real_threadgroup,
+                                  transforms.projectionTransform,
+                                  transforms.modelViewTransform,
+                                  osdBuffers,
+                                  patchVertices + subthreadgroup_in_threadgroup * CONTROL_POINTS_PER_PATCH,
+                                  quadTessellationFactors[patchId]
+                                  );
+    }
+}
+
+#endif 
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)v;
 - (void);
 - (double);
 - (void)^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}16@0:(double)arg1 8;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

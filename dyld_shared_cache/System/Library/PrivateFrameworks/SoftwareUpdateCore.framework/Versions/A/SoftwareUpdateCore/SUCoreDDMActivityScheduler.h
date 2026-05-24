@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSTimer;
 @protocol SUCoreDDMActivitySchedulerDelegate;
 
 @interface SUCoreDDMActivityScheduler
 {
     _Bool _isArmed;
-    _Bool _usePCSimpleTimer;
-    _Bool _useXPC;
-    id <SUCoreDDMActivitySchedulerDelegate> _delegate;
-    NSDate *_fireDate;
-    NSDictionary *_options;
-    NSTimer *_timer;
-    id _pcTimer;
 }
 
 - (_Bool);
@@ -33,7 +25,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)libraryTableCellView;
 - (id);
 - (id);
 - (void);
@@ -44,13 +36,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <SUCoreDDMActivitySchedulerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(nonatomic) _Bool isArmed; // @synthesize isArmed=_isArmed;
-@property(retain, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(retain) id pcTimer; // @synthesize pcTimer=_pcTimer;
-@property(retain) NSTimer *timer; // @synthesize timer=_timer;
-@property(nonatomic) _Bool usePCSimpleTimer; // @synthesize usePCSimpleTimer=_usePCSimpleTimer;
-@property(nonatomic) _Bool useXPC; // @synthesize useXPC=_useXPC;
 
 @end
 

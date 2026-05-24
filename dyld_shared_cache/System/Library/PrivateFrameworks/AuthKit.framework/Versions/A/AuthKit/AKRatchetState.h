@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKRatchetStateData;
-
 @interface AKRatchetState
 {
     unsigned long long _rawState;
-    AKRatchetStateData *_data;
 }
 
 - (id);
@@ -19,7 +16,6 @@
 - (void)¼½Ø½;
 
 // Remaining properties
-@property(readonly, nonatomic) AKRatchetStateData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) unsigned long long rawState; // @synthesize rawState=_rawState;
 
 @end

@@ -14,12 +14,12 @@
 
 + (_Bool)that was not loaned out.;
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool)reAt:(id)arg1 withGesture:withState:withFlags: /* Error: Ran out of types for this method. */;
-- (void)point:(id)arg1 sourceDescription:purchaser: /* Error: Ran out of types for this method. */;
-- (id)tureRecognizer;
-- (id)TintColor;
+- (_Bool)selectionChangedWithGestureAt:(id)arg1 withGesture:withState:withFlags: /* Error: Ran out of types for this method. */;
+- (void)initWithSourceIdentifier:(id)arg1 destinationURL:reportEndpoint:sourceDescription:purchaser: /* Error: Ran out of types for this method. */;
+- (id)barHideOnSwipeGestureRecognizer;
+- (id)systemDarkLightMidGrayTintColor;
 - (id)yout direction for slot:%ld /* Error: Ran out of types for this method. */;
 - (void)ÜÅ;ÿÕÃÔðTa;
 

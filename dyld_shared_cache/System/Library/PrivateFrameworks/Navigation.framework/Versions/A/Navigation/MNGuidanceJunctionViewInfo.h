@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSUUID;
+@class NSUUID;
 
 @interface MNGuidanceJunctionViewInfo
 {
     NSUUID *_uniqueID;
-    NSArray *_images;
 }
 
 + (_Bool);
 - (id);
+- (id);
+- (id)@;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)AOSUIAccountBeneficiaryViewController;
 - (id);
 - (void)"NSString"44i52;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *images; // @synthesize images=_images;
 @property(readonly, nonatomic) NSUUID *uniqueID; // @synthesize uniqueID=_uniqueID;
 
 @end

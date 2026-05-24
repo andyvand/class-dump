@@ -6,16 +6,12 @@
 
 #import <Vision/VNImageBasedRequestConfiguration.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface VNDetectBarcodesRequestConfiguration : VNImageBasedRequestConfiguration
 {
     _Bool _stopAtFirstPyramidWith2DCode;
-    _Bool _useMLDetector;
-    _Bool _coalesceCompositeSymbologies;
-    NSArray *_symbologies;
-    NSString *_locateMode;
 }
 
 - (_Bool);
@@ -24,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -34,11 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)generateFacePrint(;
 
 // Remaining properties
-@property(nonatomic) _Bool coalesceCompositeSymbologies; // @synthesize coalesceCompositeSymbologies=_coalesceCompositeSymbologies;
-@property(copy, nonatomic) NSString *locateMode; // @synthesize locateMode=_locateMode;
-@property(nonatomic) _Bool stopAtFirstPyramidWith2DCode; // @synthesize stopAtFirstPyramidWith2DCode=_stopAtFirstPyramidWith2DCode;
 @property(copy, nonatomic) NSArray *symbologies; // @synthesize symbologies=_symbologies;
-@property(nonatomic) _Bool useMLDetector; // @synthesize useMLDetector=_useMLDetector;
 
 @end
 

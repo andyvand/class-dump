@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (SiriUIAdditions_UIKit)
-- (struct CGSize);
+- (struct CGSize)lientSetChatContextWithSubscriptionIdentifier recipients [%@] subscriptionsIdentifier [%@];
 - (void);
 - (id);
 @end

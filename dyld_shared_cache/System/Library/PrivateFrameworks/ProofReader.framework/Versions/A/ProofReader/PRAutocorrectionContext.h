@@ -9,7 +9,7 @@
     unsigned long long _modificationMask;
 }
 
-+ (id);
++ (id);
 + (void)Ë;
 - (double);
 - (void);
@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)` ;
 - (void);
 - (void);
 

@@ -9,8 +9,6 @@
 @interface IOSurfaceRemotePerSurfacePerClientState
 {
     struct __IOSurfaceClient *_surface;
-    unsigned int _refcount;
-    IOSurfaceRemotePerSurfaceGlobalState *_globalState;
 }
 
 - (_Bool);
@@ -25,9 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int debugRefCount;
 @property(retain, nonatomic) IOSurfaceRemotePerSurfaceGlobalState *globalState; // @synthesize globalState=_globalState;
-@property(readonly, nonatomic) struct __IOSurfaceClient *surface;
 
 @end
 

@@ -7,21 +7,6 @@
 @interface NewsFeed.FormatWebEmbedNodeLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id frame;
-    id style;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id isUserInteractionEnabled;
-    id contentFrameIdentifier;
-    id accessibilityRole;
-    id isResizable;
-    id location;
-    id rendering;
-    id reuseIdentifier;
-    id auxViewRequirements;
 }
 
 @end

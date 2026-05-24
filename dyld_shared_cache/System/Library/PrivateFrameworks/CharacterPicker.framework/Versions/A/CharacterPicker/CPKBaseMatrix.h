@@ -10,12 +10,9 @@ __attribute__((visibility("hidden")))
 @interface CPKBaseMatrix
 {
     NSView *_clippingView;
-    int _fadeoutEdge;
-    struct CGImage *_fadeoutMaskImage;
-    struct CGPoint _clickedMouseLoc;
 }
 
-- (void);
+- (void);
 - (void);
 - (int);
 - (id);
@@ -25,15 +22,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGPoint);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property struct CGPoint clickedMouseLoc; // @synthesize clickedMouseLoc=_clickedMouseLoc;
 @property NSView *clippingView; // @synthesize clippingView=_clippingView;
-@property int fadeoutEdge; // @synthesize fadeoutEdge=_fadeoutEdge;
 
 @end
 

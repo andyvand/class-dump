@@ -7,10 +7,11 @@
 @class CALayer, CNSharedProfileStateOracle, UIImageView;
 
 @protocol CNSharedProfileAnimatingAvatarView
+- (CALayer *);
+- (void);
+- (UIImageView *);;
 
 // Remaining properties
-@property(readonly, nonatomic) UIImageView *destinationAvatarImageView;
 @property(retain, nonatomic) CNSharedProfileStateOracle *sharedProfileStateOracle;
-@property(readonly, nonatomic) CALayer *sourceAvatarLayer;
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol NSPredicateVisitor
+- (void)W;
 - (void)@?<v@?@"NSError">40;
 - (void);
 @end

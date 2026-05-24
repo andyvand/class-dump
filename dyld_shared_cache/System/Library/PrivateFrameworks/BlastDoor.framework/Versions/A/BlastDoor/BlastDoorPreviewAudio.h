@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorPreviewAudio
 {
     id previewAudio;
 }
 
-- (id);
+- (id)ectionManagerDelegate>";
 - (id);
 - (double);
-- (id);
+- (id)z;
 - (void)PÑ~ÿÿÿÿÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) double duration;
-@property(nonatomic, readonly) NSArray *powerLevels;
 
 @end
 

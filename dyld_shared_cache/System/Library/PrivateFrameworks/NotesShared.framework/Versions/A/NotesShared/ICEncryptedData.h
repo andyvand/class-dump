@@ -9,34 +9,24 @@
 @interface ICEncryptedData
 {
     unsigned long long _hash;
-    NSData *_data;
-    NSData *_tag;
-    NSData *_initializationVector;
-    NSData *_fallbackTag;
-    NSData *_fallbackInitializationVector;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)_debugModeEnabled;
+- (id)URLWithString: /* Error: Ran out of types for this method. */;
+- (id)=;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)i;
 - (void)ò;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy, nonatomic) NSData *fallbackInitializationVector; // @synthesize fallbackInitializationVector=_fallbackInitializationVector;
-@property(readonly, copy, nonatomic) NSData *fallbackTag; // @synthesize fallbackTag=_fallbackTag;
-@property(readonly, copy, nonatomic) NSData *initializationVector; // @synthesize initializationVector=_initializationVector;
-@property(readonly, copy, nonatomic) NSData *tag; // @synthesize tag=_tag;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

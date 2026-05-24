@@ -5,5 +5,6 @@
 //
 
 @protocol PKPassViewerDelegate
+- (void);
 @end
 

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, UIImageView, UITextField;
+@class UITextField;
 
 __attribute__((visibility("hidden")))
 @interface CNAddressComponentTextFieldCell
 {
     _Bool _showsChevron;
-    UITextField *_textField;
-    UIImageView *_chevron;
 }
 
 + (id);
 + (Class);
-- (id);
+- (id)7i;
 - (void);
 - (void);
 - (void);
@@ -25,20 +23,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)^v{b2Vec2=ff}{b2Vec2=ff}{b2Vec3=fff}fBffBfffii{b2Vec2=ff}{b2Vec2=ff}{b2Vec2=ff}{b2Vec2=ff}ffff{b2Mat33={b2Vec3=fff}{b2Vec3=fff}{b2Vec3=fff}}fi};
+- (id)bodyFetchIfNotAvailable:(long long)arg1 updateFlags:(id)arg2 allowPartial:skipSignatureVerification: /* Error: Ran out of types for this method. */;
 - (void)ray",&,N,V_addedItems;
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *chevron; // @synthesize chevron=_chevron;
-@property(nonatomic) _Bool showsChevron; // @synthesize showsChevron=_showsChevron;
-@property(copy, nonatomic) NSDictionary *textAttributes;
 @property(retain, nonatomic) UITextField *textField; // @synthesize textField=_textField;
-@property(readonly, nonatomic) NSArray *textFields;
 
 @end
 

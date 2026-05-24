@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, REMObjectID;
-
 @interface REMReminderPredicateDescriptor
 {
     _Bool _completed;
-    long long _type;
-    REMObjectID *_listID;
-    REMObjectID *_parentReminderID;
-    NSArray *_objectIDs;
-    NSDate *_startingDueDate;
-    NSDate *_endingDueDate;
-    NSArray *_descriptors;
-    NSString *_text;
-    long long _textMatching;
 }
 
-+ (id);
++ (id)J;
 + (id);
 + (id);
 + (id);
@@ -38,7 +27,7 @@
 + (id);
 + (_Bool);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,7 +40,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -67,15 +56,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool completed; // @synthesize completed=_completed;
-@property(retain, nonatomic) NSArray *descriptors; // @synthesize descriptors=_descriptors;
-@property(retain, nonatomic) NSDate *endingDueDate; // @synthesize endingDueDate=_endingDueDate;
-@property(retain, nonatomic) REMObjectID *listID; // @synthesize listID=_listID;
-@property(retain, nonatomic) NSArray *objectIDs; // @synthesize objectIDs=_objectIDs;
-@property(retain, nonatomic) REMObjectID *parentReminderID; // @synthesize parentReminderID=_parentReminderID;
-@property(retain, nonatomic) NSDate *startingDueDate; // @synthesize startingDueDate=_startingDueDate;
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) long long textMatching; // @synthesize textMatching=_textMatching;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

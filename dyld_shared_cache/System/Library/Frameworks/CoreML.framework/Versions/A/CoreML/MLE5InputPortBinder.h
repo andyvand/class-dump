@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLFeatureDescription, MLFeatureValue, MLPixelBufferPool, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MLE5InputPortBinder
 {
     struct __CVBuffer *_temporarilyBoundPixelBuffer;
-    unsigned char _bindingMode;
-    MLPixelBufferPool *_pixelBufferPool;
-    struct e5rt_io_port *_portHandle;
-    MLFeatureDescription *_featureDescription;
-    MLFeatureValue *_directlyBoundFeatureValue;
 }
 
 - (void);
@@ -23,30 +16,19 @@ __attribute__((visibility("hidden")))
 - (struct e5rt_io_port *);
 - (id);
 - (id);
-- (_Bool);
-- (unsigned char);
+- (_Bool);
+- (unsigned char)NTL;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)t"C"accelBiasLength"C"positionOffset"C"positionLength"C};
 - (void);
 - (id);
 - (id);
 - (void)rivateFrameworks/AppleNeuralEngine.framework/Contents/MacOS/AppleNeuralEngine;
 
 // Remaining properties
-@property(nonatomic) unsigned char bindingMode; // @synthesize bindingMode=_bindingMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MLFeatureValue *directlyBoundFeatureValue; // @synthesize directlyBoundFeatureValue=_directlyBoundFeatureValue;
-@property(readonly) MLFeatureDescription *featureDescription; // @synthesize featureDescription=_featureDescription;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MLPixelBufferPool *pixelBufferPool; // @synthesize pixelBufferPool=_pixelBufferPool;
 @property(readonly) struct e5rt_io_port *portHandle; // @synthesize portHandle=_portHandle;
-@property(readonly) Class superclass;
 
 @end
 

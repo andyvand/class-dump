@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMCameraControl.h>
 
-@class HMCharacteristic, _HMCameraAudioControl;
+@class _HMCameraAudioControl;
 
 @interface HMCameraAudioControl : HMCameraControl
 {
@@ -15,14 +15,12 @@
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _HMCameraAudioControl *audioControl; // @synthesize audioControl=_audioControl;
-@property(readonly, nonatomic) HMCharacteristic *mute;
-@property(readonly, nonatomic) HMCharacteristic *volume;
 
 @end
 

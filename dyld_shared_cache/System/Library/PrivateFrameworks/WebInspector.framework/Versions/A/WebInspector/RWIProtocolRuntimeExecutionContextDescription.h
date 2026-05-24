@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString;
-
 @interface RWIProtocolRuntimeExecutionContextDescription : RWIProtocolJSONObject
 {
 }
@@ -23,10 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *frameId;
 @property(nonatomic) int identifier;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic) long long type;
 
 @end
 

@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void)redLevel;
+- (void)privateDataEncryptionRequiredLevel;
 
 @end
 

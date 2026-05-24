@@ -7,52 +7,29 @@
 @interface PHChangeHandlingDebugEvent
 {
     _Bool _isAuthorizedForChanges;
-    _Bool _unknownMergeEvent;
-    _Bool _cloudSyncEnabled;
-    unsigned long long _kind;
-    double _throttleChangesTimestamp;
-    double _waitTimeInterval;
-    double _publishTimestamp;
-    unsigned long long _publishThreadID;
-    unsigned long long _internalObserversCount;
-    unsigned long long _externalObserversCount;
-    double _distributeInternalTimestamp;
-    double _distributeExternalTimestamp;
-    unsigned long long _insertedCount;
-    unsigned long long _updatedCount;
-    unsigned long long _deletedCount;
-    unsigned long long _fetchResultCount;
-    double _preloadTimestamp;
-    unsigned long long _fetchResultsToRefetchCount;
-    unsigned long long _fetchResultsToClearCount;
-    unsigned long long _lastTransactionNumber;
-    long long _transactionCount;
-    long long _changeCount;
-    double _lastSyncTimestamp;
-    double _firstSyncTimestamp;
 }
 
 - (double);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (double);
+- (void);
+- (void)@9;
+- (void)|;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void).A!;
+- (void)N	;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)'(;
 - (void);
 - (void);
 - (double);
@@ -60,14 +37,14 @@
 - (unsigned long long);
 - (double);
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
-- (double);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)B;
 - (unsigned long long);
 - (double);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (double)*;
 - (double);
 - (unsigned long long);
 - (void);
@@ -81,37 +58,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)"-;
+- (void)startTime;
 - (unsigned long long);
-- (long long)enceThresholdVersion33ForIdentifier: /* Error: Ran out of types for this method. */;
+- (long long)_sdConfidenceThresholdVersion33ForIdentifier: /* Error: Ran out of types for this method. */;
 - (long long)ets is only supported in a suggestion;
 
 // Remaining properties
-@property long long changeCount; // @synthesize changeCount=_changeCount;
-@property _Bool cloudSyncEnabled; // @synthesize cloudSyncEnabled=_cloudSyncEnabled;
-@property unsigned long long deletedCount; // @synthesize deletedCount=_deletedCount;
-@property double distributeExternalTimestamp; // @synthesize distributeExternalTimestamp=_distributeExternalTimestamp;
-@property double distributeInternalTimestamp; // @synthesize distributeInternalTimestamp=_distributeInternalTimestamp;
-@property unsigned long long externalObserversCount; // @synthesize externalObserversCount=_externalObserversCount;
-@property unsigned long long fetchResultCount; // @synthesize fetchResultCount=_fetchResultCount;
-@property unsigned long long fetchResultsToClearCount; // @synthesize fetchResultsToClearCount=_fetchResultsToClearCount;
-@property unsigned long long fetchResultsToRefetchCount; // @synthesize fetchResultsToRefetchCount=_fetchResultsToRefetchCount;
-@property double firstSyncTimestamp; // @synthesize firstSyncTimestamp=_firstSyncTimestamp;
-@property unsigned long long insertedCount; // @synthesize insertedCount=_insertedCount;
-@property unsigned long long internalObserversCount; // @synthesize internalObserversCount=_internalObserversCount;
-@property _Bool isAuthorizedForChanges; // @synthesize isAuthorizedForChanges=_isAuthorizedForChanges;
 @property unsigned long long kind; // @synthesize kind=_kind;
-@property double lastSyncTimestamp; // @synthesize lastSyncTimestamp=_lastSyncTimestamp;
-@property unsigned long long lastTransactionNumber; // @synthesize lastTransactionNumber=_lastTransactionNumber;
-@property double preloadTimestamp; // @synthesize preloadTimestamp=_preloadTimestamp;
-@property unsigned long long publishThreadID; // @synthesize publishThreadID=_publishThreadID;
-@property double publishTimestamp; // @synthesize publishTimestamp=_publishTimestamp;
-@property double throttleChangesTimestamp; // @synthesize throttleChangesTimestamp=_throttleChangesTimestamp;
-@property long long transactionCount; // @synthesize transactionCount=_transactionCount;
-@property _Bool unknownMergeEvent; // @synthesize unknownMergeEvent=_unknownMergeEvent;
-@property unsigned long long updatedCount; // @synthesize updatedCount=_updatedCount;
-@property double waitTimeInterval; // @synthesize waitTimeInterval=_waitTimeInterval;
 
 @end
 

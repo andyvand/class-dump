@@ -9,7 +9,6 @@
 @interface PKDiscoveryRelevantDateRange
 {
     NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 + (_Bool)X"°!ðEùî%°1Â0@ù
@@ -19,17 +18,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setWepundec:(id)arg1;
 - (void);
 - (id);
-- (void);
+- (void)$;
 - (id);
-- (id)n:(id)arg1;
+- (id)_retrieveFPANCredentialsWithCompletion:(id)arg1;
 - (void)create vehicle share request;
 - (void)rustHashResponse"8@"NSError"16;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(retain, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end

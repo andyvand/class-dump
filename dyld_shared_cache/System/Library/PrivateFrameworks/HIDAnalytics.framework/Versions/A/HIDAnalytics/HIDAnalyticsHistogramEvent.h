@@ -11,15 +11,14 @@
 @interface HIDAnalyticsHistogramEvent : HIDAnalyticsEvent
 {
     HIDAnalyticsHistogramEventField *_field;
-    _Bool _isUpdated;
 }
 
 - (void);
+- (void)_defaultQueue;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)E;
 - (id);
 - (void);
 

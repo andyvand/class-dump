@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, WiFiAwareDiscoveryResult, WiFiMACAddress;
+@class WiFiAwareDiscoveryResult;
 
 @interface CUNANEndpoint
 {
     unsigned char _instanceID;
-    int _port;
-    int _rssi;
-    NSData *_customData;
-    NSString *_identifier;
-    NSString *_mockPeerEndpointString;
-    NSString *_name;
-    NSString *_serviceType;
-    NSDictionary *_textInfo;
-    WiFiAwareDiscoveryResult *_discoveryResult;
-    WiFiMACAddress *_macAddress;
 }
 
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (void);
 - (void);
@@ -29,11 +19,11 @@
 - (void);
 - (id);
 - (id);
+- (id)=;
 - (id);
-- (id);
-- (id);
+- (id)_kMDItemAuthorEmailAddressesLocalParts;
 - (void);
-- (id);
+- (id)itemsForAltDSID:pushMessageInfo:fromIDMSPayload: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -41,26 +31,16 @@
 - (unsigned char);
 - (void);
 - (void);
-- (int);
+- (int)ry/Caches/com.apple.xbs/TemporaryDirectory.BsrFNm/Sources/MetalPerformanceShaders/MPSNeuralNetwork/Graph/DataSourceWrappers.mm;
 - (id);
-- (int);
+- (int);
 - (void);
-- (void);
+- (void)ass:RBSProcessIdentityClass] /* Error: Ran out of types for this method. */;
 - (void)36@"NSUUID"44;
-- (void)ctedComponents:(int)arg1;
+- (void)setExpectedComponents:(int)arg1;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *customData; // @synthesize customData=_customData;
 @property(retain, nonatomic) WiFiAwareDiscoveryResult *discoveryResult; // @synthesize discoveryResult=_discoveryResult;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned char instanceID; // @synthesize instanceID=_instanceID;
-@property(retain, nonatomic) WiFiMACAddress *macAddress; // @synthesize macAddress=_macAddress;
-@property(copy, nonatomic) NSString *mockPeerEndpointString; // @synthesize mockPeerEndpointString=_mockPeerEndpointString;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int port; // @synthesize port=_port;
-@property(nonatomic) int rssi; // @synthesize rssi=_rssi;
-@property(copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(copy, nonatomic) NSDictionary *textInfo; // @synthesize textInfo=_textInfo;
 
 @end
 

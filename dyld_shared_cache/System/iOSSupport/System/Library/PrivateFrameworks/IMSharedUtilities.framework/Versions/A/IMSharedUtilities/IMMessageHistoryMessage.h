@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface IMMessageHistoryMessage
 {
     NSString *_guid;
-    NSDate *_date;
-    long long _messagePartCount;
 }
 
 + (_Bool);
@@ -20,13 +18,11 @@
 - (id);
 - (void);
 - (id);
-- (id)tion;
+- (id)RelayTranslation;
 - (void)shouldForceOfflineTranslation;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, copy, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) long long messagePartCount; // @synthesize messagePartCount=_messagePartCount;
 
 @end
 

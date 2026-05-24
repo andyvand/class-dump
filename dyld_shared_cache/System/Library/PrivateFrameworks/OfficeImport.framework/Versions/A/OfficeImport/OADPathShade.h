@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface OADPathShade : OADShade
 {
     OADRelativeRect *mFillToRect;
-    int mType;
-    _Bool mIsTypeOverridden;
 }
 
 + (id);

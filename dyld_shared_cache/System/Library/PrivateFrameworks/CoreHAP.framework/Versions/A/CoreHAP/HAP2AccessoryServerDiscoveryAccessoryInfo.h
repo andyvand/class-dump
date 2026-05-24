@@ -6,12 +6,11 @@
 
 #import <CoreHAP/HAP2LoggingObject.h>
 
-@class HAPDeviceID, NSDictionary, NSString;
+@class HAPDeviceID;
 
 @interface HAP2AccessoryServerDiscoveryAccessoryInfo : HAP2LoggingObject
 {
     HAPDeviceID *_deviceID;
-    NSDictionary *_rawDiscoveryInfo;
 }
 
 + (id);
@@ -19,13 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ryKeys: /* Error: Ran out of types for this method. */;
+- (id)activeTargetTypes;
+- (void)removeAllAccessoryKeys: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *airPlayDeviceUUIDString;
 @property(readonly, nonatomic) HAPDeviceID *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) NSDictionary *rawDiscoveryInfo; // @synthesize rawDiscoveryInfo=_rawDiscoveryInfo;
 
 @end
 

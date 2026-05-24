@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOGuidesHomeFixedSection, GEOPDGuidesHomeResult, NSArray;
+@class GEOGuidesHomeFixedSection, GEOPDGuidesHomeResult;
 
 @interface GEOGuidesHomeResult
 {
     GEOPDGuidesHomeResult *_pdGuideHomeResult;
-    NSArray *_mapsResults;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithAuditToken:(id)arg1 managedProfileConnection: /* Error: Ran out of types for this method. */;
+- (id)contents;
+- (id)containsIndex: /* Error: Ran out of types for this method. */;
+- (id)childAccountsForAccount: /* Error: Ran out of types for this method. */;
 - (void)Ö4;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOGuidesHomeFixedSection *featuredGuidesSection;
-@property(readonly, nonatomic) GEOGuidesHomeFixedSection *filteredGuidesSection;
-@property(readonly, nonatomic) GEOGuidesHomeFixedSection *filtersSection;
-@property(readonly, nonatomic) NSArray *repeatableSections;
 
 @end
 

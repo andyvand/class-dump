@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSNumber, NSObject, NSURL, SMNetworkSourceProxy, SMPathWithAttributes;
-@protocol SMSystem_FileManagerProtocol;
+@class SMNetworkSourceProxy;
 
 @interface SMLegacyNetworkDirectoryEnumerator
 {
     _Bool _allowCrossDeviceTraversal;
-    _Bool _postOrderDirectory;
-    _Bool _doneEnumerating;
-    _Bool _currentDirectoryNeedsReading;
-    SMNetworkSourceProxy *_proxy;
-    NSObject<SMSystem_FileManagerProtocol> *_fileSystem;
-    NSURL *_startingPath;
-    NSNumber *_startingDeviceID;
-    NSMutableArray *_directoryStack;
-    NSMutableArray *_directoryEntriesStack;
-    NSMutableArray *_indexStack;
-    SMPathWithAttributes *_currentDirectory;
-    NSArray *_currentDirectoryEntries;
-    SMPathWithAttributes *_currentPathInDirectory;
-    unsigned long long _currentPathInDirectoryIndex;
 }
 
 - (_Bool);
@@ -33,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,7 +33,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -72,28 +57,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)isAnimationScenarioWhitelisted:error: /* Error: Ran out of types for this method. */;
+- (id)_playerQueue_wrappedAudioSession;
 - (void)ñ	°1Â0@ù
 × ;
 
 // Remaining properties
-@property _Bool allowCrossDeviceTraversal; // @synthesize allowCrossDeviceTraversal=_allowCrossDeviceTraversal;
-@property(retain) SMPathWithAttributes *currentDirectory; // @synthesize currentDirectory=_currentDirectory;
-@property(retain) NSArray *currentDirectoryEntries; // @synthesize currentDirectoryEntries=_currentDirectoryEntries;
-@property _Bool currentDirectoryNeedsReading; // @synthesize currentDirectoryNeedsReading=_currentDirectoryNeedsReading;
-@property(retain) SMPathWithAttributes *currentPathInDirectory; // @synthesize currentPathInDirectory=_currentPathInDirectory;
-@property unsigned long long currentPathInDirectoryIndex; // @synthesize currentPathInDirectoryIndex=_currentPathInDirectoryIndex;
-@property(retain) NSMutableArray *directoryEntriesStack; // @synthesize directoryEntriesStack=_directoryEntriesStack;
-@property(retain) NSMutableArray *directoryStack; // @synthesize directoryStack=_directoryStack;
-@property _Bool doneEnumerating; // @synthesize doneEnumerating=_doneEnumerating;
-@property __weak NSObject<SMSystem_FileManagerProtocol> *fileSystem; // @synthesize fileSystem=_fileSystem;
-@property(retain) NSMutableArray *indexStack; // @synthesize indexStack=_indexStack;
-@property _Bool postOrderDirectory; // @synthesize postOrderDirectory=_postOrderDirectory;
 @property __weak SMNetworkSourceProxy *proxy; // @synthesize proxy=_proxy;
-@property(retain) NSNumber *startingDeviceID; // @synthesize startingDeviceID=_startingDeviceID;
-@property(retain) NSURL *startingPath; // @synthesize startingPath=_startingPath;
-@property(readonly) _Bool supportsFastEnumeration;
 
 @end
 

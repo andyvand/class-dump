@@ -9,23 +9,21 @@
 @interface RCSEncryptionDowngradeHandler
 {
     void requestIDToResultMap;
-    void requestIDToChatMap;
 }
 
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)	H;
 - (id);
 - (id);
+- (void)@-a8!;
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (id);
 - (void)g to JSON:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, copy) NSDictionary *requestIDToChatMap;
 @property(nonatomic, copy) NSDictionary *requestIDToResultMap;
 
 @end

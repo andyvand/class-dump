@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPBOfflineDataBatchesSizeRequest
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _layers;
-    unsigned long long _clientVersionModifier;
-    GEOMapRegion *_region;
-    NSMutableArray *_supportedLanguages;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    CDStruct_8c8ef0a2 _flags;
 }
 
 + (Class);
-+ (_Bool)HasUserInteractedWithNotification:(id)arg1;
++ (_Bool)setHasUserInteractedWithNotification:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -31,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (int);
+- (id)4;
+- (int)shortNameFormatEnabled;
 - (void);
 - (void);
 - (id);
@@ -41,7 +33,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ngineMinorVersion:(id)arg1 accessoryRTModelType:] /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
@@ -52,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id)26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16^Q24;
-- (id)tPreferredDepartureTimeStyle: /* Error: Ran out of types for this method. */;
+- (id)setPreferredDepartureTimeStyle: /* Error: Ran out of types for this method. */;
 - (id)p¢Ó;
 - (id)parent, type, value)    VALUES (@rowid, @key, @parent, @type, @value);;
 - (Class)ÇÂBAµnÚo[Q@;
@@ -65,13 +57,7 @@ __attribute__((visibility("hidden")))
 - (id)¬F7;
 
 // Remaining properties
-@property(nonatomic) unsigned long long clientVersionModifier;
-@property(nonatomic) _Bool hasClientVersionModifier;
 @property(readonly, nonatomic) _Bool hasRegion;
-@property(readonly, nonatomic) int *layers;
-@property(readonly, nonatomic) unsigned long long layersCount;
-@property(retain, nonatomic) GEOMapRegion *region;
-@property(retain, nonatomic) NSMutableArray *supportedLanguages;
 
 @end
 

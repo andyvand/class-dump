@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, UISApplicationStateClient;
+@class NSString;
 
 @interface UISApplicationState
 {
     NSString *_bundleIdentifier;
-    UISApplicationStateClient *_client;
 }
 
 - (id);
@@ -17,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -26,9 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setNextWakeDate:) NSDate *_nextWakeDate;
 @property(nonatomic, setter=_setUsesBackgroundNetwork:) _Bool _usesBackgroundNetwork;
-@property(copy, nonatomic) id badgeValue;
 
 @end
 

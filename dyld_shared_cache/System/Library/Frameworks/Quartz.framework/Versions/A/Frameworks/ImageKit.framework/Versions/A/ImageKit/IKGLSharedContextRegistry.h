@@ -7,18 +7,13 @@
 @interface IKGLSharedContextRegistry
 {
     struct __CFDictionary *_sharedContexts;
-    struct __CFDictionary *_contexts;
-    struct __CFSet *_dirtyContexts;
-    CDStruct_df38f2d5 *_lastResult;
-    void *_lastOwner;
-    struct _CGLContextObject *_lastContext;
 }
 
-+ (id)Hidden: /* Error: Ran out of types for this method. */;
++ (id)setHidden: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct __CFDictionary *);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h8);
 - (void);
 - (void);
 - (void);

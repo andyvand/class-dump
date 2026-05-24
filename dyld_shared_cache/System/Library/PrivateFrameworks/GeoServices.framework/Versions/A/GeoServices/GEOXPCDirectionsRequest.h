@@ -6,13 +6,11 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEODirectionsRequest, NSString;
+@class GEODirectionsRequest;
 
 @interface GEOXPCDirectionsRequest : GEOXPCRequest
 {
     _Bool _useBackgroundURL;
-    int _priority;
-    GEODirectionsRequest *_directionsRequest;
 }
 
 + (Class);
@@ -21,25 +19,16 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (void)sitRouteUpdateRequestWithDirectionsRequest:(id)arg1 directionsResponse:composedRoutes: /* Error: Ran out of types for this method. */;
+- (void)LSession"16@"NSURLAuthenticationChallenge"24@?<v@?q@"NSURLCredential">32;
+- (void)transitRouteUpdateRequestWithDirectionsRequest:(id)arg1 directionsResponse:composedRoutes: /* Error: Ran out of types for this method. */;
 - (void);
 - (int);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) GEODirectionsRequest *directionsRequest; // @synthesize directionsRequest=_directionsRequest;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int priority; // @synthesize priority=_priority;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useBackgroundURL; // @synthesize useBackgroundURL=_useBackgroundURL;
 
 @end
 

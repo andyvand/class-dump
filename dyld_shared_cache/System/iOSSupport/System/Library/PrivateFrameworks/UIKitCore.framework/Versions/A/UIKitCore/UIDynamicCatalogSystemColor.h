@@ -6,20 +6,15 @@
 
 #import <UIKitCore/UIDynamicColor.h>
 
-@class UIColor;
-
 __attribute__((visibility("hidden")))
 @interface UIDynamicCatalogSystemColor : UIDynamicColor
 {
     long long _cuiColorName;
-    struct os_unfair_lock_s _colorCacheLock;
-    UIColor *_cachedColor;
-    unsigned long long _cachedThemeKey;
 }
 
 - (id);
 - (unsigned long long);
-- (_Bool)UsingSilhouette:(id)arg1 size: /* Error: Ran out of types for this method. */;
+- (_Bool)fontUsingSilhouette:(id)arg1 size: /* Error: Ran out of types for this method. */;
 - (id)ÿÿÿÿX;
 - (void);
 - (id);

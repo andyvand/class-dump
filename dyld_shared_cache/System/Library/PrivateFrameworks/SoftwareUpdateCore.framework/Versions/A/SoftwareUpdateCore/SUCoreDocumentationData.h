@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SUCoreDocumentationData
 {
     NSString *_humanReadableUpdateName;
-    NSString *_humanReadableUpdateTitle;
-    NSString *_humanReadableUpdateVersion;
-    NSData *_readme;
-    NSData *_readmeSummary;
-    NSData *_license;
 }
 
-+ (_Bool);
++ (_Bool)P;
 - (void);
 - (void);
 - (void);
@@ -31,8 +26,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)"NSString"48;
+- (id)_itemNameForAutoFillAuthorizationSheetWithItem: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -40,11 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *humanReadableUpdateName; // @synthesize humanReadableUpdateName=_humanReadableUpdateName;
-@property(retain, nonatomic) NSString *humanReadableUpdateTitle; // @synthesize humanReadableUpdateTitle=_humanReadableUpdateTitle;
-@property(retain, nonatomic) NSString *humanReadableUpdateVersion; // @synthesize humanReadableUpdateVersion=_humanReadableUpdateVersion;
-@property(retain, nonatomic) NSData *license; // @synthesize license=_license;
-@property(retain, nonatomic) NSData *readme; // @synthesize readme=_readme;
-@property(retain, nonatomic) NSData *readmeSummary; // @synthesize readmeSummary=_readmeSummary;
 
 @end
 

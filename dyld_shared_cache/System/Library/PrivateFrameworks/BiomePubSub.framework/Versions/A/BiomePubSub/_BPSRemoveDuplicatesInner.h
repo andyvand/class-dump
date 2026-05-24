@@ -9,7 +9,6 @@
 @interface _BPSRemoveDuplicatesInner : BPSFilterProducer
 {
     CDUnknownBlockType _isDuplicate;
-    id _last;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType isDuplicate; // @synthesize isDuplicate=_isDuplicate;
-@property(retain, nonatomic) id last; // @synthesize last=_last;
 
 @end
 

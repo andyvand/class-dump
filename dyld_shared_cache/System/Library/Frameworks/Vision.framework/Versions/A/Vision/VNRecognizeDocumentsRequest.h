@@ -6,15 +6,11 @@
 
 #import <Vision/VNStatefulRequest.h>
 
-@class CRImageReaderTrackingSession, NSArray, NSString, VNDetectBarcodesRequest;
+@class CRImageReaderTrackingSession, NSArray;
 
 @interface VNRecognizeDocumentsRequest : VNStatefulRequest
 {
     CRImageReaderTrackingSession *_trackingSession;
-    _Bool indeterminate;
-    CDUnknownBlockType progressHandler;
-    NSArray *inputTextBlocks;
-    VNDetectBarcodesRequest *_barcodeRequest;
 }
 
 - (_Bool);
@@ -48,9 +44,9 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)ernalProcessOption_ImageBuffers;
+- (id)AsyncDelegate::dmAsyncFinishedForDisk del=%p DuringDel:disk=%s mainerr/detailerr=%d/%d dict=%@ /* Error: Ran out of types for this method. */;
+- (id)s 1:(unsigned long long)arg1 Migrating Posters and paired Avatars.;
+- (void)VNDetectorInternalProcessOption_ImageBuffers;
 - (_Bool)®ÿý¤¦T®ÿ;
 - (CDUnknownBlockType)VÔ	;
 - (id)ÿ;
@@ -58,29 +54,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) VNDetectBarcodesRequest *barcodeRequest; // @synthesize barcodeRequest=_barcodeRequest;
-@property(copy, nonatomic) NSArray *customWords;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool detectionOnly;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool indeterminate; // @synthesize indeterminate;
-@property(copy, nonatomic) NSArray *inputTextBlocks; // @synthesize inputTextBlocks;
-@property(nonatomic) _Bool keepResourcesLoaded;
-@property(nonatomic) unsigned long long maximumCandidateCount;
-@property(nonatomic) float minimumTextHeight;
-@property(copy, nonatomic) CDUnknownBlockType progressHandler; // @synthesize progressHandler;
 @property(copy, nonatomic) NSArray *recognitionLanguages;
-@property(nonatomic) long long recognitionLevel;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesAlternateLineGrouping;
-@property(nonatomic) _Bool usesFormFieldDetection;
-@property(nonatomic) _Bool usesLanguageCorrection;
-@property(nonatomic) _Bool usesLanguageDetection;
 
 @end
 

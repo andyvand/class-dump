@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalAccumulatingQueue, NSObject;
-@protocol EKEventStoreProvider, OS_dispatch_queue;
+@protocol EKEventStoreProvider;
 
 @interface EKBirthdayListener
 {
     id <EKEventStoreProvider> _eventStoreProvider;
-    CalAccumulatingQueue *_updateQueue;
-    NSObject<OS_dispatch_queue> *_updateJobQueue;
-    _Bool _needsReset;
-    _Bool _shutdown;
 }
 
 + (_Bool);
@@ -30,17 +25,17 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)j ;
 - (void);
 - (void);
 - (id);
+- (void):20@28 /* Error: Ran out of types for this method. */;
+- (void)dictionaryWithContentsOfFile:(id)arg1;
+- (void)tableView:(id)arg1 namesOfPromisedFilesDroppedAtDestination:(id)arg2 forDraggedRowsWithIndexes:(id)arg3;
+- (void)d property and SVG d presentation attribute;
 - (id);
 - (id);
+- (id);
 - (void)!$Fù±2'Ð1Â0@ù
 × ;
 - (void)ÿ;

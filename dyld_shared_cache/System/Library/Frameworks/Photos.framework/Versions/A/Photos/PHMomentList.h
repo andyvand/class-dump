@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)groupSessionCapableStatus;
 + (id);
 + (id);
 + (id);
@@ -22,8 +22,8 @@
 - (long long);
 - (_Bool);
 - (Class);
-- (_Bool);
-- (_Bool);
+- (_Bool)Type = %@;
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (id);
 - (id)porary file location:%@ after replaceItemAtURL:%@ /* Error: Ran out of types for this method. */;
 

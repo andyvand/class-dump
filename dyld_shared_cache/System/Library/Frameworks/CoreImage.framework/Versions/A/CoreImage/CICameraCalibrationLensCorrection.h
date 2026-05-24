@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class AVCameraCalibrationData, CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CICameraCalibrationLensCorrection : CIFilter
 {
     CIImage *inputImage;
-    AVCameraCalibrationData *inputAVCameraCalibrationData;
-    NSNumber *inputUseInverseLookUpTable;
 }
 
 + (id);
@@ -22,16 +20,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGPoint);
-- (struct CGRect);
+- (struct CGRect)Q;
 - (void);
 - (id);
 - (void);
 - (id)xxxxllll]icjsvtvo\up|hpktnzzz^mhz]mhw{{{{hqmtAVJgLZPb``Y`;PC[?QCZdcYek|y¡¡mzuo{`i_p`iavh||~~~~ivtv~~~~~h}}pywzgoktUjdutvu{uz{}auvxqqqqiiiiddddQc\d]f_iYjcnkpjv_og}zu}n|yoonoO`Xhttttvhut{VpmxuuszhzyvvtvR]Qiemfszx|}XheoSTKT-@0D7C4KJ]VisNkf{Se^s||||{{{{bjcoff_fPaVgajaujpitvvvvuuuuRdZmLbXowzw~{¥¥¥¥H\Qitrmt;
 
 // Remaining properties
-@property(retain, nonatomic) AVCameraCalibrationData *inputAVCameraCalibrationData; // @synthesize inputAVCameraCalibrationData;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputUseInverseLookUpTable; // @synthesize inputUseInverseLookUpTable;
 
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (struct __C3DFXProgram *);
 - (id);
-- (int);
+- (int)LECT ;
 - (id)>åz?w÷?Æá½9µ#>${?¥?È^Ï½Õ>[@|?ü|?â?½½>äÚ|?¢y?Ìª½óñ=j}?u?>y½E¼Õ=í}?WCr?§v½Fx»=È_~?jo?çh½{¤¡=~Å~?ÓÚl?->E½[=ë?j?±"½â±_=e?L¨h?C;
 
 @end

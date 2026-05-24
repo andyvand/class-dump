@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKPresentationControllerWindow, NSString, UIPopoverPresentationController, UIViewController;
+@class UIViewController;
 
 @interface CKAdaptivePresentationController
 {
     UIViewController *_presentedViewController;
-    UIPopoverPresentationController *_currentPresentationController;
-    CKPresentationControllerWindow *_presentationWindow;
-    CDUnknownBlockType _presentationHandler;
-    CDUnknownBlockType _dismissalHandler;
 }
 
 + (id)StringResolver;
-- (void);
-- (void);
+- (void)n;
+- (void)e;
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (void)";
+- (void)bm;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -40,18 +36,7 @@
 - (void)ï[ÿ5[4L3;
 
 // Remaining properties
-@property(retain, nonatomic) UIPopoverPresentationController *currentPresentationController; // @synthesize currentPresentationController=_currentPresentationController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType dismissalHandler; // @synthesize dismissalHandler=_dismissalHandler;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType presentationHandler; // @synthesize presentationHandler=_presentationHandler;
-@property(retain, nonatomic) CKPresentationControllerWindow *presentationWindow; // @synthesize presentationWindow=_presentationWindow;
 @property(retain, nonatomic) UIViewController *presentedViewController; // @synthesize presentedViewController=_presentedViewController;
-@property(readonly) Class superclass;
 
 @end
 

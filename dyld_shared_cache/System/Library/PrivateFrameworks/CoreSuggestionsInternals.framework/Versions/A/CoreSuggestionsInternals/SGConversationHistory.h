@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SGConversationHistory
 {
     NSArray *_messages;
-    NSString *_likelyLanguage;
 }
 
-- (id);
+- (id)__bss;
 - (id);
 - (id);
 - (void)4ø;
 
 // Remaining properties
-@property(readonly) NSString *likelyLanguage; // @synthesize likelyLanguage=_likelyLanguage;
 @property(readonly) NSArray *messages; // @synthesize messages=_messages;
 
 @end

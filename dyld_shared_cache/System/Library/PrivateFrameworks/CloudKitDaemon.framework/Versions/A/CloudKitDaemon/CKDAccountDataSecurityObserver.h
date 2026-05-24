@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext, CKDLogicalDeviceContext, NSError;
-@protocol CDPWalrusStatusProvider, CKDAccountDataSecurityObserverDelegate, NSObject;
-
 @interface CKDAccountDataSecurityObserver
 {
     long long _cachedWalrusStatusForLoggedInAccount;
-    NSError *_cachedCDPErrorForWalrusStatus;
-    long long _cachedManateeAvailableForLoggedInAccount;
-    NSError *_cachedCDPErrorForManateeStatus;
-    id <CKDAccountDataSecurityObserverDelegate> _delegate;
-    id <NSObject> _walrusStatusChangeObserver;
-    CKDLogicalDeviceContext *_deviceContext;
-    CDUnknownBlockType _stateControllerProvider;
-    id <CDPWalrusStatusProvider> _walrusStateController;
-    CDPContext *_primaryAccountContext;
-    CDUnknownBlockType _walrusStateControllerProvider;
 }
 
 - (void);
@@ -34,22 +21,23 @@
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
-- (id);
-- (id);
+- (id)ptr}] checking [%{ptr}] id %@ vs %@ - match = %s
+;
+- (id)ngeSenderSessionRef, CFDataRef, CFDataRef *, Boolean *);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id)7;
 - (id);
 - (void);
+- (id);
+- (void)1;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)DE,conversation INTEGER NOT NULL REFERENCES conversations(conversation_id) ON DELETE CASCADE,newest_read_message INTEGER REFERENCES messages(ROWID) ON DELETE SET NULL,display_message INTEGER REFERENCES messages(ROWID) ON DELETE SET NULL,date INTEGER NOT NULL,read INTEGER NOT NULL DEFAULT 0,deleted INTEGER NOT NULL DEFAULT 0,flagged INTEGER NOT NULL DEFAULT 0,has_red_flag INTEGER NOT NULL DEFAULT 0,has_orange_flag INTEGER NOT NULL DEFAULT 0,has_yellow_flag INTEGER NOT NULL DEFAULT 0,has_green_flag INTEGER NOT NULL DEFAULT 0,has_blue_flag INTEGER NOT NULL DEFAULT 0,has_purple_flag INTEGER NOT NULL DEFAULT 0,has_gray_flag INTEGER NOT NULL DEFAULT 0,draft INTEGER NOT NULL DEFAULT 0,replied INTEGER NOT NULL DEFAULT 0,forwarded INTEGER NOT NULL DEFAULT 0,redirected INTEGER NOT NULL DEFAULT 0,junk_level_set_by_user INTEGER NOT NULL DEFAULT 0,junk_level INTEGER NOT NULL DEFAULT 0,has_unflagged INTEGER NOT NULL DEFAULT 0,has_attachments INTEGER NOT NULL DEFAULT 0,count INTEGER NOT NULL,journaled INTEGER NOT NULL DEFAULT 0,UNIQUE(scope, conversation) ON CONFLICT ABORT);;
 - (id);
 - (long long);
 - (long long);
@@ -58,25 +46,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)=;
 - (id);
-- (void)RacedWithGuitarfishRepairCallback:(id)arg1;
+- (void)setRacedWithGuitarfishRepairCallback:(id)arg1;
 - (id)	
 ;
 - (void).;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSError *cachedCDPErrorForManateeStatus; // @synthesize cachedCDPErrorForManateeStatus=_cachedCDPErrorForManateeStatus;
-@property(readonly, copy, nonatomic) NSError *cachedCDPErrorForWalrusStatus; // @synthesize cachedCDPErrorForWalrusStatus=_cachedCDPErrorForWalrusStatus;
 @property(readonly, nonatomic) long long cachedManateeAvailableForLoggedInAccount; // @synthesize cachedManateeAvailableForLoggedInAccount=_cachedManateeAvailableForLoggedInAccount;
-@property(readonly, nonatomic) long long cachedWalrusStatusForLoggedInAccount; // @synthesize cachedWalrusStatusForLoggedInAccount=_cachedWalrusStatusForLoggedInAccount;
-@property __weak id <CKDAccountDataSecurityObserverDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak CKDLogicalDeviceContext *deviceContext; // @synthesize deviceContext=_deviceContext;
-@property(retain, nonatomic) CDPContext *primaryAccountContext; // @synthesize primaryAccountContext=_primaryAccountContext;
-@property(copy, nonatomic) CDUnknownBlockType stateControllerProvider; // @synthesize stateControllerProvider=_stateControllerProvider;
-@property(readonly, nonatomic) id <CDPWalrusStatusProvider> walrusStateController; // @synthesize walrusStateController=_walrusStateController;
-@property(copy, nonatomic) CDUnknownBlockType walrusStateControllerProvider; // @synthesize walrusStateControllerProvider=_walrusStateControllerProvider;
-@property(retain, nonatomic) id <NSObject> walrusStatusChangeObserver; // @synthesize walrusStatusChangeObserver=_walrusStatusChangeObserver;
 
 @end
 

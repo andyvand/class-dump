@@ -16,18 +16,19 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)h;
+- (void)h&G)
+;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)quickResponsesEspressoClassifierMultiLabel;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)TD;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *clientSideTriggers; // @synthesize clientSideTriggers=_clientSideTriggers;

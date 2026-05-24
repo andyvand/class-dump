@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHRequestMitigated : SISchemaInstrumentationMessage
 {
     int _mitigationSource;
-    struct {
-        unsigned int mitigationSource:1;
-    } _has;
 }
 
 - (void);
@@ -23,17 +18,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id)deviceUnlockRequired;
+- (id)_deviceUnlockRequired;
 - (id)ODSchemaPNRODMetricDuration",&,N,V_responseHallucinationInferenceTime;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMitigationSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int mitigationSource; // @synthesize mitigationSource=_mitigationSource;
 
 @end

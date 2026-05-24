@@ -6,18 +6,13 @@
 
 #import <FinderKit/FI_TTouchBarScrollingStackViewController.h>
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol TTouchBarTagsViewTagProviding;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTouchBarAddTagsViewController : FI_TTouchBarScrollingStackViewController
 {
     struct function<void (FI_TTagInfo *, bool)> _buttonAction;
-    struct map<TString, FI_TTouchBarTagButton *, std::less<TString>, std::allocator<std::pair<const TString, FI_TTouchBarTagButton *>>> _tagNameToButtonMap;
-    struct TNSWeakPtr<NSObject<TTouchBarTagsViewTagProviding>> _weakTagProvider;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _targetNodesObserver;
-    struct TNotificationCenterObserver _tagRegistryObserver;
-    struct TString _filterString;
 }
 
 + (id);
@@ -26,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)KJ	;
 - (void);
 - (id);
 - (void);
@@ -37,19 +32,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ynchronous Operation Queue;
 - (id);
 - (void);
 - (void)	;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak NSObject<TTouchBarTagsViewTagProviding> *tagProvider;
 
 @end

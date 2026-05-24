@@ -11,9 +11,9 @@
 + (id);
 - (void);
 - (_Bool);
+- (id)dValueData;
 - (id);
-- (id);
-- (id)ange;
+- (id)_supportsExtendedRange;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool supportsHDR;

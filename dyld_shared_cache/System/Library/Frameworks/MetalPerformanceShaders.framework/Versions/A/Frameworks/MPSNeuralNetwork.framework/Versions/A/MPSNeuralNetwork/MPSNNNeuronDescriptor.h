@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface MPSNNNeuronDescriptor
 {
     int _neuronType;
-    float _a;
-    float _b;
-    float _c;
-    NSData *_data;
-    _Bool _noCopy;
-    unsigned long long _count;
 }
 
 + (id);
@@ -23,32 +15,28 @@
 + (id);
 + (_Bool);
 + (id);
-- (void);
+- (void);
 - (float);
-- (void);
+- (void)$ ;
 - (float);
 - (id);
 - (id);
 - (void);
-- (float);
+- (float)orize;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (int);
-- (void);
+- (void);
 - (struct NeuronInfo)÷;
 
 // Remaining properties
-@property(nonatomic) float a; // @synthesize a=_a;
-@property(nonatomic) float b; // @synthesize b=_b;
-@property(nonatomic) float c; // @synthesize c=_c;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
 @property(nonatomic) int neuronType; // @synthesize neuronType=_neuronType;
 
 @end

@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)q9;
 - (id);
 - (id);
 - (id);

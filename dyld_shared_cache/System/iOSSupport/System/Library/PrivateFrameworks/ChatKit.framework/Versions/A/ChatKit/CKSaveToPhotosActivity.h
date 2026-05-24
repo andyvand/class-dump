@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMediaObject, UIViewController;
+@class CKMediaObject;
 
 @interface CKSaveToPhotosActivity
 {
     CKMediaObject *_mediaObject;
-    UIViewController *_presenterViewController;
 }
 
 + (long long);
-- (id);
-- (id);
+- (id)xtView;
+- (id)queue;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)onTailRadius;
+- (id)balloonTailRadius;
 - (void)¨	üø	;
 
 // Remaining properties
 @property(readonly, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(readonly, nonatomic) __weak UIViewController *presenterViewController; // @synthesize presenterViewController=_presenterViewController;
 
 @end
 

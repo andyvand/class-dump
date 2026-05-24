@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, PKPaymentWebService;
-@protocol OS_dispatch_queue, PKPaymentWebServiceTargetDeviceProtocol;
+@class NSObject, NSXPCConnection;
+@protocol OS_dispatch_queue;
 
 @interface PKPaymentWebServiceRemoteProxyTargetDevice
 {
     NSObject<OS_dispatch_queue> *_handlerQueue;
-    PKPaymentWebService *_webService;
-    id <PKPaymentWebServiceTargetDeviceProtocol> _targetDevice;
-    NSXPCConnection *_connection;
 }
 
 - (void);
@@ -26,6 +23,7 @@
 - (void);
 - (void);
 - (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
@@ -34,8 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -44,6 +41,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)q@;
 - (void);
 - (void);
 - (void);
@@ -54,19 +57,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -77,55 +74,48 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)y;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)HC;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)setMptcpHeuristicFallbackFirstParty:(CDUnknownBlockType)arg1;
+- (void)setHeColormissCnt:(id)arg1;
+- (void);
+- (void)2hj78;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)mentStatusForPaymentPass:(id)arg1 completion:(id)arg2 progress:(CDUnknownBlockType)arg3;
-- (void)ualCardQueue;
-- (void)ce:(id)arg1 account:(_Bool)arg2 fromID:(CDUnknownBlockType)arg3 context: /* Error: Ran out of types for this method. */;
-- (void)ntRelayServiceURL;
+- (void)enrollmentStatusForPaymentPass:(id)arg1 completion:(id)arg2 progress:(CDUnknownBlockType)arg3;
+- (void)_virtualCardQueue;
+- (void)_paymentSetupRequestReceived:(id)arg1 service:(_Bool)arg2 account:(CDUnknownBlockType)arg3 fromID:context: /* Error: Ran out of types for this method. */;
+- (void)PaymentRelayServiceURL;
 - (void)ok.actions.codescan.success;
-- (void)rchantName;
+- (void)webMerchantName;
 
 // Remaining properties
 @property(readonly, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

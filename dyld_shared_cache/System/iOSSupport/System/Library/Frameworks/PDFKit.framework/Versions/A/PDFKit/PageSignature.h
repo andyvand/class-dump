@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, PDFAnnotation;
+@class PDFAnnotation;
 
 __attribute__((visibility("hidden")))
 @interface PageSignature
 {
     PDFAnnotation *annotation;
-    CALayer *signatureLayer;
 }
 
 - (void);

@@ -9,22 +9,18 @@
 @interface CrossFadeView
 {
     _Bool _scaleSize;
-    UIView *_startView;
-    UIView *_endView;
-    struct CGRect _startFrame;
-    struct CGRect _endFrame;
 }
 
 - (id);
+- (void)s;
+- (void)%s;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)6&s;
+- (void)s;
 - (void);
 - (_Bool);
-- (id);
+- (id)s;
 - (void);
 - (void);
 - (void);
@@ -34,14 +30,10 @@
 - (id);
 - (id);
 - (id);
-- (void)cast;
-- (struct CGRect)llToRefresh;
+- (void)isBroadcast;
+- (struct CGRect)allowsPullToRefresh;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect endFrame; // @synthesize endFrame=_endFrame;
-@property(readonly, nonatomic) UIView *endView; // @synthesize endView=_endView;
-@property(nonatomic) _Bool scaleSize; // @synthesize scaleSize=_scaleSize;
-@property(readonly, nonatomic) struct CGRect startFrame; // @synthesize startFrame=_startFrame;
 @property(readonly, nonatomic) UIView *startView; // @synthesize startView=_startView;
 
 @end

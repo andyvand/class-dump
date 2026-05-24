@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _DKEvent;
+@class _DKEvent;
 
 @interface BMDKEvent
 {
@@ -24,27 +24,19 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)';
+- (_Bool);
 - (void);
-- (id);
+- (id)k�;
 - (id);
 - (id)	
 ;
-- (id);
+- (id)current_user;
 - (id)ÿÿ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) _DKEvent *dkEvent; // @synthesize dkEvent=_dkEvent;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

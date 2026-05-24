@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXStoryModel;
 @protocol PXStoryTimeline;
 
 @interface PXStoryPagedScrollContentLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    CDStruct_af00bf4e _postUpdateFlags;
-    unsigned int _firstPageSpriteIndex;
-    PXStoryModel *_model;
-    id <PXStoryTimeline> _displayedTimeline;
-    long long _numberOfPages;
-    double _interpageSpacing;
-    double _presentedPageWidth;
-    CDStruct_982265da _presentedScrollPosition;
 }
 
 - (void);
@@ -26,8 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDStruct_982265da);
+- (void);
+- (CDStruct_48d5200d);
 - (double);
 - (double);
 - (id);
@@ -46,26 +37,14 @@
 - (void);
 - (id);
 - (void);
-- (id)FaceCropForOptions:resultHandler: /* Error: Ran out of types for this method. */;
+- (id)requestFaceCropForOptions:resultHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)original otherwise;
 - (void)¡N;
 - (long long)À;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <PXStoryTimeline> displayedTimeline; // @synthesize displayedTimeline=_displayedTimeline;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double interpageSpacing; // @synthesize interpageSpacing=_interpageSpacing;
-@property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(nonatomic) long long numberOfPages; // @synthesize numberOfPages=_numberOfPages;
-@property(nonatomic) double presentedPageWidth; // @synthesize presentedPageWidth=_presentedPageWidth;
-@property(nonatomic) CDStruct_982265da presentedScrollPosition; // @synthesize presentedScrollPosition=_presentedScrollPosition;
-@property(readonly) Class superclass;
 
 @end
 

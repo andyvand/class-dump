@@ -8,13 +8,13 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (unsigned long long);
-+ (long long);
-+ (long long);
-+ (id);
-+ (void);
++ (void));
++ (void)tunes_playlist = 1 WHERE (is_hidden = 1 AND distinguished_kind NOT IN (19, 20, 32));
++ (unsigned long long)nguage INTEGER NOT NULL DEFAULT 0, subtitle_track_index INTEGER NOT NULL DEFAULT 0, rental_duration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0);
++ (long long)LL DEFAULT 0);
++ (long long)y_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status FROM item_extra;
++ (id)nre_id, store_playlist_id, storefront_id, redownload_action_params, store_saga_id, purchase_history_id, purchase_history_token, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status) SELECT item_pid, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, redownload_action_params, store_saga_id, purchase_history_id, jalisco_token, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status FROM item_extra;
++ (void)d_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0);
 
 @end
 

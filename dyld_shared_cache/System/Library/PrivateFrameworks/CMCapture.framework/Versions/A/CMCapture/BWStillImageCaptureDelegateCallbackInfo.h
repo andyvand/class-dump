@@ -7,20 +7,16 @@
 @interface BWStillImageCaptureDelegateCallbackInfo
 {
     unsigned int _flag;
-    CDStruct_1b6d18a9 _pts;
-    _Bool _isPreBracketFrame;
 }
 
 - (unsigned int);
 - (id);
-- (id);
+- (id)j;
 - (_Bool)FigCaptureAudioPreviewSinkConfiguration;
 - (CDStruct_1b6d18a9)ÿTsZ«%;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int flag; // @synthesize flag=_flag;
-@property(readonly, nonatomic) _Bool isPreBracketFrame; // @synthesize isPreBracketFrame=_isPreBracketFrame;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 pts; // @synthesize pts=_pts;
 
 @end
 

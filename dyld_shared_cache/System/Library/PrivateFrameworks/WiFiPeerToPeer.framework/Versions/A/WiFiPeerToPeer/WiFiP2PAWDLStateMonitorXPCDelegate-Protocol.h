@@ -5,5 +5,6 @@
 //
 
 @protocol WiFiP2PAWDLStateMonitorXPCDelegate
+- (void);
 @end
 

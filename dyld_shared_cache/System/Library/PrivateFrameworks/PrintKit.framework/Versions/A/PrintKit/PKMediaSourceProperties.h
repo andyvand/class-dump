@@ -6,7 +6,7 @@
 
 #import <PrintKit/PKCollectionSpecialization.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface PKMediaSourceProperties : PKCollectionSpecialization
 {
@@ -17,15 +17,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) NSString *feedDirection;
-@property(readonly) NSNumber *feedOrientation;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

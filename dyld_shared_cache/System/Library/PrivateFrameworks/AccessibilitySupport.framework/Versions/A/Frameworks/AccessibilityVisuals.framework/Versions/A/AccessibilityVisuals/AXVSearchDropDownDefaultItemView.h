@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView, NSObject, NSString, NSTextField, NSTrackingArea;
-@protocol AXVSearchDropDownItemMouseDelegate, AXVSearchDropDownItemProtocol;
+@class NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface AXVSearchDropDownDefaultItemView
 {
     _Bool _itemViewSelected;
-    NSImageView *__iconImageView;
-    NSTextField *__labelTextField;
-    NSTextField *__detailsTextField;
-    NSTrackingArea *__trackingArea;
-    NSImage *_itemViewIcon;
-    NSString *_itemViewLabel;
-    NSString *_itemViewDetails;
-    NSObject<AXVSearchDropDownItemProtocol> *_itemViewItem;
-    id <AXVSearchDropDownItemMouseDelegate> _itemViewMouseDelegate;
 }
 
 - (void);
@@ -28,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
@@ -48,28 +38,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)rpc_x_invalid_checksum;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSTextField *_detailsTextField; // @synthesize _detailsTextField=__detailsTextField;
 @property(retain, nonatomic) NSImageView *_iconImageView; // @synthesize _iconImageView=__iconImageView;
-@property(retain, nonatomic) NSTextField *_labelTextField; // @synthesize _labelTextField=__labelTextField;
-@property(retain, nonatomic) NSTrackingArea *_trackingArea; // @synthesize _trackingArea=__trackingArea;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *itemViewDetails; // @synthesize itemViewDetails=_itemViewDetails;
-@property(retain, nonatomic) NSImage *itemViewIcon; // @synthesize itemViewIcon=_itemViewIcon;
-@property(retain, nonatomic) NSObject<AXVSearchDropDownItemProtocol> *itemViewItem; // @synthesize itemViewItem=_itemViewItem;
-@property(retain, nonatomic) NSString *itemViewLabel; // @synthesize itemViewLabel=_itemViewLabel;
-@property(nonatomic) __weak id <AXVSearchDropDownItemMouseDelegate> itemViewMouseDelegate; // @synthesize itemViewMouseDelegate=_itemViewMouseDelegate;
-@property(nonatomic) _Bool itemViewSelected; // @synthesize itemViewSelected=_itemViewSelected;
-@property(readonly) Class superclass;
 
 @end
 

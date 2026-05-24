@@ -5,5 +5,10 @@
 //
 
 @protocol AVControlsViewControllerDelegate
+
+@optional
+- (void);
+- (void)Q;
+- (void);
 @end
 

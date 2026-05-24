@@ -4,36 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCVideoFrameBufferPool;
-
 __attribute__((visibility("hidden")))
 @interface VCEffects
 {
     int _effectsMode;
-    int _effectsType;
-    VCVideoFrameBufferPool *_bufferPool;
-    _Bool _effectsApplied;
-    _Bool _faceMeshTrackingEnabled;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)R";
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)@[;
 
 // Remaining properties
-@property(nonatomic) _Bool effectsApplied; // @synthesize effectsApplied=_effectsApplied;
 @property(nonatomic) int effectsMode; // @synthesize effectsMode=_effectsMode;
-@property(nonatomic) int effectsType; // @synthesize effectsType=_effectsType;
-@property(nonatomic) _Bool faceMeshTrackingEnabled; // @synthesize faceMeshTrackingEnabled=_faceMeshTrackingEnabled;
 
 @end
 

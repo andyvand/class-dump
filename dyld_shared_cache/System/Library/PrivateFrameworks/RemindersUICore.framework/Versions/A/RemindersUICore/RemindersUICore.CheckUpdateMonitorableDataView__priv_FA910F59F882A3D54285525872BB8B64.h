@@ -7,7 +7,6 @@
 @interface RemindersUICore.CheckUpdateMonitorableDataView__priv_FA910F59F882A3D54285525872BB8B64
 {
     id store;
-    id reminderID;
 }
 
 @end

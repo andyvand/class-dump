@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPictureInPicturePlayerLayerView, AVPlayerController;
+@class AVPlayerController;
 
 __attribute__((visibility("hidden")))
 @interface AVPictureInPictureViewController
 {
     _Bool _shouldShowAlternateActionButtonImage;
-    AVPictureInPicturePlayerLayerView *_pictureInPicturePlayerLayerView;
-    AVPlayerController *_playerController;
 }
 
 - (_Bool);
@@ -21,17 +19,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)pervisor::Reset /* Error: Ran out of types for this method. */;
+- (void)TOKEN_NGRAM_LOCATION;
+- (void);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) AVPictureInPicturePlayerLayerView *pictureInPicturePlayerLayerView; // @synthesize pictureInPicturePlayerLayerView=_pictureInPicturePlayerLayerView;
 @property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(nonatomic) _Bool shouldShowAlternateActionButtonImage; // @synthesize shouldShowAlternateActionButtonImage=_shouldShowAlternateActionButtonImage;
 
 @end
 

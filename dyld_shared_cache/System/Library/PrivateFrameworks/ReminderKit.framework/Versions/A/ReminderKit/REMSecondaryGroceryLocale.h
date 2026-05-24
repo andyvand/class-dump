@@ -9,7 +9,6 @@
 @interface REMSecondaryGroceryLocale
 {
     _Bool _isAutomatic;
-    NSLocale *_locale;
 }
 
 + (_Bool);
@@ -24,7 +23,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isAutomatic; // @synthesize isAutomatic=_isAutomatic;
 @property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
 
 @end

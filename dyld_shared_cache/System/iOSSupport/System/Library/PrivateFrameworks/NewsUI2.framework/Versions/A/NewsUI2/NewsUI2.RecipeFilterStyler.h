@@ -7,7 +7,6 @@
 @interface NewsUI2.RecipeFilterStyler
 {
     id baseStyler;
-    id viewBackgroundColor;
 }
 
 @end

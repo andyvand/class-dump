@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBToggleAudioCommand
 {
     int _mediaEntityType;
-    NSString *_localMediaIdentifier;
-    NSString *_persistentIdentifier;
-    NSString *_universalLibraryIdentifier;
 }
 
 - (id);
@@ -25,7 +22,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setFileLocation:(id)arg1;
 - (id);
 - (id);
 - (id);
@@ -34,18 +31,7 @@
 - (void)Float"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *localMediaIdentifier; // @synthesize localMediaIdentifier=_localMediaIdentifier;
-@property(nonatomic) int mediaEntityType; // @synthesize mediaEntityType=_mediaEntityType;
-@property(copy, nonatomic) NSString *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *universalLibraryIdentifier; // @synthesize universalLibraryIdentifier=_universalLibraryIdentifier;
 
 @end
 

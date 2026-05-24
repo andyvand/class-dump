@@ -6,12 +6,11 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class LUI2Button, NSMenu, NSString;
+@class LUI2Button;
 
 @interface LUI2UserMenuViewController : LUI2ViewController
 {
     LUI2Button *_userButton;
-    NSMenu *_userMenuInternal;
 }
 
 - (id);
@@ -21,18 +20,15 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)T@;
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 
 // Remaining properties
 @property(retain) LUI2Button *userButton; // @synthesize userButton=_userButton;
-@property(retain) NSMenu *userMenu;
-@property(retain) NSMenu *userMenuInternal; // @synthesize userMenuInternal=_userMenuInternal;
-@property NSString *userName;
 
 @end
 

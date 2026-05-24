@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NTPBCacheHint
 {
     unsigned long long _accessTime;
-    NSString *_key;
-    int _lifetime;
-    struct {
-        unsigned int accessTime:1;
-        unsigned int lifetime:1;
-    } _has;
 }
 
 - (void);
@@ -22,10 +14,10 @@
 - (void);
 - (id);
 - (void);
+- (void)v;
+- (unsigned long long);
 - (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -34,17 +26,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (int);
+- (int)_accessibilityElementHelp;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long accessTime; // @synthesize accessTime=_accessTime;
-@property(nonatomic) _Bool hasAccessTime;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasLifetime;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int lifetime; // @synthesize lifetime=_lifetime;
 
 @end
 

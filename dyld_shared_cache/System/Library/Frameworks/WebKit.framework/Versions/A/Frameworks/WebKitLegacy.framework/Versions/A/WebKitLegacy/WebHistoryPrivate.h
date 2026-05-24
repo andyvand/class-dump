@@ -8,12 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WebHistoryPrivate
 {
     struct RetainPtr<NSMutableDictionary> _entriesByURL;
-    struct unique_ptr<WTF::HashMap<long long, WTF::RetainPtr<NSMutableArray>>, std::default_delete<WTF::HashMap<long long, WTF::RetainPtr<NSMutableArray>>>> _entriesByDate;
-    struct RetainPtr<NSMutableArray> _orderedLastVisitedDays;
-    _Bool itemLimitSet;
-    int itemLimit;
-    _Bool ageInDaysLimitSet;
-    int ageInDaysLimit;
 }
 
 + (void)correctly with WebKitLegacy;
@@ -26,16 +20,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (int);
 - (int);
-- (_Bool);
+- (_Bool):(id)arg1;
 - (id);
-- (void);
+- (void)';
 - (void);
 - (_Bool);
 - (_Bool);

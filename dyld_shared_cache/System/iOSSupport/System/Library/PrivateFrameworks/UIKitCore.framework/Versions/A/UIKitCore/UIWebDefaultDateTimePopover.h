@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UIWebDateTimePopoverViewController *_webDateTimeViewController;
 }
 
-- (void);
+- (void)notificationType;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)A-AES128-SHA;
+- (id)#16;
 
 // Remaining properties
 @property(retain, nonatomic) UIWebDateTimePopoverViewController *_webDateTimeViewController; // @synthesize _webDateTimeViewController;

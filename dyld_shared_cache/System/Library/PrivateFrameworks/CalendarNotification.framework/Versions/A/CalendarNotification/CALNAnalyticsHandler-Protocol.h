@@ -5,5 +5,6 @@
 //
 
 @protocol CALNAnalyticsHandler
+- (void);
 @end
 

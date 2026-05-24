@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface MPCSceneCollection
 {
     NSString *_version;
-    double _frameRate;
-    NSArray *_scenes;
 }
 
-- (void);
+- (void)_filteredDataclassesForAccountClass:(id)arg1;
 - (void);
 - (id);
 - (double);
@@ -22,8 +20,6 @@
 - (void)ivery] lastEventSuccessTimestamp=%llu;
 
 // Remaining properties
-@property(nonatomic) double frameRate; // @synthesize frameRate=_frameRate;
-@property(copy, nonatomic) NSArray *scenes; // @synthesize scenes=_scenes;
 @property(copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

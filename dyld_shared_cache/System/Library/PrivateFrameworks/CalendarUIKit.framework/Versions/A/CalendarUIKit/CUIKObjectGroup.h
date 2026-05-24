@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDefaultDictionary, NSDictionary, NSMutableDictionary;
+@class NSDictionary;
 
 @interface CUIKObjectGroup
 {
     NSDictionary *_originalObjectMap;
-    NSMutableDictionary *_objectMap;
-    CalDefaultDictionary *_spawnedObjectIdentifiers;
 }
 
-+ (id)ªñÇåò0ÁÚAøàªáªPwüò	?×àªý{A©ôOÂ¨ÿ_Ö#ÕôO¾©ý{©ýC;
-+ (id)@ùªÃÑYPøàªáªªcÑWPøâªñ	ªéò	?×´#Ñ ;
-- (id)1¹4Qð)¹;
-- (id)·øÃ;
-- (void)ªàò	?×¨Rø;
-- (void)áª©Røñª¼ðò1	?×ñª0_øñÇåò0ÁÚñªñGÁÚë@;
-- (void)©ôO©ý{©ýCÿÑ@ùs-;
-- (id)ù	;
-- (_Bool)ÿ_ÖwâA©àªáªôýèª	Cøô;
-- (id)àªáª³÷;
-- (void)ô;
-- (_Bool)øðªñªñÇåò0ÁÚ"@ùéªÑÚ10@ù
-?×é;
-- (id)YøÑùª©Vø(@øàªáªñ	ªàò	?×è@øàªáªñªàò	?×õª¿Ñý{F©ôOE©÷[D©ùcC©ûkB©ü@ùé£@mêGüÿ_Ö#ÕöW½©ôO©ý{©ý;
++ (id);
++ (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool)h6;
+- (id);
+- (void);
+- (_Bool);
+- (id)D;
 - (id);
 - (id);
 - (id);
@@ -34,9 +31,7 @@
 - (void)NSSet"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *objectMap; // @synthesize objectMap=_objectMap;
 @property(retain) NSDictionary *originalObjectMap; // @synthesize originalObjectMap=_originalObjectMap;
-@property(retain) CalDefaultDictionary *spawnedObjectIdentifiers; // @synthesize spawnedObjectIdentifiers=_spawnedObjectIdentifiers;
 
 @end
 

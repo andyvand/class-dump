@@ -6,24 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaSendWithoutConfirmation : SISchemaInstrumentationMessage
 {
     _Bool _isEnabled;
-    _Bool _isEnabledForHeadphones;
-    _Bool _isEnabledForCarPlay;
-    struct {
-        unsigned int isEnabled:1;
-        unsigned int isEnabledForHeadphones:1;
-        unsigned int isEnabledForCarPlay:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,25 +25,19 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)_includeArcade;
+- (_Bool)rary/Frameworks/Contacts.framework/Contacts;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)at c         INNER JOIN chat_message_join j ON c.ROWID = j.chat_id         WHERE           j.message_id = NEW.message_id       )       WHERE         message.ROWID = NEW.message_id; END;;
 - (id);
 - (id);
-- (id)y;
-- (id)firstBufferReceiptTimeOffsetInNs;
+- (id)deleteCustomerPerceivedLatency;
+- (id)_firstBufferReceiptTimeOffsetInNs;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsEnabled;
-@property(nonatomic) _Bool hasIsEnabledForCarPlay;
-@property(nonatomic) _Bool hasIsEnabledForHeadphones;
 @property(nonatomic) _Bool isEnabled; // @synthesize isEnabled=_isEnabled;
-@property(nonatomic) _Bool isEnabledForCarPlay; // @synthesize isEnabledForCarPlay=_isEnabledForCarPlay;
-@property(nonatomic) _Bool isEnabledForHeadphones; // @synthesize isEnabledForHeadphones=_isEnabledForHeadphones;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

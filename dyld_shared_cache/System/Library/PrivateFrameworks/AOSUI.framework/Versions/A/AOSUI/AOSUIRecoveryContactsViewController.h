@@ -6,13 +6,11 @@
 
 #import <AOSUI/AOSUIAccountContactsViewController.h>
 
-@class AOSUIAccountContactSetupFlowController, NSViewController, NSWindow;
+@class NSViewController;
 
 @interface AOSUIRecoveryContactsViewController : AOSUIAccountContactsViewController
 {
     NSViewController *_viewController;
-    NSWindow *_hostWindow;
-    AOSUIAccountContactSetupFlowController *setupFlowController;
 }
 
 - (void);

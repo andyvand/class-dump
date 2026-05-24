@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKDayViewContent, NSString;
+@class EKDayViewContent;
 
 @interface EKDayViewContentGeometryDelegate
 {
     EKDayViewContent *_dayViewContent;
-    struct CGRect _frame;
-    struct CGRect _bounds;
 }
 
 - (_Bool);
-- (id);
+- (id)SDictionary";
 - (id);
 - (struct CGRect);
 - (struct CGRect);
@@ -22,31 +20,17 @@
 - (void);
 - (_Bool);
 - (void);
+- (double))A;
 - (double);
 - (double);
-- (double);
-- (double);
+- (double);
 - (void)
 × ;
-- (void)Updated: /* Error: Ran out of types for this method. */;
+- (void)recurrenceChooserUpdated: /* Error: Ran out of types for this method. */;
 - (struct CGPoint)imeSection customTimeCellClass];
 
 // Remaining properties
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
 @property(nonatomic) __weak EKDayViewContent *dayViewContent; // @synthesize dayViewContent=_dayViewContent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGRect displayedRect;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double hourHeight;
-@property(readonly, nonatomic) _Bool originIsUpperLeft;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timeWidth;
-@property(readonly, nonatomic) double topPadding;
 
 @end
 

@@ -7,13 +7,12 @@
 @interface GEOComposedRouteLengthMarker
 {
     unsigned long long _pathIndex;
-    unsigned long long _pointIndex;
-    double _length;
 }
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void)-
+;
 - (id);
 - (double);
 - (unsigned long long);
@@ -21,9 +20,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic) double length; // @synthesize length=_length;
 @property(nonatomic) unsigned long long pathIndex; // @synthesize pathIndex=_pathIndex;
-@property(nonatomic) unsigned long long pointIndex; // @synthesize pointIndex=_pointIndex;
 
 @end
 

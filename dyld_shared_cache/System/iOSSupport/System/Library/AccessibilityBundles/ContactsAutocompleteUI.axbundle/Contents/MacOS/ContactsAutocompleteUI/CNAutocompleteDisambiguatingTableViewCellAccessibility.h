@@ -13,7 +13,7 @@
 + (Class);
 + (id);
 + (void);
-- (unsigned long long);
+- (unsigned long long);
 
 @end
 

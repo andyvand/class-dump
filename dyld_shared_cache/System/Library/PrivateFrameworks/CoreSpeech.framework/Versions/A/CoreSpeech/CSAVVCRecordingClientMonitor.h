@@ -9,7 +9,7 @@
     unsigned long long _numOfAVVCRecordingClients;
 }
 
-+ (id)tResult;
++ (id)_lastTriggeredOnsetResult;
 - (id);
 - (void);
 - (void);

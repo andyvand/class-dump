@@ -6,7 +6,7 @@
 
 #import <MapsSync/MapsSyncManagedHistoryItem.h>
 
-@class MapsSyncManagedMixinMapItem, NSDate, NSNumber, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedHistoryPlaceItem : MapsSyncManagedHistoryItem
@@ -17,11 +17,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) NSNumber *latitude; // @dynamic latitude;
-@property(nonatomic, retain) NSNumber *longitude; // @dynamic longitude;
-@property(nonatomic, retain) MapsSyncManagedMixinMapItem *mapItem; // @dynamic mapItem;
-@property(nonatomic, copy) NSDate *mapItemLastRefreshed; // @dynamic mapItemLastRefreshed;
-@property(nonatomic, retain) NSNumber *muid; // @dynamic muid;
 @property(nonatomic, copy) NSUUID *supersededSearchId; // @dynamic supersededSearchId;
 
 @end

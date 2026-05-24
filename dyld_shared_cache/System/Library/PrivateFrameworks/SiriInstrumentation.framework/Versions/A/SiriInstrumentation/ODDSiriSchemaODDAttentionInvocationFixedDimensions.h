@@ -6,32 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, ODDSiriSchemaODDFixedDimensions, SISchemaISOLocale;
+@class ODDSiriSchemaODDFixedDimensions;
 
 @interface ODDSiriSchemaODDAttentionInvocationFixedDimensions : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSString *_systemBuild;
-    int _dataSharingOptInStatus;
-    SISchemaISOLocale *_siriInputLocale;
-    unsigned int _ageOfProfileInMonths;
-    float _enrollmentPitchEstimation;
-    unsigned int _enrollmentUtteranceCount;
-    unsigned int _jsEnrollmentUtteranceCount;
-    NSArray *_snrOfEnrollmentUtterances;
-    NSArray *_werEnrollmentUtterances;
-    unsigned int _lowEnrollmentSpeakerSimilarityScoreCounts;
-    struct {
-        unsigned int dataSharingOptInStatus:1;
-        unsigned int ageOfProfileInMonths:1;
-        unsigned int enrollmentPitchEstimation:1;
-        unsigned int enrollmentUtteranceCount:1;
-        unsigned int jsEnrollmentUtteranceCount:1;
-        unsigned int lowEnrollmentSpeakerSimilarityScoreCounts:1;
-    } _has;
-    _Bool _hasFixedDimensions;
-    _Bool _hasSystemBuild;
-    _Bool _hasSiriInputLocale;
 }
 
 - (unsigned long long);
@@ -43,6 +22,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,8 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
@@ -71,14 +50,14 @@
 - (unsigned int);
 - (float);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned int);
@@ -91,7 +70,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
 - (id);
 - (id);
@@ -106,27 +85,7 @@
 - (void)Tier1.eventEntities;
 
 // Remaining properties
-@property(nonatomic) unsigned int ageOfProfileInMonths; // @synthesize ageOfProfileInMonths=_ageOfProfileInMonths;
-@property(nonatomic) int dataSharingOptInStatus; // @synthesize dataSharingOptInStatus=_dataSharingOptInStatus;
-@property(nonatomic) float enrollmentPitchEstimation; // @synthesize enrollmentPitchEstimation=_enrollmentPitchEstimation;
-@property(nonatomic) unsigned int enrollmentUtteranceCount; // @synthesize enrollmentUtteranceCount=_enrollmentUtteranceCount;
 @property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasAgeOfProfileInMonths;
-@property(nonatomic) _Bool hasDataSharingOptInStatus;
-@property(nonatomic) _Bool hasEnrollmentPitchEstimation;
-@property(nonatomic) _Bool hasEnrollmentUtteranceCount;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(nonatomic) _Bool hasJsEnrollmentUtteranceCount;
-@property(nonatomic) _Bool hasLowEnrollmentSpeakerSimilarityScoreCounts;
-@property(nonatomic) _Bool hasSiriInputLocale; // @synthesize hasSiriInputLocale=_hasSiriInputLocale;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(nonatomic) unsigned int jsEnrollmentUtteranceCount; // @synthesize jsEnrollmentUtteranceCount=_jsEnrollmentUtteranceCount;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int lowEnrollmentSpeakerSimilarityScoreCounts; // @synthesize lowEnrollmentSpeakerSimilarityScoreCounts=_lowEnrollmentSpeakerSimilarityScoreCounts;
-@property(retain, nonatomic) SISchemaISOLocale *siriInputLocale; // @synthesize siriInputLocale=_siriInputLocale;
-@property(copy, nonatomic) NSArray *snrOfEnrollmentUtterances; // @synthesize snrOfEnrollmentUtterances=_snrOfEnrollmentUtterances;
-@property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
-@property(copy, nonatomic) NSArray *werEnrollmentUtterances; // @synthesize werEnrollmentUtterances=_werEnrollmentUtterances;
 
 @end
 

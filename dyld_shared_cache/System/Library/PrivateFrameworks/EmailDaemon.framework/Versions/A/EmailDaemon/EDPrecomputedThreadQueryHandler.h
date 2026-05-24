@@ -6,33 +6,15 @@
 
 #import <EmailDaemon/EDMessageRepositoryQueryHandler.h>
 
-@class EDThreadPersistence, EDUpdateThrottler, EFLocked, EFManualCancelationToken, EFOrderedDictionary, EMCollectionItemIDStateCapturer, EMMailboxScope, EMThreadReloadSummaryHelper, EMThreadScope, NSArray, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
-@protocol EFCancelable, EFScheduler;
+@class EMThreadScope, NSArray;
 
 @interface EDPrecomputedThreadQueryHandler : EDMessageRepositoryQueryHandler
 {
     EMThreadScope *_threadScope;
-    EDThreadPersistence *_threadPersistence;
-    NSArray *_sortKeys;
-    id <EFScheduler> _changeScheduler;
-    id <EFScheduler> _backgroundWorkScheduler;
-    EFManualCancelationToken *_cancelationToken;
-    NSMutableDictionary *_pendingChanges;
-    NSMutableArray *_pendingPositionChanges;
-    NSMutableSet *_unreportedJournaledObjectIDs;
-    NSMutableDictionary *_reportedJournaledObjectIDs;
-    NSMutableDictionary *_oldestThreadObjectIDsByMailbox;
-    id <EFCancelable> _updateOldestThreadsCancelationToken;
-    EDUpdateThrottler *_updateThrottler;
-    EMThreadReloadSummaryHelper *_reloadSummaryHelper;
-    EMMailboxScope *_mailboxScope;
-    EFLocked *_sectionIndexesByConversationID;
-    EFOrderedDictionary *_sectionPredicates;
-    EMCollectionItemIDStateCapturer *_stateCapturer;
 }
 
++ (id);
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
@@ -42,86 +24,62 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (_Bool)updateEventBackwardUserScanDuration: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
+- (id);
+- (id)prepareForTransitionToImage: /* Error: Ran out of types for this method. */;
+- (void)P;
 - (void);
+- (_Bool)h;
+- (id)ATLStateCardCurrency;
+- (void);
+- (void)__DATA_CONST;
+- (void)rty %s
+;
 - (id);
 - (void)ctStatement:additionalRowHandling:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <EFScheduler> backgroundWorkScheduler; // @synthesize backgroundWorkScheduler=_backgroundWorkScheduler;
-@property(retain, nonatomic) EFManualCancelationToken *cancelationToken; // @synthesize cancelationToken=_cancelationToken;
-@property(readonly, nonatomic) id <EFScheduler> changeScheduler; // @synthesize changeScheduler=_changeScheduler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EMMailboxScope *mailboxScope; // @synthesize mailboxScope=_mailboxScope;
-@property(retain, nonatomic) NSMutableDictionary *oldestThreadObjectIDsByMailbox; // @synthesize oldestThreadObjectIDsByMailbox=_oldestThreadObjectIDsByMailbox;
-@property(retain, nonatomic) NSMutableDictionary *pendingChanges; // @synthesize pendingChanges=_pendingChanges;
-@property(retain, nonatomic) NSMutableArray *pendingPositionChanges; // @synthesize pendingPositionChanges=_pendingPositionChanges;
-@property(readonly, nonatomic) EMThreadReloadSummaryHelper *reloadSummaryHelper; // @synthesize reloadSummaryHelper=_reloadSummaryHelper;
-@property(retain, nonatomic) NSMutableDictionary *reportedJournaledObjectIDs; // @synthesize reportedJournaledObjectIDs=_reportedJournaledObjectIDs;
-@property(readonly, nonatomic) EFLocked *sectionIndexesByConversationID; // @synthesize sectionIndexesByConversationID=_sectionIndexesByConversationID;
-@property(readonly, nonatomic) EFOrderedDictionary *sectionPredicates; // @synthesize sectionPredicates=_sectionPredicates;
 @property(readonly, copy, nonatomic) NSArray *sortKeys; // @synthesize sortKeys=_sortKeys;
-@property(readonly, nonatomic) EMCollectionItemIDStateCapturer *stateCapturer; // @synthesize stateCapturer=_stateCapturer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) EDThreadPersistence *threadPersistence; // @synthesize threadPersistence=_threadPersistence;
-@property(readonly, nonatomic) EMThreadScope *threadScope; // @synthesize threadScope=_threadScope;
-@property(retain, nonatomic) NSMutableSet *unreportedJournaledObjectIDs; // @synthesize unreportedJournaledObjectIDs=_unreportedJournaledObjectIDs;
-@property(readonly, nonatomic) _Bool updateDisplayDate;
-@property(retain, nonatomic) id <EFCancelable> updateOldestThreadsCancelationToken; // @synthesize updateOldestThreadsCancelationToken=_updateOldestThreadsCancelationToken;
-@property(readonly, nonatomic) EDUpdateThrottler *updateThrottler; // @synthesize updateThrottler=_updateThrottler;
 
 @end
 

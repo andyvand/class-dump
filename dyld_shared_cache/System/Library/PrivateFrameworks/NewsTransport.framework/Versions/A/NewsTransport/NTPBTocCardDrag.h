@@ -11,22 +11,21 @@
     NSData *_tocExposureId;
 }
 
-- (id);
+- (id)initWithMatchedTimeRanges: /* Error: Ran out of types for this method. */;
+- (void)initWithDisplayAsset:(id)arg1 useSmartColor: /* Error: Ran out of types for this method. */;
+- (_Bool)distanceBetweenChapterTitleBaselineAndBottomWithoutChrome;
+- (id)!;
 - (void);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)initWithCGImage:scale:orientation: /* Error: Ran out of types for this method. */;
+- (_Bool)Settings;
+- (_Bool)uration from configuration %{public}@;
 - (id);
 - (id);
-- (void)cTagMetadatas;
+- (void)topicTagMetadatas;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTocExposureId;
-@property(retain, nonatomic) NSData *tocExposureId; // @synthesize tocExposureId=_tocExposureId;
 
 @end
 

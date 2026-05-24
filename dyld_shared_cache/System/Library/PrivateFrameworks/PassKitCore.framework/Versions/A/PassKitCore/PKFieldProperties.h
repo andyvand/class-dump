@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
-
 @interface PKFieldProperties
 {
     _Bool _authenticationRequired;
-    _Bool _backgroundTransaction;
-    _Bool _secondaryPropertiesRequired;
-    _Bool _secondaryPropertiesAcquired;
-    unsigned long long _technology;
-    long long _terminalType;
-    long long _valueAddedServiceMode;
-    long long _accessTerminalSubtype;
-    long long _carKeyBrandCode;
-    unsigned long long _pairingRequested;
-    unsigned long long _fieldType;
-    NSArray *_TCIs;
-    NSArray *_merchantIdentifiers;
-    NSString *_applicationIdentifier;
-    NSString *_credentialIdentifier;
-    NSData *_readerIdentifier;
 }
 
 + (id);
@@ -36,17 +19,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
 - (long long);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -56,31 +39,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)2\;
 - (unsigned long long);
-- (id)io:maxAspectRatio: /* Error: Ran out of types for this method. */;
-- (void)es:(id)arg1;
+- (id)constraintsWithFixedSmallDimenstion:minAspectRatio:maxAspectRatio: /* Error: Ran out of types for this method. */;
+- (void)_populatePeerPaymentBalanceIfNecessaryForPasses:(id)arg1;
 - (void)PEER_PAYMENT_DOWNLOAD_PASS_ERROR_TITLE;
 - (id)´÷hG½;
 - (void)@3j!;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *TCIs; // @synthesize TCIs=_TCIs;
-@property(readonly, nonatomic) long long accessTerminalSubtype; // @synthesize accessTerminalSubtype=_accessTerminalSubtype;
-@property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(nonatomic) _Bool authenticationRequired; // @synthesize authenticationRequired=_authenticationRequired;
-@property(nonatomic) _Bool backgroundTransaction; // @synthesize backgroundTransaction=_backgroundTransaction;
-@property(nonatomic) long long carKeyBrandCode; // @synthesize carKeyBrandCode=_carKeyBrandCode;
-@property(copy, nonatomic) NSString *credentialIdentifier; // @synthesize credentialIdentifier=_credentialIdentifier;
-@property(nonatomic) unsigned long long fieldType; // @synthesize fieldType=_fieldType;
-@property(copy, nonatomic) NSArray *merchantIdentifiers; // @synthesize merchantIdentifiers=_merchantIdentifiers;
-@property(nonatomic) unsigned long long pairingRequested; // @synthesize pairingRequested=_pairingRequested;
-@property(copy, nonatomic) NSData *readerIdentifier; // @synthesize readerIdentifier=_readerIdentifier;
-@property(nonatomic) _Bool secondaryPropertiesAcquired; // @synthesize secondaryPropertiesAcquired=_secondaryPropertiesAcquired;
-@property(nonatomic) _Bool secondaryPropertiesRequired; // @synthesize secondaryPropertiesRequired=_secondaryPropertiesRequired;
 @property(readonly, nonatomic) unsigned long long technology; // @synthesize technology=_technology;
-@property(readonly, nonatomic) long long terminalType; // @synthesize terminalType=_terminalType;
-@property(readonly, nonatomic) long long valueAddedServiceMode; // @synthesize valueAddedServiceMode=_valueAddedServiceMode;
 
 @end
 

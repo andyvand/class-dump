@@ -6,18 +6,15 @@
 
 #import <SceneKit/SCNAction.h>
 
-@class NSArray;
-
 @interface SCNActionGroup : SCNAction
 {
     void *_mycaction;
-    NSArray *_actions;
 }
 
 + (id);
 + (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)5;
 - (_Bool);
 - (void);
 - (id);

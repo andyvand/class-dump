@@ -11,15 +11,15 @@
     NSError *_authenticationError;
 }
 
-+ (_Bool);
++ (_Bool)getStateResponseWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (Class);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (void);
-- (void);
+- (void)cag;
 
 // Remaining properties
 @property(copy) NSError *authenticationError; // @synthesize authenticationError=_authenticationError;

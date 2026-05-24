@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
     struct CGPoint _startPointInWindowCoordinates;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)terminateWithSuccess;
+- (void)showConversationListWithAnimation: /* Error: Ran out of types for this method. */;
+- (void)K;
 - (struct CGPoint);
 - (void);
-- (void);
+- (void)u;
 - (void);
 - (void);
 

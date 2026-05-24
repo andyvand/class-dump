@@ -5,5 +5,6 @@
 //
 
 @protocol SXURLHandling
+- (void);
 @end
 

@@ -6,7 +6,7 @@
 
 #import <MediaPlaybackCore/MPCPlaybackRequestEnvironment.h>
 
-@class ICUserIdentity, MPCPlaybackDelegationProperties, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPCMutablePlaybackRequestEnvironment : MPCPlaybackRequestEnvironment
@@ -24,11 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clientIdentifier; // @dynamic clientIdentifier;
-@property(copy, nonatomic) NSString *clientVersion; // @dynamic clientVersion;
-@property(copy, nonatomic) MPCPlaybackDelegationProperties *delegationProperties; // @dynamic delegationProperties;
-@property(copy, nonatomic) NSString *requestingBundleIdentifier; // @dynamic requestingBundleIdentifier;
-@property(copy, nonatomic) NSString *requestingBundleVersion; // @dynamic requestingBundleVersion;
-@property(retain, nonatomic) ICUserIdentity *userIdentity; // @dynamic userIdentity;
 
 @end
 

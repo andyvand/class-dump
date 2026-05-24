@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MRAVClusterController
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSHashTable *_observers;
-    NSString *_localPairingIdentity;
-    NSString *_clusterUID;
-    NSString *_clusterLeaderUID;
-    unsigned long long _clusterStatus;
-    unsigned int _clusterType;
-    int _airplayClusterStatusNotificationToken;
 }
 
 + (_Bool);
@@ -27,7 +19,7 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -39,13 +31,9 @@
 - (_Bool);
 - (void);
 - (unsigned int);
-- (void)dioBufferProtobuf;
+- (void)_MRAudioBufferProtobuf;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *clusterLeaderUID;
-@property(readonly, nonatomic) unsigned long long clusterStatus;
-@property(readonly, nonatomic) unsigned int clusterType;
-@property(readonly, nonatomic) NSString *clusterUID;
 @property(readonly, nonatomic) _Bool needsCommandRedirection;
 
 @end

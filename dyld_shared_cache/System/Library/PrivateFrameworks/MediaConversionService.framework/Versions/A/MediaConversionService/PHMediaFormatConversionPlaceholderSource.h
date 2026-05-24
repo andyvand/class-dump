@@ -15,12 +15,12 @@
 
 + (id);
 + (id);
-- (id);
+- (id)@y;
 - (unsigned long long);
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
+- (void)commute1Hr15MinWarningEntityRelevanceDayOfWeekAndTimeOfDayFeatures;
 - (id);
 
 // Remaining properties

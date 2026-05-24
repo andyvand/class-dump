@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableIndexSet;
-
 __attribute__((visibility("hidden")))
 @interface NSCollectionViewIndexMapper
 {
     long long _oldIndexCount;
-    long long _newIndexCount;
-    long long *_oldIndexMap;
-    long long *_newIndexMap;
-    NSMutableIndexSet *_oldMovedRows;
-    NSMutableIndexSet *_addedRows;
-    NSMutableIndexSet *_items;
-    NSMutableIndexSet *_movedItems;
-    NSMutableIndexSet *_deletedRows;
-    _Bool _cleanupForMoves;
-    _Bool _hasPendingDeletes;
 }
 
-- (long long *);
-- (long long);
-- (long long);
-- (long long *);
-- (long long);
-- (long long);
+- (long long *)setAvAssetDownloadChildDownloadSessionIdentifier: /* Error: Ran out of types for this method. */;
+- (long long)setAuditToken: /* Error: Ran out of types for this method. */;
+- (long long)setAttributes:(long long)arg1 ofItemAtPath:error: /* Error: Ran out of types for this method. */;
+- (long long *)initWithUser:password:persistence: /* Error: Ran out of types for this method. */;
+- (long long)initWithUser:password:initialAccess: /* Error: Ran out of types for this method. */;
+- (long long)initWithUser:(long long)arg1 password:initialAccess: /* Error: Ran out of types for this method. */;
+- (void)hasPrefix:(long long)arg1;
+- (void)URLsForDirectory:(long long)arg1 inDomains: /* Error: Ran out of types for this method. */;
+- (id)V_authenticatorStatusCodes;
 - (void);
 - (void);
-- (id);
+- (void)eiveData and not multipart/x-mixed-replace;
+- (void)@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void)óG¼âB;

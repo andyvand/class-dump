@@ -5,5 +5,6 @@
 //
 
 @protocol MapsSync.MapsSyncStoreControllerDelegate
+- (void);
 @end
 

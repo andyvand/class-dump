@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVPlayer, ICAttachment, NSObject;
+@class AVPlayer;
 
 @interface ICAudioController
 {
     _Bool _registeredForRemoteControlEvents;
-    AVPlayer *_currentPlayer;
-    ICAttachment *_currentAttachment;
-    AVAsset *_currentAsset;
-    NSObject *_playbackTimeObserver;
-    double _pendingSeekTime;
 }
 
 + (id);
-+ (void);
++ (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,7 +28,7 @@
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long);
 - (long long);
 - (_Bool);
 - (void);
@@ -47,9 +42,9 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)handleEventType:keyData:valueData: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)FCMultiResolutionImage;
 - (void);
 - (void);
 - (void);
@@ -63,13 +58,7 @@
 ;
 
 // Remaining properties
-@property(retain, nonatomic) AVAsset *currentAsset; // @synthesize currentAsset=_currentAsset;
-@property(retain, nonatomic) ICAttachment *currentAttachment; // @synthesize currentAttachment=_currentAttachment;
 @property(retain, nonatomic) AVPlayer *currentPlayer; // @synthesize currentPlayer=_currentPlayer;
-@property(readonly, nonatomic) _Bool isPlaying;
-@property(nonatomic) double pendingSeekTime; // @synthesize pendingSeekTime=_pendingSeekTime;
-@property(retain, nonatomic) NSObject *playbackTimeObserver; // @synthesize playbackTimeObserver=_playbackTimeObserver;
-@property(nonatomic) _Bool registeredForRemoteControlEvents; // @synthesize registeredForRemoteControlEvents=_registeredForRemoteControlEvents;
 
 @end
 

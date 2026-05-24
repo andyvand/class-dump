@@ -7,10 +7,6 @@
 @interface Safari.RWIModelsState
 {
     id _targets;
-    id _applications;
-    id _debuggables;
-    id _visibleTargets;
-    id _$observationRegistrar;
 }
 
 @end

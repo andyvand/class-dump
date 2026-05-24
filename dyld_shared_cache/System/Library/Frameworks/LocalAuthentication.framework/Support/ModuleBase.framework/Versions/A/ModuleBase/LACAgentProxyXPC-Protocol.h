@@ -5,5 +5,6 @@
 //
 
 @protocol LACAgentProxyXPC
+- (void)B;
 @end
 

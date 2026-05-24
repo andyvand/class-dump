@@ -7,7 +7,6 @@
 @interface NewsUI2.AudioHScrollBlueprintAnimator
 {
     id blueprintProvider;
-    id viewProvider;
 }
 
 @end

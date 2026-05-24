@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CINinePartTiled : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputBreakpoint0;
-    CIVector *inputBreakpoint1;
-    CIVector *inputGrowAmount;
-    NSNumber *inputFlipYTiles;
 }
 
 + (id);
@@ -25,18 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id)u;
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 - (id)z¡¡¡¡¡¡¡~Yjbu\cYhTaYhwwtwRd]pruuuvz{|Vpnzixyyzzzz|jwsvwszxxuxwwwwvvvvttttlrqrlmmmR]VaJVL^qqqqrm~«¦««¿¿¿¿½½½½bysUphzx`us}nnjnQ`Zc`hhhyyyybonqaaYa``_`K\Rc?ZOhooist{y|zzzzZmdy¡¡¡¡¦¦¦¦DbWupmepttttamiomjdmlyz{dlkq\\W\BLCMGE:I-B5QE[UiolhqAUK\TTMT@RIXhhhhqqqq]c]jBZReooooixxxn|}}}}}}]kgv;\TpbmksrrrrddddHSJUFUK[jpmpgwtq¨¨¨¨°°°°¢¢z{wq}t|{|}}}}ivtwjmhqwwvwu¡£§§££££V^Ti>N?Y]_Ublniw¥¥¥¥¡¡¡¡}pokrbhakssrs}}}}xxxxRb[fZZRZT_V_jqnu~kxv}}}}hheh<QE_nqoqssssenknqtrv    ®®®®©©©©{frmrpoiptzzz|x\zzevvy~~~yyyyisuu||||p}}vvvvjjjjQ[Qd]jdpxZkf{bqnyqxxxoonoEZPeNYMidvtynywbpl|lyy|zzzzqqqq>XNcGVK_mmmm ¨­°¯°°¤¤¤¤}}~||~e}z|xt|Shao?\SiRc[nUrn~io~~~~bjej/K;_ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputBreakpoint0; // @synthesize inputBreakpoint0;
-@property(retain, nonatomic) CIVector *inputBreakpoint1; // @synthesize inputBreakpoint1;
-@property(retain, nonatomic) NSNumber *inputFlipYTiles; // @synthesize inputFlipYTiles;
-@property(retain, nonatomic) CIVector *inputGrowAmount; // @synthesize inputGrowAmount;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

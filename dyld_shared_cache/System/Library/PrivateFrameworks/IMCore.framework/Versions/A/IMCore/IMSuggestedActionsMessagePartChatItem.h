@@ -10,9 +10,9 @@
 {
 }
 
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)s] %s:%d VCJitterBuffer[%p] Cellular Network Notification:basebandAdvisoryType=%d radioAccessTechnology=%u signalQuality=%d dlBLER=%u /* Error: Ran out of types for this method. */;
+- (id)ength(%zu) for Multiway audio media control info, expecting %u;
+- (_Bool)b;
 - (id);
 
 @end

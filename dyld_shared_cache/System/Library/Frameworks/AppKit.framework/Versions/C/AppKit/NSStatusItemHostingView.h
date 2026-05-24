@@ -6,17 +6,11 @@
 
 #import <AppKit/NSView.h>
 
-@class FBScene, NSSceneHostingController, NSString;
-@protocol NSStatusItemHostingViewDelegate;
+@class FBScene;
 
 @interface NSStatusItemHostingView : NSView
 {
     FBScene *_scene;
-    long long _debugClientIdentifier;
-    NSSceneHostingController *_hostingController;
-    struct CGRect _offScreenPositioningFrame;
-    _Bool _disableEvents;
-    id <NSStatusItemHostingViewDelegate> _delegate;
 }
 
 - (void);
@@ -24,15 +18,15 @@
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)@0:8@"NSURLProtocol"16@"NSCachedURLResponse"24 /* Error: Ran out of types for this method. */;
+- (void)uest"24@"NSURLResponse"32;
+- (void)substringToIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)t;
 - (void);
 - (id);
 - (void);
@@ -41,26 +35,16 @@
 × ;
 - (void)@ù
 × ;
-- (void)eparatorTracking;
+- (void)NSSeparatorTracking;
 - (id);
 - (void);
-- (id)ption;
+- (id)NSTextNoSelectionException;
 - (void)5I;
 - (void)[pPkB;
 - (void)À;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSStatusItemHostingViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property _Bool disableEvents; // @synthesize disableEvents=_disableEvents;
-@property(readonly) unsigned long long hash;
-@property struct CGRect offScreenPositioningFrame;
 @property(readonly) FBScene *scene;
-@property(readonly) Class superclass;
 
 @end
 

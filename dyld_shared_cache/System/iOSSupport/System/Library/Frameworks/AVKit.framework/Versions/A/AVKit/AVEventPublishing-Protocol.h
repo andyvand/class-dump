@@ -5,5 +5,6 @@
 //
 
 @protocol AVEventPublishing
+- (void);
 @end
 

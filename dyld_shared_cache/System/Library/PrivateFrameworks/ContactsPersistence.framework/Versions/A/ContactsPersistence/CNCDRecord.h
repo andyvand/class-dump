@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABRecord, NSData, NSDate, NSMutableDictionary, NSNumber, NSSet, NSString;
+@class ABRecord, NSString;
 
 @interface CNCDRecord
 {
     ABRecord *_publicRecord;
-    NSMutableDictionary *_propertyValueCache;
 }
 
 + (void);
@@ -43,11 +42,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -74,38 +73,13 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_refLoopResistantStrongPairedItem;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *creationDate; // @dynamic creationDate;
-@property(retain, nonatomic) NSSet *customProperties; // @dynamic customProperties;
-@property(readonly, nonatomic) __weak NSString *displayName;
-@property(retain, nonatomic) NSString *externalCollectionPath; // @dynamic externalCollectionPath;
-@property(retain, nonatomic) NSString *externalFilename; // @dynamic externalFilename;
-@property(retain, nonatomic) NSString *externalHash; // @dynamic externalHash;
-@property(retain, nonatomic) NSString *externalImageURI; // @dynamic externalImageURI;
-@property(retain, nonatomic) NSString *externalModificationTag; // @dynamic externalModificationTag;
-@property(retain, nonatomic) NSString *externalPropertiesJSON; // @dynamic externalPropertiesJSON;
-@property(retain, nonatomic) NSData *externalRepresentation; // @dynamic externalRepresentation;
-@property(retain, nonatomic) NSString *externalURI; // @dynamic externalURI;
-@property(retain, nonatomic) NSString *externalUUID; // @dynamic externalUUID;
-@property(nonatomic) int iOSLegacyIdentifier; // @dynamic iOSLegacyIdentifier;
-@property(readonly, nonatomic) _Bool ignoresGuardianRestrictionsDuringValidation;
-@property(readonly, nonatomic) NSDate *modificationDate; // @dynamic modificationDate;
-@property(retain, nonatomic) NSDate *primitiveCreationDate; // @dynamic primitiveCreationDate;
-@property(retain, nonatomic) NSNumber *primitiveCreationDateYear; // @dynamic primitiveCreationDateYear;
-@property(retain, nonatomic) NSNumber *primitiveCreationDateYearless; // @dynamic primitiveCreationDateYearless;
-@property(retain, nonatomic) NSDate *primitiveModificationDate; // @dynamic primitiveModificationDate;
-@property(retain, nonatomic) NSNumber *primitiveModificationDateYear; // @dynamic primitiveModificationDateYear;
-@property(retain, nonatomic) NSNumber *primitiveModificationDateYearless; // @dynamic primitiveModificationDateYearless;
 @property(retain, nonatomic) NSString *primitiveUniqueId; // @dynamic primitiveUniqueId;
-@property(retain, nonatomic) NSSet *remoteLocations; // @dynamic remoteLocations;
-@property(nonatomic) long long syncStatus; // @dynamic syncStatus;
-@property(retain, nonatomic) NSString *uniqueId; // @dynamic uniqueId;
-@property(retain, nonatomic) NSSet *unknownProperties; // @dynamic unknownProperties;
 
 @end
 

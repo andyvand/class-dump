@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CKSpotlightSearchResult
 {
     NSString *_chatGUID;
-    NSString *_messageGUID;
-    NSDate *_messageDate;
-    NSString *_summary;
 }
 
 - (id);
@@ -29,9 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *chatGUID; // @synthesize chatGUID=_chatGUID;
-@property(retain, nonatomic) NSDate *messageDate; // @synthesize messageDate=_messageDate;
-@property(copy, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(copy, nonatomic) NSString *summary; // @synthesize summary=_summary;
 
 @end
 

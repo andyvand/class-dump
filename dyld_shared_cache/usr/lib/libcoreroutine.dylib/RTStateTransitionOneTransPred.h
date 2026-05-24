@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, RTStateTransitionOnePredEl;
+@class RTStateTransitionOnePredEl;
 
 @interface RTStateTransitionOneTransPred
 {
     RTStateTransitionOnePredEl *_weekly;
-    RTStateTransitionOnePredEl *_daily;
-    NSUUID *_stateUUID;
 }
 
 - (id);
-- (id);
+- (id)on.to;
 - (void);
 - (id);
 - (id);
@@ -24,8 +22,6 @@
 - (void)hKitWorkout, %{sensitive}@ -> %{sensitive}@;
 
 // Remaining properties
-@property(retain, nonatomic) RTStateTransitionOnePredEl *daily; // @synthesize daily=_daily;
-@property(retain, nonatomic) NSUUID *stateUUID; // @synthesize stateUUID=_stateUUID;
 @property(retain, nonatomic) RTStateTransitionOnePredEl *weekly; // @synthesize weekly=_weekly;
 
 @end

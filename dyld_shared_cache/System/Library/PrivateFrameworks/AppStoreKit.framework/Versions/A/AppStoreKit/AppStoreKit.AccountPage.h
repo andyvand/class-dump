@@ -7,7 +7,6 @@
 @interface AppStoreKit.AccountPage
 {
     id pageMetrics;
-    id pageRenderEvent;
 }
 
 @end

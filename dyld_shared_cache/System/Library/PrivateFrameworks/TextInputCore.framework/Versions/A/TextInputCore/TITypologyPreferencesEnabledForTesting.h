@@ -14,12 +14,12 @@
 }
 
 - (void);
-- (id);
+- (id)defaultVoiceContext;
 - (id);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (id);
+- (id)IntentConfirmationWaitToContinueResponse;
 - (long long);
 - (void);
 

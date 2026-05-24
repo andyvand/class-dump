@@ -9,22 +9,6 @@
 @interface SOSpeechItem
 {
     NSString *_bundleIdentifier;
-    NSString *_localeIdentifier;
-    NSString *_fallbackLocaleIdentifier;
-    unsigned long long _byteSize;
-    NSString *_variant;
-    NSString *_version;
-    NSString *_tagName;
-    NSString *_engineIdentifier;
-    unsigned long long _visibility;
-    unsigned long long _downloadStatus;
-    double _downloadPercentComplete;
-    NSString *_fullSizeBundleIdentifier;
-    unsigned long long _fullSizeByteSize;
-    NSString *_fullSizeTagName;
-    _Bool _showCountryInDisplayTitle;
-    _Bool _downloadFullSize;
-    _Bool _offlineDictationOnly;
 }
 
 + (id);
@@ -64,7 +48,7 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)WebExtensionContext_MenusRemoveReply;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -75,7 +59,7 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)*	;
 - (unsigned long long);
 - (id);
 - (void);
@@ -84,22 +68,6 @@
 
 // Remaining properties
 @property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) unsigned long long byteSize; // @synthesize byteSize=_byteSize;
-@property _Bool downloadFullSize; // @synthesize downloadFullSize=_downloadFullSize;
-@property double downloadPercentComplete; // @synthesize downloadPercentComplete=_downloadPercentComplete;
-@property unsigned long long downloadStatus; // @synthesize downloadStatus=_downloadStatus;
-@property(readonly, retain) NSString *engineIdentifier; // @synthesize engineIdentifier=_engineIdentifier;
-@property(retain) NSString *fallbackLocaleIdentifier; // @synthesize fallbackLocaleIdentifier=_fallbackLocaleIdentifier;
-@property(readonly) NSString *fullSizeBundleIdentifier; // @synthesize fullSizeBundleIdentifier=_fullSizeBundleIdentifier;
-@property(readonly) unsigned long long fullSizeByteSize; // @synthesize fullSizeByteSize=_fullSizeByteSize;
-@property(readonly) NSString *fullSizeTagName; // @synthesize fullSizeTagName=_fullSizeTagName;
-@property(retain) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property _Bool offlineDictationOnly; // @synthesize offlineDictationOnly=_offlineDictationOnly;
-@property _Bool showCountryInDisplayTitle; // @synthesize showCountryInDisplayTitle=_showCountryInDisplayTitle;
-@property(readonly, retain) NSString *tagName; // @synthesize tagName=_tagName;
-@property(readonly, retain) NSString *variant; // @synthesize variant=_variant;
-@property(readonly, retain) NSString *version; // @synthesize version=_version;
-@property unsigned long long visibility; // @synthesize visibility=_visibility;
 
 @end
 

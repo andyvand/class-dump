@@ -7,7 +7,6 @@
 @interface ContactsPersistence.SimpleCoreDataStack
 {
     id context;
-    id defaultContainer;
 }
 
 @end

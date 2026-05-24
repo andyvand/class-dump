@@ -6,21 +6,15 @@
 
 #import <AppKit/NSTouchBarPressAndHoldTransposer.h>
 
-@class NSSlider, NSTimer;
+@class NSSlider;
 
 @interface NSTouchBarSliderPopoverTransposer : NSTouchBarPressAndHoldTransposer
 {
     double _lastXLocation;
-    double _initialDoubleValue;
-    NSSlider *_slider;
-    NSTimer *_continuationTimer;
-    double _continuationTimeout;
-    long long _continuationBehavior;
-    _Bool _touchMoved;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)DeviceSupportsContextualVolume;
+- (void)DeviceSupportsCinnamon;
 - (void);
 - (void);
 - (double);
@@ -29,15 +23,13 @@
 - (double);
 - (long long);
 - (void);
-- (void);
-- (void);
+- (void)l;
+- (void)kConditionalConnectionActivityName;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property long long continuationBehavior; // @synthesize continuationBehavior=_continuationBehavior;
-@property double continuationTimeout; // @synthesize continuationTimeout=_continuationTimeout;
 @property(retain) NSSlider *slider; // @synthesize slider=_slider;
 
 @end

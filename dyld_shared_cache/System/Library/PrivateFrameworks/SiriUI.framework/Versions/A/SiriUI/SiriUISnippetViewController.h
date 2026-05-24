@@ -6,57 +6,26 @@
 
 #import <SiriUI/SiriUIBaseSnippetViewController.h>
 
-@class NSArray, NSAttributedString, NSString, NSView, NSViewController, SAUIAppPunchOut, SAUIConfirmationOptions;
-@protocol SiriUIReusableView, SiriUISnippetViewControllerDelegate;
+@class NSView;
+@protocol SiriUIReusableView;
 
 @interface SiriUISnippetViewController : SiriUIBaseSnippetViewController
 {
     NSView<SiriUIReusableView> *_headerView;
-    NSView<SiriUIReusableView> *_footerView;
-    NSView<SiriUIReusableView> *_transparentHeaderView;
-    NSView<SiriUIReusableView> *_transparentFooterView;
-    _Bool _showAll;
-    _Bool _hasPlatter;
-    _Bool _allowsSash;
-    _Bool _stashed;
-    _Bool _topKeylineHidden;
-    _Bool _navigating;
-    _Bool _wantsConfirmationInsets;
-    _Bool _isTransparent;
-    _Bool _loading;
-    _Bool _confirmed;
-    _Bool _cancelled;
-    _Bool _virgin;
-    _Bool _willAnimateConfirmation;
-    _Bool _willAnimateCancellation;
-    _Bool _showHeaderChevron;
-    _Bool _provisional;
-    NSViewController *_supplementaryHeaderViewController;
-    NSString *_summaryTitle;
-    NSString *_summaryImagePath;
-    unsigned long long _minimumVisibleRowCount;
-    NSAttributedString *_attributedTitle;
-    NSAttributedString *_attributedSubtitle;
-    NSString *_navigationTitle;
-    NSArray *_requestContext;
-    SAUIAppPunchOut *_headerPunchOut;
-    SAUIAppPunchOut *_snippetPunchOut;
-    SAUIConfirmationOptions *_previousConfirmationOptions;
-    struct NSEdgeInsets _defaultViewInsets;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (Class);
+- (Class);
 - (Class);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)(;
 - (_Bool);
 - (void);
 - (void);
@@ -69,11 +38,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?׀;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (void);
 - (id);
@@ -95,9 +64,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
@@ -131,9 +100,9 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)_tapRecognized:(id)arg1;
+- (void)_shouldHighlightCompleteMatches;
+- (void);
 - (id);
 - (id);
 - (void);
@@ -143,11 +112,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)tale:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)data with length %u;
 - (void);
-- (void)onItemRevisionIdentifiers;
+- (void)_presentedConversationItemRevisionIdentifiers;
 - (_Bool)nts of plist file for languageID %@;
 - (void)el CSInterstitialLevel%ld;
 - (void)expecting a string update;
@@ -155,45 +124,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsSash; // @synthesize allowsSash=_allowsSash;
-@property(copy, nonatomic) NSAttributedString *attributedSubtitle; // @synthesize attributedSubtitle=_attributedSubtitle;
-@property(copy, nonatomic) NSAttributedString *attributedTitle; // @synthesize attributedTitle=_attributedTitle;
-@property(readonly, nonatomic) _Bool canBeShortenedWhenStashed;
-@property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(nonatomic, getter=isConfirmed) _Bool confirmed; // @synthesize confirmed=_confirmed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) struct NSEdgeInsets defaultViewInsets; // @synthesize defaultViewInsets=_defaultViewInsets;
-@property(nonatomic) __weak id <SiriUISnippetViewControllerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasPlatter; // @synthesize hasPlatter=_hasPlatter;
-@property(readonly, nonatomic) _Bool hasSash;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUIAppPunchOut *headerPunchOut; // @synthesize headerPunchOut=_headerPunchOut;
-@property(readonly, nonatomic) _Bool isFullWindowWidth;
-@property(nonatomic) _Bool isTransparent; // @synthesize isTransparent=_isTransparent;
-@property(nonatomic, getter=isLoading) _Bool loading; // @synthesize loading=_loading;
-@property(nonatomic) unsigned long long minimumVisibleRowCount; // @synthesize minimumVisibleRowCount=_minimumVisibleRowCount;
-@property(nonatomic, getter=isNavigating) _Bool navigating; // @synthesize navigating=_navigating;
-@property(copy, nonatomic) NSString *navigationTitle; // @synthesize navigationTitle=_navigationTitle;
-@property(retain, nonatomic, getter=_previousConfirmationOptions, setter=_setPreviousConfirmationOptions:) SAUIConfirmationOptions *previousConfirmationOptions; // @synthesize previousConfirmationOptions=_previousConfirmationOptions;
-@property(nonatomic, getter=_isProvisional, setter=_setProvisional:) _Bool provisional; // @synthesize provisional=_provisional;
-@property(copy, nonatomic) NSArray *requestContext; // @synthesize requestContext=_requestContext;
-@property(nonatomic) _Bool showAll; // @synthesize showAll=_showAll;
-@property(nonatomic) _Bool showHeaderChevron; // @synthesize showHeaderChevron=_showHeaderChevron;
-@property(retain, nonatomic) SAUIAppPunchOut *snippetPunchOut; // @synthesize snippetPunchOut=_snippetPunchOut;
-@property(nonatomic, getter=isStashed) _Bool stashed; // @synthesize stashed=_stashed;
-@property(copy, nonatomic) NSString *subtitle;
-@property(copy, nonatomic) NSString *summaryImagePath; // @synthesize summaryImagePath=_summaryImagePath;
-@property(copy, nonatomic) NSString *summaryTitle; // @synthesize summaryTitle=_summaryTitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSViewController *supplementaryHeaderViewController; // @synthesize supplementaryHeaderViewController=_supplementaryHeaderViewController;
-@property(nonatomic) _Bool topKeylineHidden; // @synthesize topKeylineHidden=_topKeylineHidden;
-@property(readonly, nonatomic, getter=isVirgin) _Bool virgin; // @synthesize virgin=_virgin;
-@property(nonatomic) _Bool wantsConfirmationInsets; // @synthesize wantsConfirmationInsets=_wantsConfirmationInsets;
-@property(nonatomic, getter=_willAnimateCancellation, setter=_setWillAnimateCancellation:) _Bool willAnimateCancellation; // @synthesize willAnimateCancellation=_willAnimateCancellation;
 @property(nonatomic, getter=_willAnimateConfirmation, setter=_setWillAnimateConfirmation:) _Bool willAnimateConfirmation; // @synthesize willAnimateConfirmation=_willAnimateConfirmation;
 
 @end

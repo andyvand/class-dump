@@ -7,19 +7,12 @@
 @interface Navigation.CommuteRouteRequestParameters
 {
     id purpose;
-    id waypoints;
-    id isEnroute;
-    id predictedEntryDate;
-    id predictedExitDate;
-    id requireFamiliarRoute;
-    id cacheOptions;
-    id internalInfo;
 }
 
-+ (_Bool);
++ (_Bool)3;
 - (id);
 - (id);
-- (void);
+- (void)_fetchAllCustodianContacts;
 - (void)1Ð1Â0@ù
 × ;
 

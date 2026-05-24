@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEODataSetDescription
 {
     PBUnknownFields *_unknownFields;
-    NSString *_dataSetDescription;
-    unsigned int _identifier;
-    CDStruct_7c00b98a _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasPreferenceType:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)setEndPointNotified:(id)arg1;
 - (void);
 - (id);
 - (unsigned long long);
@@ -30,8 +27,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)ate:(struct _NSZone *)arg1;
-- (id);
+- (id)setHasCanNavigate:(struct _NSZone *)arg1;
+- (id)_GEOBatchSpatialLookupTicket;
 - (unsigned int)iles loaded from network:%llu
 	Bytes loaded from network:%{bytes}llu
 	Tiles already in cache:%llu
@@ -44,18 +41,14 @@
 %{public}@
 
 %{public}@ /* Error: Ran out of types for this method. */;
-- (id)G_WEATHER_TYPE_CONDITION_HEAVY_RAIN;
-- (_Bool)Key;
+- (id)MSG_WEATHER_TYPE_CONDITION_HEAVY_RAIN;
+- (_Bool)GEORouteHypothesisConservativeDepartureDateKey;
 - (id)P¬);
 - (void);
 - (void)x³ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dataSetDescription;
-@property(readonly, nonatomic) _Bool hasDataSetDescription;
 @property(nonatomic) _Bool hasIdentifier;
-@property(nonatomic) unsigned int identifier;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

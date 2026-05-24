@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSString;
+@class NSCountedSet;
 
 @interface PPMostCommonFeatureValue
 {
     NSCountedSet *_itemCounts;
-    NSString *_featureName;
-    NSString *_dominantItemFeatureValueKey;
-    NSString *_dominantItemCountFeatureValueKey;
 }
 
 - (id);

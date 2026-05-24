@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface CATSharingSentMessage
@@ -13,23 +13,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)?;
 - (long long);
-- (id);
+- (id)(_cid:%lu)
+ /* Error: Ran out of types for this method. */;
 - (void);
 - (id)clientDidDisconnect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *content; // @synthesize content=_content;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long messageType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,51 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPreferenceEntity, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOEVChargingPreference
 {
     PBUnknownFields *_unknownFields;
-    GEOPreferenceEntity *_preferenceEntity;
-    int _preferenceType;
-    struct {
-        unsigned int has_preferenceType:1;
-    } _flags;
 }
 
-+ (_Bool)TimestampMs:(id)arg1;
++ (_Bool)setHasRelativeTimestampMs:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (id);
 - (int);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)observableAtIndex:didReceiveResult:forObserver: /* Error: Ran out of types for this method. */;
+- (_Bool)observableAtIndex:didReceiveResult:forObserver: /* Error: Ran out of types for this method. */;
 - (int);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)updateEnrollmentHealthForVoiceProfile:(id)arg1 asset:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)tHasResumed:(struct _NSZone *)arg1;
-- (id)electField;
+- (void)0;
+- (id)setHasResumed:(struct _NSZone *)arg1;
+- (id)GEORPFeedbackMultiSelectField;
 - (id);
 - (id)|;
 - (void)ì4;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPreferenceEntity;
-@property(nonatomic) _Bool hasPreferenceType;
-@property(retain, nonatomic) GEOPreferenceEntity *preferenceEntity;
-@property(nonatomic) int preferenceType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

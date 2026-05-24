@@ -7,8 +7,6 @@
 @interface NewsSubscription.BundlePaywallComponentSizeProvider
 {
     id viewModel;
-    id styler;
-    id defaultBadgeImageSize;
 }
 
 @end

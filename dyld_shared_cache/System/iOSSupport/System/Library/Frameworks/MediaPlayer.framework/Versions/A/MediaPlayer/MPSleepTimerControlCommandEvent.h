@@ -11,19 +11,15 @@
 @interface MPSleepTimerControlCommandEvent : MPRemoteCommandEvent
 {
     NSNumber *_time;
-    NSNumber *_fireDate;
-    long long _stopMode;
 }
 
-- (long long);
+- (long long)V;
 - (id);
 - (id);
 - (id);
-- (void)Y;
+- (void)__curatorSubKind_KEY;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *fireDate; // @synthesize fireDate=_fireDate;
-@property(readonly, nonatomic) long long stopMode; // @synthesize stopMode=_stopMode;
 @property(readonly, nonatomic) NSNumber *time; // @synthesize time=_time;
 
 @end

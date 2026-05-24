@@ -4,23 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIFilter, NSColor, NSString;
-
 @interface IKImageView
 {
     void *_privateData;
 }
 
 + (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *)";
 + (void)¨Y;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,16 +37,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,13 +52,13 @@
 - (struct CGImage *);
 - (void);
 - (id);
+- (void)l;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -71,7 +69,7 @@
 - (void);
 - (struct CGImage *);
 - (struct CGRect);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGRect);
 - (struct CGPoint);
 - (void);
@@ -87,7 +85,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (struct CGImage *);
 - (void);
@@ -106,27 +104,27 @@
 - (void);
 - (Class);
 - (void);
+- (void)r"16@?<v@?@"NSError">24;
+- (void)TCommunicationConfiguration"@"NSError">16;
+- (void)sageLimitScheduleSimpleItem";
+- (void)versionIdentifier;
+- (void)usageLimitEnabled;
+- (void)orPredicateWithSubpredicates:(_Bool)arg1;
+- (void)mutableCopyWithZone:(int)arg1;
+- (void)managedObjectOriginal_setWebsiteIdentifiers:(_Bool)arg1;
+- (void)fetchLastTransportPayloadInContext:(struct CGPoint)arg1 ofType:error: /* Error: Ran out of types for this method. */;
+- (void)defaultUserSettingsProviderConnection;
+- (void)code;
+- (void)aa_primaryAppleAccountWithCompletion:(id)arg1;
+- (_Bool)keyPathsForValuesAffectingIsCommunicationSafetyAnalyticsEnabled;
+- (_Bool)SNumber",R,C,V_dsid;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)fetch contacts container to set managed state:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)distributorID;
+- (_Bool)contentPrivacySiriImageGenerationRestriction;
+- (void)l;
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -135,16 +133,16 @@
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)resourceInfoKeysForResourceTypesForPhotos;
 - (void);
-- (void);
+- (void)PHQueryForAssetsInSearchIndex_block_invoke_23;
 - (void);
 - (void);
 - (_Bool);
@@ -156,7 +154,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)Z;
 - (void);
 - (void);
 - (void);
@@ -165,7 +163,7 @@
 - (id);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)T@"OBBundle",&,N,V_bundle;
 - (id);
 - (void);
 - (id);
@@ -175,8 +173,8 @@
 - (_Bool)1î°1Â0@ù
 × ;
 - (id);
-- (id)nLayer: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)canArea;
+- (id)addSelectionLayer: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)_scanArea;
 - (void)scanComplete;
 - (void)ce";
 - (void);
@@ -190,19 +188,7 @@
 - (void)ÿ;
 
 // Remaining properties
-@property _Bool autohidesScrollers;
-@property _Bool autoresizes;
-@property NSColor *backgroundColor;
-@property(copy) NSString *currentToolMode;
 @property id delegate;
-@property _Bool doubleClickOpensImageEditPanel;
-@property _Bool editable;
-@property _Bool hasHorizontalScroller;
-@property _Bool hasVerticalScroller;
-@property CIFilter *imageCorrection;
-@property double rotationAngle;
-@property _Bool supportsDragAndDrop;
-@property double zoomFactor;
 
 @end
 

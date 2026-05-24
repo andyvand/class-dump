@@ -13,10 +13,10 @@
     NSString *_sender;
 }
 
-- (void);
-- (id);
+- (void)`;
+- (id)_cacheFrameLoadDelegateImplementations;
 - (id)à¸;
-- (void)te;
+- (void)state;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *sender; // @synthesize sender=_sender;

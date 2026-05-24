@@ -6,21 +6,13 @@
 
 #import <Vision/VNImageBasedRequestConfiguration.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VNDetectTextRectanglesRequestConfiguration : VNImageBasedRequestConfiguration
 {
     _Bool _reportCharacterBoxes;
-    _Bool _detectDiacritics;
-    _Bool _minimizeFalseDetections;
-    unsigned long long _algorithm;
-    unsigned long long _minimumCharacterPixelHeight;
-    NSString *_textRecognition;
-    NSString *_additionalCharacters;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -39,13 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *additionalCharacters; // @synthesize additionalCharacters=_additionalCharacters;
-@property(nonatomic) unsigned long long algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) _Bool detectDiacritics; // @synthesize detectDiacritics=_detectDiacritics;
-@property(nonatomic) _Bool minimizeFalseDetections; // @synthesize minimizeFalseDetections=_minimizeFalseDetections;
-@property(nonatomic) unsigned long long minimumCharacterPixelHeight; // @synthesize minimumCharacterPixelHeight=_minimumCharacterPixelHeight;
 @property(nonatomic) _Bool reportCharacterBoxes; // @synthesize reportCharacterBoxes=_reportCharacterBoxes;
-@property(copy, nonatomic) NSString *textRecognition; // @synthesize textRecognition=_textRecognition;
 
 @end
 

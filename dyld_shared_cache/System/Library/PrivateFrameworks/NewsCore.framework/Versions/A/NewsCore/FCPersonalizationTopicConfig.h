@@ -9,14 +9,6 @@
 @interface FCPersonalizationTopicConfig
 {
     _Bool _capAtBaseline;
-    _Bool _shouldLimitInGroup;
-    _Bool _useHalfLifeCoefficientOverride;
-    NSString *_topicID;
-    double _scoreMultiplier;
-    double _tagWeight;
-    long long _limitInGroup;
-    double _publisherTopicWeight;
-    double _halfLifeCoefficientOverride;
 }
 
 + (_Bool);
@@ -36,27 +28,19 @@
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)X;
+- (void)tWithPlistKeySerialization:(double)arg1 ];
 - (long long);
-- (id);
+- (id)ongExposureVitality;
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void)nfiguration;
+- (void)ing",&,VstorageVolume;
+- (void)bundleInputConfiguration;
 - (id)ýLÿÿ2ÀÿP;
 
 // Remaining properties
-@property(nonatomic) _Bool capAtBaseline; // @synthesize capAtBaseline=_capAtBaseline;
-@property(nonatomic) double halfLifeCoefficientOverride; // @synthesize halfLifeCoefficientOverride=_halfLifeCoefficientOverride;
-@property(nonatomic) long long limitInGroup; // @synthesize limitInGroup=_limitInGroup;
-@property(nonatomic) double publisherTopicWeight; // @synthesize publisherTopicWeight=_publisherTopicWeight;
-@property(nonatomic) double scoreMultiplier; // @synthesize scoreMultiplier=_scoreMultiplier;
-@property(nonatomic) _Bool shouldLimitInGroup; // @synthesize shouldLimitInGroup=_shouldLimitInGroup;
-@property(nonatomic) double tagWeight; // @synthesize tagWeight=_tagWeight;
 @property(copy, nonatomic) NSString *topicID; // @synthesize topicID=_topicID;
-@property(nonatomic) _Bool useHalfLifeCoefficientOverride; // @synthesize useHalfLifeCoefficientOverride=_useHalfLifeCoefficientOverride;
 
 @end
 

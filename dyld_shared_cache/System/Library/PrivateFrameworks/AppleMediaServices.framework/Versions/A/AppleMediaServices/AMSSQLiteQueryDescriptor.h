@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSQLitePredicate, NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSSQLiteQueryDescriptor
 {
     Class _entityClass;
-    long long _limitCount;
-    Class _memoryEntityClass;
-    NSString *_orderingClause;
-    NSArray *_orderingDirections;
-    NSArray *_orderingProperties;
-    AMSSQLitePredicate *_predicate;
-    _Bool _returnsDistinctEntities;
 }
 
 - (void);
@@ -28,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (Class);
 - (id);
-- (_Bool);
+- (_Bool)o;
 - (id);
 - (void);
 - (void);
 - (id);
-- (long long)ntageUsers: /* Error: Ran out of types for this method. */;
+- (long long)setXpSamplingPercentageUsers: /* Error: Ran out of types for this method. */;
 - (Class)9*Ý§HR!J\a+m}jÇYCx-e:O÷n0Nß$gÕqå¤Ì,<Y;B¿i©»³5¢'8F¬R`$o=	Y÷iãøK\aÎDÑ~½_,NMÖ3­8÷uJ§,Ö¥;9a{wÛïº`UV?ìéÔÄU²b0yåÎ,Jè¿³-Z­Î_Hwfkð7"t£ÌirÕd /* Error: Ran out of types for this method. */;
 - (void)ÂÏ¤»
 áU AÒP:ÖÇ /* Error: Ran out of types for this method. */;
@@ -47,13 +38,6 @@ a6Ú±`ñîÇ)E¡®i4|ê%eMU*m&ç^¹]e/{õGHéB"D=÷³ulf%µþ
 
 // Remaining properties
 @property(nonatomic) Class entityClass; // @synthesize entityClass=_entityClass;
-@property(nonatomic) long long limitCount; // @synthesize limitCount=_limitCount;
-@property(nonatomic) Class memoryEntityClass; // @synthesize memoryEntityClass=_memoryEntityClass;
-@property(copy, nonatomic) NSString *orderingClause; // @synthesize orderingClause=_orderingClause;
-@property(copy, nonatomic) NSArray *orderingDirections; // @synthesize orderingDirections=_orderingDirections;
-@property(copy, nonatomic) NSArray *orderingProperties; // @synthesize orderingProperties=_orderingProperties;
-@property(copy, nonatomic) AMSSQLitePredicate *predicate; // @synthesize predicate=_predicate;
-@property(nonatomic) _Bool returnsDistinctEntities; // @synthesize returnsDistinctEntities=_returnsDistinctEntities;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <PassKitCore/PKSharingGenericMessage.h>
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface PKExistingCardAuthorizationResponseMessage : PKSharingGenericMessage
 {
@@ -17,14 +17,13 @@
 × ;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)R|ʗ;
 - (id);
-- (_Bool);
-- (void)BenefitInstallmentsEnablementAlertKey;
-- (id)lt;
+- (_Bool)jitterBufferResidencyTimeHistograms;
+- (void)PKDidShowPaymentOfferCardBenefitInstallmentsEnablementAlertKey;
+- (id)LostModeResult;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *groups;
 @property(readonly, nonatomic) NSDictionary *groupsBySessionIdentifier; // @synthesize groupsBySessionIdentifier=_groupsBySessionIdentifier;
 
 @end

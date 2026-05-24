@@ -7,14 +7,6 @@
 @interface MediaPlaybackCore.PodcastAssetFactory
 {
     id $defaultActor;
-    id url;
-    id playerID;
-    id mediaItem;
-    id onServiceIdentifierChanged;
-    id streamCache;
-    id streamCacheObserverToken;
-    id streamCacheFileURL;
-    id assetLocation;
 }
 
 @end

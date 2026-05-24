@@ -7,7 +7,6 @@
 @interface XPC.XPCListener.IncomingSessionRequest
 {
     id _session;
-    id _decision;
 }
 
 @end

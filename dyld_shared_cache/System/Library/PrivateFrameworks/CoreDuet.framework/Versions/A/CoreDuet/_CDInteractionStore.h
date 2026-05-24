@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _CDInteraction, _CDInteractionStoreNotifier, _DKCoreDataStorage, _DKKnowledgeStore;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class _CDInteraction, _DKCoreDataStorage;
 
 @interface _CDInteractionStore
 {
     _DKCoreDataStorage *_storage;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    _CDInteractionStoreNotifier *_notifier;
-    NSObject<OS_dispatch_queue> *_pendingShareInteractionQueue;
-    _Bool _inMaintenanceMode;
-    _DKKnowledgeStore *_knowledgeStore;
-    NSObject<OS_dispatch_group> *_waitingForDB;
-    _Bool _readConcurrently;
-    _CDInteraction *_pendingShareSheetInteraction;
 }
 
 + (id);
@@ -33,19 +24,19 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)Z;
+- (_Bool)(;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)k;
 - (long long);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -54,81 +45,79 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
-- (_Bool);
+- (id)IBBi^{__LSASN}CiBI}24@0:(id)arg1 8^{CGXConnection=^{CGXConnection}^{CGXConnection}I{WSConnectionDatagramInfo=Idd^{WSDatagramWriteStream}^{WSNotifyInterestSet}^{WSNotifyInterestSet}iBBBB}I^{CGXSession}i{CGXConnectionNotificationContext=II^{CGXConnectionNotice}}{CGXConnectionNotificationContext=II^{CGXConnectionNotice}}b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1^vI^{__CFDictionary}^{CGSRegionObject}IIIdd^QQQII^{CGSRegionObject}^{CGXCursor}^{__CFDictionary}^vIIIiI{CPSProcessSerNum=II}IIIb1b1b1b1b1b1b1b1b1b1b1b1b1^{CGXEventTap}^{CGXCaptureState}I^v^?dddddI^{CGXDirtyScreenState}IB^{PKGSpace}{WSSymbolicHotKeyBitMask=[9I]}iQ^{x_list_struct}b1b1b1IdId^{SLSStructuralRegionIDRange}{?=III{?=[2I]}{?=[8I]}}^{x_list_struct}^{CGSRegionObject}b1b1IBBQ{?=[8I]}^{CGSRegionObject}B^{CGSRegionObject}b1b1b1Qb1b1ii^{CGXConnectionCAContextTrackingState}^{__CGXConnectionBox}Bd^{__CFString}b1b1b1b1b1b1b1b1b1b1b1b1b1^vQ^{x_list_struct}Ib1ib1}16;
+- (_Bool)ulated capabilities for display %x with RefSDR %g nits DefSDR %g;
 - (void);
-- (id);
-- (void);
+- (id)DisplayVerticalImageSize;
+- (void)CDVirtualDisplayModeWidth;
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)8Z;
 - (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
+- (_Bool)A;
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
+- (void);
+- (unsigned long long);
 - (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (unsigned long long);
 - (void);
 - (void);
-- (unsigned long long);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
+- (unsigned long long)not found;
+- (id)stObjectRevokedNext failed;
+- (unsigned long long)R2IjPvpwp+MX/kUbJ2w;
+- (void)@	;
+- (_Bool)@;
+- (_Bool)AddressToConnectionKey"{map<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>, std::less<std::string>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__tree_"{__tree<std::__value_type<std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::__map_value_compare<std::string, std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::set<std::shared_ptr<__CoalescingConnectionKey>, CoalescingConnectionKeyComparator>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (unsigned long long)2A.;
+- (void);
+- (_Bool);
 - (id);
+- (_Bool);
+- (unsigned long long);
+- (void);
+- (void);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id)serialized_session_length;
+- (id);
+- (id)c;
 - (id);
 - (void)0@ù
 × ;
-- (id)allDurNoonSun:(id)arg1;
+- (id)setHasCallDurNoonSun:(id)arg1;
 - (id)ifier BEGINSWITH %@);
 
 // Remaining properties
 @property(retain, nonatomic) _CDInteraction *pendingShareSheetInteraction; // @synthesize pendingShareSheetInteraction=_pendingShareSheetInteraction;
-@property(nonatomic) _Bool readConcurrently; // @synthesize readConcurrently=_readConcurrently;
-@property(readonly, nonatomic) _DKCoreDataStorage *storage; // @synthesize storage=_storage;
 
 @end
 

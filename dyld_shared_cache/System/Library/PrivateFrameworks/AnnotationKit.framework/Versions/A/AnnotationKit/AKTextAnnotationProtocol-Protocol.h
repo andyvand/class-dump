@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSDictionary, NSString, NSTextStorage;
+@class NSColor, NSDictionary, NSTextStorage;
 
 @protocol AKTextAnnotationProtocol
+- (void);
+- (void)ion is missing a context;
+- (void)ublic}@fetchPredictionsWithCompletion is missing a context;
+- (void)ating configured name from %@ to %@ via merge;
+- (void)e;
+- (NSTextStorage *)st 2 keys, but only has %lu component.;
 - (_Bool)°1Â0@ù
 × ;
 - (void)d}{CGSize=dd}}24d56;
 - (void),VoverlayShouldPixelate;
 - (NSColor *)_controller;
-- (NSDictionary *)lygonAnnotationEventHandler;
+- (NSDictionary *)AKPolygonAnnotationEventHandler;
 
 // Remaining properties
 @property(retain) NSTextStorage *annotationText;
-@property(copy) NSColor *foregroundColor;
-@property(retain) NSColor *foregroundColorHDR;
-@property(retain) NSColor *foregroundColorSDR;
-@property unsigned long long formContentType;
-@property(getter=isHighlighted) _Bool highlighted;
-@property _Bool isDetectedSignature;
-@property _Bool isEditingText;
-@property unsigned long long maximumNumberOfCharacters;
-@property _Bool shouldUsePlaceholderText;
-@property NSString *textContentType;
-@property _Bool textIsClipped;
-@property _Bool textIsFixedHeight;
-@property _Bool textIsFixedWidth;
-@property(copy) NSDictionary *typingAttributes;
 @end
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAsyncOnceOperation, FCFlintResourceManager, NSString, SXJSONDictionary;
+@class SXJSONDictionary;
 @protocol FCNewsAppConfigurationManager;
 
 @interface NUANFEmbedConfigurationLoader
 {
     SXJSONDictionary *_embedConfiguration;
-    id <FCNewsAppConfigurationManager> _appConfigurationManager;
-    FCFlintResourceManager *_flintResourceManager;
-    FCAsyncOnceOperation *_asyncOnceOperation;
 }
 
 - (void);
@@ -22,23 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)bundle;
 - (id);
 - (void);
-- (id)ViewController;
+- (id)pageViewController;
 
 // Remaining properties
 @property(retain, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager; // @synthesize appConfigurationManager=_appConfigurationManager;
-@property(retain, nonatomic) FCAsyncOnceOperation *asyncOnceOperation; // @synthesize asyncOnceOperation=_asyncOnceOperation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) SXJSONDictionary *embedConfiguration; // @synthesize embedConfiguration=_embedConfiguration;
-@property(retain, nonatomic) FCFlintResourceManager *flintResourceManager; // @synthesize flintResourceManager=_flintResourceManager;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

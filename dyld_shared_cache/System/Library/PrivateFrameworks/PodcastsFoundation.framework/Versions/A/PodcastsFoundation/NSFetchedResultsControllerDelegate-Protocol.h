@@ -5,5 +5,9 @@
 //
 
 @protocol NSFetchedResultsControllerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

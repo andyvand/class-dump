@@ -6,24 +6,13 @@
 
 #import <AVKit/AVGlassBackedView.h>
 
-@class AVMobileContentTab, AVMobileGlassBackgroundBlurGradientView, AVMobileGlassContentTabSelectionView, AVMobileGlassContentTabsContentView, NSArray, NSObject, NSString;
-@protocol AVMobileControlsStyleFontsSheet, AVMobileGlassContentTabsViewDelegate, UIInteraction, UIScrollViewDelegate;
+@class AVMobileGlassBackgroundBlurGradientView;
+@protocol AVMobileControlsStyleFontsSheet;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileGlassContentTabsView : AVGlassBackedView
 {
     id <AVMobileControlsStyleFontsSheet> _styleSheet;
-    AVMobileGlassContentTabSelectionView *_contentTabSelectionView;
-    AVMobileGlassContentTabsContentView *_contentView;
-    NSObject<UIInteraction> *_scrollPocket;
-    _Bool _backgroundBlurActive;
-    _Bool _compact;
-    NSArray *_contentTabs;
-    id <UIScrollViewDelegate> _contentViewDelegate;
-    id <AVMobileGlassContentTabsViewDelegate> _delegate;
-    double _contentViewAlpha;
-    AVMobileGlassBackgroundBlurGradientView *_backgroundBlurEffectView;
-    struct AVMobileGlassContentTabsTransitionState _transitionState;
 }
 
 - (void);
@@ -36,19 +25,19 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)M.;
 - (_Bool);
 - (void);
 - (void);
 - (struct AVMobileGlassContentTabsTransitionState);
 - (_Bool);
-- (void);
+- (void),-;
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
-- (id);
+- (id)l;
 - (void);
 - (void);
 - (id);
@@ -56,25 +45,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)× ;
 - (void)ingOrSeeking,V_scrubbingOrSeeking;
-- (void)idgetPlayerBehavior;
+- (void)AVNewsWidgetPlayerBehavior;
 
 // Remaining properties
-@property(nonatomic) _Bool backgroundBlurActive; // @synthesize backgroundBlurActive=_backgroundBlurActive;
 @property(retain, nonatomic) AVMobileGlassBackgroundBlurGradientView *backgroundBlurEffectView; // @synthesize backgroundBlurEffectView=_backgroundBlurEffectView;
-@property(nonatomic, getter=isCompact) _Bool compact; // @synthesize compact=_compact;
-@property(retain, nonatomic) NSArray *contentTabs; // @synthesize contentTabs=_contentTabs;
-@property(nonatomic) double contentViewAlpha; // @synthesize contentViewAlpha=_contentViewAlpha;
-@property(nonatomic) __weak id <UIScrollViewDelegate> contentViewDelegate; // @synthesize contentViewDelegate=_contentViewDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVMobileGlassContentTabsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AVMobileContentTab *selectedContentTab;
-@property(readonly) Class superclass;
-@property(nonatomic) struct AVMobileGlassContentTabsTransitionState transitionState; // @synthesize transitionState=_transitionState;
 
 @end
 

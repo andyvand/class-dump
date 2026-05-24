@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface TUNearbySuggestionAdvertisement
 {
     NSUUID *_suggestionIdentifier;
-    NSString *_deviceIdentifier;
-    long long _type;
 }
 
-+ (_Bool);
++ (_Bool)u;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)c;
+- (id);
 - (id);
 - (unsigned long long);
 - (long long);
 - (_Bool);
-- (void);
+- (void)e;
 - (id);
 - (id)Ô ;
-- (void)sFaceTimeVideoRelayCalling;
+- (void)supportsFaceTimeVideoRelayCalling;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
 @property(readonly, nonatomic) NSUUID *suggestionIdentifier; // @synthesize suggestionIdentifier=_suggestionIdentifier;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

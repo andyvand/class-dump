@@ -7,6 +7,8 @@
 @class ACAccount;
 
 @protocol AAAppleIDRepairControllerProtocol_Internal
+- (void)ePListFromXMLFile:(void (^)(unsigned long long))arg1 malloc(%ld) failed.;
+- (unsigned long long)GetCFBoolean type mismatch;
 
 // Remaining properties
 @property(retain) ACAccount *primaryAccount;

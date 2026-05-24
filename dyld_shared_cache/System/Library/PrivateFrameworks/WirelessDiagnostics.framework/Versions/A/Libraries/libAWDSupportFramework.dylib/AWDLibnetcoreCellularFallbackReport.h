@@ -4,26 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDLibnetcoreCellularFallbackReport
 {
     CDStruct_95bda58d _networkEvents;
-    CDStruct_62a50c50 _timeToNetworkEventsMsecs;
-    unsigned long long _fallbackTimerMsecs;
-    NSMutableArray *_dataUsageSnapshotsAtNetworkEvents;
-    int _denyReason;
-    NSMutableArray *_primaryInterfaceAttemptStatisticsReports;
-    _Bool _fellback;
-    struct {
-        unsigned int fallbackTimerMsecs:1;
-        unsigned int denyReason:1;
-        unsigned int fellback:1;
-    } _has;
 }
 
 + (Class);
-+ (Class);
++ (Class)
+;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long *);
@@ -45,19 +33,19 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (unsigned long long);
+- (id);
+- (int)k);
 - (unsigned long long);
 - (id);
-- (int);
-- (unsigned long long);
-- (id);
 - (id);
 - (void);
+- (void));
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)TK	;
 - (void);
 - (void);
 - (int);
@@ -71,23 +59,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)A;
 - (int *);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *dataUsageSnapshotsAtNetworkEvents; // @synthesize dataUsageSnapshotsAtNetworkEvents=_dataUsageSnapshotsAtNetworkEvents;
-@property(nonatomic) int denyReason; // @synthesize denyReason=_denyReason;
-@property(nonatomic) unsigned long long fallbackTimerMsecs; // @synthesize fallbackTimerMsecs=_fallbackTimerMsecs;
-@property(nonatomic) _Bool fellback; // @synthesize fellback=_fellback;
-@property(nonatomic) _Bool hasDenyReason;
-@property(nonatomic) _Bool hasFallbackTimerMsecs;
 @property(nonatomic) _Bool hasFellback;
-@property(readonly, nonatomic) int *networkEvents;
-@property(readonly, nonatomic) unsigned long long networkEventsCount;
-@property(retain, nonatomic) NSMutableArray *primaryInterfaceAttemptStatisticsReports; // @synthesize primaryInterfaceAttemptStatisticsReports=_primaryInterfaceAttemptStatisticsReports;
-@property(readonly, nonatomic) unsigned long long *timeToNetworkEventsMsecs;
-@property(readonly, nonatomic) unsigned long long timeToNetworkEventsMsecsCount;
 
 @end
 

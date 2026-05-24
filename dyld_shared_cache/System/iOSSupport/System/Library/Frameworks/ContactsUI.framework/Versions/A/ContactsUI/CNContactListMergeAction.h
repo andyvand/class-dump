@@ -6,21 +6,20 @@
 
 #import <ContactsUI/CNContactListUndoableAction.h>
 
-@class CNUIGroupsAndContainersSaveManager, ContactsUI.ContactListMergeUnifyActionHelper;
+@class ContactsUI.ContactListMergeUnifyActionHelper;
 
 __attribute__((visibility("hidden")))
 @interface CNContactListMergeAction : CNContactListUndoableAction
 {
     ContactsUI.ContactListMergeUnifyActionHelper *_mergeUnifyActionHelper;
-    CNUIGroupsAndContainersSaveManager *_groupsAndContainersSaveManager;
 }
 
 + (id)
 × ;
-+ (id)rIdentifier: /* Error: Ran out of types for this method. */;
-- (void);
++ (id)setUserIdentifier: /* Error: Ran out of types for this method. */;
+- (void)T;
 - (_Bool);
-- (void);
+- (void)9?;
 - (void);
 - (_Bool);
 - (id);
@@ -31,7 +30,6 @@ __attribute__((visibility("hidden")))
 - (void)}ïÿ"ì¯;
 
 // Remaining properties
-@property(retain, nonatomic) CNUIGroupsAndContainersSaveManager *groupsAndContainersSaveManager; // @synthesize groupsAndContainersSaveManager=_groupsAndContainersSaveManager;
 @property(retain, nonatomic) ContactsUI.ContactListMergeUnifyActionHelper *mergeUnifyActionHelper; // @synthesize mergeUnifyActionHelper=_mergeUnifyActionHelper;
 
 @end

@@ -6,42 +6,20 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSArray, NSDate, NSString, NSURL, PKPaymentPass, PKPaymentRemoteCredentialFIDOProfile;
+@class NSString;
 
 @interface PKPaymentRemoteCredential : PKPaymentCredential
 {
     NSString *_summaryMetadataDescription;
-    NSArray *_activationMethods;
-    _Bool _requiresMetadata;
-    NSString *_identifier;
-    NSString *_passTypeIdentifier;
-    NSString *_serialNumber;
-    long long _status;
-    NSURL *_passURL;
-    NSArray *_summaryMetadata;
-    NSString *_statusDescription;
-    NSString *_ownershipTokenIdentifier;
-    PKPaymentPass *_paymentPass;
-    unsigned long long _rank;
-    NSString *_productIdentifier;
-    PKPaymentRemoteCredentialFIDOProfile *_fidoProfile;
-    NSDate *_originalProvisioningDate;
-    NSString *_identityAccountKeyIdentifier;
-    NSString *_primaryAccountIdentifier;
-    NSString *_personalizedVehicleIdentifier;
-    unsigned long long _carKeyVehicleKeyTechnology;
-    NSArray *_transferableFromDevices;
-    long long _transferType;
-    NSString *_transferableFromDeviceIdentifier;
 }
 
 - (id);
-- (id);
+- (id)iL;
 - (long long);
 - (id);
-- (id);
+- (id)9;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -57,11 +35,11 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)q`7;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -73,20 +51,20 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (id);
-- (void);
+- (void));
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)setTimeFromLastPrewarm:(id)arg1;
+- (void)4;
+- (void);
 - (long long);
 - (id);
-- (long long)nNameElement;
-- (id)nCertificateForDestination:(id)arg1 forceUpdate:completion: /* Error: Ran out of types for this method. */;
-- (id)Session;
+- (long long)givenNameElement;
+- (id)encryptionCertificateForDestination:(id)arg1 forceUpdate:completion: /* Error: Ran out of types for this method. */;
+- (id)_retrieveVPANPaymentSession;
 - (void)pendedReason;
 - (void)ionary",R,N,V_fields;
 - (unsigned long long)up type;
@@ -94,28 +72,7 @@
 - (id)ÒOltR;
 
 // Remaining properties
-@property(nonatomic) unsigned long long carKeyVehicleKeyTechnology; // @synthesize carKeyVehicleKeyTechnology=_carKeyVehicleKeyTechnology;
-@property(retain, nonatomic) PKPaymentRemoteCredentialFIDOProfile *fidoProfile; // @synthesize fidoProfile=_fidoProfile;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *identityAccountKeyIdentifier; // @synthesize identityAccountKeyIdentifier=_identityAccountKeyIdentifier;
-@property(retain, nonatomic) NSDate *originalProvisioningDate; // @synthesize originalProvisioningDate=_originalProvisioningDate;
-@property(copy, nonatomic) NSString *ownershipTokenIdentifier; // @synthesize ownershipTokenIdentifier=_ownershipTokenIdentifier;
-@property(copy, nonatomic) NSString *passTypeIdentifier; // @synthesize passTypeIdentifier=_passTypeIdentifier;
-@property(copy, nonatomic) NSURL *passURL; // @synthesize passURL=_passURL;
-@property(retain, nonatomic) PKPaymentPass *paymentPass; // @synthesize paymentPass=_paymentPass;
-@property(retain, nonatomic) NSString *personalizedVehicleIdentifier; // @synthesize personalizedVehicleIdentifier=_personalizedVehicleIdentifier;
-@property(retain, nonatomic) NSString *primaryAccountIdentifier; // @synthesize primaryAccountIdentifier=_primaryAccountIdentifier;
-@property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(nonatomic) unsigned long long rank; // @synthesize rank=_rank;
-@property(nonatomic) _Bool requiresMetadata; // @synthesize requiresMetadata=_requiresMetadata;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(copy, nonatomic) NSString *statusDescription; // @synthesize statusDescription=_statusDescription;
-@property(copy, nonatomic) NSArray *summaryMetadata; // @synthesize summaryMetadata=_summaryMetadata;
-@property(copy, nonatomic) NSString *summaryMetadataDescription; // @synthesize summaryMetadataDescription=_summaryMetadataDescription;
-@property(nonatomic) long long transferType; // @synthesize transferType=_transferType;
-@property(copy, nonatomic) NSString *transferableFromDeviceIdentifier; // @synthesize transferableFromDeviceIdentifier=_transferableFromDeviceIdentifier;
-@property(retain, nonatomic) NSArray *transferableFromDevices; // @synthesize transferableFromDevices=_transferableFromDevices;
 
 @end
 

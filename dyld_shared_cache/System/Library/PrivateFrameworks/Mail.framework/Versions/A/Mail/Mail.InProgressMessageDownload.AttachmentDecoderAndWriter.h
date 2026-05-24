@@ -7,10 +7,6 @@
 @interface Mail.InProgressMessageDownload.AttachmentDecoderAndWriter
 {
     id decoder;
-    id fileWriter;
-    id didClose;
-    id totalByteCount;
-    id appendedByteCount;
 }
 
 @end

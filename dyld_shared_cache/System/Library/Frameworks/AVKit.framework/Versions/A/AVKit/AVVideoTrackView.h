@@ -6,21 +6,12 @@
 
 #import <AVKit/AVTrackView.h>
 
-@class AVAssetImageGenerator, AVPlayerController, AVPlayerControllerTimeResolver, AVPlayerLayer, AVTimer, AVVideoTrackThumbnailManager, NSMutableDictionary;
+@class AVPlayerController;
 
 __attribute__((visibility("hidden")))
 @interface AVVideoTrackView : AVTrackView
 {
     AVPlayerController *_playerController;
-    CDStruct_ef34d2b9 _zoomInfo;
-    AVAssetImageGenerator *_imageGenerator;
-    AVVideoTrackThumbnailManager *_thumbnailManager;
-    NSMutableDictionary *_thumbnailLayers;
-    struct CGSize _lastThumbnailGenerationSize;
-    AVPlayerLayer *_trimThumbnailPlayerLayer;
-    AVPlayerControllerTimeResolver *_timeResolver;
-    _Bool _didStartThumbnailGeneration;
-    AVTimer *_startThumbnailGenerationAndLayoutTimer;
 }
 
 - (void);
@@ -33,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGSize);
 - (struct CGSize);
-- (struct CGPoint);
+- (struct CGPoint)Tu;
 - (struct CGPoint);
 - (struct CGPoint);
 - (unsigned long long);
@@ -41,18 +32,17 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (_Bool);
 - (void);
+- (id)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_space is null or 0;
+- (void);
 - (void);
 
 // Remaining properties
 @property __weak AVPlayerController *playerController;
-@property(retain) AVPlayerLayer *trimThumbnailPlayerLayer;
 
 @end
 

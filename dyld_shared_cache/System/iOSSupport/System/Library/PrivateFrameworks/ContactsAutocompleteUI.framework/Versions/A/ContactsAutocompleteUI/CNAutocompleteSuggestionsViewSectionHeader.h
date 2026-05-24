@@ -11,7 +11,7 @@
     UILabel *_titleLabel;
 }
 
-+ (id);
++ (id)$;
 + (id);
 + (id);
 - (void);

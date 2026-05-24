@@ -9,11 +9,6 @@
 @interface SwiftUI.DocumentViewController
 {
     id documentHostingController;
-    id lastNavigationItemDescription;
-    id onDocumentClose;
-    id rootModifier;
-    id $__lazy_storage_$_presentationModeLocation;
-    id documentBrowserMediator;
 }
 
 - (void);
@@ -22,10 +17,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)performSelector:(id)arg1 withObject:withObject: /* Error: Ran out of types for this method. */;
+- (void)`*;
 - (void)(nÎ;
-- (id)osureTriangleWidgetDefinition;
+- (id)DisclosureTriangleWidgetDefinition;
 - (void)Øè#ÿDÔüè#ÿÕCÔé#ÿýCÔ0é#ÿDÔé#ÿDÔØé#ÿDÔ,ê#ÿDÔê#ÿ­CÔê#ÿíBÔ´ê#ÿÝBÔÄê#ÿåBÔÔê#ÿåBÔäê#ÿåBÔøê#ÿõBÔë#ÿõBÔë#ÿõBÔ,ë#ÿõBÔ@ë#ÿýBÔPë#ÿ½BÔtë#ÿåBÔë#ÿíBÔë#ÿíBÔ¨ë#ÿíBÔ¼ë#ÿíBÔÌë#ÿBÔì#ÿ=BÔ<ì#ÿ-BÔ¤ì#ÿEBÔÈì#ÿ5BÔèì#ÿ;
 
 // Remaining properties

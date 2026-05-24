@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, VNCIContextsHandler;
+@class CIContext;
 
 __attribute__((visibility("hidden")))
 @interface VNCIContext
 {
     CIContext *_ciContext;
-    VNCIContextsHandler *_handler;
 }
 
 - (void)rted in ExclaveKit;

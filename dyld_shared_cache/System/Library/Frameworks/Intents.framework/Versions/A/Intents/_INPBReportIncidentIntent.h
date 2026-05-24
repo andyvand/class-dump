@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata, _INPBLocation, _INPBString, _INPBSupportedTrafficIncidentType;
+@class _INPBString;
 
 @interface _INPBReportIncidentIntent
 {
@@ -12,12 +12,6 @@
         unsigned int isClear:1;
         unsigned int startTime:1;
     } _has;
-    _Bool _isClear;
-    _INPBString *_additionalDetails;
-    _INPBSupportedTrafficIncidentType *_incidentType;
-    _INPBIntentMetadata *_intentMetadata;
-    double _startTime;
-    _INPBLocation *_userLocation;
 }
 
 + (_Bool);
@@ -25,14 +19,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)signposts;
+- (id)6;
+- (_Bool)isMemberOfClass: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (double);
 - (id);
@@ -40,7 +34,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)documentSeries;
 - (_Bool);
 - (void);
 - (id);
@@ -49,28 +43,10 @@
 - (_Bool)SString",R,C,N,V_parameterName;
 - (void)ke;
 - (_Bool)ji;
-- (void)CollectionForSearchForAccounts:(_Bool)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideAccountTypeOptionsCollectionForSearchForAccounts:(_Bool)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *additionalDetails; // @synthesize additionalDetails=_additionalDetails;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAdditionalDetails;
-@property(readonly, nonatomic) _Bool hasIncidentType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasIsClear;
-@property(nonatomic) _Bool hasStartTime;
-@property(readonly, nonatomic) _Bool hasUserLocation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBSupportedTrafficIncidentType *incidentType; // @synthesize incidentType=_incidentType;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) _Bool isClear; // @synthesize isClear=_isClear;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBLocation *userLocation; // @synthesize userLocation=_userLocation;
 
 @end
 

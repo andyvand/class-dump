@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MLCompilerResult;
+
 @protocol MLSpecificationCompiler
++ (MLCompilerResult *)L,%{sensitive}.7lf,%{sensitive}.7lf;
 @end
 

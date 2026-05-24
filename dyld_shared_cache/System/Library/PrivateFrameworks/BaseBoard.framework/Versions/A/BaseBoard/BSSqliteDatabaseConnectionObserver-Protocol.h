@@ -5,5 +5,8 @@
 //
 
 @protocol BSSqliteDatabaseConnectionObserver
+
+@optional
+- (void);
 @end
 

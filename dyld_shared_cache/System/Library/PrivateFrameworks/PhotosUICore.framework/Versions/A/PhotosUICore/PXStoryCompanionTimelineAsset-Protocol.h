@@ -5,17 +5,12 @@
 //
 
 @class PHAsset;
-@protocol PXStoryCompanionColorEffect;
 
 @protocol PXStoryCompanionTimelineAsset
+- (PHAsset *);
+- (struct CGRect);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryCompanionColorEffect> colorNormalizationEffect;
-@property(readonly, nonatomic) CDStruct_1586d5e9 finalContentsRect;
 @property(readonly, nonatomic) struct CGRect frame;
-@property(readonly, nonatomic) CDStruct_1586d5e9 initialContentsRect;
-@property(readonly, nonatomic) PHAsset *photoLibraryAsset;
-@property(readonly, nonatomic) long long playbackStyle;
-@property(readonly, nonatomic) CDStruct_e83c9415 videoTimeRange;
 @end
 

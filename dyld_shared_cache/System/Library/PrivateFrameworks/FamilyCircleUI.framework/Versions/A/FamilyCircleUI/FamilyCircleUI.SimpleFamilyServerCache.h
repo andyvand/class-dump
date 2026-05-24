@@ -7,9 +7,6 @@
 @interface FamilyCircleUI.SimpleFamilyServerCache
 {
     id prefixKey;
-    id meDSID;
-    id cachedDSID;
-    id _userDefaults;
 }
 
 - (void);

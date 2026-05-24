@@ -6,22 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1, MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1, NSData, NSString;
+@class MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1;
 
 @interface MHSchemaMHSpeakerIdDataCollectionSampleSessionReportedTier1 : SISchemaInstrumentationMessage
 {
     MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 *_enrollmentData;
-    MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 *_clockSessionInfo;
-    NSString *_systemBuild;
-    _Bool _hasEnrollmentData;
-    _Bool _hasClockSessionInfo;
-    _Bool _hasSystemBuild;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -35,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)crypto/ec/ec_asn1.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -47,13 +42,7 @@
 - (void)*g!;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHSpeakerIdDataCollectionSelectedClockSessionInfoTier1 *clockSessionInfo; // @synthesize clockSessionInfo=_clockSessionInfo;
 @property(retain, nonatomic) MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1 *enrollmentData; // @synthesize enrollmentData=_enrollmentData;
-@property(nonatomic) _Bool hasClockSessionInfo; // @synthesize hasClockSessionInfo=_hasClockSessionInfo;
-@property(nonatomic) _Bool hasEnrollmentData; // @synthesize hasEnrollmentData=_hasEnrollmentData;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
 
 @end
 

@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class),N,V_connection;
 - (id);
-- (id)atusBar_Placeholder;
+- (id)UIStatusBar_Placeholder;
 
 @end
 

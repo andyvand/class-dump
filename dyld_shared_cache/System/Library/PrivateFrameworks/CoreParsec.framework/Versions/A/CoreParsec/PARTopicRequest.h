@@ -11,16 +11,13 @@
 @interface PARTopicRequest : PARRequest
 {
     NSArray *_localTopics;
-    NSArray *_queryTopicContexts;
-    double _timeoutIntervalForRequest;
-    NSArray *_topics;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)ntBase *)::LoaderClient::LoaderClient(const WKPageLoaderClientBase *) /* Error: Ran out of types for this method. */;
+- (id)downcast(Source *) [Target = API::FrameInfo, Source = API::Object] /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (id);
+- (id);
 - (void);
 - (double);
 - (void);
@@ -30,9 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain) NSArray *localTopics; // @synthesize localTopics=_localTopics;
-@property(readonly, retain) NSArray *queryTopicContexts; // @synthesize queryTopicContexts=_queryTopicContexts;
-@property(nonatomic) double timeoutIntervalForRequest; // @synthesize timeoutIntervalForRequest=_timeoutIntervalForRequest;
 @property(copy, nonatomic) NSArray *topics; // @synthesize topics=_topics;
 
 @end

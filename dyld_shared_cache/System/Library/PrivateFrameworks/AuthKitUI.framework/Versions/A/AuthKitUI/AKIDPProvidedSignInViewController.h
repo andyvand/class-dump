@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKIDPHandler, NSButton, NSImageView, NSString, NSTextField, NSView, WKWebView;
+@class AKIDPHandler, WKWebView;
 
 @interface AKIDPProvidedSignInViewController
 {
     WKWebView *_webView;
-    AKIDPHandler *_idpHandler;
-    NSView *_containerView;
-    NSTextField *_titleTextField;
-    NSButton *_cancelButton;
-    NSImageView *_imageView;
 }
 
 - (void);
@@ -26,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)PFvPjPKsmE;
 - (void);
 - (id);
 - (void);
@@ -39,19 +34,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(nonatomic) __weak NSView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) AKIDPHandler *idpHandler; // @synthesize idpHandler=_idpHandler;
-@property(nonatomic) __weak NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
-@property(readonly, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
 
 @end
 

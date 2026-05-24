@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributeDescription;
-
 __attribute__((visibility("hidden")))
 @interface PFFaultingTransformedValue
 {
     struct os_unfair_lock_s _lock;
-    id _storage;
-    NSAttributeDescription *_attributeDescription;
 }
 
 + (void)o process transaction '%@' twice.;

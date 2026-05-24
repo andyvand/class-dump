@@ -9,9 +9,6 @@
 @interface PPSocialHighlightFractionalEngagementProvider
 {
     NSMutableDictionary *_engagementsByKey;
-    NSMutableDictionary *_offeredByKey;
-    CDUnknownBlockType _groupByBlock;
-    CDUnknownBlockType _keyBlock;
 }
 
 - (id);

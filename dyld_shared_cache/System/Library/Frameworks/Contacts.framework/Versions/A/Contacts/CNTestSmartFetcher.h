@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CNTestSmartFetcher
 {
     NSArray *_requiredKeys;
-    NSArray *_optionalKeys;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ndRequest():callback seqCnt= /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (void);
-- (id);
+- (void)?;
+- (id)__objc_const;
 - (_Bool);
-- (void);
+- (void));
 - (id);
 - (void)*1Â0@ù
 × ;
@@ -29,15 +28,7 @@
 - (id)ys for %lu descriptors;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *optionalKeys; // @synthesize optionalKeys=_optionalKeys;
 @property(readonly, nonatomic) NSArray *requiredKeys; // @synthesize requiredKeys=_requiredKeys;
-@property(readonly) Class superclass;
 
 @end
 

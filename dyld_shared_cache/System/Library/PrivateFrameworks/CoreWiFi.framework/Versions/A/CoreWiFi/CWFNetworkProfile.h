@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface CWFNetworkProfile
 {
     _Bool _useCachedIdentifier;
-    _Bool _useCachedNetworkName;
-    _Bool _useCachedShortSSID;
-    NSMutableDictionary *_internal;
-    NSString *_cachedIdentifier;
-    NSString *_cachedNetworkName;
-    unsigned long long _cachedShortSSID;
 }
 
 + (id);

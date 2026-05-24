@@ -9,15 +9,6 @@
 @interface AppStoreKit.OfferAlertAction : AppStoreKit.Action
 {
     id message;
-    id footerMessage;
-    id isCancelable;
-    id checkRestrictionsForContentRating;
-    id shouldCheckForAvailableDiskSpace;
-    id remoteControllerRequirement;
-    id spatialControllerRequirement;
-    id shouldIncludeActiveAccountInFooterMessage;
-    id shouldPromptForConfirmation;
-    id completionAction;
 }
 
 @end

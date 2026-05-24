@@ -7,11 +7,10 @@
 @interface NewsUI2.PuzzleArchiveFilterChangeCommandHandler
 {
     id commandState;
-    id puzzleArchiveFilterOptionManager;
 }
 
 - (id);
-- (void)ntinuePlayingRouter;
+- (void)PuzzleContinuePlayingRouter;
 
 @end
 

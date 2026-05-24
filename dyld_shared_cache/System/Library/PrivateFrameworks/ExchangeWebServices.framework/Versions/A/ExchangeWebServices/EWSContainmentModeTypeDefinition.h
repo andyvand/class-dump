@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)(ignoring inflate failure). ret=%d, _zstreamp->avail_in=%lu, _zstreamp->avail_out=%lu, in_len=%lu;
 
 @end
 

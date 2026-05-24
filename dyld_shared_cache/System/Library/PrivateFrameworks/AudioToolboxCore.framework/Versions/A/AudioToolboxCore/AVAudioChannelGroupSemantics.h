@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioChannelLayout;
-
 @interface AVAudioChannelGroupSemantics
 {
     unsigned int _semantics;
-    unsigned int _terminalType;
-    unsigned int _channelCount;
-    AVAudioChannelLayout *_layout;
 }
 
 + (_Bool);
 - (unsigned int);
 - (void);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
 - (id);
-- (struct AudioChannelGroupSemantics *);
+- (struct AudioChannelGroupSemantics *);
 - (void);
 - (id);
 - (id);
@@ -33,9 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned int channelCount; // @synthesize channelCount=_channelCount;
-@property(copy, nonatomic) AVAudioChannelLayout *layout; // @synthesize layout=_layout;
-@property(nonatomic) unsigned int semantics; // @synthesize semantics=_semantics;
-@property(nonatomic) unsigned int terminalType; // @synthesize terminalType=_terminalType;
 
 @end
 

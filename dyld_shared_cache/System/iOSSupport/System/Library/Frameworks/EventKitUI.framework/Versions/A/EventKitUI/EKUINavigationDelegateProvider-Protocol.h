@@ -7,6 +7,7 @@
 @protocol EKUIViewControllerNavigationDelegate;
 
 @protocol EKUINavigationDelegateProvider
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <EKUIViewControllerNavigationDelegate> navigationDelegate;

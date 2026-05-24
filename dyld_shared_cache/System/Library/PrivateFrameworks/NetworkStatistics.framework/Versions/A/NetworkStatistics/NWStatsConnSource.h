@@ -6,36 +6,28 @@
 
 #import <NetworkStatistics/NWStatsSource.h>
 
-@class NSDictionary, NSUUID, NWStatsConnProperties;
-
 __attribute__((visibility("hidden")))
 @interface NWStatsConnSource : NWStatsSource
 {
     struct nstat_msg_src_details_conn _nstatConnDetails;
-    NSDictionary *_lookupResults;
-    NWStatsConnProperties *_currentProperties;
-    NWStatsConnProperties *_ancestralProperties;
-    int _epid;
-    NSUUID *_euuid;
 }
 
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)4;
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id)Persistance;
 - (int);
 - (id);
 - (void);
 
 // Remaining properties
 @property int epid; // @synthesize epid=_epid;
-@property(retain, nonatomic) NSUUID *euuid; // @synthesize euuid=_euuid;
 
 @end
 

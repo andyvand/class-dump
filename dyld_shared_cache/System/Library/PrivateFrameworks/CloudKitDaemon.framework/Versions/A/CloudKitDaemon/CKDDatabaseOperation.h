@@ -18,12 +18,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)ns;
 - (id);
 - (_Bool);
-- (id);
+- (id)?	;
 - (long long);
-- (_Bool)nHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)createZonePCSWithRequestorOperationID:createV2PCS:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)ÿÿ;
 
 // Remaining properties

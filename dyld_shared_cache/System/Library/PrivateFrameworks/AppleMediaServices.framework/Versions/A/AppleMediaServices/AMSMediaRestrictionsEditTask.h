@@ -6,15 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSString;
-@protocol AMSBagProtocol, NSURLSessionDelegate><AMSURLProtocolDelegate;
+@class ACAccount;
 
 @interface AMSMediaRestrictionsEditTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSString *_editToken;
-    id <NSURLSessionDelegate><AMSURLProtocolDelegate> _urlSessionDelegate;
 }
 
 - (id);
@@ -23,15 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)downloadTransfers:Some GUIDs could not be downloaded because they failed to return mirror file representations:%s /* Error: Ran out of types for this method. */;
 - (void)Z,¯=rM¨ÝòÎ*oãb£ÍJñµfhûÿüw¶~äíËKôleâ#eiÉºrÀÕüpÎ·òtÑp2¯'¾gÂ,HJ°Z±RG¦@ÔfÕ-Ë iÅä±äJJ÷Ý¿ J¯SgôgÀ¥ß,D j\\ÎU4ªDó.¬+0ýDxðÚ°É¶þÒõË!à&ñ1&bÑBµ ²=2è,Ë:§o@dB /* Error: Ran out of types for this method. */;
 - (id)öhHÖ¹'höÖH'¹ÝCcý,²¹'öhHÖ,²cýÝC$ºÕKkõ/±`þÞ@µ+údDÚÞ@`þ/±XïòÀcÂØòº°x¨8ic4úùÉé=ñø{Z;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(copy) NSString *editToken; // @synthesize editToken=_editToken;
-@property __weak id <NSURLSessionDelegate><AMSURLProtocolDelegate> urlSessionDelegate; // @synthesize urlSessionDelegate=_urlSessionDelegate;
 
 @end
 

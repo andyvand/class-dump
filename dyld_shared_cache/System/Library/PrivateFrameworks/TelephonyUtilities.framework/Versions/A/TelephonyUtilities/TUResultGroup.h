@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, TUGroupTitle;
+@class TUGroupTitle;
 
 @interface TUResultGroup
 {
     TUGroupTitle *_title;
-    NSMutableArray *_resultsCache;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)entifier;
+- (id)hostProcess;
+- (void)uniqueProxyIdentifier;
 - (unsigned long long)¢àb;
 
 // Remaining properties
-@property(readonly) unsigned long long groupType;
-@property(readonly) NSArray *results;
-@property(retain, nonatomic) NSMutableArray *resultsCache; // @synthesize resultsCache=_resultsCache;
 @property(retain, nonatomic) TUGroupTitle *title; // @synthesize title=_title;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol SGDSuggestManagerDeliveriesProtocol
+- (void)@"EWSFreeBusyViewOptionsType";
 @end
 

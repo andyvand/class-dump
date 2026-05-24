@@ -6,15 +6,12 @@
 
 #import <JetEngine/JETreatmentAction.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface JEHashTreatmentAction : JETreatmentAction
 {
     _Bool _crossDeviceSync;
-    NSString *_namespace;
-    NSDictionary *_configuration;
-    NSString *_topic;
 }
 
 - (id);
@@ -25,14 +22,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(nonatomic) _Bool crossDeviceSync; // @synthesize crossDeviceSync=_crossDeviceSync;
 @property(retain, nonatomic) NSString *namespace; // @synthesize namespace=_namespace;
-@property(retain, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end
 

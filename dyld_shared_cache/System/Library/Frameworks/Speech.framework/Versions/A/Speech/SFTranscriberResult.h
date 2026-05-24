@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class STTranscriberMultisegmentResult, STTranscriberSingleSegmentResult;
+@class STTranscriberMultisegmentResult;
 
 @interface SFTranscriberResult
 {
     STTranscriberMultisegmentResult *_normalizedTranscriberMultisegmentResult;
-    STTranscriberMultisegmentResult *_contextualizedTranscriberMultisegmentResult;
-    STTranscriberSingleSegmentResult *_normalizedTranscriberSingleSegmentResult;
-    STTranscriberSingleSegmentResult *_contextualizedTranscriberSingleSegmentResult;
-    CDStruct_e83c9415 _range;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)T;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (CDStruct_e83c9415);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) STTranscriberMultisegmentResult *contextualizedTranscriberMultisegmentResult; // @synthesize contextualizedTranscriberMultisegmentResult=_contextualizedTranscriberMultisegmentResult;
-@property(readonly, copy, nonatomic) STTranscriberSingleSegmentResult *contextualizedTranscriberSingleSegmentResult; // @synthesize contextualizedTranscriberSingleSegmentResult=_contextualizedTranscriberSingleSegmentResult;
-@property(readonly, copy, nonatomic) STTranscriberMultisegmentResult *normalizedTranscriberMultisegmentResult; // @synthesize normalizedTranscriberMultisegmentResult=_normalizedTranscriberMultisegmentResult;
-@property(readonly, copy, nonatomic) STTranscriberSingleSegmentResult *normalizedTranscriberSingleSegmentResult; // @synthesize normalizedTranscriberSingleSegmentResult=_normalizedTranscriberSingleSegmentResult;
 @property(readonly, nonatomic) CDStruct_e83c9415 range; // @synthesize range=_range;
 
 @end

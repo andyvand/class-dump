@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id)tutionRequestToOperationClassMapper;
+- (id)CRKClassNameSubstitutionRequestToOperationClassMapper;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;

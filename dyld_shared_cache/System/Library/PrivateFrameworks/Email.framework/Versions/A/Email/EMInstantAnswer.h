@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMInstantAnswerFlight, EMInstantAnswerHotel, EMMessage, NSString;
+@class EMMessage;
 
 @interface EMInstantAnswer
 {
     EMMessage *_message;
-    EMInstantAnswerFlight *_flight;
-    EMInstantAnswerHotel *_hotel;
-    NSString *_bodyCardSectionID;
-    NSString *_buttonsCardSectionID;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)NetworkInfoPayloadSerializer;
+- (id)DefaultSessionDataSource;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)indices;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bodyCardSectionID; // @synthesize bodyCardSectionID=_bodyCardSectionID;
-@property(readonly, nonatomic) NSString *buttonsCardSectionID; // @synthesize buttonsCardSectionID=_buttonsCardSectionID;
-@property(readonly, nonatomic) EMInstantAnswerFlight *flight; // @synthesize flight=_flight;
-@property(readonly, nonatomic) EMInstantAnswerHotel *hotel; // @synthesize hotel=_hotel;
 @property(readonly, nonatomic) EMMessage *message; // @synthesize message=_message;
 
 @end

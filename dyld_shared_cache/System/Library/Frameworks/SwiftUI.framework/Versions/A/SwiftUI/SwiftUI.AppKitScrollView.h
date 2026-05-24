@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol SwiftUI.PlatformAccessibilityElementProtocol;
-
 @interface SwiftUI.AppKitScrollView
 {
     id $__lazy_storage_$_helper;
-    id isTracking;
-    id isScrollEnabled;
-    id isDocumentAccessibilityHost;
-    id ancestorScrollableAxes;
-    id descendantScrollableAxes;
 }
 
 - (id);
@@ -24,14 +16,11 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _usesOverlayScrollers;
-@property(nonatomic) _Bool findBarVisible;
-@property(nonatomic, readonly) NSObject<SwiftUI.PlatformAccessibilityElementProtocol> *knownRepresentedElement;
 @property(nonatomic, readonly) _Bool relaxRegistrationRequirements;
 
 @end

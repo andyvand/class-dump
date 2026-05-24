@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PSSuggester;
+@class NSString;
 
 @interface CNAutocompletePeopleSuggesterFeedback
 {
     NSString *_bundleIdentifier;
-    _PSSuggester *_psSuggester;
 }
 
 + (void);
 + (void);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (void);
@@ -23,7 +22,7 @@
 + (void);
 + (id);
 + (void);
-+ (id);
++ (id)polarityNameFromType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) _PSSuggester *psSuggester; // @synthesize psSuggester=_psSuggester;
 
 @end
 

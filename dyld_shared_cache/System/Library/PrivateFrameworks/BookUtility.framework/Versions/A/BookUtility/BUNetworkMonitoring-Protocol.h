@@ -5,6 +5,8 @@
 //
 
 @protocol BUNetworkMonitoring
-- (_Bool)ryForQueryItems;
+- (_Bool);
+- (_Bool)mAssistantExperienceViewController"16@"SRUIFSpeechRecognitionHypothesis"24;
+- (_Bool)bu_dictionaryForQueryItems;
 @end
 

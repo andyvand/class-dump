@@ -7,7 +7,6 @@
 #import <StoreKit/SKRequest.h>
 
 @class NSSet;
-@protocol SKProductsRequestDelegate;
 
 @interface SKProductsRequest : SKRequest
 {
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *_productIdentifiers;
-@property(nonatomic) __weak id <SKProductsRequestDelegate> delegate; // @dynamic delegate;
 
 @end
 

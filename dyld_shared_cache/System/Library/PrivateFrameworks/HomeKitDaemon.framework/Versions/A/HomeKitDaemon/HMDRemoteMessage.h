@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeKitVersion, HMDRemoteMessageSenderContext, NSString, NSUUID;
+@class HMDHomeKitVersion;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteMessage
 {
     long long _type;
-    NSUUID *_transactionIdentifier;
-    unsigned long long _sendOptions;
-    HMDHomeKitVersion *_sourceVersion;
 }
 
 + (id);
@@ -27,17 +24,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)MSPMapsDefaultsAccessor;
+- (id)MSPContainerObserver;
+- (id)MSPSharedTripCapabilityFetchingQueueDelegate;
+- (id)MSPSharedTripXPCCapabilityReceiving;
+- (id)MSPTransitLineBookmark;
+- (id)MSPSharedTripIDSCapabilityFetchingQueue;
+- (id)MSPMutableHistoryEntryTransitLineItem;
+- (id)MSPImmutableObject;
+- (id)MSPPinnedPlaceContactStorage;
+- (id)MSPCompanionSyncedItem;
+- (_Bool)searchRequest;
 - (_Bool);
 - (id);
 - (id);
@@ -58,28 +55,16 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (void)mpositeSettingsDatabaseAdapter>";
-- (void)upCodes;
+- (void)_addPendingAccessorySetupCodes;
 - (id)%{public}@Incorrectly formatted target UUID %@ to add;
-- (_Bool);
+- (_Bool)HMDUserVacationStateLocationAuthorizationNotAllowed;
 - (id)058-4E17-998F-75A96A576767;
 - (void)et.controller;
 - (id)<UNKNOWN %lu>;
 - (void)Üg?;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *attributedMessageName;
-@property(readonly, nonatomic) NSString *collapseID;
-@property(nonatomic) _Bool disallowsIDSRacing;
-@property(readonly, nonatomic) _Bool hasResponseRestriction;
-@property(nonatomic) unsigned long long responseRestriction;
-@property(nonatomic) unsigned long long restriction;
-@property(nonatomic, getter=isSecure) _Bool secure;
-@property(readonly, nonatomic) unsigned long long sendOptions; // @synthesize sendOptions=_sendOptions;
-@property(retain, nonatomic) HMDRemoteMessageSenderContext *senderContext;
 @property(retain, nonatomic) HMDHomeKitVersion *sourceVersion; // @synthesize sourceVersion=_sourceVersion;
-@property(retain, nonatomic) NSString *toID;
-@property(copy, nonatomic) NSUUID *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

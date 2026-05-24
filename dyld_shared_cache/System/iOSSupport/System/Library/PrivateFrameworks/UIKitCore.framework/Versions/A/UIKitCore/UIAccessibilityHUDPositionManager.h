@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)ØXl;
-- (void);
-- (void);
+- (void)ng to update IMDChat:(struct CGRect)arg1 %@;
+- (void)messages as unread in spotlight;
 - (void);
 - (void);
 - (void);

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
-- (void);
+- (unsigned long long)chatsWithHandles:(id)arg1 onService:displayName:groupID:style: /* Error: Ran out of types for this method. */;
+- (void)_chatsWithBlackholed: /* Error: Ran out of types for this method. */;
 
 @end
 

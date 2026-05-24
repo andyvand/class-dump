@@ -6,18 +6,11 @@
 
 #import <BlastDoor/_BlastDoorLPSpecializationMetadata.h>
 
-@class NSDate, NSString, _BlastDoorLPImage;
+@class NSString;
 
 @interface _BlastDoorLPApplePhotosMomentMetadata : _BlastDoorLPSpecializationMetadata
 {
     NSString *_title;
-    unsigned long long _photoCount;
-    unsigned long long _videoCount;
-    unsigned long long _otherItemCount;
-    _BlastDoorLPImage *_keyPhoto;
-    NSDate *_expirationDate;
-    NSDate *_earliestAssetDate;
-    NSDate *_latestAssetDate;
 }
 
 + (id);
@@ -34,7 +27,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)c8;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -44,19 +37,12 @@
 - (id);
 - (unsigned long long)
 ;
-- (id)nMemoji;
+- (id)builtinMemoji;
 - (void)G
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDate *earliestAssetDate; // @synthesize earliestAssetDate=_earliestAssetDate;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(retain, nonatomic) _BlastDoorLPImage *keyPhoto; // @synthesize keyPhoto=_keyPhoto;
-@property(copy, nonatomic) NSDate *latestAssetDate; // @synthesize latestAssetDate=_latestAssetDate;
-@property(nonatomic) unsigned long long otherItemCount; // @synthesize otherItemCount=_otherItemCount;
-@property(nonatomic) unsigned long long photoCount; // @synthesize photoCount=_photoCount;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned long long videoCount; // @synthesize videoCount=_videoCount;
 
 @end
 

@@ -9,17 +9,14 @@
 @interface DDPhoneOrMailURI
 {
     NSString *_value;
-    _Bool _isMailScheme;
-    _Bool _isHttpScheme;
-    _Bool _isFileScheme;
 }
 
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)shouldClipToImageRect;
 - (_Bool);
 - (id);
-- (id);
+- (id)sharedOwnerAddress;
 - (void);
 - (_Bool);
 

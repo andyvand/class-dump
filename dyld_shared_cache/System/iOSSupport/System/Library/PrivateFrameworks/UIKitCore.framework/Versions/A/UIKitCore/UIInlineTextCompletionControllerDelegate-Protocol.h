@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TIDocumentState, TIKeyboardInputManagerState, TIKeyboardState, UIKBInputDelegateManager, UIKeyboardAutocorrectionController, UIKeyboardTaskQueue, UITextInputTraits, UIView;
-@protocol UIInlineTextCompletionLearning;
+@class TIDocumentState, TIKeyboardState, UIKBInputDelegateManager, UIKeyboardAutocorrectionController, UITextRange, UIView;
 
 @protocol UIInlineTextCompletionControllerDelegate
+- (UITextRange *);
+- (_Bool)c;
 - (void);
-- (UIKeyboardTaskQueue *);
 - (TIKeyboardState *)y;
 - (void)&¸þ;
 - (void)u®43;
-- (TIDocumentState *)urationShadowType;
+- (TIDocumentState *)_UIBackgroundConfigurationShadowType;
 - (void)uí;
 - (UIKeyboardAutocorrectionController *)\;
 - (UIView *)«;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool delegateSupportsCorrectionUI;
-@property(readonly, nonatomic) TIDocumentState *documentState;
-@property(readonly, nonatomic) _Bool inlineTextCompletionAllowedForAutocorrectionType;
-@property(readonly, nonatomic) id <UIInlineTextCompletionLearning> inlineTextCompletionLearner;
 @property(readonly, nonatomic) UIKBInputDelegateManager *inputDelegateManager;
-@property(readonly, nonatomic) TIKeyboardInputManagerState *inputManagerState;
-@property(readonly, nonatomic) UIView *inputOverlayContainer;
-@property(readonly, nonatomic) _Bool isSelecting;
-@property(readonly, nonatomic) TIKeyboardState *keyboardState;
-@property(readonly, nonatomic) _Bool showingEmojiSearch;
-@property(readonly, nonatomic) UIKeyboardTaskQueue *taskQueue;
-@property(readonly, nonatomic) UITextInputTraits *textInputTraits;
 @end
 

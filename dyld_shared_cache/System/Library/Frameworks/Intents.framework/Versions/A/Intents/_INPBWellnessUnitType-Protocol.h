@@ -5,27 +5,15 @@
 //
 
 @protocol _INPBWellnessUnitType
+- (void)H;
+- (void);
+- (void)f;
+- (int);
+- (_Bool)@9)	;
+- (int);
+- (void);
 
 // Remaining properties
 @property(nonatomic) int bloodGlucoseUnit;
-@property(nonatomic) int bloodPressureUnit;
-@property(nonatomic) int energyUnit;
-@property(nonatomic) _Bool hasBloodGlucoseUnit;
-@property(nonatomic) _Bool hasBloodPressureUnit;
-@property(nonatomic) _Bool hasEnergyUnit;
-@property(nonatomic) _Bool hasHeartRateUnit;
-@property(nonatomic) _Bool hasLengthUnit;
-@property(nonatomic) _Bool hasMassUnit;
-@property(nonatomic) _Bool hasRespiratoryRateUnit;
-@property(nonatomic) _Bool hasTemperatureUnit;
-@property(nonatomic) _Bool hasTimeUnit;
-@property(nonatomic) _Bool hasVolumeUnit;
-@property(nonatomic) int heartRateUnit;
-@property(nonatomic) int lengthUnit;
-@property(nonatomic) int massUnit;
-@property(nonatomic) int respiratoryRateUnit;
-@property(nonatomic) int temperatureUnit;
-@property(nonatomic) int timeUnit;
-@property(nonatomic) int volumeUnit;
 @end
 

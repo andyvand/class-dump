@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, PBUnknownFields;
+@class NSURL, PBUnknownFields;
 
 @interface GEOURLInfo
 {
     PBUnknownFields *_unknownFields;
-    NSString *_url;
-    unsigned int _alternativeMultipathTCPPort;
-    _Bool _supportsMultipathTCP;
-    _Bool _useAuthProxy;
-    struct {
-        unsigned int has_alternativeMultipathTCPPort:1;
-        unsigned int has_supportsMultipathTCP:1;
-        unsigned int has_useAuthProxy:1;
-    } _flags;
 }
 
-+ (_Bool)ce:(id)arg1;
-- (_Bool);
++ (_Bool)setNetworkService:(id)arg1;
+- (_Bool)@;
 - (void);
 - (id);
 - (_Bool);
@@ -31,15 +22,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)postVoiceTriggerSilence;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned int);
-- (void);
-- (void);
+- (void)_;
+- (void)initWithLaunchOptions:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -48,24 +39,15 @@
 - (id)!´Fù1º*1Â0@ù
 × ;
 - (id)pirationDate"b1"has_transportType"b1};
-- (id)cidents: /* Error: Ran out of types for this method. */;
+- (id)initWithGeoAdvisoryNotice:incidents: /* Error: Ran out of types for this method. */;
 - (id)OLogMsgStateMapsUserSettings",&,N;
-- (id)diate;
+- (id)Intermediate;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int alternativeMultipathTCPPort;
-@property(nonatomic) _Bool hasAlternativeMultipathTCPPort;
-@property(nonatomic) _Bool hasSupportsMultipathTCP;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(nonatomic) _Bool hasUseAuthProxy;
 @property(readonly, nonatomic) NSURL *nsURL;
-@property(nonatomic) _Bool supportsMultipathTCP;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) NSString *url;
-@property(nonatomic) _Bool useAuthProxy;
 
 @end
 

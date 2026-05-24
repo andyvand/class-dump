@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)eractionEnabled;
++ (_Bool)UIFindInteractionEnabled;
 - (id);
+- (id)delPropertySocialPersonArtwork;
+- (void)rangeToRestoreAfterDictation;
 - (id);
-- (void)tion;
-- (id);
-- (id)r;
+- (id)_UITabChangeObserver;
 - (void)@];
 
 // Remaining properties

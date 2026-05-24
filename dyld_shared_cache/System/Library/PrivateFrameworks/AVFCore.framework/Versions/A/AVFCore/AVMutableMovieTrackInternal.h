@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSObject;
-@protocol OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface AVMutableMovieTrackInternal
 {
     struct OpaqueFigMutableMovie *figMutableMovie;
-    int trackID;
-    struct OpaqueFigAssetTrack *figAssetTrack;
-    NSObject<OS_dispatch_semaphore> *metadataWaitingSemaphore;
-    AVWeakReference *figAssetTrackNotificationListenerWeakReference;
-    struct OpaqueFigAssetTrack *figAssetTrackNotificationSource;
 }
 
-- (void)BitsPerChannel;
+- (void)outputBitsPerChannel;
 
 @end
 

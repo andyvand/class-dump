@@ -6,21 +6,16 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIImageView, UILabel;
+@class UILabel;
 
 @interface UIPickerContentView : UIView
 {
     UILabel *_titleLabel;
-    UIImageView *_checkView;
-    struct {
-        unsigned int checked:1;
-        unsigned int highlighted:1;
-    } _pickerContentViewFlags;
 }
 
 + (double);
-- (double);
-- (id);
+- (double)elayMessage;
+- (id)ge from device on the allowed proxy list? %@;
 - (_Bool);
 - (void);
 - (_Bool);

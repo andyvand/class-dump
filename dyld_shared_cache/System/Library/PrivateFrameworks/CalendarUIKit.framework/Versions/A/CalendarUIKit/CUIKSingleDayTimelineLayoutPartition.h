@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface CUIKSingleDayTimelineLayoutPartition
 {
     NSMutableArray *_stackOfOccurrences;
-    double _topBoundaryTime;
-    double _initialStartBoundary;
-    double _endBoundary;
 }
 
 - (double);
 - (id);
-- (void);
-- (void)øô;
-- (void);
-- (id)ò	?×h@ù;
-- (double)ªÀóýâ;
-- (double)Râ;
-- (double)á;
-- (double)ýó;
-- (void)ªÌÀøÿµÆÿÿ³¼°sÊEùa
-@ù`;
+- (void);
+- (void);
+- (void);
+- (id);
 - (double);
-- (void)ìxÓ)Ü@ô';
+- (double);
+- (double);
+- (double);
+- (void);
+- (double);
+- (void);
 - (id);
 - (id);
 - (void)GContext=}16{CGSize=dd}24d40@48@56Q64;
 
 // Remaining properties
-@property(nonatomic) double endBoundary; // @synthesize endBoundary=_endBoundary;
-@property(readonly, nonatomic) double freeSpaceStartBoundary;
-@property(readonly, nonatomic) double freeSpaceWidth;
-@property(nonatomic) double initialStartBoundary; // @synthesize initialStartBoundary=_initialStartBoundary;
-@property(readonly, nonatomic) NSArray *stackedOccurrences;
 @property(nonatomic) double topBoundaryTime; // @synthesize topBoundaryTime=_topBoundaryTime;
-@property(readonly, nonatomic) double totalWidth;
 
 @end
 

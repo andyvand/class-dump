@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKDetailsContactsTableViewCell;
+
 @protocol CKDetailsContactsTableViewCellDelegate
+- (void) !;
+- (void);
+- (void)not authenticated {account:(CKDetailsContactsTableViewCell *)arg1 %@};
 @end
 

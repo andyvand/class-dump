@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @protocol SFCATModel
+- (NSData *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier;
 @property(copy, nonatomic) NSString *catIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *params;
 @end
 

@@ -7,9 +7,12 @@
 @class GCDeviceLight;
 
 @protocol _GCDeviceLightComponent
+- (void)\;
+- (void);
+- (GCDeviceLight *);
+- (void (^)(void))#;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType deviceLightServiceConnectedHandler;
-@property(retain, nonatomic) GCDeviceLight *light;
 @end
 

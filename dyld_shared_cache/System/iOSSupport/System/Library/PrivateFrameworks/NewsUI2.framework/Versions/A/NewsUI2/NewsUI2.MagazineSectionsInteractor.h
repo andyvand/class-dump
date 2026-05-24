@@ -7,13 +7,10 @@
 @interface NewsUI2.MagazineSectionsInteractor
 {
     id delegate;
-    id dataManager;
-    id magazinesBadgingCoordinator;
-    id offlineManager;
 }
 
 - (void);
-- (id);
+- (id)?;
 - (void);
 - (void);
 

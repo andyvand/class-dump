@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKIDSMessageMetadata, NSDictionary;
+@class CRKIDSMessageMetadata;
 
 @interface CRKIDSMessagePayload
 {
     CRKIDSMessageMetadata *_messageMetadata;
-    NSDictionary *_messageContent;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -20,8 +19,6 @@
 - (id)Share target browser starting to browse for student targets;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
-@property(readonly, copy, nonatomic) NSDictionary *messageContent; // @synthesize messageContent=_messageContent;
 @property(readonly, nonatomic) CRKIDSMessageMetadata *messageMetadata; // @synthesize messageMetadata=_messageMetadata;
 
 @end

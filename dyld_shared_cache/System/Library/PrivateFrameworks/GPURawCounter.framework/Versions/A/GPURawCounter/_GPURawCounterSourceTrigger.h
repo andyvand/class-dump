@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface _GPURawCounterSourceTrigger
 {
     NSString *_name;
-    NSString *_description;
-    NSDictionary *_options;
 }
 
 - (id);
@@ -20,9 +18,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *description; // @synthesize description=_description;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

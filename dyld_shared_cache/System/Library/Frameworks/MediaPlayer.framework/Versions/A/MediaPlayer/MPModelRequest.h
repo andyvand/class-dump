@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelKind, MPPropertySet, NSArray, NSString;
+@class NSString;
 
 @interface MPModelRequest
 {
     NSString *_label;
-    MPModelKind *_sectionKind;
-    MPPropertySet *_sectionProperties;
-    NSArray *_sectionSortDescriptors;
-    MPModelKind *_itemKind;
-    MPPropertySet *_itemProperties;
-    NSArray *_itemSortDescriptors;
 }
 
 + (id);
@@ -24,15 +18,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) Class itemClass;
-@property(retain, nonatomic) MPModelKind *itemKind; // @synthesize itemKind=_itemKind;
-@property(copy, nonatomic) MPPropertySet *itemProperties; // @synthesize itemProperties=_itemProperties;
-@property(copy, nonatomic) NSArray *itemSortDescriptors; // @synthesize itemSortDescriptors=_itemSortDescriptors;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain, nonatomic) Class sectionClass;
-@property(retain, nonatomic) MPModelKind *sectionKind; // @synthesize sectionKind=_sectionKind;
-@property(copy, nonatomic) MPPropertySet *sectionProperties; // @synthesize sectionProperties=_sectionProperties;
-@property(copy, nonatomic) NSArray *sectionSortDescriptors; // @synthesize sectionSortDescriptors=_sectionSortDescriptors;
 
 @end
 

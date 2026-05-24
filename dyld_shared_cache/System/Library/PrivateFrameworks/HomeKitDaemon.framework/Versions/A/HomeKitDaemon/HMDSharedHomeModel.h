@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDBackingStoreModelObject.h>
 
-@class NSData, NSNumber;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface HMDSharedHomeModel : HMDBackingStoreModelObject
@@ -14,10 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (_Bool);
+- (_Bool)formationSource>";
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *configurationVersion; // @dynamic configurationVersion;
 @property(retain, nonatomic) NSData *homeData; // @dynamic homeData;
 
 @end

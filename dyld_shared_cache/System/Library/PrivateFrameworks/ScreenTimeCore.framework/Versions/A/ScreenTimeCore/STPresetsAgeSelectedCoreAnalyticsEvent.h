@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface STPresetsAgeSelectedCoreAnalyticsEvent
 {
     NSString *_sessionId;
-    long long _lowerBoundAgeRange;
-    long long _upperBoundAgeRange;
 }
 
-+ (id);
-- (long long);
-- (long long);
-- (id);
++ (id)`";
+- (long long)ey_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, extras_url, vpp_is_licensed, vpp_org_id, vpp_org_name, sync_redownload_params) SELECT item_pid, store_item_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, cloud_status, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, downloader_account_id, family_account_id, is_protected, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name, IFNULL(sync_redownload_params, '') FROM item_store;
+- (long long)rk_token TEXT NOT NULL DEFAULT '', best_artwork_source_type INTEGER NOT NULL DEFAULT 0, cloud_artwork_token TEXT NOT NULL DEFAULT '', sync_artwork_token TEXT NOT NULL DEFAULT '', purchase_history_artwork_token TEXT NOT NULL DEFAULT '', store_artwork_token TEXT NOT NULL DEFAULT '');
+- (id)purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name) SELECT item_pid, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, purchase_history_id, purchase_history_token, purchase_history_redownload_params, store_saga_id, match_redownload_params, sync_id, home_sharing_id, is_ota_purchased, store_kind, account_id, key_versions, key_platform_id, key_id, key_id_2, date_purchased, date_released, external_guid, feed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name FROM item_store;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *description;
-@property(readonly) long long lowerBoundAgeRange; // @synthesize lowerBoundAgeRange=_lowerBoundAgeRange;
-@property(readonly, copy) NSString *name;
-@property(readonly, copy) NSDictionary *payload;
 @property(readonly) NSString *sessionId; // @synthesize sessionId=_sessionId;
-@property(readonly) long long upperBoundAgeRange; // @synthesize upperBoundAgeRange=_upperBoundAgeRange;
 
 @end
 

@@ -15,10 +15,10 @@
 
 - (void);
 - (_Bool);
+- (_Bool)initWithEndpointConnection:(double)arg1;
+- (id)entType:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (_Bool);
-- (void)tInfo:referenceOriginal:createCache: /* Error: Ran out of types for this method. */;
+- (void)_cacheImageAtPath:toPath:withAssetInfo:referenceOriginal:createCache: /* Error: Ran out of types for this method. */;
 
 @end
 

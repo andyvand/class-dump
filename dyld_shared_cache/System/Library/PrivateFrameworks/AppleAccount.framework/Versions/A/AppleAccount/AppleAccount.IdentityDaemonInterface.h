@@ -8,8 +8,8 @@
 {
 }
 
-- (id);
-- (void)ObjectsFromArray: /* Error: Ran out of types for this method. */;
+- (id)#;
+- (void)arrayByAddingObjectsFromArray: /* Error: Ran out of types for this method. */;
 
 @end
 

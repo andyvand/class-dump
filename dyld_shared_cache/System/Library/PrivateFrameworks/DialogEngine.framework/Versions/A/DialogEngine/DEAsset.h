@@ -9,16 +9,13 @@
 @interface DEAsset
 {
     NSData *_version;
-    NSData *_encryptedVersion;
-    unsigned long long _downloadType;
-    unsigned long long _encryptedSize;
 }
 
 + (int);
 + (unsigned long long);
 + (void);
 + (id);
-- (void);
+- (void)	;
 - (void);
 - (id);
 - (unsigned long long);
@@ -29,9 +26,6 @@
 - (void)°Ð½ÑÑ;
 
 // Remaining properties
-@property unsigned long long downloadType; // @synthesize downloadType=_downloadType;
-@property(nonatomic) unsigned long long encryptedSize; // @synthesize encryptedSize=_encryptedSize;
-@property(retain, nonatomic) NSData *encryptedVersion; // @synthesize encryptedVersion=_encryptedVersion;
 @property(retain, nonatomic) NSData *version; // @synthesize version=_version;
 
 @end

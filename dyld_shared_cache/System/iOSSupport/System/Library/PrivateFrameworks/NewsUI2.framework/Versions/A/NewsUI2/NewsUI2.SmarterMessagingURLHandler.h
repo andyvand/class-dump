@@ -7,9 +7,6 @@
 @interface NewsUI2.SmarterMessagingURLHandler
 {
     id patterns;
-    id engagementEventHandler;
-    id engagementInlineViewManager;
-    id requestFactory;
 }
 
 @end

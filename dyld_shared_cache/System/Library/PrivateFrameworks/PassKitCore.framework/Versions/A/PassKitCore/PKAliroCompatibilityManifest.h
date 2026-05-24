@@ -9,8 +9,6 @@
 @interface PKAliroCompatibilityManifest
 {
     NSArray *_supportedBLEAdvertisingVersions;
-    NSArray *_supportedBLEUWBProtocolVersions;
-    NSArray *_supportedExpeditedTransactionProtocolVersions;
 }
 
 + (_Bool)0@ù
@@ -20,14 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (void)MapTable"8@"NSError"16;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *supportedBLEAdvertisingVersions; // @synthesize supportedBLEAdvertisingVersions=_supportedBLEAdvertisingVersions;
-@property(readonly, nonatomic) NSArray *supportedBLEUWBProtocolVersions; // @synthesize supportedBLEUWBProtocolVersions=_supportedBLEUWBProtocolVersions;
-@property(readonly, nonatomic) NSArray *supportedExpeditedTransactionProtocolVersions; // @synthesize supportedExpeditedTransactionProtocolVersions=_supportedExpeditedTransactionProtocolVersions;
 
 @end
 

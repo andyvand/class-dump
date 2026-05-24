@@ -6,35 +6,28 @@
 
 #import <AppKit/NSView.h>
 
-@class NSButton, NSStackView, NSTextField;
+@class NSStackView, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugTDInspectorResultsHeaderView : NSView
 {
     NSStackView *_vertStack;
-    NSTextField *_headerText;
-    NSTextField *_secondaryText;
-    NSTextField *_tertiaryText;
-    NSButton *_liveToggleButton;
 }
 
 - (id);
 - (void);
+- (void)A;
 - (void);
+- (id)uest"16;
+- (id)_completedSuspendedWork;
 - (void);
-- (id);
-- (id);
-- (void);
-- (id)tes;
+- (id)completes;
 - (void);
 - (void);
 - (id)êõT G;
 
 // Remaining properties
 @property(retain, nonatomic) NSTextField *headerText; // @synthesize headerText=_headerText;
-@property(retain, nonatomic) NSButton *liveToggleButton; // @synthesize liveToggleButton=_liveToggleButton;
-@property(retain, nonatomic) NSTextField *secondaryText; // @synthesize secondaryText=_secondaryText;
-@property(retain, nonatomic) NSTextField *tertiaryText; // @synthesize tertiaryText=_tertiaryText;
 
 @end
 

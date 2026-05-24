@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SUGSchemaSUGRequestEnded, SUGSchemaSUGRequestFailed, SUGSchemaSUGRequestStarted;
+@class SUGSchemaSUGRequestStarted;
 
 @interface SUGSchemaSUGRequestContext : SISchemaInstrumentationMessage
 {
     SUGSchemaSUGRequestStarted *_startedOrChanged;
-    SUGSchemaSUGRequestEnded *_ended;
-    SUGSchemaSUGRequestFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -33,29 +27,22 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)at documentation;
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)TS_TST_INFO_set_time;
+- (unsigned long long)0:8@"NSArray"16@"NSUUID"24@?<v@?@"NSArray"@"NSError">32 /* Error: Ran out of types for this method. */;
+- (_Bool)@"NSSet",R;
+- (_Bool)room_name is null;;
 - (id);
 - (id);
-- (id)eNumSelectedActionDisambiguationsLastTwoMinutes;
-- (id)dAlternativesEventTier1;
-- (void)AME_AXEL;
+- (id)deleteNumSelectedActionDisambiguationsLastTwoMinutes;
+- (id)_hasUeiDictationEuclidAlternativesEventTier1;
+- (void)VOICENAME_AXEL;
 
 // Remaining properties
-@property(retain, nonatomic) SUGSchemaSUGRequestEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) SUGSchemaSUGRequestFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SUGSchemaSUGRequestStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface UIDraggingSystemTouchRoutingPolicy
 {
     _Bool _hitTestingDisabled;
-    NSDictionary *_contextIDsToAlwaysSendTouchesByDisplayIdentifier;
-    NSArray *_contextIDsToExcludeFromHitTesting;
 }
 
 + (_Bool)onsistency:attempted to add a drop target gap when one already exists /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)red, ignoring;
+- (void)a problem writing a transitioned list update with key %@ -  %@;
+- (void)blem archiving handle list for key %@ error %@;
+- (_Bool)4;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)illBeginRenamingWithTitle:(id)arg1 selectedRange: /* Error: Ran out of types for this method. */;
+- (void)_willBeginRenamingWithTitle:(id)arg1 selectedRange: /* Error: Ran out of types for this method. */;
 - (void)ÌDXh;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *contextIDsToAlwaysSendTouchesByDisplayIdentifier; // @synthesize contextIDsToAlwaysSendTouchesByDisplayIdentifier=_contextIDsToAlwaysSendTouchesByDisplayIdentifier;
-@property(copy, nonatomic) NSArray *contextIDsToExcludeFromHitTesting; // @synthesize contextIDsToExcludeFromHitTesting=_contextIDsToExcludeFromHitTesting;
-@property(nonatomic, getter=isHitTestingDisabled) _Bool hitTestingDisabled; // @synthesize hitTestingDisabled=_hitTestingDisabled;
 
 @end
 

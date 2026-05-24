@@ -14,8 +14,8 @@
 + (_Bool);
 - (unsigned char);
 - (void);
-- (id);
-- (id);
+- (id)drawingAspectRatio;
+- (id);
 - (void);
 
 // Remaining properties

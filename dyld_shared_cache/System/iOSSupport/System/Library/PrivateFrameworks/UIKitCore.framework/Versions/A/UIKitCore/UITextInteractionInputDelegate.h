@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UITextInteraction;
+@class UITextInteraction;
 
 __attribute__((visibility("hidden")))
 @interface UITextInteractionInputDelegate
@@ -12,23 +12,16 @@ __attribute__((visibility("hidden")))
     UITextInteraction *_rootInteraction;
 }
 
-- (void);
+- (void)payloadDestinationDeviceID;
 - (id);
 - (void);
 - (void);
-- (void)ew;
-- (void)VisualProvider;
+- (void)_managedUpdateView;
+- (void)_UITextFieldClearButtonVisualProvider;
 - (void)d¡ßþ^;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UITextInteraction *rootInteraction; // @synthesize rootInteraction=_rootInteraction;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFCSession, NSArray, NSHashTable, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_semaphore;
+@class NFCSession, NSArray, NSHashTable;
 
 @interface NFCHardwareManager
 {
     NSHashTable *_delegates;
     NFCSession *_xpcSession;
-    NSMutableDictionary *_queuedCoreNFCSessions;
-    NSObject<OS_dispatch_semaphore> *_hwSupportStateUpdate;
-    struct os_unfair_lock_s _readerSessionLock;
 }
 
-+ (id);
++ (id)0;
+- (void)?;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -29,17 +25,11 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)(=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, copy, nonatomic, getter=getDelegates) NSArray *delegates;
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

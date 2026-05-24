@@ -6,53 +6,38 @@
 
 #import <UIKitCore/UICollectionView.h>
 
-@class NSIndexPath, NSMutableArray, NSString, UIKeyboardEmojiCollectionViewCell, UIKeyboardEmojiGraphicsTraits, UIResponder;
+@class UIKeyboardEmojiGraphicsTraits, UIResponder;
 
 __attribute__((visibility("hidden")))
 @interface UIKeyboardEmojiAndStickerCollectionView : UICollectionView
 {
     UIKeyboardEmojiGraphicsTraits *_emojiGraphicsTraits;
-    UIKeyboardEmojiCollectionViewCell *_lastTouchedEmojiCell;
-    NSMutableArray *_gestureRecognizersToEnable;
-    _Bool _touchDidMove;
-    NSIndexPath *_rearrangingPath;
-    _Bool _isInSearchPopover;
-    UIResponder *_hitTestResponder;
 }
 
 - (void);
+- (void)flight;
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (_Bool)tion %@;
+- (id)gain on the next sync. Error code:(struct CGRect)arg1 %llu;
+- (id)message for GUID %@ on Service %@ but allowing it to be processed since original message had an error;
+- (void)k didKeyRollPendingCheck %@ cloudKitSyncingEnabled %@;
+- (id)f*;
+- (void)att;
+- (id)rentStorageOnDevice];
 - (double);
 - (void);
 - (id)!ÀEù1eð1Â0@ù
 × ;
-- (void)leTextDescriptorForRole:(id)arg1;
-- (void)r;
-- (void)lTransitionDidEndBlock;
-- (id)_redesign;
-- (id)ceLightConfiguration;
+- (void)_titleTextDescriptorForRole:(id)arg1;
+- (void)_contentSpacingForContainer;
+- (void)_dismissalTransitionDidEndBlock;
+- (id)ucb_redesign;
+- (id)_UISurfaceLightConfiguration;
 - (void),Åÿq;
 - (void)¼>.ÿ?»ÕXRf;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) UIKeyboardEmojiGraphicsTraits *emojiGraphicsTraits; // @synthesize emojiGraphicsTraits=_emojiGraphicsTraits;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UIResponder *hitTestResponder; // @synthesize hitTestResponder=_hitTestResponder;
-@property(nonatomic) _Bool isInSearchPopover; // @synthesize isInSearchPopover=_isInSearchPopover;
-@property(readonly) Class superclass;
 
 @end
 

@@ -16,11 +16,11 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)id                  INTEGER PRIMARY KEY AUTOINCREMENT,                label               STRING  NOT NULL,                                 identifier_data     BLOB UNIQUE NOT NULL,                             replication_data    BLOB                                              );;
+- (id)d (commit).;
 - (_Bool);
 - (void);
 - (id);
@@ -29,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NUVisionDetectionRequest *detectionRequest;
-@property(copy, nonatomic) NSArray *observations; // @synthesize observations=_observations;
 
 @end
 

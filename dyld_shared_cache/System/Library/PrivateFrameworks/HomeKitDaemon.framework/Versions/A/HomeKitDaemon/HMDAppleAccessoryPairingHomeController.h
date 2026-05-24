@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalZone, HMDAppleAccessoryPairingHomeState, HMDHomeManager, HMFFuture, HMFTimer, NSString;
-@protocol HMDAppleAccessoryPairingControllerDataSource;
+@class HMBLocalZone;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleAccessoryPairingHomeController
 {
     HMBLocalZone *_localZone;
-    HMDHomeManager *_homeManager;
-    HMFTimer *_upgradeCheckTimer;
-    HMDAppleAccessoryPairingHomeState *_state;
-    id <HMDAppleAccessoryPairingControllerDataSource> _dataSource;
-    HMFFuture *_queryFuture;
-    unsigned long long _suppressedQueries;
 }
 
 + (id)=C;
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)e<f
+;
+- (unsigned long long)iately to trigger updates for both services;
+- (void)removing token %{private}@ for %{private}@;
+- (void)red Trip] update Notification's subtitle when sharing;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)initWithOptions: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)rnal/Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Parallax/PISegmentationLoader.m;
 - (id);
 - (_Bool);
 - (id)1Â0@ù
@@ -50,20 +44,7 @@ __attribute__((visibility("hidden")))
 - (void)UNKNOWN;
 
 // Remaining properties
-@property(readonly, nonatomic) id <HMDAppleAccessoryPairingControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
 @property(readonly) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(retain, nonatomic) HMFFuture *queryFuture; // @synthesize queryFuture=_queryFuture;
-@property(readonly, nonatomic) HMDAppleAccessoryPairingHomeState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long suppressedQueries; // @synthesize suppressedQueries=_suppressedQueries;
-@property(readonly) HMFTimer *upgradeCheckTimer; // @synthesize upgradeCheckTimer=_upgradeCheckTimer;
 
 @end
 

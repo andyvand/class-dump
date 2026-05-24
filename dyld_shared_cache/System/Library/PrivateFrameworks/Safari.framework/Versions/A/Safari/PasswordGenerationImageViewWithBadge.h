@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView, NSLayoutConstraint, NSString;
+@class NSImage, NSImageView;
 
 __attribute__((visibility("hidden")))
 @interface PasswordGenerationImageViewWithBadge
 {
     NSImageView *_imageView;
-    NSImageView *_badgeView;
-    NSLayoutConstraint *_horizontalBadgeOffsetConstraint;
-    NSLayoutConstraint *_verticalBadgeOffsetConstraint;
-    NSImage *_image;
-    NSImage *_badgeImage;
-    struct CGVector _badgeOffsets;
 }
 
 - (void);
@@ -25,23 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)Synced;
 - (void);
 - (id);
 - (void)xX;
 - (struct NSEdgeInsets);
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *badgeImage; // @synthesize badgeImage=_badgeImage;
-@property(nonatomic) struct CGVector badgeOffsets; // @synthesize badgeOffsets=_badgeOffsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly) Class superclass;
 
 @end
 

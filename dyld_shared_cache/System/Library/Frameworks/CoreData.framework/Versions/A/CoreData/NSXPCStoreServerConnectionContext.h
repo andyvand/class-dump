@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSPersistentStore, NSXPCStoreConnectionInfo;
+@class NSManagedObjectContext;
 
 @interface NSXPCStoreServerConnectionContext
 {
     NSManagedObjectContext *_context;
-    NSXPCStoreConnectionInfo *_info;
-    id _manager;
-    NSPersistentStore *_activeStore;
 }
 
-- (id);
+- (id)T_;
 - (void);
 - (id);
 - (id);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (id);
-- (void);
+- (void)I;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)action_decodeFromXPCObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

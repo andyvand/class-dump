@@ -7,19 +7,6 @@
 @interface RemindersUICore.TTRReminderDetailInteractor
 {
     id delegate;
-    id undoManager;
-    id reminderChangeItem;
-    id originalAccountCapabilities;
-    id reminderEditor;
-    id undoObservationCancellable;
-    id pendingMoveCapability;
-    id databaseMonitor;
-    id subtasksLoadState;
-    id reminderChangeItemSubscription;
-    id manualOrdering;
-    id initialDueDateSource;
-    id initialReminderSnapshot;
-    id hasDueDateEdits;
 }
 
 @end

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VOSCommand;
-
 @interface VOSCommandProfileValidation
 {
     long long _validationType;
-    VOSCommand *_previouslyBoundCommand;
 }
 
 + (id);
@@ -21,23 +18,16 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)W;
 - (_Bool);
 - (id);
-- (id);
+- (_Bool);
+- (id)b;
+- (id)GSize=dd}24@40@48^@56;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isGestureAlreadyAssignedToCommand;
-@property(readonly, nonatomic) _Bool isGestureAssignedToOtherCommand;
-@property(readonly, nonatomic) _Bool isKeyboardShortcutAlreadyAssignedToCommand;
-@property(readonly, nonatomic) _Bool isKeyboardShortcutAssignedToOtherCommand;
 @property(readonly, nonatomic) _Bool isSuccessful;
-@property(readonly, nonatomic) NSString *localizedErrorMessage;
-@property(readonly, nonatomic) NSString *localizedErrorTitle;
-@property(retain, nonatomic) VOSCommand *previouslyBoundCommand; // @synthesize previouslyBoundCommand=_previouslyBoundCommand;
 
 @end
 

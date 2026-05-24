@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (MapKitExtras)
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)a;
 + (id);
 + (id);
 + (id);

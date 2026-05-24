@@ -4,46 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCategorizedPhotosFilter
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    struct GEOPDPhotoSizeFilterValue *_photoSizeFilters;
-    unsigned long long _photoSizeFiltersCount;
-    unsigned long long _photoSizeFiltersSpace;
-    NSString *_categoryId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _count;
-    int _startIndex;
-    _Bool _coverPhotoFirst;
-    _Bool _includeCoverPhoto;
-    struct {
-        unsigned int has_count:1;
-        unsigned int has_startIndex:1;
-        unsigned int has_coverPhotoFirst:1;
-        unsigned int has_includeCoverPhoto:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_photoSizeFilters:1;
-        unsigned int read_categoryId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)CSClientXPCConnectionReceivedClientError:clientError:client: /* Error: Ran out of types for this method. */;
+- (unsigned long long)!;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)hantLookupFeedback";
-- (id)cacheHit;
+- (id)_cacheHit;
 - (id)¼bØ=´hd>´¤;
 - (void)!;
 

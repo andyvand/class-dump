@@ -4,55 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface TIMecabraEnvironmentContextWrapper
 {
     int _textContentType;
-    int _shuangpinType;
-    NSString *_appContext;
-    unsigned long long _candidateIndex;
-    unsigned long long _candidateInternalIndex;
-    NSMutableArray *_environmentCandidates;
-    unsigned long long _environmentCandidateCount;
-    struct __Mecabra *_mecabraEngine;
-    struct __MecabraContext *_mecabraContext;
-    NSMutableArray *_temporaryCandidates;
-    NSDate *_lastAnalyzeInputDate;
 }
 
-- (id);
-- (void);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (id)supportsTelephonyRelayCalling;
+- (void)stringByReplacingCharactersInRange:withString: /* Error: Ran out of types for this method. */;
+- (int)setIsRelayCallingEnabled: /* Error: Ran out of types for this method. */;
+- (void)predicateForContactsWithIdentifiers:(id)arg1;
+- (void)phoneNumberWithDigits:(int)arg1 countryCode: /* Error: Ran out of types for this method. */;
+- (void)isMainThread;
+- (void)invertedSet;
+- (void)hasPrefix:(_Bool)arg1;
+- (void)handleMessageWithPayload:(void *)arg1 forIdentifier:(struct __CFArray *)arg2;
+- (void)getSubscriptionInfoWithError:(id)arg1;
+- (void)didChangeRelayCallingCapabilities;
+- (void)callDidReceiveText:(void *)arg1 forUtterance: /* Error: Ran out of types for this method. */;
+- (void)callCapabilitiesSupportsTelephonyCalls;
+- (void)addEntriesFromDictionary:(struct _NSRange)arg1;
+- (_Bool)mediaServerDied;
 - (struct __Mecabra *);
 - (struct __MecabraContext *);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)earing server settings cache;
+- (id)nterrupted;
+- (id)RTTContinuityRTTIsSupportedPreference;
+- (id)tionary"8@"NSDictionary"16@"NSError"24;
+- (id)RTTActiveCallResponseKey;
+- (unsigned long long)RTTActiveCallKey;
 - (void);
 - (void *);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -63,37 +53,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void)N;
+- (unsigned long long)pto/rsa/rsa_gen.c;
 - (void);
-- (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)c;
+- (void)_NUAbstractBufferStorage;
 - (void);
 - (void);
 - (int);
 - (void)
 × ;
-- (void);
+- (void)_preferenceProvider;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appContext; // @synthesize appContext=_appContext;
-@property(nonatomic) unsigned long long candidateIndex; // @synthesize candidateIndex=_candidateIndex;
-@property(nonatomic) unsigned long long candidateInternalIndex; // @synthesize candidateInternalIndex=_candidateInternalIndex;
-@property(readonly, nonatomic) unsigned long long contextCandidateCount;
-@property(readonly, nonatomic) NSArray *contextCandidateStrings;
-@property(readonly, nonatomic) NSArray *contextCandidates;
-@property(readonly, nonatomic) unsigned long long environmentCandidateCount; // @synthesize environmentCandidateCount=_environmentCandidateCount;
-@property(readonly, nonatomic) NSArray *environmentCandidateStrings;
 @property(retain, nonatomic) NSMutableArray *environmentCandidates; // @synthesize environmentCandidates=_environmentCandidates;
-@property(readonly, nonatomic) NSArray *inlineCandidates;
-@property(retain, nonatomic) NSDate *lastAnalyzeInputDate; // @synthesize lastAnalyzeInputDate=_lastAnalyzeInputDate;
-@property(nonatomic) struct __MecabraContext *mecabraContext; // @synthesize mecabraContext=_mecabraContext;
-@property(readonly, nonatomic) struct __Mecabra *mecabraEngine; // @synthesize mecabraEngine=_mecabraEngine;
-@property(nonatomic) int shuangpinType; // @synthesize shuangpinType=_shuangpinType;
-@property(retain, nonatomic) NSMutableArray *temporaryCandidates; // @synthesize temporaryCandidates=_temporaryCandidates;
-@property(nonatomic) int textContentType; // @synthesize textContentType=_textContentType;
 
 @end
 

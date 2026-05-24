@@ -6,22 +6,16 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class FCStreamingResults, NSString;
+@class FCStreamingResults;
 @protocol FCContentContext;
 
 @interface FCUserFacingTagSearchOperation : FCOperation
 {
     id <FCContentContext> _contentContext;
-    NSString *_searchString;
-    unsigned long long _userFacingTagOptions;
-    unsigned long long _batchSize;
-    CDUnknownBlockType _searchResultsBlock;
-    FCStreamingResults *_channelSearchResults;
-    FCStreamingResults *_topicSearchResults;
 }
 
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -32,10 +26,10 @@
 - (id);
 - (unsigned long long)1Â0@ù
 × ;
-- (void)edDate:(unsigned long long)arg1;
-- (void)UsageTagFavorabilityExponent;
+- (void)allSortedPuzzleIDsSinceLastPlayedDate:(unsigned long long)arg1;
+- (void)appUsageTagFavorabilityExponent;
 - (void)"NTPBTelemetryNetworkEvent"16@?0@"NTPBNetworkEvent"8;
-- (void)oQuery;
+- (void)maxTagEvergreenArticleListsToQuery;
 - (void)FCArticleController.m;
 - (id);
 - (id)1RecipeItemServiceTypeP;
@@ -43,13 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchSize; // @synthesize batchSize=_batchSize;
 @property(retain, nonatomic) FCStreamingResults *channelSearchResults; // @synthesize channelSearchResults=_channelSearchResults;
-@property(retain, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;
-@property(copy, nonatomic) CDUnknownBlockType searchResultsBlock; // @synthesize searchResultsBlock=_searchResultsBlock;
-@property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(retain, nonatomic) FCStreamingResults *topicSearchResults; // @synthesize topicSearchResults=_topicSearchResults;
-@property(nonatomic) unsigned long long userFacingTagOptions; // @synthesize userFacingTagOptions=_userFacingTagOptions;
 
 @end
 

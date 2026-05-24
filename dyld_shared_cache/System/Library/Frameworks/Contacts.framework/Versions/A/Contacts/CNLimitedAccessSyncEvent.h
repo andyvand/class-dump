@@ -9,9 +9,6 @@
 @interface CNLimitedAccessSyncEvent
 {
     _Bool _isActive;
-    NSString *_bundleID;
-    NSString *_contactID;
-    long long _sequenceNumber;
 }
 
 + (_Bool);
@@ -19,8 +16,8 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)npostNameFetchEscrowRecords}d ;
+- (void)temporaryPlaceholderFromItem:(long long)arg1;
 - (long long);
 - (void);
 - (void);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(retain, nonatomic) NSString *contactID; // @synthesize contactID=_contactID;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(nonatomic) long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 
 @end
 

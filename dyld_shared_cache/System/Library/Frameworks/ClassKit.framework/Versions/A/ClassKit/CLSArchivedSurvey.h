@@ -6,18 +6,14 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray, NSString;
-
 @interface CLSArchivedSurvey : CLSObject
 {
     long long _type;
-    NSString *_title;
-    NSString *_authorID;
 }
 
 + (id);
-+ (_Bool);
-- (void);
++ (_Bool)_buildAutoEnableableDataclassesAndActionsForAccount:dataclassesForEnablement:completion: /* Error: Ran out of types for this method. */;
+- (void)info structure;
 - (id);
 - (id);
 - (id);
@@ -31,17 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *archivedSurveySteps;
-@property(readonly, copy, nonatomic) NSString *authorID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title;
-@property(nonatomic) long long type;
 
 @end
 

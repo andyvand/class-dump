@@ -4,25 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface AWDSiriSession
 {
     unsigned long long _sessionEndTimestamp;
-    unsigned long long _sessionStartTimestamp;
-    unsigned long long _timestamp;
-    NSString *_companionModel;
-    NSString *_companionOS;
-    NSMutableArray *_siriRequests;
-    struct {
-        unsigned int sessionEndTimestamp:1;
-        unsigned int sessionStartTimestamp:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 + (Class);
-- (unsigned long long);
+- (unsigned long long)+;
 - (id);
 - (id);
 - (void);
@@ -31,44 +19,34 @@
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (_Bool)@9I;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id)@9;
+- (id)�K;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)a;
 - (void);
 - (void);
-- (void);
+- (void)H/;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *companionModel; // @synthesize companionModel=_companionModel;
-@property(retain, nonatomic) NSString *companionOS; // @synthesize companionOS=_companionOS;
-@property(readonly, nonatomic) _Bool hasCompanionModel;
-@property(readonly, nonatomic) _Bool hasCompanionOS;
-@property(nonatomic) _Bool hasSessionEndTimestamp;
-@property(nonatomic) _Bool hasSessionStartTimestamp;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long sessionEndTimestamp; // @synthesize sessionEndTimestamp=_sessionEndTimestamp;
-@property(nonatomic) unsigned long long sessionStartTimestamp; // @synthesize sessionStartTimestamp=_sessionStartTimestamp;
-@property(retain, nonatomic) NSMutableArray *siriRequests; // @synthesize siriRequests=_siriRequests;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

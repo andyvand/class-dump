@@ -7,8 +7,6 @@
 @interface CalendarWidget.NarrowMultidayLayout.SingleDayViewModel.HeaderViewModel
 {
     id id;
-    id date;
-    id height;
 }
 
 @end

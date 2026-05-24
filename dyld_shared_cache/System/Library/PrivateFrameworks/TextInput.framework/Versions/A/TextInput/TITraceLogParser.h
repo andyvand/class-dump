@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface TITraceLogParser
 {
     id <TITraceLogParsingDelegate> _delegate;
-    unsigned long long _version;
 }
 
 - (void);
@@ -32,7 +31,6 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(nonatomic) __weak id <TITraceLogParsingDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) unsigned long long version; // @synthesize version=_version;
 
 @end

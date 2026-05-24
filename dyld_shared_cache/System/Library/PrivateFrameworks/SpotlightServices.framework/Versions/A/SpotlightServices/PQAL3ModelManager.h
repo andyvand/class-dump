@@ -4,42 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, SSSearchToolModelConfig;
+@class NSCondition;
 
 @interface PQAL3ModelManager
 {
     NSCondition *_condition;
-    _Bool _loaded;
-    SSSearchToolModelConfig *_modelConfig;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (float);
-- (id);
-- (double);
-- (void);
-- (id);
++ (id)fileURLWithPath: /* Error: Ran out of types for this method. */;
++ (id)_videoViewConfiguration;
++ (id)_hideTapHighlight;
++ (id)_doneAddingFetchers;
+- (void)trailingIconBadge;
+- (void)setPrefersBehavioralStylePad:(id)arg1;
+- (_Bool)requestCapabilitiesWithCompletionHandler:(id)arg1;
+- (_Bool)replacePointerAtIndex:withPointer: /* Error: Ran out of types for this method. */;
+- (id)indexOfSelectedItem;
+- (id)indexOfObjectPassingTest:(unsigned long long)arg1;
+- (id)immediateActionRecognizerWillPrepare:(unsigned long long)arg1;
+- (float)hostForPreviewSummary;
+- (id)hasLoadedResource;
+- (double)canAdjustHorizontalPaddingForFixedSize;
 - (void);
 - (id);
-- (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void)imer;
+- (void);
+- (id)8@"NSUUID"16;
+- (_Bool);
+- (void)_quiescenceTimer;
 
 // Remaining properties
 @property _Bool loaded; // @synthesize loaded=_loaded;
-@property(retain, nonatomic) SSSearchToolModelConfig *modelConfig; // @synthesize modelConfig=_modelConfig;
 
 @end
 

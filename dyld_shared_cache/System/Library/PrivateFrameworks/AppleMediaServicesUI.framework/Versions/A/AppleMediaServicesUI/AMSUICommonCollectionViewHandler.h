@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUICommonCollectionView, NSString;
-@protocol AMSUICommonCollectionViewDelegate;
+@class AMSUICommonCollectionView;
 
 __attribute__((visibility("hidden")))
 @interface AMSUICommonCollectionViewHandler
 {
     AMSUICommonCollectionView *_collectionView;
-    id <AMSUICommonCollectionViewDelegate> _delegate;
 }
 
 - (id);
@@ -21,18 +19,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)erredFont: /* Error: Ran out of types for this method. */;
+- (void)setPreferredFont: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) __weak AMSUICommonCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <AMSUICommonCollectionViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

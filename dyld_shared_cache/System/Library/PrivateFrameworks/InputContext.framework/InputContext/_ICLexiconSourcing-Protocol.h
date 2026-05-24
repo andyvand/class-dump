@@ -5,5 +5,7 @@
 //
 
 @protocol _ICLexiconSourcing
+- (void)(;
+- (void)(8;
 @end
 

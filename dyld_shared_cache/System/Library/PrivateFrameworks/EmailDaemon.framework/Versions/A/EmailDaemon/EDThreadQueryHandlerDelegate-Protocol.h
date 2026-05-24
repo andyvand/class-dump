@@ -5,5 +5,6 @@
 //
 
 @protocol EDThreadQueryHandlerDelegate
+- (void)D;
 @end
 

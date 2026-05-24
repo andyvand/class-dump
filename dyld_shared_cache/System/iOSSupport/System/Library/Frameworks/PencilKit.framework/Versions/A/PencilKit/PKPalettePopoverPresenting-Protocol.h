@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
+@class NSArray, UIViewController;
 
 @protocol PKPalettePopoverPresenting
+- (NSArray *);
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *palettePopoverPresentingController;

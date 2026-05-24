@@ -4,51 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_source, OS_os_activity;
+@class NSObject;
+@protocol OS_os_activity;
 
 __attribute__((visibility("hidden")))
 @interface C2MultipeerClientContext
 {
     _Bool _hasReplied;
-    NSObject<OS_os_activity> *_osActivity;
-    unsigned long long _startTimestamp;
-    NSMutableSet *_discoveryPeers;
-    NSString *_chunkDataRequestedFromPeer;
-    NSObject<OS_dispatch_source> *_timeoutTrigger;
-    CDUnknownBlockType _chunkDataCallback;
 }
 
-- (id);
+- (id)i";
+- (void);
+- (void);
+- (void);
+- (void)}S1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)j;
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)L;
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType chunkDataCallback; // @synthesize chunkDataCallback=_chunkDataCallback;
-@property(retain, nonatomic) NSString *chunkDataRequestedFromPeer; // @synthesize chunkDataRequestedFromPeer=_chunkDataRequestedFromPeer;
-@property(retain, nonatomic) NSMutableSet *discoveryPeers; // @synthesize discoveryPeers=_discoveryPeers;
-@property(nonatomic) _Bool hasReplied; // @synthesize hasReplied=_hasReplied;
 @property(retain, nonatomic) NSObject<OS_os_activity> *osActivity; // @synthesize osActivity=_osActivity;
-@property(nonatomic) unsigned long long startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timeoutTrigger; // @synthesize timeoutTrigger=_timeoutTrigger;
 
 @end
 

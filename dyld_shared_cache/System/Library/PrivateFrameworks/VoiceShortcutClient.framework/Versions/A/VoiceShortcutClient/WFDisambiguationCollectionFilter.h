@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LNAppShortcutDynamicOptionsProviderReference, NSString;
+@class NSString;
 
 @interface WFDisambiguationCollectionFilter
 {
     NSString *_systemEntityCollectionIdentifier;
-    LNAppShortcutDynamicOptionsProviderReference *_namedQueryReference;
 }
 
 + (_Bool);
 - (id);
+- (void):(id)arg1 {;
+- (void)({;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void)ñ^1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) LNAppShortcutDynamicOptionsProviderReference *namedQueryReference; // @synthesize namedQueryReference=_namedQueryReference;
 @property(retain, nonatomic) NSString *systemEntityCollectionIdentifier; // @synthesize systemEntityCollectionIdentifier=_systemEntityCollectionIdentifier;
 
 @end

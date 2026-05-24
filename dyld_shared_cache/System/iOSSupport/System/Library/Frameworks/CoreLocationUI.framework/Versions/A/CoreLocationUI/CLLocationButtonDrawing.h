@@ -4,60 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocationButtonTag, NSString, UISSlotStyle, UISTextLineDrawing, UISVectorGlyphDrawing;
+@class CLLocationButtonTag, UISSlotStyle;
 
 @interface CLLocationButtonDrawing
 {
     CLLocationButtonTag *_currentTag;
     UISSlotStyle *_style;
-    _Bool _remote;
-    unsigned int _secureName;
-    NSString *_localizedTitle;
-    UISTextLineDrawing *_textDrawing;
-    UISVectorGlyphDrawing *_glyphDrawing;
-    struct CGSize _neededSize;
-    struct CGSize _engravedSize;
 }
 
-+ (id);
++ (id)zoomCenterRatioZ;
+- (id)strideIntervalX;
+- (void)_containerBounds;
+- (void)_geosize;
+- (void)_magnifyState;
+- (struct CGSize)_showColorPicker;
+- (id)_selectedX;
 - (id);
-- (void);
-- (void);
+- (struct CGSize)xAxisBounds;
+- (void)equalizeAxes;
+- (void)tionRegistrar;
+- (struct CGSize);
+- (struct CGImage *)not created using a MapFeature. Use the mapFeature property to avoid this exception.;
 - (void);
 - (struct CGSize);
-- (id);
-- (id);
-- (struct CGSize);
+- (unsigned int)LoupeSizeControlPoint;
 - (void);
-- (void);
-- (struct CGSize);
-- (struct CGImage *);
-- (void);
-- (struct CGSize);
-- (unsigned int);
-- (void);
-- (void);
-- (id);
+- (void)(=;
+- (id)oad=%@, ChunkSize=%zu;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect alignmentRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGSize drawingSize;
 @property(nonatomic) struct CGSize engravedSize; // @synthesize engravedSize=_engravedSize;
-@property(retain, nonatomic) UISVectorGlyphDrawing *glyphDrawing; // @synthesize glyphDrawing=_glyphDrawing;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 @property(nonatomic) struct CGSize neededSize; // @synthesize neededSize=_neededSize;
-@property(readonly, nonatomic) unsigned int secureName; // @synthesize secureName=_secureName;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UISTextLineDrawing *textDrawing; // @synthesize textDrawing=_textDrawing;
 
 @end
 

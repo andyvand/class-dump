@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray, NSObject, NSString, WFQueryDispatcher, WFTemperatureUnitProvider, WFWeatherStoreService;
-@protocol OS_dispatch_queue;
+@class WFTemperatureUnitProvider, WFWeatherStoreService;
 
 @interface WeatherService
 {
     WFTemperatureUnitProvider *_temperatureUnitProvider;
-    NSMutableArray *_clients;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    WFWeatherStoreService *_internalService;
-    WFQueryDispatcher *_queryDispatcher;
-    NSMapTable *_clientDictionary;
 }
 
 + (id);
@@ -34,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -46,7 +40,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ion name alert message;
 - (id);
 - (void);
 - (void);
@@ -56,18 +50,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSMapTable *clientDictionary; // @synthesize clientDictionary=_clientDictionary;
-@property(readonly, nonatomic) NSArray *clients;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) WFWeatherStoreService *internalService; // @synthesize internalService=_internalService;
-@property(retain) WFQueryDispatcher *queryDispatcher; // @synthesize queryDispatcher=_queryDispatcher;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) WFTemperatureUnitProvider *temperatureUnitProvider; // @synthesize temperatureUnitProvider=_temperatureUnitProvider;
 
 @end
 

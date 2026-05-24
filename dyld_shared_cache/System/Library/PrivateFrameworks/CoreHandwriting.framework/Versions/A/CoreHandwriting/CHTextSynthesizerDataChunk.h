@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CHTextSynthesizerDataChunk
 {
     _Bool _isNotDef;
-    NSString *_chunkValueOriginal;
-    NSString *_chunkValueForSynthesis;
-    long long _synthesisSuggestion;
-    struct _NSRange _rangeInOriginalString;
 }
 
-+ (_Bool);
++ (_Bool)_initWithDictionary: /* Error: Ran out of types for this method. */;
 - (long long);
-- (void);
+- (void);
 - (void);
 - (struct _NSRange);
 - (_Bool);
@@ -33,11 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *chunkValueForSynthesis; // @synthesize chunkValueForSynthesis=_chunkValueForSynthesis;
-@property(retain, nonatomic) NSString *chunkValueOriginal; // @synthesize chunkValueOriginal=_chunkValueOriginal;
-@property(readonly, nonatomic) _Bool isNotDef; // @synthesize isNotDef=_isNotDef;
 @property(nonatomic) struct _NSRange rangeInOriginalString; // @synthesize rangeInOriginalString=_rangeInOriginalString;
-@property(readonly, nonatomic) long long synthesisSuggestion; // @synthesize synthesisSuggestion=_synthesisSuggestion;
 
 @end
 

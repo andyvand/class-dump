@@ -22,7 +22,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);

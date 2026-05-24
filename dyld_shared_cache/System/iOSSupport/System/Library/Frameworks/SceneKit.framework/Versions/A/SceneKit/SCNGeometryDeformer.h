@@ -8,15 +8,15 @@
 {
 }
 
-+ (_Bool);
-- (unsigned long long);
++ (_Bool)creditCardSecurityCodeFieldLabels;
+- (unsigned long long)qA;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);

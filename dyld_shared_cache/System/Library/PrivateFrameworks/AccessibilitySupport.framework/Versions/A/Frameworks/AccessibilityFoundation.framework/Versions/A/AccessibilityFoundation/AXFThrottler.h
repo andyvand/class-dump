@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimer;
-
 @interface AXFThrottler
 {
     _Bool _shouldTryFilteringSameNotification;
-    double __minimumInterval;
-    NSDate *__lastFireTime;
-    SEL __selector;
-    id __target;
-    id __selectorArgument;
-    NSTimer *__queuedSelectorTimer;
 }
 
 + (id);
@@ -23,29 +15,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (SEL);
+- (SEL);
 - (id);
 - (void);
 - (double);
 - (id);
 - (void);
-- (void);
+- (void)didStartSession;
 - (id)Qü1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *_lastFireTime; // @synthesize _lastFireTime=__lastFireTime;
 @property(nonatomic) double _minimumInterval; // @synthesize _minimumInterval=__minimumInterval;
-@property(retain, nonatomic) NSTimer *_queuedSelectorTimer; // @synthesize _queuedSelectorTimer=__queuedSelectorTimer;
-@property(nonatomic) SEL _selector; // @synthesize _selector=__selector;
-@property(retain, nonatomic) id _selectorArgument; // @synthesize _selectorArgument=__selectorArgument;
-@property(nonatomic) __weak id _target; // @synthesize _target=__target;
-@property(nonatomic) _Bool shouldTryFilteringSameNotification; // @synthesize shouldTryFilteringSameNotification=_shouldTryFilteringSameNotification;
 
 @end
 

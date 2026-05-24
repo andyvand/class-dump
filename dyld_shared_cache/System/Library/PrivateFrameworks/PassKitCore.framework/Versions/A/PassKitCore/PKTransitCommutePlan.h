@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableDictionary, NSString, PKPassField;
+@class NSMutableDictionary;
 
 @interface PKTransitCommutePlan
 {
     NSMutableDictionary *_fieldsByKey;
-    _Bool _requiresAppletSourceOfTruth;
-    _Bool _isDeviceBound;
-    NSString *_identifier;
-    NSString *_uniqueIdentifier;
-    NSArray *_deviceAccountIdentifiers;
-    PKPassField *_title;
-    NSArray *_details;
-    unsigned long long _properties;
-    NSDate *_startDate;
-    NSDate *_expiryDate;
-    NSString *_startDateString;
-    NSString *_expiryDateString;
-    PKPassField *_usage;
 }
 
 + (_Bool);
@@ -43,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_k);
 - (void);
 - (_Bool);
 - (void);
@@ -58,21 +45,21 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)lessThan10mIntervalHistograms;
+- (void)batteryTimeRemaining;
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
+- (id)$;
 - (void);
 - (id);
-- (id);
+- (id)hh8;
 - (id)ymentTransactionGroup",&,N,V_adjustments;
-- (void)aymentProvisioningMethodMetadataRequest;
+- (void)PKPaymentProvisioningMethodMetadataRequest;
 - (void)eReason:'%@';  /* Error: Ran out of types for this method. */;
 - (id)assbook.payment.provisioning.webservices.error.request-limit-reached;
-- (void)D_REASON_VERIFICATION_FAILED;
+- (void)TRANSACTION_DECLINED_REASON_VERIFICATION_FAILED;
 - (void)°ºÿ;
 
 @end

@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBListShortcutsIntentResponse
 {
     struct _has;
-    NSArray *_shortcuts;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool)1!;
 - (unsigned long long);
 - (id);
 - (id);
@@ -28,18 +27,10 @@
 - (void);
 - (id);
 - (id);
-- (void)its;
+- (void)astronomicalUnits;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *shortcuts; // @synthesize shortcuts=_shortcuts;
-@property(readonly, nonatomic) unsigned long long shortcutsCount;
-@property(readonly) Class superclass;
 
 @end
 

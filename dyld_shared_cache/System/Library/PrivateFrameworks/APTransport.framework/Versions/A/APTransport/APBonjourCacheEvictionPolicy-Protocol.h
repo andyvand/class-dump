@@ -5,5 +5,6 @@
 //
 
 @protocol APBonjourCacheEvictionPolicy
+- (_Bool)`;
 @end
 

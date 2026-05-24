@@ -7,18 +7,11 @@
 @interface AppleMediaServicesUI.ReviewExtensionService
 {
     id xpcConnection;
-    id _context;
-    id _state;
-    id _bag;
-    id _reviewComposerDemoMode;
-    id _dialogCoordinator;
-    id _account;
-    id _$observationRegistrar;
 }
 
 - (void);
 - (id);
-- (void)ssage;
+- (void)removeMessage;
 
 @end
 

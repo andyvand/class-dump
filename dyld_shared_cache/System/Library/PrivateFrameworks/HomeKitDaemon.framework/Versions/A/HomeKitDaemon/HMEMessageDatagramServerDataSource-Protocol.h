@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class HMEMessageDatagramServer, NSArray, NSSet;
+@protocol HMETimerProvider;
 
 @protocol HMEMessageDatagramServerDataSource
+- (id <HMETimerProvider>);
+- (NSSet *)performZoom:(HMEMessageDatagramServer *)arg1;
 - (NSArray *)× ;
 @end
 

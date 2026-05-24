@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)kCVPixelFormatType_OneComponent16 and destination buffer kCVPixelFormatType_DepthFloat32.;
 + (void);
 - (id);
-- (_Bool);
+- (_Bool)ld"16@"<UIEditMenuInteractionAnimating>"24;
 - (id);
 - (id);
 - (id);

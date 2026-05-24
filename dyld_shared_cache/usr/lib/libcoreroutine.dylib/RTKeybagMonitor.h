@@ -9,8 +9,8 @@
 }
 
 - (_Bool);
-- (_Bool);
-- (int);
+- (_Bool)deleteRecordAll;
+- (int)SHA1;
 
 @end
 

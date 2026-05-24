@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMSetupMissingAssetsDetected : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    NSArray *_servicesMissingAssets;
-    _Bool _hasContextId;
 }
 
 - (void);
@@ -27,23 +25,20 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)/crypto/ts/ts_req_utils.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id)xecutionEvent;
-- (id)dowLog: /* Error: Ran out of types for this method. */;
+- (id)setIsShadowLog: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ð±ÿ×É¯5.&;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *servicesMissingAssets; // @synthesize servicesMissingAssets=_servicesMissingAssets;
 
 @end
 

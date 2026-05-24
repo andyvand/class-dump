@@ -6,67 +6,46 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSDate, NSString;
+@class NSString;
 
 @interface LPApplePhotosMomentMetadata : LPSpecializationMetadata
 {
     NSString *_title;
-    unsigned long long _photoCount;
-    unsigned long long _videoCount;
-    unsigned long long _otherItemCount;
-    LPImage *_keyPhoto;
-    NSDate *_expirationDate;
-    NSDate *_earliestAssetDate;
-    NSDate *_latestAssetDate;
 }
 
-+ (id);
++ (id)socialLayerFullScreenBalloonController;
 + (_Bool);
+- (void)supplementaryItemWithLayoutSize:(unsigned long long)arg1 elementKind:containerAnchor: /* Error: Ran out of types for this method. */;
+- (void)superviewOfView:(unsigned long long)arg1 matchingClass: /* Error: Ran out of types for this method. */;
+- (void)suggestionViewLayout;
+- (void)suggestionView:(id)arg1 indexPathOfEntityWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)suggestionBannerTopConstraint;
+- (id)stopSharingWithHandle:(id)arg1 inChat: /* Error: Ran out of types for this method. */;
+- (id)stopSendingMotionEvents;
+- (id)stopRecording:(id)arg1;
+- (void)stopPlayingAlert;
+- (unsigned long long)stickerViewForStickerChatItem:snapshotEffectView:completion: /* Error: Ran out of types for this method. */;
+- (id)stewieConversationID;
+- (id)spaceSavedByDeletingNonSyncedAttachments;
+- (_Bool)sizedFullTranscript;
+- (void)shouldShowRaiseMessageStatus;
+- (id)shouldLoadInitialViewingMessageCount;
+- (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)application:(id)arg1 willContinueUserActivityWithType: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)\;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSDate *earliestAssetDate; // @synthesize earliestAssetDate=_earliestAssetDate;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) LPImage *keyPhoto; // @synthesize keyPhoto=_keyPhoto;
-@property(copy, nonatomic) NSDate *latestAssetDate; // @synthesize latestAssetDate=_latestAssetDate;
-@property(nonatomic) unsigned long long otherItemCount; // @synthesize otherItemCount=_otherItemCount;
-@property(nonatomic) unsigned long long photoCount; // @synthesize photoCount=_photoCount;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) unsigned long long videoCount; // @synthesize videoCount=_videoCount;
 
 @end
 

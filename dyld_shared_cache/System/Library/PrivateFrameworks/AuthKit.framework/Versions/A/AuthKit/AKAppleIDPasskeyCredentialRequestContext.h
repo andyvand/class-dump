@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface AKAppleIDPasskeyCredentialRequestContext
 {
     NSString *_relyingPartyIdentifier;
-    NSData *_challenge;
-    NSData *_userID;
-    NSString *_credentialName;
-    NSString *_originalChallenge;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -26,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)N�;
 - (id);
 - (void);
 - (void);
@@ -37,11 +33,7 @@
 - (void)ÐÔ;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *challenge; // @synthesize challenge=_challenge;
-@property(copy, nonatomic) NSString *credentialName; // @synthesize credentialName=_credentialName;
-@property(copy, nonatomic) NSString *originalChallenge; // @synthesize originalChallenge=_originalChallenge;
 @property(copy, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
-@property(copy, nonatomic) NSData *userID; // @synthesize userID=_userID;
 
 @end
 

@@ -6,16 +6,14 @@
 
 #import <CallKit/CXCallDirectoryLabeledPhoneNumberEntryData.h>
 
-@class NSMutableData, NSMutableDictionary;
+@class NSMutableData;
 
 @interface CXCallDirectoryMutableLabeledPhoneNumberEntryData : CXCallDirectoryLabeledPhoneNumberEntryData
 {
     NSMutableData *_mutablePhoneNumberData;
-    NSMutableData *_mutableLabelData;
-    NSMutableDictionary *_labelToLabelDataOffset;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -28,8 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *labelToLabelDataOffset; // @synthesize labelToLabelDataOffset=_labelToLabelDataOffset;
-@property(retain, nonatomic) NSMutableData *mutableLabelData; // @synthesize mutableLabelData=_mutableLabelData;
 @property(retain, nonatomic) NSMutableData *mutablePhoneNumberData; // @synthesize mutablePhoneNumberData=_mutablePhoneNumberData;
 
 @end

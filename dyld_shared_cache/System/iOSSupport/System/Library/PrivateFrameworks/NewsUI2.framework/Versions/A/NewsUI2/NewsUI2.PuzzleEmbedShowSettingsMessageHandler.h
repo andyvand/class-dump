@@ -11,7 +11,7 @@
 
 - (void);
 - (id);
-- (void)eadlineService;
+- (void)ChannelHeadlineService;
 
 @end
 

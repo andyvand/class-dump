@@ -7,13 +7,6 @@
 @interface NewsFeed.PublisherLogoProcessorRequest
 {
     id cacheIdentifier;
-    id assetHandles;
-    id publisherLogoImageSize;
-    id scale;
-    id theme;
-    id isTransparentWhiteBackground;
-    id options;
-    id assetHandle;
 }
 
 @end

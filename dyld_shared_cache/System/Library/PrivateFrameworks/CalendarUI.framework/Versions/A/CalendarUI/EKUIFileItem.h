@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface EKUIFileItem
 {
     NSData *_bookmark;
-    NSString *_displayName;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -22,7 +21,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)9
+	@9@9ZS:(id)arg1 3Z3;
 - (id);
 - (void);
 - (id)QÄ#1Â0@ù
@@ -30,7 +30,6 @@
 
 // Remaining properties
 @property(copy) NSData *bookmark; // @synthesize bookmark=_bookmark;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
 
 @end
 

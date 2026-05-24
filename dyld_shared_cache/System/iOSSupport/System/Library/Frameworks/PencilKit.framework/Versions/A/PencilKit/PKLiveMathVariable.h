@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKDrawing, PKImageView, PKMathRecognitionItem, PKMathVariable;
+@class PKDrawing;
 
 @interface PKLiveMathVariable
 {
     _Bool _didHideOriginalStrokes;
-    PKDrawing *_drawing;
-    PKMathVariable *_variable;
-    PKMathRecognitionItem *_mathItem;
-    NSArray *_originalStrokes;
-    PKDrawing *_originalStrokesDrawing;
-    PKDrawing *_scrubbedVariableDrawing;
-    PKImageView *_scrubbedVariableImageView;
-    NSArray *_tokenSymbols;
-    NSArray *_tokenStrokeIndexes;
-    struct CGRect _originalStrokesBounds;
-    struct CGRect _calculatedFitBounds;
-    struct CGRect _calculatedFitBoundsForExtraLeadingSlack;
 }
 
 - (id);
@@ -43,23 +31,11 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (id);
+- (id)et Client Session ID;
 - (void)Dñ¼ñ$òÀò'Ôó`ø14ü+lýÿ;
 
 // Remaining properties
-@property(nonatomic) struct CGRect calculatedFitBounds; // @synthesize calculatedFitBounds=_calculatedFitBounds;
-@property(nonatomic) struct CGRect calculatedFitBoundsForExtraLeadingSlack; // @synthesize calculatedFitBoundsForExtraLeadingSlack=_calculatedFitBoundsForExtraLeadingSlack;
-@property(nonatomic) _Bool didHideOriginalStrokes; // @synthesize didHideOriginalStrokes=_didHideOriginalStrokes;
 @property(readonly, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly, nonatomic) PKMathRecognitionItem *mathItem; // @synthesize mathItem=_mathItem;
-@property(readonly, nonatomic) NSArray *originalStrokes; // @synthesize originalStrokes=_originalStrokes;
-@property(readonly, nonatomic) struct CGRect originalStrokesBounds; // @synthesize originalStrokesBounds=_originalStrokesBounds;
-@property(readonly, nonatomic) PKDrawing *originalStrokesDrawing; // @synthesize originalStrokesDrawing=_originalStrokesDrawing;
-@property(retain, nonatomic) PKDrawing *scrubbedVariableDrawing; // @synthesize scrubbedVariableDrawing=_scrubbedVariableDrawing;
-@property(retain, nonatomic) PKImageView *scrubbedVariableImageView; // @synthesize scrubbedVariableImageView=_scrubbedVariableImageView;
-@property(retain, nonatomic) NSArray *tokenStrokeIndexes; // @synthesize tokenStrokeIndexes=_tokenStrokeIndexes;
-@property(retain, nonatomic) NSArray *tokenSymbols; // @synthesize tokenSymbols=_tokenSymbols;
-@property(readonly, nonatomic) PKMathVariable *variable; // @synthesize variable=_variable;
 
 @end
 

@@ -9,16 +9,6 @@
 @interface AppStoreKit.TopChartsPagePresenter : AppStoreKit.BasePresenter
 {
     id view;
-    id topChartsPageUrl;
-    id hasData;
-    id initialSegmentIndex;
-    id selectedCategoryIndexPath;
-    id title;
-    id segmentPresenters;
-    id categoriesButtonTitle;
-    id selectedCategoryGenreId;
-    id selectedCategoryAgeBandId;
-    id categories;
 }
 
 @end

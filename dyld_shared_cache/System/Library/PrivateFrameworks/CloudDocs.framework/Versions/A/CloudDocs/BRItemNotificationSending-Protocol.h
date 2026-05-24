@@ -5,6 +5,6 @@
 //
 
 @protocol BRItemNotificationSending
-- (void)angledID:(void (^)(void))arg1 usingBundle:minimumBundleVersion:bundleIcons: /* Error: Ran out of types for this method. */;
+- (void)propertiesForMangledID:(void (^)(void))arg1 usingBundle:minimumBundleVersion:bundleIcons: /* Error: Ran out of types for this method. */;
 @end
 

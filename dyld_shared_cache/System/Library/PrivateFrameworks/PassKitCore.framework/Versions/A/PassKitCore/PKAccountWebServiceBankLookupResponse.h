@@ -6,12 +6,9 @@
 
 #import <PassKitCore/PKAccountWebServiceResponse.h>
 
-@class NSString;
-
 @interface PKAccountWebServiceBankLookupResponse : PKAccountWebServiceResponse
 {
     _Bool _success;
-    NSString *_displayName;
 }
 
 - (id);
@@ -20,7 +17,6 @@
 - (void)up transferred credential;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
 @property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end

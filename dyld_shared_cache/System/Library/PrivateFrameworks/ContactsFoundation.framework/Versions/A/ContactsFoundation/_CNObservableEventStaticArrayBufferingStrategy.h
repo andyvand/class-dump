@@ -14,11 +14,11 @@
 }
 
 - (id);
-- (_Bool);
+- (_Bool)qb;
+- (id)ک;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void);
+- (void)u;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *events; // @synthesize events=_events;

@@ -15,19 +15,17 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)( ;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)%@*"cwd || kMDItemEventFlightArrivalAirportRegion="%@*"cwd || kMDItemEventFlightArrivalAirportCountry="%@*"cwd);
+- (void)(;
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *certificateSerialNumbers;
-@property(copy, nonatomic) NSArray *certificateTypes;
-@property(copy, nonatomic) NSArray *keySpecifiers;
 
 @end
 

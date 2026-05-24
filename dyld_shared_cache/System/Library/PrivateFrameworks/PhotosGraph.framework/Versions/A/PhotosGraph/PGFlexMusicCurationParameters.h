@@ -7,16 +7,6 @@
 @interface PGFlexMusicCurationParameters
 {
     id mood;
-    id moodKeywords;
-    id recentlyUsedSongs;
-    id entityUUID;
-    id useMoodKeywords;
-    id features;
-    id flexMusicSongs;
-    id genre;
-    id weightByLanguage;
-    id weightByRegion;
-    id flexMusicSongProvider;
 }
 
 - (id);

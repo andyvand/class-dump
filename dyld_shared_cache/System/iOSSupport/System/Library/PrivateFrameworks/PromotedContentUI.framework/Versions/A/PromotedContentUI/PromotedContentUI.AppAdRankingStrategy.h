@@ -7,17 +7,6 @@
 @interface PromotedContentUI.AppAdRankingStrategy
 {
     id clientRequestID;
-    id searchTerm;
-    id locale;
-    id adCandidateIDGenerator;
-    id coreSettings;
-    id filter;
-    id instanceIDGenerator;
-    id instrumentation;
-    id judge;
-    id locationManager;
-    id storefrontIDSource;
-    id tracker;
 }
 
 @end

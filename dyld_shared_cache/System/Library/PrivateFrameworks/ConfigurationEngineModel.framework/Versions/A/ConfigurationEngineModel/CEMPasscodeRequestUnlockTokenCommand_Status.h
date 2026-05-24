@@ -20,8 +20,8 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)\]{2};
+- (void)dsa signing cert;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *statusUnlockToken; // @synthesize statusUnlockToken=_statusUnlockToken;

@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHSpeechDetectorEnded, NSData;
+@class MHSchemaMHSpeechDetectorEnded;
 
 @interface MHSchemaMHSpeechDetectorContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHSpeechDetectorEnded *_ended;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -23,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)y.MoIAiI/Sources/libressl/libressl-2.2/crypto/ec/ec_curve.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -36,9 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) MHSchemaMHSpeechDetectorEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
++ (Class);
++ (id)__UIKBInputDelegateManagerAccessibility_super;
++ (void)PlatformListCellAccessibility;
 - (void);
 - (_Bool);
 - (void);

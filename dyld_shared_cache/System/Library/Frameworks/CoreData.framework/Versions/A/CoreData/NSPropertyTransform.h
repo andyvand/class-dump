@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExpression, NSString;
+@class NSExpression;
 
 __attribute__((visibility("hidden")))
 @interface NSPropertyTransform
 {
     NSExpression *_valueExpression;
-    NSString *_propertyName;
-    NSPropertyTransform *_prerequisiteTransform;
-    _Bool _replaceMissingValueOnly;
 }
 
 + (_Bool);

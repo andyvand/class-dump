@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSURL, PXSharedLibraryRule;
 @protocol PXSharedLibraryParticipant;
 
 @interface PXSharedLibraryMock
 {
     _Bool _isInPreview;
-    _Bool _isOwned;
-    _Bool _isInLocalMode;
-    _Bool _isPublished;
-    _Bool _isExiting;
-    _Bool _isDeclined;
-    NSString *_identifier;
-    id <PXSharedLibraryParticipant> _owner;
-    NSArray *_participants;
-    PXSharedLibraryRule *_rule;
-    unsigned long long _cloudPhotoCount;
-    unsigned long long _cloudVideoCount;
-    unsigned long long _cloudItemCount;
-    NSURL *_shareURL;
-    NSDate *_creationDate;
 }
 
 - (id);
@@ -51,8 +36,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)�;
+- (void)";
 - (CDStruct_aa0b146f);
 - (_Bool);
 - (void);
@@ -64,44 +49,23 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)arrayWithObject:forCount: /* Error: Ran out of types for this method. */;
+- (id)";
 - (id);
 - (id);
 - (void);
 - (id)
 × ;
-- (id)rGradingRepository:(struct _NSZone *)arg1;
+- (id)setColorGradingRepository:(struct _NSZone *)arg1;
 - (id)PXUpdateCollectionListOrderAction;
-- (void)SE_FORMAT;
+- (void)CLOUD_FEED_TWO_PERSONS_LIKED_THIS_VIDEO_PHRASE_FORMAT;
 - (_Bool)t> _Nonnull);
 - (void)IFµ®;
-- (id)esultsFeedProvider;
+- (id)LemonadeSearchCollectionResultsFeedProvider;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long cloudItemCount; // @synthesize cloudItemCount=_cloudItemCount;
-@property(readonly, nonatomic) unsigned long long cloudPhotoCount; // @synthesize cloudPhotoCount=_cloudPhotoCount;
-@property(readonly, nonatomic) unsigned long long cloudVideoCount; // @synthesize cloudVideoCount=_cloudVideoCount;
-@property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isDeclined; // @synthesize isDeclined=_isDeclined;
-@property(nonatomic) _Bool isExiting; // @synthesize isExiting=_isExiting;
-@property(readonly, nonatomic) _Bool isInLocalMode; // @synthesize isInLocalMode=_isInLocalMode;
-@property(nonatomic) _Bool isInPreview; // @synthesize isInPreview=_isInPreview;
-@property(nonatomic) _Bool isOwned; // @synthesize isOwned=_isOwned;
-@property(nonatomic) _Bool isPublished; // @synthesize isPublished=_isPublished;
 @property(copy, nonatomic) id <PXSharedLibraryParticipant> owner; // @synthesize owner=_owner;
-@property(copy, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(copy, nonatomic) PXSharedLibraryRule *rule; // @synthesize rule=_rule;
-@property(readonly, copy, nonatomic) NSURL *shareURL; // @synthesize shareURL=_shareURL;
-@property(readonly) Class superclass;
 
 @end
 

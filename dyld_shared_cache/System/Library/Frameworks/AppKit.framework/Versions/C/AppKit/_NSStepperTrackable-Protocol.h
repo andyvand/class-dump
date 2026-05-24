@@ -5,11 +5,11 @@
 //
 
 @protocol _NSStepperTrackable
+- (_Bool);
 - (void)Bß<Cß<H¤ß<ÔIäß<üM à<LS´à<Ø[@á<ìp á<TyÈá<Pðá<Püá<Øâ<ð(â<<â<<`â<à|â<â<p´â<Øâ<èâ<ÜÈã<\üã<(ä<Dxä<¨ä<8Àä<ôÜä<p²å<½ç<4¿Ìç<Ô¿àç<|Àôç<¬Á è<üÂ<è<ØÄè<øÆ è<hÉØè<ìÐèé<¸Òê<ðÓ,ê<°Ô@ê<ÐÕPê<¨Ö`ê<\×xê<èØÄê<\ÝHë<$âÔë<0åì<$çÄì<çÔì<;
-- (_Bool)ormBindingRefreshObservationContext;
+- (_Bool)_NSBinderPerformBindingRefreshObservationContext;
 
 // Remaining properties
-@property _Bool autorepeat;
 @property(getter=isHighlighted) _Bool highlighted;
 @end
 

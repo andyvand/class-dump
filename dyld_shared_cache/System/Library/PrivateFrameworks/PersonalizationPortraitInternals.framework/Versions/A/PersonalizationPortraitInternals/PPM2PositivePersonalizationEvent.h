@@ -9,10 +9,6 @@
 @interface PPM2PositivePersonalizationEvent
 {
     NSString *_activeTreatments;
-    NSString *_bundleId;
-    NSString *_clientId;
-    int _domain;
-    CDStruct_497d21fc _has;
 }
 
 + (id);
@@ -32,25 +28,18 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)_dictionaryWithPinnedConversationIdentifiers:chatMetadata:updateReason:timestamp: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (int);
+- (id)!;
+- (int);
 - (void);
 - (_Bool);
 - (id)Ô ;
 - (void)@0:8@16Q24^B32^Q40^@48 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activeTreatments; // @synthesize activeTreatments=_activeTreatments;
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) NSString *clientId; // @synthesize clientId=_clientId;
-@property(nonatomic) int domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) _Bool hasActiveTreatments;
-@property(readonly, nonatomic) _Bool hasBundleId;
 @property(readonly, nonatomic) _Bool hasClientId;
-@property(nonatomic) _Bool hasDomain;
 
 @end
 

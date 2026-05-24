@@ -9,7 +9,6 @@
 @interface PXCuratedLibraryLayoutSpecManager
 {
     NSArray *_availableThumbnailSizes;
-    long long _variant;
 }
 
 - (Class);
@@ -24,9 +23,7 @@
 - (long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *availableThumbnailSizes; // @synthesize availableThumbnailSizes=_availableThumbnailSizes;
 @property(readonly, nonatomic) PXCuratedLibraryLayoutSpec *spec; // @dynamic spec;
-@property(nonatomic) long long variant; // @synthesize variant=_variant;
 
 @end
 

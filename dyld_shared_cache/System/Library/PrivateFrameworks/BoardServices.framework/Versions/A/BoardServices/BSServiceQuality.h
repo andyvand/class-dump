@@ -9,22 +9,18 @@
 @interface BSServiceQuality
 {
     NSString *_serviceClassName;
-    _Bool _singleton;
-    _Bool _main;
-    unsigned int _serviceClass;
-    int _relativePriority;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id));
 + (id);
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -33,7 +29,6 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) int relativePriority; // @synthesize relativePriority=_relativePriority;
 @property(readonly, nonatomic) unsigned int serviceClass; // @synthesize serviceClass=_serviceClass;
 
 @end

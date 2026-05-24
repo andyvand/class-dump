@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIRAWTemperatureAdjust : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputWhitePoint;
-    NSNumber *inputEV;
-    NSNumber *inputVersion;
 }
 
 - (id)¨¨¨¨ ££;

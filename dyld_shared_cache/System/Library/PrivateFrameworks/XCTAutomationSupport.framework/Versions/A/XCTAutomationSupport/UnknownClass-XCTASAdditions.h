@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (XCTASAdditions)
-- (id);
-- (id);
+- (id);
+- (id)R;
 @end
 

@@ -4,75 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
+@class NSString;
 
 @interface _PSRecipient
 {
     _Bool _familyHeuristic;
-    _Bool _photosInference;
-    NSString *_identifier;
-    NSString *_handle;
-    NSString *_handleString;
-    long long _handleType;
-    NSString *_displayName;
-    CNContact *_contact;
-    NSString *_senderHandle;
-    NSString *_givenName;
-    NSString *_familyName;
-    NSString *_mostRecentTransportBundleId;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id), requestHeaders=
+%@,
+error=%@, httpStatusCode=%d;
 - (id);
 - (void);
-- (_Bool);
 - (id);
+- (id)@;
 - (void);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (void)QLTAnalyticsManager;
 - (void);
-- (void);
+- (_Bool);
 - (id);
+- (id)N7morphun9tokenizer6locale2th24ThTokenExtractorIteratorE;
+- (void)J*J
+;
+- (void)JJ
+;
 - (id);
-- (id);
+- (id)i;
+- (id)i?;
 - (void);
 - (id);
 - (id);
 - (void);
 - (long long);
-- (id)r:contact: /* Error: Ran out of types for this method. */;
+- (id)createErasedHandleFeedbackWithBundleIdentifier:contact: /* Error: Ran out of types for this method. */;
 - (void)<ÒÒTÔ;
 - (void)ster.ContactCatalogTask;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic) _Bool familyHeuristic; // @synthesize familyHeuristic=_familyHeuristic;
-@property(copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(copy, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(copy, nonatomic) NSString *handleString; // @synthesize handleString=_handleString;
-@property long long handleType; // @synthesize handleType=_handleType;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *mostRecentTransportBundleId; // @synthesize mostRecentTransportBundleId=_mostRecentTransportBundleId;
-@property(nonatomic) _Bool photosInference; // @synthesize photosInference=_photosInference;
 @property(copy, nonatomic) NSString *senderHandle; // @synthesize senderHandle=_senderHandle;
 
 @end

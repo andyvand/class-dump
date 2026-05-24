@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)task:(id)arg1 _getAuthHeadersForResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_callCompletionHandlerInline;
+- (void)_ZN12SocketStream4readEP14__CFReadStreamPhlP13CFStreamErrorS2_;
 - (id);
 - (void)PcÐÿx2Ð<A;
 

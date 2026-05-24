@@ -6,30 +6,26 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIPaletteCentroid : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputPaletteImage;
-    NSNumber *inputPerceptual;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)!;
 - (id);
 - (void);
 - (id)e}z|xt|Shao?\SiRc[nUrn~io~~~~bjej/K;_;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) CIImage *inputPaletteImage; // @synthesize inputPaletteImage;
-@property(retain, nonatomic) NSNumber *inputPerceptual; // @synthesize inputPerceptual;
 
 @end
 

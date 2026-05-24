@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ACAccount;
+
 @protocol AADaemonProtocol
+- (void)ayloads;
+- (void)ionPoint;
+- (void)FromData:(ACAccount *)arg1 ] unable to create authorization from data:(void (^)(AALoginAccountResponse *, NSError *))arg2 %d;
+- (void)CPProvisionalEnrollmentExpirationDate;
 @end
 

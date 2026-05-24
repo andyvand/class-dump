@@ -10,17 +10,16 @@ __attribute__((visibility("hidden")))
 @interface FI_TBrowserTableColumnViewController
 {
     FI_TColumnViewController *_columnViewController;
-    struct TNotificationCenterObserver _btvWillMoveToSuperviewObserver;
 }
 
-- (id);
-- (id);
+- (id);
+- (id));
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)s;
 - (void)¨;
 
 @end

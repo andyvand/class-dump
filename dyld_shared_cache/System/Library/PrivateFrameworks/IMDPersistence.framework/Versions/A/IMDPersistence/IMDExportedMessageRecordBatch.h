@@ -6,20 +6,18 @@
 
 #import <IMDPersistence/IMDExportedRecordBatch.h>
 
-@class IMDExportedMessageRecordBatchResult, IMDFilteredMessageCounts, IMDMessageRecordExporterState;
+@class IMDMessageRecordExporterState;
 
 @interface IMDExportedMessageRecordBatch : IMDExportedRecordBatch
 {
     IMDMessageRecordExporterState *state;
-    IMDFilteredMessageCounts *filterCounts;
-    IMDExportedMessageRecordBatchResult *result;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ButtonBar",&,N,V_buttonBar;
 - (id);
 - (id);
 - (void);
@@ -27,8 +25,6 @@
 - (void)WHERE ck_sync_state == 1 AND transfer_state == 5 AND ck_server_change_token_blob != '' AND ck_server_change_token_blob NOT NULL ORDER BY created_date ASC LIMIT ? OFFSET ?;;
 
 // Remaining properties
-@property(nonatomic, readonly) IMDFilteredMessageCounts *filterCounts; // @synthesize filterCounts;
-@property(nonatomic, readonly) IMDExportedMessageRecordBatchResult *result; // @synthesize result;
 @property(nonatomic, readonly) IMDMessageRecordExporterState *state; // @synthesize state;
 
 @end

@@ -13,8 +13,6 @@
         unsigned int _validatedKeys:1;
         unsigned int _reservedExpressionFlags:28;
     } _expressionFlags;
-    unsigned int reserved;
-    unsigned long long _expressionType;
 }
 
 @end

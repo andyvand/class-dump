@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCThreadSafeMutableDictionary;
 @protocol FCBackgroundTaskable;
 
 @interface FCRemoteDefaults
 {
     id <FCBackgroundTaskable> _backgroundTaskable;
-    FCThreadSafeMutableDictionary *_remoteDefaults;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
+- (void)testingTransitionAnimationCompletionHandler;
+- (id);
+- (id)invalidAccountType;
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id)noreCache:configuration:completion: /* Error: Ran out of types for this method. */;
+- (id)_fetchEntitlementsWithIgnoreCache:configuration:completion: /* Error: Ran out of types for this method. */;
 - (_Bool)cationController _registerDeviceToken:deviceDigestMode:] /* Error: Ran out of types for this method. */;
 - (void)aSecureContainerIdentifier:storeFrontID:environment:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <FCBackgroundTaskable> backgroundTaskable; // @synthesize backgroundTaskable=_backgroundTaskable;
-@property(readonly, nonatomic) FCThreadSafeMutableDictionary *remoteDefaults; // @synthesize remoteDefaults=_remoteDefaults;
 
 @end
 

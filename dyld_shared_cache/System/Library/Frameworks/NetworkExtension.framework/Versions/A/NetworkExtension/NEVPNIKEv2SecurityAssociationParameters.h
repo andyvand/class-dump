@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface NEVPNIKEv2SecurityAssociationParameters
 {
     int _lifetimeMinutes;
-    long long _encryptionAlgorithm;
-    long long _integrityAlgorithm;
-    long long _diffieHellmanGroup;
-    NSArray *_postQuantumKeyExchangeMethods;
 }
 
-+ (_Bool);
++ (_Bool)setTransportType: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (int);
@@ -31,15 +25,11 @@
 - (void);
 - (id);
 - (void)gsManager";
-- (_Bool)otifyStatusEvent:(id)arg1;
-- (id)portedCriticalPayload;
+- (_Bool)setPrivateNotifyStatusEvent:(id)arg1;
+- (id)UnsupportedCriticalPayload;
 
 // Remaining properties
-@property long long diffieHellmanGroup; // @synthesize diffieHellmanGroup=_diffieHellmanGroup;
 @property long long encryptionAlgorithm; // @synthesize encryptionAlgorithm=_encryptionAlgorithm;
-@property long long integrityAlgorithm; // @synthesize integrityAlgorithm=_integrityAlgorithm;
-@property int lifetimeMinutes; // @synthesize lifetimeMinutes=_lifetimeMinutes;
-@property(copy) NSArray *postQuantumKeyExchangeMethods; // @synthesize postQuantumKeyExchangeMethods=_postQuantumKeyExchangeMethods;
 
 @end
 

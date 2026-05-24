@@ -10,15 +10,15 @@
 
 + (void);
 + (void);
-+ (id);
-+ (id);
++ (id)C;
++ (id)!;
 + (void);
-+ (void);
++ (void)%;
 + (_Bool);
-+ (_Bool);
++ (_Bool)BA9	;
 + (id);
 + (void);
-+ (void);
++ (void);
 + (_Bool);
 + (void);
 + (void);

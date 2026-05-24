@@ -7,7 +7,6 @@
 @interface PhotosGraph.UpNext.MatchingResult
 {
     id target;
-    id similarity;
 }
 
 @end

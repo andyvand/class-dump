@@ -5,5 +5,6 @@
 //
 
 @protocol _EARSpeakerCodeWriterInterface
+- (void);
 @end
 

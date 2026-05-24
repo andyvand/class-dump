@@ -6,45 +6,34 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSString, NSTableView, NSTextField;
+@class NSTableView;
 
 __attribute__((visibility("hidden")))
 @interface NSDebugResponderChainViewController : NSViewController
 {
     NSTableView *_tableView;
-    NSTextField *_actionSelectorTextField;
-    NSArray *_displayedItems;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)Ti;
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
+- (void)ions=BBBBBQQ}>32;
+- (void)RLSessionConnection"16@"NSURLResponse"24@?<v@?{SessionResponseOptions=BBBBBQQ}>32;
+- (id);
+- (id)unsupported draft version:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void)ToWindows;
+- (void)_resizingShouldSnapToWindows;
 - (void)¼×ÿ	#B;
 - (void);
 - (id)0RÿI´;
 
 // Remaining properties
-@property(retain) NSTextField *actionSelectorTextField; // @synthesize actionSelectorTextField=_actionSelectorTextField;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSArray *displayedItems; // @synthesize displayedItems=_displayedItems;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end

@@ -10,19 +10,13 @@ __attribute__((visibility("hidden")))
 @interface PRCandidate
 {
     NSArray *_candidateWords;
-    struct _NSRange _replacementRange;
-    double _errorScore;
-    double _linguisticScore;
-    double _lexiconScore;
-    _Bool _blocklisted;
-    _Bool _hasCustomErrorScore;
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)P;
 + (id);
 + (id);
 + (id);
@@ -53,15 +47,6 @@ __attribute__((visibility("hidden")))
 - (double);
 
 // Remaining properties
-@property(nonatomic, getter=isBlocklisted) _Bool blocklisted; // @synthesize blocklisted=_blocklisted;
-@property(readonly, copy, nonatomic) NSArray *candidateWords; // @synthesize candidateWords=_candidateWords;
-@property(nonatomic, getter=hasCustomErrorScore) _Bool customErrorScore; // @synthesize customErrorScore=_hasCustomErrorScore;
-@property(nonatomic) double errorScore; // @synthesize errorScore=_errorScore;
-@property(nonatomic) double lexiconScore; // @synthesize lexiconScore=_lexiconScore;
-@property(nonatomic) double linguisticScore; // @synthesize linguisticScore=_linguisticScore;
-@property(readonly, nonatomic) unsigned long long numberOfWords;
-@property(readonly, nonatomic) struct _NSRange replacementRange; // @synthesize replacementRange=_replacementRange;
-@property(readonly, nonatomic) double score;
 @property(readonly, copy, nonatomic) NSString *string;
 
 @end

@@ -5,6 +5,9 @@
 //
 
 @protocol TSWPReplaceAction
+- (void)ueue;
+- (struct _NSRange)pping to 0 [stalled] - Unpreparing for pause;
+- (unsigned long long);
 - (long long)e playing when it is told to teardown;
 @end
 

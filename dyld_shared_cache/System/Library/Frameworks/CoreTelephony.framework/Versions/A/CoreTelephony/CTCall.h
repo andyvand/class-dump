@@ -9,21 +9,19 @@
 @interface CTCall
 {
     NSString *_callState;
-    NSString *_callID;
 }
 
 + (id);
+- (void)B;
+- (id)q!;
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)T;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *callID; // @synthesize callID=_callID;
 @property(copy, nonatomic) NSString *callState; // @synthesize callState=_callState;
 
 @end

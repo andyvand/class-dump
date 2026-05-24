@@ -11,9 +11,6 @@
 @interface BRSharingModifyRecordAccessOperation : BRShareOperation
 {
     NSURL *_fileURL;
-    _Bool _allowAccess;
-    CDUnknownBlockType _allowAccessCompletionBlock;
-    CDUnknownBlockType _accessAllowedCompletionBlock;
 }
 
 - (void);
@@ -26,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType accessAllowedCompletionBlock; // @synthesize accessAllowedCompletionBlock=_accessAllowedCompletionBlock;
 @property(copy) CDUnknownBlockType allowAccessCompletionBlock; // @synthesize allowAccessCompletionBlock=_allowAccessCompletionBlock;
 
 @end

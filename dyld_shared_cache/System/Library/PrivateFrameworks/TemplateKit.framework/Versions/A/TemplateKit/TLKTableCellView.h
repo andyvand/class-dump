@@ -9,21 +9,20 @@
 @interface TLKTableCellView
 {
     NSView *_contentView;
-    struct NSEdgeInsets _customEdgeInsets;
 }
 
 + (double);
 - (struct NSEdgeInsets);
-- (void);
+- (void)status key in reply from daemon;
 - (_Bool);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -32,7 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) struct NSEdgeInsets customEdgeInsets; // @synthesize customEdgeInsets=_customEdgeInsets;
 
 @end
 

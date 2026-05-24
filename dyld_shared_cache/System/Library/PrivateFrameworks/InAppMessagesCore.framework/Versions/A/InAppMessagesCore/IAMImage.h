@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface IAMImage
 {
     unsigned int _width;
-    unsigned int _height;
-    NSString *_identifier;
-    NSURL *_url;
 }
 
 - (id);
@@ -19,16 +16,13 @@
 - (id);
 - (unsigned int);
 - (unsigned int);
-- (id);
-- (id);
+- (id)hasParsecPolicyPhraseMatch;
+- (id)enum_kMDItemPhotosDescription_QueryTermsNum_Var_Prefix;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int height; // @synthesize height=_height;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) unsigned int width; // @synthesize width=_width;
 
 @end
 

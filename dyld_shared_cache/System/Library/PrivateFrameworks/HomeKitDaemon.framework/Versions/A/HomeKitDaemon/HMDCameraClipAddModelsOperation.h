@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDCameraClipOperation.h>
 
-@class NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraClipAddModelsOperation : HMDCameraClipOperation
@@ -14,21 +14,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)q;
-- (void);
+- (void)_performBlockAfterInitialConnection:(id)arg1;
 - (id);
 - (void);
 - (void)ã!¬Bù1ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSSet *modelsToAdd;
-@property(readonly) Class superclass;
 
 @end
 

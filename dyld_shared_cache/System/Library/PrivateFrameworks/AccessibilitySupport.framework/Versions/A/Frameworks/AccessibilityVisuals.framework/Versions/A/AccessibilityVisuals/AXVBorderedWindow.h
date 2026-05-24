@@ -6,12 +6,11 @@
 
 #import <AccessibilityVisuals/AXVWindow.h>
 
-@class AXVBorderedView, NSColor;
+@class AXVBorderedView;
 
 @interface AXVBorderedWindow : AXVWindow
 {
     unsigned long long _borderStyle;
-    AXVBorderedView *__customBorderedView;
 }
 
 + (id);
@@ -25,17 +24,17 @@
 - (void);
 - (id);
 - (double);
-- (struct CGRect);
+- (struct CGRect)T@@y	?%@qa;
 - (struct CGSize);
-- (struct CGPoint);
+- (struct CGPoint)Q;
 - (struct CGRect);
-- (id);
+- (id)@;
 - (struct CGRect);
 - (double);
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void)tainPtr<id>, WTF:(id)arg1:DefaultHash<unsigned long>, WTF::HashTraits<unsigned long>, WTF::HashTraits<WTF::RetainPtr<id>>, WTF::HashTableTraits, WTF::ShouldValidateKey::Yes, WTF::FastMalloc>="m_impl"{HashTable<unsigned long, WTF::KeyValuePair<unsigned long, WTF::RetainPtr<id>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<unsigned long, WTF::RetainPtr<id>>>, WTF::DefaultHash<unsigned long>, WTF::HashMap<unsigned long, WTF::RetainPtr<id>>::KeyValuePairTraits, WTF::HashTraits<unsigned long>, WTF::FastMalloc>="m_table"^v}} /* Error: Ran out of types for this method. */;
+- (void)elay;
 - (void);
 - (id);
 - (id);
@@ -45,20 +44,10 @@
 - (void);
 - (void);
 - (void);
-- (void)omicCursorImage;
+- (void)__atomicCursorImage;
 
 // Remaining properties
 @property(retain, nonatomic) AXVBorderedView *_customBorderedView; // @synthesize _customBorderedView=__customBorderedView;
-@property(copy, nonatomic) NSColor *borderColor;
-@property(nonatomic) unsigned long long borderStyle; // @synthesize borderStyle=_borderStyle;
-@property(nonatomic) double borderThickness;
-@property(nonatomic) struct CGRect borderedFrame;
-@property(nonatomic) struct CGPoint borderedFrameCenter;
-@property(nonatomic) struct CGSize borderedFrameSize;
-@property(nonatomic) double cornerRadius;
-@property(copy, nonatomic) NSColor *fillColor;
-@property(copy, nonatomic) NSColor *highlightColor;
-@property(nonatomic) double highlightRatio;
 
 @end
 

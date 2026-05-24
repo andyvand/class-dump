@@ -10,10 +10,6 @@
 - (_Bool)h;
 
 // Remaining properties
-@property(nonatomic) double borderWidth;
-@property(nonatomic) _Bool circularSelectionRing;
-@property(nonatomic) double interspaceBorderWidth;
 @property(nonatomic) double px_cornerRadius;
-@property(nonatomic, getter=isSelected) _Bool selected;
 @end
 

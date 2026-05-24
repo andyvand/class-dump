@@ -5,5 +5,6 @@
 //
 
 @protocol CNCDNoteAccessViolation
+- (void);
 @end
 

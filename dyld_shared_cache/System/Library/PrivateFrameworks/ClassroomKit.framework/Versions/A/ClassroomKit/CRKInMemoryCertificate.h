@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKIdentityConfiguration, NSArray, NSData, NSDateInterval, NSString;
+@class NSDateInterval;
 
 @interface CRKInMemoryCertificate
 {
     NSDateInterval *_validityDateInterval;
-    CRKIdentityConfiguration *_configuration;
 }
 
 + (id);
@@ -26,27 +25,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)B;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isCertificateAuthority) _Bool certificateAuthority;
-@property(readonly, copy, nonatomic) NSArray *commonNames;
-@property(readonly, copy, nonatomic) CRKIdentityConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy, nonatomic) NSData *dataRepresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *fingerprint;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int hashingAlgorithm;
-@property(readonly, nonatomic) long long keySizeInBits;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isTemporallyValid) _Bool temporallyValid;
-@property(readonly, nonatomic) struct __SecCertificate *underlyingCertificate;
 @property(retain, nonatomic) NSDateInterval *validityDateInterval; // @synthesize validityDateInterval=_validityDateInterval;
 
 @end

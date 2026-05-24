@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VOSGesture, _VOSProfileCommand;
+@class VOSGesture;
 
 @interface _VOSProfileGesture
 {
     VOSGesture *_gesture;
-    _VOSProfileCommand *_command;
 }
 
 + (id);
@@ -18,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@@"NSUUID";
 - (void);
 - (_Bool);
 - (void);
@@ -28,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak _VOSProfileCommand *command; // @synthesize command=_command;
 @property(retain, nonatomic) VOSGesture *gesture; // @synthesize gesture=_gesture;
 
 @end

@@ -11,8 +11,6 @@
 @interface MLPConvolutionLayer : MLPConvolutionBase
 {
     MLPModelConvolutionDataSource *_dataSource;
-    const void *_initialWeights;
-    const void *_initialBias;
 }
 
 - (void);
@@ -27,14 +25,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) MLPModelConvolutionDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property const void *initialBias; // @synthesize initialBias=_initialBias;
-@property const void *initialWeights; // @synthesize initialWeights=_initialWeights;
 
 @end
 

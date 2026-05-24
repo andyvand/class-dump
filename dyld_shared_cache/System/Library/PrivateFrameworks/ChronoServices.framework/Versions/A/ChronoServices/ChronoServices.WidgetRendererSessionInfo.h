@@ -7,9 +7,6 @@
 @interface ChronoServices.WidgetRendererSessionInfo
 {
     id rendererBundleIdentifier;
-    id sessionIdentifier;
-    id widget;
-    id isForeground;
 }
 
 @end

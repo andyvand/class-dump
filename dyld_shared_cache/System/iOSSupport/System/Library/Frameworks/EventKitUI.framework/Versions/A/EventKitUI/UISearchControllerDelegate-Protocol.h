@@ -7,6 +7,8 @@
 @protocol UISearchControllerDelegate
 
 @optional
+- (void);
+- (void);
 - (void)Ô!d!XAù1n1Â0@ù
 × ;
 @end

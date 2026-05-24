@@ -5,5 +5,9 @@
 //
 
 @protocol NSURLSessionTaskDelegatePrivate
+
+@optional
+- (void);
+- (void)NSt3__120__shared_ptr_emplaceINS_14basic_ifstreamIcNS_11char_traitsIcEEEENS_9allocatorIS4_EEEE;
 @end
 

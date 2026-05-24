@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIWindowScene;
+@class UIWindowScene;
 
 __attribute__((visibility("hidden")))
 @interface NANowPlayingVolumeSlider
 {
     id volumeController;
-    id isTracking;
-    id volumeCommitTimer;
-    id slider;
-    id trackingColor;
-    id volumeChangeHandler;
 }
 
 - (void);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)ã;
 - (id);
 - (void);
 - (void);
@@ -31,13 +26,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)roviders;
+- (void)articleProviders;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint accessibilityActivationPoint;
-@property(nonatomic, copy) NSString *accessibilityValue;
-@property(nonatomic, readonly) _Bool onScreenForVolumeDisplay;
-@property(nonatomic, readonly) NSString *volumeAudioCategory;
 @property(nonatomic, readonly) UIWindowScene *windowSceneForVolumeDisplay;
 
 @end

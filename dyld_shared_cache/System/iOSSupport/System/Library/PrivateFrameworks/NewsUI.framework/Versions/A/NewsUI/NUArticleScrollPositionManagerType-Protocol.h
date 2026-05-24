@@ -5,5 +5,7 @@
 //
 
 @protocol NUArticleScrollPositionManagerType
+- (void);
+- (void);
 @end
 

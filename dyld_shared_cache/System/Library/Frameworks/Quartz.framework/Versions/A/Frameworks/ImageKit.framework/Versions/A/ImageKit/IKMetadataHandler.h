@@ -35,10 +35,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

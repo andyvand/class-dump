@@ -11,7 +11,7 @@
     NSArray *_layerNames;
 }
 
-- (void);
+- (void),;
 - (id);
 - (id);
 - (void)ÿÿ#;

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOrderedSet, NSString, SMConversationMO;
+@class NSString;
 
 @interface SMHandleMO
 {
 }
 
++ (id)Data}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I};
 + (id);
-+ (id);
-+ (id);
++ (id)nk(%@) failed with errno %d;
 
 // Remaining properties
-@property(retain, nonatomic) SMConversationMO *conversation; // @dynamic conversation;
 @property(copy, nonatomic) NSString *primaryHandle; // @dynamic primaryHandle;
-@property(retain, nonatomic) NSOrderedSet *secondaryHandles; // @dynamic secondaryHandles;
 
 @end
 

@@ -5,23 +5,21 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBFilter
 {
     NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    CDUnknownBlockType _notificationBlock;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)ActiveNondisruptiveSwitchingFormatIndexByPortType;
 - (_Bool);
 - (void);
 - (id)B`å;o;o:(id)arg1 o:o:o:o:o:o;B`e<¦Ä<ã¥=Y=C={®=ªñÒ=ÙÎ÷=)\>ÁÊ!>333>¦D>sh=Âu=ÍÌL=Å 0=)\=/Ý<X9´<¼t<Âu<ôýT<

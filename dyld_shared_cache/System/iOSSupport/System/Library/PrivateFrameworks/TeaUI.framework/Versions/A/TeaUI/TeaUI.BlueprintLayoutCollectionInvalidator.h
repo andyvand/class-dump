@@ -7,12 +7,6 @@
 @interface TeaUI.BlueprintLayoutCollectionInvalidator
 {
     id lock;
-    id resizingItemSizes;
-    id resizingGroupItemIdentifiers;
-    id layoutCollectionProvider;
-    id impressionTracking;
-    id animationQueue;
-    id animationGroup;
 }
 
 @end

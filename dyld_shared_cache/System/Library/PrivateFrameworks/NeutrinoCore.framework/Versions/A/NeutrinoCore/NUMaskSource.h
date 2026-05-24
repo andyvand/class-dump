@@ -18,14 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (CDStruct_996ac03c);
+- (id);
+- (CDStruct_996ac03c)thread.;
 - (CDStruct_912cb5d2);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_996ac03c extent;
 @property(readonly, nonatomic) NSString *maskIdentifier;
-@property(readonly, nonatomic) CDStruct_912cb5d2 scale;
 
 @end
 

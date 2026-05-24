@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)excludedForLoggingUseCases;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *accessories; // @dynamic accessories;

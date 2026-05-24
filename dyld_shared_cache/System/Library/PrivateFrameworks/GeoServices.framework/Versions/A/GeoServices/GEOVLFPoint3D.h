@@ -9,23 +9,19 @@
 @interface GEOVLFPoint3D
 {
     PBUnknownFields *_unknownFields;
-    float _x;
-    float _y;
-    float _z;
-    CDStruct_ad44f281 _flags;
 }
 
-+ (_Bool)mberOfVisitsBucket:(id)arg1;
++ (_Bool)setNumberOfVisitsBucket:(id)arg1;
+- (void);
+- (_Bool);
+- (void);
+- (id)L;
+- (id);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)setClientConnections:(id)arg1;
+- (id).apple.corespeech.corespeechd.attsiri.service;
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -39,21 +35,15 @@
 × ;
 - (_Bool)2@40@48@56@64@72;
 - (void)b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24;
-- (id)st:locationShifter:traits: /* Error: Ran out of types for this method. */;
+- (id)initWithRequest:locationShifter:traits: /* Error: Ran out of types for this method. */;
 - (id)k",&,N;
-- (id)ICategorySurfing;
-- (float)gs;
+- (id)GEOPOICategorySurfing;
+- (float)_coordinateForDistanceStrings;
 - (void)k@W[±¿ìl`@;
 - (float)Îù)üL@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(nonatomic) _Bool hasZ;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) float x;
-@property(nonatomic) float y;
-@property(nonatomic) float z;
 
 @end
 

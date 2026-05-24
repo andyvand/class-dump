@@ -5,6 +5,7 @@
 //
 
 @protocol NSOutlineViewInlineOutlineCell
+- (struct CGRect)UserIntentPhysicalButtonCGRect;
 
 // Remaining properties
 @property struct CGRect outlineCellFrame;

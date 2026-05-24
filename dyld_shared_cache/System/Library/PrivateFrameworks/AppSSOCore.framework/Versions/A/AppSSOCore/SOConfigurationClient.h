@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SOClient, SOConfiguration, SOConfigurationVersion;
+@class SOClient, SOConfiguration;
 
 @interface SOConfigurationClient
 {
     SOClient *_client;
-    SOConfiguration *_configuration;
-    SOConfigurationVersion *_configurationVersion;
 }
 
 + (id);
@@ -21,12 +19,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)gin is NULL
+;
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long configVersion;
 @property(readonly, nonatomic) SOConfiguration *configuration;
 
 @end

@@ -9,18 +9,16 @@
 @interface CUNetInterfaceInfo
 {
     NSString *_interfaceName;
-    NSString *_ipv4String;
 }
 
 - (id);
-- (id);
+- (id)MPSNDArrayMatrixMultiplicationGradient;
 - (void);
 - (void);
-- (void);
+- (void)ocess:%p] %{public}@ now playing with audio:%{BOOL}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(copy, nonatomic) NSString *ipv4String; // @synthesize ipv4String=_ipv4String;
 
 @end
 

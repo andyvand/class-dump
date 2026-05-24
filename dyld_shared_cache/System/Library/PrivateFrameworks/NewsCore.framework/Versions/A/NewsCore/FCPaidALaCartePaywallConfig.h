@@ -9,11 +9,6 @@
 @interface FCPaidALaCartePaywallConfig
 {
     NSString *_channelID;
-    NSString *_channelPaywallTitle;
-    NSString *_hardPaywallTitle;
-    NSString *_leakyPaywallTitle;
-    NSString *_promotionalPaywallTitle;
-    NSString *_channelId;
 }
 
 - (void);
@@ -21,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
@@ -29,19 +24,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)atial Rendering, disconnect Continuity Real Time Group first.;
 - (id);
 - (id);
-- (id)leLikedEventCount;
+- (id)_articleLikedEventCount;
 - (void)TJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCForYouConfigHeadlinesOperation.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *channelID; // @synthesize channelID=_channelID;
 @property(copy, nonatomic) NSString *channelId; // @synthesize channelId=_channelId;
-@property(copy, nonatomic) NSString *channelPaywallTitle; // @synthesize channelPaywallTitle=_channelPaywallTitle;
-@property(copy, nonatomic) NSString *hardPaywallTitle; // @synthesize hardPaywallTitle=_hardPaywallTitle;
-@property(copy, nonatomic) NSString *leakyPaywallTitle; // @synthesize leakyPaywallTitle=_leakyPaywallTitle;
-@property(copy, nonatomic) NSString *promotionalPaywallTitle; // @synthesize promotionalPaywallTitle=_promotionalPaywallTitle;
 
 @end
 

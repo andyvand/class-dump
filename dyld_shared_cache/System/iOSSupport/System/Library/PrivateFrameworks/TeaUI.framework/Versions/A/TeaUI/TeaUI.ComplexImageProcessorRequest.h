@@ -7,11 +7,6 @@
 @interface TeaUI.ComplexImageProcessorRequest
 {
     id assetHandles;
-    id cacheIdentifier;
-    id assetHandle;
-    id instructions;
-    id size;
-    id imageRenderingMode;
 }
 
 @end

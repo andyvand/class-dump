@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _BMXPCConnectionCacheKey
 {
     unsigned int _user;
-    unsigned long long _serviceType;
-    unsigned long long _domain;
-    NSString *_useCase;
-    unsigned long long _flags;
 }
 
 - (id);
@@ -27,11 +21,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) unsigned long long flags; // @synthesize flags=_flags;
 @property(readonly, nonatomic) unsigned long long serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly, nonatomic) NSString *useCase; // @synthesize useCase=_useCase;
-@property(readonly, nonatomic) unsigned int user; // @synthesize user=_user;
 
 @end
 

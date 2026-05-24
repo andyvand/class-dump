@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNWallpaper, NSData, NSString;
+@class NSData;
 
 @interface CNSharedProfile
 {
     NSData *_imageData;
-    NSData *_thumbnailImageData;
-    NSString *_imageType;
-    NSData *_avatarRecipeData;
-    CNWallpaper *_wallpaper;
-    NSData *_watchWallpaperImageData;
-    struct CGRect _cropRect;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -27,29 +21,22 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)ڐ;
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)\;
+- (id)Qh;
 - (id);
 - (void)1Â0@ù
 × ;
-- (struct CGRect)edItemVisitor;
+- (struct CGRect)_FetchedItemVisitor;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *avatarRecipeData; // @synthesize avatarRecipeData=_avatarRecipeData;
-@property(readonly, nonatomic) CNContact *contact;
-@property(nonatomic) struct CGRect cropRect; // @synthesize cropRect=_cropRect;
 @property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(retain, nonatomic) NSString *imageType; // @synthesize imageType=_imageType;
-@property(retain, nonatomic) NSData *thumbnailImageData; // @synthesize thumbnailImageData=_thumbnailImageData;
-@property(retain, nonatomic) CNWallpaper *wallpaper; // @synthesize wallpaper=_wallpaper;
-@property(retain, nonatomic) NSData *watchWallpaperImageData; // @synthesize watchWallpaperImageData=_watchWallpaperImageData;
 
 @end
 

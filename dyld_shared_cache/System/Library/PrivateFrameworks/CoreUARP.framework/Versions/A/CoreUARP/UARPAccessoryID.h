@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString, NSUUID;
+@class NSDate, NSString;
 
 @interface UARPAccessoryID
 {
     NSDate *_lastAddedDate;
-    NSString *_countryCode;
-    NSUUID *_uuid;
-    unsigned long long _capability;
-    unsigned long long _uarpVersion;
-    NSArray *_partnerSerialNumbers;
-    NSString *_modelName;
-    _Bool _downloadOnCellularAllowed;
-    _Bool _autoDownloadAllowed;
-    _Bool _suppressAutomaticDynamicAssets;
-    _Bool _suppressInfoQueries;
-    NSString *_manufacturer;
-    NSString *_modelNumber;
-    NSString *_serialNumber;
-    NSString *_firmwareVersion;
-    NSString *_stagedFirmwareVersion;
-    NSString *_productGroup;
-    NSString *_productNumber;
-    NSString *_hwFusingType;
-    NSString *_hwRevision;
-    NSString *_friendlyName;
-    long long _transport;
 }
 
 + (_Bool);
@@ -44,26 +23,26 @@
 - (void);
 - (void);
 - (void);
+- (void)P;
 - (void);
-- (void);
-- (void);
+- (void)l;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)H;
+- (id)t;
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (const char *);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (_Bool)mirrors.;
+- (id)of live photo bundle at path %@;
+- (_Bool)or the input file;
+- (const char *)o final destination (%s -> %s).;
+- (_Bool)loaded file after receiving error during download. Error:(id)arg1 %@;
+- (void)ol _LTTranslator;
+- (id)y destination language, translation skipped;
+- (void)responsive due to repeated timeouts;
+- (void)getIsVoiceTriggerRequest;
 - (void);
 - (void);
 - (id);
@@ -77,47 +56,28 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)	;
 - (long long);
 - (void);
 - (id);
+- (id)*;
 - (id);
 - (id);
-- (id);
+- (void)9J)KsF;
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ch_queue>";
 - (void)ð!PGùQÿ&1Â0@ù
 × ;
 - (id)ct<OS_dispatch_source>";
 - (id)Failed to write to superbinary payload metadata index %lu at %@; %@;
 
 // Remaining properties
-@property _Bool autoDownloadAllowed; // @synthesize autoDownloadAllowed=_autoDownloadAllowed;
-@property(readonly) unsigned long long capability;
-@property _Bool downloadOnCellularAllowed; // @synthesize downloadOnCellularAllowed=_downloadOnCellularAllowed;
-@property(readonly) NSString *firmwareVersion; // @synthesize firmwareVersion=_firmwareVersion;
-@property(readonly) NSString *friendlyName; // @synthesize friendlyName=_friendlyName;
-@property(readonly) NSString *hwFusingType; // @synthesize hwFusingType=_hwFusingType;
-@property(readonly) NSString *hwRevision; // @synthesize hwRevision=_hwRevision;
 @property(readonly) NSString *manufacturer; // @synthesize manufacturer=_manufacturer;
-@property(readonly) NSString *modelAnalytics;
-@property(readonly) NSString *modelIdentifier;
-@property(readonly) NSString *modelName;
-@property(readonly) NSString *modelNumber; // @synthesize modelNumber=_modelNumber;
-@property(readonly) NSString *productGroup; // @synthesize productGroup=_productGroup;
-@property(readonly) NSString *productNumber; // @synthesize productNumber=_productNumber;
-@property(readonly) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly) NSString *stagedFirmwareVersion; // @synthesize stagedFirmwareVersion=_stagedFirmwareVersion;
-@property(readonly) _Bool suppressAutomaticDynamicAssets; // @synthesize suppressAutomaticDynamicAssets=_suppressAutomaticDynamicAssets;
-@property(readonly) _Bool suppressInfoQueries; // @synthesize suppressInfoQueries=_suppressInfoQueries;
-@property long long transport; // @synthesize transport=_transport;
-@property(readonly) unsigned long long uarpVersion;
 
 @end
 

@@ -9,31 +9,26 @@
 @interface GEOTransitLeg
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _restrictedToSectionIndexs;
-    int _sectionOptionIndex;
-    struct {
-        unsigned int has_sectionOptionIndex:1;
-    } _flags;
 }
 
-+ (_Bool)els:(id)arg1;
++ (_Bool)setModels:(id)arg1;
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)?;
 - (unsigned long long);
 - (int *);
 - (int);
 - (_Bool);
 - (void);
+- (void)because we failed to create an in-memory store;
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id)@;
+- (void)@;
+- (void)LargeText;
+- (void)aemon:(id)arg1 started: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -41,17 +36,13 @@
 - (void);
 - (id)0@ù
 × ;
-- (id)hicleTypeKeys;
-- (id)sKey: /* Error: Ran out of types for this method. */;
-- (id)ttributes;
+- (id)impliedVehicleTypeKeys;
+- (id)StringAsKey: /* Error: Ran out of types for this method. */;
+- (id)mapsSyncAttributes;
 - (void)­.§RQ@;
 
 // Remaining properties
 @property(nonatomic) _Bool hasSectionOptionIndex;
-@property(readonly, nonatomic) int *restrictedToSectionIndexs;
-@property(readonly, nonatomic) unsigned long long restrictedToSectionIndexsCount;
-@property(nonatomic) int sectionOptionIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

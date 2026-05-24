@@ -12,7 +12,7 @@
 }
 
 + (Class);
-+ (_Bool)gationState:(id)arg1;
++ (_Bool)setHasNavigationState:(id)arg1;
 - (void);
 - (void);
 - (unsigned long long);
@@ -22,14 +22,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)getBiometricMatchResultForTriggerTimeStamp:(id)arg1;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_____________________aar;
 - (_Bool);
 - (void)!Eùñ¶*°1Â0@ù
 × ;
-- (id)ePoint;
+- (id)representativePoint;
 - (id)èRÀ"ôÄ¸BÄh x¼ <¡¥Ì¥°¦l§;
 - (id)EORPDisplayDetailsReadAllFrom can only be called once per object;
 - (id)ÿÿ;

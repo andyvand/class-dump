@@ -14,7 +14,7 @@
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)_scoreTextField:field:withEvaluator:config: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

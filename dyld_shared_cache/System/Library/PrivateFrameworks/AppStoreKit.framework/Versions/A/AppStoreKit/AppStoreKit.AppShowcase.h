@@ -7,13 +7,6 @@
 @interface AppStoreKit.AppShowcase
 {
     id lockup;
-    id descriptionText;
-    id screenshots;
-    id video;
-    id type;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

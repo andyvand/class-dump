@@ -6,46 +6,30 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSMutableArray, UIImageView, UILabel, UINavigationBar, UISnapshotView, UITabBar, UITabBarItem, UITabBarItemProxy;
+@class NSArray, UINavigationBar, UITabBar;
 
 __attribute__((visibility("hidden")))
 @interface UITabBarCustomizeView : UIView
 {
     UITabBar *_tabBar;
-    NSMutableArray *_proxies;
-    NSMutableArray *_fixedItems;
-    UITabBarItemProxy *_draggingProxy;
-    UITabBarItem *_draggingItem;
-    UISnapshotView *_dragImage;
-    UIImageView *_replacementGlow;
-    UITabBarItem *_replaceItem;
-    UILabel *_titleLabel;
-    struct CGPoint _startPoint;
-    long long _itemsInRowCount;
-    double _gridOffset;
-    struct CGRect _firstItemRect;
-    UITabBarItem *_selectedBeforeItem;
-    _Bool _isBeingDismissed;
-    NSArray *_availableItems;
-    UINavigationBar *_navigationBar;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)conversationManager:trackedPendingMember:forConversationLink: /* Error: Ran out of types for this method. */;
+- (void)account:(_Bool)arg1 registrationStatusInfoChanged: /* Error: Ran out of types for this method. */;
+- (void)_sendTextAutoReplyToChat:(id)arg1 withUrgentBreakthroughInstructions:(id)arg2;
+- (void)_sendTextAutoReplyIfNecessaryForMessages:(id)arg1 withUrgentBreakthroughInstructions:(id)arg2 inChat: /* Error: Ran out of types for this method. */;
+- (void)_sendTextAutoReplyIfNecessaryForMessages:(id)arg1 withUrgentBreakthroughInstructions:(id)arg2 inChat: /* Error: Ran out of types for this method. */;
+- (void)_sendQuickSwitchCompletedWithResult:(id)arg1;
+- (void)V_text;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)onCallerID= %@, unformatted=%@; country=%@; roomName='%@'; flags=0x%llx; subject='%@' text='%@' messageID:(id)arg1 %lld GUID:(id)arg2 '%@' sortID:%lu date:'%f' date-delivered:'%f' date-read:'%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (void);
-- (void)e:(id)arg1;
-- (void)ecessary;
+- (void)canCollapseColumn:(id)arg1 style:(id)arg2;
+- (void)_installScrollPocketInteractionIfNecessary;
 - (void)ginOnKey;
 - (id)esBarsOnTap;
 - (void);

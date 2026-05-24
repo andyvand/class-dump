@@ -7,7 +7,6 @@
 @interface PSGLMWrapper
 {
     void *_langModel;
-    void *_lexicon;
 }
 
 - (void);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) void *langModel; // @synthesize langModel=_langModel;
-@property(readonly, nonatomic) void *lexicon; // @synthesize lexicon=_lexicon;
 
 @end
 

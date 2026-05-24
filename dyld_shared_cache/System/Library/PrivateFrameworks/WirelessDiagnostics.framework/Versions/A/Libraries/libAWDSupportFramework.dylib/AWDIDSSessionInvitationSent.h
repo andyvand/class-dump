@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSSessionInvitationSent
 {
     unsigned long long _timestamp;
-    NSString *_guid;
-    unsigned int _numberOfRecipients;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int numberOfRecipients:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)i;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
@@ -40,12 +32,7 @@
 - (void)]°p¥ª	;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasNumberOfRecipients;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int numberOfRecipients; // @synthesize numberOfRecipients=_numberOfRecipients;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

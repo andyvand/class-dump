@@ -11,20 +11,17 @@
 @interface NSCustomView : NSView
 {
     NSString *className;
-    NSView *view;
-    id extension;
-    unsigned int hasEncodedClipsToBounds:1;
 }
 
 + (void)¸H;
-- (id);
-- (void);
+- (id)0@0:(id)arg1 8C16;
+- (void)tition, host, port, type)		);;
 - (_Bool);
 - (void);
-- (id);
+- (id)legacy_ats_nonpfs;
 - (void)!EùQà3ð1Â0@ù
 × ;
-- (id)ion:(struct CGRect)arg1;
+- (id)collectionView:(struct CGRect)arg1 validateDrop:proposedIndex:dropOperation: /* Error: Ran out of types for this method. */;
 - (void)Ä	;
 - (id)I;
 

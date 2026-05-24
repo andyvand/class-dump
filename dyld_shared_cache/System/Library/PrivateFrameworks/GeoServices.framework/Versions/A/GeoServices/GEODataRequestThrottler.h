@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, NSString, geo_isolater;
-@protocol OS_dispatch_source;
+@class geo_isolater;
 
 @interface GEODataRequestThrottler
 {
     geo_isolater *_isolation;
-    NSDictionary *_defaultThrottlePolicy;
-    NSDictionary *_globalThrottlePolicy;
-    _Bool _throttlePoliciesCached;
-    NSMutableDictionary *_throttlers;
-    NSObject<OS_dispatch_source> *_updateStateTimer;
-    int _defaultChangedNotification;
-    id _networkChangedNotification;
-    unsigned char _throttleEventLogLevel;
 }
 
-+ (id)dVersion;
++ (id)requiredVersion;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)^;
+- (id)Controller Queue;
 - (void);
 - (void)eledTokenReadAllFrom can only be called once per object;
 - (void)	;
@@ -38,13 +29,7 @@
 - (void)$¢ÿ±È;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

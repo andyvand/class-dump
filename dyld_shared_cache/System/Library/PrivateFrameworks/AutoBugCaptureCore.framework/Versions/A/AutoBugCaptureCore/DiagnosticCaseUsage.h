@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface DiagnosticCaseUsage
 {
@@ -12,15 +12,6 @@
 
 
 // Remaining properties
-@property(nonatomic) int casesAccepted; // @dynamic casesAccepted;
-@property(nonatomic) int casesSeen; // @dynamic casesSeen;
 @property(retain, nonatomic) NSString *domain; // @dynamic domain;
-@property(nonatomic) double interarrival_mean; // @dynamic interarrival_mean;
-@property(nonatomic) double interarrival_var; // @dynamic interarrival_var;
-@property(retain, nonatomic) NSDate *lastAccepted; // @dynamic lastAccepted;
-@property(retain, nonatomic) NSDate *lastSeen; // @dynamic lastSeen;
-@property(retain, nonatomic) NSString *process; // @dynamic process;
-@property(retain, nonatomic) NSString *subtype; // @dynamic subtype;
-@property(retain, nonatomic) NSString *type; // @dynamic type;
 @end
 

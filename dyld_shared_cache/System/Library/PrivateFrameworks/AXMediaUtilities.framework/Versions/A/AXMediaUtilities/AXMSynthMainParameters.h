@@ -6,43 +6,37 @@
 
 #import <AXMediaUtilities/AXMSynthObservableParameters.h>
 
-@class AXMSynthOscillatorParameters, NSArray;
+@class AXMSynthOscillatorParameters;
 
 @interface AXMSynthMainParameters : AXMSynthObservableParameters
 {
     AXMSynthOscillatorParameters *_mainOsc1Params;
-    AXMSynthOscillatorParameters *_mainOsc2Params;
-    AXMSynthOscillatorParameters *_mainOsc3Params;
-    AXMSynthOscillatorParameters *_fmOperatorAParams;
-    AXMSynthOscillatorParameters *_fmOperatorBParams;
-    AXMSynthOscillatorParameters *_fmOperatorCParams;
-    AXMSynthOscillatorParameters *_fmOperatorDParams;
 }
 
 + (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)\|;
+- (id)[|;
+- (id);
+- (id);
+- (id)[|;
+- (id)\|;
+- (id);
+- (id);
+- (id);
+- (float);
+- (id);
+- (id){;
+- (void)z;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (float);
-- (id);
-- (id);
-- (void);
-- (void);
-- (float);
+- (float);
 - (void);
 - (id);
 - (id);
@@ -51,18 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allOperatorParameters;
-@property(readonly, nonatomic) NSArray *allOscillatorParameters;
-@property(nonatomic) float baseFrequency; // @dynamic baseFrequency;
-@property(retain, nonatomic) AXMSynthOscillatorParameters *fmOperatorAParams; // @synthesize fmOperatorAParams=_fmOperatorAParams;
-@property(retain, nonatomic) AXMSynthOscillatorParameters *fmOperatorBParams; // @synthesize fmOperatorBParams=_fmOperatorBParams;
-@property(retain, nonatomic) AXMSynthOscillatorParameters *fmOperatorCParams; // @synthesize fmOperatorCParams=_fmOperatorCParams;
-@property(retain, nonatomic) AXMSynthOscillatorParameters *fmOperatorDParams; // @synthesize fmOperatorDParams=_fmOperatorDParams;
 @property(retain, nonatomic) AXMSynthOscillatorParameters *mainOsc1Params; // @synthesize mainOsc1Params=_mainOsc1Params;
-@property(retain, nonatomic) AXMSynthOscillatorParameters *mainOsc2Params; // @synthesize mainOsc2Params=_mainOsc2Params;
-@property(retain, nonatomic) AXMSynthOscillatorParameters *mainOsc3Params; // @synthesize mainOsc3Params=_mainOsc3Params;
-@property(nonatomic) float mainVolume; // @dynamic mainVolume;
-@property(nonatomic) float sampleRate; // @dynamic sampleRate;
 
 @end
 

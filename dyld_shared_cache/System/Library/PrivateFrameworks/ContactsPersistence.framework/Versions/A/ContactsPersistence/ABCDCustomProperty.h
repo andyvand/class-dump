@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSSet, NSString;
+@class NSString;
 
 @interface ABCDCustomProperty
 {
@@ -16,10 +16,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *customPropertyValues; // @dynamic customPropertyValues;
 @property(retain, nonatomic) NSString *propertyName; // @dynamic propertyName;
-@property(retain, nonatomic) NSString *recordType; // @dynamic recordType;
-@property(retain, nonatomic) NSNumber *valueType; // @dynamic valueType;
 
 @end
 

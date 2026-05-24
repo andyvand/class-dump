@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSURL;
-@protocol OS_os_log;
+@class NSURL;
 
 @interface IDSServerBagConfig
 {
     BOOL _hashAlgorithm;
-    _Bool _requiresIDSHost;
-    _Bool _validateAgainstIDSPolicy;
-    _Bool _bypassProcessChecks;
-    NSURL *_url;
-    NSString *_defaultsDomain;
-    NSDictionary *_defaultBag;
-    NSString *_apsEnvironmentName;
-    unsigned long long _sosDomain;
-    long long _bagType;
-    NSObject<OS_os_log> *_logCategory;
 }
 
-+ (id);
++ (id);
 + (id);
 - (_Bool);
 - (unsigned long long);
@@ -42,17 +31,7 @@
 - (id)	;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *apsEnvironmentName; // @synthesize apsEnvironmentName=_apsEnvironmentName;
-@property(readonly, nonatomic) long long bagType; // @synthesize bagType=_bagType;
-@property(readonly, nonatomic) _Bool bypassProcessChecks; // @synthesize bypassProcessChecks=_bypassProcessChecks;
-@property(readonly, nonatomic) NSDictionary *defaultBag; // @synthesize defaultBag=_defaultBag;
-@property(readonly, nonatomic) NSString *defaultsDomain; // @synthesize defaultsDomain=_defaultsDomain;
-@property(readonly, nonatomic) BOOL hashAlgorithm; // @synthesize hashAlgorithm=_hashAlgorithm;
-@property(readonly, nonatomic) NSObject<OS_os_log> *logCategory; // @synthesize logCategory=_logCategory;
-@property(readonly, nonatomic) _Bool requiresIDSHost; // @synthesize requiresIDSHost=_requiresIDSHost;
-@property(readonly, nonatomic) unsigned long long sosDomain; // @synthesize sosDomain=_sosDomain;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) _Bool validateAgainstIDSPolicy; // @synthesize validateAgainstIDSPolicy=_validateAgainstIDSPolicy;
 
 @end
 

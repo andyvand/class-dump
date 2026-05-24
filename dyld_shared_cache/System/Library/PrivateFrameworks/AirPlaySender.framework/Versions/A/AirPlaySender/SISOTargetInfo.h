@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SISOTargetInfo
 {
     _Bool _inBubble;
-    _Bool _visibleToRapport;
-    _Bool _isAcceptable;
-    NSString *_idsDeviceIdentifier;
-    NSString *_psi;
 }
 
 - (_Bool);
@@ -32,10 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *idsDeviceIdentifier; // @synthesize idsDeviceIdentifier=_idsDeviceIdentifier;
-@property(nonatomic) _Bool inBubble; // @synthesize inBubble=_inBubble;
-@property(nonatomic) _Bool isAcceptable; // @synthesize isAcceptable=_isAcceptable;
-@property(retain, nonatomic) NSString *psi; // @synthesize psi=_psi;
-@property(nonatomic) _Bool visibleToRapport; // @synthesize visibleToRapport=_visibleToRapport;
 
 @end
 

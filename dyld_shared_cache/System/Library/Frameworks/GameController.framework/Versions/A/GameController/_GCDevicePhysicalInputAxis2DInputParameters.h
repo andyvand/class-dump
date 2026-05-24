@@ -6,19 +6,15 @@
 
 #import <GameController/_GCDevicePhysicalInputViewParameters.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputAxis2DInputParameters : _GCDevicePhysicalInputViewParameters
 {
     _Bool _analog;
-    _Bool _canWrap;
-    NSSet *_sources;
 }
 
 - (id);
 - (_Bool);
-- (id);
+- (id)service:(struct _NSZone *)arg1 didSendOpportunisticDataWithIdentifier:toIDs: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

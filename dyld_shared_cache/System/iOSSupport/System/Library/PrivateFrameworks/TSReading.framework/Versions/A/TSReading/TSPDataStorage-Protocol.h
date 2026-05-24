@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFUCryptoKey;
+@class AVAsset, NSString, SFUCryptoKey;
 
 @protocol TSPDataStorage
-- (_Bool)yMark;
+- (void)v32@?0@"ICSharedListeningContainer"8q16^B24;
+- (void)t"16@?0@"ICLiveLinkIdentity"8;
+- (NSString *)F;
+- (struct CGDataProvider *)- Updated selectedSpeed to ;
+- (AVAsset *)FileAttributeKey;
+- (_Bool)applyMark;
+
+@optional
+- (id)rrent item has an unexpected type:%@. /* Error: Ran out of types for this method. */;
+- (struct CGImageSource *);
+- (SFUCryptoKey *)=;
 
 // Remaining properties
-@property(readonly, nonatomic) SFUCryptoKey *decryptionKey;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SFUCryptoKey",?,R,N
-
 @property(readonly, nonatomic) NSString *documentResourceLocator;
-@property(readonly, nonatomic) unsigned long long encodedLength;
-@property(readonly, nonatomic) _Bool needsDownload;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) unsigned char packageIdentifier;
-@property(readonly, nonatomic) NSString *packageLocator;
-@property(readonly, nonatomic) _Bool readOnly;
 @end
 

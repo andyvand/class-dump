@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface CNDonationOrigin
 {
     NSString *_bundleIdentifier;
-    NSString *_donationIdentifier;
-    NSString *_clusterIdentifier;
-    NSDate *_donationDate;
-    NSDate *_expirationDate;
 }
 
-+ (id);
++ (id)PTPCameraDeviceManager;
 + (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)okeIdentifier:(id)arg1 bounds:(id)arg2 classification:(id)arg3 strategyIdentifier:(id)arg4 writingDirectionSortedSubstrokes:(id)arg5 averageWritingOrientation:averageStrokeDeviation:writingDirectionSortedStrokeIdentifiers:localStrokeWritingOrientations:coalescedLastSubstrokes:groupingConfidence:firstStrokeOrigin: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
@@ -33,15 +29,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_orderedCandidateLanguagesForCandidateLanguages:preferredLanguages: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *clusterIdentifier; // @synthesize clusterIdentifier=_clusterIdentifier;
-@property(readonly, copy, nonatomic) NSDate *donationDate; // @synthesize donationDate=_donationDate;
-@property(readonly, copy, nonatomic) NSString *donationIdentifier; // @synthesize donationIdentifier=_donationIdentifier;
-@property(readonly, copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(readonly, copy, nonatomic) NSDictionary *propertyListRepresentation;
 
 @end

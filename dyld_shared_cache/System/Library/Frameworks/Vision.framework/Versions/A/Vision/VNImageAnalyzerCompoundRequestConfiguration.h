@@ -6,29 +6,25 @@
 
 #import <Vision/VNRequestConfiguration.h>
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface VNImageAnalyzerCompoundRequestConfiguration : VNRequestConfiguration
 {
     NSString *_detectorType;
-    NSDictionary *_detectorConfigurationOptions;
-    NSArray *_originalRequestConfigurations;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)initWithAccount:(id)arg1 persistence: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void)pping;
+- (void)1DLogisticMapping;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *detectorConfigurationOptions; // @synthesize detectorConfigurationOptions=_detectorConfigurationOptions;
 @property(copy, nonatomic) NSString *detectorType; // @synthesize detectorType=_detectorType;
-@property(copy, nonatomic) NSArray *originalRequestConfigurations; // @synthesize originalRequestConfigurations=_originalRequestConfigurations;
 
 @end
 

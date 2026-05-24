@@ -9,19 +9,15 @@
 @interface SGJournal
 {
     NSMutableArray *_calendarObservers;
-    NSMutableArray *_contactsObservers;
-    NSMutableArray *_remindersObservers;
-    NSMutableArray *_queuedOperations;
-    _Bool _observersFrozen;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (unsigned long long)CGSize=dd}}32@"NSTableColumn"40q48{CGPoint=dd}56;
+- (void)@?48;
+- (void)webView:decidePolicyForNavigationAction:preferences:decisionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _MDQueryTokenRewrite
 {
     NSString *_originalToken;
-    NSArray *_variations;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *originalToken; // @synthesize originalToken=_originalToken;
-@property(readonly, copy, nonatomic) NSArray *variations; // @synthesize variations=_variations;
 
 @end
 

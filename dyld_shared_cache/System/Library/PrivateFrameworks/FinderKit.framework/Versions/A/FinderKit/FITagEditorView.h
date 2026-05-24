@@ -4,49 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FI_TTagEditorController, FI_TTaggingTokenField, NSArray, NSObject;
+@class FI_TTagEditorController, NSObject;
 @protocol FITagEditorDelegate;
 
 @interface FITagEditorView
 {
     NSObject<FITagEditorDelegate> *_delegate;
-    id _controller;
-    id _reserved;
-    id _reserved2;
-    id _reserved3;
-    struct TNotificationCenterObserver _tagEditorDidFinishEditingObserver;
-    struct TNotificationCenterObserver _suggestionsWillShowObserver;
 }
 
-+ (_Bool);
++ (_Bool)componentsJoinedByString: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)Q;
 - (void);
-- (void);
+- (void)tton.tryCategories;
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)indexPathForItem:inSection: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (double);
 - (_Bool);
-- (void);
+- (void)/System/Library/PrivateFrameworks/PegasusAPI.framework/Versions/A/PegasusAPI;
 - (double);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (long long);
+- (long long)";
 - (id);
 - (void);
 - (void);
 - (id);
 - (SEL);
 - (void)bool (FI_TNewAliasOperation *, TFENodeVector &&)>=(type=[24C])^v}}16;
-- (id)wsWithIndexes:inColumn:withEvent:offset: /* Error: Ran out of types for this method. */;
+- (id)browser:draggingImageForRowsWithIndexes:inColumn:withEvent:offset: /* Error: Ran out of types for this method. */;
 - (void)ÿÿI;
 - (void);
 - (_Bool);
@@ -56,9 +50,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FI_TTagEditorController *controller; // @synthesize controller=_controller;
-@property __weak NSObject<FITagEditorDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) FI_TTaggingTokenField *taggingTokenField;
-@property(copy) NSArray *tags;
 
 @end
 

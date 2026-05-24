@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink;
-
 @interface NSMoveHelper
 {
     double _startTime;
-    double _totalTime;
-    double _elapsedTime;
-    double _remainingTime;
-    _Bool _done;
-    long long _animationSerial;
-    CADisplayLink *_displayLink;
-    unsigned long long _signpostID;
 }
 
-+ (void);
-+ (_Bool);
++ (void)didReceiveChallenge:(_Bool)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (_Bool)_secure;
 + (_Bool);
 + (double);
 + (void)ÈbH;
@@ -27,12 +18,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (void)canonicalRequestForRequest: /* Error: Ran out of types for this method. */;
+- (void)URLSession:(double)arg1 dataTask:willCacheResponse:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)sion <%{public}@> %{public}@ issued sandbox extension for file %@, succeeded = %{bool}d;
+- (unsigned long long)ould have a _server;
+- (void)%ld, Headers %@ };
+- (void)@;
 - (void);
 - (id);
 - (_Bool)PVxV;

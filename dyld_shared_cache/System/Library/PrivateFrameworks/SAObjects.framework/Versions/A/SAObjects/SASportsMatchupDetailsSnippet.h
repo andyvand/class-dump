@@ -15,7 +15,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@;
 
 // Remaining properties
 @property(nonatomic) _Bool isModalView;

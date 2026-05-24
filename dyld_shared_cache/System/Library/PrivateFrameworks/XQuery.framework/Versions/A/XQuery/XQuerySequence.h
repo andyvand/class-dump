@@ -10,21 +10,20 @@ __attribute__((visibility("hidden")))
 @interface XQuerySequence
 {
     NSMutableArray *_array;
-    id _value;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)du;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)|;
 - (void);
 - (unsigned long long);
-- (void);
+- (void)commonPathPrefixWithString:(id)arg1;
 
 @end
 

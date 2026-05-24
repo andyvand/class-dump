@@ -9,7 +9,6 @@
 @interface IKImageBrowserExpandCollapseItemsAnimation : IKImageBrowserReorderAnimation
 {
     _Bool _expandMode;
-    id _group;
 }
 
 - (void);

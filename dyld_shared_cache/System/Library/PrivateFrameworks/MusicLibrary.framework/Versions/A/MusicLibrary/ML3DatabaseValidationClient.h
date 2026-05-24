@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface ML3DatabaseValidationClient
 {
     NSMutableDictionary *_validatableDatabases;
-    NSObject<OS_dispatch_queue> *_serialQueue;
 }
 
 + (id);
@@ -18,7 +16,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)startBrowsingWithCompletionHandler:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (void)pid) VALUES (?, ?);;

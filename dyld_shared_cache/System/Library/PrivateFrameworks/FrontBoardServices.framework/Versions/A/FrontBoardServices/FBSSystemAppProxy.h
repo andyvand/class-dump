@@ -6,13 +6,11 @@
 
 #import <FrontBoardServices/FBSServiceFacilityClient.h>
 
-@class BSProcessHandle, BSServiceConnectionEndpoint;
+@class BSServiceConnectionEndpoint;
 
 @interface FBSSystemAppProxy : FBSServiceFacilityClient
 {
     BSServiceConnectionEndpoint *_endpoint;
-    unsigned long long _checkoutCount;
-    BSProcessHandle *_processHandle;
 }
 
 + (id);
@@ -25,11 +23,11 @@
 - (void);
 - (void);
 - (void);
+- (void)pronunciationDataWithDictionary:(id)arg1 context:(long long)arg2;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)cy;
+- (_Bool)_lock_identifierToDomain;
 - (void);
 - (id);
 - (void)ng"8Q16@"BSSettingsDiff"24;

@@ -11,8 +11,6 @@
 @interface CKWorkoutMediaObject : CKMediaObject
 {
     BOOL _cachedOrientation;
-    LPLinkMetadata *_linkMetadata;
-    double _cachedWidth;
 }
 
 + (_Bool);
@@ -20,27 +18,25 @@
 + (id);
 + (_Bool);
 - (void);
-- (Class);
-- (Class);
-- (Class);
-- (id);
-- (id);
+- (Class)indentsForIndividualParagraphHeadIndentsInAttributedString: /* Error: Ran out of types for this method. */;
+- (Class)ic_addAnchorsToFillSuperviewWithPadding: /* Error: Ran out of types for this method. */;
+- (Class)expandRangeToIncludeFullList:inAttributedString: /* Error: Ran out of types for this method. */;
+- (id)authorHighlightsController;
+- (id)_isAutoListInsertionDisabled;
 - (_Bool);
-- (BOOL);
+- (BOOL)A8_GAHGA10_GAHGGt;
 - (Class);
-- (id);
+- (id)3PreferenceKeyP;
 - (_Bool);
-- (void);
+- (void)account… {account:(double)arg1 %@, hasHint:%@}%s:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (int);
 - (double)
 ;
-- (void)LAST_MESSAGE;
+- (void)TAPBACK_LAST_MESSAGE;
 
 // Remaining properties
-@property(nonatomic) BOOL cachedOrientation; // @synthesize cachedOrientation=_cachedOrientation;
-@property(nonatomic) double cachedWidth; // @synthesize cachedWidth=_cachedWidth;
 @property(retain, nonatomic) LPLinkMetadata *linkMetadata; // @synthesize linkMetadata=_linkMetadata;
 
 @end

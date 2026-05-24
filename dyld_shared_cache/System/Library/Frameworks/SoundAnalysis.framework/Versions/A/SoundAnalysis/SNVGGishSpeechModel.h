@@ -17,13 +17,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)initialize with a non-BMPBSiriDictationEvent proto;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)aceTimeCallRelayInitiateSent is %@ on this config;
 - (id);
 - (id);
 - (void)´4ûÿð4ûÿ5ûÿP5ûÿt5ûÿ°5ûÿÔ5ûÿ6ûÿ46ûÿp6ûÿ6ûÿÐ6ûÿô6ûÿ07ûÿT7ûÿ7ûÿ´7ûÿð7ûÿ8ûÿP8ûÿt8ûÿ°8ûÿÔ8ûÿø8ûÿ49ûÿX9ûÿ|9ûÿ 9ûÿÜ9ûÿ;

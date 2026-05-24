@@ -6,19 +6,12 @@
 
 #import <CoreData/NSSQLStatementIntermediate.h>
 
-@class NSMutableArray, NSMutableDictionary, NSSQLGroupByIntermediate, NSSQLHavingIntermediate, NSSQLOffsetIntermediate, NSSQLSelectIntermediate;
+@class NSSQLSelectIntermediate;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLFetchIntermediate : NSSQLStatementIntermediate
 {
     NSSQLSelectIntermediate *_selectClause;
-    NSSQLGroupByIntermediate *_groupByClause;
-    NSSQLHavingIntermediate *_havingClause;
-    NSSQLOffsetIntermediate *_offsetClause;
-    NSMutableArray *_groupByKeypaths;
-    _Bool _isDictionaryCountFetch;
-    NSMutableArray *_joinIntermediates;
-    NSMutableDictionary *_joinKeypaths;
 }
 
 - (void);

@@ -4,66 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIMessageReceivedMessage
 {
     unsigned long long _timestamp;
-    int _fzError;
-    NSString *_guid;
-    unsigned int _hasAttachments;
-    unsigned int _isFromEmail;
-    unsigned int _isFromPhoneNumber;
-    unsigned int _isGroupMessage;
-    unsigned int _isTypingIndicator;
-    unsigned int _messageError;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int fzError:1;
-        unsigned int hasAttachments:1;
-        unsigned int isFromEmail:1;
-        unsigned int isFromPhoneNumber:1;
-        unsigned int isGroupMessage:1;
-        unsigned int isTypingIndicator:1;
-        unsigned int messageError:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned int);
-- (unsigned int);
-- (unsigned int);
+- (unsigned int)qa";
+- (unsigned int)i;
+- (unsigned int)u2h;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (int);
 - (void);
 - (void);
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool)a;
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (unsigned int);
+- (void);
+- (_Bool),;
+- (unsigned int)P;
 - (_Bool);
 - (void);
 - (void);
@@ -76,24 +56,7 @@
 - (void)(¦áÿ;
 
 // Remaining properties
-@property(nonatomic) int fzError; // @synthesize fzError=_fzError;
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
-@property(nonatomic) unsigned int hasAttachments; // @synthesize hasAttachments=_hasAttachments;
-@property(nonatomic) _Bool hasFzError;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasHasAttachments;
-@property(nonatomic) _Bool hasIsFromEmail;
-@property(nonatomic) _Bool hasIsFromPhoneNumber;
-@property(nonatomic) _Bool hasIsGroupMessage;
-@property(nonatomic) _Bool hasIsTypingIndicator;
-@property(nonatomic) _Bool hasMessageError;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int isFromEmail; // @synthesize isFromEmail=_isFromEmail;
-@property(nonatomic) unsigned int isFromPhoneNumber; // @synthesize isFromPhoneNumber=_isFromPhoneNumber;
-@property(nonatomic) unsigned int isGroupMessage; // @synthesize isGroupMessage=_isGroupMessage;
-@property(nonatomic) unsigned int isTypingIndicator; // @synthesize isTypingIndicator=_isTypingIndicator;
-@property(nonatomic) unsigned int messageError; // @synthesize messageError=_messageError;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

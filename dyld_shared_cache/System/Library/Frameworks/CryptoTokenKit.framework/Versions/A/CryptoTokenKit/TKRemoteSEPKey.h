@@ -6,48 +6,37 @@
 
 #import <CryptoTokenKit/TKSEPKey.h>
 
-@class NSData, TKCTKDConnection;
-
 __attribute__((visibility("hidden")))
 @interface TKRemoteSEPKey : TKSEPKey
 {
     id _keyType;
-    id _keySize;
-    _Bool _systemKey;
-    NSData *_publicKey;
-    id _accessControl;
-    _Bool _forceSystemSession;
-    TKCTKDConnection *_ctkdConnection;
-    id _keyID;
-    NSData *_remoteKeyID;
 }
 
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)' t  ;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)"'  ";
 - (id);
 - (struct __SecAccessControl *);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)selectedItemIndex;
+- (id);
+- (id)0;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)Contents/MacOS/LocalAuthenticationEmbeddedUI;
 
 // Remaining properties
 @property(readonly, nonatomic) id keyID; // @synthesize keyID=_keyID;
-@property(readonly, nonatomic) NSData *remoteKeyID; // @synthesize remoteKeyID=_remoteKeyID;
 
 @end
 

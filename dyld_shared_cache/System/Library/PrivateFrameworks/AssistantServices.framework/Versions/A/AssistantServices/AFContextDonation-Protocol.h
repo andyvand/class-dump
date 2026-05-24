@@ -5,5 +5,7 @@
 //
 
 @protocol AFContextDonation
+- (void)@;
+- (void)H;
 @end
 

@@ -9,22 +9,20 @@
 @interface PKQuery
 {
     PKRecognitionSessionManager *_sessionManager;
-    id _delegate;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
-- (void);
+- (void)(L;
 - (void);
 - (void)Tool>",R,N;
 - (void)ention;
 
 // Remaining properties
-@property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) __weak PKRecognitionSessionManager *sessionManager; // @synthesize sessionManager=_sessionManager;
 
 @end

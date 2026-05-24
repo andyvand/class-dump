@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession, NSURLSessionDataTask, NSURLSessionStreamTask;
+
 @protocol NSURLSessionDataDelegate
+
+@optional
+- (void)GondolaAmore;
+- (void)openURL:(NSURLSession *)arg1 isSensitive:(NSURLSessionDataTask *)arg2 connectionEndpoint:(NSURLSessionStreamTask *)arg3 bundleIdentifier:withScheduler: /* Error: Ran out of types for this method. */;
+- (void);
 @end
 

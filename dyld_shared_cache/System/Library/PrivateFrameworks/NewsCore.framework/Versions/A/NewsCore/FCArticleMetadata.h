@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCHeadlineThumbnailMetadata, NSArray, NSDate, NSDictionary, NSString, NSURL;
+@class NSDictionary, NSString;
 
 @interface FCArticleMetadata
 {
     NSString *_rapidUpdate;
-    NSString *_identifier;
-    NSDictionary *_dictionary;
-    NSDate *_displayDate;
 }
 
 - (long long);
@@ -20,10 +17,10 @@
 - (id);
 - (long long);
 - (long long);
+- (id)big-endian;
 - (id);
-- (id);
-- (id);
-- (long long);
+- (id)isUserPreferenceTransit;
+- (long long)esourceDepot.m;
 - (id);
 - (id);
 - (double);
@@ -37,18 +34,18 @@
 - (id);
 - (id)!Cùñ(	°1Â0@ù
 × ;
-- (id)ldBypassCDNForCKAssetURLs: /* Error: Ran out of types for this method. */;
-- (id)sertTestArticle;
-- (id)rentStorefrontErrorWithIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)setShouldBypassCDNForCKAssetURLs: /* Error: Ran out of types for this method. */;
+- (id)insertTestArticle;
+- (id)fc_blockedInCurrentStorefrontErrorWithIdentifiers: /* Error: Ran out of types for this method. */;
 - (id)orYouConfig",&,V_forYouConfig;
-- (id)ocalizableLanguageSpecificKeys;
+- (id)localizableLanguageSpecificKeys;
 - (id)`ÕÀÖ|×0ØØØØ ÙàÙ@Ú Û\Ü4Ý;
 - (long long)ðFDG;
 - (_Bool)CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCCKDatabaseEncryptionStartUpMiddleware.m;
 - (id)/feldsparcore/Classes/FCFileCoordinatedDictionary.m;
 - (id)ses/FCNewsPersonalizationTrainingBias.m;
 - (long long)ider"8;
-- (void)led;
+- (void)aggregatesInXavierEnabled;
 - (id)ler initWithContext:] /* Error: Ran out of types for this method. */;
 - (id)responses:%@ /* Error: Ran out of types for this method. */;
 - (id)`nÿÿ;
@@ -58,53 +55,7 @@
 - (id)Èr;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *articleID;
-@property(readonly, nonatomic) double conditionalScore;
-@property(readonly, nonatomic) long long contentType;
-@property(readonly, nonatomic) NSString *contentURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(retain, nonatomic) NSDate *displayDate; // @synthesize displayDate=_displayDate;
-@property(readonly, nonatomic) FCHeadlineThumbnailMetadata *formatThumbnail;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"FCHeadlineThumbnailMetadata",?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isPaid;
-@property(readonly, nonatomic) _Bool isTreatedAsNew;
-@property(readonly, nonatomic) NSDate *publishDate;
-@property(readonly, nonatomic) NSString *rapidUpdate; // @synthesize rapidUpdate=_rapidUpdate;
-@property(readonly, nonatomic) NSURL *routeURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,N
-
-@property(readonly, nonatomic) NSString *shortExcerpt;
-@property(readonly, nonatomic) NSString *sourceChannelTagID;
-@property(readonly, nonatomic) NSArray *sportsEventIDs;
-@property(readonly, nonatomic) NSString *storyType;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *thumbnail;
-@property(readonly, nonatomic) NSString *thumbnailAccentColor;
-@property(readonly, nonatomic) NSString *thumbnailBackgroundColor;
-@property(readonly, nonatomic) long long thumbnailFocalFrame;
-@property(readonly, nonatomic) NSString *thumbnailHQ;
-@property(readonly, nonatomic) long long thumbnailHQMetadata;
-@property(readonly, nonatomic) NSString *thumbnailMedium;
-@property(readonly, nonatomic) long long thumbnailMediumMetadata;
-@property(readonly, nonatomic) long long thumbnailMetadata;
-@property(readonly, nonatomic) NSString *thumbnailPrimaryColor;
-@property(readonly, nonatomic) NSString *thumbnailTextColor;
-@property(readonly, nonatomic) NSString *thumbnailUltraHQ;
-@property(readonly, nonatomic) long long thumbnailUltraHQMetadata;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSArray *topicIDs;
-@property(readonly, nonatomic) NSString *videoType;
-@property(readonly, nonatomic) NSString *videoURL;
 
 @end
 

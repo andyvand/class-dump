@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString, PXFlexMusicLibrary;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PXFlexMusicCueProvider
 {
     NSObject<OS_dispatch_queue> *_queue;
-    PXFlexMusicLibrary *_library;
-    NSMutableArray *_requests;
 }
 
 - (id);
@@ -22,13 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

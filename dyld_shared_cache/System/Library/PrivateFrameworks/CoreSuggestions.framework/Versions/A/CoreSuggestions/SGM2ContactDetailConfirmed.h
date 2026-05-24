@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2ContactDetailConfirmed
 {
     int _extracted;
-    unsigned int _extractionModelVersion;
-    NSString *_key;
-    int _type;
-    int _uiType;
-    CDStruct_698c174b _has;
 }
 
 - (void);
@@ -34,9 +27,9 @@
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)I;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)NULL;
 - (id);
 - (int);
 - (_Bool);
@@ -44,7 +37,7 @@
 - (id);
 - (void);
 - (id);
-- (int);
+- (int)L;
 - (_Bool);
 - (id);
 - (void);
@@ -53,16 +46,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int extracted; // @synthesize extracted=_extracted;
-@property(nonatomic) unsigned int extractionModelVersion; // @synthesize extractionModelVersion=_extractionModelVersion;
-@property(nonatomic) _Bool hasExtracted;
-@property(nonatomic) _Bool hasExtractionModelVersion;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hasUiType;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(nonatomic) int uiType; // @synthesize uiType=_uiType;
 
 @end
 

@@ -6,41 +6,34 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTQueryResults, IFTSchemaIFTStatementId, NSData;
-
 @interface IFTSchemaIFTQueryStepResults : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    IFTSchemaIFTStatementId *_originProgramStatementId;
-    IFTSchemaIFTQueryResults *_queryResults;
-    CDStruct_b33ad018 _has;
-    _Bool _hasOriginProgramStatementId;
-    _Bool _hasQueryResults;
 }
 
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)A;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id)0@ù
 × ;
 - (id)DaemonAudioRecordingInterruptionStartedTier1",&,N,V_assistantDaemonAudioRecordingInterruptionStartedTier1;
-- (id)e;
+- (id)CDASchemaCDADebugElectionDecisionMade;
 - (_Bool)_!;
 - (void)«V¶å=#;
 - (_Bool)¶¶ÿ»®"¶%;
@@ -48,12 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasOriginProgramStatementId; // @synthesize hasOriginProgramStatementId=_hasOriginProgramStatementId;
-@property(nonatomic) _Bool hasQueryResults; // @synthesize hasQueryResults=_hasQueryResults;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTStatementId *originProgramStatementId; // @synthesize originProgramStatementId=_originProgramStatementId;
-@property(retain, nonatomic) IFTSchemaIFTQueryResults *queryResults; // @synthesize queryResults=_queryResults;
 
 @end
 

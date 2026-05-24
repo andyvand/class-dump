@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelObject;
-
 @interface MPLibraryKeepLocalStatusObserverConfiguration
 {
     long long _enableState;
-    MPModelObject *_identifyingModelObject;
 }
 
 - (void);
@@ -17,12 +14,11 @@
 - (long long);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void)SSING__;
+- (_Bool)asView;
+- (void)__MPModelPropertyTVShowShortEditorNotes__MAPPING_MISSING__;
 
 // Remaining properties
 @property(nonatomic) long long enableState; // @synthesize enableState=_enableState;
-@property(retain, nonatomic) MPModelObject *identifyingModelObject; // @synthesize identifyingModelObject=_identifyingModelObject;
 
 @end
 

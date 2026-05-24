@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface NSFileProviderPresenterInfo
 {
     NSString *presenterID;
-    NSSet *observedUbiquityAttributes;
-    NSURL *changedURL;
-    CDStruct_4c969caf presenterAuditToken;
 }
 
 + (id);
-+ (_Bool)tObjectSpecifier;
++ (_Bool)NSScriptObjectSpecifier;
+- (id);
+- (void)@;
+- (id)`;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy) NSURL *changedURL; // @synthesize changedURL;
-@property(readonly, copy) NSSet *observedUbiquityAttributes; // @synthesize observedUbiquityAttributes;
-@property(readonly) CDStruct_4c969caf presenterAuditToken; // @synthesize presenterAuditToken;
-@property(readonly, copy) NSString *presenterID; // @synthesize presenterID;
 
 @end
 

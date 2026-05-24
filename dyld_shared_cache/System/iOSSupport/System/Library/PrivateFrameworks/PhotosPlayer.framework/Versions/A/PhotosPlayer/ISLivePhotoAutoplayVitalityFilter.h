@@ -6,49 +6,33 @@
 
 #import <PhotosPlayer/ISLivePhotoVitalityFilter.h>
 
-@class NSDate;
-
 __attribute__((visibility("hidden")))
 @interface ISLivePhotoAutoplayVitalityFilter : ISLivePhotoVitalityFilter
 {
     _Bool _isVisible;
-    _Bool _hasTargetVisibilityOffset;
-    _Bool _isScrolling;
-    _Bool _isDecelerating;
-    double _visibilityOffset;
-    double _targetVisibilityOffset;
-    NSDate *_estimatedScrollEndDate;
-    long long __state;
 }
 
-- (double);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (double)_contentOverlayTopOffset;
+- (void)_conditionsToComponentLayoutsMap;
+- (double)_componentsToConditionsMap;
+- (void)_componentLayoutResolver;
+- (void)_componentExposureEvent;
+- (void)_beforeBlock;
+- (void)_attributeToFontIndex;
+- (void)_applicators;
+- (_Bool){CGSize=dd}},R,N,V_sourceRect;
+- (id)d}},N,V_temporaryLayoutRect;
 - (_Bool);
 - (_Bool);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)s;
 - (_Bool);
-- (void);
+- (void)J;
 
 // Remaining properties
 @property(nonatomic, setter=_setState:) long long _state; // @synthesize _state=__state;
-@property(retain, nonatomic) NSDate *estimatedScrollEndDate; // @synthesize estimatedScrollEndDate=_estimatedScrollEndDate;
-@property(nonatomic) _Bool hasTargetVisibilityOffset; // @synthesize hasTargetVisibilityOffset=_hasTargetVisibilityOffset;
-@property(nonatomic, setter=setDecelerating:) _Bool isDecelerating; // @synthesize isDecelerating=_isDecelerating;
-@property(nonatomic, setter=setScrolling:) _Bool isScrolling; // @synthesize isScrolling=_isScrolling;
-@property(nonatomic, setter=setVisible:) _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property(nonatomic) double targetVisibilityOffset; // @synthesize targetVisibilityOffset=_targetVisibilityOffset;
-@property(nonatomic) double visibilityOffset; // @synthesize visibilityOffset=_visibilityOffset;
 
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface XQueryStep
 {
     id _expr;
-    id _next;
-    NSArray *_predicates;
 }
 
 - (void);
@@ -22,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)K;
 
 @end
 

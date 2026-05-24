@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPRemotePlaybackQueue.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MPCustomDataPlaybackQueue : MPRemotePlaybackQueue
 {
@@ -15,7 +15,6 @@
 + (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data;
 @property(readonly, nonatomic) NSString *identifier;
 
 @end

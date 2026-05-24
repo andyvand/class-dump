@@ -10,9 +10,9 @@
 {
 }
 
-- (_Bool);
+- (_Bool)m.apple.MediaPlaybackCore/Siri;
 - (id);
-- (id);
+- (id)=;
 
 @end
 

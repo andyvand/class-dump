@@ -9,13 +9,6 @@
 @interface SFRemoteHotspotTrafficFilterParams
 {
     unsigned short _srcPort;
-    unsigned short _destPort;
-    unsigned short _ipProtocol;
-    unsigned int _ipVersion;
-    unsigned int _idleTimeout;
-    NSString *_srcIPAddress;
-    NSString *_destIPAddress;
-    NSString *_trafficClass;
 }
 
 + (_Bool);
@@ -27,28 +20,21 @@
 - (void);
 - (unsigned int);
 - (unsigned short);
-- (id);
+- (id);
 - (unsigned short);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)L;
 - (unsigned int);
 - (id);
 - (void)o ÿÿ;
 - (unsigned short)0ÞÿÄ¬2,;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destIPAddress; // @synthesize destIPAddress=_destIPAddress;
-@property(nonatomic) unsigned short destPort; // @synthesize destPort=_destPort;
-@property(nonatomic) unsigned int idleTimeout; // @synthesize idleTimeout=_idleTimeout;
-@property(nonatomic) unsigned short ipProtocol; // @synthesize ipProtocol=_ipProtocol;
-@property(nonatomic) unsigned int ipVersion; // @synthesize ipVersion=_ipVersion;
 @property(copy, nonatomic) NSString *srcIPAddress; // @synthesize srcIPAddress=_srcIPAddress;
-@property(nonatomic) unsigned short srcPort; // @synthesize srcPort=_srcPort;
-@property(copy, nonatomic) NSString *trafficClass; // @synthesize trafficClass=_trafficClass;
 
 @end
 

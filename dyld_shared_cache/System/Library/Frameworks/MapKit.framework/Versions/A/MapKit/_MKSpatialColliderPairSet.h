@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)lightSearchPunchinEncodedString: /* Error: Ran out of types for this method. */;
+- (void)setSpotlightSearchPunchinEncodedString: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -11,11 +11,11 @@
     NSMutableArray *_windowContextStack;
 }
 
-+ (id)lRect:forCell:rowWidth:forSizing: /* Error: Ran out of types for this method. */;
++ (id)getTextLabelRect:detailTextLabelRect:forCell:rowWidth:forSizing: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)processSceneClassifications:(id)arg1 withOptions: /* Error: Ran out of types for this method. */;
+- (void)RL;
 - (_Bool);
 - (void)@0:8q16@"NSIndexPath"24 /* Error: Ran out of types for this method. */;
 

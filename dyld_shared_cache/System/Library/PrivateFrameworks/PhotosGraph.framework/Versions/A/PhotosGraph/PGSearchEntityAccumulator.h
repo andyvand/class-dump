@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, PGGraphSearchEntity;
+@class NSDictionary;
 
 @interface PGSearchEntityAccumulator
 {
     id internalSearchEntitiesByMomentUUID;
-    id internalMePersonEntity;
-    id internalRelatedPersonAndPetDescriptorByPersonIdentifier;
-    id synonymsByCategoryMask;
-    id graphLocaleIdentifier;
-    id logger;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)tus.wifi.signalUnknown;
+- (_Bool)y.none;
+- (_Bool)oller"24;
+- (_Bool)AXMenuClosed;
+- (_Bool)eQueue;
+- (_Bool)Kit.AXKKeyboardFocusTracker.TrackerQueue;
+- (_Bool)ick.m4a;
+- (_Bool)AXMarkedMisspelled;
+- (_Bool)AXATextAlignmentValue;
+- (_Bool)AXForegroundColor;
 - (id);
 - (void)Framework/Graph/Ingest/Ingest Processing/PGPublicEventDisambiguator.m;
 
 // Remaining properties
-@property(nonatomic, readonly) PGGraphSearchEntity *mePersonEntity;
-@property(nonatomic, readonly) NSDictionary *relatedPersonAndPetDescriptorByRelatedPersonIdentifier;
 @property(nonatomic, readonly) NSDictionary *searchEntitiesByMomentUUID;
 
 @end

@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _GCLegacyPublishedControllerStore
 {
     struct os_unfair_recursive_lock_s _controllersLock;
-    NSSet *_publishedControllers;
 }
 
 - (id);
-- (id);
+- (id)(\@9	;
 - (void);
 
 // Remaining properties

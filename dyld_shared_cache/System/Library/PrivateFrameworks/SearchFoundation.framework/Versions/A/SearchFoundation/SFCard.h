@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL, SFColor, SFDrillDownMetadata, SFImage;
-
 @interface SFCard
 {
     struct {
@@ -14,30 +12,6 @@
         unsigned int source:1;
         unsigned int type:1;
     } _has;
-    _Bool _flexibleSectionOrder;
-    int _source;
-    int _type;
-    SFColor *_backgroundColor;
-    NSString *_cardId;
-    NSArray *_cardSections;
-    NSString *_contextReferenceIdentifier;
-    NSArray *_dismissalCommands;
-    NSData *_entityIdentifier;
-    NSArray *_entityProtobufMessages;
-    NSString *_fbr;
-    NSData *_intentMessageData;
-    NSString *_intentMessageName;
-    NSData *_intentResponseMessageData;
-    NSString *_intentResponseMessageName;
-    SFDrillDownMetadata *_metadata;
-    SFDrillDownMetadata *_drilldownMetadata;
-    unsigned long long _queryId;
-    NSString *_resultIdentifier;
-    NSString *_title;
-    SFImage *_titleImage;
-    NSURL *_urlValue;
-    SFImage *_backgroundImage;
-    NSData *_originalCardData;
 }
 
 @end

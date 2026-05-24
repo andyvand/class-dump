@@ -9,7 +9,6 @@
 @protocol ICTableCellMergeableStringObserving
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool shouldPreventUndoCommands;
 @property(readonly, nonatomic) id <ICTableUndoHelping> undoHelper;
 @end
 

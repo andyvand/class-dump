@@ -5,5 +5,7 @@
 //
 
 @protocol HMDRemoteEventRouterAssertionClient
+- (void),V_reportAProblemNotificationsPath;
+- (void)oblemDirectionsRecordingsPath;
 @end
 

@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEvent, NSMutableArray, NSString, NSView, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface _NSGestureEnvironmentBase
 {
     NSWindow *_window;
-    NSMutableArray *_activeGestureRecognizers;
-    NSView *_latchedView;
-    NSEvent *_latchingEvent;
-    unsigned long long _activeGestureRecognizerEvents;
-    unsigned long long _previousGestureEventMaskBeforeRecognizers;
-    long long _lastGestureRecognizerPressureMTID;
-    struct __flags {
-        unsigned int gatheringActiveGestureRecognizers:1;
-    } _flags;
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)DeviceSupportsAutoLowLightVideo;
+- (id)DeviceSupportsAbsoluteDepth;
+- (void)DeviceSupportsAODVibrancy;
+- (void)Js8HVdVGRs8m5v94pMjkRw;
+- (void)A;
+- (id)@;
 - (id);
 - (id);
 - (long long);
@@ -39,31 +30,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
+- (void)set_allowsMultipathTCP:(id)arg1;
+- (void)set_allowsHTTP3:(id)arg1;
+- (void)_infersDiscretionaryFromOriginatingClient;
+- (void)_enumerateHTTPHeaderFieldsWithRequest:(id)arg1 usingBlock:(id)arg2;
 - (void);
-- (void);
-- (void);
-- (void);
+- (id)not be present for the same eld+1.;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)esWorkflow:(id)arg1 inputPasteboardName: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)initWithServicesWorkflow:(id)arg1 inputPasteboardName: /* Error: Ran out of types for this method. */;
+- (void)NSPrinterType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasActiveGestureRecognizers;
-@property(readonly) _Bool hasDelayedEvents;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isGatheringActiveGestureRecognizers;
-@property long long lastPressureMTID; // @synthesize lastPressureMTID=_lastGestureRecognizerPressureMTID;
-@property(readonly) NSView *latchedView; // @synthesize latchedView=_latchedView;
-@property(readonly) NSEvent *latchingEvent; // @synthesize latchingEvent=_latchingEvent;
-@property(readonly) Class superclass;
 @property __weak NSWindow *window; // @synthesize window=_window;
 
 @end

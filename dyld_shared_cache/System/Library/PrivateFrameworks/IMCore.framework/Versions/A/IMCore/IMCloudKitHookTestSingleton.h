@@ -4,54 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitMockSyncState, NSArray, NSDate, NSDictionary;
+@class IMCloudKitMockSyncState;
 
 @interface IMCloudKitHookTestSingleton
 {
     IMCloudKitMockSyncState *_testState;
-    _Bool _rampedIntoTruthZone;
-    _Bool _isStartingSync;
-    _Bool _isDisablingDevices;
-    long long _isChangingEnabledState;
-    unsigned long long _syncControllerSyncState;
-    long long _syncType;
-    NSDictionary *_syncStats;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)s resultDict=%s;
+- (id)create AVCVideoStream;
+- (id)estination=%@, options=%s, error=%@;
+- (unsigned long long)@;
+- (void)lid state=%u;
+- (void)l version=%d;
+- (void)orVersion=%d;
+- (void)ailed to get image buffer;
+- (void)audio media control info, expecting %u;
+- (void)d;
+- (void)%s] %s:(_Bool)arg1 %d Missing CVO info;
+- (void)fer for serialization.;
+- (void):(id)arg1 %d Cannot deactivate a non-activated stream;
+- (void)d VideoConferenceDefaults:(_Bool)arg1 Found bundleAudio but the value[%d] is invalid (should be 1-10);
+- (void)d;
+- (void)dPacket called with too many bytes %d;
+- (void)er [%s] %s:%d QueueSteering:packetLifeTimeAvg=%f, frameErasurecount=%u countOfRedFrames=%d, redFrameDelayInSamples=%d redRecoveryRate=%f targetBoostingInSec=%f, currentTargetQueueSize=%f
+ /* Error: Ran out of types for this method. */;
+- (_Bool)[%s] %s:%d Turning effects back on is not supported /* Error: Ran out of types for this method. */;
+- (_Bool)axAudioPacketSize=%u for multiway connection;
+- (_Bool)o %d, %d audio + %d ((%d/%d+%d)*%d/%d) header for mode=%d;
+- (_Bool)ceEnableScreenVirtualDisplayLabel=%d;
+- (id)s:%d could not create dispatch queue /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)h
+;
 - (_Bool);
 - (id);
 - (id);
@@ -59,19 +54,7 @@
 - (void)à;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *IMCloudKitSyncErrors;
-@property(nonatomic) _Bool eligibleForTruthZone;
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic) long long isChangingEnabledState; // @synthesize isChangingEnabledState=_isChangingEnabledState;
-@property(nonatomic) _Bool isDisablingDevices; // @synthesize isDisablingDevices=_isDisablingDevices;
-@property(nonatomic) _Bool isStartingSync; // @synthesize isStartingSync=_isStartingSync;
-@property(retain, nonatomic) NSDate *lastSyncDate;
-@property(nonatomic) _Bool rampedIntoTruthZone; // @synthesize rampedIntoTruthZone=_rampedIntoTruthZone;
-@property(nonatomic) unsigned long long syncControllerSyncState; // @synthesize syncControllerSyncState=_syncControllerSyncState;
-@property(retain, nonatomic) NSDictionary *syncStats; // @synthesize syncStats=_syncStats;
-@property(nonatomic) long long syncType; // @synthesize syncType=_syncType;
-@property(nonatomic, getter=isSyncing) _Bool syncing;
-@property(retain, nonatomic) IMCloudKitMockSyncState *testState; // @synthesize testState=_testState;
 
 @end
 

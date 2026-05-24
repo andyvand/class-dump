@@ -9,7 +9,6 @@
 @interface _GCCurrentApplicationAlertManager
 {
     NSMutableSet *_observers;
-    _Atomic long long _alertPresentationCount;
 }
 
 + (id);

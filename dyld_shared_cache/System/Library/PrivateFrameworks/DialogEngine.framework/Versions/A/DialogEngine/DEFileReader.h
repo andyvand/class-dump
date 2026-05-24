@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSURL;
+@class NSURL;
 
 @interface DEFileReader
 {
     NSURL *_src;
-    NSFileHandle *_file;
 }
 
-- (id);
-- (void);
+- (id)public}@Do not notify user preferred change:%s /* Error: Ran out of types for this method. */;
+- (void)@Not owner do not notify user perferred resident reachability is changed.;
 - (void);
 - (id);
 - (id);
@@ -25,7 +24,6 @@
 - (void)*******Ð¹;
 
 // Remaining properties
-@property(retain, nonatomic) NSFileHandle *file; // @synthesize file=_file;
 @property(retain, nonatomic) NSURL *src; // @synthesize src=_src;
 
 @end

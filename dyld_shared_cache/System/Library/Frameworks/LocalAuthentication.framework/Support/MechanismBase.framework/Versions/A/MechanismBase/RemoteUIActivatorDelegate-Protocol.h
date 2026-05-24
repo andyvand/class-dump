@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSObject, NSXPCListener;
+@protocol OS_dispatch_queue;
+
 @protocol RemoteUIActivatorDelegate
+- (void)read comment from;
+- (void)DNN image %s implies %u layers (too many);
+- (NSObject<OS_dispatch_queue> *)initWithImageView: /* Error: Ran out of types for this method. */;
+- (NSXPCListener *)armedForLaterForProductKey:completion: /* Error: Ran out of types for this method. */;
 @end
 

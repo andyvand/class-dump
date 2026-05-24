@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IASLogDataSource, NSArray, NSBundle, NSMutableDictionary, NSPopUpButton, NSSearchField, NSString, NSTableView, NSTextField, NSWindow;
+@class NSWindow;
 
 @interface IASLogWindowController
 {
     NSWindow *window;
-    NSTableView *uiLogView;
-    NSTextField *sendLogCommentTxt;
-    NSTextField *sendLogContactTxt;
-    NSBundle *_resourcesBundle;
-    NSPopUpButton *_logDetailLevelPopUpButton;
-    NSSearchField *_filterField;
-    NSMutableDictionary *_toolbarItems;
-    NSArray *_toolbarIDList;
-    id _closeWatcherObj;
-    SEL _closeWatcherSel;
-    IASLogDataSource *_logDataSource;
 }
 
 + (void);
@@ -35,7 +24,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -48,13 +37,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

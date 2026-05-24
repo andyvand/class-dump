@@ -6,14 +6,10 @@
 
 #import <GameController/GCPhysicalInputElementCollection.h>
 
-@class NSArray, Protocol;
-
 __attribute__((visibility("hidden")))
 @interface _GCPhysicalInputFilteredElementCollection : GCPhysicalInputElementCollection
 {
     GCPhysicalInputElementCollection *_backingCollection;
-    Protocol *_filter;
-    NSArray *_cached_filteredElements;
 }
 
 - (id);

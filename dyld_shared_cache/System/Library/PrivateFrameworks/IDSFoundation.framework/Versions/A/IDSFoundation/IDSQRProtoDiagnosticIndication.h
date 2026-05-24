@@ -9,13 +9,6 @@
 @interface IDSQRProtoDiagnosticIndication
 {
     unsigned long long _txnId;
-    NSString *_failureSubtype;
-    NSString *_failureSubtypeContext;
-    unsigned int _packetsRecordDuration;
-    struct {
-        unsigned int txnId:1;
-        unsigned int packetsRecordDuration:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -26,7 +19,7 @@
 - (void);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
@@ -35,19 +28,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)supportsSecureCoding;
+- (void)### TryPIN failed:(id)arg1 %#m
+;
 - (id);
 - (id);
-- (void)gMaximumAge;
+- (void)packetLogMaximumAge;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *failureSubtype; // @synthesize failureSubtype=_failureSubtype;
-@property(retain, nonatomic) NSString *failureSubtypeContext; // @synthesize failureSubtypeContext=_failureSubtypeContext;
-@property(nonatomic) _Bool hasPacketsRecordDuration;
-@property(nonatomic) _Bool hasTxnId;
-@property(nonatomic) unsigned int packetsRecordDuration; // @synthesize packetsRecordDuration=_packetsRecordDuration;
-@property(nonatomic) unsigned long long txnId; // @synthesize txnId=_txnId;
 
 @end
 

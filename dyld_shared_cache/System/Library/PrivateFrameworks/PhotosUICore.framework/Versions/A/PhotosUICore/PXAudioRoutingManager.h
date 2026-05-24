@@ -10,15 +10,9 @@ __attribute__((visibility("hidden")))
 @interface PXAudioRoutingManager
 {
     id audiblePlayerIdentifiers;
-    id didPerformInitialAudioSessionConfiguration;
-    id kMXSessionProperty_PreferredOutputAudioScoreForSmartRouting;
-    id $__lazy_storage_$_audioSession;
-    id injectedAudioSession;
-    id internalQueue;
-    id logger;
 }
 
-+ (void);
++ (void)horizontalSizeClassWithValue:(id)arg1 withType: /* Error: Ran out of types for this method. */;
 + (id);
 - (void);
 - (void);

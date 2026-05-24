@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalPreferences, NSArray, NSDictionary;
+@class CalPreferences;
 
 @interface EKPreferences
 {
@@ -22,9 +22,9 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (id);
-- (_Bool);
+- (_Bool)8;
 - (void);
 - (void);
 - (id);
@@ -32,50 +32,31 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)`;
+- (_Bool)initWithBVERString: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)_shouldSave;
 - (void);
 - (void);
-- (double);
+- (double)urr_dynamic_bin_12;
+- (id)c_bin;
+- (_Bool)_charge_duration_p_0_50_at_charge_start_secs_curr_dynamic_bin_1;
+- (id)val.;
+- (void)P;
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
+- (id);
+- (void)H;
 - (void);
 - (void)Q2'Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool alertInviteeDeclines;
-@property(nonatomic) _Bool alwaysSetArrivedAndSettledForReminders;
-@property(readonly) _Bool bypassSplashScreen;
 @property(readonly, nonatomic) CalPreferences *calPreferences;
-@property(copy, nonatomic) NSArray *collapsedSectionIdentifiers;
-@property(copy, nonatomic) NSDictionary *conferenceRoomTypeIdentifiersByMRU;
-@property(readonly, nonatomic) NSArray *customDeselectedCalendarSyncHashes;
-@property(readonly, nonatomic) NSArray *customDeselectedCalendarSyncIdentifiers;
-@property(readonly, nonatomic) NSArray *deselectedCalendarIdentifiers;
-@property(readonly, nonatomic) NSArray *deselectedCalendarSyncHashes;
-@property(readonly, nonatomic) NSArray *deselectedCalendarSyncIdentifiers;
-@property(nonatomic) unsigned long long lastConfirmedSplashScreenVersion;
-@property(nonatomic) _Bool refiringReminderAlarmsEnabled;
-@property(copy, nonatomic) NSArray *selectedCalendarIdentifiers;
-@property(nonatomic) _Bool showCompletedReminders;
-@property(nonatomic) _Bool showDeclinedEvents;
-@property(nonatomic) double travelEngineThrottlePeriod;
-@property(copy, nonatomic) NSArray *unselectedCalendarIdentifiersForFocusMode;
-@property(nonatomic) _Bool useShortReminderRefireInterval;
-@property(nonatomic) _Bool useShortReminderSnoozeInterval;
 
 @end
 

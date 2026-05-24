@@ -7,25 +7,19 @@
 @interface _EFLRUCacheNode
 {
     id _element;
-    id _key;
-    _EFLRUCacheNode *_previous;
-    _EFLRUCacheNode *_next;
 }
 
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)4;
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)ed to open SE;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id element; // @synthesize element=_element;
-@property(readonly, nonatomic) id key; // @synthesize key=_key;
-@property(retain, nonatomic) _EFLRUCacheNode *next; // @synthesize next=_next;
-@property(retain, nonatomic) _EFLRUCacheNode *previous; // @synthesize previous=_previous;
 
 @end
 

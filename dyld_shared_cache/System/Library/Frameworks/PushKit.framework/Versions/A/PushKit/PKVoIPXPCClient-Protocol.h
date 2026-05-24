@@ -5,5 +5,7 @@
 //
 
 @protocol PKVoIPXPCClient
+- (void)I;
+- (void);
 @end
 

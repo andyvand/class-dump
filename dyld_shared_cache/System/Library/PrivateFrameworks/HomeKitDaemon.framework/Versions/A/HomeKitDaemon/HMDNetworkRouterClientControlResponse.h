@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterClientControlResponse
@@ -12,27 +12,20 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_operationResponses;
 }
 
-+ (id);
++ (id)momentLocalIdentifiers;
 - (void);
+- (id)setCorrelationId: /* Error: Ran out of types for this method. */;
+- (id)for contact fetching;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (_Bool)`;
 - (_Bool);
-- (_Bool);
-- (id)ludedInRecordingEventTriggers:(struct _NSZone *)arg1;
+- (id)isAnyEventInAnalyzerFragmentResult:(struct _NSZone *)arg1 includedInRecordingEventTriggers: /* Error: Ran out of types for this method. */;
 - (void)Application Bundle Identifier;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableArray *operationResponses; // @synthesize operationResponses=_operationResponses;
-@property(readonly) Class superclass;
 
 @end
 

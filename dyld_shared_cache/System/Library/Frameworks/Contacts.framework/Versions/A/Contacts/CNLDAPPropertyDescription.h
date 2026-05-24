@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CNLDAPPropertyDescription
 {
     NSString *_LDAPKey;
-    NSString *_contactKey;
-    CDUnknownBlockType _valueTransform;
 }
 
 + (id);
@@ -33,17 +31,17 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
++ (id){;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)oup:] /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id){;
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)9h;
 - (void);
 - (void);
 - (void);
@@ -55,8 +53,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) NSString *LDAPKey; // @synthesize LDAPKey=_LDAPKey;
-@property(copy) NSString *contactKey; // @synthesize contactKey=_contactKey;
-@property(copy) CDUnknownBlockType valueTransform; // @synthesize valueTransform=_valueTransform;
 
 @end
 

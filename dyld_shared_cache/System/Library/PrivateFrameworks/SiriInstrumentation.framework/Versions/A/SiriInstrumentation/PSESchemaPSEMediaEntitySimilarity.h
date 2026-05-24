@@ -6,20 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface PSESchemaPSEMediaEntitySimilarity : SISchemaInstrumentationMessage
 {
     _Bool _isSameMediaTitle;
-    _Bool _isSameMediaArtist;
-    _Bool _isSameMediaAlbum;
-    _Bool _isSameMediaItem;
-    struct {
-        unsigned int isSameMediaTitle:1;
-        unsigned int isSameMediaArtist:1;
-        unsigned int isSameMediaAlbum:1;
-        unsigned int isSameMediaItem:1;
-    } _has;
 }
 
 - (void);
@@ -44,24 +33,16 @@
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)egateClusterMappingData_macOS.m:84 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)th error %@;
 - (id);
 - (id);
-- (id)gnizerScore;
+- (id)_tdSpeakerRecognizerScore;
 - (id)icodeScalarIndex;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsSameMediaAlbum;
-@property(nonatomic) _Bool hasIsSameMediaArtist;
-@property(nonatomic) _Bool hasIsSameMediaItem;
-@property(nonatomic) _Bool hasIsSameMediaTitle;
-@property(nonatomic) _Bool isSameMediaAlbum; // @synthesize isSameMediaAlbum=_isSameMediaAlbum;
-@property(nonatomic) _Bool isSameMediaArtist; // @synthesize isSameMediaArtist=_isSameMediaArtist;
-@property(nonatomic) _Bool isSameMediaItem; // @synthesize isSameMediaItem=_isSameMediaItem;
 @property(nonatomic) _Bool isSameMediaTitle; // @synthesize isSameMediaTitle=_isSameMediaTitle;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

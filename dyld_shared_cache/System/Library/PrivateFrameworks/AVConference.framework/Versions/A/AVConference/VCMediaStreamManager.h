@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface VCMediaStreamManager
 {
     struct _opaque_pthread_mutex_t stateLock;
-    NSMutableArray *streamArray;
-    NSObject<OS_dispatch_queue> *xpcQueue;
-    NSMutableDictionary *_vcMomentsCollectorDictionary;
 }
 
 + (id);
@@ -20,11 +14,11 @@
 + (id);
 - (id);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,7 +34,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
@@ -54,13 +48,7 @@
 - (id){ÿÿÿÊþÿÿ¯ÿÿÿ«ÿÿÿº;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

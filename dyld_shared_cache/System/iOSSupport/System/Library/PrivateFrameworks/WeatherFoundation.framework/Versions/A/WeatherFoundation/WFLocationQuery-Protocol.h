@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WFResponse, WFTaskIdentifier;
+@class WFResponse;
 
 @protocol WFLocationQuery
+- (void)h";
 
 // Remaining properties
-@property(retain) WFTaskIdentifier *identifier;
 @property(readonly) WFResponse *response;
 @end
 

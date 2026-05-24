@@ -6,13 +6,11 @@
 
 #import <TSReading/TSDSmartStroke.h>
 
-@class NSMutableDictionary, TSDPathManipulation;
+@class TSDPathManipulation;
 
 @interface TSDManipulatedStroke : TSDSmartStroke
 {
     TSDPathManipulation *mManipulation;
-    NSMutableDictionary *mArrows;
-    unsigned int mRandomSeed;
 }
 
 + (Class);
@@ -25,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (struct CGPath *);
+- (struct CGPath *);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -39,7 +37,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TSDPathManipulation *pathManipulation; // @synthesize pathManipulation=mManipulation;
-@property(nonatomic) unsigned int randomSeed; // @synthesize randomSeed=mRandomSeed;
 
 @end
 

@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMFrameStore, BMStreamDatastore;
+@class BMStreamDatastore;
 
 @interface BMStreamDatastoreReader
 {
     BMStreamDatastore *_inner;
-    BMFrameStore *_currentFrameStore;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ecognized AVControlsVisibilityPolicy %ld;
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (void);
@@ -29,12 +28,10 @@
 - (id);
 - (id);
 - (id);
-- (Class)ock;
+- (Class)lock;
 
 // Remaining properties
-@property(retain, nonatomic) BMFrameStore *currentFrameStore; // @synthesize currentFrameStore=_currentFrameStore;
 @property(readonly, nonatomic) BMStreamDatastore *inner; // @synthesize inner=_inner;
-@property(readonly, nonatomic) _Bool isDataAccessible;
 
 @end
 

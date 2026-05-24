@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
+- (unsigned long long)alid value for ;
 - (oneway void);
 - (unsigned long long);
 - (id);
+- (_Bool)rt;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)[;
 
 @end
 

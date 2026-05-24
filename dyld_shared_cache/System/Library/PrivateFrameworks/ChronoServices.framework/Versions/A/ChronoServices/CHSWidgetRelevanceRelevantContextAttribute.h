@@ -13,15 +13,15 @@
     RKRelevantContext *_context;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)*;
 - (void);
 
 // Remaining properties

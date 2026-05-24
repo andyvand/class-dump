@@ -6,40 +6,14 @@
 
 #import <IMAP/IMAPTask.h>
 
-@class IMAPDownloadCache, IMAPSyncBodiesOperation, IMAPTaskManager, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, NSMutableOrderedSet, NSMutableSet, NSString;
-@protocol IMAPMessageDataSource;
+@class IMAPTaskManager, NSMutableIndexSet;
 
 @interface IMAPBodyFetchTask : IMAPTask
 {
     NSMutableIndexSet *_mandatoryUIDsToFetch;
-    NSMutableIndexSet *_discretionaryUIDsToFetch;
-    NSMutableIndexSet *_userRequestedUIDsToFetch;
-    NSMutableDictionary *_messagesToFetch;
-    NSMutableIndexSet *_mandatoryUIDsBeingFetched;
-    NSMutableIndexSet *_discretionaryUIDsBeingFetched;
-    NSMutableIndexSet *_userRequestedUIDsBeingFetched;
-    NSMutableSet *_messagesBeingFetched;
-    NSMutableOrderedSet *_bodyDownloadsToPersist;
-    NSMutableOrderedSet *_userRequestedDownloadsToPersist;
-    NSMutableSet *_discretionaryBodySyncOperations;
-    NSMutableArray *_messagesWithAttachmentsToProcess;
-    NSMutableArray *_messagesWithAttachmentsBeingProcessed;
-    NSMutableArray *_mandatoryAttachmentsDownloadsToFetch;
-    NSMutableArray *_discretionaryAttachmentsDownloadsToFetch;
-    NSMutableDictionary *_attachmentsDownloadsBeingFetched;
-    _Bool _needToCheckForIncompleteMessages;
-    _Bool _checkingForIncompleteMessages;
-    _Bool _persistingMessages;
-    _Bool _gettingMessagesToFetch;
-    _Bool _dataSourceIsInboxOrAllMail;
-    unsigned int _uidNext;
-    id <IMAPMessageDataSource> _dataSource;
-    IMAPTaskManager *_taskManager;
-    IMAPDownloadCache *_downloadCache;
-    IMAPSyncBodiesOperation *_userRequestedSyncBodiesOperation;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -70,17 +44,17 @@
 - (long long);
 - (long long);
 - (id);
+- (id);
+- (void)G;
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (id);
+- (id)IG;
 - (unsigned int);
-- (id);
+- (id)toreCtKcSg;
 - (unsigned long long);
 - (void);
 - (void);
@@ -90,25 +64,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool checkingForIncompleteMessages; // @synthesize checkingForIncompleteMessages=_checkingForIncompleteMessages;
-@property(readonly, nonatomic) id <IMAPMessageDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) _Bool dataSourceIsInboxOrAllMail; // @synthesize dataSourceIsInboxOrAllMail=_dataSourceIsInboxOrAllMail;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) IMAPDownloadCache *downloadCache; // @synthesize downloadCache=_downloadCache;
-@property(nonatomic) _Bool gettingMessagesToFetch; // @synthesize gettingMessagesToFetch=_gettingMessagesToFetch;
-@property(readonly, nonatomic) _Bool hasMessagesToFetch;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool needToCheckForIncompleteMessages; // @synthesize needToCheckForIncompleteMessages=_needToCheckForIncompleteMessages;
-@property(nonatomic) _Bool persistingMessages; // @synthesize persistingMessages=_persistingMessages;
-@property(readonly) unsigned long long signpostID;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) IMAPTaskManager *taskManager; // @synthesize taskManager=_taskManager;
-@property(nonatomic) unsigned int uidNext; // @synthesize uidNext=_uidNext;
-@property(retain, nonatomic) IMAPSyncBodiesOperation *userRequestedSyncBodiesOperation; // @synthesize userRequestedSyncBodiesOperation=_userRequestedSyncBodiesOperation;
 
 @end
 

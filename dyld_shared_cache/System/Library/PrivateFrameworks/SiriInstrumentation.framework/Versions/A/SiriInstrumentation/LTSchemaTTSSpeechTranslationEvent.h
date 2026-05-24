@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface LTSchemaTTSSpeechTranslationEvent : SISchemaInstrumentationMessage
 {
     NSString *_requestID;
-    NSString *_selectedLocale;
-    unsigned int _responseTimeMs;
-    unsigned int _playbackBeginTimeMs;
-    struct {
-        unsigned int responseTimeMs:1;
-        unsigned int playbackBeginTimeMs:1;
-    } _has;
-    _Bool _hasRequestID;
-    _Bool _hasSelectedLocale;
 }
 
 - (void);
@@ -41,29 +32,21 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/aes/aes_ige.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (void)pBundleIdSaltedHash:(id)arg1;
-- (id)nContext:(id)arg1;
+- (void)setAppBundleIdSaltedHash:(id)arg1;
+- (id)setEntityDisambiguationContext:(id)arg1;
 - (id),N,V_actionId;
-- (_Bool)NGOPTINSTATEINCONSISTENCYCONDITION_UNEXPLAINABLE_OPT_IN;
+- (_Bool)GRADINGOPTINSTATEINCONSISTENCYCONDITION_UNEXPLAINABLE_OPT_IN;
 - (void)×!;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPlaybackBeginTimeMs;
-@property(nonatomic) _Bool hasRequestID; // @synthesize hasRequestID=_hasRequestID;
-@property(nonatomic) _Bool hasResponseTimeMs;
-@property(nonatomic) _Bool hasSelectedLocale; // @synthesize hasSelectedLocale=_hasSelectedLocale;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int playbackBeginTimeMs; // @synthesize playbackBeginTimeMs=_playbackBeginTimeMs;
 @property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(nonatomic) unsigned int responseTimeMs; // @synthesize responseTimeMs=_responseTimeMs;
-@property(copy, nonatomic) NSString *selectedLocale; // @synthesize selectedLocale=_selectedLocale;
 
 @end
 

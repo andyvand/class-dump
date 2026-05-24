@@ -10,17 +10,13 @@ __attribute__((visibility("hidden")))
 @interface NSCGSWindowCornerPathMask : NSCGSWindowCornerMask
 {
     struct CGPath *_cornerPath;
-    _Bool _clipsWindowContents;
-    _Bool _definesShadowShape;
-    struct CGImage *_cachedImage;
-    double _cachedImageScale;
 }
 
-+ (struct CGPath *);
++ (struct CGPath *);
 - (id);
-- (struct CGImage *);
-- (_Bool);
-- (_Bool);
+- (struct CGImage *)HF;
+- (_Bool)to bind port name (%d) to the select statement (stmt=%p);
+- (_Bool)X0;
 - (void);
 - (struct CGPath *)M0<øLX;
 - (double)r the step up cycle must be greater than 1.0.;

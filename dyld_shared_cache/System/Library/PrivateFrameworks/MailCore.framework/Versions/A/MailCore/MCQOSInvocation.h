@@ -11,7 +11,7 @@
     NSNumber *_requestedQualityOfService;
 }
 
-- (id);
+- (id)(;
 - (void);
 - (void);
 

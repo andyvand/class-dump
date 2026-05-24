@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalDarwinNotificationListener, EKEventStore, EKSource, NSArray, NSString;
+@class EKEventStore;
 
 @interface EKCalendarVisibilityManager
 {
     _Bool _active;
-    EKSource *_limitedToSource;
-    EKEventStore *_eventStore;
-    CDUnknownBlockType _visibilityChangedCallback;
-    CalDarwinNotificationListener *_notificationListener;
 }
 
 + (id);
 + (id);
 + (void);
-+ (id);
++ (id)I!ɚ;
 + (id);
 + (id);
 + (id);
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)�;
 - (CDUnknownBlockType);
 - (id);
 - (id);
@@ -35,34 +31,19 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)redentials API;
 - (id);
 - (id);
 - (void)
 × ;
-- (_Bool)tIDCSDySSypGG;
+- (_Bool)SDySo10EKObjectIDCSDySSypGG;
 
 // Remaining properties
-@property _Bool active; // @synthesize active=_active;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *invisibleCalendars;
-@property(readonly, nonatomic) NSArray *invisibleCalendarsForAllIdentities;
-@property(readonly, nonatomic) EKSource *limitedToSource; // @synthesize limitedToSource=_limitedToSource;
-@property(readonly, nonatomic) CalDarwinNotificationListener *notificationListener; // @synthesize notificationListener=_notificationListener;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDUnknownBlockType visibilityChangedCallback; // @synthesize visibilityChangedCallback=_visibilityChangedCallback;
-@property(readonly, nonatomic) NSArray *visibleCalendars;
-@property(readonly, nonatomic) NSArray *visibleCalendarsForAllIdentities;
 
 @end
 

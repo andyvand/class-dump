@@ -7,8 +7,6 @@
 @interface NewsUI2.FeedPuzzleRankProgressCommandHandler
 {
     id puzzleHistory;
-    id puzzleRankProvider;
-    id commandCenter;
 }
 
 - (id);

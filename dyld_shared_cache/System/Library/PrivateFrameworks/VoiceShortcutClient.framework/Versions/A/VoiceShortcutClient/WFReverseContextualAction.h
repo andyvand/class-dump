@@ -11,23 +11,21 @@
 @interface WFReverseContextualAction : WFContextualAction
 {
     WFContextualAction *_actionToReverse;
-    NSData *_reversalState;
 }
 
-+ (_Bool);
++ (_Bool)__AUTH_CONST;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)h:(id)arg1 y;
+- (unsigned long long)llocator<std::__1::__tree_node<std::__1::__value_type<TileId, CLTileFile *>, void *> > >={__tree_end_node<std::__1::__tree_node_base<void *> *>=^{}}} /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)eworks/Accounts.framework/Versions/A/Accounts;
 - (void)Ñ^°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) WFContextualAction *actionToReverse; // @synthesize actionToReverse=_actionToReverse;
 @property(readonly, copy, nonatomic) NSData *reversalState; // @synthesize reversalState=_reversalState;
 
 @end

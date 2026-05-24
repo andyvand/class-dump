@@ -4,37 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriter, AVAssetWriterInput, AVAssetWriterInputPixelBufferAdaptor, NSConditionLock, NSError, NSObject;
-@protocol OS_dispatch_queue;
+@class AVAssetWriter;
 
 @interface VideoWriter
 {
     _Bool _initFailed;
-    float fps;
-    unsigned int imgWidth;
-    unsigned int imgHeight;
-    int timeScale;
-    unsigned int pixelFormat;
-    long long currFrame;
-    NSError *lastError;
-    AVAssetWriter *_assetWriter;
-    AVAssetWriterInput *_writerInput;
-    AVAssetWriterInputPixelBufferAdaptor *_inputAdaptor;
-    NSConditionLock *_inputLock;
-    NSObject<OS_dispatch_queue> *_frameWriteQueue;
-    long long _currFrameTime;
-    long long _frameIncr;
-    struct CGAffineTransform preferredTransform;
 }
 
 - (void);
 - (void);
+- (void)@9;
+- (void)I;
 - (void);
-- (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (unsigned int);
@@ -52,35 +36,20 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (float);
 - (id);
-- (int);
-- (struct CGAffineTransform);
-- (void);
+- (int)CompoundValueTransformer.;
+- (struct CGAffineTransform)Default;
+- (void);
 - (unsigned int);
 - (id);
 
 // Remaining properties
 @property(retain) AVAssetWriter *assetWriter; // @synthesize assetWriter=_assetWriter;
-@property(readonly) long long currFrame; // @synthesize currFrame;
-@property long long currFrameTime; // @synthesize currFrameTime=_currFrameTime;
-@property(readonly) float fps; // @synthesize fps;
-@property long long frameIncr; // @synthesize frameIncr=_frameIncr;
-@property(retain) NSObject<OS_dispatch_queue> *frameWriteQueue; // @synthesize frameWriteQueue=_frameWriteQueue;
-@property(readonly) unsigned int imgHeight; // @synthesize imgHeight;
-@property(readonly) unsigned int imgWidth; // @synthesize imgWidth;
-@property _Bool initFailed; // @synthesize initFailed=_initFailed;
-@property(retain) AVAssetWriterInputPixelBufferAdaptor *inputAdaptor; // @synthesize inputAdaptor=_inputAdaptor;
-@property(retain) NSConditionLock *inputLock; // @synthesize inputLock=_inputLock;
-@property(readonly) NSError *lastError; // @synthesize lastError;
-@property(readonly) unsigned int pixelFormat; // @synthesize pixelFormat;
-@property(readonly) struct CGAffineTransform preferredTransform; // @synthesize preferredTransform;
-@property(readonly) int timeScale; // @synthesize timeScale;
-@property(retain) AVAssetWriterInput *writerInput; // @synthesize writerInput=_writerInput;
 
 @end
 

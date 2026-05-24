@@ -5,5 +5,10 @@
 //
 
 @protocol AXAssetControllerObserver
+
+@optional
+- (void),;
+- (void);
+- (void)r;
 @end
 

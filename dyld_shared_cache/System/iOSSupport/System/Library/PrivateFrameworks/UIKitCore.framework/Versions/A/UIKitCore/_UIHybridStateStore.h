@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     UISceneSession *_sceneSession;
 }
 
-+ (id);
++ (id)ForGroupActionItem called on object %@ %@;
 - (void);
+- (id)6@0:8 /* Error: Ran out of types for this method. */;
+- (id)D:(id)arg1 reply: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)ionURL;
 - (void)
 × ;
 - (id)longClick;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSBagActiveAccountProvider
@@ -19,25 +19,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
+- (id)t, country is a candidate for imessage junk.;
 - (id);
-- (id);
-- (void)nableRemoteSecuritySigning:(id)arg1;
+- (void)setEnableRemoteSecuritySigning:(id)arg1;
 - (void)*N´}ÕÙÒk90)¶LE»¸ù£åÀsÝW­úÞàèzP,F,I:í¡Ó¼-Ã+¯`Ü5·Ég\<è¨zt!ÖØÉ!àÓ?tð92ÛÞ41ÈmêI,l?Îåy©G³yýý$pÑ>uü¢q£¦ÐõYª5ho
 +O+/üÓ´ÏË´ôûg¥{YmÊAMî­ºõÜ_*åô¹-|ML¿K§;A  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *identity;
-@property(readonly) Class superclass;
 
 @end
 

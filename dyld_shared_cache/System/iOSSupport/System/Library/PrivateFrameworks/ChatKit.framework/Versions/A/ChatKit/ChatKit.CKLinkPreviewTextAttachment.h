@@ -4,55 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEmbeddedRichLinkConfiguration, NSString;
+@class NSString;
 
 @interface ChatKit.CKLinkPreviewTextAttachment
 {
     id delegate;
-    CKEmbeddedRichLinkConfiguration *configuration;
-    id viewProvider;
-    id embeddedLinkView;
-    id preferredSize;
-    id isAttachmentSizeInvalidated;
-    double downscaleMultiplier;
 }
 
-+ (_Bool)essBalloonMaskAlignmentRectInsets;
++ (_Bool)ckShouldUpdatetaillessBalloonMaskAlignmentRectInsets;
 - (_Bool);
-- (void);
-- (void);
-- (double);
+- (void)selectedTagCount;
+- (void)ic_enumerateParagraphsInRange:usingBlock: /* Error: Ran out of types for this method. */;
+- (double)addObserverForName:(id)arg1 object:queue:usingBlock: /* Error: Ran out of types for this method. */;
+- (id)accountForObject: /* Error: Ran out of types for this method. */;
+- (void)dimension;
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)zR;
+- (double);
+- (double);
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)CONVERSATION_GUID;
+- (id)INTENTS_CONVERSATION_ENTITY_PROPERTY_TITLE_CONVERSATION_GUID;
 - (void)n:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) CKEmbeddedRichLinkConfiguration *configuration; // @synthesize configuration;
-@property(nonatomic) double downscaleMultiplier; // @synthesize downscaleMultiplier;
-@property(nonatomic, readonly) NSString *entryItemUUID;
 @property(nonatomic, readonly) NSString *urlText;
-@property(nonatomic, readonly) _Bool usesTextAttachmentView;
 
 @end
 

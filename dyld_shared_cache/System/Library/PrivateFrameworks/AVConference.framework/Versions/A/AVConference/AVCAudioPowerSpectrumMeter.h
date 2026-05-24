@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSMutableDictionary, NSObject, NSSet, NSString, VCAudioPowerSpectrumMeter;
-@protocol AVCAudioPowerSpectrumMeterDelegate, OS_dispatch_queue;
+@class AVConferenceXPCClient;
+@protocol AVCAudioPowerSpectrumMeterDelegate;
 
 @interface AVCAudioPowerSpectrumMeter
 {
     AVConferenceXPCClient *_connection;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    id _delegate;
-    double _audioSpectrumRefreshRate;
-    unsigned short _audioSpectrumBinCount;
-    unsigned int _sessionToken;
-    NSSet *_allowListedXPCObjects;
-    VCAudioPowerSpectrumMeter *_powerSpectrumMeter;
-    NSMutableDictionary *_basebandAudioTapTypeToStreamTokenMap;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    _Bool _enableAsyncTapStart;
 }
 
-+ (unsigned int);
++ (unsigned int)�
+;
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -35,10 +26,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)ntextERNS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEEESL_EE;
+- (_Bool)5_10PropertyIDEEEyNS5_18StylePropertyIndexERKNS5_15DecodingContextERNS_19basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEEESL_EE;
 - (void);
 - (_Bool);
 - (id);
@@ -48,19 +39,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void)nForType: /* Error: Ran out of types for this method. */;
+- (void)sessionConfigurationForType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) id <AVCAudioPowerSpectrumMeterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int sessionToken; // @synthesize sessionToken=_sessionToken;
-@property(readonly) Class superclass;
 
 @end
 

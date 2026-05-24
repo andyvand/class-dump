@@ -6,36 +6,27 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOPDPlaceRequest, NSString;
+@class GEOPDPlaceRequest;
 
 @interface GEOPlaceRegisterPlaceRequestExtras : GEOXPCRequest
 {
     _Bool _deleteExisting;
-    GEOPDPlaceRequest *_request;
 }
 
-+ (Class);
-- (void);
++ (Class)setPersistentDomain:forName: /* Error: Ran out of types for this method. */;
+- (void)Will send accounts to target (%{public}@ after schedule);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void)rsalPercent;
+- (void)lastDetectedLocationTraversalPercent;
 - (void)ÿÿ;
 - (void)uæ~K@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool deleteExisting; // @synthesize deleteExisting=_deleteExisting;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOPDPlaceRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

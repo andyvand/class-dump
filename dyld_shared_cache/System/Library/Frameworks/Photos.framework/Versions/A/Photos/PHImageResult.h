@@ -6,16 +6,11 @@
 
 #import <Photos/PHCompositeMediaResult.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface PHImageResult : PHCompositeMediaResult
 {
     struct CGImage *_imageRef;
-    _Bool _isPlaceholder;
-    _Bool _degraded;
-    _Bool _isDerivedFromDeferredPreview;
-    NSNumber *_exifOrientation;
-    NSString *_uniformTypeIdentifier;
 }
 
 - (void);
@@ -23,29 +18,28 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)	J		9;
 - (id);
-- (_Bool);
+- (_Bool)_postNotificationName:controller: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)i digits=%i alg=%@>;
+- (void)managePasskeyURL;
 - (void);
 - (id);
 - (void);
-- (struct CGImage *);
+- (struct CGImage *)eate sandbox write extension for file URL %@, error:%s /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
-- (void):(id)arg1;
-- (_Bool)chSuggestedRecipientsForAssets:options: /* Error: Ran out of types for this method. */;
-- (void)nviteeFullName;
+- (void)isAudioFileExtension:(id)arg1;
+- (_Bool)batchFetchSuggestedRecipientsForAssets:options: /* Error: Ran out of types for this method. */;
+- (void)inviteeFullName;
 - (id)geDetails too many objects for second pass:%lu > %ld, refetching. objects:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *exifOrientation; // @synthesize exifOrientation=_exifOrientation;
-@property(copy, nonatomic) NSString *uniformTypeIdentifier; // @synthesize uniformTypeIdentifier=_uniformTypeIdentifier;
 
 @end
 

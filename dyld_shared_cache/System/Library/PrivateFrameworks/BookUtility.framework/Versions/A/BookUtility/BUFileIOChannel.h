@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_io, OS_dispatch_queue;
-
 @interface BUFileIOChannel
 {
     _Bool _closed;
-    NSObject<OS_dispatch_queue> *_ioQueue;
-    NSObject<OS_dispatch_io> *_channel;
 }
 
 - (void);
@@ -45,17 +40,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_io> *channel; // @synthesize channel=_channel;
 @property(nonatomic, getter=isClosed) _Bool closed; // @synthesize closed=_closed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *ioQueue; // @synthesize ioQueue=_ioQueue;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly) Class superclass;
 
 @end
 

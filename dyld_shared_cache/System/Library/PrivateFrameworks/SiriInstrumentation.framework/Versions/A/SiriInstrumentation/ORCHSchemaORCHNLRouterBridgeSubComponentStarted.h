@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHNLRouterBridgeSubComponentStarted : SISchemaInstrumentationMessage
 {
     int _nlRouterSubComponent;
-    CDStruct_5c0d9b80 _has;
 }
 
-- (void);
+- (void)_뫌;
 - (void);
 - (int);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ñÝð1Â0@ù
 × ;
-- (id)dTruths;
+- (id)_contributingGroundTruths;
 - (id)y",&,N,V_pnrodIntelligenceFlowResponseGenerationComponentSummary;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNlRouterSubComponent;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int nlRouterSubComponent; // @synthesize nlRouterSubComponent=_nlRouterSubComponent;
 
 @end

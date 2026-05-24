@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol MTSyncControllerProtocol
++ (void)N;
+- (void);
+- (_Bool)l;
+- (void)6^v64;
 - (void)VGSo17OS_dispatch_queueCGAIG;
 - (void)Húáÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isRunning;
-@property(nonatomic, readonly) _Bool isSyncing;
-@property(nonatomic, retain) NSString *playlistSyncVersion;
-@property(nonatomic) long long syncVersionFlags;
 @property(nonatomic) _Bool uppSyncDirtyFlag;
 @end
 

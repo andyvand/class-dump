@@ -10,12 +10,5 @@
 
 // Remaining properties
 @property(readonly) NSSet *annotationsToAddImmediately;
-@property(readonly) NSSet *annotationsToRedraw;
-@property(readonly) NSSet *annotationsToRemoveAfterAnimationHasEnded;
-@property(readonly) NSSet *annotationsToRemoveAfterAnimationHasStarted;
-@property(readonly) NSSet *annotationsToRemoveImmediately;
-@property(readonly) NSSet *annotationsWithUpdatedIndex;
-@property(readonly) NSSet *overlaysToAddImmediately;
-@property(readonly) NSSet *overlaysToRemoveImmediately;
 @end
 

@@ -9,11 +9,6 @@
 @interface SLRequestMultiPart
 {
     NSData *_payload;
-    NSString *_name;
-    NSString *_type;
-    NSString *_uniqueIdentifier;
-    NSString *_multiPartBoundary;
-    NSString *_filename;
 }
 
 + (id);
@@ -28,19 +23,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)MessageToNearbyPeerForLocale:(id)arg1 ]_block_invoke;
+- (id)i;
 - (void);
 - (void);
+- (void);
+- (void)`;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *filename; // @synthesize filename=_filename;
-@property(copy, nonatomic) NSString *multiPartBoundary; // @synthesize multiPartBoundary=_multiPartBoundary;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSData *payload; // @synthesize payload=_payload;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 @property(readonly, nonatomic) NSString *uniqueIdentifier; // @dynamic uniqueIdentifier;
 
 @end

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL, PKMerchant;
+@class NSString;
 
 @interface PKPassAuxiliaryPassInformationItem
 {
     NSString *_identifier;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_subtitle2;
-    NSString *_detailFooterLeadingTitle;
-    NSString *_detailFooterTrailingTitle;
-    NSString *_detailFooterLeadingText;
-    NSString *_detailFooterTrailingText;
-    NSURL *_mapsURL;
-    PKMerchant *_merchant;
-    long long _merchantCategory;
-    NSArray *_fields;
-    NSArray *_sections;
 }
 
 + (_Bool)X"°!Ü@ùî%1Â0@ù
@@ -49,33 +37,21 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)setHasAudiogrant:(id)arg1;
+- (void)timedOut;
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void)up;
-- (id)WAdvertisement;
+- (void)_methodGroup;
+- (id)PKContinuityProximityNWAdvertisement;
 - (void)und an object of class %@;
 - (id)xM;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *detailFooterLeadingText; // @synthesize detailFooterLeadingText=_detailFooterLeadingText;
-@property(copy, nonatomic) NSString *detailFooterLeadingTitle; // @synthesize detailFooterLeadingTitle=_detailFooterLeadingTitle;
-@property(copy, nonatomic) NSString *detailFooterTrailingText; // @synthesize detailFooterTrailingText=_detailFooterTrailingText;
-@property(copy, nonatomic) NSString *detailFooterTrailingTitle; // @synthesize detailFooterTrailingTitle=_detailFooterTrailingTitle;
-@property(retain, nonatomic) NSArray *fields; // @synthesize fields=_fields;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSURL *mapsURL; // @synthesize mapsURL=_mapsURL;
-@property(retain, nonatomic) PKMerchant *merchant; // @synthesize merchant=_merchant;
-@property(nonatomic) long long merchantCategory; // @synthesize merchantCategory=_merchantCategory;
-@property(retain, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *subtitle2; // @synthesize subtitle2=_subtitle2;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

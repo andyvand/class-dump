@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface MKMapViewLabelMarkerState
 {
     _Bool _visible;
-    unsigned char _balloonBehavior;
 }
 
 + (id);
@@ -18,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (void)clLocationManager:(_Bool)arg1 %p didUpdateLocations:%{private}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned char balloonBehavior; // @synthesize balloonBehavior=_balloonBehavior;
 @property(nonatomic, getter=isVisible) _Bool visible; // @synthesize visible=_visible;
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCFileCleaner, ABCPersistentStoreController, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class ABCFileCleaner;
 
 @interface DiagnosticStorageManager
 {
     unsigned long long _lastCalculatedDiskUsageSize;
-    NSMutableArray *_casesSortedByDate;
-    NSMutableDictionary *_payloadsByCaseID;
-    NSObject<OS_dispatch_queue> *_queue;
-    ABCPersistentStoreController *_storeController;
-    NSString *_logArchivePath;
-    ABCFileCleaner *_abcCleaner;
 }
 
 - (void);
@@ -31,8 +24,8 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)Attempting to release control for client:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)l commands;
 - (unsigned long long);
 - (void);
 - (void);
@@ -45,13 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ABCFileCleaner *abcCleaner; // @synthesize abcCleaner=_abcCleaner;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

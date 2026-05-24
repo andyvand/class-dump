@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CWFSensingResult
 {
@@ -14,26 +14,19 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)E;
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void)preferencesVersion;
+- (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)_remote_device"8i16;
 - (id)!ÀCù(1Â0@ù
 × ;
 - (void)sBlueAtlasNetwork;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

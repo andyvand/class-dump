@@ -6,54 +6,33 @@
 
 #import <FileProvider/FPOperation.h>
 
-@class FPItemManager, FPService, NSMutableArray, NSMutableDictionary, NSOperationQueue, NSString;
-@protocol FPXOperationService;
+@class NSMutableDictionary;
 
 @interface FPFetchThumbnailsOperation : FPOperation
 {
     NSMutableDictionary *_dictionary;
-    NSMutableArray *_appLibraryItems;
-    NSMutableArray *_placeHoldersItems;
-    struct CGSize _desiredSize;
-    double _screenScale;
-    FPItemManager *_itemManager;
-    FPService<FPXOperationService> *_servicer;
-    NSOperationQueue *_subOperationQueue;
-    NSMutableArray *_subOperations;
-    CDUnknownBlockType _perThumbnailCompletionBlock;
-    CDUnknownBlockType _perThumbnailWithVersionCompletionBlock;
-    CDUnknownBlockType _thumbnailsFetchCompletionBlock;
 }
 
+- (CDUnknownBlockType)#;
+- (void);
+- (void)M;
 - (CDUnknownBlockType);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)~�H;
 - (void);
 - (id);
-- (id);
+- (id)Q	;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)NSt3__110shared_ptrIN3ims18StackEventDelegateEE27__shared_ptr_default_deleteIS2_NS1_25StackEventDelegateWrapperEEE;
 - (void);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType perThumbnailCompletionBlock; // @synthesize perThumbnailCompletionBlock=_perThumbnailCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType perThumbnailWithVersionCompletionBlock; // @synthesize perThumbnailWithVersionCompletionBlock=_perThumbnailWithVersionCompletionBlock;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType thumbnailsFetchCompletionBlock; // @synthesize thumbnailsFetchCompletionBlock=_thumbnailsFetchCompletionBlock;
 
 @end
 

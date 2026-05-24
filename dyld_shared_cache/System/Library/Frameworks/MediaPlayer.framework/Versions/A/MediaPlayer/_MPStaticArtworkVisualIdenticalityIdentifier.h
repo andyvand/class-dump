@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _MPStaticArtworkVisualIdenticalityIdentifier
 {
     NSString *_imageArtworkIdentifier;
-    NSString *_videoArtworkIdentifier;
 }
 
 - (id);
@@ -18,20 +17,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)collectionView:(id)arg1 namesOfPromisedFilesDroppedAtDestination:forDraggedItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)temSagaIDs:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)addGeniusPlaylistWithPersistentID:name:seedItemSagaIDs:itemSagaIDs:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *imageArtworkIdentifier; // @synthesize imageArtworkIdentifier=_imageArtworkIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *videoArtworkIdentifier; // @synthesize videoArtworkIdentifier=_videoArtworkIdentifier;
 
 @end
 

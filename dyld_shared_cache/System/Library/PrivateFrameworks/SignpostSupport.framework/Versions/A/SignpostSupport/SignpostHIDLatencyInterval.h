@@ -9,14 +9,12 @@
 @interface SignpostHIDLatencyInterval : SignpostAnimationSubInterval
 {
     unsigned int _swapId;
-    unsigned int _frameSeed;
 }
 
 - (unsigned int);
 - (unsigned int);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int frameSeed; // @synthesize frameSeed=_frameSeed;
 @property(readonly, nonatomic) unsigned int swapId; // @synthesize swapId=_swapId;
 
 @end

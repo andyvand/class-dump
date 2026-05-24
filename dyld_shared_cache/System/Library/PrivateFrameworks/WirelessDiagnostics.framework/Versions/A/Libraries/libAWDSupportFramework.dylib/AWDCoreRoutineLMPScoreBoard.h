@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDCoreRoutineLMPScoreBoard
 {
     unsigned long long _timestamp;
-    NSMutableArray *_instances;
-    NSMutableArray *_secondaryInstances;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);

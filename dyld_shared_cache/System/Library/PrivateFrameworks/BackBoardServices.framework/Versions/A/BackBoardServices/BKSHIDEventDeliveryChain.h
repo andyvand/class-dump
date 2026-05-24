@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSEventDeferringChainIdentity, BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringSelectionPathIdentifier, BKSHIDEventDisplay, NSArray, NSSet, NSString;
+@class BKSEventDeferringChainIdentity;
 
 @interface BKSHIDEventDeliveryChain
 {
     BKSEventDeferringChainIdentity *_identity;
-    BKSHIDEventDisplay *_compatibilityDisplay;
-    _Bool _containsSubset;
-    _Bool _containsEndOfChain;
-    BKSHIDEventDeferringSelectionPathIdentifier *_selectionPath;
-    NSArray *_deferringPath;
-    NSSet *_modalities;
 }
 
 + (id);
-+ (id);
++ (id)FOLLOWUP_CUSTODIAN_REMOVED_NOTIFICATION_TITLE_MACOS;
 + (_Bool);
 - (id);
 - (void);
@@ -30,15 +24,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
+- (id)setExportedInterface:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)prepare fail %s;
 - (unsigned long long);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -48,22 +42,7 @@
 - (id)z>;
 
 // Remaining properties
-@property(readonly, nonatomic) BKSHIDEventDisplay *compatibilityDisplay; // @synthesize compatibilityDisplay=_compatibilityDisplay;
 @property(nonatomic) _Bool containsEndOfChain; // @synthesize containsEndOfChain=_containsEndOfChain;
-@property(readonly, nonatomic) _Bool containsSubset; // @synthesize containsSubset=_containsSubset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy, nonatomic) NSArray *deferringPath; // @synthesize deferringPath=_deferringPath;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) BKSHIDEventDisplay *display;
-@property(readonly, nonatomic) BKSHIDEventDeferringEnvironment *environment;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) BKSEventDeferringChainIdentity *identity; // @synthesize identity=_identity;
-@property(readonly, copy, nonatomic) NSSet *modalities; // @synthesize modalities=_modalities;
-@property(readonly, nonatomic) BKSHIDEventDeferringSelectionPathIdentifier *selectionPath; // @synthesize selectionPath=_selectionPath;
-@property(readonly) Class superclass;
 
 @end
 

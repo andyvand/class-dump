@@ -7,13 +7,6 @@
 @interface Foundation._CalendarICU
 {
     id lock;
-    id identifier;
-    id ucalendar;
-    id _timeZone;
-    id customFirstWeekday;
-    id customMinimumFirstDaysInWeek;
-    id customGregorianStartDate;
-    id locale;
 }
 
 @end

@@ -6,7 +6,7 @@
 
 #import <ContactsUI/CNPropertyEditingCell.h>
 
-@class NSString, UITextField;
+@class UITextField;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertySimpleEditingCell : CNPropertyEditingCell
@@ -16,23 +16,16 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)l	;
+- (id)?A;
 - (id);
 - (void);
-- (void)g: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (void)_shouldShowGroupWhenEditing: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) UITextField *textField; // @synthesize textField=_textField;
 
 @end

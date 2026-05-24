@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _ICLLQueueQuery, _ICLLRadioSource;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface _ICLLAddQueueItemsAction
 {
     NSMutableArray *_items;
-    int _position;
-    int _positionType;
-    _ICLLQueueQuery *_queueQuery;
-    _ICLLRadioSource *_radioSource;
-    int _revision;
-    struct {
-        unsigned int position:1;
-        unsigned int positionType:1;
-        unsigned int revision:1;
-    } _has;
 }
 
 - (id);

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-@protocol SWErrorReporting, SWProcessTerminationPolicyDecider;
+@protocol SWProcessTerminationPolicyDecider;
 
 @interface SWProcessTerminationManager
 {
     id <SWProcessTerminationPolicyDecider> _throttler;
-    id <SWErrorReporting> _errorReporter;
-    NSMutableArray *_onRetryBlocks;
 }
 
 - (void);
@@ -23,15 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SWErrorReporting> errorReporter; // @synthesize errorReporter=_errorReporter;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableArray *onRetryBlocks; // @synthesize onRetryBlocks=_onRetryBlocks;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <SWProcessTerminationPolicyDecider> throttler; // @synthesize throttler=_throttler;
 
 @end

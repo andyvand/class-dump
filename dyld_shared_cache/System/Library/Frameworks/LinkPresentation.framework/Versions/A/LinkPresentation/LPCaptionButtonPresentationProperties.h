@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPCaptionButtonCollapsedPresentationProperties, LPImage, NSArray, NSAttributedString, NSColor, NSNumber, NSString;
+@class NSString;
 
 @interface LPCaptionButtonPresentationProperties
 {
     _Bool _disabled;
-    NSString *_text;
-    NSAttributedString *_attributedText;
-    LPImage *_icon;
-    CDUnknownBlockType _callback;
-    long long _type;
-    long long _shape;
-    NSColor *_foregroundColor;
-    NSColor *_backgroundColor;
-    LPCaptionButtonCollapsedPresentationProperties *_collapsedButton;
-    NSArray *_actions;
-    double _minimumWidth;
-    NSNumber *_requiresInlineButton;
 }
 
 - (void);
@@ -28,8 +16,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)IO sample is not time aligned to sync time, tsync,%.3lf vio_at,%.3lf dt,%.3lf, tol,%.3lf;
+- (id);
 - (double);
 - (long long);
 - (void);
@@ -40,7 +28,7 @@
 - (id);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)quantizedSparseMatrixFromSparseMatrix:numberOfBuckets: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -52,19 +40,7 @@
 - (void)ÿ[;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(copy, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(copy, nonatomic) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(retain, nonatomic) LPCaptionButtonCollapsedPresentationProperties *collapsedButton; // @synthesize collapsedButton=_collapsedButton;
-@property(nonatomic) _Bool disabled; // @synthesize disabled=_disabled;
-@property(retain, nonatomic) NSColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property(retain, nonatomic) LPImage *icon; // @synthesize icon=_icon;
-@property(nonatomic) double minimumWidth; // @synthesize minimumWidth=_minimumWidth;
-@property(retain, nonatomic) NSNumber *requiresInlineButton; // @synthesize requiresInlineButton=_requiresInlineButton;
-@property(nonatomic) long long shape; // @synthesize shape=_shape;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

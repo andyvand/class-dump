@@ -9,10 +9,9 @@
 @interface RBSProcessIdentifier
 {
     NSString *_description;
-    int _pid;
 }
 
-+ (_Bool);
++ (_Bool)?kB;
 + (id);
 + (id);
 + (id);
@@ -20,7 +19,7 @@
 - (int);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -34,14 +33,7 @@
 - (int)ÍI;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly) Class superclass;
 
 @end
 

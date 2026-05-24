@@ -10,33 +10,26 @@
 {
     _Bool hardwareKeyboard;
     NSString *_internalString;
-    NSString *_externalString;
-    long long _externalIndex;
-    NSMutableArray *_externalIndexToInternalIndexMappingArray;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)range;
+- (void)l %@;
 
 // Remaining properties
-@property(nonatomic) long long externalIndex; // @synthesize externalIndex=_externalIndex;
 @property(readonly, nonatomic) NSMutableArray *externalIndexToInternalIndexMappingArray; // @synthesize externalIndexToInternalIndexMappingArray=_externalIndexToInternalIndexMappingArray;
-@property(readonly, nonatomic) NSString *externalString; // @synthesize externalString=_externalString;
-@property(nonatomic) _Bool hardwareKeyboard; // @synthesize hardwareKeyboard;
-@property(readonly, nonatomic) long long internalIndex;
 @property(readonly, nonatomic) NSString *internalString; // @synthesize internalString=_internalString;
 
 @end

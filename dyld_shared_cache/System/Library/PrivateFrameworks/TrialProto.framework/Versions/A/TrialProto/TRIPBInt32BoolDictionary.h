@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBInt32BoolDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (_Bool);
 - (void);
 - (id);
@@ -30,8 +29,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void)entRolloutId:(_Bool)arg1;
-- (void)ValueInferenceContactResolution;
+- (void)setClientRolloutId:(_Bool)arg1;
+- (void)SiriValueInferenceContactResolution;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

@@ -7,16 +7,6 @@
 @interface ASDAggregateClusterMappingData
 {
     int _encodingVersion;
-    unsigned long long _clusterIDsCount;
-    int *_clusterIDs;
-    unsigned long long _clusterVersionsCount;
-    int *_clusterVersions;
-    unsigned long long _clusterAppCountsCount;
-    int *_clusterAppCounts;
-    unsigned long long _weightedAppLaunchesCount;
-    int *_weightedAppLaunches;
-    unsigned long long _weightedAppForgroundUsagesCount;
-    int *_weightedAppForgroundUsages;
 }
 
 + (_Bool);
@@ -51,26 +41,16 @@
 - (int *);
 - (void);
 - (void);
-- (int);
+- (int);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ernal/Library/BuildRoots/4~CNqZugCSb0I5z409lbGlNTiCYB0uPioBY9TDbg0/Library/Caches/com.apple.xbs/TemporaryDirectory.aCINrX/Sources/Navigation/Instructions/MNTransitInstruction.m;
 
 // Remaining properties
-@property(readonly, nonatomic) int *clusterAppCounts; // @synthesize clusterAppCounts=_clusterAppCounts;
-@property(readonly, nonatomic) unsigned long long clusterAppCountsCount; // @synthesize clusterAppCountsCount=_clusterAppCountsCount;
-@property(readonly, nonatomic) int *clusterIDs; // @synthesize clusterIDs=_clusterIDs;
-@property(readonly, nonatomic) unsigned long long clusterIDsCount; // @synthesize clusterIDsCount=_clusterIDsCount;
-@property(readonly, nonatomic) int *clusterVersions; // @synthesize clusterVersions=_clusterVersions;
-@property(readonly, nonatomic) unsigned long long clusterVersionsCount; // @synthesize clusterVersionsCount=_clusterVersionsCount;
 @property(nonatomic) int encodingVersion; // @synthesize encodingVersion=_encodingVersion;
-@property(readonly, nonatomic) int *weightedAppForgroundUsages; // @synthesize weightedAppForgroundUsages=_weightedAppForgroundUsages;
-@property(readonly, nonatomic) unsigned long long weightedAppForgroundUsagesCount; // @synthesize weightedAppForgroundUsagesCount=_weightedAppForgroundUsagesCount;
-@property(readonly, nonatomic) int *weightedAppLaunches; // @synthesize weightedAppLaunches=_weightedAppLaunches;
-@property(readonly, nonatomic) unsigned long long weightedAppLaunchesCount; // @synthesize weightedAppLaunchesCount=_weightedAppLaunchesCount;
 
 @end
 

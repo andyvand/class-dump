@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer;
+@class PKMetalBuffer;
 
 @interface PKMetalStrokeRenderCacheBuffer
 {
-    id _buffer;
-    unsigned long long _offset;
-    unsigned long long _numVertices;
-    unsigned long long _vertexSize;
-    struct CGRect _bounds;
+    PKMetalBuffer *_buffer;
 }
 
 - (unsigned long long);
@@ -26,11 +22,7 @@
 - (unsigned long long)eplace.;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(readonly, nonatomic) unsigned long long numVertices; // @synthesize numVertices=_numVertices;
 @property(readonly, nonatomic) unsigned long long offset; // @synthesize offset=_offset;
-@property(readonly, nonatomic) id <MTLBuffer> vertexBuffer;
-@property(readonly, nonatomic) unsigned long long vertexSize; // @synthesize vertexSize=_vertexSize;
 
 @end
 

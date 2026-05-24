@@ -4,67 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSWMDeferrableWMWindowTransaction, NSWMDeferredTransactionQueue, WMClientWindowManager;
-@protocol OS_dispatch_queue;
+@class NSWMDeferrableWMWindowTransaction;
 
 __attribute__((visibility("hidden")))
 @interface NSWMWindowCoordinator
 {
     NSWMDeferrableWMWindowTransaction *_transaction;
-    _Bool _disableTransactionFencing;
-    _Bool _scheduledNSCGSTransactionAction;
-    NSWMDeferredTransactionQueue *_transactionQueue;
-    WMClientWindowManager *_windowManager;
-    NSObject<OS_dispatch_queue> *_sendQueue;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)ThreadRadioCapability;
+- (void)tus available;
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (unsigned int);
+- (void));
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)8ԫc;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)(6$7;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)am == NULL;
+- (void)waiter;
 - (id);
 - (void).cocoatech.PathFinder;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

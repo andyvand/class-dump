@@ -5,5 +5,11 @@
 //
 
 @protocol NSControlTextEditingDelegate
+
+@optional
+- (void);
+- (_Bool)R;
+- (void);
+- (_Bool)P;
 @end
 

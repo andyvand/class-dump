@@ -4,55 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSPTransitStorageArtwork, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface MSPTransitStorageSystem
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _muid;
-    MSPTransitStorageArtwork *_artwork;
-    NSString *_name;
-    CDStruct_e99c65f7 _has;
 }
 
-- (_Bool);
+- (_Bool)redirected;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)<;
 - (void);
 - (id);
 - (id);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)FI_TPropertyColumnPreviewKindAndSizeController;
+- (void)4;
+- (_Bool)D;
 - (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)=;
 
 // Remaining properties
-@property(retain, nonatomic) MSPTransitStorageArtwork *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasArtwork;
-@property(nonatomic) _Bool hasMuid;
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long muid; // @synthesize muid=_muid;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
+@property(readonly, nonatomic) unsigned long long muid;
 
 @end
 

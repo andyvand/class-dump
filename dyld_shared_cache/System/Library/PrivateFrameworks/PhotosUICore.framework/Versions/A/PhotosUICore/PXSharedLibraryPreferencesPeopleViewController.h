@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionView, NSCollectionViewDiffableDataSource, NSLayoutConstraint, NSString, PHPhotoLibrary, PXSharedLibraryRulePeopleDataManager;
-@protocol PXSharedLibraryPreferencesPeopleViewControllerDelegate;
+@class NSLayoutConstraint, PHPhotoLibrary;
 
 @interface PXSharedLibraryPreferencesPeopleViewController
 {
     NSLayoutConstraint *_boxHeightConstraint;
-    NSCollectionView *_collectionView;
-    NSCollectionViewDiffableDataSource *_collectionViewDataSource;
-    PXSharedLibraryRulePeopleDataManager *_dataManager;
-    _Bool _hasPeople;
-    NSString *_statusMessage;
-    id <PXSharedLibraryPreferencesPeopleViewControllerDelegate> _delegate;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 - (void);
@@ -33,27 +25,17 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)_TtC12NewsArticlesP33_EB63D8792045F9CB316DE87A7AC9CC2D15PassthroughView;
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)MUMathExpressionDoubleBased;
+- (void)п;
 - (void);
 - (void)´$¥;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PXSharedLibraryPreferencesPeopleViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasPeople; // @synthesize hasPeople=_hasPeople;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, nonatomic) NSString *statusMessage; // @synthesize statusMessage=_statusMessage;
-@property(readonly) Class superclass;
 
 @end
 

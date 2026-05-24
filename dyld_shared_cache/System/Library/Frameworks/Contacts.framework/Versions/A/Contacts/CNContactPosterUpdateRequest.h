@@ -6,14 +6,11 @@
 
 #import <Contacts/CNContactPosterDataUpdateRequest.h>
 
-@class NSData, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @interface CNContactPosterUpdateRequest : CNContactPosterDataUpdateRequest
 {
     NSNumber *_ignoredForRevertNumber;
-    NSString *_contactIdentifier;
-    NSData *_watchWallpaperImageData;
-    NSString *_posterIdentifier;
 }
 
 + (id);
@@ -21,9 +18,9 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)s;
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -32,14 +29,10 @@
 - (id);
 - (void);
 - (void)esNotifierProxy";
-- (void)meContact:(id)arg1 phonetic:includingPrefixAndSuffix: /* Error: Ran out of types for this method. */;
+- (void)isEmptyNameContact:(id)arg1 phonetic:includingPrefixAndSuffix: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) _Bool hasIgnoredForRevertValue;
-@property(readonly, nonatomic) _Bool ignoredForRevert;
-@property(readonly, copy, nonatomic) NSString *posterIdentifier; // @synthesize posterIdentifier=_posterIdentifier;
-@property(readonly, copy, nonatomic) NSData *watchWallpaperImageData; // @synthesize watchWallpaperImageData=_watchWallpaperImageData;
 
 @end
 

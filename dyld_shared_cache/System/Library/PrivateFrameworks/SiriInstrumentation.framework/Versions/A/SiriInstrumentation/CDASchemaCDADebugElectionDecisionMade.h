@@ -6,17 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface CDASchemaCDADebugElectionDecisionMade : SISchemaInstrumentationMessage
 {
     _Bool _isCrossDeviceArbitrationAllowed;
-    NSArray *_advertisementDatas;
-    unsigned int _deviceGroup;
-    struct {
-        unsigned int isCrossDeviceArbitrationAllowed:1;
-        unsigned int deviceGroup:1;
-    } _has;
 }
 
 - (void);
@@ -31,30 +23,25 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (void);
 - (void);
+- (id)%;
 - (id);
-- (id);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)@"CLPInstSchemaCLPCurareAppIntentTaskClassificationStarted";
-- (id)chemaCDADeviceStateActivityEnded;
+- (id)CDASchemaCDADeviceStateActivityEnded;
 - (id)ÿÿÿÿ¸ÿÿÔÿÿðÿÿÿÿ(ÿÿDÿÿ`ÿÿ|ÿÿÿÿ´ÿÿÐÿÿìÿÿÿÿ$ÿÿ@ÿÿ\ÿÿxÿÿÿÿ°ÿÿÌÿÿèÿÿÿÿ ÿÿ<ÿÿXÿÿtÿÿÿÿ¬ÿÿÈÿÿäÿÿ;
 - (void)Êä6m&;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *advertisementDatas; // @synthesize advertisementDatas=_advertisementDatas;
-@property(nonatomic) unsigned int deviceGroup; // @synthesize deviceGroup=_deviceGroup;
-@property(nonatomic) _Bool hasDeviceGroup;
-@property(nonatomic) _Bool hasIsCrossDeviceArbitrationAllowed;
 @property(nonatomic) _Bool isCrossDeviceArbitrationAllowed; // @synthesize isCrossDeviceArbitrationAllowed=_isCrossDeviceArbitrationAllowed;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

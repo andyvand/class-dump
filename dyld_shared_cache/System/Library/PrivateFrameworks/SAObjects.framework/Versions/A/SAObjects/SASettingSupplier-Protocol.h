@@ -7,6 +7,8 @@
 @class SASettingEntity;
 
 @protocol SASettingSupplier
+- (void)`;
+- (SASettingEntity *);
 
 // Remaining properties
 @property(retain, nonatomic) SASettingEntity *setting;

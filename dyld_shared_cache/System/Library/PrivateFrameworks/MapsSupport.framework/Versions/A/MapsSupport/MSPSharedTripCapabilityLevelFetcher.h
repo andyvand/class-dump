@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOObserverHashTable, NSMutableDictionary, NSMutableOrderedSet, NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class GEOObserverHashTable;
 
 @interface MSPSharedTripCapabilityLevelFetcher
 {
     GEOObserverHashTable *_observers;
-    NSMutableDictionary *_statusesByIdentifier;
-    NSMutableOrderedSet *_fetchQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSXPCConnection *_connection;
 }
 
 + (id);
@@ -24,26 +19,20 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)p	;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id)Filter"8;
 + (void);
-- (_Bool);
-- (id);
+- (_Bool)start15fpsUpdatesWithHandler:identificationLog: /* Error: Ran out of types for this method. */;
+- (id)!;
 - (unsigned long long);
 - (id);
 

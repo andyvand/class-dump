@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSMutableArray, NSString, _MTL4CommandQueue, _MTL4CommitFeedbackDispatch;
-@protocol MTLLogContainer;
+@class NSError, _MTL4CommandQueue;
 
 @interface _MTL4CommitFeedback
 {
     _MTL4CommandQueue *_queue;
-    _MTL4CommitFeedbackDispatch *_commitFeedbackDispatch;
-    NSError *_error;
-    unsigned long long _gpuStartTime;
-    unsigned long long _gpuEndTime;
-    NSMutableArray *_errors;
-    CDUnknownBlockType _internalCompletionHandler;
-    NSArray *_logs;
 }
 
 + (void)riptorInternal:options:pipelineCache:destinationBinaryArchive:reflection:error:compilerTask:completionHandler:] /* Error: Ran out of types for this method. */;
@@ -30,17 +22,7 @@
 - (id)ÿS	;
 
 // Remaining properties
-@property(readonly, nonatomic) double GPUEndTime;
-@property(readonly, nonatomic) double GPUStartTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSError *error;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) id <MTLLogContainer> logs;
-@property(readonly) Class superclass;
 
 @end
 

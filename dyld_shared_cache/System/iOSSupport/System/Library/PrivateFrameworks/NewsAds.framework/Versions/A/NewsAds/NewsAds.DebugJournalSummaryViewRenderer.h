@@ -7,7 +7,6 @@
 @interface NewsAds.DebugJournalSummaryViewRenderer
 {
     id styler;
-    id commandCenter;
 }
 
 @end

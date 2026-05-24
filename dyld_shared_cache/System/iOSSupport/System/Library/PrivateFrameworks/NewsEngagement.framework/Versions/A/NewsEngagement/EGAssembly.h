@@ -7,6 +7,7 @@
 @interface EGAssembly
 {
     id assemblies;
+    id;
 }
 
 - (id);

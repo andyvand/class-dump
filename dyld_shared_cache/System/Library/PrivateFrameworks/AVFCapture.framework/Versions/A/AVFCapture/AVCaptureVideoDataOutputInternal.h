@@ -4,34 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDataOutputDelegateCallbackHelper, AVWeakReference, FigCaptureFrameCounter, NSArray, NSDictionary;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureVideoDataOutputInternal
 {
     AVWeakReference *weakReference;
-    NSDictionary *videoSettings;
-    NSDictionary *clientVideoSettings;
-    CDStruct_1b6d18a9 deprecatedMinFrameDuration;
-    _Bool alwaysDiscardsLateVideoFrames;
-    _Bool automaticallyConfiguresOutputBufferDimensions;
-    _Bool deliversPreviewSizedOutputBuffers;
-    _Bool sceneStabilityMetadataEnabled;
-    _Bool allLossyVideoCVPixelFormatTypesEnabled;
-    NSArray *requestedBufferAttachments;
-    _Bool videoSettingsDimensionsOverrideEnabled;
-    _Bool videoSettingsDimensionsOverrideEnabledByClient;
-    _Bool videoSettingsAspectRatioOverrideEnabled;
-    NSArray *availableVideoCVPixelFormatTypes;
-    AVCaptureDataOutputDelegateCallbackHelper *delegateCallbackHelper;
-    FigCaptureFrameCounter *frameCounter;
-    _Bool preparesCellularRadioForNetworkConnection;
-    _Bool preparesCellularRadioForNetworkConnectionSetByClient;
-    _Bool preservesDynamicHDRMetadata;
-    _Bool panoRecordingInProgress;
 }
 
-- (void);
+- (void)@16@24@32q40q48;
 - (id);
 
 @end

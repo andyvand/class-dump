@@ -7,6 +7,8 @@
 @class UIDropInteraction;
 
 @protocol _UIDropInteractionOwning
+- (void)sendRepositionStickerMessage:(UIDropInteraction *)arg1 chatIdentifier:accountID:style: /* Error: Ran out of types for this method. */;
+- (UIDropInteraction *)&,V_idsService;
 
 // Remaining properties
 @property(nonatomic, getter=_dynamicDropInteraction, setter=_setDynamicDropInteraction:) __weak UIDropInteraction *dynamicDropInteraction;

@@ -12,8 +12,8 @@
 }
 
 + (id);
-- (_Bool)ble:(id)arg1;
-- (id)IKeyboardFloatingTransitionController;
+- (_Bool)isSourceTypeAvailable:(id)arg1;
+- (id)UIKeyboardFloatingTransitionController;
 - (id);
 - (void);
 

@@ -7,6 +7,7 @@
 @class NSURL;
 
 @protocol AAOBTrustedContactUpsellInviteMessageModelProtocol
+- (NSURL *);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *messageURL;

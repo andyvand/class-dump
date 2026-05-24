@@ -5,6 +5,7 @@
 //
 
 @protocol SearchUICustomEdgeInsets
+- (struct NSEdgeInsets)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct NSEdgeInsets customEdgeInsets;

@@ -7,12 +7,11 @@
 @interface SKInstallSheetStatusUpdateRequest
 {
     id bundleID;
-    id completionHandler;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)buffer type for attachment type;
 - (void);
 
 @end

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIContextMenuConfiguration, UITargetedPreview;
+
 @protocol UITableViewDelegate
+
+@optional
+- (void);
+- (_Bool)B;
+- (UITargetedPreview *);
+- (UIContextMenuConfiguration *)";
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol _LSDDeviceIdentifierProtocol
+- (void);
+- (void),;
 @end
 

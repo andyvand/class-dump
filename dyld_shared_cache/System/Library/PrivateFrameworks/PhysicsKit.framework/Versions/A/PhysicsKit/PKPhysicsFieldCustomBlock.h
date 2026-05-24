@@ -9,11 +9,10 @@
 @interface PKPhysicsFieldCustomBlock : PKPhysicsField
 {
     CDUnknownBlockType _batchBlock;
-    CDUnknownBlockType _block;
 }
 
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);

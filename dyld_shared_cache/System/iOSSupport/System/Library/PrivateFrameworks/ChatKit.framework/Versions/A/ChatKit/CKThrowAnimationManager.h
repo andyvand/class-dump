@@ -4,83 +4,68 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKChatControllerDummyAnimator, CKTranscriptLabelCell, CKTranscriptNotifyAnywayButtonCell, CKTranscriptTypingIndicatorCell, CKTranscriptUnavailabilityIndicatorCell, NSString, UIImageView, UIView;
-@protocol CKSendAnimationBalloonProvider, CKSendAnimationContextProtocol, CKSendAnimationManagerDelegate, CKThrowAnimationManagerDelegate;
+@class UIView;
+@protocol CKSendAnimationManagerDelegate;
 
 @interface CKThrowAnimationManager
 {
     id <CKSendAnimationManagerDelegate> _sendAnimationManagerDelegate;
-    id <CKSendAnimationBalloonProvider> _sendAnimationBalloonProvider;
-    unsigned long long _sendAnimationType;
-    id <CKThrowAnimationManagerDelegate> _throwManagerDelegate;
-    UIView *_quickReplySnapshot;
-    UIImageView *_audioRecordingPillViewSnapshot;
-    UIView *_behindGlassContainerView;
-    id <CKSendAnimationContextProtocol> _currentContext;
-    UIView *_sendAnimationWindow;
-    CKChatControllerDummyAnimator *_animator;
-    CKTranscriptTypingIndicatorCell *_fakeTypingIndicatorCell;
-    CKTranscriptUnavailabilityIndicatorCell *_fakeUnavailabilityIndicatorCell;
-    CKTranscriptNotifyAnywayButtonCell *_fakeNotifyAnywayButtonCell;
-    CKTranscriptLabelCell *_fakeKeyTransparencyCell;
-    struct CGRect _sourceRect;
-    struct CGRect _audioMessageSourceRect;
 }
 
-+ (id);
++ (id){note:%@, mode:%@}%s:%d /* Error: Ran out of types for this method. */;
 + (id);
 + (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
-- (double);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)setNonPasswordProtectedOnly: /* Error: Ran out of types for this method. */;
+- (void)isPartialMention;
+- (void)initWithFrame:(id)arg1 configuration: /* Error: Ran out of types for this method. */;
+- (void)initWithFormat:(unsigned long long)arg1 locale:arguments: /* Error: Ran out of types for this method. */;
+- (void)initWithFirstObject:(id)arg1 secondObject: /* Error: Ran out of types for this method. */;
+- (void)initWithFilter:(id)arg1 displayDate: /* Error: Ran out of types for this method. */;
+- (void)indentForStyle:(id)arg1 range:attributedString:textView: /* Error: Ran out of types for this method. */;
+- (void)fileIconForURL:(id)arg1 withPreferredSize: /* Error: Ran out of types for this method. */;
+- (void)fieldEditor:(id)arg1 forObject: /* Error: Ran out of types for this method. */;
+- (void)fetchUserRecordWithAccountID:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (void)fetchUserRecordIDWithCompletionHandler:(id)arg1;
+- (void)convertNSTablesToICTables:(id)arg1 pasteboardTypes:filterPastedAttributes:isReadingSelectionFromPasteboard: /* Error: Ran out of types for this method. */;
+- (void)contentIDURLAbsoluteString;
+- (void)contentIDStringFromCIDURL:(struct CGRect)arg1;
+- (id)authenticationStateDidDeauthenticate: /* Error: Ran out of types for this method. */;
+- (unsigned long long)authenticationStateDidAuthenticate: /* Error: Ran out of types for this method. */;
+- (id)authenticateWithPrompt:displayWindow:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)authenticateWithDevicePassword;
+- (id)authenticateWithContext:completion: /* Error: Ran out of types for this method. */;
+- (double)allowsCustomPasswordAuthentication;
+- (id)_done;
+- (void)NSWindow",W,N,V_window;
+- (void)gTokens;
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (struct CGRect);
+- (id)c;
+- (id)p;
+- (struct CGRect)N;
+- (void)/;
+- (void)n;
+- (void)o;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (struct CGPoint);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (_Bool)io file:%@ /* Error: Ran out of types for this method. */;
+- (void)the share in didStopSharing:%@ /* Error: Ran out of types for this method. */;
+- (void)%@;
+- (void)lld;
+- (struct CGPoint)se it's not a v1 note {note:%@} /* Error: Ran out of types for this method. */;
+- (void)t… {account:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)rate password, reducing the chances of losing access to your locked notes.;
+- (id)he note;
+- (unsigned long long)nnot set asset thumbnails;
 - (long long);
-- (void);
-- (id);
-- (void);
-- (double);
-- (void);
-- (id);
+- (void)ad>    <body id="editor">    </body></html>;
+- (id)ndler:] /* Error: Ran out of types for this method. */;
+- (void)nvalid scale to QLThumbnailGenerationRequest;
+- (double)ICAudioPlaybackPauseNotification;
+- (void)mergeableStringDelegate for a row that already has one.;
+- (id)torage rowAtIndex:rowRange:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -90,34 +75,12 @@
 - (struct CGRect);
 - (id)@ù
 × ;
-- (id)TENT_OPERATION_PARAMETER_DESCRIPTION;
+- (id)MARK_UNREAD_INTENT_OPERATION_PARAMETER_DESCRIPTION;
 - (void);
 - (id)(6`ì/;
 
 // Remaining properties
-@property(retain, nonatomic) CKChatControllerDummyAnimator *animator; // @synthesize animator=_animator;
-@property(nonatomic) struct CGRect audioMessageSourceRect; // @synthesize audioMessageSourceRect=_audioMessageSourceRect;
-@property(retain, nonatomic) UIImageView *audioRecordingPillViewSnapshot; // @synthesize audioRecordingPillViewSnapshot=_audioRecordingPillViewSnapshot;
 @property(retain, nonatomic) UIView *behindGlassContainerView; // @synthesize behindGlassContainerView=_behindGlassContainerView;
-@property(retain, nonatomic) id <CKSendAnimationContextProtocol> currentContext; // @synthesize currentContext=_currentContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CKTranscriptLabelCell *fakeKeyTransparencyCell; // @synthesize fakeKeyTransparencyCell=_fakeKeyTransparencyCell;
-@property(retain, nonatomic) CKTranscriptNotifyAnywayButtonCell *fakeNotifyAnywayButtonCell; // @synthesize fakeNotifyAnywayButtonCell=_fakeNotifyAnywayButtonCell;
-@property(retain, nonatomic) CKTranscriptTypingIndicatorCell *fakeTypingIndicatorCell; // @synthesize fakeTypingIndicatorCell=_fakeTypingIndicatorCell;
-@property(retain, nonatomic) CKTranscriptUnavailabilityIndicatorCell *fakeUnavailabilityIndicatorCell; // @synthesize fakeUnavailabilityIndicatorCell=_fakeUnavailabilityIndicatorCell;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIView *quickReplySnapshot; // @synthesize quickReplySnapshot=_quickReplySnapshot;
-@property(nonatomic) __weak id <CKSendAnimationBalloonProvider> sendAnimationBalloonProvider; // @synthesize sendAnimationBalloonProvider=_sendAnimationBalloonProvider;
-@property(nonatomic) __weak id <CKSendAnimationManagerDelegate> sendAnimationManagerDelegate; // @synthesize sendAnimationManagerDelegate=_sendAnimationManagerDelegate;
-@property(nonatomic) unsigned long long sendAnimationType; // @synthesize sendAnimationType=_sendAnimationType;
-@property(retain, nonatomic) UIView *sendAnimationWindow; // @synthesize sendAnimationWindow=_sendAnimationWindow;
-@property(nonatomic) struct CGRect sourceRect; // @synthesize sourceRect=_sourceRect;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <CKThrowAnimationManagerDelegate> throwManagerDelegate; // @synthesize throwManagerDelegate=_throwManagerDelegate;
 
 @end
 

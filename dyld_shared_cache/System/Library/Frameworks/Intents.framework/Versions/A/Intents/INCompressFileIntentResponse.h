@@ -6,13 +6,11 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSNumber, NSString;
-
 @interface INCompressFileIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
++ (int)_callUpdateBlockOfRequestIfRunning:(long long)arg1 andUpdateMostRepresentativeThumbnail:type:error: /* Error: Ran out of types for this method. */;
 + (int);
 + (long long);
 + (_Bool);
@@ -24,27 +22,18 @@
 - (long long);
 - (id);
 - (void);
+- (id)_GCNintendoSuperFamicomControllerProfile;
 - (id);
-- (id);
-- (void);
+- (void)11eb-b1a8-f45c89abb0d9;
 - (id);
 - (id);
 - (id)et",C,N,V_widgetDescriptors;
-- (long long)r;
+- (long long)_INSiriAuthorizationManager;
 - (void)·(;
 - (id)åP?;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *entityName;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *success;
-@property(readonly) Class superclass;
 
 @end
 

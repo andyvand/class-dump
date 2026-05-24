@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SXQuickLookEventHandlerDelegate, SXQuickLookInteractor, SXQuickLookRouter;
+@protocol SXQuickLookEventHandlerDelegate, SXQuickLookInteractor;
 
 @interface SXQuickLookEventHandler
 {
     id <SXQuickLookEventHandlerDelegate> delegate;
-    id <SXQuickLookInteractor> _interactor;
-    id <SXQuickLookRouter> _router;
 }
 
 - (void);
@@ -26,16 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SXQuickLookEventHandlerDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <SXQuickLookInteractor> interactor; // @synthesize interactor=_interactor;
-@property(readonly, nonatomic) id <SXQuickLookRouter> router; // @synthesize router=_router;
-@property(readonly) Class superclass;
 
 @end
 

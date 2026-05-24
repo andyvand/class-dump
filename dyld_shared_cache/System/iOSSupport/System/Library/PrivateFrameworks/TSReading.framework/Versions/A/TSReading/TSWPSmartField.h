@@ -11,18 +11,17 @@
 @interface TSWPSmartField : TSPObject
 {
     TSWPStorage *_parentStorage;
-    unsigned long long _lastTableIndex;
 }
 
 + (id);
 + (id)_;
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (id);
-- (_Bool);
+- (void)an archive without a QueueController;
+- (void)"8@"_MPCPlaybackSessionArchive"16;
+- (void)es"8@"NSError"16;
+- (int)ng device;
+- (void)N/A;
+- (id)lowList.treatments;
+- (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
@@ -36,10 +35,7 @@
 - (id)ze>>>="__bucket_list_"{unique_ptr<std:(id)arg1:__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int attributeArrayKind;
 @property(nonatomic) TSWPStorage *parentStorage; // @synthesize parentStorage=_parentStorage;
-@property(readonly, nonatomic) struct _NSRange range;
-@property(readonly, nonatomic) int styleAttributeArrayKind;
 
 @end
 

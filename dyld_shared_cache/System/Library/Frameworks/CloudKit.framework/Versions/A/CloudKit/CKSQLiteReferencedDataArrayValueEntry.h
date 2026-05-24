@@ -6,12 +6,11 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class NSData, NSNumber;
+@class NSNumber;
 
 @interface CKSQLiteReferencedDataArrayValueEntry : CKSQLiteTableEntry
 {
     NSNumber *_referenceID;
-    NSData *_dataBlob;
 }
 
 + (Class);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *dataBlob; // @synthesize dataBlob=_dataBlob;
 @property(retain, nonatomic) NSNumber *referenceID; // @synthesize referenceID=_referenceID;
 
 @end

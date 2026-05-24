@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TMDADisk
 {
     _Bool _sharesSpaceWithROSPDataOrSystemVolume;
-    NSString *_daVolumeName;
-    NSString *_daBSDName;
-    NSString *_volumeUUID;
 }
 
 - (_Bool);
@@ -23,10 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *daBSDName; // @synthesize daBSDName=_daBSDName;
-@property(readonly, copy) NSString *daVolumeName; // @synthesize daVolumeName=_daVolumeName;
 @property(readonly) _Bool sharesSpaceWithROSPDataOrSystemVolume; // @synthesize sharesSpaceWithROSPDataOrSystemVolume=_sharesSpaceWithROSPDataOrSystemVolume;
-@property(readonly, copy) NSString *volumeUUID; // @synthesize volumeUUID=_volumeUUID;
 
 @end
 

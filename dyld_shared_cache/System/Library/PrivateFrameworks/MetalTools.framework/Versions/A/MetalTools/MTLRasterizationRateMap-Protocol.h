@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol MTLDevice;
 
 @protocol MTLRasterizationRateMap
+- (CDStruct_14f26992);
+- (CDStruct_4bcfbbae);
+- (CDStruct_14f26992);
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSString *label;
-@property(readonly) unsigned long long layerCount;
-@property(readonly) CDStruct_4bcfbbae parameterBufferSizeAndAlign;
-@property(readonly) CDStruct_14f26992 physicalGranularity;
-@property(readonly) CDStruct_14f26992 screenSize;
 @end
 

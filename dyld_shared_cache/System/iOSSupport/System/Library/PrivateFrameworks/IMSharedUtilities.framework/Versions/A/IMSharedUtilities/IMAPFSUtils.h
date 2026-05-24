@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id);
 + (_Bool);
 + (unsigned long long);
 

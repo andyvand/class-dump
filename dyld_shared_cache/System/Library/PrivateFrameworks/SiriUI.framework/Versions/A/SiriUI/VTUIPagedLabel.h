@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface VTUIPagedLabel
 {
     NSTextField *_leadingLabel;
-    NSTextField *_trailingLabel;
-    NSLayoutConstraint *_leadingLabelVisibleConstraint;
-    NSLayoutConstraint *_trailingLabelVisibleConstraint;
 }
 
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)!;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Credentials;
 - (void)
 × ;
 - (void);

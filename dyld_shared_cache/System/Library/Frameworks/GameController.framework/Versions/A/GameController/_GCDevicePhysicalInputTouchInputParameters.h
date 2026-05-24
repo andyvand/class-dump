@@ -6,18 +6,15 @@
 
 #import <GameController/_GCDevicePhysicalInputViewParameters.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputTouchInputParameters : _GCDevicePhysicalInputViewParameters
 {
     float _touchedThreshold;
-    NSSet *_sources;
 }
 
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)setSignInOperationHelper:(struct _NSZone *)arg1;
 - (void);
 
 @end

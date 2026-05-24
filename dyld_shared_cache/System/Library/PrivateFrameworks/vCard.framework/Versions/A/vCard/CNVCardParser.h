@@ -4,52 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNVCardDateComponentsParser, CNVCardLexer, CNVCardMutableNameComponents, CNVCardReadingOptions, CNVCardSelectorMap, NSArray, NSData, NSDateComponents, NSMutableArray, NSMutableDictionary, NSMutableString, NSString;
-@protocol CNVCardParsedResultBuilder, vCard.CNVCardTagInclusionPolicy;
+@class CNVCardReadingOptions;
 
 @interface CNVCardParser
 {
     CNVCardReadingOptions *_options;
-    CNVCardLexer *_lexer;
-    NSData *_data;
-    unsigned long long _defaultEncoding;
-    _Bool _hasImportErrors;
-    CNVCardDateComponentsParser *_dateComponentsParser;
-    CNVCardSelectorMap *_parsingSelectorMap;
-    CNVCardSelectorMap *_parameterSelectorMap;
-    id <CNVCardParsedResultBuilder> _resultBuilder;
-    _Bool _30vCard;
-    CNVCardMutableNameComponents *_nameComponents;
-    NSDateComponents *_bday;
-    NSDateComponents *_altBday;
-    NSMutableArray *_emails;
-    NSMutableArray *_dateComponents;
-    NSMutableArray *_phones;
-    NSMutableArray *_addresses;
-    NSMutableArray *_relatedNames;
-    NSMutableArray *_urls;
-    NSMutableArray *_calendarURIs;
-    NSMutableArray *_addressingGrammars;
-    NSMutableString *_notes;
-    NSMutableDictionary *_extensions;
-    NSMutableArray *_unknowns;
-    NSString *_uid;
-    NSString *_carddavUID;
-    NSMutableArray *_instantMessagingAddresses;
-    NSMutableArray *_socialProfiles;
-    NSMutableDictionary *_activityAlerts;
-    NSMutableArray *_cropRects;
-    _Bool _fullNameHasZeroLength;
-    NSData *_imageData;
-    NSString *_imageGroup;
-    NSString *_imageReference;
-    unsigned long long _startingPositionOfCurrentProperty;
-    NSArray *_itemParameters;
-    NSString *_grouping;
-    unsigned long long _encoding;
-    _Bool _quotedPrintable;
-    _Bool _base64;
-    id <vCard.CNVCardTagInclusionPolicy> _tagInclusionPolicy;
 }
 
 + (id);
@@ -60,12 +19,12 @@
 + (unsigned long long);
 + (_Bool);
 + (id);
-+ (id);
++ (id)5;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -80,6 +39,14 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -114,15 +81,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)t;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -177,21 +136,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)"9;
 - (long long);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (void)9;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
 @property(readonly, nonatomic) CNVCardReadingOptions *options; // @synthesize options=_options;
-@property(readonly, nonatomic) id <CNVCardParsedResultBuilder> resultBuilder; // @synthesize resultBuilder=_resultBuilder;
-@property(readonly, nonatomic) id <vCard.CNVCardTagInclusionPolicy> tagInclusionPolicy; // @synthesize tagInclusionPolicy=_tagInclusionPolicy;
 
 @end
 

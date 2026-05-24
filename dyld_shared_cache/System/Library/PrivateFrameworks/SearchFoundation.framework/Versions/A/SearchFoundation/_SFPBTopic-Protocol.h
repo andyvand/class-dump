@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBFlightDetails, _SFPBSportsDetail, _SFPBWeatherDetails;
+@class NSData, NSString;
 
 @protocol _SFPBTopic
+- (unsigned long long);
+- (NSData *)t",R,N;
+- (id)";
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBFlightDetails *flight;
-@property(copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *query;
-@property(retain, nonatomic) _SFPBSportsDetail *sports;
-@property(nonatomic) int type;
-@property(retain, nonatomic) _SFPBWeatherDetails *weather;
-@property(readonly, nonatomic) unsigned long long whichDetail;
 @end
 

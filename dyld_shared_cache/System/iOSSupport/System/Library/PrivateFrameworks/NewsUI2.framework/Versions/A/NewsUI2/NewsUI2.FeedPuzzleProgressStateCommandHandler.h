@@ -7,11 +7,10 @@
 @interface NewsUI2.FeedPuzzleProgressStateCommandHandler
 {
     id puzzleHistoryService;
-    id commandCenter;
 }
 
 - (id);
-- (void)Provider;
+- (void)EngagementUpsellBannerPropertiesProvider;
 
 @end
 

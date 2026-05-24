@@ -4,45 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAutocompleteFetchRequest, CNContactStore, NSString;
-@protocol CNAutocompleteLocalQueryDelegate;
+@class CNAutocompleteFetchRequest;
 
 @interface CNAutocompleteLocalQuery
 {
     CNAutocompleteFetchRequest *_request;
-    CNContactStore *_contactStore;
-    CNContactStore *_contactFetcherStore;
-    id <CNAutocompleteLocalQueryDelegate> _delegate;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)E9;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)?;
+- (void)`;
+- (void);
 - (void);
 - (id);
 - (void);
 - (id)",&,N,V_usageMonitor;
 
 // Remaining properties
-@property(retain) CNContactStore *contactFetcherStore; // @synthesize contactFetcherStore=_contactFetcherStore;
-@property(retain) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) CNAutocompleteFetchRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

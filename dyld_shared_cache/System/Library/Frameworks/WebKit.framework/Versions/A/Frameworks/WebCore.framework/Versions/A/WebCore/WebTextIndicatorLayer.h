@@ -7,16 +7,12 @@
 @interface WebTextIndicatorLayer
 {
     RefPtr_d7faac9e _textIndicator;
-    struct RetainPtr<NSArray> _bounceLayers;
-    struct CGSize _margin;
-    _Bool _hasCompletedAnimation;
-    _Bool _fadingOut;
 }
 
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)q!	;
+- (_Bool)qA;
 - (id);
 - (void);
 - (_Bool);

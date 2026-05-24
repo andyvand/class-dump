@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUKeyValueStoreWriter
 {
     struct cdb_make _cdb;
-    _Bool _cdbStarted;
-    NSString *_finalPath;
-    int _tempFD;
-    char _tempPath[1024];
 }
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)8;
+- (void)i;
 - (id);
 - (void);
 - (void);

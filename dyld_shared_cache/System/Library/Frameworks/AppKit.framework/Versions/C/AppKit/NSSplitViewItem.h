@@ -4,77 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSArray, NSDictionary, NSMutableArray, NSNumber, NSSplitViewItemAccessoryViewController, NSString, NSView, NSViewController, _NSSplitViewItemViewWrapper;
+@class NSAppearance, NSViewController;
 
 @interface NSSplitViewItem
 {
     NSViewController *_viewController;
-    float _holdingPriority;
-    NSNumber *_overrideHoldingPriority;
-    id _animator;
-    id _animationsDictionary;
-    long long _currentAnimationCount;
-    double _minimumThickness;
-    double _maximumThickness;
-    double _automaticMaximumThickness;
-    double _preferredThicknessFraction;
-    long long _behavior;
-    long long _collapseBehavior;
-    NSAppearance *_appearance;
-    long long _titlebarSeparatorStyle;
-    NSSplitViewItemAccessoryViewController *_legacyAccessoryViewController;
-    NSMutableArray *_topAlignedAccessoryViewControllers;
-    NSMutableArray *_bottomAlignedAccessoryViewControllers;
-    _NSSplitViewItemViewWrapper *_wrapperView;
-    struct {
-        unsigned int collapsed:1;
-        unsigned int canCollapse:1;
-        unsigned int isOverlaid:1;
-        unsigned int automaticallyAdjustsSafeAreaInsets:1;
-        unsigned int isPeeking:1;
-        unsigned int revealsOnEdgeHoverInFullscreen:1;
-        unsigned int springLoaded:1;
-        unsigned int forceWithinWindowBlending:1;
-        unsigned int prefersCollapsesToOverlay:1;
-        unsigned int hasUserSetSize:1;
-        unsigned int canCollapseFromWindowResize:1;
-        unsigned int hasBaseVibrancyEffect:1;
-        unsigned int allowsFullHeightLayout:1;
-        unsigned int wantsFloatingAppearance:1;
-    } _flags;
 }
 
 
 // Remaining properties
-@property(readonly) NSView *_splitViewItemWrapperView;
-@property(retain) NSView *accessoryView;
-@property _Bool allowsFullHeightLayout;
-@property(copy) NSDictionary *animations;
 @property(retain) NSAppearance *appearance;
-@property double automaticMaximumThickness;
-@property _Bool automaticallyAdjustsSafeAreaInsets;
-@property(readonly) long long behavior;
-@property(copy) NSArray *bottomAlignedAccessoryViewControllers;
-@property _Bool canCollapse;
-@property _Bool canCollapseFromWindowResize;
-@property long long collapseBehavior;
-@property(getter=isCollapsed) _Bool collapsed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSAppearance *effectiveAppearance;
-@property(readonly) unsigned long long hash;
-@property float holdingPriority;
-@property double maximumThickness;
-@property double minimumThickness;
-@property double preferredThicknessFraction;
-@property(getter=isSpringLoaded) _Bool springLoaded;
-@property(readonly) Class superclass;
-@property long long titlebarSeparatorStyle;
-@property(copy) NSArray *topAlignedAccessoryViewControllers;
-@property(retain) NSViewController *viewController;
-@property _Bool wantsFloatingAppearance;
 @end
 

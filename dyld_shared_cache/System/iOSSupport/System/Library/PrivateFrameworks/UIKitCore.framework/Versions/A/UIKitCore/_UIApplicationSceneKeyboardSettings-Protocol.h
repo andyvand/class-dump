@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol _UIApplicationSceneKeyboardSettings
-- (void)ilityContentSizeCategoryImageAdjusting;
+- (void)K;
+- (void);
+- (void)UIAccessibilityContentSizeCategoryImageAdjusting;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *hardwareKeyboardExclusivityIdentifier;
-@property(nonatomic) _Bool keyboardDockDisabled;
 @property(nonatomic) struct UIEdgeInsets minimumKeyboardPadding;
-@property(nonatomic) _Bool suppressKeyboardFocusRequests;
 @end
 

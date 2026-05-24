@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PETRawMessage
 {
     NSString *_name;
-    NSData *_rawBytes;
-    unsigned int _typeId;
-    struct {
-        unsigned int typeId:1;
-    } _has;
 }
 
 - (void);
@@ -25,25 +20,20 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasRawBytes;
 @property(nonatomic) _Bool hasTypeId;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSData *rawBytes; // @synthesize rawBytes=_rawBytes;
-@property(nonatomic) unsigned int typeId; // @synthesize typeId=_typeId;
 
 @end
 

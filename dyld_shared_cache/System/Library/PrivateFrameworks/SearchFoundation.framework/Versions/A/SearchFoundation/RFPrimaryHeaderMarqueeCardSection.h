@@ -6,15 +6,11 @@
 
 #import <SearchFoundation/SFCardSection.h>
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString, RFTextProperty, RFVisualProperty, SFAppEntityAnnotation, SFCard, SFColor, SFCommand, SFCopyItem, SFUserReportRequest;
+@class RFTextProperty;
 
 @interface RFPrimaryHeaderMarqueeCardSection : SFCardSection
 {
     CDStruct_746cbfe0 _has;
-    _Bool _addTint;
-    RFTextProperty *_text_1;
-    RFTextProperty *_text_2;
-    RFVisualProperty *_thumbnail;
 }
 
 + (_Bool);
@@ -26,69 +22,19 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)j327Route;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)startTimestamp;
+- (id)eVersion;
 - (id);
 - (id);
 - (id);
 - (void)ommand;
 
 // Remaining properties
-@property(nonatomic) _Bool addTint; // @synthesize addTint=_addTint;
-@property(retain, nonatomic) SFAppEntityAnnotation *appEntityAnnotation;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier;
-@property(retain, nonatomic) SFColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) NSString *cardSectionDetail;
-@property(copy, nonatomic) NSString *cardSectionId;
-@property(retain, nonatomic) SFCommand *command;
-@property(retain, nonatomic) NSString *commandDetail;
-@property(copy, nonatomic) NSArray *commands;
-@property(retain, nonatomic) SFCopyItem *copyableItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) NSArray *embeddedCards;
-@property(copy, nonatomic) NSString *emphasisSubjectId;
-@property(nonatomic) _Bool forceEnable3DTouch;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideDivider;
-@property(nonatomic) int increasedContrastMode;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *leadingSwipeButtonItems;
-@property(retain, nonatomic) SFCard *nextCard;
-@property(copy, nonatomic) NSArray *parameterKeyPaths;
-@property(copy, nonatomic) NSArray *previewButtonItems;
-@property(retain, nonatomic) NSString *previewButtonItemsTitle;
-@property(retain, nonatomic) SFCommand *previewCommand;
-@property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(retain, nonatomic) NSMutableDictionary *racFeedbackLoggingContent;
-@property(copy, nonatomic) NSString *racFeedbackSubfeatureId;
-@property(copy, nonatomic) NSArray *referencedCommands;
-@property(nonatomic) int requiredLevelOfDetail;
-@property(copy, nonatomic) NSString *resultIdentifier;
-@property(retain, nonatomic) SFCommand *secondaryCommand;
-@property(nonatomic) int separatorStyle;
-@property(nonatomic) _Bool shouldHideInAmbientMode;
-@property(nonatomic) _Bool shouldShowInSmartDialog;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) RFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) RFTextProperty *text_2; // @synthesize text_2=_text_2;
-@property(retain, nonatomic) RFVisualProperty *thumbnail; // @synthesize thumbnail=_thumbnail;
-@property(copy, nonatomic) NSArray *trailingSwipeButtonItems;
-@property(copy, nonatomic) NSString *type;
-@property(retain, nonatomic) SFUserReportRequest *userReportRequest;
 
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, QLThumbnailServiceProxy;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface QLThumbnailGenerator
 {
     struct os_unfair_lock_s _iconsLock;
-    NSMutableDictionary *_requests;
-    NSMutableDictionary *_iconsByType;
-    unsigned long long _batchingCount;
-    NSMutableDictionary *_pendingCancelledRequests;
-    NSMutableDictionary *_pendingGenerationRequests;
-    NSMutableDictionary *_preparingGenerationRequests;
-    QLThumbnailServiceProxy *_thumbnailServiceProxy;
-    QLThumbnailServiceProxy *_syncThumbnailServiceProxy;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_requestPreparationQueue;
-    NSObject<OS_dispatch_queue> *_serialResponseQueue;
 }
 
 + (id);
@@ -32,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -60,7 +48,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)`u;
 - (_Bool);
 - (void);
 - (void);
@@ -92,7 +80,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -100,26 +88,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)d_weak_count}},R,V_net;
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long batchingCount; // @synthesize batchingCount=_batchingCount;
-@property(retain, nonatomic) NSMutableDictionary *iconsByType; // @synthesize iconsByType=_iconsByType;
-@property(readonly, nonatomic) struct os_unfair_lock_s iconsLock; // @synthesize iconsLock=_iconsLock;
-@property(retain, nonatomic) NSMutableDictionary *pendingCancelledRequests; // @synthesize pendingCancelledRequests=_pendingCancelledRequests;
-@property(retain, nonatomic) NSMutableDictionary *pendingGenerationRequests; // @synthesize pendingGenerationRequests=_pendingGenerationRequests;
-@property(retain, nonatomic) NSMutableDictionary *preparingGenerationRequests; // @synthesize preparingGenerationRequests=_preparingGenerationRequests;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *requestPreparationQueue; // @synthesize requestPreparationQueue=_requestPreparationQueue;
 @property(retain, nonatomic) NSMutableDictionary *requests; // @synthesize requests=_requests;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *serialResponseQueue; // @synthesize serialResponseQueue=_serialResponseQueue;
-@property(retain, nonatomic) QLThumbnailServiceProxy *syncThumbnailServiceProxy; // @synthesize syncThumbnailServiceProxy=_syncThumbnailServiceProxy;
-@property(retain, nonatomic) QLThumbnailServiceProxy *thumbnailServiceProxy; // @synthesize thumbnailServiceProxy=_thumbnailServiceProxy;
 
 @end
 

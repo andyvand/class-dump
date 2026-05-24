@@ -9,35 +9,29 @@
 @interface PKPeerPaymentAdditionalPushTopics
 {
     NSString *_preferences;
-    NSString *_associatedAccounts;
-    NSString *_requests;
-    NSString *_endpoint;
 }
 
 + (_Bool)0@ù
 × ;
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)	k@!;
+- (id)ʠ;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)Type"b1};
+- (void)setWifiTxPER:(id)arg1;
+- (void)setHasCategory:(id)arg1;
+- (id);
+- (id)$;
 - (id);
-- (id);
-- (id);
-- (id)WithData:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)e;
+- (id)initWithData:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)continuityType;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *associatedAccounts; // @synthesize associatedAccounts=_associatedAccounts;
-@property(copy, nonatomic) NSString *endpoint; // @synthesize endpoint=_endpoint;
 @property(copy, nonatomic) NSString *preferences; // @synthesize preferences=_preferences;
-@property(copy, nonatomic) NSString *requests; // @synthesize requests=_requests;
 
 @end
 

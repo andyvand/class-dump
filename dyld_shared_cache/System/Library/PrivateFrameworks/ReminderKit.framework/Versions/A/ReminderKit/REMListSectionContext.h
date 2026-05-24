@@ -12,14 +12,13 @@
 }
 
 - (_Bool);
-- (id);
-- (id);
+- (id)ation;
+- (id)O;
 - (void);
 - (void)ñr ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSections;
 @property(retain, nonatomic) REMList *list; // @synthesize list=_list;
 
 @end

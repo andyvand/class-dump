@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
-
 @interface WBSHistoryServiceEvent
 {
     long long _eventID;
-    NSString *_eventType;
-    NSDate *_time;
-    NSDictionary *_value;
 }
 
 + (_Bool);
@@ -19,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)startPageSuggestionsProviderIsSuggestionsSectionEnabledWithFrequentlyVisited: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
@@ -28,9 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long eventID; // @synthesize eventID=_eventID;
-@property(readonly, copy, nonatomic) NSString *eventType; // @synthesize eventType=_eventType;
-@property(readonly, copy, nonatomic) NSDate *time; // @synthesize time=_time;
-@property(readonly, copy, nonatomic) NSDictionary *value; // @synthesize value=_value;
 
 @end
 

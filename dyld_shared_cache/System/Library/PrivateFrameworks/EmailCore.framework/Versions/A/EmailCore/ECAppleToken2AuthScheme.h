@@ -13,10 +13,10 @@
 + (id);
 + (id)ñU1Â0@ù
 × ;
-- (id);
+- (id)ck speed selected:%@ /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
-- (void);
+- (void)*;
 - (id);
 - (_Bool);
 - (_Bool);

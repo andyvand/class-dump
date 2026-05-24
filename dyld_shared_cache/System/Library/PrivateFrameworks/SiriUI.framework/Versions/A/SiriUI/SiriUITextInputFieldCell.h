@@ -5,27 +5,24 @@
 //
 
 @class SiriUITextInputView;
-@protocol SiriUITextInputViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SiriUITextInputFieldCell
 {
     SiriUITextInputView *_customFieldEditor;
-    id <SiriUITextInputViewDelegate> _inputDelegate;
 }
 
 - (void);
 - (id);
 - (struct CGRect);
-- (id);
-- (struct CGRect);
+- (id)suggestionsController:(id)arg1 imageDataForRecipient:imageUpdateBlock: /* Error: Ran out of types for this method. */;
+- (struct CGRect)selectionBounds;
 - (void);
 - (id)tedCommandAppPunchOutIds;
 - (void)synthesis;
 
 // Remaining properties
 @property(retain, nonatomic) SiriUITextInputView *customFieldEditor; // @synthesize customFieldEditor=_customFieldEditor;
-@property __weak id <SiriUITextInputViewDelegate> inputDelegate; // @synthesize inputDelegate=_inputDelegate;
 
 @end
 

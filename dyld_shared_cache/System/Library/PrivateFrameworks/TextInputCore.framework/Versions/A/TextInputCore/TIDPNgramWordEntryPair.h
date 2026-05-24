@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TIWordEntryAligned;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TIDPNgramWordEntryPair
 {
     NSString *_wordString;
-    TIWordEntryAligned *_wordEntryAligned;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)Found paired device;
+- (id)e call response for call:%@ from client:%@ /* Error: Ran out of types for this method. */;
+- (void)ate}@;
+- (void)ound call %@ - %@ = %@;
 - (_Bool);
 - (id);
 - (id);
@@ -24,8 +23,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isStandaloneString) _Bool standaloneString;
-@property(retain, nonatomic) TIWordEntryAligned *wordEntryAligned; // @synthesize wordEntryAligned=_wordEntryAligned;
 @property(retain, nonatomic) NSString *wordString; // @synthesize wordString=_wordString;
 
 @end

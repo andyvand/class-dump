@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSButton, NSImageView, NSLayoutConstraint, NSProgressIndicator, NSTextField, NSWindow;
+@class NSArray, NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface MMJSDialog
 {
     NSArray *_spinnerToDefaultSpacingConstraints;
-    CDUnknownBlockType _completionHandler;
-    NSWindow *_dialogSheet;
-    NSImageView *_iconView;
-    NSTextField *_titleField;
-    NSTextField *_messageField;
-    NSButton *_defaultButton;
-    NSButton *_alternateButton;
-    NSProgressIndicator *_progressSpinner;
-    NSLayoutConstraint *_buttonsHSpacingConstraint;
-    NSLayoutConstraint *_spinnerToAlternateSpacingConstraint;
-    NSLayoutConstraint *_buttonsBaselineConstraint;
 }
 
 - (id);
@@ -38,17 +27,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)H3;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)];
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)0;
 - (id);
 - (void);
 - (id);
@@ -56,17 +45,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property __weak NSButton *alternateButton; // @synthesize alternateButton=_alternateButton;
-@property __weak NSLayoutConstraint *buttonsBaselineConstraint; // @synthesize buttonsBaselineConstraint=_buttonsBaselineConstraint;
-@property __weak NSLayoutConstraint *buttonsHSpacingConstraint; // @synthesize buttonsHSpacingConstraint=_buttonsHSpacingConstraint;
-@property __weak NSButton *defaultButton; // @synthesize defaultButton=_defaultButton;
 @property(retain) NSWindow *dialogSheet; // @synthesize dialogSheet=_dialogSheet;
-@property __weak NSImageView *iconView; // @synthesize iconView=_iconView;
-@property __weak NSTextField *messageField; // @synthesize messageField=_messageField;
-@property __weak NSProgressIndicator *progressSpinner; // @synthesize progressSpinner=_progressSpinner;
-@property __weak NSLayoutConstraint *spinnerToAlternateSpacingConstraint; // @synthesize spinnerToAlternateSpacingConstraint=_spinnerToAlternateSpacingConstraint;
-@property(retain) NSArray *spinnerToDefaultSpacingConstraints; // @synthesize spinnerToDefaultSpacingConstraints=_spinnerToDefaultSpacingConstraints;
-@property __weak NSTextField *titleField; // @synthesize titleField=_titleField;
 
 @end
 

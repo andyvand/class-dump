@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, RFSchemaRFSnippetRenderingCancelled, RFSchemaRFSnippetRenderingEnded, RFSchemaRFSnippetRenderingFailed, RFSchemaRFSnippetRenderingStarted;
+@class RFSchemaRFSnippetRenderingStarted;
 
 @interface RFSchemaRFSnippetRenderingContext : SISchemaInstrumentationMessage
 {
     RFSchemaRFSnippetRenderingStarted *_startedOrChanged;
-    RFSchemaRFSnippetRenderingEnded *_ended;
-    RFSchemaRFSnippetRenderingFailed *_failed;
-    RFSchemaRFSnippetRenderingCancelled *_cancelled;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -30,41 +22,32 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)wiftOSLog.dylib;
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)rary/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDLaunchableAppsResponse_macOS.m:20 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)chat_message_join.message_date DESC LIMIT    1;;
 - (id);
 - (id);
 - (void);
-- (id)zedHandleValues:(id)arg1;
+- (id)addAnonymizedHandleValues:(id)arg1;
 - (id)udioStreamReadyTimeInNs;
-- (void)erExists;
+- (void)smsAttributeSenderExists;
 
 // Remaining properties
-@property(retain, nonatomic) RFSchemaRFSnippetRenderingCancelled *cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) RFSchemaRFSnippetRenderingEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) RFSchemaRFSnippetRenderingFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) RFSchemaRFSnippetRenderingStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

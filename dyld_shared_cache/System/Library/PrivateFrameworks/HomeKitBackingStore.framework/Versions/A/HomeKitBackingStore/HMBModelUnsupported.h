@@ -12,7 +12,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)",&,N,V_smallThumbnail;
 
 @end
 

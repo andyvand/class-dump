@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSArray;
+@class NSArray;
 
 @interface GEOSpatialPlaceLookupResultItem
 {
     NSArray *_mapItems;
-    GEOMapRegion *_boundingRegion;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOMapRegion *boundingRegion; // @synthesize boundingRegion=_boundingRegion;
 @property(readonly, nonatomic) NSArray *mapItems; // @synthesize mapItems=_mapItems;
 
 @end

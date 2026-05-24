@@ -6,34 +6,25 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSData, NSString, NSURL;
+@class NSData;
 
 @interface SAWLWatchListChannelDetails : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void),;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *appIconDynamicImage;
-@property(copy, nonatomic) NSString *appName;
-@property(copy, nonatomic) NSURL *appStoreURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

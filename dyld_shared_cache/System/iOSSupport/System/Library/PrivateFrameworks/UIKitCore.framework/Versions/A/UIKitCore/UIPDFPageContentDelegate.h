@@ -4,46 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSString, UIPDFDocument, UIPDFPageView;
+@class UIPDFDocument;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFPageContentDelegate
 {
     UIPDFDocument *_document;
-    unsigned long long _pageIndex;
-    UIPDFPageView *_view;
-    struct CGRect _bounds;
-    struct CGAffineTransform _transform;
-    struct CGColor *_white;
-    struct CGColor *_highlightColor;
-    CALayer *_owner;
-    struct CGRect _box;
-    unsigned long long _pageRotation;
-    struct os_unfair_lock_s _lock;
-    unsigned long long _threadCount;
-    _Bool _isCancelled;
 }
 
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (unsigned long long)%@;
+- (_Bool)error %@;
+- (void)or compressedProtobufDataForMessageP3 (SWY CMM data) called on object %@ %@;
+- (void)(reply data) called on object %@ %@;
+- (void)to %@. This was triggered by a regression test.;
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)_payloadAllowDiagnosticSubmission;
 - (struct CGAffineTransform);
 - (id);
 - (void)
 × ;
 - (void)dataTransferSessionFinished;
-- (id)efaultNormalTitleColor;
-- (id)lder;
+- (id)_defaultNormalTitleColor;
+- (id)UICollectionViewPlaceholder;
 - (struct CGColor *)eView == nil || [reusableView isKindOfClass:[UICollectionReusableView class]] /* Error: Ran out of types for this method. */;
 - (void)ellC¬È;
 - (_Bool)_;
@@ -52,22 +40,7 @@ __attribute__((visibility("hidden")))
 - (void)÷z;
 
 // Remaining properties
-@property struct CGRect box; // @synthesize box=_box;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) UIPDFDocument *document; // @synthesize document=_document;
-@property(readonly) unsigned long long hash;
-@property struct CGColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property _Bool isCancelled; // @dynamic isCancelled;
-@property CALayer *owner; // @synthesize owner=_owner;
-@property unsigned long long pageIndex; // @synthesize pageIndex=_pageIndex;
-@property unsigned long long pageRotation; // @synthesize pageRotation=_pageRotation;
-@property(readonly) Class superclass;
-@property(readonly) struct CGAffineTransform transform; // @synthesize transform=_transform;
-@property UIPDFPageView *view; // @dynamic view;
 
 @end
 

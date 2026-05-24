@@ -5,5 +5,6 @@
 //
 
 @protocol LFLWLiteListenerInterface
+- (void);
 @end
 

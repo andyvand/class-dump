@@ -11,10 +11,10 @@
     NSString *_accessibilityText;
 }
 
-- (void);
+- (void)suggestedRepliesViewMaxWidth;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a;
 - (id);
 - (void)0@ù
 × ;

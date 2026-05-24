@@ -7,8 +7,6 @@
 @interface PhotosUICore.LemonadeBookmarksManager.Mutator__priv_FDAC33CF05DBB5895C6FE33727641D86
 {
     id observable;
-    id _bookmarks;
-    id _loadingStatus;
 }
 
 @end

@@ -9,7 +9,6 @@
 @interface REMFindMyDeviceInformation
 {
     _Bool _isMeDevice;
-    NSString *_deviceName;
 }
 
 + (_Bool);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, nonatomic) _Bool isMeDevice; // @synthesize isMeDevice=_isMeDevice;
 
 @end
 

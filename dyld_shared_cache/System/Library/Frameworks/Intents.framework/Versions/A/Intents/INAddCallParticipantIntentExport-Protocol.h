@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol INAddCallParticipantIntentExport
+- (NSArray *)et SecAccess for Trusted Apps, %d;
 
 // Remaining properties
 @property(copy) NSArray *participants;

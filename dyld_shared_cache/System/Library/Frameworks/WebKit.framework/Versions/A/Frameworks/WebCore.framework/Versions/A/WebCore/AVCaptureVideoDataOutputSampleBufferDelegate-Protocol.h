@@ -5,5 +5,8 @@
 //
 
 @protocol AVCaptureVideoDataOutputSampleBufferDelegate
+
+@optional
+- (void);
 @end
 

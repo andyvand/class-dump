@@ -6,18 +6,14 @@
 
 #import <UIKitCore/UIStatusBarIndicatorItemView.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIStatusBarQuietModeItemView : UIStatusBarIndicatorItemView
 {
     _Bool _hideForAction;
-    _Bool _registeredForNotifications;
-    _Bool _inactive;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)_updatePendingReviewForChatsWithGUIDsInBackground:(id)arg1 pendingReview:(int)arg2 completionBlock: /* Error: Ran out of types for this method. */;
+- (void)ate;
 - (double);
 - (void);
 - (void);
@@ -26,13 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)~ÍH'i;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

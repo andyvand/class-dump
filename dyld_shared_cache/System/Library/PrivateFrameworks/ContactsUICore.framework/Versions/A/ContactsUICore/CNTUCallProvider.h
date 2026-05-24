@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, TUCallProvider;
+@class TUCallProvider;
 
 @interface CNTUCallProvider
 {
     _Bool isEligibleDefaultApp;
-    TUCallProvider *_callProvider;
 }
 
 - (id);
+- (void)T;
 - (void);
-- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (void)ForLabel;
+- (id)disableAnimatedActionsForLayer: /* Error: Ran out of types for this method. */;
+- (void)shouldUseApplicationNameForLabel;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier;
 @property(copy, nonatomic) TUCallProvider *callProvider; // @synthesize callProvider=_callProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isEligibleDefaultApp; // @synthesize isEligibleDefaultApp;
-@property(readonly, copy, nonatomic) NSString *localizedName;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSSet *supportedHandleTypes;
-@property(readonly, nonatomic) _Bool supportsAudio;
-@property(readonly, nonatomic) _Bool supportsVideo;
 
 @end
 

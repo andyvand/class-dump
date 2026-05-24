@@ -4,51 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
-
 @interface SFApiResults
 {
     struct {
         unsigned int status:1;
         unsigned int resultType:1;
     } _has;
-    int _status;
-    int _resultType;
-    NSArray *_flights;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)objectForPropertySet:(id)arg1 payload:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)userEditableAssets;
+- (id)request;
 - (id);
 - (int);
-- (id);
-- (void);
-- (_Bool);
+- (id);
+- (void)P;
+- (_Bool);
 - (int);
 - (void)BRFTextProperty",&,N,V_label;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *flights; // @synthesize flights=_flights;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int resultType; // @synthesize resultType=_resultType;
 @property(nonatomic) int status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

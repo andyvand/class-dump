@@ -6,8 +6,6 @@
 
 #import <SAObjects/SATTSSpeechSynthesisStreaming.h>
 
-@class NSString;
-
 @interface SATTSSpeechSynthesisStreamingEnd : SATTSSpeechSynthesisStreaming
 {
 }
@@ -22,12 +20,10 @@
 - (long long);
 - (_Bool);
 - (void);
-- (long long)d;
+- (long long)companionSpeechId;
 
 // Remaining properties
 @property(nonatomic) long long count;
-@property(nonatomic) long long errorCode;
-@property(copy, nonatomic) NSString *errorMessage;
 
 @end
 

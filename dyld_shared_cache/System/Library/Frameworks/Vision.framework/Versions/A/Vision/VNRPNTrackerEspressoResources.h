@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface VNRPNTrackerEspressoResources
 {
     VNEspressoResources *_rpnInitEspressoResources;
-    VNEspressoResources *_rpnTrackEspressoResources;
 }
 
 - (id);
-- (void)MaskDetectorType;
+- (void)VNTrackMaskDetectorType;
 
 @end
 

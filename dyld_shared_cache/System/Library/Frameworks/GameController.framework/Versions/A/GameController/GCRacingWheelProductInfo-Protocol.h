@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(readonly, copy) NSString *productCategory;
-@property(readonly, copy) NSString *vendorName;
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol NSAccessibilityElement
+- (id)criminator;
+- (struct CGRect)Operation is already complete, aborting.;
+
+@optional
+- (_Bool)@Appending video segment data of length %lu to output stream:%@ /* Error: Ran out of types for this method. */;
 @end
 

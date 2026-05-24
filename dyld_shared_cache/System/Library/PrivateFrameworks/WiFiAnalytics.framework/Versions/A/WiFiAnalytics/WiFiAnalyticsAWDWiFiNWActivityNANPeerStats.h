@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, WiFiAnalyticsAWDWiFiNWActivityTxCompletions;
+@class NSMutableArray;
 
 @interface WiFiAnalyticsAWDWiFiNWActivityNANPeerStats
 {
     NSMutableArray *_acCompletions;
-    NSMutableArray *_bytes;
-    WiFiAnalyticsAWDWiFiNWActivityTxCompletions *_completions;
-    NSString *_hashID;
-    NSMutableArray *_packets;
-    int _role;
-    int _rssiValue;
-    NSMutableArray *_rssis;
-    NSMutableArray *_txLatencyBEs;
-    NSMutableArray *_txLatencyBKs;
-    NSMutableArray *_txLatencyVIs;
-    NSMutableArray *_txLatencyVOs;
-    struct {
-        unsigned int role:1;
-        unsigned int rssiValue:1;
-    } _has;
 }
 
 + (Class);
@@ -48,11 +33,11 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)eFrameworks/ModelCatalog.framework/Versions/A/ModelCatalog;
 - (void);
 - (void);
 - (unsigned long long);
@@ -60,8 +45,8 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -77,55 +62,40 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (void)�V;
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id)setAssetCatalogButtonPressedKey: /* Error: Ran out of types for this method. */;
+- (void)isKindOfClass:(_Bool)arg1;
+- (void);
 - (id);
 - (_Bool);
 - (int);
-- (int);
-- (id);
+- (int)_;
+- (id)o changed keys. Save will continue. Revisit if caller should avoid such saves. {author:%{public}@} /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)GetTimes(CFTimeInterval *, CFTimeInterval *, CFTimeInterval *);
 - (id);
 - (int);
-- (void);
-- (void)tAndRelease:(int)arg1;
+- (void)!;
+- (void)managedObjectContextResetAndRelease:(int)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *acCompletions; // @synthesize acCompletions=_acCompletions;
-@property(retain, nonatomic) NSMutableArray *bytes; // @synthesize bytes=_bytes;
-@property(retain, nonatomic) WiFiAnalyticsAWDWiFiNWActivityTxCompletions *completions; // @synthesize completions=_completions;
-@property(readonly, nonatomic) _Bool hasCompletions;
-@property(readonly, nonatomic) _Bool hasHashID;
 @property(nonatomic) _Bool hasRole;
-@property(nonatomic) _Bool hasRssiValue;
-@property(retain, nonatomic) NSString *hashID; // @synthesize hashID=_hashID;
-@property(retain, nonatomic) NSMutableArray *packets; // @synthesize packets=_packets;
-@property(nonatomic) int role; // @synthesize role=_role;
-@property(nonatomic) int rssiValue; // @synthesize rssiValue=_rssiValue;
-@property(retain, nonatomic) NSMutableArray *rssis; // @synthesize rssis=_rssis;
-@property(retain, nonatomic) NSMutableArray *txLatencyBEs; // @synthesize txLatencyBEs=_txLatencyBEs;
-@property(retain, nonatomic) NSMutableArray *txLatencyBKs; // @synthesize txLatencyBKs=_txLatencyBKs;
-@property(retain, nonatomic) NSMutableArray *txLatencyVIs; // @synthesize txLatencyVIs=_txLatencyVIs;
-@property(retain, nonatomic) NSMutableArray *txLatencyVOs; // @synthesize txLatencyVOs=_txLatencyVOs;
 
 @end
 

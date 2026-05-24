@@ -14,9 +14,9 @@
 }
 
 + (id);
-- (id);
+- (id)rorHourlyLimitExceeded(void);
 - (_Bool);
-- (void);
+- (void)authPluginLoader;
 - (id);
 - (id);
 

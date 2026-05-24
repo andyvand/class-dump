@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureSmartStyle, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVSmartStyleSettingsState
 {
     NSString *_bundleID;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_systemStyleKey;
-    NSString *_systemStyleTimestampKey;
-    NSString *_systemStyleEnabledKey;
-    AVCaptureSmartStyle *_systemStyle;
-    _Bool _systemStyleEnabled;
 }
 
++ (id)expects transliterations to be set by start of <transliterations> element;
 + (id);
-+ (id);
-- (_Bool);
-- (id);
+- (_Bool)setKeepParentheses: /* Error: Ran out of types for this method. */;
+- (id)setIsBackgroundVocal: /* Error: Ran out of types for this method. */;
+- (void)requiresSecureCoding;
+- (void)_stripParenthesesFromBackgroundVocalWord:backgroundVocalText: /* Error: Ran out of types for this method. */;
+- (void)ongSelf.bytesWritten=%d;
+- (void)oid MSVImageUtilitiesAddImageToDestination(CGImageRef, MSVImageFormat, CGImageDestinationRef);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)";
 
 @end
 

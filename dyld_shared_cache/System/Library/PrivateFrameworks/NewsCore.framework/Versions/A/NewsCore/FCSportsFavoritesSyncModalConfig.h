@@ -9,7 +9,6 @@
 @interface FCSportsFavoritesSyncModalConfig
 {
     NSString *_titleText;
-    NSString *_bodyText;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (id)fore trying to acquire read token;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bodyText; // @synthesize bodyText=_bodyText;
 @property(readonly, nonatomic) NSString *titleText; // @synthesize titleText=_titleText;
 
 @end

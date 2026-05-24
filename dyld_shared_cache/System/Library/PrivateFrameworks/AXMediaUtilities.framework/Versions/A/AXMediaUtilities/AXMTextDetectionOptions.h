@@ -4,43 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface AXMTextDetectionOptions
 {
     _Bool _usesLanguageCorrection;
-    unsigned long long _recognitionLevel;
-    double _normalizedMinimumTextHeightRatio;
-    NSArray *_textDetectionLocales;
-    unsigned long long _postProcessingOptions;
 }
 
-+ (id);
-+ (_Bool);
-- (id);
++ (id):: /* Error: Ran out of types for this method. */;
++ (_Bool)skipActivitySetup;
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)׬m;
 - (double);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (id);
+- (id)P kn;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double normalizedMinimumTextHeightRatio; // @synthesize normalizedMinimumTextHeightRatio=_normalizedMinimumTextHeightRatio;
-@property(nonatomic) unsigned long long postProcessingOptions; // @synthesize postProcessingOptions=_postProcessingOptions;
 @property(nonatomic) unsigned long long recognitionLevel; // @synthesize recognitionLevel=_recognitionLevel;
-@property(readonly, nonatomic) _Bool shouldApplySemanticTextFiltering;
-@property(retain, nonatomic) NSArray *textDetectionLocales; // @synthesize textDetectionLocales=_textDetectionLocales;
-@property(nonatomic) _Bool usesLanguageCorrection; // @synthesize usesLanguageCorrection=_usesLanguageCorrection;
 
 @end
 

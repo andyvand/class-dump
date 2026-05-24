@@ -9,7 +9,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=safari_isRunningAutomatedTests) _Bool runningAutomatedTests;
 @property(readonly, nonatomic, getter=safari_wasLaunchedByWebDriver) _Bool wasLaunchedByWebDriver;
 @end
 

@@ -6,13 +6,11 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@class NSArray, NSMapTable, NSString;
+@class NSArray;
 
 @interface _CNAmbObservable : CNObservable
 {
     NSArray *_observables;
-    NSMapTable *_tokensByObserver;
-    _Bool _winnerDeclared;
 }
 
 - (void);
@@ -23,13 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

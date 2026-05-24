@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKServerBackoffHelper, NSMutableDictionary, NSObject, NSString, NSURLSession;
-@protocol OS_dispatch_queue;
+@class NSURLSession;
 
 @interface AKURLSession
 {
     NSURLSession *_urlSession;
-    NSObject<OS_dispatch_queue> *_sessionQueue;
-    NSMutableDictionary *_tasksByIdentifier;
-    AKServerBackoffHelper *_serverBackoffHelper;
-    _Bool __usesAppleIDContext;
 }
 
 + (id);
@@ -22,7 +17,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (void);
 + (id);
 - (void);
@@ -33,26 +28,19 @@
 - (void);
 - (void);
 - (id);
+- (id)5;
+- (id)aot_shared_cache;
+- (void)deleteInteractionsWithIdentifiers:(id)arg1 bundleID:(id)arg2 protectionClass:(id)arg3 completionHandler:(id)arg4;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)com_apple_shortcuts_runnable_setting_biome_stream_identifier;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void)se;
+- (void)AKSimpleProfileImagesResponse;
 
 // Remaining properties
 @property(nonatomic) _Bool _usesAppleIDContext; // @synthesize _usesAppleIDContext=__usesAppleIDContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) NetworkMO *network; // @dynamic network;

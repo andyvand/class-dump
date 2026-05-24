@@ -19,7 +19,7 @@
 - (id);
 - (id)î%Ð1Â0@ù
 × ;
-- (id)ata;
+- (id)_platformData;
 - (void);
 
 // Remaining properties

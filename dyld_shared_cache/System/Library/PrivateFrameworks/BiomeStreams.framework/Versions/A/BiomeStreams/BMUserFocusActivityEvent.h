@@ -11,42 +11,30 @@
 @interface BMUserFocusActivityEvent : BMEventBase
 {
     _Bool _isStart;
-    NSString *_clientID;
-    NSString *_mode;
 }
 
 + (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (unsigned int);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)t/;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)mt__free_unpacked;
+- (id)pg_query__create_event_trig_stmt__free_unpacked;
 - (void) !;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isStart; // @synthesize isStart=_isStart;
-@property(copy, nonatomic) NSString *mode; // @synthesize mode=_mode;
-@property(readonly) Class superclass;
 
 @end
 

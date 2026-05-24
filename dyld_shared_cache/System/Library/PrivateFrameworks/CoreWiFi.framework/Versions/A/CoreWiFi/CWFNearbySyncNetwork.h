@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFChannel, CWFNetworkProfile, NSDictionary, NSString;
+@class CWFNetworkProfile;
 
 __attribute__((visibility("hidden")))
 @interface CWFNearbySyncNetwork
 {
     CWFNetworkProfile *_knownNetworkProfile;
-    NSString *_password;
-    NSDictionary *_captivePortalCredentials;
-    CWFChannel *_channel;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -29,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (id);
 - (id);
@@ -40,13 +37,7 @@ __attribute__((visibility("hidden")))
 - (id)Q´;
 
 // Remaining properties
-@property(copy) NSDictionary *captivePortalCredentials; // @synthesize captivePortalCredentials=_captivePortalCredentials;
-@property(copy) CWFChannel *channel; // @synthesize channel=_channel;
-@property(readonly) _Bool isNearbyBrokenBackhaulStateSyncable;
-@property(readonly) _Bool isNearbyRecommendable; // @dynamic isNearbyRecommendable;
-@property(readonly) _Bool isNearbySyncable; // @dynamic isNearbySyncable;
 @property(copy) CWFNetworkProfile *knownNetworkProfile; // @dynamic knownNetworkProfile;
-@property(copy) NSString *password; // @synthesize password=_password;
 
 @end
 

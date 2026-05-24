@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXCallObserver, NSDate;
+@class CXCallObserver;
 
 @interface IMCallMonitor
 {
     CXCallObserver *_callCenter;
-    _Bool _wasOnCall;
-    NSDate *_lastCallDate;
 }
 
 + (id);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)esForClientID:reply:] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDate *dateLastCallEnded; // @synthesize dateLastCallEnded=_lastCallDate;
 @property(readonly, nonatomic) _Bool isOnCall;
-@property(readonly, nonatomic) _Bool isOnTelephonyCall;
 
 @end
 

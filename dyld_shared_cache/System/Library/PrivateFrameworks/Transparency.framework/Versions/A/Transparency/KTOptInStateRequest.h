@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface KTOptInStateRequest
 {
     _Bool _fetchCloudKit;
-    _Bool _sync;
-    NSString *_application;
-    NSString *_uri;
 }
 
 + (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id);
+- (id)"NSString",&,V_destinationPathVideoComplement;
 - (void);
-- (void);
+- (void)@"NSXPCConnection"24;
 - (void);
 - (id);
 - (_Bool);
@@ -29,10 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSString *application; // @synthesize application=_application;
 @property _Bool fetchCloudKit; // @synthesize fetchCloudKit=_fetchCloudKit;
-@property _Bool sync; // @synthesize sync=_sync;
-@property(retain) NSString *uri; // @synthesize uri=_uri;
 
 @end
 

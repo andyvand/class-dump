@@ -6,7 +6,6 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSString;
 @protocol _UIEditMenuDismissalGestureRecognizerDelegate;
 
 __attribute__((visibility("hidden")))
@@ -17,35 +16,28 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)0@ù
 × ;
-+ (_Bool)pdateState;
++ (_Bool)updateState;
 - (id);
 - (_Bool);
 - (void)0@ù
 × ;
 - (_Bool)iding>"24;
 - (id)20^Q28^d36;
-- (_Bool)ionView:(id)arg1;
-- (void)isible;
+- (_Bool)setInternationalKeyIntroductionView:(id)arg1;
+- (void)isFloatingKeyboardVisible;
 - (void):(id)arg1;
-- (void)etKVOCompliantState:(id)arg1;
-- (void)tics;
-- (_Bool)nterfaceStyleChangeInScene:(id)arg1 transitionContext:(id)arg2 applyChangesBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)onstraint:(id)arg1;
+- (void)_setKVOCompliantState:(id)arg1;
+- (void)_calculateStatistics;
+- (_Bool)_animateUserInterfaceStyleChangeInScene:(id)arg1 transitionContext:(id)arg2 applyChangesBlock: /* Error: Ran out of types for this method. */;
+- (_Bool)setYConstraint:(id)arg1;
 - (_Bool),S_setOriginalFillMode:(id)arg1 ,V__originalFillMode;
-- (_Bool)ing;
-- (void)_ZOOM_TO_FIT;
+- (_Bool)Spacing;
+- (void)MACMENUITEM_VIEW_ZOOM_TO_FIT;
 - (void)¾7y¥¾7G;
 - (void)Îh;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <_UIEditMenuDismissalGestureRecognizerDelegate> interactionDelegate; // @synthesize interactionDelegate=_interactionDelegate;
-@property(readonly) Class superclass;
 
 @end
 

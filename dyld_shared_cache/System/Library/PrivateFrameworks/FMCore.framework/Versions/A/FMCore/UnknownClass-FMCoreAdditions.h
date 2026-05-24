@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (FMCoreAdditions)
-+ (id);
++ (id)V_initiator;
 @end
 

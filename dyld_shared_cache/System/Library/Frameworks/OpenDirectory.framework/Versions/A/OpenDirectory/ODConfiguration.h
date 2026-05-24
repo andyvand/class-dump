@@ -4,50 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, ODMappings, ODSession;
+@class NSString, ODSession;
 
 @interface ODConfiguration
 {
     ODSession *session;
-    NSString *nodeName;
-    NSString *comment;
-    NSArray *defaultModuleEntries;
-    NSArray *authenticationModuleEntries;
-    NSArray *discoveryModuleEntries;
-    NSArray *generalModuleEntries;
-    ODMappings *defaultMappings;
-    NSString *templateName;
-    NSArray *virtualSubnodes;
-    _Bool hideRegistration;
-    NSString *preferredDestinationHostName;
-    unsigned short preferredDestinationHostPort;
-    NSString *trustAccount;
-    NSString *trustType;
-    NSString *trustKerberosPrincipal;
-    NSString *trustMetaAccount;
-    _Bool trustUsesMutualAuthentication;
-    _Bool trustUsesKerberosKeytab;
-    _Bool trustUsesSystemKeychain;
-    long long packetSigning;
-    long long packetEncryption;
-    _Bool manInTheMiddleProtection;
-    long long queryTimeoutInSeconds;
-    long long connectionSetupTimeoutInSeconds;
-    long long connectionIdleTimeoutInSeconds;
 }
 
++ (id)`);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -65,20 +40,20 @@
 - (void);
 - (void);
 - (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (long long);
 - (unsigned short);
 - (id);
 - (long long);
-- (long long);
+- (long long)$�	|�	0;
 - (void);
 - (id);
 - (_Bool);
@@ -92,43 +67,18 @@
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)T
+;
+- (id));
+- (void)N8Archiver13_IArchiveImplE;
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)e:(id)arg1 propertyList:authorization:error: /* Error: Ran out of types for this method. */;
+- (id)sendConfigurationCode:(id)arg1 propertyList:authorization:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) NSArray *authenticationModuleEntries; // @synthesize authenticationModuleEntries;
-@property(copy) NSString *comment; // @synthesize comment;
-@property(readonly, copy) NSDictionary *configuration;
-@property long long connectionIdleTimeoutInSeconds; // @synthesize connectionIdleTimeoutInSeconds;
-@property long long connectionSetupTimeoutInSeconds; // @synthesize connectionSetupTimeoutInSeconds;
-@property(retain) ODMappings *defaultMappings; // @synthesize defaultMappings;
-@property(copy) NSArray *defaultModuleEntries; // @synthesize defaultModuleEntries;
-@property(copy) NSArray *discoveryModuleEntries; // @synthesize discoveryModuleEntries;
-@property(copy) NSArray *generalModuleEntries; // @synthesize generalModuleEntries;
-@property _Bool hideRegistration; // @synthesize hideRegistration;
-@property _Bool manInTheMiddleProtection; // @synthesize manInTheMiddleProtection;
-@property(copy) NSString *nodeName; // @synthesize nodeName;
-@property long long packetEncryption; // @synthesize packetEncryption;
-@property long long packetSigning; // @synthesize packetSigning;
-@property(copy) NSString *preferredDestinationHostName; // @synthesize preferredDestinationHostName;
-@property unsigned short preferredDestinationHostPort; // @synthesize preferredDestinationHostPort;
-@property long long queryTimeoutInSeconds; // @synthesize queryTimeoutInSeconds;
-@property(retain) ODSession *session; // @synthesize session;
-@property(copy) NSString *templateName; // @synthesize templateName;
 @property(copy) NSString *trustAccount; // @synthesize trustAccount;
-@property(copy) NSString *trustKerberosPrincipal; // @synthesize trustKerberosPrincipal;
-@property(copy) NSString *trustMetaAccount; // @synthesize trustMetaAccount;
-@property(copy) NSString *trustType; // @synthesize trustType;
-@property _Bool trustUsesKerberosKeytab; // @synthesize trustUsesKerberosKeytab;
-@property _Bool trustUsesMutualAuthentication; // @synthesize trustUsesMutualAuthentication;
-@property _Bool trustUsesSystemKeychain; // @synthesize trustUsesSystemKeychain;
-@property(copy) NSArray *virtualSubnodes; // @synthesize virtualSubnodes;
 
 @end
 

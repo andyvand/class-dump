@@ -12,19 +12,19 @@ __attribute__((visibility("hidden")))
     id _panelAccessibilityParent;
 }
 
-- (unsigned long long);
+- (unsigned long long)on.uuidcache.plist;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)`;
+- (_Bool)D;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties

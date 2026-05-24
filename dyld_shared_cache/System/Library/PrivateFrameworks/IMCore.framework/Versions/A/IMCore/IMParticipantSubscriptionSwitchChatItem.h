@@ -11,16 +11,14 @@
 @interface IMParticipantSubscriptionSwitchChatItem : IMTranscriptChatItem
 {
     IMHandle *_sender;
-    IMHandle *_otherHandle;
 }
 
-- (id);
+- (id)n capture frame rate:(id)arg1 = %d;
 - (id);
 - (id);
 - (void),b;
 
 // Remaining properties
-@property(readonly, nonatomic) IMHandle *otherHandle; // @synthesize otherHandle=_otherHandle;
 @property(readonly, nonatomic) IMHandle *sender; // @synthesize sender=_sender;
 
 @end

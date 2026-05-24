@@ -6,16 +6,14 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMHTMLFormElement, NSString;
-
 @interface DOMHTMLOptionElement : DOMHTMLElement
 {
 }
 
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)AMSSQLitePredicate;
 - (id);
 - (id);
 - (id);
@@ -27,14 +25,7 @@
 - (void)ÿ\¿;
 
 // Remaining properties
-@property _Bool defaultSelected;
 @property _Bool disabled;
-@property(readonly) DOMHTMLFormElement *form;
-@property(readonly) int index;
-@property(copy) NSString *label;
-@property _Bool selected;
-@property(readonly, copy) NSString *text;
-@property(copy) NSString *value;
 
 @end
 

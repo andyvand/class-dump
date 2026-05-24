@@ -6,13 +6,13 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSString, RWIProtocolNetworkHeaders;
+@class NSString;
 
 @interface RWIProtocolNetworkRequest : RWIProtocolJSONObject
 {
 }
 
-- (void);
+- (void)(;
 - (void);
 - (long long);
 - (id);
@@ -24,14 +24,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)d/dcethread_cond_wait.c;
 
 // Remaining properties
-@property(retain, nonatomic) RWIProtocolNetworkHeaders *headers;
-@property(copy, nonatomic) NSString *integrity;
-@property(copy, nonatomic) NSString *method;
-@property(copy, nonatomic) NSString *postData;
-@property(nonatomic) long long referrerPolicy;
 @property(copy, nonatomic) NSString *url;
 
 @end

@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSMutableDictionary, NSString, PKPassLibrary;
+@class NSString, PKPassLibrary;
 
 @interface PKPurchaseNewActionItem
 {
     PKPassLibrary *_sharedLibrary;
-    NSMutableDictionary *_serviceProviderData;
-    _Bool _serviceProviderDataRequiresAppletData;
-    NSString *_identifier;
-    NSString *_title;
-    NSDecimalNumber *_amount;
-    NSString *_currency;
-    NSDate *_newExpirationDate;
 }
 
-+ (_Bool);
++ (_Bool)__TEXT;
 - (void);
 - (_Bool);
 - (id);
 - (void);
+- (id)c;
+- (id);
+- (id);
+- (id);
+- (void)_handlerCNP;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)erAfterPurchase;
+- (id)isSetupPaymentOfferAfterPurchase;
 - (id)fier;
-- (void)es;
+- (void)transferContainsFees;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(readonly, copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSDate *newExpirationDate; // @synthesize newExpirationDate=_newExpirationDate;
-@property(readonly, nonatomic) _Bool serviceProviderDataRequiresAppletData; // @synthesize serviceProviderDataRequiresAppletData=_serviceProviderDataRequiresAppletData;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -8,6 +8,9 @@
 
 @protocol CRKCardPresentationDelegate
 
+@optional
+- (long long)T?;
+
 // Remaining properties
 @property(readonly, nonatomic) id <CRKCardViewControllerDelegate> cardViewControllerDelegate;
 // Preceding property had unknown attributes: ?

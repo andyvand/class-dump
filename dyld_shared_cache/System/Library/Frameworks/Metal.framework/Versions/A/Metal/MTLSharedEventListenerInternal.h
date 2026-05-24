@@ -6,21 +6,17 @@
 
 #import <Metal/MTLSharedEventListener.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface MTLSharedEventListenerInternal : MTLSharedEventListener
 {
     struct IONotificationPort *_notificationPort;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
 }
 
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (id);
-- (id);
+- (id)alternative_transfer_characteristics;
 
 @end
 

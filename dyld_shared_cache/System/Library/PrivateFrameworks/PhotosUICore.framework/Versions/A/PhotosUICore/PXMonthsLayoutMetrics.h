@@ -7,22 +7,14 @@
 @interface PXMonthsLayoutMetrics
 {
     _Bool _displaceTopLeadingCardTitle;
-    long long _sizeClass;
-    long long _orientation;
-    double _interitemSpacing;
-    double _defaultSectionAspectRatio;
-    double _chapterHeaderHeight;
-    unsigned long long _layoutStyle;
-    struct NSEdgeInsets _padding;
-    struct NSEdgeInsets _chapterHeaderPadding;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)#;
 - (double);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets);
 - (double);
 - (void);
 - (void);
@@ -35,20 +27,12 @@
 - (unsigned long long);
 - (_Bool);
 - (long long);
-- (id)ageManagerResult:(struct _NSZone *)arg1 outAnimatedImage:infoDictionary:outInfoDictionary:forAnimatedImageRequestFromAsset: /* Error: Ran out of types for this method. */;
+- (id)protectImageManagerResult:(struct _NSZone *)arg1 outAnimatedImage:infoDictionary:outInfoDictionary:forAnimatedImageRequestFromAsset: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct NSEdgeInsets)h};;
 - (void)p;;
 
 // Remaining properties
-@property(nonatomic) double chapterHeaderHeight; // @synthesize chapterHeaderHeight=_chapterHeaderHeight;
-@property(nonatomic) struct NSEdgeInsets chapterHeaderPadding; // @synthesize chapterHeaderPadding=_chapterHeaderPadding;
-@property(nonatomic) double defaultSectionAspectRatio; // @synthesize defaultSectionAspectRatio=_defaultSectionAspectRatio;
-@property(nonatomic) _Bool displaceTopLeadingCardTitle; // @synthesize displaceTopLeadingCardTitle=_displaceTopLeadingCardTitle;
-@property(nonatomic) double interitemSpacing; // @synthesize interitemSpacing=_interitemSpacing;
-@property(nonatomic) unsigned long long layoutStyle; // @synthesize layoutStyle=_layoutStyle;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
 @property(nonatomic) long long sizeClass; // @synthesize sizeClass=_sizeClass;
 
 @end

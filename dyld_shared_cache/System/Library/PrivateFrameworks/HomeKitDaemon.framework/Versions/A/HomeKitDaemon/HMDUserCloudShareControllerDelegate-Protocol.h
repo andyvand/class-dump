@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDate;
+
 @protocol HMDUserCloudShareControllerDelegate
+- (void)CLSAreaOfInterestQueryPerformer;
+- (NSDate *)4;
+- (void)`;
 @end
 

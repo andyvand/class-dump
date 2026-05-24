@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _MXAssetStorage
 {
     NSObject<OS_dispatch_queue> *_lock;
-    NSMutableDictionary *_storage;
-    NSMutableSet *_loadingKeys;
-    NSMutableDictionary *_fetchBlocks;
 }
 
+- (void)ission check completed. Invalidating XPC Connection.;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void)Description;
+- (void)r=^vQQQ}{vImage_Buffer=^vQQQ}{vImage_Buffer=^vQQQ}iiSS}16S24S28Q32;
+- (id)4@?0@"CSUSceneNetV5NetworkOutput"8@"NSError"16;
+- (void)shortDescription;
 
 @end
 

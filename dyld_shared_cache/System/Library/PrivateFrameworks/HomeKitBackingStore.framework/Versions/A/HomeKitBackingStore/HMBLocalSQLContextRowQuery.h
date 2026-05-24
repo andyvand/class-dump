@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface HMBLocalSQLContextRowQuery
 {
     unsigned long long _recordRow;
-    NSDictionary *_tuples;
 }
 
 - (id);
@@ -19,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long recordRow; // @synthesize recordRow=_recordRow;
-@property(readonly, nonatomic) NSDictionary *tuples; // @synthesize tuples=_tuples;
 
 @end
 

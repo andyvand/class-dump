@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, NSXPCListener;
+@class NSXPCListener;
 
 __attribute__((visibility("hidden")))
 @interface _LSDService
 {
     NSXPCListener *_listener;
-    struct unfair_lock_mutex _clientMapMutex;
-    NSMapTable *_clientMap;
 }
 
 + (id);
-+ (Class);
++ (Class)A;
 + (id);
 + (_Bool);
 + (unsigned short);
-+ (_Bool);
++ (_Bool)P;
 + (id);
 + (id)¸;
 - (void);
-- (id);
+- (id)!;
 - (void);
 - (id);
-- (id);
+- (id)H;
 - (_Bool);
 - (void);
 - (id)àØ;
 - (void)d:(id)arg1 ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

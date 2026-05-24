@@ -6,20 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSDictionary, NSString, UIColor, UIFont, UILabel, _UIFloatingTabBarPlatformMetrics;
+@class NSString;
 
 @interface _UIBarBadgeView : UIView
 {
     void text;
-    void textAttributes;
-    struct UIOffset textOffset;
-    UILabel *textLabel;
 }
 
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
+- (struct CGSize)%u (avg %.3lf sec remaining)
+;
 - (id);
 - (struct UIOffset);
 - (void);
@@ -28,25 +26,18 @@
 × ;
 - (void)ionBar"16;
 - (void);
-- (id)TaskBSActionHandler;
+- (id)_UISceneAssistantTaskBSActionHandler;
 - (id)Ð@ô@A;
 - (id)__rawCurrentOffset;
-- (id)tternCountKey;
-- (void)sitionGap;
+- (id)UIBezierPathLineDashPatternCountKey;
+- (void)UINavigationControllerTransitionGap;
 - (id)È\;
 - (void);
 - (void)Ñÿ-Ô4wl;
 - (void)(p;
 
 // Remaining properties
-@property(nonatomic, readonly) _UIFloatingTabBarPlatformMetrics *_currentPlatformMetrics;
-@property(nonatomic, retain) UIColor *badgeColor;
-@property(nonatomic, retain) UIFont *font;
 @property(nonatomic, copy) NSString *text;
-@property(nonatomic, copy) NSDictionary *textAttributes;
-@property(nonatomic, retain) UIColor *textColor;
-@property(nonatomic, readonly) UILabel *textLabel; // @synthesize textLabel;
-@property(nonatomic) struct UIOffset textOffset; // @synthesize textOffset;
 
 @end
 

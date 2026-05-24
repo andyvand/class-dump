@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKProvisioningRequirementsContainer
 {
     id _container;
@@ -19,16 +17,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_failedCompletionsAtLastCheck;
 - (id)didRequestMerchantSessionUpdate:Fetching validation URL /* Error: Ran out of types for this method. */;
 - (id)Èÿÿ<cøÿð¸øÿ>cøÿ;
-- (void)API;
+- (void)webAPI;
 - (void)¢i;
 
 // Remaining properties
-@property(retain, nonatomic) id container; // @synthesize container=_container;
 @property(readonly, nonatomic) _Bool containsNotManagedAccount;
-@property(retain, nonatomic) NSString *provisioningSID;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol AFDomainObjectClearing
+- (void)z;
 @end
 

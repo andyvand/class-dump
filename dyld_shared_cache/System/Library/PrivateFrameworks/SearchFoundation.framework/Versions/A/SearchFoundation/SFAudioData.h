@@ -4,23 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSData;
 
 @interface SFAudioData
 {
     struct {
         unsigned int sampleRate:1;
     } _has;
-    NSData *_audioBuffer;
-    NSString *_formatID;
-    NSNumber *_formatFlags;
-    double _sampleRate;
-    NSNumber *_bitsPerChannel;
-    NSNumber *_bytesPerFrame;
-    NSNumber *_channelsPerFrame;
-    NSNumber *_bytesPerPacket;
-    NSNumber *_framesPerPacket;
-    NSNumber *_reserved;
 }
 
 + (_Bool);
@@ -31,7 +21,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id),;
 - (id);
 - (id);
 - (id);
@@ -40,15 +30,15 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
+- (id)performSelector:(id)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (unsigned long long)@;
+- (void):(id)arg1 %@;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)validateSpotlightIndexForLibraryExistsWithCompletionHandler:(id)arg1;
+- (id)all rules.;
 - (id);
 - (id);
 - (double);
@@ -57,24 +47,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *audioBuffer; // @synthesize audioBuffer=_audioBuffer;
-@property(copy, nonatomic) NSNumber *bitsPerChannel; // @synthesize bitsPerChannel=_bitsPerChannel;
-@property(copy, nonatomic) NSNumber *bytesPerFrame; // @synthesize bytesPerFrame=_bytesPerFrame;
-@property(copy, nonatomic) NSNumber *bytesPerPacket; // @synthesize bytesPerPacket=_bytesPerPacket;
-@property(copy, nonatomic) NSNumber *channelsPerFrame; // @synthesize channelsPerFrame=_channelsPerFrame;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSNumber *formatFlags; // @synthesize formatFlags=_formatFlags;
-@property(copy, nonatomic) NSString *formatID; // @synthesize formatID=_formatID;
-@property(copy, nonatomic) NSNumber *framesPerPacket; // @synthesize framesPerPacket=_framesPerPacket;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *reserved; // @synthesize reserved=_reserved;
-@property(nonatomic) double sampleRate; // @synthesize sampleRate=_sampleRate;
-@property(readonly) Class superclass;
 
 @end
 

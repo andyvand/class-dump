@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class STCity, STWeatherAttributes;
+@class STWeatherAttributes;
 
 @interface STShowWeatherConditionsRequest
 {
     STWeatherAttributes *_attributes;
-    STCity *_city;
 }
 
 + (_Bool);
@@ -17,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)@@"RPRemoteDisplayPerson";
 - (void);
 
 @end

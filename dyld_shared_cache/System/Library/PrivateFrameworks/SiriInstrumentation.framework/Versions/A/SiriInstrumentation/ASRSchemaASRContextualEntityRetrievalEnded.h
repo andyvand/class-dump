@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface ASRSchemaASRContextualEntityRetrievalEnded : SISchemaInstrumentationMessage
 {
@@ -20,20 +20,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)hasBytesAvailable;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)*;
 - (id);
-- (id)isionPowerState: /* Error: Ran out of types for this method. */;
+- (id)setVisionPowerState: /* Error: Ran out of types for this method. */;
 - (id)üC;
 - (id)dßöÿí2ÿ;
 - (void)þ¯¯+';
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *retrievedEntityStates; // @synthesize retrievedEntityStates=_retrievedEntityStates;
 
 @end

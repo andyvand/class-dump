@@ -6,18 +6,11 @@
 
 #import <DataDetectorsNaturalLanguage/IPFeature.h>
 
-@class NSArray, NSString, RKText;
+@class NSString;
 
 @interface IPFeatureSentence : IPFeature
 {
     _Bool _hasCheckedEventVocabularyKeyword;
-    _Bool _hasCheckedEventVocabularyIgnoreDateKeyword;
-    RKText *_responseKitSentence;
-    NSArray *_fragments;
-    NSString *_languageID;
-    unsigned long long _storedPolarity;
-    NSString *_storedEventVocabularyRejectionKeyword;
-    NSString *_storedEventVocabularyIgnoreDateKeyword;
 }
 
 + (id);
@@ -38,10 +31,10 @@
 + (struct _NSRange);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)M;
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,22 +55,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (unsigned long long);
-- (void);
+- (void)a;
 
 // Remaining properties
-@property(readonly) unsigned long long clusterType;
-@property(readonly, copy) NSString *eventVocabularyIgnoreDateKeyword;
-@property(readonly, copy) NSString *eventVocabularyRejectionKeyword;
-@property(copy) NSArray *fragments; // @synthesize fragments=_fragments;
 @property(copy) NSString *languageID; // @synthesize languageID=_languageID;
-@property(readonly) unsigned long long polarity;
-@property(readonly, getter=isQuoteAttributionLine) _Bool quoteAttributionLine;
-@property(retain) RKText *responseKitSentence; // @synthesize responseKitSentence=_responseKitSentence;
-@property(copy) NSString *storedEventVocabularyIgnoreDateKeyword; // @synthesize storedEventVocabularyIgnoreDateKeyword=_storedEventVocabularyIgnoreDateKeyword;
-@property(copy) NSString *storedEventVocabularyRejectionKeyword; // @synthesize storedEventVocabularyRejectionKeyword=_storedEventVocabularyRejectionKeyword;
-@property unsigned long long storedPolarity; // @synthesize storedPolarity=_storedPolarity;
 
 @end
 

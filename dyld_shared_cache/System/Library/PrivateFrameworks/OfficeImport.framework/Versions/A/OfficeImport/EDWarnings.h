@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)__objc_catlist;
 - (void);
 
 @end

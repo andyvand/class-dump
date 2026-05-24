@@ -6,17 +6,15 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMStyleSheet, NSString, NSURL;
-
 @interface DOMHTMLLinkElement : DOMHTMLElement
 {
 }
 
 - (void);
 - (void);
+- (id)q;
 - (id);
-- (id);
-- (id);
+- (id)u;
 - (void);
 - (void);
 - (id);
@@ -29,27 +27,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)detailKey;
 - (void);
 - (id);
-- (void);
-- (void)erHeight:(id)arg1;
+- (void)t;
+- (void)webViewFooterHeight:(id)arg1;
 - (id)re::HistoryItem>>, WTF::HashMap<WTF::WeakRef<WebCore::HistoryItem>, WebHistoryItem *>::KeyValuePairTraits, WTF::HashTraits<WTF::WeakRef<WebCore::HistoryItem>>>::validateKey(const ValueType &) [Key = WTF::WeakRef<WebCore::HistoryItem>, Value = WTF::KeyValuePair<WTF::WeakRef<WebCore::HistoryItem>, WebHistoryItem *>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakRef<WebCore::HistoryItem>, WebHistoryItem *>>, HashFunctions = WTF::DefaultHash<WTF::WeakRef<WebCore::HistoryItem>>, Traits = WTF::HashMap<WTF::WeakRef<WebCore::HistoryItem>, WebHistoryItem *>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakRef<WebCore::HistoryItem>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSURL *absoluteLinkURL;
-@property(copy) NSString *charset;
 @property _Bool disabled;
-@property(copy) NSString *href;
-@property(copy) NSString *hreflang;
-@property(copy) NSString *media;
-@property(copy) NSString *rel;
-@property(copy) NSString *rev;
-@property(readonly) DOMStyleSheet *sheet;
-@property(copy) NSString *target;
-@property(copy) NSString *type;
 
 @end
 

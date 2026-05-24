@@ -6,23 +6,18 @@
 
 #import <AppleMediaServices/AMSDelegateAuthenticateTask.h>
 
-@class AMSBiometricsSignatureRequest, AMSDelegatePaymentSheetTask, AMSDelegatePurchaseRequest, AMSPaymentSheetResult, AMSURLResult, AMSURLTaskInfo;
+@class AMSBiometricsSignatureRequest, AMSDelegatePurchaseRequest;
 
 @interface AMSDelegatePurchaseTask : AMSDelegateAuthenticateTask
 {
     AMSDelegatePurchaseRequest *_request;
-    AMSBiometricsSignatureRequest *_biometricsRequest;
-    AMSURLResult *_delegateAuthResult;
-    AMSURLTaskInfo *_delegateAuthTaskInfo;
-    AMSPaymentSheetResult *_paymentSheetResult;
-    AMSDelegatePaymentSheetTask *_paymentSheetTask;
 }
 
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -33,24 +28,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (id)#;
+- (id);
+- (id);
+- (void);
+- (_Bool)MRXPC_VIDEO_THUMBNAILS_REQ_DATA_KEY;
 - (void)§Uï¤L\¼Vø°V~bOóZÙû§µ"|¡ÒÿëÆIÆ½¶¿´Êà7\z¿ñØ²×ÈvéjeDR_Ïb¾Éúl¶ûÏ;
 
 // Remaining properties
 @property(retain) AMSBiometricsSignatureRequest *biometricsRequest; // @synthesize biometricsRequest=_biometricsRequest;
-@property(retain) AMSURLResult *delegateAuthResult; // @synthesize delegateAuthResult=_delegateAuthResult;
-@property(retain) AMSURLTaskInfo *delegateAuthTaskInfo; // @synthesize delegateAuthTaskInfo=_delegateAuthTaskInfo;
-@property(retain) AMSPaymentSheetResult *paymentSheetResult; // @synthesize paymentSheetResult=_paymentSheetResult;
-@property(retain) AMSDelegatePaymentSheetTask *paymentSheetTask; // @synthesize paymentSheetTask=_paymentSheetTask;
-@property(readonly) AMSDelegatePurchaseRequest *request; // @synthesize request=_request;
 
 @end
 

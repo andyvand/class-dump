@@ -9,34 +9,28 @@
 @interface TTRUndoManager
 {
     _Bool _disableRemoveAllActions;
-    _Bool _shouldSuppressWillRegisterUndoNotifications;
-    NSString *_debugIdentifier;
 }
 
 + (void);
+- (_Bool)B;
+- (void);
+- (void);
+- (id)6;
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void)_currentTodayFeedConfiguration;
+- (void)tedRecordIDs;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)P;
 - (id)Îýÿ_pSgXw;
 - (void)ÈÛÿÿHPùÿ;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *debugIdentifier; // @synthesize debugIdentifier=_debugIdentifier;
-@property(readonly, nonatomic) NSString *debug_redoStackDescription;
-@property(readonly, nonatomic) NSString *debug_undoStackDescription;
-@property(nonatomic) _Bool disableRemoveAllActions; // @synthesize disableRemoveAllActions=_disableRemoveAllActions;
-@property(nonatomic) _Bool shouldSuppressWillRegisterUndoNotifications; // @synthesize shouldSuppressWillRegisterUndoNotifications=_shouldSuppressWillRegisterUndoNotifications;
 
 @end
 

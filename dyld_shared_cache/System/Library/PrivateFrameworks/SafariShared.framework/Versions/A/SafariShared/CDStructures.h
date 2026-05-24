@@ -4,9 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#pragma mark Function Pointers and Blocks
-
-typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
+#pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
 
@@ -15,18 +13,18 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 struct BookmarkAndHistoryCompletionMatch;
 
 struct CGPoint {
-    double x;
-    double y;
+    double _field1;
+    double _field2;
 };
 
 struct CGRect {
-    struct CGPoint origin;
-    struct CGSize size;
+    struct CGPoint _field1;
+    struct CGSize _field2;
 };
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct DFAData {
@@ -42,21 +40,7 @@ struct HashTable<OpaqueFormAutoFillFrame *, WTF::KeyValuePair<OpaqueFormAutoFill
     void *m_table;
 };
 
-struct HashTable<SafariShared::URLCompletionEntryKey, SafariShared::URLCompletionEntry, SafariShared::URLCompletionEntryKeyExtractor, SafariShared::URLCompletionEntryHash, SafariShared::URLCompletionEntryValueTraits, SafariShared::URLCompletionEntryKeyTraits, WTF::FastMalloc> {
-    struct URLCompletionEntry *m_table;
-};
-
 struct HistoryURLCompletionItem;
-
-struct JSRetainPtr<OpaqueJSContext *> {
-    struct OpaqueJSContext *m_ptr;
-};
-
-struct LatestVisitInformationMap {
-    struct unordered_map<long long, SafariShared::LatestVisitInformation, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, SafariShared::LatestVisitInformation>>> _map;
-};
-
-struct OpaqueJSContext;
 
 struct RefPtr<SafariShared::BookmarkAndHistoryCompletionMatch, WTF::RawPtrTraits<SafariShared::BookmarkAndHistoryCompletionMatch>, WTF::DefaultRefDerefTraits<SafariShared::BookmarkAndHistoryCompletionMatch>> {
     struct BookmarkAndHistoryCompletionMatch *m_ptr;
@@ -66,28 +50,11 @@ struct RefPtr<SafariShared::HistoryURLCompletionItem, WTF::RawPtrTraits<SafariSh
     struct HistoryURLCompletionItem *m_ptr;
 };
 
-struct SuddenTerminationDisabler;
-
-struct URLCompletionEntry;
-
-struct URLCompletionEntryMap {
-    struct HashTable<SafariShared::URLCompletionEntryKey, SafariShared::URLCompletionEntry, SafariShared::URLCompletionEntryKeyExtractor, SafariShared::URLCompletionEntryHash, SafariShared::URLCompletionEntryValueTraits, SafariShared::URLCompletionEntryKeyTraits, WTF::FastMalloc> _map;
-    struct unordered_map<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>>> _extras;
-};
-
-struct Vector<double, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> {
-    double *m_buffer;
-    unsigned int m_capacity;
-    unsigned int m_size;
-};
-
 struct Vector<id<WBSURLCompletionMatchData>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> {
     id *m_buffer;
     unsigned int m_capacity;
     unsigned int m_size;
 };
-
-struct WBSHistoryItemVisitCountScoresStorage;
 
 struct _HistoryStreamedItem {
     CDStruct_c0454aff _field1;
@@ -141,8 +108,8 @@ struct _HistoryStreamedVisit {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct _WBSSearchSuggestionCandidate {
@@ -156,18 +123,6 @@ struct array<const DFAData *, 4UL> {
     struct DFAData *_field1[4];
 };
 
-struct atomic<LoadingStatus> {
-    struct __cxx_atomic_impl<LoadingStatus, std::__cxx_atomic_base_impl<LoadingStatus>> {
-        _Atomic long long __a_value;
-    } __a_;
-};
-
-struct atomic<WBSHistoryServiceStoreState> {
-    struct __cxx_atomic_impl<WBSHistoryServiceStoreState, std::__cxx_atomic_base_impl<WBSHistoryServiceStoreState>> {
-        _Atomic long long __a_value;
-    } __a_;
-};
-
 struct atomic<bool> {
     struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
         _Atomic _Bool __a_value;
@@ -175,11 +130,11 @@ struct atomic<bool> {
 };
 
 struct duration<long long, std::ratio<1, 1000000000>> {
-    long long __rep_;
+    long long _field1;
 };
 
 struct duration<long long, std::ratio<1, 1000>> {
-    long long __rep_;
+    long long _field1;
 };
 
 struct optional<long long> {
@@ -195,13 +150,7 @@ struct os_unfair_lock_s {
 };
 
 struct time_point<std::chrono::steady_clock, std::chrono::duration<long long, std::ratio<1, 1000000000>>> {
-    struct duration<long long, std::ratio<1, 1000000000>> __d_;
-};
-
-struct unique_ptr<SafariShared::SuddenTerminationDisabler, std::default_delete<SafariShared::SuddenTerminationDisabler>> {
-    struct {
-        struct SuddenTerminationDisabler *__ptr_;
-    } ;
+    struct duration<long long, std::ratio<1, 1000000000>> _field1;
 };
 
 struct unique_ptr<SafariShared::_HistoryStreamedMatchData, std::default_delete<SafariShared::_HistoryStreamedMatchData>> {
@@ -216,12 +165,6 @@ struct unique_ptr<SafariShared::_HistoryStreamedMatchEntry, std::default_delete<
     } ;
 };
 
-struct unique_ptr<WBSHistoryItemVisitCountScoresStorage, std::default_delete<WBSHistoryItemVisitCountScoresStorage>> {
-    struct {
-        struct WBSHistoryItemVisitCountScoresStorage *__ptr_;
-    } ;
-};
-
 struct unique_ptr<std::__hash_node_base<std::__hash_node<long long, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<long long, void *>*>*>>> {
     struct {
         void **__ptr_;
@@ -231,46 +174,10 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<long long, void *>*>*[]
     } ;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *>*>*>>> {
     struct {
         void **__ptr_;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryItem *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *>*>*>> {
             CDStruct_a7186859 ;
         } __deleter_;
     } ;
@@ -287,34 +194,8 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<
 
 struct unique_ptr<std::vector<WTF::RefPtr<SafariShared::HistoryURLCompletionItem>>, std::default_delete<std::vector<WTF::RefPtr<SafariShared::HistoryURLCompletionItem>>>> {
     struct {
-        void *__ptr_;
-    } ;
-};
-
-struct unordered_map<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>>> {
-    struct __hash_table<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, std::__unordered_map_hasher<NSString *, std::pair<NSString *const, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, std::hash<NSString *>, std::equal_to<NSString *>>, std::__unordered_map_equal<NSString *, std::pair<NSString *const, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, std::equal_to<NSString *>, std::hash<NSString *>>, std::allocator<std::pair<NSString *const, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<long long, SafariShared::LatestVisitInformation, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, SafariShared::LatestVisitInformation>>> {
-    struct __hash_table<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, std::__unordered_map_hasher<long long, std::pair<const long long, SafariShared::LatestVisitInformation>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, SafariShared::LatestVisitInformation>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, SafariShared::LatestVisitInformation>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<long long, SafariShared::LatestVisitInformation>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
+        void *_field1;
+    } _field1;
 };
 
 struct unordered_map<long long, WBSHistoryItem *, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, WBSHistoryItem *>>> {
@@ -330,37 +211,11 @@ struct unordered_map<long long, WBSHistoryItem *, std::hash<long long>, std::equ
     } __table_;
 };
 
-struct unordered_map<long long, WBSHistoryVisit *__weak, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, WBSHistoryVisit *__weak>>> {
-    struct __hash_table<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, std::__unordered_map_hasher<long long, std::pair<const long long, WBSHistoryVisit *__weak>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, WBSHistoryVisit *__weak>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, WBSHistoryVisit *__weak>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<long long, WBSHistoryVisit *__weak>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
 struct unordered_map<long long, long long, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, long long>>> {
     struct __hash_table<std::__hash_value_type<long long, long long>, std::__unordered_map_hasher<long long, std::pair<const long long, long long>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, long long>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, long long>>> {
         struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<std::__hash_value_type<long long, long long>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_multimap<NSString *, NSString *, std::hash<NSString *>, std::equal_to<NSString *>, std::allocator<std::pair<NSString *const, NSString *>>> {
-    struct __hash_table<std::__hash_value_type<NSString *, NSString *>, std::__unordered_map_hasher<NSString *, std::pair<NSString *const, NSString *>, std::hash<NSString *>, std::equal_to<NSString *>>, std::__unordered_map_equal<NSString *, std::pair<NSString *const, NSString *>, std::equal_to<NSString *>, std::hash<NSString *>>, std::allocator<std::pair<NSString *const, NSString *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, NSString *>, void *>*> {
                 void *__next_;
             } __first_node_;
         } ;
@@ -409,17 +264,17 @@ typedef struct {
 } CDStruct_a7186859;
 
 typedef struct {
-    unsigned int val[8];
-} CDStruct_4c969caf;
+    unsigned int _field1[8];
+} CDStruct_6ad76789;
 
 typedef struct {
     float __max_load_factor_;
 } CDStruct_717dde41;
 
 typedef struct {
-    int webProcessID;
-    unsigned long long tabID;
-} CDStruct_497cfc99;
+    int _field1;
+    unsigned long long _field2;
+} CDStruct_fca5f1f5;
 
 typedef struct {
     struct {
@@ -439,18 +294,18 @@ typedef struct array<const DFAData *, 4UL> {
 } array_41b751f0;
 
 typedef struct duration<long long, std::ratio<1, 1000>> {
-    long long __rep_;
-} duration_15f873c1;
+    long long _field1;
+} duration_4b3997a8;
 
 typedef struct time_point<std::chrono::steady_clock, std::chrono::duration<long long, std::ratio<1, 1000000000>>> {
-    struct duration<long long, std::ratio<1, 1000000000>> __d_;
-} time_point_ee75d146;
+    struct duration<long long, std::ratio<1, 1000000000>> _field1;
+} time_point_7a349019;
 
 typedef struct unique_ptr<std::vector<WTF::RefPtr<SafariShared::HistoryURLCompletionItem>>, std::default_delete<std::vector<WTF::RefPtr<SafariShared::HistoryURLCompletionItem>>>> {
     struct {
-        void *__ptr_;
-    } ;
-} unique_ptr_7e684e56;
+        void *_field1;
+    } _field1;
+} unique_ptr_1a0fd653;
 
 typedef struct unordered_map<long long, long long, std::hash<long long>, std::equal_to<long long>, std::allocator<std::pair<const long long, long long>>> {
     struct __hash_table<std::__hash_value_type<long long, long long>, std::__unordered_map_hasher<long long, std::pair<const long long, long long>, std::hash<long long>, std::equal_to<long long>>, std::__unordered_map_equal<long long, std::pair<const long long, long long>, std::equal_to<long long>, std::hash<long long>>, std::allocator<std::pair<const long long, long long>>> {
@@ -472,40 +327,4 @@ typedef struct vector<_WBSSearchSuggestionCandidate, std::allocator<_WBSSearchSu
         struct _WBSSearchSuggestionCandidate *_field1;
     } _field3;
 } vector_11e35795;
-
-#pragma mark Typedef'd Unions
-
-typedef union {
-    struct {
-        unsigned int disallowsAutocomplete:1;
-        unsigned int claimsToBeCurrentPasswordViaAutocompleteAttribute:1;
-        unsigned int claimsToBeNewPasswordViaAutocompleteAttribute:1;
-        unsigned int claimsToBeUsernameViaAutocompleteAttribute:1;
-        unsigned int looksLikeOneTimeCodeField:1;
-        unsigned int oneTimeCodeIsEligibleForAutomaticLogin:1;
-        unsigned int visible:1;
-        unsigned int active:1;
-        unsigned int disabled:1;
-        unsigned int readOnly:1;
-        unsigned int textField:1;
-        unsigned int secureTextField:1;
-        unsigned int autoFilledTextField:1;
-        unsigned int userEditedTextField:1;
-        unsigned int labeledUsernameField:1;
-        unsigned int verticalWritingMode:1;
-        unsigned int looksLikeCreditCardCardholderField:1;
-        unsigned int looksLikeCreditCardCompositeExpirationDateField:1;
-        unsigned int looksLikeCreditCardNumberField:1;
-        unsigned int looksLikeCreditCardSecurityCodeField:1;
-        unsigned int looksLikeCreditCardTypeField:1;
-        unsigned int looksLikeEIDField:1;
-        unsigned int looksLikeIMEIField:1;
-        unsigned int looksLikeDayField:1;
-        unsigned int looksLikeMonthField:1;
-        unsigned int looksLikeYearField:1;
-        unsigned int looksLikeIgnoredDataTypeField:1;
-        unsigned int looksLikePasswordCredentialField:1;
-    } flags;
-    long long asInteger;
-} CDUnion_8fb30954;
 

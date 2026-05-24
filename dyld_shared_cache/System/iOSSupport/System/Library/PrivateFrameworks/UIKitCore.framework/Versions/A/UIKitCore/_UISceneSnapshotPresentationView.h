@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class FBSceneSnapshot, NSString;
+@class FBSceneSnapshot;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneSnapshotPresentationView : UIView
@@ -15,23 +15,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
-- (id)rmer:(id)arg1;
-- (id)litViewControllerColumnToResizeAtPoint:isPointer: /* Error: Ran out of types for this method. */;
+- (id)ream FROM hls_assets WHERE identifier = @identifier AND hashed_person_id = @hashedPersonID AND url_expiration_date > @now;
+- (id)setHostTransformer:(id)arg1;
+- (id)_splitViewControllerColumnToResizeAtPoint:isPointer: /* Error: Ran out of types for this method. */;
 - (id)ntIdentifier:(struct CGRect)arg1;
 - (_Bool)B,N,V_heightShouldBeIncreasedByTabBarHeight;
 - (void)Iegy_;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) FBSceneSnapshot *sceneSnapshot; // @synthesize sceneSnapshot=_snapshot;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, RBDomainRestriction, RBProcess;
-@protocol RBDaemonContextProviding;
+@class RBProcess;
 
 @interface RBAssertionBatchContext
 {
     _Bool _allowAbstractTarget;
-    _Bool _launchAssertion;
-    _Bool _unitTesting;
-    RBProcess *_process;
-    NSArray *_descriptorsToAcquire;
-    NSArray *_identifiersToInvalidate;
-    RBDomainRestriction *_targetClientRestriction;
-    unsigned long long _acquisitionPolicy;
-    id _holdToken;
-    id <RBDaemonContextProviding> _daemonContext;
 }
 
-+ (id);
++ (id),N,V_queueUpdateIntervals;
 + (id);
 - (void);
 - (id);
@@ -30,30 +20,21 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)IntentModelingServerSuggestionQuotaLocalStrong;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)a-folder-bookmark;
 - (id);
-- (void);
+- (void)setPreviouslyProcessedDeleteInput:(_Bool)arg1;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned long long acquisitionPolicy; // @synthesize acquisitionPolicy=_acquisitionPolicy;
-@property(nonatomic) _Bool allowAbstractTarget; // @synthesize allowAbstractTarget=_allowAbstractTarget;
-@property(readonly, nonatomic) id <RBDaemonContextProviding> daemonContext; // @synthesize daemonContext=_daemonContext;
-@property(readonly, copy, nonatomic) NSArray *descriptorsToAcquire; // @synthesize descriptorsToAcquire=_descriptorsToAcquire;
-@property(retain, nonatomic) id holdToken; // @synthesize holdToken=_holdToken;
-@property(readonly, copy, nonatomic) NSArray *identifiersToInvalidate; // @synthesize identifiersToInvalidate=_identifiersToInvalidate;
-@property(nonatomic) _Bool launchAssertion; // @synthesize launchAssertion=_launchAssertion;
 @property(readonly, nonatomic) RBProcess *process; // @synthesize process=_process;
-@property(nonatomic) RBDomainRestriction *targetClientRestriction; // @synthesize targetClientRestriction=_targetClientRestriction;
-@property(nonatomic) _Bool unitTesting; // @synthesize unitTesting=_unitTesting;
 
 @end
 

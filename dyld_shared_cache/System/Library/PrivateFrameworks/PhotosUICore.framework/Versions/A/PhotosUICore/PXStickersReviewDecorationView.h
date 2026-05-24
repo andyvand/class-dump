@@ -5,14 +5,10 @@
 //
 
 @class NSTextField;
-@protocol NSCopying;
 
 @interface PXStickersReviewDecorationView
 {
     NSTextField *_label;
-    unsigned long long _decorationOptions;
-    id <NSCopying> _userData;
-    struct CGRect _clippingRect;
 }
 
 - (float);
@@ -29,21 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect=_clippingRect;
 @property(nonatomic) unsigned long long decorationOptions; // @synthesize decorationOptions=_decorationOptions;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic) id <NSCopying> userData; // @synthesize userData=_userData;
 
 @end
 

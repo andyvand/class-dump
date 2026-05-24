@@ -6,25 +6,19 @@
 
 #import <AppKit/NSPreferencesModule.h>
 
-@class NSImage, NSString, NSUserDefaultsController, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSSimplePreferencesModule : NSPreferencesModule
 {
     NSView *_rootView;
-    NSString *_title;
-    NSImage *_toolbarIcon;
-    NSString *_helpAnchor;
-    NSString *_helpBook;
-    NSString *_applicationGroupContainerIdentifier;
-    NSUserDefaultsController *_userDefaultsController;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)*_;
+- (void)3;
 - (void);
 - (void);
 - (void);
@@ -42,13 +36,7 @@ __attribute__((visibility("hidden")))
 - (id)_Nonnull, NSArray<NSColorSpace *> * _Nonnull);
 
 // Remaining properties
-@property(copy) NSString *applicationGroupContainerIdentifier; // @synthesize applicationGroupContainerIdentifier=_applicationGroupContainerIdentifier;
-@property(copy) NSString *helpAnchor; // @synthesize helpAnchor=_helpAnchor;
-@property(copy) NSString *helpBook; // @synthesize helpBook=_helpBook;
 @property(retain) NSView *rootView; // @synthesize rootView=_rootView;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property(retain) NSImage *toolbarIcon; // @synthesize toolbarIcon=_toolbarIcon;
-@property(retain) NSUserDefaultsController *userDefaultsController; // @synthesize userDefaultsController=_userDefaultsController;
 
 @end
 

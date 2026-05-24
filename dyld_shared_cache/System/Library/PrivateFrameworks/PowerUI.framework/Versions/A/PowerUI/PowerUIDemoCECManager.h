@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSObject, NSUserDefaults, PowerUICECGridDataManager, PowerUIChargingController;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log, _CDLocalContext;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface PowerUIDemoCECManager
 {
     _Bool _isChargingPaused;
-    _Bool _isDemoCECEnabled;
-    _Bool _isInternal;
-    unsigned long long _currentPhase;
-    NSObject<OS_os_log> *_log;
-    id <_CDLocalContext> _context;
-    NSDictionary *_phaseDescriptions;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSDate *_pauseChargingCheckDate;
-    NSUserDefaults *_defaults;
-    PowerUIChargingController *_chargingController;
-    NSObject<OS_dispatch_source> *_timer;
-    NSObject<OS_dispatch_source> *_queryForecastTimer;
-    NSObject<OS_dispatch_source> *_analyticsTimer;
-    NSObject<OS_dispatch_source> *_unpluggedTimer;
-    unsigned long long _currentState;
-    NSDate *_lastPluggedInDate;
-    NSDate *_lastUnpluggedDate;
-    NSDate *_lastEngagementCheckDate;
-    long long _pluggedInBatteryLevel;
-    long long _requeryForecastTries;
-    PowerUICECGridDataManager *_gridDataManager;
 }
 
 + (id);
@@ -39,25 +18,25 @@
 - (void);
 - (id);
 - (double);
-- (double);
+- (double)4˟;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)H;
 - (void);
 - (id);
 - (long long);
@@ -79,8 +58,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)T	;
+- (id)T9;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -101,8 +80,8 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)/;
+- (void)currentBuildVersion;
 - (void);
 - (id);
 - (id);
@@ -117,7 +96,7 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (id);
 - (id);
 - (void)1Â0@ù
@@ -129,28 +108,7 @@
 - (_Bool)_æ2;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *analyticsTimer; // @synthesize analyticsTimer=_analyticsTimer;
-@property(retain, nonatomic) PowerUIChargingController *chargingController; // @synthesize chargingController=_chargingController;
-@property(retain, nonatomic) id <_CDLocalContext> context; // @synthesize context=_context;
-@property(nonatomic) unsigned long long currentPhase; // @synthesize currentPhase=_currentPhase;
-@property(nonatomic) unsigned long long currentState; // @synthesize currentState=_currentState;
-@property(retain, nonatomic) NSUserDefaults *defaults; // @synthesize defaults=_defaults;
-@property(retain, nonatomic) PowerUICECGridDataManager *gridDataManager; // @synthesize gridDataManager=_gridDataManager;
-@property(nonatomic) _Bool isChargingPaused; // @synthesize isChargingPaused=_isChargingPaused;
-@property(nonatomic) _Bool isDemoCECEnabled; // @synthesize isDemoCECEnabled=_isDemoCECEnabled;
-@property(nonatomic) _Bool isInternal; // @synthesize isInternal=_isInternal;
-@property(retain, nonatomic) NSDate *lastEngagementCheckDate; // @synthesize lastEngagementCheckDate=_lastEngagementCheckDate;
-@property(retain, nonatomic) NSDate *lastPluggedInDate; // @synthesize lastPluggedInDate=_lastPluggedInDate;
-@property(retain, nonatomic) NSDate *lastUnpluggedDate; // @synthesize lastUnpluggedDate=_lastUnpluggedDate;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) NSDate *pauseChargingCheckDate; // @synthesize pauseChargingCheckDate=_pauseChargingCheckDate;
-@property(retain, nonatomic) NSDictionary *phaseDescriptions; // @synthesize phaseDescriptions=_phaseDescriptions;
-@property(nonatomic) long long pluggedInBatteryLevel; // @synthesize pluggedInBatteryLevel=_pluggedInBatteryLevel;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *queryForecastTimer; // @synthesize queryForecastTimer=_queryForecastTimer;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) long long requeryForecastTries; // @synthesize requeryForecastTries=_requeryForecastTries;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *unpluggedTimer; // @synthesize unpluggedTimer=_unpluggedTimer;
 
 @end
 

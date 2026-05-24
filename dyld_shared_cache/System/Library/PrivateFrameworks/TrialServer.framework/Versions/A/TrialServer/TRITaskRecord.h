@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber;
-@protocol TRITask;
+@class NSNumber;
 
 @interface TRITaskRecord
 {
     NSNumber *_taskId;
-    id <TRITask> _task;
-    NSDate *_startDate;
-    NSArray *_dependencies;
-    unsigned long long _capabilities;
-    NSArray *_tags;
 }
 
-+ (id);
-+ (_Bool);
++ (id)initWithMediaURL:(id)arg1 detail:(id)arg2 timeZoneLookup:(id)arg3 shouldCache:(id)arg4;
++ (_Bool);
+- (id);
+- (id)ka;
+- (id)ssion;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)8$x;
 - (unsigned long long);
 - (id);
 - (id);
@@ -34,22 +28,17 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (id);
+- (id)PAMediaConversionServiceAdjustmentFormatVersionKey;
 - (void)
 × ;
 - (id)¬;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, nonatomic) NSArray *dependencies; // @synthesize dependencies=_dependencies;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly, nonatomic) NSArray *tags; // @synthesize tags=_tags;
-@property(readonly, nonatomic) id <TRITask> task; // @synthesize task=_task;
 @property(readonly, nonatomic) NSNumber *taskId; // @synthesize taskId=_taskId;
 
 @end

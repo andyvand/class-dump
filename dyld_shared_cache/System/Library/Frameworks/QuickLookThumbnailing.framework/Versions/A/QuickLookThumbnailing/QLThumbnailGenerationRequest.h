@@ -4,54 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPItem, FPSandboxingURLWrapper, IFColor, NSData, NSDate, NSDictionary, NSError, NSFileHandle, NSString, NSURL, NSUUID, QLCacheBasicVersionedFileIdentifier, QLCacheFileProviderVersionedFileIdentifier, QLThumbnailRepresentation, UTType;
+@class QLThumbnailRepresentation, UTType;
 
 @interface QLThumbnailGenerationRequest
 {
     UTType *_contentType;
-    NSString *_contentTypeUTI;
-    struct os_unfair_lock_s _urlLock;
-    NSURL *_fileURL;
-    _Bool _thirdPartyVideoDecodersAllowed;
-    _Bool _iconMode;
-    _Bool _wantsBaseline;
-    _Bool _shouldUseRestrictedExtension;
-    _Bool _cancelled;
-    _Bool _finished;
-    _Bool _downloadingAllowed;
-    int _interpolationQuality;
-    NSString *_overriddenContentTypeIdentifier;
-    UTType *_overriddenContentType;
-    double _minimumDimension;
-    double _scale;
-    unsigned long long _representationTypes;
-    FPSandboxingURLWrapper *_quicklookSandboxWrapper;
-    FPSandboxingURLWrapper *_genericSandboxWrapper;
-    FPSandboxingURLWrapper *_parentDirectorySandboxWrapper;
-    FPItem *_item;
-    NSData *_data;
-    NSString *_searchResultIdentifier;
-    NSString *_domainIdentifier;
-    NSUUID *_uuid;
-    QLCacheBasicVersionedFileIdentifier *_basicFileIdentifier;
-    QLCacheFileProviderVersionedFileIdentifier *_fileProviderFileIdentifier;
-    unsigned long long _badgeType;
-    long long _iconVariant;
-    long long _generationBehavior;
-    NSError *_requestIsInvalidError;
-    NSDictionary *_externalThumbnailGeneratorData;
-    unsigned long long _externalThumbnailGeneratorDataHash;
-    IFColor *_tintColor;
-    NSDate *_beginDate;
-    QLThumbnailRepresentation *_mostRepresentativeThumbnail;
-    CDUnknownBlockType _updateBlock;
-    CDUnknownBlockType _completionBlock;
-    CDUnknownBlockType _statusBlock;
-    FPSandboxingURLWrapper *_saveURLSandboxWrapper;
-    NSFileHandle *_saveFileHandle;
-    UTType *_saveURLContentType;
-    unsigned long long _typesForWhichUpdateBlockHasBeenCalled;
-    struct CGSize _size;
 }
 
 + (id);
@@ -88,26 +45,26 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)R;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)%;
 - (id);
 - (float);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)86;
 - (_Bool);
 - (int);
 - (id);
@@ -122,13 +79,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
@@ -141,7 +98,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -162,10 +119,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -174,61 +131,18 @@
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
-- (id);
+- (id)a;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)_externalResourcesHandle;
 - (id)QhV;
 
 // Remaining properties
-@property(nonatomic) unsigned long long badgeType; // @synthesize badgeType=_badgeType;
-@property(retain, nonatomic) QLCacheBasicVersionedFileIdentifier *basicFileIdentifier; // @synthesize basicFileIdentifier=_basicFileIdentifier;
-@property(retain, nonatomic) NSDate *beginDate; // @synthesize beginDate=_beginDate;
-@property(nonatomic, getter=isCancelled) _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(copy, nonatomic) UTType *contentType;
-@property(retain, nonatomic) NSString *contentTypeUTI;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(nonatomic, getter=isDownloadingAllowed) _Bool downloadingAllowed; // @synthesize downloadingAllowed=_downloadingAllowed;
-@property(retain, nonatomic) NSDictionary *externalThumbnailGeneratorData; // @synthesize externalThumbnailGeneratorData=_externalThumbnailGeneratorData;
-@property(nonatomic) unsigned long long externalThumbnailGeneratorDataHash; // @synthesize externalThumbnailGeneratorDataHash=_externalThumbnailGeneratorDataHash;
-@property(retain, nonatomic) QLCacheFileProviderVersionedFileIdentifier *fileProviderFileIdentifier; // @synthesize fileProviderFileIdentifier=_fileProviderFileIdentifier;
-@property(retain, nonatomic) NSURL *fileURL;
-@property(nonatomic, getter=isFinished) _Bool finished; // @synthesize finished=_finished;
-@property(nonatomic) long long generationBehavior; // @synthesize generationBehavior=_generationBehavior;
-@property(retain, nonatomic) FPSandboxingURLWrapper *genericSandboxWrapper; // @synthesize genericSandboxWrapper=_genericSandboxWrapper;
-@property(nonatomic) _Bool iconMode; // @synthesize iconMode=_iconMode;
-@property(nonatomic) long long iconVariant; // @synthesize iconVariant=_iconVariant;
-@property(nonatomic) int interpolationQuality; // @synthesize interpolationQuality=_interpolationQuality;
-@property(retain, nonatomic) FPItem *item; // @synthesize item=_item;
-@property(nonatomic) double minimumDimension; // @synthesize minimumDimension=_minimumDimension;
-@property(retain, nonatomic) QLThumbnailRepresentation *mostRepresentativeThumbnail; // @synthesize mostRepresentativeThumbnail=_mostRepresentativeThumbnail;
-@property(readonly, nonatomic) long long mostRepresentativeTypeForWhichUpdateBlockHasBeenCalled;
-@property(retain, nonatomic) UTType *overriddenContentType; // @synthesize overriddenContentType=_overriddenContentType;
-@property(retain, nonatomic) NSString *overriddenContentTypeIdentifier; // @synthesize overriddenContentTypeIdentifier=_overriddenContentTypeIdentifier;
-@property(retain, nonatomic) FPSandboxingURLWrapper *parentDirectorySandboxWrapper; // @synthesize parentDirectorySandboxWrapper=_parentDirectorySandboxWrapper;
-@property(retain, nonatomic) FPSandboxingURLWrapper *quicklookSandboxWrapper; // @synthesize quicklookSandboxWrapper=_quicklookSandboxWrapper;
-@property(nonatomic) unsigned long long representationTypes; // @synthesize representationTypes=_representationTypes;
-@property(retain, nonatomic) NSError *requestIsInvalidError; // @synthesize requestIsInvalidError=_requestIsInvalidError;
-@property(retain, nonatomic) NSFileHandle *saveFileHandle; // @synthesize saveFileHandle=_saveFileHandle;
-@property(retain, nonatomic) UTType *saveURLContentType; // @synthesize saveURLContentType=_saveURLContentType;
-@property(retain, nonatomic) FPSandboxingURLWrapper *saveURLSandboxWrapper; // @synthesize saveURLSandboxWrapper=_saveURLSandboxWrapper;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(retain, nonatomic) NSString *searchResultIdentifier; // @synthesize searchResultIdentifier=_searchResultIdentifier;
-@property(nonatomic) _Bool shouldUseRestrictedExtension; // @synthesize shouldUseRestrictedExtension=_shouldUseRestrictedExtension;
-@property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(copy, nonatomic) CDUnknownBlockType statusBlock; // @synthesize statusBlock=_statusBlock;
-@property(nonatomic) _Bool thirdPartyVideoDecodersAllowed; // @synthesize thirdPartyVideoDecodersAllowed=_thirdPartyVideoDecodersAllowed;
-@property(retain, nonatomic) IFColor *tintColor; // @synthesize tintColor=_tintColor;
-@property(nonatomic) unsigned long long typesForWhichUpdateBlockHasBeenCalled; // @synthesize typesForWhichUpdateBlockHasBeenCalled=_typesForWhichUpdateBlockHasBeenCalled;
-@property(copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
-@property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(nonatomic) _Bool wantsBaseline; // @synthesize wantsBaseline=_wantsBaseline;
+@property(retain, nonatomic) QLThumbnailRepresentation *mostRepresentativeThumbnail;
 
 @end
 

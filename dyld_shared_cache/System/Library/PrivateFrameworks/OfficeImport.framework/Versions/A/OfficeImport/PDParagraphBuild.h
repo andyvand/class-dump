@@ -12,17 +12,13 @@ __attribute__((visibility("hidden")))
 @interface PDParagraphBuild : PDBuild
 {
     NSMutableArray *mTimeNodeDataList;
-    double mAutoAdvanceTime;
-    _Bool mIsReversedParagraphOrder;
-    int mBuildLevel;
-    int mType;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (int);
@@ -32,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (int);
 - (_Bool);
-- (void);
+- (void)B;
 - (void);
 
 @end

@@ -7,20 +7,16 @@
 @interface ABKeystrokeForwardingEntry
 {
     id _target;
-    SEL _action;
-    CDUnknownBlockType _test;
 }
 
-+ (id);
++ (id);
 - (CDUnknownBlockType);
 - (id);
 - (SEL);
 - (void);
 
 // Remaining properties
-@property(readonly) SEL action; // @synthesize action=_action;
 @property(readonly) id target; // @synthesize target=_target;
-@property(readonly) CDUnknownBlockType test; // @synthesize test=_test;
 
 @end
 

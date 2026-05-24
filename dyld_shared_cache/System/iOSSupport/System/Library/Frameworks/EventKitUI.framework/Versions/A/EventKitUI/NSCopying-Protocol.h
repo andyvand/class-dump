@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)tAttachment"24@"WFSlotIdentifier"32;
 @end
 

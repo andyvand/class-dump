@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GLKEffect;
-
 @interface GLKEffectProperty
 {
     int _location;
-    char *_nameString;
-    struct GLKEffectPropertyPrv *_prv;
-    unsigned char _masksInitialized;
-    char *_vshSource;
-    char *_fshSource;
-    unsigned long long _dirtyUniforms;
-    GLKEffect *_effect;
 }
 
++ (void)@;
 + (void);
-+ (void);
-- (char *);
+- (char *);
 - (void);
 - (void);
 - (void);
@@ -28,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (char *);
 - (unsigned char);
@@ -36,7 +27,7 @@
 - (_Bool);
 - (char *);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (struct GLKBigInt_s *);
 - (void);
@@ -45,17 +36,11 @@
 - (id);
 - (id);
 - (void);
-- (int);
+- (int);
 - (void)_ÿÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long dirtyUniforms; // @synthesize dirtyUniforms=_dirtyUniforms;
-@property(nonatomic) GLKEffect *effect; // @synthesize effect=_effect;
-@property(nonatomic) char *fshSource; // @synthesize fshSource=_fshSource;
 @property(nonatomic) int location; // @synthesize location=_location;
-@property(nonatomic) unsigned char masksInitialized; // @synthesize masksInitialized=_masksInitialized;
-@property(nonatomic) char *nameString; // @synthesize nameString=_nameString;
-@property(nonatomic) char *vshSource; // @synthesize vshSource=_vshSource;
 
 @end
 

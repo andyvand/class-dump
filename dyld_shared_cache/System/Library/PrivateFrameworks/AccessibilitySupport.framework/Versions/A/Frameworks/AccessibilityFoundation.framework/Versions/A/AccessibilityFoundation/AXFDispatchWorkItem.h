@@ -7,7 +7,6 @@
 @interface AXFDispatchWorkItem
 {
     CDUnknownBlockType ___block;
-    unsigned long long __attributes;
 }
 
 - (void);
@@ -17,14 +16,12 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)ever be called!;
 - (void);
 - (unsigned long long)";
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long _attributes; // @synthesize _attributes=__attributes;
 @property(readonly, nonatomic) CDUnknownBlockType _block; // @synthesize _block=___block;
-@property(readonly) _Bool isCancelled;
 
 @end
 

@@ -4,52 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLPipelineBufferDescriptor, NSMutableDictionary, NSObject, PKLRUCache, PKMetalResourceHandlerBuffer;
-@protocol MTLBuffer, MTLComputePipelineState, MTLDevice, MTLLibrary, MTLPipelineLibrarySPI, MTLTexture, OS_dispatch_queue;
+@protocol MTLComputePipelineState, MTLDevice;
 
 @interface PKMetalResourceHandler
 {
     id <MTLComputePipelineState> _particleShaderKernelPipelineState;
-    id <MTLComputePipelineState> _particleShaderKernelPipelineStateWithVariableSpacing;
-    id <MTLComputePipelineState> _paintShaderKernelPipelineState;
-    id <MTLComputePipelineState> _sdfPenShaderKernelPipelineState;
-    id <MTLTexture> _sdfPenMaxHeightLookupTexture;
-    id <MTLTexture> _sdfPenEllipseLookupTexture;
-    id <MTLComputePipelineState> _paintShaderKernelPipelineStateWithLiveStrokeMode;
-    id <MTLComputePipelineState> _paintShaderKernelPipelineStateWithLiveStrokeParticles;
-    id <MTLBuffer> _cachedQuadVertexBuffer;
-    id <MTLBuffer> _cachedQuadTexCoordBuffer;
-    NSMutableDictionary *_inkTextures;
-    struct unordered_map<(anonymous namespace)::PKMetalShaderKey, PKMetalShader *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalShaderKey>, std::allocator<std::pair<const (anonymous namespace)::PKMetalShaderKey, PKMetalShader *>>> _uberShaders;
-    struct unordered_map<(anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKSixChannelShaderKey>, std::allocator<std::pair<const (anonymous namespace)::PKSixChannelShaderKey, PKMetalShader *>>> _sixChannelShaders;
-    struct unordered_map<PKNamedShaderKey, PKMetalShader *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKNamedShaderKey>, std::allocator<std::pair<const PKNamedShaderKey, PKMetalShader *>>> _namedShaders;
-    struct unordered_map<PKShaderPipelineConfig, MTLRenderPipelineDescriptor *, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<PKShaderPipelineConfig>, std::allocator<std::pair<const PKShaderPipelineConfig, MTLRenderPipelineDescriptor *>>> _pipelineDescriptors;
-    struct unordered_map<(anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>, (anonymous namespace)::PKMetalResourceHandlerHashFunctions, std::equal_to<(anonymous namespace)::PKMetalKernelKey>, std::allocator<std::pair<const (anonymous namespace)::PKMetalKernelKey, id<MTLComputePipelineState>>>> _kernelPipelines;
-    id <MTLLibrary> _defaultLibrary;
-    id <MTLTexture> _paperTexture;
-    struct CGSize _paperTextureSize;
-    PKLRUCache *_strokeRenderCache;
-    id <MTLBuffer> _uint16IndexBuffer;
-    id <MTLBuffer> _uint32IndexBuffer;
-    unsigned long long _uint32IndexBufferNumVertices;
-    id <MTLBuffer> _randomNumberBuffer;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    unsigned long long _signpost_id;
-    PKMetalResourceHandlerBuffer *_purgeableResourceBuffer;
-    PKMetalResourceHandlerBuffer *_resourceBuffer;
-    PKMetalResourceHandlerBuffer *_gpuResourceBuffer;
-    id <MTLPipelineLibrarySPI> _pipelineLibrary;
-    _Bool _generatePipelineDescriptors;
-    _Bool _generateForScribble;
-    _Bool _deviceSupportsAppleFamily;
-    _Bool _deviceSupportsMacFamily;
-    _Bool _deviceSupportsFramebufferFetch;
-    _Bool _sixChannelUsesWideGamutForNonEDR;
-    id <MTLDevice> _device;
-    unsigned long long _sixChannelOriginalBackPixelFormatNonEDR;
-    unsigned long long _sixChannelMetalLayerPixelFormatNonEDR;
-    unsigned long long _extendedDynamicRangePixelFormat;
-    MTLPipelineBufferDescriptor *_sharedPipelineDescriptor;
 }
 
 + (id);
@@ -65,10 +24,10 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
+- (id)Q	=S(1*=;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (struct PKShaderPipelineConfig);
 - (void);
 - (void);
@@ -89,7 +48,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -114,7 +73,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)c`;
 - (id);
 - (id);
 - (id);
@@ -127,7 +86,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -143,7 +102,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -154,28 +113,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)_spotlightShareItem;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct PKShaderPipelineConfig defaultLiveNoSnapshottingPipelineConfig;
-@property(readonly, nonatomic) struct PKShaderPipelineConfig defaultPipelineConfig;
-@property(readonly, nonatomic) struct PKShaderPipelineConfig defaultSingleFramebufferPipelineConfig;
 @property(readonly, nonatomic) id <MTLDevice> device; // @synthesize device=_device;
-@property(readonly, nonatomic) _Bool deviceSupportsAppleFamily; // @synthesize deviceSupportsAppleFamily=_deviceSupportsAppleFamily;
-@property(readonly, nonatomic) _Bool deviceSupportsFramebufferFetch; // @synthesize deviceSupportsFramebufferFetch=_deviceSupportsFramebufferFetch;
-@property(readonly, nonatomic) _Bool deviceSupportsMacFamily; // @synthesize deviceSupportsMacFamily=_deviceSupportsMacFamily;
-@property(readonly, nonatomic) unsigned long long extendedDynamicRangePixelFormat; // @synthesize extendedDynamicRangePixelFormat=_extendedDynamicRangePixelFormat;
-@property(readonly, nonatomic) id <MTLTexture> paperTexture;
-@property(readonly, nonatomic) struct CGSize paperTextureSize;
-@property(readonly, nonatomic) id <MTLLibrary> shaderLibrary;
-@property(readonly, nonatomic) MTLPipelineBufferDescriptor *sharedPipelineDescriptor; // @synthesize sharedPipelineDescriptor=_sharedPipelineDescriptor;
-@property(readonly, nonatomic) unsigned long long sixChannelMetalLayerPixelFormatNonEDR; // @synthesize sixChannelMetalLayerPixelFormatNonEDR=_sixChannelMetalLayerPixelFormatNonEDR;
-@property(readonly, nonatomic) unsigned long long sixChannelOriginalBackPixelFormatNonEDR; // @synthesize sixChannelOriginalBackPixelFormatNonEDR=_sixChannelOriginalBackPixelFormatNonEDR;
-@property(readonly, nonatomic) _Bool sixChannelUsesWideGamutForNonEDR; // @synthesize sixChannelUsesWideGamutForNonEDR=_sixChannelUsesWideGamutForNonEDR;
 
 @end
 

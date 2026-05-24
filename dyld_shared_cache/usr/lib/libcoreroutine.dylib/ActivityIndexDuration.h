@@ -8,21 +8,17 @@ __attribute__((visibility("hidden")))
 @interface ActivityIndexDuration
 {
     unsigned long long _type;
-    unsigned long long _index;
-    double _duration;
 }
 
-- (id);
-- (double);
+- (id)allocWithZone:(unsigned long long)arg1;
+- (double);
 - (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (void);
-- (unsigned long long)entBulletinForEvent:replacingEvent: /* Error: Ran out of types for this method. */;
+- (unsigned long long)showParkedCarReplacementBulletinForEvent:replacingEvent: /* Error: Ran out of types for this method. */;
 - (void)!;
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

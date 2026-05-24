@@ -9,19 +9,11 @@
 @interface CKDPQuery
 {
     NSMutableArray *_filters;
-    int _queryOperator;
-    NSMutableArray *_sorts;
-    NSMutableArray *_types;
-    _Bool _distinct;
-    struct {
-        unsigned int queryOperator:1;
-        unsigned int distinct:1;
-    } _has;
 }
 
 + (Class);
-+ (Class);
-+ (Class);
++ (Class);
++ (Class)resultSectionsWithMessages: /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (void);
@@ -34,21 +26,21 @@
 - (unsigned long long);
 - (void);
 - (id);
+- (void)@0:(id)arg1 8r^{?=*Q}16r^{?=*Q}24r^{?=*Q}32;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
+- (unsigned long long)ing(FigEndpointStreamAudioEngineRef);
+- (id)T;
+- (void)`;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (int);
 - (void);
 - (id);
-- (id);
+- (id).;
 - (_Bool);
-- (void);
+- (void)es:(id)arg1 mailboxURL:userInitiated:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (int);
 - (void);
@@ -57,17 +49,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool)containerID:accountOverrideInfo:accountID:encryptionServiceName: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithDeviceContext:containerID:accountOverrideInfo:accountID:encryptionServiceName: /* Error: Ran out of types for this method. */;
 - (void)ithParameters NULL error;
 - (id)sfully saved chain PCS data on record %@;
 
 // Remaining properties
-@property(nonatomic) _Bool distinct; // @synthesize distinct=_distinct;
-@property(retain, nonatomic) NSMutableArray *filters; // @synthesize filters=_filters;
-@property(nonatomic) _Bool hasDistinct;
-@property(nonatomic) _Bool hasQueryOperator;
-@property(nonatomic) int queryOperator; // @synthesize queryOperator=_queryOperator;
-@property(retain, nonatomic) NSMutableArray *sorts; // @synthesize sorts=_sorts;
 @property(retain, nonatomic) NSMutableArray *types; // @synthesize types=_types;
 
 @end

@@ -6,23 +6,20 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLRouterSchemaNLRouterSubComponentHandleFailed : SISchemaInstrumentationMessage
 {
     int _errorCode;
-    CDStruct_70a7dc3e _has;
 }
 
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)ctory.MoIAiI/Sources/libressl/libressl-2.2/crypto/pem/pem_lib.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)0@ù
 × ;
 - (id)mmesServiceClassifierScoreReported;
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

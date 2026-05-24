@@ -6,84 +6,42 @@
 
 #import <AppKit/NSTitledFrame.h>
 
-@class NSButton, NSMapTable, NSObject, NSSheetEffectDimmingView, NSString, NSTitlebarContainerView, NSTitlebarView, NSTrackingArea, NSView, NSVisualEffectView;
-@protocol NSSidebarTrackingAdapter;
+@class NSButton;
 
 @interface NSThemeFrame : NSTitledFrame
 {
     NSButton *toolbarButton;
-    int _toolbarVisibleStatus;
-    NSView *_temporaryContentView;
-    struct CGSize _showToolbarPreWindowSize;
-    NSButton *fullScreenButton;
-    NSTrackingArea *_leftGroupTrackingArea;
-    NSTrackingArea *_rightGroupTrackingArea;
-    struct {
-        unsigned int mouseInsideLeftGroup:1;
-        unsigned int disableMouseInsideLeftGroup:1;
-        unsigned int mouseInsideRightGroup:1;
-        unsigned int movableByBottomBar:1;
-        unsigned int removingToolbarForEnteringFullScreen:1;
-        unsigned int suppressTitleBackgroundDrawing:1;
-        unsigned int suppressTitleDrawing:1;
-        unsigned int suppressBackgroundCellDrawing:1;
-        unsigned int hasCachedWindowCornerRadius:1;
-        unsigned int autoFlattenEnabled:1;
-        unsigned int addingKnownSubview:1;
-        unsigned int hasUnknownSubview:1;
-        unsigned int titlebarViewInFullScreen:1;
-        unsigned int useViewsHeight:1;
-        unsigned int useViewsMinHeight:1;
-        unsigned int pendingWillChangeCount:8;
-        unsigned int needsSidebarPositionUpdate:1;
-        unsigned int needsAuxiliaryViewPositionUpdate:1;
-        unsigned int prefersFullWidthTitlebarWhenAccessoriesVisible:1;
-    } _tFlags;
-    int widgetState;
-    NSString *_displayName;
-    NSButton *lockButton;
-    double topBorderThickness;
-    double bottomBorderThickness;
-    NSObject<NSSidebarTrackingAdapter> *_sidebarTrackingAdapter;
-    NSObject<NSSidebarTrackingAdapter> *_trailingSidebarTrackingAdapter;
-    id _windowFullScreenObservers[2];
-    NSView *_windowBackdropCaptureView;
-    struct CGSize _stoplightOffset;
-    double _sidebarDividerPosition;
-    double _trailingSidebarDividerPosition;
-    double _sidebarLogicalDividerPosition;
-    double _trailingSidebarLogicalDividerPosition;
-    NSTitlebarView *_titlebarView;
-    NSTitlebarContainerView *_titlebarContainerView;
-    NSSheetEffectDimmingView *_sheetDimmingView;
-    NSMapTable *_associatedViewsToUnderTitlebarViews;
-    double _cachedCornerRadius;
-    struct CGPath *_cachedCornerPath;
-    _Bool _cachedHasSolariumAppearance;
-    struct CGPath *_innerResizePath;
-    struct CGPath *_outerResizePath;
-    _Bool _applySafeAreaInsetsForTransparentTitlebar;
-    NSView *_sharingIndicator;
-    double _customTitlebarHeight;
-    double _customTitlebarHeightPriorToFSMode;
 }
 
 + (struct CGSize);
-+ (double);
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (double);
-+ (double);
-+ (double);
++ (double);
++ (id)ion; stream=%llu;
++ (_Bool)ng;
++ (_Bool)CantParseData;
++ (_Bool)xt NOT NULL,        partition text NOT NULL,        is_secure int NOT NULL,        is_hostOnly int NOT NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
++ (double)32;
 + (double);
 + (double);
-+ (unsigned long long);
++ (double);
++ (double);
++ (unsigned long long)ssss)s8stt
+tttt)t8t 	  ( %	%%(%-	--(-.	..(.  
+    ) 8 %%
+%%%%)%8%--
+----)-8-..
+....).8.//33445566778899/	//(/3	33(34	44(45	55(5//
+////)/8/33
+3333)38344
+4444)48455
+5555)5856	66(67	77(78	88(89	99(966
+6666)68677
+7777)78788
+8888)88899
+9999)989;
 + (double);
 + (struct CGSize);
-+ (double);
-+ (double);
++ (double)@;
++ (double).;
 + (id);
 + (void);
 + (double);
@@ -96,40 +54,12 @@
 + (id);
 + (double);
 + (double);
-+ (double);
-+ (double);
-+ (_Bool);
++ (double)4;
++ (double)0;
++ (_Bool)@;
 
 // Remaining properties
-@property(readonly) NSVisualEffectView *_backdropView;
-@property(readonly) _Bool _hasBottomAccessoryViewControllerNeedingBackground; // @dynamic _hasBottomAccessoryViewControllerNeedingBackground;
-@property(readonly) _Bool _sidebarSitsBelowToolbar;
-@property _Bool applySafeAreaInsetsForTransparentTitlebar; // @synthesize applySafeAreaInsetsForTransparentTitlebar=_applySafeAreaInsetsForTransparentTitlebar;
-@property double buttonRevealAmount; // @dynamic buttonRevealAmount;
-@property(readonly) id contentLayoutGuide;
-@property double customTitlebarHeight; // @synthesize customTitlebarHeight=_customTitlebarHeight;
 @property double customTitlebarHeightPriorToFSMode; // @synthesize customTitlebarHeightPriorToFSMode=_customTitlebarHeightPriorToFSMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property struct CGPath *innerResizePath;
-@property struct CGPath *outerResizePath;
-@property _Bool prefersFullWidthTitlebarWhenAccessoriesVisible;
-@property(retain) NSView *sharingIndicator; // @synthesize sharingIndicator=_sharingIndicator;
-@property(retain) NSObject<NSSidebarTrackingAdapter> *sidebarTrackingAdapter;
-@property struct CGSize stoplightOffset;
-@property(readonly) Class superclass;
-@property(retain) NSView *temporaryContentView; // @dynamic temporaryContentView;
-@property(readonly) double titleHeightToHideInFullScreen; // @dynamic titleHeightToHideInFullScreen;
-@property double titlebarAlphaValue;
-@property(readonly) long long titlebarBlendingMode;
-@property(readonly) NSTitlebarContainerView *titlebarContainerView;
-@property(getter=isTitlebarHidden) _Bool titlebarHidden;
-@property(readonly) NSTitlebarView *titlebarView;
-@property(retain) NSObject<NSSidebarTrackingAdapter> *trailingSidebarTrackingAdapter;
 
 @end
 

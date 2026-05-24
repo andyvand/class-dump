@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSError, NSURL, QLZipArchive;
-
 @interface QLZipArchiveEntry
 {
     struct archive_entry *_entry;
-    QLZipArchive *_archive;
-    NSData *_data;
-    NSError *_error;
 }
 
 - (void);
 - (struct archive_entry *);
 - (void);
-- (void);
+- (void)	;
+- (id)v�(;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property __weak QLZipArchive *archive; // @synthesize archive=_archive;
-@property(retain) NSData *data; // @synthesize data=_data;
 @property struct archive_entry *entry; // @synthesize entry=_entry;
-@property(readonly, nonatomic) NSURL *url;
 
 @end
 

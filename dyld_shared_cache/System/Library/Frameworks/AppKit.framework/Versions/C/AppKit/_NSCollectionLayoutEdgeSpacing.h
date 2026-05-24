@@ -9,30 +9,24 @@
 @interface _NSCollectionLayoutEdgeSpacing
 {
     _NSCollectionLayoutSpacing *_leading;
-    _NSCollectionLayoutSpacing *_top;
-    _NSCollectionLayoutSpacing *_trailing;
-    _NSCollectionLayoutSpacing *_bottom;
 }
 
 + (id);
 + (id);
 + (id);
 + (id)[ %@ ] ;
-- (id);
+- (id)ession %@ with identifier %@;
 - (id);
 - (id);
 - (id);
 - (id)ð1Â0@ù
 × ;
-- (id)nformativeText:(id)arg1;
-- (id)itingTouchBarItemViewController;
+- (id)setInformativeText:(id)arg1;
+- (id)dismissTrackpadHandwritingTouchBarItemViewController;
 - (void)y/PrivateFrameworks/InputAnalytics.framework/Contents/MacOS/InputAnalytics;
 
 // Remaining properties
-@property(readonly, nonatomic) _NSCollectionLayoutSpacing *bottom;
 @property(readonly, nonatomic) _NSCollectionLayoutSpacing *leading;
-@property(readonly, nonatomic) _NSCollectionLayoutSpacing *top;
-@property(readonly, nonatomic) _NSCollectionLayoutSpacing *trailing;
 
 @end
 

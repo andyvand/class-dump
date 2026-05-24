@@ -9,22 +9,20 @@
 @interface OBTemplatePartLinkButton
 {
     _Bool _displayInfoIcon;
-    NSColor *_titleColor;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool displayInfoIcon; // @synthesize displayInfoIcon=_displayInfoIcon;
 @property(retain, nonatomic) NSColor *titleColor; // @synthesize titleColor=_titleColor;
 
 @end

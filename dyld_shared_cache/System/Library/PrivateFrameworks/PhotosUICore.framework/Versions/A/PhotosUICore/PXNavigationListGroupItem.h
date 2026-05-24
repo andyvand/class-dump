@@ -6,17 +6,9 @@
 
 #import <PhotosUICore/PXNavigationListItem.h>
 
-@class NSString, PHCollection;
-
 @interface PXNavigationListGroupItem : PXNavigationListItem
 {
     _Bool _group;
-    _Bool _draggable;
-    _Bool _expandable;
-    _Bool _displayInline;
-    _Bool _defaultsToExpanded;
-    PHCollection *_collection;
-    NSString *_collectionIdentifier;
 }
 
 + (id);
@@ -24,13 +16,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)z;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id)tringWithBulletAttributes:(struct _NSZone *)arg1 isLeftToRight: /* Error: Ran out of types for this method. */;
+- (id)px_bulletPrefixAttributedStringWithBulletAttributes:(struct _NSZone *)arg1 isLeftToRight: /* Error: Ran out of types for this method. */;
 - (id)acyController [%{public}@]:Context reported that it cannot perform authentication. Skipping. /* Error: Ran out of types for this method. */;
 - (id)ipLayout error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)ÿÿÿÿ;

@@ -4,44 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSTitlebarAccessoryViewController, NSView, NSWindow, _NSTextFormattingViewController;
-@protocol NSInspectorBarClient, NSInspectorBarDelegate;
+@class NSArray;
 
 @interface NSInspectorBar
 {
     NSArray *_items;
-    NSArray *_defaultItems;
-    NSArray *_defaultItemIdentifiers;
-    NSMutableDictionary *_itemTable;
-    id _defaultController;
-    id <NSInspectorBarDelegate> _delegate;
-    id <NSInspectorBarClient> _client;
-    NSWindow *_documentWindow;
-    NSArray *_identifiers;
-    NSTitlebarAccessoryViewController *_viewController;
-    struct {
-        unsigned int _visible:1;
-        unsigned int _textViewOwned:1;
-        unsigned int _baselineSeparator:1;
-        unsigned int _reserved:29;
-    } _flags;
-    NSView *_inspectorBarView;
-    _NSTextFormattingViewController *_textFormattingViewController;
 }
 
 + (id);
 + (Class);
-+ (id);
++ (id)@;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)_progressReportingFinished;
+- (id)_processConnectionProperties;
+- (id)_downloadToken;
+- (id)_downloadTaskWithRequest:(id)arg1 downloadFilePath: /* Error: Ran out of types for this method. */;
+- (_Bool)ngth is not really necessary here.;
+- (void)dSession <%{public}@> attempted to create a NSURLSessionDownloadTask in a session that has been invalidated;
 - (_Bool);
 - (void);
 - (id);
@@ -53,12 +35,12 @@
 - (long long);
 - (id);
 - (id);
+- (void)6lD;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)!ÀCùÑß31Â0@ù
@@ -70,13 +52,7 @@
 - (void)¨»F;
 
 // Remaining properties
-@property(retain) id <NSInspectorBarClient> client; // @synthesize client=_client;
 @property(copy) NSArray *defaultItemIdentifiers;
-@property id <NSInspectorBarDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSArray *items; // @synthesize items=_items;
-@property _Bool showsBaselineSeparator; // @dynamic showsBaselineSeparator;
-@property(getter=isVisible) _Bool visible; // @dynamic visible;
-@property(readonly) NSWindow *window; // @synthesize window=_documentWindow;
 
 @end
 

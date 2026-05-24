@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBusinessMacToolbarView, CKConversation, IMHandle, UIView;
+@class CKConversation;
 
 __attribute__((visibility("hidden")))
 @interface CKBusinessMacToolbarViewController
 {
     _Bool _showingInStandAloneWindow;
-    UIView *_detailsPopoverPresentationSourceView;
-    CKConversation *_conversation;
-    IMHandle *_handle;
-    CKBusinessMacToolbarView *_toolbarView;
 }
 
 - (_Bool);
-- (void);
-- (id);
+- (void)So24ICThumbnailConfigurationC;
+- (id)</style>    </head>    <body id="editor">    </body></html>;
 - (id);
 - (void);
 - (void);
@@ -40,10 +36,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;
-@property(retain, nonatomic) UIView *detailsPopoverPresentationSourceView; // @synthesize detailsPopoverPresentationSourceView=_detailsPopoverPresentationSourceView;
-@property(retain, nonatomic) IMHandle *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) _Bool showingInStandAloneWindow; // @synthesize showingInStandAloneWindow=_showingInStandAloneWindow;
-@property(retain, nonatomic) CKBusinessMacToolbarView *toolbarView; // @synthesize toolbarView=_toolbarView;
 
 @end
 

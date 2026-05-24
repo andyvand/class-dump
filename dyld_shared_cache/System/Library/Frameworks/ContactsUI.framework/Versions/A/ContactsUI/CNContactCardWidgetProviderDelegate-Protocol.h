@@ -5,5 +5,8 @@
 //
 
 @protocol CNContactCardWidgetProviderDelegate
+
+@optional
+- (void);
 @end
 

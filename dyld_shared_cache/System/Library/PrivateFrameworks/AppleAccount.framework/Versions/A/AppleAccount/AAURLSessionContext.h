@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAAbsintheSigner, AARemoteServer, AKAppleIDSession, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AAAbsintheSigner, AKAppleIDSession;
 
 @interface AAURLSessionContext
 {
     AKAppleIDSession *_appleIDSession;
-    struct os_unfair_lock_s _signerLock;
-    NSObject<OS_dispatch_queue> *_signingQueue;
-    _Bool _requiresSigning;
-    AAAbsintheSigner *_absintheSigner;
-    AARemoteServer *_remoteServer;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
@@ -30,24 +24,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (void)econdaryTitle: /* Error: Ran out of types for this method. */;
-- (void)serInformationWithCompletion:(id)arg1;
-- (void)Headers;
+- (id)numberWithUnsignedInt:(struct _NSZone *)arg1;
+- (void)setSecondaryTitle: /* Error: Ran out of types for this method. */;
+- (void)_forceFetchUpdatedUserInformationWithCompletion:(id)arg1;
+- (void)_additionalHeaders;
 - (void)d %lu CFU types:(id)arg1 %{private}@;
 - (id)-user-acknowledge-cache;
 
 // Remaining properties
 @property(retain, nonatomic) AAAbsintheSigner *absintheSigner; // @synthesize absintheSigner=_absintheSigner;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AARemoteServer *remoteServer; // @synthesize remoteServer=_remoteServer;
-@property(readonly, nonatomic) _Bool requiresSigning; // @synthesize requiresSigning=_requiresSigning;
-@property(readonly) Class superclass;
 
 @end
 

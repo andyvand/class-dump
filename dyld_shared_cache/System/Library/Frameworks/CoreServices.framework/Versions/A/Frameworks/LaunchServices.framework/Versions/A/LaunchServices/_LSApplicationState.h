@@ -9,14 +9,10 @@
 @interface _LSApplicationState
 {
     NSString *_bundleIdentifier;
-    unsigned long long _stateFlags;
-    int _ratingRank;
-    unsigned long long _ratingRankEligibilityDomain;
-    unsigned long long _installType;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)Array"24^@32;
+- (id){;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -30,24 +26,14 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool)ameters_V1=qI^{FSRef}^v^{__CFDictionary}^{__CFArray}^{AEDesc}^{__CFArray}^{__CFURL}^{ProcessSerialNumber}},R,D,N;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAlwaysAvailable) _Bool alwaysAvailable;
-@property(readonly, nonatomic, getter=isBlocked) _Bool blocked;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic, getter=isDowngraded) _Bool downgraded;
 @property(readonly, nonatomic) unsigned long long installType;
-@property(readonly, nonatomic, getter=isInstalled) _Bool installed;
-@property(readonly, nonatomic, getter=isPlaceholder) _Bool placeholder;
-@property(readonly, nonatomic, getter=isRemovedSystemApp) _Bool removedSystemApp;
-@property(readonly, nonatomic, getter=isRestricted) _Bool restricted;
-@property(readonly, nonatomic) unsigned long long restrictionReason;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

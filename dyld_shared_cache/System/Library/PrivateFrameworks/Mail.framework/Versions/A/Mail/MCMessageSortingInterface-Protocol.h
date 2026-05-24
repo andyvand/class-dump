@@ -8,30 +8,20 @@
 @protocol MCMailbox;
 
 @protocol MCMessageSortingInterface
+- (double)Z;
+- (double);
+- (unsigned char)T;
+- (unsigned long long)#;
+- (NSString *)*;
+- (NSArray *)J,
+
+*;
+- (id <MCMailbox>)initWithScriptId:lineNumber: /* Error: Ran out of types for this method. */;
 - (NSString *)ýüÿ|@ð|Dø;
 - (ECSubject *)6H#PÊ;
 - (long long)8;
 
 // Remaining properties
 @property(readonly, nonatomic) int colorForSort;
-@property(readonly) unsigned long long conversationFlags;
-@property(readonly) double dateLastViewedAsTimeIntervalSince1970;
-@property(readonly) double dateReceivedAsTimeIntervalSince1970;
-@property(readonly) double dateSentAsTimeIntervalSince1970;
-@property(readonly) double displayDateAsTimeIntervalSince1970;
-@property(readonly, nonatomic) unsigned char flagColorSet;
-@property(readonly) double followUpDateAsTimeIntervalSince1970;
-@property(readonly, nonatomic) id <MCMailbox> mailbox;
-@property(readonly, nonatomic) long long messageFlags;
-@property(readonly, nonatomic) unsigned long long messageSize;
-@property(readonly, nonatomic) unsigned long long numberOfAttachments;
-@property(readonly, nonatomic) long long priority;
-@property(readonly) double readLaterDateAsTimeIntervalSince1970;
-@property(readonly) double sendLaterDateAsTimeIntervalSince1970;
-@property(readonly, copy) NSString *sender;
-@property(readonly, copy, nonatomic) NSString *senderDisplayName;
-@property(readonly, copy) NSArray *senders;
-@property(readonly, copy) ECSubject *subject;
-@property(readonly, copy) NSArray *to;
 @end
 

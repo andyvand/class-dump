@@ -29,17 +29,17 @@
 - (_Bool);
 - (_Bool);
 - (int);
-- (id);
+- (id);
+- (void))	;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)_	;
+- (id)_macOSSelectionButton;
 - (id)ngling changes for plan %@ for dataclasses %@;
 
 @end

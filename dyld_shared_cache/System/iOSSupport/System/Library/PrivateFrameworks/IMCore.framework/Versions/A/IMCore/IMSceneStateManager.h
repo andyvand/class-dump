@@ -21,7 +21,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *foregroundSceneUUIDs; // @synthesize foregroundSceneUUIDs=_foregroundSceneUUIDs;
-@property(readonly, nonatomic) _Bool inForeground;
 
 @end
 

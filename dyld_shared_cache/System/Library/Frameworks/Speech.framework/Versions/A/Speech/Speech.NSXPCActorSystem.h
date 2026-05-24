@@ -7,14 +7,6 @@
 @interface Speech.NSXPCActorSystem
 {
     id registry;
-    id delegate;
-    id localActors;
-    id xpcLocalListeners;
-    id listenerDelegates;
-    id xpcLocalExports;
-    id localActorsLock;
-    id xpcRemoteConnections;
-    id remoteActorsLock;
 }
 
 @end

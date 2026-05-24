@@ -11,32 +11,28 @@
 @interface CLEEDStreamingRequest : CLEEDRequest
 {
     NSString *_token;
-    NSString *_baseURL;
-    NSString *_relativePath;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)d-%d-%d
+;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)container_perform_with_client_context;
 - (void)intType, CLMapsRouteHint *, int);
 - (id)ean CLClientIsLocationServicesEnabled(CLClientRef);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *baseURL; // @synthesize baseURL=_baseURL;
-@property(retain, nonatomic) NSString *relativePath; // @synthesize relativePath=_relativePath;
-@property(retain, nonatomic) NSString *streamingURL;
-@property(readonly, retain, nonatomic) NSString *token; // @synthesize token=_token;
 
 @end
 

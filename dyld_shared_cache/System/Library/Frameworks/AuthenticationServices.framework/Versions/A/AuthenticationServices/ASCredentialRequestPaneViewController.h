@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASBarButtonItem, ASCredentialRequestPaneContext, NSLayoutConstraint, NSScrollView, NSStackView, NSString, NSTableView, NSVisualEffectView;
 @protocol ASCredentialRequestPaneViewControllerDelegate;
 
 @interface ASCredentialRequestPaneViewController
 {
     _Bool _isTableViewRequired;
-    NSVisualEffectView *_blurryTray;
-    NSLayoutConstraint *_headerWidthConstraint;
-    NSLayoutConstraint *_footerWidthConstraint;
-    NSScrollView *_scrollView;
-    id <ASCredentialRequestPaneViewControllerDelegate> _delegate;
-    NSStackView *_paneHeaderStackView;
-    NSStackView *_paneFooterStackView;
-    ASCredentialRequestPaneContext *_headerPaneContext;
-    ASCredentialRequestPaneContext *_footerPaneContext;
-    NSTableView *_tableView;
 }
 
 - (long long);
@@ -37,37 +26,23 @@
 - (id);
 - (id);
 - (id);
+- (id)y;
+- (void);
+- (void)totalSize;
+- (id)registerForNotificationName:(id)arg1;
+- (long long)startListening;
 - (id);
 - (void);
-- (void);
-- (id);
 - (long long);
-- (id);
-- (void);
-- (long long);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)hMode:(id)arg1 serviceName:serviceType:destinationSiteForCrossSiteAssertion:cableAuthenticatorRequirement:loginChoice:securityKeyLoginChoice:activity: /* Error: Ran out of types for this method. */;
+- (void)initWithMode:(id)arg1 serviceName:serviceType:destinationSiteForCrossSiteAssertion:cableAuthenticatorRequirement:loginChoice:securityKeyLoginChoice:activity: /* Error: Ran out of types for this method. */;
 - (id)õÿÿ¬ýÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) ASBarButtonItem *cancelBarButtonItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <ASCredentialRequestPaneViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) ASCredentialRequestPaneContext *footerPaneContext; // @synthesize footerPaneContext=_footerPaneContext;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) ASCredentialRequestPaneContext *headerPaneContext; // @synthesize headerPaneContext=_headerPaneContext;
-@property(readonly, nonatomic) long long numberOfTableRows;
-@property(readonly, nonatomic) NSStackView *paneFooterStackView; // @synthesize paneFooterStackView=_paneFooterStackView;
-@property(readonly, nonatomic) NSStackView *paneHeaderStackView; // @synthesize paneHeaderStackView=_paneHeaderStackView;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTableView *tableView; // @synthesize tableView=_tableView;
 
 @end
 

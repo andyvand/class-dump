@@ -12,14 +12,11 @@ __attribute__((visibility("hidden")))
 @interface AUV2BridgeBus : AUAudioUnitBus
 {
     AUAudioUnitV2Bridge *_owner;
-    struct OpaqueAudioComponentInstance *_audioUnit;
-    unsigned int _scope;
-    unsigned int _element;
 }
 
 - (_Bool);
 - (id);
-- (void);
+- (void)AuthorityRequestType;
 - (id);
 - (void)hr;
 

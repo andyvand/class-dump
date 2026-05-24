@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCDContainer, NSArray, NSNumber, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface CNOnDiskAccountDescription
 {
     NSURL *_baseURL;
-    NSString *_identifier;
-    _Bool _isPersistent;
-    long long _type;
-    _Bool _isChildAccount;
-    NSArray *_childAccounts;
-    NSNumber *_dsid;
 }
 
 - (_Bool);
@@ -26,33 +20,17 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (long long);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool)ence;
+- (_Bool)multivalueSequence;
 
 // Remaining properties
 @property(copy) NSURL *baseURL; // @synthesize baseURL=_baseURL;
-@property(readonly, copy) NSArray *childAccounts; // @synthesize childAccounts=_childAccounts;
-@property(readonly) ABCDContainer *containerRepresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSNumber *dsid; // @synthesize dsid=_dsid;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) _Bool isChildAccount; // @synthesize isChildAccount=_isChildAccount;
-@property(readonly) _Bool isEnabled;
-@property _Bool isPersistent; // @synthesize isPersistent=_isPersistent;
-@property(readonly) NSURL *persistentStoreURL;
-@property(readonly) Class superclass;
-@property long long type; // @synthesize type=_type;
 
 @end
 

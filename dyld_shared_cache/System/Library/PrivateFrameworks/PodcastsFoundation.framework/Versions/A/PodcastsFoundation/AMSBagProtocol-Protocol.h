@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, NSDate, NSString;
+@class AMSBagValue, AMSProcessInfo, NSString;
 
 @protocol AMSBagProtocol
+- (NSString *)localTimeZone;
+- (AMSBagValue *)g!;
 
 @optional
 - (AMSProcessInfo *);
 
 // Remaining properties
-@property(readonly) NSDate *expirationDate;
 @property(readonly, getter=isExpired) _Bool expired;
-@property(readonly, copy, nonatomic) AMSProcessInfo *processInfo;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"AMSProcessInfo",?,R,C,N
-
-@property(readonly, copy) NSString *profile;
-@property(readonly, copy) NSString *profileVersion;
 @end
 

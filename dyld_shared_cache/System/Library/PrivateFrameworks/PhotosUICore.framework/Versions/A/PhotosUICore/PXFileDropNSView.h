@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSDraggingDestination;
-
 @interface PXFileDropNSView
 {
     unsigned long long _draggingEnteredOperation;
-    _Bool _highlighted;
-    id <NSDraggingDestination> _draggingDestinationDelegate;
 }
 
 - (id);
@@ -19,7 +15,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)X;
 - (unsigned long long);
 - (void);
 - (void);
@@ -28,11 +24,10 @@
 - (void);
 - (id)LegacyDevicesFallbackMonitor";
 - (void)hlåÿ¨låÿàmåÿnåÿ@nåÿnåÿ¼oåÿäoåÿpåÿqåÿ;
-- (void)ociatedData;
+- (void)AssociatedData;
 - (_Bool): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <NSDraggingDestination> draggingDestinationDelegate; // @synthesize draggingDestinationDelegate=_draggingDestinationDelegate;
 @property(nonatomic, getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
 
 @end

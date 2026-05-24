@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id)was invalidated error=%{public}@;
 
 @end
 

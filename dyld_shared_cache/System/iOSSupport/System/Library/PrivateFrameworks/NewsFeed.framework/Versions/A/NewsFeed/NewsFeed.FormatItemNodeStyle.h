@@ -7,17 +7,6 @@
 @interface NewsFeed.FormatItemNodeStyle
 {
     id _identifier;
-    id class;
-    id previewParameters;
-    id cellSelection;
-    id cellAction;
-    id clipsToBounds;
-    id ignoresSmartInvertColors;
-    id swipeActionStyle;
-    id _selectors;
-    id focusParameters;
-    id shouldCancelContextMenu;
-    id shouldCancelDrag;
 }
 
 @end

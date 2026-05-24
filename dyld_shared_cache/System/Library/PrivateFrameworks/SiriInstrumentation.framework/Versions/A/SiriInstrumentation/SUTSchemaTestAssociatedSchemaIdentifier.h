@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SUTSchemaTestGeneratedRequestId, SUTSchemaTestGeneratedTurnID;
+@class SUTSchemaTestGeneratedTurnID;
 
 @interface SUTSchemaTestAssociatedSchemaIdentifier : SISchemaInstrumentationMessage
 {
     SUTSchemaTestGeneratedTurnID *_turnID;
-    SUTSchemaTestGeneratedRequestId *_requestId;
-    _Bool _hasTurnID;
-    _Bool _hasRequestId;
-    unsigned long long _whichIdentifier_Type;
 }
 
 - (unsigned long long);
@@ -24,29 +20,24 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)voidFunctionWithName:(_Bool)arg1 parameterCount:callbackIndices: /* Error: Ran out of types for this method. */;
+- (_Bool)retrievePrivacyBundleinfo:withCallback:__JS_EXPORT_AS__retrievePrivacyBundleinfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)legate;
+- (void)P;
 - (_Bool);
 - (id);
 - (id);
-- (id)rted;
-- (id)PodProperties;
-- (void)STATEINCONSISTENCYCONDITION_UNKNOWN;
-- (id)entEvent;
+- (id)deletePegasusInfoDomainMultistepAndMultiturnExecutionReported;
+- (id)_homePodProperties;
+- (void)GRADINGOPTINSTATEINCONSISTENCYCONDITION_UNKNOWN;
+- (id)NLGSchemaNLGClientEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasTurnID; // @synthesize hasTurnID=_hasTurnID;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SUTSchemaTestGeneratedRequestId *requestId; // @synthesize requestId=_requestId;
 @property(retain, nonatomic) SUTSchemaTestGeneratedTurnID *turnID; // @synthesize turnID=_turnID;
-@property(readonly, nonatomic) unsigned long long whichIdentifier_Type; // @synthesize whichIdentifier_Type=_whichIdentifier_Type;
 
 @end
 

@@ -10,7 +10,7 @@
 
 - (id);
 - (unsigned int);
-- (id);
+- (id)a;
 
 @end
 

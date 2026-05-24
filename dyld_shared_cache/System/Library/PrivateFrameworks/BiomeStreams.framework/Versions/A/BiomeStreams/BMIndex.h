@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMSQLSchema, NSArray, NSString;
+@class NSString;
 
 @interface BMIndex
 {
     NSString *_name;
-    NSString *_streamIdentifier;
-    NSString *_viewName;
-    NSArray *_fields;
-    BMSQLSchema *_schema;
 }
 
 + (id);
@@ -29,11 +25,7 @@
 - (id)K;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *fields; // @synthesize fields=_fields;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) BMSQLSchema *schema; // @synthesize schema=_schema;
-@property(readonly, nonatomic) NSString *streamIdentifier; // @synthesize streamIdentifier=_streamIdentifier;
-@property(readonly, nonatomic) NSString *viewName; // @synthesize viewName=_viewName;
 
 @end
 

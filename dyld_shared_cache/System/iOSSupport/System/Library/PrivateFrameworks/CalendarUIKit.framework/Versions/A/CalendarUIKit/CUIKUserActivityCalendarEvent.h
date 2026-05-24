@@ -6,32 +6,25 @@
 
 #import <CalendarUIKit/CUIKUserActivityWithSource.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CUIKUserActivityCalendarEvent : CUIKUserActivityWithSource
 {
     NSString *_title;
-    NSString *_externalID;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_location;
-    NSString *_relatedUniqueIdentifier;
-    unsigned long long _view;
 }
 
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)=;
+- (id)_messageActionType;
 - (unsigned long long);
 - (id);
 - (id);
-- (void)opTimeDemoModeComponents;
+- (void)stopTimeDemoModeComponents;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) unsigned long long view; // @synthesize view=_view;
 
 @end
 

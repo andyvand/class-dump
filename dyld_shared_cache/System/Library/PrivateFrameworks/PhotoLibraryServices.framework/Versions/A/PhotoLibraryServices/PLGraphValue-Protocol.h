@@ -5,7 +5,10 @@
 //
 
 @protocol PLGraphValue
-- (id)tactsMatchingEmailAddress:keysToFetch: /* Error: Ran out of types for this method. */;
-- (id)UnsharePendingAssetsFrom;
+- (id);
+- (id)f;
+- (id);
+- (unsigned int :(null))contactsMatchingEmailAddress:keysToFetch: /* Error: Ran out of types for this method. */;
+- (id)_scopeIdentifierToUnsharePendingAssetsFrom;
 @end
 

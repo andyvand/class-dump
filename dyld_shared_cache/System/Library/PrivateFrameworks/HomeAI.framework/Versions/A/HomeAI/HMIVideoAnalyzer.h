@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIAnalysisStateManager, HMIHomePersonManager, HMIVideoAnalyzerConfiguration, HMIVideoAnalyzerMutableReport, HMIVideoAnalyzerState, NSDictionary, NSSet, NSUUID;
 @protocol HMIVideoAnalyzerDelegate;
 
 @interface HMIVideoAnalyzer
 {
     id <HMIVideoAnalyzerDelegate> _delegate;
-    NSUUID *_identifier;
-    HMIHomePersonManager *_homePersonManager;
-    HMIAnalysisStateManager *_analysisStateManager;
-    NSSet *_externalPersonManagers;
-    unsigned long long _status;
-    NSDictionary *_options;
-    HMIVideoAnalyzerConfiguration *_configuration;
-    HMIVideoAnalyzerState *_state;
-    HMIVideoAnalyzerMutableReport *_report;
 }
 
 + (id);
@@ -27,7 +17,7 @@
 + (id);
 + (id)j;
 - (void);
-- (void);
+- (void)T	q;
 - (void);
 - (void);
 - (_Bool);
@@ -37,7 +27,7 @@
 - (id);
 - (long long);
 - (double);
-- (_Bool);
+- (_Bool)r`;
 - (void);
 - (void);
 - (void);
@@ -49,13 +39,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (double);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);

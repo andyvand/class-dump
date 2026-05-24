@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface RTTripClusterRoute
 {
     _Bool _followedByUTurn;
-    unsigned short _sequence;
-    unsigned long long _clRoadID;
-    NSUUID *_clusterID;
-    double _latitude;
-    double _longitude;
-    double _course;
 }
 
-+ (id);
++ (id)nd in keychain;
 + (id);
 + (_Bool);
 - (id);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)desert;
+- (unsigned long long)egate sdpQueryComplete:%@ <%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)_allowCrossAccountMessages;
+- (id)distributed actors session (getting remote interface);
 - (_Bool);
 - (void);
 - (id);
@@ -39,20 +31,7 @@
 - (double)egate not ready to evaluate export progress, skipping.;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clRoadID; // @synthesize clRoadID=_clRoadID;
-@property(readonly, nonatomic) NSUUID *clusterID; // @synthesize clusterID=_clusterID;
-@property(readonly, nonatomic) double course; // @synthesize course=_course;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool followedByUTurn; // @synthesize followedByUTurn=_followedByUTurn;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(readonly, nonatomic) unsigned short sequence; // @synthesize sequence=_sequence;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,12 +9,6 @@
 @interface WFAirPollutant
 {
     NSString *_localizedName;
-    NSString *_localizedDescription;
-    double _amount;
-    NSString *_unit;
-    NSString *_localizedCategoryDescription;
-    unsigned long long _categoryIndex;
-    unsigned long long _index;
 }
 
 + (_Bool);
@@ -23,7 +17,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (double);
+- (double)(6;
 - (void);
 - (id);
 - (id);
@@ -33,19 +27,13 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (void);
 - (void);
-- (id)Request:withDate: /* Error: Ran out of types for this method. */;
+- (id)signRequest:withDate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double amount; // @synthesize amount=_amount;
-@property(nonatomic) unsigned long long categoryIndex; // @synthesize categoryIndex=_categoryIndex;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(retain, nonatomic) NSString *localizedCategoryDescription; // @synthesize localizedCategoryDescription=_localizedCategoryDescription;
-@property(copy, nonatomic) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
 @property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(retain, nonatomic) NSString *unit; // @synthesize unit=_unit;
 
 @end
 

@@ -8,10 +8,6 @@
 {
     id isResendEnabled;
     id isMockEnabled;
-    id resendDateLimit;
-    id newestUsageSummaryLimit;
-    id kvsRequestKey;
-    id sharedEKSignPoster;
 }
 
 @end

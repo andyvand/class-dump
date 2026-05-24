@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 __attribute__((visibility("hidden")))
 @interface AXElementVision__generated__Output
 {
     MLMultiArray *_confidence;
-    MLMultiArray *_coordinates;
 }
 
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)Cf;
+- (id)zz;
 - (void);
-- (id);
+- (id)us:%@, stream interval:%ds, last updated:%@, last close:%@ next open:%@) /* Error: Ran out of types for this method. */;
 - (void);
-- (id)SoundID:(id)arg1 handle: /* Error: Ran out of types for this method. */;
+- (id)_initWithSoundID:(id)arg1 handle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MLMultiArray *confidence; // @synthesize confidence=_confidence;
-@property(retain, nonatomic) MLMultiArray *coordinates; // @synthesize coordinates=_coordinates;
-@property(readonly, nonatomic) NSSet *featureNames;
 
 @end
 

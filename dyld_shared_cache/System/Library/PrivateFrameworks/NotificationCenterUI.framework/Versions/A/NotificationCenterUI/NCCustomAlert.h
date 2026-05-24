@@ -4,35 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NCServiceViewService, NSString, NSUUID, NSViewController;
+@class NSUUID;
 @protocol NCCustomAlertDelegate;
 
 @interface NCCustomAlert
 {
     NSUUID *_uuid;
-    unsigned long long _sortOrder;
-    NCServiceViewService *_viewService;
-    CDUnknownBlockType _dismissalBlock;
-    _Bool _markedForRemoval;
-    _Bool _ignoresDND;
-    _Bool _allowsSwipeToDismiss;
-    _Bool _closable;
-    _Bool ignoresDowntime;
-    _Bool _ignoresTopMargin;
-    _Bool _ignoresMenuBar;
-    _Bool _hidesNotificationCenter;
-    _Bool _shouldMuteByLockscreenSetting;
-    _Bool _displaysOnLockscreen;
-    _Bool _handlesSwipeToDismissGesture;
-    unsigned int _preferredDisplay;
-    unsigned long long _order;
-    id <NCCustomAlertDelegate> _delegate;
-    NSViewController *_contentViewController;
-    NSString *_hostIdentifier;
-    NSString *_accessibilitySubRole;
-    NSString *_accessibilityRoleDescription;
-    NSString *_accessibilityIdentifier;
-    NSString *_accessibilityLabel;
 }
 
 + (void);
@@ -52,7 +29,7 @@
 - (void);
 - (unsigned int);
 - (void);
-- (id);
+- (id)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -69,7 +46,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -79,7 +56,7 @@
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
 - (id);
 - (void);
 - (void);
@@ -90,25 +67,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
-@property(copy) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(copy) NSString *accessibilityRoleDescription; // @synthesize accessibilityRoleDescription=_accessibilityRoleDescription;
-@property(copy) NSString *accessibilitySubRole; // @synthesize accessibilitySubRole=_accessibilitySubRole;
-@property _Bool allowsSwipeToDismiss; // @synthesize allowsSwipeToDismiss=_allowsSwipeToDismiss;
-@property _Bool closable; // @synthesize closable=_closable;
-@property(readonly) NSViewController *contentViewController; // @synthesize contentViewController=_contentViewController;
 @property __weak id <NCCustomAlertDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool displaysOnLockscreen; // @synthesize displaysOnLockscreen=_displaysOnLockscreen;
-@property _Bool handlesSwipeToDismissGesture; // @synthesize handlesSwipeToDismissGesture=_handlesSwipeToDismissGesture;
-@property _Bool hidesNotificationCenter; // @synthesize hidesNotificationCenter=_hidesNotificationCenter;
-@property(readonly) NSString *hostIdentifier; // @synthesize hostIdentifier=_hostIdentifier;
-@property _Bool ignoresDND; // @synthesize ignoresDND=_ignoresDND;
-@property _Bool ignoresDowntime; // @synthesize ignoresDowntime;
-@property _Bool ignoresMenuBar; // @synthesize ignoresMenuBar=_ignoresMenuBar;
-@property _Bool ignoresTopMargin; // @synthesize ignoresTopMargin=_ignoresTopMargin;
-@property unsigned long long order; // @synthesize order=_order;
-@property unsigned int preferredDisplay; // @synthesize preferredDisplay=_preferredDisplay;
-@property _Bool shouldMuteByLockscreenSetting; // @synthesize shouldMuteByLockscreenSetting=_shouldMuteByLockscreenSetting;
 
 @end
 

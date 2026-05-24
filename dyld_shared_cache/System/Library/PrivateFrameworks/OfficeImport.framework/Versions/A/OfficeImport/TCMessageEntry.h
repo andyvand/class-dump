@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TCMessageEntry
 {
     unsigned long long m_timeStamp;
-    int m_tag;
-    NSString *m_text;
-    NSArray *m_parameters;
-    NSMutableArray *m_affectedObjects;
-    int m_count;
-    NSString *additionalText;
 }
 
 + (void)é;
@@ -35,13 +29,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
 - (void)KPW;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *additionalText; // @synthesize additionalText;
-@property(nonatomic) unsigned long long timeStamp; // @synthesize timeStamp=m_timeStamp;
 
 @end
 

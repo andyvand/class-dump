@@ -4,52 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLShareParticipant, NSArray, NSData, NSDate, NSURL;
-
 @interface CPLShare
 {
     long long _publicPermission;
-    NSURL *_URL;
-    NSArray *_participants;
-    NSDate *_creationDate;
-    NSData *_transportShare;
 }
 
 + (_Bool);
 + (void)rror"8;
 - (_Bool);
+- (id)_filterSuggestionResultsWithQueryContext:filters:entityFilters:contactFilters:contactSuggestionResults:localSuggestionResults:serverSuggestionResults:options: /* Error: Ran out of types for this method. */;
+- (void)LMQUIntentAppointmentEvent;
+- (id);
+- (void)ms.count == 0 for domain %@;
+- (void)@?0;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)h>;
+- (unsigned long long)3;
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void)tyOfServiceForSyncSessions;
-- (_Bool)ôO©ý{©ýCóªô;
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)le.xbs/TemporaryDirectory.0pDcl1/Sources/SDAPI/libtextproc/libmrec/src/fileutil/huffutil.cpp;
 - (id);
 - (long long);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(readonly, nonatomic) CPLShareParticipant *currentUserParticipant;
-@property(readonly, nonatomic) CPLShareParticipant *owner;
-@property(readonly, nonatomic) _Bool ownerIsCurrentUser;
-@property(copy, nonatomic) NSArray *participants; // @synthesize participants=_participants;
 @property(nonatomic) long long publicPermission; // @synthesize publicPermission=_publicPermission;
-@property(copy, nonatomic) NSData *transportShare; // @synthesize transportShare=_transportShare;
 
 @end
 

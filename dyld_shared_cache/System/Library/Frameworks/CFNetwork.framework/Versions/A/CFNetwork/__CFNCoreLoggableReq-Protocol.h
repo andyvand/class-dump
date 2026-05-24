@@ -5,5 +5,8 @@
 //
 
 @protocol __CFNCoreLoggableReq
+
+@optional
+- (const char *);
 @end
 

@@ -7,9 +7,6 @@
 @interface SoundAnalysis.CombineSubscriptionFromXPCAdapter
 {
     id subscription;
-    id taskQueue;
-    id killOnInvalidatedConnectionTask;
-    id asyncState;
 }
 
 @end

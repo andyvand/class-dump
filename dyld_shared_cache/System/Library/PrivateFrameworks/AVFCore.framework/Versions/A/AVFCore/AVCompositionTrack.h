@@ -23,7 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *formatDescriptionReplacements;
 @property(readonly, copy, nonatomic) NSArray *segments;
 
 @end

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UXCollectionView, UXCollectionViewLayoutAttributes;
+@class NSString, UXCollectionViewLayoutAttributes;
 
 @interface UXCollectionReusableView
 {
     UXCollectionViewLayoutAttributes *_layoutAttributes;
-    NSString *_reuseIdentifier;
-    UXCollectionView *_collectionView;
-    struct {
-        unsigned int updateAnimationCount:5;
-        unsigned int wasDequeued:1;
-    } _reusableViewFlags;
-    _Bool _isFloatingPinned;
 }
 
 - (void);
@@ -57,7 +50,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isFloatingPinned; // @synthesize isFloatingPinned=_isFloatingPinned;
 @property(readonly, copy, nonatomic) NSString *reuseIdentifier; // @synthesize reuseIdentifier=_reuseIdentifier;
 
 @end

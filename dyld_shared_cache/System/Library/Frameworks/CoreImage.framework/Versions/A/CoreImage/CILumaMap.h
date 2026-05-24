@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface CILumaMap : CIFilter
 {
     CIImage *inputImage;
-    CIImage *_tableImage;
 }
 
 + (id);
@@ -22,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id)8PB_AQE[eeeefihiU`Yd;
-- (void)lpha;
+- (void)inputAlpha;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;

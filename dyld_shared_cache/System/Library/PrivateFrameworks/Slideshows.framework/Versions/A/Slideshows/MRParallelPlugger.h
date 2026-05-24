@@ -4,33 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCAnimationPath, MCPlugParallel, MRAnimationContext, MRAnimationPathScalar;
+@class MCAnimationPath, MCPlugParallel;
 
 @interface MRParallelPlugger
 {
     MCAnimationPath *mAnimationPathParam1;
-    MCAnimationPath *mAnimationPathParam2;
-    MCAnimationPath *mAnimationPathXY;
-    MRAnimationPathScalar *mAnimationPathX;
-    MRAnimationPathScalar *mAnimationPathY;
-    MRAnimationPathScalar *mAnimationPathZ;
-    MRAnimationPathScalar *mAnimationPathScale;
-    MRAnimationPathScalar *mAnimationPathRX;
-    MRAnimationPathScalar *mAnimationPathRY;
-    MRAnimationPathScalar *mAnimationPathRZ;
-    MRAnimationPathScalar *mAnimationPathOpacity;
-    MRAnimationContext *mAnimationContext;
-    _Bool mPlugWasSetSinceLastRendering;
-    unsigned char mCurrentLayoutIndex;
-    _Bool mNeedsUpdate;
-    MCPlugParallel *mPlug;
 }
 
+- (void)__AUTH_CONST;
 - (void);
 - (void);
-- (void);
-- (id);
-- (unsigned char);
+- (id)propertyWithName:enumMapping: /* Error: Ran out of types for this method. */;
+- (unsigned char)csPayloadAssemblerConfigProvider initWithAppConfigurationManager:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
@@ -38,8 +23,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned char currentLayoutIndex; // @synthesize currentLayoutIndex=mCurrentLayoutIndex;
-@property(nonatomic) _Bool needsUpdate; // @synthesize needsUpdate=mNeedsUpdate;
 @property(copy, nonatomic) MCPlugParallel *plug; // @synthesize plug=mPlug;
 
 @end

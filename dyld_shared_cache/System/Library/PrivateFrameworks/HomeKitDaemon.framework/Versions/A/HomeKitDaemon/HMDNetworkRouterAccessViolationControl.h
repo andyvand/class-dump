@@ -4,39 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterAccessViolationControlOperation, HMDNetworkRouterClientIdentifierList, NSString;
+@class HMDNetworkRouterAccessViolationControlOperation;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterAccessViolationControl
 {
     HMDNetworkRouterAccessViolationControlOperation *_operation;
-    HMDNetworkRouterClientIdentifierList *_clientIdentifierList;
 }
 
-+ (id);
-- (void);
-- (id);
++ (id)momentIDs;
+- (void)__objc_protorefs__DATA_CONST;
+- (id)id;
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)peration;
+- (id)isAccessoryOperation;
 - (void)"HMMediaGroup"8;
 - (id);
 - (void)Ø¾>;
 
 // Remaining properties
-@property(retain, nonatomic) HMDNetworkRouterClientIdentifierList *clientIdentifierList; // @synthesize clientIdentifierList=_clientIdentifierList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HMDNetworkRouterAccessViolationControlOperation *operation; // @synthesize operation=_operation;
-@property(readonly) Class superclass;
 
 @end
 

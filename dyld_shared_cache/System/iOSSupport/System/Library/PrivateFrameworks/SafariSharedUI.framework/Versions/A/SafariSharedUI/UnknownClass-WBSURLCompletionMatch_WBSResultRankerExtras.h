@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface UnknownClass (WBSURLCompletionMatch_WBSResultRankerExtras)
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *titlePrefix;

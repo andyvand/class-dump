@@ -7,12 +7,11 @@
 @class NSURL;
 
 @protocol MKPlaceActionDataProviding
+- (_Bool);
+- (NSURL *)dictionaryWithObjects:forKeys:count: /* Error: Ran out of types for this method. */;
+- (_Bool)h configuration %@ and result %@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canShowCallAction;
-@property(readonly, nonatomic) _Bool isInSupportedCustomRouteRegion;
-@property(readonly, nonatomic) NSURL *messagesForBusinessURL;
-@property(readonly, nonatomic) _Bool supportsAddingPhotos;
 @property(readonly, nonatomic) _Bool supportsMessagesForBusiness;
 @end
 

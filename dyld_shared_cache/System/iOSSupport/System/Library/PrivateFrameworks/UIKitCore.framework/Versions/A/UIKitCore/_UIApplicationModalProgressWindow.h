@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)tInputView:(struct CGRect)arg1 granularity: /* Error: Ran out of types for this method. */;
+- (id)_addMergedTextRectsToDocumentState:(struct CGRect)arg1 forWKContext:textInputView:granularity: /* Error: Ran out of types for this method. */;
 
 @end
 

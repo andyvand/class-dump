@@ -5,5 +5,6 @@
 //
 
 @protocol UNOneTimeCodeClientProtocol
+- (void)W;
 @end
 

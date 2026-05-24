@@ -15,8 +15,8 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)_transformer;
+- (_Bool)esDatabase migrations failed, cannot use database;
 - (id);
 
 // Remaining properties

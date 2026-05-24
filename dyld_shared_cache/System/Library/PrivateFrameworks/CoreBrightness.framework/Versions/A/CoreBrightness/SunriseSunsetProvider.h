@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, _CDClientContext, _CDContextualChangeRegistration, _CDContextualKeyPath, _CDContextualPredicate;
-@protocol OS_dispatch_semaphore, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface SunriseSunsetProvider
 {
     NSObject<OS_os_log> *_logHandle;
-    _CDClientContext *_duetContextStore;
-    _CDContextualKeyPath *_duetKeyPath;
-    _CDContextualChangeRegistration *_duetRegistration;
-    NSDictionary *_duetInfo;
-    NSObject<OS_dispatch_semaphore> *_duetDispatchSemaphore;
-    _Bool _sunriseSunsetNotificationEnabled;
-    CDUnknownBlockType _callbackBlock;
-    CDUnknownBlockType _duetCallback;
-    _CDContextualPredicate *_predicate;
 }
 
-- (void);
+- (void)er creation failed again with the default one, giving up and reusing the original one;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);

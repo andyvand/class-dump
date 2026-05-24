@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorMetadata, BlastDoorTrustKitSpamReport, NSString;
+@class NSString;
 
 @interface BlastDoorJunkChatCommand
 {
@@ -19,10 +19,7 @@
 - (void)©±(4Êÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) long long action;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorMetadata *metadata;
-@property(nonatomic, readonly) BlastDoorTrustKitSpamReport *trustKitSpamReport;
 
 @end
 

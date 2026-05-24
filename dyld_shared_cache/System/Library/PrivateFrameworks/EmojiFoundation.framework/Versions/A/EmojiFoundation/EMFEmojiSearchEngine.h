@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFIndexManager, EMFQueryLogger, EMFQueryResultOverrideList, EMFStringStemmer, NSLocale;
 @protocol EMFAutocompleteCandidateProvider;
 
 @interface EMFEmojiSearchEngine
 {
     struct __EmojiLocaleDataWrapper *_localeData;
-    EMFQueryLogger *_queryLogger;
-    _Bool _enableAutocomplete;
-    NSLocale *_locale;
-    EMFIndexManager *_indexManager;
-    EMFStringStemmer *_stringStemmer;
-    EMFQueryResultOverrideList *_overrideList;
-    id <EMFAutocompleteCandidateProvider> _autocompleteProvider;
 }
 
 + (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)owState"8;
+- (void)can be changed at any time.;
+- (id)SafariHistoryMenu;
+- (id)8;
+- (id)fari.;
+- (id)kmarkLeaf"8;
+- (id)ableCellView?isCompact=false;
+- (id)ShowFoldersOnTopMenuItem;
+- (_Bool)CompactViewModeMenuItem;
+- (id)prompt about an error when tracking a wallet order;
+- (id)ow Call;
+- (id)been blocked from automatically starting a call.;
+- (id)rompt dialog;
+- (id)in a JavaScript confirm dialog;
+- (void)@;
 - (id);
 - (id);
 - (void);
@@ -43,11 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <EMFAutocompleteCandidateProvider> autocompleteProvider; // @synthesize autocompleteProvider=_autocompleteProvider;
-@property(nonatomic) _Bool enableAutocomplete; // @synthesize enableAutocomplete=_enableAutocomplete;
-@property(readonly, nonatomic) EMFIndexManager *indexManager; // @synthesize indexManager=_indexManager;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly, nonatomic) EMFQueryResultOverrideList *overrideList; // @synthesize overrideList=_overrideList;
-@property(readonly, nonatomic) EMFStringStemmer *stringStemmer; // @synthesize stringStemmer=_stringStemmer;
 
 @end
 

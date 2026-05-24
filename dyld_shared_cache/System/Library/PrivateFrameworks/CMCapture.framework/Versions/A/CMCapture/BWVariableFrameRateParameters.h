@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface BWVariableFrameRateParameters
 {
     NSString *_portType;
-    int _motionThreshold;
-    NSMutableDictionary *_aeMaxGain;
 }
 
 - (int);
-- (void);
-- (id);
+- (void)PMDrawableMapper;
+- (id);
 - (id);
 - (id)treamsForFigCaptureStreams:] /* Error: Ran out of types for this method. */;
 - (id)/Library/BuildRoots/4~CNqRugBjl4R8YAR9bpxR1yAy0yzpMw1wVxJcPw8/Library/Caches/com.apple.xbs/TemporaryDirectory.AUzpBv/Sources/CameraCapture/CMCapture/Sources/Graph/Utilities/BWFigVideoCaptureSynchronizedStreamsGroup.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *aeMaxGain; // @synthesize aeMaxGain=_aeMaxGain;
-@property(readonly, nonatomic) int motionThreshold; // @synthesize motionThreshold=_motionThreshold;
 @property(readonly, nonatomic) NSString *portType; // @synthesize portType=_portType;
 
 @end

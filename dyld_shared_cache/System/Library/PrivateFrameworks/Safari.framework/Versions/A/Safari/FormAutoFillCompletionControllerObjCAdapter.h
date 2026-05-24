@@ -4,34 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AutoFillAuthorizationController, AutoFillLocalAuthenticationManager, AutoFillLocalAuthenticationOperation, BrowserViewController, LAContext, NSData, NSHashTable, NSImage, NSMapTable, NSMutableDictionary, NSMutableSet, NSString, PMSafariAutoFillEditingStrongPasswordInformationViewController, PMSafariAutoFillStrongPasswordIntroductionViewController, SFAppAutoFillOneTimeCodeProvider, _ASCredentialAuthenticationViewController;
-
 __attribute__((visibility("hidden")))
 @interface FormAutoFillCompletionControllerObjCAdapter
 {
     void *_completionController;
-    NSMutableSet *_completionAbortingNotificationNames;
-    NSHashTable *_observers;
-    SFAppAutoFillOneTimeCodeProvider *_cachedOneTimeCodeProvider;
-    AutoFillAuthorizationController *_autoFillAuthorizationController;
-    _Bool _hasUserInteractedWithTouchID;
-    _Bool _previousIsBiometricAuthenticationAvailable;
-    AutoFillLocalAuthenticationOperation *_currentLocalAuthenticationOperation;
-    AutoFillLocalAuthenticationManager *_autoFillLocalAuthenticationManager;
-    _ASCredentialAuthenticationViewController *_credentialAuthenticationViewController;
-    CDUnknownBlockType _externalCredentialCompletionHandler;
-    PMSafariAutoFillStrongPasswordIntroductionViewController *_strongPasswordIntroductionViewController;
-    PMSafariAutoFillStrongPasswordIntroductionViewController *_strongPasswordSavedViewController;
-    PMSafariAutoFillStrongPasswordIntroductionViewController *_enableICloudKeychainSyncingViewController;
-    PMSafariAutoFillEditingStrongPasswordInformationViewController *_editingStrongPasswordInformationViewController;
-    id _strongPasswordIntroductionViewImageRequestToken;
-    NSImage *_websiteIcon;
-    NSMapTable *_cellViewsToWebsiteIconTokens;
-    NSMutableDictionary *_cachedAppIcons;
-    _Bool __biometricAuthenticationStillInUse;
 }
 
-+ (id);
++ (id)E;
 - (double);
 - (double);
 - (void);
@@ -80,7 +59,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);
@@ -95,7 +74,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -104,32 +83,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void)Hl;
 
 // Remaining properties
 @property(nonatomic) _Bool _biometricAuthenticationStillInUse; // @synthesize _biometricAuthenticationStillInUse=__biometricAuthenticationStillInUse;
-@property(readonly, nonatomic) LAContext *_currentOperationLAContext;
-@property(readonly, nonatomic) BrowserViewController *browserViewController;
-@property(readonly, nonatomic) NSData *currentExternalizedContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PMSafariAutoFillEditingStrongPasswordInformationViewController *editingStrongPasswordInformationViewController;
-@property(readonly, nonatomic) PMSafariAutoFillStrongPasswordIntroductionViewController *enableICloudKeychainSyncingViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAskingForBiometricAuthentication;
-@property(readonly, nonatomic) _Bool shouldShowStrongPasswordIntroductionViewController;
-@property(readonly, nonatomic) PMSafariAutoFillStrongPasswordIntroductionViewController *strongPasswordIntroductionViewController;
-@property(readonly, nonatomic) PMSafariAutoFillStrongPasswordIntroductionViewController *strongPasswordSavedViewController;
-@property(readonly) Class superclass;
 
 @end
 

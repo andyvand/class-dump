@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSArray, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIConvolution : CIFilter
 {
     CIImage *inputImage;
-    NSArray *inputPoints;
-    NSArray *inputWeights;
-    NSNumber *inputLinearFilterModeEnabled;
 }
 
 - (int);

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SIRINLULegacyNLContext, SIRINLUNLContext;
+@class SIRINLUNLContext;
 
 @interface SIRINLUTurnContext
 {
     SIRINLUNLContext *_nlContext;
-    SIRINLULegacyNLContext *_legacyNLContext;
-    SIRINLUNLContext *_nlContextNullable;
-    SIRINLULegacyNLContext *_legacyNLContextNullable;
 }
 
 + (id);
@@ -26,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -35,10 +32,7 @@
 - (void)logy.UsoTaskBuilder_save_common_Recipe;
 
 // Remaining properties
-@property(retain, nonatomic) SIRINLULegacyNLContext *legacyNLContext; // @synthesize legacyNLContext=_legacyNLContext;
-@property(retain, nonatomic) SIRINLULegacyNLContext *legacyNLContextNullable; // @synthesize legacyNLContextNullable=_legacyNLContextNullable;
 @property(retain, nonatomic) SIRINLUNLContext *nlContext; // @synthesize nlContext=_nlContext;
-@property(retain, nonatomic) SIRINLUNLContext *nlContextNullable; // @synthesize nlContextNullable=_nlContextNullable;
 
 @end
 

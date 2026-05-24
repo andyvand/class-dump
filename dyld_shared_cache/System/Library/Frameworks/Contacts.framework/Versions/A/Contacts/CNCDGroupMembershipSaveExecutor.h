@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)rror: /* Error: Ran out of types for this method. */;
+- (void)validatePredicateWithError: /* Error: Ran out of types for this method. */;
 - (id)write.;
 
 // Remaining properties

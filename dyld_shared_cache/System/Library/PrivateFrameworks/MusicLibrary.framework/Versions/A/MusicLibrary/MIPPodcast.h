@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MIPArtist, MIPSeries, NSString;
+@class MIPArtist;
 
 @interface MIPPodcast
 {
     MIPArtist *_artist;
-    NSString *_externalGuid;
-    NSString *_feedUrl;
-    MIPSeries *_series;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void),V_payloadVersion;
+- (void)C,N,V_mediaType;
+- (_Bool)NSString",R,C,V_albumCloudGUID;
+- (_Bool)initWithKey:ascending:selector: /* Error: Ran out of types for this method. */;
+- (_Bool)setWithObjects: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -26,26 +23,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)initWithValueByCharacteristicUniqueIdentifier:(id)arg1 reachabilityByAccessoryUniqueIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)restoreDefaultChoiceItemStates;
 - (id);
 - (void)S SortMapSortKeys ON sort_map (sort_key ASC);;
 - (_Bool)status INTEGER NOT NULL DEFAULT 0, in_my_library INTEGER NOT NULL DEFAULT 0, is_compilation INTEGER NOT NULL DEFAULT 0, date_added INTEGER NOT NULL DEFAULT 0, show_composer INTEGER NOT NULL DEFAULT 0);
 
 // Remaining properties
-@property(retain, nonatomic) MIPArtist *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) NSString *externalGuid; // @synthesize externalGuid=_externalGuid;
-@property(retain, nonatomic) NSString *feedUrl; // @synthesize feedUrl=_feedUrl;
 @property(readonly, nonatomic) _Bool hasArtist;
-@property(readonly, nonatomic) _Bool hasExternalGuid;
-@property(readonly, nonatomic) _Bool hasFeedUrl;
-@property(readonly, nonatomic) _Bool hasSeries;
-@property(retain, nonatomic) MIPSeries *series; // @synthesize series=_series;
 
 @end
 

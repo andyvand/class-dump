@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUFileItem
 {
     unsigned int _flags;
-    int _type;
-    NSString *_name;
-    long long _size;
 }
 
 - (id);
 - (long long);
-- (int);
-- (unsigned int);
-- (void);
+- (int);
+- (unsigned int)C
+;
+- (void)P;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long size; // @synthesize size=_size;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

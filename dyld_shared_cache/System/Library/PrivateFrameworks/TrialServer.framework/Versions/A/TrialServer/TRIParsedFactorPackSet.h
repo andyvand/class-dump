@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 @protocol TRIFactorPackSetId;
 
 @interface TRIParsedFactorPackSet
 {
     NSString<TRIFactorPackSetId> *_ident;
-    NSArray *_packs;
 }
 
-+ (id);
++ (id)initWithDescriptorType:(id)arg1 media:(id)arg2 photoLibraryPath: /* Error: Ran out of types for this method. */;
+- (id)propertyListRepresentationData;
+- (id)operationErrorWithCode:(id)arg1 underlyingError:(id)arg2 withDescription: /* Error: Ran out of types for this method. */;
+- (id)layerStackByUpdatingClockLayerOrder:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString<TRIFactorPackSetId> *ident; // @synthesize ident=_ident;
-@property(readonly, nonatomic) NSArray *packs; // @synthesize packs=_packs;
 
 @end
 

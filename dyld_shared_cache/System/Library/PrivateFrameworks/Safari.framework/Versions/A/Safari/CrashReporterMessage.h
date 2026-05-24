@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CrashReporterMessage
 {
     NSString *_title;
-    NSString *_body;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (void);
@@ -26,7 +23,6 @@ __attribute__((visibility("hidden")))
 - (void)È;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *body; // @synthesize body=_body;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

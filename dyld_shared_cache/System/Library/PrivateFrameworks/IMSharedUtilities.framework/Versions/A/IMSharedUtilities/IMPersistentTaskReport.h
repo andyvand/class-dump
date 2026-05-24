@@ -7,9 +7,6 @@
 @interface IMPersistentTaskReport
 {
     unsigned long long _flag;
-    unsigned long long _lane;
-    long long _reason;
-    long long _count;
 }
 
 + (_Bool);
@@ -28,15 +25,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)n;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long count; // @synthesize count=_count;
 @property(readonly, nonatomic) unsigned long long flag; // @synthesize flag=_flag;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) unsigned long long lane; // @synthesize lane=_lane;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
 
 @end
 

@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKASMCertificateVendor, CRKASMRosterProviderConfiguration;
+@class CRKASMRosterProviderConfiguration;
 
 @interface CRKASMUserFactory
 {
     CRKASMRosterProviderConfiguration *_configuration;
-    CRKASMCertificateVendor *_certificateVendor;
 }
 
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -27,7 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CRKASMCertificateVendor *certificateVendor; // @synthesize certificateVendor=_certificateVendor;
 @property(readonly, nonatomic) CRKASMRosterProviderConfiguration *configuration; // @synthesize configuration=_configuration;
 
 @end

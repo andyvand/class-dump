@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface DMFBookmark
 {
     NSString *_name;
-    NSURL *_URL;
-    NSArray *_children;
-    NSString *_identifier;
 }
 
 + (id);
@@ -26,25 +23,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)%x;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy, nonatomic) NSArray *children; // @synthesize children=_children;
-@property(readonly, nonatomic, getter=isFavoritesFolder) _Bool favoritesFolder;
-@property(readonly, nonatomic, getter=isFolder) _Bool folder;
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic, getter=isReadingListFolder) _Bool readingListFolder;
 
 @end
 

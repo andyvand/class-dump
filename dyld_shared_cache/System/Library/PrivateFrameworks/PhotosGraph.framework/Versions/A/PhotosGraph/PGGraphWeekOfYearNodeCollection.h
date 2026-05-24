@@ -10,9 +10,9 @@
 {
 }
 
++ (id)formatAttributedString:(long long)arg1 font:(id)arg2 fontColor:backgroundColor:fontSize:shouldUseOriginalAlpha: /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (unsigned long long);
++ (unsigned long long)D_PROTO_ARG;
 
 @end
 

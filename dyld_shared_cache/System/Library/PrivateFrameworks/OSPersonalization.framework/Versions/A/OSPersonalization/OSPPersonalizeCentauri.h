@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ssAllowed from %@ to %@;
 - (void);
 
 // Remaining properties

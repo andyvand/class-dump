@@ -5,5 +5,8 @@
 //
 
 @protocol CNAvatarCardControllerDelegate
+
+@optional
+- (void));
 @end
 

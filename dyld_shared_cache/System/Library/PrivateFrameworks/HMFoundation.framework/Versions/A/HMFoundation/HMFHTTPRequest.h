@@ -6,36 +6,29 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFHTTPRequestInternal, NSData, NSDictionary, NSString, NSURL, NSURLRequest;
+@class HMFHTTPRequestInternal;
 
 @interface HMFHTTPRequest : HMFObject
 {
     HMFHTTPRequestInternal *_internal;
-    double _timeoutInterval;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (void);
-- (double)NotificationRegistrationEvent:clientIdentifier: /* Error: Ran out of types for this method. */;
-- (id)e: /* Error: Ran out of types for this method. */;
+- (double)reportCharacteristicNotificationRegistrationEvent:clientIdentifier: /* Error: Ran out of types for this method. */;
+- (id)handleRequest:bodyReadStream:eventType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL;
-@property(readonly, nonatomic) NSData *body;
-@property(readonly, nonatomic) NSDictionary *headerFields;
-@property(readonly, nonatomic) HMFHTTPRequestInternal *internal; // @synthesize internal=_internal;
-@property(readonly, copy, nonatomic) NSString *method;
 @property(nonatomic) double timeoutInterval; // @synthesize timeoutInterval=_timeoutInterval;
-@property(readonly, copy, nonatomic) NSURLRequest *urlRequest;
 
 @end
 

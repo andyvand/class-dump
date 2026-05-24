@@ -12,12 +12,12 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)`;
 - (_Bool);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect),;
 - (unsigned long long);
-- (id);
+- (id)__MUPlaceReviewPlatterViewAccessibility_super;
 
 @end
 

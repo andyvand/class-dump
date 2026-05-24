@@ -5,6 +5,7 @@
 //
 
 @protocol CNObserver
+- (void);
 - (void)s:(id)arg1 %{private}s;
 @end
 

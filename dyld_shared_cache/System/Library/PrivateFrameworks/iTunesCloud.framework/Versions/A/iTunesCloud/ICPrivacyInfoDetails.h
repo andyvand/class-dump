@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface ICPrivacyInfoDetails
 {
     _Bool _acknowledgementNeeded;
-    _Bool _previouslyAcknowledged;
-    _Bool _rejected;
-    NSNumber *_acceptedVersion;
 }
 
 - (void);
@@ -21,17 +16,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void)ifierSalt;
+- (_Bool)taged software update from accessory %@;
 - (id);
 - (_Bool);
 - (void)SDictionary",R,C,N,V_responseSinfDictionary;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *acceptedVersion; // @synthesize acceptedVersion=_acceptedVersion;
 @property(nonatomic) _Bool acknowledgementNeeded; // @synthesize acknowledgementNeeded=_acknowledgementNeeded;
-@property(nonatomic) _Bool previouslyAcknowledged; // @synthesize previouslyAcknowledged=_previouslyAcknowledged;
-@property(nonatomic) _Bool rejected; // @synthesize rejected=_rejected;
 
 @end
 

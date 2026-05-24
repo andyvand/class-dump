@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPrefCrossFadeWindow;
-
 @interface NSPrefCrossFadeWindowMoveHelper
 {
     struct __CFRunLoopTimer *_moveTimer;
-    struct __CFRunLoop *_runLoop;
-    double _startTime;
-    double _totalTime;
-    double _percent;
-    NSPrefCrossFadeWindow *_window;
-    struct CGRect _frameDelta;
-    struct CGRect _startFrame;
-    double _screenMaxY;
-    _Bool _done;
-    _Bool _displayFlag;
 }
 
 - (void);

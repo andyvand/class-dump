@@ -10,26 +10,22 @@ __attribute__((visibility("hidden")))
 @interface FPSpotlightIndexState
 {
     NSData *_lastPage;
-    NSData *_lastChangeToken;
 }
 
-+ (id);
++ (id)ym;
 + (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)ome;
+- (_Bool)abled.  Skipping dialog-event subscription.;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *dataRepresentation;
-@property(readonly, nonatomic) NSData *lastChangeToken; // @synthesize lastChangeToken=_lastChangeToken;
-@property(readonly, nonatomic) NSData *lastPage; // @synthesize lastPage=_lastPage;
 @property(readonly, nonatomic) unsigned long long phase;
 
 @end

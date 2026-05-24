@@ -8,16 +8,12 @@
 @protocol EKUIViewHierarchy;
 
 @protocol EKUIViewHierarchy
+- (long long);
+- (UIColor *)s;
+- (struct CGSize);
+- (id <EKUIViewHierarchy>)&s;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGAffineTransform ekui_affineTransform;
-@property(readonly, nonatomic) double ekui_height;
-@property(readonly, nonatomic) long long ekui_horizontalSizeClass;
-@property(readonly, nonatomic) long long ekui_interfaceOrientation;
-@property(readonly, nonatomic) id <EKUIViewHierarchy> ekui_rootViewHierarchy;
 @property(readonly, nonatomic) struct CGSize ekui_size;
-@property(readonly, nonatomic) UIColor *ekui_tintColor;
-@property(readonly, nonatomic) long long ekui_verticalSizeClass;
-@property(readonly, nonatomic) double ekui_width;
 @end
 

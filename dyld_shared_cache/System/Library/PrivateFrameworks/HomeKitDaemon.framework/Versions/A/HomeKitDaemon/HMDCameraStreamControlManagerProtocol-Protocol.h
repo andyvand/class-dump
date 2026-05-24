@@ -7,17 +7,14 @@
 @class HMDCameraStreamMetrics, NSDictionary, NSNumber;
 
 @protocol HMDCameraStreamControlManagerProtocol
+- (HMDCameraStreamMetrics *)c;
+- (void);
+- (void);
+- (NSNumber *);
+- (NSNumber *)H;
 - (NSDictionary *)DCameraRecordingMediaContainerConfiguration"16@?0@"NSData"8;
-- (NSNumber *);
 
 // Remaining properties
-@property(readonly, copy) NSNumber *aspectRatio;
-@property(readonly, copy) NSNumber *audioDownlinkToken;
 @property(readonly) unsigned long long audioStreamSetting;
-@property(readonly, copy) NSNumber *audioUplinkToken;
-@property(readonly, copy) NSNumber *slotIdentifier;
-@property(readonly, copy) NSDictionary *stateDump;
-@property(readonly) HMDCameraStreamMetrics *streamMetrics;
-@property(readonly, copy) NSNumber *streamToken;
 @end
 

@@ -6,31 +6,19 @@
 
 #import <CMCapture/EGSubgraphPort.h>
 
-@class EGOutput, NSArray, NSString;
-@protocol EGElement, EGPortInterface;
+@class EGOutput;
 
 @interface EGSubgraphOutput : EGSubgraphPort
 {
     EGOutput *_upstreamNodeOutput;
 }
 
-- (id);
+- (id)8v;
 - (void);
 - (void);
-- (void);
+- (void)diagram;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *destinations;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) __weak id <EGElement> parent;
-@property(readonly, nonatomic) id <EGPortInterface> portInterface;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) EGOutput *upstreamNodeOutput;
 
 @end

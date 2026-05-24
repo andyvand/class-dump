@@ -5,5 +5,9 @@
 //
 
 @protocol _WKFullscreenDelegate
+
+@optional
+- (void)C;
+- (void);
 @end
 

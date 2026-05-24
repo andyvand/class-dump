@@ -6,40 +6,26 @@
 
 #import <CloudPhotoLibrary/CPLEngineStorage.h>
 
-@class CPLPlatformObject, NSString;
-
 @interface CPLEngineOutgoingResources : CPLEngineStorage
 {
 }
 
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)@9H5;
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long)ÿ;
+- (unsigned long long);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)1 ;
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long countOfOriginalImages;
-@property(readonly, nonatomic) unsigned long long countOfOriginalOthers;
-@property(readonly, nonatomic) unsigned long long countOfOriginalVideos;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CPLPlatformObject *platformObject;
-@property(readonly, nonatomic) unsigned long long sizeOfOriginalResourcesToUpload;
-@property(readonly, nonatomic) unsigned long long sizeOfResourcesToUpload;
-@property(readonly) Class superclass;
 
 @end
 

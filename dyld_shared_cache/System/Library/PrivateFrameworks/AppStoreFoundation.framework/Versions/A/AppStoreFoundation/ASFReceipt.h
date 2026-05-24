@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface ASFReceipt
 {
     void path;
-    id _storage;
 }
 
 + (unsigned long long);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -31,59 +30,30 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)(;
 - (id);
+- (id)\;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)| Node Created   |     Node Hash       |                    Node                  | Hits;
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id)_buttonForAction: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (id)modelL2Version;
+- (id)kMDItemTopic_TermFrequencies_Max_Word;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)`;
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *bundleID;
-@property(nonatomic, readonly) NSData *bundleIDData;
-@property(nonatomic, readonly) NSString *bundleVersion;
-@property(nonatomic, readonly) NSString *cancellationReason;
-@property(nonatomic, readonly) NSDate *creationDate;
-@property(nonatomic, readonly) NSString *developerID;
-@property(nonatomic, readonly) NSString *downloadID;
-@property(nonatomic, readonly) NSDate *expirationDate;
-@property(nonatomic, readonly) NSString *frAppVersion;
-@property(nonatomic, readonly) NSNumber *frToolVersion;
-@property(nonatomic, readonly) NSString *hwtype;
-@property(nonatomic, readonly) NSArray *iaps;
-@property(nonatomic, readonly) NSString *installerVersionID;
-@property(nonatomic, readonly) _Bool isDSIDless;
-@property(nonatomic, readonly) _Bool isExpired;
-@property(nonatomic, readonly) _Bool isRevoked;
-@property(nonatomic, readonly) _Bool isVPPLicensed;
-@property(nonatomic, readonly) NSNumber *itemID;
-@property(nonatomic, readonly) NSData *opaqueDSIDData;
-@property(nonatomic, readonly) NSString *opaqueDSIDString;
-@property(nonatomic, readonly) NSString *organizationDisplayName;
-@property(nonatomic, readonly) NSString *parentalControls;
-@property(nonatomic, readonly) NSString *path;
-@property(nonatomic, readonly) NSDate *purchaseDate;
-@property(nonatomic, readonly) NSData *receiptData;
-@property(nonatomic, readonly) NSString *receiptDataString;
-@property(nonatomic, readonly) NSString *receiptType;
-@property(nonatomic, readonly) NSDate *renewalDate;
-@property(nonatomic, readonly) NSData *sha1;
-@property(nonatomic, readonly) unsigned long long vppStateFlags;
 
 @end
 

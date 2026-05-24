@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface MSPBTimerContext
 {
     _Bool _isValid;
-    NSDate *_date;
 }
 
-+ (id);
++ (id)@;
 - (id);
 - (id);
 - (_Bool);
@@ -21,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
 
 @end

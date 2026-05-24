@@ -7,8 +7,6 @@
 @interface _UIFocusSearchInfo
 {
     _Bool _treatFocusableItemAsLeaf;
-    _Bool _forceFocusToLeaveContainer;
-    CDUnknownBlockType _evaluator;
 }
 
 + (id);
@@ -17,15 +15,13 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)compressedProtobuf2DataForGroupActionItem;
+- (void)controller:(CDUnknownBlockType)arg1 shouldRetryFailedRequestWithError: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (void)àÖ[;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType evaluator; // @synthesize evaluator=_evaluator;
-@property(nonatomic) _Bool forceFocusToLeaveContainer; // @synthesize forceFocusToLeaveContainer=_forceFocusToLeaveContainer;
-@property(nonatomic) _Bool treatFocusableItemAsLeaf; // @synthesize treatFocusableItemAsLeaf=_treatFocusableItemAsLeaf;
 
 @end
 

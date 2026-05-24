@@ -5,20 +5,20 @@
 //
 
 @interface UnknownClass (AMSUICommonImage)
++ (id)";
 + (id);
 + (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)blic}@ final result:(id)arg1 %{public}@ was cached:(id)arg2 %d, cachedOnly:%d /* Error: Ran out of types for this method. */;
+- (id)a;
+- (id)ervice;
+- (id)DDSAutoAssetPreferences;
+- (id)DDSAutoAssetProviderErrorDomain;
+- (id)watchOS;
+- (id)nfo.plist;
+- (id)PriorityAssetSpecifiers;
+- (id)0@"NSSet"8;
 - (double);
 - (id);
-- (id);
+- (id)_kernelCacheOverride;
 @end
 

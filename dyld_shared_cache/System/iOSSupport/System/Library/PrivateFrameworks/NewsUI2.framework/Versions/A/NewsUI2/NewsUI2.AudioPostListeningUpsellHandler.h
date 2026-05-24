@@ -7,10 +7,6 @@
 @interface NewsUI2.AudioPostListeningUpsellHandler
 {
     id playingItemState;
-    id navigator;
-    id configurationManager;
-    id upsellDisplayCountKey;
-    id upsellInstanceIDKey;
 }
 
 @end

@@ -6,33 +6,33 @@
 
 #import <Metal/MTLArrayType.h>
 
-@class MTLType;
-
 __attribute__((visibility("hidden")))
 @interface MTLArrayTypeInternal : MTLArrayType
 {
     unsigned long long _dataType;
-    unsigned int _arrayLength:32;
-    unsigned int _stride:32;
-    id _details;
-    unsigned long long _elementType;
-    unsigned long long _pixelFormat;
-    unsigned long long _aluType;
-    MTLType *_elementTypeInfo;
-    _Bool _isIndirectArgumentBuffer;
-    unsigned long long _argumentIndexStride;
 }
 
 - (unsigned long long);
-- (void);
+  t4 = 1.0 - t2;
+  t3 = vec2(t4.y, t2.x);
+  t5 = vec2(t2.y, t4.x);
+  t2 = mix(t2, t5, ci.x);
+  t3 = mix(t3, t4, ci.x);
+  t2 = mix(t2, t3, ci.y);
+  t1.x = dot(t2, btrans.xy);
+  t1.y = dot(t2, btrans.zw);
+  return t1 + center;
+}
+;
+- (void);
+- (id);
+- (unsigned long long)NStoPrefix;
+- (id)DeliveredPulseRepetitionInterval;
+- (void);
+- (unsigned long long)+;
 - (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
-- (void);
-- (id);
+- (void)y WindowRef %p;
+- (id)j;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -40,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)AudioConverterGetProperty;
 - (unsigned long long);
 - (id);
 - (id);
@@ -50,11 +50,7 @@ __attribute__((visibility("hidden")))
 - (id)µU;
 
 // Remaining properties
-@property(readonly) unsigned long long aluType; // @synthesize aluType=_aluType;
-@property(nonatomic) unsigned long long argumentIndexStride; // @synthesize argumentIndexStride=_argumentIndexStride;
-@property(nonatomic) unsigned long long indirectArgumentIndexStride;
 @property _Bool isIndirectArgumentBuffer; // @synthesize isIndirectArgumentBuffer=_isIndirectArgumentBuffer;
-@property(readonly) unsigned long long pixelFormat; // @synthesize pixelFormat=_pixelFormat;
 
 @end
 

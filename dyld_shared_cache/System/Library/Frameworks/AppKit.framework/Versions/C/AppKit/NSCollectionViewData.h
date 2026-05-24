@@ -4,40 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCollectionViewLayout, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableIndexSet, _NSCollectionViewCore;
+@class _NSCollectionViewCore;
 
 __attribute__((visibility("hidden")))
 @interface NSCollectionViewData
 {
     _NSCollectionViewCore *_collectionView;
-    NSCollectionViewLayout *_layout;
-    NSMapTable *_screenPageMap;
-    NSMutableIndexSet *_globalIndexesOfItemsAwaitingValidation;
-    id *_globalItems;
-    NSMutableDictionary *_supplementaryLayoutAttributes;
-    NSMutableDictionary *_decorationLayoutAttributes;
-    NSMutableDictionary *_invalidatedSupplementaryIndexPaths;
-    NSMutableDictionary *_invalidatedDecorationIndexPaths;
-    struct CGRect _validLayoutRect;
-    long long _numItems;
-    long long _numSections;
-    long long *_sectionItemCounts;
-    long long _lastSectionTestedForNumberOfItemsBeforeSection;
-    long long _lastResultForNumberOfItemsBeforeSection;
-    struct CGSize _contentSize;
-    NSMutableArray *_clonedCellAttributes;
-    NSMutableArray *_clonedSupplementaryAttributes;
-    NSMutableArray *_clonedDecorationAttributes;
-    struct {
-        unsigned int contentSizeIsValid:1;
-        unsigned int itemCountsAreValid:1;
-        unsigned int layoutIsPrepared:1;
-        unsigned int layoutLocked:1;
-    } _collectionViewDataFlags;
 }
 
 + (void);
-- (struct CGRect);
+- (struct CGRect)__ptr_"^{RequestBody}"__cntrl_"^{__shared_weak_count}};
 - (_Bool);
 - (long long *);
 - (id);
@@ -48,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -59,33 +35,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)A;
+- (id);
 - (void);
 - (id);
+- (id);
 - (id);
+- (id)@;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)aracterIndex: /* Error: Ran out of types for this method. */;
+- (id)_resizeTextViewForTextContainer:(long long)arg1;
 - (id);
 - (_Bool)× ;
 - (void)ateRespondsTo_shouldExpandItem"b1"delegateRespondsTo_shouldSelectItem"b1"delegateRespondsTo_shouldReselectItem"b1"delegateRespondsTo_didReselectItem"b1"delegateRespondsTo_shouldSelectTableColumn"b1"delegateRespondsTo_shouldShowOutlineCellForItem"b1"delegateRespondsTo_tintConfigurationForItem"b1"delegatePrivateRespondsTo_tintColorForItem"b1"delegateRespondsTo_willDisplayCell"b1"delegateRespondsTo_willDisplayOutlineCell"b1"dontRedisplayOnFrameChange"b1"enableExpandNotifications"b1"isSpringLoadingFlashing"b1"numberOfRowsDataExpandEntered"b1"reloadingData"b1"selectionAdjustmentDisabled"b1"sourceListIndentationMode"b2"stronglyReferencesItems"b1"subclassOverrides_collapseItem_collapseChildren"b1"subclassOverrides_expandItem_expandChildren"b1"subclassOverrides_frameOfOutlineCellAtRow"b1"subclassOverrides_rowForItem"b1"isBatchExpanding"b1};
-- (void)uldSwatchBeHidden;
-- (long long)tainer;
+- (void)_shouldSwatchBeHidden;
+- (long long)_memoizedSupplementaryHostContainer;
 - (_Bool)ator;
-- (void)ueOfCustomSpacingAfterView:(id)arg1;
+- (void)_valueOfCustomSpacingAfterView:(id)arg1;
 - (void),V_accessibilityChildren;
 - (void);
 - (struct CGRect)e.;
 - (id)tyle <= NSScrollerKnobStyleLight;
 - (void)er.;
-- (_Bool)ilityCloseH;
-- (_Bool)idLayout;
+- (_Bool)NSUtilityCloseH;
+- (_Bool)viewDidLayout;
 - (long long);
 - (struct CGRect)Panel:] /* Error: Ran out of types for this method. */;
-- (void)SSwitchDefaultAnimationDuration;
+- (void)NSSwitchDefaultAnimationDuration;
 - (void)NSRTFPropertyStackOverflowException;
 - (long long)Ùh«Cÿ;
 - (long long)@®-ÿ	\h<®-ÿ;
@@ -99,12 +75,7 @@ __attribute__((visibility("hidden")))
 àìI;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *clonedCellAttributes; // @synthesize clonedCellAttributes=_clonedCellAttributes;
-@property(readonly, nonatomic) NSArray *clonedDecorationAttributes; // @synthesize clonedDecorationAttributes=_clonedDecorationAttributes;
-@property(readonly, nonatomic) NSArray *clonedSupplementaryAttributes; // @synthesize clonedSupplementaryAttributes=_clonedSupplementaryAttributes;
-@property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
 @property(readonly, nonatomic) _Bool layoutIsPrepared;
-@property(nonatomic, getter=isLayoutLocked) _Bool layoutLocked;
 
 @end
 

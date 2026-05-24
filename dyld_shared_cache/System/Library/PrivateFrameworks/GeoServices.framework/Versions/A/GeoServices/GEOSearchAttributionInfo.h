@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOSearchAttributionSource, NSArray, NSString;
+@class GEOSearchAttributionSource;
 
 __attribute__((visibility("hidden")))
 @interface GEOSearchAttributionInfo
 {
     GEOSearchAttributionSource *_source;
-    NSArray *_logoPaths;
-    NSArray *_snippetLogoPaths;
-    NSString *_displayName;
-    NSString *_captionDisplayName;
-    unsigned int _attributionRequirementsMask;
 }
 
 + (_Bool)is unchanged, but file is gone!. Will re-download.;
@@ -22,36 +17,27 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)__objc_dictobj;
 - (id);
-- (_Bool);
+- (_Bool)tabase (%@):(int)arg1 Directory detected;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)Z;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id)has_operatingHoursRange"b1"has_ttlSeconds"b1"read_unknownFields"b1"read_departurePredicateCountdown"b1"read_departurePredicateStamp"b1"read_departureSequenceContainers"b1"read_departureSequences"b1"wrote_anyField"b1};
-- (id)ecatedOffsetMeters;
-- (id);
-- (id)SECTION_RULE;
+- (id)hasDeprecatedOffsetMeters;
+- (id)StringAsOrientation: /* Error: Ran out of types for this method. */;
+- (id)INTERSECTION_RULE;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appAdamID;
-@property(readonly, nonatomic) NSArray *attributionApps;
-@property(readonly, nonatomic) NSString *captionDisplayName; // @synthesize captionDisplayName=_captionDisplayName;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) unsigned int requirementsMask; // @synthesize requirementsMask=_attributionRequirementsMask;
-@property(readonly, nonatomic) _Bool shouldOpenInAppStore;
 @property(readonly, nonatomic) GEOSearchAttributionSource *source; // @synthesize source=_source;
-@property(readonly, nonatomic) unsigned int version;
-@property(readonly, nonatomic) NSString *webBaseActionURL;
 
 @end
 

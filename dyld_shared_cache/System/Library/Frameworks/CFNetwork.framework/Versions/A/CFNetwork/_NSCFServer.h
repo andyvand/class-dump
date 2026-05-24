@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSObject, NSString;
-@protocol OS_tcp_listener;
-
 @interface _NSCFServer
 {
     _Bool _enableCoprocessorInterface;
-    long long _type;
-    long long _listenerPort;
-    NSString *_interface;
-    NSDictionary *_configuration;
-    NSNumber *_listenerID;
-    NSObject<OS_tcp_listener> *_listener;
 }
 
 + (_Bool);
-+ (id);
++ (id)2;
 + (_Bool);
 - (void);
 - (void);
@@ -27,24 +18,20 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)circledot;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)y.mm;
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(getter=isCoprocessorInterfaceEnabled) _Bool enableCoprocessorInterface; // @synthesize enableCoprocessorInterface=_enableCoprocessorInterface;
-@property(retain) NSString *interface; // @synthesize interface=_interface;
-@property long long listenerPort; // @synthesize listenerPort=_listenerPort;
 @property long long type; // @synthesize type=_type;
 
 @end

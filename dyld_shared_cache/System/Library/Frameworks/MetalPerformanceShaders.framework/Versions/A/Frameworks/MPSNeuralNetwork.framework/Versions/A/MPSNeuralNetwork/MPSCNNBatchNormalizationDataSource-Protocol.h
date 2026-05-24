@@ -5,6 +5,11 @@
 //
 
 @protocol MPSCNNBatchNormalizationDataSource
-- (_Bool)d_TGMCHNorm_fw2_true;
+- (_Bool)MPSCNNNormalization_tex2d_tex2d_TGMCHNorm_fw2_true;
+
+@optional
+- (_Bool);
+- (void);
+- (float);
 @end
 

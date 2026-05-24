@@ -6,55 +6,48 @@
 
 #import <ChatKit/CKPassbookMediaObject.h>
 
-@class LPWebLinkPresentationProperties, NSString, NSURL, PKPassSecurePreviewContext;
+@class LPWebLinkPresentationProperties;
 
 @interface CKPassPreviewMediaObject : CKPassbookMediaObject
 {
     LPWebLinkPresentationProperties *_presentationProperties;
-    PKPassSecurePreviewContext *_passPreview;
-    NSURL *_overrideFileURL;
-    NSURL *_overrideMetadataProperties;
 }
 
 + (_Bool);
-+ (void);
++ (void);
 + (void);
 + (void);
 + (id);
 + (id);
 + (_Bool);
 + (_Bool)e have IDS results for :%@  /* Error: Ran out of types for this method. */;
+- (_Bool)setForegroundAlpha:(id)arg1;
+- (_Bool)initForAttachment:preferredSize:scale:appearanceInfo: /* Error: Ran out of types for this method. */;
+- (void)addSearchResultsBySection:(id)arg1;
+- (void)addSearchResults:(id)arg1 toSection: /* Error: Ran out of types for this method. */;
+- (id)ICCheckmarkAuthorHighlightValueAttribute;
+- (id)ICDidMoveToWindowSpy;
+- (Class)ICTextContainer;
+- (id);
+- (id);
+- (id)e;
+- (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
-- (Class);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (Class);
+- (Class)error:(double)arg1 %@);
 - (id);
 - (void);
+- (id)D
+;
 - (id);
-- (id);
-- (void);
+- (void)AnyArgument;
 - (id);
 - (void)}};
 - (id)k#ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *overrideFileURL; // @synthesize overrideFileURL=_overrideFileURL;
-@property(retain, nonatomic) NSURL *overrideMetadataProperties; // @synthesize overrideMetadataProperties=_overrideMetadataProperties;
-@property(retain, nonatomic) PKPassSecurePreviewContext *passPreview; // @synthesize passPreview=_passPreview;
 @property(retain, nonatomic) LPWebLinkPresentationProperties *presentationProperties; // @synthesize presentationProperties=_presentationProperties;
-@property(readonly, copy, nonatomic) NSString *previewMetadataFilenameExtension;
-@property(readonly, nonatomic) _Bool supportsPreviewMetadata;
 
 @end
 

@@ -13,16 +13,11 @@
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *un_allowedSourceIdentifiers;
-@property(readonly, nonatomic, getter=un_isDefaultContentHidden) _Bool un_defaultContentHidden;
-@property(readonly, nonatomic, getter=un_isDefaultTitleOverridden) _Bool un_defaultTitleOverridden;
-@property(readonly, nonatomic) double un_effectiveContentSizeRatio;
-@property(readonly, copy, nonatomic) NSArray *un_supportedCategoryIdentifiers;
-@property(readonly, nonatomic, getter=un_isUserInteractionEnabled) _Bool un_userInteractionEnabled;
 @end
 

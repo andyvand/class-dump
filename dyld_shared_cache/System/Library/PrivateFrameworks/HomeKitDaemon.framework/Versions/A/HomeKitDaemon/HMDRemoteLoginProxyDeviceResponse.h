@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKDevice, NSDictionary, NSString;
+@class AKDevice;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginProxyDeviceResponse
@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     AKDevice *_proxyDevice;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)musicCurationFeaturesWithContext:(id)arg1 progressReporter:error: /* Error: Ran out of types for this method. */;
++ (id)enumerateSocialGroupIdentifiersUsingBlock:(id)arg1;
++ (id)h;
 + (_Bool)ð¹;
 - (id);
 - (void);
-- (id);
+- (id)/Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/ScreenSharingFramework/Source/SSConnectionAuthenticationViewController.m;
 - (id);
 - (id);
 - (id);
@@ -26,16 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)_ensureNetworkInterfaceMonitorStopped];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *messageName;
-@property(readonly, nonatomic) NSDictionary *messagePayload;
 @property(retain, nonatomic) AKDevice *proxyDevice; // @synthesize proxyDevice=_proxyDevice;
-@property(readonly) Class superclass;
 
 @end
 

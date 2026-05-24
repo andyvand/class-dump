@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @protocol GEOCollectionPublisherAttribution
+- (unsigned int);
+- (unsigned int)adoptAdoptUncontainedObjectsWithEntityName:containerRelationshipName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *applicationAdamId;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) unsigned int iconIdentifier;
-@property(readonly, nonatomic) unsigned int logoCenteredColorizedIdentifier;
-@property(readonly, nonatomic) unsigned int logoCenteredIdentifier;
-@property(readonly, nonatomic) unsigned int logoIdentifier;
-@property(readonly, nonatomic) unsigned int logoWithoutPaddingIdentifier;
-@property(readonly, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) NSString *themeColorDarkMode;
-@property(readonly, nonatomic) NSString *themeColorLightMode;
 @property(readonly, nonatomic) NSURL *websiteURL;
 @end
 

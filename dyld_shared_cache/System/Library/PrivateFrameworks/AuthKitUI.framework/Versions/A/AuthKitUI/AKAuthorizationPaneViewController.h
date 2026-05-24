@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAuthorizationPaneContext, NSLayoutConstraint, NSMutableArray, NSStackView, NSString;
-@protocol AKAuthorizationEditableDataSources, AKAuthorizationPaneDelegate;
+@class NSLayoutConstraint;
 
 @interface AKAuthorizationPaneViewController
 {
     _Bool _isWristDetectionEnabled;
-    id <AKAuthorizationPaneDelegate> _paneDelegate;
-    id <AKAuthorizationEditableDataSources> _editableDataSources;
-    NSStackView *_paneHeaderStackView;
-    NSStackView *_paneFooterStackView;
-    AKAuthorizationPaneContext *_headerPaneContext;
-    AKAuthorizationPaneContext *_footerPaneContext;
-    NSMutableArray *_mutableConstraints;
-    NSLayoutConstraint *_headerWidthConstraint;
-    NSLayoutConstraint *_footerWidthConstraint;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)--;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,23 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <AKAuthorizationEditableDataSources> editableDataSources; // @synthesize editableDataSources=_editableDataSources;
-@property(retain, nonatomic) AKAuthorizationPaneContext *footerPaneContext; // @synthesize footerPaneContext=_footerPaneContext;
-@property(readonly, nonatomic) NSLayoutConstraint *footerWidthConstraint; // @synthesize footerWidthConstraint=_footerWidthConstraint;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AKAuthorizationPaneContext *headerPaneContext; // @synthesize headerPaneContext=_headerPaneContext;
 @property(readonly, nonatomic) NSLayoutConstraint *headerWidthConstraint; // @synthesize headerWidthConstraint=_headerWidthConstraint;
-@property(readonly, nonatomic) _Bool isWristDetectionEnabled; // @synthesize isWristDetectionEnabled=_isWristDetectionEnabled;
-@property(retain, nonatomic) NSMutableArray *mutableConstraints; // @synthesize mutableConstraints=_mutableConstraints;
-@property(nonatomic) __weak id <AKAuthorizationPaneDelegate> paneDelegate; // @synthesize paneDelegate=_paneDelegate;
-@property(readonly, nonatomic) NSStackView *paneFooterStackView; // @synthesize paneFooterStackView=_paneFooterStackView;
-@property(readonly, nonatomic) NSStackView *paneHeaderStackView; // @synthesize paneHeaderStackView=_paneHeaderStackView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECSecureMIMETrustEvaluation, NSArray, NSString;
-@protocol ECEmailAddressConvertible;
-
 @interface EMCertificateTrustInformation
 {
     _Bool __forceNetworkAccessAllowed;
-    struct __SecTrust *_trust;
-    ECSecureMIMETrustEvaluation *_trustEvaluation;
-    NSString *_sender;
-    unsigned long long _certificateType;
 }
 
 + (_Bool);
 + (id);
 - (void);
+- (void)HomeIntelligenceProtoPETSecureSubmitterEventMetadataHome;
 - (void);
-- (void);
-- (id);
+- (id)NetworkInfoPayloadSerializer;
 - (void);
 - (_Bool);
-- (id);
+- (id)X
+=;
 - (id);
 - (id);
 - (void);
@@ -33,32 +27,17 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (struct __SecCertificate *);
-- (unsigned long long);
-- (_Bool);
+- (struct __SecCertificate *)8h;
+- (unsigned long long);
+- (_Bool)REMLocalDBWatcher;
 - (void);
-- (id);
+- (id)lic}@:Could not set cache size. Ignoring. Error:%{public}s /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)ation for message:%{public, name=objectIdHash}lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool _forceNetworkAccessAllowed; // @synthesize _forceNetworkAccessAllowed=__forceNetworkAccessAllowed;
-@property(readonly, nonatomic) struct __SecCertificate *certificate;
-@property(nonatomic) unsigned long long certificateType; // @synthesize certificateType=_certificateType;
-@property(readonly, copy, nonatomic) NSString *commonName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *emailAddresses;
-@property(readonly, copy, nonatomic) id <ECEmailAddressConvertible> firstEmailAddress;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
-@property(readonly) Class superclass;
 @property(nonatomic) struct __SecTrust *trust; // @synthesize trust=_trust;
-@property(retain, nonatomic) ECSecureMIMETrustEvaluation *trustEvaluation; // @synthesize trustEvaluation=_trustEvaluation;
 
 @end
 

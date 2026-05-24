@@ -5,5 +5,8 @@
 //
 
 @protocol QLPreviewPanelDelegate
+
+@optional
+- (struct CGRect));
 @end
 

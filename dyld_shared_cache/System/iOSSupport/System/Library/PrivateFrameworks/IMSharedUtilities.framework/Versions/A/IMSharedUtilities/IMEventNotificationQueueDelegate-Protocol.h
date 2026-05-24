@@ -5,5 +5,8 @@
 //
 
 @protocol IMEventNotificationQueueDelegate
+
+@optional
+- (void);
 @end
 

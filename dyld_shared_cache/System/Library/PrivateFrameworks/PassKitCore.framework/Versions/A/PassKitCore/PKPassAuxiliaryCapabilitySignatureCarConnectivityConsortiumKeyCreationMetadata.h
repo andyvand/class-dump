@@ -16,12 +16,12 @@
 + (_Bool)0@ù
 × ;
 - (id);
+- (id)_;
+- (void)NW_L2_BAND_LESS;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)ltPrimaryActionTitle;
-- (id)eges;
+- (id)altPrimaryActionTitle;
+- (id)domestic_driving_privileges;
 - (void)ormation array needs to be a dictionary. Found object of class %@.;
 
 // Remaining properties

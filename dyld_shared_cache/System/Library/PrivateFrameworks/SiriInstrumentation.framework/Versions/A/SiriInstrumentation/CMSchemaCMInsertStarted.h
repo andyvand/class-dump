@@ -6,24 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CMSchemaCMInsertStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)sted symbol name;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)SnippetNextCardRequest"b1"isMachineUtterance"b1"isDisambiguation"b1"isLiveScoreRequest"b1};
-- (id)atformRequestSchemaIFPlatformRequestInvoked;
+- (id)IFPlatformRequestSchemaIFPlatformRequestInvoked;
 - (id)í;
 - (_Bool)C$;
 - (_Bool)©¯/(;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

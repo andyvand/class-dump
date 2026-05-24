@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AnalyticsWorkspace, NSObject;
-@protocol ABCPersistentStoreControllerDelegate, OS_dispatch_queue;
+@class AnalyticsWorkspace;
 
 @interface ABCPersistentStoreController
 {
     AnalyticsWorkspace *_workspace;
-    _Bool workspaceReady;
-    AnalyticsWorkspace *tempWorkspace;
-    NSObject<OS_dispatch_queue> *storeQueue;
-    id <ABCPersistentStoreControllerDelegate> _delegate;
 }
 
 - (id);
@@ -32,9 +27,9 @@
 - (void);
 - (id);
 - (void);
+- (void)Boolean *);
 - (void);
-- (void);
-- (id);
+- (id)street;
 - (void);
 - (void);
 - (void);
@@ -44,7 +39,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <ABCPersistentStoreControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) AnalyticsWorkspace *workspace; // @dynamic workspace;
 
 @end

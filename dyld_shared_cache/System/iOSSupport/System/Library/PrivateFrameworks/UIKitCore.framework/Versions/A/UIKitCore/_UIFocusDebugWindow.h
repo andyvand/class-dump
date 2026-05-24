@@ -6,33 +6,30 @@
 
 #import <UIKitCore/UIWindow.h>
 
-@class NSArray, NSTimer, UIScrollView;
+@class NSTimer;
 
 __attribute__((visibility("hidden")))
 @interface _UIFocusDebugWindow : UIWindow
 {
     NSTimer *_timer;
-    NSArray *_cacheModules;
-    UIScrollView *_scrollView;
-    struct CGPoint _lastDragPoint;
 }
 
 + (_Bool);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (_Bool)0@ù
 × ;
-- (void);
+- (void)_senderHandle;
 - (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setHomographyMatrix:(id)arg1;
 - (id);
 - (id)1Â0@ù
 × ;
-- (void)gBarContentClippingView;
-- (void):(_Bool)arg1;
+- (void)_leadingBarContentClippingView;
+- (void)_getOverrideContentInsets:(_Bool)arg1 overriddenEdges: /* Error: Ran out of types for this method. */;
 - (void)lÚ4×[;
 - (_Bool)`;
 - (_Bool)a;

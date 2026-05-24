@@ -5,5 +5,6 @@
 //
 
 @protocol SMReceiverServiceObserverProtocol
+- (void);
 @end
 

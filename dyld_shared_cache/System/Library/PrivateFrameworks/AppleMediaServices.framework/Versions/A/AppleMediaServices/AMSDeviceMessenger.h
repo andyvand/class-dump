@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSDaemonConnection, NSMutableArray, NSObject, NSString;
-@protocol AMSDeviceMessengerServiceInterface, OS_dispatch_queue;
+@class AMSDaemonConnection;
+@protocol AMSDeviceMessengerServiceInterface;
 
 @interface AMSDeviceMessenger
 {
     id <AMSDeviceMessengerServiceInterface> _proxyObject;
-    AMSDaemonConnection *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_updateHandlers;
 }
 
 - (id);
@@ -29,21 +26,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)formattedArtworkCallbacks;
 - (id);
 - (void)Ù,ÙÙEiÙ;ÙKÙCÙÙêoÙcÙ¸{Ùn¼ÙÑõÙPÙ/ÙégÙ4ÙµÙ¬ÂÙÙÅ<ÙÙÙjÙÅÙ8OÙ6ÙQ"ÙîèÙ¡Ù^ãÙkÙw]Ù:¸ÙìÙÓÙôÙçÙõ Ù«ºÙ\ÓÙymÙÆDÙ`óÙ_ëÙÇÙñ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) AMSDaemonConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(retain) NSMutableArray *updateHandlers; // @synthesize updateHandlers=_updateHandlers;
 
 @end
 

@@ -7,20 +7,18 @@
 @interface TUNeighborhoodHandoffContext
 {
     long long _type;
-    long long _pullContext;
 }
 
 + (_Bool);
 - (long long);
+- (id)';
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)7;
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long pullContext; // @synthesize pullContext=_pullContext;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

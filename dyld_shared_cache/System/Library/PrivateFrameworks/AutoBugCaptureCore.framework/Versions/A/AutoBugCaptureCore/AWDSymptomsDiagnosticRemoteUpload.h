@@ -4,46 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AWDSymptomsDiagnosticRemoteUpload
 {
-    CDStruct_95bda58d _primaryNetworkObservedOnCompletions;
-    CDStruct_5df41632 _taskErrorCodes;
-    CDStruct_5df41632 _taskFileSizes;
-    CDStruct_95bda58d _taskHttpStatusCodes;
-    CDStruct_95bda58d _taskRetryCounts;
-    CDStruct_95bda58d _taskStatus;
-    unsigned long long _apnsMsgIdentifier;
-    unsigned long long _requestedTimestamp;
-    unsigned long long _scheduledTimestamp;
-    unsigned long long _timestamp;
-    NSString *_caseIdentifier;
-    int _consentStatus;
-    int _expectedFileCount;
-    int _preflightStatus;
-    unsigned int _radarIdentifier;
-    int _requestStatus;
-    NSMutableArray *_taskErrorDomains;
-    unsigned int _urgency;
     struct {
-        unsigned int apnsMsgIdentifier:1;
-        unsigned int requestedTimestamp:1;
-        unsigned int scheduledTimestamp:1;
-        unsigned int timestamp:1;
-        unsigned int consentStatus:1;
-        unsigned int expectedFileCount:1;
-        unsigned int preflightStatus:1;
-        unsigned int radarIdentifier:1;
-        unsigned int requestStatus:1;
-        unsigned int urgency:1;
-    } _has;
+        int *list;
+        unsigned long long count;
+        unsigned long long size;
+    } _primaryNetworkObservedOnCompletions;
 }
 
 + (Class);
-- (int);
-- (id);
+- (int);
+- (id);
 - (unsigned long long);
 - (int);
 - (unsigned long long);
@@ -65,16 +38,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)!;
+- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -99,7 +72,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (id);
@@ -109,7 +82,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned int);
@@ -117,9 +90,9 @@ __attribute__((visibility("hidden")))
 - (int *);
 - (void);
 - (int);
+- (int)L;
 - (int);
-- (int);
-- (int *);
+- (int *);
 - (void);
 - (id);
 - (_Bool);
@@ -127,7 +100,7 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (int);
-- (void);
+- (void)#;
 - (int);
 - (void);
 - (_Bool);
@@ -137,54 +110,20 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ion;
+- (_Bool)kIPCGuidanceStateReplyTrafficIncidentAlertKey;
+- (void)laybackSpeed:(_Bool)arg1 ];
 - (void);
-- (void);
-- (void);
+- (void)getHardwareTypeForCA:(_Bool)arg1;
 - (void);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)4@0:8:16 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long apnsMsgIdentifier; // @synthesize apnsMsgIdentifier=_apnsMsgIdentifier;
-@property(retain, nonatomic) NSString *caseIdentifier; // @synthesize caseIdentifier=_caseIdentifier;
-@property(nonatomic) int consentStatus; // @synthesize consentStatus=_consentStatus;
-@property(nonatomic) int expectedFileCount; // @synthesize expectedFileCount=_expectedFileCount;
-@property(nonatomic) _Bool hasApnsMsgIdentifier;
-@property(readonly, nonatomic) _Bool hasCaseIdentifier;
-@property(nonatomic) _Bool hasConsentStatus;
-@property(nonatomic) _Bool hasExpectedFileCount;
-@property(nonatomic) _Bool hasPreflightStatus;
-@property(nonatomic) _Bool hasRadarIdentifier;
-@property(nonatomic) _Bool hasRequestStatus;
-@property(nonatomic) _Bool hasRequestedTimestamp;
-@property(nonatomic) _Bool hasScheduledTimestamp;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasUrgency;
-@property(nonatomic) int preflightStatus; // @synthesize preflightStatus=_preflightStatus;
-@property(readonly, nonatomic) int *primaryNetworkObservedOnCompletions;
-@property(readonly, nonatomic) unsigned long long primaryNetworkObservedOnCompletionsCount;
-@property(nonatomic) unsigned int radarIdentifier; // @synthesize radarIdentifier=_radarIdentifier;
-@property(nonatomic) int requestStatus; // @synthesize requestStatus=_requestStatus;
-@property(nonatomic) unsigned long long requestedTimestamp; // @synthesize requestedTimestamp=_requestedTimestamp;
-@property(nonatomic) unsigned long long scheduledTimestamp; // @synthesize scheduledTimestamp=_scheduledTimestamp;
-@property(readonly, nonatomic) long long *taskErrorCodes;
-@property(readonly, nonatomic) unsigned long long taskErrorCodesCount;
-@property(retain, nonatomic) NSMutableArray *taskErrorDomains; // @synthesize taskErrorDomains=_taskErrorDomains;
-@property(readonly, nonatomic) long long *taskFileSizes;
-@property(readonly, nonatomic) unsigned long long taskFileSizesCount;
-@property(readonly, nonatomic) int *taskHttpStatusCodes;
-@property(readonly, nonatomic) unsigned long long taskHttpStatusCodesCount;
-@property(readonly, nonatomic) int *taskRetryCounts;
-@property(readonly, nonatomic) unsigned long long taskRetryCountsCount;
-@property(readonly, nonatomic) int *taskStatus;
-@property(readonly, nonatomic) unsigned long long taskStatusCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int urgency; // @synthesize urgency=_urgency;
 
 @end
 

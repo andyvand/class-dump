@@ -9,9 +9,6 @@
 @interface NSIncrementalStoreNode
 {
     NSManagedObjectID *_objectID;
-    unsigned long long _versionNumber;
-    id _propertyCache;
-    void *_reserved1;
 }
 
 + (void)expression:%@ /* Error: Ran out of types for this method. */;
@@ -19,18 +16,17 @@
 - (unsigned int);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (const id *);
-- (id);
+- (id)rotobufDecodingWithError:(id)arg1 -- translators must return an instance of the original class;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, nonatomic) unsigned long long version;
 
 @end
 

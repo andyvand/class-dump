@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MREmulatedGameControllerDelegate;
-
 @interface MREmulatedGameController
 {
     int _profile;
-    double _buttonAUpDelay;
-    id <MREmulatedGameControllerDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (double);
+- (id)monospacedDigitSystemFontOfSize:weight: /* Error: Ran out of types for this method. */;
+- (void)le:(id)arg1 %@ allSupportEncryption:%@ didCheckServer:%@ handleResults:%@ overriddenToSuccess:%@]> /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (int);
+- (int)i!;
 - (void)est;
 
 // Remaining properties
-@property(nonatomic) double buttonAUpDelay; // @synthesize buttonAUpDelay=_buttonAUpDelay;
-@property(nonatomic) __weak id <MREmulatedGameControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) int profile; // @synthesize profile=_profile;
 
 @end

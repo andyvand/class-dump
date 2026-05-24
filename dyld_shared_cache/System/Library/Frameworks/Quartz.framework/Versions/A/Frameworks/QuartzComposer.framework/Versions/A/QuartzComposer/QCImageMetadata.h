@@ -6,12 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCImagePort, QCStringPort;
+@class QCImagePort;
 
 @interface QCImageMetadata : QCPatch
 {
     QCImagePort *inputImage;
-    QCStringPort *outputMetadata;
 }
 
 + (_Bool);

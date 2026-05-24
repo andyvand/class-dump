@@ -5,5 +5,6 @@
 //
 
 @protocol _NSQuickActionTouchBarControllerDelegate
+- (void)rect type (should be %@, is %@);
 @end
 

@@ -9,45 +9,31 @@
 @interface _INPBAppIdentifier
 {
     struct _has;
-    NSString *_appName;
-    NSString *_bundleIdentifier;
-    NSString *_bundleVersion;
 }
 
 + (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)
+KJ9;
 - (void);
-- (id);
+- (id)am=If}]}}{SequenceChannelParam=QQf}{SequenceParam=Sf}fd{ItemList<ParamPoint, 16>=I[16{ParamPoint=ff}]})}16@184;
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (id);
+- (void)#;
+- (_Bool)valueWithPointer:(id)arg1;
+- (void)orewifi] Received link change event - linkDown (%d), debounce (%d);
 - (id);
-- (void);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void)ocationTypes;
+- (id);
+- (void)_payloadWorkoutLocationTypes;
 - (void)ier:contentOptions:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appName; // @synthesize appName=_appName;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasAppName;
-@property(readonly, nonatomic) _Bool hasBundleIdentifier;
-@property(readonly, nonatomic) _Bool hasBundleVersion;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

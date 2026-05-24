@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MFComposeAttachmentInfo
 {
     _Bool _isBasicImage;
-    _Bool _isDisplayableImage;
-    NSString *_className;
 }
 
 + (_Bool);
@@ -23,9 +19,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *className; // @synthesize className=_className;
 @property(readonly, nonatomic) _Bool isBasicImage; // @synthesize isBasicImage=_isBasicImage;
-@property(readonly, nonatomic) _Bool isDisplayableImage; // @synthesize isDisplayableImage=_isDisplayableImage;
 
 @end
 

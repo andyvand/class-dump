@@ -4,43 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UITableViewHeaderFooterView;
 @protocol UITable_RowDataSource;
 
 __attribute__((visibility("hidden")))
 @interface UITableViewRowData
 {
     id <UITable_RowDataSource> _tableView;
-    UITableViewHeaderFooterView *_headerFooterViewUsedForMeasurements;
-    double _tableViewWidth;
-    struct UIEdgeInsets _sectionContentInset;
-    long long _numSections;
-    _Bool _estimatesHeights;
-    long long _sectionRowDataCapacity;
-    id *_sectionRowData;
-    double _tableHeaderHeight;
-    double _tableFooterHeight;
-    double _heightForTableHeaderViewHiding;
-    long long _headerFooterPinningBehavior;
-    struct {
-        unsigned int tableHeaderHeightValid:1;
-        unsigned int tableFooterHeightValid:1;
-        unsigned int tableSidePaddingValid:1;
-        unsigned int usesVariableMargins:1;
-        unsigned int pinsTableHeaderView:1;
-    } _rowDataFlags;
-    double _minimumRowHeight;
-    double _rowSpacing;
-    double _tableTopPadding;
-    double _tableBottomPadding;
-    double _tableSidePadding;
-    NSIndexPath *_gapIndexPath;
-    NSIndexPath *_reorderedIndexPath;
-    NSIndexPath *_draggedIndexPath;
-    double _defaultSectionHeaderHeight;
-    double _defaultSectionFooterHeight;
-    double _gapRowHeight;
-    double _draggedRowHeight;
 }
 
 + (int);
@@ -49,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (double);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)setPayloadListenWithPeersAndParents:(long long)arg1;
+- (void)entication;
 - (_Bool);
 - (void);
 - (void);
@@ -59,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (double);
 - (long long);
-- (struct CGRect);
+- (struct CGRect)TLKLabel",&,N,V_centerLeadingTitleLabel;
 - (void);
 - (double);
 - (void);
@@ -68,11 +37,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (double);
+- (void)8@16@24@32@40@?48;
+- (void)shouldProhibitStoreAppsActionForCurrentNetworkConditions;
+- (void)maximumMovieRatingForAgeGate;
+- (_Bool)xPath=%{public}@;
+- (double)set;
 - (void);
 - (id);
 - (id);
@@ -86,7 +55,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)#;
 - (struct CGRect);
 - (double);
 - (_Bool);
@@ -111,32 +80,32 @@ __attribute__((visibility("hidden")))
 - (_Bool)tingStyle"b1"dataSourceSectionIndexTitlesForTableView"b1"dataSourceSectionIndexTitlesForTableViewTrimmedToCount"b1"dataSourceSectionForSectionIndexTitle"b1"dataSourceCanEditRow"b1"dataSourceCanMoveRow"b1"dataSourceCanUpdateRow"b1"dataSourceShouldShowMenu"b1"dataSourceCanPerformAction"b1"dataSourcePerformAction"b1"dataSourceIndexPathForSectionIndexTitle"b1"dataSourceWasNonNil"b1"delegateEditingStyleForRowAtIndexPath"b1"delegateTitleForDeleteConfirmationButtonForRowAtIndexPath"b1"delegateEditActionsForRowAtIndexPath"b1"delegateLeadingSwipeActionsConfigurationForRowAtIndexPath"b1"delegateTrailingSwipeActionsConfigurationForRowAtIndexPath"b1"delegateLeadingSwipeActionsForRowAtIndexPath"b1"delegateTrailingSwipeActionsForRowAtIndexPath"b1"delegateShouldIndentWhileEditing"b1"dataSourceMoveRow"b1"delegateCellForRow"b1"delegateWillDisplayCell"b1"delegateDidEndDisplayingCell"b1"delegateDidEndDisplayingSectionHeader"b1"delegateDidEndDisplayingSectionFooter"b1"delegateHeightForRow"b1"delegateHeightForSectionHeader"b1"delegateTitleWidthForSectionHeader"b1"delegateHeightForSectionFooter"b1"delegateTitleWidthForSectionFooter"b1"delegateEstimatedHeightForRow"b1"delegateEstimatedHeightForSectionHeader"b1"delegateEstimatedHeightForSectionFooter"b1"delegateViewForHeaderInSection"b1"delegateViewForFooterInSection"b1"delegateDisplayedItemCountForRowCount"b1"delegateDisplayStringForRowCount"b1"delegateAccessoryTypeForRow"b1"delegateAccessoryButtonTappedForRow"b1"delegateWillSelectRow"b1"delegateWillDeselectRow"b1"delegateDidSelectRow"b1"delegateDidDeselectRow"b1"delegateCanPerformPrimaryAction"b1"delegatePerformPrimaryAction"b1"delegateWillBeginEditing"b1"delegateDidEndEditing"b1"delegateTargetIndexPathForMove"b1"delegateIndentationLevelForRow"b1"delegateWantsHeaderForSection"b1"delegateMargin"b1"delegateHeaderTitleAlignment"b1"delegateFooterTitleAlignment"b1"delegateFrameForSectionIndexGivenProposedFrame"b1"delegateDidFinishReload"b1"delegateHeightForHeader"b1"delegateHeightForFooter"b1"delegateViewForHeader"b1"delegateViewForFooter"b1"delegateCalloutTargetRectForCell"b1"delegateShouldShowMenu"b1"delegateCanPerformAction"b1"delegatePerformAction"b1"delegateWillBeginReordering"b1"delegateDidEndReordering"b1"delegateDidCancelReordering"b1"delegateWillDisplayHeaderViewForSection"b1"delegateWillDisplayFooterViewForSection"b1"delegateShouldHighlightRow"b1"delegateDidHighlightRow"b1"delegateDidUnhighlightRow"b1"delegateTitleForSwipeAccessory"b1"delegateBackgroundColorForDeleteConfirmationButton"b1"delegateBackgroundColorForSwipeAccessory"b1"delegateDeleteConfirmationButton"b1"delegateSwipeAccessory"b1"delegateSwipeAccessoryPushed"b1"delegateShouldDrawTopSeparatorForSection"b1"delegateShouldDrawBottomSeparatorForSection"b1"delegateShouldHaveFullLengthTopSeparatorForSection"b1"delegateShouldHaveFullLengthBottomSeparatorForSection"b1"delegateSpacingForExtraSeparators"b1"delegateWillBeginSwiping"b1"delegateDidEndSwiping"b1"delegateCanFocusRow_deprecated"b1"delegateCanFocusRow"b1"delegateDidFocusRow"b1"delegateDidUnfocusRow"b1"delegateIndexPathForPreferredFocusedItem"b1"delegateShouldUpdateFocusFromRowAtIndexPathToView"b1"delegateIndexPathForPreferredFocusedView"b1"delegateShouldUpdateFocusInContext"b1"delegateDidUpdateFocusInContext"b1"delegateContextMenuConfigurationForRowAtIndexPath"b1"delegatePreviewForHighlightingContextMenuWithConfiguration"b1"delegatePreviewForDismissingContextMenuWithConfiguration"b1"delegateWillCommitMenuWithAnimator"b1"delegatewillPerformPreviewActionForMenuWithConfiguration"b1"delegateWillDisplayContextMenuWithConfiguration"b1"delegateWillEndContextMenuInteractionWithConfiguration"b1"delegateSelectionFollowsFocusForRowAtIndexPath"b1"delegateWasNonNil"b1"style"b2"isInSidebar"b1"separatorStyle"b3"headerFooterPinningBehavior"b2"wasEditing"b1"isEditing"b1"isEditingAllRows"b1"scrollsToSelection"b1"reloadSkippedDuringSuspension"b1"displaySkippedDuringSuspension"b1"needsReload"b1"needsRebuildGeometry"b1"suppressRebuildGeometry"b1"scheduledUpdateVisibleCells"b1"lastScheduledUpdateVisibleCellsIgnored"b1"scheduledUpdateVisibleCellsFrames"b1"displayTopSeparator"b1"countStringInsignificantRowCount"b4"needToAdjustExtraSeparators"b1"overlapsSectionHeaderViews"b1"ignoreTouchSelect"b1"lastHighlightedRowActive"b1"reloading"b1"dequeuedSectionViewIsFooter"b1"allowsSelection"b1"allowsSelectionDuringEditing"b1"allowsMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"indexHidden"b1"indexHiddenForSearch"b1"defaultShowsHorizontalScrollIndicator"b1"defaultShowsVerticalScrollIndicator"b1"sectionIndexTitlesLoaded"b1"tableHeaderViewShouldAutoHide"b1"tableHeaderViewIsHidden"b1"tableHeaderViewWasHidden"b1"tableHeaderViewShouldPin"b1"hideScrollIndicators"b1"sendReloadFinished"b1"keepFirstResponderWhenInteractionDisabled"b1"keepsFirstResponderVisibleOnBoundsChange"b1"forceStaticHeadersAndFooters"b1"inInit"b1"inSetBackgroundColor"b1"isApplyingAppearanceDefaults"b1"usingCustomBackgroundColor"b1"usingCustomBackgroundView"b1"usingCustomSeparatorColor"b1"usingCustomSeparatorEffect"b1"usingCustomSeparatorStyle"b1"usingEffectsBackgroundView"b1"rowDataIndexPathsAreValidForCurrentCells"b1"committingDelete"b1"didReloadWhileCommittingDelete"b1"editingForSwipeDelete"b1"ignorePinnedTableHeaderUpdates"b1"separatorsDrawAsOverlay"b1"swipeToDeleteActionIsWaitingForCompletionHandler"b1"swipeToDeleteEncounteredDelete"b1"drawsSeparatorAtTopOfSections"b1"separatorBackdropOverlayBlendMode"b3"separatorsDrawInVibrantLightMode"b1"wrapCells"b1"hasAddedContentView"b1"showingIndexIndicatorOverlay"b1"showingIndexSelectionOverlay"b1"loadingOffscreenViews"b1"externalScreenHasTouch"b1"ignoringWheelEventsOnIndexOverlayIndicator"b1"deleteCancelationAnimationInProgress"b1"swipeDeletionAnimationInProgress"b1"manuallyManagesSwipeUI"b1"allowsReorderingWhenNotEditing"b1"needsDeleteConfirmationCleanup"b1"resetContentOffsetAfterLayout"b1"adjustContentOffsetAfterLayout"b1"cellsSelfSize"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"isIdleObserverRegistered"b1"deallocating"b1"updateFocusAfterItemAnimations"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"remembersLastFocusedIndexPath"b1"cellLayoutMarginsFollowReadableWidth"b1"sectionContentInsetFollowsLayoutMargins"b1"separatorInsetIsRelativeToCellEdges"b1"usingKnobToChangeSectionIndex"b1"prefetchingEnabled"b1"prefetchDataSourceWasNonNil"b1"prefetchDataSourcePrefetchRowsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForRowsAtIndexPaths"b1"ignoreEditingChange"b1"isSelfSizingShadowCell"b1"clientSetDragInteractionEnabled"b1"dragInteractionEnabled"b1"insetsContentViewsToSafeArea"b1"generatingDescriptionWithDataSource"b1"isPerformingShadowUpdates"b1"isPerformingRevertingShadowUpdates"b1"dataSourceIsDiffableDataSource"b1"isPerformingInternalBatchUpdates"b1"isUsingPresentationValues"b1"isUpdatingVisibleCells"b1"scrollFirstResponderCellVisibleAfterVisibleCellsUpdate"b1"ignoreCopyFilterForTableAnimations"b1"purgeReuseQueuesAfterReloadData"b1"disableReuseQueuePurgeOnTextSizeChanges"b1"needsFocusConfigurationUpdateForContainsFocusChange"b1"scheduledUpdateFocusConfigurationAfterVisibleCellsUpdate"b1"useUnifiedSelectionBehavior"b1"performingInternalReloadData"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputeHeightsForInvalidatedElements"b1"scheduledRecomputeHeightsForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"useLegacySectionHeaderFooterPinningBehavior"b1"disableSectionHeaderFooterComplexCommitSignaling"b1"isResigningFirstResponderDuringReloadData"b1"isSelectingRowAtIndexPath"b1};
 - (void)oint=dd}{CGSize=dd}}24q56@64q72;
 - (struct CGRect)serActivity"24;
-- (double)ticEffects;
-- (long long)lientResponseDelegatesWithDelegate:(long long)arg1;
-- (double)esponder:(long long)arg1;
-- (void)backs:(double)arg1;
-- (struct _NSRange)fted:(struct CGRect)arg1 shiftLocked: /* Error: Ran out of types for this method. */;
-- (double)LocalStatusBar: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)Type:(id)arg1;
-- (void)s:unmatchingRanges: /* Error: Ran out of types for this method. */;
-- (int);
+- (double)wantsElasticEffects;
+- (long long)updateClientResponseDelegatesWithDelegate:(long long)arg1;
+- (double)systemInputViewControllerForResponder:(long long)arg1 editorView:(_Bool)arg2 containingResponder: /* Error: Ran out of types for this method. */;
+- (void)setShouldDisableRootPresentationAppearanceCallbacks:(double)arg1;
+- (struct _NSRange)setShiftStatesNeededInDestination:(struct CGRect)arg1 autoShifted:shiftLocked: /* Error: Ran out of types for this method. */;
+- (double)setLocalStatusBar: /* Error: Ran out of types for this method. */;
+- (void)setHysteresisPadding: /* Error: Ran out of types for this method. */;
+- (void)setActiveCandidateViewType:(id)arg1;
+- (void)initWithTypeSelectItem:matchingRanges:unmatchingRanges: /* Error: Ran out of types for this method. */;
+- (int)handleSelectionGesture:(long long)arg1;
 - (double);
-- (struct CGRect)ion;
-- (void):(double)arg1;
-- (long long)terial:(struct CGPoint)arg1;
-- (int);
-- (void)OutlineProvider;
-- (_Bool)e: /* Error: Ran out of types for this method. */;
-- (double)View;
+- (struct CGRect)autofillExtrasSuggestion;
+- (void)_updateContentForTopItem:(double)arg1 backItem:animated: /* Error: Ran out of types for this method. */;
+- (long long)_setWantsDynamicBackgroundMaterial:(struct CGPoint)arg1;
+- (int)_setResolvedElementSize:(long long)arg1;
+- (void)_defaultPreviewOutlineProvider;
+- (_Bool)_copyWithOverrideSize: /* Error: Ran out of types for this method. */;
+- (double)_borderShadowTopView;
 - (void)get;
 - (id)ting>",R,W,N,V_textItemInteractingView;
 - (long long)bleProperties;
 - (id)xtRange",?,R,N;
-- (long long)StateProviding;
-- (long long)D;
-- (void)rAttachment;
-- (long long)eneratorPressDriven;
+- (long long)_UIFloatingTabBarContentStateProviding;
+- (long long)UISize3D;
+- (void)_UITextPlaceholderAttachment;
+- (long long)UIFeedbackGeneratorPressDriven;
 - (double)Px;
 - (double)ô3;
 - (struct UIEdgeInsets)?;
@@ -145,10 +114,10 @@ __attribute__((visibility("hidden")))
 - (struct CGRect)´vþÿ;
 - (double)UIView-topMargin-guide-constraint;
 - (void):(long long)arg1 but returned %@.;
-- (void)putActionsAnalytics;
+- (void)IATextInputActionsAnalytics;
 - (long long)) and extentBeyondMaximum (%lu) with different number of dimensions;
 - (struct CGRect)UICollectionElementKindSeparator;
-- (_Bool)outColorDidChangeNotification;
+- (_Bool)UIAccessibilityShouldDifferentiateWithoutColorDidChangeNotification;
 - (double);
 - (long long)¥@43ðòuþ;
 - (void)8±\;
@@ -167,23 +136,7 @@ __attribute__((visibility("hidden")))
 - (double)þ;
 
 // Remaining properties
-@property(readonly, nonatomic) double defaultSectionFooterHeight; // @synthesize defaultSectionFooterHeight=_defaultSectionFooterHeight;
 @property(readonly, nonatomic) double defaultSectionHeaderHeight; // @synthesize defaultSectionHeaderHeight=_defaultSectionHeaderHeight;
-@property(retain, nonatomic) NSIndexPath *draggedIndexPath; // @synthesize draggedIndexPath=_draggedIndexPath;
-@property(nonatomic) double draggedRowHeight; // @synthesize draggedRowHeight=_draggedRowHeight;
-@property(retain, nonatomic) NSIndexPath *gapIndexPath; // @synthesize gapIndexPath=_gapIndexPath;
-@property(nonatomic) double gapRowHeight; // @synthesize gapRowHeight=_gapRowHeight;
-@property(readonly, nonatomic) double heightForAutohidingTableHeaderView;
-@property(readonly, nonatomic) double heightForTableHeaderViewHiding;
-@property(nonatomic) double minimumRowHeight; // @synthesize minimumRowHeight=_minimumRowHeight;
-@property(nonatomic) _Bool pinsTableHeaderView;
-@property(retain, nonatomic) NSIndexPath *reorderedIndexPath; // @synthesize reorderedIndexPath=_reorderedIndexPath;
-@property(nonatomic) double rowSpacing; // @synthesize rowSpacing=_rowSpacing;
-@property(nonatomic) double tableBottomPadding; // @synthesize tableBottomPadding=_tableBottomPadding;
-@property(nonatomic) double tableSidePadding; // @synthesize tableSidePadding=_tableSidePadding;
-@property(nonatomic) double tableTopPadding; // @synthesize tableTopPadding=_tableTopPadding;
-@property(readonly, nonatomic) NSIndexPath *temporarilyDeletedIndexPathBeingReordered;
-@property(nonatomic) _Bool usesVariableMargins;
 
 @end
 

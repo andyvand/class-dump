@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface DSP_HostCallbacks
 {
     struct DSP_Host_IOProcessor *_owner;
-    function_b5c4072d _mutationRequestListener;
-    function_0ab2561a _propertyChangeListener;
 }
 
 - (void);
 - (void);
-- (function_0ab2561a);
-- (void);
-- (function_b5c4072d);
+- (function_1339d534);
+- (void)2;
+- (function_2adeff0b);
 - (void);
 - (id);
 - (struct DSP_Host_IOProcessor *);
 - (void)¬à¼´Ü;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) function_b5c4072d mutationRequestListener; // @synthesize mutationRequestListener=_mutationRequestListener;
-@property(nonatomic) struct DSP_Host_IOProcessor *owner; // @synthesize owner=_owner;
-@property(nonatomic) function_0ab2561a propertyChangeListener; // @synthesize propertyChangeListener=_propertyChangeListener;
-@property(readonly) Class superclass;
+@property(nonatomic) function_2adeff0b mutationRequestListener; // @synthesize mutationRequestListener=_mutationRequestListener;
 
 @end
 

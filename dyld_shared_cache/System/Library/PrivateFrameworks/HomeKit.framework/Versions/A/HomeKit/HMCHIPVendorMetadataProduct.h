@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSURL;
+@class NSNumber;
 
 @interface HMCHIPVendorMetadataProduct
 {
     NSNumber *_identifier;
-    NSNumber *_categoryNumber;
-    NSNumber *_deviceTypeID;
-    NSString *_name;
-    NSString *_label;
-    NSURL *_installationGuideURL;
 }
 
 + (id);
@@ -27,8 +22,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)informal;
+- (id)annotationText;
 - (id);
 - (id);
 - (id);
@@ -36,29 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSNumber *categoryNumber; // @synthesize categoryNumber=_categoryNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSNumber *deviceTypeID; // @synthesize deviceTypeID=_deviceTypeID;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSNumber *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSURL *installationGuideURL; // @synthesize installationGuideURL=_installationGuideURL;
-@property(readonly, copy) NSString *label; // @synthesize label=_label;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

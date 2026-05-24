@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol AVTCacheableResourceChangeToken, AVTCachedResource;
+@protocol AVTCachedResource;
 
 @interface AVTInMemoryResourceCacheEntry
 {
     id <AVTCachedResource> _resource;
-    id <AVTCacheableResourceChangeToken> _changeToken;
-    NSString *_key;
-    unsigned long long _cost;
 }
 
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)with date :%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) id <AVTCacheableResourceChangeToken> changeToken; // @synthesize changeToken=_changeToken;
-@property(readonly, nonatomic) unsigned long long cost; // @synthesize cost=_cost;
-@property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
 @property(readonly, nonatomic) id <AVTCachedResource> resource; // @synthesize resource=_resource;
 
 @end

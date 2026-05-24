@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, NSMutableSet, NSString, SXViewport;
+@class NSMutableSet;
 
 @interface SXComponentAnimationController
 {
     NSMutableSet *_registeredComponents;
-    NSMutableSet *_animatingComponents;
-    SXViewport *_viewport;
-    CADisplayLink *_displayLink;
-    NSMutableSet *_animationHandlersToFinish;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -43,18 +39,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *animatingComponents; // @synthesize animatingComponents=_animatingComponents;
-@property(readonly, nonatomic) NSMutableSet *animationHandlersToFinish; // @synthesize animationHandlersToFinish=_animationHandlersToFinish;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSMutableSet *registeredComponents; // @synthesize registeredComponents=_registeredComponents;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end
 

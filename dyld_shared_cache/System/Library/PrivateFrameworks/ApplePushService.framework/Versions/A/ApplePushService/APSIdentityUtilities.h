@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface APSIdentityUtilities
 {
@@ -19,11 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool albertIdentitySupported;
-@property(readonly, nonatomic) _Bool baaPushIdentityEnabled;
 @property(readonly, nonatomic) _Bool deviceIdentitySupported;
-@property(readonly, nonatomic) NSNumber *forcedProviderDefault;
-@property(readonly, nonatomic) _Bool useMultiIdentityProvider;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface IDSQUICConnectionIDs
 {
     unsigned int _localAVCConnectionID;
-    unsigned int _localIDSConnectionID;
-    unsigned int _remoteAVCConnectionID;
-    unsigned int _remoteIDSConnectionID;
 }
 
 - (void);
@@ -20,8 +15,8 @@
 - (void);
 - (void);
 - (void);
+- (void)`;
 - (void);
-- (void);
 - (id);
 - (id);
 - (unsigned int);
@@ -40,17 +35,10 @@
 - (unsigned int);
 - (unsigned int);
 - (id);
-- (_Bool)ndex;
+- (_Bool)KTRegistrationDataIndex;
 
 // Remaining properties
 @property(nonatomic) unsigned int localAVCConnectionID; // @synthesize localAVCConnectionID=_localAVCConnectionID;
-@property(nonatomic) NSData *localAVCConnectionIDData;
-@property(nonatomic) unsigned int localIDSConnectionID; // @synthesize localIDSConnectionID=_localIDSConnectionID;
-@property(nonatomic) NSData *localIDSConnectionIDData;
-@property(nonatomic) unsigned int remoteAVCConnectionID; // @synthesize remoteAVCConnectionID=_remoteAVCConnectionID;
-@property(nonatomic) NSData *remoteAVCConnectionIDData;
-@property(nonatomic) unsigned int remoteIDSConnectionID; // @synthesize remoteIDSConnectionID=_remoteIDSConnectionID;
-@property(nonatomic) NSData *remoteIDSConnectionIDData;
 
 @end
 

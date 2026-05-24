@@ -14,14 +14,17 @@
 + (void);
 + (id);
 - (void);
+- (void)essionAddAuxiliaryImage  err = %s [%d]
+;
+- (void)AsDictionary' [%s]
+;
+- (void)CalciumScoringMassFactorDevice;
+- (void)A9;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)calling KTEventFromEvent...
+;
 - (id);
 - (void);
 - (void);
@@ -32,20 +35,19 @@
 - (void);
 - (_Bool);
 - (void);
+- (void)DBC0-4242-AF95-115DB30604E1;
 - (void);
 - (void);
+- (void)S;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_familySupportsBinaryLibraries;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(setter=_setResponseSilo:) CLSilo *_responseSilo;
-@property(readonly, nonatomic, getter=isGeocoding) _Bool geocoding;
 
 @end
 

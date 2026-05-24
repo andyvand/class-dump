@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPContextPredictor, _PASLock, _PASSqliteDatabase;
+@class _PASSqliteDatabase;
 
 @interface PPAugmentedGazetteer
 {
     _PASSqliteDatabase *_db;
-    _PASLock *_lock;
-    PPContextPredictor *_contextPredictor;
-    NSString *_language;
 }
 
 - (void);
@@ -20,9 +17,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)apabilities to %@;
 - (void);
-- (void)ithmWeights;
+- (void)topicAlgorithmWeights;
 
 @end
 

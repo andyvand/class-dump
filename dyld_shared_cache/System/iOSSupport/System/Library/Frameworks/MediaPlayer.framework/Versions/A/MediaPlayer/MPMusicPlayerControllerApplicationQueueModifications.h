@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface MPMusicPlayerControllerApplicationQueueModifications
 {
     NSDictionary *_insertedDescriptors;
-    NSArray *_removedItemIdentifiers;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)MessageHistorySummaryLoading;
 - (void);
-- (void)tyAlbumIsStoreRedownloadable__MAPPING_MISSING__;
+- (void)__MPModelPropertyAlbumIsStoreRedownloadable__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *insertedDescriptors; // @synthesize insertedDescriptors=_insertedDescriptors;
-@property(readonly, nonatomic) NSArray *removedItemIdentifiers; // @synthesize removedItemIdentifiers=_removedItemIdentifiers;
 
 @end
 

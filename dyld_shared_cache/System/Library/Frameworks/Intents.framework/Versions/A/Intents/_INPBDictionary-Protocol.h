@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *pairs;
-@property(readonly, nonatomic) unsigned long long pairsCount;
 @end
 

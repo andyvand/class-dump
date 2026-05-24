@@ -6,15 +6,9 @@
 
 #import <BiomePubSub/BPSPublisher.h>
 
-@protocol BPSPublisher;
-
 @interface BPSCombineLatest : BPSPublisher
 {
     _Bool _nextIsB;
-    id <BPSPublisher> _a;
-    id <BPSPublisher> _b;
-    id _latestA;
-    id _latestB;
 }
 
 + (id);
@@ -27,20 +21,16 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)seedingLoginWithSuccess:error: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)%s Creating OS Transaction %p for %{public}@;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <BPSPublisher> a; // @synthesize a=_a;
-@property(readonly, nonatomic) id <BPSPublisher> b; // @synthesize b=_b;
 @property(retain, nonatomic) id latestA; // @synthesize latestA=_latestA;
-@property(retain, nonatomic) id latestB; // @synthesize latestB=_latestB;
-@property(nonatomic) _Bool nextIsB; // @synthesize nextIsB=_nextIsB;
 
 @end
 

@@ -6,21 +6,18 @@
 
 #import <NetworkExtension/NEIKEv2Payload.h>
 
-@class NSData;
-
 @interface NEIKEv2CustomPayload : NEIKEv2Payload
 {
     unsigned long long _customType;
-    NSData *_customData;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void)ity: /* Error: Ran out of types for this method. */;
-- (id)XCBC96;
+- (void)setPriority: /* Error: Ran out of types for this method. */;
+- (id)AESXCBC96;
 
 @end
 

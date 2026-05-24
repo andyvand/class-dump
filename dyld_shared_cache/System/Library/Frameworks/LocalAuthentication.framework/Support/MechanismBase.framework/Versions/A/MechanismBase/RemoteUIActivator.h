@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString;
 @protocol RemoteUIActivatorDelegate;
 
 @interface RemoteUIActivator
 {
     struct os_unfair_lock_s _activeObjectsLock;
-    NSMapTable *_activeInterfaces;
-    NSMapTable *_activeListeners;
-    id <RemoteUIActivatorDelegate> _delegate;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)istribution:(id)arg1:mapFromMemory() - DNN image %s contains unsupported feature (required set = 0x%.6X%.8X, available = 0x%.6X%.8X) /* Error: Ran out of types for this method. */;
+- (_Bool)o read %s from file %s;
+- (_Bool)can only be called after sat_initialize();
+- (void)r() can only be called after initialize();
+- (id)alize();
+- (id)etect:getphraseresults() can only be called after initialize() /* Error: Ran out of types for this method. */;
+- (_Bool)led after initialize();
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)amework/CoreText;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <RemoteUIActivatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

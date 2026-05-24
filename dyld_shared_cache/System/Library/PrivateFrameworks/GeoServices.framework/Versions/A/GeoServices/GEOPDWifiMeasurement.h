@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDWifiMeasurement
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    unsigned long long _entryTime;
-    unsigned long long _exitTime;
-    NSMutableArray *_locations;
-    NSMutableArray *_wifiAccessPoints;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_entryTime:1;
-        unsigned int has_exitTime:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_locations:1;
-        unsigned int read_wifiAccessPoints:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)injectAudio:toDeviceWithUUID:withNumChannels:withUserIntentOptions:handlingDaemon:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ntent"b1"read_directionIntent"b1"read_geoIntent"b1"read_keywordIntent"b1"read_languageCodes"b1"read_locationIntent"b1"read_phoneNumberIntent"b1"read_proximityIntent"b1"read_searchFilterIntent"b1"read_transitIntent"b1"wrote_anyField"b1};
-- (id)rtCoordinate;
+- (id)_startCoordinate;
 - (id)<ì@8ô;
 - (void);
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimeZone;
+@class NSDate;
 
 @interface SXParsedDate
 {
     _Bool _containedTime;
-    NSDate *_date;
-    NSTimeZone *_timeZone;
 }
 
 - (id);
@@ -20,16 +18,7 @@
 - (id)ú;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containedTime; // @synthesize containedTime=_containedTime;
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

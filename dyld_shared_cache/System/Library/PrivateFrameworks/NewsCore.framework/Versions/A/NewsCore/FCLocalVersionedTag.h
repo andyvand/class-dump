@@ -9,24 +9,20 @@
 @interface FCLocalVersionedTag
 {
     NSString *_identifier;
-    long long _minVersion;
-    long long _maxVersion;
 }
 
 - (void);
 - (long long);
 - (id);
 - (long long);
-- (void);
+- (void)ke;
+- (id);
 - (id);
-- (id);
-- (void)ubscriptions;
+- (void)deletedSubscriptions;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long maxVersion; // @synthesize maxVersion=_maxVersion;
-@property(nonatomic) long long minVersion; // @synthesize minVersion=_minVersion;
 
 @end
 

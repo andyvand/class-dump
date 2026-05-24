@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PKPeerPaymentAddress
 {
     _Bool _valid;
-    NSString *_addressLine1;
-    NSString *_addressLine2;
-    NSString *_city;
-    NSString *_state;
-    NSString *_postalCode;
-    NSDate *_restrictionDate;
-    unsigned long long _source;
 }
 
-+ (id);
++ (id);
 + (_Bool)qî%°1Â0@ù
 × ;
 - (void);
@@ -35,27 +28,20 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)t"b1};
+- (void)ctive;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id)gate:(id)arg1;
+- (id)initWithDataSource:(id)arg1 delegate: /* Error: Ran out of types for this method. */;
 - (void)@, capabilities:(_Bool)arg1 0x%lx;
-- (void)Topic;
+- (void)pushTopic;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *addressLine1; // @synthesize addressLine1=_addressLine1;
-@property(copy, nonatomic) NSString *addressLine2; // @synthesize addressLine2=_addressLine2;
-@property(copy, nonatomic) NSString *city; // @synthesize city=_city;
-@property(copy, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(copy, nonatomic) NSDate *restrictionDate; // @synthesize restrictionDate=_restrictionDate;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(copy, nonatomic) NSString *state; // @synthesize state=_state;
-@property(nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

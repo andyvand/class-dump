@@ -8,10 +8,6 @@
 {
     id token;
     id syncQueue;
-    id _members;
-    id _guardians;
-    id _children;
-    id _currentMember;
 }
 
 @end

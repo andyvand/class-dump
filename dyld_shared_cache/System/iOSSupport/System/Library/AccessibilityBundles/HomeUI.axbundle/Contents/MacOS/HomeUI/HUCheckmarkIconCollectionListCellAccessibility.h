@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
++ (id);
 + (void);
 - (_Bool);
-- (id);
+- (id)MUButtonCellRowViewAccessibility;
 
 @end
 

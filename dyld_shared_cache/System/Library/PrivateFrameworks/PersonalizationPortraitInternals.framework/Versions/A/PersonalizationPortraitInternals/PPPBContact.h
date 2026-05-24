@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PPPBDateComponents;
-
 @interface PPPBContact
 {
     long long _createdAt;
-    PPPBDateComponents *_birthday;
-    int _displayNameOrder;
-    NSMutableArray *_emailAddresses;
-    NSString *_familyName;
-    NSString *_givenName;
-    NSString *_identifier;
-    NSString *_middleName;
-    NSString *_namePrefix;
-    NSString *_nameSuffix;
-    NSString *_nickname;
-    PPPBDateComponents *_nonGregorianBirthday;
-    NSString *_organizationName;
-    NSMutableArray *_phoneNumbers;
-    NSMutableArray *_postalAddresses;
-    NSMutableArray *_socialProfiles;
-    NSString *_sortingFamilyName;
-    NSString *_sortingGivenName;
-    struct {
-        unsigned int createdAt:1;
-        unsigned int displayNameOrder:1;
-    } _has;
 }
 
 + (Class);
@@ -59,20 +36,20 @@
 - (void);
 - (int);
 - (void);
+- (unsigned long long)@;
+- (void);
+- (void);
+- (void)unblackholeAndLoadChatWithHandleIDs:(long long)arg1 reply: /* Error: Ran out of types for this method. */;
+- (void)setPassThroughLockdownHandlerForCommand:(id)arg1;
+- (void)_updateMessageDictionaryWithPendingNicknameUpdates:(_Bool)arg1;
+- (_Bool);
+- (_Bool);
+- (_Bool)ety Monitor about the Notification response;
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -86,7 +63,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)threadOriginatorGUID;
 - (id);
 - (id);
 - (void);
@@ -94,9 +71,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)*;
 - (void);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (void);
@@ -117,38 +94,7 @@
 - (long long)0¤	;
 
 // Remaining properties
-@property(retain, nonatomic) PPPBDateComponents *birthday; // @synthesize birthday=_birthday;
-@property(nonatomic) long long createdAt; // @synthesize createdAt=_createdAt;
-@property(nonatomic) int displayNameOrder; // @synthesize displayNameOrder=_displayNameOrder;
-@property(retain, nonatomic) NSMutableArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(retain, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(retain, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly, nonatomic) _Bool hasBirthday;
-@property(nonatomic) _Bool hasCreatedAt;
-@property(nonatomic) _Bool hasDisplayNameOrder;
-@property(readonly, nonatomic) _Bool hasFamilyName;
-@property(readonly, nonatomic) _Bool hasGivenName;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasMiddleName;
-@property(readonly, nonatomic) _Bool hasNamePrefix;
-@property(readonly, nonatomic) _Bool hasNameSuffix;
-@property(readonly, nonatomic) _Bool hasNickname;
-@property(readonly, nonatomic) _Bool hasNonGregorianBirthday;
-@property(readonly, nonatomic) _Bool hasOrganizationName;
-@property(readonly, nonatomic) _Bool hasSortingFamilyName;
-@property(readonly, nonatomic) _Bool hasSortingGivenName;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *middleName; // @synthesize middleName=_middleName;
-@property(retain, nonatomic) NSString *namePrefix; // @synthesize namePrefix=_namePrefix;
-@property(retain, nonatomic) NSString *nameSuffix; // @synthesize nameSuffix=_nameSuffix;
-@property(retain, nonatomic) NSString *nickname; // @synthesize nickname=_nickname;
-@property(retain, nonatomic) PPPBDateComponents *nonGregorianBirthday; // @synthesize nonGregorianBirthday=_nonGregorianBirthday;
-@property(retain, nonatomic) NSString *organizationName; // @synthesize organizationName=_organizationName;
-@property(retain, nonatomic) NSMutableArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(retain, nonatomic) NSMutableArray *postalAddresses; // @synthesize postalAddresses=_postalAddresses;
-@property(retain, nonatomic) NSMutableArray *socialProfiles; // @synthesize socialProfiles=_socialProfiles;
-@property(retain, nonatomic) NSString *sortingFamilyName; // @synthesize sortingFamilyName=_sortingFamilyName;
-@property(retain, nonatomic) NSString *sortingGivenName; // @synthesize sortingGivenName=_sortingGivenName;
 
 @end
 

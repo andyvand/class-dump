@@ -9,7 +9,6 @@
 @interface Swift.__StringStorage : Swift.__SwiftNativeNSString
 {
     id _capacityAndFlags;
-    id _countAndFlags;
 }
 
 - (unsigned long long);
@@ -24,13 +23,11 @@
 - (id);
 - (BOOL);
 - (unsigned short);
-- (const char *);
+- (const char *);
 - (BOOL)ÝúA;
 - (const char *)H¬h.ù¼hÍùÌhÜhHùgìhùühèùiôiÒù.i¥<io`iB|iúiíù¬ië;
 
 // Remaining properties
-@property(nonatomic, readonly) unsigned long long fastestEncoding;
-@property(nonatomic, readonly) unsigned long long hash;
 @property(nonatomic, readonly) long long length;
 
 @end

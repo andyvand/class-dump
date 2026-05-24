@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NAMarqueeView, NATouchInsetsButton, UIImageView, UILabel;
-@protocol NANowPlayingTitleViewDelegate, NANowPlayingTitleViewLayoutSpecProvider;
+@class UIImageView;
 
 @interface NANowPlayingTitleView
 {
     UIImageView *_publisherImageView;
-    NAMarqueeView *_publisherMarqueeContainer;
-    UILabel *_titleLabel;
-    NAMarqueeView *_titleMarqueeContainer;
-    NATouchInsetsButton *_ellipsisButton;
-    id <NANowPlayingTitleViewDelegate> _delegate;
-    id <NANowPlayingTitleViewLayoutSpecProvider> _layoutSpecProvider;
 }
 
 - (id);
@@ -31,26 +24,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct CGSize);
 - (void);
-- (id);
+- (id)9;
 - (void);
 - (void);
-- (void)rnal;
-- (id)tion;
+- (void)bannerAdJournal;
+- (id)failedToFetchConfiguration;
 
 // Remaining properties
-@property(nonatomic) __weak id <NANowPlayingTitleViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NATouchInsetsButton *ellipsisButton; // @synthesize ellipsisButton=_ellipsisButton;
-@property(nonatomic) __weak id <NANowPlayingTitleViewLayoutSpecProvider> layoutSpecProvider; // @synthesize layoutSpecProvider=_layoutSpecProvider;
 @property(retain, nonatomic) UIImageView *publisherImageView; // @synthesize publisherImageView=_publisherImageView;
-@property(readonly, nonatomic) double publisherLogoHeight;
-@property(readonly, nonatomic) NAMarqueeView *publisherMarqueeContainer; // @synthesize publisherMarqueeContainer=_publisherMarqueeContainer;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(readonly, nonatomic) NAMarqueeView *titleMarqueeContainer; // @synthesize titleMarqueeContainer=_titleMarqueeContainer;
 
 @end
 

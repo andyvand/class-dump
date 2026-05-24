@@ -11,7 +11,7 @@
     double _fitWidth;
 }
 
-- (double);
+- (double);
 - (_Bool);
 - (struct CGSize);
 - (id);

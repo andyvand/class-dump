@@ -4,52 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, UIPDFPageView, UIPDFSelection;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFSearchHighlightsController
 {
     NSMutableArray *_searchHighlightLayers;
-    UIPDFPageView *_pageView;
-    struct CGColor *_highlightColor;
-    struct CGColor *_borderColor;
-    struct CGColor *_shadowColor;
-    _Bool _pageRendered;
-    NSMutableArray *_rectangles;
-    UIPDFSelection *_selection;
 }
 
 - (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)edZones:(id)arg1 %@ DeletedZones:%@ /* Error: Ran out of types for this method. */;
+- (void)ateFriend:(struct CGPath *)arg1 %@, updateType:(unsigned long long)arg2 %lu;
+- (void)dMyLocateSession friendShipUpdateCallback. updateFriend:(struct CGPath *)arg1 %@, updateType:(unsigned long long)arg2 %lu;
+- (void)have the required entitlement.;
+- (void)process with a fatalError if you do not have the required entitlement.;
+- (void)prevent FindMyLocate from crashing your process with a fatalError if you do not have the required entitlement.;
+- (void)is enabled. This check is in place to prevent FindMyLocate from crashing your process with a fatalError if you do not have the required entitlement.;
+- (id)g;
+- (unsigned long long)Received delivery receipt for message:(unsigned long long)arg1 %@;
+- (_Bool)%d on number of services:%d numberOfMessagesBefore:%d numberOfMessagesAfter:%d /* Error: Ran out of types for this method. */;
+- (void)monitor:%@:%@ /* Error: Ran out of types for this method. */;
+- (void)IMDStickerRegistry;
+- (void)eReplyToGUID:(id)arg1 onChat:(_Bool)arg2 ];
+- (void)rack;
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_payloadAllowWebDistributionAppInstallation;
 - (void)N,V_prefersScaledContent;
 - (void);
 - (void)ø;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

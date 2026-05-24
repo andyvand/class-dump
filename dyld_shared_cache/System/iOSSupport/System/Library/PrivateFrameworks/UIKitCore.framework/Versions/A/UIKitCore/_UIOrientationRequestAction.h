@@ -9,11 +9,11 @@
 }
 
 - (unsigned long long);
+- (id)0:(unsigned long long)arg1 8@16@24@32@40@?48;
+- (id)36;
+- (id)@40@48@56@64B72B76@?80;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)redential">40;
 - (unsigned long long);
 - (long long)À;
 

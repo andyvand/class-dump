@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocationShifter, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CLSLocationShifter
 {
     NSObject<OS_dispatch_queue> *_locationShiftQueue;
-    GEOLocationShifter *_locationShifter;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (CDStruct_c3b9c2ee);
 - (id);
 - (id);
-- (id);
+- (id)verlap, %d for low resolution, %d for low crop score.;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *locationShiftQueue; // @synthesize locationShiftQueue=_locationShiftQueue;
-@property(readonly, nonatomic) GEOLocationShifter *locationShifter; // @synthesize locationShifter=_locationShifter;
 
 @end
 

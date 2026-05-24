@@ -6,29 +6,16 @@
 
 #import <MediaPlayer/MPStoreModelObjectBuilder.h>
 
-@class MPPropertySet, MPStoreModelStoreAssetBuilder;
+@class MPStoreModelStoreAssetBuilder;
 
 @interface MPStoreModelTVShowBuilder : MPStoreModelObjectBuilder
 {
     MPStoreModelStoreAssetBuilder *_storeAssetBuilder;
-    MPPropertySet *_storeAssetProperties;
-    struct {
-        unsigned int initialized:1;
-        unsigned int title:1;
-        unsigned int shortTitle:1;
-        unsigned int editorNotes:1;
-        unsigned int shortEditorNotes:1;
-        unsigned int editorialArtwork:1;
-        unsigned int artwork:1;
-        unsigned int episodeCount:1;
-        unsigned int tagline:1;
-        unsigned int storeCanonicalId:1;
-    } _requestedTVShowProperties;
 }
 
 + (id);
 - (id);
-- (void)StatusMonitor;
+- (void)_subscriptionStatusMonitor;
 
 @end
 

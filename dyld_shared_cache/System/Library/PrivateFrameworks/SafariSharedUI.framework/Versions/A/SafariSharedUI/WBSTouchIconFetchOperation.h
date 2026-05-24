@@ -6,34 +6,25 @@
 
 #import <SafariSharedUI/WBSWebViewMetadataFetchOperation.h>
 
-@class NSArray, NSObject, NSSet, NSString, NSTimer, WBSSiteMetadataRequest, _WKRemoteObjectInterface;
-@protocol OS_os_activity;
+@class WBSSiteMetadataRequest, _WKRemoteObjectInterface;
 
 @interface WBSTouchIconFetchOperation : WBSWebViewMetadataFetchOperation
 {
     _WKRemoteObjectInterface *_touchIconObserverInterface;
-    NSTimer *_loadingTimeoutTimer;
-    NSArray *_pendingTouchIconURLs;
-    NSSet *_touchIconURLs;
-    long long _state;
-    _Bool _allowFetchingOverCellularNetwork;
-    struct CGSize _preferredFaviconSize;
-    NSArray *_faviconScales;
-    NSObject<OS_os_activity> *_activity;
-    CDUnknownBlockType _completionHandler;
 }
 
 + (void);
 + (void);
 - (void);
-- (void);
+- (void)*;
 - (id);
 - (id);
 - (id);
+- (void)c;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)6
+;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -58,15 +49,7 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) WBSSiteMetadataRequest *request; // @dynamic request;
-@property(readonly) Class superclass;
 
 @end
 

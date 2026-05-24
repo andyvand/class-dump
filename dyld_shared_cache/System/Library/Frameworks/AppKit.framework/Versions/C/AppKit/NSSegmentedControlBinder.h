@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
++ (id);
++ (id)username = %@, password = %@, persistence = %d, attributes = %@, identifier = %@};
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)@;
 - (id);
-- (void);
-- (id);
+- (void)_setServerTrust: /* Error: Ran out of types for this method. */;
+- (id)d for background session;
 - (void);
 - (unsigned long long);
 

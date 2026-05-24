@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSData, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AVWeakReference, NSData;
 
 @interface AVContentKeyReportGroup
 {
     AVWeakReference *_contentKeySessionWeakReference;
-    struct OpaqueFigContentKeySession *_figContentKeySession;
-    NSData *_protectorSessionIdentifier;
-    NSMutableArray *_cryptorsList;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSString *_keySystem;
-    unsigned long long _groupID;
-    _Bool _isExpired;
-    struct OpaqueFigCFWeakReferenceHolder *_weakContentKeyBoss;
-    _Bool _useContentKeyBoss;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id)p;
 - (void);
 - (struct OpaqueFigCPECryptor *);
 - (struct OpaqueFigCPECryptor *);
 - (struct OpaqueFigCPECryptor *);
-- (id);
-- (int);
+- (id)x;
+- (int);
 - (_Bool);
-- (_Bool);
+- (_Bool),	;
 - (id);
 - (id);
-- (struct OpaqueFigContentKeySession *);
+- (struct OpaqueFigContentKeySession *)};
 - (_Bool);
 - (id);
 - (_Bool);

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSGridView, NSLayoutXAxisAnchor;
+@class NSGridView;
 
 @interface NSGridColumn
 {
     NSGridView *_owningGridView;
-    NSLayoutXAxisAnchor *_leading;
-    long long _hasContentInGeneration;
-    long long _xPlacement;
-    double _width;
-    double _trailingPadding;
-    double _leadingPadding;
-    _Bool _hidden;
 }
 
 - (long long);
@@ -25,25 +18,26 @@
 - (void);
 - (long long);
 - (void);
+- (id)Connection"16@"NSHTTPURLResponse"24;
+- (id)(;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)E FROM cookies WHERE name = ? AND domain = ? AND path = ? AND partition = ?;
+- (void)patch_data>"12i20;
+- (id)Dictionary"16;
 - (id);
 - (id);
 - (id);
 - (long long);
-- (long long);
+- (long long)w ;
 - (void);
 - (id);
 - (void);
 - (double);
+- (id)SIGNATURE_ALGORITHMS_EXTENSION_SENT_BY_SERVER;
 - (id);
-- (id);
-- (double);
+- (double)%lu chars, %lu glyphs, capacity %lu, flags 0x%x
+;
 - (id);
 - (double);
 - (void)!ë/Ð!Bùñß3°1Â0@ù
@@ -52,17 +46,11 @@
 × ;
 - (_Bool)qã3ð1Â0@ù
 × ;
-- (void);
+- (void)leftAnchor;
 - (long long);
 
 // Remaining properties
 @property(readonly) __weak NSGridView *gridView;
-@property(getter=isHidden) _Bool hidden;
-@property double leadingPadding;
-@property(readonly) long long numberOfCells;
-@property double trailingPadding;
-@property double width;
-@property long long xPlacement;
 
 @end
 

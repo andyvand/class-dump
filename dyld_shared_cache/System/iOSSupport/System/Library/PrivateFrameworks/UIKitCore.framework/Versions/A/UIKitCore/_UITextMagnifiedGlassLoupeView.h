@@ -6,31 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CADisplayLink, NSString, _UIGroupCompletion, _UIPortalView;
-@protocol UICoordinateSpace, _UITextSelectionWidgetAnimating;
+@class _UIGroupCompletion;
 
 __attribute__((visibility("hidden")))
 @interface _UITextMagnifiedGlassLoupeView : UIView
 {
     _UIGroupCompletion *_transitionGroupCompletion;
-    _Bool _closeLoupeAnimationRunning;
-    _UIPortalView *_contentOffsetPortalView;
-    UIView *_contentOffsetPortalContainerView;
-    _Bool _visible;
-    CDStruct_99503a0e _animationState;
-    double _dismissalProgress;
-    UIView<_UITextSelectionWidgetAnimating> *_animatableSelectionWidget;
-    unsigned long long _orientation;
-    CADisplayLink *_displayLink;
-    UIView *_portalContainerView;
-    UIView *_containerView;
-    UIView *_glassView;
-    UIView *_innerShadowView;
-    UIView *_highlightView;
-    UIView *_highlightDarkView;
-    UIView *_highlightLightView;
-    _UIPortalView *_portalView;
-    struct CGPoint _modelPosition;
 }
 
 + (double);
@@ -51,37 +32,37 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct CGPoint);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)rror">32;
+- (void)setHaveSeenReceiptsWithQOIThisBatchSet:(struct CGPoint)arg1;
+- (void)setExpressiveSendStyleIdentifier:(CDUnknownBlockType)arg1;
+- (void)resumeReindexSchedulingWithCompletionBlock:(CDUnknownBlockType)arg1;
+- (void)_generateParticipantChangeNoticesForChat:highlight:participant:noticeType:checkedPrivileges:messageGUID: /* Error: Ran out of types for this method. */;
 - (CDStruct_45cfb02b);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (id);
+- (_Bool)tings for current account;
+- (id)didShare:%ld Error:%@ /* Error: Ran out of types for this method. */;
+- (void):(_Bool)arg1 %@;
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
 - (_Bool);
-- (CDStruct_99503a0e);
+- (CDStruct_3d581f42);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
-- (void)aultButtonConfiguration: /* Error: Ran out of types for this method. */;
-- (unsigned long long)wSize;
-- (id)entationController;
 - (void);
-- (void)er;
 - (void);
-- (void)ectCSo0B5ShapeCSo0B5StyleCSgIeyByyya_;
+- (void)setHeaderViewDefaultButtonConfiguration: /* Error: Ran out of types for this method. */;
+- (unsigned long long)imageViewSize;
+- (id)_UIFormSheetPresentationController;
+- (void);
+- (void)trailingPartIdentifier;
+- (void);
+- (void)So8UIButtonCSo15UIPointerEffectCSo0B5ShapeCSo0B5StyleCSgIeyByyya_;
 - (void)03y1/¿7G;
 - (id);
 - (void);
@@ -89,30 +70,7 @@ __attribute__((visibility("hidden")))
 - (id){ÕÀ©];
 
 // Remaining properties
-@property(nonatomic) __weak UIView<_UITextSelectionWidgetAnimating> *animatableSelectionWidget; // @synthesize animatableSelectionWidget=_animatableSelectionWidget;
-@property(nonatomic) CDStruct_99503a0e animationState; // @synthesize animationState=_animationState;
-@property(readonly, nonatomic) id <UICoordinateSpace> containerCoordinateSpace;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double dismissalProgress; // @synthesize dismissalProgress=_dismissalProgress;
-@property(retain, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(retain, nonatomic) UIView *glassView; // @synthesize glassView=_glassView;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIView *highlightDarkView; // @synthesize highlightDarkView=_highlightDarkView;
-@property(retain, nonatomic) UIView *highlightLightView; // @synthesize highlightLightView=_highlightLightView;
-@property(retain, nonatomic) UIView *highlightView; // @synthesize highlightView=_highlightView;
-@property(retain, nonatomic) UIView *innerShadowView; // @synthesize innerShadowView=_innerShadowView;
-@property(nonatomic) struct CGPoint modelPosition; // @synthesize modelPosition=_modelPosition;
-@property(nonatomic) unsigned long long orientation; // @synthesize orientation=_orientation;
-@property(retain, nonatomic) UIView *portalContainerView; // @synthesize portalContainerView=_portalContainerView;
-@property(retain, nonatomic) _UIPortalView *portalView; // @synthesize portalView=_portalView;
-@property(readonly, nonatomic) struct CGSize preferredSize;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool visible; // @synthesize visible=_visible;
+@property(nonatomic) CDStruct_3d581f42 animationState; // @synthesize animationState=_animationState;
 
 @end
 

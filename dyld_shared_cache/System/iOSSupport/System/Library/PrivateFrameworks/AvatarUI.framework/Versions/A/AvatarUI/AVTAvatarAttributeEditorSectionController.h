@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarAttributeEditorSection, AVTTransitionCoordinator, AVTUIEnvironment, NSString;
-@protocol AVTAvatarAttributeEditorControllerSubSelectionDelegate, AVTIndexBasedTaskScheduler, AVTTaskScheduler;
+@class AVTAvatarAttributeEditorSection;
 
 @interface AVTAvatarAttributeEditorSectionController
 {
     long long _selectedIndex;
-    id <AVTAvatarAttributeEditorControllerSubSelectionDelegate> delegate;
-    AVTAvatarAttributeEditorSection *_section;
-    AVTTransitionCoordinator *_transitionCoordinator;
-    AVTUIEnvironment *_environment;
-    id <AVTIndexBasedTaskScheduler> _thumbnailScheduler;
-    id <AVTTaskScheduler> _renderingScheduler;
 }
 
 + (_Bool);
@@ -38,39 +31,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGSize);
 - (void);
 - (unsigned long long);
+- (long long)uge>",&,V_conclave_mem;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)dictionary:setXPCFdArray:forKey: /* Error: Ran out of types for this method. */;
 - (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTAvatarAttributeEditorControllerSubSelectionDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <AVTTaskScheduler> renderingScheduler; // @synthesize renderingScheduler=_renderingScheduler;
 @property(retain, nonatomic) AVTAvatarAttributeEditorSection *section; // @synthesize section=_section;
-@property(nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <AVTIndexBasedTaskScheduler> thumbnailScheduler; // @synthesize thumbnailScheduler=_thumbnailScheduler;
-@property(retain, nonatomic) AVTTransitionCoordinator *transitionCoordinator; // @synthesize transitionCoordinator=_transitionCoordinator;
 
 @end
 

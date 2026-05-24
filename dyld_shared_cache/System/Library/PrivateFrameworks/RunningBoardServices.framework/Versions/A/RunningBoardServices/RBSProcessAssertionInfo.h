@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RBSProcessAssertionInfo
 {
     unsigned char _type;
-    unsigned long long _reason;
-    NSString *_explanation;
-    NSString *_domain;
-    NSString *_name;
 }
 
 + (_Bool);
@@ -29,25 +23,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(copy, nonatomic) NSString *explanation; // @synthesize explanation=_explanation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end
 

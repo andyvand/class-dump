@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DGDescription, NSMutableDictionary, NSString, PLEditSource;
+@class DGDescription;
 
 @interface PACompositionEditController
 {
     DGDescription *_renderDescription;
-    PLEditSource *_editSource;
-    _Bool _conversionTestingEnabled;
-    _Bool _interactive;
-    NSMutableDictionary *_autoSettingsStorage;
-    struct PFIntSize_st _inputSize;
 }
 
 + (_Bool);
@@ -22,31 +17,31 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct PFIntSize_st);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -57,30 +52,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct PFIntSize_st);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *autoSettingsStorage; // @synthesize autoSettingsStorage=_autoSettingsStorage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) PLEditSource *editSource;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct PFIntSize_st inputSize; // @synthesize inputSize=_inputSize;
-@property(nonatomic, getter=isInteractive) _Bool interactive; // @synthesize interactive=_interactive;
-@property(readonly) long long orientation;
-@property(readonly) Class superclass;
 
 @end
 

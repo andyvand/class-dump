@@ -12,19 +12,18 @@
 {
 }
 
-+ (id);
++ (id)2;
 + (id);
 - (long long);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *speechRecognitionId;
-@property(nonatomic) long long utteranceIndex;
 
 @end
 

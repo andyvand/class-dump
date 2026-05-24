@@ -6,23 +6,21 @@
 
 #import <AVFCore/AVPlayerItemMediaDataCollector.h>
 
-@class AVPlayerItem, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AVPlayerItemInterstitialEventCollector : AVPlayerItemMediaDataCollector
 {
     NSObject<OS_dispatch_queue> *_ivarAccessQueue;
-    CDUnknownBlockType _obtainCoordinator;
-    AVPlayerItem *_weakReferenceToPlayerItem;
 }
 
-- (void);
+- (void)h;
 - (void);
 - (id);
-- (void);
+- (void)blic}@ volumeUuid:(id)arg1 %{public}@ options:%u on %{public}@ cid:%u /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)ckTransform: /* Error: Ran out of types for this method. */;
+- (void)setAppliesPreferredTrackTransform: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -11,7 +11,6 @@
 @interface PKPaymentRegisterPreTrackCredentialRequest : PKPaymentRegisterCredentialRequest
 {
     NSDictionary *_encryptedVehicleDataRequest;
-    NSDictionary *_encryptedShareData;
 }
 
 - (id);

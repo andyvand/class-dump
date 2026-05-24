@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSTimer;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface DARefreshManager
 {
     _Bool _persistAPSAfterShutdown;
-    _Bool _dailyRefreshInitialized;
-    NSMutableDictionary *_enabledTopicWrappersByEnv;
-    NSMutableDictionary *_suspendedTopicWrappersByEnv;
-    NSMutableSet *_wrappers;
-    NSMutableSet *_wrappersForDailyRefresh;
-    NSMutableDictionary *_apsConnections;
-    NSTimer *_tokenRegistrationTimer;
-    NSObject<OS_dispatch_queue> *_pcQueue;
 }
 
 + (id);
@@ -56,36 +47,28 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (int);
+- (id);
+- (void);
+- (id);
 - (id);
 - (void);
 - (int);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (int);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *apsConnections; // @synthesize apsConnections=_apsConnections;
-@property(nonatomic) _Bool dailyRefreshInitialized; // @synthesize dailyRefreshInitialized=_dailyRefreshInitialized;
 @property(retain, nonatomic) NSMutableDictionary *enabledTopicWrappersByEnv; // @synthesize enabledTopicWrappersByEnv=_enabledTopicWrappersByEnv;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *pcQueue; // @synthesize pcQueue=_pcQueue;
-@property(nonatomic) _Bool persistAPSAfterShutdown; // @synthesize persistAPSAfterShutdown=_persistAPSAfterShutdown;
-@property(retain, nonatomic) NSMutableDictionary *suspendedTopicWrappersByEnv; // @synthesize suspendedTopicWrappersByEnv=_suspendedTopicWrappersByEnv;
-@property(retain, nonatomic) NSTimer *tokenRegistrationTimer; // @synthesize tokenRegistrationTimer=_tokenRegistrationTimer;
-@property(retain, nonatomic) NSMutableSet *wrappers; // @synthesize wrappers=_wrappers;
-@property(retain, nonatomic) NSMutableSet *wrappersForDailyRefresh; // @synthesize wrappersForDailyRefresh=_wrappersForDailyRefresh;
 
 @end
 

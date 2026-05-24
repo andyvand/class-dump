@@ -11,9 +11,9 @@
     long long _maxItemCount;
 }
 
++ (id)-;
 + (id);
-+ (id);
-- (void);
+- (void);
 - (long long);
 
 // Remaining properties

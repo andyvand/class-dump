@@ -6,7 +6,6 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFWifiNetworkAssociation, NSNumber, NSString;
 @protocol HMFWiFiManagerDataSourceDelegate;
 
 @interface HMFWiFiManagerDataSource : HMFObject
@@ -26,24 +25,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool)ponents;
+- (void)?;
+- (_Bool)decodeArrayOfDateComponents;
 
 // Remaining properties
-@property(readonly, getter=isAssertionActive) _Bool assertionActive;
-@property(readonly) unsigned long long assertionOptions; // @synthesize assertionOptions;
-@property(readonly, nonatomic, getter=isCaptive) _Bool captive;
-@property(readonly, copy) HMFWifiNetworkAssociation *currentNetworkAssociation;
-@property(readonly, copy, nonatomic) NSNumber *currentNetworkRSSI;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <HMFWiFiManagerDataSourceDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isWoWAsserted, setter=setWoWAsserted:) _Bool wowAsserted;
 
 @end
 

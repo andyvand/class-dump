@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface STGenericIntentDateRange
 {
     NSString *_name;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
 + (_Bool);
@@ -18,15 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
-
 @interface TIKeyboardTouchEvent
 {
     union {
@@ -14,14 +12,6 @@
             unsigned int continuousPathState:4;
         } fields;
     } _mask;
-    int _stage;
-    int _fingerID;
-    double _radius;
-    double _timestamp;
-    long long _pathIndex;
-    long long _forcedKeyCode;
-    NSUUID *_touchUUID;
-    struct CGPoint _location;
 }
 
 + (id);
@@ -34,17 +24,17 @@
 - (id);
 - (id);
 - (long long);
+- (int);
+- (int)A9(C;
 - (int);
-- (int);
-- (int);
+- (id)A;
 - (id);
-- (id);
-- (id);
+- (id)prepareDatabaseForOTARestoreIfNecessaryWithMigrationType: /* Error: Ran out of types for this method. */;
 - (double);
 - (long long);
 - (void);
 - (double);
-- (struct CGPoint)dLongLongValue;
+- (struct CGPoint)unsignedLongLongValue;
 - (void)
 Ë
 ­
@@ -52,15 +42,7 @@
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) int continuousPathState;
-@property(readonly, nonatomic) int fingerID; // @synthesize fingerID=_fingerID;
-@property(readonly, nonatomic) long long forcedKeyCode; // @synthesize forcedKeyCode=_forcedKeyCode;
-@property(readonly, nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(readonly, nonatomic) long long pathIndex; // @synthesize pathIndex=_pathIndex;
-@property(readonly, nonatomic) double radius; // @synthesize radius=_radius;
 @property(readonly, nonatomic) int stage; // @synthesize stage=_stage;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, copy, nonatomic) NSUUID *touchUUID; // @synthesize touchUUID=_touchUUID;
 
 @end
 

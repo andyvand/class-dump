@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CKDUploadAssetsOperationInfo
 {
     _Bool _temporary;
-    _Bool _shouldCloneFileInAssetCache;
-    NSArray *_assetsToUpload;
-    NSDictionary *_assetUUIDToExpectedProperties;
-    NSDictionary *_packageUUIDToExpectedProperties;
-    NSDictionary *_cloneContextsBySignature;
 }
 
 - (id);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)subEndpoint [%{ptr}] with features %#ll{flags} 
+;
+- (void)ationManager;
+- (void)SystemUSBEventCount;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void)Ä¢ð¢À£;
 - (id)Couldn't get a public sharing identity for share %@:%@ /* Error: Ran out of types for this method. */;
@@ -31,12 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetUUIDToExpectedProperties; // @synthesize assetUUIDToExpectedProperties=_assetUUIDToExpectedProperties;
 @property(retain, nonatomic) NSArray *assetsToUpload; // @synthesize assetsToUpload=_assetsToUpload;
-@property(retain, nonatomic) NSDictionary *cloneContextsBySignature; // @synthesize cloneContextsBySignature=_cloneContextsBySignature;
-@property(retain, nonatomic) NSDictionary *packageUUIDToExpectedProperties; // @synthesize packageUUIDToExpectedProperties=_packageUUIDToExpectedProperties;
-@property(nonatomic) _Bool shouldCloneFileInAssetCache; // @synthesize shouldCloneFileInAssetCache=_shouldCloneFileInAssetCache;
-@property(nonatomic) _Bool temporary; // @synthesize temporary=_temporary;
 
 @end
 

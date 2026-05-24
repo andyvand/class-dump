@@ -11,12 +11,10 @@
 @interface UICheckeredPatternView : UIView
 {
     UIColor *_patternColor;
-    double _scale;
-    UIColor *_checkerColor;
 }
 
-- (void);
-- (void);
+- (void)t full sync so device has started doing periodic syncs. Logging full periodic sync metric.;
+- (void)ection %@ with enabled topics %@;
 - (id);
 - (id)UIColor",C,N,V_fillColor;
 - (void)¸ÅþÿõîÿÔöîÿ®øîÿ;

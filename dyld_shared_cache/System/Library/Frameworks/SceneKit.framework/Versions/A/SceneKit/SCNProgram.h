@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol MTLLibrary, SCNMetalLibraryProvider, SCNProgramDelegate;
+@class NSString;
 
 @interface SCNProgram
 {
     NSString *_vertexShader;
-    NSString *_tessellationControlShader;
-    NSString *_tessellationEvaluationShader;
-    NSString *_geometryShader;
-    NSString *_fragmentShader;
-    NSString *_vertexFunctionName;
-    NSString *_fragmentFunctionName;
-    NSString *_name;
-    NSString *_sourceFile;
-    NSMutableDictionary *_semanticInfos;
-    _Bool _opaque;
-    id <MTLLibrary> _library;
-    id <SCNMetalLibraryProvider> _libraryProvider;
-    id _delegate;
-    NSMutableDictionary *_bufferBindings;
 }
 
 + (id);
@@ -38,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -689,15 +674,6 @@ void main()
 ;
 
 // Remaining properties
-@property(nonatomic) id <SCNProgramDelegate> delegate;
-@property(copy, nonatomic) NSString *fragmentFunctionName;
-@property(copy, nonatomic) NSString *fragmentShader;
-@property(copy, nonatomic) NSString *geometryShader;
-@property(retain, nonatomic) id <MTLLibrary> library;
-@property(nonatomic, getter=isOpaque) _Bool opaque;
-@property(copy, nonatomic) NSString *tessellationControlShader;
-@property(copy, nonatomic) NSString *tessellationEvaluationShader;
-@property(copy, nonatomic) NSString *vertexFunctionName;
 @property(copy, nonatomic) NSString *vertexShader;
 
 @end

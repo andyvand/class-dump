@@ -6,27 +6,14 @@
 
 #import <CloudKitDaemon/CKDOperation.h>
 
-@class CKShareMetadata, NSData, NSString;
-@protocol CKCompleteParticipantVettingOperationCallbacks><CKDOperationCallbackProxy;
-
 @interface CKDCompleteParticipantVettingOperation : CKDOperation
 {
     CDUnknownBlockType _verifyProgressURLReconstructedBlock;
-    CDUnknownBlockType _verifyProgressShareMetadataFetchedBlock;
-    NSString *_vettingToken;
-    NSString *_vettingEmail;
-    NSString *_vettingPhone;
-    NSString *_routingKey;
-    NSData *_encryptedKey;
-    NSString *_baseToken;
-    NSString *_displayedHostname;
-    NSString *_shortToken;
-    CKShareMetadata *_shareMetadata;
 }
 
-+ (id);
++ (id)setRoamsAfterSupprLifted:(unsigned long long)arg1;
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
@@ -40,33 +27,21 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Ru;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)UsoTaskBuilder_checkLike_common_UserFavorite;
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id)serID;
+- (id)orgAdminUserID;
 - (void)ord zone %@ from server:%@ /* Error: Ran out of types for this method. */;
 - (id)ner:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *baseToken; // @synthesize baseToken=_baseToken;
-@property(retain, nonatomic) id <CKCompleteParticipantVettingOperationCallbacks><CKDOperationCallbackProxy> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(readonly, nonatomic) NSString *displayedHostname; // @synthesize displayedHostname=_displayedHostname;
-@property(readonly, nonatomic) NSData *encryptedKey; // @synthesize encryptedKey=_encryptedKey;
-@property(readonly, nonatomic) NSString *routingKey; // @synthesize routingKey=_routingKey;
-@property(retain, nonatomic) CKShareMetadata *shareMetadata; // @synthesize shareMetadata=_shareMetadata;
-@property(retain, nonatomic) NSString *shortToken; // @synthesize shortToken=_shortToken;
 @property(nonatomic) unsigned long long state; // @dynamic state;
-@property(copy, nonatomic) CDUnknownBlockType verifyProgressShareMetadataFetchedBlock; // @synthesize verifyProgressShareMetadataFetchedBlock=_verifyProgressShareMetadataFetchedBlock;
-@property(copy, nonatomic) CDUnknownBlockType verifyProgressURLReconstructedBlock; // @synthesize verifyProgressURLReconstructedBlock=_verifyProgressURLReconstructedBlock;
-@property(readonly, nonatomic) NSString *vettingEmail; // @synthesize vettingEmail=_vettingEmail;
-@property(readonly, nonatomic) NSString *vettingPhone; // @synthesize vettingPhone=_vettingPhone;
-@property(readonly, nonatomic) NSString *vettingToken; // @synthesize vettingToken=_vettingToken;
 
 @end
 

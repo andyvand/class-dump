@@ -4,43 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchBrandCountInfo
 {
     PBDataReader *_reader;
-    NSString *_brandKey;
-    NSMutableArray *_brandRelationships;
-    NSMutableArray *_countryOccurrences;
-    NSString *_legacyBrandName;
-    unsigned long long _muid;
-    unsigned long long _parentMuid;
-    unsigned long long _total;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int has_muid:1;
-        unsigned int has_parentMuid:1;
-        unsigned int has_total:1;
-        unsigned int read_brandKey:1;
-        unsigned int read_brandRelationships:1;
-        unsigned int read_countryOccurrences:1;
-        unsigned int read_legacyBrandName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)audioRecorder;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (id);
 - (id)="read_unknownFields"b1"read_action"b1"read_artworkOverride"b1"read_details"b1"read_metadata"b1"read_timeString"b1"read_title"b1"wrote_anyField"b1};
-- (id)ItemContainer;
+- (id)_picItemContainer;
 - (id)´o;
 - (void);
 

@@ -9,14 +9,14 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)4;
+- (void);
 - (struct _NSRange);
 - (struct _NSRange);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)Ú;
 - (void);
 - (void);
 - (void);
@@ -27,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setStiffness:(struct _NSRange)arg1;
 - (_Bool);
 - (_Bool);
 - (void);

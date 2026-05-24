@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ChatKit.CKBackgroundMotionEventsManager;
+
 @protocol ChatKit.CKBackgroundMotionEventsManagerDelegate
+- (void)initWithManagedObjectContext:(ChatKit.CKBackgroundMotionEventsManager *)arg1 folder: /* Error: Ran out of types for this method. */;
+- (void)initWithMainResource:(ChatKit.CKBackgroundMotionEventsManager *)arg1 subresources:subframeArchives: /* Error: Ran out of types for this method. */;
+- (void)initWithSize:(ChatKit.CKBackgroundMotionEventsManager *)arg1 scale: /* Error: Ran out of types for this method. */;
+- (void)initWithShouldShowSpinner:(ChatKit.CKBackgroundMotionEventsManager *)arg1 progressText: /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,15 +7,14 @@
 @class UITraitCollection;
 
 @protocol _UISheetPresentationControllerDetentResolutionContext
+- (double)conversationManager:linkInvitedMemberHandlesChangedForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (_Bool)account:conference:peerIDChangedFromID:toID: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_chatGUIDsToRemergeForContactChange: /* Error: Ran out of types for this method. */;
+- (struct CGRect)Array",R,N,V_memberStatusChanges;
+- (UITraitCollection *);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect _containerBounds;
-@property(readonly, nonatomic) struct UIEdgeInsets _containerSafeAreaInsets;
-@property(readonly, nonatomic) UITraitCollection *_containerTraitCollection;
-@property(readonly, nonatomic, getter=_isEdgeAttached) _Bool _edgeAttached;
-@property(readonly, nonatomic) struct CGRect _effectiveKeyboardFrame;
-@property(readonly, nonatomic) struct CGRect _fullHeightPresentedViewFrame;
-@property(readonly, nonatomic, getter=_isInverted) _Bool _inverted;
-@property(readonly, nonatomic) double _maximumDetentValue;
 @end
 

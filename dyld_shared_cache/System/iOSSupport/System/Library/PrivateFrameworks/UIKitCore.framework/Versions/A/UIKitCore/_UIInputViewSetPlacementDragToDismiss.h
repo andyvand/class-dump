@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool)transitionContainer;
-- (void)lesUpdateLastUsedInputModeTimer:(id)arg1;
+- (void)setDisablesUpdateLastUsedInputModeTimer:(id)arg1;
 - (Class);
 - (id)nViewTableLayout rows will result in layout issues in the collection view. Please ensure that row heights are integral values. This message will only be logged once.;
 - (void)ws deeper in the view controller hierarchy than the window's root view controller. The safeAreaAspectFitLayoutGuide should only be used for displaying full-window/full-screen media content with views that are direct subviews or close descendants of the guide's window. %@;

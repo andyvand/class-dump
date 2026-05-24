@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface NSPrintCopyingGraphicsContext : NSCGSContext
 {
     NSDictionary *_attributes;
-    _Bool _isCopyingToPDF;
 }
 
-- (id);
+- (id)#;
 - (void);
-- (void);
-- (void);
+- (void)setRequiresInexpensiveNetworkConnectivity:(struct CGRect)arg1;
+- (void)setMultipathServiceType:(id)arg1;
 - (void);
 - (void);
 - (id);

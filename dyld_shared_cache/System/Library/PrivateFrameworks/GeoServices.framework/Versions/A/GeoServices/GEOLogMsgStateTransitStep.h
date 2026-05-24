@@ -9,15 +9,11 @@
 @interface GEOLogMsgStateTransitStep
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _currentStep;
-    struct {
-        unsigned int has_currentStep:1;
-    } _flags;
 }
 
-+ (_Bool)nstructionsForAllModes:(id)arg1;
++ (_Bool)setHasSupportsGenericCombinationsInstructionsForAllModes:(id)arg1;
 - (void);
-- (_Bool);
+- (_Bool)__TEXT;
 - (void);
 - (id);
 - (id);
@@ -29,8 +25,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)ersWithIdentifiers:(struct _NSZone *)arg1 traits: /* Error: Ran out of types for this method. */;
-- (id)ingAsArtworkUse: /* Error: Ran out of types for this method. */;
+- (id)ticketForRefreshingEVChargersWithIdentifiers:(struct _NSZone *)arg1 traits: /* Error: Ran out of types for this method. */;
+- (id)StringAsArtworkUse: /* Error: Ran out of types for this method. */;
 - (id)r at address %p with %d allocations still alive;
 - (void)BackgroundPlaceRequest.;
 - (id)/¸>°/´>à/°>ø/¬>0¸;
@@ -38,9 +34,7 @@
 - (void)|@ØþU;
 
 // Remaining properties
-@property(nonatomic) unsigned int currentStep;
 @property(nonatomic) _Bool hasCurrentStep;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

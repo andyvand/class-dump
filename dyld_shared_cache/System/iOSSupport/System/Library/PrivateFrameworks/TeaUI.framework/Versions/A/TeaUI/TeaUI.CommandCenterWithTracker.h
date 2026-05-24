@@ -7,7 +7,6 @@
 @interface TeaUI.CommandCenterWithTracker
 {
     id commandCenter;
-    id commandTracker;
 }
 
 @end

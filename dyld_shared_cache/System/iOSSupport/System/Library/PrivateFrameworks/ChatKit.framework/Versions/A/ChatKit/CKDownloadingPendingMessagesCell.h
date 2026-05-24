@@ -11,25 +11,21 @@
 @interface CKDownloadingPendingMessagesCell : CKTranscriptCell
 {
     NSAttributedString *_pendingMessageCountAttributedText;
-    unsigned long long _totalSatelliteMessageCount;
-    CKDownloadingPendingMessagesView *_pendingMessagesContentView;
 }
 
-- (void);
-- (void);
+- (void)AirDropDocumentUI;
+- (void)NSTouchBarProvider;
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)c;
+- (void)ed OCR;
 - (unsigned long long);
 - (void);
-- (id);
+- (id)`;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSAttributedString *pendingMessageCountAttributedText; // @synthesize pendingMessageCountAttributedText=_pendingMessageCountAttributedText;
 @property(retain, nonatomic) CKDownloadingPendingMessagesView *pendingMessagesContentView; // @synthesize pendingMessagesContentView=_pendingMessagesContentView;
-@property(nonatomic) unsigned long long totalSatelliteMessageCount; // @synthesize totalSatelliteMessageCount=_totalSatelliteMessageCount;
 
 @end
 

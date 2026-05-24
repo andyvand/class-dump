@@ -7,39 +7,30 @@
 @interface AWDDEDFinisherStarted
 {
     unsigned long long _numbytes;
-    unsigned long long _numfiles;
-    unsigned long long _timestamp;
-    int _type;
-    struct {
-        unsigned int numbytes:1;
-        unsigned int numfiles:1;
-        unsigned int timestamp:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
+- (_Bool)(;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)setRegistrationDate: /* Error: Ran out of types for this method. */;
+- (void)figuration;
+- (void)9kU;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)lysisToolData.GnssObservable;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)h;
 - (id);
 - (int);
 - (id);
@@ -47,14 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumbytes;
-@property(nonatomic) _Bool hasNumfiles;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) unsigned long long numbytes; // @synthesize numbytes=_numbytes;
-@property(nonatomic) unsigned long long numfiles; // @synthesize numfiles=_numfiles;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobV2MomentsSettings
 {
     unsigned int _capabilities;
-    unsigned int _supportedCodecs;
-    struct {
-        unsigned int capabilities:1;
-        unsigned int supportedCodecs:1;
-    } _has;
 }
 
 + (unsigned int);
@@ -28,34 +23,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool));
 - (unsigned char);
 - (unsigned char);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (unsigned int);
-- (id);
+- (id)PrivateFrameworks/login.framework/Versions/A/login;
 - (_Bool)e the negotiation data;
 - (void)trieve base stream;
 
 // Remaining properties
-@property(nonatomic) unsigned int capabilities; // @synthesize capabilities=_capabilities;
-@property(readonly, nonatomic) unsigned char capabilitiesMultiway;
-@property(readonly, nonatomic) unsigned char capabilitiesOneToOne;
-@property(nonatomic) _Bool hasCapabilities;
-@property(nonatomic) _Bool hasSupportedCodecs;
-@property(readonly, nonatomic) NSSet *imageTypes;
-@property(nonatomic) unsigned int supportedCodecs; // @synthesize supportedCodecs=_supportedCodecs;
 @property(readonly, nonatomic) NSSet *videoCodecs;
 
 @end

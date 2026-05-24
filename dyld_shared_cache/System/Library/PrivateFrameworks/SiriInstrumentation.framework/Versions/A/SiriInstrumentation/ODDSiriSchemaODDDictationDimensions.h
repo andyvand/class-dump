@@ -6,28 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaISOLocale;
+@class NSString;
 
 @interface ODDSiriSchemaODDDictationDimensions : SISchemaInstrumentationMessage
 {
     NSString *_systemBuild;
-    int _dataSharingOptInStatus;
-    int _viewInterface;
-    NSString *_audioInterfaceVendorId;
-    NSString *_audioInterfaceProductId;
-    int _asrLocation;
-    SISchemaISOLocale *_dictationLocale;
-    int _invocationSource;
-    struct {
-        unsigned int dataSharingOptInStatus:1;
-        unsigned int viewInterface:1;
-        unsigned int asrLocation:1;
-        unsigned int invocationSource:1;
-    } _has;
-    _Bool _hasSystemBuild;
-    _Bool _hasAudioInterfaceVendorId;
-    _Bool _hasAudioInterfaceProductId;
-    _Bool _hasDictationLocale;
 }
 
 - (int);
@@ -37,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,7 +33,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -72,7 +55,7 @@
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)olic path %@:(id)arg1 %@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -83,23 +66,7 @@
 - (void)rySpanData.priorScore;
 
 // Remaining properties
-@property(nonatomic) int asrLocation; // @synthesize asrLocation=_asrLocation;
-@property(copy, nonatomic) NSString *audioInterfaceProductId; // @synthesize audioInterfaceProductId=_audioInterfaceProductId;
-@property(copy, nonatomic) NSString *audioInterfaceVendorId; // @synthesize audioInterfaceVendorId=_audioInterfaceVendorId;
-@property(nonatomic) int dataSharingOptInStatus; // @synthesize dataSharingOptInStatus=_dataSharingOptInStatus;
-@property(retain, nonatomic) SISchemaISOLocale *dictationLocale; // @synthesize dictationLocale=_dictationLocale;
-@property(nonatomic) _Bool hasAsrLocation;
-@property(nonatomic) _Bool hasAudioInterfaceProductId; // @synthesize hasAudioInterfaceProductId=_hasAudioInterfaceProductId;
-@property(nonatomic) _Bool hasAudioInterfaceVendorId; // @synthesize hasAudioInterfaceVendorId=_hasAudioInterfaceVendorId;
-@property(nonatomic) _Bool hasDataSharingOptInStatus;
-@property(nonatomic) _Bool hasDictationLocale; // @synthesize hasDictationLocale=_hasDictationLocale;
-@property(nonatomic) _Bool hasInvocationSource;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(nonatomic) _Bool hasViewInterface;
-@property(nonatomic) int invocationSource; // @synthesize invocationSource=_invocationSource;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
-@property(nonatomic) int viewInterface; // @synthesize viewInterface=_viewInterface;
 
 @end
 

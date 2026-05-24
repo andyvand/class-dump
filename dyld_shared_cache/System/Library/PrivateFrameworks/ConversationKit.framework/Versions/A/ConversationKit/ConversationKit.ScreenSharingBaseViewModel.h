@@ -7,9 +7,6 @@
 @interface ConversationKit.ScreenSharingBaseViewModel
 {
     id _isScreenSharing;
-    id _isClientCursorAvailable;
-    id _videoInformation;
-    id _activeParticipant;
 }
 
 @end

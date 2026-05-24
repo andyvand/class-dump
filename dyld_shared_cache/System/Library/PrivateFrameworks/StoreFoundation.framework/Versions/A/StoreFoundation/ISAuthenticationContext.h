@@ -4,37 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface ISAuthenticationContext
 {
     NSNumber *_accountID;
-    NSDictionary *_additionalQueryParameters;
-    NSDictionary *_dialogDictionary;
-    long long _bagType;
-    NSDictionary *_signUpQueryParameters;
-    _Bool _shouldFollowAccountButtons;
-    long long _style;
-    _Bool _useCachedCredentials;
-    long long _authenticationReason;
-    NSString *_appleIDOverride;
-    _Bool _enforceAppleIDOverride;
-    NSString *_applicationName;
-    _Bool _demoMode;
-    _Bool _demoAutologinMode;
-    NSString *_demoAccountName;
-    NSString *_demoAccountPassword;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
+- (void)�;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,8 +29,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (long long);
 - (id);
 - (id);
@@ -60,27 +45,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)s0;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly) NSNumber *accountID; // @synthesize accountID=_accountID;
-@property(retain) NSDictionary *additionalQueryParameters; // @synthesize additionalQueryParameters=_additionalQueryParameters;
-@property(retain) NSString *appleIDOverride; // @synthesize appleIDOverride=_appleIDOverride;
-@property(retain) NSString *applicationName; // @synthesize applicationName=_applicationName;
-@property long long authenticationReason; // @synthesize authenticationReason=_authenticationReason;
-@property long long authenticationStyle; // @synthesize authenticationStyle=_style;
-@property long long bagType; // @synthesize bagType=_bagType;
-@property(retain) NSString *demoAccountName; // @synthesize demoAccountName=_demoAccountName;
-@property(retain) NSString *demoAccountPassword; // @synthesize demoAccountPassword=_demoAccountPassword;
-@property _Bool demoAutologinMode; // @synthesize demoAutologinMode=_demoAutologinMode;
 @property _Bool demoMode; // @synthesize demoMode=_demoMode;
-@property(retain) NSDictionary *dialogDictionary; // @synthesize dialogDictionary=_dialogDictionary;
-@property _Bool enforceAppleIDOverride; // @synthesize enforceAppleIDOverride=_enforceAppleIDOverride;
-@property _Bool shouldFollowAccountButtons; // @synthesize shouldFollowAccountButtons=_shouldFollowAccountButtons;
-@property(retain) NSDictionary *signUpQueryParameters; // @synthesize signUpQueryParameters=_signUpQueryParameters;
-@property _Bool useCachedCredentials; // @synthesize useCachedCredentials=_useCachedCredentials;
 
 @end
 

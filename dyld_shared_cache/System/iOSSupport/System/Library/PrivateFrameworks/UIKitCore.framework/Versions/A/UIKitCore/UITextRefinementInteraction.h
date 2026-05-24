@@ -6,39 +6,30 @@
 
 #import <UIKitCore/UITextInteraction.h>
 
-@class UIDelayedAction, UIResponder, UITextGestureTuning, _UITextLoupeResponderProxy;
-@protocol UITextRefinementInteractionBehaviorDelegate;
+@class UIDelayedAction, _UITextLoupeResponderProxy;
 
 __attribute__((visibility("hidden")))
 @interface UITextRefinementInteraction : UITextInteraction
 {
     UIDelayedAction *_delayedLoupeAction;
-    UIDelayedAction *_delayedSelectionAction;
-    _Bool _hasPerformedInteraction;
-    struct CGPoint _initialPointFromPreviousInteraction;
-    _Bool _triggeredByLongPress;
-    UITextGestureTuning *_gestureTuning;
-    long long _inheritedGranularity;
-    id <UITextRefinementInteractionBehaviorDelegate> _behaviorDelegate;
-    _UITextLoupeResponderProxy *_responderProxy;
 }
 
+- (void)requestVCWithPerson:properties:conference: /* Error: Ran out of types for this method. */;
+- (void)processAttachmentsForPeerRelayForMessage:(id)arg1 lastAddressHandle:lastAddressedSIMID:completionBlock:uploadFailureBlock: /* Error: Ran out of types for this method. */;
+- (void)permanentlyDeleteRecoverableMessagesInChatsWithGUIDs:(struct CGPoint)arg1 completionHandler:(struct CGPoint)arg2;
+- (void)parser:(struct CGPoint)arg1 foundAttributes:inRange:fileTransferGUID:filename:bookmark:width:height: /* Error: Ran out of types for this method. */;
+- (_Bool)loginWithAccount: /* Error: Ran out of types for this method. */;
+- (_Bool)sageProtocol:(struct CGPoint)arg1;
+- (struct CGPoint)isIntroductionsEnabled;
+- (_Bool)fileTransferExplicitDownloadFailed:suggestedRetryGUID:error: /* Error: Ran out of types for this method. */;
+- (_Bool)deleteAttachmentsForMessage: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)conversationManager:(struct CGPoint)arg1 conversation:participant:addedNotice: /* Error: Ran out of types for this method. */;
+- (void)backCompatParentChatIDForMergedBusinessThread:(_Bool)arg1;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (struct CGPoint);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_updateAliasToCNIDMapAndHistoryTokenWithCompletionHandler:(_Bool)arg1;
+- (void)_checkPowerAssertion;
+- (void)SString",R,C,N,V_GUID;
 - (struct CGPoint);
 - (void);
 - (void);
@@ -46,21 +37,21 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
+- (void)0;
+- (void)account:%@ /* Error: Ran out of types for this method. */;
+- (void)%@;
+- (id)security level downgraded with error:%@. Broadcasting new state if needed. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)A;
+- (id)v;
 - (void)Z°1Â0@ù
 × ;
-- (_Bool)tGuideHeight;
+- (_Bool)_updateSeparatorLayoutGuideHeight;
 - (_Bool)rappingUpProofreadingSession;
 - (_Bool)tBackgroundEffect;
-- (void)hogonallyScrolling:(long long)arg1;
-- (void)iedBefore;
+- (void)isSectionOrthogonallyScrolling:(long long)arg1;
+- (void)overridesAppliedBefore;
 - (void)IImageNameStandaloneIndicatorDot.png;
 - (_Bool)l effect view is not supported;
 - (id)Assistant;
@@ -70,14 +61,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)ùìÿø;
 
 // Remaining properties
-@property(retain, nonatomic) id <UITextRefinementInteractionBehaviorDelegate> behaviorDelegate; // @synthesize behaviorDelegate=_behaviorDelegate;
-@property(readonly, nonatomic) UITextGestureTuning *gestureTuning; // @synthesize gestureTuning=_gestureTuning;
-@property(nonatomic) long long inheritedGranularity; // @synthesize inheritedGranularity=_inheritedGranularity;
-@property(readonly, nonatomic) UIResponder *responder;
 @property(retain, nonatomic) _UITextLoupeResponderProxy *responderProxy; // @synthesize responderProxy=_responderProxy;
-@property(nonatomic) _Bool shouldUseLineThreshold;
-@property(nonatomic) _Bool strongerBiasAgainstUp;
-@property(nonatomic) _Bool triggeredByLongPress; // @synthesize triggeredByLongPress=_triggeredByLongPress;
 
 @end
 

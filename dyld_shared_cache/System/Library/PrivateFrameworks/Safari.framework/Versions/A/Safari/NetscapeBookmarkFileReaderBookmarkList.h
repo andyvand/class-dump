@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SafariWebBookmark, SafariWebBookmarkList, Test_NetscapeBookmarkFileReaderBookmarkItem, Test_NetscapeBookmarkFileReaderBookmarkList, WebBookmarkGroup;
+@class SafariWebBookmarkList, WebBookmarkGroup;
 
 __attribute__((visibility("hidden")))
 @interface NetscapeBookmarkFileReaderBookmarkList
 {
     SafariWebBookmarkList *_bookmarkList;
-    Test_NetscapeBookmarkFileReaderBookmarkList *_test_bookmarkList;
 }
 
 - (id);
@@ -24,17 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) SafariWebBookmark *bookmark;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) WebBookmarkGroup *group;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long numberOfChildren;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) Test_NetscapeBookmarkFileReaderBookmarkItem *test_bookmark;
 
 @end
 

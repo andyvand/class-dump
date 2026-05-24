@@ -10,7 +10,7 @@
 
 + (long long);
 + (id);
-+ (void);
++ (void) ;
 + (void);
 + (void);
 + (void);

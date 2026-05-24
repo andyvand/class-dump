@@ -9,26 +9,20 @@
 @interface BMPBNameComponents
 {
     NSString *_familyName;
-    NSString *_givenName;
-    NSString *_middleName;
-    NSString *_namePrefix;
-    NSString *_nameSuffix;
-    NSString *_nickname;
-    NSString *_previousFamilyName;
 }
 
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)hh8;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -36,7 +30,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)leArray";
 - (id);
 - (id);
 - (void);
@@ -50,20 +44,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(retain, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(readonly, nonatomic) _Bool hasFamilyName;
-@property(readonly, nonatomic) _Bool hasGivenName;
-@property(readonly, nonatomic) _Bool hasMiddleName;
 @property(readonly, nonatomic) _Bool hasNamePrefix;
-@property(readonly, nonatomic) _Bool hasNameSuffix;
-@property(readonly, nonatomic) _Bool hasNickname;
-@property(readonly, nonatomic) _Bool hasPreviousFamilyName;
-@property(retain, nonatomic) NSString *middleName; // @synthesize middleName=_middleName;
-@property(retain, nonatomic) NSString *namePrefix; // @synthesize namePrefix=_namePrefix;
-@property(retain, nonatomic) NSString *nameSuffix; // @synthesize nameSuffix=_nameSuffix;
-@property(retain, nonatomic) NSString *nickname; // @synthesize nickname=_nickname;
-@property(retain, nonatomic) NSString *previousFamilyName; // @synthesize previousFamilyName=_previousFamilyName;
 
 @end
 

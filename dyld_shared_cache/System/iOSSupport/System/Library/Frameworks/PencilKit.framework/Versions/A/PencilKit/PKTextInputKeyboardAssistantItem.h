@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaletteFloatingKeyboardController, PKTextInputLanguageSelectionToken, UIImage;
-@protocol PKTextInputKeyboardAssistantItemDelegate;
+@class PKPaletteFloatingKeyboardController;
 
 @interface PKTextInputKeyboardAssistantItem
 {
     long long _floatingKeyboardType;
-    UIImage *_indicatorImage;
-    PKTextInputLanguageSelectionToken *_observerToken;
-    id <PKTextInputKeyboardAssistantItemDelegate> _delegate;
-    PKPaletteFloatingKeyboardController *_floatingKeyboardController;
 }
 
 - (void);
@@ -31,18 +26,10 @@
 - (id);
 - (id);
 - (void);
-- (void)ionTime;
+- (void)_completionTime;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKTextInputKeyboardAssistantItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) PKPaletteFloatingKeyboardController *floatingKeyboardController; // @synthesize floatingKeyboardController=_floatingKeyboardController;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

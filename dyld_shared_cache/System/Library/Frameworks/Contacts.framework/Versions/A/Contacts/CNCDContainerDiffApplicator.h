@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
-- (void)ainers;
+- (id)?<v@?B@"NSError">36;
+- (void)updatedContainers;
 
 // Remaining properties
 @property(readonly, nonatomic) CNCDSaveContext *saveContext; // @synthesize saveContext=_saveContext;

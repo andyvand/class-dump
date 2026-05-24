@@ -4,68 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NTPBRecommendationBrickExposure
 {
     NSString *_feedId;
-    int _feedType;
-    int _recommendationBrickType;
-    NSMutableArray *_recommendedFeedIds;
-    _Bool _exposedFromReferredUser;
-    struct {
-        unsigned int feedType:1;
-        unsigned int recommendationBrickType:1;
-        unsigned int exposedFromReferredUser:1;
-    } _has;
 }
 
-+ (Class);
++ (Class)_stepContextWithIdentifier:viewTitle:firstButtonType: /* Error: Ran out of types for this method. */;
+- (void)hasPoorSystemConditions;
+- (void)hasLoadedInitially;
+- (void)fetchEstimatedAssetsCountsShareEverythingPolicyWithCompletion:(_Bool)arg1;
+- (void)enumerateCuratedLibraryHitTestResultsInDirection:(_Bool)arg1 fromSpriteReference:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)drawAsset:(_Bool)arg1 inRect:context: /* Error: Ran out of types for this method. */;
+- (unsigned long long)descriptorForRequiredKeysForStyle: /* Error: Ran out of types for this method. */;
+- (id)descriptionWithShortStyle:(unsigned long long)arg1;
+- (id)descriptionProperties;
+- (id)denseZoomLevelForZoomState:(int)arg1;
+- (int)denormalizePoint:masterSize:flipYCoordinate: /* Error: Ran out of types for this method. */;
+- (_Bool)count;
+- (_Bool)commentedAsset;
+- (_Bool)colorLookupCubeForColorGradeKind: /* Error: Ran out of types for this method. */;
+- (id)chapterCollectionProgress;
+- (_Bool)changeRequestForCollectionList:childCollections: /* Error: Ran out of types for this method. */;
+- (void)canShowSelectButton;
+- (void)blackOverlayForFirstThumbnail;
+- (int)auxiliaryTransitionEffectAlpha;
+- (void)authenticationTypeObserver;
+- (int)assistantForAssistantViewController:(id)arg1 failedWithError: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (_Bool);
+- (id)i;
 - (id);
+- (void);
+- (void);
+- (unsigned long long)setBorderWidth: /* Error: Ran out of types for this method. */;
+- (_Bool)d during post-processing.;
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (int);
-- (void);
-- (int);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (int);
-- (void)ecedingLocation: /* Error: Ran out of types for this method. */;
+- (void)setPrecedingLocation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool exposedFromReferredUser; // @synthesize exposedFromReferredUser=_exposedFromReferredUser;
-@property(retain, nonatomic) NSString *feedId; // @synthesize feedId=_feedId;
-@property(nonatomic) int feedType; // @synthesize feedType=_feedType;
-@property(nonatomic) _Bool hasExposedFromReferredUser;
-@property(readonly, nonatomic) _Bool hasFeedId;
 @property(nonatomic) _Bool hasFeedType;
-@property(nonatomic) _Bool hasRecommendationBrickType;
-@property(nonatomic) int recommendationBrickType; // @synthesize recommendationBrickType=_recommendationBrickType;
-@property(retain, nonatomic) NSMutableArray *recommendedFeedIds; // @synthesize recommendedFeedIds=_recommendedFeedIds;
 
 @end
 

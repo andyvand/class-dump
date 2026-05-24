@@ -7,10 +7,10 @@
 @class NSSet;
 
 @protocol PGSummarizedFeature
+- (_Bool)&;
+- (NSSet *)s/A/AccessibilityFoundation;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *intervalsPresent;
-@property(readonly, nonatomic) _Bool isMandatoryForKeyAsset;
 @property(readonly, nonatomic) unsigned short type;
 @end
 

@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBUpdateSearchQueryCommand
 {
     int _querySource;
-    NSString *_searchString;
 }
 
 - (int);
 - (void);
-- (id);
+- (id)B);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setHeadgearType:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (void)t"16;
 - (void)",&,N,V_rfReferenceStandardCardSection;
-- (id)esultProviderID;
+- (id)resultProviderID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int querySource; // @synthesize querySource=_querySource;
 @property(copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,51 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
-
 __attribute__((visibility("hidden")))
 @interface _UIBlurEffectTVRecipe
 {
     long long _style;
-    UIColor *_preBackdropTint;
-    double _preBackdropTintAlpha;
-    NSString *_preBackdropBlendMode;
-    UIColor *_backdropTint;
-    double _backdropTintAlpha;
-    double _blurRadius;
-    double _saturation;
 }
 
 + (id);
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)sendCounterProposalToPerson:(double)arg1 properties:conference: /* Error: Ran out of types for this method. */;
+- (void)sendCommand:(id)arg1 withProperties:toPerson:toChatID:identifier:style: /* Error: Ran out of types for this method. */;
+- (void)sendCommand:(id)arg1 withProperties:toPerson:toChatID:identifier:style: /* Error: Ran out of types for this method. */;
+- (void)hasChatBotPersistentMenu;
+- (void)hasChatBotBrandInfo;
+- (id)cachedStewieSharingChat;
+- (double)_unformattedID;
+- (id)_unexpectedlyLoggedOut;
 - (double);
+- (id)8;
 - (id);
-- (double);
-- (id);
-- (id);
-- (long long);
+- (long long)!;
 - (void);
 - (void)ÑcÐ1Â0@ù
 × ;
-- (double)s: /* Error: Ran out of types for this method. */;
-- (void)chmentBehavior;
+- (double)setButtons: /* Error: Ran out of types for this method. */;
+- (void)_gestureAttachmentBehavior;
 - (void)!ÊX^;
 - (double)½ÿüØùe;
 
 // Remaining properties
-@property(copy, nonatomic) UIColor *backdropTint; // @synthesize backdropTint=_backdropTint;
-@property(nonatomic) double backdropTintAlpha; // @synthesize backdropTintAlpha=_backdropTintAlpha;
-@property(nonatomic) double blurRadius; // @synthesize blurRadius=_blurRadius;
-@property(nonatomic) NSString *preBackdropBlendMode; // @synthesize preBackdropBlendMode=_preBackdropBlendMode;
-@property(copy, nonatomic) UIColor *preBackdropTint; // @synthesize preBackdropTint=_preBackdropTint;
-@property(nonatomic) double preBackdropTintAlpha; // @synthesize preBackdropTintAlpha=_preBackdropTintAlpha;
-@property(nonatomic) double saturation; // @synthesize saturation=_saturation;
 @property(nonatomic) long long style; // @synthesize style=_style;
 
 @end

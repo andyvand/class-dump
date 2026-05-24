@@ -5,5 +5,7 @@
 //
 
 @protocol SLPushAgentXPCProtocol
+- (void);
+- (void)h;
 @end
 

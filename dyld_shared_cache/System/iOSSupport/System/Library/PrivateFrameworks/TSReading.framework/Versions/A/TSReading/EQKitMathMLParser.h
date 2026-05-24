@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EQKitEnvironmentInstance, NSData, NSError;
-
 @interface EQKitMathMLParser
 {
     struct _xmlNode *mRootNode;
-    struct _xmlNs *mNS;
-    NSError *mError;
-    EQKitEnvironmentInstance *mEnvironment;
-    NSData *mSource;
-    struct stack<EQKitMathMLParserState, std::deque<EQKitMathMLParserState>> mState;
-    void *mAttributeCollection;
 }
 
 - (void);
+- (void)link:(long long)arg1 r:(struct _xmlNode *)arg2 path:/System/Library/PrivateFrameworks/SiriAudioSupport.framework/SiriAudioSupport /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void *);
+- (void *);
 - (id);
 - (struct _xmlNs *);
 - (id);
@@ -35,13 +27,11 @@
 - (id);
 - (int);
 - (void);
-- (id)Gamut;
+- (id)wideGamut;
 - (void)ineFragmentArray::line_iterator &, const TSWPLineFragmentArray::line_iterator &, unichar &, BOOL &, BOOL) /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) void *attributeCollection;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=mError;
 @property(readonly, nonatomic) struct _xmlNs *ns; // @synthesize ns=mNS;
 
 @end

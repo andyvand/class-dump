@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IASchemaIASiriMissEvaluationEnded, IASchemaIASiriMissEvaluationFailed, IASchemaIASiriMissEvaluationStarted, NSData;
+@class IASchemaIASiriMissEvaluationStarted;
 
 @interface IASchemaIASiriMissEvaluationContext : SISchemaInstrumentationMessage
 {
     IASchemaIASiriMissEvaluationStarted *_startedOrChanged;
-    IASchemaIASiriMissEvaluationEnded *_ended;
-    IASchemaIASiriMissEvaluationFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -25,13 +19,13 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)�C;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)ateFrameworks/AMPLibrary.framework/Versions/A/AMPLibrary;
 - (id);
 - (id);
 - (id);
@@ -41,21 +35,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)arrayByAddingObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)g",C,N,V_selectedSharedUserId;
 - (id)0Ü`¨¼¬ ;
 - (void)( Éÿ;
 
 // Remaining properties
-@property(retain, nonatomic) IASchemaIASiriMissEvaluationEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) IASchemaIASiriMissEvaluationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IASchemaIASiriMissEvaluationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

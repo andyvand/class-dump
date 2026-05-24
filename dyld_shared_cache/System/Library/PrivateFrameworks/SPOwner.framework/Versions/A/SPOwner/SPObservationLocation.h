@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 @interface SPObservationLocation
 {
     NSDate *_timestamp;
-    double _latitude;
-    double _longitude;
-    double _horizontalAccuracy;
-    double _altitude;
-    double _verticalAccuracy;
-    double _speed;
-    double _speedAccuracy;
-    double _course;
-    double _courseAccuracy;
-    NSNumber *_floorLevel;
 }
 
 + (_Bool);
@@ -30,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (double);
 - (id);
 - (id);
@@ -39,31 +29,21 @@
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (double);
-- (void);
-- (double);
+- (void)wnload of transfer guids:(id)arg1 %s from message guids:%s. /* Error: Ran out of types for this method. */;
+- (void)@;
+- (id)DaemonAttachmentBroadcastEntity;
+- (double)otSpam;
 - (double);
 - (void);
 - (double);
+- (double);
 - (void);
-- (double)Hint: /* Error: Ran out of types for this method. */;
+- (double);
+- (void)mework/Versions/A/UserManagement;
+- (double)setAllowNavGeoHintAsPrivateVehicleHint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(nonatomic) double course; // @synthesize course=_course;
-@property(nonatomic) double courseAccuracy; // @synthesize courseAccuracy=_courseAccuracy;
-@property(copy, nonatomic) NSNumber *floorLevel; // @synthesize floorLevel=_floorLevel;
-@property(nonatomic) double horizontalAccuracy; // @synthesize horizontalAccuracy=_horizontalAccuracy;
-@property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
-@property(nonatomic) double speedAccuracy; // @synthesize speedAccuracy=_speedAccuracy;
 @property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) double verticalAccuracy; // @synthesize verticalAccuracy=_verticalAccuracy;
 
 @end
 

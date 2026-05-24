@@ -7,10 +7,6 @@
 @interface ConversationKit.PositionalData
 {
     id _scrollViewBounds;
-    id _listBounds;
-    id _isBottomVisible;
-    id _isWithinAutoScrollTolerance;
-    id autoScrollTolerance;
 }
 
 @end

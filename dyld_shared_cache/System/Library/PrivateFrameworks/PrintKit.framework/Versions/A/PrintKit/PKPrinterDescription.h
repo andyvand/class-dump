@@ -4,53 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, NSString, NSURL, PKPaperList;
+@class NSDictionary;
 
 @interface PKPrinterDescription
 {
     NSDictionary *_txtRecord;
-    _Bool _wantsComprehensivePaperList;
-    _Bool _type_has_duplex;
-    _Bool _type_has_color;
-    _Bool _print_scaling_supported;
-    _Bool _pin_required;
-    _Bool _supportsPrintColorMode;
-    int _documentPasswordSupported;
-    int _max_pdf;
-    int _max_jpeg;
-    int _max_jpeg_x;
-    int _max_jpeg_y;
-    int _preferred_landscape;
-    int _identifyActions;
-    NSSet *_attrs_document_format_supported;
-    NSSet *_attrs_printer_native_formats;
-    NSArray *_attrs_media_source_supported;
-    NSString *_driverformat;
-    NSSet *_jpegFeatures;
-    NSSet *_mandatoryJobAttributes;
-    unsigned long long _jobAccountIDSupport;
-    unsigned long long _printer_type_from_cups_scalar;
-    NSArray *_sides;
-    NSArray *_orientations;
-    NSArray *_quality;
-    NSArray *_formats;
-    NSArray *_mediaColSupportedArray;
-    NSDictionary *_specialFeedOrientation;
-    PKPaperList *_paperList;
-    NSArray *_outputModes;
-    NSArray *_finishings;
-    NSArray *_finishingTemplates;
-    NSArray *_outputBins;
-    NSArray *_trays;
-    NSArray *_inputSlots;
-    NSArray *_mediaTypes;
-    NSArray *_jobPresets;
-    NSURL *_printerInfoURL;
-    NSURL *_suppliesInfoURL;
-    NSURL *_quotaManagementURL;
-    NSString *_deviceID;
-    NSDictionary *_dids;
-    NSDictionary *_translations;
 }
 
 + (id);
@@ -70,7 +28,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (int);
 - (_Bool);
@@ -92,24 +50,24 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (int);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)qh;
+- (id);
+- (id);
+- (void)T3;
 - (_Bool);
 - (id);
 - (id);
@@ -132,59 +90,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)KInputMarkingSessionTracker",&,N,V__inlineSessionTracker;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) NSSet *attrs_document_format_supported; // @synthesize attrs_document_format_supported=_attrs_document_format_supported;
-@property(readonly) NSArray *attrs_media_source_supported; // @synthesize attrs_media_source_supported=_attrs_media_source_supported;
-@property(readonly) NSSet *attrs_printer_native_formats; // @synthesize attrs_printer_native_formats=_attrs_printer_native_formats;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly) NSDictionary *dids; // @synthesize dids=_dids;
-@property(readonly) int documentPasswordSupported; // @synthesize documentPasswordSupported=_documentPasswordSupported;
-@property(readonly) NSString *driverformat; // @synthesize driverformat=_driverformat;
-@property(readonly) NSArray *finishingTemplates; // @synthesize finishingTemplates=_finishingTemplates;
-@property(readonly) NSArray *finishings; // @synthesize finishings=_finishings;
-@property(readonly) NSArray *formats; // @synthesize formats=_formats;
-@property(readonly) unsigned long long hash;
-@property(readonly) int identifyActions; // @synthesize identifyActions=_identifyActions;
-@property(readonly) NSArray *inputSlots; // @synthesize inputSlots=_inputSlots;
-@property(readonly) unsigned long long jobAccountIDSupport; // @synthesize jobAccountIDSupport=_jobAccountIDSupport;
-@property(readonly) NSArray *jobPresets; // @synthesize jobPresets=_jobPresets;
-@property(readonly) NSSet *jpegFeatures; // @synthesize jpegFeatures=_jpegFeatures;
-@property(readonly) NSSet *mandatoryJobAttributes; // @synthesize mandatoryJobAttributes=_mandatoryJobAttributes;
-@property(readonly) int max_jpeg; // @synthesize max_jpeg=_max_jpeg;
-@property(readonly) int max_jpeg_x; // @synthesize max_jpeg_x=_max_jpeg_x;
-@property(readonly) int max_jpeg_y; // @synthesize max_jpeg_y=_max_jpeg_y;
-@property(readonly) int max_pdf; // @synthesize max_pdf=_max_pdf;
-@property(readonly) NSArray *mediaColSupportedArray; // @synthesize mediaColSupportedArray=_mediaColSupportedArray;
-@property(readonly) NSArray *mediaTypes; // @synthesize mediaTypes=_mediaTypes;
-@property(readonly) NSArray *orientations; // @synthesize orientations=_orientations;
-@property(readonly) NSArray *outputBins; // @synthesize outputBins=_outputBins;
-@property(readonly) NSArray *outputModes; // @synthesize outputModes=_outputModes;
-@property(readonly) PKPaperList *paperList; // @synthesize paperList=_paperList;
-@property(readonly) _Bool pin_required; // @synthesize pin_required=_pin_required;
-@property(readonly) int preferred_landscape; // @synthesize preferred_landscape=_preferred_landscape;
-@property(readonly) _Bool print_scaling_supported; // @synthesize print_scaling_supported=_print_scaling_supported;
-@property(readonly) NSURL *printerInfoURL; // @synthesize printerInfoURL=_printerInfoURL;
-@property(readonly) unsigned long long printer_type_from_cups_scalar; // @synthesize printer_type_from_cups_scalar=_printer_type_from_cups_scalar;
-@property(readonly) NSArray *quality; // @synthesize quality=_quality;
-@property(readonly) NSURL *quotaManagementURL; // @synthesize quotaManagementURL=_quotaManagementURL;
-@property(readonly) NSArray *sides; // @synthesize sides=_sides;
-@property(readonly) NSDictionary *specialFeedOrientation; // @synthesize specialFeedOrientation=_specialFeedOrientation;
-@property(readonly) Class superclass;
-@property(readonly) NSURL *suppliesInfoURL; // @synthesize suppliesInfoURL=_suppliesInfoURL;
-@property(readonly) _Bool supportsPrintColorMode; // @synthesize supportsPrintColorMode=_supportsPrintColorMode;
-@property(readonly) NSDictionary *translations; // @synthesize translations=_translations;
-@property(readonly) NSArray *trays; // @synthesize trays=_trays;
-@property(readonly) _Bool type_has_color; // @synthesize type_has_color=_type_has_color;
-@property(readonly) _Bool type_has_duplex; // @synthesize type_has_duplex=_type_has_duplex;
 @property(readonly) _Bool wantsComprehensivePaperList;
 
 @end

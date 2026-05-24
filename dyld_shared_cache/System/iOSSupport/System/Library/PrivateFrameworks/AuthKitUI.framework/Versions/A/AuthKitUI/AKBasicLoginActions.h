@@ -7,11 +7,6 @@
 @interface AKBasicLoginActions
 {
     CDUnknownBlockType _authenticateAction;
-    CDUnknownBlockType _ak_cancelAction;
-    CDUnknownBlockType _createIDAction;
-    CDUnknownBlockType _useIDAction;
-    CDUnknownBlockType _forgotIDAction;
-    CDUnknownBlockType _forgotPasswordAction;
 }
 
 - (CDUnknownBlockType);
@@ -24,18 +19,13 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (CDUnknownBlockType);
-- (id);
+- (id)!;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType ak_cancelAction; // @synthesize ak_cancelAction=_ak_cancelAction;
 @property(copy, nonatomic) CDUnknownBlockType authenticateAction; // @synthesize authenticateAction=_authenticateAction;
-@property(copy, nonatomic) CDUnknownBlockType createIDAction; // @synthesize createIDAction=_createIDAction;
-@property(copy, nonatomic) CDUnknownBlockType forgotIDAction; // @synthesize forgotIDAction=_forgotIDAction;
-@property(copy, nonatomic) CDUnknownBlockType forgotPasswordAction; // @synthesize forgotPasswordAction=_forgotPasswordAction;
-@property(copy, nonatomic) CDUnknownBlockType useIDAction; // @synthesize useIDAction=_useIDAction;
 
 @end
 

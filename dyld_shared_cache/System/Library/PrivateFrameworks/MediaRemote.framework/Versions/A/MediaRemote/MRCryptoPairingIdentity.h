@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MRCryptoPairingIdentity
 {
     NSString *_identifier;
-    NSData *_publicKey;
-    NSData *_privateKey;
 }
 
 - (id);
@@ -18,12 +16,10 @@
 - (id);
 - (id);
 - (void)tifier;
-- (id)eMode;
+- (id)kMRMediaRemoteNowPlayingInfoShuffleMode;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSData *privateKey; // @synthesize privateKey=_privateKey;
-@property(readonly, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
 
 @end
 

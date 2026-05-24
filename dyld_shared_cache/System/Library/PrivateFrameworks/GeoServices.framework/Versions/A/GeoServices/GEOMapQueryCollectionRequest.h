@@ -13,27 +13,27 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-+ (_Bool)TPoseMs:(id)arg1;
++ (_Bool)setHasTPoseMs:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)decodeAddressingGrammarData: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)@;
 - (void);
-- (void);
+- (void)ple.siri.SiriDebug.RemoteNearMissGradingTrigger;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
 - (void);
-- (id)card;
-- (id)etForTileType:scale: /* Error: Ran out of types for this method. */;
+- (id)viewedDetailsFromPlacecard;
+- (id)activeTileSetForTileType:scale: /* Error: Ran out of types for this method. */;
 - (id)<	D;
 - (id)venue;
 - (Class)a¸P@;

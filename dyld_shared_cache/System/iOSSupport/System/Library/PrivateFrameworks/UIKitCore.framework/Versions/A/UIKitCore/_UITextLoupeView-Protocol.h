@@ -5,19 +5,15 @@
 //
 
 @class UIView;
-@protocol UICoordinateSpace, _UITextSelectionWidgetAnimating;
+@protocol _UITextSelectionWidgetAnimating;
 
 @protocol _UITextLoupeView
+- (struct CGPoint)?;
+- (UIView<_UITextSelectionWidgetAnimating> *);
 - (void)perancy;
-- (void);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) __weak UIView<_UITextSelectionWidgetAnimating> *animatableSelectionWidget;
-@property(readonly, nonatomic) id <UICoordinateSpace> containerCoordinateSpace;
-@property(nonatomic) double dismissalProgress;
-@property(nonatomic) struct CGPoint modelPosition;
 @property(readonly, nonatomic) struct CGSize preferredSize;
-@property(nonatomic) _Bool visible;
 @end
 

@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class FMDFMMAccountInfo, NSDictionary, NSString;
+
 @protocol FMDFMMUAServicesProtocol
+- (oneway void)fineTransform=dddddd}24{CGAffineTransform=dddddd}72@120^@128;
+- (oneway void)ransform=dddddd}24;
+- (oneway void)fineTransform=dddddd}16B64;
+- (oneway void):(NSDictionary *)arg1 8@16{CGAffineTransform=dddddd}24{CGAffineTransform=dddddd}72;
+- (oneway void)}};
+- (oneway void)mpedAngles, std:(NSString *)arg1:(void (^)(NSError *))arg2 allocator<TimestampedAngles>>="__begin_"^{TimestampedAngles}"__end_"^{TimestampedAngles}""{?="__cap_"^{TimestampedAngles}}};
+- (oneway void)16{_NSRange=QQ}24;
+- (oneway void)har, std:(void (^)(unsigned long long, NSError *))arg1:allocator<unsigned char>>=**{?=*}}}16Q56q64@72B80B84d88{shared_ptr<PKProtobufUnknownFields>=^{PKProtobufUnknownFields}^{__shared_weak_count}}96 /* Error: Ran out of types for this method. */;
+- (oneway void)@56@0:(NSString *)arg1 8r^{PKMetalPaintStrokePoint=ffb16b16}16r^{PKMetalLiveStrokePaintStrokePoint=ff}24Q32Q40@48;
+- (oneway void)2B40B44;
+- (oneway void)0@0:(FMDFMMAccountInfo *)arg1 8{CGPoint=dd}16{CGPoint=dd}32B48@?52;
 @end
 

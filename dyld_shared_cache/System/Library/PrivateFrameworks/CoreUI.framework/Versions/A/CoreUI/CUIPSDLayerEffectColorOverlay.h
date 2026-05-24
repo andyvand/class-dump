@@ -6,32 +6,26 @@
 
 #import <CoreUI/CUIPSDLayerEffectComponent.h>
 
-@class CUIColor;
-
 @interface CUIPSDLayerEffectColorOverlay : CUIPSDLayerEffectComponent
 {
     int _blendMode;
-    double _opacity;
-    CUIColor *_color;
 }
 
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned int);
 - (id);
 - (id);
 - (int);
 - (id);
-- (double);
+- (double)A;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property int blendMode; // @synthesize blendMode=_blendMode;
-@property(retain) CUIColor *color; // @synthesize color=_color;
-@property double opacity; // @synthesize opacity=_opacity;
 
 @end
 

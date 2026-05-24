@@ -10,17 +10,17 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)Count;
+- (id)tal Number of Windows;
+- (id)tp:(id)arg1 //www.macromedia.com, http://www.alistapart.com, http://www.msn.com /* Error: Ran out of types for this method. */;
+- (id)16^B24;
+- (id)expandedTableCellView;
+- (id)g whether the user wants to increase the current storage quota.;
+- (id)(RSS Feed);
+- (id)nt to allow this?;
+- (id)you a Wallet order. Do you want to allow this?;
+- (id)24@?0@"NSRemoteViewController"8@"NSError"16;
+- (id)SmartSearchFieldShowsFullURLPreferenceDidChangeNotification;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PXSharedAlbumActivityFeedViewControllerPresentationDelegate
+- (_Bool);
 @end
 

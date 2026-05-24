@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, SGBloomFilterChunk;
+@protocol SGBloomFilterChunk;
 
 @interface SGBloomFilter
 {
     id <SGBloomFilterChunk> _head;
-    id <SGBloomFilterChunk> _tail;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
@@ -19,12 +16,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)set_usingInSwiftSheet:(id)arg1;
+- (void)setErrorMessageLabel: /* Error: Ran out of types for this method. */;
+- (_Bool)appPathForDataclassIdentifier:(id)arg1;
 - (id);
 - (void);
-- (void)ContentTypes;
+- (void)supportedContentTypes;
 - (void);
 
 @end

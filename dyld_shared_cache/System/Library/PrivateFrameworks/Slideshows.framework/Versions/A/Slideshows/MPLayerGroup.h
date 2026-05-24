@@ -4,57 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCContainerParallelizer, MCPlugParallel, MPAudioPlaylist, MPLayerGroupInternal, NSArray, NSColor, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
+@class MPLayerGroupInternal;
 
 @interface MPLayerGroup
 {
     MPLayerGroupInternal *_internal;
-    NSMutableArray *_userProvidedVideoPaths;
-    NSMutableArray *_userProvidedAudioPaths;
-    MCPlugParallel *_plug;
-    MCContainerParallelizer *_parallelizer;
-    MPAudioPlaylist *_audioPlaylist;
-    NSMutableArray *_layers;
-    NSMutableDictionary *_layerDictionary;
-    id _parent;
-    NSMutableDictionary *_authoringOptions;
-    NSMutableDictionary *_animationPaths;
-    NSMutableDictionary *_actions;
 }
 
 + (_Bool);
 + (_Bool);
-- (double);
-- (double);
-- (id);
-- (id);
-- (double);
+- (double)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (double)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
+- (id)cacheCoordinator;
+- (id)arrayWithObjects:(id)arg1 count: /* Error: Ran out of types for this method. */;
+- (double)handleLaunchEventForBackgroundSessionWithIdentifier:completion: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (void)languageCode;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ckTodayConfig;
 - (void);
 - (unsigned long long);
 - (void);
+- (void)So14AAEndpointType_p;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)9I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsAnalyticsUpload/TelemetryUploader.swift;
+- (void)notReachable;
+- (void)duler scheduleUploadInWindow:(id)arg1 withForegroundUploadCompletion:] /* Error: Ran out of types for this method. */;
+- (void)alyticsUploadSchedulerBackgroundSessionIdentifier];
+- (void)lyticsUploadScheduler handleLaunchEventForBackgroundSessionWithIdentifier:(_Bool)arg1 completion:] /* Error: Ran out of types for this method. */;
+- (void)initWithURLSessionQueue:(id)arg1 ];
+- (void)heduler.m;
+- (void)/newsd/Analytics/NDAnalyticsUploadScheduler.m;
+- (void).xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsUploadScheduler.m;
+- (void)9I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsUploadScheduler.m;
+- (void)eEntry.m;
+- (void)peReasonMissingConfigForContentType)];
+- (void)DAnalyticsPayloadAssembler initWithConfigProvider:(long long)arg1 maxPayloadSize:(id)arg2 ];
 - (void);
 - (void);
 - (void);
@@ -67,14 +56,14 @@
 - (double);
 - (id);
 - (id);
-- (double);
+- (double);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
@@ -86,12 +75,12 @@
 - (void);
 - (_Bool);
 - (long long);
+- (void);
+- (void);
+- (void)qA;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGColor *);
@@ -108,7 +97,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)?$;
 - (void);
 - (id);
 - (id);
@@ -117,10 +106,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -137,13 +126,13 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)?;
 - (id);
 - (id);
-- (struct CGSize);
-- (void);
+- (struct CGSize)ering non-MoreForYou Group %{public}@;
+- (void);
 - (struct CGPoint);
-- (void);
+- (void);
 - (void);
 - (double);
 - (long long);
@@ -157,8 +146,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)RB;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -171,19 +160,12 @@
 			gl_FragColor = uColor * color; 
 		} 
 		;
-- (id)Rect;
+- (id)slide2RefRect;
 - (void)¸?;
 - (id)m;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *audioPaths; // @dynamic audioPaths;
-@property(nonatomic) _Bool autoAdjustDuration; // @dynamic autoAdjustDuration;
-@property(nonatomic) struct CGColor *backgroundCGColor; // @dynamic backgroundCGColor;
-@property(copy, nonatomic) NSColor *backgroundColor; // @dynamic backgroundColor;
-@property(nonatomic) NSDictionary *initialState;
 @property(nonatomic) unsigned long long loopingMode; // @dynamic loopingMode;
-@property(readonly, nonatomic) NSString *uuid;
-@property(copy, nonatomic) NSArray *videoPaths; // @dynamic videoPaths;
 
 @end
 

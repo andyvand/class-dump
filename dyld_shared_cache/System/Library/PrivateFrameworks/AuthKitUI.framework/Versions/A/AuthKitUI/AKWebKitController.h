@@ -4,66 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WebPreferences, WebView;
-@protocol AKWebKitControllerDelegate;
+@class WebPreferences;
 
 @interface AKWebKitController
 {
     WebPreferences *_webPreferences;
-    WebView *_webView;
-    struct {
-        unsigned int webViewSetFrame:1;
-        unsigned int delegateConfigureForFrame:1;
-        unsigned int delegateDidCreateJavaScriptContextFrame:1;
-        unsigned int delegateDidCancel:1;
-        unsigned int delegateDidSucceed:1;
-        unsigned int delegateDidFailLoading:1;
-        unsigned int delegateDidFinishLoading:1;
-        unsigned int delegateDidReceiveResponse:1;
-        unsigned int delegateSignRequest:1;
-        unsigned int padding:1;
-    } _delegateFlags;
-    id <AKWebKitControllerDelegate> _delegate;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)l;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id)_PASLPReaderProtocol;
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)ricted;
+- (void)_isAccountModificationRestricted;
 - (id)ervice;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKWebKitControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) WebPreferences *webPreferences; // @synthesize webPreferences=_webPreferences;
-@property(retain, nonatomic) WebView *webView; // @synthesize webView=_webView;
 
 @end
 

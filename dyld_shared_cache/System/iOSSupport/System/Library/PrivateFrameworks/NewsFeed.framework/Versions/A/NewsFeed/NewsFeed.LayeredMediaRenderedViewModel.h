@@ -7,8 +7,6 @@
 @interface NewsFeed.LayeredMediaRenderedViewModel
 {
     id viewModel;
-    id options;
-    id promise;
 }
 
 @end

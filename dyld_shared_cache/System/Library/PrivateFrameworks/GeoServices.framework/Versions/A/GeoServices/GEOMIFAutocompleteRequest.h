@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMIFAutocompleteRequestParameters, GEOPDMIFAutocompleteRequest, GEOPDPlaceResponse, NSArray, NSData;
+@class GEOMIFAutocompleteRequestParameters;
 
 @interface GEOMIFAutocompleteRequest
 {
     GEOMIFAutocompleteRequestParameters *_requestParameters;
-    GEOPDPlaceResponse *_autocompleteServerResponse;
-    NSArray *_clientEntries;
-    NSArray *_serverEntries;
-    NSData *_serializedData;
-    GEOPDMIFAutocompleteRequest *_pdAutocompleteRequest;
 }
 
-- (void);
+- (void)';
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_tcc_identity>";
 - (void);
 - (id);
 - (id)nsactionLocation:traits: /* Error: Ran out of types for this method. */;
@@ -32,12 +27,7 @@
 - (void)p!ÿìê;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDPlaceResponse *autocompleteServerResponse; // @synthesize autocompleteServerResponse=_autocompleteServerResponse;
-@property(retain, nonatomic) NSArray *clientEntries; // @synthesize clientEntries=_clientEntries;
-@property(retain, nonatomic) GEOPDMIFAutocompleteRequest *pdAutocompleteRequest; // @synthesize pdAutocompleteRequest=_pdAutocompleteRequest;
 @property(retain, nonatomic) GEOMIFAutocompleteRequestParameters *requestParameters; // @synthesize requestParameters=_requestParameters;
-@property(retain, nonatomic) NSData *serializedData; // @synthesize serializedData=_serializedData;
-@property(retain, nonatomic) NSArray *serverEntries; // @synthesize serverEntries=_serverEntries;
 
 @end
 

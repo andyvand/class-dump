@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue;
-
 @interface TSKDocumentRootICloudObserver
 {
     long long _identifier;
-    NSOperationQueue *_operationQueue;
-    CDUnknownBlockType _block;
-    long long _identifer;
 }
 
 - (void);

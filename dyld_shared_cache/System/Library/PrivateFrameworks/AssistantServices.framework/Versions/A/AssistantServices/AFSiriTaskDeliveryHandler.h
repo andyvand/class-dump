@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriTaskService, NSObject, NSString;
-@protocol AFSiriTaskServiceDelegate, OS_dispatch_queue;
+@class AFSiriTaskService;
 
 @interface AFSiriTaskDeliveryHandler
 {
     AFSiriTaskService *_service;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <AFSiriTaskServiceDelegate> _delegate;
 }
 
 - (void);
-- (id);
+- (id)aderIdentifier;
 - (id);
 - (void);
 - (void);
-- (id);
-- (void)ctivityEnabled;
+- (id)";
+- (void)_BLEActivityEnabled;
 - (void)>
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AFSiriTaskServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 @property(nonatomic) __weak AFSiriTaskService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

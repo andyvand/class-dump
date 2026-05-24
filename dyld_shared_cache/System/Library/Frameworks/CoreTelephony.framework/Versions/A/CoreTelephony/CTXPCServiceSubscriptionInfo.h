@@ -9,33 +9,27 @@
 @interface CTXPCServiceSubscriptionInfo
 {
     NSArray *_subscriptions;
-    NSArray *_subscriptionsInUse;
-    NSArray *_subscriptionsValid;
 }
 
-+ (_Bool);
++ (_Bool)ME_IS_NUMERIC(endTime);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
+- (void)v32@0:(id)arg1 8q16@?24;
+- (id);
+- (id)vt;
+- (id);
+- (id)id FBSRealizeSceneExtension(__unsafe_unretained Class _Nonnull);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ct_shortDescription;
 @property(readonly, nonatomic) NSString *ct_shortName;
-@property(retain, nonatomic) NSArray *subscriptions; // @synthesize subscriptions=_subscriptions;
-@property(retain, nonatomic) NSArray *subscriptionsInUse; // @synthesize subscriptionsInUse=_subscriptionsInUse;
-@property(retain, nonatomic) NSArray *subscriptionsValid; // @synthesize subscriptionsValid=_subscriptionsValid;
 
 @end
 

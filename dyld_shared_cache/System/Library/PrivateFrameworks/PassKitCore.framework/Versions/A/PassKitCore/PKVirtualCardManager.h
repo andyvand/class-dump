@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PKAccountService, PKInAppPaymentService, PKPaymentService;
+@class NSObject, PKInAppPaymentService;
 @protocol OS_dispatch_queue;
 
 @interface PKVirtualCardManager
 {
     PKInAppPaymentService *_inAppPaymentService;
-    PKAccountService *_accountService;
-    PKPaymentService *_paymentService;
-    NSObject<OS_dispatch_queue> *_virtualCardQueue;
 }
 
 + (void);

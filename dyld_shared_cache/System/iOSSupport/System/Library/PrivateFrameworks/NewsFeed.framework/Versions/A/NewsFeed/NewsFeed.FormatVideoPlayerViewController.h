@@ -7,28 +7,17 @@
 @interface NewsFeed.FormatVideoPlayerViewController
 {
     id delegate;
-    id identifier;
-    id reuseIdentifier;
-    id onReuse;
-    id posterFrame;
-    id placeholderView;
-    id isLiveIconHidden;
-    id autoPlayback;
-    id playbackOverlay;
-    id restrictedOverlayView;
-    id liveStreamOverlayView;
-    id videoContainerView;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id)?;
 - (void);
-- (void)dGroupDistance;
+- (void);
+- (void)preferredGroupDistance;
 - (void)4ßu;
 - (void)Ïÿ­I:8ªwþ­I:Ô²}þ /* Error: Ran out of types for this method. */;
 

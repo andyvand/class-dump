@@ -6,14 +6,11 @@
 
 #import <CoreBluetooth/CBAttribute.h>
 
-@class CBCharacteristic, CBPeripheral, NSNumber;
+@class CBCharacteristic;
 
 @interface CBDescriptor : CBAttribute
 {
     CBCharacteristic *_characteristic;
-    id _value;
-    CBPeripheral *_peripheral;
-    NSNumber *_handle;
 }
 
 - (void);
@@ -25,15 +22,12 @@
 - (void);
 - (id);
 - (void);
+- (id)_inlineSymlinkTarget:url:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)C;
 
 // Remaining properties
 @property(nonatomic) __weak CBCharacteristic *characteristic; // @synthesize characteristic=_characteristic;
-@property(readonly, nonatomic) NSNumber *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) CBPeripheral *peripheral; // @synthesize peripheral=_peripheral;
-@property(retain) id value; // @synthesize value=_value;
 
 @end
 

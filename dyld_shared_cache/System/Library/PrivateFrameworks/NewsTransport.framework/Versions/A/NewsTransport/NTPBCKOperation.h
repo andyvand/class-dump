@@ -9,29 +9,21 @@
 @interface NTPBCKOperation
 {
     NSString *_operationUUID;
-    int _type;
-    _Bool _last;
-    _Bool _synchronousMode;
-    struct {
-        unsigned int type:1;
-        unsigned int last:1;
-        unsigned int synchronousMode:1;
-    } _has;
 }
 
 - (_Bool);
-- (id);
+- (id)setEdgeInsets: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
+- (_Bool)MapsSuggestionsAppConnectionOriginatingURLString;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)H;
 - (_Bool);
-- (int);
-- (_Bool);
+- (int)isMemberOfClass: /* Error: Ran out of types for this method. */;
+- (_Bool)<;
 - (void);
 - (id);
 - (void);
@@ -40,19 +32,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool)ud"b1};
-- (void)tionalArticleCount;
-- (void)AtIndex:(_Bool)arg1;
-- (void)rConversionStats;
+- (void)topStoryOptionalArticleCount;
+- (void)recentIssueIDsAtIndex:(_Bool)arg1;
+- (void)hasPublisherConversionStats;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLast;
 @property(readonly, nonatomic) _Bool hasOperationUUID;
-@property(nonatomic) _Bool hasSynchronousMode;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool last; // @synthesize last=_last;
-@property(retain, nonatomic) NSString *operationUUID; // @synthesize operationUUID=_operationUUID;
-@property(nonatomic) _Bool synchronousMode; // @synthesize synchronousMode=_synchronousMode;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

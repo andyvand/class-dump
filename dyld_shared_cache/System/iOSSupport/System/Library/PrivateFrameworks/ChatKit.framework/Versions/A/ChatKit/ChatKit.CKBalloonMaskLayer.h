@@ -7,7 +7,6 @@
 @interface ChatKit.CKBalloonMaskLayer
 {
     id pathConfiguration;
-    id animationDelegate;
 }
 
 - (void);
@@ -18,8 +17,8 @@
 - (id);
 - (id)0@ù
 × ;
-- (void)eHeaderFooterView;
-- (void)ltAttributeName;
+- (void)CKDetailsLocationShareHeaderFooterView;
+- (void)DDResultAttributeName;
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets tailInsets;

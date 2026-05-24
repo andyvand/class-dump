@@ -5,5 +5,6 @@
 //
 
 @protocol AAAccountUserNotificationDaemonProtocol
+- (void)_________CPProfileManager.installProfile ________________________________________________;
 @end
 

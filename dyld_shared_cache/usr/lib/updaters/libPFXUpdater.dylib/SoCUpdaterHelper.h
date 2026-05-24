@@ -8,11 +8,10 @@
 {
     CDUnknownFunctionPointerType _logFunction;
     void *_logContext;
-    _Bool _verbose;
 }
 
-- (void);
-- (id);
+- (void)/libAXSafeCategoryBundle.dylib;
+- (id)/Library/Frameworks/UIKit.framework/Versions/A/UIKit;
 - (void);
 - (void);
 

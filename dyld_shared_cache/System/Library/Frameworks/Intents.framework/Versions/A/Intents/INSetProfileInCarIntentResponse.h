@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INSetProfileInCarIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)B40@0:(long long)arg1 8@16@24^@32;
++ (int)promisedItemResourceValuesForKeys:(long long)arg1 error: /* Error: Ran out of types for this method. */;
++ (long long)mutableCopy;
++ (_Bool)isDownloaded;
 + (_Bool);
 - (void);
 - (id);
@@ -23,22 +21,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)dStrength:(id)arg1 forIndex: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)%u) %s macAddress:(id)arg1 [%@] activeHotspotClients = %@;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)or: /* Error: Ran out of types for this method. */;
+- (long long)_resolvedAppMatchingDescriptor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

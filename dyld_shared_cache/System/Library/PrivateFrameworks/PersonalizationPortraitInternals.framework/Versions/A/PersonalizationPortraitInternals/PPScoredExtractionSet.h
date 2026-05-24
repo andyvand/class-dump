@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, PPSource;
+@class NSArray;
 
 @interface PPScoredExtractionSet
 {
     _Bool _cloudSync;
-    NSArray *_entities;
-    NSArray *_topics;
-    NSMutableArray *_topicsExactMatchesInSourceText;
-    NSMutableDictionary *_locations;
-    PPSource *_source;
-    unsigned long long _entityAlgorithm;
-    unsigned long long _topicAlgorithm;
-    double _decayRate;
-    double _sentimentScore;
 }
 
 - (void);
@@ -25,11 +16,11 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)IMMarkAsReviewedCommandProcessingPipelineComponent;
+- (void)cious pending nickname to clear for handle ID %@;
+- (unsigned long long)d;
 - (double);
 - (void);
 - (id);
@@ -51,16 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool cloudSync; // @synthesize cloudSync=_cloudSync;
-@property(nonatomic) double decayRate; // @synthesize decayRate=_decayRate;
 @property(retain, nonatomic) NSArray *entities; // @synthesize entities=_entities;
-@property(nonatomic) unsigned long long entityAlgorithm; // @synthesize entityAlgorithm=_entityAlgorithm;
-@property(retain, nonatomic) NSMutableDictionary *locations; // @synthesize locations=_locations;
-@property(nonatomic) double sentimentScore; // @synthesize sentimentScore=_sentimentScore;
-@property(retain, nonatomic) PPSource *source; // @synthesize source=_source;
-@property(nonatomic) unsigned long long topicAlgorithm; // @synthesize topicAlgorithm=_topicAlgorithm;
-@property(retain, nonatomic) NSArray *topics; // @synthesize topics=_topics;
-@property(retain, nonatomic) NSMutableArray *topicsExactMatchesInSourceText; // @synthesize topicsExactMatchesInSourceText=_topicsExactMatchesInSourceText;
 
 @end
 

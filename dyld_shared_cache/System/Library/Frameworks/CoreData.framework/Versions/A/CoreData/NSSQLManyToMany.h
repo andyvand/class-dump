@@ -12,14 +12,12 @@ __attribute__((visibility("hidden")))
 @interface NSSQLManyToMany : NSSQLRelationship
 {
     NSString *_correlationTableName;
-    NSString *_columnName;
-    NSString *_orderColumnName;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)RBSIsXPCObject;
 
 @end
 

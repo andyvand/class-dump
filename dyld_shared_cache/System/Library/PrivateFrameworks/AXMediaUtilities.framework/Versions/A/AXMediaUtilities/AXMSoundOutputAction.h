@@ -11,13 +11,12 @@
 @interface AXMSoundOutputAction : AXMOutputAction
 {
     NSString *_soundID;
-    NSURL *_soundFileURL;
 }
 
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)c;{;
+- (id){;
 - (id);
 - (id);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *soundFileURL;
-@property(readonly, nonatomic) NSString *soundID;
 
 @end
 

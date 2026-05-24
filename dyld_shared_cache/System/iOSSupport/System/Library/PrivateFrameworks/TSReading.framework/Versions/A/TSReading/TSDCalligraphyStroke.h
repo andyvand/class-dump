@@ -14,26 +14,24 @@
 - (struct CGAffineTransform);
 - (_Bool);
 - (void);
-- (struct CGRect);
+- (struct CGRect)F;
 - (id);
 - (double);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (struct CGRect);
+- (void);
 - (void);
-- (void);
 - (_Bool);
 - (double);
 - (id);
 - (double);
-- (id);
+- (id)6u6;
 
 // Remaining properties
 @property(readonly, nonatomic) double angle;
-@property(readonly, nonatomic) _Bool chisel;
-@property(readonly, nonatomic) double scale;
 
 @end
 

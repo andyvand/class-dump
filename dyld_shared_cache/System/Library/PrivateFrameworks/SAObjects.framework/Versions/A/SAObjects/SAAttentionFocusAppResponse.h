@@ -14,15 +14,14 @@
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)(;
+- (id)K;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *appBundleId;
-@property(copy, nonatomic) NSString *sceneId;
 
 @end
 

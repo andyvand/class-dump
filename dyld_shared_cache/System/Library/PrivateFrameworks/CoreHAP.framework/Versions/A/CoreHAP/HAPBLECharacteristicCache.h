@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCharacteristicMetadata, NSNumber, NSUUID;
-
 @interface HAPBLECharacteristicCache
 {
     unsigned short _characteristicProperties;
-    NSUUID *_characteristicUUID;
-    NSNumber *_characteristicInstanceId;
-    HAPCharacteristicMetadata *_characteristicMetadata;
 }
 
 + (_Bool);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);
@@ -26,15 +21,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)_eventWithFrameStore:(id)arg1 frame:error: /* Error: Ran out of types for this method. */;
+- (void)_;
 - (void)g>";
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *characteristicInstanceId; // @synthesize characteristicInstanceId=_characteristicInstanceId;
-@property(retain, nonatomic) HAPCharacteristicMetadata *characteristicMetadata; // @synthesize characteristicMetadata=_characteristicMetadata;
 @property(nonatomic) unsigned short characteristicProperties; // @synthesize characteristicProperties=_characteristicProperties;
-@property(readonly, nonatomic) NSUUID *characteristicUUID; // @synthesize characteristicUUID=_characteristicUUID;
 
 @end
 

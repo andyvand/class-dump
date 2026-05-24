@@ -7,7 +7,6 @@
 @interface Combine.DebugHook
 {
     id lock;
-    id handlers;
 }
 
 @end

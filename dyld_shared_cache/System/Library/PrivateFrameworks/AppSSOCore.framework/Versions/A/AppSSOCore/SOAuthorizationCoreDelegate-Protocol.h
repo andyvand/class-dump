@@ -5,5 +5,10 @@
 //
 
 @protocol SOAuthorizationCoreDelegate
+
+@optional
+- (void);
+- (void)';
+- (void)1;
 @end
 

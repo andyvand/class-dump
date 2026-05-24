@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)on, can't calculate distance.;
 - (void);
 - (void)scriptionID:url:title:pollingURL:dateAdded:] /* Error: Ran out of types for this method. */;
 

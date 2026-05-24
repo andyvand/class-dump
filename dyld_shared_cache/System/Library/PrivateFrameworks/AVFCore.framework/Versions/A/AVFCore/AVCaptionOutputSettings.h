@@ -17,9 +17,9 @@
 + (id);
 + (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)�;
 - (CDStruct_1b6d18a9);
 - (_Bool);
 - (_Bool);
@@ -27,7 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_1b6d18a9 captionTimeCodeFrameDuration;
-@property(readonly, nonatomic) _Bool useDropFrameTimeCode;
 
 @end
 

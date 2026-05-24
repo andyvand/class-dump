@@ -5,5 +5,8 @@
 //
 
 @protocol UNUserNotificationCenterDelegate
+
+@optional
+- (void);
 @end
 

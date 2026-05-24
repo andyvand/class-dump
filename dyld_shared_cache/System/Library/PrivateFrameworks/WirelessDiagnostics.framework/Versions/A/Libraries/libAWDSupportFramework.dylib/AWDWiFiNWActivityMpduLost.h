@@ -9,20 +9,19 @@
 @interface AWDWiFiNWActivityMpduLost
 {
     AWDWiFiNWActivityMpduWME *_bALost;
-    AWDWiFiNWActivityMpduWME *_nonBALost;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool))	A?91;
 - (id);
 - (void);
-- (id);
+- (id)B;
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)?;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -30,10 +29,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) AWDWiFiNWActivityMpduWME *bALost; // @synthesize bALost=_bALost;
 @property(readonly, nonatomic) _Bool hasBALost;
-@property(readonly, nonatomic) _Bool hasNonBALost;
-@property(retain, nonatomic) AWDWiFiNWActivityMpduWME *nonBALost; // @synthesize nonBALost=_nonBALost;
 
 @end
 

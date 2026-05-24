@@ -4,44 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetalDevice, NSCountedSet;
 @protocol MTLDevice;
 
 @interface IOGPUMetalCommandQueue
 {
     struct __IOGPUCommandQueue *_commandQueue;
-    IOGPUMetalDevice<MTLDevice> *_device;
-    _Bool _disableAsyncCompletionDispatch;
-    unsigned long long _priority;
-    unsigned long long _backgroundPriority;
-    NSCountedSet *_resourceGroups[2];
-    struct os_unfair_lock_s _resourceGroupsLock;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_autocompleter;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)h;
 - (_Bool);
 - (unsigned long long);
+- (void)ABCardViewDelegate;
 - (void);
-- (void);
-- (void);
+- (void)contactPoster;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
+- (void)_videoDataOutput;
 - (void);
-- (void);
-- (void);
+- (void)setAllowsImplicitAnimation:(id *)arg1;
 - (id);
-- (void);
+- (void)];
 - (void);
 
 // Remaining properties

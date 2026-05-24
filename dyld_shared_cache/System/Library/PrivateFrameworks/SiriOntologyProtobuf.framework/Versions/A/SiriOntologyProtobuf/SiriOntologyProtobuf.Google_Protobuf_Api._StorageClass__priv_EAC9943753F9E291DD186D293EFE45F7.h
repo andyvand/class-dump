@@ -7,12 +7,6 @@
 @interface SiriOntologyProtobuf.Google_Protobuf_Api._StorageClass__priv_EAC9943753F9E291DD186D293EFE45F7
 {
     id _name;
-    id _methods;
-    id _options;
-    id _version;
-    id _sourceContext;
-    id _mixins;
-    id _syntax;
 }
 
 @end

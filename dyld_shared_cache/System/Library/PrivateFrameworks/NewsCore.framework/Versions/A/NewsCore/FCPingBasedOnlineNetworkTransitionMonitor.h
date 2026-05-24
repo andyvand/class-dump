@@ -9,16 +9,13 @@
 @interface FCPingBasedOnlineNetworkTransitionMonitor
 {
     id configurationManager;
-    id hostName;
-    id port;
-    id dateOfLastTransitionLock;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)neGrainedNewsletterSubscriptionBaseUrl;
+- (void)fineGrainedNewsletterSubscriptionBaseUrl;
 
 // Remaining properties
 @property(nonatomic, readonly) NSDate *dateOfLastTransition;

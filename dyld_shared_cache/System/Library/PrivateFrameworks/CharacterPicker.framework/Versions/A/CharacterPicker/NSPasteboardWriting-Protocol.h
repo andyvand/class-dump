@@ -5,5 +5,8 @@
 //
 
 @protocol NSPasteboardWriting
+
+@optional
+- (unsigned long long)Rhb;
 @end
 

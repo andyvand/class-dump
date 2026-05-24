@@ -12,8 +12,8 @@
 
 - (id);
 - (id);
-- (id);
-- (void)sDrawingPolicyControls;
+- (id)0@0:(id)arg1 8@"LPLinkMetadata"16@"NSArray"24@?<v@?@"NSError"@"NSArray">32;
+- (void)showsDrawingPolicyControls;
 
 @end
 

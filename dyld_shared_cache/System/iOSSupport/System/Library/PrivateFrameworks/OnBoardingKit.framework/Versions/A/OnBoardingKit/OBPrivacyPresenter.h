@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, OBPrivacyCombinedController, OBPrivacySplashController, UIColor, UIViewController;
+@class OBPrivacySplashController;
 
 @interface OBPrivacyPresenter
 {
     _Bool _underlineLinks;
-    _Bool _darkMode;
-    _Bool _usesFullScreenPresentation;
-    _Bool _animatePresentAndDismiss;
-    CDUnknownBlockType _dismissHandler;
-    OBPrivacySplashController *_splashController;
-    OBPrivacyCombinedController *_combinedController;
-    NSString *_displayLanguage;
-    unsigned long long _displayDeviceType;
-    UIViewController *_presentingViewController;
-    UIColor *_customTintColor;
-    long long _modalPresentationStyle;
-    unsigned long long _supportedInterfaceOrientations;
-    UIViewController *_presentedController;
-    NSArray *_presentedIdentifiers;
-    CDUnknownBlockType _presentationCompletionHandler;
 }
 
 + (id);
@@ -45,7 +30,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)X5;
 - (void);
 - (void);
 - (void);
@@ -62,42 +47,20 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WebKit::IDBStorageConnectionToClient>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WebKit::IDBStorageConnectionToClient>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WebKit::IDBStorageConnectionToClient>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WebKit::IDBStorageConnectionToClient>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::unique_ptr<WebKit::IDBStorageConnectionToClient>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (long long);
-- (id);
+- (id)#;
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (void)iption:(id)arg1 accessoryButton: /* Error: Ran out of types for this method. */;
+- (void)addBulletedListItemWithTitle:(id)arg1 description:accessoryButton: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool animatePresentAndDismiss; // @synthesize animatePresentAndDismiss=_animatePresentAndDismiss;
-@property(retain) OBPrivacyCombinedController *combinedController; // @synthesize combinedController=_combinedController;
-@property(retain, nonatomic) UIColor *customTintColor; // @synthesize customTintColor=_customTintColor;
-@property(nonatomic) _Bool darkMode; // @synthesize darkMode=_darkMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) CDUnknownBlockType dismissHandler; // @synthesize dismissHandler=_dismissHandler;
-@property(nonatomic) unsigned long long displayDeviceType; // @synthesize displayDeviceType=_displayDeviceType;
-@property(retain, nonatomic) NSString *displayLanguage; // @synthesize displayLanguage=_displayLanguage;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long modalPresentationStyle; // @synthesize modalPresentationStyle=_modalPresentationStyle;
-@property(copy) CDUnknownBlockType presentationCompletionHandler; // @synthesize presentationCompletionHandler=_presentationCompletionHandler;
-@property(retain) UIViewController *presentedController; // @synthesize presentedController=_presentedController;
-@property(retain) NSArray *presentedIdentifiers; // @synthesize presentedIdentifiers=_presentedIdentifiers;
-@property __weak UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
 @property(retain) OBPrivacySplashController *splashController; // @synthesize splashController=_splashController;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long supportedInterfaceOrientations; // @synthesize supportedInterfaceOrientations=_supportedInterfaceOrientations;
-@property(nonatomic) _Bool underlineLinks; // @synthesize underlineLinks=_underlineLinks;
-@property(nonatomic) _Bool usesFullScreenPresentation; // @synthesize usesFullScreenPresentation=_usesFullScreenPresentation;
 
 @end
 

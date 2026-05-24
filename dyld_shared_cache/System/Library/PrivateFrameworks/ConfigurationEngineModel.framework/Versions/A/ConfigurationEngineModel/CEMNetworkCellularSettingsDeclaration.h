@@ -6,16 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMNetworkCellularSettingsDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowDataRoaming;
-    NSNumber *_payloadAllowVoiceRoaming;
-    NSNumber *_payloadAllowPersonalHotspot;
-    NSNumber *_payloadAllowGlobalBackgroundFetchWhenRoaming;
-    NSNumber *_payloadAllowCellularPlanModification;
-    NSNumber *_payloadAllowAppCellularDataModification;
 }
 
 + (id);
@@ -42,24 +37,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)auDescFlags;
+- (id)So13AVAudioFormatC;
+- (void)RSA-CAMELLIA256-SHA;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowAppCellularDataModification; // @synthesize payloadAllowAppCellularDataModification=_payloadAllowAppCellularDataModification;
-@property(copy, nonatomic) NSNumber *payloadAllowCellularPlanModification; // @synthesize payloadAllowCellularPlanModification=_payloadAllowCellularPlanModification;
 @property(copy, nonatomic) NSNumber *payloadAllowDataRoaming; // @synthesize payloadAllowDataRoaming=_payloadAllowDataRoaming;
-@property(copy, nonatomic) NSNumber *payloadAllowGlobalBackgroundFetchWhenRoaming; // @synthesize payloadAllowGlobalBackgroundFetchWhenRoaming=_payloadAllowGlobalBackgroundFetchWhenRoaming;
-@property(copy, nonatomic) NSNumber *payloadAllowPersonalHotspot; // @synthesize payloadAllowPersonalHotspot=_payloadAllowPersonalHotspot;
-@property(copy, nonatomic) NSNumber *payloadAllowVoiceRoaming; // @synthesize payloadAllowVoiceRoaming=_payloadAllowVoiceRoaming;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <HelpData/DDMObject.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface DDMMisc : DDMObject
 {
     _Bool _darkMode;
-    NSURL *_harrierBaseURL;
-    NSURL *_remoteSearchIndex;
-    NSURL *_remoteCSSearchIndex;
-    NSURL *_remoteExactMatch;
-    NSString *_buildID;
 }
 
 - (void);
@@ -32,12 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *buildID; // @synthesize buildID=_buildID;
-@property(readonly) _Bool darkMode; // @synthesize darkMode=_darkMode;
 @property(readonly, nonatomic) NSURL *harrierBaseURL; // @synthesize harrierBaseURL=_harrierBaseURL;
-@property(readonly, nonatomic) NSURL *remoteCSSearchIndex; // @synthesize remoteCSSearchIndex=_remoteCSSearchIndex;
-@property(readonly, nonatomic) NSURL *remoteExactMatch; // @synthesize remoteExactMatch=_remoteExactMatch;
-@property(readonly, nonatomic) NSURL *remoteSearchIndex; // @synthesize remoteSearchIndex=_remoteSearchIndex;
 
 @end
 

@@ -7,12 +7,13 @@
 @class UIView;
 
 @protocol CKSceneOverlayPresentationContext
+- (void)ICTableAttachmentSelection;
+- (void)ICTTTextStorageDelegate;
+- (void)o;
+- (struct CGRect);
 - (long long)G;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect anchorRect;
 @property(readonly, nonatomic) UIView *anchorView;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly, nonatomic) UIView *viewToPortal;
 @end
 

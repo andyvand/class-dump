@@ -7,9 +7,9 @@
 @protocol PXDisplayAsset;
 
 @protocol PXStoryChapterCollectionChapterInsertion
+- (void (^)(id <PXStoryMutableChapter>));
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType chapterConfiguration;
 @property(readonly, nonatomic) id <PXDisplayAsset> firstAsset;
 @end
 

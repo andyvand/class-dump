@@ -6,19 +6,11 @@
 
 #import <PhotosUICore/PXAssistantTemplateViewController.h>
 
-@class NSDate, NSDatePicker, NSString, NSTextField, PXAssistantTemplateView, PXSharedLibraryAssistantViewModel;
-@protocol PXAssistantViewControllerDelegate;
+@class NSDatePicker, NSTextField;
 
 @interface PXSharedLibraryAssistantDatePickerViewController : PXAssistantTemplateViewController
 {
     NSTextField *_pickerDetailLabel;
-    NSTextField *_footerLabel;
-    PXAssistantTemplateView *_templateView;
-    _Bool _hasCustomDate;
-    id <PXAssistantViewControllerDelegate> assistantViewControllerDelegate;
-    PXSharedLibraryAssistantViewModel *_viewModel;
-    NSDatePicker *_datePicker;
-    NSDate *_pickedDate;
 }
 
 - (void);
@@ -44,27 +36,16 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void)imulatedProgressValue;
+- (id)V;
+- (void)simulatedProgressValue;
 - (void)derLayout setTitleAlpha:(id)arg1 ];
 - (void);
 - (id)0Ï;;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXAssistantViewControllerDelegate> assistantViewControllerDelegate; // @synthesize assistantViewControllerDelegate;
 @property(readonly, nonatomic) NSDatePicker *datePicker; // @synthesize datePicker=_datePicker;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasCustomDate; // @synthesize hasCustomDate=_hasCustomDate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSDate *pickedDate; // @synthesize pickedDate=_pickedDate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXSharedLibraryAssistantViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

@@ -4,33 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSObject, NSString, NSUserDefaults, PowerUITTEMonitor, PowerUITTEPredResults, PowerUITTEPredictor;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log, _CDLocalContext;
+@class NSObject;
+@protocol OS_os_log;
 
 @interface PowerUITTEManager
 {
     float _tteInMinutes;
-    float _remEnergyDischargeEnd;
-    float _correctedPower;
-    unsigned long long _currentState;
-    NSObject<OS_os_log> *_log;
-    id <_CDLocalContext> _context;
-    NSDictionary *_stateDescriptions;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _chargingStatus;
-    long long _lastSOCValue;
-    NSDate *_pauseChargingCheckDate;
-    NSUserDefaults *_defaults;
-    NSObject<OS_dispatch_source> *_timer;
-    NSObject<OS_dispatch_source> *_unpluggedTimer;
-    unsigned long long _currentStatus;
-    NSDate *_lastPluggedInDate;
-    NSDate *_lastUnpluggedDate;
-    PowerUITTEPredictor *_ttePredictor;
-    PowerUITTEPredResults *_ttePredictions;
-    PowerUITTEMonitor *_tteMonitor;
-    NSString *_tteFormatted;
-    NSDate *_lastNotificationTime;
 }
 
 + (id);
@@ -39,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (float);
 - (id);
 - (id);
@@ -55,7 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -93,7 +72,7 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -103,28 +82,7 @@
 - (void)TargetSoC:(unsigned long long)arg1 %d - PredictedEoC:%f /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property unsigned long long chargingStatus; // @synthesize chargingStatus=_chargingStatus;
-@property(retain, nonatomic) id <_CDLocalContext> context; // @synthesize context=_context;
-@property float correctedPower; // @synthesize correctedPower=_correctedPower;
-@property(readonly, nonatomic) unsigned long long currentState; // @synthesize currentState=_currentState;
-@property unsigned long long currentStatus; // @synthesize currentStatus=_currentStatus;
-@property(retain, nonatomic) NSUserDefaults *defaults; // @synthesize defaults=_defaults;
-@property(retain, nonatomic) NSDate *lastNotificationTime; // @synthesize lastNotificationTime=_lastNotificationTime;
-@property(retain) NSDate *lastPluggedInDate; // @synthesize lastPluggedInDate=_lastPluggedInDate;
-@property long long lastSOCValue; // @synthesize lastSOCValue=_lastSOCValue;
-@property(retain) NSDate *lastUnpluggedDate; // @synthesize lastUnpluggedDate=_lastUnpluggedDate;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain) NSDate *pauseChargingCheckDate; // @synthesize pauseChargingCheckDate=_pauseChargingCheckDate;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property float remEnergyDischargeEnd; // @synthesize remEnergyDischargeEnd=_remEnergyDischargeEnd;
-@property(retain, nonatomic) NSDictionary *stateDescriptions; // @synthesize stateDescriptions=_stateDescriptions;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
-@property(retain) NSString *tteFormatted; // @synthesize tteFormatted=_tteFormatted;
-@property float tteInMinutes; // @synthesize tteInMinutes=_tteInMinutes;
-@property(retain, nonatomic) PowerUITTEMonitor *tteMonitor; // @synthesize tteMonitor=_tteMonitor;
-@property(retain) PowerUITTEPredResults *ttePredictions; // @synthesize ttePredictions=_ttePredictions;
-@property(retain, nonatomic) PowerUITTEPredictor *ttePredictor; // @synthesize ttePredictor=_ttePredictor;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *unpluggedTimer; // @synthesize unpluggedTimer=_unpluggedTimer;
 
 @end
 

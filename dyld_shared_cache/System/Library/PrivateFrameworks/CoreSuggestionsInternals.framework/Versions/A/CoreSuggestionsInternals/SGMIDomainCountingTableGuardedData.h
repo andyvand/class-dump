@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface SGMIDomainCountingTableGuardedData
 {
     long long _schemaVersion;
-    NSArray *_currentColumns;
 }
 
 - (void);
+- (id)__objc_classname__TEXT;
 - (id);
-- (id);
-- (void);
+- (void)displayStringForStrings:(long long)arg1 itemSeparator: /* Error: Ran out of types for this method. */;
 - (void)¦;
 - (long long)oDetailCache Other detail not found;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *currentColumns; // @synthesize currentColumns=_currentColumns;
 @property(nonatomic) long long schemaVersion; // @synthesize schemaVersion=_schemaVersion;
 
 @end

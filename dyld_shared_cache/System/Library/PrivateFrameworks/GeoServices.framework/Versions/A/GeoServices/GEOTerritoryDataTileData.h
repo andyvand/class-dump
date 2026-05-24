@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOTerritoryDataTileData
 {
     PBDataReader *_reader;
-    NSMutableArray *_states;
-    NSMutableArray *_territorys;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_states:1;
-        unsigned int read_territorys:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
@@ -30,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id)has_eventType"b1"has_usageBool"b1};
-- (id)ategoryFilter;
-- (id)oute;
+- (id)hasPoiIconCategoryFilter;
+- (id)_GEODirectionsServiceRequestBuilder_Route;
 - (void);
 
 @end

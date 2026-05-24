@@ -6,14 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount;
 
 @interface AMSFamilyInfoLookupTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSString *_logKey;
 }
 
 + (id);
@@ -31,7 +28,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)tten count now is %@;
 - (id);
 - (void)£ÿ0¯£ÿÈ±£ÿ0i¤ÿm¤ÿÌn¤ÿ|z¤ÿt}¤ÿÈ~¤ÿd¤ÿ´¤ÿô¤ÿ;
 - (void)ËUuë²,ýcCÝ¹'HÖöh£=RÌìröhHÖ¹'höÖH'¹ÝCcý,²¹'öhHÖ,²cýÝC$ºÕKkõ/±`þÞ@µ+údDÚÞ@`þ/±XïòÀcÂØòº°x¨8ic4úùÉé=ñø{Z;
@@ -45,15 +42,6 @@ DÁ­WµJgoÃ	%$(©Ö@½ù©»þÀ;
 
 // Remaining properties
 @property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property(readonly) Class superclass;
 
 @end
 

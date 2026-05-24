@@ -5,5 +5,8 @@
 //
 
 @protocol WBSWebExtensionsControllerDelegate
+
+@optional
+- (void);
 @end
 

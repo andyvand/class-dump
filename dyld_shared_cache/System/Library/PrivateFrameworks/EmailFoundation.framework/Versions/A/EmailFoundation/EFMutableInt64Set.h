@@ -10,10 +10,11 @@
 {
 }
 
+- (void)p: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)?;
+- (id)onversion failure
+;
 - (void);
 - (void);
 - (void);

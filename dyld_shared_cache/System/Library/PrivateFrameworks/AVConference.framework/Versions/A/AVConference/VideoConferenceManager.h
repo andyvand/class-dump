@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICEResultWaitQueue, NSMutableArray, NSObject, VideoConference;
-@protocol OS_dispatch_queue;
+@class VideoConference;
 
 __attribute__((visibility("hidden")))
 @interface VideoConferenceManager
 {
     unsigned char _clientUUID[16];
-    struct _opaque_pthread_mutex_t stateLock;
-    struct _opaque_pthread_mutex_t sipLock;
-    NSObject<OS_dispatch_queue> *_xpcCommandQueue;
-    NSMutableArray *vcList;
-    VideoConference *activeConference;
-    VideoConference *conferenceWithMic;
-    ICEResultWaitQueue *resultQueue;
-    struct tagHANDLE *hSIP;
-    int sipRefCount;
-    id _vtpWrapper;
-    _Bool isVTPInitialized;
-    id _networkAgent;
 }
 
-+ (id);
++ (id);
 + (void);
 - (void);
 - (void);
@@ -36,6 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
@@ -52,8 +40,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)TT;
 - (void);
 - (void);
 - (void);
@@ -61,33 +48,30 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (id)*-;
+- (id);
+- (id)�;
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id));
 - (struct tagHANDLE *);
 - (id);
 - (id);
 
 // Remaining properties
 @property VideoConference *activeConference; // @synthesize activeConference;
-@property VideoConference *conferenceWithMic;
-@property(readonly) ICEResultWaitQueue *resultQueue; // @synthesize resultQueue;
-@property(readonly) NSMutableArray *vcList; // @synthesize vcList;
 
 @end
 

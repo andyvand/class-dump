@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIRenderInfo, CIRenderTask, NSString, NUColorSpace, NUPixelFormat;
 @protocol NUImageBuffer;
 
 @interface _PIParallaxRenderBuffer
 {
     id <NUImageBuffer> _pixelBuffer;
-    CIRenderTask *_renderTask;
-    CIRenderInfo *_renderInfo;
 }
 
 - (id);
@@ -19,26 +16,13 @@
 - (struct __CVBuffer *);
 - (id);
 - (id);
-- (CDStruct_912cb5d2);
-- (id);
-- (id);
+- (CDStruct_912cb5d2)`;
+- (id)ionOptions.m;
+- (id)2';
 - (void)d}}64@?96;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __CVBuffer *CVPixelBuffer;
-@property(readonly, nonatomic) NUColorSpace *colorSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NUPixelFormat *format;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <NUImageBuffer> pixelBuffer; // @synthesize pixelBuffer=_pixelBuffer;
-@property(readonly, nonatomic) CIRenderInfo *renderInfo; // @synthesize renderInfo=_renderInfo;
-@property(readonly, nonatomic) CIRenderTask *renderTask; // @synthesize renderTask=_renderTask;
-@property(readonly, nonatomic) CDStruct_912cb5d2 size;
-@property(readonly) Class superclass;
 
 @end
 

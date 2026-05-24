@@ -11,13 +11,13 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CGSize {
-    double width;
-    double height;
+    double _field1;
+    double _field2;
 };
 
 struct NSFileProviderTypeAndCreator {
-    unsigned int type;
-    unsigned int creator;
+    unsigned int _field1;
+    unsigned int _field2;
 };
 
 struct _NSRange {

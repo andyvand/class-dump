@@ -4,92 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString, NSURL, NSWindow;
+@class NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSTitlebarRenamingSessionBase
 {
     NSWindow *_window;
-    NSString *_editingTitle;
-    _Bool _extensionHidden;
-    _Bool _isDuplicate;
-    _Bool _ended;
-    _Bool _titleWasChosenAutomatically;
-    CDUnknownBlockType _completionHandler;
-    long long _documentUniquingNumber;
-    NSString *_userEditedDisplayName;
-    NSURL *_finalURL;
-    NSString *_documentUTI;
-    NSString *_fallbackExtension;
-    NSString *_startDisplayName;
-    NSURL *_alternateDirectory;
-    NSURL *_originalURL;
-    struct _NSRange _editingRange;
 }
 
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)references/com.apple.MobileGestalt.plist;
+- (_Bool)1lCs7NVHg;
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)`;
 - (_Bool);
 - (struct _NSRange);
 - (long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)a(entry_ID INTEGER PRIMARY KEY, response_object BLOB, request_object BLOB, 			  proto_props BLOB, user_info BLOB);;
+- (void)chema:(id)arg1 DB=%@ pragma wal enable - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (void)_vacuum(10);;
+- (void)ost text NOT NULL,		port int NOT NULL,		alternatePort int NOT NULL,		type int NOT NULL,		creation_time int,		expires_time int,		UNIQUE(partition, host, port, type)		);;
+- (_Bool)originalRequest;
 - (id);
 - (CDUnknownBlockType);
-- (_Bool)leMouseUp;
+- (_Bool)_handleMouseUp;
 - (void)sed.m;
-- (void)tonLabelOffset;
+- (void)popupButtonLabelOffset;
 
 // Remaining properties
-@property(copy) NSURL *alternateDirectory; // @synthesize alternateDirectory=_alternateDirectory;
 @property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *documentUTI; // @synthesize documentUTI=_documentUTI;
-@property long long documentUniquingNumber; // @synthesize documentUniquingNumber=_documentUniquingNumber;
-@property struct _NSRange editingRange; // @synthesize editingRange=_editingRange;
-@property(readonly) _Bool ended; // @synthesize ended=_ended;
-@property _Bool extensionHidden; // @synthesize extensionHidden=_extensionHidden;
-@property(copy) NSString *fallbackExtension; // @synthesize fallbackExtension=_fallbackExtension;
-@property(readonly) NSURL *finalURL; // @synthesize finalURL=_finalURL;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSDictionary *initialViewBridgeInfo;
-@property _Bool isDuplicate; // @synthesize isDuplicate=_isDuplicate;
-@property(readonly) NSString *keyPathToObserveForLockStatus;
-@property(readonly) NSDictionary *latestViewBridgeInfo;
-@property(readonly) NSObject *objectToObserveForLockStatus;
-@property(copy) NSURL *originalURL; // @synthesize originalURL=_originalURL;
-@property(copy) NSString *startDisplayName; // @synthesize startDisplayName=_startDisplayName;
-@property(readonly) Class superclass;
-@property(readonly) _Bool titleWasChosenAutomatically; // @synthesize titleWasChosenAutomatically=_titleWasChosenAutomatically;
-@property(readonly) NSString *userEditedDisplayName; // @synthesize userEditedDisplayName=_userEditedDisplayName;
 
 @end
 

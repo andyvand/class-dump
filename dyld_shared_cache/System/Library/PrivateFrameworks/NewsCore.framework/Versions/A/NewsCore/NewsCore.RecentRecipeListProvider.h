@@ -7,7 +7,6 @@
 @interface NewsCore.RecentRecipeListProvider
 {
     id configurationManager;
-    id contentVariantProvider;
 }
 
 @end

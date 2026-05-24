@@ -6,30 +6,28 @@
 
 #import <PassKitCore/PKPaymentRequest.h>
 
-@class NSString, PKServiceProviderOrder;
+@class PKServiceProviderOrder;
 
 @interface PKServiceProviderPaymentRequest : PKPaymentRequest
 {
     PKServiceProviderOrder *_serviceProviderOrder;
-    NSString *_targetDeviceSerialNumber;
 }
 
-+ (_Bool);
-+ (id)Subtype: /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (id)setSubtype: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)u;
 - (id);
 - (id);
+- (id)(;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void)tionSuppression;
+- (void)_sidecarBssSteering;
+- (void)PKAssertionTypeFieldDetectionSuppression;
 
 // Remaining properties
 @property(readonly, nonatomic) PKServiceProviderOrder *serviceProviderOrder; // @synthesize serviceProviderOrder=_serviceProviderOrder;
-@property(readonly, copy, nonatomic) NSString *targetDeviceSerialNumber; // @synthesize targetDeviceSerialNumber=_targetDeviceSerialNumber;
 
 @end
 

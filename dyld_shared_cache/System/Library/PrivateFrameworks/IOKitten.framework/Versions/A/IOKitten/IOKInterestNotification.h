@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOKInterestNotificationRef, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface IOKInterestNotification
 {
     unsigned int _object;
-    CDUnknownBlockType _handler;
-    NSObject<OS_dispatch_queue> *_queue;
-    IOKInterestNotificationRef *_notificationRef;
 }
 
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(readonly, nonatomic) IOKInterestNotificationRef *notificationRef; // @synthesize notificationRef=_notificationRef;
-@property(nonatomic) unsigned int object; // @synthesize object=_object;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

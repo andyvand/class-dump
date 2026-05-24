@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSMutableArray;
 
 @interface CRLatticeResults
 {
@@ -20,7 +20,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *mutableResults; // @synthesize mutableResults=_mutableResults;
-@property(readonly, nonatomic) NSArray *results;
 
 @end
 

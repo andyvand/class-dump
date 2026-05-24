@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXScribbleElement;
-
 @interface AXScribbleManager
 {
     long long _lastSearchPoint;
-    AXScribbleElement *_lastFetchedElement;
 }
 
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)M;
 - (long long);
 - (id);
 - (_Bool);
@@ -26,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) AXScribbleElement *lastFetchedElement; // @synthesize lastFetchedElement=_lastFetchedElement;
 @property(nonatomic) long long lastSearchPoint; // @synthesize lastSearchPoint=_lastSearchPoint;
 
 @end

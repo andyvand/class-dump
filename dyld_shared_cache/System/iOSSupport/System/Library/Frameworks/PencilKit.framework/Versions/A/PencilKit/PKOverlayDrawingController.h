@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, UIView;
+@class NSMutableDictionary;
 @protocol PKOverlayDrawingControllerDelegate;
 
 @interface PKOverlayDrawingController
 {
     id <PKOverlayDrawingControllerDelegate> _delegate;
-    struct CGRect _currentViewFrame;
-    double _currentWidthForCachedViews;
-    NSMutableDictionary *_activeTokens;
-    NSMutableDictionary *_drawingViews;
-    NSMutableDictionary *_drawingViewStrokesMap;
-    NSMutableDictionary *_drawingViewResultMap;
-    UIView *_view;
 }
 
 - (id);
@@ -54,15 +47,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)6;
 - (void);
 - (void)_%d.png;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *drawingViewResultMap; // @synthesize drawingViewResultMap=_drawingViewResultMap;
-@property(retain, nonatomic) NSMutableDictionary *drawingViewStrokesMap; // @synthesize drawingViewStrokesMap=_drawingViewStrokesMap;
 @property(retain, nonatomic) NSMutableDictionary *drawingViews; // @synthesize drawingViews=_drawingViews;
-@property(nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

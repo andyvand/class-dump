@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface AXShotflowConfiguration
 {
     NSArray *_filterThresholds;
-    NSNumber *_networkThreshold;
-    NSNumber *_nmsThreshold;
-    NSArray *_defaultBoxesSidesNormalized;
-    NSArray *_ratios;
 }
 
 - (id);
 - (id);
+- (id)^{;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *defaultBoxesSidesNormalized; // @synthesize defaultBoxesSidesNormalized=_defaultBoxesSidesNormalized;
 @property(readonly, nonatomic) NSArray *filterThresholds; // @synthesize filterThresholds=_filterThresholds;
-@property(readonly, nonatomic) NSNumber *networkThreshold; // @synthesize networkThreshold=_networkThreshold;
-@property(readonly, nonatomic) NSNumber *nmsThreshold; // @synthesize nmsThreshold=_nmsThreshold;
-@property(readonly, nonatomic) NSArray *ratios; // @synthesize ratios=_ratios;
 
 @end
 

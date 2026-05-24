@@ -7,14 +7,18 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)@;
+- (id)?;
+- (unsigned long long)nyasgem;
+- (oneway void);
+- (unsigned long long), ret = %d;
+- (id)A;
+- (struct _NSZone *);
+
+@optional
+- (NSString *)insertItemIDs:after:extraInfo: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

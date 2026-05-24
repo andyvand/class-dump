@@ -7,8 +7,6 @@
 @interface NewsAds.BannerAdViewLayoutAttributesFactory
 {
     id styler;
-    id debugViewLayoutAttributesFactory;
-    id layoutStore;
 }
 
 @end

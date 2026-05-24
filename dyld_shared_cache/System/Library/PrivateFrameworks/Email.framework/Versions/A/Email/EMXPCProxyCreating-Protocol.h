@@ -5,5 +5,7 @@
 //
 
 @protocol EMXPCProxyCreating
+- (id);
+- (id)|;
 @end
 

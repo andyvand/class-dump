@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)144@0:(id)arg1 8{CATransform3D=dddddddddddddddd}16;
 - (_Bool);
 - (_Bool);
 

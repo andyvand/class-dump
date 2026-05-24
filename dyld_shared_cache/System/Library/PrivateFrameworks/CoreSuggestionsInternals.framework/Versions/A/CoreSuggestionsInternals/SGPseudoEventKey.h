@@ -9,13 +9,11 @@
 @interface SGPseudoEventKey
 {
     NSString *_serialized;
-    NSString *_domain;
-    NSString *_groupId;
 }
 
-+ (_Bool);
-- (id);
-- (_Bool);
++ (_Bool)__AUTH_CONST;
+- (id)__const;
+- (_Bool)__dlopen_cstrs;
 - (_Bool);
 - (id);
 - (id);
@@ -30,15 +28,7 @@
 - (void)ìÎÐÐ$ÑÒÒüÒdÓøÓÔÔ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

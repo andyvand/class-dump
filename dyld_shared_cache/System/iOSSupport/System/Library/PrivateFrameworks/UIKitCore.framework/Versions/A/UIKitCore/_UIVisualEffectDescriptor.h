@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UIView;
+@class NSMutableArray, UIView;
 @protocol _UIVisualEffectViewParticipating;
 
 @interface _UIVisualEffectDescriptor
 {
     NSMutableArray *_filterEntries;
-    NSMutableArray *_viewEffects;
-    NSMutableArray *_underlays;
-    NSMutableArray *_overlays;
-    _Bool _textShouldRenderWithTintColor;
-    _Bool _allowsVibrancyInContent;
-    _Bool _disableInPlaceFiltering;
-    _Bool _requestAlphaTransition;
-    _Bool _contentViewRequiresClipping;
-    _Bool _layerHitTestsAsOpaque;
-    UIView<_UIVisualEffectViewParticipating> *_identityContainerView;
-    UIView<_UIVisualEffectViewParticipating> *_requestedContainerView;
-    long long _alphaTransition;
 }
 
 + (id)key_grabber_handles.png;
@@ -32,10 +20,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)d was already registered. Perhaps the item should be unregistered.;
 - (id);
 - (_Bool);
-- (id);
+- (id)`i;
 - (void);
 - (_Bool);
 - (void);
@@ -48,38 +36,25 @@
 - (_Bool)b°1Â0@ù
 × ;
 - (id);
-- (id)CentroidAtLocation: /* Error: Ran out of types for this method. */;
-- (id)elf: /* Error: Ran out of types for this method. */;
-- (_Bool)ightMinimizingConstraint;
-- (void)reservingTokens;
-- (_Bool)ForResponseDestination: /* Error: Ran out of types for this method. */;
-- (id)View;
-- (void)gnizer;
+- (id)_updateInteractionStateRecognizerForTouchForce:atTimestamp:withCentroidAtLocation: /* Error: Ran out of types for this method. */;
+- (id)_reparentViewIntoSelf: /* Error: Ran out of types for this method. */;
+- (_Bool)_heightMinimizingConstraint;
+- (void)_focusPreservingTokens;
+- (_Bool)_destinationContextForResponseDestination: /* Error: Ran out of types for this method. */;
+- (id)_captureHierarchyBelowSourceView;
+- (void)_UISwipeActionPanGestureRecognizer;
 - (void)ü";
 - (long long)rStyle, UIDatePickerMode);
 - (id)UIBlurEffectStyleSystemVibrantBackgroundThinLight;
 - (void)ount;
 - (void);
 - (void);
-- (void)ySo13_UIBarSectionCG;
+- (void)SaySo13_UIBarSectionCG;
 - (id)U´13'ë;
 - (id)[;
 
 // Remaining properties
 @property(retain, nonatomic) UIView<_UIVisualEffectViewParticipating> *_identityContainerView; // @synthesize _identityContainerView;
-@property(retain, nonatomic) UIView<_UIVisualEffectViewParticipating> *_requestedContainerView; // @synthesize _requestedContainerView;
-@property(nonatomic) _Bool allowsVibrancyInContent; // @synthesize allowsVibrancyInContent=_allowsVibrancyInContent;
-@property(nonatomic) long long alphaTransition; // @synthesize alphaTransition=_alphaTransition;
-@property(retain, nonatomic) UIView<_UIVisualEffectViewParticipating> *containerView;
-@property(nonatomic) _Bool contentViewRequiresClipping; // @synthesize contentViewRequiresClipping=_contentViewRequiresClipping;
-@property(nonatomic) _Bool disableInPlaceFiltering; // @synthesize disableInPlaceFiltering=_disableInPlaceFiltering;
-@property(copy, nonatomic) NSArray *filterEntries; // @synthesize filterEntries=_filterEntries;
-@property(nonatomic) _Bool layerHitTestsAsOpaque; // @synthesize layerHitTestsAsOpaque=_layerHitTestsAsOpaque;
-@property(copy, nonatomic) NSArray *overlays; // @synthesize overlays=_overlays;
-@property(nonatomic) _Bool requestAlphaTransition; // @synthesize requestAlphaTransition=_requestAlphaTransition;
-@property(nonatomic) _Bool textShouldRenderWithTintColor; // @synthesize textShouldRenderWithTintColor=_textShouldRenderWithTintColor;
-@property(copy, nonatomic) NSArray *underlays; // @synthesize underlays=_underlays;
-@property(copy, nonatomic) NSArray *viewEffects; // @synthesize viewEffects=_viewEffects;
 
 @end
 

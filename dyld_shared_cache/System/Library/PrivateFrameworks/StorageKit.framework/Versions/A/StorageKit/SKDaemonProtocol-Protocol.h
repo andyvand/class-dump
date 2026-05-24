@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSProgress;
+
 @protocol SKDaemonProtocol
+- (void)@9�;
+- (void)i8li)8);
+- (NSProgress *)E;
+- (void);
+- (void);
+- (void);
 @end
 

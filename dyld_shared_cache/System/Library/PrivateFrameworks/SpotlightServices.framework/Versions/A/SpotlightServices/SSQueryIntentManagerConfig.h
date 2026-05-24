@@ -4,45 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSSet, SRResources;
+@class NSDictionary, SRResources;
 
 @interface SSQueryIntentManagerConfig
 {
     SRResources *_resources;
-    NSDictionary *_baseConfig;
-    NSDate *_expirationDate;
-    NSDictionary *_config;
-    NSSet *_serverDomainDemotionExclusionSet;
-    NSDictionary *_conditionalExtraSuggestions;
-    NSDictionary *_intentOverrides;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id)old;
++ (id)_setBytesLoaded:(id)arg1;
++ (id)_setAsynchronousLoadGroup:(id)arg1;
++ (id)_requiresInlineButton;
++ (id)_lp_strictlyDecodeObjectOfClasses:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
++ (id)_blenderHighTextScoreThreshold;
 - (void);
 - (id);
-- (int);
-- (float);
-- (_Bool);
-- (id);
+- (int)"NSLayoutConstraint";
+- (float)8@0:(id)arg1 8{NSEdgeInsets=dddd}16;
+- (_Bool)0:(id)arg1 8Q16Q24;
+- (id)updateColor;
+- (void)setPreviewURL:(id)arg1;
+- (void)setForceDisableImageDeduplication: /* Error: Ran out of types for this method. */;
+- (id)resourceLoader:shouldWaitForLoadingOfRequestedResource: /* Error: Ran out of types for this method. */;
+- (id)removeTimeObserver: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (_Bool)C;
 - (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void)Min;
-- (void)PhotosEventCategories_astyped;
+- (void)indexOfReplaceThenMin;
+- (void)kMDItemPhotosEventCategories_astyped;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *conditionalExtraSuggestions; // @synthesize conditionalExtraSuggestions=_conditionalExtraSuggestions;
 @property(readonly, nonatomic) NSDictionary *config; // @synthesize config=_config;
-@property(readonly, nonatomic) NSDictionary *intentOverrides; // @synthesize intentOverrides=_intentOverrides;
-@property(readonly, nonatomic) NSSet *serverDomainDemotionExclusionSet; // @synthesize serverDomainDemotionExclusionSet=_serverDomainDemotionExclusionSet;
 
 @end
 

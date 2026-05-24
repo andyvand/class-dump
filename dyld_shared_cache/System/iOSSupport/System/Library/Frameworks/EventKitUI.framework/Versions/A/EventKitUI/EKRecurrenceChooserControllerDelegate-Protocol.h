@@ -5,5 +5,7 @@
 //
 
 @protocol EKRecurrenceChooserControllerDelegate
+- (void);
+- (void)&s;
 @end
 

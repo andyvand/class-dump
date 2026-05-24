@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSDate, NSLocale, NSTimeZone;
+@class NSCalendar, NSDate, NSTimeZone;
 @protocol UINSShadowDatePickerDelegate;
 
 @protocol UINSShadowDatePicker
+- (NSDate *)iaObjects];
+- (void)URNAL = false];
+- (void)XC;
+- (NSDate *)setFVFilePathWithQueryString: /* Error: Ran out of types for this method. */;
 - (void)tedSharingService;
 - (NSCalendar *)efaultenablement.updated;
 - (NSTimeZone *)te change complete, dequeuing resumed.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *backingDatePickerDateValue;
-@property(readonly, nonatomic) struct CGRect backingDatePickerSubfieldsFrame;
-@property(retain, nonatomic) NSCalendar *calendar;
-@property(copy, nonatomic) NSDate *dateValue;
 @property(nonatomic) __weak id <UINSShadowDatePickerDelegate> delegate;
-@property(copy, nonatomic) NSLocale *locale;
-@property(copy, nonatomic) NSDate *maxDate;
-@property(copy, nonatomic) NSDate *minDate;
-@property(copy, nonatomic) NSTimeZone *timeZone;
 @end
 

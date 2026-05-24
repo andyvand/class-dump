@@ -12,8 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HMITaskServiceServer : HMITaskService
 {
     struct os_unfair_lock_s _lock;
-    int _nextTaskID;
-    NSOperationQueue *_operationQueue;
 }
 
 + (id);
@@ -29,14 +27,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_;
 - (int);
-- (id);
-- (_Bool);
+- (id)setAllowEditingUserAgentShadowTreesWithErrorCallback:successCallback:allow: /* Error: Ran out of types for this method. */;
+- (_Bool)ot found for error code %lu; consider adding one or providing a custom message.;
 - (void);
 
 // Remaining properties
-@property int nextTaskID; // @synthesize nextTaskID=_nextTaskID;
 @property(readonly) NSOperationQueue *operationQueue; // @synthesize operationQueue=_operationQueue;
 
 @end

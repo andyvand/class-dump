@@ -5,5 +5,6 @@
 //
 
 @protocol BacklightSystemDelegateXpcProtocol
+- (void)Q;
 @end
 

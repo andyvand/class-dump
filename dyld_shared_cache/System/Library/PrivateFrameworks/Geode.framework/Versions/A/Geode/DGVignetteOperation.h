@@ -11,8 +11,6 @@
 @interface DGVignetteOperation : DGOperation
 {
     NSNumber *_inputType;
-    NSNumber *_inputIntensity;
-    NSNumber *_inputRadius;
 }
 
 + (id);
@@ -20,20 +18,18 @@
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)onViewItem"32@?0@"NSCollectionView"8@"NSIndexPath"16@"PXSharedLibraryRulePerson"24;
+- (void);
+- (id)AssociatedData;
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)h;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *inputIntensity; // @synthesize inputIntensity=_inputIntensity;
-@property(copy, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius=_inputRadius;
 @property(copy, nonatomic) NSNumber *inputType; // @synthesize inputType=_inputType;
 
 @end

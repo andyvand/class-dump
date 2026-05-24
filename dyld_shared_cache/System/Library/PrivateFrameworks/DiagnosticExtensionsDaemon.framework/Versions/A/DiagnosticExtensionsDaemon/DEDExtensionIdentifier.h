@@ -9,12 +9,11 @@
 @interface DEDExtensionIdentifier
 {
     NSString *_extensionIdentifier;
-    long long _invocationNumber;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)3_E_;
 + (id);
 - (void);
 - (long long);
@@ -23,23 +22,14 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)tion.CLP.LogEntry.PrivateData.WifiNotification;
+- (void)E_FvSA_SD_EEE;
+- (id)?;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
-@property(readonly) unsigned long long hash;
-@property long long invocationNumber; // @synthesize invocationNumber=_invocationNumber;
-@property(readonly) NSString *stringValue;
-@property(readonly) Class superclass;
 
 @end
 

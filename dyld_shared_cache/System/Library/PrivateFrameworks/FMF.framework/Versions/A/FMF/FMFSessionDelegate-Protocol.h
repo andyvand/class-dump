@@ -9,7 +9,12 @@
 @protocol FMFSessionDelegate
 
 @optional
+- (void);
+- (void);
+- (void)nt exceeded reasonable threshold (%ld). Bailing out!;
+- (void);
 - (void);
-- (void)atchingComponents:(NSSet *)arg1 options: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)nextDateAfterDate:(NSSet *)arg1 matchingComponents:options: /* Error: Ran out of types for this method. */;
 @end
 

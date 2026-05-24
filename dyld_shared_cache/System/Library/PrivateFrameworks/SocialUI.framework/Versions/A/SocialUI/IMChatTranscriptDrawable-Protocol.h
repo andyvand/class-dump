@@ -7,11 +7,10 @@
 @class IMTranscriptChatItem;
 
 @protocol IMChatTranscriptDrawable
++ (Class);
 - (long long)rType 0x0000ITUN;
 
 // Remaining properties
 @property(retain, nonatomic) IMTranscriptChatItem *chatTranscriptItem;
-@property(readonly, nonatomic) long long layoutClassification;
-@property(readonly, nonatomic) long long layoutOrientation;
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, INIntentResponse, NSDateInterval;
+@class INIntent;
 
 @protocol INInteractionExport
 
 // Remaining properties
-@property(copy) NSDateInterval *dateInterval;
 @property(copy) INIntent *intent;
-@property(copy) INIntentResponse *intentResponse;
 @end
 

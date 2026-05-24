@@ -7,12 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewReminderAttributedTextComponent
 {
     id delegate;
-    id customDisallowedTypingAttributes;
-    id allowsNewlines;
-    id suggestionMenuUtils;
-    id changeDetailCapturer;
-    id returnWasPressed;
-    id programmaticTextUpdateCounter;
 }
 
 - (id);
@@ -20,7 +14,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)endOfArticleFeedConfigurationResourceId;
 - (id);
 - (void);
 - (void);

@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatServiceResolverServices
 {
     id history;
-    id subscriptionController;
-    id personalizationService;
-    id annotator;
-    id selectors;
 }
 
 @end

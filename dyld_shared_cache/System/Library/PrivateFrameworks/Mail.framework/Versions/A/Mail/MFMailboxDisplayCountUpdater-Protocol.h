@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFMailboxCountUpdater;
-
 @protocol MFMailboxDisplayCountUpdater
 
 // Remaining properties
 @property unsigned long long displayCount;
-@property(retain, nonatomic) MFMailboxCountUpdater *displayCountUpdater;
 @end
 

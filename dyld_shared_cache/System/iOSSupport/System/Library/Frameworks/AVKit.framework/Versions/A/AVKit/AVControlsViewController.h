@@ -4,19 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMediaOptionsController, AVPlaybackSpeedCollection;
-@protocol AVControlsViewControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface AVControlsViewController
 {
     _Bool _requiresLinearPlayback;
-    _Bool _subtitleStylePreviewActive;
-    AVPlaybackSpeedCollection *_playbackSpeedCollection;
-    unsigned long long _visibleControls;
-    id <AVControlsViewControllerDelegate> _delegate;
-    unsigned long long _visibilityPolicy;
-    AVMediaOptionsController *_mediaOptionsController;
 }
 
 + (double);
@@ -24,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)M.;
 - (void);
 - (unsigned long long);
 - (void);
@@ -36,16 +27,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)$+;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AVControlsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) AVMediaOptionsController *mediaOptionsController; // @synthesize mediaOptionsController=_mediaOptionsController;
-@property(retain, nonatomic) AVPlaybackSpeedCollection *playbackSpeedCollection; // @synthesize playbackSpeedCollection=_playbackSpeedCollection;
-@property(nonatomic) _Bool requiresLinearPlayback; // @synthesize requiresLinearPlayback=_requiresLinearPlayback;
-@property(nonatomic, getter=isSubtitleStylePreviewActive) _Bool subtitleStylePreviewActive; // @synthesize subtitleStylePreviewActive=_subtitleStylePreviewActive;
-@property(readonly, nonatomic) unsigned long long visibilityPolicy; // @synthesize visibilityPolicy=_visibilityPolicy;
 @property(nonatomic) unsigned long long visibleControls; // @synthesize visibleControls=_visibleControls;
 
 @end

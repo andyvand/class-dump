@@ -9,21 +9,18 @@
 @interface IOSurfaceTransaction
 {
     IOSurfaceSharedEvent *_event;
-    unsigned long long _waitValue;
-    _Bool _isWrite;
 }
 
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (unsigned long long)fosl_filter_kernelpool_preservesAlpha;
+- (id)zed texture with the given context!
+;
+- (_Bool)g, b)); float lo = min(r, min(g, b)); float rng = hi - lo; float y = lum*(1.0 - rng)*(1.0 - (r - g)*(r - b)*params.r) - params.g; return vec4(y, y, y, 1.0); };
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly) IOSurfaceSharedEvent *event; // @synthesize event=_event;
-@property(readonly) _Bool isWrite; // @synthesize isWrite=_isWrite;
-@property(readonly) unsigned long long waitValue; // @synthesize waitValue=_waitValue;
 
 @end
 

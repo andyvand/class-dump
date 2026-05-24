@@ -10,7 +10,6 @@
 @interface PXStoryDefaultStylesProducer
 {
     NSObject<OS_os_log> *_log;
-    NSArray *_autoEditDecisionLists;
 }
 
 - (id);

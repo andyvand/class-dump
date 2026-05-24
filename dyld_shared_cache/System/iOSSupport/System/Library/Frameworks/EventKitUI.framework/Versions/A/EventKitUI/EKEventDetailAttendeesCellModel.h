@@ -4,50 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSArray, NSMutableArray, NSObject;
-@protocol EKEventDetailAttendeesCellModelDelegate, OS_dispatch_queue;
+@class EKEvent;
+@protocol EKEventDetailAttendeesCellModelDelegate;
 
 __attribute__((visibility("hidden")))
 @interface EKEventDetailAttendeesCellModel
 {
     EKEvent *_event;
-    NSArray *_cachedAttendeesNotIncludingOrganizerOrLocationsOrResources;
-    unsigned long long _statusHash;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_asyncWorkQueue;
-    NSArray *_accepted;
-    NSArray *_maybe;
-    NSArray *_declined;
-    NSArray *_noReply;
-    NSArray *_ungrouped;
-    _Bool _groupAndSortQueued;
-    NSMutableArray *_pendingCallbackBlocks;
-    int _generation;
-    id <EKEventDetailAttendeesCellModelDelegate> _delegate;
 }
 
-+ (unsigned long long);
-- (_Bool);
++ (unsigned long long);
+- (_Bool)s;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool).&s;
+- (void)&s;
+- (void)s;
 - (void);
-- (void);
-- (void);
+- (_Bool)*s;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)&s;
 - (void);
+- (id)s;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void)itMenu;
+- (id);
+- (void)`;
+- (void)selectedEventsForEditMenu;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *attendeesNotIncludingOrganizerOrLocationsOrResources;
 @property(nonatomic) __weak id <EKEventDetailAttendeesCellModelDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

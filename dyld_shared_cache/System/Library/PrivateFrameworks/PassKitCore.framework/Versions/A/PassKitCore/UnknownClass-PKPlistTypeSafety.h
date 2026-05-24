@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)*I;
 - (id);
 - (id);
 - (id);
@@ -23,9 +23,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id)�Q;
 - (double);
 @end
 

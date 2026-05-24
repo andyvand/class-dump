@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MTL4PipelineDataSetSerializer;
-
 @interface MTL4CompilerDescriptor
 {
     _Bool _shouldMaximizeConcurrentCompilation;
-    NSString *_label;
-    id <MTL4PipelineDataSetSerializer> _pipelineDataSetSerializer;
 }
 
 - (void);
@@ -27,8 +22,6 @@
 - (_Bool)ÿ2XM;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(retain) id <MTL4PipelineDataSetSerializer> pipelineDataSetSerializer; // @synthesize pipelineDataSetSerializer=_pipelineDataSetSerializer;
 @property(nonatomic) _Bool shouldMaximizeConcurrentCompilation; // @synthesize shouldMaximizeConcurrentCompilation=_shouldMaximizeConcurrentCompilation;
 
 @end

@@ -7,13 +7,6 @@
 @interface NewsUI2.MainTabManager
 {
     id sidebarDelegate;
-    id todayTabElement;
-    id magazineTabElement;
-    id audioTabElement;
-    id searchTabElement;
-    id followingTabGroup;
-    id libraryTabGroup;
-    id featureAvailability;
 }
 
 @end

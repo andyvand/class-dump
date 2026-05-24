@@ -15,8 +15,8 @@
 
 + (id);
 + (unsigned short);
-+ (unsigned short);
-- (id);
++ (unsigned short)l@ cd;
+- (id)AMSUserNotificationIntentDelegate;
 - (void);
 
 @end

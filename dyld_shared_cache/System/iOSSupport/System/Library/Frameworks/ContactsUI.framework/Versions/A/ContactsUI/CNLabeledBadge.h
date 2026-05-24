@@ -9,7 +9,7 @@
 }
 
 + (id);
-- (id);
+- (id)iterDirectDomineesForNodeName:(struct CGRect)arg1;
 
 @end
 

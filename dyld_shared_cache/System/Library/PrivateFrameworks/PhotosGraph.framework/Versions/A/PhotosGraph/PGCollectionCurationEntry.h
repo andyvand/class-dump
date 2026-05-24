@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PGCollectionCurationEntry
@@ -15,9 +15,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSString *collectionId; // @dynamic collectionId;
-@property(nonatomic, copy) NSDate *curationDate; // @dynamic curationDate;
-@property(nonatomic, copy) NSString *keySongAdamID; // @dynamic keySongAdamID;
-@property(nonatomic, copy) NSString *keySongFlexUID; // @dynamic keySongFlexUID;
 
 @end
 

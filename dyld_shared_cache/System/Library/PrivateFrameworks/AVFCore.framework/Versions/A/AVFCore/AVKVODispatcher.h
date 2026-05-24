@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)8;
 - (id);
-- (id);
-- (id);
+- (id)uments of reply block must be objects;
+- (id);
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, RBSProcessExitStatus, RBSTerminateContext;
-
 @interface RBSProcessExitContext
 {
     int _legacyCode;
-    NSDate *_timestamp;
-    long long _type;
-    RBSProcessExitStatus *_status;
-    RBSTerminateContext *_terminationContext;
 }
 
 + (id);
@@ -23,31 +17,20 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (long long);
-- (id);
+- (long long);
+- (id)�Ip;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)6;
 - (int);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) int legacyCode; // @synthesize legacyCode=_legacyCode;
-@property(readonly, nonatomic) RBSProcessExitStatus *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) RBSTerminateContext *terminationContext; // @synthesize terminationContext=_terminationContext;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PPTrialWrapper, _PASLock;
+@class _PASLock;
 
 @interface PPFeatureRedactor
 {
     _PASLock *_lock;
-    PPTrialWrapper *_trialWrapper;
 }
 
-- (void);
+- (void)/;
 - (id);
 - (void)r";
 

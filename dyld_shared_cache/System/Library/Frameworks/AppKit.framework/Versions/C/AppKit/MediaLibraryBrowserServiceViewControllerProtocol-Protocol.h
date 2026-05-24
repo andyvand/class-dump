@@ -5,5 +5,6 @@
 //
 
 @protocol MediaLibraryBrowserServiceViewControllerProtocol
+- (void);
 @end
 

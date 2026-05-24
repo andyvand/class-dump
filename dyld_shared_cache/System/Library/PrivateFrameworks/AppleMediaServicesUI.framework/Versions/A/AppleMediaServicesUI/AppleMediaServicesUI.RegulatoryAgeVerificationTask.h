@@ -7,14 +7,13 @@
 @interface AppleMediaServicesUI.RegulatoryAgeVerificationTask
 {
     id request;
-    id metrics;
 }
 
-+ (id)ngePublisher;
++ (id)ObjectWillChangePublisher;
 + (id)yÉ×=yAFG;
 + (id)public}@:[%{public}@] Starting buy /* Error: Ran out of types for this method. */;
 - (id);
-- (void)estAccessForMediaType:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)requestAccessForMediaType:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

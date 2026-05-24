@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.PageContextTracker
 {
     id stack;
-    id historySize;
 }
 
 @end

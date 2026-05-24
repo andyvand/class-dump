@@ -13,7 +13,7 @@
 + (Class);
 + (long long)tionary",R,N,V_intentClassNameToResolverOptions;
 - (id);
-- (id)rence:(id)arg1;
+- (id)StringAsRelativeAudioSourceReference:(id)arg1;
 
 @end
 

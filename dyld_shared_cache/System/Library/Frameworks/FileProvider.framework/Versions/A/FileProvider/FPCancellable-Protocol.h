@@ -5,5 +5,6 @@
 //
 
 @protocol FPCancellable
+- (void)letedTransactionState10enterStateEjE3$_0FvRNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEE;
 @end
 

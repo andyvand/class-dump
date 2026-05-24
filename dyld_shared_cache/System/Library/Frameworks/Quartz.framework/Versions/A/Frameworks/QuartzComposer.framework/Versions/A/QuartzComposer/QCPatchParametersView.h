@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GFList, NSMutableArray, QCPatch;
+@class QCPatch;
 
 @interface QCPatchParametersView
 {
     QCPatch *_patch;
-    unsigned long long _mask;
-    _Bool _autosize;
-    GFList *_patches;
-    NSMutableArray *_ports;
-    GFList *_labels;
-    NSMutableArray *_views;
-    struct CGSize _size;
-    void *_unused[4];
 }
 
 + (void)ildRoots/4~CNqTugBWysuvm0YRy9B_ZwVkS7juaIavArBNMOk/Library/Caches/com.apple.xbs/TemporaryDirectory.A4b0Lc/Sources/QuartzComposer/MeshKit/sources/Core3DRuntime/Utils/C3DUtils.c;
@@ -29,7 +21,7 @@
 - (_Bool);
 - (unsigned long long);
 - (struct CGSize);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);

@@ -11,7 +11,7 @@
     PLLibraryScopeRule *_proxyObject;
 }
 
-+ (id);
++ (id)@!";
 + (_Bool);
 + (id);
 + (unsigned long long);
@@ -29,12 +29,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)sharedInstance;
 - (id);
 - (void),N,V_dayGroupKeyAssetHelper;
 
 // Remaining properties
-@property(readonly, nonatomic) PLLibraryScopeRule *plRepresentation;
 @property(retain, nonatomic) PLLibraryScopeRule *proxyObject; // @synthesize proxyObject=_proxyObject;
 
 @end

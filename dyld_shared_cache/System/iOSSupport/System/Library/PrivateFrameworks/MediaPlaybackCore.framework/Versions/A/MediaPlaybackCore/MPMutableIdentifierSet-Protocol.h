@@ -7,19 +7,17 @@
 @class NSString;
 
 @protocol MPMutableIdentifierSet
+- (void);
+- (void);
+- (void)R;
+- (NSString *)c;
+- (void)";
+- (NSString *)a;
 - (NSString *)!ø@ù`°1Â0@ù
 × ;
 - (_Bool)L0xd@xHÌÍô¡Î;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *containerUniqueID;
-@property(copy, nonatomic) NSString *contentItemID;
-@property(copy, nonatomic) NSString *handoffCorrelationID;
-@property(copy, nonatomic) NSString *lyricsID;
-@property(copy, nonatomic) NSString *opaqueID;
-@property(nonatomic, getter=isPlaceholder) _Bool placeholder;
-@property(nonatomic) _Bool shouldExcludeFromShuffle;
-@property(copy, nonatomic) NSString *vendorID;
-@property(copy, nonatomic) NSString *versionHash;
 @end
 

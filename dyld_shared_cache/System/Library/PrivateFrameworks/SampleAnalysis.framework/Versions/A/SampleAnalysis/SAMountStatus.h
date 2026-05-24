@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface SAMountStatus
 {
     NSMutableArray *_snapshots;
-    NSString *_path;
-    NSString *_type;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityFrameForRange:(const void *)arg1;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -23,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

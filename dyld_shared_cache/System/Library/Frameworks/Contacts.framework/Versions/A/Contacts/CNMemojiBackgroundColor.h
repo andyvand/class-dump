@@ -7,29 +7,23 @@
 @interface CNMemojiBackgroundColor
 {
     double _red;
-    double _green;
-    double _blue;
-    double _alpha;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)T;
 - (void);
 - (void);
-- (void);
+- (void)fset.;
 - (void);
 - (double);
 - (double);
-- (double);
+- (double)Device1,8237;
 - (double);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) double blue; // @synthesize blue=_blue;
-@property(nonatomic) double green; // @synthesize green=_green;
 @property(nonatomic) double red; // @synthesize red=_red;
 
 @end

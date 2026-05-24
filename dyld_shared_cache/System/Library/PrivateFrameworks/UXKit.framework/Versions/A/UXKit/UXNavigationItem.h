@@ -4,32 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSStackView, NSString, NSTextField, NSToolbarItemGroup, NSView, UXBarButtonItem;
+@class NSArray, NSView;
 
 @interface UXNavigationItem
 {
     NSArray *_leftBarButtonItems;
-    NSArray *_rightBarButtonItems;
-    NSStackView *_internalTitleView;
-    _Bool _hidesBackButton;
-    _Bool _hidesSidebarToggleButton;
-    _Bool _hidesAlternateTitleView;
-    _Bool _hidesGlobalTrailingView;
-    _Bool _leftItemsSupplementBackButton;
-    _Bool _useWindowForTitleOutput;
-    NSString *_title;
-    NSView *_titleView;
-    NSString *_prompt;
-    NSString *_subtitle;
-    UXBarButtonItem *_backBarButtonItem;
-    NSTextField *_internalTitleLabel;
-    NSTextField *_internalSubtitleLabel;
-    NSString *_identifier;
-    NSView *_condensedTitleView;
-    UXBarButtonItem *_progressButtonItem;
-    UXBarButtonItem *_switchLibraryButtonItem;
-    NSToolbarItemGroup *_centerToolbarItemGroup;
-    struct NSEdgeInsets _layoutMargins;
 }
 
 + (id);
@@ -44,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -61,7 +40,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)߭;
 - (void);
 - (void);
 - (void);
@@ -71,10 +50,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)alSettingsService;
+- (id)layEnabled:,V_isAutoplayEnabled /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -93,32 +72,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) UXBarButtonItem *backBarButtonItem; // @synthesize backBarButtonItem=_backBarButtonItem;
-@property(retain, nonatomic) NSToolbarItemGroup *centerToolbarItemGroup; // @synthesize centerToolbarItemGroup=_centerToolbarItemGroup;
-@property(retain, nonatomic) NSView *condensedTitleView; // @synthesize condensedTitleView=_condensedTitleView;
-@property(nonatomic) _Bool hidesAlternateTitleView; // @synthesize hidesAlternateTitleView=_hidesAlternateTitleView;
-@property(nonatomic) _Bool hidesBackButton; // @synthesize hidesBackButton=_hidesBackButton;
-@property(nonatomic) _Bool hidesGlobalTrailingView; // @synthesize hidesGlobalTrailingView=_hidesGlobalTrailingView;
-@property(nonatomic) _Bool hidesSidebarToggleButton; // @synthesize hidesSidebarToggleButton=_hidesSidebarToggleButton;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSTextField *internalSubtitleLabel; // @synthesize internalSubtitleLabel=_internalSubtitleLabel;
-@property(readonly, nonatomic) NSTextField *internalTitleLabel; // @synthesize internalTitleLabel=_internalTitleLabel;
 @property(readonly, nonatomic) NSView *internalTitleView;
-@property(nonatomic) struct NSEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property(retain, nonatomic) NSArray *leadingBarButtonItems;
-@property(retain, nonatomic) UXBarButtonItem *leftBarButtonItem;
-@property(retain, nonatomic) NSArray *leftBarButtonItems;
-@property(nonatomic) _Bool leftItemsSupplementBackButton; // @synthesize leftItemsSupplementBackButton=_leftItemsSupplementBackButton;
-@property(retain, nonatomic) UXBarButtonItem *progressButtonItem; // @synthesize progressButtonItem=_progressButtonItem;
-@property(copy, nonatomic) NSString *prompt; // @synthesize prompt=_prompt;
-@property(retain, nonatomic) UXBarButtonItem *rightBarButtonItem;
-@property(retain, nonatomic) NSArray *rightBarButtonItems;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) UXBarButtonItem *switchLibraryButtonItem; // @synthesize switchLibraryButtonItem=_switchLibraryButtonItem;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSView *titleView; // @synthesize titleView=_titleView;
-@property(retain, nonatomic) NSArray *trailingBarButtonItems;
-@property(nonatomic) _Bool useWindowForTitleOutput; // @synthesize useWindowForTitleOutput=_useWindowForTitleOutput;
 
 @end
 

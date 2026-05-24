@@ -6,65 +6,47 @@
 
 #import <AppKit/NSView.h>
 
-@class NSButton, NSColor, NSImage, NSLayoutConstraint, NSMutableArray, NSSegmentedControl, NSString, NSTouchBarItem, NSTouchBarItemOverlay;
+@class NSButton;
 
 __attribute__((visibility("hidden")))
 @interface NSPickerTouchBarItemView : NSView
 {
     NSButton *_collapsedButton;
-    NSSegmentedControl *_segmentedControl;
-    long long _controlRepresentation;
-    long long _effectiveControlRepresentation;
-    id _target;
-    SEL _action;
-    _Bool _enabled;
-    NSString *_collapsedRepresentationLabel;
-    NSImage *_collapsedRepresentationImage;
-    NSMutableArray *_images;
-    NSMutableArray *_labels;
-    NSTouchBarItemOverlay *_overlay;
-    NSTouchBarItem *_sourceItemForOverlay;
-    struct CGSize _minimumCollapsedSize;
-    struct CGSize _minimumExpandedSize;
-    struct CGSize _maximumExpandedSize;
-    NSLayoutConstraint *_minWidthConstraint;
-    NSLayoutConstraint *_maxWidthConstraint;
-    NSLayoutConstraint *_heightConstraint;
 }
 
-+ (id);
++ (id)with cred %@ cancel %d;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)a@9T;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (long long);
-- (id);
-- (id);
+- (long long)"{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllIPAddresses"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (id)startResourceTimer;
+- (id)spoolingStream;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (struct CGSize);
-- (struct CGSize);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)b;
+- (void)auth:(id)arg1 response=%@, proxyURL=%@, request=%@, credentials=%@, handle=%p;
+- (void)rse error;
+- (void)_forceEnablePQTLS;
+- (struct CGSize)r>"8;
+- (struct CGSize)ject<OS_nw_object>"28@?0I8^{nw_protocol_identifier=[32c]ii}12^i20;
+- (struct CGSize).mm;
+- (void)ize:%lld, st_uid:%d, st_mode:%o st_flags:0x%x acl:%s parentInfo:%@ } /* Error: Ran out of types for this method. */;
+- (void)cc-%d-%lld;
+- (id)ust}^{__shared_weak_count}}{shared_ptr<const __CFArray>=^{__CFArray}^{__shared_weak_count}}{?=qi}>8;
+- (id)@;
 - (id);
 - (id);
 - (void);
@@ -80,25 +62,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)usageBoundsForLastTextContainer;
 - (SEL)hy{ÌhGGASyÙhGG;
-- (void)eCheckboxOffPressed;
-- (void)Indicator;
+- (void)NSCustomizeCheckboxOffPressed;
+- (void)NSScrubberShowCenterIndicator;
 - (void);
 - (struct NSEdgeInsets)+B;
 
 // Remaining properties
-@property SEL action; // @synthesize action=_action;
-@property(retain) NSImage *collapsedRepresentationImage; // @synthesize collapsedRepresentationImage=_collapsedRepresentationImage;
-@property(copy) NSString *collapsedRepresentationLabel; // @synthesize collapsedRepresentationLabel=_collapsedRepresentationLabel;
-@property long long controlRepresentation;
-@property(getter=isEnabled) _Bool enabled;
 @property long long numberOfOptions;
-@property long long selectedIndex;
-@property(copy) NSColor *selectionColor;
-@property long long selectionMode;
-@property __weak NSTouchBarItem *sourceItemForOverlay; // @synthesize sourceItemForOverlay=_sourceItemForOverlay;
-@property __weak id target; // @synthesize target=_target;
 
 @end
 

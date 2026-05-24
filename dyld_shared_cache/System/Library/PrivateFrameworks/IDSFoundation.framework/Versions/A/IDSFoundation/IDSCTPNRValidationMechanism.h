@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSCTPNRValidationMechanism
 {
     long long _type;
-    NSString *_context;
 }
 
 + (id);
@@ -21,12 +18,11 @@
 - (unsigned long long);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)bundlePath;
 - (id);
 - (void)provisioning;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *context; // @synthesize context=_context;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

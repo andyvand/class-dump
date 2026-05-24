@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UICoordinateSpace, _UIFocusRegionSearchContext;
+
 @protocol _UIFocusRegionContainer
+- (void)qosClassWhileServicingRequestsResponse:(id <_UIFocusRegionSearchContext>)arg1 identifier: /* Error: Ran out of types for this method. */;
+- (id <UICoordinateSpace>)fetchCountOfRecordType:completionHandler: /* Error: Ran out of types for this method. */;
 @end
 

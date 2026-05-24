@@ -6,19 +6,17 @@
 
 #import <MediaRemote/MRTextEditingSession.h>
 
-@class MRTextEditingAttributes, NSString;
+@class NSString;
 
 @interface MRMutableTextEditingSession : MRTextEditingSession
 {
 }
 
 - (void);
-- (void);
+- (void)initWithCurrentOrUpNextDateInterval:(id)arg1 isAudioSessionActive:localActiveAssertionContexts:localPendingAssertionContexts:remoteActiveAssertionContexts:remotePendingAssertionContexts:localDevice:remoteQualifiedInRangeDevices:remoteQualifiedOutOfRangeDevices:remoteDisqualifiedDevices: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MRTextEditingAttributes *attributes; // @dynamic attributes;
-@property(nonatomic, getter=isEditing) _Bool editing; // @dynamic editing;
 @property(copy, nonatomic) NSString *text; // @dynamic text;
 
 @end

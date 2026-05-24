@@ -13,8 +13,8 @@
 - (id);
 - (id);
 - (void);
-- (void)wnloads;
-- (id)oLoaderError;
+- (void)DuplicateDownloads;
+- (id)MusicSubscriptionInfoLoaderError;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *pageType;

@@ -7,12 +7,6 @@
 @interface NewsFeed.FamilySharingStatusManager
 {
     id delegate;
-    id cachedFamilyStatus;
-    id lazyStore;
-    id familyStatusStoreKey;
-    id familyEigibilityProvider;
-    id deduper;
-    id dedeuperToken;
 }
 
 @end

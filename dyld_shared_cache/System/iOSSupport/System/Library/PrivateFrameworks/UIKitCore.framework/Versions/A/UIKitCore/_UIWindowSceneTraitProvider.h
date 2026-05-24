@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScene, UITraitCollection;
+@class UIScene;
 @protocol _UIWindowSceneTraitSource;
 
 __attribute__((visibility("hidden")))
@@ -15,28 +15,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)ertType: /* Error: Ran out of types for this method. */;
-- (void)a:(id)arg1;
-- (id)date;
+- (id)soundWithAlertType: /* Error: Ran out of types for this method. */;
+- (void)imageReceived:(id)arg1 data: /* Error: Ran out of types for this method. */;
+- (id)_allowsItemsToUpdate;
 - (id)>> * _Nonnull _UIFocusItemContainerGatherAllExtantChildFocusableItemsInRect(id<UIFocusEnvironment>  _Nonnull __strong, id<UIFocusItemContainer>  _Nonnull __strong, CGRect);
 - (void);
 - (id)LXR0FÁ7|;
 - (void)È)Ä7;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, nonatomic) UITraitCollection *_traitOverrides;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITraitCollection",?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <_UIWindowSceneTraitSource> source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 
 @end
 

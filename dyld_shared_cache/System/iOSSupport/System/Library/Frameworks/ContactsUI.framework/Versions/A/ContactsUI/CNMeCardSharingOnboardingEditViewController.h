@@ -6,39 +6,16 @@
 
 #import <ContactsUI/CNMeCardSharingOnboardingViewController.h>
 
-@class CNAvatarEditingManager, CNContact, CNContactStore, CNMeCardSharingOnboardingAvatarCarouselViewController, CNMeCardSharingOnboardingHeaderViewController, CNMeCardSharingPickerLayoutAttributes, CNMutableContact, CNPhotoPickerVariantsManager, CNPhotoPickerViewController, CNSharingProfileLogger, NSString, UITextField;
-@protocol AVTAvatarRecord, CNMeCardSharingNameProvider, CNMeCardSharingOnboardingEditViewControllerDelegate;
-
 @interface CNMeCardSharingOnboardingEditViewController : CNMeCardSharingOnboardingViewController
 {
     _Bool _delegateDoesRespondToOnboardingResultSelector;
-    _Bool _shouldSetAsMeContact;
-    id <CNMeCardSharingOnboardingEditViewControllerDelegate> _delegate;
-    CNContactStore *_contactStore;
-    CNContact *_contact;
-    id <AVTAvatarRecord> _avatarRecord;
-    CNMeCardSharingPickerLayoutAttributes *_layoutAttributes;
-    long long _nameOrder;
-    UITextField *_givenNameField;
-    UITextField *_familyNameField;
-    CNMutableContact *_editingContact;
-    CNMutableContact *_avatarCarouselEditingContact;
-    NSString *_editingGivenName;
-    NSString *_editingFamilyName;
-    id <CNMeCardSharingNameProvider> _nameProvider;
-    CNMeCardSharingOnboardingAvatarCarouselViewController *_avatarCarouselViewController;
-    CNMeCardSharingOnboardingHeaderViewController *_headerViewController;
-    CNPhotoPickerViewController *_photoPickerViewController;
-    CNPhotoPickerVariantsManager *_variantsManager;
-    CNAvatarEditingManager *_posePicker;
-    CNSharingProfileLogger *_logger;
 }
 
 + (id);
-+ (id)etupSharedProfileStateOracle;
++ (id)setupSharedProfileStateOracle;
 - (void);
 - (id);
-- (void);
+- (void)_;
 - (_Bool);
 - (void);
 - (void);
@@ -51,21 +28,21 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)B9;
+- (id)K;
 - (void);
 - (id);
 - (void);
@@ -83,68 +60,41 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id))@9?	;
 - (double);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);
 - (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (long long)initWithRecordStore:(id)arg1 entityNames:(long long)arg2 clientIdentifier: /* Error: Ran out of types for this method. */;
+- (void)pe == collectionType;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void)
 × ;
-- (void)tToMeCard;
+- (void)_didPersistToMeCard;
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) CNMutableContact *avatarCarouselEditingContact; // @synthesize avatarCarouselEditingContact=_avatarCarouselEditingContact;
-@property(retain, nonatomic) CNMeCardSharingOnboardingAvatarCarouselViewController *avatarCarouselViewController; // @synthesize avatarCarouselViewController=_avatarCarouselViewController;
-@property(retain, nonatomic) id <AVTAvatarRecord> avatarRecord; // @synthesize avatarRecord=_avatarRecord;
-@property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNMeCardSharingOnboardingEditViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool delegateDoesRespondToOnboardingResultSelector; // @synthesize delegateDoesRespondToOnboardingResultSelector=_delegateDoesRespondToOnboardingResultSelector;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CNMutableContact *editingContact; // @synthesize editingContact=_editingContact;
-@property(retain, nonatomic) NSString *editingFamilyName; // @synthesize editingFamilyName=_editingFamilyName;
-@property(retain, nonatomic) NSString *editingGivenName; // @synthesize editingGivenName=_editingGivenName;
-@property(retain, nonatomic) UITextField *familyNameField; // @synthesize familyNameField=_familyNameField;
-@property(retain, nonatomic) UITextField *givenNameField; // @synthesize givenNameField=_givenNameField;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNMeCardSharingOnboardingHeaderViewController *headerViewController; // @synthesize headerViewController=_headerViewController;
-@property(retain, nonatomic) CNMeCardSharingPickerLayoutAttributes *layoutAttributes; // @synthesize layoutAttributes=_layoutAttributes;
-@property(readonly, nonatomic) CNSharingProfileLogger *logger; // @synthesize logger=_logger;
-@property(nonatomic) long long nameOrder; // @synthesize nameOrder=_nameOrder;
-@property(retain, nonatomic) id <CNMeCardSharingNameProvider> nameProvider; // @synthesize nameProvider=_nameProvider;
-@property(retain, nonatomic) CNPhotoPickerViewController *photoPickerViewController; // @synthesize photoPickerViewController=_photoPickerViewController;
-@property(retain, nonatomic) CNAvatarEditingManager *posePicker; // @synthesize posePicker=_posePicker;
-@property(nonatomic) _Bool shouldSetAsMeContact; // @synthesize shouldSetAsMeContact=_shouldSetAsMeContact;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) CNPhotoPickerVariantsManager *variantsManager; // @synthesize variantsManager=_variantsManager;
 
 @end
 

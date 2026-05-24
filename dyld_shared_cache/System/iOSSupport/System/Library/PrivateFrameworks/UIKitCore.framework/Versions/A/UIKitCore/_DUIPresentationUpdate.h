@@ -13,14 +13,14 @@
 }
 
 + (_Bool)essage;
-- (void);
-- (void);
-- (id);
+- (void)initWithEnvironmentName:(id)arg1 namedDelegatePort:queue: /* Error: Ran out of types for this method. */;
+- (void)sPluginPayload:(long long)arg1 isRichLink: /* Error: Ran out of types for this method. */;
+- (id)eHandler",&,N,V_screenTimeAskReponseHandler;
 - (long long);
 - (id);
 - (unsigned long long);
-- (_Bool)e:(id)arg1;
-- (void)ndOfLineAndModifySelection:(id)arg1;
+- (_Bool)setLensHangTime:(id)arg1;
+- (void)moveToLeftEndOfLineAndModifySelection:(id)arg1;
 - (void)g.;
 
 // Remaining properties

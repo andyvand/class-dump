@@ -11,31 +11,6 @@
 @interface PRPinyinContext : PRAutocorrectionContext
 {
     NSMutableArray *_modifications;
-    NSMutableArray *_addedModifications;
-    NSMutableArray *_removedModifications;
-    NSMutableArray *_addedRemovedModifications;
-    NSMutableArray *_prefixes;
-    NSMutableArray *_guesses;
-    NSMutableArray *_completions;
-    NSMutableArray *_corrections;
-    char *_buffer;
-    char *_altBuffer;
-    char *_altBufferScores;
-    NSMutableArray *_geometryDataArray;
-    unsigned long long *_syllableLengthArray;
-    void *_connection;
-    unsigned long long _length;
-    unsigned long long _lengthBeforeApostrophes;
-    unsigned long long _startingPoint;
-    unsigned long long _lastIndexes[4];
-    unsigned long long _nextIndexes[2];
-    unsigned long long _startIndex;
-    unsigned long long _endIndex;
-    unsigned long long _abbreviatedSyllableCount;
-    unsigned long long _previouslyAnalyzedLength;
-    double _validSequenceCorrectionThreshold;
-    int _romanization;
-    _Bool _lastSyllableIsPartial;
 }
 
 - (double);
@@ -45,13 +20,13 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)4(;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (_Bool);
 - (void);

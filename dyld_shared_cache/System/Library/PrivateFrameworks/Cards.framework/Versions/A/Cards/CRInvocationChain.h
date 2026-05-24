@@ -5,38 +5,45 @@
 //
 
 @class NSObject, NSPointerArray;
-@protocol CRInvocationChainDelegate, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface CRInvocationChain
 {
     NSObject<OS_dispatch_queue> *_chainedObjectsAccessQueue;
-    id <CRInvocationChainDelegate> _delegate;
-    NSPointerArray *_chainedObjects;
 }
 
-- (_Bool);
+- (_Bool)l/Library/BuildRoots/4~CNrJugDiro70fnLmLKWfzdiQRB62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/geode/Source/Adjustments/DGDescription+PAAutoEnhance.m;
+- (void)DGSpotPatchCustomViewController;
+- (void)s/Photos_Apps/lib/geode/Source/Operations/Exposure/DGExposureOperation.m;
+- (_Bool)rJugDiro70fnLmLKWfzdiQRB62Ilb1OI3CMcY/Library/Caches/com.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/geode/Source/Operations/Exposure/DGExposureOperation.m;
+- (id):(SEL)arg1 ];
+- (_Bool)DGExposureOperation;
+- (void)s out of table range
+;
+- (void)inputColorCorrection;
+- (void)tv;																	
+}																					
+;
+- (void)tv.a   = 1.0;																	
+	return outv;																	
+}																					
+;
+- (id)v.b   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	outv.a   = 1.0;																	
+	return outv;																	
+}																					
+;
 - (void);
-- (void);
-- (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)";
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic, getter=_chainedObjects, setter=_setChainedObjects:) NSPointerArray *chainedObjects; // @synthesize chainedObjects=_chainedObjects;
-@property(nonatomic) __weak id <CRInvocationChainDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

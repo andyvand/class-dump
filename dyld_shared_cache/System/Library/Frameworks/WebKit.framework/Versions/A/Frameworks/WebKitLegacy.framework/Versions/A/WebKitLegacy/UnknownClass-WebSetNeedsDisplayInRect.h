@@ -12,7 +12,7 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (void);
-- (id);
+- (void);
+- (id)j;
 @end
 

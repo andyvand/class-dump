@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSPersistentContainer;
+@class NSObject, NSPersistentContainer;
 
 @interface STConcretePersistentStoreChangeHandler
 {
     NSObject *_lastPersistentHistoryTokenByStoreIdentifierLock;
-    NSPersistentContainer *_persistentContainer;
-    NSMutableDictionary *_lastPersistentHistoryTokenByStoreIdentifier;
 }
 
+- (id)addObserver:(id)arg1 forKeyPath:options:context: /* Error: Ran out of types for this method. */;
+- (void)FX/C3DFXTechnique.c;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)e=%@ subscriptionOffer=%@>;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *lastPersistentHistoryTokenByStoreIdentifier; // @synthesize lastPersistentHistoryTokenByStoreIdentifier=_lastPersistentHistoryTokenByStoreIdentifier;
 @property(readonly) NSPersistentContainer *persistentContainer; // @synthesize persistentContainer=_persistentContainer;
 
 @end

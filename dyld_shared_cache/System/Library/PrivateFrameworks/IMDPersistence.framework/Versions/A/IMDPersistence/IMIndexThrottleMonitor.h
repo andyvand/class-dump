@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSObject;
-@protocol IMIndexThrottleStorage, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface IMIndexThrottleMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSNumber *_lastState;
-    CDUnknownBlockType _changeHandler;
-    id <IMIndexThrottleStorage> _storage;
 }
 
 - (id);
@@ -24,8 +21,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -39,15 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType changeHandler; // @synthesize changeHandler=_changeHandler;
-@property(readonly, nonatomic) NSDate *dateOfThrottlingCompletion;
-@property(retain, nonatomic) NSDictionary *historicalThrottles;
-@property(readonly, nonatomic) _Bool isThrottled;
-@property(retain, nonatomic) NSNumber *lastState; // @synthesize lastState=_lastState;
-@property(nonatomic) long long lastThrottleState;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) id <IMIndexThrottleStorage> storage; // @synthesize storage=_storage;
-@property(retain, nonatomic) NSDictionary *throttles;
 
 @end
 

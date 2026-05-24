@@ -9,12 +9,10 @@
 @interface AVOnceTimebaseObserver : AVTimebaseObserver
 {
     CDStruct_1b6d18a9 _fireTime;
-    CDUnknownBlockType _block;
-    _Bool _didFire;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)[T];
 - (void);
 - (void);
 - (void);

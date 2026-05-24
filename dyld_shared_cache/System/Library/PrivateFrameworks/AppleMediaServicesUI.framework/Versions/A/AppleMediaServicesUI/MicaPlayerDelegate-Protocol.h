@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class MicaPlayer;
+
 @protocol MicaPlayerDelegate
+
+@optional
+- (void)to asset:(MicaPlayer *)arg1 %{public}@;
+- (void)content is downloaded now unlock the auto asset:(MicaPlayer *)arg1 %{public}@;
+- (void), now lock the auto asset to download the content;
 @end
 

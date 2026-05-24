@@ -12,8 +12,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)setHasKeyHealth: /* Error: Ran out of types for this method. */;
++ (id)_bestScore;
 + (id);
 + (id);
 

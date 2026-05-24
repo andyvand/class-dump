@@ -7,7 +7,7 @@
 @class UIColor;
 
 @protocol UICollectionViewTableAttributes
-- (void)Animation:(UIColor *)arg1;
+- (void)set_expectedSuperviewFollowingAnimation:(UIColor *)arg1;
 - (UIColor *)the debugger. Invalid size:%@; collection view:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

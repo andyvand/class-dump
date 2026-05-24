@@ -6,17 +6,12 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICMusicAccountNotificationsSettingsResponse, ICStoreRequestContext, ICStoreURLRequest, NSDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ICMusicAccountNotificationsSettingsRequestOperation : ICRequestOperation
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    ICStoreRequestContext *_requestContext;
-    ICStoreURLRequest *_storeURLRequest;
-    ICMusicAccountNotificationsSettingsResponse *_response;
-    long long _requestMethod;
-    NSDictionary *_bodyDictionary;
 }
 
 - (id);
@@ -24,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void)nsumerNetServiceDelegate;
+- (void)ICDelegationConsumerNetServiceDelegate;
 
 @end
 

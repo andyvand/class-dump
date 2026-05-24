@@ -7,8 +7,6 @@
 @interface Speech.EAREuclid
 {
     id $defaultActor;
-    id id;
-    id actorSystem;
 }
 
 @end

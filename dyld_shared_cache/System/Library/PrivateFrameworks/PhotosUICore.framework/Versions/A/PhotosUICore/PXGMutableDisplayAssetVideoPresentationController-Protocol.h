@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol PXGMutableDisplayAssetVideoPresentationController
+- (void);
+- (_Bool)_;
+- (void)=;
+- (struct CGSize);
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *audioSessionCategory;
-@property(nonatomic) long long desiredPlayState;
-@property(nonatomic) double desiredPlaybackRate;
-@property(nonatomic) CDStruct_1b6d18a9 desiredTime;
-@property(nonatomic) _Bool isCleanApertureCompensationEnabled;
-@property(nonatomic) _Bool isCrossfadingFromStillToVideoEnabled;
-@property(nonatomic) _Bool isDuckingOtherAudioEnabled;
-@property(nonatomic) _Bool isLoopingEnabled;
-@property(nonatomic) _Bool isMixingAudioWithOthersEnabled;
-@property(nonatomic) _Bool isVisible;
-@property(nonatomic) CDStruct_1b6d18a9 playbackStartTime;
-@property(nonatomic) CDStruct_e83c9415 playbackTimeRange;
-@property(nonatomic) _Bool resetsDesiredPlayStateOnHide;
-@property(nonatomic) _Bool shouldDisableAutomaticPixelBufferUpdates;
 @property(nonatomic) _Bool shouldDisplayPreviousNonNullPixelBuffer;
-@property(nonatomic) struct CGSize targetSize;
 @end
 

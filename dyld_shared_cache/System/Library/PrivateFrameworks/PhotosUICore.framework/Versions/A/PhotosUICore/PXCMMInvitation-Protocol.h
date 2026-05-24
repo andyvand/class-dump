@@ -4,29 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, PXAssetCollectionActionManager, PXMomentShareStatusPresentation, PXPhotosViewConfiguration;
-@protocol PXCMMInvitationParticipant, PXDisplayAsset, PXDisplayAssetCollection, PXUIImageProvider;
+@class NSString, NSURL;
+@protocol PXCMMInvitationParticipant;
 
 @protocol PXCMMInvitation
+- (NSURL *)llenge"16@?<v@?q@"NSURLCredential">24;
+- (id <PXCMMInvitationParticipant>)__objc_protorefs__DATA_CONST;
 - (NSString *),R,N;
 - (unsigned long long)[íÿ_p;
 - (NSString *)@. Error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXDisplayAssetCollection> assetCollection;
-@property(readonly, nonatomic) PXAssetCollectionActionManager *assetCollectionActionManager;
-@property(readonly, nonatomic) PXPhotosViewConfiguration *assetViewConfiguration;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSDate *creationDate;
-@property(readonly, nonatomic) NSDate *expiryDate;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) id <PXCMMInvitationParticipant> owner;
-@property(readonly, nonatomic) id <PXDisplayAsset> posterAsset;
-@property(readonly, nonatomic) id <PXUIImageProvider> posterMediaProvider;
-@property(readonly, nonatomic) long long shareType;
 @property(readonly, nonatomic) NSURL *shareURL;
-@property(readonly, nonatomic) PXMomentShareStatusPresentation *statusPresentation;
-@property(readonly, nonatomic) NSString *subtitle;
-@property(readonly, nonatomic) NSString *title;
 @end
 

@@ -7,7 +7,6 @@
 @interface (extension in Navigation):__C.MNTrace.MapMatcherTestEvent
 {
     id timestamp;
-    id eventType;
 }
 
 @end

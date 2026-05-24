@@ -7,9 +7,6 @@
 @interface _SFXPCAsyncSequenceContainer
 {
     id uuid;
-    id name;
-    id containerRegistry;
-    id sequences;
 }
 
 - (void);

@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle, NSObject;
-@protocol OS_dispatch_io, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface _PASPosixPipeContext
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_io> *_readChannel;
-    NSFileHandle *_writeHandle;
-    _Bool _stop;
 }
 
-- (void);
-- (int);
-- (void);
+- (void)VendorID Source = %s, Product Version = 0x%04x;
+- (int)goutMode=%d, _installerProgressDescription=%@, _installerOverallProgress=%@>;
+- (void)stringFromRelationshipType: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString;
+
 @protocol DDSUAFAssetProvider
+- (void)setHasDictationModel:(NSString *)arg1;
+- (NSArray *)setHasDictationContentEdited:(NSString *)arg1;
+- (void)setHasDialogScorerType:(NSString *)arg1;
 @end
 

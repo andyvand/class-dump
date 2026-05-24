@@ -10,21 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDNearestTransitParameters
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _lineMuid;
-    _Bool _isTransitOnly;
-    struct {
-        unsigned int has_lineMuid:1;
-        unsigned int has_isTransitOnly:1;
-    } _flags;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)*;
 - (_Bool);
 - (id)26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24q32Q40;
-- (id)sExistingUsableDownloadForURL:withChecksum: /* Error: Ran out of types for this method. */;
+- (id)_hasExistingUsableDownloadForURL:withChecksum: /* Error: Ran out of types for this method. */;
 - (id)Üø0ú$û;
 - (void)áz®Gáþ?áz®GÔ@;
 

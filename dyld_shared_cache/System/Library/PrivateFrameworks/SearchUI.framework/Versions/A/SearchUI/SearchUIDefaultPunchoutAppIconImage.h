@@ -6,12 +6,11 @@
 
 #import <SearchUI/SearchUIAppIconImage.h>
 
-@class NSURL, SearchUIImage;
+@class NSURL;
 
 @interface SearchUIDefaultPunchoutAppIconImage : SearchUIAppIconImage
 {
     NSURL *_url;
-    SearchUIImage *_wrappedImage;
 }
 
 + (id);
@@ -21,16 +20,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)XPONENT];
+- (unsigned long long)6-;
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)h;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(retain, nonatomic) SearchUIImage *wrappedImage; // @synthesize wrappedImage=_wrappedImage;
 
 @end
 

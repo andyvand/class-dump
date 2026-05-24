@@ -6,30 +6,23 @@
 
 #import <AVConference/VCTransportSession.h>
 
-@class NSString, VCDatagramChannelIDS;
+@class VCDatagramChannelIDS;
 
 __attribute__((visibility("hidden")))
 @interface VCTransportSessionIDS : VCTransportSession
 {
     VCDatagramChannelIDS *_datagramChannel;
-    int _socket;
-    NSString *_destination;
-    _Bool _requireEncryptionInfo;
-    int _dataPath;
-    _Bool _useIDSLinkSuggestionFeatureFlag;
-    unsigned int _linkPreferSuggestionFromDefaults;
-    _Bool _sessionBasedServerExperimentsProcessed;
 }
 
 + (int);
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (void)9h;
 - (void);
 - (void);
 - (unsigned int);
+- (void);
+- (void);
+- (unsigned int);
 - (int);
 - (id);
 - (id);
@@ -41,6 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -51,30 +45,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (int);
+- (void);
+- (void);
+- (int);
+- (void)h;
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (int);
-- (void);
-- (void);
-- (int);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void)Áð!$DùäÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *destination; // @synthesize destination=_destination;
 @property(nonatomic) int socket; // @synthesize socket=_socket;
 
 @end

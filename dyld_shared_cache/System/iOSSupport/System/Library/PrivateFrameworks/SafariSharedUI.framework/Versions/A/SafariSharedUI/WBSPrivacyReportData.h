@@ -4,30 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, NSSet, NSString, WBSKnownTrackerFilter, WBSKnownTrackingThirdParty, WKWebView;
+@class NSObject, NSSet;
 @protocol OS_dispatch_queue;
 
 @interface WBSPrivacyReportData
 {
     NSObject<OS_dispatch_queue> *_dataPrefetchQueue;
-    long long _prefetchState;
-    NSMutableArray *_prefetchCompletionHandlers;
-    WBSKnownTrackerFilter *_knownTrackerFilter;
-    NSSet *_firstPartiesFromHistory;
-    NSString *_webViewFirstPartyHighLevelDomainFromHost;
-    NSArray *_webViewLoadedThirdParties;
-    NSArray *_knownTrackers;
-    NSArray *_preventedKnownTrackers;
-    NSArray *_blockedKnownTrackers;
-    NSArray *_knownTrackersSortDescriptors;
-    NSArray *_trackedFirstParties;
-    NSArray *_trackedFirstPartiesSortDescriptors;
-    WBSKnownTrackingThirdParty *_mostSeenKnownTracker;
-    NSSet *_trackerOwnerNames;
-    double _ratioOfTrackedFirstPartiesToAllVisited;
-    NSSet *_histories;
-    NSSet *_profileIdentifiers;
-    WKWebView *_webView;
 }
 
 + (void);
@@ -43,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,9 +45,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)<zg;
 - (double);
-- (void);
+- (void)@;
 - (id);
 - (void);
 - (void);
@@ -74,32 +56,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)cm.message_id INNER JOIN message m ON   ma.message_id = m.ROWID WHERE   m.cache_has_attachments   AND m.expire_state != %d   AND cm.chat_id IN (%@)   AND a.hide_attachment == 0   AND a.ck_sync_state == 1   AND a.transfer_state == 0 ORDER BY m.date DESC limit %d;
 - (_Bool);
-- (void)stThumbnailDataFromImage: /* Error: Ran out of types for this method. */;
+- (void)readingListThumbnailDataFromImage: /* Error: Ran out of types for this method. */;
 - (id)ÿÄ>¶\;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *blockedKnownTrackers; // @synthesize blockedKnownTrackers=_blockedKnownTrackers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasData;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSSet *histories; // @synthesize histories=_histories;
-@property(readonly, nonatomic) NSArray *knownTrackers; // @synthesize knownTrackers=_knownTrackers;
-@property(copy, nonatomic) NSArray *knownTrackersSortDescriptors; // @synthesize knownTrackersSortDescriptors=_knownTrackersSortDescriptors;
-@property(readonly, nonatomic) WBSKnownTrackingThirdParty *mostSeenKnownTracker; // @synthesize mostSeenKnownTracker=_mostSeenKnownTracker;
-@property(readonly, nonatomic) NSArray *preventedKnownTrackers; // @synthesize preventedKnownTrackers=_preventedKnownTrackers;
-@property(readonly, copy, nonatomic) NSSet *profileIdentifiers; // @synthesize profileIdentifiers=_profileIdentifiers;
-@property(readonly, nonatomic) double ratioOfTrackedFirstPartiesToAllVisited; // @synthesize ratioOfTrackedFirstPartiesToAllVisited=_ratioOfTrackedFirstPartiesToAllVisited;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *trackedFirstParties; // @synthesize trackedFirstParties=_trackedFirstParties;
-@property(copy, nonatomic) NSArray *trackedFirstPartiesSortDescriptors; // @synthesize trackedFirstPartiesSortDescriptors=_trackedFirstPartiesSortDescriptors;
-@property(readonly, nonatomic) NSSet *trackerOwnerNames; // @synthesize trackerOwnerNames=_trackerOwnerNames;
-@property(nonatomic) __weak WKWebView *webView; // @synthesize webView=_webView;
 
 @end
 

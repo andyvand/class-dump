@@ -9,11 +9,9 @@
 @interface Vision.CoreSceneUnderstandingDetectorRecipient
 {
     VNRequestSpecifier *originatingRequestSpecifier;
-    id request;
-    id results;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

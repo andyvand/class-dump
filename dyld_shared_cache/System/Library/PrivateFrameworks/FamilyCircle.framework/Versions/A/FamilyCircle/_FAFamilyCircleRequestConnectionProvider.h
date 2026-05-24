@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSString, NSXPCConnection;
 @protocol FAFamilyCircleRequestConnectionFactory;
 
 @interface _FAFamilyCircleRequestConnectionProvider
 {
     id <FAFamilyCircleRequestConnectionFactory> _factory;
-    NSXPCConnection *_connection;
-    NSLock *_lock;
 }
 
 + (id);
 + (id);
-- (void);
+- (void)J;
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void)B;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)hf;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <FAFamilyCircleRequestConnectionFactory> factory; // @synthesize factory=_factory;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSLock *lock; // @synthesize lock=_lock;
-@property(readonly) Class superclass;
 
 @end
 

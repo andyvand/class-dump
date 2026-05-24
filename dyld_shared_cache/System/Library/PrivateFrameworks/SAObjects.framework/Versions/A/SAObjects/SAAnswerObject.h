@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SAAnswerObject : SADomainObject
 {
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *lines;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

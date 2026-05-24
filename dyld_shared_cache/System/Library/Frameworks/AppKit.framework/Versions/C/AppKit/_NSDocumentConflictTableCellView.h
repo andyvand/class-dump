@@ -6,19 +6,17 @@
 
 #import <AppKit/NSTableCellView.h>
 
-@class NSDocumentConflictPanelController, NSTextField;
+@class NSDocumentConflictPanelController;
 
 __attribute__((visibility("hidden")))
 @interface _NSDocumentConflictTableCellView : NSTableCellView
 {
     NSDocumentConflictPanelController *_controller;
-    NSTextField *firstLine;
-    NSTextField *secondLine;
 }
 
 - (void);
 - (double);
-- (void);
+- (void)v;
 - (id)window is marked as restorable, but cannot be restored;
 - (void)alMenuRef, cocoaIndex+1, newIndent);
 

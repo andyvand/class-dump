@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface PGSurveyResult
 {
     unsigned short type;
-    unsigned short state;
-    unsigned short entityType;
-    unsigned short displayType;
-    short questionVersion;
-    NSString *entityIdentifier;
-    NSString *momentIdentifier;
-    NSDictionary *additionalInfo;
-    double localFactoryScore;
-    double score;
-    NSDate *creationDate;
 }
 
 - (void);
@@ -30,45 +20,28 @@
 - (void);
 - (short);
 - (void);
-- (id);
+- (id)ntainerNode9IconImageEddbRKNSt3__18functionIFvP7NSImageEEEE3$_0;
 - (void);
 - (void);
 - (unsigned short);
 - (id);
-- (unsigned short);
+- (unsigned short)9;
 - (void);
 - (unsigned long long);
 - (void);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short),!;
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (double);
 - (void);
-- (id)DisplayNode:mappedMeaningNodes: /* Error: Ran out of types for this method. */;
+- (id)initWithDisplayNode:mappedMeaningNodes: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)@?0@"PGGraphHighlightNode"8^B16;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *additionalInfo; // @synthesize additionalInfo;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned short displayType; // @synthesize displayType;
 @property(copy, nonatomic) NSString *entityIdentifier; // @synthesize entityIdentifier;
-@property(nonatomic) unsigned short entityType; // @synthesize entityType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double localFactoryScore; // @synthesize localFactoryScore;
-@property(copy, nonatomic) NSString *momentIdentifier; // @synthesize momentIdentifier;
-@property(nonatomic) short questionVersion; // @synthesize questionVersion;
-@property(nonatomic) double score; // @synthesize score;
-@property(nonatomic) unsigned short state; // @synthesize state;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned short type; // @synthesize type;
 
 @end
 

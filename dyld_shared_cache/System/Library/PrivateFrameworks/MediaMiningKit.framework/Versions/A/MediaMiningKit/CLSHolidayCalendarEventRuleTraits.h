@@ -7,13 +7,10 @@
 @interface CLSHolidayCalendarEventRuleTraits
 {
     _Bool _containsMePerson;
-    unsigned long long _numberOfPeople;
-    unsigned long long _peopleTrait;
-    unsigned long long _locationTrait;
 }
 
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -21,13 +18,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)lingEffectScoreGating is ON. Skip gating settlingEffectScore (%.3f < %.3f);
 
 // Remaining properties
 @property(nonatomic) _Bool containsMePerson; // @synthesize containsMePerson=_containsMePerson;
-@property(nonatomic) unsigned long long locationTrait; // @synthesize locationTrait=_locationTrait;
-@property(nonatomic) unsigned long long numberOfPeople; // @synthesize numberOfPeople=_numberOfPeople;
-@property(nonatomic) unsigned long long peopleTrait; // @synthesize peopleTrait=_peopleTrait;
 
 @end
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVCompositionTrackSegmentInternal
 {
     NSURL *editAssetURL;
-    int editAssetTrackID;
 }
 
 @end

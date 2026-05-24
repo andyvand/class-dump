@@ -7,29 +7,6 @@
 @interface RemindersUICore.TTRListBadgeView
 {
     id listColorInfo;
-    id emoji;
-    id emojiFontSize;
-    id imageParams;
-    id selected;
-    id backgroundParams;
-    id shadowParams;
-    id selectionParams;
-    id contentInset;
-    id tintColor;
-    id backgroundLayer;
-    id selectedLayer;
-    id shadowLayer;
-    id imageView;
-    id emojiView;
-    id customSmartListActionViews;
-    id nonEmojiBackgroundLayerGradientSettings;
-    id emojiBackgroundLayerGradientSettings;
-    id ttrAccessibilityName;
-    id ttrAccessibilityBadgeColorLabel;
-    _Bool ttrAccessibilityShouldIgnoreAccessibilityName;
-    _Bool ttrAccessibilityShouldIgnoreTintColorValue;
-    id ttrAccessibilityAdditionalLabelComponent;
-    id accessibilityDelegate;
 }
 
 - (_Bool);
@@ -43,16 +20,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (id)neCellAtRow: /* Error: Ran out of types for this method. */;
+- (id)frameOfOutlineCellAtRow: /* Error: Ran out of types for this method. */;
 - (void)GG;
 - (void)licUserInfo=%{public}s;
 - (id)l button for making a video call in the reminder detail;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool flipped;
-@property(nonatomic) _Bool ttrAccessibilityShouldIgnoreAccessibilityName; // @synthesize ttrAccessibilityShouldIgnoreAccessibilityName;
-@property(nonatomic) _Bool ttrAccessibilityShouldIgnoreTintColorValue; // @synthesize ttrAccessibilityShouldIgnoreTintColorValue;
-@property(nonatomic, readonly) _Bool wantsDefaultClipping;
 @property(nonatomic, readonly) _Bool wantsUpdateLayer;
 
 @end

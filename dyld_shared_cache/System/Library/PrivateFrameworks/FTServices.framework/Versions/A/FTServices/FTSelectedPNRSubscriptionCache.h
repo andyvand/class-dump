@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTXPCContexts, CTXPCServiceSubscriptionContext, CTXPCServiceSubscriptionInfo, NSString;
+@class CTXPCServiceSubscriptionInfo;
 
 @interface FTSelectedPNRSubscriptionCache
 {
     CTXPCServiceSubscriptionInfo *_subscriptionInfo;
-    CTXPCContexts *_activeSubscriptionInfo;
-    CTXPCServiceSubscriptionContext *_selectedContext;
-    NSString *_phoneNumber;
-    long long _dualSIMCapability;
 }
 
 - (void);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)HMecabraWrapper",&,N,V_mecabraWrapper;
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)curity.mac.amfi.developer_mode_resolved;
+- (void);
+- (id)sortedArrayUsingComparator: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CTXPCContexts *activeSubscriptionInfo; // @synthesize activeSubscriptionInfo=_activeSubscriptionInfo;
-@property(nonatomic) long long dualSIMCapability; // @synthesize dualSIMCapability=_dualSIMCapability;
-@property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
-@property(retain, nonatomic) CTXPCServiceSubscriptionContext *selectedContext; // @synthesize selectedContext=_selectedContext;
 @property(retain, nonatomic) CTXPCServiceSubscriptionInfo *subscriptionInfo; // @synthesize subscriptionInfo=_subscriptionInfo;
 
 @end

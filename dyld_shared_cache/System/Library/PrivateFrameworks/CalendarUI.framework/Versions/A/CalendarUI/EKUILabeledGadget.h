@@ -11,8 +11,6 @@
 @interface EKUILabeledGadget : EKUIGadget
 {
     NSView *_controlView;
-    _Bool _hasAddedControlViewConstraints;
-    NSTextField *_label;
 }
 
 - (id);
@@ -22,7 +20,7 @@
 - (double);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool)TH;
 - (id);
 - (double);
 - (double);
@@ -34,13 +32,12 @@
 - (id);
 - (id);
 - (void);
-- (double);
+- (double)F;
 - (double);
 - (void);
-- (void);
+- (void)A;
 
 // Remaining properties
-@property _Bool hasAddedControlViewConstraints; // @synthesize hasAddedControlViewConstraints=_hasAddedControlViewConstraints;
 @property(retain) NSTextField *label; // @synthesize label=_label;
 
 @end

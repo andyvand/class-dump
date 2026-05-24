@@ -7,8 +7,6 @@
 @interface AppStoreKit.GameInfoSummary
 {
     id supportsLeaderboards;
-    id supportsAchievements;
-    id supportsChallenges;
 }
 
 @end

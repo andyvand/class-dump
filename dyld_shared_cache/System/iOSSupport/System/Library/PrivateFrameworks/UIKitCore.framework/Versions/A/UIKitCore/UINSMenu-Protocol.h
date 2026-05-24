@@ -4,30 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIWindow;
-@protocol UINSMenuItem;
+@class NSArray, NSString;
 
 @protocol UINSMenu
+- (void);
 - (long long)0@ù
 × ;
-- (NSArray *)ransitions;
-- (void)irectory:(NSString *)arg1 relativeToURL: /* Error: Ran out of types for this method. */;
-- (void)ageAddedUnsupportedAttribute:(NSString *)arg1;
-- (void);
-- (NSString *)IContentEffect;
+- (NSArray *)rebuildBackgroundAndShadowTransitions;
+- (void)fileURLWithFileSystemRepresentation:(NSString *)arg1 isDirectory:relativeToURL: /* Error: Ran out of types for this method. */;
+- (void)_textContentStorageAddedUnsupportedAttribute:(NSString *)arg1;
+- (NSString *)_UIContentEffect;
 - (void)ÄÊîÿfþÿ;
 - (NSString *)spendAppearanceTransitionsInSplitViewController]_block_invoke;
 - (unsigned long long)edback;
 
 // Remaining properties
-@property(nonatomic) __weak id <UINSMenuItem> currentHighlightedItem;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSArray *items;
-@property(nonatomic) unsigned long long presentationStyle;
-@property(nonatomic) struct CGRect rectInUIWindow;
-@property(nonatomic) long long selectionMode;
-@property(nonatomic) __weak UIWindow *sourceUIWindow;
 @property(copy, nonatomic) NSString *title;
-@property(nonatomic) long long type;
 @end
 

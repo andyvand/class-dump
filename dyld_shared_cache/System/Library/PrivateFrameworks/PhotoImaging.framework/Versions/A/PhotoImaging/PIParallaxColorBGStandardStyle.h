@@ -11,13 +11,12 @@
 @interface PIParallaxColorBGStandardStyle : PIParallaxStyle
 {
     _Bool _showsBackground;
-    PFParallaxColor *_color;
 }
 
 + (id);
 + (id);
 + (double);
-+ (double);
++ (double);
 + (double);
 - (id);
 - (id);
@@ -30,12 +29,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)mage: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)setInputGuideImage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PFParallaxColor *color; // @synthesize color=_color;
-@property(nonatomic) _Bool showsBackground; // @synthesize showsBackground=_showsBackground;
 
 @end
 

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString;
+@class NSString;
 
 @interface NotesAssistantFolderOption
 {
     NSString *_accountTitle;
-    NSString *_accountIdentifier;
-    NSString *_fullTitle;
-    NSManagedObjectID *_managedObjectID;
-    NSString *_identifierURIPathComponent;
-    NSString *_parentTitle;
-    NSString *_title;
 }
 
 + (void);
 + (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)e %s;
+- (void)data container;
+- (void)e to allocate memory for LDAP mods;
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void)topBundleIdentifiers;
+- (id)resetNoticeboardCatalogCheckTimestamp;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -39,13 +33,7 @@
 - (void)¼;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSString *accountTitle; // @synthesize accountTitle=_accountTitle;
 @property(retain, nonatomic) NSString *fullTitle; // @synthesize fullTitle=_fullTitle;
-@property(retain, nonatomic) NSString *identifierURIPathComponent; // @synthesize identifierURIPathComponent=_identifierURIPathComponent;
-@property(retain, nonatomic) NSManagedObjectID *managedObjectID; // @synthesize managedObjectID=_managedObjectID;
-@property(retain, nonatomic) NSString *parentTitle; // @synthesize parentTitle=_parentTitle;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

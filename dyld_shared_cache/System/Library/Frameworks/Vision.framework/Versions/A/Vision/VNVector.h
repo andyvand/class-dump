@@ -14,35 +14,30 @@
 + (id);
 + (id);
 + (id);
-+ (double);
++ (double)#;
 + (id);
-+ (id);
++ (id)invalidateAllAccounts;
 + (_Bool);
 - (double);
 - (double);
-- (id);
-- (id);
-- (id);
-- (double);
+- (id);
 - (id);
 - (id);
 - (double);
+- (id)isFileViewerRequest;
 - (id);
-- (unsigned long long);
+- (double);
+- (id);
+- (unsigned long long)U;
 - (_Bool);
 - (void);
 - (id);
 - (double)28@0:8I16^@20 /* Error: Ran out of types for this method. */;
-- (void)riginatingRequestSpecifier;
+- (void)VNANFDMultiDetectorProcessingOption_HumanDetectorOriginatingRequestSpecifier;
 - (double);
 
 // Remaining properties
-@property(readonly) double length;
-@property(readonly) double r;
-@property(readonly) double squaredLength;
-@property(readonly) double theta;
 @property(readonly) double x;
-@property(readonly) double y;
 
 @end
 

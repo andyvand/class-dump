@@ -7,10 +7,10 @@
 @protocol PXStoryPacingTimeSourceDelegate;
 
 @protocol PXStoryPacingTimeSource
+- (void);
+- (void)ffectLayer;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active;
 @property(nonatomic) __weak id <PXStoryPacingTimeSourceDelegate> delegate;
-@property(readonly, nonatomic) _Bool isRealTime;
 @end
 

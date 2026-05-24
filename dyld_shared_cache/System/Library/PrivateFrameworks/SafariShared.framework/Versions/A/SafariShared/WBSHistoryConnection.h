@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSTimer, NSXPCConnection, WBSCloudHistory, WBSCloudHistoryConfiguration, WBSHistoryService;
-@protocol OS_dispatch_queue;
+@class WBSHistoryService;
 
 @interface WBSHistoryConnection
 {
     WBSHistoryService *_historyService;
-    NSXPCConnection *_completionListProvider;
-    NSTimer *_delayTimer;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    WBSCloudHistory *_cloudHistory;
-    WBSCloudHistoryConfiguration *_cloudHistoryConfiguration;
 }
 
 - (void);

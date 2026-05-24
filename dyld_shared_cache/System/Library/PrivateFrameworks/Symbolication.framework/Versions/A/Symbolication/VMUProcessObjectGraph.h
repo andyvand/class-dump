@@ -6,56 +6,16 @@
 
 #import <Symbolication/VMUObjectGraph.h>
 
-@class NSArray, NSDate, NSDictionary, NSString, VMUClassInfoMap, VMUDebugTimer, VMUGraphStackLogReader, VMUNodeToStringMap, VMURangeToStringMap, VMUSymbolStore, VMUTaskMemoryScanner;
-@protocol VMUStackLogReader;
+@class NSDate;
 
 @interface VMUProcessObjectGraph : VMUObjectGraph
 {
     int _pid;
-    VMUTaskMemoryScanner *_scanner;
-    unsigned int _vmPageSize;
-    unsigned int _kernelPageSize;
-    unsigned long long _machAbsolute;
-    NSArray *_regions;
-    unsigned int _regionCount;
-    NSArray *_zoneNames;
-    NSString *_processName;
-    NSString *_processDescriptionString;
-    _Bool _isTranslatedByRosetta;
-    NSString *_executablePath;
-    NSString *_binaryImagesDescription;
-    VMURangeToStringMap *_threadNamesForThreadPorts;
-    VMURangeToStringMap *_threadNamesForStackRanges;
-    VMURangeToStringMap *_binarySectionNameRanges;
-    VMURangeToStringMap *_regionSymbolNameRanges;
-    _Bool _gotObjcClassStructureRanges;
-    _Bool _showRawClassNames;
-    NSDictionary *_pthreadOffsets;
-    NSDictionary *_autoreleasePoolOffsets;
-    void *_userMarked;
-    VMUGraphStackLogReader *_stackLogReader;
-    VMUDebugTimer *_debugTimer;
-    unsigned long long _physicalFootprint;
-    unsigned long long _physicalFootprintPeak;
-    unsigned int _idleExitStatus;
-    _Bool _showsPhysFootprint;
-    _Bool _didPhysFootprintDirtyAccounting;
-    unsigned int _objectContentLevel;
-    unsigned int _objectContentLevelForNodeLabels;
-    NSDictionary *_srcAddressToExtraAutoreleaseCountDict;
-    _Bool _hasClassInfosDerivedFromStackBacktraces;
-    NSArray *_backtraces;
-    VMUSymbolStore *_symbolStore;
-    VMUNodeToStringMap *_nodeLabels;
-    NSDate *_snapshotDate;
-    unsigned long long _serializationOptions;
-    NSDictionary *_ledger;
-    struct _VMURange _dyldSharedCacheRange;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)i;
 - (void);
 - (void);
 - (void);
@@ -65,7 +25,7 @@
 - (int);
 - (void);
 - (void);
-- (CDStruct_0c3cdf2c);
+- (CDStruct_32a7f38a);
 - (unsigned long long);
 - (void);
 - (void);
@@ -76,59 +36,59 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void)8;
 - (void);
-- (void);
-- (id);
+- (id);
 - (struct _VMURange);
-- (unsigned int);
+- (unsigned int)i78x;
 - (_Bool);
 - (id);
 - (id);
+- (void)7;
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (_Bool);
-- (id);
+- (id)U;
 - (id);
 - (unsigned int);
 - (void);
 - (struct _VMURange);
 - (void);
-- (void);
+- (void);
 - (struct _VMURange);
-- (id);
+- (id)_prepareRecordStoreForRefreshSyncingEntityNames:(CDStruct_8b65991f)arg1;
 - (void);
 - (unsigned int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)stringByReplacingOccurrencesOfString:(id)arg1 withString:(_Bool *)arg2;
 - (void *);
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void)initWithInterval:(unsigned long long)arg1;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)W;
 - (unsigned int);
-- (id);
+- (id)";
 - (struct _CSArchitecture);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (id);
 - (id);
@@ -137,7 +97,7 @@
 - (id);
 - (id);
 - (void);
-- (struct _VMURange);
+- (struct _VMURange)@;
 - (_Bool);
 - (void);
 - (id);
@@ -150,7 +110,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)setBackdropAnimationCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -161,9 +121,9 @@
 × ;
 - (void)gregatorOptions";
 - (void)unsigned int>, std:(id)arg1:allocator<std::pair<const unsigned int, NSString *>>>="__table_"{__hash_table<std::__hash_value_type<unsigned int, NSString *>, std::__unordered_map_hasher<unsigned int, std::pair<const unsigned int, NSString *>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::pair<const unsigned int, NSString *>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::pair<const unsigned int, NSString *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, NSString *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)cation: /* Error: Ran out of types for this method. */;
+- (id)rangeForLocation: /* Error: Ran out of types for this method. */;
 - (_Bool),N;
-- (id)etectionWithError:(unsigned int)arg1;
+- (id)doNormalLeakDetectionWithError:(unsigned int)arg1;
 - (void)¥;
 - (_Bool)abels;
 - (id)_remoteObjectInterface;
@@ -176,48 +136,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *backtraces; // @synthesize backtraces=_backtraces;
-@property(readonly, nonatomic) NSString *binaryImagesDescription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) VMUDebugTimer *debugTimer; // @synthesize debugTimer=_debugTimer;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didPhysFootprintDirtyAccounting; // @synthesize didPhysFootprintDirtyAccounting=_didPhysFootprintDirtyAccounting;
-@property(nonatomic) struct _VMURange dyldSharedCacheRange; // @synthesize dyldSharedCacheRange=_dyldSharedCacheRange;
-@property(readonly, nonatomic) NSString *executablePath; // @synthesize executablePath=_executablePath;
-@property(readonly, nonatomic) _Bool hasClassInfosDerivedFromStackBacktraces; // @synthesize hasClassInfosDerivedFromStackBacktraces=_hasClassInfosDerivedFromStackBacktraces;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int idleExitStatus; // @synthesize idleExitStatus=_idleExitStatus;
-@property(readonly, nonatomic) _Bool is64bit;
-@property(nonatomic) _Bool isTranslatedByRosetta; // @synthesize isTranslatedByRosetta=_isTranslatedByRosetta;
-@property(readonly, nonatomic) unsigned int kernelPageSize; // @synthesize kernelPageSize=_kernelPageSize;
-@property(retain, nonatomic) NSDictionary *ledger; // @synthesize ledger=_ledger;
-@property(readonly, nonatomic) unsigned int nodeCount;
-@property(readonly, nonatomic) VMUNodeToStringMap *nodeLabels; // @synthesize nodeLabels=_nodeLabels;
-@property(readonly, nonatomic) unsigned int nodeNamespaceSize;
-@property(nonatomic) unsigned int objectContentLevel; // @synthesize objectContentLevel=_objectContentLevel;
-@property(nonatomic) unsigned int objectContentLevelForNodeLabels; // @synthesize objectContentLevelForNodeLabels=_objectContentLevelForNodeLabels;
-@property(nonatomic) unsigned long long physicalFootprint; // @synthesize physicalFootprint=_physicalFootprint;
-@property(nonatomic) unsigned long long physicalFootprintPeak; // @synthesize physicalFootprintPeak=_physicalFootprintPeak;
-@property(readonly, nonatomic) int pid; // @synthesize pid=_pid;
-@property(readonly, nonatomic) NSString *processDescriptionString;
-@property(readonly, nonatomic) NSString *processName;
-@property(readonly, nonatomic) VMUClassInfoMap *realizedClasses;
-@property(readonly, nonatomic) unsigned int regionCount; // @synthesize regionCount=_regionCount;
-@property(nonatomic) __weak VMUTaskMemoryScanner *scanner; // @synthesize scanner=_scanner;
-@property(nonatomic) unsigned long long serializationOptions; // @synthesize serializationOptions=_serializationOptions;
-@property(nonatomic) _Bool showRawClassNames; // @synthesize showRawClassNames=_showRawClassNames;
-@property(nonatomic) _Bool showsPhysFootprint; // @synthesize showsPhysFootprint=_showsPhysFootprint;
 @property(retain, nonatomic) NSDate *snapshotDate; // @synthesize snapshotDate=_snapshotDate;
-@property(nonatomic) unsigned long long snapshotMachTime; // @synthesize snapshotMachTime=_machAbsolute;
-@property(retain, nonatomic) NSDictionary *srcAddressToExtraAutoreleaseCountDict; // @synthesize srcAddressToExtraAutoreleaseCountDict=_srcAddressToExtraAutoreleaseCountDict;
-@property(retain, nonatomic) id <VMUStackLogReader> stackLogReader; // @synthesize stackLogReader=_stackLogReader;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) VMUSymbolStore *symbolStore; // @synthesize symbolStore=_symbolStore;
-@property(readonly, nonatomic) unsigned int vmPageSize; // @synthesize vmPageSize=_vmPageSize;
-@property(readonly, nonatomic) unsigned int zoneCount;
 
 @end
 

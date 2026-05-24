@@ -6,26 +6,24 @@
 
 #import <CoreML/MLModelEngine.h>
 
-@class MLModelConfiguration, MLModelDescription, MLModelMetadata, MLMultiFunctionProgramContainer, NSMutableDictionary, NSString;
+@class MLMultiFunctionProgramContainer, NSMutableDictionary;
 
 @interface MLMultiFunctionProgramEngine : MLModelEngine
 {
     NSMutableDictionary *_functionNameToEngineMap;
-    MLMultiFunctionProgramContainer *_container;
-    NSString *_modelFileBasePath;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)IndirectConstantArg;
+- (void)nder_target;
+- (void)ompiler Process XPC Connection;
+- (id)TileRenderPipelineColorAttachmentDescriptor.;
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
+- (id)0;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -45,23 +43,7 @@
 GTU2uâß&%W¿VlçÅ÷cÊ¯Þß°jÝB;
 
 // Remaining properties
-@property(readonly, nonatomic) MLModelConfiguration *configuration;
 @property(readonly, nonatomic) MLMultiFunctionProgramContainer *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) MLModelMetadata *metadata;
-@property(readonly, nonatomic) MLModelDescription *modelDescription;
-@property(readonly, nonatomic) NSString *modelFileBasePath; // @synthesize modelFileBasePath=_modelFileBasePath;
-@property(readonly, nonatomic) unsigned long long predictionTypeForKTrace;
-@property(readonly, nonatomic) _Bool recordsPredictionEvent;
-@property(readonly, copy, nonatomic) NSString *serializedMILText;
-@property(readonly, nonatomic) unsigned long long signpostID;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsConcurrentSubmissions;
 
 @end
 

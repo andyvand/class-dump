@@ -6,31 +6,19 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSDictionary, NSLayoutConstraint, NSScrollEdgeEffectStyle, NSSplitViewItem, NSSplitViewItemAccessoryClipView, NSView;
+@class NSSplitViewItem, NSView;
 
 @interface NSSplitViewItemAccessoryViewController : NSViewController
 {
     NSView *_documentView;
-    NSSplitViewItemAccessoryClipView *_associatedClipView;
-    NSLayoutConstraint *_topConstraint;
-    NSLayoutConstraint *_bottomConstraint;
-    NSLayoutConstraint *_leadingConstraint;
-    NSLayoutConstraint *_trailingConstraint;
-    id _animator;
-    NSDictionary *_animationsDictionary;
-    NSScrollEdgeEffectStyle *_preferredScrollEdgeEffectStyle;
-    unsigned int _registered:1;
-    unsigned int _hidden:1;
-    unsigned int _automaticallyAppliesContentInsets:1;
-    NSSplitViewItem *_splitViewItem;
 }
 
 + (id);
 - (void);
 - (void);
-- (id);
+- (id)c;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -38,36 +26,30 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (struct NSEdgeInsets);
-- (unsigned long long);
-- (id);
+- (struct NSEdgeInsets)explicitContentType;
+- (unsigned long long)@;
+- (id)@;
 - (Class);
 - (void);
 - (id);
-- (id);
+- (id)(;
 - (double);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool)!¼Aùñá3°1Â0@ù
 × ;
-- (void)latedItemIndexes:(_Bool)arg1;
-- (id)ectionChange;
+- (void)setRequiredPopulatedItemIndexes:(_Bool)arg1;
+- (id)_rangeForUserTextWritingDirectionChange;
 - (id)(~;
 - (void)m.apple.ServicesTouchBarService;
-- (void)emoteMenuImpl;
+- (void)RemoteMenuImpl;
 - (void)ôE;
 - (id)wÿdvE;
 
 // Remaining properties
-@property(setter=_setAssociatedClipView:) __weak NSSplitViewItemAccessoryClipView *_associatedClipView;
-@property(copy) NSDictionary *animations;
-@property _Bool automaticallyAppliesContentInsets;
-@property(readonly) NSView *documentView;
-@property(getter=isHidden) _Bool hidden;
-@property(retain) NSScrollEdgeEffectStyle *preferredScrollEdgeEffectStyle;
 @property __weak NSSplitViewItem *splitViewItem; // @synthesize splitViewItem=_splitViewItem;
 
 @end

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDMMCS, NSMutableIndexSet, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CKDMMCSEngineContext
 {
     NSObject<OS_dispatch_queue> *_mmcsQueue;
-    _Atomic unsigned long long _serializedThread;
-    unsigned int _maxChunkCountForSection;
-    long long _refCount;
-    long long _state;
-    CKDMMCS *_MMCS;
-    struct _mmcs_engine *_MMCSEngine;
-    NSString *_applicationBundleID;
-    NSString *_path;
-    NSMutableIndexSet *_inMemoryItemsIDs;
 }
 
 + (id);
@@ -29,14 +20,14 @@
 + (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)";
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
-- (void);
-- (id);
+- (void)fetchCurrentRelevantPassInfo:(long long)arg1;
+- (id)Duration;
 - (unsigned int);
 - (long long);
 - (void);
@@ -47,29 +38,22 @@
 - (long long);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id);
-- (void)on:(CDUnknownBlockType)arg1;
-- (struct _mmcs_engine *)ersByOperationID: /* Error: Ran out of types for this method. */;
-- (void)ys;
+- (id)transcodeFileTransferContents:(id)arg1 utiType:(id)arg2 isSticker:allowUnfilteredUTIs:target:sizes:commonCapabilities:maxDimension:transcoderUserInfo:representations:isLQMEnabled:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)since we're not guaranteed to get a file;
+- (void)setSkipDecryption:(CDUnknownBlockType)arg1;
+- (struct _mmcs_engine *)setDelegateWrappersByOperationID: /* Error: Ran out of types for this method. */;
+- (void)requestedListFieldsForDesiredIndexedListKeys;
 - (void)data from PCS  %@;
 
 // Remaining properties
-@property(nonatomic) __weak CKDMMCS *MMCS; // @synthesize MMCS=_MMCS;
-@property(nonatomic) struct _mmcs_engine *MMCSEngine; // @synthesize MMCSEngine=_MMCSEngine;
-@property(retain, nonatomic) NSString *applicationBundleID; // @synthesize applicationBundleID=_applicationBundleID;
-@property(retain, nonatomic) NSMutableIndexSet *inMemoryItemsIDs; // @synthesize inMemoryItemsIDs=_inMemoryItemsIDs;
-@property(nonatomic) unsigned int maxChunkCountForSection; // @synthesize maxChunkCountForSection=_maxChunkCountForSection;
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
 @property(nonatomic) long long refCount; // @synthesize refCount=_refCount;
-@property(nonatomic) long long state; // @synthesize state=_state;
 
 @end
 

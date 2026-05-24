@@ -8,9 +8,6 @@
 {
     id scopes;
     id vertices;
-    id edges;
-    id commandHandlers;
-    id eventHandlers;
 }
 
 @end

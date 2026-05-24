@@ -9,6 +9,9 @@
 @protocol BCDictionarySerializable
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: @"NSDictionary"16@0:8
+// Property attributes: v24@0:8@"NSCoder"16
+
 @property(readonly, nonatomic) NSDictionary *dictionaryValue;
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TSSPropertyMap
 {
     struct TSSPropertyStore *mStore;
@@ -15,37 +13,37 @@
 + (id);
 + (id);
 - (void);
-- (void);
-- (void);
+- (void)te;
+- (void)lready stopped when entering Paused state;
+- (id)UnexpectedNilAVPlayerItem;
+- (id)nning;
+- (id)oaded item - identifier=;
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
 - (id);
 - (id);
 - (void);
 - (void);
+- (double);
+- (id);
+- (id)Y;
+- (_Bool)te;
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id)<+;
 - (double);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
-- (void);
-- (id);
-- (double);
-- (void);
-- (void);
+- (void)3;
 - (void);
 - (void);
 - (void);
 - (id);
-- (float);
+- (float)B;
 - (void);
 - (id);
 - (void);
@@ -53,7 +51,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (unsigned long long);
 - (id);
@@ -63,16 +61,10 @@
 - (id);
 - (unsigned long long)!\Cù1ð1Â0@ù
 × ;
-- (id)gsForPastingSrcStorage:intoDestStorage:atDestRange: /* Error: Ran out of types for this method. */;
+- (id)setupFlagsForPastingSrcStorage:intoDestStorage:atDestRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

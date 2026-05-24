@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
 @protocol VMUStackLogReader;
 
 @interface VMUVMRegionTracker
 {
     id <VMUStackLogReader> _stackLogReader;
-    NSMutableArray *_regionInfoArray;
 }
 
-+ (_Bool);
++ (_Bool)9D;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (long long);
+- (id)!;
+- (id),;
+- (long long)not supported;
 - (void);
-- (void);
+- (void)animateToInitialStateWithCompletionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long regionCount;

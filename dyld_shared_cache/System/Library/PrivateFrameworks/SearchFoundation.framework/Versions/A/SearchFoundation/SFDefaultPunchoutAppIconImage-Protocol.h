@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFPunchout;
+@class NSData, NSString, SFPunchout;
 
 @protocol SFDefaultPunchoutAppIconImage
+- (NSString *)C;
+- (NSData *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *fileProviderIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFPunchout *punchout;
 @end
 

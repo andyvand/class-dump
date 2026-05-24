@@ -11,7 +11,7 @@
     id tokenService;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

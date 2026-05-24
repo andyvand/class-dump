@@ -9,27 +9,25 @@
 @interface MPSNDArrayTopKMultiDestination : MPSNDArrayMultiaryMultiDestinationKernel
 {
     unsigned long long _K;
-    _Bool _computeGradient;
 }
 
-+ (const struct MPSLibraryInfo *);
++ (const struct MPSLibraryInfo *);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)T*;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)qK;
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long K; // @synthesize K=_K;
-@property(readonly, nonatomic) _Bool computeGradient; // @synthesize computeGradient=_computeGradient;
 
 @end
 

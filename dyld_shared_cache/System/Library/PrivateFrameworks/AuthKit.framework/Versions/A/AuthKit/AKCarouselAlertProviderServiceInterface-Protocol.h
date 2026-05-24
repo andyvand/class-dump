@@ -5,5 +5,6 @@
 //
 
 @protocol AKCarouselAlertProviderServiceInterface
+- (void);
 @end
 

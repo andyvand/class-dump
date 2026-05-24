@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFEWSGateway, MFEWSResponseOperation;
+@class MFEWSGateway;
 
 @interface MFEWSRequestOperation
 {
     _Bool _isOffline;
-    MFEWSResponseOperation *_responseOperation;
-    MFEWSGateway *_gateway;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)x;
+- (id)re::Page>, WTF::HashMap<WebCore::SecurityOriginData, WTF::RefPtr<WebCore::StorageNamespace>>>::KeyValuePairTraits, WTF::HashTraits<WTF::WeakPtr<WebCore::Page>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebCore::Page>, Value = WTF::KeyValuePair<WTF::WeakPtr<WebCore::Page>, WTF::HashMap<WebCore::SecurityOriginData, WTF::RefPtr<WebCore::StorageNamespace>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebCore::Page>, WTF::HashMap<WebCore::SecurityOriginData, WTF::RefPtr<WebCore::StorageNamespace>>>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebCore::Page>>, Traits = WTF::HashMap<WTF::WeakPtr<WebCore::Page>, WTF::HashMap<WebCore::SecurityOriginData, WTF::RefPtr<WebCore::StorageNamespace>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebCore::Page>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)_resizeModeOKButtonMouseOverBackgroundColor;
 - (void);
 - (void)Ô;
 
 // Remaining properties
 @property(retain, nonatomic) MFEWSGateway *gateway; // @synthesize gateway=_gateway;
-@property(readonly, nonatomic) _Bool isFolderRequest;
-@property(readonly) _Bool isOffline;
-@property(retain, nonatomic) MFEWSResponseOperation *responseOperation; // @synthesize responseOperation=_responseOperation;
 
 @end
 

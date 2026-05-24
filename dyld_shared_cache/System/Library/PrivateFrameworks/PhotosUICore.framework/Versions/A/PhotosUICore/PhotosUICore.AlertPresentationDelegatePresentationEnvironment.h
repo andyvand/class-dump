@@ -9,25 +9,23 @@
 @interface PhotosUICore.AlertPresentationDelegatePresentationEnvironment
 {
     id alertPresentationDelegate;
-    id wrappedPresentationEnvironment;
 }
 
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)l;
 - (void)@y: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canPushViewController;
 @property(nonatomic, readonly) NSViewController *presentingViewController;
 
 @end

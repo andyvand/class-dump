@@ -6,24 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class NSArray;
 
 @interface STSchemaSTGeneralSearchEnded : SISchemaInstrumentationMessage
 {
     NSArray *_results;
-    int _responseDialogSource;
-    int _dialogFallbackReason;
-    SISchemaUUID *_linkId;
-    struct {
-        unsigned int responseDialogSource:1;
-        unsigned int dialogFallbackReason:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)@9h;
 - (void);
 - (int);
 - (_Bool);
@@ -33,36 +25,29 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)showAlert:(id)arg1 callback: /* Error: Ran out of types for this method. */;
+- (void)setWebKitViewController:(_Bool)arg1;
+- (id)selectFile:inFolder:__JS_EXPORT_AS__selectFile: /* Error: Ran out of types for this method. */;
+- (_Bool)itemTrackingAreas;
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (unsigned long long)setPostProcessCompletedUnitCount: /* Error: Ran out of types for this method. */;
+- (_Bool)ABMapsLauncher;
 - (id);
+- (void)@;
+- (_Bool)(account_id);
 - (id);
-- (id)t;
-- (id)isionalEvent;
-- (void)STANTTTSCLIENTID_COM_APPLE_CAROUSEL;
+- (id);
+- (id)deleteLastContiguousCount;
+- (id)_hasProvisionalEvent;
+- (void)ODDASSISTANTTTSCLIENTID_COM_APPLE_CAROUSEL;
 - (unsigned long long)D!;
 
 // Remaining properties
-@property(nonatomic) int dialogFallbackReason; // @synthesize dialogFallbackReason=_dialogFallbackReason;
-@property(nonatomic) _Bool hasDialogFallbackReason;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasResponseDialogSource;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(nonatomic) int responseDialogSource; // @synthesize responseDialogSource=_responseDialogSource;
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
 
 @end

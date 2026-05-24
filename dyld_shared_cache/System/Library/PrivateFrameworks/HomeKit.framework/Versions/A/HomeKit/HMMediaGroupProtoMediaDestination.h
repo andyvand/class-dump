@@ -4,50 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMMediaGroupProtoMediaDestination
 {
     unsigned long long _supportedOptions;
-    NSString *_audioGroupIdentifier;
-    NSString *_identifier;
-    NSString *_parentIdentifier;
-    CDStruct_cd391d02 _has;
 }
 
+- (void)C;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)ntains an unknown co-processor id (0x%x);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)systolic;
+- (id)_emergencyMediaType;
+- (void)spotlight;
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)B;
 - (void)û|üýþ`;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *audioGroupIdentifier; // @synthesize audioGroupIdentifier=_audioGroupIdentifier;
-@property(readonly, nonatomic) _Bool hasAudioGroupIdentifier;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasParentIdentifier;
-@property(nonatomic) _Bool hasSupportedOptions;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(nonatomic) unsigned long long supportedOptions; // @synthesize supportedOptions=_supportedOptions;
 
 @end
 

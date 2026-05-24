@@ -16,15 +16,15 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)_;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)q;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)W;
 - (id);
 - (id);
 - (id);

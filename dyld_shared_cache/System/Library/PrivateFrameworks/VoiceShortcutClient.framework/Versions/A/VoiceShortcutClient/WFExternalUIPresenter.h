@@ -9,14 +9,13 @@
 @interface WFExternalUIPresenter
 {
     _Bool _connected;
-    id <WFExternalUIPresenterConnection> _connection;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)|;
+- (void)m2|;
 - (void);
 - (id);
 - (id);
@@ -26,7 +25,6 @@
 - (_Bool)H4;
 
 // Remaining properties
-@property(nonatomic) _Bool connected; // @synthesize connected=_connected;
 @property(readonly, nonatomic) id <WFExternalUIPresenterConnection> connection; // @synthesize connection=_connection;
 
 @end

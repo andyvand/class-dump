@@ -5,5 +5,10 @@
 //
 
 @protocol NSURLConnectionDelegate
+
+@optional
+- (_Bool);
+- (void);
+- (void)alue reference type %0 is not allowed in exception specification;
 @end
 

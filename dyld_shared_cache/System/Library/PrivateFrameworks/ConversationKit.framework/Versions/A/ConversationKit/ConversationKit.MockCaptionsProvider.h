@@ -7,8 +7,6 @@
 @interface ConversationKit.MockCaptionsProvider
 {
     id participantCaptionsProviderDelegate;
-    id captionsTask;
-    id captionsEnabled;
 }
 
 @end

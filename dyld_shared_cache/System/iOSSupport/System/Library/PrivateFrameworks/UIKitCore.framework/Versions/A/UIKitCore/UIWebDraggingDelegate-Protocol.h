@@ -5,5 +5,9 @@
 //
 
 @protocol UIWebDraggingDelegate
+
+@optional
+- (void);
+- (_Bool);
 @end
 

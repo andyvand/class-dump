@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UISheetPresentationControllerAppearance
 {
     _Bool __prefersDimmingVisible;
-    NSString *__largestUndimmedDetentIdentifier;
-    NSString *__smallestDimmedDetentIdentifier;
 }
 
 + (id);
@@ -21,31 +17,21 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)w	;
 - (_Bool);
 - (id)0@ù
 × ;
 - (id)0@ù
 × ;
 - (_Bool)68;
-- (_Bool)rrentDeviceIdiom;
-- (void)aredCalloutBarIsVisible;
-- (void)nalRotation;
+- (_Bool)uncachedSolariumEnabledForCurrentDeviceIdiom;
+- (void)sharedCalloutBarIsVisible;
+- (void)_originalRotation;
 - (void)×£p=
 §?-DTû!ù?-DTû!ù¿®Gáz®ï??Ð8Æ¦ñÀes-8RÁà?es-8RÁà¿?Ð8Æ¦ñ@;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isDimmingAlwaysVisible) _Bool _dimmingAlwaysVisible;
-@property(readonly, nonatomic) NSString *_largestUndimmedDetentIdentifier; // @synthesize _largestUndimmedDetentIdentifier=__largestUndimmedDetentIdentifier;
-@property(readonly, nonatomic) _Bool _prefersDimmingVisible; // @synthesize _prefersDimmingVisible=__prefersDimmingVisible;
-@property(readonly, nonatomic) NSString *_smallestDimmedDetentIdentifier; // @synthesize _smallestDimmedDetentIdentifier=__smallestDimmedDetentIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,31 +9,23 @@
 @interface AAPPlistEntryInfo
 {
     NSString *_key;
-    SEL _setter;
-    CDUnknownFunctionPointerType _parser;
-    CDUnknownBlockType _defaultGenerator;
-    CDUnknownBlockType _postProcessor;
 }
 
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
-- (void);
-- (SEL);
+- (void);
+- (SEL);
 - (void);
 - (CDUnknownFunctionPointerType);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void),;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType defaultGenerator; // @synthesize defaultGenerator=_defaultGenerator;
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) CDUnknownFunctionPointerType parser; // @synthesize parser=_parser;
-@property(copy, nonatomic) CDUnknownBlockType postProcessor; // @synthesize postProcessor=_postProcessor;
-@property(nonatomic) SEL setter; // @synthesize setter=_setter;
 
 @end
 

@@ -6,32 +6,25 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOLatLng, NSString;
+@class GEOLatLng;
 
 @interface GEOLocationShiftingCachedResponseFetchRequest : GEOXPCRequest
 {
     GEOLatLng *_latLng;
 }
 
-+ (Class);
++ (Class)_audiencePopUpButton;
 - (void);
-- (id);
+- (id)h;
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void)intRouteInDirectionsRequest:(id)arg1;
+- (void)_populateOriginalWaypointRouteInDirectionsRequest:(id)arg1;
 - (void)^5^74;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOLatLng *latLng; // @synthesize latLng=_latLng;
-@property(readonly) Class superclass;
 
 @end
 

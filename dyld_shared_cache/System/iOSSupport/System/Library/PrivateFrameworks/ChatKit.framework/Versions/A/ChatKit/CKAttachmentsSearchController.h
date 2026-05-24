@@ -6,22 +6,20 @@
 
 #import <ChatKit/CKMessageTypeSearchController.h>
 
-@class NSString;
-
 @interface CKAttachmentsSearchController : CKMessageTypeSearchController
 {
 }
 
 + (_Bool);
 + (_Bool);
-+ (id);
++ (id)o;
 + (id);
 + (Class);
 + (id);
 + (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)eted %lld notes;
+- (_Bool)16;
+- (void)ntent;
 - (id);
 - (id);
 - (id);
@@ -33,13 +31,7 @@
 - (long long)%p, %@, %@] duration and power levels restored from metadataDict %@.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

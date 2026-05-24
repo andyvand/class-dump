@@ -28,8 +28,8 @@
 - (unsigned int);
 - (unsigned long long);
 - (int);
-- (id);
-- (id);
+- (id)B;
+- (id)5;
 
 @end
 

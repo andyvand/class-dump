@@ -4,15 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITargetedPreview, UIViewPropertyAnimator;
+@class UITargetedPreview;
 
 @protocol _UIClickPresentationTransition
+- (void);
+
+@optional
+- (void);
+- (void)"R;
 
 // Remaining properties
-@property(readonly, nonatomic) UIViewPropertyAnimator *customAnimator;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIViewPropertyAnimator",?,R,N
-
 @property(copy, nonatomic) UITargetedPreview *sourcePreview;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"UITargetedPreview",?,C,N

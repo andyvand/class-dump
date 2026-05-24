@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSTestableLinkWithScheduler, NSArray, NSData, NSDictionary, NSString, NSUUID, _IDSDataChannelLinkConnections, _IDSDataChannelLinkContext;
+@class IDSTestableLinkWithScheduler, _IDSDataChannelLinkContext;
 
 @interface IDSDataChannelLinkContext
 {
     _IDSDataChannelLinkContext *_internal;
-    _Bool _hasReceivedPacket;
-    _Bool _hasSentPacket;
-    unsigned int _totalPacketsSentOnLink;
-    unsigned int _totalPacketsReceivedOnLink;
-    long long _dataPathType;
-    unsigned long long _totalBytesSentOnLink;
-    unsigned long long _totalBytesReceivedOnLink;
-    double _lastPacketReceivedTime;
-    double _lastPacketSentTime;
-    double _lastPacketReportedTime;
-    IDSTestableLinkWithScheduler *_testableLink;
 }
 
 - (unsigned int);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long)8hjh8i;
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
@@ -35,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T<;
 - (void);
 - (void);
 - (void);
@@ -53,13 +42,13 @@
 - (unsigned short);
 - (unsigned int);
 - (unsigned int);
-- (unsigned char);
+- (unsigned char);
 - (unsigned int);
 - (long long);
-- (id);
+- (id)A;
 - (long long);
 - (id);
-- (id);
+- (id);
 - (unsigned short);
 - (unsigned short);
 - (unsigned int);
@@ -86,11 +75,11 @@
 - (_Bool);
 - (unsigned short);
 - (_Bool);
-- (long long);
+- (long long)A;
 - (id);
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (unsigned short);
 - (id);
 - (unsigned short);
@@ -106,90 +95,19 @@
 - (id);
 - (long long);
 - (unsigned char);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (long long);
 - (void)1,°1Â0@ù
 × ;
 - (id)ngerClient>"16@"NSString"24q32;
-- (id)ter;
+- (id)IDSGroupSessionBroadcastParameter;
 - (id)ÿ_pG;
 - (_Bool)pìÿ§º/0;
 
 // Remaining properties
-@property(readonly) NSUUID *QRSessionID;
-@property(readonly) unsigned int RATType;
-@property(readonly) NSString *channelDataBaseProtocolStackDescription;
-@property(readonly) unsigned short channelNumber;
-@property(readonly) long long connectionType;
-@property(readonly) _IDSDataChannelLinkConnections *connections;
-@property(readonly) long long dataPathType; // @synthesize dataPathType=_dataPathType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) BOOL delegatedLinkID;
-@property(readonly, copy) NSString *description;
-@property _Bool directConnectionReady;
-@property(readonly) unsigned short estimatedPerPacketConstantOverhead;
-@property(readonly) NSArray *featureFlags;
-@property _Bool hasReceivedPacket; // @synthesize hasReceivedPacket=_hasReceivedPacket;
-@property _Bool hasSentPacket; // @synthesize hasSentPacket=_hasSentPacket;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSData *hbhDecryptionkey;
-@property(readonly) NSData *hbhEncryptionkey;
-@property(readonly) NSString *interfaceName;
-@property(readonly) long long ipFamily;
-@property(readonly) _Bool isConstrained;
-@property(readonly) _Bool isDelegated;
-@property(readonly) _Bool isExpensive;
-@property(readonly) _Bool isPartialTLEUPlusOneEnabled;
-@property(readonly) _Bool isQUICPod;
-@property(readonly) _Bool isQualityMetadataEnabled;
-@property(readonly) _Bool isVirtualRelayLink;
-@property(readonly) long long kind;
-@property double lastPacketReceivedTime; // @synthesize lastPacketReceivedTime=_lastPacketReceivedTime;
-@property double lastPacketReportedTime; // @synthesize lastPacketReportedTime=_lastPacketReportedTime;
-@property double lastPacketSentTime; // @synthesize lastPacketSentTime=_lastPacketSentTime;
-@property(readonly) NSString *linkEngineUniqueID;
-@property(readonly) BOOL linkID;
-@property(readonly) long long linkTestStatsPacketOverhead;
-@property(readonly) NSUUID *linkUUID;
-@property(readonly) unsigned int localDataSoMask;
-@property(readonly) NSString *localInterfaceName;
-@property(readonly) unsigned short localLinkFlags;
-@property(readonly) unsigned char localLinkTechnology;
-@property(readonly) unsigned int localRAT;
-@property(readonly) unsigned short localRelayLinkID;
-@property(readonly) unsigned int maxBitrate;
-@property(readonly) unsigned short maxMTU;
-@property(readonly) unsigned char networkType;
-@property(readonly) unsigned short pathMTU;
-@property(readonly) NSDictionary *qrExperiments;
-@property(readonly) NSString *relayProtocolStackDescription;
-@property(readonly) long long relayServerProvider;
-@property(readonly) NSData *relaySessionKey;
-@property(readonly) NSData *relaySessionToken;
-@property(readonly) long long remoteConnectionType;
-@property(readonly) unsigned int remoteDataSoMask;
-@property(readonly) unsigned short remoteLinkFlags;
-@property(readonly) unsigned char remoteNetworkType;
-@property(readonly) unsigned int remoteRAT;
-@property(readonly) unsigned int remoteRATType;
-@property(readonly) unsigned short remoteRelayLinkID;
-@property(readonly) _Bool serverIsDegraded;
-@property(readonly) Class superclass;
 @property(readonly) IDSTestableLinkWithScheduler *testableLink; // @synthesize testableLink=_testableLink;
-@property(readonly) unsigned long long totalBytesReceived;
-@property unsigned long long totalBytesReceivedOnLink; // @synthesize totalBytesReceivedOnLink=_totalBytesReceivedOnLink;
-@property(readonly) unsigned long long totalBytesSent;
-@property unsigned long long totalBytesSentOnLink; // @synthesize totalBytesSentOnLink=_totalBytesSentOnLink;
-@property(readonly) unsigned long long totalPacketsReceived;
-@property unsigned int totalPacketsReceivedOnLink; // @synthesize totalPacketsReceivedOnLink=_totalPacketsReceivedOnLink;
-@property(readonly) unsigned long long totalPacketsSent;
-@property unsigned int totalPacketsSentOnLink; // @synthesize totalPacketsSentOnLink=_totalPacketsSentOnLink;
-@property(readonly) NSUUID *uniqueID;
 
 @end
 

@@ -5,21 +5,23 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@protocol OS_xpc_object;
 
 @protocol SLSXPCServiceProtocol
+- (_Bool)ng named %@.;
+- (void)%@ (missing entity);
+- (NSObject<OS_xpc_object> *)ing initWithObjectID:(NSObject<OS_xpc_object> *)arg1 (NSManagedObjectID *);
+- (int)cheNodes must be initialized using initWithObjectID:(NSObject<OS_xpc_object> *)arg1 (NSManagedObjectID *);
+- (id)lChangeTypeNum = %@ AND finalChangeTypeNum = %@;
+- (void (^)(void *))marking zones needing recovery from Manatee identity loss.;
+- (NSObject<OS_xpc_object> *)Push;
+- (void (^)(void *))artialError:forStore:inMonitor:] /* Error: Ran out of types for this method. */;
+- (void (^)(void *))B24;
+- (_Bool)gate _acceptShareMetadatasInRequest:workBlockContext:] /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property _Bool autoreconnect;
-@property(readonly, copy, nonatomic) CDUnknownBlockType clientErrorBlock;
-@property(readonly, copy, nonatomic) CDUnknownBlockType clientNotificationBlock;
-@property(readonly) _Bool connected;
-@property(readonly, retain, nonatomic) NSObject<OS_xpc_object> *connection;
 @property(readonly) _Bool enabled;
-@property(readonly, copy, nonatomic) CDUnknownBlockType errorBlock;
-@property(readonly, copy, nonatomic) CDUnknownBlockType notificationBlock;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *notifyQueue;
-@property(readonly) _Bool setTarget;
 @end
 

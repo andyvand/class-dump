@@ -6,7 +6,7 @@
 
 #import <NewsCore/FCNotificationDropboxData.h>
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface FCMutableNotificationData : FCNotificationDropboxData
 {
@@ -22,19 +22,7 @@
 - (void)BuildRoots/4~CNquugBHTJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPersonalizationURLMapping.m;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *baseURLString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int deviceDigestMode;
-@property(copy, nonatomic) NSString *deviceToken;
 @property(readonly, nonatomic) NSMutableDictionary *dictionary; // @dynamic dictionary;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *notificationUserID;
-@property(copy, nonatomic) NSString *storefrontID;
-@property(readonly) Class superclass;
 
 @end
 

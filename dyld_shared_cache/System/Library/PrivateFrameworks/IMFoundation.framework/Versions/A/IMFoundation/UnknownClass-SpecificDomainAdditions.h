@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (SpecificDomainAdditions)
-+ (void);
-+ (id);
-+ (id);
-+ (id);
++ (void)24q32d40;
++ (id)72;
++ (id)56;
++ (id)arameters";
 @end
 

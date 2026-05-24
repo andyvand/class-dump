@@ -7,10 +7,6 @@
 @interface UIKit._UIScrollEdgeEffectElementProxy__priv_86A58F9D1ED17F2B0CAEA2FDC739EFBB
 {
     long long _style;
-    id _frame;
-    id _coordinateSpace;
-    _Bool _requiresPocket;
-    struct UIEdgeInsets _visualInsets;
 }
 
 - (struct UIEdgeInsets);
@@ -21,9 +17,7 @@
 - (long long);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _requiresPocket; // @synthesize _requiresPocket;
 @property(nonatomic, readonly) long long _style; // @synthesize _style;
-@property(nonatomic, readonly) struct UIEdgeInsets _visualInsets; // @synthesize _visualInsets;
 
 @end
 

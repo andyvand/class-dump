@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewPersonPickerComponent
 {
     id enabledState;
-    id nameTextColor;
-    id name;
-    id personPickerView;
-    id action;
 }
 
 @end

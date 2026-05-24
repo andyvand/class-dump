@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMetrics, NSDate, NSString;
 @protocol AMSBagProtocol;
 
 @interface AMSAuthenticateMetrics
 {
     id <AMSBagProtocol> _bag;
-    AMSMetrics *_metrics;
-    NSDate *_beginDate;
 }
 
 + (id);
@@ -27,9 +24,9 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,7 +37,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)setRemoteQualifiedInRangeDevices:(id)arg1;
 - (id);
 - (void)ÍS¡ÌSÀËSõÊSÉSgÈSÇSÆSìÅSÄS~ÃSKÂS*ÁSÙÀS¸ßS¨ÞSÉÝS:ÜS[ÛSnÚSÙSüØS×SÖSwÕSÔSåÓSÐÒS±ÑSBÐS#/S.Sã-S,Sq+SD*S%)SÖ(S·'S<&S]%S®$SÏ#Sú"S!Sh S	?S>Sx=S<Sê;Sß:S¾9SM8S,7S§6SÆ5S54ST3Sa2S /* Error: Ran out of types for this method. */;
 - (id)mAóFY1ÔÓFÈç;
@@ -48,15 +45,6 @@
 
 // Remaining properties
 @property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) NSDate *beginDate; // @synthesize beginDate=_beginDate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) AMSMetrics *metrics; // @synthesize metrics=_metrics;
-@property(readonly) Class superclass;
 
 @end
 

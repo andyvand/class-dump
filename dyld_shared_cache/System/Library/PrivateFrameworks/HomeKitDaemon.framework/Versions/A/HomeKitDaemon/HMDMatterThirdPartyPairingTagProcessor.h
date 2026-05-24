@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMatterThirdPartyPairingLogEvent, HMMStateTracker;
+@class HMDMatterThirdPartyPairingLogEvent;
 
 __attribute__((visibility("hidden")))
 @interface HMDMatterThirdPartyPairingTagProcessor
 {
     HMDMatterThirdPartyPairingLogEvent *_logEvent;
-    long long _startTime;
-    HMMStateTracker *_stateTracker;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)onLocation:(id)arg1;
+- (void)initWithLocation:(id)arg1 isCurrentLocation: /* Error: Ran out of types for this method. */;
+- (void)initWithLine:(id)arg1;
+- (void)initWithLibraryDirectoryURL:(id)arg1 groupLibraryURL:invalidationHandler: /* Error: Ran out of types for this method. */;
+- (void)initWithIDSEndpointCapabilities:(id)arg1;
+- (void)initWithGroupSession:(id)arg1 messageStrategyDelegate: /* Error: Ran out of types for this method. */;
+- (void)initWithGeoWaypointRoute:(id)arg1 initializerData: /* Error: Ran out of types for this method. */;
+- (void)initWithFormat:(id)arg1 arguments: /* Error: Ran out of types for this method. */;
+- (void)initWithFeedbackRequestParameters:(id)arg1 userInfo:traits: /* Error: Ran out of types for this method. */;
+- (void)initWithCoordinate:(id)arg1;
+- (void)initWithContact:(id)arg1 timeout:queue:completion: /* Error: Ran out of types for this method. */;
+- (void)initWithCapabilityType:(id)arg1 serviceName:status: /* Error: Ran out of types for this method. */;
+- (void)initWithBundleIdentifier:(id)arg1 allowPlaceholder:error: /* Error: Ran out of types for this method. */;
+- (void)initWithBase64EncodedString:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)initWithAttribution:(id)arg1;
+- (id)are:(id)arg1 %d, can receive:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (long long);
@@ -42,8 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) HMDMatterThirdPartyPairingLogEvent *logEvent; // @synthesize logEvent=_logEvent;
-@property(nonatomic) long long startTime; // @synthesize startTime=_startTime;
-@property(retain, nonatomic) HMMStateTracker *stateTracker; // @synthesize stateTracker=_stateTracker;
 
 @end
 

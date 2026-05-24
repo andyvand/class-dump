@@ -4,60 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerItem, PXScrubberSeekRequest;
-@protocol PXVideoScrubberControllerDelegate, PXVideoScrubberControllerTarget;
-
 @interface PXVideoScrubberController
 {
     id _playerObserver;
-    _Bool _needsUpdate;
-    _Bool _avPlayerCurrentTimeNeedsUpdate;
-    _Bool _avPlayerDurationNeedsUpdate;
-    struct {
-        _Bool respondsToDidUpdate;
-        _Bool respondsToLengthForDuration;
-        _Bool respondsToDesiredSeekTime;
-    } _videoScrubberDelegateFlags;
-    struct {
-        _Bool respondsToWillBeginSeeking;
-        _Bool respondsToDidEndSeeking;
-    } _targetFlags;
-    id <PXVideoScrubberControllerDelegate> _delegate;
-    id <PXVideoScrubberControllerTarget> _target;
-    double _estimatedDuration;
-    double __playheadTime;
-    PXScrubberSeekRequest *__pendingSeekRequest;
-    PXScrubberSeekRequest *__activeSeekRequest;
-    CDStruct_1b6d18a9 __avPlayerCurrentTime;
-    CDStruct_1b6d18a9 __avPlayerDuration;
 }
 
 - (void);
 - (double);
 - (id);
+- (id);
+- (void);
+- (void)q;
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)i;
+- (void);
+- (void);
+- (void);
+- (double);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
-- (void);
-- (void);
+- (void));
 - (void);
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
@@ -70,10 +47,16 @@
 - (void);
 - (void);
 - (double);
-- (double);
+- (double)SharedStatusProviderType;
 - (id);
 - (id);
-- (void);
+- (void)clareForeColorU; 
+        void main() 
+        { 
+            lowp float a = SampleTexture1.r; 
+            gl_FragColor = uColor * vec4(SampleTexture0.rgb*mixFactor, a*ceil(SampleTexture0.a)); 
+        } 
+        ;
 - (void);
 - (void);
 - (void)dAùQ;1Â0@ù
@@ -82,18 +65,7 @@
 - (float);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setActiveSeekRequest:) PXScrubberSeekRequest *_activeSeekRequest; // @synthesize _activeSeekRequest=__activeSeekRequest;
-@property(nonatomic, setter=_setAvPlayerCurrentTime:) CDStruct_1b6d18a9 _avPlayerCurrentTime; // @synthesize _avPlayerCurrentTime=__avPlayerCurrentTime;
-@property(nonatomic, setter=_setAvPlayerDuration:) CDStruct_1b6d18a9 _avPlayerDuration; // @synthesize _avPlayerDuration=__avPlayerDuration;
-@property(retain, nonatomic, setter=_setPendingSeekRequest:) PXScrubberSeekRequest *_pendingSeekRequest; // @synthesize _pendingSeekRequest=__pendingSeekRequest;
 @property(nonatomic, setter=_setPlayheadTime:) double _playheadTime; // @synthesize _playheadTime=__playheadTime;
-@property(readonly, nonatomic) AVPlayerItem *currentPlayerItem;
-@property(nonatomic) __weak id <PXVideoScrubberControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) double estimatedDuration; // @synthesize estimatedDuration=_estimatedDuration;
-@property(readonly, nonatomic) double length;
-@property(readonly, nonatomic) float playRate;
-@property(nonatomic) double playheadProgress;
-@property(readonly, nonatomic) id <PXVideoScrubberControllerTarget> target; // @synthesize target=_target;
 
 @end
 

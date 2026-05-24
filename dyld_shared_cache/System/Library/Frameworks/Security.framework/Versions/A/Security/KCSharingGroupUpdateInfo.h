@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KCSharingGroup, NSArray, NSString;
-
 @interface KCSharingGroupUpdateInfo
 {
     long long _updateType;
-    KCSharingGroup *_updatedGroup;
-    NSArray *_addedParticipants;
-    NSString *_departedGroupID;
 }
 
 + (_Bool);
@@ -27,10 +22,7 @@
 - (void)Üè;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *addedParticipants; // @synthesize addedParticipants=_addedParticipants;
-@property(readonly, nonatomic) NSString *departedGroupID; // @synthesize departedGroupID=_departedGroupID;
 @property(readonly, nonatomic) long long updateType; // @synthesize updateType=_updateType;
-@property(readonly, nonatomic) KCSharingGroup *updatedGroup; // @synthesize updatedGroup=_updatedGroup;
 
 @end
 

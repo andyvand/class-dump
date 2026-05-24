@@ -6,21 +6,12 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FIBrowseBySizeContainerController, FI_TBrowserContentViewController, FI_TContainerLayoutManager, NSArray, NSURL, _FIBrowseBySizeView;
+@class FI_TBrowserContentViewController;
 
 __attribute__((visibility("hidden")))
 @interface FIBrowseBySizeGutsController : FI_TViewController
 {
     FI_TBrowserContentViewController *_contentViewController;
-    struct TKeyValueBinder _activeContainerBinder;
-    FI_TContainerLayoutManager *_containerLayoutManager;
-    NSArray *_excludedURLs;
-    struct vector<TString, std::allocator<TString>> _excludedPaths;
-    _Bool _alreadyMovedIntoAWindow;
-    FIBrowseBySizeContainerController *_activeContainer;
-    _FIBrowseBySizeView *_browseBySizeView;
-    NSArray *_selectedURLs;
-    struct TFENode _pendingTarget;
 }
 
 - (void);
@@ -50,10 +41,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (_Bool);
 - (void);
-- (void);
+- (void)}S�;
 - (void);
 - (void);
 - (void);
@@ -64,28 +55,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)49;
 - (_Bool);
-- (void);
-- (void);
+- (void)defaultManager;
+- (void)t.cell%@;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (void);
 - (id)_setUpImmediateActionGestureRecognizers]E4$_14;
 
 // Remaining properties
-@property(retain, nonatomic) FIBrowseBySizeContainerController *activeContainer; // @synthesize activeContainer=_activeContainer;
 @property(nonatomic) _Bool alreadyMovedIntoAWindow; // @synthesize alreadyMovedIntoAWindow=_alreadyMovedIntoAWindow;
-@property(nonatomic) _FIBrowseBySizeView *browseBySizeView; // @synthesize browseBySizeView=_browseBySizeView;
-@property(copy, nonatomic) NSURL *directoryURL;
-@property(copy, nonatomic) NSArray *excludedURLs;
-@property(nonatomic) struct TFENode pendingTarget; // @synthesize pendingTarget=_pendingTarget;
-@property(copy, nonatomic) NSArray *selectedURLs; // @synthesize selectedURLs=_selectedURLs;
 
 @end
 

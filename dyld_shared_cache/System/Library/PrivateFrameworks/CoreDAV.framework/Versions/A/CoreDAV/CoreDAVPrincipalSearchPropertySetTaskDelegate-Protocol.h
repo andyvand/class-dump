@@ -5,5 +5,8 @@
 //
 
 @protocol CoreDAVPrincipalSearchPropertySetTaskDelegate
+
+@optional
+- (void);
 @end
 

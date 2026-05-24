@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface MCXPlugInKitManagementCache
 {
     _Bool _haveAppLaunchRestrictions;
-    int _ourPlugInKitPayloadChangeCount;
-    int _ourFamilyControlsChangeCount;
-    NSArray *_allLSPlugIns;
-    NSArray *_rules;
-    NSDate *_lastLSPlugInQueryDate;
-    NSMutableDictionary *_localizedNamesByExtensionID;
 }
 
-+ (id);
++ (id)dbp->used_bytes<=dbp->size;
 - (void);
 - (void);
 - (void);
@@ -35,26 +27,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)MJ
+>;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)
+.;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)removeAllNotifications;
 
 // Remaining properties
-@property(copy) NSArray *allLSPlugIns; // @synthesize allLSPlugIns=_allLSPlugIns;
-@property _Bool haveAppLaunchRestrictions; // @synthesize haveAppLaunchRestrictions=_haveAppLaunchRestrictions;
-@property(copy) NSDate *lastLSPlugInQueryDate; // @synthesize lastLSPlugInQueryDate=_lastLSPlugInQueryDate;
-@property(retain) NSMutableDictionary *localizedNamesByExtensionID; // @synthesize localizedNamesByExtensionID=_localizedNamesByExtensionID;
-@property int ourFamilyControlsChangeCount; // @synthesize ourFamilyControlsChangeCount=_ourFamilyControlsChangeCount;
 @property int ourPlugInKitPayloadChangeCount; // @synthesize ourPlugInKitPayloadChangeCount=_ourPlugInKitPayloadChangeCount;
-@property(copy) NSArray *rules; // @synthesize rules=_rules;
 
 @end
 

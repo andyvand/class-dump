@@ -5,10 +5,21 @@
 //
 
 @protocol PDPassLibraryExtendedExportedInterface
-- (void)hHomePaymentApplicationsForSerialNumber:(void (^)(NSArray *))arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)e;
-- (void)ingContent;
-- (void)ding;
-- (void)ale;
+- (void);
+- (void)"U;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)(;
+- (void)i;
+- (void);
+- (void)76;
+- (void)NoCE;
+- (void)fetchHomePaymentApplicationsForSerialNumber:(void (^)(NSArray *))arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)_taskDelegate;
+- (void)PKAccountPostProvisioningContent;
+- (void)transferpending;
+- (void)scale;
 @end
 

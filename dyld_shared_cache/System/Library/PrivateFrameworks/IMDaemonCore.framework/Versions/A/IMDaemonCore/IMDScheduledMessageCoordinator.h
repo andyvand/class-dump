@@ -7,26 +7,19 @@
 @interface IMDScheduledMessageCoordinator
 {
     id serviceSession;
-    id messageStore;
-    id chatRegistry;
-    id queue;
-    id membershipObserver;
-    id blocklistObserver;
-    id isFirstFire;
-    id timer;
 }
 
-+ (void);
++ (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
+- (void)! ;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)lyOffset=%f assemblyTimestamp=%u lastReceivedTimestamp=%u playoutRTPTimestamp=%u bufferDepth=%f;
 - (void);
 - (void);
 - (id);

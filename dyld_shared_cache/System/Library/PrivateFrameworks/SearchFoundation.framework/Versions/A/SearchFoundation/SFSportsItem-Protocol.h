@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFSportsItem
+- (void)emplates                                :(NSString *)arg1 %@
+;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int type;
 @end
 

@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerLayer, AVThumbnail, AVTimer, NSLayoutConstraint, NSView;
-
 __attribute__((visibility("hidden")))
 @interface AVTouchBarScrubberKnobView
 {
     _Bool _expanded;
-    double _expandAnimationProgress;
-    double _normalizedCenteringValue;
-    AVTimer *_expandTimer;
-    long long _animationCount;
-    AVThumbnail *_thumbnail;
-    NSView *_expandableInnerKnobView;
-    NSView *_knobContentView;
-    AVPlayerLayer *_scrubPlayerLayer;
-    NSLayoutConstraint *_expandableInnerKnobViewLeftConstraint;
-    NSLayoutConstraint *_expandableInnerKnobViewRightConstraint;
 }
 
 + (id);
@@ -37,9 +25,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)bvh_copy_from_address;
 - (_Bool);
 - (id);
 - (void);
@@ -48,11 +36,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property double expandAnimationProgress;
-@property(readonly) NSView *expandableInnerKnobView;
-@property(getter=isExpanded) _Bool expanded;
-@property double normalizedCenteringValue;
-@property(retain) AVPlayerLayer *scrubPlayerLayer;
-@property(retain) AVThumbnail *thumbnail;
 
 @end
 

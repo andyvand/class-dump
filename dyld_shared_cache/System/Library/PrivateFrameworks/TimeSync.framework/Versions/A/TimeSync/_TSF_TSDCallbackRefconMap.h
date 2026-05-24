@@ -9,15 +9,13 @@
 @interface _TSF_TSDCallbackRefconMap
 {
     NSMutableDictionary *_refcons;
-    unsigned long long _nextRefcon;
-    struct os_unfair_lock_s _lock;
 }
 
 + (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)_runNetworkReceiveThread;
+- (id);
 - (void);
 
 @end

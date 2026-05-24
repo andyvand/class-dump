@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLDictionaryConstraint, MLImageConstraint, MLMultiArrayConstraint, MLSequenceConstraint, MLStateConstraint, NSDictionary, NSString;
+@class MLStateConstraint, NSDictionary;
 
 @interface MLFeatureDescription
 {
     MLStateConstraint *_stateConstraintCached;
-    _Bool _optional;
-    NSString *_name;
-    long long _type;
-    NSDictionary *_valueConstraints;
-    MLMultiArrayConstraint *_multiArrayConstraintCached;
-    MLImageConstraint *_imageConstraintCached;
-    MLDictionaryConstraint *_dictionaryConstraintCached;
-    MLSequenceConstraint *_sequenceConstraintCached;
 }
 
 + (_Bool);
@@ -28,8 +20,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)s/libwebrtc/Source/ThirdParty/libwebrtc/Source/webrtc/video/frame_encode_metadata_writer.cc;
+- (id)BuildRoots/4~CN9SugADH2Fgo5tmM8vtIg6yfmyfRDs4wRRprzk/Library/Caches/com.apple.xbs/TemporaryDirectory.V8n6pu/Sources/libwebrtc/Source/ThirdParty/libwebrtc/Source/webrtc/rtc_base/boringssl_certificate.cc;
 - (id);
 - (id);
 - (_Bool);
@@ -39,7 +31,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -47,13 +39,6 @@
 - (id)gc_[WSOKGC?;73/«§£{wsoëçãßÛ×ÓÏËÇÃ¿»·³¯($ ;
 
 // Remaining properties
-@property(readonly, nonatomic) MLDictionaryConstraint *dictionaryConstraintCached; // @synthesize dictionaryConstraintCached=_dictionaryConstraintCached;
-@property(readonly, nonatomic) MLImageConstraint *imageConstraintCached; // @synthesize imageConstraintCached=_imageConstraintCached;
-@property(readonly, nonatomic) MLMultiArrayConstraint *multiArrayConstraintCached; // @synthesize multiArrayConstraintCached=_multiArrayConstraintCached;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic, getter=isOptional) _Bool optional; // @synthesize optional=_optional;
-@property(readonly, nonatomic) MLSequenceConstraint *sequenceConstraintCached; // @synthesize sequenceConstraintCached=_sequenceConstraintCached;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 @property(retain) NSDictionary *valueConstraints; // @synthesize valueConstraints=_valueConstraints;
 
 @end

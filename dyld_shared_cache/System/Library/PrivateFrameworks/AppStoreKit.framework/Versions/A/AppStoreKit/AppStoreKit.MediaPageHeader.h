@@ -9,13 +9,6 @@
 @interface AppStoreKit.MediaPageHeader : AppStoreKit.PageHeader
 {
     id artwork;
-    id video;
-    id collectionIcons;
-    id useGeneratedBackgroundGradient;
-    id backgroundColor;
-    id placementStyle;
-    id threeDimensionalArtworkRenderSize;
-    id backgroundStyle;
 }
 
 @end

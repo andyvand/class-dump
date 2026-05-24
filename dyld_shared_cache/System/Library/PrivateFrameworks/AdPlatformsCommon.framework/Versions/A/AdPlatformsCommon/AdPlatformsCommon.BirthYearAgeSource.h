@@ -7,8 +7,6 @@
 @interface AdPlatformsCommon.BirthYearAgeSource
 {
     id birthYearSource;
-    id clock;
-    id minimumValidBirthYear;
 }
 
 @end

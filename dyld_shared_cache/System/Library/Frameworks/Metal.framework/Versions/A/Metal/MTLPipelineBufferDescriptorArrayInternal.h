@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (void)te;
+- (void)_blendingState;
 - (id);
 
 @end

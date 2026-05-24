@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKAvailabilityCache, NSArray, NSDate, NSError, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSError;
 
 @interface EKRequestAvailabilityOperation
 {
     _Bool _isFinished;
-    _Bool _isExecuting;
-    EKAvailabilityCache *_availabilityCache;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_ignoredEventID;
-    NSArray *_addresses;
-    CDUnknownBlockType _resultsBlock;
-    id _requestID;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSError *_error;
 }
 
-- (id);
-- (id);
+- (id)a;
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ent interval.;
 - (_Bool);
 - (void);
 - (_Bool)a#ð!°Gù2'Ð1Â0@ù

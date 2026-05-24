@@ -5,5 +5,8 @@
 //
 
 @protocol FCCoreConfigurationObserving
+
+@optional
+- (void)9;
 @end
 

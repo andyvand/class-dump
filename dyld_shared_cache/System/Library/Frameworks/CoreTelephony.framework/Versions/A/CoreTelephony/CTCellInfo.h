@@ -11,21 +11,21 @@
     NSArray *_legacyInfo;
 }
 
-+ (_Bool);
++ (_Bool)resentationTimeStamp:CMTime(%lld, %d)
+	matchDescription:%@
+} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ol:(id)arg1 %{public}@ operation:%{public}@ options:%{public}@ on %{public}@ (%{public}s) cid:%u /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)B;
 - (id);
 - (void)¡&°!;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *ct_shortDescription;
 @property(readonly, nonatomic) NSString *ct_shortName;
-@property(retain, nonatomic) NSArray *legacyInfo; // @synthesize legacyInfo=_legacyInfo;
 
 @end
 

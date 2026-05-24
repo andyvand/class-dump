@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCountedSet, NSMutableArray, NSMutableDictionary, NSObject, NSPredicate, _CDInteractionStore;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject, _CDInteractionStore;
+@protocol OS_dispatch_queue;
 
 @interface _CDInteractionCache
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_timer;
-    NSMutableArray *_mutableInteractions;
-    unsigned long long _minCacheSize;
-    NSCountedSet *_conversationCandidates;
-    NSMutableDictionary *_mostRecentInteractionsByTaxonomyAndIdentifier;
-    _Bool _needsRefetch;
-    struct os_unfair_lock_s _lock;
-    _CDInteractionStore *_interactionStore;
-    unsigned long long _size;
-    NSPredicate *_predicate;
-    CDUnknownBlockType _filterBlock;
 }
 
 - (id);
@@ -32,19 +21,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)arget;
 - (void);
 - (CDUnknownBlockType);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (void)T@"NSUUID",R,C,V_uniqueIdentifier;
+- (void)ting auth headers, sending did finish app wake for session %@ with identifier %@;
 - (void);
 - (void);
 - (void);
@@ -52,15 +41,11 @@
 - (void);
 - (void)0@ù
 × ;
-- (id)OfAttachments: /* Error: Ran out of types for this method. */;
+- (id)setMaxNumberOfAttachments: /* Error: Ran out of types for this method. */;
 - (id)e-storage.predicate-delete;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType filterBlock; // @synthesize filterBlock=_filterBlock;
 @property(readonly, nonatomic) _CDInteractionStore *interactionStore; // @synthesize interactionStore=_interactionStore;
-@property(readonly, copy, nonatomic) NSArray *interactions;
-@property(readonly, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
 
 @end
 

@@ -9,21 +9,19 @@
 @interface WFOnScreenContentServiceOptions
 {
     NSArray *_supportedItemClasses;
-    CDStruct_4c969caf _originatingProcessAuditToken;
 }
 
-+ (_Bool);
-- (void);
-- (CDStruct_4c969caf);
-- (id);
-- (id);
++ (_Bool)__objc_imageinfo__DATA_CONST;
+- (void);
+- (CDStruct_6ad76789);
+- (id)3|;
+- (id)Ǹz;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_4c969caf originatingProcessAuditToken; // @synthesize originatingProcessAuditToken=_originatingProcessAuditToken;
 @property(readonly, nonatomic) NSArray *supportedItemClasses; // @synthesize supportedItemClasses=_supportedItemClasses;
 
 @end

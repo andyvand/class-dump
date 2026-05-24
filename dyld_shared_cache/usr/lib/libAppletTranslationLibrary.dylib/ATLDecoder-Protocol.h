@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSString;
+@protocol SETransceiver;
+
 @protocol ATLDecoder
+- (NSDictionary *)ientStateName:(NSString *)arg1 protectionClass:(NSString *)arg2 forBundleID:(NSString *)arg3 options:(id <SETransceiver>)arg4 completionHandler:(id *)arg5;
 @end
 

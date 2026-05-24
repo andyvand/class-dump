@@ -7,8 +7,6 @@
 @interface NewsUI2.UnrecognizedURLRetryHandler
 {
     id patterns;
-    id urlHandlerManager;
-    id redirectService;
 }
 
 @end

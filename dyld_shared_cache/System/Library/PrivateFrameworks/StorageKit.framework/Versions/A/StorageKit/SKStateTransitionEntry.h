@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SKStateTransitionEntry
 {
     NSString *_state;
-    NSString *_event;
-    CDUnknownBlockType _action;
-    SEL _selector;
-    NSString *_nextState;
 }
 
 + (id);
@@ -22,10 +18,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)<;
 - (id);
-- (id);
-- (id);
+- (id)	;
+- (id)c;
 - (CDUnknownBlockType);
 - (void);
 - (SEL);
@@ -34,10 +30,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
-@property(retain, nonatomic) NSString *event; // @synthesize event=_event;
-@property(retain, nonatomic) NSString *nextState; // @synthesize nextState=_nextState;
-@property(nonatomic) SEL selector; // @synthesize selector=_selector;
 @property(retain, nonatomic) NSString *state; // @synthesize state=_state;
 
 @end

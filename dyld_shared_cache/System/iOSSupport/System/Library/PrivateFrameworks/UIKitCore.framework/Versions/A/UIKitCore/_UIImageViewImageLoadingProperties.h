@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage, UIView, _UIImageLoader;
-@protocol _UIImageViewLoadingDelegate;
+@class _UIImageLoader;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageViewImageLoadingProperties
 {
     _Bool _startingLoad;
-    _Bool _enqueueingLoad;
-    _Bool _stoppingLoad;
-    _UIImageLoader *_imageLoader;
-    id <_UIImageViewLoadingDelegate> _loadingDelegate;
-    UIImage *_imageBeingSetByLoader;
-    UIView *_placeholderView;
 }
 
 - (void);
-- (id);
+- (id)etransmit:message %d non-existant
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (void)"16{CGSize=dd}24;
-- (id)isible: /* Error: Ran out of types for this method. */;
-- (_Bool)ndexPath:startingAtUpdateWithIdentifier: /* Error: Ran out of types for this method. */;
-- (id)ndTaskIdentifier;
+- (id)setNetworkActivityIndicatorVisible: /* Error: Ran out of types for this method. */;
+- (_Bool)finalIndexPathForIndexPath:startingAtUpdateWithIdentifier: /* Error: Ran out of types for this method. */;
+- (id)backgroundTaskIdentifier;
 - (void)_unregisterBSActionResponderArray:(_Bool)arg1;
 - (void)rtwork.bundle;
 - (void);
@@ -36,13 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)éÖ43ì;
 
 // Remaining properties
-@property(nonatomic, getter=isEnqueueingLoad) _Bool enqueueingLoad; // @synthesize enqueueingLoad=_enqueueingLoad;
-@property(retain, nonatomic) UIImage *imageBeingSetByLoader; // @synthesize imageBeingSetByLoader=_imageBeingSetByLoader;
 @property(retain, nonatomic) _UIImageLoader *imageLoader; // @synthesize imageLoader=_imageLoader;
-@property(retain, nonatomic) id <_UIImageViewLoadingDelegate> loadingDelegate; // @synthesize loadingDelegate=_loadingDelegate;
-@property(retain, nonatomic) UIView *placeholderView; // @synthesize placeholderView=_placeholderView;
-@property(nonatomic, getter=isStartingLoad) _Bool startingLoad; // @synthesize startingLoad=_startingLoad;
-@property(nonatomic, getter=isStoppingLoad) _Bool stoppingLoad; // @synthesize stoppingLoad=_stoppingLoad;
 
 @end
 

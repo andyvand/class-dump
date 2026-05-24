@@ -9,14 +9,12 @@
 @interface PPScoredLocation
 {
     PPLocation *_location;
-    double _score;
-    double _sentimentScore;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)copyFromBuffer:(id)arg1 sourceOffset:sourceBytesPerRow:sourceBytesPerImage:sourceSize:toTexture:destinationSlice:destinationLevel:destinationOrigin: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PPLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
-@property(readonly, nonatomic) double sentimentScore; // @synthesize sentimentScore=_sentimentScore;
 
 @end
 

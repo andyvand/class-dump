@@ -6,30 +6,33 @@
 
 #import <AVConference/VCTransportSessionIDS.h>
 
-@class NSString, VCIDSSessionInfoSynchronizer;
+@class VCIDSSessionInfoSynchronizer;
 
 __attribute__((visibility("hidden")))
 @interface VCTransportSessionIDSMultiLink : VCTransportSessionIDS
 {
     VCIDSSessionInfoSynchronizer *_sessionInfoSynchronizer;
-    _Bool _isWiFiAssistActive;
-    _Bool _oneToOneModeEnabled;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)_Aq ;
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,12 +41,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)";
 - (void);
 - (int);
 - (void);
@@ -54,14 +52,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) VCIDSSessionInfoSynchronizer *sessionInfoSynchronizer; // @synthesize sessionInfoSynchronizer=_sessionInfoSynchronizer;
-@property(readonly) Class superclass;
 
 @end
 

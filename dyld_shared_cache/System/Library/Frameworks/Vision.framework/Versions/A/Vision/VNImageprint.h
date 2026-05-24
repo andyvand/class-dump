@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VNMPImageDescriptor, VNRequestSpecifier;
+@class VNMPImageDescriptor, VNRequestSpecifier;
 
 @interface VNImageprint
 {
     VNRequestSpecifier *_originatingRequestSpecifier;
-    VNMPImageDescriptor *_descriptor;
-    unsigned long long _type;
 }
 
 + (_Bool);
@@ -21,12 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)@?<v@?@"FPItem"QB@"FPExtensionResponse"@"NSError">64;
+- (id)fetchVendorServiceForProviderDomainID:(id)arg1 handler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
 - (Class);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (unsigned long long);
 - (id);
@@ -38,11 +36,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) VNMPImageDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property(readonly) VNRequestSpecifier *originatingRequestSpecifier;
-@property(readonly, copy) NSString *requestClassName;
-@property(readonly, nonatomic) unsigned long long requestRevision;
-@property(readonly, nonatomic) unsigned long long serializedLength;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

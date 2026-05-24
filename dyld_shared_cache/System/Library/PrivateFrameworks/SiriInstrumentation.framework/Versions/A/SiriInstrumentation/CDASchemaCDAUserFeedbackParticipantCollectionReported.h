@@ -6,25 +6,23 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface CDASchemaCDAUserFeedbackParticipantCollectionReported : SISchemaInstrumentationMessage
 {
     NSString *_surveyId;
-    NSArray *_userFeedbackParticipants;
-    _Bool _hasSurveyId;
 }
 
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);
@@ -35,15 +33,12 @@
 - (_Bool);
 - (id);
 - (id)emaDODMLASRTranscriptionMetrics";
-- (id)torSiriSchemaExecutorAppIntentCallEnded;
+- (id)ExecutorSiriSchemaExecutorAppIntentCallEnded;
 - (id)äG;
 - (void)0å¯ÿE±­¢Q&;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSurveyId; // @synthesize hasSurveyId=_hasSurveyId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *surveyId; // @synthesize surveyId=_surveyId;
-@property(copy, nonatomic) NSArray *userFeedbackParticipants; // @synthesize userFeedbackParticipants=_userFeedbackParticipants;
 
 @end
 

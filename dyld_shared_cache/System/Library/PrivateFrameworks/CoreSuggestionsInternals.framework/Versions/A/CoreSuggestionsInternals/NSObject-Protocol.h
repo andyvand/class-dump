@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
-- (struct _NSZone *)geEnd;
+- (Class)imageRepresentation;
+- (id)imageReference;
+- (id)imageFromContact:(SEL)arg1;
+- (id)imageForType:(SEL)arg1 atIndex:(id)arg2 size:useMaxSize:resultHandler:progressHandler: /* Error: Ran out of types for this method. */;
+- (Class)imageForSubCollection:atIndex:size:resultHandler: /* Error: Ran out of types for this method. */;
+- (id)supportsFragmentOnlyEncoders;
+- (struct _NSZone *)timeRangeEnd;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

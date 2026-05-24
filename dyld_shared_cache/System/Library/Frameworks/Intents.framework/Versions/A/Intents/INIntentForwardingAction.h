@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INIntent, NSString;
+@class INIntent;
 
 @interface INIntentForwardingAction
 {
     _Bool _allowsScenelessAppLaunch;
-    _Bool _allowsForegroundAppLaunch;
-    NSString *_appBundleIdentifier;
-    INIntent *_intent;
-    double _requestTimeout;
-    CDStruct_4c969caf _hostProcessAuditToken;
 }
 
 + (_Bool);
 + (Class)p°ìÈL;
 - (void);
-- (CDStruct_4c969caf);
-- (_Bool);
+- (CDStruct_6ad76789);
+- (_Bool);
 - (_Bool);
 - (double);
-- (id);
+- (id)_clientBatteryEndpoints;
 - (id);
 - (_Bool);
+- (id)PKCS7_COPY_EXISTING_DIGEST;
+- (void)UserSettingsProperties;
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)Term:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideDestinationTypeOptionsForCreateFile:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsForegroundAppLaunch; // @synthesize allowsForegroundAppLaunch=_allowsForegroundAppLaunch;
-@property(nonatomic) _Bool allowsScenelessAppLaunch; // @synthesize allowsScenelessAppLaunch=_allowsScenelessAppLaunch;
-@property(readonly, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
-@property(readonly, nonatomic) CDStruct_4c969caf hostProcessAuditToken; // @synthesize hostProcessAuditToken=_hostProcessAuditToken;
 @property(readonly, nonatomic) INIntent *intent; // @synthesize intent=_intent;
-@property(nonatomic) double requestTimeout; // @synthesize requestTimeout=_requestTimeout;
 
 @end
 

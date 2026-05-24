@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSArray;
 @protocol NSServicesMonitorObserver;
 
 @interface NSServicesMonitor
 {
     id <NSServicesMonitorObserver> _observer;
-    NSURL *_bundleURL;
-    NSString *_presentationMode;
-    NSString *_availablePresentationMode;
-    unsigned long long _modificationBarrierStatus;
-    int _servicesSeedChangeToken;
-    _Bool _isRegisteredForNotifications;
-    _Bool _isActive;
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_NSURLSessionLocal _getCookieHeadersForTask:(id)arg1 completionHandler:(id)arg2 ];
++ (id)_invoke;
++ (id)ionLocal _getCookieHeadersForTask:(id)arg1 completionHandler:(id)arg2 ]_block_invoke;
++ (id)CookieLookupFinish;
 - (void);
-- (id);
+- (id)class %llu received unknown message:(id)arg1 %s;
 - (id);
 - (void);
 - (id);
@@ -33,7 +26,6 @@
 - (id)÷ä;
 
 // Remaining properties
-@property(readonly) NSArray *orderedServices;
 @property(readonly) NSArray *services;
 
 @end

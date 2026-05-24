@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSFaultDetailMessageXMLValue, NSString;
+@class EWSFaultDetailMessageXMLValue;
 
 @interface EWSFaultDetailMessageXML
 {
     EWSFaultDetailMessageXMLValue *_Value;
 }
 
-+ (id);
-- (id);
++ (id)_F9;
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) EWSFaultDetailMessageXMLValue *Value; // @synthesize Value=_Value;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

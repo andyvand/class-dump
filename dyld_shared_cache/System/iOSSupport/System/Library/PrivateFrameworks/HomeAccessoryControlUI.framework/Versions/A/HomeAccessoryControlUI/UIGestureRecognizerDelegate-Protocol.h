@@ -9,6 +9,8 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
+- (_Bool)񯣱;
+- (_Bool);
 - (_Bool)d areas to all areas, command:(UIGestureRecognizer *)arg1 %{public}s;
 @end
 

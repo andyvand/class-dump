@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL, TSAnalyticsReferral;
+@class NSURL;
 
 @interface TSArticleContext
 {
     void url;
-    void title;
-    void sourceApplication;
-    void previousArticleID;
-    void previousArticleVersion;
-    void adPreviewSessionID;
-    void adPreviewID;
-    void adQToken;
-    long long maximumAdRequestsForCurrentAdPreviewID;
-    void userActionDate;
-    long long presentationReason;
-    void notificationID;
-    void notificationSenderChannelID;
-    _Bool shouldAutoPlayVideo;
-    TSAnalyticsReferral *referral;
 }
 
 - (id);
@@ -32,9 +18,9 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)e extends past the end;
+- (id)ve;
+- (id)subrange start is negative;
 - (_Bool);
 - (id);
 - (long long);
@@ -47,21 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *adPreviewID;
-@property(nonatomic, readonly) NSString *adPreviewSessionID;
-@property(nonatomic, readonly) NSString *adQToken;
-@property(nonatomic, readonly) long long maximumAdRequestsForCurrentAdPreviewID; // @synthesize maximumAdRequestsForCurrentAdPreviewID;
-@property(nonatomic, readonly) NSString *notificationID;
-@property(nonatomic, readonly) NSString *notificationSenderChannelID;
-@property(nonatomic, readonly) long long presentationReason; // @synthesize presentationReason;
-@property(nonatomic, readonly) NSString *previousArticleID;
-@property(nonatomic, readonly) NSString *previousArticleVersion;
-@property(nonatomic, retain) TSAnalyticsReferral *referral; // @synthesize referral;
-@property(nonatomic, readonly) _Bool shouldAutoPlayVideo; // @synthesize shouldAutoPlayVideo;
-@property(nonatomic, readonly) NSString *sourceApplication;
-@property(nonatomic, readonly) NSString *title;
 @property(nonatomic, readonly) NSURL *url;
-@property(nonatomic, readonly) NSDate *userActionDate;
 
 @end
 

@@ -6,23 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface SISchemaSelfTriggerSuppressionMetrics : SISchemaInstrumentationMessage
 {
     int _numSelfTriggersDetected;
-    double _durationSelfTriggerSuppressionWasActiveInSeconds;
-    NSArray *_selfTriggerSuppressionSessions;
-    struct {
-        unsigned int numSelfTriggersDetected:1;
-        unsigned int durationSelfTriggerSuppressionWasActiveInSeconds:1;
-    } _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (unsigned long long);
 - (id);
@@ -38,23 +30,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long)_hashArrayData;
+- (_Bool)framework/IntlPreferences;
+- (_Bool)OWID, OLD.guid); END;;
 - (id);
 - (id);
-- (id)Id;
-- (id)erated;
-- (void)OUT_WAVE_2_1;
+- (id)deleteCurareId;
+- (id)_featuresGenerated;
+- (void)MWTFORMATLAYOUT_WAVE_2_1;
 
 // Remaining properties
-@property(nonatomic) double durationSelfTriggerSuppressionWasActiveInSeconds; // @synthesize durationSelfTriggerSuppressionWasActiveInSeconds=_durationSelfTriggerSuppressionWasActiveInSeconds;
-@property(nonatomic) _Bool hasDurationSelfTriggerSuppressionWasActiveInSeconds;
-@property(nonatomic) _Bool hasNumSelfTriggersDetected;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int numSelfTriggersDetected; // @synthesize numSelfTriggersDetected=_numSelfTriggersDetected;
-@property(copy, nonatomic) NSArray *selfTriggerSuppressionSessions; // @synthesize selfTriggerSuppressionSessions=_selfTriggerSuppressionSessions;
 
 @end
 

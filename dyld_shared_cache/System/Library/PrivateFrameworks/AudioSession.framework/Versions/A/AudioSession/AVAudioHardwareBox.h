@@ -6,36 +6,26 @@
 
 #import <AudioSession/AVAudioHardwareObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AVAudioHardwareBox : AVAudioHardwareObject
 {
 }
 
+- (_Bool)NEIKEv2InitiatorTransportIPv6Address;
+- (_Bool)_TtCE16NetworkExtensionCSo27NEExtensionBaseProviderHost21NEAppExtensionProcess;
+- (id)_TtP16NetworkExtension42NEHotspotAuthenticationProviderXPCProtocol_;
+- (unsigned long long)NEIKEv2CryptoKitSPAKE2Plus;
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (unsigned int);
-- (id)ontroller:error: /* Error: Ran out of types for this method. */;
-- (id)10__function6__baseIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryS7_EEEEEE;
+- (_Bool)H;
+- (unsigned int);
+- (id)overrideChannelLayout:controller:error: /* Error: Ran out of types for this method. */;
+- (id)NSt3__110__function6__baseIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryS7_EEEEEE;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *UID;
-@property(readonly, nonatomic, getter=isAcquired) _Bool acquired;
-@property(readonly, nonatomic) unsigned long long acquistionStatus;
-@property(readonly, nonatomic) NSArray *clocks;
-@property(readonly, nonatomic) NSArray *controls;
-@property(readonly, nonatomic) NSArray *devices;
-@property(readonly, nonatomic) _Bool hasAudio;
-@property(readonly, nonatomic) _Bool hasMIDI;
-@property(readonly, nonatomic) _Bool hasVideo;
-@property(readonly, nonatomic) _Bool requiresAuthentication;
-@property(readonly, nonatomic) unsigned int transportType;
 
 @end
 

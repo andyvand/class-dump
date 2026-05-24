@@ -13,7 +13,7 @@
 
 + (id);
 - (id);
-- (void);
+- (void)riginalQuad;
 - (id);
 - (_Bool);
 - (void);

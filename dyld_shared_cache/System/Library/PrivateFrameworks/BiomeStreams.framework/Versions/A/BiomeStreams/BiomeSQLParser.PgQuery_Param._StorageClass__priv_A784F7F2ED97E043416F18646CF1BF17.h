@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_Param._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _paramkind;
-    id _paramid;
-    id _paramtype;
-    id _paramtypmod;
-    id _paramcollid;
-    id _location;
 }
 
 @end

@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, geo_isolater;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class geo_isolater;
 
 @interface GEOCoalescingTimer
 {
     geo_isolater *_isolater;
-    double _coalescingInterval;
-    double _deadlineInterval;
-    _Bool _isScheduled;
-    double _deadline;
-    NSObject<OS_dispatch_source> *_timer;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _callback;
 }
 
-- (void);
-- (_Bool);
-- (id);
+- (void)B24@0:8Q16 /* Error: Ran out of types for this method. */;
+- (_Bool)customProperties;
+- (id)T@"NSString",C,D;
 - (void);
 - (void);
 - (void)´ÿ07F6;

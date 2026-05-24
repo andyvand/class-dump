@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSString, NSTextField;
+@class NSString, NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface StartPageEmptyFolderItem
 {
     NSString *_emptyFolderText;
-    NSAppearance *_appearance;
-    NSTextField *_emptyFolderTextField;
 }
 
 - (void);
@@ -23,8 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *appearance; // @synthesize appearance=_appearance;
-@property(copy, nonatomic) NSString *emptyFolderText; // @synthesize emptyFolderText=_emptyFolderText;
 @property(nonatomic) __weak NSTextField *emptyFolderTextField; // @synthesize emptyFolderTextField=_emptyFolderTextField;
 
 @end

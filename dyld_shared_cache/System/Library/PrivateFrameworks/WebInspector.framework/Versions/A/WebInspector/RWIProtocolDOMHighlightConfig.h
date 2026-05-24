@@ -6,8 +6,6 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class RWIProtocolDOMRGBAColor;
-
 @interface RWIProtocolDOMHighlightConfig : RWIProtocolJSONObject
 {
 }
@@ -17,17 +15,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@c;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RWIProtocolDOMRGBAColor *borderColor;
-@property(retain, nonatomic) RWIProtocolDOMRGBAColor *contentColor;
-@property(retain, nonatomic) RWIProtocolDOMRGBAColor *marginColor;
-@property(retain, nonatomic) RWIProtocolDOMRGBAColor *paddingColor;
 @property(nonatomic) _Bool showInfo;
 
 @end

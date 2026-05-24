@@ -7,9 +7,10 @@
 @class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSecondaryHeaderStandardCardSection
+- (_SFPBRFTextProperty *)Dictionary=}32@0:8@16@24 /* Error: Ran out of types for this method. */;
+- (NSData *)appendDuration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1;
 @end
 

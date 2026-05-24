@@ -4,74 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, NTPBRecordBase;
+@class NTPBRecordBase;
 
 @interface NTPBAudioConfigRecord
 {
     NTPBRecordBase *_base;
-    NSString *_configuration;
-    NSString *_curatedArticleIDs;
-    NSString *_dailyBriefingArticleID;
-    NSString *_featuredAudioArticleListID;
-    NSString *_feedConfiguration;
-    NSMutableArray *_heroArticleIDs;
-    NSString *_latestAudioArticleListID;
 }
 
 + (Class);
 - (void);
 - (_Bool);
-- (id);
+- (id)ocalized>;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
+- (void)H;
+- (_Bool)promise subclass but was instead for class %@ :%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (unsigned long long);
 - (void);
 - (id);
+- (void);
+- (_Bool);
+- (void);
+- (void)foList"8;
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)u;
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (id)¬I;
-- (id)hip_favorited_boost;
+- (id)cohort_membership_favorited_boost;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBRecordBase *base; // @synthesize base=_base;
-@property(retain, nonatomic) NSString *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) NSString *curatedArticleIDs; // @synthesize curatedArticleIDs=_curatedArticleIDs;
-@property(retain, nonatomic) NSString *dailyBriefingArticleID; // @synthesize dailyBriefingArticleID=_dailyBriefingArticleID;
-@property(retain, nonatomic) NSString *featuredAudioArticleListID; // @synthesize featuredAudioArticleListID=_featuredAudioArticleListID;
-@property(retain, nonatomic) NSString *feedConfiguration; // @synthesize feedConfiguration=_feedConfiguration;
 @property(readonly, nonatomic) _Bool hasBase;
-@property(readonly, nonatomic) _Bool hasConfiguration;
-@property(readonly, nonatomic) _Bool hasCuratedArticleIDs;
-@property(readonly, nonatomic) _Bool hasDailyBriefingArticleID;
-@property(readonly, nonatomic) _Bool hasFeaturedAudioArticleListID;
-@property(readonly, nonatomic) _Bool hasFeedConfiguration;
-@property(readonly, nonatomic) _Bool hasLatestAudioArticleListID;
-@property(retain, nonatomic) NSMutableArray *heroArticleIDs; // @synthesize heroArticleIDs=_heroArticleIDs;
-@property(retain, nonatomic) NSString *latestAudioArticleListID; // @synthesize latestAudioArticleListID=_latestAudioArticleListID;
 
 @end
 

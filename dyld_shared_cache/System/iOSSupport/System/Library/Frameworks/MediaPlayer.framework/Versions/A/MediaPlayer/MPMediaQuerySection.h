@@ -9,28 +9,24 @@
 @interface MPMediaQuerySection
 {
     NSString *_title;
-    unsigned long long _sectionIndexTitleIndex;
-    struct _NSRange _range;
 }
 
 + (_Bool);
-- (void);
+- (void)ذ;
 - (unsigned long long);
-- (id);
+- (id)com.apple.Handwriting.HandwritingProvider;
 - (id);
 - (id);
 - (id);
 - (struct _NSRange);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)@;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(nonatomic) unsigned long long sectionIndexTitleIndex; // @synthesize sectionIndexTitleIndex=_sectionIndexTitleIndex;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
